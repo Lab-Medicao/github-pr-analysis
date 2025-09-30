@@ -1,569 +1,569 @@
-number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen
-366,Http proxy support,bomsy,2016-07-05T11:47:40Z,2016-08-24T16:05:26+00:00,1,1204.3
-452,Adding support for request cancellation,nickuraltsev,2016-09-18T21:21:27Z,2016-10-10T16:31:44+00:00,9,523.17
-461,Add OPTIONS-method as a shortcut,theikkila,2016-09-29T16:15:07Z,2017-03-27T04:06:25+00:00,2,4283.85
-477,Make headers with the same name be returned as array,kompot,2016-10-11T01:40:09Z,2017-04-08T11:31:54+00:00,2,4305.86
-483,Support proxy auth,mawrkus,2016-10-14T13:04:29Z,2016-10-19T09:02:42+00:00,2,115.97
-547,Minor grammar/line length changes,Rossolson,2016-11-21T21:30:11Z,2017-04-08T11:29:38+00:00,3,3301.99
-558,Update parseHeaders to match node http behavior,Jessidhia,2016-11-28T04:35:06Z,2017-08-12T12:56:40+00:00,1,6176.36
-565,Adding interpretation of no_proxy,inthemill,2016-12-01T21:35:53Z,2018-08-30T18:21:44+00:00,3,15284.76
-581,Fixing combineURLs to support an empty relativeURL,loklaan,2016-12-07T01:29:51Z,2016-12-08T05:23:45+00:00,5,27.9
-656,Parse the JSON response if response is undefined (fix #265),yp,2017-01-18T09:04:08Z,2020-05-22T14:00:10+00:00,2,29284.93
-680,Enable writings node.js buffers directly,EricMCornelius,2017-02-02T21:30:07Z,2017-04-08T12:00:41+00:00,1,1550.51
-691,Adding a way to disable all proxy processing,vbfox,2017-02-07T23:55:41Z,2017-08-14T11:38:44+00:00,3,4499.72
-742,Change http request method in Axios request method,SeokHeo,2017-03-07T09:35:43Z,2018-03-08T16:18:12+00:00,3,8790.71
-786,Updating follow-redirects to 1.1.0,cappslock,2017-03-24T02:19:32Z,2017-03-29T17:31:46+00:00,1,135.2
-828,Return the last request made in axios response,rubennorte,2017-04-08T11:02:13Z,2017-04-08T18:26:05+00:00,1,7.4
-830,Include underlying request in errors,rubennorte,2017-04-08T19:45:14Z,2017-04-15T16:18:44+00:00,1,164.56
-831,Pass agents to follow redirects,rubennorte,2017-04-08T20:12:00Z,2020-06-25T16:45:27+00:00,5,28172.56
-842,Adding ability to transform data based on status,berfarah,2017-04-14T08:30:53Z,2020-05-22T14:05:56+00:00,2,27221.58
-869,Adds option to specify character set in responses (with http adapter),johntron,2017-04-27T16:17:12Z,2018-03-10T17:13:05+00:00,3,7608.93
-874,Duplicate header handling,tybro0103,2017-04-29T04:00:10Z,2017-08-12T12:58:10+00:00,1,2528.97
-878,Add CDNJS version badge in README.md,sufuf3,2017-05-02T03:47:13Z,2020-05-22T14:09:10+00:00,5,26794.37
-887,No buffer in browser,fgnass,2017-05-04T22:00:30Z,2017-05-31T02:31:43+00:00,1,628.52
-912,Convert the method parameter to lowercase,luciy,2017-05-23T07:37:11Z,2017-05-31T14:49:04+00:00,1,199.2
-935,"added unpkg ""dist/axios.js""",jmnote,2017-06-04T11:23:30Z,2018-09-06T12:07:51+00:00,1,11016.74
-959,Fixing http adapter to allow HTTPS connections via HTTP,Khaledgarbaya,2017-06-15T12:14:04Z,2018-07-05T06:51:11+00:00,5,9234.62
-965,Add documentation about how to implement `promise.prototype.finally` in ES6,BrodaNoel,2017-06-20T04:12:13Z,2017-07-10T07:56:58+00:00,1,483.75
-1040,Decorate resolve and reject to clear timeout in all cases,pbarbiero,2017-08-12T13:52:57Z,2018-03-08T17:35:59+00:00,2,4995.72
-1053,Response headers missing,sahanatroam,2017-08-21T01:54:18Z,2018-01-09T01:02:23+00:00,1,3383.13
-1065,Avoid concatenating chunks to calculate their total lenght,zenekron,2017-09-01T21:50:56Z,2020-05-22T14:14:58+00:00,1,23848.4
-1070,Adding support for UNIX Sockets,Starfox64,2017-09-04T15:10:09Z,2018-02-17T00:05:49+00:00,1,3968.93
-1075,Replace webpack with rollup,SidKwok,2017-09-07T05:17:07Z,2019-12-25T00:31:06+00:00,1,20131.23
-1091,Added ES6 example in README,jjingrong,2017-09-19T09:52:21Z,2018-04-07T03:52:06+00:00,1,4794.0
-1095,Fix/pass agent mixed protocol redirects,pmarrone,2017-09-21T20:29:50Z,2020-05-22T14:19:03+00:00,1,23369.82
-1107,Fixing Cookie Helper with Async Components (#1105),rbown,2017-09-27T00:09:46Z,2020-05-22T14:44:18+00:00,2,23246.58
-1110,Adding jsDelivr link in README,LukasDrgon,2017-09-30T19:35:35Z,2020-02-15T12:48:17+00:00,11,20825.21
-1122,Fixing default method for an instance always overwritten by get,Nilegfx,2017-10-10T19:49:29Z,2018-02-20T06:39:06+00:00,1,3178.83
-1129,Unzipping response body only for statuses != 204,drawski,2017-10-13T11:51:56Z,2019-05-15T19:35:10+00:00,1,13903.72
-1148,Adding better 'responseType' and 'method' type definitions by using a…,Fitzpasd,2017-10-24T17:50:59Z,2018-04-08T07:19:47+00:00,2,3973.48
-1203,Add a check for navigator object since isURLSameOrigin relies on it,peterjwest,2017-11-26T23:25:32Z,2020-02-24T11:22:44+00:00,1,19667.95
-1232,fix https request on http proxy problem,stoneChen,2017-12-11T10:30:34Z,2020-05-22T19:15:21+00:00,3,21440.75
-1234,Updating the docs to use Promises. Fixes #1042,franciscop,2017-12-13T05:01:38Z,2020-02-15T12:41:05+00:00,1,19063.66
-1258,Bug/allow header to contain http verb keys #1252,nycdavid,2017-12-29T15:47:55Z,2020-05-22T19:26:11+00:00,2,21003.64
-1264,Update license date,m1guelpf,2017-12-31T23:57:46Z,2018-01-05T16:30:16+00:00,1,112.54
-1270,Upgrade all dependencies to latest version,timReynolds,2018-01-06T23:49:35Z,2018-03-31T12:26:28+00:00,1,2004.61
-1272,Fix Markdown formatting for issue and pull request template,aaronang,2018-01-07T06:40:18Z,2018-01-08T16:29:53+00:00,1,33.83
-1273,adding codetriage badge,jcrben,2018-01-07T07:09:39Z,2018-02-08T03:23:29+00:00,3,764.23
-1274,Temp fix for follow-redirect,felixmosh,2018-01-07T16:45:29Z,2018-01-11T05:48:14+00:00,1,85.05
-1276,Added a simple async/await example,unknown,2018-01-08T12:16:08Z,2018-02-23T03:03:47+00:00,1,1094.79
-1287,Set maxBodyLength on follow-redirects to match maxContentLength on AxiosOptions,mividtim,2018-01-11T14:03:04Z,2018-02-11T19:25:56+00:00,1,749.38
-1314,Adding example of cancelling a POST request to readme,penance316,2018-01-22T13:02:09Z,2018-01-22T16:41:10+00:00,3,3.65
-1334,Use Babel 7 & Webpack3 (via blocks),zcei,2018-02-05T11:58:34Z,2018-02-05T15:59:41+00:00,6,4.02
-1335,ESLint Standard,zcei,2018-02-05T16:29:26Z,2018-02-05T20:58:21+00:00,4,4.48
-1336,migrate nodeunit to jasmine,axe312ger,2018-02-05T17:00:26Z,2018-02-09T10:56:02+00:00,2,89.93
-1339,Adjust karma to use Webpack 3 config,zcei,2018-02-06T08:00:21Z,2018-02-09T12:07:10+00:00,1,76.11
-1342,fix cannot send post method,alpancs,2018-02-07T05:49:55Z,2018-02-17T02:58:49+00:00,1,237.15
-1352,Substitute custom utils with lodash,zcei,2018-02-09T13:20:57Z,2018-02-09T15:08:13+00:00,7,1.79
-1363,Add reference to axios-fetch in ECOSYSTEM.md,mdlavin,2018-02-14T17:04:16Z,2018-02-17T01:42:34+00:00,1,56.64
-1364,Documents default,MiguelMadero,2018-02-15T01:50:04Z,2018-02-17T16:28:47+00:00,1,62.65
-1377,Error/typo,Mathiasduc,2018-02-21T17:01:07Z,2018-02-22T18:57:28+00:00,1,25.94
-1391,Clone config defaults on axios.create,heisian,2018-02-28T22:39:01Z,2018-03-09T17:18:44+00:00,17,210.66
-1395,Fixing #385 - Keep defaults local to instance,codeclown,2018-03-02T10:31:42Z,2018-04-10T22:28:13+00:00,7,947.94
-1399,Fixing #537 Rejecting promise if request is cancelled by the browser,mattridley,2018-03-05T16:23:09Z,2018-03-07T19:50:17+00:00,1,51.45
-1407,FIX: all tests and eslint for the 1.0.0 branch,hans-lizihan,2018-03-11T03:45:15Z,2018-03-26T08:59:51+00:00,3,365.24
-1410,Completely delete ejected interceptor handlers,Axnyff,2018-03-12T20:47:56Z,2020-06-04T18:50:58+00:00,1,19558.05
-1419,Adding isAxiosError flag to errors thrown by axios,AyushG3112,2018-03-15T14:46:39Z,2018-08-20T09:02:24+00:00,3,3786.26
-1441,Updating xhr adapter to inherit withCredentials flag from the config,kmagiera,2018-03-28T09:44:22Z,2019-12-07T10:30:45+00:00,1,14856.77
-1479,implement maxContentLength in xhr,kheyse-werk,2018-04-13T09:27:51Z,2020-05-25T17:09:43+00:00,3,18559.7
-1484,Update README.md,JimLynchCodes,2018-04-14T16:58:21Z,2018-07-05T15:02:42+00:00,1,1966.07
-1485,Destroy stream on exceeding maxContentLength (fixes #1098),resure,2018-04-15T14:59:31Z,2019-05-07T19:20:35+00:00,1,9292.35
-1487,fix 'Network Error' in react native android,huangzuizui,2018-04-16T08:02:30Z,2020-05-23T17:06:11+00:00,2,18441.06
-1492,Fixing password encoding with special characters in basic authentication,1pm,2018-04-18T07:21:15Z,2020-05-26T16:32:04+00:00,1,18465.18
-1493,Fixing maxContentLength config not working for exceeded content-length response,cctuan,2018-04-18T23:00:31Z,2020-06-25T16:48:03+00:00,5,19169.79
-1511,Fixing default transformRequest with buffer pools,delventhalz,2018-04-30T21:30:13Z,2020-05-27T12:42:42+00:00,1,18183.21
-1521,fix incorrect variable while returning promise on interceptors,barisbora,2018-05-06T19:50:42Z,2019-12-03T11:49:22+00:00,1,13815.98
-1532,Move axios core to ESM,zcei,2018-05-11T13:52:05Z,2018-05-11T15:05:44+00:00,1,1.23
-1544,Allow setting of content-type,andrew-templeton,2018-05-18T04:30:40Z,2020-02-16T05:19:06+00:00,1,15336.81
-1551,cleaner definitions with union types.,sakoh,2018-05-18T21:43:31Z,2018-07-05T06:48:08+00:00,1,1137.08
-1592,chore: cache node_modules,DanielRuf,2018-06-07T20:59:40Z,2020-04-04T20:44:43+00:00,1,16007.75
-1605,Allow custom return types,zcei,2018-06-14T09:59:57Z,2018-06-18T08:48:30+00:00,1,94.81
-1611,[NS]: Send `false` flag isStandardBrowserEnv for Nativescript,arpit2438735,2018-06-17T15:03:40Z,2018-06-19T12:59:59+00:00,1,45.94
-1622,Fixing usage of deprecated Buffer constructor. (#1555),mvdnbrk,2018-06-21T19:39:03Z,2018-07-05T06:47:18+00:00,1,323.14
-1623,Adding second then on axios call in the readme,guillaumebriday,2018-06-22T08:51:56Z,2018-07-02T03:10:05+00:00,1,234.3
-1689,Drop IE9 and IE10,RikkiGibson,2018-07-21T17:39:47Z,2018-08-06T07:56:52+00:00,1,374.28
-1693,Adding support for no_proxy env variable,pheebcodes,2018-07-24T01:41:14Z,2018-08-07T17:52:05+00:00,2,352.18
-1712,Added getUri method,anthonygauthier,2018-08-06T12:57:15Z,2018-08-07T17:52:31+00:00,2,28.92
-1715,Fixing crash in XHR when setting user-agent header,steelbrain,2018-08-08T16:12:25Z,2018-12-30T09:50:04+00:00,2,3449.63
-1736,Add `getUri` signature to TypeScript definition.,atrauzzi,2018-08-17T12:53:21Z,2018-08-21T14:24:54+00:00,2,97.53
-1738,makes axios error generic to use axios response,sumanla13a,2018-08-17T21:18:07Z,2019-05-07T19:14:58+00:00,4,6309.95
-1745,Adding responseEncoding to mergeConfig,ehrhart,2018-08-20T15:42:12Z,2020-02-15T13:49:27+00:00,2,13054.12
-1752,Fixing socket hang up error on node side for slow response.,ryouaki,2018-08-23T02:00:06Z,2019-09-16T08:58:59+00:00,2,9342.98
-1758,Preserve HTTP method when following redirect,RikkiGibson,2018-08-26T20:23:24Z,2018-08-27T15:26:39+00:00,2,19.05
-1771,Fixing building url with hash mark,m1neral,2018-08-31T12:34:56Z,2018-09-04T07:53:57+00:00,3,91.32
-1773,Fixing overwrite Blob/File type as Content-Type in browser.,Gerhut,2018-09-01T03:44:30Z,2020-05-28T19:28:41+00:00,7,15255.74
-1781,Allow uppercase methods in typings.,knpwrs,2018-09-07T13:10:02Z,2018-09-17T16:25:07+00:00,1,243.25
-1787,Consistent coding style,exalted,2018-09-12T12:19:49Z,2018-09-17T14:19:35+00:00,1,122.0
-1789,Fixing .eslintrc without extension,ManoelLobo,2018-09-13T12:12:25Z,2018-09-17T14:24:47+00:00,1,98.21
-1798,"Refined typescript types, added documentation to types (NOTE: Breaking changes)",jchitel,2018-09-20T14:19:49Z,2020-08-27T19:11:05+00:00,1,16972.85
-1799,Update README.md,ps0305,2018-09-20T14:24:06Z,2020-04-05T09:58:20+00:00,1,13507.57
-1814,fix the description of maxContentLength in README,hashtoes,2018-10-01T07:34:13Z,2020-02-15T14:01:38+00:00,2,12054.46
-1816,Remove dependency on is-buffer,Chalarangelo,2018-10-01T19:17:56Z,2019-11-18T06:53:28+00:00,7,9899.59
-1831,feat: Allow custom config,Khaledgarbaya,2018-10-15T15:46:09Z,2019-11-23T23:48:00+00:00,2,9704.03
-1845,Allow unsetting headers by passing null (#382),codeclown,2018-10-21T15:58:05Z,2020-06-04T18:57:55+00:00,8,14211.0
-1852,Fixing ignore set withCredentials false,tonwe,2018-10-26T07:54:13Z,2019-12-07T10:31:34+00:00,4,9770.62
-1864,Update `axios-authorized` to ECOSYSTEM.md,zaguiini,2018-11-02T13:36:26Z,2020-04-26T21:14:27+00:00,2,12991.63
-1867,Fixing request.responseText missing error,Luno33,2018-11-03T13:46:25Z,2020-06-25T16:50:01+00:00,1,14403.06
-1870,Adding responseEncoding to AxiosRequestConfig typescript definitions,Aiden01,2018-11-04T18:46:19Z,2020-03-07T07:03:29+00:00,6,11724.29
-1880,Prevent subdomains of domains in NO_PROXY from getting proxied,tshen8,2018-11-15T18:30:50Z,2019-09-28T23:52:26+00:00,8,7613.36
-1884,feat: type axios-error,clentfort,2018-11-21T13:26:47Z,2019-05-07T19:16:32+00:00,1,4013.83
-1886,Fixing indexOf[throws] error on null url.,RobusGauli,2018-11-22T13:22:36Z,2020-06-25T16:56:43+00:00,2,13947.57
-1889,removes unnecessary Content-Type delete according issue #362,laurenz-glueck,2018-11-23T09:00:34Z,2020-05-29T04:48:55+00:00,1,13267.81
-1896,Update README.md. Querystring libraries note,airs0urce,2018-11-27T10:33:05Z,2019-02-04T04:16:38+00:00,5,1649.73
-1899,Updating readme.md file,sbimochan,2018-11-27T16:22:19Z,2019-01-17T17:34:06+00:00,3,1225.2
-1900,Adding support for URLSearchParams in node,mindriven,2018-11-27T19:39:40Z,2020-06-25T17:06:00+00:00,1,13821.44
-1901,Added Response header access instructions,unguul,2018-11-29T06:06:14Z,2020-02-26T11:03:20+00:00,2,10900.95
-1904,Fixing protocol https not found issue,M-shin,2018-11-30T23:14:03Z,2019-12-25T20:55:37+00:00,5,9357.69
-1912,support message-body in get requests,jochen42,2018-12-06T11:25:22Z,2019-06-07T16:13:08+00:00,1,4396.8
-1925,Add react-hooks-axios,int64ago,2018-12-13T07:47:26Z,2019-02-04T03:54:50+00:00,1,1268.12
-1929,Enhancing... Code cleanups,sbimochan,2018-12-14T05:26:27Z,2020-05-29T04:57:03+00:00,5,12767.51
-1958,Allow opening examples in Gitpod,svenefftinge,2019-01-14T09:26:51Z,2020-05-29T05:02:31+00:00,1,12019.59
-1964,Typescript allow extension of AxiosConfig,mtandersson,2019-01-17T15:00:07Z,2020-07-01T16:48:18+00:00,3,12745.8
-1985,Adding tests and maxBodyLength for PUT requests (2),Paxa,2019-01-30T13:59:06Z,2020-05-29T05:10:04+00:00,1,11631.18
-1987,Adding support for params without value.,unknown,2019-02-01T07:48:19Z,2020-07-01T17:35:25+00:00,5,12393.78
-1993,Fixing Mocha tests.,GreenTeaCake,2019-02-09T00:49:10Z,2019-02-09T04:27:36+00:00,1,3.64
-1996,Adding tests for method `options` type definitions,GreenTeaCake,2019-02-11T18:35:15Z,2020-03-07T06:10:35+00:00,2,9347.59
-2000,Fixing memory leak in v8 based enviroments,Tarabyte,2019-02-14T09:29:35Z,2020-06-25T18:00:25+00:00,1,11936.51
-2003,Include axios-hooks in ECOSYSTEM.md,simoneb,2019-02-18T00:07:32Z,2020-02-26T12:13:37+00:00,3,8964.1
-2020,docs(ECOSYSTEM): add axios-api-versioning,Weffe,2019-02-28T00:16:33Z,2019-03-04T19:16:11+00:00,1,114.99
-2036,Readme updated,victorhermes,2019-03-08T00:21:02Z,2019-05-07T20:17:17+00:00,2,1459.94
-2040,Adding feature to support axios sub-instances,noodle,2019-03-11T00:10:31Z,2020-05-29T14:53:41+00:00,2,10694.72
-2062,Fix type of progressEvent,vldvel,2019-03-26T14:41:25Z,2020-03-28T09:52:25+00:00,3,8827.18
-2066,Fixing spacing for READ.me,unknown,2019-03-28T03:48:14Z,2019-05-07T20:16:15+00:00,2,976.47
-2071,Adding Brotli Support,hlthi,2019-03-31T05:19:16Z,2020-03-24T14:09:44+00:00,3,8624.84
-2080,Include axios-data-unpacker in ECOSYSTEM.md,anubhavsrivastava,2019-04-04T17:47:08Z,2020-05-29T17:06:21+00:00,1,10103.32
-2088,docs(): Detailed config options environment.,zgayjjf,2019-04-09T04:07:47Z,2020-05-29T17:08:28+00:00,1,9997.01
-2090,Update README.md. - Fixed example methods typo,ordinarycas,2019-04-10T01:35:35Z,2019-05-07T20:01:44+00:00,2,666.44
-2121,Clarify what values responseType can have in Node,MatrixFrog,2019-04-30T22:28:00Z,2019-05-07T19:26:33+00:00,1,164.98
-2128,Fixing getUri to return url that would be used for a request,tskimmett,2019-05-03T18:55:44Z,2020-05-29T17:37:07+00:00,4,9406.69
-2135,Improving type of AxiosError.isAxiosError,UselessPickles,2019-05-07T21:35:43Z,2020-01-24T07:01:46+00:00,1,6273.43
-2138,Using Node 10 on CI,rajivshah3,2019-05-09T03:45:33Z,2019-05-30T16:33:26+00:00,6,516.8
-2141,Add r2curl in ECOSYSTEM,uyu423,2019-05-09T14:03:28Z,2019-05-15T19:40:24+00:00,1,149.62
-2162,Include axios based Swagger Codegen in ECOSYSTEM.md,michalzaq12,2019-05-21T15:25:38Z,2020-05-27T17:12:49+00:00,1,8929.79
-2166,include information about usage of auth parameter,xlaguna,2019-05-22T18:58:52Z,2019-05-28T16:58:00+00:00,1,141.99
-2169,It is also possible to have data in DELETE method,sericaia,2019-05-23T14:09:16Z,2019-05-28T16:57:10+00:00,1,122.8
-2176,Update ECOSYSTEM.md,renancaraujo,2019-05-28T03:55:43Z,2019-05-28T16:55:34+00:00,1,13.0
-2189,🐛Fix request finally documentation in README,a-tokyo,2019-05-30T18:19:09Z,2019-09-13T13:19:44+00:00,2,2539.01
-2191,Allow PURGE method in typings,iwata,2019-05-31T01:16:11Z,2020-03-07T06:45:25+00:00,1,6749.49
-2193,fix typo in changelog.md,ikea-dless,2019-05-31T05:32:06Z,2019-05-31T15:20:36+00:00,2,9.81
-2196,Fix `params` merging,zackseuberling,2019-05-31T15:56:02Z,2020-02-15T14:12:33+00:00,2,6238.28
-2198,"Doc fixes, minor examples cleanup",avindra,2019-06-02T20:09:44Z,2019-09-07T12:05:26+00:00,1,2319.93
-2201,Fixing issue 2195,masterots,2019-06-03T18:06:14Z,2019-09-13T12:36:00+00:00,1,2442.5
-2207,Fixing custom config options,rafaelrenanpacheco,2019-06-07T16:03:39Z,2019-09-07T00:40:05+00:00,2,2192.61
-2209,update type for AxiosInstance.defaults.headers,bluelovers,2019-06-08T13:01:01Z,2020-05-29T16:36:33+00:00,2,8547.59
-2210,Adding console log on sandbox server startup,precto1285,2019-06-08T20:08:37Z,2020-05-29T17:49:56+00:00,1,8541.69
-2212,updating spelling and adding link to docs,heloflier,2019-06-08T20:23:30Z,2019-09-13T12:31:50+00:00,2,2320.14
-2227,Fixing proxy type in AxiosRequestConfig,cdupetit,2019-06-13T09:09:24Z,2019-11-09T20:46:26+00:00,1,3587.62
-2233,Added localAddress config option,DavyJohnes,2019-06-15T20:04:35Z,2020-03-07T11:32:17+00:00,3,6375.46
-2243,Solve issue #2129 error message for bad headers format is unclear,alejogs4,2019-06-23T03:53:22Z,2020-06-04T18:18:19+00:00,2,8342.42
-2255,Modernized typechecks,fed135,2019-06-28T19:08:27Z,2020-06-04T18:27:50+00:00,1,8207.32
-2259,Fixing missing words in docs template,crhistianramirez,2019-06-30T16:22:30Z,2019-10-16T01:32:20+00:00,3,2577.16
-2271,Fixing grammar in README.md,MichaelFoss,2019-07-08T07:46:07Z,2019-09-06T15:42:10+00:00,1,1447.93
-2285,Adding option useGlobalInterceptors,awdsawdsawds,2019-07-15T07:32:31Z,2020-02-26T12:40:19+00:00,1,5429.13
-2305,Updating Readme.md file,quriosapien,2019-07-24T04:01:00Z,2019-08-26T05:47:31+00:00,3,793.78
-2314,Update README.md,stigok,2019-07-27T21:29:46Z,2019-08-13T12:32:02+00:00,1,399.04
-2317,Sintaxe alternative to send data into the body,portolucas,2019-07-28T17:50:14Z,2019-09-13T12:19:17+00:00,1,1122.48
-2333,Allow PROPFIND to submit data,jamespearson,2019-08-02T21:09:50Z,2020-02-29T10:21:03+00:00,1,5053.19
-2341,Adding options typings,lukepolo,2019-08-06T19:35:55Z,2019-11-04T05:17:28+00:00,1,2145.69
-2383,Fixing set `config.method` after mergeConfig for Axios.prototype.request,bushuai,2019-08-30T04:14:47Z,2019-09-06T17:23:56+00:00,1,181.15
-2384,Fix a typo in README,gamtiq,2019-08-30T11:43:29Z,2019-09-06T12:55:07+00:00,1,169.19
-2410,"Update Webpack + deps, remove now unnecessary polyfills",avindra,2019-09-14T17:22:16Z,2019-10-21T18:56:29+00:00,4,889.57
-2423,+axios-mocker,eshengsky,2019-09-23T11:20:56Z,2020-06-17T17:35:42+00:00,5,6438.25
-2424,Fixing parse by responseType ,a631807682,2019-09-24T07:30:12Z,2020-07-02T08:05:36+00:00,2,6768.59
-2426,Make redirection from HTTP to HTTPS work,JitixPhotobox,2019-09-24T09:28:04Z,2019-09-26T12:33:49+00:00,1,51.1
-2443,chore: add `jsdelivr` and `unpkg` support,JounQin,2019-09-30T04:14:54Z,2020-01-31T18:20:13+00:00,1,2966.09
-2444,Adding Typescript HTTP method definition for LINK and UNLINK.,marlonbarcarol,2019-09-30T21:03:02Z,2019-11-04T03:29:52+00:00,1,822.45
-2446,Add license badge,Maskedman99,2019-10-02T09:28:42Z,2019-10-04T13:47:49+00:00,1,52.32
-2458,"I don’t think this thing is necessary, I should delete it.",notbucai,2019-10-10T14:31:37Z,2019-12-25T21:00:16+00:00,1,1830.48
-2464,"Fix to prevent XSS, throw an error when the URL contains a JS script",yasuf,2019-10-14T07:56:44Z,2019-10-16T10:53:10+00:00,2,50.94
-2470,Fixing getting local files (file://) failed,Alanscut,2019-10-17T03:09:19Z,2020-03-23T13:49:39+00:00,16,3802.67
-2475,fix eslint warn,Alanscut,2019-10-18T02:19:06Z,2020-02-15T05:42:56+00:00,1,2883.4
-2487,Fixing #2482 Can not override Content-Type on Headers when send GET requests,zhiwenxuan,2019-10-24T01:58:18Z,2019-10-25T08:27:01+00:00,2,30.48
-2495,Add isTimeout to static API,EyalPerry,2019-10-25T10:33:01Z,2020-08-25T08:15:26+00:00,2,7317.71
-2498,Add checkServerIdentity to request config for http adapter,Annihil,2019-10-25T21:30:11Z,2020-07-01T18:04:33+00:00,4,5996.57
-2504,remove License badge from README.md,helios1101,2019-10-30T06:15:37Z,2019-11-04T02:30:50+00:00,1,116.25
-2508,Return http adapter by default,Alanscut,2019-11-01T07:30:36Z,2020-07-02T17:29:38+00:00,5,5865.98
-2520,Export the version in axios object,Alanscut,2019-11-06T06:44:59Z,2020-09-03T07:23:11+00:00,4,7248.64
-2521,Experimental http2 adapter,yasuf,2019-11-06T08:49:24Z,2020-08-27T19:22:11+00:00,2,7090.55
-2533,use unknown instead of any,tusharmath,2019-11-09T13:20:16Z,2021-02-08T16:21:13+00:00,1,10971.02
-2536,"Dep updates, update polyfill handling",avindra,2019-11-09T22:21:55Z,2020-08-04T16:40:28+00:00,7,6450.31
-2538,"Fix badge, use master branch",yasuf,2019-11-11T04:04:31Z,2019-11-16T03:32:38+00:00,1,119.47
-2540,fixing Travis link,Alanscut,2019-11-11T12:06:28Z,2019-12-09T01:14:52+00:00,2,661.14
-2545,Fix issue #2239: Add a condition to check if status is a function,Alanscut,2019-11-12T07:05:58Z,2020-05-28T03:51:55+00:00,6,4748.77
-2547,Correctly pass agents to follow-redirects,mhassan1,2019-11-13T04:48:16Z,2019-11-14T15:47:41+00:00,3,34.99
-2553,Refine arguments for error interceptors,xamgore,2019-11-15T00:03:34Z,2020-01-24T06:46:11+00:00,2,1686.71
-2555,Update 'geturi' method for more information,Alanscut,2019-11-16T07:47:19Z,2021-02-16T18:24:24+00:00,1,11002.62
-2563,fix: URL encoding on values,cambraca,2019-11-21T15:31:05Z,2020-05-27T12:41:58+00:00,2,4509.18
-2568,fix issue #2567 Rewrite the 'utils.deepMerge()' method,Alanscut,2019-11-25T07:16:15Z,2020-06-15T08:33:20+00:00,5,4873.28
-2570,Fix CI build failure,Alanscut,2019-11-25T12:01:01Z,2019-11-26T19:09:43+00:00,1,31.14
-2574,"Remove 'includes' API, fix CI build failure",Alanscut,2019-11-27T06:42:28Z,2019-12-09T02:28:38+00:00,8,283.77
-2582,fix: fix ignore set withCredentials false,xchunzhao,2019-12-02T11:12:19Z,2019-12-09T07:52:46+00:00,2,164.67
-2588,Adding form-data support,remcohaszing,2019-12-04T20:43:42Z,2020-02-29T11:45:45+00:00,1,2079.03
-2589,Fix issue #2587 Default config keys,DavidTanner,2019-12-04T20:47:00Z,2020-02-15T10:54:29+00:00,6,1742.12
-2601,Fixing unit test failure in Windows OS,jennynju,2019-12-12T02:23:14Z,2020-02-15T11:03:35+00:00,2,1568.67
-2619,fix(index.d.ts): fix ResponseEncoding  type,blastZ,2019-12-24T04:05:13Z,2021-02-05T05:56:33+00:00,2,9817.86
-2631,Updating docs to clarify config precedence behavior,leethomas,2019-12-30T22:04:00Z,2021-03-16T15:51:03+00:00,2,10601.78
-2634,Let's release v1.0.0.,schmod,2020-01-02T19:15:34Z,2020-04-25T17:35:37+00:00,1,2734.33
-2637,Integrate with gitpod,nisarhassan12,2020-01-03T13:40:59Z,2021-02-17T06:28:00+00:00,1,9856.78
-2639,Fixing typo in CHANGELOG.md,malik-steinert,2020-01-04T17:19:35Z,2020-01-07T16:31:55+00:00,1,71.21
-2647,Adding axios headers,Keimeno,2020-01-09T14:33:32Z,2020-10-07T06:13:03+00:00,6,6519.66
-2656,Fix merging of params,textbook,2020-01-12T22:15:45Z,2020-02-15T05:36:52+00:00,7,799.35
-2661,Adding option to disable automatic decompression,sazzy4o,2020-01-13T18:01:59Z,2020-03-06T14:01:59+00:00,4,1268.0
-2666,Fixing issue for HEAD method and gziped repsonse,galkin,2020-01-15T09:09:23Z,2020-02-15T10:10:59+00:00,1,745.03
-2669,Allow baseURL to contain GET query parameters,mmomtchev,2020-01-15T19:29:30Z,2021-02-12T11:16:52+00:00,2,9447.79
-2671,Fix regular expressions in `isValidXss`,ZeroCho,2020-01-16T15:56:14Z,2020-01-22T02:31:20+00:00,3,130.59
-2679,Remove unnecessary XSS check introduced by #2451,chinesedfan,2020-01-20T14:08:04Z,2020-01-20T16:20:34+00:00,1,2.21
-2689,Compatible with follow-redirect aborts the request,chinesedfan,2020-01-25T07:13:23Z,2020-02-15T05:41:09+00:00,1,502.46
-2695,Add test for redirecting with too large response,chinesedfan,2020-01-27T15:17:33Z,2020-02-29T11:54:42+00:00,3,788.62
-2702,issue#2609 | Sasha | predictable axios requests,SashaKoro,2020-01-30T15:35:25Z,2021-03-01T09:11:36+00:00,47,9497.6
-2724,"Adding test code for ""Options of Http Method""",ohtaeg,2020-02-09T09:42:35Z,2020-10-24T11:50:58+00:00,1,6194.14
-2725,Checking if json string is valid,Syeong2,2020-02-09T09:46:12Z,2021-09-05T10:16:37+00:00,1,13776.51
-2727,Remove axios.all() and axios.spread() from Readme.md,ohtaeg,2020-02-09T14:38:42Z,2020-05-27T17:43:09+00:00,4,2595.07
-2729,Refine arguments' types for error interceptors,xamgore,2020-02-10T16:02:09Z,2021-09-16T18:45:28+00:00,3,14018.72
-2749,Fix default custom properties are ignored,chinesedfan,2020-02-15T10:51:41Z,2020-06-15T08:30:55+00:00,1,2901.65
-2763,Add `onUploadProgress` and `onDownloadProgress` are browser only,ianwijma,2020-02-18T08:57:59Z,2020-02-26T02:28:50+00:00,1,185.51
-2773,Fixing an issue that type 'null' is not assignable to validateStatus,cprayer,2020-02-24T13:45:49Z,2020-05-27T17:18:29+00:00,1,2235.54
-2778,Update ' sign to ` in proxy spec,jimmy-liao-gogoro,2020-02-25T09:03:22Z,2020-02-25T15:05:52+00:00,1,6.04
-2781,Add independent `maxBodyLength` option,gualopezb,2020-02-26T04:21:56Z,2020-03-06T13:55:19+00:00,19,225.56
-2787,Update README.md with standard words,PeterMortensen,2020-02-28T20:44:45Z,2020-05-27T17:18:11+00:00,1,2132.56
-2797,Updating axios in types to be lower case,remcohaszing,2020-03-04T09:11:01Z,2020-10-27T12:36:33+00:00,2,5691.43
-2805,Updating documentation for usage form-data,remcohaszing,2020-03-06T10:18:53Z,2020-04-05T10:01:39+00:00,1,719.71
-2812,Don't drop ERR_FR_REDIRECTION_FAILURE #2811,iradul,2020-03-10T17:53:32Z,2021-09-05T10:25:58+00:00,8,13048.54
-2844,Refactor mergeConfig without utils.deepMerge,chinesedfan,2020-03-24T15:16:08Z,2020-06-08T18:52:45+00:00,5,1827.61
-2849,Fixing sometimes response.data is string instead of object,zhming0,2020-03-25T22:33:33Z,2021-09-06T12:12:49+00:00,4,12709.65
-2851,Fixing 'progressEvent' type,bennycode,2020-03-26T12:11:17Z,2020-03-28T09:51:43+00:00,1,45.67
-2856,Make default transformResponse parse JSON more properly,chinesedfan,2020-03-28T13:27:54Z,2021-09-16T18:45:43+00:00,2,12893.3
-2874,Fix broken timeout behavior in Node.js environment,mooyoul,2020-04-04T22:34:10Z,2021-09-16T18:45:59+00:00,11,12716.2
-2887,Update README.md for `data`,marcinx,2020-04-11T12:20:27Z,2020-05-27T17:26:14+00:00,2,1109.1
-2892,Removing 2 unneeded functions from the httpAdapter,romedu,2020-04-13T04:28:42Z,2021-09-07T18:30:49+00:00,1,12302.04
-2893,Update README.md about validateStatus,lmeraki,2020-04-14T04:16:32Z,2020-04-20T00:47:31+00:00,1,140.52
-2912,Update README.md about validateStatus,lmeraki,2020-04-20T00:48:36Z,2020-04-22T13:59:26+00:00,1,61.18
-2926,Leave traces about 'content-encoding',kingsimba,2020-04-24T10:41:20Z,2020-04-24T13:20:08+00:00,1,2.65
-2928,Documentation update to clear up ambiguity in code examples,jasonsaayman,2020-04-24T14:59:44Z,2020-05-05T11:44:08+00:00,1,260.74
-2942,Fixing... whitespace,NotMoni,2020-05-01T19:12:42Z,2020-05-03T11:27:56+00:00,1,40.25
-2949,Adding a type guard for `AxiosError`,JasonHK,2020-05-06T07:46:41Z,2020-11-03T08:01:08+00:00,7,4344.24
-2956,Adding HTTP status code to error.toJSON,byrne-greg,2020-05-08T13:23:00Z,2021-09-05T11:45:24+00:00,2,11638.37
-3021,Change headers type to string record,remcohaszing,2020-06-13T08:35:00Z,2021-09-05T12:14:13+00:00,1,10779.65
-3022,Add GitHub actions to close invalid issues,chinesedfan,2020-06-13T13:12:40Z,2020-06-17T16:54:10+00:00,1,99.69
-3029,Add GitHub actions to close stale issues/prs,chinesedfan,2020-06-17T14:29:03Z,2020-06-17T17:25:12+00:00,1,2.94
-3050,add table of content (preview),frustak,2020-06-22T17:36:03Z,2020-06-25T16:41:11+00:00,3,71.09
-3070,Protocol not parsed when setting proxy config from env vars,jonathanfoster,2020-06-27T00:08:39Z,2020-12-03T07:36:51+00:00,6,3823.47
-3107,Adding description about Global axios defaults & Config order of prec…,MoonSupport,2020-07-07T17:11:35Z,2021-03-16T15:54:38+00:00,7,6046.72
-3111,Throw better error if url doesnt exist,shayneo,2020-07-09T00:08:19Z,2021-09-07T18:53:41+00:00,1,10218.76
-3138,Support custom DNS lookup function,unknown,2020-07-22T09:39:09Z,2021-09-16T19:01:14+00:00,2,10113.37
-3153,Fixing Cancel' signature. (#3152),NoriSte,2020-07-27T06:55:26Z,2021-12-22T18:30:51+00:00,4,12323.59
-3159,Fix transport bug,witjs,2020-07-31T14:28:24Z,2021-09-16T19:02:45+00:00,1,9892.57
-3200,Fixing an issue that type 'null' and 'undefined' is not assignable to validateStatus when typescript strict option is enabled,cprayer,2020-08-14T14:11:25Z,2020-10-20T06:04:45+00:00,3,1599.89
-3228,Fixing ProgressEvent type definitions so that Axios doesn't have to depend on lib dom (Fixes #3219),jan-molak,2020-08-25T15:13:50Z,2020-10-07T06:04:08+00:00,6,1022.84
-3237,Fixing node types,remcohaszing,2020-08-30T14:08:17Z,2020-10-01T07:42:10+00:00,1,761.56
-3252,"docs: Fix simple typo, existant -> existent",timgates42,2020-09-02T20:18:23Z,2020-09-12T04:29:35+00:00,1,224.19
-3282,fix axios.delete ignores config.data,chinesedfan,2020-09-12T08:42:25Z,2020-10-01T07:46:33+00:00,3,455.07
-3287,Fixing requestHeaders.Authorization,Allanbcruz,2020-09-13T20:31:29Z,2020-09-20T02:19:49+00:00,4,149.81
-3289,"Revert ""Fixing overwrite Blob/File type as Content-Type in browser.""",Gerhut,2020-09-16T03:23:31Z,2020-10-13T08:19:38+00:00,2,652.94
-3305,Fixed cancelToken leakage; Added AbortController support;,DigitalBrainJS,2020-09-28T20:22:36Z,2021-09-16T18:56:55+00:00,2,8470.57
-3342,Update types check,fanguangyi,2020-10-16T09:28:08Z,2021-12-22T18:37:27+00:00,3,10377.16
-3360,Fixing catch..then on examples (README page),halan,2020-10-21T21:17:49Z,2021-03-16T15:55:14+00:00,4,3498.62
-3362,use utils.toString instead Object.prototype.toString,yinjun1991,2020-10-23T12:17:45Z,2021-12-22T18:45:17+00:00,1,10206.46
-3364,"Remove the skipping of ""should support sockets"" test",timemachine3030,2020-10-25T17:56:27Z,2020-10-30T06:54:42+00:00,2,108.97
-3377,Testing and cleanup of transformResponse,timemachine3030,2020-11-01T04:45:47Z,2021-03-24T06:22:03+00:00,1,3433.6
-3401,Update dev dependencies,timemachine3030,2020-11-12T04:45:44Z,2020-12-16T08:25:07+00:00,4,819.66
-3410,Hotfix: Prevent SSRF,timemachine3030,2020-11-13T01:48:56Z,2020-11-24T06:44:01+00:00,3,268.92
-3470,Don't rely on strict mode behaviour for arguments,emilbroman-eqt,2020-12-10T16:47:11Z,2021-12-22T18:58:12+00:00,1,9050.18
-3523,Removing duplicate functionality item in changelog,caikan,2021-01-05T06:52:19Z,2021-02-06T15:09:47+00:00,1,776.29
-3538,Fix the missing launcher,chinesedfan,2021-01-11T09:29:05Z,2021-01-29T06:34:50+00:00,1,429.1
-3539,Default headers example AUTH_TOKEN comment,aliclark,2021-01-11T10:35:57Z,2021-01-12T14:52:43+00:00,5,28.28
-3544,Returned error treated when requesting uncommon URL,joaoGabriel55,2021-01-13T16:49:29Z,2022-03-07T17:53:58+00:00,3,10033.07
-3546,refactor(helpers): optimize the logic of isAxiosError,BlackHole1,2021-01-14T02:32:48Z,2021-12-22T19:09:33+00:00,2,8224.61
-3567,Fixing a typographical error,paveg,2021-01-18T07:24:12Z,2021-02-15T13:47:28+00:00,2,678.39
-3581,Fixed The timeoutErrorMessage property in config not work with Node.js (fixes #3580),duibu05,2021-01-22T17:37:14Z,2022-01-18T16:40:18+00:00,1,8663.05
-3604,Update upgrade guide for https proxy setting,repl-andrew-ovens,2021-01-28T18:49:18Z,2021-12-22T19:21:04+00:00,1,7872.53
-3613,Fixing possible runtime error in isAxiosError.js type guard,5argon,2021-01-31T08:44:42Z,2021-12-22T19:22:46+00:00,1,7810.63
-3617,Adding type AxiosInstance Constructor in AxiosStatic,md-adil,2021-02-01T18:27:03Z,2021-09-05T10:53:40+00:00,1,5176.44
-3645,Refactored AxiosError to be a constructor; Refactored Cancel [error] to be an AxiosError subclass;,DigitalBrainJS,2021-02-13T20:18:01Z,2022-03-10T19:26:56+00:00,1,9359.15
-3688,"JSON improvements: throw if JSON parsing failed; number, boolean can be passed directly as payload for encoding to JSON #2613, #61, #907",DigitalBrainJS,2021-03-19T17:22:55Z,2021-04-19T16:55:35+00:00,11,743.54
-3703,Adding ability to omit User-Agent header,MikeBishop,2021-03-23T20:15:29Z,2021-03-29T14:47:29+00:00,2,138.53
-3727,Adding body serializer config method,alexbidenko,2021-04-05T20:44:26Z,2021-05-04T18:11:15+00:00,4,693.45
-3734,Add type for the third parameter to use,sirctseb,2021-04-07T14:37:06Z,2022-03-07T18:26:35+00:00,4,8019.82
-3737,Update 'getUri' method to use baseURL,sakarit-zz,2021-04-08T20:00:38Z,2022-03-07T18:09:23+00:00,1,7990.15
-3738,Fixing quadratic runtime and extra memory usage when setting a maxContentLength,bimbiltu,2021-04-10T02:55:35Z,2021-05-04T17:48:21+00:00,1,590.88
-3748,Fixing responseInterceptors are not work when requestInterceptors are asyncronous,zyxm5,2021-04-14T09:13:12Z,2021-04-28T03:28:02+00:00,1,330.25
-3767,Adding documentation for the type guard `isAxiosError`,johachi,2021-04-25T23:49:45Z,2021-05-04T18:05:05+00:00,1,210.26
-3772,Updating `lib/core/README.md` about Dispatching requests,wafuwafu13,2021-04-29T23:35:13Z,2021-04-30T07:08:50+00:00,3,7.56
-3781,Adding parseInt to config.timeout,piiih,2021-05-04T19:17:33Z,2021-05-06T13:54:22+00:00,5,42.61
-3807,Remove charset in tests,timemachine3030,2021-05-21T03:00:21Z,2021-05-21T05:51:31+00:00,1,2.85
-3813,Fixes the sauce labs tests by bumping karma-sauce-launcher,anglinb,2021-05-26T05:11:30Z,2021-05-27T05:44:43+00:00,1,24.55
-3818,Fixing README.md ,snamiki1212,2021-05-30T06:20:40Z,2021-08-13T12:57:35+00:00,2,1806.62
-3825,Fix README typo under Request Config,ThatGuySam,2021-06-05T01:27:33Z,2021-08-13T12:55:01+00:00,1,1667.46
-3836,Use native `Array.isArray()` in `utils.js`,ctjlewis,2021-06-12T19:51:12Z,2021-12-23T16:45:44+00:00,1,4652.91
-3837,Fixing instance data not being applied to request,Mahdhir,2021-06-13T19:56:32Z,2021-12-23T16:51:00+00:00,1,4628.91
-3852,Adding support for beforeRedirect config option,zoran995,2021-06-24T00:32:56Z,2022-03-07T17:46:09+00:00,5,6161.22
-3906,Adding 'responseEncoding' prop missing Typescript,renanwilliam,2021-07-20T21:50:44Z,2021-12-23T17:02:43+00:00,2,3739.2
-3907,Adding restful subpath params support,kellyiscute,2021-07-21T14:00:23Z,2021-11-03T02:21:24+00:00,1,2508.35
-3911,feat: fix proxy agent,unknown,2021-07-23T07:05:10Z,2021-11-17T03:41:15+00:00,1,2804.6
-3912,Changed the default values of the Accept header,djs113,2021-07-25T06:21:16Z,2021-12-23T17:03:58+00:00,2,3634.71
-3918,Adding responseEncoding prop type in AxiosRequestConfig,FCarvalhoVII,2021-07-28T17:30:10Z,2021-12-23T17:07:47+00:00,1,3551.63
-3936,README: fixing JSON syntax,MoSattler,2021-08-05T13:18:22Z,2021-08-13T12:45:47+00:00,1,191.46
-3952,fix: response interceptors doesn't work,gitBingxu,2021-08-13T10:31:11Z,2021-11-29T11:47:19+00:00,3,2593.27
-3957,fix typo.,Cat7373,2021-08-16T20:52:34Z,2021-11-29T11:46:06+00:00,1,2510.89
-3961,Added errors to be displayed when the query parsing process itself fails.,djs113,2021-08-17T18:05:22Z,2022-01-18T16:50:33+00:00,6,3694.75
-4055,Adding defaultReject feature and _instanceId property (resolves #3984),theo-js,2021-09-14T08:53:12Z,2022-05-04T18:11:18+00:00,8,5577.3
-4066,Adding insecureHTTPParser type to AxiosRequestConfig,Evan-Finkelstein,2021-09-15T20:52:44Z,2021-10-12T07:43:32+00:00,1,634.85
-4072,The better trim() polyfill.,catscarlet,2021-09-17T11:57:49Z,2022-05-04T18:25:24+00:00,1,5502.46
-4075,Make the code more concise,lete114,2021-09-18T13:01:57Z,2022-05-04T18:28:50+00:00,7,5477.45
-4110,"feat: Add possibility to choose response type based on the response, resolves #4098",theo-js,2021-10-01T08:58:05Z,2021-10-11T17:51:14+00:00,1,248.89
-4111,"Revert ""Improved type-safety for AxiosRequestConfig (#2995)""",remcohaszing,2021-10-01T12:46:48Z,2021-10-04T14:22:36+00:00,3,73.6
-4114,chore(docs): rename Angular to AngularJS,HyperLife1119,2021-10-01T13:21:48Z,2021-10-12T08:06:12+00:00,2,258.74
-4116,Distinguish request and response data types,caugner,2021-10-01T14:22:50Z,2021-10-06T18:10:01+00:00,7,123.79
-4117,fix(types): default request headers types,lukashroch,2021-10-01T14:53:49Z,2021-10-12T07:53:10+00:00,1,256.99
-4133,Fix types of Axios requst methods,gstamac,2021-10-04T09:18:55Z,2021-10-05T07:37:14+00:00,5,22.31
-4136,fix response headers types,egmen,2021-10-04T14:05:42Z,2021-10-07T17:23:29+00:00,2,75.3
-4140,Test types,remcohaszing,2021-10-05T11:20:47Z,2021-10-12T07:53:10+00:00,3,164.54
-4144,Expand Headers types,bfaulk96,2021-10-05T19:18:06Z,2021-11-16T15:06:22+00:00,2,1003.8
-4147,Fixed TransitionalOptions typings,DigitalBrainJS,2021-10-06T13:58:56Z,2021-10-12T07:46:16+00:00,2,137.79
-4164,Move response type generic to last,ardyfeb,2021-10-08T18:17:15Z,2022-05-09T18:09:31+00:00,6,5111.87
-4186,revert: change type of AxiosResponse to any,ImRodry,2021-10-13T17:12:01Z,2021-10-22T08:14:23+00:00,3,207.04
-4191,adding create instance config type as AxiosRequestConfig does not if always,Edmu,2021-10-15T06:04:18Z,2022-05-09T18:08:35+00:00,3,4956.07
-4205,Feature proposition data validation,p8nut,2021-10-20T09:12:47Z,2022-05-09T18:12:49+00:00,3,4833.0
-4212,Fixing issue #4192 NO_PROXY does not support *.com,MacaPecha,2021-10-22T15:21:32Z,2022-05-05T19:34:30+00:00,2,4684.22
-4241,Add native cookier jar,reb0und,2021-11-03T01:35:31Z,2022-05-05T19:27:29+00:00,1,4409.87
-4248,Interceptor clear,Landro3,2021-11-04T21:44:39Z,2022-05-05T19:31:06+00:00,3,4365.77
-4261,Fixed race condition on immediate requests cancellation,DigitalBrainJS,2021-11-12T15:57:57Z,2022-05-09T16:12:29+00:00,3,4272.24
-4275,Fixing request url is not exist,Thefurypig,2021-11-21T08:19:36Z,2021-12-23T08:23:10+00:00,1,768.06
-4322,add `string[]` to `AxiosRequestHeaders` type,estarossa0,2021-12-10T12:08:48Z,2022-05-16T07:21:56+00:00,1,3763.22
-4344,Expand isAxiosError types,Argeento,2021-12-21T18:44:54Z,2022-05-12T07:19:07+00:00,3,3396.57
-4348,Feature: adding an adapter that supports HarmonyOS in axios,Alanscut,2021-12-24T06:35:54Z,2022-05-20T07:10:37+00:00,6,3528.58
-4363,Update interceptor options to extensible,yunho1017,2021-12-30T08:23:03Z,2022-05-09T16:45:18+00:00,2,3128.37
-4368,Added a reference to http(s) agent options in README,onne,2022-01-03T09:19:36Z,2022-05-04T17:29:44+00:00,1,2912.17
-4435,Fixing http tests to avoid hanging when assertions fail,mbargiel,2022-01-31T19:25:29Z,2022-05-04T15:54:14+00:00,1,2228.48
-4436,Resolving proxy from env on redirect,mbargiel,2022-01-31T20:28:01Z,2022-05-11T17:24:14+00:00,8,2396.94
-4448,Improved FormData support;,DigitalBrainJS,2022-02-06T14:11:49Z,2022-03-14T18:22:10+00:00,6,868.17
-4532,fix url to defaults.js,sashsvamir,2022-03-17T09:23:52Z,2022-05-03T18:35:59+00:00,1,1137.2
-4557,Fixing instance.defaults.headers type,spalger,2022-03-29T18:44:04Z,2022-05-09T17:12:53+00:00,2,982.48
-4572,docs(index.d.ts): add interceptor handles ts declare and customConfig…,lichenbuliren,2022-04-01T11:30:37Z,2022-05-20T07:14:37+00:00,1,1171.73
-4580,Adding HTTP status code for transformResponse,kaishuu0123,2022-04-04T11:18:28Z,2022-05-09T17:25:16+00:00,2,846.11
-4587,opt: opt judgment code of cancel,zh-lx,2022-04-06T14:34:21Z,2022-05-03T17:04:58+00:00,1,650.51
-4590,Emphasize the URLSearchParam built-in interface,tredondo,2022-04-07T18:17:21Z,2022-05-03T17:00:38+00:00,1,622.72
-4594,Removed import of `url` module in browser build due to huge size overhead…,DigitalBrainJS,2022-04-08T17:00:52Z,2022-04-26T07:08:49+00:00,2,422.13
-4599,Update README.md,yxwzaxns,2022-04-12T03:12:05Z,2022-05-03T16:50:13+00:00,2,517.64
-4624,Updating AxiosError to include stack trace,despreston,2022-04-25T19:22:03Z,2022-05-03T16:46:10+00:00,5,189.4
-4640,Fixed FormData posting in browser environment by reverting #3785;,DigitalBrainJS,2022-04-26T16:08:51Z,2022-04-27T09:26:53+00:00,2,17.3
-4649,Fix grammar in README,danmooney,2022-04-27T19:16:11Z,2022-05-03T16:40:16+00:00,1,141.4
-4654,fix(type): add AxiosError to AxiosStatic,michael-land,2022-04-28T21:50:10Z,2022-05-03T16:43:37+00:00,2,114.89
-4659,Include request and config when creating a `CanceledError`.,arthurfiorette,2022-05-01T01:38:35Z,2022-05-03T18:33:38+00:00,7,64.92
-4787,Axios ES2017,DigitalBrainJS,2022-06-14T21:24:34Z,2022-06-18T09:19:27+00:00,2,83.91
-4788,fix: delete redundant code,fengyangfifa,2022-06-15T15:12:14Z,2022-07-27T17:09:08+00:00,1,1009.95
-4791,refactor: increase code readability,D-Freitas,2022-06-16T22:25:43Z,2022-06-17T19:13:14+00:00,6,20.79
-4819,Fixed a regression bug with unsubscribing from cancel token & signal inside http adapter;,DigitalBrainJS,2022-06-28T15:16:07Z,2022-09-14T19:24:23+00:00,1,1876.14
-4820,fix(adapters/http): remove repeated compression algorithm from header,basselworkforce,2022-06-28T19:40:26Z,2022-09-14T19:28:09+00:00,1,1871.8
-4825,Fix markup for note in README,lyrixx,2022-06-30T13:09:11Z,2022-09-14T19:32:23+00:00,1,1830.39
-4853,"Fix typo and formatting, add colons",karlhorky,2022-07-15T13:48:27Z,2022-09-15T05:21:41+00:00,1,1479.55
-4856,chore:  fix example access exception,techbirds,2022-07-17T07:37:47Z,2022-09-26T18:09:32+00:00,1,1714.53
-4862,Typings: SerializerOptions.indexes allows `boolean | null | undefined`,gfoidl,2022-07-18T16:06:03Z,2022-09-26T18:26:32+00:00,1,1682.34
-4868,feat: Add ability to use URL objects a la fetch API.,avoliva,2022-07-20T21:11:53Z,2024-12-05T19:20:06+00:00,2,20854.14
-4871,fix: loosing request header (#4858),WillianAgostini,2022-07-21T01:47:04Z,2022-09-26T19:05:57+00:00,1,1625.31
-4874,Require interceptors to return values,jennings,2022-07-22T15:58:35Z,2022-09-26T19:11:30+00:00,1,1587.22
-4875,chore: simplify the import path of AxiosError,chentsulin,2022-07-23T03:05:51Z,2022-09-26T19:16:44+00:00,1,1576.18
-4884,Fix TypeScript exports,remcohaszing,2022-07-26T13:39:30Z,2022-09-28T18:30:22+00:00,1,1540.85
-4903,feat: add enum containing Http Status Codes to typings.,mia-z,2022-08-05T09:43:44Z,2022-09-28T18:42:01+00:00,1,1304.97
-4914,fix: removed unused imports,Parth0105,2022-08-14T16:50:17Z,2022-09-28T18:57:06+00:00,1,1082.11
-4917,fix: modify log while request is aborted,mori5321,2022-08-17T12:38:01Z,2024-12-05T19:20:49+00:00,2,20190.71
-4922,fix: include config on new CancelledError,arthurfiorette,2022-08-19T21:26:24Z,2022-11-25T13:46:49+00:00,1,2344.34
-4927,fix: [Types] Type of header in AxiosRequestConfig / for Axios.create is incorrect,WillianAgostini,2022-08-21T12:19:51Z,2022-09-28T19:05:08+00:00,4,918.75
-4934,Improve typing of timeout in index.d.ts,mrcwbr,2022-09-01T09:55:44Z,2022-09-28T19:09:58+00:00,1,657.24
-4941,docs: fix Gitpod dead link,kingyue737,2022-09-04T08:54:37Z,2022-09-15T05:32:36+00:00,1,260.63
-4942,Fix: typo in readme,usman250994,2022-09-05T13:11:36Z,2022-09-15T05:36:31+00:00,1,232.42
-4949,Removed unused imports,lpizzinidev,2022-09-10T15:21:09Z,2022-09-28T19:16:15+00:00,1,435.92
-4960,Allow null indexes on formSerializer and paramsSerializer,WillianAgostini,2022-09-15T13:18:59Z,2022-09-29T06:18:35+00:00,1,328.99
-4961,Allow null indexes on formSerializer and paramsSerializer v0.x,WillianAgostini,2022-09-15T13:30:19Z,2022-09-29T06:19:45+00:00,1,328.82
-4970,docs: enable syntax highlighting for a code block,huyenltnguyen,2022-09-20T04:16:48Z,2022-09-29T06:27:32+00:00,1,218.18
-4993,Using Logo Axios in Readme.md,raihan71,2022-10-04T11:46:23Z,2022-10-04T17:48:11+00:00,1,6.03
-5010,"fix(type): add ""clear"" to AxiosInterceptorManager",s-sasaki-0529,2022-10-05T10:41:32Z,2022-10-06T06:16:28+00:00,1,19.58
-5021,Make GenericAbortSignal interface more generic :),DigitalBrainJS,2022-10-05T20:40:30Z,2022-10-06T06:09:45+00:00,1,9.49
-5022,fix: removing multiple/trailing/leading whitespaces,ovarn,2022-10-05T20:54:55Z,2022-11-25T13:56:32+00:00,1,1217.03
-5036,fix: Unable to access response headers when using axios 1.x with jest #5017,risa,2022-10-06T15:51:28Z,2022-10-06T19:01:38+00:00,1,3.17
-5037,Add support for HTTPS over HTTP on Node.js,patrick-petrovic,2022-10-06T18:10:36Z,2023-08-07T13:13:01+00:00,5,7315.04
-5046,"chore: match badge style, add link to them",scarf005,2022-10-07T02:18:52Z,2022-10-08T18:25:37+00:00,1,40.11
-5054,docs: fixing comments typo,itsarvindh,2022-10-07T06:58:09Z,2022-10-13T19:20:42+00:00,2,156.38
-5060,pin CDN install instructions to a specific version,phryneas,2022-10-07T20:31:20Z,2022-10-13T19:05:16+00:00,1,142.57
-5061,chore: update issue template,FelixLgr,2022-10-07T22:09:47Z,2022-10-13T19:29:24+00:00,3,141.33
-5066,fix: export AxiosError at top-level,haneenmahd,2022-10-08T17:56:21Z,2022-11-25T13:55:54+00:00,2,1147.99
-5071,Fixed type definition of use method on AxiosInterceptorManager to match the the README,amitsainii,2022-10-09T07:03:07Z,2022-10-30T17:06:30+00:00,2,514.06
-5084,Added progress capturing & rate limiting sections to the docs;,DigitalBrainJS,2022-10-10T13:27:48Z,2022-10-13T19:47:24+00:00,2,78.33
-5085,Fixed handling of array values for AxiosHeaders;,DigitalBrainJS,2022-10-10T15:26:26Z,2022-10-13T19:11:01+00:00,3,75.74
-5090,fix: support existing header instance as argument,lohart13,2022-10-11T03:41:00Z,2022-10-30T17:12:24+00:00,5,469.52
-5096,[typing] move AxiosStatic#create to AxiosInstance#create,Gerhut,2022-10-11T09:47:42Z,2025-03-31T19:00:51+00:00,5,21657.22
-5097,fix: restore proxy config backwards compatibility with 0.x,patrick-petrovic,2022-10-11T10:41:15Z,2022-10-13T19:55:20+00:00,1,57.23
-5103,fix: added `AxiosHeaders` in `AxiosHeaderValue`,slmnsh,2022-10-11T16:06:29Z,2022-10-13T20:00:05+00:00,1,51.89
-5104,fix problem with named export `axios`,akphi,2022-10-11T16:35:26Z,2022-10-30T17:11:27+00:00,3,456.6
-5105,Fix decompression error on HEAD request,dergecko,2022-10-11T17:04:52Z,2023-04-27T21:47:42+00:00,3,4756.71
-5108,Fix: Don't add null values to query string. ,ChronosMasterOfAllTime,2022-10-12T05:08:37Z,2022-10-15T13:02:00+00:00,1,79.89
-5109,Keep top-level export same with static properties,littledian,2022-10-12T05:39:31Z,2022-10-13T20:17:06+00:00,1,38.63
-5113,Added custom params serializer support;,DigitalBrainJS,2022-10-12T14:58:10Z,2022-10-13T20:12:11+00:00,3,29.23
-5116,Update get/index.html,eltociear,2022-10-13T01:23:48Z,2022-10-30T17:14:27+00:00,1,423.84
-5119,docs: Update Resources links in README,w3bdesign,2022-10-13T08:34:47Z,2022-10-30T17:43:54+00:00,3,417.15
-5123,fix(helpers): gracefully handle invalid parameters in isURLSameOrigin,Tbhesswebber,2022-10-13T21:31:25Z,2024-12-05T19:35:46+00:00,1,18814.07
-5128,Create hello.cpp,rupajsen,2022-10-15T16:40:13Z,2022-10-15T18:55:15+00:00,1,2.25
-5135,Create balancedparanthesis,purnima1311,2022-10-16T17:32:16Z,2022-11-07T18:28:06+00:00,1,528.93
-5137,markdown list format for release 1.1.3,adrien-may,2022-10-16T19:37:45Z,2022-10-27T11:20:55+00:00,2,255.72
-5139,fix: exception to sending formdata in webworker,0x30,2022-10-17T06:25:44Z,2022-12-01T17:15:23+00:00,1,1090.83
-5146,feat(adapters): add `fetch` adapter,sgammon,2022-10-17T22:01:27Z,2024-04-29T19:33:10+00:00,3,13437.53
-5151,feat: export mergeConfig,kevincennis,2022-10-18T13:37:44Z,2022-12-01T18:41:57+00:00,1,1061.07
-5159,Fix typo in issue template name,secondl1ght,2022-10-19T13:43:33Z,2022-12-01T17:29:17+00:00,1,1035.76
-5162,Refactored module exports;,DigitalBrainJS,2022-10-19T23:14:56Z,2022-10-30T16:46:17+00:00,3,257.52
-5165,fix: expose HttpStatusCode,victorkwok97,2022-10-20T11:23:25Z,2024-12-05T19:34:25+00:00,1,18656.18
-5170,refactor: Update and rename UPGRADE_GUIDE.md to MIGRATION_GUIDE.md,yunseyeong,2022-10-21T06:31:39Z,2022-10-30T17:39:12+00:00,2,227.13
-5184,Fix typos (capitalization),friederbluemle,2022-10-26T07:06:48Z,2022-10-30T17:33:07+00:00,1,106.44
-5193,typo fix #800,shreem-123,2022-10-27T03:59:59Z,2022-10-30T17:29:36+00:00,1,85.49
-5194,typo fix line #856 and #920,shreem-123,2022-10-27T04:24:28Z,2022-10-30T17:26:03+00:00,1,85.03
-5196,fix: fix TypeScript type definitions for commonjs,remcohaszing,2022-10-27T19:08:40Z,2022-11-10T18:23:02+00:00,4,335.24
-5197,fix punctation in README.md,MoPaMo,2022-10-27T20:57:23Z,2022-11-02T18:16:16+00:00,1,141.31
-5205,Update Sandbox UI/UX,geeth24,2022-10-30T02:48:20Z,2022-10-30T17:20:58+00:00,2,14.54
-5207,Remove `\b` from filename,the-csaba,2022-10-31T04:27:58Z,2022-11-02T18:17:17+00:00,1,61.82
-5218,docs: fix broken links,claudiobusatto,2022-11-01T10:09:11Z,2022-11-02T18:15:52+00:00,1,32.11
-5224,Fixed & Imporoved AxiosHeaders class,DigitalBrainJS,2022-11-03T21:11:12Z,2022-11-07T19:11:42+00:00,1,94.01
-5225,Re-added support for loading Axios with require('axios').default;,DigitalBrainJS,2022-11-03T23:19:11Z,2022-11-07T18:32:25+00:00,2,91.22
-5227,Added `event` property to `AxiosProgressEvent` interface;,DigitalBrainJS,2022-11-04T12:26:32Z,2022-11-07T18:24:24+00:00,1,77.96
-5235,ci: remove git credentials after checkout,Fdawgs,2022-11-08T10:09:13Z,2022-11-22T18:28:47+00:00,2,344.33
-5237,updated interceptor use type definition to remove interceptor options parameter from use method for response interceptors,amitsainii,2022-11-08T13:56:39Z,2024-10-31T14:01:37+00:00,3,17352.08
-5247,Fixed AxiosError.toJSON method to avoid circular references;,DigitalBrainJS,2022-11-10T18:45:29Z,2022-11-22T18:44:25+00:00,1,287.98
-5250,Fixed Z_BUF_ERROR when content-encoding is set but the response body is empty,DigitalBrainJS,2022-11-10T19:56:47Z,2022-11-22T18:49:27+00:00,1,286.88
-5261,update readme in the Handling Errors section - issue reference #5260,relbns,2022-11-12T22:04:15Z,2022-11-22T18:39:50+00:00,1,236.59
-5265,Update the link for JSON url,aziyatali,2022-11-14T04:22:38Z,2022-11-22T18:36:58+00:00,2,206.24
-5269,__dirname is not defined,836334258,2022-11-15T08:37:59Z,2022-11-22T18:33:50+00:00,1,177.93
-5277,Refactored adapters loader;,DigitalBrainJS,2022-11-16T17:53:57Z,2022-11-22T18:53:56+00:00,2,145.0
-5306,Fixed decompression for responses without `Content-Length` header,DigitalBrainJS,2022-11-24T20:15:31Z,2022-12-01T14:22:21+00:00,1,162.11
-5308,Changed AxiosProgressEvent.event type to `any`;,DigitalBrainJS,2022-11-24T21:16:49Z,2022-12-01T19:03:58+00:00,1,165.79
-5316,Added support for spec-compliant FormData & Blob types;,DigitalBrainJS,2022-11-27T18:02:03Z,2023-01-30T23:10:40+00:00,1,1541.14
-5331,fix: Update AxiosError type declaration to exclude status (#5330),lj-ditrapani,2022-12-02T00:37:07Z,2024-12-05T19:51:18+00:00,1,17635.24
-5338,Refactored FormData & Params serializers;,DigitalBrainJS,2022-12-04T15:50:18Z,2024-12-05T19:51:45+00:00,1,17572.02
-5339,Added support for a custom lookup function;,DigitalBrainJS,2022-12-04T20:56:36Z,2023-04-25T23:05:00+00:00,1,3410.14
-5345,fix: Add missing HttpStatusCode,winniehell,2022-12-06T19:12:55Z,2022-12-06T20:34:48+00:00,6,1.36
-5356,Fix typos,rmschindler,2022-12-08T04:35:47Z,2022-12-16T23:26:56+00:00,1,210.85
-5359,fix: rename types responseEncoding to ResponseEncoding,wootsbot,2022-12-08T18:48:13Z,2024-12-05T19:52:58+00:00,1,17473.08
-5375,Fix/typescript tests,DigitalBrainJS,2022-12-14T18:43:55Z,2022-12-14T20:49:49+00:00,3,2.1
-5420,fix(types): fixed AxiosRequestConfig header interface by refactoring it to RawAxiosRequestConfig;,DigitalBrainJS,2022-12-29T18:28:09Z,2023-01-06T00:02:09+00:00,1,173.57
-5441,fix:require is not defined,836334258,2023-01-06T08:31:16Z,2024-12-05T20:02:43+00:00,1,16787.52
-5444,docs: added missing config.transport doc,Cadienvan,2023-01-07T13:59:19Z,2023-02-22T20:22:09+00:00,1,1110.38
-5445,chore: added transport to RawAxiosRequestConfig,Cadienvan,2023-01-07T14:05:03Z,2023-04-13T21:45:02+00:00,4,2311.67
-5462,Fix GitHub workflow badges,EFord36,2023-01-11T11:37:17Z,2023-01-26T14:26:33+00:00,1,362.82
-5482,Fix AxiosRequestHeaders & AxiosHeaders types;,DigitalBrainJS,2023-01-20T14:45:01Z,2023-01-21T15:31:25+00:00,2,24.77
-5486,fix(types): renamed `RawAxiosRequestConfig` back to `AxiosRequestConfig`;,DigitalBrainJS,2023-01-22T20:22:28Z,2023-01-22T23:09:19+00:00,1,2.78
-5513,[Release] v1.3.0,github-actions,2023-01-31T13:49:58Z,2023-01-31T16:54:52+00:00,1,3.08
-5515,fix(proxy): allow to set proxy servername,0x0a0d,2023-02-01T08:53:50Z,2024-12-05T20:05:28+00:00,1,16163.19
-5540,export Adapters,unional,2023-02-10T23:24:40Z,2024-12-05T20:09:31+00:00,1,15932.75
-5595,fix(types): change the type guard on isCancel,adimit,2023-03-10T20:50:52Z,2025-07-30T18:38:36+00:00,3,20949.8
-5627,fix(package): Fix package exports,gligorkot,2023-03-30T09:12:56Z,2025-08-06T08:03:08+00:00,3,20638.84
-5687,fix(types): add mergeConfig declaration (#5686),hungtcs,2023-04-28T08:13:38Z,2023-06-02T14:00:25+00:00,1,845.78
-5707,feat(AxiosHeaders): add getSetCookie method to retrieve set-cookie headers values,WillianAgostini,2023-05-11T02:49:41Z,2025-03-25T19:30:23+00:00,3,16432.68
-5715,fix(params): removing '[' and ']' from URL encode exclude characters …,HealGaren,2023-05-19T11:27:50Z,2025-08-01T18:44:47+00:00,1,19327.28
-5731,fix(http): remove brackets from hostname,Rishi556,2023-06-07T02:26:14Z,2024-08-31T21:47:25+00:00,1,10843.35
-5770,Define more strict ParamsSerializerOptions type,ShebangDog,2023-07-11T09:34:31Z,2025-01-30T18:52:36+00:00,1,13665.3
-5778,fix: dispatchBeforeRedirect,zaosoula,2023-07-14T11:19:00Z,2024-01-24T22:57:06+00:00,5,4667.64
-5788,docs: Add axios error type definitions in README.MD ,JBudiman00,2023-07-20T20:21:38Z,2023-08-03T06:21:30+00:00,1,322.0
-5790,docs: fix CommonJS usage note,Cadienvan,2023-07-22T08:19:29Z,2023-08-30T18:41:35+00:00,1,946.37
-5809,Change isNaN to Number.isNaN,0o001,2023-08-03T08:42:58Z,2023-08-30T18:47:01+00:00,1,658.07
-5816,fix(types): removed duplicated code,fb-sean,2023-08-10T13:59:39Z,2023-08-30T18:29:27+00:00,1,484.5
-5823,docs: fix a typo in v0.x README,hayatonjp,2023-08-14T15:51:06Z,2023-09-13T09:26:43+00:00,2,713.59
-5832,fix(headers): fixed common Content-Type header merging;,DigitalBrainJS,2023-08-25T20:11:20Z,2023-08-26T13:26:51+00:00,1,17.26
-5835,chore: publish to NPM with provenance,meyfa,2023-08-26T14:22:12Z,2023-11-08T14:25:04+00:00,1,1776.05
-5887,docs(paramsSerializer config within request config): update documenta…,DavidJDallas,2023-09-07T12:07:46Z,2023-09-07T14:59:18+00:00,1,2.86
-5897,adding environtment variable,sourabh20905,2023-09-15T19:57:23Z,2023-09-29T08:15:28+00:00,1,324.3
-5908,README: Consistent spacing after comment start,dandv,2023-09-20T13:09:27Z,2025-01-30T19:02:15+00:00,1,11957.88
-5926,Feat/5924,WillianAgostini,2023-09-28T16:35:56Z,2025-08-12T07:34:42+00:00,1,16406.98
-5935,chore: fix contribution guide,ueokande,2023-09-30T07:45:15Z,2025-01-30T19:09:16+00:00,1,11723.4
-5936,Update README.md,lipinnnnn,2023-09-30T10:07:11Z,2025-01-30T19:13:42+00:00,1,11721.11
-5940,Update gulpfile.js,Hacxmr,2023-09-30T18:22:56Z,2024-01-19T06:58:01+00:00,1,2652.58
-5942,fix:updated the permalink and right branch in README.md,shreenarayan123,2023-10-01T01:23:05Z,2025-01-30T19:28:31+00:00,1,11706.09
-5949,Reduce the Size of Logo on Intro Page #5948,Shivam-Batham,2023-10-02T04:55:24Z,2025-01-30T19:18:51+00:00,2,11678.39
-5959,Corrected the bug in examples/server.js file,vishal-sharma-369,2023-10-02T20:43:05Z,2025-01-30T19:34:00+00:00,5,11662.85
-5970,Added some fixes in contributing.md file with using npm,TheShiveshNetwork,2023-10-04T13:57:14Z,2025-01-30T19:35:38+00:00,2,11621.64
-5987,fix: wrap errors to improve async stack trace,ikonst,2023-10-06T15:40:51Z,2024-01-24T22:21:12+00:00,7,2646.67
-6011,fix(dns): fixed lookup function decorator to work properly in node 20.x;,DigitalBrainJS,2023-10-18T21:18:33Z,2023-10-22T14:12:33+00:00,1,88.9
-6024,fix: Create pull request template.md,Yoda-Flash,2023-10-23T21:45:46Z,2023-10-24T15:28:07+00:00,2,17.71
-6028,CVE 2023 45857,valentin-panov,2023-10-25T15:52:45Z,2023-10-26T19:54:07+00:00,4,28.02
-6030,Fix typo in index.ts,habipakyol,2023-10-26T08:18:05Z,2025-02-02T14:41:50+00:00,2,11166.4
-6031,[Release] v1.6.0,github-actions,2023-10-26T20:02:54Z,2023-10-26T21:14:42+00:00,1,1.2
-6116,chore(docs): Fix documentation for usage of interceptors in axios,zhravan,2023-12-05T17:33:34Z,2025-01-30T19:49:26+00:00,1,10130.26
-6129,"docs: split long lines, easier for reading",yionr,2023-12-13T03:59:10Z,2025-01-30T19:45:54+00:00,2,9951.78
-6132,fix: Regular Expression Denial of Service (ReDoS),WillianAgostini,2023-12-14T02:27:56Z,2023-12-26T20:29:26+00:00,4,306.02
-6163,fix security volunerability in follow-redirects,gnesher,2024-01-02T09:27:18Z,2024-01-03T19:32:51+00:00,7,34.09
-6167,Fixed formDataToJSON prototype pollution vulnerability;,DigitalBrainJS,2024-01-03T00:16:26Z,2024-01-03T19:37:32+00:00,1,19.35
-6186,chore: remove unnecessary check,zh-lx,2024-01-15T06:53:37Z,2024-01-25T18:46:53+00:00,1,251.89
-6191,Acknowledging the pull request feature. ,SauravGhm,2024-01-18T01:24:52Z,2024-02-16T10:15:40+00:00,2,704.85
-6192,feat: Add config for ignoring absolute URLs (#5902),GethosTheWalrus,2024-01-18T16:48:15Z,2025-02-12T09:09:25+00:00,4,9376.35
-6194,docs: update README responseEncoding types,ljkeller,2024-01-20T19:47:23Z,2024-02-16T10:18:16+00:00,1,638.51
-6196,docs: Update README.md to point to current axios version in CDN links,mannoeu,2024-01-22T20:44:17Z,2024-02-16T10:17:26+00:00,1,589.55
-6211,[Release] v0.28.0,DigitalBrainJS,2024-01-30T16:12:27Z,2024-02-12T18:32:58+00:00,3,314.34
-6218,fix(types): export CJS types from ESM,remcohaszing,2024-02-05T15:48:30Z,2024-11-19T08:39:59+00:00,1,6904.86
-6235,Fix for high security vulnerability in follow-redirects,osortega,2024-02-13T23:51:03Z,2024-02-15T18:12:13+00:00,1,42.35
-6261,fix: wrong variable name causing runtime error,sean-dickinson,2024-02-26T14:20:45Z,2025-02-13T14:22:38+00:00,1,8472.03
-6263,backport: custom params serializer support for v0.x,briwa,2024-02-27T07:19:14Z,2024-03-28T16:54:20+00:00,3,729.59
-6271,fix: Update CHANGELOG.md for v0.x,TehZarathustra,2024-02-29T16:33:23Z,2025-01-30T19:42:39+00:00,2,8067.15
-6273,Corrected the import of EventEmittor,ADITYA-176,2024-03-01T15:13:27Z,2024-03-15T16:05:34+00:00,1,336.87
-6300,fix(vulnerability): update follow-redirects to 1.15.6,Creaous,2024-03-14T23:59:01Z,2024-03-15T15:59:42+00:00,2,16.01
-6312,removal(documentation): remove SECURITY.md,justindhillon,2024-03-19T22:28:42Z,2025-01-31T17:01:59+00:00,1,7626.55
-6344,Grammatically improved Security.md doc,JikokuAice,2024-04-07T17:17:40Z,2024-04-09T09:37:49+00:00,1,40.34
-6348,fix: change main entry to CJS dist,lukekarrys,2024-04-10T16:41:53Z,2025-04-29T21:10:41+00:00,3,9220.48
-6349,fix(vulnerability): update follow-redirects to 1.15.6,esezerguven,2024-04-11T08:55:13Z,2024-06-25T15:42:56+00:00,1,1806.8
-6362,fix(core/axios): handle un-writable error stack,alexandre-abrioux,2024-04-19T09:59:17Z,2024-05-07T17:57:03+00:00,1,439.96
-6371,feat(adapter): add fetch adapter;,DigitalBrainJS,2024-04-27T22:30:11Z,2024-04-28T19:33:50+00:00,2,21.06
-6447,"chore(deps): bump braces, gulp and webpack",dependabot,2024-06-12T21:51:52Z,2025-07-31T19:04:37+00:00,1,9933.21
-6480,docs(readme): fix Request Config options code highlight,bernardoduarte,2024-07-02T22:46:33Z,2025-01-31T17:05:10+00:00,2,5106.31
-6489,Warn about common option misspellings,cincodenada,2024-07-10T01:04:01Z,2024-09-26T19:31:24+00:00,3,1890.46
-6539,fix(sec): disregard protocol-relative URL to remediate SSRF,hainenber,2024-08-12T15:14:58Z,2024-08-13T15:03:25+00:00,144,23.81
-6590,fix(types): add missing types for mergeConfig function,Baoyx007,2024-09-05T07:08:47Z,2024-09-26T17:36:47+00:00,1,514.47
-6617,Update client.html,aayushkrishnaut,2024-09-28T12:47:11Z,2024-11-08T09:50:23+00:00,1,981.05
-6637,Update server.js,shrivalidutt,2024-10-07T20:30:43Z,2024-11-11T15:02:50+00:00,1,834.54
-6644,fix: fixed width form to not shrink after 'Send Request' button is cl…,echelonnought,2024-10-12T14:56:19Z,2024-11-08T09:39:10+00:00,2,642.71
-6661,fix(http): send minimal end multipart boundary,igstan,2024-10-21T18:58:11Z,2025-04-24T19:19:48+00:00,1,4440.36
-6668,fix(core): fixed config merging bug,Aakash-Rana,2024-10-25T18:37:52Z,2024-10-30T21:39:55+00:00,2,123.03
-6672,Update gulpfile.js,Cgarg547,2024-10-29T06:45:00Z,2024-11-03T21:27:29+00:00,1,134.71
-6680,fix: allow passing a callback as paramsSerializer to buildURL,guuido,2024-10-31T14:26:37Z,2024-11-12T15:33:33+00:00,4,289.12
-6683,Group all GitHub Actions updates into a single larger pull request,cclauss,2024-11-01T14:45:52Z,2024-11-08T09:33:28+00:00,1,162.79
-6708,fix: Regular Expression Denial of Service (ReDoS),qiongshusheng,2024-11-14T08:18:49Z,2024-11-15T07:29:49+00:00,1,23.18
-6731,Update axios.js expose the formDataToStream for public use,unknown,2024-12-04T12:01:45Z,2024-12-05T14:27:34+00:00,1,26.43
-6757,Fix missing word in SUPPORT_QUESTION.yml,dandv,2025-01-12T13:19:46Z,2025-01-28T17:36:33+00:00,1,388.28
-6767,fix(fetch): fix ERR_NETWORK mapping for Safari browsers;,DigitalBrainJS,2025-01-22T15:37:46Z,2025-04-14T22:52:53+00:00,1,1975.25
-6770,Added missing colons and period for consistency,shaymolcho,2025-01-24T07:41:53Z,2025-01-28T17:31:24+00:00,1,105.83
-6771,fix: typo in README,llamington,2025-01-28T20:44:22Z,2025-01-31T17:10:21+00:00,1,68.43
-6772,Codespace psychic disco jrrqgwx96672q5gq,ericdimon86,2025-02-04T14:45:04Z,2025-02-09T09:17:14+00:00,1,114.54
-6774,Codespace vigilant capybara vppq57x5v6ghx5vg,ericdimon86,2025-02-04T17:42:34Z,2025-02-09T09:16:53+00:00,1,111.57
-6777,Include License Header in Minified JavaScript File,WillianAgostini,2025-02-06T23:41:41Z,2025-02-09T09:15:25+00:00,1,57.56
-6782,Include custom response headers,WillianAgostini,2025-02-11T03:34:29Z,2025-08-12T07:29:02+00:00,1,4371.91
-6787,docs: Modify upgrade guide for 0.28.1's breaking change,nafeger,2025-02-17T00:54:51Z,2025-03-10T17:09:19+00:00,1,520.24
-6804,[Chore] Update sponsor block,github-actions,2025-02-27T01:29:39Z,2025-03-02T15:29:51+00:00,1,86.0
-6808,[Chore] Update sponsor block,github-actions,2025-03-05T01:29:46Z,2025-03-10T17:02:19+00:00,1,135.54
-6811,docs: update readme to include bun install,Electroid,2025-03-06T20:22:05Z,2025-03-10T17:04:04+00:00,1,92.7
-6818,fix: add missing type for allowAbsoluteUrls,StefanBRas,2025-03-10T12:06:49Z,2025-03-10T17:22:36+00:00,1,5.26
-6829,Backport allowAbsoluteUrls vuln fix to v0.x,thatguyinabeanie,2025-03-13T14:49:27Z,2025-03-19T10:24:25+00:00,6,139.58
-6833,fix(buildFullPath): handle `allowAbsoluteUrls: false` without `baseURL`,mhassan1,2025-03-14T17:11:10Z,2025-03-18T18:01:37+00:00,2,96.84
-6855,fix(types): no auto complete for adapters,FatahChan,2025-03-26T17:33:04Z,2025-04-19T15:54:33+00:00,1,574.36
-6870,"Improve fetchOptions type for better autocomplete, type safety, and Next.js compatibility",vgotu99,2025-04-10T08:26:03Z,2025-04-25T19:27:56+00:00,1,371.03
-6872,Updated README to correct description of keepAlive option,howiezhao,2025-04-13T10:12:12Z,2025-04-25T19:08:55+00:00,1,296.95
-6883,fix(adapter): pass fetchOptions to fetch function,warpdev,2025-04-21T09:23:44Z,2025-06-01T16:57:50+00:00,2,991.57
-6894,docs(CONTRIBUTING): update documentation link for better accuracy,Tejaswi1305,2025-04-27T19:34:16Z,2025-06-27T06:46:36+00:00,1,1451.21
-6895,feat: add HTTP/2 support,WillianAgostini,2025-04-27T22:26:26Z,2025-09-19T00:44:00+00:00,3,3458.29
-6917,Fix boolean values causing error when performing POST multipart/form-data,dimitry-lzs,2025-05-21T02:16:00Z,2025-05-21T15:32:38+00:00,2,13.28
-6922,refactor: remove unused import in test,noritaka1166,2025-05-30T03:20:04Z,2025-06-01T16:31:50+00:00,1,61.2
-6923,chore: fix typos in test,noritaka1166,2025-05-30T03:20:42Z,2025-06-01T16:28:07+00:00,1,61.12
-6930,fix(platform): replace crypto with cross-platform getRandomValues helper,WillianAgostini,2025-06-06T03:05:12Z,2025-06-29T22:27:53+00:00,1,571.38
-6938,refactor: use spread operator instead of '.apply()',noritaka1166,2025-06-11T11:56:07Z,2025-07-06T14:59:56+00:00,1,603.06
-6939,refactor: use an object spread instead of Object.assign,noritaka1166,2025-06-11T12:28:22Z,2025-07-06T14:51:51+00:00,1,602.39
-6956,fix(types): resolve type discrepancies between ESM and CJS TypeScript…,jrnail23,2025-07-03T21:24:01Z,2025-07-16T17:50:56+00:00,12,308.45
-6961,fix #6949: prevent RangeError when using large Buffers in axios requests,manishsahanidev,2025-07-09T07:27:07Z,2025-07-15T18:18:25+00:00,1,154.85
-6970,Fix Critical Security Vulnerability in form-data Dependency,izzygld,2025-07-21T07:35:49Z,2025-07-22T18:58:10+00:00,10,35.37
-6971,chore(deps): bump form-data from 4.0.0 to 4.0.4,dependabot,2025-07-21T23:05:44Z,2025-07-22T18:59:20+00:00,2,19.89
-6974,[Release] v1.11.0,github-actions,2025-07-22T19:03:38Z,2025-07-23T06:04:30+00:00,1,11.01
-6978,chore(deps): bump form-data from 4.0.0 to 4.0.4 for v0.x,wolandec,2025-07-24T10:44:44Z,2025-07-25T09:35:28+00:00,1,22.85
-6980,fix(sandbox): Improper Encoding or Escaping of Output as DOM text reinterpreted as HTML,odaysec,2025-07-26T00:07:10Z,2025-07-28T15:18:02+00:00,1,63.18
-6982,feat(adapter): surface low‑level network error details; attach origin…,mkhani01,2025-07-29T10:06:46Z,2025-07-30T07:57:27+00:00,2,21.84
-6998,fix(fetch-adapter): set correct Content-Type for Node FormData,emiedonmokumo,2025-08-22T21:03:22Z,2025-08-25T18:46:53+00:00,6,69.73
-7002,chore: removing dist files from src,WillianAgostini,2025-08-28T23:59:34Z,2025-09-03T06:41:24+00:00,1,126.7
-7003,"feat(fetch): add fetch, Request, Response env config variables for the adapter;",DigitalBrainJS,2025-08-29T00:17:11Z,2025-08-30T19:02:24+00:00,1,42.75
-7006,chore(CI): fixed release info script to use npm registry instead of git as file history source;,DigitalBrainJS,2025-09-03T21:13:07Z,2025-09-04T06:33:40+00:00,2,9.34
-7011,fix(node): enforce maxContentLength for data: URLs,AmeerAssadi,2025-09-09T17:50:14Z,2025-09-10T13:08:43+00:00,8,19.31
-7022,chore(ci): add local HTTP server for Karma tests;,DigitalBrainJS,2025-09-12T19:53:28Z,2025-09-13T14:50:32+00:00,1,18.95
-7028,refactor: change if in else to else if,noritaka1166,2025-09-13T18:06:53Z,2025-09-14T09:53:02+00:00,1,15.77
-7032,chore: remove unused terser-webpack-plugin,noritaka1166,2025-09-15T03:02:25Z,2025-09-15T06:14:30+00:00,1,3.2
-7037,♿️ Add alt text to logo image,k-utsumi,2025-09-16T02:38:48Z,2025-09-16T14:04:20+00:00,2,11.43
-7046,docs: fix typos,kianmeng,2025-09-18T06:20:47Z,2025-09-19T13:01:16+00:00,1,30.67
+number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+7046,docs: fix typos,kianmeng,2025-09-18T06:20:47Z,2025-09-19T13:01:16+00:00,1,30.67,True,1,1,2,49,1,0,1,APPROVED
+7037,♿️ Add alt text to logo image,k-utsumi,2025-09-16T02:38:48Z,2025-09-16T14:04:20+00:00,2,11.43,True,1,1,1,191,0,0,0,APPROVED
+7032,chore: remove unused terser-webpack-plugin,noritaka1166,2025-09-15T03:02:25Z,2025-09-15T06:14:30+00:00,1,3.2,True,24,509,2,35,0,0,0,APPROVED
+7028,refactor: change if in else to else if,noritaka1166,2025-09-13T18:06:53Z,2025-09-14T09:53:02+00:00,1,15.77,True,2,4,1,51,1,0,1,APPROVED
+7022,chore(ci): add local HTTP server for Karma tests;,DigitalBrainJS,2025-09-12T19:53:28Z,2025-09-13T14:50:32+00:00,1,18.95,True,133,5,6,350,0,1,1,COMMENTED
+7011,fix(node): enforce maxContentLength for data: URLs,AmeerAssadi,2025-09-09T17:50:14Z,2025-09-10T13:08:43+00:00,8,19.31,True,123,0,4,617,8,6,14,APPROVED
+7006,chore(CI): fixed release info script to use npm registry instead of git as file history source;,DigitalBrainJS,2025-09-03T21:13:07Z,2025-09-04T06:33:40+00:00,2,9.34,True,3940,118,4,816,0,1,1,APPROVED
+7003,"feat(fetch): add fetch, Request, Response env config variables for the adapter;",DigitalBrainJS,2025-08-29T00:17:11Z,2025-08-30T19:02:24+00:00,1,42.75,True,323,175,7,682,13,0,13,APPROVED
+7002,chore: removing dist files from src,WillianAgostini,2025-08-28T23:59:34Z,2025-09-03T06:41:24+00:00,1,126.7,True,5,16755,18,11,1,0,1,APPROVED
+6998,fix(fetch-adapter): set correct Content-Type for Node FormData,emiedonmokumo,2025-08-22T21:03:22Z,2025-08-25T18:46:53+00:00,6,69.73,True,55,35,2,1272,5,4,9,COMMENTED
+6982,feat(adapter): surface low‑level network error details; attach origin…,mkhani01,2025-07-29T10:06:46Z,2025-07-30T07:57:27+00:00,3,21.84,True,111,15,5,2089,2,1,3,COMMENTED
+6980,fix(sandbox): Improper Encoding or Escaping of Output as DOM text reinterpreted as HTML,odaysec,2025-07-26T00:07:10Z,2025-07-28T15:18:02+00:00,1,63.18,True,8,8,1,1336,1,0,1,APPROVED
+6978,chore(deps): bump form-data from 4.0.0 to 4.0.4 for v0.x,wolandec,2025-07-24T10:44:44Z,2025-07-25T09:35:28+00:00,1,22.85,True,263,49,2,88,10,0,10,APPROVED
+6974,[Release] v1.11.0,github-actions,2025-07-22T19:03:38Z,2025-07-23T06:04:30+00:00,1,11.01,True,212,50,17,626,2,0,2,APPROVED
+6971,chore(deps): bump form-data from 4.0.0 to 4.0.4,dependabot,2025-07-21T23:05:44Z,2025-07-22T18:59:20+00:00,2,19.89,False,184,91,1,4283,1,0,1,APPROVED
+6970,Fix Critical Security Vulnerability in form-data Dependency,izzygld,2025-07-21T07:35:49Z,2025-07-22T18:58:10+00:00,10,35.37,True,186,93,2,1366,9,0,9,APPROVED
+6961,fix #6949: prevent RangeError when using large Buffers in axios requests,manishsahanidev,2025-07-09T07:27:07Z,2025-07-15T18:18:25+00:00,1,154.85,True,70,0,2,4093,1,0,1,APPROVED
+6956,fix(types): resolve type discrepancies between ESM and CJS TypeScript…,jrnail23,2025-07-03T21:24:01Z,2025-07-16T17:50:56+00:00,12,308.45,True,13,2,1,80,2,6,8,APPROVED
+6939,refactor: use an object spread instead of Object.assign,noritaka1166,2025-06-11T12:28:22Z,2025-07-06T14:51:51+00:00,1,602.39,True,9,7,3,82,1,0,1,APPROVED
+6938,refactor: use spread operator instead of '.apply()',noritaka1166,2025-06-11T11:56:07Z,2025-07-06T14:59:56+00:00,1,603.06,True,3,3,2,78,1,0,1,APPROVED
+6930,fix(platform): replace crypto with cross-platform getRandomValues helper,WillianAgostini,2025-06-06T03:05:12Z,2025-06-29T22:27:53+00:00,1,571.38,False,19,2,1,344,1,0,1,APPROVED
+6923,chore: fix typos in test,noritaka1166,2025-05-30T03:20:42Z,2025-06-01T16:28:07+00:00,1,61.12,True,2,2,2,17,2,0,2,APPROVED
+6922,refactor: remove unused import in test,noritaka1166,2025-05-30T03:20:04Z,2025-06-01T16:31:50+00:00,1,61.2,True,0,4,3,28,1,0,1,APPROVED
+6917,Fix boolean values causing error when performing POST multipart/form-data,dimitry-lzs,2025-05-21T02:16:00Z,2025-05-21T15:32:38+00:00,2,13.28,True,4,0,1,646,1,0,1,APPROVED
+6895,feat: add HTTP/2 support,WillianAgostini,2025-04-27T22:26:26Z,2025-09-19T00:44:00+00:00,3,3458.29,False,1076,621,12,549,5,7,12,APPROVED
+6894,docs(CONTRIBUTING): update documentation link for better accuracy,Tejaswi1305,2025-04-27T19:34:16Z,2025-06-27T06:46:36+00:00,1,1451.21,True,1,1,1,246,1,0,1,APPROVED
+6883,fix(adapter): pass fetchOptions to fetch function,warpdev,2025-04-21T09:23:44Z,2025-06-01T16:57:50+00:00,2,991.57,True,1,1,1,447,2,0,2,APPROVED
+6872,Updated README to correct description of keepAlive option,howiezhao,2025-04-13T10:12:12Z,2025-04-25T19:08:55+00:00,1,296.95,True,3,1,1,252,1,0,1,APPROVED
+6870,"Improve fetchOptions type for better autocomplete, type safety, and Next.js compatibility",vgotu99,2025-04-10T08:26:03Z,2025-04-25T19:27:56+00:00,1,371.03,False,2,2,2,588,1,0,1,COMMENTED
+6855,fix(types): no auto complete for adapters,FatahChan,2025-03-26T17:33:04Z,2025-04-19T15:54:33+00:00,1,574.36,True,2,2,2,596,4,0,4,APPROVED
+6833,fix(buildFullPath): handle `allowAbsoluteUrls: false` without `baseURL`,mhassan1,2025-03-14T17:11:10Z,2025-03-18T18:01:37+00:00,2,96.84,True,5,1,2,177,2,1,3,COMMENTED
+6829,Backport allowAbsoluteUrls vuln fix to v0.x,thatguyinabeanie,2025-03-13T14:49:27Z,2025-03-19T10:24:25+00:00,6,139.58,True,11,6,5,120,9,5,14,COMMENTED
+6818,fix: add missing type for allowAbsoluteUrls,StefanBRas,2025-03-10T12:06:49Z,2025-03-10T17:22:36+00:00,1,5.26,True,4,0,4,228,3,0,3,APPROVED
+6811,docs: update readme to include bun install,Electroid,2025-03-06T20:22:05Z,2025-03-10T17:04:04+00:00,1,92.7,True,6,0,1,63,1,0,1,APPROVED
+6808,[Chore] Update sponsor block,github-actions,2025-03-05T01:29:46Z,2025-03-10T17:02:19+00:00,1,135.54,False,1,13,1,25,0,0,0,APPROVED
+6804,[Chore] Update sponsor block,github-actions,2025-02-27T01:29:39Z,2025-03-02T15:29:51+00:00,1,86.0,True,2,2,1,1079,0,0,0,COMMENTED
+6787,docs: Modify upgrade guide for 0.28.1's breaking change,nafeger,2025-02-17T00:54:51Z,2025-03-10T17:09:19+00:00,1,520.24,True,21,0,1,485,0,0,0,APPROVED
+6782,Include custom response headers,WillianAgostini,2025-02-11T03:34:29Z,2025-08-12T07:29:02+00:00,1,4371.91,True,107,4,4,339,1,0,1,APPROVED
+6777,Include License Header in Minified JavaScript File,WillianAgostini,2025-02-06T23:41:41Z,2025-02-09T09:15:25+00:00,1,57.56,True,1,1,1,98,2,0,2,APPROVED
+6774,Codespace vigilant capybara vppq57x5v6ghx5vg,ericdimon86,2025-02-04T17:42:34Z,2025-02-09T09:16:53+00:00,1,111.57,False,10,10,5,479,0,0,0,COMMENTED
+6772,Codespace psychic disco jrrqgwx96672q5gq,ericdimon86,2025-02-04T14:45:04Z,2025-02-09T09:17:14+00:00,1,114.54,False,4,4,4,479,0,0,0,COMMENTED
+6771,fix: typo in README,llamington,2025-01-28T20:44:22Z,2025-01-31T17:10:21+00:00,1,68.43,True,1,1,1,54,1,0,1,APPROVED
+6770,Added missing colons and period for consistency,shaymolcho,2025-01-24T07:41:53Z,2025-01-28T17:31:24+00:00,1,105.83,True,2,2,1,731,1,0,1,APPROVED
+6767,fix(fetch): fix ERR_NETWORK mapping for Safari browsers;,DigitalBrainJS,2025-01-22T15:37:46Z,2025-04-14T22:52:53+00:00,1,1975.25,True,1,1,1,11,0,0,0,APPROVED
+6757,Fix missing word in SUPPORT_QUESTION.yml,dandv,2025-01-12T13:19:46Z,2025-01-28T17:36:33+00:00,1,388.28,True,1,1,1,0,1,0,1,APPROVED
+6731,Update axios.js expose the formDataToStream for public use,unknown,2024-12-04T12:01:45Z,2024-12-05T14:27:34+00:00,1,26.43,True,3,0,1,38,5,0,5,APPROVED
+6708,fix: Regular Expression Denial of Service (ReDoS),qiongshusheng,2024-11-14T08:18:49Z,2024-11-15T07:29:49+00:00,1,23.18,True,14,2,2,49,1,0,1,APPROVED
+6683,Group all GitHub Actions updates into a single larger pull request,cclauss,2024-11-01T14:45:52Z,2024-11-08T09:33:28+00:00,1,162.79,True,4,0,1,386,3,0,3,APPROVED
+6680,fix: allow passing a callback as paramsSerializer to buildURL,guuido,2024-10-31T14:26:37Z,2024-11-12T15:33:33+00:00,4,289.12,True,14,1,2,240,3,1,4,APPROVED
+6672,Update gulpfile.js,Cgarg547,2024-10-29T06:45:00Z,2024-11-03T21:27:29+00:00,1,134.71,False,33,67,1,197,0,4,4,CHANGES_REQUESTED
+6668,fix(core): fixed config merging bug,Aakash-Rana,2024-10-25T18:37:52Z,2024-10-30T21:39:55+00:00,2,123.03,True,5,5,1,594,4,0,4,APPROVED
+6661,fix(http): send minimal end multipart boundary,igstan,2024-10-21T18:58:11Z,2025-04-24T19:19:48+00:00,1,4440.36,True,1,1,1,2324,1,0,1,APPROVED
+6644,fix: fixed width form to not shrink after 'Send Request' button is cl…,echelonnought,2024-10-12T14:56:19Z,2024-11-08T09:39:10+00:00,2,642.71,True,3,0,1,43,2,0,2,APPROVED
+6637,Update server.js,shrivalidutt,2024-10-07T20:30:43Z,2024-11-11T15:02:50+00:00,1,834.54,True,1,1,1,57,3,0,3,APPROVED
+6617,Update client.html,aayushkrishnaut,2024-09-28T12:47:11Z,2024-11-08T09:50:23+00:00,1,981.05,True,124,111,1,643,1,1,2,COMMENTED
+6590,fix(types): add missing types for mergeConfig function,Baoyx007,2024-09-05T07:08:47Z,2024-09-26T17:36:47+00:00,1,514.47,True,3,0,1,43,1,0,1,APPROVED
+6539,fix(sec): disregard protocol-relative URL to remediate SSRF,hainenber,2024-08-12T15:14:58Z,2024-08-13T15:03:25+00:00,144,23.81,True,49,4,3,112,25,1,26,APPROVED
+6489,Warn about common option misspellings,cincodenada,2024-07-10T01:04:01Z,2024-09-26T19:31:24+00:00,3,1890.46,True,29,0,3,62,1,3,4,APPROVED
+6480,docs(readme): fix Request Config options code highlight,bernardoduarte,2024-07-02T22:46:33Z,2025-01-31T17:05:10+00:00,2,5106.31,True,1,1,1,113,1,0,1,APPROVED
+6447,"chore(deps): bump braces, gulp and webpack",dependabot,2024-06-12T21:51:52Z,2025-07-31T19:04:37+00:00,1,9933.21,False,1386,2730,2,8984,2,0,2,APPROVED
+6371,feat(adapter): add fetch adapter;,DigitalBrainJS,2024-04-27T22:30:11Z,2024-04-28T19:33:50+00:00,2,21.06,True,1015,127,21,696,0,3,3,COMMENTED
+6362,fix(core/axios): handle un-writable error stack,alexandre-abrioux,2024-04-19T09:59:17Z,2024-05-07T17:57:03+00:00,1,439.96,True,56,6,2,928,4,1,5,COMMENTED
+6349,fix(vulnerability): update follow-redirects to 1.15.6,esezerguven,2024-04-11T08:55:13Z,2024-06-25T15:42:56+00:00,1,1806.8,False,8,8,2,127,2,0,2,APPROVED
+6348,fix: change main entry to CJS dist,lukekarrys,2024-04-10T16:41:53Z,2025-04-29T21:10:41+00:00,3,9220.48,False,1,1,1,1871,0,1,1,COMMENTED
+6344,Grammatically improved Security.md doc,JikokuAice,2024-04-07T17:17:40Z,2024-04-09T09:37:49+00:00,1,40.34,False,1,2,1,95,2,0,2,CHANGES_REQUESTED
+6312,removal(documentation): remove SECURITY.md,justindhillon,2024-03-19T22:28:42Z,2025-01-31T17:01:59+00:00,1,7626.55,True,0,7,2,184,1,0,1,APPROVED
+6300,fix(vulnerability): update follow-redirects to 1.15.6,Creaous,2024-03-14T23:59:01Z,2024-03-15T15:59:42+00:00,2,16.01,True,9,9,2,170,2,0,2,APPROVED
+6273,Corrected the import of EventEmittor,ADITYA-176,2024-03-01T15:13:27Z,2024-03-15T16:05:34+00:00,1,336.87,True,1,1,1,255,1,0,1,APPROVED
+6271,fix: Update CHANGELOG.md for v0.x,TehZarathustra,2024-02-29T16:33:23Z,2025-01-30T19:42:39+00:00,2,8067.15,True,32,32,1,34,0,0,0,APPROVED
+6263,backport: custom params serializer support for v0.x,briwa,2024-02-27T07:19:14Z,2024-03-28T16:54:20+00:00,3,729.59,True,39,6,5,211,2,2,4,COMMENTED
+6261,fix: wrong variable name causing runtime error,sean-dickinson,2024-02-26T14:20:45Z,2025-02-13T14:22:38+00:00,1,8472.03,False,1,1,1,30,1,0,1,APPROVED
+6235,Fix for high security vulnerability in follow-redirects,osortega,2024-02-13T23:51:03Z,2024-02-15T18:12:13+00:00,1,42.35,False,8,8,2,586,2,0,2,APPROVED
+6218,fix(types): export CJS types from ESM,remcohaszing,2024-02-05T15:48:30Z,2024-11-19T08:39:59+00:00,1,6904.86,True,108,596,2,104,16,0,16,APPROVED
+6211,[Release] v0.28.0,DigitalBrainJS,2024-01-30T16:12:27Z,2024-02-12T18:32:58+00:00,3,314.34,True,4401,2239,16,1949,3,2,5,COMMENTED
+6196,docs: Update README.md to point to current axios version in CDN links,mannoeu,2024-01-22T20:44:17Z,2024-02-16T10:17:26+00:00,1,589.55,True,2,2,1,77,1,0,1,APPROVED
+6194,docs: update README responseEncoding types,ljkeller,2024-01-20T19:47:23Z,2024-02-16T10:18:16+00:00,1,638.51,True,3,0,1,281,1,0,1,APPROVED
+6192,feat: Add config for ignoring absolute URLs (#5902),GethosTheWalrus,2024-01-18T16:48:15Z,2025-02-12T09:09:25+00:00,4,9376.35,True,42,8,5,143,7,2,9,APPROVED
+6191,Acknowledging the pull request feature. ,SauravGhm,2024-01-18T01:24:52Z,2024-02-16T10:15:40+00:00,2,704.85,False,1,1,1,46,2,0,2,APPROVED
+6186,chore: remove unnecessary check,zh-lx,2024-01-15T06:53:37Z,2024-01-25T18:46:53+00:00,1,251.89,True,0,3,1,65,1,0,1,APPROVED
+6167,Fixed formDataToJSON prototype pollution vulnerability;,DigitalBrainJS,2024-01-03T00:16:26Z,2024-01-03T19:37:32+00:00,1,19.35,True,24,0,2,0,1,1,2,COMMENTED
+6163,fix security volunerability in follow-redirects,gnesher,2024-01-02T09:27:18Z,2024-01-03T19:32:51+00:00,7,34.09,True,10,10,3,149,7,0,7,APPROVED
+6132,fix: Regular Expression Denial of Service (ReDoS),WillianAgostini,2023-12-14T02:27:56Z,2023-12-26T20:29:26+00:00,4,306.02,True,17,2,2,53,7,2,9,COMMENTED
+6129,"docs: split long lines, easier for reading",yionr,2023-12-13T03:59:10Z,2025-01-30T19:45:54+00:00,2,9951.78,True,5,1,1,0,1,0,1,APPROVED
+6116,chore(docs): Fix documentation for usage of interceptors in axios,zhravan,2023-12-05T17:33:34Z,2025-01-30T19:49:26+00:00,1,10130.26,True,7,3,1,1079,3,0,3,APPROVED
+6031,[Release] v1.6.0,github-actions,2023-10-26T20:02:54Z,2023-10-26T21:14:42+00:00,1,1.2,True,214,38,17,750,0,0,0,APPROVED
+6030,Fix typo in index.ts,habipakyol,2023-10-26T08:18:05Z,2025-02-02T14:41:50+00:00,2,11166.4,True,1,1,1,53,1,0,1,COMMENTED
+6028,CVE 2023 45857,valentin-panov,2023-10-25T15:52:45Z,2023-10-26T19:54:07+00:00,4,28.02,True,4,4,2,195,22,0,22,APPROVED
+6024,fix: Create pull request template.md,Yoda-Flash,2023-10-23T21:45:46Z,2023-10-24T15:28:07+00:00,2,17.71,False,30,0,1,134,0,1,1,COMMENTED
+6011,fix(dns): fixed lookup function decorator to work properly in node 20.x;,DigitalBrainJS,2023-10-18T21:18:33Z,2023-10-22T14:12:33+00:00,1,88.9,True,90,21,5,0,0,1,1,COMMENTED
+5987,fix: wrap errors to improve async stack trace,ikonst,2023-10-06T15:40:51Z,2024-01-24T22:21:12+00:00,7,2646.67,True,91,8,2,286,11,7,18,APPROVED
+5970,Added some fixes in contributing.md file with using npm,TheShiveshNetwork,2023-10-04T13:57:14Z,2025-01-30T19:35:38+00:00,2,11621.64,False,3,3,1,355,1,1,2,COMMENTED
+5959,Corrected the bug in examples/server.js file,vishal-sharma-369,2023-10-02T20:43:05Z,2025-01-30T19:34:00+00:00,5,11662.85,False,7,1,1,152,2,2,4,APPROVED
+5949,Reduce the Size of Logo on Intro Page #5948,Shivam-Batham,2023-10-02T04:55:24Z,2025-01-30T19:18:51+00:00,2,11678.39,True,1,1,1,73,1,0,1,APPROVED
+5942,fix:updated the permalink and right branch in README.md,shreenarayan123,2023-10-01T01:23:05Z,2025-01-30T19:28:31+00:00,1,11706.09,False,1,1,1,334,1,0,1,APPROVED
+5940,Update gulpfile.js,Hacxmr,2023-09-30T18:22:56Z,2024-01-19T06:58:01+00:00,1,2652.58,False,2,2,1,0,0,1,1,COMMENTED
+5936,Update README.md,lipinnnnn,2023-09-30T10:07:11Z,2025-01-30T19:13:42+00:00,1,11721.11,True,1,1,1,165,1,0,1,APPROVED
+5935,chore: fix contribution guide,ueokande,2023-09-30T07:45:15Z,2025-01-30T19:09:16+00:00,1,11723.4,True,3,3,2,222,1,0,1,APPROVED
+5926,Feat/5924,WillianAgostini,2023-09-28T16:35:56Z,2025-08-12T07:34:42+00:00,1,16406.98,True,20,1,3,53,4,0,4,APPROVED
+5908,README: Consistent spacing after comment start,dandv,2023-09-20T13:09:27Z,2025-01-30T19:02:15+00:00,1,11957.88,True,2,2,1,0,2,0,2,APPROVED
+5897,adding environtment variable,sourabh20905,2023-09-15T19:57:23Z,2023-09-29T08:15:28+00:00,1,324.3,False,1,1,1,479,1,0,1,CHANGES_REQUESTED
+5887,docs(paramsSerializer config within request config): update documenta…,DavidJDallas,2023-09-07T12:07:46Z,2023-09-07T14:59:18+00:00,1,2.86,True,11,5,1,90,0,0,0,APPROVED
+5835,chore: publish to NPM with provenance,meyfa,2023-08-26T14:22:12Z,2023-11-08T14:25:04+00:00,1,1776.05,True,5,2,1,687,2,0,2,APPROVED
+5832,fix(headers): fixed common Content-Type header merging;,DigitalBrainJS,2023-08-25T20:11:20Z,2023-08-26T13:26:51+00:00,1,17.26,True,33,23,4,12,0,1,1,COMMENTED
+5823,docs: fix a typo in v0.x README,hayatonjp,2023-08-14T15:51:06Z,2023-09-13T09:26:43+00:00,2,713.59,True,30,30,1,27,0,0,0,APPROVED
+5816,fix(types): removed duplicated code,fb-sean,2023-08-10T13:59:39Z,2023-08-30T18:29:27+00:00,1,484.5,True,2,8,2,87,0,0,0,APPROVED
+5809,Change isNaN to Number.isNaN,0o001,2023-08-03T08:42:58Z,2023-08-30T18:47:01+00:00,1,658.07,True,4,4,3,742,0,0,0,APPROVED
+5790,docs: fix CommonJS usage note,Cadienvan,2023-07-22T08:19:29Z,2023-08-30T18:41:35+00:00,1,946.37,True,1,1,1,217,0,0,0,APPROVED
+5788,docs: Add axios error type definitions in README.MD ,JBudiman00,2023-07-20T20:21:38Z,2023-08-03T06:21:30+00:00,1,322.0,True,30,0,1,224,0,0,0,APPROVED
+5778,fix: dispatchBeforeRedirect,zaosoula,2023-07-14T11:19:00Z,2024-01-24T22:57:06+00:00,5,4667.64,True,6,6,4,100,2,3,5,APPROVED
+5770,Define more strict ParamsSerializerOptions type,ShebangDog,2023-07-11T09:34:31Z,2025-01-30T18:52:36+00:00,1,13665.3,False,15,3,1,309,1,2,3,COMMENTED
+5731,fix(http): remove brackets from hostname,Rishi556,2023-06-07T02:26:14Z,2024-08-31T21:47:25+00:00,1,10843.35,True,39,1,2,192,4,0,4,APPROVED
+5715,fix(params): removing '[' and ']' from URL encode exclude characters …,HealGaren,2023-05-19T11:27:50Z,2025-08-01T18:44:47+00:00,1,19327.28,True,5,7,2,264,2,0,2,APPROVED
+5707,feat(AxiosHeaders): add getSetCookie method to retrieve set-cookie headers values,WillianAgostini,2023-05-11T02:49:41Z,2025-03-25T19:30:23+00:00,3,16432.68,True,21,0,3,39,2,0,2,APPROVED
+5687,fix(types): add mergeConfig declaration (#5686),hungtcs,2023-04-28T08:13:38Z,2023-06-02T14:00:25+00:00,1,845.78,False,4,0,2,46,2,0,2,APPROVED
+5627,fix(package): Fix package exports,gligorkot,2023-03-30T09:12:56Z,2025-08-06T08:03:08+00:00,3,20638.84,True,3,1,1,74,26,0,26,APPROVED
+5595,fix(types): change the type guard on isCancel,adimit,2023-03-10T20:50:52Z,2025-07-30T18:38:36+00:00,3,20949.8,True,2,1,1,966,8,1,9,APPROVED
+5540,export Adapters,unional,2023-02-10T23:24:40Z,2024-12-05T20:09:31+00:00,1,15932.75,False,53,0,5,157,2,0,2,APPROVED
+5515,fix(proxy): allow to set proxy servername,0x0a0d,2023-02-01T08:53:50Z,2024-12-05T20:05:28+00:00,1,16163.19,False,4,0,2,256,1,1,2,COMMENTED
+5513,[Release] v1.3.0,github-actions,2023-01-31T13:49:58Z,2023-01-31T16:54:52+00:00,1,3.08,True,462,108,17,624,0,1,1,COMMENTED
+5486,fix(types): renamed `RawAxiosRequestConfig` back to `AxiosRequestConfig`;,DigitalBrainJS,2023-01-22T20:22:28Z,2023-01-22T23:09:19+00:00,1,2.78,True,113,100,4,775,0,6,6,COMMENTED
+5482,Fix AxiosRequestHeaders & AxiosHeaders types;,DigitalBrainJS,2023-01-20T14:45:01Z,2023-01-21T15:31:25+00:00,2,24.77,True,129,8,8,1447,0,4,4,COMMENTED
+5462,Fix GitHub workflow badges,EFord36,2023-01-11T11:37:17Z,2023-01-26T14:26:33+00:00,1,362.82,True,1,1,1,694,3,0,3,APPROVED
+5445,chore: added transport to RawAxiosRequestConfig,Cadienvan,2023-01-07T14:05:03Z,2023-04-13T21:45:02+00:00,4,2311.67,True,2,0,2,159,4,1,5,APPROVED
+5444,docs: added missing config.transport doc,Cadienvan,2023-01-07T13:59:19Z,2023-02-22T20:22:09+00:00,1,1110.38,True,3,0,1,203,1,0,1,APPROVED
+5441,fix:require is not defined,836334258,2023-01-06T08:31:16Z,2024-12-05T20:02:43+00:00,1,16787.52,False,6,2,1,90,0,1,1,COMMENTED
+5420,fix(types): fixed AxiosRequestConfig header interface by refactoring it to RawAxiosRequestConfig;,DigitalBrainJS,2022-12-29T18:28:09Z,2023-01-06T00:02:09+00:00,1,173.57,True,245,226,5,411,15,0,15,COMMENTED
+5375,Fix/typescript tests,DigitalBrainJS,2022-12-14T18:43:55Z,2022-12-14T20:49:49+00:00,3,2.1,True,309,150,11,176,0,6,6,COMMENTED
+5359,fix: rename types responseEncoding to ResponseEncoding,wootsbot,2022-12-08T18:48:13Z,2024-12-05T19:52:58+00:00,1,17473.08,False,4,4,2,337,2,0,2,APPROVED
+5356,Fix typos,rmschindler,2022-12-08T04:35:47Z,2022-12-16T23:26:56+00:00,1,210.85,False,18,18,1,521,0,0,0,APPROVED
+5345,fix: Add missing HttpStatusCode,winniehell,2022-12-06T19:12:55Z,2022-12-06T20:34:48+00:00,6,1.36,True,78,1,4,26,3,1,4,APPROVED
+5339,Added support for a custom lookup function;,DigitalBrainJS,2022-12-04T20:56:36Z,2023-04-25T23:05:00+00:00,1,3410.14,True,129,4,8,525,2,1,3,COMMENTED
+5338,Refactored FormData & Params serializers;,DigitalBrainJS,2022-12-04T15:50:18Z,2024-12-05T19:51:45+00:00,1,17572.02,False,472,339,17,629,1,3,4,COMMENTED
+5331,fix: Update AxiosError type declaration to exclude status (#5330),lj-ditrapani,2022-12-02T00:37:07Z,2024-12-05T19:51:18+00:00,1,17635.24,False,0,2,2,95,2,0,2,APPROVED
+5316,Added support for spec-compliant FormData & Blob types;,DigitalBrainJS,2022-11-27T18:02:03Z,2023-01-30T23:10:40+00:00,1,1541.14,True,304,55,9,403,5,4,9,COMMENTED
+5308,Changed AxiosProgressEvent.event type to `any`;,DigitalBrainJS,2022-11-24T21:16:49Z,2022-12-01T19:03:58+00:00,1,165.79,True,6,1,2,12,2,0,2,APPROVED
+5306,Fixed decompression for responses without `Content-Length` header,DigitalBrainJS,2022-11-24T20:15:31Z,2022-12-01T14:22:21+00:00,1,162.11,True,34,9,2,336,21,0,21,COMMENTED
+5277,Refactored adapters loader;,DigitalBrainJS,2022-11-16T17:53:57Z,2022-11-22T18:53:56+00:00,2,145.0,True,89,59,9,714,4,1,5,COMMENTED
+5269,__dirname is not defined,836334258,2022-11-15T08:37:59Z,2022-11-22T18:33:50+00:00,1,177.93,True,1,1,1,106,0,0,0,APPROVED
+5265,Update the link for JSON url,aziyatali,2022-11-14T04:22:38Z,2022-11-22T18:36:58+00:00,2,206.24,True,1,1,1,112,0,0,0,APPROVED
+5261,update readme in the Handling Errors section - issue reference #5260,relbns,2022-11-12T22:04:15Z,2022-11-22T18:39:50+00:00,1,236.59,True,3,1,1,548,0,0,0,APPROVED
+5250,Fixed Z_BUF_ERROR when content-encoding is set but the response body is empty,DigitalBrainJS,2022-11-10T19:56:47Z,2022-11-22T18:49:27+00:00,1,286.88,True,76,59,2,153,2,0,2,APPROVED
+5247,Fixed AxiosError.toJSON method to avoid circular references;,DigitalBrainJS,2022-11-10T18:45:29Z,2022-11-22T18:44:25+00:00,1,287.98,True,60,2,3,99,3,0,3,APPROVED
+5237,updated interceptor use type definition to remove interceptor options parameter from use method for response interceptors,amitsainii,2022-11-08T13:56:39Z,2024-10-31T14:01:37+00:00,3,17352.08,True,13,3,3,862,8,0,8,APPROVED
+5235,ci: remove git credentials after checkout,Fdawgs,2022-11-08T10:09:13Z,2022-11-22T18:28:47+00:00,2,344.33,True,6,0,3,167,0,0,0,APPROVED
+5227,Added `event` property to `AxiosProgressEvent` interface;,DigitalBrainJS,2022-11-04T12:26:32Z,2022-11-07T18:24:24+00:00,1,77.96,True,3,1,2,74,0,0,0,APPROVED
+5225,Re-added support for loading Axios with require('axios').default;,DigitalBrainJS,2022-11-03T23:19:11Z,2022-11-07T18:32:25+00:00,2,91.22,True,376,2,10,118,0,1,1,APPROVED
+5224,Fixed & Imporoved AxiosHeaders class,DigitalBrainJS,2022-11-03T21:11:12Z,2022-11-07T19:11:42+00:00,1,94.01,True,310,148,16,1597,3,1,4,COMMENTED
+5218,docs: fix broken links,claudiobusatto,2022-11-01T10:09:11Z,2022-11-02T18:15:52+00:00,1,32.11,True,5,5,1,54,0,0,0,APPROVED
+5207,Remove `\b` from filename,the-csaba,2022-10-31T04:27:58Z,2022-11-02T18:17:17+00:00,1,61.82,True,0,0,1,84,3,0,3,APPROVED
+5205,Update Sandbox UI/UX,geeth24,2022-10-30T02:48:20Z,2022-10-30T17:20:58+00:00,2,14.54,True,28,5,1,182,1,0,1,APPROVED
+5197,fix punctation in README.md,MoPaMo,2022-10-27T20:57:23Z,2022-11-02T18:16:16+00:00,1,141.31,True,2,1,1,24,0,0,0,APPROVED
+5196,fix: fix TypeScript type definitions for commonjs,remcohaszing,2022-10-27T19:08:40Z,2022-11-10T18:23:02+00:00,4,335.24,True,959,19,8,364,17,10,27,COMMENTED
+5194,typo fix line #856 and #920,shreem-123,2022-10-27T04:24:28Z,2022-10-30T17:26:03+00:00,1,85.03,True,2,2,1,500,0,0,0,APPROVED
+5193,typo fix #800,shreem-123,2022-10-27T03:59:59Z,2022-10-30T17:29:36+00:00,1,85.49,True,1,1,1,500,0,0,0,APPROVED
+5184,Fix typos (capitalization),friederbluemle,2022-10-26T07:06:48Z,2022-10-30T17:33:07+00:00,1,106.44,True,1,1,1,62,0,0,0,APPROVED
+5170,refactor: Update and rename UPGRADE_GUIDE.md to MIGRATION_GUIDE.md,yunseyeong,2022-10-21T06:31:39Z,2022-10-30T17:39:12+00:00,2,227.13,True,1,1,1,3,0,0,0,APPROVED
+5165,fix: expose HttpStatusCode,victorkwok97,2022-10-20T11:23:25Z,2024-12-05T19:34:25+00:00,1,18656.18,False,74,0,3,135,3,0,3,APPROVED
+5162,Refactored module exports;,DigitalBrainJS,2022-10-19T23:14:56Z,2022-10-30T16:46:17+00:00,3,257.52,True,481,40,19,2063,8,7,15,COMMENTED
+5159,Fix typo in issue template name,secondl1ght,2022-10-19T13:43:33Z,2022-12-01T17:29:17+00:00,1,1035.76,True,1,1,1,56,0,0,0,APPROVED
+5151,feat: export mergeConfig,kevincennis,2022-10-18T13:37:44Z,2022-12-01T18:41:57+00:00,1,1061.07,True,12,2,4,767,3,0,3,APPROVED
+5146,feat(adapters): add `fetch` adapter,sgammon,2022-10-17T22:01:27Z,2024-04-29T19:33:10+00:00,3,13437.53,False,15223,1166,94,12297,110,17,127,COMMENTED
+5139,fix: exception to sending formdata in webworker,0x30,2022-10-17T06:25:44Z,2022-12-01T17:15:23+00:00,1,1090.83,True,20,1,2,32,0,0,0,APPROVED
+5137,markdown list format for release 1.1.3,adrien-may,2022-10-16T19:37:45Z,2022-10-27T11:20:55+00:00,2,255.72,True,12,11,1,228,0,0,0,APPROVED
+5135,Create balancedparanthesis,purnima1311,2022-10-16T17:32:16Z,2022-11-07T18:28:06+00:00,1,528.93,False,49,0,1,479,0,0,0,CHANGES_REQUESTED
+5128,Create hello.cpp,rupajsen,2022-10-15T16:40:13Z,2022-10-15T18:55:15+00:00,1,2.25,False,7,0,1,479,2,0,2,CHANGES_REQUESTED
+5123,fix(helpers): gracefully handle invalid parameters in isURLSameOrigin,Tbhesswebber,2022-10-13T21:31:25Z,2024-12-05T19:35:46+00:00,1,18814.07,False,27,3,2,290,3,1,4,COMMENTED
+5119,docs: Update Resources links in README,w3bdesign,2022-10-13T08:34:47Z,2022-10-30T17:43:54+00:00,3,417.15,True,5,5,1,90,1,1,2,APPROVED
+5116,Update get/index.html,eltociear,2022-10-13T01:23:48Z,2022-10-30T17:14:27+00:00,1,423.84,True,1,1,1,29,0,0,0,APPROVED
+5113,Added custom params serializer support;,DigitalBrainJS,2022-10-12T14:58:10Z,2022-10-13T20:12:11+00:00,3,29.23,True,44,7,5,101,9,2,11,COMMENTED
+5109,Keep top-level export same with static properties,littledian,2022-10-12T05:39:31Z,2022-10-13T20:17:06+00:00,1,38.63,True,32,1,2,138,0,0,0,APPROVED
+5108,Fix: Don't add null values to query string. ,ChronosMasterOfAllTime,2022-10-12T05:08:37Z,2022-10-15T13:02:00+00:00,1,79.89,True,37,15,6,198,7,0,7,APPROVED
+5105,Fix decompression error on HEAD request,dergecko,2022-10-11T17:04:52Z,2023-04-27T21:47:42+00:00,3,4756.71,False,14,2,2,211,4,1,5,COMMENTED
+5104,fix problem with named export `axios`,akphi,2022-10-11T16:35:26Z,2022-10-30T17:11:27+00:00,3,456.6,False,3,1,2,566,7,1,8,COMMENTED
+5103,fix: added `AxiosHeaders` in `AxiosHeaderValue`,slmnsh,2022-10-11T16:06:29Z,2022-10-13T20:00:05+00:00,1,51.89,True,1,1,1,17,0,0,0,APPROVED
+5097,fix: restore proxy config backwards compatibility with 0.x,patrick-petrovic,2022-10-11T10:41:15Z,2022-10-13T19:55:20+00:00,1,57.23,True,41,4,3,495,0,0,0,APPROVED
+5096,[typing] move AxiosStatic#create to AxiosInstance#create,Gerhut,2022-10-11T09:47:42Z,2025-03-31T19:00:51+00:00,5,21657.22,True,3,3,3,12,17,2,19,APPROVED
+5090,fix: support existing header instance as argument,lohart13,2022-10-11T03:41:00Z,2022-10-30T17:12:24+00:00,5,469.52,False,17,3,3,258,7,1,8,COMMENTED
+5085,Fixed handling of array values for AxiosHeaders;,DigitalBrainJS,2022-10-10T15:26:26Z,2022-10-13T19:11:01+00:00,3,75.74,True,45,11,4,70,1,1,2,APPROVED
+5084,Added progress capturing & rate limiting sections to the docs;,DigitalBrainJS,2022-10-10T13:27:48Z,2022-10-13T19:47:24+00:00,2,78.33,True,87,9,1,0,0,1,1,COMMENTED
+5071,Fixed type definition of use method on AxiosInterceptorManager to match the the README,amitsainii,2022-10-09T07:03:07Z,2022-10-30T17:06:30+00:00,2,514.06,True,1,1,1,880,4,0,4,APPROVED
+5066,fix: export AxiosError at top-level,haneenmahd,2022-10-08T17:56:21Z,2022-11-25T13:55:54+00:00,2,1147.99,False,212,107,3,268,1,1,2,COMMENTED
+5061,chore: update issue template,FelixLgr,2022-10-07T22:09:47Z,2022-10-13T19:29:24+00:00,3,141.33,True,268,151,9,438,0,0,0,APPROVED
+5060,pin CDN install instructions to a specific version,phryneas,2022-10-07T20:31:20Z,2022-10-13T19:05:16+00:00,1,142.57,True,2,2,1,446,0,0,0,APPROVED
+5054,docs: fixing comments typo,itsarvindh,2022-10-07T06:58:09Z,2022-10-13T19:20:42+00:00,2,156.38,True,1,1,1,31,1,0,1,APPROVED
+5046,"chore: match badge style, add link to them",scarf005,2022-10-07T02:18:52Z,2022-10-08T18:25:37+00:00,1,40.11,True,7,4,1,14,1,0,1,APPROVED
+5037,Add support for HTTPS over HTTP on Node.js,patrick-petrovic,2022-10-06T18:10:36Z,2023-08-07T13:13:01+00:00,5,7315.04,False,172,28,3,1370,12,3,15,COMMENTED
+5036,fix: Unable to access response headers when using axios 1.x with jest #5017,risa,2022-10-06T15:51:28Z,2022-10-06T19:01:38+00:00,1,3.17,True,1,1,1,683,0,0,0,APPROVED
+5022,fix: removing multiple/trailing/leading whitespaces,ovarn,2022-10-05T20:54:55Z,2022-11-25T13:56:32+00:00,1,1217.03,True,9,9,7,95,2,0,2,APPROVED
+5021,Make GenericAbortSignal interface more generic :),DigitalBrainJS,2022-10-05T20:40:30Z,2022-10-06T06:09:45+00:00,1,9.49,True,4,4,1,13,0,0,0,APPROVED
+5010,"fix(type): add ""clear"" to AxiosInterceptorManager",s-sasaki-0529,2022-10-05T10:41:32Z,2022-10-06T06:16:28+00:00,1,19.58,True,4,0,2,24,0,0,0,APPROVED
+4993,Using Logo Axios in Readme.md,raihan71,2022-10-04T11:46:23Z,2022-10-04T17:48:11+00:00,1,6.03,True,16,5,1,66,1,0,1,APPROVED
+4970,docs: enable syntax highlighting for a code block,huyenltnguyen,2022-09-20T04:16:48Z,2022-09-29T06:27:32+00:00,1,218.18,True,1,1,1,58,0,0,0,APPROVED
+4961,Allow null indexes on formSerializer and paramsSerializer v0.x,WillianAgostini,2022-09-15T13:30:19Z,2022-09-29T06:19:45+00:00,1,328.82,True,12,1,2,277,2,0,2,APPROVED
+4960,Allow null indexes on formSerializer and paramsSerializer,WillianAgostini,2022-09-15T13:18:59Z,2022-09-29T06:18:35+00:00,1,328.99,True,11,0,1,256,0,0,0,APPROVED
+4949,Removed unused imports,lpizzinidev,2022-09-10T15:21:09Z,2022-09-28T19:16:15+00:00,1,435.92,True,0,2,2,18,0,0,0,APPROVED
+4942,Fix: typo in readme,usman250994,2022-09-05T13:11:36Z,2022-09-15T05:36:31+00:00,1,232.42,True,2,2,1,91,0,0,0,APPROVED
+4941,docs: fix Gitpod dead link,kingyue737,2022-09-04T08:54:37Z,2022-09-15T05:32:36+00:00,1,260.63,True,1,1,1,0,0,0,0,APPROVED
+4934,Improve typing of timeout in index.d.ts,mrcwbr,2022-09-01T09:55:44Z,2022-09-28T19:09:58+00:00,1,657.24,True,3,1,1,300,0,0,0,APPROVED
+4927,fix: [Types] Type of header in AxiosRequestConfig / for Axios.create is incorrect,WillianAgostini,2022-08-21T12:19:51Z,2022-09-28T19:05:08+00:00,4,918.75,True,7,1,2,56,0,1,1,APPROVED
+4922,fix: include config on new CancelledError,arthurfiorette,2022-08-19T21:26:24Z,2022-11-25T13:46:49+00:00,1,2344.34,True,1,1,1,96,4,0,4,APPROVED
+4917,fix: modify log while request is aborted,mori5321,2022-08-17T12:38:01Z,2024-12-05T19:20:49+00:00,2,20190.71,True,4,4,2,243,5,0,5,APPROVED
+4914,fix: removed unused imports,Parth0105,2022-08-14T16:50:17Z,2022-09-28T18:57:06+00:00,1,1082.11,True,0,2,1,51,0,0,0,COMMENTED
+4903,feat: add enum containing Http Status Codes to typings.,mia-z,2022-08-05T09:43:44Z,2022-09-28T18:42:01+00:00,1,1304.97,True,66,0,1,71,0,0,0,APPROVED
+4884,Fix TypeScript exports,remcohaszing,2022-07-26T13:39:30Z,2022-09-28T18:30:22+00:00,1,1540.85,True,324,327,3,751,0,0,0,APPROVED
+4875,chore: simplify the import path of AxiosError,chentsulin,2022-07-23T03:05:51Z,2022-09-26T19:16:44+00:00,1,1576.18,True,1,1,1,36,0,0,0,APPROVED
+4874,Require interceptors to return values,jennings,2022-07-22T15:58:35Z,2022-09-26T19:11:30+00:00,1,1587.22,True,14,1,2,296,0,0,0,APPROVED
+4871,fix: loosing request header (#4858),WillianAgostini,2022-07-21T01:47:04Z,2022-09-26T19:05:57+00:00,1,1625.31,True,29,0,3,442,0,0,0,APPROVED
+4868,feat: Add ability to use URL objects a la fetch API.,avoliva,2022-07-20T21:11:53Z,2024-12-05T19:20:06+00:00,2,20854.14,False,29,0,3,124,2,1,3,COMMENTED
+4862,Typings: SerializerOptions.indexes allows `boolean | null | undefined`,gfoidl,2022-07-18T16:06:03Z,2022-09-26T18:26:32+00:00,1,1682.34,True,1,1,1,507,1,0,1,APPROVED
+4856,chore:  fix example access exception,techbirds,2022-07-17T07:37:47Z,2022-09-26T18:09:32+00:00,1,1714.53,False,3,1,1,299,2,1,3,COMMENTED
+4853,"Fix typo and formatting, add colons",karlhorky,2022-07-15T13:48:27Z,2022-09-15T05:21:41+00:00,1,1479.55,True,7,7,1,196,1,0,1,APPROVED
+4825,Fix markup for note in README,lyrixx,2022-06-30T13:09:11Z,2022-09-14T19:32:23+00:00,1,1830.39,True,31,31,1,29,1,0,1,APPROVED
+4820,fix(adapters/http): remove repeated compression algorithm from header,basselworkforce,2022-06-28T19:40:26Z,2022-09-14T19:28:09+00:00,1,1871.8,True,1,1,1,74,0,0,0,APPROVED
+4819,Fixed a regression bug with unsubscribing from cancel token & signal inside http adapter;,DigitalBrainJS,2022-06-28T15:16:07Z,2022-09-14T19:24:23+00:00,1,1876.14,True,3,9,2,0,0,0,0,APPROVED
+4791,refactor: increase code readability,D-Freitas,2022-06-16T22:25:43Z,2022-06-17T19:13:14+00:00,6,20.79,False,16,17,3,92,0,3,3,COMMENTED
+4788,fix: delete redundant code,fengyangfifa,2022-06-15T15:12:14Z,2022-07-27T17:09:08+00:00,1,1009.95,True,1,1,1,90,0,0,0,APPROVED
+4787,Axios ES2017,DigitalBrainJS,2022-06-14T21:24:34Z,2022-06-18T09:19:27+00:00,2,83.91,True,26432,23261,125,263,1,1,2,COMMENTED
+4659,Include request and config when creating a `CanceledError`.,arthurfiorette,2022-05-01T01:38:35Z,2022-05-03T18:33:38+00:00,7,64.92,True,6,4,3,645,5,1,6,COMMENTED
+4654,fix(type): add AxiosError to AxiosStatic,michael-land,2022-04-28T21:50:10Z,2022-05-03T16:43:37+00:00,2,114.89,True,1,0,1,540,2,0,2,APPROVED
+4649,Fix grammar in README,danmooney,2022-04-27T19:16:11Z,2022-05-03T16:40:16+00:00,1,141.4,True,1,1,1,31,1,0,1,APPROVED
+4640,Fixed FormData posting in browser environment by reverting #3785;,DigitalBrainJS,2022-04-26T16:08:51Z,2022-04-27T09:26:53+00:00,2,17.3,True,18,0,2,356,0,1,1,COMMENTED
+4624,Updating AxiosError to include stack trace,despreston,2022-04-25T19:22:03Z,2022-05-03T16:46:10+00:00,5,189.4,True,7,1,2,169,4,0,4,APPROVED
+4599,Update README.md,yxwzaxns,2022-04-12T03:12:05Z,2022-05-03T16:50:13+00:00,2,517.64,True,1,1,1,479,0,0,0,APPROVED
+4594,Removed import of `url` module in browser build due to huge size overhead…,DigitalBrainJS,2022-04-08T17:00:52Z,2022-04-26T07:08:49+00:00,2,422.13,True,1010,878,6,530,3,1,4,COMMENTED
+4590,Emphasize the URLSearchParam built-in interface,tredondo,2022-04-07T18:17:21Z,2022-05-03T17:00:38+00:00,1,622.72,True,8,21,1,178,0,0,0,APPROVED
+4587,opt: opt judgment code of cancel,zh-lx,2022-04-06T14:34:21Z,2022-05-03T17:04:58+00:00,1,650.51,True,2,2,2,160,0,0,0,APPROVED
+4580,Adding HTTP status code for transformResponse,kaishuu0123,2022-04-04T11:18:28Z,2022-05-09T17:25:16+00:00,2,846.11,True,36,9,5,248,3,1,4,COMMENTED
+4572,docs(index.d.ts): add interceptor handles ts declare and customConfig…,lichenbuliren,2022-04-01T11:30:37Z,2022-05-20T07:14:37+00:00,1,1171.73,False,19,1,1,225,2,1,3,COMMENTED
+4557,Fixing instance.defaults.headers type,spalger,2022-03-29T18:44:04Z,2022-05-09T17:12:53+00:00,2,982.48,True,8,0,2,544,1,1,2,COMMENTED
+4532,fix url to defaults.js,sashsvamir,2022-03-17T09:23:52Z,2022-05-03T18:35:59+00:00,1,1137.2,True,1,1,1,22,0,0,0,APPROVED
+4448,Improved FormData support;,DigitalBrainJS,2022-02-06T14:11:49Z,2022-03-14T18:22:10+00:00,6,868.17,True,713,239,22,1286,2,8,10,COMMENTED
+4436,Resolving proxy from env on redirect,mbargiel,2022-01-31T20:28:01Z,2022-05-11T17:24:14+00:00,8,2396.94,True,97,78,3,1615,14,7,21,COMMENTED
+4435,Fixing http tests to avoid hanging when assertions fail,mbargiel,2022-01-31T19:25:29Z,2022-05-04T15:54:14+00:00,1,2228.48,True,39,60,1,1308,1,5,6,COMMENTED
+4368,Added a reference to http(s) agent options in README,onne,2022-01-03T09:19:36Z,2022-05-04T17:29:44+00:00,1,2912.17,False,21,8,9,479,1,0,1,APPROVED
+4363,Update interceptor options to extensible,yunho1017,2021-12-30T08:23:03Z,2022-05-09T16:45:18+00:00,2,3128.37,False,3,4,2,629,1,1,2,APPROVED
+4348,Feature: adding an adapter that supports HarmonyOS in axios,Alanscut,2021-12-24T06:35:54Z,2022-05-20T07:10:37+00:00,6,3528.58,False,142,4,7,576,3,3,6,COMMENTED
+4344,Expand isAxiosError types,Argeento,2021-12-21T18:44:54Z,2022-05-12T07:19:07+00:00,3,3396.57,True,1,1,1,607,3,1,4,APPROVED
+4322,add `string[]` to `AxiosRequestHeaders` type,estarossa0,2021-12-10T12:08:48Z,2022-05-16T07:21:56+00:00,1,3763.22,True,1,1,1,580,3,0,3,APPROVED
+4275,Fixing request url is not exist,Thefurypig,2021-11-21T08:19:36Z,2021-12-23T08:23:10+00:00,1,768.06,False,5,0,1,64,1,1,2,COMMENTED
+4261,Fixed race condition on immediate requests cancellation,DigitalBrainJS,2021-11-12T15:57:57Z,2022-05-09T16:12:29+00:00,3,4272.24,True,30,3,2,11,0,1,1,APPROVED
+4248,Interceptor clear,Landro3,2021-11-04T21:44:39Z,2022-05-05T19:31:06+00:00,3,4365.77,True,46,0,3,156,4,1,5,APPROVED
+4241,Add native cookier jar,reb0und,2021-11-03T01:35:31Z,2022-05-05T19:27:29+00:00,1,4409.87,False,37407,2507,96,142,1,1,2,COMMENTED
+4212,Fixing issue #4192 NO_PROXY does not support *.com,MacaPecha,2021-10-22T15:21:32Z,2022-05-05T19:34:30+00:00,2,4684.22,False,81,1,2,65,2,1,3,APPROVED
+4205,Feature proposition data validation,p8nut,2021-10-20T09:12:47Z,2022-05-09T18:12:49+00:00,3,4833.0,False,26,14,2,62,1,1,2,COMMENTED
+4191,adding create instance config type as AxiosRequestConfig does not if always,Edmu,2021-10-15T06:04:18Z,2022-05-09T18:08:35+00:00,3,4956.07,False,5,1,1,345,1,1,2,COMMENTED
+4186,revert: change type of AxiosResponse to any,ImRodry,2021-10-13T17:12:01Z,2021-10-22T08:14:23+00:00,3,207.04,True,13,13,2,118,7,2,9,APPROVED
+4164,Move response type generic to last,ardyfeb,2021-10-08T18:17:15Z,2022-05-09T18:09:31+00:00,6,5111.87,False,11,11,1,570,8,1,9,APPROVED
+4147,Fixed TransitionalOptions typings,DigitalBrainJS,2021-10-06T13:58:56Z,2021-10-12T07:46:16+00:00,2,137.79,True,3,3,1,123,3,0,3,APPROVED
+4144,Expand Headers types,bfaulk96,2021-10-05T19:18:06Z,2021-11-16T15:06:22+00:00,2,1003.8,True,1,1,1,146,21,0,21,APPROVED
+4140,Test types,remcohaszing,2021-10-05T11:20:47Z,2021-10-12T07:53:10+00:00,3,164.54,True,58,31,6,508,10,1,11,COMMENTED
+4136,fix response headers types,egmen,2021-10-04T14:05:42Z,2021-10-07T17:23:29+00:00,2,75.3,True,16,6,1,113,8,0,8,APPROVED
+4133,Fix types of Axios requst methods,gstamac,2021-10-04T09:18:55Z,2021-10-05T07:37:14+00:00,5,22.31,False,15,15,1,21,5,2,7,CHANGES_REQUESTED
+4117,fix(types): default request headers types,lukashroch,2021-10-01T14:53:49Z,2021-10-12T07:53:10+00:00,1,256.99,False,20,6,1,446,1,0,1,APPROVED
+4116,Distinguish request and response data types,caugner,2021-10-01T14:22:50Z,2021-10-06T18:10:01+00:00,7,123.79,True,15,15,1,108,4,1,5,COMMENTED
+4114,chore(docs): rename Angular to AngularJS,HyperLife1119,2021-10-01T13:21:48Z,2021-10-12T08:06:12+00:00,2,258.74,True,1,1,1,101,2,0,2,COMMENTED
+4111,"Revert ""Improved type-safety for AxiosRequestConfig (#2995)""",remcohaszing,2021-10-01T12:46:48Z,2021-10-04T14:22:36+00:00,3,73.6,False,20,24,2,189,11,0,11,CHANGES_REQUESTED
+4110,"feat: Add possibility to choose response type based on the response, resolves #4098",theo-js,2021-10-01T08:58:05Z,2021-10-11T17:51:14+00:00,1,248.89,False,17,3,4,14,1,0,1,CHANGES_REQUESTED
+4075,Make the code more concise,lete114,2021-09-18T13:01:57Z,2022-05-04T18:28:50+00:00,7,5477.45,False,11,4,1,70,1,1,2,COMMENTED
+4072,The better trim() polyfill.,catscarlet,2021-09-17T11:57:49Z,2022-05-04T18:25:24+00:00,1,5502.46,True,1,1,1,499,1,0,1,APPROVED
+4066,Adding insecureHTTPParser type to AxiosRequestConfig,Evan-Finkelstein,2021-09-15T20:52:44Z,2021-10-12T07:43:32+00:00,1,634.85,True,2,1,1,51,0,0,0,APPROVED
+4055,Adding defaultReject feature and _instanceId property (resolves #3984),theo-js,2021-09-14T08:53:12Z,2022-05-04T18:11:18+00:00,8,5577.3,False,412,6,11,466,7,4,11,COMMENTED
+3961,Added errors to be displayed when the query parsing process itself fails.,djs113,2021-08-17T18:05:22Z,2022-01-18T16:50:33+00:00,6,3694.75,True,25,0,2,288,2,1,3,COMMENTED
+3957,fix typo.,Cat7373,2021-08-16T20:52:34Z,2021-11-29T11:46:06+00:00,1,2510.89,False,1,1,1,0,1,0,1,APPROVED
+3952,fix: response interceptors doesn't work,gitBingxu,2021-08-13T10:31:11Z,2021-11-29T11:47:19+00:00,3,2593.27,False,1,1,1,47,3,3,6,COMMENTED
+3936,README: fixing JSON syntax,MoSattler,2021-08-05T13:18:22Z,2021-08-13T12:45:47+00:00,1,191.46,True,4,4,1,41,0,0,0,APPROVED
+3918,Adding responseEncoding prop type in AxiosRequestConfig,FCarvalhoVII,2021-07-28T17:30:10Z,2021-12-23T17:07:47+00:00,1,3551.63,True,15,0,1,413,1,0,1,APPROVED
+3912,Changed the default values of the Accept header,djs113,2021-07-25T06:21:16Z,2021-12-23T17:03:58+00:00,2,3634.71,False,1,1,1,103,1,1,2,COMMENTED
+3911,feat: fix proxy agent,unknown,2021-07-23T07:05:10Z,2021-11-17T03:41:15+00:00,1,2804.6,False,8,3,2,143,0,2,2,CHANGES_REQUESTED
+3907,Adding restful subpath params support,kellyiscute,2021-07-21T14:00:23Z,2021-11-03T02:21:24+00:00,1,2508.35,False,279,209,4,4,1,3,4,CHANGES_REQUESTED
+3906,Adding 'responseEncoding' prop missing Typescript,renanwilliam,2021-07-20T21:50:44Z,2021-12-23T17:02:43+00:00,2,3739.2,False,19,4,1,102,3,0,3,APPROVED
+3852,Adding support for beforeRedirect config option,zoran995,2021-06-24T00:32:56Z,2022-03-07T17:46:09+00:00,5,6161.22,True,38,3,5,358,4,4,8,COMMENTED
+3837,Fixing instance data not being applied to request,Mahdhir,2021-06-13T19:56:32Z,2021-12-23T16:51:00+00:00,1,4628.91,False,32,0,2,666,1,0,1,APPROVED
+3836,Use native `Array.isArray()` in `utils.js`,ctjlewis,2021-06-12T19:51:12Z,2021-12-23T16:45:44+00:00,1,4652.91,True,1,1,1,146,0,0,0,APPROVED
+3825,Fix README typo under Request Config,ThatGuySam,2021-06-05T01:27:33Z,2021-08-13T12:55:01+00:00,1,1667.46,True,2,2,1,88,0,0,0,APPROVED
+3818,Fixing README.md ,snamiki1212,2021-05-30T06:20:40Z,2021-08-13T12:57:35+00:00,2,1806.62,True,0,0,0,87,1,1,2,APPROVED
+3813,Fixes the sauce labs tests by bumping karma-sauce-launcher,anglinb,2021-05-26T05:11:30Z,2021-05-27T05:44:43+00:00,1,24.55,True,1,1,1,1587,1,0,1,APPROVED
+3807,Remove charset in tests,timemachine3030,2021-05-21T03:00:21Z,2021-05-21T05:51:31+00:00,1,2.85,True,6,6,3,47,0,0,0,APPROVED
+3781,Adding parseInt to config.timeout,piiih,2021-05-04T19:17:33Z,2021-05-06T13:54:22+00:00,5,42.61,True,74,2,2,12,0,2,2,APPROVED
+3772,Updating `lib/core/README.md` about Dispatching requests,wafuwafu13,2021-04-29T23:35:13Z,2021-04-30T07:08:50+00:00,3,7.56,True,1,0,1,49,0,1,1,APPROVED
+3767,Adding documentation for the type guard `isAxiosError`,johachi,2021-04-25T23:49:45Z,2021-05-04T18:05:05+00:00,1,210.26,True,14,3,1,457,0,0,0,APPROVED
+3748,Fixing responseInterceptors are not work when requestInterceptors are asyncronous,zyxm5,2021-04-14T09:13:12Z,2021-04-28T03:28:02+00:00,1,330.25,False,105,1,2,32,0,0,0,APPROVED
+3738,Fixing quadratic runtime and extra memory usage when setting a maxContentLength,bimbiltu,2021-04-10T02:55:35Z,2021-05-04T17:48:21+00:00,1,590.88,True,3,1,1,941,1,0,1,APPROVED
+3737,Update 'getUri' method to use baseURL,sakarit-zz,2021-04-08T20:00:38Z,2022-03-07T18:09:23+00:00,1,7990.15,True,44,1,3,330,3,0,3,APPROVED
+3734,Add type for the third parameter to use,sirctseb,2021-04-07T14:37:06Z,2022-03-07T18:26:35+00:00,4,8019.82,False,5,1,1,96,1,1,2,COMMENTED
+3727,Adding body serializer config method,alexbidenko,2021-04-05T20:44:26Z,2021-05-04T18:11:15+00:00,4,693.45,False,27,5,5,545,2,0,2,APPROVED
+3703,Adding ability to omit User-Agent header,MikeBishop,2021-03-23T20:15:29Z,2021-03-29T14:47:29+00:00,2,138.53,True,40,2,2,551,1,1,2,APPROVED
+3688,"JSON improvements: throw if JSON parsing failed; number, boolean can be passed directly as payload for encoding to JSON #2613, #61, #907",DigitalBrainJS,2021-03-19T17:22:55Z,2021-04-19T16:55:35+00:00,11,743.54,True,403,38,14,2629,7,2,9,COMMENTED
+3645,Refactored AxiosError to be a constructor; Refactored Cancel [error] to be an AxiosError subclass;,DigitalBrainJS,2021-02-13T20:18:01Z,2022-03-10T19:26:56+00:00,1,9359.15,True,332,221,29,1027,4,1,5,COMMENTED
+3617,Adding type AxiosInstance Constructor in AxiosStatic,md-adil,2021-02-01T18:27:03Z,2021-09-05T10:53:40+00:00,1,5176.44,False,1,0,1,234,5,0,5,COMMENTED
+3613,Fixing possible runtime error in isAxiosError.js type guard,5argon,2021-01-31T08:44:42Z,2021-12-22T19:22:46+00:00,1,7810.63,False,1,1,1,237,4,1,5,COMMENTED
+3604,Update upgrade guide for https proxy setting,repl-andrew-ovens,2021-01-28T18:49:18Z,2021-12-22T19:21:04+00:00,1,7872.53,True,6,0,1,137,0,0,0,APPROVED
+3581,Fixed The timeoutErrorMessage property in config not work with Node.js (fixes #3580),duibu05,2021-01-22T17:37:14Z,2022-01-18T16:40:18+00:00,1,8663.05,True,37,1,2,271,7,0,7,CHANGES_REQUESTED
+3567,Fixing a typographical error,paveg,2021-01-18T07:24:12Z,2021-02-15T13:47:28+00:00,2,678.39,True,1,1,1,26,1,0,1,APPROVED
+3546,refactor(helpers): optimize the logic of isAxiosError,BlackHole1,2021-01-14T02:32:48Z,2021-12-22T19:09:33+00:00,2,8224.61,True,8,1,2,24,4,0,4,APPROVED
+3544,Returned error treated when requesting uncommon URL,joaoGabriel55,2021-01-13T16:49:29Z,2022-03-07T17:53:58+00:00,3,10033.07,True,170,2,5,732,4,2,6,COMMENTED
+3539,Default headers example AUTH_TOKEN comment,aliclark,2021-01-11T10:35:57Z,2021-01-12T14:52:43+00:00,5,28.28,True,4,0,1,480,1,2,3,APPROVED
+3538,Fix the missing launcher,chinesedfan,2021-01-11T09:29:05Z,2021-01-29T06:34:50+00:00,1,429.1,True,1,0,1,232,0,0,0,APPROVED
+3523,Removing duplicate functionality item in changelog,caikan,2021-01-05T06:52:19Z,2021-02-06T15:09:47+00:00,1,776.29,True,0,1,1,73,0,0,0,APPROVED
+3470,Don't rely on strict mode behaviour for arguments,emilbroman-eqt,2020-12-10T16:47:11Z,2021-12-22T18:58:12+00:00,1,9050.18,True,5,5,1,1084,2,0,2,APPROVED
+3410,Hotfix: Prevent SSRF,timemachine3030,2020-11-13T01:48:56Z,2020-11-24T06:44:01+00:00,3,268.92,True,87,10,2,196,25,5,30,COMMENTED
+3401,Update dev dependencies,timemachine3030,2020-11-12T04:45:44Z,2020-12-16T08:25:07+00:00,4,819.66,True,36,70,4,649,0,1,1,COMMENTED
+3377,Testing and cleanup of transformResponse,timemachine3030,2020-11-01T04:45:47Z,2021-03-24T06:22:03+00:00,1,3433.6,True,34,4,2,191,0,0,0,APPROVED
+3364,"Remove the skipping of ""should support sockets"" test",timemachine3030,2020-10-25T17:56:27Z,2020-10-30T06:54:42+00:00,2,108.97,True,1,1,1,510,6,0,6,APPROVED
+3362,use utils.toString instead Object.prototype.toString,yinjun1991,2020-10-23T12:17:45Z,2021-12-22T18:45:17+00:00,1,10206.46,False,1,1,1,47,1,0,1,APPROVED
+3360,Fixing catch..then on examples (README page),halan,2020-10-21T21:17:49Z,2021-03-16T15:55:14+00:00,4,3498.62,False,14,14,2,506,5,1,6,APPROVED
+3342,Update types check,fanguangyi,2020-10-16T09:28:08Z,2021-12-22T18:37:27+00:00,3,10377.16,True,3,3,1,167,1,1,2,COMMENTED
+3305,Fixed cancelToken leakage; Added AbortController support;,DigitalBrainJS,2020-09-28T20:22:36Z,2021-09-16T18:56:55+00:00,2,8470.57,True,179,24,9,946,11,1,12,COMMENTED
+3289,"Revert ""Fixing overwrite Blob/File type as Content-Type in browser.""",Gerhut,2020-09-16T03:23:31Z,2020-10-13T08:19:38+00:00,2,652.94,True,0,7,1,26,0,0,0,APPROVED
+3287,Fixing requestHeaders.Authorization,Allanbcruz,2020-09-13T20:31:29Z,2020-09-20T02:19:49+00:00,4,149.81,True,16,2,2,226,0,1,1,COMMENTED
+3282,fix axios.delete ignores config.data,chinesedfan,2020-09-12T08:42:25Z,2020-10-01T07:46:33+00:00,3,455.07,True,13,1,2,45,10,0,10,COMMENTED
+3252,"docs: Fix simple typo, existant -> existent",timgates42,2020-09-02T20:18:23Z,2020-09-12T04:29:35+00:00,1,224.19,True,1,1,1,96,0,0,0,APPROVED
+3237,Fixing node types,remcohaszing,2020-08-30T14:08:17Z,2020-10-01T07:42:10+00:00,1,761.56,True,2,2,1,127,8,0,8,COMMENTED
+3228,Fixing ProgressEvent type definitions so that Axios doesn't have to depend on lib dom (Fixes #3219),jan-molak,2020-08-25T15:13:50Z,2020-10-07T06:04:08+00:00,6,1022.84,False,18,2,1,611,1,1,2,APPROVED
+3200,Fixing an issue that type 'null' and 'undefined' is not assignable to validateStatus when typescript strict option is enabled,cprayer,2020-08-14T14:11:25Z,2020-10-20T06:04:45+00:00,3,1599.89,True,9,1,2,306,2,0,2,APPROVED
+3159,Fix transport bug,witjs,2020-07-31T14:28:24Z,2021-09-16T19:02:45+00:00,1,9892.57,False,3,3,1,495,1,0,1,CHANGES_REQUESTED
+3153,Fixing Cancel' signature. (#3152),NoriSte,2020-07-27T06:55:26Z,2021-12-22T18:30:51+00:00,4,12323.59,True,1,1,1,70,0,1,1,COMMENTED
+3138,Support custom DNS lookup function,unknown,2020-07-22T09:39:09Z,2021-09-16T19:01:14+00:00,2,10113.37,False,42,5,3,1660,10,1,11,COMMENTED
+3111,Throw better error if url doesnt exist,shayneo,2020-07-09T00:08:19Z,2021-09-07T18:53:41+00:00,1,10218.76,False,3,0,1,59,2,1,3,COMMENTED
+3107,Adding description about Global axios defaults & Config order of prec…,MoonSupport,2020-07-07T17:11:35Z,2021-03-16T15:54:38+00:00,7,6046.72,False,8,0,1,434,1,2,3,COMMENTED
+3070,Protocol not parsed when setting proxy config from env vars,jonathanfoster,2020-06-27T00:08:39Z,2020-12-03T07:36:51+00:00,6,3823.47,True,151,3,5,833,7,3,10,APPROVED
+3050,add table of content (preview),frustak,2020-06-22T17:36:03Z,2020-06-25T16:41:11+00:00,3,71.09,True,31,0,1,89,1,1,2,APPROVED
+3029,Add GitHub actions to close stale issues/prs,chinesedfan,2020-06-17T14:29:03Z,2020-06-17T17:25:12+00:00,1,2.94,True,20,0,1,247,5,0,5,COMMENTED
+3022,Add GitHub actions to close invalid issues,chinesedfan,2020-06-13T13:12:40Z,2020-06-17T16:54:10+00:00,1,99.69,True,89,45,7,598,2,0,2,COMMENTED
+3021,Change headers type to string record,remcohaszing,2020-06-13T08:35:00Z,2021-09-05T12:14:13+00:00,1,10779.65,True,3,3,1,60,1,0,1,APPROVED
+2956,Adding HTTP status code to error.toJSON,byrne-greg,2020-05-08T13:23:00Z,2021-09-05T11:45:24+00:00,2,11638.37,True,23,3,4,3141,5,0,5,COMMENTED
+2949,Adding a type guard for `AxiosError`,JasonHK,2020-05-06T07:46:41Z,2020-11-03T08:01:08+00:00,7,4344.24,True,49,0,7,275,4,1,5,COMMENTED
+2942,Fixing... whitespace,NotMoni,2020-05-01T19:12:42Z,2020-05-03T11:27:56+00:00,1,40.25,False,0,0,0,14,0,0,0,COMMENTED
+2928,Documentation update to clear up ambiguity in code examples,jasonsaayman,2020-04-24T14:59:44Z,2020-05-05T11:44:08+00:00,1,260.74,True,1,1,1,205,2,0,2,DISMISSED
+2926,Leave traces about 'content-encoding',kingsimba,2020-04-24T10:41:20Z,2020-04-24T13:20:08+00:00,1,2.65,False,3,0,1,768,0,0,0,COMMENTED
+2912,Update README.md about validateStatus,lmeraki,2020-04-20T00:48:36Z,2020-04-22T13:59:26+00:00,1,61.18,True,1,1,1,143,0,0,0,APPROVED
+2893,Update README.md about validateStatus,lmeraki,2020-04-14T04:16:32Z,2020-04-20T00:47:31+00:00,1,140.52,False,1,1,1,69,0,1,1,CHANGES_REQUESTED
+2892,Removing 2 unneeded functions from the httpAdapter,romedu,2020-04-13T04:28:42Z,2021-09-07T18:30:49+00:00,1,12302.04,False,1,7,1,80,4,0,4,APPROVED
+2887,Update README.md for `data`,marcinx,2020-04-11T12:20:27Z,2020-05-27T17:26:14+00:00,2,1109.1,True,1,1,1,462,0,1,1,COMMENTED
+2874,Fix broken timeout behavior in Node.js environment,mooyoul,2020-04-04T22:34:10Z,2021-09-16T18:45:59+00:00,11,12716.2,False,101,10,2,324,10,3,13,COMMENTED
+2856,Make default transformResponse parse JSON more properly,chinesedfan,2020-03-28T13:27:54Z,2021-09-16T18:45:43+00:00,2,12893.3,False,62,10,6,540,1,1,2,COMMENTED
+2851,Fixing 'progressEvent' type,bennycode,2020-03-26T12:11:17Z,2020-03-28T09:51:43+00:00,1,45.67,True,4,4,2,74,0,0,0,APPROVED
+2849,Fixing sometimes response.data is string instead of object,zhming0,2020-03-25T22:33:33Z,2021-09-06T12:12:49+00:00,4,12709.65,False,91,17,6,231,5,2,7,COMMENTED
+2844,Refactor mergeConfig without utils.deepMerge,chinesedfan,2020-03-24T15:16:08Z,2020-06-08T18:52:45+00:00,5,1827.61,True,412,153,10,1187,1,2,3,APPROVED
+2812,Don't drop ERR_FR_REDIRECTION_FAILURE #2811,iradul,2020-03-10T17:53:32Z,2021-09-05T10:25:58+00:00,8,13048.54,False,3,1,1,165,1,1,2,COMMENTED
+2805,Updating documentation for usage form-data,remcohaszing,2020-03-06T10:18:53Z,2020-04-05T10:01:39+00:00,1,719.71,True,28,0,1,73,0,0,0,APPROVED
+2797,Updating axios in types to be lower case,remcohaszing,2020-03-04T09:11:01Z,2020-10-27T12:36:33+00:00,2,5691.43,True,2,2,1,198,20,0,20,APPROVED
+2787,Update README.md with standard words,PeterMortensen,2020-02-28T20:44:45Z,2020-05-27T17:18:11+00:00,1,2132.56,False,17,17,1,170,1,0,1,COMMENTED
+2781,Add independent `maxBodyLength` option,gualopezb,2020-02-26T04:21:56Z,2020-03-06T13:55:19+00:00,19,225.56,True,46,9,7,173,1,4,5,APPROVED
+2778,Update ' sign to ` in proxy spec,jimmy-liao-gogoro,2020-02-25T09:03:22Z,2020-02-25T15:05:52+00:00,1,6.04,True,1,1,1,13,0,0,0,APPROVED
+2773,Fixing an issue that type 'null' is not assignable to validateStatus,cprayer,2020-02-24T13:45:49Z,2020-05-27T17:18:29+00:00,1,2235.54,True,1,1,1,561,5,0,5,APPROVED
+2763,Add `onUploadProgress` and `onDownloadProgress` are browser only,ianwijma,2020-02-18T08:57:59Z,2020-02-26T02:28:50+00:00,1,185.51,True,2,0,1,129,0,0,0,APPROVED
+2749,Fix default custom properties are ignored,chinesedfan,2020-02-15T10:51:41Z,2020-06-15T08:30:55+00:00,1,2901.65,False,27,3,2,42,1,1,2,COMMENTED
+2729,Refine arguments' types for error interceptors,xamgore,2020-02-10T16:02:09Z,2021-09-16T18:45:28+00:00,3,14018.72,False,1,1,1,42,6,1,7,APPROVED
+2727,Remove axios.all() and axios.spread() from Readme.md,ohtaeg,2020-02-09T14:38:42Z,2020-05-27T17:43:09+00:00,4,2595.07,True,9,7,1,73,3,2,5,COMMENTED
+2725,Checking if json string is valid,Syeong2,2020-02-09T09:46:12Z,2021-09-05T10:16:37+00:00,1,13776.51,False,18,9,1,221,1,2,3,CHANGES_REQUESTED
+2724,"Adding test code for ""Options of Http Method""",ohtaeg,2020-02-09T09:42:35Z,2020-10-24T11:50:58+00:00,1,6194.14,False,31,2,2,47,2,4,6,CHANGES_REQUESTED
+2702,issue#2609 | Sasha | predictable axios requests,SashaKoro,2020-01-30T15:35:25Z,2021-03-01T09:11:36+00:00,47,9497.6,True,337,22,5,167,20,17,37,COMMENTED
+2695,Add test for redirecting with too large response,chinesedfan,2020-01-27T15:17:33Z,2020-02-29T11:54:42+00:00,3,788.62,True,35,0,1,28,0,1,1,COMMENTED
+2689,Compatible with follow-redirect aborts the request,chinesedfan,2020-01-25T07:13:23Z,2020-02-15T05:41:09+00:00,1,502.46,True,2,2,2,393,5,0,5,APPROVED
+2679,Remove unnecessary XSS check introduced by #2451,chinesedfan,2020-01-20T14:08:04Z,2020-01-20T16:20:34+00:00,1,2.21,True,0,43,4,155,5,0,5,COMMENTED
+2671,Fix regular expressions in `isValidXss`,ZeroCho,2020-01-16T15:56:14Z,2020-01-22T02:31:20+00:00,3,130.59,False,9,2,2,452,8,1,9,CHANGES_REQUESTED
+2669,Allow baseURL to contain GET query parameters,mmomtchev,2020-01-15T19:29:30Z,2021-02-12T11:16:52+00:00,2,9447.79,False,30,3,3,77,5,0,5,CHANGES_REQUESTED
+2666,Fixing issue for HEAD method and gziped repsonse,galkin,2020-01-15T09:09:23Z,2020-02-15T10:10:59+00:00,1,745.03,True,4,4,1,52,6,0,6,APPROVED
+2661,Adding option to disable automatic decompression,sazzy4o,2020-01-13T18:01:59Z,2020-03-06T14:01:59+00:00,4,1268.0,True,44,11,4,784,2,2,4,APPROVED
+2656,Fix merging of params,textbook,2020-01-12T22:15:45Z,2020-02-15T05:36:52+00:00,7,799.35,True,19,17,3,548,17,2,19,APPROVED
+2647,Adding axios headers,Keimeno,2020-01-09T14:33:32Z,2020-10-07T06:13:03+00:00,6,6519.66,False,110,3,2,272,3,1,4,APPROVED
+2639,Fixing typo in CHANGELOG.md,malik-steinert,2020-01-04T17:19:35Z,2020-01-07T16:31:55+00:00,1,71.21,True,1,1,1,322,1,0,1,APPROVED
+2637,Integrate with gitpod,nisarhassan12,2020-01-03T13:40:59Z,2021-02-17T06:28:00+00:00,1,9856.78,True,9,5,2,448,6,0,6,CHANGES_REQUESTED
+2634,Let's release v1.0.0.,schmod,2020-01-02T19:15:34Z,2020-04-25T17:35:37+00:00,1,2734.33,False,14,2,4,1794,2,2,4,CHANGES_REQUESTED
+2631,Updating docs to clarify config precedence behavior,leethomas,2019-12-30T22:04:00Z,2021-03-16T15:51:03+00:00,2,10601.78,False,25,2,1,283,1,4,5,COMMENTED
+2619,fix(index.d.ts): fix ResponseEncoding  type,blastZ,2019-12-24T04:05:13Z,2021-02-05T05:56:33+00:00,2,9817.86,False,18,2,1,23,1,2,3,CHANGES_REQUESTED
+2601,Fixing unit test failure in Windows OS,jennynju,2019-12-12T02:23:14Z,2020-02-15T11:03:35+00:00,2,1568.67,True,5,2,1,398,0,0,0,APPROVED
+2589,Fix issue #2587 Default config keys,DavidTanner,2019-12-04T20:47:00Z,2020-02-15T10:54:29+00:00,6,1742.12,False,10,3,2,238,4,4,8,COMMENTED
+2588,Adding form-data support,remcohaszing,2019-12-04T20:43:42Z,2020-02-29T11:45:45+00:00,1,2079.03,False,21,15,2,252,1,0,1,CHANGES_REQUESTED
+2582,fix: fix ignore set withCredentials false,xchunzhao,2019-12-02T11:12:19Z,2019-12-09T07:52:46+00:00,2,164.67,True,2,2,1,189,0,0,0,APPROVED
+2574,"Remove 'includes' API, fix CI build failure",Alanscut,2019-11-27T06:42:28Z,2019-12-09T02:28:38+00:00,8,283.77,True,11,11,1,243,1,2,3,APPROVED
+2570,Fix CI build failure,Alanscut,2019-11-25T12:01:01Z,2019-11-26T19:09:43+00:00,1,31.14,True,1,1,1,190,0,0,0,APPROVED
+2568,fix issue #2567 Rewrite the 'utils.deepMerge()' method,Alanscut,2019-11-25T07:16:15Z,2020-06-15T08:33:20+00:00,5,4873.28,False,56,19,3,109,1,2,3,COMMENTED
+2563,fix: URL encoding on values,cambraca,2019-11-21T15:31:05Z,2020-05-27T12:41:58+00:00,2,4509.18,False,7,7,2,426,5,3,8,COMMENTED
+2555,Update 'geturi' method for more information,Alanscut,2019-11-16T07:47:19Z,2021-02-16T18:24:24+00:00,1,11002.62,False,34,1,3,292,5,0,5,APPROVED
+2553,Refine arguments for error interceptors,xamgore,2019-11-15T00:03:34Z,2020-01-24T06:46:11+00:00,2,1686.71,False,1,1,1,102,9,1,10,COMMENTED
+2547,Correctly pass agents to follow-redirects,mhassan1,2019-11-13T04:48:16Z,2019-11-14T15:47:41+00:00,3,34.99,False,2,2,1,16,4,0,4,APPROVED
+2545,Fix issue #2239: Add a condition to check if status is a function,Alanscut,2019-11-12T07:05:58Z,2020-05-28T03:51:55+00:00,6,4748.77,False,35,8,4,227,4,3,7,COMMENTED
+2540,fixing Travis link,Alanscut,2019-11-11T12:06:28Z,2019-12-09T01:14:52+00:00,2,661.14,True,1,1,1,89,0,0,0,APPROVED
+2538,"Fix badge, use master branch",yasuf,2019-11-11T04:04:31Z,2019-11-16T03:32:38+00:00,1,119.47,True,1,1,1,45,0,0,0,APPROVED
+2536,"Dep updates, update polyfill handling",avindra,2019-11-09T22:21:55Z,2020-08-04T16:40:28+00:00,7,6450.31,False,52,110,12,362,5,3,8,COMMENTED
+2533,use unknown instead of any,tusharmath,2019-11-09T13:20:16Z,2021-02-08T16:21:13+00:00,1,10971.02,False,24,24,1,46,3,0,3,APPROVED
+2521,Experimental http2 adapter,yasuf,2019-11-06T08:49:24Z,2020-08-27T19:22:11+00:00,2,7090.55,False,59,0,2,828,14,4,18,COMMENTED
+2520,Export the version in axios object,Alanscut,2019-11-06T06:44:59Z,2020-09-03T07:23:11+00:00,4,7248.64,False,22,13,6,12,3,4,7,COMMENTED
+2508,Return http adapter by default,Alanscut,2019-11-01T07:30:36Z,2020-07-02T17:29:38+00:00,5,5865.98,True,21,1,3,72,5,2,7,CHANGES_REQUESTED
+2504,remove License badge from README.md,helios1101,2019-10-30T06:15:37Z,2019-11-04T02:30:50+00:00,1,116.25,True,0,1,1,113,2,0,2,APPROVED
+2498,Add checkServerIdentity to request config for http adapter,Annihil,2019-10-25T21:30:11Z,2020-07-01T18:04:33+00:00,4,5996.57,True,178,3,9,160,6,3,9,COMMENTED
+2495,Add isTimeout to static API,EyalPerry,2019-10-25T10:33:01Z,2020-08-25T08:15:26+00:00,2,7317.71,False,73,3,11,88,4,1,5,COMMENTED
+2487,Fixing #2482 Can not override Content-Type on Headers when send GET requests,zhiwenxuan,2019-10-24T01:58:18Z,2019-10-25T08:27:01+00:00,2,30.48,False,15,2,2,9,1,1,2,COMMENTED
+2475,fix eslint warn,Alanscut,2019-10-18T02:19:06Z,2020-02-15T05:42:56+00:00,1,2883.4,False,1,0,1,19,2,0,2,APPROVED
+2470,Fixing getting local files (file://) failed,Alanscut,2019-10-17T03:09:19Z,2020-03-23T13:49:39+00:00,16,3802.67,True,21,1,2,28,3,4,7,APPROVED
+2464,"Fix to prevent XSS, throw an error when the URL contains a JS script",yasuf,2019-10-14T07:56:44Z,2019-10-16T10:53:10+00:00,2,50.94,True,33,6,4,97,6,1,7,COMMENTED
+2458,"I don’t think this thing is necessary, I should delete it.",notbucai,2019-10-10T14:31:37Z,2019-12-25T21:00:16+00:00,1,1830.48,True,1,1,1,87,1,0,1,APPROVED
+2446,Add license badge,Maskedman99,2019-10-02T09:28:42Z,2019-10-04T13:47:49+00:00,1,52.32,True,1,0,1,42,0,0,0,APPROVED
+2444,Adding Typescript HTTP method definition for LINK and UNLINK.,marlonbarcarol,2019-09-30T21:03:02Z,2019-11-04T03:29:52+00:00,1,822.45,True,2,0,1,42,0,0,0,APPROVED
+2443,chore: add `jsdelivr` and `unpkg` support,JounQin,2019-09-30T04:14:54Z,2020-01-31T18:20:13+00:00,1,2966.09,True,2,2,3,8,14,0,14,APPROVED
+2426,Make redirection from HTTP to HTTPS work,JitixPhotobox,2019-09-24T09:28:04Z,2019-09-26T12:33:49+00:00,1,51.1,True,4,0,1,1576,1,1,2,COMMENTED
+2424,Fixing parse by responseType ,a631807682,2019-09-24T07:30:12Z,2020-07-02T08:05:36+00:00,2,6768.59,True,201,91,7,264,15,1,16,COMMENTED
+2423,+axios-mocker,eshengsky,2019-09-23T11:20:56Z,2020-06-17T17:35:42+00:00,5,6438.25,False,2,1,1,30,1,1,2,COMMENTED
+2410,"Update Webpack + deps, remove now unnecessary polyfills",avindra,2019-09-14T17:22:16Z,2019-10-21T18:56:29+00:00,4,889.57,True,47,113,13,830,7,5,12,COMMENTED
+2384,Fix a typo in README,gamtiq,2019-08-30T11:43:29Z,2019-09-06T12:55:07+00:00,1,169.19,True,1,1,1,0,1,0,1,APPROVED
+2383,Fixing set `config.method` after mergeConfig for Axios.prototype.request,bushuai,2019-08-30T04:14:47Z,2019-09-06T17:23:56+00:00,1,181.15,True,9,1,1,393,2,0,2,APPROVED
+2341,Adding options typings,lukepolo,2019-08-06T19:35:55Z,2019-11-04T05:17:28+00:00,1,2145.69,True,1,0,1,71,0,0,0,APPROVED
+2333,Allow PROPFIND to submit data,jamespearson,2019-08-02T21:09:50Z,2020-02-29T10:21:03+00:00,1,5053.19,False,1,1,1,554,3,0,3,CHANGES_REQUESTED
+2317,Sintaxe alternative to send data into the body,portolucas,2019-07-28T17:50:14Z,2019-09-13T12:19:17+00:00,1,1122.48,True,5,0,1,62,0,0,0,APPROVED
+2314,Update README.md,stigok,2019-07-27T21:29:46Z,2019-08-13T12:32:02+00:00,1,399.04,False,1,1,1,37,1,0,1,APPROVED
+2305,Updating Readme.md file,quriosapien,2019-07-24T04:01:00Z,2019-08-26T05:47:31+00:00,3,793.78,False,1,1,1,118,4,0,4,APPROVED
+2285,Adding option useGlobalInterceptors,awdsawdsawds,2019-07-15T07:32:31Z,2020-02-26T12:40:19+00:00,1,5429.13,False,42,7,7,496,1,0,1,APPROVED
+2271,Fixing grammar in README.md,MichaelFoss,2019-07-08T07:46:07Z,2019-09-06T15:42:10+00:00,1,1447.93,True,1,1,1,137,1,0,1,APPROVED
+2259,Fixing missing words in docs template,crhistianramirez,2019-06-30T16:22:30Z,2019-10-16T01:32:20+00:00,3,2577.16,True,1,1,1,9,0,0,0,APPROVED
+2255,Modernized typechecks,fed135,2019-06-28T19:08:27Z,2020-06-04T18:27:50+00:00,1,8207.32,False,73,102,7,689,1,1,2,COMMENTED
+2243,Solve issue #2129 error message for bad headers format is unclear,alejogs4,2019-06-23T03:53:22Z,2020-06-04T18:18:19+00:00,2,8342.42,False,19,1,5,143,3,4,7,CHANGES_REQUESTED
+2233,Added localAddress config option,DavyJohnes,2019-06-15T20:04:35Z,2020-03-07T11:32:17+00:00,3,6375.46,False,9,0,3,0,7,0,7,APPROVED
+2227,Fixing proxy type in AxiosRequestConfig,cdupetit,2019-06-13T09:09:24Z,2019-11-09T20:46:26+00:00,1,3587.62,False,1,1,1,170,4,0,4,APPROVED
+2212,updating spelling and adding link to docs,heloflier,2019-06-08T20:23:30Z,2019-09-13T12:31:50+00:00,2,2320.14,True,1,1,1,112,0,0,0,APPROVED
+2210,Adding console log on sandbox server startup,precto1285,2019-06-08T20:08:37Z,2020-05-29T17:49:56+00:00,1,8541.69,True,11,3,1,179,0,1,1,COMMENTED
+2209,update type for AxiosInstance.defaults.headers,bluelovers,2019-06-08T13:01:01Z,2020-05-29T16:36:33+00:00,2,8547.59,False,17,2,1,479,1,1,2,COMMENTED
+2207,Fixing custom config options,rafaelrenanpacheco,2019-06-07T16:03:39Z,2019-09-07T00:40:05+00:00,2,2192.61,True,36,9,2,116,66,0,66,APPROVED
+2201,Fixing issue 2195,masterots,2019-06-03T18:06:14Z,2019-09-13T12:36:00+00:00,1,2442.5,True,4,5,1,234,7,0,7,APPROVED
+2198,"Doc fixes, minor examples cleanup",avindra,2019-06-02T20:09:44Z,2019-09-07T12:05:26+00:00,1,2319.93,True,44,27,12,242,2,2,4,COMMENTED
+2196,Fix `params` merging,zackseuberling,2019-05-31T15:56:02Z,2020-02-15T14:12:33+00:00,2,6238.28,False,2,2,1,410,14,0,14,APPROVED
+2193,fix typo in changelog.md,ikea-dless,2019-05-31T05:32:06Z,2019-05-31T15:20:36+00:00,2,9.81,True,1,1,1,46,0,0,0,APPROVED
+2191,Allow PURGE method in typings,iwata,2019-05-31T01:16:11Z,2020-03-07T06:45:25+00:00,1,6749.49,True,1,0,1,55,3,0,3,APPROVED
+2189,🐛Fix request finally documentation in README,a-tokyo,2019-05-30T18:19:09Z,2019-09-13T13:19:44+00:00,2,2539.01,True,1,1,1,58,1,0,1,APPROVED
+2176,Update ECOSYSTEM.md,renancaraujo,2019-05-28T03:55:43Z,2019-05-28T16:55:34+00:00,1,13.0,True,1,0,1,35,0,0,0,APPROVED
+2169,It is also possible to have data in DELETE method,sericaia,2019-05-23T14:09:16Z,2019-05-28T16:57:10+00:00,1,122.8,True,1,1,1,234,0,0,0,APPROVED
+2166,include information about usage of auth parameter,xlaguna,2019-05-22T18:58:52Z,2019-05-28T16:58:00+00:00,1,141.99,True,2,0,1,178,0,0,0,APPROVED
+2162,Include axios based Swagger Codegen in ECOSYSTEM.md,michalzaq12,2019-05-21T15:25:38Z,2020-05-27T17:12:49+00:00,1,8929.79,True,2,1,1,190,0,0,0,COMMENTED
+2141,Add r2curl in ECOSYSTEM,uyu423,2019-05-09T14:03:28Z,2019-05-15T19:40:24+00:00,1,149.62,True,1,0,1,142,0,0,0,APPROVED
+2138,Using Node 10 on CI,rajivshah3,2019-05-09T03:45:33Z,2019-05-30T16:33:26+00:00,6,516.8,False,1,1,1,315,8,1,9,APPROVED
+2135,Improving type of AxiosError.isAxiosError,UselessPickles,2019-05-07T21:35:43Z,2020-01-24T07:01:46+00:00,1,6273.43,False,7,7,1,173,1,1,2,COMMENTED
+2128,Fixing getUri to return url that would be used for a request,tskimmett,2019-05-03T18:55:44Z,2020-05-29T17:37:07+00:00,4,9406.69,False,29,0,2,325,5,2,7,CHANGES_REQUESTED
+2121,Clarify what values responseType can have in Node,MatrixFrog,2019-04-30T22:28:00Z,2019-05-07T19:26:33+00:00,1,164.98,True,2,1,1,230,0,0,0,APPROVED
+2090,Update README.md. - Fixed example methods typo,ordinarycas,2019-04-10T01:35:35Z,2019-05-07T20:01:44+00:00,2,666.44,True,1,1,1,26,0,0,0,COMMENTED
+2088,docs(): Detailed config options environment.,zgayjjf,2019-04-09T04:07:47Z,2020-05-29T17:08:28+00:00,1,9997.01,True,2,2,1,36,0,1,1,CHANGES_REQUESTED
+2080,Include axios-data-unpacker in ECOSYSTEM.md,anubhavsrivastava,2019-04-04T17:47:08Z,2020-05-29T17:06:21+00:00,1,10103.32,True,1,0,1,64,0,0,0,APPROVED
+2071,Adding Brotli Support,hlthi,2019-03-31T05:19:16Z,2020-03-24T14:09:44+00:00,3,8624.84,False,63,0,4,39,2,3,5,COMMENTED
+2066,Fixing spacing for READ.me,unknown,2019-03-28T03:48:14Z,2019-05-07T20:16:15+00:00,2,976.47,True,3,3,1,71,0,0,0,APPROVED
+2062,Fix type of progressEvent,vldvel,2019-03-26T14:41:25Z,2020-03-28T09:52:25+00:00,3,8827.18,False,2,2,1,224,1,0,1,APPROVED
+2040,Adding feature to support axios sub-instances,noodle,2019-03-11T00:10:31Z,2020-05-29T14:53:41+00:00,2,10694.72,False,38,6,3,236,9,1,10,COMMENTED
+2036,Readme updated,victorhermes,2019-03-08T00:21:02Z,2019-05-07T20:17:17+00:00,2,1459.94,True,6,0,1,57,0,0,0,APPROVED
+2020,docs(ECOSYSTEM): add axios-api-versioning,Weffe,2019-02-28T00:16:33Z,2019-03-04T19:16:11+00:00,1,114.99,True,1,0,1,47,1,0,1,APPROVED
+2003,Include axios-hooks in ECOSYSTEM.md,simoneb,2019-02-18T00:07:32Z,2020-02-26T12:13:37+00:00,3,8964.1,True,1,0,1,38,1,1,2,APPROVED
+2000,Fixing memory leak in v8 based enviroments,Tarabyte,2019-02-14T09:29:35Z,2020-06-25T18:00:25+00:00,1,11936.51,False,46,9,7,283,2,0,2,APPROVED
+1996,Adding tests for method `options` type definitions,GreenTeaCake,2019-02-11T18:35:15Z,2020-03-07T06:10:35+00:00,2,9347.59,True,16,0,1,90,3,0,3,APPROVED
+1993,Fixing Mocha tests.,GreenTeaCake,2019-02-09T00:49:10Z,2019-02-09T04:27:36+00:00,1,3.64,True,1,1,1,171,5,0,5,APPROVED
+1987,Adding support for params without value.,unknown,2019-02-01T07:48:19Z,2020-07-01T17:35:25+00:00,5,12393.78,True,10,1,2,253,3,1,4,COMMENTED
+1985,Adding tests and maxBodyLength for PUT requests (2),Paxa,2019-01-30T13:59:06Z,2020-05-29T05:10:04+00:00,1,11631.18,False,39,0,1,319,4,0,4,CHANGES_REQUESTED
+1964,Typescript allow extension of AxiosConfig,mtandersson,2019-01-17T15:00:07Z,2020-07-01T16:48:18+00:00,3,12745.8,True,16,15,1,65,19,1,20,APPROVED
+1958,Allow opening examples in Gitpod,svenefftinge,2019-01-14T09:26:51Z,2020-05-29T05:02:31+00:00,1,12019.59,True,4,0,1,425,1,0,1,COMMENTED
+1929,Enhancing... Code cleanups,sbimochan,2018-12-14T05:26:27Z,2020-05-29T04:57:03+00:00,5,12767.51,True,11,8,4,13,3,2,5,COMMENTED
+1925,Add react-hooks-axios,int64ago,2018-12-13T07:47:26Z,2019-02-04T03:54:50+00:00,1,1268.12,True,1,0,1,75,0,0,0,APPROVED
+1912,support message-body in get requests,jochen42,2018-12-06T11:25:22Z,2019-06-07T16:13:08+00:00,1,4396.8,False,12,1,1,152,4,0,4,APPROVED
+1904,Fixing protocol https not found issue,M-shin,2018-11-30T23:14:03Z,2019-12-25T20:55:37+00:00,5,9357.69,True,1,4,1,533,2,0,2,APPROVED
+1901,Added Response header access instructions,unguul,2018-11-29T06:06:14Z,2020-02-26T11:03:20+00:00,2,10900.95,True,3,2,1,246,1,0,1,APPROVED
+1900,Adding support for URLSearchParams in node,mindriven,2018-11-27T19:39:40Z,2020-06-25T17:06:00+00:00,1,13821.44,True,8,0,1,75,0,2,2,CHANGES_REQUESTED
+1899,Updating readme.md file,sbimochan,2018-11-27T16:22:19Z,2019-01-17T17:34:06+00:00,3,1225.2,True,5,3,1,20,0,0,0,APPROVED
+1896,Update README.md. Querystring libraries note,airs0urce,2018-11-27T10:33:05Z,2019-02-04T04:16:38+00:00,5,1649.73,True,3,0,1,5,1,2,3,APPROVED
+1889,removes unnecessary Content-Type delete according issue #362,laurenz-glueck,2018-11-23T09:00:34Z,2020-05-29T04:48:55+00:00,1,13267.81,False,1,7,1,254,1,0,1,APPROVED
+1886,Fixing indexOf[throws] error on null url.,RobusGauli,2018-11-22T13:22:36Z,2020-06-25T16:56:43+00:00,2,13947.57,False,9,2,3,562,1,0,1,APPROVED
+1884,feat: type axios-error,clentfort,2018-11-21T13:26:47Z,2019-05-07T19:16:32+00:00,1,4013.83,False,2,2,1,85,2,0,2,APPROVED
+1880,Prevent subdomains of domains in NO_PROXY from getting proxied,tshen8,2018-11-15T18:30:50Z,2019-09-28T23:52:26+00:00,8,7613.36,False,1,2,1,851,6,0,6,APPROVED
+1870,Adding responseEncoding to AxiosRequestConfig typescript definitions,Aiden01,2018-11-04T18:46:19Z,2020-03-07T07:03:29+00:00,6,11724.29,False,1,0,1,110,2,1,3,APPROVED
+1867,Fixing request.responseText missing error,Luno33,2018-11-03T13:46:25Z,2020-06-25T16:50:01+00:00,1,14403.06,False,3,1,1,363,1,1,2,CHANGES_REQUESTED
+1864,Update `axios-authorized` to ECOSYSTEM.md,zaguiini,2018-11-02T13:36:26Z,2020-04-26T21:14:27+00:00,2,12991.63,False,1,0,1,51,1,0,1,APPROVED
+1852,Fixing ignore set withCredentials false,tonwe,2018-10-26T07:54:13Z,2019-12-07T10:31:34+00:00,4,9770.62,False,3,4,1,148,7,1,8,CHANGES_REQUESTED
+1845,Allow unsetting headers by passing null (#382),codeclown,2018-10-21T15:58:05Z,2020-06-04T18:57:55+00:00,8,14211.0,True,33,6,4,567,7,3,10,COMMENTED
+1831,feat: Allow custom config,Khaledgarbaya,2018-10-15T15:46:09Z,2019-11-23T23:48:00+00:00,2,9704.03,False,35,2,4,11,2,1,3,COMMENTED
+1816,Remove dependency on is-buffer,Chalarangelo,2018-10-01T19:17:56Z,2019-11-18T06:53:28+00:00,7,9899.59,True,18,3,3,293,6,1,7,COMMENTED
+1814,fix the description of maxContentLength in README,hashtoes,2018-10-01T07:34:13Z,2020-02-15T14:01:38+00:00,2,12054.46,False,1,1,1,252,1,0,1,CHANGES_REQUESTED
+1799,Update README.md,ps0305,2018-09-20T14:24:06Z,2020-04-05T09:58:20+00:00,1,13507.57,False,14,9,1,479,2,2,4,CHANGES_REQUESTED
+1798,"Refined typescript types, added documentation to types (NOTE: Breaking changes)",jchitel,2018-09-20T14:19:49Z,2020-08-27T19:11:05+00:00,1,16972.85,False,533,78,5,4541,2,0,2,APPROVED
+1789,Fixing .eslintrc without extension,ManoelLobo,2018-09-13T12:12:25Z,2018-09-17T14:24:47+00:00,1,98.21,True,1,1,1,243,0,0,0,APPROVED
+1787,Consistent coding style,exalted,2018-09-12T12:19:49Z,2018-09-17T14:19:35+00:00,1,122.0,True,4,4,1,96,1,0,1,APPROVED
+1781,Allow uppercase methods in typings.,knpwrs,2018-09-07T13:10:02Z,2018-09-17T16:25:07+00:00,1,243.25,True,8,8,1,198,0,0,0,APPROVED
+1773,Fixing overwrite Blob/File type as Content-Type in browser.,Gerhut,2018-09-01T03:44:30Z,2020-05-28T19:28:41+00:00,7,15255.74,True,7,0,1,9,0,1,1,COMMENTED
+1771,Fixing building url with hash mark,m1neral,2018-08-31T12:34:56Z,2018-09-04T07:53:57+00:00,3,91.32,True,11,0,2,163,1,0,1,APPROVED
+1758,Preserve HTTP method when following redirect,RikkiGibson,2018-08-26T20:23:24Z,2018-08-27T15:26:39+00:00,2,19.05,True,27,1,2,255,0,0,0,APPROVED
+1752,Fixing socket hang up error on node side for slow response.,ryouaki,2018-08-23T02:00:06Z,2019-09-16T08:58:59+00:00,2,9342.98,True,7,5,1,711,22,0,22,APPROVED
+1745,Adding responseEncoding to mergeConfig,ehrhart,2018-08-20T15:42:12Z,2020-02-15T13:49:27+00:00,2,13054.12,True,1,1,1,250,0,0,0,APPROVED
+1738,makes axios error generic to use axios response,sumanla13a,2018-08-17T21:18:07Z,2019-05-07T19:14:58+00:00,4,6309.95,True,2,2,1,252,2,0,2,APPROVED
+1736,Add `getUri` signature to TypeScript definition.,atrauzzi,2018-08-17T12:53:21Z,2018-08-21T14:24:54+00:00,2,97.53,True,1,0,1,119,2,1,3,APPROVED
+1715,Fixing crash in XHR when setting user-agent header,steelbrain,2018-08-08T16:12:25Z,2018-12-30T09:50:04+00:00,2,3449.63,False,6,0,1,939,6,0,6,APPROVED
+1712,Added getUri method,anthonygauthier,2018-08-06T12:57:15Z,2018-08-07T17:52:31+00:00,2,28.92,True,7,0,2,589,7,0,7,APPROVED
+1693,Adding support for no_proxy env variable,pheebcodes,2018-07-24T01:41:14Z,2018-08-07T17:52:05+00:00,2,352.18,True,120,11,3,459,3,0,3,APPROVED
+1689,Drop IE9 and IE10,RikkiGibson,2018-07-21T17:39:47Z,2018-08-06T07:56:52+00:00,1,374.28,True,6,173,10,156,3,0,3,APPROVED
+1623,Adding second then on axios call in the readme,guillaumebriday,2018-06-22T08:51:56Z,2018-07-02T03:10:05+00:00,1,234.3,True,9,1,1,240,0,0,0,APPROVED
+1622,Fixing usage of deprecated Buffer constructor. (#1555),mvdnbrk,2018-06-21T19:39:03Z,2018-07-05T06:47:18+00:00,1,323.14,True,9,9,2,0,0,0,0,APPROVED
+1611,[NS]: Send `false` flag isStandardBrowserEnv for Nativescript,arpit2438735,2018-06-17T15:03:40Z,2018-06-19T12:59:59+00:00,1,45.94,True,5,1,1,132,1,0,1,APPROVED
+1605,Allow custom return types,zcei,2018-06-14T09:59:57Z,2018-06-18T08:48:30+00:00,1,94.81,True,57,10,2,358,0,0,0,APPROVED
+1592,chore: cache node_modules,DanielRuf,2018-06-07T20:59:40Z,2020-04-04T20:44:43+00:00,1,16007.75,False,3,0,1,0,0,0,0,APPROVED
+1551,cleaner definitions with union types.,sakoh,2018-05-18T21:43:31Z,2018-07-05T06:48:08+00:00,1,1137.08,True,19,2,1,28,2,0,2,APPROVED
+1544,Allow setting of content-type,andrew-templeton,2018-05-18T04:30:40Z,2020-02-16T05:19:06+00:00,1,15336.81,False,6,21,3,89,1,1,2,CHANGES_REQUESTED
+1532,Move axios core to ESM,zcei,2018-05-11T13:52:05Z,2018-05-11T15:05:44+00:00,1,1.23,True,277,335,28,429,1,0,1,APPROVED
+1521,fix incorrect variable while returning promise on interceptors,barisbora,2018-05-06T19:50:42Z,2019-12-03T11:49:22+00:00,1,13815.98,False,1,1,1,61,0,1,1,CHANGES_REQUESTED
+1511,Fixing default transformRequest with buffer pools,delventhalz,2018-04-30T21:30:13Z,2020-05-27T12:42:42+00:00,1,18183.21,True,7,1,2,1290,0,0,0,COMMENTED
+1493,Fixing maxContentLength config not working for exceeded content-length response,cctuan,2018-04-18T23:00:31Z,2020-06-25T16:48:03+00:00,5,19169.79,False,44,1,2,174,6,1,7,APPROVED
+1492,Fixing password encoding with special characters in basic authentication,1pm,2018-04-18T07:21:15Z,2020-05-26T16:32:04+00:00,1,18465.18,True,19,2,2,132,1,0,1,APPROVED
+1487,fix 'Network Error' in react native android,huangzuizui,2018-04-16T08:02:30Z,2020-05-23T17:06:11+00:00,2,18441.06,True,1,1,1,273,0,0,0,COMMENTED
+1485,Destroy stream on exceeding maxContentLength (fixes #1098),resure,2018-04-15T14:59:31Z,2019-05-07T19:20:35+00:00,1,9292.35,True,1,0,1,893,54,0,54,APPROVED
+1484,Update README.md,JimLynchCodes,2018-04-14T16:58:21Z,2018-07-05T15:02:42+00:00,1,1966.07,True,2,0,1,535,0,0,0,APPROVED
+1479,implement maxContentLength in xhr,kheyse-werk,2018-04-13T09:27:51Z,2020-05-25T17:09:43+00:00,3,18559.7,False,15,0,1,118,1,2,3,CHANGES_REQUESTED
+1441,Updating xhr adapter to inherit withCredentials flag from the config,kmagiera,2018-03-28T09:44:22Z,2019-12-07T10:30:45+00:00,1,14856.77,False,3,2,2,860,5,0,5,APPROVED
+1419,Adding isAxiosError flag to errors thrown by axios,AyushG3112,2018-03-15T14:46:39Z,2018-08-20T09:02:24+00:00,3,3786.26,True,7,1,4,137,6,0,6,APPROVED
+1410,Completely delete ejected interceptor handlers,Axnyff,2018-03-12T20:47:56Z,2020-06-04T18:50:58+00:00,1,19558.05,False,16,13,2,417,2,2,4,CHANGES_REQUESTED
+1407,FIX: all tests and eslint for the 1.0.0 branch,hans-lizihan,2018-03-11T03:45:15Z,2018-03-26T08:59:51+00:00,3,365.24,True,88,64,21,515,3,2,5,COMMENTED
+1399,Fixing #537 Rejecting promise if request is cancelled by the browser,mattridley,2018-03-05T16:23:09Z,2018-03-07T19:50:17+00:00,1,51.45,True,37,0,2,72,1,0,1,APPROVED
+1395,Fixing #385 - Keep defaults local to instance,codeclown,2018-03-02T10:31:42Z,2018-04-10T22:28:13+00:00,7,947.94,True,252,10,9,1663,30,12,42,APPROVED
+1391,Clone config defaults on axios.create,heisian,2018-02-28T22:39:01Z,2018-03-09T17:18:44+00:00,17,210.66,False,49,1,3,655,15,3,18,COMMENTED
+1377,Error/typo,Mathiasduc,2018-02-21T17:01:07Z,2018-02-22T18:57:28+00:00,1,25.94,False,1,1,1,0,2,0,2,CHANGES_REQUESTED
+1364,Documents default,MiguelMadero,2018-02-15T01:50:04Z,2018-02-17T16:28:47+00:00,1,62.65,True,5,1,2,0,3,0,3,CHANGES_REQUESTED
+1363,Add reference to axios-fetch in ECOSYSTEM.md,mdlavin,2018-02-14T17:04:16Z,2018-02-17T01:42:34+00:00,1,56.64,True,1,0,1,64,1,0,1,APPROVED
+1352,Substitute custom utils with lodash,zcei,2018-02-09T13:20:57Z,2018-02-09T15:08:13+00:00,7,1.79,True,47,231,6,256,2,2,4,COMMENTED
+1342,fix cannot send post method,alpancs,2018-02-07T05:49:55Z,2018-02-17T02:58:49+00:00,1,237.15,True,1,1,1,14,0,0,0,APPROVED
+1339,Adjust karma to use Webpack 3 config,zcei,2018-02-06T08:00:21Z,2018-02-09T12:07:10+00:00,1,76.11,True,43,238,10,310,5,0,5,APPROVED
+1336,migrate nodeunit to jasmine,axe312ger,2018-02-05T17:00:26Z,2018-02-09T10:56:02+00:00,2,89.93,True,404,419,3,247,6,1,7,APPROVED
+1335,ESLint Standard,zcei,2018-02-05T16:29:26Z,2018-02-05T20:58:21+00:00,4,4.48,True,2344,2488,68,320,2,1,3,APPROVED
+1334,Use Babel 7 & Webpack3 (via blocks),zcei,2018-02-05T11:58:34Z,2018-02-05T15:59:41+00:00,6,4.02,True,83,49,7,147,6,2,8,COMMENTED
+1314,Adding example of cancelling a POST request to readme,penance316,2018-01-22T13:02:09Z,2018-01-22T16:41:10+00:00,3,3.65,True,6,0,1,123,2,2,4,APPROVED
+1287,Set maxBodyLength on follow-redirects to match maxContentLength on AxiosOptions,mividtim,2018-01-11T14:03:04Z,2018-02-11T19:25:56+00:00,1,749.38,True,4,0,1,186,9,0,9,APPROVED
+1276,Added a simple async/await example,unknown,2018-01-08T12:16:08Z,2018-02-23T03:03:47+00:00,1,1094.79,True,13,0,1,193,3,0,3,CHANGES_REQUESTED
+1274,Temp fix for follow-redirect,felixmosh,2018-01-07T16:45:29Z,2018-01-11T05:48:14+00:00,1,85.05,False,1,1,1,115,3,0,3,APPROVED
+1273,adding codetriage badge,jcrben,2018-01-07T07:09:39Z,2018-02-08T03:23:29+00:00,3,764.23,True,1,0,1,207,3,0,3,APPROVED
+1272,Fix Markdown formatting for issue and pull request template,aaronang,2018-01-07T06:40:18Z,2018-01-08T16:29:53+00:00,1,33.83,True,10,10,2,208,1,0,1,APPROVED
+1270,Upgrade all dependencies to latest version,timReynolds,2018-01-06T23:49:35Z,2018-03-31T12:26:28+00:00,1,2004.61,False,1505,1459,14,336,2,0,2,CHANGES_REQUESTED
+1264,Update license date,m1guelpf,2017-12-31T23:57:46Z,2018-01-05T16:30:16+00:00,1,112.54,True,1,1,1,0,1,0,1,APPROVED
+1258,Bug/allow header to contain http verb keys #1252,nycdavid,2017-12-29T15:47:55Z,2020-05-22T19:26:11+00:00,2,21003.64,True,16,1,2,212,5,0,5,COMMENTED
+1234,Updating the docs to use Promises. Fixes #1042,franciscop,2017-12-13T05:01:38Z,2020-02-15T12:41:05+00:00,1,19063.66,False,3,9,1,176,4,0,4,CHANGES_REQUESTED
+1232,fix https request on http proxy problem,stoneChen,2017-12-11T10:30:34Z,2020-05-22T19:15:21+00:00,3,21440.75,False,67,11,3,329,8,3,11,COMMENTED
+1203,Add a check for navigator object since isURLSameOrigin relies on it,peterjwest,2017-11-26T23:25:32Z,2020-02-24T11:22:44+00:00,1,19667.95,False,2,1,1,543,3,0,3,APPROVED
+1148,Adding better 'responseType' and 'method' type definitions by using a…,Fitzpasd,2017-10-24T17:50:59Z,2018-04-08T07:19:47+00:00,2,3973.48,True,2,2,1,283,1,0,1,APPROVED
+1129,Unzipping response body only for statuses != 204,drawski,2017-10-13T11:51:56Z,2019-05-15T19:35:10+00:00,1,13903.72,True,1,1,1,301,3,0,3,APPROVED
+1122,Fixing default method for an instance always overwritten by get,Nilegfx,2017-10-10T19:49:29Z,2018-02-20T06:39:06+00:00,1,3178.83,True,2,1,2,719,3,0,3,APPROVED
+1110,Adding jsDelivr link in README,LukasDrgon,2017-09-30T19:35:35Z,2020-02-15T12:48:17+00:00,11,20825.21,True,7,1,1,343,7,1,8,COMMENTED
+1107,Fixing Cookie Helper with Async Components (#1105),rbown,2017-09-27T00:09:46Z,2020-05-22T14:44:18+00:00,2,23246.58,True,1,2,1,114,1,0,1,COMMENTED
+1095,Fix/pass agent mixed protocol redirects,pmarrone,2017-09-21T20:29:50Z,2020-05-22T14:19:03+00:00,1,23369.82,False,39,0,2,1461,15,1,16,COMMENTED
+1091,Added ES6 example in README,jjingrong,2017-09-19T09:52:21Z,2018-04-07T03:52:06+00:00,1,4794.0,True,14,0,1,167,1,0,1,APPROVED
+1075,Replace webpack with rollup,SidKwok,2017-09-07T05:17:07Z,2019-12-25T00:31:06+00:00,1,20131.23,False,1390,1646,10,1293,9,1,10,CHANGES_REQUESTED
+1070,Adding support for UNIX Sockets,Starfox64,2017-09-04T15:10:09Z,2018-02-17T00:05:49+00:00,1,3968.93,True,11,2,2,151,11,0,11,APPROVED
+1065,Avoid concatenating chunks to calculate their total lenght,zenekron,2017-09-01T21:50:56Z,2020-05-22T14:14:58+00:00,1,23848.4,False,4,2,1,568,2,0,2,APPROVED
+1053,Response headers missing,sahanatroam,2017-08-21T01:54:18Z,2018-01-09T01:02:23+00:00,1,3383.13,False,1,1,1,485,1,0,1,CHANGES_REQUESTED
+1040,Decorate resolve and reject to clear timeout in all cases,pbarbiero,2017-08-12T13:52:57Z,2018-03-08T17:35:59+00:00,2,4995.72,True,11,7,1,155,10,1,11,COMMENTED
+965,Add documentation about how to implement `promise.prototype.finally` in ES6,BrodaNoel,2017-06-20T04:12:13Z,2017-07-10T07:56:58+00:00,1,483.75,False,6,0,1,73,2,0,2,COMMENTED
+959,Fixing http adapter to allow HTTPS connections via HTTP,Khaledgarbaya,2017-06-15T12:14:04Z,2018-07-05T06:51:11+00:00,5,9234.62,True,9,5,2,526,54,3,57,APPROVED
+935,"added unpkg ""dist/axios.js""",jmnote,2017-06-04T11:23:30Z,2018-09-06T12:07:51+00:00,1,11016.74,False,1,0,1,55,2,0,2,APPROVED
+912,Convert the method parameter to lowercase,luciy,2017-05-23T07:37:11Z,2017-05-31T14:49:04+00:00,1,199.2,False,0,0,0,211,7,1,8,COMMENTED
+887,No buffer in browser,fgnass,2017-05-04T22:00:30Z,2017-05-31T02:31:43+00:00,1,628.52,True,4,13,3,79,13,0,13,CHANGES_REQUESTED
+878,Add CDNJS version badge in README.md,sufuf3,2017-05-02T03:47:13Z,2020-05-22T14:09:10+00:00,5,26794.37,True,1,0,1,42,5,0,5,COMMENTED
+874,Duplicate header handling,tybro0103,2017-04-29T04:00:10Z,2017-08-12T12:58:10+00:00,1,2528.97,True,44,2,2,211,6,1,7,COMMENTED
+869,Adds option to specify character set in responses (with http adapter),johntron,2017-04-27T16:17:12Z,2018-03-10T17:13:05+00:00,3,7608.93,True,5,1,2,293,16,2,18,COMMENTED
+842,Adding ability to transform data based on status,berfarah,2017-04-14T08:30:53Z,2020-05-22T14:05:56+00:00,2,27221.58,False,74,74,10,788,8,2,10,COMMENTED
+831,Pass agents to follow redirects,rubennorte,2017-04-08T20:12:00Z,2020-06-25T16:45:27+00:00,5,28172.56,False,50,11,4,234,2,1,3,COMMENTED
+830,Include underlying request in errors,rubennorte,2017-04-08T19:45:14Z,2017-04-15T16:18:44+00:00,1,164.56,True,45,19,10,53,1,0,1,APPROVED
+828,Return the last request made in axios response,rubennorte,2017-04-08T11:02:13Z,2017-04-08T18:26:05+00:00,1,7.4,True,11,2,3,317,2,0,2,APPROVED
+786,Updating follow-redirects to 1.1.0,cappslock,2017-03-24T02:19:32Z,2017-03-29T17:31:46+00:00,1,135.2,False,4429,18,6,80,4,0,4,APPROVED
+742,Change http request method in Axios request method,SeokHeo,2017-03-07T09:35:43Z,2018-03-08T16:18:12+00:00,3,8790.71,False,1,1,1,85,6,1,7,COMMENTED
+691,Adding a way to disable all proxy processing,vbfox,2017-02-07T23:55:41Z,2017-08-14T11:38:44+00:00,3,4499.72,True,19,1,3,430,8,1,9,COMMENTED
+680,Enable writings node.js buffers directly,EricMCornelius,2017-02-02T21:30:07Z,2017-04-08T12:00:41+00:00,1,1550.51,False,4,2,3,319,7,1,8,CHANGES_REQUESTED
+656,Parse the JSON response if response is undefined (fix #265),yp,2017-01-18T09:04:08Z,2020-05-22T14:00:10+00:00,2,29284.93,False,10,1,1,125,3,1,4,CHANGES_REQUESTED
+581,Fixing combineURLs to support an empty relativeURL,loklaan,2016-12-07T01:29:51Z,2016-12-08T05:23:45+00:00,5,27.9,True,11,1,2,308,7,1,8,APPROVED
+565,Adding interpretation of no_proxy,inthemill,2016-12-01T21:35:53Z,2018-08-30T18:21:44+00:00,3,15284.76,False,298,24,5,161,29,2,31,COMMENTED
+558,Update parseHeaders to match node http behavior,Jessidhia,2016-11-28T04:35:06Z,2017-08-12T12:56:40+00:00,1,6176.36,False,17,1,1,175,6,1,7,COMMENTED
+547,Minor grammar/line length changes,Rossolson,2016-11-21T21:30:11Z,2017-04-08T11:29:38+00:00,3,3301.99,True,5,3,1,0,2,1,3,COMMENTED
+483,Support proxy auth,mawrkus,2016-10-14T13:04:29Z,2016-10-19T09:02:42+00:00,2,115.97,True,148,3,3,50,4,1,5,COMMENTED
+477,Make headers with the same name be returned as array,kompot,2016-10-11T01:40:09Z,2017-04-08T11:31:54+00:00,2,4305.86,False,14,2,2,48,3,1,4,COMMENTED
+461,Add OPTIONS-method as a shortcut,theikkila,2016-09-29T16:15:07Z,2017-03-27T04:06:25+00:00,2,4283.85,True,5,1,3,72,9,1,10,COMMENTED
+452,Adding support for request cancellation,nickuraltsev,2016-09-18T21:21:27Z,2016-10-10T16:31:44+00:00,9,523.17,True,454,13,18,73,10,4,14,COMMENTED
+366,Http proxy support,bomsy,2016-07-05T11:47:40Z,2016-08-24T16:05:26+00:00,1,1204.3,True,108,6,3,121,18,4,22,COMMENTED

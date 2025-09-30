@@ -41,17 +41,23 @@ As **Questões de Pesquisa** foram definidas para guiar a investigação e estru
 
 As **Hipóteses Informais** foram elaboradas a partir das RQs, estabelecendo expectativas sobre os resultados esperados do estudo:
 
-**💡 Hipóteses Informais - Informal Hypotheses (IH):**
+#### 1. Feedback Final das Revisões (Status do PR)
 
-| IH   | Descrição                                                                                                                                                                                    |
-| ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| IH01 | Sistemas populares recebem mais contribuições externas e lançam releases com maior frequência, refletindo um processo de desenvolvimento ativo.                                              |
-| IH02 | Mais de 50% dos repositórios populares são mantidos há mais de 5 anos, indicando maturidade do projeto.                                                                                      |
-| IH03 | Espera-se que mais de 50% dos repositórios populares tenham pelo menos 70% das issues fechadas, demonstrando boa gestão de problemas.                                                        |
-| IH04 | Repositórios populares tendem a ser escritos nas linguagens mais utilizadas (ex.: JavaScript, Python, Java), representando a adoção de linguagens consolidadas.                              |
-| IH05 | Mais de 50% dos repositórios populares recebem atualizações nos últimos 3 meses, refletindo atividade contínua da comunidade.                                                                |
-| IH06 | Projetos populares com maior número de forks tendem a ter mais pull requests aceitas, indicando engajamento externo significativo.                                                           |
-| IH07 | Repositórios populares com grande número de stars podem apresentar Big Numbers em métricas como número de commits, branches e releases, destacando sua relevância na comunidade open-source. |
+| IH   | Descrição                                                                                                                                                                                             |
+| ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| IH01 | Pull requests maiores tendem a ter menor chance de aprovação, pois aumentam a complexidade da revisão e a probabilidade de conter erros.                                                              |
+| IH02 | Quanto maior o tempo de análise de um PR, maior a chance de ele ser rejeitado ou abandonado, indicando dificuldades ou falta de consenso durante a revisão.                                           |
+| IH03 | PRs com descrições detalhadas têm mais chance de aprovação, porque facilitam a compreensão das mudanças pelos revisores.                                                                              |
+| IH04 | PRs com mais interações (comentários, discussões) tendem a ter maior chance de aprovação, pois mostram engajamento e refinamento colaborativo, embora discussões excessivas possam indicar conflitos. |
+
+#### 2. Número de Revisões:
+
+| IH   | Descrição                                                                                                                            |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| IH01 | PRs maiores exigem mais rodadas de revisão, porque os revisores precisam verificar múltiplos pontos do código.                       |
+| IH02 | PRs analisados por longos períodos tendem a passar por mais revisões, já que mais tempo abre espaço para mais iterações e ajustes.   |
+| IH03 | PRs com descrições claras reduzem o número de revisões necessárias, pois os revisores entendem melhor o propósito das mudanças.      |
+| IH04 | Quanto mais interações houver em um PR, maior o número de revisões realizadas, refletindo um processo mais iterativo e colaborativo. |
 
 ---
 

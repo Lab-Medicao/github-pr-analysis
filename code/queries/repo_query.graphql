@@ -2,7 +2,7 @@ query TopRepositories($after: String) {
   search(
     query: "stars:>10000 sort:stars-desc"
     type: REPOSITORY
-    first: 10
+    first: 50
     after: $after
   ) {
     edges {
@@ -13,7 +13,7 @@ query TopRepositories($after: String) {
             login
           }
           stargazerCount
-          pullRequests(states: [MERGED, CLOSED], first: 50) {
+          pullRequests(states: [MERGED, CLOSED]) {
             totalCount
           }
         }

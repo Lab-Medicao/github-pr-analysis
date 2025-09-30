@@ -106,29 +106,56 @@ def process_csv_files(datasets_dir):
         print(f"Processando {i}/{len(csv_files)}: {repo_name}")
         
         try:
-        
             df = pd.read_csv(csv_file)
-            
-        
+
             required_columns = ['reviewsCount', 'hoursOpen']
             missing_columns = [col for col in required_columns if col not in df.columns]
-            
+
             if missing_columns:
                 print(f"  ⚠️  Colunas faltando em {filename}: {missing_columns}")
                 continue
-            
-        
+
+            # Base fields
             df['reviewsCount'] = pd.to_numeric(df['reviewsCount'], errors='coerce')
             df['hoursOpen'] = pd.to_numeric(df['hoursOpen'], errors='coerce')
-            
-        
+
+            # Optional enriched fields
+            for opt in [
+                'merged', 'additions', 'deletions', 'changedFiles', 'bodyLength',
+                'issueCommentsCount', 'reviewThreadsCount', 'interactionsCount', 'finalReviewState'
+            ]:
+                if opt not in df.columns:
+                    # Fill defaults for backward compatibility
+                    if opt == 'merged':
+                        df[opt] = False
+                    elif opt == 'finalReviewState':
+                        df[opt] = 'NONE'
+                    else:
+                        df[opt] = 0
+
+            # Compute derived columns
+            df['pr_size'] = pd.to_numeric(df['additions'], errors='coerce').fillna(0) + \
+                            pd.to_numeric(df['deletions'], errors='coerce').fillna(0)
+            df['desc_len'] = pd.to_numeric(df['bodyLength'], errors='coerce').fillna(0)
+            df['interactions'] = pd.to_numeric(df['interactionsCount'], errors='coerce').fillna(0)
+
+            # Aggregate per repository
             stats = {'repository': repo_name, 'total_prs': len(df)}
-            
+
             stats.update(calculate_statistics(df['reviewsCount'], 'reviews'))
             stats.update(calculate_statistics(df['hoursOpen'], 'hours_open'))
-            
+            stats.update(calculate_statistics(df['pr_size'], 'pr_size'))
+            stats.update(calculate_statistics(df['desc_len'], 'desc_len'))
+            stats.update(calculate_statistics(df['interactions'], 'interactions'))
+
+            # Rates: merge_rate and approved_rate
+            merged_rate = float((df['merged'] == True).mean()) if len(df) else np.nan
+            approved_rate = float((df['finalReviewState'].astype(str) == 'APPROVED').mean()) if len(df) else np.nan
+            stats['merge_rate'] = merged_rate
+            stats['approved_rate'] = approved_rate
+
             results.append(stats)
-            
+
         except Exception as e:
             print(f"  ❌ Erro ao processar {filename}: {str(e)}")
             continue
@@ -169,6 +196,16 @@ def main():
 
     hours_columns = [col for col in summary_df.columns if col.startswith('hours_open_')]
     column_order.extend(sorted(hours_columns))
+
+    # New groups
+    pr_size_cols = [c for c in summary_df.columns if c.startswith('pr_size_')]
+    desc_len_cols = [c for c in summary_df.columns if c.startswith('desc_len_')]
+    interactions_cols = [c for c in summary_df.columns if c.startswith('interactions_')]
+    aux_cols = [c for c in ['merge_rate', 'approved_rate'] if c in summary_df.columns]
+    column_order.extend(sorted(pr_size_cols))
+    column_order.extend(sorted(desc_len_cols))
+    column_order.extend(sorted(interactions_cols))
+    column_order.extend(aux_cols)
     
 
     summary_df = summary_df[column_order]
