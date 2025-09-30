@@ -1,0 +1,1720 @@
+number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen
+5,Release `unionpd` static binary and docker image (closes #4),cor,2023-05-17T12:16:19Z,2023-05-17T19:28:11+00:00,2,7.2
+8,feat(devnet): ensure eth execution layer is auto-mining,hussein-aitlahcen,2023-05-17T13:02:00Z,2023-05-17T17:09:17+00:00,8,4.12
+9,refactor: move cargo workspace to root of repo,benluelo,2023-05-17T13:18:25Z,2023-05-18T16:01:23+00:00,9,26.72
+11,ci: add prettier,KaiserKarel,2023-05-17T16:12:28Z,2023-05-17T19:19:46+00:00,4,3.12
+16,ci: enable unionvisor-tests,KaiserKarel,2023-05-17T19:00:13Z,2023-05-18T14:00:15+00:00,3,19.0
+27,Unionvisor systemd NixOS module and  `Bundle` system refactor (closes #21) ,cor,2023-05-18T16:54:48Z,2023-05-23T20:32:38+00:00,11,123.63
+28,feat(devnet): deterministically generate app-keys,PoisonPhang,2023-05-18T20:05:21Z,2023-05-19T12:06:09+00:00,3,16.01
+49,"testnet verifier, improved zk prover",hussein-aitlahcen,2023-05-19T16:25:43Z,2023-05-19T18:45:41+00:00,7,2.33
+51,ci(docs): add flow building the docs,KaiserKarel,2023-05-19T16:51:37Z,2023-05-19T19:05:53+00:00,4,2.24
+53,docs(uniond): update README.md,KaiserKarel,2023-05-19T19:25:01Z,2023-05-22T14:33:44+00:00,7,67.15
+54,docs: update main README.md,KaiserKarel,2023-05-19T20:33:52Z,2023-05-22T15:47:35+00:00,11,67.23
+56,fix(docs): fix sidebar.js to render multiple items,KaiserKarel,2023-05-19T21:08:21Z,2023-05-19T23:16:03+00:00,2,2.13
+63,chore: remove buf based code generation for uniond,PoisonPhang,2023-05-20T01:19:28Z,2023-05-21T23:01:22+00:00,8,45.7
+69,add relayer,benluelo,2023-05-20T16:13:16Z,2023-05-23T00:47:29+00:00,13,56.57
+71,docs: restructure guides,KaiserKarel,2023-05-20T21:48:23Z,2023-05-22T14:34:02+00:00,7,40.76
+76,feat: generate IBCHandler contract interface crate,benluelo,2023-05-21T19:23:50Z,2023-06-02T12:28:10+00:00,2,281.07
+78,ci: only display a preview url if docs changed,KaiserKarel,2023-05-21T23:35:28Z,2023-05-22T12:47:33+00:00,3,13.2
+84,feat(CI): reduce tags pushed to ghcr,PoisonPhang,2023-05-22T20:54:24Z,2023-05-23T21:34:36+00:00,3,24.67
+85,docs: populate cometbls.md,KaiserKarel,2023-05-22T21:27:24Z,2023-05-23T20:42:33+00:00,4,23.25
+88,Add ethereum-verifier,aeryz,2023-05-23T19:21:04Z,2023-05-30T13:17:04+00:00,5,161.93
+89,refactor!: refactor repository structure,benluelo,2023-05-24T09:40:57Z,2023-05-24T13:58:28+00:00,2,4.29
+92,fix: ensure no invalid opcodes in wasm light client binary,benluelo,2023-05-24T22:40:33Z,2023-05-26T10:56:04+00:00,6,36.26
+97,docs(nixos): add guide for nixos-validators,KaiserKarel,2023-05-26T13:26:02Z,2023-06-04T18:40:33+00:00,5,221.24
+98,feat(bundle): new bundle-testnet with only v0.6.0 (closes #96),cor,2023-05-26T13:35:54Z,2023-06-01T09:31:25+00:00,2,139.93
+106,docs(readme): add docs badge,KaiserKarel,2023-06-01T19:10:01Z,2023-06-02T09:13:46+00:00,3,14.06
+116,Introduce chained membership verification,hussein-aitlahcen,2023-06-03T09:19:44Z,2023-06-04T10:50:36+00:00,1,25.51
+119,Add more mermaid diagrams (closes #118),cor,2023-06-04T14:04:04Z,2023-06-04T20:46:58+00:00,1,6.71
+125,feat: add relayer/architecture.md,benluelo,2023-06-05T00:37:22Z,2023-06-05T07:31:23+00:00,1,6.9
+126,Use a generator to generate all caps files (closes #114),KaiserKarel,2023-06-05T00:49:29Z,2023-06-05T17:58:33+00:00,2,17.15
+128,"feat(ethereum-verifier): introduce account state verification (closes #99, #127)",aeryz,2023-06-05T05:48:35Z,2023-06-12T11:53:41+00:00,1,174.09
+131,Add ARCHITECTURE.md for `galois` (closes #122),cor,2023-06-05T08:51:21Z,2023-06-05T12:02:20+00:00,1,3.18
+137,feat(uniond): add wasmd,aeryz,2023-06-05T13:46:10Z,2023-06-06T07:59:41+00:00,1,18.23
+139,Add title to README.md (closes #138),cor,2023-06-05T14:02:52Z,2023-06-06T12:12:27+00:00,1,22.16
+140,chore: ignore vendor and generated files in linguist,KaiserKarel,2023-06-06T02:10:15Z,2023-06-06T15:14:15+00:00,1,13.07
+143,docs(galois): add README.md to galoisd,KaiserKarel,2023-06-06T02:48:20Z,2023-06-06T20:32:45+00:00,1,17.74
+147,feat(ics20): introduce emulated ICS20 via custom CW20-ICS20 contract,hussein-aitlahcen,2023-06-06T08:38:38Z,2023-06-06T09:54:36+00:00,1,1.27
+154,Use compatible wasmvm/wasmd and report gas usage for EVM contracts,hussein-aitlahcen,2023-06-06T10:50:12Z,2023-06-06T11:52:57+00:00,3,1.05
+162,Upgrade cometBLS (closes #161),cor,2023-06-06T20:16:41Z,2023-06-06T23:57:17+00:00,2,3.68
+164,ci: add buildWasmContract.nix,KaiserKarel,2023-06-06T22:07:44Z,2023-06-06T23:22:59+00:00,2,1.25
+165,ci: add treefmt and sort to tools,KaiserKarel,2023-06-07T00:23:40Z,2023-06-07T12:04:33+00:00,2,11.68
+168,feat(devnet): add `cw20-ics20` to genesis,aeryz,2023-06-07T10:47:32Z,2023-06-07T13:16:28+00:00,1,2.48
+172,docs(galois): add galois to architecture,KaiserKarel,2023-06-07T14:13:05Z,2023-06-07T22:54:45+00:00,3,8.69
+174,Expose `docs-dev-server` on network (closes #173),cor,2023-06-07T15:37:04Z,2023-06-09T08:24:14+00:00,3,40.79
+175,fix(devnet): broken ref,aeryz,2023-06-07T15:54:03Z,2023-06-07T18:53:25+00:00,2,2.99
+181,feat(CI): use regctl to annotate descriptions for uniond/unionpd,PoisonPhang,2023-06-07T21:03:19Z,2023-06-07T23:56:57+00:00,2,2.89
+183,docs(research): add consensus-verification,KaiserKarel,2023-06-07T23:23:20Z,2023-06-08T12:25:31+00:00,2,13.04
+192,ci: switch to fork of treefmt,KaiserKarel,2023-06-08T12:39:38Z,2023-06-08T15:03:32+00:00,1,2.4
+196,relayer improvements and refactor,benluelo,2023-06-08T14:45:56Z,2023-06-19T18:07:47+00:00,16,267.36
+199,ci(spellcheck): make case insensitive,KaiserKarel,2023-06-08T15:22:15Z,2023-06-08T17:06:43+00:00,1,1.74
+202,chore: remove testnet-validator.nix,KaiserKarel,2023-06-08T17:16:08Z,2023-06-15T11:57:31+00:00,1,162.69
+206,ci: add testkvm,KaiserKarel,2023-06-09T10:33:02Z,2023-06-14T16:18:40+00:00,6,125.76
+210,Build bundles in CI (closes #209),cor,2023-06-09T13:17:56Z,2023-08-09T11:57:47+00:00,6,1462.66
+213,docs: populate intro,KaiserKarel,2023-06-09T14:32:39Z,2023-06-09T19:13:13+00:00,1,4.68
+223,docs: added document for conducting upgrades,PoisonPhang,2023-06-09T17:18:17Z,2023-06-12T20:43:01+00:00,4,75.41
+225,Fix unionvisor watching the incorrect path for `upgrade-info.json` (closes #224),cor,2023-06-09T20:31:20Z,2023-06-09T21:56:14+00:00,3,1.42
+229,Complete membership verification implementation in wasm light client (closes #1),aeryz,2023-06-10T11:32:44Z,2023-06-17T07:05:55+00:00,22,163.55
+239,fix(CI): use git-cliff to generate release notes,PoisonPhang,2023-06-12T21:51:35Z,2023-06-14T13:46:22+00:00,3,39.91
+247,Add `extra-substituters` to the flake (closes #246),cor,2023-06-13T14:33:51Z,2023-06-13T22:13:38+00:00,1,7.66
+251,chore: remove debug commands from release workflow,PoisonPhang,2023-06-13T16:27:09Z,2023-06-14T18:55:14+00:00,2,26.47
+253,feat(uniond): custom cometbls client keeper,hussein-aitlahcen,2023-06-13T17:12:39Z,2023-06-13T18:18:31+00:00,1,1.1
+260,docs(intro): fix spelling,KaiserKarel,2023-06-15T14:39:40Z,2023-06-15T20:04:17+00:00,1,5.41
+266,chore(protobuf): move protobuf sources to flake inputs,PoisonPhang,2023-06-15T19:37:45Z,2023-06-15T20:52:01+00:00,4,1.24
+267,Add update cases for next sync committee (closes 259),aeryz,2023-06-16T11:28:25Z,2023-06-16T12:56:11+00:00,4,1.46
+270,Use `Cometbls` consensus state in `GetSelfConsensusState`,aeryz,2023-06-16T20:21:24Z,2023-06-26T18:37:03+00:00,2,238.26
+272,fix(galois): edge case for g2 addition,hussein-aitlahcen,2023-06-17T15:07:42Z,2023-06-17T16:12:51+00:00,3,1.09
+290,Connect to Sepolia,benluelo,2023-06-20T21:55:47Z,2023-06-26T18:11:26+00:00,1,140.26
+292,Refactor common types into lib/ibc-types crate,benluelo,2023-06-22T03:02:28Z,2023-06-22T12:58:44+00:00,2,9.94
+296,feat(galois): introduce `query-stats`,hussein-aitlahcen,2023-06-22T18:14:23Z,2023-06-22T21:31:55+00:00,1,3.29
+298,chore: move gnark/gnark-crypto under unionfi,hussein-aitlahcen,2023-06-23T10:50:56Z,2023-06-23T12:08:31+00:00,2,1.29
+300,feat(nix): refactor crane and rust,benluelo,2023-06-25T17:23:24Z,2023-08-22T20:15:02+00:00,6,1394.86
+304,e2e membership verification works,aeryz,2023-06-26T20:58:50Z,2023-06-27T17:37:46+00:00,11,20.65
+310,feat(evm): enable membership verification,hussein-aitlahcen,2023-06-27T14:20:03Z,2023-07-05T10:50:43+00:00,6,188.51
+312,Rename to `unionlabs` (closes #311),cor,2023-06-27T15:50:43Z,2023-06-27T22:10:21+00:00,2,6.33
+325,docs: add ibc.md,KaiserKarel,2023-06-30T11:44:39Z,2023-07-06T12:51:44+00:00,1,145.12
+327,Genesis for `union-testnet-3` (closes #326),cor,2023-06-30T16:02:21Z,2023-07-10T15:06:02+00:00,12,239.06
+329,Fix ethereum lc tests (closes #315),aeryz,2023-07-03T05:16:06Z,2023-07-07T13:36:46+00:00,1,104.34
+332,return beacon height in `query_client_state`,aeryz,2023-07-03T12:58:50Z,2023-07-04T06:48:45+00:00,1,17.83
+333,Optimize evm counterparty update,aeryz,2023-07-04T07:00:19Z,2023-07-07T11:57:22+00:00,4,76.95
+338,refactor!: don't redefine types in multiple crates,benluelo,2023-07-06T06:01:31Z,2023-07-09T21:16:29+00:00,2,87.25
+340,Introduce ping pong protocol example,hussein-aitlahcen,2023-07-06T13:44:27Z,2023-07-06T16:22:59+00:00,3,2.64
+343,ci: added nightly workflow,PoisonPhang,2023-07-06T14:01:51Z,2023-07-10T15:06:18+00:00,4,97.07
+347,Relay packets both ways,aeryz,2023-07-07T13:47:28Z,2023-07-12T15:40:46+00:00,10,121.89
+352,Ethereum verifier tests (closes #240),aeryz,2023-07-11T09:22:03Z,2023-07-13T09:48:49+00:00,8,48.45
+358,test suite for yui-ibc contracts,naps62,2023-07-11T19:39:06Z,2023-08-24T10:49:24+00:00,9,1047.17
+360,Add rustfmt.toml,benluelo,2023-07-12T05:28:16Z,2023-07-12T16:17:51+00:00,3,10.83
+364,Refactor proof commitments,benluelo,2023-07-14T08:01:31Z,2023-07-19T14:26:30+00:00,3,126.42
+368,more descriptive errors in ethereum-lc (closes #243),aeryz,2023-07-17T08:55:12Z,2023-09-13T09:53:11+00:00,2,1392.97
+371,docs: add concepts/permissionless-vs-trustless,KaiserKarel,2023-07-17T16:11:04Z,2023-07-20T10:50:23+00:00,3,66.66
+372,feat(ethereum-lc): implement status query (closes #145),aeryz,2023-07-19T07:23:05Z,2023-07-19T12:01:13+00:00,1,4.64
+373,chore(ethereum-verifier): add nix derivation,aeryz,2023-07-19T08:11:35Z,2023-07-19T13:31:47+00:00,2,5.34
+374,feat: add basic e2e test to ensure block production on both chains,benluelo,2023-07-19T13:04:42Z,2023-08-07T15:35:47+00:00,9,458.52
+379,docs: make images and diagrams darkmode friendly,KaiserKarel,2023-07-20T11:39:55Z,2023-07-25T14:11:25+00:00,1,122.53
+380,add bls tests (closes #357),aeryz,2023-07-24T09:32:36Z,2023-07-27T11:08:12+00:00,2,73.59
+384,Improve relayer cli,benluelo,2023-07-26T16:57:12Z,2023-07-28T15:53:47+00:00,5,46.94
+393,evm: include forge coverage report,hussein-aitlahcen,2023-07-28T11:21:30Z,2023-07-28T12:36:06+00:00,1,1.24
+404,ci: update release pipeline unionpd to galoisd ,PoisonPhang,2023-07-31T15:02:31Z,2023-07-31T16:08:17+00:00,1,1.1
+406,fix: nightly workflow creates issue on failure,PoisonPhang,2023-07-31T18:04:19Z,2023-07-31T19:41:50+00:00,1,1.63
+407,feat(devnet): demo setup (closes #386),aeryz,2023-07-31T22:26:38Z,2023-08-04T13:13:04+00:00,3,86.77
+408,"fix: parse U256 from decimal string, not hex",benluelo,2023-07-31T22:49:13Z,2023-08-01T13:13:28+00:00,1,14.4
+414,feat(pingpong): upgrade protocol to correctly handle timeout,hussein-aitlahcen,2023-08-01T10:08:34Z,2023-08-01T12:02:55+00:00,1,1.91
+421,feat(docs): add tutorials/demo-setup (closes #418),aeryz,2023-08-04T15:10:45Z,2023-08-08T09:50:56+00:00,1,90.67
+424,"feat!: add `Proto` trait as supertrait of `{From,TryFrom,Into}Proto`",benluelo,2023-08-04T22:13:33Z,2023-08-05T15:27:05+00:00,1,17.23
+427,feat(ethereum-lc): add preset query (closes #419),aeryz,2023-08-06T15:51:17Z,2023-08-09T13:48:19+00:00,2,69.95
+428,"chore(docs): add handshake, relayer config and ibc config docs",aeryz,2023-08-07T10:39:10Z,2023-08-07T11:45:38+00:00,1,1.11
+430,feat(docs): introduce the build section and solidity sdk/examples,hussein-aitlahcen,2023-08-07T12:31:15Z,2023-08-07T18:03:33+00:00,1,5.54
+433,feat: add e2e slash command and remove kvm tests from build.yml,benluelo,2023-08-07T19:36:42Z,2023-08-08T12:49:10+00:00,2,17.21
+437,fix(docs): fix link to docs in badge,KaiserKarel,2023-08-08T11:40:23Z,2023-08-08T12:46:17+00:00,1,1.1
+440,feat(relayer): dump cosmos commits/zkp,hussein-aitlahcen,2023-08-08T12:30:13Z,2023-08-08T13:32:30+00:00,13,1.04
+441,docs: restructure chapters,KaiserKarel,2023-08-08T15:14:14Z,2023-08-08T17:29:23+00:00,2,2.25
+445,fix: fix ensure-blocks e2e test,benluelo,2023-08-08T19:43:11Z,2023-08-09T09:35:19+00:00,1,13.87
+447,feat: add structs for well-known cosmos ibc events,benluelo,2023-08-08T23:58:32Z,2023-08-10T10:11:11+00:00,7,34.21
+448,feat(relayer): add command to query ibc paths,benluelo,2023-08-09T00:46:50Z,2023-08-09T13:49:26+00:00,3,13.04
+451,ci: move e2e tests to a dedicated action.yml,KaiserKarel,2023-08-09T12:15:14Z,2023-08-09T15:30:54+00:00,4,3.26
+460,fix: nightly workflow runner links and run logic,PoisonPhang,2023-08-09T16:35:13Z,2023-08-09T18:06:01+00:00,1,1.51
+462,feat: e2e tests for epoch staking,PoisonPhang,2023-08-09T20:52:01Z,2023-08-24T13:06:35+00:00,6,352.24
+464,chore: move forks to unionlabs,benluelo,2023-08-10T05:57:23Z,2023-08-10T22:33:08+00:00,4,16.6
+471,ci(e2e): add pull-requests: write,KaiserKarel,2023-08-10T14:18:55Z,2023-08-11T11:43:12+00:00,1,21.4
+472,feat: add grpc_url to union chain config,benluelo,2023-08-10T17:01:56Z,2023-08-10T21:56:12+00:00,3,4.9
+473,Add voyager nixos module,benluelo,2023-08-10T18:00:11Z,2024-07-26T14:27:51+00:00,1,8420.46
+479,ci: use golem-bot for automation,KaiserKarel,2023-08-11T13:04:31Z,2023-08-11T15:10:24+00:00,2,2.1
+481,"Port binding, optional handshakes, customizable versions (closes #488, #474, #490)",benluelo,2023-08-11T13:32:09Z,2023-08-15T17:10:38+00:00,7,99.64
+482,EVM: Dealing with 'Stack too deep' errors,naps62,2023-08-11T14:56:10Z,2024-01-30T13:42:44+00:00,1,4126.78
+484,"feat: more types in unionlabs, fix sign extension checking, and some cleanup",benluelo,2023-08-12T20:53:22Z,2023-08-14T17:11:08+00:00,6,44.3
+486,fix: update ensure-blocks lockfile,benluelo,2023-08-12T23:26:20Z,2023-08-13T13:12:59+00:00,1,13.78
+489,refactor!: rename prover protos to galois,benluelo,2023-08-14T16:18:59Z,2023-08-16T13:09:24+00:00,6,44.84
+491,feat: clean up unionlabs types,benluelo,2023-08-15T16:25:58Z,2023-08-16T12:38:48+00:00,6,20.21
+494,Introduce CometBLS wasm light client,aeryz,2023-08-16T08:12:36Z,2023-08-22T18:30:46+00:00,19,154.3
+496,feat: remove unused generated grpc server stubs,benluelo,2023-08-16T21:48:46Z,2023-08-16T23:51:52+00:00,1,2.05
+501,docs: updated offical docs link in README.md,PoisonPhang,2023-08-17T15:48:06Z,2023-08-17T21:04:56+00:00,6,5.28
+502,feat: more type conversions in unionlabs,benluelo,2023-08-17T21:09:13Z,2023-08-18T01:33:54+00:00,2,4.41
+504,Implement `verify_non_membership` (closes #503),aeryz,2023-08-18T06:19:41Z,2023-08-21T13:36:03+00:00,16,79.27
+505,feat: use proper events in handshake methods,benluelo,2023-08-18T06:35:26Z,2023-08-18T16:30:42+00:00,3,9.92
+507,Implement `VerifyClientMessage` (closes #506),aeryz,2023-08-18T08:23:01Z,2023-08-22T18:31:27+00:00,1,106.14
+508,Add `chain_id` to `ClientState` (closes #498),aeryz,2023-08-18T13:03:19Z,2023-08-22T10:19:39+00:00,2,93.27
+517,feat: update Duration and Timestamp to match proto specs,benluelo,2023-08-23T05:05:47Z,2023-08-25T17:03:12+00:00,3,59.96
+520,Rename setup-demo to e2e-setup (fixes #519),cor,2023-08-23T12:13:55Z,2023-08-24T09:43:47+00:00,2,21.5
+522,521 devnet ibc handler is now too big to be deployed,hussein-aitlahcen,2023-08-23T13:45:42Z,2023-08-23T16:23:53+00:00,3,2.64
+524,fix: install contracts properly,benluelo,2023-08-23T14:25:56Z,2023-08-23T15:45:06+00:00,5,1.32
+533,docs: update val getting started for union-testnet-3,PoisonPhang,2023-08-24T14:48:58Z,2023-08-28T12:54:53+00:00,7,94.1
+548,ci: cleaned up jq filter,PoisonPhang,2023-08-24T21:11:15Z,2023-08-25T14:58:53+00:00,5,17.79
+551,evm: allow for arbitrary revision number on client creation & allow for different conf for devnet/e2e,hussein-aitlahcen,2023-08-25T10:53:51Z,2023-08-25T14:39:29+00:00,2,3.76
+553,feat(ci): pruned builds filter,PoisonPhang,2023-08-25T16:29:27Z,2023-08-28T10:08:09+00:00,1,65.64
+554,feat!: rename relayer to voyager,benluelo,2023-08-25T17:01:07Z,2023-08-25T18:14:28+00:00,2,1.22
+556,upgrade rust version,benluelo,2023-08-26T19:27:14Z,2023-08-26T21:30:07+00:00,2,2.05
+567,feat: add hubble,KaiserKarel,2023-08-29T12:42:27Z,2023-08-30T11:50:56+00:00,6,23.14
+568,Optimize cometbls verifier,hussein-aitlahcen,2023-08-29T14:16:37Z,2023-08-29T16:44:33+00:00,1,2.47
+569,feat: run fmt and spell checks first,PoisonPhang,2023-08-29T15:59:51Z,2023-08-29T17:25:48+00:00,2,1.43
+578,fix: query the union node for blocks,PoisonPhang,2023-08-29T20:35:49Z,2023-08-30T01:17:09+00:00,1,4.69
+580,fix(cometbls-verifier): avoid panicking if the proof is too short,hussein-aitlahcen,2023-08-30T10:04:43Z,2023-08-30T18:14:15+00:00,4,8.16
+581,implement `ics008-wasm-client` library (closes #515),aeryz,2023-08-30T12:58:44Z,2023-09-04T08:39:09+00:00,20,115.67
+587,feat: upgrade wasm/libwasmvm/bls-eth to 0.41.0/1.3.0/1.32.0,hussein-aitlahcen,2023-08-30T20:22:32Z,2023-08-31T06:40:13+00:00,4,10.29
+590,introduce token factory,hussein-aitlahcen,2023-08-31T11:12:02Z,2023-09-01T13:40:47+00:00,3,26.48
+594,ci(hubble): add hubble-image,KaiserKarel,2023-08-31T13:28:17Z,2023-08-31T20:19:22+00:00,3,6.85
+599,ci: build bundles,cor,2023-08-31T14:50:32Z,2023-08-31T20:51:29+00:00,1,6.02
+610,v0.11.0 upgrade handler,hussein-aitlahcen,2023-09-01T14:45:57Z,2023-09-01T20:49:54+00:00,5,6.07
+611,fix: update tendermint-rs rev in Cargo.lock,benluelo,2023-09-01T16:00:17Z,2023-09-01T17:28:46+00:00,1,1.47
+613,feat(hubble): add indexing to devnets,KaiserKarel,2023-09-02T14:24:41Z,2023-09-03T09:35:04+00:00,1,19.17
+615,fix(voyager): use heights correctly,aeryz,2023-09-02T19:16:30Z,2023-09-02T20:53:37+00:00,4,1.62
+625,fix(libwasmvm): incorrect use of `installPhase` blowing nix closure,hussein-aitlahcen,2023-09-04T16:16:55Z,2023-09-04T17:48:35+00:00,1,1.53
+627,feat(e2e-setup): print sample commands and home dir,aeryz,2023-09-05T07:00:40Z,2023-09-05T08:32:32+00:00,1,1.53
+630,Add `nix-tree` to devShell (closes #629),cor,2023-09-05T10:36:55Z,2023-09-05T15:11:33+00:00,5,4.58
+634,feat(ucs01-relay): initial implementation,hussein-aitlahcen,2023-09-05T17:09:43Z,2023-09-07T16:49:53+00:00,16,47.67
+635,Use a message-based system for voyager,benluelo,2023-09-06T05:00:26Z,2023-09-30T20:37:18+00:00,15,591.61
+641,Use .1 versions in bundle-testnet (closes #640),cor,2023-09-06T14:48:20Z,2023-09-06T17:41:56+00:00,2,2.89
+647,Implement misbehaviour check on header for ethereum light client,aeryz,2023-09-07T06:47:38Z,2023-09-08T16:14:27+00:00,5,33.45
+661,Create `tdc` CLI for creating TODO comments linked to issues,cor,2023-09-07T19:42:19Z,2023-09-08T08:39:55+00:00,1,12.96
+662,feat: framework for e2e testing upgrades,PoisonPhang,2023-09-07T20:51:58Z,2023-09-08T13:26:07+00:00,1,16.57
+671,Remove ICS20 from e2e-setup and Voyager,cor,2023-09-09T22:05:25Z,2023-09-09T23:07:36+00:00,1,1.04
+677,Ethereum light client improvements,aeryz,2023-09-11T07:56:06Z,2023-09-14T07:16:31+00:00,3,71.34
+678,faster nix,hussein-aitlahcen,2023-09-11T12:21:41Z,2023-09-11T19:03:40+00:00,6,6.7
+679,evm: initial implementation of the ucs01 relay protocol,hussein-aitlahcen,2023-09-11T12:24:10Z,2023-09-12T12:31:27+00:00,5,24.12
+681,feat(hubble): error on stalled node,KaiserKarel,2023-09-12T11:17:09Z,2023-09-13T09:47:23+00:00,3,22.5
+689,chore: update cosmos-sdk to v0.47.5,PoisonPhang,2023-09-12T19:39:49Z,2023-09-13T13:38:42+00:00,1,17.98
+692,feat(hubble): add fast-sync for tendermint,KaiserKarel,2023-09-13T14:17:45Z,2023-09-14T10:09:56+00:00,3,19.87
+694,feat(uniond): added v0.12.0 migration,PoisonPhang,2023-09-13T14:24:43Z,2023-09-13T17:27:43+00:00,1,3.05
+698,fix(ci): update workflows ref in e2e and release,PoisonPhang,2023-09-13T20:37:08Z,2023-09-13T21:51:36+00:00,1,1.24
+702,ibc evm implement non membership verification,hussein-aitlahcen,2023-09-14T10:05:11Z,2023-09-14T11:16:07+00:00,2,1.18
+704,fix(devnet): temporarily remove hubble,KaiserKarel,2023-09-14T13:02:32Z,2023-09-14T14:26:53+00:00,1,1.41
+706,feat(hubble): index tendermint headers and consensus changes,KaiserKarel,2023-09-14T15:45:21Z,2023-09-15T10:39:30+00:00,3,18.9
+711,feat(hubble): add prometheus metrics,KaiserKarel,2023-09-15T11:17:38Z,2023-09-15T15:50:30+00:00,2,4.55
+712,evm: implement ibc packet timeout,hussein-aitlahcen,2023-09-15T12:23:48Z,2023-09-15T13:58:17+00:00,6,1.57
+716,feat(uniond): added snapshot subcommand,PoisonPhang,2023-09-18T19:20:33Z,2023-09-18T21:50:56+00:00,2,2.51
+719,fix(ci): version regex includes multicharacter numbers,PoisonPhang,2023-09-19T16:29:13Z,2023-09-21T17:37:11+00:00,8,49.13
+721,chore(ci): update unionlabs/workflows ref,PoisonPhang,2023-09-20T21:06:35Z,2023-09-21T17:07:09+00:00,3,20.01
+729,Improve unionvisor errors and logging,cor,2023-09-21T20:57:28Z,2023-10-20T08:14:21+00:00,1,683.28
+733,fix(hubble): do not discard hasura errors,KaiserKarel,2023-09-22T13:02:46Z,2023-09-25T21:30:35+00:00,3,80.46
+740,docs: minor tweaks and fixes,PoisonPhang,2023-09-25T20:28:20Z,2023-09-25T23:57:02+00:00,1,3.48
+745,docs: update galois architecture docs,PoisonPhang,2023-09-26T18:19:38Z,2023-09-27T10:42:21+00:00,3,16.38
+746,Add site and blog,cor,2023-09-26T22:44:23Z,2023-09-27T18:57:57+00:00,1,20.23
+748,Add pingpong demo to blog (closes #747),cor,2023-09-27T19:07:06Z,2023-09-28T14:53:41+00:00,1,19.78
+749,docs: moved tutorials up and removed sdk from docs,PoisonPhang,2023-09-27T19:57:18Z,2023-09-28T14:34:34+00:00,1,18.62
+755,ci: combine build and test phase,PoisonPhang,2023-09-28T16:35:59Z,2023-09-28T19:29:45+00:00,1,2.9
+760,feat(faucet): add nixos module,KaiserKarel,2023-09-29T12:44:09Z,2023-09-29T15:21:56+00:00,1,2.63
+762,Add token transfer demo to blog,cor,2023-09-30T14:00:45Z,2023-10-18T22:48:11+00:00,1,440.79
+767,feat(tools): add iaviewer,KaiserKarel,2023-10-02T20:10:55Z,2023-10-03T09:49:59+00:00,1,13.65
+773,feat(voyager): handle trivial validator set drift,hussein-aitlahcen,2023-10-08T10:22:13Z,2023-10-09T14:16:35+00:00,2,27.91
+776,even more stuff for voyager,benluelo,2023-10-09T11:27:05Z,2023-10-09T14:49:15+00:00,2,3.37
+777,feat(pg-queue): add pg-queue,KaiserKarel,2023-10-09T12:43:58Z,2023-10-09T16:05:03+00:00,2,3.35
+779,fix(pgqueue): regenerate schema,KaiserKarel,2023-10-09T16:31:38Z,2023-10-09T18:16:45+00:00,1,1.75
+781,cometbls - upgrade protos & use untrusted validator hash from the signed header,hussein-aitlahcen,2023-10-09T17:51:19Z,2023-10-09T19:22:41+00:00,3,1.52
+782,Voyager persistent queue,benluelo,2023-10-10T10:45:06Z,2023-10-10T13:20:29+00:00,4,2.59
+784,galois - more tests and comments,hussein-aitlahcen,2023-10-10T11:33:49Z,2023-10-10T12:48:32+00:00,5,1.25
+788,feat(voyager): clean up the cli arguments,benluelo,2023-10-10T16:47:56Z,2023-10-11T10:08:07+00:00,1,17.34
+789,feat(ci): copy artifacts to GCP,PoisonPhang,2023-10-10T17:04:10Z,2023-10-11T13:19:39+00:00,1,20.26
+791,feat: scaffold top-level errors,benluelo,2023-10-11T15:00:35Z,2023-10-11T16:08:53+00:00,1,1.14
+793,galois v2: mimc based validator set root and circuit,hussein-aitlahcen,2023-10-11T20:25:29Z,2023-11-02T11:49:02+00:00,3,519.39
+794,feat(hubble): switch to timescaledb,KaiserKarel,2023-10-12T11:23:08Z,2023-10-12T13:50:09+00:00,7,2.45
+795,More things,benluelo,2023-10-12T12:19:22Z,2023-10-12T19:27:51+00:00,3,7.14
+798,docs(galosid): verification -> proof generation,cor,2023-10-12T18:25:43Z,2023-10-13T09:21:45+00:00,1,14.93
+799,feat(voyager): consume messages concurrently ,benluelo,2023-10-12T19:23:45Z,2023-10-15T16:09:58+00:00,2,68.77
+801,Zerg: You have never experienced this amount of stress before,aeryz,2023-10-13T07:36:30Z,2023-12-01T14:21:06+00:00,32,1182.74
+804,fix(ucs01): evm: check token channel origin before burning,hussein-aitlahcen,2023-10-13T08:12:20Z,2023-10-13T09:31:15+00:00,3,1.32
+808,feat(hubble): index tendermint events by tx hash,KaiserKarel,2023-10-15T18:45:06Z,2023-10-18T12:58:58+00:00,1,66.23
+809,Update ethers abigen,benluelo,2023-10-15T20:22:28Z,2023-10-16T10:31:21+00:00,1,14.15
+810,Workspace deps,benluelo,2023-10-15T20:55:46Z,2023-10-16T15:02:10+00:00,4,18.11
+811,feat: add ProveResponse to unionlabs,benluelo,2023-10-16T00:55:20Z,2023-10-16T15:22:34+00:00,2,14.45
+814,feat(ucs01): evm: split code and create tests,hussein-aitlahcen,2023-10-16T20:00:49Z,2023-10-16T21:53:25+00:00,6,1.88
+818,fix(voyager): use rustls in sqlx,benluelo,2023-10-17T09:50:11Z,2023-10-17T11:06:40+00:00,2,1.27
+819,feat(voyager): refactor msg construction and fix tm error types ,benluelo,2023-10-17T10:28:55Z,2023-10-17T18:02:55+00:00,1,7.57
+820,fix(serde-utils): decode empty hex properly,benluelo,2023-10-17T11:08:06Z,2023-10-17T12:14:06+00:00,3,1.1
+821,fix(evm): avoid public functions in libraries,hussein-aitlahcen,2023-10-17T12:37:10Z,2023-10-17T13:39:13+00:00,1,1.03
+822,fix(voyager): /!\ hack beacon head for alchemy delay,hussein-aitlahcen,2023-10-17T16:23:53Z,2023-10-18T09:01:34+00:00,3,16.63
+825,galois: ensure only one proof can be generated at a time,hussein-aitlahcen,2023-10-18T09:21:32Z,2023-10-18T15:16:35+00:00,1,5.92
+826,fix(ucs01): remove tokenfactory extra (incorrect) wrapping layer,hussein-aitlahcen,2023-10-18T09:22:00Z,2023-10-20T12:16:54+00:00,3,50.91
+827,feat(hubble): read admin secret from file,KaiserKarel,2023-10-18T14:18:19Z,2023-10-19T13:18:06+00:00,3,23.0
+830,feat(voyager): introduce `DeferFor` and `Repeat`,hussein-aitlahcen,2023-10-19T11:46:43Z,2023-10-19T13:06:32+00:00,7,1.33
+832,feat(voyager): more robust inclusion check,hussein-aitlahcen,2023-10-19T15:11:47Z,2023-10-19T16:25:37+00:00,1,1.23
+834,feat(voyager): refactor message types,benluelo,2023-10-19T18:05:21Z,2023-10-20T17:01:14+00:00,1,22.93
+835,feat(site): track sepolia UNO,KaiserKarel,2023-10-19T22:17:32Z,2023-10-25T13:20:20+00:00,2,135.05
+836,feat(voyager): jemalloc and more robust failure handling,benluelo,2023-10-19T22:59:13Z,2023-10-23T15:50:54+00:00,3,88.86
+841,fix(ucs01): batch sub-messages (closes #840),aeryz,2023-10-21T08:57:16Z,2023-10-23T08:35:22+00:00,2,47.63
+843,feat(voyager): split the LightClient trait into two,benluelo,2023-10-22T22:18:38Z,2023-10-23T10:37:26+00:00,1,12.31
+845,"Use Binary addresses in `ucs01`, Introduce `ucli`",aeryz,2023-10-23T08:45:19Z,2023-10-31T10:56:07+00:00,6,194.18
+848,feat(voyager): completely configurable pg queue db,hussein-aitlahcen,2023-10-23T18:18:43Z,2023-10-23T19:37:14+00:00,1,1.31
+851,feat(site): finalize copy of ics20-transfers,KaiserKarel,2023-10-24T11:00:57Z,2023-10-24T16:06:18+00:00,1,5.09
+852,fix(site): swap rpc,cor,2023-10-24T11:28:41Z,2023-10-24T16:03:11+00:00,3,4.58
+853,docs: create on boarding docs for testnet validators,PoisonPhang,2023-10-24T11:42:19Z,2023-11-08T18:58:13+00:00,14,367.26
+855,feat(voyager): gracefully shutdown on error,benluelo,2023-10-25T09:59:18Z,2023-10-31T14:00:09+00:00,4,148.01
+857,fix(hubble): escape \u0000,KaiserKarel,2023-10-25T14:06:19Z,2023-11-09T17:14:28+00:00,1,363.14
+865,feat(voyager): use PortId instead of String,benluelo,2023-10-28T22:07:28Z,2023-10-31T16:32:18+00:00,3,66.41
+868,fix: fix nightly tests,benluelo,2023-10-29T15:33:32Z,2023-11-01T23:18:52+00:00,1,79.76
+870,Remove ifd,benluelo,2023-10-30T14:57:38Z,2023-10-31T00:05:44+00:00,2,9.13
+874,feat(uniond): make bin available through path,KaiserKarel,2023-11-01T16:41:02Z,2023-11-09T20:27:24+00:00,1,195.77
+875,feat(voyager): fetch state proof in queue,benluelo,2023-11-01T18:55:18Z,2023-11-01T21:52:42+00:00,2,2.96
+878,chore: cleanup,benluelo,2023-11-02T00:00:44Z,2023-11-02T09:09:02+00:00,1,9.14
+881,uniond - add ibc wasm snapshotter,hussein-aitlahcen,2023-11-02T14:18:57Z,2023-11-03T10:43:57+00:00,2,20.42
+882,Fix ethereum light client tests (closes #632),aeryz,2023-11-02T15:41:48Z,2023-11-03T11:55:17+00:00,1,20.22
+884,feat(voyager): split messages out into a crate,benluelo,2023-11-03T02:14:59Z,2023-11-03T15:56:28+00:00,2,13.69
+886,Make sure all the errors in `ethereum-lc` and `ethereum-verifier` have very clear context (closes #243),aeryz,2023-11-03T09:15:45Z,2023-11-08T17:16:55+00:00,5,128.02
+895,feat(voyager): use galois poll interface,benluelo,2023-11-03T22:49:36Z,2023-11-04T13:59:02+00:00,2,15.16
+898,feat(voyager): remove top-level Lc variant,benluelo,2023-11-05T17:44:54Z,2023-11-06T10:43:45+00:00,8,16.98
+901,Update rust nightly version,benluelo,2023-11-06T11:02:58Z,2023-11-06T17:42:09+00:00,2,6.65
+904,Tendermint to Union IBC support to `Voyager`,aeryz,2023-11-06T18:44:30Z,2023-12-22T13:57:31+00:00,1,1099.22
+905,Remove ChainSpec hack,benluelo,2023-11-07T01:02:02Z,2023-11-08T14:02:04+00:00,3,37.0
+910,"feat(nix): restart testnet bundle for open testnet, starting at v0.14.0",hussein-aitlahcen,2023-11-07T15:49:43Z,2023-11-07T21:43:28+00:00,1,5.9
+911,feat(testnet-4): introduce genesis,hussein-aitlahcen,2023-11-07T16:39:21Z,2023-11-07T18:34:06+00:00,5,1.91
+912,Add unionvisor to nixos module,benluelo,2023-11-07T20:42:38Z,2023-11-07T22:12:05+00:00,3,1.49
+915,Fix cherry pick v0.14.0,PoisonPhang,2023-11-08T15:37:57Z,2023-11-09T15:40:45+00:00,1,24.05
+916,fix(e2e): remove upgrade from upgrade from genesis as there are none,PoisonPhang,2023-11-08T21:16:41Z,2023-11-09T15:40:30+00:00,2,18.4
+922,Unionvisor fixes,KaiserKarel,2023-11-09T20:39:34Z,2023-11-10T08:12:07+00:00,1,11.54
+923,feat: ethers-core wasm and clean up types in ethereum-* crates,benluelo,2023-11-10T01:48:59Z,2023-11-10T10:51:03+00:00,5,9.03
+926,fix(unionvisor): set HOME,KaiserKarel,2023-11-10T13:05:12Z,2023-11-10T14:46:44+00:00,1,1.69
+927,feat(hubble): add sqlx datastore,KaiserKarel,2023-11-10T13:12:53Z,2023-11-15T13:33:23+00:00,8,120.34
+930,Preliminary work on optimization,hussein-aitlahcen,2023-11-14T14:16:23Z,2023-11-17T14:56:35+00:00,1,72.67
+934,replace `derive_more` with `parse_display` (closes #933) ,aeryz,2023-11-14T17:55:29Z,2023-11-14T19:27:10+00:00,1,1.53
+939,docs: use public link to `uniond` on the ghcr,PoisonPhang,2023-11-14T21:56:01Z,2023-11-15T14:04:44+00:00,1,16.15
+944,docs: endpoint docs and update faq,PoisonPhang,2023-11-15T20:05:02Z,2023-11-20T17:09:03+00:00,15,117.07
+946,Check if the contract address in the account proof is the one in the client state (closes #935),aeryz,2023-11-17T15:09:16Z,2023-11-17T19:33:21+00:00,2,4.4
+952,Testing CodeRabbit,KaiserKarel,2023-11-18T11:45:02Z,2023-11-29T14:17:11+00:00,1,266.54
+954,Rename `evm` and `cosmos` (closes #621),aeryz,2023-11-19T15:04:24Z,2023-11-30T16:48:08+00:00,5,265.73
+957,docs: update color-scheme,PoisonPhang,2023-11-20T17:07:44Z,2023-11-21T21:40:48+00:00,2,28.55
+958,fix(e2e): add required ethers flags,PoisonPhang,2023-11-20T18:22:18Z,2023-11-22T13:47:19+00:00,1,43.42
+966,feat(bundle-testnet): add v0.15.0,cor,2023-11-22T15:13:19Z,2023-11-22T16:30:40+00:00,6,1.29
+967,Refactor voyager to be generic over chains,benluelo,2023-11-22T16:27:57Z,2023-12-11T20:50:40+00:00,4,460.38
+972,feat(uniond): add cosmos-sdk version for the app in release mode,hussein-aitlahcen,2023-11-23T15:44:15Z,2023-11-24T13:31:34+00:00,9,21.79
+975,Upgrade to cosmos sdk 0.50,aeryz,2023-11-24T20:29:23Z,2023-12-09T22:09:56+00:00,3,361.68
+985,feat(ci): updated unionlabs/workflows ref,PoisonPhang,2023-11-27T21:31:45Z,2023-12-13T16:15:54+00:00,1,378.74
+989,docs: added stakeflow to public endpoints page,PoisonPhang,2023-11-28T18:53:20Z,2023-11-29T21:32:58+00:00,1,26.66
+994,feat(unionvisor): create image for bundle-testnet-4,PoisonPhang,2023-11-29T20:22:24Z,2023-11-30T21:07:07+00:00,4,24.75
+996,Use `snowfork`'s `milagro_bls`,aeryz,2023-11-30T09:12:39Z,2023-11-30T14:20:03+00:00,1,5.12
+997,feat(hubble): add eth indexing,KaiserKarel,2023-11-30T16:16:01Z,2024-04-03T09:52:33+00:00,1,2993.61
+1012, optimize membership proof verification cost in evm,hussein-aitlahcen,2023-12-04T17:49:52Z,2023-12-05T15:13:27+00:00,3,21.39
+1017,feat(ts-sdk): create transfers sdk,o-az,2023-12-05T12:02:03Z,2023-12-20T20:44:33+00:00,19,368.71
+1021,docs(nix): add GitHub PAT warning to main README,cor,2023-12-06T12:04:15Z,2023-12-11T15:59:15+00:00,2,123.92
+1025,1002 test v050x upgrade with artificial chain state,PoisonPhang,2023-12-07T23:01:11Z,2023-12-08T08:49:21+00:00,1,9.8
+1032,feat: add cosmos::auth::BaseAccount to unionlabs,benluelo,2023-12-11T21:48:41Z,2023-12-11T23:06:22+00:00,3,1.29
+1035,feat(unionvisor): append v0.16.0 to bundle-testnet-4,PoisonPhang,2023-12-12T23:13:28Z,2023-12-13T16:54:58+00:00,2,17.69
+1048,union <-> cosmos,aeryz,2023-12-16T12:43:08Z,2023-12-20T20:38:55+00:00,2,103.93
+1052,feat(unionvisor): make log flags global,PoisonPhang,2023-12-18T17:38:57Z,2023-12-19T01:41:01+00:00,1,8.03
+1054,Set next migration for v0.17.0 instead of v0.16.0,PoisonPhang,2023-12-19T20:10:13Z,2023-12-19T22:12:07+00:00,2,2.03
+1058,feat(docs/blog): merge blog & docs,o-az,2023-12-20T21:02:53Z,2024-01-11T18:37:54+00:00,4,525.58
+1062,docs: update uniond and unionvisor versions,PoisonPhang,2023-12-20T23:57:45Z,2023-12-21T07:15:43+00:00,3,7.3
+1066,fix(uniond): use bank keeper to add textual sign mode,PoisonPhang,2023-12-21T22:12:20Z,2023-12-21T23:32:41+00:00,2,1.34
+1069,feat: clean up types and serde representations,benluelo,2023-12-22T20:20:16Z,2023-12-22T23:35:10+00:00,4,3.25
+1070,docs: correct uniond versions in docs and add upgrade history,PoisonPhang,2023-12-22T21:07:48Z,2023-12-22T22:41:56+00:00,4,1.57
+1072,feat(uniond): upgrade cosmos sdk to v0.50.2,PoisonPhang,2023-12-22T22:39:17Z,2023-12-27T11:46:23+00:00,1,109.12
+1076,fix: incorrect verification of bn254 public keys,hussein-aitlahcen,2023-12-25T00:47:59Z,2023-12-27T10:35:32+00:00,1,57.79
+1084,cometbls wasm membership verification (closes #514),aeryz,2023-12-31T21:26:59Z,2024-01-08T12:26:42+00:00,40,183.0
+1085,feat(voyager): refactor message to be generic over contained data,benluelo,2024-01-03T19:18:51Z,2024-01-03T21:14:59+00:00,4,1.94
+1087,fix: fix serde on beacon api types after #1069,benluelo,2024-01-05T16:08:15Z,2024-01-05T22:51:24+00:00,1,6.72
+1088,refactor: move queue-msg into a library,benluelo,2024-01-05T22:51:02Z,2024-02-13T19:15:04+00:00,4,932.4
+1089,chore: update typescript-sdk deps,o-az,2024-01-05T23:51:00Z,2024-01-06T00:55:35+00:00,1,1.08
+1098,ucs01-relay: more coverage on both solidity and rust,hussein-aitlahcen,2024-01-08T16:53:20Z,2024-01-11T10:01:49+00:00,1,65.14
+1099,ICS23 test suite,benluelo,2024-01-08T21:27:33Z,2024-01-10T20:47:06+00:00,1,47.33
+1102,cometbls light client proper header verification (closes #1101),aeryz,2024-01-09T08:49:36Z,2024-01-09T16:16:20+00:00,3,7.45
+1104,Remove union module from uniond,cor,2024-01-09T12:43:00Z,2024-01-09T16:37:31+00:00,3,3.91
+1115,Bump rust version,benluelo,2024-01-11T17:19:58Z,2024-01-12T22:31:55+00:00,3,29.2
+1116,feat(galois): more tests and optimized cofactor clearing,hussein-aitlahcen,2024-01-11T19:28:37Z,2024-01-11T20:51:41+00:00,1,1.38
+1117,feat: noble movement blog post,o-az,2024-01-11T21:22:35Z,2024-01-12T00:22:46+00:00,1,3.0
+1122,chore: rename docs config files to site,o-az,2024-01-12T00:48:53Z,2024-01-12T05:42:46+00:00,2,4.9
+1126,feat: added union-testnet-5 genesis,PoisonPhang,2024-01-12T16:34:32Z,2024-01-15T22:42:16+00:00,1,78.13
+1128,feat: error out when home is not set,PoisonPhang,2024-01-12T20:26:20Z,2024-01-12T22:06:53+00:00,3,1.68
+1130,"feat: update deps, add taplo, and move deps to workspace",benluelo,2024-01-13T04:30:02Z,2024-01-15T18:09:08+00:00,2,61.65
+1131,feat(ics23/test): add vector test,qlp,2024-01-13T18:51:27Z,2024-01-17T20:24:40+00:00,8,97.55
+1133,fix: mobile ui,o-az,2024-01-14T17:25:08Z,2024-01-15T11:31:19+00:00,1,18.1
+1135,feat(galois): upgrade gnark and improve circuit/tests,hussein-aitlahcen,2024-01-15T12:20:14Z,2024-01-15T19:55:44+00:00,2,7.59
+1143,fix(unionvisor): remove dbg! macro usage,PoisonPhang,2024-01-16T14:56:31Z,2024-01-17T14:45:03+00:00,1,23.81
+1145,docs: update onboarding for union-testnet-5,PoisonPhang,2024-01-16T17:19:35Z,2024-01-17T17:19:06+00:00,18,23.99
+1147,feat: add rust llvm code coverage,benluelo,2024-01-16T21:10:21Z,2024-01-17T03:34:56+00:00,5,6.41
+1149,Ethereum verifier tests (closes #1140),aeryz,2024-01-17T08:34:09Z,2024-01-17T13:53:13+00:00,1,5.32
+1159,chore: update workflows ref,PoisonPhang,2024-01-17T18:05:47Z,2024-01-17T19:15:28+00:00,2,1.16
+1160,fix: few typos and bugs and duplicate files,o-az,2024-01-17T19:00:20Z,2024-01-17T20:13:41+00:00,2,1.22
+1161,feat: clean up and add tests to unionlabs,benluelo,2024-01-17T19:37:02Z,2024-01-18T14:22:49+00:00,1,18.76
+1163,Update docs with feedback,PoisonPhang,2024-01-17T22:12:36Z,2024-01-18T00:23:01+00:00,3,2.17
+1165,fix(docs): correct hyperlane,KaiserKarel,2024-01-18T08:53:59Z,2024-01-18T11:25:17+00:00,2,2.52
+1171,cometbls tests (closes #1170),aeryz,2024-01-18T12:54:28Z,2024-01-24T18:02:28+00:00,2,149.13
+1177,docs(ics21): add spec to lib mapping,qlp,2024-01-19T14:14:53Z,2024-01-26T23:21:28+00:00,1,177.11
+1178,feat: clean up tests and rust coverage source filtering,benluelo,2024-01-19T16:06:29Z,2024-01-19T20:39:29+00:00,3,4.55
+1179,fix: remove unused time import,PoisonPhang,2024-01-19T19:39:36Z,2024-01-19T20:44:35+00:00,1,1.08
+1182,Site redesign,cor,2024-01-20T04:30:41Z,2024-01-25T05:22:07+00:00,1,120.86
+1184,feat: handle workflow_dispatch dispatch site deploy,o-az,2024-01-21T10:25:48Z,2024-01-21T12:29:15+00:00,1,2.06
+1185,feat(evm): refactor to custom errors/delegate passthrough,hussein-aitlahcen,2024-01-21T14:29:49Z,2024-01-22T13:55:34+00:00,1,23.43
+1193,docs(unionlabs): add README to unionlabs,benluelo,2024-01-23T18:39:43Z,2024-01-27T06:33:07+00:00,3,83.89
+1195,docs: create READMEs for app and cmd modules,PoisonPhang,2024-01-23T20:39:43Z,2024-01-24T18:51:19+00:00,2,22.19
+1196,Better API for ICS-08 (closes #1192),aeryz,2024-01-23T23:16:36Z,2024-01-24T23:19:52+00:00,9,24.05
+1199,feat(galois): full in-circuit hash to curve,hussein-aitlahcen,2024-01-24T23:27:46Z,2024-01-26T14:08:06+00:00,2,38.67
+1203,fix: docs accessibility violation,o-az,2024-01-25T06:55:03Z,2024-01-25T17:20:49+00:00,4,10.43
+1204,feat: provide good head,o-az,2024-01-25T12:14:28Z,2024-01-25T16:20:09+00:00,1,4.09
+1205,feat(docs): update demo,hussein-aitlahcen,2024-01-25T13:52:47Z,2024-01-25T17:40:20+00:00,6,3.79
+1206,feat: style docs,o-az,2024-01-25T17:31:24Z,2024-01-26T00:06:32+00:00,1,6.59
+1207,fix: re-create viper instance to get env vars and correct home,PoisonPhang,2024-01-25T20:15:28Z,2024-01-25T22:23:45+00:00,2,2.14
+1209,fix: tokenfactory uses cosmos.msg,PoisonPhang,2024-01-25T22:12:00Z,2024-01-26T18:52:12+00:00,1,20.67
+1210,feat: nixify typescript sdk,o-az,2024-01-26T00:31:29Z,2024-01-31T00:03:08+00:00,7,119.53
+1211,chore: cleanup Vercel leftover,o-az,2024-01-26T03:47:44Z,2024-01-26T05:46:51+00:00,1,1.99
+1214,Implement misbehaviour checks for cometbls (closes #588),aeryz,2024-01-26T09:11:25Z,2024-01-26T16:00:52+00:00,4,6.82
+1218,feat(ci): avoid creating jobs for outputs that are cached,PoisonPhang,2024-01-26T23:03:36Z,2024-02-02T19:06:25+00:00,10,164.05
+1219,feat: update starlight,o-az,2024-01-28T02:36:45Z,2024-01-28T17:17:49+00:00,3,14.68
+1221,feat: collapsible code sections,o-az,2024-01-29T00:31:07Z,2024-01-29T21:26:13+00:00,5,20.92
+1223,feat: clean up fuzzing workspace and implement arbitrary for a ton of types,benluelo,2024-01-29T07:31:25Z,2024-02-06T18:10:34+00:00,4,202.65
+1224,feat: more comment and references to whitepaper,hussein-aitlahcen,2024-01-29T16:40:23Z,2024-01-29T18:31:37+00:00,1,1.85
+1225,feat(galois): ensure hashed message is reduced,hussein-aitlahcen,2024-01-29T21:01:18Z,2024-01-29T22:55:49+00:00,2,1.91
+1226,"Some fixes regarding voyager, chain-utils and the protos (closes #1043)",aeryz,2024-01-29T22:38:20Z,2024-02-01T23:42:01+00:00,5,73.06
+1227,feat(docs): open graph for blog posts,o-az,2024-01-30T08:10:04Z,2024-01-30T22:49:31+00:00,1,14.66
+1230,Documentation and UCS01-Relay fix,hussein-aitlahcen,2024-01-30T15:42:10Z,2024-01-31T13:11:25+00:00,1,21.49
+1240,feat: better og image,o-az,2024-01-31T08:35:48Z,2024-01-31T16:01:22+00:00,2,7.43
+1245,feat(ci): add link checker,o-az,2024-01-31T22:59:47Z,2024-02-23T04:27:06+00:00,2,533.46
+1246,Remove tools/vendor,benluelo,2024-01-31T23:47:11Z,2024-02-01T01:44:44+00:00,2,1.96
+1247,chore: update oxlint,o-az,2024-02-01T02:30:41Z,2024-02-01T21:42:40+00:00,5,19.2
+1251,feat: begin app development,o-az,2024-02-01T05:26:39Z,2024-02-01T06:41:28+00:00,2,1.25
+1252,feat: use thin lto and don't set debug to true in --release,benluelo,2024-02-01T10:07:16Z,2024-02-01T17:28:33+00:00,4,7.35
+1254,Bump rust version,benluelo,2024-02-01T18:27:05Z,2024-02-01T21:48:03+00:00,2,3.35
+1255,fix: verify pedersen commitment before the zkp in cometbls light clients,hussein-aitlahcen,2024-02-01T20:02:22Z,2024-02-01T21:16:38+00:00,2,1.24
+1258,feat(evm): add event on client registration/update and normalize,hussein-aitlahcen,2024-02-02T00:16:31Z,2024-02-02T13:52:05+00:00,1,13.59
+1259,feat(ics23/test): add empty branch data tests,qlp,2024-02-02T11:16:56Z,2024-02-13T20:01:30+00:00,3,272.74
+1266,chore: ignore JetBrains (.idea) files,qlp,2024-02-03T19:49:28Z,2024-02-03T22:20:05+00:00,1,2.51
+1267,chore: ignore JetBrains (.idea) files,qlp,2024-02-03T22:24:08Z,2024-02-04T04:59:18+00:00,2,6.59
+1268,feat: use deployment environments,o-az,2024-02-03T22:30:19Z,2024-02-04T05:31:34+00:00,1,7.02
+1274,chore: run cargo update,benluelo,2024-02-04T06:18:06Z,2024-02-05T00:03:24+00:00,2,17.75
+1280,fix: build on main and nightly,PoisonPhang,2024-02-05T15:11:49Z,2024-02-05T18:10:10+00:00,1,2.97
+1283,feat(tm-verifier): introduce tendermint verifier,aeryz,2024-02-05T18:04:06Z,2024-02-13T12:33:41+00:00,19,186.49
+1284,Cleanup protos,benluelo,2024-02-05T22:58:05Z,2024-02-06T18:10:58+00:00,1,19.21
+1289,fix(uniond): bloated closure,hussein-aitlahcen,2024-02-06T14:28:15Z,2024-02-06T17:56:05+00:00,3,3.46
+1291,fix: make CI more stable,PoisonPhang,2024-02-06T17:36:38Z,2024-02-06T20:19:55+00:00,2,2.72
+1292,feat(voyager): upgrade sol bindings,hussein-aitlahcen,2024-02-06T19:23:21Z,2024-02-06T20:40:19+00:00,1,1.28
+1294,feat: remove keytype from init and gentx,PoisonPhang,2024-02-06T23:24:07Z,2024-02-07T16:59:03+00:00,1,17.58
+1295,chore: update git ref,PoisonPhang,2024-02-07T00:06:25Z,2024-02-07T01:06:46+00:00,3,1.01
+1301,feat: detatch v0.19.0 from testnet-5,PoisonPhang,2024-02-07T18:55:57Z,2024-02-07T20:17:11+00:00,1,1.35
+1303,feat: clean up union devnet builder,benluelo,2024-02-07T23:59:07Z,2024-02-08T02:34:21+00:00,2,2.59
+1305,fix: improve docs and fix links,o-az,2024-02-08T11:33:32Z,2024-02-09T19:44:56+00:00,1,32.19
+1306,fix(evm): invalid dependency hash,hussein-aitlahcen,2024-02-08T12:29:34Z,2024-02-08T13:41:49+00:00,1,1.2
+1308,feat: added union-testnet-6 genesis,PoisonPhang,2024-02-08T18:12:00Z,2024-02-09T21:42:14+00:00,3,27.5
+1311,feat: massive devnet overhaul and actually deterministic,benluelo,2024-02-09T06:00:26Z,2024-02-09T21:43:05+00:00,4,15.71
+1321,fix(unionvisor): update lock,cor,2024-02-09T22:37:37Z,2024-02-10T01:44:40+00:00,3,3.12
+1323,chore: update app and sdk deps,o-az,2024-02-10T04:22:41Z,2024-02-10T06:00:41+00:00,1,1.63
+1325,feat: upgrade Node.js and related nix files,o-az,2024-02-10T08:23:38Z,2024-02-12T21:16:06+00:00,9,60.87
+1328,feat: add mkCosmosDevnet builder,benluelo,2024-02-11T20:41:27Z,2024-02-11T22:09:00+00:00,4,1.46
+1330,chore: update crane version,benluelo,2024-02-12T04:57:42Z,2024-02-12T10:06:00+00:00,1,5.14
+1335,Implement tendermint light client,aeryz,2024-02-12T10:08:16Z,2024-02-15T18:36:57+00:00,5,80.48
+1339,feat: add stargaze,benluelo,2024-02-12T16:18:11Z,2024-02-13T18:42:49+00:00,1,26.41
+1342,feat(ci): build on beefy-runner,cor,2024-02-12T19:20:18Z,2024-02-12T21:27:50+00:00,2,2.13
+1343,upgrade to deneb,hussein-aitlahcen,2024-02-12T20:00:16Z,2024-02-15T11:35:17+00:00,4,63.58
+1344,chore(test): check rust protos are in sync,qlp,2024-02-12T20:44:14Z,2024-02-15T14:55:13+00:00,3,66.18
+1346,docs: update docs for `union-testnet-6`,PoisonPhang,2024-02-12T22:10:11Z,2024-02-12T23:30:22+00:00,5,1.34
+1348,feat: small blog layout touchup,o-az,2024-02-13T09:30:27Z,2024-02-14T02:59:18+00:00,6,17.48
+1356,feat(ci): switch to self hosted CI runner,PoisonPhang,2024-02-14T02:11:18Z,2024-02-21T19:43:30+00:00,2,185.54
+1359,chore: remove prop.json,benluelo,2024-02-14T05:49:42Z,2024-02-14T08:40:51+00:00,1,2.85
+1361,feat: raw demo,o-az,2024-02-14T09:20:40Z,2024-02-19T18:56:22+00:00,1,129.59
+1368,fix: pin flake inputs to fix devnet,benluelo,2024-02-14T16:35:45Z,2024-02-14T17:37:01+00:00,1,1.02
+1374,Add queue reactor to generalize worker logic in voyager,benluelo,2024-02-15T05:26:07Z,2024-02-15T14:58:12+00:00,2,9.53
+1377,"upgrade blst, bls-eth-go and prysm",hussein-aitlahcen,2024-02-15T11:40:58Z,2024-02-15T13:06:07+00:00,6,1.42
+1379,1285 add check to ensure generated rust protos are up to date rebase,benluelo,2024-02-15T14:55:28Z,2024-02-24T18:00:07+00:00,1,219.08
+1380,feat: add apply macro,benluelo,2024-02-15T20:06:10Z,2024-02-16T01:07:12+00:00,1,5.02
+1382,Block polling in queue,benluelo,2024-02-16T06:13:24Z,2024-02-24T00:34:05+00:00,5,186.34
+1384,docs: clean up onboarding docs,PoisonPhang,2024-02-16T16:44:46Z,2024-02-19T16:35:21+00:00,9,71.84
+1385,Add mermaid rendering,cor,2024-02-16T17:25:24Z,2024-02-20T02:31:04+00:00,2,81.09
+1386,fix(unionlabs): snakify enum definitions,qlp,2024-02-16T19:42:14Z,2024-02-16T21:35:59+00:00,1,1.9
+1394,feat(scroll): light client,hussein-aitlahcen,2024-02-17T11:53:51Z,2024-02-20T15:38:33+00:00,10,75.75
+1399,improve-canonical-types-fraction-denominator,qlp,2024-02-17T21:48:10Z,2024-02-20T13:27:07+00:00,9,63.65
+1405,bunch of fixes,aeryz,2024-02-19T12:42:27Z,2024-02-26T16:02:25+00:00,8,171.33
+1409,feat(app): improvements,o-az,2024-02-19T19:37:51Z,2024-02-20T02:32:31+00:00,2,6.91
+1412,feat: poll balance on an interval,o-az,2024-02-20T09:47:09Z,2024-02-21T17:50:47+00:00,2,32.06
+1419,docs: update docs with feedback from discord,PoisonPhang,2024-02-20T23:28:41Z,2024-02-22T15:09:29+00:00,1,39.68
+1425,feat: temporary sepolia indexer,o-az,2024-02-22T09:16:12Z,2024-02-22T18:35:44+00:00,3,9.33
+1429,Docs and site content,cor,2024-02-23T00:34:24Z,2024-02-26T20:16:02+00:00,13,91.69
+1433,feat: better decoding and track sepolia to sepolia,o-az,2024-02-23T05:50:02Z,2024-02-25T02:01:22+00:00,7,44.19
+1435,refactor(voyager): cleanup,benluelo,2024-02-24T17:37:14Z,2024-02-24T21:33:11+00:00,3,3.93
+1436,chore(test): check rust protos are in sync,qlp,2024-02-24T18:04:11Z,2024-04-02T20:35:52+00:00,1,914.53
+1437,fix(ci): use Create Issue From File,PoisonPhang,2024-02-24T19:09:22Z,2024-02-25T00:16:10+00:00,1,5.11
+1439,feat(uniond): create v0.20.0 migration,PoisonPhang,2024-02-24T23:13:49Z,2024-02-25T01:53:49+00:00,1,2.67
+1440,fix(voyager): minor fixes after refactor,benluelo,2024-02-25T01:55:32Z,2024-02-25T03:38:55+00:00,1,1.72
+1441,feat: fetch user transfers and add shadcn ui,o-az,2024-02-25T03:47:29Z,2024-02-27T22:25:45+00:00,1,66.64
+1443,chore: remove unused git attributes,o-az,2024-02-25T07:44:48Z,2024-02-28T19:44:18+00:00,1,83.99
+1446,fix(ci): remove x.com from link checker,PoisonPhang,2024-02-26T04:57:43Z,2024-02-26T06:34:20+00:00,2,1.61
+1449,fix(ci): use nixbuild for deploy,PoisonPhang,2024-02-26T05:52:24Z,2024-02-28T16:18:51+00:00,3,58.44
+1450,feat: cleanup and optimize poseidon-rs and zktrie-rs,benluelo,2024-02-26T08:57:13Z,2024-02-26T17:52:28+00:00,3,8.92
+1451,feat: packet sequence is non-zero,benluelo,2024-02-26T17:38:42Z,2024-02-26T19:27:51+00:00,1,1.82
+1457, ethereum light client audit fixes,aeryz,2024-02-27T10:07:02Z,2024-02-29T06:07:11+00:00,10,44.0
+1460,fix: landing page menu icon on ios safari,o-az,2024-02-27T10:18:44Z,2024-02-27T17:55:35+00:00,1,7.61
+1465,chore(unionlabs): use apply attribute for events declaration,benluelo,2024-02-27T16:14:07Z,2024-02-28T03:30:13+00:00,2,11.27
+1467,feat(voyager): fetch blocks on scroll,benluelo,2024-02-27T16:34:53Z,2024-02-29T21:40:45+00:00,3,53.1
+1471,feat(scroll): stargate query instead of custom query,hussein-aitlahcen,2024-02-28T01:35:57Z,2024-02-29T04:48:19+00:00,3,27.21
+1473,feat: blog url preview images,o-az,2024-02-28T09:00:17Z,2024-03-08T05:33:56+00:00,1,212.56
+1479,feat(evm): use hex address as port for modules,hussein-aitlahcen,2024-02-28T20:23:07Z,2024-02-29T04:48:41+00:00,3,8.43
+1486,eth-lc: implement migrate client store (closes #1463),aeryz,2024-02-29T09:06:14Z,2024-03-06T13:43:27+00:00,5,148.62
+1491,chore(voyager): move message libraries around and use apply in more places,benluelo,2024-03-02T18:40:15Z,2024-03-02T19:49:15+00:00,2,1.15
+1492,chore: clean up workspace,benluelo,2024-03-02T19:49:48Z,2024-03-02T21:08:36+00:00,1,1.31
+1500,feat(voyager): more debug and increase gas estimation margin,hussein-aitlahcen,2024-03-04T22:43:57Z,2024-03-05T00:44:14+00:00,1,2.0
+1504,Implement `migrate_client_store` for `cometbls` and `tendermint` clients,aeryz,2024-03-06T13:03:13Z,2024-03-07T16:34:31+00:00,1,27.52
+1505,feat(voyager): do not mark tx as done on unknown revert,hussein-aitlahcen,2024-03-06T13:32:15Z,2024-03-08T20:55:31+00:00,1,55.39
+1506,feat(union): validator proof of possession,hussein-aitlahcen,2024-03-06T15:48:07Z,2024-03-08T00:23:16+00:00,2,32.59
+1508,chore: use core or alloc instead of std where possible,benluelo,2024-03-06T17:06:09Z,2024-03-06T18:08:15+00:00,1,1.03
+1510,Add Scroll blogpost,cor,2024-03-06T22:09:55Z,2024-03-07T16:39:57+00:00,4,18.5
+1520,fix(ethereum): proof value must be packed before rlp encoded,hussein-aitlahcen,2024-03-08T00:02:26Z,2024-03-08T20:45:51+00:00,4,20.72
+1522,feat: blog rss feed,o-az,2024-03-08T08:45:39Z,2024-03-08T21:49:42+00:00,1,13.07
+1524,fix(ci): run CI after open,PoisonPhang,2024-03-08T17:34:37Z,2024-03-08T20:28:59+00:00,1,2.91
+1525,feat: improve docs and drop custom file-tree component,o-az,2024-03-08T19:49:51Z,2024-03-09T00:42:07+00:00,4,4.87
+1527,feat: add biome linter and formatter,o-az,2024-03-09T00:07:02Z,2024-03-13T17:59:48+00:00,1,113.88
+1530,Spline based site redesign,cor,2024-03-09T05:26:07Z,2024-04-12T15:16:00+00:00,9,825.83
+1533,Encoding traits cleanup,benluelo,2024-03-09T11:01:08Z,2024-03-11T22:32:24+00:00,7,59.52
+1537,chore: add /feed redirect to /rss.xml,o-az,2024-03-11T09:10:46Z,2024-03-12T17:39:39+00:00,1,32.48
+1540,implement misbehaviour for the ethereum light client,aeryz,2024-03-11T22:09:22Z,2024-03-18T21:23:09+00:00,4,167.23
+1542,fix(e2e): fix devnet minimal configuration for e2e tests,PoisonPhang,2024-03-11T22:40:11Z,2024-03-12T18:21:50+00:00,3,19.69
+1545,Model macro,benluelo,2024-03-12T18:20:45Z,2024-03-17T17:13:53+00:00,3,118.89
+1546,fix: safari header background blur,o-az,2024-03-12T20:22:31Z,2024-03-13T07:54:50+00:00,1,11.54
+1548,format solidity files with forge instead of prettier,benluelo,2024-03-13T03:31:49Z,2024-03-14T16:30:12+00:00,3,36.97
+1549,format yaml files with yamlfmt,benluelo,2024-03-13T05:53:15Z,2024-03-14T18:19:50+00:00,3,36.44
+1554,fix: site lint issue and x.com og,o-az,2024-03-14T02:32:36Z,2024-03-14T07:48:15+00:00,2,5.26
+1555,feat: add biome support for helix,o-az,2024-03-14T06:26:29Z,2024-03-16T01:00:17+00:00,1,42.56
+1556,Add CODEOWNERS for voyager/galoisd/.github,cor,2024-03-14T08:01:29Z,2024-03-15T08:07:43+00:00,2,24.1
+1558,chore: update favicon path in config,o-az,2024-03-14T10:02:28Z,2024-03-14T18:21:47+00:00,1,8.32
+1559,fix(cometbls-verifier): move from arkworks to substrate-bn,hussein-aitlahcen,2024-03-14T12:55:26Z,2024-03-14T16:30:53+00:00,3,3.59
+1561,Clippy cleanup,benluelo,2024-03-14T18:06:56Z,2024-03-15T00:47:00+00:00,4,6.67
+1562,feat: packet-forward-middleware,PoisonPhang,2024-03-14T18:42:16Z,2024-06-06T07:12:16+00:00,4,2004.5
+1566,feat: integrate hasura graphql schema with app,o-az,2024-03-15T00:30:09Z,2024-03-18T19:45:22+00:00,10,91.25
+1568,chore: add max wasm size check,qlp,2024-03-16T12:48:43Z,2024-03-19T14:05:32+00:00,15,73.28
+1569,Bump rust nightly,benluelo,2024-03-17T18:04:33Z,2024-03-18T14:40:11+00:00,3,20.59
+1570,feat(voyager): link messages to their parent,benluelo,2024-03-17T20:39:43Z,2024-03-18T17:28:25+00:00,2,20.81
+1571,handle some errors in voyager,benluelo,2024-03-18T05:41:39Z,2024-03-19T18:05:04+00:00,1,36.39
+1577,incorrect return value when misbehaviour is found,aeryz,2024-03-18T21:39:24Z,2024-03-20T17:20:04+00:00,1,43.68
+1579,fix: docs testnet binary version,o-az,2024-03-18T23:35:14Z,2024-03-19T01:04:39+00:00,8,1.49
+1580,feat: app work dolor,o-az,2024-03-19T02:45:03Z,2024-03-19T19:51:37+00:00,1,17.11
+1581,fix: pin dlmalloc to 0.2.4 in all wasm contracts,benluelo,2024-03-19T14:06:54Z,2024-03-19T15:16:16+00:00,1,1.16
+1582,feat: MiMC vote/block,hussein-aitlahcen,2024-03-19T15:50:51Z,2024-03-25T15:22:22+00:00,6,143.53
+1583,feat(site): added unjail instructions to docs,PoisonPhang,2024-03-19T18:37:30Z,2024-03-19T22:13:03+00:00,4,3.59
+1584,"feat: add explorer, seeds field and endpoints json",o-az,2024-03-19T20:19:43Z,2024-03-20T01:28:38+00:00,7,5.15
+1586,chore: update graphql types,o-az,2024-03-19T23:51:03Z,2024-03-20T17:07:16+00:00,1,17.27
+1587,chore: remove duplicated code between union and cosmos,benluelo,2024-03-20T07:07:08Z,2024-03-20T13:16:36+00:00,1,6.16
+1588,fix:remove cached .eslintcache,o-az,2024-03-20T10:35:30Z,2024-03-20T17:08:44+00:00,1,6.55
+1591,refactor: s/evm/ethereum/g,benluelo,2024-03-20T17:53:26Z,2024-03-20T19:15:03+00:00,1,1.36
+1592,feat(voyager): clean up duplication between ethereum and scroll,benluelo,2024-03-21T00:05:03Z,2024-03-21T18:58:40+00:00,1,18.89
+1593,feat: app amet,o-az,2024-03-21T06:59:59Z,2024-05-01T15:37:57+00:00,1,992.63
+1595,chore(voyager): remove unused duplicate field in message,benluelo,2024-03-21T20:01:08Z,2024-03-22T01:27:41+00:00,1,5.44
+1598,feat(ci): use lfs on checkout step,PoisonPhang,2024-03-22T14:51:47Z,2024-03-22T16:21:40+00:00,1,1.5
+1603,feat(scroll): update client ,benluelo,2024-03-22T20:02:19Z,2024-03-28T19:51:46+00:00,1,143.82
+1613,Optimize EVM ICS23,aeryz,2024-03-26T13:43:02Z,2024-03-28T21:53:17+00:00,1,56.17
+1614,feat(uniond): generate OpenAPI spec,PoisonPhang,2024-03-26T19:53:12Z,2024-03-27T18:30:45+00:00,4,22.63
+1616,fix(ci): auth nixbuild for scheduled link checker,PoisonPhang,2024-03-26T21:50:29Z,2024-03-27T15:19:20+00:00,2,17.48
+1624,refactor(voyager): move voyager messages to a library,benluelo,2024-03-28T21:33:58Z,2024-03-29T12:54:48+00:00,1,15.35
+1626,feat: ucs02/ics721 - stargaze,hussein-aitlahcen,2024-03-29T12:45:07Z,2024-04-10T14:35:17+00:00,5,289.84
+1629,feat: add cargo-tidy check,benluelo,2024-03-29T14:56:09Z,2024-03-29T16:13:29+00:00,2,1.29
+1633,feat: update to cosmos-sdk v0.50.5,PoisonPhang,2024-03-29T21:26:28Z,2024-04-01T19:52:14+00:00,4,70.43
+1635,feat(macro): msg_struct as proc-macro,qlp,2024-03-30T16:52:55Z,2024-04-02T18:59:13+00:00,14,74.11
+1640,voyager cleanup and some docs,benluelo,2024-03-31T19:57:37Z,2024-04-01T01:16:58+00:00,1,5.32
+1654,feat: add biome lint check in flake.nix,o-az,2024-04-02T17:43:17Z,2024-04-02T20:51:49+00:00,5,3.14
+1657,1656 update queue msgmsg struct macro to support enums,qlp,2024-04-02T20:37:24Z,2024-04-03T14:08:04+00:00,3,17.51
+1658,feat: make openapi doc available through url,o-az,2024-04-02T23:36:14Z,2024-04-10T12:37:37+00:00,1,181.02
+1660,feat(networks): added union-testnet-7-genesis,PoisonPhang,2024-04-03T01:45:35Z,2024-04-04T15:38:23+00:00,6,37.88
+1664,feat(voyager): remove display requirement from messages,benluelo,2024-04-03T23:00:12Z,2024-04-04T00:03:51+00:00,3,1.06
+1665,refactor(voyager): use queue_msg::queue_msg everywhere,benluelo,2024-04-04T00:06:51Z,2024-04-04T12:28:57+00:00,2,12.37
+1675,refactor(unionlabs): clean up ics24 (previously proof) module,benluelo,2024-04-05T05:34:50Z,2024-04-05T15:40:49+00:00,1,10.1
+1676,feat(hubble): improve internal types,KaiserKarel,2024-04-05T08:35:53Z,2024-04-09T11:53:49+00:00,2,99.3
+1680,feat(osmosis): add devnet to flake,benluelo,2024-04-05T17:00:22Z,2024-04-05T21:22:34+00:00,3,4.37
+1681,chore: update onboarding docs for `union-testnet-8`,PoisonPhang,2024-04-05T17:01:52Z,2024-04-29T17:24:46+00:00,6,576.38
+1683,chore: fix osmosis and cosmos devnet builder,benluelo,2024-04-06T00:43:26Z,2024-04-06T02:20:14+00:00,1,1.61
+1684,chore: update docs to reflect union-testnet-7,o-az,2024-04-06T05:21:14Z,2024-07-26T14:25:29+00:00,1,2673.07
+1686,chore(import): ssz repos,qlp,2024-04-06T11:33:51Z,2024-04-09T19:37:10+00:00,2,80.06
+1690,feat(voyager): support native tendermint <-> native tendermint relaying,benluelo,2024-04-07T22:17:33Z,2024-04-08T14:19:55+00:00,3,16.04
+1696,feat(uniond): add v0.21.0 migration,PoisonPhang,2024-04-08T16:28:29Z,2024-04-08T18:13:05+00:00,1,1.74
+1705,fix(ci): remove astro regex from link checker,PoisonPhang,2024-04-08T18:03:16Z,2024-04-12T20:32:50+00:00,6,98.49
+1710,chore(docs): improve rustdocs,benluelo,2024-04-08T21:41:24Z,2024-04-09T00:34:35+00:00,4,2.89
+1712,Native tendermint and minor fixes,aeryz,2024-04-08T23:45:03Z,2024-04-09T02:11:49+00:00,3,2.45
+1714,chore(uniond): update cosmos sdk version in go.mod,PoisonPhang,2024-04-09T14:11:54Z,2024-04-09T15:24:37+00:00,2,1.21
+1715,Some more minor fixes,KaiserKarel,2024-04-09T16:01:26Z,2024-04-10T19:11:03+00:00,1,27.16
+1717,chore: prep for v0.21.0,PoisonPhang,2024-04-09T16:31:28Z,2024-04-09T17:41:24+00:00,2,1.17
+1719,feat(voyager): start work on timeouts,benluelo,2024-04-09T19:43:31Z,2024-04-10T18:50:09+00:00,1,23.11
+1725,chore: prep testnet 7 to start with v0.21.0,PoisonPhang,2024-04-10T16:54:29Z,2024-04-11T01:23:00+00:00,1,8.48
+1726,fix(ucs01): use correct ibc path prefix when bridging denoms,hussein-aitlahcen,2024-04-10T17:25:04Z,2024-04-10T23:19:22+00:00,2,5.91
+1732,Add unionvisor diagnostics,cor,2024-04-11T12:07:48Z,2024-04-11T15:22:12+00:00,4,3.24
+1738,feat(networks): start union-testnet-8,PoisonPhang,2024-04-11T16:37:02Z,2024-04-11T19:28:11+00:00,1,2.85
+1745,feat: openapi section in docs,o-az,2024-04-12T12:36:30Z,2024-04-12T16:27:06+00:00,4,3.84
+1747,chore: reduce rest/openapi.json file size,o-az,2024-04-12T17:35:08Z,2024-04-17T10:36:15+00:00,4,113.02
+1749,feat(voyager): packet timeouts,benluelo,2024-04-12T20:01:03Z,2024-04-15T12:57:40+00:00,1,64.94
+1757,fix(ucs01): proper denom ibc path,hussein-aitlahcen,2024-04-15T18:39:51Z,2024-04-15T21:58:48+00:00,1,3.32
+1758,Automate channel opening,benluelo,2024-04-15T21:57:26Z,2024-04-17T21:00:59+00:00,1,47.06
+1761,fix: og description,o-az,2024-04-16T04:33:16Z,2024-04-16T13:59:45+00:00,1,9.44
+1762,fix: ignore items in lychee config,o-az,2024-04-16T04:42:08Z,2024-04-16T08:32:28+00:00,1,3.84
+1764,Apply random linear combination for groth16 verifiers,aeryz,2024-04-16T07:05:31Z,2024-04-16T09:53:20+00:00,1,2.8
+1770,feat: introduce gnark-key-parser,aeryz,2024-04-17T07:14:19Z,2024-04-24T07:58:16+00:00,2,168.73
+1772,feat: update nixpkgs-unstable flake input,o-az,2024-04-17T10:18:13Z,2024-04-19T18:26:35+00:00,1,56.14
+1773,DO NOT MERGE: Ethereum light client track justified/finalized header,aeryz,2024-04-17T12:39:21Z,2024-10-19T19:16:34+00:00,1,4446.62
+1774,more deployment ux,hussein-aitlahcen,2024-04-17T20:37:19Z,2024-04-18T17:10:58+00:00,2,20.56
+1775,Process Compose MVP,cor,2024-04-17T20:50:24Z,2024-04-20T21:41:30+00:00,3,72.85
+1776,feat(scroll): v1 codec types,benluelo,2024-04-17T23:59:38Z,2024-04-18T17:00:34+00:00,4,17.02
+1779,Polygon blogpost,cor,2024-04-18T12:38:14Z,2024-04-18T13:59:02+00:00,1,1.35
+1782,feat(evm): ics24 compliant,hussein-aitlahcen,2024-04-18T19:10:04Z,2024-04-22T13:05:55+00:00,5,89.93
+1786,Scroll v1 verification,benluelo,2024-04-19T15:08:29Z,2024-04-23T13:13:07+00:00,4,94.08
+1789,fix(devnet-compose): address pr comments,cor,2024-04-20T23:14:47Z,2024-04-21T00:37:15+00:00,3,1.37
+1794,fix: ignore broken url in link checker,o-az,2024-04-22T19:04:04Z,2024-07-26T14:45:50+00:00,3,2275.7
+1796,Ssz cleanup,benluelo,2024-04-23T02:31:54Z,2024-05-02T15:30:12+00:00,4,228.97
+1801,fix(tm-lc): set `total_voting_power` during verification,aeryz,2024-04-23T08:41:57Z,2024-04-23T10:34:21+00:00,1,1.87
+1802,chore: update rust overlay,hussein-aitlahcen,2024-04-23T10:53:04Z,2024-04-23T14:48:58+00:00,1,3.93
+1810,feat(scroll): verify timestamp,benluelo,2024-04-23T21:32:39Z,2024-04-24T16:15:34+00:00,1,18.72
+1819,feat(voyager): legacy transactions on scroll,benluelo,2024-04-25T13:24:57Z,2024-04-25T20:00:56+00:00,1,6.6
+1823,Check if packet has timed out before submitting MsgTimeout,benluelo,2024-04-25T17:15:59Z,2024-04-25T19:38:02+00:00,2,2.37
+1824,feat(voyager): refactor scroll block fetching to use the same logic as ethereum,benluelo,2024-04-25T21:06:23Z,2024-04-26T14:13:00+00:00,2,17.11
+1825,feat(blog): aligned layer partnership,benluelo,2024-04-26T03:24:55Z,2024-04-26T13:59:39+00:00,4,10.58
+1828,feat: bump rust version,benluelo,2024-04-26T14:54:31Z,2024-04-26T18:15:54+00:00,1,3.36
+1829,fix: use raw bool instead of HasPacketReceiptReturn,benluelo,2024-04-26T15:35:04Z,2024-04-26T17:41:15+00:00,4,2.1
+1831,fix(scroll): don't overwrite revision_number and use correct height f…,hussein-aitlahcen,2024-04-26T18:17:12Z,2024-05-01T11:49:00+00:00,6,113.53
+1832,feat: use newly stabilized rust features after upgrade,benluelo,2024-04-26T18:23:47Z,2024-04-27T22:28:46+00:00,1,28.08
+1836,feat(lightclients): clean up errors,benluelo,2024-04-29T01:19:41Z,2024-04-29T17:12:34+00:00,3,15.88
+1850,fix(site): correct jq in creating a validator,PoisonPhang,2024-04-30T14:41:45Z,2024-05-01T02:49:19+00:00,3,12.13
+1852,fetch trusted client state from head of chain instead of finalized,benluelo,2024-04-30T18:47:43Z,2024-05-01T14:19:30+00:00,1,19.53
+1861,fix(hubble): decrease eth chunk size when approaching head,KaiserKarel,2024-05-01T22:28:41Z,2024-05-02T12:54:17+00:00,2,14.43
+1862,feat(uniond): upgrade to cosmwasm 2.0,aeryz,2024-05-02T07:53:47Z,2024-05-06T07:05:10+00:00,1,95.19
+1865,feat: app consectetur,o-az,2024-05-03T00:23:09Z,2024-05-14T17:06:32+00:00,3,280.72
+1866,Galois - More tests and docs,hussein-aitlahcen,2024-05-03T13:40:53Z,2024-05-03T14:54:08+00:00,2,1.22
+1868,feat(arbitrum): light client,benluelo,2024-05-03T22:49:55Z,2024-05-09T03:21:44+00:00,2,124.53
+1874,feat(evm): misbehavior,hussein-aitlahcen,2024-05-06T17:43:49Z,2024-05-07T06:51:11+00:00,2,13.12
+1876,feat: partial upgrade of contracts to CosmWasm 2.0,PoisonPhang,2024-05-07T02:00:09Z,2024-05-08T15:29:51+00:00,5,37.49
+1881,fix: broken og,o-az,2024-05-08T13:29:26Z,2024-05-09T14:51:12+00:00,2,25.36
+1883,fix(arbitrum): implement timestamp and ack queries,benluelo,2024-05-09T04:26:17Z,2024-05-09T09:03:57+00:00,1,4.63
+1885,feat: linea,hussein-aitlahcen,2024-05-09T11:32:46Z,2024-05-13T20:54:30+00:00,6,105.36
+1890,feat(hubble): query client counterparty chain ids,benluelo,2024-05-09T20:50:42Z,2024-05-17T11:40:55+00:00,2,182.84
+1892,feat: optionally return the type from parse wasm client type,benluelo,2024-05-10T11:27:18Z,2024-05-10T13:10:51+00:00,1,1.73
+1897,breaking changes to solidity ibc stack,benluelo,2024-05-10T23:36:35Z,2024-05-15T23:53:15+00:00,12,120.28
+1898,fix: disable rust-proto-check in ci,PoisonPhang,2024-05-11T03:56:30Z,2024-05-13T16:33:37+00:00,2,60.62
+1904,fix: biome errors,o-az,2024-05-13T18:10:39Z,2024-05-14T13:54:12+00:00,4,19.73
+1907,fix(ucs01): better event and generalize u128 over u256,hussein-aitlahcen,2024-05-14T12:48:04Z,2024-05-14T14:09:06+00:00,7,1.35
+1908,feat: app adipiscing,o-az,2024-05-14T17:09:20Z,2024-05-29T11:16:22+00:00,1,354.12
+1915,Add hubble-abis derivation,cor,2024-05-15T20:24:57Z,2024-05-15T23:30:51+00:00,1,3.1
+1916,feat: union stargaze partnership post,o-az,2024-05-16T01:46:10Z,2024-05-16T11:58:22+00:00,1,10.2
+1917,ibc-vm-rs,aeryz,2024-05-16T09:14:50Z,2024-06-19T12:51:16+00:00,13,819.61
+1923,Fixed all solidity warnings and applied some best practices.,Caglankaan,2024-05-16T15:38:46Z,2024-05-26T10:32:53+00:00,8,234.9
+1927,feat(hubble): add json logging,KaiserKarel,2024-05-17T23:58:07Z,2024-05-18T10:04:48+00:00,1,10.11
+1933,refactor(hubble): remove sync_next and always use batch syncing,KaiserKarel,2024-05-18T23:03:23Z,2024-05-20T09:39:50+00:00,2,34.61
+1937,feat(voyager): support wasm clients alongside native clients of the same chain,benluelo,2024-05-20T16:50:03Z,2024-05-20T22:36:17+00:00,1,5.77
+1941,docs: add contracts.json endpoint to docs,o-az,2024-05-20T19:44:35Z,2024-05-21T10:52:59+00:00,1,15.14
+1942,fix(hubble): complete abis,cor,2024-05-20T21:04:52Z,2024-05-21T09:23:57+00:00,1,12.32
+1944,clean up ethereum light clients,benluelo,2024-05-20T22:37:33Z,2024-05-21T16:27:17+00:00,2,17.83
+1949,fix(ucs1): emit destination_channel in Received,KaiserKarel,2024-05-21T11:50:24Z,2024-05-21T15:01:26+00:00,2,3.18
+1951,fix(ucs01): stringified json array for assets in event,hussein-aitlahcen,2024-05-21T17:11:22Z,2024-05-21T21:34:08+00:00,4,4.38
+1952,Add configurable start height for tendermint chains to hubble,cor,2024-05-21T19:34:11Z,2024-05-31T13:45:00+00:00,3,234.18
+1953,feat(voyager): support batch transactions,benluelo,2024-05-21T21:33:42Z,2024-05-30T10:35:13+00:00,2,205.03
+1958,fix(ucs01): split error for better understanding,hussein-aitlahcen,2024-05-23T11:17:50Z,2024-05-23T17:07:05+00:00,4,5.82
+1960,feat: berachain partnership post,o-az,2024-05-23T13:03:07Z,2024-05-23T14:20:18+00:00,1,1.29
+1961,feat(blog): publish berachain post,cor,2024-05-23T14:24:01Z,2024-12-20T17:15:15+00:00,1,5066.85
+1963,feat(berachain): light client,benluelo,2024-05-23T21:19:21Z,2024-06-10T19:43:43+00:00,13,430.41
+1975,feat(voyager): introduce voyager nixos module,hussein-aitlahcen,2024-05-27T16:28:06Z,2024-05-28T14:03:13+00:00,12,21.59
+1977,feat(voyager): only enqueue packet ack on write ack event,benluelo,2024-05-27T19:40:47Z,2024-05-28T10:53:04+00:00,1,15.2
+1981,feat(voyager): nicer logs and more stack,benluelo,2024-05-29T00:53:54Z,2024-05-29T12:49:39+00:00,2,11.93
+1983,App Elit,cor,2024-05-29T11:38:07Z,2024-05-30T14:33:32+00:00,2,26.92
+1986,feat(devnet): move keygen and cosmwasm address computation into devnet-utils,benluelo,2024-05-29T17:19:51Z,2024-05-30T02:27:50+00:00,1,9.13
+1988,feat: tailwindcss support in helix,o-az,2024-05-29T19:35:13Z,2024-05-30T15:15:33+00:00,2,19.67
+1989,fix(devnet): remove annoying WSJSONRPC log,benluelo,2024-05-30T03:16:27Z,2024-05-30T05:22:10+00:00,1,2.1
+1992,App Sed,cor,2024-05-30T17:38:12Z,2024-05-31T13:37:41+00:00,1,19.99
+2015,2006 fix pagination and add spans to hubble logging,qlp,2024-06-01T16:18:53Z,2024-06-05T05:59:25+00:00,1,85.68
+2017,Voyager queue optimization,benluelo,2024-06-01T22:29:48Z,2024-06-04T10:15:42+00:00,2,59.77
+2028,feat: app balances,o-az,2024-06-03T15:26:07Z,2024-06-07T19:20:34+00:00,3,99.91
+2029,feat: transfers page,o-az,2024-06-03T16:19:26Z,2024-06-08T19:23:38+00:00,4,123.07
+2035,Biome v1.8.0,o-az,2024-06-04T17:26:36Z,2024-06-05T00:31:30+00:00,3,7.08
+2037,chore: remove site codeowners,KaiserKarel,2024-06-04T21:37:53Z,2024-06-07T16:01:40+00:00,1,66.4
+2038,feat(galois): introduce health endpoint for grpc call,Caglankaan,2024-06-04T21:44:34Z,2024-06-06T12:03:42+00:00,3,38.32
+2041,fix(hubble): ignore clients without client_id,qlp,2024-06-05T06:13:43Z,2024-06-05T17:57:55+00:00,4,11.74
+2045,fix(e2e): make nightly workflow pass,PoisonPhang,2024-06-06T03:33:51Z,2024-06-08T04:47:42+00:00,1,49.23
+2055,fix(app): wallet fix,Swepool,2024-06-06T23:33:22Z,2024-06-07T10:16:08+00:00,2,10.71
+2057,feat(ucs01-relay): create pfm events st hubble can track outgoing hop packets,PoisonPhang,2024-06-07T02:47:33Z,2024-06-07T07:04:59+00:00,1,4.29
+2058,fix(queue-msg): fix flattening optimization passes,benluelo,2024-06-07T04:29:19Z,2024-06-07T06:14:46+00:00,1,1.76
+2059,fix(ucs01): convert pfm ack,aeryz,2024-06-07T08:40:30Z,2024-06-08T10:59:08+00:00,5,26.31
+2061,feat(devnet-utils): add secp256k1 key derivation to devnet-utils,benluelo,2024-06-07T13:30:13Z,2024-06-07T17:28:52+00:00,1,3.98
+2062,fix(hubble): improve max height performance,qlp,2024-06-07T15:25:59Z,2024-06-07T17:44:11+00:00,2,2.3
+2069,fix(deferredack): add custom ack type,aeryz,2024-06-08T12:22:26Z,2024-06-10T10:30:43+00:00,3,46.14
+2070,chore(hubble): tweak expo backoff,qlp,2024-06-08T13:55:36Z,2024-06-08T18:42:11+00:00,1,4.78
+2071,fix(app): wallet fix,Swepool,2024-06-08T16:37:35Z,2024-06-08T22:39:41+00:00,3,6.04
+2072,feat(app): faucet fixes,Swepool,2024-06-08T16:41:40Z,2024-06-08T22:31:00+00:00,1,5.82
+2076,Transfers part 3,cor,2024-06-08T22:17:14Z,2024-06-08T23:50:12+00:00,1,1.55
+2077,fix(app): fix faucet,Swepool,2024-06-08T22:31:59Z,2024-06-08T23:32:24+00:00,1,1.01
+2079,feat(uniond): prepare v0.24.0 upgrade,PoisonPhang,2024-06-09T05:02:09Z,2024-06-09T12:35:19+00:00,1,7.55
+2080,fix(app): toasts and btns,Swepool,2024-06-09T11:07:54Z,2024-06-09T14:54:20+00:00,1,3.77
+2081,feat: typescript sdk updates,o-az,2024-06-09T11:44:14Z,2024-06-20T07:43:14+00:00,3,259.98
+2084,feat(Sentinel): Sentinel (transfer-test-service) service creation,Caglankaan,2024-06-10T09:10:32Z,2024-06-28T10:22:57+00:00,1,433.21
+2085,feat(unionvisor): add v0.24.0 to verisons,PoisonPhang,2024-06-10T09:42:01Z,2024-06-10T10:50:14+00:00,1,1.14
+2089,feat(devnet): add script to upload wasm light clients to devnet,benluelo,2024-06-11T16:52:31Z,2024-06-11T18:18:18+00:00,3,1.43
+2091,feat(voyager): don't explode on unknown wasm client type,benluelo,2024-06-11T18:40:02Z,2024-06-11T20:29:35+00:00,1,1.83
+2092,refactor(app): use gates on facuet,Swepool,2024-06-11T20:11:25Z,2024-06-12T13:25:39+00:00,1,17.24
+2093,feat: clean up logs and some other stuff,benluelo,2024-06-12T05:47:31Z,2024-06-12T12:33:44+00:00,1,6.77
+2095,refactor(app): use chainsgate and walletsgate for transfers,cor,2024-06-12T12:03:26Z,2024-06-12T13:07:52+00:00,2,1.07
+2096,chore: better logs,benluelo,2024-06-12T17:13:24Z,2024-06-13T13:31:10+00:00,2,20.3
+2098,chore: cosmwasm contracts cleanup,PoisonPhang,2024-06-13T08:41:55Z,2024-06-16T15:36:03+00:00,12,78.9
+2099,Native cometbls client,aeryz,2024-06-13T09:08:33Z,2024-08-22T09:01:53+00:00,5,1679.89
+2105,feat(voyager): handle gas properly on cosmos-like chians,benluelo,2024-06-14T00:31:50Z,2024-06-14T19:32:35+00:00,1,19.01
+2108,docs(light-clients): add 08-wasm lc documentation,aeryz,2024-06-14T07:19:20Z,2024-06-18T12:33:57+00:00,12,101.24
+2110,feat(app): add fonts,Swepool,2024-06-14T14:11:19Z,2024-06-14T16:18:17+00:00,1,2.12
+2111,feat: add beacon indexer,KaiserKarel,2024-06-14T15:25:36Z,2024-06-15T12:00:43+00:00,3,20.59
+2112,feat(evm): upgrade scripts,hussein-aitlahcen,2024-06-14T16:36:58Z,2024-06-28T14:46:05+00:00,2,334.15
+2113,feat(app): add icons,Swepool,2024-06-14T17:26:53Z,2024-06-14T21:26:17+00:00,1,3.99
+2118,Hubble add bera beacon,KaiserKarel,2024-06-15T14:15:36Z,2024-06-15T15:29:25+00:00,3,1.23
+2122,App colorscheme,cor,2024-06-15T23:08:34Z,2024-06-16T00:15:56+00:00,1,1.12
+2123,rename stuff,benluelo,2024-06-16T05:26:49Z,2024-06-16T12:51:55+00:00,1,7.42
+2124,App design fixes,cor,2024-06-16T15:39:07Z,2024-06-16T20:49:24+00:00,3,5.17
+2125,bump rust version and modify berachain light client chain id,benluelo,2024-06-16T16:00:59Z,2024-06-17T01:47:08+00:00,1,9.77
+2127,feat(sentinel): Sentinel ,Caglankaan,2024-06-16T22:42:41Z,2024-06-25T15:32:44+00:00,8,208.83
+2132,fix: reduce loglevel for fetching pages,KaiserKarel,2024-06-17T10:50:05Z,2024-06-17T11:54:51+00:00,1,1.08
+2134,chore(voyager): clean up message types a bit,benluelo,2024-06-17T12:05:44Z,2024-06-17T17:06:35+00:00,2,5.01
+2135,feat(app): loading indicators,Swepool,2024-06-17T14:28:06Z,2024-06-17T18:31:20+00:00,1,4.05
+2137,voyager keyring and more updates,benluelo,2024-06-17T17:10:13Z,2024-06-20T20:08:43+00:00,4,74.97
+2145,Remove `trusting_period` and `trust_level`,aeryz,2024-06-17T18:46:16Z,2024-06-17T21:40:45+00:00,1,2.91
+2148,feat(app): various fixes and improvements,o-az,2024-06-17T22:08:55Z,2024-06-18T15:05:34+00:00,2,16.94
+2158,feat(site): union testnet app blog,o-az,2024-06-18T05:56:32Z,2024-06-26T15:53:14+00:00,3,201.94
+2159,feat(ci): introduce new release workflow,PoisonPhang,2024-06-18T07:57:15Z,2024-07-02T14:16:07+00:00,2,342.31
+2163,feat: eagerly index all consensus heights,KaiserKarel,2024-06-18T09:57:47Z,2024-06-18T12:14:21+00:00,1,2.28
+2164,fix: ignore existing clients,KaiserKarel,2024-06-18T12:33:15Z,2024-06-18T17:17:33+00:00,2,4.74
+2172,feat: support missing beacon slots,KaiserKarel,2024-06-18T19:58:45Z,2024-06-19T09:40:17+00:00,4,13.69
+2176,feat(zerg): goodbye,benluelo,2024-06-18T22:11:29Z,2024-06-19T03:31:11+00:00,3,5.33
+2178,fix(crane): actually run tests in test derivations,benluelo,2024-06-19T03:51:18Z,2024-06-19T05:25:09+00:00,2,1.56
+2180,fix(voyager): generate cometbls proofs correctly,benluelo,2024-06-19T05:26:45Z,2024-06-19T06:54:52+00:00,1,1.47
+2181,fix: report error on tm exit,KaiserKarel,2024-06-19T10:21:45Z,2024-06-19T11:26:36+00:00,2,1.08
+2182,feat(app): add wallet slot,Swepool,2024-06-19T12:51:35Z,2024-06-19T20:33:12+00:00,1,7.69
+2184,feat: transfer button and fix footer,o-az,2024-06-19T18:21:30Z,2024-06-20T22:18:21+00:00,6,27.95
+2187,fix(app): input color,Swepool,2024-06-19T22:30:54Z,2024-06-20T09:04:18+00:00,1,10.56
+2196,refactor(app): consolidate classes,Swepool,2024-06-20T09:15:46Z,2024-06-20T10:57:45+00:00,1,1.7
+2201,"Footer, overflow, zoom issue fixes",cor,2024-06-20T13:43:10Z,2024-06-20T14:44:59+00:00,2,1.03
+2203,feat: native token balances,o-az,2024-06-20T14:29:31Z,2024-06-20T15:50:40+00:00,1,1.35
+2205,feat(app): show precise and handle supported assets,Swepool,2024-06-20T15:13:49Z,2024-06-20T17:30:47+00:00,2,2.28
+2215,fix: gas token balance,o-az,2024-06-20T19:14:34Z,2024-06-20T20:54:51+00:00,3,1.67
+2219,feat: redirect explorer when not mobile,o-az,2024-06-20T22:04:21Z,2024-06-24T22:04:00+00:00,1,95.99
+2225,feat(voyager): expose signer balances via http,benluelo,2024-06-21T02:08:10Z,2024-06-21T06:13:03+00:00,1,4.08
+2226,feat: wallet improvements,o-az,2024-06-21T02:38:36Z,2024-06-30T14:00:32+00:00,1,227.37
+2229,chore: update deps and remove unused,o-az,2024-06-21T05:54:26Z,2024-06-21T10:22:46+00:00,1,4.47
+2231,fix(app): update wallet text,Swepool,2024-06-21T09:55:18Z,2024-06-21T11:11:17+00:00,1,1.27
+2232,feat(app): design and move switch,Swepool,2024-06-21T09:55:50Z,2024-06-21T11:10:45+00:00,1,1.25
+2236,fix(ucs01): use source endpoint for token unwrap,aeryz,2024-06-21T11:54:12Z,2024-06-24T07:21:08+00:00,1,67.45
+2242,fix(voyager): enqueue messages with parent ids properly,benluelo,2024-06-21T19:13:27Z,2024-06-22T15:05:01+00:00,3,19.86
+2245,fix(voyager): ensure there is a validator supermajority for the finality update,benluelo,2024-06-22T15:08:20Z,2024-06-23T00:07:46+00:00,1,8.99
+2246,Add CRT effect and fix tanstack fetching issues,cor,2024-06-22T15:15:39Z,2024-06-23T00:21:15+00:00,1,9.09
+2248,feat(app): use precise for transfers,Swepool,2024-06-22T18:26:54Z,2024-06-23T00:06:42+00:00,1,5.66
+2251,Hubble use committed header,KaiserKarel,2024-06-23T15:22:37Z,2024-06-23T16:46:42+00:00,1,1.4
+2255,feat(app): format amounts in explorer,Swepool,2024-06-24T09:26:58Z,2024-06-24T11:04:22+00:00,1,1.62
+2257,feat(hubble): faster inserts and add upsert mode,KaiserKarel,2024-06-24T12:57:30Z,2024-06-24T15:50:17+00:00,1,2.88
+2261,gotta go fast,benluelo,2024-06-24T17:41:28Z,2024-06-25T15:22:05+00:00,1,21.68
+2265,feat: gas balances,o-az,2024-06-24T23:33:30Z,2024-06-26T03:12:09+00:00,1,27.64
+2268,fix: remove bad code,o-az,2024-06-25T06:34:39Z,2024-06-25T09:28:33+00:00,1,2.9
+2272,Docs + Site Feature PR,KaiserKarel,2024-06-25T10:17:20Z,2024-06-26T12:29:47+00:00,2,26.21
+2274,fix(app): parse units in transfer,Swepool,2024-06-25T12:27:33Z,2024-06-25T14:52:21+00:00,1,2.41
+2279,fix(app): fix table filter,Swepool,2024-06-25T19:30:16Z,2024-06-25T20:39:40+00:00,1,1.16
+2289,fix(berachain-light-client): temporarily disable client expiry,benluelo,2024-06-26T03:28:04Z,2024-06-26T05:49:12+00:00,1,2.35
+2291,feat(voyager): add basic metrics,benluelo,2024-06-26T05:40:21Z,2024-06-27T14:30:24+00:00,1,32.83
+2296,feat(app): new wallet gate,Swepool,2024-06-26T11:38:27Z,2024-06-26T13:03:42+00:00,1,1.42
+2303,fix(app): test fix,Swepool,2024-06-26T14:16:52Z,2024-06-27T00:37:49+00:00,1,10.35
+2319,feat: sentry,o-az,2024-06-26T23:42:28Z,2024-06-27T00:46:38+00:00,1,1.07
+2324,feat: throttle faucet submission,o-az,2024-06-27T03:42:10Z,2024-06-27T13:19:00+00:00,1,9.61
+2325,feat: rabby and go to download pages,o-az,2024-06-27T03:49:31Z,2024-06-27T17:41:25+00:00,2,13.87
+2327,chore: remove unused deps and update,o-az,2024-06-27T06:10:44Z,2024-06-30T17:09:41+00:00,1,82.98
+2331,fix(app): load on faucet and hide,Swepool,2024-06-27T13:48:13Z,2024-06-27T19:39:27+00:00,1,5.85
+2332,chore(app): clean up imports,Swepool,2024-06-27T13:50:57Z,2024-07-02T09:58:28+00:00,1,116.13
+2339,feat: possibly rabby,o-az,2024-06-27T22:31:22Z,2024-06-28T15:16:06+00:00,1,16.75
+2341,add retry logic to transaction submission in voyager,benluelo,2024-06-27T23:17:58Z,2024-06-28T18:14:56+00:00,2,18.95
+2343,fix(docs): remove empty page section,o-az,2024-06-28T05:51:47Z,2024-06-30T15:16:49+00:00,2,57.42
+2351,chore(ci): run eval on beefy-sausage,PoisonPhang,2024-06-28T18:42:45Z,2024-06-28T21:35:46+00:00,1,2.88
+2353,💧,benluelo,2024-06-28T21:35:04Z,2024-06-29T09:48:52+00:00,8,12.23
+2360,chore: upgrade biome to latest,o-az,2024-06-30T09:04:49Z,2024-06-30T15:16:19+00:00,1,6.19
+2366,chore: update site deps,o-az,2024-06-30T22:17:37Z,2024-07-16T19:39:59+00:00,3,381.37
+2367,feat: new typescript sdk,o-az,2024-07-01T02:57:20Z,2024-07-22T11:32:46+00:00,1,512.59
+2369,chore: fix unknown chain and types,o-az,2024-07-01T04:14:56Z,2024-07-01T13:27:12+00:00,2,9.2
+2374,feat: metamask mobile alert and coinbase,o-az,2024-07-01T16:13:49Z,2024-07-04T14:42:12+00:00,6,70.47
+2375,fix(app): temp  fix show all decimals,Swepool,2024-07-01T16:23:45Z,2024-07-03T09:18:48+00:00,2,40.92
+2381,voyager readme,benluelo,2024-07-02T09:27:18Z,2024-08-14T13:05:08+00:00,2,1035.63
+2382,feat(ci): use Hercules CI,PoisonPhang,2024-07-02T09:46:05Z,2024-07-12T13:31:14+00:00,1,243.75
+2383,"voyager batching, explicit relayer address on evm",hussein-aitlahcen,2024-07-02T10:43:13Z,2024-07-08T22:04:35+00:00,1,155.36
+2385,fix(app): lint and scroll fixes,Swepool,2024-07-02T12:29:48Z,2024-07-02T14:52:54+00:00,2,2.38
+2386,Add stats to app,cor,2024-07-02T15:02:26Z,2024-07-03T20:28:51+00:00,1,29.44
+2389,race for first block,qlp,2024-07-02T17:46:35Z,2024-07-15T13:28:57+00:00,2,307.71
+2392,quick fixes,Swepool,2024-07-03T09:36:15Z,2024-07-03T11:49:18+00:00,1,2.22
+2396,"fix(app): fix for #2393, #2394",Swepool,2024-07-03T13:11:56Z,2024-07-03T23:07:30+00:00,1,9.93
+2397,feat(drip): allow recaptcha bypass secret,hussein-aitlahcen,2024-07-03T13:42:20Z,2024-07-03T15:26:34+00:00,1,1.74
+2400,feat(app): change query and add loading dots,Swepool,2024-07-03T22:02:10Z,2024-07-04T00:53:13+00:00,1,2.85
+2401,feat(hubble): add evm fork indexer,KaiserKarel,2024-07-03T22:21:48Z,2024-07-10T13:08:48+00:00,4,158.78
+2407,Stats bar fix,Swepool,2024-07-04T15:26:48Z,2024-07-04T17:32:40+00:00,1,2.1
+2412,[APP]: Dark mode,Swepool,2024-07-05T11:05:48Z,2024-07-16T17:18:16+00:00,4,270.21
+2413,Add threejs based animation to explorer,cor,2024-07-05T15:38:02Z,2024-07-05T21:32:52+00:00,1,5.91
+2415,fix: no rss feed for hidden blog posts,o-az,2024-07-05T18:57:28Z,2024-07-08T20:02:47+00:00,2,73.09
+2423,feat: arbitrum partnership blog post,o-az,2024-07-08T21:07:21Z,2024-07-09T08:46:12+00:00,1,11.65
+2427,chore: update berachain contracts,benluelo,2024-07-09T21:18:57Z,2024-07-11T13:45:02+00:00,2,40.43
+2428,feat(app): transfers pagination,o-az,2024-07-10T02:01:36Z,2024-07-30T16:12:19+00:00,6,494.18
+2433,feat(arbitrum): support tracking head of chain instead of finality,benluelo,2024-07-11T12:42:08Z,2024-07-16T10:17:54+00:00,3,117.6
+2434,feat(faucet): limit number of transfers per batch,PablitoAmaral,2024-07-11T13:00:31Z,2024-07-15T15:35:51+00:00,12,98.59
+2443, feat(hubble): introduce RaceClient for tm chains,KaiserKarel,2024-07-15T12:47:55Z,2024-07-16T09:26:52+00:00,1,20.65
+2445,voyager improvements,benluelo,2024-07-15T16:55:18Z,2024-07-17T09:14:24+00:00,5,40.32
+2446,feat(faucet): add new paginated GraphQL queries for transfers,PablitoAmaral,2024-07-15T16:58:41Z,2024-07-16T12:58:55+00:00,4,20.0
+2449,fix(hubble): various fixes,KaiserKarel,2024-07-16T10:01:57Z,2024-07-16T13:04:41+00:00,1,3.05
+2453,feat(app): add port id,Swepool,2024-07-16T11:49:25Z,2024-07-16T15:44:26+00:00,2,3.92
+2454,feat(release): add self-contained evm contracts deployer and testnet galois images,hussein-aitlahcen,2024-07-16T12:02:27Z,2024-07-17T11:28:10+00:00,4,23.43
+2455,feat(app): add text blink,Swepool,2024-07-16T12:24:12Z,2024-07-16T14:14:56+00:00,1,1.85
+2457,feat(ucs01): collect fees at destination,hussein-aitlahcen,2024-07-16T14:56:32Z,2024-07-19T15:48:14+00:00,3,72.86
+2461,feat(ci): migrate nightly workflow to HerculesCI,PoisonPhang,2024-07-16T20:38:01Z,2024-07-17T02:50:35+00:00,1,6.21
+2462,feat(blog): integrate contentful,o-az,2024-07-16T23:21:20Z,2024-07-22T18:53:27+00:00,9,139.54
+2466,chore: overflow issue in get_effective_timeout,Caglankaan,2024-07-17T10:33:17Z,2024-07-17T11:50:50+00:00,4,1.29
+2467,fix(ci): minor fixes for nightly,PoisonPhang,2024-07-17T17:55:02Z,2024-07-18T14:15:52+00:00,1,20.35
+2470,feat: Cosmwasm End to End Tests,Caglankaan,2024-07-18T07:59:19Z,2024-08-26T07:17:34+00:00,8,935.3
+2472,feat(hubble): use raceClient for eth,PablitoAmaral,2024-07-18T14:51:58Z,2024-07-18T18:30:28+00:00,4,3.64
+2473,feat(app): add choices to theme,Swepool,2024-07-18T15:39:09Z,2024-07-19T00:41:47+00:00,2,9.04
+2476,docs: update node hardware requirements and configuration docs,PoisonPhang,2024-07-18T18:41:21Z,2024-07-18T20:34:48+00:00,4,1.89
+2478,feat(app): copy function on elements,Swepool,2024-07-18T23:44:27Z,2024-07-21T13:42:32+00:00,3,61.97
+2483,arbitrum deployment and relevant fixes,benluelo,2024-07-19T16:44:55Z,2024-07-19T22:14:21+00:00,2,5.49
+2490,Voyager improve error handling,benluelo,2024-07-21T11:22:15Z,2024-07-21T12:29:10+00:00,1,1.12
+2496,fix(voyager): handle account sequence mismatch on tx simulation & submission,benluelo,2024-07-22T11:31:23Z,2024-07-23T00:16:22+00:00,1,12.75
+2499,feat: handle hidden logic and netlify visual editor integration,o-az,2024-07-22T19:28:30Z,2024-07-23T07:15:26+00:00,3,11.78
+2514,fix: nav gets stuck,o-az,2024-07-23T01:33:11Z,2024-07-23T20:17:26+00:00,2,18.74
+2516,chore: add required dev deps,o-az,2024-07-23T08:16:23Z,2024-07-24T14:40:09+00:00,1,30.4
+2517,feat(app): bera stride,Swepool,2024-07-23T14:24:33Z,2024-07-24T20:59:28+00:00,1,30.58
+2519,fix(app): check support for webgl,Swepool,2024-07-23T18:34:07Z,2024-07-24T11:48:36+00:00,1,17.24
+2526,feat(hubble): support start_height for fork-indexer,KaiserKarel,2024-07-23T22:22:58Z,2024-07-24T10:58:28+00:00,3,12.59
+2527,fix: fix biome-lint error,PoisonPhang,2024-07-24T00:03:50Z,2024-07-24T08:28:53+00:00,1,8.42
+2534,chore: only deploy site when site files change,o-az,2024-07-24T18:27:19Z,2024-07-25T08:01:25+00:00,2,13.57
+2536,Reduce usage of transactions to reduce contention.,KaiserKarel,2024-07-24T18:59:18Z,2024-07-25T12:50:04+00:00,1,17.85
+2546,feat: dydx faucet,o-az,2024-07-25T00:23:11Z,2024-07-30T09:20:22+00:00,6,128.95
+2547,feat: precommit enhance,o-az,2024-07-25T00:31:59Z,2024-11-12T18:57:18+00:00,1,2658.42
+2548,moar error handling,benluelo,2024-07-25T00:48:24Z,2024-07-25T10:19:21+00:00,1,9.52
+2549,feat: typescript sdk enhancements,o-az,2024-07-25T00:51:22Z,2024-07-25T07:57:03+00:00,1,7.09
+2555,feat(voyager): log transaction data on submission,benluelo,2024-07-25T12:08:46Z,2024-07-25T14:26:34+00:00,1,2.3
+2556,fix(app): handle leap and keplr chain switching,Swepool,2024-07-25T12:35:07Z,2024-07-25T13:49:14+00:00,1,1.24
+2557,feat(voyager): support multiple prover endpoints,benluelo,2024-07-25T14:49:36Z,2024-07-25T16:54:47+00:00,1,2.09
+2564,fix(app): add chain filter,Swepool,2024-07-25T16:54:53Z,2024-07-25T21:29:06+00:00,1,4.57
+2565,fix(app): input and text fix,Swepool,2024-07-25T17:39:31Z,2024-07-25T20:20:10+00:00,1,2.68
+2570,fix(app): go by address,Swepool,2024-07-25T19:26:34Z,2024-07-29T13:05:44+00:00,1,89.65
+2576,feat(hubble): filter for contracts,KaiserKarel,2024-07-26T12:30:11Z,2024-07-29T13:02:31+00:00,5,72.54
+2577,fix(voyager): catch tx simulation failure,benluelo,2024-07-26T13:28:35Z,2024-07-26T21:26:22+00:00,1,7.96
+2579,upgrade gnark/mpc tools,hussein-aitlahcen,2024-07-26T15:05:57Z,2024-11-21T19:13:53+00:00,7,2836.13
+2580,fix(app): use packet_aggregate in stats.ts,KaiserKarel,2024-07-26T16:21:01Z,2024-07-26T21:10:32+00:00,1,4.83
+2581,feat(hubble): support event filter for tendermint chains,KaiserKarel,2024-07-26T16:23:20Z,2024-07-27T13:49:14+00:00,1,21.43
+2593,fix(github): change labels,Swepool,2024-07-29T09:48:15Z,2024-07-30T11:47:45+00:00,1,25.99
+2601,fix(hubble): fix eth indexer off-by-one,KaiserKarel,2024-07-29T16:07:56Z,2024-07-29T20:21:34+00:00,4,4.23
+2605,fix(chain-utils): fix fee calculation,benluelo,2024-07-30T00:16:49Z,2024-07-30T09:06:30+00:00,1,8.83
+2607,chore: cleanup unused site packages,o-az,2024-07-30T03:07:23Z,2024-07-30T18:58:57+00:00,1,15.86
+2610,feat(drip): ratelimiting,benluelo,2024-07-30T13:04:44Z,2024-07-30T16:30:50+00:00,1,3.44
+2623,hubble(fix): use uk in on conflict clause,qlp,2024-07-31T07:19:37Z,2024-07-31T16:31:40+00:00,1,9.2
+2627,Add address view to app explorer,o-az,2024-07-31T08:54:45Z,2024-08-06T19:40:01+00:00,5,154.75
+2628,fix(hubble): various fixes to decoding and updates,KaiserKarel,2024-07-31T10:38:50Z,2024-07-31T14:34:52+00:00,1,3.93
+2637,fix(voyager): don't drop messages that revert with 0x,benluelo,2024-08-01T09:51:01Z,2024-08-01T12:28:38+00:00,1,2.63
+2638,feat(hubble): dequeue in ready_chunks,KaiserKarel,2024-08-01T11:22:59Z,2024-08-01T19:53:04+00:00,5,8.5
+2640,fix(hubble): re-index an entire chunk on reorg,KaiserKarel,2024-08-01T20:20:26Z,2024-08-04T17:31:21+00:00,4,69.18
+2646,fix(hubble): select fastest client after racing,KaiserKarel,2024-08-02T17:30:39Z,2024-08-02T18:34:38+00:00,3,1.07
+2654,feat(hubble): index arbitrum consensus heights,benluelo,2024-08-04T17:27:14Z,2024-08-05T19:10:07+00:00,1,25.71
+2661,Voyager v2,benluelo,2024-08-05T12:28:30Z,2024-09-17T13:50:46+00:00,5,1033.37
+2662,Move IBC and cometbls move light client,aeryz,2024-08-05T12:29:21Z,2024-08-29T11:28:24+00:00,6,574.98
+2670,fix(ci): move releases to monorepo,PoisonPhang,2024-08-05T17:07:37Z,2024-08-05T20:39:36+00:00,1,3.53
+2672,feat(evm) sibling cosmos lc,hussein-aitlahcen,2024-08-05T18:05:06Z,2024-08-06T09:59:16+00:00,4,15.9
+2673,feat(hubble): scroll consensus height indexer,benluelo,2024-08-05T20:01:57Z,2024-08-06T16:01:51+00:00,2,20.0
+2674,feat(hubble): fetch block results in parallel,KaiserKarel,2024-08-05T20:33:45Z,2024-08-06T00:06:05+00:00,2,3.54
+2676,feat(cosmwasm): sibling eth lc,hussein-aitlahcen,2024-08-06T09:50:20Z,2024-08-06T15:40:11+00:00,4,5.83
+2678,feat: disable cosmos wallet popup,o-az,2024-08-06T14:22:24Z,2024-09-05T19:38:04+00:00,1,725.26
+2679,feat(hubble): scroll consensus height indexer,qlp,2024-08-06T16:09:45Z,2024-08-06T18:02:58+00:00,1,1.89
+2681,feat: search bar,o-az,2024-08-06T20:15:51Z,2024-08-08T15:50:07+00:00,3,43.57
+2682,hubble(fix): add scroll indexer type,qlp,2024-08-06T20:25:31Z,2024-08-07T08:28:21+00:00,1,12.05
+2683,feat(ci): add evm-contracts to release,PoisonPhang,2024-08-07T01:12:32Z,2024-08-07T14:05:44+00:00,1,12.89
+2688,fix(hubble): detect pruned rpc,qlp,2024-08-07T12:46:21Z,2024-08-07T14:38:26+00:00,6,1.87
+2690,feat(ci): add aarch64 ci for hercules,PoisonPhang,2024-08-07T23:15:46Z,2024-08-08T13:48:44+00:00,1,14.55
+2693,feat(hubble): migrate from ethers to alloy,PablitoAmaral,2024-08-08T14:01:31Z,2024-08-30T16:33:24+00:00,14,530.53
+2697,feat(app): add more icons,Swepool,2024-08-08T18:06:53Z,2024-08-08T20:05:52+00:00,1,1.98
+2707,don't show cmd k on phones,Swepool,2024-08-09T09:19:29Z,2024-08-09T19:50:03+00:00,3,10.51
+2715,chore: update app deps,o-az,2024-08-10T22:08:04Z,2024-08-12T09:21:48+00:00,1,35.23
+2717,chore: update ts sdk error handling and examples,o-az,2024-08-11T10:43:36Z,2024-08-12T09:22:53+00:00,1,22.65
+2718,chore: update rpc url in docs,o-az,2024-08-11T11:00:08Z,2024-08-12T01:03:22+00:00,2,14.05
+2736,docs: added Discord and Twitter badges,PoisonPhang,2024-08-12T16:15:40Z,2024-08-13T12:45:06+00:00,1,20.49
+2741,feat(site): new whale site,Swepool,2024-08-13T13:14:40Z,2024-09-24T19:28:08+00:00,1,1014.22
+2744,fix(readme): logo alignment,cor,2024-08-13T15:38:14Z,2024-08-13T16:47:17+00:00,3,1.15
+2745,Update README overview,cor,2024-08-13T17:00:17Z,2024-08-13T18:53:42+00:00,2,1.89
+2752,Add README for app and site,cor,2024-08-14T13:11:03Z,2024-08-14T14:33:32+00:00,1,1.37
+2753,docs(hubble): update readme,qlp,2024-08-14T16:42:15Z,2024-08-15T15:22:14+00:00,3,22.67
+2754,chore(ci): rotate secrets,PoisonPhang,2024-08-14T16:44:01Z,2024-08-15T14:53:23+00:00,1,22.16
+2761,New README banner,cor,2024-08-15T16:11:13Z,2024-08-15T17:36:15+00:00,1,1.42
+2763,feat: reorganize,benluelo,2024-08-15T17:43:53Z,2024-08-15T20:29:05+00:00,1,2.75
+2766,Add dual MIT/Apache2 licenses,jbowen93,2024-08-15T20:18:10Z,2024-08-16T07:58:12+00:00,4,11.67
+2771,Groundwork for packet explorer and cross-chain swap,cor,2024-08-16T14:24:57Z,2024-08-20T14:39:38+00:00,2,96.24
+2779,feat(ci): enable garnix on-push evaluation,PoisonPhang,2024-08-18T18:31:16Z,2024-08-20T00:37:18+00:00,6,30.1
+2784,feat(ucs01): base58 for foreign denom encoding,hussein-aitlahcen,2024-08-19T13:09:44Z,2024-08-20T18:28:51+00:00,3,29.32
+2785,fix(evm): build solidity for aarch64,hussein-aitlahcen,2024-08-19T13:18:45Z,2024-08-20T14:38:35+00:00,1,25.33
+2787,docs(graphql): document graphql.union.build,KaiserKarel,2024-08-19T17:38:29Z,2024-08-23T00:27:32+00:00,17,78.82
+2793,feat(scroll): upgrade verifier and light client to v3,hussein-aitlahcen,2024-08-20T10:10:52Z,2024-08-20T13:33:28+00:00,2,3.38
+2798,feat(ci): add workflow to check garnix compleation,PoisonPhang,2024-08-20T15:19:59Z,2024-08-21T15:06:31+00:00,1,23.78
+2801,chore: add Garnix cache to flake config,PoisonPhang,2024-08-21T01:06:08Z,2024-08-21T14:39:23+00:00,1,13.55
+2806,fix(ci): use merge_group trigger,PoisonPhang,2024-08-21T15:24:11Z,2024-08-22T14:21:57+00:00,1,22.96
+2823,fix(ci): use check-requsted event trigger,PoisonPhang,2024-08-23T15:23:47Z,2025-05-16T15:16:13+00:00,1,6383.87
+2827,fix(site): fix url for lightshift on teams page,benluelo,2024-08-23T19:22:38Z,2024-08-24T22:19:01+00:00,2,26.94
+2829,fix(voyager): scroll: no longer legacy tx & fixed gas,hussein-aitlahcen,2024-08-24T17:04:14Z,2024-08-26T09:47:25+00:00,1,40.72
+2830,feat(scroll): no longer using legacy transactions,benluelo,2024-08-24T17:05:55Z,2024-12-04T17:43:00+00:00,1,2448.62
+2834,chore: enhance graphql api docs,o-az,2024-08-26T11:05:54Z,2024-08-26T15:25:53+00:00,2,4.33
+2835,chore(site): update deps,o-az,2024-08-26T11:21:55Z,2024-08-26T12:44:23+00:00,1,1.37
+2846,feat: multicall token balances query,o-az,2024-08-27T19:26:02Z,2024-08-28T00:39:14+00:00,4,5.22
+2848,feat(app): V1 migration,Swepool,2024-08-28T13:13:17Z,2024-08-28T23:11:50+00:00,1,9.98
+2852,feat(ci): use garnix cache for deployments,PoisonPhang,2024-08-28T17:36:16Z,2024-08-28T21:45:08+00:00,1,4.15
+2854,feat(ts-sdk): next dev iteration,o-az,2024-08-28T20:20:46Z,2024-09-02T18:07:23+00:00,1,117.78
+2855,chore: update nixpkgs-unstable flake lock input,o-az,2024-08-28T20:43:40Z,2024-08-28T21:49:10+00:00,1,1.09
+2857,fix(ci): use correct tag for dead links,PoisonPhang,2024-08-29T00:32:08Z,2024-08-29T16:18:42+00:00,2,15.78
+2861,feat(app): packets icon,Swepool,2024-08-29T11:19:17Z,2024-09-01T10:05:31+00:00,1,70.77
+2867,feat(app):  make recipient editable with reset,Swepool,2024-08-29T14:17:31Z,2024-10-01T09:32:37+00:00,2,787.25
+2868,fix(app): restore search,Swepool,2024-08-29T14:40:49Z,2024-09-01T09:51:30+00:00,1,67.18
+2877,fix(beacon-api): deserialize deposits correctly,benluelo,2024-08-30T08:31:40Z,2024-09-02T08:19:49+00:00,1,71.8
+2880,feat(unionvisor): add set-binary command,PoisonPhang,2024-08-30T14:28:45Z,2024-09-05T19:10:13+00:00,1,148.69
+2881,chore: improve readme,o-az,2024-09-01T16:09:41Z,2024-09-03T01:19:27+00:00,5,33.16
+2883,chore: upgrade site dependencies,o-az,2024-09-01T21:00:08Z,2024-09-02T13:49:26+00:00,1,16.82
+2884,chore: upgrade app dependencies,o-az,2024-09-01T21:02:23Z,2024-09-02T13:49:02+00:00,1,16.78
+2887,fix: keep debug info in dev profile,qlp,2024-09-02T07:59:39Z,2024-09-02T18:33:04+00:00,1,10.56
+2889,movement improvements,aeryz,2024-09-02T08:33:25Z,2024-09-02T13:01:37+00:00,2,4.47
+2890,fix(app): icon shake,Swepool,2024-09-02T08:37:27Z,2024-09-02T14:02:08+00:00,1,5.41
+2898,feat: enable mdformat through treefmt-nix,o-az,2024-09-02T18:06:45Z,2024-09-24T09:38:21+00:00,9,519.53
+2899,fix: auto remove netlify comment when no site changes,o-az,2024-09-02T19:29:49Z,2024-09-05T19:54:18+00:00,2,72.41
+2901,fix(hubble): update tendermint-rs,qlp,2024-09-02T21:43:13Z,2024-09-03T08:20:06+00:00,1,10.61
+2902,feat: move app to sdk,o-az,2024-09-02T22:08:03Z,2024-09-09T21:01:22+00:00,8,166.89
+2904,feat: extract docs into own static site,o-az,2024-09-03T05:13:41Z,2024-09-03T09:40:17+00:00,2,4.44
+2905,movement improvements,aeryz,2024-09-03T08:01:08Z,2024-09-05T20:03:06+00:00,5,60.03
+2913,fix(hubble): track contract indexed height and timestamp,qlp,2024-09-03T16:15:11Z,2024-09-04T11:12:53+00:00,1,18.96
+2915,fix(hubble): track contract indexed height and timestamp (#2913),qlp,2024-09-04T16:01:11Z,2024-09-05T12:07:58+00:00,1,20.11
+2917,"Multi-chain, multi-denom support for drip",cor,2024-09-05T16:00:59Z,2025-01-29T19:53:11+00:00,12,3507.87
+2918,feat: ceremony ci setup,o-az,2024-09-05T18:48:44Z,2024-09-05T21:28:09+00:00,1,2.66
+2922,fix: typo,o-az,2024-09-05T22:59:53Z,2024-09-06T02:00:32+00:00,1,3.01
+2924,chore: update site and docs deps,o-az,2024-09-06T07:13:59Z,2024-09-06T09:31:39+00:00,1,2.29
+2926,chore: fix edit link in docs,o-az,2024-09-06T08:02:49Z,2024-09-06T14:53:32+00:00,1,6.85
+2927,chore: remove unused images,o-az,2024-09-06T10:12:05Z,2024-09-06T14:53:44+00:00,1,4.69
+2931,Split move packages,aeryz,2024-09-08T14:19:26Z,2024-09-08T20:11:15+00:00,2,5.86
+2934,feat: document ts sdk and rename recipient to receiver,o-az,2024-09-09T22:01:34Z,2024-09-12T12:09:55+00:00,2,62.14
+2943,chore: replace persisted provider with default one,o-az,2024-09-11T20:00:19Z,2024-09-12T14:54:26+00:00,1,18.9
+2944,Hubble reorg handling,qlp,2024-09-12T10:06:44Z,2024-09-18T16:07:49+00:00,15,150.02
+2945,chore: cleanup and update icons,o-az,2024-09-12T13:53:29Z,2024-09-12T16:25:18+00:00,2,2.53
+2946,feat: improve typescript sdk docs,o-az,2024-09-12T14:58:31Z,2024-09-12T17:10:44+00:00,1,2.2
+2947,feat: direct domestic transfers on evm and better docs,o-az,2024-09-12T18:53:54Z,2024-09-18T11:33:12+00:00,2,136.66
+2948,fix(ceremony): changes,Swepool,2024-09-12T21:27:16Z,2024-09-15T18:03:46+00:00,1,68.61
+2949,feat: ceremony address form,o-az,2024-09-13T00:33:58Z,2024-09-13T18:08:33+00:00,1,17.58
+2960,fix(ceremony): two hours wrong,Swepool,2024-09-16T12:10:50Z,2024-09-16T15:48:21+00:00,3,3.63
+2963,fix: disable keplr and leap on evm,o-az,2024-09-16T18:22:38Z,2024-09-17T18:14:31+00:00,1,23.86
+2964,fix: use correct ci syntax,o-az,2024-09-16T18:39:30Z,2024-09-16T21:51:03+00:00,1,3.19
+2965,feat(evm): aggressive optimization,hussein-aitlahcen,2024-09-16T21:10:37Z,2024-10-07T14:24:24+00:00,4,497.23
+2966,fix: non-pfm transfer,o-az,2024-09-16T22:09:05Z,2024-09-17T19:27:14+00:00,2,21.3
+2968,chore: deploy to ipfs and update deps,o-az,2024-09-17T11:25:38Z,2024-09-17T19:16:52+00:00,1,7.85
+2970,fix(ceremony): ceremony progress,Swepool,2024-09-17T13:17:11Z,2024-09-18T15:20:27+00:00,2,26.05
+2972,chore: bump crane version,benluelo,2024-09-17T18:31:58Z,2024-09-17T19:38:45+00:00,1,1.11
+2973,fix: offline signer setting,o-az,2024-09-17T21:29:13Z,2024-09-17T23:18:49+00:00,1,1.83
+2974,chore: bump rust version,benluelo,2024-09-18T13:12:39Z,2024-09-18T18:21:57+00:00,1,5.16
+2975,Issue 2895,Caglankaan,2024-09-18T14:31:12Z,2024-09-20T08:58:23+00:00,1,42.45
+2977,fix: nix site build,o-az,2024-09-18T21:06:48Z,2024-09-19T13:50:51+00:00,1,16.73
+2978,feat: add basis for new hash type,benluelo,2024-09-18T21:32:36Z,2024-09-18T22:50:28+00:00,2,1.3
+2980,feat(ceremony): contributors,Swepool,2024-09-19T12:15:00Z,2024-09-19T19:23:56+00:00,1,7.15
+2981,fix(hubble): bug missing logging spans,qlp,2024-09-19T12:22:00Z,2024-09-19T20:15:21+00:00,7,7.89
+2982,feat: make Hash generic over encoding (not just hex prefix),benluelo,2024-09-19T13:10:09Z,2024-09-19T15:17:25+00:00,1,2.12
+2983,Hubble tendermint fetcher,qlp,2024-09-19T15:41:37Z,2024-09-30T12:43:00+00:00,5,261.02
+2984,feat: use new hash types across the workspace,benluelo,2024-09-19T18:33:51Z,2024-09-23T16:18:10+00:00,2,93.74
+2985,ci: build devshell,cor,2024-09-19T22:07:18Z,2024-09-20T11:51:36+00:00,1,13.74
+2986,feat: sharable graphql queries & doc theme,o-az,2024-09-20T04:33:44Z,2024-09-27T00:53:20+00:00,3,164.33
+2987,Ceremony update,Swepool,2024-09-20T13:34:21Z,2024-09-20T14:54:35+00:00,1,1.34
+2988,chore: improve docs across the workspace & small fix,benluelo,2024-09-20T14:57:50Z,2024-09-21T16:48:22+00:00,2,25.84
+2990,fix(ceremony): save changes,Swepool,2024-09-20T16:37:16Z,2024-09-20T19:09:37+00:00,1,2.54
+2999,feat(voyager): split out voyager-core,benluelo,2024-09-21T20:15:29Z,2024-09-23T12:25:49+00:00,7,40.17
+3002,Movement voyager integration,aeryz,2024-09-21T20:34:24Z,2024-09-21T22:09:02+00:00,4,1.58
+3008,feat(ics08-movement): further movement verification,aeryz,2024-09-21T23:45:28Z,2024-09-23T15:02:08+00:00,6,39.28
+3009,move-bindgen improvements,benluelo,2024-09-23T12:39:57Z,2024-12-04T18:19:31+00:00,1,1733.66
+3013,feat(voyager): tendermint modules,benluelo,2024-09-23T22:02:03Z,2024-09-24T10:26:34+00:00,2,12.41
+3014,chore: update deps,o-az,2024-09-24T05:39:28Z,2024-09-24T10:32:45+00:00,2,4.89
+3015,feat: switch to main treefmt-nix and nixfmt-rfc-style,o-az,2024-09-24T10:59:14Z,2024-09-25T14:16:58+00:00,7,27.3
+3022,fix: site links and rss,o-az,2024-09-25T14:20:55Z,2024-09-27T00:47:51+00:00,1,34.45
+3023,Ceremony terminal,Swepool,2024-09-25T23:48:43Z,2024-09-27T00:46:33+00:00,2,24.96
+3024,Hubble aptos indexer,qlp,2024-09-26T13:31:11Z,2024-09-30T12:42:58+00:00,1,95.2
+3025,feat(hubble): implement token import,PablitoAmaral,2024-09-26T13:43:40Z,2024-10-03T14:03:37+00:00,3,168.33
+3026,feat: rewrite queue-msg normalization pass,benluelo,2024-09-26T14:13:30Z,2024-09-26T20:36:58+00:00,4,6.39
+3034,fix(ci): use nix_conf to load caches rather than nix develop,PoisonPhang,2024-09-27T14:12:05Z,2024-09-27T16:02:10+00:00,3,1.83
+3042,split plugins and modules,benluelo,2024-09-30T18:36:38Z,2024-10-01T12:48:37+00:00,2,18.2
+3046,ucs01 for move and testnet integration,aeryz,2024-10-01T14:32:08Z,2024-10-01T20:53:35+00:00,4,6.36
+3049,refactor(voyager): queue-msg -> voyager-vm,benluelo,2024-10-01T17:58:09Z,2024-10-01T19:57:58+00:00,1,2.0
+3055,Ceremony fixes,Swepool,2024-10-02T00:00:15Z,2024-10-02T16:02:18+00:00,2,16.03
+3056,voyager queue cleanup,benluelo,2024-10-02T01:38:16Z,2024-10-02T14:17:17+00:00,1,12.65
+3057,fix(ceremony): duplicate logging,Swepool,2024-10-02T17:01:20Z,2024-10-02T18:15:52+00:00,1,1.24
+3060,feat: docs redirect,o-az,2024-10-02T19:46:26Z,2024-10-03T10:38:46+00:00,1,14.87
+3062,feat: union transfer solidity example,o-az,2024-10-02T22:01:27Z,2024-10-04T13:20:43+00:00,2,39.32
+3063,fix: typo,guha-rahul,2024-10-03T00:48:09Z,2024-10-16T22:19:26+00:00,1,333.52
+3064,voyager: modules/plugins cleanup & fixes,benluelo,2024-10-03T06:06:00Z,2024-10-04T14:02:53+00:00,1,31.95
+3065,fix(hubble): support movement client tracking,qlp,2024-10-03T07:45:27Z,2024-10-03T09:49:31+00:00,1,2.07
+3067,feat(ceremony): rejoin queue,Swepool,2024-10-03T15:57:07Z,2024-10-08T16:51:57+00:00,1,120.91
+3068,Hubble configure scrape tokens,qlp,2024-10-03T16:10:50Z,2024-10-04T08:13:50+00:00,1,16.05
+3069,"typo corrected ""her"" --> ""here""",AAYUSH-GUPTA-coder,2024-10-04T14:31:59Z,2024-10-16T22:15:56+00:00,1,295.73
+3070,voyager docs & vm cleanup,benluelo,2024-10-04T15:13:07Z,2024-10-07T17:45:22+00:00,1,74.54
+3073,feat(site): add landing and learn to contentful,Swepool,2024-10-07T18:45:38Z,2024-10-08T12:13:37+00:00,1,17.47
+3074,fix(evm): build solidity v0.8.27 for aarch64,hussein-aitlahcen,2024-10-07T19:18:59Z,2024-10-16T21:55:00+00:00,1,218.6
+3077,Hubble cleanup eth+tm,qlp,2024-10-08T09:25:15Z,2024-10-14T19:29:41+00:00,1,154.07
+3078,chore(move-ibc): docs,aeryz,2024-10-08T10:13:26Z,2024-10-10T18:32:28+00:00,5,56.32
+3085,feat(site): add team to contentful,Swepool,2024-10-10T13:29:47Z,2024-10-11T14:58:39+00:00,1,25.48
+3087,feat: aptos typescript-sdk and app integration,aeryz,2024-10-10T18:32:55Z,2024-11-08T14:40:54+00:00,6,692.13
+3090,fix: pagination button visibility when there's alert,o-az,2024-10-11T04:35:51Z,2024-10-16T21:53:36+00:00,2,137.3
+3091,chore: biome 1.9.3,o-az,2024-10-11T04:46:54Z,2024-10-11T10:49:52+00:00,1,6.05
+3095,fix(ceremony): temp use blue,Swepool,2024-10-11T09:57:36Z,2024-10-11T14:07:23+00:00,2,4.16
+3096,docs: add protocol section,KaiserKarel,2024-10-11T11:17:22Z,2024-10-16T21:54:18+00:00,11,130.62
+3099,feat: ucs01 rust cosmwasm transfer example,o-az,2024-10-11T21:46:42Z,2024-10-16T21:52:23+00:00,2,120.09
+3103,3075 upgrade to cosmos sdk v052,PoisonPhang,2024-10-14T18:23:21Z,2024-10-28T16:11:57+00:00,1,333.81
+3104,hubble: support aptos,qlp,2024-10-14T19:31:28Z,2024-10-15T11:01:21+00:00,1,15.5
+3105,feat(site): ecosystem contentful,Swepool,2024-10-15T10:20:52Z,2024-10-16T11:37:08+00:00,1,25.27
+3106,Aptos Move IBC misbehaviours and `movefmt`,aeryz,2024-10-15T10:30:19Z,2024-10-15T12:03:31+00:00,1,1.55
+3108,chore: concurrent fetch blocks for aptos,aeryz,2024-10-15T20:50:26Z,2024-10-16T09:18:45+00:00,2,12.47
+3113,feat(evm): fix commitment & more test variants,hussein-aitlahcen,2024-10-17T08:36:20Z,2024-10-17T12:35:08+00:00,1,3.98
+3118,feat(evm): add ports to channel and revert version to str,hussein-aitlahcen,2024-10-17T14:00:19Z,2024-10-17T15:04:20+00:00,2,1.07
+3119,chore(move): refactoring move code with latest evm changes,Caglankaan,2024-10-18T09:55:58Z,2024-10-25T11:00:24+00:00,3,169.07
+3120,chore(hubble): improve error reporting,qlp,2024-10-18T11:25:09Z,2024-10-18T12:44:24+00:00,1,1.32
+3124,feat: split cometbls light client types out from unionlabs,benluelo,2024-10-19T01:00:00Z,2024-10-20T18:07:57+00:00,2,41.13
+3125,Hubble contract filtering,qlp,2024-10-19T07:03:09Z,2024-10-25T14:48:12+00:00,3,151.75
+3128,Unionlabs split tendermint,benluelo,2024-10-20T21:07:52Z,2024-10-21T03:35:52+00:00,4,6.47
+3130,feat: split arbitrum light client types out from unionlabs,benluelo,2024-10-21T04:00:21Z,2024-10-21T14:16:53+00:00,2,10.28
+3131,feat: split scroll light client types out from unionlabs,benluelo,2024-10-21T05:37:58Z,2024-10-24T16:59:59+00:00,6,83.37
+3134,fix(app): remove v0 api dependency,qlp,2024-10-21T08:59:21Z,2024-10-21T18:09:36+00:00,1,9.17
+3135,"fix(evm): portId not needed, only counterparty",hussein-aitlahcen,2024-10-21T15:31:47Z,2024-10-21T17:45:23+00:00,1,2.23
+3136,Linea light client types,cor,2024-10-21T15:53:31Z,2024-10-21T16:54:01+00:00,1,1.01
+3140,fix(ceremony): refresh session,Swepool,2024-10-23T11:22:22Z,2024-10-24T09:45:54+00:00,1,22.39
+3142,fix(docs): few typos and bugs,o-az,2024-10-23T23:10:00Z,2024-10-25T00:59:14+00:00,1,25.82
+3150,site work,Swepool,2024-10-24T11:57:23Z,2024-10-30T00:10:29+00:00,2,132.22
+3152,"feat: split out tm lc, bera lc, cometbft rpc, and galois rpc types",benluelo,2024-10-24T17:05:18Z,2024-10-24T20:48:55+00:00,9,3.73
+3155,feat: migrate ethereum-light-client types ,benluelo,2024-10-25T15:55:58Z,2024-10-29T16:33:55+00:00,2,96.63
+3156,chore(hubble): raceclient - provide winning client in result,qlp,2024-10-25T19:04:39Z,2024-11-04T10:46:58+00:00,1,231.71
+3157,fix: add missing circuit.zip,o-az,2024-10-25T20:41:30Z,2024-10-26T15:06:17+00:00,1,18.41
+3158,fix(app): add deprecation notice,cor,2024-10-28T09:54:53Z,2024-10-28T10:56:48+00:00,1,1.03
+3163,feat(ceremony): preparing queue,Swepool,2024-10-28T20:16:48Z,2024-10-29T10:19:23+00:00,1,14.04
+3165,refactor(movement): move light client types,cor,2024-10-29T12:07:35Z,2024-10-29T14:23:27+00:00,2,2.26
+3166,Better height type,benluelo,2024-10-29T18:30:16Z,2024-10-29T22:50:36+00:00,1,4.34
+3175,Fix eth verifier and lc,aeryz,2024-10-30T17:19:58Z,2024-10-30T19:37:28+00:00,7,2.29
+3177,feat(site): change color and slide text,Swepool,2024-10-30T19:42:21Z,2024-10-30T21:02:23+00:00,2,1.33
+3178,feat: add bytes type,benluelo,2024-10-30T22:30:13Z,2024-10-31T09:57:14+00:00,1,11.45
+3179,Further fixes to the ethereum light client,aeryz,2024-10-31T09:55:40Z,2024-10-31T17:43:50+00:00,2,7.8
+3184,upgrade protos,benluelo,2024-10-31T18:12:22Z,2024-10-31T21:18:53+00:00,2,3.11
+3187,feat: update blog list style,o-az,2024-10-31T20:50:54Z,2024-11-01T08:40:05+00:00,1,11.82
+3188,feat: add ethabi commitment paths,benluelo,2024-10-31T21:40:38Z,2024-10-31T22:55:52+00:00,1,1.25
+3190,feat(site): rotate text,Swepool,2024-10-31T23:44:44Z,2024-11-01T08:42:22+00:00,1,8.96
+3191,chore(eth-lc): fix the commitment canonicalization,aeryz,2024-11-01T11:45:37Z,2024-11-04T12:57:36+00:00,2,73.2
+3193,Dynamic dispatch move,Caglankaan,2024-11-01T14:11:44Z,2024-12-02T09:12:26+00:00,5,739.01
+3198,feat: voyager ethereum transaction module for new evm ibc stack,benluelo,2024-11-01T21:29:22Z,2024-11-01T22:33:14+00:00,1,1.06
+3199,voyager progress,benluelo,2024-11-02T02:10:45Z,2024-11-05T15:09:06+00:00,3,84.97
+3200,feat: table component with query method,o-az,2024-11-02T06:23:18Z,2024-11-21T23:34:20+00:00,2,473.18
+3202,fix(ics24): non packed abi encoding for commitment paths,hussein-aitlahcen,2024-11-05T13:57:36Z,2024-11-05T16:12:39+00:00,2,2.25
+3203,Hubble reload block after finalization,qlp,2024-11-05T14:43:26Z,2024-11-05T17:50:12+00:00,6,3.11
+3204,feat: clean up eth lcs and other stuff,benluelo,2024-11-05T18:20:43Z,2024-11-06T11:16:24+00:00,3,16.93
+3205,feat(hubble): client tracking feature flag,qlp,2024-11-06T10:19:42Z,2024-11-06T11:41:14+00:00,1,1.36
+3206,Hubble fix aptos large block,qlp,2024-11-06T11:37:10Z,2024-11-06T14:50:35+00:00,3,3.22
+3208,Hubble bera consensus tracking logging,qlp,2024-11-06T12:53:26Z,2024-11-06T15:04:24+00:00,1,2.18
+3210,fix(site): learn page,Swepool,2024-11-06T15:57:28Z,2024-11-06T21:38:22+00:00,1,5.68
+3212,feat(cosmwasm): introduce `union-ibc`,hussein-aitlahcen,2024-11-06T20:33:45Z,2024-11-07T23:58:45+00:00,8,27.42
+3216,fix(site): site edits,Swepool,2024-11-06T21:57:40Z,2024-11-07T00:37:56+00:00,1,2.67
+3218,feat: scroll to anchor in blog,o-az,2024-11-06T23:18:35Z,2024-11-07T00:53:13+00:00,5,1.58
+3223,fix: site various fixes,o-az,2024-11-07T07:50:18Z,2024-11-08T00:21:02+00:00,1,16.51
+3225,site edits,Swepool,2024-11-07T14:35:38Z,2024-11-07T16:44:36+00:00,1,2.15
+3227,fix(site): adjustments,Swepool,2024-11-07T17:59:22Z,2024-11-07T19:21:13+00:00,1,1.36
+3228,feat(site): site edits,Swepool,2024-11-07T20:41:42Z,2024-11-08T17:14:26+00:00,5,20.55
+3230,chore: fmt and add pkg,o-az,2024-11-08T04:57:44Z,2024-11-08T13:52:54+00:00,2,8.92
+3231,feat(union-ibc): refactor,hussein-aitlahcen,2024-11-08T09:45:54Z,2024-11-08T13:37:08+00:00,2,3.85
+3232,feat(hubble): configurable reorg handling,qlp,2024-11-08T11:00:23Z,2024-11-08T20:51:22+00:00,1,9.85
+3236,feat: typescript sdk enhancements,o-az,2024-11-08T18:07:17Z,2024-12-04T15:39:49+00:00,3,621.54
+3238,chore: remove unused deps and files,o-az,2024-11-08T19:46:44Z,2024-11-14T01:38:38+00:00,1,125.86
+3242,fix(hubble): tendermint - replace commit with block,qlp,2024-11-08T21:32:43Z,2024-11-11T11:51:37+00:00,1,62.31
+3243,Voyager split ibc specs,benluelo,2024-11-08T21:41:49Z,2024-11-18T21:00:16+00:00,1,239.31
+3244,Add misbehaviour to union-ibc and sol-ibc,aeryz,2024-11-11T09:00:02Z,2024-11-12T11:51:15+00:00,1,26.85
+3246,Hubble fix baecon no block handling,qlp,2024-11-11T10:03:52Z,2024-11-11T11:58:13+00:00,2,1.91
+3254,Split ethereum client,aeryz,2024-11-12T20:37:34Z,2024-11-13T08:36:49+00:00,2,11.99
+3257,feat(ucs01): plug-in union-ibc,hussein-aitlahcen,2024-11-13T12:36:48Z,2024-11-14T15:11:33+00:00,3,26.58
+3261,fix(docs): apply findings after testing,qlp,2024-11-13T17:11:38Z,2024-11-13T19:19:56+00:00,2,2.14
+3264,fix(hubble): use bigint for height,qlp,2024-11-14T16:55:01Z,2024-11-18T20:35:51+00:00,1,99.68
+3266,Migrate scroll light client to `union-ibc`,aeryz,2024-11-15T19:03:43Z,2024-11-18T10:34:07+00:00,5,63.51
+3275,fix(hubble): use bigint for height,qlp,2024-11-18T20:29:11Z,2024-11-19T13:19:06+00:00,2,16.83
+3277,fix: correct libwasmvm linking,PoisonPhang,2024-11-18T23:21:54Z,2024-11-19T13:18:02+00:00,1,13.94
+3279,connection handshake,benluelo,2024-11-19T16:37:22Z,2024-11-22T18:22:39+00:00,3,73.75
+3280,fix(evm): use `wasm` key and prefixes in cometbls client,hussein-aitlahcen,2024-11-19T17:40:29Z,2024-11-19T20:55:23+00:00,3,3.25
+3281,fix(dynamic-dispatch): closes issue-3262,Caglankaan,2024-11-20T09:13:20Z,2024-11-20T21:36:04+00:00,2,12.38
+3282,fix(galoisd): network bind before loading circuit,hussein-aitlahcen,2024-11-20T11:56:06Z,2024-11-20T23:43:27+00:00,1,11.79
+3287,chore(uniond): update proto generation and open API spec,PoisonPhang,2024-11-21T16:23:19Z,2024-11-25T14:42:53+00:00,4,94.33
+3289,Use CosmWasm host functions for bls signature verification,aeryz,2024-11-22T12:22:17Z,2024-11-24T08:16:09+00:00,2,43.9
+3291,feat(zkgm): initial spec,hussein-aitlahcen,2024-11-22T14:16:06Z,2025-03-10T15:03:16+00:00,5,2592.79
+3293,chore: refactor table and icons strategy,o-az,2024-11-22T19:42:37Z,2024-11-23T02:06:40+00:00,3,6.4
+3294,fix: graphiql light mode theme,o-az,2024-11-23T06:02:03Z,2024-12-09T14:55:20+00:00,1,392.89
+3295,feat: openvscode-server nix setup,o-az,2024-11-23T22:36:50Z,2024-11-24T23:02:10+00:00,1,24.42
+3301,Switch eth lc to bincode,aeryz,2024-11-24T17:52:46Z,2024-11-25T12:28:47+00:00,1,18.6
+3302,fix(evm): ucs00 upgradeable and deployed on devnet,hussein-aitlahcen,2024-11-25T15:06:09Z,2024-11-25T18:25:19+00:00,1,3.32
+3305,fix: list element in blog,o-az,2024-11-25T15:56:08Z,2024-11-26T19:56:41+00:00,1,28.01
+3306,chore(uniond): update cosmos sdk ref,PoisonPhang,2024-11-25T17:40:28Z,2024-11-25T21:26:32+00:00,1,3.77
+3307,feat(union-testnet-9): finalize testnet 9 genesis and bundle,PoisonPhang,2024-11-25T21:45:49Z,2024-11-26T15:20:40+00:00,1,17.58
+3308,feat: channel handshake,benluelo,2024-11-26T12:49:27Z,2024-11-26T14:00:36+00:00,2,1.19
+3309,fix(hubble): replace tendermint-rpc library,qlp,2024-11-26T20:20:41Z,2024-11-29T11:23:49+00:00,8,63.05
+3311,Voyager packets,benluelo,2024-11-27T10:29:43Z,2024-12-02T20:36:46+00:00,1,130.12
+3313,feat(zkgm): scaffold,hussein-aitlahcen,2024-11-27T13:34:22Z,2025-01-06T11:40:55+00:00,1,958.11
+3314,chore: remove server dir,KaiserKarel,2024-11-27T14:38:27Z,2024-12-02T13:26:48+00:00,1,118.81
+3318,fix(uniond): set version modifier,PoisonPhang,2024-11-28T02:58:05Z,2024-11-28T11:08:46+00:00,1,8.18
+3319,Improved new evm test cases,Caglankaan,2024-11-28T13:06:11Z,2024-12-03T11:29:37+00:00,2,118.39
+3322,fix(hubble): replace httpie with xh,qlp,2024-12-02T10:24:31Z,2024-12-02T13:26:25+00:00,1,3.03
+3326,"chore: revert ""fix(union-testnet-9): decrease unbonding time""",PoisonPhang,2024-12-02T18:10:16Z,2024-12-03T00:54:30+00:00,1,6.74
+3327,app: checks,Swepool,2024-12-02T18:42:50Z,2024-12-02T21:04:12+00:00,1,2.36
+3328,chore(union-testnet-9): re-do gentxs,PoisonPhang,2024-12-02T22:51:52Z,2024-12-02T23:54:43+00:00,1,1.05
+3332,refactor: move ibc-events into the relevant voyager cosmos module,benluelo,2024-12-03T20:27:19Z,2024-12-04T14:46:01+00:00,1,18.31
+3333,feat(site): brand kit,Swepool,2024-12-03T22:26:00Z,2024-12-09T11:51:29+00:00,1,133.42
+3334,feat: new transfer flow,o-az,2024-12-04T03:31:05Z,2025-02-05T18:12:07+00:00,1,1526.68
+3337,fix(hubble): arbitrum consensus height tracking,qlp,2024-12-04T09:01:03Z,2024-12-04T15:30:34+00:00,1,6.49
+3341,fix(hubble): reduce logging,qlp,2024-12-04T16:18:55Z,2024-12-04T18:02:21+00:00,1,1.72
+3342,More bincode and move lc types under `lib`,aeryz,2024-12-04T17:43:00Z,2024-12-04T21:17:58+00:00,3,3.58
+3344,feat(zkgm): video,Swepool,2024-12-04T23:21:04Z,2024-12-05T00:47:59+00:00,2,1.45
+3345,feat(hubble): remove consensus tracking,qlp,2024-12-05T14:46:11Z,2024-12-05T16:27:03+00:00,3,1.68
+3347,feat: reorganize libraries,benluelo,2024-12-05T22:51:24Z,2024-12-06T13:12:10+00:00,1,14.35
+3348,feat(move-bindgen): properly support generics,benluelo,2024-12-06T03:19:12Z,2024-12-06T12:51:21+00:00,2,9.54
+3349,fix voyager movement + aptos modules,aeryz,2024-12-06T13:01:55Z,2024-12-06T18:17:54+00:00,2,5.27
+3350,feat: cleanup and remove unused code,benluelo,2024-12-06T15:56:19Z,2024-12-09T12:26:11+00:00,1,68.5
+3355,feat(berachain): port light-client to union-ibc,hussein-aitlahcen,2024-12-09T21:19:25Z,2024-12-09T23:54:16+00:00,2,2.58
+3356,chore: remove no longer required bls-eth-go/blst,hussein-aitlahcen,2024-12-10T11:43:47Z,2024-12-10T13:56:41+00:00,2,2.21
+3357,feat(berachain): make light client L2 to comet L1,hussein-aitlahcen,2024-12-10T15:33:54Z,2024-12-10T16:52:13+00:00,2,1.31
+3358,Voyager deployment,benluelo,2024-12-10T23:17:42Z,2024-12-11T17:57:13+00:00,3,18.66
+3365,Fixes,benluelo,2024-12-11T20:45:36Z,2024-12-12T15:58:09+00:00,1,19.21
+3366,refactor(app): transfer,Swepool,2024-12-11T21:53:54Z,2025-01-07T00:08:58+00:00,1,626.25
+3368,feat(evm): introduce `EvmInCosmosClient` state lens,hussein-aitlahcen,2024-12-12T15:50:53Z,2024-12-31T15:45:22+00:00,2,455.91
+3373,"fix(evm): contracts are not splitted anymore, the abi can be extracte…",hussein-aitlahcen,2024-12-13T09:54:29Z,2024-12-13T12:15:34+00:00,2,2.35
+3375,fix(evm): typo in event,hussein-aitlahcen,2024-12-13T12:53:45Z,2024-12-13T17:00:35+00:00,3,4.11
+3377,Refactor: Use h256 from own crate in evm storage verifier,atahanyild,2024-12-13T22:55:42Z,2024-12-14T01:44:13+00:00,1,2.81
+3380,feat(evm): testnet-9 contracts addressses,hussein-aitlahcen,2024-12-16T15:30:45Z,2024-12-17T12:07:00+00:00,1,20.6
+3381,chore(union-ibc): update cosmwasm-std to 2.1.4,PoisonPhang,2024-12-16T15:51:07Z,2024-12-18T22:11:00+00:00,5,54.33
+3383,make a few type aliases in ibc-union-spec public,larry0x,2024-12-17T02:37:51Z,2025-03-18T17:22:56+00:00,1,2198.75
+3385,Migrate movement ibc to union ibc,aeryz,2024-12-17T12:52:10Z,2024-12-17T14:24:50+00:00,2,1.54
+3387,feat: voyager berachain,hussein-aitlahcen,2024-12-17T18:14:16Z,2024-12-31T13:51:52+00:00,4,331.63
+3389,feat(voyager): thread item ids through plugins and modules,benluelo,2024-12-17T20:07:24Z,2024-12-17T21:45:41+00:00,2,1.64
+3390,chore: update contributing.md,benluelo,2024-12-17T20:33:17Z,2024-12-17T21:40:59+00:00,3,1.13
+3391,voyager fixes,benluelo,2024-12-18T16:07:43Z,2024-12-20T17:54:54+00:00,3,49.79
+3397,feat: expose solc,cor,2024-12-20T22:17:31Z,2024-12-21T00:00:01+00:00,2,1.71
+3398,docs(voyager): add more to concepts.md,benluelo,2024-12-23T14:09:08Z,2024-12-23T18:22:53+00:00,2,4.23
+3400,chore: deploy on sepolia and small fixes,benluelo,2024-12-23T19:03:21Z,2024-12-23T20:07:53+00:00,1,1.08
+3401,feat(voyager): add plugin to periodically update clients for liveliness,benluelo,2024-12-23T23:43:27Z,2024-12-24T11:58:58+00:00,1,12.26
+3403,feat(evm): add upgrade script for CometblsClient,hussein-aitlahcen,2024-12-24T13:32:55Z,2024-12-24T14:52:52+00:00,2,1.33
+3408,chore: run cargo-machete on the repo,benluelo,2024-12-28T16:20:16Z,2024-12-28T17:33:41+00:00,1,1.22
+3409,fix(voyager): add client bootstrap modules to config,benluelo,2024-12-29T04:56:44Z,2024-12-29T07:17:33+00:00,1,2.35
+3413,feat(voyager): support macos,benluelo,2024-12-30T16:54:37Z,2024-12-30T18:48:54+00:00,1,1.9
+3414,feat(voyager): replace u64 timestamp with Timestamp type across modules,atahanyild,2024-12-30T19:20:01Z,2024-12-30T20:27:42+00:00,3,1.13
+3416,fix(cometbls-light-client): remove cosmwasm21 feature,cor,2024-12-30T22:52:42Z,2024-12-31T00:06:20+00:00,1,1.23
+3423,3422 rename union ibc to ibc union,cor,2025-01-01T16:17:41Z,2025-01-01T17:53:59+00:00,2,1.6
+3428,chore: deployments.mdx,aeryz,2025-01-02T08:10:38Z,2025-01-02T12:05:12+00:00,1,3.91
+3429,fix(vscode): remove even-better-toml,cor,2025-01-02T17:16:47Z,2025-01-02T21:29:32+00:00,1,4.21
+3430,Connect docs,aeryz,2025-01-02T18:13:38Z,2025-01-02T19:49:20+00:00,3,1.59
+3433,feat: introduce `unionlabs-primitives`,benluelo,2025-01-02T19:10:05Z,2025-01-02T22:01:24+00:00,1,2.86
+3436,Statelens movement,Caglankaan,2025-01-03T11:26:42Z,2025-01-08T09:39:02+00:00,1,118.21
+3437,Bincode 2,benluelo,2025-01-05T17:13:30Z,2025-01-07T15:51:13+00:00,2,46.63
+3439,chore: port solidity ibc-union tests to cosmwasm,PoisonPhang,2025-01-06T15:55:08Z,2025-01-16T14:41:26+00:00,2,238.77
+3441,feat(ibc-union): normalize events,hussein-aitlahcen,2025-01-06T16:03:15Z,2025-01-06T20:00:29+00:00,1,3.95
+3443,feat(zkgm): simple endpoint for asset transfers,hussein-aitlahcen,2025-01-06T17:39:05Z,2025-01-06T20:01:53+00:00,1,2.38
+3448,Use UCS03 in TypeScript SDK,cor,2025-01-07T00:04:53Z,2025-01-07T22:32:55+00:00,2,22.47
+3451,refactor(app): changes to stores,Swepool,2025-01-07T19:30:09Z,2025-01-09T10:35:41+00:00,1,39.09
+3456,Cosmos <> EVM  state lens,aeryz,2025-01-08T07:44:41Z,2025-01-08T10:53:55+00:00,3,3.15
+3457,clean up light clients,benluelo,2025-01-08T08:53:37Z,2025-01-08T12:12:08+00:00,3,3.31
+3461,chore(voyager): make client-update for state lenses generic,aeryz,2025-01-08T11:55:33Z,2025-01-09T09:34:41+00:00,1,21.65
+3468,Move Statelens Client,Caglankaan,2025-01-09T09:53:04Z,2025-01-09T11:28:16+00:00,2,1.59
+3474,Add create3 library,PablitoAmaral,2025-01-09T13:06:45Z,2025-01-14T20:05:37+00:00,4,126.98
+3475,update typescript abi,cor,2025-01-09T13:18:01Z,2025-01-09T14:36:35+00:00,2,1.31
+3476,chore(typescript-sdk): release v0.0.41,cor,2025-01-09T14:38:56Z,2025-01-09T17:28:09+00:00,2,2.82
+3479,feat(zkgm): cosmwasm scaffold,hussein-aitlahcen,2025-01-09T16:27:04Z,2025-01-11T18:50:46+00:00,1,50.4
+3480,Rework app asset info fetching,Swepool,2025-01-09T16:41:03Z,2025-01-09T22:54:51+00:00,1,6.23
+3482,fix(app): fix test page,Swepool,2025-01-10T15:23:25Z,2025-01-12T17:56:14+00:00,1,50.55
+3483,feat(voyager): add more context to propagated errors and support jsonc,benluelo,2025-01-10T15:30:07Z,2025-01-10T18:00:00+00:00,2,2.5
+3486,Voyager cleanup more,benluelo,2025-01-10T18:02:23Z,2025-01-11T16:40:10+00:00,1,22.63
+3488,"fix(ibc-union): normalize event name, extend creation with counterparty chain-id",hussein-aitlahcen,2025-01-11T22:52:59Z,2025-01-12T10:25:27+00:00,1,11.54
+3489,chore(voyager): clean up code a bit,benluelo,2025-01-12T08:04:45Z,2025-01-12T12:00:28+00:00,1,3.93
+3490,Cosmos sdk event library refactor and voyager chunked event sourcing on cosmos,benluelo,2025-01-12T14:23:15Z,2025-01-12T17:44:38+00:00,1,3.36
+3495,Statelens eth lc,Caglankaan,2025-01-13T10:01:34Z,2025-01-15T11:37:33+00:00,2,49.6
+3496,feat(voyager): check ibc host contract address on event fetching,keyboord01,2025-01-13T10:45:05Z,2025-01-13T14:29:18+00:00,1,3.74
+3500,feat(docs): protocol channels,hussein-aitlahcen,2025-01-13T14:56:39Z,2025-01-13T16:08:38+00:00,1,1.2
+3506,feat(app): add holesky wagmi config,cor,2025-01-14T11:20:44Z,2025-01-14T18:15:54+00:00,3,6.92
+3507,Zkgm changes move,Caglankaan,2025-01-14T12:11:38Z,2025-01-14T13:38:23+00:00,1,1.45
+3508,feat(ibc-union): Add query responses ,adairrr,2025-01-14T14:59:06Z,2025-05-22T16:07:09+00:00,3,3073.13
+3509,chore(rs): added whitelisted relayers to clientstate,Caglankaan,2025-01-14T15:14:16Z,2025-01-15T08:50:51+00:00,2,17.61
+3510,refactor: move uint into unionlabs-primitives and split linea types,benluelo,2025-01-14T16:44:48Z,2025-01-14T21:03:13+00:00,2,4.31
+3517,chore(voyager): clean up eth rpc config param naming,benluelo,2025-01-15T13:22:13Z,2025-01-15T22:11:57+00:00,1,8.83
+3519,feat(zkgm): upgrade,hussein-aitlahcen,2025-01-15T14:43:18Z,2025-01-15T17:49:51+00:00,1,3.11
+3525,feat: state lens update plugin fix,aeryz,2025-01-16T05:23:40Z,2025-01-16T10:14:35+00:00,1,4.85
+3527,fix(cometbft-rpc): fix serde for empty hashes,benluelo,2025-01-16T11:29:39Z,2025-01-16T15:02:55+00:00,2,3.55
+3528,feat(hubble): record token source in database,qlp,2025-01-16T12:02:46Z,2025-01-18T09:29:56+00:00,1,45.45
+3529,feat(zgkm): handle batch+multiplex in cosmwasm,hussein-aitlahcen,2025-01-16T13:41:11Z,2025-01-16T16:43:31+00:00,2,3.04
+3531,feat(voyager): make the state lens client update module fully generic,benluelo,2025-01-16T17:55:57Z,2025-01-16T20:20:55+00:00,2,2.42
+3556,chore: update license,davidcardenasus,2025-01-16T23:48:55Z,2025-01-21T07:46:46+00:00,1,103.96
+3561,chore: emit state lens client event,aeryz,2025-01-17T04:17:35Z,2025-02-03T14:56:30+00:00,1,418.65
+3567,chore(voyager): small tracing patches,benluelo,2025-01-17T10:00:32Z,2025-01-17T16:29:54+00:00,1,6.49
+3575,3346 revamp release component workflow to remove nixbuildnet,PoisonPhang,2025-01-17T19:48:09Z,2025-01-18T15:26:24+00:00,1,19.64
+3581,fix(sdk): update  cosmjs patches,o-az,2025-01-18T20:17:09Z,2025-01-20T05:52:28+00:00,1,33.59
+3583,docs: update evm/README.md,eltociear,2025-01-19T11:40:20Z,2025-01-24T10:41:44+00:00,1,119.02
+3584,feat(voyager): add chain id equivalence,benluelo,2025-01-19T12:18:49Z,2025-01-19T14:37:21+00:00,1,2.31
+3587,docs: update chain-id and genesis,PoisonPhang,2025-01-19T21:09:47Z,2025-01-20T19:18:23+00:00,2,22.14
+3588,refactor(ibc-union-spec): clean up types and feature gated functionality,benluelo,2025-01-19T21:27:52Z,2025-01-20T13:31:50+00:00,3,16.07
+3590,fix: missing BUN_AUTH_TOKEN,o-az,2025-01-20T07:38:39Z,2025-01-20T15:51:44+00:00,1,8.22
+3597,feat(hubble): persist origin of token details,qlp,2025-01-21T12:03:28Z,2025-01-21T17:29:24+00:00,2,5.43
+3599,State lens codec fixes and docs,benluelo,2025-01-21T15:28:05Z,2025-01-21T19:01:57+00:00,2,3.56
+3600,chore: correct README link due to changes from PR #3266,CodeDragonVN,2025-01-21T19:11:36Z,2025-01-26T10:07:10+00:00,2,110.93
+3602,Use new token data in transfer submit flow,cor,2025-01-21T23:50:54Z,2025-01-23T12:26:02+00:00,1,36.59
+3604,Finalize movement state lens,aeryz,2025-01-22T06:32:54Z,2025-01-22T08:45:02+00:00,12,2.2
+3606,cosmos sdk module and plugin cleanup,benluelo,2025-01-22T09:39:03Z,2025-01-22T11:10:51+00:00,1,1.53
+3609,chore(treewide): clean up cargo toml,benluelo,2025-01-22T12:34:05Z,2025-01-22T14:26:27+00:00,1,1.87
+3610,docs(integrations): fix broken links,ayenesimo1i,2025-01-22T16:40:57Z,2025-01-24T16:25:03+00:00,1,47.73
+3611,docs: update osmosis deployment info,benluelo,2025-01-22T18:08:35Z,2025-01-22T22:15:27+00:00,1,4.11
+3613,chore: change babylon deployments,aeryz,2025-01-23T07:02:31Z,2025-01-23T08:22:54+00:00,1,1.34
+3624,feat(site): add email signup form,cor,2025-01-23T17:03:33Z,2025-01-23T18:43:28+00:00,1,1.67
+3628,feat: marketing form feedback,o-az,2025-01-24T08:33:28Z,2025-01-24T10:16:28+00:00,1,1.72
+3631,chore(zkgm): virtualize tokenfactory,aeryz,2025-01-24T11:23:40Z,2025-01-31T16:27:02+00:00,2,173.06
+3644,Voyager patches,benluelo,2025-01-27T09:07:10Z,2025-01-28T08:58:19+00:00,1,23.85
+3646,feat(app): filter features,Swepool,2025-01-28T01:53:35Z,2025-02-03T15:52:00+00:00,1,157.97
+3647,chore(voyager): cleanup,benluelo,2025-01-28T09:07:04Z,2025-01-28T14:44:53+00:00,1,5.63
+3648,"docs: Fixed Typo in ""Getting a Testnet Account"" Section",famouswizard,2025-01-28T09:34:05Z,2025-03-11T11:35:04+00:00,2,1010.02
+3649,fix(tokenfactory): double burn,aeryz,2025-01-28T16:16:09Z,2025-02-07T21:00:59+00:00,2,244.75
+3651,feat(voyager): cleanup and hardening,benluelo,2025-01-29T09:56:40Z,2025-01-29T11:33:50+00:00,1,1.62
+3652,fix(voyager): use l1 chain id when fetching l1 latest height,benluelo,2025-01-29T13:56:37Z,2025-01-29T16:13:00+00:00,2,2.27
+3653,Movement zkgm and state lens,Caglankaan,2025-01-30T09:38:31Z,2025-01-31T15:20:57+00:00,1,29.71
+3656,Hubble prevent restart on error,qlp,2025-01-30T12:18:51Z,2025-01-30T16:49:59+00:00,1,4.52
+3657,docs: update babylon<->stargaze deployment info,benluelo,2025-01-30T12:38:47Z,2025-01-30T16:24:48+00:00,1,3.77
+3662,Movement cosmos state lens,aeryz,2025-01-31T16:29:10Z,2025-02-10T12:26:42+00:00,1,235.96
+3664,feat(hubble): filter cosmos events,qlp,2025-01-31T21:05:03Z,2025-02-03T21:49:27+00:00,1,72.74
+3666,"feat: ics consumer chains, more ibc-union queries, and neutron deployment",benluelo,2025-02-01T10:08:47Z,2025-02-02T09:30:29+00:00,1,23.36
+3667,ethermint,benluelo,2025-02-03T08:15:33Z,2025-02-03T10:35:34+00:00,2,2.33
+3668,Voyager fixes and updates,benluelo,2025-02-03T14:11:51Z,2025-02-03T21:52:20+00:00,2,7.67
+3669,feat(uniond): remove tokenfactory and various ibc-classic apps,hussein-aitlahcen,2025-02-03T17:26:00Z,2025-02-04T15:43:21+00:00,2,22.29
+3671,cosmossdk cw20 quote token,cor,2025-02-03T20:21:47Z,2025-02-03T22:21:11+00:00,2,1.99
+3672,fix(app): quotetoken fix,Swepool,2025-02-03T22:59:23Z,2025-02-04T12:52:19+00:00,1,13.88
+3678,Fix doc graphql queries,KaiserKarel,2025-02-04T17:54:29Z,2025-02-04T22:19:43+00:00,2,4.42
+3681,Cosmwasm deployer,benluelo,2025-02-04T23:02:24Z,2025-02-07T12:57:47+00:00,3,61.92
+3683,feat(unionvisor): prepare update to bundle,PoisonPhang,2025-02-05T03:01:14Z,2025-02-11T18:11:41+00:00,1,159.17
+3689,feat(zkgm): add predictable contract addresses to cw20,aeryz,2025-02-06T13:05:40Z,2025-02-07T21:17:29+00:00,2,32.2
+3693,voyager: valset drift,hussein-aitlahcen,2025-02-06T15:42:20Z,2025-02-06T21:53:03+00:00,1,6.18
+3711,feat(cosmwasm-deployer): finalize scripts and init deployments.json,benluelo,2025-02-07T15:04:02Z,2025-02-07T16:30:05+00:00,3,1.43
+3717,Voyager updates,benluelo,2025-02-07T23:45:04Z,2025-02-10T10:44:16+00:00,1,58.99
+3723,fix(deployments): fix json,benluelo,2025-02-10T11:02:20Z,2025-02-10T12:48:35+00:00,2,1.77
+3724,feat(deployments): update deployments.json,benluelo,2025-02-10T13:21:38Z,2025-02-10T16:40:38+00:00,4,3.32
+3728,docs: added protocol/deployments,PoisonPhang,2025-02-10T19:51:16Z,2025-02-11T15:37:02+00:00,1,19.76
+3730,fix voyager batching and stargaze channel,benluelo,2025-02-11T01:58:03Z,2025-02-11T10:15:28+00:00,3,8.29
+3731,Fix audit findings,aeryz,2025-02-11T09:21:50Z,2025-02-11T10:23:36+00:00,2,1.03
+3732,feat(hubble): add lightclient.cometbls abi,qlp,2025-02-11T11:19:02Z,2025-02-11T13:31:32+00:00,1,2.21
+3736,Sentinelv2,Caglankaan,2025-02-11T14:53:38Z,2025-02-11T15:55:14+00:00,2,1.03
+3744,chore(deployments): update,benluelo,2025-02-11T19:37:41Z,2025-02-11T20:54:12+00:00,2,1.28
+3748,fix(docs): move new chain up in nav,PoisonPhang,2025-02-12T00:49:56Z,2025-02-12T11:05:19+00:00,1,10.26
+3749,fix: identical misbehaviour headers,srdtrk,2025-02-12T01:44:13Z,2025-02-15T05:48:22+00:00,1,76.07
+3752,VOYAGER STUFF,benluelo,2025-02-12T20:45:01Z,2025-02-13T13:02:16+00:00,1,16.29
+3758,babylon tendermint support,benluelo,2025-02-14T00:09:53Z,2025-02-14T14:00:59+00:00,7,13.85
+3759,feat(uniond): re-scaffold uniond on cosmos sdk v0.50.11,PoisonPhang,2025-02-14T01:33:09Z,2025-03-06T15:34:48+00:00,6,494.03
+3761,Movement integration,Caglankaan,2025-02-14T12:51:17Z,2025-02-17T09:41:03+00:00,3,68.83
+3763,fix(app): hotfix for invalid traces,cor,2025-02-14T15:15:16Z,2025-02-14T17:14:54+00:00,1,1.99
+3766,Voyager bulletproofing,benluelo,2025-02-14T19:54:14Z,2025-02-14T21:14:59+00:00,2,1.35
+3776,docs: new target block time,PoisonPhang,2025-02-15T19:46:59Z,2025-02-20T15:13:06+00:00,1,115.44
+3777,Degen trace,Swepool,2025-02-15T21:07:21Z,2025-02-15T22:50:56+00:00,1,1.73
+3779,"fix(voyager): order item popping by timestamp, not id",benluelo,2025-02-15T22:34:36Z,2025-02-16T15:21:43+00:00,1,16.79
+3791,Split aptos sui,aeryz,2025-02-17T06:48:09Z,2025-02-17T14:20:01+00:00,1,7.53
+3796,Ack toggle,Swepool,2025-02-17T19:47:07Z,2025-02-17T21:31:39+00:00,1,1.74
+3798,feat(zkgm): `transferV2` for WETH fee,hussein-aitlahcen,2025-02-17T20:29:22Z,2025-02-20T10:42:29+00:00,1,62.22
+3799,feat(voyager): parallelize evm indexing,benluelo,2025-02-17T23:55:59Z,2025-02-18T01:09:32+00:00,1,1.23
+3802,feat(voyager): improvements,benluelo,2025-02-18T13:09:13Z,2025-02-20T10:41:30+00:00,4,45.54
+3805,fix(app): pixel,Swepool,2025-02-18T22:38:14Z,2025-02-19T09:46:15+00:00,1,11.13
+3809,chore(aptos): add lens client event,aeryz,2025-02-19T09:52:42Z,2025-02-19T12:00:02+00:00,1,2.12
+3811,fix(app): fix receiver,Swepool,2025-02-19T15:39:03Z,2025-02-20T09:13:01+00:00,1,17.57
+3813,"zkgm: better name and symbol handling, and handle decimals",aeryz,2025-02-20T10:39:16Z,2025-02-21T07:17:50+00:00,3,20.64
+3817,fix(sdk): abis,Swepool,2025-02-20T15:30:42Z,2025-02-21T14:20:32+00:00,1,22.83
+3821,fix(voyager): queue packets behind correct update wait logic,benluelo,2025-02-20T20:09:49Z,2025-02-24T12:11:51+00:00,2,88.03
+3822,feat(app): add persisted cache to quotetoken,Swepool,2025-02-20T21:21:25Z,2025-02-20T22:42:13+00:00,1,1.35
+3827,fix(uniond): create codec with correct prefix,PoisonPhang,2025-02-21T03:25:07Z,2025-02-21T15:42:52+00:00,2,12.3
+3832,feat(app): transfer v2,Swepool,2025-02-21T13:11:50Z,2025-02-21T14:37:37+00:00,1,1.43
+3833,fix(hubble): allow 100MB http response size,qlp,2025-02-21T13:39:27Z,2025-02-21T20:29:26+00:00,1,6.83
+3835,zkgm: use same encoding in all impls,aeryz,2025-02-21T14:38:16Z,2025-02-21T20:56:59+00:00,1,6.31
+3842,migrate zkgm and token minter,aeryz,2025-02-24T11:55:51Z,2025-02-24T13:04:06+00:00,2,1.14
+3843,chore: added new channel for movement,Caglankaan,2025-02-24T13:49:31Z,2025-02-24T14:52:32+00:00,1,1.05
+3846,feat(zkgm): allow weth fee withdrawal,hussein-aitlahcen,2025-02-24T16:02:23Z,2025-02-24T18:23:08+00:00,3,2.35
+3848,chore: fixed wrong channel_id,Caglankaan,2025-02-24T17:25:04Z,2025-02-24T19:51:32+00:00,1,2.44
+3849,cosmwasm deployer permissioned cosmwasm chains,benluelo,2025-02-24T17:28:52Z,2025-02-24T18:34:19+00:00,2,1.09
+3850,feat(zkgm): enforce decimals,hussein-aitlahcen,2025-02-24T18:52:46Z,2025-03-03T12:20:29+00:00,3,161.46
+3851,chore(zkgm): remove unnecessary reply handles,aeryz,2025-02-24T20:48:07Z,2025-02-25T00:59:35+00:00,2,4.19
+3854,feat(drip): use turnstile,KaiserKarel,2025-02-24T22:24:13Z,2025-02-25T13:37:06+00:00,1,15.21
+3855,feat(app): use turnstile,Swepool,2025-02-24T22:49:40Z,2025-02-25T00:47:55+00:00,1,1.97
+3857,Movement stride connection,aeryz,2025-02-25T00:41:06Z,2025-02-25T11:45:26+00:00,1,11.07
+3858,Scaffold app v2.0,cor,2025-02-25T01:28:03Z,2025-02-25T13:04:28+00:00,2,11.61
+3860,aptos: expose minimal public api,aeryz,2025-02-25T13:06:44Z,2025-02-27T09:25:01+00:00,1,44.3
+3863,feat(uniond): priority mempool,hussein-aitlahcen,2025-02-25T19:29:05Z,2025-02-25T23:19:06+00:00,2,3.83
+3876,feat(beacon-api-types): electra,benluelo,2025-02-26T15:27:27Z,2025-02-26T17:14:18+00:00,1,1.78
+3878,feat(eth-lc): electra fork,hussein-aitlahcen,2025-02-26T15:38:18Z,2025-04-05T19:50:26+00:00,1,916.2
+3880,Cosmos client improvements,benluelo,2025-02-26T16:35:52Z,2025-03-01T16:47:06+00:00,1,72.19
+3882,Wallets,Swepool,2025-02-26T18:30:43Z,2025-02-27T21:24:11+00:00,9,26.89
+3887,fix(voyager): be more defensive,benluelo,2025-02-27T02:01:17Z,2025-02-27T14:34:54+00:00,2,12.56
+3888,fix(app): handle injected wallets,Swepool,2025-02-27T02:18:22Z,2025-02-27T15:12:16+00:00,1,12.9
+3901,Unionlabs cleanup,benluelo,2025-03-01T19:44:00Z,2025-03-02T14:50:34+00:00,1,19.11
+3902,feat(wasm): reduce size of built wasm blobs,benluelo,2025-03-01T20:28:17Z,2025-03-02T14:51:01+00:00,2,18.38
+3906,Patches n stuff,benluelo,2025-03-02T15:01:00Z,2025-03-03T13:01:52+00:00,2,22.01
+3910,Arbitrary light client storage,aeryz,2025-03-03T00:56:27Z,2025-03-11T00:38:38+00:00,33,191.7
+3916,feat(cosmwasm): add core migration script,benluelo,2025-03-03T14:56:22Z,2025-03-03T19:52:50+00:00,4,4.94
+3917,Include wasm events in hubble indexing,0xLaurenzo,2025-03-03T15:25:58Z,2025-03-04T12:40:57+00:00,4,21.25
+3919,Depolama,benluelo,2025-03-03T19:56:41Z,2025-03-13T18:31:55+00:00,7,238.59
+3920,Transfer args,Swepool,2025-03-03T21:08:19Z,2025-04-01T17:11:13+00:00,2,692.05
+3927,chore: fix semantic expression of BLS cryptography,wonderfan,2025-03-04T07:31:43Z,2025-03-09T20:29:52+00:00,2,132.97
+3936,Voyager stuff,benluelo,2025-03-04T17:42:29Z,2025-03-05T22:24:12+00:00,8,28.7
+3942,fix(drip): add rustls to reqwest features,KaiserKarel,2025-03-04T23:49:27Z,2025-03-09T19:55:06+00:00,1,116.09
+3948,Movement temporary trusted verification,aeryz,2025-03-05T14:59:05Z,2025-03-26T19:02:41+00:00,7,508.06
+3950,feat(app2): use v2 transfer list,qlp,2025-03-05T15:08:29Z,2025-03-05T16:51:03+00:00,1,1.71
+3952,feat(zkgm): tests suite,hussein-aitlahcen,2025-03-05T15:47:48Z,2025-03-06T13:55:09+00:00,2,22.12
+3954,feat(app2): ucs03-evm,Swepool,2025-03-06T00:52:30Z,2025-03-06T13:39:14+00:00,5,12.78
+3956,chore(app): wip stargaze faucet added,Caglankaan,2025-03-06T15:50:55Z,2025-03-12T14:17:24+00:00,1,142.44
+3960,3959 prepare v100 alpha release,PoisonPhang,2025-03-06T19:55:27Z,2025-03-06T21:22:23+00:00,2,1.45
+3966,chore: check sync committee before verification,aeryz,2025-03-06T21:45:42Z,2025-03-07T00:24:12+00:00,3,2.64
+3968,feat(ci): support pre release on rc or alpha,PoisonPhang,2025-03-06T22:15:43Z,2025-03-06T23:33:08+00:00,1,1.29
+3970,chore: update v1.0.0 input,PoisonPhang,2025-03-07T00:50:53Z,2025-03-07T02:37:32+00:00,2,1.78
+3974,fix(ci): correct workflow instructions,PoisonPhang,2025-03-07T03:58:37Z,2025-03-07T16:03:49+00:00,1,12.09
+3977,Changed hardcoded rpc in ts sdk,Caglankaan,2025-03-07T11:31:16Z,2025-03-07T13:24:01+00:00,1,1.88
+3979,Voyager stuff,benluelo,2025-03-07T13:30:20Z,2025-03-09T20:52:51+00:00,2,55.38
+3981,Transfer,Swepool,2025-03-07T14:54:18Z,2025-03-12T15:55:48+00:00,6,121.03
+3984,feat(drip): improve logging,benluelo,2025-03-07T22:59:25Z,2025-03-08T08:26:13+00:00,2,9.45
+3985,fix: deprecated #[clap] attributes with #[arg] and #[command],Himess,2025-03-08T01:33:00Z,2025-03-09T22:11:13+00:00,2,44.64
+3994,"Fetch all balances, tokens, and chain data in app",cor,2025-03-09T19:33:41Z,2025-03-09T20:45:30+00:00,3,1.2
+3995,Beacon chain types refactor,benluelo,2025-03-09T19:57:11Z,2025-03-10T12:19:48+00:00,1,16.38
+4011,feat(voyager): add expo backoff to failing items,benluelo,2025-03-10T15:16:56Z,2025-03-10T23:05:17+00:00,1,7.81
+4020,refactor(voyager): clean up nixos module definition,benluelo,2025-03-10T23:10:54Z,2025-03-11T09:54:11+00:00,3,10.72
+4023,feat(zkgm): cosmwasm: complete implementation of forwarding and multiplex,hussein-aitlahcen,2025-03-11T14:10:01Z,2025-03-12T17:41:55+00:00,5,27.53
+4026,chore: add ethereum sync protocol tests,aeryz,2025-03-11T20:35:24Z,2025-03-14T00:00:47+00:00,5,51.42
+4027,chore: update v1.0.0,PoisonPhang,2025-03-11T22:11:50Z,2025-03-12T12:43:16+00:00,1,14.52
+4029,feat: cleanup cosmwasm deployer and cosmos types,benluelo,2025-03-12T00:21:06Z,2025-03-13T10:00:21+00:00,1,33.65
+4036,fix(zkgm): revert batch if any instruction require a market maker,hussein-aitlahcen,2025-03-12T18:33:33Z,2025-03-12T20:13:26+00:00,2,1.66
+4038,Cosmos support,Swepool,2025-03-12T19:46:35Z,2025-03-13T16:58:30+00:00,1,21.2
+4041,feat(voyager): multi-instance nix module,hussein-aitlahcen,2025-03-12T21:11:30Z,2025-04-02T14:44:13+00:00,2,497.55
+4043,feat(ibc-union): alpha omega,hussein-aitlahcen,2025-03-13T00:21:14Z,2025-03-13T10:39:32+00:00,6,10.3
+4044,feat(hubble): testnet feature for lenient rpc handling,qlp,2025-03-13T11:31:00Z,2025-03-13T21:08:55+00:00,1,9.63
+4047,Movement fe integration appv2,Caglankaan,2025-03-13T15:50:11Z,2025-03-17T13:15:35+00:00,4,93.42
+4048,feat(ibc-union): normalize batch events,hussein-aitlahcen,2025-03-13T18:18:19Z,2025-03-13T22:49:32+00:00,4,4.52
+4050,feat(hubble): testnet feature for lenient rpc handling,qlp,2025-03-13T21:27:42Z,2025-03-15T08:38:48+00:00,2,35.19
+4052,zkgm: cleanup,hussein-aitlahcen,2025-03-14T02:13:30Z,2025-03-14T11:01:04+00:00,1,8.79
+4054,feat(ibc-union): add newtypes for ids,benluelo,2025-03-14T14:05:32Z,2025-03-17T08:33:02+00:00,1,66.46
+4056,feat(ibc-union): caller/relayer on all callbacks,hussein-aitlahcen,2025-03-14T16:11:29Z,2025-03-14T18:15:11+00:00,2,2.06
+4058,feat(mpc): better notification window,hussein-aitlahcen,2025-03-15T12:25:05Z,2025-03-18T17:56:08+00:00,2,77.52
+4059,feat: nixd config for helix,benluelo,2025-03-16T20:51:05Z,2025-03-17T08:32:51+00:00,1,11.7
+4060,Voyager fixin,benluelo,2025-03-17T02:32:49Z,2025-03-18T12:46:59+00:00,8,34.24
+4061,ci(app2): add workflow,cor,2025-03-17T13:20:38Z,2025-03-17T14:37:03+00:00,1,1.27
+4062,feat(uniond): reuse libwasmvm release artifacts,hussein-aitlahcen,2025-03-17T13:42:35Z,2025-03-17T14:47:00+00:00,2,1.07
+4068,feat(zkgm): FungibleAssetOrder version starts at 1,hussein-aitlahcen,2025-03-17T20:29:01Z,2025-03-17T21:46:20+00:00,3,1.29
+4069,chore: more eth tests,aeryz,2025-03-17T20:54:58Z,2025-03-18T17:16:03+00:00,1,20.35
+4072,Transfer improvements,Swepool,2025-03-18T02:33:14Z,2025-03-20T02:50:27+00:00,6,48.29
+4073,Expose ucs03 struct abis in ts-sdk,cor,2025-03-18T13:09:35Z,2025-03-18T14:49:38+00:00,2,1.67
+4074,Aptos balance fetcher,Caglankaan,2025-03-18T13:30:35Z,2025-03-21T12:12:38+00:00,2,70.7
+4075,fix(evm): fully working contract verification,hussein-aitlahcen,2025-03-18T14:41:10Z,2025-03-18T17:15:45+00:00,1,2.58
+4078,TsSdk examples,cor,2025-03-18T19:01:10Z,2025-03-18T20:32:13+00:00,2,1.52
+4079,Voyager moar fixin,benluelo,2025-03-18T23:35:29Z,2025-03-21T13:27:20+00:00,4,61.86
+4082,feat(union-testnet-10): create union testnet 10 genesis and bundle,PoisonPhang,2025-03-19T20:11:22Z,2025-03-19T22:11:50+00:00,1,2.01
+4086,feat(zkgm): introduce partial market maker filling on finality,hussein-aitlahcen,2025-03-20T12:05:05Z,2025-03-20T14:30:49+00:00,3,2.43
+4088,"Build arbitrary Zkgm packets, show JSON interpetation, and recursively ethABI encode them",cor,2025-03-20T14:03:03Z,2025-03-20T16:46:01+00:00,1,2.72
+4089,Sentinel2,Caglankaan,2025-03-20T14:59:17Z,2025-04-29T10:24:00+00:00,1,955.41
+4090,feat(app2): logo map and svgs,Swepool,2025-03-20T19:16:40Z,2025-03-20T21:23:56+00:00,1,2.12
+4092,Transfer receiver,Swepool,2025-03-21T01:54:08Z,2025-03-21T17:34:58+00:00,1,15.68
+4099,Aptos tssdk,Caglankaan,2025-03-21T15:35:46Z,2025-03-25T10:50:36+00:00,2,91.25
+4102,frissíthető,benluelo,2025-03-21T17:26:48Z,2025-03-24T01:34:33+00:00,3,56.13
+4104,Multi-phase transfer component,cor,2025-03-21T22:02:59Z,2025-04-01T17:10:16+00:00,2,259.12
+4108,chore(nix): bump nixpkgs,benluelo,2025-03-24T13:29:18Z,2025-03-24T22:08:46+00:00,4,8.66
+4109,feat(hubble): migrate to v2 model,qlp,2025-03-24T15:05:23Z,2025-03-24T17:46:40+00:00,1,2.69
+4111,feat(evm): add script to fetch deployment heights,benluelo,2025-03-24T22:21:12Z,2025-03-25T00:10:49+00:00,1,1.83
+4112,feat(cosmwasm-deployer): zkgm migration support,benluelo,2025-03-24T23:17:04Z,2025-04-07T06:41:26+00:00,1,319.41
+4113,fix(evm): hubble abi generation,qlp,2025-03-25T07:11:08Z,2025-03-28T09:50:09+00:00,1,74.65
+4115,feat(cometbls): check misbehavior on duplicate updates,hussein-aitlahcen,2025-03-25T11:47:37Z,2025-03-25T13:03:17+00:00,2,1.26
+4117,fix(zkgm): ensure ack is written for forwarded packet on timeout,hussein-aitlahcen,2025-03-25T17:51:40Z,2025-03-25T20:40:34+00:00,1,2.81
+4118,feat: arbitrum light client revival,benluelo,2025-03-25T19:03:44Z,2025-03-28T13:29:35+00:00,1,66.43
+4119,Mpt trusted lc,aeryz,2025-03-25T21:09:50Z,2025-03-27T19:11:53+00:00,12,46.03
+4122,feat(zgkm): tests verify fungible order properties,hussein-aitlahcen,2025-03-26T14:57:41Z,2025-03-26T17:28:21+00:00,1,2.51
+4123,fix(voyager): update solidity event defs,hussein-aitlahcen,2025-03-27T10:29:02Z,2025-03-27T15:58:48+00:00,2,5.5
+4124,feat(zkgm): cosmwasm: test suite,hussein-aitlahcen,2025-03-27T17:54:04Z,2025-03-28T17:17:25+00:00,1,23.39
+4126,Introduce Effect primitives; migrate schemas to `ts-sdk`,ehegnes,2025-03-27T19:24:51Z,2025-03-27T22:39:28+00:00,4,3.24
+4130,feat(deployment): bob,benluelo,2025-03-28T15:52:41Z,2025-03-28T17:47:05+00:00,1,1.91
+4131,feat(deployment): add channels_experimental and universal_chain_id,cor,2025-03-28T18:56:07Z,2025-03-31T10:24:49+00:00,5,63.48
+4133,Add UCS standards to docs,cor,2025-03-28T19:54:57Z,2025-03-31T10:00:45+00:00,3,62.1
+4135,feat(bob): verifier,hussein-aitlahcen,2025-03-28T21:33:25Z,2025-03-29T16:28:51+00:00,3,18.92
+4136,fix(voyager): fix config parsing for cosmos sdk tx plugin,benluelo,2025-03-30T16:38:59Z,2025-03-30T20:15:59+00:00,1,3.62
+4137,Use TypeScript Project References with PNPM Workspaces,ehegnes,2025-03-30T18:25:36Z,2025-04-01T15:28:18+00:00,7,45.05
+4140,feat(voyager): thread endpoints through config if provided,benluelo,2025-03-31T17:15:35Z,2025-03-31T19:54:44+00:00,1,2.65
+4142,Bump rust version and update dependencies,benluelo,2025-03-31T22:51:15Z,2025-03-31T23:56:50+00:00,1,1.09
+4144,chore(cosmwasm-deployer): use release builds,benluelo,2025-04-01T01:02:42Z,2025-04-01T11:00:35+00:00,1,9.96
+4145,fix(hubble): token data moved to token schema,qlp,2025-04-01T10:13:46Z,2025-04-02T12:54:30+00:00,2,26.68
+4147,Add logging for Movement events,crStiv,2025-04-01T15:53:02Z,2025-05-19T10:45:29+00:00,2,1146.87
+4149,feat(app2): transfer fixes for demo,Swepool,2025-04-01T20:46:49Z,2025-04-02T20:25:08+00:00,2,23.64
+4150,feat(bob): fixed finalization period and voyager modules,hussein-aitlahcen,2025-04-01T23:36:13Z,2025-04-05T15:13:54+00:00,5,87.63
+4151,chore(voyager): clean up nix,benluelo,2025-04-02T03:59:28Z,2025-04-02T14:11:27+00:00,2,10.2
+4152,chore(deployment): separate channels,qlp,2025-04-02T09:54:26Z,2025-04-02T14:10:49+00:00,3,4.27
+4154,chore(voyager): run strip on plugins and modules,benluelo,2025-04-02T16:06:36Z,2025-04-02T17:16:16+00:00,1,1.16
+4155,chore(docs): apply v2 graphql api changes,qlp,2025-04-02T18:56:32Z,2025-04-07T20:02:08+00:00,1,121.09
+4156,fix(app2): small ui changes,Swepool,2025-04-02T23:28:41Z,2025-04-03T13:43:16+00:00,2,14.24
+4158,Clients json,benluelo,2025-04-03T02:49:03Z,2025-04-03T14:57:06+00:00,4,12.13
+4159,Add `@effect/language-service`,ehegnes,2025-04-03T15:19:04Z,2025-04-04T01:25:59+00:00,2,10.12
+4161,chore(voyager): patch devnet config,benluelo,2025-04-03T17:15:58Z,2025-04-03T19:55:18+00:00,1,2.66
+4162,feat(app2): wip - transfer ui,Swepool,2025-04-03T23:01:52Z,2025-04-04T14:41:28+00:00,1,15.66
+4165,Ucs04,benluelo,2025-04-04T06:37:55Z,2025-04-04T12:17:00+00:00,1,5.65
+4167,Transfer submission state machine and encoding fixes,Swepool,2025-04-04T18:27:21Z,2025-04-08T23:35:21+00:00,1,101.13
+4168,finish arbitrum lc,benluelo,2025-04-04T20:14:09Z,2025-04-05T00:39:51+00:00,1,4.43
+4169,fix(app2): remove guard,Swepool,2025-04-05T00:07:22Z,2025-04-05T22:28:20+00:00,1,22.35
+4177,feat(state-lens-ics23-mpt): module no longer hardcoded to ethereum counterparty,benluelo,2025-04-05T18:04:58Z,2025-04-06T12:17:13+00:00,3,18.2
+4181,fix(zkgm): better zkgm forward salt tinting,hussein-aitlahcen,2025-04-06T13:51:44Z,2025-04-06T16:20:45+00:00,2,2.48
+4182,fix(state-lens-ics23-mpt): remove defaults for consensus state offsets,benluelo,2025-04-06T16:11:02Z,2025-04-06T17:26:36+00:00,2,1.26
+4183,feat(voyager): clean up error messages,benluelo,2025-04-06T18:07:12Z,2025-04-06T21:51:13+00:00,1,3.73
+4188,"feat(rust,nix): a whole bunch of hackery",benluelo,2025-04-07T04:46:34Z,2025-04-07T15:44:44+00:00,1,10.97
+4191,fix(zkgm): more robust channel handshake,hussein-aitlahcen,2025-04-07T12:48:48Z,2025-04-07T15:43:32+00:00,2,2.91
+4195,chore(deployments): clean up,benluelo,2025-04-07T20:32:47Z,2025-04-07T22:11:57+00:00,3,1.65
+4196,chore(deployments): clean up - channels,qlp,2025-04-07T20:45:58Z,2025-04-07T22:11:49+00:00,2,1.43
+4197,deployments updates,benluelo,2025-04-08T05:31:50Z,2025-04-08T10:44:18+00:00,1,5.21
+4202,feat(trusted-mpt): add pubkey auth,aeryz,2025-04-08T11:37:51Z,2025-04-08T14:49:24+00:00,6,3.19
+4204,fix: correct condition in Tendermint's query_latest_timestamp,marvelshan,2025-04-08T12:44:39Z,2025-04-08T13:54:59+00:00,2,1.17
+4206,Fix `nix fmt` warnings in `app2` and `ts-sdk`,ehegnes,2025-04-08T13:05:39Z,2025-04-08T22:48:45+00:00,1,9.72
+4211,chore(deployments): update universal chain ids,qlp,2025-04-08T15:42:23Z,2025-04-08T17:08:08+00:00,3,1.43
+4214,chore(zkgm): cosmwasm tests,aeryz,2025-04-08T21:24:04Z,2025-04-12T09:54:11+00:00,1,84.5
+4217,Voyager timeouts,benluelo,2025-04-09T05:00:58Z,2025-04-10T12:45:45+00:00,3,31.75
+4218,feat(evm): initial access manager & token bucket,hussein-aitlahcen,2025-04-09T09:08:51Z,2025-04-09T16:58:02+00:00,2,7.82
+4222,feat(evm): deployer and better scripts,benluelo,2025-04-09T17:09:31Z,2025-04-09T19:08:57+00:00,2,1.99
+4225,chore(nix): more cleanup and some fixes,benluelo,2025-04-09T19:31:56Z,2025-04-09T22:07:42+00:00,2,2.6
+4226,feat(cosmwasm): ibc-union/zkgm access control,hussein-aitlahcen,2025-04-09T19:42:52Z,2025-04-09T22:53:47+00:00,4,3.18
+4228,Consistently transform fungible asset order input arguments,ehegnes,2025-04-10T03:40:14Z,2025-04-10T10:08:17+00:00,2,6.47
+4229,App2 fixes,Swepool,2025-04-10T06:00:52Z,2025-04-10T16:11:10+00:00,1,10.17
+4237,"fix(evm): manager: linear ids, add deploy script to overwrite roles",hussein-aitlahcen,2025-04-10T09:24:32Z,2025-04-10T11:01:01+00:00,1,1.61
+4239,chore(eth-verifier): next sync committee fix,aeryz,2025-04-10T10:37:44Z,2025-04-10T11:51:02+00:00,1,1.22
+4240,Auto overflow on asset scrolling,ehegnes,2025-04-10T12:18:42Z,2025-04-10T22:51:09+00:00,1,10.54
+4241,fix(app2): calculating tokenmeta dynamically,Caglankaan,2025-04-10T12:23:07Z,2025-04-10T14:16:24+00:00,1,1.89
+4242,feat(deployments): union and babylon testnet deployments,benluelo,2025-04-10T13:23:27Z,2025-04-10T15:14:14+00:00,2,1.85
+4243,app2 unwrap,cor,2025-04-10T13:23:34Z,2025-04-10T15:51:25+00:00,3,2.46
+4246,feat(app2): present approval & submit errors,ehegnes,2025-04-10T16:41:49Z,2025-04-11T01:02:11+00:00,3,8.34
+4253,Make error component more end-user friendly,ehegnes,2025-04-11T00:07:51Z,2025-04-11T01:20:28+00:00,3,1.21
+4256,Polish UI errors,ehegnes,2025-04-11T05:59:43Z,2025-04-11T11:27:53+00:00,3,5.47
+4272,chore(app2): showing actual address instead of cannonical ones,Caglankaan,2025-04-11T15:17:11Z,2025-04-11T17:46:48+00:00,1,2.49
+4273,Moar and moar clients,aeryz,2025-04-11T16:08:08Z,2025-04-11T21:52:45+00:00,2,5.74
+4274,fix(app2): change to bbn-1,Swepool,2025-04-11T16:27:54Z,2025-04-11T17:44:58+00:00,2,1.28
+4290,feat(voyager): custom plugin rpcs,benluelo,2025-04-12T01:09:19Z,2025-04-12T14:12:27+00:00,2,13.05
+4292,ui changes,Swepool,2025-04-12T10:50:09Z,2025-04-12T12:18:33+00:00,1,1.47
+4293,chore: upgrade deployed channels,hussein-aitlahcen,2025-04-12T11:02:19Z,2025-04-12T12:10:37+00:00,3,1.14
+4294,chore(cw20-minter): set zkgm admin as admin,aeryz,2025-04-12T11:06:28Z,2025-04-24T00:38:01+00:00,4,277.53
+4304,fix(app2): modal backdrop trigger,ehegnes,2025-04-12T17:07:38Z,2025-04-12T18:15:46+00:00,1,1.14
+4307,Mobile friendly,ehegnes,2025-04-12T21:17:22Z,2025-04-13T00:42:38+00:00,1,3.42
+4308,"fix(arbitrum,voyager): verify _latestNodeCreated instead of _latestNodeConfirmed",benluelo,2025-04-13T02:18:57Z,2025-04-13T13:40:59+00:00,1,11.37
+4309,fix(devshell): un-curse cast,benluelo,2025-04-13T05:32:27Z,2025-04-13T11:43:16+00:00,1,6.18
+4310,feat(voyager): drop zkgm success ack on protocol fill,aeryz,2025-04-13T10:13:01Z,2025-04-14T13:52:44+00:00,1,27.66
+4318,fix(app2): comment out manifest,Swepool,2025-04-13T15:21:28Z,2025-04-13T20:08:14+00:00,1,4.78
+4322,chore(zkgm): change default decimals to 6,aeryz,2025-04-13T20:20:14Z,2025-04-14T13:16:02+00:00,3,16.93
+4324,chore: cleanup imports,ehegnes,2025-04-13T23:08:06Z,2025-04-14T18:02:47+00:00,1,18.91
+4331,filling refactor and bbn -> * fee,Swepool,2025-04-14T12:45:38Z,2025-04-14T21:15:28+00:00,1,8.5
+4334,deployment docs,benluelo,2025-04-14T14:15:15Z,2025-04-14T15:51:48+00:00,2,1.61
+4336,feat(hubble): subscribe to github files,qlp,2025-04-14T16:25:43Z,2025-04-15T03:03:16+00:00,3,10.63
+4337,fix(ts-sdk): decimals,ehegnes,2025-04-14T17:19:22Z,2025-04-14T19:46:14+00:00,1,2.45
+4339,fix(app2): validate amount input correctly,ehegnes,2025-04-14T19:28:46Z,2025-04-14T20:52:50+00:00,1,1.4
+4347,"feat(ts-sdk, app2): multisig",benluelo,2025-04-15T01:10:53Z,2025-04-18T01:47:56+00:00,1,72.62
+4348,chore: update deployment,hussein-aitlahcen,2025-04-15T10:28:01Z,2025-04-15T13:23:13+00:00,6,2.92
+4349,voyager fix,benluelo,2025-04-15T11:37:05Z,2025-04-15T13:28:23+00:00,2,1.85
+4350,fix(voyager): avoid being too smart for arbitrum,hussein-aitlahcen,2025-04-15T12:12:46Z,2025-04-15T13:33:44+00:00,1,1.35
+4351,prod-53-current-allowance-amounts-are-always-0,Swepool,2025-04-15T14:58:22Z,2025-04-16T10:20:41+00:00,1,19.37
+4355,Cwdeployerfix,benluelo,2025-04-15T17:28:41Z,2025-04-15T19:29:15+00:00,1,2.01
+4356,chore: add trusted mpt consensus,aeryz,2025-04-15T18:52:26Z,2025-04-16T12:17:23+00:00,4,17.42
+4357,CONTRIBUTING.md should have a link on ARCHITECTURE.md,sergey-shandar,2025-04-15T23:25:12Z,2025-05-21T23:44:23+00:00,1,864.32
+4358,fix(voyager): properly handle ready ops after run_pass,benluelo,2025-04-16T15:42:32Z,2025-04-16T20:26:01+00:00,1,4.72
+4361,Osmosis feemarket support,benluelo,2025-04-16T20:31:51Z,2025-04-16T23:47:33+00:00,1,3.26
+4363,feat(zkgm): faster than finality market making,hussein-aitlahcen,2025-04-17T12:57:23Z,2025-04-17T17:50:21+00:00,1,4.88
+4364,fix(evm): remove unused import,hussein-aitlahcen,2025-04-17T13:12:27Z,2025-04-17T15:02:58+00:00,2,1.84
+4365,chore(ts-sdk): added required functions for supply control,Caglankaan,2025-04-17T13:32:53Z,2025-04-18T14:23:36+00:00,1,24.85
+4366,feat(app2): check safe support,Swepool,2025-04-17T15:56:25Z,2025-04-18T14:07:10+00:00,1,22.18
+4368,Use a Timestamp and Duration newtype throughout the stack,benluelo,2025-04-17T18:40:59Z,2025-04-17T21:53:12+00:00,6,3.2
+4369,Hubble abi fetcher,qlp,2025-04-17T19:11:23Z,2025-04-19T17:03:57+00:00,5,45.88
+4370,Add connections,aeryz,2025-04-17T19:59:58Z,2025-07-21T06:20:14+00:00,1,2266.34
+4373,chore: clean up dead code and deps,benluelo,2025-04-18T00:57:14Z,2025-04-21T15:15:47+00:00,2,86.31
+4377,"fix(app2,ts-sdk): resolve misaligned dependencies",ehegnes,2025-04-18T14:43:40Z,2025-04-18T16:16:40+00:00,1,1.55
+4379,fix(voyager): more resilient zkgm filtering,benluelo,2025-04-18T15:33:48Z,2025-04-18T18:20:56+00:00,2,2.79
+4382,feat(frissitheto): add functionality to set the state version and some tests,benluelo,2025-04-18T19:58:51Z,2025-04-18T21:04:09+00:00,2,1.09
+4385,fix(app): test again,Swepool,2025-04-18T21:41:22Z,2025-04-18T23:12:21+00:00,1,1.52
+4386,feat(app2): disable destination chains based on channel availability,ehegnes,2025-04-18T21:48:16Z,2025-04-19T00:59:52+00:00,1,3.19
+4394,feat: unionlabs-encoding,benluelo,2025-04-19T05:40:15Z,2025-04-21T19:20:20+00:00,2,61.67
+4398,feat(zkgm): optional rate limiting,hussein-aitlahcen,2025-04-21T17:47:44Z,2025-04-22T13:20:16+00:00,4,19.54
+4399,chore(ci): enable docs,PoisonPhang,2025-04-21T23:56:33Z,2025-04-24T18:09:30+00:00,1,66.22
+4401,chore: update deployment,hussein-aitlahcen,2025-04-22T11:22:05Z,2025-04-22T13:09:09+00:00,1,1.78
+4402,feat: introduce ucs06 funded dispatch,hussein-aitlahcen,2025-04-22T13:19:18Z,2025-04-25T10:00:13+00:00,3,68.68
+4403,feat(hubble): manage editions,qlp,2025-04-22T14:09:57Z,2025-04-23T19:05:34+00:00,1,28.93
+4404,feat(app2): add buckets filter,Swepool,2025-04-22T19:24:45Z,2025-04-23T11:10:35+00:00,1,15.76
+4407,docs(deployments): document deployments files,benluelo,2025-04-22T23:57:13Z,2025-04-23T07:04:05+00:00,4,7.11
+4408,feat(app2): editions in fe,Swepool,2025-04-23T01:20:26Z,2025-04-24T20:26:21+00:00,1,43.1
+4410,Incomplete transfers page,Caglankaan,2025-04-23T12:08:10Z,2025-04-25T12:01:11+00:00,1,47.88
+4411,feat(hubble): channel sla,qlp,2025-04-23T14:31:33Z,2025-04-23T19:05:14+00:00,1,4.56
+4413,feat(voyager): smarter batching,benluelo,2025-04-23T15:41:41Z,2025-04-24T15:46:26+00:00,2,24.08
+4414,Don't use garnix cache for deployments,PoisonPhang,2025-04-23T16:08:48Z,2025-04-30T15:20:13+00:00,1,167.19
+4415,chore: moar channels,aeryz,2025-04-23T18:25:02Z,2025-04-24T22:33:19+00:00,7,28.14
+4418,feat(hubble): editions - rework,qlp,2025-04-24T07:15:43Z,2025-04-24T20:37:27+00:00,6,13.36
+4420,feat(deployments): add a chain to test,Swepool,2025-04-24T15:12:26Z,2025-04-24T23:24:30+00:00,1,8.2
+4421,ucs03-zkgm cw20-base,benluelo,2025-04-24T17:53:50Z,2025-04-24T22:47:28+00:00,2,4.89
+4422,chore(editions): configure app2 edition,cor,2025-04-24T19:24:35Z,2025-04-25T09:53:24+00:00,2,14.48
+4424,feat(app2): updated design,Swepool,2025-04-24T21:39:22Z,2025-04-24T23:23:53+00:00,1,1.74
+4425,chore(deployments): update,benluelo,2025-04-25T01:24:18Z,2025-04-25T16:54:26+00:00,2,15.5
+4426,chore(cw20-token-minter): remove temporary migration code,benluelo,2025-04-25T01:51:23Z,2025-04-28T18:13:43+00:00,2,88.37
+4427,fix(channels): direction-aware SLAs,cor,2025-04-25T10:13:36Z,2025-04-25T11:16:53+00:00,2,1.05
+4429,osmosis tf minter,aeryz,2025-04-25T10:44:07Z,2025-04-28T13:24:27+00:00,7,74.67
+4433,Text change and comment,Swepool,2025-04-25T13:36:06Z,2025-04-29T17:31:51+00:00,1,99.93
+4434,fix(app2): missing rune,Swepool,2025-04-25T13:52:59Z,2025-04-29T02:27:35+00:00,1,84.58
+4435,chore(docs): test meta tag,PoisonPhang,2025-04-25T15:19:12Z,2025-04-25T19:51:30+00:00,2,4.54
+4436,chore(deployments): update,hussein-aitlahcen,2025-04-25T17:40:57Z,2025-04-25T18:46:48+00:00,2,1.1
+4437,feat(deployments): add minter to ucs03 deployment info,benluelo,2025-04-25T18:45:10Z,2025-04-28T13:46:58+00:00,5,67.03
+4438,Approval amount,Swepool,2025-04-25T19:09:22Z,2025-04-26T20:25:54+00:00,1,25.28
+4440,Yeet tonic,benluelo,2025-04-26T00:23:13Z,2025-04-28T21:18:34+00:00,3,68.92
+4442,Deps cleanup more,benluelo,2025-04-26T20:00:09Z,2025-05-30T15:24:17+00:00,1,811.4
+4443,"chore(app2,ts-sdk): cleanup static analysis #1",ehegnes,2025-04-26T22:21:59Z,2025-04-29T00:12:06+00:00,2,49.84
+4444,"feat(app2,ts-sdk): add reactive Effect utilities for Svelte 5",ehegnes,2025-04-27T04:23:14Z,2025-04-28T23:15:52+00:00,2,42.88
+4445,chore(osmosis-tokenfactory-token-minter): moar tests,aeryz,2025-04-28T13:28:05Z,2025-04-28T21:44:59+00:00,3,8.28
+4447,Xion,benluelo,2025-04-28T17:13:58Z,2025-04-28T20:11:43+00:00,2,2.96
+4448,fix(app2): cosmos offline signing error marshalling,ehegnes,2025-04-28T18:20:41Z,2025-04-28T21:34:14+00:00,2,3.23
+4449,feat(app2): display asset with chain on chain selector,ehegnes,2025-04-28T21:43:36Z,2025-04-28T22:45:28+00:00,1,1.03
+4452,fix(app2): adjust text color on input,Swepool,2025-04-28T23:04:09Z,2025-04-29T00:52:51+00:00,2,1.81
+4455,feat(deployments): xion<->holesky,benluelo,2025-04-29T01:28:22Z,2025-04-29T14:16:19+00:00,2,12.8
+4457,Shortcut to disable whitelist check,ehegnes,2025-04-29T04:13:38Z,2025-04-29T17:12:59+00:00,3,12.99
+4458,fix(app2): extract error details,cor,2025-04-29T10:34:54Z,2025-04-29T14:58:17+00:00,3,4.39
+4459,chore: add client types and trusted stuff to deployments,aeryz,2025-04-29T14:18:46Z,2025-04-29T19:51:58+00:00,2,5.55
+4462,App seo,Swepool,2025-04-29T17:59:26Z,2025-04-29T20:34:17+00:00,1,2.58
+4465,feat(app2): add optional asset icon to chain component,ehegnes,2025-04-29T22:09:10Z,2025-04-30T18:46:06+00:00,2,20.62
+4468,feat(app2): flip,Swepool,2025-04-30T01:29:39Z,2025-05-02T22:34:28+00:00,1,69.08
+4470,feat(voyager): don't index trivial events by default,benluelo,2025-04-30T01:56:37Z,2025-04-30T07:31:29+00:00,1,5.58
+4471,more channels and clients,benluelo,2025-04-30T02:38:22Z,2025-04-30T08:36:43+00:00,2,5.97
+4478,fix(app2): wallet connect,Swepool,2025-04-30T13:42:37Z,2025-04-30T14:59:08+00:00,1,1.28
+4491,feat(app2): get edition on load,Swepool,2025-04-30T19:51:51Z,2025-05-01T14:23:14+00:00,1,18.52
+4492,chore(ci): do not depend on garnix cache,PoisonPhang,2025-04-30T20:53:34Z,2025-04-30T21:58:57+00:00,1,1.09
+4493,feat(app2): add tweet button,Swepool,2025-04-30T21:16:00Z,2025-08-24T21:30:05+00:00,1,2784.23
+4494,feat(voyager): add support for missing proofs and fix zkgm filter plugin,benluelo,2025-04-30T22:41:04Z,2025-05-01T15:53:41+00:00,2,17.21
+4495,Voyager more caching,benluelo,2025-05-01T02:22:29Z,2025-05-01T21:19:12+00:00,2,18.95
+4499,chore(docs): display chain name and chain ID,PoisonPhang,2025-05-01T20:01:17Z,2025-05-02T15:30:47+00:00,2,19.49
+4502,update bob,benluelo,2025-05-02T05:58:05Z,2025-05-02T16:10:52+00:00,1,10.21
+4504,feat(app2): only full reset on navigation,Swepool,2025-05-02T11:03:24Z,2025-05-02T21:17:45+00:00,1,10.24
+4505,sei deployments,benluelo,2025-05-02T16:40:43Z,2025-05-02T18:27:15+00:00,2,1.78
+4508,chore: migrate biome to dprint,ehegnes,2025-05-02T19:17:34Z,2025-05-05T19:15:26+00:00,3,71.96
+4509,feat(voyager): evm transaction submission improvements,benluelo,2025-05-02T20:26:18Z,2025-05-02T21:40:56+00:00,1,1.24
+4513,feat(voyager): batch commitments,benluelo,2025-05-04T04:08:01Z,2025-05-06T23:36:12+00:00,1,67.47
+4516,chore(ts-sdk): added cosmos-evm read with block/height,Caglankaan,2025-05-05T12:17:41Z,2025-05-13T10:39:03+00:00,2,190.36
+4518,feat(zkgm): allow native eth bridging through eip 7528 address,hussein-aitlahcen,2025-05-05T16:16:20Z,2025-05-07T14:13:48+00:00,2,45.96
+4519,feat(ethermint): generalize ethermint client,benluelo,2025-05-06T02:00:35Z,2025-05-06T14:11:02+00:00,3,12.17
+4520,fix(ts-sdk): move runtime dependencies out of devDependencies,ehegnes,2025-05-06T06:12:25Z,2025-05-06T13:33:09+00:00,1,7.35
+4521,Sentinel certificate,Caglankaan,2025-05-06T07:31:44Z,2025-05-22T09:38:46+00:00,1,386.12
+4523,feat: state lens client migration and some fixes,benluelo,2025-05-07T00:10:26Z,2025-05-19T22:44:38+00:00,1,310.57
+4527,add: new whitelisted tokens,PablitoAmaral,2025-05-07T18:34:03Z,2025-05-07T21:36:50+00:00,1,3.05
+4528,chore(voyager): sneaky little hobbitses,benluelo,2025-05-08T00:17:51Z,2025-05-08T14:51:29+00:00,1,14.56
+4534,"feat(beacon-api,voyager): support non-lodestar clients",benluelo,2025-05-09T15:36:42Z,2025-05-09T17:07:12+00:00,1,1.51
+4535,Beacon api client caching,benluelo,2025-05-09T18:31:24Z,2025-05-11T01:05:34+00:00,1,30.57
+4536,feat(hubble): support instantiate height specification in token list,qlp,2025-05-09T18:37:51Z,2025-05-13T14:29:03+00:00,5,91.85
+4537,feat(zkgm): introduce cross-chain staking,hussein-aitlahcen,2025-05-10T11:51:34Z,2025-05-19T22:31:10+00:00,11,226.66
+4538,feat(app2): introduce Effect runtime,ehegnes,2025-05-10T13:41:34Z,2025-05-19T16:18:43+00:00,4,218.62
+4542,feat(u): init,benluelo,2025-05-11T01:10:46Z,2025-05-12T13:09:57+00:00,1,35.99
+4543,feat(deployments): babylon<->osmosis,benluelo,2025-05-11T20:29:01Z,2025-05-12T02:09:21+00:00,1,5.67
+4545,fix(voyager): json is pain,benluelo,2025-05-12T02:40:05Z,2025-05-12T19:41:22+00:00,1,17.02
+4547,feat(u): add packet hash command,benluelo,2025-05-12T18:44:27Z,2025-05-12T23:03:12+00:00,1,4.31
+4548,voyager metrics improvements,benluelo,2025-05-12T23:21:49Z,2025-05-19T10:29:34+00:00,1,155.13
+4549,S              U               I,aeryz,2025-05-13T11:12:15Z,2025-06-02T14:18:36+00:00,11,483.11
+4550,feat(app2): improve user-facing errors,ehegnes,2025-05-13T17:50:20Z,2025-05-15T15:11:38+00:00,8,45.35
+4555,feat(ts-sdk): add Babylon to Osmosis example,ehegnes,2025-05-14T17:24:39Z,2025-05-15T10:02:56+00:00,2,16.64
+4557,fix(ts-sdk): create FAO example,ehegnes,2025-05-15T14:06:08Z,2025-05-19T10:28:45+00:00,1,92.38
+4558,dashboard,Swepool,2025-05-15T19:17:37Z,2025-05-21T17:07:36+00:00,3,141.83
+4559,chore: make vscode work with dprint,ehegnes,2025-05-15T21:23:20Z,2025-05-19T10:27:58+00:00,1,85.08
+4561,feat(voyager): exact provable height,benluelo,2025-05-16T13:37:49Z,2025-05-19T10:49:12+00:00,1,69.19
+4563,fix(uniond): enable fee market post handler,PoisonPhang,2025-05-16T22:23:31Z,2025-05-18T16:30:29+00:00,1,42.12
+4564,feat(chain-kitchen): init,benluelo,2025-05-18T16:33:32Z,2025-05-19T10:28:13+00:00,2,17.91
+4569,Sui zkgm implementation,Caglankaan,2025-05-19T15:09:46Z,2025-05-20T10:45:43+00:00,1,19.6
+4570,feat(deployments): update evm testnets,benluelo,2025-05-20T00:17:24Z,2025-05-20T10:32:42+00:00,1,10.26
+4571,"chore(app2,ts-sdk): appropriately level log messages",ehegnes,2025-05-20T04:09:05Z,2025-05-20T14:07:28+00:00,1,9.97
+4574,Show acks and timeouts in transfer details,cor,2025-05-20T15:20:01Z,2025-05-20T16:21:10+00:00,1,1.02
+4575,Ibc packet tests revival,benluelo,2025-05-20T15:33:29Z,2025-05-21T14:27:08+00:00,1,22.89
+4576,fix(app2): static analysis take 3,ehegnes,2025-05-20T16:35:12Z,2025-05-20T17:42:45+00:00,2,1.13
+4579,feat(app2): introduce app2-check-watch,cor,2025-05-20T21:32:24Z,2025-05-26T17:11:57+00:00,1,139.66
+4580,State lens updates,benluelo,2025-05-20T21:40:30Z,2025-05-22T13:03:38+00:00,5,39.39
+4582,Add mainnet-only switch to transfers and packets,cor,2025-05-21T13:45:02Z,2025-05-21T15:45:09+00:00,3,2.0
+4583,Small dashboard changes,Swepool,2025-05-21T23:02:22Z,2025-05-22T00:27:32+00:00,1,1.42
+4584,feat(ibc-union): add cw-orch,benluelo,2025-05-21T23:03:54Z,2025-05-22T16:09:42+00:00,3,17.1
+4589,fix(app2): move guard against btc edition,Swepool,2025-05-22T10:58:08Z,2025-05-22T16:20:12+00:00,1,5.37
+4591,chore(docs): update docs for testnet 10,PoisonPhang,2025-05-22T21:04:14Z,2025-05-23T18:26:56+00:00,2,21.38
+4592,fix(app2): remove edition reactivity,ehegnes,2025-05-22T21:13:45Z,2025-05-22T22:37:24+00:00,1,1.39
+4594,fix(app2): safely stringify circular JSON,ehegnes,2025-05-22T22:43:54Z,2025-05-23T00:03:37+00:00,2,1.33
+4597,refactor(voyager): rename consensus modules to finality modules,marvelshan,2025-05-23T09:33:28Z,2025-05-24T13:37:20+00:00,2,28.06
+4605,fix(app2): dedupe wallets,Swepool,2025-05-23T19:18:47Z,2025-05-26T12:43:23+00:00,1,65.41
+4606,fix(app2): sidebar highlight w/ scroll,ehegnes,2025-05-23T20:28:18Z,2025-05-26T15:35:54+00:00,1,67.13
+4608,More sei stuff,benluelo,2025-05-24T14:51:34Z,2025-05-24T16:07:54+00:00,4,1.27
+4609,feat(app2): add client-side GQL caching with TTL ,ehegnes,2025-05-24T17:34:41Z,2025-05-26T17:05:35+00:00,2,47.52
+4611,feat(voyager): improve cosmos tx submission,benluelo,2025-05-25T17:28:40Z,2025-05-25T20:32:25+00:00,2,3.06
+4612,Jsonschema to nixos module schema,benluelo,2025-05-25T20:22:14Z,2025-05-26T17:41:01+00:00,1,21.31
+4614,feat(tools): rustfmt sort tool,marvelshan,2025-05-26T09:09:45Z,2025-05-30T11:37:07+00:00,6,98.46
+4617,feat(zkgm): evm: introduce fungible asset order v2,hussein-aitlahcen,2025-05-26T13:47:58Z,2025-06-04T09:08:29+00:00,1,211.34
+4620,feat(voyager): remove spaghetti,benluelo,2025-05-26T21:51:49Z,2025-05-29T23:54:26+00:00,1,74.04
+4621,chore(hubble): remove sla from testnet,qlp,2025-05-27T05:46:02Z,2025-05-27T09:45:52+00:00,2,4.0
+4622,feat(site): update links,Swepool,2025-05-27T15:58:37Z,2025-05-27T21:45:12+00:00,2,5.78
+4623,fix(app): improve cache invalidate recovery,ehegnes,2025-05-27T20:09:19Z,2025-05-27T21:37:23+00:00,1,1.47
+4624,chore: add @swepool and @ehegnes codeowners,cor,2025-05-27T21:41:13Z,2025-05-28T10:21:07+00:00,1,12.66
+4625,feat(app): gas,ehegnes,2025-05-28T05:08:13Z,2025-07-25T12:22:17+00:00,2,1399.23
+4628,fix(app): gql request hashing strategy,ehegnes,2025-05-28T14:49:19Z,2025-05-28T18:06:18+00:00,1,3.28
+4629,Sui tssdk,Caglankaan,2025-05-28T15:16:20Z,2025-06-03T21:45:04+00:00,3,150.48
+4630,fix(app): add strict validation for manual receiver input,ehegnes,2025-05-28T17:57:47Z,2025-05-28T22:41:59+00:00,3,4.74
+4633,Fee UI,Swepool,2025-05-29T14:49:43Z,2025-06-17T22:04:31+00:00,1,463.25
+4636,chore(tendermint-light-client-types): add some codec tests,benluelo,2025-05-30T11:36:11Z,2025-05-30T13:54:06+00:00,1,2.3
+4637,Voyager cleanup,benluelo,2025-05-30T12:41:04Z,2025-05-30T13:55:04+00:00,1,1.23
+4638,feat(uniond): create upgrade for v1.1.0,PoisonPhang,2025-05-30T21:40:43Z,2025-06-04T14:26:02+00:00,1,112.76
+4639,Bump deps,benluelo,2025-05-31T18:31:08Z,2025-05-31T21:03:48+00:00,1,2.54
+4641,chore: disable all aptos related code,benluelo,2025-06-02T12:51:52Z,2025-06-02T19:00:46+00:00,2,6.15
+4644,prepare sui for deployment,aeryz,2025-06-02T20:09:13Z,2025-09-17T16:59:18+00:00,7,2564.83
+4645,Upgrade sei,benluelo,2025-06-03T16:02:55Z,2025-06-03T17:37:15+00:00,1,1.57
+4647,add native support,Swepool,2025-06-03T20:21:50Z,2025-06-04T11:03:42+00:00,3,14.7
+4649,upgrade evm testnet deployments,benluelo,2025-06-04T01:41:23Z,2025-06-04T09:09:53+00:00,1,7.47
+4652,chore(voyager): improve error reporting,benluelo,2025-06-04T13:44:22Z,2025-06-05T11:44:33+00:00,1,22.0
+4654,feat(deployments): union<->sei channel,benluelo,2025-06-04T14:26:39Z,2025-06-05T11:35:31+00:00,2,21.15
+4655,chore(hubble): configure fees,qlp,2025-06-04T14:58:27Z,2025-06-05T11:45:28+00:00,7,20.78
+4656,Fix cw deployer,benluelo,2025-06-04T15:29:52Z,2025-06-04T18:05:03+00:00,2,2.59
+4657,fix(evm): fao impl verification,hussein-aitlahcen,2025-06-04T17:28:31Z,2025-06-05T09:29:05+00:00,5,16.01
+4659,feat(unionvisor): bundle v1.1.0,PoisonPhang,2025-06-04T20:30:40Z,2025-06-05T11:45:38+00:00,1,15.25
+4660,feat(zkgm): introduce withdraw rewards instruction,hussein-aitlahcen,2025-06-05T10:47:22Z,2025-06-05T17:16:26+00:00,1,6.48
+4661,app2 that points to james,cor,2025-06-05T12:06:49Z,2025-06-08T19:08:24+00:00,3,79.03
+4667,feat(evm): introduce vesting contracts,hussein-aitlahcen,2025-06-06T10:02:21Z,2025-06-26T09:47:18+00:00,1,479.75
+4669,feat: bsc,benluelo,2025-06-07T19:48:42Z,2025-06-09T13:59:54+00:00,2,42.19
+4670,fix(zkgm): predict wrapped token query should return hex,benluelo,2025-06-08T15:29:05Z,2025-06-09T12:37:53+00:00,2,21.15
+4671,Cf banner,Swepool,2025-06-09T09:42:20Z,2025-06-09T12:18:20+00:00,3,2.6
+4679,feat(hubble): nats - decouple block processing,qlp,2025-06-11T11:50:35Z,2025-06-20T13:14:34+00:00,8,217.4
+4680,fix(zkgm): more fao v2 tests,hussein-aitlahcen,2025-06-11T12:47:57Z,2025-06-11T13:59:09+00:00,3,1.19
+4681,feat(parlia): implement misbehaviour and expiry,benluelo,2025-06-11T13:48:41Z,2025-06-11T16:37:45+00:00,2,2.82
+4683,chore(unionvisor): prep v1.1.1 bundles,PoisonPhang,2025-06-11T16:00:33Z,2025-06-11T17:37:04+00:00,2,1.61
+4685,Some docs,benluelo,2025-06-11T17:48:17Z,2025-06-12T13:27:25+00:00,1,19.65
+4687,testing network visualization,Swepool,2025-06-12T11:53:52Z,2025-07-02T16:02:22+00:00,1,484.14
+4690,More voyager metrics and stuff,benluelo,2025-06-13T15:39:55Z,2025-06-15T12:32:06+00:00,1,44.87
+4691,fix(uniond): expose wasmd api for node,PoisonPhang,2025-06-13T19:24:26Z,2025-06-16T14:48:55+00:00,2,67.41
+4694,chore(uniond): small clean up,benluelo,2025-06-16T11:42:42Z,2025-06-16T14:48:44+00:00,2,3.1
+4698,chore: fix some typos in comment,xiaoxiangirl,2025-06-18T10:19:02Z,2025-06-19T20:54:50+00:00,1,34.6
+4700,feat(voyager): cross-plugin rpc calls,benluelo,2025-06-18T13:52:17Z,2025-06-20T11:19:53+00:00,1,45.46
+4704,feat(deployments): new binary for updating deployments file,benluelo,2025-06-19T15:29:24Z,2025-06-20T07:12:21+00:00,2,15.72
+4706,feat(deployments): sei<->babylon testnet,benluelo,2025-06-19T20:14:46Z,2025-06-20T09:11:21+00:00,2,12.94
+4707,feat(zkgm): allow v1 tokens to be staked,hussein-aitlahcen,2025-06-20T07:03:57Z,2025-06-20T13:31:56+00:00,3,6.47
+4708,"Add video tutorial for multisig, improve explorer statistics page",cor,2025-06-20T11:00:53Z,2025-06-20T14:30:37+00:00,1,3.5
+4711,feat(hubble): ucs events,qlp,2025-06-20T16:16:27Z,2025-07-09T22:34:27+00:00,2,462.3
+4713,chore(deployments): update gas xion<->corn,benluelo,2025-06-20T17:52:17Z,2025-06-23T09:26:03+00:00,2,63.56
+4714,Sentinel Structure Improvements,Caglankaan,2025-06-23T08:30:31Z,2025-06-23T17:19:17+00:00,1,8.81
+4717,fix(app): force re-evaluation,Swepool,2025-06-23T11:39:32Z,2025-06-23T12:53:36+00:00,1,1.23
+4720,feat(app): request role,Swepool,2025-06-23T16:19:48Z,2025-06-23T17:24:28+00:00,5,1.08
+4721,bsc<->babylon,benluelo,2025-06-24T12:14:11Z,2025-06-24T16:14:58+00:00,2,4.01
+4722,fix(app2): better fee error presentation,ehegnes,2025-06-24T17:09:22Z,2025-06-30T16:07:50+00:00,5,142.97
+4723,chore(voyager): reduce logging severity from error to warn in some spots,benluelo,2025-06-25T09:46:45Z,2025-06-25T11:08:56+00:00,4,1.37
+4724,Osmosis,benluelo,2025-06-25T11:30:09Z,2025-06-25T12:41:58+00:00,2,1.2
+4725,osmo and bsc,Swepool,2025-06-25T11:46:21Z,2025-06-25T13:09:43+00:00,2,1.39
+4728,u,hussein-aitlahcen,2025-06-25T13:19:18Z,2025-06-25T15:21:43+00:00,2,2.04
+4731,chore(deployments): channel updates,benluelo,2025-06-25T17:32:16Z,2025-06-25T20:20:35+00:00,1,2.81
+4732,feat(app): attempt to fix osmosis testnet,benluelo,2025-06-26T08:32:16Z,2025-06-27T15:01:00+00:00,1,30.48
+4734,fix(app): enable flip,Swepool,2025-06-26T11:09:38Z,2025-06-26T21:55:59+00:00,1,10.77
+4735,feat(zkgm): introduce automated market maker (solvers),hussein-aitlahcen,2025-06-26T16:01:57Z,2025-07-03T13:46:50+00:00,1,165.75
+4736,TS SDK Stabilization & Migration,ehegnes,2025-06-26T19:37:30Z,2025-08-24T21:46:26+00:00,7,1418.15
+4737,feat(uniond): add union staking (proof of possession),PoisonPhang,2025-06-26T19:53:22Z,2025-06-27T15:21:17+00:00,1,19.47
+4743,Osmosis testnet upgrade,hussein-aitlahcen,2025-06-27T09:52:30Z,2025-06-27T11:14:04+00:00,1,1.36
+4744,fix(zkgm): cosmwasm: forward funds to burn to tokenfactory,hussein-aitlahcen,2025-06-27T11:21:55Z,2025-06-27T15:05:32+00:00,1,3.73
+4745,chore(voyager): small fixes and improvements,benluelo,2025-06-27T12:19:36Z,2025-06-30T18:10:00+00:00,3,77.84
+4746,Snag,Swepool,2025-06-27T12:43:22Z,2025-06-30T17:23:27+00:00,2,76.67
+4747,feat(app): change video,Swepool,2025-06-30T14:38:40Z,2025-06-30T19:34:36+00:00,1,4.93
+4748,feat(app): transfer chain/asset touch up,Swepool,2025-06-30T15:01:34Z,2025-06-30T16:42:29+00:00,1,1.68
+4750,fix(app): handle double click and ui movement,Swepool,2025-06-30T15:42:15Z,2025-06-30T17:02:56+00:00,2,1.34
+4751,fix(app): remove svelte fade,Swepool,2025-06-30T17:34:27Z,2025-06-30T20:58:03+00:00,1,3.39
+4753,feat(app): save nav touch up,Swepool,2025-06-30T23:17:26Z,2025-07-01T03:42:47+00:00,2,4.42
+4754,feat(voyager): clean up and increase max msg size,benluelo,2025-07-01T11:16:45Z,2025-07-01T17:06:43+00:00,1,5.83
+4755,Patch cometbls on bsc,benluelo,2025-07-01T17:09:23Z,2025-07-01T19:10:32+00:00,4,2.02
+4756,parlia hotfix,benluelo,2025-07-01T21:55:58Z,2025-07-02T13:58:49+00:00,1,16.05
+4757,fix(app): move supabase client into effect service,ehegnes,2025-07-02T02:43:36Z,2025-07-02T11:03:07+00:00,2,8.33
+4760,fix: point to ts-sdk,Swepool,2025-07-02T17:19:24Z,2025-07-02T20:38:37+00:00,1,3.32
+4761,fix(app): fix w and h for logo,Swepool,2025-07-02T17:53:56Z,2025-07-02T20:38:28+00:00,1,2.74
+4762,feat(app): enable chains for prod,Swepool,2025-07-02T20:04:06Z,2025-07-02T21:11:29+00:00,3,1.12
+4764,feat(deployments): holesky and bsc on sei,benluelo,2025-07-03T13:47:53Z,2025-07-04T14:50:03+00:00,2,25.04
+4766,feat(app): make GQL endpoint configurable,ehegnes,2025-07-03T14:50:32Z,2025-07-09T14:38:44+00:00,1,143.8
+4767,feat(voyager): base finality module,benluelo,2025-07-03T16:33:00Z,2025-07-04T11:13:31+00:00,2,18.68
+4768,feat(base): introduce verifier,hussein-aitlahcen,2025-07-03T17:32:13Z,2025-07-03T19:24:31+00:00,1,1.87
+4769,feat(deployments): ucs04 - base,qlp,2025-07-04T07:16:45Z,2025-07-04T08:56:28+00:00,2,1.66
+4770,more based,benluelo,2025-07-04T12:00:49Z,2025-07-04T13:04:35+00:00,4,1.06
+4772,deploy on base,benluelo,2025-07-04T14:49:16Z,2025-07-04T15:58:32+00:00,2,1.15
+4781,feat(uniond): v1.2.0 migration,PoisonPhang,2025-07-08T20:01:12Z,2025-07-16T19:25:52+00:00,8,191.41
+4782,fix(app): explorer url for address should not truncate,ehegnes,2025-07-08T22:03:54Z,2025-07-09T15:06:49+00:00,1,17.05
+4783,fix(app2): handle ibc funds,Swepool,2025-07-08T22:58:41Z,2025-07-09T14:00:17+00:00,1,15.03
+4785,feat(app): add Band Protocol price feed triple redundancy,ehegnes,2025-07-09T15:29:31Z,2025-07-16T15:06:57+00:00,2,167.62
+4789,feat(app): add transparent fee calc,ehegnes,2025-07-09T18:44:45Z,2025-07-09T23:21:35+00:00,1,4.61
+4799,feat/status-frozen,kaleababayneh,2025-07-10T12:59:02Z,2025-07-11T07:16:38+00:00,1,18.29
+4808,feat(app): add osmosis-1 chain info,ehegnes,2025-07-10T19:19:35Z,2025-07-13T21:57:57+00:00,1,74.64
+4812,fix(hubble): ignore invalid packet data / fix token bucket mapping,qlp,2025-07-11T12:42:08Z,2025-07-11T13:54:24+00:00,3,1.2
+4816,Fix light client status to properly handle frozen state,kaleababayneh,2025-07-11T16:53:58Z,2025-07-11T18:32:19+00:00,1,1.64
+4832,fix(app): fix rpc check,Swepool,2025-07-13T16:07:53Z,2025-07-14T00:02:20+00:00,1,7.91
+4837,feat(chain-logos): base chain logos,PablitoAmaral,2025-07-14T15:09:13Z,2025-07-14T16:25:13+00:00,1,1.27
+4839,bulmerkat client heights dashboard,cor,2025-07-14T21:33:56Z,2025-07-17T20:47:59+00:00,2,71.23
+4841,mobile header,Swepool,2025-07-15T23:50:21Z,2025-07-17T17:11:44+00:00,2,41.36
+4843,feat(hubble): support fao-v2,qlp,2025-07-16T11:34:20Z,2025-08-12T20:19:27+00:00,1,656.75
+4844,feat(cosmwasm): init cw20-wrapped-tokenfactory,benluelo,2025-07-16T11:58:56Z,2025-07-16T14:41:19+00:00,1,2.71
+4853,"fix(cometbft-rpc): /status latest_{block,app}_hash is optional apparently",benluelo,2025-07-18T09:20:29Z,2025-07-18T18:13:02+00:00,1,8.88
+4854,fix(app): adjust inline,Swepool,2025-07-18T11:29:30Z,2025-07-18T12:35:17+00:00,1,1.1
+4859,feat(lightclient): add CommitClientStatus message to persist client s…,0xumutkk,2025-07-19T14:16:41Z,2025-08-06T14:12:49+00:00,8,431.94
+4861,feat: remove timeout height,benluelo,2025-07-20T10:58:03Z,2025-07-21T09:33:27+00:00,2,22.59
+4874,feat(deployments): bob testnet clients,benluelo,2025-07-21T14:15:54Z,2025-07-22T14:41:43+00:00,1,24.43
+4875,finalize base and upgrade bob light client/modules,hussein-aitlahcen,2025-07-21T14:41:53Z,2025-07-21T16:11:14+00:00,2,1.49
+4876,feat(bob): introduce v1 to v2 migration,hussein-aitlahcen,2025-07-21T16:52:44Z,2025-07-21T18:27:24+00:00,1,1.58
+4878,docs: update docs to reflect au and PoS changes,PoisonPhang,2025-07-22T01:17:29Z,2025-07-22T15:04:25+00:00,2,13.78
+4880,Parlia batch updates and other stuff,benluelo,2025-07-22T13:25:21Z,2025-07-22T14:41:59+00:00,2,1.28
+4884,Union test,Caglankaan,2025-07-23T08:34:03Z,2025-07-29T09:45:03+00:00,7,145.18
+4886,feat(app): wip,Swepool,2025-07-23T10:38:57Z,2025-07-23T17:39:39+00:00,1,7.01
+4887,fix(voyager): bob/base game account proofs are on l1,hussein-aitlahcen,2025-07-23T11:27:45Z,2025-07-23T14:29:53+00:00,1,3.04
+4893,fix(voyager): handle timeouts properly,benluelo,2025-07-23T19:24:16Z,2025-07-24T12:05:45+00:00,1,16.69
+4895,update base deployment,hussein-aitlahcen,2025-07-24T09:30:55Z,2025-07-24T15:02:46+00:00,1,5.53
+4899,stuff,benluelo,2025-07-24T12:07:02Z,2025-07-24T14:14:41+00:00,3,2.13
+4900,more stuff,benluelo,2025-07-24T14:17:57Z,2025-07-25T14:35:22+00:00,2,24.29
+4901,chore(evm): update exported types,hussein-aitlahcen,2025-07-24T15:19:22Z,2025-07-24T16:34:06+00:00,3,1.25
+4908,feat(U): fungibility layer via solver,hussein-aitlahcen,2025-07-28T15:35:30Z,2025-07-28T17:34:42+00:00,1,1.99
+4910,feat(u): cosmwasm instantiate2 vanity address miner,benluelo,2025-07-29T13:22:28Z,2025-07-29T18:15:57+00:00,1,4.89
+4911,feat(zkgm): token order v2 refactor,hussein-aitlahcen,2025-07-29T13:40:35Z,2025-07-31T11:40:34+00:00,5,46.0
+4914,docs(voyager): more docs,benluelo,2025-07-30T12:25:00Z,2025-07-30T15:18:02+00:00,1,2.88
+4917,feat(parlia-light-client): refactor and support ancestry proofs,benluelo,2025-07-30T23:44:36Z,2025-07-31T13:21:25+00:00,1,13.61
+4918,chore(voyager): add legacy alias for index command,benluelo,2025-07-30T23:54:40Z,2025-07-31T04:26:25+00:00,1,4.53
+4922,streamlined market making,hussein-aitlahcen,2025-07-31T16:45:54Z,2025-08-04T14:01:02+00:00,3,93.25
+4924,feat(u): create3 vanity miner,benluelo,2025-08-01T11:54:20Z,2025-08-03T13:15:56+00:00,1,49.36
+4926,Union test phase 2,Caglankaan,2025-08-01T12:56:26Z,2025-08-21T12:28:48+00:00,4,479.54
+4927,feat: fnd site,Swepool,2025-08-01T13:40:00Z,2025-08-01T14:57:09+00:00,1,1.29
+4928,feat(app): bsc main,ehegnes,2025-08-01T14:39:28Z,2025-08-03T13:13:57+00:00,3,46.57
+4937,feat(cosmwasm): introduce escrow vault for fungibility layer,hussein-aitlahcen,2025-08-04T11:29:39Z,2025-08-11T12:59:36+00:00,7,169.5
+4938,feat(zkgm): secure wrapped token event,hussein-aitlahcen,2025-08-04T15:43:35Z,2025-08-05T10:57:52+00:00,2,19.24
+4942,feat(uniond): re-set validator state on changing token decimals,PoisonPhang,2025-08-05T15:24:38Z,2025-08-12T23:06:24+00:00,2,175.7
+4943,feat(evm): $U deployment script,hussein-aitlahcen,2025-08-06T09:46:52Z,2025-08-06T12:01:20+00:00,2,2.24
+4960,feat(zkgm): generalized wrapped event & thread order path to solver,hussein-aitlahcen,2025-08-08T14:14:12Z,2025-08-08T15:52:22+00:00,1,1.64
+4967,Zkgm packet codec,benluelo,2025-08-10T12:37:06Z,2025-09-16T18:24:11+00:00,4,893.78
+4974,chore(evm): export all zkgm abis,hussein-aitlahcen,2025-08-11T18:15:05Z,2025-08-11T21:07:39+00:00,1,2.88
+4981,Cw20tf,benluelo,2025-08-12T16:20:45Z,2025-09-11T11:57:57+00:00,3,715.62
+4982,chore: cw-escrow-vault deployment,hussein-aitlahcen,2025-08-12T16:24:51Z,2025-08-13T08:09:13+00:00,1,15.74
+4983,chore(deployments): update babylon,benluelo,2025-08-12T19:51:59Z,2025-08-15T12:33:00+00:00,1,64.68
+4986,U devnet deployment,aeryz,2025-08-13T08:40:54Z,2025-08-13T17:03:42+00:00,3,8.38
+4988,feat(zkgm): introduce solve kind for token order,hussein-aitlahcen,2025-08-13T13:01:24Z,2025-08-13T16:08:21+00:00,2,3.12
+4989,feat(hubble): support fao-v2 - solve metadata,qlp,2025-08-13T13:41:30Z,2025-08-13T15:13:21+00:00,1,1.53
+4990,feat(voyager): individual packet index plugin,benluelo,2025-08-13T14:09:42Z,2025-08-15T10:18:38+00:00,1,44.15
+4991,fix(app): button state,ehegnes,2025-08-13T17:07:12Z,2025-08-18T17:47:14+00:00,1,120.67
+4992,feat(zkgm): v1 to v2 wrapped event,hussein-aitlahcen,2025-08-13T17:18:23Z,2025-08-14T08:15:10+00:00,4,14.95
+4999,Vault tests,Caglankaan,2025-08-14T08:34:18Z,2025-08-14T10:15:39+00:00,1,1.69
+5000,feat(site): add roadmap page,KaiserKarel,2025-08-14T13:50:12Z,2025-08-18T15:49:52+00:00,3,97.99
+5001,"chore: upgrade evm testnets, union/ethereum mainnet to v2",hussein-aitlahcen,2025-08-14T15:05:06Z,2025-08-14T17:46:58+00:00,5,2.7
+5003,chore(deployments): union testnet <-> holesky channel,benluelo,2025-08-15T12:33:16Z,2025-08-15T20:11:11+00:00,2,7.63
+5004,chore(zgkm): update doc,hussein-aitlahcen,2025-08-15T13:39:28Z,2025-08-15T14:58:30+00:00,1,1.32
+5012,Fix nixos node operator closed source warning in docs,sempruijs,2025-08-19T13:41:02Z,2025-08-20T19:45:37+00:00,2,30.08
+5013,feat(hubble): use spitzer as event source,qlp,2025-08-19T15:06:49Z,2025-08-31T11:42:00+00:00,1,284.59
+5014,feat: basic intent recv impl,benluelo,2025-08-19T16:54:38Z,2025-08-21T13:01:42+00:00,1,44.12
+5017,chore(deployments): update parlia on union mainnet,benluelo,2025-08-20T14:35:36Z,2025-08-20T15:58:26+00:00,1,1.38
+5019,feat(deployments): babylon<->bsc,benluelo,2025-08-20T15:55:35Z,2025-08-20T17:15:29+00:00,1,1.33
+5022,set-bucket-config scripts,benluelo,2025-08-20T18:46:36Z,2025-08-21T13:01:10+00:00,1,18.24
+5023,docs: update nixos docs with more recent config op,PoisonPhang,2025-08-20T23:11:38Z,2025-08-26T22:38:39+00:00,2,143.45
+5025,feat(cw-escrow-vault): add some queries,benluelo,2025-08-21T15:08:15Z,2025-08-24T22:32:55+00:00,1,79.41
+5030,chore(evm): update deployments,hussein-aitlahcen,2025-08-24T14:29:47Z,2025-08-24T15:45:10+00:00,2,1.26
+5031,fix(app): public fix,Swepool,2025-08-25T10:26:31Z,2025-08-25T19:59:49+00:00,2,9.55
+5032,fix(app): reduce redundant logging,ehegnes,2025-08-25T13:23:40Z,2025-08-25T14:53:41+00:00,3,1.5
+5040,"feat(app,ts-sdk): better `Inspectable` for `ZkgmInstructions`s",ehegnes,2025-08-26T12:41:04Z,2025-08-28T18:43:06+00:00,1,54.03
+5046,feat(crane): re-expose builders,benluelo,2025-08-26T21:19:20Z,2025-08-27T16:41:14+00:00,1,19.36
+5048,feat(zkgm): solver based staking instructions,hussein-aitlahcen,2025-08-27T15:20:21Z,2025-09-06T20:12:50+00:00,2,244.87
+5052,zkgm: cw-u,hussein-aitlahcen,2025-08-28T13:58:25Z,2025-08-30T11:54:54+00:00,7,45.94
+5054,"feat(app,site): add pp and tos",ehegnes,2025-08-28T23:31:14Z,2025-08-29T01:53:55+00:00,1,2.38
+5055,Basic onzkgm proxy call cosmwasm contract,benluelo,2025-08-28T23:31:25Z,2025-08-29T15:05:06+00:00,2,15.56
+5066,feat(on-zkgm-call-proxy): refactor,benluelo,2025-08-30T18:20:09Z,2025-08-31T11:38:49+00:00,2,17.31
+5067,fix(app): find all packets not just transfers,cor,2025-08-30T21:07:23Z,2025-08-31T17:30:54+00:00,2,20.39
+5070,fix(on-zkgm-call-proxy): make fields pub,benluelo,2025-08-31T17:31:07Z,2025-09-01T18:41:07+00:00,3,25.17
+5075,feat(deployments): enable bsc staging,Swepool,2025-09-01T12:42:22Z,2025-09-01T15:33:31+00:00,4,2.85
+5077,feat(evm): udrop,hussein-aitlahcen,2025-09-01T15:09:10Z,2025-09-03T10:01:32+00:00,1,42.87
+5078,docs: add supported chains section with universal chain IDs,PablitoAmaral,2025-09-01T15:56:33Z,2025-09-01T17:40:57+00:00,1,1.74
+5085,Fix whitelist,Swepool,2025-09-01T21:19:46Z,2025-09-02T00:10:43+00:00,1,2.85
+5089,fix(app): suggest chain,ehegnes,2025-09-02T03:01:46Z,2025-09-05T13:52:43+00:00,1,82.85
+5090,feat(app): cumulative statistics,ehegnes,2025-09-02T04:01:53Z,2025-09-02T07:06:37+00:00,1,3.08
+5097,fix(app): use wallet connector for evm balance and allowance checking,ehegnes,2025-09-02T16:43:56Z,2025-09-02T18:54:08+00:00,3,2.17
+5100,feat(hubble): support bond/unbond,qlp,2025-09-02T19:42:05Z,2025-09-16T14:40:38+00:00,2,330.98
+5105,feat(evm): introduce eu,hussein-aitlahcen,2025-09-03T12:17:28Z,2025-09-03T15:52:01+00:00,1,3.58
+5106,fix(app): safe manifest logo,ehegnes,2025-09-03T13:02:13Z,2025-09-04T02:43:10+00:00,1,13.68
+5107,feat(lst): init,benluelo,2025-09-03T14:22:21Z,2025-09-03T15:59:41+00:00,1,1.62
+5108,feat(app): change bg,Swepool,2025-09-03T15:21:46Z,2025-09-03T23:33:10+00:00,1,8.19
+5111,Fixes,benluelo,2025-09-03T19:29:52Z,2025-09-03T21:25:00+00:00,2,1.92
+5114,docs: list `union-1` details,PoisonPhang,2025-09-03T22:21:22Z,2025-09-04T00:11:58+00:00,3,1.84
+5115,chore(deployments): update union testnet,benluelo,2025-09-03T22:53:09Z,2025-09-04T02:04:03+00:00,1,3.18
+5125,feat(app): update gas,Swepool,2025-09-04T17:47:03Z,2025-09-05T13:51:19+00:00,1,20.07
+5128,feat: fixes,benluelo,2025-09-05T12:18:49Z,2025-09-05T13:51:17+00:00,1,1.54
+5130,feat(zkgm):  evm: proxy account,hussein-aitlahcen,2025-09-05T16:34:13Z,2025-09-06T17:46:36+00:00,2,25.21
+5133,update deployments,hussein-aitlahcen,2025-09-06T22:23:57Z,2025-09-07T15:11:59+00:00,1,16.8
+5135,fixes,benluelo,2025-09-07T17:18:23Z,2025-09-08T08:51:40+00:00,2,15.55
+5140,chore: update docs,hussein-aitlahcen,2025-09-10T11:52:30Z,2025-09-10T15:29:59+00:00,1,3.62
+5141,feat(evm): introduce crosschain vault,hussein-aitlahcen,2025-09-10T14:20:50Z,2025-09-11T14:31:59+00:00,1,24.19
+5142,Migrate fully to PNPM,ehegnes,2025-09-10T17:51:10Z,2025-09-10T19:03:07+00:00,1,1.2
+5144,chore(evm): refactor deployment,hussein-aitlahcen,2025-09-11T07:59:06Z,2025-09-11T10:24:12+00:00,2,2.42
+5148,chore(deployments): sei<->union,benluelo,2025-09-11T16:16:02Z,2025-09-12T17:19:28+00:00,4,25.06
+5151,feat(app): add Base configuration,ehegnes,2025-09-12T12:37:49Z,2025-09-16T22:28:22+00:00,5,105.84
+5152,"fix(cw-account,zkgm): fix event name and remote admin syntax",cor,2025-09-13T10:40:01Z,2025-09-13T12:40:13+00:00,4,2.0
+5156,chore(deployments): update zkgm on union testnet,benluelo,2025-09-15T14:08:44Z,2025-09-15T19:04:42+00:00,3,4.93
+5157,chore(deployments): whitelist U on sei,cor,2025-09-16T10:27:34Z,2025-09-16T12:47:11+00:00,3,2.33
+5159,feat(cw-account): tests and docs,benluelo,2025-09-16T15:23:34Z,2025-09-16T17:14:34+00:00,2,1.85
+5161,chore: fix amount,aeryz,2025-09-17T09:56:25Z,2025-09-17T13:13:42+00:00,1,3.29
+5162,feat(evm): introduce crosschain escrow vault,hussein-aitlahcen,2025-09-17T09:58:50Z,2025-09-17T13:56:58+00:00,1,3.97
+5165,fix(app): fortify fiber cleanup,ehegnes,2025-09-17T13:17:13Z,2025-09-18T11:54:55+00:00,1,22.63
+5171,feat(lst): dynamic rate,benluelo,2025-09-18T16:04:18Z,2025-09-20T08:05:39+00:00,1,40.02
+5173,chore: U -> UnionversalToken,hussein-aitlahcen,2025-09-19T07:54:00Z,2025-09-19T09:12:36+00:00,1,1.31
+5175,feat(access-manager): init,benluelo,2025-09-19T21:15:15Z,2025-09-25T13:40:50+00:00,2,136.43
+5179,chore(deployments): update lst on union testnet,benluelo,2025-09-22T11:35:07Z,2025-09-25T16:06:25+00:00,1,76.52
+5180,chore(base): configure settlement time,cor,2025-09-22T20:29:40Z,2025-09-23T09:10:32+00:00,2,12.68
+5182,docs: create guides for TS SDK examples,PoisonPhang,2025-09-22T23:01:50Z,2025-09-26T19:27:55+00:00,5,92.43
+5187,chore: update base logo,PablitoAmaral,2025-09-24T11:45:50Z,2025-09-24T13:03:05+00:00,1,1.29
+5188,feat(app): update base logo,Swepool,2025-09-24T14:45:43Z,2025-09-24T17:43:09+00:00,1,2.96
+5189,chore(deployments): update lst hub on union,benluelo,2025-09-24T17:43:21Z,2025-09-24T23:06:13+00:00,1,5.38
+5190,"fix(docs): unbonding time is 27 days, not 21",benluelo,2025-09-25T02:28:31Z,2025-09-25T09:53:57+00:00,1,7.42
+5191, feat(lst): automatic staking and rebasing,benluelo,2025-09-25T02:54:33Z,2025-09-29T12:00:46+00:00,1,105.1
+5192,feat(u): cosmwasm proxy account prediction,benluelo,2025-09-25T14:16:33Z,2025-09-25T15:49:06+00:00,1,1.54
+5206,feat(core): proof commitments,benluelo,2025-09-28T15:43:31Z,2025-09-29T11:46:21+00:00,3,20.05
+5207,chore(deployments): upgrade zkgm on babylon testnet,benluelo,2025-09-29T09:17:17Z,2025-09-29T11:36:56+00:00,1,2.33
+5208,feat(app): tax and commision,Swepool,2025-09-29T10:59:58Z,2025-09-29T13:02:24+00:00,2,2.04

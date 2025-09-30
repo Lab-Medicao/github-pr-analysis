@@ -1,0 +1,435 @@
+number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen
+2237,Release 5.0,dougwilson,2014-07-14T16:29:18Z,2024-09-10T04:41:36+00:00,2,89052.21
+2437,Add tracing capabilities to Express,frankrousseau,2014-11-11T12:17:34Z,2016-11-18T17:31:57+00:00,24,17717.24
+3100,expose the matched routes for a request,evanshortiss,2016-10-12T19:21:32Z,2020-04-15T06:51:21+00:00,1,30731.5
+3130,Issue #3129 : few typos fixes,VishvajitP,2016-11-17T08:06:59Z,2016-11-18T18:44:07+00:00,2,34.62
+3137,Gracefully handle invalid status codes,nickclaw,2016-11-23T19:32:56Z,2016-11-27T20:50:55+00:00,1,97.3
+3143,Gracefully handle invalid status codes,nickclaw,2016-11-27T20:50:36Z,2020-04-19T00:50:13+00:00,4,29715.99
+3174,Fix response headers usage with upcoming node changes,mscdex,2017-01-14T01:35:28Z,2017-02-28T00:39:05+00:00,1,1079.06
+3178,Fix minor grammatical error,deniztetik,2017-01-18T06:32:40Z,2017-01-21T05:26:04+00:00,2,70.89
+3179,Update Security.md,stz-seongheon,2017-01-20T14:07:06Z,2017-01-21T05:27:35+00:00,1,15.34
+3183,[examples] Replace Jade with Pug,notrab,2017-01-27T11:00:24Z,2017-02-26T13:07:38+00:00,1,722.12
+3187,Release 4.15,dougwilson,2017-01-29T03:48:33Z,2017-03-01T22:14:07+00:00,2,762.43
+3191,Fix unnecessary semicolon.,potato4d,2017-02-01T09:28:46Z,2017-02-05T01:44:24+00:00,1,88.26
+3199,test: rename 'decode querystring' to 'decode params',seppevs,2017-02-06T12:11:16Z,2017-02-08T00:44:50+00:00,1,36.56
+3213,Remove direct http dependency,wesleytodd,2017-02-20T17:14:09Z,2024-09-10T02:40:53+00:00,12,66201.45
+3215,Replace http.STATUS_CODES with the statuses module,wesleytodd,2017-02-20T21:38:34Z,2017-03-01T22:14:09+00:00,8,216.59
+3218,Settings functionality moved out of core,wesleytodd,2017-02-21T03:55:52Z,2024-07-08T21:52:36+00:00,1,64673.95
+3224,Replace search example with static html/js,notrab,2017-02-26T13:39:38Z,2017-03-01T23:23:05+00:00,2,81.72
+3227,Clarify debugging message in express:router:layer,ifivebig,2017-02-28T12:42:17Z,2017-03-06T02:05:36+00:00,1,133.39
+3239,Removed link to expired domain,notrab,2017-03-08T14:11:06Z,2017-03-10T04:37:51+00:00,1,38.45
+3241,Use EJS instead of Jade for route-separation example,notrab,2017-03-08T14:54:19Z,2017-03-17T04:11:10+00:00,1,205.28
+3249,Update package.json,ravirasadiya,2017-03-20T16:25:17Z,2017-03-23T04:07:21+00:00,1,59.7
+3251,test: Made unit test passing with node-chakracore,kunalspathak,2017-03-21T22:01:50Z,2017-09-22T02:46:50+00:00,4,4420.75
+3256,Fix security heading in README,notrab,2017-03-24T08:54:10Z,2017-03-24T21:08:00+00:00,1,12.23
+3259,Moves compileQueryParser to separate module,wesleytodd,2017-03-27T00:26:33Z,2025-03-26T23:25:07+00:00,2,70126.98
+3269,"Add 'json escape' option to unicode escape <, >, and &",g-k,2017-04-05T22:00:06Z,2017-09-28T17:46:31+00:00,2,4219.77
+3302,test: convert var to const,sebasmurphy,2017-05-07T23:10:35Z,2020-04-15T08:12:18+00:00,8,25761.03
+3304,res.cookie JSDoc fix,tonyspb,2017-05-09T20:37:32Z,2017-05-11T19:48:34+00:00,1,47.18
+3305,issue #3303 better error message,olixis,2017-05-10T04:17:53Z,2017-05-11T03:34:35+00:00,5,23.28
+3307,Throwing an explicit error when Content-Type gets set to an array.,oztune,2017-05-10T20:25:19Z,2017-05-15T03:58:48+00:00,4,103.56
+3310,fix several examples,hiowenluke,2017-05-17T08:09:12Z,2017-05-18T01:46:08+00:00,8,17.62
+3312,fix examples/cookie-sessions and the test,hiowenluke,2017-05-18T16:19:51Z,2017-07-26T17:06:38+00:00,1,1656.78
+3314,Issue #3313: DRY up etag and wetag code.,lpage,2017-05-18T18:07:43Z,2017-09-28T17:46:29+00:00,3,3191.65
+3320,update debug -> 2.6.8,caleblloyd,2017-05-25T16:39:13Z,2017-05-25T17:47:26+00:00,1,1.14
+3337,updated package.json,EsrefDurna,2017-06-12T00:39:51Z,2017-07-26T15:38:27+00:00,2,1070.98
+3353,Readme: fix typo,piperchester,2017-06-27T09:48:14Z,2017-07-26T15:53:47+00:00,1,702.09
+3358,handle undefined statusCode with an error,ghinks,2017-07-07T14:48:41Z,2017-07-08T11:27:15+00:00,1,20.64
+3370,"Request for request #3327, allowing res.download to supply options to res.sendFile",chillypepper,2017-07-20T12:09:27Z,2017-09-28T17:46:30+00:00,3,1685.62
+3387,fix broken 'ok' assertions in tests,Lysander6,2017-08-05T11:03:33Z,2017-08-06T00:11:03+00:00,1,13.12
+3390,Initial support proposal for http2,phouri,2017-08-08T11:11:52Z,2018-11-06T18:18:48+00:00,42,10927.12
+3430,fix typo in a comment,shime,2017-09-27T13:20:16Z,2017-09-28T17:46:30+00:00,1,28.44
+3434,deps: vary@~1.1.2,chainhelen,2017-09-28T04:35:50Z,2017-09-28T17:46:30+00:00,2,13.18
+3435,deps: send 0.16.0,danez,2017-09-28T09:26:32Z,2017-09-28T17:46:31+00:00,2,8.33
+3445,TypeError in send(Buffer) when an ETag is set,davidwood,2017-10-09T19:56:55Z,2017-10-10T02:12:15+00:00,1,6.26
+3448,remove unecessary comparison in test/res.send.js,chainhelen,2017-10-11T03:03:18Z,2018-01-03T00:11:45+00:00,2,2013.14
+3455,expose text middleware of bodyparser,ilyapx,2017-10-23T15:03:21Z,2019-05-09T04:08:33+00:00,1,13501.09
+3540,Update equality (==)  operators for identically (===) operators,estrada9166,2018-01-22T01:16:51Z,2018-02-14T00:31:49+00:00,1,551.25
+3543,"Change forEach loop to for loop, reverse, pre-decrement",estrada9166,2018-01-22T22:58:01Z,2018-09-24T18:21:41+00:00,1,5875.39
+3561,lint: rename .eslintrc to .eslintrc.yml,hiroppy,2018-02-13T08:32:05Z,2018-02-13T21:46:48+00:00,4,13.25
+3568,Added app.extend(),boycce,2018-02-16T04:04:16Z,2020-04-15T06:59:49+00:00,13,18938.93
+3579,Update downloads-url to point to graph of downloads,cheapsteak,2018-03-02T00:46:23Z,2020-03-25T20:24:33+00:00,1,18115.64
+3582,Better error handling for sendFile,thevoidf,2018-03-04T00:58:54Z,2018-10-27T17:26:17+00:00,3,5704.46
+3587,res.format(): call default using `obj` as the context,shesek,2018-03-13T06:30:18Z,2022-03-26T05:55:54+00:00,1,35375.43
+3599,Document options as optional in Router constructor,LinusU,2018-03-20T10:01:11Z,2018-05-07T20:36:47+00:00,1,1162.59
+3617,remove nodejs 9 in nightly ,nacimgoura,2018-04-10T12:14:00Z,2018-10-27T05:22:53+00:00,2,4793.15
+3621,Change default setting of query parser from extended to simple,czaarek99,2018-04-15T08:31:11Z,2021-12-18T05:09:55+00:00,1,32228.65
+3622,Add app.createRouter function,czaarek99,2018-04-16T13:30:05Z,2018-04-16T14:48:10+00:00,2,1.3
+3623,Add app.createRouter function,czaarek99,2018-04-16T14:47:01Z,2020-04-16T06:37:24+00:00,22,17535.84
+3655,Bump body-parser to remove Node 10 deprecations,felixbuenemann,2018-05-15T09:13:20Z,2018-09-19T16:38:47+00:00,2,3055.42
+3656,Update build matrix,felixbuenemann,2018-05-16T16:39:42Z,2018-10-27T06:00:52+00:00,1,3925.35
+3675,add app.listenPromise,caub,2018-06-23T08:55:02Z,2018-08-11T15:14:41+00:00,1,1182.33
+3678,Move removed middlewares to a variable,LinusU,2018-06-27T08:41:02Z,2018-09-13T23:11:02+00:00,1,1886.5
+3708,Expose bodyParser.raw on express,amitzur,2018-08-08T04:47:54Z,2019-05-09T01:04:22+00:00,3,6572.27
+3710,Add install size badge to README,styfle,2018-08-09T19:01:49Z,2022-03-02T15:28:09+00:00,2,31220.44
+3713,add prefix for routes,vforv,2018-08-11T12:23:48Z,2018-08-11T13:43:23+00:00,1,1.33
+3718,Update index.js,loganripplinger,2018-08-15T01:41:30Z,2018-09-13T22:34:18+00:00,4,716.88
+3722,updated routing path,nitinbhola27,2018-08-21T09:15:20Z,2018-09-13T22:19:00+00:00,1,565.06
+3793,remove utils merge,phapdinh,2018-11-04T18:27:38Z,2019-05-25T22:13:28+00:00,4,4851.76
+3810,Fixed typos in History.md,AScriver,2018-11-27T03:02:20Z,2018-12-18T02:30:21+00:00,2,503.47
+3812,fix: expression minor bugs,A1vinSmith,2018-11-29T08:07:17Z,2018-12-18T04:34:56+00:00,3,452.46
+3827,Fixed a typo in Contributing.md,taemin-fp,2018-12-13T07:10:57Z,2018-12-18T00:45:36+00:00,3,113.58
+3846,docs: add contributing guidelines ,jamesgeorge007,2019-01-05T07:41:49Z,2019-04-17T21:47:02+00:00,1,2462.09
+3848,路由观察器,spiritwindy,2019-01-08T02:59:01Z,2019-05-09T22:05:05+00:00,1,2923.1
+3859,Typo fix,artonge,2019-01-17T17:33:15Z,2019-04-16T15:35:20+00:00,1,2134.03
+3860,Added some meta tags in examples,adisrivas,2019-01-22T12:16:43Z,2020-03-25T21:29:12+00:00,1,10281.21
+3868,#3867 docs: update the example in the readme so that it uses const instead of var,mwanago,2019-01-30T22:55:07Z,2019-04-16T23:48:22+00:00,1,1824.89
+3873,readme: document default port,cirosantilli,2019-02-05T09:40:02Z,2019-04-16T05:20:41+00:00,1,1675.68
+3875,Fixed typos in tests,jeonghwan-kim,2019-02-08T04:32:08Z,2019-04-16T18:31:44+00:00,2,1621.99
+3924,Setting Up CI With Azure Pipelines,mickeygousset,2019-04-05T01:35:47Z,2020-04-15T08:00:58+00:00,3,9030.42
+3930,Fixed issue #2832.,chenhaihong,2019-04-11T06:10:20Z,2020-04-15T07:59:41+00:00,1,8881.82
+3936,Validate `maxAge` appropriateness before use,cjbarth,2019-04-18T13:00:40Z,2022-03-27T17:21:47+00:00,2,25780.35
+3946,chore(travis) add node 12,zuohuadong,2019-04-24T11:44:15Z,2019-05-16T13:53:42+00:00,2,530.16
+3948,build: drop node <8,cat9000,2019-04-27T13:06:33Z,2024-10-31T14:46:05+00:00,5,48337.66
+3979,Add CodeTriage badge to expressjs/express,codetriage-readme-bot,2019-06-05T02:42:14Z,2020-03-04T21:55:25+00:00,2,6571.22
+4028,fixed possible xss in example,rubiin,2019-08-19T06:09:05Z,2020-03-25T05:46:33+00:00,2,5255.62
+4050,Improve Readme,yanokenken,2019-09-12T08:05:38Z,2020-03-25T20:55:57+00:00,6,4692.84
+4055,docs: add a triage section,gireeshpunathil,2019-09-16T04:28:29Z,2020-05-11T05:05:06+00:00,24,5712.61
+4087,Add yarn examples to Readme,ondrej-merkun,2019-10-25T22:42:31Z,2020-03-25T20:58:13+00:00,1,3646.26
+4102,add keyword 'http' to increase visibility,baslr,2019-11-15T19:29:31Z,2020-03-25T23:36:52+00:00,2,3148.12
+4114,docs: request for triager role for gireeshpunathil,gireeshpunathil,2019-12-04T06:26:50Z,2019-12-12T16:28:46+00:00,2,202.03
+4115,Fix: escape the input on example,KoyamaSohei,2019-12-05T06:54:00Z,2019-12-10T19:02:29+00:00,1,132.14
+4119,examples: defend from xss,KoyamaSohei,2019-12-10T19:04:18Z,2020-03-25T21:59:57+00:00,2,2546.93
+4120,examples: defend from privilege elevation,KoyamaSohei,2019-12-10T19:22:27Z,2022-02-08T22:54:07+00:00,1,18987.53
+4142,refactor: shallow arr clone using fast path,galesky,2019-12-30T05:01:25Z,2020-01-04T21:22:54+00:00,1,136.36
+4143,docs: added CODE_OF_CONDUCT.md,wesleytodd,2019-12-31T23:09:57Z,2020-04-07T06:23:17+00:00,7,2335.22
+4144,docs: added CHARTER.md,wesleytodd,2019-12-31T23:44:05Z,2020-04-14T20:14:45+00:00,8,2516.51
+4145,docs: Instruct user to ensure package.json exists,glennfaison,2020-01-01T12:27:50Z,2020-01-20T11:10:57+00:00,2,454.72
+4151,docs: Instruct user to ensure package.json exists,glennfaison,2020-01-04T00:14:58Z,2020-03-25T21:07:40+00:00,4,1964.88
+4155,"fixed response jsonp deprecate, comment",khsiea,2020-01-08T04:58:37Z,2020-05-20T23:49:20+00:00,2,3210.85
+4172,Upgrade dependencies,UlisesGascon,2020-02-05T08:04:43Z,2020-02-05T13:26:54+00:00,3,5.37
+4174,Feature/4171 depd,UlisesGascon,2020-02-05T17:13:42Z,2022-03-26T18:32:30+00:00,11,18721.31
+4185,docs: add Ryan Hinchey as a triager,ryhinchey,2020-02-14T03:39:07Z,2020-07-11T00:35:59+00:00,1,3548.95
+4192,docs: fix typo in request documentation,fbrandt-dev,2020-02-20T06:36:13Z,2020-05-20T22:15:08+00:00,3,2175.65
+4208,query: deprecate extended query parser,gireeshpunathil,2020-03-06T15:16:47Z,2020-04-23T03:48:58+00:00,13,1140.54
+4210,doc: add section for project captains,gireeshpunathil,2020-03-09T08:47:07Z,2024-02-16T15:28:14+00:00,34,34542.69
+4211,Triage Edits,wesleytodd,2020-03-09T20:44:08Z,2020-05-11T05:05:04+00:00,9,1496.35
+4212,Throw on invalid status codes,jonchurch,2020-03-10T02:53:31Z,2024-07-30T21:49:14+00:00,21,38490.93
+4217,feat: Add Pull Request Template,getspooky,2020-03-15T15:21:31Z,2020-07-29T23:55:28+00:00,14,3272.57
+4223,Deprecate non integer status codes in v4,jonchurch,2020-03-21T20:43:25Z,2022-03-24T04:59:33+00:00,7,17576.27
+4239,request to add Olalekan Ikotun to the triage team.,ghinks,2020-04-13T17:27:13Z,2020-07-11T00:34:42+00:00,1,2119.12
+4251,GitHub Actions workflow for Linux and Windows machines,mickeygousset,2020-04-24T16:59:02Z,2024-10-27T18:25:22+00:00,53,39529.44
+4276,Replace RegEx to slice method,martiliones,2020-05-14T04:16:37Z,2020-05-17T13:51:39+00:00,1,81.58
+4286,Fixed typo of the History.md,SaveYourTime,2020-05-19T08:05:38Z,2020-06-26T21:45:44+00:00,1,925.67
+4305,Identify Framework is Express,winstonhowessc,2020-06-04T20:02:24Z,2021-12-30T16:59:39+00:00,3,13772.95
+4315,docs: fix markdown links,NotMoni,2020-06-14T20:14:03Z,2020-06-29T04:59:18+00:00,1,344.75
+4321,bump v5 router to beta.1,jonchurch,2020-06-18T23:06:08Z,2021-12-17T05:25:49+00:00,1,13110.33
+4327,fix eighth alpha release for express5 typo,belovsandr,2020-06-26T21:43:43Z,2020-06-29T04:58:28+00:00,2,55.25
+4336,deps: statuses@2.0.1,3imed-jaberi,2020-07-03T03:42:02Z,2022-04-03T04:13:05+00:00,6,15336.52
+4337,deps: cookie@0.4.1,3imed-jaberi,2020-07-03T03:58:17Z,2021-11-17T04:30:44+00:00,8,12048.54
+4338,build: Node.js@13.x and Node.js@14.x ,3imed-jaberi,2020-07-03T05:45:43Z,2021-12-16T07:28:24+00:00,5,12745.71
+4340,deps: proxy-addr@2.0.6,3imed-jaberi,2020-07-03T05:59:14Z,2021-11-16T04:32:29+00:00,5,12022.55
+4351,fix(Contributing): Cannot find Code Of Conduct md file,getspooky,2020-07-16T17:58:34Z,2020-07-16T19:24:10+00:00,2,1.43
+4354,Add examples summary page,rodion-arr,2020-07-19T12:00:24Z,2020-07-27T21:13:19+00:00,4,201.22
+4364,docs: Add Submitting a Pull Request (PR) section,getspooky,2020-07-27T22:51:06Z,2020-09-17T01:30:10+00:00,6,1226.65
+4370,Fix examples README,rodion-arr,2020-07-31T08:05:55Z,2020-08-04T15:09:45+00:00,4,103.06
+4376,Updated Readme,H3RSKO,2020-08-14T21:08:30Z,2020-09-17T05:48:54+00:00,2,800.67
+4411,falta punto y coma ; >:v,gatomod,2020-09-17T17:38:35Z,2020-09-17T18:42:54+00:00,1,1.07
+4461,docs(examples): add links to sql database examples,nikolasburk,2020-11-13T10:16:08Z,2021-12-16T20:47:52+00:00,10,9562.53
+4471,Improve 404 response message language in web-service example,aalaap,2020-11-29T04:15:51Z,2021-12-16T20:12:38+00:00,12,9183.95
+4505,correcting indentation in new correct indentation branch,yash0307jain,2021-01-07T07:44:43Z,2021-01-07T13:16:46+00:00,1,5.53
+4511,Typescript example,keithics,2021-01-12T10:28:38Z,2021-01-12T17:49:35+00:00,1,7.35
+4520,Add discord,sayantan300,2021-01-31T04:46:27Z,2021-04-21T12:40:32+00:00,9,1927.9
+4522,"Updated code to use const, let and arrow functions",marsonya,2021-02-02T03:41:36Z,2021-02-02T08:18:21+00:00,1,4.61
+4551,update for adding constants,ylcnfrht,2021-03-21T00:44:47Z,2021-11-17T04:32:17+00:00,6,5787.79
+4554,Typo in example CSS,lukeart,2021-03-22T20:46:31Z,2021-07-31T19:59:18+00:00,8,3143.21
+4564,Fixed typos,HusseinMoHu,2021-04-11T20:30:28Z,2021-07-31T22:30:29+00:00,6,2666.0
+4573,Update EJS include syntax,aravindvnair99,2021-04-22T19:19:46Z,2021-08-01T02:14:56+00:00,1,2406.92
+4574,Update CI,aravindvnair99,2021-04-22T21:39:18Z,2021-08-15T06:27:00+00:00,3,2744.8
+4587,fix duplication in a switch case statements,Abderrahmenla,2021-05-11T23:57:27Z,2021-07-30T20:12:03+00:00,2,1916.24
+4596,Send Content-Length: 0 and empty chunk for HTTP 205,tkesgar,2021-05-20T04:27:24Z,2022-02-21T00:13:12+00:00,5,6643.76
+4621,Update Hello World Example with Up to Date Practices,icepaq,2021-06-23T15:54:43Z,2021-06-24T00:15:14+00:00,6,8.34
+4624,Remove deprecated property in hello-world example,icepaq,2021-06-25T13:04:07Z,2021-07-30T19:31:12+00:00,1,846.45
+4628,Set CI fail-fast to false,aravindvnair99,2021-07-02T12:52:19Z,2021-07-02T20:10:55+00:00,1,7.31
+4643,Update {Redis-connect} and {hbs} to fix vulnerabilities,Albertobar94,2021-07-11T16:49:37Z,2021-08-01T01:36:51+00:00,3,488.79
+4667,Correct spelling error,AndrewHeaney,2021-08-05T09:53:29Z,2021-08-12T04:10:33+00:00,1,162.28
+4673,"docs: replace ""sentHeader"" with ""headersSent"" in jsdoc",zkeyoung,2021-08-12T06:41:12Z,2021-08-14T05:00:30+00:00,3,46.32
+4692,Hash password using Bcrypt.js,itsaamyth,2021-08-29T20:31:03Z,2021-11-16T04:36:07+00:00,7,1880.08
+4714,tests: make app.listen test shorter,juanarbol,2021-10-03T00:35:23Z,2021-11-16T05:22:27+00:00,1,1060.78
+4744,"res.json & ""json escape"" should always return json",drewm,2021-11-03T11:02:06Z,2021-11-17T05:36:22+00:00,1,330.57
+4752,feat: bump router to beta.1,nfantone,2021-11-14T18:48:45Z,2022-03-01T12:24:51+00:00,9,2561.6
+4765,Correct one app.head test based on test description,yuan-jiang,2021-11-27T08:53:15Z,2021-12-04T15:20:57+00:00,2,174.46
+4767,chore: add ci from node 15 to node 16,kkalavantavanich,2021-12-05T08:15:18Z,2022-02-20T05:46:55+00:00,6,1845.53
+4803,Ignore settings on Object.prototype,EvanHahn,2022-02-03T01:18:44Z,2022-02-21T16:28:20+00:00,2,447.16
+4805,lib: fix typo ocurred -> occurred,caioagiani,2022-02-04T02:55:34Z,2022-02-04T04:50:08+00:00,1,1.91
+4814,replace wierd syntax with clear expression,thst71,2022-02-06T16:05:05Z,2022-02-08T03:24:25+00:00,4,35.32
+4829,Removed '$' sign from bash code in README as it is too copied along with the bash code,shree-c,2022-02-19T13:46:53Z,2022-02-19T17:00:11+00:00,1,3.22
+4835,Use object with null prototype for settings,EvanHahn,2022-02-21T18:19:53Z,2024-04-29T15:13:53+00:00,11,19148.9
+4843,"replace ""replaces"" with ""replacer"" in jsdoc",apeltop,2022-02-28T07:39:16Z,2022-03-01T02:12:05+00:00,3,18.55
+4852,res.clearCookie() now ignores maxAge,tjarbo,2022-03-08T17:48:33Z,2024-07-27T23:31:14+00:00,7,20933.71
+4853,Use es6 template literal syntax for logging errors,haneenmahd,2022-03-12T12:09:55Z,2022-07-16T07:00:01+00:00,1,3018.84
+4855,Add root support in res.download(),mmito,2022-03-14T11:49:09Z,2022-03-25T04:33:14+00:00,1,256.73
+4860,Replace deprecated String.prototype.substr(),CommanderRoot,2022-03-17T12:01:47Z,2022-03-20T19:13:42+00:00,1,79.2
+4861,Use object with null prototype for various app properties,EvanHahn,2022-03-17T17:36:05Z,2024-04-29T14:43:25+00:00,9,18573.12
+4866,fix: remove deprecated html attribute,Hashen110,2022-03-20T14:29:27Z,2022-03-20T20:30:06+00:00,1,6.01
+4867,fix: parameter index is not described in JSDoc,Hashen110,2022-03-20T14:43:40Z,2022-03-21T01:11:44+00:00,2,10.47
+4868,fix: continue is unnecessary as the last statement in a loop,Hashen110,2022-03-20T15:38:22Z,2022-03-21T06:12:54+00:00,1,14.58
+4872,docs: fix typo: http -> HTTP,ghousemohamed,2022-03-26T23:49:10Z,2022-04-10T03:44:12+00:00,3,339.92
+4880,Expanding the benchmark.,denizy97,2022-04-03T23:41:12Z,2022-04-25T00:41:16+00:00,2,505.0
+4882,test: fix typo,Hashen110,2022-04-07T15:44:31Z,2022-04-08T06:41:23+00:00,1,14.95
+4884,examples: add missing associated labels,Hashen110,2022-04-07T16:05:02Z,2022-04-12T02:43:23+00:00,2,106.64
+4885,Extend res.links() to allow adding multiple links with the same rel #2729,andvea,2022-04-07T17:39:01Z,2025-02-14T16:20:53+00:00,2,25054.7
+4887,Increase timeout for mocha to 7500,grisu48,2022-04-08T08:32:46Z,2022-04-21T00:25:22+00:00,8,303.88
+4890,Update Security.md,netcode,2022-04-11T08:57:04Z,2022-04-11T23:23:23+00:00,1,14.44
+4891,Correctly invoke async router callback asynchronously,lqqyt2423,2022-04-13T14:16:35Z,2022-04-14T03:15:47+00:00,3,12.99
+4898,bench: remove unused parameter,Hashen110,2022-04-26T17:53:39Z,2022-04-29T03:07:04+00:00,1,57.22
+4914,examples: remove unused params,alxdrg,2022-05-20T15:55:48Z,2022-05-20T17:38:40+00:00,2,1.71
+4926,Grammatically updated the express documentation for better comprehension,REALSTEVEIG,2022-06-11T20:40:54Z,2022-08-20T04:24:22+00:00,4,1663.72
+4931,Limit the maxAge of cookies to prevent cookie errors,bdombro,2022-06-16T21:52:12Z,2022-07-02T20:31:20+00:00,1,382.65
+5013,Freenode is dead/dying,theabhinavdas,2022-10-07T19:02:59Z,2022-10-08T19:40:34+00:00,1,24.63
+5027,ci: update actions/checkout to v3,armujahid,2022-10-19T13:05:24Z,2023-01-27T07:14:53+00:00,5,2394.16
+5028,build : add Node.js@19.7,abenhamdine,2022-10-19T16:09:54Z,2023-02-23T22:14:15+00:00,1,3054.07
+5032,Use https: protocol instead of deprecated git: protocol,vcsjones,2022-10-31T20:41:15Z,2023-01-24T21:50:46+00:00,4,2041.16
+5034,build: Node.js@16.18 and Node.js@18.12,abenhamdine,2022-11-01T21:38:25Z,2023-01-27T01:56:11+00:00,3,2068.3
+5051,Use module.children instead !module.parent,shangTou,2022-12-03T09:22:44Z,2023-01-10T06:33:14+00:00,3,909.17
+5113,examples: remove unused params,raksbisht,2023-02-03T15:26:43Z,2023-02-22T16:51:27+00:00,1,457.41
+5117,Fixed typos,raksbisht,2023-02-08T10:27:43Z,2023-02-22T15:24:48+00:00,1,340.95
+5118,Refactor null/undefined as maxAge in res.cookie,raksbisht,2023-02-08T10:33:58Z,2023-02-09T17:00:52+00:00,6,30.45
+5119,Remove unused originalIndex from acceptParams,raksbisht,2023-02-08T10:45:46Z,2023-02-22T05:15:28+00:00,2,330.5
+5124,test: remove unused function arguments in params,raksbisht,2023-02-10T06:22:18Z,2023-02-22T03:53:12+00:00,1,285.51
+5130,fix: parameter str is not described in JSDoc,raksbisht,2023-02-22T13:01:47Z,2023-02-23T05:23:48+00:00,1,16.37
+5137,test: remove unused function arguments in params,raksbisht,2023-03-04T08:19:02Z,2023-06-04T15:42:48+00:00,4,2215.4
+5139,[feature] send blob response,debadutta98,2023-03-05T05:20:46Z,2024-07-22T15:28:26+00:00,55,12130.13
+5147,upadate,shivamsurya5,2023-03-16T03:54:03Z,2023-03-19T06:23:19+00:00,2,74.49
+5162,use random port in test so it won't fail on already listening,rluvaton,2023-04-11T12:34:54Z,2023-09-28T20:12:29+00:00,4,4087.63
+5190,"update Node.js version 16.x, 18.x, 19.x and add 20.x",sheplu,2023-05-10T21:36:49Z,2024-02-24T14:01:22+00:00,4,6952.41
+5195,examples: remove multipart example,attrid,2023-05-18T13:32:37Z,2024-02-19T17:02:54+00:00,3,6651.5
+5199,examples: add multi/merge engine example,gvanastasov,2023-05-25T21:11:15Z,2023-06-17T18:40:42+00:00,2,549.49
+5208,Added comments to improve code readability ⚡ ⚡,Bhupi2508,2023-06-05T16:56:28Z,2024-02-07T15:54:43+00:00,1,5926.97
+5219,"remove array-flatten dependency, no longer necessary",benjaminPla,2023-06-30T19:23:46Z,2024-09-10T15:26:52+00:00,5,10508.05
+5233,tests: use cb() instead of done(),kristof-low,2023-07-27T09:40:01Z,2024-02-19T14:52:29+00:00,1,4973.21
+5266,Bump qs to 6.9.7 (CVE-2022-24999),christianblais,2023-09-28T14:08:24Z,2024-03-25T20:10:57+00:00,1,4302.04
+5284,pull req,Deepsutariy,2023-10-16T09:09:34Z,2023-12-28T03:42:32+00:00,1,1746.55
+5312,Add basic documentation for benchmarks,UlisesGascon,2023-11-11T19:03:26Z,2024-02-19T19:05:29+00:00,2,2400.03
+5404,deps: cookie@0.6.0,rhodgkins,2024-01-23T17:06:41Z,2024-03-15T15:28:54+00:00,3,1246.37
+5406,Refactor/performance,clintonksang,2024-01-24T08:12:03Z,2024-02-19T19:07:37+00:00,1,634.93
+5414,Fix favicon-related bug in cookie-sessions example,DmytroKondrashov,2024-01-27T18:34:24Z,2024-02-20T03:54:20+00:00,1,561.33
+5429,Add support Node.js@20 in the CI,UlisesGascon,2024-02-02T15:26:50Z,2024-02-26T18:58:29+00:00,7,579.53
+5430,Add support Node.js@21 in the CI,UlisesGascon,2024-02-02T15:28:44Z,2024-02-26T19:10:42+00:00,4,579.7
+5431,Add support for OSSF scorecard reporting,UlisesGascon,2024-02-02T15:43:07Z,2025-01-15T06:39:30+00:00,4,8342.94
+5432,Improve pipelines,UlisesGascon,2024-02-02T15:44:54Z,2025-03-27T14:46:30+00:00,2,10055.03
+5433,Add CodeQL (SAST),UlisesGascon,2024-02-02T15:53:06Z,2024-04-17T13:13:07+00:00,8,1797.33
+5434,Add Dependency Review Action,UlisesGascon,2024-02-02T16:08:38Z,2025-05-14T12:53:49+00:00,1,11204.75
+5435,Add dependabot,UlisesGascon,2024-02-02T16:22:04Z,2025-03-11T21:50:59+00:00,20,9677.48
+5436,Add OSSF Scorecard badge,UlisesGascon,2024-02-02T16:41:12Z,2024-07-28T10:55:10+00:00,8,4242.23
+5445,patch(bigint): handle bigint in responses,bhavya3024,2024-02-05T22:15:59Z,2024-02-05T23:23:21+00:00,7,1.12
+5480,ci: detect Spam pull requests in GitHub Actions,aminya,2024-02-14T11:55:26Z,2024-03-26T15:18:09+00:00,6,987.38
+5483,docs: update TC governance rules,wesleytodd,2024-02-16T14:55:02Z,2024-02-19T10:47:38+00:00,14,67.88
+5484,docs: add project captains to contribution,wesleytodd,2024-02-16T15:27:23Z,2024-02-19T13:16:29+00:00,9,69.82
+5490,Update support Node.js@18 in the CI ,UlisesGascon,2024-02-17T17:28:09Z,2024-02-19T21:42:51+00:00,2,52.24
+5498,update the docs by  steps to get started Installation,kartikeysh,2024-02-24T05:04:11Z,2024-02-24T10:33:36+00:00,1,5.49
+5500,chore: update dev dependencies,sheplu,2024-02-24T13:23:04Z,2025-02-13T16:52:45+00:00,3,8523.49
+5505,Release 4.18.3,UlisesGascon,2024-02-26T19:27:51Z,2024-02-29T11:41:41+00:00,3,64.23
+5510,docs: loosen TC activity rules,wesleytodd,2024-02-28T20:50:46Z,2024-03-14T11:43:13+00:00,6,350.87
+5511,docs: nominating @wesleytodd to be project captian,wesleytodd,2024-02-29T14:53:12Z,2024-03-14T11:40:52+00:00,3,332.79
+5512,Move documentation to the Admin repository,sheplu,2024-02-29T21:41:39Z,2025-08-05T23:38:08+00:00,5,12553.94
+5526,Add a Threat Model,UlisesGascon,2024-03-10T18:35:53Z,2024-04-04T11:01:35+00:00,15,592.43
+5527,fix typo in release date,UlisesGascon,2024-03-10T19:06:33Z,2024-03-11T15:19:21+00:00,2,20.21
+5529,Sync 4.x with master,jonchurch,2024-03-11T07:36:37Z,2024-07-25T21:59:07+00:00,2,3278.38
+5541,Add note on how to update docs for new release,crandmck,2024-03-15T16:27:26Z,2024-03-16T17:57:42+00:00,1,25.5
+5552,Fix ci after location patch,wesleytodd,2024-03-20T16:34:47Z,2024-03-20T21:33:03+00:00,6,4.97
+5555,fix #5554 passing URL instances with new location encoding,wesleytodd,2024-03-20T21:07:56Z,2024-03-20T22:10:22+00:00,1,1.04
+5562,remove duplicate location test for data uri,wesleytodd,2024-03-25T15:03:49Z,2024-03-26T14:41:06+00:00,1,23.62
+5564,Cut down on duplicated CI runs,jonchurch,2024-03-26T02:40:57Z,2024-03-27T14:57:44+00:00,2,36.28
+5565,feat: document beta releases expectations,marco-ippolito,2024-03-26T11:39:08Z,2024-03-27T14:57:09+00:00,6,27.3
+5569,deps: encodeurl@~2.0.0,blakeembrey,2024-03-29T00:23:00Z,2024-05-04T20:53:10+00:00,9,884.5
+5579,Assign captain of encodeurl,blakeembrey,2024-04-03T20:26:51Z,2024-04-07T16:40:16+00:00,3,92.22
+5587,"Nominate jonchurch as repo captain for `http-errors`, `expressjs.com`, `morgan`, `cors`, `body-parser`",jonchurch,2024-04-08T13:06:38Z,2024-04-09T13:51:51+00:00,11,24.75
+5590,docs: update Security.md,inigomarquinez,2024-04-10T06:42:15Z,2024-04-10T16:53:53+00:00,2,10.19
+5595,Adopt Node@18 as the minimum supported version,UlisesGascon,2024-04-11T17:27:46Z,2024-09-10T02:17:28+00:00,7,3632.83
+5599,Replace Appveyor windows testing with GHA,jonchurch,2024-04-14T08:32:45Z,2024-07-27T18:15:55+00:00,11,2505.72
+5600,docs: update triage nomination policy,UlisesGascon,2024-04-15T22:47:28Z,2024-04-17T11:53:16+00:00,7,37.1
+5603,deps: path-to-regexp@0.1.8,blakeembrey,2024-04-16T21:22:25Z,2024-08-22T03:15:02+00:00,6,3053.88
+5605,docs: add UlisesGascon as triage initiative captain,UlisesGascon,2024-04-17T12:29:25Z,2024-04-21T09:48:10+00:00,2,93.31
+5619,"doc: add table of contents, tc/triager lists to readme",mertcanaltin,2024-04-23T09:04:20Z,2024-05-08T21:02:11+00:00,37,371.96
+5627,add support Node.js@22 in the CI,mertcanaltin,2024-04-29T18:54:23Z,2024-05-04T22:15:53+00:00,4,123.36
+5628,skip QUERY method test,jonchurch,2024-04-29T19:26:13Z,2024-05-04T21:09:52+00:00,1,121.73
+5653,"List and sort all projects, add captains",blakeembrey,2024-05-10T23:16:37Z,2024-05-14T02:31:23+00:00,4,75.25
+5664,Adding MFA,Codexnever,2024-05-14T18:31:43Z,2024-05-16T11:08:49+00:00,4,40.62
+5666,docs: add @UlisesGascon as captain for cookie-parser,UlisesGascon,2024-05-15T18:02:32Z,2024-05-22T22:29:16+00:00,2,172.45
+5671,Update Readme.md,Pratiksha-First,2024-05-18T15:39:08Z,2024-05-20T16:57:00+00:00,1,49.3
+5672,[v4] Deprecate `res.clearCookie` accepting `options.maxAge` and `options.expires`,jonchurch,2024-05-18T17:45:34Z,2024-06-07T23:48:48+00:00,7,486.05
+5677,Use Array.flat instead of array-flatten,almic,2024-05-20T15:27:49Z,2024-08-01T23:42:07+00:00,3,1760.24
+5683,"📝 update people, add ctcpip to TC",ctcpip,2024-05-24T19:02:32Z,2024-06-10T21:19:11+00:00,3,410.28
+5690,✨ bring back query tests for node 21,ctcpip,2024-05-31T17:07:32Z,2024-06-05T21:25:59+00:00,3,124.31
+5695,"skip QUERY tests for Node 21 only, still not supported",jonchurch,2024-06-05T23:14:13Z,2024-06-09T03:25:42+00:00,1,76.19
+5722,remove minor version pinning from ci,jonchurch,2024-06-24T20:58:10Z,2024-06-26T22:23:19+00:00,3,49.42
+5748,update debug to 4.3.5,rritik772,2024-07-05T12:11:12Z,2024-07-09T15:25:05+00:00,1,99.23
+5758,update debug to 4.3.5,rritik772,2024-07-11T14:29:31Z,2024-08-31T16:00:42+00:00,2,1225.52
+5761,Update index.js,ritanshu747,2024-07-14T06:00:14Z,2024-07-17T14:05:12+00:00,1,80.08
+5762,Fix link variable use in attribution section of CODE OF CONDUCT,IamLizu,2024-07-15T07:51:56Z,2024-07-17T20:44:03+00:00,2,60.87
+5781,4.x: Upgrade `merge-descriptors` dependency,RobinTail,2024-07-22T21:08:41Z,2024-08-23T20:39:13+00:00,3,767.51
+5782,5.x: Upgrading `merge-descriptors` with allowing minors,RobinTail,2024-07-22T22:13:30Z,2024-08-23T20:37:27+00:00,10,766.4
+5785,master -> 5.0,ctcpip,2024-07-25T21:00:34Z,2024-09-10T02:17:28+00:00,6,1109.28
+5786,send@1.0.0,wesleytodd,2024-07-25T23:34:36Z,2024-08-09T16:59:53+00:00,1,353.42
+5792,Ignore `expires` and `maxAge` in `res.clearCookie()`,jonchurch,2024-07-27T23:28:40Z,2024-08-02T20:26:45+00:00,6,140.97
+5801,"Update `5.0` CI, drop CI jobs under node 18",jonchurch,2024-08-01T23:27:12Z,2024-08-02T18:02:41+00:00,2,18.59
+5803,Adopt Node@18 as the minimum supported version,UlisesGascon,2024-08-02T10:44:36Z,2024-08-02T14:07:36+00:00,1,3.38
+5814,update scorecard link,bjohansebas,2024-08-08T02:09:33Z,2024-08-18T18:37:51+00:00,4,256.47
+5819,✅ add discarded middleware test,ctcpip,2024-08-09T04:50:07Z,2024-10-20T18:06:49+00:00,5,1741.28
+5830,refactor: replace 'path-is-absolute' dep with node:path isAbsolute method,carpasse,2024-08-16T06:30:50Z,2024-08-17T15:21:29+00:00,1,32.84
+5833,Upgrade cookie signature,IamLizu,2024-08-17T18:30:11Z,2024-08-23T23:17:12+00:00,3,148.78
+5835,docs: specify new instructions for `question` and `discuss`,IamLizu,2024-08-18T16:11:48Z,2024-08-22T16:25:15+00:00,3,96.22
+5836,Nominate @IamLizu to the triage team,UlisesGascon,2024-08-18T17:34:39Z,2024-08-19T20:12:24+00:00,4,26.63
+5847,chore: upgrade qs dp from 6.11.0 to 6.13.0,carpasse,2024-08-23T05:49:07Z,2024-08-23T21:10:16+00:00,2,15.35
+5864,update appveyor nodejs list,bjohansebas,2024-08-24T19:10:20Z,2024-09-07T00:07:10+00:00,2,316.95
+5873,Enhance `req.acceptsCharsets` method `5.x`,Abdel-Monaam-Aouini,2024-08-28T11:08:01Z,2024-09-10T02:40:56+00:00,1,303.55
+5885,router@^2.0.0,wesleytodd,2024-09-02T15:46:43Z,2024-09-09T22:50:12+00:00,1,175.06
+5902,path-to-regexp@0.1.10,blakeembrey,2024-09-03T20:57:31Z,2024-09-09T21:02:06+00:00,4,144.08
+5908,Update Readme.md,veer1234-max,2024-09-05T02:03:13Z,2024-09-05T04:22:02+00:00,1,2.31
+5916,update to `fresh@^2.0.0`,jonchurch,2024-09-07T00:02:05Z,2024-09-09T22:03:32+00:00,2,70.02
+5920,update homepage link http to https,bjohansebas,2024-09-08T00:52:24Z,2024-10-20T18:07:23+00:00,3,1025.25
+5935,"Deprecate `""back""` magic string in redirects",blakeembrey,2024-09-10T03:35:29Z,2024-09-11T19:24:22+00:00,3,39.81
+5946,Upgraded dependency qs to 6.13.0 to match qs in body-parser,agadzinski93,2024-09-11T02:11:50Z,2024-09-11T22:27:37+00:00,1,20.26
+5951,fix(deps): serve-static@1.16.2,wesleytodd,2024-09-11T17:20:28Z,2024-09-11T22:26:00+00:00,1,5.09
+5956,deps: path-to-regexp@0.1.11,blakeembrey,2024-09-12T18:20:36Z,2024-10-20T18:09:33+00:00,2,911.82
+5957,Method functions with no path should error,wesleytodd,2024-09-12T18:22:03Z,2025-01-16T00:22:08+00:00,3,3006.0
+5962,remove --bail from test script,jonchurch,2024-09-14T23:00:23Z,2024-09-30T20:49:26+00:00,1,381.82
+5994,Improve readme,bjohansebas,2024-09-28T18:59:35Z,2024-10-20T18:09:00+00:00,3,527.16
+6009,Nominate @bjohansebas to the triage team,UlisesGascon,2024-10-01T20:18:50Z,2024-10-06T15:34:27+00:00,4,115.26
+6013,Link and update captains,blakeembrey,2024-10-03T22:00:00Z,2024-10-06T21:06:57+00:00,1,71.12
+6017,Update `cookie` semver lock to address CVE-2024-47764,joshbuker,2024-10-04T21:32:10Z,2024-10-08T10:10:56+00:00,11,84.65
+6027,Update captains,UlisesGascon,2024-10-07T14:05:09Z,2024-10-09T19:40:05+00:00,3,53.58
+6029,Backport a fix for CVE-2024-47764 to the 4.x branch,joshbuker,2024-10-07T17:56:27Z,2024-10-08T10:13:25+00:00,3,16.28
+6031,Release: 4.21.1,UlisesGascon,2024-10-08T10:19:07Z,2024-10-08T18:36:08+00:00,1,8.28
+6032,Release: 5.0.1,UlisesGascon,2024-10-08T10:19:18Z,2024-10-08T19:31:11+00:00,1,9.2
+6033,docs: list current Committers + bjohansebas nomination,UlisesGascon,2024-10-08T10:36:58Z,2025-01-09T16:19:19+00:00,10,2237.71
+6048,docs: Add DCO,UlisesGascon,2024-10-13T12:43:32Z,2024-10-29T12:35:45+00:00,2,383.87
+6052,Update Readme.md,Shrishti2698,2024-10-13T23:20:33Z,2024-10-14T14:58:30+00:00,1,15.63
+6058,Add bjohansebas as repo captain for expressjs.com,crandmck,2024-10-15T16:48:51Z,2024-10-20T18:10:23+00:00,3,121.36
+6064,Add funding field (v5),bjohansebas,2024-10-16T21:55:17Z,2024-10-20T17:58:49+00:00,1,92.06
+6065,Add funding field (v4),bjohansebas,2024-10-16T22:01:21Z,2024-10-20T17:58:25+00:00,1,91.95
+6066,Use loop for acceptParams,blakeembrey,2024-10-17T00:37:55Z,2024-11-14T21:01:25+00:00,3,692.39
+6071,fix(buffer): use node:buffer instead of safe-buffer,bhavya3024,2024-10-17T20:41:46Z,2024-10-27T10:10:33+00:00,3,229.48
+6073,response: add support for ETag option in res.sendFile,juanarbol,2024-10-18T16:40:48Z,2025-02-13T19:39:31+00:00,2,2834.98
+6075,build: Node.js 23.0,bjohansebas,2024-10-18T23:49:03Z,2024-10-20T17:25:57+00:00,1,41.62
+6080,ci: add support for Node.js@23.0,UlisesGascon,2024-10-20T17:55:26Z,2025-01-08T20:53:41+00:00,2,1922.97
+6081,Remove Object.setPrototypeOf polyfill,Phillip9587,2024-10-21T06:49:32Z,2024-10-22T18:22:26+00:00,3,35.55
+6087,docs: list website committers,bjohansebas,2024-10-26T20:20:34Z,2025-01-14T20:21:31+00:00,3,1920.02
+6091,Remove `utils-merge` dependency - use spread syntax instead,Phillip9587,2024-10-28T11:36:48Z,2025-01-08T15:56:16+00:00,8,1732.32
+6093,Refactor Core Functions for Clarity and Performance,Ayoub-Mabrouk,2024-10-28T23:24:25Z,2024-10-30T08:05:17+00:00,1,32.68
+6094,Release: 4.21.2,UlisesGascon,2024-10-29T14:40:44Z,2024-12-05T22:27:56+00:00,1,895.79
+6095,Release: 5.0.2,UlisesGascon,2024-10-29T14:44:00Z,2025-03-28T17:14:18+00:00,1,3602.51
+6097,refactor: simplify `normalizeTypes` function,Ayoub-Mabrouk,2024-10-29T20:18:00Z,2025-02-04T10:59:49+00:00,2,2342.7
+6103,"Upgrade package, fix vulnerbility, and fix unit test",agungjati,2024-10-30T04:30:19Z,2024-11-01T11:56:23+00:00,1,55.43
+6109,style: format code with prettier,Abdel-Monaam-Aouini,2024-10-31T09:33:12Z,2025-01-13T14:21:00+00:00,2,1780.8
+6112,deps: upgrade supertest,agungjati,2024-10-31T17:03:02Z,2025-02-13T16:44:56+00:00,6,2519.7
+6114,deps: upgrade connect-redis,agungjati,2024-10-31T17:04:40Z,2025-02-13T16:44:55+00:00,1,2519.67
+6115,deps: upgrade content-type,agungjati,2024-10-31T17:06:22Z,2025-02-13T16:44:54+00:00,1,2519.64
+6116,deps: upgrade debug,agungjati,2024-10-31T17:07:14Z,2025-02-13T16:10:13+00:00,1,2519.05
+6117,deps: upgrade ejs,agungjati,2024-10-31T17:07:49Z,2025-02-13T16:44:54+00:00,1,2519.62
+6119,deps: upgrade express-session,agungjati,2024-10-31T17:09:09Z,2025-02-13T16:44:53+00:00,1,2519.6
+6120,deps: upgrade marked,agungjati,2024-10-31T17:09:57Z,2025-02-13T16:44:52+00:00,1,2519.58
+6121,deps: upgrade mocha,agungjati,2024-10-31T17:10:43Z,2025-02-13T16:44:52+00:00,7,2519.57
+6122,deps: upgrade nyc,agungjati,2024-10-31T17:12:05Z,2025-02-12T16:47:19+00:00,2,2495.59
+6124,refactor(app.all): modernize function to improve readability,Ayoub-Mabrouk,2024-11-02T03:28:44Z,2024-11-13T20:52:55+00:00,1,281.4
+6128,Refactor: optimize `hostname` getter function,Ayoub-Mabrouk,2024-11-03T19:26:14Z,2025-01-15T22:21:54+00:00,1,1754.93
+6130,Refactor: Simplify `req.fresh` getter with destructuring and streamlined conditions,Ayoub-Mabrouk,2024-11-03T19:52:14Z,2025-01-15T22:21:19+00:00,1,1754.48
+6131,Refactor: Simplify `req.stale` getter by removing redundant function name,Ayoub-Mabrouk,2024-11-03T20:09:07Z,2025-01-15T22:22:11+00:00,1,1754.22
+6135,Refactor: update JSDoc for subdomains getter and simplify implementation,Ayoub-Mabrouk,2024-11-03T21:10:59Z,2025-01-15T22:27:00+00:00,1,1753.27
+6137,Refactor: simplify `acceptsLanguages` implementation using spread operator,Ayoub-Mabrouk,2024-11-04T01:09:59Z,2025-04-11T01:49:23+00:00,3,3792.66
+6141,ci: use pinned dependencies,bjohansebas,2024-11-04T02:32:48Z,2024-11-11T18:02:48+00:00,1,183.5
+6142,Update Readme.md,Prince1832,2024-11-04T09:04:28Z,2024-11-04T12:38:56+00:00,1,3.57
+6146,cleanup: remove unnecessary require for global Buffer,Phillip9587,2024-11-05T11:09:54Z,2024-11-15T16:16:29+00:00,3,245.11
+6147,cleanup: remove AsyncLocalStorage check,Phillip9587,2024-11-05T11:22:03Z,2024-11-15T16:23:43+00:00,4,245.03
+6148,cleanup: remove promise support check from tests,Phillip9587,2024-11-05T11:42:48Z,2024-11-12T15:30:35+00:00,4,171.8
+6150,Improve documentation step in release process,bjohansebas,2024-11-06T00:28:30Z,2024-11-15T14:53:38+00:00,2,230.42
+6151,docs: add @rxmarbles to the triage team,UlisesGascon,2024-11-06T11:49:23Z,2024-11-27T18:59:36+00:00,7,511.17
+6173,refactor: improve readability,sazk07,2024-11-12T20:12:48Z,2024-11-27T20:22:23+00:00,6,360.16
+6175,refactor(cookie): remove `cookie-signature` dependency and use the native crypto module to sign cookie,bhavya3024,2024-11-13T21:59:05Z,2024-11-28T18:46:08+00:00,1,356.78
+6177,update history.md for acceptParams change,jonchurch,2024-11-14T21:17:30Z,2024-11-20T19:40:39+00:00,2,142.39
+6190,Refactor: improve readability,sazk07,2024-11-27T21:06:41Z,2024-12-17T15:59:55+00:00,2,474.89
+6196,chore: replace `methods` dependency with standard library,jonkoops,2024-12-02T09:57:21Z,2025-01-02T07:00:30+00:00,4,741.05
+6197,Remove unused `depd` dependency,jonkoops,2024-12-02T10:04:20Z,2025-01-12T17:08:51+00:00,2,991.08
+6211,fix(securite): fix vulnerabilities,Abdel-Monaam-Aouini,2024-12-06T19:39:47Z,2025-01-08T20:45:36+00:00,2,793.1
+6214,Add emojis Readme.md,NishantSinghF11,2024-12-08T11:48:00Z,2024-12-20T19:52:24+00:00,1,296.07
+6217,docs: clarify the security process in the triage role,bjohansebas,2024-12-09T22:50:44Z,2024-12-20T17:18:55+00:00,5,258.47
+6234,Update repo captains,UlisesGascon,2024-12-20T23:35:25Z,2025-02-12T16:22:12+00:00,6,1288.78
+6235,include what is express in the README,abhishek6619,2024-12-21T15:47:52Z,2025-02-12T16:24:26+00:00,1,1272.61
+6236,refactor: prefix built-in node module imports,slagiewka,2024-12-21T22:09:21Z,2025-01-10T17:53:45+00:00,5,475.74
+6256,fix: usage of `Invalid action input 'persist-credentials'` for `actions/setup-node@v4` in `ci.yml`,hamirmahal,2025-01-03T21:55:08Z,2025-01-14T19:01:40+00:00,4,261.11
+6266,fix: remove download size badges,wesleytodd,2025-01-08T23:24:08Z,2025-01-11T17:12:04+00:00,8,65.8
+6276,docs: add @Phillip9587 to the triage team,bjohansebas,2025-01-13T18:36:33Z,2025-01-23T15:51:46+00:00,4,237.25
+6278,docs: include team email in the security policy,UlisesGascon,2025-01-15T06:42:15Z,2025-02-04T10:28:18+00:00,2,483.77
+6285,Added check to support Uint8Array in response sending,alexandercerutti,2025-01-18T20:48:34Z,2025-02-10T17:24:30+00:00,5,548.6
+6297,fix: added a missing semicolon in css styles in examples/auth,pr4j3sh,2025-01-25T18:56:52Z,2025-01-26T10:54:07+00:00,3,15.95
+6313,chore(deps): update `debug` to ^4.4.0,Phillip9587,2025-02-03T11:10:55Z,2025-02-10T19:41:39+00:00,3,176.51
+6314,ci: updated github actions ci workflow,Phillip9587,2025-02-03T11:28:36Z,2025-02-05T12:28:00+00:00,3,48.99
+6317,build(deps): use carat notation for dependency versions,dpopp07,2025-02-03T22:47:33Z,2025-02-05T18:05:39+00:00,4,43.3
+6322,ci: updated scorecard actions,Phillip9587,2025-02-05T12:53:31Z,2025-02-05T17:40:08+00:00,2,4.78
+6323,ci: updated github actions ci workflow,Phillip9587,2025-02-05T13:00:47Z,2025-02-12T16:25:08+00:00,2,171.41
+6324,ci: fix npm install --include typo,Phillip9587,2025-02-05T13:04:28Z,2025-02-05T17:25:48+00:00,2,4.36
+6331,feat(deps): router@^2.1.0,wesleytodd,2025-02-10T20:04:58Z,2025-02-12T16:09:50+00:00,2,44.08
+6332,feat(deps): body-parser@^2.1.0,wesleytodd,2025-02-10T20:15:26Z,2025-02-12T15:44:53+00:00,3,43.49
+6333,docs: retroactively note 5.0.0-beta.1 api change in history file,dpopp07,2025-02-10T22:01:29Z,2025-02-12T15:38:10+00:00,4,41.61
+6336,ci: reorder `npm i` steps to fix ci for older node versions,Phillip9587,2025-02-12T18:05:51Z,2025-02-17T16:53:01+00:00,3,118.79
+6345,docs: update emeritus triagers,UlisesGascon,2025-02-17T12:48:00Z,2025-02-27T21:47:13+00:00,8,248.99
+6349,docs: update guidance for triager nominations,bjohansebas,2025-02-18T18:12:42Z,2025-03-04T14:09:19+00:00,8,331.94
+6352,Nominate @dpopp07 to the triage team,UlisesGascon,2025-02-19T18:37:16Z,2025-03-11T21:49:08+00:00,4,483.2
+6357,docs: update Contributing.md to clarify repo captain permissions,bjohansebas,2025-02-22T15:50:37Z,2025-04-26T20:35:54+00:00,3,1516.75
+6364,docs: clarify guidelines for becoming a committer,bjohansebas,2025-02-27T00:50:48Z,2025-03-05T15:11:29+00:00,5,158.34
+6369,"Update README.md with installation steps, API usage, and formatting i…",pundirakash,2025-03-01T08:14:01Z,2025-03-04T13:44:24+00:00,1,77.51
+6373,feat(deps): finalhandler@2.1.0,wesleytodd,2025-03-05T14:59:28Z,2025-03-19T00:12:45+00:00,4,321.22
+6374,fix(deps): qs@^6.14.0,wesleytodd,2025-03-05T16:25:52Z,2025-03-11T21:49:58+00:00,3,149.4
+6378,docs: add codemod captains,bjohansebas,2025-03-06T20:15:12Z,2025-03-17T08:47:26+00:00,5,252.54
+6386,increased code coverage of utils.js file,ashish3011,2025-03-13T07:58:40Z,2025-04-11T01:57:43+00:00,3,689.98
+6392,fix dependabot config,bjohansebas,2025-03-16T01:26:35Z,2025-03-16T22:44:57+00:00,1,21.31
+6396,Move captains and committers to another repo,UlisesGascon,2025-03-16T18:44:00Z,2025-07-14T02:13:25+00:00,4,2863.49
+6397,build(deps): bump ossf/scorecard-action from 2.4.0 to 2.4.1,dependabot,2025-03-16T22:45:43Z,2025-03-18T16:12:20+00:00,3,41.44
+6398,build(deps): bump github/codeql-action from 3.24.7 to 3.28.11,dependabot,2025-03-16T22:45:45Z,2025-03-18T16:12:00+00:00,3,41.44
+6399,build(deps-dev): bump cookie-session from 2.0.0 to 2.1.0,dependabot,2025-03-16T22:46:18Z,2025-03-24T01:08:24+00:00,1,170.37
+6405,add deprecation warnings for redirect arguments undefined,bjohansebas,2025-03-19T00:48:02Z,2025-07-15T03:18:10+00:00,1,2834.5
+6408,doc: remove @mertcanaltin from Triagers,mertcanaltin,2025-03-21T09:56:28Z,2025-03-27T23:43:18+00:00,5,157.78
+6409,Updated require statements in examples for clarity,AbhishekDB99,2025-03-22T17:27:30Z,2025-03-24T16:39:28+00:00,1,47.2
+6414,replace on-finished with node:stream's finished,bjohansebas,2025-03-25T02:15:53Z,2025-05-29T00:50:49+00:00,1,1558.58
+6415,ci: use full SHAs for github action versions,Phillip9587,2025-03-26T14:47:59Z,2025-03-27T14:46:29+00:00,7,23.98
+6417,deps: router@^2.2.0,UlisesGascon,2025-03-26T23:59:09Z,2025-03-27T01:47:40+00:00,3,1.81
+6418,deps: serve-static@^2.2.0,UlisesGascon,2025-03-27T00:01:10Z,2025-03-28T00:46:06+00:00,1,24.75
+6419,deps: body-parser@^2.2.0,UlisesGascon,2025-03-27T00:02:45Z,2025-03-27T01:31:58+00:00,1,1.49
+6420,deps: type-is@^2.0.1,UlisesGascon,2025-03-27T00:04:13Z,2025-03-27T01:32:29+00:00,1,1.47
+6425,5.1.0,wesleytodd,2025-03-28T01:21:25Z,2025-03-31T14:04:10+00:00,5,84.71
+6427,docs: move documentation and charters to the discussions and .github …,bjohansebas,2025-03-30T02:43:00Z,2025-06-09T20:34:53+00:00,3,1721.86
+6429,build(deps): bump github/codeql-action from 3.28.11 to 3.28.13,dependabot,2025-04-01T09:33:12Z,2025-04-05T02:53:14+00:00,2,89.33
+6430,chore: remove .editorconfig file,bjohansebas,2025-04-01T14:36:51Z,2025-05-12T21:17:30+00:00,2,990.68
+6456,chore: remove duplicate word,dufucun,2025-04-16T02:27:09Z,2025-04-16T16:18:38+00:00,3,13.86
+6470,lib: make response status code error more type safe,shivarm,2025-04-19T08:57:50Z,2025-04-19T10:41:01+00:00,1,1.72
+6476,test: add coverage for app.listen() variants,kgarg1,2025-04-22T12:36:42Z,2025-05-29T00:26:16+00:00,2,875.83
+6477,Staging,Hamzah-2002,2025-04-22T13:34:14Z,2025-04-22T17:42:39+00:00,5,4.14
+6482,nominate @krzysdz to triage team,bjohansebas,2025-04-26T01:34:55Z,2025-07-12T19:14:38+00:00,1,1865.66
+6488,ci: update codeql config,Phillip9587,2025-04-28T20:34:42Z,2025-05-09T13:29:27+00:00,1,256.91
+6496,build(deps): bump actions/download-artifact from 4.2.1 to 4.3.0,dependabot,2025-05-01T10:03:31Z,2025-05-05T21:02:24+00:00,3,106.98
+6497,build(deps): bump actions/setup-node from 4.3.0 to 4.4.0,dependabot,2025-05-01T10:03:34Z,2025-05-05T21:02:09+00:00,3,106.98
+6498,build(deps): bump github/codeql-action from 3.28.13 to 3.28.16,dependabot,2025-05-01T10:03:40Z,2025-05-05T21:01:58+00:00,3,106.97
+6504,ci: add node.js 24 to test matrix,Phillip9587,2025-05-06T14:56:31Z,2025-05-08T02:08:26+00:00,2,35.2
+6506,Backport: ci: add node.js 24 to test matrix,Phillip9587,2025-05-08T13:16:30Z,2025-05-10T23:52:25+00:00,1,58.6
+6512,chore: wider range for query test skip,jonchurch,2025-05-14T23:48:48Z,2025-05-15T16:40:26+00:00,4,16.86
+6513,chore(4.x): wider range for query test skip,jonchurch,2025-05-14T23:48:52Z,2025-05-15T16:40:08+00:00,4,16.85
+6515,ci: allow manual triggering of workflow,shivarm,2025-05-16T06:56:46Z,2025-05-29T00:16:44+00:00,2,305.33
+6520,chore: use node protocol for querystring,shivarm,2025-05-19T06:30:03Z,2025-07-03T02:33:10+00:00,2,1076.05
+6522,ci: disable credential persistence for checkout actions,mertssmnoglu,2025-05-20T21:39:46Z,2025-05-28T23:55:05+00:00,1,194.26
+6525,chore: enforce explicit `Buffer` import and add lint rule,shivarm,2025-05-22T03:31:07Z,2025-06-28T01:10:36+00:00,6,885.66
+6535,chore: fix typos in test,noritaka1166,2025-05-26T16:04:47Z,2025-05-27T08:36:50+00:00,1,16.53
+6548,build(deps): bump ossf/scorecard-action from 2.4.1 to 2.4.2,dependabot,2025-06-01T09:12:40Z,2025-06-18T21:36:52+00:00,2,420.4
+6549,build(deps): bump github/codeql-action from 3.28.16 to 3.28.18,dependabot,2025-06-01T09:12:48Z,2025-06-18T21:36:20+00:00,2,420.39
+6555,remove once npm package,bhavya3024,2025-06-03T20:17:26Z,2025-06-04T15:25:54+00:00,1,19.14
+6578,CI: include node.js 18 in legacy,shivarm,2025-06-17T08:41:52Z,2025-06-17T22:05:42+00:00,1,13.4
+6588,chore: ignore yarn.lock file and update example,shivarm,2025-06-23T02:37:16Z,2025-08-20T13:18:37+00:00,5,1402.69
+6599,Updated app.listen() in Express example to use a callback function.,b-gonzalez,2025-06-27T13:36:23Z,2025-09-03T20:42:15+00:00,2,1639.1
+6601,doc: update contributing guidelines and code of conduct links,ShubhamOulkar,2025-06-28T03:09:05Z,2025-07-30T13:41:53+00:00,10,778.55
+6609,chore: fix typo,mountdisk,2025-06-30T06:58:11Z,2025-07-04T14:47:31+00:00,3,103.82
+6610,Fix: broken CONTRIBUTING.md link in Readme,JayaNeem,2025-06-30T14:12:49Z,2025-07-12T19:22:14+00:00,1,293.16
+6618,build(deps): bump github/codeql-action from 3.28.18 to 3.29.2,dependabot,2025-07-01T10:33:00Z,2025-07-09T08:27:41+00:00,2,189.91
+6619,perf(request): move static getters to prototype for ~2× throughput,Yanvi09,2025-07-03T06:09:45Z,2025-07-12T16:48:53+00:00,1,226.65
+6621,Fix broken link in README.md,sitanshu01,2025-07-05T20:46:47Z,2025-07-12T19:23:54+00:00,1,166.62
+6632,ci: run CI when the markdown changes,bjohansebas,2025-07-12T19:31:20Z,2025-07-16T02:27:50+00:00,2,78.94
+6644,lint: add --fix flag to automatic fix linting issue,shivarm,2025-07-17T07:00:27Z,2025-08-12T22:58:13+00:00,2,639.96
+6666,fix: Add helpful error messages for invalid wildcard routes in Express v5,Abdel-Monaam-Aouini,2025-07-29T11:24:40Z,2025-07-31T15:23:15+00:00,1,51.98
+6675,build(deps): bump github/codeql-action from 3.29.2 to 3.29.5,dependabot,2025-08-01T09:44:36Z,2025-09-14T14:39:33+00:00,1,1060.92
+6678,build(deps-dev): bump cookie-session from 2.1.0 to 2.1.1,dependabot,2025-08-01T23:01:58Z,2025-08-06T01:24:49+00:00,1,98.38
+6679,build(deps-dev): bump morgan from 1.10.0 to 1.10.1,dependabot,2025-08-01T23:02:24Z,2025-08-06T01:24:22+00:00,1,98.37
+6699,fix: throw generic error for missing required arguments,shivarm,2025-08-10T01:11:30Z,2025-08-14T10:37:15+00:00,2,105.43
+6705,lib: use req.socket over deprecated req.connection,bjohansebas,2025-08-13T01:57:52Z,2025-08-21T15:05:29+00:00,2,205.13
+6718,doc: update express app example,shivarm,2025-08-21T07:28:28Z,2025-08-22T07:12:09+00:00,2,23.73
+6729,Update Readme.md,AyushGupta30091,2025-08-27T14:33:11Z,2025-08-28T01:27:25+00:00,1,10.9
+6754,feat: add express.asyncHandler helper for async route support,macjik,2025-09-10T07:28:58Z,2025-09-14T14:36:24+00:00,1,103.12
+6780,Remove history.md from being packaged on publish,sheplu,2025-09-22T06:17:08Z,2025-09-25T05:20:45+00:00,6,71.06

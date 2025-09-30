@@ -1,0 +1,27 @@
+query TopRepositories($after: String) {
+  search(
+    query: "stars:>10000 sort:stars-desc"
+    type: REPOSITORY
+    first: 10
+    after: $after
+  ) {
+    edges {
+      node {
+        ... on Repository {
+          name
+          owner {
+            login
+          }
+          stargazerCount
+          pullRequests(states: [MERGED, CLOSED], first: 50) {
+            totalCount
+          }
+        }
+      }
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}

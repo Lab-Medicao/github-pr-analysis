@@ -1,0 +1,21 @@
+query PullRequests($owner: String!, $name: String!, $after: String) {
+  repository(owner: $owner, name: $name) {
+    pullRequests(states: [MERGED, CLOSED], first: 50, after: $after) {
+      edges {
+        node {
+          number
+          title
+          createdAt
+          closedAt
+          mergedAt
+          author { login }
+          reviews { totalCount }
+        }
+      }
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+    }
+  }
+}
