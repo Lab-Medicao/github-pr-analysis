@@ -7,7 +7,6 @@ Este repositório contém ferramentas para coleta e análise de pull requests de
 - [Descrição](#descrição)
 - [Requisitos](#requisitos)
 - [Configuração](#configuração)
-- [Uso](#uso)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Dados Coletados](#dados-coletados)
 - [Contribuição](#contribuição)
