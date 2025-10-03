@@ -1,0 +1,33 @@
+query PullRequestsMeta($owner: String!, $name: String!, $after: String) {
+  repository(owner: $owner, name: $name) {
+    pullRequests(
+      states: [MERGED, CLOSED]
+      first: 50
+      after: $after
+      orderBy: { field: CREATED_AT, direction: DESC }
+    ) {
+      totalCount
+      edges {
+        node {
+          number
+          title
+          author {
+            login
+          }
+          createdAt
+          closedAt
+          mergedAt
+          merged
+          additions
+          deletions
+          changedFiles
+          bodyText
+        }
+      }
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+    }
+  }
+}

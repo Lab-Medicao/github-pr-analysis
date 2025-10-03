@@ -1,0 +1,38 @@
+query PullRequestsInteractions(
+  $owner: String!
+  $name: String!
+  $after: String
+) {
+  repository(owner: $owner, name: $name) {
+    pullRequests(
+      states: [MERGED, CLOSED]
+      first: 50
+      after: $after
+      orderBy: { field: CREATED_AT, direction: DESC }
+    ) {
+      totalCount
+      edges {
+        node {
+          number
+          title
+          author {
+            login
+          }
+          comments {
+            totalCount
+          }
+          reviewThreads {
+            totalCount
+          }
+          reviews {
+            totalCount
+          }
+        }
+      }
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+    }
+  }
+}
