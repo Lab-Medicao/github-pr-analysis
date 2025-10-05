@@ -80,49 +80,17 @@ Este repositório contém scripts e consultas que automatizam a **coleta, filtra
 - 🔄 **Sistema Resiliente:** retry e backoff exponencial  
 - 📈 **Progresso Visual:** barras de progresso detalhadas  
 
-## Dados Coletados
+### Métricas Coletadas
 
-### Formato dos CSVs
-
-Cada arquivo CSV contém as seguintes colunas (novos campos destacados em **negrito**):
-
-| Coluna               | Descrição |
-|----------------------|-----------|
-| `number`             | Número do pull request |
-| `title`              | Título do PR |
-| `author`             | Login do autor |
-| `createdAt`          | Data/hora de criação (ISO 8601) |
-| `closedOrMergedAt`   | Data/hora de fechamento/merge (ISO 8601) |
-| `reviewsCount`       | Quantidade de revisões recebidas |
-| `hoursOpen`          | Tempo total em aberto (em horas) |
-| `merged`             | PR mergeado (True/False) |
-| `additions`          | Linhas adicionadas |
-| `deletions`          | Linhas removidas |
-| `changedFiles`       | Quantidade de arquivos modificados |
-| `bodyLength`         | Número de caracteres na descrição do PR |
-| `issueCommentsCount` | Comentários em issues associados |
-| `reviewThreadsCount` | Threads de revisão |
-| `interactionsCount`  | Total de interações (comentários + threads) |
-| `finalReviewState`   | Estado final da revisão (APPROVED / CHANGES_REQUESTED / MERGED / CLOSED) |
-| **`primaryLanguage`** | Linguagem principal do repositório (ex.: Python, JavaScript) |
-| **`stargazerCount`**  | Número de estrelas do repositório |
-| **`forkCount`**       | Número de forks |
-| **`releasesCount`**   | Total de releases |
-| **`labels`**          | Labels do PR (ex.: bugfix, feature, chore) |
-
-### Métricas Derivadas
-
-| Código | Métrica                    | Fonte |
-|--------|----------------------------|-------|
-| LM01   | Tamanho do PR               | `additions`, `deletions`, `changedFiles` |
-| LM02   | Tempo de revisão            | `createdAt`, `closedOrMergedAt` |
-| LM03   | Descrição do PR             | `bodyLength` |
-| LM04   | Interações                  | `issueCommentsCount`, `reviewThreadsCount`, `participants.totalCount` |
-| AM01   | Linguagem                   | `primaryLanguage` |
-| AM02   | Popularidade/Maturidade     | `stargazerCount`, `forkCount`, `releasesCount` |
-| AM03   | Estado final da revisão     | `finalReviewState` |
-| AM04   | Tipo de PR                  | `labels` |
-
+| Campo | Descrição |
+|--------|------------|
+| `number` | Número do PR |
+| `title` | Título |
+| `author` | Autor |
+| `createdAt` | Data de criação |
+| `closedOrMergedAt` | Data de fechamento/merge |
+| `reviewsCount` | Número de revisões |
+| `hoursOpen` | Tempo total em aberto (h) |
 
 ---
 
