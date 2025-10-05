@@ -1,20 +1,81 @@
 query PullRequests($owner: String!, $name: String!, $after: String) {
   repository(owner: $owner, name: $name) {
-    pullRequests(states: [MERGED, CLOSED], first: 50, after: $after) {
-      edges {
-        node {
-          number
-          title
-          createdAt
-          closedAt
-          mergedAt
-          author { login }
-          reviews { totalCount }
-        }
-      }
+    name
+    owner {
+      login
+    }
+
+    # 🔹 Linguagem principal do repositório (RQ4)
+    primaryLanguage {
+      name
+    }
+
+    # 🔹 Métricas de popularidade e maturidade (RQ3)
+    stargazerCount
+    forkCount
+    releases {
+      totalCount
+    }
+
+    # 🔹 Coleta dos PRs
+    pullRequests(
+      states: [MERGED, CLOSED]
+      orderBy: { field: CREATED_AT, direction: DESC }
+      first: 100
+      after: $after
+    ) {
+      totalCount
       pageInfo {
         hasNextPage
         endCursor
+      }
+      nodes {
+        number
+        title
+        author {
+          login
+        }
+        createdAt
+        closedAt
+        mergedAt
+        merged
+        state
+
+        # 🔹 Tamanho e mudanças no código (RQ1)
+        additions
+        deletions
+        changedFiles
+
+        # 🔹 Conteúdo e interação (RQ2)
+        bodyText
+        comments {
+          totalCount
+        }
+        reviewThreads {
+          totalCount
+        }
+        participants {
+          totalCount
+        }
+
+        # 🔹 Detalhes das revisões (estado final e engajamento)
+        reviews(last: 5) {
+          totalCount
+          nodes {
+            state
+            author {
+              login
+            }
+            submittedAt
+          }
+        }
+
+        # 🔹 Classificação opcional de PRs (ex.: bugfix, feature)
+        labels(first: 10) {
+          nodes {
+            name
+          }
+        }
       }
     }
   }
