@@ -147,11 +147,15 @@ def collect_single_repo(owner: str, name: str, max_prs: Optional[int] = None):
     total = 0
     while True:
         data = run_query(query, {"owner": owner, "name": name, "after": after})
-        pr_edges = data["data"]["repository"]["pullRequests"]["edges"]
-        page_info = data["data"]["repository"]["pullRequests"]["pageInfo"]
+        pr_container = data["data"]["repository"]["pullRequests"]
+        
+        if "nodes" in pr_container:
+            pr_nodes = pr_container["nodes"]
+        else:  
+            pr_nodes = [edge["node"] for edge in pr_container.get("edges", [])]
+        page_info = pr_container["pageInfo"]
 
-        for pr in pr_edges:
-            node = pr["node"]
+        for node in pr_nodes:
             reviews_total = (node.get("reviews") or {}).get("totalCount", 0)
             if reviews_total < 1:
                 continue
@@ -173,7 +177,13 @@ def collect_single_repo(owner: str, name: str, max_prs: Optional[int] = None):
             issue_comments = (node.get("comments") or {}).get("totalCount", 0)
             review_threads = (node.get("reviewThreads") or {}).get("totalCount", 0)
             interactions = issue_comments + review_threads
-            final_state = _compute_final_review_state(((node.get("reviews") or {}).get("nodes") or []))
+            
+            review_nodes = ((node.get("reviews") or {}).get("nodes") or [])
+            if review_nodes:
+                final_state = _compute_final_review_state(review_nodes)
+            else:
+                
+                final_state = "MERGED" if node.get("merged") else "CLOSED"
 
             yield [
                 node["number"],
@@ -300,10 +310,13 @@ def collect_repo_prs(owner: str, name: str, repo_node: dict, prs_query_text: str
     with tqdm(total=pr_total, desc=f"PRs {owner}/{name}", unit="pr", leave=False) as pbar_prs:
         while True:
             prs_data = run_query(prs_query_text, {"owner": owner, "name": name, "after": after_pr})
-            prs = prs_data["data"]["repository"]["pullRequests"]["edges"]
+            pr_container = prs_data["data"]["repository"]["pullRequests"]
+            if "nodes" in pr_container:
+                pr_nodes = pr_container["nodes"]
+            else:
+                pr_nodes = [edge["node"] for edge in pr_container.get("edges", [])]
 
-            for pr in prs:
-                node = pr["node"]
+            for node in pr_nodes:
                 reviews_total = (node.get("reviews") or {}).get("totalCount", 0)
                 if reviews_total < 1:
                     continue
@@ -324,7 +337,11 @@ def collect_repo_prs(owner: str, name: str, repo_node: dict, prs_query_text: str
                 issue_comments = (node.get("comments") or {}).get("totalCount", 0)
                 review_threads = (node.get("reviewThreads") or {}).get("totalCount", 0)
                 interactions = issue_comments + review_threads
-                final_state = _compute_final_review_state(((node.get("reviews") or {}).get("nodes") or []))
+                review_nodes = ((node.get("reviews") or {}).get("nodes") or [])
+                if review_nodes:
+                    final_state = _compute_final_review_state(review_nodes)
+                else:
+                    final_state = "MERGED" if node.get("merged") else "CLOSED"
 
                 repo_prs.append([
                     node["number"],
@@ -345,8 +362,8 @@ def collect_repo_prs(owner: str, name: str, repo_node: dict, prs_query_text: str
                     final_state,
                 ])
 
-            page_info = prs_data["data"]["repository"]["pullRequests"]["pageInfo"]
-            pbar_prs.update(len(prs))
+            page_info = pr_container["pageInfo"]
+            pbar_prs.update(len(pr_nodes))
 
             if page_info["hasNextPage"]:
                 after_pr = page_info["endCursor"]

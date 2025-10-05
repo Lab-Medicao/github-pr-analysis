@@ -2,7 +2,7 @@ query TopRepositories($after: String) {
   search(
     query: "stars:>10000 sort:stars-desc"
     type: REPOSITORY
-    first: 50
+    first: 20
     after: $after
   ) {
     edges {
