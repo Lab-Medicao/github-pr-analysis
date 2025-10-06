@@ -1,537 +1,151 @@
-number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen
-1834,Increasing coverage for Command Package,Skarlso,2016-02-09T16:17:11Z,2016-11-15T17:13:41+00:00,5,6720.94
-1839,Make the two common Taxonomy templates explicit #2,ObviousDesign,2016-02-11T08:55:15Z,2017-10-02T17:18:55+00:00,1,14384.39
-1850,Standardize author data,derekperkins,2016-02-13T09:08:57Z,2017-12-27T10:58:47+00:00,7,16393.83
-2263,Updated disqus template with configuration-variables,sasivarnan,2016-07-08T10:05:09Z,2017-06-28T22:39:29+00:00,1,8532.57
-2291,Add GitInfo,bep,2016-07-19T18:23:34Z,2016-11-01T22:04:13+00:00,1,2523.68
-2457,tpl: Add EnableMissingTranslationPlaceholders option,digitalcraftsman,2016-09-16T11:52:43Z,2016-09-16T15:20:29+00:00,2,3.46
-2461,Add vendoring with govendor,moorereason,2016-09-16T20:54:24Z,2016-09-18T22:10:10+00:00,3,49.26
-2472,Map weight into Author,derekperkins,2016-09-17T22:37:58Z,2016-09-18T04:01:50+00:00,1,5.4
-2473,Author Tests,derekperkins,2016-09-18T01:48:01Z,2016-09-18T22:15:19+00:00,2,20.45
-2493,all: remove dead code,n10v,2016-09-25T08:10:12Z,2016-10-13T11:51:16+00:00,1,435.68
-2496,Avoid reading from Viper for path and URL funcs,bep,2016-09-26T07:40:37Z,2016-10-24T11:45:30+00:00,6,676.08
-2552,tpl: Add partialCached template function,moorereason,2016-10-11T00:46:43Z,2016-10-11T21:56:25+00:00,7,21.16
-2567,Add logging of asciidoc/-tor errors,choeppler,2016-10-13T05:49:53Z,2016-10-13T11:49:03+00:00,6,5.99
-2593,Add page context to error logging in rendering,choeppler,2016-10-17T10:14:22Z,2016-10-19T13:22:40+00:00,2,51.14
-2596,Fix a more summary corner case,bep,2016-10-17T14:09:16Z,2016-10-18T06:43:44+00:00,1,16.57
-2623,Handle ToC before handling shortcodes.,targodan,2016-10-23T16:01:55Z,2016-10-24T12:40:57+00:00,4,20.65
-2628,all: Delete some redundant code,n10v,2016-10-24T19:04:01Z,2016-11-11T09:08:49+00:00,4,422.08
-2646,Schema org,brunoamaral,2016-10-29T14:04:33Z,2017-06-28T19:26:50+00:00,1,5813.37
-2649,Make Node a Page,bep,2016-10-30T17:00:47Z,2016-11-22T08:57:03+00:00,1,543.94
-2653,fix page names that contain dot,vyuh,2016-10-31T13:33:32Z,2016-11-01T13:18:24+00:00,2,23.75
-2664,transform: Adds --optimize and MinifyHTML,d4l3k,2016-11-03T23:20:42Z,2018-01-25T16:55:46+00:00,8,10745.58
-2677,"tpl: Adds imageConfig function which calls image.DecodeConfig and returns the height, width and color mode of the image.",d4l3k,2016-11-08T01:07:06Z,2016-11-16T12:00:45+00:00,1,202.89
-2698,commands: Make benchmark command more useful,n10v,2016-11-16T10:14:47Z,2016-11-18T23:06:54+00:00,2,60.87
-2704,all: Use jww instead of fmt for printing,n10v,2016-11-18T16:26:59Z,2016-11-22T21:06:48+00:00,5,100.66
-2730,"commands, helpers: Add and fix docs",n10v,2016-11-24T19:33:03Z,2017-01-02T16:02:00+00:00,1,932.48
-2739,Improve jekyll import date format,kongakong,2016-11-27T14:17:50Z,2017-03-13T11:50:58+00:00,1,2541.55
-2748,Add new helper MakeTitleInitCaps,mdhender,2016-11-29T03:18:40Z,2016-11-30T06:01:10+00:00,1,26.71
-2762,tpl: Add sha256 template function,digitalcraftsman,2016-12-04T12:38:45Z,2016-12-04T14:03:53+00:00,1,1.42
-2769,Work in progress: 0.18 release notes,bep,2016-12-09T18:42:59Z,2016-12-19T13:42:02+00:00,2,234.98
-2778,docs: Add Extras > GitInfo,moorereason,2016-12-12T01:06:11Z,2016-12-15T10:15:15+00:00,1,81.15
-2789,helpers: Remove extra '-' from MakePath (Fix for issue 2788) ,bryanjeal,2016-12-14T19:42:24Z,2018-02-07T13:29:34+00:00,2,10073.79
-2792,hugolib: Enable override of theme base template only,bep,2016-12-15T09:48:28Z,2016-12-15T20:35:39+00:00,3,10.79
-2807,"parser: Accept JSON frontmatter without leading ""{\n""",crasm,2016-12-20T14:24:27Z,2017-03-13T16:19:03+00:00,1,1993.91
-2837,parser: Refactor frontmatter parser and add tests,moorereason,2016-12-26T21:54:32Z,2017-03-11T16:52:26+00:00,8,1794.96
-2841,hugolib: Allow arrays of arrays in frontmatter Params,moorereason,2016-12-28T02:11:47Z,2017-01-06T10:56:23+00:00,4,224.74
-2851,tpl/lang: Add NumFmt function,moorereason,2016-12-29T04:22:32Z,2017-05-18T06:49:21+00:00,7,3362.45
-2859,tpl: add now function,nishanths,2016-12-31T11:12:37Z,2017-01-01T01:50:47+00:00,2,14.64
-2868,docs: Convert all uses of 'Params.notoc' to 'Params.toc',MarkDBlackwell,2017-01-01T22:28:20Z,2017-03-24T21:54:03+00:00,1,1967.43
-2880,tpl: Fix Unix time test case in TestDateFormat(),anthonyfok,2017-01-03T18:50:54Z,2017-01-03T22:43:19+00:00,1,3.87
-2882,Add truncate template function,biilmann,2017-01-03T22:29:29Z,2017-01-06T09:42:33+00:00,6,59.22
-2887,Minor issue in htmlredirect.go - reservedNames in Windows - COM0 and LPT0 are also invalid on Windows 7,magikstm,2017-01-04T10:54:24Z,2017-01-06T09:40:15+00:00,2,46.76
-2910,WIP: hugolib: Fix .Site.LastChange setting,moorereason,2017-01-07T20:41:40Z,2017-02-19T12:48:23+00:00,4,1024.11
-2978,hugolib: improve menu generation for section pages with content,aroig,2017-01-22T11:51:29Z,2017-02-20T07:29:30+00:00,5,691.63
-2984,tpl: Remove twitter:domain tag from internal shortcode,alanorth,2017-01-23T12:02:41Z,2017-02-21T12:24:46+00:00,1,696.37
-2989,Fix regression of .Truncated evaluation in manual summaries,socialhacker,2017-01-26T20:13:46Z,2017-02-19T09:11:52+00:00,2,564.97
-3022,Add ability to sort by frontmatter parameters,fj,2017-02-08T21:42:35Z,2017-02-10T13:01:26+00:00,6,39.31
-3034,Enhance `.Param` to permit arbitrarily nested parameter references,fj,2017-02-13T04:11:15Z,2017-02-19T07:50:09+00:00,8,147.65
-3052,hugolib: Add disableKinds option,bep,2017-02-18T16:09:26Z,2017-02-18T21:53:24+00:00,7,5.73
-3057,WIP docs: Add release notes for Hugo 0.19,bep,2017-02-19T08:09:10Z,2017-02-27T09:35:33+00:00,2,193.44
-3069,Get rid of viper.Get(relativeURLs),n10v,2017-02-20T12:39:55Z,2017-02-21T14:08:46+00:00,7,25.48
-3078,"new go-version, switch to alpine (reduce size by 500mb)",hloeffler,2017-02-21T20:47:36Z,2017-02-22T23:17:14+00:00,4,26.49
-3080,print error if --kind is used and cant find content type,hloeffler,2017-02-21T22:09:01Z,2017-06-28T19:19:56+00:00,1,3045.18
-3084,docs: Adds 'Using _index.md' page,josharcheruk,2017-02-22T14:45:00Z,2017-02-24T20:08:16+00:00,11,53.39
-3103,Wercker automated deployment tutorial update,keanemind,2017-02-26T06:00:00Z,2017-02-27T19:35:01+00:00,1,37.58
-3115,Taxonomies: Populate the KindTaxonomyTerm Pages list,socialhacker,2017-03-01T17:42:21Z,2017-03-05T20:24:15+00:00,1,98.7
-3122,Add Custom Output Formats to Hugo,bep,2017-03-02T14:36:43Z,2017-03-27T13:43:57+00:00,2,599.12
-3124,Rework /target,bep,2017-03-03T09:49:08Z,2017-03-04T22:33:36+00:00,1,36.74
-3155,hugolib: Default rssLimit to unlimited,moorereason,2017-03-10T00:43:45Z,2017-03-10T20:27:46+00:00,2,19.73
-3168,tpl: Add union template func,digitalcraftsman,2017-03-11T22:26:49Z,2017-03-12T22:04:13+00:00,12,23.62
-3177,tpl: Add namespaced template functions,moorereason,2017-03-14T04:56:36Z,2017-04-30T08:56:39+00:00,2,1132.0
-3199,WIP hugolib: Add template analysis feature,moorereason,2017-03-19T19:26:22Z,2017-08-18T03:09:27+00:00,2,3631.72
-3210,commands: Added new option `cleanDestinationDirKeepDotFolder`,eamonnmcevoy,2017-03-21T08:49:58Z,2017-03-21T12:10:32+00:00,2,3.34
-3213,"docs: Expand the description of ""after""",mdhender,2017-03-22T03:45:03Z,2017-05-26T11:45:44+00:00,2,1568.01
-3219,RSS description tag should contain hugo .summary,DarwinJS,2017-03-23T00:00:48Z,2017-03-25T21:58:42+00:00,13,69.97
-3267,"tplimpl: Return false in ""in"" func when looking for nil",theikalman,2017-04-03T03:55:21Z,2017-05-31T19:47:03+00:00,4,1407.86
-3282,WIP: all: Add some docs helpers,bep,2017-04-05T14:19:35Z,2017-04-07T08:52:17+00:00,1,42.55
-3284,docs/installing.md: Info about Pygments installation,metachris,2017-04-05T20:03:52Z,2017-04-06T11:48:23+00:00,1,15.74
-3291,all: Handle all returned errors,bep,2017-04-06T15:26:59Z,2017-04-06T18:35:27+00:00,2,3.14
-3295,Update press.md,liwenyip,2017-04-06T21:25:06Z,2017-04-07T17:06:14+00:00,1,19.69
-3309,hugolib: Enable nested sections,bep,2017-04-09T08:34:01Z,2017-06-08T09:21:35+00:00,9,1440.79
-3310,Allow dates to be parsed from filenames,devjack,2017-04-09T12:22:06Z,2018-03-11T17:43:55+00:00,6,8069.36
-3320,Added txtpen support and docs,0b01,2017-04-10T18:30:17Z,2017-04-18T16:08:44+00:00,5,189.64
-3347,tplimpl: Allow text partials in HTML templates,bep,2017-04-15T11:16:44Z,2017-04-16T07:17:48+00:00,2,20.02
-3348,Add translation links to the default sitemap template,rayjolt,2017-04-15T15:12:14Z,2017-04-22T20:37:14+00:00,3,173.42
-3365,Add check-vendor target to Makefile,moorereason,2017-04-19T13:18:08Z,2017-04-19T16:04:55+00:00,1,2.78
-3369,"Allow ""after"" to skip all elements",dobesv,2017-04-20T06:20:17Z,2017-07-25T17:17:01+00:00,1,2314.95
-3426,tpl: Add some GoDoc info to template func docs,bep,2017-05-02T16:31:29Z,2017-05-04T08:46:20+00:00,2,40.25
-3434,Handle AMP etc. shortcodes,bep,2017-05-04T15:17:30Z,2017-05-13T19:44:16+00:00,2,220.45
-3436,hubolib: Embed Page in WeightedPage,bep,2017-05-04T17:16:54Z,2017-05-09T21:58:26+00:00,1,124.69
-3443,hugolib: Simplify replaceShortcodeTokens,n10v,2017-05-07T21:10:15Z,2017-05-31T20:34:38+00:00,2,575.41
-3451,tpl/time: Support overlapping namespace and template func,moorereason,2017-05-10T01:26:35Z,2017-05-19T21:00:21+00:00,4,235.56
-3472,tmplimpl: Add support for ellipsed paginator,bep,2017-05-16T07:55:31Z,2017-05-17T18:47:06+00:00,6,34.86
-3506,tpl/collections: Support interfaces in union,moorereason,2017-05-22T23:23:16Z,2017-06-08T19:01:16+00:00,4,403.63
-3528,helpers: add --initial-header-level=2 to rst2html,frankbraun,2017-05-26T01:40:37Z,2017-06-27T10:26:34+00:00,1,776.77
-3531,tpl: Add uniq function,adiabatic,2017-05-26T16:37:10Z,2017-06-03T17:13:59+00:00,3,192.61
-3543,docs: Rewrite “Archetypes” article,davidturnbull,2017-05-31T06:29:41Z,2017-06-12T06:03:08+00:00,3,287.56
-3556,Add option to strip trailing slashes from URLs,tgwizard,2017-06-03T16:19:14Z,2017-08-22T22:18:27+00:00,2,1925.99
-3574,Add Blackfriday 'joinLines' extension support.,choueric,2017-06-09T08:19:11Z,2017-06-27T10:56:50+00:00,1,434.63
-3583,hugolib: Support sub-sections in permalink settings,bep,2017-06-12T17:17:58Z,2017-06-13T09:42:33+00:00,1,16.41
-3594,hugolib/site_render.go: Warn when missing layout files for content pages,adiabatic,2017-06-15T08:36:36Z,2017-06-15T09:59:19+00:00,1,1.38
-3639,Improve the built-in Disqus template,yihui,2017-06-23T16:38:06Z,2017-06-27T11:40:01+00:00,1,91.03
-3645,"Support open ""current content page"" in browser",bep,2017-06-25T18:27:46Z,2017-06-26T19:34:17+00:00,3,25.11
-3660,Updated links,mbrickn,2017-06-28T22:10:53Z,2017-06-29T15:58:42+00:00,4,17.8
-3662,Add log function for templates,artem-sidorenko,2017-06-29T19:25:29Z,2017-07-02T22:20:49+00:00,4,74.92
-3666,perf(docker): radical reduce the image size,ellerbrock,2017-06-30T18:51:31Z,2017-07-04T07:15:46+00:00,1,84.4
-3673,tpl/collections: Add Pages support to Intersect and Union,bep,2017-07-03T17:02:27Z,2017-07-03T19:48:04+00:00,2,2.76
-3674,build(go): add govender for the build process,ellerbrock,2017-07-04T20:43:11Z,2017-07-23T18:30:18+00:00,3,453.79
-3714,helpers: Add --trace to asciidoctor args,miltador,2017-07-18T08:55:09Z,2017-07-21T09:07:57+00:00,2,72.21
-3716,Remove ^M from file to make line-endings consistent,mdhender,2017-07-18T16:14:44Z,2017-07-21T08:41:08+00:00,1,64.44
-3735,Make SummayLength configurable,Shuenhoy,2017-07-25T01:51:05Z,2017-09-30T20:16:15+00:00,2,1626.42
-3737,WIP: Implement Page bundles,bep,2017-07-25T09:30:32Z,2017-07-28T12:46:40+00:00,1,75.27
-3738,perf(dockerfile): xtrem awesome container size optimization,ellerbrock,2017-07-25T20:15:18Z,2017-07-26T06:51:27+00:00,1,10.6
-3752,calling isSet on array with key type string no longer panics but retu…,danieka,2017-07-30T11:04:16Z,2018-08-17T14:22:11+00:00,2,9195.3
-3753,Make the title case style guide configurable,bep,2017-07-30T15:46:57Z,2017-07-31T20:16:47+00:00,1,28.5
-3762,Better more complete fix for allowing filename to set date and slug,maxandersen,2017-08-01T20:36:49Z,2018-03-11T17:43:55+00:00,5,5325.12
-3764,Added template function 'asciidocify',sluedecke,2017-08-02T09:44:01Z,2017-08-02T10:55:29+00:00,1,1.19
-3765,Add some missing doc comments,jorinvo,2017-08-02T13:20:00Z,2017-08-03T13:57:52+00:00,4,24.63
-3786,tpl/transform: Avoid removing p tags in markdownify when marked as blocks ,bep,2017-08-08T16:34:44Z,2017-08-10T17:52:30+00:00,1,49.3
-3789,tpl/transform: Only strip p tag in markdownify if only one paragraph,bep,2017-08-09T07:56:05Z,2017-08-10T17:52:42+00:00,1,33.94
-3794,tpl: Add strings.TrimLeft and TrimRight,moorereason,2017-08-11T13:08:48Z,2017-08-18T07:12:05+00:00,2,162.05
-3803,tpl: Cleanup strings.TrimPrefix and TrimSuffix,moorereason,2017-08-14T23:36:05Z,2017-08-18T12:21:59+00:00,1,84.77
-3810,"compare, hugolib, tpl: Add Eqer interface",bep,2017-08-17T08:27:02Z,2017-08-18T05:36:33+00:00,1,21.16
-3812,metrics: Add simple template metrics feature,moorereason,2017-08-18T03:08:56Z,2017-09-26T18:03:05+00:00,13,950.9
-3864,Improve docker image build,tjamet,2017-09-07T13:46:22Z,2017-09-25T16:28:14+00:00,2,434.7
-3865,travis: clean go versions,dvrkps,2017-09-07T15:28:20Z,2017-09-07T21:12:58+00:00,5,5.74
-3894,"tpl/tplimpl: Add ""Twitter"" shortcode for consistency",pacollins,2017-09-21T16:57:14Z,2018-02-03T06:22:00+00:00,4,3229.41
-3921,tpl: Add float template function,x3ro,2017-09-27T22:44:48Z,2017-09-28T14:53:19+00:00,4,16.14
-3923,metrics: Detect partialCached candidates,moorereason,2017-09-29T01:51:50Z,2017-10-07T14:11:02+00:00,2,204.32
-3927, tpl: Add errorf template function,bmon,2017-09-30T14:55:19Z,2017-10-03T05:59:52+00:00,5,63.08
-3959,Only re-render the view(s) you're working on,bep,2017-10-12T07:46:27Z,2017-10-14T11:40:44+00:00,2,51.9
-3968,Make chomp return the type it receives,kropp,2017-10-13T21:05:27Z,2017-12-16T22:59:37+00:00,2,1537.9
-3971,i18n: Allow custom language codes,KevinGimbel,2017-10-15T10:42:18Z,2017-11-04T08:50:03+00:00,2,478.13
-4030,read me corrections,dasamantaraoaditya,2017-10-31T05:30:57Z,2017-10-31T11:55:16+00:00,2,6.41
-4077,Docker build fix,gruebel,2017-11-11T20:45:47Z,2018-01-31T08:16:30+00:00,5,1931.51
-4120,Adding tests to show where GetPage fails to find pages by title,tsuereth,2017-11-25T02:05:16Z,2017-11-26T17:34:40+00:00,4,39.49
-4138,parser: Fix YAML maps key type,dmgawel,2017-12-01T19:55:08Z,2018-02-09T09:27:18+00:00,7,1669.54
-4154,fix(dockerfile): bugfix for broken docker build + optimization,ellerbrock,2017-12-10T01:19:29Z,2018-06-14T21:47:06+00:00,1,4484.46
-4160,add Title to MenuEntry,rmetzler,2017-12-12T11:06:48Z,2017-12-15T17:49:22+00:00,3,78.71
-4222,add telegram shortcode,kropp,2018-01-04T21:46:03Z,2019-01-06T23:35:05+00:00,2,8809.82
-4247,Fix non-ASCII path handling for Page resources,bep,2018-01-10T09:23:00Z,2018-01-10T17:23:42+00:00,1,8.01
-4278,tpl/tags: Add Script and Style function,nfisher,2018-01-15T01:16:47Z,2018-05-27T03:45:57+00:00,3,3170.49
-4303,Fix typo in comment.,yanzay,2018-01-20T09:22:27Z,2018-01-24T09:24:22+00:00,1,96.03
-4308,"Tighten page kind logic, introduce tests",vassudanagunta,2018-01-21T09:08:42Z,2018-01-22T12:55:09+00:00,2,27.77
-4317,Add headless bundle support,bep,2018-01-23T15:56:57Z,2018-01-24T08:00:22+00:00,5,16.06
-4322,"Correctly handle page without front matter, fix metadata date bugs",vassudanagunta,2018-01-24T15:23:20Z,2018-01-26T08:17:28+00:00,13,40.9
-4340,WIP: discuss and cleanup date handling,vassudanagunta,2018-01-28T04:30:25Z,2018-03-11T17:43:55+00:00,1,1021.23
-4371,"Update ""Contributors"" link in site-footer.html",celtic-coder,2018-02-01T22:42:47Z,2018-08-15T07:57:05+00:00,1,4665.24
-4377,tpl: Ensure site templates can override theme templates,moorereason,2018-02-04T02:10:32Z,2018-02-05T07:38:05+00:00,1,29.46
-4388,Fix handling of taxonomy terms containing slashes,moorereason,2018-02-08T04:16:15Z,2018-08-22T05:18:37+00:00,6,4681.04
-4395,tpl/transform: Add template func for TOML/JSON/YAML docs examples conversion,bep,2018-02-09T17:17:39Z,2018-02-10T11:36:32+00:00,1,18.31
-4411,Add license scan report and status,fossabot,2018-02-14T21:49:21Z,2018-03-14T13:13:31+00:00,1,663.4
-4429,"Add integrity, fingerprint etc. filters for resources",bep,2018-02-20T09:03:20Z,2018-07-06T10:06:55+00:00,1,3265.06
-4436,Work In Progress: hugolib: Extract date and slug from filename,bep,2018-02-21T10:16:07Z,2018-02-26T14:12:56+00:00,2,123.95
-4498,Update the build Readme,jinleileiking,2018-03-12T11:47:57Z,2018-04-08T03:21:44+00:00,1,639.56
-4518,Update Dockerfile to a multi-stage build,skoblenick,2018-03-18T22:34:12Z,2018-06-14T21:47:05+00:00,3,2111.21
-4541,Add .Site.Info.IsServer flag when using built-in Hugo server.,FelicianoTech,2018-03-27T18:24:18Z,2018-03-30T18:15:22+00:00,4,71.85
-4565,"Fixed typo ""remarkably"" to ""remarkable""",kidwellj,2018-04-04T10:00:37Z,2018-04-06T05:46:54+00:00,1,43.77
-4568,Adds .gitattributes to force Go files to LF,neurocline,2018-04-04T23:58:08Z,2018-06-14T22:08:36+00:00,1,1702.17
-4571,Adds abort error handling,neurocline,2018-04-05T00:24:12Z,2018-09-06T22:29:05+00:00,6,3718.08
-4572,"Adds --source, --theme, --themesDir to ""hugo config""",neurocline,2018-04-05T02:38:32Z,2018-09-02T19:31:03+00:00,1,3616.88
-4720,Add configFile(s) back to the watch list after REMOVE event,anthonyfok,2018-05-14T06:01:25Z,2018-08-16T14:11:58+00:00,7,2264.18
-4730,[Docs] Fix misspelled setting for using classic Pygments,mbaeuerle,2018-05-17T07:05:25Z,2018-05-23T06:58:25+00:00,1,143.88
-4756,Detect which thumb is loaded in youtube_simple,onedrawingperday,2018-05-22T20:19:38Z,2018-05-22T21:21:02+00:00,9,1.02
-4758,Add instagram_simple shortcode,bep,2018-05-23T10:29:28Z,2018-05-23T14:52:09+00:00,1,4.38
-4776,Add no-cookie variants of the Google Analytics templates,bep,2018-05-25T12:53:55Z,2018-05-25T13:56:11+00:00,1,1.04
-4791,Add vimeo_simple and fixes for the standard vimeo shortcode,onedrawingperday,2018-05-28T16:01:16Z,2018-05-29T12:18:06+00:00,9,20.28
-4807,Add runelen function,theory,2018-06-01T15:29:24Z,2018-06-04T17:47:04+00:00,11,74.29
-4826,Always load script over HTTPS,coliff,2018-06-06T14:46:47Z,2018-06-09T21:47:45+00:00,1,79.02
-4925,media: Allow multiple file suffixes per media type,bep,2018-07-10T11:06:11Z,2018-07-10T20:13:53+00:00,1,9.13
-4974,hugolib: Print a WARNING about relative non-relative ref/relref matches,bep,2018-07-19T21:06:29Z,2018-07-21T09:42:08+00:00,3,36.59
-5036,Add fileStat to tpl/os/os,satotake,2018-08-05T04:12:59Z,2018-08-06T07:54:27+00:00,5,27.69
-5038,Minification of /public,bep,2018-08-05T16:44:13Z,2018-08-06T17:59:42+00:00,3,25.26
-5088,hugolib: Fix length calc after shortcode replacement,gllera,2018-08-17T00:46:16Z,2018-08-17T07:59:28+00:00,1,7.22
-5114,resource: Add instruction to install PostCSS when missing,anthonyfok,2018-08-25T05:15:53Z,2018-08-26T13:22:59+00:00,2,32.12
-5132,New proposal for relaxing Paginate argument,vdanjean,2018-08-28T20:19:07Z,2018-09-08T09:14:10+00:00,5,252.92
-5176,WIP: Fix many golint issues,moorereason,2018-09-06T18:47:11Z,2018-09-07T06:25:53+00:00,3,11.64
-5187,tpl/collections: Add group template func,bep,2018-09-08T12:39:25Z,2018-09-08T18:20:28+00:00,5,5.68
-5196,tpl/collections: Add collections.Append,bep,2018-09-10T15:21:38Z,2018-09-14T08:12:10+00:00,1,88.84
-5199,tpl/data: Revise error handling in getJSON and getCSV,bep,2018-09-11T06:53:54Z,2018-09-11T14:46:26+00:00,1,7.88
-5247,Allow first function to return an empty array.,FelicianoTech,2018-09-22T02:01:32Z,2018-09-22T18:58:46+00:00,1,16.95
-5249,Build on CircleCI outside of GOPATH,FelicianoTech,2018-09-23T01:37:48Z,2018-09-23T16:50:27+00:00,2,15.21
-5256,docs: Fixed multilingual example compatibility with latest version,robinwassen,2018-09-25T13:40:33Z,2019-08-01T11:49:08+00:00,2,7438.14
-5259,Enable page exclusion from sitemap.xml,FelicianoTech,2018-09-27T00:08:42Z,2019-03-03T02:12:01+00:00,6,3770.06
-5267,Date and slug from filename for leaf bundles,Japanuspus,2018-09-30T22:35:20Z,2018-10-16T21:51:48+00:00,7,383.27
-5272,Use stdlib context package,fuzzzems,2018-10-02T02:13:09Z,2018-10-03T12:59:36+00:00,2,34.77
-5274,tpl/collections: Fix handling of different interface types in Slice,bep,2018-10-02T15:57:36Z,2018-10-02T20:54:17+00:00,1,4.94
-5279,hugolib: Cast taxonomy weight parameters to int,moorereason,2018-10-03T01:58:03Z,2018-10-03T06:34:46+00:00,6,4.61
-5282,helpers: Consolidate MakeSegment vs MakePathSanitized,bep,2018-10-03T10:18:36Z,2018-10-03T13:55:27+00:00,1,3.61
-5285,helpers/content.go: call rst2html directly on *nix but via python on windows,shreyanshk,2018-10-03T14:26:31Z,2018-10-11T20:46:11+00:00,3,198.33
-5286,commands: Show server error info in browser,bep,2018-10-04T07:45:43Z,2018-10-16T20:12:36+00:00,1,300.45
-5306,Extend youtube shortcode to support playlists,Kissaki,2018-10-11T15:23:32Z,2019-03-11T09:06:18+00:00,1,3617.71
-5316,Try out Windows builds in Travis,emirb,2018-10-15T10:19:59Z,2018-11-13T10:39:54+00:00,1,696.33
-5337,hugolib: Extract title from filename,maxandersen,2018-10-20T09:58:27Z,2018-11-14T04:57:05+00:00,1,594.98
-5339,"Allow ""jsonify"" to pretty print JSON",seanprashad,2018-10-21T03:47:51Z,2018-10-21T21:36:37+00:00,4,17.81
-5378,Add support for featured and global image to OpenGraph template,max-arnold,2018-10-30T03:53:02Z,2019-11-26T19:11:53+00:00,7,9423.31
-5380,Fixing typo.,maliMirkec,2018-10-30T12:14:24Z,2019-03-11T07:41:54+00:00,1,3163.46
-5384,Fixes ANSI character output regression on Windows,LorenzCK,2018-10-31T18:18:28Z,2018-11-02T08:09:03+00:00,4,37.84
-5389,Make WARN the new default log log level,bep,2018-11-01T21:43:15Z,2018-11-03T11:06:24+00:00,9,37.39
-5396,"[WIP] Allow ""Jsonify"" the option to pretty print JSON",seanprashad,2018-11-03T00:53:15Z,2018-12-29T17:04:37+00:00,1,1360.19
-5398,Fix typo,shawnps,2018-11-03T11:35:17Z,2019-08-01T11:52:06+00:00,1,6504.28
-5421,Add a file cache,bep,2018-11-08T10:01:20Z,2018-11-13T13:19:43+00:00,7,123.31
-5441,Misc cache improvements,bep,2018-11-14T11:07:55Z,2018-11-14T22:16:03+00:00,3,11.14
-5452,[RFC] - Dump template path to page if rendering to memory,raghur,2018-11-20T04:39:28Z,2020-04-23T05:41:38+00:00,1,12481.04
-5483,Add reflect template namespace,moorereason,2018-11-28T23:15:29Z,2018-12-07T22:29:38+00:00,2,215.24
-5521,POC: implement starlight plugins,natefinch,2018-12-13T18:38:05Z,2019-05-14T17:14:03+00:00,6,3646.6
-5545,Improve org mode support,niklasfasching,2018-12-20T20:55:15Z,2019-06-08T08:13:01+00:00,10,4067.3
-5572,tpl: Fix hugo package name and add godocs,moorereason,2018-12-28T18:51:34Z,2019-04-27T20:44:58+00:00,7,2881.89
-5599,"deploy: add a ""deploy"" command",vangent,2019-01-10T19:40:52Z,2019-05-03T15:59:26+00:00,5,2708.31
-5636,Fix OpenGraph image fallback to site params,statik,2019-01-25T04:27:36Z,2019-01-25T17:14:11+00:00,2,12.78
-5655,"Fix #5646, ignore .swp files in config folder",fberrez,2019-01-31T10:06:08Z,2019-02-01T06:51:22+00:00,5,20.75
-5657,Store supported config formats in a variable,tryzniak,2019-01-31T12:09:00Z,2019-02-01T06:17:39+00:00,1,18.14
-5705,Fix #5685. Convert numeric values to float64 and compare them,tryzniak,2019-02-21T10:01:30Z,2019-05-30T09:32:58+00:00,2,2351.52
-5709,Fix typos in multilingual.md,rhcarvalho,2019-02-22T14:06:08Z,2019-03-07T07:34:22+00:00,1,305.47
-5739,tpl/tplimpl: Fix template truth logic,bep,2019-03-06T17:22:17Z,2019-03-06T23:34:04+00:00,4,6.2
-5772,resources: Add JavaScript transpiling solution,niek-dewit,2019-03-21T14:47:32Z,2020-04-28T08:44:55+00:00,3,9689.96
-5806,hugolib: Add parameter option for .Summary,mcdee,2019-04-01T11:58:31Z,2019-04-05T17:11:04+00:00,6,101.21
-5874,tpl/collections: Make Pages etc. work in uniq,bep,2019-04-18T08:52:41Z,2019-04-18T14:50:14+00:00,1,5.96
-5876,tpl/collections: Make Pages etc. work with the in func,bep,2019-04-18T15:28:22Z,2019-04-18T21:42:02+00:00,1,6.23
-5931,deploy: Support invalidating a CloudFront CDN cache,vangent,2019-05-03T16:25:49Z,2019-05-06T19:09:34+00:00,4,74.73
-5938,deploy: Add tests; fix Windows,vangent,2019-05-03T23:41:38Z,2019-05-09T20:11:24+00:00,6,140.5
-5962,commands: Create new 'hugo list all' command,rndev-io,2019-05-16T12:00:44Z,2019-05-24T22:09:53+00:00,5,202.15
-5971,dockerfile:  Switch base image for final build,brianredbeard,2019-05-18T05:42:07Z,2019-05-23T18:49:14+00:00,1,133.12
-6004,"docs: Add documentation for ""hugo deploy""",vangent,2019-05-30T20:58:30Z,2019-05-31T20:08:13+00:00,7,23.16
-6086,tpl/collections: Add Merge function,bep,2019-07-11T06:49:27Z,2019-07-15T18:47:36+00:00,3,107.97
-6184,HTTPS links to Vimeo embeds,coliff,2019-08-09T04:23:31Z,2019-08-30T12:17:23+00:00,2,511.9
-6224,hugolib: Fix draft etc. handling of _index.md pages,bep,2019-08-15T16:30:41Z,2019-08-15T18:41:49+00:00,2,2.19
-6354,Support target image format  for image transformations,jansorg,2019-09-19T21:04:18Z,2019-09-21T14:50:28+00:00,3,41.77
-6367,[WIP] add issue templates and action to reduce support requests in issues,bmackinney,2019-09-24T20:39:32Z,2019-09-25T06:40:05+00:00,2,10.01
-6370,Enable page exclusion from sitemap.xml,FelicianoTech,2019-09-26T23:49:11Z,2024-03-19T16:31:23+00:00,4,39256.7
-6389,Update README.md,MjAbuz,2019-10-04T03:04:57Z,2019-10-04T07:19:56+00:00,1,4.25
-6404,common: Fix elements are doubling when append a not assignable type,vazrupe,2019-10-09T09:44:58Z,2019-10-11T08:38:13+00:00,1,46.89
-6405,"Dockerfile: Switch to mage builds, various optimizations",jakejarvis,2019-10-09T14:16:07Z,2019-10-31T08:53:50+00:00,1,522.63
-6418,"Add optional ""title"" attribute to iframe in Vimeo shortcode",zbayoff,2019-10-11T15:18:19Z,2019-10-12T16:10:15+00:00,1,24.87
-6489,Support Go time format strings in permalinks,look,2019-11-10T06:10:46Z,2019-11-10T10:00:03+00:00,2,3.82
-6561,feat(asciidoc): set working dir to current content,muenchhausen,2019-11-29T14:31:16Z,2020-05-16T12:27:16+00:00,6,4053.93
-6637,tpl: Support GitInfo for content folders,asafg6,2019-12-19T09:49:01Z,2022-03-08T08:15:01+00:00,4,19438.43
-6640,Fix incorrect MIME type from image/jpg to image/jpeg,zaitseff,2019-12-19T14:14:22Z,2019-12-19T17:02:12+00:00,1,2.8
-6698,Use --baseURL path for live-reload URL,sth,2020-01-02T01:39:51Z,2020-12-02T11:52:27+00:00,6,8050.21
-6772,Fix blog not building,colonelpopcorn,2020-01-18T18:05:38Z,2020-01-19T13:42:28+00:00,3,19.61
-6774,Skip over temporary files when building pages,obar,2020-01-18T18:39:22Z,2021-04-05T19:04:03+00:00,1,10632.41
-6775,Allow multiple arguments in ne/ge/gt/le/lt functions,le0tan,2020-01-19T13:06:48Z,2020-01-23T09:36:37+00:00,1,92.5
-6948,Added math.Sqrt (and docs for math.Log),StarsoftAnalysis,2020-02-23T18:47:40Z,2020-02-24T22:45:04+00:00,7,27.96
-6962,deploy: Implement include/exclude filters for deploy,vangent,2020-02-26T17:23:53Z,2020-02-27T06:26:06+00:00,2,13.04
-6990,Add minify config,satotake,2020-02-29T16:30:34Z,2020-03-20T13:44:05+00:00,2,477.23
-7024,deploy include exclude support for remote,davidejones,2020-03-06T12:40:53Z,2020-03-08T16:35:33+00:00,11,51.91
-7027,Update chroma goldmark-highlighting,satotake,2020-03-07T12:40:11Z,2020-03-07T16:43:36+00:00,4,4.06
-7099,markup/asciidoc: Add support for .TableOfContents,npiganeau,2020-03-26T15:53:04Z,2020-09-06T09:34:33+00:00,2,3929.69
-7117,tpl: Fix bad rounding in NumFmt,sams96,2020-04-01T22:15:21Z,2020-06-02T15:20:37+00:00,1,1481.09
-7208,allow asciidoc extensions settings to be configurable,andrewzah,2020-04-24T19:23:22Z,2020-05-16T19:53:12+00:00,3,528.5
-7268,deploy: Do not suppress .well-known/ directory,johnweldon,2020-05-13T23:26:25Z,2020-05-14T07:56:54+00:00,1,8.51
-7281,rework external asciidoc integration ,muenchhausen,2020-05-16T12:19:26Z,2020-06-25T07:51:34+00:00,8,955.54
-7294,Docs: Added tiiny.host as hosting & deployment option,elbaretto,2020-05-19T22:52:49Z,2020-12-19T08:30:03+00:00,4,5121.62
-7295,First paragraph as summary,Ajnasz,2020-05-20T07:20:15Z,2022-03-30T02:09:12+00:00,4,16290.82
-7334,tpl/crypto: add hmac,edouardparis,2020-05-29T14:15:30Z,2020-06-05T18:04:12+00:00,3,171.81
-7424,"Allow empty alt (alt="""") in img element",yaaax,2020-06-24T20:22:33Z,2022-03-30T02:09:02+00:00,1,15437.77
-7427,Add support for Goldmark footnote render hooks,samuelhorwitz,2020-06-26T00:19:51Z,2020-12-02T12:00:46+00:00,1,3827.68
-7449,Add support for ESBuild asset bundling,remko,2020-07-02T19:47:33Z,2020-07-12T10:29:12+00:00,3,230.69
-7460,Add `hugo list taxonomies` command,omajid,2020-07-06T00:44:23Z,2022-03-30T02:09:00+00:00,3,15169.41
-7494,Fix Asciidoctor args,helfper,2020-07-18T19:14:26Z,2020-07-23T13:59:49+00:00,6,114.76
-7513,mage: Add uninstall target,FelicianoTech,2020-07-24T16:55:47Z,2020-07-30T06:44:53+00:00,1,133.82
-7529,Allow configuring Pandoc,asankah,2020-08-01T17:34:44Z,2025-06-27T02:15:55+00:00,1,42968.69
-7531,Respect mediatypes for deploy,satotake,2020-08-02T12:36:43Z,2020-08-03T17:06:19+00:00,2,28.49
-7599,Implement alternate branch root files for #4691,evankanderson,2020-08-26T23:48:24Z,2022-03-17T02:02:21+00:00,1,13610.23
-7610,js.Build: Add SourceMap flag into js.Build opts which can turn on sourcemap.,richtera,2020-08-31T10:03:36Z,2020-09-01T14:19:09+00:00,3,28.26
-7650,markup/asciidocext: Fix AsciiDoc TOC with code,helfper,2020-09-09T22:35:12Z,2020-09-10T19:53:14+00:00,2,21.3
-7672,postcss: Mockup simple test to setup NODE_PATH and PATH,richtera,2020-09-13T00:15:33Z,2020-09-13T20:00:45+00:00,2,19.75
-7868,"build: allow optional ""nodeploy"" tag to exclude deploy command from bin",emhagman,2020-10-21T14:13:34Z,2020-10-23T07:03:42+00:00,4,40.84
-7898,Add Indonesian Docs,Ondoz,2020-10-28T21:04:52Z,2021-04-09T21:06:32+00:00,1,3912.03
-7928,tpl: Add functions for hex encoding,moorereason,2020-11-04T00:56:11Z,2020-12-02T11:35:24+00:00,1,682.65
-7938,"Update GH docs to say ""main"" as default branch",maco,2020-11-06T17:52:48Z,2020-11-06T19:57:53+00:00,1,2.08
-7965,remove unneeded meta tag from blog example,coliff,2020-11-17T23:54:15Z,2020-11-24T19:20:04+00:00,1,163.43
-7979,build(deps): bump github.com/evanw/esbuild from 0.8.11 to 0.8.13,dependabot,2020-11-24T06:27:06Z,2020-11-25T05:52:51+00:00,1,23.43
-7983,Allow /static (only) to be written to disk in server mode,satotake,2020-11-24T20:06:06Z,2022-03-08T16:31:25+00:00,6,11252.42
-7987,Add template execution tracing,isotopp,2020-11-25T08:55:34Z,2022-02-11T12:18:01+00:00,4,10635.37
-7997,resources: Extend HasShortcode to check for any shortcodes,moorereason,2020-11-28T00:19:26Z,2021-09-15T02:12:28+00:00,1,6985.88
-8008,all: Format code with gofumpt,bep,2020-12-02T12:24:04Z,2020-12-03T12:12:59+00:00,1,23.82
-8042,Fix minor typos,phil-davis,2020-12-11T12:10:09Z,2020-12-16T11:11:32+00:00,5,119.02
-8115,tpl: Do not return errors in substr for out-of-bounds cases,moorereason,2021-01-04T01:57:44Z,2021-01-08T09:13:11+00:00,1,103.26
-8122,"Feat: Add zsh, fish and PowerShell completion support",benmezger,2021-01-06T13:23:24Z,2021-02-04T22:32:52+00:00,2,705.16
-8131,markup: Allow arbitrary Asciidoc extension in unsafe mode,gzagatti,2021-01-11T08:36:17Z,2021-02-22T12:52:04+00:00,1,1012.26
-8148,"pipes: rollup, babel, esbuild",richtera,2021-01-15T16:01:50Z,2021-01-18T09:38:09+00:00,5,65.61
-8167,js: Add Shims option,bep,2021-01-21T18:42:27Z,2021-01-22T08:03:25+00:00,1,13.35
-8171,js: Add Inject config option,bep,2021-01-22T16:28:36Z,2021-01-22T22:43:45+00:00,1,6.25
-8234,Fix: wrong space for humanize func in some case,susiwen8,2021-02-14T06:18:01Z,2021-02-14T17:30:59+00:00,4,11.22
-8256,Update date logic of opengraph and schema internal templates,torrayne,2021-02-17T17:42:15Z,2021-02-18T16:51:32+00:00,3,23.15
-8287,Add support for google analytics v4,torrayne,2021-02-28T04:43:35Z,2021-03-03T12:30:06+00:00,1,79.78
-8305,tpl: Modify 'Querify' to take lone slice argument,importhuman,2021-03-06T19:05:13Z,2021-05-09T11:14:14+00:00,12,1528.15
-8306,Fix locale format in internal opengraph template,torrayne,2021-03-06T22:45:42Z,2023-03-21T02:21:22+00:00,1,17859.59
-8327,exif: Allow more spacing characters in strings,moorereason,2021-03-13T15:37:57Z,2021-03-13T20:20:10+00:00,2,4.7
-8355,Wrap t.main.templates into t.main.mu lock,paskal,2021-03-22T19:05:21Z,2021-06-13T17:54:38+00:00,4,1990.82
-8361,Remove duplicate references from release notes,jmooring,2021-03-25T03:56:01Z,2021-04-15T19:15:20+00:00,2,519.32
-8371,Add slice syntax to permalinks config,bep,2021-03-28T16:15:41Z,2021-03-30T05:55:24+00:00,4,37.66
-8376,metrics: Add cached count tracking,moorereason,2021-03-30T15:51:30Z,2022-02-16T09:05:17+00:00,5,7745.23
-8381,Fix typo in docshelper.go,jmooring,2021-03-31T23:44:15Z,2021-04-01T16:44:39+00:00,2,17.01
-8404,Remove extraneous space from figure shortcode,jmooring,2021-04-10T02:03:46Z,2021-04-15T12:43:32+00:00,1,130.66
-8428,Perform strict unmarshaling of YAML data,jmooring,2021-04-16T04:46:00Z,2021-07-29T13:05:30+00:00,3,2504.32
-8431,publisher: Exclude comment and doctype elements from writeStats,dirkolbrich,2021-04-17T15:13:14Z,2021-04-20T09:58:32+00:00,4,66.75
-8450,Fix Params case handling in where with slices of structs (e.g. Pages),bep,2021-04-21T07:30:49Z,2021-04-21T17:28:18+00:00,1,9.96
-8461,tpl/collections: Fix where on type mismatches,bep,2021-04-23T09:06:10Z,2021-04-23T16:06:49+00:00,1,7.01
-8463,Provides the ability to render PlantUML in content,shawnallen85,2021-04-23T16:47:24Z,2022-04-25T02:14:08+00:00,1,8793.45
-8474,Allows user-defined HTTP headers with getJSON and getCSV with interfa…,chamberlainpj,2021-04-26T21:48:52Z,2021-06-05T11:06:05+00:00,1,949.29
-8488,tpl: Enhance countwords to handle special chars,ResamVi,2021-04-30T13:14:38Z,2021-05-03T07:10:07+00:00,3,65.92
-8526,Update docs for GitHub Actions,GrahamSH-LLK,2021-05-12T15:27:42Z,2021-05-26T17:15:08+00:00,1,337.79
-8529,fix: typo,atinba,2021-05-13T08:05:07Z,2021-06-08T08:47:13+00:00,1,624.7
-8566,shortcode: Catch incomplete shortcode error,satotake,2021-05-23T15:24:35Z,2021-05-24T12:59:02+00:00,2,21.57
-8584,Add math.Max and math.Min,jmooring,2021-05-27T15:49:12Z,2021-05-28T18:38:45+00:00,3,26.83
-8588,"Fix invalid timestamp of the ""public"" folder",anthonyfok,2021-05-29T03:58:38Z,2021-06-04T20:50:30+00:00,1,160.86
-8602,Improve pagination performance,jmooring,2021-06-01T21:35:03Z,2021-06-08T08:41:22+00:00,3,155.11
-8603,Added check to skip loading 0 byte json files from data directory,FrappeFortyTwo,2021-06-02T02:30:44Z,2022-03-30T02:08:49+00:00,3,7223.63
-8606,Replace underlying rwcarlsen/goexif with dsoprea/go-exif,danedavid,2021-06-03T09:26:40Z,2021-07-15T10:39:10+00:00,2,1009.21
-8625,media: support application/manifest+json,Seirdy,2021-06-09T23:17:10Z,2021-06-18T11:22:47+00:00,4,204.09
-8643,Add pre and post fields for overriding ToC heading,IveGotNorto,2021-06-15T01:14:24Z,2022-02-18T10:46:59+00:00,2,5961.54
-8651,resources/image: Fix fill with smartcrop,bep,2021-06-15T17:13:08Z,2021-06-17T21:52:28+00:00,3,52.66
-8716,Fix tab selection of disabled items in internal pagination template,raoulb,2021-06-30T01:45:32Z,2021-07-05T08:30:59+00:00,2,126.76
-8730,Fix transparency problem when converting 32-bit images to WebP,bep,2021-07-07T08:16:19Z,2021-07-07T15:25:14+00:00,1,7.15
-8908,Prevent minifier from removing quoutes around post-processed attributes,bep,2021-08-19T09:32:32Z,2021-08-22T10:47:48+00:00,1,73.25
-8911,Add basic toc generation for pandoc,pagdot,2021-08-21T10:03:45Z,2025-03-25T02:07:42+00:00,1,31480.07
-8957,Pass minification errors to the user,ptgott,2021-09-04T22:54:18Z,2021-09-22T18:54:40+00:00,1,428.01
-9029,Added nodesource apt repository to snap package,sergiogarciadev,2021-10-11T22:04:38Z,2021-10-22T22:26:07+00:00,1,264.36
-9030,"This is very mac-centered, at least mention Linux",balderbach,2021-10-12T11:55:24Z,2021-10-14T08:34:16+00:00,1,44.65
-9040,Updated Dependabot for GitHub actions,nathannaveen,2021-10-14T15:14:12Z,2021-12-21T09:39:01+00:00,1,1626.41
-9044,Implement XML data support,vanbroup,2021-10-15T14:25:45Z,2021-12-02T16:30:36+00:00,29,1154.08
-9138,Add `clock` cli flag,satotake,2021-11-06T11:45:46Z,2022-05-07T09:33:43+00:00,14,4365.8
-9185,Add remote support to resources.Get,vanbroup,2021-11-18T17:15:44Z,2021-11-30T10:49:52+00:00,23,281.57
-9194,Avoid sticky errors in subsequent *Init.Do calls,ptgott,2021-11-21T22:37:43Z,2021-12-02T17:06:20+00:00,2,258.48
-9221,Check for empty deployment targets and matchers,jmooring,2021-11-30T21:53:05Z,2021-12-01T09:17:42+00:00,2,11.41
-9230,Make resources.Get use a file cache for remote resources,vanbroup,2021-12-02T09:38:37Z,2021-12-02T11:56:25+00:00,1,2.3
-9239,Text filter that draws text with the given options,vanbroup,2021-12-03T09:59:21Z,2021-12-07T10:29:55+00:00,15,96.51
-9268,Misc resources.Get improvements/fixes,bep,2021-12-09T16:43:19Z,2021-12-10T10:10:41+00:00,1,17.46
-9278,Improve handling of remote image/jpeg resources,jmooring,2021-12-12T00:07:30Z,2021-12-13T07:55:15+00:00,3,31.8
-9283,rss template: Set correct lastBuildDate,vanbroup,2021-12-13T16:42:28Z,2021-12-16T10:29:19+00:00,11,65.78
-9294,build(deps): bump github.com/spf13/viper from 1.8.1 to 1.10.1,dependabot,2021-12-16T08:16:56Z,2022-01-15T02:04:32+00:00,1,713.79
-9297,rss template: Set lastBuildDate to latest included page modification,vanbroup,2021-12-16T10:40:50Z,2023-07-31T01:54:18+00:00,4,14199.22
-9298,Allow for return partials with falsy arguments,ptgott,2021-12-16T14:41:57Z,2021-12-17T07:35:22+00:00,2,16.89
-9307,Misc MIME fixes,bep,2021-12-21T09:37:19Z,2021-12-22T10:35:53+00:00,1,24.98
-9314,fix/freeze 8166,bep,2021-12-22T19:04:10Z,2021-12-23T14:09:27+00:00,1,19.09
-9381,deps: upgrade github.com/alecthomas/chroma v0.9.4 => v0.10.0,robherley,2022-01-14T00:29:22Z,2022-02-16T01:18:06+00:00,1,792.81
-9382,deps: Update github.com/tdewolff/minify/v2 v2.9.22 => v2.9.29,jmooring,2022-01-14T02:27:23Z,2022-02-15T16:36:29+00:00,5,782.15
-9398,Ensure page translation CPs are initialized,ptgott,2022-01-16T21:11:13Z,2022-01-27T10:51:13+00:00,4,253.67
-9399,fix/apply namespace 9393,bep,2022-01-16T21:25:38Z,2022-01-17T08:50:48+00:00,1,11.42
-9438,Fix erroneous warning with .Page.RenderString on a page without a backing file,bep,2022-01-28T08:53:47Z,2022-01-28T16:35:49+00:00,1,7.7
-9441,Improve readiness waiting in server tests,ptgott,2022-01-28T14:33:06Z,2022-03-15T13:04:57+00:00,6,1102.53
-9464,Exclude event attributes when rendering markdown,jmooring,2022-02-04T00:04:15Z,2022-02-10T17:25:20+00:00,4,161.35
-9479,tpl/templates: Fix templates.Exist issue with base templates,bep,2022-02-09T14:57:31Z,2022-02-09T21:33:08+00:00,1,6.59
-9500,deps: Update github.com/alecthomas/chroma v0.9.4 => v0.10.0,bep,2022-02-14T12:49:24Z,2022-02-15T09:37:15+00:00,1,20.8
-9510,fix/heading link 9504,bep,2022-02-16T13:01:14Z,2022-02-16T16:46:30+00:00,1,3.75
-9540,commands: Fix server panic regression,bep,2022-02-21T18:36:00Z,2022-02-21T20:43:26+00:00,1,2.12
-9562,Add test for line anchor attributes with code fences,kaushalmodi,2022-02-24T19:16:42Z,2022-02-24T21:54:50+00:00,4,2.64
-9568,markup/goldmark: Use Ordinal to create default lineanchors,bep,2022-02-25T07:15:43Z,2022-02-25T16:22:43+00:00,1,9.12
-9575,Misc code block updates,bep,2022-02-26T09:53:30Z,2022-02-26T20:54:37+00:00,1,11.02
-9579,The final batch of codeblock adjustments,bep,2022-02-27T16:09:54Z,2022-02-27T18:51:40+00:00,2,2.7
-9624,Cache reflect.MethodByName,bep,2022-03-08T10:03:55Z,2022-03-08T18:36:56+00:00,1,8.55
-9637,Fix potential infinite recursion in link render hooks,bep,2022-03-09T15:18:26Z,2022-03-10T07:19:04+00:00,7,16.01
-9638,markup/highlight: Adjust inline markup,bep,2022-03-09T15:51:39Z,2022-06-15T18:04:27+00:00,6,2354.21
-9640,markup/goldmark: Default to https for linkify,bep,2022-03-09T18:04:42Z,2022-03-09T21:30:10+00:00,1,3.42
-9641,Fix some typos,cuishuang,2022-03-10T04:01:29Z,2022-03-22T06:38:23+00:00,2,290.62
-9644,Fix typo,panakour,2022-03-10T14:53:34Z,2022-03-22T06:39:33+00:00,1,279.77
-9697,Make sure file mounts higher up wins,bep,2022-03-20T17:35:52Z,2022-03-20T19:23:03+00:00,1,1.79
-9705,Make Snap and Docker build with Go 1.18,anthonyfok,2022-03-21T17:20:39Z,2022-03-22T03:01:24+00:00,1,9.68
-9710,tpl/crypto: Add optional encoding arg to hmac function,jmooring,2022-03-23T16:55:47Z,2022-03-23T18:42:57+00:00,1,1.79
-9715,Extend PageMatcher with Environment keyword,CathrinePaulsen,2022-03-24T16:41:25Z,2022-04-05T07:41:24+00:00,4,279.0
-9742,hugo deploy also sets an md5 attribute & checks it,davidejones,2022-04-03T13:12:09Z,2022-04-05T08:42:54+00:00,1,43.51
-9768,resources: Add `key` to reources.GetRemote options map,bep,2022-04-11T09:13:16Z,2022-04-13T07:18:17+00:00,1,46.08
-9841,Use AWS SDK Version 2,frankywahl,2022-04-28T17:50:11Z,2024-01-31T20:16:32+00:00,4,15434.44
-9856,"tpl: Plainify .Title, .Description and .Summary for meta tags",bowman2001,2022-05-04T08:59:00Z,2023-11-11T01:48:13+00:00,5,13336.82
-9869,tpl/collections: Make sort stable,bep,2022-05-08T16:37:41Z,2022-05-08T18:45:54+00:00,1,2.14
-9954,common: Add hugo.GoVersion,khayyamsaleem,2022-05-30T13:15:38Z,2022-06-14T07:48:46+00:00,2,354.55
-9963,README.md: update dependency list,deining,2022-06-01T12:05:08Z,2022-06-13T11:16:46+00:00,2,287.19
-9972,resources: Register MediaTypes before build,vanbroup,2022-06-03T09:17:53Z,2022-06-03T19:37:51+00:00,1,10.33
-9974,helpers: Fix panic with invalid `defaultMarkdownHandler`,satotake,2022-06-04T08:08:50Z,2022-06-04T15:48:37+00:00,1,7.66
-9976,tpl/path: Add path.BaseName function,jmooring,2022-06-04T20:44:09Z,2022-06-06T07:36:16+00:00,2,34.87
-10071,Update opengraph.html,rbn30117,2022-07-05T23:52:07Z,2022-07-14T12:34:22+00:00,1,204.7
-10119,markup/goldmark/codeblock: get attribute in no language identifier in CodeBlock,chick-p,2022-07-23T13:03:41Z,2022-08-03T09:32:08+00:00,8,260.47
-10174,snap: Make external dependencies actually work,anthonyfok,2022-08-13T17:14:37Z,2022-08-29T18:24:58+00:00,1,385.17
-10229,"snap: Use ""snapcraftctl set-grade""",anthonyfok,2022-08-30T09:55:25Z,2022-08-30T11:23:19+00:00,1,1.47
-10237,Add `--force` to `hugo new`,satotake,2022-08-31T15:28:34Z,2022-09-08T13:35:11+00:00,1,190.11
-10284,Allow proxy variables in subcommands,sathieu,2022-09-16T14:40:06Z,2022-09-19T10:37:36+00:00,3,67.96
-10305,hugofs: Fix glob case-sensitivity bug,satotake,2022-09-21T15:21:59Z,2022-09-23T11:13:55+00:00,7,43.87
-10365,chore: fix typo,zasdaym,2022-10-06T07:41:24Z,2023-02-17T14:34:18+00:00,1,3222.88
-10404,docs: fix typographic issues,102,2022-10-29T20:57:20Z,2022-11-18T15:39:28+00:00,2,474.7
-10416,Add support for Google Adsense,WooilJeong,2022-11-04T01:10:34Z,2024-01-18T01:49:40+00:00,2,10560.65
-10417,fix: typo (hightlight -> highlight),septs,2022-11-05T02:49:59Z,2022-11-18T15:40:17+00:00,1,324.84
-10521,Adds start-aware youtube shortcode,sgharms,2022-12-10T18:42:46Z,2022-12-23T10:40:25+00:00,1,303.96
-10545,Implement p,bep,2022-12-17T15:47:40Z,2023-12-18T08:32:16+00:00,2,8776.74
-10558,tocss: Add vars option,bep,2022-12-19T19:09:44Z,2022-12-20T18:36:30+00:00,8,23.45
-10567,feat: add parents property on page,septs,2022-12-22T03:07:33Z,2022-12-23T09:14:54+00:00,3,30.12
-10589,rss: Add config variable to output full content,kusma,2022-12-29T23:17:50Z,2024-04-24T14:03:45+00:00,1,11558.77
-10591,feat/miscgodoc30dec,bep,2022-12-30T13:53:46Z,2023-01-04T17:01:27+00:00,1,123.13
-10593,dartsass: Import CSS without extension at compile time,jmooring,2023-01-01T01:25:04Z,2023-02-23T22:29:45+00:00,3,1293.08
-10621,Make hugo.toml the new config.toml,bep,2023-01-16T08:39:47Z,2023-01-16T14:34:16+00:00,3,5.91
-10638,refactor: improve math,septs,2023-01-22T04:36:41Z,2023-03-11T10:21:08+00:00,2,1157.74
-10653,chore: improve table-of-contents,septs,2023-01-25T09:24:49Z,2023-01-25T12:52:11+00:00,1,3.46
-10666,tpl: adds `truth` and `bool` template functions,khayyamsaleem,2023-01-28T17:26:28Z,2025-03-25T02:07:37+00:00,1,18872.69
-10676,Add some shortcode testcases,bep,2023-01-31T08:28:49Z,2023-02-23T08:36:15+00:00,2,552.12
-10679,Docs: markdownify - mention a context limitation,JackuB,2023-01-31T15:30:12Z,2023-02-09T14:21:39+00:00,3,214.86
-10731,Correct typos in Go comments,alexandear,2023-02-18T20:48:53Z,2023-03-02T15:32:32+00:00,1,282.73
-10779,Hugo deploy customize parallel transfer count,davidejones,2023-03-03T19:59:34Z,2023-03-07T14:38:27+00:00,1,90.65
-10797,"resources,tpl: Remove duplicated same package import in a same file",alexandear,2023-03-05T18:56:55Z,2024-01-13T20:24:19+00:00,3,7537.46
-10818,"feat: builtin rfc{1123,3339} date format",septs,2023-03-11T13:54:17Z,2023-03-25T07:45:16+00:00,4,329.85
-10823,feat: parse rss/atom feeds from xml,nikaro,2023-03-12T10:13:05Z,2023-06-12T10:51:30+00:00,1,2208.64
-10828,fix: math (must provide at least two values),septs,2023-03-12T17:40:39Z,2023-03-14T08:28:39+00:00,1,38.8
-10847,resources/page: Allow section&taxonomy pages to have a permalink configuration,Mai-Lapyst,2023-03-17T23:56:51Z,2023-06-26T13:31:01+00:00,1,2413.57
-10865,postCSS: improve validation of option 'config',deining,2023-03-25T20:38:34Z,2023-05-22T16:14:10+00:00,3,1387.59
-10913,fix some comments,cuishuang,2023-04-25T08:07:59Z,2023-05-19T06:40:08+00:00,1,574.54
-10920,Add mastodon shortcode,andriisoldatenko,2023-04-28T14:11:59Z,2024-04-03T00:50:51+00:00,4,8170.65
-10927,tpl/tplimpl: Add img loading attribute to figure shortcode ,InLaw,2023-05-04T08:40:50Z,2023-05-21T19:28:45+00:00,1,418.8
-10945,tpl: Add math.Abs,alexandear,2023-05-15T09:30:15Z,2023-05-16T16:32:07+00:00,2,31.03
-10952,add automaxprocs to default GOMAXPROCS to be CPU limit aware,BenTheElder,2023-05-17T19:40:30Z,2023-05-18T17:32:49+00:00,3,21.87
-10967,tpl/urls: Return empty string when JoinPath has zero args,jmooring,2023-05-19T15:30:57Z,2023-05-20T09:14:18+00:00,1,17.72
-10968,Fixing typos,deining,2023-05-19T20:46:50Z,2023-06-19T07:28:11+00:00,2,730.69
-10973,Allow whitelisting mediaTypes used in resources.GetRemote,bep,2023-05-20T15:45:40Z,2023-05-20T18:16:45+00:00,1,2.52
-10976,langs/i18n: Fixed typo,axelflodmark,2023-05-22T02:07:54Z,2023-10-08T20:34:03+00:00,1,3354.44
-10988,"all: Fix typos in function names, tests and comments",alexandear,2023-05-22T17:13:26Z,2023-06-19T07:26:29+00:00,1,662.22
-10999,"commands,config: Fix typo in log and error messages",alexandear,2023-05-23T09:38:42Z,2023-06-12T14:45:21+00:00,1,485.11
-11001,markup: Fix typo in function and struct names,alexandear,2023-05-23T13:32:48Z,2023-06-01T15:59:46+00:00,1,218.45
-11003,all: Replace deprecated ioutil with io and os,alexandear,2023-05-23T14:58:29Z,2023-06-01T15:52:21+00:00,1,216.9
-11032,tpl/tplimpl: Use .Language.LanguageCode in built-in templates,jmooring,2023-05-27T22:24:37Z,2023-05-30T18:10:17+00:00,3,67.76
-11076,openapi: Add support for external refs,TheSpeedyFrog,2023-06-08T15:57:19Z,2025-03-25T02:07:34+00:00,4,15730.17
-11088,"commands: Remove flags log, verboseLog, add flag logLevel, deprecate flags verbose and debug",bep,2023-06-12T14:03:43Z,2023-06-13T15:49:38+00:00,1,25.77
-11091,"tpl/math: Allow variadic math functions to take slice args, add math.Product, math.Sum",bep,2023-06-13T07:17:06Z,2023-06-13T18:00:01+00:00,1,10.72
-11093,tpl/collections: Fix append when appending a slice to a slice of slices,bep,2023-06-13T08:46:43Z,2023-06-14T07:00:55+00:00,1,22.24
-11104,Misc Append fixes,bep,2023-06-14T07:52:07Z,2023-06-14T18:18:54+00:00,3,10.45
-11114,Fix upstream Go templates bug with reversed key/value assignment,bep,2023-06-15T14:41:33Z,2023-06-15T21:04:34+00:00,7,6.38
-11143,commands: Update Jekyll post-import output,brianknight10,2023-06-21T14:10:54Z,2023-06-21T18:38:55+00:00,3,4.47
-11170,Print help message when command is triggered with no flags,roshanavand,2023-06-26T18:28:49Z,2023-06-28T12:58:36+00:00,1,42.5
-11178,commands: Fix panic when running hugo new theme without theme name,deining,2023-06-27T14:37:30Z,2023-06-28T14:20:54+00:00,2,23.72
-11185,Misc permalinks adjustments,bep,2023-06-28T14:09:47Z,2023-06-29T08:14:20+00:00,14,18.08
-11220,fix: dotpath for Hugo modules mounted as data,dvdksn,2023-07-07T15:39:22Z,2023-07-15T09:13:08+00:00,2,185.56
-11245,Misc fixes,bep,2023-07-13T13:16:50Z,2023-07-13T16:06:37+00:00,1,2.83
-11281,tpl/collections: Add like operator to where function,jmooring,2023-07-23T19:55:24Z,2023-07-28T07:53:01+00:00,5,107.96
-11306,Fix so temporary images do not get published,bep,2023-07-30T10:03:12Z,2023-07-30T16:52:34+00:00,1,6.82
-11320,Add Page.RenderShortcodes,bep,2023-08-01T16:45:57Z,2023-08-03T18:00:57+00:00,1,49.25
-11367,commands/new: Embed site and theme skeletons,jmooring,2023-08-18T03:05:58Z,2023-08-21T08:38:23+00:00,1,77.54
-11381,create/skeletons: Move theme's site config to top level,jmooring,2023-08-23T14:15:19Z,2023-08-23T16:05:01+00:00,3,1.83
-11385,Go 1.21 Upgrade,bep,2023-08-23T16:58:49Z,2023-08-23T19:49:27+00:00,2,2.84
-11419,"all: Fix typos in variable names, tests, and comments",alexandear,2023-08-31T14:17:50Z,2024-01-13T20:24:10+00:00,2,3246.11
-11442,Print language code after web server address info,ilmari-lauhakangas,2023-09-10T17:11:46Z,2023-09-11T09:38:24+00:00,1,16.44
-11492,all: Fix typos,vladh,2023-09-24T15:02:04Z,2024-02-05T15:01:00+00:00,1,3215.98
-11578,livereloadinject: Use more robust injection method,DominoPivot,2023-10-18T21:27:38Z,2023-10-29T17:37:05+00:00,4,260.16
-11593,markdown: Pass emoji codes to yuin/goldmark-emoji ,jmooring,2023-10-22T16:27:19Z,2023-10-24T10:04:13+00:00,1,41.62
-11604,all: gofmt -w -r 'interface{} -> any' .,alexandear,2023-10-25T20:16:18Z,2024-01-13T20:24:30+00:00,1,1920.14
-11609,Revise the deprecation logging,bep,2023-10-26T08:44:43Z,2023-10-26T18:41:19+00:00,1,9.94
-11621,resources/images: Create padding image filter,jmooring,2023-10-28T17:24:03Z,2023-10-29T09:16:37+00:00,5,15.88
-11622,markup/goldmark: update the CJK extension to allow specifying line break styles,henry0312,2023-10-29T05:55:03Z,2023-10-29T09:13:57+00:00,1,3.31
-11636,tpl: Fix incorrect lastBuildDate,tastapod,2023-10-30T17:00:47Z,2024-01-25T18:46:52+00:00,3,2089.77
-11688,"tpl: allow using page resources on the images page parameter for `opengraph`, `schema` and `twitter_cards` templates",razonyang,2023-11-09T04:17:47Z,2023-12-04T11:05:41+00:00,1,606.8
-11706,resources/resource: Fix GroupByParamDate with raw TOML dates,jmooring,2023-11-13T23:09:55Z,2023-11-22T11:09:48+00:00,4,204.0
-11741,parser/metadecoders: Accumulate org keywords into arrays,augustfengd,2023-11-26T05:44:50Z,2024-01-25T18:34:13+00:00,2,1452.82
-11784,markup/goldmark: Render strikethrough and emojis in TOC entries,lyind,2023-12-05T23:56:36Z,2024-03-07T13:08:29+00:00,1,2221.2
-11819,resources/images: Create AutoOrient image filter,jmooring,2023-12-19T07:18:19Z,2023-12-20T13:18:24+00:00,5,30.0
-11866,markup/goldmark: Support passthrough extension,j2kun,2024-01-06T17:27:25Z,2024-01-26T07:11:35+00:00,6,469.74
-11880,deps: Update github.com/tdewolff/minify/v2 v2.20.9 => v2.20.13,jtatum,2024-01-11T21:31:27Z,2024-01-25T18:33:15+00:00,2,333.03
-11940,Misc fixes and improvements,bep,2024-01-29T20:44:54Z,2024-01-30T19:12:03+00:00,1,22.45
-11945,Create default link and image render hooks,bep,2024-01-30T14:49:38Z,2024-01-30T19:12:19+00:00,1,4.38
-11997,Fix typos,coliff,2024-02-06T08:21:10Z,2024-02-11T11:51:33+00:00,1,123.51
-12004,GitHub workflows: bump actions to latest versions,deining,2024-02-06T18:32:08Z,2024-02-07T09:23:48+00:00,1,14.86
-12015,Move the duplicate page/resource filter,bep,2024-02-08T11:03:43Z,2024-02-08T19:11:17+00:00,1,8.13
-12016,Add images.Dither filter,jmooring,2024-02-08T19:36:07Z,2024-02-11T20:51:11+00:00,8,73.25
-12021,Fix rebuild with resources.Concat,bep,2024-02-09T12:07:05Z,2024-02-16T12:17:53+00:00,1,168.18
-12023,markup/goldmark: Improve TOC tests,jmooring,2024-02-09T21:36:36Z,2024-02-10T14:03:38+00:00,2,16.45
-12025,Fix taxonomy term with backing file regression,bep,2024-02-10T08:52:28Z,2024-02-10T16:48:53+00:00,1,7.94
-12034,Fix typos,coliff,2024-02-13T11:21:38Z,2024-02-18T11:16:30+00:00,3,119.91
-12106,docs: Fix hyphens and grammar in synopsis of command 'hugo server',deining,2024-02-21T19:20:51Z,2024-03-07T13:03:49+00:00,2,353.72
-12125,hugolib: Fix a .Page.GetPage from bundle case,bep,2024-02-23T09:18:22Z,2024-02-23T13:40:30+00:00,1,4.37
-12149,resource: Revert the normalization of Resource.Name,bep,2024-02-25T09:47:43Z,2024-02-25T13:57:29+00:00,1,4.16
-12179,Add hugo.IsMultiHost,razonyang,2024-02-29T16:08:34Z,2024-03-07T13:04:41+00:00,1,164.94
-12204,tpl/tplimpl: Honor markdown attributes in embedded image render hook,jmooring,2024-03-06T00:16:51Z,2024-03-07T07:21:58+00:00,1,31.09
-12205,fix some typos,thirdkeyword,2024-03-06T09:46:33Z,2024-11-28T10:20:02+00:00,1,6408.56
-12217,build(deps): bump google.golang.org/api from 0.152.0 to 0.169.0,dependabot,2024-03-08T08:56:36Z,2024-03-13T17:21:37+00:00,2,128.42
-12282,tpl/tplimpl: Allow content exclusion in sitemap.xml,kolappannathan,2024-03-19T18:04:53Z,2024-04-01T22:39:55+00:00,2,316.58
-12299,tpl/tplimpl: Update Google Analytics template and config,jmooring,2024-03-23T20:28:30Z,2024-03-26T14:40:51+00:00,1,66.21
-12301,all: fix duplicate duplicate words,grimreaper,2024-03-23T23:08:04Z,2024-04-11T07:31:33+00:00,1,440.39
-12311,resources: Use different cache key when copying resources,jmooring,2024-03-25T21:20:01Z,2024-03-27T08:59:59+00:00,2,35.67
-12328,tpl/tplimpl: Improve embedded opengraph template,jmooring,2024-04-01T18:13:00Z,2024-04-02T16:35:43+00:00,3,22.38
-12332,tpl/strings: Create strings.Diff template function,jmooring,2024-04-02T12:45:28Z,2024-04-02T16:25:44+00:00,2,3.67
-12353,"completion: Improve existing argument completions, add many more",scop,2024-04-07T21:41:09Z,2024-04-11T13:34:27+00:00,2,87.89
-12363,resources/page: Add taxonomies Page method,jmooring,2024-04-11T19:57:31Z,2024-04-12T14:26:02+00:00,2,18.48
-12364,Pass .RenderShortcodes' Page to render hooks as .PageInner,bep,2024-04-12T08:18:47Z,2024-04-15T07:49:57+00:00,1,71.52
-12385,tpl: Use erroridf for remote YouTube errors,bep,2024-04-17T12:26:29Z,2024-04-18T08:02:37+00:00,1,19.6
-12411,tpl: Escape .Title in built-in image and link render hooks,bep,2024-04-22T09:33:37Z,2024-04-22T14:54:24+00:00,2,5.35
-12425,tpl/tplimpl: Fix double-escaping in opengraph template,jmooring,2024-04-24T15:52:05Z,2024-04-25T08:03:17+00:00,6,16.19
-12444,Enable cross-site translations,jmooring,2024-04-28T15:44:18Z,2024-05-02T16:14:59+00:00,4,96.51
-12446,cache/dynacache: Don't mark all evicted items as stale,bep,2024-04-29T20:09:41Z,2025-07-17T02:16:26+00:00,1,10638.11
-12459,markup/goldmark: Support extras extension,jmooring,2024-05-04T01:10:02Z,2024-05-10T20:32:02+00:00,3,163.37
-12460,Make the cache eviction logic for stale entities more robust,bep,2024-05-04T13:59:42Z,2024-05-05T08:34:54+00:00,2,18.59
-12463,build(deps): bump golang.org/x/image from 0.15.0 to 0.16.0,dependabot,2024-05-06T08:10:44Z,2024-05-10T20:33:33+00:00,1,108.38
-12505,[editorial] google_analytics.html: trim trailing whitespace from tpl actions,chalin,2024-05-16T14:34:53Z,2024-08-29T19:32:46+00:00,1,2524.96
-12522,Create generator-generic-ossf-slsa3-publish.yml,Devante7,2024-05-20T10:00:55Z,2024-05-20T12:53:26+00:00,1,2.88
-12576,Add option to not generate aliases for first page of pagination pages,bep,2024-06-07T16:27:56Z,2024-06-08T13:42:01+00:00,1,21.23
-12631,create/skeletons: Fix languageCode region subtag,CyrusYip,2024-06-29T15:18:10Z,2024-07-02T06:43:20+00:00,1,63.42
-12633,"Fix it so publishDate rolls up to section, taxonomy, or term pages",bep,2024-07-01T14:20:26Z,2024-07-01T19:48:12+00:00,1,5.46
-12641,Add js.Batch,bep,2024-07-05T14:16:57Z,2024-12-12T20:43:17+00:00,1,3846.44
-12642,Expose commit body,PeskyPotato,2024-07-05T17:31:28Z,2024-07-06T14:28:11+00:00,2,20.95
-12660,math: Add Trig and Inv-Trig math functions,raoulb,2024-07-16T15:52:45Z,2024-07-31T22:28:16+00:00,1,366.59
-12695,resources/page: Expand parmalinks tokens in `url`,n1xx1,2024-07-31T17:45:58Z,2024-08-01T10:14:30+00:00,9,16.48
-12703,Allow nested params when using Pages.GroupByParam and Pages.GroupByParamDate,n1xx1,2024-08-01T11:16:33Z,2024-08-02T08:03:20+00:00,6,20.78
-12734,github: Build and publish Docker image on release,bep,2024-08-09T07:13:55Z,2024-08-09T14:26:22+00:00,3,7.21
-12870,tpl/compare: Use any data type for compare.Conditional condition,jmooring,2024-09-20T20:17:00Z,2024-09-22T14:53:11+00:00,1,42.6
-12881,tailwindcss: Write to a temp file as a workaround for upstream bug,bep,2024-09-26T07:46:01Z,2024-09-26T12:38:44+00:00,1,4.88
-12888,ci: build multi-platform image with cross-compilation,dvdksn,2024-09-29T17:33:42Z,2024-10-09T08:47:49+00:00,2,231.24
-12901,tpl/tplimpl: trim descriptions rather than just chomp,chalin,2024-10-02T17:27:38Z,2024-10-12T20:41:42+00:00,1,243.23
-12927,fixed #12926 uglyurls parse to map[string]bool,akkuman,2024-10-12T07:55:13Z,2024-10-14T08:03:44+00:00,2,48.14
-12931,commands: Use consistent style when describing subcommands,Hasaber8,2024-10-14T02:47:42Z,2024-10-15T06:51:54+00:00,7,28.07
-12938,Add support for backslash escaping in url and permalinks,n1xx1,2024-10-14T11:07:43Z,2024-10-15T08:28:01+00:00,2,21.34
-13053,Fix extra newline/paragraphs issue with .RenderShortcodes,bep,2024-11-16T11:37:15Z,2024-11-16T16:51:11+00:00,1,5.23
-13100,tpl/tplimpl: Add details shortcode,racehd,2024-12-01T15:31:41Z,2024-12-13T08:24:20+00:00,4,280.88
-13140,tpl/collections: Allow querify to accept a map argument,jmooring,2024-12-13T06:25:08Z,2024-12-13T12:30:55+00:00,1,6.1
-13174,Update SECURITY.md,sweeetz251,2024-12-20T05:43:20Z,2024-12-20T07:12:10+00:00,1,1.48
-13212,tpl/images: Add images.QR function,jmooring,2025-01-02T19:24:58Z,2025-01-06T11:05:59+00:00,15,87.68
-13217,resources: Replace error handling in GetRemote with try (note),bep,2025-01-05T15:44:17Z,2025-01-06T11:22:17+00:00,1,19.63
-13223,images.Text: Add option for horizontal alignment,jlskuz,2025-01-06T20:38:05Z,2025-01-08T16:23:46+00:00,2,43.76
-13266,tpl/tplimpl: Deprecate twitter shortcode in favor of x shortcode,jmooring,2025-01-15T22:08:32Z,2025-01-16T09:33:34+00:00,3,11.42
-13281,tpl/tplimpl: Fix context in shortcode error messages,jmooring,2025-01-19T19:52:31Z,2025-01-20T15:17:55+00:00,1,19.42
-13288,Do not warn on potentially unsafe HTML comments when unsafe=false,bep,2025-01-21T09:50:15Z,2025-01-22T08:44:26+00:00,1,22.9
-13325,tpl/tplimpl: Remove leading whitespaces produced by Youtube shortcode,alex-shpak,2025-01-30T23:57:08Z,2025-01-31T08:29:10+00:00,1,8.53
-13353,Add ContentTypes to config,bep,2025-02-07T10:39:15Z,2025-02-08T09:31:16+00:00,1,22.87
-13382,feat: add :contentbasename permalink token,hacdias,2025-02-12T12:42:35Z,2025-02-15T09:41:35+00:00,1,68.98
-13402,Add slugorcontentbasename and contentbasename,bep,2025-02-15T09:41:09Z,2025-02-17T08:41:49+00:00,1,47.01
-13404,Add autoID for definition terms,bep,2025-02-16T11:03:09Z,2025-02-16T19:55:27+00:00,1,8.87
-13541,Reimplement and simplify Hugo's template system,bep,2025-03-30T17:34:39Z,2025-04-06T19:43:21+00:00,1,170.15
-13552,commands/new: Improve theme creation,jmooring,2025-04-01T17:05:02Z,2025-04-08T14:35:46+00:00,1,165.51
-13566,tpl: Add templates.Current,bep,2025-04-08T17:04:10Z,2025-04-09T18:15:40+00:00,1,25.19
-13622,parser/metadecoders: Add CSV toMap option to transform.Unmarshal,jmooring,2025-04-17T21:24:18Z,2025-04-21T17:33:20+00:00,3,92.15
-13631,Misc fixes,bep,2025-04-20T16:58:29Z,2025-04-21T13:17:20+00:00,1,20.31
-13637,tpl: Fix indeterminate template lookup with templates with and withou… …t lang,bep,2025-04-21T16:04:20Z,2025-04-22T15:29:40+00:00,1,23.42
-13644,Check the _merge setup,bep,2025-04-23T14:56:30Z,2025-04-24T11:56:27+00:00,1,21.0
-13647,images.Text: Add option for vertical alignment,bep,2025-04-24T08:21:34Z,2025-04-24T12:09:13+00:00,2,3.79
-13716,Misc fixes,bep,2025-05-16T09:44:37Z,2025-05-18T10:48:24+00:00,1,49.06
-13734,commands: Make sure the browser gets refreshed on changes when --disableFastRender is set,bep,2025-05-23T10:04:25Z,2025-05-23T17:46:16+00:00,1,7.7
-13744,Fix recent regression with cascading of params to content adapters,bep,2025-05-26T17:00:14Z,2025-05-26T19:26:19+00:00,1,2.43
-13746,common/collections: Increase test coverage,pixel365,2025-05-27T12:31:18Z,2025-05-29T07:17:13+00:00,1,42.77
-13760,Handle KaTeX warnings,bep,2025-05-29T11:34:31Z,2025-05-30T18:57:55+00:00,1,31.39
-13796,deps: Upgrade github.com/spf13/cast v1.8.0 => v1.9.2,jmooring,2025-06-11T20:58:59Z,2025-06-12T08:07:09+00:00,2,11.14
-13816,markup/goldmark: Change link and image render hook enablement to enums,jmooring,2025-06-22T21:45:45Z,2025-07-07T09:19:35+00:00,2,347.56
-13817,"Deploy, walkLocal performance",davidejones,2025-06-23T12:16:46Z,2025-06-29T14:41:56+00:00,2,146.42
-13835,Misc URL issues,bep,2025-07-05T11:04:51Z,2025-07-05T16:11:28+00:00,1,5.11
-13841,"Add Ancestors (plural) method to GitInfo, rename Ancestor field to Parent",bep,2025-07-07T18:36:18Z,2025-07-08T13:08:09+00:00,1,18.53
-13866,refactor: use slices.Equal to simplify code,minxinyi,2025-07-23T07:09:23Z,2025-08-24T18:35:18+00:00,2,779.43
-13888,"Add support for ""format"" option in transform.Unmarshal",n1xx1,2025-08-03T16:31:44Z,2025-08-05T20:19:51+00:00,1,51.8
-13900,markup/goldmark: Apply Hugo Goldmark Extras when rendering TOC,jmooring,2025-08-11T22:55:57Z,2025-08-14T20:39:14+00:00,2,69.72
-13908,resources/page: Add :sectionslug and :sectionslugs permalink tokens,DustinFischer,2025-08-14T17:25:38Z,2025-08-23T10:35:22+00:00,9,209.16
-13966,modules: Add support for direct version module imports in hugo.toml,bep,2025-09-05T06:50:13Z,2025-09-07T20:48:24+00:00,1,61.97
-13969,resources/page: Fix truncated summary logic,jmooring,2025-09-05T19:27:29Z,2025-09-07T09:07:42+00:00,4,37.67
-13982,markup/goldmark: Enhance footnote extension with auto-prefixing option,jmooring,2025-09-13T03:36:12Z,2025-09-27T16:16:42+00:00,5,348.68
-13989,commands: Map --minify CLI flag to the correct configuration key,jmooring,2025-09-17T16:27:44Z,2025-09-18T14:50:48+00:00,2,22.38
-14013,Misc,bep,2025-09-29T11:25:50Z,2025-09-29T15:06:51+00:00,1,3.68
+number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+14025,Add transform.HTMLToMarkdown,bep,2025-10-01T16:12:29Z,2025-10-01T17:17:27+00:00,1,1.08,True,99,1,4,12,0,1,1,MERGED
+14013,Misc,bep,2025-09-29T11:25:50Z,2025-09-29T15:06:51+00:00,1,3.68,True,59,9,6,151,0,2,2,MERGED
+14003,plain text markup,davidejones,2025-09-25T19:29:07Z,2025-10-01T17:40:43+00:00,1,142.19,False,84,0,6,33,1,1,2,CLOSED
+13989,commands: Map --minify CLI flag to the correct configuration key,jmooring,2025-09-17T16:27:44Z,2025-09-18T14:50:48+00:00,2,22.38,True,14,1,2,13,0,1,1,MERGED
+13982,markup/goldmark: Enhance footnote extension with auto-prefixing option,jmooring,2025-09-13T03:36:12Z,2025-09-27T16:16:42+00:00,5,348.68,True,122,25,7,445,6,3,9,MERGED
+13969,resources/page: Fix truncated summary logic,jmooring,2025-09-05T19:27:29Z,2025-09-07T09:07:42+00:00,4,37.67,True,78,4,3,25,0,1,1,MERGED
+13966,modules: Add support for direct version module imports in hugo.toml,bep,2025-09-05T06:50:13Z,2025-09-07T20:48:24+00:00,1,61.97,False,563,85,12,2334,1,3,4,CLOSED
+13908,resources/page: Add :sectionslug and :sectionslugs permalink tokens,DustinFischer,2025-08-14T17:25:38Z,2025-08-23T10:35:22+00:00,9,209.16,True,198,5,5,465,4,4,8,MERGED
+13900,markup/goldmark: Apply Hugo Goldmark Extras when rendering TOC,jmooring,2025-08-11T22:55:57Z,2025-08-14T20:39:14+00:00,2,69.72,True,89,5,5,12,0,1,1,MERGED
+13888,"Add support for ""format"" option in transform.Unmarshal",n1xx1,2025-08-03T16:31:44Z,2025-08-05T20:19:51+00:00,1,51.8,True,39,6,3,164,0,1,1,MERGED
+13866,refactor: use slices.Equal to simplify code,minxinyi,2025-07-23T07:09:23Z,2025-08-24T18:35:18+00:00,2,779.43,True,6,29,3,137,4,1,5,MERGED
+13841,"Add Ancestors (plural) method to GitInfo, rename Ancestor field to Parent",bep,2025-07-07T18:36:18Z,2025-07-08T13:08:09+00:00,1,18.53,True,14,10,3,12,3,0,3,MERGED
+13835,Misc URL issues,bep,2025-07-05T11:04:51Z,2025-07-05T16:11:28+00:00,1,5.11,True,123,163,4,128,0,0,0,MERGED
+13817,"Deploy, walkLocal performance",davidejones,2025-06-23T12:16:46Z,2025-06-29T14:41:56+00:00,2,146.42,True,54,38,2,311,0,1,1,MERGED
+13816,markup/goldmark: Change link and image render hook enablement to enums,jmooring,2025-06-22T21:45:45Z,2025-07-07T09:19:35+00:00,2,347.56,True,293,35,9,103,2,2,4,MERGED
+13796,deps: Upgrade github.com/spf13/cast v1.8.0 => v1.9.2,jmooring,2025-06-11T20:58:59Z,2025-06-12T08:07:09+00:00,2,11.14,True,6,6,4,536,0,1,1,MERGED
+13760,Handle KaTeX warnings,bep,2025-05-29T11:34:31Z,2025-05-30T18:57:55+00:00,1,31.39,True,76,15,10,10,7,0,7,MERGED
+13746,common/collections: Increase test coverage,pixel365,2025-05-27T12:31:18Z,2025-05-29T07:17:13+00:00,1,42.77,True,176,0,3,66,1,3,4,MERGED
+13744,Fix recent regression with cascading of params to content adapters,bep,2025-05-26T17:00:14Z,2025-05-26T19:26:19+00:00,1,2.43,True,82,72,7,12,0,0,0,MERGED
+13734,commands: Make sure the browser gets refreshed on changes when --disableFastRender is set,bep,2025-05-23T10:04:25Z,2025-05-23T17:46:16+00:00,1,7.7,True,3,0,1,12,0,1,1,MERGED
+13716,Misc fixes,bep,2025-05-16T09:44:37Z,2025-05-18T10:48:24+00:00,1,49.06,True,187,30,6,76,0,0,0,MERGED
+13647,images.Text: Add option for vertical alignment,bep,2025-04-24T08:21:34Z,2025-04-24T12:09:13+00:00,2,3.79,True,29,5,9,632,0,2,2,MERGED
+13644,Check the _merge setup,bep,2025-04-23T14:56:30Z,2025-04-24T11:56:27+00:00,1,21.0,True,162,87,7,10,0,1,1,MERGED
+13637,tpl: Fix indeterminate template lookup with templates with and withou… …t lang,bep,2025-04-21T16:04:20Z,2025-04-22T15:29:40+00:00,1,23.42,True,120,17,5,13,4,1,5,MERGED
+13631,Misc fixes,bep,2025-04-20T16:58:29Z,2025-04-21T13:17:20+00:00,1,20.31,True,118,43,11,12,0,1,1,MERGED
+13622,parser/metadecoders: Add CSV toMap option to transform.Unmarshal,jmooring,2025-04-17T21:24:18Z,2025-04-21T17:33:20+00:00,3,92.15,True,166,9,2,401,1,2,3,MERGED
+13566,tpl: Add templates.Current,bep,2025-04-08T17:04:10Z,2025-04-09T18:15:40+00:00,1,25.19,True,324,125,13,713,12,2,14,MERGED
+13552,commands/new: Improve theme creation,jmooring,2025-04-01T17:05:02Z,2025-04-08T14:35:46+00:00,1,165.51,True,123,136,22,553,0,2,2,MERGED
+13541,Reimplement and simplify Hugo's template system,bep,2025-03-30T17:34:39Z,2025-04-06T19:43:21+00:00,1,170.15,True,5339,4393,138,4073,24,1,25,MERGED
+13404,Add autoID for definition terms,bep,2025-02-16T11:03:09Z,2025-02-16T19:55:27+00:00,1,8.87,True,261,46,9,12,5,3,8,MERGED
+13402,Add slugorcontentbasename and contentbasename,bep,2025-02-15T09:41:09Z,2025-02-17T08:41:49+00:00,1,47.01,True,169,52,5,339,4,0,4,MERGED
+13382,feat: add :contentbasename permalink token,hacdias,2025-02-12T12:42:35Z,2025-02-15T09:41:35+00:00,1,68.98,False,144,47,5,84,2,1,3,CLOSED
+13353,Add ContentTypes to config,bep,2025-02-07T10:39:15Z,2025-02-08T09:31:16+00:00,1,22.87,True,182,52,12,243,3,0,3,MERGED
+13325,tpl/tplimpl: Remove leading whitespaces produced by Youtube shortcode,alex-shpak,2025-01-30T23:57:08Z,2025-01-31T08:29:10+00:00,1,8.53,True,5,5,2,236,5,0,5,MERGED
+13288,Do not warn on potentially unsafe HTML comments when unsafe=false,bep,2025-01-21T09:50:15Z,2025-01-22T08:44:26+00:00,1,22.9,True,101,7,2,187,2,0,2,MERGED
+13281,tpl/tplimpl: Fix context in shortcode error messages,jmooring,2025-01-19T19:52:31Z,2025-01-20T15:17:55+00:00,1,19.42,True,347,243,9,387,0,1,1,MERGED
+13266,tpl/tplimpl: Deprecate twitter shortcode in favor of x shortcode,jmooring,2025-01-15T22:08:32Z,2025-01-16T09:33:34+00:00,3,11.42,True,317,14,12,13,0,2,2,MERGED
+13223,images.Text: Add option for horizontal alignment,jlskuz,2025-01-06T20:38:05Z,2025-01-08T16:23:46+00:00,2,43.76,True,57,13,3,475,4,4,8,MERGED
+13217,resources: Replace error handling in GetRemote with try (note),bep,2025-01-05T15:44:17Z,2025-01-06T11:22:17+00:00,1,19.63,True,108,223,16,532,0,1,1,MERGED
+13212,tpl/images: Add images.QR function,jmooring,2025-01-02T19:24:58Z,2025-01-06T11:05:59+00:00,15,87.68,True,495,28,10,308,2,10,12,MERGED
+13174,Update SECURITY.md,sweeetz251,2024-12-20T05:43:20Z,2024-12-20T07:12:10+00:00,1,1.48,False,23,0,1,0,1,0,1,CLOSED
+13140,tpl/collections: Allow querify to accept a map argument,jmooring,2024-12-13T06:25:08Z,2024-12-13T12:30:55+00:00,1,6.1,True,246,104,4,13,1,2,3,MERGED
+13100,tpl/tplimpl: Add details shortcode,racehd,2024-12-01T15:31:41Z,2024-12-13T08:24:20+00:00,4,280.88,True,218,0,4,272,10,9,19,MERGED
+13053,Fix extra newline/paragraphs issue with .RenderShortcodes,bep,2024-11-16T11:37:15Z,2024-11-16T16:51:11+00:00,1,5.23,True,88,7,3,12,3,0,3,MERGED
+12938,Add support for backslash escaping in url and permalinks,n1xx1,2024-10-14T11:07:43Z,2024-10-15T08:28:01+00:00,2,21.34,True,41,8,2,259,0,1,1,MERGED
+12931,commands: Use consistent style when describing subcommands,Hasaber8,2024-10-14T02:47:42Z,2024-10-15T06:51:54+00:00,7,28.07,True,27,26,16,97,16,4,20,MERGED
+12927,fixed #12926 uglyurls parse to map[string]bool,akkuman,2024-10-12T07:55:13Z,2024-10-14T08:03:44+00:00,2,48.14,True,17,0,2,10,1,1,2,MERGED
+12901,tpl/tplimpl: trim descriptions rather than just chomp,chalin,2024-10-02T17:27:38Z,2024-10-12T20:41:42+00:00,1,243.23,True,6,6,3,401,1,0,1,MERGED
+12888,ci: build multi-platform image with cross-compilation,dvdksn,2024-09-29T17:33:42Z,2024-10-09T08:47:49+00:00,2,231.24,False,29,84,2,652,8,1,9,CLOSED
+12881,tailwindcss: Write to a temp file as a workaround for upstream bug,bep,2024-09-26T07:46:01Z,2024-09-26T12:38:44+00:00,1,4.88,False,25,10,3,85,1,1,2,CLOSED
+12870,tpl/compare: Use any data type for compare.Conditional condition,jmooring,2024-09-20T20:17:00Z,2024-09-22T14:53:11+00:00,1,42.6,True,30,8,2,14,1,0,1,MERGED
+12734,github: Build and publish Docker image on release,bep,2024-08-09T07:13:55Z,2024-08-09T14:26:22+00:00,3,7.21,True,120,0,1,12,6,5,11,MERGED
+12703,Allow nested params when using Pages.GroupByParam and Pages.GroupByParamDate,n1xx1,2024-08-01T11:16:33Z,2024-08-02T08:03:20+00:00,6,20.78,True,153,140,2,366,1,2,3,MERGED
+12695,resources/page: Expand parmalinks tokens in `url`,n1xx1,2024-07-31T17:45:58Z,2024-08-01T10:14:30+00:00,9,16.48,True,101,21,7,225,2,3,5,MERGED
+12660,math: Add Trig and Inv-Trig math functions,raoulb,2024-07-16T15:52:45Z,2024-07-31T22:28:16+00:00,1,366.59,False,781,54,12,245,17,51,68,CLOSED
+12642,Expose commit body,PeskyPotato,2024-07-05T17:31:28Z,2024-07-06T14:28:11+00:00,2,20.95,True,15,3,4,527,2,1,3,MERGED
+12641,Add js.Batch,bep,2024-07-05T14:16:57Z,2024-12-12T20:43:17+00:00,1,3846.44,True,4495,978,61,53,0,0,0,MERGED
+12633,"Fix it so publishDate rolls up to section, taxonomy, or term pages",bep,2024-07-01T14:20:26Z,2024-07-01T19:48:12+00:00,1,5.46,True,90,3,3,12,1,0,1,MERGED
+12631,create/skeletons: Fix languageCode region subtag,CyrusYip,2024-06-29T15:18:10Z,2024-07-02T06:43:20+00:00,1,63.42,True,1,1,1,34,3,0,3,MERGED
+12576,Add option to not generate aliases for first page of pagination pages,bep,2024-06-07T16:27:56Z,2024-06-08T13:42:01+00:00,1,21.23,True,135,14,9,74,1,0,1,MERGED
+12522,Create generator-generic-ossf-slsa3-publish.yml,Devante7,2024-05-20T10:00:55Z,2024-05-20T12:53:26+00:00,1,2.88,False,66,0,1,0,2,0,2,CLOSED
+12505,[editorial] google_analytics.html: trim trailing whitespace from tpl actions,chalin,2024-05-16T14:34:53Z,2024-08-29T19:32:46+00:00,1,2524.96,True,7,7,1,99,5,0,5,MERGED
+12463,build(deps): bump golang.org/x/image from 0.15.0 to 0.16.0,dependabot,2024-05-06T08:10:44Z,2024-05-10T20:33:33+00:00,1,108.38,True,6,6,2,1622,1,0,1,MERGED
+12460,Make the cache eviction logic for stale entities more robust,bep,2024-05-04T13:59:42Z,2024-05-05T08:34:54+00:00,2,18.59,False,157,55,12,12,2,0,2,CLOSED
+12459,markup/goldmark: Support extras extension,jmooring,2024-05-04T01:10:02Z,2024-05-10T20:32:02+00:00,3,163.37,True,113,1,6,384,4,1,5,MERGED
+12446,cache/dynacache: Don't mark all evicted items as stale,bep,2024-04-29T20:09:41Z,2025-07-17T02:16:26+00:00,1,10638.11,False,11,9,1,174,1,0,1,CLOSED
+12444,Enable cross-site translations,jmooring,2024-04-28T15:44:18Z,2024-05-02T16:14:59+00:00,4,96.51,False,63,0,3,410,2,3,5,CLOSED
+12425,tpl/tplimpl: Fix double-escaping in opengraph template,jmooring,2024-04-24T15:52:05Z,2024-04-25T08:03:17+00:00,6,16.19,True,111,3,2,173,6,2,8,MERGED
+12411,tpl: Escape .Title in built-in image and link render hooks,bep,2024-04-22T09:33:37Z,2024-04-22T14:54:24+00:00,2,5.35,True,52,2,4,178,2,2,4,MERGED
+12385,tpl: Use erroridf for remote YouTube errors,bep,2024-04-17T12:26:29Z,2024-04-18T08:02:37+00:00,1,19.6,True,3,2,1,37,1,0,1,MERGED
+12364,Pass .RenderShortcodes' Page to render hooks as .PageInner,bep,2024-04-12T08:18:47Z,2024-04-15T07:49:57+00:00,1,71.52,True,443,28,18,663,20,0,20,MERGED
+12363,resources/page: Add taxonomies Page method,jmooring,2024-04-11T19:57:31Z,2024-04-12T14:26:02+00:00,2,18.48,True,34,0,2,13,1,1,2,MERGED
+12353,"completion: Improve existing argument completions, add many more",scop,2024-04-07T21:41:09Z,2024-04-11T13:34:27+00:00,2,87.89,True,91,19,12,508,1,1,2,MERGED
+12332,tpl/strings: Create strings.Diff template function,jmooring,2024-04-02T12:45:28Z,2024-04-02T16:25:44+00:00,2,3.67,True,34,2,2,13,1,1,2,MERGED
+12328,tpl/tplimpl: Improve embedded opengraph template,jmooring,2024-04-01T18:13:00Z,2024-04-02T16:35:43+00:00,3,22.38,True,63,35,1,276,1,1,2,MERGED
+12311,resources: Use different cache key when copying resources,jmooring,2024-03-25T21:20:01Z,2024-03-27T08:59:59+00:00,2,35.67,True,49,2,2,27,2,1,3,MERGED
+12301,all: fix duplicate duplicate words,grimreaper,2024-03-23T23:08:04Z,2024-04-11T07:31:33+00:00,1,440.39,True,5,5,5,85,3,0,3,MERGED
+12299,tpl/tplimpl: Update Google Analytics template and config,jmooring,2024-03-23T20:28:30Z,2024-03-26T14:40:51+00:00,1,66.21,True,67,132,8,345,4,0,4,MERGED
+12282,tpl/tplimpl: Allow content exclusion in sitemap.xml,kolappannathan,2024-03-19T18:04:53Z,2024-04-01T22:39:55+00:00,2,316.58,False,1,1,1,11,9,1,10,CLOSED
+12217,build(deps): bump google.golang.org/api from 0.152.0 to 0.169.0,dependabot,2024-03-08T08:56:36Z,2024-03-13T17:21:37+00:00,2,128.42,False,65,39,2,5116,2,0,2,CLOSED
+12205,fix some typos,thirdkeyword,2024-03-06T09:46:33Z,2024-11-28T10:20:02+00:00,1,6408.56,True,5,5,5,0,5,0,5,MERGED
+12204,tpl/tplimpl: Honor markdown attributes in embedded image render hook,jmooring,2024-03-06T00:16:51Z,2024-03-07T07:21:58+00:00,1,31.09,True,31,1,2,12,1,0,1,MERGED
+12179,Add hugo.IsMultiHost,razonyang,2024-02-29T16:08:34Z,2024-03-07T13:04:41+00:00,1,164.94,True,29,0,4,341,1,1,2,MERGED
+12149,resource: Revert the normalization of Resource.Name,bep,2024-02-25T09:47:43Z,2024-02-25T13:57:29+00:00,1,4.16,True,42,49,10,79,1,0,1,MERGED
+12125,hugolib: Fix a .Page.GetPage from bundle case,bep,2024-02-23T09:18:22Z,2024-02-23T13:40:30+00:00,1,4.37,True,29,7,2,12,1,0,1,MERGED
+12106,docs: Fix hyphens and grammar in synopsis of command 'hugo server',deining,2024-02-21T19:20:51Z,2024-03-07T13:03:49+00:00,2,353.72,True,6,6,2,63,2,0,2,MERGED
+12034,Fix typos,coliff,2024-02-13T11:21:38Z,2024-02-18T11:16:30+00:00,3,119.91,True,26,26,18,18,3,3,6,MERGED
+12025,Fix taxonomy term with backing file regression,bep,2024-02-10T08:52:28Z,2024-02-10T16:48:53+00:00,1,7.94,True,47,1,3,12,1,0,1,MERGED
+12023,markup/goldmark: Improve TOC tests,jmooring,2024-02-09T21:36:36Z,2024-02-10T14:03:38+00:00,2,16.45,True,266,140,3,99,1,2,3,MERGED
+12021,Fix rebuild with resources.Concat,bep,2024-02-09T12:07:05Z,2024-02-16T12:17:53+00:00,1,168.18,True,229,120,18,12,8,0,8,MERGED
+12016,Add images.Dither filter,jmooring,2024-02-08T19:36:07Z,2024-02-11T20:51:11+00:00,8,73.25,True,668,0,6,744,6,6,12,MERGED
+12015,Move the duplicate page/resource filter,bep,2024-02-08T11:03:43Z,2024-02-08T19:11:17+00:00,1,8.13,True,67,28,3,303,1,0,1,MERGED
+12004,GitHub workflows: bump actions to latest versions,deining,2024-02-06T18:32:08Z,2024-02-07T09:23:48+00:00,1,14.86,False,12,12,3,117,3,0,3,CLOSED
+11997,Fix typos,coliff,2024-02-06T08:21:10Z,2024-02-11T11:51:33+00:00,1,123.51,True,15,15,11,0,1,4,5,MERGED
+11945,Create default link and image render hooks,bep,2024-01-30T14:49:38Z,2024-01-30T19:12:19+00:00,1,4.38,True,229,42,15,12,6,0,6,MERGED
+11940,Misc fixes and improvements,bep,2024-01-29T20:44:54Z,2024-01-30T19:12:03+00:00,1,22.45,True,840,460,33,2748,11,0,11,MERGED
+11880,deps: Update github.com/tdewolff/minify/v2 v2.20.9 => v2.20.13,jtatum,2024-01-11T21:31:27Z,2024-01-25T18:33:15+00:00,2,333.03,True,90,20,6,324,10,0,10,MERGED
+11866,markup/goldmark: Support passthrough extension,j2kun,2024-01-06T17:27:25Z,2024-01-26T07:11:35+00:00,6,469.74,True,161,0,5,166,18,5,23,MERGED
+11819,resources/images: Create AutoOrient image filter,jmooring,2023-12-19T07:18:19Z,2023-12-20T13:18:24+00:00,5,30.0,True,509,6,6,13,2,3,5,MERGED
+11784,markup/goldmark: Render strikethrough and emojis in TOC entries,lyind,2023-12-05T23:56:36Z,2024-03-07T13:08:29+00:00,1,2221.2,True,26,12,3,235,9,0,9,MERGED
+11741,parser/metadecoders: Accumulate org keywords into arrays,augustfengd,2023-11-26T05:44:50Z,2024-01-25T18:34:13+00:00,2,1452.82,True,4,4,3,387,8,1,9,MERGED
+11706,resources/resource: Fix GroupByParamDate with raw TOML dates,jmooring,2023-11-13T23:09:55Z,2023-11-22T11:09:48+00:00,4,204.0,True,70,3,2,13,1,2,3,MERGED
+11688,"tpl: allow using page resources on the images page parameter for `opengraph`, `schema` and `twitter_cards` templates",razonyang,2023-11-09T04:17:47Z,2023-12-04T11:05:41+00:00,1,606.8,True,75,51,6,276,8,4,12,MERGED
+11636,tpl: Fix incorrect lastBuildDate,tastapod,2023-10-30T17:00:47Z,2024-01-25T18:46:52+00:00,3,2089.77,True,1,1,1,120,1,1,2,MERGED
+11622,markup/goldmark: update the CJK extension to allow specifying line break styles,henry0312,2023-10-29T05:55:03Z,2023-10-29T09:13:57+00:00,1,3.31,True,69,7,5,37,1,1,2,MERGED
+11621,resources/images: Create padding image filter,jmooring,2023-10-28T17:24:03Z,2023-10-29T09:16:37+00:00,5,15.88,True,146,4,4,56,2,4,6,MERGED
+11609,Revise the deprecation logging,bep,2023-10-26T08:44:43Z,2023-10-26T18:41:19+00:00,1,9.94,True,93,68,12,377,2,2,4,MERGED
+11604,all: gofmt -w -r 'interface{} -> any' .,alexandear,2023-10-25T20:16:18Z,2024-01-13T20:24:30+00:00,1,1920.14,False,68,68,30,132,2,0,2,CLOSED
+11593,markdown: Pass emoji codes to yuin/goldmark-emoji ,jmooring,2023-10-22T16:27:19Z,2023-10-24T10:04:13+00:00,1,41.62,True,151,312,16,24,5,1,6,MERGED
+11578,livereloadinject: Use more robust injection method,DominoPivot,2023-10-18T21:27:38Z,2023-10-29T17:37:05+00:00,4,260.16,True,86,65,2,1381,2,2,4,MERGED
+11492,all: Fix typos,vladh,2023-09-24T15:02:04Z,2024-02-05T15:01:00+00:00,1,3215.98,False,2,2,2,0,7,0,7,CLOSED
+11442,Print language code after web server address info,ilmari-lauhakangas,2023-09-10T17:11:46Z,2023-09-11T09:38:24+00:00,1,16.44,True,2,2,1,109,3,2,5,MERGED
+11419,"all: Fix typos in variable names, tests, and comments",alexandear,2023-08-31T14:17:50Z,2024-01-13T20:24:10+00:00,2,3246.11,False,53,53,23,35,1,0,1,CLOSED
+11385,Go 1.21 Upgrade,bep,2023-08-23T16:58:49Z,2023-08-23T19:49:27+00:00,2,2.84,True,438,108,26,12,1,1,2,MERGED
+11381,create/skeletons: Move theme's site config to top level,jmooring,2023-08-23T14:15:19Z,2023-08-23T16:05:01+00:00,3,1.83,True,24,20,4,13,1,1,2,MERGED
+11367,commands/new: Embed site and theme skeletons,jmooring,2023-08-18T03:05:58Z,2023-08-21T08:38:23+00:00,1,77.54,True,465,203,41,85,4,3,7,MERGED
+11320,Add Page.RenderShortcodes,bep,2023-08-01T16:45:57Z,2023-08-03T18:00:57+00:00,1,49.25,True,434,89,14,248,16,0,16,MERGED
+11306,Fix so temporary images do not get published,bep,2023-07-30T10:03:12Z,2023-07-30T16:52:34+00:00,1,6.82,True,83,49,4,12,1,0,1,MERGED
+11281,tpl/collections: Add like operator to where function,jmooring,2023-07-23T19:55:24Z,2023-07-28T07:53:01+00:00,5,107.96,True,47,0,2,260,1,1,2,MERGED
+11245,Misc fixes,bep,2023-07-13T13:16:50Z,2023-07-13T16:06:37+00:00,1,2.83,True,35,2,5,12,1,0,1,MERGED
+11220,fix: dotpath for Hugo modules mounted as data,dvdksn,2023-07-07T15:39:22Z,2023-07-15T09:13:08+00:00,2,185.56,True,34,3,2,653,1,1,2,MERGED
+11185,Misc permalinks adjustments,bep,2023-06-28T14:09:47Z,2023-06-29T08:14:20+00:00,14,18.08,True,336,89,11,34,1,3,4,MERGED
+11178,commands: Fix panic when running hugo new theme without theme name,deining,2023-06-27T14:37:30Z,2023-06-28T14:20:54+00:00,2,23.72,True,5,2,1,22,1,1,2,MERGED
+11170,Print help message when command is triggered with no flags,roshanavand,2023-06-26T18:28:49Z,2023-06-28T12:58:36+00:00,1,42.5,True,7,0,5,253,4,1,5,MERGED
+11143,commands: Update Jekyll post-import output,brianknight10,2023-06-21T14:10:54Z,2023-06-21T18:38:55+00:00,3,4.47,True,6,3,1,220,1,1,2,MERGED
+11114,Fix upstream Go templates bug with reversed key/value assignment,bep,2023-06-15T14:41:33Z,2023-06-15T21:04:34+00:00,7,6.38,True,276,143,24,547,1,1,2,MERGED
+11104,Misc Append fixes,bep,2023-06-14T07:52:07Z,2023-06-14T18:18:54+00:00,3,10.45,True,120,4,3,139,2,1,3,MERGED
+11093,tpl/collections: Fix append when appending a slice to a slice of slices,bep,2023-06-13T08:46:43Z,2023-06-14T07:00:55+00:00,1,22.24,False,67,2,4,12,3,0,3,CLOSED
+11091,"tpl/math: Allow variadic math functions to take slice args, add math.Product, math.Sum",bep,2023-06-13T07:17:06Z,2023-06-13T18:00:01+00:00,1,10.72,True,141,43,2,295,5,0,5,MERGED
+11088,"commands: Remove flags log, verboseLog, add flag logLevel, deprecate flags verbose and debug",bep,2023-06-12T14:03:43Z,2023-06-13T15:49:38+00:00,1,25.77,True,25,35,1,24,2,0,2,MERGED
+11076,openapi: Add support for external refs,TheSpeedyFrog,2023-06-08T15:57:19Z,2025-03-25T02:07:34+00:00,4,15730.17,False,35,13,2,76,2,3,5,CLOSED
+11032,tpl/tplimpl: Use .Language.LanguageCode in built-in templates,jmooring,2023-05-27T22:24:37Z,2023-05-30T18:10:17+00:00,3,67.76,True,5,5,3,82,1,1,2,MERGED
+11003,all: Replace deprecated ioutil with io and os,alexandear,2023-05-23T14:58:29Z,2023-06-01T15:52:21+00:00,1,216.9,True,4,6,3,42,1,0,1,MERGED
+11001,markup: Fix typo in function and struct names,alexandear,2023-05-23T13:32:48Z,2023-06-01T15:59:46+00:00,1,218.45,True,22,22,4,40,1,0,1,MERGED
+10999,"commands,config: Fix typo in log and error messages",alexandear,2023-05-23T09:38:42Z,2023-06-12T14:45:21+00:00,1,485.11,True,2,2,2,35,1,0,1,MERGED
+10988,"all: Fix typos in function names, tests and comments",alexandear,2023-05-22T17:13:26Z,2023-06-19T07:26:29+00:00,1,662.22,True,41,41,27,98,1,0,1,MERGED
+10976,langs/i18n: Fixed typo,axelflodmark,2023-05-22T02:07:54Z,2023-10-08T20:34:03+00:00,1,3354.44,False,1,1,1,0,2,1,3,CLOSED
+10973,Allow whitelisting mediaTypes used in resources.GetRemote,bep,2023-05-20T15:45:40Z,2023-05-20T18:16:45+00:00,1,2.52,True,41,7,5,12,2,0,2,MERGED
+10968,Fixing typos,deining,2023-05-19T20:46:50Z,2023-06-19T07:28:11+00:00,2,730.69,True,4,4,4,36,1,0,1,MERGED
+10967,tpl/urls: Return empty string when JoinPath has zero args,jmooring,2023-05-19T15:30:57Z,2023-05-20T09:14:18+00:00,1,17.72,True,9,5,2,0,1,1,2,MERGED
+10952,add automaxprocs to default GOMAXPROCS to be CPU limit aware,BenTheElder,2023-05-17T19:40:30Z,2023-05-18T17:32:49+00:00,3,21.87,True,7,0,3,219,2,1,3,MERGED
+10945,tpl: Add math.Abs,alexandear,2023-05-15T09:30:15Z,2023-05-16T16:32:07+00:00,2,31.03,True,46,1,4,13,2,1,3,MERGED
+10927,tpl/tplimpl: Add img loading attribute to figure shortcode ,InLaw,2023-05-04T08:40:50Z,2023-05-21T19:28:45+00:00,1,418.8,True,4,0,2,56,3,0,3,MERGED
+10920,Add mastodon shortcode,andriisoldatenko,2023-04-28T14:11:59Z,2024-04-03T00:50:51+00:00,4,8170.65,False,69,0,6,453,7,3,10,CLOSED
+10913,fix some comments,cuishuang,2023-04-25T08:07:59Z,2023-05-19T06:40:08+00:00,1,574.54,True,6,6,5,0,1,0,1,MERGED
+10865,postCSS: improve validation of option 'config',deining,2023-03-25T20:38:34Z,2023-05-22T16:14:10+00:00,3,1387.59,True,16,8,3,1178,1,1,2,MERGED
+10847,resources/page: Allow section&taxonomy pages to have a permalink configuration,Mai-Lapyst,2023-03-17T23:56:51Z,2023-06-26T13:31:01+00:00,1,2413.57,True,133,36,9,584,9,5,14,MERGED
+10828,fix: math (must provide at least two values),septs,2023-03-12T17:40:39Z,2023-03-14T08:28:39+00:00,1,38.8,True,25,0,2,14,1,1,2,MERGED
+10823,feat: parse rss/atom feeds from xml,nikaro,2023-03-12T10:13:05Z,2023-06-12T10:51:30+00:00,1,2208.64,False,138,20,4,491,4,1,5,CLOSED
+10818,"feat: builtin rfc{1123,3339} date format",septs,2023-03-11T13:54:17Z,2023-03-25T07:45:16+00:00,4,329.85,False,20,13,6,108,2,2,4,CLOSED

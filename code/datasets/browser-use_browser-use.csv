@@ -1,598 +1,151 @@
-number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen
-40,ResultOnlyMode: Added logLevel.RESULT & env to filter the output,BedroomDev,2024-11-21T11:06:55Z,2024-11-22T16:20:44+00:00,1,29.23
-41,PromptVariables: Added custom defined variables to prompts for form input values,BedroomDev,2024-11-21T14:26:05Z,2024-11-22T20:41:30+00:00,1,30.26
-126,Added Gradio GUI,Saksham1387,2024-12-26T10:12:21Z,2025-01-10T16:00:53+00:00,1,365.81
-152,Added support for Browserbase to browser-use,warfaj,2025-01-03T22:00:46Z,2025-03-25T23:00:11+00:00,1,1944.99
-167,Create Online_coding_agent.py,D-Yuva,2025-01-06T15:11:25Z,2025-01-10T16:39:45+00:00,1,97.47
-185,Improve history .gif rendering,Cfomodz,2025-01-08T01:33:53Z,2025-08-27T22:22:16+00:00,2,5564.81
-190,Add Extract Element HTML action,franperezlopez,2025-01-08T08:55:47Z,2025-01-20T00:07:31+00:00,2,279.2
-253,feat: moved tests,VinciGit00,2025-01-13T14:53:15Z,2025-01-14T21:12:21+00:00,1,30.32
-267,Issue 213: Add planning manager and intermediate step for task description enhancement,yashrathi-git,2025-01-14T16:33:27Z,2025-04-16T23:25:53+00:00,3,2214.87
-339,update rules to include elements covered by overlay elements,QichangZheng,2025-01-21T19:18:06Z,2025-09-06T12:36:23+00:00,1,5465.3
-422,deepseek-r1 compatibility,adsharma,2025-01-26T19:00:10Z,2025-01-30T06:15:41+00:00,2,83.26
-471,Solving the installation issue #441,VisionOra,2025-01-29T18:23:44Z,2025-01-30T05:51:48+00:00,1,11.47
-472,Feature/add groq support,MagMueller,2025-01-29T20:01:24Z,2025-09-03T18:17:57+00:00,1,5206.28
-492,Update README.md with minimum Python version 3.11,mladen1nf,2025-01-31T13:00:54Z,2025-02-12T16:59:35+00:00,1,291.98
-515,"Add ""wait_for_element"" capability.",jersobh,2025-02-02T01:23:31Z,2025-03-28T00:47:49+00:00,1,1295.4
-524,Add google spreadsheet support,jersobh,2025-02-02T18:13:37Z,2025-03-26T01:30:18+00:00,2,1231.28
-535,Add setup guide for local development,IgorGanapolsky,2025-02-03T18:21:11Z,2025-03-26T00:50:39+00:00,3,1206.49
-594,Fix documentation: Correct default value of planner_interval from 4 to 1,pppp606,2025-02-07T06:39:29Z,2025-02-12T04:09:40+00:00,1,117.5
-606,Enhancement: Improve browser setup with error handling and retry logic,k-w-lee,2025-02-07T13:38:12Z,2025-03-26T01:45:32+00:00,2,1116.12
-633,"#544 issue resolved , used chrometabs api",SwapnilSonker,2025-02-08T17:21:20Z,2025-03-25T23:36:52+00:00,9,1086.26
-656,Fix Ollama parsing error,FindBoat,2025-02-10T22:08:34Z,2025-09-06T12:42:37+00:00,2,4982.57
-712,Cleanup Code,maticzav,2025-02-13T13:45:53Z,2025-02-18T22:12:13+00:00,1,128.44
-716,Feat: Add support for secondary PostHog telemetry configuration,PaulLockett,2025-02-13T22:51:00Z,2025-09-06T12:43:29+00:00,1,4909.87
-718,Feat: enable multi-browser support,alimasri,2025-02-14T00:23:34Z,2025-03-25T20:11:09+00:00,5,955.79
-736,Fallback when LLM doesn't produce expected tool call format,YonderUrik,2025-02-15T19:15:30Z,2025-03-26T23:54:40+00:00,1,940.65
-739,Update Documentation:  Clarify the Distinction Between browser-use’s Browser and Playwright’s Browser,pppp606,2025-02-16T15:35:59Z,2025-03-26T01:21:38+00:00,1,897.76
-740,Fixed the screenshot flickering issue,PaperBoardOfficial,2025-02-16T18:24:14Z,2025-03-25T23:59:21+00:00,8,893.59
-744,【bug fix】xpath caused error: strict mode conflict: locator,timeash,2025-02-17T08:37:26Z,2025-04-22T09:24:48+00:00,1,1536.79
-777,Speed improvement3,MagMueller,2025-02-20T00:59:47Z,2025-02-21T02:36:43+00:00,1,25.62
-801,Added extension support in playwright built in browser,PaperBoardOfficial,2025-02-21T13:32:57Z,2025-05-21T08:34:48+00:00,4,2131.03
-805,use camoufox for bot evasion,iloveitaly,2025-02-21T18:54:52Z,2025-04-16T22:36:53+00:00,4,1299.7
-834,fix(agent): Add max steps error to agent history #439,Shyanil,2025-02-23T17:05:12Z,2025-04-21T16:58:57+00:00,2,1367.9
-857,Add anti bot detection via patchright,neo773,2025-02-24T22:57:12Z,2025-04-21T16:56:27+00:00,6,1337.99
-869,Cache computed xpaths from buildDOMTree.js,SwapnilSonker,2025-02-25T19:45:55Z,2025-09-06T12:43:31+00:00,3,4624.96
-886,add html download action in the registry,ai-naymul,2025-02-27T08:09:11Z,2025-03-23T03:41:42+00:00,1,571.54
-891,pre-commit run pre-commit-hooks --all-files,cclauss,2025-02-27T11:18:03Z,2025-03-28T23:24:09+00:00,1,708.1
-893,Add http_credentials to browser context.,b0rgcube,2025-02-27T13:30:29Z,2025-03-31T18:37:26+00:00,1,773.12
-895,fix: close httpx connections to avoid memory leaks,adamdelezuch89,2025-02-27T13:47:32Z,2025-03-23T01:51:33+00:00,1,564.07
-897,Add n8n integration documentation for Browser Use,hoangnb24,2025-02-27T16:55:54Z,2025-03-26T01:12:11+00:00,1,632.27
-920,Fix: Corrected typo in telemetry logging,SpaceGlit,2025-03-03T02:55:05Z,2025-03-27T19:36:22+00:00,1,592.69
-927,Fix interactive element handling in isTopElement function,ramanidan,2025-03-03T13:23:54Z,2025-09-06T12:43:32+00:00,1,4487.33
-932,Fix: Unable to Retrieve Interactive Elements Bound with addEventListener,Jonathanqjs,2025-03-04T02:31:59Z,2025-03-28T18:40:52+00:00,1,592.15
-933,Enhance dropdown,SmartManoj,2025-03-04T04:50:35Z,2025-03-26T01:01:37+00:00,1,524.18
-936,Xcaliber,ashutoshjha-caliber,2025-03-04T10:03:08Z,2025-03-29T06:39:28+00:00,1,596.61
-945,[bug][multi_act] Detect index change caused by page change in multi_act,AlinJiang,2025-03-05T08:43:04Z,2025-04-04T22:29:23+00:00,1,733.77
-946,[bug][DOM] Detect <label> as interactive elements,AlinJiang,2025-03-05T08:55:35Z,2025-09-06T12:49:06+00:00,1,4443.89
-956,"Enabled downloads over CDP session, tested in browserbase.com.",manojsundayai,2025-03-06T10:10:09Z,2025-04-22T09:31:36+00:00,2,1127.36
-967,HAR file recording,jlogtenberg,2025-03-07T12:21:02Z,2025-03-26T01:22:32+00:00,1,445.02
-969,adding MFA flow,Cfomodz,2025-03-08T03:53:04Z,2025-03-30T23:24:56+00:00,1,547.53
-973,Add logging of total tokens used to facilitate cost calculation,pppp606,2025-03-08T11:22:29Z,2025-04-16T22:56:30+00:00,2,947.57
-978,Fix: typo,louiskhub,2025-03-09T14:02:17Z,2025-04-16T22:22:59+00:00,1,920.35
-981,Make the context in `extract_content` action smaller,mkuts12,2025-03-09T16:57:52Z,2025-03-28T00:41:16+00:00,1,439.72
-998,Bugfix: error when trying to create empty dir.,cheewba,2025-03-11T09:31:01Z,2025-03-25T19:52:56+00:00,4,346.37
-1000,fix: swaped the langchain bedrock function,nicolasdickenmann,2025-03-11T12:27:34Z,2025-03-23T14:39:41+00:00,1,290.2
-1003,Fix: typo,Magiccwl,2025-03-12T05:32:38Z,2025-03-25T22:47:13+00:00,2,329.24
-1015, fix: empty interacted element in history when interacted index is 0,NvRom,2025-03-13T03:51:39Z,2025-03-23T01:54:19+00:00,3,238.04
-1016,chore: fix some comments,teslaedison,2025-03-13T06:42:38Z,2025-03-26T00:41:58+00:00,3,305.99
-1018,Added full_page_screenshots attribute to BrowserContextConfig,aganoob,2025-03-13T13:56:05Z,2025-09-06T12:49:06+00:00,1,4246.88
-1028,Adding pre and post step hooks to allow developers to extend Agent.step() with custom behavior,carlosplanchon,2025-03-15T01:14:38Z,2025-03-28T00:33:03+00:00,1,311.31
-1030,Update context.py to use no_viewport setting from BrowserConfigSettings,eugenekoblov,2025-03-15T02:48:17Z,2025-03-26T00:53:41+00:00,3,262.09
-1031,Efficient Detection of Interactive Elements using computed cursor style,Rahul-Sharma-1729,2025-03-15T07:50:44Z,2025-03-25T19:50:09+00:00,1,251.99
-1035,Devops - Removed hatch,pabshazon,2025-03-16T00:04:35Z,2025-03-26T01:08:42+00:00,1,241.07
-1043,Fixed missing text input detection in DOM parsing,KalharPandya,2025-03-17T03:10:37Z,2025-03-23T01:53:44+00:00,3,142.72
-1045,Fix: Add sameSite cookie validation and auto-correction,dipfocus,2025-03-17T09:34:33Z,2025-04-04T23:26:55+00:00,1,445.87
-1047,Locating elements by xpath or css selector and hover element example,jersobh,2025-03-17T11:28:33Z,2025-03-26T00:58:09+00:00,1,205.49
-1053,Fix #1020 :  Remove hardcoded model name check and replace with configurable param,sivaramaaa,2025-03-18T01:43:41Z,2025-05-27T01:51:48+00:00,1,1680.14
-1059,log meaningful error message if llm doesnt give response,baluvijay,2025-03-18T15:46:49Z,2025-03-28T05:04:52+00:00,2,229.3
-1060,Feature - Add custom captcha solver,Simaky,2025-03-18T16:51:20Z,2025-03-26T18:51:05+00:00,2,194.0
-1078,Adds support for span and pre to be clickable,vmesel,2025-03-19T19:24:29Z,2025-03-23T01:58:09+00:00,1,78.56
-1095,Feature to save webpage as PDF to given path,ml5ah,2025-03-21T07:33:37Z,2025-03-23T02:10:48+00:00,8,42.62
-1105,chore: minor refactor,DarkPhoenix2704,2025-03-22T18:00:33Z,2025-03-23T14:12:48+00:00,3,20.2
-1108,Simplify browser setup,SmartManoj,2025-03-23T02:19:36Z,2025-03-23T14:04:38+00:00,1,11.75
-1112,Add specific Playwright installation commands,SmartManoj,2025-03-23T06:13:40Z,2025-03-23T13:50:02+00:00,1,7.61
-1117,add the html download feature,ai-naymul,2025-03-23T20:18:52Z,2025-03-29T09:42:47+00:00,3,133.4
-1119,Fixed allowed_domains restriction feature,niranjandasMM,2025-03-24T02:55:03Z,2025-03-25T19:59:32+00:00,1,41.07
-1127,"Clicking by xpath, css selector or text",jersobh,2025-03-24T12:36:50Z,2025-03-26T23:50:58+00:00,5,59.24
-1143,textarea and radio buttons proper handling,webdevxl,2025-03-26T00:08:03Z,2025-05-05T16:27:59+00:00,3,976.33
-1145,Added missing env variables in .env.example ,ml5ah,2025-03-26T05:18:43Z,2025-03-26T07:05:07+00:00,1,1.77
-1146,Improve error logging for LLM API calls and missing env variables,ml5ah,2025-03-26T05:53:56Z,2025-03-27T16:22:56+00:00,12,34.48
-1166,"Support for reasoning models o1, o1-mini, etc for planner LLM",ml5ah,2025-03-27T02:57:04Z,2025-03-29T01:22:41+00:00,2,46.43
-1173,Improve click by text handling,jersobh,2025-03-27T16:24:47Z,2025-03-28T02:43:43+00:00,1,10.32
-1189,feat: Update GitHub Actions workflow and documentation for branching …,achatap,2025-03-28T10:07:37Z,2025-03-29T09:25:44+00:00,15,23.3
-1192,Add windows support to ctrl+C handling,pirate,2025-03-28T18:17:23Z,2025-03-28T22:44:03+00:00,1,4.44
-1195,[ Interactive Elements ] Improve detection of interactive labels ( checkbox/radio ) ,Rahul-Sharma-1729,2025-03-28T21:48:57Z,2025-09-06T12:49:07+00:00,3,3879.0
-1208,added drag drop action,PaperBoardOfficial,2025-03-29T05:47:23Z,2025-04-01T02:47:31+00:00,2,69.0
-1211,pytest: uv run playwright install --with-deps,cclauss,2025-03-29T07:53:41Z,2025-04-01T16:16:31+00:00,1,80.38
-1216,Fix typos discovered by codespell,cclauss,2025-03-29T16:45:32Z,2025-03-31T18:14:52+00:00,1,49.49
-1218,feat(browser): Add user_data_dir support for persistent browser sessions,bigboateng,2025-03-29T20:15:10Z,2025-05-21T07:57:24+00:00,12,1259.7
-1229,update example tool call,Alezander9,2025-03-30T20:46:18Z,2025-04-16T23:02:22+00:00,2,410.27
-1249,Create service.py,ProphetDiceBot,2025-04-01T03:49:03Z,2025-05-27T01:46:56+00:00,2,1341.96
-1257,Added support for gemma instruction-tuned models,KamilU01,2025-04-01T17:24:58Z,2025-04-29T16:40:19+00:00,4,671.26
-1265,Updating fork,andy0liang,2025-04-02T07:34:55Z,2025-04-04T22:06:41+00:00,1,62.53
-1269,Fix: resolve undefined response variable in Deepseek model raw tool calling,zsjie,2025-04-02T10:00:33Z,2025-04-02T17:37:13+00:00,1,7.61
-1281,Add extended system prompt capability for planner,mathisarends-viadee,2025-04-04T09:27:21Z,2025-04-21T18:18:09+00:00,7,416.85
-1293,Add timeout param to go_to_url,mattyhempstead,2025-04-05T06:16:12Z,2025-05-13T21:55:51+00:00,3,927.66
-1294,added episodic memory actions,PaperBoardOfficial,2025-04-05T15:20:38Z,2025-09-06T12:49:08+00:00,2,3693.47
-1302,add grok api key variable,dha-aa,2025-04-07T05:11:03Z,2025-04-16T21:53:34+00:00,3,232.71
-1303,fix: fix BrowserContext initialization in new_context method,lynnzc,2025-04-07T08:26:34Z,2025-04-16T04:40:18+00:00,1,212.23
-1306,feat: add new model provider usage example Novita AI,jasonhp,2025-04-07T10:09:44Z,2025-04-16T01:09:18+00:00,1,206.99
-1309,Follow XDG Base Directory Specification to store telemetry_user_id,louiskhub,2025-04-07T13:19:09Z,2025-04-22T09:30:37+00:00,1,356.19
-1310,Detect blocking synchronous commands in asyncio code,cclauss,2025-04-07T13:54:04Z,2025-04-21T22:10:57+00:00,10,344.28
-1323,Heavy improvements to extraction layer,gregpr07,2025-04-08T16:13:45Z,2025-04-14T09:58:28+00:00,2,137.75
-1332,feat: Add functionality to download and save images from URLs,biohacker0,2025-04-09T22:19:27Z,2025-09-06T12:50:20+00:00,3,3590.51
-1333,[Mem0] Fix issue related to memory not working with other llms expect OpenAI LLMs,deshraj,2025-04-10T01:53:28Z,2025-04-10T05:13:30+00:00,1,3.33
-1339,Ensure element handle is visible before trying to scroll into view,LarsenCundric,2025-04-10T09:21:40Z,2025-04-11T15:17:34+00:00,1,29.93
-1341,Add Hugging Face Inference Endpoint example.,jayeshthk,2025-04-10T12:13:35Z,2025-09-06T12:49:09+00:00,6,3576.59
-1347,Fix web_voyager_agent.py example,soeffing,2025-04-11T02:17:47Z,2025-04-16T23:05:57+00:00,3,140.8
-1348,Fix deepseek example: Replace ChatOpenAI with ChatDeepSeek,azhengzz,2025-04-11T10:09:19Z,2025-04-16T21:59:05+00:00,3,131.83
-1353,Some example files for the browser_use python sdk ,sksarvesh007,2025-04-11T12:57:41Z,2025-04-16T23:10:35+00:00,1,130.22
-1360,帮我做一个和这个网站一样的全新网站https://www.addog.vip,zhimianK,2025-04-13T10:41:19Z,2025-04-16T23:18:23+00:00,1,84.62
-1364,Fixed the project requirements - Added sentence-transformers in pyproject.toml,predator4hack,2025-04-14T03:51:29Z,2025-04-16T22:06:08+00:00,1,66.24
-1369,Fix: Ensure first element is correctly indexed in sibling list,shivamkhatri,2025-04-14T10:50:42Z,2025-04-22T09:03:57+00:00,1,190.22
-1371,Required for dolphin to work. In this location.,ProphetDiceBot,2025-04-14T22:51:20Z,2025-05-06T07:19:04+00:00,1,512.46
-1372,evals: more models for evals,Parth220,2025-04-14T22:54:02Z,2025-04-15T07:25:46+00:00,1,8.53
-1379,Fix: incorrect config type in BrowserContext instantiation,azhengzz,2025-04-15T06:42:23Z,2025-04-15T19:42:43+00:00,1,13.01
-1385,Add eval tool,Alezander9,2025-04-16T01:02:12Z,2025-04-16T21:04:25+00:00,2,20.04
-1388,Mem0: Embedder config for different LLMs,Dev-Khant,2025-04-16T03:34:55Z,2025-04-21T16:10:12+00:00,4,132.59
-1389,feat: new actions: hover and input number,unknown,2025-04-16T09:17:58Z,2025-08-01T11:58:15+00:00,5,2570.67
-1391,Add Novita AI example and documentation,jasonhp,2025-04-16T10:26:47Z,2025-04-16T21:56:57+00:00,3,11.5
-1393,Autoconfigure `use_vision=False` for models that dont support it,neonwatty,2025-04-16T14:48:59Z,2025-04-17T01:36:44+00:00,2,10.8
-1395,Add new evaluation script,Alezander9,2025-04-16T19:13:33Z,2025-04-16T21:48:57+00:00,7,2.59
-1404,pre-commit: Format and validate pyproject.toml,cclauss,2025-04-17T07:57:59Z,2025-04-17T10:16:37+00:00,1,2.31
-1406,Optimize Agent Execution with Caching Mechanism,shephinphilip,2025-04-17T11:02:43Z,2025-09-06T12:53:42+00:00,18,3409.85
-1412,Add new `force_new_context=True` flag so that custom context config can be applied when connecting to existing browsers,kalil0321,2025-04-18T00:17:30Z,2025-04-21T21:56:46+00:00,4,93.65
-1413,Fix: newlines in attribute values,edwardysun,2025-04-18T01:40:55Z,2025-04-18T07:01:24+00:00,1,5.34
-1414,fix: set highlight div backgroundColor to transparent,youngjuning,2025-04-18T02:34:53Z,2025-04-22T09:16:30+00:00,1,102.69
-1416,Improve eval tool,Alezander9,2025-04-18T04:40:20Z,2025-04-21T18:19:39+00:00,1,85.66
-1417,Update Inconsistent AzureOpenAI env variables,qkfang,2025-04-18T06:35:18Z,2025-04-21T17:11:28+00:00,4,82.6
-1418,fix: Make memory module optional for Python 3.13 compatibility,lynnzc,2025-04-18T07:06:06Z,2025-04-18T23:55:26+00:00,2,16.82
-1419,backingup,VRAutomatize,2025-04-18T10:19:48Z,2025-04-18T14:30:04+00:00,2,4.17
-1421,Connect eval tool,Alezander9,2025-04-18T17:32:35Z,2025-04-21T19:45:20+00:00,1,74.21
-1424,"Add grok example, update doc, and upgrade Grok model in eval",dha-aa,2025-04-19T02:03:09Z,2025-04-21T17:12:31+00:00,3,63.16
-1425,Add anti-fingerprinting feature to avoid bot detection,Kunal-Darekar,2025-04-19T07:53:19Z,2025-04-21T16:53:45+00:00,12,57.01
-1427,fix: update version retrieval method to use importlib.metadata,zacka026,2025-04-19T12:39:15Z,2025-04-21T16:54:11+00:00,2,52.25
-1429,Fixed python type errors,PaperBoardOfficial,2025-04-20T07:38:46Z,2025-04-21T17:07:59+00:00,6,33.49
-1432,fix: update example_tool_call to use click_element_by_index action,lynnzc,2025-04-21T08:40:52Z,2025-04-21T18:53:05+00:00,1,10.2
-1435,change GOOGLE_API_KEY to GEMINI_API_KEY.,EnzoFanAccount,2025-04-21T15:05:35Z,2025-04-21T16:55:09+00:00,1,1.83
-1436,Fix: add an extra check in the DOM processing code for file tree nodes,EnzoFanAccount,2025-04-21T16:09:48Z,2025-05-03T08:00:40+00:00,1,279.85
-1437,feat: Add Playwright script generation from agent history,RogelioRichmanAstronaut,2025-04-21T16:27:00Z,2025-04-30T13:34:29+00:00,8,213.12
-1449,Update mem0ai as a dependency in pyproject.toml,deshraj,2025-04-22T01:32:06Z,2025-04-22T15:13:48+00:00,1,13.7
-1451,ruff rule FAST002: FastAPI dependency without `Annotated`,cclauss,2025-04-22T06:12:31Z,2025-04-22T08:57:29+00:00,2,2.75
-1452,chore: replace playwright with patchright,lynnzc,2025-04-22T07:44:13Z,2025-04-22T09:07:08+00:00,4,1.38
-1455,minor fixes when starting Ollama model,paul2048,2025-04-22T13:38:04Z,2025-04-23T19:17:34+00:00,3,29.66
-1456,Fix RuntimeError: no running event loop,Anirudha619,2025-04-22T17:40:19Z,2025-04-26T09:28:04+00:00,1,87.8
-1462,Improve Github Actions CI tests issue #1444 ,dha-aa,2025-04-23T14:36:21Z,2025-04-27T20:39:53+00:00,12,102.06
-1466,"Support multi-thread agent execution including pause,resume operations ",dharam1291,2025-04-24T09:14:15Z,2025-05-20T00:34:10+00:00,4,615.33
-1470,Optionally disable `mem0` telemetry,vfdev-5,2025-04-24T21:26:38Z,2025-04-27T03:31:50+00:00,5,54.09
-1472,Fix browser_window_size not changing window size in non-headless mode,sandeepsalwan1,2025-04-24T22:15:33Z,2025-04-30T11:12:10+00:00,8,132.94
-1474,feat(browser): option to control window focusing,andrewgazelka,2025-04-25T01:40:34Z,2025-04-27T00:47:58+00:00,1,47.12
-1478,fix gif chinese display 修复gif中文显示异常,Ekac00,2025-04-26T03:08:54Z,2025-04-27T20:35:39+00:00,12,41.45
-1480,fix status code when checking if chrome browser is already running,prenit-wankhede,2025-04-26T07:39:35Z,2025-04-26T09:26:14+00:00,1,1.78
-1482,Alllow providing chrome_remote_debugging_port in browser config. Fix launching user provided chrome browser.,prenit-wankhede,2025-04-26T10:20:30Z,2025-04-27T01:38:54+00:00,8,15.31
-1485," Fix: ""Once the page loads -- not able to take any action"" (#1476)",Shyanil,2025-04-26T17:56:11Z,2025-09-06T12:54:13+00:00,1,3186.97
-1486,Added an action to request human help,minamaged095,2025-04-26T19:38:16Z,2025-05-06T06:50:23+00:00,10,227.2
-1493,Added Contribution Guide Page in development Page,unaisshemim,2025-04-27T15:15:38Z,2025-04-27T20:10:13+00:00,1,4.91
-1495,Fix(agent): Robustly handle empty LLM actions to ensure ParaBank functionality (#1476),Shyanil,2025-04-27T17:40:03Z,2025-04-27T20:07:26+00:00,5,2.46
-1502,fix: add cursor:pointer handling in buildDomTree and update test URLs to handle expander icons,satya-nutella,2025-04-28T09:10:06Z,2025-05-03T06:53:45+00:00,2,117.73
-1510,fix: error in done action when using sensitive_data with custom output_model,BohdanPetryshyn,2025-04-29T00:13:25Z,2025-04-30T10:10:08+00:00,1,33.95
-1518,Add unit tests for controller actions that automatically run on CI,Anirudha619,2025-04-29T17:46:34Z,2025-05-02T12:02:50+00:00,8,66.27
-1521,Refactor eval tool,Alezander9,2025-04-29T23:18:46Z,2025-05-25T22:26:33+00:00,1,623.13
-1523,[FEAT] add dialog listner to context,seyeong-han,2025-04-30T06:20:14Z,2025-09-06T12:49:09+00:00,2,3102.48
-1526,Upgrade to python 3.12 by default and a few more lint improvements,pirate,2025-04-30T10:00:08Z,2025-05-01T07:43:12+00:00,1,21.72
-1528,Fix: Allow user-provided no_viewport setting in browser sizing,sandeepsalwan1,2025-05-01T04:24:00Z,2025-05-01T06:45:38+00:00,1,2.36
-1532,Support Azure OpenAI API GPT-4,pyoneerC,2025-05-01T14:11:42Z,2025-05-02T16:58:20+00:00,2,26.78
-1533,Fix Gemini 500 Error Handling: Prevent Indefinite Agent.run() Hanging,pyoneerC,2025-05-01T14:48:03Z,2025-06-15T15:24:24+00:00,1,1080.61
-1534,Fix: Terminal reset sequence when exiting with Ctrl+C ,pyoneerC,2025-05-01T15:10:16Z,2025-05-02T12:57:53+00:00,2,21.79
-1537,"enable include_in_memory by default, standardize temperature=0.0",Alezander9,2025-05-02T02:09:33Z,2025-07-06T04:05:40+00:00,2,1561.94
-1538,removing the browser channel from the _setup_browser in browser.py,pmajor74,2025-05-02T03:18:56Z,2025-05-03T08:25:56+00:00,1,29.12
-1542,"Added Docker and .dockerignore file for containerizing ""browser-use""",Ameya-2003,2025-05-02T07:31:42Z,2025-05-03T18:24:25+00:00,6,34.88
-1545,Lowering the z-index,os1rix,2025-05-02T14:17:16Z,2025-05-02T16:53:13+00:00,1,2.6
-1549,refactor telemetry event to have only one event per agent run,Alezander9,2025-05-02T19:06:13Z,2025-05-11T08:26:14+00:00,6,205.33
-1551,refactor: add caching for client rects and improve highlight cleanup logic,satya-nutella,2025-05-02T20:14:22Z,2025-05-03T06:50:33+00:00,1,10.6
-1552,Fix: Make viewport_expansion=-1 parameter work properly to include all page elements,pyoneerC,2025-05-02T21:53:57Z,2025-05-03T05:03:11+00:00,2,7.15
-1553,Fix: Add support for scrolling nested elements (not just the main viewport),pyoneerC,2025-05-02T22:23:31Z,2025-09-06T12:49:10+00:00,2,3038.43
-1554,fix(eval): update GOOGLE_API_KEY comment to GEMINI_API_KEY,morugu,2025-05-03T00:20:52Z,2025-05-03T02:00:08+00:00,1,1.65
-1558,"Optimized DOM extraction, token usage, and performance in buildDomTre…",AbdulHaseeb-07,2025-05-03T08:51:51Z,2025-09-06T12:49:11+00:00,3,3027.96
-1559,Add ALPHA browser-use CLI,pirate,2025-05-03T09:29:31Z,2025-05-03T15:42:30+00:00,1,6.22
-1571,Additional fixes for viewportExpansion=-1 mode to force-include all elements,pirate,2025-05-04T13:10:26Z,2025-05-04T17:07:22+00:00,1,3.95
-1572,Fix: Exclude disabled LWC components from interactive elements list,pyoneerC,2025-05-04T13:56:53Z,2025-09-06T12:49:11+00:00,1,2998.87
-1579,Fix Dockerfile to match compatibility with patchright chrome,Ameya-2003,2025-05-05T13:36:18Z,2025-05-13T22:35:35+00:00,17,200.99
-1581,Fix Azure OpenAI API tool calling method to use function_calling instead of tools,pyoneerC,2025-05-05T16:48:17Z,2025-06-15T15:26:23+00:00,2,982.63
-1586,chore: Bedrock optional dependencies,tarasyarema,2025-05-05T19:32:13Z,2025-05-06T04:22:40+00:00,1,8.84
-1588,Create pdf_tasks.py,ProphetDiceBot,2025-05-06T08:03:47Z,2025-05-06T20:36:49+00:00,2,12.55
-1590,Enable playwright tests in Github CI,pirate,2025-05-06T09:54:09Z,2025-05-06T11:17:53+00:00,2,1.4
-1598,Feat/ci cd automated tests setup,Pradumn27,2025-05-06T17:48:21Z,2025-08-31T22:58:00+00:00,9,2813.16
-1601,PDF,ProphetDiceBot,2025-05-07T01:51:45Z,2025-05-11T02:14:49+00:00,2,96.38
-1608,feat: add dockerhub workflow,danilaplee,2025-05-07T18:50:13Z,2025-05-14T03:10:36+00:00,5,152.34
-1613,Stable 0.1.45v with persistant context,kubanemil,2025-05-08T09:19:38Z,2025-05-21T08:36:14+00:00,2,311.28
-1615,"fix: when set sensitive_data, get allowed_domains,error",limingzhong61,2025-05-08T09:48:13Z,2025-05-09T06:59:02+00:00,1,21.18
-1616,fix: suppress FAISS-related deprecation warnings,pyoneerC,2025-05-08T12:26:12Z,2025-05-12T13:32:29+00:00,1,97.1
-1623,"fix: when set sensitive_data, get allowed_domains,error",limingzhong61,2025-05-09T06:58:26Z,2025-05-12T13:31:48+00:00,1,78.56
-1624,Debug Locate Elements,LarsenCundric,2025-05-09T09:18:45Z,2025-05-11T11:07:53+00:00,1,49.82
-1630,Preserve DOM Integrity During Screenshots to Restore Cache Behavior,Thytu,2025-05-09T21:08:38Z,2025-05-09T22:43:17+00:00,1,1.58
-1633,switch back from patchright to playwright until issues are resolved,pirate,2025-05-10T01:15:37Z,2025-05-12T12:49:51+00:00,1,59.57
-1636,fix(context): add _is_visible method for better element visibility checks,satya-nutella,2025-05-11T01:41:41Z,2025-05-12T12:05:58+00:00,3,34.4
-1639,Fix: when no_viewport is True then browser window size determines the viewport,Anirudha619,2025-05-11T17:57:35Z,2025-05-12T01:44:13+00:00,1,7.78
-1643,feat: Add download handling in Agent class and update available file paths,satya-nutella,2025-05-12T05:04:56Z,2025-09-06T12:54:52+00:00,5,2815.83
-1645,Add CONTRIBUTING.md with link to contribution guide,morugu,2025-05-12T14:43:50Z,2025-05-14T00:53:04+00:00,1,34.15
-1650,Add CAPTCHA handling tests to test_agent_actions.py,Rookie2420,2025-05-12T17:42:28Z,2025-05-13T21:48:50+00:00,1,28.11
-1651,Add Integration Tests for Browser Window Dimensions,Anirudha619,2025-05-12T18:52:06Z,2025-09-06T12:49:12+00:00,6,2801.95
-1652,only inject init_scripts on pages that arent embedded PDF viewer,pirate,2025-05-12T19:34:44Z,2025-05-13T22:30:25+00:00,1,26.93
-1655,MOD: update doc about how to use allowed_domains with sensitive_data,humble92,2025-05-12T22:29:46Z,2025-05-13T04:36:11+00:00,2,6.11
-1660,Fix: detect nested interactive elements using heuristics to avoid skipping actionable items,s00d,2025-05-13T08:13:08Z,2025-05-16T10:46:02+00:00,1,74.55
-1664,add searchBing action (to skip CAPTCHA in google),yonghuname,2025-05-13T10:10:40Z,2025-09-06T12:49:12+00:00,1,2786.64
-1667,fix user_data_dir not expanded in chrome_launch_args,khesui,2025-05-13T14:17:01Z,2025-05-13T18:44:06+00:00,1,4.45
-1675,Add ModelScope example and documentation,yrk111222,2025-05-14T03:00:06Z,2025-09-23T01:14:54+00:00,1,3166.25
-1676,Change Gemini model name in docs,iakhil,2025-05-14T04:48:46Z,2025-09-06T12:49:13+00:00,1,2768.01
-1683,Store eval page,tonystark262,2025-05-15T03:27:15Z,2025-05-15T04:42:22+00:00,1,1.25
-1692,Code cleanup for cleanup_httpx_clients function call,ajuijas,2025-05-16T08:08:06Z,2025-05-16T09:44:39+00:00,3,1.61
-1698,add cookies support,itamartal,2025-05-17T06:46:09Z,2025-05-18T06:05:08+00:00,1,23.32
-1699,"Refactor `Browser`, `BrowserConfig`, & `BrowserContextConfig` into simpler `BrowserProfile` & `BrowserSession`",pirate,2025-05-17T11:55:15Z,2025-05-20T18:47:31+00:00,5,78.87
-1703,fixed scroll when whole page lives inside a nested container,Guido1Alessandro1Trevisan,2025-05-18T00:55:52Z,2025-05-18T08:18:14+00:00,1,7.37
-1705,fix: Replace Playwright download method with urllib for reliable file downloads,Khang-9966,2025-05-18T13:23:43Z,2025-05-28T00:18:45+00:00,3,226.92
-1706,fix: detect interactive elements with click event listener ,limingzhong61,2025-05-18T16:37:49Z,2025-05-20T01:17:20+00:00,1,32.66
-1708,Route Playwright Imports through a browser-use specific class,yasithdev,2025-05-18T21:14:27Z,2025-05-21T05:57:12+00:00,1,56.71
-1709,"fix:using f-string to refer outer variable, fix glob WARNING log in allowed_domains",limingzhong61,2025-05-19T06:48:02Z,2025-05-19T21:59:53+00:00,1,15.2
-1710,Fixed the issue where getEventListeners was unavailable when used in page.evaluate. Changed to a custom event listener detection approach.,shawyang0304,2025-05-19T09:03:23Z,2025-05-21T07:59:28+00:00,1,46.93
-1718,Auto-detect tool calling method and verify llm api at startup,Anirudha619,2025-05-20T19:22:24Z,2025-05-23T10:56:19+00:00,2,63.57
-1720,"Fix Bugs - Null Checking, API Changes, Conditional Logics",yasithdev,2025-05-21T06:36:11Z,2025-05-23T08:43:51+00:00,8,50.13
-1723,Hot fix/browser profile is none,MagMueller,2025-05-21T10:01:14Z,2025-05-21T11:10:50+00:00,1,1.16
-1724,Example/simple,MagMueller,2025-05-21T10:06:09Z,2025-05-21T11:10:49+00:00,1,1.08
-1729,Increase range of vector store providers for memory,EnzoFanAccount,2025-05-21T11:22:14Z,2025-05-23T08:45:39+00:00,1,45.39
-1731,Remove redundant URL assertions in BrowserSession class for cleaner c…,MagMueller,2025-05-21T11:55:57Z,2025-05-21T19:52:10+00:00,1,7.94
-1741,"Rough api with queues, databases, history, videos, etc",danilaplee,2025-05-21T20:58:35Z,2025-09-06T12:49:14+00:00,11,2583.84
-1742,fix(controller): wait on page change,Thytu,2025-05-21T21:12:38Z,2025-09-06T12:58:13+00:00,2,2583.76
-1746,Update browser-settings.mdx,assert6,2025-05-22T06:38:55Z,2025-05-23T20:13:51+00:00,1,37.58
-1750,"Stricter security for allowed_domains `*.` glob logic, and allow enforcing scheme as well as domain: `https://domain`, better logging, new loading animation",pirate,2025-05-22T10:21:56Z,2025-05-23T08:33:37+00:00,2,22.19
-1751,Fix #1747: use model_validate for MemoryConfig re-validation under Pydantic v2,Manglesh-Nimbalkar,2025-05-22T11:58:59Z,2025-05-23T20:10:39+00:00,2,32.19
-1753,Fix imports of DeepSeek examples in docs,hosainnet,2025-05-22T15:03:30Z,2025-05-23T13:49:59+00:00,2,22.77
-1756,"Add Stagehand + Browser-Use example, sharing the same browser ",pirate,2025-05-23T00:08:13Z,2025-05-23T08:39:04+00:00,1,8.51
-1758,Document new vector store customizability,EnzoFanAccount,2025-05-23T10:58:06Z,2025-05-23T13:46:00+00:00,1,2.8
-1759,Improve file upload detection,evgeny-kim,2025-05-23T11:20:53Z,2025-05-23T13:51:20+00:00,2,2.51
-1764,"Fix window resizing on startup, fix PyPI publish action, improve logging, ensure BrowserSession.start() is always automatic at startup",pirate,2025-05-24T01:24:17Z,2025-05-24T05:08:44+00:00,1,3.74
-1766,"Improve action function signature checking, simplify `_replace_sensitive_data()` code, docs improvements for new BrowserSession",pirate,2025-05-24T09:21:51Z,2025-05-25T12:09:18+00:00,1,26.79
-1767,fix: fixing interactive element event checking,limingzhong61,2025-05-24T10:35:58Z,2025-05-28T09:51:16+00:00,2,95.25
-1768,fix: handle www.* domain matching + improved .gitignore,BroskyBrowser,2025-05-24T14:23:13Z,2025-05-25T08:33:13+00:00,1,18.17
-1769,feat: added amazon captcha solver action example,BroskyBrowser,2025-05-24T14:54:54Z,2025-05-28T09:42:10+00:00,3,90.79
-1772,fix: Binding already registered issue on follow-up task,tarasyarema,2025-05-24T17:26:51Z,2025-05-25T08:28:15+00:00,3,15.02
-1776,New eval script with workflows for better testing,Alezander9,2025-05-25T02:20:55Z,2025-05-26T21:21:57+00:00,3,43.02
-1777,Auto-inherit DISPLAY env var in headful mode,ahe6,2025-05-25T03:18:40Z,2025-05-25T08:31:11+00:00,1,5.21
-1789,feat(dom-tree): Support custom leaf elements,tarasyarema,2025-05-26T01:02:49Z,2025-06-14T07:31:05+00:00,8,462.47
-1797,Add support for `browser-use -p 'some prompt here...'` oneshot CLI,pirate,2025-05-26T11:18:34Z,2025-05-27T01:30:14+00:00,1,14.19
-1806,Fix: Prevent crash by using threading workaround for async in sync environments,Ajith-Geo,2025-05-26T18:47:25Z,2025-05-27T08:35:18+00:00,1,13.8
-1818,fix issue 1817 BrowserSession.create_new_tab was never awaited,pirate,2025-05-27T22:56:35Z,2025-05-28T00:15:17+00:00,1,1.31
-1820,Fix handling of `cookies_file` argument in new `BrowserSession()` system,pirate,2025-05-28T03:51:45Z,2025-05-28T06:45:12+00:00,1,2.89
-1825,Fix: Ensure BrowserSession.start() is called before agent run,Ajith-Geo,2025-05-28T06:57:41Z,2025-05-28T10:27:04+00:00,1,3.49
-1828,Bunch of Ideas that Dont Work,mertunsall,2025-05-28T08:15:07Z,2025-06-21T07:58:29+00:00,1,575.72
-1829,Add screenshot timeout and fallback method when full-page screenshot times out,pirate,2025-05-28T09:03:50Z,2025-05-28T10:15:18+00:00,1,1.19
-1831,Soft timeouts: continue instead of throwing exceptions when page loading takes a long time,pirate,2025-05-28T10:41:27Z,2025-06-21T13:34:50+00:00,1,578.89
-1834,[WIP] completion reasoning,mertunsall,2025-05-28T12:55:55Z,2025-06-22T19:20:23+00:00,1,606.41
-1835,Add an EventBus to the agent for queued async tasks,pirate,2025-05-28T14:45:16Z,2025-06-18T17:34:45+00:00,5,506.82
-1839,Obvious Improvements,mertunsall,2025-05-28T20:32:44Z,2025-06-21T07:58:17+00:00,5,563.43
-1840,Add PDF Extraction with Markitdown,derekmeegan,2025-05-28T21:09:33Z,2025-07-11T11:51:20+00:00,2,1046.7
-1843,feat(agent): add configurable search engine support,zzxwill,2025-05-29T07:32:27Z,2025-09-06T13:01:14+00:00,8,2405.48
-1851,[New Feature] File System For BrowserUse,mertunsall,2025-05-29T13:48:05Z,2025-06-19T12:10:14+00:00,10,502.37
-1854,Add chess example,derekmeegan,2025-05-29T15:50:22Z,2025-05-29T19:56:33+00:00,3,4.1
-1857,Plug and Play Browser Drivers,yasithdev,2025-05-29T23:02:02Z,2025-06-14T07:36:03+00:00,13,368.57
-1858,"Fix available vector providers, local logic, and example",EnzoFanAccount,2025-05-29T23:54:40Z,2025-06-01T00:00:05+00:00,1,48.09
-1862,bumped langchain versions and force llama 4 to function calling,mertunsall,2025-05-30T09:31:32Z,2025-05-30T17:35:24+00:00,1,8.06
-1863,bumped langchain versions and fixed llama 4,mertunsall,2025-05-30T09:34:23Z,2025-05-30T21:03:22+00:00,1,11.48
-1868,Bump langchain,mertunsall,2025-05-30T16:41:16Z,2025-06-06T05:31:14+00:00,1,156.83
-1870,"Improve LLM model capability detection at startup: detect tool calling method, check model IQ, verify API keys, test image support, test double message support",jnvtnguyen,2025-05-31T03:49:02Z,2025-06-06T20:28:34+00:00,3,160.66
-1872,Fix missing await keyword for asyncio.sleep() in extraction test,tinkerer-shubh,2025-05-31T11:40:02Z,2025-05-31T21:45:00+00:00,1,10.08
-1873,feat: Convert file operations to async in BrowserSession,tinkerer-shubh,2025-05-31T13:53:18Z,2025-05-31T21:45:43+00:00,2,7.87
-1874,"Change Agent State, System Prompt, Add FileSystem, etc.",mertunsall,2025-05-31T15:32:00Z,2025-06-20T13:40:10+00:00,11,478.14
-1877,docs: fixing grammar error in browser-settings.mdx,limingzhong61,2025-06-01T07:41:19Z,2025-06-07T08:30:19+00:00,2,144.82
-1878,feat: add support for anchor browser when running evals,BroskyBrowser,2025-06-01T09:39:53Z,2025-07-04T19:29:38+00:00,3,801.83
-1881,Fix date selector text extraction for better OCR recognition,tinkerer-shubh,2025-06-01T12:03:52Z,2025-06-20T13:23:48+00:00,2,457.33
-1885,fixed Chinese Characters Garbled in GIFs Generated by Pillow on macOS,wuhulala,2025-06-02T09:49:46Z,2025-09-06T13:04:26+00:00,2,2307.24
-1886,Refactor README for better clarity on usage and examples,PhungKhacVu,2025-06-02T17:06:36Z,2025-06-02T18:19:36+00:00,1,1.22
-1888,feat: add thinking budget support for Gemini 2.5 Flash models,tycronk20,2025-06-02T21:33:33Z,2025-06-30T16:33:21+00:00,3,667.0
-1889,"Add `browser-use` CLI `--cdp-url`, `--user-data-dir`, and `--profile-directory` options",tycronk20,2025-06-02T21:48:55Z,2025-06-02T23:29:13+00:00,1,1.67
-1891,"CLI Improvements: fix scrolling, integrate Ctrl+C, support more models",krikera,2025-06-03T05:36:00Z,2025-06-04T04:33:00+00:00,1,22.95
-1893,Fix viewport_expansion=-1 element layering validation,tinkerer-shubh,2025-06-03T09:18:11Z,2025-06-20T13:24:07+00:00,2,412.1
-1894,Add graph memory,EnzoFanAccount,2025-06-03T13:09:36Z,2025-08-15T22:52:19+00:00,2,1761.71
-1895,Add Custom Function Example Using Mistral OCR,derekmeegan,2025-06-03T16:39:07Z,2025-06-21T09:20:38+00:00,2,424.69
-1899,track and report repo that code was run on in evals,Alezander9,2025-06-03T21:08:04Z,2025-06-04T06:39:37+00:00,1,9.53
-1900,"Bump pydantic, langchain, mem0, faiss-cpu versions, make CLI use stealth mode by default",pirate,2025-06-03T23:04:28Z,2025-06-04T06:54:46+00:00,1,7.84
-1905,feat(playwright): LLM-Powered Playwright Script Generation ,ThusharaJ,2025-06-04T11:17:59Z,2025-06-04T22:37:39+00:00,1,11.33
-1908,Update .gitignore - Remove requirements.txt,GuxtavoLiu,2025-06-04T18:54:28Z,2025-06-04T21:40:20+00:00,1,2.76
-1909,Bugfix: Fix prompt that presents domain-based sensitive_data keys to LLM,Anirudha619,2025-06-04T19:54:52Z,2025-06-06T05:36:39+00:00,1,33.7
-1910,feat(playwright): LLM-Powered Playwright Script Generation,ThusharaJ,2025-06-04T22:50:22Z,2025-06-05T00:20:49+00:00,1,1.51
-1911,feat(playwright): LLM-Powered Playwright Script Generation,ThusharaJ,2025-06-05T00:24:50Z,2025-06-06T05:35:14+00:00,5,29.17
-1915,"Implement `BrowserSession(stealth=True)` shortcut for patchright, prevent race conditions on session start",pirate,2025-06-05T09:25:08Z,2025-06-06T01:26:48+00:00,2,16.03
-1917,fix(MessageManager): convert SystemMessage to HumanMessage for '.*gemma.*-it' models,servusdei2018,2025-06-06T02:47:22Z,2025-09-06T13:05:00+00:00,2,2218.29
-1921,Centralize Sensitive Data Logic,Anirudha619,2025-06-06T18:18:45Z,2025-09-06T13:05:34+00:00,1,2202.78
-1922,"Improve LLM model capability detection at startup: detect tool calling method, check model IQ, verify API keys, test image support, test double message support",jnvtnguyen,2025-06-06T20:27:02Z,2025-09-06T13:01:15+00:00,2,2200.57
-1924,Hot fix/file upload,MagMueller,2025-06-06T21:42:45Z,2025-06-17T00:06:37+00:00,3,242.4
-1925,Add agent eval to CI ,MagMueller,2025-06-06T23:00:01Z,2025-06-07T11:45:10+00:00,2,12.75
-1930,"Add utility functions, improve logging, and expand example use-cases",limlimsu,2025-06-07T18:13:12Z,2025-06-21T14:19:00+00:00,2,332.1
-1932,fix: Handle str type for executable_path and user_data_dir in BrowserProfile validation,howl-anderson,2025-06-08T05:42:01Z,2025-09-06T13:07:48+00:00,1,2167.43
-1936,Fix: Allow patchright.BrowserContext in BrowserSession validation #1934,Shyanil,2025-06-08T17:10:40Z,2025-06-11T06:08:32+00:00,1,60.96
-1937,PreFix/browser context validation v2 (#1934),Shyanil,2025-06-08T17:43:37Z,2025-06-10T06:50:23+00:00,1,37.11
-1938,feat: Add automatic task enhancement with LLM for clearer browser automation,sauravpanda,2025-06-08T22:46:12Z,2025-06-21T06:46:25+00:00,2,296.0
-1941,Fix: Improve recognition of custom button elements in DOM tree,whoisarpit,2025-06-09T08:57:44Z,2025-09-06T13:01:15+00:00,1,2140.06
-1945,Fix event loop issues with multiple `BrowserSession` objects per thread,pirate,2025-06-09T22:02:04Z,2025-06-10T00:33:15+00:00,1,2.52
-1946,Require `BrowserSession` with `keep_alive=True` be started manually before passing to `Agent()`,pirate,2025-06-10T03:14:54Z,2025-06-10T05:08:21+00:00,1,1.89
-1949,"Multi-agent performance improvements: Asyncify more LLM calls, markdownify, and more",pirate,2025-06-10T09:03:45Z,2025-06-10T10:50:11+00:00,1,1.77
-1953,fix: remove non-functional save_recording_path parameter,sauravpanda,2025-06-11T02:09:20Z,2025-06-12T17:14:25+00:00,1,39.08
-1956,"centralize playwright/patchwright imports, and update typing/checks to reduce lint errors",yasithdev,2025-06-11T08:29:59Z,2025-06-11T22:58:49+00:00,3,14.48
-1962,"centralize playwright/patchwright imports, and update typing/checks to reduce lint errors",yasithdev,2025-06-11T22:59:55Z,2025-06-19T04:49:17+00:00,13,173.82
-1965,Fix cross-origin iframe DOM retrieval,IlyaBiryukov,2025-06-12T21:08:43Z,2025-06-20T06:01:49+00:00,3,176.88
-1968,perf: getCachedClientRects for isInExpandedViewport,YunYouJun,2025-06-13T06:29:40Z,2025-09-06T13:12:41+00:00,1,2046.72
-1973,"Bugfixes for recordings, traces, and conversation log output, improvements to `wait_for_load_state` timeout handling, make more things async, improve parallel tab setup handling",pirate,2025-06-14T00:07:35Z,2025-06-14T07:31:04+00:00,2,7.39
-1979,#1970 get_all_text_till_next_clickable_element returns incorrect text,scorpiord,2025-06-16T03:39:19Z,2025-06-17T00:11:22+00:00,1,20.53
-1980,Improve Drag and Drop with Index-Based Element Selection,gaomeng1900,2025-06-16T06:56:43Z,2025-09-06T13:01:16+00:00,4,1974.08
-1987,Refine user guidance in prompts: simplify scrolling instructions and …,mertunsall,2025-06-17T13:23:13Z,2025-06-18T17:13:41+00:00,1,27.84
-1992,Added quotes in pip install in README.md,MahlerTom,2025-06-17T18:44:19Z,2025-06-17T20:04:25+00:00,1,1.33
-1993,bug fixes(dom): opacity check for element node and attribute getter for interactive elements + add test for ui detection,Anirudha619,2025-06-17T19:01:18Z,2025-09-06T13:01:16+00:00,2,1938.0
-1994,fix issue where elements with interactive events inside iframe do not receive bound click events,scorpiord,2025-06-18T01:39:12Z,2025-06-23T20:45:59+00:00,2,139.11
-2006,Fix critical domain restriction bypass vulnerability,saharmor,2025-06-19T09:24:52Z,2025-06-20T06:01:21+00:00,2,20.61
-2009,Consolidate sync related code ,pirate,2025-06-19T09:40:55Z,2025-06-19T14:41:28+00:00,2,5.01
-2011,add retry for actions that fail due to page navigation mid-action,pirate,2025-06-19T11:16:23Z,2025-06-19T14:41:41+00:00,1,3.42
-2012,Make login tasks in eval be evaluated by presence of login cookie instead of webjudge,Alezander9,2025-06-19T22:08:04Z,2025-06-29T14:58:41+00:00,1,232.84
-2013,Login Task bug fixes,sauravpanda,2025-06-19T23:17:43Z,2025-09-06T13:12:55+00:00,2,1885.92
-2020,Improve AgentOutput format and reasoning style,mertunsall,2025-06-20T16:55:36Z,2025-06-20T19:24:02+00:00,3,2.47
-2022,Enhance system prompt reasoning,mertunsall,2025-06-20T20:42:50Z,2025-06-21T07:56:34+00:00,1,11.23
-2027,"Test fixes, evenbus tweaks, docs updates, and better warnings",pirate,2025-06-21T10:15:37Z,2025-06-21T13:32:11+00:00,3,3.28
-2031,"Remove Langchain, switch to native implementations",gregpr07,2025-06-21T14:46:14Z,2025-06-24T08:56:17+00:00,9,66.17
-2032,Add MCP Server for Claude Code - Chat-Based Browser Automation,Albaraazain,2025-06-21T18:27:21Z,2025-07-09T04:41:02+00:00,1,418.23
-2034,Update system prompt,mertunsall,2025-06-21T22:14:05Z,2025-06-22T06:52:18+00:00,2,8.64
-2036,Heuristic to detect a placeholder element on top of an input element,andreigh,2025-06-21T22:46:05Z,2025-06-24T04:48:07+00:00,1,54.03
-2040,Fix input_text,mertunsall,2025-06-22T13:37:33Z,2025-06-22T15:22:54+00:00,1,1.76
-2043,Add error handling for opening new tabs in browser session,mertunsall,2025-06-22T15:15:11Z,2025-06-23T21:37:36+00:00,1,30.37
-2045,Update README.md to quote optional pip package install to prevent zsh errors on macos,yoland68,2025-06-22T16:10:14Z,2025-06-26T05:24:51+00:00,1,85.24
-2058,Improve Agent,mertunsall,2025-06-23T12:03:42Z,2025-06-23T13:41:15+00:00,4,1.63
-2060,Fix <available_file_paths>,mertunsall,2025-06-23T14:01:16Z,2025-06-23T20:03:41+00:00,2,6.04
-2064,Fix cloud sync API base URL to be `api.browser-use.com`,pirate,2025-06-23T21:00:04Z,2025-06-23T22:08:13+00:00,1,1.14
-2068,feat: add comprehensive tests for filesystem functions,pirate,2025-06-23T22:43:50Z,2025-06-24T21:36:33+00:00,2,22.88
-2072,Add Cerebras and Inception Labs model examples,YashDagade,2025-06-24T01:05:09Z,2025-09-06T13:14:05+00:00,1,1788.15
-2073,docs: add links to other language versions of README,dowithless,2025-06-24T02:58:30Z,2025-09-06T13:21:56+00:00,1,1786.39
-2079,Switch from Langchain to native model implementations,gregpr07,2025-06-24T09:00:44Z,2025-06-24T10:27:43+00:00,2,1.45
-2081,Switch from Langchain to native model implementations,gregpr07,2025-06-24T10:28:07Z,2025-06-24T12:26:15+00:00,3,1.97
-2084,Refines file input detection logic,DanielTea,2025-06-24T11:07:00Z,2025-06-24T18:01:04+00:00,9,6.9
-2086,Make PR to deactivate thinking field,mertunsall,2025-06-24T12:40:19Z,2025-06-24T16:25:23+00:00,4,3.75
-2092,mr cloudrunner,mertunsall,2025-06-24T21:02:39Z,2025-06-25T09:54:35+00:00,7,12.87
-2096,Add last_message parameter and anti-hallucination instruction to judge system,MagMueller,2025-06-25T07:51:53Z,2025-06-25T09:44:11+00:00,5,1.87
-2106,Fix FileSystem object reconstruction in PR,mertunsall,2025-06-25T17:01:43Z,2025-06-25T22:42:17+00:00,1,5.68
-2107,Improve FileSystem object reconstruction,mertunsall,2025-06-25T17:08:07Z,2025-06-25T22:42:12+00:00,1,5.57
-2110,Fixed type error in multiprocessing tests,gregpr07,2025-06-25T21:34:54Z,2025-06-25T23:12:49+00:00,1,1.63
-2111,rewrite file system,mertunsall,2025-06-25T22:44:43Z,2025-06-26T08:46:14+00:00,10,10.03
-2129,Cursor/implement exponential backoff for rate limiting 1822,MagMueller,2025-06-26T15:23:59Z,2025-06-26T20:07:42+00:00,4,4.73
-2139,#FIX:Include system_prompt_no_thinking.md in package build,scorpiord,2025-06-27T02:42:15Z,2025-06-27T12:49:16+00:00,1,10.12
-2140,use raw CDP call for screenshot instead of playwright CDP session,pirate,2025-06-27T02:53:05Z,2025-06-27T11:19:44+00:00,2,8.44
-2141,"Simplify Agent.state.paused, Agent.state.stopped, Agent. _external_pause_event #1716",vivekjami,2025-06-27T05:57:18Z,2025-07-06T15:42:04+00:00,1,225.75
-2143,Add support for more models,gregpr07,2025-06-27T08:24:58Z,2025-06-28T10:23:47+00:00,2,25.98
-2147,Enable config kwargs for chatgoogle model,mertunsall,2025-06-27T09:41:45Z,2025-06-27T11:11:03+00:00,2,1.49
-2149,google chat add config option,mertunsall,2025-06-27T11:10:52Z,2025-06-27T12:15:14+00:00,1,1.07
-2150,Remove mem0,mertunsall,2025-06-27T11:27:38Z,2025-06-27T12:39:25+00:00,3,1.2
-2153,Fix dollar symbol escaping in model recommendations for Mintlify compatibility,Spinny03,2025-06-27T12:53:33Z,2025-06-27T15:31:28+00:00,1,2.63
-2157,Structured output optimizations,gregpr07,2025-06-28T07:33:04Z,2025-06-28T10:31:30+00:00,1,2.97
-2159,Enhance judge scoring logic,MagMueller,2025-06-28T18:28:49Z,2025-06-30T10:59:10+00:00,1,40.51
-2164,feature/structured-output-schema-fixes,MagMueller,2025-06-28T21:22:42Z,2025-06-29T14:56:23+00:00,2,17.56
-2166,Codex/adicionar comando por voz na aplicação,Copyxyzinc,2025-06-29T01:09:03Z,2025-09-06T13:01:17+00:00,1,1667.87
-2171,added usage data to agent history and evals,gregpr07,2025-06-29T15:04:44Z,2025-06-29T17:43:22+00:00,1,2.64
-2180,9t5whf codex/adicionar comando por voz na aplicação,Copyxyzinc,2025-06-29T18:47:15Z,2025-09-06T13:01:17+00:00,1,1650.23
-2203,Fix name not defined error in example in agent-settings.mdx,philippwiederkehr,2025-06-30T15:03:48Z,2025-07-01T06:59:26+00:00,1,15.93
-2206,cancel initializing results.md and make model more efficient,mertunsall,2025-06-30T17:05:09Z,2025-07-01T10:34:58+00:00,1,17.5
-2207,Dev socket update,NithishC,2025-07-01T02:45:21Z,2025-07-01T06:14:17+00:00,1,3.48
-2214,Fix screenshot clip errors at end of scroll height,pirate,2025-07-01T06:42:08Z,2025-07-01T08:45:22+00:00,1,2.05
-2218,"dont use fs for short tasks, dont initialize results.md",mertunsall,2025-07-01T08:30:30Z,2025-07-01T10:54:07+00:00,2,2.39
-2224,Create google_maps_3d.yaml,philippwiederkehr,2025-07-01T10:18:55Z,2025-09-06T13:23:46+00:00,2,1611.08
-2233,fix: correct case for GitHub,setchy,2025-07-01T15:55:45Z,2025-07-01T18:09:23+00:00,1,2.23
-2238,Refactor Eval Script into smaller files,Alezander9,2025-07-02T01:48:32Z,2025-07-09T22:45:50+00:00,1,188.96
-2252,feat: gmail 2fa integration,sauravpanda,2025-07-02T09:59:32Z,2025-07-02T17:03:01+00:00,1,7.06
-2254,Change default scrolling amount to 50%,mertunsall,2025-07-02T13:37:28Z,2025-07-04T10:46:14+00:00,1,45.15
-2256,eval-runner-status-updates,MagMueller,2025-07-02T15:39:04Z,2025-07-02T17:42:00+00:00,6,2.05
-2259,feat: added gmail api integration to get OTPs and email,sauravpanda,2025-07-02T18:17:01Z,2025-07-04T11:53:47+00:00,11,41.61
-2263,make eval service fetch rotating auth info from server,Alezander9,2025-07-02T23:31:30Z,2025-07-05T03:48:23+00:00,2,52.28
-2269,Lucidic AI Integration,andy0liang,2025-07-03T06:06:34Z,2025-07-30T00:37:04+00:00,1,642.51
-2277,OpenRouter Support,willbonde,2025-07-03T17:00:40Z,2025-07-04T10:41:55+00:00,4,17.69
-2281,fix-browser-error-recovery,MagMueller,2025-07-03T20:34:13Z,2025-09-03T18:17:59+00:00,27,1485.73
-2288,Add judge evaluation to login tasks,mertunsall,2025-07-04T09:38:11Z,2025-07-04T10:48:21+00:00,2,1.17
-2291,feat,mertunsall,2025-07-04T12:11:08Z,2025-07-05T08:41:50+00:00,2,20.51
-2293,fix: fixing highlighted elements not showing,limingzhong61,2025-07-04T13:58:09Z,2025-07-05T08:51:36+00:00,1,18.89
-2294,fixing detection of interactive elements in Shadow DOM,limingzhong61,2025-07-04T16:41:39Z,2025-07-05T08:51:13+00:00,1,16.16
-2295,feat: multiple browser support for the eval script,reformedot,2025-07-04T21:44:37Z,2025-07-04T23:14:03+00:00,2,1.49
-2296,"Add basic support for JSON, CSV, and reading PDFs.",mertunsall,2025-07-04T23:47:18Z,2025-07-05T08:35:19+00:00,3,8.8
-2297,Add MCP Client & Server Support,pirate,2025-07-05T04:56:43Z,2025-07-08T00:28:07+00:00,4,67.52
-2298,fix docs icon,os1rix,2025-07-05T10:44:48Z,2025-07-06T04:02:38+00:00,1,17.3
-2299,feat: add CDP URL to Agent Telemetry events,reformedot,2025-07-05T11:14:05Z,2025-07-18T14:46:51+00:00,3,315.55
-2302,fix: handle eval import errors,reformedot,2025-07-05T15:08:14Z,2025-07-05T19:51:26+00:00,1,4.72
-2303,fix: improve browserbase eval params,reformedot,2025-07-05T16:22:52Z,2025-07-06T04:04:45+00:00,1,11.7
-2312,feat: added dynamic timeout to eval browsers based on steps per task,reformedot,2025-07-06T11:39:34Z,2025-07-07T05:55:10+00:00,1,18.26
-2314,feat: add BrowserUseOllama wrapper for compatibility with browser-use 0.4.2+,pyoneerC,2025-07-06T14:52:55Z,2025-09-06T13:27:28+00:00,1,1486.58
-2324,Fix: don’t drop real `title` fields when optimising schema,ai-christianson,2025-07-06T21:21:32Z,2025-07-07T07:10:49+00:00,4,9.82
-2327,Make tool call example parameter optional,mertunsall,2025-07-06T21:53:07Z,2025-07-07T11:32:09+00:00,1,13.65
-2328,feat: improve window size to use 1920x1080 (full HD),reformedot,2025-07-07T07:36:39Z,2025-09-06T13:01:18+00:00,3,1469.41
-2332,Move tests and put examples into system prompt instead,mertunsall,2025-07-07T11:43:41Z,2025-07-07T13:13:58+00:00,1,1.5
-2333,better error handling and lmnr inclusion,MagMueller,2025-07-07T12:50:44Z,2025-07-07T16:57:21+00:00,8,4.11
-2335,feat: add parameters to remove images and css in the eval,reformedot,2025-07-07T13:34:31Z,2025-09-06T13:27:43+00:00,1,1463.89
-2338,Enhances scroll functionality with pixel control,DanielTea,2025-07-07T15:27:18Z,2025-07-07T21:42:27+00:00,14,6.25
-2341,refector agent method,MagMueller,2025-07-07T17:55:39Z,2025-08-03T13:10:28+00:00,4,643.25
-2347,Always use subprocess + CDP for local browser instead of playwright `launch()`,pirate,2025-07-08T05:45:04Z,2025-07-08T10:33:44+00:00,2,4.81
-2349,"Automatically Download PDFs when reached, scroll with Pure CDP to scroll inside PDF",mertunsall,2025-07-08T10:39:05Z,2025-07-08T19:36:12+00:00,3,8.95
-2352,"Restore global multiprocess lock during screenshots, limit 1 at a time per machine",pirate,2025-07-08T12:07:46Z,2025-07-08T13:24:23+00:00,1,1.28
-2355,refactor-agent-stable,MagMueller,2025-07-08T15:28:50Z,2025-07-09T00:04:48+00:00,5,8.6
-2357,feat: add unikraft browser support during evals,reformedot,2025-07-08T15:50:16Z,2025-09-06T13:28:00+00:00,6,1437.63
-2359,Add OpenAI CUA fallback,mertunsall,2025-07-08T21:53:03Z,2025-07-13T20:35:06+00:00,1,118.7
-2373,fix: use user-provided executable_path instead of defaulting to chromium,tomlin7,2025-07-09T09:32:49Z,2025-07-11T07:19:32+00:00,2,45.78
-2374,Ignore about:blank tab in context,mertunsall,2025-07-09T10:49:48Z,2025-07-09T14:53:07+00:00,1,4.06
-2375,pdf file creation supported.,mertunsall,2025-07-09T11:03:14Z,2025-07-09T14:12:43+00:00,2,3.16
-2380,Remove planner tool code and documentation,mertunsall,2025-07-09T15:41:54Z,2025-07-13T20:26:04+00:00,2,100.74
-2385,fix: CSS selector fallback to XPath when query_selector returns None,MkYacine,2025-07-09T18:12:28Z,2025-09-06T13:29:08+00:00,1,1411.28
-2386,laminar-ignore input output,MagMueller,2025-07-09T20:27:25Z,2025-07-14T11:27:24+00:00,2,111.0
-2387,assert pages are still usable after skipping loading,pirate,2025-07-09T21:42:57Z,2025-07-11T06:28:03+00:00,3,32.75
-2390,feat: add tap and hold functionality for captcha,sauravpanda,2025-07-10T07:41:40Z,2025-09-06T13:38:41+00:00,2,1397.95
-2395,feat:add deepseek support,lamchee,2025-07-11T07:44:58Z,2025-07-13T07:41:23+00:00,1,47.94
-2397,add deepseek llm chat model,BoneCARD,2025-07-11T09:12:39Z,2025-07-12T15:45:07+00:00,1,30.54
-2402,More robust file syste,mertunsall,2025-07-11T15:58:23Z,2025-07-11T17:04:45+00:00,4,1.11
-2409,Revamp API docs,sauravpanda,2025-07-12T01:03:45Z,2025-07-12T05:23:54+00:00,1,4.34
-2412,Add comprehensive LLM-friendly documentation,askdevai-bot,2025-07-12T05:50:42Z,2025-07-14T00:59:56+00:00,1,43.15
-2413,added new getting_started examples,sauravpanda,2025-07-12T07:34:49Z,2025-07-12T17:40:37+00:00,1,10.1
-2427,FLASH MODE,mertunsall,2025-07-12T19:47:14Z,2025-07-12T21:31:21+00:00,3,1.74
-2432,fix: use AZURE_OPENAI_KEY in code to match .env.example,ayush9191,2025-07-13T12:20:06Z,2025-07-13T20:24:12+00:00,1,8.07
-2434,Remove Planner Prompt and Small Fix to lmnr,mertunsall,2025-07-13T15:02:22Z,2025-07-13T20:28:28+00:00,1,5.43
-2439,new-extraction-layer-with-main,MagMueller,2025-07-14T11:59:57Z,2025-09-03T18:17:59+00:00,3,1230.3
-2443,feat: speed optimization for extract_structured_data,sauravpanda,2025-07-14T21:33:17Z,2025-09-06T13:40:35+00:00,4,1288.12
-2450,Add Kimi K2 model support to evaluations,mertunsall,2025-07-15T15:55:28Z,2025-07-15T18:13:16+00:00,1,2.3
-2455,fix(mcp): properly handle nested objects in tool parameters,pirate,2025-07-15T19:34:03Z,2025-07-30T19:00:28+00:00,1,359.44
-2456,"Fix: Only configure MCP server logging when server is instantiated, n…",pirate,2025-07-15T21:57:03Z,2025-07-16T05:18:43+00:00,2,7.36
-2457,[DRAFT] Converting all controller/service.py default actions to use cdp-use directly,pirate,2025-07-16T02:49:33Z,2025-08-05T11:01:24+00:00,1,488.2
-2459,support tool calling with groq,mertunsall,2025-07-16T09:13:30Z,2025-07-16T11:08:37+00:00,3,1.92
-2460,feat: Additional node attributes from DOM,tarasyarema,2025-07-16T09:18:35Z,2025-08-16T20:30:40+00:00,3,755.2
-2462,fix: Top element multi-check,tarasyarema,2025-07-16T15:22:18Z,2025-07-29T20:46:03+00:00,2,317.4
-2464,extraction-magnus-revert-with-main-with-extension,MagMueller,2025-07-16T19:47:13Z,2025-08-13T01:26:32+00:00,3,653.66
-2468,"Fix: ChatOpenAI sends ""temperature"" parameter, that is not supported in O3 and O4-mini",MahlerTom,2025-07-17T08:06:30Z,2025-07-17T11:25:50+00:00,1,3.32
-2473,Add MseeP.ai badge,lwsinclair,2025-07-17T17:04:19Z,2025-07-29T19:20:19+00:00,1,290.27
-2480,feat: Add ARIA menu support to dropdown functions,pirate,2025-07-18T10:12:55Z,2025-07-25T10:04:12+00:00,1,167.85
-2481,dont refresh page if index is not there,MagMueller,2025-07-18T10:57:03Z,2025-07-18T14:06:46+00:00,3,3.16
-2488,speed-improvements,MagMueller,2025-07-18T19:55:10Z,2025-07-19T13:43:30+00:00,10,17.81
-2490,Add runtime type check for llm in Agent init,SmartManoj,2025-07-19T08:24:43Z,2025-07-24T17:46:09+00:00,1,129.36
-2491,staging,MagMueller,2025-07-19T09:47:02Z,2025-07-19T13:43:29+00:00,3,3.94
-2492,feature/optimize-browser-extensions,MagMueller,2025-07-19T13:47:11Z,2025-07-19T16:06:18+00:00,3,2.32
-2493,hot-fix/azure-endless-llm-generation,MagMueller,2025-07-19T17:43:15Z,2025-07-20T21:30:36+00:00,2,27.79
-2496,feat/speed-improvements-wait,MagMueller,2025-07-20T13:14:54Z,2025-07-20T21:30:35+00:00,12,8.26
-2509,feat: add py.typed to mark the package as typed for type-checkers,kovalevvlad,2025-07-21T10:48:18Z,2025-07-22T18:29:58+00:00,2,31.69
-2510,Parallel Multi-Agent Workflows First Version. ,abelsummation,2025-07-21T15:59:56Z,2025-09-06T13:42:46+00:00,1,1125.71
-2512,fix: filter out about:blank placeholder screenshots from GIF generation,pirate,2025-07-21T22:04:51Z,2025-07-25T06:03:10+00:00,1,79.97
-2515,fix: remove exposed credentials from shopping example,gopinaath,2025-07-22T06:45:13Z,2025-09-06T13:43:51+00:00,1,1110.98
-2518,"feat: Expose `seed`, `top_p` and `temperature` parameters, Update Cloud API Docs",maticzav,2025-07-22T16:52:16Z,2025-07-29T11:00:42+00:00,2,162.14
-2525,Cache this history,mertunsall,2025-07-23T17:10:25Z,2025-08-05T14:38:52+00:00,3,309.47
-2535,Handle pdf viewer content with read file,mertunsall,2025-07-24T15:44:30Z,2025-07-24T17:35:07+00:00,1,1.84
-2536,Make separate tab for cloud sdk in docs,LarsenCundric,2025-07-24T18:33:23Z,2025-07-26T20:14:02+00:00,1,49.68
-2539,Disable local browser fallback on connection failure,mertunsall,2025-07-24T20:19:12Z,2025-07-25T10:20:11+00:00,1,14.02
-2551,Fix Gemini schema processing for non-string type fields,jaiganeshs21,2025-07-27T05:32:04Z,2025-08-03T13:17:48+00:00,1,175.76
-2552,integrated pyotp 2FA generation,mkopecki,2025-07-27T14:11:53Z,2025-09-06T15:55:27+00:00,3,985.73
-2554,Add agent session logging and state embedding systems,an-1901,2025-07-28T01:19:44Z,2025-09-06T15:47:38+00:00,1,974.47
-2558,feat(browser): Prevent local fallback for remote connections,riteshkhamitkar,2025-07-28T17:23:44Z,2025-07-28T19:27:51+00:00,1,2.07
-2561,Remove screenshot semaphore requirement and skip dom tree on `about:blank` and `chrome://` urls,pirate,2025-07-29T07:02:06Z,2025-07-29T08:04:51+00:00,2,1.05
-2563,"never relaunch local browser when cdp url is provided, never run JS on special `about:blank` and `chrome://` urls, improve mcp cli examples",pirate,2025-07-29T08:14:12Z,2025-07-29T18:54:06+00:00,2,10.66
-2567,Tell the LLM whenever page loading is interrupted so it knows to use the `wait` action,pirate,2025-07-29T20:17:17Z,2025-07-30T00:41:30+00:00,1,4.4
-2568,Add helper function to get nicely formatted agent trace with metadata,Alezander9,2025-07-30T01:53:27Z,2025-07-31T00:48:20+00:00,3,22.91
-2569,enhancement: Added detailed instructions for interacting with dropdown,Venkatesh188,2025-07-30T02:35:45Z,2025-07-30T08:11:53+00:00,1,5.6
-2572,Update real-browser.mdx,AbhinavMalkoochi,2025-07-30T05:06:02Z,2025-07-30T08:04:13+00:00,1,2.97
-2573,Refactor `BrowserSession` to remove Playwright in favor of `cdp-use` and `bubus`,pirate,2025-07-30T06:23:10Z,2025-08-13T01:26:30+00:00,23,331.06
-2579,feat(llm): add Qwen model integration support,zzxwill,2025-07-31T08:24:28Z,2025-09-06T15:49:53+00:00,1,895.42
-2580,Add Gemma Support,tpcgold,2025-07-31T11:10:44Z,2025-09-08T00:29:03+00:00,2,925.31
-2583,Consolidate Agent pause/resume state management to eliminate desynchronization,MagellaX,2025-08-01T09:04:51Z,2025-09-06T16:31:44+00:00,6,871.45
-2585,Fix step number,mertunsall,2025-08-01T18:48:08Z,2025-08-01T20:02:48+00:00,1,1.24
-2588,Centralize LLM Capability Detection and Re-use Tool-Calling Autodetection (Issue #1808),MagellaX,2025-08-02T07:57:01Z,2025-09-06T19:11:03+00:00,3,851.23
-2592,Optimize Token Usage for Better Performance and Cost Efficiency,naorsabag,2025-08-03T06:45:31Z,2025-09-06T19:01:22+00:00,1,828.26
-2593,"fix(cli): add scrolling, Ctrl+C pause/resume, and enhanced model detection (#1887)",MagellaX,2025-08-03T07:35:41Z,2025-09-23T01:16:18+00:00,1,1217.68
-2611,Replace markdown-pdf with md2pdf for Licensing,mielverkerken,2025-08-06T10:10:41Z,2025-08-13T17:36:29+00:00,1,175.43
-2622,Support structured output in system prompt,mertunsall,2025-08-07T20:57:54Z,2025-08-08T09:37:20+00:00,2,12.66
-2635,Fix: Decouple use_vision and generate_gif settings,Louis454545,2025-08-10T12:16:44Z,2025-08-10T13:23:23+00:00,1,1.11
-2636,local-remote-split-type-fix-auto-enter,MagMueller,2025-08-10T16:12:13Z,2025-08-11T19:36:56+00:00,3,27.41
-2637,improve: clarify language detection in system prompts,sauravpanda,2025-08-10T16:59:52Z,2025-08-10T18:21:57+00:00,1,1.37
-2642,Change agent_obj.browser_context to agent_obj.browser_session in custom-functions/custom_hooks_before_after_step.py,thafer6,2025-08-11T14:06:08Z,2025-09-06T17:51:13+00:00,1,627.75
-2644,Fix typo,weisserd,2025-08-11T17:02:03Z,2025-08-14T19:50:31+00:00,1,74.81
-2645,Fix #2610: Replace markdown-pdf with reportlab to resolve AGPL license conflict,Louis454545,2025-08-11T17:44:21Z,2025-09-06T17:53:34+00:00,1,624.15
-2649,Fix #2614: Prevent QueueShutDown exception when using add_new_task + multiple runs,Louis454545,2025-08-11T18:06:52Z,2025-08-14T19:37:52+00:00,1,73.52
-2650,fix: correct method calls in custom hooks example (#2641),Louis454545,2025-08-11T18:51:35Z,2025-08-20T20:45:03+00:00,1,217.89
-2651,local-remote-split-dropdown,MagMueller,2025-08-12T04:25:12Z,2025-09-03T18:18:00+00:00,1,541.88
-2652,[feat] add pdf printer,Appointat,2025-08-12T05:47:49Z,2025-08-21T23:40:43+00:00,1,233.88
-2653,Chat ollama using gpt oss,Zunysha,2025-08-12T10:49:20Z,2025-08-13T04:16:26+00:00,1,17.45
-2657,Lucidic AI Examples / Docs,andy0liang,2025-08-12T19:22:36Z,2025-09-06T17:46:37+00:00,1,598.4
-2663,Integrated structured output handling for gpt-oss models in ChatOllama.,Zunysha,2025-08-13T04:59:05Z,2025-08-13T06:43:46+00:00,1,1.74
-2666,Fix Structured Output for gpt-oss:20b in Browser_use,Zunysha,2025-08-13T08:13:01Z,2025-08-13T10:10:14+00:00,1,1.95
-2667,Experiment/extraction layer,mertunsall,2025-08-13T13:28:09Z,2025-09-06T17:27:17+00:00,2,579.99
-2670,increase-frequency_penalty,MagMueller,2025-08-13T13:45:42Z,2025-09-03T18:18:00+00:00,1,508.54
-2671,fix-browser-setup,MagMueller,2025-08-13T15:47:17Z,2025-08-14T20:02:42+00:00,2,28.26
-2673,add StreamableHttp support to mcp,Anirudha619,2025-08-13T19:08:06Z,2025-08-14T19:39:32+00:00,1,24.52
-2674,Extraction layer improvements,mertunsall,2025-08-13T22:10:25Z,2025-09-06T17:26:51+00:00,1,571.27
-2677,increase-temperature,MagMueller,2025-08-14T03:59:15Z,2025-09-03T18:18:01+00:00,1,494.31
-2680,Cross origin iframes,pirate,2025-08-14T12:05:58Z,2025-08-14T19:30:51+00:00,2,7.41
-2683,revert extract_structured_data prompt to old one..,mertunsall,2025-08-14T15:58:03Z,2025-08-14T17:25:11+00:00,2,1.45
-2685,fixed the bug of only web in gmail_2fa_integration.py,Davda-James,2025-08-14T18:50:26Z,2025-09-06T17:26:05+00:00,1,550.59
-2686,Fix Error Messages,mertunsall,2025-08-14T19:46:52Z,2025-08-14T21:54:21+00:00,4,2.12
-2689,feat: disable debugger enable CDP call,reformedot,2025-08-15T11:04:30Z,2025-08-15T19:28:29+00:00,1,8.4
-2695,"Fix Enter key handling, SwitchTab event, and rename ClickEvent(new_tab) to while_holding_ctrl",pirate,2025-08-15T23:45:37Z,2025-08-16T23:37:32+00:00,1,23.87
-2697,fix send keys,MagMueller,2025-08-16T07:54:26Z,2025-08-16T23:42:20+00:00,1,15.8
-2699,Set default cdp logging level,MagMueller,2025-08-16T19:57:58Z,2025-08-21T23:44:18+00:00,2,123.77
-2704,feat: set default working language to english,sauravpanda,2025-08-17T19:45:13Z,2025-08-19T03:34:16+00:00,1,31.82
-2705,Generate python highlights for browser screenshot,MagMueller,2025-08-17T22:39:45Z,2025-08-30T04:54:32+00:00,3,294.25
-2706,Add Qwen LLM Provider Support,deggs7,2025-08-18T08:03:25Z,2025-09-08T00:06:39+00:00,1,496.05
-2719,clean-logs,MagMueller,2025-08-19T07:25:47Z,2025-08-19T08:38:37+00:00,1,1.21
-2721,Added event timeouts config,andreigh,2025-08-19T07:28:19Z,2025-09-06T17:28:57+00:00,2,442.01
-2725,display-sync-link,MagMueller,2025-08-19T16:55:33Z,2025-09-03T18:18:04+00:00,1,361.38
-2726,fix-llm-timeout-errors,MagMueller,2025-08-19T16:58:58Z,2025-08-20T01:11:30+00:00,2,8.21
-2729,feat: added examples on how to use the cloud api,sauravpanda,2025-08-20T01:50:29Z,2025-08-20T17:16:43+00:00,3,15.44
-2736,Add an ollama_options parameter to ChatOllama,shea,2025-08-20T15:49:51Z,2025-09-06T16:58:03+00:00,1,409.14
-2737,Add flag for stopped state of agent in history list,mathisarends,2025-08-20T17:44:54Z,2025-09-06T16:57:19+00:00,1,407.21
-2738,Authenticated Proxy Server Support,matt-greathouse,2025-08-20T19:49:07Z,2025-08-21T18:33:55+00:00,5,22.75
-2741,Move watchdogs into subfolder for better organization,pirate,2025-08-21T01:55:29Z,2025-08-22T21:51:31+00:00,2,43.93
-2747,fix: fix remote browser downloads handling,reformedot,2025-08-21T09:16:39Z,2025-08-26T20:16:05+00:00,1,130.99
-2751,Hot Fixes,mertunsall,2025-08-21T12:45:53Z,2025-08-21T15:27:20+00:00,1,2.69
-2753,Automated example validation on release,MagMueller,2025-08-21T15:51:08Z,2025-09-03T18:15:37+00:00,1,314.41
-2763,Add context search functionality and dependencies for data processing,krishnarathore12,2025-08-22T17:47:02Z,2025-09-06T19:13:11+00:00,1,361.44
-2765,Add task video recording,EnzoFanAccount,2025-08-22T19:55:35Z,2025-09-06T19:29:32+00:00,1,359.57
-2766,cross-origin iframes with depth limits,pirate,2025-08-23T02:42:27Z,2025-09-08T03:43:09+00:00,9,385.01
-2767,fix: improved browser examples,reformedot,2025-08-23T10:39:00Z,2025-08-24T16:52:08+00:00,1,30.22
-2768,Fix Multi-Act,mertunsall,2025-08-23T15:19:47Z,2025-09-06T19:32:06+00:00,1,340.21
-2770,Extract structured data -> get page as markdown,mertunsall,2025-08-23T17:07:56Z,2025-09-06T19:32:38+00:00,1,338.41
-2772,fix: correct JSON schema type definitions in MCP server tools,tfolkman,2025-08-24T16:29:43Z,2025-08-26T22:34:29+00:00,1,54.08
-2788,Update roadmap.mdx,Cfomodz,2025-08-25T03:39:14Z,2025-09-06T19:31:11+00:00,1,303.87
-2801,Add parallel orchestrator: AI-powered multi-agent browser automation,abelsummation,2025-08-25T17:09:54Z,2025-09-06T19:33:13+00:00,1,290.39
-2806,fixed broken discord invite and changed import steps,Cfomodz,2025-08-26T02:52:04Z,2025-08-26T22:36:30+00:00,1,19.74
-2807,browser docs,MagMueller,2025-08-26T03:11:34Z,2025-08-26T05:37:55+00:00,2,2.44
-2830,rename-controller-to-tools,MagMueller,2025-08-26T20:11:50Z,2025-09-03T18:15:45+00:00,4,190.07
-2832,Fix tests,MagMueller,2025-08-27T00:15:57Z,2025-08-27T07:37:48+00:00,2,7.36
-2833,Cfomodz font fix,Cfomodz,2025-08-27T02:01:56Z,2025-08-27T08:10:07+00:00,2,6.14
-2843,Minor documentation changes for consistency.,krishnarathore12,2025-08-27T15:09:55Z,2025-08-30T22:51:22+00:00,1,79.69
-2847,Update gif.py,Cfomodz,2025-08-27T22:28:54Z,2025-08-30T22:49:20+00:00,1,72.34
-2851,feat: CLI is back baby!,sauravpanda,2025-08-28T01:17:25Z,2025-08-28T17:20:15+00:00,2,16.05
-2852,feat: add CDP implementation for capturing localStorage/sessionStorage,jtanningbed,2025-08-28T05:08:29Z,2025-09-06T20:09:35+00:00,1,231.02
-2853,fix: improve StorageStateWatchdog lifecycle management,jtanningbed,2025-08-28T05:35:10Z,2025-09-06T20:18:47+00:00,1,230.73
-2854,fix codec error while writing log,azhengzz,2025-08-28T06:05:37Z,2025-09-06T20:14:16+00:00,1,230.14
-2855,Countinous browsing 1,NaveenSandaruwan,2025-08-28T10:26:53Z,2025-09-06T20:18:02+00:00,1,225.85
-2856,fix(gemini): Correct invalid schema by removing 'title' from required list,3clyp50,2025-08-28T12:32:36Z,2025-09-06T20:20:58+00:00,1,223.81
-2857,feat: added a stale bot,sauravpanda,2025-08-28T19:43:22Z,2025-08-28T20:49:55+00:00,1,1.11
-2858,fix: issue#2842 dedup removed ,Diveyam-Mishra,2025-08-28T20:41:43Z,2025-09-06T23:06:40+00:00,2,218.42
-2859,fix: apply viewport settings via TabCreatedEvent handler,jtanningbed,2025-08-28T22:28:05Z,2025-09-06T12:33:26+00:00,1,206.09
-2860,fix: prevent disable_security from breaking browser extensions,sauravpanda,2025-08-28T23:28:14Z,2025-09-06T22:34:04+00:00,1,215.1
-2863,save checkpoint that is not good,mertunsall,2025-08-29T16:44:25Z,2025-08-30T22:46:09+00:00,2,30.03
-2865,Dev,MagMueller,2025-08-29T17:59:33Z,2025-09-03T18:15:45+00:00,1,120.27
-2877,remove-efficiency-rules,MagMueller,2025-08-30T17:57:21Z,2025-08-31T01:44:37+00:00,1,7.79
-2878,Fixed <frame> elements,gregpr07,2025-08-30T18:09:45Z,2025-08-30T20:04:39+00:00,1,1.92
-2879,better exception handling from browser events -> LLM,mertunsall,2025-08-30T18:51:03Z,2025-08-30T20:13:03+00:00,3,1.37
-2888,docs: update hooks docs for new APIs after Playwright removal (#2749),MariSchn,2025-08-31T15:44:25Z,2025-09-04T15:51:07+00:00,1,96.11
-2890,added playwright integration example,sauravpanda,2025-08-31T16:49:25Z,2025-09-06T22:20:46+00:00,3,149.52
-2893,improve extract data,MagMueller,2025-08-31T19:01:42Z,2025-08-31T20:51:23+00:00,1,1.83
-2896,reduce-frequency_penalty-more,MagMueller,2025-08-31T21:56:58Z,2025-09-03T18:10:51+00:00,1,68.23
-2898,clean-up-prompt-to-reduce-confusion,MagMueller,2025-09-01T02:04:59Z,2025-09-02T06:55:24+00:00,4,28.84
-2903,fix(downloads): prevent duplicate local downloads via single-dispatch…,jayozer,2025-09-01T15:06:24Z,2025-09-08T04:35:57+00:00,2,157.49
-2904,edit-quickstart-docs,MagMueller,2025-09-01T16:38:23Z,2025-09-01T17:45:40+00:00,2,1.12
-2907,fix broken docs link,swiecki,2025-09-01T21:09:52Z,2025-09-02T01:09:36+00:00,2,4.0
-2910,Add sample_images to enable browseruse to learn how to operate a plat…,zhcn,2025-09-02T04:00:52Z,2025-09-03T18:10:06+00:00,2,38.15
-2913,"Fix MCP server extract content always returning ""no content extracted""",lienminhquang,2025-09-02T05:52:39Z,2025-09-23T01:18:29+00:00,1,499.43
-2917,Fix patterns in allowed_domains,p-l-,2025-09-02T07:40:13Z,2025-09-03T18:04:04+00:00,1,34.4
-2930,change parameter chat google,MagMueller,2025-09-02T21:54:21Z,2025-09-03T16:55:55+00:00,1,19.03
-2931,integration/agent-mail,MagMueller,2025-09-03T00:03:46Z,2025-09-03T02:24:50+00:00,4,2.35
-2936,chore: relax major LLM lib version constraints,kovalevvlad,2025-09-03T16:18:10Z,2025-09-03T18:00:58+00:00,1,1.71
-2942,dont wait 10 seconds if allowed_domains not set,MagMueller,2025-09-03T20:54:32Z,2025-09-03T22:23:35+00:00,2,1.48
-2943,fix-pil-import,MagMueller,2025-09-03T21:19:26Z,2025-09-03T22:22:32+00:00,1,1.05
-2945,Fixed `user_agent` param,gregpr07,2025-09-03T23:08:06Z,2025-09-06T11:03:08+00:00,2,59.92
-2949,add image context example,zhcn,2025-09-04T06:29:40Z,2025-09-06T11:01:36+00:00,2,52.53
-2963,fix-timeouts-long-websites-only-hashmap,MagMueller,2025-09-05T05:17:35Z,2025-09-05T07:00:55+00:00,3,1.72
-2969,Implement cli auth flow for unauthenticated users,MagMueller,2025-09-05T21:21:07Z,2025-09-06T11:00:17+00:00,1,13.65
-2972,URL shortener,gregpr07,2025-09-05T22:54:56Z,2025-09-06T00:41:27+00:00,2,1.78
-2974,Remove unused screenshot constants,ruseel,2025-09-06T09:01:13Z,2025-09-06T10:59:41+00:00,1,1.97
-2985,Magnus/eng 475 sync do not send data if not signed in,sauravpanda,2025-09-06T19:52:04Z,2025-09-07T01:57:35+00:00,5,6.09
-2992,ignore asci for chinese letters,MagMueller,2025-09-07T02:43:38Z,2025-09-07T05:06:44+00:00,3,2.38
-2998,Add MCP Server documentation,sin4ch,2025-09-07T23:56:36Z,2025-09-08T03:18:47+00:00,7,3.37
-3003,feat: fix MCP server JSON-RPC corruption and removed http mode,sauravpanda,2025-09-08T02:23:56Z,2025-09-08T03:31:02+00:00,2,1.12
-3007,Paint order filtering,gregpr07,2025-09-08T03:58:20Z,2025-09-08T05:40:01+00:00,1,1.69
-3012,feat: Add enhanced screenshot API,avocardio,2025-09-08T05:43:38Z,2025-09-08T19:24:41+00:00,1,13.68
-3014,docs: add Chinese version of the documentation,zdocapp,2025-09-08T07:37:02Z,2025-09-08T15:31:32+00:00,1,7.91
-3029,DownloadsWatchdog watches BrowserStateRequestEvent to download PDFs,CyrusNuevoDia,2025-09-08T17:08:49Z,2025-09-08T21:44:19+00:00,1,4.59
-3030,Replace aiofiles with anyio.Path,CyrusNuevoDia,2025-09-08T17:38:20Z,2025-09-23T08:27:51+00:00,3,350.83
-3040,Restructure examples documentation,avocardio,2025-09-09T05:03:10Z,2025-09-09T20:54:53+00:00,2,15.86
-3041,Add ad-use demo: Instagram ad generator,avocardio,2025-09-09T05:17:00Z,2025-09-09T16:27:11+00:00,1,11.17
-3054,include-js-tool,MagMueller,2025-09-10T04:50:59Z,2025-09-16T07:37:56+00:00,4,146.78
-3060,Update README,avocardio,2025-09-10T18:51:55Z,2025-09-12T03:11:03+00:00,1,32.32
-3062,chore: standardize import order readme,shnartho,2025-09-10T22:05:07Z,2025-09-11T16:27:20+00:00,1,18.37
-3067,Fix: missing news-use docs link,avocardio,2025-09-11T05:21:52Z,2025-09-11T16:27:19+00:00,1,11.09
-3084,feat: Add hover_element action for interacting with hover-triggered UI components,GuxtavoLiu,2025-09-11T20:01:42Z,2025-09-12T19:08:21+00:00,1,23.11
-3088,Revise README with clone steps,avocardio,2025-09-12T03:17:13Z,2025-09-13T01:46:17+00:00,1,22.48
-3092,Adding create user prompt and fixing clickable_elements.py for suppor…,igor-klyro,2025-09-12T13:08:51Z,2025-09-12T20:02:52+00:00,1,6.9
-3095,feat: Add hover_element action for interacting with hover-triggered UI components,GuxtavoLiu,2025-09-12T19:07:43Z,2025-09-23T01:22:20+00:00,1,246.24
-3101,feat: automatically add www for allowed domains,sauravpanda,2025-09-12T23:11:00Z,2025-09-13T02:03:57+00:00,1,2.88
-3102,updated pricing on old docs,sauravpanda,2025-09-13T02:11:25Z,2025-09-13T03:29:58+00:00,2,1.31
-3103,Feature: Add msg-use demo,avocardio,2025-09-13T06:00:28Z,2025-09-13T14:57:14+00:00,1,8.95
-3106,Add parallel multi-agent example,abelsummation,2025-09-13T15:33:38Z,2025-09-23T01:09:20+00:00,1,225.59
-3107,Feature: added auto mode to msg-use,avocardio,2025-09-13T16:30:16Z,2025-09-13T23:58:39+00:00,1,7.47
-3110,fix: replace hyphens with underscores in EventBus name generation,naaa760,2025-09-14T09:47:03Z,2025-09-23T01:05:56+00:00,1,207.31
-3120,Fix temp creds for ChatAWSBedrock,tioans,2025-09-15T10:20:16Z,2025-09-19T16:31:04+00:00,2,102.18
-3126,Feat: add veo3 support to ad-use,avocardio,2025-09-15T21:22:52Z,2025-09-15T22:41:46+00:00,1,1.31
-3139,feat: added cloud_browser feature,sauravpanda,2025-09-17T15:53:45Z,2025-09-18T23:24:13+00:00,6,31.51
-3140,fix element hash,MagMueller,2025-09-17T16:48:21Z,2025-09-17T18:15:54+00:00,3,1.46
-3156,fix-date-format,MagMueller,2025-09-18T19:25:11Z,2025-09-18T21:20:09+00:00,2,1.92
-3160,updated docs and added link to signup for a api key,sauravpanda,2025-09-19T01:20:39Z,2025-09-19T06:38:53+00:00,1,5.3
-3166,Log browser-use pip version on agent start,MagMueller,2025-09-19T01:58:03Z,2025-09-19T04:46:06+00:00,1,2.8
-3176,Remove unused parameter,chrisschnabl,2025-09-22T04:40:22Z,2025-09-22T18:59:45+00:00,1,14.32
-3178,Changing Pydantic limit for Amazon Bedrock ARN in model,smaran-medx,2025-09-22T09:50:16Z,2025-09-23T01:06:38+00:00,1,15.27
-3186,Add laminar debug tags,chrisschnabl,2025-09-24T02:59:33Z,2025-09-24T04:45:10+00:00,2,1.76
-3203,redirect for get-browser-profile and v2/quickstart,ShawnPana,2025-09-27T02:17:55Z,2025-09-27T05:10:54+00:00,6,2.88
+number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+3239,added option to interactive elements,prakhar1114,2025-10-04T16:11:40Z,2025-10-04T20:00:46+00:00,1,3.82,True,1,1,1,230,1,0,1,MERGED
+3233,try to make actions shorter,mertunsall,2025-10-03T17:01:14Z,2025-10-04T00:25:22+00:00,1,7.4,True,96,100,12,794,1,0,1,MERGED
+3226,[fix] type checking in CI,wyatt-avilla,2025-10-02T05:07:00Z,2025-10-03T04:07:41+00:00,3,23.01,True,8,8,4,1080,1,1,2,MERGED
+3203,redirect for get-browser-profile and v2/quickstart,ShawnPana,2025-09-27T02:17:55Z,2025-09-27T05:10:54+00:00,6,2.88,True,8,0,1,474,1,2,3,MERGED
+3190,fix the spelling mistakes in the using_cdp example,Cu1111,2025-09-25T05:00:34Z,2025-10-01T03:54:35+00:00,2,142.9,True,1,1,1,195,0,0,0,MERGED
+3186,Add laminar debug tags,chrisschnabl,2025-09-24T02:59:33Z,2025-09-24T04:45:10+00:00,2,1.76,True,2,0,1,329,1,2,3,MERGED
+3178,Changing Pydantic limit for Amazon Bedrock ARN in model,smaran-medx,2025-09-22T09:50:16Z,2025-09-23T01:06:38+00:00,1,15.27,True,1,1,1,439,1,0,1,MERGED
+3176,Remove unused parameter,chrisschnabl,2025-09-22T04:40:22Z,2025-09-22T18:59:45+00:00,1,14.32,True,31,40,12,609,2,0,2,MERGED
+3166,Log browser-use pip version on agent start,MagMueller,2025-09-19T01:58:03Z,2025-09-19T04:46:06+00:00,1,2.8,True,29,2,2,539,2,2,4,MERGED
+3160,updated docs and added link to signup for a api key,sauravpanda,2025-09-19T01:20:39Z,2025-09-19T06:38:53+00:00,1,5.3,True,45,50,10,261,1,1,2,MERGED
+3156,fix-date-format,MagMueller,2025-09-18T19:25:11Z,2025-09-18T21:20:09+00:00,2,1.92,True,387,12,5,1097,1,4,5,MERGED
+3140,fix element hash,MagMueller,2025-09-17T16:48:21Z,2025-09-17T18:15:54+00:00,3,1.46,True,56,36,3,357,1,5,6,MERGED
+3139,feat: added cloud_browser feature,sauravpanda,2025-09-17T15:53:45Z,2025-09-18T23:24:13+00:00,6,31.51,True,777,27,10,743,1,5,6,MERGED
+3126,Feat: add veo3 support to ad-use,avocardio,2025-09-15T21:22:52Z,2025-09-15T22:41:46+00:00,1,1.31,True,290,72,3,806,1,2,3,MERGED
+3120,Fix temp creds for ChatAWSBedrock,tioans,2025-09-15T10:20:16Z,2025-09-19T16:31:04+00:00,2,102.18,True,5,1,1,1260,1,2,3,MERGED
+3110,fix: replace hyphens with underscores in EventBus name generation,naaa760,2025-09-14T09:47:03Z,2025-09-23T01:05:56+00:00,1,207.31,True,4,1,1,393,2,1,3,MERGED
+3107,Feature: added auto mode to msg-use,avocardio,2025-09-13T16:30:16Z,2025-09-13T23:58:39+00:00,1,7.47,True,64,0,3,407,1,2,3,MERGED
+3106,Add parallel multi-agent example,abelsummation,2025-09-13T15:33:38Z,2025-09-23T01:09:20+00:00,1,225.59,True,312,0,1,1662,2,1,3,MERGED
+3103,Feature: Add msg-use demo,avocardio,2025-09-13T06:00:28Z,2025-09-13T14:57:14+00:00,1,8.95,True,546,2,7,583,1,9,10,MERGED
+3102,updated pricing on old docs,sauravpanda,2025-09-13T02:11:25Z,2025-09-13T03:29:58+00:00,2,1.31,True,15,14,1,283,1,1,2,MERGED
+3101,feat: automatically add www for allowed domains,sauravpanda,2025-09-12T23:11:00Z,2025-09-13T02:03:57+00:00,1,2.88,True,176,2,2,599,1,1,2,MERGED
+3095,feat: Add hover_element action for interacting with hover-triggered UI components,GuxtavoLiu,2025-09-12T19:07:43Z,2025-09-23T01:22:20+00:00,1,246.24,False,183,12,4,2048,2,2,4,CLOSED
+3092,Adding create user prompt and fixing clickable_elements.py for suppor…,igor-klyro,2025-09-12T13:08:51Z,2025-09-12T20:02:52+00:00,1,6.9,False,90,0,2,603,1,1,2,CLOSED
+3088,Revise README with clone steps,avocardio,2025-09-12T03:17:13Z,2025-09-13T01:46:17+00:00,1,22.48,True,7,1,1,275,1,0,1,MERGED
+3084,feat: Add hover_element action for interacting with hover-triggered UI components,GuxtavoLiu,2025-09-11T20:01:42Z,2025-09-12T19:08:21+00:00,1,23.11,False,171,0,4,2065,2,3,5,CLOSED
+3067,Fix: missing news-use docs link,avocardio,2025-09-11T05:21:52Z,2025-09-11T16:27:19+00:00,1,11.09,True,19,7,4,141,1,0,1,MERGED
+3062,chore: standardize import order readme,shnartho,2025-09-10T22:05:07Z,2025-09-11T16:27:20+00:00,1,18.37,True,0,0,0,226,1,1,2,MERGED
+3060,Update README,avocardio,2025-09-10T18:51:55Z,2025-09-12T03:11:03+00:00,1,32.32,True,4,8,1,236,1,0,1,MERGED
+3054,include-js-tool,MagMueller,2025-09-10T04:50:59Z,2025-09-16T07:37:56+00:00,4,146.78,True,44,0,1,522,1,4,5,MERGED
+3041,Add ad-use demo: Instagram ad generator,avocardio,2025-09-09T05:17:00Z,2025-09-09T16:27:11+00:00,1,11.17,False,281,0,4,886,0,2,2,CLOSED
+3040,Restructure examples documentation,avocardio,2025-09-09T05:03:10Z,2025-09-09T20:54:53+00:00,2,15.86,True,224,14,11,721,1,3,4,MERGED
+3030,Replace aiofiles with anyio.Path,CyrusNuevoDia,2025-09-08T17:38:20Z,2025-09-23T08:27:51+00:00,3,350.83,True,12,21,5,577,3,2,5,MERGED
+3029,DownloadsWatchdog watches BrowserStateRequestEvent to download PDFs,CyrusNuevoDia,2025-09-08T17:08:49Z,2025-09-08T21:44:19+00:00,1,4.59,True,22,0,1,259,1,0,1,MERGED
+3014,docs: add Chinese version of the documentation,zdocapp,2025-09-08T07:37:02Z,2025-09-08T15:31:32+00:00,1,7.91,False,3984,102,43,791,2,13,15,CLOSED
+3012,feat: Add enhanced screenshot API,avocardio,2025-09-08T05:43:38Z,2025-09-08T19:24:41+00:00,1,13.68,True,155,0,2,964,1,0,1,MERGED
+3007,Paint order filtering,gregpr07,2025-09-08T03:58:20Z,2025-09-08T05:40:01+00:00,1,1.69,True,256,26,10,1006,1,6,7,MERGED
+3003,feat: fix MCP server JSON-RPC corruption and removed http mode,sauravpanda,2025-09-08T02:23:56Z,2025-09-08T03:31:02+00:00,2,1.12,True,258,84,3,594,1,2,3,MERGED
+2998,Add MCP Server documentation,sin4ch,2025-09-07T23:56:36Z,2025-09-08T03:18:47+00:00,7,3.37,True,204,0,2,580,7,7,14,MERGED
+2992,ignore asci for chinese letters,MagMueller,2025-09-07T02:43:38Z,2025-09-07T05:06:44+00:00,3,2.38,True,3,1,2,245,1,3,4,MERGED
+2985,Magnus/eng 475 sync do not send data if not signed in,sauravpanda,2025-09-06T19:52:04Z,2025-09-07T01:57:35+00:00,5,6.09,True,561,159,9,976,1,7,8,MERGED
+2974,Remove unused screenshot constants,ruseel,2025-09-06T09:01:13Z,2025-09-06T10:59:41+00:00,1,1.97,True,0,3,1,543,1,0,1,MERGED
+2972,URL shortener,gregpr07,2025-09-05T22:54:56Z,2025-09-06T00:41:27+00:00,2,1.78,True,305,1,3,522,1,4,5,MERGED
+2969,Implement cli auth flow for unauthenticated users,MagMueller,2025-09-05T21:21:07Z,2025-09-06T11:00:17+00:00,1,13.65,False,246,108,3,1250,2,1,3,CLOSED
+2963,fix-timeouts-long-websites-only-hashmap,MagMueller,2025-09-05T05:17:35Z,2025-09-05T07:00:55+00:00,3,1.72,True,11,4,1,723,1,4,5,MERGED
+2949,add image context example,zhcn,2025-09-04T06:29:40Z,2025-09-06T11:01:36+00:00,2,52.53,True,113,0,1,98,3,2,5,MERGED
+2945,Fixed `user_agent` param,gregpr07,2025-09-03T23:08:06Z,2025-09-06T11:03:08+00:00,2,59.92,True,4,0,1,181,1,0,1,MERGED
+2943,fix-pil-import,MagMueller,2025-09-03T21:19:26Z,2025-09-03T22:22:32+00:00,1,1.05,True,79,32,3,571,1,2,3,MERGED
+2942,dont wait 10 seconds if allowed_domains not set,MagMueller,2025-09-03T20:54:32Z,2025-09-03T22:23:35+00:00,2,1.48,True,10,27,3,275,1,1,2,MERGED
+2936,chore: relax major LLM lib version constraints,kovalevvlad,2025-09-03T16:18:10Z,2025-09-03T18:00:58+00:00,1,1.71,True,3,3,1,582,2,0,2,MERGED
+2931,integration/agent-mail,MagMueller,2025-09-03T00:03:46Z,2025-09-03T02:24:50+00:00,4,2.35,True,204,0,3,604,1,7,8,MERGED
+2930,change parameter chat google,MagMueller,2025-09-02T21:54:21Z,2025-09-03T16:55:55+00:00,1,19.03,True,6,1,2,416,1,0,1,MERGED
+2917,Fix patterns in allowed_domains,p-l-,2025-09-02T07:40:13Z,2025-09-03T18:04:04+00:00,1,34.4,True,17,3,2,746,1,0,1,MERGED
+2913,"Fix MCP server extract content always returning ""no content extracted""",lienminhquang,2025-09-02T05:52:39Z,2025-09-23T01:18:29+00:00,1,499.43,True,7,2,1,1325,2,2,4,MERGED
+2910,Add sample_images to enable browseruse to learn how to operate a plat…,zhcn,2025-09-02T04:00:52Z,2025-09-03T18:10:06+00:00,2,38.15,True,14,1,3,616,3,3,6,MERGED
+2907,fix broken docs link,swiecki,2025-09-01T21:09:52Z,2025-09-02T01:09:36+00:00,2,4.0,True,1,1,1,169,1,0,1,MERGED
+2904,edit-quickstart-docs,MagMueller,2025-09-01T16:38:23Z,2025-09-01T17:45:40+00:00,2,1.12,True,103,21,3,684,1,1,2,MERGED
+2903,fix(downloads): prevent duplicate local downloads via single-dispatch…,jayozer,2025-09-01T15:06:24Z,2025-09-08T04:35:57+00:00,2,157.49,False,85,63,1,3036,5,1,6,CLOSED
+2898,clean-up-prompt-to-reduce-confusion,MagMueller,2025-09-01T02:04:59Z,2025-09-02T06:55:24+00:00,4,28.84,True,25,18,5,262,1,3,4,MERGED
+2896,reduce-frequency_penalty-more,MagMueller,2025-08-31T21:56:58Z,2025-09-03T18:10:51+00:00,1,68.23,False,2,2,1,255,1,0,1,CLOSED
+2893,improve extract data,MagMueller,2025-08-31T19:01:42Z,2025-08-31T20:51:23+00:00,1,1.83,True,264,59,4,799,1,1,2,MERGED
+2890,added playwright integration example,sauravpanda,2025-08-31T16:49:25Z,2025-09-06T22:20:46+00:00,3,149.52,True,778,0,4,640,1,5,6,MERGED
+2888,docs: update hooks docs for new APIs after Playwright removal (#2749),MariSchn,2025-08-31T15:44:25Z,2025-09-04T15:51:07+00:00,1,96.11,True,221,216,1,1083,6,4,10,MERGED
+2879,better exception handling from browser events -> LLM,mertunsall,2025-08-30T18:51:03Z,2025-08-30T20:13:03+00:00,3,1.37,True,342,255,7,1132,2,6,8,MERGED
+2878,Fixed <frame> elements,gregpr07,2025-08-30T18:09:45Z,2025-08-30T20:04:39+00:00,1,1.92,True,36,10,4,582,1,0,1,MERGED
+2877,remove-efficiency-rules,MagMueller,2025-08-30T17:57:21Z,2025-08-31T01:44:37+00:00,1,7.79,True,149,138,8,792,1,4,5,MERGED
+2865,Dev,MagMueller,2025-08-29T17:59:33Z,2025-09-03T18:15:45+00:00,1,120.27,False,0,0,0,798,1,5,6,CLOSED
+2863,save checkpoint that is not good,mertunsall,2025-08-29T16:44:25Z,2025-08-30T22:46:09+00:00,2,30.03,False,97,57,3,772,0,5,5,CLOSED
+2860,fix: prevent disable_security from breaking browser extensions,sauravpanda,2025-08-28T23:28:14Z,2025-09-06T22:34:04+00:00,1,215.1,True,112,2,2,1335,2,1,3,MERGED
+2859,fix: apply viewport settings via TabCreatedEvent handler,jtanningbed,2025-08-28T22:28:05Z,2025-09-06T12:33:26+00:00,1,206.09,True,42,4,1,1643,3,1,4,MERGED
+2858,fix: issue#2842 dedup removed ,Diveyam-Mishra,2025-08-28T20:41:43Z,2025-09-06T23:06:40+00:00,2,218.42,False,122,127,1,958,3,4,7,CLOSED
+2857,feat: added a stale bot,sauravpanda,2025-08-28T19:43:22Z,2025-08-28T20:49:55+00:00,1,1.11,True,108,0,1,635,0,2,2,MERGED
+2856,fix(gemini): Correct invalid schema by removing 'title' from required list,3clyp50,2025-08-28T12:32:36Z,2025-09-06T20:20:58+00:00,1,223.81,True,4,0,1,615,3,0,3,MERGED
+2855,Countinous browsing 1,NaveenSandaruwan,2025-08-28T10:26:53Z,2025-09-06T20:18:02+00:00,1,225.85,False,575,6,5,854,2,8,10,CLOSED
+2854,fix codec error while writing log,azhengzz,2025-08-28T06:05:37Z,2025-09-06T20:14:16+00:00,1,230.14,True,2,2,1,2309,0,0,0,MERGED
+2853,fix: improve StorageStateWatchdog lifecycle management,jtanningbed,2025-08-28T05:35:10Z,2025-09-06T20:18:47+00:00,1,230.73,True,8,1,1,801,0,0,0,MERGED
+2852,feat: add CDP implementation for capturing localStorage/sessionStorage,jtanningbed,2025-08-28T05:08:29Z,2025-09-06T20:09:35+00:00,1,231.02,True,0,0,0,1359,1,1,2,MERGED
+2851,feat: CLI is back baby!,sauravpanda,2025-08-28T01:17:25Z,2025-08-28T17:20:15+00:00,2,16.05,True,1720,0,1,1195,1,6,7,MERGED
+2847,Update gif.py,Cfomodz,2025-08-27T22:28:54Z,2025-08-30T22:49:20+00:00,1,72.34,True,6,1,1,395,1,0,1,MERGED
+2843,Minor documentation changes for consistency.,krishnarathore12,2025-08-27T15:09:55Z,2025-08-30T22:51:22+00:00,1,79.69,True,3,4,3,352,1,0,1,MERGED
+2833,Cfomodz font fix,Cfomodz,2025-08-27T02:01:56Z,2025-08-27T08:10:07+00:00,2,6.14,False,84,7,4,609,0,1,1,CLOSED
+2832,Fix tests,MagMueller,2025-08-27T00:15:57Z,2025-08-27T07:37:48+00:00,2,7.36,True,966,13555,97,586,1,2,3,MERGED
+2830,rename-controller-to-tools,MagMueller,2025-08-26T20:11:50Z,2025-09-03T18:15:45+00:00,4,190.07,False,618,618,80,1157,0,20,20,CLOSED
+2807,browser docs,MagMueller,2025-08-26T03:11:34Z,2025-08-26T05:37:55+00:00,2,2.44,True,457,1100,24,698,0,7,7,MERGED
+2806,fixed broken discord invite and changed import steps,Cfomodz,2025-08-26T02:52:04Z,2025-08-26T22:36:30+00:00,1,19.74,True,3,4,1,268,0,1,1,MERGED
+2801,Add parallel orchestrator: AI-powered multi-agent browser automation,abelsummation,2025-08-25T17:09:54Z,2025-09-06T19:33:13+00:00,1,290.39,False,14464,451,99,1731,2,40,42,CLOSED
+2788,Update roadmap.mdx,Cfomodz,2025-08-25T03:39:14Z,2025-09-06T19:31:11+00:00,1,303.87,False,22,0,1,263,3,0,3,CLOSED
+2772,fix: correct JSON schema type definitions in MCP server tools,tfolkman,2025-08-24T16:29:43Z,2025-08-26T22:34:29+00:00,1,54.08,True,75,2,2,1370,4,0,4,MERGED
+2770,Extract structured data -> get page as markdown,mertunsall,2025-08-23T17:07:56Z,2025-09-06T19:32:38+00:00,1,338.41,False,152,117,4,912,0,0,0,CLOSED
+2768,Fix Multi-Act,mertunsall,2025-08-23T15:19:47Z,2025-09-06T19:32:06+00:00,1,340.21,False,22,140,4,466,0,2,2,CLOSED
+2767,fix: improved browser examples,reformedot,2025-08-23T10:39:00Z,2025-08-24T16:52:08+00:00,1,30.22,True,55,6,2,334,0,1,1,MERGED
+2766,cross-origin iframes with depth limits,pirate,2025-08-23T02:42:27Z,2025-09-08T03:43:09+00:00,9,385.01,True,89,37,3,695,1,7,8,MERGED
+2765,Add task video recording,EnzoFanAccount,2025-08-22T19:55:35Z,2025-09-06T19:29:32+00:00,1,359.57,True,343,2,8,1376,5,1,6,MERGED
+2763,Add context search functionality and dependencies for data processing,krishnarathore12,2025-08-22T17:47:02Z,2025-09-06T19:13:11+00:00,1,361.44,False,423,2,7,783,2,4,6,CLOSED
+2753,Automated example validation on release,MagMueller,2025-08-21T15:51:08Z,2025-09-03T18:15:37+00:00,1,314.41,False,519,0,2,1206,1,4,5,CLOSED
+2751,Hot Fixes,mertunsall,2025-08-21T12:45:53Z,2025-08-21T15:27:20+00:00,1,2.69,True,17,39,2,399,0,1,1,MERGED
+2747,fix: fix remote browser downloads handling,reformedot,2025-08-21T09:16:39Z,2025-08-26T20:16:05+00:00,1,130.99,True,135,83,4,655,5,3,8,MERGED
+2741,Move watchdogs into subfolder for better organization,pirate,2025-08-21T01:55:29Z,2025-08-22T21:51:31+00:00,2,43.93,True,709,42,16,688,0,1,1,MERGED
+2738,Authenticated Proxy Server Support,matt-greathouse,2025-08-20T19:49:07Z,2025-08-21T18:33:55+00:00,5,22.75,True,347,3,7,1769,5,3,8,MERGED
+2737,Add flag for stopped state of agent in history list,mathisarends,2025-08-20T17:44:54Z,2025-09-06T16:57:19+00:00,1,407.21,False,47,0,3,1082,1,2,3,CLOSED
+2736,Add an ollama_options parameter to ChatOllama,shea,2025-08-20T15:49:51Z,2025-09-06T16:58:03+00:00,1,409.14,True,5,0,1,821,1,0,1,MERGED
+2729,feat: added examples on how to use the cloud api,sauravpanda,2025-08-20T01:50:29Z,2025-08-20T17:16:43+00:00,3,15.44,True,1649,0,7,671,0,3,3,MERGED
+2726,fix-llm-timeout-errors,MagMueller,2025-08-19T16:58:58Z,2025-08-20T01:11:30+00:00,2,8.21,True,8,9,4,469,0,2,2,MERGED
+2725,display-sync-link,MagMueller,2025-08-19T16:55:33Z,2025-09-03T18:18:04+00:00,1,361.38,False,45,0,1,469,0,0,0,CLOSED
+2721,Added event timeouts config,andreigh,2025-08-19T07:28:19Z,2025-09-06T17:28:57+00:00,2,442.01,True,41,37,1,961,2,2,4,MERGED
+2719,clean-logs,MagMueller,2025-08-19T07:25:47Z,2025-08-19T08:38:37+00:00,1,1.21,True,188,166,20,1172,0,7,7,MERGED
+2706,Add Qwen LLM Provider Support,deggs7,2025-08-18T08:03:25Z,2025-09-08T00:06:39+00:00,1,496.05,False,773,0,8,1813,3,4,7,CLOSED
+2705,Generate python highlights for browser screenshot,MagMueller,2025-08-17T22:39:45Z,2025-08-30T04:54:32+00:00,3,294.25,True,624,41,6,856,4,8,12,MERGED
+2704,feat: set default working language to english,sauravpanda,2025-08-17T19:45:13Z,2025-08-19T03:34:16+00:00,1,31.82,True,3,0,3,245,0,0,0,MERGED
+2699,Set default cdp logging level,MagMueller,2025-08-16T19:57:58Z,2025-08-21T23:44:18+00:00,2,123.77,True,63,30,3,612,1,1,2,MERGED
+2697,fix send keys,MagMueller,2025-08-16T07:54:26Z,2025-08-16T23:42:20+00:00,1,15.8,False,91,11,1,546,1,1,2,CLOSED
+2695,"Fix Enter key handling, SwitchTab event, and rename ClickEvent(new_tab) to while_holding_ctrl",pirate,2025-08-15T23:45:37Z,2025-08-16T23:37:32+00:00,1,23.87,True,449,417,28,1865,0,14,14,MERGED
+2689,feat: disable debugger enable CDP call,reformedot,2025-08-15T11:04:30Z,2025-08-15T19:28:29+00:00,1,8.4,False,6,14,3,169,0,0,0,CLOSED
+2686,Fix Error Messages,mertunsall,2025-08-14T19:46:52Z,2025-08-14T21:54:21+00:00,4,2.12,True,128,39,3,505,3,1,4,MERGED
+2685,fixed the bug of only web in gmail_2fa_integration.py,Davda-James,2025-08-14T18:50:26Z,2025-09-06T17:26:05+00:00,1,550.59,True,4,6,1,732,2,0,2,MERGED
+2683,revert extract_structured_data prompt to old one..,mertunsall,2025-08-14T15:58:03Z,2025-08-14T17:25:11+00:00,2,1.45,False,0,1,1,367,1,1,2,CLOSED
+2680,Cross origin iframes,pirate,2025-08-14T12:05:58Z,2025-08-14T19:30:51+00:00,2,7.41,True,526,53,11,585,1,3,4,MERGED
+2677,increase-temperature,MagMueller,2025-08-14T03:59:15Z,2025-09-03T18:18:01+00:00,1,494.31,False,5,2,2,174,1,1,2,CLOSED
+2674,Extraction layer improvements,mertunsall,2025-08-13T22:10:25Z,2025-09-06T17:26:51+00:00,1,571.27,False,208,201,3,381,2,1,3,CLOSED
+2673,add StreamableHttp support to mcp,Anirudha619,2025-08-13T19:08:06Z,2025-08-14T19:39:32+00:00,1,24.52,True,70,14,1,778,4,0,4,MERGED
+2671,fix-browser-setup,MagMueller,2025-08-13T15:47:17Z,2025-08-14T20:02:42+00:00,2,28.26,False,253,68,7,469,4,1,5,CLOSED
+2670,increase-frequency_penalty,MagMueller,2025-08-13T13:45:42Z,2025-09-03T18:18:00+00:00,1,508.54,False,1,1,1,201,1,1,2,CLOSED
+2667,Experiment/extraction layer,mertunsall,2025-08-13T13:28:09Z,2025-09-06T17:27:17+00:00,2,579.99,False,166,329,4,402,0,1,1,CLOSED
+2666,Fix Structured Output for gpt-oss:20b in Browser_use,Zunysha,2025-08-13T08:13:01Z,2025-08-13T10:10:14+00:00,1,1.95,False,113,74,1,775,0,0,0,CLOSED
+2663,Integrated structured output handling for gpt-oss models in ChatOllama.,Zunysha,2025-08-13T04:59:05Z,2025-08-13T06:43:46+00:00,1,1.74,False,216,74,3,1289,0,3,3,CLOSED
+2657,Lucidic AI Examples / Docs,andy0liang,2025-08-12T19:22:36Z,2025-09-06T17:46:37+00:00,1,598.4,False,72,8,5,354,1,0,1,CLOSED
+2653,Chat ollama using gpt oss,Zunysha,2025-08-12T10:49:20Z,2025-08-13T04:16:26+00:00,1,17.45,False,32,28,2,1367,2,2,4,CLOSED
+2652,[feat] add pdf printer,Appointat,2025-08-12T05:47:49Z,2025-08-21T23:40:43+00:00,1,233.88,False,206,73,2,346,3,0,3,CLOSED
+2651,local-remote-split-dropdown,MagMueller,2025-08-12T04:25:12Z,2025-09-03T18:18:00+00:00,1,541.88,False,17808,10591,119,970,2,0,2,CLOSED
+2650,fix: correct method calls in custom hooks example (#2641),Louis454545,2025-08-11T18:51:35Z,2025-08-20T20:45:03+00:00,1,217.89,False,4,4,2,644,1,0,1,CLOSED
+2649,Fix #2614: Prevent QueueShutDown exception when using add_new_task + multiple runs,Louis454545,2025-08-11T18:06:52Z,2025-08-14T19:37:52+00:00,1,73.52,True,8,3,2,2147,3,0,3,MERGED
+2645,Fix #2610: Replace markdown-pdf with reportlab to resolve AGPL license conflict,Louis454545,2025-08-11T17:44:21Z,2025-09-06T17:53:34+00:00,1,624.15,True,30,5,2,1957,4,0,4,MERGED
+2644,Fix typo,weisserd,2025-08-11T17:02:03Z,2025-08-14T19:50:31+00:00,1,74.81,True,2,2,1,86,2,0,2,MERGED
+2642,Change agent_obj.browser_context to agent_obj.browser_session in custom-functions/custom_hooks_before_after_step.py,thafer6,2025-08-11T14:06:08Z,2025-09-06T17:51:13+00:00,1,627.75,False,2,2,1,777,3,0,3,CLOSED
+2637,improve: clarify language detection in system prompts,sauravpanda,2025-08-10T16:59:52Z,2025-08-10T18:21:57+00:00,1,1.37,True,3,6,3,112,2,0,2,MERGED
+2636,local-remote-split-type-fix-auto-enter,MagMueller,2025-08-10T16:12:13Z,2025-08-11T19:36:56+00:00,3,27.41,True,99,72,6,671,2,30,32,MERGED
+2635,Fix: Decouple use_vision and generate_gif settings,Louis454545,2025-08-10T12:16:44Z,2025-08-10T13:23:23+00:00,1,1.11,True,93,1,2,997,2,0,2,MERGED
+2622,Support structured output in system prompt,mertunsall,2025-08-07T20:57:54Z,2025-08-08T09:37:20+00:00,2,12.66,True,13,1,1,263,3,1,4,MERGED
+2611,Replace markdown-pdf with md2pdf for Licensing,mielverkerken,2025-08-06T10:10:41Z,2025-08-13T17:36:29+00:00,1,175.43,False,9,5,3,292,5,0,5,CLOSED
+2593,"fix(cli): add scrolling, Ctrl+C pause/resume, and enhanced model detection (#1887)",MagellaX,2025-08-03T07:35:41Z,2025-09-23T01:16:18+00:00,1,1217.68,False,132,13,1,1495,3,0,3,CLOSED
+2592,Optimize Token Usage for Better Performance and Cost Efficiency,naorsabag,2025-08-03T06:45:31Z,2025-09-06T19:01:22+00:00,1,828.26,False,1057,166,17,3491,8,1,9,CLOSED
+2588,Centralize LLM Capability Detection and Re-use Tool-Calling Autodetection (Issue #1808),MagellaX,2025-08-02T07:57:01Z,2025-09-06T19:11:03+00:00,3,851.23,False,344,17,10,2755,5,10,15,CLOSED
+2585,Fix step number,mertunsall,2025-08-01T18:48:08Z,2025-08-01T20:02:48+00:00,1,1.24,True,11,11,2,170,2,1,3,MERGED
+2583,Consolidate Agent pause/resume state management to eliminate desynchronization,MagellaX,2025-08-01T09:04:51Z,2025-09-06T16:31:44+00:00,6,871.45,True,88,39,4,3281,7,2,9,MERGED
+2580,Add Gemma Support,tpcgold,2025-07-31T11:10:44Z,2025-09-08T00:29:03+00:00,2,925.31,True,158,63,2,858,4,3,7,MERGED
+2579,feat(llm): add Qwen model integration support,zzxwill,2025-07-31T08:24:28Z,2025-09-06T15:49:53+00:00,1,895.42,False,317,0,4,857,4,1,5,CLOSED
+2573,Refactor `BrowserSession` to remove Playwright in favor of `cdp-use` and `bubus`,pirate,2025-07-30T06:23:10Z,2025-08-13T01:26:30+00:00,23,331.06,True,21516,10673,127,1210,9,28,37,MERGED
+2572,Update real-browser.mdx,AbhinavMalkoochi,2025-07-30T05:06:02Z,2025-07-30T08:04:13+00:00,1,2.97,True,2,2,1,450,2,0,2,MERGED
+2569,enhancement: Added detailed instructions for interacting with dropdown,Venkatesh188,2025-07-30T02:35:45Z,2025-07-30T08:11:53+00:00,1,5.6,True,5,0,1,1172,2,0,2,MERGED
+2568,Add helper function to get nicely formatted agent trace with metadata,Alezander9,2025-07-30T01:53:27Z,2025-07-31T00:48:20+00:00,3,22.91,True,148,7,9,517,1,3,4,MERGED
+2567,Tell the LLM whenever page loading is interrupted so it knows to use the `wait` action,pirate,2025-07-29T20:17:17Z,2025-07-30T00:41:30+00:00,1,4.4,True,13,0,3,299,2,0,2,MERGED
