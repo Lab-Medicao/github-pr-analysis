@@ -1,0 +1,151 @@
+number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+51093,Add existence check for go.mod and go.sum files,austinvazquez,2025-10-03T13:05:18Z,2025-10-03T22:00:22+00:00,2,8.92,True,21,0,1,237,2,0,2,MERGED
+51091,[28.x] Add back vendor.sum,austinvazquez,2025-10-02T22:22:12Z,2025-10-03T20:27:19+00:00,1,22.09,True,854,0,1,170,7,0,7,MERGED
+51089,dnm: test ci code build,austinvazquez,2025-10-02T20:54:59Z,2025-10-03T00:12:11+00:00,6,3.29,False,3,2,2,159,2,1,3,CLOSED
+51076,"client/build_*: Add options struct, wrap result",vvoland,2025-10-01T10:58:13Z,2025-10-01T18:17:06+00:00,3,7.31,True,34,18,6,159,0,2,2,MERGED
+51075,[28.x backport] vendor: github.com/moby/buildkit v0.25.0,vvoland,2025-10-01T09:53:37Z,2025-10-01T15:26:18+00:00,2,5.54,True,35,865,6,206,6,1,7,MERGED
+51074,vendor: github.com/moby/buildkit v0.25.0,jsternberg,2025-09-30T20:44:48Z,2025-10-01T12:11:17+00:00,3,15.44,True,37,13,6,188,2,1,3,MERGED
+51073,"daemon, client: remove version-gate for daemon-side AutoRemove",thaJeztah,2025-09-30T16:32:13Z,2025-10-03T22:01:00+00:00,1,77.48,True,12,41,4,1161,1,0,1,MERGED
+51072,api: omit legacy fields from image inspect if not set,thaJeztah,2025-09-30T15:00:22Z,2025-10-04T08:31:15+00:00,3,89.51,True,38,22,6,3799,1,0,1,MERGED
+51071,client: reduce uses of obsolete API versions in tests,thaJeztah,2025-09-30T12:40:30Z,2025-10-04T00:00:38+00:00,2,83.34,True,48,25,1,391,0,0,0,MERGED
+51070,"daemon/server: implement image-inspect with ""compat"" package",thaJeztah,2025-09-30T12:34:30Z,2025-10-02T19:34:45+00:00,1,55.0,True,12,8,1,684,1,0,1,MERGED
+51069,[28.x backport] api: swagger: remove VirtualSize fields for API > v1.43,thaJeztah,2025-09-30T11:21:09Z,2025-09-30T12:56:00+00:00,1,1.58,True,0,144,9,408,0,0,0,MERGED
+51068,api: swagger: remove VirtualSize fields for API > v1.43,thaJeztah,2025-09-30T11:15:35Z,2025-09-30T12:55:38+00:00,1,1.67,True,0,160,10,391,0,0,0,MERGED
+51067,[28.x backport] api: deprecate `KernelMemoryTCP` support,austinvazquez,2025-09-29T20:30:06Z,2025-09-30T08:31:27+00:00,1,12.02,True,52,19,10,479,0,0,0,MERGED
+51066,Deprecate and remove kernel memory tcp,austinvazquez,2025-09-29T19:09:36Z,2025-09-30T08:29:20+00:00,2,13.33,True,27,76,14,485,0,2,2,MERGED
+51064,[28.x backport] Eliminate warning about endpoint count store delete,thaJeztah,2025-09-29T13:17:38Z,2025-09-29T15:21:27+00:00,1,2.06,True,8,9,1,651,1,0,1,MERGED
+51063,"daemon/libnetwork/internal/kvstore: remove unused `BOLTDB`, `Backend` type, and `ErrBackendNotSupported`",thaJeztah,2025-09-29T12:55:20Z,2025-09-29T14:47:00+00:00,1,1.86,True,0,8,1,440,0,0,0,MERGED
+51062,Eliminate warning about endpoint count store delete,robmry,2025-09-29T10:41:17Z,2025-09-29T13:15:07+00:00,3,2.56,True,8,9,1,644,2,0,2,MERGED
+51061,[28.x backport] api/docs: remove email field from example auth,thaJeztah,2025-09-29T09:32:14Z,2025-09-29T12:30:22+00:00,1,2.97,True,0,28,28,362,0,0,0,MERGED
+51060,api/docs: remove email field from example auth,thaJeztah,2025-09-29T09:29:35Z,2025-09-29T12:33:07+00:00,1,3.06,True,0,27,27,345,0,0,0,MERGED
+51059,api/types/registry: remove deprecated AuthConfig.Email field,thaJeztah,2025-09-29T09:20:38Z,2025-09-29T12:29:29+00:00,1,3.15,True,0,24,4,534,0,0,0,MERGED
+51058,vendor: github.com/deckarep/golang-set/v2 v2.8.0,thaJeztah,2025-09-29T08:27:25Z,2025-09-29T14:47:31+00:00,1,6.33,True,242,89,9,482,1,0,1,MERGED
+51055,"client,  integration-cli: adjust for go1.25, TLS1.3 handshake",thaJeztah,2025-09-26T17:40:17Z,2025-09-29T13:06:07+00:00,3,67.43,True,58,6,3,1072,0,1,1,MERGED
+51052,[28.x backport] api/checkpoint: Don't return null if no checkpoints,vvoland,2025-09-26T14:48:16Z,2025-09-26T22:50:13+00:00,1,8.03,True,3,0,1,731,0,0,0,MERGED
+51051,api/checkpoint: Don't return null if no checkpoints,vvoland,2025-09-26T14:46:02Z,2025-09-26T17:27:03+00:00,2,2.68,True,3,0,1,711,0,1,1,MERGED
+51050,client/checkpoint_list: Wrap result in a struct,vvoland,2025-09-26T13:27:55Z,2025-09-26T16:43:07+00:00,2,3.25,True,30,24,6,221,2,0,2,MERGED
+51048,vendor: github.com/hashicorp/go-memdb v1.3.5,thaJeztah,2025-09-25T23:03:00Z,2025-09-27T15:45:00+00:00,1,40.7,True,162,36,13,206,0,0,0,MERGED
+51046,vendor: github.com/opencontainers/cgroups v0.0.5,thaJeztah,2025-09-25T19:02:13Z,2025-09-27T15:44:17+00:00,1,44.7,True,9,4,4,273,0,0,0,MERGED
+51045,use t.Context() instead of context.TODO() in various tests,thaJeztah,2025-09-25T17:30:47Z,2025-09-26T09:09:02+00:00,2,15.64,True,87,94,25,112,0,1,1,MERGED
+51043,vendor: github.com/coreos/go-systemd/v22 v22.6.0,thaJeztah,2025-09-25T11:46:46Z,2025-09-25T19:01:19+00:00,2,7.24,True,83,71,10,354,0,0,0,MERGED
+51039,[28.x backport] gha: Add conditional skip for jobs with 'ci/validate-only' label,thaJeztah,2025-09-24T22:06:53Z,2025-09-25T08:14:41+00:00,1,10.13,True,23,4,7,501,0,0,0,MERGED
+51038,"[28.x backport] api: docs: remove deprecated BridgeNfIptables, BridgeNfIp6tables",thaJeztah,2025-09-24T21:48:08Z,2025-09-25T11:25:46+00:00,2,13.63,True,4,73,5,345,0,0,0,MERGED
+51035,[28.x backport] ipams: Re-enable legacy remote plugins support,vvoland,2025-09-24T11:27:30Z,2025-09-24T15:17:12+00:00,1,3.83,True,3,5,1,565,0,0,0,MERGED
+51034,"[28.x backport] api/docs: remove temporary ""full"" example for image config",vvoland,2025-09-24T11:24:36Z,2025-09-24T15:04:15+00:00,1,3.66,True,0,93,3,530,0,0,0,MERGED
+51033,Use libnftables in dynamically linked binary,robmry,2025-09-24T11:03:04Z,2025-10-03T15:53:06+00:00,5,220.83,True,194,59,8,1137,2,3,5,MERGED
+51032,[28.x] vendor: github.com/moby/buildkit v0.25.0-rc1,vvoland,2025-09-24T09:54:38Z,2025-09-24T16:26:09+00:00,5,6.53,True,1504,943,77,157,2,1,3,MERGED
+51031,vendor: opencontainers/runtime-tools v0.9.1-0.20250523060157-0ea5ed0382a2,thaJeztah,2025-09-24T08:04:02Z,2025-09-25T19:01:02+00:00,2,34.95,True,621,445,21,598,0,0,0,MERGED
+51029,vendor: update buildkit to v0.25.0-rc1,tonistiigi,2025-09-23T20:34:55Z,2025-09-24T11:51:38+00:00,4,15.28,True,1503,942,77,250,1,2,3,MERGED
+51027,"api: docs: remove deprecated BridgeNfIptables, BridgeNfIp6tables",thaJeztah,2025-09-23T16:21:00Z,2025-09-23T18:53:13+00:00,1,2.54,True,4,96,6,326,0,0,0,MERGED
+51025,"daemon/server/imagebackend: add PullOptions, PushOptions structs",thaJeztah,2025-09-23T08:04:01Z,2025-09-23T10:10:16+00:00,1,2.1,True,118,34,11,984,3,0,3,MERGED
+51024,daemon/containerd: pass custom metaHeaders to resolver,thaJeztah,2025-09-23T07:38:50Z,2025-09-25T11:26:44+00:00,2,51.8,True,6,3,3,1817,3,1,4,MERGED
+51023,integration/service: rename var to prevent shadowing,thaJeztah,2025-09-22T12:35:20Z,2025-09-23T08:50:56+00:00,1,20.26,True,66,66,2,271,0,0,0,MERGED
+51022,Dockerfile: update xx to v1.7.0,thaJeztah,2025-09-22T11:05:42Z,2025-09-22T19:02:49+00:00,1,7.95,True,8,2,2,201,0,0,0,MERGED
+51021,testutil:SetupTestOSContext - fix ns/netlink handle leaks,robmry,2025-09-22T10:34:04Z,2025-09-23T19:03:49+00:00,7,32.5,True,72,18,4,1196,1,2,3,MERGED
+51020,client: Client.negotiateAPIVersionPing: trim v-prefix before handling,thaJeztah,2025-09-22T10:26:49Z,2025-09-22T16:25:38+00:00,1,5.98,True,35,19,4,944,0,0,0,MERGED
+51019,"client: ContainerCommitOptions: change ""Pause"" to ""NoPause""",thaJeztah,2025-09-22T10:22:22Z,2025-09-23T10:50:50+00:00,1,24.47,True,13,8,6,1583,1,0,1,MERGED
+51018,project: mark 23.0 branch as unmaintained (EOL),thaJeztah,2025-09-22T08:11:55Z,2025-09-22T16:26:11+00:00,3,8.24,True,2,2,1,241,1,1,2,MERGED
+51011,client: remove unused Client.HTTPClient() method,thaJeztah,2025-09-19T15:09:00Z,2025-09-22T09:28:48+00:00,1,66.33,True,0,16,4,986,0,0,0,MERGED
+51009,ipams: Re-enable legacy remote plugins support,olljanat,2025-09-19T06:34:22Z,2025-09-19T14:26:05+00:00,4,7.86,True,3,5,1,599,3,1,4,MERGED
+51006,client: remove deprecated ImageListOptions.ContainerCount,thaJeztah,2025-09-18T20:58:26Z,2025-09-19T08:17:25+00:00,1,11.32,True,0,10,2,481,0,0,0,MERGED
+51005,client: fix some version-related handling,thaJeztah,2025-09-18T16:05:38Z,2025-09-19T09:57:48+00:00,1,17.87,True,47,161,11,3319,1,0,1,MERGED
+51003,client: rename validateAPIVersion to validateServiceSpecForAPIVersion,thaJeztah,2025-09-17T23:08:22Z,2025-09-18T09:34:29+00:00,1,10.44,True,4,4,2,223,0,0,0,MERGED
+51002,client: WithMockClient: match version behavior of actual client,thaJeztah,2025-09-17T23:05:45Z,2025-09-18T12:50:54+00:00,4,13.75,True,389,626,93,914,2,2,4,MERGED
+51001,client: Client.ContainerCreate: fix panic when passing a nil config,thaJeztah,2025-09-17T20:53:13Z,2025-09-18T09:34:57+00:00,1,12.7,True,23,9,3,877,0,0,0,MERGED
+51000,daemon/config: More tests for DNS addresses,postmasters,2025-09-17T17:11:13Z,2025-09-19T09:49:21+00:00,2,40.64,True,25,0,1,138,9,0,9,MERGED
+50998,api/types/network: CreateRequest: remove deprecated CheckDuplicate field,thaJeztah,2025-09-17T12:10:18Z,2025-09-18T12:50:10+00:00,3,24.66,True,40,14,4,976,8,0,8,MERGED
+50997,client: separate exec methods to ExecAPIClient interface,thaJeztah,2025-09-17T10:56:04Z,2025-09-18T09:36:48+00:00,2,22.68,True,18,10,2,209,0,1,1,MERGED
+50996,daemon/server: minor refactor and cleanup,thaJeztah,2025-09-17T10:47:18Z,2025-09-19T08:18:10+00:00,1,45.51,True,5,3,2,142,0,0,0,MERGED
+50995,client: ImageBuildResponse: remove OSType field,thaJeztah,2025-09-17T10:38:22Z,2025-09-17T13:15:14+00:00,1,2.61,True,5,13,5,1281,0,0,0,MERGED
+50994,"integration-cli: remove startContainerGetOutput, runCommandWithOutput",thaJeztah,2025-09-17T10:08:00Z,2025-09-17T11:35:09+00:00,2,1.45,True,49,57,6,290,0,1,1,MERGED
+50992,"daemon/server/backend: remove ExecInspect, ExecProcessConfig alias",thaJeztah,2025-09-16T16:00:37Z,2025-09-17T10:38:50+00:00,1,18.64,True,4,12,3,738,0,0,0,MERGED
+50991,api/types/container: move ExecInspect type to client,thaJeztah,2025-09-16T14:48:49Z,2025-09-17T10:39:48+00:00,2,19.85,True,69,43,7,807,0,1,1,MERGED
+50989,remove support for deprecated kernel memory limit,thaJeztah,2025-09-16T11:23:23Z,2025-09-17T10:06:19+00:00,3,22.72,True,0,181,31,1518,1,1,2,MERGED
+50988,gha: add missing dependency to Windows workflows,vvoland,2025-09-16T09:51:32Z,2025-09-16T11:18:03+00:00,1,1.44,True,2,0,2,155,0,0,0,MERGED
+50987,move endpoint API version constraints to API server,thaJeztah,2025-09-16T09:47:29Z,2025-09-16T16:59:18+00:00,2,7.2,True,54,240,56,1397,1,0,1,MERGED
+50986,daemon/server: fix requests not logged with --log-level=trace,thaJeztah,2025-09-16T08:03:25Z,2025-09-16T10:47:12+00:00,2,2.73,True,1,1,1,7623,1,0,1,MERGED
+50984,client: remove support for API < v1.22 (docker < 1.10)  filter format,thaJeztah,2025-09-15T19:30:23Z,2025-09-16T10:17:06+00:00,1,14.78,True,4,236,15,1297,0,0,0,MERGED
+50982,API: /info: remove `SecurityOptions` re-formatting for API < 1.25,thaJeztah,2025-09-15T15:45:26Z,2025-09-16T11:28:26+00:00,1,19.72,True,4,56,3,1844,0,0,0,MERGED
+50981,API: /info: remove magic `<unknown>` values for API < 1.39,thaJeztah,2025-09-15T12:33:42Z,2025-09-15T15:42:16+00:00,2,3.14,True,0,8,1,650,0,0,0,MERGED
+50980,api/docs: sync swagger and update changelog,thaJeztah,2025-09-15T11:27:28Z,2025-09-15T15:42:07+00:00,1,4.24,True,65,151,2,381,0,0,0,MERGED
+50979,client: tidy go.mod,thaJeztah,2025-09-15T10:03:35Z,2025-09-15T15:36:31+00:00,1,5.55,True,0,2,1,131,0,0,0,MERGED
+50978,"client: move ExecStartOptions, ExecAttachOptions, ExecOptions to client",thaJeztah,2025-09-15T09:59:25Z,2025-09-16T13:58:30+00:00,6,27.98,True,230,129,22,498,1,3,4,MERGED
+50977,daemon/config: remove deprecated CommonConfig.CorsHeaders,thaJeztah,2025-09-15T09:12:27Z,2025-09-15T12:58:39+00:00,1,3.77,True,0,13,3,340,0,0,0,MERGED
+50961,Windows containers: report HNS network name in inspect,robmry,2025-09-12T15:16:07Z,2025-09-16T12:39:37+00:00,3,93.39,True,5,2,2,1593,3,0,3,MERGED
+50959,api/types/container: remove deprecated ExecOptions.Detach,thaJeztah,2025-09-12T08:19:55Z,2025-09-15T07:50:27+00:00,1,71.51,True,0,6,2,497,0,0,0,MERGED
+50958,daemon: remove some deprecated functions,thaJeztah,2025-09-12T08:00:52Z,2025-09-15T07:49:43+00:00,1,71.81,True,0,21,3,452,0,0,0,MERGED
+50957,daemon: fix build after revendoring api module,corhere,2025-09-11T21:10:42Z,2025-09-11T23:50:18+00:00,6,2.66,True,16,122,6,363,0,1,1,MERGED
+50956,api: change IP address fields over to netip types,corhere,2025-09-11T17:43:16Z,2025-10-03T21:10:05+00:00,9,531.45,True,1388,1429,120,1218,3,17,20,MERGED
+50954,daemon/i/compat: disable HTML encoding,akerouanton,2025-09-11T13:09:41Z,2025-09-11T15:24:54+00:00,2,2.25,True,59,3,2,598,1,1,2,MERGED
+50953,fix content-type declared by /events API,ndeloof,2025-09-11T10:57:20Z,2025-10-03T21:50:58+00:00,9,538.89,True,228,15,12,594,12,16,28,MERGED
+50949,api/docs: fix events example response,thaJeztah,2025-09-10T12:42:57Z,2025-09-11T08:00:37+00:00,1,19.29,True,0,20,1,266,0,0,0,MERGED
+50946,daemon: report IPAM status for Swarm networks,corhere,2025-09-09T21:39:44Z,2025-09-15T17:00:32+00:00,2,139.35,True,1790,380,31,394,0,0,0,MERGED
+50945,Tidy up when endpoint join fails,robmry,2025-09-09T17:51:48Z,2025-09-12T12:05:10+00:00,3,66.22,True,181,147,5,649,0,1,1,MERGED
+50941,[23.0 backport] Fix download-frozen-image-v2,vvoland,2025-09-09T15:52:28Z,2025-09-09T17:34:57+00:00,1,1.71,True,5,24,1,561,0,0,0,MERGED
+50940,[23.0 backport] Dockerfile.windows: remove deprecated 7Zip4Powershell ,vvoland,2025-09-09T15:36:39Z,2025-09-10T09:08:32+00:00,1,17.53,True,1,4,1,869,1,0,1,MERGED
+50939,[25.0 backport] Dockerfile.windows: remove deprecated 7Zip4Powershell ,vvoland,2025-09-09T15:36:12Z,2025-09-09T17:35:21+00:00,1,1.99,True,1,4,1,869,0,0,0,MERGED
+50938,[28.x backport] Dockerfile.windows: remove deprecated 7Zip4Powershell ,vvoland,2025-09-09T15:35:36Z,2025-09-09T16:48:30+00:00,2,1.22,True,1,4,1,869,1,0,1,MERGED
+50937,gha: extract vm test to a separate workflow,vvoland,2025-09-09T14:31:55Z,2025-09-09T16:45:03+00:00,3,2.22,True,46,19,2,216,1,0,1,MERGED
+50936,Dockerfile.windows: remove deprecated 7Zip4Powershell ,vvoland,2025-09-09T12:52:25Z,2025-09-09T15:21:02+00:00,3,2.48,True,1,4,1,851,0,0,0,MERGED
+50931,gha: Add automatic PR labeling for modules,vvoland,2025-09-08T19:42:47Z,2025-09-17T11:26:57+00:00,1,207.74,True,26,0,2,292,0,0,0,MERGED
+50930,client: remove ImageInspectWithAPIOpts function,vvoland,2025-09-08T19:27:11Z,2025-09-09T16:25:31+00:00,1,20.97,True,2,10,1,383,0,0,0,MERGED
+50929,"macvlan, ipvlan-l2: only configure a default route when a gateway address is supplied",robmry,2025-09-08T18:52:22Z,2025-09-16T17:09:30+00:00,5,190.29,True,145,113,12,1459,0,2,2,MERGED
+50928,go.mod: re-add replace github.com/moby/moby/api,akerouanton,2025-09-08T18:06:17Z,2025-09-10T12:37:30+00:00,1,42.52,True,4,194,4,119,5,0,5,MERGED
+50923,testutil: move back to internal and merge internal/testutils,thaJeztah,2025-09-06T19:49:30Z,2025-09-08T10:46:52+00:00,2,38.96,True,369,368,265,310,2,0,2,MERGED
+50921,daemon: GetContainerStats: use errdefs for error-type handling,thaJeztah,2025-09-06T00:21:17Z,2025-09-08T02:58:00+00:00,1,50.61,True,15,15,1,231,0,0,0,MERGED
+50920,errdefs: remove deprecated IsXXX utilities,thaJeztah,2025-09-06T00:09:29Z,2025-09-08T02:56:03+00:00,2,50.78,True,0,220,3,298,0,0,0,MERGED
+50919,update AUTHORS,thaJeztah,2025-09-05T21:45:25Z,2025-09-05T23:10:40+00:00,1,1.42,True,20,0,1,159,0,0,0,MERGED
+50918,Prepare release notes for v2.0.0-beta.0,dmcgowan,2025-09-05T21:23:04Z,2025-09-05T23:49:30+00:00,1,2.44,True,215,4,5,23821,6,0,6,MERGED
+50917,"api, daemon: report IPAM status for local-scope networks",corhere,2025-09-05T21:13:02Z,2025-09-10T17:05:34+00:00,8,115.88,True,1001,85,28,569,1,9,10,MERGED
+50915,api: image inspect: remove temporary backfill for Config fields,thaJeztah,2025-09-05T20:03:33Z,2025-09-11T19:21:31+00:00,2,143.3,True,16,10,4,684,0,0,0,MERGED
+50914,testutil/daemon: fix some footguns for running integration tests interactively,corhere,2025-09-05T20:01:25Z,2025-09-06T00:03:44+00:00,2,4.04,True,8,4,1,2064,0,0,0,MERGED
+50913,Prepare release notes for client/v0.1.0-beta.0,dmcgowan,2025-09-05T17:40:57Z,2025-09-05T19:59:48+00:00,1,2.31,True,198,83,8,16921,3,0,3,MERGED
+50910,"api/docs: remove temporary ""full"" example for image config",thaJeztah,2025-09-05T16:33:31Z,2025-09-05T17:59:20+00:00,2,1.43,True,0,124,4,512,1,0,1,MERGED
+50909,api/types/image: move LoadResponse to client,thaJeztah,2025-09-05T13:17:38Z,2025-09-05T16:27:58+00:00,1,3.17,True,70,76,6,298,0,0,0,MERGED
+50907,api/types/build: move build options to client and backend,thaJeztah,2025-09-05T12:51:46Z,2025-09-05T17:46:25+00:00,4,4.91,True,437,416,38,157,2,2,4,MERGED
+50906,contrib/check-config: check SCTP protocol option,randomnoise,2025-09-05T08:43:07Z,2025-09-08T12:25:00+00:00,1,75.7,True,1,0,1,761,0,0,0,MERGED
+50905,api/types/checkpoint: move checkpoint options to client,thaJeztah,2025-09-05T07:47:43Z,2025-09-05T11:01:52+00:00,1,3.24,True,120,86,20,696,0,0,0,MERGED
+50904,Prepare release notes for api/v1.52.0-beta.0,dmcgowan,2025-09-05T06:15:27Z,2025-09-05T17:12:19+00:00,2,10.95,True,1,0,2,21926,1,0,1,MERGED
+50901,"vendor github.com/spf13/pflag v1.0.10, github.com/spf13/cobra v1.10.1",thaJeztah,2025-09-04T21:28:44Z,2025-09-05T08:52:14+00:00,1,11.39,True,783,70,19,289,0,0,0,MERGED
+50900,"gha: skip ""vm"" checks if `ci/validate-only` label is set",thaJeztah,2025-09-04T20:23:02Z,2025-09-05T08:26:01+00:00,1,12.05,True,2,1,1,567,1,0,1,MERGED
+50899,api/docs: update v1.52 docs with current swagger,thaJeztah,2025-09-04T19:53:22Z,2025-09-04T20:58:19+00:00,1,1.08,True,3,0,1,131,1,0,1,MERGED
+50897,api/types/container: move container options to client,thaJeztah,2025-09-04T15:59:59Z,2025-09-05T07:29:57+00:00,9,15.5,True,731,744,135,528,2,5,7,MERGED
+50893,api/types/image: make `InspectResponse.GraphDriver` optional,austinvazquez,2025-09-04T13:12:11Z,2025-09-04T19:08:26+00:00,4,5.94,True,7,9,6,624,3,1,4,MERGED
+50890,[28.x backport] update to go1.24.7,vvoland,2025-09-03T18:34:34Z,2025-09-03T20:28:49+00:00,1,1.9,True,13,13,13,841,0,0,0,MERGED
+50889,update to go1.24.7,vvoland,2025-09-03T18:33:11Z,2025-09-03T20:18:07+00:00,1,1.75,True,15,15,15,819,0,0,0,MERGED
+50888,[28.x backport] vendor: update buildkit to v0.24.0,vvoland,2025-09-03T16:48:03Z,2025-09-03T18:30:05+00:00,1,1.7,True,8,10,5,261,0,0,0,MERGED
+50885,vendor: update buildkit to v0.24.0,crazy-max,2025-09-03T15:07:46Z,2025-09-03T18:26:51+00:00,3,3.32,True,8,10,5,242,3,0,3,MERGED
+50883,libcontainerd/remote: assorted cleanups,thaJeztah,2025-09-03T10:43:35Z,2025-09-03T22:41:50+00:00,1,11.97,True,35,42,1,1562,1,0,1,MERGED
+50881,daemon: Daemon.ContainerExecStart: fix typo in log field,thaJeztah,2025-09-03T09:35:39Z,2025-09-03T20:57:52+00:00,1,11.37,True,1,1,1,230,0,0,0,MERGED
+50880,daemon/srv/r/ctr: handlePortBindingsBC: fix warning,akerouanton,2025-09-03T09:21:46Z,2025-09-03T12:50:32+00:00,2,3.48,True,8,4,2,183,0,0,0,MERGED
+50879,contrib: remove udev rules for hiding loopback devices,thaJeztah,2025-09-02T21:33:10Z,2025-09-03T10:46:54+00:00,2,13.23,True,0,3,1,404,1,0,1,MERGED
+50878,api/types/network: separate Summary from Inspect,corhere,2025-09-02T20:31:26Z,2025-09-04T19:36:01+00:00,2,47.08,True,147,81,11,964,1,1,2,MERGED
+50877,Bump go.mod minimum-go-version to 1.24,robmry,2025-09-02T18:03:04Z,2025-09-02T20:59:24+00:00,3,2.94,True,2,2,2,313,0,0,0,MERGED
+50875,[28.x backport] c8d/history: Fix non-native platforms,vvoland,2025-09-02T12:51:25Z,2025-09-02T14:16:20+00:00,1,1.42,True,204,13,4,374,0,0,0,MERGED
+50874,daemon: backfill empty PBs slices for backward compat,akerouanton,2025-09-02T12:04:50Z,2025-09-02T21:49:35+00:00,3,9.75,True,209,0,5,771,4,2,6,MERGED
+50871,[28.x backport] graphdriver/windows: Potential fix for access denied,vvoland,2025-09-02T08:32:50Z,2025-09-02T09:56:42+00:00,2,1.4,True,16,28,1,1260,0,0,0,MERGED
+50870,graphdriver/windows: Potential fix for access denied,vvoland,2025-09-01T14:19:26Z,2025-09-02T08:17:57+00:00,2,17.98,True,16,28,1,1242,0,0,0,MERGED
+50869,daemon: Fix unwanted c8d migration on Windows,vvoland,2025-09-01T14:14:50Z,2025-09-25T11:13:40+00:00,2,572.98,True,10,6,2,3881,8,1,9,MERGED
+50868,[28.x backport] migrate test api images history integration cli test to integration test,vvoland,2025-09-01T14:12:16Z,2025-09-01T16:53:09+00:00,1,2.68,True,33,26,2,554,1,0,1,MERGED
+50867,c8d/history: Fix non-native platforms,vvoland,2025-09-01T14:09:18Z,2025-09-02T12:39:50+00:00,2,22.51,True,204,14,4,354,4,2,6,MERGED
+50866,libnet/drivers: rm dummy '*manager' drivers ,akerouanton,2025-09-01T14:07:39Z,2025-09-02T21:22:56+00:00,3,31.25,True,159,458,26,1779,0,2,2,MERGED
+50865,[28.x backport] vendor: github.com/moby/buildkit v0.24.0-rc2,crazy-max,2025-09-01T12:57:53Z,2025-09-01T16:16:33+00:00,1,3.31,True,363,112,17,364,0,0,0,MERGED
+50864,libnet/d/bridge: Register: pass a Configuration struct,akerouanton,2025-09-01T09:40:24Z,2025-09-03T14:20:38+00:00,6,52.67,True,155,368,27,239,0,2,2,MERGED
+50861,"hack/dind-systemd: enable, collect firewalld debug logs",akerouanton,2025-08-30T07:47:28Z,2025-09-02T09:32:12+00:00,4,73.75,True,29,3,1,538,0,1,1,MERGED
+50860,daemon: filter networks before converting to API types,corhere,2025-08-30T00:30:17Z,2025-09-04T17:48:07+00:00,11,137.3,True,606,351,13,2436,0,12,12,MERGED
+50858,vendor: update buildkit to v0.24.0-rc2,tonistiigi,2025-08-29T22:22:34Z,2025-09-01T16:15:23+00:00,9,65.88,True,363,112,17,189,1,1,2,MERGED
+50857,Add container inspect storage field,austinvazquez,2025-08-29T21:56:43Z,2025-09-26T22:49:07+00:00,20,672.87,True,213,8,14,465,1,10,11,MERGED
+50856,hack: use heredocs in generate-swagger-api.sh,corhere,2025-08-29T20:59:31Z,2025-09-04T18:59:07+00:00,4,141.99,True,92,61,1,540,0,1,1,MERGED
+50855,api/types/network: generate network-inspect struct definitions from Swagger spec,corhere,2025-08-29T19:24:40Z,2025-09-05T17:20:43+00:00,13,165.93,True,744,239,21,1419,4,5,9,MERGED
+50852,"daemon/internal: add ""compat"" package for legacy responses",thaJeztah,2025-08-29T17:36:18Z,2025-09-11T07:29:57+00:00,1,301.89,True,182,0,2,406,5,0,5,MERGED
+50850,d/libn/internal/addrset: add popcount methods,corhere,2025-08-29T16:54:37Z,2025-09-04T19:04:22+00:00,3,146.16,True,157,0,2,529,2,1,3,MERGED
+50848,"api/t/ctr: deprecate NetworkSettingsBase, DefaultNetworkSettings",akerouanton,2025-08-29T13:41:16Z,2025-08-29T14:45:50+00:00,6,1.08,True,102,49,11,1167,0,1,1,MERGED
+50847,client: Migrate tests to use functional opts and extract `clientConfig`,vvoland,2025-08-29T13:20:56Z,2025-09-03T13:41:11+00:00,5,120.34,True,2597,2712,99,326,0,2,2,MERGED
+50846,"api/t/ctr: drop NetworkSettingsBase, DefaultNetworkSettings",akerouanton,2025-08-29T12:55:55Z,2025-09-11T20:00:06+00:00,3,319.07,True,25,224,4,433,5,1,6,MERGED
+50845,nftables: iterate over rules,robmry,2025-08-29T11:16:49Z,2025-09-03T15:29:48+00:00,3,124.22,True,3,19,1,467,1,0,1,MERGED
+50844,vendor: github.com/ishidawataru/sctp v0.0.0-20250829011129-4b890084db30,akerouanton,2025-08-29T05:59:54Z,2025-08-29T08:30:22+00:00,2,2.51,True,13,9,5,202,0,0,0,MERGED
+50843,daemon: refactor network-list filtering code; unify list and prune filter terms,corhere,2025-08-28T22:23:43Z,2025-09-04T17:48:09+00:00,1,163.41,False,356,283,13,911,0,2,2,CLOSED
+50842,daemon/cluster: improve use of lockedManagerAction,corhere,2025-08-28T16:29:21Z,2025-08-29T18:34:35+00:00,2,26.09,True,173,209,9,513,0,0,0,MERGED
+50841,d/libnet: TestUserChain: fix error matching for nonexistent chains,akerouanton,2025-08-28T15:43:13Z,2025-08-28T17:21:41+00:00,1,1.64,True,26,3,1,584,0,0,0,MERGED
+50839,"[28.x] deprecate NetworkSettingsBase, DefaultNetworkSettings ",akerouanton,2025-08-28T14:11:18Z,2025-08-29T17:38:33+00:00,10,27.45,True,65,40,11,1056,0,4,4,MERGED
+50837,[28.x backport] Fix image prune events for containerd backend,thaJeztah,2025-08-28T11:59:56Z,2025-08-28T13:48:23+00:00,1,1.81,True,16,6,1,543,1,0,1,MERGED

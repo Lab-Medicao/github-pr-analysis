@@ -12,7 +12,14 @@ query TopRepositories($after: String) {
           owner {
             login
           }
+          primaryLanguage {
+            name
+          }
           stargazerCount
+          forkCount
+          releases {
+            totalCount
+          }
           pullRequests(states: [MERGED, CLOSED]) {
             totalCount
           }

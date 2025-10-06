@@ -1,0 +1,151 @@
+number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+14399,Update json version 8.3.80,gabsow,2025-09-30T15:43:09Z,2025-09-30T17:06:17+00:00,1,1.39,True,1,1,1,0,0,0,0,MERGED
+14398,Update bloom v8.3.80,gabsow,2025-09-30T15:06:40Z,2025-09-30T17:05:40+00:00,1,1.98,True,1,1,1,0,0,0,0,MERGED
+14397,Update time series v8.3.80,gabsow,2025-09-30T15:05:09Z,2025-09-30T17:05:04+00:00,1,2.0,True,1,1,1,0,0,0,0,MERGED
+14395,Release 7.4.6,YaacovHazan,2025-09-30T12:18:19Z,2025-10-03T06:13:36+00:00,4,65.92,True,293,54,19,0,0,3,3,MERGED
+14392,Release 8.0.4,YaacovHazan,2025-09-29T19:39:26Z,2025-10-03T06:15:22+00:00,2,82.6,True,629,92,27,0,0,2,2,MERGED
+14389,Release 8.2.2,YaacovHazan,2025-09-28T19:55:38Z,2025-10-03T06:17:12+00:00,1,106.36,True,257,55,16,0,1,0,1,MERGED
+14388,MOD-11572: Bump RediSearch to v8.2.5 for Redis 8.2.2,oshadmi,2025-09-28T17:51:36Z,2025-09-28T19:32:45+00:00,1,1.69,True,1,1,1,1049,3,0,3,MERGED
+14386,Update RedisJSON to 8.2.2,gabsow,2025-09-28T07:31:46Z,2025-09-28T19:28:02+00:00,1,11.94,True,1,1,1,121,1,0,1,MERGED
+14385,Update RedisBloom to 8.2.2,gabsow,2025-09-28T07:25:16Z,2025-09-28T19:28:31+00:00,1,12.05,True,1,1,1,86,3,0,3,MERGED
+14373,[RED-170693] Limit efSearch parameter to avoid heap overflow,JoanFM,2025-09-19T07:05:31Z,2025-10-05T08:15:25+00:00,8,385.17,True,36,2,2,339,3,2,5,MERGED
+14369,Fix potential division by zero in LRU test mode in redis-cli,RushabhMehta2005,2025-09-18T19:02:39Z,2025-09-19T03:54:35+00:00,3,8.87,True,3,2,1,798,3,0,3,MERGED
+14367,Fix span calculation in skiplist node deletion,fanpei91,2025-09-18T13:38:19Z,2025-09-18T15:41:58+00:00,3,2.06,False,1,1,1,165,2,1,3,CLOSED
+14354,Remove unnecessary skip:external for module tests,StavRLevi,2025-09-14T11:07:00Z,2025-09-28T14:09:50+00:00,2,339.05,True,4,4,3,75,2,0,2,MERGED
+14351,Change `ps` command options to work on Solaris,YangboLong,2025-09-12T11:22:52Z,2025-09-28T05:28:22+00:00,9,378.09,True,27,7,1,90,1,9,10,MERGED
+14347,Implement garbage collection logic in `streamTrim`,DengY11,2025-09-10T16:42:42Z,2025-09-25T14:23:03+00:00,2,357.67,False,83,5,1,639,6,8,14,CLOSED
+14344,Fix Active Defrag HFE with large_ebrax test,sundb,2025-09-09T14:01:45Z,2025-09-11T12:59:47+00:00,10,46.97,True,4,4,1,4291,2,2,4,MERGED
+14333,Add modules to make test,StavRLevi,2025-09-04T08:11:51Z,2025-09-04T10:22:14+00:00,1,2.17,True,1,1,1,353,1,0,1,MERGED
+14330,Fix defrag issues for pubsub and lua,sundb,2025-09-04T02:18:47Z,2025-09-07T09:07:48+00:00,2,78.82,True,36,6,4,536,1,1,2,MERGED
+14329,Fix minor issues in the latency report,caipengbo,2025-09-03T11:31:20Z,2025-09-08T08:41:28+00:00,3,117.17,False,1,1,1,337,4,1,5,CLOSED
+14328,Fix module_tests dependency to resolve parallel build issues,sundb,2025-09-03T08:32:53Z,2025-09-03T12:48:24+00:00,2,4.26,True,1,1,1,1597,1,0,1,MERGED
+14327,Avoid OOM error on very big args due to allocation of very big query buffer,oranagra,2025-09-02T14:41:19Z,2025-09-07T13:56:39+00:00,5,119.26,True,20,3,2,435,1,1,2,MERGED
+14326,Introduce DEBUG_DEFRAG compilation option to allow run test with activedefrag when allocator is not jemalloc,sundb,2025-09-02T04:31:57Z,2025-09-10T04:52:20+00:00,3,192.34,True,135,22,20,767,10,5,15,MERGED
+14323,Fix defrag issues for stream defrag and HFE,sundb,2025-09-01T10:48:41Z,2025-09-08T09:52:30+00:00,13,167.06,True,36,15,2,779,3,9,12,MERGED
+14319,Fix crash during lua script defrag,sundb,2025-08-29T07:03:02Z,2025-09-02T02:51:45+00:00,10,91.81,True,16,11,3,19034,7,6,13,MERGED
+14317,[vector sets] Add --ollama-url option to configure embedding server,RushabhMehta2005,2025-08-28T17:00:10Z,2025-09-15T01:33:18+00:00,9,416.55,True,14,1,1,378,9,2,11,MERGED
+14312,Fix timing issue for sentinel master-reboot test,sundb,2025-08-28T02:17:08Z,2025-09-05T06:49:19+00:00,1,196.54,True,5,1,1,2899,2,0,2,MERGED
+14305,Fix timing issue for module defrag test,sundb,2025-08-26T09:23:20Z,2025-08-27T14:25:32+00:00,2,29.04,True,4,4,1,625,2,1,3,MERGED
+14303,Fix some flakiness tests,sundb,2025-08-26T02:54:28Z,2025-08-27T03:11:59+00:00,3,24.29,True,5,19,2,784,2,1,3,MERGED
+14299,Reduce the overhead for calculating jemalloc small bins frag,sundb,2025-08-21T13:11:23Z,2025-08-25T02:33:52+00:00,2,85.37,True,22,9,1,417,3,2,5,MERGED
+14296,Add support to decode json empty array as lua array,sundb,2025-08-21T03:41:37Z,2025-08-25T07:13:12+00:00,6,99.53,True,101,0,2,1539,3,4,7,MERGED
+14294,Refactor HFE: Introduce Per-Slot Expiration Store (estore),moticless,2025-08-20T07:24:08Z,2025-09-11T13:45:17+00:00,34,534.35,True,1199,355,18,2945,5,19,24,MERGED
+14293,bio.c: Organize all worker data in a struct,TedLyngmo,2025-08-19T18:05:15Z,2025-09-05T10:02:58+00:00,14,399.96,False,51,52,1,168,2,9,11,CLOSED
+14290,"Expose ""touches-arbitrary-keys"" flag to Redis modules",guybe7,2025-08-19T10:52:36Z,2025-08-19T23:32:24+00:00,1,12.66,True,142,2,3,1573,2,0,2,MERGED
+14288,Fix MEMORY USAGE command,moticless,2025-08-19T09:19:58Z,2025-08-20T10:54:46+00:00,1,25.58,True,51,21,4,415,2,0,2,MERGED
+14284,Fix assumptions that pthread functions set errno,TedLyngmo,2025-08-18T08:32:17Z,2025-08-21T14:31:28+00:00,14,77.99,True,6,5,1,60,5,2,7,MERGED
+14283,Redis 8.2.1,YaacovHazan,2025-08-18T07:56:32Z,2025-08-18T15:33:44+00:00,1,7.62,True,137,33,6,399,1,0,1,MERGED
+14276,Prevent crash when cgroups_ref is null in streamEntryIsReferenced() after reload,sundb,2025-08-14T10:00:09Z,2025-08-15T07:15:16+00:00,2,21.25,True,28,0,2,16545,2,1,3,MERGED
+14274,Prevent active defrag from triggering during replicaof db flush,sundb,2025-08-13T15:59:44Z,2025-08-15T03:25:03+00:00,4,35.42,True,88,31,2,14130,5,7,12,MERGED
+14273,Fix typo in thread status file path comment,mengxunQAQ,2025-08-13T11:03:39Z,2025-08-14T03:34:36+00:00,1,16.52,True,1,1,1,162,3,0,3,MERGED
+14270,Fix missing expires_cursor check when existing defrag cycle,sundb,2025-08-13T08:51:15Z,2025-08-14T02:37:24+00:00,1,17.77,True,1,1,1,562,3,0,3,MERGED
+14269,RediSearch v8.2.1,alonre24,2025-08-12T15:45:46Z,2025-08-13T19:26:03+00:00,2,27.67,True,1,1,1,341,2,0,2,MERGED
+14265,Fix flaky repl test by increasing key count to capture LOADING reply,tezc,2025-08-10T11:54:44Z,2025-08-11T06:26:05+00:00,1,18.52,True,1,1,1,109,3,0,3,MERGED
+14264,dictEntry and dictEntryNoValue common layout,moticless,2025-08-10T11:29:42Z,2025-08-25T12:58:02+00:00,4,361.47,True,30,41,1,529,2,2,4,MERGED
+14259,Fix: Validate ENTRIESREAD in XGROUP command,giuseppe-coco,2025-08-05T18:03:44Z,2025-09-01T00:36:38+00:00,8,630.55,True,37,0,2,439,8,3,11,MERGED
+14255,Fix MEMORY USAGE command,moticless,2025-08-04T18:04:38Z,2025-08-19T09:22:09+00:00,9,351.29,False,51,21,4,415,3,4,7,CLOSED
+14253,Move getSlotOrReply() to cluster.c,skaslev,2025-08-04T09:33:16Z,2025-08-04T11:42:30+00:00,1,2.15,True,12,12,2,149,2,0,2,MERGED
+14251,Add USE_PROCESSOR_CLOCK for RISC-V to improve monotonic clock support,huangzhengx,2025-08-04T08:10:21Z,2025-08-14T01:45:25+00:00,35,233.58,True,63,3,1,4733,6,19,25,MERGED
+14250,Redis 8.2.0 GA,sundb,2025-08-04T06:47:25Z,2025-08-04T11:05:03+00:00,1,4.29,True,65,2,2,2426,2,0,2,MERGED
+14247,redis-benchmark: gli/add_option_-w_wait_for_redis-and-kvrocks,sql888,2025-08-03T23:45:51Z,2025-08-28T11:50:51+00:00,1,588.08,False,60,2,1,1685,9,0,9,CLOSED
+14243,Fix memory leak in RM_GetCommandKeysWithFlags,YangboLong,2025-08-01T03:09:13Z,2025-08-06T07:09:09+00:00,2,124.0,True,10,0,2,266,2,1,3,MERGED
+14242,Avoid Accessing Arguments Out Of Bounds In handleDebugClusterCommand,kei-nan,2025-07-31T14:51:43Z,2025-08-01T03:53:56+00:00,1,13.04,True,3,3,1,193,3,0,3,MERGED
+14240,KEYSIZES - Fix resolving key slot on modules,moticless,2025-07-31T09:35:57Z,2025-07-31T12:44:25+00:00,3,3.14,True,34,3,2,222,6,1,7,MERGED
+14233,Fix missing kvobj reassignment after reallocation in MOVE command,sundb,2025-07-30T12:04:50Z,2025-07-30T14:24:56+00:00,2,2.33,True,2,1,2,14073,2,1,3,MERGED
+14232,Bump RediSearch to 8.2.0,alonre24,2025-07-30T07:24:57Z,2025-07-31T08:55:31+00:00,1,25.51,True,1,1,1,329,2,0,2,MERGED
+14231,Fix timeout issues in memefficiency.tcl,sundb,2025-07-30T07:14:26Z,2025-07-30T13:47:51+00:00,1,6.56,True,23,10,1,188,4,0,4,MERGED
+14230,"Update Bloom, Json, and Timeserise to 8.2.0",eranhd,2025-07-30T07:03:40Z,2025-07-31T09:00:44+00:00,1,25.95,True,3,3,3,0,2,0,2,MERGED
+14227,Fix HINCRBYFLOAT removes field expiration on replica,ShooterIT,2025-07-29T03:43:24Z,2025-07-30T11:02:19+00:00,4,31.32,True,93,12,4,726,1,1,2,MERGED
+14226,Run module tests as part of the base redis testsuit,StavRLevi,2025-07-28T12:53:32Z,2025-08-26T11:49:05+00:00,12,694.93,True,85,158,48,260,6,12,18,MERGED
+14225,Skip replication test due to flakiness under TSAN,tezc,2025-07-28T08:16:14Z,2025-07-28T09:55:09+00:00,1,1.65,True,1,1,1,48,3,0,3,MERGED
+14224,Fix HINCRBYFLOAT removes field expiration on replica,ShooterIT,2025-07-28T06:46:10Z,2025-07-28T13:09:46+00:00,2,6.39,True,55,6,4,758,2,0,2,MERGED
+14223,VSIM EPSILON fixes,antirez,2025-07-27T11:38:14Z,2025-08-12T03:45:35+00:00,4,376.12,True,81,2,3,651,3,1,4,MERGED
+14221,Fix timing issue for correct replication disconnection time counters behavior test,StavRLevi,2025-07-24T07:29:43Z,2025-08-06T07:07:30+00:00,2,311.63,True,2,3,1,46,3,0,3,MERGED
+14217,Fix some daily CI issues,sundb,2025-07-23T13:13:27Z,2025-07-28T02:53:57+00:00,10,109.67,True,37,13,4,2125,4,5,9,MERGED
+14216,handle SET KEEPTTL in the optimization path,StavRLevi,2025-07-23T06:32:30Z,2025-07-28T07:19:34+00:00,3,120.78,True,19,0,2,186,2,2,4,MERGED
+14201,Fix peak memory time test,sundb,2025-07-17T03:45:33Z,2025-07-18T10:24:28+00:00,1,30.65,True,6,1,1,259,2,0,2,MERGED
+14200,Prefer storing iterators on stack instead of the heap,skaslev,2025-07-16T08:31:50Z,2025-07-24T07:17:55+00:00,8,190.77,True,620,547,24,173,6,6,12,MERGED
+14198,Use pread instead of lseek + read in sendBulkToSlave to reduce system…,bigbro-pg,2025-07-15T16:44:44Z,2025-08-19T11:07:20+00:00,4,834.38,False,1,7,1,154,4,1,5,CLOSED
+14195,"Add ""Redis ver. $REDIS_VERSION"" to LOLWUT 8 output",lamby,2025-07-14T16:45:13Z,2025-08-06T07:04:47+00:00,3,542.33,True,3,1,1,93,3,2,5,MERGED
+14194,Move WITHATTRIBS token from vlinks to vsim,alisaifee,2025-07-14T00:42:27Z,2025-07-16T12:17:53+00:00,1,59.59,True,6,6,1,95,2,0,2,MERGED
+14192,Fix help docs of vector-set commands,YangboLong,2025-07-12T03:25:20Z,2025-09-11T03:49:42+00:00,32,1464.41,True,296,13,2,104,3,11,14,MERGED
+14187,Fix misleading io_flags assertion comment,show1999,2025-07-10T06:30:44Z,2025-07-11T03:23:55+00:00,2,20.89,True,1,1,1,41,1,0,1,MERGED
+14186,Fix memleak issues in redis-cli,sfu2,2025-07-10T03:38:41Z,2025-07-11T14:20:01+00:00,2,34.69,True,9,2,1,42,5,0,5,MERGED
+14183,Fix vrand ping pong,antirez,2025-07-09T14:43:14Z,2025-07-18T10:19:14+00:00,5,211.6,True,44,2,3,230,2,3,5,MERGED
+14174,Redis 6.2.19,YaacovHazan,2025-07-06T07:52:14Z,2025-07-06T12:00:21+00:00,1,4.14,True,145,8,8,180,1,0,1,MERGED
+14173,Redis 7.2.10,YaacovHazan,2025-07-06T07:50:23Z,2025-07-06T12:12:34+00:00,1,4.37,True,144,7,10,180,1,0,1,MERGED
+14172,Redis 7.4.5,YaacovHazan,2025-07-06T07:47:54Z,2025-07-06T11:59:57+00:00,1,4.2,True,160,9,12,180,1,0,1,MERGED
+14170,Update SECURITY.md and README.md,LiorKogan,2025-07-04T05:30:50Z,2025-07-22T13:48:04+00:00,1,440.29,True,12,3,2,283,1,0,1,MERGED
+14168,Redis 8.2 RC1,YaacovHazan,2025-07-03T16:26:23Z,2025-07-04T06:16:34+00:00,1,13.84,True,57,4,3,0,1,0,1,MERGED
+14167,chore: Rust version bump to 1.88,JonasKruckenberg,2025-07-03T09:50:04Z,2025-07-06T11:44:41+00:00,2,73.91,True,1,1,1,76,2,0,2,MERGED
+14165,Only mark the client reprocessing flag when unblocked on keys,sundb,2025-07-03T02:30:03Z,2025-07-21T12:05:47+00:00,1,441.6,True,43,14,4,1271,4,0,4,MERGED
+14164,CLIENT UNBLOCK should't be able to unpause paused clients,sundb,2025-07-03T02:05:33Z,2025-07-24T07:20:04+00:00,1,509.24,True,89,2,5,1146,5,0,5,MERGED
+14163,Ensure empty error tables in scripts don't crash,sundb,2025-07-02T15:42:26Z,2025-07-07T02:12:51+00:00,1,106.51,True,39,0,2,396,2,0,2,MERGED
+14162,Fix crash due to incorrect event deletion of evport,sundb,2025-07-02T10:58:26Z,2025-07-03T06:41:27+00:00,1,19.72,True,3,1,1,8568,3,0,3,MERGED
+14160,"Update Bloom, TS, and JSON Modules to Version 8.1.90",eranhd,2025-07-01T12:28:06Z,2025-07-02T19:13:39+00:00,2,30.76,True,3,3,3,0,1,0,1,MERGED
+14159,Update redisearch to 8.2 RC1,alonre24,2025-07-01T09:42:01Z,2025-07-02T19:10:42+00:00,1,33.48,True,1,1,1,129,1,0,1,MERGED
+14158,Release 8.0.3,YaacovHazan,2025-06-30T17:42:59Z,2025-07-06T11:59:42+00:00,3,138.28,True,697,72,31,390,1,1,2,MERGED
+14157,Make Active defrag big list test much faster,oranagra,2025-06-30T11:16:52Z,2025-06-30T13:56:17+00:00,1,2.66,True,6,6,1,362,7,0,7,MERGED
+14153,Add boundary assert to connTypeRegister,show1999,2025-06-27T12:13:38Z,2025-07-04T13:12:28+00:00,1,168.98,True,1,0,1,103,6,0,6,MERGED
+14152,Fix assertion in updateClientMemUsageAndBucket,minchopaskal,2025-06-27T09:24:30Z,2025-07-02T08:55:57+00:00,8,119.52,True,28,1,2,811,2,3,5,MERGED
+14150,Fix KSN for HSETEX command when FXX/FNX is used,StavRLevi,2025-06-26T12:37:32Z,2025-07-21T10:59:01+00:00,8,598.36,True,97,8,2,148,5,5,10,MERGED
+14149,New config: lazyexpire-nested-arbitrary-keys,itayTziv,2025-06-26T09:14:04Z,2025-07-01T07:28:14+00:00,14,118.24,True,75,0,4,762,3,10,13,MERGED
+14144,[Vector sets] Endianess fix and speedup of data loading,antirez,2025-06-23T09:22:39Z,2025-07-10T02:08:59+00:00,2,400.77,True,80,16,1,1237,2,0,2,MERGED
+14143,Fix short read of hfe key that causes exit() on replica,tezc,2025-06-21T23:42:44Z,2025-06-23T04:41:30+00:00,1,28.98,True,4,2,2,786,2,0,2,MERGED
+14141,Add new KSN types - overwritten and type_changed,minchopaskal,2025-06-20T10:19:07Z,2025-07-07T10:29:14+00:00,10,408.17,True,341,11,8,2019,12,1,13,MERGED
+14140,Optimize Expiry Check in `scanCallback()` Using `kvobj`,fcostaoliveira,2025-06-20T00:49:49Z,2025-06-25T12:32:24+00:00,15,131.71,True,15,11,1,1756,1,4,5,MERGED
+14138,Stabilize tests for IO threading,ShooterIT,2025-06-19T06:56:46Z,2025-06-25T07:36:41+00:00,1,144.67,True,17,2,2,1467,2,0,2,MERGED
+14136,Redis 8.2 M01,YaacovHazan,2025-06-18T19:32:24Z,2025-06-19T06:00:10+00:00,1,10.46,True,39,7,2,0,2,0,2,MERGED
+14135,Fix replication lseek check,DengY11,2025-06-18T13:35:28Z,2025-06-27T01:07:33+00:00,1,203.53,True,6,1,1,730,2,1,3,MERGED
+14134,Fix command arity check in IO threads,ShooterIT,2025-06-18T08:47:32Z,2025-06-18T14:29:13+00:00,1,5.69,True,11,8,4,415,1,0,1,MERGED
+14133,Fix alpine missing __STRING #define,lerman25,2025-06-17T10:07:31Z,2025-06-17T13:50:35+00:00,2,3.72,True,5,0,1,134,2,0,2,MERGED
+14131,Optimize quicklistCompare with optional string2ll caching.,fcostaoliveira,2025-06-16T22:27:30Z,2025-06-21T02:28:51+00:00,19,100.02,True,288,34,7,4635,1,14,15,MERGED
+14130,Add XDELEX and XACKDEL commands for stream,sundb,2025-06-15T15:23:01Z,2025-07-01T13:00:42+00:00,50,381.63,True,1242,39,13,5597,8,21,29,MERGED
+14129,Fix XPENDING reply schema for empty reply,sundb,2025-06-15T15:05:12Z,2025-07-01T09:35:10+00:00,1,378.5,True,51,16,2,379,2,0,2,MERGED
+14122,[Vector Sets] IN operator for string/string operands,antirez,2025-06-12T10:21:19Z,2025-06-26T02:13:55+00:00,7,327.88,True,120,26,3,849,2,2,4,MERGED
+14121,Improve SCAN performance by only performing expiration checks on DBs with volatile keys ,fcostaoliveira,2025-06-12T10:07:29Z,2025-06-18T13:37:27+00:00,26,147.5,True,23,29,1,1914,5,6,11,MERGED
+14119,Add quicklist O(1) memory accounting,skaslev,2025-06-11T16:39:52Z,2025-09-17T08:00:28+00:00,32,2343.34,False,366,180,11,216,14,19,33,CLOSED
+14118,Bump rust version for INSTALL_RUST_TOOLCHAIN flag,adobrzhansky,2025-06-11T12:50:40Z,2025-06-12T08:50:24+00:00,1,20.0,True,5,5,1,87,2,0,2,MERGED
+14114,Add API to allow Redis modules to unsubscribe from keyspace notifications,StavRLevi,2025-06-09T12:06:18Z,2025-07-28T07:17:48+00:00,17,1171.19,True,115,3,4,465,2,13,15,MERGED
+14111,Fix generate-commands-json.py script (#14098),YangboLong,2025-06-08T15:16:39Z,2025-06-26T01:47:01+00:00,8,418.51,True,18,6,1,107,2,3,5,MERGED
+14110,Bump search version to 8.1.00,alonre24,2025-06-08T11:06:48Z,2025-06-08T13:24:52+00:00,1,2.3,True,1,1,1,0,1,0,1,MERGED
+14109,"Update TS, JSON and Bloom Modules to 8.1.00",eranhd,2025-06-08T10:46:10Z,2025-06-08T13:24:19+00:00,1,2.64,True,3,3,3,0,1,0,1,MERGED
+14103,Add 2K software prefetch to improve BITCOUNT performance,fcostaoliveira,2025-06-04T20:31:39Z,2025-06-13T08:59:34+00:00,5,204.47,True,3,0,1,3900,4,2,6,MERGED
+14102,Vector Sets fixes against corrupted data in absence of checksum verification,antirez,2025-06-04T11:47:56Z,2025-06-10T13:55:09+00:00,3,146.12,True,210,7,4,1214,1,1,2,MERGED
+14092,Fix db->expires can't be defragged due to incorrect comparison in the expires stage,sundb,2025-05-30T15:47:38Z,2025-06-05T13:52:33+00:00,3,142.08,True,4,4,2,447,1,3,4,MERGED
+14089,Vset tests improvements,antirez,2025-05-28T14:41:57Z,2025-06-18T02:23:23+00:00,2,491.69,True,28,17,2,261,1,0,1,MERGED
+14088,"Optimize COPY, RENAME and RESTORE commands with TTL",moticless,2025-05-28T09:18:23Z,2025-06-16T12:11:48+00:00,7,458.89,True,71,55,4,881,4,4,8,MERGED
+14085,Fix short read issue that causes exit() on replica,tezc,2025-05-28T06:21:48Z,2025-05-28T09:43:59+00:00,4,3.37,True,11,5,2,1179,1,1,2,MERGED
+14083,Reduce the blocking of the main thread by iothread.,wclmxxs,2025-05-27T15:28:38Z,2025-05-29T07:27:27+00:00,9,39.98,False,105,48,4,5843,4,9,13,CLOSED
+14082,Add config base to vector-sets and hnsw thread config,lerman25,2025-05-27T11:54:07Z,2025-06-16T02:06:43+00:00,12,470.21,True,357,6,7,339,6,12,18,MERGED
+14081,Fix incorrect server.cronloops update in defragWhileBlocked() causing timer to run twice as fast,sundb,2025-05-27T07:14:44Z,2025-05-27T09:14:06+00:00,1,1.99,True,6,6,2,1986,1,0,1,MERGED
+14077,Release Redis 8.0.2,YaacovHazan,2025-05-26T08:49:44Z,2025-05-27T12:39:18+00:00,1,27.83,True,315,23,13,0,1,0,1,MERGED
+14076,Release Redis 7.2.9,YaacovHazan,2025-05-26T08:47:27Z,2025-05-27T12:39:09+00:00,1,27.86,True,86,17,9,0,2,0,2,MERGED
+14075,Release Redis 7.4.4,YaacovHazan,2025-05-26T08:46:23Z,2025-05-27T12:38:26+00:00,1,27.87,True,120,14,11,0,1,0,1,MERGED
+14074,Reduce the overhead from malloc usable,sundb,2025-05-26T02:59:00Z,2025-06-12T14:31:27+00:00,11,419.54,True,157,52,7,1228,7,5,12,MERGED
+14072,Avoid performing IO on coverage when child exits due to signal handler,kei-nan,2025-05-25T12:29:43Z,2025-05-28T08:27:52+00:00,8,67.97,True,23,12,7,2750,3,5,8,MERGED
+14071,Fix RESTORE with TTL,moticless,2025-05-25T07:35:41Z,2025-05-28T05:02:11+00:00,1,69.44,True,24,7,6,246,3,0,3,MERGED
+14068,To reduce memory churn during client list transfer,ShooterIT,2025-05-23T07:15:58Z,2025-05-23T11:21:29+00:00,1,4.09,True,10,7,1,182,1,0,1,MERGED
+14067,Record peak memory time,yzc-yzc,2025-05-22T11:22:36Z,2025-06-20T05:49:20+00:00,38,690.45,True,33,15,4,14,3,22,25,MERGED
+14066,Cleanup redundant declaration of kvstoreDictFetchValue(),vitahlin,2025-05-22T10:01:29Z,2025-05-22T12:54:40+00:00,1,2.89,True,0,1,1,516,6,0,6,MERGED
+14065,Implement WITHATTRIBS for VSIM.,antirez,2025-05-21T10:06:07Z,2025-05-27T14:12:48+00:00,15,148.11,True,279,21,5,302,4,5,9,MERGED
+14062,Add length check before content comparison in equalStringObjects,vitahlin,2025-05-20T15:25:39Z,2025-05-24T03:47:13+00:00,17,84.36,True,6,1,1,1597,7,6,13,MERGED
+14061,Add size_t cast for RM_call() in module tests,huseyinacacak-janea,2025-05-20T07:19:25Z,2025-05-23T02:10:11+00:00,1,66.85,True,23,23,6,176,4,0,4,MERGED
+14060,Test: check always for memory leaks on MacOS.,antirez,2025-05-19T16:17:09Z,2025-05-20T09:46:57+00:00,1,17.5,True,0,5,1,980,2,0,2,MERGED
+14058,Add auto-repair options for broken AOF tail on startup,StavRLevi,2025-05-19T06:54:29Z,2025-08-12T07:55:16+00:00,44,2041.01,True,200,7,5,644,4,34,38,MERGED
+14055,Fix crash when freeing newly created node when nodeIp2String fail,sundb,2025-05-19T01:54:42Z,2025-05-21T02:04:41+00:00,2,48.17,True,11,1,1,2335,1,0,1,MERGED
+14051,Module set/get config API,minchopaskal,2025-05-16T13:34:56Z,2025-07-03T10:46:33+00:00,40,1149.19,True,1248,74,8,2902,4,19,23,MERGED
+14050,Fix missing prev update in hnsw_cursor_free causing unlink failure,vitahlin,2025-05-16T06:32:24Z,2025-08-28T13:17:55+00:00,1,2502.76,True,1,0,1,392,2,0,2,MERGED
+14048,LOLWUT for Redis 8.,antirez,2025-05-15T10:03:57Z,2025-05-26T06:27:46+00:00,1,260.4,True,182,1,3,1868,3,0,3,MERGED
+14043,Fix negative offset issue for ZRANGEBY[SCORE|LEX] command,yzc-yzc,2025-05-14T07:18:46Z,2025-06-20T05:51:52+00:00,2,886.55,True,16,2,2,389,2,0,2,MERGED
+14040,Refine and optimize dbSetValue(),moticless,2025-05-13T15:36:18Z,2025-05-20T10:23:54+00:00,4,162.79,True,17,11,2,248,4,3,7,MERGED
+14039,Add CLUSTER SLOT-STATS command,skaslev,2025-05-13T12:56:42Z,2025-07-01T17:26:51+00:00,10,1180.5,True,1728,8,21,845,7,3,10,MERGED
+14038,Fix: build flags for dependencies ,minchopaskal,2025-05-13T11:19:32Z,2025-05-13T13:56:22+00:00,7,2.61,True,23,11,4,523,2,1,3,MERGED
+14037,Include missing getchannels.tcl in moduleapi tests and fix incorrect assertions,vitahlin,2025-05-13T09:57:15Z,2025-05-14T00:57:01+00:00,2,15.0,True,9,8,2,379,2,0,2,MERGED
+14036,Parsing command is truly offloaded to IO threads in pipeline mode,ShooterIT,2025-05-13T08:59:29Z,2025-05-23T06:59:38+00:00,2,238.0,False,41,13,3,2447,12,3,15,CLOSED
+14035,Fix test INFO overhead for 32bit architecture,moticless,2025-05-13T08:23:47Z,2025-05-15T09:35:36+00:00,1,49.2,True,5,4,1,189,0,0,0,MERGED
+14034,Fix flaky replication test,tezc,2025-05-13T06:29:33Z,2025-05-13T10:29:27+00:00,1,4.0,True,10,15,1,103,0,0,0,MERGED
+14032,[Vector sets] More rdb loading fixes,antirez,2025-05-12T15:57:02Z,2025-05-12T18:57:38+00:00,1,3.01,True,26,3,2,241,0,0,0,MERGED
+14028,Fix keysizes -  SPOP with count (case 3) and SETRANGE,moticless,2025-05-11T07:18:58Z,2025-05-19T13:59:22+00:00,14,198.67,True,97,20,8,753,4,12,16,MERGED
+14025,Redis 8.0.1,YaacovHazan,2025-05-08T19:07:56Z,2025-05-13T13:28:36+00:00,1,114.34,True,42,2,2,0,1,0,1,MERGED
+14024,Fix internal-secret test flakiness under slow environment,sundb,2025-05-08T13:19:34Z,2025-05-14T08:31:42+00:00,1,139.2,True,3,3,1,266,0,0,0,MERGED

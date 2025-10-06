@@ -1,0 +1,151 @@
+number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+10416,docs(docker): make host network mode the default,bt90,2025-09-29T13:18:47Z,2025-09-29T19:20:45+00:00,1,6.03,True,17,61,1,218,3,0,3,MERGED
+10399,build: update GitHub actions,mrclmr,2025-09-18T12:14:23Z,2025-09-22T05:50:09+00:00,1,89.6,True,41,41,5,206,0,0,0,MERGED
+10398,fix(syncthing): do not perform CPU benchmark on startup unless logging enabled,pixelspark,2025-09-17T20:56:15Z,2025-09-19T05:17:10+00:00,2,32.35,True,6,2,1,594,5,1,6,MERGED
+10397,fix(db): only perform foreign key checking when a migration was applied,pixelspark,2025-09-17T20:44:58Z,2025-09-18T12:22:35+00:00,1,15.63,True,7,5,1,1348,3,0,3,MERGED
+10383,chore(sqlite): use normalised tables for file names and versions,calmh,2025-09-10T08:23:27Z,2025-09-12T09:27:41+00:00,14,49.07,True,332,72,12,1338,8,5,13,MERGED
+10381,chore: clean up migrated database,calmh,2025-09-09T15:22:15Z,2025-09-10T10:23:35+00:00,1,19.02,True,26,27,1,183,0,0,0,MERGED
+10380,chore(ursrv): update regex patterns for Syncthing-Fork entries,Catfriend1,2025-09-09T10:03:33Z,2025-09-09T12:34:12+00:00,1,2.51,True,2,1,1,108,1,0,1,MERGED
+10375,build: trigger nightly build only on syncthing repo,aminvakil,2025-09-07T08:01:30Z,2025-09-07T12:03:33+00:00,1,4.03,True,1,0,1,462,0,0,0,MERGED
+10361,chore(model): don't check file availability early on sync,imsodin,2025-09-04T20:41:50Z,2025-09-05T11:18:44+00:00,2,14.62,False,0,15,2,195,2,1,3,CLOSED
+10354,chore(slogutil): add configurable logging format (fixes #10352),calmh,2025-09-04T08:54:18Z,2025-09-05T08:52:50+00:00,3,23.98,True,122,58,8,800,3,1,4,MERGED
+10348,fix(model): earlier free-space check (fixes #10347),calmh,2025-09-04T06:09:58Z,2025-09-04T16:53:31+00:00,2,10.73,True,17,13,1,261,0,1,1,MERGED
+10339,fix(db): only vacuum database on startup when a migration script was actually run,pixelspark,2025-09-02T17:44:26Z,2025-09-02T19:03:22+00:00,1,1.32,True,1,1,1,502,0,0,0,MERGED
+10333,docs: add DCO requirement to contribution guidelines,calmh,2025-09-01T12:56:59Z,2025-09-02T06:24:03+00:00,1,17.45,True,47,0,1,60,2,0,2,MERGED
+10332,fix(model): correctly handle block-aligned empty sparse files,calmh,2025-09-01T12:22:23Z,2025-09-01T20:01:29+00:00,1,7.65,True,9,5,1,217,1,0,1,MERGED
+10330,fix(syncthing): apply folder migrations with temporary API/GUI server,calmh,2025-09-01T07:30:11Z,2025-09-01T20:10:48+00:00,1,12.68,True,65,41,5,510,1,0,1,MERGED
+10328,build: package for illumos using vmactions/omnios-vm,trisk,2025-08-31T22:22:23Z,2025-09-04T08:51:45+00:00,8,82.49,True,35,0,1,105,3,2,5,MERGED
+10321,chore(db): update schema version in the same transaction as migration,imsodin,2025-08-30T08:26:49Z,2025-08-30T11:18:31+00:00,1,2.86,True,68,27,2,620,4,0,4,MERGED
+10319,chore(db): migration for previous commits,calmh,2025-08-29T13:49:52Z,2025-08-31T07:27:34+00:00,7,41.63,True,84,1,3,43,2,3,5,MERGED
+10317,chore(gui): use step of 3600 for versions cleanup interval,tomasz1986,2025-08-29T11:42:23Z,2025-08-29T13:57:27+00:00,1,2.25,True,1,1,1,489,0,0,0,MERGED
+10316,chore(gui): use steps of 1024 KiB for bandwidth rate limits,tomasz1986,2025-08-29T11:30:49Z,2025-08-29T13:56:56+00:00,1,2.44,True,4,4,2,564,0,0,0,MERGED
+10297,"fix(db, syncthing): improve database migration performance for large setups",blap,2025-08-26T21:23:48Z,2025-08-27T07:16:10+00:00,1,9.87,False,149,3,5,1119,1,1,2,CLOSED
+10295,fix: resolve static analysis warnings and improve code quality,blap,2025-08-26T21:14:07Z,2025-08-27T07:17:03+00:00,3,10.05,False,156,57,14,501,0,4,4,CLOSED
+10290,"fix(db, syncthing): improve database migration performance on large setups (fixes #10264)",blap,2025-08-26T17:20:12Z,2025-08-26T21:22:31+00:00,1,4.04,False,149,3,5,666,0,1,1,CLOSED
+10286,fix(model): consider number of CPU cores when calculating hashers on interactive OS (#10284),tomasz1986,2025-08-26T09:01:10Z,2025-08-26T10:04:08+00:00,4,1.05,True,3,2,1,926,0,1,1,MERGED
+10285,fix(model): consider MaxFolderConcurrency when calculating number of hashers,tomasz1986,2025-08-26T07:55:50Z,2025-08-26T09:33:58+00:00,3,1.64,True,6,0,1,885,0,1,1,MERGED
+10284,fix(cmd): only start temporary API server during migration if it's enabled,pixelspark,2025-08-24T18:36:51Z,2025-08-25T05:46:23+00:00,5,11.16,True,12,5,2,757,0,2,2,MERGED
+10283,chore(db): adjust db bench name to improve benchstat grouping,imsodin,2025-08-23T11:09:20Z,2025-08-23T14:12:56+00:00,1,3.06,True,10,10,1,1972,0,0,0,MERGED
+10282,chore(db): cleanup DB in tests and remove OpenTemp,imsodin,2025-08-23T10:59:07Z,2025-08-24T09:58:56+00:00,4,23.0,True,38,51,13,59,3,1,4,MERGED
+10281,build: use Go 1.24 tools pattern,calmh,2025-08-22T13:05:36Z,2025-08-24T12:17:20+00:00,2,47.2,True,21,305,21,78,1,1,2,MERGED
+10267,chore(slog): re-enable LOGGER_DISCARD (fixes #10262),rasa,2025-08-18T05:19:39Z,2025-08-19T20:36:10+00:00,1,39.28,True,12,1,1,122,1,0,1,MERGED
+10235,"chore: remove GUI ""debugging"" toggle, debug HTTP metrics",calmh,2025-08-10T06:33:00Z,2025-08-10T19:14:25+00:00,4,12.69,True,9,89,6,679,0,1,1,MERGED
+10231,fix(test): remove lib/logger from testmocks target,rasa,2025-08-08T20:16:07Z,2025-08-09T07:56:37+00:00,1,11.68,True,0,1,1,0,0,0,0,MERGED
+10227,"fix(model): properly set folder state ""syncing"" when copying data",calmh,2025-08-03T09:49:08Z,2025-08-05T09:47:45+00:00,1,47.98,True,2,0,1,463,1,0,1,MERGED
+10225,refactor(scanner): use recommended pattern for slice pool,danog,2025-08-01T08:23:35Z,2025-08-01T09:27:53+00:00,2,1.07,True,5,3,1,181,1,0,1,MERGED
+10223,chore(fs): slightly reduce memory usage of IsParent,danog,2025-07-30T12:39:53Z,2025-07-31T14:48:05+00:00,2,26.14,True,13,6,2,87,0,1,1,MERGED
+10222,chore(scanner): reduce memory pressure by using pools inside hasher,danog,2025-07-30T09:52:44Z,2025-07-30T17:09:01+00:00,2,7.27,True,19,2,1,1135,0,0,0,MERGED
+10220,feat: switch logging framework,calmh,2025-07-27T20:34:29Z,2025-08-07T09:19:37+00:00,5,252.75,True,1797,2641,149,3592,4,4,8,MERGED
+10219,chore(config): remove fallback STUN servers that are CNAMEs to stun.counterpath.com,marbens-arch,2025-07-24T04:00:27Z,2025-07-24T11:55:42+00:00,1,7.92,True,0,3,1,290,0,0,0,MERGED
+10214,"chore(gui): update fancytree from 2.38.0 to 2.38.5 (ref #10051, ref #10155)",tomasz1986,2025-07-09T19:14:41Z,2025-07-12T13:02:50+00:00,1,65.8,True,1864,1754,2,334,0,0,0,MERGED
+10213,"chore(gui): fix ""Shut Down"" spelling in Actions",tomasz1986,2025-07-09T16:19:09Z,2025-07-12T12:52:52+00:00,1,68.56,True,49,49,49,275,0,0,0,MERGED
+10212,fix(gui): show revert buttons only when folder is idle (fixes #10191),tomasz1986,2025-07-06T22:29:58Z,2025-07-12T14:08:11+00:00,3,135.64,True,2,2,1,868,0,1,1,MERGED
+10211,"refactor(beacon, osutil, upnp, netutil): only use anet on Android",marbens-arch,2025-07-06T19:56:21Z,2025-07-08T06:18:51+00:00,2,34.38,True,55,15,7,312,5,0,5,MERGED
+10207,fix: allow deleted files to win conflict resolution,calmh,2025-07-05T08:10:21Z,2025-07-06T13:22:03+00:00,3,29.2,True,90,32,7,2407,0,1,1,MERGED
+10205,feat(ignore): add .stignore escaping on Windows,rasa,2025-06-29T17:53:53Z,2025-08-05T09:55:39+00:00,3,880.03,True,441,1,2,763,1,1,2,MERGED
+10204,"fix(pmp, netutil): workaround native code denied to discover gateway ipv4 addr on Android 14+",Catfriend1,2025-06-29T11:10:16Z,2025-07-02T18:40:38+00:00,5,79.51,True,29,3,2,436,4,2,6,MERGED
+10202,chore(protocol): minor cleanup of ClusterConfig messages; remove DisableTempIndexes option,calmh,2025-06-28T09:19:26Z,2025-06-29T08:18:51+00:00,9,22.99,True,523,420,13,1003,3,4,7,MERGED
+10201,chore(gui): added spacing between folder name and error message,ardevd,2025-06-27T14:27:06Z,2025-06-28T09:06:46+00:00,1,18.66,True,1,1,1,177,0,0,0,MERGED
+10200,chore(config): increase max concurrent writes default,imsodin,2025-06-26T20:21:57Z,2025-06-28T08:59:50+00:00,2,36.63,True,18,5,4,770,8,1,9,MERGED
+10196,"fix(beacon, osutil, upnp): fix local discovery send and intf detection on Android",Catfriend1,2025-06-25T15:30:05Z,2025-06-25T18:18:12+00:00,6,2.8,True,29,12,7,2330,4,3,7,MERGED
+10194,fix(model): use better file paths for encrypted files,calmh,2025-06-21T11:42:29Z,2025-06-22T08:32:43+00:00,2,20.84,False,131,31,4,1731,6,2,8,CLOSED
+10190,fix(model): don't clobber local flags when receiving index,calmh,2025-06-19T05:28:50Z,2025-06-20T07:08:06+00:00,4,25.65,True,19,6,4,248,1,2,3,MERGED
+10182,feat(gui): add option to limit bandwidth in LAN to Settings (ref #10046),tomasz1986,2025-06-16T16:53:34Z,2025-06-17T07:46:38+00:00,1,14.88,True,12,0,2,631,0,0,0,MERGED
+10181,"fix(model): avoid flashing ""Sync Waiting"" unnecessarily",calmh,2025-06-16T07:37:11Z,2025-06-16T10:53:03+00:00,1,3.26,True,6,2,1,270,0,0,0,MERGED
+10180,fix(db): remove invalid member from FileMetadata,imsodin,2025-06-14T16:04:23Z,2025-06-15T07:12:25+00:00,1,15.13,True,5,2,2,105,0,0,0,MERGED
+10174,chore: add migration for remote invalid local flag,imsodin,2025-06-12T22:00:49Z,2025-06-13T21:28:08+00:00,1,23.46,True,45,28,3,64,5,0,5,MERGED
+10171,"feat(connections, nat): add UDP portmapping/pinhole for QUIC (fixes #7403)",marbens-arch,2025-06-11T21:42:06Z,2025-06-20T04:24:45+00:00,2,198.71,True,61,28,4,232,0,0,0,MERGED
+10170,fix: track invalid files in LocalFlags to fix global count,imsodin,2025-06-11T20:41:54Z,2025-06-13T05:33:31+00:00,6,32.86,True,132,70,19,0,8,1,9,MERGED
+10168,refactor(syncthing): use named constant for SIGHUP,ardevd,2025-06-09T19:15:33Z,2025-06-09T20:31:02+00:00,1,1.26,True,1,2,1,47,0,0,0,MERGED
+10167,fix(gui): don't show dial errors for paused devices (fixes #10166),marbens-arch,2025-06-09T03:50:27Z,2025-06-09T05:38:07+00:00,1,1.79,True,2,2,1,215,0,0,0,MERGED
+10165,fix(fs): check for unsupported error on modern Windows (fixes #10164),rasa,2025-06-09T02:10:17Z,2025-06-09T05:20:46+00:00,1,3.17,True,2,1,1,382,0,0,0,MERGED
+10162,feat: use Ed25519 keys for sync connections,calmh,2025-06-08T08:21:31Z,2025-06-09T05:48:02+00:00,3,21.44,True,48,18,7,340,0,1,1,MERGED
+10154,fix(syncthing): avoid writing panic log to nil fd,ardevd,2025-06-02T21:55:27Z,2025-06-03T05:39:22+00:00,2,7.73,True,23,25,1,836,1,1,2,MERGED
+10151,feat(config): enable multiple connections by default,calmh,2025-05-30T08:02:52Z,2025-05-30T20:04:55+00:00,1,12.03,True,5,1,2,298,0,1,1,MERGED
+10146,chore(protocol): don't start connection routines a second time,imsodin,2025-05-29T18:54:57Z,2025-05-30T06:28:43+00:00,2,11.56,True,4,1,1,231,0,1,1,MERGED
+10145,chore(protocol): only allow enc. password changes on cluster config,imsodin,2025-05-29T18:54:42Z,2025-05-30T07:52:48+00:00,1,12.97,True,63,107,10,521,0,0,0,MERGED
+10140,fix(protocol): avoid deadlock with concurrent connection start and close,calmh,2025-05-28T06:55:48Z,2025-05-29T14:56:58+00:00,6,32.02,True,41,11,2,204,2,3,5,MERGED
+10136,refactor: use slices package for sorting,mrclmr,2025-05-26T17:17:29Z,2025-05-26T18:37:49+00:00,1,1.34,True,107,152,18,136,2,0,2,MERGED
+10135,docs: general notes about v2 coming,calmh,2025-05-26T14:29:50Z,2025-05-27T08:01:04+00:00,1,17.52,True,8,0,1,196,3,0,3,MERGED
+10132,refactor: use slices package for sort,mrclmr,2025-05-26T08:43:14Z,2025-05-26T11:37:26+00:00,4,2.9,True,85,80,29,236,2,3,5,MERGED
+10131,fix(gui): update `uncamel()` to handle strings like 'IDs' (fixes #10128),luckman212,2025-05-25T20:13:00Z,2025-05-26T11:43:38+00:00,1,15.51,True,32,20,1,585,4,0,4,MERGED
+10124,feat(model): announce the state of a folder becoming out of space (fixes #9962),hazemKrimi,2025-05-23T18:21:29Z,2025-06-16T07:50:56+00:00,4,565.49,False,451,558,5,801,7,3,10,CLOSED
+10121,refactor: use slices.Contains to simplify code,pullmerge,2025-05-21T08:52:10Z,2025-05-23T10:36:07+00:00,3,49.73,True,12,24,3,697,0,1,1,MERGED
+10105,fix(versioner): fix perms of created folders (fixes #9626),ashishbhate,2025-05-12T11:34:52Z,2025-05-24T05:35:32+00:00,6,282.01,True,147,3,2,490,4,2,6,MERGED
+10101,fix(config): deep copy configuration defaults (fixes #9916),hazemKrimi,2025-05-09T00:03:15Z,2025-05-09T05:40:32+00:00,1,5.62,True,4,0,1,329,0,0,0,MERGED
+10100,fix(config): mark audit log options as needing restart (fixes #10099),marbens-arch,2025-05-07T17:28:53Z,2025-05-09T10:49:11+00:00,1,41.34,True,2,2,1,233,0,0,0,MERGED
+10094,chore(model): refactor copier for more flatness,imsodin,2025-05-02T08:17:03Z,2025-05-04T07:23:57+00:00,1,47.12,True,106,67,2,523,5,0,5,MERGED
+10093,fix(model): use same folder first in copier,imsodin,2025-05-02T08:07:59Z,2025-05-02T11:15:27+00:00,1,3.12,True,5,2,1,374,0,0,0,MERGED
+10092,feat(gui): close a modal when pressing ESC after switching modal tabs (fixes #9489),hazemKrimi,2025-05-02T00:58:57Z,2025-05-02T14:53:54+00:00,3,13.92,True,8,0,1,444,6,1,7,MERGED
+10090,build(deps): bump golang.org/x/net from 0.38.0 to 0.39.0,dependabot,2025-05-01T16:08:31Z,2025-05-01T18:19:08+00:00,1,2.18,False,15,15,2,1577,1,0,1,CLOSED
+10089,build(deps): bump github.com/shirou/gopsutil/v4 from 4.25.3 to 4.25.4,dependabot,2025-05-01T16:08:29Z,2025-05-01T18:19:07+00:00,1,2.18,False,3,3,2,3219,1,0,1,CLOSED
+10088,build(deps): bump github.com/quic-go/quic-go from 0.50.1 to 0.51.0,dependabot,2025-05-01T16:08:22Z,2025-05-01T18:18:39+00:00,1,2.17,False,3,6,2,3920,1,0,1,CLOSED
+10087,build(deps): bump golang.org/x/tools from 0.31.0 to 0.32.0,dependabot,2025-05-01T16:08:17Z,2025-05-01T18:19:07+00:00,1,2.18,False,18,18,2,2184,1,0,1,CLOSED
+10080,"chore(db, model): simplify per hash DB lookup in copier",imsodin,2025-05-01T15:07:07Z,2025-05-01T18:44:25+00:00,2,3.62,True,52,78,8,873,8,0,8,MERGED
+10076,chore(syncthing): ensure migrated database is closed before exiting,xjtdy888,2025-04-29T13:04:53Z,2025-05-01T18:36:35+00:00,1,53.53,True,3,2,1,199,1,0,1,MERGED
+10074,fix(connections): add Prometheus labels for folders and devices (fixes #9519),mwmiller,2025-04-27T12:48:44Z,2025-05-31T15:09:24+00:00,6,818.34,False,56,6,4,925,1,3,4,CLOSED
+10073,fix(strelaysrv): make the session limiter session-dependent (fixes #10072),szu17dmy,2025-04-27T12:11:33Z,2025-04-30T14:25:01+00:00,1,74.22,True,8,6,3,773,0,0,0,MERGED
+10071,chore(gui): use go list --deps for dependency list,rasa,2025-04-25T17:13:36Z,2025-04-26T02:24:32+00:00,1,9.18,True,49,71,2,115,4,0,4,MERGED
+10069,fix(model): loop-break regression while block copying in puller,imsodin,2025-04-23T22:43:27Z,2025-04-24T01:29:30+00:00,1,2.77,True,3,2,1,726,0,0,0,MERGED
+10067,"chore(gui): update dependency copyrights, add script for periodic maintenance",rasa,2025-04-22T18:34:10Z,2025-04-23T05:41:05+00:00,1,11.12,True,557,18,3,608,2,1,3,MERGED
+10066,feat(config): add option for audit file (fixes #9481),marbens-arch,2025-04-22T17:00:06Z,2025-04-23T15:32:24+00:00,3,22.54,True,22,2,4,336,0,1,1,MERGED
+10063,fix(osutil): give threads same I/O priority on Linux,TheCreeper,2025-04-20T20:38:31Z,2025-04-21T02:30:52+00:00,1,5.87,True,5,32,1,368,0,0,0,MERGED
+10058,feat(ignore): add .stignore escaping on Windows,rasa,2025-04-13T19:57:00Z,2025-06-07T12:19:45+00:00,13,1312.38,False,437,1,2,1010,11,7,18,CLOSED
+10049,fix(sqlite): apply options,pixelspark,2025-04-08T21:12:05Z,2025-04-09T04:29:46+00:00,1,7.29,True,4,0,1,115,0,0,0,MERGED
+10048,fix(gui): mark unseen disconnected devices as inactive,tomasz1986,2025-04-08T17:37:44Z,2025-04-08T20:08:00+00:00,1,2.5,True,1,1,1,659,0,0,0,MERGED
+10045,"feat(api, gui): allow authentication bypass for metrics",swenske,2025-04-08T08:54:49Z,2025-04-13T07:35:57+00:00,5,118.69,True,8,3,3,398,1,4,5,MERGED
+10042,chore(db): use one SQLite database per folder,calmh,2025-04-06T11:16:57Z,2025-04-06T12:30:43+00:00,1,1.23,True,1695,1218,32,311,1,2,3,MERGED
+10040,chore(fs): changes to allow Filesystem to be implemented externally,pixelspark,2025-04-06T11:08:05Z,2025-04-08T12:39:40+00:00,10,49.53,True,33,69,11,514,0,1,1,MERGED
+10037,chore(model): add metric for total number of conflicts,swenske,2025-04-04T12:43:17Z,2025-04-04T16:24:04+00:00,5,3.68,True,9,0,2,269,6,2,8,MERGED
+10035,chore(api): log X-Forwarded-For,bt90,2025-04-03T19:59:46Z,2025-04-23T06:01:13+00:00,4,466.02,True,93,9,4,1183,1,4,5,MERGED
+10034,fix(config): properly apply defaults when reading folder configuration,pixelspark,2025-04-03T18:30:27Z,2025-04-04T16:46:12+00:00,6,22.26,True,32,5,2,1084,5,3,8,MERGED
+10031,chore(config): resolve primary STUN servers via SRV record,bt90,2025-04-03T10:06:37Z,2025-04-08T12:23:57+00:00,15,122.29,True,20,15,2,484,3,8,11,MERGED
+10024,fix(strings): differentiate setup(n) and set(v) up,systemcrash,2025-04-02T17:03:30Z,2025-04-08T12:45:05+00:00,10,139.69,True,50,51,50,42,5,3,8,MERGED
+10022,chore(db): increase journal limit to 64MiB,bt90,2025-04-02T10:07:12Z,2025-04-02T12:52:45+00:00,1,2.76,True,1,1,1,498,1,0,1,MERGED
+10012,chore(config): remove discontinued secondary STUN servers (fixes #10011),marbens-arch,2025-03-30T14:29:46Z,2025-03-31T06:41:33+00:00,2,16.2,True,0,4,1,354,0,1,1,MERGED
+10010,fix(stun): better error handling (ref #10008),calmh,2025-03-30T13:05:41Z,2025-03-30T18:56:30+00:00,2,5.85,True,25,23,1,132,0,0,0,MERGED
+10009,fix(config): remove discontinued primary STUN server (fixes #10008),marbens-arch,2025-03-30T11:56:09Z,2025-03-30T13:17:55+00:00,2,1.36,True,2,1,1,889,2,1,3,MERGED
+10000,build: move nightly build schedule to separate workflow,rasa,2025-03-22T23:07:44Z,2025-03-27T09:31:52+00:00,1,106.4,True,19,3,2,158,2,0,2,MERGED
+9980,refactor(api): make shutdown timeout configurable for tests,emlun,2025-03-02T20:51:31Z,2025-03-07T11:50:34+00:00,1,110.98,True,11,1,2,833,1,0,1,MERGED
+9979,refactor(api): extract method configMuxBuilder.postAdjustGui and add test coverage,emlun,2025-03-01T23:47:50Z,2025-03-09T20:31:06+00:00,5,188.72,True,141,15,2,1803,2,1,3,MERGED
+9977,refactor(api): deduplicate HTTP test helpers and allow session cookie access,emlun,2025-03-01T20:51:05Z,2025-03-07T10:07:03+00:00,1,133.27,True,39,25,1,749,3,0,3,MERGED
+9966,chore(etc): remove /usr/bin prefix from .desktop files,polyfloyd,2025-02-28T17:07:00Z,2025-02-28T19:59:07+00:00,1,2.87,True,2,2,2,146,1,0,1,MERGED
+9965,chore: switch database engine to sqlite (fixes #9954),calmh,2025-02-23T16:23:38Z,2025-03-29T12:50:08+00:00,24,812.44,True,8311,11980,146,836,14,21,35,MERGED
+9950,chore(fs): build kqueue instead of fsevents watcher on iOS,pixelspark,2025-02-06T20:45:54Z,2025-02-07T15:40:54+00:00,1,18.92,True,10,11,6,1373,3,0,3,MERGED
+9918,refactor: using slices.Contains to simplify the code,dashangcun,2025-01-13T11:15:36Z,2025-02-07T08:21:24+00:00,3,597.1,True,5,13,2,696,2,1,3,MERGED
+9914,chore(proto): change symlinktarget to be byte sequence (fixes #9913),calmh,2025-01-10T19:55:15Z,2025-01-11T16:38:29+00:00,2,20.72,True,24,24,11,372,0,0,0,MERGED
+9905,fix(model): correct type of fileInfoType in API browse response (fixes #9904),calmh,2025-01-08T07:09:52Z,2025-01-08T10:08:34+00:00,1,2.98,True,8,8,2,408,0,0,0,MERGED
+9901,fix(ci): Make checkouts consistent,rasa,2025-01-04T23:13:37Z,2025-01-06T22:07:56+00:00,1,46.91,False,11,0,1,343,4,4,8,CLOSED
+9888,chore(scanner): avoid scan failures and report if they happen,imsodin,2024-12-26T21:08:02Z,2024-12-28T16:09:38+00:00,1,43.03,True,34,13,2,779,4,0,4,MERGED
+9887,"feat(fs, config): add support for custom filesystem type construction",pixelspark,2024-12-26T09:52:19Z,2025-04-03T08:12:23+00:00,2,2350.33,True,87,74,12,861,9,2,11,MERGED
+9886,chore(lib): expose model methods to obtain progress,pixelspark,2024-12-26T09:30:14Z,2025-03-28T13:44:04+00:00,1,2212.23,True,18,0,1,338,4,0,4,MERGED
+9877,fix(scanner): continue walk after special files (fixes #9872),calmh,2024-12-18T08:10:38Z,2024-12-19T07:27:53+00:00,1,23.29,True,6,2,1,344,7,0,7,MERGED
+9869,chore(fs): add debug logging for case cache registry,imsodin,2024-12-15T09:17:16Z,2024-12-16T11:04:24+00:00,1,25.79,True,4,0,1,130,0,0,0,MERGED
+9858,fix(config): skip GUI port probing for UNIX sockets (fixes #9855),acolomb,2024-12-08T21:49:06Z,2024-12-09T07:24:43+00:00,1,9.59,True,15,13,1,866,0,0,0,MERGED
+9857,fix(gui): reflect folder password visibility by changing button icon,aionescu,2024-12-08T01:17:37Z,2024-12-08T20:20:32+00:00,3,19.05,True,1,2,2,292,0,1,1,MERGED
+9854,feat(log): Add finer grained logging,rasa,2024-12-05T21:39:11Z,2025-05-26T15:21:10+00:00,3,4121.7,False,522,103,2,781,7,1,8,CLOSED
+9845,build: build all the things,calmh,2024-12-01T11:57:10Z,2024-12-05T15:09:33+00:00,2,99.21,True,31,35,2,53,1,1,2,MERGED
+9843,chore(config): add Chinese STUN servers,bt90,2024-11-29T23:10:45Z,2024-11-30T07:33:55+00:00,1,8.39,True,2,0,1,207,0,0,0,MERGED
+9840,fix(model): create fileset under lock,calmh,2024-11-28T08:28:37Z,2024-11-28T13:41:45+00:00,2,5.22,True,6,5,1,247,2,1,3,MERGED
+9824,chore(api): add block and goroutine profiles to support bundle,calmh,2024-11-15T08:23:33Z,2024-11-16T08:43:18+00:00,1,24.33,True,38,15,1,65,0,0,0,MERGED
+9818,chore: update policy to allow approvals by contributors,calmh,2024-11-12T08:33:44Z,2024-11-12T09:50:19+00:00,1,1.28,True,6,0,1,449,0,0,0,MERGED
+9817,refactor: use modern Protobuf encoder,calmh,2024-11-12T07:59:33Z,2024-12-01T15:50:18+00:00,12,463.85,True,7424,28623,203,3202,12,6,18,MERGED
+9802,chore(gui): cache input type in each advanced settings category,acolomb,2024-11-05T21:24:07Z,2024-12-01T12:30:06+00:00,1,615.1,True,21,21,1,348,0,0,0,MERGED
+9801,feat(gui): group logout/restart/shutdown buttons together in Actions menu,tomasz1986,2024-11-05T17:27:28Z,2024-11-07T15:47:00+00:00,1,46.33,True,3,5,1,692,1,0,1,MERGED
+9788,fix(gui): expand tildes for subdir check (fixes #9400),tobifroe,2024-10-26T18:45:34Z,2024-11-12T08:24:00+00:00,6,397.64,True,5,0,1,456,10,2,12,MERGED
+9786,fix(fs): fix directory junction handling (fixes #9775),rasa,2024-10-26T02:12:33Z,2024-10-27T15:08:38+00:00,7,36.93,True,6,3,1,420,2,3,5,MERGED
+9782,fix(model): don't sync symbolic links on Android (fixes #9725),KapilSareen,2024-10-23T10:08:23Z,2024-10-26T09:29:39+00:00,1,71.35,True,1,1,1,459,16,0,16,MERGED
+9777,fix(gui): add dark scheme styles for disabled checkboxes (fixes #9776),Terrance,2024-10-20T22:48:59Z,2024-10-22T12:03:33+00:00,2,37.24,True,28,0,2,683,3,1,4,MERGED
+9758,fix(gui): improve device ID readability in black and dark themes (fixes #9757),acolomb,2024-10-05T20:32:12Z,2024-10-05T22:48:19+00:00,6,2.27,True,2,4,3,267,7,1,8,MERGED
+9756,fix(gui): apply small screen CSS changes earlier (fixes #9590),imsodin,2024-10-05T17:10:31Z,2024-10-25T20:49:23+00:00,1,483.65,True,4,7,1,326,9,0,9,MERGED
+9755,"chore(db): process ""unchanged"" files anyway",calmh,2024-10-04T14:47:00Z,2024-10-04T19:47:58+00:00,1,5.02,True,1,16,1,479,0,0,0,MERGED
+9743,fix(gui): hide lists with [object Object] in advanced settings,acolomb,2024-09-28T23:09:59Z,2024-10-25T20:22:12+00:00,4,645.2,True,7,2,2,477,1,1,2,MERGED
+9742,docs(docker): add healthcheck to docker-compose,maxice8,2024-09-28T21:46:38Z,2024-09-29T14:53:13+00:00,1,17.11,True,10,0,1,627,0,0,0,MERGED
+9741,"chore(model): log sequence anomaly when update appears not to ""take""",calmh,2024-09-28T15:09:03Z,2024-09-29T15:04:06+00:00,1,23.92,True,12,1,1,68,1,0,1,MERGED
+9740,chore(model): improve tracking sentPrevSeq for index debugging,calmh,2024-09-28T14:37:45Z,2024-09-29T22:18:24+00:00,1,31.68,True,28,18,1,437,0,1,1,MERGED
+9738,chore(model): remove GUI/log warning on sequence anomaly,calmh,2024-09-28T06:50:45Z,2024-09-28T14:38:07+00:00,1,7.79,True,0,6,1,286,0,0,0,MERGED
+9736,fix(ur): actually send usage report directly when enabled,calmh,2024-09-26T20:58:49Z,2024-09-28T15:02:05+00:00,1,42.05,True,10,6,3,409,1,0,1,MERGED
+9732,fix(model): check if remote folder state before pulling files (fixes #9686),hireworksltd,2024-09-23T10:17:32Z,2024-11-12T07:51:53+00:00,23,1197.57,True,28,13,2,561,5,11,16,MERGED
+9731,fix(connections): announce PtP links again (fixes #9730),calmh,2024-09-23T09:29:42Z,2024-09-23T12:32:20+00:00,4,3.04,True,6,4,3,0,0,1,1,MERGED
+9726,chore: add more advanced policy configuration,calmh,2024-09-22T08:32:56Z,2024-09-25T15:41:57+00:00,1,79.15,True,93,2,2,1101,0,0,0,MERGED
+9724,fix(gui): get version from header when not authenticated,emlun,2024-09-21T18:10:16Z,2024-09-22T07:47:02+00:00,1,13.61,True,9,0,1,1823,4,0,4,MERGED

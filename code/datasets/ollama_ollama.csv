@@ -1,0 +1,151 @@
+number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+12494,llm: Support KV cache quantization with gpt-oss,jessegross,2025-10-03T22:31:45Z,2025-10-03T23:31:58+00:00,1,1.0,True,0,5,1,97,0,0,0,MERGED
+12481,AMD: block running on unsupported gfx900/gfx906,dhiltgen,2025-10-02T21:33:39Z,2025-10-02T23:53:05+00:00,1,2.32,True,3,0,3,1118,7,0,7,MERGED
+12473,llm: Allow overriding flash attention setting,jessegross,2025-10-01T21:57:41Z,2025-10-02T19:07:20+00:00,1,21.16,True,15,12,3,221,0,0,0,MERGED
+12461,qwen3-coder: fix tool definition type rendering,drifkin,2025-09-30T22:03:33Z,2025-10-01T02:47:44+00:00,1,4.74,True,54,3,2,0,0,0,0,MERGED
+12450,websearch: added local endpoints,npardal,2025-09-30T02:59:41Z,2025-10-01T19:10:21+00:00,1,40.18,False,149,0,3,22,0,4,4,CLOSED
+12413,"feat: Handle the case where a tool call sends ""arguments"" or ""parameters"" as a serialized json string",gabe-l-hart,2025-09-25T19:04:35Z,2025-09-25T21:37:40+00:00,1,2.55,True,28,0,2,316,0,0,0,MERGED
+12412,Fix AMDGPU_TARGETS filtering condition,Fachep,2025-09-25T17:49:03Z,2025-09-26T18:38:48+00:00,2,24.83,True,4,2,1,339,2,1,3,MERGED
+12405,cli: add device signin flow when doing ollama push,pdevine,2025-09-24T22:41:51Z,2025-09-25T22:04:43+00:00,1,23.38,True,51,2,2,160,0,0,0,MERGED
+12402,bugfix: restore the current runOptions if loading fails in the CLI,pdevine,2025-09-24T18:12:23Z,2025-09-26T01:30:45+00:00,1,31.31,True,338,1,3,408,0,0,0,MERGED
+12400,Preallocate CUDA pool memory,jessegross,2025-09-24T16:55:11Z,2025-09-30T22:04:43+00:00,1,149.16,True,1077,333,15,440,0,0,0,MERGED
+12385,Grace/deepseek v3 migration,gr4ceG,2025-09-23T20:22:32Z,2025-09-24T22:19:48+00:00,8,25.95,True,325,0,2,269,1,16,17,MERGED
+12374,prefer ollama engine for qwen3moe,mxyng,2025-09-22T21:33:52Z,2025-09-24T18:21:33+00:00,1,44.79,True,1,0,1,60,0,0,0,MERGED
+12373,auth: fix problems with the ollama keypairs,pdevine,2025-09-22T21:19:35Z,2025-09-23T06:20:21+00:00,6,9.01,True,119,102,6,223,0,4,4,MERGED
+12339,harmony: remove special casing in routes.go,drifkin,2025-09-18T21:56:39Z,2025-09-22T20:13:40+00:00,3,94.28,True,144,96,5,462,0,1,1,MERGED
+12338,server: add unauthorized error to remote chat handler,jmorganca,2025-09-18T21:29:56Z,2025-09-18T22:40:31+00:00,1,1.18,True,18,1,1,56,0,0,0,MERGED
+12336,auth: check the permissions on the private key to see if it's readable,pdevine,2025-09-18T20:23:53Z,2025-09-18T21:34:34+00:00,2,1.18,True,15,3,1,0,0,1,1,MERGED
+12325,multi-regexp pretokenizer,mxyng,2025-09-18T00:40:36Z,2025-09-23T20:21:47+00:00,3,139.69,True,124,34,12,122,0,1,1,MERGED
+12319,build: avoid unbounded parallel builds,dhiltgen,2025-09-17T16:56:30Z,2025-09-18T21:57:01+00:00,1,29.01,True,23,14,2,528,0,0,0,MERGED
+12318,fix: multi-cuda version skew,dhiltgen,2025-09-17T16:36:12Z,2025-09-17T20:05:10+00:00,3,3.48,True,28,21,2,87,1,1,2,MERGED
+12311,fix: model load for unsupported embedding models,mxyng,2025-09-17T00:50:47Z,2025-09-18T23:11:08+00:00,3,46.34,True,67,52,2,624,0,3,3,MERGED
+12310,prefer ollama engine for qwen3,mxyng,2025-09-17T00:08:09Z,2025-09-17T16:48:22+00:00,1,16.67,True,1,0,1,0,0,0,0,MERGED
+12308,fix(llama): other llama flavours,mxyng,2025-09-16T20:49:15Z,2025-09-17T19:12:21+00:00,1,22.39,True,74,66,10,249,0,0,0,MERGED
+12307,engine: add remote proxy,pdevine,2025-09-16T18:39:23Z,2025-09-17T21:40:53+00:00,20,27.02,True,949,101,12,1607,0,15,15,MERGED
+12301,feat: qwen3 embed,mxyng,2025-09-16T00:30:37Z,2025-09-18T22:50:33+00:00,1,70.33,True,192,23,8,217,1,0,1,MERGED
+12300,fix: fix CUDA detection for older GPUs,egyptianbman,2025-09-15T23:55:09Z,2025-09-16T14:47:07+00:00,1,14.87,True,9,1,1,134,0,0,0,MERGED
+12299,embed: cleanup,mxyng,2025-09-15T22:41:05Z,2025-09-16T16:48:42+00:00,1,18.13,True,104,19,6,31,0,0,0,MERGED
+12295,tests: add single threaded history test,dhiltgen,2025-09-15T20:51:48Z,2025-09-22T18:23:14+00:00,1,165.52,True,173,39,9,72,0,0,0,MERGED
+12293,use split activations when possible,mxyng,2025-09-15T19:00:47Z,2025-09-16T16:51:19+00:00,2,21.84,True,59,50,16,0,0,0,0,MERGED
+12289,server: skip parsing initial <think> if provided in the prompt for /api/generate,rick-github,2025-09-15T01:28:01Z,2025-09-17T23:39:04+00:00,1,70.18,True,3,0,1,37,1,0,1,MERGED
+12280,refactor: use the built-in max/min to simplify the code,russcoss,2025-09-14T02:14:44Z,2025-09-17T00:14:21+00:00,1,69.99,True,4,20,4,105,0,0,0,MERGED
+12279,logutil: fix source field,mxyng,2025-09-12T23:02:12Z,2025-09-16T23:18:07+00:00,3,96.27,True,12,2,1,286,0,1,1,MERGED
+12274,"model: add pre:, suf: to struct tags",mxyng,2025-09-12T21:05:57Z,2025-09-23T23:08:58+00:00,2,266.05,True,102,42,3,403,0,0,0,MERGED
+12271,tests: tighten up a few flaky tests,dhiltgen,2025-09-12T19:24:27Z,2025-09-12T20:59:34+00:00,1,1.59,True,4,4,2,135,0,0,0,MERGED
+12259,cuda: remove compression for better compatibility,dhiltgen,2025-09-11T23:22:03Z,2025-09-12T14:59:14+00:00,1,15.62,True,1,1,1,316,0,0,0,MERGED
+12249,refactor: use slices.Contains to simplify code,fengyuchuanshen,2025-09-11T07:28:00Z,2025-09-11T16:57:31+00:00,1,9.49,True,2,4,1,116,0,0,0,MERGED
+12248,add qwen3-coder tool support,drifkin,2025-09-11T02:57:06Z,2025-09-16T17:21:43+00:00,2,134.41,True,2012,57,15,1842,1,4,5,MERGED
+12246,CI: fix windows cuda build,dhiltgen,2025-09-11T00:26:08Z,2025-09-11T19:25:26+00:00,1,18.99,True,25,2,2,214,0,1,1,MERGED
+12245,Update GGML to b6646 - drop MacOS v12 and v13 support,dhiltgen,2025-09-10T23:32:41Z,2025-10-02T21:47:10+00:00,4,526.24,True,30731,20740,326,120,1,2,3,MERGED
+12242,feat: add dimensions field to embed requests,mxyng,2025-09-10T19:47:52Z,2025-09-11T17:36:10+00:00,8,21.8,True,16,9,4,105,0,5,5,MERGED
+12241,llm: Don't try to load split vision models in the Ollama engine,jessegross,2025-09-10T18:15:26Z,2025-09-11T18:41:55+00:00,1,24.44,True,5,1,1,210,0,0,0,MERGED
+12233,runner: simplify parser entrypoints in runner,ParthSareen,2025-09-09T20:20:35Z,2025-09-10T18:24:42+00:00,5,22.07,True,173,77,6,152,1,2,3,MERGED
+12232,tests: add tool calling test,ParthSareen,2025-09-09T18:33:39Z,2025-09-09T21:01:11+00:00,1,2.46,True,96,0,1,36,0,0,0,MERGED
+12231,Flash attention & KV cache quantization validation fixes,jessegross,2025-09-09T18:02:14Z,2025-09-10T23:40:45+00:00,1,29.64,True,13,5,3,148,0,0,0,MERGED
+12230,docs: add ollama-co2 to community integrations,carbonatedWaterOrg,2025-09-09T16:49:26Z,2025-09-10T23:37:10+00:00,3,30.8,True,1,0,1,247,0,1,1,MERGED
+12222,llm: Clamp batch size to context size,jessegross,2025-09-09T01:19:02Z,2025-09-09T03:40:12+00:00,1,2.35,True,5,3,3,255,0,0,0,MERGED
+12216,docs: show how to debug nvidia init failures,dhiltgen,2025-09-08T16:51:16Z,2025-09-08T18:39:00+00:00,1,1.8,True,3,0,1,73,0,0,0,MERGED
+12188,Added project (Clueless) to Community Integrations README.md,KashyapTan,2025-09-05T03:43:17Z,2025-09-09T04:31:29+00:00,1,96.8,True,1,0,1,260,0,0,0,MERGED
+12186,Hybrid and recurrent memory estimates,gabe-l-hart,2025-09-04T23:09:47Z,2025-09-08T21:53:22+00:00,3,94.73,True,121,14,1,1780,5,1,6,MERGED
+12185,batch: use tensors for outputs,mxyng,2025-09-04T22:33:46Z,2025-09-15T21:33:07+00:00,5,262.99,True,27,37,14,82,1,2,3,MERGED
+12176,parser: don't check the file type of safetensors to prevent false negatives.,rick-github,2025-09-03T22:39:56Z,2025-09-05T23:27:41+00:00,1,48.8,True,3,2,1,688,1,0,1,MERGED
+12168,Fixe bug tha image cannot be seen when slice image,tc-mb,2025-09-03T10:49:25Z,2025-09-12T23:25:12+00:00,11,228.6,True,17,16,1,508,18,1,19,MERGED
+12161,tests: reduce stress on CPU to 2 models,dhiltgen,2025-09-02T23:58:48Z,2025-09-09T16:32:16+00:00,2,160.56,True,55,30,3,103,1,1,2,MERGED
+12156,llm: Avoid underflow in free memory logging,jessegross,2025-09-02T17:51:48Z,2025-09-02T19:30:26+00:00,1,1.64,True,5,1,1,272,0,0,0,MERGED
+12155,runner: disable embedding models in ollama engine,mxyng,2025-09-02T17:43:06Z,2025-09-05T00:42:56+00:00,1,55.0,False,5,2,1,0,0,0,0,CLOSED
+12129,Update README.md,alpha-nerd-nomyo,2025-08-31T09:47:39Z,2025-08-31T20:49:10+00:00,1,11.03,True,1,0,1,72,0,0,0,MERGED
+12123,chore: fix struct field name in comment,pxwanglu,2025-08-30T10:00:13Z,2025-08-31T23:26:11+00:00,1,37.43,True,1,1,1,32,0,0,0,MERGED
+12120,harden uncaught exception registration,dhiltgen,2025-08-30T00:01:24Z,2025-09-02T16:43:55+00:00,1,88.71,True,34,2,2,492,0,0,0,MERGED
+12110,logutil: add Trace and TraceContext helpers,mxyng,2025-08-28T20:07:31Z,2025-09-02T20:09:12+00:00,1,120.03,True,22,18,7,109,0,0,0,MERGED
+12108,Always filter devices,dhiltgen,2025-08-28T15:41:28Z,2025-08-29T19:17:32+00:00,2,27.6,True,65,70,8,366,2,0,2,MERGED
+12102,ggml: Avoid allocating CUDA primary context on unused GPUs,jessegross,2025-08-27T22:09:31Z,2025-08-27T23:24:19+00:00,2,1.25,True,171,2,7,498,0,0,0,MERGED
+12090,Use runners for GPU discovery,dhiltgen,2025-08-26T20:30:21Z,2025-10-01T22:12:32+00:00,11,865.7,True,3274,3805,57,967,7,24,31,MERGED
+12052,runner: move harmony to runner,ParthSareen,2025-08-23T17:12:56Z,2025-09-08T22:07:59+00:00,28,388.92,True,369,337,6,157,5,15,20,MERGED
+12041,fix keep alive,mxyng,2025-08-22T22:39:19Z,2025-08-27T18:51:25+00:00,2,116.2,True,9,4,3,40,3,0,3,MERGED
+12039,tools: avoid matching braces that are part of tool content,jmorganca,2025-08-22T21:05:52Z,2025-08-22T22:22:14+00:00,2,1.27,True,184,4,2,12,0,1,1,MERGED
+12038,api: implement stringer for ToolFunctionParameters,jmorganca,2025-08-22T20:41:56Z,2025-08-22T23:26:48+00:00,1,2.75,True,67,37,3,39,0,0,0,MERGED
+12028,chore: remove redundant words in comment,zoupingshi,2025-08-22T08:38:39Z,2025-08-22T18:00:27+00:00,1,9.36,True,2,2,2,33,0,0,0,MERGED
+12024,server: skip parsing initial <think> if provided in the prompt,jmorganca,2025-08-22T05:52:58Z,2025-08-22T19:00:16+00:00,1,13.12,True,234,0,2,0,0,0,0,MERGED
+12021,thinking: fix double emit when no opening tag,drifkin,2025-08-22T04:07:40Z,2025-08-22T19:01:38+00:00,1,14.9,True,12,1,2,316,1,0,1,MERGED
+12018,convert(gptoss): mxfp4 to ggml layout to avoid jit conversion,mxyng,2025-08-21T21:20:42Z,2025-08-26T23:41:03+00:00,1,122.34,True,49,58,6,0,0,0,0,MERGED
+12016,harmony: move harmony parsing into a package,ParthSareen,2025-08-21T19:37:01Z,2025-08-21T20:56:22+00:00,1,1.32,True,32,32,3,286,1,0,1,MERGED
+12015,convert: fix tensor sorting,mxyng,2025-08-21T18:39:12Z,2025-08-26T20:57:46+00:00,2,122.31,True,29,25,3,298,1,1,2,MERGED
+12000,Add v12 + v13 cuda support,dhiltgen,2025-08-21T00:01:49Z,2025-09-10T19:05:18+00:00,2,499.06,True,146,25,8,1232,8,0,8,MERGED
+11996,gptoss: enable flash attention by default,mxyng,2025-08-20T21:55:38Z,2025-08-26T20:34:46+00:00,3,142.65,True,25,5,3,58,4,2,6,MERGED
+11973,model: fix boundary in bpe,drifkin,2025-08-20T01:25:53Z,2025-08-20T05:58:34+00:00,2,4.54,True,31,1,2,228,1,0,1,MERGED
+11967,kvcache: Use Cast instead of Copy for flash attention masks,jessegross,2025-08-19T18:31:57Z,2025-08-19T19:36:28+00:00,1,1.08,True,29,20,3,450,0,0,0,MERGED
+11956,Add any-llm to Libraries in README.md,Kostis-S-Z,2025-08-18T10:23:35Z,2025-08-18T20:13:26+00:00,1,9.83,True,1,0,1,310,0,0,0,MERGED
+11952,README update: added new integration - Andes ,aqerd,2025-08-18T08:43:35Z,2025-08-18T21:20:28+00:00,2,12.61,True,1,0,1,114,0,0,0,MERGED
+11950,Add any-agent to Libraries in README,Kostis-S-Z,2025-08-18T07:43:58Z,2025-08-18T21:21:36+00:00,1,13.63,True,1,0,1,419,0,0,0,MERGED
+11946,Add Serene Pub to community integrations,doolijb,2025-08-18T04:03:46Z,2025-08-18T20:12:41+00:00,1,16.15,True,1,0,1,930,0,0,0,MERGED
+11915,"ollama/docs/turbo.md: Added missing comma in ""Ollama's Javascript library""",ThomasPelster,2025-08-15T07:24:51Z,2025-08-15T21:45:01+00:00,1,14.34,True,1,1,1,61,0,0,0,MERGED
+11910,harmony: convert fn names to be valid ts identifiers,drifkin,2025-08-15T00:18:00Z,2025-08-18T21:17:47+00:00,1,93.0,True,193,18,3,775,0,0,0,MERGED
+11909,handle cgo flags in docker build,dhiltgen,2025-08-14T23:48:30Z,2025-08-15T21:39:36+00:00,1,21.85,True,2,0,1,101,0,0,0,MERGED
+11907,gpt-oss: convert from hugging face format,mxyng,2025-08-14T21:51:47Z,2025-08-20T22:39:18+00:00,1,144.79,True,66,34,1,83,0,0,0,MERGED
+11906,test: improve scheduler/concurrency stress tests,dhiltgen,2025-08-14T21:07:46Z,2025-08-15T21:37:54+00:00,1,24.5,True,167,228,4,604,0,0,0,MERGED
+11900,doc: clarify both rocm and main bundle necessary,dhiltgen,2025-08-14T16:07:14Z,2025-08-14T19:54:56+00:00,1,3.79,True,8,4,2,103,0,0,0,MERGED
+11887,Create devcontainer.json,OmegaT4224,2025-08-13T15:08:17Z,2025-08-24T12:20:08+00:00,1,261.2,False,4,0,1,0,1,0,1,CLOSED
+11880,chore: fix some inconsistent function name in comment,youzichuan,2025-08-13T08:23:36Z,2025-08-13T16:50:27+00:00,1,8.45,True,4,4,4,46,0,0,0,MERGED
+11875,server: add debug option for printing out prompt instead of calling model,drifkin,2025-08-12T23:40:59Z,2025-08-18T21:03:14+00:00,1,141.37,True,460,0,3,31,0,0,0,MERGED
+11872,int: adjust a few models for integration tests,dhiltgen,2025-08-12T21:36:26Z,2025-08-13T22:42:36+00:00,1,25.1,True,32,12,1,0,0,0,0,MERGED
+11863,perf: build graph for next batch async to keep GPU busy,dhiltgen,2025-08-11T23:19:17Z,2025-08-29T21:20:28+00:00,17,430.02,True,589,233,20,340,0,26,26,MERGED
+11823,update vendored llama.cpp and ggml,mxyng,2025-08-09T00:23:00Z,2025-08-14T21:42:58+00:00,6,141.33,True,156798,48333,243,240,3,8,11,MERGED
+11818,New Memory Management Base,jessegross,2025-08-08T19:06:26Z,2025-08-08T21:57:13+00:00,1,2.85,True,211,45,8,173,0,0,0,MERGED
+11755,CONTRIBUTING: Explicitly note docs:... as a good example,vorburger,2025-08-06T20:02:52Z,2025-08-10T01:12:30+00:00,1,77.16,True,1,0,1,0,0,0,0,MERGED
+11717,Let `curl` resume downloads in `install.sh`,Androbin,2025-08-06T04:54:51Z,2025-08-09T00:41:46+00:00,2,67.78,False,4,4,1,532,1,1,2,CLOSED
+11696,tests: add integration coverage for oss-gpt,dhiltgen,2025-08-05T20:56:11Z,2025-08-07T22:06:57+00:00,2,49.18,True,9,2,1,58,0,0,0,MERGED
+11672,gpt-oss,mxyng,2025-08-05T17:34:02Z,2025-08-05T19:21:16+00:00,1,1.79,True,6689,347,56,51,6,0,6,MERGED
+11635,cuda: leverage JIT for smaller footprint,dhiltgen,2025-08-01T17:07:30Z,2025-08-13T22:42:17+00:00,1,293.58,True,3,3,1,847,0,0,0,MERGED
+11614,discovery: fix cudart driver version,dhiltgen,2025-07-31T22:33:40Z,2025-08-13T22:43:33+00:00,1,312.16,True,7,11,3,358,0,0,0,MERGED
+11612,win: static link msvc libs,dhiltgen,2025-07-31T20:03:43Z,2025-08-05T23:10:42+00:00,1,123.12,True,2,1,1,272,0,0,0,MERGED
+11611,kvcache: Enable SWA to retain additional entries,jessegross,2025-07-31T19:53:21Z,2025-07-31T21:48:01+00:00,1,1.91,True,196,42,2,679,0,0,0,MERGED
+11579,Fixing broken AMD driver link,skools-here,2025-07-30T11:15:27Z,2025-07-30T19:02:54+00:00,1,7.79,True,1,1,1,82,0,0,0,MERGED
+11561,kvcache: Don't shift empty batches,jessegross,2025-07-28T20:33:20Z,2025-07-29T19:32:22+00:00,2,22.98,True,17,4,1,362,1,0,1,MERGED
+11554,docs: fix typos and remove trailing whitespaces,yoshihyoda,2025-07-28T05:56:23Z,2025-07-28T18:19:13+00:00,1,12.38,True,8,8,4,619,0,0,0,MERGED
+11543,Add Mayan EDMS to Community Integrations,mayanedms,2025-07-26T21:19:49Z,2025-07-27T22:02:52+00:00,1,24.72,True,1,0,1,209,0,0,0,MERGED
+11528,CONTRIBUTING: fix typo in commit message example (clairity → clarity),ruyut,2025-07-25T16:33:36Z,2025-07-25T21:24:06+00:00,2,4.84,True,1,1,1,72,0,1,1,MERGED
+11525,Increase performance for Gemma3n models on NVGPUs by enabling CUDA Graph execution,ORippler,2025-07-25T13:51:53Z,2025-07-29T19:37:06+00:00,1,101.75,True,67,10,5,782,0,0,0,MERGED
+11509,tools: loosen tool argument parsing,jmorganca,2025-07-23T20:56:50Z,2025-07-24T04:21:29+00:00,2,7.41,True,78,244,2,315,2,1,3,MERGED
+11507,convert: skip reading into memory when possible,mxyng,2025-07-23T19:29:30Z,2025-08-14T22:03:57+00:00,1,530.57,True,258,13,2,152,0,0,0,MERGED
+11502,refactor: use slices.Equal to simplify code,minxinyi,2025-07-23T11:44:21Z,2025-07-23T21:25:39+00:00,1,9.69,True,2,14,1,137,1,0,1,MERGED
+11496,Fix GetModelInfo,pdevine,2025-07-22T19:33:59Z,2025-07-22T20:40:47+00:00,2,1.11,True,17,11,2,181,0,1,1,MERGED
+11462,Update linux.md,ycomiti,2025-07-17T15:20:17Z,2025-07-22T18:17:31+00:00,1,122.95,True,1,1,1,0,0,0,0,MERGED
+11461,readme: add GMAI - Gradle Managed to community integrations (#11460),warting,2025-07-17T14:10:34Z,2025-07-20T21:55:47+00:00,1,79.75,True,1,0,1,123,0,0,0,MERGED
+11456,tools: fix issue with tools that are substrings of others,jmorganca,2025-07-17T07:00:09Z,2025-07-20T21:55:14+00:00,1,86.92,True,310,17,2,165,0,0,0,MERGED
+11455,update argo description to support deep research,zmldndx,2025-07-17T06:40:40Z,2025-07-19T20:29:38+00:00,1,61.82,True,1,1,1,0,0,0,0,MERGED
+11431,cmd: add default role to message construction,ParthSareen,2025-07-15T19:42:00Z,2025-07-16T18:18:16+00:00,1,22.6,True,2,1,1,57,0,0,0,MERGED
+11430,compile bf16 support into ggml-metal,mxyng,2025-07-15T19:01:13Z,2025-07-17T00:32:57+00:00,2,29.53,True,1,1,1,53,0,0,0,MERGED
+11427,readme: update the llama.cpp github link,haiyuewa,2025-07-15T10:20:28Z,2025-07-17T04:20:28+00:00,1,42.0,True,1,1,1,68,0,0,0,MERGED
+11425,typo,mfornet,2025-07-15T05:12:24Z,2025-07-16T17:50:47+00:00,2,36.64,True,2,2,1,0,0,0,0,MERGED
+11423,api: fix unreachable status err,BruceMacD,2025-07-15T02:27:23Z,2025-07-16T18:03:29+00:00,1,39.6,True,14,4,2,177,0,0,0,MERGED
+11412,openai: allow openai endpoint to accept webp images,rick-github,2025-07-14T10:37:21Z,2025-07-17T04:31:49+00:00,1,65.91,True,1,1,1,13,0,0,0,MERGED
+11404,Create generator-generic-ossf-slsa3-publish.yml,RAPTOR1OUS,2025-07-13T14:26:33Z,2025-07-13T17:02:09+00:00,1,2.59,False,87,0,1,45,1,0,1,CLOSED
+11383,ggml: Disable unused pipeline parallelism,jessegross,2025-07-11T18:55:45Z,2025-07-11T20:30:05+00:00,1,1.57,True,1,1,1,134,0,0,0,MERGED
+11379,ci: switch mac builder to arm64,dhiltgen,2025-07-11T15:36:14Z,2025-07-17T14:33:44+00:00,1,142.96,True,1,1,1,51,0,0,0,MERGED
+11362,Only load supported models on new engine,dhiltgen,2025-07-10T15:51:00Z,2025-07-11T19:21:54+00:00,6,27.52,True,261,0,4,184,0,2,2,MERGED
+11333,ggml: Report ordinal IDs for AMD GPUs on Windows,jessegross,2025-07-08T21:23:48Z,2025-07-09T17:35:31+00:00,1,20.2,True,45,33,6,567,0,0,0,MERGED
+11332,ggml: Use assigned layers when reporting loading stats,jessegross,2025-07-08T20:07:00Z,2025-07-11T21:21:51+00:00,1,73.25,True,11,9,1,244,0,0,0,MERGED
+11330,Reduce default parallelism to 1,dhiltgen,2025-07-08T17:55:22Z,2025-07-08T19:08:37+00:00,2,1.22,True,4,6,3,390,0,0,0,MERGED
+11307,doc: add NVIDIA blackwell to supported list,dhiltgen,2025-07-05T21:54:12Z,2025-07-05T23:06:30+00:00,1,1.21,True,2,0,1,12,0,0,0,MERGED
+11294,template: add tool result compatibility,ParthSareen,2025-07-04T05:44:42Z,2025-07-07T22:53:42+00:00,14,89.15,True,348,8,4,79,0,8,8,MERGED
+11286,README: added gemma 3n,olumolu,2025-07-03T12:56:24Z,2025-07-31T08:14:59+00:00,1,667.31,False,3,1,1,31,2,0,2,CLOSED
+11242,Add NativeMind to Community Integrations,xukecheng,2025-06-30T07:10:02Z,2025-07-01T16:46:15+00:00,1,33.6,True,1,0,1,150,0,0,0,MERGED
+11234,ggml: fix cuda when ROCR_VISIBLE_DEVICES is set but empty,jakehlee,2025-06-29T03:25:44Z,2025-08-18T17:34:51+00:00,1,1214.15,False,5,1,1,474,2,0,2,CLOSED
+11233,tools: fix parsing tool calls with empty arguments or missing required fields,jmorganca,2025-06-28T18:28:02Z,2025-06-30T15:59:04+00:00,5,45.52,True,86,32,2,106,0,1,1,MERGED
+11226,"Revert ""ggml: Temporarily disable reporting UUIDs""",jessegross,2025-06-27T23:22:37Z,2025-07-07T18:31:02+00:00,2,235.14,True,2,5,1,87,0,0,0,MERGED
+11224,Add ollama-bash-toolshed to Community Integrations : Terminal,attogram,2025-06-27T18:25:51Z,2025-06-29T21:59:55+00:00,1,51.57,True,1,0,1,175,0,0,0,MERGED
+11207,skip quantizing per_layer_token_embd,mxyng,2025-06-26T07:02:09Z,2025-06-27T04:49:35+00:00,1,21.79,True,2,0,1,72,0,0,0,MERGED
+11205,remove extra field attr,mxyng,2025-06-26T04:33:26Z,2025-08-25T16:58:16+00:00,1,1452.41,True,5,5,5,215,1,0,1,MERGED
+11195,Granite four (llama.cpp bump 443e7e7+),gabe-l-hart,2025-06-25T15:02:36Z,2025-08-11T14:41:24+00:00,10,1127.65,False,154880,41616,214,3238,22,6,28,CLOSED
+11189,docs: update modelfile.md to reflect current default num_ctx,sncix,2025-06-25T00:14:20Z,2025-07-11T22:15:01+00:00,1,406.01,True,1,1,1,80,0,0,0,MERGED
+11188,ci: recombine linux amd64 binaries,dhiltgen,2025-06-24T23:27:17Z,2025-06-25T01:45:01+00:00,1,2.3,True,12,2,1,554,0,0,0,MERGED
+11184,CI: switch windows to vs 2022,dhiltgen,2025-06-24T19:02:27Z,2025-06-24T20:26:55+00:00,2,1.41,True,12,6,2,83,0,1,1,MERGED
+11173,int: add performance integration tests,dhiltgen,2025-06-23T20:56:18Z,2025-07-05T23:07:09+00:00,2,290.18,True,124771,31,4,506,0,1,1,MERGED
+11170,Update downloading to pulling in api.md,gao-feng,2025-06-23T12:57:47Z,2025-08-06T18:33:09+00:00,1,1061.59,True,1,1,1,139,0,0,0,MERGED
+11169,(docs): add ai-hub to community integrations,aj-seven,2025-06-23T11:52:31Z,2025-06-23T16:21:12+00:00,3,4.48,True,1,0,1,336,0,0,0,MERGED
+11142,build speedups,dhiltgen,2025-06-19T23:15:04Z,2025-06-20T19:32:51+00:00,1,20.3,True,3,2,1,50,0,0,0,MERGED
+11140,ggml: Check return status for computation.,jessegross,2025-06-19T21:56:40Z,2025-06-20T00:12:49+00:00,1,2.27,True,3,1,1,230,0,0,0,MERGED
+11120,benchmark: remove unused benchmark test,jmorganca,2025-06-18T18:48:39Z,2025-06-18T19:58:50+00:00,1,1.17,True,0,237,2,54,0,0,0,MERGED
+11119,"Reapply ""feat: incremental gguf parser (#10822)"" (#11114)",mxyng,2025-06-18T17:53:01Z,2025-06-20T18:11:40+00:00,1,48.31,True,1362,169,13,291,0,0,0,MERGED
+11110,chore: fix function name,xiaoxiangirl,2025-06-18T09:12:50Z,2025-06-18T12:21:45+00:00,1,3.15,True,1,1,1,17,0,0,0,MERGED
+11101,tools: fix parsing tool calls without any parameters,jmorganca,2025-06-17T15:42:07Z,2025-06-17T17:51:43+00:00,5,2.16,True,297,46,2,12,0,3,3,MERGED

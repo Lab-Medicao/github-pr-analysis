@@ -16,7 +16,7 @@ HEADERS = {"Authorization": f"Bearer {TOKEN}" if TOKEN else ""}
 
 SESSION = requests.Session()
 retry_strategy = Retry(
-    total=5,
+    total=8,
     backoff_factor=1.5,
     status_forcelist=[429, 500, 502, 503, 504],
     allowed_methods=["POST"],
@@ -35,6 +35,7 @@ os.makedirs(QUERY_DIR, exist_ok=True)
 REPO_QUERY_FILE = os.path.join(QUERY_DIR, "repo_query.graphql")
 PRS_QUERY_FILE = os.path.join(QUERY_DIR, "pr_query.graphql")
 
+
 def run_query(query, variables, max_retries=5):
     delay = 2
     for attempt in range(max_retries):
@@ -46,12 +47,13 @@ def run_query(query, variables, max_retries=5):
                 timeout=45,
             )
             if response.status_code != 200:
-                
+
                 msg = response.text
                 content_type = response.headers.get("Content-Type", "")
                 if "text/html" in content_type and "<title>" in msg:
                     try:
-                        title = msg.split("<title>", 1)[1].split("</title>", 1)[0]
+                        title = msg.split("<title>", 1)[
+                            1].split("</title>", 1)[0]
                         msg = f"{title} (HTML)"
                     except Exception:
                         msg = "HTML error page"
@@ -59,7 +61,7 @@ def run_query(query, variables, max_retries=5):
 
             data = response.json()
             if "errors" in data and data["errors"]:
-                
+
                 raise Exception(f"GraphQL errors: {data['errors']}")
 
             if "data" not in data:
@@ -67,10 +69,12 @@ def run_query(query, variables, max_retries=5):
 
             return data
         except Exception as e:
-            print(f"⚠️ Erro na requisição ({e}), tentativa {attempt+1}/{max_retries}. Retentando em {delay}s...")
-            time.sleep(delay + random.uniform(0, 1)) 
+            print(
+                f"⚠️ Erro na requisição ({e}), tentativa {attempt+1}/{max_retries}. Retentando em {delay}s...")
+            time.sleep(delay + random.uniform(0, 1))
             delay *= 2
     raise Exception("❌ Falha após várias tentativas.")
+
 
 def filter_prs(prs):
     filtered = []
@@ -80,15 +84,17 @@ def filter_prs(prs):
         if node["reviews"]["totalCount"] < 1:
             continue
 
-        created = datetime.datetime.fromisoformat(node["createdAt"].replace("Z", "+00:00"))
+        created = datetime.datetime.fromisoformat(
+            node["createdAt"].replace("Z", "+00:00"))
         closed_or_merged = node["mergedAt"] or node["closedAt"]
         if not closed_or_merged:
             continue
 
-        closed_or_merged = datetime.datetime.fromisoformat(closed_or_merged.replace("Z", "+00:00"))
+        closed_or_merged = datetime.datetime.fromisoformat(
+            closed_or_merged.replace("Z", "+00:00"))
         delta = closed_or_merged - created
 
-        if delta.total_seconds() >= 3600:  
+        if delta.total_seconds() >= 3600:
             hours = round(delta.total_seconds() / 3600, 2)
             filtered.append([
                 node["number"],
@@ -100,6 +106,7 @@ def filter_prs(prs):
                 hours
             ])
     return filtered
+
 
 def save_repo_csv(repo_name, data):
     filename = os.path.join(OUTPUT_DIR, f"{repo_name.replace('/', '_')}.csv")
@@ -131,10 +138,11 @@ def _compute_final_review_state(review_nodes: List[dict]) -> str:
     """Retorna o estado final da revisão (último review submetido)."""
     if not review_nodes:
         return "NONE"
-    nodes = [n for n in review_nodes if n.get("submittedAt") or n.get("createdAt")]
+    nodes = [n for n in review_nodes if n.get(
+        "submittedAt") or n.get("createdAt")]
     if not nodes:
         return "NONE"
-    nodes.sort(key=lambda n: n.get("submittedAt") or n.get("createdAt"))  
+    nodes.sort(key=lambda n: n.get("submittedAt") or n.get("createdAt"))
     return nodes[-1].get("state", "NONE") or "NONE"
 
 
@@ -148,10 +156,10 @@ def collect_single_repo(owner: str, name: str, max_prs: Optional[int] = None):
     while True:
         data = run_query(query, {"owner": owner, "name": name, "after": after})
         pr_container = data["data"]["repository"]["pullRequests"]
-        
+
         if "nodes" in pr_container:
             pr_nodes = pr_container["nodes"]
-        else:  
+        else:
             pr_nodes = [edge["node"] for edge in pr_container.get("edges", [])]
         page_info = pr_container["pageInfo"]
 
@@ -160,11 +168,13 @@ def collect_single_repo(owner: str, name: str, max_prs: Optional[int] = None):
             if reviews_total < 1:
                 continue
 
-            created = datetime.datetime.fromisoformat(node["createdAt"].replace("Z", "+00:00"))
+            created = datetime.datetime.fromisoformat(
+                node["createdAt"].replace("Z", "+00:00"))
             closed_or_merged_raw = node.get("mergedAt") or node.get("closedAt")
             if not closed_or_merged_raw:
                 continue
-            closed_or_merged = datetime.datetime.fromisoformat(closed_or_merged_raw.replace("Z", "+00:00"))
+            closed_or_merged = datetime.datetime.fromisoformat(
+                closed_or_merged_raw.replace("Z", "+00:00"))
             delta = closed_or_merged - created
             if delta.total_seconds() < 3600:
                 continue
@@ -175,14 +185,15 @@ def collect_single_repo(owner: str, name: str, max_prs: Optional[int] = None):
             changed_files = node.get("changedFiles") or 0
             body_len = len(node.get("bodyText") or "")
             issue_comments = (node.get("comments") or {}).get("totalCount", 0)
-            review_threads = (node.get("reviewThreads") or {}).get("totalCount", 0)
+            review_threads = (node.get("reviewThreads")
+                              or {}).get("totalCount", 0)
             interactions = issue_comments + review_threads
-            
+
             review_nodes = ((node.get("reviews") or {}).get("nodes") or [])
             if review_nodes:
                 final_state = _compute_final_review_state(review_nodes)
             else:
-                
+
                 final_state = "MERGED" if node.get("merged") else "CLOSED"
 
             yield [
@@ -215,7 +226,8 @@ def collect_single_repo(owner: str, name: str, max_prs: Optional[int] = None):
 
 def run_single_repo_mode(repo: str, max_prs: int | None):
     if "/" not in repo:
-        raise SystemExit("--repo deve estar no formato owner/name, ex: facebook/react")
+        raise SystemExit(
+            "--repo deve estar no formato owner/name, ex: facebook/react")
 
     owner, name = repo.split("/", 1)
     start_time = time.time()
@@ -236,8 +248,7 @@ def run_single_repo_mode(repo: str, max_prs: int | None):
 
     total_prs = repo_data["data"]["repository"]["pullRequests"]["totalCount"]
 
-    
-    with tqdm(total= total_prs, desc=f"PRs {owner}/{name}", unit="pr") as pbar:
+    with tqdm(total=total_prs, desc=f"PRs {owner}/{name}", unit="pr") as pbar:
         for pr in collect_single_repo(owner, name, max_prs):
             collected.append(pr)
             pbar.update(1)
@@ -245,10 +256,11 @@ def run_single_repo_mode(repo: str, max_prs: int | None):
     save_repo_csv(f"{owner}/{name}", collected)
 
     elapsed = round((time.time() - start_time) / 60, 2)
-    print(f"\n✅ {len(collected)} PRs coletados de {owner}/{name} em {elapsed} minutos")
+    print(
+        f"\n✅ {len(collected)} PRs coletados de {owner}/{name} em {elapsed} minutos")
 
 
-def run_multi_repo_mode():
+def run_multi_repo_mode(max_prs: int | None):
     """Executa o fluxo para varrer múltiplos repositórios populares."""
     start_time = time.time()
     repo_count = 0
@@ -256,7 +268,6 @@ def run_multi_repo_mode():
 
     processed_repos = {f.split(".csv")[0] for f in os.listdir(OUTPUT_DIR)}
 
-    
     with open(REPO_QUERY_FILE, "r", encoding="utf-8") as f:
         repo_query_text = f.read()
     with open(PRS_QUERY_FILE, "r", encoding="utf-8") as f:
@@ -282,7 +293,8 @@ def run_multi_repo_mode():
                     pbar_repos.update(1)
                     continue
 
-                repo_prs = collect_repo_prs(owner, name, repo_node, prs_query_text)
+                repo_prs = collect_repo_prs(
+                    owner, name, repo_node, prs_query_text, max_prs=max_prs)
                 save_repo_csv(repo_name, repo_prs)
 
                 repo_count += 1
@@ -301,30 +313,37 @@ def run_multi_repo_mode():
     print(f"\n✅ Tempo total de execução (multi-repo): {elapsed} minutos")
 
 
-def collect_repo_prs(owner: str, name: str, repo_node: dict, prs_query_text: str) -> list:
-    """Coleta PRs de um repositório com barra de progresso."""
+def collect_repo_prs(owner: str, name: str, repo_node: dict, prs_query_text: str, max_prs: Optional[int] = None) -> list:
+    """Coleta PRs de um repositório com barra de progresso, limitado por max_prs."""
     after_pr = None
     repo_prs = []
     pr_total = repo_node["pullRequests"]["totalCount"]
+    total_to_collect = min(pr_total, max_prs) if max_prs else pr_total
 
-    with tqdm(total=pr_total, desc=f"PRs {owner}/{name}", unit="pr", leave=False) as pbar_prs:
+    with tqdm(total=total_to_collect, desc=f"PRs {owner}/{name}", unit="pr", leave=False) as pbar_prs:
         while True:
-            prs_data = run_query(prs_query_text, {"owner": owner, "name": name, "after": after_pr})
+            prs_data = run_query(
+                prs_query_text, {"owner": owner, "name": name, "after": after_pr})
             pr_container = prs_data["data"]["repository"]["pullRequests"]
             if "nodes" in pr_container:
                 pr_nodes = pr_container["nodes"]
             else:
-                pr_nodes = [edge["node"] for edge in pr_container.get("edges", [])]
+                pr_nodes = [edge["node"]
+                            for edge in pr_container.get("edges", [])]
 
             for node in pr_nodes:
-                reviews_total = (node.get("reviews") or {}).get("totalCount", 0)
+                reviews_total = (node.get("reviews") or {}
+                                 ).get("totalCount", 0)
                 if reviews_total < 1:
                     continue
-                created = datetime.datetime.fromisoformat(node["createdAt"].replace("Z", "+00:00"))
-                closed_or_merged_raw = node.get("mergedAt") or node.get("closedAt")
+                created = datetime.datetime.fromisoformat(
+                    node["createdAt"].replace("Z", "+00:00"))
+                closed_or_merged_raw = node.get(
+                    "mergedAt") or node.get("closedAt")
                 if not closed_or_merged_raw:
                     continue
-                closed_or_merged = datetime.datetime.fromisoformat(closed_or_merged_raw.replace("Z", "+00:00"))
+                closed_or_merged = datetime.datetime.fromisoformat(
+                    closed_or_merged_raw.replace("Z", "+00:00"))
                 delta = closed_or_merged - created
                 if delta.total_seconds() < 3600:
                     continue
@@ -334,8 +353,10 @@ def collect_repo_prs(owner: str, name: str, repo_node: dict, prs_query_text: str
                 deletions = node.get("deletions") or 0
                 changed_files = node.get("changedFiles") or 0
                 body_len = len(node.get("bodyText") or "")
-                issue_comments = (node.get("comments") or {}).get("totalCount", 0)
-                review_threads = (node.get("reviewThreads") or {}).get("totalCount", 0)
+                issue_comments = (node.get("comments") or {}
+                                  ).get("totalCount", 0)
+                review_threads = (node.get("reviewThreads")
+                                  or {}).get("totalCount", 0)
                 interactions = issue_comments + review_threads
                 review_nodes = ((node.get("reviews") or {}).get("nodes") or [])
                 if review_nodes:
@@ -361,10 +382,15 @@ def collect_repo_prs(owner: str, name: str, repo_node: dict, prs_query_text: str
                     interactions,
                     final_state,
                 ])
+                if max_prs and len(repo_prs) >= max_prs:
+                    break
 
-            page_info = pr_container["pageInfo"]
             pbar_prs.update(len(pr_nodes))
 
+            if max_prs and len(repo_prs) >= max_prs:
+                break
+
+            page_info = pr_container["pageInfo"]
             if page_info["hasNextPage"]:
                 after_pr = page_info["endCursor"]
             else:
@@ -374,15 +400,18 @@ def collect_repo_prs(owner: str, name: str, repo_node: dict, prs_query_text: str
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Coletor de PRs via GitHub GraphQL")
-    parser.add_argument("--repo", help="Repositório único no formato owner/name para teste")
-    parser.add_argument("--max-prs", type=int, default=None, help="Limite de PRs ao coletar um único repositório")
+    parser = argparse.ArgumentParser(
+        description="Coletor de PRs via GitHub GraphQL")
+    parser.add_argument(
+        "--repo", help="Repositório único no formato owner/name para teste")
+    parser.add_argument("--max-prs", type=int, default=None,
+                        help="Limite de PRs ao coletar um único repositório")
     args = parser.parse_args()
 
     if args.repo:
         run_single_repo_mode(args.repo, args.max_prs)
     else:
-        run_multi_repo_mode()
+        run_multi_repo_mode(args.max_prs)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,151 @@
+number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+7276,refactor: omit unnecessary reassignment,asttool,2025-09-26T08:13:00Z,2025-09-26T16:44:58+00:00,1,8.53,True,0,1,1,229,1,0,1,MERGED
+7275,"chore: ugh, lint fix...",mohammed90,2025-09-26T04:40:05Z,2025-09-26T07:14:48+00:00,1,2.58,True,48,48,14,37,2,0,2,MERGED
+7274,core: use reflect.TypeFor to check for encoding/json.RawMessage,WeidiDeng,2025-09-26T00:47:37Z,2025-09-26T16:46:19+00:00,2,15.98,True,3,1,1,1861,2,0,2,MERGED
+7273,update quic-go to v0.54.1,marten-seemann,2025-09-25T15:22:05Z,2025-09-26T01:24:26+00:00,1,10.04,True,3,3,2,0,2,0,2,MERGED
+7272,caddypki: check intermediate lifetime to actual root cert lifetime,u5surf,2025-09-25T13:40:21Z,2025-09-26T16:24:52+00:00,1,26.74,True,4,2,1,176,0,0,0,MERGED
+7270,httpcaddyfile: Add missing DNS challenge check for `acme_dns`,rightaditya,2025-09-22T00:25:24Z,2025-10-03T20:05:46+00:00,2,283.67,True,250,17,7,700,6,0,6,MERGED
+7268,caddyhttp: Prevent commas in header values from being split in CLI commands,gilbsgilbs,2025-09-20T08:22:39Z,2025-09-23T03:12:06+00:00,1,66.82,True,6,6,2,674,1,0,1,MERGED
+7258,core: Reloading with `SIGUSR1` if config never changed via admin,francislavoie,2025-09-14T06:46:05Z,2025-09-26T16:50:15+00:00,8,298.07,True,167,20,7,1809,5,4,9,MERGED
+7257,logging: Adjustments to BufferedLog to keep logs in the correct order,francislavoie,2025-09-14T03:44:49Z,2025-09-15T15:29:50+00:00,1,35.75,True,37,6,3,898,1,0,1,MERGED
+7253,refactor: use WaitGroup.Go to simplify code,mickychang9,2025-09-11T09:46:23Z,2025-09-11T16:15:09+00:00,1,6.48,True,2,4,1,84,1,0,1,MERGED
+7251,fileserver: set Content-Length for precompressed files,WeidiDeng,2025-09-11T01:06:47Z,2025-09-11T04:48:04+00:00,2,3.69,True,5,5,1,47,2,1,3,MERGED
+7245,logging: Buffer the logs before config is loaded,francislavoie,2025-09-07T03:08:05Z,2025-09-10T16:03:52+00:00,1,84.93,True,107,1,3,1339,0,0,0,MERGED
+7238,Fix PKI creation when auto_https is disabled (#7211),Siomachkin,2025-09-04T07:09:58Z,2025-09-05T15:41:06+00:00,1,32.52,True,29,1,2,1863,1,0,1,MERGED
+7235, encode: fix response corruption when handle_errors is used,Siomachkin,2025-09-02T17:04:20Z,2025-09-02T21:34:56+00:00,3,4.51,True,19,1,1,1356,2,1,3,MERGED
+7217,caddyhttp: Removing redundant middleware next copy,maxcelant,2025-08-26T21:04:44Z,2025-09-01T15:30:34+00:00,1,138.43,True,2,14,1,27,6,0,6,MERGED
+7215,caddyfile: Prevent trailing space on line before env variable - Fixes #6881,arpansaha13,2025-08-26T19:53:08Z,2025-08-26T21:13:54+00:00,1,1.35,True,17,2,2,324,2,0,2,MERGED
+7214,add: encode header Content-Type graphql-response,aro-lew,2025-08-26T10:18:45Z,2025-08-27T20:58:14+00:00,1,34.66,True,1,0,1,402,4,0,4,MERGED
+7212,AI assistance disclosure,mholt,2025-08-25T15:49:46Z,2025-08-25T18:50:26+00:00,1,3.01,True,60,2,3,546,0,3,3,MERGED
+7206,caddyfile: Allow `block` to do nothing if nothing passed to `import`,BeeJay28,2025-08-23T18:55:07Z,2025-09-12T20:29:10+00:00,2,481.57,True,120,11,3,385,1,0,1,MERGED
+7189,caddyfile: Fix importing nested tokens for `{block}`,BeeJay28,2025-08-20T20:16:55Z,2025-08-22T21:29:35+00:00,3,49.21,True,214,23,6,278,7,1,8,MERGED
+7187,caddyhttp: refactor to use reflect.TypeFor,cuiweixie,2025-08-17T12:48:43Z,2025-08-18T23:08:46+00:00,1,34.33,True,12,12,3,2208,1,0,1,MERGED
+7183,ci: set proper build tags in golangci and minor cleanup,dunglas,2025-08-14T14:10:26Z,2025-08-21T20:43:38+00:00,6,174.55,True,11,6,3,114,0,2,2,MERGED
+7182,refactor: use a more modern writing style to simplify code,joemicky,2025-08-14T03:43:01Z,2025-08-20T17:41:21+00:00,6,157.97,True,19,30,11,170,3,3,6,MERGED
+7181,caddyhttp: add replacer placeholders for escaped values,Qusic,2025-08-13T19:16:46Z,2025-08-25T15:07:51+00:00,5,283.85,True,46,1,3,255,4,1,5,MERGED
+7179,caddytls: fix regression in external certificate manager support,quagsirus,2025-08-13T13:56:01Z,2025-08-13T15:30:26+00:00,1,1.57,True,6,4,1,739,2,0,2,MERGED
+7177,http: free up quic listener when stopping,WeidiDeng,2025-08-13T06:19:53Z,2025-08-13T18:35:06+00:00,1,12.25,True,24,1,3,9,4,0,4,MERGED
+7176,http: clean up listeners if some of the listeners fail to bind,WeidiDeng,2025-08-13T02:09:28Z,2025-08-21T18:14:40+00:00,1,208.09,True,21,0,1,9,1,0,1,MERGED
+7174,chore: fix inconsistent function name in comment,youzichuan,2025-08-13T00:14:03Z,2025-08-13T07:05:54+00:00,1,6.86,True,1,1,1,41,1,0,1,MERGED
+7173,doc: Add a few lines about Etag file content,Pizmovc,2025-08-12T20:03:40Z,2025-08-21T22:02:11+00:00,1,217.98,True,2,0,1,209,1,0,1,MERGED
+7168,fix typo in bcrypt cost flag name,GreyXor,2025-08-11T11:43:40Z,2025-08-11T12:46:33+00:00,1,1.05,True,2,2,1,41,0,0,0,MERGED
+7163,cmd: Allow `caddy adapt` to read from stdin,bosdhill,2025-08-06T18:26:26Z,2025-08-07T00:04:28+00:00,1,5.63,True,17,5,2,178,1,0,1,MERGED
+7158,http: disable keepalive when KeepAliveInterval is negative,WeidiDeng,2025-08-06T02:45:56Z,2025-08-20T21:31:15+00:00,1,354.76,True,1,1,1,329,1,0,1,MERGED
+7157,reverse_proxy: use the new KeepAliveConfig to set probe interval,WeidiDeng,2025-08-06T02:24:08Z,2025-08-21T20:36:54+00:00,1,378.21,True,12,0,1,39,2,0,2,MERGED
+7151,Use KeepAliveConfig to pass keepalive_interval to listener's accepted sockets,joshuamcbeth,2025-08-01T17:30:14Z,2025-08-02T15:43:34+00:00,1,22.22,True,13,12,2,121,1,0,1,MERGED
+7149,feat: add bcrypt cost parameter to hash-password,GreyXor,2025-07-30T15:02:00Z,2025-08-11T11:26:19+00:00,13,284.41,True,30,8,4,544,5,5,10,MERGED
+7148,build(deps): bump the all-updates group across 1 directory with 16 updates,dependabot,2025-07-29T18:02:20Z,2025-08-05T06:27:31+00:00,2,156.42,False,273,360,2,28393,9,0,9,CLOSED
+7142,build(deps): bump the actions-deps group with 6 updates,dependabot,2025-07-24T22:41:39Z,2025-08-01T01:34:15+00:00,1,170.88,True,15,15,6,10168,9,0,9,MERGED
+7141,refactor: use slices.Equal to simplify code,minxinyi,2025-07-23T06:45:58Z,2025-07-23T14:07:52+00:00,1,7.37,True,2,12,1,137,1,0,1,MERGED
+7140,chore: fix minor issue in comment,pingshuijie,2025-07-22T10:01:20Z,2025-07-22T11:27:36+00:00,1,1.44,True,1,1,1,26,1,0,1,MERGED
+7136,fix dead link,eeemmmmmm,2025-07-20T11:00:30Z,2025-07-20T12:52:29+00:00,2,1.87,True,1,1,1,0,2,1,3,MERGED
+7127,fileserver: specify license for embedded JavaScript,infertux,2025-07-15T13:01:17Z,2025-07-16T17:49:49+00:00,2,28.81,True,2,0,1,240,3,0,3,MERGED
+7121,chore: fix function in comment,bytesingsong,2025-07-12T07:55:34Z,2025-07-12T11:54:57+00:00,1,3.99,True,2,2,2,23,1,0,1,MERGED
+7117,Fix: Support placeholders in header replacement search patterns,zongzewu23,2025-07-11T04:21:10Z,2025-07-14T20:55:00+00:00,1,88.56,True,203,0,3,612,2,0,2,MERGED
+7112,reverse proxy: validate versions in http transport,WeidiDeng,2025-07-08T01:27:10Z,2025-07-09T20:13:27+00:00,2,42.77,True,13,0,1,8,2,1,3,MERGED
+7100,Align the semantics of http.request.size with http.response.size,qdongxu,2025-06-29T12:45:34Z,2025-08-11T08:38:12+00:00,5,1027.88,False,69,81,7,577,6,2,8,CLOSED
+7099,httpcaddyfile: Validates TLS DNS challenge options,francislavoie,2025-06-29T01:26:47Z,2025-06-30T23:58:16+00:00,2,46.52,True,279,22,26,327,0,0,0,MERGED
+7095,refactor: replace HasPrefix+TrimPrefix with CutPrefix,gopherorg,2025-06-27T03:45:19Z,2025-06-27T19:04:09+00:00,1,15.31,True,4,4,2,170,1,0,1,MERGED
+7094,update quic-go to v0.53.0,marten-seemann,2025-06-26T15:12:10Z,2025-06-26T16:13:08+00:00,1,1.02,True,5,17,3,41,0,0,0,MERGED
+7089,[ADD] sort buttons in grid mode,filipRatajczak,2025-06-22T21:07:48Z,2025-06-23T19:26:45+00:00,1,22.32,True,90,0,1,71,2,0,2,MERGED
+7081,refactor: use the built-in max/min to simplify the code,xiaoxiangirl,2025-06-18T04:07:07Z,2025-06-19T22:39:48+00:00,1,42.54,True,2,8,2,105,1,0,1,MERGED
+7078,ci: reduce dependabot spam,mohammed90,2025-06-16T22:36:07Z,2025-07-24T22:40:00+00:00,1,912.06,True,14,4,1,47,6,0,6,MERGED
+7070,"fix(provisioning): `Context.App` or `Context.AppIfConfigured` will return `(val, nil)` even if the app failed to provision or validate the first time",alexandre-daubois,2025-06-16T12:53:13Z,2025-07-29T16:31:13+00:00,5,1035.63,True,22,3,2,557,15,1,16,MERGED
+7068,core: clean up new config if it failed to run,WeidiDeng,2025-06-14T12:19:47Z,2025-06-16T19:15:42+00:00,1,54.93,True,15,3,1,9,0,0,0,MERGED
+7066,chore: apply security best practices for CI,mohammed90,2025-06-13T21:24:49Z,2025-06-16T20:14:09+00:00,1,70.82,True,117,26,8,91,1,0,1,MERGED
+7064,"ci: add `{base,head}-ref` to  dep review check",mohammed90,2025-06-13T00:17:24Z,2025-06-13T05:13:18+00:00,1,4.93,True,3,0,1,32,0,0,0,MERGED
+7063,"ci: add dep review, OSSF scorecard actions",mohammed90,2025-06-12T15:19:59Z,2025-06-12T23:40:52+00:00,1,8.35,True,112,2,6,119,1,0,1,MERGED
+7060,[DRAFT] Prevent user listeners from conflicting with Admin API,brecabral,2025-06-11T19:10:37Z,2025-06-11T20:13:20+00:00,2,1.05,False,16,0,2,2032,2,1,3,CLOSED
+7059,cmd: fix `Commands` function not returning all registered commands,hslatman,2025-06-11T12:03:38Z,2025-06-12T23:17:51+00:00,1,35.24,True,85,21,2,11,0,0,0,MERGED
+7058,build(deps): bump github.com/cloudflare/circl from 1.6.0 to 1.6.1,dependabot,2025-06-10T21:34:13Z,2025-06-12T08:44:26+00:00,1,35.17,True,3,3,2,2726,0,0,0,MERGED
+7056,caddyfile: reject blocks in log_skip directive,IwatsukaYura,2025-06-09T20:38:47Z,2025-06-10T03:56:21+00:00,1,7.29,True,5,0,1,238,2,0,2,MERGED
+7047,fix: crash - null check on event origin,suxatcode,2025-06-02T22:24:20Z,2025-06-05T19:10:08+00:00,1,68.76,True,26,1,2,59,1,0,1,MERGED
+7044,build(deps): bump golangci/golangci-lint-action from 6 to 8,dependabot,2025-06-01T23:39:51Z,2025-06-02T23:33:40+00:00,1,23.9,True,1,1,1,4484,1,0,1,MERGED
+7042,file_server: set Range header for precompressed static files to force Content Length header to appear,WeidiDeng,2025-05-29T01:30:05Z,2025-08-22T14:23:13+00:00,1,2052.89,True,8,1,1,30,0,0,0,MERGED
+7039,refactor: use slices.Contains to simplify code,tongjicoder,2025-05-27T09:46:21Z,2025-05-31T18:03:06+00:00,4,104.28,True,11,40,5,116,2,4,6,MERGED
+7017,"fileserver: map invalid path errors to fs.ErrInvalid, and return 400 …",Compy,2025-05-13T02:59:38Z,2025-05-13T13:43:27+00:00,1,10.73,True,8,1,1,1649,0,0,0,MERGED
+7016,implement Unwrap for interceptedResponseHandler,WeidiDeng,2025-05-12T02:40:09Z,2025-05-12T18:15:34+00:00,2,15.59,True,5,0,1,41,0,0,0,MERGED
+7015,caddyhttp: fix route sort by comparing paths without wildcard if they don't shar…,WeidiDeng,2025-05-12T02:28:36Z,2025-05-13T19:17:53+00:00,1,40.82,True,18,1,1,28,8,0,8,MERGED
+7009,refactor: use maps.Copy for cleaner map handling,eveneast,2025-05-10T10:42:32Z,2025-05-13T21:16:47+00:00,1,82.57,True,9,18,3,48,3,0,3,MERGED
+7004,Move local admin server replacement logic below data structure initia…,Compy,2025-05-07T20:39:32Z,2025-05-08T17:52:55+00:00,1,21.22,True,8,8,1,972,0,0,0,MERGED
+6999,fix: prevent error handler from overriding sub handler matchers,Hellio404,2025-05-04T17:05:30Z,2025-06-06T17:46:39+00:00,1,792.69,True,440,35,9,89,5,0,5,MERGED
+6997,admin: Make sure that any admin routers are provisioned when local/re…,Compy,2025-05-04T05:15:47Z,2025-05-06T21:28:38+00:00,1,64.21,True,14,0,1,732,0,0,0,MERGED
+6995,"log: default logger should respect `{in,ex}clude`",mohammed90,2025-05-01T23:48:53Z,2025-05-06T22:06:09+00:00,1,118.29,True,109,1,2,220,0,0,0,MERGED
+6988,fileserver: Add support for .avif image format,steffenbusch,2025-04-27T17:50:08Z,2025-04-28T14:32:59+00:00,2,20.71,True,3,3,1,246,0,0,0,MERGED
+6984,fix: Remove `nil` arg from `zapslog.NewHandler` call,IndraGunawan,2025-04-24T08:57:01Z,2025-04-28T14:31:10+00:00,1,101.57,True,2,2,1,180,2,0,2,MERGED
+6972,update quic-go to v0.51.0,marten-seemann,2025-04-20T06:36:52Z,2025-04-20T13:39:01+00:00,1,7.04,True,3,3,2,0,0,0,0,MERGED
+6961,"caddyhttp: use the new http.Protocols to handle h1, h2 and h2c requests",WeidiDeng,2025-04-17T03:24:28Z,2025-08-22T14:30:43+00:00,8,3059.1,True,141,154,3,513,4,2,6,MERGED
+6955,reverseproxy: use DialTLSContext for TLS if servername has placeholder,WeidiDeng,2025-04-16T01:59:37Z,2025-04-28T15:14:09+00:00,1,301.24,True,32,38,1,172,2,0,2,MERGED
+6951,bug: Fix the incorrect parameter order,cuishuang,2025-04-12T06:16:46Z,2025-04-13T03:19:32+00:00,1,21.05,True,1,1,1,108,0,0,0,MERGED
+6950,chore: fix comment,riyueguang,2025-04-12T01:34:55Z,2025-04-12T04:24:18+00:00,2,2.82,True,1,1,1,11,1,0,1,MERGED
+6949,Add a valid Upstream to the DialInfo when doing active health checks,jbro,2025-04-11T12:37:37Z,2025-04-15T14:44:53+00:00,1,98.12,True,17,7,3,479,0,0,0,MERGED
+6932,caddyauth: Set authentication provider error in placeholder,steffenbusch,2025-03-29T17:38:30Z,2025-04-15T22:32:09+00:00,1,412.89,True,8,1,1,1549,0,0,0,MERGED
+6930,"events: Refactor; move Event into core, so core can emit events",mholt,2025-03-28T18:29:02Z,2025-03-29T14:15:43+00:00,1,19.78,True,170,122,8,643,4,0,4,MERGED
+6926,"Add a pluggable ""listener"" for detecting when caddy starts and stops",ankon,2025-03-26T13:54:32Z,2025-03-28T21:17:12+00:00,1,55.38,False,43,2,1,911,2,0,2,CLOSED
+6924,chore: upgrade .golangci.yml and workflow to v2,mohammed90,2025-03-25T19:49:44Z,2025-06-02T23:24:33+00:00,14,1659.58,True,148,213,33,111,7,6,13,MERGED
+6918,update quic-go to v0.50.1,marten-seemann,2025-03-21T05:51:40Z,2025-03-21T13:33:49+00:00,1,7.7,True,3,3,2,42,0,0,0,MERGED
+6903,Fix caddy fmt breaks backquote wrapped braces in template,keystroke3,2025-03-16T12:38:31Z,2025-03-17T14:58:47+00:00,1,26.34,True,25,2,2,563,5,0,5,MERGED
+6889,Fix TrustedCACerts backwards compatibility,jjiang-stripe,2025-03-10T17:44:36Z,2025-03-10T18:50:47+00:00,1,1.1,True,53,2,2,814,5,0,5,MERGED
+6884,Add error handling for unrecognized subdirective/options,steffenbusch,2025-03-07T22:08:53Z,2025-03-08T20:45:05+00:00,1,22.6,True,13,0,5,11,1,0,1,MERGED
+6874,docs: replaced the name and twitter link,sashaphmn,2025-03-05T15:53:35Z,2025-03-06T08:21:31+00:00,1,16.47,True,3,3,1,0,6,0,6,MERGED
+6868,chore: upgrade cobra,mohammed90,2025-03-02T19:23:28Z,2025-03-03T20:49:17+00:00,1,25.43,True,9,9,2,39,0,0,0,MERGED
+6850,Support Caddy Test Configuration Defaults Override.,baruchyahalom,2025-02-19T20:44:50Z,2025-03-03T14:35:54+00:00,3,281.85,True,42,21,1,130,2,1,3,MERGED
+6839,chore: upgrade Go version to 1.24,mohammed90,2025-02-12T11:45:42Z,2025-02-17T14:58:20+00:00,2,123.21,True,16,16,4,0,0,0,0,MERGED
+6838,remove glog dependency,Ns2Kracy,2025-02-12T09:09:09Z,2025-02-17T15:08:39+00:00,1,125.99,True,6,11,2,114,1,0,1,MERGED
+6830,file_server: use the UTC timezone for modified time,WeidiDeng,2025-02-08T01:07:04Z,2025-02-10T15:39:44+00:00,1,62.54,True,18,8,2,82,0,0,0,MERGED
+6824,fix: fix index validation for PUT requests,debug-ing,2025-02-03T15:07:44Z,2025-02-04T15:57:32+00:00,2,24.83,True,1,1,1,16,4,0,4,MERGED
+6820,reverseproxy: ignore duplicate collector registration error,mohammed90,2025-01-31T21:00:34Z,2025-02-04T07:55:30+00:00,1,82.92,True,23,13,1,145,1,0,1,MERGED
+6814,build(deps): bump github.com/golang/glog from 1.2.2 to 1.2.4,dependabot,2025-01-28T17:40:31Z,2025-01-29T00:25:11+00:00,1,6.74,True,4,4,2,2540,0,0,0,MERGED
+6812,caddytls: Refactor sni matcher,vnxme,2025-01-27T11:30:20Z,2025-01-27T18:42:11+00:00,1,7.2,True,5,1,1,186,0,0,0,MERGED
+6809,feat: automatically set GOMEMLIMIT,dunglas,2025-01-25T11:25:57Z,2025-01-27T16:32:24+00:00,2,53.11,True,28,1,3,577,1,0,1,MERGED
+6807,chore: don't use deprecated `archives.format_overrides.format`,mohammed90,2025-01-24T22:20:34Z,2025-01-24T23:37:16+00:00,1,1.28,True,1,1,1,0,1,0,1,MERGED
+6806,reverse_proxy: re-add healthy upstreams metric,mohammed90,2025-01-24T22:15:21Z,2025-01-27T21:30:54+00:00,1,71.26,True,13,11,2,157,0,0,0,MERGED
+6805,feat/tests: tests for error handling & metrics in admin endpoints,gdhameeja,2025-01-24T22:13:21Z,2025-02-12T11:39:47+00:00,2,445.44,True,734,0,1,959,5,0,5,MERGED
+6804,caddytls: Fix sni_regexp matcher to obtain layer4 contexts,vnxme,2025-01-24T07:35:22Z,2025-01-25T14:45:42+00:00,2,31.17,True,17,3,1,124,0,0,0,MERGED
+6800,fix: update broken link to Ardan Labs,sbruens,2025-01-22T20:36:34Z,2025-01-28T21:19:02+00:00,1,144.71,True,1,1,1,80,3,0,3,MERGED
+6779,docs: improve parsePHPFastCGI docs,dunglas,2025-01-09T13:25:17Z,2025-01-09T18:54:44+00:00,1,5.49,True,4,1,1,25,2,0,2,MERGED
+6778,chore: more comments about reverse_proxy buffering and add new tests,WeidiDeng,2025-01-09T02:53:51Z,2025-03-07T18:22:43+00:00,1,1383.48,True,88,0,2,165,0,0,0,MERGED
+6777,Fixes crash if logging error is not HandlerError,kkroo,2025-01-08T20:37:51Z,2025-01-16T17:06:30+00:00,1,188.48,True,5,0,1,54,6,0,6,MERGED
+6772,client_auth: wire up leaf verifier Caddyfile,mohammed90,2025-01-07T20:55:18Z,2025-06-09T14:18:36+00:00,8,3665.39,True,607,6,10,12,0,1,1,MERGED
+6769,fix: disable h3 for unix domain socket,Geun-Oh,2025-01-05T05:37:16Z,2025-01-08T00:21:57+00:00,5,66.74,True,27,15,1,2194,1,1,2,MERGED
+6765,header: `match` subdirective for response matching,lilnasy,2025-01-04T12:08:50Z,2025-01-08T05:48:06+00:00,4,89.65,True,46,0,3,818,4,2,6,MERGED
+6761,log: Only chmod if permission bits differ,mholt,2025-01-02T22:59:23Z,2025-01-08T04:51:03+00:00,1,125.86,True,57,38,2,352,12,1,13,MERGED
+6759,reverse proxy: fastcgi buffer requests for fastcgi by default,WeidiDeng,2025-01-02T02:17:40Z,2025-01-02T18:18:25+00:00,3,16.01,True,17,3,1,546,7,1,8,MERGED
+6756,testing: sort force-automated hosts,mohammed90,2024-12-30T09:25:32Z,2024-12-30T10:38:29+00:00,1,1.22,True,1,0,1,556,0,0,0,MERGED
+6749,encode: try to use sendfile when compression is not used,WeidiDeng,2024-12-19T01:58:37Z,2024-12-20T21:37:16+00:00,2,43.64,True,43,0,1,270,0,1,1,MERGED
+6740,reverseproxy: Only handle extended connect for websockets,bt90,2024-12-10T09:34:36Z,2024-12-11T18:17:06+00:00,1,32.71,True,2,2,1,289,3,0,3,MERGED
+6738,encode: write status immediate for success response for CONNECT requests,WeidiDeng,2024-12-08T10:04:53Z,2024-12-11T18:15:01+00:00,4,80.17,True,27,5,2,9,0,1,1,MERGED
+6737,feat: good default for encode,dunglas,2024-12-07T18:15:32Z,2024-12-10T23:48:30+00:00,1,77.55,True,34,15,2,33,2,0,2,MERGED
+6736,feat: good default for file_server.precompressed,dunglas,2024-12-07T17:45:58Z,2024-12-10T15:31:44+00:00,1,69.76,True,8,6,1,397,0,0,0,MERGED
+6728,chore: bump golang.org/x/net to v0.32.0,WeidiDeng,2024-12-05T01:11:28Z,2024-12-05T14:28:07+00:00,1,13.28,True,18,18,2,0,0,0,0,MERGED
+6720,ci: prevent jobs running on PRs from forks,mohammed90,2024-11-30T13:01:18Z,2024-11-30T14:05:10+00:00,1,1.06,True,2,2,1,234,0,0,0,MERGED
+6717,"cmd: `fmt` prevents multiple files passed as args, add support for `--config`",armadi1809,2024-11-29T23:48:21Z,2024-12-04T12:43:52+00:00,3,108.93,True,8,2,2,458,0,1,1,MERGED
+6714,caddyhttp: Add `{?query}` placeholder,francislavoie,2024-11-28T03:35:22Z,2024-12-02T13:06:39+00:00,3,105.52,True,30,11,8,304,5,0,5,MERGED
+6712,httpcaddyfile: Implement `force_automate`,francislavoie,2024-11-27T08:04:02Z,2024-12-24T15:58:40+00:00,2,655.91,True,334,3,5,249,11,0,11,MERGED
+6704,metrics: add `go` and `process` collectors,mohammed90,2024-11-22T22:10:56Z,2024-11-22T23:38:59+00:00,1,1.47,True,2,0,1,170,0,0,0,MERGED
+6701,requestbody: Type-based error handling for `MaxBytesError`,rishitashaw,2024-11-22T16:07:00Z,2024-11-22T19:45:58+00:00,4,3.65,True,3,1,1,442,5,1,6,MERGED
+6699,fileserver: Add `first_exist_fallback` strategy for `try_files`,dunglas,2024-11-18T23:50:14Z,2024-12-03T12:44:49+00:00,5,348.91,True,40,14,7,449,1,4,5,MERGED
+6698,perf: remove dir redirection when useless in php_fastcgi,dunglas,2024-11-18T16:54:41Z,2024-11-21T17:38:31+00:00,4,72.73,True,134,24,2,365,5,2,7,MERGED
+6697,cmd: ignore missing keys during storage export,santhoshTpixler,2024-11-18T12:44:58Z,2024-11-18T14:40:52+00:00,1,1.93,True,9,0,1,9,1,0,1,MERGED
+6691,chore: Add `provides` to `.deb` releases,francislavoie,2024-11-14T18:44:17Z,2024-11-14T21:15:02+00:00,1,2.51,True,3,0,1,25,0,0,0,MERGED
+6687,core: Implement FastAbs to avoid repeated os.Getwd calls,francislavoie,2024-11-12T16:27:43Z,2024-11-13T08:55:51+00:00,10,16.47,True,90,16,10,18,5,2,7,MERGED
+6682,httpcaddyfile: Implement log `sampling` config,nikonhub,2024-11-08T14:08:49Z,2024-11-11T23:42:50+00:00,1,81.57,True,126,0,4,139,3,0,3,MERGED
+6677,ci: use commit sha in goreleaser-check,mohammed90,2024-11-05T00:23:34Z,2024-11-05T21:07:25+00:00,1,20.73,True,2,1,1,0,3,0,3,MERGED
+6669,fix: low latency client streaming waiting for data to close connection after client closes,Botelho31,2024-10-31T18:31:32Z,2024-11-12T18:54:12+00:00,5,288.38,False,410,13,4,42,19,3,22,CLOSED
+6665,cmd: Allow `add-package` to select version of package,Botelho31,2024-10-28T23:16:31Z,2024-10-30T16:48:37+00:00,4,41.53,True,53,12,2,12,1,1,2,MERGED
+6662,"rewrite: Don't add `/` in Caddyfile, do it after replacer",francislavoie,2024-10-24T04:54:20Z,2024-11-05T17:15:32+00:00,1,300.35,True,8,3,3,385,1,0,1,MERGED
+6661,fastcgi: check for CONTENT_LENGTH when sending requests,WeidiDeng,2024-10-24T02:32:03Z,2024-12-18T00:22:13+00:00,3,1317.84,True,11,0,1,209,5,1,6,MERGED
+6656,reverseproxy: Sync changes from stdlib for 1xx handling,francislavoie,2024-10-22T15:35:16Z,2024-10-22T18:10:47+00:00,2,2.59,True,22,8,2,76,0,0,0,MERGED
+6655,chore: compile without nosql's support for Postgres and MySQL,dunglas,2024-10-22T10:27:38Z,2024-10-22T20:53:14+00:00,1,10.43,True,4,2,3,714,4,0,4,MERGED
+6654,"chore: Bump quic-go to 0.48.1, fixing a panic",francislavoie,2024-10-22T05:43:03Z,2024-10-22T19:29:46+00:00,2,13.78,True,3,3,2,97,0,0,0,MERGED
+6651,core: Change getListenerFromPlugin signature,MayCXC,2024-10-21T14:20:56Z,2024-12-12T22:34:50+00:00,1,1256.23,True,4,4,1,364,10,0,10,MERGED
+6648,fileserver: Add `file_limit` option for browse,atakanyenel,2024-10-20T21:15:44Z,2024-11-05T16:35:33+00:00,12,379.33,True,62,2,4,307,5,6,11,MERGED
+6646,tracing: Add `spanID` field to access logs and `http.vars.span_id` placeholder,YifanYang6,2024-10-19T09:17:34Z,2024-10-21T17:06:55+00:00,1,55.82,True,11,4,2,10500,6,0,6,MERGED
+6645,fix: always ignore SIGPIPE,dunglas,2024-10-19T09:13:53Z,2024-10-19T13:33:51+00:00,1,4.33,True,4,0,1,189,0,0,0,MERGED
+6638,reverseproxy: Set `Content-Length` when body is fully buffered,WeidiDeng,2024-10-17T01:44:48Z,2024-12-17T23:36:14+00:00,1,1485.86,True,2,1,1,22,1,0,1,MERGED
+6636,httpcaddyfile: Fixes for `prefer_wildcard` mode,francislavoie,2024-10-17T00:13:15Z,2024-10-30T17:09:12+00:00,1,328.93,True,353,51,4,827,5,0,5,MERGED
+6629,"caddyhttp: Allow matching Transfer-Encoding, add to access logs",francislavoie,2024-10-15T15:22:51Z,2024-12-20T18:16:34+00:00,5,1586.9,True,15,8,3,11,0,1,1,MERGED
+6627,chore: update quic-go to v0.48.0,marten-seemann,2024-10-15T09:39:11Z,2024-10-15T13:38:10+00:00,1,3.98,True,5,5,3,150,2,0,2,MERGED
+6624,fileserver: fix try_policy when instantiating file matcher from CEL,effleurager,2024-10-13T14:01:53Z,2024-10-20T14:08:30+00:00,1,168.11,True,24,1,3,189,3,0,3,MERGED
+6622,core: addresses.go funcs renames,MayCXC,2024-10-12T20:09:24Z,2024-10-21T14:02:30+00:00,1,209.88,True,31,41,3,1168,4,0,4,MERGED
+6621,reverseproxy: Use correct cases for websocket related headers,WeidiDeng,2024-10-11T07:19:55Z,2024-10-11T09:02:24+00:00,2,1.71,True,26,0,2,333,0,1,1,MERGED

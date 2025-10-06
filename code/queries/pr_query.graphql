@@ -3,7 +3,7 @@ query PullRequests($owner: String!, $name: String!, $after: String) {
     pullRequests(
       states: [MERGED, CLOSED]
       orderBy: { field: CREATED_AT, direction: DESC }
-      first: 100
+      first: 50
       after: $after
     ) {
       totalCount
