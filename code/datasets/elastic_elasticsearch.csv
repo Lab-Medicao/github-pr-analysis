@@ -1,10 +1,28 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+136037,Remove V_8_0_0 transport version from xpack,rjernst,2025-10-06T16:25:39Z,2025-10-06T17:38:58+00:00,1,1.22,True,31,197,27,8,1,0,1,MERGED
+136030,Update to lucene 10.3.1,thecoop,2025-10-06T14:12:07Z,2025-10-06T16:25:10+00:00,3,2.22,True,84,78,5,24,3,0,3,MERGED
+136013,Fix and unmute `testTsdbTemplatesNoKeywordFieldType`,felixbarny,2025-10-06T11:45:14Z,2025-10-06T13:46:41+00:00,5,2.02,True,7,14,2,349,1,1,2,MERGED
+136010,Add logging to MicrosoftGraphAuthzPluginIT to catch potential race condition,jfreden,2025-10-06T08:53:33Z,2025-10-06T10:00:57+00:00,1,1.12,True,1,0,1,0,1,0,1,MERGED
+135994,Cardinality Aggregator Throws UnsupportedOperationException When Field Type is Vector,john-wagster,2025-10-05T02:58:41Z,2025-10-06T13:34:24+00:00,1,34.6,True,62,1,4,252,3,0,3,MERGED
 135987,Avoid rewrite round_to with expensive queries,dnhatn,2025-10-04T01:23:24Z,2025-10-04T15:17:47+00:00,8,13.91,True,153,1,3,1312,4,5,9,MERGED
+135980,Promote the reshard split shard count summary to a type,bcully,2025-10-03T23:30:40Z,2025-10-06T15:52:56+00:00,3,64.37,True,331,189,9,212,1,0,1,MERGED
 135978,Split on line feed when parsing transport files in the build,rjernst,2025-10-03T22:48:42Z,2025-10-03T23:54:31+00:00,1,1.1,True,8,4,2,299,2,0,2,MERGED
+135974,Migrate transport versions 8841_030 through 8841_000,jdconrad,2025-10-03T21:34:31Z,2025-10-06T13:53:08+00:00,1,64.31,True,327,371,90,8,2,0,2,MERGED
 135973,Change keep_words_path type from array to string,Philippus,2025-10-03T21:28:38Z,2025-10-05T01:18:26+00:00,1,27.83,True,1,1,1,0,6,0,6,MERGED
+135946,Move intervals methods to TextFamilyFieldType,romseygeek,2025-10-03T15:58:05Z,2025-10-06T09:19:12+00:00,1,65.35,True,135,161,10,119,1,0,1,MERGED
+135942,Remove V_8_0_0 transport version from tests,rjernst,2025-10-03T15:51:41Z,2025-10-06T13:44:04+00:00,2,69.87,True,16,1397,21,138,2,0,2,MERGED
+135932,ESQL: make order in TOP optional,mouhc1ne,2025-10-03T14:17:48Z,2025-10-06T12:33:45+00:00,4,70.27,True,217,29,8,223,3,2,5,MERGED
+135920,[DOCS] Connectors release notes for 9.0.8,charlotte-hoblik,2025-10-03T13:05:56Z,2025-10-06T09:03:00+00:00,1,67.95,True,7,0,1,69,1,0,1,MERGED
+135902,Reinstate comment lost in #135008,DaveCTurner,2025-10-03T11:11:18Z,2025-10-06T11:48:27+00:00,1,72.62,True,4,3,1,24,1,0,1,MERGED
 135901,ES|QL: support dot and parameters in FUSE GROUP BY,luigidellaquila,2025-10-03T10:45:18Z,2025-10-03T16:34:26+00:00,3,5.82,True,1437,1328,7,231,2,1,3,MERGED
+135900,Remove unnecessary `RestHandler#supportsBulkContent`,DaveCTurner,2025-10-03T10:34:30Z,2025-10-06T08:53:23+00:00,4,70.31,True,97,71,18,154,2,1,3,MERGED
 135897,Apply source excludes early when retrieving the _inference_fields,jimczi,2025-10-03T09:48:06Z,2025-10-03T16:57:06+00:00,1,7.15,True,56,0,4,3158,4,0,4,MERGED
+135896,Add release notes for v9.0.8 release,elasticsearchmachine,2025-10-03T09:45:47Z,2025-10-06T09:33:57+00:00,1,71.8,True,173,0,4,80,3,0,3,MERGED
+135894,Add release notes for v8.18.8 release,elasticsearchmachine,2025-10-03T09:40:29Z,2025-10-06T09:05:04+00:00,1,71.41,True,58,0,2,80,2,0,2,MERGED
+135882,Add release notes for v8.19.5 release,elasticsearchmachine,2025-10-03T00:10:37Z,2025-10-06T09:05:32+00:00,1,80.92,True,69,0,2,80,2,0,2,MERGED
+135881,Add release notes for v9.1.5 release,elasticsearchmachine,2025-10-03T00:05:51Z,2025-10-06T10:04:41+00:00,2,81.98,True,231,3,4,80,3,0,3,MERGED
 135874,Remove transport version V_7_0_0,jdconrad,2025-10-02T19:46:31Z,2025-10-03T16:12:44+00:00,1,20.44,True,3,307,6,8,2,0,2,MERGED
+135873,Convert BytesTransportResponse when proxying response from/to local node,javanna,2025-10-02T19:23:29Z,2025-10-06T12:01:49+00:00,7,88.64,True,393,50,12,1189,3,5,8,MERGED
 135867,Migrate transport versions 9000007 through 9000000,jdconrad,2025-10-02T18:37:09Z,2025-10-02T23:05:05+00:00,1,4.47,True,65,51,18,115,2,0,2,MERGED
 135864,Removing unused projectId from random sampling RawDocument,masseyke,2025-10-02T18:14:35Z,2025-10-02T19:31:36+00:00,2,1.28,True,13,23,2,315,1,0,1,MERGED
 135862,Skip spec tests when test cluster broken,dnhatn,2025-10-02T17:02:59Z,2025-10-04T00:58:52+00:00,3,31.93,True,23,1,2,156,4,0,4,MERGED
@@ -19,7 +37,9 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 135847,Fix entitlements for DatagramSocket.connect,mosche,2025-10-02T13:35:43Z,2025-10-02T15:47:15+00:00,1,2.19,True,10,2,3,43,1,0,1,MERGED
 135845,Defer Semantic Text Failures on Pre-8.11 Indices,Mikep86,2025-10-02T13:17:50Z,2025-10-02T18:31:36+00:00,1,5.23,True,138,65,4,215,5,1,6,MERGED
 135844,rest-api-spec: add project.tags API,pquentin,2025-10-02T12:48:21Z,2025-10-03T12:46:48+00:00,1,23.97,True,21,0,1,398,2,0,2,MERGED
+135835,Reinstate block order in `testSnapshotShutdownProgressTracker`,DaveCTurner,2025-10-02T09:26:08Z,2025-10-06T11:48:38+00:00,1,98.38,True,16,16,1,25,3,0,3,MERGED
 135827,Remove unused `docs-mdx` subdir,DaveCTurner,2025-10-02T08:11:47Z,2025-10-02T12:26:36+00:00,1,4.25,True,0,136,1,0,1,0,1,MERGED
+135824,Adjust jdk-api-extractor output to be compatible with the public-callers-finder,mosche,2025-10-02T07:04:31Z,2025-10-06T09:03:39+00:00,12,97.99,True,32,14,5,203,1,2,3,MERGED
 135819,Migrate transport versions 9108_000 through 9086_000,jdconrad,2025-10-01T23:04:08Z,2025-10-02T14:16:27+00:00,1,15.21,True,124,86,32,66,2,1,3,MERGED
 135813,Ensure partial aggregation outputs match layout,dnhatn,2025-10-01T21:46:03Z,2025-10-02T20:50:08+00:00,4,23.07,True,63,39,3,700,2,3,5,MERGED
 135812,Fix testStopQueryInlineStats - allow wider range of values,smalyshev,2025-10-01T21:34:51Z,2025-10-03T17:03:05+00:00,1,43.47,True,6,8,2,14,2,0,2,MERGED
@@ -55,6 +75,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 135709,ES|QL - KNN function in release builds,carlosdelest,2025-09-30T16:08:22Z,2025-09-30T20:45:23+00:00,2,4.62,True,29,123,14,80,7,0,7,MERGED
 135707,Add search request attributes to the response count metric,andreidan,2025-09-30T15:40:44Z,2025-10-01T07:48:27+00:00,1,16.13,True,56,2,3,94,1,0,1,MERGED
 135699,Set resolved index expressions once,n1v0lg,2025-09-30T12:47:50Z,2025-10-02T13:37:39+00:00,2,48.83,True,51,3,2,501,2,1,3,MERGED
+135698,Remote clusters client settings moved from docs-content,eedugon,2025-09-30T12:44:10Z,2025-10-06T13:10:09+00:00,6,144.43,True,87,4,3,625,3,2,5,MERGED
 135697,ESQL: Update mechanism for under construction data types,alex-spies,2025-09-30T11:53:07Z,2025-10-01T15:46:25+00:00,8,27.89,True,248,181,12,2728,2,3,5,MERGED
 135696,Added DNS cache settings to JVM settings doc,eedugon,2025-09-30T11:46:11Z,2025-10-02T06:52:54+00:00,1,43.11,True,13,0,1,242,3,1,4,MERGED
 135695,ES|QL: Remove redundant capability checks in tests,ioanatia,2025-09-30T11:39:54Z,2025-10-01T11:23:35+00:00,2,23.73,True,4,124,11,214,1,0,1,MERGED
@@ -96,6 +117,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 135600,[ESQL] Docs clarify counts are approximate in count_distinct docs,leemthompo,2025-09-29T09:13:14Z,2025-09-29T11:09:28+00:00,4,1.94,True,10,0,4,221,5,1,6,MERGED
 135597,"Reapply ""Track shardStarted events for simulation in DesiredBalanceComputer""",ywangd,2025-09-29T08:04:25Z,2025-10-02T01:36:16+00:00,14,65.53,True,710,67,8,819,10,5,15,MERGED
 135593,Fix RestoreInProgressAllocationDeciderTests,nicktindall,2025-09-29T06:12:22Z,2025-10-01T03:05:49+00:00,2,44.89,True,1,4,2,135,1,1,2,MERGED
+135591,Added required Google Workspace Scopes for es-connectors-gmail.md,CyberneticNomad-v808,2025-09-29T05:27:30Z,2025-10-06T07:06:59+00:00,1,169.66,True,3,1,1,120,9,0,9,MERGED
 135589,"Reapply ""Add an option to return early from an allocate call"" ",ywangd,2025-09-29T04:33:54Z,2025-09-29T06:36:29+00:00,3,2.04,True,259,39,6,599,2,1,3,MERGED
 135588,Refactor `CrossProjectIndexExpressionsRewriter`,n1v0lg,2025-09-28T17:54:09Z,2025-09-30T14:28:28+00:00,2,44.57,True,313,315,4,543,2,1,3,MERGED
 135587,Refactor `IndexAbstractionResolver`,n1v0lg,2025-09-28T17:30:16Z,2025-09-29T08:58:09+00:00,2,15.46,True,92,70,1,182,1,1,2,MERGED
@@ -109,7 +131,9 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 135557,Update logstash pipeline ID doc desc,mashhurs,2025-09-26T21:05:57Z,2025-10-01T16:14:45+00:00,1,115.15,True,3,1,1,640,5,0,5,MERGED
 135556,This utilizes new underlying lucene scorers where old defaults were used,benwtrent,2025-09-26T20:05:40Z,2025-09-30T21:55:36+00:00,2,97.83,True,7,5,2,125,1,0,1,MERGED
 135555,Migrate transport versions 8841050 through 8841041,jdconrad,2025-09-26T20:05:00Z,2025-09-26T22:36:01+00:00,2,2.52,True,78,67,24,285,1,1,2,MERGED
+135554,[ML] Adding retries to model download tests,jonathan-buttner,2025-09-26T19:58:42Z,2025-10-06T15:59:39+00:00,1,236.02,True,19,15,4,348,1,0,1,MERGED
 135553,Only disable unlicensed pattern_text templating when mapper is used,jordan-powers,2025-09-26T19:36:35Z,2025-09-29T22:08:53+00:00,1,74.54,False,103,61,6,384,2,0,2,CLOSED
+135548,Changes FailedToCommitClusterStateException to NotMasterException,joshua-adams-1,2025-09-26T15:54:41Z,2025-10-06T11:53:29+00:00,5,235.98,True,37,8,3,2406,2,3,5,MERGED
 135547,ESQL: Fix union types lost attributes in StubRelation for inlinestats,astefan,2025-09-26T15:41:55Z,2025-09-30T12:39:09+00:00,1,92.95,True,108,53,6,607,3,3,6,MERGED
 135546,Allow `reindex.remote.whitelist` to be set to `*`,PeteGillinElastic,2025-09-26T15:11:46Z,2025-09-26T16:34:50+00:00,1,1.38,True,0,33,2,558,1,0,1,MERGED
 135545,Add GPUPlugin for building vector indices on GPU ,mayya-sharipova,2025-09-26T14:53:24Z,2025-09-30T13:09:56+00:00,28,94.28,True,4185,36,70,218,7,12,19,MERGED
@@ -149,3 +173,829 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 135444,Respect include/exclude patterns when applying `exclude_vectors`,jimczi,2025-09-25T14:47:59Z,2025-09-25T16:56:44+00:00,2,2.15,True,134,5,6,433,1,1,2,MERGED
 135442,Renaming bulk vector scoring interfaces,benwtrent,2025-09-25T14:01:37Z,2025-09-25T18:14:45+00:00,3,4.22,True,10,10,4,106,1,1,2,MERGED
 135435,[9.1] Fix DiscoveryDisruptionIT.testElectMasterWithLatestVersion (#135396),JeremyDahlgren,2025-09-25T13:12:10Z,2025-09-26T14:08:04+00:00,1,24.93,True,2,1,1,199,0,0,0,MERGED
+135433,Properly guard assertion with feature flag,felixbarny,2025-09-25T11:49:21Z,2025-09-25T13:59:49+00:00,2,2.17,True,8,4,1,141,1,0,1,MERGED
+135432,Avoid UOE when fetching the _inference metadata field,jimczi,2025-09-25T11:26:34Z,2025-09-25T13:28:13+00:00,1,2.03,True,45,5,2,152,1,0,1,MERGED
+135431,[Downsampling++] Allow merging of passthrough mappers with object mappers under certain conditions.,gmarouli,2025-09-25T11:00:15Z,2025-09-30T07:56:26+00:00,2,116.94,True,219,14,7,695,5,1,6,MERGED
+135426,[D0CS] Revise connector setup steps in documentation,leemthompo,2025-09-25T10:30:39Z,2025-09-25T12:32:18+00:00,1,2.03,True,3,1,1,159,3,0,3,MERGED
+135424,Add Lucene99ScalarQuantizedVector classes removed in Lucene 10.4,thecoop,2025-09-25T10:00:34Z,2025-09-25T12:46:19+00:00,1,2.76,True,2073,5,6,0,1,1,2,MERGED
+135419,ES|QL: do not use skip_unavailable in CPS,luigidellaquila,2025-09-25T09:42:19Z,2025-09-30T07:25:32+00:00,4,117.72,True,114,14,4,77,1,4,5,MERGED
+135416,[9.1] Fixes testSnapshotShutdownProgressTracker (#134926),joshua-adams-1,2025-09-25T09:18:42Z,2025-09-25T15:19:22+00:00,1,6.01,True,17,19,2,1791,1,0,1,MERGED
+135415,[9.0] Fixes testSnapshotShutdownProgressTracker (#134926),joshua-adams-1,2025-09-25T09:06:55Z,2025-09-25T15:19:11+00:00,1,6.2,True,17,16,1,1791,1,0,1,MERGED
+135414,Change reindex to use ::es-redacted:: filtering,tvernum,2025-09-25T09:01:53Z,2025-09-26T02:35:47+00:00,2,17.57,True,267,47,5,438,4,1,5,MERGED
+135403,ESQL: take INLINE STATS out of snapshot,astefan,2025-09-25T07:13:40Z,2025-09-26T05:39:50+00:00,1,22.44,True,2483,2494,22,0,3,1,4,MERGED
+135402,Remove index.dimensions feature flag,felixbarny,2025-09-25T07:12:16Z,2025-09-29T15:38:16+00:00,1,104.43,True,19,50,6,76,5,0,5,MERGED
+135401,OTLP: remove feature flag,felixbarny,2025-09-25T06:58:55Z,2025-09-25T08:15:37+00:00,1,1.28,True,7,20,3,106,2,0,2,MERGED
+135396,Fix DiscoveryDisruptionIT.testElectMasterWithLatestVersion,JeremyDahlgren,2025-09-24T23:48:03Z,2025-09-25T12:28:30+00:00,1,12.67,True,2,4,2,344,4,0,4,MERGED
+135395,Fixing docs and tests for timeseries no-longer-snapshot functions,pabloem,2025-09-24T22:13:32Z,2025-09-25T04:39:40+00:00,1,6.44,True,9,9,9,44,4,0,4,MERGED
+135393,Improve block loader for source only runtime IP fields,Kubik42,2025-09-24T22:08:54Z,2025-09-26T17:55:52+00:00,2,43.78,True,219,40,5,18,3,1,4,MERGED
+135392,Unmute ConcurrentSeqNoVersioningIT#testSeqNoCASLinearizability,lkts,2025-09-24T21:45:18Z,2025-09-26T15:39:43+00:00,2,41.91,True,0,3,1,103,2,0,2,MERGED
+135391,Only validate upper bound of current branch on release branches,rjernst,2025-09-24T21:42:03Z,2025-09-25T18:01:41+00:00,1,20.33,True,30,5,2,306,2,0,2,MERGED
+135386,Fixed a few typos in dense-vector.md,ImadSaddik,2025-09-24T20:42:16Z,2025-10-03T08:11:20+00:00,2,203.48,True,3,3,1,148,6,0,6,MERGED
+135384,Fixing delta function,pabloem,2025-09-24T20:29:04Z,2025-09-25T04:39:21+00:00,1,8.17,True,20,30,5,41,1,0,1,MERGED
+135382,[Build] update eclipse formatter used by spotless,breskeby,2025-09-24T20:21:54Z,2025-09-25T08:39:03+00:00,2,12.29,True,45,34,8,131,2,0,2,MERGED
+135381,[Build] Update checkstyle from 10.3 to 11.0.1,breskeby,2025-09-24T19:50:53Z,2025-09-25T07:16:12+00:00,2,11.42,True,114,71,2,64,2,0,2,MERGED
+135379,Avoid running resolve logic with no transport version name,rjernst,2025-09-24T18:41:52Z,2025-09-25T17:52:06+00:00,3,23.17,True,13,4,3,380,2,1,3,MERGED
+135378,Validate Logstash pipeline ID when creating.,mashhurs,2025-09-24T17:56:17Z,2025-09-26T22:48:35+00:00,1,52.87,True,81,0,2,2442,2,0,2,MERGED
+135375,ESQL: Fix flakiness in SessionUtilsTests,bpintea,2025-09-24T16:29:36Z,2025-09-26T08:33:09+00:00,2,40.06,True,35,36,2,73,2,1,3,MERGED
+135374,Removed seqno_field_use_tsdb_doc_values_format feature flag,Kubik42,2025-09-24T16:27:44Z,2025-09-25T23:34:55+00:00,1,31.12,True,1,18,2,85,1,0,1,MERGED
+135373,Improve block loader for source only runtime date fields,Kubik42,2025-09-24T15:49:47Z,2025-09-24T19:28:22+00:00,1,3.64,True,212,0,3,18,2,0,2,MERGED
+135370,Remove pattern_text feature flag,jordan-powers,2025-09-24T15:24:41Z,2025-09-26T15:20:26+00:00,1,47.93,True,34,67,14,316,3,0,3,MERGED
+135369,Revert #135052 #133630,pxsalehi,2025-09-24T15:23:48Z,2025-09-24T18:11:37+00:00,6,2.8,True,47,652,8,140,1,1,2,MERGED
+135367,Refactor/disk bbq class movements,benwtrent,2025-09-24T14:56:12Z,2025-09-24T20:24:55+00:00,1,5.48,True,146,92,8,66,1,0,1,MERGED
+135364,[ESQL] Add LLM usage warning for COMPLETION command,leemthompo,2025-09-24T14:20:51Z,2025-09-24T15:56:40+00:00,1,1.6,True,13,0,1,164,3,0,3,MERGED
+135358,S2D1 - CPS Error handling,piergm,2025-09-24T13:36:41Z,2025-10-03T08:43:06+00:00,7,211.11,True,887,0,3,407,2,11,13,MERGED
+135356,Add tests and docs for sum_over_time,kkrik-es,2025-09-24T13:25:54Z,2025-09-24T16:24:54+00:00,3,2.98,True,182,3,11,31,4,2,6,MERGED
+135353,Simplify returnLocalAll handling in ES|QL,idegtiarenko,2025-09-24T13:14:46Z,2025-09-29T07:56:18+00:00,9,114.69,True,9,54,5,152,3,2,5,MERGED
+135351,Set either index.dimensions or index.routing_path,felixbarny,2025-09-24T12:57:54Z,2025-09-24T13:59:04+00:00,1,1.02,True,89,40,5,142,1,0,1,MERGED
+135350,[ML] Don't block thread while waiting for work to finish on graceful shutdown ,davidkyle,2025-09-24T12:57:31Z,2025-10-01T08:31:46+00:00,3,163.57,True,91,54,5,368,1,2,3,MERGED
+135349,Add transport version docs clarification for serverless,rjernst,2025-09-24T12:56:25Z,2025-09-24T15:31:14+00:00,1,2.58,True,3,3,1,124,5,0,5,MERGED
+135347,[Docs] Convert asciidoc lifecycle markers into Docs V3 syntax,florent-leborgne,2025-09-24T12:31:10Z,2025-09-25T08:02:48+00:00,1,19.53,True,59,54,14,292,3,0,3,MERGED
+135346,Cross-project search index expression rewriting,n1v0lg,2025-09-24T12:25:06Z,2025-10-06T11:55:23+00:00,42,287.5,True,674,162,22,117,2,34,36,MERGED
+135345,Remove Todo for exponential histogram merging optimization.,JonasKunz,2025-09-24T11:46:52Z,2025-09-29T14:39:57+00:00,1,122.88,True,10,5,1,18203,1,0,1,MERGED
+135343,Add base classes for generic HNSW formats,thecoop,2025-09-24T11:05:00Z,2025-10-03T09:40:16+00:00,26,214.59,True,879,340,25,615,3,8,11,MERGED
+135342,Add 'profile' support for knn query on HNSW with early termination,tteofili,2025-09-24T10:58:54Z,2025-09-25T13:29:15+00:00,3,26.51,True,250,93,10,310,3,2,5,MERGED
+135341,Revert #135052 #133630,pxsalehi,2025-09-24T10:49:24Z,2025-09-24T16:25:47+00:00,1,5.61,True,47,652,8,140,1,0,1,MERGED
+135339,ESQL: Make intermediate LocalRelation limit configurable,bpintea,2025-09-24T10:33:11Z,2025-09-26T15:07:06+00:00,3,52.57,True,106,129,24,178,2,2,4,MERGED
+135337,Do not pass ProjectMetadata to lazy index permissions builder,jfreden,2025-09-24T09:26:29Z,2025-09-29T12:00:00+00:00,1,122.56,True,21,5,2,1648,2,0,2,MERGED
+135334,ES|QL: add generator for SAMPLE command,luigidellaquila,2025-09-24T07:59:22Z,2025-09-24T09:31:41+00:00,4,1.54,True,49,0,2,60,1,1,2,MERGED
+135332,Unmute logsdb tests.,martijnvg,2025-09-24T07:03:44Z,2025-09-24T11:46:04+00:00,1,4.71,True,0,36,1,317,2,0,2,MERGED
+135328,Migrate transport versions 8841_052 through 8841_062,jdconrad,2025-09-23T23:03:34Z,2025-09-25T19:28:32+00:00,1,44.42,True,110,120,30,8,2,0,2,MERGED
+135326,Add WriteLoadDecider canRemain logic,DiannaHohensee,2025-09-23T22:39:50Z,2025-10-01T19:00:07+00:00,4,188.34,True,553,185,3,15,1,10,11,MERGED
+135322,Add back resetting transport upper bounds,rjernst,2025-09-23T22:22:16Z,2025-09-29T23:10:28+00:00,1,144.8,True,100,63,4,343,2,0,2,MERGED
+135321,Move index sorting defaults to IndexSettingProviders,jordan-powers,2025-09-23T21:53:18Z,2025-10-03T16:19:18+00:00,3,234.43,False,1168,76,17,270,2,5,7,CLOSED
+135318,Improve block loader for source only runtime boolean fields,Kubik42,2025-09-23T21:21:16Z,2025-09-24T21:07:23+00:00,2,23.77,True,185,0,2,18,3,2,5,MERGED
+135317,document sandfly security connector,seanstory,2025-09-23T21:11:49Z,2025-09-24T16:34:07+00:00,2,19.37,True,316,0,2,69,5,1,6,MERGED
+135309,Enable Semantic Search CCS When ccs_minimize_roundtrips=true,Mikep86,2025-09-23T20:48:15Z,2025-09-25T23:21:23+00:00,36,50.55,True,1716,198,24,719,2,19,21,MERGED
+135308,[CI] UrlDecodeTests class failing,mouhc1ne,2025-09-23T19:23:57Z,2025-09-24T14:39:59+00:00,1,19.27,True,12,4,1,306,2,0,2,MERGED
+135307,ES|QL: Add FUSE operator tests,ioanatia,2025-09-23T19:06:26Z,2025-09-25T12:37:25+00:00,4,41.52,True,447,69,17,903,1,2,3,MERGED
+135306,Add support for extended search usage telemetry,kderusso,2025-09-23T18:58:24Z,2025-09-26T18:44:47+00:00,18,71.77,True,546,20,23,877,3,14,17,MERGED
+135300,[Gradle/BWC] Patch bundled OpenJdk17 with Adoptium Jdk17 for older ES Distros,breskeby,2025-09-23T17:20:55Z,2025-09-24T14:13:13+00:00,5,20.87,True,224,22,7,231,2,4,6,MERGED
+135299,Release DiskBBQ(`bbq_disk`) index type for dense_vector fields,benwtrent,2025-09-23T16:55:56Z,2025-09-24T12:02:03+00:00,5,19.1,True,457,1108,53,1074,4,2,6,MERGED
+135298,Testing indices query cache memory stats,masseyke,2025-09-23T16:31:11Z,2025-09-26T20:17:03+00:00,3,75.76,True,197,12,2,301,5,1,6,MERGED
+135292,New bulk scorer interface for vectors,benwtrent,2025-09-23T15:55:27Z,2025-09-24T15:40:34+00:00,2,23.75,True,236,106,6,209,1,1,2,MERGED
+135290,ESQL: Add CSV Test for Lookup Join on Expression with Union Types,julian-elastic,2025-09-23T15:51:35Z,2025-09-24T17:13:49+00:00,1,25.37,True,23,0,1,59,1,0,1,MERGED
+135279,[ML] Create endpoint cache feature,prwhelan,2025-09-23T13:55:34Z,2025-09-25T14:13:58+00:00,1,48.31,True,32,23,4,309,1,0,1,MERGED
+135278,[DiskBBQ] Implement Bulk scoring when computing neighbours using a Hnsw graph,iverase,2025-09-23T13:54:39Z,2025-09-24T05:47:50+00:00,2,15.89,True,26,4,1,4368,1,0,1,MERGED
+135272,ESQL: Un-snapshot all 3 URL scalar functions.,mouhc1ne,2025-09-23T13:04:41Z,2025-09-25T23:28:49+00:00,5,58.4,True,39,33,17,247,4,2,6,MERGED
+135271,Add DLS stats to `_security/stats`,szybia,2025-09-23T12:48:33Z,2025-09-26T12:33:40+00:00,10,71.75,True,130,6,9,568,2,4,6,MERGED
+135270,[ML] Add .reindexed-v7-ml-anomalies-* to anomaly results template index pattern,davidkyle,2025-09-23T12:33:59Z,2025-09-23T15:12:49+00:00,1,2.65,True,6,1,2,557,3,0,3,MERGED
+135263,Optimize dotCount in expanding dot parser,ChrisHegarty,2025-09-23T11:01:07Z,2025-09-24T07:39:05+00:00,2,20.63,True,34,4,3,397,3,0,3,MERGED
+135262,Add usage stats for semantic_text fields,dimitris-athanasiou,2025-09-23T10:40:26Z,2025-09-30T10:32:06+00:00,29,167.86,True,1099,66,11,917,8,23,31,MERGED
+135261,Fix `SampleXXXAggregatorFunctionTests.testSimpleWithCranky` test,przemekwitek,2025-09-23T10:36:22Z,2025-09-23T11:47:12+00:00,1,1.18,True,4,17,2,395,1,0,1,MERGED
+135257,Add a took time histogram for search triggered cache miss to blob cache metrics,andreidan,2025-09-23T09:00:38Z,2025-09-25T18:17:36+00:00,1,57.28,True,19,2,2,189,4,0,4,MERGED
+135251,Cleanup of IndexSettingProvider,felixbarny,2025-09-23T06:52:25Z,2025-09-24T12:45:42+00:00,2,29.89,True,285,302,18,374,2,1,3,MERGED
+135247,Fix alias id when drop all aggregates,dnhatn,2025-09-23T05:09:40Z,2025-09-24T01:10:26+00:00,1,20.01,True,26,1,5,583,4,0,4,MERGED
+135246,Enable write load constraint decider by default,nicktindall,2025-09-23T04:45:28Z,2025-09-30T01:53:33+00:00,8,165.13,True,47,38,3,252,1,3,4,MERGED
+135245,WriteLoadConstraintDecider: Always allow allocation of unassigned shards,nicktindall,2025-09-23T03:52:54Z,2025-10-01T03:41:14+00:00,4,191.81,True,62,16,2,16,1,2,3,MERGED
+135244,Add reload listener to SslProfile,tvernum,2025-09-23T02:46:53Z,2025-09-25T03:28:37+00:00,1,48.7,True,79,12,9,304,2,0,2,MERGED
+135242,[ML] Restore delayed string copying,DonalEvans,2025-09-23T00:14:29Z,2025-09-25T17:28:23+00:00,2,65.23,True,305,335,74,913,4,2,6,MERGED
+135235,Fix systemd notify to use a shared arena,jdconrad,2025-09-22T21:35:07Z,2025-09-23T14:13:23+00:00,4,16.64,True,67,26,10,432,3,1,4,MERGED
+135233,Rework ShardSearchContextId to explain use of searcher id better,cbuescher,2025-09-22T21:18:26Z,2025-09-25T11:48:41+00:00,1,62.5,True,22,17,5,600,2,1,3,MERGED
+135226,Don't reset upper bounds,rjernst,2025-09-22T20:02:17Z,2025-09-23T18:06:54+00:00,1,22.08,True,12,3,2,293,2,0,2,MERGED
+135225,ESQL: Expression based Lookup Join follow up and refactor,julian-elastic,2025-09-22T19:49:51Z,2025-10-02T12:44:11+00:00,2,232.91,True,32,139,6,222,4,1,5,MERGED
+135223,Forbidding metrics used in aggregations for timeseries,pabloem,2025-09-22T19:31:34Z,2025-09-24T19:57:03+00:00,11,48.42,True,53,21,4,163,2,6,8,MERGED
+135217,[ES|QL] Round stddev tests more aggressively,limotova,2025-09-22T18:39:23Z,2025-09-24T08:07:35+00:00,1,37.47,True,46,55,4,160,3,0,3,MERGED
+135216,Add a hook to Engine to wrap the DirectoryReader provided to Searchers,bcully,2025-09-22T18:22:28Z,2025-10-02T19:33:00+00:00,5,241.18,True,7,1,1,76,4,1,5,MERGED
+135215,ESQL: Opt in to support for new `aggregate_metric_double` and `dense_vector` using query constructs,nik9000,2025-09-22T18:20:49Z,2025-09-26T14:38:07+00:00,35,92.29,True,1259,171,26,1921,5,30,35,MERGED
+135214,Reduce number of `ProjectMetadata`s built during template validation,nielsbauman,2025-09-22T17:27:21Z,2025-09-22T19:46:34+00:00,4,2.32,True,51,66,2,483,2,1,3,MERGED
+135213,[ES|QL] Enable aggregate_metric_double outside of snapshots,limotova,2025-09-22T17:26:32Z,2025-09-30T23:10:13+00:00,10,197.73,True,815,185,100,237,3,5,8,MERGED
+135212,Don't set index.dimensions if dimensions are added via dynamic templates,felixbarny,2025-09-22T17:25:14Z,2025-09-23T11:30:09+00:00,6,18.08,True,99,43,3,597,1,2,3,MERGED
+135210,Use direct heap to GPU copy for raw vector data,ldematte,2025-09-22T16:49:17Z,2025-09-24T13:40:13+00:00,2,44.85,True,111,371,4,857,1,0,1,MERGED
+135209,Fix expiration time in ES|QL async,dnhatn,2025-09-22T16:26:29Z,2025-09-22T22:49:13+00:00,2,6.38,True,76,71,5,225,5,1,6,MERGED
+135208,ESQL: Fix multi cluster tests not working with @Repeat,ivancea,2025-09-22T16:19:13Z,2025-09-23T14:03:46+00:00,1,21.74,True,24,25,1,197,3,0,3,MERGED
+135207,unmute #135194,richard-dennehy,2025-09-22T16:17:56Z,2025-09-23T11:49:44+00:00,1,19.53,True,0,3,1,34,1,0,1,MERGED
+135206,Refactor IndexRouting.ExtractFromSource to be an abstract class,felixbarny,2025-09-22T16:10:25Z,2025-09-25T06:00:45+00:00,11,61.84,True,531,325,16,176,6,9,15,MERGED
+135205,Remove references to transport version from index version docs,rjernst,2025-09-22T16:04:14Z,2025-09-22T19:12:06+00:00,1,3.13,True,7,7,1,160,5,0,5,MERGED
+135204,ES|QL: Make _tsid available in metadata,leontyevdv,2025-09-22T15:17:37Z,2025-09-29T12:55:10+00:00,10,165.63,True,382,35,23,75,8,3,11,MERGED
+135203,Use gradleProperty instead of findProperty,rjernst,2025-09-22T15:01:31Z,2025-09-23T13:19:28+00:00,1,22.3,True,6,8,1,93,2,0,2,MERGED
+135198,Enable chunk_rescorer in text_similarity_reranker,kderusso,2025-09-22T14:50:34Z,2025-09-23T12:12:41+00:00,2,21.37,True,10,27,10,93,2,0,2,MERGED
+135197,ESQL: Make the DocsMultiAggsMultiGroupings test deterministic,astefan,2025-09-22T14:09:48Z,2025-09-22T16:39:41+00:00,1,2.5,True,2,20,3,49,3,0,3,MERGED
+135195,Provide more performant and reliable extraction of the executorName for EsThreads,mosche,2025-09-22T13:47:03Z,2025-09-24T11:11:44+00:00,7,45.41,True,173,125,27,384,1,3,4,MERGED
+135191,[DOCS] Add applies_to tags to ESQL overview pages and functions,leemthompo,2025-09-22T12:30:55Z,2025-09-24T10:35:03+00:00,1,46.07,True,90,4,31,26,3,0,3,MERGED
+135187,Avoid redundantly copying a map in `Settings` builder,nielsbauman,2025-09-22T11:59:59Z,2025-09-23T19:29:01+00:00,2,31.48,True,2,3,1,571,1,1,2,MERGED
+135184,"Bug fix, last optimised value in `ESUTF8StreamJsonParser` kept old value.",gmarouli,2025-09-22T11:33:23Z,2025-09-29T12:46:33+00:00,6,169.22,True,156,15,6,760,6,7,13,MERGED
+135183,Fixes DesiredBalanceComputerTests Failure,joshua-adams-1,2025-09-22T11:29:45Z,2025-09-23T09:28:12+00:00,2,21.97,True,1,4,2,550,1,0,1,MERGED
+135176,CentroidCalculator does not return negative summation weights,iverase,2025-09-22T08:50:05Z,2025-09-22T12:20:16+00:00,1,3.5,True,45,1,3,299,3,0,3,MERGED
+135172,Disable utf-8 parsing optimization,martijnvg,2025-09-22T08:11:04Z,2025-09-22T10:11:53+00:00,2,2.01,True,3,64,3,587,2,0,2,MERGED
+135171,[ML] Add .ml-anomalies and .ml-annotations to the DotPrefixValidator exceptions,davidkyle,2025-09-22T08:09:28Z,2025-09-24T16:00:46+00:00,4,55.85,True,32,18,3,639,2,2,4,MERGED
+135168,[8.18] Delete unsupported tests ,jfreden,2025-09-22T06:54:13Z,2025-09-22T08:02:20+00:00,1,1.14,True,0,20,1,619,0,0,0,MERGED
+135167,rest-api-spec: fix master_timeout typo,pquentin,2025-09-22T06:40:02Z,2025-09-22T09:47:25+00:00,1,3.12,True,1,1,1,0,2,0,2,MERGED
+135161,Use recycler bytestream output for translog writer,Tim-Brooks,2025-09-21T20:08:56Z,2025-09-25T03:47:37+00:00,4,79.64,True,15,7,2,184,1,1,2,MERGED
+135160,ESQL: Standardize block args,nik9000,2025-09-21T18:11:34Z,2025-09-22T20:14:27+00:00,2,26.05,True,398,262,30,601,2,4,6,MERGED
+135148,Force Merge in CachingEnableFilterQueryTests,john-wagster,2025-09-21T03:21:18Z,2025-09-22T20:21:21+00:00,1,41.0,True,2,6,2,29,1,0,1,MERGED
+135138,Fixed a small typo in tokenizer-reference.md,ImadSaddik,2025-09-20T20:20:43Z,2025-09-22T11:19:16+00:00,1,38.98,True,1,1,1,165,5,0,5,MERGED
+135136,Removing duplicate logger declaration,benwtrent,2025-09-20T14:02:58Z,2025-09-22T12:18:07+00:00,1,46.25,True,2,6,1,63,1,0,1,MERGED
+135114,Add direct access to current recycler stream page,Tim-Brooks,2025-09-19T22:47:37Z,2025-09-24T18:33:12+00:00,10,115.76,True,753,49,4,482,3,9,12,MERGED
+135113,Allow overriding upstream ref in transport version build logic,rjernst,2025-09-19T22:25:39Z,2025-09-22T14:54:40+00:00,3,64.48,True,15,0,3,337,3,1,4,MERGED
+135110,Add serverless-specific index refresh info,shainaraskas,2025-09-19T19:46:00Z,2025-09-22T14:35:58+00:00,1,66.83,True,16,7,3,245,3,0,3,MERGED
+135109,Better explain STATS on multivalued fields,nik9000,2025-09-19T19:44:27Z,2025-09-30T15:02:12+00:00,1,259.3,True,127,38,6,124,6,1,7,MERGED
+135098,Manually roll over in `SearchableSnapshotActionIT`,nielsbauman,2025-09-19T15:46:38Z,2025-09-22T19:09:32+00:00,1,75.38,True,39,14,2,441,3,0,3,MERGED
+135097,Fixes countDistinctWithConditions in csv-spec tests,ncordon,2025-09-19T15:40:03Z,2025-09-22T09:13:06+00:00,1,65.55,True,6,1,2,303,2,0,2,MERGED
+135096,[ML] Tolerate mixed types in datafeed stats sort,davidkyle,2025-09-19T15:29:57Z,2025-09-24T15:30:33+00:00,2,120.01,True,6,0,2,246,3,0,3,MERGED
+135094,ES|QL: Require all functions to provide examples,ioanatia,2025-09-19T15:07:22Z,2025-09-26T08:02:04+00:00,3,160.91,True,43,5,7,199,3,1,4,MERGED
+135092,[8.19] Use consistent version of asm for painless and tools,mosche,2025-09-19T14:38:17Z,2025-09-22T13:13:10+00:00,1,70.58,True,11,11,3,55,0,0,0,MERGED
+135090,[8.18] Use consistent version of asm for painless and tools,mosche,2025-09-19T14:24:25Z,2025-09-22T13:13:35+00:00,1,70.82,True,11,11,3,55,1,0,1,MERGED
+135089,[9.1] Use consistent version of asm for painless and tools,mosche,2025-09-19T14:11:22Z,2025-09-22T13:13:58+00:00,1,71.04,True,13,13,4,55,1,0,1,MERGED
+135087,"Optimize BytesArray::indexOf, which is used heavily in ndjson parsing",ChrisHegarty,2025-09-19T13:54:39Z,2025-09-20T10:38:56+00:00,15,20.74,True,374,84,10,1405,7,6,13,MERGED
+135086,Update asm for painless,mosche,2025-09-19T13:46:07Z,2025-09-22T13:14:21+00:00,1,71.47,True,9,9,2,78,1,0,1,MERGED
+135085,[8.18] Update bundled JDK to 25 (#134910),mosche,2025-09-19T12:42:46Z,2025-09-22T13:15:00+00:00,1,72.54,True,30,12,10,166,0,0,0,MERGED
+135084,[8.19] Update bundled JDK to 25 (#134910),mosche,2025-09-19T12:40:38Z,2025-09-22T13:15:33+00:00,1,72.58,True,34,14,12,166,0,0,0,MERGED
+135083,[9.0] Update bundled JDK to 25 (#134910),mosche,2025-09-19T12:36:43Z,2025-09-22T13:18:53+00:00,1,72.7,True,57,29,16,165,0,0,0,MERGED
+135082,[9.1] Update bundled JDK to 25 (#134910),mosche,2025-09-19T12:32:10Z,2025-09-22T13:18:31+00:00,1,72.77,True,34,14,12,165,0,0,0,MERGED
+135081,Local index resolution records resolved expressions,n1v0lg,2025-09-19T12:16:14Z,2025-09-24T11:55:03+00:00,10,119.65,True,375,68,9,1298,3,9,12,MERGED
+135079,"ES|QL: Configurable score, key and group by columns for FUSE",ioanatia,2025-09-19T11:51:45Z,2025-09-22T15:35:19+00:00,8,75.73,True,3288,2576,24,495,3,5,8,MERGED
+135078,ESQL: Fix async query inconsistent headers,ivancea,2025-09-19T11:42:09Z,2025-09-23T10:16:01+00:00,6,94.56,True,70,23,6,164,3,4,7,MERGED
+135076,[ESQL] Edit versioning info for `absent` and `present` functions,kkrik-es,2025-09-19T11:36:17Z,2025-09-22T12:45:28+00:00,6,73.15,True,12,0,4,69,5,1,6,MERGED
+135074,Fix BatchedQueryPhaseIT.testNumReducePhases,cbuescher,2025-09-19T11:02:35Z,2025-09-23T11:12:14+00:00,1,96.16,True,7,5,3,192,2,0,2,MERGED
+135071,[ES|QL] Ensure Inference Service answer using only SEARCH and SEARCH_COORDINATION thread pools.,afoucret,2025-09-19T10:15:11Z,2025-09-24T07:37:52+00:00,3,117.38,True,69,92,5,592,1,1,2,MERGED
+135069,Fix failing LuceneFilesExtensionsTests testIsLuceneExtension case,cbuescher,2025-09-19T09:29:08Z,2025-09-19T11:03:55+00:00,1,1.58,True,1,4,2,94,2,0,2,MERGED
+135068,Turn NumericValues into functional interface,martijnvg,2025-09-19T09:26:15Z,2025-09-19T16:53:23+00:00,1,7.45,True,20,23,1,0,1,0,1,MERGED
+135062,[ES|QL] Text embedding inference operator,afoucret,2025-09-19T08:59:02Z,2025-09-24T10:44:51+00:00,7,121.76,True,1160,64,12,121,1,8,9,MERGED
+135059,[ES|QL] TEXT_EMBEDDING function definition,afoucret,2025-09-19T07:36:56Z,2025-09-24T13:15:37+00:00,16,125.64,True,571,28,19,448,3,14,17,MERGED
+135057,Modifies H1 titles for better SEO,kosabogi,2025-09-19T07:06:40Z,2025-09-19T12:48:37+00:00,1,5.7,True,3,2,2,16,3,0,3,MERGED
+135054,[ES|QL] Register AggregateMetricDoubleLiteral,limotova,2025-09-19T05:01:44Z,2025-09-26T23:49:36+00:00,2,186.8,True,88,6,8,218,2,0,2,MERGED
+135053,Make SecureString comparisons constant time,tvernum,2025-09-19T04:31:47Z,2025-09-22T03:35:42+00:00,1,71.07,True,105,22,3,664,2,0,2,MERGED
+135052,Move individual stats fields to AsyncRefresh,ywangd,2025-09-19T02:53:00Z,2025-09-19T03:56:42+00:00,1,1.06,True,33,46,1,184,1,0,1,MERGED
+135051,Ban Limit + MvExpand before remote Enrich,smalyshev,2025-09-19T00:49:01Z,2025-09-22T19:29:30+00:00,7,90.67,True,51,0,3,1287,5,5,10,MERGED
+135050,[DOCS] Remove node lifecycle and autoscaling APIs,lcawl,2025-09-19T00:10:07Z,2025-09-19T08:21:55+00:00,1,8.2,True,6,21,1,302,4,0,4,MERGED
+135049,Rename index.mapping.patterned_text.disable_templating,Kubik42,2025-09-18T23:22:55Z,2025-09-23T19:59:52+00:00,1,116.62,True,12,12,4,22,1,0,1,MERGED
+135048,[8.18] Cutover to the new transport version system,rjernst,2025-09-18T23:04:38Z,2025-09-19T23:28:26+00:00,1,24.4,True,26,49,6,195,0,0,0,MERGED
+135047,[8.19] Cutover to the new transport version system,rjernst,2025-09-18T23:02:41Z,2025-09-19T23:28:11+00:00,1,24.43,True,29,52,9,195,0,0,0,MERGED
+135046,[9.0] Cutover to the new transport version system,rjernst,2025-09-18T22:57:37Z,2025-09-19T23:27:56+00:00,1,24.51,True,32,52,13,195,0,0,0,MERGED
+135045,[9.1] Cutover to the new transport version system,rjernst,2025-09-18T22:54:21Z,2025-09-19T23:28:42+00:00,1,24.57,True,34,60,15,195,0,0,0,MERGED
+135044,Only validate primary ids on release branches,rjernst,2025-09-18T22:24:10Z,2025-09-19T14:20:05+00:00,1,15.93,True,45,5,4,666,2,1,3,MERGED
+135043,Document Rest*Action and Transport*Action threading model ,zhubotang-wq,2025-09-18T22:11:59Z,2025-10-02T17:57:01+00:00,7,331.75,True,36,0,1,131,7,8,15,MERGED
+135040,Weights in simplified RRF retriever cleanup,Mikep86,2025-09-18T21:55:01Z,2025-09-19T12:55:57+00:00,7,15.02,True,165,208,3,324,5,4,9,MERGED
+135039,Remove feature flag for coalesced ignored source,jordan-powers,2025-09-18T21:51:21Z,2025-09-26T16:33:45+00:00,1,186.71,True,19,36,5,195,7,0,7,MERGED
+135036,ESQL: Performance improvements for Lookup Join on Expression,julian-elastic,2025-09-18T20:47:11Z,2025-09-26T18:20:31+00:00,1,189.56,True,49,11,3,860,7,0,7,MERGED
+135035,Implementation of Delta function for absolute change in gauges over time,pabloem,2025-09-18T20:29:49Z,2025-09-24T17:55:47+00:00,5,141.43,True,3416,6,20,22,3,7,10,MERGED
+135034,Clarify what happens if max_open_jobs is set differently across nodes,ppf2,2025-09-18T20:18:50Z,2025-09-24T18:53:08+00:00,1,142.57,True,4,0,1,71,5,0,5,MERGED
+135029,Fix testDateHistogramAggregation by limiting number docs to avoid OOM,parkertimmins,2025-09-18T17:36:51Z,2025-09-29T14:38:21+00:00,1,261.02,True,1,4,2,153,1,0,1,MERGED
+135026,Improve block loader for source only runtime fields of type keyword,jordan-powers,2025-09-18T17:25:16Z,2025-09-19T16:18:54+00:00,1,22.89,True,187,31,9,234,2,0,2,MERGED
+135017,Update exception messages,joshua-adams-1,2025-09-18T15:59:43Z,2025-09-26T14:31:24+00:00,4,190.53,True,17,3,2,157,1,7,8,MERGED
+135016,XContent parsing for DocStats and ShardFieldStats,kingherc,2025-09-18T15:52:17Z,2025-09-23T14:04:01+00:00,7,118.2,True,215,3,5,16,3,1,4,MERGED
+135014,Use Explicit<> rather than Optional<> for Subobjects in ObjectMapper,romseygeek,2025-09-18T15:27:14Z,2025-09-19T08:33:40+00:00,1,17.11,True,119,117,13,175,2,0,2,MERGED
+135013,Finalize release notes for v9.1.4 release,elasticsearchmachine,2025-09-18T15:15:09Z,2025-09-22T10:40:04+00:00,1,91.42,True,6,11,4,80,3,0,3,MERGED
+135012,Bypass MMap arena grouping as this has caused issues with too many regions being mapped,benwtrent,2025-09-18T15:10:56Z,2025-09-19T22:51:49+00:00,1,31.68,True,43,5,4,678,9,0,9,MERGED
+135011,ESQL: Handle right hand side of Inline Stats coming optimized with LocalRelation shortcut,astefan,2025-09-18T15:06:48Z,2025-09-26T06:36:28+00:00,4,183.49,True,123,19,8,1356,4,5,9,MERGED
+135008,Change FailedToCommitClusterStateException to NotMasterException,joshua-adams-1,2025-09-18T14:39:44Z,2025-10-02T10:05:15+00:00,5,331.43,True,14,11,3,2532,2,3,5,MERGED
+135000,Expand gpu support checks,ldematte,2025-09-18T13:28:35Z,2025-09-22T05:53:56+00:00,9,88.42,True,554,44,15,498,4,4,8,MERGED
+134999,[ML] Fix YAML test to use correct query parameter type,pquentin,2025-09-18T12:30:10Z,2025-09-18T14:23:15+00:00,1,1.88,True,2,2,1,191,2,0,2,MERGED
+134998,Cleanup esql session,idegtiarenko,2025-09-18T10:50:03Z,2025-09-19T07:13:18+00:00,9,20.39,True,108,92,6,110,1,6,7,MERGED
+134992,Replace PatternTokenizer with a CharTokenizer,martijnvg,2025-09-18T09:15:38Z,2025-09-19T08:34:43+00:00,1,23.32,True,29,10,1,61,1,0,1,MERGED
+134987,[8.19] Add missing common cat params (#134870),pquentin,2025-09-18T09:08:07Z,2025-09-19T10:13:54+00:00,1,25.1,True,323,0,18,171,0,0,0,MERGED
+134986,[9.1] Add missing common cat params (#134870),pquentin,2025-09-18T09:06:30Z,2025-09-19T10:13:31+00:00,1,25.12,True,325,2,18,170,0,0,0,MERGED
+134985,[Transform] Decrease loglevel (ERROR -> WARN) of 3 transform-related error messages,przemekwitek,2025-09-18T09:03:25Z,2025-09-18T12:00:59+00:00,5,2.96,True,3,3,2,294,1,1,2,MERGED
+134982,OTLP: optimize _tsid creation,felixbarny,2025-09-18T08:53:38Z,2025-09-23T11:04:57+00:00,9,122.19,True,279,302,9,456,1,4,5,MERGED
+134980,Document multi index query support for simplified retrievers,ioanatia,2025-09-18T08:19:34Z,2025-09-18T15:01:41+00:00,6,6.7,True,4,4,2,233,4,3,7,MERGED
+134979,Fix bug in tsdb doc value codec,martijnvg,2025-09-18T07:57:04Z,2025-09-18T18:06:52+00:00,2,10.16,True,127,42,3,554,3,1,4,MERGED
+134973,Add startsWith and regionMatches to SecureString,tvernum,2025-09-18T05:01:18Z,2025-09-19T04:28:30+00:00,2,23.45,True,170,2,2,340,1,1,2,MERGED
+134971,Fix typo in feature flag,parkertimmins,2025-09-18T01:41:35Z,2025-09-18T06:32:21+00:00,1,4.85,True,1,3,2,14,6,0,6,MERGED
+134966,Cutover to the new transport version system,rjernst,2025-09-17T23:06:28Z,2025-09-19T23:25:29+00:00,2,48.32,True,82,87,30,175,1,0,1,MERGED
+134965,Delta and increase together ,pabloem,2025-09-17T22:15:08Z,2025-09-19T04:51:40+00:00,1,30.61,False,870,55,13,182,1,1,2,CLOSED
+134964,[ES|QL] Use Double.BYTES instead of Long in double encoder,limotova,2025-09-17T22:11:25Z,2025-09-18T00:23:25+00:00,1,2.2,True,1,1,1,158,1,0,1,MERGED
+134963,[Transform] Fix Missing Config Errors,prwhelan,2025-09-17T21:45:05Z,2025-09-24T19:47:58+00:00,3,166.05,True,334,73,14,520,3,3,6,MERGED
+134960,[ML] Adding custom headers support openai text embeddings,jonathan-buttner,2025-09-17T20:54:09Z,2025-09-23T14:23:36+00:00,11,137.49,True,554,584,20,445,2,12,14,MERGED
+134957,Bump FLEET_AGENTS_MAPPINGS_VERSION so the new mapping applies on upgrades,michel-laterman,2025-09-17T20:40:40Z,2025-09-23T14:47:54+00:00,1,138.12,True,1,1,1,181,2,0,2,MERGED
+134956,Allow semantic queries to gather inference results on remote clusters,Mikep86,2025-09-17T20:30:49Z,2025-09-19T12:15:49+00:00,25,39.75,True,418,127,12,884,3,11,14,MERGED
+134955,[Transform] Wait for PIT to close,prwhelan,2025-09-17T20:26:53Z,2025-09-18T14:07:28+00:00,1,17.68,True,63,21,5,119,3,0,3,MERGED
+134954,Update api specs for search and async_search to match changes in #134240,quux00,2025-09-17T20:26:19Z,2025-09-18T04:17:50+00:00,1,7.86,True,8,0,2,0,1,0,1,MERGED
+134953,Mark the create-index-from-source action as publicly available on Serverless,dakrone,2025-09-17T20:14:51Z,2025-09-18T15:19:20+00:00,1,19.07,True,3,0,1,244,1,0,1,MERGED
+134952,ESQL: Enable Lookup Join on Expression Tech Preview,julian-elastic,2025-09-17T20:03:25Z,2025-09-23T13:56:10+00:00,9,137.88,True,34,17,5,146,5,4,9,MERGED
+134951,ESQL: Replace function count tests,nik9000,2025-09-17T19:56:26Z,2025-09-21T21:58:53+00:00,4,98.04,True,18,6,2,462,1,1,2,MERGED
+134945,[ML] Do not convert input Strings to ChunkInferenceInput unless necessary,DonalEvans,2025-09-17T19:20:00Z,2025-09-17T20:40:06+00:00,1,1.33,True,14,12,2,343,2,0,2,MERGED
+134942,ESQL: Add telemetry support for Lookup Join On Expression,julian-elastic,2025-09-17T18:44:05Z,2025-09-19T12:38:40+00:00,2,41.91,True,259,169,5,208,2,0,2,MERGED
+134941,DLM: Better `max_age` rollover for tiny retentions,szybia,2025-09-17T18:42:16Z,2025-09-18T18:07:59+00:00,4,23.43,True,119,4,5,49,3,1,4,MERGED
+134936,Fixing conditional processor mutability bugs,masseyke,2025-09-17T18:32:10Z,2025-09-18T13:16:09+00:00,1,18.73,True,120,17,3,440,2,0,2,MERGED
+134935,ESQL: More code gen standardization,nik9000,2025-09-17T18:27:37Z,2025-09-19T21:27:17+00:00,2,50.99,True,2090,1253,245,717,1,0,1,MERGED
+134934,Increase timeseries function,pabloem,2025-09-17T18:27:24Z,2025-09-19T05:45:55+00:00,5,35.31,True,584,48,12,0,2,3,5,MERGED
+134933,[ML] Add ContextualAI inference service,pedrocassalpacheco,2025-09-17T17:55:05Z,2025-09-26T10:49:15+00:00,8,208.9,True,1468,1,21,3047,7,6,13,MERGED
+134932,Fix inline stats remote caps,dnhatn,2025-09-17T17:04:30Z,2025-09-17T21:35:47+00:00,2,4.52,True,1,1,1,75,1,0,1,MERGED
+134926,Fixes testSnapshotShutdownProgressTracker,joshua-adams-1,2025-09-17T16:15:44Z,2025-09-25T08:32:10+00:00,3,184.27,True,17,19,2,1766,6,0,6,MERGED
+134923,Add XPath to XmlUtils,joegallo,2025-09-17T15:42:13Z,2025-09-18T13:42:33+00:00,1,22.01,True,20,5,3,478,2,0,2,MERGED
+134910,Update bundled JDK to 25,mosche,2025-09-17T14:45:47Z,2025-09-19T12:17:06+00:00,13,45.52,True,34,14,12,107,10,3,13,MERGED
+134901,Add release notes for v8.19.4 release,elasticsearchmachine,2025-09-17T13:23:49Z,2025-09-22T11:03:52+00:00,1,117.67,True,3,0,1,80,2,0,2,MERGED
+134900,Remove track_live_docs_in_memory_bytes feature flag,martijnvg,2025-09-17T13:03:44Z,2025-09-19T15:00:53+00:00,1,49.95,True,106,87,5,0,1,0,1,MERGED
+134899,[ML] Filter out shutting down nodes from the zone mapper,davidkyle,2025-09-17T12:34:27Z,2025-09-22T13:34:45+00:00,5,121.0,True,37,67,7,1051,1,8,9,MERGED
+134898,[DOCS] Marks the change point agg as GA,szabosteve,2025-09-17T12:30:24Z,2025-09-25T12:09:47+00:00,2,191.66,True,3,16,1,67,3,1,4,MERGED
+134896,Remove implementation of set compatible versions task,rjernst,2025-09-17T12:21:19Z,2025-09-17T15:38:25+00:00,1,3.29,True,0,88,2,182,2,0,2,MERGED
+134894,[Cyera] - Fix Cannot execute ILM policy delete step,muskan-agarwal26,2025-09-17T12:02:20Z,2025-09-26T05:52:47+00:00,2,209.84,True,16,4,3,509,16,0,16,MERGED
+134893,Add trust configuration for cross cluster api keys,jfreden,2025-09-17T12:00:19Z,2025-09-26T08:33:51+00:00,5,212.56,True,1225,607,32,707,2,11,13,MERGED
+134887,Avoid holding references to SearchExecutionContext in SourceConfirmedTextQuery,romseygeek,2025-09-17T11:01:26Z,2025-09-17T14:57:06+00:00,1,3.93,True,7,2,2,494,4,0,4,MERGED
+134881,ES|QL: Make kibana docs for Query settings more consistent,luigidellaquila,2025-09-17T09:18:30Z,2025-09-17T10:19:07+00:00,1,1.01,True,2,2,2,87,2,0,2,MERGED
+134880,Updates the Roles page title,yetanothertw,2025-09-17T09:17:38Z,2025-09-17T15:13:21+00:00,1,5.93,True,1,1,1,143,3,0,3,MERGED
+134879,Throw 4xx instead of 5xx for ESQL malformed query params,pmpailis,2025-09-17T09:11:24Z,2025-09-23T11:02:53+00:00,1,145.86,True,38,0,3,175,3,0,3,MERGED
+134877,[KQL] Refactored the field filter value grammar,afoucret,2025-09-17T08:45:13Z,2025-09-17T12:40:22+00:00,1,3.92,True,573,325,14,309,2,2,4,MERGED
+134871,Remove `SizeValue`,DaveCTurner,2025-09-17T07:34:21Z,2025-09-17T09:53:54+00:00,3,2.33,True,15,307,10,317,1,3,4,MERGED
+134870,Add missing common cat params,DaveCTurner,2025-09-17T07:12:20Z,2025-09-18T08:33:48+00:00,1,25.36,True,323,0,18,48,5,0,5,MERGED
+134869,Add streams YAML tests to rest-resources-zip,pquentin,2025-09-17T06:59:57Z,2025-09-19T11:37:31+00:00,1,52.63,True,4,3,3,190,4,0,4,MERGED
+134864,Unmute rate tests,dnhatn,2025-09-17T06:36:11Z,2025-09-17T08:35:15+00:00,1,1.98,True,0,15,1,74,1,0,1,MERGED
+134862,[Test] Remove nonexistent balance settings in tests,ywangd,2025-09-17T06:29:02Z,2025-09-17T08:32:38+00:00,1,2.06,True,0,8,3,133,1,0,1,MERGED
+134861,Fix and unmute testIndexSettingProviderPrivateSetting,felixbarny,2025-09-17T06:22:02Z,2025-09-18T08:57:25+00:00,1,26.59,True,2,5,2,2197,1,0,1,MERGED
+134857,Fix rate tests,dnhatn,2025-09-17T05:12:29Z,2025-09-17T06:19:55+00:00,1,1.12,True,9,15,6,293,1,0,1,MERGED
+134852,Fix mergeExecutorThreadCount in ThreadPoolMergeExecutorServiceDiskSpaceTests,lkts,2025-09-16T21:53:29Z,2025-09-17T16:56:04+00:00,1,19.04,True,1,1,1,124,2,0,2,MERGED
+134851,Remove ingest conditionals _type deprecation warning,joegallo,2025-09-16T21:50:09Z,2025-09-17T15:50:25+00:00,7,18.0,True,6,67,3,1930,3,1,4,MERGED
+134843,Fix cross cluster test to use system agnostic path,rjernst,2025-09-16T21:03:08Z,2025-09-16T23:17:51+00:00,1,2.25,True,4,3,1,126,1,0,1,MERGED
+134842,Make resolve conflict in transport version its own task,rjernst,2025-09-16T20:47:53Z,2025-09-16T23:20:45+00:00,2,2.55,True,112,84,5,145,4,1,5,MERGED
+134836,Fix release tests for chunk-rescorer tests behind feature flag,kderusso,2025-09-16T19:10:47Z,2025-09-16T20:37:18+00:00,1,1.44,True,1,1,1,64,1,0,1,MERGED
+134835,Add new `/_security/stats` endpoint,szybia,2025-09-16T19:10:27Z,2025-09-22T18:54:12+00:00,4,143.73,True,356,3,17,1160,3,1,4,MERGED
+134834,Rename patterned_text to pattern_text,parkertimmins,2025-09-16T18:45:19Z,2025-09-17T20:54:17+00:00,3,26.15,True,329,334,37,164,1,2,3,MERGED
+134831,"Add tests where patterned_text is nested in object, nested, and passthrough objects",parkertimmins,2025-09-16T17:54:34Z,2025-09-16T19:00:07+00:00,2,1.09,True,263,0,1,184,1,0,1,MERGED
+134827,ESQL: Rename command from INLINESTATS to INLINE STATS,bpintea,2025-09-16T17:28:03Z,2025-09-18T15:16:46+00:00,5,45.81,True,3531,3231,62,146,4,3,7,MERGED
+134822,Support querying multiple indices with the simplified RRF retriever,ioanatia,2025-09-16T16:31:49Z,2025-09-18T08:02:13+00:00,5,39.51,True,412,44,5,426,2,2,4,MERGED
+134820,[DOCS] [ESQL] Clean up ESQL enrich landing page,leemthompo,2025-09-16T15:57:26Z,2025-09-17T10:25:50+00:00,1,18.47,True,31,29,1,245,4,0,4,MERGED
+134816,Adding a getUnmodifiableSourceAndMetadata() method to IngestDocument,masseyke,2025-09-16T14:44:05Z,2025-09-18T15:52:42+00:00,4,49.14,True,462,409,3,641,2,2,4,MERGED
+134815,Finalize release notes for v9.0.7 release,elasticsearchmachine,2025-09-16T14:42:46Z,2025-09-17T13:28:33+00:00,1,22.76,True,2,11,4,80,3,0,3,MERGED
+134812,Store the raw format name for DiskBBQ in field metadata,thecoop,2025-09-16T14:17:15Z,2025-09-20T14:33:48+00:00,5,96.28,True,77,15,5,168,7,2,9,MERGED
+134802,docs: link Analyze API & Text analysis from match query page,Username46786,2025-09-16T12:31:30Z,2025-09-27T12:03:35+00:00,2,263.53,False,3,1,1,364,5,1,6,CLOSED
+134801,[9.0] Reenable Index Compatibility BWC Tests,tlrx,2025-09-16T12:07:44Z,2025-09-16T15:26:21+00:00,1,3.31,True,1,3,1,206,1,0,1,MERGED
+134800,[9.1] Reenable Index Compatibility BWC Tests,tlrx,2025-09-16T11:36:34Z,2025-09-16T15:25:51+00:00,1,3.82,True,1,0,1,157,1,0,1,MERGED
+134799,Retrievers: Refactor retriever builder tests,ioanatia,2025-09-16T11:10:51Z,2025-09-16T15:20:55+00:00,12,4.17,True,282,305,3,447,1,6,7,MERGED
+134798,Add relevant attributes to shard search latency APM metrics,javanna,2025-09-16T11:10:16Z,2025-09-23T09:20:43+00:00,4,166.17,True,285,93,5,1255,2,2,4,MERGED
+134795,Expand Javadoc for `SnapshotsInProgress`,DaveCTurner,2025-09-16T10:05:36Z,2025-09-17T08:44:24+00:00,1,22.65,True,10,1,1,0,1,0,1,MERGED
+134790,Bug fix: Facilitate second retrieval of the same value (#134770),gmarouli,2025-09-16T09:23:59Z,2025-09-17T14:36:01+00:00,5,29.2,True,103,15,5,399,3,4,7,MERGED
+134788,Add BytesStreamOutputTests,joshua-adams-1,2025-09-16T09:18:47Z,2025-10-02T08:26:46+00:00,2,383.13,True,179,0,1,326,1,2,3,MERGED
+134787,Remove use_lucene101 feature flag left over.,martijnvg,2025-09-16T09:15:14Z,2025-09-17T07:58:45+00:00,1,22.73,True,0,5,5,0,1,0,1,MERGED
+134786,Add an option to return early from an allocate call,ywangd,2025-09-16T09:04:37Z,2025-09-19T02:13:07+00:00,15,65.14,True,256,18,5,291,4,11,15,MERGED
+134785,Add remote cluster security SPI extension,slobodanadamovic,2025-09-16T08:21:38Z,2025-09-25T21:36:31+00:00,18,229.25,True,784,80,23,420,1,10,11,MERGED
+134784,Reenable Index Compatibility BWC Tests,tlrx,2025-09-16T08:19:58Z,2025-09-16T15:24:57+00:00,4,7.08,True,22,0,3,112,3,1,4,MERGED
+134783,Support recording index resolution results on `IndicesRequest`,n1v0lg,2025-09-16T08:02:20Z,2025-09-19T09:47:09+00:00,4,73.75,True,126,1,3,639,1,3,4,MERGED
+134778,ES|QL: project_routing validation and Kibana docs,luigidellaquila,2025-09-16T07:55:46Z,2025-09-17T09:05:25+00:00,9,25.16,True,226,0,5,410,2,3,5,MERGED
+134777,[ES|QL] Fix assertion error after inference resolution.,afoucret,2025-09-16T07:14:57Z,2025-09-17T15:28:35+00:00,4,32.23,True,40,29,2,169,3,1,4,MERGED
+134776,Unify Authentication.newCloudAuthentication,tvernum,2025-09-16T06:55:57Z,2025-09-17T06:23:01+00:00,3,23.45,True,62,18,3,388,1,1,2,MERGED
+134775,[DOCS]: Add connector release notes for 9.1.4,charlotte-hoblik,2025-09-16T06:49:11Z,2025-09-17T13:02:27+00:00,1,30.22,True,5,0,1,77,3,0,3,MERGED
+134774,[DOCS]: Add connectors release notes for 9.0.7,charlotte-hoblik,2025-09-16T06:43:45Z,2025-09-16T08:01:05+00:00,1,1.29,True,5,0,1,77,1,0,1,MERGED
+134773,[DOCS]: Add connectors release notes for 8.19.4,charlotte-hoblik,2025-09-16T06:35:59Z,2025-09-17T13:02:17+00:00,1,30.44,True,11,0,1,78,2,0,2,MERGED
+134772,[DOCS]: Add connectors release notes for 8.18.7,charlotte-hoblik,2025-09-16T06:31:38Z,2025-09-16T08:45:35+00:00,1,2.23,True,11,0,1,78,2,0,2,MERGED
+134768,Enable TS command in non-snapshot builds,dnhatn,2025-09-16T01:38:51Z,2025-09-18T03:59:30+00:00,9,50.34,True,2349,2681,55,282,5,5,10,MERGED
+134767,Return slice and future timestamp in time-series source,dnhatn,2025-09-16T00:13:50Z,2025-09-16T06:17:53+00:00,2,6.07,True,385,81,19,665,3,1,4,MERGED
+134766,Adding the shell of the SamplingService,masseyke,2025-09-15T22:49:51Z,2025-09-18T17:34:21+00:00,6,66.74,True,360,39,13,380,2,3,5,MERGED
+134764,Unmute patterned_text integration tests,jordan-powers,2025-09-15T22:45:07Z,2025-09-16T16:04:00+00:00,1,17.31,True,0,12,1,187,1,0,1,MERGED
+134754,Tighten asserts in FullClusterRestartSystemIndexCompatibilityIT and provide more context for failures,lkts,2025-09-15T20:39:42Z,2025-09-16T21:39:14+00:00,2,24.99,True,10,4,1,300,1,1,2,MERGED
+134753,"Support bulk reading doc values for byte, short and integer field types.",martijnvg,2025-09-15T20:31:29Z,2025-09-17T13:33:07+00:00,8,41.03,True,521,41,14,122,1,6,7,MERGED
+134747,Fix vector rehydration from _source during concurrent query phase,jimczi,2025-09-15T20:23:26Z,2025-09-16T16:05:09+00:00,4,19.7,True,28,16,4,372,2,1,3,MERGED
+134745,Increment ESQL expected function count,jordan-powers,2025-09-15T19:36:22Z,2025-09-15T21:36:13+00:00,1,2.0,True,1,1,1,227,3,0,3,MERGED
+134744,Patterned text conditionally disable templating,jordan-powers,2025-09-15T19:07:17Z,2025-09-17T14:27:33+00:00,3,43.34,True,121,25,5,175,1,1,2,MERGED
+134743,[CI] Add missing support for skip-target-branches,brianseeders,2025-09-15T18:59:26Z,2025-09-15T21:25:40+00:00,1,2.44,True,87,0,5,125,3,0,3,MERGED
+134742,ESQL: Log more on GenerativeIt failure,nik9000,2025-09-15T18:52:34Z,2025-09-16T13:05:59+00:00,1,18.22,True,4,0,2,169,1,0,1,MERGED
+134741,Added no-op support for project_routing query param to REST endpoints that will support cross-project search,quux00,2025-09-15T18:38:14Z,2025-09-19T14:13:52+00:00,4,91.59,True,171,17,30,173,1,1,2,MERGED
+134740,Unmute JULBridgeTests,jdconrad,2025-09-15T18:30:40Z,2025-09-22T20:08:39+00:00,1,169.63,False,0,3,1,82,1,0,1,CLOSED
+134739,Fix transport version tests on windows,rjernst,2025-09-15T18:12:23Z,2025-09-17T18:39:34+00:00,1,48.45,True,8,3,2,501,2,0,2,MERGED
+134737,Data Streams Stats action only on searchable nodes,kingherc,2025-09-15T16:54:21Z,2025-09-17T16:24:35+00:00,4,47.5,True,15,9,3,16,2,3,5,MERGED
+134735,SearchService - don't log warnings when service is stopped or closed - additional comment,carlosdelest,2025-09-15T16:43:49Z,2025-09-16T07:33:26+00:00,1,14.83,True,3,1,1,73,2,0,2,MERGED
+134734,Only run cleanup if patterned_text is enabled,parkertimmins,2025-09-15T16:42:24Z,2025-09-15T21:20:54+00:00,3,4.64,True,5,1,2,550,1,1,2,MERGED
+134733,Make transport version comments parsable,jdconrad,2025-09-15T16:40:06Z,2025-09-16T19:36:18+00:00,4,26.94,True,22,2,2,116,2,1,3,MERGED
+134731,Changes visibility of RemoteClusterAware.groupClusterIndices,piergm,2025-09-15T14:46:43Z,2025-09-16T15:38:45+00:00,1,24.87,False,6,1,2,0,2,1,3,CLOSED
+134729,Fix release tests for chunk-rescorer tests behind feature flag,kderusso,2025-09-15T14:20:46Z,2025-09-16T16:40:14+00:00,1,26.32,True,2,1,1,82,2,0,2,MERGED
+134727,ESQL: Drop old serialization,nik9000,2025-09-15T14:15:30Z,2025-09-17T18:29:26+00:00,3,52.23,True,229,773,67,169,1,3,4,MERGED
+134725,[8.18] Propagates filter() to aggregation functions' surrogates (#134461),ncordon,2025-09-15T13:53:15Z,2025-09-18T07:53:02+00:00,1,66.0,True,219,11,11,198,0,0,0,MERGED
+134724,[8.19] Propagates filter() to aggregation functions' surrogates (#134461),ncordon,2025-09-15T13:48:49Z,2025-09-18T07:53:54+00:00,1,66.08,True,243,12,11,198,0,0,0,MERGED
+134722,[9.0] Propagates filter() to aggregation functions' surrogates (#134461),ncordon,2025-09-15T13:40:41Z,2025-09-18T07:54:31+00:00,1,66.23,True,224,12,11,197,0,0,0,MERGED
+134721,[9.1] Propagates filter() to aggregation functions' surrogates (#134461),ncordon,2025-09-15T13:33:16Z,2025-09-18T07:55:17+00:00,1,66.37,True,244,12,11,197,0,0,0,MERGED
+134719,Silence time zone ID deprecation warning for JDK 25 due to log4j2 bug.,mosche,2025-09-15T12:25:54Z,2025-09-18T16:04:06+00:00,3,75.64,True,9,4,1,361,3,1,4,MERGED
+134717,Allow including semantic field embeddings in _source,jimczi,2025-09-15T11:13:35Z,2025-09-18T07:41:51+00:00,7,68.47,True,458,106,16,312,5,4,9,MERGED
+134716,Fix `testFailIfAlreadyExists`,DaveCTurner,2025-09-15T10:27:46Z,2025-09-16T07:38:15+00:00,1,21.17,True,46,36,2,217,1,0,1,MERGED
+134711,Add Reason field to elastic-agent upgrade details metadata,pchila,2025-09-15T10:02:29Z,2025-09-15T19:56:28+00:00,2,9.9,True,15,1,3,533,13,0,13,MERGED
+134707,Improvements for inference ModelStatsTest,dimitris-athanasiou,2025-09-15T08:56:55Z,2025-09-15T15:40:45+00:00,1,6.73,True,27,4,1,102,1,0,1,MERGED
+134705,ES|QL: Add example for decay,ioanatia,2025-09-15T07:32:12Z,2025-09-15T08:42:09+00:00,3,1.17,True,20,4,4,24,4,0,4,MERGED
+134704,Expose ClusterInfoService via AllocationService,ywangd,2025-09-15T06:33:36Z,2025-09-16T08:11:48+00:00,2,25.64,True,4,0,1,17,1,0,1,MERGED
+134701,ESQL: Always estimate size for types,nik9000,2025-09-14T15:43:07Z,2025-09-19T22:40:28+00:00,5,126.96,True,39,30,6,166,2,1,3,MERGED
+134700,Simplify computation of resets in rate aggregation,dnhatn,2025-09-14T15:19:23Z,2025-09-15T17:01:09+00:00,5,25.7,True,312,428,4,81,2,2,4,MERGED
+134696,ES|QL: refactor query generator and move it to testFixtures,luigidellaquila,2025-09-14T10:58:12Z,2025-09-19T09:29:22+00:00,1,118.52,True,424,273,29,160,4,1,5,MERGED
+134693,Use doc_value based value fetcher for patterned_text,parkertimmins,2025-09-13T19:09:11Z,2025-09-17T22:06:08+00:00,6,98.95,True,131,23,3,385,1,5,6,MERGED
+134689,Fixed a typo in the description for the combination type,ImadSaddik,2025-09-13T09:21:30Z,2025-09-15T08:51:55+00:00,1,47.51,True,1,1,1,201,4,0,4,MERGED
+134686,Add release notes for v8.18.7 release,elasticsearchmachine,2025-09-13T00:17:26Z,2025-09-16T07:57:02+00:00,1,79.66,True,60,0,2,80,2,0,2,MERGED
+134685,Add release notes for v8.19.4 release,elasticsearchmachine,2025-09-13T00:13:07Z,2025-09-17T13:03:34+00:00,1,108.84,True,79,0,2,80,2,0,2,MERGED
+134684,Add release notes for v9.1.4 release,elasticsearchmachine,2025-09-13T00:08:51Z,2025-09-17T13:58:24+00:00,1,109.83,True,230,2,4,80,3,0,3,MERGED
+134683,Add release notes for v9.0.7 release,elasticsearchmachine,2025-09-13T00:04:33Z,2025-09-16T07:55:33+00:00,1,79.85,True,247,76,4,80,3,0,3,MERGED
+134682,Unmute testAckedIndexing to see if it still fails on main,bcully,2025-09-12T23:02:54Z,2025-09-18T16:35:02+00:00,1,137.54,True,0,3,1,155,3,0,3,MERGED
+134673,[ML] Gracefully shutdown model deployment when node is removed from assignment routing,jonathan-buttner,2025-09-12T21:16:47Z,2025-09-25T13:32:47+00:00,4,304.27,True,74,16,3,1170,3,2,5,MERGED
+134668,Move RCS settings-based test method to unit test,JeremyDahlgren,2025-09-12T19:33:16Z,2025-09-15T11:55:58+00:00,1,64.38,True,55,64,2,252,1,0,1,MERGED
+134665,Fixed TextRollingUpgradeIT flaky runs,Kubik42,2025-09-12T18:54:06Z,2025-09-13T00:34:00+00:00,1,5.67,True,1,10,2,243,1,0,1,MERGED
+134664,ESQL: Add example of regex REPLACE,nik9000,2025-09-12T18:42:15Z,2025-09-15T19:22:54+00:00,1,72.68,True,48,23,6,0,4,1,5,MERGED
+134658,rest-api-spec: remove required: false for query parameters,pquentin,2025-09-12T17:11:12Z,2025-09-17T07:35:24+00:00,1,110.4,True,13,110,49,774,2,0,2,MERGED
+134657,[DiskBBQ] modernize switch statements in DocIdsWriter,iverase,2025-09-12T17:00:15Z,2025-09-12T19:09:31+00:00,1,2.15,True,12,34,1,60,1,0,1,MERGED
+134656,Fix deadlock in ThreadPoolMergeScheduler when a failing merge closes the IndexWriter,tlrx,2025-09-12T16:57:49Z,2025-09-22T07:31:33+00:00,26,230.56,True,679,36,7,973,7,16,23,MERGED
+134649,Removing the logs stream feature flag,masseyke,2025-09-12T15:52:05Z,2025-09-12T18:52:37+00:00,1,3.01,True,24,134,10,275,1,0,1,MERGED
+134648,Esql Fix bug with loading TS metadata,not-napoleon,2025-09-12T15:22:05Z,2025-09-16T11:50:52+00:00,9,92.48,True,196,13,9,314,3,7,10,MERGED
+134645,Fix terms aggregation doc_count_error_upper_bound for already reduced results (batched query phase),benchaplin,2025-09-12T15:03:36Z,2025-09-30T16:59:01+00:00,5,433.92,True,22,21,4,1175,3,3,6,MERGED
+134636,[Island Browser] - Fix Cannot execute ILM policy delete step,janvi-elastic,2025-09-12T14:04:51Z,2025-09-23T09:50:49+00:00,3,259.77,True,20,5,3,501,6,2,8,MERGED
+134634,Extract inferece model stats into its own file,dimitris-athanasiou,2025-09-12T13:37:18Z,2025-09-13T13:50:48+00:00,2,24.23,True,159,102,6,282,3,3,6,MERGED
+134630,[INFERENCE] Remove node pinning logic ,davidkyle,2025-09-12T12:12:09Z,2025-09-17T20:58:27+00:00,5,128.77,True,43,909,23,225,2,1,3,MERGED
+134629,Improve block loader for source only runtime fields of type double.,martijnvg,2025-09-12T11:18:28Z,2025-09-12T16:16:38+00:00,4,4.97,True,172,28,6,110,3,2,5,MERGED
+134628,Use modern Java pattern matching in QueryToFilterAdapter,romseygeek,2025-09-12T10:27:46Z,2025-09-12T16:13:52+00:00,1,5.77,True,16,16,1,0,2,0,2,MERGED
+134625,Centralize telemetry listener wrapping in TransportSearchAction,javanna,2025-09-12T09:52:59Z,2025-09-15T13:12:36+00:00,14,75.33,True,150,112,3,883,2,9,11,MERGED
+134621,ES|QL - Fix knn test,carlosdelest,2025-09-12T09:16:06Z,2025-09-12T11:57:53+00:00,1,2.7,True,8,8,1,168,1,0,1,MERGED
+134617,Fix `HttpClientStatsTrackerTests#testToXContent`,DaveCTurner,2025-09-12T08:23:41Z,2025-09-12T13:26:54+00:00,1,5.05,True,29,11,2,213,2,0,2,MERGED
+134609,Add 'SslProfileExtension' SPI interface,tvernum,2025-09-12T06:48:17Z,2025-09-23T01:46:03+00:00,6,258.96,True,415,53,17,409,2,5,7,MERGED
+134607,Standardize Redact processor metadata field usage,jbaiera,2025-09-12T06:22:53Z,2025-09-12T19:34:57+00:00,3,13.2,True,115,30,4,416,1,1,2,MERGED
+134606,If patterned_text length exceeds limit put in stored fields,parkertimmins,2025-09-12T03:25:02Z,2025-09-13T18:35:22+00:00,6,39.17,True,677,173,12,346,1,7,8,MERGED
+134604,Adds certificate identity field to cross-cluster API keys,gmjehovich,2025-09-12T02:12:14Z,2025-10-03T08:49:45+00:00,18,510.63,True,1349,195,44,407,8,29,37,MERGED
+134603,Merge old rate implementation to new implementation,dnhatn,2025-09-12T01:37:50Z,2025-09-12T04:49:46+00:00,1,3.2,True,2841,3779,14,340,2,0,2,MERGED
+134597,Add more transport version validation cases,rjernst,2025-09-12T00:08:29Z,2025-09-17T19:23:56+00:00,5,139.26,True,136,85,8,204,2,2,4,MERGED
+134591,[8.19] Fixed a bug where text fields in LogsDB indices did not use their keyword multi fields for block loading (#134253),Kubik42,2025-09-11T23:09:42Z,2025-09-12T17:49:45+00:00,1,18.67,True,907,140,20,246,0,0,0,MERGED
+134590,Fill in missing transport version error message,rjernst,2025-09-11T22:44:26Z,2025-09-11T23:53:22+00:00,1,1.15,True,2,2,1,80,2,0,2,MERGED
+134588,Document remote lookup join in 9.2,smalyshev,2025-09-11T22:28:04Z,2025-09-16T19:08:42+00:00,2,116.68,True,11,2,1,0,6,2,8,MERGED
+134586,[ES|QL] Add rounding to stddev csv tests,limotova,2025-09-11T21:49:20Z,2025-09-15T19:44:52+00:00,2,93.93,True,49,35,4,195,4,1,5,MERGED
+134585,Add classes to represent raw docs sampling configs,seanzatzdev,2025-09-11T21:48:57Z,2025-09-25T19:35:13+00:00,23,333.77,True,776,1,8,349,3,20,23,MERGED
+134584,"[Test] Replace 0.0.0 version with ""detached"" property on ElasticsearchDistibution",jozala,2025-09-11T21:36:17Z,2025-10-03T11:13:46+00:00,20,517.62,True,256,105,38,1255,5,10,15,MERGED
+134582,Fixed match only text block loader not working when a keyword multi field is present,Kubik42,2025-09-11T20:51:33Z,2025-09-18T03:18:14+00:00,10,150.44,True,356,106,8,747,5,6,11,MERGED
+134579,Migrate transport version 9112_000,jdconrad,2025-09-11T20:20:04Z,2025-09-11T21:23:19+00:00,1,1.05,True,5,3,3,8,1,0,1,MERGED
+134578,Add entitlement annotation to allow renderDocs,prdoyle,2025-09-11T20:14:38Z,2025-09-12T08:05:23+00:00,4,11.85,True,1,0,1,2827,2,1,3,MERGED
+134570,"Migrate transport versions 9115_000, 9114_000, 9113_000",jdconrad,2025-09-11T17:24:06Z,2025-09-11T20:03:56+00:00,1,2.66,True,19,9,7,8,1,0,1,MERGED
+134568,Add pull request job to verify transport versions backported via main,mark-vieira,2025-09-11T16:34:18Z,2025-09-12T21:21:35+00:00,5,28.79,True,30,0,2,188,2,2,4,MERGED
+134564,Introducing a file group watcher,ankit--sethi,2025-09-11T16:07:10Z,2025-09-24T20:18:37+00:00,7,316.19,False,285,0,3,484,7,2,9,CLOSED
+134561,Support profile activation for custom access tokens,slobodanadamovic,2025-09-11T15:27:55Z,2025-09-16T08:14:17+00:00,3,112.77,True,396,34,10,257,1,2,3,MERGED
+134543,ES|QL: Linear combination in FUSE,ioanatia,2025-09-11T12:44:12Z,2025-09-17T07:46:07+00:00,4,139.03,True,707,96,21,323,1,4,5,MERGED
+134542,rest-api-spec: improve mode documentation in indices.resolve_index,pquentin,2025-09-11T12:40:43Z,2025-09-12T07:24:58+00:00,2,18.74,True,4,2,1,31,4,0,4,MERGED
+134541,[ML] Improve log message for model snapshot update,valeriy42,2025-09-11T12:36:20Z,2025-09-15T10:20:14+00:00,5,93.73,True,14,5,3,560,3,3,6,MERGED
+134540,rest-api-spec: stop advertising unitless bytes values in cat APIs,pquentin,2025-09-11T12:23:47Z,2025-09-12T07:32:39+00:00,1,19.15,True,0,50,10,94,2,0,2,MERGED
+134539,[DiskBBQ] Clean up of DocIdsWriter,iverase,2025-09-11T12:20:27Z,2025-09-11T14:03:35+00:00,1,1.72,True,5,53,2,381,1,0,1,MERGED
+134538,Adds apply_to tags to Command line tools page,yetanothertw,2025-09-11T11:55:38Z,2025-09-16T06:43:11+00:00,8,114.79,True,55,2,15,737,4,2,6,MERGED
+134536,Set lower bound on DLM retention in tests,nielsbauman,2025-09-11T10:49:08Z,2025-09-11T13:27:33+00:00,8,2.64,True,26,14,5,206,4,5,9,MERGED
+134533,ESQL: javadoc for aggregates and groupings methods,alex-spies,2025-09-11T08:50:10Z,2025-09-11T10:03:33+00:00,1,1.22,True,16,0,1,0,1,0,1,MERGED
+134532,[Test] Wait for cancellation before assertions,ywangd,2025-09-11T08:43:58Z,2025-09-17T03:08:03+00:00,5,138.4,True,13,4,2,17,6,1,7,MERGED
+134528,rest-api-spec: specify default value for format in cat APIs,pquentin,2025-09-11T07:36:51Z,2025-09-11T12:56:07+00:00,3,5.32,True,25,0,25,870,4,1,5,MERGED
+134525,rest-api-spec: specify master_timeout default value,pquentin,2025-09-11T07:32:50Z,2025-09-17T07:52:52+00:00,1,144.33,True,164,10,159,808,3,0,3,MERGED
+134524,Add support for flexible access pattern to `NormalizeForStreamProcessor`,jbaiera,2025-09-11T07:32:31Z,2025-09-12T21:44:34+00:00,1,38.2,True,537,28,6,1125,2,0,2,MERGED
+134520,Enable tracking for write_coordination threadpool,ywangd,2025-09-11T04:59:45Z,2025-09-12T08:07:14+00:00,2,27.12,True,2,2,1,72,2,0,2,MERGED
+134517,Add agent_policy_id attribute to fleet-agents doc.,michel-laterman,2025-09-11T00:01:37Z,2025-09-12T23:50:22+00:00,1,47.81,True,3,0,1,296,1,0,1,MERGED
+134516,[9.1] Fixed a bug where text fields in LogsDB indices did not use their keyword multi fields for block loading (#134253),Kubik42,2025-09-10T23:32:55Z,2025-09-11T17:28:44+00:00,1,17.93,True,1404,382,25,245,0,0,0,MERGED
+134515,[ML] Migrate Alibaba Senders to SenderExecutableAction,DonalEvans,2025-09-10T23:10:16Z,2025-09-12T15:10:58+00:00,2,40.01,True,522,449,22,570,1,1,2,MERGED
+134511,"Revert ""ESQL: Speed up MultiClusterSpecIT start up by 40% by parallelizing index creation (#134090)",julian-elastic,2025-09-10T22:18:04Z,2025-09-10T23:56:26+00:00,1,1.64,True,12,43,2,117,1,0,1,MERGED
+134510,Implementing idelta function for esql,pabloem,2025-09-10T22:15:16Z,2025-09-12T23:29:20+00:00,4,49.23,True,480,92,21,187,1,2,3,MERGED
+134508,"Migrate transport versions 9116_000, 9112_001, 8841_063",jdconrad,2025-09-10T21:29:32Z,2025-09-10T22:39:21+00:00,1,1.16,True,4,9,3,8,1,0,1,MERGED
+134507,CCS Compatible Semantic Query Rewrite Interceptors,Mikep86,2025-09-10T21:01:01Z,2025-09-16T16:08:50+00:00,23,139.13,True,2901,437,27,1144,1,14,15,MERGED
+134506,Improve missing tranport version error message,jdconrad,2025-09-10T20:58:44Z,2025-09-11T14:28:12+00:00,1,17.49,True,42,2,2,295,4,0,4,MERGED
+134504,[ML] Adding headers support for OpenAI chat completion,jonathan-buttner,2025-09-10T20:29:48Z,2025-09-16T12:51:57+00:00,4,136.37,True,329,62,22,4123,2,4,6,MERGED
+134503,ESQL: URL encoding changes,mouhc1ne,2025-09-10T20:20:46Z,2025-09-22T12:19:26+00:00,20,279.98,True,933,102,35,578,4,13,17,MERGED
+134502,ESQL: Reenable test a HeapAttack test,nik9000,2025-09-10T20:17:05Z,2025-09-11T12:38:28+00:00,1,16.36,True,0,3,1,110,2,0,2,MERGED
+134501,Increasing default limit for TS queries,pabloem,2025-09-10T20:07:24Z,2025-09-12T18:42:11+00:00,17,46.58,True,188,49,18,14,1,7,8,MERGED
+134499,"Migrate tranport versions 9155_000, 9118_000, and 9117_000",jdconrad,2025-09-10T19:59:06Z,2025-09-10T21:01:51+00:00,2,1.05,True,54,26,14,8,1,1,2,MERGED
+134498,[ML] Allow project_routing in API,prwhelan,2025-09-10T19:46:48Z,2025-09-18T13:08:09+00:00,1,185.36,False,63,11,2,351,2,0,2,CLOSED
+134497,ESQL: Limit when we push topn to lucene,nik9000,2025-09-10T19:23:06Z,2025-09-22T14:37:10+00:00,9,283.23,True,226,31,19,496,3,4,7,MERGED
+134495,Consolidate CCS metadata tests to reduce copypaste,smalyshev,2025-09-10T18:45:25Z,2025-09-10T22:42:52+00:00,1,3.96,True,109,317,5,106,1,0,1,MERGED
+134488,[Transform] Allow project_routing in API,prwhelan,2025-09-10T18:09:00Z,2025-09-18T13:07:57+00:00,2,186.98,False,89,67,10,343,2,1,3,CLOSED
+134482,Run transport version validation tasks on precommit,mark-vieira,2025-09-10T17:17:17Z,2025-09-10T18:22:48+00:00,1,1.09,True,8,2,2,184,3,0,3,MERGED
+134481,"Revert ""Do not share Weight between Drivers (#133446)""",dnhatn,2025-09-10T17:16:06Z,2025-09-10T20:31:16+00:00,2,3.25,True,72,119,8,217,4,0,4,MERGED
+134480,ESQL: INLINESTATS docs,astefan,2025-09-10T17:10:07Z,2025-09-12T14:19:28+00:00,12,45.16,True,291,124,13,13,4,16,20,MERGED
+134478,ESQL: Raise `Block` usage overhead estimate,nik9000,2025-09-10T17:03:02Z,2025-09-10T19:15:17+00:00,1,2.2,True,3,2,1,389,2,0,2,MERGED
+134477,SearchService - don't log warnings when service is stopped or closed,carlosdelest,2025-09-10T17:02:25Z,2025-09-11T14:02:02+00:00,6,20.99,True,76,12,2,409,2,1,3,MERGED
+134475,ES|QL Absent and AbsentOverTime functions,leontyevdv,2025-09-10T16:43:41Z,2025-09-12T15:26:30+00:00,1,46.71,True,1656,5,32,306,5,0,5,MERGED
+134474,Add source context to index request,Tim-Brooks,2025-09-10T16:43:37Z,2025-09-11T21:14:31+00:00,4,28.52,True,376,137,15,104,1,2,3,MERGED
+134473,Migrate transport version 9119000,jdconrad,2025-09-10T16:32:02Z,2025-09-10T18:13:57+00:00,2,1.7,True,6,9,4,65,1,1,2,MERGED
+134472,Do not mutate the input vector in OptimizedScalarQuantizer,iverase,2025-09-10T16:15:45Z,2025-09-11T08:22:53+00:00,3,16.12,True,131,68,12,345,1,1,2,MERGED
+134466,Add disable_templating index setting/mapping parameter to patterned_text,jordan-powers,2025-09-10T16:04:09Z,2025-09-16T19:11:11+00:00,5,147.12,True,443,50,18,406,3,3,6,MERGED
+134461,Propagates filter() to aggregation functions' surrogates,ncordon,2025-09-10T15:24:58Z,2025-09-15T13:08:59+00:00,2,117.73,True,247,10,11,281,4,4,8,MERGED
+134460,ESQL: Begin using `..` for ranges,nik9000,2025-09-10T15:24:33Z,2025-09-10T19:24:43+00:00,3,4.0,True,60,41,4,368,1,3,4,MERGED
+134458,Enable caching of all filters in `knn` queries,jimczi,2025-09-10T15:03:29Z,2025-09-11T08:12:00+00:00,4,17.14,True,248,12,6,892,2,1,3,MERGED
+134457,Improve scalability of get-license action,DaveCTurner,2025-09-10T14:55:55Z,2025-09-11T12:11:12+00:00,1,21.25,True,15,6,4,602,3,0,3,MERGED
+134455,ESQL: Account for the inlinestats LocalRelations,bpintea,2025-09-10T14:20:46Z,2025-09-24T09:46:45+00:00,6,331.43,True,246,19,6,147,5,2,7,MERGED
+134454,Grant manage_threads to java.desktop for Tika,prdoyle,2025-09-10T14:20:10Z,2025-09-11T13:21:56+00:00,6,23.03,True,99,13,5,5973,6,3,9,MERGED
+134453,Ensuring single segment for knn tests to ensure consistent results with quantization,pmpailis,2025-09-10T14:08:40Z,2025-09-17T07:00:50+00:00,2,160.87,True,4,0,1,214,3,0,3,MERGED
+134452,ESQL: Reuse `references()`,nik9000,2025-09-10T13:48:38Z,2025-09-10T19:25:48+00:00,9,5.62,True,13,1,2,516,1,2,3,MERGED
+134451,Use inner query for equals/hashCode() in SourceConfirmedTextQuery,romseygeek,2025-09-10T13:34:42Z,2025-09-10T14:50:23+00:00,3,1.26,True,49,39,3,368,4,1,5,MERGED
+134446,ES|QL: add support for include_execution_metadata parameter,luigidellaquila,2025-09-10T12:36:27Z,2025-09-19T08:41:42+00:00,23,212.09,True,129,22,9,258,4,5,9,MERGED
+134443,[docs] Clean up redirects for ESQL functions,Mpdreamz,2025-09-10T10:51:17Z,2025-09-10T13:18:32+00:00,1,2.45,True,6,49,1,132,2,0,2,MERGED
+134439,"Restructures the ""Highlighting"" documentation",kosabogi,2025-09-10T09:42:05Z,2025-09-12T10:20:27+00:00,7,48.64,True,1170,1128,5,224,3,9,12,MERGED
+134438,Using a tmp file for enabling mmap MemorySegment during flush,ldematte,2025-09-10T09:16:10Z,2025-09-11T14:31:44+00:00,2,29.26,True,222,108,5,0,1,0,1,MERGED
+134436,Expose node heap size in cluster info,pxsalehi,2025-09-10T08:55:24Z,2025-09-12T13:09:23+00:00,14,52.23,True,75,12,11,118,2,8,10,MERGED
+134435,Make OTLPMetricsIndexingRestIT.testIngestMetricDataViaMetricExporter more resilient,felixbarny,2025-09-10T08:27:16Z,2025-09-10T09:33:45+00:00,1,1.11,True,2,9,2,13,1,0,1,MERGED
+134434,Change patterned_text analyzer from standard to delimiter.,martijnvg,2025-09-10T08:21:04Z,2025-09-16T06:50:52+00:00,6,142.5,True,266,29,6,70,1,3,4,MERGED
+134431,Remove logging of trusted system classes to not risk causing ClassCircularityError,mosche,2025-09-10T07:50:12Z,2025-09-10T11:46:42+00:00,1,3.94,True,6,6,2,338,2,0,2,MERGED
+134430,Format rest-api-spec files,pquentin,2025-09-10T07:29:04Z,2025-09-11T07:06:31+00:00,2,23.62,True,14440,12888,491,866,3,1,4,MERGED
+134429,Implement move non preferred phase in allocator,nicktindall,2025-09-10T07:21:24Z,2025-09-21T23:42:40+00:00,36,280.35,False,572,13,6,1075,1,12,13,CLOSED
+134428,ES|QL: Capability check for CCS when using FORK,ioanatia,2025-09-10T07:20:49Z,2025-09-10T09:37:24+00:00,1,2.28,True,1,1,1,236,2,0,2,MERGED
+134425,rest-api-spec: require watcher.put_watch body,pquentin,2025-09-10T06:10:15Z,2025-09-12T07:53:13+00:00,1,49.72,True,1,24,2,695,5,0,5,MERGED
+134421,Add --resolve-conflict flag to transport version generate task,rjernst,2025-09-10T04:27:31Z,2025-09-12T17:25:42+00:00,19,60.97,True,133,8,4,461,11,3,14,MERGED
+134420,Rename the transport version generate task to be shorter,rjernst,2025-09-10T03:36:49Z,2025-09-12T14:33:39+00:00,1,58.95,True,8,8,3,223,2,0,2,MERGED
+134419,Trigger after shard listener before post recovery,Tim-Brooks,2025-09-10T03:19:54Z,2025-09-22T18:58:37+00:00,3,303.65,True,71,3,3,107,2,2,4,MERGED
+134418,Add alternate location for upper bounds in serverless,rjernst,2025-09-10T03:19:06Z,2025-09-11T14:13:41+00:00,2,34.91,True,74,2,3,293,2,1,3,MERGED
+134415,Differentiate between initial and reconnect RCS connections,JeremyDahlgren,2025-09-10T01:35:04Z,2025-09-11T15:30:28+00:00,4,37.92,True,178,5,5,388,2,4,6,MERGED
+134413,More validation for time-series aggregations,dnhatn,2025-09-10T00:07:56Z,2025-09-18T06:06:33+00:00,7,197.98,True,205,37,4,459,1,6,7,MERGED
+134404,Migrate transport versions 9120_000 through 9126_000,jdconrad,2025-09-09T22:22:26Z,2025-09-09T23:57:59+00:00,1,1.59,True,50,34,19,101,1,0,1,MERGED
+134403,Support inline filter in time-series aggregation,dnhatn,2025-09-09T21:58:13Z,2025-09-10T17:00:45+00:00,5,19.04,True,179,4,8,413,2,2,4,MERGED
+134400,Enable remote lookup join in release,smalyshev,2025-09-09T21:19:56Z,2025-09-11T15:31:00+00:00,1,42.18,True,1,32,7,44,2,0,2,MERGED
+134398,[ML] Inference API _services retrieves authorization information directly from EIS,jonathan-buttner,2025-09-09T20:13:46Z,2025-09-18T22:14:09+00:00,7,218.01,True,189,150,13,431,1,8,9,MERGED
+134395,ESQL: Build `functionName` on the fly,nik9000,2025-09-09T18:55:16Z,2025-09-10T13:44:30+00:00,3,18.82,True,1,4,1,256,1,0,1,MERGED
+134393,ESQL: Don't close over the plan in listener,nik9000,2025-09-09T18:19:02Z,2025-09-09T19:20:59+00:00,1,1.03,True,46,25,1,86,1,0,1,MERGED
+134392,Migration initial transport version for 9.1.4,mark-vieira,2025-09-09T17:58:15Z,2025-09-09T21:35:02+00:00,1,3.61,True,2,2,3,98,1,0,1,MERGED
+134388,Migrate transport version,jdconrad,2025-09-09T17:18:58Z,2025-09-09T18:47:08+00:00,1,1.47,True,4,5,3,84,1,0,1,MERGED
+134376,"Propagate filter in TOP(field, 1, order) surrogate.",jan-elastic,2025-09-09T15:33:24Z,2025-09-10T12:04:47+00:00,1,20.52,False,28,3,4,13,5,0,5,CLOSED
+134374,Add file extension metadata to cache miss counter from SharedBlobCacheService,tteofili,2025-09-09T15:26:17Z,2025-09-17T10:05:21+00:00,16,186.65,True,131,3,6,301,2,5,7,MERGED
+134373,Add documentation for TS source,kkrik-es,2025-09-09T15:24:55Z,2025-09-26T12:39:30+00:00,43,405.24,True,269,196,78,329,9,50,59,MERGED
+134371,[8.19] Return unique deprecation for old indices with incompatible date formats (#124597),mosche,2025-09-09T13:43:46Z,2025-09-10T10:31:37+00:00,1,20.8,True,95,1,4,214,3,0,3,MERGED
+134369,Accept `ProjectMetadata` in `RestoreSnapshotStateTask.updater`,nielsbauman,2025-09-09T13:32:38Z,2025-09-10T12:35:21+00:00,1,23.05,True,11,12,2,343,1,0,1,MERGED
+134368,Fix race in FileSettingsServiceIT.testSettingsAppliedOnStart,mosche,2025-09-09T13:14:35Z,2025-09-19T13:58:44+00:00,1,240.74,True,10,7,2,955,5,0,5,MERGED
+134367,`CrossClusterSearchUnavailableClusterIT` test: fix resource leak,pawankartik-elastic,2025-09-09T13:05:09Z,2025-09-09T14:26:34+00:00,1,1.36,True,9,4,1,47,1,0,1,MERGED
+134365,Remove `PeerFinder` request timeout,DaveCTurner,2025-09-09T12:39:51Z,2025-09-15T09:09:38+00:00,3,140.5,True,17,51,4,311,4,2,6,MERGED
+134364,Avoid randomized test failures for small timestamps,felixbarny,2025-09-09T12:16:39Z,2025-09-09T13:28:34+00:00,1,1.2,True,2,2,1,722,1,0,1,MERGED
+134361,Add `ThreadWatchdog` to `ClusterApplierService`,DaveCTurner,2025-09-09T11:57:38Z,2025-10-04T11:15:11+00:00,3,599.29,True,311,40,25,321,3,2,5,MERGED
+134358,Fix failing release tests (Require capability for DECAY function and SET and INLINESTATS commands),craigtaverner,2025-09-09T10:23:13Z,2025-09-09T17:59:51+00:00,5,7.61,True,24,3,8,480,4,0,4,MERGED
+134357,Rename blobName to fileName in blob cache metrics,andreidan,2025-09-09T09:54:48Z,2025-09-09T11:01:48+00:00,1,1.12,True,5,5,1,191,1,0,1,MERGED
+134355,ES|QL PresentOverTime function,leontyevdv,2025-09-09T09:21:48Z,2025-09-10T16:05:51+00:00,4,30.73,True,910,5,21,205,4,3,7,MERGED
+134350,Map start_timestamp as date rather than date_nanos,felixbarny,2025-09-09T08:54:07Z,2025-09-09T14:39:52+00:00,2,5.76,True,100,2,3,332,2,0,2,MERGED
+134349,Add InMemoryClonedSecureSettings for keeping temporary secure settings loaded,jfreden,2025-09-09T08:38:08Z,2025-09-11T10:17:37+00:00,10,49.66,True,229,150,5,233,6,7,13,MERGED
+134347,Fix TimeSeriesFeatureSetUsageTests testEqualsAndHashcode (#134332),gmarouli,2025-09-09T08:27:11Z,2025-09-09T09:38:48+00:00,3,1.19,True,3,6,3,179,2,1,3,MERGED
+134344,Use a copy of Elasticsearch's hybrid directory in `qa:vector:checkVec` utility,iverase,2025-09-09T06:47:52Z,2025-09-09T12:13:57+00:00,3,5.43,True,80,4,2,232,1,0,1,MERGED
+134340,Migrate more transport versions,jdconrad,2025-09-08T22:40:37Z,2025-09-09T15:01:07+00:00,1,16.34,True,103,51,27,46,1,0,1,MERGED
+134334,Add CI job for updating and generating transport version definitions,mark-vieira,2025-09-08T21:12:47Z,2025-09-12T18:59:22+00:00,1,93.78,True,61,1,2,439,3,0,3,MERGED
+134333,Add initial transport version generation task,rjernst,2025-09-08T21:10:41Z,2025-09-09T23:18:09+00:00,3,26.12,True,209,8,7,204,2,2,4,MERGED
+134330,Randomized # of shards for RandomizedTS test,pabloem,2025-09-08T20:30:23Z,2025-09-08T21:42:12+00:00,1,1.2,True,2,0,1,112,1,0,1,MERGED
+134329,Add ability to comment in transport version files,jdconrad,2025-09-08T20:21:35Z,2025-09-08T22:01:22+00:00,4,1.66,True,41,1,2,122,2,2,4,MERGED
+134328,KQL  - Prevent boolean operators from being used as literals in tests,afoucret,2025-09-08T20:17:45Z,2025-09-09T09:22:33+00:00,1,13.08,True,191,201,5,357,2,0,2,MERGED
+134327,Semantic Search CCS Support - Add Prerequisite Info to Query Rewrite Context,Mikep86,2025-09-08T20:01:11Z,2025-09-09T22:50:46+00:00,7,26.83,True,252,20,19,926,2,4,6,MERGED
+134326,ES|QL - Dense vector tyoe - Enable bit element type,afoucret,2025-09-08T19:48:03Z,2025-09-10T08:05:51+00:00,4,36.3,True,152,37,11,101,2,1,3,MERGED
+134325,[ML] Inference API Retrying 503s for EIS integration,jonathan-buttner,2025-09-08T19:37:48Z,2025-09-09T14:30:42+00:00,3,18.88,True,64,48,2,152,1,1,2,MERGED
+134323,Make INLINESTATS (and subplans) work with CCS,smalyshev,2025-09-08T19:17:43Z,2025-09-16T21:22:28+00:00,5,194.08,True,373,38,13,526,3,5,8,MERGED
+134322,ESQL: Remove some unused code,nik9000,2025-09-08T19:15:49Z,2025-09-08T20:23:06+00:00,1,1.12,True,0,64,1,102,1,0,1,MERGED
+134319,Fix allow_duplicates edge case bug in append processor,joegallo,2025-09-08T18:31:38Z,2025-09-09T16:37:53+00:00,2,22.1,True,190,6,3,2092,5,0,5,MERGED
+134317,ES|QL - Allow multivalued query parameters,carlosdelest,2025-09-08T18:10:21Z,2025-09-11T18:13:50+00:00,11,72.06,True,651,102,10,621,6,8,14,MERGED
+134312,Add IT for num_reduced_phases with batched query execution,benchaplin,2025-09-08T17:26:35Z,2025-09-17T10:01:20+00:00,14,208.58,True,93,3,3,893,1,3,4,MERGED
+134310,Fix: `ESGpuHnswVectorsWriter#mergeOneField` now supports non memory-mapped inputs,ldematte,2025-09-08T16:11:37Z,2025-09-09T12:58:17+00:00,16,20.78,True,73,66,2,260,1,5,6,MERGED
+134309,ESQL: telemetry with inlinestats,astefan,2025-09-08T16:05:54Z,2025-09-10T07:03:15+00:00,6,38.96,True,178,9,4,0,3,2,5,MERGED
+134308,Aggs: Fix test,nik9000,2025-09-08T15:51:12Z,2025-09-08T16:56:42+00:00,1,1.09,True,4,4,1,102,2,0,2,MERGED
+134305,Clean up `SearchableSnapshotActionIT`,nielsbauman,2025-09-08T15:38:02Z,2025-09-08T18:14:20+00:00,3,2.6,True,91,255,2,141,1,2,3,MERGED
+134304,Esql - gate IgnoreNullMetricsTests tests on capability ,not-napoleon,2025-09-08T15:37:50Z,2025-09-08T18:32:12+00:00,1,2.91,True,6,3,1,50,1,0,1,MERGED
+134303,Add `ProjectRoutingInfo` model,n1v0lg,2025-09-08T15:25:30Z,2025-09-11T10:40:10+00:00,6,67.24,False,142,0,4,187,3,3,6,CLOSED
+134300,Don't validate index_mode for start_date/end_date index settings,felixbarny,2025-09-08T14:30:57Z,2025-09-09T05:43:24+00:00,3,15.21,True,13,174,7,185,1,2,3,MERGED
+134298,Fix ES|QL docs railroad diagrams comma positions for optional parameters,craigtaverner,2025-09-08T14:00:22Z,2025-09-09T10:13:29+00:00,1,20.22,True,211,55,23,596,4,0,4,MERGED
+134296,Add human-readable HTTP client stats,DaveCTurner,2025-09-08T13:16:30Z,2025-09-08T18:28:31+00:00,1,5.2,True,74,5,3,211,3,0,3,MERGED
+134295,Fix leaking tests in `HealthPeriodicLoggerTests`,nielsbauman,2025-09-08T12:54:07Z,2025-09-08T13:56:47+00:00,2,1.04,True,23,23,2,470,1,1,2,MERGED
+134290,Enrich after main field caps,idegtiarenko,2025-09-08T10:14:01Z,2025-09-23T08:41:06+00:00,12,358.45,True,78,119,8,435,1,7,8,MERGED
+134289,Refactor dense vector ElementType into two classes,thecoop,2025-09-08T10:10:46Z,2025-09-08T13:55:24+00:00,1,3.74,True,136,163,11,154,2,0,2,MERGED
+134286,Upgrade MinIO to `RELEASE.2025-09-07T16-13-09Z`,DaveCTurner,2025-09-08T08:20:46Z,2025-09-09T09:03:10+00:00,1,24.71,True,8,9,2,63,2,0,2,MERGED
+134284,Configure returnLocalAll on FieldCapabilitiesRequest,idegtiarenko,2025-09-08T07:29:24Z,2025-09-17T07:17:34+00:00,3,215.8,True,49,2,4,293,2,1,3,MERGED
+134283,OTLP: add test asserting _tsid is the same as _bulk,felixbarny,2025-09-08T07:22:57Z,2025-09-08T11:22:06+00:00,1,3.99,True,76,0,1,15,1,0,1,MERGED
+134282,Add Analyze index disk usage API example,charlotte-hoblik,2025-09-08T06:31:04Z,2025-09-11T14:17:35+00:00,1,79.78,True,140,0,2,202,3,6,9,MERGED
+134279,[Test] Wait all results to be gathered before assertion,ywangd,2025-09-08T05:53:23Z,2025-09-10T03:24:52+00:00,3,45.52,True,8,13,2,192,6,0,6,MERGED
+134278,Add ThreadContextValue utility class,tvernum,2025-09-08T05:49:22Z,2025-09-11T06:37:36+00:00,3,72.8,True,310,129,32,237,3,1,4,MERGED
+134270,[Test] Initialize DesiredBalanceMetrics.NOOP after empty allocation stats,ywangd,2025-09-08T02:14:29Z,2025-09-08T03:17:27+00:00,1,1.05,True,1,2,1,13,2,0,2,MERGED
+134269,[Test unmute] Unmute fixed test,ywangd,2025-09-08T01:23:23Z,2025-09-08T04:24:18+00:00,1,3.02,True,0,3,1,104,2,0,2,MERGED
+134267,New execution model for rates,dnhatn,2025-09-07T22:33:37Z,2025-09-09T21:00:18+00:00,13,46.44,True,2746,4892,43,2062,3,10,13,MERGED
+134266,Update esql-syntax.md - escapechar and quotes.,mjmbischoff,2025-09-07T21:18:24Z,2025-09-12T14:23:15+00:00,1,113.08,True,1,1,1,396,6,0,6,MERGED
+134260,Implicitly use last_over_time for time-series aggregations,dnhatn,2025-09-06T07:00:30Z,2025-09-09T02:10:28+00:00,2,67.17,True,311,556,12,1535,5,1,6,MERGED
+134256,[Doc] Change PUT to POST _search in semantic-text.md example,daixque,2025-09-06T05:35:36Z,2025-09-09T10:48:20+00:00,1,77.21,True,1,1,1,100,5,0,5,MERGED
+134253,Fixed a bug where text fields in LogsDB indices did not use their keyword multi fields for block loading,Kubik42,2025-09-05T21:20:55Z,2025-09-10T22:20:20+00:00,10,120.99,True,1177,147,21,1131,10,9,19,MERGED
+134252,Infrastructure for resharding search filters,lkts,2025-09-05T20:57:31Z,2025-10-03T16:00:07+00:00,13,667.04,False,145,14,6,281,1,4,5,CLOSED
+134245,Introduce remote cluster security interceptor and authenticator,slobodanadamovic,2025-09-05T20:02:34Z,2025-09-09T10:48:11+00:00,9,86.76,True,700,490,13,675,1,6,7,MERGED
+134242,"Revert ""Collapse transport versions (#127186)""",jdconrad,2025-09-05T18:51:17Z,2025-09-08T15:23:51+00:00,1,68.54,True,42,51,14,251,4,0,4,MERGED
+134241,Custom authenticator followup + tests,ankit--sethi,2025-09-05T18:47:16Z,2025-09-30T15:06:42+00:00,6,596.32,True,391,19,2,178,1,4,5,MERGED
+134240,Allow project_routing param in _search and _async_sync under feature flag only,quux00,2025-09-05T18:07:14Z,2025-09-15T16:13:27+00:00,4,238.1,True,32,2,4,292,1,0,1,MERGED
+134239,Migrate initial transport versions for 9.1,jdconrad,2025-09-05T17:57:16Z,2025-09-08T17:04:49+00:00,1,71.13,True,2,2,3,92,2,0,2,MERGED
+134238,All failures seem to be fallout from other tests - unmute,smalyshev,2025-09-05T17:40:33Z,2025-09-05T19:48:12+00:00,1,2.13,True,0,3,1,100,1,0,1,MERGED
+134236,Block remote query search too in testCancellationViaTimeoutWithAllowPartialResultsSetToFalse,smalyshev,2025-09-05T17:22:31Z,2025-09-05T19:48:38+00:00,1,2.44,True,2,3,2,146,3,0,3,MERGED
+134235,ESQL: Reserve memory TopN,nik9000,2025-09-05T17:13:49Z,2025-09-08T15:35:46+00:00,2,70.37,True,313,70,9,814,3,1,4,MERGED
+134234,Rename DiskBBQ format to a versioned name,benwtrent,2025-09-05T17:01:05Z,2025-09-05T20:47:12+00:00,3,3.77,True,111,85,20,74,3,1,4,MERGED
+134232,Add relevant attributes to search took time APM metrics,javanna,2025-09-05T15:45:33Z,2025-09-16T11:04:05+00:00,13,259.31,True,958,16,8,448,3,6,9,MERGED
+134231,Fix exceptions in index pattern conflict checks,cbuescher,2025-09-05T15:33:51Z,2025-09-08T11:10:17+00:00,1,67.61,True,29,2,3,327,4,0,4,MERGED
+134229,Assert in IndexReshardingState.Split ctor that source shards are not …,jxie-1,2025-09-05T15:05:40Z,2025-09-15T14:11:24+00:00,2,239.1,True,31,29,3,193,4,0,4,MERGED
+134228,Move geo-grid functions out of SNAPSHOT and into tech-preview,craigtaverner,2025-09-05T15:02:58Z,2025-09-09T20:43:33+00:00,2,101.68,True,74,50,32,238,4,1,5,MERGED
+134227,ES|QL: Add support for RRF options,ioanatia,2025-09-05T14:54:55Z,2025-09-10T08:29:08+00:00,6,113.57,True,2637,2166,27,835,1,6,7,MERGED
+134220,Fix SAML private attributes predicate,slobodanadamovic,2025-09-05T13:33:44Z,2025-09-05T19:50:35+00:00,1,6.28,True,182,17,3,387,1,0,1,MERGED
+134217,Add a test of an edge case for the set processor,joegallo,2025-09-05T13:18:06Z,2025-09-05T14:19:10+00:00,1,1.02,True,37,1,1,813,1,0,1,MERGED
+134216,Improve documentation for Linear Top Level Normalizer ,mridula-s109,2025-09-05T12:38:00Z,2025-09-15T14:36:13+00:00,5,241.97,True,2,6,1,91,5,3,8,MERGED
+134215,Simplify index pattern,idegtiarenko,2025-09-05T11:51:55Z,2025-09-05T14:55:11+00:00,6,3.05,True,27,64,5,290,1,5,6,MERGED
+134214,[Downsampling++] Add time series telemetry in xpack usage,gmarouli,2025-09-05T11:28:17Z,2025-09-08T13:55:07+00:00,13,74.45,True,1129,1,10,513,2,5,7,MERGED
+134209,"Revert ""Don't allow field caps to use semantic queries as index filters""",dimitris-athanasiou,2025-09-05T09:37:08Z,2025-09-10T13:00:15+00:00,1,123.39,True,0,191,3,43,2,0,2,MERGED
+134204,Optimize TSDBDocValuesFormat's prefix sum a bit.,jpountz,2025-09-05T09:04:50Z,2025-09-09T08:35:08+00:00,2,95.5,True,4,2,1,149,1,0,1,MERGED
+134202,Allow require_data_stream param in stream bulk requests,lukewhiting,2025-09-05T08:18:34Z,2025-09-05T13:57:00+00:00,2,5.64,True,2,1,1,70,1,0,1,MERGED
+134201,ESQL: Provide appropriate messages when can't execute INLINESTATS,bpintea,2025-09-05T08:09:49Z,2025-09-09T10:54:08+00:00,3,98.74,True,178,11,9,165,1,2,3,MERGED
+134199,ES|QL: add tests for ccs ENRICH with local only policy,luigidellaquila,2025-09-05T07:37:23Z,2025-09-05T09:00:46+00:00,3,1.39,True,68,12,2,107,2,1,3,MERGED
+134198,Improve `ShardLockObtainFailedException` message,DaveCTurner,2025-09-05T07:36:31Z,2025-09-05T08:43:48+00:00,4,1.12,True,23,10,3,145,2,2,4,MERGED
+134197,"Async search reduction fails with Already closed, can't increment ref count - Add logging",drempapis,2025-09-05T07:29:49Z,2025-09-11T07:55:32+00:00,3,144.43,True,54,0,7,2457,3,1,4,MERGED
+134182,Upgrade Netty to 4.1.126.Final,nicktindall,2025-09-05T01:53:09Z,2025-09-05T13:13:51+00:00,15,11.35,True,105,117,4,17,5,4,9,MERGED
+134180,[Test] Use generic for GlobalCheckpoingSyncAction,ywangd,2025-09-04T23:44:37Z,2025-09-05T10:21:59+00:00,4,10.62,True,23,29,2,174,4,2,6,MERGED
+134179,Migrate initial transport version for 9.0,jdconrad,2025-09-04T23:04:46Z,2025-09-05T14:52:27+00:00,1,15.79,True,4,4,5,92,2,0,2,MERGED
+134178,[ML] Return 429 status when RequestExecutorService queue full,DonalEvans,2025-09-04T22:58:54Z,2025-09-08T16:02:14+00:00,2,89.06,True,82,59,8,382,4,2,6,MERGED
+134175,Add infrastructure needed for resharding search filters,lkts,2025-09-04T22:15:21Z,2025-09-11T21:28:44+00:00,3,167.22,False,46,48,8,0,0,3,3,CLOSED
+134174,Migrate initial transport versions for 8.19,jdconrad,2025-09-04T21:26:23Z,2025-09-04T22:54:21+00:00,1,1.47,True,2,2,3,93,2,0,2,MERGED
+134172,Reserve square bracket syntax for ingest document flexible field access pattern,jbaiera,2025-09-04T20:29:06Z,2025-09-12T08:37:13+00:00,6,180.14,True,152,21,2,439,1,3,4,MERGED
+134170,Block encode doc ids,benwtrent,2025-09-04T20:20:00Z,2025-09-05T11:55:38+00:00,2,15.59,True,67,42,3,518,1,0,1,MERGED
+134169,[Gradle] Configure transitive dependencies via ComponentMetadataRules,breskeby,2025-09-04T20:14:36Z,2025-09-15T09:54:47+00:00,5,253.67,True,813,133,15,1794,5,5,10,MERGED
+134165,ESQL: percentile agg accepting doubles but ignoring decimals,mouhc1ne,2025-09-04T19:23:01Z,2025-09-12T12:39:09+00:00,7,185.27,True,47,6,5,331,2,2,4,MERGED
+134160,Balancer changes to use Decision#NOT_PREFERRED,DiannaHohensee,2025-09-04T18:19:31Z,2025-09-23T21:13:22+00:00,7,458.9,True,432,142,6,408,1,6,7,MERGED
+134158,Migrate initial elasticsearch transport versions for 8.18,jdconrad,2025-09-04T15:56:38Z,2025-09-04T18:03:28+00:00,1,2.11,True,11,11,12,93,2,0,2,MERGED
+134157,flushOnIdle use tryWithEngineOrNull,kingherc,2025-09-04T15:52:22Z,2025-09-15T14:39:42+00:00,6,262.79,True,103,24,2,241,3,2,5,MERGED
+134156,ESQL: More docs for `DataType#UNDER_CONSTRUCTION`,nik9000,2025-09-04T15:48:28Z,2025-09-05T17:39:52+00:00,3,25.86,True,15,4,1,58,2,0,2,MERGED
+134152,Correctly update SLM stats with master shutdown,samxbr,2025-09-04T15:29:41Z,2025-09-16T16:22:29+00:00,3,288.88,True,564,61,5,962,2,6,8,MERGED
+134148,[8.19] Bootstrap initial versions to simplify transport version migration (#134084),jdconrad,2025-09-04T15:11:41Z,2025-09-04T16:24:39+00:00,1,1.22,True,11,17,14,118,1,0,1,MERGED
+134145,Fix doc writers block writing logic for diskbbq,benwtrent,2025-09-04T14:57:48Z,2025-09-04T16:05:16+00:00,1,1.12,True,28,25,2,216,1,0,1,MERGED
+134143,ES|QL: Enable CCS for FORK only in snapshot,ioanatia,2025-09-04T14:34:15Z,2025-09-04T15:47:40+00:00,2,1.22,True,12,1,3,168,1,0,1,MERGED
+134140,ES|QL: Make TopN aggregator use heap sort internally.,przemekwitek,2025-09-04T14:16:09Z,2025-09-10T11:25:39+00:00,2,141.16,True,268,183,8,237,8,0,8,MERGED
+134138,ESQL: Fix docs grammar,nik9000,2025-09-04T13:46:35Z,2025-09-08T19:06:26+00:00,1,101.33,True,5,5,5,43,4,0,4,MERGED
+134137,Add signing configuration for cross cluster api keys,jfreden,2025-09-04T13:44:25Z,2025-09-16T06:12:24+00:00,14,280.47,True,1658,7,20,1025,3,13,16,MERGED
+134134,Prevent field caps from failing due to can match failure,dimitris-athanasiou,2025-09-04T11:54:41Z,2025-09-10T18:00:30+00:00,7,150.1,True,116,83,8,643,8,7,15,MERGED
+134132,Ensure enough nodes in `WriteLoadForecasterIT`,DaveCTurner,2025-09-04T11:52:45Z,2025-09-05T08:46:08+00:00,2,20.89,True,2,6,2,225,4,0,4,MERGED
+134127,Add integration test for LOOKUP JOIN on remotes after STATS,luigidellaquila,2025-09-04T11:45:33Z,2025-09-04T14:12:59+00:00,2,2.46,True,14,0,1,95,1,1,2,MERGED
+134122,[Renovate] Auto update common ci-agent-images,breskeby,2025-09-04T10:16:44Z,2025-09-04T18:56:39+00:00,2,8.67,True,19,1,1,173,3,1,4,MERGED
+134119,[D0CS] Fix semantic_text example in mapping-reference/semantic-text.md,leemthompo,2025-09-04T10:01:16Z,2025-09-04T11:01:21+00:00,1,1.0,True,7,7,1,32,4,0,4,MERGED
+134118,[Buildkite] Add daily pipeline to check for new jdk ea build,breskeby,2025-09-04T09:55:26Z,2025-09-05T21:06:21+00:00,13,35.18,True,141,1,3,54,1,6,7,MERGED
+134117,Improve block loader for source only runtime fields of type long.,martijnvg,2025-09-04T09:42:35Z,2025-09-10T05:04:32+00:00,4,139.37,True,288,28,9,89,3,3,6,MERGED
+134115,Resolve main indices before lookup,idegtiarenko,2025-09-04T08:46:07Z,2025-09-05T07:00:28+00:00,7,22.24,True,22,9,1,411,1,2,3,MERGED
+134109,[DiskBBQ] Use a HNSW graph to compute neighbours,iverase,2025-09-04T08:07:01Z,2025-09-05T06:38:49+00:00,17,22.53,True,347,63,4,4990,5,6,11,MERGED
+134107,Add a note about multi-valued doc values in the docs.,martijnvg,2025-09-04T07:28:26Z,2025-09-05T06:34:56+00:00,1,23.11,True,7,0,1,0,5,0,5,MERGED
+134103,[Test] Fix SnapshotMetricsIT testByStateCounts_InitAndQueuedShards,ywangd,2025-09-04T05:25:46Z,2025-09-04T06:30:52+00:00,1,1.08,True,4,0,1,98,1,0,1,MERGED
+134101,Test that `ClusterInfo` is refreshed when a new node is added,nicktindall,2025-09-04T01:41:25Z,2025-09-04T23:43:06+00:00,3,22.03,True,42,0,1,785,1,2,3,MERGED
+134099,[Test] Fix WriteLoadForecasterIT testWriteLoadForecastIsOverriddenBySetting,ywangd,2025-09-04T00:43:27Z,2025-09-04T07:49:15+00:00,1,7.1,True,1,0,1,89,4,0,4,MERGED
+134098,ESQL: LOOKUP JOIN with expressions,julian-elastic,2025-09-04T00:13:43Z,2025-09-17T17:54:37+00:00,85,329.68,True,4270,1734,59,917,9,71,80,MERGED
+134095,Implementing irate function for timeseries,pabloem,2025-09-03T22:44:52Z,2025-09-09T22:54:53+00:00,16,144.17,True,3256,25,21,192,1,13,14,MERGED
+134093,Add blockloader to patterned_text to support ESQL,parkertimmins,2025-09-03T22:29:47Z,2025-09-04T17:27:22+00:00,5,18.96,True,199,14,5,116,1,3,4,MERGED
+134092,unmute test as it should be fixed,pabloem,2025-09-03T22:16:05Z,2025-09-04T21:39:05+00:00,1,23.38,True,11,11,3,14,2,0,2,MERGED
+134091,Use latest setting value when initializing setting watch,rjernst,2025-09-03T22:00:06Z,2025-09-08T17:57:13+00:00,5,115.95,True,45,1,3,343,3,1,4,MERGED
+134090,ESQL: Speed up MultiClusterSpecIT start up by 40% by parallelizing index creation,julian-elastic,2025-09-03T21:34:35Z,2025-09-05T00:23:57+00:00,8,26.82,True,43,12,2,221,1,3,4,MERGED
+134086,ESQL: Small speed up in MultiClusterSpecIT,nik9000,2025-09-03T20:44:24Z,2025-09-09T21:14:55+00:00,2,144.51,True,42,4,1,308,1,0,1,MERGED
+134084,Bootstrap initial versions to simplify transport version migration,jdconrad,2025-09-03T20:23:55Z,2025-09-03T23:56:17+00:00,4,3.54,True,21,17,14,224,2,3,5,MERGED
+134082,Updating Docs For DiskBBQ Format,john-wagster,2025-09-03T19:53:15Z,2025-09-23T17:31:43+00:00,1,477.64,False,27,7,3,0,7,2,9,CLOSED
+134081,Update the guide to add a new ESQL function,mouhc1ne,2025-09-03T19:06:28Z,2025-09-04T17:40:27+00:00,2,22.57,True,40,21,1,301,2,0,2,MERGED
+134080,Add Google Model Garden's Anthropic support to Inference Plugin,Jan-Kazlouski-elastic,2025-09-03T18:28:58Z,2025-09-29T14:31:06+00:00,31,620.04,True,1934,118,30,32129,10,21,31,MERGED
+134079,Avoid expensive status update in LuceneOperator,dnhatn,2025-09-03T18:18:10Z,2025-09-03T20:34:56+00:00,3,2.28,True,2,21,2,219,3,1,4,MERGED
+134076,Updating docs for test classes,pabloem,2025-09-03T17:12:50Z,2025-09-03T21:48:12+00:00,3,4.59,True,9,6,1,0,1,2,3,MERGED
+134074,Extend ReservedRoleNameChecker factory interface,slobodanadamovic,2025-09-03T16:59:12Z,2025-09-04T06:34:50+00:00,1,13.59,True,15,3,2,98,1,0,1,MERGED
+134069,Fix failing thread pool test on low core count machines,mark-vieira,2025-09-03T16:24:21Z,2025-09-04T03:22:58+00:00,1,10.98,True,5,1,1,179,1,0,1,MERGED
+134068,Removing test as coverage is achieved elsewhere,pabloem,2025-09-03T16:21:40Z,2025-09-05T05:42:37+00:00,2,37.35,True,0,479,2,70,2,0,2,MERGED
+134067,update kibana_system to grant it access to .workflows-* system index,talboren,2025-09-03T15:53:40Z,2025-09-04T13:02:15+00:00,1,21.14,True,11,2,3,33,4,0,4,MERGED
+134066,Unmute tests,joshua-adams-1,2025-09-03T14:36:27Z,2025-09-04T14:20:07+00:00,1,23.73,True,0,6,1,288,1,0,1,MERGED
+134048,Avoid multiple in-memory copies of Vector Data,ldematte,2025-09-03T12:43:11Z,2025-09-30T13:09:58+00:00,1,648.45,False,201,75,4,1198,0,1,1,CLOSED
+134038,ES|QL: Refactor FUSE planning,ioanatia,2025-09-03T11:40:11Z,2025-09-04T11:06:33+00:00,6,23.44,True,219,263,14,514,1,3,4,MERGED
+134037,"ExponentialHistograms: refactor tests to use builder, add copy method",JonasKunz,2025-09-03T11:15:45Z,2025-09-04T10:10:06+00:00,9,22.91,True,173,192,11,267,1,5,6,MERGED
+134033,Fix FORK with union-types,craigtaverner,2025-09-03T09:49:52Z,2025-09-05T16:05:39+00:00,4,54.26,True,64,9,6,781,4,2,6,MERGED
+134029,ES|QL: Add grammar for SET instruction,luigidellaquila,2025-09-03T08:37:28Z,2025-09-09T08:08:40+00:00,17,143.52,True,3706,2834,21,156,6,14,20,MERGED
+134028,Clean up CoordinatorTests,joshua-adams-1,2025-09-03T08:28:03Z,2025-09-04T10:15:50+00:00,2,25.8,True,17,19,2,106,1,0,1,MERGED
+134018,Correctly record SLM state during master failover,samxbr,2025-09-02T21:00:35Z,2025-09-04T16:40:53+00:00,1,43.67,False,573,62,5,0,0,1,1,CLOSED
+134016,Replace -1s with -1 in ML forecast tests,JeremyDahlgren,2025-09-02T20:39:07Z,2025-09-03T12:11:24+00:00,1,15.54,True,4,4,2,290,2,0,2,MERGED
+134015,[8.19] Adding _meta.template_version to kibana reporting mappings (#133846),pmuellr,2025-09-02T20:14:05Z,2025-09-03T18:01:23+00:00,1,21.79,True,4,1,2,200,5,0,5,MERGED
+134014,[9.1] Adding _meta.template_version to kibana reporting mappings (#133846),pmuellr,2025-09-02T20:12:17Z,2025-09-02T21:14:31+00:00,1,1.04,True,4,1,2,199,1,0,1,MERGED
+134013,Refactor doc-id encoding for DiskBBQ to allow doc ids to be encoded in blocks,benwtrent,2025-09-02T19:18:56Z,2025-09-03T18:53:08+00:00,1,23.57,True,243,66,2,475,1,0,1,MERGED
+134008,Fix PerFieldFormatSupplier mistake,martijnvg,2025-09-02T18:21:29Z,2025-09-03T20:13:27+00:00,4,25.87,True,55,14,3,216,2,2,4,MERGED
+134007,[ML] Refactor inference API test threadpool creation,jonathan-buttner,2025-09-02T18:04:50Z,2025-09-03T18:56:13+00:00,2,24.86,True,147,148,69,359,1,1,2,MERGED
+134006,Don't use tsdb codec for recovery_source fields,dnhatn,2025-09-02T17:15:32Z,2025-09-02T18:50:10+00:00,1,1.58,False,6,6,2,261,3,1,4,CLOSED
+134005,Removing _doc from data stream effective mappings,masseyke,2025-09-02T16:58:01Z,2025-09-03T19:21:14+00:00,2,26.39,True,81,92,4,188,2,2,4,MERGED
+134004,Update es-connectors-sharepoint.md,lhirlimann,2025-09-02T16:50:10Z,2025-09-04T08:30:27+00:00,5,39.67,True,1,0,1,154,6,2,8,MERGED
+134003,ESQL - TO_DENSE_VECTOR function and additional casting,carlosdelest,2025-09-02T16:40:00Z,2025-09-10T11:51:33+00:00,4,187.19,True,1274,119,29,906,4,1,5,MERGED
+133999,[DiskBBQ] small optimization on how we manage queues in hierarchical centroids,iverase,2025-09-02T15:49:36Z,2025-09-03T14:57:11+00:00,3,23.13,True,28,10,2,131,1,1,2,MERGED
+133987,Add UPGRADE_TO_LUCENE_10_4_0 constant,romseygeek,2025-09-02T13:48:46Z,2025-09-02T15:33:24+00:00,1,1.74,True,1,0,1,0,2,0,2,MERGED
+133986,ES|QL: Add PRESENT ES|QL function,leontyevdv,2025-09-02T13:47:26Z,2025-09-09T09:09:12+00:00,15,163.36,True,1273,6,25,170,4,12,16,MERGED
+133985,Reshard add shard count,ankikuma,2025-09-02T13:46:49Z,2025-09-25T14:42:44+00:00,32,552.93,True,279,8,11,175,1,20,21,MERGED
+133981,rest-api-spec: fix query_rules.test stability,pquentin,2025-09-02T13:29:20Z,2025-09-05T07:11:26+00:00,1,65.7,True,1,1,1,0,2,0,2,MERGED
+133980,Upgrade elasticsearch to lucene 10.3.0,romseygeek,2025-09-02T13:23:43Z,2025-09-23T13:20:40+00:00,4,503.95,False,2123,1383,94,235,5,4,9,CLOSED
+133977,[Buildkite] Use ubuntu2204 when testing openjdk17,breskeby,2025-09-02T13:00:13Z,2025-09-02T18:24:46+00:00,1,5.41,True,8,8,2,195,2,0,2,MERGED
+133972,Add additional logging to make spotting stats issues easier,lukewhiting,2025-09-02T12:43:25Z,2025-09-17T11:17:40+00:00,11,358.57,True,61,19,5,163,1,5,6,MERGED
+133970,Add annotations to PR benchmark pipeline,gbanasiak,2025-09-02T11:07:26Z,2025-09-03T07:23:42+00:00,1,20.27,True,39,9,1,76,8,0,8,MERGED
+133969,Add toString implementation to exponential histograms,JonasKunz,2025-09-02T10:31:19Z,2025-09-02T12:51:51+00:00,6,2.34,True,103,0,2,362,1,2,3,MERGED
+133968,Extend kibana-system permissions to manage security entities,kubasobon,2025-09-02T10:27:17Z,2025-09-16T15:50:05+00:00,3,341.38,True,22,3,5,668,11,0,11,MERGED
+133967,Add builder for exponential histograms,JonasKunz,2025-09-02T10:23:28Z,2025-09-03T11:01:02+00:00,5,24.63,True,264,0,3,654,1,2,3,MERGED
+133966,Catch up DLS with recent Lucene changes.,jpountz,2025-09-02T09:44:41Z,2025-09-24T17:46:23+00:00,3,536.03,True,233,175,8,544,7,1,8,MERGED
+133962,Correct Typo In Latest Transport Version ID,lukewhiting,2025-09-02T08:04:15Z,2025-09-02T15:21:50+00:00,1,7.29,True,1,1,1,89,3,0,3,MERGED
+133959,Add metrics max queue latency,nicktindall,2025-09-02T06:20:00Z,2025-09-04T23:35:48+00:00,5,65.26,True,156,63,10,600,2,4,6,MERGED
+133958,Log allocation explain for unassigned in desiredBalance computaion,ywangd,2025-09-02T06:18:30Z,2025-09-04T00:54:52+00:00,6,42.61,True,266,22,9,298,3,3,6,MERGED
+133957,Set storage engine as codeowner for the OTLP endpoint,felixbarny,2025-09-02T06:05:18Z,2025-09-02T07:10:25+00:00,1,1.09,True,6,1,2,84,1,0,1,MERGED
+133956,[Test] Fix ClusterInfoServiceIT testMaxQueueLatenciesInClusterInfo,ywangd,2025-09-02T01:50:12Z,2025-09-02T05:10:56+00:00,2,3.35,True,33,12,2,127,3,1,4,MERGED
+133955,Unmute SyntheticSourceRollingUpgradeIT,martijnvg,2025-09-01T20:09:27Z,2025-09-04T07:53:24+00:00,1,59.73,True,1,6,2,157,2,0,2,MERGED
+133954,ILM: Force merge on zero-replica cloned index before snapshot,nielsbauman,2025-09-01T17:34:40Z,2025-09-05T14:13:40+00:00,27,92.65,True,641,132,18,1113,3,21,24,MERGED
+133952,Fix warning when creating an OTel data stream,felixbarny,2025-09-01T15:39:49Z,2025-09-01T16:45:49+00:00,1,1.1,True,77,1,4,327,2,0,2,MERGED
+133947,resolve remotes with field caps call,idegtiarenko,2025-09-01T14:44:35Z,2025-09-23T08:41:48+00:00,12,521.95,False,68,42,9,217,2,3,5,CLOSED
+133945,[DiskBBQ] Make centroid oversampling depend on the visit ratio,iverase,2025-09-01T14:18:49Z,2025-09-02T15:05:09+00:00,9,24.77,True,14,9,2,430,1,3,4,MERGED
+133941,OTLP: reuse hasher for creating _metric_names_hash,felixbarny,2025-09-01T14:05:30Z,2025-09-02T07:14:35+00:00,1,17.15,True,6,4,3,115,1,0,1,MERGED
+133938,Bump asm to 9.8 for JDK 25 support in remaining places,mosche,2025-09-01T13:42:25Z,2025-09-01T14:54:51+00:00,1,1.21,True,5,5,3,103,2,0,2,MERGED
+133937,Fix FwC test task registration,jozala,2025-09-01T13:30:26Z,2025-09-03T06:27:24+00:00,5,40.95,True,47,19,5,259,4,3,7,MERGED
+133936,Fix single project GetClusterState API response for multiproject,alexey-ivanov-es,2025-09-01T13:13:39Z,2025-09-10T10:29:42+00:00,9,213.27,True,197,88,8,427,1,10,11,MERGED
+133930,[ML] Improve memory estimation methods accuracy in TrainedModelAssignmentRebalancer and related classes,valeriy42,2025-09-01T12:13:50Z,2025-09-03T12:44:15+00:00,8,48.51,True,89,4,5,306,2,2,4,MERGED
+133929,Fix release tests after merging geogrid types,craigtaverner,2025-09-01T11:31:02Z,2025-09-01T16:23:49+00:00,2,4.88,True,38,28,2,197,1,1,2,MERGED
+133928,Refactor enrich policy resolution,idegtiarenko,2025-09-01T11:16:44Z,2025-09-01T14:27:35+00:00,3,3.18,True,32,25,4,104,1,2,3,MERGED
+133927,Unmute spatial parsing tests where the failure appears non-reproducible,craigtaverner,2025-09-01T10:10:50Z,2025-09-02T09:30:12+00:00,1,23.32,True,0,9,1,397,1,0,1,MERGED
+133919,[ML] Fix double-counting of inference memory in the assignment rebalancer,valeriy42,2025-09-01T09:17:27Z,2025-09-03T12:45:06+00:00,4,51.46,True,6,7,2,607,3,1,4,MERGED
+133916,[ML] Fix model assignment error handling and assignment explanation generation,valeriy42,2025-09-01T08:15:49Z,2025-09-09T11:16:02+00:00,11,195.0,True,23,101,7,313,2,3,5,MERGED
+133915,rest-api-spec: mark search_mvt as stable,pquentin,2025-09-01T07:46:51Z,2025-09-01T09:36:20+00:00,1,1.82,True,1,1,1,139,2,0,2,MERGED
+133914,rest-api-spec: mark search application as beta,pquentin,2025-09-01T07:39:41Z,2025-09-02T12:58:28+00:00,1,29.31,True,5,5,5,180,2,0,2,MERGED
+133913,Implement max for exponential histograms,JonasKunz,2025-09-01T07:35:29Z,2025-09-02T09:25:25+00:00,6,25.83,True,309,73,16,105,1,4,5,MERGED
+133912,Mark migrate_reindex APIs as public and stable,pquentin,2025-09-01T07:31:25Z,2025-09-05T07:14:38+00:00,1,95.72,True,8,8,4,0,4,0,4,MERGED
+133907,OTLP: rest and transport action,felixbarny,2025-09-01T07:20:21Z,2025-09-06T11:38:27+00:00,6,124.3,True,548,17,4,125,1,4,5,MERGED
+133906,OTLP: add support for summaries,felixbarny,2025-09-01T07:18:24Z,2025-09-02T13:29:28+00:00,8,30.18,True,146,11,7,53,1,2,3,MERGED
+133905,OTLP: add mapping hints,felixbarny,2025-09-01T07:14:35Z,2025-09-01T12:45:48+00:00,4,5.52,True,227,14,6,586,1,2,3,MERGED
+133904,Fix MemorySegmentES92PanamaInt7VectorsScorer for small dimensions,iverase,2025-09-01T07:07:58Z,2025-09-01T08:28:23+00:00,1,1.34,True,1,4,2,236,1,0,1,MERGED
+133903,OTLP: determine target data stream based on attributes and scope name,felixbarny,2025-09-01T07:04:47Z,2025-09-02T12:09:10+00:00,14,29.07,True,483,31,10,263,2,10,12,MERGED
+133902,OTLP: add support for histograms,felixbarny,2025-09-01T06:58:48Z,2025-09-09T12:18:02+00:00,18,197.32,True,1226,36,17,72,1,7,8,MERGED
+133901,Model movements to nodes with no existing node stats,nicktindall,2025-09-01T06:51:51Z,2025-09-09T02:10:07+00:00,5,187.3,False,111,11,2,403,2,5,7,CLOSED
+133899,OTLP: ignore duplicate metric data points,felixbarny,2025-09-01T06:25:34Z,2025-09-02T10:37:40+00:00,5,28.2,True,75,30,3,117,1,2,3,MERGED
+133898,OTLP: create metric documents,felixbarny,2025-09-01T06:13:46Z,2025-09-01T10:01:48+00:00,1,3.8,True,390,27,6,59,1,0,1,MERGED
+133897,Runtime fields: pass down runtime field name as source filter when source mode is synthetic,martijnvg,2025-09-01T05:49:40Z,2025-09-04T06:12:42+00:00,5,72.38,True,373,22,27,139,3,3,6,MERGED
+133896,Use the last good NodeUsageStatsForThreadPools when a node returns an error,nicktindall,2025-09-01T04:06:35Z,2025-09-10T23:09:44+00:00,26,235.05,True,210,9,4,485,5,13,18,MERGED
+133895,Add support for Apache HTTP client 5 in X-Pack SSL,tvernum,2025-09-01T01:42:14Z,2025-09-08T04:47:37+00:00,2,171.09,True,1026,185,43,178,1,1,2,MERGED
+133894,Account for simulated utilization threshold in WriteLoadConstraintDeciderIT,nicktindall,2025-09-01T00:25:37Z,2025-09-03T03:11:31+00:00,8,50.77,True,30,13,3,340,1,5,6,MERGED
+133892,"Fix Typo ""using using"" in RLIKE/LIKE docs",nicpenning,2025-08-31T17:22:35Z,2025-09-08T18:09:39+00:00,1,192.78,True,1,1,1,19,10,0,10,MERGED
+133866,"Random grouping, random agg test",pabloem,2025-08-30T00:04:59Z,2025-09-03T20:41:59+00:00,2,116.62,True,173,72,2,453,1,0,1,MERGED
+133862,Update transport version docs,JVerwolf,2025-08-29T21:04:41Z,2025-09-11T20:57:42+00:00,24,311.88,True,109,99,1,141,7,19,26,MERGED
+133861,[ML] Implementing latency improvements for EIS integration,jonathan-buttner,2025-08-29T21:03:33Z,2025-09-09T13:44:29+00:00,7,256.68,True,223,89,12,604,2,7,9,MERGED
+133860,[ML] Cache Inference Endpoints,prwhelan,2025-08-29T20:50:30Z,2025-09-10T16:46:36+00:00,10,283.94,True,938,146,23,744,2,12,14,MERGED
+133855,Test:nit incremental bulk missing content,mhl-b,2025-08-29T19:32:04Z,2025-09-04T20:33:19+00:00,2,145.02,True,18,14,1,101,3,0,3,MERGED
+133853,Increment expected ESQL function count,jordan-powers,2025-08-29T18:53:15Z,2025-09-02T06:47:34+00:00,2,83.91,True,1,10,2,221,1,0,1,MERGED
+133849,Refactor transport version constants into new file system,jdconrad,2025-08-29T18:15:33Z,2025-08-29T21:44:59+00:00,2,3.49,True,377,585,287,155,3,1,4,MERGED
+133848,Delay S3 repo warning if default region absent,DaveCTurner,2025-08-29T17:42:18Z,2025-09-01T08:36:32+00:00,1,62.9,True,290,70,10,463,5,0,5,MERGED
+133847,Add a new vectorize ES91OSQVectorsScorer in case there is no MMAP,iverase,2025-08-29T17:32:25Z,2025-09-02T15:00:02+00:00,2,93.46,True,630,42,5,3445,2,0,2,MERGED
+133846,Adding `_meta.template_version` to kibana reporting mappings,pmuellr,2025-08-29T17:31:20Z,2025-09-02T18:02:16+00:00,1,96.52,True,4,1,2,1507,4,0,4,MERGED
+133845,[ML] Disable EIS rate limiting within the inference API,jonathan-buttner,2025-08-29T17:29:14Z,2025-09-03T20:56:31+00:00,8,123.45,True,655,181,21,1346,1,6,7,MERGED
+133844,Migrate transport versions for 9.2,jdconrad,2025-08-29T17:27:38Z,2025-08-29T22:48:46+00:00,1,5.35,True,19,13,7,50,1,0,1,MERGED
+133839,Alternate approach to speed up ignored_source access,jordan-powers,2025-08-29T16:50:42Z,2025-09-05T18:53:03+00:00,1,170.04,True,575,482,18,1083,2,1,3,MERGED
+133838,ESQL: Simply reenable a disabled test,bpintea,2025-08-29T16:42:26Z,2025-08-29T18:32:07+00:00,1,1.83,True,0,3,1,553,2,0,2,MERGED
+133834,Add `LinkedProjectConfigService` with `ClusterSettings` implementation,JeremyDahlgren,2025-08-29T15:40:10Z,2025-09-09T18:34:57+00:00,11,266.91,True,594,229,36,703,1,12,13,MERGED
+133833,Fix missing position offset in lossy sum of doubles,dnhatn,2025-08-29T15:38:07Z,2025-08-29T16:47:21+00:00,1,1.15,True,2,11,2,138,1,0,1,MERGED
+133832,Index expression rewriter,piergm,2025-08-29T15:18:21Z,2025-09-15T14:57:46+00:00,12,407.66,False,515,1,6,749,1,18,19,CLOSED
+133831,Reconciles the Roles page,yetanothertw,2025-08-29T15:06:51Z,2025-09-03T08:10:08+00:00,4,113.05,True,25,10,1,707,3,9,12,MERGED
+133830,PoC: Pluggable node stats,szybia,2025-08-29T15:03:37Z,2025-09-17T09:52:06+00:00,9,450.81,False,311,11,23,2666,1,9,10,CLOSED
+133821,Remove redundant switch on enum,not-napoleon,2025-08-29T13:52:01Z,2025-09-02T14:26:30+00:00,2,96.57,True,35,67,1,393,1,0,1,MERGED
+133819,Mark user profile APIs as public,pquentin,2025-08-29T13:26:54Z,2025-09-05T07:15:56+00:00,2,161.82,True,7,7,7,260,3,0,3,MERGED
+133814,rest-api-spec: update connector visibility/stability,pquentin,2025-08-29T13:08:50Z,2025-09-02T13:37:47+00:00,1,96.48,True,20,20,20,258,2,0,2,MERGED
+133811,[Gradle] Fix test seed handling when running with cc,breskeby,2025-08-29T12:39:10Z,2025-09-04T14:14:41+00:00,11,145.59,True,141,39,11,214,4,8,12,MERGED
+133810,Replaces links to the deduplicated/reconciled privileges page,yetanothertw,2025-08-29T12:25:01Z,2025-09-01T14:57:03+00:00,1,74.53,True,4,4,3,255,3,0,3,MERGED
+133808,Add ES|QL SAMPLE to list the agg functions in docs,jan-elastic,2025-08-29T12:19:04Z,2025-08-29T13:51:36+00:00,1,1.54,True,4,0,2,0,3,0,3,MERGED
+133807,Update ValuesSourceReaderOperatorTests for changes in Lucene,thecoop,2025-08-29T12:09:52Z,2025-09-01T09:13:44+00:00,1,69.06,True,1,7,2,53,1,0,1,MERGED
+133806,ESQL - Add semantic_text support for knn function,carlosdelest,2025-08-29T11:40:50Z,2025-09-04T07:32:53+00:00,6,139.87,True,432,72,26,345,4,5,9,MERGED
+133804,[ES|QL] Add a TS variation of GenerativeIT,limotova,2025-08-29T10:52:50Z,2025-09-18T19:16:17+00:00,21,488.39,True,398,10,7,271,5,9,14,MERGED
+133793,[Sentinel One] - Fix Cannot execute ILM policy delete step,mohitjha-elastic,2025-08-29T09:00:54Z,2025-09-04T05:55:37+00:00,1,140.91,True,16,6,3,555,9,0,9,MERGED
+133789,Allow private settings when system provided,felixbarny,2025-08-29T08:00:46Z,2025-09-11T13:56:17+00:00,13,317.93,True,253,36,8,796,4,11,15,MERGED
+133788,Experiment with using tsdb doc values codec for _seq_no.,martijnvg,2025-08-29T07:58:03Z,2025-08-29T18:53:22+00:00,2,10.92,True,9,1,1,1475,5,0,5,MERGED
+133785,ESQL: refine again the inlinestats unit test for release version,astefan,2025-08-29T07:09:36Z,2025-08-29T08:17:12+00:00,1,1.13,True,34,34,1,149,1,0,1,MERGED
+133782,rest-api-spec: restore warning about internal use,pquentin,2025-08-29T06:55:11Z,2025-09-01T09:43:03+00:00,1,74.8,True,2,2,2,194,2,0,2,MERGED
+133781,Fix testOptionalColumnAtATimeReaderWithSparseDocs,dnhatn,2025-08-29T06:41:29Z,2025-08-29T07:43:28+00:00,2,1.03,True,2,7,2,177,1,0,1,MERGED
+133779,Speedup lossy sum with constant group,dnhatn,2025-08-29T03:46:09Z,2025-08-29T06:44:17+00:00,1,2.97,True,43,2,2,104,2,0,2,MERGED
+133775,Remove Transfer-Encoding from HTTP request with no content,mhl-b,2025-08-29T00:03:36Z,2025-09-03T03:40:16+00:00,1,123.61,True,174,2,5,422,3,0,3,MERGED
+133774,Fixed LogsIndexModeRollingUpgradeIT,Kubik42,2025-08-28T23:14:17Z,2025-08-29T20:36:24+00:00,4,21.37,True,236,238,5,5058,1,3,4,MERGED
+133770,Increase local breaker reserve memory,dnhatn,2025-08-28T22:26:32Z,2025-08-29T05:46:32+00:00,1,7.33,True,2,2,1,869,2,0,2,MERGED
+133769,Migrate the rest of the 9.2 transport versions to the new file system,jdconrad,2025-08-28T22:25:37Z,2025-08-29T17:30:59+00:00,2,19.09,False,173,116,58,90,1,1,2,CLOSED
+133761,ESQL: Add url_decode function (#133494),mouhc1ne,2025-08-28T20:46:52Z,2025-09-02T13:08:26+00:00,4,112.36,True,634,75,19,96,3,6,9,MERGED
+133760,ESQL: Add names to aggregator tests,nik9000,2025-08-28T20:22:41Z,2025-09-03T13:25:45+00:00,1,137.05,True,247,66,27,100,1,0,1,MERGED
+133753,KNN Query visit_percentage,john-wagster,2025-08-28T19:26:37Z,2025-09-04T19:43:21+00:00,34,168.28,True,862,238,56,1006,9,28,37,MERGED
+133752,Avoid stale enrich results after policy execution,joegallo,2025-08-28T18:40:03Z,2025-08-28T20:48:09+00:00,4,2.13,True,189,14,3,576,3,2,5,MERGED
+133751,Run snyk check in periodic build for each development branch,breskeby,2025-08-28T17:42:46Z,2025-08-28T19:33:14+00:00,1,1.84,True,2,2,2,322,2,0,2,MERGED
+133750,Forward port release notes for v8.18.6,elasticsearchmachine,2025-08-28T17:35:13Z,2025-08-29T07:40:01+00:00,1,14.08,True,53,0,2,80,2,0,2,MERGED
+133749,[9.1] [DOCS] Fix indentation of dense vector lists (#133609),lcawl,2025-08-28T17:27:34Z,2025-08-29T15:07:48+00:00,1,21.67,True,3,14,1,185,2,0,2,MERGED
+133748,Allow configure timeout in REST tests from sys props,dnhatn,2025-08-28T17:17:24Z,2025-09-09T02:17:52+00:00,1,273.01,True,3,0,1,481,1,0,1,MERGED
+133745,Supporting more timestamp formats in `_text_structure/find_structure`,eyalkoren,2025-08-28T17:02:42Z,2025-09-02T13:09:15+00:00,3,116.11,True,414,7,10,154,3,2,5,MERGED
+133744,Adds minor docs clarification,yetanothertw,2025-08-28T16:59:15Z,2025-08-29T08:42:44+00:00,3,15.72,True,3,2,1,85,2,2,4,MERGED
+133743,ESQL: Fix BasicBlockTests,nik9000,2025-08-28T16:46:49Z,2025-09-03T19:19:25+00:00,1,146.54,True,7,19,2,74,1,0,1,MERGED
+133742,Fix test failure in VectorSimilarityFunctionsIT,iverase,2025-08-28T16:39:56Z,2025-08-28T19:04:01+00:00,2,2.4,True,1,1,1,61,1,0,1,MERGED
+133737,KQL: Support boolean operators in field queries,afoucret,2025-08-28T16:19:40Z,2025-08-29T15:44:45+00:00,3,23.42,True,712,360,15,748,5,7,12,MERGED
+133736,Fix handling of empty sparse_vector excluded from _source,jimczi,2025-08-28T16:01:59Z,2025-08-29T11:30:58+00:00,1,19.48,True,105,29,4,220,1,0,1,MERGED
+133732,Finalize release notes for v9.0.6 release,elasticsearchmachine,2025-08-28T15:40:56Z,2025-08-28T19:34:28+00:00,1,3.89,True,6,12,4,80,2,0,2,MERGED
+133730,Finalize release notes for v9.1.3 release,elasticsearchmachine,2025-08-28T15:35:26Z,2025-08-28T20:24:29+00:00,1,4.82,True,3,15,4,80,2,0,2,MERGED
+133722,Fix disk usage estimation for SORTED_SET doc values.,martijnvg,2025-08-28T14:21:53Z,2025-08-28T18:41:23+00:00,3,4.33,True,6,0,2,105,3,0,3,MERGED
+133720,Support querying multiple indices with the simplified linear retriever,ioanatia,2025-08-28T14:11:21Z,2025-09-11T10:09:49+00:00,5,331.97,True,1006,133,6,2611,2,8,10,MERGED
+133719,Fix exponential histogram midpoint computation,JonasKunz,2025-08-28T14:07:48Z,2025-08-29T08:55:33+00:00,1,18.8,True,18,2,2,312,2,0,2,MERGED
+133718,Remove upper limit for chunking settings,kderusso,2025-08-28T14:07:39Z,2025-08-29T11:35:45+00:00,6,21.47,True,193,21,14,227,2,2,4,MERGED
+133714,Add Metrics Command Capability check to test that needs it,not-napoleon,2025-08-28T12:53:50Z,2025-08-29T14:12:33+00:00,1,25.31,True,1,1,1,109,1,0,1,MERGED
+133713,Pull out ElementType implementations into separate classes,thecoop,2025-08-28T12:30:26Z,2025-09-04T11:51:04+00:00,20,167.34,True,560,683,1,426,1,2,3,MERGED
+133712,[ML] Remove unused InferenceRequestStats,prwhelan,2025-08-28T12:27:48Z,2025-08-29T14:32:42+00:00,1,26.08,True,0,142,2,64,1,0,1,MERGED
+133711,Fix minimum required bucket count for exponential histogram merging,JonasKunz,2025-08-28T12:24:37Z,2025-09-29T14:39:31+00:00,2,770.25,True,29,6,5,516,1,1,2,MERGED
+133708,[Gradle] Unify resolving pre release java versions like RCs and EAs,breskeby,2025-08-28T11:27:27Z,2025-08-28T16:57:58+00:00,1,5.51,True,317,150,12,600,3,0,3,MERGED
+133704,Fix assertion error when executing row query with filter,idegtiarenko,2025-08-28T10:19:09Z,2025-08-29T08:25:38+00:00,2,22.11,True,11,1,2,857,1,1,2,MERGED
+133702,OTLP: add support for counters and gauges,felixbarny,2025-08-28T08:32:58Z,2025-08-30T09:01:12+00:00,17,48.47,True,1217,1,13,15,3,12,15,MERGED
+133691,[DOCS] Update links to start-local,lcawl,2025-08-28T02:35:31Z,2025-08-28T17:07:20+00:00,1,14.53,True,2,2,2,319,3,0,3,MERGED
+133689,Validate the highest transport id is used,rjernst,2025-08-28T00:56:42Z,2025-08-28T16:35:03+00:00,1,15.64,True,47,1,2,655,2,0,2,MERGED
+133688,Drop testFetchCoerced,smalyshev,2025-08-27T23:41:14Z,2025-08-28T14:09:31+00:00,1,14.47,True,0,7,2,207,3,0,3,MERGED
+133685,Handle missing content in incremental bulk,mhl-b,2025-08-27T20:33:44Z,2025-08-29T19:16:55+00:00,8,46.72,True,48,22,4,678,6,4,10,MERGED
+133684,Migrate 9.2 transport versions to files,jdconrad,2025-08-27T20:18:11Z,2025-08-28T14:57:30+00:00,1,18.66,True,137,69,40,236,1,0,1,MERGED
+133683,Don't run async actions when ILM is stopped,nielsbauman,2025-08-27T19:48:30Z,2025-08-30T09:59:28+00:00,9,62.18,True,186,73,5,669,2,5,7,MERGED
+133682,ESQL: Patch kibana signature for BUCKET,nik9000,2025-08-27T19:41:18Z,2025-08-28T18:05:10+00:00,1,22.4,True,147,91,4,384,2,0,2,MERGED
+133681,Remove DocumentSubsetBitsetCache locking,joegallo,2025-08-27T19:37:25Z,2025-08-28T10:18:26+00:00,2,14.68,True,146,221,9,3232,5,0,5,MERGED
+133680,Fix enrich caches outdated value after policy run,joegallo,2025-08-27T19:22:58Z,2025-08-30T15:51:56+00:00,7,68.48,True,194,19,6,1218,4,2,6,MERGED
+133679,Add positions index_option to patterned_text,parkertimmins,2025-08-27T19:12:37Z,2025-08-29T15:24:05+00:00,7,44.19,True,436,43,6,344,1,2,3,MERGED
+133678,Avoid eagerly resolving entitlement agent during test task configuration,mark-vieira,2025-08-27T19:09:25Z,2025-08-27T20:59:26+00:00,2,1.83,True,12,14,1,372,3,0,3,MERGED
+133677,Fix `TimeValue` comparisons for -1 duration,JeremyDahlgren,2025-08-27T18:56:29Z,2025-09-03T19:18:47+00:00,8,168.37,True,50,49,6,926,2,5,7,MERGED
+133675,Support using the semantic query across multiple inference IDs,Mikep86,2025-08-27T18:05:45Z,2025-09-03T13:38:15+00:00,21,163.54,True,351,103,7,552,6,7,13,MERGED
+133674,[ESQL] More Fixes of some illegal polygons in test data,iverase,2025-08-27T18:01:58Z,2025-08-28T09:54:25+00:00,1,15.87,True,4,4,2,83,2,0,2,MERGED
+133672,[9.1][DOCS] Clarify dense vector field update graph availability (#131724),lcawl,2025-08-27T17:46:24Z,2025-08-28T17:19:37+00:00,1,23.55,True,9,0,1,266,2,0,2,MERGED
+133671,Remove java.xml from system modules,rjernst,2025-08-27T17:24:00Z,2025-08-30T00:17:29+00:00,4,54.89,True,76,1,8,318,5,3,8,MERGED
+133668,Fix TimeSeriesIT#testProfile,dnhatn,2025-08-27T16:42:10Z,2025-08-27T20:44:42+00:00,1,4.04,True,5,5,2,160,1,0,1,MERGED
+133667,ES|QL: Add the ABSENT function,leontyevdv,2025-08-27T16:38:51Z,2025-09-05T12:56:30+00:00,1,212.29,False,192,3,5,11,1,1,2,CLOSED
+133666,[DiskBBQ] Change IOContext.DEFAULT.withReadAdvice(ReadAdvice.SEQUENTIAL) with IOContext.READONCE,iverase,2025-08-27T16:31:55Z,2025-08-27T18:56:26+00:00,3,2.41,True,2,8,1,331,1,1,2,MERGED
+133659,Change GeneralScriptException to 400,rjernst,2025-08-27T16:15:39Z,2025-08-28T21:45:09+00:00,1,29.49,True,10,0,2,290,2,0,2,MERGED
+133656,[9.1][DOCS] clarify default algorithms per stack version (#131728),lcawl,2025-08-27T16:15:08Z,2025-08-28T17:20:05+00:00,1,25.08,True,21,3,1,263,2,0,2,MERGED
+133654,[9.1][DOCS] add availability to oversample value of 0 (#131707),lcawl,2025-08-27T16:11:59Z,2025-08-28T17:20:29+00:00,1,25.14,True,7,2,2,260,2,0,2,MERGED
+133653,[9.1][DOCS] add availability information for rescore_vector (#131710),lcawl,2025-08-27T16:06:23Z,2025-08-28T17:20:48+00:00,2,25.24,True,3,3,3,261,2,0,2,MERGED
+133651,ESQL: Don't duplicate Limit on left InlineJoin,bpintea,2025-08-27T15:25:44Z,2025-08-29T14:39:41+00:00,3,47.23,True,297,206,9,84,2,3,5,MERGED
+133648,Implement hashcode/equals for exponential histograms,JonasKunz,2025-08-27T14:20:12Z,2025-08-29T12:11:17+00:00,7,45.85,True,418,35,14,429,1,4,5,MERGED
+133644,Introduce hardened XML utilities in core,richard-dennehy,2025-08-27T12:48:12Z,2025-08-29T11:22:41+00:00,3,46.57,True,243,235,18,356,1,4,5,MERGED
+133642,Update `FIRST` and `LAST` to accept keyword and text,romulets,2025-08-27T12:17:37Z,2025-08-29T07:50:51+00:00,15,43.55,True,2402,45,39,129,1,8,9,MERGED
+133640,[ESQL] Fix some illegal polygons in test data,iverase,2025-08-27T11:40:34Z,2025-08-27T13:47:38+00:00,1,2.12,True,2,2,1,137,1,0,1,MERGED
+133639,Add min support to exponential histograms,JonasKunz,2025-08-27T10:55:50Z,2025-08-29T08:30:58+00:00,7,45.59,True,373,44,16,275,1,3,4,MERGED
+133637,[DOCS]: Release notes for search connectors 8.19.3,charlotte-hoblik,2025-08-27T10:35:32Z,2025-08-27T14:00:47+00:00,1,3.42,True,6,0,1,56,2,0,2,MERGED
+133636,Esql mv_contains function,mjmbischoff,2025-08-27T10:35:18Z,2025-08-29T17:02:00+00:00,17,54.45,True,1887,30,21,163,4,11,15,MERGED
+133633,Limit default allocated processors for the test cluster,jozala,2025-08-27T09:22:45Z,2025-10-03T12:26:14+00:00,2,891.06,True,18,15,3,258,4,1,5,MERGED
+133632,Describe closing channel in exception message,DaveCTurner,2025-08-27T09:01:58Z,2025-09-02T18:53:28+00:00,1,153.86,True,13,3,2,459,2,0,2,MERGED
+133631,Decrease size of _tsids created by TsidBuilder,felixbarny,2025-08-27T08:51:34Z,2025-09-15T06:03:39+00:00,9,453.2,True,41,20,2,154,7,3,10,MERGED
+133630,Track shardStarted events for simulation in DesiredBalanceComputer,ywangd,2025-08-27T08:36:21Z,2025-09-17T05:32:57+00:00,19,500.94,True,632,14,8,334,7,11,18,MERGED
+133623,Add microsoft_defender_cloud.assessment indices to kibana_system role permissions,kcreddy,2025-08-27T08:02:38Z,2025-08-29T09:51:41+00:00,1,49.82,True,7,2,2,421,2,0,2,MERGED
+133622,Introducing apply_to tags to the security privileges page,yetanothertw,2025-08-27T07:44:35Z,2025-08-28T16:36:02+00:00,7,32.86,True,63,116,1,1222,2,5,7,MERGED
+133617,Update WriteLoadConstraintSetting defaults,nicktindall,2025-08-27T01:52:36Z,2025-08-27T23:45:26+00:00,3,21.88,True,2,13,2,443,1,1,2,MERGED
+133616,Add mode filter to _resolve/index,smalyshev,2025-08-27T00:38:50Z,2025-09-03T04:45:59+00:00,10,172.12,True,377,17,8,415,3,5,8,MERGED
+133615,Throw away test dates with year greater than 9999,parkertimmins,2025-08-27T00:19:08Z,2025-08-27T02:10:14+00:00,2,1.85,True,6,2,1,322,1,1,2,MERGED
+133611,Allow trailing empty string field names in paths of flattened field,parkertimmins,2025-08-26T23:59:06Z,2025-08-27T16:05:25+00:00,2,16.11,True,90,1,5,1471,5,0,5,MERGED
+133610,Execute single shard each pipeline for rate,dnhatn,2025-08-26T23:24:06Z,2025-08-27T05:53:16+00:00,3,6.49,True,162,45,4,577,4,1,5,MERGED
+133609,[DOCS] Fix indentation of dense vector lists,lcawl,2025-08-26T23:00:33Z,2025-08-27T14:03:04+00:00,1,15.04,True,17,20,1,147,4,0,4,MERGED
+133604,Update DefBootstrap to handle Error from ClassValue,jdconrad,2025-08-26T22:18:26Z,2025-08-27T16:14:41+00:00,4,17.94,True,43,2,6,238,4,2,6,MERGED
+133602,Remove nimbus shadow jar,rjernst,2025-08-26T22:15:27Z,2025-08-26T23:59:38+00:00,1,1.74,True,12,782,11,169,2,0,2,MERGED
+133601,ESQL: Fix bug in topn,nik9000,2025-08-26T22:12:37Z,2025-08-27T12:55:55+00:00,1,14.72,True,17,10,3,120,5,0,5,MERGED
+133599,[ML] Support Gemini thinking budget in inference API,DonalEvans,2025-08-26T22:07:10Z,2025-09-04T16:13:01+00:00,3,210.1,True,857,53,18,1085,2,10,12,MERGED
+133594,ESQL: Update generated code,nik9000,2025-08-26T21:03:21Z,2025-08-27T07:11:35+00:00,1,10.14,True,11,0,1,583,1,0,1,MERGED
+133592,[docs] Add support for overriding entries in the release notes,brianseeders,2025-08-26T20:15:06Z,2025-08-28T10:10:25+00:00,2,37.92,True,365,24,9,461,2,0,2,MERGED
+133591,Refactor `ShrinkStep` to `ResizeStep`,nielsbauman,2025-08-26T19:48:48Z,2025-08-27T08:12:13+00:00,3,12.39,True,266,196,10,117,1,4,5,MERGED
+133583,Remove track_postings_in_memory_bytes feature flag,jordan-powers,2025-08-26T19:15:11Z,2025-08-27T15:52:11+00:00,1,20.62,True,11,9,4,48,1,1,2,MERGED
+133582,[8.18] refactor(semantic_text): fail early in pre-8.11 indices (#133080),kderusso,2025-08-26T19:13:37Z,2025-08-27T14:19:20+00:00,1,19.1,True,94,2,5,197,0,0,0,MERGED
+133580,[8.19] refactor(semantic_text): fail early in pre-8.11 indices (#133080),kderusso,2025-08-26T19:11:19Z,2025-08-27T14:18:40+00:00,1,19.12,True,94,2,5,197,0,0,0,MERGED
+133579,Rework cancellation test for batched query execution,benchaplin,2025-08-26T19:05:21Z,2025-08-28T21:17:08+00:00,2,50.2,True,103,79,3,1110,3,1,4,MERGED
+133578,[9.0] refactor(semantic_text): fail early in pre-8.11 indices (#133080),kderusso,2025-08-26T18:30:16Z,2025-08-27T14:14:42+00:00,1,19.74,True,65,0,3,196,0,0,0,MERGED
+133576,Text similarity reranker chunks and scores snippets,kderusso,2025-08-26T18:16:31Z,2025-09-11T20:52:08+00:00,11,386.59,True,640,294,17,2345,9,10,19,MERGED
+133562,Fix LogsdbIndexingRollingUpgradeIT,martijnvg,2025-08-26T15:15:06Z,2025-08-27T10:15:20+00:00,2,19.0,True,16,1,1,543,1,0,1,MERGED
+133554,[DOCS] Enable cumulative docs comment bot in docs build workflow,leemthompo,2025-08-26T13:28:17Z,2025-08-26T16:08:39+00:00,2,2.67,True,1,0,1,29,1,0,1,MERGED
+133551,Add release notes for v8.18.6 release,elasticsearchmachine,2025-08-26T13:02:05Z,2025-08-27T13:58:59+00:00,1,24.95,True,49,0,2,80,2,0,2,MERGED
+133549,make ESIntegTestCase::awaitGlobalNettyThreadsFinish public,richard-dennehy,2025-08-26T12:56:40Z,2025-08-27T10:46:05+00:00,1,21.82,True,1,1,1,80,1,0,1,MERGED
+133548,Add release notes for v8.19.3 release,elasticsearchmachine,2025-08-26T12:55:36Z,2025-08-27T13:59:28+00:00,1,25.06,True,63,0,2,80,2,0,2,MERGED
+133546,"Support geohash, geotile and geohex grid types in ST_INTERSECTS",craigtaverner,2025-08-26T12:46:47Z,2025-09-05T12:43:19+00:00,15,239.94,True,1057,108,30,526,4,6,10,MERGED
+133539,Handle concurrency exception with FutureUtils in QueryWrapperBitSetProducer#getBitSet,iverase,2025-08-26T11:05:17Z,2025-08-26T13:34:51+00:00,1,2.49,True,2,2,1,362,4,0,4,MERGED
+133534,[DOCS] Update doc links,leemthompo,2025-08-26T10:40:36Z,2025-08-26T13:21:40+00:00,1,2.68,True,13,13,10,121,4,0,4,MERGED
+133531,Close 8.17 development branch,jozala,2025-08-26T09:45:25Z,2025-08-26T10:54:29+00:00,1,1.15,True,0,4,2,110,2,0,2,MERGED
+133530,Handle special cases for `File.createTempFile`,ldematte,2025-08-26T09:27:09Z,2025-08-27T13:19:03+00:00,2,27.86,True,25,1,3,158,4,0,4,MERGED
+133529,Tweak SingletonLongToSingletonOrdinalDelegate,martijnvg,2025-08-26T09:14:35Z,2025-08-26T14:36:58+00:00,2,5.37,True,5,3,1,130,2,1,3,MERGED
+133528,Increase Ccs related yaml test suite timeouts,cbuescher,2025-08-26T09:02:30Z,2025-08-26T12:48:38+00:00,1,3.77,True,2,2,2,262,1,0,1,MERGED
+133526,[Gradle] Avoid usage of archives configuration,breskeby,2025-08-26T08:42:59Z,2025-08-26T15:43:33+00:00,4,7.01,True,8,23,4,48,2,2,4,MERGED
+133523,Add daily build pipeline for testing against next java EA version,breskeby,2025-08-26T07:38:29Z,2025-08-29T13:53:39+00:00,9,78.25,True,888,7,9,607,3,5,8,MERGED
+133510,ESQL: Block#deepCopy preserves constants,nik9000,2025-08-26T00:29:17Z,2025-08-26T12:42:05+00:00,1,12.21,True,480,10,46,342,2,0,2,MERGED
+133509,Fixed flaky test LongFieldMapperTests.testFetchMany test case,Kubik42,2025-08-26T00:12:58Z,2025-08-26T20:08:21+00:00,3,19.92,False,14,5,2,870,3,1,4,CLOSED
+133506,Null values need to be converted to correct type for numeric matchers,parkertimmins,2025-08-25T22:35:25Z,2025-08-27T02:23:16+00:00,2,27.8,True,169,72,3,432,4,1,5,MERGED
+133500,Create an end-to-end IT test for WriteLoadConstraintDecider#canAllocate,DiannaHohensee,2025-08-25T21:59:05Z,2025-08-29T19:40:28+00:00,3,93.69,True,338,1,2,15,1,9,10,MERGED
+133495,Add appropriate capability check to a yaml test,not-napoleon,2025-08-25T20:36:55Z,2025-08-26T13:15:43+00:00,2,16.65,True,2,2,1,258,1,0,1,MERGED
+133494,ESQL: Add url_encode function,mouhc1ne,2025-08-25T19:58:15Z,2025-08-28T17:43:08+00:00,8,69.75,True,561,2,17,29,5,9,14,MERGED
+133493,Gate disable norms on text fields for logsdb/tsdb indices,Kubik42,2025-08-25T19:56:07Z,2025-08-25T21:53:16+00:00,2,1.95,True,82,10,3,356,2,1,3,MERGED
+133492,Rename transport version terminology,rjernst,2025-08-25T18:16:29Z,2025-08-25T23:44:23+00:00,3,5.46,True,187,179,16,178,2,2,4,MERGED
+133489,fixing flakiness in RandomizedTimeSeriesIT - generating unique timestamps,pabloem,2025-08-25T16:42:35Z,2025-08-28T17:20:12+00:00,5,72.63,True,26,8,3,277,3,2,5,MERGED
+133487,Move away from DistributionType.DEFAULT in downsample YAML tests,ldematte,2025-08-25T15:38:09Z,2025-09-01T13:42:08+00:00,3,166.07,True,32,17,5,0,1,1,2,MERGED
+133479,ESQL: Support tags in `LuceneCountOperator`,nik9000,2025-08-25T14:32:23Z,2025-08-27T16:57:32+00:00,5,50.42,True,470,109,6,980,2,3,5,MERGED
+133477,Make `ESClientYamlSuiteTestCase#createParameters` paths argument variadic,ldematte,2025-08-25T14:25:04Z,2025-08-27T07:33:41+00:00,1,41.14,True,52,34,12,22,1,0,1,MERGED
+133467,ESQL: Create unique lookup data to avoid matching multiple lookup docs,astefan,2025-08-25T13:01:45Z,2025-08-26T06:08:00+00:00,1,17.1,True,7,9,2,194,1,0,1,MERGED
+133466,Semantic Search CCS POC - DO NOT MERGE,Mikep86,2025-08-25T12:13:55Z,2025-09-16T16:00:03+00:00,5,531.77,False,1291,140,41,1007,0,5,5,CLOSED
+133465,Add release notes for v9.1.3 release,elasticsearchmachine,2025-08-25T12:10:30Z,2025-08-26T08:30:51+00:00,1,20.34,True,154,2,4,80,2,0,2,MERGED
+133463,ES|QL: Fix telemetry tests after addition of CONTAINS function,luigidellaquila,2025-08-25T08:34:36Z,2025-08-25T15:16:47+00:00,1,6.7,True,2,2,1,93,1,0,1,MERGED
+133460,[DOCS]: Add 9.1.3 search connectors release notes,charlotte-hoblik,2025-08-25T07:51:14Z,2025-08-26T09:28:24+00:00,1,25.62,True,3,0,1,55,3,0,3,MERGED
+133458,Add 9.0.6 search connectors release notes,charlotte-hoblik,2025-08-25T07:48:04Z,2025-08-26T09:28:17+00:00,1,25.67,True,3,0,1,55,1,0,1,MERGED
+133457,Add XContentParserTsidFunnel,felixbarny,2025-08-25T06:39:25Z,2025-08-25T09:21:46+00:00,3,2.71,True,202,0,2,15,1,1,2,MERGED
+133456,"Fix units in metrics, stop using cached time",nicktindall,2025-08-25T06:37:08Z,2025-08-25T23:10:14+00:00,1,16.55,True,4,4,2,62,2,0,2,MERGED
+133451,Generate Java classes from OTLP proto files,felixbarny,2025-08-25T05:52:55Z,2025-08-26T07:08:55+00:00,15,25.27,True,240,3,5,689,7,5,12,MERGED
+133446,Do not share Weight between Drivers,dnhatn,2025-08-24T18:10:31Z,2025-09-09T04:46:08+00:00,3,370.59,True,120,73,9,1367,4,1,5,MERGED
+133445,Add GA lifecycle and version metadata to `Contains` function,mjmbischoff,2025-08-24T17:46:18Z,2025-08-25T10:58:02+00:00,1,17.2,True,37,19,6,95,4,0,4,MERGED
+133444,[8.19][DOCS] Highlight the subscription requirement for synthetic `_source`,vishaangelova,2025-08-24T15:03:06Z,2025-08-25T12:35:52+00:00,1,21.55,True,3,1,1,122,5,1,6,MERGED
+133443,[DOCS] Highlight the subscription requirement for synthetic `_source`,vishaangelova,2025-08-24T14:18:41Z,2025-08-25T12:23:44+00:00,1,22.08,True,5,1,1,193,7,1,8,MERGED
+133436,Fix accessing main files in transport version resources (#133349),rjernst,2025-08-23T14:50:22Z,2025-08-25T14:33:29+00:00,2,47.72,True,20,15,3,44,0,3,3,MERGED
+133433,Correctly retrieve data stream write index in `DataStreamsUpgradeIT`,nielsbauman,2025-08-23T07:11:18Z,2025-08-25T17:39:36+00:00,2,58.47,True,7,16,1,973,1,0,1,MERGED
+133425,Add release notes for v9.0.6 release,elasticsearchmachine,2025-08-23T02:08:47Z,2025-08-26T07:38:07+00:00,1,77.49,True,243,114,4,80,2,0,2,MERGED
+133424,[ML] Ensuring only a single request executor object is created,jonathan-buttner,2025-08-23T00:23:47Z,2025-08-27T16:47:19+00:00,3,112.39,True,134,63,5,240,4,1,5,MERGED
+133423,Use safe double range to test long mapper,smalyshev,2025-08-22T23:25:09Z,2025-08-26T18:23:35+00:00,1,90.97,True,5,19,2,354,4,0,4,MERGED
+133422,Fallback to working dir for native lib dir in tests,rjernst,2025-08-22T23:17:35Z,2025-08-23T13:25:17+00:00,1,14.13,True,10,1,1,450,3,0,3,MERGED
+133419,Adding more corner cases for rate csv tests,pabloem,2025-08-22T22:07:19Z,2025-08-26T22:25:26+00:00,1,96.3,True,96,0,1,0,1,1,2,MERGED
+133413,[Gradle] Some tweaks to transport related build logic,breskeby,2025-08-22T20:41:22Z,2025-08-28T06:00:37+00:00,15,129.32,True,131,27,7,377,2,5,7,MERGED
+133410,Upgrading to tika 3.2.2,masseyke,2025-08-22T18:55:20Z,2025-08-22T21:33:44+00:00,1,2.64,True,294,101,8,86,4,0,4,MERGED
+133405,ES|QL: Fix wrong pruning of plans with no output columns,luigidellaquila,2025-08-22T16:30:17Z,2025-10-02T11:31:06+00:00,11,979.01,True,1121,441,40,760,3,10,13,MERGED
+133403,Fix service destination template file name,gregkalapos,2025-08-22T15:19:45Z,2025-08-26T19:30:09+00:00,2,100.17,True,12,7,5,370,6,0,6,MERGED
+133401,Fix projects state registry filtering in GetClusterState API,alexey-ivanov-es,2025-08-22T14:53:52Z,2025-08-26T17:26:43+00:00,1,98.55,True,31,4,2,83,1,0,1,MERGED
+133398,Aggs: Fix CB on reduction phase,ivancea,2025-08-22T14:02:30Z,2025-09-12T15:59:42+00:00,13,505.95,True,363,30,7,563,4,6,10,MERGED
+133397,Push down loading of singleton dense double based field types to the …,kkrik-es,2025-08-22T13:46:01Z,2025-08-27T10:28:01+00:00,9,116.7,True,499,39,19,120,8,8,16,MERGED
+133396,Add test for msearch and async search around took time metrics collection,javanna,2025-08-22T13:36:12Z,2025-09-11T12:24:54+00:00,3,478.81,True,212,17,2,0,2,2,4,MERGED
+133392,ESQL: Track memory in evaluators,nik9000,2025-08-22T13:09:43Z,2025-08-26T15:54:01+00:00,2,98.74,True,5242,472,461,903,6,0,6,MERGED
+133391,Extend docs on double-completion using `SubscribableListener`,DaveCTurner,2025-08-22T12:30:03Z,2025-08-22T14:42:51+00:00,1,2.21,True,12,0,1,321,2,0,2,MERGED
+133389,[DiskBBQ] Use skipBytes instead of seek when processing posting lists,iverase,2025-08-22T11:53:09Z,2025-08-22T14:10:34+00:00,1,2.29,True,6,5,1,394,1,0,1,MERGED
+133386,rest-api-spec: use url and description from Elasticsarch specification,pquentin,2025-08-22T11:39:02Z,2025-08-28T07:09:51+00:00,4,139.51,True,1112,1112,568,344,4,2,6,MERGED
+133381,Add sum to exponential histograms,JonasKunz,2025-08-22T10:11:30Z,2025-08-27T10:27:27+00:00,15,120.27,True,491,45,17,335,1,5,6,MERGED
+133380,fix flaky testInvalidToken,richard-dennehy,2025-08-22T10:04:09Z,2025-08-26T08:45:18+00:00,1,94.69,True,5,0,1,481,2,0,2,MERGED
+133378,[DiskBBQ] Clean up life cycle of tmp file with quantize vectors,iverase,2025-08-22T09:24:05Z,2025-08-25T07:49:58+00:00,1,70.43,True,13,7,1,270,1,0,1,MERGED
+133376,[8.19] Do not run ES|QL planning and scheduling on transport thread,idegtiarenko,2025-08-22T09:18:08Z,2025-08-22T13:46:58+00:00,1,4.48,True,57,3,6,101,0,0,0,MERGED
+133375,[DiskBBQ] Open vector tmp files with ReadAdvice.SEQUENTIAL,iverase,2025-08-22T09:03:23Z,2025-08-25T08:50:05+00:00,2,71.78,True,11,2,1,1221,1,0,1,MERGED
+133372,[DOCS] Fix versioning info in KNN nested docs,leemthompo,2025-08-22T08:50:19Z,2025-08-25T07:18:28+00:00,1,70.47,True,44,14,1,634,2,0,2,MERGED
+133369,[ES|QL] Take date date_nanos implicit casting out of snapshot,fang-xing-esql,2025-08-22T03:06:04Z,2025-09-03T20:32:03+00:00,7,305.43,True,87,44,9,3837,8,6,14,MERGED
+133365,Skip iterating DISI when reading metric values,dnhatn,2025-08-22T00:02:13Z,2025-08-28T17:22:19+00:00,18,161.34,True,213,76,10,583,4,9,13,MERGED
+133362,[DOCS] Move query DSL tutorial into language reference,lcawl,2025-08-21T22:41:02Z,2025-08-22T14:46:33+00:00,1,16.09,True,575,2,3,548,3,0,3,MERGED
+133360,Add recover_failure_document processor to restore failurestore docs to original form,seanzatzdev,2025-08-21T21:48:08Z,2025-09-10T15:53:50+00:00,11,474.1,True,795,0,10,5259,6,10,16,MERGED
+133359,Add documentation about script rescorer,mayya-sharipova,2025-08-21T20:25:56Z,2025-08-26T12:02:47+00:00,8,111.61,True,236,135,12,97,12,3,15,MERGED
+133357,Switch to Sending a Bad Request User When Function Score Query Generates Negative Scores,john-wagster,2025-08-21T19:15:11Z,2025-08-24T15:10:29+00:00,1,67.92,True,63,6,5,2821,3,0,3,MERGED
+133356,Refactor `CleanupShrinkIndexStep` to `CleanupGeneratedIndexStep`,nielsbauman,2025-08-21T19:12:41Z,2025-08-26T20:25:55+00:00,5,121.22,True,120,94,4,117,2,4,6,MERGED
+133354,Fix TextFieldMapper.Builder constructor compilation error,jordan-powers,2025-08-21T18:57:22Z,2025-08-21T21:16:53+00:00,1,2.33,True,1,0,1,206,2,0,2,MERGED
+133349,Fix accessing main files in transport version resources,rjernst,2025-08-21T18:28:44Z,2025-08-22T02:01:26+00:00,1,7.54,True,20,15,3,261,2,0,2,MERGED
+133347,Force rollover on write to true when data stream indices list is empty,jbaiera,2025-08-21T17:39:30Z,2025-08-22T16:30:47+00:00,6,22.85,True,269,9,6,586,4,3,7,MERGED
+133346,Add wget to docker fips image,breskeby,2025-08-21T17:30:46Z,2025-08-21T18:39:25+00:00,1,1.14,True,1,1,1,0,2,0,2,MERGED
+133345,tests for rate function in csv,pabloem,2025-08-21T16:42:13Z,2025-08-22T19:03:45+00:00,3,26.36,True,112,0,1,0,3,1,4,MERGED
+133344,Add tsid builder,felixbarny,2025-08-21T16:39:05Z,2025-08-22T10:19:58+00:00,10,17.68,True,485,0,3,25,1,6,7,MERGED
+133335,CPS S2D4: do not expose `skip_unavailable` in API responses,pawankartik-elastic,2025-08-21T15:16:35Z,2025-08-25T13:58:19+00:00,1,94.7,True,83,6,4,200,1,2,3,MERGED
+133330,Re-enable EnterpriseGeoIpDownloaderIT test,szybia,2025-08-21T14:24:10Z,2025-09-09T11:59:29+00:00,1,453.59,False,29,9,2,0,0,1,1,CLOSED
+133329,Refactor ILMs `UpdateSettingsStep` to be more generic,nielsbauman,2025-08-21T14:24:00Z,2025-08-22T06:27:24+00:00,4,16.06,True,54,44,6,220,1,6,7,MERGED
+133324,refactor(semantic_text)!: fail early on unsupported sparse_vector indices,mromaios,2025-08-21T13:10:05Z,2025-08-21T14:15:04+00:00,1,1.08,False,29,0,2,221,3,0,3,CLOSED
+133323,Fix flakey semantic_text index_options test,kderusso,2025-08-21T13:08:43Z,2025-08-21T14:44:18+00:00,2,1.59,True,5,7,2,272,5,0,5,MERGED
+133319,ESQL: Use a little less memory in DocVector,nik9000,2025-08-21T12:46:20Z,2025-08-26T15:49:19+00:00,2,123.05,True,41,11,6,146,1,1,2,MERGED
+133316,ES|QL: Unmute tests for GenerativeForkIT,ioanatia,2025-08-21T12:38:29Z,2025-08-21T14:08:05+00:00,2,1.49,True,0,9,1,772,1,1,2,MERGED
+133315,[Fix] Disable ExtraFS in JvmOptionsParserTests,ldematte,2025-08-21T12:37:08Z,2025-08-21T14:41:45+00:00,1,2.08,True,2,0,1,27,1,0,1,MERGED
+133314,Add hits and misses timing stats to DLS cache,szybia,2025-08-21T12:26:41Z,2025-08-22T09:04:04+00:00,6,20.62,True,45,4,5,118,4,3,7,MERGED
+133313,Do not run ES|QL planning and scheduling on transport thread,idegtiarenko,2025-08-21T12:10:56Z,2025-08-22T08:54:45+00:00,3,20.73,True,40,17,6,225,3,2,5,MERGED
+133311,ES|QL: Allow nested MapExpressions,ioanatia,2025-08-21T10:53:23Z,2025-08-25T14:54:43+00:00,3,100.02,True,1143,1007,13,1019,3,0,3,MERGED
+133308,Improve index resolution test,idegtiarenko,2025-08-21T10:06:55Z,2025-08-25T11:06:18+00:00,1,96.99,True,40,27,1,146,1,0,1,MERGED
+133302,Fix testDoesNotResolveClosedIndex,idegtiarenko,2025-08-21T09:15:29Z,2025-08-22T06:50:55+00:00,1,21.59,True,3,5,1,167,1,0,1,MERGED
+133301,[DOCS] Move ESQL docs from docs-content repo,leemthompo,2025-08-21T09:13:04Z,2025-08-25T07:48:15+00:00,1,94.59,True,2153,102,16,466,4,0,4,MERGED
+133299,Add first/last_over_time and rate tests to DownsampleIT tests,limotova,2025-08-21T08:41:46Z,2025-08-26T20:27:43+00:00,2,131.77,True,66,7,1,146,1,1,2,MERGED
+133298,ESQL: Fix wrong marking of a field as unmapped when indices shared the same mapping,GalLalouche,2025-08-21T08:35:14Z,2025-08-27T22:33:46+00:00,4,157.98,True,64,12,2,316,2,1,3,MERGED

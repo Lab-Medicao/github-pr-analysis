@@ -1,6 +1,6 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
 33276,chore(langchain_v1): add typing to test_react_agent.py,cbornet,2025-10-05T17:57:00Z,2025-10-05T20:32:26+00:00,3,2.59,False,280,96,4,0,4,4,8,CLOSED
-33275,"feat(langchain_v1): Add retry_model_request middleware hook, add ModelFallbackMiddleware",nfcampos,2025-10-05T13:59:44Z,2025-10-05T20:32:46+00:00,2,6.55,True,498,25,6,277,0,1,1,MERGED
+33275,"feat(langchain_v1): Add retry_model_request middleware hook, add ModelFallbackMiddleware",nfcampos,2025-10-05T13:59:44Z,2025-10-05T20:32:46+00:00,3,6.55,True,498,25,6,277,0,2,2,MERGED
 33274,feat(langchain_v1): represent server side tools in modifyModelRequest and update tool handling,eyurtsev,2025-10-04T22:05:21Z,2025-10-05T19:55:46+00:00,2,21.84,True,64,30,2,418,0,1,1,MERGED
 33272,feat(langchain_v1): add llm selection middleware,eyurtsev,2025-10-04T18:26:24Z,2025-10-05T19:55:56+00:00,1,25.49,True,893,0,3,4255,0,6,6,MERGED
 33271,feat(langchain_v1): Implement PIIMiddleware,nfcampos,2025-10-04T17:23:43Z,2025-10-05T02:27:52+00:00,6,9.07,True,1405,0,4,293,1,3,4,MERGED
@@ -149,3 +149,853 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 32585,chore(infra): bump `amannn/action-semantic-pull-request` from 5 to 6,dependabot,2025-08-18T11:41:35Z,2025-09-08T14:16:20+00:00,1,506.58,True,1,1,1,3565,3,0,3,MERGED
 32584,chore(infra): bump `actions/checkout` from 4 to 5,dependabot,2025-08-18T11:41:28Z,2025-09-08T14:14:10+00:00,1,506.55,True,27,27,17,6032,3,0,3,MERGED
 32579,fix(core): correct FAISS cosine similarity scoring in vector stores,ChiaXinLiang,2025-08-16T17:42:53Z,2025-09-10T20:10:07+00:00,1,602.45,False,167,2,2,1276,3,1,4,CLOSED
+32578,fix(core): resolve infinite recursion in `_dereference_refs_helper` with mixed `$ref` objects,ChiaXinLiang,2025-08-16T17:05:58Z,2025-09-11T19:21:31+00:00,1,626.26,True,480,39,2,1508,3,0,3,MERGED
+32576,chore(cli): add ruff rules ANN401 and D1,cbornet,2025-08-16T15:01:52Z,2025-08-30T17:41:16+00:00,1,338.66,True,9,7,3,0,4,0,4,MERGED
+32575,fix(deepseek): Deep Seek Model for LS Tracing,keenborder786,2025-08-16T14:39:11Z,2025-08-18T18:48:31+00:00,2,52.16,True,10,1,1,72,4,1,5,MERGED
+32572,"refactor(core): data block handling, normalize message formats, strip IDs from messages",mdrxy,2025-08-15T21:03:39Z,2025-08-21T18:48:23+00:00,8,141.75,True,1005,269,8,814,3,34,37,MERGED
+32569,"feat: standard content, IDs, translators, & normalization",mdrxy,2025-08-15T18:31:36Z,2025-08-27T13:31:12+00:00,12,282.99,True,8776,1126,88,1425,3,10,13,MERGED
+32567,release: v1.0.0,mdrxy,2025-08-15T18:04:08Z,2025-10-02T14:49:42+00:00,1,1148.76,True,23784,17619,188,524,6,1,7,MERGED
+32565,refactor(core): remove `example` attribute from `AIMessage` and `HumanMessage`,mdrxy,2025-08-15T17:46:17Z,2025-09-11T02:01:25+00:00,1,632.25,True,293,558,11,0,3,1,4,MERGED
+32560,chore(core): fix some mypy `warn_unreachable` issues,cbornet,2025-08-15T13:59:22Z,2025-09-08T15:02:09+00:00,4,577.05,True,37,44,12,48,3,4,7,MERGED
+32558,chore(text-splitters): add mypy `warn_unreachable`,cbornet,2025-08-15T11:46:03Z,2025-08-15T13:45:21+00:00,3,1.99,True,30,31,4,0,3,2,5,MERGED
+32557,fix(openai): construct responses api input,sa411022,2025-08-15T08:06:48Z,2025-08-21T19:56:29+00:00,1,155.83,True,13,2,2,129,7,0,7,MERGED
+32551,fix(openai): structured output,mdrxy,2025-08-14T17:24:41Z,2025-09-09T15:37:50+00:00,5,622.22,True,60,15,2,12,7,6,13,MERGED
+32549,docs: add hybrid search documentation to PGVectorStore,dishaprakash,2025-08-14T12:40:23Z,2025-09-12T01:12:58+00:00,1,684.54,True,256,2,1,68,3,0,3,MERGED
+32541,feat(core): allow overriding `ls_model_name` from kwargs,6matt,2025-08-13T23:24:05Z,2025-09-11T20:18:06+00:00,3,692.9,True,129,7,11,849,4,1,5,MERGED
+32538,feat(core): enhance OpenAI data block conversion and extend support for file and audio types,mdrxy,2025-08-13T20:21:30Z,2025-08-15T18:20:56+00:00,1,45.99,True,522,192,7,0,3,1,4,MERGED
+32535,refactor(core): Use duck typing for `_StreamingCallbackHandler`,hinthornw,2025-08-13T17:18:00Z,2025-08-19T12:41:07+00:00,1,139.39,True,6,7,1,97,3,0,3,MERGED
+32533,docs: fixed additional grammar and style issues in how-to index,mishraravibhushan,2025-08-13T16:12:37Z,2025-08-13T18:10:58+00:00,1,1.97,True,6,6,1,233,3,0,3,MERGED
+32532,feat(core): Add opt-in `run_name` inheritance for child runnables,open-swe,2025-08-13T15:10:37Z,2025-09-12T14:11:02+00:00,2,719.01,False,488,6,3,1131,4,5,9,CLOSED
+32531,fix(openai): Reuse cached httpx clients in `AzureChatOpenAI`,open-swe,2025-08-13T15:09:29Z,2025-09-11T19:46:58+00:00,1,700.62,False,74,2,2,934,5,1,6,CLOSED
+32530,fix(core): Support no-args tools by defaulting args to empty dict,mdrxy,2025-08-13T14:54:25Z,2025-08-14T20:28:36+00:00,1,29.57,True,5,2,2,2606,4,1,5,MERGED
+32529,chore(langchain): add mypy `warn_unreachable` setting,cbornet,2025-08-13T14:37:32Z,2025-08-15T23:03:53+00:00,2,56.44,True,55,46,23,83,5,1,6,MERGED
+32526,fix(core): preserve ordering in RunnableRetry batch/abatch results,VMinB12,2025-08-13T11:14:34Z,2025-09-11T20:18:26+00:00,1,705.06,True,87,18,2,938,5,0,5,MERGED
+32518,fix(anthropic): streaming token counting to defer input tokens until completion,mdrxy,2025-08-12T21:07:46Z,2025-08-15T21:49:47+00:00,3,72.7,True,310,17,2,858,5,4,9,MERGED
+32512,docs: add name title for Anchor Browser,GDanksAnchor,2025-08-12T12:54:34Z,2025-09-11T02:40:37+00:00,1,709.77,True,24,21,3,128,4,0,4,MERGED
+32505,refactor(core): improve beta decorator,cbornet,2025-08-11T17:37:57Z,2025-09-08T22:06:49+00:00,4,676.48,True,36,51,2,114,3,3,6,MERGED
+32496,feat(core): add v1 message content display utilities,mdrxy,2025-08-11T13:25:39Z,2025-08-15T18:15:50+00:00,1,100.84,False,508,0,2,654,3,1,4,CLOSED
+32495,chore: bump actions/download-artifact from 4 to 5,dependabot,2025-08-11T12:34:47Z,2025-08-11T16:41:58+00:00,1,4.12,True,5,5,2,3342,3,0,3,MERGED
+32494,docs: add anchorbrowser,GDanksAnchor,2025-08-11T11:14:08Z,2025-08-11T21:48:10+00:00,2,10.57,True,349,0,3,430,3,1,4,MERGED
+32488,"docs(docs): fix grammar in ""How to deal with high-cardinality categoricals"" guide title",mishraravibhushan,2025-08-10T14:34:10Z,2025-08-11T13:17:52+00:00,1,22.73,True,1,1,1,337,3,0,3,MERGED
+32487,fix(core): fix support of Pydantic v1 models in BaseTool.args,cbornet,2025-08-10T14:12:33Z,2025-09-11T19:44:51+00:00,5,773.54,True,8,15,4,0,4,4,8,MERGED
+32485,docs(docs): use `model_json_schema()`,Navanit-git,2025-08-10T09:00:43Z,2025-08-11T13:19:14+00:00,1,28.31,True,1,1,1,2156,3,0,3,MERGED
+32482,docs(docs): add missing name to AIMessage in example,ran8080,2025-08-10T06:09:37Z,2025-08-11T13:20:09+00:00,1,31.18,True,1,0,1,438,3,0,3,MERGED
+32481,docs(deepseek): Add DeepSeek model option,lineuman,2025-08-10T02:14:58Z,2025-08-11T13:20:39+00:00,1,35.09,True,7,0,1,0,3,0,3,MERGED
+32480,"fix(core): resolve for including ""default"" field value when deref is needed",hugehoo,2025-08-09T16:56:44Z,2025-09-12T13:47:49+00:00,2,812.85,False,4,0,1,1244,6,1,7,CLOSED
+32459,fix(openai): ainvoke uses async `_aget_response`; add async tests,vineethkumarrao,2025-08-08T07:54:44Z,2025-09-10T19:52:15+00:00,1,803.96,True,83,2,2,282,3,0,3,MERGED
+32458,docs: update Confident callback integration and examples,Muwinuddin,2025-08-08T06:52:52Z,2025-09-11T02:43:31+00:00,1,811.84,True,58,189,2,712,5,2,7,MERGED
+32456,chore: formatting across codebase,mdrxy,2025-08-07T22:34:50Z,2025-08-08T02:09:26+00:00,1,3.58,True,662,384,62,31,3,0,3,MERGED
+32455,feat(openai): `minimal` and `verbosity`,mdrxy,2025-08-07T20:33:43Z,2025-08-08T02:24:21+00:00,7,5.84,True,354,55,9,0,3,8,11,MERGED
+32453,fix(docs): add Spider as a webpage loader,WilliamEspegren,2025-08-07T20:16:01Z,2025-08-11T21:23:03+00:00,1,97.12,True,8,1,1,143,3,0,3,MERGED
+32449,feat(openai): custom tools,ccurme,2025-08-07T19:00:26Z,2025-08-07T20:30:03+00:00,1,1.49,True,488,4,11,0,3,0,3,MERGED
+32445,docs(docs): update v0.1.1 chatModel document on langchain-naver.,hyper-clova,2025-08-07T11:27:06Z,2025-08-07T15:45:50+00:00,1,4.31,True,631,336,1,202,3,2,5,MERGED
+32443,feat(standard-tests): add a property to set the name of the parameter for the number of results to return,cbornet,2025-08-07T10:51:51Z,2025-08-07T15:22:25+00:00,2,4.51,True,70,18,1,666,3,3,6,MERGED
+32440,feat(langchain_v1): add refined `create_agent`,sydney-runkle,2025-08-07T01:59:51Z,2025-08-27T18:14:52+00:00,2,496.25,False,160,1,6,1018,3,1,4,CLOSED
+32438,docs: update Docker image name for jaguardb setup,nhzq-1010,2025-08-07T01:38:11Z,2025-08-07T15:23:29+00:00,1,13.76,True,2,2,1,235,3,0,3,MERGED
+32437,feat(core): zero-out token costs for cache hits,ccurme,2025-08-06T22:42:47Z,2025-08-07T12:49:35+00:00,2,14.11,True,30,0,2,88,3,1,4,MERGED
+32434,fix(core): fix tracing for PDFs in v1 messages,ccurme,2025-08-06T18:31:21Z,2025-08-11T16:18:32+00:00,1,117.79,True,614,649,17,0,3,1,4,MERGED
+32431,fix(core): fix index checking when merging lists,jmbledsoe,2025-08-06T15:24:32Z,2025-08-06T16:47:33+00:00,1,1.38,True,6,1,2,158,3,0,3,MERGED
+32426,"docs(langchain): complete PDF embedding example for OpenAI, also some minor doc fixes",sproul,2025-08-06T05:36:54Z,2025-08-06T16:16:17+00:00,1,10.66,True,26,26,13,80,3,0,3,MERGED
+32424,docs: put `standard-tests` before other packages,keenborder786,2025-08-06T01:12:50Z,2025-08-11T20:05:24+00:00,1,138.88,True,8,1,1,72,3,0,3,MERGED
+32421,fix(tests): add missing `__init__.py` to retrievers unit test directory,harshamoole,2025-08-05T20:53:27Z,2025-09-08T20:57:31+00:00,1,816.07,False,2,0,1,337,8,0,8,CLOSED
+32418,release: 0.4,ccurme,2025-08-05T19:18:07Z,2025-08-19T14:19:15+00:00,2,331.02,False,24324,1825,121,0,3,2,5,CLOSED
+32409,fix(anthropic): Add proxy,zhan9san,2025-08-05T17:13:09Z,2025-08-12T21:21:27+00:00,1,172.14,True,132,0,4,901,5,1,6,MERGED
+32408,fix: Support no-args tools by defaulting args to empty dict,jitokim,2025-08-05T17:00:26Z,2025-08-13T14:54:08+00:00,2,189.9,True,5,2,2,590,7,1,8,MERGED
+32405,docs: update `prompt_templates.mdx`,prem-sagar123,2025-08-05T14:35:11Z,2025-08-11T20:16:31+00:00,1,149.69,True,14,2,1,263,3,0,3,MERGED
+32399,docs: add Windows-specific setup instructions,pranauww,2025-08-05T04:14:55Z,2025-08-05T15:00:04+00:00,1,10.75,True,66,0,1,1119,3,0,3,MERGED
+32397,feat(core): support returning v1 ToolMessage in tools,ccurme,2025-08-04T20:26:37Z,2025-08-05T12:50:02+00:00,2,16.39,True,372,74,7,96,3,1,4,MERGED
+32396,feat(groq): add support for `json_schema`,janzheng,2025-08-04T20:07:53Z,2025-09-09T18:30:07+00:00,1,862.37,True,130,41,2,586,4,0,4,MERGED
+32390,chore(core): bump mypy version to 1.17,cbornet,2025-08-04T14:21:37Z,2025-08-07T17:26:30+00:00,2,75.08,True,687,577,12,0,3,2,5,MERGED
+32389,fix(core): ensure `RunnablePick` always returns `dict`,eugeneo17,2025-08-04T13:17:20Z,2025-09-12T16:45:37+00:00,1,939.47,False,35,22,2,902,6,0,6,CLOSED
+32386,chore(cli): add mypy strict checking,cbornet,2025-08-04T11:29:46Z,2025-08-30T18:02:46+00:00,2,630.55,True,70,48,9,0,3,3,6,MERGED
+32384,chore(standard-tests): add mypy strict checking,cbornet,2025-08-04T11:13:28Z,2025-09-08T14:50:39+00:00,2,843.62,True,1106,1091,6,0,3,0,3,MERGED
+32379,chore(langchain): fix deprecation warnings,cbornet,2025-08-04T09:14:46Z,2025-09-08T21:03:06+00:00,2,851.81,True,8,23,6,0,3,1,4,MERGED
+32377,fix(docs): correct package names in FeatureTables.js,bansalkanav,2025-08-04T07:50:27Z,2025-08-04T14:51:32+00:00,1,7.02,True,7,7,1,519,3,0,3,MERGED
+32376,fix(docs): clarify that `batch` method doesn't use OpenAI Batch API in rate limit doc (#28508),american-desi,2025-08-03T21:11:44Z,2025-08-30T19:17:13+00:00,1,646.09,False,1,0,1,342,4,1,5,CLOSED
+32375,docs: fix minor typos in image generation description,ammaryounas339,2025-08-03T20:29:36Z,2025-08-04T14:52:06+00:00,1,18.38,True,8,8,1,212,3,0,3,MERGED
+32367,docs: minor agent tools markdown improvement,ethanknights,2025-08-02T13:22:31Z,2025-08-03T19:42:19+00:00,1,30.33,True,1,1,1,35,3,0,3,MERGED
+32364,docs(docs): add link for ALPHAVANTAGE_API_KEY generation in integration notebook,dhanesh24g,2025-08-02T08:55:32Z,2025-08-03T19:49:45+00:00,1,34.9,True,3,1,1,301,3,0,3,MERGED
+32363,test(openai): add tests for `prompt_cache_key` parameter and update docs,mdrxy,2025-08-01T20:28:52Z,2025-08-07T19:29:47+00:00,3,143.02,True,152,0,3,134,4,5,9,MERGED
+32362,feat(docs): add truefoundry ai gateway,rishiraj-tf,2025-08-01T11:28:41Z,2025-08-12T02:26:45+00:00,1,254.97,True,110,9,4,401,4,1,5,MERGED
+32358,feat(core): move tool call chunks to content (v1),ccurme,2025-07-31T21:00:32Z,2025-08-04T15:32:11+00:00,13,90.53,True,321,173,11,2758,4,9,13,MERGED
+32356,docs: add Google partner guide for MCP Toolbox,anubhav756,2025-07-31T18:08:51Z,2025-08-11T21:34:13+00:00,1,267.42,True,35,0,1,397,3,0,3,MERGED
+32353,"fix(docs): update package names, class links and package links across kv_store_feat_table.py",bansalkanav,2025-07-31T14:50:30Z,2025-08-04T13:46:54+00:00,3,94.94,True,15,14,1,900,4,1,5,MERGED
+32351,chore(core): add ruff rule PLC0415,cbornet,2025-07-31T13:58:56Z,2025-09-08T18:15:04+00:00,7,940.27,True,360,412,49,63,3,6,9,MERGED
+32350,chore(cli): add ruff rules D1,cbornet,2025-07-31T13:06:35Z,2025-08-11T22:25:30+00:00,1,273.32,True,67,13,20,0,3,3,6,MERGED
+32346,docs: clarify `SystemMessage` usage in LangGraph agent notebook (#32320),divyanshudg-git,2025-07-31T10:00:04Z,2025-08-11T19:49:42+00:00,2,273.83,True,11,0,1,418,3,0,3,MERGED
+32344,docs: add integration guide for MCP Toolbox,anubhav756,2025-07-31T08:48:29Z,2025-08-11T21:03:38+00:00,5,276.25,True,409,0,4,475,9,2,11,MERGED
+32341,fix(docs): update `llamacpp.ipynb` for installation options on Mac,deepyes02,2025-07-31T06:53:49Z,2025-08-11T20:25:35+00:00,1,277.53,True,7,19,1,47,5,2,7,MERGED
+32339,refactor: remove `sentence-transformers` dependency,mdrxy,2025-07-31T00:45:17Z,2025-08-11T22:14:42+00:00,1,285.49,False,496,8,13,6,3,5,8,CLOSED
+32338,refactor: remove `sentence-transformers` dependency,open-swe,2025-07-31T00:10:26Z,2025-08-11T22:14:47+00:00,1,286.07,False,172,569,8,1059,3,2,5,CLOSED
+32337,refactor: remove `sentence-transformers` dependency,copilot-swe-agent,2025-07-31T00:07:45Z,2025-08-11T22:14:51+00:00,1,286.12,False,6,866,14,2313,3,1,4,CLOSED
+32333,feat(langchain): add stuff and map reduce chains,eyurtsev,2025-07-30T19:34:57Z,2025-08-07T19:20:05+00:00,7,191.75,True,1416,12,13,111,3,13,16,MERGED
+32331,docs(docs): Add RecallIO.AI as a memory provider,RecallIO,2025-07-30T19:00:32Z,2025-08-13T15:09:57+00:00,3,332.16,True,257,8,4,57,6,0,6,MERGED
+32328,feat(ollama): add basic auth support,mdrxy,2025-07-30T16:12:47Z,2025-10-02T00:46:37+00:00,2,1520.56,True,409,61,6,139,3,3,6,MERGED
+32325,chore(text-splitters): select ALL rules with exclusions,cbornet,2025-07-30T14:12:03Z,2025-09-08T14:46:10+00:00,6,960.57,True,445,367,19,0,3,5,8,MERGED
+32316,feat(core): content block factories + ids + docs + tests,mdrxy,2025-07-29T20:56:40Z,2025-07-31T15:12:00+00:00,23,42.26,True,3098,430,18,501,4,32,36,MERGED
+32315,"feat: minor core work, v1 standard tests & (most of) v1 ollama",mdrxy,2025-07-29T18:34:59Z,2025-08-06T22:22:02+00:00,16,195.78,True,8617,689,60,15,4,52,56,MERGED
+32310,chore: add Chinese translation of README,Melodyrust,2025-07-29T16:40:01Z,2025-07-30T16:15:44+00:00,1,23.6,False,68,0,1,180,5,0,5,CLOSED
+32301,"docs(docs): update RAG tutorials link across multiple vector store docs (AstraDB, DatabricksVectorSearch, FAISS, Redis, etc.) ",bansalkanav,2025-07-29T06:47:03Z,2025-07-30T13:46:02+00:00,1,30.98,True,15,14,15,560,5,0,5,MERGED
+32287,feat: standard outputs,ccurme,2025-07-28T17:37:43Z,2025-08-05T19:17:33+00:00,3,193.66,True,16390,1788,91,0,3,2,5,MERGED
+32275,feat(core): Add `bind_tools` on `FakeChatModel` for development purpose,amosctlee,2025-07-28T13:54:23Z,2025-09-10T20:04:33+00:00,1,1062.17,False,33,3,1,107,3,0,3,CLOSED
+32261,chore: add .editorconfig for consistent coding styles across files,mdrxy,2025-07-28T00:26:04Z,2025-07-28T03:25:30+00:00,1,2.99,True,52,0,1,39,3,0,3,MERGED
+32253,feat(core): support for adding `PromptTemplate`s with formats other than `f-string`,sadra-barikbin,2025-07-26T22:28:54Z,2025-09-08T19:16:55+00:00,1,1052.8,True,59,8,2,74,5,0,5,MERGED
+32242,fix(infra): add pypdf to vercel overrides,ccurme,2025-07-25T13:32:17Z,2025-07-25T19:05:21+00:00,2,5.55,True,1,0,1,788,3,0,3,MERGED
+32241,"docs(openai): enhanced punctuations , capitalisation , and spacing ",praneshnikhar,2025-07-25T08:14:14Z,2025-07-25T15:45:56+00:00,2,7.53,False,11,12,1,1996,3,1,4,CLOSED
+32237,"feat(docs): improve devx, fix `Makefile` targets",mdrxy,2025-07-25T02:07:28Z,2025-07-25T18:49:03+00:00,3,16.69,True,759,244,53,2232,3,2,5,MERGED
+32236,fix(core): raise `OutputParserException` for non-dict JSON outputs,Yash-Tobre,2025-07-25T01:01:56Z,2025-09-11T00:57:09+00:00,8,1151.92,True,19,2,2,691,11,6,17,MERGED
+32222,fix: LLM mimicking Unicode responses due to forced Unicode conversion of non-ASCII characters.,growmuye,2025-07-24T08:22:59Z,2025-07-24T21:01:32+00:00,1,12.64,True,1963,1794,30,923,7,0,7,MERGED
+32213,fix(langchain): class HTMLSemanticPreservingSplitter ignores the text inside the div tag,tanwirahmad,2025-07-23T21:55:19Z,2025-07-24T14:09:03+00:00,1,16.23,True,4,0,1,121,3,0,3,MERGED
+32209,refactor(langchain): refactor unit test stub classes,cbornet,2025-07-23T16:02:20Z,2025-07-24T15:05:56+00:00,1,23.06,True,15,40,1,20,3,0,3,MERGED
+32208,feat: new message formats (v0.4),ccurme,2025-07-23T14:49:12Z,2025-07-23T17:30:21+00:00,3,2.69,True,966,126,22,0,3,3,6,MERGED
+32205,fix(text-splitters): add validation to prevent infinite loop and prevent empty token splitter,with1015,2025-07-23T11:58:43Z,2025-09-11T20:55:33+00:00,3,1208.95,True,26,5,2,175,4,3,7,MERGED
+32204,fix(core): replace parse_obj with model_validate for Pydantic v2 compatibility,mdgolammafuz,2025-07-23T11:41:25Z,2025-07-23T14:42:18+00:00,1,3.01,False,40,2,3,1938,6,1,7,CLOSED
+32201,docs: fix typos in documentation,cluster2600,2025-07-23T07:43:04Z,2025-07-23T14:43:26+00:00,1,7.01,True,2,2,2,335,3,0,3,MERGED
+32200,chore(langchain): `strip_ansi` fucntion to remove ANSI escape sequences,pc099,2025-07-23T07:17:19Z,2025-07-25T15:53:20+00:00,2,56.6,True,15,4,1,572,3,0,3,MERGED
+32169,docs(docs): update RAG tutorials link to point to correct path,bansalkanav,2025-07-22T05:32:06Z,2025-07-22T14:24:50+00:00,1,8.88,True,1921,1907,15,626,3,0,3,MERGED
+32168,docs: add documentation about how to use extended thinking with ChatBedrockConverse,jasonkang14,2025-07-22T04:47:24Z,2025-07-22T12:44:08+00:00,1,7.95,True,153,2,1,73,3,0,3,MERGED
+32166,feat(langchain): v1 WIP,eyurtsev,2025-07-22T02:24:32Z,2025-07-24T13:47:48+00:00,2,59.39,True,8548,0,57,952,3,1,4,MERGED
+32156,fix(core): resolve ChatLiteLLM cache validation error by converting Generation to ChatGeneration objects,copilot-swe-agent,2025-07-21T23:35:53Z,2025-07-28T22:28:16+00:00,1,166.87,True,124,18,2,2519,3,4,7,MERGED
+32155,"feat(langchain): add `early_stopping_method=""generate""` support for modern agents",copilot-swe-agent,2025-07-21T23:35:36Z,2025-07-28T21:58:48+00:00,1,166.39,False,3346,2980,3,2312,3,4,7,CLOSED
+32149,docs(openai): add comprehensive documentation and examples for `extra_body` + others,copilot-swe-agent,2025-07-21T17:42:55Z,2025-07-24T20:43:16+00:00,1,75.01,True,237,119,17,2332,3,0,3,MERGED
+32143,docs(core): fix grammar from 'as an bonus' to 'as a bonus,ziafatmajeed0,2025-07-21T13:24:44Z,2025-07-21T14:48:34+00:00,1,1.4,True,1,1,1,213,3,0,3,MERGED
+32142,chore(langchain): add ruff rules D100 and D104,cbornet,2025-07-21T13:02:02Z,2025-09-11T21:04:50+00:00,6,1256.05,False,2127,4,1079,132,8,4,12,CLOSED
+32141,docs(docs): update RAG tutorials link to point to correct path in Google Vertex AI Embeddings,bansalkanav,2025-07-21T11:19:40Z,2025-07-21T13:17:54+00:00,1,1.97,True,1,1,1,298,3,0,3,MERGED
+32140,docs(docs): update RAG tutorials link to point to correct path in DatabricksEmbeddings,bansalkanav,2025-07-21T11:14:02Z,2025-07-21T13:53:04+00:00,1,2.65,False,1,1,1,298,5,0,5,CLOSED
+32131,docs(docs): update RAG tutorials link to point to correct path in AzureOpenAI,bansalkanav,2025-07-21T09:17:45Z,2025-07-21T13:17:36+00:00,1,4.0,True,1,1,1,298,3,0,3,MERGED
+32129,docs: add integration guide for PlainID SDK,mottig30,2025-07-21T06:17:01Z,2025-09-12T20:43:03+00:00,1,1286.43,False,1,0,1,371,4,3,7,CLOSED
+32126,"docs: add `langchain-cloudsway` provider doc, tools doc and provider entry to `packages.yml`",Cloudsway-AI,2025-07-21T02:15:55Z,2025-09-26T09:56:47+00:00,1,1615.68,False,305,0,3,299,5,3,8,CLOSED
+32125,feat(chroma): Add Chroma Cloud support,itaismith,2025-07-20T23:21:28Z,2025-07-22T19:14:15+00:00,3,43.88,True,467,161,2,338,3,2,5,MERGED
+32123,chore(langchain): add ruff rules D1 (except D100 and D104),cbornet,2025-07-20T19:13:32Z,2025-07-25T15:59:49+00:00,2,116.77,True,849,184,87,0,4,1,5,MERGED
+32121,fix(core): prevent path traversal in PromptTemplate.from_file (CVE-2024-3571),mdgolammafuz,2025-07-20T16:59:11Z,2025-07-21T14:12:37+00:00,1,21.22,False,93,21,3,828,4,0,4,CLOSED
+32113,docs(docs): update RAG tutorials link to point to correct path,bansalkanav,2025-07-19T13:26:44Z,2025-07-19T21:27:31+00:00,1,8.01,True,1,1,1,298,3,0,3,MERGED
+32112,chore(langchain): add ruff rules SLF,cbornet,2025-07-19T12:50:24Z,2025-07-25T15:56:41+00:00,5,147.1,True,23,24,10,60,4,2,6,MERGED
+32110,chore(langchain): add ruff rules ARG,cbornet,2025-07-19T12:22:40Z,2025-07-26T22:32:34+00:00,5,178.16,True,241,62,79,66,3,2,5,MERGED
+32109,fix(ollama): robustly parse single-quoted JSON in tool calls,diego-coder,2025-07-19T07:49:26Z,2025-07-21T16:11:22+00:00,3,56.37,True,88,18,3,1122,5,1,6,MERGED
+32108,fix(core): fix docstrings and add sleep to FakeListChatModel._call,yoshihyoda,2025-07-19T05:14:46Z,2025-07-19T21:30:15+00:00,1,16.26,True,4,2,1,369,3,0,3,MERGED
+32099,fix(docs): handle collection not found error on RAG tutorial when qdrant is selected as vectorStore,YasienDwieb,2025-07-18T16:43:40Z,2025-08-11T20:31:25+00:00,2,579.8,True,1,1,1,294,4,1,5,MERGED
+32098,chore(langchain): add ruff rules N,cbornet,2025-07-18T16:29:16Z,2025-09-08T21:27:43+00:00,8,1252.97,True,39,72,18,52,3,3,6,MERGED
+32096,fix(docs): fix broken link in VertexAILLM and NVIDIA LLM integrations,bansalkanav,2025-07-18T07:59:42Z,2025-07-18T14:00:49+00:00,1,6.02,True,1,1,1,448,4,0,4,MERGED
+32085,refactor(core): standard content blocks,mdrxy,2025-07-17T15:26:25Z,2025-07-22T13:17:55+00:00,8,117.86,True,2175,1828,5,1378,3,29,32,MERGED
+32082,docs(docs): fix broken link in Google Gemini text embedding integration,bansalkanav,2025-07-17T11:11:48Z,2025-07-17T13:58:07+00:00,1,2.77,True,1,1,1,324,3,0,3,MERGED
+32079,feat(langchain): add ruff rules PL,cbornet,2025-07-17T09:16:10Z,2025-07-23T03:55:32+00:00,9,138.66,True,97,102,24,48,3,6,9,MERGED
+32075,chore: copilot instructions,mdrxy,2025-07-16T22:12:09Z,2025-07-21T16:50:07+00:00,1,114.63,True,151,0,1,119,3,1,4,MERGED
+32073,fix(core): better error message for empty var names,isahers1,2025-07-16T21:30:55Z,2025-07-18T21:00:02+00:00,2,47.49,True,12,0,2,130,4,2,6,MERGED
+32072,feat(core): add helpers to make content block shaped dicts,mdrxy,2025-07-16T21:10:23Z,2025-07-22T15:38:58+00:00,2,138.48,False,1772,1611,2,634,3,3,6,CLOSED
+32060,chore: update SECURITY.md,kr1shnasomani,2025-07-16T10:15:41Z,2025-07-16T14:20:59+00:00,1,4.09,True,3,5,1,2013,3,0,3,MERGED
+32053,feat(docs): add Slack community link to footer,mdrxy,2025-07-15T20:18:08Z,2025-07-17T14:12:10+00:00,1,41.9,True,4,0,1,0,5,0,5,MERGED
+32047,feat(langchain): add ruff rules TRY,cbornet,2025-07-15T17:46:43Z,2025-07-21T17:41:20+00:00,1,143.91,True,72,72,32,315,3,1,4,MERGED
+32041,fix(core): correctly resolve list indices in JSON Pointer refs and improve docs,anmol-aidora,2025-07-15T12:24:11Z,2025-07-25T03:49:54+00:00,1,231.43,False,58,17,1,592,5,0,5,CLOSED
+32031,fix(core): fixed issues in README.md,kr1shnasomani,2025-07-14T19:13:11Z,2025-07-14T21:13:54+00:00,1,2.01,False,46,18,1,1943,4,0,4,CLOSED
+32029,feat(langchain): add ruff rules G,cbornet,2025-07-14T16:37:44Z,2025-07-14T19:19:36+00:00,3,2.7,True,56,30,8,58,3,1,4,MERGED
+32021,feat(langchain): add ruff rules DTZ,cbornet,2025-07-14T14:37:09Z,2025-07-14T16:47:16+00:00,3,2.17,True,63,53,8,59,3,2,5,MERGED
+32017,fix(core): properly handle empty or missing arguments for `ToolCallChunk`,amznero,2025-07-14T11:16:23Z,2025-09-10T19:02:47+00:00,6,1399.77,False,1655,1623,8,138,4,4,8,CLOSED
+32014,fix(core): implement sleep delay in FakeMessagesListChatModel _generate,siddarthreddygsr,2025-07-14T06:30:26Z,2025-07-18T19:54:28+00:00,1,109.4,True,20,1,2,288,6,0,6,MERGED
+32010,feat(langchain): add ruff rules PT,cbornet,2025-07-13T20:36:13Z,2025-07-21T17:15:05+00:00,1,188.65,True,181,102,31,61,3,0,3,MERGED
+32009,fix(core): correct return type hints in BaseChatPromptTemplate,AndreasVJ,2025-07-13T20:21:33Z,2025-07-14T15:00:02+00:00,1,18.64,True,6,6,1,201,3,0,3,MERGED
+32008,feat(langchain): add ruff rules PTH,cbornet,2025-07-13T19:24:07Z,2025-07-14T14:41:38+00:00,1,19.29,True,41,47,10,61,3,0,3,MERGED
+32004,fix(core): unblock packaging dependency,ntjohnson1,2025-07-13T11:21:57Z,2025-07-14T21:19:44+00:00,6,33.96,False,1,1,1,555,5,2,7,CLOSED
+32000,feat(core): add ruff rules D to tests except D1,cbornet,2025-07-13T04:25:49Z,2025-07-14T14:42:03+00:00,1,34.27,True,61,34,13,149,3,0,3,MERGED
+31994,chore(langchain): add ruff rules D (except D100 and D104),cbornet,2025-07-12T14:04:26Z,2025-09-08T21:47:22+00:00,2,1399.72,True,784,701,143,51,3,3,6,MERGED
+31986,fix(core): honor `enabled=false` in nested tracing,hinthornw,2025-07-11T21:37:23Z,2025-09-09T20:12:17+00:00,1,1438.58,True,14,3,2,0,3,0,3,MERGED
+31983,fix(cli): exception to prevent swallowing unexpected errors,MichaelLi65535,2025-07-11T18:39:18Z,2025-07-16T14:23:43+00:00,1,115.74,True,4,1,1,1406,3,1,4,MERGED
+31980,chore: update error message formatting,MichaelLi65535,2025-07-11T17:54:30Z,2025-07-11T19:19:52+00:00,1,1.42,True,2,2,1,1406,3,0,3,MERGED
+31977,docs: improve `output_version` description,mdrxy,2025-07-11T16:56:32Z,2025-07-16T16:29:07+00:00,3,119.54,True,5,3,1,0,3,1,4,MERGED
+31972,docs: fix typo,0xFazal,2025-07-11T10:48:27Z,2025-07-11T13:47:23+00:00,1,2.98,True,2,2,1,194,3,0,3,MERGED
+31968,fix: support dict input with 'messages' key in convert_to_messages,Krish0909,2025-07-11T09:21:17Z,2025-07-11T19:34:55+00:00,1,10.23,False,23,1,2,408,3,0,3,CLOSED
+31967,feat: standard outputs,ccurme,2025-07-10T21:56:03Z,2025-07-28T14:41:31+00:00,27,424.76,True,4199,370,39,0,3,21,24,MERGED
+31957,"docs: add Google-style docstrings to tools and llms modules (zapier, …",Akshara-P-Vijayan,2025-07-10T19:22:56Z,2025-07-11T13:46:22+00:00,1,18.39,True,79,8,4,372,6,0,6,MERGED
+31946,feat(anthropic): dynamic mapping of Max Tokens for Anthropic,keenborder786,2025-07-10T02:22:38Z,2025-08-15T18:33:51+00:00,6,880.19,True,80,3,4,107,17,2,19,MERGED
+31942,refactor: update to use a pydantic field to be safer,MichaelLi65535,2025-07-09T18:50:58Z,2025-07-12T16:23:00+00:00,2,69.53,False,1,1,1,1406,3,1,4,CLOSED
+31937,chore(standard-tests): select ALL rules with exclusions,cbornet,2025-07-09T15:04:00Z,2025-09-08T14:57:47+00:00,2,1463.9,True,83,42,12,0,3,0,3,MERGED
+31935,text-splitters: Add ruff rules FBT,cbornet,2025-07-09T09:02:08Z,2025-07-09T22:36:59+00:00,1,13.58,True,37,27,8,29,3,0,3,MERGED
+31931,docs: add oxylabs to web browsing table,zygimantas-jac,2025-07-09T05:38:34Z,2025-07-16T18:00:15+00:00,1,180.36,True,5,0,1,347,4,1,5,MERGED
+31930,chore(langchain): select ALL rules with exclusions,cbornet,2025-07-09T00:53:46Z,2025-08-12T15:51:32+00:00,5,830.96,True,45,69,15,0,3,1,4,MERGED
+31926,multiple: standard outputs,ccurme,2025-07-08T18:57:52Z,2025-07-10T20:26:55+00:00,1,49.48,False,1803,416,52,0,4,6,10,CLOSED
+31913,fix(deepseek): convert tool output arrays to strings,nikk0o046,2025-07-08T15:01:46Z,2025-07-16T16:19:44+00:00,1,193.3,True,31,1,2,858,4,1,5,MERGED
+31911,langchain: Use pytest.raises and pytest.fail to handle exceptions in tests,cbornet,2025-07-08T12:00:57Z,2025-07-08T14:30:35+00:00,2,2.49,True,15,35,4,0,3,1,4,MERGED
+31910,langchain: Fix Evaluator's _check_evaluation_args,cbornet,2025-07-08T11:48:53Z,2025-07-08T14:31:02+00:00,1,2.7,True,2,2,1,0,3,0,3,MERGED
+31908,langchain: Add ruff rules B,cbornet,2025-07-08T11:02:46Z,2025-07-08T14:48:19+00:00,4,3.76,True,168,130,56,55,3,3,6,MERGED
+31906,docs: update huggingface inference to latest usage,burtenshaw,2025-07-08T08:48:59Z,2025-07-08T14:35:10+00:00,1,5.77,True,71,26,4,106,3,0,3,MERGED
+31888,langchain: Add ruff rules A,cbornet,2025-07-06T22:19:10Z,2025-07-07T14:20:28+00:00,1,16.02,True,147,102,27,56,3,0,3,MERGED
+31887,feat(text-splitters): add optional custom header pattern support,keyuchen21,2025-07-06T19:59:54Z,2025-08-18T14:10:50+00:00,3,1026.18,True,181,7,2,1523,10,5,15,MERGED
+31886,docs: Fix uppercase typo in the Similarity search section,CuberMessenger,2025-07-06T11:27:03Z,2025-07-06T14:24:13+00:00,1,2.95,True,4,4,1,246,3,0,3,MERGED
+31885,langchain: Add ruff rules FBT,cbornet,2025-07-06T11:23:18Z,2025-07-07T16:35:55+00:00,2,29.21,True,77,53,28,143,5,3,8,MERGED
+31884,fix: fix file open with encoding in chat_history.py,MichaelLi65535,2025-07-06T09:40:18Z,2025-07-07T17:30:59+00:00,2,31.84,True,20,16,1,1406,3,0,3,MERGED
+31883,cli: fix dockerfile incorrect copy,MichaelLi65535,2025-07-06T08:12:10Z,2025-07-07T01:20:57+00:00,1,17.15,True,1,1,1,1406,3,0,3,MERGED
+31881,langchain: Add ruff rules SIM,cbornet,2025-07-05T16:18:29Z,2025-07-07T14:27:05+00:00,1,46.14,True,138,196,29,58,3,0,3,MERGED
+31880,langchain: Add ruff rules PIE,cbornet,2025-07-05T15:58:09Z,2025-07-07T14:07:12+00:00,1,46.15,True,9,23,9,68,3,0,3,MERGED
+31879,langchain: Add ruff rules C4,cbornet,2025-07-05T15:49:11Z,2025-07-07T14:55:52+00:00,2,47.11,True,97,96,22,78,3,0,3,MERGED
+31878,langchain[patch]: fix a bug where `now.replace(day=now.day - 1)` would raise a `ValueError` when `now.day` is equal to 1,NeatGuyCoding,2025-07-05T12:59:49Z,2025-07-05T18:54:26+00:00,1,5.91,True,2,2,1,352,3,0,3,MERGED
+31877,core: Ruff preview fixes,cbornet,2025-07-05T08:07:07Z,2025-07-07T17:02:41+00:00,5,56.93,True,267,271,49,64,3,4,7,MERGED
+31876,langchain: Add ruff rule W,cbornet,2025-07-04T17:07:04Z,2025-07-05T21:57:30+00:00,1,28.84,True,125,125,27,63,3,0,3,MERGED
+31875,langchain: Add ruff rule RET,cbornet,2025-07-04T16:57:04Z,2025-07-07T15:33:19+00:00,2,70.6,True,676,848,91,71,4,0,4,MERGED
+31874,langchain: Add ruff rule RUF,cbornet,2025-07-04T16:34:05Z,2025-07-07T16:49:38+00:00,2,72.26,True,777,786,291,77,3,1,4,MERGED
+31873,langchain: Add ruff rules EM,cbornet,2025-07-04T16:28:10Z,2025-07-07T14:13:57+00:00,2,69.76,True,994,686,141,71,3,1,4,MERGED
+31867,langchain: Bump ruff version to 0.12,cbornet,2025-07-04T11:07:16Z,2025-07-05T21:13:56+00:00,1,34.11,True,33,31,2,0,3,0,3,MERGED
+31866,text-splitters: Bump ruff version to 0.12,cbornet,2025-07-04T10:58:24Z,2025-07-05T21:13:09+00:00,1,34.25,True,27,26,2,0,3,0,3,MERGED
+31865,standard-tests: Bump ruff version to 0.12,cbornet,2025-07-04T10:53:30Z,2025-07-05T21:12:01+00:00,1,34.31,True,28,27,2,0,3,0,3,MERGED
+31864,cli: Bump ruff version to 0.12,cbornet,2025-07-04T10:50:03Z,2025-07-05T21:15:24+00:00,1,34.42,True,48,40,3,0,3,0,3,MERGED
+31863,cli: Ruff autofixes,cbornet,2025-07-04T08:46:16Z,2025-07-07T14:06:34+00:00,1,77.34,True,157,196,17,34,3,0,3,MERGED
+31862,standard-tests: Ruff autofixes,cbornet,2025-07-04T08:13:03Z,2025-07-07T14:27:39+00:00,1,78.24,True,119,177,19,34,3,0,3,MERGED
+31859,langchain[patch]: harden xml parser for xmloutput agent,eyurtsev,2025-07-03T22:34:43Z,2025-07-08T14:57:21+00:00,2,112.38,True,205,28,4,65,3,0,3,MERGED
+31858,text-splitters: Ruff autofixes,cbornet,2025-07-03T21:50:59Z,2025-07-07T14:06:08+00:00,1,88.25,True,121,123,16,34,4,0,4,MERGED
+31857,core: Cleanup pyproject,cbornet,2025-07-03T21:17:53Z,2025-07-07T17:30:48+00:00,2,92.22,True,26,19,4,60,5,0,5,MERGED
+31856,fix: update all create_retrieval_chain import paths and add utility script,BorisQuanLi,2025-07-03T19:51:40Z,2025-07-05T22:01:16+00:00,1,50.16,False,74,23,13,786,3,0,3,CLOSED
+31840,Update sql_qa.ipynb,waqarahmed6095,2025-07-03T12:49:58Z,2025-07-03T15:09:16+00:00,1,2.32,False,1,1,1,65,3,0,3,CLOSED
+31836,docs: Integration with GreenNode Serverless AI,viethq5,2025-07-03T07:04:02Z,2025-07-05T17:48:35+00:00,1,58.74,True,1297,0,5,1584,4,0,4,MERGED
+31834,text-splitters: bump spacy version to 3.8.7,cbornet,2025-07-02T23:06:37Z,2025-07-03T14:13:25+00:00,1,15.11,True,230,240,2,41,3,0,3,MERGED
+31827,refactor(core): optimize `_first_max_tokens` with linear scan,dubin555,2025-07-02T15:06:56Z,2025-08-12T20:40:21+00:00,1,989.56,False,7,25,1,10292,6,0,6,CLOSED
+31825,fix(core): add type key when tracing in some cases,ccurme,2025-07-02T14:00:32Z,2025-07-22T18:08:16+00:00,1,484.13,True,82,16,2,618,3,1,4,MERGED
+31823,core: Add MinifiedPydanticOutputParser to Optimize Token Usage in LLM Outputs 🚀,JulienStitelet,2025-07-02T09:08:38Z,2025-07-02T14:18:51+00:00,1,5.17,False,922,0,3,1813,4,0,4,CLOSED
+31822,fix[core]: added error message if the query vector or embedding contains NaN values,azhagammal96,2025-07-02T05:08:49Z,2025-07-09T22:30:26+00:00,1,185.36,True,7,10,2,354,3,0,3,MERGED
+31820,docs: Update agents.ipynb,ojumah20,2025-07-01T22:02:56Z,2025-07-02T14:42:28+00:00,1,16.66,True,14,0,1,1732,3,0,3,MERGED
+31819,text-splitters[patch]: Remove xslt_path and harden XML parsers in HTMLSectionSplitter,ColeMurray,2025-07-01T21:48:15Z,2025-07-02T19:24:08+00:00,1,21.6,True,146,47,3,1431,3,0,3,MERGED
+31818,langchain[patch]: Add bandit rules,mdrxy,2025-07-01T21:15:02Z,2025-07-03T18:20:33+00:00,4,45.09,True,151,108,15,218,4,3,7,MERGED
+31817,"This PR introduces a new loader class, `UniversalDocumentLoader`, which follows the **Strategy Pattern** to dynamically delegate document loading to the appropriate loader class based on the file type. It aims to simplify file ingestion in LangChain applications that deal with a variety of document formats (e.g., PDF, RTF, TXT).",aiml-learning-design,2025-07-01T20:00:24Z,2025-07-02T14:41:48+00:00,1,18.69,False,282,0,4,1411,4,0,4,CLOSED
+31813,core[path]: Use context manager for FileCallbackHandler,eyurtsev,2025-07-01T18:24:18Z,2025-07-02T17:31:58+00:00,3,23.13,True,198,77,3,98,3,1,4,MERGED
+31801,groq: Add service tier option to ChatGroq,mdrxy,2025-07-01T13:47:54Z,2025-07-03T14:11:18+00:00,7,48.39,True,138,4,4,53,5,2,7,MERGED
+31796,langchain-fireworks[patch]: Add ruff bandit rules to linter,mdrxy,2025-07-01T02:21:57Z,2025-07-01T15:07:26+00:00,2,12.76,True,1465,1442,5,42,3,1,4,MERGED
+31794,"Enhance SECURITY.md with threat modeling, injection defenses, and memory safety",Marysol-G,2025-06-30T19:10:58Z,2025-07-09T13:43:49+00:00,1,210.55,False,65,0,1,746,4,1,5,CLOSED
+31792,langchain-deepseek[patch]: add ruff bandit rules,mdrxy,2025-06-30T15:28:08Z,2025-06-30T17:59:35+00:00,1,2.52,True,7,1,1,21,3,0,3,MERGED
+31790,chroma: add ruff bandit rules,mdrxy,2025-06-30T15:02:44Z,2025-06-30T18:00:08+00:00,1,2.96,True,8,2,2,0,3,0,3,MERGED
+31789,langchain-anthropic[patch]: Add ruff bandit rules,mdrxy,2025-06-30T14:58:50Z,2025-06-30T18:00:53+00:00,1,3.03,True,15,8,5,0,3,0,3,MERGED
+31788,langchain-openai[patch]: Add ruff bandit rules to linter,mdrxy,2025-06-30T14:43:54Z,2025-06-30T18:01:33+00:00,1,3.29,True,23,13,4,0,3,0,3,MERGED
+31786,docs: Update vectorstores feature matrix for Qdrant,Anush008,2025-06-30T13:50:06Z,2025-06-30T18:02:07+00:00,1,4.2,True,2,2,1,132,3,0,3,MERGED
+31784,"ollama: add `validate_model_on_init`, catch more errors",mdrxy,2025-06-30T13:08:04Z,2025-07-03T15:07:11+00:00,8,73.99,True,188,3,10,263,4,9,13,MERGED
+31782,fix(openai): update `AzureOpenAIEmbeddings` validation logic for `openai_api_base`,aasishraj,2025-06-30T11:54:02Z,2025-09-10T18:53:30+00:00,2,1734.99,True,9,7,1,95,3,1,4,MERGED
+31772,"ollama: thinking, tool streaming, docs, tests",mdrxy,2025-06-28T06:13:57Z,2025-07-07T17:56:41+00:00,11,227.71,True,628,211,14,549,4,20,24,MERGED
+31771,docs: add PredictionGuardRerank integration,jmansdorfer,2025-06-27T18:37:46Z,2025-10-03T03:19:13+00:00,4,2336.69,False,1001,273,5,196,4,5,9,CLOSED
+31759,docs: enhance docstring for `disable_streaming` parameter in BaseChatModel,mdrxy,2025-06-26T23:23:00Z,2025-06-27T15:27:41+00:00,4,16.08,True,8,2,1,15,3,3,6,MERGED
+31756,openai[fix]: Correctly set usage metadata for OpenAI Responses API,MrJaeger,2025-06-26T20:17:17Z,2025-06-27T15:35:15+00:00,1,19.3,True,68,6,3,166,3,0,3,MERGED
+31754,"groq: support `reasoning_effort`, update docs for clarity",mdrxy,2025-06-26T19:31:45Z,2025-06-27T13:43:40+00:00,1,18.2,True,72,32,6,253,3,1,4,MERGED
+31747,Update pydantic_compatibility.md,jigarvyasidea,2025-06-26T15:16:32Z,2025-06-26T17:31:24+00:00,1,2.25,False,42,6,1,512,3,0,3,CLOSED
+31746, Added chatbot example using LangChain and Gemini API,imanavpathak,2025-06-26T14:26:29Z,2025-06-26T17:54:11+00:00,2,3.46,False,43,0,1,676,6,0,6,CLOSED
+31739,Add Stability Toolkit integration - Zero gas blockchain tools for AI agents,nuljui,2025-06-26T01:13:55Z,2025-06-26T20:00:22+00:00,1,18.77,False,0,0,0,1940,5,0,5,CLOSED
+31734,openai[patch]: add attribute to always use previous_response_id,ccurme,2025-06-25T16:05:50Z,2025-06-25T19:01:44+00:00,1,2.93,True,170,1,3,929,3,2,5,MERGED
+31720,ci: limit time for each codspeed benchmark with flag,sydney-runkle,2025-06-24T20:00:27Z,2025-07-07T14:29:34+00:00,2,306.49,False,2,2,1,44,3,1,4,CLOSED
+31719,"[docs] Update couchbase provider, vector store & features list",nithishr,2025-06-24T18:56:59Z,2025-07-05T17:34:48+00:00,4,262.63,True,252,73,3,687,4,1,5,MERGED
+31703,standard-tests: refactoring and fixes,mdrxy,2025-06-23T14:54:11Z,2025-06-23T23:22:31+00:00,9,8.47,True,631,611,3,698,5,7,12,MERGED
+31698,openai[patch]: fix client caching when request_timeout is specified via httpx.Timeout,ccurme,2025-06-21T19:16:29Z,2025-06-23T14:37:50+00:00,1,43.36,True,71,4,2,15,3,0,3,MERGED
+31692,docs: Add section on tool choice,mdrxy,2025-06-20T21:51:00Z,2025-06-23T15:31:50+00:00,1,65.68,True,11,1,2,65,3,1,4,MERGED
+31689,docs: add tool_calls attribute link in tool calling documentation and indicate output is a list in code example,mdrxy,2025-06-20T18:40:30Z,2025-06-23T15:31:27+00:00,1,68.85,True,2,2,1,129,3,0,3,MERGED
+31686,openai[patch]: allow specification of output format for Responses API,ccurme,2025-06-20T16:29:38Z,2025-06-26T17:41:44+00:00,4,145.2,True,328,35,14,574,3,2,5,MERGED
+31676,refactor_agent,carlosrinc,2025-06-19T16:05:08Z,2025-06-20T14:58:06+00:00,1,22.88,False,90,45,1,666,4,0,4,CLOSED
+31671,Update huggingface.mdx,jigarvyasidea,2025-06-19T13:02:30Z,2025-06-26T15:30:49+00:00,1,170.47,False,100,65,1,1452,5,0,5,CLOSED
+31667,langchain_mistralai: Include `finish_reason` in response metadata when parsing MistralAI chunks to`AIMessageChunk`,Saran33,2025-06-19T01:31:31Z,2025-06-20T19:41:20+00:00,1,42.16,True,2,1,1,315,5,0,5,MERGED
+31665,docs: OPENAI_API_KEY typo in google_serper.ipynb,TonyGravagno,2025-06-18T22:06:38Z,2025-06-20T15:02:14+00:00,1,40.93,True,1,1,1,16,4,0,4,MERGED
+31662,groq: add support for accessing reasoning output from Groq models,mdrxy,2025-06-18T19:19:08Z,2025-06-23T15:33:12+00:00,5,116.23,True,72,2,2,298,4,5,9,MERGED
+31656,Fix fallback when insufficient arguments is passed,x612skm,2025-06-18T13:24:58Z,2025-06-20T15:19:27+00:00,1,49.91,False,25,12,1,1206,4,0,4,CLOSED
+31655,[Doc] Improve api doc for DeepSeek,ZhangShenao,2025-06-18T12:52:56Z,2025-06-20T19:47:55+00:00,3,54.92,True,8,1,1,38,3,1,4,MERGED
+31654,docs: upgrade langfuse example to python sdk v3,jannikmaierhoefer,2025-06-18T11:23:55Z,2025-06-18T17:30:39+00:00,1,6.11,True,28,12,1,162,3,0,3,MERGED
+31652,docsFix documentation where triggering image generation from openai,tanmaysinghal98,2025-06-18T07:58:48Z,2025-06-18T17:31:47+00:00,1,9.55,True,1,1,1,59,3,0,3,MERGED
+31650,Fix: Ensure Unique Document IDs Across Chroma Collections,moonrunnerkc,2025-06-18T03:07:29Z,2025-06-18T20:11:19+00:00,1,17.06,False,44,0,2,397,4,0,4,CLOSED
+31649,"core[patch]: Add additional hashing options to indexing API, warn on SHA-1",eyurtsev,2025-06-18T02:18:28Z,2025-06-24T18:44:06+00:00,4,160.43,True,285,195,5,147,3,5,8,MERGED
+31643,fix(chroma): add missing Euclidean relevance-score function,mohiuddin-khan-shiam,2025-06-17T18:49:15Z,2025-09-09T15:38:30+00:00,1,2012.82,False,10,0,1,859,5,0,5,CLOSED
+31639,core: Improve `RunnableWithMessageHistory` init arg types,cbornet,2025-06-17T18:00:07Z,2025-06-23T17:45:53+00:00,7,143.76,True,15,12,4,296,3,2,5,MERGED
+31638,fix: correct typo in docstring for three_values fixture,mdrxy,2025-06-17T17:27:54Z,2025-06-17T20:51:08+00:00,1,3.39,True,2,2,1,35,3,0,3,MERGED
+31636,[Doc] Improve api doc for perplexity,ZhangShenao,2025-06-17T12:36:02Z,2025-06-17T14:10:44+00:00,1,1.58,True,647,19,2,38,4,0,4,MERGED
+31630,langchain: add missing milvus branch for self_query,NiuBlibing,2025-06-17T02:26:02Z,2025-06-17T13:21:55+00:00,1,10.93,True,8,0,1,10,3,0,3,MERGED
+31629,core and langchain: Remove upper bound restriction langsmith dependency,EugeneJinXin,2025-06-16T22:32:12Z,2025-06-17T13:19:03+00:00,1,14.78,True,16,171,5,400,3,0,3,MERGED
+31626,chore: Bump langsmith in splitter uv,EugeneJinXin,2025-06-16T21:32:07Z,2025-06-16T23:58:46+00:00,1,2.44,True,6,161,1,299,3,0,3,MERGED
+31622,text-splitters: fix stale header metadata in ExperimentalMarkdownSyntaxTextSplitter,raghukapur9,2025-06-16T03:37:33Z,2025-06-20T19:52:17+00:00,1,112.25,True,62,11,2,780,4,0,4,MERGED
+31621,docs(rockset): add deprecation notice for Rockset integration,shivnathtathe,2025-06-16T03:12:44Z,2025-06-16T22:17:27+00:00,1,19.08,True,14,1,1,364,3,0,3,MERGED
+31619,openai[patch]:  Improve error message when response type is malformed,LKChenLK,2025-06-15T16:42:54Z,2025-06-21T18:15:21+00:00,1,145.54,True,17,5,1,448,5,0,5,MERGED
+31618,[Docs] Update deprecated Pydantic .schema() method to .model_json_schema() in How to convert Runnables to Tools guide,97tkddnjs,2025-06-15T14:30:27Z,2025-06-20T20:43:59+00:00,1,126.23,True,13,12,1,480,3,0,3,MERGED
+31616,mistralai[patch]: Fix Typos in Comments and Improve Compatibility Note,zeevick10,2025-06-15T11:46:37Z,2025-06-17T13:23:25+00:00,1,49.61,True,2,2,1,377,3,0,3,MERGED
+31615,docs: update deprecated .schema() to .model_json_schema() in tool_run…,shivnathtathe,2025-06-15T04:24:00Z,2025-06-16T22:07:18+00:00,1,41.72,True,8,8,1,302,3,0,3,MERGED
+31614,core: fix document hash collisions across different vector store collections,00LAVA00,2025-06-14T16:12:23Z,2025-06-20T15:40:27+00:00,1,143.47,False,79,5,2,1304,4,0,4,CLOSED
+31612,docs: Fix Typos in Vectorstore Integration Documentation Notebooks,vtjl10,2025-06-14T12:19:24Z,2025-06-14T20:40:18+00:00,1,8.35,True,2,2,2,349,3,0,3,MERGED
+31611,huggingface: handle image-text-to-text pipeline task,peteryschneider,2025-06-14T05:45:53Z,2025-06-14T20:41:12+00:00,1,14.92,True,5,2,1,81,3,0,3,MERGED
+31608,fix: fixing missing Docstring Bug if no Docstring is provided in BaseModel class,keenborder786,2025-06-14T01:08:49Z,2025-07-16T15:56:06+00:00,2,782.79,True,14,1,2,173,8,1,9,MERGED
+31600,core: fix `get_buffer_string` output for structured message content,mshavliuk,2025-06-13T06:25:25Z,2025-06-20T23:21:50+00:00,4,184.94,True,63,1,2,442,3,3,6,MERGED
+31595,docs: update multimodal PDF and image usage for gpt-4.1,dayvidborges,2025-06-12T23:50:28Z,2025-06-14T21:52:01+00:00,1,46.03,True,120,57,2,797,6,0,6,MERGED
+31594,bump langsmith to allow 0.4,EugeneJinXin,2025-06-12T22:28:04Z,2025-06-13T14:59:42+00:00,2,16.53,True,28,25,4,136,3,1,4,MERGED
+31591,"core: In LangChainTracer, send only the first token event",nfcampos,2025-06-12T19:56:54Z,2025-06-12T21:04:24+00:00,2,1.12,True,6,0,1,40,3,1,4,MERGED
+31588,text-splitters: Add keep_separator arg to HTMLSemanticPreservingSplitter,Tom-Trumper,2025-06-12T17:27:06Z,2025-06-14T21:56:14+00:00,1,52.49,True,152,1,2,1574,3,0,3,MERGED
+31583,langchain[patch]: smith.evaluation.progress.ProgressBarCallback: Make output after progress bar ends configurable,dennism-tulcolabs,2025-06-12T14:27:07Z,2025-06-20T23:24:35+00:00,1,200.96,True,7,2,1,1581,4,0,4,MERGED
+31580,openai[patch]: fix dropping response headers while streaming / Azure,joshy-deshaw,2025-06-12T13:12:04Z,2025-06-23T21:59:58+00:00,2,272.8,True,2,1,1,292,5,0,5,MERGED
+31577,feat(core): update `graph_mermaid.py`,chgjin,2025-06-12T08:06:45Z,2025-09-11T17:01:29+00:00,1,2192.91,False,2,1,1,656,6,0,6,CLOSED
+31572,core[patch]: Int Combine when Merging Dicts,keenborder786,2025-06-11T23:59:28Z,2025-07-04T18:44:16+00:00,2,546.75,True,10,0,2,94,7,0,7,MERGED
+31566,"docs: fix usage of trim_messages in ""Managing Conversation History"" section of chatbot tutorial",rawathemant246,2025-06-11T16:03:28Z,2025-06-14T22:09:48+00:00,1,78.11,False,14,12,1,657,3,0,3,CLOSED
+31561,langchain[patch]: Allow specifying other hashing functions in embeddings,eyurtsev,2025-06-11T02:04:13Z,2025-06-11T14:18:08+00:00,4,12.23,True,190,14,2,54,3,2,5,MERGED
+31556,PR Title Suggestion: openai: Fix AttributeError for single tool_call in additional_kwargs 31521,kolasaniv1996,2025-06-10T18:21:30Z,2025-06-10T20:33:34+00:00,1,2.2,False,0,0,0,1756,5,0,5,CLOSED
+31554,docs: Updated text embedding model for IBM provider,MateuszOssGit,2025-06-10T14:42:03Z,2025-06-10T19:41:36+00:00,1,4.99,True,5,5,1,119,3,0,3,MERGED
+31553,docs: Update MongoDB feature status,blink1073,2025-06-10T11:22:02Z,2025-06-10T19:42:18+00:00,1,8.34,True,1,1,1,193,3,0,3,MERGED
+31548,docs: update graph_rag.mdx,ccmien,2025-06-10T03:40:02Z,2025-06-10T19:43:30+00:00,1,16.06,True,4,4,1,33,3,0,3,MERGED
+31547,docs: update Exa integration examples,jacobpedd,2025-06-09T21:33:12Z,2025-06-10T01:24:42+00:00,1,3.86,True,288,629,2,519,3,0,3,MERGED
+31541,langchain[patch]: Remove proxy imports to langchain_experimental,eyurtsev,2025-06-09T18:49:14Z,2025-06-09T21:09:09+00:00,1,2.33,True,22,61,1,264,3,1,4,MERGED
+31537,"docs: fix grammar in retrievers.mdx (""be built"" → ""build"")",zameel7,2025-06-09T05:03:26Z,2025-06-09T20:29:15+00:00,1,15.43,True,1,1,1,290,3,0,3,MERGED
+31528,core[patch]: Returning always 2D Array for _cosine_similarity,keenborder786,2025-06-08T01:47:10Z,2025-06-20T15:25:02+00:00,3,301.63,True,167,1,2,90,7,1,8,MERGED
+31527,doc:Updating doc with consistent bullet format.,mrityu-jha,2025-06-07T08:04:28Z,2025-06-10T19:45:11+00:00,1,83.68,True,5,5,1,327,4,0,4,MERGED
+31526,docs: Update Multi_modal_RAG_google.ipynb to remove the unsupported Gemini models,soumendrak,2025-06-07T06:47:30Z,2025-06-10T01:26:02+00:00,1,66.64,True,4,4,1,193,4,0,4,MERGED
+31523,feat(anthropic): support `cache_control` as a kwarg,ccurme,2025-06-06T22:12:49Z,2025-08-12T20:18:24+00:00,2,1606.09,True,111,3,2,648,3,0,3,MERGED
+31522,openai[patch]: accommodate change in image generation API,ccurme,2025-06-06T17:54:03Z,2025-06-09T18:57:46+00:00,2,73.06,True,16,6,2,289,3,0,3,MERGED
+31513,core: Use parametrized test in test_correct_get_tracer_project,cbornet,2025-06-06T12:33:51Z,2025-06-23T22:55:58+00:00,1,418.37,True,51,57,1,0,3,0,3,MERGED
+31509,fix: typo in SECURITY.md (practicies -> practices),nakanoh,2025-06-06T01:01:31Z,2025-06-06T12:42:02+00:00,5,11.68,True,3,3,1,173,3,0,3,MERGED
+31506,"docs:Adding line breaks to better explain each step, also making sure that bulleting style is consistent with other docs.",mrityu-jha,2025-06-05T20:19:20Z,2025-06-06T12:43:16+00:00,1,16.4,True,4,4,1,301,3,0,3,MERGED
+31500,core: use run tree post/patch,lc-arjun,2025-06-05T15:04:37Z,2025-06-05T21:05:57+00:00,1,6.02,True,1632,1655,7,18,3,0,3,MERGED
+31498,docs: updated incorrect datatype for custom tool notebook,mrityu-jha,2025-06-05T12:45:12Z,2025-06-05T15:40:52+00:00,1,2.93,True,1,1,1,251,3,0,3,MERGED
+31494,Update index.mdx,Jayanth-sanku,2025-06-05T06:32:35Z,2025-06-26T17:47:24+00:00,1,515.25,False,2,0,1,1485,6,0,6,CLOSED
+31488,Docs: Amazon Textract Page - removing a redundancy and fixing a title,ahmadelmalah,2025-06-04T08:14:59Z,2025-06-04T14:26:52+00:00,1,6.2,True,2,2,1,60,3,0,3,MERGED
+31484,anthropic[patch]: cache tokens nit,baskaryan,2025-06-03T15:56:48Z,2025-06-05T20:15:03+00:00,1,52.3,True,6,5,1,61,3,0,3,MERGED
+31481,docs: fix lets typos in multiple files,MichaelLi65535,2025-06-03T14:06:38Z,2025-06-04T14:27:16+00:00,2,24.34,True,11,11,7,8,7,0,7,MERGED
+31478,docs: fix grammar and typo issues in async_html.ipynb and azure_blob_storage_file.ipynb,MichaelLi65535,2025-06-03T13:50:16Z,2025-06-04T14:27:44+00:00,1,24.62,True,2,2,2,0,3,0,3,MERGED
+31476,docs: fix grammar issues in airbyte_typeform.ipynb and airbyte_zendes…,MichaelLi65535,2025-06-03T13:35:16Z,2025-06-04T14:28:32+00:00,1,24.89,True,4,4,2,0,3,0,3,MERGED
+31475,Docs: Textract Integration Page  - Fixing a typo,ahmadelmalah,2025-06-03T12:05:22Z,2025-06-03T14:10:40+00:00,1,2.09,True,1,1,1,53,3,0,3,MERGED
+31472,docs: Update Milvus feature table,zc277584121,2025-06-03T04:00:00Z,2025-06-03T20:56:53+00:00,1,16.95,True,4,4,1,771,3,0,3,MERGED
+31468,feat(perplexity): expose `search_results` in chat model,inacionery,2025-06-02T21:18:03Z,2025-07-16T19:16:35+00:00,3,1053.98,True,131,16,3,529,5,5,10,MERGED
+31467,Docs: Updating Microsoft Provider Documentation to Include Azure AI ,marlenezw,2025-06-02T16:54:14Z,2025-06-04T14:23:01+00:00,2,45.48,True,58,3,1,166,7,0,7,MERGED
+31464,docs: fix grammar issues in airbyte_json.ipynb and airbyte_salesforce.ipynb,MichaelLi65535,2025-06-02T13:23:33Z,2025-06-02T16:43:27+00:00,1,3.33,True,4,4,2,11,3,0,3,MERGED
+31463,docs: fix grammar issues in airbyte_gong.ipynb and airbyte_hubspot.ipynb,MichaelLi65535,2025-06-02T13:15:32Z,2025-06-02T16:43:58+00:00,1,3.47,True,2,2,2,11,3,0,3,MERGED
+31462,docs: fix grammar issues in wechat.ipynb and airbyte_cdk.ipynb,MichaelLi65535,2025-06-02T13:12:16Z,2025-06-02T16:44:23+00:00,1,3.54,True,3,3,2,11,3,0,3,MERGED
+31461,docs: fix grammar issues in slack.ipynb and telegram.ipynb,MichaelLi65535,2025-06-02T13:06:43Z,2025-06-02T16:45:33+00:00,1,3.65,True,4,4,2,11,3,0,3,MERGED
+31457,fix(langchain): added validation for `LLMListwiseRerank `,DattatrayUgale,2025-06-02T07:51:26Z,2025-08-01T22:24:48+00:00,1,1454.56,False,3,0,1,429,7,1,8,CLOSED
+31449,docs: fix typo in local_llms.ipynb,JeelPatel231,2025-05-31T18:52:14Z,2025-06-01T14:50:30+00:00,1,19.97,True,1,1,1,146,3,0,3,MERGED
+31448,docs: replace initialize_agent with create_react_agent in fake_llm example,likithsarma,2025-05-31T07:29:47Z,2025-05-31T17:57:32+00:00,1,10.46,False,7,8,1,434,3,0,3,CLOSED
+31447,docs: fix a typo,tiansiyuan,2025-05-31T07:22:45Z,2025-05-31T17:55:07+00:00,2,10.54,True,1,1,1,1406,3,0,3,MERGED
+31442,docs: fix grammar issues in facebook.ipynb and langsmith_dataset.ipynb,MichaelLi65535,2025-05-30T17:52:01Z,2025-05-30T21:48:46+00:00,1,3.95,True,3,3,2,1406,3,0,3,MERGED
+31441,docs: fix grammar errors in yi.ipynb and zhipuai.ipynb,MichaelLi65535,2025-05-30T17:35:23Z,2025-05-30T21:49:11+00:00,1,4.23,True,3,3,2,1406,3,0,3,MERGED
+31439,docs: fix grammar and vocabulary errors in vllm.ipynb and volcengine_maas.ipynb,MichaelLi65535,2025-05-30T17:22:23Z,2025-05-30T21:50:07+00:00,1,4.46,True,3,3,2,1406,3,0,3,MERGED
+31438,docs: fix grammar issues in tencent_hunyuan.ipynb and together.ipynb,MichaelLi65535,2025-05-30T17:10:35Z,2025-05-30T21:51:11+00:00,1,4.68,True,7,7,2,1406,3,0,3,MERGED
+31431,fix: module 'defusedxml' has no attribute 'ElementTree' (#31429),yosheng,2025-05-30T02:35:26Z,2025-06-02T18:09:23+00:00,5,87.57,True,5,3,1,0,4,4,8,MERGED
+31427,docs: fix vectara description at https://python.langchain.com/docs/integrations/tools/ All tools section,MichaelLi65535,2025-05-29T22:55:56Z,2025-05-30T21:51:33+00:00,1,22.93,True,0,2,1,1443,3,0,3,MERGED
+31426,docs: fix naver_search description at https://python.langchain.com/docs/integrations/tools/ All tools section,MichaelLi65535,2025-05-29T22:51:21Z,2025-05-30T21:51:55+00:00,1,23.01,True,1,1,1,1448,3,0,3,MERGED
+31425,standard-tests: migrate to pytest-recording,ccurme,2025-05-29T20:49:09Z,2025-05-31T19:21:15+00:00,4,46.53,True,180,114,15,0,5,2,7,MERGED
+31424,openai[minor]: add image generation to responses api,eyurtsev,2025-05-29T20:42:01Z,2025-06-02T14:03:54+00:00,4,89.36,True,1595,1438,6,177,3,2,5,MERGED
+31418,feat(groq): add TranscriptionGroq for Whisper transcription support,Krishnaugale353,2025-05-29T17:11:14Z,2025-05-29T19:36:02+00:00,1,2.41,False,5181,1106,12,492,3,0,3,CLOSED
+31417,docs: fix grammar and vocabulary issue in reka.ipynb,MichaelLi65535,2025-05-29T16:36:33Z,2025-05-29T19:25:45+00:00,1,2.82,True,2,2,1,11,3,0,3,MERGED
+31415,docs: fix misspelled word in kinetica.ipynb and nvidia_ai_endpoints.ipynb,MichaelLi65535,2025-05-29T16:17:20Z,2025-05-29T19:41:38+00:00,1,3.4,True,2,2,2,0,3,0,3,MERGED
+31414,docs: fix grammar multiple docs,MichaelLi65535,2025-05-29T16:04:02Z,2025-05-29T19:32:37+00:00,1,3.48,False,214,214,155,1406,3,0,3,CLOSED
+31413,"langchain : set tool_choice=""required"" for Azure OpenAI compatibility and to make sure final response is always in required  format for with_structured_output",samueljohnsiby,2025-05-29T15:57:48Z,2025-05-29T19:40:58+00:00,1,3.72,False,1,1,1,390,3,0,3,CLOSED
+31412,docs: fix grammar issue in assign.ipynb and fireworks.ipynb,MichaelLi65535,2025-05-29T15:56:36Z,2025-05-29T19:55:36+00:00,1,3.98,True,3,3,2,0,3,0,3,MERGED
+31402,[OpenAI]: Encoding Model,keenborder786,2025-05-28T23:36:06Z,2025-06-10T20:00:01+00:00,5,308.4,True,6,2,1,132,8,1,9,MERGED
+31400,doc: fix grammar in writer.ipynb,MichaelLi65535,2025-05-28T17:22:13Z,2025-05-29T20:03:17+00:00,1,26.68,True,3,3,1,1406,3,0,3,MERGED
+31399,docs: fix grammar in xai.ipynb,MichaelLi65535,2025-05-28T17:11:48Z,2025-05-28T18:22:30+00:00,1,1.18,True,6,6,1,14,1,0,1,MERGED
+31396,langchain-core: Add image_generation tool to list of known openai tools,eyurtsev,2025-05-28T15:09:12Z,2025-05-29T17:13:22+00:00,3,26.07,True,19,7,1,276,1,2,3,MERGED
+31393,anthropic: store cache ttl details on usage metadata,ccurme,2025-05-28T13:18:57Z,2025-05-28T17:52:37+00:00,1,4.56,True,7,0,1,0,1,0,1,MERGED
+31388,docs: fix typo,yilinjuang,2025-05-28T08:17:05Z,2025-05-28T16:12:16+00:00,1,7.92,True,1,1,1,40,1,0,1,MERGED
+31387,docs: enhance Salesforce Toolkit documentation,colesmcintosh,2025-05-28T02:06:35Z,2025-06-02T15:01:22+00:00,3,132.91,True,89,36,1,1281,3,3,6,MERGED
+31386,Docs: fix parameter names in ChatSnowflakeCortex example to match implementation,ningargiola,2025-05-28T01:18:11Z,2025-06-02T16:54:23+00:00,1,135.6,False,7,7,1,233,3,1,4,CLOSED
+31385,huggingface: fix HuggingFaceEndpoint._astream() got multiple values for argument 'stop',m27315,2025-05-27T23:37:07Z,2025-07-06T15:18:53+00:00,2,951.7,True,6,4,1,3043,5,0,5,MERGED
+31375,docs: fix grammar in multiple docs,MichaelLi65535,2025-05-27T16:34:15Z,2025-05-28T16:12:56+00:00,2,23.64,True,38,38,38,28,3,0,3,MERGED
+31374,docs: fix naver_search and vectara descriptions at https://python.langchain.com/docs/integrations/tools/ All tools section,MichaelLi65535,2025-05-27T16:27:22Z,2025-05-29T22:59:52+00:00,1,54.54,False,1,7,2,1461,3,1,4,CLOSED
+31373,docs: fix google_books and memgraph descriptions at https://python.langchain.com/docs/integrations/tools/ All tools section,MichaelLi65535,2025-05-27T16:21:54Z,2025-05-27T19:57:57+00:00,1,3.6,True,0,11,2,1462,1,0,1,MERGED
+31372,docs: fix wikipedia description at https://python.langchain.com/docs/integrations/retrievers/ All retrievers section,MichaelLi65535,2025-05-27T16:16:42Z,2025-05-27T19:59:14+00:00,1,3.71,True,0,1,1,1455,1,0,1,MERGED
+31371,docs: fix pdfloaders' descriptions at https://python.langchain.com/docs/integrations/document_loaders/ All document loaders section,MichaelLi65535,2025-05-27T16:10:49Z,2025-05-27T19:56:56+00:00,1,3.77,True,3,4,2,1470,1,0,1,MERGED
+31370,docs: fix scrapfly and scrapingant descriptions at https://python.langchain.com/docs/integrations/document_loaders/ All document loaders section,MichaelLi65535,2025-05-27T16:05:58Z,2025-05-27T19:57:39+00:00,1,3.86,True,0,2,2,1483,1,0,1,MERGED
+31369,docs: fix blockchain and mintbase descriptions at https://python.langchain.com/docs/integrations/document_loaders/ All document loaders section,MichaelLi65535,2025-05-27T15:55:00Z,2025-05-27T19:56:33+00:00,1,4.03,True,0,18,2,1482,1,0,1,MERGED
+31364,Update and simplify Oracle Database example cookbook,cjbj,2025-05-27T06:52:35Z,2025-06-23T23:03:00+00:00,2,664.17,True,146,299,1,220,4,0,4,MERGED
+31363,docs: update Valyu 0.2.0 langchain package,alexngys,2025-05-27T06:49:23Z,2025-05-27T20:06:06+00:00,1,13.28,True,35,23,3,714,1,0,1,MERGED
+31361,docs: replace deprecated `initialize_agent` with `create_react_agent` and non-deprecated functions,tk1475,2025-05-26T14:55:36Z,2025-06-04T14:24:31+00:00,3,215.48,True,49,30,4,348,11,1,12,MERGED
+31360,Docs: Fixing a little typo in extraction tutorial,ahmadelmalah,2025-05-26T12:50:49Z,2025-05-26T19:30:05+00:00,1,6.65,True,1,1,1,42,1,0,1,MERGED
+31358,huggingface: Undefined model_id fix,TheAnkurGoswami,2025-05-26T05:31:13Z,2025-05-29T19:59:35+00:00,3,86.47,True,1,1,1,136,1,1,2,MERGED
+31354,cookbook: Add Bahasa Indonesia RAG starter (BM25+vector) and documentation,alvidofaisal,2025-05-25T12:41:48Z,2025-05-26T19:25:13+00:00,1,30.72,False,422,0,3,679,1,0,1,CLOSED
+31352,docs: fix vocabs and missing redirect links in concepts,with1015,2025-05-25T09:18:18Z,2025-05-26T19:22:36+00:00,1,34.07,True,5,5,4,116,1,0,1,MERGED
+31349,docs: fix model2vec description at https://python.langchain.com/docs/integrations/text_embedding/ All embedding models section,MichaelLi65535,2025-05-24T16:18:00Z,2025-05-26T19:17:29+00:00,1,50.99,True,0,2,1,1467,1,0,1,MERGED
+31347,docs: fix incorrect grammar in octoai.ipynb and predictionguard.ipynb,MichaelLi65535,2025-05-24T14:37:26Z,2025-05-26T19:16:42+00:00,1,52.65,True,196,166,2,1423,1,0,1,MERGED
+31346,docs: fix incorrect grammar and vocabulary in llamacpp.ipynb,MichaelLi65535,2025-05-24T14:11:39Z,2025-05-26T19:12:34+00:00,1,53.02,True,4,4,1,1406,1,0,1,MERGED
+31345,docs: fix incorrect grammar in azure_ai.ipynb,MichaelLi65535,2025-05-24T13:44:29Z,2025-05-26T19:23:34+00:00,1,53.65,True,8,8,1,1406,1,0,1,MERGED
+31344,docs: fix incorrect grammar in abso.ipynb,MichaelLi65535,2025-05-24T13:30:34Z,2025-05-26T19:07:16+00:00,1,53.61,True,4,4,1,1406,1,0,1,MERGED
+31343,docs: fix incorrect grammar and vocabulary in ernie.ipynb,MichaelLi65535,2025-05-24T13:10:29Z,2025-05-26T19:05:24+00:00,1,53.92,True,8,9,1,1406,1,0,1,MERGED
+31341,docs: fix Langgraph Platform URL in Readme file,MichaelLi65535,2025-05-24T03:12:42Z,2025-05-26T18:59:48+00:00,1,63.78,True,1,1,1,1406,1,0,1,MERGED
+31338,docs: add Snowflake vector store integration documentation,sfc-gh-mboos,2025-05-23T18:07:59Z,2025-07-16T15:26:50+00:00,1,1293.31,False,554,0,3,372,4,0,4,CLOSED
+31337,docs: update deprecated doc for solar.ipynb,MichaelLi65535,2025-05-23T16:18:54Z,2025-05-23T20:38:04+00:00,1,4.32,True,9,1,1,1406,1,0,1,MERGED
+31333,langchain[patch]: update AgentType docstring with correct documentation URL,harikrishna553,2025-05-23T12:06:32Z,2025-05-23T20:38:58+00:00,1,8.54,True,1,1,1,500,1,0,1,MERGED
+31332,docs: fix missing 'self' reference in for-loop over documents,DayDang,2025-05-23T10:34:53Z,2025-05-23T20:39:59+00:00,1,10.09,True,1,1,1,69,1,0,1,MERGED
+31329,docs: Fix Memgraph class name ,antejavor,2025-05-23T09:04:27Z,2025-05-23T20:36:39+00:00,1,11.54,True,8,6,3,72,1,0,1,MERGED
+31327,docs: fix truncation of retriever descriptions in overview table,byteakp,2025-05-23T06:54:19Z,2025-05-24T02:14:48+00:00,1,19.34,True,2,0,1,298,1,0,1,MERGED
+31316,docs: fix vectara description at https://python.langchain.com/docs/integrations/chat/ All chat models section,MichaelLi65535,2025-05-22T15:45:49Z,2025-05-23T20:46:53+00:00,1,29.02,True,0,2,1,1448,1,0,1,MERGED
+31315,docs: fix nebula description at https://python.langchain.com/docs/integrations/chat/ All chat models section,MichaelLi65535,2025-05-22T15:42:42Z,2025-05-23T20:47:35+00:00,1,29.08,True,0,1,1,1447,1,0,1,MERGED
+31314,docs: fix maritalk description at https://python.langchain.com/docs/integrations/chat/ All chat models section,MichaelLi65535,2025-05-22T15:38:25Z,2025-05-23T20:48:11+00:00,1,29.16,True,0,2,1,1449,1,0,1,MERGED
+31313,docs: fix ai21 description at https://python.langchain.com/docs/integrations/chat/ All chat models section,MichaelLi65535,2025-05-22T15:32:37Z,2025-05-23T20:49:18+00:00,1,29.28,True,9,5,1,1445,1,0,1,MERGED
+31312,openai[patch]: run _tokenize in background thread in async embedding invocations,ccurme,2025-05-22T13:05:20Z,2025-05-22T14:27:33+00:00,1,1.37,True,4,1,1,0,1,0,1,MERGED
+31307,exa docs and python package update,theishangoswami,2025-05-22T00:23:42Z,2025-05-22T01:33:30+00:00,1,1.16,True,186,19,7,516,1,0,1,MERGED
+31304,openai[patch]: support built-in code interpreter and remote MCP tools,ccurme,2025-05-21T19:48:32Z,2025-05-22T15:47:57+00:00,3,19.99,True,389,14,6,0,1,4,5,MERGED
+31302,standard-tests: add benchmarks,ccurme,2025-05-21T13:46:25Z,2025-05-29T15:21:37+00:00,1,193.59,True,5467,217,32,0,3,0,3,MERGED
+31300,langchain: Fix error in LLMListwiseRerank when Document list is empty,Humus-syr,2025-05-21T03:26:27Z,2025-06-17T14:14:07+00:00,1,658.79,True,4,1,1,522,1,0,1,MERGED
+31299,docs: Fix link to deprecation alternative for ConversationChain in docs,vhxs,2025-05-21T03:09:53Z,2025-05-21T13:31:06+00:00,1,10.35,True,1,4,1,498,1,0,1,MERGED
+31295,docs: fix typo,Arjein,2025-05-20T19:43:48Z,2025-05-20T20:49:21+00:00,1,1.09,True,1,1,1,91,1,0,1,MERGED
+31294,docs: fix broken link,shayaulman,2025-05-20T16:41:20Z,2025-05-20T20:49:51+00:00,1,4.14,True,1,1,1,60,1,0,1,MERGED
+31293,docs: Integration with Nebius AI Studio,Aktsvigun,2025-05-20T15:54:53Z,2025-06-14T20:15:27+00:00,1,604.34,True,1701,1,5,1688,5,0,5,MERGED
+31288,Docs: Fixing a typo in retrievers concepts page ,ahmadelmalah,2025-05-20T10:45:28Z,2025-05-20T13:08:33+00:00,1,2.38,True,1,1,1,60,1,0,1,MERGED
+31286,core: Add mypy strict-equality rule,cbornet,2025-05-20T08:30:55Z,2025-06-02T18:24:36+00:00,4,321.89,True,43,55,13,0,3,4,7,MERGED
+31284,cli: fix typo in doc-string,ako1983,2025-05-20T04:00:14Z,2025-05-20T20:52:18+00:00,1,16.87,True,1,1,1,8,1,1,2,MERGED
+31276,feat: add Desearch integration,changelia,2025-05-19T11:51:32Z,2025-08-11T21:20:21+00:00,1,2025.48,False,338,0,2,0,5,1,6,CLOSED
+31274,docs: Update flashrank-reranker.ipynb,xu-song,2025-05-19T02:54:53Z,2025-05-19T14:11:15+00:00,1,11.27,True,1,1,1,85,1,0,1,MERGED
+31272,docs: replace deprecated load_tools in google_jobs.ipynb,MichaelLi65535,2025-05-18T19:59:50Z,2025-05-19T22:58:31+00:00,1,26.98,True,171,73,1,1406,1,0,1,MERGED
+31270,docs: clarify hub.pull behavior with non-US LangSmith endpoints,Humus-syr,2025-05-18T17:05:20Z,2025-05-19T23:06:37+00:00,1,30.02,True,5,1,1,446,1,0,1,MERGED
+31268,huggingface[major]: Reduce disk footprint by 95% by making large dependencies optional,Simon-Stone,2025-05-17T22:46:12Z,2025-06-05T16:04:20+00:00,1,449.3,True,7,3,1,1301,7,0,7,MERGED
+31260,openai: cache httpx client,ccurme,2025-05-16T19:52:59Z,2025-05-29T18:03:06+00:00,1,310.17,True,80,2,2,0,3,0,3,MERGED
+31251,partners: update deps for langchain-chroma,jairad26,2025-05-15T15:57:45Z,2025-05-15T19:55:16+00:00,1,3.96,True,192,51,3,644,3,0,3,MERGED
+31250,community: add Featherless.ai integration,DarinVerheijke,2025-05-15T15:27:03Z,2025-05-19T14:40:25+00:00,3,95.22,True,323,0,3,216,4,1,5,MERGED
+31247,docs: add UQLM as a provider,dylanbouchard,2025-05-15T14:03:24Z,2025-06-02T14:21:58+00:00,1,432.31,False,187,0,2,504,4,0,4,CLOSED
+31244,Feature/desearch integration,changelia,2025-05-15T09:51:37Z,2025-05-15T15:05:50+00:00,1,5.24,False,884,0,12,1406,1,0,1,CLOSED
+31242,docs: Update confluence code blocks with all the latest changes and update documentation,shashankboosi,2025-05-15T07:32:24Z,2025-05-16T13:47:07+00:00,1,30.25,True,56,12,1,354,1,0,1,MERGED
+31241,Update sql_large_db.ipynb,renchao8697,2025-05-15T03:08:31Z,2025-05-15T15:07:51+00:00,1,11.99,True,4,4,1,1441,1,0,1,MERGED
+31240,docs: Update langchain-anthropic version for tutorial with web search tool,ABCbum,2025-05-14T17:18:44Z,2025-05-14T18:19:32+00:00,1,1.01,True,11,1,1,1345,1,0,1,MERGED
+31237,build(deps): bump actions/setup-node from 3 to 4,dependabot,2025-05-14T15:41:55Z,2025-05-14T18:43:19+00:00,1,3.02,True,1,1,1,4091,1,0,1,MERGED
+31236,build(deps): bump Ana06/get-changed-files from 2.2.0 to 2.3.0,dependabot,2025-05-14T15:41:54Z,2025-05-15T20:08:16+00:00,2,28.44,True,2,2,2,2570,1,0,1,MERGED
+31235,build(deps): bump astral-sh/setup-uv from 5 to 6,dependabot,2025-05-14T15:41:51Z,2025-05-14T18:41:13+00:00,1,2.99,True,1,1,1,3692,1,0,1,MERGED
+31234,build(deps): bump actions/setup-python from 3 to 5,dependabot,2025-05-14T15:41:48Z,2025-05-14T19:48:33+00:00,1,4.11,True,1,1,1,4245,1,0,1,MERGED
+31222,text-splitters: fix text splitter start index,aowen87,2025-05-13T22:24:34Z,2025-07-10T22:56:22+00:00,3,1392.53,False,160,5,2,605,4,1,5,CLOSED
+31221,WIP: perf(core): optimizations for chunk professing,sydney-runkle,2025-05-13T17:50:11Z,2025-05-14T14:55:11+00:00,3,21.08,False,104,45,7,370,2,2,4,CLOSED
+31219,docs: update how_to docs to reflect new loaders interface and functionalities,MedlockM,2025-05-13T16:04:55Z,2025-05-13T21:59:02+00:00,1,5.9,True,364,117,1,543,2,0,2,MERGED
+31218,docs: replace deprecated load_tools in searx.mdx,MichaelLi65535,2025-05-13T15:57:55Z,2025-05-13T18:53:44+00:00,1,2.93,True,1,1,1,1406,1,0,1,MERGED
+31217,docs: replace deprecated load_tools in wolfram_alpha.mdx,MichaelLi65535,2025-05-13T15:49:48Z,2025-05-13T18:53:29+00:00,1,3.06,True,1,1,1,1406,1,0,1,MERGED
+31216,docs: replace deprecated load_tools in stackexchange.mdx,MichaelLi65535,2025-05-13T15:47:52Z,2025-05-13T18:53:15+00:00,1,3.09,True,1,1,1,1406,1,0,1,MERGED
+31215,docs: replace deprecated load_tools in serpapi.mdx,MichaelLi65535,2025-05-13T15:45:19Z,2025-05-13T18:53:01+00:00,1,3.13,True,1,1,1,1406,1,0,1,MERGED
+31214,docs: replace deprecated load_tools in google.mdx,MichaelLi65535,2025-05-13T15:41:47Z,2025-05-13T18:52:46+00:00,1,3.18,True,2,2,1,1406,1,0,1,MERGED
+31213,docs: replace deprecated load_tools in google_serper.mdx,MichaelLi65535,2025-05-13T15:38:08Z,2025-05-13T18:52:30+00:00,1,3.24,True,1,1,1,1406,1,0,1,MERGED
+31212,docs: replace deprecated load_tools in golden.mdx,MichaelLi65535,2025-05-13T15:33:10Z,2025-05-13T18:52:15+00:00,1,3.32,True,1,1,1,1406,1,0,1,MERGED
+31211,docs: replace deprecated load_tools in dataforseo.mdx,MichaelLi65535,2025-05-13T15:30:00Z,2025-05-13T18:51:40+00:00,1,3.36,True,1,1,1,1406,1,0,1,MERGED
+31209,ollama: Add separate kwargs parameter for async client,AlexeyBond,2025-05-13T12:44:50Z,2025-05-15T20:10:11+00:00,3,55.42,True,81,12,3,1122,3,1,4,MERGED
+31207,docs: Update tools.mdx (#124),ShorthillsAI,2025-05-13T09:17:25Z,2025-05-13T15:01:55+00:00,1,5.74,True,1,1,1,1215,1,0,1,MERGED
+31206,langchain-core[patch]: `Incremental` record manager deletion should be batched,loperamos,2025-05-13T08:47:55Z,2025-05-14T15:38:21+00:00,1,30.84,True,105,10,2,453,2,0,2,MERGED
+31205,docs: update Cloudflare examples for env references,CollierKing,2025-05-13T06:48:04Z,2025-05-13T20:18:27+00:00,1,13.51,True,286,330,3,221,1,0,1,MERGED
+31203,docs: replace initialize_agent with create_react_agent in searchapi - replace deprecated load_tools,MichaelLi65535,2025-05-12T18:25:28Z,2025-05-13T20:19:18+00:00,2,25.9,True,1,1,1,1406,2,0,2,MERGED
+31201,docs: replace initialize_agent with create_react_agent in graphql.ipynb - replace deprecated load_tools,MichaelLi65535,2025-05-12T17:44:41Z,2025-05-12T19:11:39+00:00,1,1.45,True,2,2,1,1440,1,0,1,MERGED
+31200,docs: replace initialize_agent with create_react_agent in llmonitor.md,MichaelLi65535,2025-05-12T17:13:48Z,2025-05-12T22:05:12+00:00,1,4.86,True,17,10,1,1406,1,0,1,MERGED
+31199,docs: Update surrealdb vectorestore documentation,martinschaer,2025-05-12T16:22:50Z,2025-06-25T20:16:44+00:00,4,1059.9,True,261,160,3,131,3,1,4,MERGED
+31195,openai: support runtime kwargs in embeddings,ccurme,2025-05-12T15:48:06Z,2025-05-14T13:14:40+00:00,1,45.44,True,73,18,2,0,1,0,1,MERGED
+31188,docs:Fix Google GenAI Embedding params,rvernica,2025-05-12T04:51:51Z,2025-05-14T12:50:12+00:00,1,55.97,True,19,7,1,1061,1,0,1,MERGED
+31184,docs: replace initialize_agent with create_react_agent in searchapi.ipynb,MichaelLi65535,2025-05-11T03:42:11Z,2025-05-11T13:42:25+00:00,1,10.0,True,396,338,1,1406,1,0,1,MERGED
+31179,[example] Fast Multi-document rag using Qdrant Binary Quantization and SambaNova,lucifertrj,2025-05-10T20:03:30Z,2025-05-10T21:19:41+00:00,1,1.27,False,526,0,1,370,1,0,1,CLOSED
+31177,docs: update DoctranPropertyExtractor import path and fix typo,AsifMehmood97,2025-05-10T13:27:35Z,2025-05-10T19:43:40+00:00,1,6.27,True,9,9,2,358,1,0,1,MERGED
+31175,Docs/pinecone rerank notebook,simjak,2025-05-09T13:43:25Z,2025-06-10T20:02:40+00:00,2,774.32,False,309,12,2,60,3,1,4,CLOSED
+31173,feat(text-splitters): add Visual Basic 6 support,fabifont,2025-05-09T06:50:18Z,2025-07-14T13:51:16+00:00,2,1591.02,True,261,93,4,126,4,1,5,MERGED
+31164,docs: fix typing in how_to/custom_tools.ipynb,vhiairrassary,2025-05-08T08:08:09Z,2025-05-08T17:51:42+00:00,1,9.73,True,2,2,1,39,1,0,1,MERGED
+31159,Change banner,tanushree-sharma,2025-05-07T23:35:29Z,2025-05-08T01:07:11+00:00,3,1.53,True,1,1,1,64,1,0,1,MERGED
+31156,docs: document the move of the aerospike vector store integration to langchain-aerospike vec-595,dwelch-spike,2025-05-07T21:25:32Z,2025-05-11T13:30:29+00:00,1,88.08,True,74,223,2,353,2,0,2,MERGED
+31155,Fixed Local File Inclusion vulnerability in HTMLHeaderTextSplitter,geckosecurity,2025-05-07T21:15:15Z,2025-05-15T15:42:38+00:00,1,186.46,False,22,1,1,2727,2,0,2,CLOSED
+31154,docs: remove duplicated and inaccurate mulvus doc (part of langchain-ai#31104),MichaelLi65535,2025-05-07T19:27:48Z,2025-05-10T19:38:11+00:00,1,72.17,True,24,670,5,1417,4,0,4,MERGED
+31148,docs: Fixed grammar for chat prompt composition,tushar-nitave,2025-05-07T13:05:39Z,2025-05-07T14:51:35+00:00,1,1.77,True,1,1,1,153,2,0,2,MERGED
+31147,docs: Pinecone Rerank example notebook,simjak,2025-05-07T12:13:15Z,2025-05-07T15:00:43+00:00,2,2.79,True,322,0,1,83,1,1,2,MERGED
+31146,partners: (langchain-openai) total_tokens should not add 'Nonetype' t…,zhurou603,2025-05-07T09:42:02Z,2025-05-07T15:09:51+00:00,1,5.46,True,3,3,1,421,4,0,4,MERGED
+31140,fix(core): Permit OpenAI style blocks to be passed into convert_to_openai_messages,jacoblee93,2025-05-07T03:37:00Z,2025-05-07T14:57:37+00:00,1,11.34,True,33,1,2,65,1,0,1,MERGED
+31139,Replace initialize_agent with create_react_agent in docs,Vahed-SK,2025-05-07T03:06:24Z,2025-05-07T15:03:52+00:00,1,11.96,False,8,0,1,176,1,0,1,CLOSED
+31138,docs: update langchain-cloudflare repo/path on packages.yaml,CollierKing,2025-05-06T20:47:35Z,2025-05-07T15:01:25+00:00,1,18.23,True,1,1,1,383,1,0,1,MERGED
+31137,text-splitters: Fix regex separator merge bug in CharacterTextSplitter,suminnnnn,2025-05-06T19:37:15Z,2025-05-10T19:42:03+00:00,2,96.08,True,70,6,2,401,2,0,2,MERGED
+31133,docs: replace initialize_agent with create_react_agent in graphql.ipynb,MichaelLi65535,2025-05-06T19:01:12Z,2025-05-06T20:09:52+00:00,1,1.14,True,105,39,3,1406,2,0,2,MERGED
+31129,infra: Suppress error in make api_docs_clean if index.md is missing,mateencog,2025-05-06T15:14:09Z,2025-05-11T21:26:49+00:00,1,126.21,True,1,1,1,595,1,0,1,MERGED
+31128,infra: Extend pyproject.toml check in create_api_rst.py to langchain/libs folder,mateencog,2025-05-06T15:05:49Z,2025-05-15T20:53:45+00:00,1,221.8,True,1,0,1,731,2,0,2,MERGED
+31126,Docs: Change to async llm graph transformer,tomasonjo,2025-05-06T14:19:20Z,2025-05-06T16:53:57+00:00,1,2.58,True,8,4,1,0,1,0,1,MERGED
+31123,docs: Updated pinecone.mdx in the integration providers,simjak,2025-05-06T09:38:55Z,2025-05-06T16:58:32+00:00,1,7.33,True,34,1,1,130,2,0,2,MERGED
+31117,core: enable true caching support for arbitrary message stacks in langgraph,cosminacho,2025-05-05T12:35:24Z,2025-05-16T20:37:13+00:00,2,272.03,False,4,1,1,1107,2,1,3,CLOSED
+31116,docs: Fix tutorial chatbot.ipynb,hmhuan,2025-05-05T07:33:43Z,2025-05-05T19:25:56+00:00,1,11.87,False,3,3,1,1406,1,0,1,CLOSED
+31115,docs: replace initialize_agent with create_react_agent in openweathermap.ipynb,MichaelLi65535,2025-05-04T15:33:27Z,2025-05-05T22:08:09+00:00,2,30.58,True,77,53,1,1406,2,1,3,MERGED
+31114,docs: Add Brightdata integration documentation,meirk-brd,2025-05-04T12:17:04Z,2025-05-11T16:07:21+00:00,1,171.84,True,937,0,5,1290,2,0,2,MERGED
+31112,core: Fix issue 31035 alias fields in base tool langchain core,CtrlMj,2025-05-04T01:18:39Z,2025-05-12T15:04:14+00:00,3,205.76,True,16,5,2,209,1,1,2,MERGED
+31111,partners[openai]: Use callback to track the usage for embedding models,AsifMehmood97,2025-05-03T22:07:31Z,2025-05-10T19:16:02+00:00,1,165.14,False,68,6,1,648,2,0,2,CLOSED
+31108,docs: replace initialize_agent with create_react_agent in yahoo_finance_news.ipynb,MichaelLi65535,2025-05-03T17:13:36Z,2025-05-03T19:45:52+00:00,1,2.54,True,98,79,1,1406,2,0,2,MERGED
+31107,openai[patch]: update embeddings to use .model_dump() when `check_embedding_ctx_length=False`,AsifMehmood97,2025-05-03T13:47:15Z,2025-05-03T17:40:54+00:00,1,3.89,True,2,2,1,604,1,0,1,MERGED
+31093,fix: update create_react_agent example in llmonitor.md with ChatOpenAI and invoke(),tskrrish,2025-05-01T21:50:01Z,2025-05-13T20:20:14+00:00,3,286.5,False,9,6,1,535,2,1,3,CLOSED
+31091,docs: replace initialize_agent with create_react_agent,AbhiChanGit,2025-05-01T19:34:32Z,2025-05-16T13:48:43+00:00,1,354.24,False,195,336,44,595,2,0,2,CLOSED
+31090,Enable updates of runs from within current span to overrule default traced outputs,hinthornw,2025-05-01T19:08:29Z,2025-05-02T00:00:51+00:00,3,4.87,True,32,12,2,48,1,1,2,MERGED
+31083,docs: replace initialize_agent with create_react_agent in llmonitor.md,tskrrish,2025-04-30T21:06:50Z,2025-05-01T17:37:53+00:00,2,20.52,False,8,4,1,485,1,0,1,CLOSED
+31082,anthropic: Allow kwargs to pass through when counting tokens,bengladwell,2025-04-30T20:18:45Z,2025-04-30T21:56:22+00:00,1,1.63,True,15,1,2,331,2,0,2,MERGED
+31080,"core, openai[patch]: prefer provider-assigned IDs when aggregating message chunks",ccurme,2025-04-30T16:21:45Z,2025-05-02T15:18:18+00:00,2,46.94,True,42,14,5,866,1,2,3,MERGED
+31078,"docs: Fixing typo: ""chocalate"" -> ""chocolate"".",mateusscheper,2025-04-30T13:18:57Z,2025-04-30T19:09:36+00:00,1,5.84,True,14,14,11,74,2,0,2,MERGED
+31077,"Docs: Fix SAP HANA Cloud docs - remove pip output, update vectorstore link, rename provider",yberber-sap,2025-04-30T11:56:12Z,2025-04-30T12:57:41+00:00,1,1.02,True,7,15,3,295,1,0,1,MERGED
+31066,docs: Pinecone Sparse vectorstore example,simjak,2025-04-29T09:24:05Z,2025-05-01T22:08:10+00:00,4,60.73,True,586,1,3,62,1,3,4,MERGED
+31065,partners: (langchain-deepseek) fix deepseek-r1 always returns an empty `reasoning_content` when reasoning,reatang,2025-04-29T07:25:34Z,2025-05-05T22:31:58+00:00,1,159.11,True,4,2,1,1483,1,0,1,MERGED
+31064,community: feat: add partitioned table support with custom filtering in SQL database for sample row,abhishekshingadiya,2025-04-29T07:05:36Z,2025-04-29T15:20:09+00:00,1,8.24,False,36,10,1,511,1,0,1,CLOSED
+31063,docs: update LiteLLM integration docs for router migration to langchain-litellm,Akshay-Dongare,2025-04-29T01:30:40Z,2025-04-29T21:48:11+00:00,1,20.29,True,104,234,3,504,1,0,1,MERGED
+31062,openai[patch]: fix getting generation info when streaming with json_schema response format on Azure,jjurm,2025-04-29T00:43:59Z,2025-05-05T09:08:30+00:00,1,152.41,False,5,1,1,1439,3,0,3,CLOSED
+31058,DOCS: `partners/chroma`: Fix documentation around `chroma` query filter syntax,hesreallyhim,2025-04-28T17:23:46Z,2025-04-30T21:51:08+00:00,1,52.46,True,18,18,1,2206,2,0,2,MERGED
+31050,docs: Add example notebook for Gel integration,anbuzin,2025-04-28T08:14:33Z,2025-05-11T14:17:54+00:00,2,318.06,False,510,0,3,160,6,0,6,CLOSED
+31043,Docs: replace initialize agent with create react agent for google tools,colichar,2025-04-27T21:04:04Z,2025-05-03T19:20:07+00:00,1,142.27,True,709,624,4,452,2,0,2,MERGED
+31042,docs: replace initialize_agent with create_react_agent in bash.ipynb (part of #29277),MichaelLi65535,2025-04-27T18:14:29Z,2025-04-28T17:07:23+00:00,5,22.88,True,65,58,1,1498,1,2,3,MERGED
+31040,"langchain: add PersonaMemory module with trait detection, save/load, and conversation tracking",miki-przygoda,2025-04-27T16:08:15Z,2025-04-27T17:13:51+00:00,1,1.09,False,563,0,2,1537,1,0,1,CLOSED
+31039,[Community]: Raise Error when no password is Provided for PyMuPDFParser,keenborder786,2025-04-27T13:26:28Z,2025-04-29T15:21:41+00:00,1,49.92,False,3,0,1,129,2,0,2,CLOSED
+31034,docs: correct usage example hyperlinks in providers/aws.mdx,ScottBrenner,2025-04-26T20:59:17Z,2025-04-27T19:11:23+00:00,2,22.2,False,23,23,1,76,2,1,3,CLOSED
+31030,text-splitters[patch]: fix some import-untyped errors,cbornet,2025-04-26T08:03:14Z,2025-05-15T15:34:22+00:00,1,463.52,True,173,37,7,0,1,0,1,MERGED
+31027,infra: Restore Codespell execution in codespell.yml,ScottBrenner,2025-04-26T02:19:34Z,2025-04-26T03:22:06+00:00,2,1.04,False,6,6,1,217,1,2,3,CLOSED
+31026,infra: Dependabot configuration to update actions in workflow,ScottBrenner,2025-04-26T01:53:09Z,2025-05-14T15:40:55+00:00,1,445.8,True,11,0,1,487,3,0,3,MERGED
+31025,packaging: remove Python upper bound for langchain and co libs,sydney-runkle,2025-04-26T00:15:43Z,2025-04-28T18:44:28+00:00,2,66.48,True,585,1014,48,295,1,1,2,MERGED
+31018,langchain: use mypy strict checking with exemptions,cbornet,2025-04-25T14:03:36Z,2025-05-15T15:37:18+00:00,1,481.56,True,69,60,40,86,1,0,1,MERGED
+31017,Update Chat and Embedding guides ,philschmid,2025-04-25T13:24:16Z,2025-04-27T18:06:59+00:00,1,52.71,True,688,156,4,0,1,0,1,MERGED
+31008,IBM DB2 vector store documentation addition,yiweiHeOSS,2025-04-25T01:05:19Z,2025-06-27T18:34:32+00:00,9,1529.49,True,432,12,3,442,6,8,14,MERGED
+30993,docs: updated pinecone example notebook,simjak,2025-04-24T13:03:37Z,2025-05-03T20:02:21+00:00,2,222.98,True,22,89,1,269,2,0,2,MERGED
+30992,Documentation: Improve structure of Google integrations page,philschmid,2025-04-24T12:42:24Z,2025-04-24T13:58:49+00:00,1,1.27,True,568,526,1,895,1,3,4,MERGED
+30987,community: add indexname to other functions in opensearch,bhemati,2025-04-24T06:20:34Z,2025-04-24T12:59:33+00:00,4,6.65,True,14,4,1,485,1,1,2,MERGED
+30984,feat(core): Autogenerate filenames for when converting file content blocks to OpenAI format,jacoblee93,2025-04-23T20:27:28Z,2025-04-24T13:36:32+00:00,2,17.15,True,40,8,2,10,1,1,2,MERGED
+30980,docs: replace deprecated initialize_agent with create_react_agent in NASA toolkit example,Jisolp,2025-04-23T16:20:39Z,2025-04-23T18:20:31+00:00,1,2.0,False,5,4,1,238,1,0,1,CLOSED
+30979,"core, standard-tests: support PDF and audio input in Chat Completions format",ccurme,2025-04-23T15:28:59Z,2025-04-23T18:32:51+00:00,8,3.06,True,305,4,5,503,1,3,4,MERGED
+30973,[docs/community]: langchain docs + browserbaseloader fix,Kylejeong2,2025-04-23T00:58:25Z,2025-04-24T17:38:49+00:00,1,40.67,True,67,61,3,995,1,0,1,MERGED
+30971,core: support `Union` type args in strict mode of OpenAI function calling / structured output,shengbo-ma,2025-04-22T22:52:10Z,2025-05-16T20:20:33+00:00,2,573.47,True,60,2,2,793,2,0,2,MERGED
+30969,"docs: Astra DB, replace leftover links to ""community"" legacy package + modernize doc loader signature",hemidactylus,2025-04-22T22:11:22Z,2025-04-25T19:45:24+00:00,1,69.57,True,233,92,4,449,1,0,1,MERGED
+30968,"core, openai: support standard multi-modal blocks in convert_to_openai_messages",ccurme,2025-04-22T21:57:34Z,2025-04-23T15:20:44+00:00,2,17.39,True,104,41,6,0,1,1,2,MERGED
+30967,core[patch]: update dict prompt template,baskaryan,2025-04-22T19:55:45Z,2025-04-23T17:04:50+00:00,3,21.15,True,230,318,11,59,1,2,3,MERGED
+30965,fireworks[minor]: remove default model and temperature,ccurme,2025-04-22T17:42:46Z,2025-04-22T19:58:58+00:00,1,2.27,True,27,89,6,434,1,1,2,MERGED
+30961,"docs: improvements to Astra DB pages, especially modernize Vector DB example notebook",hemidactylus,2025-04-22T15:30:49Z,2025-05-03T18:26:52+00:00,1,266.93,True,369,159,8,561,1,0,1,MERGED
+30958,docs: add docs for vectara tools,adeelehsan,2025-04-22T12:53:27Z,2025-05-03T19:39:17+00:00,3,270.76,True,512,0,2,86,2,2,4,MERGED
+30956,community: update Naver integration to use langchain-naver package and improve documentation,hyper-clova,2025-04-22T11:40:53Z,2025-04-22T16:00:11+00:00,1,4.32,True,76,217,4,353,1,1,2,MERGED
+30953,Community: Adding tool calling and some new parameters to the langchain-predictionguard docs.,jmansdorfer,2025-04-21T19:48:29Z,2025-04-21T21:01:58+00:00,1,1.22,True,151,12,1,153,1,0,1,MERGED
+30950,feat(docs): add PGVectorStore,dishaprakash,2025-04-21T17:25:36Z,2025-07-25T17:22:58+00:00,5,2279.96,True,815,0,4,360,11,1,12,MERGED
+30946,langchain_community: OpenAIEmbeddings not respecting chunk_size argument,aubford,2025-04-21T03:08:43Z,2025-04-21T12:39:07+00:00,1,9.51,True,28,2,2,875,1,0,1,MERGED
+30944,docs: dynamic copyright year in API ref,pushpakumarbalan,2025-04-20T22:33:22Z,2025-04-21T14:10:15+00:00,1,15.61,True,2,1,1,210,1,0,1,MERGED
+30943,core: Make Graph.Node.data optional,nfcampos,2025-04-20T21:27:21Z,2025-04-21T14:18:36+00:00,1,16.85,True,8,6,1,1498,1,0,1,MERGED
+30938,docs: update tableau.ipynb,eltociear,2025-04-20T08:00:37Z,2025-04-21T12:43:30+00:00,1,28.71,True,1,1,1,23,1,0,1,MERGED
+30937,Community: Add bind variable support for oracle adb docloader,xsai9101,2025-04-20T00:44:52Z,2025-04-21T12:47:33+00:00,1,36.04,True,19,15,2,239,1,0,1,MERGED
+30936,core: Improve OutputParser error messaging when model output is truncated (max_tokens),AhmedTammaa,2025-04-20T00:34:30Z,2025-04-21T14:06:19+00:00,1,37.53,True,41,1,2,245,1,0,1,MERGED
+30935,anthropic[patch]: make description optional on AnthropicTool,AhmedTammaa,2025-04-19T23:40:50Z,2025-04-21T14:44:39+00:00,1,39.06,True,12,2,2,913,2,0,2,MERGED
+30930,docs: replace initialize_agent with create_react_agent in edenai_tools.ipynb (part of #29277),rthummaluru,2025-04-18T17:17:37Z,2025-04-21T14:50:32+00:00,1,69.55,False,5,7,1,294,2,0,2,CLOSED
+30926,Community: Valyu Integration docs,alexngys,2025-04-18T15:38:56Z,2025-04-21T21:43:00+00:00,1,78.07,True,478,0,4,222,1,2,3,MERGED
+30921,community: change metadata in opensearch mmr,bhemati,2025-04-18T10:45:36Z,2025-04-18T14:10:23+00:00,1,3.41,True,6,1,1,247,1,0,1,MERGED
+30912,core: Fix some private member accesses,cbornet,2025-04-17T20:52:39Z,2025-05-12T17:42:26+00:00,2,596.83,True,15,10,1,10,1,2,3,MERGED
+30909,Support of openai reasoning summary streaming,dmitryrPlanner5D,2025-04-17T16:10:15Z,2025-04-22T14:51:13+00:00,1,118.68,True,70,5,2,2544,5,0,5,MERGED
+30905,core[patch]: Raise `AttributeError` (instead of `ModuleNotFoundError`) in custom `__getattr__`,sydney-runkle,2025-04-17T14:17:12Z,2025-04-17T18:15:29+00:00,1,3.97,True,142,153,20,371,4,0,4,MERGED
+30900,text-splitters: Set strict mypy rules,cbornet,2025-04-17T12:26:51Z,2025-04-23T03:41:24+00:00,4,135.24,True,82,78,9,124,3,2,5,MERGED
+30899,community: fix cost calculations for 4.1 and o4 in OpenAI callback,TonyMas,2025-04-17T12:13:22Z,2025-04-21T14:59:47+00:00,1,98.77,True,124,16,1,13,1,0,1,MERGED
+30896,"Deprecate HanaDB, HanaTranslator and update example notebook to use new implementation ",yberber-sap,2025-04-17T11:33:31Z,2025-04-27T20:37:36+00:00,1,249.07,True,280,143,5,491,2,0,2,MERGED
+30895,doc: fix typos,zhanluxianshen,2025-04-17T11:04:32Z,2025-04-17T12:04:37+00:00,1,1.0,True,5,5,4,0,2,0,2,MERGED
+30894,langchain[lint]: fix mypy type ignores,cbornet,2025-04-17T10:39:29Z,2025-04-17T21:54:34+00:00,5,11.25,True,139,162,67,228,1,4,5,MERGED
+30892,opensearch: create standalone langchain-opensearch package,Sathvik-Chowdary-Veerapaneni,2025-04-17T04:55:50Z,2025-04-18T14:13:52+00:00,1,33.3,False,2025,54,8,1046,2,0,2,CLOSED
+30888,langchain-openai: Fix openapi _resize case.,zhanluxianshen,2025-04-16T22:21:34Z,2025-04-27T19:24:34+00:00,3,261.05,False,41,0,2,132,2,1,3,CLOSED
+30887,multiple: permit optional fields on multimodal content blocks,ccurme,2025-04-16T21:56:28Z,2025-04-17T12:48:46+00:00,1,14.87,True,27,17,7,100,3,0,3,MERGED
+30886,community: Fix HTTP protocol handling in AzureAISearchRetriever._build_search_url,kaspars-strods,2025-04-16T21:32:40Z,2025-04-29T15:22:10+00:00,1,305.82,False,20,12,1,505,2,0,2,CLOSED
+30881,core[patch]: add retries and better messages to draw_mermaid_png,vbarda,2025-04-16T17:36:44Z,2025-04-17T18:25:37+00:00,6,24.81,True,73,10,2,0,1,2,3,MERGED
+30880,docs: update multi-modal docs,ccurme,2025-04-16T16:52:39Z,2025-04-17T20:03:05+00:00,4,27.17,True,701,166,4,0,1,2,3,MERGED
+30877,community: add gpt-4.1 and gpt-4.5-preview model pricing and name handling,SP321,2025-04-16T15:19:12Z,2025-04-21T23:09:51+00:00,1,127.84,False,34,0,1,309,1,0,1,CLOSED
+30873,community: Remove no-untyped-def escapes,cbornet,2025-04-16T12:26:26Z,2025-04-29T15:22:37+00:00,5,314.94,False,424,188,42,0,2,2,4,CLOSED
+30872,langchain_openai: clean duplicate code for openai embedding.,zhanluxianshen,2025-04-16T11:08:21Z,2025-04-27T19:07:41+00:00,1,271.99,True,0,1,1,93,2,0,2,MERGED
+30866,docs: enforce newlines when signature exceeds char threshold,sydney-runkle,2025-04-16T00:57:57Z,2025-04-16T12:45:40+00:00,1,11.8,True,4,0,1,171,1,0,1,MERGED
+30865,ollama: release 0.3.2,ccurme,2025-04-15T22:18:54Z,2025-04-16T13:14:57+00:00,1,14.93,True,16,12,2,0,1,0,1,MERGED
+30861,langchain: infer Perplexity provider for sonar model prefix,milosz-l,2025-04-15T18:24:36Z,2025-04-15T22:17:21+00:00,1,3.88,True,3,0,1,437,1,0,1,MERGED
+30853,langchain: return attachments in _get_response,georgi-stefanov,2025-04-15T16:24:55Z,2025-04-25T01:39:11+00:00,2,225.24,True,4,0,1,188,1,1,2,MERGED
+30848,core: Removing unnecessary `pydantic` core schema rebuilds,sydney-runkle,2025-04-15T14:56:44Z,2025-04-16T16:00:08+00:00,3,25.06,True,26,63,22,299,2,2,4,MERGED
+30847,[community] Propose PDFRouterParser and Loader,pprados,2025-04-15T14:15:32Z,2025-04-29T15:23:03+00:00,1,337.13,False,196,2,6,1286,1,0,1,CLOSED
+30846,community: Add deprecation decorator to SingleStore community integrations,volodymyr-memsql,2025-04-15T13:27:47Z,2025-04-18T16:58:39+00:00,2,75.51,True,58,476,8,294,2,0,2,MERGED
+30843,Fix `from langchain_core.load.load import load` import,sydney-runkle,2025-04-15T12:56:43Z,2025-04-15T15:06:13+00:00,1,2.16,True,7,1,1,1945,2,0,2,MERGED
+30842,[community] Propose some @deprecated APIs for PDF,pprados,2025-04-15T12:18:10Z,2025-04-29T15:23:23+00:00,1,339.09,False,23,1,1,113,1,0,1,CLOSED
+30841,docs: Register langchain-singlestore integration,volodymyr-memsql,2025-04-15T11:41:13Z,2025-04-18T16:11:33+00:00,1,76.51,True,904,3,6,124,2,0,2,MERGED
+30831,docs: fix tools_human.ipynb url 404.,zhanluxianshen,2025-04-14T22:38:39Z,2025-04-15T13:22:14+00:00,1,14.73,True,3,3,1,18,2,0,2,MERGED
+30830,community: Strip URLs from sitemap.,givemelove,2025-04-14T21:41:24Z,2025-04-23T22:18:43+00:00,1,216.62,True,1,1,1,113,1,0,1,MERGED
+30822,anthropic: emit informative error message if there are only system messages in a prompt,mathislindner,2025-04-14T14:00:24Z,2025-05-16T20:43:59+00:00,3,774.73,True,56,35,1,286,3,0,3,MERGED
+30821,Feature/persian text processing,MohammadAminDHM,2025-04-14T13:11:26Z,2025-04-27T19:02:42+00:00,1,317.85,False,2597,25,24,1498,1,0,1,CLOSED
+30816,community: add mypy warn_unused_ignores rule,cbornet,2025-04-14T08:32:05Z,2025-04-28T15:54:12+00:00,1,343.37,True,795,821,346,0,3,0,3,MERGED
+30812,community: Add ruff rule PGH003,cbornet,2025-04-13T23:22:04Z,2025-04-14T02:32:14+00:00,1,3.17,True,449,420,148,58,2,0,2,MERGED
+30811,community: redis tool typos fix,zhanluxianshen,2025-04-13T21:57:13Z,2025-04-14T13:01:36+00:00,1,15.07,True,10,8,3,1498,2,0,2,MERGED
+30810,"community: have ChatLlamaCpp handle ""auto"" and ""any"" for tool_choice",clinty,2025-04-13T21:54:04Z,2025-04-29T15:24:07+00:00,4,377.5,False,24,16,1,257,3,2,5,CLOSED
+30809,partners: ChatAnthropic supports urls,Konsti-s,2025-04-13T20:25:52Z,2025-04-18T19:15:46+00:00,1,118.83,True,119,28,2,373,1,0,1,MERGED
+30808,feat(langchain): improve performance `split_list_of_docs()`,ianchi,2025-04-13T18:50:55Z,2025-09-11T19:22:22+00:00,3,3624.52,False,28,4,2,631,8,2,10,CLOSED
+30803,langchain-openai: support custom fallback content for tool-only messages,louisgthier,2025-04-13T01:58:11Z,2025-05-16T13:49:36+00:00,1,803.86,False,12,10,1,688,7,0,7,CLOSED
+30802,Improvements to `ChatPerplexity` Integration ,jamesliounis,2025-04-12T17:54:30Z,2025-07-04T18:24:38+00:00,8,1992.5,False,316,282,3,1140,5,7,12,CLOSED
+30800,docs: fix typo,BoyuHu,2025-04-12T05:38:51Z,2025-04-13T14:55:30+00:00,1,33.28,True,1,1,1,1498,1,0,1,MERGED
+30799,core: Cleanup Pydantic models and handle deprecation warnings,cbornet,2025-04-12T00:46:51Z,2025-06-20T14:42:52+00:00,15,1669.93,True,134,413,17,226,6,6,12,MERGED
+30794,Add Compass Labs toolkits to langchain docs,scheuclu,2025-04-11T16:04:43Z,2025-04-29T21:42:44+00:00,12,437.63,True,346,0,1,146,3,10,13,MERGED
+30792,Galaxia integration,rrozanski-smabbler,2025-04-11T14:43:25Z,2025-04-16T14:39:04+00:00,2,119.93,True,249,0,3,310,4,0,4,MERGED
+30788,core[lint]: Fix typing in `test_async_callbacks`,cbornet,2025-04-11T09:30:46Z,2025-04-11T11:26:38+00:00,1,1.93,True,18,14,1,0,1,0,1,MERGED
+30782,langchain[lint]: use `pyupgrade` to get to 3.9 standards,sydney-runkle,2025-04-11T00:28:26Z,2025-04-11T14:33:26+00:00,1,14.08,True,1530,1554,214,0,1,0,1,MERGED
+30781,partners[lint]: run `pyupgrade` to get code in line with 3.9 standards,sydney-runkle,2025-04-10T23:57:34Z,2025-04-11T11:18:44+00:00,1,11.35,True,1000,1109,123,97,1,0,1,MERGED
+30780,core[lint]: Use 3.9 formatting for docs and tests,sydney-runkle,2025-04-10T23:42:14Z,2025-04-11T14:39:25+00:00,5,14.95,True,222,232,36,192,4,3,7,MERGED
+30779,core[patch]: Share executor for async callbacks run in sync context,hinthornw,2025-04-10T23:41:11Z,2025-04-11T17:34:43+00:00,7,17.89,True,27,9,2,71,3,3,6,MERGED
+30778,fix(ollama): Remove redundant message from response_metadata,jacoblee93,2025-04-10T22:57:56Z,2025-04-11T06:12:57+00:00,1,7.25,True,6,2,1,27,1,0,1,MERGED
+30776,docs: update links in cloudflare docs,AkshataDM,2025-04-10T21:48:28Z,2025-04-10T23:08:18+00:00,1,1.33,True,4,4,1,131,1,0,1,MERGED
+30773,core[patch]: support customization of backoff parameters in `with_retries`,ccurme,2025-04-10T18:55:49Z,2025-04-10T23:18:36+00:00,4,4.38,True,33,13,3,0,3,2,5,MERGED
+30771,[performance]: Use dynamic versioning with `pdm` to avoid `importlib.metadata` import,sydney-runkle,2025-04-10T17:08:43Z,2025-04-10T18:11:44+00:00,1,1.05,False,6,10,3,393,3,0,3,CLOSED
+30769,core[performance]: use custom `__getattr__` in `__init__.py` files for lazy imports,sydney-runkle,2025-04-10T14:18:53Z,2025-04-14T12:57:54+00:00,9,94.65,True,949,292,17,1642,7,4,11,MERGED
+30768,docs: Update ordering of cloudflare integration examples in providers page,AkshataDM,2025-04-10T13:57:31Z,2025-04-10T19:34:58+00:00,1,5.62,True,11,11,1,98,2,0,2,MERGED
+30765,community: add ChatLLM7 integration,chigwell,2025-04-10T12:05:57Z,2025-05-08T20:53:11+00:00,1,680.79,False,307,0,1,931,3,0,3,CLOSED
+30763,cookbook: Fix docs typos.,zhanluxianshen,2025-04-10T06:59:42Z,2025-04-10T13:13:24+00:00,1,6.23,True,2,2,1,1498,2,0,2,MERGED
+30760,community[patch]: simplify cache logic,zhanluxianshen,2025-04-10T02:37:54Z,2025-04-10T23:20:58+00:00,3,20.72,True,2,5,1,1498,3,1,4,MERGED
+30757,partners/openai: OpenAIEmbeddings not respecting chunk_size argument,aubford,2025-04-09T21:50:14Z,2025-04-18T19:27:28+00:00,1,213.62,True,26,2,2,909,3,0,3,MERGED
+30755,langchain: remove langchain-server script,eyurtsev,2025-04-09T19:40:02Z,2025-04-11T02:11:42+00:00,1,30.53,True,0,3,1,51,1,0,1,MERGED
+30754,docs: update clickhouse version in notebook example,ChamathKB,2025-04-09T19:25:11Z,2025-04-10T13:51:55+00:00,2,18.45,True,1,1,1,111,2,0,2,MERGED
+30753,core[patch]: add prompt template for multi-modal content blocks,ccurme,2025-04-09T18:40:00Z,2025-04-13T16:51:12+00:00,3,94.19,False,279,4,6,0,2,2,4,CLOSED
+30749,docs: Add Cloudflare integrations,AkshataDM,2025-04-09T15:24:28Z,2025-04-10T13:27:23+00:00,4,22.05,True,2254,252,5,389,1,3,4,MERGED
+30748,dosc: Fix typo in get_separators_for_language method section,Somekindofa,2025-04-09T15:02:29Z,2025-04-09T17:03:01+00:00,1,2.01,True,1,1,1,8,1,0,1,MERGED
+30747,[performance]: Adding benchmarks for common `langchain-core` imports,sydney-runkle,2025-04-09T14:21:02Z,2025-04-09T17:00:16+00:00,2,2.65,True,169,1,8,678,2,2,4,MERGED
+30746,multiple: multi-modal content blocks,ccurme,2025-04-09T14:13:30Z,2025-04-15T13:48:07+00:00,7,143.58,True,854,25,15,644,3,3,6,MERGED
+30744,[performance]: Use hard coded `langchain-core` version to avoid `importlib` import,sydney-runkle,2025-04-09T13:06:55Z,2025-04-10T18:15:03+00:00,7,29.14,True,34,7,3,674,3,1,4,MERGED
+30742,docs: Add openGauss vector store documentation,mpb159753,2025-04-09T12:59:03Z,2025-04-11T20:31:39+00:00,9,55.54,True,397,0,3,660,7,8,15,MERGED
+30738,docs: fix small typo in map_rerank_docs_chain.ipynb,giuliapl,2025-04-09T10:06:05Z,2025-04-09T12:49:38+00:00,1,2.73,True,1,1,1,121,1,0,1,MERGED
+30737,core: Improve mypy config,cbornet,2025-04-09T09:08:31Z,2025-04-11T20:35:13+00:00,4,59.45,True,223,238,60,216,2,1,3,MERGED
+30736,"docs: Fix typo in 'Query re-writing"" section",Somekindofa,2025-04-09T09:04:38Z,2025-04-09T12:50:14+00:00,1,3.76,True,1,1,1,1498,1,0,1,MERGED
+30735,partners: (langchain-huggingface) Embeddings - Integrate Inference Providers and remove deprecated code,hanouticelina,2025-04-09T08:46:26Z,2025-04-09T19:05:43+00:00,2,10.32,True,12,9,2,916,1,2,3,MERGED
+30734,docs: replace the deprecated initialize_agent in playwright.ipynb with create_react_agent,CtrlMj,2025-04-09T00:32:19Z,2025-04-11T02:12:12+00:00,1,49.66,True,9,21,1,178,5,0,5,MERGED
+30733,partners: (langchain-huggingface) Chat Models - Integrate Hugging Face Inference Providers and remove deprecated code,hanouticelina,2025-04-08T21:57:48Z,2025-04-29T13:53:14+00:00,15,495.92,True,699,504,8,1270,2,7,9,MERGED
+30732,core: Add ruff rules ARG,cbornet,2025-04-08T18:45:11Z,2025-04-09T18:39:36+00:00,3,23.91,True,328,180,58,66,1,3,4,MERGED
+30730,Community: Add Managed Identity support for Azure AI Search,paulczar,2025-04-08T14:32:14Z,2025-04-11T02:22:59+00:00,2,59.85,True,65,6,3,48,3,3,6,MERGED
+30729,docs: update yellowbrick.ipynb,eltociear,2025-04-08T14:23:05Z,2025-04-08T15:56:36+00:00,1,1.56,True,1,1,1,22,1,0,1,MERGED
+30717,deepseek[patch]: fix link to release notes,zhanluxianshen,2025-04-08T02:51:32Z,2025-04-08T12:43:17+00:00,1,9.86,True,1,1,1,1498,2,0,2,MERGED
+30714,Clean up `numpy` dependencies and speed up 3.13 CI with `numpy>=2.1.0`,sydney-runkle,2025-04-07T18:39:52Z,2025-04-08T13:45:07+00:00,7,19.09,True,1048,437,21,713,5,2,7,MERGED
+30713,ci: remove unused debug action,eyurtsev,2025-04-07T18:08:51Z,2025-04-07T22:32:38+00:00,1,4.4,True,0,11,1,25,1,0,1,MERGED
+30711,docs: additions have been made to the Tag badge,Olexandr88,2025-04-07T16:28:04Z,2025-04-07T17:34:38+00:00,1,1.11,False,1,1,1,1314,3,0,3,CLOSED
+30710,docs: Update couchbase vector store docs,nithishr,2025-04-07T15:17:39Z,2025-04-07T22:45:15+00:00,1,7.46,True,193,47,5,126,3,0,3,MERGED
+30709,fix(core): add `on_tool_error` to `_AstreamEventsCallbackHandler`,vbarda,2025-04-07T15:00:07Z,2025-09-11T01:34:05+00:00,1,3754.57,True,59,8,2,12,7,2,9,MERGED
+30706,ollama[patch]: add model_name to response metadata,ccurme,2025-04-07T13:22:37Z,2025-04-07T20:27:58+00:00,1,7.09,True,8,0,1,25,1,0,1,MERGED
+30702,community: add graph store implementation for openGauss age,LinQiang391,2025-04-07T03:54:46Z,2025-04-07T13:18:25+00:00,1,9.39,False,229,0,1,103,1,0,1,CLOSED
+30701,langchain_qdrant: fix showing the missing sparse vector name,soraxas,2025-04-07T03:50:42Z,2025-04-07T13:19:08+00:00,1,9.47,True,1,1,1,764,1,0,1,MERGED
+30697,docs: replaced initialize_agent with create_react_agent in dalle_image_generator.ipynb,aaronlaitner,2025-04-06T16:06:25Z,2025-04-07T13:33:53+00:00,1,21.46,True,37,49,1,168,1,3,4,MERGED
+30696,core: Add ruff rules PLR,cbornet,2025-04-06T11:41:16Z,2025-04-09T19:15:39+00:00,2,79.57,True,278,310,19,47,2,1,3,MERGED
+30695,core: Add ruff rules FBT001 and FBT002,cbornet,2025-04-06T08:26:19Z,2025-04-11T20:26:34+00:00,1,132.0,True,96,47,22,204,2,0,2,MERGED
+30694,ChatTongyi reasoning_content fix,keenborder786,2025-04-06T07:37:29Z,2025-04-07T13:27:33+00:00,1,29.83,True,1,1,1,62,2,0,2,MERGED
+30693,added vectara tools,adeelehsan,2025-04-06T07:01:14Z,2025-04-27T19:40:25+00:00,4,516.65,False,983,0,5,1498,2,4,6,CLOSED
+30692,Build PPLX Search Tool integration,jamesliounis,2025-04-06T01:06:05Z,2025-04-13T13:10:53+00:00,1,180.08,False,281,0,4,1270,4,0,4,CLOSED
+30688,community: Google Vertex AI Search now returns the website title as part of the document metadata,germolinal,2025-04-05T08:12:22Z,2025-04-09T12:54:06+00:00,1,100.7,True,2,0,1,763,1,0,1,MERGED
+30685,docs: fix import path and update LiteLLM integration docs,Akshay-Dongare,2025-04-05T02:30:12Z,2025-04-08T17:04:17+00:00,1,86.57,True,2,2,2,348,1,0,1,MERGED
+30684,Feat: add oauth2 support for Jira toolkit,pol-defont-reaulx,2025-04-05T01:31:36Z,2025-04-11T02:04:09+00:00,5,144.54,True,152,31,4,177,1,2,3,MERGED
+30683,community: support usage_metadata for litellm streaming calls,ikbenale,2025-04-05T00:05:40Z,2025-04-18T16:50:32+00:00,4,328.75,True,23,6,2,236,3,1,4,MERGED
+30681,community: Add recursive sitemap support to GitbookLoader with concurrent processing,andrasfe,2025-04-04T21:00:39Z,2025-04-29T15:24:47+00:00,15,594.4,False,581,169,3,360,12,11,23,CLOSED
+30675,core: Specify code when ignoring type issue (ruff PGH003),cbornet,2025-04-04T15:59:10Z,2025-04-11T02:23:53+00:00,2,154.41,True,249,258,58,58,3,0,3,MERGED
+30666,core: Add ruff rules SLF,cbornet,2025-04-04T11:46:10Z,2025-05-14T18:42:39+00:00,13,966.94,True,1234,1235,8,70,2,7,9,MERGED
+30665,Langchain Community tool description improvements.,ivanmilevtues,2025-04-04T10:10:07Z,2025-04-04T14:57:56+00:00,1,4.8,False,75,20,10,735,1,0,1,CLOSED
+30664,community: Add support for custom runtimes to Riza tools,andrewmbenton,2025-04-04T05:54:18Z,2025-04-04T15:03:14+00:00,1,9.15,True,18,4,1,227,1,1,2,MERGED
+30662,feat(openai): add `skip_tokenization` option to OpenAIEmbeddings,ArmaanjeetSandhu,2025-04-04T01:15:58Z,2025-07-30T20:01:01+00:00,1,2826.75,False,12,2,1,742,1,2,3,CLOSED
+30659,core: Fix handler removal in BaseCallbackManager (Fixes #30640),ArmaanjeetSandhu,2025-04-03T21:34:50Z,2025-04-04T19:45:15+00:00,1,22.17,True,20,2,2,692,3,0,3,MERGED
+30657,core: Add ruff rules DTZ,cbornet,2025-04-03T19:49:51Z,2025-04-04T17:43:48+00:00,1,21.9,True,232,79,4,75,1,0,1,MERGED
+30656,core: Add ruff rules PGH (except PGH003),cbornet,2025-04-03T19:44:04Z,2025-04-04T19:53:27+00:00,2,24.16,True,46,38,7,124,1,1,2,MERGED
+30654,core: Add ruff rules TD and FIX,cbornet,2025-04-03T19:10:30Z,2025-04-04T17:40:43+00:00,3,22.5,True,6,4,3,604,1,1,2,MERGED
+30653,core: Rework pydantic version checks,cbornet,2025-04-03T18:35:01Z,2025-04-04T17:42:30+00:00,1,23.12,True,114,95,12,1596,1,0,1,MERGED
+30652,expeirmental: speed up 3.13 CI jobs,sydney-runkle,2025-04-03T18:17:48Z,2025-04-03T19:42:25+00:00,3,1.41,False,169,63,12,0,1,1,2,CLOSED
+30648,langchain-runpod integration,max4c,2025-04-03T17:10:16Z,2025-04-03T23:57:06+00:00,1,6.78,True,720,0,4,1187,1,0,1,MERGED
+30646,community: add 'get_col_comments' option for retrieve database columns comments,Bae-ChangHyun,2025-04-03T15:14:17Z,2025-04-28T15:19:47+00:00,6,600.09,True,308,6,3,1244,1,1,2,MERGED
+30641,core: Fix variable rendering in HumanMessage for ChatPromptTemplate (Fixes #30598),ArmaanjeetSandhu,2025-04-03T11:33:29Z,2025-04-04T19:59:50+00:00,2,32.44,False,34,2,1,562,3,2,5,CLOSED
+30637,Solved issue `Implement langchain-litellm` #30368,Akshay-Dongare,2025-04-03T08:31:29Z,2025-04-04T16:12:11+00:00,4,31.68,True,158,119,4,364,1,3,4,MERGED
+30636,docs: YDB Vector Store docs,vgvoleg,2025-04-03T08:27:06Z,2025-04-11T01:33:56+00:00,2,185.11,True,517,0,3,257,5,1,6,MERGED
+30634,Improve cloudflare workers ai chat model integration,AkshataDM,2025-04-03T02:16:25Z,2025-04-04T18:14:40+00:00,6,39.97,False,1355,151,4,937,2,5,7,CLOSED
+30632,community[patch]: `Redundant` Parser checker for Webbaseloader,keenborder786,2025-04-03T01:07:23Z,2025-04-04T18:11:26+00:00,1,41.07,True,0,3,1,162,1,0,1,MERGED
+30630,docs: Fix deprecated initialize agent in memorize.ipynb,CtrlMj,2025-04-03T00:26:45Z,2025-04-03T16:36:44+00:00,1,16.17,False,6,11,1,266,3,0,3,CLOSED
+30628,Added langchain-qwq package documentation (Alibaba Cloud),yigit353,2025-04-02T22:48:08Z,2025-04-04T15:47:14+00:00,1,40.98,True,296,0,3,1590,2,0,2,MERGED
+30625,community: support usage_metadata for litellm,ikbenale,2025-04-02T21:31:32Z,2025-04-02T23:45:16+00:00,1,2.23,True,19,3,2,154,1,0,1,MERGED
+30620,community[patch]: Fix empty producer in PDF Parsers,pprados,2025-04-02T14:25:17Z,2025-04-04T19:53:49+00:00,2,53.48,True,12,3,1,97,1,1,2,MERGED
+30618,partners: Add Perplexity Chat Integration,sydney-runkle,2025-04-02T13:58:21Z,2025-04-03T16:09:14+00:00,31,26.18,True,2595,2,28,299,1,22,23,MERGED
+30617,chore: adds langchain_gigachat support to init_chat_model and init_embeddings,Rai220,2025-04-02T13:51:37Z,2025-04-07T13:55:48+00:00,3,120.07,False,14,0,2,234,1,1,2,CLOSED
+30614,docs: Little update in sample notebook with `WatsonxToolkit`,KarolZm,2025-04-02T11:29:03Z,2025-04-02T13:08:29+00:00,1,1.66,True,25,31,1,55,2,0,2,MERGED
+30613,community: add lm studio,spacewaterbear,2025-04-02T11:05:59Z,2025-04-02T13:09:24+00:00,1,2.06,False,690,0,3,1535,3,0,3,CLOSED
+30612,community: YDB Vector Store,vgvoleg,2025-04-02T09:05:45Z,2025-04-02T13:10:03+00:00,1,4.07,False,1293,0,7,189,1,0,1,CLOSED
+30609,"package: langchain community document loader,add more ENCODINGS type, not only utf-8, for better parse doc",Albertchamberlain,2025-04-02T07:17:40Z,2025-04-11T02:24:44+00:00,1,211.12,False,60,10,2,1498,5,3,8,CLOSED
+30606,docs: Add tools for hyperbrowser,AHarmlessPyro,2025-04-02T04:10:48Z,2025-04-04T20:02:48+00:00,2,63.87,True,1070,1,4,500,3,1,4,MERGED
+30602,Add Cloudflare Vectorize,CollierKing,2025-04-01T20:04:51Z,2025-04-02T20:28:25+00:00,1,24.39,False,5368,0,3,373,2,0,2,CLOSED
+30601,openai[patch]: ignore file blocks when counting tokens,ccurme,2025-04-01T18:15:16Z,2025-04-01T19:29:33+00:00,1,1.24,True,25,0,2,332,1,0,1,MERGED
+30596,docs: add seekrflow chat model integration docs,benfaircloth,2025-04-01T14:08:30Z,2025-04-01T17:18:01+00:00,1,3.16,True,362,0,1,827,2,2,4,MERGED
+30595,core: Accept ALL ruff rules with exclusions,cbornet,2025-04-01T13:30:31Z,2025-04-01T15:17:51+00:00,3,1.79,True,36,2,1,626,1,2,3,MERGED
+30591,docs: Add Oxylabs integration,oxy-tg,2025-04-01T09:13:04Z,2025-04-02T14:40:33+00:00,3,29.46,True,320,1,3,579,2,2,4,MERGED
+30586,docs: edited the badge to an acceptable size,Olexandr88,2025-04-01T06:49:04Z,2025-04-01T11:17:12+00:00,1,4.47,True,1,1,1,1498,1,0,1,MERGED
+30582,community: Fix attribute access for transcript text in YoutubeLoader (Fixes #30309),ArmaanjeetSandhu,2025-03-31T23:52:00Z,2025-04-01T11:13:06+00:00,1,11.35,True,12,5,2,794,2,0,2,MERGED
+30581,openai[patch]: support structured output and tools,baskaryan,2025-03-31T22:45:57Z,2025-04-02T13:14:02+00:00,3,38.47,True,93,2,2,0,2,2,4,MERGED
+30579,community: added support for Qwen's QwQ thinking model streaming and invoking,yigit353,2025-03-31T19:10:56Z,2025-03-31T21:55:29+00:00,1,2.74,False,280,4,3,402,3,0,3,CLOSED
+30572,"community[major]: DynamoDBChatMessageHistory bulk add messages, raise errors",wuodar,2025-03-31T13:59:28Z,2025-04-01T15:13:32+00:00,1,25.23,True,26,66,1,993,2,1,3,MERGED
+30567,langchain-openai(partners): Append additional keyword parameters or metadata to the message,houxiyao,2025-03-31T08:51:14Z,2025-05-16T20:50:05+00:00,2,1115.98,False,17,2,1,296,3,0,3,CLOSED
+30564,chore: the latest version of the release icon was not displayed correctly,Olexandr88,2025-03-31T06:25:34Z,2025-03-31T15:35:58+00:00,1,9.17,False,1,1,1,1498,1,0,1,CLOSED
+30560,docs: add missing with_config method to Runnable templates API reference,augustocesarperin,2025-03-31T02:38:52Z,2025-03-31T14:08:03+00:00,1,11.49,True,2,2,2,251,1,1,2,MERGED
+30554,core[patch]: pydantic 2.11 compat,ccurme,2025-03-30T15:33:49Z,2025-03-31T18:22:57+00:00,8,26.82,True,213,148,8,1139,1,4,5,MERGED
+30553,ollama[patch]: Support seed param for OllamaLLM,wyli,2025-03-30T12:49:45Z,2025-03-31T15:28:49+00:00,1,26.65,True,6,0,1,251,1,0,1,MERGED
+30551,[Core]: Passing config_factories in  `with_config` for RunnableBinding,keenborder786,2025-03-30T02:52:46Z,2025-04-01T21:59:41+00:00,2,67.12,False,1,0,1,207,4,1,5,CLOSED
+30549,community: Add custom sitemap URL parameter to GitbookLoader,andrasfe,2025-03-29T19:31:24Z,2025-04-01T16:17:21+00:00,7,68.77,True,235,1,3,1073,1,4,5,MERGED
+30544,Fix Azure AI import issue in init_chat_model,kowshik24,2025-03-28T19:59:48Z,2025-03-30T18:50:33+00:00,2,46.85,False,6,2,1,375,2,0,2,CLOSED
+30538,docs: fix broken hyperlinks in fireworks integration package README,KPCOFGS,2025-03-28T14:31:10Z,2025-03-28T19:18:45+00:00,1,4.79,True,2,2,1,25,1,0,1,MERGED
+30534,community: Add google genai callback,taeminlee,2025-03-28T06:45:03Z,2025-03-31T03:20:43+00:00,1,68.59,False,233,0,3,774,4,0,4,CLOSED
+30532,community: add feat AsyncOpenAICallbackHandler for asynchronous OpenAI tracking,KhanhD1nh,2025-03-28T03:21:59Z,2025-03-31T17:38:17+00:00,2,86.27,False,346,19,8,82,2,0,2,CLOSED
+30525,Docs: Add sambanova cloud embeddings docs,jhpiedrahitao,2025-03-27T15:34:23Z,2025-03-31T14:16:15+00:00,1,94.7,True,293,17,3,195,5,0,5,MERGED
+30519,core: Bump ruff version to 0.11,cbornet,2025-03-27T12:07:39Z,2025-03-27T17:01:50+00:00,1,4.9,True,245,235,44,111,1,0,1,MERGED
+30515,langchain_community/vectorstores/weaviate: refine code to support weaviate with SemanticSimilarityExampleSelector,guguoyi,2025-03-27T08:03:31Z,2025-03-27T15:31:05+00:00,1,7.46,False,15,4,1,546,1,0,1,CLOSED
+30514,community: Use Tree Sitter Language Pack for language parser,Lochlanna,2025-03-27T07:46:38Z,2025-04-29T15:25:13+00:00,1,799.64,False,208,110,34,603,4,0,4,CLOSED
+30513,docs: Fix typos in pdfminer and pymupdf guides,lakinduboteju,2025-03-27T07:39:13Z,2025-03-27T15:29:12+00:00,1,7.83,True,4,4,2,596,1,0,1,MERGED
+30510,core[patch]: prevent langchain_core.tools.base.BaseTool.ainvoke mutating the original input parameters,xzq-xu,2025-03-27T05:47:54Z,2025-03-28T18:23:58+00:00,1,36.6,True,97,1,2,236,4,0,4,MERGED
+30508,docs: add pre_filter usage in similarity_search_with_score (Azure Cosmos DB No SQL),arfai1213,2025-03-27T03:57:17Z,2025-03-31T15:33:00+00:00,1,107.6,True,1,3,1,114,1,0,1,MERGED
+30504,add vectara to libs package yml,adeelehsan,2025-03-26T19:23:14Z,2025-03-26T20:47:53+00:00,1,1.41,True,3,0,1,84,1,0,1,MERGED
+30495,core: Fix Prevent run_manager from being added to state object,xzq-xu,2025-03-26T14:39:40Z,2025-03-26T18:11:06+00:00,1,3.52,False,8,0,1,2078,4,0,4,CLOSED
+30494,openai[patch]: support streaming token counts in AzureChatOpenAI,ccurme,2025-03-26T14:20:06Z,2025-03-26T19:16:37+00:00,5,4.94,True,41,52,2,1344,1,3,4,MERGED
+30493,community[patch]: Handle gray scale images in ImageBlobParser (Fixes 30261 and 29586),pprados,2025-03-26T13:47:13Z,2025-03-28T14:15:41+00:00,3,48.47,True,46,3,2,19,1,3,4,MERGED
+30490,[community] fix late chunking [30472](https://github.com/langchain-ai/langchain/pull/30472),tien-ngnvan,2025-03-26T11:07:24Z,2025-03-26T13:01:23+00:00,1,1.9,False,1592,1,8,154,2,0,2,CLOSED
+30489,community[patch]: update PyPDFParser to take into account filters returned as arrays,pprados,2025-03-26T07:40:16Z,2025-03-26T18:16:54+00:00,1,10.61,True,8,2,1,146,4,0,4,MERGED
+30485,Docs: Fix typo in cookbook,chriz-io,2025-03-25T21:01:19Z,2025-03-25T22:15:29+00:00,2,1.24,True,1,1,1,1326,1,0,1,MERGED
+30484,Small Change to Tavily Docs,pulvedu,2025-03-25T20:58:05Z,2025-03-25T22:16:09+00:00,1,1.3,True,46,77,2,62,2,0,2,MERGED
+30483,core[patch]: Remove old accidental commit,eyurtsev,2025-03-25T19:51:25Z,2025-03-25T22:37:20+00:00,1,2.77,True,0,15,1,53,1,0,1,MERGED
+30481,core[patch]: add token counting callback handler,ccurme,2025-03-25T19:01:32Z,2025-03-25T22:16:39+00:00,3,3.25,True,201,0,4,541,1,5,6,MERGED
+30479,core[patch]: Fix handling of `title` when tool schema is specified manually via JSONSchema,eyurtsev,2025-03-25T17:07:04Z,2025-03-25T19:15:24+00:00,1,2.14,True,100,3,3,17,1,0,1,MERGED
+30478,Add GOAT integration to docs,0xaguspunk,2025-03-25T16:43:33Z,2025-03-28T19:19:38+00:00,13,74.6,True,293,1,4,137,1,4,5,MERGED
+30475,community: add HANA dialect to SQLDatabase,Byunk,2025-03-25T13:46:18Z,2025-03-27T19:19:50+00:00,6,53.56,True,43,1,2,419,1,1,2,MERGED
+30474,community: add Mistral AI callback for token usage counting,hrouis,2025-03-25T13:34:35Z,2025-03-25T20:20:50+00:00,1,6.77,False,197,2,3,107,5,0,5,CLOSED
+30472,community: Support Jina Late Chunk ,tien-ngnvan,2025-03-25T09:13:35Z,2025-03-26T10:53:08+00:00,1,25.66,False,1544,1,8,1463,2,0,2,CLOSED
+30467,Add APIpie.ai community provider integration,EncryptShawn,2025-03-24T21:10:26Z,2025-03-24T23:00:54+00:00,1,1.84,False,1295,0,5,753,3,0,3,CLOSED
+30462,docs[patch]: update trim_messages doc,vbarda,2025-03-24T17:07:44Z,2025-03-24T18:50:49+00:00,1,1.72,True,65,38,2,0,1,1,2,MERGED
+30459,SeekrFlow Chat Models Integration,benfaircloth,2025-03-24T15:25:39Z,2025-03-26T14:55:28+00:00,1,47.5,False,672,0,4,897,1,0,1,CLOSED
+30457,Community: Add Memgraph integration docs,antejavor,2025-03-24T13:34:59Z,2025-03-26T15:58:10+00:00,2,50.39,True,263,7,4,1143,3,2,5,MERGED
+30451,community: update perplexity docstring,DavidSanSan110,2025-03-23T21:23:44Z,2025-03-24T19:01:03+00:00,1,21.62,True,83,12,1,915,1,0,1,MERGED
+30450,community: update perplexity documentation,DavidSanSan110,2025-03-23T19:22:27Z,2025-03-24T17:49:59+00:00,2,22.46,True,84,6,1,1059,1,1,2,MERGED
+30449,community: Add edge properties to the gremlin graph schema,ianmuge,2025-03-23T18:09:14Z,2025-03-24T23:03:02+00:00,6,28.9,True,21,1,1,215,1,2,3,MERGED
+30448,Fix: Enable max_retries Parameter in ChatMistralAI Class,andrasfe,2025-03-23T16:34:29Z,2025-03-27T15:53:44+00:00,1,95.32,True,86,3,3,447,2,0,2,MERGED
+30447,APIpie.ai community provider initial integration,EncryptShawn,2025-03-23T16:19:44Z,2025-03-23T18:07:08+00:00,1,1.79,False,1308,0,5,941,1,0,1,CLOSED
+30446,core: fix  AsyncCallbackManagerForToolRun JSON  is not serializable ,xzq-xu,2025-03-23T15:37:27Z,2025-03-25T15:47:32+00:00,1,48.17,False,154,2,3,2851,3,0,3,CLOSED
+30445,feature: removed pandas dataframe dependency for similary_search when using DuckDB as vector store,dhruva71,2025-03-23T14:35:33Z,2025-04-04T16:19:18+00:00,5,289.73,True,53,1,1,415,2,2,4,MERGED
+30444,community: Fix retrieval node objects,galshubeli,2025-03-23T13:27:05Z,2025-04-29T15:27:06+00:00,2,890.0,False,7,1,1,395,3,0,3,CLOSED
+30442,Fix typo in with_structured_output function of class BaseChatOpenAI,rishabh1024,2025-03-23T06:59:57Z,2025-03-23T14:24:06+00:00,1,7.4,False,1,1,1,408,2,0,2,CLOSED
+30440,community: fix perplexity response parameters not being included in model response,DavidSanSan110,2025-03-23T01:31:32Z,2025-03-27T02:28:08+00:00,4,96.94,True,178,5,3,986,1,1,2,MERGED
+30438,APIpie.ai community provider initial integration,EncryptShawn,2025-03-23T00:59:25Z,2025-03-23T15:23:25+00:00,1,14.4,False,1312,0,5,883,1,0,1,CLOSED
+30436,docs: Add doc for Vectorize provider,cbornet,2025-03-22T18:27:50Z,2025-03-28T19:25:21+00:00,2,144.96,True,465,0,2,1114,2,0,2,MERGED
+30435,feature: added warning when duckdb is used as a vectorstore without pandas,dhruva71,2025-03-22T16:58:12Z,2025-03-22T19:27:21+00:00,1,2.49,True,6,0,1,514,2,0,2,MERGED
+30432,community: change to uuid4 in cassandra message histories,J1W0N-1209,2025-03-22T12:03:24Z,2025-03-22T19:27:49+00:00,1,7.41,True,2,2,1,199,1,0,1,MERGED
+30417,Fix incorrect import path for AzureAIChatCompletionsModel,csanz91,2025-03-21T09:41:42Z,2025-03-22T11:44:51+00:00,2,26.05,True,2,2,1,317,4,0,4,MERGED
+30415,langchain-contextual: update provider documentation and add reranker documentation,jonathanfeng,2025-03-21T09:13:41Z,2025-03-22T22:09:09+00:00,1,36.92,True,297,6,2,1543,1,0,1,MERGED
+30413,docs: Update VectorStoreTab vector store initializations,BrandonLuu,2025-03-21T05:57:32Z,2025-03-22T21:29:45+00:00,2,39.54,True,3,3,1,801,3,5,8,MERGED
+30411,langchain-ollama (partners) / langchain-core: allow passing ChatMessages to Ollama (including arbitrary roles),rylativity,2025-03-21T05:12:48Z,2025-04-18T14:07:07+00:00,4,680.91,True,575,465,5,1059,5,3,8,MERGED
+30410,openai[patch]: support multi-turn computer use,ccurme,2025-03-21T02:19:35Z,2025-03-24T15:25:37+00:00,1,85.1,True,336,14,3,2300,1,0,1,MERGED
+30409,docs: Update a note about how to track azure openai's token usage when streaming,axiangcoding,2025-03-21T01:55:57Z,2025-03-21T18:18:50+00:00,2,16.38,True,25,0,1,141,1,0,1,MERGED
+30407,docs: fix several typos in docs/docs/how_to/split_html.ipynb,jojoxiaojing,2025-03-21T00:34:38Z,2025-03-21T15:46:27+00:00,1,15.2,True,2,2,1,150,1,0,1,MERGED
+30406,docs: fix typo in chat_history.ipynb,jojoxiaojing,2025-03-21T00:04:36Z,2025-03-21T15:45:52+00:00,1,15.69,True,1,1,1,32,1,0,1,MERGED
+30405,docs: Fix typo in chat_history.ipynb,jojoxiaojing,2025-03-20T23:56:56Z,2025-03-21T15:45:31+00:00,1,15.81,True,2,2,1,27,1,0,1,MERGED
+30398,docs: updated the docs for vectara,adeelehsan,2025-03-20T19:36:27Z,2025-03-26T19:02:21+00:00,2,143.43,True,713,442,5,174,3,1,4,MERGED
+30395,langchain-tests: allow image specific params for image model tests,mattf,2025-03-20T16:09:19Z,2025-03-22T21:55:44+00:00,1,53.77,False,32,2,2,336,5,0,5,CLOSED
+30394,community: use Perplexity API instead of OpenAI client for full functionality,DavidSanSan110,2025-03-20T15:56:42Z,2025-03-23T15:17:15+00:00,1,71.34,False,197,86,4,621,1,0,1,CLOSED
+30392,community[tool]: Integrate a tool for the naver_search,e7217,2025-03-20T14:55:42Z,2025-03-23T18:05:24+00:00,2,75.16,True,313,3,3,328,3,2,5,MERGED
+30382,refactor(core): remove unused Context API,hinthornw,2025-03-19T19:07:37Z,2025-09-08T19:43:01+00:00,2,4152.59,False,7,897,4,59,6,1,7,CLOSED
+30379,langchain-groq: Add response metadata when streaming,injeniero,2025-03-19T18:34:57Z,2025-03-23T18:34:41+00:00,2,96.0,True,14,3,2,83,4,0,4,MERGED
+30377,Dereference run tree,hinthornw,2025-03-19T17:37:18Z,2025-03-19T19:05:06+00:00,4,1.46,True,15,7,2,0,1,1,2,MERGED
+30373,core[patch]: add util for approximate token counting,vbarda,2025-03-19T14:55:46Z,2025-03-19T17:48:38+00:00,12,2.88,True,206,0,2,0,1,15,16,MERGED
+30370,community: Azure Document Intelligence parser features not available fixed,LouisAuneau,2025-03-19T14:19:04Z,2025-03-26T18:40:15+00:00,10,172.35,True,8,20,2,1131,1,7,8,MERGED
+30364,"community: Improve Brave Search Tool, allow api key in env var",ivan-brko,2025-03-19T10:31:41Z,2025-03-31T18:48:52+00:00,4,296.29,True,101,9,5,409,4,5,9,MERGED
+30363,langchain: add ParrotFakeChatModel support to init_chat_model,milosz-l,2025-03-19T10:21:16Z,2025-03-19T13:14:58+00:00,1,2.9,False,34,0,2,842,2,0,2,CLOSED
+30360,community: aligning ChatLiteLLM default parameters with litellm,florianchappaz,2025-03-19T08:32:01Z,2025-03-19T13:07:29+00:00,1,4.59,True,3,3,1,581,1,0,1,MERGED
+30359,docs: Update Vector Store docs formatting,BrandonLuu,2025-03-19T05:43:27Z,2025-03-19T15:54:19+00:00,1,10.18,True,7,9,5,212,1,0,1,MERGED
+30358,Fix typo: change 'ben' to 'be' in comment,ashvp,2025-03-19T05:09:06Z,2025-03-19T14:35:36+00:00,1,9.44,True,1,1,1,226,1,0,1,MERGED
+30355,Docs: Fix deprecated initialize agent in ainetwork,Yeonseolee,2025-03-18T22:27:49Z,2025-03-19T19:20:21+00:00,3,20.88,True,6,9,1,210,2,1,3,MERGED
+30349,docs: Replace initialize_agent with AgentExecutor,AryanAgarwal27,2025-03-18T19:14:33Z,2025-03-19T02:37:38+00:00,1,7.38,False,128,74,7,610,3,6,9,CLOSED
+30343,langchain-tests: allow test_serdes for packages outside the default valid namespaces,mattf,2025-03-18T15:07:07Z,2025-03-22T21:27:39+00:00,1,102.34,True,6,1,1,505,2,0,2,MERGED
+30340,docs: Add docs for `WatsonxToolkit` from `langchain-ibm`,KarolZm,2025-03-18T13:07:17Z,2025-03-31T13:18:37+00:00,1,312.19,True,622,0,2,112,4,0,4,MERGED
+30329,openai[patch]: add Responses API attributes to BaseChatOpenAI,ccurme,2025-03-17T18:13:24Z,2025-06-17T18:45:50+00:00,4,2208.54,True,65,10,3,93,3,4,7,MERGED
+30328,community: deprecate graph vector store,bjchambers,2025-03-17T17:26:45Z,2025-03-25T13:52:54+00:00,2,188.44,True,27,5,1,46,2,0,2,MERGED
+30327,core[patch]: optimize trim_messages,vbarda,2025-03-17T17:12:19Z,2025-03-21T21:08:26+00:00,4,99.94,True,121,47,2,90,1,2,3,MERGED
+30322,openai[patch]: support additional Responses API features,ccurme,2025-03-17T13:47:04Z,2025-03-17T16:02:21+00:00,1,2.25,True,239,92,6,151,1,0,1,MERGED
+30317,support return reasoning content for models like qwq in dashscope,wenmengzhou,2025-03-17T06:06:54Z,2025-03-18T15:43:10+00:00,5,33.6,True,6,3,1,16785,3,2,5,MERGED
+30316,docs: Updated link to current Unstructured docs,elsatch,2025-03-17T01:11:48Z,2025-03-17T16:46:28+00:00,1,15.58,True,1,1,1,377,1,0,1,MERGED
+30314,Youtube Loader `load` method Fixed,keenborder786,2025-03-17T00:35:23Z,2025-03-23T18:48:03+00:00,2,162.21,True,6,2,1,98,4,0,4,MERGED
+30313,docs: Fix for broken links for Docling project sites,elsatch,2025-03-17T00:06:49Z,2025-03-17T16:47:09+00:00,1,16.67,True,3,3,1,163,1,1,2,MERGED
+30310,docs: fix typo,OskarStark,2025-03-16T14:07:21Z,2025-03-17T16:54:33+00:00,1,26.79,True,2,2,2,0,1,0,1,MERGED
+30308,chore(Makefile): streamline,OskarStark,2025-03-16T13:48:23Z,2025-03-16T16:04:43+00:00,1,2.27,False,22,33,1,0,2,0,2,CLOSED
+30307,docs(readthedocs): streamline config,OskarStark,2025-03-16T13:41:16Z,2025-03-18T15:47:46+00:00,1,50.11,True,4,8,1,0,3,0,3,MERGED
+30306,infra(GHA): remove unused `---` at the beginning of some workflows,OskarStark,2025-03-16T13:36:11Z,2025-03-17T16:46:33+00:00,1,27.17,True,0,3,3,0,1,0,1,MERGED
+30305,infra(GHA): description is required based on schema definition,OskarStark,2025-03-16T13:31:18Z,2025-03-17T18:42:42+00:00,1,29.19,True,2,0,2,0,1,0,1,MERGED
+30303,docs(openai): use bold over ticks,OskarStark,2025-03-16T11:50:41Z,2025-03-17T18:53:17+00:00,2,31.04,True,8,8,1,34,1,1,2,MERGED
+30302,docs: streamline LangSmith teasing,OskarStark,2025-03-16T10:32:56Z,2025-03-28T19:13:22+00:00,2,296.67,True,22302,22414,61,238,4,1,5,MERGED
+30300,Community: Add sqldocstore support for ParentChildRetriever,hslee16,2025-03-16T01:47:56Z,2025-04-29T15:27:58+00:00,10,1069.67,False,41,13,2,1592,4,5,9,CLOSED
+30298,fix typo,keeeeeliu,2025-03-15T18:28:02Z,2025-03-17T23:37:43+00:00,2,53.16,True,1,1,1,25,1,0,1,MERGED
+30297,core: allow pydantic model as input of template,ianchi,2025-03-15T18:27:24Z,2025-03-16T21:01:57+00:00,1,26.58,False,3,0,1,495,1,0,1,CLOSED
+30296,doc: Implement langchain-xinference,TheSongg,2025-03-15T12:11:35Z,2025-03-18T15:50:17+00:00,2,75.64,True,269,1,3,148,2,0,2,MERGED
+30295,community: Add a BaseStore backed by OpenSearch,manukychen,2025-03-15T10:08:35Z,2025-03-17T14:20:07+00:00,1,52.19,False,375,0,5,535,1,0,1,CLOSED
+30289,core: add tool_call exclusion in filter_message,ianchi,2025-03-14T18:00:53Z,2025-03-21T23:05:30+00:00,2,173.08,True,133,0,2,73,3,5,8,MERGED
+30286,community: cube document loader - do not load non-public dimensions and measures,Priyansh121096,2025-03-14T15:24:42Z,2025-03-14T19:07:56+00:00,1,3.72,True,22,2,2,1477,3,0,3,MERGED
+30285,community: cube document loader - fix logging,Priyansh121096,2025-03-14T14:15:54Z,2025-03-14T15:36:18+00:00,1,1.34,True,5,5,1,1475,1,0,1,MERGED
+30283,community[patch]: fix bilibili loader handling of multi-page content,homeffjy,2025-03-14T08:54:22Z,2025-03-14T18:53:03+00:00,2,9.98,True,19,4,3,92,1,1,2,MERGED
+30281,community: add xinference chat model,TheSongg,2025-03-14T07:48:05Z,2025-03-14T15:45:16+00:00,1,7.95,False,348,0,1,756,2,0,2,CLOSED
+30273,ollama[minor]: update default method for structured output,rlancemartin,2025-03-13T20:12:14Z,2025-03-18T16:44:23+00:00,1,116.54,True,26,41,4,70,1,0,1,MERGED
+30272,community[fix] : Pass API_KEY as argument,pulvedu,2025-03-13T19:04:14Z,2025-03-13T22:19:32+00:00,1,3.25,True,10,1,1,309,1,0,1,MERGED
+30270,community: add ZoteroRetriever,TimBMK,2025-03-13T17:32:26Z,2025-03-20T00:19:32+00:00,1,150.78,True,301,1,3,1078,2,0,2,MERGED
+30267,docs: Refactored AWS Lambda Tool to Use AgentExecutor instead of initialize agent ,AryanAgarwal27,2025-03-13T16:08:28Z,2025-03-18T02:04:14+00:00,1,105.93,True,12,10,1,598,3,0,3,MERGED
+30265,openai[patch]: support structured output via Responses API,ccurme,2025-03-13T15:02:37Z,2025-03-14T19:14:24+00:00,1,28.2,True,308,50,7,49,1,1,2,MERGED
+30264,community : Improving TavilySearch tool,pulvedu,2025-03-13T15:01:26Z,2025-03-19T23:16:09+00:00,1,152.25,False,305,131,3,307,1,0,1,CLOSED
+30263,community: fix CPU support for FasterWhisperParser (implicit compute type for WhisperModel),qonnop,2025-03-13T14:16:08Z,2025-03-15T02:22:29+00:00,1,36.11,True,1,3,1,864,1,0,1,MERGED
+30262,community: support in-memory data (Blob.from_data) in all audio parsers,qonnop,2025-03-13T13:00:18Z,2025-03-17T23:52:33+00:00,4,106.87,True,36,42,1,440,1,1,2,MERGED
+30261,community: fix auto-detection of non-RGB images.,EliasOenal,2025-03-13T10:27:04Z,2025-03-26T18:14:22+00:00,4,319.79,False,2,1,1,119,4,1,5,CLOSED
+30260,community[fix]: override `_cosine_relevance_score_fn` to use cosine similarity (#30257),Dheeraj-Nalapat,2025-03-13T09:22:58Z,2025-03-19T03:29:59+00:00,1,138.12,False,16,0,1,459,2,0,2,CLOSED
+30255,libs: remove redundant words,teslaedison,2025-03-13T06:35:42Z,2025-03-15T02:19:44+00:00,1,43.73,False,8,8,8,22,1,0,1,CLOSED
+30252,fix(core): Ignore missing secrets on deserialization,jacoblee93,2025-03-13T00:43:33Z,2025-03-13T19:27:03+00:00,2,18.73,True,11,2,2,0,2,1,3,MERGED
+30251,langchain_ollama: Support keep_alive in embeddings,skonto,2025-03-12T21:43:54Z,2025-03-14T18:56:50+00:00,1,45.22,True,12,5,2,273,2,0,2,MERGED
+30248,community[tool]: Add a tool for using naver search engine,e7217,2025-03-12T13:46:49Z,2025-03-17T23:34:03+00:00,1,129.79,False,312,0,2,215,3,0,3,CLOSED
+30246,langchain-runpod integration,max4c,2025-03-12T12:43:48Z,2025-04-03T17:09:46+00:00,1,532.43,False,414,0,3,536,4,4,8,CLOSED
+30244,"core[patch]: check ""tool_call_id"" existence to prevent KeyError (#27249)",dorian-bucaille,2025-03-12T08:49:21Z,2025-03-25T16:05:56+00:00,2,319.28,False,1,1,1,340,5,0,5,CLOSED
+30242,community: add 'extract' mode to FireCrawlLoader for structured data extraction,Bae-ChangHyun,2025-03-12T07:54:09Z,2025-03-17T15:15:57+00:00,1,127.36,True,114,5,2,460,1,0,1,MERGED
+30240,partner: ChatDeepSeek on openrouter not returning reasoning,andrasfe,2025-03-12T05:21:41Z,2025-03-21T16:35:38+00:00,1,227.23,True,187,5,3,879,3,0,3,MERGED
+30231,openai[patch]: support Responses API,ccurme,2025-03-11T19:09:03Z,2025-03-12T16:25:46+00:00,11,21.28,True,1934,75,12,0,1,8,9,MERGED
+30229,MariaDB vector store documentation addition,rusher,2025-03-11T17:47:22Z,2025-04-04T14:56:26+00:00,5,573.15,True,342,0,3,351,1,5,6,MERGED
+30228,core[patch]: Fix unit test that tests error callbacks on chat models,cbornet,2025-03-11T16:00:04Z,2025-03-31T14:37:23+00:00,6,478.62,True,50,37,2,12,2,4,6,MERGED
+30225,community[tool]: added the 'topic' param to TavilySearchResults,e7217,2025-03-11T14:49:10Z,2025-03-18T02:06:13+00:00,1,155.28,False,13,1,2,335,3,0,3,CLOSED
+30219,docs: Fix typo in Generating Examples section of few-shot prompting doc,iDharshan,2025-03-11T09:48:21Z,2025-03-11T13:44:21+00:00,1,3.93,True,4,4,1,1498,1,0,1,MERGED
+30218,community: fix import exception too constrictive,amuwall,2025-03-11T07:03:16Z,2025-03-18T02:09:03+00:00,1,163.1,True,12,12,1,21,1,0,1,MERGED
+30209,docs: Add Dell PowerScale Document Loader,abrenner,2025-03-10T23:36:34Z,2025-03-19T02:39:21+00:00,1,195.05,True,271,1,3,552,2,0,2,MERGED
+30208,docs: Fix Qdrant sparse and hybrid vector search,markperfect,2025-03-10T22:30:31Z,2025-03-19T02:44:12+00:00,1,196.23,True,102,68,1,680,1,0,1,MERGED
+30204,"langchain-tests: allow subclasses to add addition, non-standard tests",mattf,2025-03-10T20:15:41Z,2025-03-17T23:37:17+00:00,2,171.36,True,1,3,1,291,4,0,4,MERGED
+30197,Community: Init Memgraph toolkit integration,antejavor,2025-03-10T14:49:15Z,2025-03-10T16:42:29+00:00,1,1.89,False,518,0,7,1498,1,0,1,CLOSED
+30195,docs: Fix typo in astream_events in streaming docs,iDharshan,2025-03-10T10:51:05Z,2025-03-10T12:56:08+00:00,1,2.08,True,2,2,1,1498,1,0,1,MERGED
+30194,community: expose Azure Doc Intelligence result,laurentiupiciu,2025-03-10T10:22:33Z,2025-03-10T18:48:22+00:00,1,8.43,False,15,10,2,563,3,0,3,CLOSED
+30192,community: Remove the system message count limit for ChatTongyi.,CowSmiles,2025-03-10T00:19:12Z,2025-03-10T12:58:40+00:00,1,12.66,True,0,2,1,1417,1,0,1,MERGED
+30191,langchain-ollama (partners): allow passing ChatMessage (with custom 'role') to ChatOllama,rylativity,2025-03-09T23:32:52Z,2025-03-21T14:54:16+00:00,1,279.36,False,1850,8406,159,460,7,0,7,CLOSED
+30187,docs: hide jsx in llm chain tutorial,hesreallyhim,2025-03-09T19:23:37Z,2025-03-26T18:22:34+00:00,1,406.98,True,71,10,2,2798,3,0,3,MERGED
+30186,"Core , openai: add reasoning content to solve issues #30067",JasonHonKL,2025-03-09T09:22:25Z,2025-03-09T12:55:08+00:00,1,3.55,False,3,0,1,388,1,0,1,CLOSED
+30185,fix huggingface tokenizer default length function,keshavshrikant,2025-03-09T05:34:52Z,2025-03-31T15:54:30+00:00,3,538.33,True,1,1,1,6,3,0,3,MERGED
+30159,cli: release 0.0.36,eyurtsev,2025-03-07T15:25:31Z,2025-03-07T18:05:41+00:00,1,2.67,True,1,1,1,15,1,0,1,MERGED
+30154,(Ollama) Fix String Value parsing in  _parse_arguments_from_tool_call,keenborder786,2025-03-07T09:31:45Z,2025-03-20T01:47:19+00:00,5,304.26,True,16,4,2,87,5,1,6,MERGED
+30153,docs: Integration Update - ADS4GPTs,blackbak,2025-03-07T09:25:49Z,2025-03-07T19:35:44+00:00,1,10.17,True,452,0,3,235,1,0,1,MERGED
+30152,community: PlaywrightURLLoader can take stored session file,rauberdaniel,2025-03-07T09:24:52Z,2025-03-19T20:29:08+00:00,5,299.07,True,34,3,1,180,3,1,4,MERGED
+30150,add JiebaLinkExtractor for chinese doc extracting,andyzhou1982,2025-03-07T08:15:58Z,2025-03-07T20:21:46+00:00,2,12.1,True,1,0,1,390,3,0,3,MERGED
+30149,community: add netmind integration,anhuaxiang,2025-03-07T05:45:57Z,2025-03-27T19:27:04+00:00,5,493.69,True,725,0,4,0,7,12,19,MERGED
+30147, langchain_core/langchain_community: add ControlMessage to langchain_core and enable passing messages with 'control' role through ChatOllama,rylativity,2025-03-07T03:28:23Z,2025-03-18T16:49:51+00:00,1,277.36,False,106,4,6,528,4,0,4,CLOSED
+30144,"docs: Add AgentQL provider doc, tool/toolkit doc and documentloader doc",jayfish0,2025-03-06T23:03:58Z,2025-03-12T01:57:40+00:00,4,122.89,True,1392,0,6,360,1,2,3,MERGED
+30135,community: Add OpenGradient integration (Toolkit),kylexqian,2025-03-06T12:15:53Z,2025-03-09T22:10:31+00:00,1,81.91,False,501,22,4,1146,3,0,3,CLOSED
+30132,add jieba_link_extractor.py for chinese doc extracting,andyzhou1982,2025-03-06T07:46:40Z,2025-03-06T14:42:28+00:00,1,6.93,False,253,0,3,1187,1,0,1,CLOSED
+30127,community: fix AttributeError when creating LanceDB vectorstore,metadaddy,2025-03-05T20:09:56Z,2025-03-05T23:04:38+00:00,1,2.91,True,1,0,1,314,2,0,2,MERGED
+30125,Tableau docs for new datasource qa tool,joeconstantino,2025-03-05T19:28:58Z,2025-03-06T14:58:57+00:00,2,19.5,True,334,0,3,135,1,2,3,MERGED
+30123,core[patch]: update structured output tracing,ccurme,2025-03-05T18:17:37Z,2025-03-07T18:05:26+00:00,1,47.8,True,184,714,13,66,1,1,2,MERGED
+30118,community:Adding async support for AWS DocumentDB,Alonoparag,2025-03-05T11:46:48Z,2025-03-05T15:47:55+00:00,1,4.02,False,1490,2,4,642,3,0,3,CLOSED
+30117,community: fix Jira API wrapper failing initialization with cloud param,thesmallstar,2025-03-05T09:59:30Z,2025-03-05T15:49:26+00:00,1,5.83,True,65,0,2,730,1,0,1,MERGED
+30111,docs: cookbook for new Tableau tool,joeconstantino,2025-03-05T04:52:34Z,2025-03-05T15:59:16+00:00,1,11.11,False,343,0,1,257,1,0,1,CLOSED
+30110,Add request_id field to improve request tracking and debugging (for Tongyi model),chenlingmin,2025-03-05T02:38:57Z,2025-03-05T16:03:47+00:00,1,13.41,True,1,0,1,352,1,0,1,MERGED
+30108,community: make DashScope models support Partial Mode for text continuation.,CowSmiles,2025-03-05T01:33:07Z,2025-03-05T16:22:15+00:00,1,14.82,True,78,18,3,660,1,0,1,MERGED
+30105,community: add Valthera integration,vselvarajijay,2025-03-04T20:17:34Z,2025-03-09T21:19:09+00:00,5,121.03,True,506,0,3,773,4,4,8,MERGED
+30096,core[patch]: fix loss of partially initialized variables during prompt composition,Thommy257,2025-03-04T12:16:00Z,2025-03-28T20:41:58+00:00,4,584.43,True,36,4,2,985,3,1,4,MERGED
+30094,community[minor]: 07 - Refactoring ZeroxPDFLoader,pprados,2025-03-04T12:03:28Z,2025-04-29T15:28:37+00:00,10,1347.42,False,1514,217,7,306,12,8,20,CLOSED
+30088,docs: Fix typo in code samples for max_tokens_for_prompt,samueldg,2025-03-04T05:51:39Z,2025-03-04T14:11:21+00:00,1,8.33,True,2,2,2,182,1,0,1,MERGED
+30084,community[patch]: remove numpy cap for python < 3.12,ccurme,2025-03-03T23:34:18Z,2025-03-04T14:46:42+00:00,1,15.21,True,177,4902,6,0,1,0,1,MERGED
+30083,Partners: Fixes/Fix Invalid openai tool names in GitHubToolkit and others,andrasfe,2025-03-03T20:40:18Z,2025-03-11T00:03:57+00:00,1,171.39,False,244,31,5,1015,7,1,8,CLOSED
+30082,Update MLflow integration docs with concise examples and external links,djliden,2025-03-03T20:06:37Z,2025-03-20T00:25:11+00:00,1,388.31,True,77,467,1,362,2,1,3,MERGED
+30081,docs:Add SWI-Prolog for langchain-prolog,apisani1,2025-03-03T15:58:24Z,2025-03-04T14:12:48+00:00,1,22.24,True,1,1,1,116,1,0,1,MERGED
+30073,[Doc] Improve api doc,ZhangShenao,2025-03-03T09:16:10Z,2025-03-04T14:39:07+00:00,1,29.38,True,3,3,2,77,1,0,1,MERGED
+30071,docs: refine milvus server description,zc277584121,2025-03-03T03:04:13Z,2025-03-04T14:39:54+00:00,1,35.59,True,3,3,1,175,2,0,2,MERGED
+30070,langchain: clean pyproject ruff section,dskarbrevik,2025-03-03T02:33:27Z,2025-03-09T19:06:02+00:00,2,160.54,True,17,30,3,356,2,1,3,MERGED
+30065,community : Improving TavilySearch tool and adding TavilyExtract tool.,pulvedu,2025-03-01T23:49:23Z,2025-03-11T15:29:28+00:00,1,231.67,False,913,157,9,358,2,2,4,CLOSED
+30062,docs: sidebar-content-render (#30061),nandanchandra,2025-03-01T19:19:24Z,2025-03-01T20:30:41+00:00,1,1.19,True,1,1,1,1294,1,0,1,MERGED
+30060,Update ascend.py,cold-eye,2025-03-01T14:49:48Z,2025-03-01T19:10:42+00:00,1,4.35,True,13,1,1,1562,1,1,2,MERGED
+30059,core: make with_alisteners() example workable.,ArrayPD,2025-03-01T11:40:59Z,2025-03-01T20:39:02+00:00,1,8.97,True,20,15,1,901,1,0,1,MERGED
+30052,New document loaders and TTS Tool,gsilva2016,2025-03-01T02:22:39Z,2025-03-01T20:32:12+00:00,1,18.16,False,1139,0,12,960,1,0,1,CLOSED
+30050,docs: add contextualai documentation,jonathanfeng,2025-02-28T23:14:45Z,2025-03-09T02:43:13+00:00,1,195.47,True,370,0,3,243,1,0,1,MERGED
+30048,"anthropic, mistral: return `model_name` in response metadata",ccurme,2025-02-28T16:11:32Z,2025-02-28T18:56:06+00:00,1,2.74,True,18,1,4,192,2,0,2,MERGED
+30043,community: PlaywrightURLLoader should wait for page load event before attempting to extract data,rauberdaniel,2025-02-28T12:34:49Z,2025-02-28T13:45:52+00:00,1,1.18,True,4,0,1,106,1,0,1,MERGED
+30042, docs: add Taiga Tool integration docs,henlein,2025-02-28T12:14:43Z,2025-03-04T17:51:20+00:00,2,101.61,True,359,0,3,255,1,5,6,MERGED
+30040,docs:  fix apify actors notebok main heading text,MQ37,2025-02-28T09:45:11Z,2025-03-07T17:58:10+00:00,1,176.22,True,254,252,2,190,1,0,1,MERGED
+30039,docs: update google_cloud_vertexai_rerank.ipynb,eltociear,2025-02-28T09:36:40Z,2025-02-28T13:45:07+00:00,1,4.14,True,1,1,1,18,1,0,1,MERGED
+30037,docs: refine milvus doc with hybrid-search,zc277584121,2025-02-28T03:46:43Z,2025-02-28T15:22:53+00:00,1,11.6,True,115,14,1,112,1,0,1,MERGED
+30036,Add openwebui docs PR,Redempt1onzzZZ,2025-02-28T03:26:29Z,2025-02-28T14:07:33+00:00,1,10.68,False,926,0,8,220,2,0,2,CLOSED
+30035,add xinference rerank,cold-eye,2025-02-28T02:52:29Z,2025-02-28T13:54:23+00:00,1,11.03,False,126,0,1,1506,2,0,2,CLOSED
+30033,Implementing the MMR algorithm for OLAP vector storage,fkzhao,2025-02-28T02:27:19Z,2025-02-28T13:50:22+00:00,2,11.38,True,191,10,2,1268,1,1,2,MERGED
+30032,community: add rerankers/xinference.py for rerank,cold-eye,2025-02-28T00:51:58Z,2025-02-28T02:45:35+00:00,1,1.89,False,129,0,1,1526,2,0,2,CLOSED
+30028,Add xAI to ChatModelTabs drop down,tiestvangool,2025-02-27T22:56:25Z,2025-02-28T14:08:12+00:00,1,15.2,True,7,0,1,428,1,0,1,MERGED
+30024,Migrate to api v2,adeelehsan,2025-02-27T18:55:06Z,2025-03-20T00:16:58+00:00,12,485.36,False,2476,1041,7,142,2,11,13,CLOSED
+30012,docs: fix tavily_search code-block format.,damonxue,2025-02-27T01:54:56Z,2025-02-27T15:55:16+00:00,1,14.01,True,6,3,1,366,2,0,2,MERGED
+30006,Fixed an issue with the OpenAI Assistant's 'retrieval' tool and adding support for the 'attachments' parameter,mathias-marciano,2025-02-26T14:56:08Z,2025-03-04T17:34:12+00:00,5,146.63,True,5,2,1,490,2,1,3,MERGED
+30004,fix(core): fix BaseTool when `args_schema` has pydantic validators that change the input keys,VMinB12,2025-02-26T14:04:39Z,2025-09-12T19:47:44+00:00,3,4757.72,False,35,5,2,1962,6,1,7,CLOSED
+30002,community[minor]: Fix regular expression in visualize and outlines modules.,pprados,2025-02-26T13:41:57Z,2025-03-04T17:23:48+00:00,1,147.7,True,2,2,2,30,3,0,3,MERGED
+30001,Add asynchronous generate interface,TheSongg,2025-02-26T07:14:33Z,2025-02-28T17:32:45+00:00,2,58.3,True,88,2,1,809,4,0,4,MERGED
+29999,docs: fix kinetica vectorstore typo,jamesongithub,2025-02-26T02:56:22Z,2025-02-26T13:31:57+00:00,1,10.59,True,3,3,1,53,1,0,1,MERGED
+29998,Added ChatGrok extension to ChatXAI with grok_version support,tiestvangool,2025-02-26T02:24:46Z,2025-02-26T18:10:24+00:00,1,15.76,False,69,9,3,1666,3,0,3,CLOSED
+29995,"community: add title, score and raw_content to tavily search results",strangehelix,2025-02-25T20:48:48Z,2025-02-25T23:27:21+00:00,1,2.64,True,9,6,1,233,1,0,1,MERGED
+29992,"community: ArangoDB updates for Graph, QA Chain, Vector",aMahanna,2025-02-25T17:03:46Z,2025-02-25T23:20:50+00:00,1,6.28,False,1984,207,7,520,4,0,4,CLOSED
+29986,core[mustache]: Fix pass kwargs to mustache render correctly,MiguelPuntoEs,2025-02-25T13:45:01Z,2025-03-28T20:44:12+00:00,1,750.99,False,1,1,1,130,2,0,2,CLOSED
+29984,docs: writer integration docs cosmetic fixes,yanomaly,2025-02-25T10:57:37Z,2025-02-27T15:52:49+00:00,1,52.92,True,138,136,5,47,1,0,1,MERGED
+29983,docs: Correct grammatical typos in various documentation files,nav-sk,2025-02-25T09:22:54Z,2025-02-25T19:13:31+00:00,1,9.84,True,8,8,8,124,1,0,1,MERGED
+29982,Add support for Open WebUI in chat_models,Redempt1onzzZZ,2025-02-25T09:12:47Z,2025-02-25T15:06:54+00:00,1,5.9,False,1280,0,6,220,6,0,6,CLOSED
+29981,Add ChatContextual,jonathanfeng,2025-02-25T08:23:24Z,2025-02-25T15:07:53+00:00,2,6.74,False,166,0,4,1506,2,1,3,CLOSED
+29976,core[patch]: allow passing description to @tool decorator,vbarda,2025-02-24T23:48:13Z,2025-02-25T22:45:36+00:00,5,22.96,True,134,14,4,0,1,3,4,MERGED
+29975,community: add Onnxruntime-genai support,omer-demir,2025-02-24T21:51:35Z,2025-02-24T23:37:46+00:00,1,1.77,False,182,1,4,416,5,0,5,CLOSED
+29972,Transition prolog_tool doc to langgraph,apisani1,2025-02-24T18:52:11Z,2025-02-24T23:34:53+00:00,1,4.71,True,47,53,1,78,1,0,1,MERGED
+29971,anthropic[patch]: support claude 3.7 sonnet,ccurme,2025-02-24T18:51:54Z,2025-02-24T20:17:47+00:00,3,1.43,True,133,16,4,0,5,2,7,MERGED
+29970,core(mermaid): fix error when 3+ subgraph levels,ianchi,2025-02-24T18:32:54Z,2025-03-04T18:27:50+00:00,1,191.92,True,107,0,3,0,3,0,3,MERGED
+29961,Writer partners integration docs,yanomaly,2025-02-24T14:45:38Z,2025-02-25T00:30:09+00:00,2,9.74,True,1154,305,6,117,1,2,3,MERGED
+29953,PyMuPDF4LLM integration to LangChain,lakinduboteju,2025-02-24T11:54:45Z,2025-02-26T20:59:12+00:00,1,57.07,True,791,1,4,1219,4,0,4,MERGED
+29942,"core[patch]: Fix FileCallbackHandler name resolution, Fixes #29941",mirskiy,2025-02-23T20:49:38Z,2025-02-26T19:54:25+00:00,1,71.08,True,53,2,2,324,1,0,1,MERGED
+29940,"core, openai[patch]: support serialization of pydantic models in messages",ccurme,2025-02-23T20:40:30Z,2025-02-24T14:34:28+00:00,2,17.9,True,82,9,4,633,1,1,2,MERGED
+29935,community: Repair embeddings/llamacpp's embed_query method,JulienElkaim,2025-02-23T14:52:02Z,2025-02-23T19:32:17+00:00,1,4.67,True,11,3,2,312,1,0,1,MERGED
+29932,openai[patch]: set global ssl context,ccurme,2025-02-23T02:44:48Z,2025-02-24T16:25:16+00:00,1,37.67,True,12,2,1,132,1,0,1,MERGED
+29931,community: update RankLLM integration and fix LangChain deprecation,b8zhong,2025-02-23T01:55:47Z,2025-03-31T13:50:00+00:00,2,875.9,True,74,35,1,1129,8,0,8,MERGED
+29926,openai[patch]: instantiate clients lazily,ccurme,2025-02-21T21:55:52Z,2025-04-04T20:46:44+00:00,1,1006.85,False,209,93,7,3168,2,1,3,CLOSED
+29924,langchain: Fixed issue #29884,MinhQuanBuiSco,2025-02-21T18:00:02Z,2025-04-14T14:52:20+00:00,2,1244.87,False,128,128,52,137,4,0,4,CLOSED
+29921,core[patch]: return ToolMessage from tools when tool call ID is empty string,vbarda,2025-02-21T12:57:46Z,2025-02-21T16:53:15+00:00,1,3.92,True,12,1,2,0,1,0,1,MERGED
+29917,docs: remove redundant cell in sql_large_db guide,sinancan34,2025-02-21T10:46:18Z,2025-02-21T13:38:50+00:00,1,2.88,True,0,38,1,1506,1,0,1,MERGED
+29916,Enable GPU_BRUTE_FORCE Milvus index,Rachit-Chaudhary11,2025-02-21T10:41:52Z,2025-02-21T14:05:34+00:00,1,3.4,False,1,0,1,1790,1,0,1,CLOSED
+29915,community/mlx_pipeline: fix crash at mlx call,jpdournel,2025-02-21T10:12:28Z,2025-02-21T14:14:53+00:00,1,4.04,True,59,12,3,450,1,0,1,MERGED
+29914,community: Update SQLiteVec table trigger,Talostat,2025-02-21T09:27:24Z,2025-02-26T15:10:14+00:00,2,125.71,True,25,1,2,188,2,0,2,MERGED
+29908,docs: build mongo in api ref,ccurme,2025-02-20T18:09:29Z,2025-02-21T00:58:35+00:00,1,6.82,True,0,1,1,0,1,0,1,MERGED
+29905,Update retrieval.mdx,sinancan34,2025-02-20T15:24:03Z,2025-02-20T17:12:29+00:00,1,1.81,True,2,0,1,1506,1,0,1,MERGED
+29902,Separate deepale vector store,activesoull,2025-02-20T13:00:19Z,2025-02-20T17:37:20+00:00,1,4.62,True,282,709,5,1206,1,0,1,MERGED

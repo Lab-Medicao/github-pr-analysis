@@ -1,5 +1,7 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+84533,[test] Enable `reactDebugChannel` for experimental test shards,unstubbable,2025-10-05T10:28:44Z,2025-10-05T23:48:10+00:00,4,13.32,True,36,5,4,176,3,2,5,MERGED
 84532,Fix potential race condition with request ID in dev mode,unstubbable,2025-10-05T10:17:16Z,2025-10-05T12:40:24+00:00,1,2.39,True,20,32,2,794,2,0,2,MERGED
+84527,Simplify Metadata components,gnoff,2025-10-05T05:22:09Z,2025-10-06T00:41:02+00:00,3,19.31,True,133,309,8,530,2,2,4,MERGED
 84520,[segment cache]: collectSegmentData should respect experimental.staleTime config,ztanner,2025-10-04T17:55:52Z,2025-10-04T20:16:15+00:00,1,2.34,True,2,1,1,463,3,0,3,MERGED
 84517,[ci]: de-flake client cache test,ztanner,2025-10-04T14:42:33Z,2025-10-04T18:19:13+00:00,1,3.61,True,6,0,1,57,3,0,3,MERGED
 84505,Turbopack: Use strongly consistent reads in `random_change` unit test,bgw,2025-10-03T20:58:57Z,2025-10-03T22:51:09+00:00,1,1.87,True,25,14,1,151,5,0,5,MERGED
@@ -149,3 +151,851 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 84114,fix(docs): Fix links in UPGRADING.md,lachlanjc,2025-09-23T02:10:42Z,2025-09-23T10:23:17+00:00,1,8.21,True,1,1,1,138,2,0,2,MERGED
 84112,[turbopack] s/analyse/analyze/g,lukesandberg,2025-09-22T23:39:04Z,2025-09-23T05:59:28+00:00,1,6.34,True,6871,6871,41,163,6,0,6,MERGED
 84111,Turbopack: Remove useless 'default' built-in webpack loader condition,bgw,2025-09-22T23:30:24Z,2025-09-23T04:46:21+00:00,1,5.27,True,0,7,4,329,4,0,4,MERGED
+84109,Turbopack: Remove the deprecated `.turbo` config object,bgw,2025-09-22T23:19:28Z,2025-09-23T18:03:37+00:00,1,18.74,True,2,185,10,154,5,0,5,MERGED
+84105,BREAKING CHANGE!: bump default `images.minimumCacheTTL` from 1 min to 4 hours,styfle,2025-09-22T21:56:41Z,2025-09-23T14:49:34+00:00,3,16.88,True,15,15,12,776,2,0,2,MERGED
+84104,Fix layout for `ssgPageRoutes` in the file tree,lukesandberg,2025-09-22T21:33:09Z,2025-09-22T23:47:49+00:00,1,2.24,True,3,4,2,170,4,0,4,MERGED
+84103,babel-loader: Avoid calling expensive `isReactCompilerRequired` check when we must run Babel anyways,bgw,2025-09-22T21:32:31Z,2025-09-25T21:23:19+00:00,3,71.85,True,41,8,1,241,4,2,6,MERGED
+84102,[breaking]: enable router scroll optimization by default,ztanner,2025-09-22T20:28:56Z,2025-09-22T23:34:29+00:00,7,3.09,True,15,211,7,320,3,4,7,MERGED
+84100,Feat: Add Model Context Protocol (MCP) server to Next.js dev server,gaojude,2025-09-22T19:06:43Z,2025-09-23T14:53:17+00:00,3,19.78,True,729,0,16,454,2,2,4,MERGED
+84099,ci: Enable `experimental.isolatedDevBuild` for `test-experimental-dev`,devjiwonchoi,2025-09-22T18:49:41Z,2025-09-24T00:10:11+00:00,5,29.34,True,77,26,14,296,3,4,7,MERGED
+84093,Upgrade React from `d415fd3e-20250919` to `1eca9a27-20250922`,nextjs-bot,2025-09-22T16:26:42Z,2025-09-23T16:38:44+00:00,1,24.2,True,4523,2638,86,232,2,0,2,MERGED
+84090,Development: Remove TypeScript from the hot path during bootup,timneutkens,2025-09-22T15:54:36Z,2025-09-23T09:50:05+00:00,10,17.92,True,265,226,9,917,5,6,11,MERGED
+84087,[backport] [CNA] use linter preference (#83194),devjiwonchoi,2025-09-22T15:28:48Z,2025-09-22T18:10:41+00:00,3,2.7,True,9,1,1,16,1,1,2,MERGED
+84086,docs: improve dynamic routes example in project structure page,liketiger,2025-09-22T14:54:19Z,2025-09-23T10:31:20+00:00,1,19.62,True,1,1,1,466,1,0,1,MERGED
+84085,Turbopack: fix race condition in unit test,sokra,2025-09-22T14:38:44Z,2025-09-22T15:47:23+00:00,4,1.14,True,23,4,1,192,4,2,6,MERGED
+84082,Turbopack: include availability hash in the ident of evaluated chunks groups,sokra,2025-09-22T13:38:18Z,2025-09-23T05:52:52+00:00,4,16.24,True,17,7,1,123,4,2,6,MERGED
+84081,"Turbopack: Deterministic builds (prerender-manifest, .next/package.json, ./next/postcss.js)",sokra,2025-09-22T13:18:27Z,2025-09-22T14:41:31+00:00,4,1.38,True,9,11,3,188,5,2,7,MERGED
+84080,trace-build: Add missing spans,timneutkens,2025-09-22T13:05:03Z,2025-09-23T08:46:33+00:00,1,19.69,True,126,74,3,277,3,0,3,MERGED
+84079,[backport] Turbopack: flush Node.js worker IPC on error,mischnic,2025-09-22T13:04:20Z,2025-09-22T14:27:25+00:00,1,1.38,True,6,4,1,32,2,0,2,MERGED
+84076,Turbopack: remove references from ChunkData,sokra,2025-09-22T12:10:15Z,2025-09-23T05:52:08+00:00,2,17.7,True,11,53,6,75,4,1,5,MERGED
+84074,Turbopack: run tests with multiple threads,mischnic,2025-09-22T11:12:30Z,2025-09-22T13:18:10+00:00,1,2.09,True,2,2,2,1844,4,0,4,MERGED
+84073,[test] Remove unused next.config.js in nonce-head-manager,eps1lon,2025-09-22T10:55:22Z,2025-09-22T15:07:46+00:00,3,4.21,True,0,16,2,103,3,1,4,MERGED
+84070,Enable anonymous function naming in React Compiler,eps1lon,2025-09-22T10:23:23Z,2025-09-24T08:10:35+00:00,12,45.79,True,248,128,9,334,6,6,12,MERGED
+84069,Flag excess properties in Next.js config with TypeScript,eps1lon,2025-09-22T10:23:21Z,2025-09-23T18:43:15+00:00,2,32.33,True,54,32,7,768,4,1,5,MERGED
+84062,[turbopack] Ensure React Compiler options are based dev vs prod,eps1lon,2025-09-22T07:33:56Z,2025-09-24T06:55:10+00:00,9,47.35,True,28,24,4,201,4,5,9,MERGED
+84061,Update Rspack development test manifest,vercel-release-bot,2025-09-22T07:01:59Z,2025-09-22T21:56:01+00:00,1,14.9,True,23,14,1,98,2,0,2,MERGED
+84060,Update Rspack production test manifest,vercel-release-bot,2025-09-22T07:01:57Z,2025-09-22T22:05:41+00:00,1,15.06,True,9,13,1,97,3,0,3,MERGED
+84053,Turbopack: trace all state changes,sokra,2025-09-22T05:53:22Z,2025-09-22T07:56:18+00:00,1,2.05,True,3,0,1,119,5,0,5,MERGED
+84045,docs: add pageExtensions note to Middleware and clarify default filename,Milancen123,2025-09-21T19:00:23Z,2025-09-22T09:24:58+00:00,1,14.41,True,2,0,1,281,2,0,2,MERGED
+84043,[Breaking] Set `experimental.isolatedDevBuild` default to true,devjiwonchoi,2025-09-21T17:31:46Z,2025-09-22T18:57:51+00:00,7,25.43,False,1195,738,238,118,6,6,12,CLOSED
+84041,Fix TypeScript type error in example code,martinfrancois,2025-09-21T17:10:45Z,2025-09-22T11:29:45+00:00,1,18.32,True,1,1,1,284,2,0,2,MERGED
+84024,fix: worker logs should still support color,ztanner,2025-09-20T17:17:36Z,2025-09-20T18:42:48+00:00,2,1.42,True,152,6,2,582,3,0,3,MERGED
+84005,Update font data,vercel-release-bot,2025-09-20T00:13:22Z,2025-09-20T19:15:19+00:00,2,19.03,True,987,36,2,62,1,2,3,MERGED
+84002,Turbopack: Document automatic Babel config support,bgw,2025-09-19T21:30:23Z,2025-09-22T23:22:38+00:00,2,73.87,True,18,14,2,806,3,0,3,MERGED
+84001,docs: Fix the title/path of the turbopack page on pages router,bgw,2025-09-19T20:15:27Z,2025-09-23T04:47:08+00:00,1,80.53,True,1,1,1,238,2,0,2,MERGED
+84000,next-dev: Emit `next.config.js` warnings from child process upon restart,bgw,2025-09-19T19:44:29Z,2025-09-22T22:37:25+00:00,3,74.88,False,55,66,4,595,3,2,5,CLOSED
+83997,[backport] docs: september improvements and fixes,icyJoseph,2025-09-19T15:57:35Z,2025-09-23T13:34:46+00:00,1,93.62,True,428,53,29,48,1,0,1,MERGED
+83994,[backport] fix: devtools initial position should be from next config (#83571),devjiwonchoi,2025-09-19T14:37:47Z,2025-09-19T15:59:24+00:00,1,1.36,True,162,2,10,16,1,0,1,MERGED
+83992,[backport] fix: error overlay not closing when backdrop clicked (#83981),devjiwonchoi,2025-09-19T14:29:11Z,2025-09-19T16:25:04+00:00,1,1.93,True,7,6,2,16,1,0,1,MERGED
+83990,Turbopack: error when importing Typescript in node_modules,mischnic,2025-09-19T12:56:02Z,2025-09-22T14:40:54+00:00,3,73.75,True,324,232,18,1001,4,5,9,MERGED
+83988,docs: onRequestError request header type,icyJoseph,2025-09-19T10:05:33Z,2025-09-23T12:48:36+00:00,1,98.72,True,1,1,1,129,0,0,0,MERGED
+83987,docs: Cookies store access is async,icyJoseph,2025-09-19T09:46:38Z,2025-09-23T13:31:35+00:00,1,99.75,True,5,3,1,33,0,0,0,MERGED
+83984,standardize function handling,lukesandberg,2025-09-19T08:21:51Z,2025-09-22T02:06:34+00:00,1,65.75,False,612,480,21,16,4,1,5,CLOSED
+83983,[turbopack] cleanup analyzer,lukesandberg,2025-09-19T08:21:49Z,2025-09-20T07:29:44+00:00,9,23.13,True,3470,3857,83,661,7,1,8,MERGED
+83981,fix: error overlay not closing when backdrop clicked,devjiwonchoi,2025-09-19T07:43:32Z,2025-09-19T09:21:22+00:00,1,1.63,True,7,6,2,491,2,0,2,MERGED
+83980,Update Rspack development test manifest,vercel-release-bot,2025-09-19T07:02:22Z,2025-09-19T22:53:56+00:00,1,15.86,True,29,8,1,98,3,0,3,MERGED
+83979,Update Rspack production test manifest,vercel-release-bot,2025-09-19T07:01:49Z,2025-09-19T22:48:15+00:00,2,15.77,True,26,2,1,97,3,1,4,MERGED
+83978,Turbopack: fix test case and update project_update to turbo_tasks::run too,sokra,2025-09-19T06:48:04Z,2025-09-22T12:20:34+00:00,1,77.54,True,6,47,3,415,5,0,5,MERGED
+83977,Turbopack: trace state changes,sokra,2025-09-19T06:48:00Z,2025-09-20T05:42:19+00:00,3,22.91,True,3,0,1,97,4,1,5,MERGED
+83976,Turbopack: Make transient tasks root tasks too when called in turbo_tasks::run,sokra,2025-09-19T06:47:58Z,2025-09-20T05:18:51+00:00,4,22.51,True,1,2,1,150,5,2,7,MERGED
+83975,"Turbopack: ""connect"" tasks in turbo_tasks::run too",sokra,2025-09-19T06:47:57Z,2025-09-19T22:35:59+00:00,1,15.8,True,5,6,3,217,4,0,4,MERGED
+83974,Turbopack: read project strongly consistent in project_update,sokra,2025-09-19T06:47:55Z,2025-09-19T08:36:46+00:00,1,1.81,True,13,3,1,177,5,0,5,MERGED
+83973,babel-loader: Fix a few issues with config caching,bgw,2025-09-19T05:30:57Z,2025-09-22T21:53:13+00:00,4,88.37,True,90,71,1,561,4,1,5,MERGED
+83971,Fix: Client should auto reload after server restarts,gaojude,2025-09-19T02:22:39Z,2025-09-23T05:45:13+00:00,17,99.38,True,260,31,10,212,3,7,10,MERGED
+83966,fix: Ensure typegen CLI command doesn't hang due to open handles,ericmatthys,2025-09-18T20:55:04Z,2025-09-22T14:52:27+00:00,4,89.96,True,15,1,3,511,8,1,9,MERGED
+83963,fix: prevent URL mutation in router rewrites,wyattjoh,2025-09-18T19:02:52Z,2025-09-24T19:13:34+00:00,4,144.18,True,317,74,13,1591,3,3,6,MERGED
+83962,Turbopack: JsAnalyzer parse AssignExpr,mischnic,2025-09-18T18:19:31Z,2025-09-19T10:26:28+00:00,3,16.12,True,11012,10582,9,16,5,1,6,MERGED
+83961,feat: Isolate dev build from prod,devjiwonchoi,2025-09-18T18:14:16Z,2025-09-19T06:00:28+00:00,1,11.77,True,72,5,8,650,2,0,2,MERGED
+83955,Turbopack: allow to read State from turbo_tasks::run,sokra,2025-09-18T15:52:07Z,2025-09-18T17:04:44+00:00,1,1.21,True,51,30,5,138,3,0,3,MERGED
+83953,Only send notification if canary fails on required jobs,eps1lon,2025-09-18T15:00:45Z,2025-09-18T16:30:30+00:00,4,1.5,True,45,1,1,180,2,3,5,MERGED
+83949,Build: Add .next/trace-build with high level trace,timneutkens,2025-09-18T13:40:38Z,2025-09-18T19:14:31+00:00,4,5.56,True,442,63,12,745,3,2,5,MERGED
+83944,[Breaking] Remove deprecated `publicRuntimeConfig` and `serverRuntimeConfig`,devjiwonchoi,2025-09-18T12:38:42Z,2025-09-22T18:11:58+00:00,1,101.55,True,12,477,48,624,5,0,5,MERGED
+83942,Turbopack: enable nodelay for node.js pool socket,sokra,2025-09-18T11:03:40Z,2025-09-18T13:31:51+00:00,1,2.47,True,6,0,2,87,3,0,3,MERGED
+83938,Turbopack: extract parse_source_map_comment,mischnic,2025-09-18T09:22:41Z,2025-09-18T13:09:50+00:00,4,3.79,True,153,91,4,16,3,2,5,MERGED
+83935,Development: Only load createEnvDefinitions when used,timneutkens,2025-09-18T07:42:23Z,2025-09-23T11:54:22+00:00,1,124.2,True,3,1,1,90,3,0,3,MERGED
+83934,Update Rspack production test manifest,vercel-release-bot,2025-09-18T07:01:58Z,2025-09-19T05:28:12+00:00,1,22.44,True,2,3,1,97,3,0,3,MERGED
+83933,Update Rspack development test manifest,vercel-release-bot,2025-09-18T07:01:48Z,2025-09-19T05:34:20+00:00,1,22.54,True,4,4,1,98,3,0,3,MERGED
+83932,fix: add the missing comma in the document example,fufuShih,2025-09-18T06:22:20Z,2025-09-18T08:11:47+00:00,1,1.82,True,1,1,1,554,1,0,1,MERGED
+83924,fix(metadata): make formatDetection respect true/false properly,m1abdullahh,2025-09-18T00:46:40Z,2025-09-26T21:25:16+00:00,1,212.64,True,4,2,2,441,4,0,4,MERGED
+83921,[turbopack] Conditionally collect affecting sources,lukesandberg,2025-09-17T23:24:39Z,2025-09-23T17:55:40+00:00,3,138.52,True,351,317,17,387,6,2,8,MERGED
+83920,[turbopack] Remove the `issue_path` feature and related functionality,lukesandberg,2025-09-17T22:54:16Z,2025-09-19T01:44:54+00:00,2,26.84,True,42,409,49,90,5,1,6,MERGED
+83919,Turbopack: Document the reasons for the current design of `parse_segment_config_from_source`,bgw,2025-09-17T22:05:02Z,2025-09-18T09:28:00+00:00,1,11.38,True,63,0,1,279,4,0,4,MERGED
+83917,Remove inline CSS sourcemaps from next-devtools,mischnic,2025-09-17T21:15:30Z,2025-09-18T07:55:16+00:00,1,10.66,True,1,1,1,91,4,0,4,MERGED
+83914,Add native ts resolver docs link to transpile-config,devjiwonchoi,2025-09-17T19:40:31Z,2025-09-17T21:40:00+00:00,1,1.99,True,5,6,1,80,2,0,2,MERGED
+83912,Development: Move all TypeScript related work in watcher together,timneutkens,2025-09-17T18:23:12Z,2025-09-18T08:51:27+00:00,5,14.47,True,147,143,4,176,3,3,6,MERGED
+83911,OTel: use `srcPage` for templates when `next.route` is unavailable,devjiwonchoi,2025-09-17T18:04:02Z,2025-09-17T23:00:58+00:00,2,4.95,True,10,10,5,374,3,1,4,MERGED
+83909,Turbopack: use depth as priority for merged module info,mischnic,2025-09-17T17:55:15Z,2025-09-19T16:09:32+00:00,7,46.24,True,37,3,2,169,5,4,9,MERGED
+83908,Turbopack: add traces to merged module computation,mischnic,2025-09-17T17:55:13Z,2025-09-17T21:35:01+00:00,3,3.66,True,17,7,1,16,5,1,6,MERGED
+83907,Allow passing port to `next internal trace`,mischnic,2025-09-17T16:53:10Z,2025-09-22T08:18:42+00:00,3,111.43,True,36,16,8,77,4,1,5,MERGED
+83906,Upgrade React from `5e0c951b-20250916` to `128abcfa-20250917`,nextjs-bot,2025-09-17T16:26:16Z,2025-09-17T19:15:56+00:00,1,2.83,True,1084,1059,62,274,2,0,2,MERGED
+83904,Turbopack: parallelize scope hoisting computation,mischnic,2025-09-17T16:20:55Z,2025-09-22T18:19:13+00:00,5,121.97,True,165,89,1,56,5,3,8,MERGED
+83901,chore: Fix test snapshot,mischnic,2025-09-17T15:41:23Z,2025-09-17T18:54:54+00:00,3,3.23,True,33,62,1,2013,4,2,6,MERGED
+83898,chore: improve oxlint example,TheAlexLichter,2025-09-17T15:23:58Z,2025-09-18T11:42:05+00:00,4,20.3,True,7,4,2,164,1,1,2,MERGED
+83896,"Turbopack: support `import ... with {type: ""bytes""}`",mischnic,2025-09-17T14:14:17Z,2025-09-19T08:34:54+00:00,5,42.34,True,255,8,17,1255,5,3,8,MERGED
+83892,Upgrade sharp dependency to version ^0.34.4,copilot-swe-agent,2025-09-17T13:41:41Z,2025-09-17T16:42:33+00:00,7,3.01,True,127,134,4,2677,7,2,9,MERGED
+83891,Turbopack: make graph traversal sync,mischnic,2025-09-17T13:25:19Z,2025-09-17T18:47:57+00:00,1,5.38,True,480,508,7,43,4,0,4,MERGED
+83890,Turbopack: ModuleGraphRef,mischnic,2025-09-17T13:20:55Z,2025-09-17T16:51:38+00:00,3,3.51,True,65,64,7,405,5,2,7,MERGED
+83887,fix: correct typo 'incomming' to 'incoming' in with-mqtt-js example,ericx0099,2025-09-17T12:00:59Z,2025-09-17T15:38:49+00:00,2,3.63,True,8,11,1,544,3,0,3,MERGED
+83886,Turbopack: fix double codegen of some merged modules,mischnic,2025-09-17T10:16:55Z,2025-09-17T20:54:47+00:00,2,10.63,True,65,3,2,347,5,1,6,MERGED
+83885,Turbopack: map_module_batch,mischnic,2025-09-17T10:16:53Z,2025-09-17T14:33:27+00:00,3,4.28,True,73,52,2,46,5,1,6,MERGED
+83884,Turbopack: only generate error string in error case,mischnic,2025-09-17T10:16:51Z,2025-09-17T13:09:11+00:00,3,2.87,True,18,3,2,63,4,1,5,MERGED
+83883,Turbopack: don't recompute empty parse results,mischnic,2025-09-17T10:16:48Z,2025-09-17T12:03:02+00:00,1,1.77,True,31,34,5,90,4,0,4,MERGED
+83882,Turbopack: delete broken hmr benchmark,sokra,2025-09-17T09:18:29Z,2025-09-17T12:16:32+00:00,1,2.97,True,0,585,5,542,5,0,5,MERGED
+83877,Update Rspack production test manifest,vercel-release-bot,2025-09-17T07:01:50Z,2025-09-17T18:55:42+00:00,1,11.9,True,183,2,1,97,2,0,2,MERGED
+83876,Update Rspack development test manifest,vercel-release-bot,2025-09-17T07:01:47Z,2025-09-17T18:36:08+00:00,1,11.57,True,220,40,1,98,2,0,2,MERGED
+83864,docs: the as prop is still available in Pages Router,icyJoseph,2025-09-16T22:01:04Z,2025-09-17T13:21:18+00:00,2,15.34,True,7,0,1,177,0,1,1,MERGED
+83860,[backport] CI: use KV for test timing data,mischnic,2025-09-16T20:40:52Z,2025-09-17T07:35:15+00:00,2,10.91,True,146,158,6,36,1,0,1,MERGED
+83859,refactor: remove isRevalidate from work store,ztanner,2025-09-16T20:39:05Z,2025-09-17T02:15:47+00:00,1,5.61,True,9,29,12,320,4,0,4,MERGED
+83858,fix: isRevalidate -> isStaticGeneration in fetch cache / unstable cache,ztanner,2025-09-16T20:39:03Z,2025-09-17T00:11:42+00:00,3,3.54,True,3,3,2,841,3,1,4,MERGED
+83857,Development: Clarify TypescriptStatus in watcher,timneutkens,2025-09-16T20:22:45Z,2025-09-17T10:14:00+00:00,1,13.85,True,8,9,1,153,3,0,3,MERGED
+83854,docs: Fix self-referential link to Middleware in middleware.mdx,bgw,2025-09-16T19:08:23Z,2025-09-16T20:50:48+00:00,1,1.71,True,1,1,1,204,0,0,0,MERGED
+83853,docs(examples): use @ alias in i18n-routing example,swedell,2025-09-16T18:53:55Z,2025-09-16T22:10:05+00:00,1,3.27,False,0,0,0,152,3,1,4,CLOSED
+83852,Exclude `traceparent` and `tracestate` headers from fetch deduplication cache keys,agadzik,2025-09-16T18:13:19Z,2025-09-17T00:12:43+00:00,3,5.99,True,776,1,4,293,1,0,1,MERGED
+83851,Only retry if canary fails on required jobs,eps1lon,2025-09-16T16:45:53Z,2025-09-16T18:05:45+00:00,6,1.33,True,48,0,3,746,2,3,5,MERGED
+83849,Turbopack: add test case that checks memory leak,sokra,2025-09-16T16:14:56Z,2025-09-19T08:20:32+00:00,10,64.09,True,159,1,1,52,6,6,12,MERGED
+83848,Turbopack: use turbo_tasks::run in next.js to avoid task memory leak,sokra,2025-09-16T16:14:54Z,2025-09-19T04:21:42+00:00,2,60.11,True,23,24,7,85,5,1,6,MERGED
+83847,Turbopack: add turbo_tasks::run to run in turbo tasks scope without a task,sokra,2025-09-16T16:14:51Z,2025-09-17T20:44:07+00:00,2,28.49,True,342,235,35,238,5,2,7,MERGED
+83846,Turbopack: remove Backend TaskState,sokra,2025-09-16T16:14:49Z,2025-09-17T11:47:05+00:00,1,19.54,True,6,96,4,80,5,0,5,MERGED
+83845,Turbopack: remove lazy invalidated tasks,sokra,2025-09-16T16:14:47Z,2025-09-17T09:27:55+00:00,1,17.22,True,8,97,4,79,5,0,5,MERGED
+83844,Turbopack: Change run once signature to avoid exposing TaskId,sokra,2025-09-16T16:14:43Z,2025-09-17T15:11:40+00:00,7,22.95,True,130,145,10,98,4,4,8,MERGED
+83843,[Cache Components] Allow sync IO inside console methods ,gnoff,2025-09-16T16:03:03Z,2025-09-18T15:23:56+00:00,16,47.35,True,902,20,13,873,2,13,15,MERGED
+83842,chore: add example with oxlint,TheAlexLichter,2025-09-16T15:21:35Z,2025-09-17T09:08:44+00:00,6,17.79,True,167,0,7,129,3,2,5,MERGED
+83840,Turbopack: Optimize addedRoutes and removedRoutes calculation,timneutkens,2025-09-16T14:37:45Z,2025-09-16T19:52:05+00:00,1,5.24,True,4,2,1,74,1,0,1,MERGED
+83838,[Cache Components] allow using headers() in runtime prefetches,lubieowoce,2025-09-16T14:04:36Z,2025-09-22T17:31:10+00:00,3,147.44,True,289,109,15,146,3,2,5,MERGED
+83833,Bump typescript 5.9.2,devjiwonchoi,2025-09-16T11:09:06Z,2025-09-16T18:54:08+00:00,5,7.75,True,109,99,10,29,3,2,5,MERGED
+83832,[next-config-ts] Set Node.js native TS loader fallback flag to process.env,devjiwonchoi,2025-09-16T11:08:09Z,2025-09-16T21:01:11+00:00,1,9.88,True,4,5,1,3268,2,0,2,MERGED
+83829,Development: Remove matchers.reload() on each request,timneutkens,2025-09-16T09:51:27Z,2025-09-16T14:21:23+00:00,3,4.5,True,88,33,5,843,3,1,4,MERGED
+83828,[test] Disable flaky navigation test,eps1lon,2025-09-16T08:49:23Z,2025-09-16T11:14:12+00:00,1,2.41,True,2,1,1,157,1,0,1,MERGED
+83827,Upgrade CodSpeed action and add analyzer benchmarks,mischnic,2025-09-16T07:59:24Z,2025-09-23T12:20:42+00:00,5,172.35,False,76,24,6,16,5,4,9,CLOSED
+83826,Update Rspack production test manifest,vercel-release-bot,2025-09-16T07:01:53Z,2025-09-16T22:59:35+00:00,1,15.96,True,12,4,1,97,3,0,3,MERGED
+83823,Remove references to size metrics in next build from our docs,lukesandberg,2025-09-15T23:24:01Z,2025-09-30T16:01:19+00:00,1,352.62,True,7,11,2,104,5,0,5,MERGED
+83820,fix: unstable_cache should perform blocking revalidation during ISR revalidation,ztanner,2025-09-15T21:27:32Z,2025-09-15T23:12:48+00:00,5,1.75,True,160,10,6,422,3,4,7,MERGED
+83818,wip: reconnect hmr,devjiwonchoi,2025-09-15T19:23:54Z,2025-09-19T14:04:55+00:00,1,90.68,False,135,31,5,0,4,1,5,CLOSED
+83816,[backport] Turbopack: throw large static metadata error earlier ,mischnic,2025-09-15T18:51:54Z,2025-09-17T17:02:05+00:00,2,46.17,True,92,27,3,50,2,0,2,MERGED
+83815,Remove JS size reporting from next build,lukesandberg,2025-09-15T18:49:48Z,2025-09-19T06:57:41+00:00,2,84.13,True,179,950,29,1690,5,1,6,MERGED
+83813,docs: Convert relative imports to @ aliases in examples,dharun36,2025-09-15T17:11:58Z,2025-09-16T13:53:53+00:00,4,20.7,True,28,19,14,1679,3,1,4,MERGED
+83810,Turbopack: validate CSS without computing all paths,mischnic,2025-09-15T16:04:52Z,2025-09-16T09:55:39+00:00,3,17.85,True,54,70,1,197,4,2,6,MERGED
+83808,Turbopack: rename some fields in fs,mischnic,2025-09-15T12:41:46Z,2025-09-16T09:01:24+00:00,1,20.33,True,15,15,5,46,5,0,5,MERGED
+83806,[backport] Turbopack: fix route format for NFT globs,mischnic,2025-09-15T12:05:55Z,2025-09-19T16:26:47+00:00,1,100.35,False,22,24,8,32,2,0,2,CLOSED
+83805,[backport] Turbopack: Improve handling of symlink resolution errors,mischnic,2025-09-15T12:04:47Z,2025-09-17T12:45:50+00:00,6,48.68,True,252,74,8,32,3,5,8,MERGED
+83804,[backport] Turbopack: don't treat metadata routes as RSC,mischnic,2025-09-15T12:02:17Z,2025-09-17T18:47:58+00:00,2,54.76,True,44,7,6,32,2,0,2,MERGED
+83803,[backport] Turbopack: don't match dynamic pattern for node_modules packages,mischnic,2025-09-15T12:01:01Z,2025-09-15T18:53:28+00:00,1,6.87,True,240,62,12,32,2,0,2,MERGED
+83801,Turbopack: chunking debugging utilities,mischnic,2025-09-15T11:46:45Z,2025-09-16T08:28:46+00:00,2,20.7,True,103,0,2,16,5,2,7,MERGED
+83791,Update Rspack development test manifest,vercel-release-bot,2025-09-15T07:02:03Z,2025-09-15T22:08:25+00:00,1,15.11,True,319,24,1,98,3,0,3,MERGED
+83790,Update Rspack production test manifest,vercel-release-bot,2025-09-15T07:01:54Z,2025-09-15T18:11:54+00:00,1,11.17,True,279,14,1,97,2,0,2,MERGED
+83777,perf(dev): skip static path generation for routes without `generateStaticParams`,devjiwonchoi,2025-09-14T15:29:53Z,2025-09-15T12:50:27+00:00,1,21.34,False,65,1,2,441,4,1,5,CLOSED
+83763,[Breaking] Flat config as default in `@next/eslint-plugin-next`,devjiwonchoi,2025-09-13T18:19:15Z,2025-09-15T14:34:13+00:00,2,44.25,True,307,195,31,664,6,1,7,MERGED
+83761,Update next-intlayer reference in i18n doc,aymericzip,2025-09-13T16:52:30Z,2025-09-15T14:09:42+00:00,3,45.29,True,2,1,2,213,2,2,4,MERGED
+83756,Emit build error when `'use cache'` directive is misspelled,unstubbable,2025-09-13T13:32:06Z,2025-09-13T18:59:39+00:00,1,5.46,True,125,13,4,203,3,0,3,MERGED
+83746,[Turbopack] Fix AST traversal for `this` in function default parameters,hayes,2025-09-12T21:19:51Z,2025-09-20T08:31:30+00:00,1,179.19,True,39,0,2,223,2,0,2,MERGED
+83745,CI: use KV for test timing data,ztanner,2025-09-12T20:48:53Z,2025-09-12T22:13:50+00:00,2,1.42,True,147,158,6,824,3,1,4,MERGED
+83743,"Allow headers, rewrites and redirects to be defined as sync functions",kachkaev,2025-09-12T20:01:33Z,2025-09-16T19:31:08+00:00,1,95.49,True,11,4,1,2793,2,0,2,MERGED
+83742,Upgrade React from `93d7aa69-20250912` to `8a8e9a7e-20250912`,nextjs-bot,2025-09-12T18:56:10Z,2025-09-12T21:05:20+00:00,1,2.15,True,622,632,68,156,3,0,3,MERGED
+83741,Fix reentrancy of unhandledRejection filtering,gnoff,2025-09-12T18:24:17Z,2025-09-12T23:09:43+00:00,7,4.76,True,1214,127,2,1077,2,4,6,MERGED
+83736,Turbopack: less eager manifest generation,mischnic,2025-09-12T17:16:51Z,2025-09-19T10:42:29+00:00,3,161.43,True,152,124,3,327,5,3,8,MERGED
+83735,docs(data-security): add bun package manager example,obendev,2025-09-12T17:10:20Z,2025-09-15T13:51:41+00:00,1,68.69,True,4,0,1,243,1,0,1,MERGED
+83731,Add test for JS resource size on navigation,mischnic,2025-09-12T16:30:57Z,2025-09-22T20:59:41+00:00,5,244.48,True,269,0,11,16,6,5,11,MERGED
+83729,Upgrade React from `f3a80361-20250911` to `93d7aa69-20250912`,nextjs-bot,2025-09-12T16:25:59Z,2025-09-12T18:10:44+00:00,1,1.75,True,2727,2188,100,232,2,0,2,MERGED
+83726,Only enable unhandledRejection filtering when opted in,gnoff,2025-09-12T14:57:08Z,2025-09-12T15:57:21+00:00,4,1.0,True,97,1,2,204,2,2,4,MERGED
+83720,Turbopack: Remove matchers.reload() call on each request,timneutkens,2025-09-12T13:07:26Z,2025-09-15T09:51:57+00:00,3,68.74,True,4,4,2,330,3,1,4,MERGED
+83718,fix(dev-overlay): prevent hydration mismatch in dialog role,prateekbisht23,2025-09-12T12:15:37Z,2025-09-12T13:46:10+00:00,1,1.51,False,17,5,1,792,2,1,3,CLOSED
+83705,tests: disable flaky deployment test while investigating upstream,ztanner,2025-09-12T00:31:47Z,2025-09-12T02:49:30+00:00,1,2.3,True,27,17,3,308,3,0,3,MERGED
+83701,fix: dev should produce the correct default fallback regex to match builds/Turbopack,ztanner,2025-09-11T19:45:46Z,2025-09-12T02:28:37+00:00,2,6.71,True,4,2,2,494,4,1,5,MERGED
+83696,Upgrade React from `886b3d36-20250910` to `f3a80361-20250911`,nextjs-bot,2025-09-11T16:24:11Z,2025-09-11T18:10:20+00:00,1,1.77,True,445,405,76,211,2,0,2,MERGED
+83694,Turbopack: Use readFileSync / writeFileSync for manifest writing,timneutkens,2025-09-11T14:43:11Z,2025-09-11T18:04:56+00:00,2,3.36,True,121,145,6,1145,3,2,5,MERGED
+83692,"docs: Type narrowing using LayoutProps, PageProps",icyJoseph,2025-09-11T14:30:16Z,2025-09-16T12:19:56+00:00,3,117.83,True,20,0,1,102,0,2,2,MERGED
+83691,docs: implications of mutating cookies in server actions,icyJoseph,2025-09-11T14:03:57Z,2025-09-16T13:18:32+00:00,1,119.24,True,13,1,2,235,1,0,1,MERGED
+83689,Docs/sep paper cuts,icyJoseph,2025-09-11T13:21:47Z,2025-09-12T13:12:04+00:00,2,23.84,True,18,11,6,52,0,1,1,MERGED
+83683,Turbopack: mode to disable tracing,mischnic,2025-09-11T10:25:49Z,2025-09-22T21:21:23+00:00,3,274.93,True,210,83,16,253,5,1,6,MERGED
+83677,[CI] Fix GitHub Actions matrix configuration for React versions,unstubbable,2025-09-11T07:34:21Z,2025-09-11T13:59:22+00:00,2,6.42,True,35,10,1,442,2,1,3,MERGED
+83670,fix: Rspack splitChunks.chunks regex,SyMind,2025-09-11T01:01:59Z,2025-09-15T18:08:36+00:00,5,113.11,True,4,2,1,124,2,4,6,MERGED
+83665,"Update content-security-policy.mdx, fix development environment error",OoMNoO,2025-09-10T21:32:32Z,2025-09-11T21:07:49+00:00,1,23.59,True,2,2,1,431,2,0,2,MERGED
+83662,[turbopack] Lazily construct `resolved::Requests` for `EsmAssetReference`,lukesandberg,2025-09-10T21:16:52Z,2025-09-11T18:54:55+00:00,2,21.63,True,37,49,2,450,5,1,6,MERGED
+83661,Remove clientParamParsing requirement from RDC for Navigations,wyattjoh,2025-09-10T21:13:03Z,2025-09-11T16:01:27+00:00,1,18.81,True,4,14,2,960,2,0,2,MERGED
+83657,"Update content-security-policy.mdx, fix development environment error",OoMNoO,2025-09-10T19:50:36Z,2025-09-10T21:32:10+00:00,1,1.69,False,1,1,1,431,1,1,2,CLOSED
+83656,Development: Don't import app-router / hot-reloader through next/link in application code,timneutkens,2025-09-10T19:32:05Z,2025-09-11T13:06:25+00:00,2,17.57,True,151,138,6,270,3,1,4,MERGED
+83655,Turbopack: Don't add client_runtime_entries to Route Handler compilation,timneutkens,2025-09-10T19:15:43Z,2025-09-11T10:20:24+00:00,2,15.08,True,36,19,1,149,4,1,5,MERGED
+83654,Turbopack: Only load capsize-font-metrics once,timneutkens,2025-09-10T18:57:55Z,2025-09-11T11:35:36+00:00,5,16.63,True,28,19,1,386,4,3,7,MERGED
+83650,Upgrade React from `6b70072c-20250909` to `886b3d36-20250910`,nextjs-bot,2025-09-10T16:24:13Z,2025-09-11T17:14:58+00:00,2,24.85,True,7146,4110,87,295,2,1,3,MERGED
+83644,Removed link to maintain text consistency,Shireee,2025-09-10T12:52:24Z,2025-09-16T08:41:11+00:00,2,139.81,True,2,2,1,0,1,1,2,MERGED
+83638,chore: Ensure Import Trace starts in a newline,icyJoseph,2025-09-10T10:12:01Z,2025-09-16T12:30:59+00:00,2,146.32,True,1,1,1,13,2,0,2,MERGED
+83631,Update font data,vercel-release-bot,2025-09-10T00:13:30Z,2025-09-10T09:32:12+00:00,1,9.31,True,370,0,2,62,2,0,2,MERGED
+83628,Development: Make 'ready in' 195ms faster,timneutkens,2025-09-09T17:35:04Z,2025-09-09T19:53:15+00:00,1,2.3,True,2,0,1,476,2,0,2,MERGED
+83626,[Turbopack] Remove `ssr-data` module context,lukesandberg,2025-09-09T15:59:20Z,2025-09-12T17:09:30+00:00,18,73.17,True,171,374,20,858,5,9,14,MERGED
+83619,Development: Don't load Babel when it's not used,timneutkens,2025-09-09T14:12:30Z,2025-09-09T15:43:19+00:00,2,1.51,True,16,42,5,180,3,1,4,MERGED
+83610,Fix logic bug in sortByPageExts,timneutkens,2025-09-09T11:56:45Z,2025-09-09T14:12:41+00:00,1,2.27,True,1,1,1,88,3,0,3,MERGED
+83609,Development: Only load HotReloaderWebpack when it is used,timneutkens,2025-09-09T11:52:05Z,2025-09-09T13:39:21+00:00,1,1.79,True,172,147,7,266,3,0,3,MERGED
+83606,Revise title and description for ESLint plugin,CosmicJesterX,2025-09-09T10:45:31Z,2025-09-09T11:52:25+00:00,2,1.11,False,1,1,1,42,2,1,3,CLOSED
+83605,examples(with-supabase): fix import statement in tutorial,tomhmoses,2025-09-09T10:38:16Z,2025-09-09T11:59:00+00:00,1,1.35,True,2,2,1,82,2,0,2,MERGED
+83602,Exit `next dev` with a non-zero code when next.config.js is invalid,unstubbable,2025-09-09T09:22:51Z,2025-09-09T12:11:24+00:00,5,2.81,True,46,28,4,245,2,3,5,MERGED
+83600,"Enable more tests for Turbopack, II",mischnic,2025-09-09T08:20:06Z,2025-09-09T09:45:12+00:00,2,1.42,True,119,99,8,79,3,1,4,MERGED
+83595,Update PPR cases with adapter config,ijjk,2025-09-09T05:39:37Z,2025-09-09T15:14:39+00:00,2,9.58,True,15,2,4,205,2,0,2,MERGED
+83591,Tests: Move build-indicator test to test/development,timneutkens,2025-09-08T21:45:59Z,2025-09-09T10:32:27+00:00,3,12.77,True,86,115,9,143,3,2,5,MERGED
+83590,Ignore unhandledRejection events for promises that reject after a React render aborts,gnoff,2025-09-08T21:34:27Z,2025-09-10T03:46:31+00:00,16,30.2,True,538,21,8,1534,2,10,12,MERGED
+83589,Enable more tests for Turbopack,mischnic,2025-09-08T21:24:47Z,2025-09-09T07:34:16+00:00,1,10.16,True,82,96,2,112,3,0,3,MERGED
+83580,[backport] fix: validation return types of pages API routes (#83069),bgub,2025-09-08T18:08:04Z,2025-09-08T20:03:36+00:00,1,1.93,True,17,11,2,79,0,0,0,MERGED
+83579,Custom cache handler should be absolute path,devjiwonchoi,2025-09-08T17:52:13Z,2025-09-09T11:00:23+00:00,2,17.14,False,11,13,2,0,3,2,5,CLOSED
+83577,Upgrade React from `b9a04536-20250904` to `3fb190f7-20250908`,nextjs-bot,2025-09-08T16:24:17Z,2025-09-11T17:15:19+00:00,1,72.85,False,405,405,62,253,2,0,2,CLOSED
+83571,fix: devtools initial position should be from next config,devjiwonchoi,2025-09-08T13:29:13Z,2025-09-08T23:12:42+00:00,2,9.72,True,162,2,10,160,3,0,3,MERGED
+83567,Turbopack: remove unused transforms,mischnic,2025-09-08T12:39:13Z,2025-09-08T17:45:32+00:00,3,5.11,True,39,213,11,343,4,0,4,MERGED
+83566,fix: transpile-config should await import before return,devjiwonchoi,2025-09-08T12:28:20Z,2025-09-08T15:03:42+00:00,4,2.59,True,2,1,1,157,4,2,6,MERGED
+83564,Make hasNecessaryDependencies sync,timneutkens,2025-09-08T12:09:06Z,2025-09-08T15:14:06+00:00,1,3.08,True,37,40,6,171,2,0,2,MERGED
+83561,docs: add `next.config.ts` Node.js native resolver,devjiwonchoi,2025-09-08T11:06:12Z,2025-09-17T19:12:32+00:00,15,224.11,True,39,3,1,342,2,12,14,MERGED
+83560,[metadata] change the metadata routes params to promises,huozhi,2025-09-08T10:52:55Z,2025-09-10T20:48:43+00:00,3,57.93,True,64,34,8,969,4,1,5,MERGED
+83559,metadata: align turbopack loader with js loader,huozhi,2025-09-08T10:52:41Z,2025-09-08T13:46:29+00:00,2,2.9,True,1,6,1,94,2,1,3,MERGED
+83556,Allow `next.config.mts` for Node.js native TS resolver,devjiwonchoi,2025-09-08T09:46:58Z,2025-09-16T10:25:49+00:00,13,192.65,True,1509,523,112,647,5,6,11,MERGED
+83555,Development: Only load getStaticInfoIncludingLayouts when it's needed,timneutkens,2025-09-08T09:19:01Z,2025-09-09T13:13:11+00:00,5,27.9,True,138,128,7,122,3,2,5,MERGED
+83554,Turbopack: Remove 20ms overhead on bootup,timneutkens,2025-09-08T08:53:52Z,2025-09-08T14:47:31+00:00,4,5.89,True,42,31,2,903,3,2,5,MERGED
+83552,Disable React debug channel by default,unstubbable,2025-09-08T08:44:11Z,2025-09-08T09:49:14+00:00,1,1.08,True,87,35,2,281,2,0,2,MERGED
+83551,Update Rspack development test manifest,vercel-release-bot,2025-09-08T07:01:48Z,2025-09-08T12:14:03+00:00,1,5.2,True,52,14,1,98,2,0,2,MERGED
+83541,Update vercel.json,furkanorl95-spec,2025-09-07T22:28:10Z,2025-09-08T08:48:13+00:00,1,10.33,False,13,4,1,0,0,1,1,CLOSED
+83522,[turbopack] Track task durations in the task_statistics file,lukesandberg,2025-09-06T19:43:47Z,2025-09-18T23:33:30+00:00,6,291.83,True,280,14,5,3190,5,8,13,MERGED
+83513,Update Rspack development test manifest,vercel-release-bot,2025-09-06T07:01:43Z,2025-09-15T17:54:38+00:00,1,226.88,False,47,15,1,98,2,0,2,CLOSED
+83512,Update Rspack production test manifest,vercel-release-bot,2025-09-06T07:01:40Z,2025-09-07T04:13:44+00:00,1,21.2,True,10,1,1,97,2,0,2,MERGED
+83502,Turbopack: Merge babel-loader and react-compiler configuration logic to avoid running babel twice,bgw,2025-09-05T23:50:51Z,2025-09-22T22:33:56+00:00,3,406.72,True,370,185,13,354,4,2,6,MERGED
+83500,fix: route handlers should validate invalid exports,ztanner,2025-09-05T20:53:15Z,2025-09-06T14:38:49+00:00,3,17.76,True,106,20,11,313,4,2,6,MERGED
+83490,Docs/workspace setup,icyJoseph,2025-09-05T15:11:20Z,2025-09-19T08:27:34+00:00,2,329.27,True,2749,7203,18,144,2,0,2,MERGED
+83487,Turbopack: remove `css_environment` from `Environment`,mischnic,2025-09-05T13:04:40Z,2025-09-11T06:41:46+00:00,1,137.62,True,200,228,23,555,3,0,3,MERGED
+83484,Turbopack: Don't resolve tsconfig relative to file,timneutkens,2025-09-05T12:36:31Z,2025-09-05T13:49:44+00:00,4,1.22,True,73,0,10,343,4,2,6,MERGED
+83483,Turbopack: emit JSON.parse only for more than 10kb,mischnic,2025-09-05T12:09:15Z,2025-09-08T17:46:13+00:00,3,77.62,True,73,34,9,120,3,2,5,MERGED
+83482,Fix/msw-issue-68521,HamadUllah16,2025-09-05T11:35:26Z,2025-09-08T07:11:34+00:00,1,67.6,True,21,22,3,606,4,0,4,MERGED
+83480,fix(Rspack): resolve HMR unresponsiveness or unexpected full reload & update dev snapshot,SyMind,2025-09-05T10:13:42Z,2025-09-16T01:26:36+00:00,9,255.22,True,694,81,20,369,4,6,10,MERGED
+83479,Turbopack: remove GlobalTypeofs AST pass,mischnic,2025-09-05T09:23:22Z,2025-09-08T21:18:07+00:00,4,83.91,True,74,53,7,440,8,2,10,MERGED
+83477,Bump to swc v42,mischnic,2025-09-05T08:16:45Z,2025-09-30T16:33:53+00:00,4,608.29,True,308,172,9,95,4,1,5,MERGED
+83475,Update Rspack production test manifest,vercel-release-bot,2025-09-05T07:01:42Z,2025-09-05T22:44:36+00:00,1,15.71,True,42,5,1,97,3,0,3,MERGED
+83473,[turbopack] enable the signal feature of `nix`,lukesandberg,2025-09-05T06:51:54Z,2025-09-05T08:11:56+00:00,1,1.33,True,1,1,1,227,5,0,5,MERGED
+83469,Docs: Add authentication note for external/internal image sources,pontasan,2025-09-05T04:07:06Z,2025-09-08T14:47:17+00:00,5,82.67,True,3,0,1,780,4,3,7,MERGED
+83468,Turbopack: RuleCondition support resourceQuery contains,fireairforce,2025-09-05T03:39:53Z,2025-09-17T23:10:23+00:00,4,307.51,True,5,0,1,370,6,1,7,MERGED
+83463,Include prerender interrupted error in unstable_rethrow,gnoff,2025-09-04T23:14:45Z,2025-09-05T16:06:41+00:00,2,16.87,True,6,2,1,195,1,0,1,MERGED
+83462,docs: rewrite+usePathname+prerender hydration error mitigation,icyJoseph,2025-09-04T23:10:15Z,2025-09-09T13:14:57+00:00,2,110.08,True,52,0,1,73,0,1,1,MERGED
+83461,[turbopack] Attempt #2 at making rust-analyzer happy with our macros,lukesandberg,2025-09-04T22:40:26Z,2025-09-05T06:59:46+00:00,3,8.32,True,23,4,2,505,5,2,7,MERGED
+83460,[dev] Serve static metadata from filesystem,devjiwonchoi,2025-09-04T20:47:52Z,2025-09-10T12:25:42+00:00,12,135.63,True,1184,8,63,838,5,10,15,MERGED
+83456,[turbopack] Simplify up and dowcasts,lukesandberg,2025-09-04T19:44:48Z,2025-09-08T16:54:39+00:00,4,93.16,True,315,336,87,967,4,1,5,MERGED
+83452,Turbopack: don't define `process.cwd()` in node_modules,mischnic,2025-09-04T18:20:22Z,2025-09-08T21:40:08+00:00,1,99.33,True,77,3,12,400,8,0,8,MERGED
+83451,[turbopack] Add an execution test for the behavior when a module throws an error,lukesandberg,2025-09-04T17:23:45Z,2025-09-04T20:04:46+00:00,1,2.68,True,27,0,2,126,5,0,5,MERGED
+83447,[turbopack] Don't execute inventory_submit in rust analyzer,lukesandberg,2025-09-04T16:53:34Z,2025-09-04T20:31:50+00:00,2,3.64,True,59,25,24,453,5,1,6,MERGED
+83443,[metadata] refactor metadata sitemap loader code,huozhi,2025-09-04T15:01:22Z,2025-09-05T15:20:47+00:00,12,24.32,True,238,151,3,605,3,12,15,MERGED
+83436,Docs: Fix broken getImageProps sample code,HondaYt,2025-09-04T13:28:10Z,2025-09-04T15:18:12+00:00,5,1.83,True,1,1,1,14,1,0,1,MERGED
+83431,[test] Improve debug logs for Playwright tests,unstubbable,2025-09-04T12:17:03Z,2025-09-04T13:19:17+00:00,2,1.04,True,28,13,4,487,1,0,1,MERGED
+83420,auto-enable errors.json merge driver,lubieowoce,2025-09-04T10:05:33Z,2025-09-04T16:08:47+00:00,1,6.05,True,28,8,3,405,2,0,2,MERGED
+83418,"Always log the used bundler, even for webpack",mischnic,2025-09-04T09:41:38Z,2025-09-04T10:54:38+00:00,1,1.22,True,25,19,4,553,4,0,4,MERGED
+83416,build: error on different root folder,huozhi,2025-09-04T09:27:23Z,2025-09-04T13:14:00+00:00,2,3.78,True,50,76,8,403,2,0,2,MERGED
+83415,Bump Rust to nightly-2025-09-21,mischnic,2025-09-04T09:18:15Z,2025-09-23T15:15:44+00:00,2,461.96,True,70,82,17,1303,6,0,6,MERGED
+83414,Turbopack: Remove unused turbopack-node rendering code,mischnic,2025-09-04T08:52:25Z,2025-09-04T21:01:32+00:00,1,12.15,True,118,1704,17,183,4,0,4,MERGED
+83411,"Revert ""Revert ""[Breaking] Bump minimum Node.js version to >=20.9.0"" ( #83243)""",devjiwonchoi,2025-09-04T07:40:50Z,2025-09-04T08:56:40+00:00,3,1.26,True,30,30,15,34,4,1,5,MERGED
+83408,Update Rspack production test manifest,vercel-release-bot,2025-09-04T07:01:46Z,2025-09-04T19:25:18+00:00,1,12.39,True,141,74,1,97,3,0,3,MERGED
+83407,Update Rspack development test manifest,vercel-release-bot,2025-09-04T07:01:43Z,2025-09-04T19:25:14+00:00,1,12.39,True,87,65,1,98,3,0,3,MERGED
+83399,fix(Turbopack): Enable scope hoisting for large files or module counts,Cy-Tek,2025-09-03T20:59:20Z,2025-09-11T16:22:28+00:00,29,187.39,True,384,115,1,1034,4,25,29,MERGED
+83398,[test] Do not use sandboxes for hydration error tests,unstubbable,2025-09-03T19:57:36Z,2025-09-03T21:07:34+00:00,3,1.17,True,544,657,19,506,4,1,5,MERGED
+83393,Tests: Mirror arguments and environment between `next.build()` and `next.start()`,timneutkens,2025-09-03T15:45:01Z,2025-09-04T10:21:54+00:00,5,18.61,True,50,68,1,207,3,3,6,MERGED
+83391,[turbopack] Remove a useless try_join.,lukesandberg,2025-09-03T15:31:31Z,2025-09-03T18:32:26+00:00,1,3.02,True,3,7,1,87,4,0,4,MERGED
+83390,test: Refactor edge-runtime-dynamic-code test,mischnic,2025-09-03T14:44:15Z,2025-09-03T21:22:17+00:00,1,6.63,True,59,55,4,182,4,0,4,MERGED
+83389,[config] Fallback to json parsing when failed to parse `tsconfig.json` with TS API,devjiwonchoi,2025-09-03T14:36:30Z,2025-09-04T07:46:40+00:00,5,17.17,False,49,27,1,658,3,2,5,CLOSED
+83384,Remove the experimental.devtoolSegmentExplorer flag,huozhi,2025-09-03T12:30:48Z,2025-09-03T14:29:43+00:00,2,1.98,True,14,47,15,200,3,0,3,MERGED
+83383,tests: migrate on-reuqest-error tests to new model,huozhi,2025-09-03T12:20:15Z,2025-09-03T14:47:47+00:00,2,2.46,True,76,68,25,150,2,1,3,MERGED
+83377,fix: shrink bottom stack container height,huozhi,2025-09-03T09:22:31Z,2025-09-03T11:44:51+00:00,1,2.37,True,2,1,1,478,1,0,1,MERGED
+83376,[test] Lint `*.test.tsx` as test files,eps1lon,2025-09-03T09:17:29Z,2025-09-03T16:59:30+00:00,1,7.7,True,7,2,2,108,3,0,3,MERGED
+83375,[Cache Components] Fix revalidation of prerendered route handlers,unstubbable,2025-09-03T09:02:33Z,2025-09-03T13:29:11+00:00,1,4.44,True,50,11,4,927,2,0,2,MERGED
+83374,[metadata] use generateStaticParams for getImageMetadata,huozhi,2025-09-03T08:46:18Z,2025-09-04T14:30:43+00:00,5,29.74,True,54,8,6,1033,3,2,5,MERGED
+83372,[test] Move error-overlay-layout to e2e tests,eps1lon,2025-09-03T08:45:48Z,2025-09-03T15:43:37+00:00,4,6.96,True,60,276,6,187,3,2,5,MERGED
+83359,fix(ppr): fix prerender info matching for rewritten paths,wyattjoh,2025-09-02T23:51:44Z,2025-09-03T11:04:39+00:00,2,11.22,True,372,3,15,1757,3,1,4,MERGED
+83357,[turbopack] Improve handling of symlink resolution errors in track_glob and read_glob,lukesandberg,2025-09-02T22:40:30Z,2025-09-04T17:41:49+00:00,4,43.02,True,256,74,9,1355,5,2,7,MERGED
+83356,"Turbopack: Implement `TaskInput` for `ReadRef`, use a `ReadRef` input for `AssetIdent::new`",bgw,2025-09-02T21:20:15Z,2025-09-03T00:36:55+00:00,1,3.28,True,148,120,4,3433,6,0,6,MERGED
+83351,feat(next/image): introduce `preload` prop and deprecated `priority` prop,styfle,2025-09-02T17:37:20Z,2025-09-04T13:50:17+00:00,6,44.22,True,565,28,11,305,2,3,5,MERGED
+83350,Turbopack: use bail in track_glob_internal,mischnic,2025-09-02T16:32:50Z,2025-09-02T19:27:07+00:00,1,2.9,True,3,2,1,55,4,0,4,MERGED
+83348,docs: Middleware explicit runtime differences,icyJoseph,2025-09-02T16:15:14Z,2025-09-04T07:04:06+00:00,9,38.81,True,7,1,1,426,0,5,5,MERGED
+83343,fix: ensure onRequestError is invoked when otel enabled,yiminghe,2025-09-02T14:47:38Z,2025-09-03T16:33:35+00:00,5,25.77,True,169,4,8,258,4,6,10,MERGED
+83341,refactor: Consistently call HMR messages `message`,unstubbable,2025-09-02T14:18:53Z,2025-09-02T17:59:46+00:00,3,3.68,True,370,345,22,660,4,1,5,MERGED
+83336,Streamline HMR message handling,unstubbable,2025-09-02T11:36:20Z,2025-09-02T13:23:44+00:00,1,1.79,True,166,143,11,253,3,0,3,MERGED
+83334,fix(turbopack): Pass correct browserslist to `styled-jsx`,kdy1,2025-09-02T11:02:06Z,2025-09-02T17:56:19+00:00,1,6.9,True,221,127,18,409,4,0,4,MERGED
+83332,[metadata] do not fallback id to index,huozhi,2025-09-02T10:18:16Z,2025-09-03T08:42:57+00:00,2,22.41,False,9,26,2,0,3,2,5,CLOSED
+83331,Turbopack: Remove passing jsConfig,timneutkens,2025-09-02T09:58:26Z,2025-09-04T10:41:03+00:00,5,48.71,True,128,161,23,294,4,4,8,MERGED
+83330,Development: Speed up ready in time,timneutkens,2025-09-02T09:43:33Z,2025-09-09T15:46:12+00:00,1,174.04,False,107,173,17,39,3,1,4,CLOSED
+83328,Unflake `missing required html tags` test,unstubbable,2025-09-02T09:38:38Z,2025-09-02T13:23:03+00:00,3,3.74,True,46,15,3,260,4,1,5,MERGED
+83323,Update Rspack development test manifest,vercel-release-bot,2025-09-02T07:01:51Z,2025-09-02T23:50:04+00:00,1,16.8,True,26,10,1,98,3,0,3,MERGED
+83322,Update Rspack production test manifest,vercel-release-bot,2025-09-02T07:01:50Z,2025-09-04T18:46:56+00:00,1,59.75,False,84,45,1,97,2,0,2,CLOSED
+83321,docs: use `resourceFromAttributes` to replace `new Resource()` to obtain `Resource`,nekomeowww,2025-09-02T06:53:04Z,2025-09-02T16:57:42+00:00,1,10.08,True,4,4,1,733,4,0,4,MERGED
+83317,docs: relative links that were absolute,icyJoseph,2025-09-01T23:04:51Z,2025-09-03T11:38:07+00:00,1,36.55,True,11,11,8,212,1,0,1,MERGED
+83313,Turbopack: Webpack loader `this.fs.readFile`,mischnic,2025-09-01T18:48:20Z,2025-10-01T09:20:16+00:00,11,710.53,True,120,7,10,104,5,5,10,MERGED
+83311,Fix(typedRoutes): respect trailingSlash config in generated routes,prave01,2025-09-01T17:56:25Z,2025-09-16T21:33:26+00:00,3,363.62,False,0,0,0,2012,8,2,10,CLOSED
+83310,Fixed broken link in backend-for-frontend.mdx,geraldochristiano,2025-09-01T17:40:24Z,2025-09-03T23:25:35+00:00,1,53.75,True,1,1,1,41,2,0,2,MERGED
+83307,Upgrade React from `bb6f0c8d-20250901` to `b1b0955f-20250901`,nextjs-bot,2025-09-01T16:28:04Z,2025-09-01T17:40:10+00:00,1,1.2,True,797,937,86,106,2,0,2,MERGED
+83305,[Segment Cache] use `loading` from dynamic response for unprefetched navigations,lubieowoce,2025-09-01T16:03:59Z,2025-09-04T16:43:59+00:00,15,72.67,True,126,24,8,1457,2,10,12,MERGED
+83304,[metadata] refactor metadata loaders,huozhi,2025-09-01T15:38:42Z,2025-09-03T20:52:38+00:00,11,53.23,True,288,128,4,666,4,6,10,MERGED
+83302,Update next-response.mdx,blntgvn42,2025-09-01T11:56:23Z,2025-09-03T23:31:27+00:00,1,59.58,True,1,1,1,43,1,0,1,MERGED
+83301,[test] Resolve `elementByCSS` and `waitForElementByCSS` once visible,eps1lon,2025-09-01T10:04:40Z,2025-09-03T09:47:36+00:00,15,47.72,True,458,324,64,1545,2,7,9,MERGED
+83299,Turbopack: skip next-server.js.nft.json for Vercel,mischnic,2025-09-01T09:37:10Z,2025-09-04T10:22:49+00:00,1,72.76,True,34,18,7,231,5,0,5,MERGED
+83297,Turbopack: refactor segment config parsing,mischnic,2025-09-01T09:19:11Z,2025-09-04T08:58:24+00:00,32,71.65,True,4408,6294,33,2226,4,15,19,MERGED
+83296,Upgrade React from `aad7c664-20250829` to `bb6f0c8d-20250901`,nextjs-bot,2025-09-01T09:16:05Z,2025-09-01T15:46:06+00:00,1,6.5,True,939,569,94,85,2,0,2,MERGED
+83277,[turbopack] Drop turbo_tasks::function from EcmascriptAnalyzable::module_content,lukesandberg,2025-08-31T16:26:31Z,2025-09-17T06:48:31+00:00,10,398.37,True,109,54,7,531,5,9,14,MERGED
+83273,Add dedicated commands to run tests with experimental config,eps1lon,2025-08-31T08:59:07Z,2025-09-01T08:23:15+00:00,1,23.4,True,8,1,1,198,3,0,3,MERGED
+83262,Tests: Don't use next/dist for test/e2e/streaming-ssr,timneutkens,2025-08-30T19:48:14Z,2025-09-04T09:55:25+00:00,2,110.12,True,23,35,1,131,3,1,4,MERGED
+83258,[turbopack] Remove the `should_track_children` parameter of the turbo tasks backend,lukesandberg,2025-08-30T17:22:54Z,2025-09-15T12:29:56+00:00,2,379.12,True,32,86,7,71,6,0,6,MERGED
+83246,Turbopack: Document new advanced `turbopack.rule.*.condition` config options,bgw,2025-08-29T23:00:32Z,2025-09-22T16:21:17+00:00,13,569.35,True,83,3,2,537,4,8,12,MERGED
+83244,fix: remove redundant posix normalization,bgub,2025-08-29T20:35:13Z,2025-09-01T07:35:39+00:00,2,59.01,True,1,6,1,20,4,0,4,MERGED
+83242,[next-config-ts] verify typescript on only init,devjiwonchoi,2025-08-29T19:43:41Z,2025-09-03T14:25:24+00:00,9,114.7,False,15,6,1,75,4,6,10,CLOSED
+83241,[turbopack] Remove the `turbo_tasks::function` attributes from a number of tasks that do not get cache hits.,lukesandberg,2025-08-29T19:13:10Z,2025-09-17T05:50:52+00:00,18,442.63,True,150,138,20,2127,10,10,20,MERGED
+83240,feat: use Node.js native TS resolver for `next.config.ts`,devjiwonchoi,2025-08-29T19:10:41Z,2025-09-08T08:56:12+00:00,18,229.76,True,993,2,97,3097,3,10,13,MERGED
+83239,Remove `satisfies` keyword from type validation to preserve old TS compatibility,bgub,2025-08-29T18:43:33Z,2025-09-01T07:37:21+00:00,1,60.9,True,16,7,2,1042,2,0,2,MERGED
+83237,Turbopack: Remove undocumented `turbopack.conditions` configuration,bgw,2025-08-29T18:20:21Z,2025-09-03T20:16:47+00:00,4,121.94,True,70,146,8,319,6,2,8,MERGED
+83236,[devtools] Use `useEffectEvent` instead of ignoring exhaustive deps,eps1lon,2025-08-29T18:13:09Z,2025-09-05T14:57:03+00:00,2,164.73,True,34,21,4,302,4,2,6,MERGED
+83235,Make FileSourceReference traced,mischnic,2025-08-29T17:46:30Z,2025-09-01T08:30:40+00:00,1,62.74,True,9,0,1,83,5,0,5,MERGED
+83233,Turbopack: run NFT unit test,mischnic,2025-08-29T16:57:57Z,2025-09-10T12:35:47+00:00,3,283.63,True,8860,29,744,127,4,1,5,MERGED
+83232,Upgrade React from `8d7b5e49-20250827` to `aad7c664-20250829`,nextjs-bot,2025-08-29T16:28:02Z,2025-09-01T07:50:55+00:00,2,63.38,True,475,433,72,211,2,0,2,MERGED
+83231,Turbopack: improve overhead benchmarks,sokra,2025-08-29T15:39:53Z,2025-08-30T20:38:29+00:00,6,28.98,True,93,9,3,99,5,3,8,MERGED
+83228,docs: fix snippets in getting started,icyJoseph,2025-08-29T15:32:59Z,2025-08-29T22:38:05+00:00,1,7.08,True,12,12,3,34,0,0,0,MERGED
+83226,docs: Improve troubleshooting and awareness around useSearchParams,icyJoseph,2025-08-29T15:14:06Z,2025-09-02T21:07:41+00:00,3,101.89,True,127,12,3,64,0,1,1,MERGED
+83225,examples(with-mongodb): upgrade to tailwind v4,codeSTACKr,2025-08-29T15:07:15Z,2025-09-03T07:12:34+00:00,8,112.09,True,13,17,3,66,8,5,13,MERGED
+83215,[metadata] update metadata routes cache headers,huozhi,2025-08-29T09:51:38Z,2025-08-29T18:22:42+00:00,5,8.52,True,29,44,6,860,4,2,6,MERGED
+83208,Update Rspack development test manifest,vercel-release-bot,2025-08-29T07:01:52Z,2025-08-29T21:53:04+00:00,1,14.85,True,149,26,1,98,3,0,3,MERGED
+83207,Update Rspack production test manifest,vercel-release-bot,2025-08-29T07:01:33Z,2025-08-29T21:44:55+00:00,1,14.72,True,152,27,1,97,3,0,3,MERGED
+83205,Turbopack: Improve persistent caching test case,sokra,2025-08-29T04:55:08Z,2025-09-23T13:03:39+00:00,12,608.14,True,288,112,11,225,4,8,12,MERGED
+83202,chore: update Rspack test cases snapshot,SyMind,2025-08-29T03:02:53Z,2025-09-03T14:08:13+00:00,7,131.09,True,901,71,31,42,2,4,6,MERGED
+83201,Turbopack: fix hanging of persistent caching with webpack loaders,sokra,2025-08-29T02:40:31Z,2025-08-29T07:49:12+00:00,3,5.14,True,28,17,2,215,3,2,5,MERGED
+83194,[CNA] use linter preference,devjiwonchoi,2025-08-28T23:24:18Z,2025-08-29T03:02:43+00:00,1,3.64,True,9,1,1,30,3,0,3,MERGED
+83193,[turbopack] RFC: Serialize turbopack objects as u16s instead of fully qualified symbol names,lukesandberg,2025-08-28T23:16:21Z,2025-09-05T07:12:00+00:00,9,175.93,True,207,170,6,1278,5,6,11,MERGED
+83190,[backport] fix: relative paths in dev in validator.ts (#83073),bgub,2025-08-28T22:04:17Z,2025-08-29T18:50:36+00:00,1,20.77,True,8,20,1,1036,2,0,2,MERGED
+83189,[turbopack] Change execution and snapshot tests to check for the existence of files rather than directories,lukesandberg,2025-08-28T21:52:28Z,2025-08-29T00:12:52+00:00,1,2.34,True,9,4,2,75,6,0,6,MERGED
+83178,Turbopack: vendor analysis benchmarks,mischnic,2025-08-28T15:28:21Z,2025-08-28T19:37:32+00:00,2,4.15,True,102426,9,6,49,5,0,5,MERGED
+83176,Turbopack: don't match dynamic pattern for node_modules packages,mischnic,2025-08-28T14:51:53Z,2025-08-29T08:44:04+00:00,3,17.87,True,229,62,12,353,4,2,6,MERGED
+83175,BREAKING CHANGE!: next/image only allow quality 75 by default,styfle,2025-08-28T14:31:28Z,2025-09-02T17:26:14+00:00,5,122.91,True,295,154,18,845,3,2,5,MERGED
+83174,Turbopack: Redefine Background backend jobs,sokra,2025-08-28T14:08:01Z,2025-08-31T02:58:34+00:00,7,60.84,True,89,145,4,319,4,4,8,MERGED
+83173,[test] Run all dev tests with sourcemaps enabled,eps1lon,2025-08-28T13:53:06Z,2025-08-29T08:18:11+00:00,2,18.42,True,8,32,15,863,2,0,2,MERGED
+83170,Turbopack: fix persistent caching test case,sokra,2025-08-28T12:51:38Z,2025-08-29T08:31:50+00:00,1,19.67,True,10,3,3,105,5,0,5,MERGED
+83167,Turbopack: hide blocking spans in trace server,sokra,2025-08-28T11:57:22Z,2025-08-29T21:14:30+00:00,1,33.29,True,1,1,1,118,3,0,3,MERGED
+83164,Upgrade React from `33a1095d-20250827` to `8d7b5e49-20250827`,nextjs-bot,2025-08-28T10:32:01Z,2025-08-28T11:54:46+00:00,1,1.38,True,1323,957,62,169,2,0,2,MERGED
+83160,Added 2 values to the props table at 02-components/image.mdx,HosamSenosi,2025-08-28T09:41:05Z,2025-08-28T11:52:07+00:00,1,2.18,True,2,0,1,380,1,0,1,MERGED
+83159,Use the automatic runtime for type checking,remcohaszing,2025-08-28T09:38:02Z,2025-09-02T10:35:43+00:00,2,120.96,True,233,233,216,1156,6,1,7,MERGED
+83156,[turbopack] Remove build scripts and register functions,lukesandberg,2025-08-28T07:52:58Z,2025-09-03T07:34:06+00:00,4,143.69,True,19,1261,149,685,5,1,6,MERGED
+83153,Update Rspack production test manifest,vercel-release-bot,2025-08-28T07:01:42Z,2025-08-29T00:19:18+00:00,1,17.29,True,22,8,1,97,3,0,3,MERGED
+83152,Update Rspack development test manifest,vercel-release-bot,2025-08-28T07:01:39Z,2025-08-29T00:07:12+00:00,1,17.09,True,26,8,1,98,2,0,2,MERGED
+83149,Update caching.mdx,kaungMinn,2025-08-28T06:09:17Z,2025-09-01T08:38:14+00:00,9,98.48,True,3,4,1,681,3,4,7,MERGED
+83147,Update caching.mdx,kaungMinn,2025-08-28T05:24:21Z,2025-08-28T14:18:00+00:00,1,8.89,False,2,2,1,666,2,1,3,CLOSED
+83142,"next-codemod: Migrate legacy ESLint configs to flat config, upgrade to ESLint v9, and allow installs from custom cwd",bgub,2025-08-28T01:51:30Z,2025-08-29T20:28:04+00:00,1,42.61,False,474,403,4,1243,4,1,5,CLOSED
+83139,[metadata] refine metadata image error for webpack,huozhi,2025-08-28T00:01:23Z,2025-08-28T11:35:09+00:00,2,11.56,True,70,6,6,794,2,1,3,MERGED
+83138,Turbopack: Allow arrays to be used as values in `turbopack.rules` config,bgw,2025-08-27T23:30:09Z,2025-08-29T04:27:11+00:00,9,28.95,True,178,136,6,890,5,7,12,MERGED
+83137,[test] allow `tsconfig.test.json` for testing,devjiwonchoi,2025-08-27T23:29:22Z,2025-08-28T13:10:57+00:00,1,13.69,True,13,0,1,250,2,0,2,MERGED
+83134,[test] Add esm and cjs testing for next-config-ts,devjiwonchoi,2025-08-27T22:52:36Z,2025-08-28T15:45:33+00:00,5,16.88,True,363,122,98,420,4,4,8,MERGED
+83132,Docs/typed routes snippets,icyJoseph,2025-08-27T22:29:36Z,2025-08-28T12:55:15+00:00,6,14.43,True,70,10,1,142,0,2,2,MERGED
+83131,"Turbopack: Replace heuristics for detecting manually-configured sass or babel loaders with less-fragile ones, configure rules as a vec and not a map",bgw,2025-08-27T22:12:54Z,2025-08-29T03:56:56+00:00,10,29.73,True,409,221,10,1555,5,8,13,MERGED
+83128,fix(Turbopack): Give intercept routes correct regex in generated manifest files,Cy-Tek,2025-08-27T21:29:09Z,2025-09-02T14:13:15+00:00,10,136.74,True,56,12,4,689,4,5,9,MERGED
+83125,docs(docker): update base image to node:20-alpine in Docker examples,juna0704,2025-08-27T19:12:27Z,2025-09-02T17:06:43+00:00,3,141.9,True,6,6,6,567,2,6,8,MERGED
+83124,[Breaking] remove deprecated `devIndicators` options,devjiwonchoi,2025-08-27T17:49:58Z,2025-08-27T22:28:33+00:00,2,4.64,True,9,74,11,63,4,0,4,MERGED
+83121,cna: fix typo,roottool,2025-08-27T17:12:35Z,2025-09-08T20:06:21+00:00,1,290.9,True,1,1,1,355,2,0,2,MERGED
+83120,[Breaking] esm support of `next.config.ts`,devjiwonchoi,2025-08-27T17:10:38Z,2025-09-03T11:41:41+00:00,14,162.52,False,522,26,95,1160,5,12,17,CLOSED
+83118,feat(test): add proxy support for e2e deployment tests,wyattjoh,2025-08-27T16:17:15Z,2025-08-28T14:41:35+00:00,5,22.41,True,72,0,3,577,3,6,9,MERGED
+83117,Refactor transpile-config,devjiwonchoi,2025-08-27T15:52:38Z,2025-08-28T10:49:21+00:00,2,18.95,True,37,9,2,272,3,1,4,MERGED
+83115,Turbopack: Change eager import to lazy import for loader_tree,timneutkens,2025-08-27T15:37:59Z,2025-08-28T14:36:46+00:00,6,22.98,True,6,22,5,113,4,3,7,MERGED
+83114,[sourcemaps] Always check for vendor chunks regardless of Node.js version,devjiwonchoi,2025-08-27T15:31:10Z,2025-08-29T16:31:26+00:00,1,49.0,True,1,8,1,67,3,0,3,MERGED
+83113,[Breaking] Bump minimum Node.js version to `>=20.9.0`,devjiwonchoi,2025-08-27T15:24:56Z,2025-08-29T15:17:15+00:00,8,47.87,True,30,30,15,155,4,3,7,MERGED
+83112,[codemod] Only change files when `new-link` transform makes changes,eps1lon,2025-08-27T15:23:51Z,2025-08-28T08:03:59+00:00,8,16.67,True,24,16,1,425,2,3,5,MERGED
+83111,fix global not found canont static shell with sync io,huozhi,2025-08-27T15:06:47Z,2025-08-27T20:04:21+00:00,3,4.96,True,149,20,11,734,3,3,6,MERGED
+83104,docs: use-link-status as a subtle hint,icyJoseph,2025-08-27T12:36:52Z,2025-09-02T17:52:55+00:00,5,149.27,True,77,86,2,222,0,3,3,MERGED
+83103,Fix flakey multiple-lockfiles tests,mischnic,2025-08-27T12:33:42Z,2025-08-27T13:46:54+00:00,1,1.22,True,18,29,6,93,3,0,3,MERGED
+83101,"[test] Rename ""cache component"" CI shards to ""experimental""",eps1lon,2025-08-27T12:15:56Z,2025-08-28T09:44:00+00:00,2,21.47,True,16,16,2,597,3,1,4,MERGED
+83096,docs: Expanded type checks to Pages Router and tsconfigPath,icyJoseph,2025-08-27T10:07:18Z,2025-08-27T20:31:19+00:00,3,10.4,True,74,4,1,109,2,1,3,MERGED
+83095,Turbopack: skip codegen effects when tracing,mischnic,2025-08-27T09:50:46Z,2025-08-28T07:55:32+00:00,2,22.08,True,120,54,12,303,4,1,5,MERGED
+83094,Turbopack: NFT debugging,mischnic,2025-08-27T09:50:44Z,2025-08-27T11:53:54+00:00,4,2.05,True,29,7,3,83,4,4,8,MERGED
+83088,fix: handle %5F encoded paths in webpack development mode (#82724),asionesjia,2025-08-27T07:55:24Z,2025-09-28T02:20:20+00:00,5,762.42,False,118,0,5,1422,6,1,7,CLOSED
+83086,Update Rspack development test manifest,vercel-release-bot,2025-08-27T07:01:58Z,2025-08-27T23:13:04+00:00,1,16.18,True,17,6,1,98,1,0,1,MERGED
+83085,Update Rspack production test manifest,vercel-release-bot,2025-08-27T07:01:47Z,2025-08-27T23:13:42+00:00,1,16.2,True,18,2,1,97,2,0,2,MERGED
+83081,fix dynamic param extraction in edge-ssr-app,ztanner,2025-08-27T02:45:04Z,2025-08-27T13:27:00+00:00,2,10.7,True,21,2,4,962,3,0,3,MERGED
+83080,Update create-next-app.mdx,cocinitass,2025-08-27T01:26:37Z,2025-08-27T02:45:13+00:00,2,1.31,False,1,1,1,5,0,2,2,CLOSED
+83079,Chef,cocinitass,2025-08-27T01:19:33Z,2025-08-27T02:45:29+00:00,2,1.43,False,45,99,1,27,0,2,2,CLOSED
+83078,Update preview.md,rosmanhashimy,2025-08-27T00:54:48Z,2025-08-27T02:45:39+00:00,1,1.85,False,2,2,1,0,1,1,2,CLOSED
+83077,Test-merge,aryan-p5tel,2025-08-27T00:33:36Z,2025-08-27T02:45:47+00:00,1,2.2,False,33,0,2,0,0,1,1,CLOSED
+83074,[turbopack] Adopt inventory for our registry,lukesandberg,2025-08-27T00:11:20Z,2025-09-03T04:22:14+00:00,5,172.18,True,470,797,26,2687,5,5,10,MERGED
+83073,fix: relative paths in dev in validator.ts,bgub,2025-08-27T00:02:46Z,2025-08-27T21:02:56+00:00,1,21.0,True,8,20,1,1036,7,0,7,MERGED
+83072,Implement runtime prefetching via segment opt-in,acdlite,2025-08-26T23:35:01Z,2025-08-29T09:26:49+00:00,6,57.86,True,815,501,44,1300,3,5,8,MERGED
+83071,[backport] fix: remove `satisfies` keyword from type validation to preserve old TS compatibility,bgub,2025-08-26T23:34:34Z,2025-08-29T07:36:26+00:00,15,56.03,True,12,7,2,865,5,4,9,MERGED
+83070,Turbopack: Un-deprecate the `TurbopackLoaderItem` type,bgw,2025-08-26T23:08:07Z,2025-08-29T03:28:40+00:00,1,52.34,True,0,3,1,628,3,0,3,MERGED
+83069,fix: validation return types of pages API routes,bgub,2025-08-26T22:49:33Z,2025-08-27T23:02:40+00:00,6,24.22,True,17,11,2,317,3,1,4,MERGED
+83068,"Turbopack: Remove undocumented legacy syntax for built-in conditions (e.g. foreign, browser)",bgw,2025-08-26T22:32:12Z,2025-08-29T16:32:56+00:00,2,66.01,True,107,184,7,262,4,0,4,MERGED
+83056,docs: clarify the location of middleware.ts,ryuapp,2025-08-26T18:09:28Z,2025-08-27T08:13:06+00:00,7,14.06,True,2,2,2,330,4,4,8,MERGED
+83051,[turbopack] Remove a small amount of indirection from `Effect::FreeVar`,lukesandberg,2025-08-26T16:25:40Z,2025-08-26T19:43:12+00:00,1,3.29,True,179,479,37,38,5,0,5,MERGED
+83050,Upgrade React from `6de32a5a-20250822` to `4123f6b7-20250826`,nextjs-bot,2025-08-26T16:24:11Z,2025-08-26T20:32:41+00:00,1,4.14,True,2587,2326,86,477,2,0,2,MERGED
+83049,Turbopack: don't execute action loader eagerly,mischnic,2025-08-26T16:22:03Z,2025-08-28T09:08:52+00:00,1,40.78,True,39,20,5,190,4,0,4,MERGED
+83048,[Cache Components] Do not automatically client render useSearchParams…,gnoff,2025-08-26T15:47:10Z,2025-08-26T18:57:28+00:00,5,3.17,True,67,39,5,732,2,2,4,MERGED
+83044,docs: change API route example file extension to .ts and add JS example with switcher prop,wo-o29,2025-08-26T14:34:57Z,2025-08-29T14:59:30+00:00,3,72.41,True,18,2,1,823,2,1,3,MERGED
+83043,docs: remove removed examples guidelines reference from PR template,wo-o29,2025-08-26T14:04:19Z,2025-09-02T16:15:42+00:00,1,170.19,True,0,5,1,856,10,0,10,MERGED
+83042,Turbopack: add benchmark for JS analysis,mischnic,2025-08-26T11:36:27Z,2025-08-26T21:43:08+00:00,4,10.11,True,220,2,7,559,5,2,7,MERGED
+83041,Turbopack: hierarchical output asset trace,mischnic,2025-08-26T08:19:38Z,2025-08-26T19:38:34+00:00,3,11.32,True,197,36,3,661,4,3,7,MERGED
+83040,Docker example using bun,JakobKlotz,2025-08-26T08:08:48Z,2025-09-03T21:57:29+00:00,20,205.81,True,70,3,2,666,3,11,14,MERGED
+83031,docs: typed routes manual tsconfig includes,icyJoseph,2025-08-25T22:12:41Z,2025-08-26T10:46:27+00:00,2,12.56,True,9,0,1,19,0,1,1,MERGED
+83029,fix: add '.next/types/**/*.ts' to the pages router TSConfig,bgub,2025-08-25T22:02:37Z,2025-08-25T23:09:20+00:00,2,1.11,True,4,4,4,135,2,0,2,MERGED
+83022,"[backport] fix: change ""noUnknownAtRules"" to ""warn"" for Biome (#82974)",bgub,2025-08-25T21:15:16Z,2025-08-25T22:18:37+00:00,1,1.06,True,32,8,8,0,2,0,2,MERGED
+83021,Turbopack: cleanup Effect::MemberCall,mischnic,2025-08-25T21:01:07Z,2025-08-26T18:20:44+00:00,4,21.33,True,49,20,3,114,4,1,5,MERGED
+83020,Turbopack: Persisting happens in foreground tasks,sokra,2025-08-25T20:39:32Z,2025-08-28T09:58:11+00:00,1,61.31,True,2,2,1,111,4,0,4,MERGED
+83019,Turbopack: refactor backend jobs,sokra,2025-08-25T20:39:30Z,2025-08-28T07:52:02+00:00,2,59.21,True,139,133,6,153,3,1,4,MERGED
+83014,Turbopack: persist when stopping (after build),sokra,2025-08-25T18:57:22Z,2025-08-28T08:07:23+00:00,1,61.17,True,3,0,1,129,5,0,5,MERGED
+83013,Turbopack: fix invalid NFT entry with file behind symlink,mischnic,2025-08-25T18:54:50Z,2025-08-25T20:48:25+00:00,3,1.89,True,86,40,2,50,2,2,4,MERGED
+83011,[turbopack] Ammend the error message for module not found errors,lukesandberg,2025-08-25T18:06:14Z,2025-08-26T17:09:13+00:00,1,23.05,True,1,1,1,64,3,0,3,MERGED
+83003,Remove deprecated `legacyBehavior` and `passHref` prop from `Link` component,unstubbable,2025-08-25T14:03:19Z,2025-08-26T12:04:28+00:00,20,22.02,True,328,1618,86,353,4,10,14,MERGED
+83000,fix(trace): bump `@vercel/nft@0.30.1`,styfle,2025-08-25T13:28:11Z,2025-09-29T17:50:04+00:00,1,844.36,False,408,142,5,49,4,0,4,CLOSED
+82997,Turbopack: fix route format for NFT globs,mischnic,2025-08-25T12:40:15Z,2025-08-26T07:23:13+00:00,3,18.72,True,22,24,8,326,2,1,3,MERGED
+82990,Remove pages export as it is unused,timneutkens,2025-08-25T09:29:09Z,2025-08-28T08:17:56+00:00,2,70.81,True,2,32,4,111,5,0,5,MERGED
+82989,Turbopack: fix race condition in unit test,sokra,2025-08-25T08:44:40Z,2025-08-25T12:55:53+00:00,1,4.19,True,5,5,1,134,3,0,3,MERGED
+82987,Reuse routeModule loaderTree,timneutkens,2025-08-25T08:15:30Z,2025-08-26T08:32:15+00:00,1,24.28,True,18,7,2,125,3,0,3,MERGED
+82986,Destructure loadComponents where possible,timneutkens,2025-08-25T07:41:33Z,2025-08-25T18:35:04+00:00,1,10.89,True,56,62,5,212,4,0,4,MERGED
+82985,Turbopack: add ffmpeg-static NFT test,mischnic,2025-08-25T07:28:10Z,2025-08-25T21:27:54+00:00,4,14.0,True,48,4,4,53,5,3,8,MERGED
+82984,Update Rspack development test manifest,vercel-release-bot,2025-08-25T07:02:02Z,2025-08-25T17:59:21+00:00,1,10.96,True,1,1,1,98,2,0,2,MERGED
+82983,Update Rspack production test manifest,vercel-release-bot,2025-08-25T07:02:02Z,2025-08-25T18:11:51+00:00,1,11.16,True,2,3,1,97,3,0,3,MERGED
+82982,[turbopack] Create a simple benchmark to measure the overhead of turbotasks,lukesandberg,2025-08-25T00:17:31Z,2025-08-29T15:39:19+00:00,6,111.36,True,143,1,2,2186,4,8,12,MERGED
+82962,Turbopack: add async scopes,sokra,2025-08-23T12:10:46Z,2025-08-25T18:56:46+00:00,4,54.77,False,128,10,2,152,4,2,6,CLOSED
+82961,Turbopack: remove blocking thread limit to avoid deadlocks,sokra,2025-08-23T12:10:45Z,2025-08-25T09:59:35+00:00,2,45.81,True,13,1,2,103,5,1,6,MERGED
+82960,Turbopack: prefetch restoring of task dependencies,sokra,2025-08-23T12:09:24Z,2025-08-25T20:50:31+00:00,3,56.69,True,142,68,11,158,5,2,7,MERGED
+82956,[create-next-app] Generate route types after setup,bgub,2025-08-23T02:41:15Z,2025-08-29T21:51:13+00:00,10,163.17,True,74,0,3,684,3,6,9,MERGED
+82953,Docs/late aug feedback,icyJoseph,2025-08-22T20:36:15Z,2025-08-26T10:57:22+00:00,5,86.35,True,129,6,5,187,1,5,6,MERGED
+82946,Upgrade React from `03fda05d-20250820` to `6de32a5a-20250822`,nextjs-bot,2025-08-22T16:24:12Z,2025-08-26T16:59:54+00:00,1,96.59,True,1271,892,107,400,2,0,2,MERGED
+82940,feat(route-types): allow override for route handlers and layouts,noreiller,2025-08-22T14:55:33Z,2025-08-22T19:03:43+00:00,1,4.14,False,8,8,1,976,6,1,7,CLOSED
+82939,Turbopack: throw large static metadata error earlier,mischnic,2025-08-22T14:32:57Z,2025-08-25T09:09:45+00:00,6,66.61,True,92,27,3,156,6,4,10,MERGED
+82938,Turbopack: print failing module during panic,mischnic,2025-08-22T14:32:20Z,2025-08-22T17:13:32+00:00,4,2.69,True,51,21,1,194,4,3,7,MERGED
+82933,docs: next lint post 15.5 release adjustments,icyJoseph,2025-08-22T11:43:43Z,2025-08-26T22:33:01+00:00,9,106.82,True,31,26,2,129,0,5,5,MERGED
+82931,Unhook WebSocket,unstubbable,2025-08-22T10:09:50Z,2025-08-25T08:51:03+00:00,11,70.69,True,230,250,19,827,4,10,14,MERGED
+82930,Rename WebSocket file,unstubbable,2025-08-22T10:09:48Z,2025-08-22T16:28:15+00:00,2,6.31,True,12,12,3,94,4,1,5,MERGED
+82925,Update Rspack production test manifest,vercel-release-bot,2025-08-22T07:01:41Z,2025-08-22T17:52:13+00:00,1,10.84,True,49,1,1,97,2,0,2,MERGED
+82924,Update Rspack development test manifest,vercel-release-bot,2025-08-22T07:01:34Z,2025-08-22T22:36:32+00:00,1,15.58,True,147,2060,1,98,1,0,1,MERGED
+82919,Update types and more test coverage for adapters,ijjk,2025-08-22T00:46:10Z,2025-09-08T23:11:56+00:00,7,430.43,True,704,346,15,132,3,4,7,MERGED
+82918,fix: add path normalization to getRelativePath for Windows,bgub,2025-08-22T00:36:39Z,2025-08-22T20:56:29+00:00,1,20.33,True,5,2,1,19,2,0,2,MERGED
+82915,Add special marker in terminal if all error stack frames are ignore-listed,eps1lon,2025-08-21T22:21:01Z,2025-08-22T07:35:18+00:00,1,9.24,True,12,1,1,613,2,0,2,MERGED
+82911,Turbopack: don't treat metadata routes as RSC,mischnic,2025-08-21T21:22:09Z,2025-08-25T09:56:47+00:00,2,84.58,True,44,7,6,493,5,0,5,MERGED
+82907,Do not modify parsedUrl collecting params,ijjk,2025-08-21T20:15:34Z,2025-08-21T22:25:05+00:00,1,2.16,True,22,4,2,446,1,0,1,MERGED
+82906,[turbopack] Add support for partial glob matches,lukesandberg,2025-08-21T18:10:09Z,2025-08-21T22:07:31+00:00,6,3.96,True,221,82,12,448,6,4,10,MERGED
+82905,initial implementation of `export const prefetch`,lubieowoce,2025-08-21T18:07:42Z,2025-08-26T20:19:33+00:00,8,122.2,True,429,4,22,102,2,5,7,MERGED
+82903,Turbopack: Skip manifest loading in server when using route modules,timneutkens,2025-08-21T17:46:37Z,2025-09-03T18:08:30+00:00,12,312.36,True,170,131,6,436,4,8,12,MERGED
+82900,fix: aliased navigations should apply scroll handling,ztanner,2025-08-21T17:07:52Z,2025-08-21T19:23:43+00:00,1,2.26,True,62,3,4,442,3,0,3,MERGED
+82899,[turbopack] Fix a few small things in the analyzer,lukesandberg,2025-08-21T17:07:31Z,2025-08-22T17:19:21+00:00,1,24.2,True,26,341,4,181,5,0,5,MERGED
+82896,Update prettier project dependency from 3.2.5 to 3.6.2,P41T0,2025-08-21T16:51:23Z,2025-08-21T21:05:20+00:00,1,4.23,True,231,211,45,677,4,0,4,MERGED
+82895,Remove experimental appDocumentPreloading,timneutkens,2025-08-21T16:37:13Z,2025-08-21T19:25:41+00:00,1,2.81,True,0,29,3,258,2,0,2,MERGED
+82892,Turbopack: more incremental all_server_paths,sokra,2025-08-21T14:22:39Z,2025-08-25T09:07:16+00:00,3,90.74,True,47,42,5,136,4,2,6,MERGED
+82891,Turbopack: sort keys in individual to make order deterministic,sokra,2025-08-21T14:22:37Z,2025-08-21T15:46:17+00:00,1,1.39,True,12,4,1,85,4,0,4,MERGED
+82890,Turbopack: run all unit tests with a fixed amount of worker threads to avoid overloading with many CPUs,sokra,2025-08-21T14:08:01Z,2025-08-21T19:34:00+00:00,1,5.43,True,108,108,40,216,5,0,5,MERGED
+82889,Turbopack: run more unit tests in multi thread runtime,sokra,2025-08-21T14:07:58Z,2025-08-21T17:34:24+00:00,1,3.44,True,20,20,8,123,5,0,5,MERGED
+82886,Bump swc to v36,mischnic,2025-08-21T13:13:26Z,2025-08-21T21:41:17+00:00,2,8.46,True,128,125,9,16,5,3,8,MERGED
+82885,Bump wasmer to 6.1.0-rc.3,mischnic,2025-08-21T13:13:24Z,2025-08-21T17:53:20+00:00,1,4.67,True,30,28,1,107,5,0,5,MERGED
+82884,[Cache Components] Don't propagate tags/life for omitted caches,lubieowoce,2025-08-21T12:29:26Z,2025-08-28T10:23:17+00:00,2,165.9,True,462,92,16,1321,2,1,3,MERGED
+82878,fix(edge-runtime): clone requests properly,Kikobeats,2025-08-21T11:18:00Z,2025-08-22T14:36:02+00:00,1,27.3,True,80,2,2,56,3,0,3,MERGED
+82876,Turbopack: fix the require.cache clear logic,sokra,2025-08-21T09:30:34Z,2025-08-21T14:49:19+00:00,1,5.31,True,6,2,1,66,2,0,2,MERGED
+82869,Update Rspack production test manifest,vercel-release-bot,2025-08-21T07:04:18Z,2025-08-21T21:54:23+00:00,1,14.83,True,39,33,1,97,3,0,3,MERGED
+82867,fix: use ESM import instead of triple-slash reference for routes.d.ts,shuakami,2025-08-21T07:02:37Z,2025-08-27T21:57:43+00:00,8,158.92,True,20,14,12,1080,6,4,10,MERGED
+82863,chore: update rspack to 1.5.0,SyMind,2025-08-21T02:12:51Z,2025-08-27T22:52:01+00:00,4,164.65,True,138,130,6,611,3,3,6,MERGED
+82862,Update 07-fetching-data.mdx,sleekLancelot,2025-08-21T01:37:05Z,2025-08-25T11:12:22+00:00,12,105.59,True,5,3,1,182,4,11,15,MERGED
+82860,feat: add typesafety with config.typedRoutes to redirect() and permanentRedirect(),bgub,2025-08-20T23:54:32Z,2025-08-21T22:40:19+00:00,4,22.76,True,173,0,5,28,4,1,5,MERGED
+82859,Use deterministic env for public env vars,sokra,2025-08-20T23:46:14Z,2025-08-21T15:03:50+00:00,1,15.29,True,4,3,1,102,4,0,4,MERGED
+82858,fix: typesafe linking to route handlers and pages API routes,bgub,2025-08-20T23:39:40Z,2025-08-21T17:57:09+00:00,2,18.29,True,25,8,4,12,3,1,4,MERGED
+82857,Turbopack: Add new webpack loader rule/condition syntax in config,bgw,2025-08-20T22:28:24Z,2025-08-29T02:49:57+00:00,21,196.36,True,938,221,21,4633,7,15,22,MERGED
+82855,fix: remove redundant union type in route validator,bgub,2025-08-20T20:59:15Z,2025-08-20T23:12:34+00:00,3,2.22,False,3,3,1,441,3,5,8,CLOSED
+82854,fix: update validation return types,bgub,2025-08-20T20:42:53Z,2025-08-20T21:58:52+00:00,1,1.27,True,8,8,1,181,2,0,2,MERGED
+82852,fix: update the config.api.responseLimit type,bgub,2025-08-20T20:14:03Z,2025-08-20T21:58:43+00:00,1,1.74,True,1,1,1,165,1,0,1,MERGED
+82849,feat(app-router): add clientParamParsingOrigins config for cross-origin rewrite header control,wyattjoh,2025-08-20T18:34:15Z,2025-08-26T01:00:32+00:00,2,126.44,True,80,10,14,856,3,2,5,MERGED
+82845,[turbopack] Track the scope in which variables are assigned,lukesandberg,2025-08-20T17:25:09Z,2025-09-22T02:41:51+00:00,5,777.28,True,1563,975,63,226,5,4,9,MERGED
+82844,[types] refactor shared types,huozhi,2025-08-20T17:13:56Z,2025-08-20T21:41:52+00:00,5,4.47,True,442,392,68,469,3,2,5,MERGED
+82841,[test] fix cache components build error in next-form tests,huozhi,2025-08-20T15:07:12Z,2025-08-20T17:21:02+00:00,2,2.23,True,44,11,3,103,4,1,5,MERGED
+82830,[test] update existing passed tests for cache components suite,huozhi,2025-08-20T11:28:23Z,2025-08-20T17:14:25+00:00,1,5.77,True,8,7,1,70,3,0,3,MERGED
+82815,Turbopack: add a CLI to NFT,mischnic,2025-08-20T07:53:43Z,2025-08-22T14:38:42+00:00,11,54.75,True,426,1,8,279,4,10,14,MERGED
+82814,fix: missing `next/link` types with `typedRoutes`,chungweileong94,2025-08-20T07:47:00Z,2025-08-20T20:03:37+00:00,4,12.28,True,2,0,1,312,1,1,2,MERGED
+82813,Update Rspack production test manifest,vercel-release-bot,2025-08-20T07:01:53Z,2025-08-20T21:01:36+00:00,1,14.0,True,52,1,1,97,2,0,2,MERGED
+82811,feat: next-rspack-binding,SyMind,2025-08-20T07:01:01Z,2025-09-18T16:03:03+00:00,20,705.03,True,12243,87,30,181,3,25,28,MERGED
+82806,docs: fix typo in `Image#priority`,charpeni,2025-08-19T23:40:21Z,2025-08-20T01:11:35+00:00,1,1.52,True,1,1,1,16,1,0,1,MERGED
+82802,[turbopack] Set `liveness` of exports based on assignment analysis,lukesandberg,2025-08-19T21:57:55Z,2025-09-22T06:36:20+00:00,3,800.64,True,126,61,11,341,5,3,8,MERGED
+82794,fix: update @types/node to resolve Vite 7.x peer dependency conflict,Hareesh108,2025-08-19T17:49:51Z,2025-08-20T12:57:23+00:00,6,19.13,True,10,9,1,4412,1,2,3,MERGED
+82791,[devtools] Shim overlay on server,mischnic,2025-08-19T16:14:39Z,2025-08-20T06:50:11+00:00,3,14.59,True,12,0,2,426,4,0,4,MERGED
+82788,Avoid duplicate WebSocket connection for global error pages,unstubbable,2025-08-19T14:26:28Z,2025-08-19T16:47:29+00:00,3,2.35,True,17,31,4,817,2,2,4,MERGED
+82784,"docs: Route props helpers, typegen and next lint deprecation",icyJoseph,2025-08-19T11:56:40Z,2025-08-19T21:32:52+00:00,15,9.6,True,196,3,13,304,1,13,14,MERGED
+82781,Turbopack: sync NFT context configs,mischnic,2025-08-19T10:31:14Z,2025-08-21T13:58:11+00:00,3,51.45,True,11,6,2,143,6,2,8,MERGED
+82780,Turbopack: pass cache handler path as relative path to Rust,mischnic,2025-08-19T10:31:12Z,2025-08-20T07:49:55+00:00,10,21.31,True,93,43,5,193,4,7,11,MERGED
+82777,feat: using lazy compilation for Rspack,SyMind,2025-08-19T09:58:06Z,2025-08-20T08:40:25+00:00,2,22.71,False,768,153,15,0,2,3,5,CLOSED
+82776,[Cache Components] Fix HMR for nested pages,unstubbable,2025-08-19T09:50:17Z,2025-08-19T14:13:54+00:00,1,4.39,True,37,1,4,623,2,0,2,MERGED
+82774,Remove unused code,timneutkens,2025-08-19T08:56:22Z,2025-08-20T07:55:07+00:00,1,22.98,True,1,11,2,54,2,0,2,MERGED
+82771,Update Rspack production test manifest,vercel-release-bot,2025-08-19T07:01:34Z,2025-08-19T17:02:46+00:00,1,10.02,True,12,3,1,97,2,0,2,MERGED
+82765,Turbopack: Define built-in webpack conditions using an enum and typescript union,bgw,2025-08-18T23:58:37Z,2025-08-19T20:00:40+00:00,5,20.03,True,240,103,11,3830,5,5,10,MERGED
+82764,[turbopack] Optimize ESM Re-export bindings to avoid arrow functions,lukesandberg,2025-08-18T23:26:41Z,2025-08-20T23:16:26+00:00,1,47.83,False,251,62,8,16,4,1,5,CLOSED
+82763,[turbopack] Consolodate logic for visiting functions to simplify state management,lukesandberg,2025-08-18T23:26:39Z,2025-09-22T02:03:35+00:00,12,818.62,True,607,480,21,577,5,10,15,MERGED
+82762,feat: stabilize experimental.typedRoutes flag,bgub,2025-08-18T22:51:08Z,2025-08-19T18:02:26+00:00,7,19.19,True,37,31,16,214,5,4,9,MERGED
+82761,fix: make sure validator.ts uses relative paths for imports,bgub,2025-08-18T21:34:51Z,2025-08-18T22:59:29+00:00,2,1.41,True,31,10,1,581,2,0,2,MERGED
+82760,[turbopack] Optimize `export const` to bind readonly values not getters,lukesandberg,2025-08-18T21:03:23Z,2025-08-24T02:34:59+00:00,6,125.53,True,603,250,29,2252,5,5,10,MERGED
+82759,docs: correct Node.js runtime support version in middleware (15.4.2-canary.47),lodsa-ntos,2025-08-18T21:02:29Z,2025-08-19T00:34:17+00:00,3,3.53,False,2,1,1,341,5,3,8,CLOSED
+82757,Turbopack: support pattern into exports field,mischnic,2025-08-18T20:42:00Z,2025-08-25T14:36:58+00:00,13,161.92,True,586,242,20,260,5,13,18,MERGED
+82755,[type] dynamic skip generating unused types,huozhi,2025-08-18T20:39:49Z,2025-08-18T21:46:25+00:00,3,1.11,True,244,33,8,436,5,1,6,MERGED
+82754,[backport v14]: fix router handling when setting a location response header (#82588),ztanner,2025-08-18T20:06:59Z,2025-08-18T21:17:07+00:00,3,1.17,True,67,10,3,18,2,1,3,MERGED
+82750,[DO NOT MERGE] debugging module counts,wbinnssmith,2025-08-18T18:32:41Z,2025-08-18T20:10:04+00:00,1,1.62,False,29,2,1,16,2,1,3,CLOSED
+82748,Use React's debug channel to transport debug info via WebSocket connection,unstubbable,2025-08-18T16:56:50Z,2025-09-05T21:10:29+00:00,13,436.23,True,1087,311,29,2906,7,14,21,MERGED
+82747,Upgrade React from `a96a0f39-20250815` to `f508edc8-20250818`,nextjs-bot,2025-08-18T16:24:08Z,2025-08-19T16:44:44+00:00,1,24.34,True,1411,1150,71,442,1,0,1,MERGED
+82746,[test] separate metadata font tests,huozhi,2025-08-18T16:09:11Z,2025-08-19T11:08:38+00:00,1,18.99,True,38,10,8,355,3,0,3,MERGED
+82745,Turbopack: use bail instead of panic,mischnic,2025-08-18T16:00:27Z,2025-08-18T17:46:05+00:00,1,1.76,True,1,1,1,73,5,0,5,MERGED
+82742,[Cache Components] Faster partial hydration in PPR resumes,lubieowoce,2025-08-18T13:59:18Z,2025-08-19T18:31:28+00:00,20,28.54,True,535,78,15,2238,2,11,13,MERGED
+82741,Docs/getting started improv,icyJoseph,2025-08-18T13:56:33Z,2025-08-26T10:37:50+00:00,3,188.69,True,76,21,2,155,0,1,1,MERGED
+82740,chore(test): update sharp api test,styfle,2025-08-18T13:47:31Z,2025-08-18T20:43:55+00:00,3,6.94,True,185,231,4,44,2,1,3,MERGED
+82739,Turbopack: Skip loading react-loadable-manifest for Route Handlers,timneutkens,2025-08-18T12:59:14Z,2025-09-03T13:00:04+00:00,5,384.01,False,58,68,5,470,4,2,6,CLOSED
+82732,Update Rspack production test manifest,vercel-release-bot,2025-08-18T07:03:42Z,2025-08-18T18:01:02+00:00,1,10.96,True,68,0,1,97,1,0,1,MERGED
+82731,Update Rspack development test manifest,vercel-release-bot,2025-08-18T07:03:37Z,2025-08-18T18:01:10+00:00,1,10.96,False,72,2038,1,98,2,0,2,CLOSED
+82728,Turbopack: fix race condition in test case,sokra,2025-08-17T22:53:21Z,2025-08-18T09:26:36+00:00,1,10.55,True,5,5,1,178,5,0,5,MERGED
+82727,Turbopack: Stop persisting background task correctly on stop,sokra,2025-08-17T22:53:18Z,2025-08-18T08:13:12+00:00,1,9.33,True,30,29,1,109,3,0,3,MERGED
+82725,[turbopack] Remove a debug assertions in client references endpoint,lukesandberg,2025-08-17T22:11:22Z,2025-08-18T13:37:39+00:00,1,15.44,True,1,21,1,599,5,0,5,MERGED
+82720,fix(turbopack): webpack-loaders failed to resolve relative path,fireairforce,2025-08-17T17:39:36Z,2025-08-18T19:54:38+00:00,1,26.25,True,3,3,2,812,2,0,2,MERGED
+82719,Update prettier project dependency from 3.2.5 to 3.6.2,P41T0,2025-08-17T17:21:17Z,2025-08-21T15:34:07+00:00,3,94.21,False,0,0,0,577,5,1,6,CLOSED
+82714,docs: add missing RLS step to Next.js tutorial,Karthikeya-Thatipamula,2025-08-17T09:49:17Z,2025-08-20T22:46:26+00:00,1,84.95,True,48,0,1,1018,4,0,4,MERGED
+82710,Use `jsx` extension instead of `js` in global-error documentation,cypherab01,2025-08-17T06:07:12Z,2025-08-19T00:44:01+00:00,2,42.61,True,2,2,1,0,1,1,2,MERGED
+82695,Add metadata to server reference manifest,ijjk,2025-08-15T23:50:52Z,2025-08-16T01:04:55+00:00,2,1.23,True,95,7,6,111,2,1,3,MERGED
+82694,fix(turbopack) Fix handling of intercept route segments,Cy-Tek,2025-08-15T21:05:47Z,2025-08-27T13:19:57+00:00,3,280.24,True,133,23,9,426,5,4,9,MERGED
+82691,Upgrade React from `379a083b-20250813` to `a96a0f39-20250815`,nextjs-bot,2025-08-15T16:40:34Z,2025-08-15T17:49:59+00:00,1,1.16,True,1713,1389,62,106,2,0,2,MERGED
+82685,"feat: add a codemod to migrate from the deprecated ""next lint"" command",bgub,2025-08-15T09:21:02Z,2025-08-19T20:27:17+00:00,30,107.1,True,1681,3,20,1815,4,31,35,MERGED
+82682,Update Rspack development test manifest,vercel-release-bot,2025-08-15T07:02:32Z,2025-08-15T16:48:14+00:00,1,9.76,True,36,2,1,98,3,0,3,MERGED
+82681,Update Rspack production test manifest,vercel-release-bot,2025-08-15T07:02:30Z,2025-08-15T16:38:29+00:00,1,9.6,True,42,0,1,97,2,0,2,MERGED
+82680,chore: set Turborepo version correctly,mischnic,2025-08-15T07:00:38Z,2025-08-15T14:12:03+00:00,1,7.19,True,7,7,7,44,3,0,3,MERGED
+82678,fix: memory leak from cloneResponse,snyamathi,2025-08-15T05:07:57Z,2025-08-15T19:46:31+00:00,4,14.64,True,31,0,1,6294,4,2,6,MERGED
+82676,Turbopack: Fix babel-loader (allowing built-in or manual configuration),bgw,2025-08-15T02:22:18Z,2025-09-22T16:40:58+00:00,24,926.31,True,501,448,37,1867,6,13,19,MERGED
+82675,test: migrate manifest tests to snapshot testing with normalizeManifest utility,wyattjoh,2025-08-15T01:37:30Z,2025-08-15T12:51:01+00:00,3,11.23,True,1351,1391,3,1627,3,2,5,MERGED
+82674,optimize server action refresh logic,ztanner,2025-08-15T01:03:12Z,2025-08-25T19:47:19+00:00,6,258.74,True,184,46,10,1161,3,3,6,MERGED
+82672,docs: fix TS error in Node.js runtime local assets example,EAzZY-1wnL,2025-08-14T23:03:17Z,2025-08-19T21:28:18+00:00,17,118.42,True,54,1,1,839,8,14,22,MERGED
+82670,feat: add RouteContext type for app router route handlers,bgub,2025-08-14T22:48:46Z,2025-08-14T23:51:15+00:00,1,1.04,True,65,2,5,649,2,0,2,MERGED
+82668,Turbopack: allow to customize the parallel execution of turbo-persistence,sokra,2025-08-14T20:27:41Z,2025-08-21T00:04:05+00:00,8,147.61,True,852,446,10,16,5,8,13,MERGED
+82667,Turbopack: use parallel execution helpers,sokra,2025-08-14T20:27:39Z,2025-08-20T23:35:15+00:00,2,147.13,True,111,159,7,16,5,1,6,MERGED
+82666,Turbopack: add parallel execution helpers,sokra,2025-08-14T20:27:37Z,2025-08-20T23:02:50+00:00,2,146.59,True,762,94,6,16,5,1,6,MERGED
+82665,Turbopack: run unit tests in multi threaded runtime,sokra,2025-08-14T20:27:35Z,2025-08-20T21:23:04+00:00,1,144.92,True,92,114,31,86,3,0,3,MERGED
+82661,"Reland ""Turbopack: avoid using rayon in favor of tokio tasks""",sokra,2025-08-14T19:10:33Z,2025-08-24T06:39:31+00:00,1,227.48,False,1847,837,52,46,5,3,8,CLOSED
+82660,test: improve tests for typed route validation,bgub,2025-08-14T19:00:05Z,2025-08-15T00:41:26+00:00,1,5.69,True,40,16,1,110,3,0,3,MERGED
+82654,[perf] only load next config once when start next dev server,huozhi,2025-08-14T15:39:16Z,2025-08-20T12:51:02+00:00,2,141.2,True,128,64,8,969,4,1,5,MERGED
+82653,fix: use `turbopack.root` value for `outputFileTracingRoot` to have consistent tracing root,devjiwonchoi,2025-08-14T15:16:01Z,2025-08-16T00:01:35+00:00,6,32.76,True,74,12,4,584,6,3,9,MERGED
+82652,chore: Bump Turborepo,mischnic,2025-08-14T14:51:51Z,2025-08-14T20:12:45+00:00,1,5.35,True,36,36,2,16,4,0,4,MERGED
+82647,docs: add `experimental.typedEnv`,devjiwonchoi,2025-08-14T13:30:56Z,2025-08-15T11:31:30+00:00,3,22.01,True,20,0,1,83,1,3,4,MERGED
+82646,Turbopack: use published sourcemap crate,mischnic,2025-08-14T12:46:28Z,2025-08-15T14:11:53+00:00,1,25.42,True,4,4,2,45,5,0,5,MERGED
+82644,Fix request type in typed route validator,eps1lon,2025-08-14T11:45:56Z,2025-08-14T15:47:43+00:00,3,4.03,True,11,8,2,92,4,0,4,MERGED
+82643,Fix fetch logging after revalidation via server action,unstubbable,2025-08-14T11:08:10Z,2025-08-14T15:12:32+00:00,1,4.07,True,62,30,7,1913,1,0,1,MERGED
+82641,Turbopack: patch sourcemap crate,mischnic,2025-08-14T09:18:41Z,2025-08-14T12:02:28+00:00,1,2.73,True,2,2,2,116,3,0,3,MERGED
+82636,Turbopack: run snapshot in normal task instead of blocking task,sokra,2025-08-14T00:30:44Z,2025-08-15T14:29:05+00:00,2,37.97,True,1,1,1,96,4,1,5,MERGED
+82635,Turbopack: do not run a compaction when opening the db,sokra,2025-08-14T00:30:42Z,2025-08-14T13:58:09+00:00,2,13.46,True,2,14,1,142,5,1,6,MERGED
+82634,Turbopack: add `turbo_tasks::spawn`,sokra,2025-08-14T00:30:40Z,2025-08-14T14:38:39+00:00,5,14.13,True,152,60,6,136,6,4,10,MERGED
+82633,perf(router): replace LRU cache with optimized doubly-linked list implementation,wyattjoh,2025-08-14T00:13:46Z,2025-08-15T14:31:00+00:00,4,38.29,True,435,91,6,754,4,7,11,MERGED
+82631,Turbopack: use a source content regexp for the react compiler,sokra,2025-08-13T22:41:18Z,2025-08-15T15:33:17+00:00,5,40.87,True,115,51,7,180,5,4,9,MERGED
+82630,Turbopack: refactor idle process queue and fix bugs and race conditions,sokra,2025-08-13T21:59:56Z,2025-08-16T04:46:57+00:00,7,54.78,True,102,46,3,74,5,12,17,MERGED
+82628,perf(router): add two-tier caching for route matching performance,wyattjoh,2025-08-13T21:34:34Z,2025-08-14T01:47:40+00:00,1,4.22,False,128,24,16,1197,3,1,4,CLOSED
+82627,feat(next/image): warn when images.localPatterns is undefined and src has query,styfle,2025-08-13T21:30:33Z,2025-08-14T14:36:45+00:00,4,17.1,True,44,1,4,307,1,3,4,MERGED
+82624,Fix generate-metadata.mdx typo,guoci,2025-08-13T20:54:33Z,2025-08-13T21:58:13+00:00,1,1.06,True,1,1,1,0,1,0,1,MERGED
+82622,Turbopack: avoid REEXPORTED_OBJECTS property on Module object,sokra,2025-08-13T19:54:45Z,2025-08-14T08:46:56+00:00,2,12.87,True,21,25,6,79,10,1,11,MERGED
+82621,feat(build): add client param parsing support for PPR routes,wyattjoh,2025-08-13T18:42:25Z,2025-08-25T23:57:53+00:00,15,293.26,True,2264,268,43,2646,4,17,21,MERGED
+82619,Upgrade React from `f1222f76-20250812` to `534bed5f-20250813`,nextjs-bot,2025-08-13T16:22:29Z,2025-08-14T10:10:39+00:00,1,17.8,False,643,419,81,169,1,0,1,CLOSED
+82617,Turbopack: fix edge function name,mischnic,2025-08-13T15:58:38Z,2025-08-14T07:22:38+00:00,1,15.4,True,33,23,6,524,4,0,4,MERGED
+82613,run config deprecation checks only on user-provided configuration,ztanner,2025-08-13T14:21:05Z,2025-08-13T15:40:23+00:00,3,1.32,True,168,77,7,526,4,1,5,MERGED
+82604,Remove React 17 logic from Pages Router static generation,eps1lon,2025-08-13T08:34:34Z,2025-08-13T09:58:36+00:00,1,1.4,True,7,11,2,159,2,0,2,MERGED
+82603,Cleanup `shouldRunTurboDevTest` usage,mischnic,2025-08-13T08:08:30Z,2025-08-13T18:05:00+00:00,5,9.94,True,30,72,13,91,3,4,7,MERGED
+82601,Update Rspack production test manifest,vercel-release-bot,2025-08-13T07:02:30Z,2025-08-13T19:30:21+00:00,1,12.46,True,57,6,1,97,2,0,2,MERGED
+82600,Update Rspack development test manifest,vercel-release-bot,2025-08-13T07:02:27Z,2025-08-13T19:30:28+00:00,1,12.47,True,45,14,1,98,2,0,2,MERGED
+82599,Create index.js,essgrowth123,2025-08-13T04:18:00Z,2025-08-13T10:52:15+00:00,1,6.57,False,391,0,1,0,1,1,2,CLOSED
+82597,Create page.js,essgrowth123,2025-08-13T03:58:16Z,2025-08-13T10:51:46+00:00,1,6.89,False,391,0,1,0,1,1,2,CLOSED
+82593,fix: should not warn depredated config if next config file does not exist,huozhi,2025-08-13T00:16:56Z,2025-08-13T14:55:57+00:00,13,14.65,False,76,32,5,251,5,7,12,CLOSED
+82592,[turbopack] Fix a crash under turbopackPersistentCaching,lukesandberg,2025-08-12T23:51:39Z,2025-08-13T05:14:04+00:00,1,5.37,True,11,7,2,1972,5,0,5,MERGED
+82591,[turbopack] Update Turbopack build warning message ,lukesandberg,2025-08-12T23:26:43Z,2025-08-13T17:06:36+00:00,1,17.66,True,7,26,1,446,5,0,5,MERGED
+82590,fix: find root dir on fs root,icyJoseph,2025-08-12T22:43:58Z,2025-08-13T21:33:18+00:00,6,22.82,True,13,9,1,977,2,3,5,MERGED
+82588,fix router handling when setting a location response header,ztanner,2025-08-12T21:52:01Z,2025-08-13T00:26:49+00:00,2,2.58,True,68,10,3,293,2,1,3,MERGED
+82587,Fix: Resolve <Head> PPR resume mismatch by search params,gaojude,2025-08-12T21:50:32Z,2025-08-13T00:51:34+00:00,2,3.02,True,94,8,6,516,2,1,3,MERGED
+82586,[Segment Cache] Optimistic prefetch for search params,acdlite,2025-08-12T20:50:48Z,2025-08-13T13:41:35+00:00,2,16.85,True,318,3,6,1833,2,1,3,MERGED
+82582,[Deprecation Warnings]: add unstable_rootParams deprecation warning,ztanner,2025-08-12T18:22:52Z,2025-08-12T20:23:45+00:00,4,2.01,True,7,0,1,192,2,1,3,MERGED
+82580,Turbopack: set `window.next.turbopack` instead,mischnic,2025-08-12T17:40:58Z,2025-08-12T20:55:20+00:00,1,3.24,True,13,5,4,80,4,0,4,MERGED
+82578,[Cache Components] Avoid cache misses when resuming a cached page,unstubbable,2025-08-12T17:21:21Z,2025-08-12T19:40:33+00:00,1,2.32,True,136,242,20,983,2,0,2,MERGED
+82575,Upgrade React from `ac7820a9-20250811` to `1dc3bdea-20250812`,nextjs-bot,2025-08-12T16:28:29Z,2025-08-12T17:42:13+00:00,1,1.23,True,511,793,70,106,1,0,1,MERGED
+82569,fix(next/image): handle empty buffer and experimental flag for `skipMetadata`,styfle,2025-08-12T13:10:12Z,2025-08-12T14:12:52+00:00,4,1.04,True,143,80,4,320,1,1,2,MERGED
+82564,[Cache Components] Disallow sync access of cookies & headers at runtime,unstubbable,2025-08-12T10:35:01Z,2025-08-13T17:08:13+00:00,2,30.55,True,404,82,9,586,2,1,3,MERGED
+82561,Turbopack: improve Lightning CSS error handling,mischnic,2025-08-12T08:30:42Z,2025-08-12T11:12:18+00:00,2,2.69,True,55,29,5,209,4,1,5,MERGED
+82560,[turbopack] Update next docs with information about turbopack known adoption issues,lukesandberg,2025-08-12T07:46:32Z,2025-08-18T23:32:08+00:00,15,159.76,True,101,5,2,256,2,9,11,MERGED
+82558,Update Rspack development test manifest,vercel-release-bot,2025-08-12T07:02:45Z,2025-08-12T18:43:24+00:00,1,11.68,True,23,16,1,98,2,0,2,MERGED
+82557,Update Rspack production test manifest,vercel-release-bot,2025-08-12T07:02:32Z,2025-08-12T18:44:16+00:00,1,11.7,True,32,12,1,97,2,0,2,MERGED
+82554,Turbopack: fix postcss in RSC CSS,sokra,2025-08-12T05:32:02Z,2025-08-12T08:54:17+00:00,2,3.37,True,70,27,8,137,5,1,6,MERGED
+82551,[Deprecation Warnings]: add amp deprecation warning,ztanner,2025-08-11T23:27:01Z,2025-08-12T13:53:39+00:00,5,14.44,True,27,1,3,146,4,3,7,MERGED
+82550,fix: Prevent duplicate file entries in modulesCode,icyJoseph,2025-08-11T22:20:27Z,2025-08-12T15:39:43+00:00,3,17.32,True,8,5,1,1006,2,1,3,MERGED
+82549,Docs/feedback round aug,icyJoseph,2025-08-11T22:07:24Z,2025-08-13T10:17:14+00:00,6,36.16,True,11,1,2,317,1,2,3,MERGED
+82545,"Revert ""Turbopack: fix CSS module references, take 2""",gaojude,2025-08-11T21:19:03Z,2025-08-12T08:54:18+00:00,1,11.59,False,102,186,14,14,4,1,5,CLOSED
+82541,Bump React types,eps1lon,2025-08-11T18:58:07Z,2025-08-12T08:14:35+00:00,1,13.27,True,81,96,2,27,2,0,2,MERGED
+82539,[turbopack] Handle relative paths before matching in node file traces,lukesandberg,2025-08-11T18:55:56Z,2025-08-12T11:13:43+00:00,5,16.3,True,274,61,4,439,5,4,9,MERGED
+82538,fix(next/image): use `image-size` pkg as additional format detector,styfle,2025-08-11T18:45:44Z,2025-08-11T19:54:37+00:00,4,1.15,True,70,5,4,477,2,2,4,MERGED
+82537,Turbopack: don't match `..` for `**`,mischnic,2025-08-11T18:35:33Z,2025-08-12T08:20:20+00:00,1,13.75,False,31,7,2,268,4,0,4,CLOSED
+82536,Fix: Disambiguate Mediapartners-Google user agent,gaojude,2025-08-11T18:13:05Z,2025-08-11T23:36:18+00:00,3,5.39,True,8,5,3,180,2,1,3,MERGED
+82532,docs: experimental config browserDebugInfoInTerminal,icyJoseph,2025-08-11T12:42:49Z,2025-08-11T21:08:18+00:00,1,8.42,True,134,0,1,118,0,1,1,MERGED
+82528,Turbopack: symlinks and parent globs in `outputFileTracingIncludes`,mischnic,2025-08-11T09:54:27Z,2025-08-12T13:03:48+00:00,15,27.16,True,224,63,13,544,5,8,13,MERGED
+82526,Update Rspack development test manifest,vercel-release-bot,2025-08-11T07:04:27Z,2025-08-11T20:20:11+00:00,1,13.26,True,12,3,1,98,1,0,1,MERGED
+82525,Update Rspack production test manifest,vercel-release-bot,2025-08-11T07:04:23Z,2025-08-11T20:20:24+00:00,1,13.27,True,15,4,1,97,1,0,1,MERGED
+82518,feat(turbo-tasks-hash): update twox-hash,xusd320,2025-08-11T01:45:16Z,2025-08-12T17:25:09+00:00,2,39.66,True,644,667,534,42,3,0,3,MERGED
+82514,feat: add validation for root-level files when src directory exists,devin-ai-integration,2025-08-10T11:15:57Z,2025-08-12T19:23:56+00:00,3,56.13,False,132,0,6,2802,3,3,6,CLOSED
+82513,fix: prioritize src/ directory for instrumentation.ts in development,devin-ai-integration,2025-08-10T11:09:45Z,2025-08-12T19:23:27+00:00,1,56.23,False,14,5,1,2390,3,1,4,CLOSED
+82503,docs: fix typos,JamBalaya56562,2025-08-10T00:58:25Z,2025-08-13T22:28:28+00:00,1,93.5,True,4,4,4,554,2,0,2,MERGED
+82500,[Cache Components] Error for Sync IO in Server Components during Static Prerender,gnoff,2025-08-09T19:25:56Z,2025-08-20T15:23:32+00:00,8,259.96,True,2268,650,54,837,3,8,11,MERGED
+82488,fix: add `?dpl` to fonts in `/_next/static/media` part 2,styfle,2025-08-09T00:32:19Z,2025-08-11T20:18:09+00:00,4,67.76,True,50,2,9,192,3,3,6,MERGED
+82487,chore: Remove unused `Map` support from `next/dynamic` transform,bgw,2025-08-09T00:16:01Z,2025-08-12T19:53:49+00:00,1,91.63,True,7,17,1,388,3,0,3,MERGED
+82486,chore: Update babel types and do some light cleanup of babel loader,bgw,2025-08-08T23:54:46Z,2025-08-12T19:29:57+00:00,4,91.59,True,144,126,10,230,2,5,7,MERGED
+82484,use correct workflow id for v0,padmaia,2025-08-08T23:36:49Z,2025-08-09T01:22:38+00:00,3,1.76,True,3,3,1,16,1,0,1,MERGED
+82482,chore: Ignore `compiled` folder in ripgrep/ast-grep/ag/etc,bgw,2025-08-08T20:31:02Z,2025-08-11T19:42:25+00:00,2,71.19,True,1,0,1,140,3,0,3,MERGED
+82481,Add setTagStale method for background revalidate,ijjk,2025-08-08T20:27:23Z,2025-09-05T20:16:38+00:00,9,671.82,False,754,36,24,508,4,11,15,CLOSED
+82475,[Runtime prefetch] resolve runtime APIs in a separate task,lubieowoce,2025-08-08T15:18:19Z,2025-08-12T17:42:28+00:00,4,98.4,True,871,107,27,864,2,3,5,MERGED
+82474,[errors] revamp graceful degrade error boundary,huozhi,2025-08-08T15:09:58Z,2025-08-08T16:58:43+00:00,3,1.81,True,59,76,7,998,2,1,3,MERGED
+82471,Test that there are no server-side CSS chunks,mischnic,2025-08-08T13:11:54Z,2025-08-11T20:33:13+00:00,2,79.36,True,90,0,9,94,4,1,5,MERGED
+82470,fix: swc tracing,r34son,2025-08-08T11:29:27Z,2025-08-08T19:22:19+00:00,1,7.88,True,1,1,1,150,2,0,2,MERGED
+82466,Turbopack: refactor side effects optimization,sokra,2025-08-08T08:51:57Z,2025-08-08T14:25:54+00:00,3,5.57,True,93,197,15,496,3,4,7,MERGED
+82465,Turbopack: add more side effects test cases,sokra,2025-08-08T08:51:54Z,2025-08-08T11:36:57+00:00,2,2.75,True,92,0,15,116,3,1,4,MERGED
+82464,Turbopack: split basic side effects optimization test,sokra,2025-08-08T08:51:51Z,2025-08-08T11:17:00+00:00,1,2.42,True,402,366,152,126,4,0,4,MERGED
+82461,Update Rspack development test manifest,vercel-release-bot,2025-08-08T07:05:11Z,2025-08-08T17:15:19+00:00,1,10.17,True,5,5,1,98,1,0,1,MERGED
+82458,Delete abandoned segment parsing code,acdlite,2025-08-08T01:52:26Z,2025-08-11T14:40:53+00:00,1,84.81,True,46,203,8,937,1,0,1,MERGED
+82454,Turbopack: Watch parent directories before watching children in `non_recursive_helpers::start_watching_dir_and_parents`,bgw,2025-08-07T23:22:33Z,2025-08-12T16:07:28+00:00,2,112.75,True,32,16,1,858,4,1,5,MERGED
+82452,Update build-complete for adapter API,ijjk,2025-08-07T21:59:18Z,2025-08-08T18:42:35+00:00,3,20.72,True,718,69,25,115,2,2,4,MERGED
+82450,Devcontainer: Replace Dockerfile with prebuilt image+features,bgw,2025-08-07T19:34:33Z,2025-08-08T17:14:31+00:00,1,21.67,True,83,110,11,1015,2,0,2,MERGED
+82449,Add option to delay shutdown signal handling,novascreen,2025-08-07T19:23:02Z,2025-09-10T21:37:13+00:00,5,818.24,False,20,0,2,413,1,1,2,CLOSED
+82448,"Turbopack: fix CSS module references, take 2",mischnic,2025-08-07T17:19:59Z,2025-08-11T18:16:10+00:00,6,96.94,True,186,102,14,553,4,6,10,MERGED
+82447,Upgrade React from `7deda941-20250804` to `3958d5d8-20250807`,nextjs-bot,2025-08-07T16:28:35Z,2025-08-09T09:44:42+00:00,1,41.27,True,3419,2128,86,316,1,0,1,MERGED
+82444,Skip emitting pages router entries when only app router present,huozhi,2025-08-07T15:15:34Z,2025-08-21T22:41:38+00:00,15,343.43,True,1023,211,51,1384,4,15,19,MERGED
+82439,Add app router types,remcohaszing,2025-08-07T12:42:00Z,2025-08-11T12:56:15+00:00,3,96.24,False,84,3,1,568,4,2,6,CLOSED
+82435,Turbopack: remove a few clones,mischnic,2025-08-07T08:05:42Z,2025-08-07T20:03:47+00:00,1,11.97,True,9,9,5,65,4,0,4,MERGED
+82433,Update Rspack development test manifest,vercel-release-bot,2025-08-07T07:05:08Z,2025-08-07T20:01:48+00:00,1,12.94,True,104,10,1,98,1,0,1,MERGED
+82432,Update Rspack production test manifest,vercel-release-bot,2025-08-07T07:05:06Z,2025-08-07T20:16:08+00:00,1,13.18,True,3,0,1,97,2,0,2,MERGED
+82427,Fix: Do not force BLOCKING_STATIC_RENDER for DOM bots,gaojude,2025-08-07T03:05:56Z,2025-08-08T17:03:27+00:00,3,37.96,True,96,3,5,528,2,1,3,MERGED
+82426,[Cache Components] fix: Do not throw when metadata image inside dynamic route,devjiwonchoi,2025-08-07T02:42:08Z,2025-08-14T11:16:55+00:00,1,176.58,False,125,9,10,1438,4,1,5,CLOSED
+82424,chore(Next.js sync): open draft PRs immediately,padmaia,2025-08-07T00:13:10Z,2025-08-07T16:36:09+00:00,2,16.38,True,98,40,1,505,2,2,4,MERGED
+82421,"Backport ""fix: add `?dpl` to fonts in `/_next/static/media` (#82384)""",devjiwonchoi,2025-08-06T16:37:01Z,2025-08-06T18:29:18+00:00,1,1.87,True,9,19,4,16,1,0,1,MERGED
+82414,update rspack-dev-tests-manifest for failing tests,devjiwonchoi,2025-08-06T15:22:51Z,2025-08-06T16:34:34+00:00,1,1.2,True,5,5,1,208,1,0,1,MERGED
+82409,Clean up unused code in restart server button,devjiwonchoi,2025-08-06T13:44:47Z,2025-08-12T19:05:52+00:00,7,149.35,True,3,164,7,44,6,1,7,MERGED
+82408,"global-error, revalidatePath and PWA headings",icyJoseph,2025-08-06T13:17:59Z,2025-08-07T08:10:21+00:00,5,18.87,True,21,7,4,63,0,4,4,MERGED
+82405,Turbopack: skip db lookups on the initial build,sokra,2025-08-06T11:42:18Z,2025-08-25T16:04:47+00:00,5,460.37,True,31,14,3,219,5,3,8,MERGED
+82404,Update Prettier package version from 3.2.5 to 3.6.2,P41T0,2025-08-06T11:08:22Z,2025-08-16T16:40:20+00:00,1,245.53,False,6100,5386,274,2546,2,0,2,CLOSED
+82403,Turbopack: increase time before persisting,sokra,2025-08-06T11:03:33Z,2025-08-11T15:16:30+00:00,1,124.22,True,2,2,1,89,5,0,5,MERGED
+82401,Turbopack: support requests with dynamic part in module name,mischnic,2025-08-06T10:28:57Z,2025-08-13T16:56:41+00:00,10,174.46,True,480,195,30,194,4,7,11,MERGED
+82399,fix: implications of global-not-found skipping 'normal' rendering,icyJoseph,2025-08-06T09:17:59Z,2025-08-06T11:13:29+00:00,6,1.93,True,74,6,1,73,1,2,3,MERGED
+82398,Update Rspack development test manifest,vercel-release-bot,2025-08-06T07:05:07Z,2025-08-06T18:20:10+00:00,2,11.25,False,101,8,1,98,2,0,2,CLOSED
+82397,Update Rspack production test manifest,vercel-release-bot,2025-08-06T07:05:04Z,2025-08-06T18:25:37+00:00,1,11.34,True,98,3,1,97,3,0,3,MERGED
+82396,[devtools] Make state read-only in types,eps1lon,2025-08-06T06:08:30Z,2025-08-06T11:57:46+00:00,3,5.82,True,75,61,14,90,2,2,4,MERGED
+82395,[devtools] Remove unused `componentStackFrames` field,eps1lon,2025-08-06T06:00:54Z,2025-08-12T09:00:30+00:00,6,146.99,True,12,206,15,120,4,2,6,MERGED
+82393,Add experimental clientParamParsing feature flag,acdlite,2025-08-06T03:13:25Z,2025-08-06T16:04:57+00:00,2,12.86,True,51,2,10,178,3,0,3,MERGED
+82392,[turbopack] Fix a small issue in the analyzer where we wouldn't skip assignments to free vars that were just identifiers,lukesandberg,2025-08-06T03:02:17Z,2025-08-11T15:31:56+00:00,3,132.49,True,17,8,2,317,4,1,5,MERGED
+82389,Turbopack: Fix logic in HMR logging code that could emit a NaN build time,bgw,2025-08-06T00:52:15Z,2025-08-15T22:03:30+00:00,4,237.19,True,5,1,1,1069,3,1,4,MERGED
+82388,[Segment Cache]: fix infinite prefetching when staleTime is 0,ztanner,2025-08-06T00:49:43Z,2025-08-06T23:11:56+00:00,5,22.37,True,82,3,5,670,3,4,7,MERGED
+82386,[Cache Components] Defer Request Data API resolution to another task in dev when it would suspend when prerendering,gnoff,2025-08-05T23:27:37Z,2025-08-19T00:21:12+00:00,5,312.89,True,243,120,12,529,2,4,6,MERGED
+82385,Turbopack: Share entrypoint template logic between Turbopack/webpack,bgw,2025-08-05T22:50:10Z,2025-08-08T02:26:49+00:00,3,51.61,True,821,747,35,1965,4,3,7,MERGED
+82384,fix: add `?dpl` to fonts in `/_next/static/media`,styfle,2025-08-05T22:05:51Z,2025-08-05T23:45:15+00:00,2,1.66,True,9,19,4,166,2,1,3,MERGED
+82381,[Cache Components] Only validate the shell on SSR render,gnoff,2025-08-05T19:42:10Z,2025-08-07T21:04:03+00:00,1,49.36,True,10,27,2,574,2,0,2,MERGED
+82380,Turbopack: use block in place for db writes,sokra,2025-08-05T19:02:57Z,2025-08-21T00:29:22+00:00,5,365.44,True,151,117,8,16,5,5,10,MERGED
+82378,Fix: Allow dynamic rendering when root layout is wrapped in Suspense,gaojude,2025-08-05T18:52:44Z,2025-08-12T00:18:40+00:00,9,149.43,True,180,56,14,313,2,10,12,MERGED
+82376,Remove param values from static route tree,acdlite,2025-08-05T17:30:25Z,2025-08-07T03:53:16+00:00,1,34.38,True,161,76,5,697,2,1,3,MERGED
+82375,Turbopack: improve compaction,sokra,2025-08-05T17:27:39Z,2025-08-21T00:55:42+00:00,1,367.47,True,15,8,2,149,4,0,4,MERGED
+82374,fix(turbopack): external module shouldn't wrap by esm when type as global,fireairforce,2025-08-05T16:39:46Z,2025-08-06T18:28:28+00:00,5,25.81,True,22,3,4,1632,7,2,9,MERGED
+82373,Upgrade React from `be11cb5c-20250804` to `7deda941-20250804`,nextjs-bot,2025-08-05T16:22:36Z,2025-08-06T05:12:01+00:00,1,12.82,True,405,405,62,148,2,0,2,MERGED
+82370,Turbopack: bigger small value blocks,sokra,2025-08-05T15:32:47Z,2025-08-23T05:23:38+00:00,4,421.85,True,3,3,1,16,5,3,8,MERGED
+82369,Turbopack: show timing event for database compaction,sokra,2025-08-05T15:32:28Z,2025-08-17T19:09:30+00:00,6,291.62,True,85,47,6,118,6,6,12,MERGED
+82367,fix(Turbopack): Address duplicated metadata image modules when they are impored,Cy-Tek,2025-08-05T14:25:58Z,2025-08-05T18:19:07+00:00,5,3.89,True,70,1,11,1104,4,3,7,MERGED
+82365,docs: CSP with SRI corrections,icyJoseph,2025-08-05T13:13:13Z,2025-08-06T08:57:48+00:00,2,19.74,True,9,7,1,120,3,1,4,MERGED
+82364,Turbopack: clean up some old TODOs,mischnic,2025-08-05T13:09:20Z,2025-08-05T15:15:23+00:00,3,2.1,True,62,155,22,175,3,2,5,MERGED
+82363,Turbopack: pass `is_development` to `next_page_config`,mischnic,2025-08-05T11:13:44Z,2025-08-05T12:36:23+00:00,1,1.38,True,13,5,2,16,4,0,4,MERGED
+82359,Turbopack: run styled-jsx after typescript transform,mischnic,2025-08-05T09:34:34Z,2025-08-05T12:33:50+00:00,3,2.99,True,276,156,35,842,4,2,6,MERGED
+82352,Documentation: Removed reference to treeShaking in 08-turbopack.mdx,huperniketes,2025-08-05T03:19:02Z,2025-08-05T08:29:05+00:00,1,5.17,True,0,2,1,83,2,0,2,MERGED
+82350,[Cache Components] Allow span creation while prerendering,gnoff,2025-08-05T02:39:45Z,2025-08-05T16:24:31+00:00,4,13.75,True,858,1,17,1284,2,3,5,MERGED
+82347,[Pages] fix: `_error` page's `req.url` can be overwritten to dynamic param on minimal mode,devjiwonchoi,2025-08-04T21:20:27Z,2025-08-05T18:06:32+00:00,4,20.77,True,61,1,5,294,3,3,6,MERGED
+82345,wrap devtools stories in context providers,RobPruzan,2025-08-04T19:21:01Z,2025-08-12T07:40:31+00:00,9,180.32,True,170,97,5,155,1,3,4,MERGED
+82343,"Turbopack: Update `jsonc-parser`, dedupe with SWC",bgw,2025-08-04T18:42:39Z,2025-08-04T23:09:47+00:00,1,4.45,True,34,43,5,247,3,0,3,MERGED
+82341,refactor(turbo-tasks-fs): change FS to_sys_path to be synchronous,xusd320,2025-08-04T17:07:12Z,2025-08-05T13:18:56+00:00,2,20.2,True,14,17,3,54,3,0,3,MERGED
+82340,Turbopack: fix NFT tracing of sharp 0.34,mischnic,2025-08-04T16:46:34Z,2025-08-25T15:18:57+00:00,11,502.54,True,694,32,10,98,6,12,18,MERGED
+82338,Turbopack: remove value compression dictionary,sokra,2025-08-04T15:07:34Z,2025-08-23T07:08:54+00:00,9,448.02,True,73,163,10,293,5,7,12,MERGED
+82335,Turbopack: parallel drop data before shutdown,sokra,2025-08-04T14:29:31Z,2025-08-22T20:01:46+00:00,4,437.54,True,45,2,5,130,5,2,7,MERGED
+82332,"[Cache Components] give the ""seconds"" profile a 30s staleTime",lubieowoce,2025-08-04T12:56:49Z,2025-08-06T18:09:29+00:00,1,53.21,True,132,27,7,14,2,0,2,MERGED
+82329,Add `path` to Image documentation,kitfoster,2025-08-04T12:18:05Z,2025-08-08T14:41:22+00:00,14,98.39,True,25,1,3,358,4,7,11,MERGED
+82328,chore: fix eslint-typechecked-require with template,mischnic,2025-08-04T12:18:04Z,2025-08-04T14:02:20+00:00,3,1.74,True,27,3,2,16,3,2,5,MERGED
+82326,fix: next/root-params erroring when rerendering after action,lubieowoce,2025-08-04T10:16:09Z,2025-08-04T12:21:20+00:00,3,2.09,True,111,12,4,348,2,2,4,MERGED
+82325,Import correct react-server version in action-handler,mischnic,2025-08-04T10:07:37Z,2025-08-04T13:37:50+00:00,5,3.5,False,36,14,6,147,2,4,6,CLOSED
+82323,Update Rspack production test manifest,vercel-release-bot,2025-08-04T07:07:18Z,2025-08-06T18:13:02+00:00,1,59.1,False,47,2,1,97,2,0,2,CLOSED
+82320,docs: add React Developer Tools section for debugging,PuppyOne,2025-08-04T03:17:24Z,2025-08-04T14:19:17+00:00,3,11.03,True,8,0,1,927,3,0,3,MERGED
+82303,fix: restore inverse prefetch segment data routes for client segment cache,wyattjoh,2025-08-02T18:21:07Z,2025-08-21T14:55:48+00:00,1,452.58,False,30,0,1,1550,2,0,2,CLOSED
+82301,[devtools] Immediately set meta key in shortcut recorder,eps1lon,2025-08-02T14:09:47Z,2025-08-29T08:18:35+00:00,3,642.15,True,9,22,1,143,3,1,4,MERGED
+82299,[devtools] Remove unused code,eps1lon,2025-08-02T12:39:22Z,2025-08-13T16:17:52+00:00,4,267.64,True,53,737,38,473,2,1,3,MERGED
+82297,[devtools] Start animating issue count immediately,eps1lon,2025-08-02T08:59:43Z,2025-08-12T10:00:07+00:00,3,241.01,False,48,18,1,414,4,3,7,CLOSED
+82296,[devtools] Move ShadowRoot into context,eps1lon,2025-08-02T08:21:49Z,2025-08-13T08:56:48+00:00,6,264.58,True,84,112,12,293,4,4,8,MERGED
+82295,[devtools] Remove unnecessary cascading update,eps1lon,2025-08-02T08:21:48Z,2025-08-02T12:10:55+00:00,3,3.82,True,7,6,1,50,4,2,6,MERGED
+82294,Include `eslint-plugin-react-hooks` in React sync,eps1lon,2025-08-02T07:51:24Z,2025-08-02T09:32:35+00:00,1,1.69,True,27,17,13,460,3,0,3,MERGED
+82293,[turbopack] bind const exports as values not getters,lukesandberg,2025-08-02T00:44:54Z,2025-09-26T19:44:07+00:00,5,1338.99,False,18915,14398,204,2540,4,4,8,CLOSED
+82292,Update font data,vercel-release-bot,2025-08-02T00:15:35Z,2025-08-03T22:49:49+00:00,2,46.57,True,737,3,2,62,1,1,2,MERGED
+82288,Turbopack: Remove the `lazy-regex` dependency,bgw,2025-08-01T22:55:50Z,2025-08-02T02:21:13+00:00,3,3.42,True,55,65,7,413,3,1,4,MERGED
+82287,[turbopack] vibecode a benchmark runner for module-cost,lukesandberg,2025-08-01T22:52:26Z,2025-08-04T23:16:57+00:00,4,72.41,True,268,2,5,423,4,4,8,MERGED
+82286,[Cache Components] Reset PrerenderStore after generating RSC payload,gnoff,2025-08-01T21:59:21Z,2025-08-02T03:43:38+00:00,4,5.74,True,235,23,6,1436,2,2,4,MERGED
+82285,[turbopack] Promote `exports` and module to factory parameters for cjs,lukesandberg,2025-08-01T20:45:32Z,2025-08-11T15:36:53+00:00,8,234.86,True,289,312,81,3319,5,4,9,MERGED
+82283,feat: add route context to prerender error messages,wyattjoh,2025-08-01T19:29:18Z,2025-08-01T21:46:01+00:00,1,2.28,True,87,24,12,1273,3,0,3,MERGED
+82278,Turbopack: port remaining NFT step,mischnic,2025-08-01T14:26:20Z,2025-09-01T09:37:39+00:00,16,739.19,True,889,69,22,208,4,16,20,MERGED
+82276,test: reduce artificial timeouts in runtime prefetch tests,lubieowoce,2025-08-01T13:26:21Z,2025-08-01T14:28:17+00:00,1,1.03,True,28,30,24,149,2,0,2,MERGED
+82275,Turbopack: fix glob with empty alternative branch,mischnic,2025-08-01T13:06:53Z,2025-08-01T14:37:27+00:00,1,1.51,True,9,1,2,154,5,0,5,MERGED
+82268,Update Rspack development test manifest,vercel-release-bot,2025-08-01T07:05:15Z,2025-08-01T22:44:27+00:00,1,15.65,True,37,1,1,98,2,0,2,MERGED
+82267,Update Rspack production test manifest,vercel-release-bot,2025-08-01T07:05:04Z,2025-08-01T22:51:29+00:00,1,15.77,True,133,16,1,97,2,0,2,MERGED
+82266,Update linter options,bgub,2025-08-01T07:03:58Z,2025-08-19T16:54:20+00:00,22,441.84,True,1259,36,50,1623,3,18,21,MERGED
+82258,"Turbopack: Rework watcher data structures, store watched list and watcher behind the same RwLock",bgw,2025-08-01T01:55:37Z,2025-08-11T23:32:38+00:00,5,261.62,True,343,149,4,3172,5,3,8,MERGED
+82257,Turbopack: Lazy decompress medium value compressed blocks,sokra,2025-08-01T01:03:12Z,2025-08-23T04:56:32+00:00,9,531.89,True,200,85,8,128,7,9,16,MERGED
+82256,Turbopack: avoid using rayon in favor of tokio tasks,sokra,2025-08-01T01:03:10Z,2025-08-13T12:29:52+00:00,23,299.44,True,1851,838,52,123,4,26,30,MERGED
+82251,[cna] Add `reactCompiler` option,poteto,2025-07-31T21:31:00Z,2025-09-30T08:45:59+00:00,8,1451.25,True,108,6,15,2485,2,3,5,MERGED
+82249,Remove params from segment path,acdlite,2025-07-31T20:25:31Z,2025-08-04T15:51:06+00:00,6,91.43,True,203,182,7,1524,2,3,5,MERGED
+82247,Upgrade React from `9784cb37-20250730` to `c260b38d-20250731`,nextjs-bot,2025-07-31T16:24:27Z,2025-07-31T20:25:28+00:00,1,4.02,True,753,641,62,148,1,0,1,MERGED
+82237,Bump swc to 35,mischnic,2025-07-31T11:26:46Z,2025-08-05T21:55:30+00:00,6,130.48,True,173,173,11,218,5,4,9,MERGED
+82236,[Pages] fix: use `asPath` for query-only navigation with `useRouter`,devjiwonchoi,2025-07-31T11:18:02Z,2025-08-05T18:15:16+00:00,3,126.95,True,269,4,6,1220,3,2,5,MERGED
+82228,Update Rspack production test manifest,vercel-release-bot,2025-07-31T07:04:10Z,2025-08-01T03:59:27+00:00,2,20.92,False,79,798,1,97,1,0,1,CLOSED
+82227,Update Rspack development test manifest,vercel-release-bot,2025-07-31T07:03:59Z,2025-07-31T08:22:42+00:00,1,1.31,True,315,4,1,98,2,0,2,MERGED
+82224,Turbopack: Compact only at the end for short sessions,sokra,2025-07-31T01:34:27Z,2025-08-01T09:49:49+00:00,3,32.26,True,44,13,10,438,4,2,6,MERGED
+82223,Turbopack: ensure max merge segments is respected accros families,sokra,2025-07-31T01:34:25Z,2025-08-01T09:18:12+00:00,4,31.73,True,16,3,2,468,4,2,6,MERGED
+82222,Turbopack: no need to avoid allocations anymore,sokra,2025-07-31T01:34:24Z,2025-08-01T07:42:10+00:00,1,30.13,True,12,62,2,104,5,0,5,MERGED
+82221,Turbopack: use mimalloc v3,sokra,2025-07-31T01:34:19Z,2025-08-01T06:35:53+00:00,5,29.03,True,60,23,3,101,4,2,6,MERGED
+82220,Turbopack: implement shutdown for backing storage correct,sokra,2025-07-31T01:34:18Z,2025-07-31T04:42:42+00:00,1,3.14,True,4,0,1,98,2,0,2,MERGED
+82216,Fix: Don't bail out of prefetch if head is missing,acdlite,2025-07-31T00:29:16Z,2025-07-31T03:29:03+00:00,7,3.0,True,275,13,12,1188,2,3,5,MERGED
+82214,[turbopack] Optimize ESM exports,lukesandberg,2025-07-30T23:09:28Z,2025-08-01T16:04:40+00:00,7,40.92,True,985,836,135,1716,7,3,10,MERGED
+82212,fix: OTel root span should indicate error status on exceptions,devjiwonchoi,2025-07-30T21:11:50Z,2025-08-05T15:28:23+00:00,3,138.28,True,163,1,5,857,4,4,8,MERGED
+82209,Grammar fix on forms.mdx,chadfennell,2025-07-30T18:31:28Z,2025-07-30T20:21:46+00:00,1,1.84,True,1,1,1,33,2,0,2,MERGED
+82207,Upgrade React from `9be531cd-20250729` to `9784cb37-20250730`,nextjs-bot,2025-07-30T16:24:06Z,2025-07-30T17:51:24+00:00,1,1.46,True,407,408,62,337,2,0,2,MERGED
+82203,Docs: Add more info about TW and TW 3 option,icyJoseph,2025-07-30T14:33:07Z,2025-08-06T18:24:26+00:00,16,171.86,True,351,175,8,69,4,9,13,MERGED
+82202,fix(@next/eslint-plugin-next): properly type eslint rules,imranbarbhuiya,2025-07-30T14:24:18Z,2025-09-19T08:42:36+00:00,3,1218.31,False,4,2,1,152,2,1,3,CLOSED
+82201,Upgrade @vercel og,huozhi,2025-07-30T14:23:15Z,2025-07-30T17:04:31+00:00,1,2.69,True,6673,5899,18,342,2,0,2,MERGED
+82199,fix: static not-found missing in prerender manifest,huozhi,2025-07-30T13:57:57Z,2025-08-07T23:10:23+00:00,4,201.21,True,39,9,7,219,2,4,6,MERGED
+82192,Update Rspack development test manifest,vercel-release-bot,2025-07-30T07:05:04Z,2025-07-31T00:49:04+00:00,1,17.73,True,232,297,1,98,3,0,3,MERGED
+82191,Fix: the unexpected clearing of symbolic link directories,startracex,2025-07-30T06:40:51Z,2025-07-30T19:34:43+00:00,2,12.9,True,6,1,2,286,8,0,8,MERGED
+82187,feat(eslint-plugin): expose flatConfigs as property of default export,TrevorBurnham,2025-07-30T03:55:13Z,2025-08-23T21:42:38+00:00,14,593.79,False,75,143,3,1677,6,4,10,CLOSED
+82186,docs: fix typo in docs,Sayakie,2025-07-30T00:41:05Z,2025-07-30T10:03:05+00:00,1,9.37,True,2,2,1,55,4,0,4,MERGED
+82185,Parse dynamic params on the client,acdlite,2025-07-30T00:29:10Z,2025-07-31T22:26:23+00:00,8,45.95,True,437,59,11,1801,1,7,8,MERGED
+82183,docs: mention turbopack config codemod,wbinnssmith,2025-07-29T23:10:47Z,2025-08-20T00:53:21+00:00,1,505.71,True,5,0,2,212,2,0,2,MERGED
+82181,Remove stability disclamer on Node runtime in middleware,kachkaev,2025-07-29T22:20:17Z,2025-08-15T20:30:00+00:00,2,406.16,True,0,2,1,304,3,0,3,MERGED
+82180,docs: App Router's React version,icyJoseph,2025-07-29T21:38:22Z,2025-07-30T11:26:53+00:00,4,13.81,True,12,0,2,86,0,1,1,MERGED
+82179,[backport v14]: fix(next/image): improve and simplify detect-content-type (#82118),ztanner,2025-07-29T21:02:04Z,2025-07-30T22:02:44+00:00,9,25.01,True,258,55,18,18,3,5,8,MERGED
+82178,[backport v14]: fix(next/image): fix image-optimizer.ts headers (#82114),ztanner,2025-07-29T20:59:28Z,2025-07-29T22:09:34+00:00,1,1.17,True,18,1,3,18,2,0,2,MERGED
+82176,Fix RSC hash validation for middleware external rewrites,gaojude,2025-07-29T20:25:05Z,2025-07-30T00:55:39+00:00,2,4.51,True,240,2,9,305,3,1,4,MERGED
+82172,Strip internals from `NextRequest` types,eps1lon,2025-07-29T18:48:44Z,2025-07-30T14:12:39+00:00,2,19.4,True,1,0,1,933,2,1,3,MERGED
+82169,refactor: lowercase app router header values,lubieowoce,2025-07-29T17:59:40Z,2025-07-30T11:42:16+00:00,8,17.71,True,217,226,28,601,2,3,5,MERGED
+82168,Parse dynamic params on the client,acdlite,2025-07-29T17:51:52Z,2025-07-30T00:29:26+00:00,4,6.63,False,413,42,16,712,3,4,7,CLOSED
+82166,Backport: Turbopack: update mimalloc (#81993),bgw,2025-07-29T17:14:50Z,2025-07-29T19:29:59+00:00,1,2.25,True,6,6,2,191,0,0,0,MERGED
+82164,fix: display multiple lockfile warn if neither `outputFileTracingRoot` or `turbopack.root` option is provided,devjiwonchoi,2025-07-29T16:52:09Z,2025-07-30T21:26:00+00:00,6,28.56,True,149,16,7,388,8,3,11,MERGED
+82163,[test] Add option to access `next` instance even after the process throws,devjiwonchoi,2025-07-29T16:52:07Z,2025-07-30T10:45:45+00:00,1,17.89,False,15,0,2,0,1,1,2,CLOSED
+82162,[next-dev] Set `TURBOPACK` env before loading config,devjiwonchoi,2025-07-29T16:52:05Z,2025-07-30T21:03:21+00:00,6,28.19,True,9,9,1,179,2,1,3,MERGED
+82154,docs: cookies.set encode option is not supported,icyJoseph,2025-07-29T14:11:39Z,2025-07-29T20:40:40+00:00,1,6.48,True,13,14,1,59,0,0,0,MERGED
+82148,Use Array.from to avoid @ts-ignore when copying i18n.locales,RobertFent,2025-07-29T11:14:31Z,2025-09-29T22:13:42+00:00,1,1498.99,True,1,2,1,456,2,0,2,MERGED
+82147,[segment explorer] windows compatibility,huozhi,2025-07-29T11:12:07Z,2025-07-29T16:39:55+00:00,1,5.46,True,3,2,2,98,4,0,4,MERGED
+82146,[segment explorer] normalize path when running inside monorepo,huozhi,2025-07-29T11:01:51Z,2025-07-29T16:13:32+00:00,2,5.19,True,16,10,3,738,4,1,5,MERGED
+82142,docs: Clarify revalidatePath ,icyJoseph,2025-07-29T07:42:55Z,2025-08-04T18:02:36+00:00,14,154.33,True,99,13,2,13,1,3,4,MERGED
+82139,Update Rspack production test manifest,vercel-release-bot,2025-07-29T07:03:59Z,2025-07-29T16:49:09+00:00,1,9.75,True,1279,1118,1,97,1,0,1,MERGED
+82137,Extract getDynamicParam to a shared module,acdlite,2025-07-29T05:15:53Z,2025-07-29T13:10:41+00:00,3,7.91,True,158,128,4,821,1,1,2,MERGED
+82136,Fix i18n fallback: false collision,ijjk,2025-07-29T04:14:44Z,2025-07-29T15:54:14+00:00,3,11.66,True,201,5,11,491,1,1,2,MERGED
+82135,`@next/codemod`: update docs url in README,wbinnssmith,2025-07-29T02:11:27Z,2025-07-30T01:29:58+00:00,4,23.31,True,1,1,1,39,0,1,1,MERGED
+82134,`@next/codemod`: Add `experimental.turbo` to `turbopack` codemod for Next.js configs,wbinnssmith,2025-07-29T02:03:18Z,2025-07-30T01:30:20+00:00,5,23.45,True,816,10,29,805,3,4,7,MERGED
+82133,Turbopack: Use a BTreeMap in InvalidatorMap to avoid many `O(n)` traversals when finding child paths,bgw,2025-07-29T00:51:55Z,2025-07-30T18:01:21+00:00,7,41.16,True,101,18,4,428,5,4,9,MERGED
+82132,Turbopack: Use `Path`/`PathBuf` for all of the invalidation logic,bgw,2025-07-29T00:51:53Z,2025-07-30T17:35:45+00:00,2,40.73,True,46,36,4,364,4,1,5,MERGED
+82131,Turbopack: Add a flag to the fs watch fuzzer to print missing but expected invalidations,bgw,2025-07-29T00:51:52Z,2025-07-30T08:24:44+00:00,1,31.55,True,15,0,1,175,4,0,4,MERGED
+82130,Turbopack: Restore watchers for children when using non-recursive FS watcher,bgw,2025-07-29T00:51:50Z,2025-08-11T17:48:24+00:00,9,328.94,True,82,46,1,664,5,4,9,MERGED
+82129,Turbopack: Watch the root and every parent directory in non-recursive mode,bgw,2025-07-29T00:51:37Z,2025-07-30T18:31:19+00:00,9,41.66,True,55,40,1,419,6,7,13,MERGED
+82127,Turbopack: Fix accidental doctest in globset module license,bgw,2025-07-28T23:06:11Z,2025-07-29T17:37:45+00:00,1,18.53,True,10,11,1,216,5,0,5,MERGED
+82126,docs: Add more links to app docs root,icyJoseph,2025-07-28T21:37:42Z,2025-07-30T10:14:55+00:00,1,36.62,True,5,1,1,78,0,0,0,MERGED
+82125,allow root params access in private caches,lubieowoce,2025-07-28T20:17:25Z,2025-07-30T15:36:46+00:00,4,43.32,True,101,23,7,280,3,2,5,MERGED
+82124,Turbopack fix: Panic on unwrap from client reference,ricardonunez-io,2025-07-28T18:22:01Z,2025-09-15T10:09:53+00:00,1,1167.8,False,6,3,1,902,5,0,5,CLOSED
+82123,Update flakey sub-shell-generation test,ijjk,2025-07-28T18:18:53Z,2025-07-28T21:24:59+00:00,1,3.1,False,22,19,1,187,2,1,3,CLOSED
+82120,Upgrade React from `19baee81-20250725` to `eaee5308-20250728`,nextjs-bot,2025-07-28T16:28:07Z,2025-07-28T18:22:47+00:00,1,1.91,True,973,609,66,127,2,0,2,MERGED
+82119,Fix validateRSCRequestHeaders incorrect redirect,gaojude,2025-07-28T16:08:43Z,2025-07-28T19:18:20+00:00,4,3.16,True,16,7,5,277,2,2,4,MERGED
+82118,fix(next/image): improve and simplify detect-content-type,styfle,2025-07-28T15:51:10Z,2025-07-28T20:20:55+00:00,11,4.5,True,233,89,13,482,3,6,9,MERGED
+82112,fix: turbopack loader ipc field mapping,dlehmhus,2025-07-28T10:56:17Z,2025-07-31T12:24:19+00:00,4,73.47,True,90,0,8,2014,6,2,8,MERGED
+82108,Update Rspack production test manifest,vercel-release-bot,2025-07-28T07:04:59Z,2025-07-31T00:26:55+00:00,1,65.37,True,2,0,1,97,2,0,2,MERGED
+82107,Update Rspack development test manifest,vercel-release-bot,2025-07-28T07:04:47Z,2025-07-28T18:33:33+00:00,1,11.48,False,16,6,1,98,1,0,1,CLOSED
+82104,fix(Rspack): use loaderContext.utils.contextify to replace ModuleFilenameHelpers.createFilename,SyMind,2025-07-28T02:43:37Z,2025-07-28T11:23:12+00:00,4,8.66,True,1146,1190,2,296,2,2,4,MERGED
+82092,docs: to indicate that redirect can be used in both server and client…,candymask0712,2025-07-27T07:06:08Z,2025-08-01T10:42:47+00:00,3,123.61,True,1,1,1,323,5,1,6,MERGED
+82088,[turbopack] Improve our `const` compatible hash routine performance,lukesandberg,2025-07-27T05:42:07Z,2025-07-28T22:23:44+00:00,6,40.69,True,37,24,1,606,5,3,8,MERGED
+82084,[turbopack] Documentation fixes for rcstr! and a tiny improvement to `hash`,lukesandberg,2025-07-26T22:51:44Z,2025-07-28T22:19:04+00:00,1,47.46,True,3,3,2,115,3,0,3,MERGED
+82078,[sourcemaps] Fix sourcemapping in Redbox on Windows,eps1lon,2025-07-26T12:37:42Z,2025-08-19T09:18:19+00:00,5,572.68,True,25,14,1,134,3,4,7,MERGED
+82069,[CacheComponents] Use fallback params when validating dynamic routes in dev,gnoff,2025-07-26T00:33:30Z,2025-07-28T23:13:21+00:00,5,70.66,True,764,15,25,521,3,3,6,MERGED
+82066,"Revert ""Upgrade vercel og and remove yoga type patching (#81937)""",ijjk,2025-07-25T22:36:36Z,2025-07-25T23:41:42+00:00,1,1.08,True,5391,6165,18,2153,1,0,1,MERGED
+82063,Upgrade React from `3d14fcf0-20250724` to `19baee81-20250725`,nextjs-bot,2025-07-25T20:52:02Z,2025-07-25T22:22:03+00:00,1,1.5,True,4318,1932,101,610,2,0,2,MERGED
+82059,[Segment Cache] set fetchStrategy on segments from a dynamic request,lubieowoce,2025-07-25T18:09:54Z,2025-07-25T23:06:07+00:00,6,4.94,True,23,4,1,729,3,1,4,MERGED
+82051,docs: update cacheTag.mdx,m1abdullahh,2025-07-25T13:56:47Z,2025-07-30T07:42:13+00:00,2,113.76,True,2,2,1,120,1,1,2,MERGED
+82048,Turbopack: Streaming write of SST files,sokra,2025-07-25T11:13:41Z,2025-08-02T05:43:20+00:00,7,186.49,True,529,451,8,140,5,11,16,MERGED
+82047,Turbopack: move block offsets from header to footer,sokra,2025-07-25T11:13:39Z,2025-08-02T05:15:59+00:00,5,186.04,True,21,17,3,110,5,2,7,MERGED
+82044,wip: next config,huozhi,2025-07-25T10:11:05Z,2025-08-18T11:04:41+00:00,3,576.89,False,120,63,5,0,3,3,6,CLOSED
+82039,Update Rspack production test manifest,vercel-release-bot,2025-07-25T07:04:00Z,2025-07-25T18:07:58+00:00,1,11.07,True,3,0,1,97,2,0,2,MERGED
+82038,Update Rspack development test manifest,vercel-release-bot,2025-07-25T07:03:51Z,2025-07-25T08:59:10+00:00,1,1.92,True,13,13,1,98,1,0,1,MERGED
+82033,Optimize segment data routes,ijjk,2025-07-24T22:23:13Z,2025-07-25T23:46:53+00:00,8,25.39,True,45,59,5,333,1,4,5,MERGED
+82032,use FetchStrategy to control prefetching behavior everywhere,lubieowoce,2025-07-24T22:12:31Z,2025-07-25T22:23:35+00:00,17,24.18,True,134,51,8,219,4,10,14,MERGED
+82031,"Turbopack: Make the ""non-recursive"" logic for the fs watcher a runtime flag instead of a build-time one",bgw,2025-07-24T21:50:06Z,2025-07-30T07:48:00+00:00,9,129.97,True,143,81,2,1206,5,4,9,MERGED
+82030,Serve static metadata files as static files not as route files,devjiwonchoi,2025-07-24T21:07:00Z,2025-09-09T10:49:27+00:00,55,1117.71,False,1745,99,89,1539,6,51,57,CLOSED
+82028,feat(experimental): add disableJavaScriptForBots option,LeoAnt02,2025-07-24T19:12:15Z,2025-07-28T15:06:00+00:00,1,91.9,False,579,2,18,4707,6,1,7,CLOSED
+82020,Upgrade React from `edac0dde-20250723` to `3d14fcf0-20250724`,nextjs-bot,2025-07-24T16:28:09Z,2025-07-25T14:53:41+00:00,2,22.43,True,511,511,91,85,2,1,3,MERGED
+82013,"[devtools] Fix ""open in editor"" for locations in stackframes",eps1lon,2025-07-24T08:37:37Z,2025-07-24T12:41:04+00:00,1,4.06,True,39,19,3,227,2,0,2,MERGED
+82012,[devtools] Cleanup folder structure,eps1lon,2025-07-24T07:48:49Z,2025-07-24T10:18:20+00:00,3,2.49,True,4,4,9,188,5,1,6,MERGED
+82010,[devtools] Fix various `exhaustive-deps` violations,eps1lon,2025-07-24T07:37:36Z,2025-07-25T12:33:39+00:00,4,28.93,True,9,16,5,74,3,3,6,MERGED
+82009,[test] Allow running `lint-eslint` on a specific directory,eps1lon,2025-07-24T07:37:33Z,2025-07-25T12:13:40+00:00,4,28.6,True,4,4,1,236,3,2,5,MERGED
+82008,Update Rspack development test manifest,vercel-release-bot,2025-07-24T07:03:45Z,2025-07-24T09:45:39+00:00,1,2.7,True,37,27,1,98,1,0,1,MERGED
+82007,Update Rspack production test manifest,vercel-release-bot,2025-07-24T07:03:44Z,2025-07-24T09:40:34+00:00,1,2.61,True,7,0,1,97,1,0,1,MERGED
+82004,[devtools] Apply React Compiler to Next.js DevTools source,eps1lon,2025-07-24T06:16:06Z,2025-07-25T14:50:54+00:00,8,32.58,True,89,5,10,260,3,3,6,MERGED
+82003,Track fallback params on workUnitStore,gnoff,2025-07-24T06:08:57Z,2025-07-25T18:54:44+00:00,2,36.76,True,200,166,15,393,2,1,3,MERGED
+82002,[reactcompiler] Test with latest RC,eps1lon,2025-07-24T05:51:22Z,2025-07-25T11:51:17+00:00,1,30.0,True,10,10,4,57,4,0,4,MERGED
+81999,fix: Include CSP nonce in next/dynamic preload,TrevorBurnham,2025-07-24T03:56:16Z,2025-09-04T16:18:44+00:00,4,1020.37,True,146,1,10,861,4,1,5,MERGED
+81997,Turbopack: Move fs watcher anyhow::Context import inline to fix compilation warnings,bgw,2025-07-24T00:41:42Z,2025-07-24T03:26:59+00:00,1,2.75,True,3,1,1,110,3,0,3,MERGED
+81995,Turbopack: Make turbo-tasks-fetch a bit more OOP-like,bgw,2025-07-24T00:13:34Z,2025-07-24T22:15:23+00:00,1,22.03,True,376,364,10,358,3,0,3,MERGED
+81994,[turbopack] mark `rcstr!` allocated Rcstr values as 'static' and stop refcounting them,lukesandberg,2025-07-23T23:45:27Z,2025-07-25T19:02:07+00:00,16,43.28,True,195,59,3,1315,6,12,18,MERGED
+81993,Turbopack: update mimalloc,sokra,2025-07-23T23:07:05Z,2025-07-24T00:23:21+00:00,1,1.27,True,6,6,2,84,4,0,4,MERGED
+81992,Add with-next-openapi-gen example,tazo90,2025-07-23T22:15:21Z,2025-08-07T23:41:06+00:00,11,361.43,False,1109,0,14,139,3,12,15,CLOSED
+81991,Fix: Unresolved param in x-nextjs-rewritten-query,acdlite,2025-07-23T22:09:35Z,2025-07-24T00:45:01+00:00,3,2.59,True,56,17,4,275,1,1,2,MERGED
+81990,Fix dynamicParams false layout case in dev,ijjk,2025-07-23T20:20:59Z,2025-07-23T21:36:43+00:00,2,1.26,True,148,17,8,195,1,0,1,MERGED
+81986,[Segment Cache] Fix: Key by rewritten search,acdlite,2025-07-23T17:51:37Z,2025-07-24T18:29:16+00:00,14,24.63,True,371,44,8,638,2,10,12,MERGED
+81985,[docs] fix rewrites example wording,allenzhou101,2025-07-23T17:28:04Z,2025-07-23T20:51:11+00:00,2,3.39,True,1,1,1,78,1,1,2,MERGED
+81984,Upgrade React from `7513996f-20250722` to `edac0dde-20250723`,nextjs-bot,2025-07-23T16:28:04Z,2025-07-24T06:15:05+00:00,1,13.78,True,606,605,87,127,3,0,3,MERGED
+81979,[turbopack] Fix the build under `--features=tokio_tracing`,lukesandberg,2025-07-23T15:54:54Z,2025-08-11T16:09:12+00:00,1,456.24,True,1,1,1,231,5,0,5,MERGED
+81961,Update Rspack production test manifest,vercel-release-bot,2025-07-23T07:03:42Z,2025-07-23T14:48:01+00:00,2,7.74,True,1104,1160,1,97,2,1,3,MERGED
+81960,Update Rspack development test manifest,vercel-release-bot,2025-07-23T07:03:39Z,2025-07-23T14:50:29+00:00,1,7.78,True,1157,1123,2,98,2,0,2,MERGED
+81949,CI: add workflow_branch data to deploy test failure message,ztanner,2025-07-22T21:14:06Z,2025-07-23T14:01:40+00:00,2,16.79,True,2,1,1,118,2,1,3,MERGED
+81948,fix(Turbopack): Fix duplicated layout rendering in edge cases,Cy-Tek,2025-07-22T20:34:43Z,2025-07-31T17:04:35+00:00,8,212.5,True,174,9,15,586,4,5,9,MERGED
+81945,Revamp Next.js boilerplate,chloe-yan,2025-07-22T18:36:23Z,2025-10-01T14:34:15+00:00,15,1699.96,True,659,1136,16,350,4,21,25,MERGED
+81944,Remove extra base-server code,ijjk,2025-07-22T18:15:33Z,2025-07-23T15:18:22+00:00,17,21.05,True,1003,2194,19,330,1,23,24,MERGED
+81943,[turbopack] Avoid calling `find_server_entries` in the whole_app_module_graph case,lukesandberg,2025-07-22T17:55:48Z,2025-08-01T18:40:59+00:00,5,240.75,True,69,48,2,974,5,1,6,MERGED
+81942,[turbopack] Rename ClientReferenceSet,lukesandberg,2025-07-22T17:34:16Z,2025-07-23T15:31:00+00:00,2,21.95,True,32,30,2,398,5,1,6,MERGED
+81940,Upgrade React from `e9638c33-20250721` to `7513996f-20250722`,nextjs-bot,2025-07-22T16:28:16Z,2025-07-23T11:59:20+00:00,1,19.52,True,689,491,82,190,2,0,2,MERGED
+81937,Upgrade vercel og and remove yoga type patching,huozhi,2025-07-22T14:37:31Z,2025-07-25T08:42:36+00:00,1,66.08,True,6673,5899,18,335,5,0,5,MERGED
+81934,"Revert ""[metadata] use https protocol for schema urls""",huozhi,2025-07-22T13:48:04Z,2025-07-22T20:56:25+00:00,1,7.14,True,76,76,6,352,9,0,9,MERGED
+81932,Routing: Clean up some code,timneutkens,2025-07-22T13:43:02Z,2025-07-22T16:18:03+00:00,1,2.58,True,19,17,4,91,2,0,2,MERGED
+81930,[test] Add dedicated test for error when client functions are called from server components,eps1lon,2025-07-22T12:14:20Z,2025-07-22T16:07:41+00:00,1,3.89,True,61,1,3,95,4,0,4,MERGED
+81927,[testing] wip,huozhi,2025-07-22T12:03:28Z,2025-07-23T21:54:02+00:00,3,33.84,False,5,2,1,0,3,1,4,CLOSED
+81925,Backport: Turbopack: fix dist dir on Windows (#81758) ,mischnic,2025-07-22T11:55:12Z,2025-07-22T17:33:08+00:00,2,5.63,True,134,91,13,35,3,1,4,MERGED
+81918,[sourcemaps] Ensure codeframe when calling Client Functions from Server,eps1lon,2025-07-22T09:30:22Z,2025-07-22T16:29:39+00:00,8,6.99,True,82,46,6,313,5,3,8,MERGED
+81914,Update Rspack production test manifest,vercel-release-bot,2025-07-22T07:03:33Z,2025-07-22T22:43:08+00:00,1,15.66,True,26,5,1,97,2,0,2,MERGED
+81913,Update Rspack development test manifest,vercel-release-bot,2025-07-22T07:03:30Z,2025-07-22T22:42:26+00:00,1,15.65,True,41,57,1,98,2,0,2,MERGED
+81911,fix: support calling onClose multiple times in edge-ssr-app,lubieowoce,2025-07-22T03:57:07Z,2025-07-22T11:10:58+00:00,1,7.23,True,7,5,1,755,1,0,1,MERGED
+81909,"Turbopack: Update notify-rs crate, remove workaround for fixed bug",bgw,2025-07-21T23:32:57Z,2025-07-22T19:59:15+00:00,2,20.44,True,82,27,3,282,3,1,4,MERGED
+81906,Turbopack: Update bundled webpki-roots,bgw,2025-07-21T20:55:06Z,2025-07-24T01:40:55+00:00,1,52.76,True,2,2,1,426,4,0,4,MERGED
+81905,"Turbopack: Remove unused proxy option in turbo-tasks-fetch, lightly document HTTP_PROXY/HTTPS_PROXY environment variables",bgw,2025-07-21T20:40:54Z,2025-07-24T01:38:56+00:00,1,52.97,True,5,13,3,777,4,0,4,MERGED
+81904,[sourcemaps] Fully sourcemap stacks on the Server,eps1lon,2025-07-21T20:32:47Z,2025-07-28T09:25:23+00:00,3,156.88,True,96,43,8,1306,4,2,6,MERGED
+81903,fix: logging the correct process for listened port,huozhi,2025-07-21T19:44:22Z,2025-07-22T11:32:51+00:00,2,15.81,True,14,6,1,463,1,1,2,MERGED
+81899,Upgrade React from `dffacc7b-20250717` to `e9638c33-20250721`,nextjs-bot,2025-07-21T16:28:09Z,2025-07-21T17:37:02+00:00,1,1.15,True,4881,2967,100,106,2,0,2,MERGED
+81896,[router-act] Fixes related to segment inlining,acdlite,2025-07-21T15:36:55Z,2025-07-22T15:13:48+00:00,1,23.61,True,54,33,1,193,0,0,0,MERGED
+81894,Build: Include rewrites in manifest generation,timneutkens,2025-07-21T14:51:51Z,2025-07-22T13:47:44+00:00,2,22.93,True,9,13,1,226,3,0,3,MERGED
+81889,Handle badged console calls when dimming console output,eps1lon,2025-07-21T13:10:04Z,2025-08-13T15:07:08+00:00,1,553.95,True,181,113,3,406,3,3,6,MERGED
+81886,Server: Remove unused code,timneutkens,2025-07-21T11:23:55Z,2025-07-21T14:12:52+00:00,1,2.82,True,0,11,4,48,2,0,2,MERGED
+81882,Remove `experimental.strictNextHead`,eps1lon,2025-07-21T09:15:07Z,2025-07-21T18:12:44+00:00,2,8.96,True,409,636,14,156,2,0,2,MERGED
+81880,docs: change Dashboard component to async for session verification,wesjune,2025-07-21T07:53:35Z,2025-07-29T21:45:37+00:00,2,205.87,True,3,3,1,238,0,1,1,MERGED
+81878,Update Rspack development test manifest,vercel-release-bot,2025-07-21T07:04:47Z,2025-07-21T21:09:00+00:00,1,14.07,True,605,527,1,98,2,0,2,MERGED
+81879,Update Rspack production test manifest,vercel-release-bot,2025-07-21T07:04:47Z,2025-07-21T21:14:24+00:00,1,14.16,True,540,527,1,97,2,0,2,MERGED
+81877,[turbopack] Use Arrays instead of objects to bootstrap chunks,lukesandberg,2025-07-21T05:55:25Z,2025-08-02T18:47:24+00:00,12,300.87,True,1200,1417,311,2861,15,10,25,MERGED
+81875,Remove some random commas,MidnightDesign,2025-07-21T05:07:30Z,2025-07-21T19:53:02+00:00,1,14.76,True,2,2,1,0,2,0,2,MERGED
+81869,[sourcemaps] Try VM for retrieving source maps first,eps1lon,2025-07-20T15:09:04Z,2025-07-21T13:26:41+00:00,2,22.29,True,16,22,1,269,2,0,2,MERGED
+81867,[sourcemaps] Use original source URL for sourcemapping,eps1lon,2025-07-20T13:38:49Z,2025-07-20T15:06:30+00:00,1,1.46,False,2,21,3,0,3,1,4,CLOSED
+81861,refactor: encapsulate content type within RenderResult,wyattjoh,2025-07-20T02:02:41Z,2025-07-21T15:06:51+00:00,5,37.07,True,186,121,20,1539,3,6,9,MERGED
+81857,fix: remove boundary sentinel from RSC responses,wyattjoh,2025-07-19T20:20:32Z,2025-07-19T21:23:22+00:00,1,1.05,True,12,3,1,693,1,0,1,MERGED
+81853,Update generate-metadata.mdx,yousefdawood7,2025-07-19T16:55:05Z,2025-09-17T08:33:37+00:00,5,1431.64,True,1,0,1,0,4,3,7,MERGED
+81851,chore(deps): update `browserslist`,stephenliang,2025-07-19T14:54:29Z,2025-07-21T20:59:39+00:00,1,54.09,True,41,41,3,609,3,0,3,MERGED
+81818,"Turbopack: Add an option to use system TLS certificates (fixes #79060, fixes #79059)",bgw,2025-07-18T23:38:18Z,2025-07-24T01:02:54+00:00,8,121.41,True,180,28,10,1899,4,4,8,MERGED
+81817,[turbopack] tweak the ui of the module-cost benchmark,lukesandberg,2025-07-18T21:43:53Z,2025-07-29T17:46:55+00:00,3,260.05,True,57,17,3,135,5,4,9,MERGED
+81816,Introduce `'use cache: private'`,unstubbable,2025-07-18T21:24:22Z,2025-07-21T19:07:01+00:00,4,69.71,True,1714,373,51,839,4,2,6,MERGED
+81814,[devtool] fix scrollbar styling,huozhi,2025-07-18T20:13:55Z,2025-07-18T21:35:12+00:00,1,1.35,True,128,78,7,304,4,0,4,MERGED
+81813,[segment explorer] hide for pages router,huozhi,2025-07-18T19:48:19Z,2025-07-18T21:07:49+00:00,1,1.32,True,30,41,5,68,4,0,4,MERGED
+81812,fix(ppr): ensure fallback route params trigger dynamic resume,wyattjoh,2025-07-18T19:34:58Z,2025-07-18T23:02:42+00:00,1,3.46,True,165,170,16,1095,3,0,3,MERGED
+81807,[devtools] save user config inside `.next/cache`,devjiwonchoi,2025-07-18T15:11:46Z,2025-07-21T13:47:53+00:00,8,70.6,True,416,266,24,716,4,7,11,MERGED
+81806,Turbopack: RawEcmascriptModule,mischnic,2025-07-18T15:11:21Z,2025-09-23T18:12:51+00:00,15,1611.03,True,389,2,8,527,5,15,20,MERGED
+81805,React memoization,spatulatom,2025-07-18T14:09:33Z,2025-07-30T18:55:56+00:00,6,292.77,False,28,27,3,13,3,5,8,CLOSED
+81803,Docs: Document `global-not-found`,delbaoliveira,2025-07-18T12:32:22Z,2025-07-22T10:19:49+00:00,15,93.79,True,70,2,1,74,0,11,11,MERGED
+81801,Refactor: Use enums for work unit types and phases,unstubbable,2025-07-18T10:19:46Z,2025-07-18T11:41:00+00:00,1,1.35,False,625,539,32,216,3,1,4,CLOSED
+81791,Refactor: Get rid of overly generic `getExpectedRequestStore` function,unstubbable,2025-07-18T08:26:14Z,2025-07-18T11:24:28+00:00,2,2.97,True,89,116,6,224,2,1,3,MERGED
+81783,[devtool] migrate css reset to global.css,huozhi,2025-07-18T00:06:05Z,2025-07-18T13:00:36+00:00,1,12.91,True,372,385,11,90,4,0,4,MERGED
+81781,fix(build): add sourcePage context for PPR dynamic route lambda creation,wyattjoh,2025-07-17T23:52:49Z,2025-07-18T00:56:31+00:00,1,1.06,True,44,5,1,990,1,0,1,MERGED
+81771,bugfix: static resources staleTime should be renewed once refetched,ztanner,2025-07-17T17:58:31Z,2025-07-17T20:31:56+00:00,1,2.56,True,74,18,2,653,3,0,3,MERGED
+81770,Initial MCP implementation,sokra,2025-07-17T17:46:01Z,2025-07-23T23:46:39+00:00,10,150.01,True,1820,70,23,274,7,10,17,MERGED
+81769,Turbopack: consistently name runtime chunk,mischnic,2025-07-17T16:53:25Z,2025-07-17T18:39:12+00:00,3,1.76,True,145,104,102,113,4,1,5,MERGED
+81767,Upgrade React from `d85ec5f5-20250716` to `dffacc7b-20250717`,nextjs-bot,2025-07-17T16:28:11Z,2025-07-18T08:42:52+00:00,1,16.24,True,684,548,67,148,2,0,2,MERGED
+81761,Remove unnecessary await,mischnic,2025-07-17T13:20:53Z,2025-07-17T15:39:16+00:00,1,2.31,True,3,3,3,257,3,0,3,MERGED
+81758,Turbopack: fix dist dir on Windows,mischnic,2025-07-17T12:24:12Z,2025-07-19T05:56:42+00:00,12,41.54,True,136,92,13,53,8,7,15,MERGED
+81757,[chore] bump zod to latest v3,huozhi,2025-07-17T11:02:39Z,2025-07-17T15:40:37+00:00,1,4.63,True,14,14,8,180,3,0,3,MERGED
+81756,[dev-tools] Robust shortcut detection,raunofreiberg,2025-07-17T10:53:32Z,2025-07-18T13:12:12+00:00,2,26.31,True,84,13,3,481,1,1,2,MERGED
+81755,[turbopack] Reuse shared Promise for loaded chunks,eps1lon,2025-07-17T10:11:45Z,2025-07-18T09:02:01+00:00,3,22.84,True,35,23,9,530,4,1,5,MERGED
+81754,Properly handle hanging promise rejections during prerendering,unstubbable,2025-07-17T09:44:27Z,2025-07-18T07:33:23+00:00,3,21.82,True,272,103,6,1984,2,1,3,MERGED
+81750,Upgrade to swc v33,mischnic,2025-07-17T07:48:50Z,2025-07-23T15:08:04+00:00,1,151.32,True,456,442,18,565,5,0,5,MERGED
+81747,Update Rspack development test manifest,vercel-release-bot,2025-07-17T07:03:32Z,2025-07-17T23:36:46+00:00,1,16.55,True,43,9,1,98,2,0,2,MERGED
+81746,Update Rspack production test manifest,vercel-release-bot,2025-07-17T07:03:26Z,2025-07-17T23:27:02+00:00,1,16.39,True,25,8,1,97,2,0,2,MERGED
+81742,Turbopack: Add cache for reqwest clients,bgw,2025-07-17T01:04:12Z,2025-07-21T20:47:59+00:00,10,115.73,True,209,59,8,473,5,3,8,MERGED
+81741,Turbopack: Split DynamicEqHash trait into smaller traits in a separate re-usable crate,bgw,2025-07-17T01:04:11Z,2025-07-18T00:18:11+00:00,2,23.23,True,143,107,11,867,4,1,5,MERGED
+81740,fix: revert client segment route changes for sub shell generation,wyattjoh,2025-07-17T00:55:51Z,2025-07-17T19:23:46+00:00,2,18.47,True,1337,39,6,1429,3,1,4,MERGED

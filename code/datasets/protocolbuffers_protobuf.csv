@@ -6,7 +6,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 23459,[Cherrypick] Restore Protobuf Java extension modifiers in gencode ,shaod2,2025-09-10T19:55:09Z,2025-09-10T22:10:17+00:00,1,2.25,True,31,0,1,68,0,0,0,MERGED
 23429,Cherrypick editions fixes for 32.1,mkruskal-google,2025-09-09T19:20:24Z,2025-09-10T22:14:27+00:00,5,26.9,True,410,131,11,0,0,3,3,MERGED
 23396,Allow configuring protoc path,copybara-service,2025-09-05T17:23:01Z,2025-09-10T05:24:46+00:00,3,108.03,True,43,2,1,171,0,1,1,MERGED
-23390,fix(strtod): use size_t instead of int for strlen() result #1,lyriccoder,2025-09-05T07:01:55Z,2025-10-03T20:01:07+00:00,2,684.99,False,1,1,1,879,6,1,7,CLOSED
+23390,fix(strtod): use size_t instead of int for strlen() result #1,lyriccoder,2025-09-05T07:01:55Z,2025-10-03T20:01:07+00:00,2,684.99,False,1,1,1,879,7,1,8,CLOSED
 23373,"fix(php): remove ""provide"" from composer.json",bshaffer,2025-09-04T17:41:24Z,2025-09-09T22:43:50+00:00,1,125.04,True,5,7,3,198,2,0,2,MERGED
 23372,fix(php): phpstan errors on repeated field,bshaffer,2025-09-04T17:04:00Z,2025-09-24T21:40:27+00:00,2,484.61,False,1,1,1,130,0,0,0,CLOSED
 23369,Migrate `proto_descriptor_set`,SpencerC,2025-09-04T16:01:43Z,2025-10-02T17:01:08+00:00,7,672.99,False,304,0,6,372,1,3,4,CLOSED
@@ -149,3 +149,853 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 20287,Ruby: Allow to get a file descriptor by a file name,y-yagi,2025-02-10T07:41:15Z,2025-02-20T23:30:50+00:00,1,255.83,False,53,6,10,484,2,0,2,CLOSED
 20260,Internal changes,copybara-service,2025-02-06T04:44:24Z,2025-02-06T21:28:38+00:00,1,16.74,True,41,34,8,16,0,0,0,MERGED
 20251,Replace `std::any` with a custom solution.,zhangskz,2025-02-05T19:14:18Z,2025-02-05T20:26:43+00:00,1,1.21,True,35,12,2,229,0,0,0,MERGED
+20245,Pacify address sanitizer on windows,isanych,2025-02-05T15:35:24Z,2025-03-04T22:36:26+00:00,6,655.02,False,0,3,1,12,3,1,4,CLOSED
+20237,Updating version.json and repo version numbers to: 31.0-dev,deannagarcia,2025-02-04T22:47:01Z,2025-02-06T17:41:44+00:00,1,42.91,False,82,82,48,89,0,0,0,CLOSED
+20198,move attribute after enum class to fix clang warning,clementperon,2025-02-02T17:33:57Z,2025-02-07T15:58:57+00:00,1,118.42,False,1,1,1,474,0,0,0,CLOSED
+20195,Fix the C++ compiler version check,y-yagi,2025-02-01T09:19:42Z,2025-02-03T21:08:29+00:00,1,59.81,False,10,10,5,48,1,0,1,CLOSED
+20111,Make ParseDict nondestructive for Any,atulmerchia,2025-01-26T09:41:43Z,2025-01-31T19:55:24+00:00,1,130.23,False,25,2,2,234,1,0,1,CLOSED
+20102,Merge release commits to 25.x,acozzette,2025-01-24T20:17:17Z,2025-01-24T21:30:09+00:00,2,1.21,True,66,66,36,131,0,0,0,MERGED
+20084,Add poison pill to makeExtensionsImmutable method,googleberg,2025-01-22T23:30:16Z,2025-01-23T16:21:16+00:00,1,16.85,True,145,1,5,0,0,0,0,MERGED
+20052,Fix missing port_undef,wilstoff,2025-01-20T16:00:41Z,2025-01-31T20:34:11+00:00,10,268.56,False,6,0,3,500,4,2,6,CLOSED
+20033,Security fix to stop initializing a class before checking that it is assignable to MessageLite,yn33,2025-01-17T22:30:44Z,2025-01-31T21:46:09+00:00,2,335.26,False,7,1,1,373,3,1,4,CLOSED
+20030,Annotate RepeatedFieldBuilderV3 with @Deprecated.,benjaminp,2025-01-17T20:48:25Z,2025-01-30T03:49:34+00:00,2,295.02,False,1,0,1,218,0,0,0,CLOSED
+20025,Fix linker errors on Windows with clang,avdv,2025-01-17T12:29:27Z,2025-02-04T21:40:57+00:00,3,441.19,False,6,1,2,117,0,1,1,CLOSED
+19993,Fix small typo,ahamez,2025-01-14T13:48:42Z,2025-01-30T04:00:20+00:00,2,374.19,False,1,1,1,0,0,0,0,CLOSED
+19981,Ruby | Ensure DescriptorPool reference targets the global ::Google object,davebenvenuti,2025-01-13T21:28:20Z,2025-03-13T10:54:41+00:00,1,1405.44,False,6,6,6,3200,8,0,8,CLOSED
+19971,Add `to_proto` to descriptor classes,y-yagi,2025-01-12T06:20:13Z,2025-02-04T18:54:56+00:00,11,564.58,False,1189,12,23,217,4,4,8,CLOSED
+19967,Add instructions on using the BCR to the README.md,binitshah,2025-01-10T22:10:31Z,2025-09-09T10:09:24+00:00,7,5795.98,False,47,0,1,175,3,3,6,CLOSED
+19890,Filter out empty buffers when creating a CodedInputStream,stefanobaghino,2025-01-07T12:55:51Z,2025-02-20T23:17:40+00:00,6,1066.36,False,50,5,2,13,10,3,13,CLOSED
+19870,Add some missing tests to the test setting of Bazel for Ruby,y-yagi,2025-01-05T07:34:15Z,2025-01-31T03:41:39+00:00,3,620.12,False,23,0,3,864,5,1,6,CLOSED
+19863,ruby: make it possible to specify compiler for C extension,stanhu,2025-01-03T20:32:05Z,2025-01-09T16:12:51+00:00,1,139.68,False,12,0,1,409,0,0,0,CLOSED
+19808,Switch `rules_ruby` to the supported version from `bazel-contrib`,JasonLunn,2024-12-27T20:31:40Z,2025-03-06T21:42:18+00:00,11,1657.18,False,221,157,17,0,0,3,3,CLOSED
+19804,Add a multi-platform Gemfile.lock,JasonLunn,2024-12-27T18:34:48Z,2025-01-11T03:39:47+00:00,1,345.08,False,47,1,2,138,0,0,0,CLOSED
+19781,Bump jinja2 from 3.0.0 to 3.1.5 in /python/docs,dependabot,2024-12-23T20:29:40Z,2025-01-30T19:32:23+00:00,1,911.05,False,1,1,1,7653,2,0,2,CLOSED
+19780,Update a reference to upb to point to the new location,y-yagi,2024-12-23T10:05:18Z,2024-12-28T01:11:58+00:00,2,111.11,False,2,2,1,78,0,0,0,CLOSED
+19773,Fix cmake installation location of java and go features,mkruskal-google,2024-12-20T22:36:37Z,2024-12-23T19:23:25+00:00,2,68.78,True,50,8,5,12,1,0,1,MERGED
+19752,Support ruby 3.4,JasonLunn,2024-12-19T23:32:02Z,2025-01-13T19:10:58+00:00,10,595.65,False,37,30,5,16,11,5,16,CLOSED
+19736,T,Truthofmankind1313,2024-12-19T04:27:20Z,2024-12-19T18:21:34+00:00,1,13.9,False,171729,80795,1731,0,1,0,1,CLOSED
+19731,Fix ruby `has_...?` method,ntkme,2024-12-18T19:36:51Z,2025-01-07T03:49:38+00:00,2,464.21,False,15,3,3,12,2,1,3,CLOSED
+19703,Update artifact actions to v4,deannagarcia,2024-12-17T22:01:58Z,2024-12-18T17:17:28+00:00,2,19.26,True,8,8,3,170,0,0,0,MERGED
+19701,Update artifact actions to v4 ,deannagarcia,2024-12-17T21:53:09Z,2024-12-18T15:17:52+00:00,1,17.41,True,8,8,3,170,0,0,0,MERGED
+19692,Automated rollback of commit 23aada230b2478c7a07fe7612489eb8e79b9c379.,zhangskz,2024-12-16T22:12:59Z,2024-12-17T03:32:09+00:00,1,5.32,True,67,143,17,60,0,0,0,MERGED
+19682,Remove unused / invalid C++ lazy repeated field code from OSS.,zhangskz,2024-12-16T17:20:28Z,2024-12-16T18:33:11+00:00,1,1.21,True,0,1868,4,41,0,0,0,MERGED
+19670,Ignore files that are generated files by the protocol buffer compiler,y-yagi,2024-12-15T07:10:49Z,2024-12-16T23:08:55+00:00,2,39.97,False,5,0,1,1542,0,1,1,CLOSED
+19667,Improve performace of repeated packed fixedSize fields,YarinOmesi,2024-12-14T19:48:02Z,2025-02-21T06:14:57+00:00,1,1642.45,False,76,11,2,757,4,0,4,CLOSED
+19663,Update artifact actions to v4,deannagarcia,2024-12-13T22:07:38Z,2024-12-19T22:17:48+00:00,1,144.17,False,8,8,3,170,2,0,2,CLOSED
+19649,Remove redundant version check,y-yagi,2024-12-13T07:24:44Z,2025-02-05T17:23:32+00:00,4,1305.98,False,0,6,1,194,0,0,0,CLOSED
+19630,Remove CMake downgrade workaround from Windows CI tests,acozzette,2024-12-12T18:43:54Z,2024-12-12T20:09:37+00:00,1,1.43,True,2,6,2,107,0,0,0,MERGED
+19623,Replace old branch of parameterized.py with an absl-py dev dependency,mkruskal-google,2024-12-12T05:34:28Z,2024-12-23T22:06:24+00:00,1,280.53,False,54,451,15,0,0,0,0,CLOSED
+19537,Explicitly convert an enum to an int,heirecka,2024-12-05T20:52:31Z,2025-02-08T22:18:02+00:00,1,1561.43,False,1,1,1,361,2,0,2,CLOSED
+19528,feat(python_pyi): add generated pyi to py_proto_library,josephrubin,2024-12-05T04:13:56Z,2025-05-19T20:55:31+00:00,3,3976.69,False,12,6,2,779,4,1,5,CLOSED
+19486,Add linker flags enabling undefined dynamic_lookup for macOS for Pyth…,zhangskz,2024-12-03T00:13:21Z,2024-12-23T22:26:52+00:00,1,502.23,False,26,8,3,618,0,0,0,CLOSED
+19477,Rename maven to protobuf_maven in MODULE.bazel (#18641),zhangskz,2024-12-02T18:31:44Z,2024-12-02T20:17:12+00:00,1,1.76,True,68,66,9,1123,0,0,0,MERGED
+19445,patched GetCurrentTime to use correct timezone-aware datetime,b-d-e,2024-11-28T14:55:13Z,2025-05-12T06:30:47+00:00,1,3951.59,False,1,1,1,874,9,0,9,CLOSED
+19444,PkgConfig: account for possible debug postfix in library name,andresailer,2024-11-28T12:45:40Z,2024-12-04T03:13:23+00:00,1,134.46,False,5,1,2,80,0,0,0,CLOSED
+19409,Avoid unnecessary use of run_shell,freeform-andre,2024-11-26T16:12:24Z,2024-11-26T20:57:34+00:00,1,4.75,False,117,39,2,162,1,0,1,CLOSED
+19389,Backport windows fixes with INFINITY/NAN,mkruskal-google,2024-11-25T19:19:04Z,2024-11-25T21:37:52+00:00,1,2.31,True,115,36,12,0,0,0,0,MERGED
+19376,[7392] fix conformance test in PHP JSON parser,antongrbin,2024-11-23T15:51:46Z,2024-11-25T16:28:48+00:00,1,48.62,False,84,4,3,416,0,0,0,CLOSED
+19374,updated docs/third_party.md,tonda-kriz,2024-11-23T11:00:31Z,2024-11-26T08:02:35+00:00,1,69.03,False,1,0,1,107,1,0,1,CLOSED
+19363,PROTOC_EXPORT in java/names.h to expose symbols,cho-m,2024-11-22T14:54:08Z,2024-11-26T18:16:52+00:00,2,99.38,False,15,15,1,310,0,0,0,CLOSED
+19307,Fix typo in BCR maintainer name config for acozzette@,zhangskz,2024-11-18T23:05:32Z,2024-11-19T00:36:14+00:00,1,1.51,True,3,3,1,227,0,0,0,MERGED
+19293,fix(example): go version is too low,Kaikaikaifang,2024-11-18T11:45:01Z,2024-11-21T03:29:08+00:00,3,63.74,False,1,1,1,123,1,0,1,CLOSED
+19292,fix(example): c++14 limitation,Kaikaikaifang,2024-11-18T11:36:16Z,2024-11-20T03:19:46+00:00,1,39.73,False,2,2,1,610,4,0,4,CLOSED
+19266,Refer to upb_proto_c_library rather than upb_proto_library.,phst,2024-11-14T15:31:55Z,2024-11-18T20:45:20+00:00,1,101.22,False,1,1,1,42,1,0,1,CLOSED
+19259,Cherrypick: Fixed non-conformance in JSON parsing for empty strings in numeric fields,haberman,2024-11-13T22:13:50Z,2024-11-14T18:20:18+00:00,2,20.11,True,1738,1500,11,121,0,0,0,MERGED
+19232,Building python binding with bazel on s390x,gongsu832,2024-11-12T13:55:53Z,2024-11-22T18:13:13+00:00,5,244.29,False,22,0,2,63,2,1,3,CLOSED
+19215,Upgrade rules_cc 0.0.16 and rules_java 8.3.1,comius,2024-11-11T14:19:15Z,2024-11-12T16:15:38+00:00,1,25.94,True,42,31,7,90,0,0,0,MERGED
+19213,Add missing line to docstring after Args,comius,2024-11-11T13:28:14Z,2024-11-12T15:52:06+00:00,1,26.4,True,1,0,1,19,0,0,0,MERGED
+19207,Fix failure list trie behavior,yamilmorales,2024-11-09T20:57:39Z,2024-12-03T00:44:39+00:00,7,555.78,False,43,15,3,1164,0,4,4,CLOSED
+19187,Begin adding extension numbers to SourceCodeInfo and FileDescriptorSet,googleberg,2024-11-07T21:46:28Z,2024-11-08T00:19:32+00:00,1,2.55,True,1494,982,10,327,1,0,1,MERGED
+19175,cmake: make DEPENDENCIES in protobuf_generate() a multi-value keyword,71,2024-11-07T13:00:24Z,2024-11-07T19:27:08+00:00,2,6.45,False,2,2,1,1890,0,0,0,CLOSED
+19129,Update rules_jvm_external 6.3 -> 6.5,jin,2024-11-05T04:52:06Z,2025-04-08T10:02:08+00:00,1,3701.17,False,1,1,1,4281,10,0,10,CLOSED
+19115,Performance optimization extension for `RepeatedField<T>`,prezaei,2024-11-02T03:44:02Z,2024-11-26T16:57:54+00:00,14,589.23,False,113,5,3,1204,11,8,19,CLOSED
+19032,Add a deprecation warning to py_proto_library,mkruskal-google,2024-10-29T18:19:02Z,2024-10-30T18:31:10+00:00,4,24.2,True,3,0,1,0,0,1,1,MERGED
+19016,[29.x] Add missing java load,ted-xie,2024-10-28T20:55:40Z,2024-10-29T18:15:16+00:00,1,21.33,True,2,0,1,706,3,0,3,MERGED
+19013,Update protoc release to include editions language features proto for Go,mkruskal-google,2024-10-28T16:11:02Z,2024-10-29T18:11:28+00:00,1,26.01,True,64,0,4,46,2,0,2,MERGED
+19009,utf8_range: add version marker to library,jengelh,2024-10-28T09:29:37Z,2024-11-21T19:36:54+00:00,1,586.12,False,9,0,1,394,6,0,6,CLOSED
+18982,Handle optional fields correctly in Message_get method,s2x,2024-10-24T09:27:19Z,2024-12-02T17:18:44+00:00,5,943.86,False,48,1,2,293,0,2,2,CLOSED
+18978,Fix a python bug when assign an empty Struct at creation.,anandolee,2024-10-24T05:21:50Z,2024-10-24T14:15:09+00:00,1,8.89,True,32,1,2,48,0,0,0,MERGED
+18977,Fix a python bug when assign an empty Struct at creation.,anandolee,2024-10-24T05:20:05Z,2024-10-24T14:16:23+00:00,1,8.94,True,32,1,2,48,3,0,3,MERGED
+18973,Backport upgrade of macOS runner images to macos-13 to 29.x,zhangskz,2024-10-23T21:40:50Z,2024-10-23T22:57:31+00:00,1,1.28,True,23,23,6,40,0,0,0,MERGED
+18964,Merge release commits to 29.x,JasonLunn,2024-10-23T19:22:52Z,2024-10-23T20:46:39+00:00,1,1.4,True,1,1,1,131,0,0,0,MERGED
+18958,Only print pre-release version if it makes sense to do so,imrichardcole,2024-10-23T11:02:29Z,2024-10-28T20:31:20+00:00,1,129.48,False,2,3,1,149,1,0,1,CLOSED
+18934,dotnet: Microoptimizations,Henr1k80,2024-10-22T11:16:44Z,2024-11-26T16:54:17+00:00,4,845.63,False,12,12,7,174,5,6,11,CLOSED
+18918,Fix proto_info_bzl,comius,2024-10-20T13:46:45Z,2024-10-21T16:04:05+00:00,1,26.29,True,2,1,1,62,0,0,0,MERGED
+18896,Add j2cl and j2objc targets for protobuf/current/javatests/com/google/protobuf/util TIME_SRCS,copybara-service,2024-10-18T14:07:38Z,2024-10-30T11:33:29+00:00,1,285.43,True,133,6,5,233,0,0,0,MERGED
+18890,Fix uses of __cpp_lib_constexpr_string,keith,2024-10-17T21:25:26Z,2024-11-14T16:13:35+00:00,2,666.8,False,2,2,2,693,5,0,5,CLOSED
+18889,Upgrade rules_java and remove experimental_google_legacy_api flag,comius,2024-10-17T21:07:30Z,2024-10-18T15:59:32+00:00,2,18.87,True,7,13,5,237,0,0,0,MERGED
+18880,Fix order of `inline` qualifiers for MSVC,fmeum,2024-10-17T12:27:41Z,2024-11-21T21:01:06+00:00,3,848.56,False,2,2,1,504,5,0,5,CLOSED
+18873,Delete repo's submodules,mkruskal-google,2024-10-16T22:30:57Z,2024-10-17T15:13:12+00:00,1,16.7,True,0,17,5,189,1,0,1,MERGED
+18858,Populate Kotlin Manifest Files,deannagarcia,2024-10-16T17:18:34Z,2024-10-16T18:36:59+00:00,1,1.31,True,316,10,4,259,0,0,0,MERGED
+18827,[TEST] PR to test #18820,zhangskz,2024-10-15T18:01:55Z,2024-10-16T20:12:21+00:00,1,26.17,True,166,31,19,81,0,0,0,MERGED
+18825,Prevent Bazel lockfile non reproducibility for end users,cerisier,2024-10-15T17:13:41Z,2025-04-11T08:19:44+00:00,10,4263.1,False,17,8,2,361,2,3,5,CLOSED
+18820,Cherry-picks for Bazel 8,comius,2024-10-15T10:31:58Z,2024-10-16T20:12:19+00:00,4,33.67,True,166,31,19,381,2,1,3,MERGED
+18812,Give Kotlin jars an OSGi Manifest,deannagarcia,2024-10-14T18:42:40Z,2024-10-15T20:36:27+00:00,1,25.9,False,317,10,4,236,1,0,1,CLOSED
+18799,Restore compatibility with 3.22 gencode,googleberg,2024-10-11T18:07:57Z,2024-10-11T19:31:40+00:00,1,1.4,True,74,0,2,0,0,0,0,MERGED
+18798,Fix compatibility issues with 3.22 gencode,googleberg,2024-10-11T18:02:29Z,2024-10-11T19:25:06+00:00,1,1.38,True,74,0,2,74,0,0,0,MERGED
+18768,Cherry-pick: Fix Bazel dependency cycle issue affecting Kythe,acozzette,2024-10-10T17:19:05Z,2024-10-10T20:15:02+00:00,1,2.93,True,1,1,1,238,0,0,0,MERGED
+18650,Remove rules_rust dependency,Wyverald,2024-10-08T00:10:31Z,2024-10-08T17:40:47+00:00,1,17.5,True,0,32,1,0,1,0,1,MERGED
+18648,Add missing copts flags to compiler BUILD files.,benjaminp,2024-10-07T23:13:06Z,2024-10-11T01:29:04+00:00,3,74.27,False,21,0,4,102,0,1,1,CLOSED
+18641,Rename maven to protobuf_maven in MODULE.bazel,jschaf,2024-10-07T16:50:02Z,2024-10-11T00:02:49+00:00,4,79.21,False,68,66,9,971,3,1,4,CLOSED
+18628,Remove release branch staleness tests.,mkruskal-google,2024-10-04T22:43:24Z,2024-10-08T03:23:21+00:00,1,76.67,True,4,48,2,62,0,0,0,MERGED
+18616,Remove javaopts requiring java8 in non-release builds.,deannagarcia,2024-10-04T17:11:19Z,2024-10-04T18:29:48+00:00,1,1.31,True,3,4,1,185,0,0,0,MERGED
+18615,Remove javaopts requiring java8 in non-release builds.,deannagarcia,2024-10-04T17:06:32Z,2024-10-08T17:21:40+00:00,1,96.25,True,3,5,2,185,0,0,0,MERGED
+18610,Clean up PHP CI,mkruskal-google,2024-10-04T02:08:49Z,2024-10-04T22:54:48+00:00,2,20.77,False,405,192,12,316,1,0,1,CLOSED
+18569,java: remove legacy note in docstring about calling includingDefaultValueFields with no args,anuraaga,2024-10-01T02:30:33Z,2024-10-09T22:43:37+00:00,1,212.22,False,1,2,1,50,0,0,0,CLOSED
+18549,Update URL for Connect RPC in custom options doc,jhump,2024-09-30T14:43:14Z,2024-10-01T19:10:11+00:00,1,28.45,False,2,2,1,0,0,0,0,CLOSED
+18548,Request another block of custom option numbers,jhump,2024-09-30T14:41:50Z,2024-10-01T02:44:34+00:00,1,12.05,False,5,0,1,190,0,0,0,CLOSED
+18507,docs: add options for `protoc-gen-env` and `protoc-gen-default` to registry,marnixbouhuis,2024-09-26T15:06:34Z,2024-10-09T22:56:30+00:00,1,319.83,False,6,0,1,304,3,0,3,CLOSED
+18448,Change `bigdecimal` to development dependency,y-yagi,2024-09-20T08:11:16Z,2024-10-09T22:46:03+00:00,1,470.58,False,2,2,1,107,0,0,0,CLOSED
+18421,Delete unused bzl files,mkruskal-google,2024-09-19T19:51:34Z,2024-09-19T21:18:02+00:00,1,1.44,False,0,0,0,0,0,0,0,CLOSED
+18395,Update staleness tests to only run over release branch,mkruskal-google,2024-09-18T20:29:45Z,2024-09-18T21:48:00+00:00,1,1.3,True,1,1,1,0,0,0,0,MERGED
+18375,Fix cord handling in DynamicMessage and oneofs.,zhangskz,2024-09-18T14:11:50Z,2024-09-18T18:09:27+00:00,1,3.96,True,785,478,57,107,0,0,0,MERGED
+18374,Fix cord handling in DynamicMessage and oneofs.,zhangskz,2024-09-18T14:10:37Z,2024-09-18T18:44:36+00:00,1,4.57,True,822,583,70,107,0,0,0,MERGED
+18373,Fix cord handling in DynamicMessage and oneofs.,zhangskz,2024-09-18T14:09:56Z,2024-09-18T18:09:39+00:00,1,4.0,True,672,527,51,107,0,0,0,MERGED
+18343,"Revert ""Cherry-pick changes related to new Bazel rules""",haberman,2024-09-16T19:33:56Z,2024-09-16T21:43:25+00:00,1,2.16,True,88,1801,24,63,0,0,0,MERGED
+18341,Second round of cherry-picks for Bazel rules,haberman,2024-09-16T18:52:11Z,2024-10-04T22:14:45+00:00,6,435.38,False,3045,123,52,112,1,1,2,CLOSED
+18297,docs: add nebius.ai custom options to registry,maratori,2024-09-12T19:42:01Z,2024-09-20T14:02:24+00:00,1,186.34,False,5,0,1,98,2,0,2,CLOSED
+18264,Add `unsafe` keyword to unsafe block in rust code,tempoz,2024-09-11T17:14:48Z,2024-09-20T18:34:39+00:00,1,217.33,False,18,3,1,0,2,0,2,CLOSED
+18263,Update rules_pkg to get fix for timestamp warning,tempoz,2024-09-11T16:54:43Z,2024-09-14T15:49:26+00:00,1,70.91,False,4,4,2,80,0,0,0,CLOSED
+18259,Merge release commits to 28.x,tonyliaoss,2024-09-11T15:26:43Z,2024-09-11T17:12:15+00:00,3,1.76,True,79,79,49,52,0,0,0,MERGED
+18255,Fix `plugin_output` for `_generate_rust_gencode`,tempoz,2024-09-11T14:43:39Z,2024-11-26T11:48:30+00:00,5,1821.08,False,0,1,1,192,3,1,4,CLOSED
+18254,Make rust includes point to existing proto header files,tempoz,2024-09-11T14:41:14Z,2024-10-09T16:07:03+00:00,1,673.43,False,1,1,1,51,1,1,2,CLOSED
+18252,Remove unrecognized fields from args to `rust_common.crate_info`,tempoz,2024-09-11T14:34:50Z,2024-10-16T22:26:13+00:00,1,847.86,False,0,0,0,0,4,0,4,CLOSED
+18245,Remove unused protos in `python/google/protobuf/internal/more_messages.proto`,tempoz,2024-09-11T14:00:07Z,2024-11-22T03:41:27+00:00,1,1717.69,False,0,4,1,0,3,0,3,CLOSED
+18243,Fix warnings stating that `always_inline` functions must also be declared `inline`,tempoz,2024-09-11T13:56:07Z,2024-09-14T09:33:29+00:00,1,67.62,False,18,18,1,0,0,0,0,CLOSED
+18241,`#ifdef` out `clang`-specific pragmas to avoid unknown pragma warnings when compiling with non-`clang`,tempoz,2024-09-11T13:53:55Z,2024-09-20T04:33:45+00:00,1,206.66,False,4,0,1,0,1,0,1,CLOSED
+18238,Address warning regarding incorrectly-terminated heredoc in `src/google/protobuf/compiler/test_plugin_injection.bzl`,tempoz,2024-09-11T13:49:15Z,2024-10-16T20:41:39+00:00,1,846.87,False,1,0,1,0,1,0,1,CLOSED
+18237,Use `//:well_known_type_protos` instead of `//:well_known_protos` as per deprecation warning,tempoz,2024-09-11T13:47:53Z,2024-09-17T15:39:17+00:00,1,145.86,False,2,2,2,0,0,0,0,CLOSED
+18236,Replace deprecated use of `toBytes()` with `Character` property `.code`,tempoz,2024-09-11T13:46:11Z,2024-09-12T14:56:01+00:00,1,25.16,False,2,2,1,84,0,0,0,CLOSED
+18235,Fix deprecated use of `namespace_packages` in `python/dist/setup.py`,tempoz,2024-09-11T13:43:24Z,2024-11-26T20:52:53+00:00,1,1831.16,False,2,3,1,133,3,0,3,CLOSED
+18234,Fix bash ternary in `//benchmarks:size_data`,tempoz,2024-09-11T13:39:13Z,2024-09-20T16:06:02+00:00,1,218.45,False,1,1,1,59,2,0,2,CLOSED
+18193,fix raw_ptr.cc on exotic architectures,jagub2,2024-09-09T18:58:22Z,2024-09-19T20:37:24+00:00,1,241.65,False,1,1,1,229,3,0,3,CLOSED
+18191,Fix a potential Ruby-upb use of uninitialized memory.,zhangskz,2024-09-09T18:15:10Z,2024-09-09T19:39:38+00:00,1,1.41,True,78,13,8,195,0,0,0,MERGED
+18174,Fix cpp syntax error when the service method name is `request`.,liqipeng,2024-09-07T16:50:09Z,2024-09-10T14:18:06+00:00,1,69.47,False,1,1,1,12,1,0,1,CLOSED
+18160,upb: fix uninitialized upb_MessageValue buffer bugs,mkruskal-google,2024-09-07T00:11:25Z,2024-09-07T01:26:22+00:00,1,1.25,True,18,9,4,80,0,0,0,MERGED
+18135,Fix generation of save-installed-headers.vcxproj regarding upb headers,Delcaran,2024-09-05T17:46:15Z,2024-10-17T17:32:46+00:00,1,1007.78,False,16,0,1,212,1,0,1,CLOSED
+18130,only print out protobuf_VERSION_PRERELEASE if it is set,imrichardcole,2024-09-05T16:09:07Z,2024-10-18T19:38:38+00:00,2,1035.49,False,0,0,0,138,2,1,3,CLOSED
+18126,third_party/utf8_range: support arm neon,cyb70289,2024-09-05T05:55:33Z,2024-09-30T21:09:44+00:00,6,615.24,False,410,275,6,172,15,2,17,CLOSED
+18069,Remove or replace useless references to <iostream>,serge-sans-paille,2024-09-02T14:54:18Z,2024-09-06T16:39:21+00:00,1,97.75,False,4,6,6,285,4,0,4,CLOSED
+18021,Fix file descriptor leak in test suite,Bo98,2024-08-29T00:54:52Z,2024-08-31T02:40:48+00:00,1,49.77,False,2,0,1,568,1,0,1,CLOSED
+18013,Merge release commits to 28.x,JasonLunn,2024-08-28T17:53:52Z,2024-08-28T19:47:30+00:00,1,1.89,True,79,79,49,52,0,0,0,MERGED
+17971,Fixed some shadowing between local variables,mikael-s-persson,2024-08-27T15:52:00Z,2024-08-30T18:44:35+00:00,4,74.88,False,4,4,2,340,4,0,4,CLOSED
+17959,Fix signature of `PyUpb_MessageMeta_Clear`,hoodmane,2024-08-27T10:14:02Z,2024-08-31T12:26:41+00:00,3,98.21,False,1,1,1,288,6,0,6,CLOSED
+17939,Move -Werror to our test/dev bazelrc files.,mkruskal-google,2024-08-23T22:08:36Z,2024-08-23T23:14:47+00:00,2,1.1,True,36,61,18,381,0,0,0,MERGED
+17938,Move -Werror to our test/dev bazelrc files.,mkruskal-google,2024-08-23T22:08:25Z,2024-08-23T23:47:09+00:00,1,1.65,True,41,57,20,381,0,0,0,MERGED
+17917,[ObjC] Issue stderr warnings for deprecated generation options.,thomasvl,2024-08-22T15:55:10Z,2024-08-22T19:19:38+00:00,1,3.41,True,54,1,1,184,0,0,0,MERGED
+17903,Updated Build Configuration for PHP Extension to fix issue building on Windows,gwharton,2024-08-21T19:59:19Z,2024-11-27T03:24:12+00:00,1,2335.41,False,1,8,1,2249,3,0,3,CLOSED
+17888,[CMake] Allow for protoc executable to be configured,jonringer,2024-08-20T23:20:53Z,2024-09-24T21:13:32+00:00,1,837.88,False,9,3,2,516,16,0,16,CLOSED
+17882,Fix -Wdeprecated-this-capture warning,dotnwat,2024-08-20T20:32:53Z,2024-10-10T16:33:17+00:00,1,1220.01,False,1,1,1,58,2,0,2,CLOSED
+17871,Remove unused header file from Ruby source code,y-yagi,2024-08-20T08:35:33Z,2024-09-03T17:13:02+00:00,1,344.62,False,0,3,2,64,0,0,0,CLOSED
+17854,Windows - Fix handling of utf8 command line arguments,tonydnewell,2024-08-19T12:07:02Z,2024-08-29T22:35:57+00:00,1,250.48,False,1,1,1,1619,1,0,1,CLOSED
+17845,Build with -Wundef,cramertj,2024-08-16T23:15:38Z,2024-11-27T17:15:00+00:00,6,2465.99,False,12,0,2,105,9,2,11,CLOSED
+17806,Raise warnings for deprecated python cpp extension GetDebugString().,anandolee,2024-08-13T21:19:42Z,2024-08-13T22:21:49+00:00,1,1.04,True,5,0,1,225,0,0,0,MERGED
+17789,Introduce FieldDescriptor::cpp_string_type() API to replace direct ct…,zhangskz,2024-08-12T19:05:43Z,2024-08-12T20:11:23+00:00,1,1.09,True,115,8,4,342,0,0,0,MERGED
+17788,fix: do not throw deprecated warning on field getters for default values,bshaffer,2024-08-12T18:37:04Z,2024-08-20T14:07:29+00:00,7,187.51,False,145,10,3,247,0,3,3,CLOSED
+17757,GitHub workflow to publish an artifactbundle for SwiftPM,FranzBusch,2024-08-07T22:36:14Z,2025-08-19T12:26:13+00:00,3,9037.83,False,97,0,2,797,3,3,6,CLOSED
+17728,Cherry pick changes to drop Java pom.xml files unused for release.,zhangskz,2024-08-05T20:57:57Z,2024-08-05T22:05:39+00:00,1,1.13,True,11,970,9,162,0,0,0,MERGED
+17704,Fixed a SEGV when deep copying a non-reified sub-message.,zhangskz,2024-08-02T15:48:56Z,2024-08-05T22:05:33+00:00,1,78.28,True,11,3,2,64,1,0,1,MERGED
+17682,Fix minor typos,NathanBaulch,2024-08-01T04:52:04Z,2024-09-21T03:50:14+00:00,6,1222.97,False,175,175,90,860,8,2,10,CLOSED
+17674,Merge release commits to 27.x,honglooker,2024-07-31T13:27:12Z,2024-07-31T14:52:09+00:00,1,1.42,True,83,83,53,52,0,0,0,MERGED
+17673,Reserve custom option for userver (https://userver.tech/) (#17603),kpavlov00,2024-07-31T09:40:34Z,2024-10-07T21:30:46+00:00,2,1643.84,False,5,0,1,0,5,0,5,CLOSED
+17671,Add Compiler Condition to use inline assembly optimizations with ARM64 for Compatibility with MSVC,dsmith111,2024-07-30T22:45:32Z,2024-08-15T11:45:25+00:00,1,373.0,False,2,2,1,867,2,0,2,CLOSED
+17639,Fix the doc for `DescriptorPool.lookup`,y-yagi,2024-07-28T07:51:17Z,2024-10-07T17:05:40+00:00,1,1713.24,False,3,3,2,65,0,0,0,CLOSED
+17607,Deprecation in getter is triggered only when field is actually used,pkruithof,2024-07-25T13:30:15Z,2024-08-13T06:47:41+00:00,1,449.29,False,6,3,1,2335,2,1,3,CLOSED
+17592,Merge release commits to 25.x,anandolee,2024-07-24T17:10:23Z,2024-07-24T18:19:46+00:00,1,1.16,True,66,66,36,52,0,0,0,MERGED
+17587,CherryPick the newer work for Objective-C over the the 28 branch.,thomasvl,2024-07-24T14:28:13Z,2024-07-25T15:28:19+00:00,4,25.0,True,1659,307,22,0,0,1,1,MERGED
+17525,backport staleness changes to 25.x,esorot,2024-07-18T15:44:19Z,2024-07-18T20:13:14+00:00,1,4.48,True,14,8,2,137,0,0,0,MERGED
+17524,drop 2.7 in linux test,esorot,2024-07-18T14:12:05Z,2024-07-18T19:10:52+00:00,1,4.98,True,7,10,2,101,0,0,0,MERGED
+17518,Remove 2.7 tests for 25.x test_ruby.yml,JasonLunn,2024-07-17T22:29:13Z,2024-07-18T20:11:47+00:00,1,21.71,False,6,12,1,0,1,0,1,CLOSED
+17514,Check that size is non-negative when reading string or bytes in Strea…,zhangskz,2024-07-17T20:19:55Z,2024-07-17T21:45:29+00:00,2,1.43,True,100,0,3,262,0,0,0,MERGED
+17513,Add breaking change detection for well-known types,unknown,2024-07-17T19:43:38Z,2024-08-02T02:37:54+00:00,14,366.9,False,158,3,6,1020,0,3,3,CLOSED
+17512,Cherrypick python deprecated warnings for reflection.py and service.py to 28.x,anandolee,2024-07-17T18:21:15Z,2024-07-17T19:34:06+00:00,2,1.21,True,24,4,3,15,0,0,0,MERGED
+17475,Downgrade CMake to 3.29 to workaround Abseil issue.,zhangskz,2024-07-15T21:32:24Z,2024-07-16T16:53:01+00:00,1,19.34,True,6,0,1,187,0,0,0,MERGED
+17473,"Cherry-pick ""Revert workaround for std::mutex issues on github windows runners"" and ""Downgrade CMake to 3.29 to workaround Abseil issue.""",zhangskz,2024-07-15T21:09:51Z,2024-07-16T16:52:53+00:00,2,19.72,True,6,10,4,34,0,0,0,MERGED
+17433,Improve support for Clang inside of UPB,Vadmeme,2024-07-12T00:02:37Z,2024-11-22T17:38:38+00:00,4,3209.6,False,1,1,1,262,4,1,5,CLOSED
+17432,Updating version.json and repo version numbers to: 29.0-dev,zhangskz,2024-07-11T23:40:46Z,2024-07-15T16:50:42+00:00,1,89.17,False,83,83,53,89,0,0,0,CLOSED
+17378,export EnumName for c++,zwkno1,2024-07-09T09:40:12Z,2024-10-17T22:10:31+00:00,1,2412.51,False,1,0,1,0,5,0,5,CLOSED
+17374,Cherry-pick fixes needed for Github runner changes,zhangskz,2024-07-08T21:23:41Z,2024-07-09T15:11:03+00:00,1,17.79,True,8,9,2,0,0,0,0,MERGED
+17353,Remove codes for unsupported Ruby,y-yagi,2024-07-07T22:58:18Z,2024-08-01T21:02:50+00:00,1,598.08,False,5,19,2,57,4,0,4,CLOSED
+17331,Omit the `_raw_default_instance_` declaration when using DLL linkage.,zhangskz,2024-07-03T19:50:18Z,2024-07-09T15:10:23+00:00,2,139.33,True,22,141,17,248,0,0,0,MERGED
+17326,[Ruby] Fix mismatched pointer type (#17240),zhangskz,2024-07-03T16:25:21Z,2024-07-03T19:48:34+00:00,1,3.39,True,1,1,1,929,0,0,0,MERGED
+17320,Upgrade bazel rules for java and kotlin,deannagarcia,2024-07-02T21:49:46Z,2024-10-17T10:02:03+00:00,1,2556.2,False,1269,987,6,191,2,0,2,CLOSED
+17285,Removed specific MSVC settings when installing,EduMenges,2024-06-29T12:02:06Z,2024-07-09T02:55:00+00:00,1,230.88,False,3,9,1,668,0,0,0,CLOSED
+17240,[Ruby] Fix mismatched pointer type,ntkme,2024-06-25T20:42:15Z,2024-07-03T03:13:21+00:00,1,174.52,False,1,1,1,784,1,0,1,CLOSED
+17232,Backported Fix segmentation faults with enabled keep_descriptor_pool_after_request,simonberger,2024-06-25T16:59:30Z,2024-07-08T23:57:33+00:00,1,318.97,True,6,6,1,52,1,0,1,MERGED
+17225,Fix windows 2019 staleness issue,mkruskal-google,2024-06-24T21:25:22Z,2024-06-25T15:52:05+00:00,1,18.45,True,8,1,1,443,1,0,1,MERGED
+17212,Fix various unsigned to signed comparison warnings.,benjaminp,2024-06-21T22:49:56Z,2024-10-02T01:03:55+00:00,1,2450.23,False,35,42,6,254,3,0,3,CLOSED
+17211,Fix string_type bugs in edition 2023,mkruskal-google,2024-06-21T21:50:56Z,2024-06-24T21:21:21+00:00,2,71.51,True,164,5,6,265,0,0,0,MERGED
+17209,"In edition 2024, `Enum_Name(value)` functions return `absl::string_view` by default.",copybara-service,2024-06-21T20:03:28Z,2024-07-03T10:01:58+00:00,1,277.98,False,389,224,9,80,1,0,1,CLOSED
+17201,Use UPB_LONGJMP macro instead of longjmp,anuraaga,2024-06-21T07:50:54Z,2024-06-21T17:10:45+00:00,1,9.33,False,2,2,1,328,0,0,0,CLOSED
+17198,Update GHA tests to return single pass/fail signal at the end,deannagarcia,2024-06-20T21:49:33Z,2024-08-14T16:10:20+00:00,21,1314.35,False,357,90,13,935,3,18,21,CLOSED
+17196,Fix a bug in which proto code uses ctype instead of string_type internally.,copybara-service,2024-06-20T19:56:21Z,2024-06-21T20:15:12+00:00,1,24.31,True,82,6,5,312,0,0,0,MERGED
+17191,[C#] Use input Stream.Length if seekable,verdie-g,2024-06-20T18:23:04Z,2024-08-02T00:24:39+00:00,1,1014.03,False,56,7,3,366,1,1,2,CLOSED
+17164,Backport stubs / tests for compatibility with <4.26.x gencode to 27.x ,zhangskz,2024-06-17T21:52:15Z,2024-06-18T14:18:21+00:00,3,16.43,True,246,4,8,143,0,0,0,MERGED
+17161,Backport handling of unknown and custom java features to 27.x,zhangskz,2024-06-17T15:37:04Z,2024-06-17T21:47:19+00:00,1,6.17,True,196,23,2,34,0,0,0,MERGED
+17160,Disable upload artifacts action,JasonLunn,2024-06-17T14:02:30Z,2024-06-18T03:52:31+00:00,1,13.83,False,7,5,1,69,0,0,0,CLOSED
+17158,Reserve 1090 for Wire enumMode,oldergod,2024-06-17T09:46:26Z,2024-06-17T16:48:17+00:00,1,7.03,False,5,0,1,17,1,0,1,CLOSED
+17129,Backport fixes to delimited handling,mkruskal-google,2024-06-13T01:33:37Z,2024-06-14T23:07:16+00:00,3,45.56,True,263,214,12,0,2,0,2,MERGED
+17079,Adding DLL export/import tags to generated public upb API (redux),h-vetinari,2024-06-08T00:08:31Z,2024-06-12T15:26:35+00:00,3,111.3,False,37,13,3,1258,0,1,1,CLOSED
+17078,fix(bazel/python): incompatible_enable_proto_toolchain_resolution,alexeagle,2024-06-07T22:30:07Z,2024-06-11T04:18:16+00:00,3,77.8,False,14,3,1,255,1,0,1,CLOSED
+17077,Make the underlying type of the enum by 8-bits instead of using bitfi…,zhangskz,2024-06-07T22:28:42Z,2024-06-11T19:22:48+00:00,1,92.9,True,12,2,5,99,0,0,0,MERGED
+17054,Export PrivacyInfo.xcprivacy,mjburghard,2024-06-06T11:52:58Z,2024-06-28T21:16:59+00:00,3,537.4,False,4,1,1,134,4,0,4,CLOSED
+17041,Merge release commits to 27.x,esrauchg,2024-06-05T16:59:20Z,2024-06-05T18:50:26+00:00,2,1.85,True,83,83,53,52,1,0,1,MERGED
+17035,Update third_party.md with Philips Rpc implementation,oguzcanoguz,2024-06-05T12:09:58Z,2024-06-28T15:10:56+00:00,4,555.02,False,1,0,1,0,4,0,4,CLOSED
+17029,chore: upgrade zlib to 1.3.1,HerrCai0907,2024-06-05T06:00:28Z,2024-06-17T20:08:27+00:00,1,302.13,False,5,5,2,111,5,0,5,CLOSED
+17019,Cherrypick editions fixes to 27.x,mkruskal-google,2024-06-04T16:00:30Z,2024-06-04T19:58:54+00:00,1,3.97,True,128,14,7,0,0,0,0,MERGED
+17016,Fixes error: array subscription is outside array bounds,kongen,2024-06-03T21:26:03Z,2024-06-26T00:36:17+00:00,3,531.17,False,2,2,1,1436,0,1,1,CLOSED
+17013,Removes msvc warning in map,TinyTinni,2024-06-03T19:05:33Z,2024-06-18T02:13:36+00:00,1,343.13,False,4,8,1,866,9,0,9,CLOSED
+17002,Handle groups in C# JsonParser (#16970),zhangskz,2024-06-01T01:00:18Z,2024-06-01T03:31:06+00:00,1,2.51,True,11,1,2,139,0,0,0,MERGED
+17001,update test to use new test images,esorot,2024-05-31T22:24:17Z,2024-09-18T10:02:06+00:00,1,2627.63,False,40,41,8,0,2,0,2,CLOSED
+16997,Update images to bazel 7 debian 11,esorot,2024-05-31T16:08:35Z,2024-06-03T22:42:31+00:00,2,78.57,False,5,5,1,0,0,2,2,CLOSED
+16993,Fix segmentation faults with enabled keep_descriptor_pool_after_request,simonberger,2024-05-31T11:13:49Z,2024-06-17T16:27:56+00:00,1,413.24,False,6,6,1,194,7,0,7,CLOSED
+16976,csharp: use span-based ToBase64 in ByteString,verdie-g,2024-05-29T21:54:25Z,2024-05-31T09:51:45+00:00,2,35.96,False,4,0,1,68,1,0,1,CLOSED
+16970,Handle groups in C# JsonParser,CommonGuy,2024-05-29T08:52:05Z,2024-05-30T09:22:26+00:00,2,24.51,False,11,1,2,12,2,0,2,CLOSED
+16960,Stop supporting EDITION_PROTO2 as an alias for EDITION_LEGACY.,copybara-service,2024-05-28T20:01:10Z,2024-05-31T05:14:15+00:00,1,57.22,True,21,26,6,62,0,1,1,MERGED
+16956,bazel: Update debian version on bcr CI,keith,2024-05-28T18:39:10Z,2024-10-03T10:02:15+00:00,1,3063.38,False,2,2,1,171,4,0,4,CLOSED
+16951,Don't use CLOCK_UPTIME_RAW if it won't be defined,adamnovak,2024-05-28T14:22:20Z,2024-11-13T21:33:00+00:00,1,4063.18,False,3,3,1,324,5,0,5,CLOSED
+16907,Lazily resolve features for proto2 and proto3 for compatibility with …,zhangskz,2024-05-21T03:33:34Z,2024-05-21T05:57:03+00:00,1,2.39,True,22,10,1,119,0,0,0,MERGED
+16906,Backport descriptor.proto changes for 27.x,mkruskal-google,2024-05-21T03:27:51Z,2024-05-21T05:58:53+00:00,3,2.52,True,1063,643,19,0,0,0,0,MERGED
+16884,support bzlmod for//:protobuf_java and //:protobuf_javalite targets,mmorel-35,2024-05-18T17:35:49Z,2024-09-11T10:01:58+00:00,13,2776.44,False,31,5,2,300,4,3,7,CLOSED
+16838,Backport fixes to 27.x,mkruskal-google,2024-05-13T20:11:26Z,2024-05-13T21:15:34+00:00,2,1.07,True,154,142,6,0,0,0,0,MERGED
+16825,    Work around windows path length limitations by moving immutable -> full in open source (new generator paths) and shortening long file names.     ,zhangskz,2024-05-10T22:17:04Z,2024-05-13T16:03:32+00:00,3,65.77,True,101,103,51,81,0,1,1,MERGED
+16787,Add temporary alias for system_python.bzl at previous location .,zhangskz,2024-05-08T16:29:56Z,2024-05-09T19:37:30+00:00,1,27.13,True,17,0,1,375,1,0,1,MERGED
+16785,Fix indention formatter for google.protobuf.Any,q42jaap,2024-05-08T14:57:26Z,2024-05-10T15:46:10+00:00,1,48.81,False,39,2,2,668,0,0,0,CLOSED
+16772,Adds UnsafeCollectionOperations for unsafe access to RepeatedField<T>,PascalSenn,2024-05-07T17:57:40Z,2024-12-03T16:58:02+00:00,16,5039.01,False,350,0,3,98,27,26,53,CLOSED
+16749,Include gRPC API Gateway in the options documentation,peymanmortazavi,2024-05-06T13:51:32Z,2024-08-23T10:02:11+00:00,1,2612.18,False,5,0,1,53,3,0,3,CLOSED
+16743,[7392] fix conformance test in PHP JSON parser,antongrbin,2024-05-04T13:14:14Z,2024-11-23T15:54:20+00:00,3,4874.67,False,72,10,3,266,5,1,6,CLOSED
+16729,Cherry-pick editions fixes for 27.0,mkruskal-google,2024-05-02T23:30:59Z,2024-05-03T04:04:34+00:00,1,4.56,True,271,50,2,0,0,0,0,MERGED
+16722,Cherry pick java_features.proto boostrap and java generator refactor,zhangskz,2024-05-02T19:21:46Z,2024-05-02T21:09:55+00:00,1,1.8,True,1610,996,69,173,0,0,0,MERGED
+16720,Split bootstrapped java_features.proto to keep it from leaking out.,zhangskz,2024-05-02T19:15:48Z,2024-05-10T17:43:28+00:00,1,190.46,False,213,119,13,391,0,0,0,CLOSED
+16717,Fixed broken link in upb README.md,pbatg,2024-05-02T18:09:56Z,2024-05-14T15:34:40+00:00,1,285.41,False,1,1,1,214,0,0,0,CLOSED
+16716,Add system_python to protobuf_deps.bzl.,zhangskz,2024-05-02T17:02:39Z,2024-05-02T19:27:29+00:00,1,2.41,True,7,7,2,146,0,0,0,MERGED
+16712,feat: enable edition for php,bshaffer,2024-05-02T01:11:52Z,2024-05-10T17:47:01+00:00,16,208.59,False,180,92,8,405,1,5,6,CLOSED
+16691,make bytearray work (again),jensbjorgensen,2024-05-01T00:54:54Z,2024-06-12T15:33:43+00:00,2,1022.65,False,16,0,2,108,14,0,14,CLOSED
+16687,Migrate bazel tests to protobuf-ci.,zhangskz,2024-04-30T20:17:12Z,2024-05-03T16:08:41+00:00,1,67.86,True,175,123,15,211,0,0,0,MERGED
+16663,Expose `MiniDescriptorEncode` for `FieldDefPtr`.,copybara-service,2024-04-29T16:39:23Z,2024-04-29T19:33:16+00:00,1,2.9,True,7,0,1,115,1,0,1,MERGED
+16656,Add ascopes/protobuf-maven-plugin to third_party.md,ascopes,2024-04-28T10:23:41Z,2024-04-30T14:54:50+00:00,1,52.52,False,1,0,1,174,0,0,0,CLOSED
+16654,Prevent find_package failure if multiple versions are installed,MiguelBarro,2024-04-26T18:22:22Z,2024-05-11T02:17:46+00:00,1,343.92,False,6,3,1,1030,0,0,0,CLOSED
+16601,Cancel in-progress workflow runs for pull requests and dispatches,sethvargo,2024-04-22T21:42:45Z,2024-05-01T19:43:09+00:00,1,214.01,False,4,0,1,186,1,0,1,CLOSED
+16593,remove use of mach_absolute_time (#15554),zhangskz,2024-04-22T16:54:01Z,2024-04-26T14:57:47+00:00,1,94.06,True,2,2,1,566,0,0,0,MERGED
+16567,[7392] [cpp] Remove dead code path for map key of type enum in JSON parsing,antongrbin,2024-04-18T19:40:46Z,2024-05-16T20:50:46+00:00,1,673.17,False,0,7,1,1699,6,0,6,CLOSED
+16555,Updating version.json and repo version numbers to: 28-dev,mkruskal-google,2024-04-18T02:16:11Z,2024-04-18T17:47:19+00:00,1,15.52,False,83,83,53,0,0,0,0,CLOSED
+16525,Don't use return statement for void-returning function.,phst,2024-04-16T14:05:23Z,2024-08-09T10:11:54+00:00,1,2756.11,False,0,0,0,73,3,0,3,CLOSED
+16524,Update TimestampBase to allow for DateTimeInterface rather than specific implementation and allow fluent setter for factory usage.,shrikeh,2024-04-16T11:59:08Z,2024-08-23T10:02:20+00:00,1,3094.05,False,5,2,1,181,7,0,7,CLOSED
+16519,Fix Protobuf-C++.podspec build error problem,takeh1k0,2024-04-16T06:42:58Z,2024-10-23T10:02:12+00:00,1,4563.32,False,7,2,1,585,4,0,4,CLOSED
+16495,[bzlmod] Set repo_name to com_google_protobuf,keith,2024-04-12T19:13:15Z,2024-04-17T20:25:57+00:00,2,121.21,False,5,4,1,365,3,0,3,CLOSED
+16491,Fix the bug of DefaultValueObjectWriter class,HUSTzhangbo,2024-04-12T13:46:22Z,2024-05-10T18:11:26+00:00,1,676.42,False,15,0,2,112,2,0,2,CLOSED
+16479,[7392] [cpp] Fix IgnoreUnknownEnumStringValueInMap conformance tests,antongrbin,2024-04-11T16:21:40Z,2024-12-13T15:09:41+00:00,1,5902.8,False,261,84,3,1469,7,3,10,CLOSED
+16454,Enable Unity(Jumbo) builds,jslap-ubi,2024-04-09T17:16:04Z,2024-06-25T20:19:03+00:00,4,1851.05,False,37,0,14,531,6,1,7,CLOSED
+16388,Cherry-Pick Add Automatic-Module-Name (#14562),zhangskz,2024-04-02T21:19:35Z,2024-04-05T15:50:46+00:00,1,66.52,True,24,6,7,428,0,0,0,MERGED
+16382,bugfix json_format.py,zhangzibao,2024-04-02T17:37:49Z,2024-04-05T13:06:27+00:00,1,67.48,False,1,1,1,1168,0,0,0,CLOSED
+16381,Update JRuby from 9.4.3.0 to 9.4.6.0.,JasonLunn,2024-04-02T16:36:54Z,2024-04-03T02:25:17+00:00,1,9.81,False,6,6,1,0,2,0,2,CLOSED
+16379,Add bigdecimal to dependencies,JasonLunn,2024-04-02T16:09:48Z,2024-04-03T02:14:05+00:00,1,10.07,False,6,1,2,90,1,0,1,CLOSED
+16378,docs: add protoc-gen-openapi custom options to registry,shashankram,2024-04-02T15:03:06Z,2024-04-03T00:27:22+00:00,1,9.4,False,5,0,1,169,2,0,2,CLOSED
+16319,feat: test bzlmod usage on CI,alexeagle,2024-03-26T21:56:51Z,2024-03-28T15:33:54+00:00,6,41.62,False,82,2,9,0,2,3,5,CLOSED
+16309,Move java_features.proto to java/core/srce/main/resources,zhangskz,2024-03-26T00:12:56Z,2024-03-26T14:31:05+00:00,1,14.3,True,9,11,7,215,0,0,0,MERGED
+16308,Set label to REQUIRED for descriptors with LEGACY_REQUIRED feature.,zhangskz,2024-03-26T00:02:46Z,2024-03-26T20:57:20+00:00,4,20.91,True,80,60,2,341,1,0,1,MERGED
+16307,Update protoc release to include editions language features protos fo…,zhangskz,2024-03-26T00:01:54Z,2024-03-26T14:31:19+00:00,1,14.49,True,3,1,2,57,0,0,0,MERGED
+16294,Cherry-pick changes 26.x,zhangskz,2024-03-25T16:27:33Z,2024-03-26T00:19:00+00:00,1,7.86,True,10,1,3,0,0,0,0,MERGED
+16292,Handle conflicting macros for Android,elvisdukaj,2024-03-25T15:15:55Z,2024-04-06T11:38:39+00:00,1,284.38,False,13,0,2,6369,6,0,6,CLOSED
+16271,Cherry-pick: Fix Android platforms constraint (#16246),acozzette,2024-03-22T16:34:17Z,2024-03-22T18:19:13+00:00,1,1.75,True,1,3,1,61,0,0,0,MERGED
+16264,Cherry-pick: Add back android config_setting that looks for //external:android/crosstool,acozzette,2024-03-21T23:20:41Z,2024-03-22T15:09:20+00:00,1,15.81,True,11,0,2,61,0,0,0,MERGED
+16246,Fix Android platforms constraint,sifmelcara,2024-03-20T20:25:16Z,2024-03-22T16:26:03+00:00,2,44.01,False,1,3,1,175,1,0,1,CLOSED
+16237,Fix windows-only issue in our compiler unittests.,mkruskal-google,2024-03-20T04:22:50Z,2024-03-20T18:18:52+00:00,1,13.93,True,18,11,3,13,0,0,0,MERGED
+16194,Table parser upstream,gerben-stavenga,2024-03-15T19:12:58Z,2024-07-20T10:01:49+00:00,15,3038.81,False,785,769,16,386,2,11,13,CLOSED
+16178,Modular Java,sgammon,2024-03-14T21:56:31Z,2024-04-15T03:49:34+00:00,8,749.88,False,0,0,0,2681,2,20,22,CLOSED
+16176,fix(java): fixup test codegen for maven build,sgammon,2024-03-14T21:10:24Z,2024-03-16T02:33:38+00:00,2,29.39,False,5,0,3,339,0,5,5,CLOSED
+16172,fix: support for bazel `7.x`,sgammon,2024-03-14T20:32:24Z,2024-05-12T01:48:05+00:00,6,1397.26,False,1268,982,6,680,4,2,6,CLOSED
+16171,fix: pin bazel → `6.3.2`,sgammon,2024-03-14T19:58:39Z,2024-05-20T00:38:16+00:00,1,1588.66,False,1,0,1,60,2,0,2,CLOSED
+16127,Add back android config_setting that looks for //external:android/crosstool,sifmelcara,2024-03-11T23:11:34Z,2024-03-13T16:54:12+00:00,3,41.71,False,11,0,2,205,1,1,2,CLOSED
+16125,"[python] Remove explicit visibility(""default"") on PyInit__message",goffrie,2024-03-11T22:46:13Z,2024-11-27T21:42:51+00:00,2,6262.94,False,1,1,1,73,4,0,4,CLOSED
+16033,[C#] Eliminate string concatenation when looking for enum values descriptor,TrayanZapryanov,2024-03-04T14:27:57Z,2024-03-15T14:32:34+00:00,1,264.08,False,93,16,4,233,6,0,6,CLOSED
+16014,feat: automate publishing releases to Bazel Central Registry,alexeagle,2024-03-01T01:25:05Z,2024-03-12T14:04:20+00:00,23,276.65,False,62,0,4,613,0,6,6,CLOSED
+16013,refactor: add MODULE.bazel file for bzlmod,alexeagle,2024-03-01T01:18:11Z,2024-03-26T15:52:54+00:00,10,614.58,False,51,2,1,570,10,8,18,CLOSED
+16002,26.x 202402282330,anandolee,2024-02-28T23:41:56Z,2024-03-11T21:26:17+00:00,1,285.74,True,1,1,1,0,1,0,1,MERGED
+15985,Fix staleness tests,mkruskal-google,2024-02-27T21:44:12Z,2024-02-27T23:47:17+00:00,1,2.05,True,8,6,3,0,0,0,0,MERGED
+15983,Actually fail if staleness fail,mkruskal-google,2024-02-27T21:34:59Z,2024-02-27T23:04:56+00:00,5,1.5,True,2,2,1,28,1,1,2,MERGED
+15955,Fix csharp doc commments,tonydnewell,2024-02-26T10:42:10Z,2024-02-27T17:58:45+00:00,2,31.28,False,7,1,1,177,0,1,1,CLOSED
+15954,Fixed the use of c++ keywords within namespace names,Ilukatsk,2024-02-26T09:19:58Z,2024-02-29T21:20:14+00:00,1,84.0,False,16,11,1,0,6,0,6,CLOSED
+15917,feat: add visionOS deployment target for Cocoapods,YoloMao,2024-02-22T03:24:10Z,2024-02-23T03:27:57+00:00,3,24.06,False,3,0,2,44,1,1,2,CLOSED
+15903,ci: add visionOS pod lib lint check,YoloMao,2024-02-21T07:50:06Z,2024-03-20T03:48:06+00:00,12,667.97,False,11,5,1,8,13,5,18,CLOSED
+15888,fix pkg-config metadata for shared abseil on windows,h-vetinari,2024-02-20T12:03:12Z,2024-02-22T03:49:26+00:00,1,39.77,False,4,1,1,62,0,0,0,CLOSED
+15887,Python JSON parser: Ignore invalid enum string values if ignore_unknown_fields is set,antongrbin,2024-02-20T11:45:25Z,2024-03-26T20:22:17+00:00,6,848.61,False,150,85,7,541,14,2,16,CLOSED
+15885,JSON conformance test: repeated with a mix of known and unknown enum string values,antongrbin,2024-02-20T10:52:50Z,2024-02-22T21:59:15+00:00,3,59.11,False,71,3,6,201,2,0,2,CLOSED
+15867,Remove rust proto libraries from the editions/BUILD file.,zhangskz,2024-02-16T14:11:49Z,2024-02-20T22:50:17+00:00,3,104.64,True,0,29,1,28,0,0,0,MERGED
+15850,Replace system python with hermetic python from rules_python,mering,2024-02-15T08:59:00Z,2024-10-17T10:02:14+00:00,1,5881.05,False,46,385,11,35,4,0,4,CLOSED
+15846,Avoid a 'may be used uninitialized' warning when built with '-c opt'.,bcsgh,2024-02-15T00:44:57Z,2024-02-15T19:48:20+00:00,1,19.06,False,1,1,1,335,3,0,3,CLOSED
+15840,Ruby implement memsize functions for native types (#10291),zhangskz,2024-02-14T19:15:06Z,2024-02-16T14:14:54+00:00,1,43.0,True,57,5,6,301,0,0,0,MERGED
+15838,Tweak BUILD setup to make the layering check change less disruptive (cherry-pick),acozzette,2024-02-14T18:05:25Z,2024-02-14T19:21:55+00:00,1,1.27,True,73,33,3,873,0,0,0,MERGED
+15836,[csharp] Fix indentation for MapField with nested Messages,q42jaap,2024-02-14T09:55:18Z,2024-02-14T16:53:52+00:00,1,6.98,False,51,1,2,377,1,0,1,CLOSED
+15829,Fixed bootstrapping bug with upb when building from a different repo.,haberman,2024-02-13T22:45:49Z,2024-05-10T19:11:12+00:00,1,2084.42,False,1,1,1,359,0,0,0,CLOSED
+15828,Fix --maximum_edition usage text,rgov,2024-02-13T21:53:19Z,2024-02-14T03:10:51+00:00,1,5.29,False,2,2,1,86,1,0,1,CLOSED
+15817,Implement service & method descriptor lookup in Ruby,KJTsanaktsidis,2024-02-13T10:54:34Z,2024-03-22T17:36:03+00:00,15,918.69,False,1012,15,17,1339,13,10,23,CLOSED
+15802,Cherrypick Apple Privacy Manifest changes to make these available in 25.x,zhangskz,2024-02-12T19:13:45Z,2024-02-13T02:07:59+00:00,2,6.9,True,45,11,6,0,0,0,0,MERGED
+15795,Convert JsonToken to readonly struct,TrayanZapryanov,2024-02-11T12:42:53Z,2024-06-29T10:01:45+00:00,8,3333.31,False,13,13,3,145,20,3,23,CLOSED
+15794,Add [ThreadStatic] StringBuilder in JsonTextTokenizer,TrayanZapryanov,2024-02-11T10:08:29Z,2024-03-18T14:55:43+00:00,12,868.79,False,63,7,1,308,20,6,26,CLOSED
+15792,Set exit status to 1 when finding warnings with fatal_warnings being on,junekhan,2024-02-10T11:39:24Z,2024-08-23T10:02:23+00:00,2,4678.38,False,8,7,3,52,3,0,3,CLOSED
+15780,Update Bazel references to rules_pkg to the supported file locations.,aiuto,2024-02-08T19:41:37Z,2024-02-13T17:08:48+00:00,1,117.45,False,43,43,40,343,3,0,3,CLOSED
+15775,Add protobuf-kotlin-lite into protobuf-bom,NearTox,2024-02-08T02:19:47Z,2024-08-23T10:02:25+00:00,1,4735.71,False,5,0,1,0,4,0,4,CLOSED
+15750,Reenable FFI tests on CRuby.,JasonLunn,2024-02-06T20:17:01Z,2024-05-28T10:01:58+00:00,1,2677.75,False,369,21,4,0,4,1,5,CLOSED
+15738,Set exit status to 1 when fatal_warnings flag is on,junekhan,2024-02-06T00:01:15Z,2024-02-09T23:00:02+00:00,1,94.98,False,7,6,2,17,4,0,4,CLOSED
+15729,Adhere to PEP 8 (#15127),zhangskz,2024-02-05T19:21:10Z,2024-02-05T22:20:44+00:00,1,2.99,True,3,3,1,108,0,0,0,MERGED
+15728,"Increased the size of the error message buffer by 4x, to 511 bytes.",zhangskz,2024-02-05T19:19:26Z,2024-02-05T22:20:34+00:00,1,3.02,True,2,2,2,419,0,0,0,MERGED
+15727,Don't break the trace (#11311),zhangskz,2024-02-05T19:18:20Z,2024-02-05T22:20:19+00:00,1,3.03,True,1,1,1,105,0,0,0,MERGED
+15726,Fix inconsistent timestamp json encode/decode (#12396),zhangskz,2024-02-05T19:15:41Z,2024-02-05T22:20:05+00:00,1,3.07,True,14,0,2,376,0,0,0,MERGED
+15709,Breaking Change: Remove deprecated legacy class aliases.,zhangskz,2024-02-02T23:34:26Z,2024-02-05T17:14:14+00:00,1,65.66,True,0,242,3,55,0,0,0,MERGED
+15708,Breaking Change: Removed obsolete/duplicate `setup.py` from Python.,zhangskz,2024-02-02T23:33:00Z,2024-02-05T17:14:29+00:00,1,65.69,True,15,444,4,1204,0,0,0,MERGED
+15707,Fix and re-enable Java Maven BOM test ,zhangskz,2024-02-02T23:31:00Z,2024-02-03T01:14:35+00:00,1,1.73,True,2,2,1,213,0,0,0,MERGED
+15693,Add missing generated file,jpechane,2024-02-02T08:20:56Z,2024-02-06T04:35:30+00:00,2,92.24,False,1,0,1,1487,3,0,3,CLOSED
+15679,Add config option to print 64-bit numbers in JSON as unquoted in python library,olzhabay,2024-02-01T09:12:18Z,2024-08-28T10:01:53+00:00,7,5016.83,False,37,2,3,155,6,3,9,CLOSED
+15677,reserve memory space for packed repeated field to avoid unnecessary memory overhead,firedtoad,2024-02-01T03:53:20Z,2024-05-20T10:01:58+00:00,6,2622.14,False,11,1,2,57,5,3,8,CLOSED
+15665,[ObjC] Use a local to avoid warnings in 32bit builds.,zhangskz,2024-01-31T17:12:14Z,2024-01-31T19:14:19+00:00,1,2.03,True,12,6,1,182,0,0,0,MERGED
+15664,[CPP] Add the privacy manifest to the C++ CocoaPod.,zhangskz,2024-01-31T17:10:51Z,2024-01-31T19:13:34+00:00,2,2.05,True,8,1,1,268,0,0,0,MERGED
+15663,[ObjC] Add the privacy manifest to the ObjC CocoaPod.,zhangskz,2024-01-31T17:08:48Z,2024-01-31T19:13:17+00:00,2,2.07,True,8,1,1,267,0,0,0,MERGED
+15662,remove use of mach_absolute_time (#15554),zhangskz,2024-01-31T17:07:02Z,2024-01-31T19:00:51+00:00,2,1.9,True,2,2,1,423,0,0,0,MERGED
+15661,Add PrivacyInfo.xcprivacy (#15557),zhangskz,2024-01-31T17:04:52Z,2024-01-31T18:33:45+00:00,2,1.48,True,14,0,1,2031,0,0,0,MERGED
+15659,Update internalUpdateFileDescriptor() to synchronize setProto() and resolveAllFeatures() to avoid data races.,zhangskz,2024-01-31T16:28:36Z,2024-01-31T18:33:26+00:00,1,2.08,True,4,9,1,28,0,0,0,MERGED
+15652,"[Ruby] Delegate difference, intersection, union from RepeatedField to Array",marianosimone,2024-01-30T23:56:50Z,2024-02-06T06:15:19+00:00,1,150.31,False,5,5,2,312,2,0,2,CLOSED
+15644,Add gRPC Federation extension,goccy,2024-01-30T09:37:02Z,2024-02-02T00:26:19+00:00,1,62.82,False,6,0,2,254,6,0,6,CLOSED
+15641,Check ctype() in DescriptorBuilder for edition 2023 and beyond.,mkruskal-google,2024-01-30T00:22:24Z,2024-01-30T20:00:18+00:00,1,19.63,True,5,1,2,263,0,0,0,MERGED
+15638,Fail building descriptors if `ctype` is used for fields other than string or bytes.,mkruskal-google,2024-01-29T19:56:18Z,2024-01-29T21:38:44+00:00,1,1.71,True,44,1,2,263,0,0,0,MERGED
+15590,Updating version.json and repo version numbers to: 27-dev,shaod2,2024-01-25T15:50:42Z,2024-01-25T17:18:55+00:00,1,1.47,False,94,94,53,0,6,0,6,CLOSED
+15557,Add PrivacyInfo.xcprivacy,dmaclach,2024-01-23T23:44:47Z,2024-01-25T08:31:46+00:00,1,32.78,False,14,0,1,1925,0,0,0,CLOSED
+15554,remove use of mach_absolute_time,dmaclach,2024-01-23T22:53:55Z,2024-01-25T09:14:53+00:00,2,34.35,False,2,2,1,290,3,0,3,CLOSED
+15525,Bump actions/cache from 3.2.4 to 4.0.0,dependabot,2024-01-22T12:56:11Z,2024-03-04T12:53:50+00:00,1,1007.96,False,1,1,1,5182,2,0,2,CLOSED
+15518,Fix getting env variables on windows,isuruf,2024-01-20T02:27:12Z,2024-01-22T16:54:58+00:00,2,62.46,False,7,1,1,12,1,1,2,CLOSED
+15485,Fix failing Mac CI tests on 3.19.x,acozzette,2024-01-18T17:17:57Z,2024-01-19T18:27:45+00:00,1,25.16,True,1,23,2,0,0,0,0,MERGED
+15481,deps: Bump `rules_pkg` -> 0.10.1,phlax,2024-01-18T14:46:18Z,2024-05-30T10:02:22+00:00,3,3187.27,False,3,3,1,0,7,1,8,CLOSED
+15473,Fix failing Mac CI tests on 21.x,acozzette,2024-01-17T23:34:39Z,2024-01-19T18:53:55+00:00,1,43.32,True,1,22,2,0,0,0,0,MERGED
+15468,Update to latest absl release 20240116.0,zhangskz,2024-01-17T21:11:35Z,2024-01-22T21:51:37+00:00,1,120.67,True,4,3,3,96,0,0,0,MERGED
+15369,[C#] Conformance test: don't skip JsonIgnoreUnknownParsingTest in runner,antongrbin,2024-01-10T12:43:12Z,2024-01-30T00:48:24+00:00,4,468.09,False,8,5,2,427,1,1,2,CLOSED
+15360,Pin bundler version to 2.4.22 for Ruby 2.7 support.,zhangskz,2024-01-09T23:33:02Z,2024-01-10T01:15:48+00:00,2,1.71,True,4,2,1,300,0,0,0,MERGED
+15359,25.x 202401092212,sbenzaquen,2024-01-09T22:32:59Z,2024-01-09T23:41:48+00:00,1,1.15,True,70,70,38,0,0,0,0,MERGED
+15313,Removed `syntax` and added `has_presence`/`is_packed`.,haberman,2024-01-05T23:34:57Z,2024-01-09T17:47:35+00:00,1,90.21,False,63,63,8,0,0,1,1,CLOSED
+15298,Fix BUILD.bazel for newer rules_android_ndk,gferon,2024-01-05T13:55:41Z,2024-01-06T04:09:01+00:00,1,14.22,False,1,1,1,95,0,0,0,CLOSED
+15296,Add missing header file for CSharp,gichan-jang,2024-01-05T07:43:15Z,2024-01-08T00:21:00+00:00,2,64.63,False,1,0,1,104,0,1,1,CLOSED
+15281,Breaking Change: fixed json_encode/json_decode to use the message's pool.,haberman,2024-01-04T21:33:08Z,2024-01-05T18:39:09+00:00,1,21.1,False,44,9,2,211,0,0,0,CLOSED
+15265,"Fix separate issues in JRuby's ""native"" `dup` and `inspect` methods.",JasonLunn,2024-01-03T22:02:00Z,2024-01-05T18:41:09+00:00,1,44.65,False,7,6,3,58,1,0,1,CLOSED
+15236,Do no longer depend on deprecated //external:python_headers,mering,2023-12-29T20:06:37Z,2024-01-04T18:19:31+00:00,1,142.22,False,3,8,2,168,6,0,6,CLOSED
+15203,Add rake runtime dependency for ruby,ntkme,2023-12-27T09:37:07Z,2024-01-23T23:05:28+00:00,5,661.47,False,8,1,2,3319,21,0,21,CLOSED
+15193,ruby: Fix format-security warning when compiling the Ruby Gem,nathantalewis,2023-12-26T20:58:24Z,2024-01-02T16:43:42+00:00,1,163.75,False,4,4,2,293,1,0,1,CLOSED
+15187,Update README.md,yoshiori,2023-12-26T08:17:03Z,2024-05-20T10:02:01+00:00,4,3505.75,False,1,1,1,14,3,1,4,CLOSED
+15172,Add -I import flag to CLI,piperchester,2023-12-21T17:38:52Z,2024-05-20T10:02:03+00:00,2,3616.39,False,1,1,1,259,2,1,3,CLOSED
+15149,Fixed Ruby tests to pin Bundler to a version compatible with Ruby 2.7.,haberman,2023-12-19T22:13:43Z,2023-12-20T01:02:28+00:00,1,2.81,True,2,2,2,0,0,0,0,MERGED
+15135,Add protoc-gen-elm code generator and related libs to third party links,anmolitor,2023-12-18T22:11:54Z,2024-09-02T10:02:05+00:00,2,6203.84,False,4,1,1,122,5,0,5,CLOSED
+15127,Adhere to PEP 8,unknown,2023-12-18T07:05:44Z,2024-01-31T18:35:57+00:00,1,1067.5,False,3,3,1,10,3,0,3,CLOSED
+15113,Fix compiling problems with lua 5.4,owent,2023-12-15T18:29:38Z,2024-10-11T20:00:13+00:00,9,7225.51,False,12,5,3,25,3,4,7,CLOSED
+15072,Add IceRPC to the list of third-party RPC implementations,bernardnormier,2023-12-13T16:28:18Z,2024-02-06T00:00:10+00:00,2,1303.53,False,1,0,1,174,1,0,1,CLOSED
+15048,"In Ruby, support each without block on repeated fields",shaldengeki,2023-12-12T03:50:45Z,2024-07-12T10:02:04+00:00,5,5118.19,False,18,3,3,133,18,1,19,CLOSED
+15041,"In ruby/README.md, correct a target name",shaldengeki,2023-12-11T22:26:23Z,2023-12-13T09:46:08+00:00,1,35.33,False,1,1,1,1125,0,0,0,CLOSED
+15040,Bump rules_apple to 3.1.1,shaldengeki,2023-12-11T22:19:18Z,2023-12-12T19:53:16+00:00,1,21.57,False,2,2,1,1041,1,0,1,CLOSED
+15017,"protoc: support inf, -inf, nan, and -nan in option values",jhump,2023-12-08T14:27:58Z,2024-04-23T15:41:23+00:00,9,3289.22,False,144,4,4,221,9,2,11,CLOSED
+14981,Adding DLL export/import tags to generated public upb API,dawidcha,2023-12-06T13:07:33Z,2024-06-12T15:26:35+00:00,10,4538.32,False,51,21,4,1128,5,1,6,CLOSED
+14952,Bump shivammathur/setup-php from 2.26.0 to 2.28.0,dependabot,2023-12-04T12:59:08Z,2024-01-15T12:45:33+00:00,1,1007.77,False,1,1,1,3101,2,0,2,CLOSED
+14907,Only substitute prefixes during installation setup.,mkruskal-google,2023-11-30T04:26:59Z,2023-11-30T07:41:22+00:00,1,3.24,True,4,1,1,256,0,0,0,MERGED
+14879,Fix unnecessary switching of map representation for DiscardUnknownFields,gerben-stavenga,2023-11-29T01:29:02Z,2023-12-01T00:24:44+00:00,1,46.93,False,5,5,1,817,2,0,2,CLOSED
+14867,Fix CMake shared library build using utf8_range and utf8_valid,Chekov2k,2023-11-28T10:20:22Z,2024-04-18T20:08:44+00:00,2,3417.81,False,2,2,1,128,10,0,10,CLOSED
+14847,python: support passing `memoryview` to `bytes` fields,fandreuz,2023-11-27T01:29:51Z,2024-07-10T10:02:18+00:00,1,5432.54,False,75,5,5,390,6,1,7,CLOSED
+14810,Make SetField/GetField public and operate on MessageValue instead of void*.,copybara-service,2023-11-20T15:09:35Z,2023-11-21T14:37:12+00:00,1,23.46,False,0,0,0,75,0,0,0,CLOSED
+14800,Register a shutdown deleter for C++ feature defaults,mkruskal-google,2023-11-17T23:42:18Z,2023-11-18T03:19:29+00:00,1,3.62,True,10,8,1,41,0,0,0,MERGED
+14792,Remove inappropriate executable permissions from a header,musicinmybrain,2023-11-17T15:44:41Z,2024-07-17T10:02:11+00:00,2,5826.29,False,0,0,1,78,6,0,6,CLOSED
+14789,[C#] Fix trimming warning in JSON formatter enum handling,JamesNK,2023-11-17T14:09:30Z,2023-12-19T20:10:41+00:00,1,774.02,False,10,1,3,289,3,0,3,CLOSED
+14756,"Add support for extensions in CRuby, JRuby, and FFI Ruby (#14703)",zhangskz,2023-11-14T23:59:16Z,2023-11-15T02:57:37+00:00,2,2.97,True,257,55,13,273,0,0,0,MERGED
+14739,"Add support for options in CRuby, JRuby and FFI (#14594)",JasonLunn,2023-11-13T18:11:37Z,2023-11-13T21:39:33+00:00,1,3.47,True,584,183,27,478,0,0,0,MERGED
+14732,Bump actions/checkout from 4.1.0 to 4.1.1,dependabot,2023-11-13T12:06:55Z,2024-03-18T12:52:38+00:00,1,3024.76,False,4,4,3,2202,2,0,2,CLOSED
+14703,"Add support for extensions in CRuby, JRuby, and FFI Ruby",JasonLunn,2023-11-09T15:50:38Z,2023-11-14T23:37:26+00:00,5,127.78,False,231,28,13,133,0,2,2,CLOSED
+14679,Update utf8_range subtree,acozzette,2023-11-07T23:04:39Z,2023-11-08T15:50:44+00:00,1,16.77,True,52,5,5,0,0,0,0,MERGED
+14670,Recover version.json to main/26-dev,shaod2,2023-11-07T17:37:39Z,2023-11-27T16:18:22+00:00,1,478.68,False,14,14,1,0,2,0,2,CLOSED
+14623,Backport CI fixes to 22.x,mkruskal-google,2023-11-02T18:42:42Z,2023-11-02T22:16:53+00:00,1,3.57,True,42,25,7,0,0,0,0,MERGED
+14622,Backport CI fixes to 23.x,mkruskal-google,2023-11-02T18:40:49Z,2023-11-02T21:49:52+00:00,1,3.15,True,45,28,6,0,0,0,0,MERGED
+14621,Backport CI fixes to 24.x,mkruskal-google,2023-11-02T18:37:05Z,2023-11-02T20:27:01+00:00,1,1.83,True,29,15,3,0,0,0,0,MERGED
+14620,Backport CI fixes to 25.x,mkruskal-google,2023-11-02T18:27:24Z,2023-11-02T20:41:49+00:00,1,2.24,True,47,23,5,0,0,0,0,MERGED
+14617,merge 25.x to main,anandolee,2023-11-02T18:05:22Z,2023-11-02T19:55:47+00:00,5,1.84,True,81,81,38,0,0,1,1,MERGED
+14599,Merge 25.x branch to main,haberman,2023-11-01T23:36:18Z,2023-11-02T20:32:34+00:00,3,20.94,False,83,83,40,0,1,1,2,CLOSED
+14594,"Add support for options in CRuby, JRuby and FFI",JasonLunn,2023-11-01T22:01:23Z,2023-11-09T11:49:04+00:00,7,181.79,False,516,171,27,478,0,4,4,CLOSED
+14590,refactor:  toolchainize language runtimes,thesayyn,2023-11-01T20:30:16Z,2024-08-09T10:02:26+00:00,8,6757.54,False,57,15,3,42,4,7,11,CLOSED
+14583,Fixed Python memory leak in map lookup.,haberman,2023-11-01T17:37:03Z,2023-11-01T19:10:56+00:00,1,1.56,True,24,18,4,723,0,0,0,MERGED
+14575,Cherry-pick: Include .inc files directly instead of through a filegroup,acozzette,2023-10-31T23:26:28Z,2023-11-01T01:30:34+00:00,1,2.07,True,9,1,1,406,0,0,0,MERGED
+14562,Add Automatic-Module-Name,Sineaggi,2023-10-31T03:21:01Z,2023-11-06T08:28:45+00:00,1,149.13,False,18,0,5,281,2,0,2,CLOSED
+14560,Check that ffi-compiler loads before using it to define tasks. (#14538),zhangskz,2023-10-31T02:08:43Z,2023-10-31T16:27:44+00:00,1,14.32,True,45,37,1,152,0,0,0,MERGED
+14554,Bump ossf/scorecard-action from 2.1.2 to 2.3.1,dependabot,2023-10-30T12:58:06Z,2023-11-11T04:11:46+00:00,1,279.23,False,1,1,1,5069,2,0,2,CLOSED
+14552,"PHP: Fix big numbers (uint64, fixed64) bug",zlodes,2023-10-29T13:08:00Z,2024-09-11T10:02:04+00:00,16,7628.9,False,80,13,7,184,12,4,16,CLOSED
+14538,Check that ffi-compiler loads before using it to define tasks.,JasonLunn,2023-10-26T19:11:18Z,2023-10-30T14:38:13+00:00,1,91.45,False,45,37,1,12,0,0,0,CLOSED
+14505,feat: add protons extension,achingbrain,2023-10-23T13:13:56Z,2023-10-31T18:58:48+00:00,1,197.75,False,5,0,1,85,5,0,5,CLOSED
+14503,Bump ossf/scorecard-action from 2.1.2 to 2.3.0,dependabot,2023-10-23T12:38:30Z,2023-10-30T12:58:13+00:00,1,168.33,False,1,1,1,4761,1,0,1,CLOSED
+14481,Fix 13736 error on upb compilation with Clang,RmStorm,2023-10-19T06:46:54Z,2023-10-24T19:18:27+00:00,1,132.53,False,1,1,1,313,2,0,2,CLOSED
+14469,Cherry-pick JSON parser fix to 22.x,acozzette,2023-10-18T21:01:18Z,2023-10-19T16:29:29+00:00,1,19.47,True,40,40,7,175,0,0,0,MERGED
+14455,"Write generated source files to the build tree, not the source tree.",iskunk,2023-10-18T03:55:03Z,2024-02-14T18:32:18+00:00,3,2870.62,False,34,25,3,1719,5,0,5,CLOSED
+14443,Cherry-picked Python tests and updated upb dep,haberman,2023-10-17T16:53:23Z,2024-02-12T22:28:29+00:00,1,2837.59,False,28,2,3,233,2,0,2,CLOSED
+14442,Cherry-picked Python tests and updated upb dep,haberman,2023-10-17T16:49:46Z,2023-10-17T19:17:09+00:00,2,2.46,True,28,2,3,233,0,0,0,MERGED
+14441,Cherry-picked Python tests and updated upb dep,haberman,2023-10-17T16:43:49Z,2023-10-17T18:12:02+00:00,2,1.47,True,28,2,3,233,0,0,0,MERGED
+14439,Add Descriptor to forbidden names in Java codegen,pkwarren,2023-10-17T15:14:38Z,2024-03-26T14:58:26+00:00,1,3863.73,False,3,1,2,316,4,0,4,CLOSED
+14434,Cherry-pick: Set `PROTOBUF_EXPORT` on `InternalOutOfLineDeleteMessageLite()`,acozzette,2023-10-17T01:47:03Z,2023-10-17T16:11:39+00:00,1,14.41,True,1,1,1,138,0,0,0,MERGED
+14431,Update stale checked-in files,acozzette,2023-10-16T23:14:11Z,2023-10-17T01:43:35+00:00,1,2.49,True,13,13,13,118,0,0,0,MERGED
+14415,Update docs/third_party.md with new Clojure/Script libraries,st-cheewah,2023-10-16T15:16:19Z,2023-10-23T13:23:03+00:00,1,166.11,False,4,0,1,123,1,0,1,CLOSED
+14412,Bump actions/checkout from 3.1.0 to 4.1.0,dependabot,2023-10-16T12:09:35Z,2023-10-20T19:08:42+00:00,1,102.99,False,4,4,3,5226,1,0,1,CLOSED
+14409,Fix typos,xiaolou86,2023-10-16T03:59:17Z,2023-10-17T17:22:59+00:00,1,37.4,False,6,6,5,0,6,0,6,CLOSED
+14385,fix: typo inside docs/upb/design.md and docs/design/editions/edition-zero-features.md,parikshitadhikari,2023-10-13T13:51:00Z,2023-10-13T21:26:55+00:00,2,7.6,False,2,2,2,213,0,0,0,CLOSED
+14321,Add links to protobuf validation tools in documentation,wgmo,2023-10-09T10:42:26Z,2023-12-12T15:20:28+00:00,1,1540.63,False,2,0,1,116,3,0,3,CLOSED
+14318,Fix protoc search path in setup.py,ottmar-zittlau,2023-10-08T17:40:55Z,2023-10-13T21:21:33+00:00,1,123.68,False,2,2,1,129,1,0,1,CLOSED
+14284,Add AsStructEnumerable() method on RepeatedField and MapField (C#),jskeet,2023-10-04T10:46:37Z,2025-03-13T10:02:18+00:00,11,12623.26,False,291,1,4,91,18,6,24,CLOSED
+14272,Use ConcurrentDictionary in JsonFormatter,JamesNK,2023-10-03T05:47:32Z,2023-10-03T18:05:06+00:00,2,12.29,False,9,19,1,250,3,1,4,CLOSED
+14253,Proper fix utf8 command line arguments,hknielsen,2023-09-29T07:48:42Z,2024-01-20T02:47:31+00:00,16,2706.98,False,45,4,4,199,13,5,18,CLOSED
+14246,Automated rollback of commit 2a55706f9d36afd1742c97fd0d611ea8af0ac3f8.,zhangskz,2023-09-28T19:35:16Z,2023-09-28T20:39:55+00:00,1,1.08,True,4,1,1,59,0,0,0,MERGED
+14240,Backport fix python code generation compatibility with Cython on 24.x,vthib,2023-09-28T14:10:58Z,2023-09-28T16:52:06+00:00,1,2.69,True,11,3,1,91,0,0,0,MERGED
+14230,Adding DLL export/import tags to generated public upb API,dawidcha,2023-09-27T10:56:20Z,2023-12-06T13:05:50+00:00,8,1682.16,False,51,21,4,1074,26,5,31,CLOSED
+14197,Support non ascii commandline args,hknielsen,2023-09-25T10:49:15Z,2023-09-27T03:12:52+00:00,1,40.39,False,1,0,1,366,4,0,4,CLOSED
+14192,Update third_party.md with Zig implementation,Arwalk,2023-09-23T08:12:40Z,2023-09-25T15:58:56+00:00,1,55.77,False,1,0,1,86,4,0,4,CLOSED
+14174,Remove <iostream> from the common.h header,serge-sans-paille,2023-09-22T08:25:16Z,2023-09-26T20:06:55+00:00,1,107.69,False,0,1,1,374,2,0,2,CLOSED
+14145,Update to latest absl LTS patch 20230802.1,zhangskz,2023-09-20T17:07:49Z,2023-09-21T03:29:17+00:00,1,10.36,False,5,5,3,0,0,0,0,CLOSED
+14144,Update to latest absl LTS patch 20230802.1,zhangskz,2023-09-20T16:01:56Z,2023-09-21T14:58:20+00:00,1,22.94,False,5,5,3,0,1,0,1,CLOSED
+14115,Bump shivammathur/setup-php from 2.24.0 to 2.26.0,dependabot,2023-09-18T12:18:19Z,2023-10-13T21:10:33+00:00,2,608.87,False,1,1,1,3531,2,0,2,CLOSED
+14113,Add : to format code below this line.,hazel-fairytech,2023-09-18T06:11:50Z,2024-03-27T10:01:58+00:00,1,4587.84,False,1,1,1,0,6,0,6,CLOSED
+14097,Add .NET debugging attributes,JamesNK,2023-09-15T14:43:15Z,2023-09-26T07:25:08+00:00,3,256.7,False,138,1,10,1190,2,1,3,CLOSED
+14054,`Printer`: Include Abseil's `str_cat.h` for `absl::AlphaNum`,mkruskal-google,2023-09-12T20:14:21Z,2023-09-12T21:43:18+00:00,1,1.48,True,1,0,1,106,0,0,0,MERGED
+14046,`__NDK_MAJOR` should be `__NDK_MAJOR__`,thejinchao,2023-09-12T06:31:18Z,2023-09-19T23:13:57+00:00,1,184.71,False,1,1,1,58,1,0,1,CLOSED
+14042,"Add dependency on absl::layout, and explicitly include absl layout includes",mkruskal-google,2023-09-11T21:53:24Z,2023-09-11T23:22:06+00:00,1,1.48,True,2,0,2,104,0,0,0,MERGED
+14028,Bump actions/cache from 3.2.4 to 3.3.2,dependabot,2023-09-11T12:22:07Z,2024-01-15T12:46:05+00:00,1,3024.4,False,1,1,1,5557,2,0,2,CLOSED
+14026,Add missing abseil header to printer.h,MiguelBarro,2023-09-11T08:48:14Z,2023-10-13T22:39:50+00:00,1,781.86,False,1,0,1,49,3,0,3,CLOSED
+14025,cmake: don't consider include paths on different drives,cgudrian,2023-09-11T08:14:33Z,2023-10-13T21:15:23+00:00,1,781.01,False,6,0,1,413,4,0,4,CLOSED
+14024,Fix indent in options.md,oldergod,2023-09-11T08:08:15Z,2023-10-13T21:16:40+00:00,1,781.14,False,2,2,1,51,0,0,0,CLOSED
+13911,Do not store binary data inside php files,mikhainin,2023-09-08T08:38:59Z,2024-01-24T16:10:16+00:00,1,3319.52,False,36,34,1,844,4,0,4,CLOSED
+13908,Cherry-pick recent changes from the upb repo,acozzette,2023-09-07T22:30:22Z,2023-09-08T17:14:52+00:00,1,18.74,False,17,14,4,2367,0,0,0,CLOSED
+13898,24.x 202309071538,honglooker,2023-09-07T15:43:08Z,2023-09-07T16:45:43+00:00,1,1.04,True,52,52,36,0,0,0,0,MERGED
+13882,Python: stop using backward compatiblity timezones,aurel32,2023-09-06T20:23:37Z,2024-04-30T10:01:52+00:00,1,5677.64,False,4,4,1,393,5,0,5,CLOSED
+13869,unused miport sys and variable,edgarriba,2023-09-06T13:20:58Z,2023-10-13T21:28:44+00:00,1,896.13,False,0,2,1,32,0,0,0,CLOSED
+13867,Update Wire's option tag to fix conflict,oldergod,2023-09-06T09:14:51Z,2023-09-09T15:33:12+00:00,1,78.31,False,5,5,1,26,3,0,3,CLOSED
+13859,port_def: Add ignore for -Wextra-semi with Clang,jonaski,2023-09-05T21:31:37Z,2023-09-09T15:55:28+00:00,1,90.4,False,1,0,1,97,0,0,0,CLOSED
+13838,Improve .NET debugging of Protobuf messages,JamesNK,2023-09-05T06:33:22Z,2023-09-22T17:50:01+00:00,3,419.28,False,1,0,1,650,4,0,4,CLOSED
+13830,Updated to latest rules_kotlin ,sgowroji,2023-09-04T04:37:59Z,2023-09-11T05:23:28+00:00,3,168.76,False,2,2,1,30,6,1,7,CLOSED
+13820,Silence warnings about extra semicolon in non-TSAN builds.,zhangskz,2023-09-01T16:15:48Z,2023-09-01T19:54:16+00:00,1,3.64,True,179,130,20,61,0,0,0,MERGED
+13818,Fix TypeError when passing an instance of a subclass of String to a string field,NotFounds,2023-09-01T07:24:17Z,2023-12-14T16:06:46+00:00,5,2504.71,False,12,1,2,1544,5,2,7,CLOSED
+13808,Workaround ICE on gcc 7.5 by not having one overload call the other o…,zhangskz,2023-08-31T17:00:28Z,2023-09-01T15:56:22+00:00,1,22.93,True,17,1,1,84,0,0,0,MERGED
+13805,examples: fix deprecated ioutil package,profnandaa,2023-08-31T09:39:54Z,2023-12-16T10:02:06+00:00,2,2568.37,False,5,5,3,204,2,1,3,CLOSED
+13707,Update the link for the Julia implementation,dourouc05,2023-08-28T14:59:43Z,2023-09-02T03:32:38+00:00,1,108.55,False,1,1,1,82,0,0,0,CLOSED
+13686,Merge upb into the protobuf repo,acozzette,2023-08-25T13:27:30Z,2023-08-25T15:20:12+00:00,2,1.88,True,91759,0,426,160,2,0,2,MERGED
+13656,Backport MSVC 32-bit fix,mkruskal-google,2023-08-23T19:51:10Z,2023-08-23T22:27:18+00:00,3,2.6,True,21,43,4,82,0,0,0,MERGED
+13608,pyproject.toml,rinarakaki,2023-08-19T03:46:22Z,2024-03-26T10:02:04+00:00,2,5286.26,False,47,63,5,0,3,1,4,CLOSED
+13603,24.x 202308181942,fowles,2023-08-18T19:43:16Z,2023-08-18T21:01:11+00:00,1,1.3,True,52,52,36,0,0,0,0,MERGED
+13593,fix python code generation compatibility with Cython,vthib,2023-08-18T09:59:52Z,2023-08-29T18:01:27+00:00,1,272.03,False,2,2,1,989,11,0,11,CLOSED
+13586,Internal change,copybara-service,2023-08-18T08:33:59Z,2023-08-25T21:10:14+00:00,1,180.6,False,39,2,1,15,1,0,1,CLOSED
+13581,Update reference to missing function JsonStringToBinary(),dimo414,2023-08-17T19:21:58Z,2023-08-31T11:00:41+00:00,1,327.65,False,2,2,1,129,3,0,3,CLOSED
+13561,Expand global feature validation to cover some edge cases that were initially missed.,copybara-service,2023-08-15T23:09:48Z,2023-08-16T20:17:10+00:00,2,21.12,False,142,29,2,266,0,1,1,CLOSED
+13555,Update collect_all_artifacts.sh to remove C# Google.Protobuf.Tools nuget build,zhangskz,2023-08-15T19:44:04Z,2023-08-15T20:52:42+00:00,1,1.14,True,0,37,1,225,0,0,0,MERGED
+13554,Update collect_all_artifacts.sh to remove C# Google.Protobuf.Tools nuget build,zhangskz,2023-08-15T19:41:48Z,2023-08-15T20:52:28+00:00,1,1.18,True,0,37,1,225,2,0,2,MERGED
+13534,Backport 24.x fixes for absl dep update and setup.py,zhangskz,2023-08-14T15:27:35Z,2023-08-14T16:27:51+00:00,2,1.0,True,7,8,5,52,1,0,1,MERGED
+13515,Update absl submodule and dep to latest 20230802.0 LTS,zhangskz,2023-08-10T19:58:57Z,2023-08-10T21:45:00+00:00,2,1.77,True,4,4,3,43,0,0,0,MERGED
+13509,[bazel] Update platforms,keith,2023-08-10T18:15:55Z,2023-08-30T15:25:08+00:00,3,477.15,False,5,3,1,12,3,0,3,CLOSED
+13504,BugFix for issue 13482,nickwinger,2023-08-10T13:55:27Z,2023-11-28T10:02:05+00:00,2,2636.11,False,16,0,2,6,4,1,5,CLOSED
+13494,ruby: Fix object cache lookups on 32-bit platforms,stanhu,2023-08-09T20:37:31Z,2023-08-15T19:54:44+00:00,5,143.29,False,46,5,2,1174,2,2,4,CLOSED
+13492,port_def: Ignore -Wpedantic warnings,jonaski,2023-08-09T19:40:44Z,2023-08-15T20:21:20+00:00,3,144.68,False,2,0,1,63,0,1,1,CLOSED
+13489,Main 202308091812,ericsalo,2023-08-09T18:18:53Z,2023-08-09T19:30:18+00:00,1,1.19,True,62,63,36,0,0,0,0,MERGED
+13479,protoc: parser rejects explicit use of map_entry option,jhump,2023-08-09T00:23:33Z,2023-08-10T18:27:47+00:00,4,42.07,False,30,3,3,890,3,1,4,CLOSED
+13474,protoc: validate that reserved range start is before end,jhump,2023-08-08T21:17:42Z,2023-08-15T02:11:16+00:00,1,148.89,False,33,0,3,354,1,0,1,CLOSED
+13471,protoc: support identifiers as reserved names in addition to string literals (only in editions),jhump,2023-08-08T19:51:18Z,2023-08-10T19:43:12+00:00,9,47.87,False,150,6,3,123,5,2,7,CLOSED
+13469,Update utf8_range to the latest version,martijneken,2023-08-08T04:53:20Z,2023-08-22T17:23:40+00:00,1,348.51,False,2,2,1,104,1,0,1,CLOSED
+13464,Add weakref tests for python messages + fix for upb implementation,bostikforever,2023-08-07T20:50:00Z,2024-12-28T10:02:05+00:00,4,12205.2,False,54,0,2,125,17,1,18,CLOSED
+13449,Fixed Document `cmake --build` to `cmake --build .`,xinzhanguo,2023-08-03T06:50:21Z,2023-08-04T23:42:09+00:00,1,40.86,False,1,1,1,266,1,0,1,CLOSED
+13444,PHP: Fix read and write of float and double on big endian platforms,jonathan-albrecht-ibm,2023-08-02T17:31:25Z,2023-08-05T00:24:33+00:00,1,54.89,False,4,4,1,388,3,0,3,CLOSED
+13443,Conformance test runner big endian fixes,jonathan-albrecht-ibm,2023-08-02T17:24:56Z,2023-08-05T00:46:31+00:00,1,55.36,False,25,6,3,761,4,0,4,CLOSED
+13430,24.x 202308011841,zhangskz,2023-08-01T18:42:22Z,2023-08-01T19:53:20+00:00,1,1.18,True,30,30,23,0,0,0,0,MERGED
+13420,Pin frozen messages to their arena to prevent garbage collection.,JasonLunn,2023-07-31T19:42:59Z,2023-07-31T22:08:23+00:00,1,2.42,False,12,0,2,155,0,0,0,CLOSED
+13418,Backport dropped support of Bazel 5 to 24.x,mkruskal-google,2023-07-31T17:49:11Z,2023-07-31T19:48:02+00:00,2,1.98,True,168,100,15,0,0,0,0,MERGED
+13401,bazel: Get rid of exec_tools.,benjaminp,2023-07-27T22:15:09Z,2023-07-31T15:08:51+00:00,1,88.89,False,4,4,3,61,2,0,2,CLOSED
+13369,In OSS mode omit some extern template specializations. We have seen r…,zhangskz,2023-07-21T15:49:06Z,2023-07-21T17:53:04+00:00,1,2.07,True,28,383,29,100,0,0,0,MERGED
+13361,feat: add new extension,guihouchang,2023-07-20T09:34:23Z,2023-08-02T03:18:04+00:00,1,305.73,False,5,0,1,0,3,0,3,CLOSED
+13345,Update protobuf's upb dep to latest 24.x commit.,zhangskz,2023-07-18T14:49:32Z,2023-07-18T17:22:57+00:00,1,2.56,True,2,2,1,58,0,0,0,MERGED
+13343,Ruby FFI implementation,JasonLunn,2023-07-18T14:09:48Z,2023-07-25T06:18:00+00:00,26,160.14,False,4396,185,42,18,3,11,14,CLOSED
+13338,add protoc-gen-proto to third_party.md,mycroftjr,2023-07-18T05:48:13Z,2023-07-19T17:30:37+00:00,1,35.71,False,1,0,1,305,1,0,1,CLOSED
+13326,chore(zlib.BUILD): use @platforms instead of @bazel_tools,4kangjc,2023-07-14T20:25:58Z,2023-07-17T21:05:40+00:00,1,72.66,False,1,1,1,13,0,0,0,CLOSED
+13325,Removed compatibility code for PHP <8.0,haberman,2023-07-14T19:03:49Z,2023-08-21T21:58:13+00:00,6,914.91,False,62,179,9,235,1,0,1,CLOSED
+13323,Automated rollback of commit adb2c4b415c35cda3e4394384ec579ea8dd8ec92.,seongkim75,2023-07-14T17:40:06Z,2023-07-31T16:49:45+00:00,1,407.16,True,74,187,3,75,0,0,0,MERGED
+13316,Backport editions plugin improvements,mkruskal-google,2023-07-13T23:44:33Z,2023-07-15T01:07:29+00:00,2,25.38,True,1487,420,45,122,0,0,0,MERGED
+13310,Update Kotlin compiler to escape package names,pkwarren,2023-07-13T19:36:51Z,2023-09-11T20:20:23+00:00,2,1440.73,False,16,4,4,432,10,0,10,CLOSED
+13309,Put a 4k limit on preallocation to prevent OOM from malformed inputs.,googleberg,2023-07-13T18:55:52Z,2023-07-13T20:09:14+00:00,2,1.22,True,3,1,1,28,0,0,0,MERGED
+13308,Add standalone protoc plugin binaries,unknown,2023-07-13T17:57:13Z,2025-09-03T02:05:23+00:00,8,18776.14,False,357,0,32,2730,21,1,22,CLOSED
+13303,Handle conflicting macros for FreeBSD,jbloggz,2023-07-13T13:44:12Z,2023-07-13T16:19:11+00:00,1,2.58,False,20,0,2,2598,1,0,1,CLOSED
+13296,Add JRuby 9.3 and 9.4 to the test matrix under both Bazel versions.,JasonLunn,2023-07-12T22:16:58Z,2023-07-15T03:12:11+00:00,7,52.92,False,30,15,5,30,0,4,4,CLOSED
+13293,Use `omit` to skip ObjectCache tests when it is not in use.,JasonLunn,2023-07-12T21:17:39Z,2023-07-12T22:18:13+00:00,3,1.01,False,34,12,2,157,0,1,1,CLOSED
+13289,Removed compatibility code for PHP <8.0,haberman,2023-07-12T19:09:00Z,2023-07-31T15:53:21+00:00,1,452.74,False,40,141,6,115,1,0,1,CLOSED
+13288,Explicitly delete the destructor for the internal `Rep` structure.,mkruskal-google,2023-07-12T18:18:51Z,2023-07-12T19:34:49+00:00,3,1.27,True,3,0,1,248,0,0,0,MERGED
+13286,Sync UPB.,JasonLunn,2023-07-12T16:33:26Z,2023-07-13T20:23:22+00:00,2,27.83,False,184,172,3,0,0,0,0,CLOSED
+13277,Updating version.json to: 25-dev,mkruskal-google,2023-07-11T23:30:23Z,2023-07-12T19:16:23+00:00,1,19.77,True,10,10,1,0,0,0,0,MERGED
+13257,AVX-based UTF-8 Validation optimizations,palade,2023-07-10T17:08:36Z,2024-02-21T10:02:21+00:00,2,5416.9,False,1325,2,8,517,9,1,10,CLOSED
+13247,Add Protobuf extension number for DTDL option,jrdouceur,2023-07-07T23:26:55Z,2023-07-11T14:45:21+00:00,1,87.31,False,5,0,1,114,1,0,1,CLOSED
+13240,Fix building shared libraries on MinGW-w64,MehdiChinoune,2023-07-07T16:48:02Z,2023-07-08T16:00:47+00:00,1,23.21,False,7,7,6,0,0,0,0,CLOSED
+13223,Warning: assigned but unused variable,themudassarhassan,2023-07-06T09:31:43Z,2023-11-22T10:02:38+00:00,1,3336.52,False,2,2,1,238,4,0,4,CLOSED
+13218,Add option to enable csharp nullable reference types,ogxd,2023-07-05T22:15:08Z,2024-02-29T10:02:01+00:00,7,5723.78,False,612,6,9,1602,20,5,25,CLOSED
+13213,Update upb dep to the latest 23.x commit,mkruskal-google,2023-07-05T20:04:56Z,2023-07-05T21:18:19+00:00,2,1.22,True,4,4,3,0,0,0,0,MERGED
+13204,Refactor the object cache to better account for race conditions,fowles,2023-07-04T19:23:04Z,2023-07-08T23:18:59+00:00,15,99.93,False,242,158,11,18,1,7,8,CLOSED
+13200,Update has_bits.h,lbermes,2023-07-03T08:03:48Z,2023-07-04T19:24:24+00:00,1,35.34,False,4,4,1,149,5,0,5,CLOSED
+13160,add C# deterministic serialization,fmg-lydonchandra,2023-06-28T06:42:19Z,2023-09-26T07:42:45+00:00,12,2161.01,False,193,6,4,129,4,11,15,CLOSED
+13156,Bulk update to use `assert_*` methods wherever possible.,JasonLunn,2023-06-27T22:10:06Z,2023-06-29T03:32:05+00:00,4,29.37,False,1018,1219,12,47,0,1,1,CLOSED
+13141,adding provide to php composer.json,brettmc,2023-06-25T01:56:30Z,2023-07-07T17:11:04+00:00,1,303.24,False,3,0,1,457,3,0,3,CLOSED
+13106,[23.x] Backport deps: Update Guava 32.0.1,chadlwilson,2023-06-20T17:18:37Z,2023-06-20T21:27:37+00:00,1,4.15,True,40,40,3,378,0,0,0,MERGED
+13099,deps: Update Guava to 32.0.1,chadlwilson,2023-06-19T01:56:54Z,2023-06-20T16:59:49+00:00,1,39.05,False,40,40,3,358,0,0,0,CLOSED
+13097,Enable building PHP extension on Windows,Jan-E,2023-06-17T20:28:30Z,2023-06-20T21:35:52+00:00,1,73.12,False,15,0,2,254,3,0,3,CLOSED
+13090,Add dllexport_decl for generated default instance. (#13085),fowles,2023-06-16T18:22:46Z,2023-06-16T21:35:38+00:00,4,3.21,True,61,61,13,157,0,1,1,MERGED
+13088,Modify port_def.inc to ignore -Wshadow warning (#13059),fowles,2023-06-16T15:34:32Z,2023-06-16T17:26:09+00:00,1,1.86,True,10,2,2,115,0,0,0,MERGED
+13085,Add dllexport_decl for generated default instance.,owent,2023-06-16T13:26:01Z,2023-06-16T18:12:13+00:00,1,4.77,False,3,3,1,12,1,0,1,CLOSED
+13075,Ruby: Refactor the object cache to better account for race conditions,casperisfine,2023-06-15T09:58:14Z,2023-07-12T14:11:32+00:00,13,652.22,False,122,158,7,932,3,5,8,CLOSED
+13062,Fix signedness comparison warning,thomasegriffith,2023-06-14T19:44:16Z,2023-06-15T17:28:56+00:00,1,21.74,False,1,1,1,306,1,0,1,CLOSED
+13059,Modify port_def.inc to ignore -Wshadow warning,4kangjc,2023-06-14T17:41:34Z,2023-06-16T15:31:20+00:00,3,45.83,False,8,0,1,13,4,0,4,CLOSED
+13058,23.x 202306140951,ericsalo,2023-06-14T16:54:34Z,2023-06-14T18:22:34+00:00,2,1.47,True,51,51,35,0,0,0,0,MERGED
+13050,Clean up staleness tests.,mkruskal-google,2023-06-13T23:10:35Z,2023-06-14T19:24:03+00:00,1,20.22,True,23,16,1,165,0,0,0,MERGED
+13049,Clean up staleness tests.,mkruskal-google,2023-06-13T23:10:22Z,2023-06-14T19:24:11+00:00,1,20.23,True,23,16,1,165,0,0,0,MERGED
+13017,Backport GHA cleanup,mkruskal-google,2023-06-09T17:36:39Z,2023-06-09T18:49:04+00:00,1,1.21,True,41,12,4,28,0,0,0,MERGED
+13016,Backport GHA cleanup,mkruskal-google,2023-06-09T17:36:35Z,2023-06-09T18:49:08+00:00,1,1.21,True,43,12,4,28,0,0,0,MERGED
+13002,[23.x] Backport deps: Update Guava to 32.0.0,chadlwilson,2023-06-08T03:49:19Z,2023-06-08T16:12:19+00:00,1,12.38,True,77,77,4,672,3,0,3,MERGED
+12997,Cherry-pick portability fixes to 23.x line,fowles,2023-06-07T17:00:26Z,2023-06-07T18:19:43+00:00,1,1.32,True,15,13,5,0,2,0,2,MERGED
+12993,Add the option to not quote numbers and booleans.,shawjef3,2023-06-06T18:16:36Z,2024-02-27T10:02:13+00:00,3,6375.76,False,150,79,2,18,5,7,12,CLOSED
+12987,[23.x] Backport some changes necessary for google-cloud-cpp resp. conda-forge,h-vetinari,2023-06-05T23:23:49Z,2023-06-06T15:58:35+00:00,3,16.58,True,138,17,7,495,1,2,3,MERGED
+12984,Updated upb dep to cherry-pick Ruby fix.,haberman,2023-06-05T21:03:24Z,2023-06-20T21:35:38+00:00,1,360.54,False,8,8,3,0,1,0,1,CLOSED
+12983,Use the same ABI for static and shared libraries on non-Windows platforms,Romain-Geissler-1A,2023-06-05T20:40:58Z,2023-06-06T17:55:34+00:00,3,21.24,False,11,9,4,2265,0,0,0,CLOSED
+12978,CMake: Fix abseil_dll target name when using find_package(absl),traversaro,2023-06-04T11:17:02Z,2023-06-05T22:09:03+00:00,2,34.87,False,13,3,1,1030,0,1,1,CLOSED
+12971,Set top level permissions to read only on GitHub Workflows,joycebrum,2023-06-02T19:18:48Z,2023-06-05T20:56:42+00:00,1,73.63,False,35,2,11,571,0,1,1,CLOSED
+12953,deps: Update Guava to 32.0.0,chadlwilson,2023-06-01T08:51:07Z,2023-06-08T03:33:06+00:00,2,162.7,False,77,77,4,688,1,0,1,CLOSED
+12936,Add protobuf-kotlin into protobuf-bom,be-hase,2023-05-31T01:57:09Z,2023-06-20T14:44:15+00:00,1,492.79,False,5,0,1,13,1,0,1,CLOSED
+12919,Fix jruby encoding in new thread,ntkme,2023-05-29T22:46:50Z,2023-05-30T20:56:49+00:00,1,22.17,False,6,4,1,596,0,0,0,CLOSED
+12916,cleanup(cmake): prefer target over global options,coryan,2023-05-26T15:00:35Z,2023-05-30T21:57:00+00:00,1,102.94,False,84,49,5,194,1,0,1,CLOSED
+12906,Automated rollback of commit 4d76f12a82bc53cc2d846e65dd8c4bce6c1d4645.,mkruskal-google,2023-05-25T17:52:05Z,2023-05-25T19:36:17+00:00,1,1.74,True,125,52,11,61,2,0,2,MERGED
+12903,feat: workaround for `DOMAIN` macro,coryan,2023-05-25T13:36:04Z,2023-05-26T17:12:25+00:00,1,27.61,False,113,14,5,278,0,0,0,CLOSED
+12901,feat(cmake): require at least C++14,coryan,2023-05-25T12:36:14Z,2023-05-26T11:19:37+00:00,1,22.72,False,3,0,3,460,0,0,0,CLOSED
+12900,Modernize python code-base using the pyupgrade tool,twmr,2023-05-25T08:49:42Z,2023-09-15T15:46:11+00:00,1,2718.94,False,322,334,43,450,1,0,1,CLOSED
+12891,CMake: Abseil targets referenced with imported namespace,johnwparent,2023-05-24T14:58:19Z,2023-11-27T10:02:31+00:00,11,4483.07,False,1,1,1,1603,5,2,7,CLOSED
+12883,Ruby: Implement write barrier for DescriptorPool,casperisfine,2023-05-23T13:28:49Z,2023-05-25T16:23:35+00:00,1,50.91,False,4,2,1,16,0,0,0,CLOSED
+12870,Fix printer.h compile error in -std=c++2b,lukeocamden,2023-05-22T15:05:47Z,2023-05-24T07:16:52+00:00,1,40.18,False,8,3,2,13,4,0,4,CLOSED
+12852,fix missing int32_t (#12554),fowles,2023-05-18T20:03:25Z,2023-05-18T21:04:20+00:00,2,1.02,True,1,0,1,1203,0,0,0,MERGED
+12834,Updated upb version.,haberman,2023-05-16T20:34:27Z,2023-06-20T21:36:39+00:00,1,841.04,False,3,3,2,0,2,1,3,CLOSED
+12831,fix: keep same ABI in asan and non-asan builds,jiulongw,2023-05-16T19:05:51Z,2023-05-18T18:26:49+00:00,4,47.35,False,16,25,1,13,3,5,8,CLOSED
+12828,Add support for descriptor options in ruby interface,jsteinberg,2023-05-16T14:58:27Z,2023-11-27T10:02:39+00:00,5,4675.07,False,323,1,7,619,12,5,17,CLOSED
+12825,Backport fixes for 23.x,mkruskal-google,2023-05-15T23:49:33Z,2023-05-16T15:34:54+00:00,2,15.76,True,112,9,10,0,0,0,0,MERGED
+12823,Backport fixes for 22.x,mkruskal-google,2023-05-15T23:42:36Z,2023-05-16T15:34:49+00:00,1,15.87,True,17,1,3,0,0,0,0,MERGED
+12778,Update docs for Any type URLs,akshayjshah,2023-05-12T16:57:50Z,2023-05-15T18:05:41+00:00,1,73.13,False,4,2,1,519,1,0,1,CLOSED
+12762,fix: avoid warnings with MSVC,coryan,2023-05-11T11:01:57Z,2023-05-12T15:17:32+00:00,3,28.26,False,5,4,2,213,0,1,1,CLOSED
+12758,Reserve option for proto-telemetry,clly,2023-05-11T04:32:59Z,2023-05-16T03:11:03+00:00,1,118.63,False,5,0,1,261,1,0,1,CLOSED
+12748,Fix csharp fieldmasktree merge on optional primitive fields,marner2,2023-05-09T23:19:48Z,2024-03-08T10:02:09+00:00,11,7282.71,False,61,4,2,188,7,4,11,CLOSED
+12747,Update version numbers for 22.5 release,acozzette,2023-05-09T23:18:59Z,2023-05-10T03:49:04+00:00,1,4.5,True,51,51,35,0,0,0,0,MERGED
+12743,Backport GCC tests+fixes,mkruskal-google,2023-05-09T20:54:56Z,2023-05-09T23:21:54+00:00,1,2.45,True,27,9,2,101,1,0,1,MERGED
+12742,Backport GCC tests+fixes,mkruskal-google,2023-05-09T20:54:06Z,2023-05-09T23:22:09+00:00,1,2.47,True,21,6,1,101,0,0,0,MERGED
+12737,Fix csharp fieldmasktree merge null checking,marner2,2023-05-09T18:24:04Z,2023-11-03T21:59:53+00:00,12,4275.6,False,13,0,2,75,7,4,11,CLOSED
+12733,CMake: Use the correct jsoncpp target name in static builds,semlanik,2023-05-09T15:09:11Z,2023-05-10T16:20:09+00:00,1,25.18,False,5,1,1,127,1,0,1,CLOSED
+12726,Fix crash in #12104 (cherry-pick),acozzette,2023-05-08T23:44:45Z,2023-05-09T15:41:06+00:00,1,15.94,True,3,2,1,436,0,0,0,MERGED
+12725,Fix crash in #12104 (cherry-pick),acozzette,2023-05-08T23:43:13Z,2023-05-09T15:51:18+00:00,1,16.13,True,3,2,1,436,0,0,0,MERGED
+12721,Merge to main after 23.0 release,deannagarcia,2023-05-08T21:07:26Z,2023-05-09T16:08:36+00:00,1,19.02,True,60,61,36,0,0,0,0,MERGED
+12720,fix(cmake): use `find_dependency()` in config files,coryan,2023-05-08T20:09:16Z,2023-07-06T23:35:45+00:00,2,1419.44,False,4,3,4,501,1,0,1,CLOSED
+12718,feat: better debug info for PHP messages and repeated fields,bshaffer,2023-05-08T19:09:48Z,2023-10-17T12:30:48+00:00,3,3881.35,False,662,0,3,514,6,0,6,CLOSED
+12717,Update version numbers for 23.0 release,deannagarcia,2023-05-08T17:52:25Z,2023-05-08T20:00:01+00:00,1,2.13,True,39,39,23,0,0,0,0,MERGED
+12712,cleanup(cmake): automatically use newer policies,coryan,2023-05-08T15:34:34Z,2023-05-08T19:30:23+00:00,1,3.93,False,3,14,1,560,0,0,0,CLOSED
+12707,[PHP] allow encoding enums as integers for json,brettmc,2023-05-08T07:17:20Z,2025-02-12T00:10:20+00:00,17,15496.88,False,223,33,12,695,14,6,20,CLOSED
+12703,Cherry pick various portability fixes from mainline,fowles,2023-05-07T20:41:19Z,2023-05-08T17:01:37+00:00,1,20.34,True,15,9,5,0,0,0,0,MERGED
+12702,Cherry pick various portability fixes from mainline,fowles,2023-05-07T20:39:27Z,2023-05-08T16:20:57+00:00,1,19.69,True,15,9,5,0,0,0,0,MERGED
+12701,fix: avoid warnings on Windows,coryan,2023-05-06T22:00:58Z,2023-05-07T19:46:33+00:00,1,21.76,False,2,2,1,298,0,0,0,CLOSED
+12700,fix: missing -DPROTOBUF_USE_DLLS in pkg-config,coryan,2023-05-06T21:58:15Z,2023-05-07T16:24:45+00:00,1,18.44,False,6,2,3,308,3,0,3,CLOSED
+12698,fix: typo in `string(JOIN)` workaround,coryan,2023-05-06T21:45:47Z,2023-05-07T16:31:36+00:00,1,18.76,False,1,1,1,60,0,0,0,CLOSED
+12697,fix: avoid warnings on MSVC,coryan,2023-05-06T21:43:06Z,2023-05-07T20:13:55+00:00,1,22.51,False,4,4,1,272,0,0,0,CLOSED
+12695,Backport increased C++ test coverage + fixes,mkruskal-google,2023-05-06T03:23:26Z,2023-05-06T05:43:38+00:00,1,2.34,True,72,12,5,0,0,0,0,MERGED
+12694,Backport increased C++ test coverage + fixes,mkruskal-google,2023-05-06T03:23:03Z,2023-05-06T06:03:59+00:00,1,2.68,True,80,12,6,0,0,0,0,MERGED
+12674,protobuf-mode: Remove no-op easy-menu-add call.,benjaminp,2023-05-05T14:00:03Z,2023-05-06T03:30:52+00:00,1,13.51,False,0,1,1,99,0,0,0,CLOSED
+12668,Cherrypick cmake fixes to 22.x,mkruskal-google,2023-05-04T20:03:36Z,2023-05-04T21:07:36+00:00,1,1.07,True,79,33,6,0,0,0,0,MERGED
+12664,22.x 202305041802,zhangskz,2023-05-04T18:03:40Z,2023-05-04T19:32:06+00:00,1,1.47,True,51,51,35,0,0,0,0,MERGED
+12660,Bump Abseil submodule to 20230125.3,mkruskal-google,2023-05-04T16:48:37Z,2023-05-04T17:54:33+00:00,1,1.1,True,4,4,2,31,0,0,0,MERGED
+12659,Update UPB dep,deannagarcia,2023-05-04T16:19:11Z,2023-05-04T22:45:00+00:00,1,6.43,True,2,2,1,0,0,0,0,MERGED
+12647,Update UPB dep for 23.0-rc3,deannagarcia,2023-05-03T16:13:36Z,2023-05-03T17:15:40+00:00,1,1.03,True,2,2,1,0,0,0,0,MERGED
+12636,Update abseil dependency and reorder dependencies to ensure we use th…,deannagarcia,2023-05-02T18:22:34Z,2023-05-02T20:10:33+00:00,1,1.8,False,0,0,0,67,0,0,0,CLOSED
+12635,Turn off `clang::musttail` on i386,acozzette,2023-05-02T17:33:10Z,2023-05-02T19:43:39+00:00,1,2.17,True,3,3,1,158,0,0,0,MERGED
+12634,Turn off `clang::musttail` on i386,acozzette,2023-05-02T17:31:36Z,2023-05-02T19:43:21+00:00,1,2.2,True,3,3,1,158,0,0,0,MERGED
+12633,Cherrypick changes for 22.4,deannagarcia,2023-05-02T17:28:16Z,2023-05-02T21:10:32+00:00,1,3.7,True,20,10,3,33,0,0,0,MERGED
+12623,fix(libprotoc): export useful symbols from .so,deannagarcia,2023-05-01T17:47:07Z,2023-05-01T19:41:43+00:00,1,1.91,True,23,22,2,20,0,0,0,MERGED
+12619,fix(libprotoc): export useful symbols from .so,coryan,2023-05-01T14:08:50Z,2023-05-01T17:41:24+00:00,1,3.54,True,23,22,2,27,0,0,0,MERGED
+12608,Update version numbers for 23.0-rc2,deannagarcia,2023-04-28T18:41:21Z,2023-04-28T19:57:09+00:00,1,1.26,True,30,30,23,0,0,0,0,MERGED
+12601,Add -ex switch to all docker bash commands.,mkruskal-google,2023-04-27T23:51:37Z,2023-04-28T15:57:46+00:00,1,16.1,True,5,5,4,85,0,0,0,MERGED
+12600,Fixes Clang 6 linker bug,mkruskal-google,2023-04-27T23:22:43Z,2023-04-28T15:57:36+00:00,2,16.58,True,1,1,1,28,0,0,0,MERGED
+12599,Reserve option for EngFlow,Yannic,2023-04-27T22:24:53Z,2023-05-01T21:36:17+00:00,2,95.19,False,5,0,1,0,2,0,2,CLOSED
+12593,Cherrypick fixes for 23.0-rc2 into 23.x,deannagarcia,2023-04-27T21:54:20Z,2023-04-28T00:07:14+00:00,4,2.21,True,152,38,9,0,2,1,3,MERGED
+12583,Bump utf8_range to version with working pkg-config,mkruskal-google,2023-04-27T16:28:00Z,2023-04-27T17:28:43+00:00,1,1.01,True,1,2,1,13,0,0,0,MERGED
+12577,Enable the selection of system provided jsoncpp,omenos,2023-04-27T00:07:11Z,2023-05-01T16:38:15+00:00,1,112.52,False,22,12,2,182,6,0,6,CLOSED
+12564,Java should presize fixed size primitives lists,faucct,2023-04-26T09:51:25Z,2023-07-25T17:23:45+00:00,3,2167.54,False,31,8,1,0,18,0,18,CLOSED
+12559,Updating version.json to: 24-dev,deannagarcia,2023-04-25T21:57:18Z,2023-04-26T16:31:30+00:00,1,18.57,False,11,11,1,0,0,0,0,CLOSED
+12554,fix missing int32_t,brechtsanders,2023-04-25T18:55:59Z,2023-04-27T20:31:31+00:00,1,49.59,False,1,0,1,1091,2,0,2,CLOSED
+12553,Fix btree issues in map tests,mkruskal-google,2023-04-25T18:32:25Z,2023-04-25T20:05:59+00:00,1,1.56,True,14,1,2,17,0,0,0,MERGED
+12551,[12524] FieldMask JSON serialization improvement proposal conformance tests,antongrbin,2023-04-25T11:11:44Z,2024-04-09T12:55:05+00:00,7,8401.72,False,123,0,1,74,0,2,2,CLOSED
+12542,Fix declared dependencies for pkg-config,mkruskal-google,2023-04-24T18:26:27Z,2023-04-24T19:59:15+00:00,1,1.55,True,13,0,3,18,0,0,0,MERGED
+12540,Add explicit handling for sub messages.,JasonLunn,2023-04-24T14:06:14Z,2023-05-10T21:16:18+00:00,3,391.17,False,14,1,2,47,0,0,0,CLOSED
+12534,"[Bazel, Python]: fix build during cross build",qzmfranklin,2023-04-22T03:32:44Z,2023-11-28T10:02:38+00:00,2,5286.5,False,10,3,1,1124,11,0,11,CLOSED
+12521,Fix typo for newlib macro,RiversideSC,2023-04-21T00:32:22Z,2023-04-21T13:54:54+00:00,1,13.38,False,1,1,1,21,0,0,0,CLOSED
+12518,Fix declared dependencies for pkg-config,mkruskal-google,2023-04-20T22:05:17Z,2023-04-24T17:44:20+00:00,1,91.65,False,37,2,7,13,2,0,2,CLOSED
+12502,[WIP] Java BOM check with generated pom.xml files,suztomo,2023-04-19T14:59:50Z,2023-04-24T22:53:04+00:00,5,127.89,False,43,0,1,76,1,4,5,CLOSED
+12501,Fix build for newlib,RiversideSC,2023-04-19T08:22:03Z,2023-04-20T03:24:03+00:00,1,19.03,False,1,1,1,23,3,0,3,CLOSED
+12494,Merge 22.x to main,zhangskz,2023-04-18T19:14:57Z,2023-04-18T21:48:36+00:00,1,2.56,True,43,43,34,0,0,0,0,MERGED
+12491,Reserve 1180 for Wire use_array,JGulbronson,2023-04-18T00:13:13Z,2023-04-20T17:57:15+00:00,3,65.73,False,5,0,1,43,7,0,7,CLOSED
+12487,Ensure the ObjC runtime builds for Apple Silicon.,fowles,2023-04-17T20:32:28Z,2023-04-17T22:34:11+00:00,1,2.03,True,16,4,1,152,0,0,0,MERGED
+12445,Backport various warning supressions from 22.x to 21.x,fowles,2023-04-11T18:47:55Z,2023-04-12T17:24:40+00:00,1,22.61,True,39,3,2,115,0,0,0,MERGED
+12433,"Fixes #12432 Remove a warning related to unrelated types, of int and std::vector<g…",sanchayanghosh,2023-04-09T14:37:11Z,2023-11-29T10:02:38+00:00,1,5611.42,False,1,1,1,6146,2,1,3,CLOSED
+12431,restore pypy support broken when adding 3.11 support,tgbugs,2023-04-09T08:53:01Z,2023-04-13T17:58:13+00:00,1,105.09,False,3,1,1,79,3,0,3,CLOSED
+12419,Remove ODR violation from WKT codegen (#12406),haberman,2023-04-06T21:22:14Z,2023-04-06T22:34:10+00:00,1,1.2,True,49,44,8,108,0,0,0,MERGED
+12408,feat(ruby): support to call method using symbol as well in Message_index,bajajneha27,2023-04-05T06:16:04Z,2023-12-29T10:02:12+00:00,1,6435.77,False,20,3,2,11,7,1,8,CLOSED
+12406,Remove ODR violation from WKT codegen,mkruskal-google,2023-04-05T00:37:09Z,2023-04-06T20:20:01+00:00,2,43.71,False,49,44,8,0,1,2,3,CLOSED
+12396,Fix inconsistent timestamp json encode/decode,kindratmakc,2023-04-03T15:02:02Z,2024-01-31T20:01:37+00:00,1,7276.99,False,14,0,2,226,4,0,4,CLOSED
+12378,"[dotnet, csharp] Run tests for supported platforms .NET 6, .NET Framework 4.6.2",Romfos,2023-03-31T14:43:32Z,2023-04-10T20:28:53+00:00,3,245.76,False,22,22,13,722,15,1,16,CLOSED
+12355,Suppress -Wunused-parameter warning for GCC and clang.,deannagarcia,2023-03-28T18:02:40Z,2023-03-28T20:11:50+00:00,1,2.15,True,6,0,1,42,0,0,0,MERGED
+12331,Add missing cstdint include to port.h,jonaski,2023-03-23T23:27:42Z,2023-03-24T19:23:02+00:00,1,19.92,False,1,0,1,161,1,0,1,CLOSED
+12330,JsonFormat - allow one-liners,michaldo,2023-03-23T23:15:37Z,2024-09-16T21:02:16+00:00,2,13029.78,False,4,2,1,148,20,0,20,CLOSED
+12324,Add Cybozu to options.md,ymmt2005,2023-03-23T08:48:35Z,2023-03-24T02:07:19+00:00,1,17.31,False,5,0,1,207,1,0,1,CLOSED
+12320,Fix protoc_nowkt linking on MacOS,sluongng,2023-03-23T02:47:13Z,2023-04-25T03:18:55+00:00,1,792.53,False,5,0,1,2035,2,0,2,CLOSED
+12319,Change the Ruby code generator to emit a serialized proto instead of the DSL,haberman,2023-03-23T00:42:51Z,2023-04-13T23:10:01+00:00,2,526.45,False,198,524,9,4259,3,2,5,CLOSED
+12295,Delete cmake/CMakeLists.txt in favor of CMakeLists.txt,deannagarcia,2023-03-21T17:17:21Z,2023-03-22T03:27:51+00:00,1,10.18,False,0,10,2,81,0,0,0,CLOSED
+12276,Remove erroneous dependencies @com_google_googletest//:gtest and @com…,mkruskal-google,2023-03-20T17:14:43Z,2023-03-20T18:40:07+00:00,1,1.42,True,0,2,1,365,1,0,1,MERGED
+12272,Make warning message type more specific,joclement,2023-03-20T10:03:57Z,2023-03-21T06:43:09+00:00,1,20.65,False,1,1,1,141,0,0,0,CLOSED
+12267,Remove erroneous dependencies @com_google_googletest//:gtest and @com_google_googletest//:gtest_main from //src/google/protobuf/json:parser,prestonvanloon,2023-03-17T18:42:36Z,2023-03-20T15:25:51+00:00,1,68.72,False,0,2,1,148,1,0,1,CLOSED
+12265,"Add @deprecated tag for doc block for service, method and message",mikhainin,2023-03-17T18:11:39Z,2023-03-20T17:28:38+00:00,1,71.28,False,13,0,1,370,0,0,0,CLOSED
+12262,Make json_name take priority over name (fully) in C# parsing,jskeet,2023-03-17T14:59:15Z,2023-03-21T06:54:52+00:00,6,87.93,False,295,6,5,92,2,1,3,CLOSED
+12261,Fix compile-time error for Google.Protobuf in C# 11,jskeet,2023-03-17T14:18:58Z,2023-03-21T06:04:14+00:00,5,87.75,False,4,2,1,418,0,1,1,CLOSED
+12254,Update deprecated aliases for Python 3.12 compatibility.,tirkarthi,2023-03-17T06:14:05Z,2023-03-21T06:17:50+00:00,1,96.06,False,2,2,1,118,0,0,0,CLOSED
+12235,Introduce tests for java manifest contents,sjaenick,2023-03-15T11:57:09Z,2023-06-13T08:35:43+00:00,1,2156.64,False,87,0,1,346,1,0,1,CLOSED
+12216,Use RUBY_ASSERT when available,casperisfine,2023-03-13T12:05:31Z,2023-04-03T10:09:06+00:00,4,502.06,False,22,2,4,356,21,1,22,CLOSED
+12215,"Attach OSGI headers to lite,core, and util",googleberg,2023-03-13T00:19:43Z,2023-03-21T16:08:14+00:00,20,207.81,False,657,7,8,41,6,6,12,CLOSED
+12212,python: make ctypes dependency optional - continued,twoism,2023-03-12T02:29:58Z,2023-12-14T10:02:37+00:00,4,6655.54,False,7,2,1,369,7,2,9,CLOSED
+12200,Merge 22.x back to main,zhangskz,2023-03-10T19:18:42Z,2023-03-10T21:05:51+00:00,1,1.79,True,64,53,39,0,0,0,0,MERGED
+12199,22.x 202303101751,zhangskz,2023-03-10T17:52:01Z,2023-03-10T18:53:31+00:00,2,1.02,True,51,51,35,0,0,0,0,MERGED
+12194,Add version to intra proto dependencies and add kotlin stdlib dependency,deannagarcia,2023-03-10T00:14:27Z,2023-03-10T15:48:57+00:00,1,15.57,True,13,0,3,49,0,0,0,MERGED
+12189,Add $ back for osgi header,deannagarcia,2023-03-09T17:21:39Z,2023-03-09T19:06:45+00:00,1,1.75,True,3,3,3,207,0,0,0,MERGED
+12177,"Fix pom file errors caused by the extra ""$""",deannagarcia,2023-03-08T17:30:40Z,2023-03-08T18:52:17+00:00,4,1.36,True,6,6,5,12,0,1,1,MERGED
+12174,[C#] Replace regex that validates descriptor names,JamesNK,2023-03-08T12:17:21Z,2023-05-15T20:40:47+00:00,6,1640.39,False,17,6,1,509,13,3,16,CLOSED
+12169,Merge 22.x back to main,deannagarcia,2023-03-07T23:40:19Z,2023-03-08T23:38:29+00:00,2,23.97,False,112,59,44,0,0,0,0,CLOSED
+12165,Condition executable name on build system,deannagarcia,2023-03-07T19:03:53Z,2023-03-07T20:19:34+00:00,1,1.26,True,21,1,2,46,0,0,0,MERGED
+12109,Cherrypick osx static linking fix,deannagarcia,2023-03-01T21:53:14Z,2023-03-01T23:38:43+00:00,1,1.76,True,22,1,3,28,0,0,0,MERGED
+12099,Update UPB dep in preparation for 22.1,deannagarcia,2023-03-01T00:22:55Z,2023-03-01T19:02:16+00:00,3,18.66,True,2,2,1,0,0,1,1,MERGED
+12098,Fix pom file to compile for java 8,deannagarcia,2023-02-28T23:53:26Z,2023-12-16T10:02:27+00:00,3,6970.15,False,47,3,1,115,2,1,3,CLOSED
+12085,Remove errorprone dependency from kotlin protos.,deannagarcia,2023-02-28T18:30:33Z,2023-02-28T21:14:18+00:00,1,2.73,True,0,18,4,53,0,0,0,MERGED
+12082,Fix trailing comment attribution when file has no final newline,jhump,2023-02-28T16:22:09Z,2023-02-28T22:51:50+00:00,1,6.49,False,39,11,2,375,0,0,0,CLOSED
+12055,Add java8 tests and build flags,deannagarcia,2023-02-24T21:20:13Z,2023-02-27T17:09:42+00:00,2,67.82,True,42,15,5,235,0,1,1,MERGED
+12052,Enforce Java 8 Compatibility,googleberg,2023-02-24T18:00:01Z,2023-02-27T20:41:50+00:00,2,74.7,False,30,2,2,126,0,1,1,CLOSED
+12043,"Ensure VarintParseSlowArm{32,64} are exported with PROTOBUF_EXPORT",acozzette,2023-02-24T01:01:52Z,2023-02-24T15:49:08+00:00,1,14.79,True,2,0,1,117,1,0,1,MERGED
+12038,Java fixes for 19.x,googleberg,2023-02-23T20:07:41Z,2023-02-24T17:02:55+00:00,1,20.92,True,140,50,16,69,0,0,0,MERGED
+12036,Java fixes for 21.x,googleberg,2023-02-23T19:56:58Z,2023-02-24T17:03:10+00:00,1,21.1,True,143,53,16,69,0,0,0,MERGED
+12035,Java fixes for 22.x,googleberg,2023-02-23T19:51:26Z,2023-02-24T16:28:21+00:00,1,20.62,True,142,53,15,69,0,0,0,MERGED
+12030,Add OSGi headers to pom files.,deannagarcia,2023-02-23T17:11:03Z,2023-02-23T23:06:25+00:00,1,5.92,True,58,0,3,82,0,0,0,MERGED
+12026,Use PROTOBUF_DEPRECATED instead of PROTOBUF_DEPRECATED_ENUM,georgthegreat,2023-02-23T12:27:59Z,2023-03-06T19:58:23+00:00,3,271.51,False,3,14,4,317,5,1,6,CLOSED
+12012,[ObjC] Add ModuleForFile helper method in ImportWriter,dnkoutso,2023-02-21T21:57:13Z,2023-02-27T16:10:27+00:00,8,138.22,False,23,7,2,142,0,4,4,CLOSED
+12008,Allow empty commits for update_php_repo,zhangskz,2023-02-21T19:05:55Z,2023-02-23T17:40:47+00:00,1,46.58,True,1,1,1,241,0,0,0,MERGED
+11994,Set maven compiler release version to 8,deannagarcia,2023-02-17T21:59:16Z,2023-03-01T18:44:09+00:00,1,284.75,False,153,53,19,25,0,0,0,CLOSED
+11992,Add plugin.proto to the list of well known files for python,deannagarcia,2023-02-17T21:33:15Z,2023-02-21T19:01:08+00:00,1,93.46,True,5,1,2,165,0,0,0,MERGED
+11991,"Strip ""src"" from file name of plugin.proto",deannagarcia,2023-02-17T21:27:13Z,2023-02-21T19:00:55+00:00,1,93.56,True,1,0,1,199,0,0,0,MERGED
+11983,docs: Add connect RPC to third party RPC implementations,QuantumGhost,2023-02-17T01:55:27Z,2023-12-22T10:01:58+00:00,2,7400.11,False,1,0,1,125,3,0,3,CLOSED
+11979,Backport GHA improvements to 22.x,mkruskal-google,2023-02-16T20:58:43Z,2023-02-16T22:33:39+00:00,1,1.58,True,71,4,5,49,0,1,1,MERGED
+11975,Merge 22.x back to main after 22.0 release,deannagarcia,2023-02-16T19:26:59Z,2023-02-16T21:13:10+00:00,5,1.77,True,63,63,35,0,0,2,2,MERGED
+11974,22.x 202302161804,zhangskz,2023-02-16T18:04:57Z,2023-02-16T19:17:16+00:00,1,1.21,True,39,39,23,0,0,0,0,MERGED
+11946,Document known quirks of EnumDescriptor::is_closed() when importing a…,zhangskz,2023-02-14T22:03:52Z,2023-02-15T05:12:13+00:00,1,7.14,True,49,14,3,66,0,0,0,MERGED
+11944,Backport GHA fixes and optimizations to 22.x,mkruskal-google,2023-02-14T19:44:32Z,2023-02-14T21:20:56+00:00,1,1.61,True,397,196,15,34,0,0,0,MERGED
+11916,22.x 202302102000,zhangskz,2023-02-10T20:02:06Z,2023-02-10T21:20:44+00:00,1,1.31,True,30,30,23,0,0,0,0,MERGED
+11909,Delete codeowners file in release branch,deannagarcia,2023-02-10T18:27:14Z,2023-02-13T16:15:50+00:00,1,69.81,True,0,37,1,152,0,0,0,MERGED
+11895,Merge main to 22.x,zhangskz,2023-02-09T22:08:04Z,2023-02-10T16:54:33+00:00,3,18.77,True,12004,11054,480,0,0,1,1,MERGED
+11882,fix(ruby): Fixed include paths for Ruby Windows builds,dazuma,2023-02-09T17:04:04Z,2023-02-10T04:22:12+00:00,1,11.3,False,2,3,1,2635,0,0,0,CLOSED
+11880,Generate C# conformance test in script,jskeet,2023-02-09T12:05:03Z,2023-02-14T16:57:32+00:00,1,124.87,False,84,32,3,482,0,0,0,CLOSED
+11830,Update third_party.md add protobuf-decoder-explainer,jamesdbrock,2023-02-07T04:13:06Z,2023-02-08T00:41:38+00:00,2,20.48,False,1,0,1,30,0,0,0,CLOSED
+11812,Add a cache for downloaded Bazel binaries,copybara-service,2023-02-04T00:10:08Z,2023-02-07T00:45:17+00:00,2,72.59,False,21,0,1,111,0,1,1,CLOSED
+11806,Fix the macro PROTOBUF_LITTLE_ENDIAN cannot be set correctly on the l…,fowles,2023-02-03T21:37:23Z,2023-02-06T17:37:10+00:00,1,68.0,True,2,2,1,259,0,0,0,MERGED
+11797,Cherrypick bug fixes to update PHP repo GHA.,deannagarcia,2023-02-03T18:19:24Z,2023-02-03T21:13:43+00:00,1,2.91,True,3,2,1,174,0,0,0,MERGED
+11793,Ruby: Implement Write Barriers,casperisfine,2023-02-03T13:38:46Z,2023-02-23T21:45:53+00:00,2,488.12,False,31,17,3,413,10,1,11,CLOSED
+11767,"In Ruby repeated fields, each_index actually iterates over the index",shaldengeki,2023-02-02T02:16:26Z,2023-12-26T20:14:31+00:00,2,7865.97,False,29,2,3,277,10,0,10,CLOSED
+11750,Fix the macro PROTOBUF_LITTLE_ENDIAN cannot be set correctly on the little endian QNX.,WuGaoyin,2023-02-01T06:01:40Z,2023-02-03T21:23:07+00:00,2,63.36,False,2,2,1,128,4,0,4,CLOSED
+11741,Cherrypick: Fix update php repo GHA.,deannagarcia,2023-02-01T00:32:10Z,2023-02-01T16:50:08+00:00,1,16.3,True,3,3,1,65,0,0,0,MERGED
+11737,Downgrade ruby major version,deannagarcia,2023-01-31T21:58:07Z,2023-01-31T23:45:29+00:00,1,1.79,True,2,2,1,109,0,0,0,MERGED
+11734,feat(php): improve return typehint when repeatedfield,bshaffer,2023-01-31T20:33:18Z,2025-02-14T13:06:55+00:00,9,17872.56,False,569,503,68,210,19,2,21,CLOSED
+11728,Cherrypick Bazel 4 test fix,mkruskal-google,2023-01-31T17:36:02Z,2023-01-31T18:52:02+00:00,1,1.27,True,1,1,1,38,0,0,0,MERGED
+11720,Update Protocol Buffers documentation URL,Xenonym,2023-01-31T06:35:22Z,2023-02-11T07:30:47+00:00,2,264.92,False,4,4,1,161,1,0,1,CLOSED
+11717,Add example in ruby,mlitwiniuk,2023-01-30T21:30:33Z,2023-03-07T17:34:10+00:00,1,860.06,False,138,2,3,76,6,0,6,CLOSED
+11700,[DO NOT SUBMIT] GHA migration tests,mkruskal-google,2023-01-28T02:48:11Z,2023-02-14T00:15:47+00:00,3,405.46,False,80,22,7,0,0,1,1,CLOSED
+11674,"Fixed Visual Studio 2022: protobuf\src\google\protobuf\arena.cc(457,51): error C2127: 'thread_cache_': illegal initialization of 'constinit' entity with a non-constant expression #11672",chronoxor,2023-01-26T16:48:48Z,2023-01-27T04:12:15+00:00,5,11.39,False,2,2,2,0,0,1,1,CLOSED
+11673,feat(6178): emit ruby enum as integer,MQuy,2023-01-26T16:29:00Z,2023-03-07T19:22:13+00:00,5,962.89,False,39,0,3,78,10,2,12,CLOSED
+11668,Update protobuf upb dep,zhangskz,2023-01-25T23:10:20Z,2023-01-26T01:48:35+00:00,1,2.64,False,287,160,4,0,1,0,1,CLOSED
+11663,Bump to Abseil 20230125.rc3 for cmake builds,mkruskal-google,2023-01-25T16:39:23Z,2023-01-25T17:41:06+00:00,1,1.03,True,1,1,1,0,0,0,0,MERGED
+11657,Adding targets for bootstrap proto srcs,mkruskal-google,2023-01-25T02:28:03Z,2023-01-25T16:33:54+00:00,1,14.1,True,20,8,1,13,0,0,0,MERGED
+11655,"For Ruby oneof fields, generate hazzers for members",shaldengeki,2023-01-25T02:04:20Z,2023-01-31T21:13:38+00:00,3,163.16,False,13,39,3,470,7,1,8,CLOSED
+11650,[C#] Improve performance of conversion between Timestamp and DateTime,yiting2002,2023-01-24T23:10:18Z,2024-07-21T10:01:55+00:00,5,13042.86,False,8,8,1,0,9,3,12,CLOSED
+11636,Clean up deprecation message for WKT,mkruskal-google,2023-01-23T22:44:29Z,2023-01-24T18:15:32+00:00,1,19.52,True,4,3,1,13,0,0,0,MERGED
+11622,Upgrade to Abseil LTS 20230117,mkruskal-google,2023-01-21T00:52:22Z,2023-01-21T05:43:15+00:00,1,4.85,True,0,0,0,0,1,0,1,MERGED
+11619,Migrate ruby release targets to genrule to work around Bazel 5 bug,mkruskal-google,2023-01-20T23:08:44Z,2023-01-21T02:41:49+00:00,2,3.55,False,63,169,4,144,0,0,0,CLOSED
+11608,Migrate utf8_range dependency to a git subtree,mkruskal-google,2023-01-20T00:14:59Z,2023-01-20T02:11:44+00:00,1,1.95,True,4781,0,40,234,1,0,1,MERGED
+11601,Update Google.Protobuf.Tools.nuspec,deannagarcia,2023-01-19T19:42:32Z,2023-01-21T00:47:58+00:00,1,29.09,False,11,11,1,304,3,0,3,CLOSED
+11571,python: make ctypes dependency optional,robbertvanginkel,2023-01-17T17:59:07Z,2023-12-26T10:02:05+00:00,4,8224.05,False,2,2,1,375,4,1,5,CLOSED
+11522,Protocol Buffer Documentation Link Update,strahl2e,2023-01-11T11:01:33Z,2023-01-15T22:39:02+00:00,2,107.62,False,1,1,1,167,1,0,1,CLOSED
+11518,Add additional field number allocations for ygot.,robshakir,2023-01-11T01:36:49Z,2023-01-15T22:44:44+00:00,1,117.13,False,1,1,1,446,3,0,3,CLOSED
+11494,Add explicit abort() at the end of AlignFail (Backports #10188),drok,2023-01-08T16:25:19Z,2023-01-15T00:03:29+00:00,4,151.64,True,4,0,1,586,1,2,3,MERGED
+11485,fix: php 8.2 dynamic property warning in MapFieldIter,bshaffer,2023-01-06T19:43:32Z,2023-01-10T19:01:22+00:00,1,95.3,False,5,0,1,324,0,0,0,CLOSED
+11483,Add support for FFI while leaving legacy implementations intact,JasonLunn,2023-01-06T19:41:49Z,2023-07-18T14:50:47+00:00,21,4627.15,False,4280,153,38,21,3,20,23,CLOSED
+11468,Add ruby release targets,deannagarcia,2023-01-05T17:23:36Z,2023-01-19T23:12:09+00:00,35,341.81,False,263,4,9,123,4,14,18,CLOSED
+11449,Use forward slash instead of backslash in nuspec file,deannagarcia,2023-01-03T23:49:44Z,2023-01-04T17:55:54+00:00,2,18.1,False,16,16,1,84,0,0,0,CLOSED
+11443,Avoid -Wunused-parameter on branch 21.x (already committed in main br…,Romain-Geissler-1A,2023-01-03T15:24:26Z,2023-04-12T17:29:52+00:00,1,2378.09,False,8,0,2,7,14,0,14,CLOSED
+11425,RepeatedField: unset by index,Leprechaunz,2022-12-29T11:55:46Z,2023-02-10T18:17:56+00:00,2,1038.37,False,31,4,3,82,13,0,13,CLOSED
+11419,Pin bundler for ruby 2.5 support,deannagarcia,2022-12-28T19:48:17Z,2022-12-28T21:33:03+00:00,1,1.75,True,4,2,2,108,0,0,0,MERGED
+11418,Pin to bundler with ruby 2.5 support,deannagarcia,2022-12-28T17:42:23Z,2022-12-28T21:32:38+00:00,1,3.84,True,4,2,2,108,0,0,0,MERGED
+11417,chore: fix php lint,bshaffer,2022-12-28T17:35:03Z,2023-01-05T19:32:34+00:00,1,193.96,False,17,19,5,358,0,0,0,CLOSED
+11412,Pin ruby bundler,deannagarcia,2022-12-27T21:51:13Z,2022-12-28T17:35:05+00:00,1,19.73,True,3,2,2,74,0,0,0,MERGED
+11408,Add version number to generated files,alielbashir,2022-12-26T15:13:44Z,2024-01-03T10:02:05+00:00,2,8946.81,False,558,166,165,204,17,0,17,CLOSED
+11406,Update IMessage.MergeFrom and MessageParser.ParseFrom to use zero-allocation spans for byte arrays,jackhorton,2022-12-25T18:25:08Z,2024-01-18T10:02:13+00:00,1,9327.62,False,9,25,2,2613,3,1,4,CLOSED
+11389,Add use_bazel.sh 5.1.1 to ruby/python build,anandolee,2022-12-21T20:37:08Z,2022-12-22T20:59:55+00:00,2,24.38,True,19,1,8,40,0,0,0,MERGED
+11357,Don't use int as index parameter,2A5F,2022-12-19T08:56:03Z,2024-01-08T10:02:18+00:00,1,9241.1,False,8,0,1,0,13,0,13,CLOSED
+11352,use @utf8_range to reference //third_party/utf8_range,archpaleus,2022-12-17T21:34:25Z,2022-12-21T21:32:17+00:00,1,95.96,False,1,1,1,0,3,0,3,CLOSED
+11340,Main 202212161220,fowles,2022-12-16T18:30:54Z,2022-12-17T01:04:19+00:00,11,6.56,True,438,96,40,0,0,2,2,MERGED
+11325,Copybara bug repro (DO NOT SUBMIT),mkruskal-google,2022-12-15T20:13:45Z,2023-01-04T21:20:46+00:00,1,481.12,False,0,1,1,0,0,0,0,CLOSED
+11323,GitHub Workflows security hardening,mkruskal-google,2022-12-15T19:22:36Z,2022-12-16T16:57:57+00:00,2,21.59,False,15,0,5,52,0,0,0,CLOSED
+11322,Update iOS version,fowles,2022-12-15T19:19:00Z,2022-12-16T02:36:25+00:00,1,7.29,True,1,1,1,0,0,0,0,MERGED
+11315,Point python setup to zlib after mac update,mkruskal-google,2022-12-15T16:45:30Z,2022-12-15T18:02:46+00:00,1,1.29,True,3,1,1,0,0,0,0,MERGED
+11313,Make proguard feature a part of protolite library,yschimke,2022-12-15T11:49:31Z,2023-12-24T10:15:19+00:00,7,8974.43,False,16,2,4,136,4,1,5,CLOSED
+11312,[PHP] Serialize message to json add include default values and preserve fields name,s2x,2022-12-15T10:26:34Z,2024-05-22T10:02:03+00:00,3,12575.59,False,626,53,13,0,11,6,17,CLOSED
+11308,Bump our clang and gcc version to our public support version.,copybara-service,2022-12-15T05:43:41Z,2022-12-20T22:31:36+00:00,3,136.8,False,49,43,8,352,0,1,1,CLOSED
+11286,fix kokoro git config,esorot,2022-12-13T21:36:50Z,2022-12-14T17:04:29+00:00,1,19.46,True,1,0,1,73,0,0,0,MERGED
+11284,fix kokoro git config ,esorot,2022-12-13T21:30:26Z,2022-12-14T17:04:21+00:00,1,19.57,True,1,0,1,73,0,0,0,MERGED
+11283,fix kokoro git config,esorot,2022-12-13T21:27:05Z,2022-12-14T15:40:15+00:00,1,18.22,True,1,0,1,73,0,0,0,MERGED
+11282,fix kokoro git config,esorot,2022-12-13T21:16:57Z,2022-12-14T17:04:18+00:00,1,19.79,True,1,0,1,73,0,0,0,MERGED
+11281,Updating version.json and repo version numbers to: 21.12,fowles,2022-12-13T21:09:24Z,2022-12-13T22:53:25+00:00,2,1.73,True,59,51,37,0,0,0,0,MERGED
+11264,Removed obsolete proto file.,haberman,2022-12-12T22:33:24Z,2022-12-15T19:47:05+00:00,1,69.23,False,0,40,1,0,0,0,0,CLOSED
+11258,Updated release branch to latest upb.,haberman,2022-12-12T19:06:04Z,2022-12-12T20:21:17+00:00,1,1.25,True,6,8,3,0,0,0,0,MERGED
+11257,Apply registration for `protocel` extensions,nlachfr,2022-12-12T18:08:30Z,2022-12-13T14:54:07+00:00,1,20.76,False,5,0,1,128,1,0,1,CLOSED
+11248,place alignas() before lifetime specifiers,mumbleskates,2022-12-10T23:37:13Z,2022-12-16T01:41:10+00:00,6,122.07,False,3,3,2,2466,0,1,1,CLOSED
+11208,feat: more readable phpdoc escaping,bshaffer,2022-12-08T19:40:40Z,2024-01-31T18:31:50+00:00,2,10054.85,False,47,16,3,834,5,1,6,CLOSED
+11201,21.x 202212080033,ericsalo,2022-12-08T08:58:35Z,2022-12-08T18:27:32+00:00,1,9.48,True,15,10,2,0,0,0,0,MERGED
+11142,Add struct2x to third-party list,yksten,2022-12-04T06:52:29Z,2022-12-13T14:55:16+00:00,1,224.05,False,1,0,1,0,1,0,1,CLOSED
+11128,Fix .NET Native AOT warnings in Protobuf reflection,JamesNK,2022-12-02T07:16:48Z,2023-01-19T07:41:45+00:00,3,1152.42,False,65,9,1,288,8,0,8,CLOSED
+11126,Main 202212011431,jorgbrown,2022-12-02T04:53:06Z,2023-01-04T21:24:24+00:00,2,808.52,False,48,38,33,35,1,0,1,CLOSED
+11124,Make the MergeFrom method of type ReadOnlySequence<byte> public,VAllens,2022-12-02T02:29:14Z,2023-01-25T16:56:05+00:00,5,1310.45,False,9,0,1,428,11,0,11,CLOSED
+11118,"Add ""public"" modifier to Kotlin generated code",deannagarcia,2022-12-01T18:47:29Z,2022-12-01T19:59:45+00:00,1,1.2,True,1,1,1,69,0,0,0,MERGED
+11110,Add custom option numbers for use by Buf,jhump,2022-12-01T14:32:16Z,2022-12-01T17:05:51+00:00,1,2.56,False,9,1,1,831,2,0,2,CLOSED
+11102,Enable the use of [SU]Int32Size and EnumSize templates for AArch64,avieira-arm,2022-11-30T22:09:03Z,2023-05-17T14:21:48+00:00,4,4024.21,False,3,3,1,518,15,2,17,CLOSED
+11092,Protobuf dynamic typing in C#,himkak,2022-11-30T11:40:34Z,2023-01-09T07:09:58+00:00,1,955.49,False,0,0,0,182,10,4,14,CLOSED
+11090,Fix PHP homebrew installation failures,deannagarcia,2022-11-29T21:53:00Z,2022-11-30T18:52:23+00:00,1,20.99,True,3,1,2,261,0,0,0,MERGED
+11088,21.x 202211291338,jorgbrown,2022-11-29T21:48:12Z,2022-11-29T22:48:28+00:00,1,1.0,True,40,41,24,62,0,0,0,MERGED
+11077,Pre-emptively suppress target framework EOL warnings,jskeet,2022-11-29T10:01:58Z,2022-11-29T14:01:46+00:00,1,4.0,True,6,0,1,85,0,0,0,MERGED
+11075,21.x 202211281808,jorgbrown,2022-11-29T03:06:40Z,2022-11-29T19:12:42+00:00,1,16.1,True,65,54,37,368,0,0,0,MERGED
+11068,Add public modifiers to kotlin code,deannagarcia,2022-11-28T18:10:10Z,2022-11-28T19:26:16+00:00,1,1.27,True,144,144,12,60,3,0,3,MERGED
+11055,Condition numpy version on python version,copybara-service,2022-11-23T19:12:45Z,2022-12-17T02:33:25+00:00,1,559.34,False,2,1,1,41,0,0,0,CLOSED
+11054,"Allow message name ""List"" without conflict",copybara-service,2022-11-23T18:29:03Z,2022-11-28T18:29:13+00:00,1,120.0,False,0,0,0,42,0,0,0,CLOSED
+11045,Standardise Link-Format,signalwerk,2022-11-22T23:10:30Z,2022-11-23T17:16:12+00:00,1,18.09,True,8,17,1,389,0,0,0,MERGED
+11039,Update third_party.md,yksten,2022-11-22T01:28:03Z,2022-11-28T18:13:10+00:00,1,160.75,True,1,0,1,106,4,0,4,MERGED
+11034,Fix compilation errors in VS due to template declaration,feast107,2022-11-21T14:13:36Z,2023-03-03T07:48:55+00:00,3,2441.59,False,10,2,1,68,7,1,8,CLOSED
+11032,Fix shared object ABI exports (#5144),LourensVeen,2022-11-21T08:26:17Z,2023-02-28T04:24:41+00:00,1,2371.97,False,6,0,3,577,9,0,9,CLOSED
+11012,protobuf: Improve error message while constructing messages in Python.,copybara-service,2022-11-17T14:14:20Z,2022-11-18T16:48:26+00:00,1,26.57,False,4,2,1,163,0,0,0,CLOSED
+11011,Make generated python files compatible with Cython,vthib,2022-11-17T13:16:11Z,2022-12-06T20:22:50+00:00,1,463.11,False,6,5,1,216,3,0,3,CLOSED
+10985,Add newline to kotlin generated code,copybara-service,2022-11-14T22:45:38Z,2022-12-17T02:33:52+00:00,2,771.8,False,2,2,1,36,0,0,0,CLOSED
+10984,Mark nested builder as clean after clear is called,googleberg,2022-11-14T20:14:48Z,2022-11-14T23:30:51+00:00,1,3.27,True,30,0,3,86,0,0,0,MERGED
+10979,Changing bazel skylib version from 1.2.1 to 1.3.0,Clement-Jean,2022-11-14T14:25:58Z,2022-11-21T18:26:58+00:00,1,172.02,False,3,3,1,110,2,0,2,CLOSED
+10978,Add support for .NET Native AOT,JamesNK,2022-11-14T14:24:20Z,2023-05-24T01:08:42+00:00,13,4570.74,False,633,6,10,392,9,13,22,CLOSED
+10974,Updated comment to be more enthusiastic!,haberman,2022-11-14T01:55:19Z,2022-11-15T19:55:35+00:00,1,42.0,False,1,1,1,40,0,0,0,CLOSED
+10970,Internal change,copybara-service,2022-11-12T21:06:40Z,2022-11-18T13:18:36+00:00,1,136.2,False,1,0,1,15,0,0,0,CLOSED
+10966,Resolve #10949: use raise from in json_format.py,TommyDew42,2022-11-11T02:16:01Z,2022-12-16T05:21:00+00:00,6,843.08,False,25,17,1,14,11,3,14,CLOSED
+10962,fix(sec): upgrade sphinx to ,645775992,2022-11-10T14:48:57Z,2022-11-23T20:40:54+00:00,1,317.87,False,1,1,1,295,1,0,1,CLOSED
+10960,Use bit-field int values in buildPartial to skip work on unset groups of fields.,googleberg,2022-11-10T05:36:27Z,2022-11-14T20:01:43+00:00,1,110.42,True,861,731,13,724,0,0,0,MERGED
+10928,Whitespace change,mkruskal-google,2022-11-07T20:18:13Z,2022-11-10T16:39:27+00:00,1,68.35,False,6,2,1,0,0,0,0,CLOSED
+10901,Add a staleness test for the well-known types,acozzette,2022-11-03T20:24:34Z,2022-11-04T07:15:02+00:00,3,10.84,True,701,617,21,582,0,1,1,MERGED
+10900,Fix misdetection of libatomic with strict compiler flags,joeyparrish,2022-11-03T18:19:37Z,2022-11-23T20:53:19+00:00,1,482.56,False,1,1,1,311,1,0,1,CLOSED
+10879,Fix protobuf fails to compile when -Dprotobuf_BUILD_SHARED_LIBS=ON,enum-class,2022-11-02T03:33:42Z,2022-11-11T20:12:26+00:00,1,232.65,False,1,4,2,79,12,0,12,CLOSED
+10862,"Introduce a runtime version ""poison pill"" for C#",jskeet,2022-11-01T10:53:18Z,2025-03-28T10:02:08+00:00,9,21071.15,False,8386,6619,44,531,25,2,27,CLOSED
+10850,Create CODEOWNERS,deannagarcia,2022-10-31T20:46:06Z,2022-11-11T23:29:33+00:00,1,266.72,True,36,0,1,61,0,0,0,MERGED
+10845,Add bazel php:release target for PECL tgz using generated package.xml,zhangskz,2022-10-31T16:28:40Z,2022-11-01T17:44:10+00:00,1,25.26,True,190,1478,8,27,0,0,0,MERGED
+10843,GitHub Workflows security hardening,sashashura,2022-10-31T10:44:37Z,2022-12-15T19:13:19+00:00,7,1088.48,True,15,0,5,562,3,2,5,MERGED
+10841,add GitHub URL for PyPi,andriyor,2022-10-30T09:14:53Z,2022-11-24T00:42:39+00:00,1,591.46,False,3,0,1,332,2,0,2,CLOSED
+10839,Add update php repo github action,deannagarcia,2022-10-28T22:29:04Z,2022-11-24T00:07:00+00:00,4,625.63,False,45,0,1,149,1,2,3,CLOSED
+10832,Hide ruby native extension symbols on FreeBSD,dankm,2022-10-27T19:07:42Z,2022-11-23T17:33:42+00:00,1,646.43,False,1,1,1,217,6,0,6,CLOSED
+10831,Internal change,haberman,2022-10-27T17:55:17Z,2022-11-24T00:30:38+00:00,1,654.59,False,59,12,11,15,2,0,2,CLOSED
+10830,Add bazel php:release target for PECL tgz using generated package.xml,zhangskz,2022-10-27T16:17:22Z,2022-11-01T17:37:37+00:00,8,121.34,True,172,1484,6,0,0,6,6,MERGED
+10829,Merge 21.x into main,acozzette,2022-10-27T12:54:08Z,2022-10-27T14:22:38+00:00,1,1.48,True,67,41,34,0,0,0,0,MERGED
+10826,Add build rule for pecl php release,deannagarcia,2022-10-26T23:18:50Z,2022-10-28T20:57:40+00:00,4,45.65,False,49,1,2,82,1,2,3,CLOSED
+10825,Update version.json to: 21.10-dev,acozzette,2022-10-26T21:37:49Z,2022-10-27T01:10:42+00:00,1,3.55,True,9,9,1,0,0,0,0,MERGED
+10824,Fix PyPy handling in CalledFromGeneratedFile,xylar,2022-10-26T20:27:56Z,2023-02-17T16:20:47+00:00,1,2731.88,False,4,2,1,43,7,0,7,CLOSED
+10821,Clean up the dotnet test output,jskeet,2022-10-26T08:28:33Z,2022-10-26T16:00:44+00:00,1,7.54,True,4,1,1,249,4,0,4,MERGED
+10818,Replace libc strdup usage with internal impl to restore musl compat,mkruskal-google,2022-10-25T18:00:45Z,2022-10-25T19:26:51+00:00,1,1.44,True,4,2,1,20,0,0,0,MERGED
+10817,"Integrate from Piper for C++, Java, and Python",mkruskal-google,2022-10-25T16:32:01Z,2022-10-25T21:14:55+00:00,1,4.71,True,372,147,63,56,0,0,0,MERGED
+10816,Update cc_dist_library() to include transitive sources,acozzette,2022-10-25T14:50:16Z,2022-11-04T17:22:04+00:00,15,242.53,True,88,74,3,802,0,4,4,MERGED
+10811,Replace libc strdup usage with internal impl to restore musl compat.,perezd,2022-10-25T00:04:34Z,2022-10-25T16:14:15+00:00,2,16.16,True,4,2,1,0,0,0,0,MERGED
+10808,Reserve extension id 1156 for perfetto,altimin,2022-10-23T21:32:22Z,2022-10-24T23:52:59+00:00,1,26.34,True,4,0,1,199,0,0,0,MERGED
+10807,Target macOS 10.9 (#10802),haberman,2022-10-21T23:10:49Z,2022-10-24T17:33:34+00:00,1,66.38,True,2,2,1,52,0,0,0,MERGED
+10802,Target macOS 10.9,deannagarcia,2022-10-20T23:28:48Z,2022-10-21T18:40:47+00:00,1,19.2,True,2,2,1,52,0,0,0,MERGED
+10801,Rename C# files to indicate generated code,jskeet,2022-10-20T13:48:28Z,2022-10-25T15:13:27+00:00,2,121.42,True,19,11,33,99,1,0,1,MERGED
+10797,"Integrate from Piper for C++, Java, Python, Objective-C, C#, and Ruby",mkruskal-google,2022-10-19T23:59:06Z,2022-10-24T22:31:42+00:00,2,118.54,True,3079,5131,197,56,0,0,0,MERGED
+10795,Fix C# Builds,deannagarcia,2022-10-19T22:59:04Z,2022-10-20T22:08:46+00:00,1,23.16,True,1,0,1,148,0,0,0,MERGED
+10789,Create bazel ruby release target,deannagarcia,2022-10-18T22:36:27Z,2023-01-04T22:11:22+00:00,12,1871.58,False,0,0,0,99,0,5,5,CLOSED
+10788,Merge 21.8 into main,mkruskal-google,2022-10-18T22:17:49Z,2022-10-19T15:28:05+00:00,1,17.17,True,74,44,37,0,0,0,0,MERGED
+10786,Update zlib to 1.2.13.,benjaminp,2022-10-18T21:41:42Z,2022-10-20T18:47:57+00:00,3,45.1,True,6,3,1,41,1,1,2,MERGED
+10784,C# release fixes,deannagarcia,2022-10-17T23:52:16Z,2022-10-18T16:49:58+00:00,1,16.96,True,2,5,2,171,0,0,0,MERGED
+10783,Bump upb 21.x,mkruskal-google,2022-10-17T21:51:11Z,2022-10-17T22:59:11+00:00,1,1.13,True,2,2,1,0,0,0,0,MERGED
+10781,Remove unnecessary cast to Builder in generated Java lite code.,1e0ng,2022-10-16T12:00:27Z,2023-05-17T16:34:42+00:00,5,5116.57,False,1,1,1,526,18,0,18,CLOSED
+10779,Bump upb version,mkruskal-google,2022-10-14T21:23:05Z,2022-10-14T23:27:23+00:00,1,2.07,True,969,712,3,0,0,0,0,MERGED
+10777,Fix bazel builds,deannagarcia,2022-10-14T20:31:48Z,2022-10-14T21:39:58+00:00,1,1.14,True,5,0,1,90,0,0,0,MERGED
+10773,Do not force C++14,mumbleskates,2022-10-14T01:58:05Z,2022-10-14T23:28:19+00:00,15,21.5,True,18,2,2,405,4,3,7,MERGED
+10771,Merge pull request #10770 from protocolbuffers/googleberg-cl-480629524,googleberg,2022-10-13T00:29:41Z,2022-10-13T02:40:00+00:00,1,2.17,True,6,1,1,105,0,0,0,MERGED
+10770,Mark default instance as immutable first to avoid race during static initialization of default instances.,googleberg,2022-10-12T16:05:51Z,2022-10-12T20:00:18+00:00,1,3.91,True,6,1,1,182,1,0,1,MERGED
+10767,Add remote caching to bazel builds,mkruskal-google,2022-10-11T21:19:46Z,2022-10-18T04:36:55+00:00,2,151.29,True,376,81,24,587,0,1,1,MERGED
+10766,Edit toolchain to work with absl dep,deannagarcia,2022-10-11T21:15:32Z,2022-10-13T17:31:59+00:00,1,44.27,True,18,6,1,206,0,0,0,MERGED
+10763,Auto capitalize enums name in Ruby (#10454),tisonkun,2022-10-11T17:31:06Z,2022-10-13T01:52:30+00:00,1,32.36,True,48,14,9,18,2,0,2,MERGED
+10760,"Integrate from Piper for C++, Java, and Python",mkruskal-google,2022-10-11T04:16:42Z,2022-10-11T15:16:41+00:00,1,11.0,True,1287,1272,71,56,0,0,0,MERGED
+10758,Declare a dependency on utf8_range repo,mkruskal-google,2022-10-10T23:45:43Z,2022-10-11T19:20:47+00:00,2,19.58,True,38,496,17,0,0,0,0,MERGED
+10757,protoc: accept capital X to indicate hex escape in string literals,jhump,2022-10-10T21:24:23Z,2022-10-10T22:51:01+00:00,1,1.44,True,31,21,3,503,1,0,1,MERGED
+10755,Upgrading simulator version,mkruskal-google,2022-10-10T19:32:35Z,2022-10-10T21:15:09+00:00,1,1.71,True,10,3,4,0,0,0,0,MERGED
+10754,Adding c++14 flag to msvc builds,mkruskal-google,2022-10-10T18:30:10Z,2022-10-11T05:26:31+00:00,1,10.94,True,13,12,1,13,0,0,0,MERGED
+10753,Fix mac builds,deannagarcia,2022-10-10T17:29:16Z,2022-10-10T20:13:42+00:00,1,2.74,True,3,3,2,52,0,0,0,MERGED
+10752,Cleanup issues with internal sync,mkruskal-google,2022-10-10T17:09:33Z,2022-10-10T18:14:32+00:00,2,1.08,True,2,1549,4,0,0,0,0,MERGED
+10751,Downgrade jsoncpp for CMake usage,mkruskal-google,2022-10-10T16:15:02Z,2022-10-10T17:22:41+00:00,1,1.13,True,43,5,3,165,0,0,0,MERGED
+10750,protoc: validate custom json_name configuration (take 2),jhump,2022-10-10T14:15:37Z,2022-12-17T07:48:26+00:00,17,1625.55,False,277,67,3,866,38,7,45,CLOSED
+10745,3.19.x No longer define no_threadlocal on OpenBSD,brad0,2022-10-09T20:00:56Z,2022-10-10T22:39:40+00:00,1,26.65,True,2,2,1,0,0,0,0,MERGED
+10744,3.20.x No longer define no_threadlocal on OpenBSD,brad0,2022-10-09T20:00:30Z,2022-10-10T21:25:43+00:00,1,25.42,True,2,2,1,0,0,0,0,MERGED
+10743,21.x No longer define no_threadlocal on OpenBSD,brad0,2022-10-09T19:59:17Z,2022-10-11T14:19:10+00:00,1,42.33,True,2,2,1,0,0,0,0,MERGED
+10739,Make jsoncpp a formal dependency,mkruskal-google,2022-10-07T22:49:15Z,2022-10-08T01:09:33+00:00,1,2.34,True,30,7288,9,106,0,0,0,MERGED
+10738,[ObjC] Use os_unfair_lock instead of dispatch_semaphore_t.,thomasvl,2022-10-07T21:16:36Z,2022-10-11T17:00:08+00:00,1,91.73,True,33,56,2,162,4,0,4,MERGED
+10737,Upgrade to kotlin 1.6,deannagarcia,2022-10-07T18:02:35Z,2022-10-07T19:45:08+00:00,1,1.71,True,4,4,4,121,0,0,0,MERGED
+10736,Upgrade to Kotlin 1.6,deannagarcia,2022-10-07T17:59:02Z,2022-10-07T21:17:53+00:00,1,3.31,True,4,4,4,121,2,0,2,MERGED
+10735,Upgrade kokoro to Xcode 14,deannagarcia,2022-10-07T17:45:42Z,2022-10-10T21:19:46+00:00,1,75.57,True,11,4,4,0,0,0,0,MERGED
+10734,Upgrade kokoro to Xcode 14,deannagarcia,2022-10-07T17:44:27Z,2022-10-07T19:09:06+00:00,1,1.41,True,1,1,1,0,0,0,0,MERGED
+10733,Upgrade kokoro to Xcode 14,deannagarcia,2022-10-07T17:43:21Z,2022-10-07T19:09:02+00:00,1,1.43,True,1,1,1,0,0,0,0,MERGED
+10732,Upgrade kokoro to Xcode 14,deannagarcia,2022-10-07T17:42:00Z,2022-10-10T19:42:25+00:00,1,74.01,True,3,3,2,0,0,0,0,MERGED
+10730,Complete getting all the ObjC related code through clang-format,thomasvl,2022-10-07T15:21:02Z,2022-10-07T16:27:19+00:00,1,1.1,True,988,739,36,143,0,0,0,MERGED
+10729,"Integrate from Piper for C++, Java, and Python",mkruskal-google,2022-10-07T03:48:58Z,2022-10-07T21:52:27+00:00,1,18.06,True,12409,21399,204,56,0,0,0,MERGED
+10728,[ObjC] Bring back some helpers that other plugin authors might need.,thomasvl,2022-10-06T23:18:00Z,2022-10-07T01:26:49+00:00,1,2.15,True,22,23,2,0,0,0,0,MERGED
+10725,[ObjC] Fix up clang-format directives in generate files.,thomasvl,2022-10-06T20:18:54Z,2022-10-06T22:50:48+00:00,1,2.53,True,32,53,21,144,0,0,0,MERGED
+10724,Add upb to test_messages_proto2_proto/test_messages_proto3_proto visibility,zhangskz,2022-10-06T01:49:32Z,2022-10-06T14:30:37+00:00,1,12.68,True,2,0,1,0,0,0,0,MERGED
+10723,Re-add aliases for test protos,zhangskz,2022-10-05T22:05:28Z,2022-10-06T01:17:15+00:00,1,3.2,False,12,0,1,668,2,0,2,CLOSED
+10722,Add numpy_test.py and numpy dep to python opensource,zhangskz,2022-10-05T16:26:40Z,2022-10-05T21:45:16+00:00,5,5.31,True,201,1,5,202,0,2,2,MERGED
+10721,Merge pull request #10200 from tonydnewell/bugfix/protobuf-7474,tonydnewell,2022-10-05T11:13:09Z,2022-10-06T18:20:34+00:00,1,31.12,True,20,6,1,105,2,0,2,MERGED
+10718,Add serialVersionUID to ByteString and subclasses,stickfigure,2022-10-04T19:49:08Z,2022-10-20T00:01:31+00:00,4,364.21,True,3,1,1,22,0,1,1,MERGED
+10717,Fix spelling errors,deannagarcia,2022-10-04T19:26:35Z,2022-10-04T20:43:28+00:00,1,1.28,True,8,8,7,0,0,0,0,MERGED
+10714,[ObjC] Clean up compiler/objectivec/names.h,thomasvl,2022-10-04T19:14:01Z,2022-10-04T21:25:34+00:00,1,2.19,True,2081,1566,44,266,0,0,0,MERGED
+10713,Force uninstall protobuf in python macos builds,deannagarcia,2022-10-04T19:03:13Z,2022-10-04T21:16:18+00:00,1,2.22,True,1,1,1,119,0,0,0,MERGED
+10712,Update package.xml release notes with github link,zhangskz,2022-10-04T14:44:23Z,2022-10-04T16:28:56+00:00,1,1.74,True,1,3,1,0,0,0,0,MERGED
+10711,Update package.xml release notes with github link,zhangskz,2022-10-04T14:42:53Z,2022-10-04T17:29:01+00:00,1,2.77,False,1,1,1,0,1,0,1,CLOSED
+10710,Update package.xml release notes with github link,zhangskz,2022-10-04T14:41:38Z,2022-10-04T16:29:22+00:00,1,1.8,True,1,1,1,0,0,0,0,MERGED
+10709,Update package.xml release notes with github link,zhangskz,2022-10-04T14:40:14Z,2022-10-04T16:29:34+00:00,1,1.82,True,1,1,1,0,0,0,0,MERGED
+10708,Auto capitalize enums name in Ruby (#10454),tisonkun,2022-10-04T03:24:16Z,2022-10-06T16:58:07+00:00,1,61.56,True,48,14,9,80,4,0,4,MERGED
+10707,Pin Bazel to 5.1.0 for Windows builds,mkruskal-google,2022-10-03T22:25:03Z,2022-10-03T23:46:02+00:00,1,1.35,True,1,1,1,0,0,0,0,MERGED
+10706,Add sanitized builds to Kokoro,mkruskal-google,2022-10-03T21:28:35Z,2022-10-06T17:50:18+00:00,4,68.36,True,127,50,11,111,0,2,2,MERGED
+10703,Update build-protoc.sh,deannagarcia,2022-10-03T17:23:39Z,2022-10-03T21:32:09+00:00,1,4.14,True,1,1,1,164,0,0,0,MERGED
+10702,Add an objc_class_prefix to conformance.proto,thomasvl,2022-10-03T16:40:29Z,2022-10-03T18:07:52+00:00,1,1.46,True,9,6,2,0,3,0,3,MERGED
+10701,fix(sec): upgrade org.jetbrains.kotlin:kotlin-stdlib to 1.6.0,chncaption,2022-10-03T07:46:14Z,2022-10-07T18:06:18+00:00,1,106.33,False,4,4,2,356,3,0,3,CLOSED
+10694,Added staleness test to keep PHP copy of upb in sync with the upb repo,haberman,2022-10-01T01:01:37Z,2022-10-03T18:13:06+00:00,1,65.19,True,15894,12249,8,0,0,0,0,MERGED
+10690,[cpp] Add `crbegin`/`crend` and `front`/`back` accessors to `RepeatedField` and `RepeatedPtrField`,pateldeev,2022-09-30T22:59:46Z,2024-06-05T10:01:59+00:00,6,14723.04,False,116,1,3,168,4,2,6,CLOSED
+10689,[PHP]Added missing files and fix phpext_protobuf_ptr export in pecl version,Cotch22,2022-09-30T17:38:50Z,2022-10-06T17:01:14+00:00,1,143.37,True,1,0,1,397,3,0,3,MERGED
+10688,Merge release branch 21.x into main,zhangskz,2022-09-30T17:12:38Z,2022-09-30T18:21:39+00:00,1,1.15,True,67,49,34,0,1,0,1,MERGED
+10687,Add a Kokoro release job for running staleness tests,acozzette,2022-09-30T12:42:40Z,2022-09-30T15:25:54+00:00,1,2.72,True,18,0,1,290,0,0,0,MERGED
+10684,Add a staleness test for src/file_lists.cmake,acozzette,2022-09-29T22:57:58Z,2022-09-30T11:37:39+00:00,1,12.66,True,25,2,3,430,0,0,0,MERGED
+10683,Merge to release branch post release,deannagarcia,2022-09-29T22:54:02Z,2022-09-30T14:31:12+00:00,1,15.62,True,9,9,1,0,0,0,0,MERGED
+10682,Update version.json to: 16.4-dev,deannagarcia,2022-09-29T22:49:24Z,2022-09-30T15:47:19+00:00,1,16.97,True,9,9,1,0,0,0,0,MERGED
+10681,3.20.x 202209292242,shaod2,2022-09-29T22:48:07Z,2022-09-30T01:23:19+00:00,1,2.59,True,11,11,2,0,0,0,0,MERGED
+10679,Upgrade upb to latest head,acozzette,2022-09-29T21:46:08Z,2022-09-30T11:37:46+00:00,1,13.86,False,2,2,1,136,0,0,0,CLOSED
+10678,3.20.x 202209291741,shaod2,2022-09-29T17:52:20Z,2022-09-29T20:19:39+00:00,1,2.46,True,70,52,38,0,0,0,0,MERGED
+10677,3.19.x 202209291050,mkruskal-google,2022-09-29T17:50:56Z,2022-09-29T19:01:45+00:00,1,1.18,True,67,52,37,0,1,0,1,MERGED
+10676,Update versions and upb commit,zhangskz,2022-09-29T17:48:00Z,2022-09-29T19:01:29+00:00,1,1.22,True,72,57,39,0,0,0,0,MERGED
+10675,Updating version.json and repo version numbers to: 16.3,deannagarcia,2022-09-29T17:35:09Z,2022-09-29T18:39:40+00:00,1,1.08,True,62,47,33,0,0,0,0,MERGED
+10674,Clean up TextFormat,mkruskal-google,2022-09-29T15:53:11Z,2022-09-29T17:06:07+00:00,1,1.22,True,59,12,2,206,0,0,0,MERGED
+10673,Clean up TextFormat parser,mkruskal-google,2022-09-29T15:42:59Z,2022-09-29T17:09:40+00:00,2,1.44,True,59,12,2,206,6,0,6,MERGED
+10672,Clean up TextFormat parser,mkruskal-google,2022-09-29T15:40:26Z,2022-09-29T17:01:52+00:00,1,1.36,True,59,12,2,206,0,0,0,MERGED
+10668,Refactoring Java parsing (3.16.x),mkruskal-google,2022-09-27T22:56:58Z,2022-09-29T17:17:52+00:00,1,42.35,True,1923,1122,40,310,0,0,0,MERGED
+10667,Refactoring Java parsing (3.19.x),mkruskal-google,2022-09-27T22:42:41Z,2022-09-29T17:25:45+00:00,1,42.72,True,1747,945,40,310,0,0,0,MERGED
+10666,Refactoring Java parsing (3.20.x),mkruskal-google,2022-09-27T20:07:26Z,2022-09-29T01:29:56+00:00,1,29.38,True,1690,940,40,310,0,0,0,MERGED
+10665,Refactoring Java parsing (21.x),mkruskal-google,2022-09-27T20:01:51Z,2022-09-28T23:52:46+00:00,1,27.85,True,1690,940,40,310,0,0,0,MERGED
+10664,Refactoring Java parsing (22.x),mkruskal-google,2022-09-27T19:47:04Z,2022-09-28T23:49:35+00:00,1,28.04,True,1686,933,40,310,0,0,0,MERGED
+10660,gracefully handle weird placement of linebreaks around comments,jhump,2022-09-27T17:42:29Z,2022-09-27T19:20:59+00:00,1,1.64,True,86,9,2,210,0,0,0,MERGED
+10658,"Revert ""Merge pull request #10470 from jhump/jh/source-code-info-pseudo options""",mkruskal-google,2022-09-26T16:14:05Z,2022-09-26T17:56:31+00:00,1,1.71,True,11,40,3,138,9,0,9,MERGED
+10657,"Revert ""Merge pull request #10581 from jhump/jh/custom-json-name-validation""",mkruskal-google,2022-09-26T16:03:15Z,2022-09-26T19:17:19+00:00,1,3.23,True,71,215,3,144,1,0,1,MERGED
+10656,Remove NMake support,mkruskal-google,2022-09-26T15:57:11Z,2022-09-26T19:17:05+00:00,1,3.33,True,0,62,5,93,0,0,0,MERGED
+10652,[ObjC] Raise the min OS versions (and required Xcode),thomasvl,2022-09-23T19:53:08Z,2022-09-26T15:50:22+00:00,1,67.95,True,84,53,6,367,1,0,1,MERGED
+10651,[ObjC] Move from `#pragma unused()` to `_unused`,thomasvl,2022-09-23T18:11:38Z,2022-09-26T15:02:00+00:00,1,68.84,True,370,705,18,0,0,0,0,MERGED
+10649,Add an objc_class_prefix for the proto2 syntax file used in conformance tests,thomasvl,2022-09-23T18:01:14Z,2022-09-24T00:51:08+00:00,1,6.83,True,2,1,2,128,0,0,0,MERGED

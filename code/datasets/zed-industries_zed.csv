@@ -1,5 +1,9 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+39552,terminal: Fix terminal cloning on WSL,marcocondrache,2025-10-05T12:15:50Z,2025-10-06T13:18:28+00:00,5,25.04,True,36,31,4,575,0,2,2,MERGED
 39537,terminal: Fix terminal split pane opening in wrong directory,iamngoni,2025-10-05T00:25:48Z,2025-10-05T07:08:17+00:00,1,6.71,True,10,6,1,888,0,0,0,MERGED
+39527,docs: Fix Tree-sitter casing in `vim.md`,warrenjokinen,2025-10-04T16:21:06Z,2025-10-06T17:01:49+00:00,1,48.68,True,4,4,1,137,0,0,0,MERGED
+39526,terminal: Fix rendering of zero-width combining characters,ratazzi,2025-10-04T15:59:18Z,2025-10-06T08:02:27+00:00,1,40.05,True,53,6,1,478,1,0,1,MERGED
+39466,"acp_thread: If available, use git bash over powershell in terminal tool",Veykril,2025-10-03T14:26:10Z,2025-10-06T11:39:20+00:00,1,69.22,True,65,19,7,116,0,1,1,MERGED
 39441,Fix rust-analyzer startup issue in single-file worktrees,timvermeulen,2025-10-03T09:24:40Z,2025-10-03T10:42:46+00:00,2,1.3,True,8,2,1,459,0,1,1,MERGED
 39426,Add more unit tests for Rope,sourcefrog,2025-10-03T05:08:07Z,2025-10-05T18:42:27+00:00,4,61.57,True,91,12,1,499,1,1,2,MERGED
 39425,docs: Fix path of language extensions on Linux,Be-ing,2025-10-03T04:30:11Z,2025-10-05T18:21:49+00:00,1,61.86,True,1,1,1,19,0,0,0,MERGED
@@ -9,6 +13,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 39319,Fix background on rules library panel,AlvaroParker,2025-10-01T20:17:21Z,2025-10-02T03:40:14+00:00,1,7.38,True,1,0,1,479,0,0,0,MERGED
 39311,"Add support for macOS' ""Do Nothing"" window setting",mkozjak,2025-10-01T18:47:23Z,2025-10-02T06:51:10+00:00,1,12.06,True,3,0,1,290,0,0,0,MERGED
 39304,file_finder: Fix history items not using worktree path,marcocondrache,2025-10-01T17:18:08Z,2025-10-02T16:36:10+00:00,1,23.3,True,117,4,2,147,6,0,6,MERGED
+39287,zed: Show GPUI Inspector item in Dev build menus,Simek,2025-10-01T12:34:24Z,2025-10-06T09:21:49+00:00,3,116.79,True,55,42,3,263,0,1,1,MERGED
 39284,Fix agent panel terminals to respect user's SHELL environment variable,dvic,2025-10-01T12:16:53Z,2025-10-02T08:43:26+00:00,1,20.44,False,29,2,2,402,9,0,9,CLOSED
 39262,Add more selection options to app menus,sir-geronimo,2025-10-01T04:49:53Z,2025-10-02T09:21:25+00:00,1,28.53,True,7,0,1,329,0,0,0,MERGED
 39253,ui: Add a `TreeViewItem` component,danilo-leal,2025-09-30T22:33:01Z,2025-10-02T01:19:12+00:00,3,26.77,True,295,0,2,88,1,0,1,MERGED
@@ -54,6 +59,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 38590,markdown: Add support for HTML `heading` elements,RemcoSmitsDev,2025-09-21T09:07:30Z,2025-09-30T10:39:22+00:00,1,217.53,True,140,0,1,181,2,0,2,MERGED
 38588,gpui: Flash menu in menubar on macOS when action is triggered,vicr123,2025-09-21T08:26:23Z,2025-09-24T19:09:03+00:00,6,82.71,True,119,18,7,288,0,1,1,MERGED
 38580,Add xAI's grok-4-fast models,guuzaa,2025-09-21T01:19:46Z,2025-09-29T12:11:31+00:00,2,202.86,False,31,9,2,228,8,1,9,CLOSED
+38573,Fix scroll position persistence when Go to Line modal is dismissed,arunn03,2025-09-20T20:34:39Z,2025-10-06T11:47:20+00:00,1,375.21,False,319,3,1,827,6,5,11,CLOSED
 38560,vim: Remove duplicate bracket pair,CharlesChen0823,2025-09-20T14:31:44Z,2025-09-20T18:01:55+00:00,1,3.5,True,0,7,1,72,0,0,0,MERGED
 38531,gpui: Add tab group,probably-neb,2025-09-19T21:58:24Z,2025-09-25T14:41:29+00:00,1,136.72,True,629,133,5,175,0,0,0,MERGED
 38530,Add setext-style markdown header support to outline view,devdattatalele,2025-09-19T21:36:31Z,2025-09-25T02:15:36+00:00,1,124.65,False,10,2,3,1678,1,3,4,CLOSED
@@ -98,6 +104,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 38069,html: Remove Windows workaround,maxbrunsfeld,2025-09-12T15:37:09Z,2025-09-26T19:14:54+00:00,2,339.63,True,15,24,3,269,0,1,1,MERGED
 38061,Remove trailing newline in `TerminalOutput::full_text`,ImFeH2,2025-09-12T13:20:18Z,2025-09-23T19:11:35+00:00,2,269.85,True,1,2,1,196,0,0,0,MERGED
 38044,Add support for remote MCP servers,clicktodev,2025-09-12T08:26:52Z,2025-09-29T12:04:27+00:00,2,411.63,False,628,129,11,136,11,1,12,CLOSED
+38029,title_bar: Show git status indicator icon in the title bar,lzakharov,2025-09-11T23:50:30Z,2025-10-06T13:43:22+00:00,5,589.88,True,54,26,1,156,1,1,2,MERGED
 38004,Handle negative tool call index from Z.ai API,Etase,2025-09-11T15:47:02Z,2025-09-12T20:20:04+00:00,5,28.55,False,19,5,1,1237,3,5,8,CLOSED
 37979,language_models: Add provider options for OpenRouter models,imumesh18,2025-09-11T08:41:12Z,2025-09-12T09:17:56+00:00,1,24.61,True,96,1,5,404,0,0,0,MERGED
 37975,agent: Make assistant panel input size configurable,ojkelly,2025-09-11T07:59:38Z,2025-09-16T00:27:25+00:00,2,112.46,True,38,8,4,183,1,2,3,MERGED
@@ -149,3 +156,846 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 37359,terminal_view: Fix focusing of center-pane terminals,the-kenny,2025-09-02T09:14:30Z,2025-09-03T14:23:46+00:00,3,29.15,True,11,6,1,462,0,2,2,MERGED
 37356,Remove extra brace in rules template,kung-foo,2025-09-02T08:22:36Z,2025-09-02T15:26:13+00:00,2,7.06,True,1,1,1,59,2,0,2,MERGED
 37350,Fix small errors preventing WSL support from working ,maxbrunsfeld,2025-09-02T03:44:22Z,2025-09-02T14:07:23+00:00,1,10.38,True,5,5,2,431,0,0,0,MERGED
+37327,docs: Add link to msys2 docs page,ognevny,2025-09-01T18:33:29Z,2025-09-02T07:02:41+00:00,2,12.49,True,2,0,1,118,2,0,2,MERGED
+37313,windows: Use a message-only window for `WindowsPlatform`,JunkuiZhang,2025-09-01T13:55:28Z,2025-09-02T14:32:24+00:00,1,24.62,True,275,154,4,435,2,0,2,MERGED
+37306,language_models: Fix beta_headers for Anthropic custom models,imumesh18,2025-09-01T11:36:34Z,2025-09-04T04:02:13+00:00,5,64.43,True,14,9,2,742,3,1,4,MERGED
+37286,language_server: Add `textDocument/foldingRange` support,shettysach,2025-09-01T05:09:17Z,2025-09-30T21:06:21+00:00,5,711.95,False,230,5,8,158,4,9,13,CLOSED
+37277,language_models: Remove unnecessary LM Studio connection refused log,imumesh18,2025-08-31T21:18:58Z,2025-09-13T18:17:13+00:00,8,308.97,True,61,28,3,620,0,1,1,MERGED
+37276,anthropic: Remove logging when no credentials are available,tidely,2025-08-31T20:37:07Z,2025-08-31T21:42:57+00:00,1,1.1,True,1,1,1,580,1,0,1,MERGED
+37264,markdown: Add support for inline HTML `img` tags inside text,RemcoSmitsDev,2025-08-31T11:52:16Z,2025-09-08T08:49:32+00:00,20,188.95,True,172,86,3,1210,12,4,16,MERGED
+37255,Fix lost notifications during modal loop on Windows,reflectronic,2025-08-31T07:33:39Z,2025-09-01T14:03:03+00:00,4,30.49,False,172,146,5,4382,3,1,4,CLOSED
+37253,Streamline Copilot auth flow and fix Result handling,KushalMeghani1644,2025-08-31T05:29:31Z,2025-09-09T23:41:51+00:00,1,234.21,False,446,240,5,2030,8,0,8,CLOSED
+37250,gpui: Fix Windows rendering inconsistencies,raggi,2025-08-31T04:36:33Z,2025-09-01T18:24:49+00:00,2,37.8,False,86,139,8,896,15,1,16,CLOSED
+37221,language_models: Prevent sending the tools object to unsupported models for Ollama,imumesh18,2025-08-30T13:00:32Z,2025-09-02T23:28:36+00:00,1,82.47,True,5,1,1,241,0,0,0,MERGED
+37219,"Support for ""Insert"" from character key location",Gerd-Augsburg,2025-08-30T12:55:37Z,2025-08-31T08:26:28+00:00,1,19.51,True,1,0,1,109,1,0,1,MERGED
+37215,copilot: Improve sign-in flow,KushalMeghani1644,2025-08-30T08:54:19Z,2025-08-30T14:52:07+00:00,3,5.96,False,570,230,1,1238,5,4,9,CLOSED
+37195,Update Rust crate tracing-subscriber to v0.3.20 [SECURITY],renovate,2025-08-29T20:58:46Z,2025-08-31T08:54:23+00:00,1,35.93,True,27,58,2,3446,1,0,1,MERGED
+37185,Improve macOS version information in telemetry,notpeter,2025-08-29T18:37:09Z,2025-09-05T16:40:47+00:00,1,166.06,True,40,14,4,2079,0,0,0,MERGED
+37167,Implement perceptual gamma / contrast correction,localcc,2025-08-29T13:18:12Z,2025-09-01T18:07:45+00:00,7,76.83,True,157,127,7,305,6,3,9,MERGED
+37166,Update lsp-types to properly handle brackets,WAKayser,2025-08-29T12:56:22Z,2025-08-29T14:08:43+00:00,1,1.21,True,223,215,23,145,3,0,3,MERGED
+37118,language_models: Make Copilot Chat resilient to new model vendors and add tokenizer-based token counting,imumesh18,2025-08-28T20:29:19Z,2025-09-09T19:28:26+00:00,2,286.99,True,84,19,2,1547,1,1,2,MERGED
+37091,Improve project symbols UX,Warpten,2025-08-28T14:02:11Z,2025-09-09T19:39:33+00:00,1,293.62,False,358,58,15,742,6,1,7,CLOSED
+37086,editor: Fix inconsistent search behavior for untitled/temporary tabs,KKKZOZ,2025-08-28T12:19:19Z,2025-09-07T18:33:17+00:00,1,246.23,True,2,1,1,1558,0,0,0,MERGED
+37076,terminal: Sanitize trailing parentheses in URL detection,Mearman,2025-08-28T09:29:47Z,2025-09-08T21:05:26+00:00,1,275.59,False,74,1,1,1350,7,0,7,CLOSED
+37068,"Fix boolean settings in ""Agent Settings"" documentation page",lostella,2025-08-28T08:33:04Z,2025-08-28T10:35:31+00:00,1,2.04,True,7,7,1,351,3,0,3,MERGED
+37026,go: Fix highlighting of fields,tyranron,2025-08-27T17:56:58Z,2025-08-28T15:40:48+00:00,1,21.73,True,4,3,2,546,3,0,3,MERGED
+36999,Do not escape glob pattern in dynamic Jest/Vitest test names,lsndr,2025-08-27T12:54:25Z,2025-09-14T16:05:03+00:00,5,435.18,True,43,5,3,99,4,1,5,MERGED
+36996,docs: Copyedit debugger.md and clarify settings location,dandv,2025-08-27T11:12:12Z,2025-08-31T08:19:25+00:00,1,93.12,True,5,4,1,19,0,0,0,MERGED
+36987,editor: Add an option to disable rounded corners for text selection,tie,2025-08-27T08:28:07Z,2025-09-01T08:21:56+00:00,2,119.9,True,28,4,5,229,1,0,1,MERGED
+36954,search: Preserve `SearchOptions` across dismisses,tidely,2025-08-26T18:55:29Z,2025-08-27T21:17:21+00:00,12,26.36,True,41,21,1,614,0,3,3,MERGED
+36929,"Autosave files on close, when setting is `afterDelay`",itsaphel,2025-08-26T12:01:17Z,2025-09-17T13:08:30+00:00,2,529.12,True,49,14,5,164,3,1,4,MERGED
+36905,Cherry-pick bot2,ConradIrwin,2025-08-25T20:39:13Z,2025-09-03T04:14:55+00:00,1,199.59,False,151,0,1,73,3,8,11,CLOSED
+36903,gpui: Improve font rendering on Windows,raggi,2025-08-25T19:39:16Z,2025-08-31T05:27:10+00:00,3,129.8,False,27,86,4,1335,12,1,13,CLOSED
+36887,docs: Fix typo in configuring-zed.md,theAnuragMishra,2025-08-25T17:03:05Z,2025-08-27T18:52:24+00:00,1,49.82,False,1,1,1,19,2,0,2,CLOSED
+36864,Change DeepSeek max token count to 128k,shenjackyuanjie,2025-08-25T11:57:38Z,2025-09-04T05:51:48+00:00,1,233.9,True,2,2,1,167,3,1,4,MERGED
+36841,Fix Git blame popup overlapping with context menu,0xshadow-dev,2025-08-24T11:46:07Z,2025-09-27T11:17:07+00:00,2,815.52,False,59,39,3,762,9,4,13,CLOSED
+36836,Add file icons to multibuffer view,hron,2025-08-24T07:58:09Z,2025-08-24T16:57:12+00:00,2,8.98,True,175,164,1,1061,5,0,5,MERGED
+36830,languages: Add `module` to TS/JS keywords,versecafe,2025-08-24T02:37:07Z,2025-08-24T06:54:47+00:00,1,4.29,True,6,3,3,70,0,0,0,MERGED
+36829,Fix crash when opening inspector on Windows debug build,mzx2689,2025-08-24T02:11:24Z,2025-08-24T11:01:42+00:00,3,8.84,True,3,1,3,538,0,1,1,MERGED
+36827,Pane tabs: Scroll entire new tab into view,hrou0003,2025-08-24T00:56:56Z,2025-09-30T09:04:34+00:00,4,896.13,True,95,35,3,237,18,2,20,MERGED
+36819,multi_buffer: Pre-allocate IDs when editing,tidely,2025-08-23T20:27:46Z,2025-08-24T06:59:32+00:00,1,10.53,True,1,1,1,127,0,0,0,MERGED
+36817,Enhance syntax highlight for C++20 keywords,caiopiccirillo,2025-08-23T19:13:49Z,2025-08-27T04:31:57+00:00,2,81.3,True,56,17,3,353,4,1,5,MERGED
+36806,docs: Update settings in diagnostics.md,itsaphel,2025-08-23T14:27:40Z,2025-08-23T16:11:28+00:00,1,1.73,True,1,1,1,143,0,0,0,MERGED
+36797,tailwind: Add `HTML+ERB` to the list of supported languages,vitallium,2025-08-23T09:42:41Z,2025-09-02T23:32:43+00:00,1,253.83,True,2,0,2,746,0,0,0,MERGED
+36796,project: Change Git repo automatically with change in file buffer,rufevean,2025-08-23T07:51:12Z,2025-10-02T14:42:08+00:00,2,966.85,True,19,3,2,256,8,0,8,MERGED
+36779,Fix constant thread creation on Windows,reflectronic,2025-08-22T22:17:20Z,2025-08-25T19:45:28+00:00,1,69.47,True,3,15,1,53,6,0,6,MERGED
+36729,Hide status bar when it is empty,zumbalogy,2025-08-22T02:32:22Z,2025-09-27T11:16:03+00:00,11,872.73,False,40,5,1,682,2,1,3,CLOSED
+36700,markdown: Add HTML `img` tag support,RemcoSmitsDev,2025-08-21T16:52:51Z,2025-08-31T08:43:24+00:00,28,231.84,True,456,78,5,536,2,14,16,MERGED
+36691,ruby: Improve Ruby test and debug task configurations,vitallium,2025-08-21T15:26:56Z,2025-08-21T17:23:41+00:00,1,1.95,True,4,1,1,162,0,0,0,MERGED
+36663,Fix auto size rendering of SVG images in Markdown,huacnlee,2025-08-21T08:25:43Z,2025-08-31T08:14:57+00:00,1,239.82,True,68,54,3,137,0,0,0,MERGED
+36650,debugger_ui: Update new process modal to include more context about its source,matt-revell,2025-08-21T01:09:12Z,2025-09-18T20:05:56+00:00,1,690.95,True,217,56,5,508,10,0,10,MERGED
+36646,git_ui: Add staged/unstaged view mode like VS Code,mohebifar,2025-08-21T00:13:25Z,2025-09-12T18:30:32+00:00,1,546.29,False,260,58,3,421,6,1,7,CLOSED
+36624,Add GPU info to Sentry crashes,probably-neb,2025-08-20T19:26:22Z,2025-08-21T23:59:42+00:00,1,28.56,True,315,29,16,862,0,0,0,MERGED
+36603,agent2: Port feedback,bennetbo,2025-08-20T15:57:04Z,2025-08-20T17:10:43+00:00,1,1.23,True,321,58,5,19,0,0,0,MERGED
+36589,Fix `clippy::len_zero` lint style violations,imumesh18,2025-08-20T13:26:33Z,2025-08-20T14:36:00+00:00,2,1.16,True,46,46,24,35,1,1,2,MERGED
+36585,Fix `clippy::map_clone` lint violations,tidely,2025-08-20T12:53:13Z,2025-08-20T14:34:52+00:00,1,1.69,True,4,3,4,26,1,0,1,MERGED
+36576,Inject venv environment via the toolchain,Veykril,2025-08-20T10:57:59Z,2025-08-28T14:40:43+00:00,2,195.71,True,704,651,19,271,0,2,2,MERGED
+36557,Stop waiting for part of LSP responses on remote Collab clients' part,SomeoneToIgnore,2025-08-20T07:50:45Z,2025-08-21T06:24:34+00:00,2,22.56,True,1394,680,20,675,0,1,1,MERGED
+36555,git: Add setting to hide blame info in shared project,akar1ngo,2025-08-20T06:29:26Z,2025-09-11T00:16:25+00:00,2,521.78,False,33,0,2,248,4,1,5,CLOSED
+36540,"editor: Use `highlight_text` to highlight matching brackets, fix unnecessary inlay hint highlighting",shettysach,2025-08-20T01:01:45Z,2025-08-21T06:27:42+00:00,1,29.43,True,19,11,1,124,1,0,1,MERGED
+36434,Explicitly allow `clippy::new_without_default` style lint,tidely,2025-08-18T17:39:34Z,2025-08-18T21:49:23+00:00,2,4.16,True,2,0,1,39,3,1,4,MERGED
+36430,git: Suggest merge commit message in remote,probably-neb,2025-08-18T17:08:02Z,2025-08-19T02:08:20+00:00,1,9.01,True,14,2,7,254,1,0,1,MERGED
+36426,editor: Use editorconfig's max_line_length for hard wrap,learnitall,2025-08-18T16:29:54Z,2025-08-21T14:55:43+00:00,7,70.43,True,16,2,2,564,2,1,3,MERGED
+36381,agent2: Emit cancellation stop reason on cancel,benbrandt,2025-08-18T02:15:59Z,2025-08-18T07:58:30+00:00,1,5.71,True,191,93,2,19,0,1,1,MERGED
+36351,Add support for named folder icons,jacobtread,2025-08-17T11:33:01Z,2025-09-12T18:55:26+00:00,3,631.37,True,79,17,10,738,11,1,12,MERGED
+36342,file_icons: Add support for multiple file extensions,jacobtread,2025-08-17T06:16:48Z,2025-10-03T09:42:00+00:00,1,1131.42,True,51,0,2,308,5,0,5,MERGED
+36256,acp thread view: Always use editors for user messages,agu-z,2025-08-15T15:55:39Z,2025-08-15T21:03:36+00:00,2,5.13,True,664,367,6,152,0,1,1,MERGED
+36230,agent: Update use_modifier_to_send behavior description for Windows,YangGangUEFI,2025-08-15T09:42:07Z,2025-08-15T21:03:50+00:00,1,11.36,True,2,2,2,19,0,0,0,MERGED
+36217,Fix macOS arch reporting from `arch_ios` to `arch_arm`,versecafe,2025-08-15T00:01:34Z,2025-08-25T10:55:56+00:00,1,250.91,True,4,0,1,82,1,0,1,MERGED
+36204,keymap_ui: Improve conflict resolution for semantically equal contexts,probably-neb,2025-08-14T19:37:25Z,2025-08-22T00:18:25+00:00,1,172.68,True,353,44,1,384,0,1,1,MERGED
+36169,"workspace: Add ""Reveal in File Manager"" to pane tab context menu",rv-ragul,2025-08-14T09:50:53Z,2025-08-31T18:01:04+00:00,1,416.17,False,15,1,1,149,1,2,3,CLOSED
+36105,Refactor the scrollbar component,MrSubidubi,2025-08-13T10:55:47Z,2025-09-12T22:43:16+00:00,3,731.79,True,1545,2365,35,2408,1,1,2,MERGED
+36103,search: Fix some inconsistencies between project and buffer search bars,Veykril,2025-08-13T10:09:36Z,2025-08-15T07:56:48+00:00,1,45.79,True,536,680,4,408,0,1,1,MERGED
+36081,Add component NotificationFrame & CaptureAudio parts for testing,dvdsk,2025-08-12T21:43:33Z,2025-08-15T10:10:52+00:00,9,60.46,True,448,127,13,425,0,2,2,MERGED
+36068,Avoid symlink conflicts when re-extracting `eslint-xx.tar.gz`,0x5457,2025-08-12T18:54:26Z,2025-08-19T07:28:24+00:00,2,156.57,True,1,1,1,1274,13,0,13,MERGED
+36060,telemetry: Reduce the amount of telemetry events fired,Anthony-Eid,2025-08-12T17:24:59Z,2025-08-12T19:56:28+00:00,3,2.52,True,110,43,6,427,0,2,2,MERGED
+36025,util: Fix edge case when parsing paths,henne90gen,2025-08-12T08:48:24Z,2025-08-25T09:28:33+00:00,9,312.67,True,54,3,2,562,6,2,8,MERGED
+36022,Fix stale branch name display after worktree removal,behrangsa,2025-08-12T06:59:54Z,2025-10-06T14:38:42+00:00,2,1327.65,False,51,1,1,703,1,0,1,CLOSED
+35991,Add multi selection support to UnwrapSyntaxNode,Gregoor,2025-08-11T17:34:00Z,2025-08-18T22:01:46+00:00,1,172.46,True,50,52,2,957,0,0,0,MERGED
+35985,editor: Context menu aside scrolling,dinocosta,2025-08-11T15:50:50Z,2025-08-29T20:23:44+00:00,1,436.55,True,156,17,8,1107,0,0,0,MERGED
+35969,windows: Fix message loop using too much CPU,JunkuiZhang,2025-08-11T11:19:04Z,2025-08-12T18:28:47+00:00,5,31.16,True,269,56,7,742,2,1,3,MERGED
+35960,Ignore whitespace in git blame invocation,jytug,2025-08-10T21:21:25Z,2025-08-12T18:47:15+00:00,1,45.43,True,1,0,1,259,4,0,4,MERGED
+35953,Fix SHA-256 verification mismatch when downloading language servers,jingyuexing,2025-08-10T16:34:17Z,2025-08-10T19:40:14+00:00,1,3.1,True,6,0,1,130,4,0,4,MERGED
+35946,git: Improve error messages,jacobtread,2025-08-10T10:32:55Z,2025-09-09T18:16:29+00:00,1,727.73,True,9,2,2,186,1,0,1,MERGED
+35945,git_ui: Add list of recent commits,jacobtread,2025-08-10T10:09:28Z,2025-10-06T15:52:29+00:00,2,1373.72,False,377,1,10,554,17,2,19,CLOSED
+35907,"Fix ""Find in Folder"" presenting undesired search regions",AdinAck,2025-08-09T05:19:11Z,2025-08-31T18:00:45+00:00,1,540.69,False,9,0,1,403,2,0,2,CLOSED
+35857,open_ai: Fix GPT-5 model family max tokens,imumesh18,2025-08-08T07:22:23Z,2025-08-08T15:57:45+00:00,4,8.59,False,3,3,1,72,1,1,2,CLOSED
+35842,Capture `shorthand_field_initializer` and modules in Rust highlights,zeapoz,2025-08-07T23:23:46Z,2025-08-22T20:16:44+00:00,2,356.88,True,14,3,1,639,1,0,1,MERGED
+35822,Add GPT-5 support through OpenAI API,rtfeldman,2025-08-07T18:22:19Z,2025-08-07T23:35:42+00:00,3,5.22,True,29,1,2,704,3,1,4,MERGED
+35808,bedrock: Inference Config updates,5herlocked,2025-08-07T16:00:38Z,2025-08-29T22:13:07+00:00,1,534.21,True,30,16,2,487,4,0,4,MERGED
+35778,Add icons for Puppet files,Tonguechaude,2025-08-07T11:46:19Z,2025-08-07T13:51:29+00:00,1,2.09,True,3,0,2,173,0,0,0,MERGED
+35765,Fix format on save to support multiple LSP servers,huacnlee,2025-08-07T05:47:39Z,2025-08-12T09:59:12+00:00,11,124.19,False,144,9,4,598,9,5,14,CLOSED
+35756,Add OS specific settings,P1n3appl3,2025-08-06T23:56:40Z,2025-08-07T17:52:54+00:00,2,17.94,True,45,10,4,222,0,1,1,MERGED
+35749,Search Panel: Add setting for persistent include/exclude patterns,steveadams,2025-08-06T20:59:54Z,2025-08-21T06:32:29+00:00,2,345.54,False,368,21,6,837,10,1,11,CLOSED
+35746,Add support for file path's with opening/closing brackets in lsp crate,tbremer,2025-08-06T19:26:32Z,2025-08-09T14:07:36+00:00,1,66.68,False,26,3,2,109,10,2,12,CLOSED
+35744,debugger: Filter out debug scenarios with invalid Adapters from debug picker,Anthony-Eid,2025-08-06T17:58:18Z,2025-08-06T22:10:17+00:00,3,4.2,True,38,27,7,454,0,1,1,MERGED
+35729,Add a way to distinguish metrics by Zed's release channel,SomeoneToIgnore,2025-08-06T14:06:15Z,2025-08-06T15:47:44+00:00,2,1.69,True,38,0,2,19,0,1,1,MERGED
+35727,lsp: Advertise support for markdown in completion documentation,xdBronch,2025-08-06T13:49:13Z,2025-08-06T18:42:29+00:00,1,4.89,True,4,0,1,19,0,0,0,MERGED
+35707,Suggest unsaved buffer content text as the default filename,hmemcpy,2025-08-06T08:49:23Z,2025-08-15T15:26:38+00:00,1,222.62,True,75,18,10,405,2,0,2,MERGED
+35697,Add theme mode cycle action,eduardoalba00,2025-08-06T04:22:33Z,2025-09-09T17:08:14+00:00,5,828.76,False,48,2,3,140,8,1,9,CLOSED
+35684,file_finder: Fix right border not rendering,AlvaroParker,2025-08-05T23:11:09Z,2025-08-08T21:32:14+00:00,1,70.35,True,2,2,1,95,0,0,0,MERGED
+35657,go: Add support for running sub-tests in table tests,Spissable,2025-08-05T19:00:56Z,2025-08-12T08:56:33+00:00,3,157.93,True,439,6,2,302,8,1,9,MERGED
+35636,Use TMPDIR environment variable in install script,anneschuth,2025-08-05T12:46:52Z,2025-08-08T05:05:56+00:00,1,64.32,True,6,1,1,837,4,0,4,MERGED
+35613,Implement Bidirectionality,vicr123,2025-08-04T21:54:41Z,2025-09-09T17:01:54+00:00,2,859.12,False,594,143,20,99,4,1,5,CLOSED
+35599,emmet: Enable in Vue.js files,xar,2025-08-04T18:28:31Z,2025-08-08T02:50:54+00:00,2,80.37,True,2,1,1,331,3,1,4,MERGED
+35580,http_client_tls: Allow different certificates to be set,Askath,2025-08-04T12:54:31Z,2025-08-12T08:10:02+00:00,3,187.26,False,222,2,6,521,5,1,6,CLOSED
+35558,docs: Rewrite the OpenAI compatible API section,phocks,2025-08-04T01:33:26Z,2025-08-04T14:58:41+00:00,1,13.42,True,11,12,1,298,1,0,1,MERGED
+35557,Add more information to our logs,mikayla-maki,2025-08-04T01:29:55Z,2025-08-05T01:37:10+00:00,1,24.12,True,61,39,2,144,0,1,1,MERGED
+35550,Add vision support for OpenAI models in agent panel,07rjain,2025-08-03T19:25:45Z,2025-08-12T16:29:08+00:00,4,213.06,False,16,1,1,754,6,1,7,CLOSED
+35548,completions: Add subtle/eager behavior to Supermaven and Copilot,raphaelluethy,2025-08-03T14:35:48Z,2025-08-07T15:27:30+00:00,5,96.86,True,372,63,7,686,6,5,11,MERGED
+35522,Add rainbow brackets support,GoldStrikeArch,2025-08-02T13:39:55Z,2025-09-01T12:03:00+00:00,13,718.38,False,1034,3,20,3308,9,4,13,CLOSED
+35503,Minor stylistic cleanup in Windows platform,maxbrunsfeld,2025-08-02T00:23:13Z,2025-08-04T18:22:49+00:00,1,65.99,True,1127,1203,3,509,1,0,1,MERGED
+35485,vim: Fix `ap` text object selection when there is line wrapping,vieiralucas,2025-08-01T17:47:44Z,2025-08-18T15:57:53+00:00,2,406.17,True,365,4,7,380,14,1,15,MERGED
+35467,Treat Arduino files as C++,Ph0enixKM,2025-08-01T09:38:07Z,2025-08-08T01:54:42+00:00,1,160.28,True,1,1,1,33,0,0,0,MERGED
+35444,[WIP/prototype] Significantly faster search powered by `ripgrep` ,maruthgoyal,2025-07-31T22:40:02Z,2025-08-18T16:36:39+00:00,4,425.94,False,1198,1,8,350,8,1,9,CLOSED
+35433,docs: Run `docs_preprocessor` in release mode,podsvirov,2025-07-31T19:54:41Z,2025-08-08T20:48:16+00:00,2,192.89,False,2,2,1,69,6,1,7,CLOSED
+35423,Make One Dark's `ansi.*magenta` colors more magenta-y,afgomez,2025-07-31T17:41:50Z,2025-08-08T22:50:40+00:00,1,197.15,True,3,3,1,621,0,0,0,MERGED
+35403,agent_ui: Fix `context_server` duplication when name is updated,imumesh18,2025-07-31T13:35:50Z,2025-09-08T04:50:26+00:00,1,927.24,True,19,3,1,259,0,0,0,MERGED
+35395,evals: Retry on Anthropic's internal and transient I/O errors,osyvokon,2025-07-31T09:21:14Z,2025-08-04T13:56:56+00:00,3,100.59,True,34,25,1,19,0,2,2,MERGED
+35392,Add line ending selector,MatinAniss,2025-07-31T08:21:04Z,2025-09-05T16:52:57+00:00,3,872.53,True,376,1,12,215,14,1,15,MERGED
+35379,gpui: Wait for DWM vsync event before rendering,143mailliw,2025-07-31T01:02:25Z,2025-08-13T02:09:23+00:00,1,313.12,False,31,5,2,524,7,0,7,CLOSED
+35377,Add icon for KDL files,ThatOneCalculator,2025-07-31T00:17:12Z,2025-08-04T12:49:51+00:00,1,108.54,True,3,0,2,47,0,0,0,MERGED
+35376,Rasterize glyphs without D2D,maxbrunsfeld,2025-07-31T00:10:30Z,2025-08-01T17:46:09+00:00,8,41.59,True,701,290,11,162,8,7,15,MERGED
+35373,Use outlined bolt icon for the LSP tool,ThatOneCalculator,2025-07-30T23:36:22Z,2025-07-31T01:37:11+00:00,1,2.01,True,1,1,1,103,2,0,2,MERGED
+35360,Add spread operator to the @operator list for ECMAScript languages,valtism,2025-07-30T18:59:47Z,2025-08-08T01:58:27+00:00,1,198.98,True,3,0,3,259,3,0,3,MERGED
+35356,Add configurable working directory for local MCP servers,ikkurthis1998,2025-07-30T18:19:02Z,2025-07-31T09:51:47+00:00,2,15.55,False,2036,769,70,3219,3,2,5,CLOSED
+35311,docs: Fix relative link generation in mdbook post-processor,aac6fef,2025-07-30T06:10:59Z,2025-07-31T01:25:30+00:00,1,19.24,False,29,1,1,935,7,0,7,CLOSED
+35306,project: Add more dynamic capability registrations for LSP,smitbarmase,2025-07-29T22:38:05Z,2025-08-11T09:59:41+00:00,1,299.36,True,435,223,2,808,1,0,1,MERGED
+35256,paths: Fix using relative path as custom_data_dir,devjasperwang,2025-07-29T06:27:52Z,2025-07-29T15:31:54+00:00,2,9.07,True,9,1,1,1585,0,1,1,MERGED
+35255,"project_panel: Add file comparison function, supports selecting files for comparison",mcwindy,2025-07-29T05:50:15Z,2025-08-07T18:34:12+00:00,21,228.73,True,295,45,8,104,10,10,20,MERGED
+35243,lsp/python: Temporarily report just a singular workspace folder instead of all of the roots,osiewicz,2025-07-28T21:49:08Z,2025-07-29T00:10:32+00:00,1,2.36,True,76,27,5,296,12,0,12,MERGED
+35202,Allow installing from an administrator user,localcc,2025-07-28T13:36:19Z,2025-07-29T16:03:57+00:00,2,26.46,True,1,11,2,19,0,1,1,MERGED
+35159,Docs: Fix invalid JSON syntax in Visual Customizations - Editor Scrollbar and Minimap,lowlandghost,2025-07-27T16:42:09Z,2025-07-27T17:56:55+00:00,1,1.25,True,1,1,1,348,3,0,3,MERGED
+35136,Add branch rename action to Git panel,launay12u,2025-07-26T19:38:18Z,2025-09-09T16:39:32+00:00,2,1077.02,False,337,40,8,97,4,1,5,CLOSED
+35112,Add meta description tag to docs pages,probably-neb,2025-07-25T20:18:23Z,2025-07-29T23:01:03+00:00,2,98.71,True,319,50,9,2166,0,1,1,MERGED
+35083,gpui: Fix overflow_hidden to support clip with border radius,huacnlee,2025-07-25T09:15:29Z,2025-09-03T10:44:33+00:00,4,961.48,True,446,130,11,977,13,2,15,MERGED
+35075,"gpui: Press `enter`, `space` to trigger click to focused element",huacnlee,2025-07-25T06:14:34Z,2025-08-05T22:15:31+00:00,7,280.02,True,231,63,19,395,0,2,2,MERGED
+35055,Hide Copilot commands when AI functionality is disabled,injust,2025-07-24T19:02:40Z,2025-07-25T14:53:57+00:00,1,19.85,True,3,0,1,123,2,0,2,MERGED
+35013,gpui: Fix Interactivity prepaint to update scroll_handle bounds,huacnlee,2025-07-24T07:22:33Z,2025-07-24T08:27:30+00:00,4,1.08,True,3,9,2,616,7,1,8,MERGED
+35000,ollama: Add Magistral to Ollama,versecafe,2025-07-24T03:17:23Z,2025-07-24T04:17:55+00:00,1,1.01,True,1,0,1,74,0,0,0,MERGED
+34998,debugger: Fix Go debugger on Windows,zcg,2025-07-24T02:40:53Z,2025-07-26T08:05:11+00:00,2,53.41,False,23,13,3,649,0,1,1,CLOSED
+34992,Render paths to a single fixed-size MSAA texture,maxbrunsfeld,2025-07-23T23:57:21Z,2025-07-25T21:39:24+00:00,2,45.7,True,1131,796,12,2209,11,1,12,MERGED
+34977,livekit_client: Revert a change that broke MinGW builds,ognevny,2025-07-23T20:33:47Z,2025-07-23T22:53:13+00:00,3,2.32,True,30,5,1,200,1,1,2,MERGED
+34954,agent_ui: Fix delay when loading keybindings in the Agent panel settings,imumesh18,2025-07-23T15:21:57Z,2025-07-25T16:55:38+00:00,1,49.56,True,60,56,1,559,0,0,0,MERGED
+34896,Add setting to disable all AI features,rtfeldman,2025-07-22T14:24:50Z,2025-07-22T15:32:39+00:00,2,1.13,True,308,68,19,93,2,1,3,MERGED
+34880,ai_onboarding: Fix API key onboarding callout not showing properly,imumesh18,2025-07-22T10:53:03Z,2025-07-22T12:54:06+00:00,1,2.02,True,20,9,1,127,0,0,0,MERGED
+34879,vim: Use `d p` and `d u` for rejecting/keeping agent edits,osyvokon,2025-07-22T10:42:36Z,2025-07-28T08:34:38+00:00,1,141.87,False,16,2,5,228,2,0,2,CLOSED
+34861,language: Update block_comment and documentation comment,claytonrcarter,2025-07-22T01:13:14Z,2025-07-23T15:08:52+00:00,11,37.93,True,249,74,18,1965,5,6,11,MERGED
+34855,Add icon for SurrealQL files,ThatOneCalculator,2025-07-21T23:07:00Z,2025-07-25T17:17:16+00:00,1,90.17,True,5,0,2,55,0,0,0,MERGED
+34823,Fix an issue where xkb defined hotkeys for arrows would not work,stillonearth,2025-07-21T14:57:34Z,2025-07-21T23:16:45+00:00,1,8.32,True,7,0,1,1184,4,0,4,MERGED
+34811,windows: Fix remote tasks,JunkuiZhang,2025-07-21T11:41:29Z,2025-09-23T13:05:18+00:00,4,1537.4,False,41,1,1,269,4,2,6,CLOSED
+34804,gpui: Add `focus_trap` to group the tab focus,huacnlee,2025-07-21T09:29:02Z,2025-09-25T16:35:35+00:00,10,1591.11,False,433,125,4,266,6,8,14,CLOSED
+34794,Resizable columns,mikayla-maki,2025-07-20T22:51:09Z,2025-07-23T15:44:45+00:00,1,64.89,True,449,49,5,726,0,1,1,MERGED
+34785,keymap_ui: Auto complete action arguments,probably-neb,2025-07-20T19:19:28Z,2025-07-20T20:24:17+00:00,3,1.08,True,453,109,7,1048,1,2,3,MERGED
+34771,cli: Use existing release channel name,panekj,2025-07-19T22:27:52Z,2025-08-08T06:49:36+00:00,1,464.36,True,6,7,1,658,4,0,4,MERGED
+34769,Make dropdown headers fully clickable in agent,ProdigyRahul,2025-07-19T18:44:45Z,2025-07-22T13:52:24+00:00,1,67.13,False,57,46,1,0,1,0,1,CLOSED
+34762,search: Add support for case-sensitivity pattern items,dinocosta,2025-07-19T14:57:56Z,2025-08-28T01:27:02+00:00,1,946.49,True,146,9,3,1033,10,1,11,MERGED
+34753,workspace: Don't update platform window title if title has not changed,fabjan,2025-07-19T12:39:37Z,2025-08-07T19:13:51+00:00,1,462.57,True,8,0,1,68,2,0,2,MERGED
+34752,project panel: Add setting to disable auto opening project panel,maan2003,2025-07-19T12:02:24Z,2025-08-08T05:02:11+00:00,4,473.0,True,13,1,4,192,1,2,3,MERGED
+34750,ollama: Properly format tool calls fed back to the model,marius851000,2025-07-19T11:33:15Z,2025-09-08T04:26:01+00:00,1,1216.88,True,79,46,2,484,3,0,3,MERGED
+34740,workspace: Highlight where dragged tab will be dropped,djsauble,2025-07-19T00:54:11Z,2025-08-15T11:43:29+00:00,1,658.82,True,28,2,5,821,3,0,3,MERGED
+34727,project: Remove clones from git blame serialization,tidely,2025-07-18T16:09:13Z,2025-07-18T17:41:12+00:00,1,1.53,True,9,9,1,19,0,0,0,MERGED
+34655,theme: Add `panel.overlay_background` and `panel.overlay_hover`,bcomnes,2025-07-17T19:04:25Z,2025-07-22T09:50:26+00:00,7,110.77,True,58,15,5,618,9,2,11,MERGED
+34593,Add runnable support for Deno.test,sigmaSd,2025-07-17T01:53:34Z,2025-07-28T23:45:41+00:00,3,285.87,True,74,1,2,318,5,1,6,MERGED
+34584,git_hosting_providers: Extract Bitbucket pull request number,nihgwu,2025-07-16T22:07:49Z,2025-08-08T01:39:32+00:00,1,531.53,True,57,1,1,101,1,1,2,MERGED
+34564,Do not subtract gutter margin twice from the editor width,djsauble,2025-07-16T17:33:56Z,2025-07-25T00:00:59+00:00,1,198.45,True,18,44,1,583,1,0,1,MERGED
+34554,language_models: Fix tool_choice null issue for other providers,imumesh18,2025-07-16T15:57:48Z,2025-09-02T23:22:57+00:00,1,1159.42,True,6,3,3,285,2,0,2,MERGED
+34547,tab_switcher: Add support for diagnostics,AlvaroParker,2025-07-16T15:12:17Z,2025-08-25T20:18:03+00:00,7,965.1,True,108,49,3,346,0,6,6,MERGED
+34542,Improve the `read_file` tool prompt for long files,Damecek,2025-07-16T14:43:32Z,2025-07-16T16:32:58+00:00,4,1.82,True,4,1,1,89,4,3,7,MERGED
+34532,open_router: Fix tool_choice getting serialized to null,imumesh18,2025-07-16T11:05:57Z,2025-07-16T15:44:08+00:00,4,4.64,True,2,1,1,560,6,1,7,MERGED
+34514,linux: Fix spacebar not working with multiple keyboard layouts,smitbarmase,2025-07-16T02:01:42Z,2025-07-16T13:55:13+00:00,1,11.89,True,18,52,1,2276,0,0,0,MERGED
+34512,Disable format-on-save for verilog,someone13574,2025-07-16T01:13:13Z,2025-07-16T06:08:16+00:00,1,4.92,True,4,0,1,117,0,0,0,MERGED
+34502,Document alternative method to providing intelephense license key,stephensamra,2025-07-15T22:52:45Z,2025-07-16T06:14:18+00:00,1,7.36,True,15,1,1,138,3,0,3,MERGED
+34487,agent: Push diffs of user edits to the agent,osyvokon,2025-07-15T18:09:51Z,2025-07-16T14:38:58+00:00,5,20.49,True,274,77,5,364,0,2,2,MERGED
+34485,agent_ui: Fix token count not getting shown in the TextThread,imumesh18,2025-07-15T17:57:02Z,2025-07-16T14:39:08+00:00,1,20.7,True,27,30,1,408,3,0,3,MERGED
+34465,Fix positioning of terminal inline assist after clearing the screen,cole-miller,2025-07-15T14:59:00Z,2025-07-15T19:16:48+00:00,1,4.3,True,8,19,1,2029,1,0,1,MERGED
+34460,git: Improve perf of traversing Git metadata with multiple repositories in a single worktree,osiewicz,2025-07-15T13:51:12Z,2025-07-24T18:01:28+00:00,4,220.17,False,87,61,4,222,1,1,2,CLOSED
+34428,Make close tab and pin tab buttons slightly larger for better usability,djsauble,2025-07-14T20:43:35Z,2025-08-08T21:04:33+00:00,1,600.35,True,7,4,2,345,0,0,0,MERGED
+34418,editor: Support rewrap in block comments,claytonrcarter,2025-07-14T17:57:19Z,2025-09-01T20:00:01+00:00,19,1178.05,True,581,59,2,1303,7,5,12,MERGED
+34401,Disable edit predictions in Zed settings by default,notpeter,2025-07-14T13:27:25Z,2025-08-08T21:05:28+00:00,2,607.63,True,12,1,1,142,0,1,1,MERGED
+34380,linux: Add `file_finder::Toggle` key binding,somtooo,2025-07-13T17:58:08Z,2025-07-13T23:35:04+00:00,1,5.62,True,1,0,1,400,3,0,3,MERGED
+34374,windows: Port to DirectX 11,JunkuiZhang,2025-07-13T12:38:24Z,2025-07-30T22:27:58+00:00,9,417.83,True,3577,180,17,501,57,3,60,MERGED
+34355,pane: 'Close others' now closes relative to right-clicked tab,vipexv,2025-07-12T18:46:58Z,2025-07-14T11:06:40+00:00,1,40.33,True,15,5,4,829,2,0,2,MERGED
+34336,mistral: Add `devstral-medium-latest` model,nirfse,2025-07-12T12:42:48Z,2025-07-25T01:48:33+00:00,3,301.1,False,9,1,1,247,1,1,2,CLOSED
+34303,windows: Fix auto update failure when launching from the cli,JunkuiZhang,2025-07-11T16:52:46Z,2025-08-13T00:04:30+00:00,2,775.2,True,250,131,13,148,0,2,2,MERGED
+34288,lsp: Add comprehensive request/response logging,hirochachacha,2025-07-11T14:09:33Z,2025-07-18T09:59:36+00:00,1,163.83,False,161,25,2,588,3,4,7,CLOSED
+34261,Add support for Deno virtual documents,hirochachacha,2025-07-11T05:46:08Z,2025-07-23T16:14:12+00:00,1,298.47,False,450,3,7,297,4,1,5,CLOSED
+34253,agent: Fix crash with pathological fetch output,cole-miller,2025-07-11T00:03:55Z,2025-07-12T01:01:09+00:00,3,24.95,True,6,5,2,548,0,1,1,MERGED
+34246,collab: Add ability to add tax ID during Stripe Checkout,morgankrey,2025-07-10T21:38:24Z,2025-07-11T15:26:37+00:00,1,17.8,True,25,6,4,1001,0,0,0,MERGED
+34227,language_models: Add OpenRouterError and map OpenRouter errors to LanguageModelCompletionError,imumesh18,2025-07-10T17:28:58Z,2025-09-02T23:13:46+00:00,1,1301.75,True,334,152,6,241,0,0,0,MERGED
+34223,Windows screen sharing,maxbrunsfeld,2025-07-10T16:52:21Z,2025-07-10T21:02:00+00:00,1,4.16,True,57,51,10,19,0,1,1,MERGED
+34212,Support multiple OpenAI compatible providers,bennetbo,2025-07-10T14:36:44Z,2025-07-22T15:20:07+00:00,2,288.72,True,1450,191,23,250,0,1,1,MERGED
+34193,settings_ui: Open keybinding editing modal on mouse double click,MrSubidubi,2025-07-10T10:55:13Z,2025-07-10T15:01:36+00:00,1,4.11,True,11,6,1,396,0,0,0,MERGED
+34164,Show deeply nested declarations in the outline panel for JS/TS/TSX,NRodriguezcuellar,2025-07-09T23:14:38Z,2025-09-09T16:27:40+00:00,1,1481.22,False,33,32,3,164,4,0,4,CLOSED
+34141,agent: Disable thinking when using inline assistant/edit file tool,bennetbo,2025-07-09T16:49:36Z,2025-07-09T18:05:39+00:00,3,1.27,True,37,8,21,362,0,1,1,MERGED
+34131,Fix cannot select in terminal when copy_on_select is enabled,feeiyu,2025-07-09T15:39:21Z,2025-07-14T11:04:54+00:00,1,115.43,True,12,12,2,34,1,0,1,MERGED
+34124,editor: Add CollapseAllDiffHunks docs,gosvig123,2025-07-09T14:15:25Z,2025-07-09T16:10:35+00:00,2,1.92,True,35,22,1,562,2,0,2,MERGED
+34110,language_models: Add support for API key to Ollama provider,imumesh18,2025-07-09T11:14:56Z,2025-09-15T06:34:27+00:00,2,1627.33,True,414,154,5,171,16,1,17,MERGED
+34084,gpui: Add `cx.intercept_keystrokes` API to intercept keystrokes before action dispatch,probably-neb,2025-07-08T20:11:41Z,2025-07-09T22:44:32+00:00,3,26.55,True,92,16,3,666,0,4,4,MERGED
+34060,helix: Add match operator,fantacell,2025-07-08T13:19:19Z,2025-09-08T14:48:47+00:00,2,1489.49,True,1196,69,12,208,23,1,24,MERGED
+34053,Language independent hotkeys,stillonearth,2025-07-08T09:41:44Z,2025-07-14T05:00:03+00:00,1,139.31,True,108,13,5,640,19,1,20,MERGED
+34028,docs: Document pull diagnostics support for Ruby,andyw8,2025-07-07T19:30:21Z,2025-07-18T09:46:36+00:00,1,254.27,True,2,3,1,56,1,0,1,MERGED
+34022,lsp: Fix workspace diagnostics lag & add streaming support,4teapo,2025-07-07T17:53:56Z,2025-07-15T15:41:45+00:00,10,189.8,True,460,114,9,665,0,9,9,MERGED
+33995,Add severity argument to GoToDiagnostic actions,happenslol,2025-07-06T22:51:55Z,2025-07-15T14:03:58+00:00,4,207.2,True,312,51,12,529,9,1,10,MERGED
+33981,Allow remote loading for DAP-only extensions,feeiyu,2025-07-06T11:40:47Z,2025-07-06T12:52:16+00:00,1,1.19,True,33,21,4,60,0,0,0,MERGED
+33977,Add setting to hide active language button in the status bar,zumbalogy,2025-07-06T08:22:12Z,2025-08-08T05:04:31+00:00,1,788.71,True,57,1,5,751,2,0,2,MERGED
+33973,Fix border and minimap flickering on pane split,AlvaroParker,2025-07-06T04:41:01Z,2025-07-15T08:47:35+00:00,1,220.11,True,3,1,1,401,5,0,5,MERGED
+33936,Use /usr/bin/env to run bash restart script,AlvaroParker,2025-07-04T22:06:06Z,2025-07-05T00:27:22+00:00,2,2.35,True,2,2,1,80,0,1,1,MERGED
+33931,bedrock: Fix remaining streaming delays,tiagoq,2025-07-04T19:06:02Z,2025-07-22T15:55:24+00:00,1,428.82,True,36,40,7,2700,6,0,6,MERGED
+33905,deepseek: Fix API URL,Justyer,2025-07-04T09:58:21Z,2025-09-01T08:49:10+00:00,5,1414.85,True,3,3,2,83,5,1,6,MERGED
+33902,docs: Add GitHub Copilot Enterprise configuration example,NathanBrodin,2025-07-04T09:31:53Z,2025-07-10T15:52:31+00:00,2,150.34,True,20,0,2,588,3,1,4,MERGED
+33895,copilot: Indicate whether a request is initiated by an agent to Copilot API,lj3954,2025-07-04T05:44:41Z,2025-07-07T08:24:17+00:00,1,74.66,True,30,3,2,453,1,0,1,MERGED
+33879,workspace: Add `file_opening_behavior` setting,dalaverd,2025-07-03T22:11:10Z,2025-08-21T06:28:03+00:00,2,1160.28,False,72,6,6,714,10,3,13,CLOSED
+33876,Sync extension debuggers to remote host,Hawkbawk,2025-07-03T21:40:54Z,2025-07-04T21:26:09+00:00,2,23.75,True,77,11,4,87,4,1,5,MERGED
+33872,ruby: Document how to use `erb-formatter` for ERB files,vitallium,2025-07-03T20:13:06Z,2025-07-04T23:50:51+00:00,1,27.63,True,19,0,1,146,0,0,0,MERGED
+33868,debugger: Improve debug console autocompletions,RemcoSmitsDev,2025-07-03T19:24:36Z,2025-07-05T14:20:41+00:00,1,42.93,True,93,27,5,989,15,0,15,MERGED
+33865,emmet: Enable in `HTML/ERB` files,vitallium,2025-07-03T17:44:56Z,2025-07-04T23:51:25+00:00,1,30.11,True,2,1,1,181,1,0,1,MERGED
+33856,agent_ui: Fix disabled context servers not showing in agent setting,imumesh18,2025-07-03T14:41:20Z,2025-07-07T10:02:33+00:00,1,91.35,True,10,1,2,424,0,0,0,MERGED
+33833,"git_ui: Support ""Open Pull Request"" for more platforms",stephenhillier,2025-07-03T06:02:17Z,2025-07-09T19:09:59+00:00,3,157.13,True,118,1,1,380,2,2,4,MERGED
+33814,languages: Fix ESLint diagnostics not getting shown,imumesh18,2025-07-02T22:02:16Z,2025-07-14T10:48:56+00:00,1,276.78,True,14,9,5,198,9,0,9,MERGED
+33809,gpui: Store action documentation ,probably-neb,2025-07-02T19:37:17Z,2025-07-03T01:14:33+00:00,2,5.62,True,1467,78,96,273,0,1,1,MERGED
+33776,editor: Reapply fix for wrap guide positioning,MrSubidubi,2025-07-02T13:34:49Z,2025-07-03T08:44:17+00:00,1,19.16,True,58,50,1,578,0,0,0,MERGED
+33770,remote_server: Improve error reporting,gwen-lg,2025-07-02T12:06:00Z,2025-08-25T20:23:30+00:00,13,1304.29,True,216,105,5,184,2,7,9,MERGED
+33768,agent_ui: Clear error message callout when message is edited or added in same thread,imumesh18,2025-07-02T11:25:37Z,2025-07-03T13:47:26+00:00,1,26.36,True,2,0,1,585,1,0,1,MERGED
+33744,Expand Prettier config list,IanMitchell,2025-07-01T21:55:44Z,2025-07-02T08:44:14+00:00,1,10.81,True,8,0,1,195,3,0,3,MERGED
+33697,Fix path parsing for goto syntax provided by Haskell language server,Aerma7309,2025-07-01T07:45:32Z,2025-07-04T23:54:43+00:00,1,88.15,True,15,0,1,228,4,0,4,MERGED
+33684,Update documentation for tailwindcss language server now that HTML/ERB is it's own file.,jacobduba,2025-07-01T01:39:54Z,2025-07-04T23:50:09+00:00,1,94.17,True,1,1,1,254,5,0,5,MERGED
+33673,Fix animations in the component preview,djsauble,2025-06-30T21:13:38Z,2025-07-29T21:22:53+00:00,1,696.15,True,23,11,2,749,2,1,3,MERGED
+33667,Update Cargo.lock,imumesh18,2025-06-30T17:55:10Z,2025-06-30T21:12:02+00:00,1,3.28,True,1,1,1,183,2,0,2,MERGED
+33666,debugger: Handle the `envFile` setting for Go,P1n3appl3,2025-06-30T17:30:13Z,2025-07-01T16:14:59+00:00,4,22.75,True,80,20,6,78,1,4,5,MERGED
+33638,Show regex query error under the search bar,mikalsande,2025-06-30T08:35:47Z,2025-06-30T14:05:33+00:00,1,5.5,True,31,9,2,107,0,0,0,MERGED
+33636,Prevent scrollbar from covering bottom right text in terminal,ddoemonn,2025-06-30T07:11:09Z,2025-08-08T20:46:31+00:00,1,949.59,True,17,6,1,140,1,0,1,MERGED
+33632,Suggest Typst extension for .typ files,abdelq,2025-06-30T03:34:39Z,2025-07-01T14:54:54+00:00,3,35.34,True,1,0,1,19,0,1,1,MERGED
+33631,git: Make inline blame padding configurable,abdelq,2025-06-30T03:27:36Z,2025-08-08T01:35:07+00:00,1,934.13,True,60,19,6,132,0,0,0,MERGED
+33622,editor: Add action to sort lines by length,alexpovel,2025-06-29T19:56:47Z,2025-07-07T17:02:36+00:00,5,189.1,True,37,0,4,14623,5,2,7,MERGED
+33620,script: Fix license symlink and path in `new-crate.sh`,imumesh18,2025-06-29T18:31:37Z,2025-06-30T09:51:58+00:00,1,15.34,True,2,2,1,326,1,0,1,MERGED
+33613,ui: Don't render separators at start/end or with nothing in between,abdelq,2025-06-29T14:41:24Z,2025-07-03T11:55:18+00:00,2,93.23,False,24,3,1,332,4,1,5,CLOSED
+33594,Improve R documentation,notpeter,2025-06-28T19:04:31Z,2025-06-29T16:21:10+00:00,3,21.28,True,68,7,1,19,1,2,3,MERGED
+33593,Add xAI language model provider,imumesh18,2025-06-28T19:04:22Z,2025-07-15T19:35:50+00:00,1,408.52,True,839,27,14,73,4,1,5,MERGED
+33581,editor: Fix diagnostic popovers not being scrollable,curiouslad,2025-06-28T14:00:07Z,2025-07-08T13:14:22+00:00,3,239.24,True,67,19,1,76,5,0,5,MERGED
+33536,Allow disabling tools when 'enable_all_context_servers = true',notpeter,2025-06-27T15:02:57Z,2025-06-30T14:56:26+00:00,1,71.89,True,5,10,1,172,0,0,0,MERGED
+33491,terminal: Expose `selection` in context and add `keep_selection_on_copy` setting,chicoferreira,2025-06-27T00:15:00Z,2025-07-03T06:37:28+00:00,2,150.37,True,40,1,5,891,6,0,6,MERGED
+33490,Add collapse functionality to outline entries,NRodriguezcuellar,2025-06-26T23:57:44Z,2025-07-23T18:52:45+00:00,12,642.92,True,826,49,3,256,4,23,27,MERGED
+33477,language_models: Use `JsonSchemaSubset` for Gemini models in OpenRouter,imumesh18,2025-06-26T20:24:30Z,2025-06-27T14:36:16+00:00,1,18.2,True,11,2,1,33,1,0,1,MERGED
+33417,lsp: Wait for shutdown response before sending exit notification,imumesh18,2025-06-25T21:21:20Z,2025-07-15T15:30:57+00:00,4,474.16,True,4,7,2,203,2,1,3,MERGED
+33413,Suggest reST extension for .rst files,renzepost,2025-06-25T20:30:54Z,2025-06-26T12:59:04+00:00,1,16.47,True,1,0,1,91,3,0,3,MERGED
+33412,remote: Implement transport adapter pattern foundation,aRustyDev,2025-06-25T20:17:30Z,2025-06-27T03:34:47+00:00,2,31.29,False,370,3,6,7722,2,1,3,CLOSED
+33409,git_ui: Fix list in git commit message,imumesh18,2025-06-25T19:52:41Z,2025-07-01T12:05:08+00:00,1,136.21,True,6,0,1,191,5,0,5,MERGED
+33403,Add page up/down bindings to the Markdown preview,djsauble,2025-06-25T18:36:45Z,2025-07-02T09:14:35+00:00,2,158.63,True,119,4,5,225,1,1,2,MERGED
+33395,Allow local build of remote_server dev to be deployed to different linux than local,gwen-lg,2025-06-25T17:14:10Z,2025-07-08T16:31:20+00:00,15,311.29,True,143,132,3,380,5,6,11,MERGED
+33385,collab: Save Customer name and billing address to Customer on checkout,morgankrey,2025-06-25T14:49:31Z,2025-06-25T20:06:15+00:00,1,5.28,True,125,12,5,297,0,0,0,MERGED
+33383,open_ai: Make OpenAI error message generic,imumesh18,2025-06-25T14:46:06Z,2025-06-28T12:38:27+00:00,4,69.87,True,5,3,2,628,1,2,3,MERGED
+33381,agent: Add GEMINI.md as a supported rules file name,imumesh18,2025-06-25T14:22:54Z,2025-06-25T17:14:49+00:00,1,2.87,True,3,1,2,131,0,0,0,MERGED
+33368,extension_api: Allow extensions to provide language model providers,lj3954,2025-06-25T09:38:45Z,2025-06-25T13:28:19+00:00,1,3.83,False,170,1,12,76,1,1,2,CLOSED
+33365,agent: Fix issue where unconfigured MCP extensions would not start server,bennetbo,2025-06-25T08:38:38Z,2025-06-25T09:48:39+00:00,1,1.17,True,13,9,4,115,0,1,1,MERGED
+33361,"gpui: Add `shadow_xs`, `shadow_2xs` and fix shadow values to match Tailwind CSS",huacnlee,2025-06-25T07:18:48Z,2025-07-03T12:50:26+00:00,2,197.53,True,49,7,6,786,0,1,1,MERGED
+33357,Add editor::DeletePreviousWhitespace,lolbinarycat,2025-06-25T04:55:00Z,2025-07-28T09:12:14+00:00,1,796.29,False,86,2,5,180,5,0,5,CLOSED
+33315,language_models: Use `vercel` crate in Vercel language model provider,imumesh18,2025-06-24T14:52:22Z,2025-06-25T13:09:32+00:00,2,22.29,False,107,141,2,335,3,2,5,CLOSED
+33275,Automatically retry when API is Overloaded or 500s,rtfeldman,2025-06-23T19:58:07Z,2025-06-26T14:53:33+00:00,3,66.92,True,1656,187,6,1008,2,3,5,MERGED
+33268,Add icon for Cairo files,okhaimie-dev,2025-06-23T18:15:31Z,2025-06-23T23:53:55+00:00,1,5.64,True,5,0,2,84,0,0,0,MERGED
+33261,Thread Anthropic errors into LanguageModelKnownError,rtfeldman,2025-06-23T16:26:56Z,2025-06-23T18:48:26+00:00,6,2.36,True,283,123,5,392,0,3,3,MERGED
+33260,Add toast notifications for regex errors in search,mikalsande,2025-06-23T15:38:54Z,2025-06-23T19:23:14+00:00,1,3.74,False,52,5,4,377,3,0,3,CLOSED
+33247,Add horizontal scroll to REPL outputs,WeetHet,2025-06-23T13:05:01Z,2025-06-24T07:15:20+00:00,1,18.17,True,2,0,1,62,0,0,0,MERGED
+33242,language_models: Emit UsageUpdate events for token usage in DeepSeek and OpenAI,imumesh18,2025-06-23T11:05:26Z,2025-06-25T07:42:30+00:00,6,44.62,True,31,12,4,33,0,3,3,MERGED
+33228,windows: Fix window close animation,MatinAniss,2025-06-23T04:19:14Z,2025-06-23T13:13:53+00:00,3,8.91,True,17,3,1,180,2,2,4,MERGED
+33220,agent: Preserve chat box text on 'New From Summary',notpeter,2025-06-22T18:44:39Z,2025-06-23T11:35:25+00:00,1,16.85,True,28,0,2,324,0,0,0,MERGED
+33214,bedrock: Use Claude 3.0 Haiku where Haiku 3.5 is not available,notpeter,2025-06-22T18:12:49Z,2025-06-22T19:15:20+00:00,3,1.04,True,22,19,2,154,1,1,2,MERGED
+33209,lsp: Allow signature help to show while completions menu is visible,aviatesk,2025-06-22T16:23:58Z,2025-06-22T17:42:31+00:00,1,1.31,False,3,3,2,370,4,0,4,CLOSED
+33206,lsp: Implement proper LSP-based signature help trigger characters,aviatesk,2025-06-22T14:20:04Z,2025-07-08T13:06:41+00:00,2,382.78,False,136,2,4,360,1,8,9,CLOSED
+33205,Appropriately pick venv activation script,rv-ragul,2025-06-22T14:18:53Z,2025-07-16T12:52:38+00:00,7,574.56,True,40,5,2,497,0,1,1,MERGED
+33203,windows: Use drop target helper,MatinAniss,2025-06-22T13:55:23Z,2025-06-23T13:30:21+00:00,3,23.58,True,37,5,2,320,1,1,2,MERGED
+33199,lsp: Complete overloaded signature help implementation,aviatesk,2025-06-22T11:20:43Z,2025-07-02T17:51:09+00:00,35,246.51,True,722,209,21,501,9,6,15,MERGED
+33189,Remove unused dependencies,yoshi-taka,2025-06-22T04:27:01Z,2025-06-22T07:43:37+00:00,1,3.28,True,0,4,1,97,3,0,3,MERGED
+33188,agent: Add soft-wrap to long terminal command JSON,notpeter,2025-06-22T03:11:47Z,2025-06-23T11:35:16+00:00,1,32.39,True,1,1,1,59,0,0,0,MERGED
+33172,Don't use exclusions for FS events,mattfbacon,2025-06-21T18:24:52Z,2025-06-21T21:12:12+00:00,1,2.79,False,0,7,1,281,1,0,1,CLOSED
+33171,Update key-bindings.md,gillyb,2025-06-21T17:49:10Z,2025-06-21T21:48:48+00:00,1,3.99,False,1,1,1,303,3,1,4,CLOSED
+33165,Add support for Bun runtime,nakamorichi,2025-06-21T15:27:50Z,2025-06-23T14:23:57+00:00,8,46.94,False,380,94,2,86,6,7,13,CLOSED
+33161,agent: Allow clicking on the read file tool header to jump to the exact file location,max-frai,2025-06-21T12:54:38Z,2025-07-11T00:43:52+00:00,1,467.82,True,14,5,1,616,1,0,1,MERGED
+33156,Fix edit prediction provider in the project settings not being respected,NRodriguezcuellar,2025-06-21T12:10:22Z,2025-08-07T14:49:08+00:00,2,1130.65,False,62,44,2,282,2,1,3,CLOSED
+33153,language_models: Add Claude Pro/Max Subscription Support for Anthropic Models,imumesh18,2025-06-21T11:06:37Z,2025-06-23T17:24:12+00:00,3,54.29,False,1050,81,9,1914,7,2,9,CLOSED
+33139,file_finder: Fix create wrong file  in multiple worktree,CharlesChen0823,2025-06-21T05:59:03Z,2025-06-25T16:17:41+00:00,5,106.31,True,176,7,2,484,2,4,6,MERGED
+33126,debugger: Filter test executables by metadata profile in Cargo locator,CathalMullan,2025-06-20T21:04:35Z,2025-07-01T20:23:55+00:00,2,263.32,True,37,6,1,95,1,1,2,MERGED
+33119,Allow for venv activation script to use `pyenv`,theelderbeever,2025-06-20T18:10:39Z,2025-07-15T14:44:41+00:00,2,596.57,True,33,17,2,60,4,1,5,MERGED
+33096,agent: Fix token limit callout to show burn mode only for zed provider,imumesh18,2025-06-20T11:59:00Z,2025-06-23T11:36:44+00:00,1,71.63,True,37,32,1,305,0,0,0,MERGED
+33068,bedrock: Support Claude 3.7 in APAC,willemt,2025-06-20T00:21:30Z,2025-06-22T20:08:50+00:00,2,67.79,True,2,0,1,68,4,1,5,MERGED
+33067,editor: Improve minimap performance,MrSubidubi,2025-06-19T22:15:13Z,2025-07-14T21:29:27+00:00,1,599.24,True,209,186,12,1759,4,0,4,MERGED
+33052,Add $ZED_CURRENT_TEXT var for spawning task with current buffer,vuon9,2025-06-19T17:45:49Z,2025-06-24T14:38:36+00:00,1,116.88,False,29,1,6,743,6,2,8,CLOSED
+33031,editor: Disable tab to indent in single line mode,huacnlee,2025-06-19T13:47:18Z,2025-06-21T21:55:19+00:00,2,56.13,True,49,4,1,96,0,0,0,MERGED
+33007,copilot: Use updated Copilot Chat model schema,lj3954,2025-06-19T06:37:11Z,2025-08-28T15:32:15+00:00,5,1688.92,True,41,11,1,436,1,2,3,MERGED
+32985,Redact command environment variables from log output,notpeter,2025-06-18T21:57:53Z,2025-06-21T15:19:24+00:00,2,65.36,True,45,2,4,798,0,1,1,MERGED
+32980,collab: Require billing address in all Stripe checkouts,morgankrey,2025-06-18T21:10:23Z,2025-06-24T14:06:01+00:00,1,136.93,True,52,12,5,1823,0,0,0,MERGED
+32950,docs: Remove beta tag from Debugger,danilo-leal,2025-06-18T15:24:40Z,2025-06-18T17:48:09+00:00,1,2.39,True,2,2,2,19,0,1,1,MERGED
+32907,Disable next/previous hunk menu items when there are no hunks,AlvaroParker,2025-06-17T22:31:42Z,2025-06-21T21:43:01+00:00,1,95.19,True,18,2,1,82,0,0,0,MERGED
+32901,copilot: Fix config dir logic to support Flatpak environments,imumesh18,2025-06-17T19:50:47Z,2025-06-19T14:32:03+00:00,9,42.69,True,10,5,3,367,18,1,19,MERGED
+32895,Add ability to clone item when using `workspace::MoveItemToPane`,carlsverre,2025-06-17T19:22:26Z,2025-06-23T23:41:46+00:00,5,148.32,True,132,18,1,533,4,2,6,MERGED
+32860,workspace: Add editor-only zoom command,aviatesk,2025-06-17T11:45:02Z,2025-07-11T22:48:11+00:00,6,587.05,False,197,72,2,1710,4,1,5,CLOSED
+32859,Allow multiple Markdown preview tabs,ddoemonn,2025-06-17T11:19:30Z,2025-06-25T16:43:00+00:00,8,197.39,True,74,7,2,149,11,3,14,MERGED
+32823,Handle token usage chunks in OpenAI streamed response,timtimjnvr,2025-06-16T22:29:43Z,2025-06-19T15:06:05+00:00,2,64.61,False,10,1,1,480,6,1,7,CLOSED
+32821,git: Enable git stash in git panel,AlvaroParker,2025-06-16T21:45:13Z,2025-07-25T23:15:54+00:00,1,937.51,True,290,2,10,119,2,0,2,MERGED
+32816,Show inline previews for LSP document colors,SomeoneToIgnore,2025-06-16T18:55:20Z,2025-06-17T13:46:22+00:00,1,18.85,True,1796,268,22,495,10,1,11,MERGED
+32806,Add epoch interruption to WASM engine for cooperative yielding,benbrandt,2025-06-16T16:08:40Z,2025-06-17T13:43:17+00:00,3,21.58,True,94,44,11,326,0,1,1,MERGED
+32803,gpui: Bump blade,CharlesChen0823,2025-06-16T14:59:05Z,2025-06-17T13:56:08+00:00,1,22.95,True,6,6,2,258,0,0,0,MERGED
+32795,editor: Ensure mouse cursor is shown again on mouse move,MrSubidubi,2025-06-16T12:36:33Z,2025-06-16T14:19:08+00:00,5,1.71,True,121,114,3,1328,2,2,4,MERGED
+32781,Fix IndentGuides story,hlcfan,2025-06-16T04:33:03Z,2025-07-01T15:43:39+00:00,3,371.18,True,22,18,5,533,5,1,6,MERGED
+32743,debugger: Add variable watchers,RemcoSmitsDev,2025-06-14T12:39:14Z,2025-06-20T20:45:55+00:00,3,152.11,True,1243,123,7,779,0,1,1,MERGED
+32741,language_models: Add images support to LMStudio provider,imumesh18,2025-06-14T12:06:35Z,2025-06-17T10:14:45+00:00,3,70.14,True,190,34,3,107,1,1,2,MERGED
+32728,docs: Fix path to keymap.json config file for macOS,dallinhuff,2025-06-13T23:20:06Z,2025-06-21T21:31:01+00:00,1,190.18,True,1,1,1,149,0,0,0,MERGED
+32721,Improve logic for finding VSCode / Cursor settings files,mgsloan,2025-06-13T21:21:50Z,2025-06-15T03:39:55+00:00,1,30.3,True,137,58,5,757,0,0,0,MERGED
+32717,languages: Bump ESLint LSP server to version 3.0.10,imumesh18,2025-06-13T20:17:47Z,2025-06-13T22:20:38+00:00,1,2.05,True,3,5,1,16075,0,0,0,MERGED
+32695,terminal: Add confirmation pop-up on closing terminal pane,fernandeeees,2025-06-13T15:26:56Z,2025-07-08T13:07:01+00:00,2,597.67,False,190,27,3,752,1,4,5,CLOSED
+32694,Add SVG preview,ronharel02,2025-06-13T15:16:28Z,2025-06-27T09:08:05+00:00,17,329.86,True,528,93,16,468,7,10,17,MERGED
+32651,gpui: Implement support for wlr layer shell,zeroeightysix,2025-06-13T01:24:59Z,2025-07-29T21:26:30+00:00,6,1124.03,True,296,78,6,843,4,1,5,MERGED
+32632,gpui: Bind unused `function` modifier to xkb Mod3 on Linux,jabcross,2025-06-12T19:15:57Z,2025-07-02T19:01:20+00:00,1,479.76,False,20,4,3,1661,11,1,12,CLOSED
+32624,Use `git config --global user.email` for email address in automatic `Co-authored-by`,mgsloan,2025-06-12T17:34:40Z,2025-06-12T19:39:08+00:00,2,2.07,True,188,69,24,94,10,1,11,MERGED
+32617,gpui: Fix data_table example overflow subtracting crash error,huacnlee,2025-06-12T15:36:27Z,2025-06-12T16:52:38+00:00,1,1.27,True,4,9,1,1058,0,0,0,MERGED
+32602,project_panel: Don't add extra margin-left to file name labels,narqo,2025-06-12T11:35:30Z,2025-06-12T13:38:15+00:00,1,2.05,True,1,2,1,535,1,0,1,MERGED
+32596,gpui: Fix window cursor style flickering,MrSubidubi,2025-06-12T08:23:21Z,2025-06-12T09:54:44+00:00,4,1.52,True,17,13,1,1062,5,1,6,MERGED
+32591,git_ui: Add collapse_untracked_diff settings to improve usability for untracked files,zeux,2025-06-12T01:24:22Z,2025-06-21T21:38:24+00:00,1,236.23,True,24,3,3,632,0,0,0,MERGED
+32576,supermaven_api: Ensure downloaded Supermaven binary has executable permissions set,MrSubidubi,2025-06-11T19:53:13Z,2025-06-17T14:39:45+00:00,3,138.78,True,54,60,9,1139,0,1,1,MERGED
+32548,Use ch-width (`0`) instead of em-width (`m`) for gutter width calculation,maxmynter,2025-06-11T14:01:59Z,2025-06-12T05:28:04+00:00,1,15.43,True,27,12,2,490,0,0,0,MERGED
+32547,Rewrite documentation comment for right movement,fantacell,2025-06-11T13:31:11Z,2025-06-12T05:39:18+00:00,1,16.14,True,2,2,1,161,0,0,0,MERGED
+32541,language_models: Add thinking support to OpenRouter provider,imumesh18,2025-06-11T11:52:51Z,2025-06-21T06:03:50+00:00,9,234.18,True,148,9,3,241,0,2,2,MERGED
+32478,Support template string inline CSS in JavaScript and TypeScript,mantou132,2025-06-10T18:12:16Z,2025-09-09T16:22:35+00:00,7,2182.17,False,10,12,5,50,2,1,3,CLOSED
+32476,language_models: Add thinking to Mistral Provider,imumesh18,2025-06-10T17:23:54Z,2025-08-09T19:25:48+00:00,1,1442.03,True,127,60,2,861,4,1,5,MERGED
+32472,docs: Condense Ruby test framework docs,andyw8,2025-06-10T16:41:18Z,2025-06-10T19:58:58+00:00,1,3.29,True,1,25,1,170,0,0,0,MERGED
+32471,docs: Update Ruby docs about `args` syntax in tasks,andyw8,2025-06-10T16:30:31Z,2025-06-10T19:58:38+00:00,1,3.47,True,0,2,1,47,1,0,1,MERGED
+32447,pane: Apply `max_tabs` change immediately,vipexv,2025-06-10T11:38:48Z,2025-06-12T08:21:00+00:00,3,44.7,True,89,8,1,471,21,3,24,MERGED
+32417,docs: Fix a typo in text threads docs,behrangsa,2025-06-09T21:18:39Z,2025-06-14T10:43:29+00:00,3,109.41,True,1,1,1,76,3,0,3,MERGED
+32393,Bypass account age check when feature flag is set,as-cii,2025-06-09T14:08:11Z,2025-06-09T16:44:48+00:00,2,2.61,True,18,8,3,19,0,0,0,MERGED
+32387,Decrease the size of the branch picker icon,Otterpocket,2025-06-09T12:21:13Z,2025-06-09T14:08:54+00:00,1,1.79,True,1,0,1,101,1,0,1,MERGED
+32382,editor: Dismiss drag selection when dropped outside editor,CharlesChen0823,2025-06-09T11:23:29Z,2025-06-10T10:12:00+00:00,6,22.81,True,25,14,2,249,0,2,2,MERGED
+32369,docs: Add values.yaml files to filetypes for Helm,qvalentin,2025-06-09T09:30:42Z,2025-06-17T13:51:52+00:00,1,196.35,True,4,1,1,19,6,0,6,MERGED
+32359,docs: Remove duplicate Clang-Format link,andrewkolda,2025-06-08T23:27:12Z,2025-06-09T06:42:31+00:00,1,7.26,True,0,2,1,140,0,0,0,MERGED
+32347,Add `git: open modified files` action,gshahbazian,2025-06-08T17:15:38Z,2025-06-12T17:56:10+00:00,1,96.68,True,35,1,4,109,13,0,13,MERGED
+32345,ruby: Update documentation,vitallium,2025-06-08T15:59:12Z,2025-06-09T10:19:44+00:00,1,18.34,True,77,14,1,280,0,0,0,MERGED
+32340,Implement indent conversion editor commands,rodrigoFfreire,2025-06-08T13:05:31Z,2025-06-25T12:02:42+00:00,2,406.95,True,608,49,5,2833,2,3,5,MERGED
+32339,gpui: Merge `DevicePixels` and `ScaledPixels` into `PhysicalPixels`,WaffleLapkin,2025-06-08T12:55:29Z,2025-08-18T21:42:44+00:00,8,1712.79,False,355,338,28,418,8,4,12,CLOSED
+32338,language_models: Add thinking support to DeepSeek provider,imumesh18,2025-06-08T11:47:30Z,2025-06-09T09:10:55+00:00,1,21.39,True,16,9,1,190,1,0,1,MERGED
+32337,language_models: Add thinking support to LM Studio provider,imumesh18,2025-06-08T11:44:43Z,2025-06-09T09:55:34+00:00,1,22.18,True,18,9,2,370,0,0,0,MERGED
+32329,editor: Add trailing whitespace rendering,JonasKaplan,2025-06-08T06:17:37Z,2025-06-09T20:48:49+00:00,2,38.52,True,15,1,2,301,8,0,8,MERGED
+32317,editor: Scale minimap width to editor width,esimkowitz,2025-06-07T20:59:50Z,2025-06-19T11:24:06+00:00,9,278.4,True,70,22,3,326,19,5,24,MERGED
+32315,Make alphabetical sorting the default,TomPlanche,2025-06-07T19:45:26Z,2025-08-13T22:07:50+00:00,2,1610.37,True,520,35,2,1351,6,0,6,MERGED
+32299,workspace: Persist centered layout across project switches,vipexv,2025-06-07T12:59:06Z,2025-06-12T05:51:25+00:00,1,112.87,True,15,2,1,255,0,0,0,MERGED
+32296,copilot: Allow enterprise to sign in and use copilot,imumesh18,2025-06-07T10:46:46Z,2025-06-17T09:36:53+00:00,1,238.84,True,214,283,8,1571,4,0,4,MERGED
+32289,editor: Add setting to disable ligatures on current line,ronharel02,2025-06-07T09:43:55Z,2025-08-16T16:53:11+00:00,2,1687.15,False,321,10,4,703,3,1,4,CLOSED
+32257,More resilient eval,benbrandt,2025-06-06T15:47:50Z,2025-06-09T18:07:22+00:00,3,74.33,True,147,56,22,204,0,3,3,MERGED
+32251,agent: Fix agent panel model selector layout pushing send button off screen,imumesh18,2025-06-06T14:22:54Z,2025-06-10T14:59:42+00:00,1,96.61,True,5,2,2,623,0,0,0,MERGED
+32246,Add bound checks for resizing right dock,SMASTER4,2025-06-06T13:24:22Z,2025-06-09T10:39:53+00:00,1,69.26,True,9,1,1,191,3,0,3,MERGED
+32243,Improve Tab Map performance,Anthony-Eid,2025-06-06T13:12:35Z,2025-09-10T20:13:42+00:00,8,2311.02,True,2017,91,18,2146,0,5,5,MERGED
+32239,lsp: Add support for window/showDocument notification,imumesh18,2025-06-06T11:59:37Z,2025-09-07T19:57:32+00:00,8,2239.97,False,957,10,12,719,14,8,22,CLOSED
+32221,debugger: Use Delve to build Go binaries,ConradIrwin,2025-06-06T05:44:27Z,2025-06-10T03:49:04+00:00,1,94.08,True,363,285,4,94,9,1,10,MERGED
+32209,Initialize zlog default filters on init rather than waiting for settings load,mgsloan,2025-06-06T01:40:38Z,2025-06-06T06:49:30+00:00,1,5.15,True,12,11,2,388,0,0,0,MERGED
+32207,Fix typo in assistant_tool.rs,sharkAndshark,2025-06-06T01:18:03Z,2025-06-06T05:23:25+00:00,1,4.09,True,1,1,1,19,4,0,4,MERGED
+32156,lsp: Fix language servers not starting up on save,osiewicz,2025-06-05T11:20:15Z,2025-06-05T12:22:34+00:00,2,1.04,True,89,5,2,92,0,1,1,MERGED
+32154,language_models: Add support for images to Mistral models,imumesh18,2025-06-05T11:11:47Z,2025-06-09T10:00:02+00:00,1,94.8,True,256,91,3,510,1,0,1,MERGED
+32136,Use unix pipe to capture environment variables,haruleekim,2025-06-05T06:11:25Z,2025-06-10T02:37:43+00:00,2,116.44,True,87,29,5,191,12,1,13,MERGED
+32133,agent: Fix MCP server handler subscription race condition,xJonathanLEI,2025-06-05T05:10:27Z,2025-06-06T13:32:06+00:00,1,32.36,True,113,106,2,109,0,0,0,MERGED
+32126,docs: Fix missing comma in MCP code snippet,benswift,2025-06-05T00:57:12Z,2025-06-05T03:00:51+00:00,1,2.06,True,1,1,1,93,3,0,3,MERGED
+32104,docs: Add JavaScript configuration to the example setup of Deno,dannybunschoten,2025-06-04T19:09:43Z,2025-06-09T10:18:06+00:00,1,111.14,True,9,0,1,224,3,0,3,MERGED
+32099,gpui: Simplify u8 to u32 conversion,tidely,2025-06-04T18:16:35Z,2025-06-05T15:57:27+00:00,2,21.68,True,6,9,1,116,2,1,3,MERGED
+32079,gpui: Dynamic element arena,MatinAniss,2025-06-04T15:07:20Z,2025-06-25T19:29:13+00:00,7,508.36,True,109,43,2,563,2,3,5,MERGED
+32064,gemini: Send thought signatures back to API,osyvokon,2025-06-04T10:19:54Z,2025-06-16T14:24:44+00:00,2,292.08,True,23,3,1,89,6,1,7,MERGED
+32012,language_models: Add image support to OpenRouter models,imumesh18,2025-06-03T19:48:25Z,2025-06-11T08:01:29+00:00,1,180.22,True,187,23,2,308,0,0,0,MERGED
+32004,"debugger: Use  UUID for Go debug binary names, do not rely on OUT_DIR",sysradium,2025-06-03T17:58:15Z,2025-06-04T09:18:04+00:00,3,15.33,True,66,20,3,210,2,2,4,MERGED
+31998,agent: Support `AGENT.md` and `AGENTS.md` as rules file names,danilo-leal,2025-06-03T16:39:00Z,2025-06-03T18:19:39+00:00,1,1.68,True,14,3,2,156,0,1,1,MERGED
+31959,Make minimum width for line numbers in gutter configurable,maxmynter,2025-06-03T10:19:51Z,2025-06-11T10:00:51+00:00,5,191.68,True,16,8,4,715,10,5,15,MERGED
+31950,collab: Reconnect to channel notes,osiewicz,2025-06-03T07:41:17Z,2025-06-03T09:12:45+00:00,1,1.52,True,19,2,3,120,0,1,1,MERGED
+31934,Fix Python virtual environment detection,sudoish,2025-06-03T01:42:32Z,2025-06-03T14:35:14+00:00,7,12.88,True,79,14,1,3473,2,5,7,MERGED
+31907,Store profile per thread,benbrandt,2025-06-02T15:45:16Z,2025-06-06T12:05:27+00:00,4,92.34,True,557,370,21,319,0,5,5,MERGED
+31883,language_models: Add images support for Ollama vision models,imumesh18,2025-06-02T09:07:30Z,2025-06-03T09:12:59+00:00,6,24.09,True,136,26,3,221,3,4,7,MERGED
+31873,Add LM Studio URL configuration field,mpleshivenkov,2025-06-02T01:16:13Z,2025-06-03T13:49:28+00:00,1,36.55,False,226,8,2,414,5,1,6,CLOSED
+31848,agent: Show warning for image context pill if model doesn't support images,imumesh18,2025-06-01T07:22:37Z,2025-06-04T16:20:56+00:00,2,80.97,True,149,34,7,463,0,1,1,MERGED
+31836,gpui: Disable rounding in the layout engine,WaffleLapkin,2025-05-31T21:42:04Z,2025-06-24T20:28:57+00:00,5,574.78,True,4,2,2,560,3,1,4,MERGED
+31833,Add channel reordering functionality,nathansobo,2025-05-31T20:54:21Z,2025-06-04T16:56:33+00:00,2,92.04,True,786,70,18,5572,1,1,2,MERGED
+31818,Fix duplicate prefixes when repeating completions in Vim mode,zeux,2025-05-31T13:40:53Z,2025-06-03T03:34:47+00:00,5,61.9,True,10,1,1,918,1,1,2,MERGED
+31817,docs: Update Ansible docs,kartikvashistha,2025-05-31T12:55:04Z,2025-05-31T14:30:29+00:00,2,1.59,True,63,7,1,19,1,1,2,MERGED
+31813,agent: Show actual file name and icon in context pill,imumesh18,2025-05-31T09:51:54Z,2025-06-02T10:35:22+00:00,3,48.72,True,81,50,3,282,0,0,0,MERGED
+31807,Increase terminal inline assistant block height,alisinabh,2025-05-31T05:11:36Z,2025-06-02T13:55:41+00:00,1,56.73,True,1,1,1,238,0,0,0,MERGED
+31799,Properly load environment variables from the login shell,haruleekim,2025-05-30T23:09:55Z,2025-06-04T01:16:27+00:00,3,98.11,True,304,151,5,1095,8,1,9,MERGED
+31763,"Implement syntactic fold for JS, TS, and TSX",Daquisu,2025-05-30T16:12:37Z,2025-07-01T10:02:05+00:00,7,761.82,False,1067,16,12,1117,5,3,8,CLOSED
+31753,debugger: Extend `f5` binding to contextually rerun the last session,cole-miller,2025-05-30T14:51:41Z,2025-06-03T00:35:52+00:00,2,81.74,True,70,11,5,175,0,1,1,MERGED
+31744,danger: Check for changes in prompt files,maxdeviant,2025-05-30T12:25:43Z,2025-05-30T13:46:42+00:00,3,1.35,True,52,13,5,451,0,1,1,MERGED
+31736,language_models: Fix Mistral tool->user message sequence handling,imumesh18,2025-05-30T10:10:52Z,2025-06-06T09:35:22+00:00,4,167.41,True,29,0,1,1799,11,1,12,MERGED
+31734,Add reminders to sync prompts with the backend,osyvokon,2025-05-30T08:08:49Z,2025-06-06T16:50:08+00:00,3,176.69,False,16,0,6,19,4,1,5,CLOSED
+31733,language_models: Add tool support for DeepSeek,arrrrny,2025-05-30T07:51:46Z,2025-06-02T15:20:22+00:00,1,79.48,False,369,74,1,99,2,0,2,CLOSED
+31718,agent: Add Burn Mode setting migrator,danilo-leal,2025-05-29T22:15:42Z,2025-05-30T11:10:12+00:00,1,12.91,True,126,0,3,37,0,0,0,MERGED
+31708,multi_buffer: Merge adjacent matches into a single excerpt when separated by only one line,Rogue-striker,2025-05-29T18:52:02Z,2025-06-03T10:08:00+00:00,5,111.27,True,3,3,2,122,0,5,5,MERGED
+31704,Add View Release Notes to Help menu,simonpham,2025-05-29T18:12:33Z,2025-05-29T19:39:54+00:00,1,1.46,True,4,0,1,53,0,0,0,MERGED
+31703,markdown_preview: Fix release notes title being overridden,simonpham,2025-05-29T18:09:00Z,2025-05-30T08:29:53+00:00,4,14.35,True,10,6,2,96,0,3,3,MERGED
+31671,editor: Smooth scroll,hocman2,2025-05-29T08:05:07Z,2025-06-03T15:21:48+00:00,2,127.28,False,366,17,8,488,10,1,11,CLOSED
+31668,Rename Max Mode to Burn Mode throughout code and docs,imumesh18,2025-05-29T07:38:20Z,2025-05-29T13:12:42+00:00,1,5.57,True,44,39,8,375,1,0,1,MERGED
+31665,language_models: Add thinking support for ollama,imumesh18,2025-05-29T07:10:13Z,2025-06-02T15:12:41+00:00,8,104.04,True,39,7,3,562,1,3,4,MERGED
+31657,task: Add ZED_RELATIVE_DIR task variable,d5ng4i,2025-05-29T04:44:57Z,2025-05-29T09:50:37+00:00,2,5.09,True,20,2,4,744,3,1,4,MERGED
+31621,editor: Fix horizontal scrollbar alignment if indent guides are disabled,MrSubidubi,2025-05-28T18:53:06Z,2025-05-28T19:59:51+00:00,1,1.11,True,11,0,1,704,1,0,1,MERGED
+31620,language_models: Sort Ollama models by name,little-dude,2025-05-28T18:36:45Z,2025-06-03T15:37:08+00:00,1,141.01,True,6,4,1,742,7,0,7,MERGED
+31609,Add a bunch of manually tested prompt changes that make Gemini 2.5 Pro work better for me,nathansobo,2025-05-28T17:06:31Z,2025-07-01T10:03:02+00:00,1,808.94,False,41,17,7,374,1,1,2,CLOSED
+31596,terminal: Fix hovering a URL highlighting the closing bracket,parkji30,2025-05-28T15:09:19Z,2025-06-04T18:06:14+00:00,6,170.95,False,59,2,1,394,5,2,7,CLOSED
+31586,assistant_tools: Remove description.md files of removed tools,imumesh18,2025-05-28T12:41:03Z,2025-05-28T13:55:39+00:00,1,1.24,True,0,102,6,216,0,0,0,MERGED
+31559,debugger: Improve Go support,sysradium,2025-05-27T21:43:16Z,2025-05-28T10:59:06+00:00,3,13.26,True,651,9,8,660,1,1,2,MERGED
+31556,linux: Fix crash when switching repository via git panel,smitbarmase,2025-05-27T21:00:04Z,2025-05-27T23:56:00+00:00,1,2.93,True,6,8,1,182,0,1,1,MERGED
+31512,Remove redundant words in comments,tongjicoder,2025-05-27T14:29:44Z,2025-05-27T23:01:31+00:00,1,8.53,True,3,3,3,52,3,0,3,MERGED
+31510,agent: Keep horizontal scrollbar in edit file tool cards,benbrandt,2025-05-27T14:05:33Z,2025-05-27T15:24:22+00:00,1,1.31,True,37,11,3,196,1,0,1,MERGED
+31508,Add warning message when editing a message in a thread,rtfeldman,2025-05-27T13:44:28Z,2025-05-27T20:26:47+00:00,1,6.71,True,72,48,1,111,0,0,0,MERGED
+31500,docs: Add more troubleshooting steps for Windows,shenjackyuanjie,2025-05-27T11:26:40Z,2025-06-06T10:57:40+00:00,3,239.52,True,20,0,1,19,7,1,8,MERGED
+31499,Allow to run dynamic TypeScript and JavaScript tests,lsndr,2025-05-27T11:25:43Z,2025-06-09T10:13:26+00:00,2,310.8,True,106,5,5,511,4,2,6,MERGED
+31428,gpui: Apply cfg at compile time,tidely,2025-05-26T12:30:09Z,2025-05-26T13:34:04+00:00,1,1.07,True,66,70,1,141,0,0,0,MERGED
+31421,Add UnwrapSyntaxNode action,Gregoor,2025-05-26T10:28:48Z,2025-08-07T04:52:23+00:00,1,1746.39,True,109,0,4,1023,1,0,1,MERGED
+31415,Update default models to newer versions,benbrandt,2025-05-26T09:12:01Z,2025-05-27T08:54:42+00:00,1,23.71,True,16,16,7,306,0,1,1,MERGED
+31397,gpui: Fix typo in doc comment,WaffleLapkin,2025-05-25T22:28:39Z,2025-05-26T04:59:51+00:00,1,6.52,True,1,1,1,19,0,0,0,MERGED
+31392,Add GitHub token environment variable support for Copilot,clauses3,2025-05-25T18:44:40Z,2025-06-09T10:39:44+00:00,1,351.92,True,37,11,4,404,3,0,3,MERGED
+31390,Add setting for minimap on active editor only,AlvaroParker,2025-05-25T18:16:38Z,2025-06-17T13:39:49+00:00,9,547.39,True,44,0,3,456,5,3,8,MERGED
+31385,Default to fast model first for commit messages,abdelq,2025-05-25T15:47:38Z,2025-05-26T08:37:44+00:00,1,16.84,True,1,0,1,509,1,0,1,MERGED
+31384,Fix diff indicators not restored when reopening remote project,feeiyu,2025-05-25T14:23:33Z,2025-06-17T14:07:52+00:00,2,551.74,True,192,7,6,92,1,0,1,MERGED
+31366,Add ability to manage dock size via command/shortcut,aurexav,2025-05-25T03:51:30Z,2025-07-02T10:27:52+00:00,24,918.61,True,251,76,3,741,30,13,43,MERGED
+31361,agent: Add max mode on text threads,AlvaroParker,2025-05-24T23:30:05Z,2025-05-28T13:12:38+00:00,2,85.71,True,160,35,5,100,3,1,4,MERGED
+31353,agent: Add a setting choose the default view,AlvaroParker,2025-05-24T19:02:08Z,2025-05-26T14:33:18+00:00,3,43.52,True,43,2,2,286,1,1,2,MERGED
+31345,"debugger: Improve Go debugging support, with inline hints and stdout/stderr redirect",sysradium,2025-05-24T17:23:59Z,2025-05-27T21:48:39+00:00,7,76.41,False,1162,37,12,1056,7,4,11,CLOSED
+31339,debugger: Fix install detection for debugpy,raphaelluethy,2025-05-24T15:05:51Z,2025-05-27T09:45:55+00:00,15,66.67,True,138,27,3,1296,3,7,10,MERGED
+31315,Add initial element inspector for Zed development,mgsloan,2025-05-23T22:04:48Z,2025-05-23T23:08:59+00:00,2,1.07,True,2631,406,74,519,1,1,2,MERGED
+31314,gpui: Remove unnecessary String,tidely,2025-05-23T21:50:45Z,2025-05-26T08:17:04+00:00,1,58.44,True,7,11,3,55,1,0,1,MERGED
+31290,Add overdue invoices check,benbrandt,2025-05-23T15:10:05Z,2025-05-23T20:02:02+00:00,1,4.87,True,65,7,7,258,0,0,0,MERGED
+31266,ui: Fix content shift when selecting last tab,MrSubidubi,2025-05-23T11:32:12Z,2025-05-24T20:36:51+00:00,1,33.08,True,1,1,1,773,0,0,0,MERGED
+31260,language: Improve auto-indentation when using round brackets in Python,MrSubidubi,2025-05-23T10:49:36Z,2025-05-24T20:55:16+00:00,1,34.09,True,31,4,4,695,1,0,1,MERGED
+31258,agent: Unfollow agent on completion cancellation,benbrandt,2025-05-23T10:20:18Z,2025-05-23T12:55:08+00:00,1,2.58,True,177,2,1,101,0,0,0,MERGED
+31251,Add thinking budget for Gemini custom models,90aca,2025-05-23T09:12:16Z,2025-06-03T11:40:20+00:00,2,266.47,True,82,5,3,311,3,2,5,MERGED
+31239,"send system prompt once, in the beginning of chat",arrrrny,2025-05-23T06:28:40Z,2025-05-23T11:12:33+00:00,1,4.73,False,30,26,1,96,4,0,4,CLOSED
+31235,Expand tilde paths in edit prediction settings,clauses3,2025-05-23T05:00:33Z,2025-06-03T08:32:24+00:00,1,267.53,True,29,5,4,76,4,0,4,MERGED
+31229,Change default diagnostics_max_severity to 'hint',blopker,2025-05-22T23:54:17Z,2025-05-23T07:30:38+00:00,1,7.61,True,3,3,1,759,9,0,9,MERGED
+31224,project: Use VecDeque in SearchHistory,tidely,2025-05-22T21:26:05Z,2025-05-23T11:25:40+00:00,1,13.99,True,8,6,1,336,0,0,0,MERGED
+31223,Reduce allocations,tidely,2025-05-22T21:14:17Z,2025-05-23T11:25:17+00:00,1,14.18,True,14,20,6,19,0,0,0,MERGED
+31214,bedrock: Support Claude 4 models,5herlocked,2025-05-22T19:58:01Z,2025-05-22T21:59:24+00:00,3,2.02,True,52,3,1,56,2,1,3,MERGED
+31174,linux: Fix keystroke handling on non-English keyboard layout,JunkuiZhang,2025-05-22T10:24:07Z,2025-07-11T18:25:27+00:00,3,1208.02,False,633,168,6,2113,2,1,3,CLOSED
+31150,python: Respect picked toolchain (when it's not at the root) when running tests,sudoish,2025-05-22T03:53:01Z,2025-06-02T13:29:34+00:00,5,273.61,True,13,9,1,1270,9,2,11,MERGED
+31133,project search: Reduce clones and allocations,RemcoSmitsDev,2025-05-21T22:46:29Z,2025-05-22T02:11:00+00:00,1,3.41,True,17,18,2,19,0,0,0,MERGED
+31110,"Update terminal file icon associations in ""FILE_SUFFIX_BY_ICON_KEY""",lukejans,2025-05-21T19:03:42Z,2025-05-26T08:22:44+00:00,1,109.32,True,4,1,1,551,1,1,2,MERGED
+31107,docs: Include slimmer C++ build tools only installation for Windows,NewtonChutney,2025-05-21T17:57:11Z,2025-05-26T08:32:13+00:00,1,110.58,True,30,2,1,2586,10,0,10,MERGED
+31087,Handle `~` in debugger launch modal,P1n3appl3,2025-05-21T11:49:04Z,2025-05-22T11:20:01+00:00,5,23.52,True,30,33,1,184,0,2,2,MERGED
+31062,gpui: Fix scroll area to support two-layer scrolling in different directions,huacnlee,2025-05-21T03:00:32Z,2025-06-06T17:06:09+00:00,2,398.09,True,61,1,3,1005,5,1,6,MERGED
+31056,Add holding opt/alt for fast scrolling,alii,2025-05-20T23:46:13Z,2025-05-26T19:42:20+00:00,2,139.94,True,30,1,3,305,6,0,6,MERGED
+31043,docs: Bedrock Configuration docs,5herlocked,2025-05-20T17:34:47Z,2025-05-26T15:09:50+00:00,4,141.58,True,163,83,1,54,0,4,4,MERGED
+31002,client: Try to re-introduce HTTP/HTTPS proxy,JunkuiZhang,2025-05-20T09:42:57Z,2025-05-21T01:08:32+00:00,5,15.43,True,319,90,6,280,8,1,9,MERGED
+31000,vim: Enable window shortcuts in Agent panel,pavles6,2025-05-20T09:08:10Z,2025-06-06T17:20:04+00:00,1,416.2,True,1,1,1,82,3,0,3,MERGED
+30990,gpui: Correct the image id in the example image_loading,stormasm,2025-05-20T04:52:15Z,2025-05-20T07:36:41+00:00,1,2.74,True,1,1,1,87,0,0,0,MERGED
+30984,Meter edit predictions by acceptance in free plan,maxbrunsfeld,2025-05-20T01:14:10Z,2025-05-21T17:11:42+00:00,1,39.96,True,115,8,3,69,4,0,4,MERGED
+30980,title_bar: Fix config merging to respect priority,zertosh,2025-05-19T23:02:07Z,2025-05-20T07:56:24+00:00,1,8.9,True,18,22,1,482,6,0,6,MERGED
+30964,Ensure horizontal scrollbars show as needed,MrSubidubi,2025-05-19T17:13:42Z,2025-05-26T11:06:19+00:00,1,161.88,True,6,38,2,831,0,0,0,MERGED
+30952,gpui: Fix race condition when upgrading a weak reference,laizy,2025-05-19T12:01:20Z,2025-05-30T15:18:26+00:00,3,267.29,True,28,13,3,19,1,1,2,MERGED
+30948,extension_host: Use wasmtime incremental compilation,benbrandt,2025-05-19T10:48:39Z,2025-05-21T08:12:16+00:00,1,45.39,True,224,16,5,2146,0,0,0,MERGED
+30942,extension_host: Turn on parallel compilation,benbrandt,2025-05-19T09:04:03Z,2025-05-19T16:06:33+00:00,1,7.04,True,161,5,8,1137,0,0,0,MERGED
+30937,markdown: Fix parse inline `code` display,CharlesChen0823,2025-05-19T06:13:17Z,2025-05-26T11:28:44+00:00,2,173.26,True,44,4,1,127,0,0,0,MERGED
+30922,Add separate confirmation setting for file deletions,CLoaKY233,2025-05-18T17:36:59Z,2025-06-05T21:40:11+00:00,1,436.05,False,104,39,5,611,8,0,8,CLOSED
+30911,Make sure GoPlsAdapter produces output that can be rendered as Markdown,mikalsande,2025-05-18T10:58:56Z,2025-05-26T08:04:13+00:00,1,189.09,True,6,0,1,338,3,0,3,MERGED
+30904,gpui: Add more shapes for `PathBuilder`,madcodelife,2025-05-18T05:26:09Z,2025-05-26T09:49:42+00:00,1,196.39,True,110,5,2,78,2,0,2,MERGED
+30893,Add icons to the built-in picker for Open,hron,2025-05-17T19:53:47Z,2025-05-21T10:07:22+00:00,1,86.23,True,20,2,1,66,1,0,1,MERGED
+30890,Fix `Replace Next Match` command,hron,2025-05-17T19:00:04Z,2025-05-21T10:05:44+00:00,1,87.09,True,0,1,1,367,2,0,2,MERGED
+30869,terminal: Consume event during processing,tidely,2025-05-17T10:27:29Z,2025-05-23T11:28:53+00:00,1,145.02,True,24,22,3,291,0,0,0,MERGED
+30860,theme: Add support for per-theme overrides,hron,2025-05-17T08:22:26Z,2025-08-08T21:17:19+00:00,1,2004.91,True,45,24,1,112,2,0,2,MERGED
+30844,ci: Check for broken links,thomas-zahner,2025-05-16T19:43:32Z,2025-06-06T09:39:35+00:00,1,493.93,True,45,10,11,1206,8,1,9,MERGED
+30842,Fix performance issues in project search related to detecting JSX tag auto-closing,RemcoSmitsDev,2025-05-16T19:13:08Z,2025-05-20T23:37:09+00:00,2,100.4,True,4,0,1,185,2,0,2,MERGED
+30840,Reuse display_map snapshot where possible to reduce snapshot creation,RemcoSmitsDev,2025-05-16T18:01:55Z,2025-09-09T16:12:23+00:00,1,2782.17,False,468,274,40,343,8,1,9,CLOSED
+30833,debugger: Use DAP schema to configure daps,Anthony-Eid,2025-05-16T14:41:21Z,2025-05-22T09:48:26+00:00,6,139.12,True,2343,726,43,746,0,2,2,MERGED
+30832,Fix prevent zero value for buffer line height,kmpeeduwee,2025-05-16T14:15:53Z,2025-05-19T00:55:35+00:00,1,58.66,True,67,4,1,116,4,0,4,MERGED
+30828,gpui: Implement dynamic window control elements,MatinAniss,2025-05-16T13:58:56Z,2025-06-06T17:11:24+00:00,7,507.21,True,129,96,11,288,1,1,2,MERGED
+30818,Display the correct git push flag when force-pushing,TymekDev,2025-05-16T12:36:04Z,2025-05-26T07:26:46+00:00,1,234.84,True,1,1,1,805,0,0,0,MERGED
+30810,"Revert ""Revert ""python: Enable subroot detection for pylsp and pyright (#27364)"" (#29658)""",probably-neb,2025-05-16T09:59:49Z,2025-05-16T11:05:33+00:00,1,1.1,True,41,2,2,153,0,0,0,MERGED
+30803,vim: Document ctrl-s override,5brian,2025-05-16T08:25:04Z,2025-05-26T07:30:00+00:00,1,239.08,True,1,0,1,33,0,0,0,MERGED
+30790,gpui: Activate the window example along with the Quit action,stormasm,2025-05-16T02:23:55Z,2025-05-26T07:10:35+00:00,1,244.78,True,10,2,2,228,1,0,1,MERGED
+30785,theme: Add colors for minimap thumb and border,MrSubidubi,2025-05-15T21:17:15Z,2025-05-26T18:23:42+00:00,5,261.11,True,193,66,7,1028,1,2,3,MERGED
+30783,recent_projects: Fix `Open recent` and `Open remote` menu items when no windows exist,cgorski,2025-05-15T20:50:02Z,2025-05-30T06:01:06+00:00,11,345.18,False,286,46,4,1850,12,9,21,CLOSED
+30782,editor: Do not start scroll when hovering the scroll thumb during dragging events,MrSubidubi,2025-05-15T20:22:13Z,2025-05-24T20:39:02+00:00,1,216.28,True,4,1,2,1034,0,0,0,MERGED
+30769,python: Support setting pytest args,cache-missing,2025-05-15T16:03:01Z,2025-07-01T09:34:29+00:00,6,1121.52,False,32,10,4,58,4,4,8,CLOSED
+30748,"Add missing ""no"" in .rules",halvko,2025-05-15T09:54:32Z,2025-05-17T06:31:57+00:00,1,44.62,True,1,1,1,135,2,0,2,MERGED
+30742,language_tools: Increase available space for language server logs,MrSubidubi,2025-05-15T08:53:50Z,2025-05-26T21:57:45+00:00,2,277.07,True,94,42,2,740,3,0,3,MERGED
+30724,docs: Add minimap configuration section,MrSubidubi,2025-05-14T23:36:52Z,2025-05-15T06:07:32+00:00,1,6.51,True,179,0,1,534,0,0,0,MERGED
+30716,"client: Remove extra clone, pass big struct by reference",tidely,2025-05-14T18:37:07Z,2025-05-14T22:16:25+00:00,1,3.65,True,8,9,1,60,0,0,0,MERGED
+30703,context_server: Fix casing of `mimeType` in tool responses,xJonathanLEI,2025-05-14T15:29:30Z,2025-05-26T08:29:45+00:00,1,281.0,True,1,1,1,112,2,0,2,MERGED
+30699,Add excluded_files to pane::DeploySearch,theherk,2025-05-14T14:31:01Z,2025-05-21T10:03:39+00:00,1,163.54,True,10,0,2,488,2,0,2,MERGED
+30697,Add a separator before Quit in the application menu,skurfer,2025-05-14T14:04:41Z,2025-05-14T16:19:09+00:00,1,2.24,True,1,0,1,117,0,0,0,MERGED
+30693,Reduce allocations,tidely,2025-05-14T13:11:32Z,2025-05-14T16:29:28+00:00,1,3.3,True,48,57,17,75,0,0,0,MERGED
+30673,Support global system settings: `/etc/zed/settings.json`,notpeter,2025-05-14T08:23:02Z,2025-08-06T19:38:44+00:00,3,2027.26,False,28,4,2,115,5,2,7,CLOSED
+30671,editor: Add support for `drag_and_drop_selection`,CharlesChen0823,2025-05-14T07:38:00Z,2025-06-09T04:51:18+00:00,3,621.22,True,214,16,6,140,8,4,12,MERGED
+30663,docs: Fix up some invalid JSON in OpenAI configuration example,bakert,2025-05-13T23:16:44Z,2025-05-14T11:19:01+00:00,1,12.04,True,2,2,1,0,1,0,1,MERGED
+30659,bedrock: Fix cross-region inference,5herlocked,2025-05-13T21:26:43Z,2025-06-03T15:46:35+00:00,1,498.33,True,107,86,2,231,2,0,2,MERGED
+30639,Add image input support for OpenAI models,agu-z,2025-05-13T13:58:06Z,2025-05-13T15:32:42+00:00,2,1.58,True,162,43,5,59,1,1,2,MERGED
+30614,Add move line to JetBrains keymap,Celsiusss,2025-05-13T08:34:45Z,2025-05-21T20:12:44+00:00,3,203.63,False,6,2,2,68,5,1,6,CLOSED
+30600,agent: Namespace MCP server tools,bennetbo,2025-05-12T21:17:53Z,2025-05-27T17:47:45+00:00,1,356.5,True,12,3,4,343,0,0,0,MERGED
+30599,editor: Do not offset text in single line editors by default,MrSubidubi,2025-05-12T20:07:09Z,2025-05-26T11:47:10+00:00,2,327.67,True,26,4,3,662,1,1,2,MERGED
+30589,language_models: Add support for tool use to LM Studio provider,gyzerok,2025-05-12T17:13:10Z,2025-05-26T11:54:17+00:00,1,330.69,True,317,117,3,730,12,0,12,MERGED
+30568,Add `ZED_BLADE_VALIDATE` flag for enabling blade validation on Linux,probably-neb,2025-05-12T13:25:07Z,2025-06-06T13:02:08+00:00,1,599.62,False,2,1,1,122,7,0,7,CLOSED
+30546,Fix out-of-bounds panic in fuzzy matcher with Unicode/multibyte characters,imumesh18,2025-05-12T09:29:40Z,2025-05-12T14:43:14+00:00,2,5.23,True,104,5,1,908,1,0,1,MERGED
+30519,Fix apply buffer font features to completion tooltip (#30362),kmpeeduwee,2025-05-11T17:53:45Z,2025-05-11T19:45:42+00:00,1,1.87,True,1,1,1,114,0,0,0,MERGED
+30490,paths: XDG_CONFIG_HOME compliance on non-linux platforms,chawyehsu,2025-05-11T02:21:23Z,2025-06-06T17:19:45+00:00,3,638.97,False,20,5,1,180,2,1,3,CLOSED
+30479,Allow toggling border visibility in centered layout mode,kmpeeduwee,2025-05-10T21:42:08Z,2025-06-09T06:44:13+00:00,1,705.03,False,121,32,4,136,1,4,5,CLOSED
+30477,editor: Prevent vertical scrollbar from overlapping with buffer headers,MrSubidubi,2025-05-10T20:29:40Z,2025-05-11T15:54:57+00:00,1,19.42,True,32,31,1,949,0,0,0,MERGED
+30474,docs: Suggest checking `zed_extension_api` compatibility,sectore,2025-05-10T19:31:49Z,2025-05-10T21:07:01+00:00,1,1.59,True,1,1,1,147,2,0,2,MERGED
+30470,Add Caps Lock support,mzaks,2025-05-10T16:18:11Z,2025-06-18T00:43:33+00:00,7,920.42,True,146,31,16,135,9,3,12,MERGED
+30467,open_ai: Fix parallel tools issue,adrianfuro,2025-05-10T15:13:39Z,2025-05-26T11:46:35+00:00,1,380.55,True,2,4,1,58,4,0,4,MERGED
+30456,Fix deprecation warning text being covered by right dock,kmpeeduwee,2025-05-10T10:09:50Z,2025-05-11T21:54:21+00:00,2,35.74,True,86,60,3,88,10,3,13,MERGED
+30454,debugger: Fix unzipping of codelldb on Windows,zcg,2025-05-10T09:04:40Z,2025-05-21T18:17:15+00:00,3,273.21,False,54,0,3,280,0,2,2,CLOSED
+30450,Add setting to disable the sign in button,trishume,2025-05-10T01:12:29Z,2025-05-14T13:39:04+00:00,1,108.44,True,11,2,3,172,3,0,3,MERGED
+30444,Implement global settings file,trishume,2025-05-09T22:52:21Z,2025-05-13T06:29:33+00:00,1,79.62,True,210,40,4,208,1,1,2,MERGED
+30437,agent: Allow to collapse provider sections in the settings view,amateurhuman,2025-05-09T21:38:58Z,2025-05-12T08:07:30+00:00,1,58.48,True,60,25,1,1087,7,0,7,MERGED
+30416,Wait to locate system-installed Node until the shell environment is loaded,maxbrunsfeld,2025-05-09T17:53:39Z,2025-05-09T19:24:28+00:00,1,1.51,True,68,58,7,192,0,0,0,MERGED
+30344,windows: Remove extra empty line when loading default settings,JunkuiZhang,2025-05-09T07:29:37Z,2025-05-09T11:00:16+00:00,1,3.51,True,13,9,1,523,2,0,2,MERGED
+30332,deps: Update aws-lc-rs to 1.13.1,ognevny,2025-05-09T04:27:46Z,2025-05-09T06:13:00+00:00,1,1.75,True,30,43,2,84,3,0,3,MERGED
+30326,editor: Ensure minimap is shown when `show_minimap` is toggled to `true`,MrSubidubi,2025-05-09T01:04:45Z,2025-05-09T05:32:32+00:00,1,4.46,True,72,24,4,3764,3,0,3,MERGED
+30289,Add a test for remote tool use by the agent,cole-miller,2025-05-08T17:36:54Z,2025-05-08T20:53:04+00:00,1,3.27,True,104,13,9,378,0,0,0,MERGED
+30251,Improve compatibility with Wayland clipboard,aldofunes,2025-05-08T12:47:59Z,2025-05-30T17:21:00+00:00,1,532.55,True,10,4,2,119,4,0,4,MERGED
+30249,copilot: Use latest Copilot API spec ,imumesh18,2025-05-08T12:43:17Z,2025-06-06T06:46:06+00:00,1,690.05,False,302,167,4,1274,0,1,1,CLOSED
+30239,Make `copilot::SignIn` open sign-in modal when needed,mgsloan,2025-05-08T11:12:54Z,2025-05-08T14:52:07+00:00,2,3.65,True,142,76,3,172,3,1,4,MERGED
+30227,vim: Add `g M` motion to go to the middle of a line,x4132,2025-05-08T10:05:09Z,2025-05-16T21:21:30+00:00,1,203.27,True,146,0,3,130,7,1,8,MERGED
+30223,Add tool support for DeepSeek,thlstsul,2025-05-08T09:46:43Z,2025-06-03T08:59:36+00:00,1,623.21,True,170,87,1,90,2,0,2,MERGED
+30212,snippets: Add icons and file names to snippet scope selector,loczek,2025-05-08T07:55:53Z,2025-05-26T13:44:10+00:00,1,437.8,True,134,21,5,345,0,2,2,MERGED
+30189,editor: Ensure scrollbar thumb is not layouted when content size is smaller than viewport,MrSubidubi,2025-05-07T21:26:09Z,2025-05-08T07:06:10+00:00,3,9.67,True,80,47,1,2115,0,1,1,MERGED
+30171,mistral: Add new Mistral medium model,versecafe,2025-05-07T19:01:19Z,2025-05-08T01:57:16+00:00,1,6.93,True,6,0,1,61,1,0,1,MERGED
+30162,search: Do not consider filters if they are toggled off,MrSubidubi,2025-05-07T18:22:05Z,2025-05-08T06:42:40+00:00,1,12.34,True,159,29,1,237,0,0,0,MERGED
+30160,ruby: Update documentation about new LS activation sequence,vitallium,2025-05-07T17:52:57Z,2025-05-07T20:35:48+00:00,1,2.71,True,22,72,1,173,0,0,0,MERGED
+30155,language_models: Add vision support for Copilot Chat models,imumesh18,2025-05-07T17:10:04Z,2025-05-12T13:11:38+00:00,2,116.03,True,80,22,3,1098,0,2,2,MERGED
+30153,title_bar: Add link indicator to current plan entry in user menu,MrSubidubi,2025-05-07T17:01:18Z,2025-05-07T18:25:39+00:00,1,1.41,True,1,1,1,168,0,0,0,MERGED
+30138,editor: Use default gutter margin instead of `horizontal_padding` for horizontal content padding,MrSubidubi,2025-05-07T15:47:38Z,2025-05-07T18:23:55+00:00,1,2.6,True,43,58,3,1847,0,0,0,MERGED
+30090,Load Profile state from Thread and tie visibility to the thread's model,benbrandt,2025-05-07T09:19:28Z,2025-05-08T02:36:08+00:00,2,17.28,True,67,23,4,359,0,1,1,MERGED
+30053,Restore tool cards on thread deserialization,mikayla-maki,2025-05-07T00:16:19Z,2025-05-07T01:16:34+00:00,1,1.0,True,309,137,30,19,0,1,1,MERGED
+30049,git_ui: Only register conflict addon for full mode editors,MrSubidubi,2025-05-06T22:52:57Z,2025-05-07T20:10:08+00:00,1,21.29,True,3,2,1,2043,0,0,0,MERGED
+30044,Add TypeScript support to ESLint flat config,ai,2025-05-06T20:41:19Z,2025-05-07T12:49:00+00:00,1,16.13,True,8,2,1,122,3,0,3,MERGED
+30039,"Rename assistant settings to agent settings, to match new settings UI",mikayla-maki,2025-05-06T19:13:41Z,2025-05-08T01:11:29+00:00,1,29.96,False,365,391,40,257,2,0,2,CLOSED
+30033,agent: Allow customizing temperature by provider/model,agu-z,2025-05-06T18:17:50Z,2025-05-06T20:36:26+00:00,4,2.31,True,349,107,22,642,0,1,1,MERGED
+29998,agent: Fix inline assistant focusing behavior for cursor placement,imumesh18,2025-05-06T12:09:51Z,2025-05-12T09:29:14+00:00,1,141.32,True,19,5,1,1112,1,0,1,MERGED
+29994,language_models: Add tool use support for Mistral models,imumesh18,2025-05-06T11:18:19Z,2025-05-19T16:36:59+00:00,4,317.31,True,347,50,6,664,11,1,12,MERGED
+29943,Update `assistant` to `agent` in settings and keymaps,cole-miller,2025-05-05T18:34:36Z,2025-05-06T01:02:56+00:00,2,6.47,True,191,58,17,377,0,1,1,MERGED
+29938,Add Zed Pro Trial Upsell,iamnbutler,2025-05-05T17:27:29Z,2025-05-05T22:46:54+00:00,2,5.32,True,714,14,9,57,2,1,3,MERGED
+29924,Terminal tool improvements,cole-miller,2025-05-05T14:24:27Z,2025-05-05T19:57:04+00:00,3,5.54,True,143,25,6,356,4,2,6,MERGED
+29921,pane: Add functional clone on drop with `control` modifier,CharlesChen0823,2025-05-05T13:07:38Z,2025-05-26T13:40:20+00:00,3,504.55,True,21,1,1,88,2,2,4,MERGED
+29886,project_search: Ensure filter row aligns with other search rows,MrSubidubi,2025-05-04T20:07:52Z,2025-05-05T06:35:49+00:00,1,10.47,True,36,23,1,757,0,0,0,MERGED
+29874,git: Add ability to pass `--signoff`,ericcornelissen,2025-05-04T13:21:19Z,2025-07-17T03:39:55+00:00,1,1766.31,True,342,337,6,1171,14,0,14,MERGED
+29840,docs: Add instructions for uninstalling Zed,AnjaliPhukan,2025-05-03T12:58:06Z,2025-05-04T17:41:37+00:00,2,28.73,True,37,1,2,651,0,0,0,MERGED
+29829,editor: Remove extra quotes from outline search term,AaronFeickert,2025-05-02T23:21:30Z,2025-05-06T07:50:33+00:00,1,80.48,True,1,1,1,258,0,0,0,MERGED
+29761,Use project environment in LSP runnables context,WeetHet,2025-05-01T19:38:31Z,2025-05-02T11:01:40+00:00,9,15.39,True,55,11,5,102,1,2,3,MERGED
+29737,Respect cursor_pointer when a ButtonLike is disabled,rtfeldman,2025-05-01T15:00:25Z,2025-05-01T19:34:40+00:00,1,4.57,True,8,2,1,170,0,0,0,MERGED
+29720,bedrock: Support Amazon Nova Premier,5herlocked,2025-05-01T04:35:57Z,2025-05-12T08:15:18+00:00,1,267.66,True,10,4,1,194,0,0,0,MERGED
+29719,bedrock: Support Writer Palmyra models,5herlocked,2025-05-01T04:20:19Z,2025-05-12T07:54:10+00:00,1,267.56,True,16,1,1,116,0,0,0,MERGED
+29718,gpui: Improve path rendering & global multisample anti-aliasing,sunli829,2025-05-01T03:44:02Z,2025-07-02T16:41:42+00:00,19,1500.96,True,479,719,16,513,11,10,21,MERGED
+29717,editor: Fix context menu capitalization,AaronFeickert,2025-05-01T01:06:50Z,2025-05-01T06:58:08+00:00,1,5.86,True,1,1,1,70,0,0,0,MERGED
+29716,language: Select language based on longest matching path extension,claytonrcarter,2025-05-01T00:30:43Z,2025-05-26T18:00:05+00:00,11,617.49,True,178,53,3,1475,8,14,22,MERGED
+29714,VSCode shortcuts importer,JunkuiZhang,2025-05-01T00:09:41Z,2025-09-09T16:13:02+00:00,1,3160.06,False,3465,202,32,1111,1,0,1,CLOSED
+29709,Add setting to hide onboarding banners,nt8r,2025-04-30T22:03:39Z,2025-05-06T18:54:10+00:00,3,140.84,True,21,11,4,220,3,1,4,MERGED
+29685,Fix tab and shift+tab scroll behavior in picker,smltr,2025-04-30T16:36:27Z,2025-05-21T07:43:23+00:00,1,495.12,False,6,13,3,971,2,1,3,CLOSED
+29664,Add kernel detection for language support of runnable markdown cells,JonGretar,2025-04-30T11:17:25Z,2025-05-22T03:23:06+00:00,1,520.09,True,82,18,2,148,7,0,7,MERGED
+29649,chore: Use `target_os` for conditional dependencies,huacnlee,2025-04-30T06:22:28Z,2025-04-30T08:24:05+00:00,3,2.03,True,1,2,1,44,5,1,6,MERGED
+29602,bedrock: Preserve thinking blocks for Bedrock,5herlocked,2025-04-29T14:36:38Z,2025-04-29T16:18:32+00:00,1,1.7,True,25,4,2,144,0,0,0,MERGED
+29601,agent: Enrich `grep` tool output with syntax information,agu-z,2025-04-29T14:30:32Z,2025-04-29T17:03:02+00:00,1,2.54,True,412,87,3,1246,0,1,1,MERGED
+29591,client: Implement Socks identification and authorization,tidely,2025-04-29T06:45:52Z,2025-05-06T08:03:57+00:00,12,169.3,True,150,38,2,511,3,5,8,MERGED
+29588,Stop routing session events via the DAP store,ConradIrwin,2025-04-29T05:42:02Z,2025-04-29T19:51:05+00:00,4,14.15,True,267,425,6,155,0,1,1,MERGED
+29563,ollama: Add tool call support,tidely,2025-04-28T20:48:38Z,2025-05-05T17:52:23+00:00,7,165.06,True,360,88,3,844,8,5,13,MERGED
+29547,Add default tab_size for Elm,ivanbanov,2025-04-28T16:12:08Z,2025-05-06T07:14:02+00:00,1,183.03,True,3,0,1,194,6,0,6,MERGED
+29536,agent: Include grep-related instructions in the prompt only if the tool is available,osyvokon,2025-04-28T14:17:25Z,2025-04-28T19:47:41+00:00,5,5.5,True,209,46,5,1089,0,3,3,MERGED
+29502,ollama: Fix build with default features,tidely,2025-04-27T15:26:33Z,2025-04-28T13:58:10+00:00,1,22.53,True,2,2,1,161,0,0,0,MERGED
+29496,Add support for OpenRouter as a language model provider,imumesh18,2025-04-27T09:52:57Z,2025-06-03T15:59:46+00:00,23,894.11,True,1356,0,14,3477,41,7,48,MERGED
+29494,title_bar: Add icon for project branch trigger button,shank03,2025-04-27T07:43:33Z,2025-05-06T08:38:24+00:00,7,216.91,True,51,1,3,128,7,4,11,MERGED
+29490,vim: Fix end of paragraph deletion when there's no blank lines,dinocosta,2025-04-26T22:24:18Z,2025-04-29T19:34:51+00:00,3,69.18,True,41,0,3,910,3,1,4,MERGED
+29482,editor: Trim indent guides at last non-empty line,ronharel02,2025-04-26T14:36:26Z,2025-05-12T15:04:47+00:00,1,384.47,True,2,2,2,283,2,0,2,MERGED
+29473,workspace: Fix inactive pane dimming,ronharel02,2025-04-26T11:56:37Z,2025-05-07T06:02:34+00:00,4,258.1,True,93,40,1,640,1,6,7,MERGED
+29456,editor: Improve code completions by prioritizing prefix matching,smitbarmase,2025-04-26T01:55:52Z,2025-04-26T11:45:48+00:00,2,9.83,True,220,34,3,225,3,1,4,MERGED
+29452,Use image cache to stop leaking images,mikayla-maki,2025-04-25T23:33:30Z,2025-04-29T19:30:16+00:00,1,91.95,True,183,48,13,272,0,1,1,MERGED
+29400,assistant_tool: Remove additionalProperties from tool schema,imumesh18,2025-04-25T09:59:28Z,2025-04-25T13:14:43+00:00,1,3.25,False,1,0,1,225,2,1,3,CLOSED
+29369,"copilot: Add support for tool_calls for gpt-4.1, gpt-4o, o4-mini",imumesh18,2025-04-24T19:36:11Z,2025-05-05T11:59:12+00:00,1,256.38,True,4,1,1,553,6,0,6,MERGED
+29359,Query multiple LSPs for more types of requests,XiNiHa,2025-04-24T17:31:12Z,2025-07-02T17:51:20+00:00,14,1656.34,True,617,93,8,414,4,5,9,MERGED
+29316,editor: Do not insert scrollbar hitboxes when scrollbars are never to be shown,MrSubidubi,2025-04-23T23:39:48Z,2025-05-06T07:25:01+00:00,1,295.75,True,30,31,1,950,0,0,0,MERGED
+29309,context servers: Show configuration modal when extension is installed,bennetbo,2025-04-23T21:50:50Z,2025-05-01T18:02:14+00:00,3,188.19,True,1866,437,35,100,0,1,1,MERGED
+29299,"agent: Add ""copy to clipboard"" button to error message popups",osyvokon,2025-04-23T18:32:36Z,2025-04-23T22:12:27+00:00,1,3.66,True,22,4,1,75,1,0,1,MERGED
+29291,rust-analyzer: Fix for deserialization error of CargoRunnableArgs,notpeter,2025-04-23T17:05:02Z,2025-04-23T20:11:02+00:00,1,3.1,True,9,4,1,1258,0,0,0,MERGED
+29212,"docs: Update ""checkOnSave"" to ""check""",Doods0,2025-04-22T13:34:27Z,2025-04-22T16:27:47+00:00,1,2.89,True,1,1,1,882,4,0,4,MERGED
+29182,editor: Use quantize score for code completions sort + Add code completions tests,smitbarmase,2025-04-21T23:31:27Z,2025-04-23T01:53:34+00:00,3,26.37,True,1111,148,5,734,6,1,7,MERGED
+29145,windows: Add support for SSH,JunkuiZhang,2025-04-21T07:22:00Z,2025-07-08T14:34:58+00:00,24,1879.22,True,1438,357,26,87,12,21,33,MERGED
+29144,windows: A new implementation of keystrokes,JunkuiZhang,2025-04-21T07:12:54Z,2025-08-06T19:36:41+00:00,6,2580.4,False,4343,1950,34,1933,1,6,7,CLOSED
+29131,Add right click in terminal create new selection if none present,kylelau519,2025-04-20T21:38:20Z,2025-04-21T15:39:17+00:00,7,18.02,True,17,0,2,344,1,3,4,MERGED
+29127,Hide editor context menu when modal is opened,redforks,2025-04-20T13:55:11Z,2025-04-21T14:43:26+00:00,2,24.8,True,84,5,4,336,2,1,3,MERGED
+29115,Include partial output in terminal tool error on interrupt,captaindpt,2025-04-20T03:00:01Z,2025-04-28T15:25:11+00:00,1,204.42,True,44,31,1,859,5,0,5,MERGED
+29027,language_models: Dynamically detect Copilot Chat models,lj3954,2025-04-18T06:30:20Z,2025-05-12T11:28:42+00:00,5,580.97,True,318,180,5,604,10,4,14,MERGED
+29019,"Make Copy and Trim ignore empty lines, and fix vim line selections",redforks,2025-04-18T01:50:59Z,2025-04-18T03:35:06+00:00,1,1.74,True,40,2,2,257,2,0,2,MERGED
+29016,Don't display MacOS key symbols in Linux,marcospb19,2025-04-17T23:44:59Z,2025-04-18T00:48:00+00:00,1,1.05,True,27,20,2,73,0,1,1,MERGED
+29005,git_ui: Improve error handling in commit message generation,imumesh18,2025-04-17T20:27:03Z,2025-06-09T14:20:20+00:00,1,1265.89,True,65,22,1,214,3,0,3,MERGED
+28952,Add `zed` to Flatpak config and data directories,mkungla,2025-04-17T09:34:29Z,2025-04-19T17:41:03+00:00,2,56.11,True,4,6,1,114,5,2,7,MERGED
+28918,Update Rust crate sea-orm to v1.1.10,renovate,2025-04-16T22:20:41Z,2025-04-18T19:15:02+00:00,1,44.91,True,47,46,2,1329,1,0,1,MERGED
+28917,Update Rust crate proc-macro2 to v1.0.95,renovate,2025-04-16T22:20:29Z,2025-04-18T17:30:22+00:00,1,43.16,True,2,2,1,786,0,0,0,MERGED
+28912,Update Rust crate mimalloc to v0.1.46,renovate,2025-04-16T21:01:30Z,2025-04-18T17:30:07+00:00,1,44.48,True,4,4,1,712,0,0,0,MERGED
+28911,Update Rust crate libc to v0.2.172,renovate,2025-04-16T21:01:18Z,2025-04-18T17:30:41+00:00,1,44.49,True,2,2,1,3284,0,0,0,MERGED
+28905,Update Rust crate clap to v4.5.36,renovate,2025-04-16T20:04:00Z,2025-04-18T18:11:30+00:00,1,46.12,True,23,23,2,741,1,0,1,MERGED
+28904,Update Rust crate anyhow to v1.0.98,renovate,2025-04-16T20:03:50Z,2025-04-16T21:04:23+00:00,1,1.01,True,2,2,1,788,0,0,0,MERGED
+28897,Update actions/setup-node digest to 49933ea,renovate,2025-04-16T19:02:09Z,2025-04-18T17:31:03+00:00,1,46.48,True,7,7,7,594,0,0,0,MERGED
+28896,Pin actions/checkout action to 11bd719,renovate,2025-04-16T19:02:03Z,2025-04-16T21:03:49+00:00,1,2.03,True,1,1,1,587,0,0,0,MERGED
+28881,Add support for OpenAI o3 and o4-mini models,imumesh18,2025-04-16T17:24:24Z,2025-04-17T14:58:41+00:00,8,21.57,True,33,2,4,103,2,2,4,MERGED
+28816,agent: Add telemetry for eval runs,tmickleydoyle,2025-04-15T21:28:56Z,2025-04-16T02:54:26+00:00,6,5.42,True,89,6,4,19,0,3,3,MERGED
+28811,Add support for judge repetitions in eval,mgsloan,2025-04-15T20:30:00Z,2025-04-15T23:18:03+00:00,1,2.8,True,52,21,2,19,0,0,0,MERGED
+28808,agent: Add assistant panel width persistence,imumesh18,2025-04-15T19:57:05Z,2025-05-02T20:05:03+00:00,2,408.13,True,49,4,1,497,2,1,3,MERGED
+28790,feedback: Update issue template URL,MrSubidubi,2025-04-15T16:56:41Z,2025-04-16T01:36:31+00:00,1,8.66,True,8,7,4,544,1,0,1,MERGED
+28737,"agent: Add more Rust code examples, update TODO check",tmickleydoyle,2025-04-15T03:54:35Z,2025-04-15T16:52:09+00:00,1,12.96,True,142,2,38,19,0,1,1,MERGED
+28733,markdown: Add ability to customize individual heading level,danilo-leal,2025-04-15T00:09:30Z,2025-04-15T12:35:24+00:00,1,12.43,True,57,10,1,579,0,0,0,MERGED
+28709,python: Auto-close f-strings,probably-neb,2025-04-14T18:36:35Z,2025-04-14T21:22:27+00:00,2,2.76,True,22,4,2,118,0,1,1,MERGED
+28701,Fix expand selection,neyb,2025-04-14T17:05:16Z,2025-05-06T09:11:03+00:00,1,520.1,False,74,10,3,796,9,1,10,CLOSED
+28694,language: Further optimize `language_for_file`,MrSubidubi,2025-04-14T16:08:48Z,2025-04-14T23:31:45+00:00,9,7.38,True,86,44,1,977,1,3,4,MERGED
+28692,debugger: Remember pane layout from previous debugger session,Anthony-Eid,2025-04-14T15:35:34Z,2025-04-15T06:32:28+00:00,6,14.95,True,548,148,13,119,0,3,3,MERGED
+28673,Fix Emmet file expansion for files ending in .html.heex,conradwt,2025-04-14T01:54:31Z,2025-05-21T07:43:05+00:00,3,893.81,False,5,4,3,78,4,1,5,CLOSED
+28670,project/perf: Optimize BufferStore::get_by_path with an additional index,osiewicz,2025-04-13T22:09:37Z,2025-04-14T15:06:41+00:00,1,16.95,True,68,71,1,95,0,0,0,MERGED
+28656,debugger: Add support for inline value hints,RemcoSmitsDev,2025-04-13T14:26:49Z,2025-04-23T22:27:27+00:00,2,248.01,True,709,54,30,1085,1,1,2,MERGED
+28650,agent: Fix expand message editor while not focused,5brian,2025-04-13T03:59:45Z,2025-04-14T13:56:24+00:00,1,33.94,True,13,3,2,164,0,0,0,MERGED
+28634,assistant_tools: Fix code_action and rename schemas for Gemini,syrkatheprincess,2025-04-12T15:16:09Z,2025-04-14T15:01:47+00:00,1,47.76,True,8,6,2,425,1,0,1,MERGED
+28619,Modify the default git panel shortcut keys on Mac OS,rendaoer,2025-04-12T01:01:39Z,2025-04-15T01:35:25+00:00,1,72.56,False,2,2,1,118,7,0,7,CLOSED
+28602,vim: Add neovim 0.11 default mappings,5brian,2025-04-11T19:54:25Z,2025-04-28T18:14:43+00:00,3,406.34,True,134,13,6,240,0,1,1,MERGED
+28597,agent: Refine language model selector,bennetbo,2025-04-11T18:11:52Z,2025-04-11T23:02:50+00:00,1,4.85,True,350,218,13,132,0,1,1,MERGED
+28574,docs: Update Rails test task to run using name,andyw8,2025-04-11T13:09:04Z,2025-04-16T01:39:32+00:00,1,108.51,True,4,3,1,466,1,0,1,MERGED
+28542,html: Fix leading slash on Windows paths,vipexv,2025-04-10T21:17:22Z,2025-04-10T22:34:23+00:00,1,1.28,True,22,2,1,360,6,0,6,MERGED
+28525,Add new terminal hyperlink tests,davewa,2025-04-10T17:27:50Z,2025-06-06T12:08:20+00:00,2,1362.67,True,1232,260,4,170,9,1,10,MERGED
+28523,bedrock: Support cross-region inference for US Claude 3.5 Haiku,5herlocked,2025-04-10T16:15:31Z,2025-05-12T08:41:45+00:00,1,760.44,True,1,0,1,76,3,0,3,MERGED
+28507,gpui: Fix a bug with Japanese romaji typing in input example,SergeevPavel,2025-04-10T14:11:34Z,2025-05-05T21:15:42+00:00,1,607.07,True,5,1,1,307,4,0,4,MERGED
+28489,debugger: Add console indicator and resolve debug configs from NewSessionModal,Anthony-Eid,2025-04-10T04:57:18Z,2025-04-10T22:29:04+00:00,3,17.53,True,205,83,12,641,3,1,4,MERGED
+28471,editor: Fix hang when scrolling over single line input fields,MrSubidubi,2025-04-09T23:53:54Z,2025-04-21T22:37:04+00:00,1,286.72,True,4,1,1,1213,5,0,5,MERGED
+28451,Update Rust crate aws-sdk-bedrockruntime to v1.82.0,renovate,2025-04-09T19:03:56Z,2025-04-18T17:42:51+00:00,1,214.65,True,12,23,2,611,1,0,1,MERGED
+28450,Update actions/dependency-review-action digest to 67d4f4b,renovate,2025-04-09T19:02:08Z,2025-04-09T20:23:48+00:00,1,1.36,True,1,1,1,608,0,0,0,MERGED
+28440,gpui: Improve displayed keybinds shown in macOS application menus,MrSubidubi,2025-04-09T16:36:59Z,2025-05-22T13:51:52+00:00,2,1029.25,True,43,31,5,1840,6,0,6,MERGED
+28435,Don't scroll the editor on select all matches,neunato,2025-04-09T16:06:17Z,2025-04-09T17:50:15+00:00,1,1.73,True,45,47,2,84,1,0,1,MERGED
+28429,editor: Stabilize IME candidate box position during pre-edit on Wayland,WantenMN,2025-04-09T15:18:26Z,2025-06-04T09:14:02+00:00,4,1337.93,True,2,6,1,474,15,1,16,MERGED
+28409,agent: Prevent sending whitespace only messages,5brian,2025-04-09T08:01:13Z,2025-04-10T02:57:42+00:00,1,18.94,True,1,1,1,163,0,0,0,MERGED
+28376,debugger: Add support for CodeLLDB,osiewicz,2025-04-08T23:36:40Z,2025-04-09T10:57:24+00:00,5,11.35,True,172,13,6,33,0,1,1,MERGED
+28360,docs: Update vim features,5brian,2025-04-08T20:59:24Z,2025-04-09T20:30:50+00:00,3,23.52,True,13,0,1,143,2,1,3,MERGED
+28350,bedrock: Fix UX bug,5herlocked,2025-04-08T19:14:07Z,2025-05-08T22:09:19+00:00,2,722.92,True,31,51,1,121,0,1,1,MERGED
+28344,Add reminder message about system prompt,rtfeldman,2025-04-08T17:57:36Z,2025-04-09T14:09:48+00:00,1,20.2,True,73,28,3,208,0,0,0,MERGED
+28342,terminal: Handle paths with dots,uRTLy,2025-04-08T17:54:53Z,2025-04-23T16:37:00+00:00,1,358.7,False,35,2,1,108,1,1,2,CLOSED
+28331,Remove component preview trait and friends,iamnbutler,2025-04-08T15:42:49Z,2025-04-08T21:47:45+00:00,1,6.08,False,3240,1832,51,61,0,0,0,CLOSED
+28318,markdown: Ignore html comments,XDeme1,2025-04-08T10:35:23Z,2025-05-06T11:55:08+00:00,3,673.33,True,53,1,2,58,3,1,4,MERGED
+28314,Add global gitignore (~/.config/git/ignore) along with local .gitignore,paul-nameless,2025-04-08T09:25:02Z,2025-06-28T11:48:03+00:00,1,1946.38,False,116,1,2,419,15,4,19,CLOSED
+28277,Update Rust crate tokio to v1.44.2 [SECURITY],renovate,2025-04-07T21:25:00Z,2025-04-07T22:38:32+00:00,1,1.23,True,3,3,1,1500,0,0,0,MERGED
+28274,bedrock: Add support for Mistral - Pixtral Large,5herlocked,2025-04-07T21:12:59Z,2025-05-12T09:13:37+00:00,1,828.01,True,8,2,1,69,0,0,0,MERGED
+28271,agent: Auto-capture telemetry feature flag,tmickleydoyle,2025-04-07T20:50:23Z,2025-04-10T20:07:48+00:00,1,71.29,True,77,0,2,19,0,1,1,MERGED
+28263,Fix multicursors not being added when clicking on line numbers,neunato,2025-04-07T19:54:19Z,2025-05-06T06:45:43+00:00,1,682.86,True,0,3,1,1725,0,0,0,MERGED
+28247,agent: Add selected tool names to agent panel telemetry,tmickleydoyle,2025-04-07T17:19:24Z,2025-04-10T13:43:52+00:00,1,68.41,True,8,0,1,19,0,1,1,MERGED
+28235,Apply `autoscroll_on_clicks` when extending selection,neunato,2025-04-07T15:14:27Z,2025-05-06T07:05:08+00:00,1,687.84,True,3,1,1,99,0,0,0,MERGED
+28204,Git activity indicator,P1n3appl3,2025-04-07T06:05:05Z,2025-04-07T18:10:01+00:00,2,12.08,True,626,488,11,88,1,1,2,MERGED
+28199,Fix `Close Other` closing pinned tabs,loczek,2025-04-07T00:44:38Z,2025-06-02T19:28:09+00:00,5,1362.73,False,80,5,1,114,1,3,4,CLOSED
+28185,Improve Bash heredoc highlighting,chbk,2025-04-06T13:00:57Z,2025-04-06T15:14:05+00:00,1,2.22,True,2,0,1,154,0,0,0,MERGED
+28183,Improve Regex highlighting,chbk,2025-04-06T13:00:46Z,2025-04-18T16:44:13+00:00,3,291.72,True,13,5,4,365,0,1,1,MERGED
+28182,Improve Rust macro highlighting,chbk,2025-04-06T13:00:41Z,2025-05-05T20:50:57+00:00,1,703.84,True,2,0,1,165,0,0,0,MERGED
+28173,lsp_store: Preserve environment variables from ExtensionLspAdapter,vitallium,2025-04-06T08:40:57Z,2025-04-09T20:50:50+00:00,1,84.16,True,2,0,1,2234,2,0,2,MERGED
+28157,copilot: Create Copilot directory if it does not exist,0xRichardH,2025-04-05T18:20:10Z,2025-04-05T20:06:14+00:00,1,1.77,True,17,5,1,216,1,0,1,MERGED
+28138,Update default vim substitute command behavior and add support for 'g' flag,dinocosta,2025-04-05T01:47:50Z,2025-04-09T20:34:51+00:00,1,114.78,True,79,26,8,1020,16,1,17,MERGED
+28137,"bedrock: Add support for tool use, cross-region inference, and Claude 3.7 Thinking",5herlocked,2025-04-05T01:27:21Z,2025-04-05T15:16:27+00:00,1,13.82,True,1041,317,6,416,2,0,2,MERGED
+28110,gpui: Avoid dereferencing null pointer in `MacWindow::update_ime_position`,MrSubidubi,2025-04-04T17:17:18Z,2025-04-04T22:20:06+00:00,1,5.05,True,3,0,1,588,4,0,4,MERGED
+28103,Flesh out helix bindings,jneem,2025-04-04T15:58:33Z,2025-04-04T18:21:15+00:00,3,2.38,True,111,12,3,217,8,1,9,MERGED
+28064,editor: Implement hover color for scrollbars,MrSubidubi,2025-04-03T23:22:28Z,2025-05-06T07:17:44+00:00,1,775.92,True,108,24,2,296,0,0,0,MERGED
+28052,gpui: Use BoolExt trait in more places,tidely,2025-04-03T20:36:54Z,2025-04-09T20:28:15+00:00,1,143.86,True,6,12,1,112,0,0,0,MERGED
+28012,editor: Fix invalid read-only with split pane,0x2CA,2025-04-03T08:54:53Z,2025-04-09T00:09:34+00:00,2,135.24,True,1,0,1,69,0,0,0,MERGED
+27991,vim: Add some forced motion support,mastion,2025-04-03T00:37:20Z,2025-04-11T17:12:30+00:00,5,208.59,True,485,58,30,757,4,3,7,MERGED
+27981,prompt_store: Remove additional code for /project,nihgwu,2025-04-02T23:49:46Z,2025-04-07T16:11:14+00:00,1,112.36,True,0,25,3,46,3,0,3,MERGED
+27958,agent: Add reactions at the response level,tmickleydoyle,2025-04-02T19:49:12Z,2025-04-09T17:21:07+00:00,2,165.53,True,172,67,3,124,1,1,2,MERGED
+27941,aws_http_client: Copy response headers,5herlocked,2025-04-02T17:03:27Z,2025-04-02T19:00:44+00:00,1,1.95,True,12,5,1,56,2,0,2,MERGED
+27929,language: Add fallback for enum member completion highlight,xdBronch,2025-04-02T15:36:31Z,2025-05-05T22:25:09+00:00,2,798.81,True,3,0,1,208,1,0,1,MERGED
+27924,zed: Include full debug info in debug builds,probably-neb,2025-04-02T14:50:30Z,2025-04-02T18:39:30+00:00,1,3.82,True,1,2,2,19,0,1,1,MERGED
+27906,extension: Bump `wasi-sdk` to version 25,jkbz64,2025-04-02T10:50:41Z,2025-04-05T17:20:36+00:00,1,78.5,True,16,7,1,181,3,0,3,MERGED
+27873,git_ui: Replace spaces with hyphens in new branch names,5brian,2025-04-01T20:50:51Z,2025-05-27T17:10:20+00:00,1,1340.32,True,2,0,1,329,2,0,2,MERGED
+27860,vim: Fix space forward bug with non-ASCII characters at EOL,mastion,2025-04-01T16:39:53Z,2025-04-01T18:21:41+00:00,2,1.7,True,52,9,4,880,2,1,3,MERGED
+27823,vim: Add :help,5brian,2025-04-01T03:31:33Z,2025-04-01T21:12:16+00:00,1,17.68,False,19,1,2,49,1,1,2,CLOSED
+27818,Add signature help for overloaded items,XDeme1,2025-04-01T01:57:20Z,2025-06-21T21:20:59+00:00,2,1963.39,False,369,146,10,86,4,9,13,CLOSED
+27803,Bump cargo-bundle and cargo-about version in nix,P1n3appl3,2025-03-31T19:03:26Z,2025-03-31T20:33:01+00:00,2,1.49,True,27,19,3,374,0,1,1,MERGED
+27779,chore: Prepare for Rust 2024,osiewicz,2025-03-31T13:30:32Z,2025-03-31T17:23:12+00:00,4,3.88,False,11831,10406,320,126,1,1,2,CLOSED
+27774,gpui: Add ImageCache,sunli829,2025-03-31T10:52:55Z,2025-04-22T20:30:21+00:00,4,537.62,True,500,11,7,709,15,1,16,MERGED
+27759,add rust runnable,frederik-uni,2025-03-30T19:49:51Z,2025-03-31T10:00:54+00:00,1,14.18,False,389,6,6,312,0,0,0,CLOSED
+27740,theme_importer: Handle comma-separated token scopes,holly-hacker,2025-03-29T23:07:29Z,2025-04-23T14:06:59+00:00,1,590.99,True,1,1,1,1005,3,0,3,MERGED
+27718,snippets: Fix snippets for PHP and ERB languages,claytonrcarter,2025-03-29T01:41:28Z,2025-04-11T22:20:43+00:00,2,332.65,True,141,116,2,3314,1,2,3,MERGED
+27703,Add an action to collapse the selected entry and its children,jackTabsCode,2025-03-28T21:44:42Z,2025-05-21T07:42:21+00:00,1,1281.96,False,27,5,1,993,3,0,3,CLOSED
+27695,editor: Fix inconsistent SelectPrevious behavior,fernandeeees,2025-03-28T20:15:46Z,2025-05-06T06:37:58+00:00,1,922.37,True,41,52,2,746,1,0,1,MERGED
+27693,ui: Render keybinds for disabled actions with disabled color,MrSubidubi,2025-03-28T20:09:24Z,2025-03-31T14:51:17+00:00,1,66.7,True,16,4,2,320,0,0,0,MERGED
+27689,Fix workspace bottom obscured when bottom dock is full height,bibianandre,2025-03-28T19:50:23Z,2025-04-23T15:43:20+00:00,1,619.88,True,2,1,1,513,6,0,6,MERGED
+27653,storybook: Fix `auto_height_editor` story,loczek,2025-03-28T10:46:33Z,2025-03-28T12:42:45+00:00,1,1.94,True,5,1,3,259,0,0,0,MERGED
+27624,file_finder: Add `skip_focus_for_active_in_search` setting,patrickJramos,2025-03-27T19:54:58Z,2025-04-30T17:28:34+00:00,3,813.56,True,107,9,5,509,2,1,3,MERGED
+27617,Fix Terminal theming issue with background/foreground text,notpeter,2025-03-27T18:22:24Z,2025-03-27T20:12:19+00:00,1,1.83,True,3,2,1,212,1,0,1,MERGED
+27611,docs: Update macOS development instructions,mastion,2025-03-27T17:10:15Z,2025-04-23T13:50:04+00:00,3,644.66,True,9,0,1,355,0,1,1,MERGED
+27588,Handle 502 errors from Anthropic,rtfeldman,2025-03-27T13:39:09Z,2025-04-23T18:54:08+00:00,7,653.25,False,65,67,2,212,0,4,4,CLOSED
+27566,Update Rust crate blake3 to v1.7.0,renovate,2025-03-27T02:54:46Z,2025-03-27T09:37:20+00:00,1,6.71,True,2,2,1,1578,0,0,0,MERGED
+27565,Update Rust crate bitflags to v2.9.0,renovate,2025-03-27T02:51:40Z,2025-03-27T09:36:02+00:00,1,6.74,True,66,66,1,909,0,0,0,MERGED
+27556,Add semantic syntax highlighting support,aripiprazole,2025-03-26T23:47:52Z,2025-07-28T09:13:21+00:00,1,2961.42,False,3502,404,30,4402,34,30,64,CLOSED
+27554,Update dependency @slack/webhook to v7.0.5,renovate,2025-03-26T23:03:04Z,2025-03-27T02:50:41+00:00,1,3.79,True,132,16,1,1287,0,0,0,MERGED
+27553,Update Rust crate time to v0.3.41,renovate,2025-03-26T23:02:46Z,2025-03-27T02:55:45+00:00,1,3.88,True,4,4,1,787,0,0,0,MERGED
+27550,Update Rust crate plist to v1.7.1,renovate,2025-03-26T22:04:54Z,2025-03-27T02:51:58+00:00,1,4.78,True,2,2,1,649,0,0,0,MERGED
+27549,Update Rust crate oo7 to v0.4.3,renovate,2025-03-26T22:04:43Z,2025-03-27T09:54:09+00:00,1,11.82,True,13,13,1,1272,0,0,0,MERGED
+27540,Update Rust crate log to v0.4.27,renovate,2025-03-26T21:04:09Z,2025-03-27T10:10:55+00:00,1,13.11,True,3,3,2,652,0,0,0,MERGED
+27539,Update Rust crate image to v0.25.6,renovate,2025-03-26T21:03:57Z,2025-03-27T09:36:33+00:00,1,12.54,True,6,6,1,964,0,0,0,MERGED
+27530,Update Rust crate clap to v4.5.34,renovate,2025-03-26T20:11:14Z,2025-03-27T02:55:18+00:00,1,6.73,True,18,18,1,878,0,0,0,MERGED
+27495,bedrock: Support DeepSeek r1,5herlocked,2025-03-26T13:16:09Z,2025-03-27T23:30:30+00:00,2,34.24,True,4,0,1,68,0,1,1,MERGED
+27494,rust: Pass `--exact` to `cargo test` tasks,ThouCheese,2025-03-26T12:49:58Z,2025-03-26T15:16:22+00:00,1,2.44,False,2,0,1,156,7,0,7,CLOSED
+27471,markdown_preview: Add support for HTML image links,alvarorichard,2025-03-26T04:29:38Z,2025-06-03T04:29:59+00:00,4,1656.01,False,301,72,4,896,8,2,10,CLOSED
+27453,Add `completions.lsp_insert_mode` setting to control what ranges are replaced when a completion is inserted,frederik-uni,2025-03-25T20:06:50Z,2025-04-02T19:55:04+00:00,2,191.8,True,467,13,7,1055,7,0,7,MERGED
+27409,copilot: Add Claude 3.7-Sonnet-Thought model to Copilot Chat,jiahaoxiang2000,2025-03-25T03:24:28Z,2025-03-25T09:56:28+00:00,1,6.53,True,13,1,2,92,6,0,6,MERGED
+27407,extension: Add support for `additional_workspace_configuration` and `additional_initialization_options`,smitbarmase,2025-03-25T01:19:38Z,2025-03-25T12:53:59+00:00,4,11.57,True,360,19,9,384,4,3,7,MERGED
+27403,Add shadow back for blurred/transparent window on macOS,alphaArgon,2025-03-24T23:55:44Z,2025-06-28T06:50:54+00:00,5,2286.92,True,151,25,1,536,15,1,16,MERGED
+27402,ui: Account for padding of parent container during scrollbar layout,MrSubidubi,2025-03-24T23:45:17Z,2025-05-11T19:40:45+00:00,1,1147.92,True,126,204,4,2574,7,0,7,MERGED
+27394,Set edit predictions to default to the Zed provider,mikayla-maki,2025-03-24T21:11:16Z,2025-03-25T03:45:06+00:00,1,6.56,True,15,43,4,80,0,1,1,MERGED
+27381,Add create-file-tool,rtfeldman,2025-03-24T16:52:22Z,2025-03-25T14:56:41+00:00,2,22.07,True,114,0,4,19,0,2,2,MERGED
+27378,anthropic: Handle image-only messages and limit cache blocks to 4,monotykamary,2025-03-24T15:53:18Z,2025-05-27T16:47:51+00:00,4,1536.91,False,116,50,2,510,4,1,5,CLOSED
+27375,migrator: Add migration for settings changed prior to migrator-introduction,MrSubidubi,2025-03-24T15:39:09Z,2025-03-24T23:05:01+00:00,4,7.43,True,128,95,5,704,1,1,2,MERGED
+27362,Update cosmic text to 0.13.2,AlvaroParker,2025-03-24T12:12:44Z,2025-03-24T13:37:42+00:00,2,1.42,True,35,24,3,400,1,0,1,MERGED
+27361,Add latest copilot inline completion model,sircoderin,2025-03-24T11:49:03Z,2025-04-27T21:23:27+00:00,7,825.57,False,206,37,6,168,6,1,7,CLOSED
+27346,docs: Add Erlang language server documentation,AlternateRT,2025-03-23T20:40:37Z,2025-03-24T09:34:22+00:00,1,12.9,True,21,1,1,187,0,0,0,MERGED
+27336,Fix invalid number of space characters inserted for tab,rodrigoFfreire,2025-03-23T14:07:33Z,2025-04-09T16:22:14+00:00,4,410.24,True,36,5,2,993,1,1,2,MERGED
+27330,gpui: Fix `snap_to_window_with_margin` when window has client inset,huacnlee,2025-03-23T10:42:11Z,2025-04-15T16:47:00+00:00,1,558.08,True,13,3,2,149,2,0,2,MERGED
+27329,title_bar: Anchor user menu popover at top right corner,huacnlee,2025-03-23T10:22:45Z,2025-03-25T11:20:50+00:00,1,48.97,True,3,1,1,61,0,0,0,MERGED
+27312,rust: Enable required features when executing `main` functions in tasks,NiklasEi,2025-03-22T15:26:36Z,2025-04-10T20:29:07+00:00,11,461.04,True,79,40,1,229,6,3,9,MERGED
+27311,docs: Update Minitest example to clarify it only works with Rails,andyw8,2025-03-22T14:58:03Z,2025-03-22T22:30:34+00:00,1,7.54,True,3,1,1,228,1,0,1,MERGED
+27293,Update docs for some settings,jsparkdev,2025-03-22T06:55:08Z,2025-03-24T11:05:06+00:00,3,52.17,True,25,3,2,169,0,2,2,MERGED
+27290,Fix GPUI keyup events not firing on Windows and macOS,felixpackard,2025-03-22T05:08:42Z,2025-03-28T21:39:15+00:00,4,160.51,True,101,81,2,1859,2,1,3,MERGED
+27284,Prompt before running some tools,rtfeldman,2025-03-21T22:26:40Z,2025-03-22T04:05:34+00:00,2,5.65,True,668,331,17,87,0,1,1,MERGED
+27277,Add workspace-hack,P1n3appl3,2025-03-21T20:17:51Z,2025-04-02T20:26:34+00:00,6,288.15,True,2090,692,185,1336,7,1,8,MERGED
+27224,docs_preprocessor: Ensure keybind is found for actions with arguments,MrSubidubi,2025-03-20T23:05:46Z,2025-05-27T16:56:03+00:00,1,1625.84,True,31,1,1,2131,0,0,0,MERGED
+27218,terminal: Improve path hyperlink navigation,davewa,2025-03-20T21:01:34Z,2025-03-24T19:48:04+00:00,4,94.78,False,3674,375,10,2614,4,5,9,CLOSED
+27215,Prevent `toggle_dock` from opening assistant panel when it is disabled via settings,MrSubidubi,2025-03-20T19:56:03Z,2025-03-27T19:19:37+00:00,6,167.39,True,81,49,7,997,3,2,5,MERGED
+27213,lsp-config: Allow setting a server's environment variables,davidbarsky,2025-03-20T19:28:42Z,2025-03-21T07:15:41+00:00,2,11.78,True,17,7,4,849,4,1,5,MERGED
+27212,tab_switcher: Add keybind to close tab tooltip,5brian,2025-03-20T19:16:51Z,2025-04-08T21:57:37+00:00,1,458.68,True,1,1,1,37,0,0,0,MERGED
+27181,assistant_eval: Add ACE framework,tmickleydoyle,2025-03-20T12:11:16Z,2025-04-03T04:02:07+00:00,2,327.85,True,1107,367,11,19,1,1,2,MERGED
+27152,Update Rust crate winresource to v0.1.20,renovate,2025-03-20T03:38:15Z,2025-03-20T05:42:20+00:00,1,2.07,True,2,2,1,596,0,0,0,MERGED
+27151,Update Rust crate unindent to v0.2.4 - autoclosed,renovate,2025-03-20T03:38:04Z,2025-03-20T05:42:39+00:00,1,2.08,True,2,2,1,680,0,0,0,MERGED
+27144,Update Rust crate serde_json to v1.0.140,renovate,2025-03-20T01:08:09Z,2025-03-20T03:35:21+00:00,1,2.45,True,2,2,1,751,0,0,0,MERGED
+27137,Update Rust crate sea-orm to v1.1.7,renovate,2025-03-20T00:18:31Z,2025-03-20T05:52:35+00:00,1,5.57,True,31,21,1,6232,0,0,0,MERGED
+27136,Update Rust crate rustls-platform-verifier to v0.5.1,renovate,2025-03-20T00:18:20Z,2025-03-20T05:52:50+00:00,1,5.58,True,36,36,1,611,0,0,0,MERGED
+27131,Update Rust crate mimalloc to v0.1.44,renovate,2025-03-19T23:03:23Z,2025-03-20T05:48:35+00:00,1,6.75,True,4,4,1,709,0,0,0,MERGED
+27122,Update Rust crate async-compression to v0.4.21,renovate,2025-03-19T21:24:09Z,2025-03-19T22:36:27+00:00,1,1.21,True,2,2,1,889,0,0,0,MERGED
+27121,Update swatinem/rust-cache digest to 9d47c6a,renovate,2025-03-19T21:23:02Z,2025-03-20T05:58:22+00:00,1,8.59,True,5,5,2,595,0,0,0,MERGED
+27116,Update cloudflare/wrangler-action digest to da0e0df,renovate,2025-03-19T20:13:28Z,2025-03-19T21:54:25+00:00,1,1.68,True,4,4,1,602,0,0,0,MERGED
+27115,Update actions/upload-artifact digest to ea165f8 - autoclosed,renovate,2025-03-19T20:13:23Z,2025-03-19T21:55:06+00:00,1,1.7,True,7,7,2,599,0,0,0,MERGED
+27108,Update actions/setup-node digest to cdca736,renovate,2025-03-19T19:02:02Z,2025-03-19T21:52:19+00:00,1,2.84,True,7,7,7,594,0,0,0,MERGED
+27107,Pin actions/checkout action to 11bd719,renovate,2025-03-19T19:01:57Z,2025-03-19T20:46:52+00:00,1,1.75,True,1,1,1,587,0,0,0,MERGED
+27074,git: Add ability to amend commits,griendt,2025-03-19T13:56:37Z,2025-03-19T15:18:09+00:00,1,1.36,False,90,33,5,189,5,5,10,CLOSED
+27071,debugger: Fix shutdown issues,RemcoSmitsDev,2025-03-19T13:38:51Z,2025-03-20T18:32:37+00:00,1,28.9,True,287,6,3,937,2,0,2,MERGED
+27052,recent_projects: Use keybinding text instead of symbol,5brian,2025-03-19T06:37:15Z,2025-04-22T00:47:33+00:00,1,810.17,False,15,9,2,152,4,0,4,CLOSED
+27049,Provide a default name for an unnamed app in the `get_name` method,justjavac,2025-03-19T05:01:08Z,2025-03-19T16:29:58+00:00,1,11.48,False,1,1,1,393,3,0,3,CLOSED
+26982,migrator: Fix case where users see migration banner despite no diff changes,smitbarmase,2025-03-18T11:55:36Z,2025-03-18T13:54:25+00:00,1,1.98,True,1,1,1,235,0,0,0,MERGED
+26966,Allow read-file tool to read a subset of a file,rtfeldman,2025-03-18T03:17:22Z,2025-03-18T14:03:16+00:00,1,10.77,True,24,1,3,19,0,1,1,MERGED
+26951,Refactor Git panel styling & status colors for consistency,jakucermak,2025-03-17T21:16:56Z,2025-03-19T14:26:36+00:00,2,41.16,True,23,28,4,440,4,1,5,MERGED
+26903,"Make python's file, line output clickable in terminal",thorbenk,2025-03-17T08:55:57Z,2025-03-24T12:36:14+00:00,3,171.67,True,58,3,2,570,4,5,9,MERGED
+26899,Support extended keys on Mac (F20-F35),0x2CA,2025-03-17T03:50:50Z,2025-03-17T10:56:47+00:00,2,7.1,True,48,0,2,167,2,0,2,MERGED
+26897,git: Pick which remote to fetch,CharlesChen0823,2025-03-17T02:52:18Z,2025-06-06T15:28:07+00:00,3,1956.6,True,155,42,9,158,3,3,6,MERGED
+26893,editor: Add minimap,esimkowitz,2025-03-17T01:31:57Z,2025-05-07T20:11:09+00:00,32,1242.65,True,1083,216,21,1865,83,16,99,MERGED
+26890,gpui: Provide workaround for AMD Linux driver bug,not-my-profile,2025-03-16T23:31:30Z,2025-03-18T20:11:09+00:00,2,44.66,True,24,6,2,826,14,0,14,MERGED
+26886,Add --user-data-dir CLI flag and propose renaming support_dir to data_dir,mkungla,2025-03-16T19:25:52Z,2025-04-10T21:16:44+00:00,9,601.85,True,172,71,9,943,7,4,11,MERGED
+26879,git_hosting_providers: Allow configuring additional hosting providers via settings,khayyamsaleem,2025-03-16T17:03:39Z,2025-03-17T15:39:52+00:00,1,22.6,True,101,1,5,103,7,0,7,MERGED
+26826,markdown_preview: Refresh images when they change on disk,austin171212,2025-03-15T10:27:00Z,2025-03-17T18:27:48+00:00,2,56.01,False,34,0,2,97,1,2,3,CLOSED
+26809,Update rendering of gutter diff hunks to show whether a hunk is staged or not,jakcharvat,2025-03-14T22:12:30Z,2025-03-14T23:49:53+00:00,2,1.62,True,26,8,1,575,2,0,2,MERGED
+26804,editor: Disable edit predictions in read-only buffers,MrSubidubi,2025-03-14T20:42:10Z,2025-03-14T23:15:50+00:00,1,2.56,True,3,0,1,84,0,0,0,MERGED
+26799,Add initial implementation of evaluating changes generated by the assistant,mgsloan,2025-03-14T20:03:48Z,2025-03-14T23:10:25+00:00,1,3.11,True,1113,24,14,19,0,0,0,MERGED
+26759,python: Add recognition of worktree -> venv links,elprans,2025-03-14T06:52:43Z,2025-04-01T17:12:16+00:00,6,442.33,True,76,23,1,649,2,4,6,MERGED
+26742,gpui: Add `on_button_click` / `on_any_click`,encounter,2025-03-13T23:54:56Z,2025-04-11T06:57:24+00:00,1,679.04,False,69,17,2,818,6,0,6,CLOSED
+26741,python: Show environment name if available,elprans,2025-03-13T23:37:13Z,2025-03-26T20:08:26+00:00,6,308.52,True,41,6,1,407,4,4,8,MERGED
+26737,Merge clangd's `inactiveRegions` with existing diagnostics,naim94a,2025-03-13T21:59:59Z,2025-03-25T13:13:53+00:00,6,279.23,True,164,23,6,347,3,9,12,MERGED
+26732,Use the main thread less on search tool,rtfeldman,2025-03-13T20:59:16Z,2025-03-17T15:02:22+00:00,4,90.05,True,31,24,3,19,0,1,1,MERGED
+26715,Delete tool uses paths instead of globs,rtfeldman,2025-03-13T19:12:09Z,2025-03-16T10:58:25+00:00,4,63.77,True,24,117,3,70,0,3,3,MERGED
+26675,Add thinking tool,rtfeldman,2025-03-13T13:55:03Z,2025-03-14T20:26:22+00:00,2,30.52,True,51,0,3,19,0,1,1,MERGED
+26661,git: Fix staging file hunks on Windows,CharlesChen0823,2025-03-13T11:55:48Z,2025-03-26T07:46:04+00:00,7,307.84,True,19,4,1,97,2,1,3,MERGED
+26645,"gpui: Enable per-pixel, GPU composited transparency on Windows",raggi,2025-03-13T06:20:45Z,2025-04-10T21:27:19+00:00,1,687.11,True,30,36,1,1481,4,1,5,MERGED
+26636,Add support for excluding files based on `.gitignore`,AlvaroParker,2025-03-13T02:29:21Z,2025-03-26T15:27:10+00:00,3,324.96,True,196,8,4,895,6,2,8,MERGED
+26633,settings: Auto-update JSON schemas for settings when extensions are un/installed,probably-neb,2025-03-13T01:40:49Z,2025-03-13T16:50:08+00:00,4,15.16,True,180,32,10,608,0,2,2,MERGED
+26626,Update Rust crate schemars to v0.8.22,renovate,2025-03-13T00:05:35Z,2025-03-13T23:16:57+00:00,1,23.19,True,4,4,1,769,0,0,0,MERGED
+26619,Update Rust crate rsa to v0.9.8 - autoclosed,renovate,2025-03-12T23:01:47Z,2025-03-13T23:17:14+00:00,1,24.26,True,2,2,1,707,0,0,0,MERGED
+26618,Update Rust crate quote to v1.0.40,renovate,2025-03-12T23:01:36Z,2025-03-13T21:14:13+00:00,1,22.21,True,2,2,1,779,0,0,0,MERGED
+26612,Update Rust crate proc-macro2 to v1.0.94,renovate,2025-03-12T22:03:58Z,2025-03-13T19:38:02+00:00,1,21.57,True,2,2,1,703,0,0,0,MERGED
+26611,Update Rust crate mdbook to v0.4.47,renovate,2025-03-12T22:03:47Z,2025-03-13T23:17:26+00:00,1,25.23,True,7,5,1,1099,0,0,0,MERGED
+26604,Update Rust crate libc to v0.2.171,renovate,2025-03-12T21:03:45Z,2025-03-13T21:13:58+00:00,1,24.17,True,2,2,1,2509,0,0,0,MERGED
+26603,Update Rust crate env_logger to v0.11.7,renovate,2025-03-12T21:03:36Z,2025-03-13T21:13:44+00:00,1,24.17,True,167,128,1,712,0,0,0,MERGED
+26593,Update Rust crate ctor to v0.4.1,renovate,2025-03-12T20:03:01Z,2025-03-13T23:17:43+00:00,1,27.25,True,4,4,1,591,0,0,0,MERGED
+26592,Update Rust crate clap to v4.5.32,renovate,2025-03-12T20:02:49Z,2025-03-13T23:36:05+00:00,1,27.55,True,18,18,1,817,0,0,0,MERGED
+26567,Add path search glob tool,rtfeldman,2025-03-12T17:34:18Z,2025-03-12T22:00:54+00:00,3,4.44,True,92,0,3,19,0,1,1,MERGED
+26553,typescript: Add highlighting for Angular inline components,sheikalthaf,2025-03-12T15:33:02Z,2025-03-18T09:27:49+00:00,2,137.91,True,37,0,1,76,13,0,13,MERGED
+26551,ci: GitHub actions refactor,notpeter,2025-03-12T15:20:18Z,2025-03-12T21:32:38+00:00,4,6.21,True,132,83,2,570,0,2,2,MERGED
+26533,Check if additional git provider is not the original git provider,nilskch,2025-03-12T08:39:00Z,2025-03-12T14:25:31+00:00,1,5.78,True,20,0,2,3117,0,0,0,MERGED
+26525,git: Add `shift-escape` in gitcommit ,0x2CA,2025-03-12T07:19:02Z,2025-03-20T13:23:13+00:00,1,198.07,False,1,0,1,124,1,0,1,CLOSED
+26462,python: Add task for running modules,griendt,2025-03-11T15:11:58Z,2025-03-25T21:08:17+00:00,3,341.94,True,51,1,2,546,4,2,6,MERGED
+26410,Support word-based completions,SomeoneToIgnore,2025-03-10T22:10:14Z,2025-03-12T19:27:10+00:00,5,45.28,True,632,102,10,826,0,2,2,MERGED
+26369,History manager,JunkuiZhang,2025-03-10T15:17:41Z,2025-04-11T21:34:52+00:00,27,774.29,True,482,66,14,945,4,15,19,MERGED
+26320,`workspace::Open`: Highlight fuzzy matches,5brian,2025-03-08T05:59:29Z,2025-03-12T20:54:38+00:00,1,110.92,True,16,3,1,146,1,0,1,MERGED
+26307,gpui: Implement inline box text layout,MatinAniss,2025-03-07T22:14:27Z,2025-04-10T21:42:36+00:00,1,815.47,False,394,19,7,668,2,1,3,CLOSED
+26271,Add `variable.special` color to Gruvbox themes,edwloef,2025-03-07T09:45:27Z,2025-03-10T22:43:18+00:00,1,84.96,True,30,0,1,463,1,0,1,MERGED
+26270,Fix nix build,P1n3appl3,2025-03-07T09:08:40Z,2025-03-10T08:06:11+00:00,2,70.96,True,331,286,38,3152,5,1,6,MERGED
+26215,migrator: Add versioned migrations,smitbarmase,2025-03-06T13:15:39Z,2025-03-06T17:34:48+00:00,3,4.32,True,948,773,11,2013,0,1,1,MERGED
+26203,gpui: Fix `Cut` action in input example,greathongtu,2025-03-06T07:41:03Z,2025-03-06T15:02:52+00:00,1,7.36,True,1,1,1,170,3,0,3,MERGED
+26192,Update Rust crate oo7 to v0.4.1,renovate,2025-03-06T04:48:23Z,2025-03-06T09:05:44+00:00,1,4.29,True,14,14,1,580,0,0,0,MERGED
+26191,Update Rust crate linkme to v0.3.32,renovate,2025-03-06T04:38:19Z,2025-03-06T09:06:55+00:00,1,4.48,True,4,4,1,688,0,0,0,MERGED
+26190,Syntax highlighting for Lua tool use,rtfeldman,2025-03-06T04:30:31Z,2025-03-10T17:54:52+00:00,2,109.41,False,183,21,6,19,2,2,4,CLOSED
+26172,rust: Follow-up fixes for attribute highlighting,MrSubidubi,2025-03-05T23:05:11Z,2025-03-14T23:02:46+00:00,2,215.96,True,10,4,1,712,0,1,1,MERGED
+26171,Update Rust crate embed-resource to v3.0.2,renovate,2025-03-05T23:04:34Z,2025-03-06T10:31:11+00:00,1,11.44,True,4,4,1,688,0,0,0,MERGED
+26170,Update Rust crate chrono to v0.4.40 - autoclosed,renovate,2025-03-05T23:04:20Z,2025-03-06T10:30:56+00:00,1,11.44,True,9,3,1,1547,0,0,0,MERGED
+26165,Update Rust crate cargo_metadata to v0.19.2,renovate,2025-03-05T22:02:13Z,2025-03-06T09:24:49+00:00,1,11.38,True,2,2,1,683,0,0,0,MERGED
+26159,Update Rust crate blake3 to v1.6.1,renovate,2025-03-05T21:12:04Z,2025-03-06T09:06:06+00:00,1,11.9,True,2,3,1,926,0,0,0,MERGED
+26154,Update Rust crate async-compression to v0.4.20,renovate,2025-03-05T20:05:38Z,2025-03-06T10:30:39+00:00,1,14.42,True,2,2,1,862,0,0,0,MERGED
+26152,Update Rust crate anyhow to v1.0.97,renovate,2025-03-05T20:05:26Z,2025-03-05T21:32:07+00:00,1,1.44,True,2,2,1,688,0,0,0,MERGED
+26146,lsp: Add support for clangd's `inactiveRegions` extension,naim94a,2025-03-05T19:16:06Z,2025-03-06T21:30:06+00:00,3,26.23,True,174,82,9,365,7,1,8,MERGED
+26132,Persist in-memory filesystem between tool uses,rtfeldman,2025-03-05T15:30:48Z,2025-03-06T20:24:38+00:00,1,28.9,False,86,43,8,19,2,1,3,CLOSED
+26091,lua: Update keyword operator highlighting,MrSubidubi,2025-03-05T00:30:13Z,2025-03-06T23:01:13+00:00,1,46.52,True,12,63,1,575,0,0,0,MERGED
+26046,Add typescript-language-server and vtsls to list of available language servers,sacki5,2025-03-04T16:41:16Z,2025-03-04T20:49:27+00:00,1,4.14,True,11,0,1,291,4,0,4,MERGED
+25977,Git uncommit warning,P1n3appl3,2025-03-04T00:49:37Z,2025-03-05T23:56:52+00:00,3,47.12,True,171,19,6,131,2,3,5,MERGED
+25973,docs: Add documentation for icon theme,devzeth,2025-03-04T00:13:55Z,2025-03-14T22:39:12+00:00,1,262.42,True,72,0,1,141,0,0,0,MERGED
+25960,docs: Improve documentation of ensure final new line on save,devzeth,2025-03-03T21:36:24Z,2025-03-06T04:14:20+00:00,1,54.63,True,3,3,2,319,1,1,2,MERGED
+25953,Git askpass,ConradIrwin,2025-03-03T20:48:13Z,2025-03-06T05:20:06+00:00,1,56.53,True,862,377,29,91,3,1,4,MERGED
+25933,editor: Ensure correct tab icon is shown for files outside of the current project,MrSubidubi,2025-03-03T16:15:32Z,2025-03-04T11:57:26+00:00,1,19.7,True,2,5,1,739,0,0,0,MERGED
+25880,Fix soft_wrap setting not applying to buffers starting with a different language,alexozer,2025-03-02T04:18:41Z,2025-03-04T15:55:27+00:00,1,59.61,True,64,25,4,1107,5,0,5,MERGED
+25879,workspace: Add hide status_bar option,devzeth,2025-03-02T02:04:38Z,2025-03-14T21:01:39+00:00,3,306.95,False,14,1,3,190,3,1,4,CLOSED
+25875,docs: Add documentation for Seed search query from cursor,devzeth,2025-03-01T23:20:10Z,2025-03-02T06:46:22+00:00,1,7.44,True,12,0,1,82,0,0,0,MERGED
+25807,windows: Use a clippy script instead of `xtask`,JunkuiZhang,2025-02-28T11:04:32Z,2025-02-28T14:01:12+00:00,2,2.94,True,22,2,2,110,0,1,1,MERGED
+25791,html: Bump to v0.1.6,ninlds,2025-02-28T00:19:15Z,2025-02-28T01:38:55+00:00,1,1.33,True,3,3,3,38,6,0,6,MERGED
+25786,docs: Add documentation for use_smartcase_search,devzeth,2025-02-27T23:15:09Z,2025-02-28T07:45:40+00:00,1,8.51,True,20,0,2,87,0,0,0,MERGED
+25780,"Use ""restore"" more consistently in the git panel",cole-miller,2025-02-27T21:33:31Z,2025-02-27T23:45:56+00:00,2,2.21,True,10,12,1,415,0,0,0,MERGED
+25775,title_bar: Fix the order of the collab buttons,devzeth,2025-02-27T19:58:48Z,2025-02-27T21:22:05+00:00,1,1.39,True,52,52,1,186,0,0,0,MERGED
+25769,Remove `once_cell` dependency,FalkWoldmann,2025-02-27T18:55:31Z,2025-02-27T23:34:38+00:00,1,4.65,True,3,6,4,19,3,0,3,MERGED
+25734,windows: Implement `AutoUpdater`,JunkuiZhang,2025-02-27T07:36:08Z,2025-04-14T17:36:32+00:00,8,1114.01,True,727,39,15,93,2,3,5,MERGED
+25730,docs: Add DeepSeek to list of providers,ishanray,2025-02-27T04:45:29Z,2025-02-27T07:42:14+00:00,1,2.95,True,1,0,1,19,3,0,3,MERGED
+25729,lsp: Add support for Clang `inactiveRegions` extension,naim94a,2025-02-27T03:19:35Z,2025-03-04T07:37:20+00:00,4,124.3,False,88,6,2,373,6,1,7,CLOSED
+25728,Update Rust crate uuid to v1.15.1,renovate,2025-02-27T03:18:45Z,2025-02-27T07:10:49+00:00,1,3.87,True,2,2,1,1773,0,0,0,MERGED
+25720,Update Rust crate rust-embed to v8.6.0,renovate,2025-02-27T02:02:59Z,2025-02-27T07:21:16+00:00,1,5.3,True,8,8,1,972,0,0,0,MERGED
+25713,windows: Detect `pwsh`,JunkuiZhang,2025-02-27T01:10:02Z,2025-03-25T05:31:12+00:00,2,628.35,True,118,2,3,33,1,1,2,MERGED
+25712,Update Rust crate ctor to 0.4.0,renovate,2025-02-27T01:02:54Z,2025-02-27T07:48:46+00:00,1,6.76,True,33,17,2,591,0,0,0,MERGED
+25711,Update Rust crate convert_case to 0.8.0,renovate,2025-02-27T01:02:42Z,2025-02-27T07:53:30+00:00,1,6.85,True,18,18,2,599,0,0,0,MERGED
+25704,Update aws-sdk-rust monorepo,renovate,2025-02-27T00:06:54Z,2025-02-27T07:26:59+00:00,1,7.33,True,30,50,1,842,0,0,0,MERGED
+25697,Make the branch picker in the commit modal a popover,mikayla-maki,2025-02-26T23:27:45Z,2025-02-27T01:56:08+00:00,2,2.47,True,455,334,20,19,0,1,1,MERGED
+25696,Update Rust crate sea-orm to v1.1.6,renovate,2025-02-26T23:22:53Z,2025-02-27T08:13:25+00:00,1,8.84,True,21,11,1,2277,0,0,0,MERGED
+25695,Update Rust crate schemars to v0.8.22,renovate,2025-02-26T23:22:40Z,2025-02-27T02:28:22+00:00,1,3.1,True,4,4,1,769,0,0,0,MERGED
+25693,context_server: Add support for SSE MCP servers,fdionisi,2025-02-26T23:02:48Z,2025-03-19T11:41:55+00:00,1,492.65,False,266,47,6,124,1,4,5,CLOSED
+25690,Update Rust crate libc to v0.2.170,renovate,2025-02-26T22:09:10Z,2025-02-27T07:28:52+00:00,1,9.33,True,2,2,1,1799,0,0,0,MERGED
+25685,Update Rust crate clap to v4.5.31,renovate,2025-02-26T21:10:14Z,2025-02-26T22:55:48+00:00,1,1.76,True,17,17,1,705,0,0,0,MERGED
+25684,Update Rust crate chrono to v0.4.40,renovate,2025-02-26T21:10:01Z,2025-02-27T07:28:33+00:00,1,10.31,True,10,4,1,1547,0,0,0,MERGED
+25651,gpui: Add platform-specific keystroke display,KorigamiK,2025-02-26T15:09:23Z,2025-04-08T22:55:14+00:00,2,991.76,False,132,34,1,174,2,1,3,CLOSED
+25650,tasks: Add spawn option by tag,aevsai,2025-02-26T15:07:38Z,2025-04-04T14:20:10+00:00,16,887.21,True,174,33,10,235,2,9,11,MERGED
+25603,vim: Fix `insert before` in visual modes,5brian,2025-02-25T22:39:57Z,2025-03-05T04:58:01+00:00,1,174.3,True,60,0,2,267,3,1,4,MERGED
+25602,gpui: Add transition animations,someone13574,2025-02-25T22:22:58Z,2025-04-22T17:31:24+00:00,4,1339.14,False,256,8,3,553,1,3,4,CLOSED
+25582,Add docs on keybindings to trigger runnables,vittorius,2025-02-25T18:11:40Z,2025-02-26T09:38:23+00:00,1,15.45,True,4,0,1,54,3,0,3,MERGED
+25529,copilot: Add Claude 3.7 Sonnet to Copilot Chat,zhaopengme,2025-02-25T02:52:36Z,2025-02-25T15:51:55+00:00,1,12.99,True,16,3,2,84,2,0,2,MERGED
+25525,ui: Implement hover color for scrollbar component,MrSubidubi,2025-02-25T01:35:28Z,2025-05-27T22:16:04+00:00,1,2204.68,True,53,24,1,589,2,0,2,MERGED
+25521,docs: Update rust-analyzer doc links,joshrotenberg,2025-02-24T23:24:11Z,2025-02-25T00:27:41+00:00,1,1.06,True,3,3,1,158,3,0,3,MERGED
+25517,diagnostics: Fix losing focus when activating from diagnostics view,5brian,2025-02-24T22:56:54Z,2025-03-08T22:17:20+00:00,2,287.34,True,4,1,1,426,1,1,2,MERGED
+25507,Fix run indicators jumping when buffer content changes.,ConradIrwin,2025-02-24T21:56:42Z,2025-02-24T22:57:55+00:00,4,1.02,True,17,15,3,111,1,1,2,MERGED
+25501,rust: Restore and update attribute highlighting,MrSubidubi,2025-02-24T21:11:19Z,2025-02-25T00:10:30+00:00,1,2.99,True,6,2,1,790,0,0,0,MERGED
+25456,assistant_tools: Rename `FileToolInput` to `NowToolInput`,nikpivkin,2025-02-24T11:27:03Z,2025-02-24T14:37:07+00:00,1,3.17,True,3,3,1,151,5,0,5,MERGED
+25449,gpui: Don’t hide `Window` in docs,huacnlee,2025-02-24T10:01:20Z,2025-02-24T18:11:47+00:00,1,8.17,True,3,2,1,89,0,0,0,MERGED
+25440,assistant_context_editor: Close menus on send,5brian,2025-02-24T04:17:27Z,2025-03-03T12:22:23+00:00,3,176.08,True,4,0,1,216,0,1,1,MERGED
+25418,file_finder: Add `SelectNext` action,LukeMcAuleyDublin,2025-02-23T11:35:42Z,2025-03-25T22:12:50+00:00,1,730.62,False,7,1,1,439,1,0,1,CLOSED
+25405,Fix completion details on new clangd versions,BorisVassilev1,2025-02-22T19:48:19Z,2025-03-04T12:30:03+00:00,2,232.7,True,11,1,1,1173,8,0,8,MERGED
+25386,"pane: Hide ""Copy Relative Path"" and ""Reveal In Project Panel"" actions for files outside of the projects",Poldraunic,2025-02-22T12:39:00Z,2025-03-01T21:31:19+00:00,5,176.87,True,41,20,1,360,3,4,7,MERGED
+25385,Change C-a C-e keybindings to match macOS default behavior,mattmc3,2025-02-22T12:38:33Z,2025-02-22T13:43:38+00:00,1,1.08,True,2,2,1,33,4,0,4,MERGED
+25351,docs: Add missing comma in YAML configuration,RemiBardon,2025-02-21T18:26:27Z,2025-02-21T20:18:11+00:00,1,1.86,True,1,1,1,19,3,0,3,MERGED
+25350,ruby_runtime: Initial implementation,vitallium,2025-02-21T18:06:42Z,2025-02-25T19:02:50+00:00,2,96.94,False,516,0,25,3591,4,2,6,CLOSED
+25336,terminal: Update terminal reopening from global to per-workspace,smitbarmase,2025-02-21T14:09:05Z,2025-02-21T18:35:52+00:00,1,4.45,True,72,24,2,415,0,1,1,MERGED
+25333,Improve Rust syntax highlighting,chbk,2025-02-21T13:18:15Z,2025-02-21T21:20:53+00:00,7,8.04,True,1,0,1,161,1,1,2,MERGED

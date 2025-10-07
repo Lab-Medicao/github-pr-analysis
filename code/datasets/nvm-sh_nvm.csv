@@ -1,5 +1,5 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
-3660,[spam],Mhmodkhl1980,2025-09-18T22:24:54Z,2025-09-25T16:43:26+00:00,2,162.31,False,1,5,1,0,0,1,1,CLOSED
+3660,[spam],Mhmodkhl1980,2025-09-18T22:24:54Z,2025-09-25T16:43:26+00:00,1,162.31,False,1,5,1,0,0,0,0,CLOSED
 3650,[spam],tooshay2,2025-09-06T13:39:21Z,2025-09-06T18:03:29+00:00,1,4.4,False,0,1490,19,6,1,0,1,CLOSED
 3643,[spam],joaopaulofelixviana,2025-08-21T19:22:44Z,2025-08-21T21:20:24+00:00,1,1.96,False,1,1,1,0,0,0,0,CLOSED
 3624,fix: fix cygwin symlink,zdm,2025-07-22T10:18:36Z,2025-07-26T20:19:17+00:00,1,106.01,False,20,9,2,188,6,1,7,CLOSED
@@ -149,3 +149,345 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 2431,[readme] quote asterisk in shell command on `--latest-npm` example,itizarsa,2021-02-05T14:24:04Z,2021-02-06T14:55:11+00:00,1,24.52,True,1,1,1,48,0,0,0,MERGED
 2417,[Docs]: Tell mac user to try again with zsh in the command,nvh95,2021-01-22T08:15:34Z,2021-03-29T16:15:46+00:00,1,1592.0,False,1,1,1,586,1,0,1,CLOSED
 2416,[readme] Add macOS troubleshooting instructions for M1 chip,mcalthrop,2021-01-21T20:47:16Z,2021-01-30T22:01:28+00:00,1,217.24,True,52,0,1,54,0,0,0,MERGED
+2406,[Tests] Add unit test for nvm_download,nmarghetti,2021-01-11T22:37:38Z,2021-01-13T20:58:58+00:00,7,46.36,True,41,3,3,263,9,3,12,MERGED
+2403,[Issue] Adding nvm_grep in install.sh makes CI to fail,nmarghetti,2021-01-08T17:58:59Z,2021-01-12T01:00:00+00:00,1,79.02,True,7,1,2,117,0,0,0,MERGED
+2401,Allow installation from other repository also for git method,nmarghetti,2021-01-07T03:17:51Z,2021-01-15T16:28:11+00:00,9,205.17,True,152,11,2,0,6,2,8,MERGED
+2400,[readme] add install error tips,shiyutim,2021-01-07T02:53:03Z,2021-02-15T19:08:34+00:00,5,952.26,True,2,0,1,0,0,1,1,MERGED
+2397,Rename some files to be more cross platform,nmarghetti,2021-01-03T11:15:34Z,2021-01-06T23:06:30+00:00,3,83.85,True,61,2,69,311,5,1,6,MERGED
+2395,https://github.com/JimmyJam6972,unknown,2021-01-01T19:06:08Z,2021-01-01T22:11:15+00:00,1,3.09,False,0,4125,1,0,0,0,0,CLOSED
+2394,Allow installation from other repository,nmarghetti,2021-01-01T17:02:10Z,2021-01-06T21:24:53+00:00,9,124.38,True,22,10,4,0,6,4,10,MERGED
+2391,"Make it work on Windows with WSL, MSYS, Cygwin",nmarghetti,2020-12-26T22:45:12Z,2021-04-16T05:29:43+00:00,79,2646.74,True,232,20,6,0,19,37,56,MERGED
+2390,added parallel build support for obsd,Nabstar,2020-12-26T17:05:24Z,2021-03-04T20:43:33+00:00,2,1635.64,True,2,1,1,62,4,1,5,MERGED
+2388,[Docs]: Updated README.md to include homebrew unsecure dirs warning,hjoshi123,2020-12-22T12:03:54Z,2020-12-29T02:59:55+00:00,3,158.93,True,10,1,1,90,1,1,2,MERGED
+2377,Use local variable when looping over args,klazuka,2020-12-08T17:32:24Z,2020-12-08T19:35:02+00:00,1,2.04,True,1,0,1,256,0,0,0,MERGED
+2368,"[Fix] `nvm_die_on_prefix`: filter prefixed env vars on name only, ignoring values",mdwint,2020-11-28T14:24:17Z,2021-10-07T05:10:56+00:00,2,7502.78,True,4,5,2,201,4,1,5,MERGED
+2365,Fix error with zsh aliases in nvm_print_color_code,hosamaly,2020-11-27T23:18:30Z,2021-01-20T21:47:17+00:00,3,1294.48,True,46,16,2,21,15,0,15,MERGED
+2355,[actions] Add release test workflow,reasonablytall,2020-11-20T20:11:39Z,2020-11-22T01:59:40+00:00,3,29.8,True,31,9,2,224,0,1,1,MERGED
+2354,[Fix] `exec`: `--` should stop argument parsing,vvilhonen,2020-11-20T11:08:02Z,2021-03-04T20:25:22+00:00,2,2505.29,True,10,0,2,123,5,0,5,MERGED
+2351,[actions] Add shellcheck workflow,reasonablytall,2020-11-18T18:34:12Z,2020-11-19T22:05:44+00:00,1,27.53,True,31,4,2,851,4,0,4,MERGED
+2348,[Fix] `install`: Ignore npm command under $NVM_DIR when checking for global modules,dmolesUC,2020-11-17T01:10:07Z,2020-12-01T07:32:19+00:00,7,342.37,True,13,2,2,113,6,2,8,MERGED
+2336,[Tests] Run fast test suite in clean environment,reasonablytall,2020-11-04T00:36:39Z,2020-11-13T19:35:46+00:00,3,234.99,True,4,2,2,685,3,1,4,MERGED
+2335,[Dockerfile] Clean up dated comment,PeterDaveHello,2020-11-03T09:22:03Z,2020-11-06T04:32:45+00:00,1,67.18,True,0,3,1,48,0,0,0,MERGED
+2332,Fix `nvm unload` fast test cleanup,reasonablytall,2020-10-22T20:22:03Z,2020-10-23T03:40:54+00:00,1,7.31,False,0,0,0,353,4,1,5,CLOSED
+2322,Fix `nvm_ls_current` fast unit test,reasonablytall,2020-10-13T16:58:00Z,2020-10-19T19:49:49+00:00,2,146.86,True,5,4,1,1181,4,3,7,MERGED
+2318,[readme] add docker tips,cdaringe,2020-10-11T18:19:33Z,2025-02-03T20:13:26+00:00,16,37825.9,True,31,7,2,308,1,2,3,MERGED
+2316,[Fix] `nvm_die_on_prefix`: use directory comparison rather than string,dylanarmstrong,2020-10-09T14:44:16Z,2020-10-12T06:17:06+00:00,10,63.55,True,69,2,3,154,1,5,6,MERGED
+2313,[readme] bash shell integration: Amended example to call cd when booting a terminal (previously only called on cd),matthieubosquet,2020-10-05T16:39:57Z,2020-10-05T23:11:12+00:00,4,6.52,True,3,2,1,221,0,3,3,MERGED
+2310,ls-remote accepts versions ending with a dot,gitburd,2020-09-24T23:35:19Z,2020-10-31T06:13:32+00:00,3,870.64,True,17,0,2,787,5,1,6,MERGED
+2307,Drop deprecated `sudo:` option in TravisCI config,PeterDaveHello,2020-09-21T12:30:39Z,2020-10-08T18:23:21+00:00,1,413.88,True,0,1,1,121,2,0,2,MERGED
+2306,Add missing apt pacakge `locales` in Dockerfile,PeterDaveHello,2020-09-21T10:35:56Z,2020-09-22T01:18:27+00:00,1,14.71,True,1,0,1,319,1,0,1,MERGED
+2300,mac big sur uses zsh,8secz-johndpope,2020-09-11T05:07:08Z,2021-03-26T05:52:34+00:00,1,4704.76,False,4,0,1,0,9,0,9,CLOSED
+2294,Update README.md for LTS upgrade,saikatdas0790,2020-08-27T13:57:49Z,2020-08-28T05:39:19+00:00,1,15.69,True,1,1,1,82,5,0,5,MERGED
+2291,[New] Set colors,naomiquinones,2020-08-25T20:54:00Z,2020-11-21T21:21:53+00:00,72,2112.46,True,608,21,13,547,10,53,63,MERGED
+2288,Added in comments in .nvmrc,Yash-Singh1,2020-08-20T20:31:48Z,2024-06-10T05:41:45+00:00,12,33345.17,False,98,35,3,177,19,3,22,CLOSED
+2286,Small nvm_auto optimization,michaelPotter,2020-08-19T18:51:49Z,2020-08-20T17:49:08+00:00,1,22.96,True,2,2,1,309,0,0,0,MERGED
+2282,[readme] Mention problem with windows cmd echo,SteveALee,2020-08-11T17:40:15Z,2020-08-14T00:17:05+00:00,1,54.61,True,2,0,1,12,0,0,0,MERGED
+2279,Fixed a bug where --silent mode was failing for nvm use,Yash-Singh1,2020-08-09T23:06:32Z,2020-08-13T23:24:50+00:00,12,96.31,True,96,53,2,1586,1,32,33,MERGED
+2277,[Fix] ensure `--help` is intercepted on any command ,naomiquinones,2020-08-06T00:01:21Z,2020-08-09T21:44:02+00:00,7,93.71,True,97,82,2,415,1,2,3,MERGED
+2274,Add --alias and --default to Install,gitburd,2020-07-31T22:42:09Z,2020-08-02T05:00:30+00:00,2,30.31,True,50,0,3,519,2,2,4,MERGED
+2272,Add suggested lines to help section,naomiquinones,2020-07-29T01:02:32Z,2020-07-29T07:44:14+00:00,1,6.7,True,5,0,1,431,0,0,0,MERGED
+2271,[readme] Add documentation for LTS updates which reinstall existing packages,saikatdas0790,2020-07-28T14:02:06Z,2020-08-01T16:41:42+00:00,4,98.66,True,6,0,1,216,8,1,9,MERGED
+2270,Add -v Flag #2200,gitburd,2020-07-27T17:34:27Z,2020-07-28T20:00:18+00:00,2,26.43,True,1,1,1,258,0,1,1,MERGED
+2263,"Update docs and add warning for 'nvm is not compatible with the npm config ""prefix"" option' edgecase error on Mac OS",mkarajohn,2020-07-20T10:32:15Z,2020-08-03T17:44:34+00:00,3,343.21,True,16,0,2,434,1,3,4,MERGED
+2260,[Fix] `install`: detect user shell and try shellrc file first,steelcowboy,2020-07-18T19:29:35Z,2025-02-03T17:03:15+00:00,10,39861.56,False,66,12,3,3773,8,6,14,CLOSED
+2252,Fix bug in fish example script,megawubs,2020-07-07T07:23:14Z,2020-07-08T06:53:10+00:00,1,23.5,True,1,1,1,202,0,0,0,MERGED
+2248,Update macOS troubleshooting w/ 10.15 zsh default,mkaz,2020-06-24T18:37:36Z,2020-07-06T00:30:36+00:00,2,269.88,True,3,1,1,187,0,0,0,MERGED
+2242,Update nvm.sh help command to better explain <version> optionality,ritmos,2020-06-20T13:16:10Z,2020-07-20T07:06:02+00:00,5,713.83,True,44,44,1,126,0,1,1,MERGED
+2241,[readme] Update shell profile file install notes,asadakbar,2020-06-20T00:39:40Z,2025-02-03T21:49:38+00:00,12,40557.17,True,1,1,1,2151,1,2,3,MERGED
+2235,Stop removing spaces from nvm_path,stopsopa,2020-06-10T18:11:54Z,2020-06-19T23:04:13+00:00,1,220.87,True,1,1,1,280,5,0,5,MERGED
+2228,[Docs] Syntax highlight for Ansible task example in README.md,PeterDaveHello,2020-05-29T13:02:12Z,2020-06-22T21:59:35+00:00,1,584.96,True,1,1,1,0,0,0,0,MERGED
+2225,Update install instructions troubleshooting,connor11528,2020-05-25T14:36:51Z,2020-06-23T07:14:08+00:00,2,688.62,True,1,1,1,188,0,1,1,MERGED
+2222,Update install.sh,JS-jpg,2020-05-20T10:14:48Z,2020-05-25T21:34:32+00:00,2,131.33,False,2,2,1,0,0,0,0,CLOSED
+2213,Rename _has_solaris_binary functions to prefix with nvm,sehrope,2020-05-08T20:47:58Z,2020-05-25T20:38:42+00:00,1,407.85,True,55,55,5,387,1,0,1,MERGED
+2208,Update README.md to include Deeper Integration fish instructions,jaredramirez,2020-04-29T22:25:34Z,2020-04-30T03:05:13+00:00,1,4.66,True,41,0,1,28,2,0,2,MERGED
+2205,"[Docs] git install document update, sourcing nvm",huahuayu,2020-04-27T08:12:24Z,2020-12-28T00:21:06+00:00,2,5872.15,True,1,1,1,31,1,1,2,MERGED
+2202,Troubleshoot without closing the current shell.,artforlife,2020-04-26T17:58:05Z,2021-03-17T14:43:49+00:00,3,7796.76,True,13,2,1,70,4,2,6,MERGED
+2194,Reinstalling should not echo an error,kingces95,2020-04-16T02:32:46Z,2020-06-02T23:18:58+00:00,5,1148.77,False,1,1,1,175,0,2,2,CLOSED
+2193,[readme] add `nvshim` tool alongside `avn`,iamogbz,2020-04-15T23:30:12Z,2023-06-30T19:20:00+00:00,15,28099.83,True,2,0,1,279,2,2,4,MERGED
+2187,Update Dockerfile,PeterDaveHello,2020-03-29T18:22:26Z,2020-03-31T07:14:02+00:00,1,36.86,True,2,2,1,43,2,0,2,MERGED
+2182,Fix bug in test nvm_get_default_packages,memark,2020-03-19T11:17:19Z,2020-03-22T06:07:16+00:00,1,66.83,True,2,1,1,20,0,0,0,MERGED
+2167,Update example bash script to use nvm use on shell open,garyaparker,2020-02-21T13:29:08Z,2021-03-26T06:00:35+00:00,1,9568.52,False,9,1,1,194,1,1,2,CLOSED
+2159,document environment variable usage in README,bmacnaughton,2020-02-10T15:07:33Z,2020-05-25T21:23:15+00:00,1,2526.26,True,14,0,1,304,0,0,0,MERGED
+2158,nvm.sh - add NVM_INC for the include path,bmacnaughton,2020-02-07T14:36:10Z,2020-02-09T00:15:04+00:00,2,33.65,True,3,1,1,1293,7,0,7,MERGED
+2156,nvm.sh: Add more xz platform support checks,DeeDeeG,2020-01-29T21:36:17Z,2020-07-18T06:54:27+00:00,66,4089.3,True,23,3,1,147,7,3,10,MERGED
+2150,[readme] add nvm intro,flip111,2020-01-23T19:32:24Z,2020-02-09T20:02:43+00:00,1,408.51,True,4,0,1,9,0,2,2,MERGED
+2133,Update README: add bash_completion on manual install,felipear89,2019-12-08T14:25:34Z,2021-10-05T13:43:10+00:00,1,16007.29,False,1,0,1,0,2,1,3,CLOSED
+2130,[Docs] Fix small typo in README,LucianBuzzo,2019-12-05T10:07:49Z,2020-01-01T23:34:12+00:00,1,661.44,True,1,1,1,0,0,0,0,MERGED
+2125,Improve readme clarity and troubleshooting for install script,nebbles,2019-11-17T14:56:46Z,2020-01-01T23:34:13+00:00,8,1088.62,True,58,42,1,255,2,4,6,MERGED
+2121,Fix a typo in the readme.,awthwathje,2019-11-08T09:24:30Z,2019-11-09T05:06:36+00:00,1,19.7,True,1,1,1,0,0,0,0,MERGED
+2118,Copy system cert configs when installing new versions,squarebracket,2019-11-04T20:01:00Z,2025-02-03T17:30:10+00:00,1,46029.49,False,96,0,4,509,1,1,2,CLOSED
+2113,Update Licensce.Md,sensei777,2019-10-21T07:19:42Z,2021-03-29T16:16:46+00:00,3,12608.95,False,1,1,1,1102,0,1,1,CLOSED
+2112,Clarify install instructions and add one trouble shooting suggestion,maritiren,2019-10-20T16:10:26Z,2019-10-23T20:30:04+00:00,6,76.33,True,12,21,1,484,0,3,3,MERGED
+2111,[Docs] make global packages requirable,kyle7zhang,2019-10-18T10:44:14Z,2019-10-18T17:27:27+00:00,1,6.72,False,6,0,1,415,0,1,1,CLOSED
+2109,Change Ansible task to pass ansible-lint checks,MikkCZ,2019-10-14T11:07:19Z,2021-09-29T06:07:39+00:00,6,17179.01,False,4,5,1,0,3,1,4,CLOSED
+2107,Update ISSUE_TEMPLATE.md,guidobouman,2019-10-08T13:28:34Z,2019-10-12T05:51:13+00:00,3,88.38,True,27,25,1,149,0,1,1,MERGED
+2104,Make some updates in Travis config,chenrui333,2019-10-02T19:05:56Z,2020-12-08T23:49:08+00:00,9,10396.72,True,0,1,1,0,4,2,6,MERGED
+2098,Remove io.js,knoxcard,2019-09-12T22:23:51Z,2021-03-29T16:18:03+00:00,1,13529.9,False,0,1,1,43,1,0,1,CLOSED
+2086,Fix bash auto-use nvm command,smithgp,2019-08-09T20:40:01Z,2019-08-17T16:22:55+00:00,1,187.72,True,1,1,1,216,3,0,3,MERGED
+2077,[Fix] system manpages unaccessible,mosauter,2019-07-12T15:48:52Z,2019-07-21T11:25:57+00:00,11,211.62,False,2,2,1,886,3,1,4,CLOSED
+2070,Add more context for getting nvm to run atfer install,unknown,2019-06-26T04:16:11Z,2019-06-30T18:53:38+00:00,2,110.62,False,1,1,1,240,0,1,1,CLOSED
+2069,Remove broken shell snippet from the README,stepnem,2019-06-24T16:43:25Z,2019-09-27T18:14:19+00:00,1,2281.51,False,0,0,0,547,8,1,9,CLOSED
+2062,helpers to set /confirm node version,8secz-johndpope,2019-06-11T04:31:09Z,2019-06-11T05:39:33+00:00,2,1.14,False,54,7,1,0,1,1,2,CLOSED
+2048,Added power-nvm + sorted alternatives by history,mxmlnglt,2019-05-15T07:45:28Z,2021-09-29T21:52:47+00:00,1,20846.12,False,3,2,1,0,2,0,2,CLOSED
+2047,[Fix] Add default empty value for NVM_NO_ALIAS variable,sehrope,2019-05-14T13:31:49Z,2019-05-15T05:35:32+00:00,2,16.06,True,24,1,2,209,2,0,2,MERGED
+2038,Proposal of formatting on code on string 87,kant,2019-05-03T22:44:34Z,2019-09-28T05:43:40+00:00,3,3534.99,True,11,11,1,56,0,1,1,MERGED
+2037,Updated note about Windows,alfredmyers,2019-05-02T15:20:36Z,2019-05-04T22:27:18+00:00,1,55.11,True,1,1,1,85,0,0,0,MERGED
+2035,[Fix] Determine correct sub directory if XDG_CONFIG_HOME is set,bastiaf,2019-04-28T11:19:14Z,2019-05-05T06:05:39+00:00,1,162.77,True,3,3,1,255,1,1,2,MERGED
+2033,"Set $NVM_DIR to "".nvm"" instead of ""nvm""",WillPapper,2019-04-24T07:04:15Z,2019-08-17T20:51:14+00:00,1,2773.78,True,2,6,2,1087,9,1,10,MERGED
+2032,Update Linux and Mac installation notes,frmbelz,2019-04-22T18:24:03Z,2025-02-03T15:27:43+00:00,1,50733.06,False,5,8,1,92,0,1,1,CLOSED
+2028,Fix: failed to connect to github when run 'install.sh',BruceZu,2019-04-16T05:02:35Z,2019-04-18T15:37:09+00:00,1,58.58,False,4,4,1,1632,15,0,15,CLOSED
+2022,Update commands for command nvm in bash,lucasaugustodeveloper,2019-03-24T18:55:56Z,2021-10-07T05:46:13+00:00,1,22258.84,False,2,1,1,82,2,1,3,CLOSED
+2017,Update `cdnvm` script to take into account alias,d4nyll,2019-03-12T16:43:30Z,2019-03-15T07:23:05+00:00,10,62.66,True,9,8,1,74,0,2,2,MERGED
+2013,"[Fix] set install dir to $XDG_CONFIG_HOME/nvm, not $XDG_CONFIG_HOME",bees,2019-03-08T15:54:44Z,2019-08-09T03:16:26+00:00,1,3683.36,False,1,1,1,638,4,0,4,CLOSED
+2010,tests: use rm -rf instead of rmdir in teardown,jcsahnwaldt,2019-02-27T10:09:55Z,2019-02-27T21:43:54+00:00,1,11.57,True,20,27,3,1214,1,0,1,MERGED
+2007,nvm.sh: added nvm_stdout_is_terminal(),jcsahnwaldt,2019-02-23T23:03:50Z,2019-03-03T07:10:18+00:00,2,176.11,True,37,1,2,19,15,0,15,MERGED
+2004,README.md: mention --no-colors option,jcsahnwaldt,2019-02-23T08:54:18Z,2019-02-24T18:58:33+00:00,1,34.07,True,10,0,1,0,1,1,2,MERGED
+2003,Add note about what version of node new shells run with.,ericandrewlewis,2019-02-22T15:05:25Z,2019-02-27T00:07:50+00:00,2,105.04,True,2,0,1,11,0,1,1,MERGED
+2001,Update README: sync node release schedule url,jjangga0214,2019-02-15T02:11:44Z,2019-02-15T05:06:09+00:00,1,2.91,True,1,1,1,25,0,0,0,MERGED
+1993,Better help document,JARVIS-AI,2019-01-26T00:18:08Z,2019-02-24T08:40:42+00:00,9,704.38,True,7,6,2,588,0,2,2,MERGED
+1992,update error message,lucask42,2019-01-24T00:46:06Z,2019-01-26T17:01:22+00:00,5,64.25,True,37,0,2,273,2,3,5,MERGED
+1990,"[Fix] Improve syntax in ""test/installation_iojs/nvm install v1 works""",PeterDaveHello,2019-01-22T19:11:08Z,2019-01-22T22:18:23+00:00,1,3.12,True,2,2,1,119,0,0,0,MERGED
+1989,[Fix] Add missing io.js installing message,PeterDaveHello,2019-01-22T07:47:17Z,2019-01-23T21:40:10+00:00,1,37.88,True,7,1,2,9,16,0,16,MERGED
+1986,[Fix] Make installation less restrictive when NVM_DIR is set,Sayegh7,2019-01-21T00:30:22Z,2019-01-22T18:50:11+00:00,5,42.33,True,21,6,1,330,2,3,5,MERGED
+1981,README: clarify how to specify default packages,waldyrious,2019-01-11T10:43:33Z,2019-01-11T18:42:48+00:00,1,7.99,True,1,1,1,82,0,0,0,MERGED
+1974,Improve phrasing of 'nvm current',valeriemettler,2019-01-05T20:22:28Z,2019-01-05T22:10:31+00:00,1,1.8,True,1,1,1,76,0,0,0,MERGED
+1972,Adds support for OpenBSD's native tar,aramisf,2018-12-31T16:41:08Z,2023-01-11T17:34:45+00:00,20,35328.89,False,91,21,1,1033,12,11,23,CLOSED
+1971,[Docs] fixing cdnvm on .bashrc (auto nvm use),jabiinfante,2018-12-31T07:46:34Z,2018-12-31T21:11:52+00:00,1,13.42,True,1,1,1,178,0,0,0,MERGED
+1970,[Docs] Add --latest-npm info to Migrating global packages section,metasean,2018-12-31T01:24:48Z,2019-09-27T21:47:24+00:00,2,6500.38,True,16,0,1,328,0,3,3,MERGED
+1967,Improve issue template,PeterDaveHello,2018-12-25T19:50:16Z,2018-12-26T07:10:41+00:00,1,11.34,True,16,15,1,86,0,0,0,MERGED
+1964,Add Ansible task example,joelparkerhenderson,2018-12-19T20:46:22Z,2018-12-19T22:42:16+00:00,2,1.93,True,12,0,1,487,0,1,1,MERGED
+1957,Process additional (--) parameters before final version parameter.,leebickmtu,2018-12-12T23:00:23Z,2022-02-23T21:11:58+00:00,6,28054.19,False,61,55,2,1241,5,2,7,CLOSED
+1955,ShellCheck v0.6.0 fixes,PeterDaveHello,2018-12-03T06:00:47Z,2018-12-04T21:04:35+00:00,1,39.06,True,5,5,2,0,0,0,0,MERGED
+1953,Remove io.js from readme,iagowp,2018-11-25T15:40:09Z,2021-11-01T18:05:25+00:00,3,25730.42,False,1,29,1,86,10,1,11,CLOSED
+1947,Enable ccache on Travis CI to speed up compilation,PeterDaveHello,2018-11-19T08:40:10Z,2018-11-25T05:18:23+00:00,2,140.64,True,2,0,1,84,0,0,0,MERGED
+1938,Allow zsh users to have the nomatch option set,agross,2018-11-07T23:59:08Z,2018-11-08T23:40:07+00:00,1,23.68,True,15,94,1,11,3,0,3,MERGED
+1930,[Docs] improve instructions for manual install,sudoole,2018-10-24T18:02:26Z,2018-11-06T01:28:51+00:00,1,295.44,True,1,1,1,11,0,0,0,MERGED
+1929,[New] adding default and alias option to `nvm install`,kaltepeter,2018-10-22T13:45:47Z,2020-08-02T05:00:40+00:00,3,15591.25,True,50,0,3,153,2,2,4,MERGED
+1926,Added fish nvm,FabioAntunes,2018-10-20T12:07:53Z,2018-10-22T19:05:03+00:00,1,54.95,True,1,0,1,0,0,0,0,MERGED
+1925,[docs] update README to fix docker run command flag order,kaltepeter,2018-10-19T03:33:20Z,2018-11-06T03:09:02+00:00,2,431.6,True,1,1,1,12,2,0,2,MERGED
+1917,Logic for when $METHOD is something unexpected,pnickerson-cashstar,2018-10-02T17:57:50Z,2018-10-08T22:07:50+00:00,5,148.17,True,3,0,1,464,0,1,1,MERGED
+1911,Add support for ZSH_DISABLE_COMPFIX flag.,NathanSMB,2018-09-18T20:40:02Z,2018-10-01T06:34:52+00:00,4,297.91,True,5,1,1,947,12,2,14,MERGED
+1901,Update README with instructions for installing specific version.,et304383,2018-08-27T14:52:54Z,2018-09-11T23:01:42+00:00,1,368.15,True,14,1,1,217,1,0,1,MERGED
+1893,[new] better error message for `nvm install lts`,MylesBorins,2018-08-16T05:15:45Z,2020-05-01T05:10:35+00:00,1,14975.91,False,5,1,1,93,2,0,2,CLOSED
+1892,[new] nvm install lts,MylesBorins,2018-08-16T04:25:08Z,2020-05-01T05:10:31+00:00,1,14976.76,False,4,0,1,55,0,0,0,CLOSED
+1888,Fix: XDG_CONFIG_HOME compatible,Lilja,2018-08-14T19:57:49Z,2018-09-10T06:35:42+00:00,8,634.63,True,13,4,3,99,5,6,11,MERGED
+1864,[Docs] Improve README.md & CONTRIBUTING.md syntax,PeterDaveHello,2018-07-14T18:34:11Z,2018-11-06T07:00:37+00:00,9,2748.44,True,34,3,2,380,2,1,3,MERGED
+1863,Improve Dockerfile,PeterDaveHello,2018-07-12T06:29:06Z,2018-08-23T16:13:48+00:00,3,1017.75,True,14,5,3,0,2,1,3,MERGED
+1861,Improve and update Dockerfile,PeterDaveHello,2018-07-11T07:17:56Z,2018-07-11T19:15:25+00:00,1,11.96,True,10,8,1,18,0,0,0,MERGED
+1846,clone depth,ORESoftware,2018-06-22T07:13:42Z,2025-02-03T06:25:38+00:00,3,58031.2,False,1,1,1,86,3,1,4,CLOSED
+1840,[Docs] add --no-use option to installation,JBallin,2018-06-18T04:34:45Z,2018-06-18T19:48:51+00:00,1,15.23,True,2,0,1,0,1,0,1,MERGED
+1839,Explain --no-use in installation instructions,JBallin,2018-06-17T06:42:12Z,2018-06-18T19:48:51+00:00,6,37.11,True,2,0,1,0,6,2,8,MERGED
+1836,[shellcheck] update dockerfile to shellcheck v0.6.0,sturman,2018-06-13T09:26:36Z,2019-09-27T23:46:58+00:00,3,11318.34,True,1,1,1,0,5,0,5,MERGED
+1835,add libssl-dev to Docker image,sturman,2018-06-13T09:15:51Z,2019-09-28T02:49:28+00:00,4,11321.56,True,1,0,1,0,6,1,7,MERGED
+1830,Prepend instead of changing if shadowed by system dirs (fixes #1652),zeorin,2018-06-08T13:27:04Z,2018-06-16T20:54:03+00:00,3,199.45,True,23,2,2,340,9,2,11,MERGED
+1828,add support for chakracore,patrickkettner,2018-06-07T01:40:05Z,2020-12-04T16:31:01+00:00,3,21878.85,False,346,22,12,13,8,1,9,CLOSED
+1825,Fix ShellCheck SC2235 issue,PeterDaveHello,2018-06-01T10:22:23Z,2018-06-01T19:09:26+00:00,1,8.78,True,5,5,1,50,13,0,13,MERGED
+1824,Improve nvm_is_version_installed to check for a node executable instead of root dir,joshuarli,2018-05-31T22:36:50Z,2018-06-15T05:17:09+00:00,11,342.67,True,27,19,6,571,26,3,29,MERGED
+1823,fix for .nvmrc script,SrHuevo,2018-05-30T07:03:58Z,2018-05-31T00:08:08+00:00,1,17.07,True,1,1,1,70,4,0,4,MERGED
+1822,Change some bad grammar in README.md,codingJWilliams,2018-05-26T22:17:29Z,2018-05-28T07:34:52+00:00,1,33.29,True,1,1,1,0,0,0,0,MERGED
+1821,fix failing if check in autoload script,sidsakhadeo,2018-05-25T22:35:04Z,2018-05-26T02:54:30+00:00,1,4.32,True,1,1,1,11,2,0,2,MERGED
+1819,[Refactor] `nvm.sh`: make coding style more consistent,PeterDaveHello,2018-05-24T16:55:59Z,2019-01-21T04:12:05+00:00,22,5795.27,True,282,297,1,476,2,15,17,MERGED
+1816,Improve bash_completion coding style,PeterDaveHello,2018-05-21T12:08:29Z,2018-05-23T11:41:08+00:00,7,47.54,True,28,35,1,50,1,3,4,MERGED
+1794,Correction with the update.,GitLaboratory,2018-04-26T02:07:10Z,2018-04-26T17:45:33+00:00,1,15.64,False,1,0,1,0,1,1,2,CLOSED
+1793,add --tags to git fetch in manual upgrade,joshsleeper,2018-04-25T21:55:55Z,2018-04-26T17:31:20+00:00,1,19.59,True,1,1,1,104,0,0,0,MERGED
+1787,[Doc] Add macOS install script note about Git,PeterDaveHello,2018-04-12T17:17:56Z,2018-04-15T04:36:44+00:00,1,59.31,True,2,0,1,11,0,0,0,MERGED
+1786,[Doc] Fix manual install & upgrade guide,PeterDaveHello,2018-04-12T16:22:44Z,2018-04-12T20:33:52+00:00,1,4.19,True,2,2,1,50,1,0,1,MERGED
+1785,Turn off wget's output in nvm_get_latest(),PeterDaveHello,2018-04-12T15:45:01Z,2018-04-12T16:58:41+00:00,1,1.23,True,2,22,2,179,0,0,0,MERGED
+1783,"Improve install.sh prompt output, add a new line",PeterDaveHello,2018-04-10T08:00:17Z,2018-04-11T04:58:47+00:00,1,20.98,True,1,0,1,1379,0,0,0,MERGED
+1780,Add auto completion support to zsh,JemiloII,2018-04-09T21:38:16Z,2018-04-11T23:59:48+00:00,11,50.36,True,14,12,3,314,3,9,12,MERGED
+1779,Add man page,harrisi,2018-04-09T19:15:44Z,2022-08-15T18:46:17+00:00,13,38135.51,False,158,0,2,258,13,3,16,CLOSED
+1777,Add removal instructions to README.md,uberhacker,2018-04-09T15:38:37Z,2018-04-10T05:15:44+00:00,1,13.62,True,18,0,1,44,0,1,1,MERGED
+1775,removed global install on README.md. closes #1773,guylepage3,2018-04-04T23:06:12Z,2018-04-05T07:14:46+00:00,1,8.14,True,1,1,1,12,0,0,0,MERGED
+1770,Automatically detect latest release,Xaqron,2018-04-02T14:25:23Z,2021-09-29T16:16:59+00:00,1,30625.86,False,2,2,1,120,5,0,5,CLOSED
+1759,Reduce bash_completion startup time,easyaspi314,2018-03-12T14:52:25Z,2018-03-22T12:12:57+00:00,1,237.34,True,1,1,1,89,0,0,0,MERGED
+1756,Spelling,jsoref,2018-03-06T04:44:13Z,2018-03-07T07:19:00+00:00,2,26.58,True,8,8,7,96,4,1,5,MERGED
+1753,[Docs] Fix some typos,PeterDaveHello,2018-03-03T13:21:43Z,2018-03-09T07:07:19+00:00,1,137.76,True,3,3,2,28,0,0,0,MERGED
+1751,[Fix] Use `nvm_echo` instead of `echo` directly,PeterDaveHello,2018-02-27T18:16:54Z,2018-03-01T07:25:18+00:00,1,37.14,True,9,9,1,0,0,0,0,MERGED
+1750,[Fix] Prevent install/link when no packages found,PeterDaveHello,2018-02-27T06:07:17Z,2018-03-01T18:39:55+00:00,1,60.54,True,40,10,4,12,1,0,1,MERGED
+1749,Add info to restart bash if verification not working in verification section,asab-se,2018-02-25T20:52:29Z,2021-09-29T05:56:02+00:00,1,31473.06,True,2,0,1,279,10,0,10,MERGED
+1748,[Fix] Correct most of the wrong indentation,PeterDaveHello,2018-02-25T18:22:25Z,2018-02-25T19:33:23+00:00,1,1.18,True,55,55,7,8,0,0,0,MERGED
+1747,Fix coding style,PeterDaveHello,2018-02-25T17:08:33Z,2018-02-25T18:10:51+00:00,1,1.04,True,5,68,62,145,0,0,0,MERGED
+1746,Improve OS version detection in `nvm debug`,PeterDaveHello,2018-02-23T18:56:17Z,2018-04-15T04:32:52+00:00,11,1209.61,True,10,2,1,88,0,7,7,MERGED
+1745,"[New] Add ""$PATH"" to `nvm debug` output",PeterDaveHello,2018-02-23T18:21:22Z,2018-02-25T18:12:33+00:00,3,47.85,True,1,0,1,23,0,1,1,MERGED
+1742,Remove duplicate code in nvm_npm_global_modules(),PeterDaveHello,2018-02-21T16:04:16Z,2018-02-22T01:45:25+00:00,1,9.69,True,1,5,1,79,0,0,0,MERGED
+1741,Use grep `-q` parameter instead of redirect to /dev/null,PeterDaveHello,2018-02-21T16:03:39Z,2018-02-25T18:18:19+00:00,2,98.24,True,9,9,1,113,2,0,2,MERGED
+1740,[Fix] Improve .nvmrc reading process,PeterDaveHello,2018-02-20T19:39:25Z,2018-04-15T20:27:51+00:00,5,1296.81,True,34,1,2,115,3,2,5,MERGED
+1739,[New] Add EditorConfig to help maintain part of coding style,PeterDaveHello,2018-02-20T17:43:44Z,2018-04-15T05:36:26+00:00,2,1283.88,True,22,2,3,792,12,1,13,MERGED
+1736,"[Fix] Add missing ""command"" prefixes for few commands",PeterDaveHello,2018-02-19T20:07:53Z,2018-02-24T22:30:03+00:00,9,122.37,True,7,7,2,110,1,1,2,MERGED
+1735,"[Fix] Add missing ""command"" prefix for ""tr"", fix #1725",PeterDaveHello,2018-02-19T05:59:59Z,2018-02-19T07:11:39+00:00,1,1.19,True,1,1,1,12,0,0,0,MERGED
+1734,"[Fix] Remove $NVM_DIR trailing slash automatically, fix #1708",PeterDaveHello,2018-02-18T16:55:42Z,2018-04-24T23:22:42+00:00,15,1566.45,True,27,0,2,130,7,4,11,MERGED
+1733,[Doc] Update Docker image build info in README.md,PeterDaveHello,2018-02-18T16:27:45Z,2018-02-18T22:23:11+00:00,1,5.92,True,2,2,1,35,0,0,0,MERGED
+1729,Optimize ShellCheck installation in Docker image,PeterDaveHello,2018-02-13T17:05:58Z,2018-02-18T06:19:57+00:00,1,109.23,True,13,9,1,415,4,0,4,MERGED
+1728,Display FreeBSD and SunOS with correct caps,PeterDaveHello,2018-02-13T16:31:47Z,2018-02-18T06:07:04+00:00,1,109.59,True,2,2,1,85,0,0,0,MERGED
+1726,[Docs] Add reminder that NVM_DIR should not contain trailing slash,chrisse27,2018-02-09T10:52:43Z,2018-02-18T06:01:01+00:00,1,211.14,True,1,1,1,13,1,0,1,MERGED
+1724,[Fix] Correct nvm.sh indent,PeterDaveHello,2018-02-07T09:10:32Z,2018-02-09T07:43:50+00:00,1,46.55,True,12,12,1,0,0,0,0,MERGED
+1713,[copyright] update to 2018,akkumar,2018-01-25T09:22:37Z,2018-02-09T07:44:40+00:00,3,358.37,True,2,2,2,23,4,1,5,MERGED
+1704,Don't give detached HEAD advice when installing,pnorman,2018-01-10T21:25:50Z,2018-01-13T07:49:55+00:00,6,58.4,True,10,6,2,319,0,1,1,MERGED
+1701,Add escape sequences and test,ihmels,2018-01-07T11:42:29Z,2018-01-17T20:43:03+00:00,12,249.01,True,28,5,2,40,6,3,9,MERGED
+1695,chore: improve performance of nvm version command,maksimr,2017-12-23T16:17:36Z,2021-09-30T07:36:11+00:00,6,33039.31,False,4,16,1,5936,7,2,9,CLOSED
+1684,ShellCheck v0.4.7 fixes,PeterDaveHello,2017-12-09T10:48:42Z,2017-12-13T22:49:34+00:00,20,108.01,True,23,23,3,131,4,8,12,MERGED
+1683,add yarn to nvm_print_npm_version,stefanwimmer128,2017-12-09T08:37:57Z,2019-05-07T15:36:04+00:00,1,12342.97,False,12,1,2,119,0,0,0,CLOSED
+1679,`nvm use`: perfect pre-npm-config env var checking,ljharb,2017-12-05T08:01:46Z,2017-12-09T19:21:28+00:00,1,107.33,True,34,11,2,217,1,0,1,MERGED
+1678,Updated README.md,shiruba,2017-12-03T18:49:38Z,2018-11-06T00:10:26+00:00,3,8093.35,False,24,4,1,156,1,5,6,CLOSED
+1676,Fix a bug that block that installation of node in install.sh,a-magdy,2017-11-30T14:08:32Z,2017-12-03T19:47:39+00:00,1,77.65,True,16,8,2,3028,0,0,0,MERGED
+1673,Explain .nvmrc better,p-salido,2017-11-24T04:10:03Z,2017-12-17T00:41:43+00:00,7,548.53,True,9,3,1,103,0,2,2,MERGED
+1669,Fix for $path used by zsh,pjw91,2017-11-20T14:36:04Z,2017-11-22T16:52:14+00:00,3,50.27,True,7,12,2,207,2,1,3,MERGED
+1665,Fix issue 1664 unassigned variable 20171115,norpol,2017-11-15T16:20:57Z,2017-11-18T05:31:27+00:00,1,61.17,True,2,1,2,10,0,0,0,MERGED
+1659,return 0 for profile commands,refack,2017-11-08T18:43:09Z,2019-05-07T15:36:29+00:00,1,13076.89,False,2,2,1,0,0,0,0,CLOSED
+1658,Added missing piece,davidgatti,2017-11-08T00:02:24Z,2017-11-13T08:54:23+00:00,4,128.87,True,1,1,1,80,0,1,1,MERGED
+1657,update README.md,ORESoftware,2017-11-07T18:30:51Z,2025-02-03T17:34:01+00:00,2,63479.05,False,1,1,1,110,6,0,6,CLOSED
+1656,[Tests] Add markdown-link-check on Travis CI,PeterDaveHello,2017-11-04T20:12:29Z,2021-09-29T20:33:16+00:00,2,34200.35,True,4,2,2,300,2,0,2,MERGED
+1655,[New] Print $SHLVL in `nvm debug`,PeterDaveHello,2017-11-04T19:27:57Z,2018-02-18T06:14:24+00:00,1,2530.77,True,2,0,1,38,1,0,1,MERGED
+1654,[Fix] Enhance nvm debug for different environments,PeterDaveHello,2017-11-04T14:54:52Z,2019-01-13T08:07:45+00:00,32,10433.21,True,24,2,1,107,1,3,4,MERGED
+1644,Make `nvm cache clear` message less ambiguous,unknown,2017-10-29T00:39:24Z,2017-10-29T05:42:15+00:00,1,5.05,True,3,3,1,194,0,0,0,MERGED
+1640,Typo,kant,2017-10-23T05:23:12Z,2017-10-24T04:10:49+00:00,1,22.79,True,3,3,1,0,0,0,0,MERGED
+1639,"[Cleanup] Remove ghc related things in .travis.yml, cc #1619",PeterDaveHello,2017-10-21T16:43:43Z,2017-10-22T03:55:46+00:00,1,11.2,True,0,2,1,143,0,0,0,MERGED
+1636,Improve git installation instructions,belandJibo,2017-10-18T14:41:05Z,2017-10-19T04:57:15+00:00,1,14.27,True,2,2,1,12,0,0,0,MERGED
+1627,Minor fixes (proposal),kant,2017-10-06T04:54:16Z,2019-09-28T03:45:25+00:00,2,17326.85,True,2,2,1,0,0,2,2,MERGED
+1625,Fall back to .node-version if it exists,philsturgeon,2017-10-05T16:49:06Z,2023-08-22T04:07:32+00:00,16,51515.31,False,61,16,6,157,7,12,19,CLOSED
+1624,Add a Git .mailmap with my new name,mgol,2017-10-04T10:56:24Z,2017-10-04T18:04:22+00:00,1,7.13,True,1,0,1,55,3,0,3,MERGED
+1622,"In README.md, added installation note regarding shells other than bash",silviubogan,2017-09-29T23:46:16Z,2017-10-03T08:11:01+00:00,2,80.41,False,3,0,1,0,0,1,1,CLOSED
+1613,Enhance nvm debug with more tools info,PeterDaveHello,2017-09-19T07:54:47Z,2017-09-22T06:17:26+00:00,2,70.38,True,9,5,1,8,1,0,1,MERGED
+1612,Alternative way of encountering .nvmrc - lazily load nvm if the node …,nicholasf,2017-09-14T07:12:15Z,2020-11-20T05:15:41+00:00,1,27910.06,False,22,0,1,17,0,0,0,CLOSED
+1607,Also unset NVM_RC_VERSION when unloading,zeorin,2017-09-07T14:53:18Z,2017-09-08T06:32:04+00:00,1,15.65,True,1,1,1,104,0,0,0,MERGED
+1606,[Docs] Update README.md for Alpine linux reference,PeterDaveHello,2017-09-07T10:03:57Z,2017-09-08T06:33:37+00:00,1,20.49,True,1,1,1,150,0,0,0,MERGED
+1605,[Fix] install.sh shouldn't use not existed variable,PeterDaveHello,2017-09-07T09:53:26Z,2017-10-04T05:23:48+00:00,16,643.51,True,5,2,1,348,2,5,7,MERGED
+1597,remove npm dependency for prefix check,wzrdtales,2017-08-26T20:22:21Z,2021-09-29T05:36:24+00:00,8,35865.23,False,28,16,3,58,13,4,17,CLOSED
+1585,Update on how to install and use specific version of node,dominictobias,2017-08-05T22:04:54Z,2017-08-06T11:19:52+00:00,1,13.25,False,7,0,1,136,1,0,1,CLOSED
+1581,Add example .nvmrc file to docs,danielyaa5,2017-07-21T18:35:21Z,2017-12-17T00:42:06+00:00,3,3558.11,False,7,0,1,168,5,1,6,CLOSED
+1579,[New] Clean up git reflog history before git gc,PeterDaveHello,2017-07-13T16:41:01Z,2017-07-20T06:03:50+00:00,1,157.38,True,3,0,1,187,0,0,0,MERGED
+1578,[New] Print $TERM_PROGRAM in nvm debug if it exists,PeterDaveHello,2017-07-12T22:18:29Z,2017-07-14T06:00:06+00:00,5,31.69,True,3,0,1,132,0,1,1,MERGED
+1576,[New] Add `--auto` to git gc to speed up install & upgrade,PeterDaveHello,2017-07-11T01:23:45Z,2017-07-13T06:52:50+00:00,1,53.48,True,1,1,1,357,2,0,2,MERGED
+1575,[Docs] Fix typos in Docker instructions,PeterDaveHello,2017-07-08T10:56:11Z,2017-07-11T07:59:00+00:00,1,69.05,True,3,3,1,0,0,0,0,MERGED
+1574,updated to reflect current script output,QuinnMallorry,2017-07-08T06:32:29Z,2017-07-11T08:32:39+00:00,1,74.0,True,2,1,1,0,6,0,6,MERGED
+1569,[readme] reorganize “deeper shell integration” instructions,benwiley4000,2017-06-29T18:23:44Z,2023-12-05T05:59:33+00:00,3,56387.6,True,26,28,1,0,4,1,5,MERGED
+1567,"[Fix] Adjust $CURL_COMPRESSED_FLAG usage for curl, fix #1562",PeterDaveHello,2017-06-27T09:17:19Z,2017-06-28T07:08:48+00:00,1,21.86,True,2,2,1,0,0,0,0,MERGED
+1566,Added 'or Linux' to **Note:**,itsmikeferrari,2017-06-26T19:24:49Z,2017-07-11T08:16:14+00:00,2,348.86,True,8,1,1,212,0,1,1,MERGED
+1564,Remove undocumented command clear-cache from bash auto-completion,PeterDaveHello,2017-06-23T06:24:37Z,2017-06-26T05:25:27+00:00,1,71.01,True,2,1,1,0,0,0,0,MERGED
+1557,"[Fix] curl should fail if something wrong, fix #1556",PeterDaveHello,2017-06-14T03:00:02Z,2017-06-14T06:41:37+00:00,2,3.69,True,2,1,1,438,2,0,2,MERGED
+1554,fix: use $() to precompute clang version,JLHwung,2017-06-13T05:15:51Z,2017-06-13T06:17:01+00:00,1,1.02,True,1,1,1,299,1,0,1,MERGED
+1550,Curl --compressed handling,JLHwung,2017-06-10T08:42:08Z,2017-06-13T05:25:56+00:00,4,68.73,True,81,3,3,115,3,4,7,MERGED
+1542,Update README.md - usage with Docker,ORESoftware,2017-06-01T18:30:08Z,2025-02-03T18:13:01+00:00,1,67295.71,False,8,0,1,65,2,0,2,CLOSED
+1539,bump the sample version numbers,capaj,2017-06-01T14:47:27Z,2017-06-17T19:05:12+00:00,2,388.3,True,6,5,1,77,0,1,1,MERGED
+1538,Fix `--version` help text,bevacqua,2017-06-01T13:07:25Z,2017-06-01T21:20:10+00:00,1,8.21,True,1,1,1,163,0,0,0,MERGED
+1529,[Tests] Fix cache for WITHOUT_CURL tests in Travis,PeterDaveHello,2017-05-19T06:00:25Z,2017-05-21T05:51:58+00:00,1,47.86,True,1,1,1,48,0,0,0,MERGED
+1528,[Fix] Fix sed syntax error in nvm_command_info(),PeterDaveHello,2017-05-19T06:00:07Z,2018-04-23T21:07:03+00:00,5,8151.12,True,9,1,2,0,9,1,10,MERGED
+1517,[Refactor] Speedup nvm_list_aliases() / `nvm ls`,PeterDaveHello,2017-04-27T14:02:52Z,2018-04-23T21:03:52+00:00,2,8671.02,True,33,16,1,827,13,0,13,MERGED
+1516,Additional fix for potentially unbound variables in bash strict mode,phanect,2017-04-27T14:01:43Z,2017-04-28T17:33:48+00:00,3,27.53,True,3,3,1,73,0,2,2,MERGED
+1511,"[Docs] Remove archlinux python tips in ""Problems""",PeterDaveHello,2017-04-23T15:33:54Z,2017-04-23T22:53:20+00:00,1,7.32,True,0,6,1,27,8,0,8,MERGED
+1500,"[Docs] Improve ""Problems"" README section readability",PeterDaveHello,2017-04-09T18:50:41Z,2017-04-13T23:51:09+00:00,3,101.01,True,8,8,1,0,0,1,1,MERGED
+1498,Speedup travis install src test,PeterDaveHello,2017-04-09T08:07:24Z,2017-04-13T04:49:22+00:00,4,92.7,True,3,1,2,37,1,1,2,MERGED
+1496,[WIP] Speedup travis install src test,PeterDaveHello,2017-04-09T05:14:00Z,2017-04-09T07:06:47+00:00,1,1.88,False,2,1,2,8,1,1,2,CLOSED
+1495,[Tests] Separate shellcheck in Travis CI to speedup,PeterDaveHello,2017-04-09T03:12:38Z,2018-03-02T03:25:04+00:00,1,7848.21,False,22,8,1,98,6,0,6,CLOSED
+1494,"Test ""make release""",PeterDaveHello,2017-04-09T03:00:54Z,2017-04-09T07:46:55+00:00,7,4.77,True,11,1,2,101,6,3,9,MERGED
+1492,Rename README.markdown to README.md,piperchester,2017-04-08T16:19:35Z,2017-04-26T07:13:17+00:00,2,422.89,True,3,3,4,77,1,0,1,MERGED
+1491,README: fix typo,piperchester,2017-04-08T16:16:59Z,2017-04-09T06:27:18+00:00,1,14.17,True,2,2,2,0,1,0,1,MERGED
+1490,manual install update,rouzbeh84,2017-04-06T23:24:19Z,2017-04-12T05:33:22+00:00,3,126.15,True,19,7,1,324,0,2,2,MERGED
+1489,[Tests] Re-enable WITHOUT_CURL tests,PeterDaveHello,2017-04-06T06:54:18Z,2017-04-07T06:42:42+00:00,1,23.81,True,8,8,1,35,7,0,7,MERGED
+1487,Fix nvm curl libz support,PeterDaveHello,2017-04-05T21:26:15Z,2017-04-06T06:41:56+00:00,3,9.26,True,4,4,1,86,1,1,2,MERGED
+1486,"[Refactor] minor ""if"" and ""return"" improvement",PeterDaveHello,2017-04-05T19:58:29Z,2017-04-08T07:47:58+00:00,6,59.82,True,34,47,1,0,0,2,2,MERGED
+1485,[Docs] Improve nvm usage examples,PeterDaveHello,2017-04-05T16:36:34Z,2017-04-06T06:04:42+00:00,1,13.47,True,22,16,1,59,0,0,0,MERGED
+1480,[Refactor] Reduce a sed command with pipe,PeterDaveHello,2017-04-04T21:05:11Z,2017-04-05T05:38:38+00:00,1,8.56,True,1,2,1,0,0,0,0,MERGED
+1479,[New] Parallel script download jobs in install script,PeterDaveHello,2017-04-04T20:55:47Z,2017-04-06T06:08:21+00:00,9,33.21,True,6,2,1,0,2,3,5,MERGED
+1478,add 'fnm' as part of the fish alternatives,yanick,2017-04-04T19:02:09Z,2017-04-05T05:43:33+00:00,1,10.69,True,1,0,1,0,0,0,0,MERGED
+1477,[Refactor] Improve profile detection in install script,PeterDaveHello,2017-04-03T15:07:23Z,2017-04-05T05:51:58+00:00,1,38.74,True,17,13,1,36,0,0,0,MERGED
+1476,[New] Speedup process to install nvm from git by dropping commit history,PeterDaveHello,2017-04-02T09:27:21Z,2017-07-10T02:43:09+00:00,1,2369.26,True,3,3,1,141,19,0,19,MERGED
+1475,[Tests] Reduce apt package dependencies calculation complexity,PeterDaveHello,2017-04-02T08:31:42Z,2017-04-03T05:11:41+00:00,1,20.67,True,3,2,1,0,0,0,0,MERGED
+1473,"[Test] ""nvm alias"" lts test bug fix",PeterDaveHello,2017-04-02T06:35:44Z,2017-04-06T06:06:22+00:00,11,95.51,True,2,0,1,104,0,1,1,MERGED
+1472,[New] Introduce Docker environment for nvm,PeterDaveHello,2017-04-02T01:08:22Z,2017-06-28T07:10:19+00:00,9,2094.03,True,153,0,3,44,21,4,25,MERGED
+1471,[Tests] Print all shell version in Travis CI,PeterDaveHello,2017-04-01T23:34:19Z,2021-09-29T06:06:26+00:00,5,39390.54,True,3,0,1,0,0,1,1,MERGED
+1470,[Tests] Remove ppa source since we migrated to Ubuntu Trusty,PeterDaveHello,2017-04-01T23:26:05Z,2017-04-02T03:02:57+00:00,1,3.61,True,0,2,1,131,4,0,4,MERGED
+1468,"[Refactor] Improve if condition logic in ""use""",PeterDaveHello,2017-03-29T17:30:10Z,2017-03-30T07:24:51+00:00,1,13.91,True,3,5,1,0,0,0,0,MERGED
+1467,[New] Add missing commands in bash_completion,PeterDaveHello,2017-03-29T10:14:43Z,2017-03-30T23:50:45+00:00,3,37.6,True,2,2,1,0,1,1,2,MERGED
+1466,"[Tests] Comment out ksh dependency installation, cc #574",PeterDaveHello,2017-03-29T10:05:40Z,2017-03-30T07:18:26+00:00,1,21.21,True,1,1,1,12,1,0,1,MERGED
+1465,Update README.markdown and LICENSE.md,PeterDaveHello,2017-03-29T09:54:47Z,2017-03-31T07:14:12+00:00,1,45.32,True,2,2,2,40,0,0,0,MERGED
+1464,[Docs] Remove curl `--compressed` notes since we added its detection,PeterDaveHello,2017-03-29T09:52:15Z,2017-03-30T07:23:38+00:00,1,21.52,True,0,2,1,0,0,0,0,MERGED
+1463,Add support for ~/nvm/default-packages file,westonganger,2017-03-28T16:42:25Z,2017-04-28T23:27:10+00:00,14,750.75,True,186,6,7,387,22,22,44,MERGED
+1462,[Refactor] Reduce one more `sed` & pipe in `nvm ls` to speedup,PeterDaveHello,2017-03-28T15:45:51Z,2019-01-21T00:16:16+00:00,2,15920.51,True,2,2,1,169,10,0,10,MERGED
+1461,[Docs] Update issue #900 title in README.markdown,PeterDaveHello,2017-03-28T14:48:12Z,2017-03-30T01:49:31+00:00,1,35.02,True,1,1,1,56,0,0,0,MERGED
+1460,[New] Add nvm_sed() & nvm_awk(),PeterDaveHello,2017-03-28T08:10:13Z,2017-03-29T08:38:23+00:00,1,24.47,False,60,52,1,0,6,0,6,CLOSED
+1459,[Refactor] Make the code a little bit cleaner,PeterDaveHello,2017-03-28T07:28:29Z,2017-03-28T19:33:23+00:00,3,12.08,True,3,6,1,0,0,1,1,MERGED
+1458,[Tests] Move to Ubuntu 14.04 on Travis CI,PeterDaveHello,2017-03-27T18:04:19Z,2017-03-30T06:14:31+00:00,1,60.17,True,1,0,1,118,10,0,10,MERGED
+1456,"Remove nospace in bash_completion, space is helpful",PeterDaveHello,2017-03-25T22:12:39Z,2017-03-28T07:48:19+00:00,6,57.59,True,1,1,1,0,0,1,1,MERGED
+1455,Improve npm in ci,PeterDaveHello,2017-03-25T09:00:16Z,2017-03-26T00:44:43+00:00,7,15.74,True,3,2,1,31,1,3,4,MERGED
+1454,[Tests] Improve npm dependencies installation in travis ci,PeterDaveHello,2017-03-23T19:46:49Z,2017-03-24T06:38:33+00:00,6,10.86,True,2,4,1,0,0,3,3,MERGED
+1453,[New] Supercharge `nvm debug` output,PeterDaveHello,2017-03-23T07:00:47Z,2017-03-27T01:11:22+00:00,11,90.18,True,81,1,2,64,3,4,7,MERGED
+1452,Issue template update,PeterDaveHello,2017-03-23T06:15:07Z,2017-03-23T20:17:42+00:00,1,14.04,True,1,1,1,100,3,0,3,MERGED
+1449,Update .gitattributes,PeterDaveHello,2017-03-22T20:53:26Z,2017-03-23T07:15:38+00:00,7,10.37,True,2,1,1,0,0,1,1,MERGED
+1448,[Docs] Update CONTRIBUTING.md,PeterDaveHello,2017-03-22T20:47:27Z,2017-03-22T22:01:38+00:00,3,1.24,True,7,2,1,80,0,1,1,MERGED
+1447,Update .npmignore,PeterDaveHello,2017-03-22T20:38:38Z,2017-03-23T05:49:01+00:00,2,9.17,True,0,4,1,0,3,0,3,MERGED
+1443,Improve readability & complexity by nvm_has_not_aliased_exec(),PeterDaveHello,2017-03-20T21:07:00Z,2017-03-22T07:02:58+00:00,4,33.93,True,56,28,2,0,0,2,2,MERGED
+1442,Improve sed usage for performance,PeterDaveHello,2017-03-20T20:57:14Z,2017-03-21T18:26:52+00:00,1,21.49,True,2,2,1,0,3,0,3,MERGED
+1441,Improve awk usage for performance,PeterDaveHello,2017-03-20T20:24:29Z,2017-03-22T05:57:17+00:00,6,33.55,True,3,3,1,0,2,2,4,MERGED
+1439,[Tests] Add retry on urchin setup which has no built in retry feature,PeterDaveHello,2017-03-19T22:24:29Z,2017-03-22T21:02:35+00:00,2,70.64,True,1,1,1,357,3,1,4,MERGED
+1438,Use awk's comparison to save a pipe to grep,PeterDaveHello,2017-03-19T20:51:00Z,2017-03-22T06:29:36+00:00,1,57.64,True,1,3,1,0,2,0,2,MERGED
+1437,[New] Enable curl auto compression/decompression,PeterDaveHello,2017-03-19T20:23:04Z,2017-03-23T19:26:13+00:00,1,95.05,True,66,5,5,785,24,0,24,MERGED
+1434,[Fix] stop setting mirror env vars unnecessarily,mceachen,2017-03-17T06:57:09Z,2017-03-17T21:27:38+00:00,6,14.51,True,19,14,2,11,2,3,5,MERGED
+1431,[Docs] Update Installation section,PeterDaveHello,2017-03-15T20:29:29Z,2017-03-19T07:00:53+00:00,4,82.52,True,1,3,1,254,0,2,2,MERGED
+1430,[Fix] declare MANPATH if and only if it's not set,PeterDaveHello,2017-03-15T20:16:34Z,2017-03-19T06:59:25+00:00,2,82.71,True,1,1,1,347,11,0,11,MERGED
+1427,README typo fix,ialexryan,2017-03-13T10:16:37Z,2017-03-14T06:40:44+00:00,1,20.4,True,1,1,1,0,1,0,1,MERGED
+1424,[Tests] Update test mocks,PeterDaveHello,2017-03-10T10:03:28Z,2017-03-11T19:41:19+00:00,1,33.63,True,136,10,10,0,0,0,0,MERGED
+1422,"[New] Support `--no-progress` for `nvm install`, close #1079",PeterDaveHello,2017-03-09T17:11:27Z,2018-05-02T04:18:04+00:00,17,10043.11,True,70,5,2,11,16,8,24,MERGED
+1421,[Refactor] nvm.sh minor refactor,PeterDaveHello,2017-03-09T15:11:24Z,2017-03-15T06:09:03+00:00,4,134.96,True,3,4,1,0,0,2,2,MERGED
+1420,[Fix] Github should be GitHub,PeterDaveHello,2017-03-09T15:02:36Z,2017-03-11T19:42:38+00:00,1,52.67,True,2,2,2,0,0,0,0,MERGED
+1419,"[Docs] Add missing ""--copy-packages-from"" info for nvm install",PeterDaveHello,2017-03-09T14:51:24Z,2017-03-11T20:35:03+00:00,1,53.73,False,7,0,2,0,0,1,1,CLOSED
+1417,nvm: remove libressl command support,DomT4,2017-03-08T13:05:36Z,2017-03-11T19:40:00+00:00,1,78.57,True,2,9,1,276,1,0,1,MERGED
+1415,fix open string in line 784,zhirzh,2017-03-07T00:19:59Z,2017-03-19T07:03:10+00:00,4,294.72,True,1,1,1,73,0,1,1,MERGED
+1408,"Introduce doctoc for ""Table of Content"" generate",PeterDaveHello,2017-02-26T17:42:49Z,2017-03-01T08:57:06+00:00,8,63.24,True,36,24,3,301,2,6,8,MERGED
+1403,Enable working without tput.,jdalton,2017-02-20T03:34:34Z,2017-02-21T01:58:53+00:00,2,22.41,True,3,1,1,116,1,1,2,MERGED
+1397,Add CII best practices badge,ypid,2017-02-12T10:01:17Z,2017-02-18T08:52:46+00:00,1,142.86,True,1,1,1,136,0,0,0,MERGED
+1392,Update README.markdown for latest instructions to use with `fish` shell,vviikk,2017-02-02T16:01:44Z,2017-03-13T00:08:47+00:00,3,920.12,False,4,4,1,74,0,1,1,CLOSED
+1387,[Doc] Address symbolic link issue in `nvm_die_on_prefix` error message,MrOrz,2017-01-18T06:19:36Z,2021-10-04T05:58:00+00:00,1,41279.64,False,3,1,2,82,3,1,4,CLOSED
+1381,Use $HOME variable in NVM_DIR,DesignByOnyx,2017-01-12T18:32:32Z,2017-01-13T07:59:00+00:00,4,13.44,True,2,2,2,12,9,1,10,MERGED
+1378,Only `nvm install` if we can't `nvm use`,lukechilds,2017-01-04T14:47:47Z,2017-01-05T17:35:12+00:00,3,26.79,True,3,1,1,14,2,1,3,MERGED
+1376,"clarifying that verifying nvm is installed, you need to type in a new…",waiholiu,2017-01-02T13:01:19Z,2017-01-02T21:39:03+00:00,3,8.63,False,1,1,1,8,0,1,1,CLOSED
+1375,bash_completion fixes,PeterDaveHello,2017-01-01T10:15:54Z,2017-03-15T06:51:48+00:00,10,1748.6,True,34,6,3,828,2,2,4,MERGED
+1371,try to use realpath to find nvm's dir,jchip,2016-12-29T09:55:13Z,2017-01-13T01:07:57+00:00,1,351.21,False,27,1,1,10,10,0,10,CLOSED
+1369,enhance nvm-exec,jchip,2016-12-29T00:38:02Z,2017-01-13T01:07:48+00:00,1,360.5,False,77,7,1,208,0,0,0,CLOSED
+1364,Add GitHub issue template,PeterDaveHello,2016-12-25T18:47:08Z,2016-12-25T19:58:11+00:00,3,1.18,True,15,0,1,31,2,2,4,MERGED
+1360,Use awk for reliable path stripping,umireon,2016-12-23T08:31:05Z,2021-09-29T19:45:59+00:00,2,41795.25,True,13,7,2,702,21,0,21,MERGED
+1357,fix zsh node version autochange not installing node version,butlerx,2016-12-19T12:02:33Z,2017-01-05T17:35:12+00:00,4,413.54,True,3,1,1,0,5,2,7,MERGED
+1348,"[Fix] Install failed should return correct exit status, fix #1347",PeterDaveHello,2016-12-09T16:21:38Z,2017-03-18T07:20:59+00:00,7,2366.99,True,17,14,1,9,14,9,23,MERGED
+1343,[readme] Add quick intro to `nvm`,alnorris,2016-12-06T15:14:19Z,2021-09-29T06:25:13+00:00,4,42183.18,True,24,0,1,81,0,2,2,MERGED
+1342,Post install hook,roberttod,2016-12-05T23:14:29Z,2017-04-26T12:59:48+00:00,1,3397.76,False,4,0,1,541,8,1,9,CLOSED
+1340,Readme indent,PeterDaveHello,2016-12-03T17:03:45Z,2016-12-04T01:49:56+00:00,1,8.77,True,10,10,1,0,1,0,1,MERGED
+1338,[Docs] Link version badge to the release page,PeterDaveHello,2016-12-02T11:37:30Z,2016-12-02T19:20:32+00:00,1,7.72,True,2,1,1,167,0,0,0,MERGED
+1336,Tune CC and CXX assignment,PeterDaveHello,2016-11-28T14:39:09Z,2016-12-02T08:05:01+00:00,23,89.43,True,18,9,1,0,1,6,7,MERGED
+1335,[Fix] nvm unload missed node_version_has_solaris_binary(),PeterDaveHello,2016-11-28T10:35:56Z,2016-11-29T01:58:15+00:00,1,15.37,True,1,0,1,0,0,0,0,MERGED
+1334,"[Fix] install from src should do ""nvm use"" before npm detection",PeterDaveHello,2016-11-27T20:28:41Z,2017-03-28T07:50:36+00:00,2,2891.37,False,1,1,1,282,16,0,16,CLOSED
+1333,Fix nvm unload,PeterDaveHello,2016-11-27T20:17:27Z,2016-11-27T22:13:58+00:00,1,1.94,True,5,3,1,0,0,0,0,MERGED
+1332,"[Refactor] Use ""case"" instead of multi ""if""",PeterDaveHello,2016-11-27T19:41:40Z,2016-11-30T07:36:55+00:00,8,59.92,True,14,9,1,81,6,2,8,MERGED
+1330,[Docs] update readme for alpine,PeterDaveHello,2016-11-27T13:22:30Z,2016-11-27T19:16:24+00:00,1,5.9,True,3,3,1,0,2,0,2,MERGED
+1326,Rename NVM_CPU_THREADS to NVM_CPU_CORES,gibfahn,2016-11-24T18:08:57Z,2016-11-26T05:02:00+00:00,2,34.88,True,14,14,1,76,11,1,12,MERGED
+1325,[Tests] Create shellcheck.sh to handle shellcheck tests,PeterDaveHello,2016-11-24T08:53:43Z,2016-11-25T05:48:10+00:00,9,20.91,False,12,2,2,250,0,1,1,CLOSED
+1324,Shellcheck bash_completion,PeterDaveHello,2016-11-24T08:01:19Z,2016-11-25T05:42:31+00:00,5,21.69,True,8,8,2,0,0,1,1,MERGED
+1323,[Tests] Remove not working clang part until we refactor the workflow,PeterDaveHello,2016-11-24T06:40:11Z,2016-11-24T07:40:46+00:00,1,1.01,True,0,7,1,164,0,0,0,MERGED
+1322,Add missing backslash for dots,PeterDaveHello,2016-11-24T06:19:03Z,2016-11-25T05:44:11+00:00,9,23.42,True,4,4,3,0,0,1,1,MERGED
+1320,Use Cabal to install shellcheck and upgrade to shellcheck v0.4.5,PeterDaveHello,2016-11-23T14:05:16Z,2016-11-23T17:32:34+00:00,1,3.46,True,7,6,2,0,2,1,3,MERGED
+1319,update nvm.sh to detect number of cores on aix,gdams,2016-11-23T11:30:43Z,2016-11-27T22:04:01+00:00,17,106.56,True,1,1,1,142,4,1,5,MERGED
+1316,Preserve the order of PATH locations when changing node versions,zeorin,2016-11-21T10:00:06Z,2017-09-20T22:06:16+00:00,7,7284.1,True,66,35,4,497,3,1,4,MERGED
+1315,Respect previously nvm-loaded node version when re-sourcing,zeorin,2016-11-21T09:55:46Z,2018-06-10T06:32:59+00:00,7,13580.62,True,46,7,5,398,8,3,11,MERGED
+1312,Use `which` instead of `type` to detect if command exists,PeterDaveHello,2016-11-17T19:53:59Z,2017-06-13T07:43:23+00:00,1,4979.82,False,4,4,3,61,5,1,6,CLOSED
+1311,Optimize package install process on Travis CI,PeterDaveHello,2016-11-17T12:47:38Z,2016-11-17T18:06:12+00:00,1,5.31,True,9,2,1,285,0,0,0,MERGED
+1309,[Doc] Add current version on the top of README,PeterDaveHello,2016-11-16T13:23:29Z,2016-11-17T07:04:34+00:00,5,17.68,True,1,1,1,0,9,1,10,MERGED
+1308,Increase compatibility with direnv & lazy loading,zeorin,2016-11-14T19:38:45Z,2016-11-21T10:01:07+00:00,4,158.37,False,81,42,4,2256,8,1,9,CLOSED
+1306,"Auto install not exist version in zsh .nvmrc script, close #1272",PeterDaveHello,2016-11-14T11:46:22Z,2016-11-24T06:12:35+00:00,10,234.44,True,1,1,1,0,2,2,4,MERGED
+1301,"Revert ""Also run git gc after nvm upgraded""",PeterDaveHello,2016-11-13T22:22:43Z,2016-11-14T07:37:07+00:00,1,9.24,True,0,4,1,187,0,0,0,MERGED
+1300,"[New] Use Clang as C/C++ compiler if we detected it, close #902",PeterDaveHello,2016-11-13T21:40:52Z,2016-11-17T08:19:04+00:00,13,82.64,True,74,1,3,11,3,3,6,MERGED
+1299,Do not remove src dir after compilation,PeterDaveHello,2016-11-13T19:48:43Z,2016-11-16T07:23:57+00:00,13,59.59,True,6,6,1,343,3,3,6,MERGED
+1297,fix/retab indent in bash_completion [no-ci],PeterDaveHello,2016-11-11T11:44:33Z,2016-11-12T19:52:09+00:00,1,32.13,True,1,1,1,50,0,0,0,MERGED
+1296,"[Fix] add missing ""command"" prefix call for the commands",PeterDaveHello,2016-11-11T11:38:34Z,2016-11-13T17:28:44+00:00,2,53.84,True,15,15,2,0,7,14,21,MERGED
+1295,Add AIX support,gdams,2016-11-10T14:46:27Z,2016-11-10T21:41:58+00:00,2,6.93,True,21,3,1,175,10,5,15,MERGED
+1294,"Improve nvm_download_artifact() process, fix #1291",PeterDaveHello,2016-11-07T10:53:58Z,2016-11-12T20:17:54+00:00,17,129.4,True,26,18,1,67,1,7,8,MERGED
+1286,[New] Print the version is going to be installed,PeterDaveHello,2016-11-06T12:49:11Z,2016-11-07T07:18:17+00:00,4,18.48,True,7,0,2,862,6,3,9,MERGED
+1276,[Fix] Retab tab to 4 spaces in install.sh,PeterDaveHello,2016-10-28T03:23:57Z,2016-10-29T17:08:33+00:00,9,37.74,True,16,15,1,0,0,2,2,MERGED
+1275,"Bold leading ""Note:"" in readme for readability",PeterDaveHello,2016-10-28T03:13:02Z,2016-10-28T08:17:38+00:00,1,5.08,True,8,8,1,0,0,0,0,MERGED
+1274,Also run git gc after nvm upgraded,PeterDaveHello,2016-10-28T01:13:22Z,2016-10-28T21:08:47+00:00,1,19.92,True,4,0,1,0,0,0,0,MERGED
+1264,speed up when change directory in zsh,iamxiaobo,2016-10-13T14:43:22Z,2016-10-14T22:42:44+00:00,4,31.99,True,10,3,1,718,1,2,3,MERGED
+1259,[Tests] `nvm exec`/`nvm run`: add `--silent` tests,jumbosushi,2016-10-11T02:37:30Z,2025-02-04T17:31:51+00:00,4,72926.91,True,30,0,3,221,5,3,8,MERGED
+1248,update test mocks,PeterDaveHello,2016-09-28T08:35:28Z,2016-09-29T05:44:19+00:00,2,21.15,True,25,6,9,158,1,0,1,MERGED
+1234,add a menu for readme for easier readability,PeterDaveHello,2016-09-17T06:01:50Z,2016-09-18T08:15:56+00:00,4,26.23,True,23,0,1,62,0,2,2,MERGED
+1231,"Manually run git gc after nvm installation, fix #1226",PeterDaveHello,2016-09-17T00:53:26Z,2016-09-17T05:35:05+00:00,6,4.69,True,5,0,1,0,0,1,1,MERGED
+1225,Removes fin from the readme,ezuk,2016-09-13T14:25:24Z,2016-09-17T05:38:04+00:00,1,87.21,True,0,1,1,236,3,0,3,MERGED
+1061,[New] Add OpenBSD support,wujiang,2016-04-15T00:58:24Z,2021-10-08T06:56:42+00:00,1,48053.97,True,5,1,1,69,6,0,6,MERGED
+753,Install bash programmble completions for bash/zsh,PeterDaveHello,2015-05-23T06:14:53Z,2016-11-18T09:33:00+00:00,21,13083.3,True,25,4,1,0,9,11,20,MERGED

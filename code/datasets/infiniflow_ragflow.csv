@@ -149,3 +149,269 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 7572,Feat: Support tool calling in Generate component,notsyncing,2025-05-10T13:12:59Z,2025-05-16T08:32:19+00:00,3,139.32,True,625,61,28,1169,15,1,16,MERGED
 7549,Feat: add document enabled,LeiZhang-Hunter,2025-05-09T02:47:20Z,2025-05-09T04:20:07+00:00,1,1.55,True,23,0,1,377,0,0,0,MERGED
 7457,"fixed errror when vars of cnt begin  declare with key contain ""begin""",isthaison,2025-05-03T03:11:21Z,2025-05-06T06:39:22+00:00,2,75.47,True,1,1,1,301,0,1,1,MERGED
+7399,Fix: intermittent heartbeat reporting issue.,liuzhenghua,2025-04-29T02:56:02Z,2025-04-30T01:19:49+00:00,1,22.4,False,22,35,1,805,1,1,2,CLOSED
+7359,Docs: Initial editorial pass to MCP server,writinwaters,2025-04-27T12:19:53Z,2025-05-07T11:40:45+00:00,2,239.35,True,238,254,20,70,1,0,1,MERGED
+7330,fix: single task executor getting all tasks from Redis queue,wanpdsantos,2025-04-26T00:54:04Z,2025-06-06T06:32:35+00:00,1,989.64,True,5,4,1,884,2,1,3,MERGED
+7329,Fix mcp server startup failure,yiminghub2024,2025-04-25T19:38:57Z,2025-04-27T10:47:12+00:00,3,39.14,True,22,4,4,1151,5,1,6,MERGED
+7325,"Fix:When you create a new API module named xxxa_api, the access route will become xxx instead of xxxa. For example, when I create a new API module named 'data_api', the access route will become 'dat' instead of 'data",donblack01,2025-04-25T14:01:10Z,2025-05-20T01:39:26+00:00,1,587.64,True,2,1,2,439,0,1,1,MERGED
+7312,fix bug #7309 deepseek-ai/deepseek-vl2 model can not be select as a VL model to parse pdf image,QuintinTao,2025-04-25T07:38:29Z,2025-05-08T03:24:39+00:00,4,307.77,True,32,2,1,514,1,2,3,MERGED
+7251,Fix: mcp server start,treywelsh,2025-04-23T21:15:26Z,2025-04-24T02:52:12+00:00,1,5.61,True,1,1,1,540,1,0,1,MERGED
+7242,chore: adds pre-commit,wanpdsantos,2025-04-23T11:37:59Z,2025-04-24T03:25:33+00:00,1,15.79,True,33,7,8,414,0,0,0,MERGED
+7211,Added a RAPTOR guide,writinwaters,2025-04-22T11:23:29Z,2025-04-22T12:56:30+00:00,1,1.55,True,78,0,2,70,0,0,0,MERGED
+7185,v0.18.0 release notes,writinwaters,2025-04-22T03:15:25Z,2025-04-23T02:41:59+00:00,1,23.44,True,20,2,2,201,0,0,0,MERGED
+7163,Docs: add mcp self-host mode,yongtenglei,2025-04-21T07:17:45Z,2025-04-22T02:03:38+00:00,4,18.76,True,43,9,1,131,0,2,2,MERGED
+7151,Fix: whole knowledge graph lost after removing any document in the knowledge base,alkscr,2025-04-20T10:34:32Z,2025-04-30T01:43:17+00:00,7,231.15,True,137,70,4,566,5,2,7,MERGED
+7141,Docs: MCP server,yongtenglei,2025-04-18T11:30:56Z,2025-04-21T01:42:32+00:00,1,62.19,True,162,0,1,99,0,1,1,MERGED
+7140,Feat: Adds OpenSearch2.19.1 as the vector_database support,pyyuhao,2025-04-18T08:15:56Z,2025-04-24T08:03:34+00:00,2,143.79,True,865,0,10,1485,12,1,13,MERGED
+7124,Feat: Markdown add image,Woody-Hu,2025-04-17T23:20:19Z,2025-04-25T10:35:30+00:00,1,179.25,True,121,19,4,230,15,1,16,MERGED
+7073,feat: Recover pending tasks while pod restart.,liuzhenghua,2025-04-16T06:36:59Z,2025-04-19T08:18:52+00:00,5,73.7,True,92,2,2,629,2,4,6,MERGED
+7048,Fix: knowledge graph resolution with infinity raise error tokenizing in specific situations,alkscr,2025-04-15T12:18:21Z,2025-04-17T08:15:22+00:00,2,43.95,True,1,0,1,869,0,1,1,MERGED
+6977,docs: update Docker build commands to specify platform as linux/amd64,wanpdsantos,2025-04-11T12:24:50Z,2025-04-14T02:07:39+00:00,1,61.71,True,28,28,7,536,0,0,0,MERGED
+6904,Added a guide on setting chat variables,writinwaters,2025-04-09T09:00:19Z,2025-04-09T11:32:25+00:00,1,2.54,True,199,86,24,70,0,0,0,MERGED
+6859,fix RAGFlowPdfParser AttributeError: 'PdfReader' object has no attribute 'close' err,gsmini,2025-04-07T14:44:21Z,2025-04-14T01:40:14+00:00,4,154.93,True,25,21,1,2847,3,2,5,MERGED
+6852,Bug Fix (there is issue while multiple cells has same content ),dongaiqin,2025-04-07T08:57:55Z,2025-04-14T01:47:27+00:00,1,160.83,False,9,1,1,236,0,1,1,CLOSED
+6836,"Fix:When parsing documents with graph, an error occurred:[ERROR][Exception]: 'method'",caiming100,2025-04-07T01:57:44Z,2025-04-07T04:29:25+00:00,1,2.53,True,2,2,1,362,0,0,0,MERGED
+6812,Fix: improve Dockerfile build for China,zonefile,2025-04-04T04:48:25Z,2025-04-07T03:58:46+00:00,2,71.17,True,32,11,2,805,0,1,1,MERGED
+6805,Miscellaneous editorial updates,writinwaters,2025-04-03T12:13:23Z,2025-04-07T01:33:55+00:00,2,85.34,True,54,41,17,70,0,0,0,MERGED
+6737,update some setting to README_zh.md,WKRZY,2025-04-02T01:35:00Z,2025-04-03T14:12:50+00:00,3,36.63,True,7,3,1,213,0,3,3,MERGED
+6691,fix: Resolve KnowledgeGraph entity resolution errors (#6653),Yue-Lyu123,2025-03-31T10:00:39Z,2025-03-31T14:31:35+00:00,9,4.52,True,5,6,3,824,0,4,4,MERGED
+6645,Added a guide on setting page rank.,writinwaters,2025-03-28T10:44:05Z,2025-03-31T03:44:18+00:00,4,65.0,True,122,120,12,70,0,1,1,MERGED
+6566,Consolidate entrypoint to support broader deployment scenarios,wanpdsantos,2025-03-26T09:45:35Z,2025-03-28T04:39:34+00:00,1,42.9,True,129,54,3,731,2,0,2,MERGED
+6553,Feat: Improve 'user_canvan_version' delete and 'document' delete performance,Woody-Hu,2025-03-26T08:12:58Z,2025-05-07T02:55:11+00:00,3,1002.7,True,33,4,4,233,1,3,4,MERGED
+6527,Fix: python_api_reference.md update dataset bug,zstar1003,2025-03-25T16:56:49Z,2025-03-26T09:30:09+00:00,1,16.56,True,1,0,1,323,0,0,0,MERGED
+6521,fix: inject config when use oss,pj1987111,2025-03-25T13:03:44Z,2025-04-30T01:21:05+00:00,2,852.29,False,1,0,1,306,5,1,6,CLOSED
+6469,Fix: Resolve FlowSetting not reading Title from .ts files,Sci-fiBrain,2025-03-24T11:30:46Z,2025-03-25T03:07:29+00:00,1,15.61,True,18,3,3,158,0,0,0,MERGED
+6463,Refa: enhancement: enhance the prompt of related_question API,yongtenglei,2025-03-24T09:38:49Z,2025-03-25T02:00:11+00:00,2,16.36,True,208,116,2,127,0,1,1,MERGED
+6423,Fix: split process bug in graphrag extract ,utopia2077,2025-03-22T18:53:16Z,2025-03-24T13:41:20+00:00,1,42.8,True,16,9,2,247,0,0,0,MERGED
+6413,Fix ratelimit errors during document parsing,fansir,2025-03-21T13:48:20Z,2025-03-22T15:07:04+00:00,5,25.31,True,83,15,1,578,3,3,6,MERGED
+6370,Fix: multiple top-level packages error in Python project,fansir,2025-03-21T00:56:28Z,2025-03-21T10:44:49+00:00,1,9.81,True,3,0,1,604,1,0,1,MERGED
+6355,Feat: extend S3 storage compatibility and add knowledge base ID prefix,RedBookOfMemory,2025-03-20T12:04:00Z,2025-03-31T08:09:43+00:00,4,260.1,True,81,12,4,317,2,2,4,MERGED
+6351,"Chore: unify Ruff config and enable async checks (ASYNC, TRIO)",yongtenglei,2025-03-20T11:07:25Z,2025-03-20T14:31:18+00:00,1,3.4,True,12,1,2,134,0,0,0,MERGED
+6327,Feat: Add user registration toggle feature,liwenju0,2025-03-20T07:18:17Z,2025-03-21T01:38:16+00:00,2,18.33,True,75,3,10,552,7,1,8,MERGED
+6292,Fix: multiple top-level packages error in Python project,fansir,2025-03-19T13:52:07Z,2025-03-21T01:00:31+00:00,2,35.14,False,112,1,2,589,2,1,3,CLOSED
+6268,Docs: Update accelerate_doc_indexing.mdx,BIC-QA,2025-03-19T05:41:47Z,2025-03-19T10:04:04+00:00,1,4.37,True,2,2,1,102,0,0,0,MERGED
+6207,Fix: add support for non-stream response with session.ask_without_stream,Nalkey,2025-03-18T04:10:50Z,2025-03-18T06:20:19+00:00,1,2.16,True,31,17,2,545,1,0,1,MERGED
+6200,"Added a model unloading feature to save memory, supporting selective …",liwenju0,2025-03-18T02:58:51Z,2025-04-24T03:49:51+00:00,8,888.85,False,4248,1462,83,431,3,2,5,CLOSED
+6173,Feat: add vision LLM PDF parser,yongtenglei,2025-03-17T09:38:45Z,2025-03-18T06:52:20+00:00,3,21.23,True,410,99,7,134,0,3,3,MERGED
+6130,Feat: support agent version history.,isthaison,2025-03-15T16:48:47Z,2025-03-19T07:22:54+00:00,2,86.57,True,362,7,11,479,15,1,16,MERGED
+6110,Fix: update link of deploy_local_llm.mdx,jingfelix,2025-03-14T09:38:49Z,2025-03-17T01:35:38+00:00,1,63.95,True,2,2,1,341,0,0,0,MERGED
+6094,Miscellaneous UI updates,writinwaters,2025-03-14T08:02:41Z,2025-03-17T06:17:34+00:00,3,70.25,True,49,28,17,113,0,0,0,MERGED
+6074,Doc: update launch from source.,KevinHuSh,2025-03-14T04:03:22Z,2025-03-14T06:20:18+00:00,1,2.28,True,8,2,1,76,0,1,1,MERGED
+6052,Doc: Update readme document,zmxccxy,2025-03-13T15:57:36Z,2025-03-17T01:51:13+00:00,3,81.89,True,32,0,8,118,8,10,18,MERGED
+5990,"Improve API Documentation, Standardize Error Handling, and Enhance Comments",PStarH,2025-03-12T11:12:38Z,2025-03-13T11:06:50+00:00,4,23.9,True,591,24,8,507,0,2,2,MERGED
+5972,Feat: add OCR's muti-gpus and parallel processing support,debugdoctor,2025-03-12T08:20:26Z,2025-03-17T03:58:40+00:00,1,115.64,True,157,48,5,436,4,0,4,MERGED
+5941,Fix:signal.SIGUSR1 and signal.SIGUSR2 can't use in window. so don't bind signal.SIGUSR1 and signal.SIGUSR2 in the windows env,donblack01,2025-03-11T13:11:18Z,2025-03-12T01:43:20+00:00,1,12.53,True,10,4,1,376,0,1,1,MERGED
+5890,Add docs for tag sets,writinwaters,2025-03-11T04:03:46Z,2025-03-11T05:57:37+00:00,5,1.9,True,150,45,11,83,0,4,4,MERGED
+5815,Fix: KGSearch.retrieval() got an unexpected keyword argument,yihong0618,2025-03-10T01:44:57Z,2025-03-13T02:49:26+00:00,2,73.07,False,11,4,1,118,4,2,6,CLOSED
+5778,Fix: bugs mentioned by#5760,zky001,2025-03-07T10:41:31Z,2025-03-10T01:44:18+00:00,1,63.05,True,17,5,1,178,0,1,1,MERGED
+5757,Feat: login page supports to hide the registration button through environment variables.,hitechbeijing,2025-03-07T06:33:33Z,2025-03-14T07:26:01+00:00,3,168.87,False,189,193,5,79,13,2,15,CLOSED
+5697,Feat: add OCR's muti-gpus and parallel processing support,debugdoctor,2025-03-06T04:40:59Z,2025-03-08T13:41:23+00:00,5,57.01,True,150,60,5,160,6,4,10,MERGED
+5626,Fix: image file can't preview,hjlarry,2025-03-05T02:16:30Z,2025-03-05T03:30:41+00:00,1,1.24,True,45,1,2,325,0,0,0,MERGED
+5461,DOCS: amend docker image building page and more hints for mac users,yongtenglei,2025-02-28T02:27:19Z,2025-02-28T06:46:22+00:00,1,4.32,True,33,1,1,132,0,0,0,MERGED
+5407,ci: remove may expand into attacker-controllable code,yihong0618,2025-02-26T14:19:01Z,2025-02-27T02:20:04+00:00,1,12.02,True,1,4,1,1259,0,0,0,MERGED
+5397,Refa: shorten the code so that Resonse generates the appropriate header,isthaison,2025-02-26T10:33:54Z,2025-03-04T03:39:56+00:00,9,137.1,False,310,117,3,101,5,5,10,CLOSED
+5390,Miscelleneous editorial updates,writinwaters,2025-02-26T09:15:26Z,2025-02-26T11:03:50+00:00,1,1.81,True,59,82,19,70,0,0,0,MERGED
+5374,DOCS: add OpenAI-compatible http and python api reference,yongtenglei,2025-02-26T06:37:49Z,2025-02-26T07:52:26+00:00,1,1.24,True,223,15,3,122,0,5,5,MERGED
+5200,"Added a guide on running a retrieval test, with and without knowledge graph",writinwaters,2025-02-20T10:57:46Z,2025-02-21T11:36:20+00:00,1,24.64,True,114,21,9,70,0,0,0,MERGED
+5126,Feat: add data type invoke,isthaison,2025-02-19T06:35:00Z,2025-02-27T08:15:33+00:00,1,193.68,True,39,13,5,244,1,1,2,MERGED
+5073,Support downloading models from ModelScope Community.,yrk111222,2025-02-18T06:54:27Z,2025-02-24T02:12:20+00:00,4,139.3,True,30,3,9,173,0,1,1,MERGED
+5065,add option Embed into webpage,isthaison,2025-02-18T02:16:40Z,2025-02-18T05:41:20+00:00,5,3.41,True,63,2,4,29,0,3,3,MERGED
+5017,Iframe should support input variables,gstrat88,2025-02-16T19:37:16Z,2025-02-19T20:07:28+00:00,2,72.5,False,23,12,3,411,0,1,1,CLOSED
+5013,Feat: add LLM provider PPIO,saikidev,2025-02-16T12:39:50Z,2025-02-17T04:03:26+00:00,1,15.39,True,138,1,8,155,0,0,0,MERGED
+4990,Rewrite Support specified language or language according to initial question,isthaison,2025-02-15T04:31:45Z,2025-02-17T05:33:43+00:00,4,49.03,True,74,25,5,68,0,1,1,MERGED
+4978,Added a graphrag guide,writinwaters,2025-02-14T10:15:41Z,2025-02-18T05:42:06+00:00,1,91.44,True,86,9,8,70,0,1,1,MERGED
+4769,Add DeepSeek model support with base URL configuration,qczone,2025-02-07T09:13:22Z,2025-02-08T06:03:56+00:00,1,20.84,False,8,2,1,301,1,0,1,CLOSED
+4739,Preparation for release.,KevinHuSh,2025-02-06T04:09:20Z,2025-02-06T07:15:13+00:00,1,3.1,True,253,242,21,70,0,0,0,MERGED
+4700,Config chat share,isthaison,2025-02-03T10:24:24Z,2025-02-07T02:35:49+00:00,3,88.19,True,41,21,7,17,0,4,4,MERGED
+4687,Reverted build slim image documentation,safipatel,2025-01-30T23:43:29Z,2025-02-05T02:35:08+00:00,1,122.86,True,2,2,1,351,0,0,0,MERGED
+4674,Fix: pt_br translation and adding pt to knoledg-add,henriquelca,2025-01-28T13:01:21Z,2025-02-05T10:20:25+00:00,2,189.32,True,6,1,4,244,0,1,1,MERGED
+4661,Update FAQ,JinHai-CN,2025-01-27T03:35:36Z,2025-01-27T04:56:48+00:00,1,1.35,True,1,1,1,81,0,1,1,MERGED
+4656,Added description of the Iteration component,writinwaters,2025-01-26T08:43:55Z,2025-01-27T02:12:23+00:00,9,17.47,True,83,6,4,70,0,7,7,MERGED
+4615,refactor: better vertical alignment for icon and text in some setting buttons,vndee,2025-01-23T13:25:25Z,2025-01-26T02:36:03+00:00,1,61.18,True,22,15,2,544,0,0,0,MERGED
+4600,Added document: Accelerate document indexing and retrieval,writinwaters,2025-01-23T03:55:16Z,2025-01-24T03:58:15+00:00,4,24.05,True,55,4,4,70,0,2,2,MERGED
+4560,Added descriptions of the Note and Template components,writinwaters,2025-01-21T08:35:37Z,2025-01-21T11:51:30+00:00,3,3.26,True,74,3,4,70,0,1,1,MERGED
+4526,Added descriptions of Rewrite and Switch components. To be continued,writinwaters,2025-01-17T11:46:42Z,2025-01-20T07:56:21+00:00,10,68.16,True,146,4,5,70,0,7,7,MERGED
+4496,Fix: the Display when the knowledge base empty.,limengning,2025-01-15T13:39:16Z,2025-01-16T02:27:45+00:00,1,12.81,True,1,1,1,100,0,0,0,MERGED
+4469,Feat: add gpustack model provider,alexcodelf,2025-01-13T12:49:17Z,2025-01-15T06:15:59+00:00,1,41.45,True,159,3,12,801,1,0,1,MERGED
+4468,Update description,JinHai-CN,2025-01-13T12:36:10Z,2025-01-14T10:35:07+00:00,1,21.98,True,6,6,2,141,0,0,0,MERGED
+4416,Added descriptions of the retrieval agent component,writinwaters,2025-01-08T11:44:42Z,2025-01-09T02:11:05+00:00,2,14.44,True,86,9,6,70,0,0,0,MERGED
+4404,fix:t_recognizer TypeError: 'super' object is not callable,michaelice,2025-01-07T12:36:06Z,2025-01-08T02:59:35+00:00,2,14.39,True,5,4,2,177,0,2,2,MERGED
+4399,Added generate component description,writinwaters,2025-01-07T10:10:33Z,2025-01-07T11:56:11+00:00,1,1.76,True,146,6,3,70,0,0,0,MERGED
+4364,Use LTS polars to resolve some machines don't support AVX CPU flag,JinHai-CN,2025-01-06T09:07:18Z,2025-01-06T10:52:18+00:00,1,1.75,True,450,579,2,262,0,0,0,MERGED
+4308,chrome extensions,isthaison,2024-12-31T08:53:28Z,2025-01-03T02:15:37+00:00,3,65.37,True,423,0,16,67,3,2,5,MERGED
+4206,Add user_id for third-party system to record sessions.,KevinHuSh,2024-12-24T06:43:03Z,2024-12-24T07:59:11+00:00,1,1.27,True,60,27,5,130,0,7,7,MERGED
+4193,Update progress time info,JinHai-CN,2024-12-23T11:24:55Z,2024-12-23T13:04:44+00:00,1,1.66,True,2,2,2,107,0,0,0,MERGED
+4131,Update the  component of the agent API with parameters.,Feiue,2024-12-19T11:02:10Z,2024-12-20T09:34:16+00:00,1,22.54,True,147,180,8,229,0,1,1,MERGED
+4116,Refactor ask decorator,JinHai-CN,2024-12-19T07:41:00Z,2024-12-19T10:13:33+00:00,2,2.54,True,138,99,2,84,0,2,2,MERGED
+4099,add typo locale,isthaison,2024-12-18T09:17:19Z,2024-12-19T05:34:11+00:00,1,20.28,True,1,0,1,11,0,0,0,MERGED
+4084,Add huqie trie to docker image.,KevinHuSh,2024-12-18T05:13:13Z,2024-12-18T06:19:43+00:00,1,1.11,True,3,1,2,73,0,1,1,MERGED
+4077,Prepare docs for v0.15.0 release,KevinHuSh,2024-12-18T02:22:02Z,2024-12-18T07:32:15+00:00,1,5.17,True,86,68,17,70,0,0,0,MERGED
+4075,update chinese model warning message,benquike,2024-12-17T12:48:35Z,2024-12-18T03:16:31+00:00,2,14.47,True,1,1,1,126,0,1,1,MERGED
+4056,Added release notes for v0.15.0,writinwaters,2024-12-17T06:44:19Z,2024-12-18T07:46:31+00:00,3,25.04,True,52,13,7,70,1,3,4,MERGED
+4033,show avatar dialog instead of default,isthaison,2024-12-13T12:20:31Z,2024-12-17T09:29:35+00:00,3,93.15,True,159,12,14,98,10,2,12,MERGED
+3996,Fix bugs in agent api and update api document,Feiue,2024-12-11T11:51:33Z,2024-12-13T02:25:52+00:00,3,38.57,True,351,57,9,206,0,3,3,MERGED
+3995,UI updates + RAGFlow image description,writinwaters,2024-12-11T11:39:57Z,2024-12-12T01:57:52+00:00,1,14.3,True,76,77,11,70,0,0,0,MERGED
+3985,Add mssql support,isthaison,2024-12-11T06:47:56Z,2024-12-12T11:26:44+00:00,3,28.65,True,440,319,10,97,4,2,6,MERGED
+3983,Try to reuse existing chunks,yuzhichang,2024-12-11T04:41:24Z,2024-12-12T08:38:03+00:00,1,27.94,True,240,83,7,150,0,0,0,MERGED
+3981,Update comment,JinHai-CN,2024-12-11T03:03:22Z,2024-12-11T10:39:13+00:00,1,7.6,True,3,1,3,201,0,3,3,MERGED
+3979,Update api documents,Feiue,2024-12-11T02:16:09Z,2024-12-11T04:38:57+00:00,1,2.38,True,144,1003,2,91,0,0,0,MERGED
+3966,Fixed retrieval TypeError: unhashable type: 'list',yuzhichang,2024-12-10T09:26:29Z,2024-12-10T10:28:56+00:00,1,1.04,True,5,4,1,151,0,0,0,MERGED
+3944,Fix bugs in agent and chat completion,Feiue,2024-12-09T11:31:08Z,2024-12-10T02:04:59+00:00,1,14.56,False,39,23,3,146,0,1,1,CLOSED
+3942,Miscellaneous updates,writinwaters,2024-12-09T11:05:55Z,2024-12-10T02:19:50+00:00,1,15.23,True,41,35,10,70,0,0,0,MERGED
+3941,api http  return error,isthaison,2024-12-09T10:09:41Z,2024-12-10T01:04:24+00:00,1,14.91,True,1,1,1,101,0,1,1,MERGED
+3848,Add sdk for list agents and sessions,Feiue,2024-12-04T04:15:51Z,2024-12-04T08:23:22+00:00,1,4.13,True,1332,7,8,145,0,0,0,MERGED
+3837,Email sending tool,kunkeji,2024-12-03T11:31:08Z,2024-12-04T03:21:17+00:00,1,15.84,True,426,0,12,404,0,1,1,MERGED
+3796,Fix: page_chars attribute does not exist in some formats of PDF,cyhasuka,2024-12-02T07:01:27Z,2024-12-03T03:08:06+00:00,3,20.11,True,6,2,1,268,0,1,1,MERGED
+3791,Update document: how upload file large than 128MB,JinHai-CN,2024-12-02T04:35:43Z,2024-12-02T06:37:37+00:00,3,2.03,True,5,6,2,80,0,1,1,MERGED
+3787,Improved ollama doc,yuzhichang,2024-12-02T03:17:17Z,2024-12-02T09:28:31+00:00,2,6.19,True,40,37,1,103,0,0,0,MERGED
+3770,add jina new models in jina connector,devMls,2024-11-30T10:31:27Z,2024-12-02T02:06:40+00:00,1,39.59,True,38,2,3,196,0,0,0,MERGED
+3725,Fix the issue where the agent interface cannot call the context,kunkeji,2024-11-28T10:58:44Z,2024-11-29T02:36:48+00:00,4,15.63,True,0,2,1,343,4,4,8,MERGED
+3722,Ensure thumbnail be smaller than 64K,yuzhichang,2024-11-28T10:08:33Z,2024-11-28T11:15:31+00:00,3,1.12,True,30,7,1,150,0,2,2,MERGED
+3720,Update version info to v0.14.1,JinHai-CN,2024-11-28T09:43:28Z,2024-11-28T12:09:20+00:00,2,2.43,True,33,33,14,101,0,0,0,MERGED
+3719,Fix error response,KevinHuSh,2024-11-28T08:52:43Z,2024-11-28T10:56:10+00:00,1,2.06,True,7,1,3,100,0,1,1,MERGED
+3691,Added release notes for v0.13.0,writinwaters,2024-11-27T09:10:03Z,2024-11-27T11:26:03+00:00,1,2.27,True,53,9,6,70,0,1,1,MERGED
+3677,Common: Support import the exist file in object storage.,baifachuan,2024-11-27T02:27:22Z,2025-02-18T01:19:43+00:00,1,1990.87,False,424,7,17,245,3,1,4,CLOSED
+3662,Fix enable/disable bug,Feiue,2024-11-26T10:34:55Z,2024-11-27T01:37:11+00:00,3,15.04,True,1,1,1,277,0,3,3,MERGED
+3603,Update quickstart.mdx,RomanMazyrin,2024-11-22T20:34:25Z,2024-11-23T07:27:13+00:00,2,10.88,True,4,4,1,117,0,1,1,MERGED
+3586,Fix: Solve the problem of model files in the image being soft links pointing to a non-existent address. #3584,YANGBoSunning,2024-11-22T06:31:48Z,2024-11-22T13:54:39+00:00,1,7.38,True,1,1,1,210,0,0,0,MERGED
+3568,Theme switch support,isthaison,2024-11-21T13:05:08Z,2024-12-10T03:42:04+00:00,2,446.62,True,1032,511,85,93,29,0,29,MERGED
+3549,Vietnamese language support on web,isthaison,2024-11-21T03:35:26Z,2024-11-21T10:43:08+00:00,2,7.13,True,1066,6,10,239,1,0,1,MERGED
+3536,Updated FAQ,writinwaters,2024-11-20T11:52:00Z,2024-11-21T05:24:20+00:00,9,17.54,False,624,243,30,70,2,8,10,CLOSED
+3502,Fix bugs,JinHai-CN,2024-11-19T14:25:04Z,2024-11-20T01:31:36+00:00,4,11.11,True,54,46,3,229,0,3,3,MERGED
+3491,fix(rag): knowledge base searche error,jiyegege,2024-11-19T08:26:15Z,2024-11-19T12:33:48+00:00,1,4.13,False,1,1,1,1983,6,1,7,CLOSED
+3472,Add api for sessions and add max_tokens for tenant_llm,Feiue,2024-11-18T11:30:26Z,2024-11-19T06:51:33+00:00,1,19.35,True,401,67,21,163,0,0,0,MERGED
+3456,Fix document error,JinHai-CN,2024-11-18T02:52:36Z,2024-11-19T03:31:11+00:00,4,24.64,True,65,11,6,126,0,2,2,MERGED
+3411,Move clk100k_base tokenizer to docker image,JinHai-CN,2024-11-14T11:59:17Z,2024-11-15T02:18:40+00:00,1,14.32,True,15,4,4,125,0,1,1,MERGED
+3370,Added doc for switching elasticsearch to infinity,yuzhichang,2024-11-13T04:47:39Z,2024-11-13T16:08:57+00:00,13,11.36,True,157,62,15,180,0,9,9,MERGED
+3351,Fix the value issue of anthropic,shijiefengjun,2024-11-12T03:48:25Z,2024-11-13T08:13:53+00:00,2,28.42,True,3,3,2,500,2,1,3,MERGED
+3341,Dynamically create the service_conf.yaml file by replacing environment variables from .env,gschmutz,2024-11-11T20:18:52Z,2024-11-12T14:56:53+00:00,1,18.63,True,122,35,12,447,4,0,4,MERGED
+3315,feat: documentation updates to support Bahasa Indonesia,haddad9,2024-11-09T17:24:29Z,2024-11-11T11:33:23+00:00,2,42.15,True,341,0,1,148,0,0,0,MERGED
+3310,Update Dockerfile to support ARM64,MaximeDde,2024-11-08T13:52:58Z,2024-11-12T15:24:08+00:00,1,97.52,False,4,4,1,432,0,1,1,CLOSED
+3298,Update README.md,yangboz,2024-11-08T08:53:57Z,2024-11-11T01:42:51+00:00,3,64.81,False,1,1,1,377,0,1,1,CLOSED
+3274,Archivo ts con la traducción para el idioma español,wjimenez123,2024-11-07T14:25:22Z,2024-11-08T05:44:03+00:00,1,15.31,True,860,1,3,740,0,0,0,MERGED
+3272,Updated Docker README,writinwaters,2024-11-07T11:55:07Z,2024-11-08T01:22:40+00:00,1,13.46,True,20,19,1,70,0,0,0,MERGED
+3235,fix: improve embedding model validation logic for dataset operations,mohamedtawileh,2024-11-06T09:04:55Z,2024-11-07T02:36:29+00:00,1,17.53,True,11,22,1,809,0,2,2,MERGED
+3223,Editorial updates to Docker README,writinwaters,2024-11-05T11:58:14Z,2024-11-06T01:43:55+00:00,1,13.76,True,51,73,6,70,0,0,0,MERGED
+3220,Add sdk for Agent API,Feiue,2024-11-05T11:02:03Z,2024-11-06T10:03:45+00:00,1,23.03,True,546,92,7,136,0,1,1,MERGED
+3108,docs updates for 0.13 release,KevinHuSh,2024-10-30T09:29:21Z,2024-10-30T11:29:27+00:00,1,2.0,True,18,18,7,70,0,0,0,MERGED
+2969,[Bug]: unnecessary auto-increment calculations in the tokens statistics of the chat model,yqwang96,2024-10-22T06:59:24Z,2024-10-22T08:26:04+00:00,3,1.44,True,0,1,1,276,0,1,1,MERGED
+2901,DRAFT: Updated chunk APIs,writinwaters,2024-10-18T11:30:14Z,2024-10-18T12:56:33+00:00,4,1.44,True,231,142,2,70,0,3,3,MERGED
+2895,allowing docker container to access service on host,benquike,2024-10-18T07:23:36Z,2024-10-23T08:43:21+00:00,2,121.33,True,2,0,1,337,1,2,3,MERGED
+2872,Feature/feat1017,chongchuanbing,2024-10-17T01:56:07Z,2024-10-21T04:11:08+00:00,5,98.25,True,95,35,8,612,0,5,5,MERGED
+2855,Refactor Chunk API,Feiue,2024-10-15T11:51:56Z,2024-10-16T10:41:24+00:00,2,22.82,True,770,802,11,86,0,2,2,MERGED
+2848,Feat:Compatible with Dify's External Knowledge API,Howe829,2024-10-15T07:51:38Z,2024-10-15T09:47:24+00:00,4,1.93,True,85,0,3,251,3,2,5,MERGED
+2832,"Fix keys of Xinference deployed models, especially has the same model name with public hosted models.",0000sir,2024-10-14T11:45:41Z,2024-10-16T02:21:08+00:00,1,38.59,True,22,15,7,202,0,1,1,MERGED
+2803,fix chat and thumbnail bug,chongchuanbing,2024-10-11T04:44:08Z,2024-10-11T08:10:28+00:00,1,3.44,True,11,4,4,330,0,0,0,MERGED
+2795,fix: document preview,chongchuanbing,2024-10-11T01:36:40Z,2024-10-11T03:26:59+00:00,2,1.84,True,1,1,1,213,0,0,0,MERGED
+2785,Updated instructions on downloading RAGFlow Slim and RAGFlow all-in-one.,writinwaters,2024-10-10T08:58:41Z,2024-10-10T11:24:55+00:00,3,2.44,True,36,15,5,70,0,3,3,MERGED
+2783,Refactor Dataset API,Feiue,2024-10-10T07:17:41Z,2024-10-11T01:55:27+00:00,1,18.63,True,449,393,11,82,0,0,0,MERGED
+2780,modify adding-model in openai and azure-openai,JobSmithManipulation,2024-10-10T03:47:27Z,2024-10-10T07:27:14+00:00,1,3.66,False,138,71,10,178,0,1,1,CLOSED
+2775,Refactor README on different docker version.,JinHai-CN,2024-10-09T15:33:15Z,2024-10-10T07:30:32+00:00,6,15.95,True,33,12,2,149,0,16,16,MERGED
+2761,Docs:fix user guide links,Howe829,2024-10-09T06:47:27Z,2024-10-09T11:38:11+00:00,1,4.85,True,4,4,4,377,0,0,0,MERGED
+2758,fix xinference add rerank model bug,wangguo1230,2024-10-09T05:16:44Z,2024-10-09T11:37:11+00:00,2,6.34,True,4,2,1,153,0,1,1,MERGED
+2713,"HTTP API documents, part1",JinHai-CN,2024-10-04T05:36:24Z,2024-10-09T12:26:51+00:00,4,126.84,True,1167,0,1,166,0,4,4,MERGED
+2706,Updated Build Docker Image,writinwaters,2024-10-02T09:32:14Z,2024-10-02T11:43:22+00:00,1,2.19,True,74,97,6,70,0,1,1,MERGED
+2696,support sequence2txt and tts model in Xinference,JobSmithManipulation,2024-09-30T10:15:58Z,2024-10-08T02:43:18+00:00,1,184.46,True,112,38,5,75,0,1,1,MERGED
+2681,Simplify the usage of dict,yqkcn,2024-09-30T03:43:49Z,2024-09-30T08:54:25+00:00,1,5.18,True,6,10,1,281,3,1,4,MERGED
+2643,Fix logger error,yqkcn,2024-09-28T09:55:54Z,2024-09-29T01:49:59+00:00,1,15.9,True,4,5,1,181,0,0,0,MERGED
+2641,Add doc for dev image,yuzhichang,2024-09-28T07:32:15Z,2024-09-29T02:51:46+00:00,2,19.33,True,469,343,8,59,0,3,3,MERGED
+2639,Add get_txt function,yqkcn,2024-09-28T03:57:52Z,2024-09-29T02:29:56+00:00,1,22.53,True,52,88,8,107,0,1,1,MERGED
+2624,add huggingface model,JobSmithManipulation,2024-09-27T10:09:10Z,2024-09-27T11:15:38+00:00,2,1.11,True,120,13,9,114,0,2,2,MERGED
+2590,Added two developer guide and removed from README ' builder docker image' and 'launch service from source',writinwaters,2024-09-25T12:14:28Z,2024-09-26T08:15:57+00:00,11,20.02,True,205,385,13,70,0,12,12,MERGED
+2544,Updated README on debugging web and python,yuzhichang,2024-09-23T13:12:59Z,2024-09-24T03:46:03+00:00,5,14.55,True,79,157,5,113,0,7,7,MERGED
+2535,SparkTTS,Feiue,2024-09-23T04:52:09Z,2024-09-24T04:15:13+00:00,1,23.38,True,200,22,8,117,0,0,0,MERGED
+2491,Update README_zh.md,AlvinCage,2024-09-19T06:59:24Z,2024-09-20T02:22:47+00:00,2,19.39,True,1,1,1,307,0,1,1,MERGED
+2485,update document sdk,JobSmithManipulation,2024-09-19T02:29:30Z,2024-09-19T04:52:35+00:00,2,2.38,True,9,10,3,46,0,2,2,MERGED
+2445,update document sdk,JobSmithManipulation,2024-09-14T09:43:26Z,2024-09-18T03:08:19+00:00,3,89.41,True,348,58,5,108,0,3,3,MERGED
+2421,update sdk document and chunk,JobSmithManipulation,2024-09-13T10:40:31Z,2024-09-14T05:24:21+00:00,5,18.73,True,755,32,12,239,1,5,6,MERGED
+2413,add updates for README,KevinHuSh,2024-09-13T04:40:29Z,2024-09-13T06:31:04+00:00,1,1.84,True,5,5,4,70,0,0,0,MERGED
+2411,Initial draft of Create a General-purpose chatbot,writinwaters,2024-09-13T03:42:00Z,2024-09-13T09:21:03+00:00,1,5.65,True,104,2,2,70,0,0,0,MERGED
+2374,update sdk document,JobSmithManipulation,2024-09-11T11:48:28Z,2024-09-12T06:19:45+00:00,5,18.52,True,472,2,7,239,1,5,6,MERGED
+2365,Add RAGFlow benchmark,guoyuhao2330,2024-09-11T06:47:26Z,2024-09-12T08:57:23+00:00,1,26.17,False,138,26,1,156,0,1,1,CLOSED
+2357,Common: Support postgreSQL database as the metadata db.,baifachuan,2024-09-10T14:01:30Z,2024-09-12T07:12:39+00:00,5,41.19,True,89,12,5,245,4,2,6,MERGED
+2324,updates dead link,KevinHuSh,2024-09-09T07:01:24Z,2024-09-09T08:36:53+00:00,1,1.59,True,10,42,4,70,0,0,0,MERGED
+2312,SDK for session,Feiue,2024-09-09T03:06:08Z,2024-09-09T09:18:08+00:00,1,6.2,True,325,35,8,130,0,1,1,MERGED
+2293,Updated component descriptions,writinwaters,2024-09-06T11:46:58Z,2024-09-09T02:16:16+00:00,2,62.49,True,10,10,2,70,0,0,0,MERGED
+2221,Add Authorization checks,Feiue,2024-09-03T09:32:05Z,2024-09-04T02:36:15+00:00,1,17.07,True,84,30,5,139,0,1,1,MERGED
+2209,Add Authorization checks,Feiue,2024-09-03T04:36:04Z,2024-09-03T05:45:02+00:00,6,1.15,True,9,0,1,139,0,6,6,MERGED
+2171,Complete DataSet SDK implementation,Feiue,2024-08-30T03:56:34Z,2024-08-30T08:54:23+00:00,4,4.96,True,75,33,3,150,0,4,4,MERGED
+2159,add support for Voyage AI,hangters,2024-08-29T07:10:02Z,2024-08-29T08:14:49+00:00,1,1.08,True,141,5,9,147,0,1,1,MERGED
+2147,complete implementation of dataset SDK,Feiue,2024-08-29T02:11:37Z,2024-08-29T06:31:31+00:00,5,4.33,True,259,85,6,154,0,5,5,MERGED
+2110,create and update dataset,Feiue,2024-08-27T04:51:48Z,2024-08-27T07:23:50+00:00,21,2.53,True,149,184,6,163,0,21,21,MERGED
+2107,add tts api ,hangters,2024-08-27T03:51:29Z,2024-08-27T05:15:54+00:00,2,1.41,True,37,2,2,105,0,2,2,MERGED
+2095,add support for TTS model,hangters,2024-08-26T05:54:38Z,2024-08-26T07:19:44+00:00,2,1.42,True,338,7,23,141,0,2,2,MERGED
+2082,VolcEngine SDK V3 adaptation,yungongzi,2024-08-24T09:59:44Z,2024-08-26T05:34:29+00:00,1,43.58,True,44,96,7,550,1,0,1,MERGED
+2042,Fix component exesql bug,guoyuhao2330,2024-08-21T11:56:45Z,2024-08-22T02:19:22+00:00,4,14.38,True,7,4,3,100,0,4,4,MERGED
+2040,[Doc] Add Korean translation for README.md,RektPunk,2024-08-21T10:24:40Z,2024-08-22T04:33:01+00:00,2,18.14,True,338,3,4,198,0,0,0,MERGED
+2012,doc: fix zh and ja document type,aboutmydreams,2024-08-19T18:59:44Z,2024-08-20T10:49:11+00:00,1,15.82,True,22,14,2,307,0,0,0,MERGED
+1986,Add API to get doc info by doc ids,wingjson,2024-08-17T09:02:03Z,2024-08-19T02:02:31+00:00,1,41.01,True,13,0,1,202,0,1,1,MERGED
+1966,Add component ExeSQL,guoyuhao2330,2024-08-15T09:20:56Z,2024-08-16T04:36:53+00:00,1,19.27,True,153,0,6,114,0,1,1,MERGED
+1857,"Add GitHub, deepl, baidu-fanyi",guoyuhao2330,2024-08-07T11:33:10Z,2024-08-08T04:39:19+00:00,2,17.1,True,258,1,7,114,0,2,2,MERGED
+1827,add support for gpt-4o-mini,AAlexDing,2024-08-06T09:47:02Z,2024-08-08T04:30:41+00:00,2,42.73,True,13,1,1,136,0,2,2,MERGED
+1768,add support for eml file parser,hangters,2024-08-01T08:37:07Z,2024-08-06T08:42:15+00:00,2,120.09,True,178,28,12,146,0,2,2,MERGED
+1757,add support for eml file parser,hangters,2024-07-31T10:41:55Z,2024-08-01T08:17:14+00:00,3,21.59,False,0,0,0,140,0,3,3,CLOSED
+1737,"Add component google,Bing",guoyuhao2330,2024-07-29T09:26:30Z,2024-07-29T11:26:16+00:00,4,2.0,True,186,0,6,252,0,4,4,MERGED
+1734,Fix index=true,guoyuhao2330,2024-07-29T06:05:21Z,2024-07-29T11:19:54+00:00,22,5.24,True,192,135,1,246,0,22,22,MERGED
+1720,Fix: Embedding err when docx contains unsupported images,cyhasuka,2024-07-26T08:15:39Z,2024-07-29T11:38:47+00:00,2,75.39,True,11,4,1,195,0,1,1,MERGED
+1715,Fix docx parser line bug,guoyuhao2330,2024-07-26T03:40:25Z,2024-07-29T02:06:03+00:00,1,70.43,True,5,2,2,252,0,1,1,MERGED
+1686,add step-1v-8k cv model,bdss58,2024-07-24T04:55:04Z,2024-07-30T08:57:27+00:00,2,148.04,True,23,2,3,377,0,1,1,MERGED
+1655,Fix api reference empty bug,jiyegege,2024-07-23T10:04:15Z,2024-07-24T10:02:22+00:00,5,23.97,True,9,7,2,653,0,3,3,MERGED
+1652,fix: Fix for Empty Reference Array Causing Errors,iMyth,2024-07-23T09:28:58Z,2024-07-25T06:14:42+00:00,1,44.76,True,5,2,1,515,0,0,0,MERGED
+1647,fix redis no such key,Seaver-Zhu,2024-07-23T03:05:32Z,2024-07-23T06:00:31+00:00,3,2.92,True,10,5,2,128,0,3,3,MERGED
+1577,fix [Bug]: Field map won't update once document is deleted from knowl…,narendra-bluebash,2024-07-17T10:22:21Z,2024-07-17T12:03:58+00:00,1,1.69,False,2,2,1,479,0,1,1,CLOSED
+1556,API: Stop parsing,cecilia-uu,2024-07-17T02:41:37Z,2024-07-17T09:07:33+00:00,7,6.43,True,272,49,5,145,0,5,5,MERGED
+1531,load llm information from a json file and add support for OpenRouter,hangters,2024-07-16T06:00:28Z,2024-07-16T07:12:32+00:00,1,1.2,False,0,0,0,114,0,1,1,CLOSED
+1526,API Documentation,cecilia-uu,2024-07-16T02:38:31Z,2024-07-16T10:07:17+00:00,3,7.48,True,352,4,3,115,0,3,3,MERGED
+1504,API: show status of parsing,cecilia-uu,2024-07-15T02:42:26Z,2024-07-15T09:18:44+00:00,3,6.61,True,69,0,3,132,0,2,2,MERGED
+1470,added SVG for Groq model model providers,paresh2806,2024-07-11T10:02:41Z,2024-07-12T01:25:44+00:00,7,15.38,True,118,5,8,636,1,7,8,MERGED
+1444,API doc: Correct Base URL and Dataset URL.,cyhasuka,2024-07-09T08:28:38Z,2024-07-10T01:39:28+00:00,4,17.18,True,1,1,1,462,0,2,2,MERGED
+1378,Add Graph Baidusearch and dsl_example,guoyuhao2330,2024-07-04T10:53:03Z,2024-07-05T01:50:57+00:00,1,14.96,True,172,8,4,113,0,0,0,MERGED
+1377,API: start parsing,cecilia-uu,2024-07-04T08:54:59Z,2024-07-11T10:19:18+00:00,15,169.41,True,438,18,4,141,0,13,13,MERGED
+1354,API: Download doc api,cecilia-uu,2024-07-03T08:09:26Z,2024-07-04T08:33:55+00:00,2,24.41,True,138,18,4,135,0,1,1,MERGED
+1341,API: create update_doc method,cecilia-uu,2024-07-02T05:35:00Z,2024-07-03T07:14:34+00:00,2,25.66,True,473,116,4,151,0,2,2,MERGED
+1336,Doc: added doc for three doc methods,cecilia-uu,2024-07-01T11:36:12Z,2024-07-02T01:57:44+00:00,1,14.36,True,256,0,1,151,0,0,0,MERGED
+1327,API: created list_doc,cecilia-uu,2024-07-01T06:02:19Z,2024-07-01T10:15:00+00:00,7,4.21,True,410,244,7,147,0,6,6,MERGED
+1290,API: completed delete_doc api,cecilia-uu,2024-06-27T04:33:30Z,2024-06-28T06:27:57+00:00,6,25.91,True,151,8,3,157,0,6,6,MERGED
+1278,Support table for markdown file in general parser,aopstudio,2024-06-26T03:35:54Z,2024-06-27T06:38:35+00:00,2,27.04,True,80,4,3,169,1,1,2,MERGED
+1277,Fix occasional errors in pdf table recognition,aopstudio,2024-06-25T11:56:39Z,2024-06-27T06:37:58+00:00,2,42.69,True,1,1,1,147,0,1,1,MERGED
+1269,Add Intel IPEX-LLM setup under deploy_local_llm,lzivan,2024-06-25T02:30:55Z,2024-07-02T10:55:24+00:00,1,176.41,True,129,1,1,433,0,2,2,MERGED
+1219,polished doc for dataset API,cecilia-uu,2024-06-19T12:39:47Z,2024-06-20T11:02:03+00:00,3,22.37,True,142,13,1,89,0,3,3,MERGED
+1217,feat: support json file,chinamerp,2024-06-19T11:17:18Z,2024-06-21T02:42:29+00:00,1,39.42,True,126,1,4,185,0,1,1,MERGED
+1201,"created get_dataset, update_dataset API and fixed: delete",cecilia-uu,2024-06-18T08:04:40Z,2024-06-19T10:01:38+00:00,15,25.95,True,281,124,5,246,0,12,12,MERGED
+1188,[doc] RAGFlow's api key never expires,writinwaters,2024-06-17T09:04:07Z,2024-06-17T10:45:27+00:00,1,1.69,True,6,2,2,201,0,0,0,MERGED
+1160,refine doc about supporting PDF for Q&A,KevinHuSh,2024-06-14T07:22:59Z,2024-06-14T09:09:42+00:00,3,1.78,True,4,0,3,37,0,3,3,MERGED
+1138,create list_dataset api and tests,cecilia-uu,2024-06-12T13:05:24Z,2024-06-17T04:19:05+00:00,14,111.23,True,170,25,7,217,1,12,13,MERGED
+1106,API: create dataset,JinHai-CN,2024-06-09T13:33:43Z,2024-06-11T03:16:37+00:00,2,37.72,True,355,62,11,694,1,0,1,MERGED
+1071,Create_dataset HTTP API,cecilia-uu,2024-06-06T04:30:07Z,2024-06-11T05:51:45+00:00,20,121.36,False,241,5,4,189,1,12,13,CLOSED
+1066,Updated Ollama part of local deployment,writinwaters,2024-06-05T12:53:07Z,2024-06-07T01:06:46+00:00,4,36.23,True,138,55,6,75,0,3,3,MERGED
+1037,[doc] Updated document on max map count,writinwaters,2024-06-03T06:29:40Z,2024-06-03T09:01:02+00:00,5,2.52,True,115,115,6,201,1,3,4,MERGED
+1018,Update readme and add license,JinHai-CN,2024-05-31T10:01:39Z,2024-06-01T08:24:10+00:00,2,22.38,True,211,30,18,98,0,0,0,MERGED
+1014,Update README,JinHai-CN,2024-05-31T08:47:18Z,2024-05-31T09:53:06+00:00,1,1.1,True,12,9,1,201,0,0,0,MERGED
+997,Update README_zh.md，typo,ArtificialZeng,2024-05-30T09:10:39Z,2024-05-31T08:44:59+00:00,2,23.57,True,1,1,1,206,0,0,0,MERGED
+956,Update README,JinHai-CN,2024-05-28T09:31:58Z,2024-05-28T12:05:02+00:00,4,2.55,True,3,0,3,109,0,2,2,MERGED
+909,Bug fix for volcengine,yungongzi,2024-05-23T15:34:55Z,2024-05-24T03:34:39+00:00,1,12.0,True,8,6,2,238,0,0,0,MERGED
+908,Updated RESTful API Reference,writinwaters,2024-05-23T11:37:11Z,2024-05-27T10:34:16+00:00,14,94.95,True,237,132,6,201,3,10,13,MERGED
+901,Update README,JinHai-CN,2024-05-23T08:52:00Z,2024-05-24T00:30:08+00:00,1,15.64,True,3,0,3,109,0,0,0,MERGED
+894,Update api_md document/rm,guoyuhao2330,2024-05-23T03:17:37Z,2024-05-23T07:19:58+00:00,1,4.04,True,24,0,1,101,0,0,0,MERGED
+885,Add support for VolcEngine - the current version supports SDK2,yungongzi,2024-05-22T10:28:33Z,2024-05-23T03:15:29+00:00,2,16.78,True,315,8,10,803,5,0,5,MERGED
+860,Reorganized docs for docusaurus publish,writinwaters,2024-05-21T11:10:55Z,2024-05-21T12:53:55+00:00,10,1.72,True,713,660,19,201,0,9,9,MERGED
+856,Updated Launch service from source,writinwaters,2024-05-21T04:59:44Z,2024-05-21T08:43:59+00:00,4,3.74,True,81,70,1,105,0,1,1,MERGED
+836,Create start_chat.md,writinwaters,2024-05-19T14:01:13Z,2024-05-20T12:06:17+00:00,4,22.08,True,54,0,1,129,0,3,3,MERGED
+794,Initial draft of configure knowledge base,writinwaters,2024-05-15T13:14:24Z,2024-05-16T13:27:09+00:00,11,24.21,True,133,3,2,201,0,9,9,MERGED
+788,Added file management guide,writinwaters,2024-05-15T08:07:24Z,2024-05-15T12:02:42+00:00,3,3.92,True,79,0,1,142,0,0,0,MERGED
+743,Create quickstart.md,writinwaters,2024-05-12T15:01:28Z,2024-05-14T04:22:33+00:00,9,37.35,True,204,0,1,100,0,8,8,MERGED
+741,Update readme,JinHai-CN,2024-05-12T03:08:21Z,2024-05-12T05:40:47+00:00,1,2.54,True,35,34,3,85,0,0,0,MERGED
+707,docs: update README_ja.md,eltociear,2024-05-09T15:51:09Z,2024-05-10T03:22:40+00:00,1,11.53,True,1,1,1,201,0,0,0,MERGED
+694,Update README with Detailed WebUI Service Launch Instructions,cklogic,2024-05-09T05:36:25Z,2024-05-10T01:48:50+00:00,3,20.21,True,44,0,2,920,0,4,4,MERGED
+685,Update faq.md,guoyuhao2330,2024-05-08T11:34:54Z,2024-05-09T03:32:36+00:00,4,15.96,True,35,1,1,106,1,7,8,MERGED
+639,Update README badge,writinwaters,2024-05-04T03:14:54Z,2024-05-04T07:31:12+00:00,1,4.27,True,1,1,1,204,0,0,0,MERGED
+630,optimize srv broker and executor logic,fkzhao,2024-04-30T15:40:56Z,2024-05-07T03:43:33+00:00,2,156.04,True,414,300,20,594,5,1,6,MERGED
+619,docs: Add instructions for launching service from source,huangbaichao,2024-04-30T05:20:07Z,2024-04-30T10:45:53+00:00,1,5.43,True,180,0,3,571,0,0,0,MERGED
+515,Add Chinese readme for DeepDoc,bjliudong,2024-04-24T00:56:02Z,2024-04-24T04:20:57+00:00,1,3.42,True,116,1,1,285,0,0,0,MERGED
+489,Update conversation_api.md,selfuppen,2024-04-22T09:05:53Z,2024-04-24T04:21:14+00:00,1,43.26,True,1,1,1,320,0,0,0,MERGED
+481,Add an entry in Debugging section,zhentg,2024-04-22T06:09:09Z,2024-04-24T04:21:41+00:00,1,46.21,True,12,4,1,105,0,0,0,MERGED
+479,Adjust the structure of FAQ,yingfeng,2024-04-22T04:44:24Z,2024-04-22T08:51:28+00:00,2,4.12,True,144,58,1,37,0,8,8,MERGED
+466,The API for uploading files using the knowledge base name has been ad…,zhangyulei000,2024-04-19T11:45:10Z,2024-05-09T07:35:45+00:00,3,475.84,False,83,0,2,318,1,3,4,CLOSED
+425,add lf end-lines in `*.sh`,ooooo-create,2024-04-18T04:20:08Z,2024-04-18T09:17:54+00:00,1,4.96,True,7,5,2,261,0,0,0,MERGED
+414,Update table.py to convert clmns to string,yc-huang,2024-04-17T08:24:42Z,2024-04-17T11:48:11+00:00,2,3.39,True,2,2,1,1018,0,1,1,MERGED
+342,Create an .env variable for Server Listening port - to sync the setti…,zzecool,2024-04-12T10:53:17Z,2024-05-21T15:12:38+00:00,1,940.32,False,5,2,3,520,0,1,1,CLOSED

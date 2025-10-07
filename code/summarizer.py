@@ -2,6 +2,8 @@ import os
 import pandas as pd
 from glob import glob
 
+OUTPUT_DIR = 'results'
+
 
 def summarize_csvs(input_folder, output_file):
     csv_files = glob(os.path.join(input_folder, '*.csv'))
@@ -31,5 +33,5 @@ def summarize_csvs(input_folder, output_file):
 
 if __name__ == '__main__':
     input_folder = os.path.join(os.path.dirname(__file__), 'datasets')
-    output_file = os.path.join(os.path.dirname(__file__), 'summary.csv')
+    output_file = os.path.join(OUTPUT_DIR, 'summary.csv')
     summarize_csvs(input_folder, output_file)

@@ -149,3 +149,853 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 6624,fileserver: fix try_policy when instantiating file matcher from CEL,effleurager,2024-10-13T14:01:53Z,2024-10-20T14:08:30+00:00,1,168.11,True,24,1,3,189,3,0,3,MERGED
 6622,core: addresses.go funcs renames,MayCXC,2024-10-12T20:09:24Z,2024-10-21T14:02:30+00:00,1,209.88,True,31,41,3,1168,4,0,4,MERGED
 6621,reverseproxy: Use correct cases for websocket related headers,WeidiDeng,2024-10-11T07:19:55Z,2024-10-11T09:02:24+00:00,2,1.71,True,26,0,2,333,0,1,1,MERGED
+6616,caddyfile: Fix comma edgecase in address parsing,francislavoie,2024-10-10T01:18:25Z,2024-10-10T20:27:00+00:00,2,19.14,True,13,4,2,1012,1,0,1,MERGED
+6611,"caddytls: Drop `rate_limit` and `burst`, has been deprecated",francislavoie,2024-10-07T11:27:58Z,2024-10-07T21:39:48+00:00,1,10.2,True,7,89,7,116,1,0,1,MERGED
+6608,forwardauth: Skip copying missing response headers,francislavoie,2024-10-06T17:51:57Z,2024-11-04T21:58:53+00:00,1,700.12,True,267,34,3,647,0,0,0,MERGED
+6606,"metrics: move `metrics`  up, outside `servers`",mohammed90,2024-10-05T17:21:15Z,2024-10-18T15:54:22+00:00,2,310.55,True,102,13,8,215,7,0,7,MERGED
+6598,chore: Adjust incorrect `reverse_proxy` Caddyfile comment,francislavoie,2024-10-01T01:59:19Z,2024-10-01T16:56:30+00:00,1,14.95,True,3,4,1,45,0,0,0,MERGED
+6596,caddyhttp: Add `MatchWithError` to replace SetVar hack,francislavoie,2024-09-29T01:45:14Z,2024-11-04T23:18:50+00:00,17,885.56,True,536,202,16,1197,5,3,8,MERGED
+6594,"caddyhttp: Escaping placeholders in CEL, add `vars` and `vars_regexp`",francislavoie,2024-09-27T10:20:57Z,2024-10-02T12:34:04+00:00,5,122.22,True,276,58,11,2106,3,2,5,MERGED
+6593,"caddytls: Allow disabling storage cleaning, avoids writing two files",francislavoie,2024-09-27T09:08:48Z,2024-11-05T17:47:41+00:00,1,944.65,True,67,3,4,378,3,0,3,MERGED
+6591,caddytls: Give a better error message when given encrypted private keys,francislavoie,2024-09-25T07:59:40Z,2024-09-25T12:00:48+00:00,1,4.02,True,24,0,3,948,0,0,0,MERGED
+6590,caddyhttp: Optimize logs using zap's WithLazy(),AlliBalliBaba,2024-09-24T19:30:41Z,2024-09-26T18:23:12+00:00,1,46.88,True,5,3,1,751,5,0,5,MERGED
+6585,chore: Use slices package where possible,francislavoie,2024-09-21T06:32:56Z,2024-09-25T20:30:56+00:00,2,109.97,True,141,267,21,126,3,2,5,MERGED
+6582,update quic-go to v0.47.0,marten-seemann,2024-09-20T14:39:03Z,2024-09-20T21:00:13+00:00,1,6.35,True,6,6,2,83,0,0,0,MERGED
+6581,"quic: enable qlog, controlled by QLOGDIR env",marten-seemann,2024-09-20T14:36:59Z,2024-09-21T03:47:18+00:00,2,13.17,True,155,2,4,184,1,0,1,MERGED
+6573,Implement issue #6296 passing FDs / socket activation,MayCXC,2024-09-15T04:20:55Z,2024-09-30T16:55:03+00:00,3,372.57,True,925,343,21,927,13,2,15,MERGED
+6569,caddytls: Add sni_regexp matcher,vnxme,2024-09-11T21:06:06Z,2024-09-12T02:51:59+00:00,1,5.76,True,199,2,2,332,0,0,0,MERGED
+6567,reverseproxy: Rewrite requests and responses for websocket over http2,WeidiDeng,2024-09-10T02:48:55Z,2024-12-06T20:23:27+00:00,2,2105.58,True,88,13,2,220,14,0,14,MERGED
+6566,doc: remove docs of deprecated directives,mohammed90,2024-09-08T09:00:25Z,2024-09-29T09:12:52+00:00,2,504.21,True,2,8,1,75,1,1,2,MERGED
+6565,http: ReponseWriter prefer ReadFrom if available,WeidiDeng,2024-09-07T11:49:17Z,2024-10-01T17:19:04+00:00,1,581.5,True,6,2,1,9,1,0,1,MERGED
+6560,perf: use zap's Check() to prevent useless allocs,dunglas,2024-09-04T22:02:02Z,2024-09-13T17:16:37+00:00,5,211.24,True,599,282,30,1514,7,1,8,MERGED
+6558,fix(#6551): Unexpected behaviour if caddyhttp.Route is provisioned twice   ,jbro,2024-09-02T19:08:09Z,2024-09-03T17:57:55+00:00,1,22.83,True,3,0,1,10,0,0,0,MERGED
+6553,reverse_proxy: add placeholder http.reverse_proxy.retries,steffenbusch,2024-08-29T12:17:32Z,2024-08-30T17:53:56+00:00,3,29.61,True,4,0,1,1698,0,1,1,MERGED
+6543,Implement issue #6296 passing FDs / socket activation,MayCXC,2024-08-27T04:06:29Z,2024-09-15T03:45:39+00:00,7,455.65,False,885,368,22,1106,11,4,15,CLOSED
+6542,tls: use Go default kex for the moment that include PQC,bwesterb,2024-08-26T22:15:28Z,2024-08-27T23:08:16+00:00,5,24.88,True,19,25,4,564,4,2,6,MERGED
+6541,Performance: Prevents the zap logger from serializing the request in rewrite.go.,AlliBalliBaba,2024-08-26T21:30:42Z,2024-08-30T14:46:51+00:00,4,89.27,True,7,1,1,1751,6,1,7,MERGED
+6533,cmd: Use a factory to create the caddy root command,elee1766,2024-08-21T19:13:43Z,2024-08-22T03:29:42+00:00,4,8.27,True,97,61,4,489,0,2,2,MERGED
+6532,reverseproxy: Change logs for write errors to warn level,jum,2024-08-21T12:25:29Z,2024-08-21T17:39:20+00:00,1,5.23,True,1,1,1,584,1,0,1,MERGED
+6531,"metrics: scope metrics to active config, add optional per-host metrics",mohammed90,2024-08-20T20:28:52Z,2024-10-02T14:23:27+00:00,4,1025.91,True,365,66,12,682,6,1,7,MERGED
+6526,chore: build and test with Go 1.23,dunglas,2024-08-18T09:11:37Z,2024-08-23T17:01:28+00:00,7,127.83,True,20,16,8,181,1,3,4,MERGED
+6520,reverseproxy: Active health checks request body option,jbro,2024-08-15T12:43:46Z,2024-08-19T16:55:55+00:00,5,100.2,True,78,12,3,610,9,1,10,MERGED
+6519,ci: don't exit early on error in remote CI machine,mohammed90,2024-08-15T07:12:47Z,2024-08-18T09:54:13+00:00,1,74.69,True,1,0,1,249,4,0,4,MERGED
+6512,ignore exec.ErrDot when starting caddy in background,WeidiDeng,2024-08-12T00:43:05Z,2024-08-13T02:26:21+00:00,5,25.72,True,4,0,1,9,3,1,4,MERGED
+6510,Fix a regression in #6480: the context may have no replacer,vnxme,2024-08-11T19:58:58Z,2024-08-12T07:01:10+00:00,1,11.04,True,5,4,1,182,0,0,0,MERGED
+6507,Implement issue #6296 passing FDs / socket activation,MayCXC,2024-08-11T06:29:36Z,2024-08-18T18:22:58+00:00,7,179.89,False,0,0,0,577,14,3,17,CLOSED
+6504,reverseproxy: allow user to define source address,mohammed90,2024-08-10T11:58:08Z,2024-08-22T19:52:05+00:00,4,295.9,True,91,1,3,39,3,1,4,MERGED
+6502,fileserver: move `sort` to `browse`,lollipopkit,2024-08-10T05:22:30Z,2024-08-30T15:01:37+00:00,1,489.65,True,46,41,4,49,0,0,0,MERGED
+6500,go.mod: update update golang/x/net,WeidiDeng,2024-08-08T00:28:18Z,2024-08-08T01:52:51+00:00,1,1.41,True,21,21,2,112,0,0,0,MERGED
+6485,proxyprotocol: Update WrapListener to use ConnPolicyFunc for PROXY protocol,pi-prakhar,2024-07-29T17:22:48Z,2024-08-03T16:51:50+00:00,2,119.48,True,9,6,3,104,1,0,1,MERGED
+6480,Runtime placeholders for selected TLS and HTTP matchers,vnxme,2024-07-26T20:40:22Z,2024-08-07T17:02:23+00:00,4,284.37,True,57,41,5,581,1,1,2,MERGED
+6479,chore: update golangci config,mohammed90,2024-07-26T20:09:48Z,2024-07-27T23:20:09+00:00,1,27.17,True,10,4,1,69,0,0,0,MERGED
+6471,encode: flush already compressed data to the stream,WeidiDeng,2024-07-23T00:28:13Z,2024-07-27T23:46:57+00:00,1,119.31,True,9,0,1,0,0,0,0,MERGED
+6468,fileserver: add `sort` options,lollipopkit,2024-07-22T12:38:20Z,2024-08-05T14:27:45+00:00,7,337.82,True,103,4,5,207,2,5,7,MERGED
+6462,Caddyfile support for TLS connection and certificate selection policies,vnxme,2024-07-17T13:14:06Z,2024-07-24T17:01:06+00:00,1,171.78,True,251,1,2,229,0,0,0,MERGED
+6461,Caddyfile support for TLS handshake matchers,vnxme,2024-07-17T12:20:40Z,2024-07-24T15:26:10+00:00,6,171.09,True,103,0,1,353,5,2,7,MERGED
+6454,reverseproxy: Caddyfile support for health_method,jbro,2024-07-12T09:45:48Z,2024-07-12T21:01:58+00:00,2,11.27,True,53,0,2,256,2,0,2,MERGED
+6453,Add option to set which HTTP method to use for active health checks,jbro,2024-07-11T10:18:35Z,2024-07-11T13:24:13+00:00,6,3.09,True,9,1,1,600,3,1,4,MERGED
+6451,reverseproxy: add health_upstream subdirective,dylanschultzie,2024-07-09T22:45:17Z,2024-07-15T17:00:12+00:00,12,138.25,True,52,9,3,167,1,5,6,MERGED
+6450,reverseproxy: Add placeholder for networkAddr in active health check headers,dylanschultzie,2024-07-09T16:57:14Z,2024-07-09T18:08:25+00:00,4,1.19,True,3,3,1,408,1,2,3,MERGED
+6448,reverseproxy: Fix dynamic upstreams ip version,armadi1809,2024-07-09T00:20:17Z,2024-07-09T07:06:31+00:00,3,6.77,True,70,12,2,12,3,2,5,MERGED
+6443,browse: fix Content-Security-Policy warnings in Firefox,steffenbusch,2024-07-06T18:17:29Z,2024-07-07T12:56:47+00:00,1,18.66,True,1,1,1,1818,2,0,2,MERGED
+6440,reverseproxy: Add placeholder for host in active health check headers,francislavoie,2024-07-06T06:09:01Z,2024-07-06T16:43:20+00:00,1,10.57,True,1,0,1,108,0,0,0,MERGED
+6432,fix: don't compress already compressed fonts,dunglas,2024-07-03T09:18:02Z,2024-07-04T20:57:13+00:00,11,35.65,True,2,1,1,53,0,1,1,MERGED
+6429,fix: http.intercept.header.* placeholders,dunglas,2024-07-01T22:44:37Z,2024-07-03T14:43:13+00:00,1,39.98,True,8,3,2,182,0,0,0,MERGED
+6427,caddyhttp: Reject 0-RTT early data in IP matchers and set Early-Data header when proxying,mholt,2024-07-01T20:50:22Z,2024-07-05T16:46:21+00:00,8,91.93,True,90,6,5,993,8,3,11,MERGED
+6425,browse: add Content-Security-Policy w/ nonce,steffenbusch,2024-06-29T18:04:29Z,2024-07-06T16:46:08+00:00,3,166.69,True,49,24,1,837,4,1,5,MERGED
+6419,reverseproxy: Only log host is up status on change,klaxa,2024-06-23T12:15:27Z,2024-07-03T19:05:53+00:00,1,246.84,True,1,1,1,350,2,0,2,MERGED
+6412,"fileserver: Exclude symlink target size from total, show arrow on size",francislavoie,2024-06-19T22:00:35Z,2024-07-07T13:01:07+00:00,8,423.01,True,24,4,3,12,3,2,5,MERGED
+6411,replacer: `{file.*}` global placeholder strips trailing newline,steffenbusch,2024-06-19T15:54:34Z,2024-08-07T19:39:16+00:00,18,1179.74,True,21,0,4,11,4,3,7,MERGED
+6406,ci: prepare syso files for windows embedding in release,WeidiDeng,2024-06-19T02:12:46Z,2024-08-29T20:11:25+00:00,1,1721.98,True,4,1,1,0,0,0,0,MERGED
+6399,core: add modular `network_proxy` support,mohammed90,2024-06-14T23:21:11Z,2025-03-21T17:06:16+00:00,23,6713.75,True,347,12,8,1061,6,19,25,MERGED
+6398,reverseproxy: add Max-Age option to sticky cookie,JasonYuan869,2024-06-14T15:22:59Z,2024-06-15T13:50:31+00:00,3,22.46,True,25,0,1,15,1,2,3,MERGED
+6394,fileserver: Remove newline characters from precomputed etags,armadi1809,2024-06-13T18:11:26Z,2024-06-19T13:27:11+00:00,5,139.26,True,5,0,1,108,1,3,4,MERGED
+6391,logging: set file mode when the file already exist.,ririsoft,2024-06-12T16:06:05Z,2024-06-12T21:17:46+00:00,1,5.19,True,50,1,2,594,1,0,1,MERGED
+6388,reverseproxy: Allow `0` as weights for `weighted_round_robin`,peanutduck,2024-06-12T02:41:39Z,2024-11-07T23:02:33+00:00,6,3572.35,False,2,2,1,148,2,1,3,CLOSED
+6384,go.mod: update tscert package,willnorris,2024-06-08T15:21:55Z,2024-06-10T13:28:30+00:00,1,46.11,True,3,3,2,139,2,0,2,MERGED
+6383,fix file mode configuration parsing,ririsoft,2024-06-08T14:42:03Z,2024-06-08T17:34:18+00:00,1,2.87,True,44,0,2,129,0,0,0,MERGED
+6381,logging: Customizable `zapcore.Core`,kkroo,2024-06-08T08:21:47Z,2024-06-10T15:03:24+00:00,4,54.69,True,69,2,4,188,3,3,6,MERGED
+6378,Split `run` into a public `BuildContext` and a private part,ankon,2024-06-06T16:20:55Z,2024-06-06T20:36:06+00:00,2,4.25,True,62,43,1,4113,0,1,1,MERGED
+6370,cmd: remove zealous check of Caddyfile auto-detection,mohammed90,2024-06-04T06:55:59Z,2024-06-05T14:57:15+00:00,1,32.02,True,31,14,2,249,4,0,4,MERGED
+6368,Make it possible to configure the `DisableStorageCheck` setting for certmagic,ankon,2024-06-03T12:55:42Z,2024-06-04T13:00:15+00:00,3,24.08,True,11,0,1,712,0,1,1,MERGED
+6362,cmd: fix regression in auto-detect of Caddyfile,mohammed90,2024-06-02T06:21:25Z,2024-06-02T11:40:56+00:00,9,5.33,True,130,20,2,169,1,4,5,MERGED
+6360,caddyhttp: properly sanitize requests for root path,willnorris,2024-06-01T20:42:02Z,2024-06-02T03:40:59+00:00,1,6.98,True,19,11,2,1002,1,0,1,MERGED
+6356,cmd: fix auto-detetction of .caddyfile extension,mohammed90,2024-05-31T15:34:56Z,2024-06-02T03:49:38+00:00,1,36.24,True,12,3,1,9,10,0,10,MERGED
+6350,caddyhttp: Fix merging consecutive `client_ip` or `remote_ip` matchers,francislavoie,2024-05-30T07:37:48Z,2024-05-30T13:32:17+00:00,1,5.91,True,72,20,2,11,0,0,0,MERGED
+6345,acmeserver: Add `sign_with_root` for Caddyfile,Ranveer777,2024-05-27T18:46:06Z,2024-05-28T00:06:54+00:00,1,5.35,True,73,0,2,34,2,0,2,MERGED
+6343,reverse_proxy: apply keep-alive setting for h2c requests,WeidiDeng,2024-05-27T06:54:14Z,2024-08-08T12:53:31+00:00,1,1757.99,True,3,0,1,9,5,0,5,MERGED
+6340,core: MkdirAll appDataDir in InstanceID with 0o700,akovalenko,2024-05-25T16:01:22Z,2024-05-30T10:38:10+00:00,1,114.61,True,1,1,1,124,3,0,3,MERGED
+6339,caddyfile: Reject global request matchers earlier,francislavoie,2024-05-23T21:43:18Z,2024-05-24T02:06:17+00:00,1,4.38,True,29,1,2,11,0,0,0,MERGED
+6329,reverseproxy: add tls_server_cert_sha256,akovalenko,2024-05-20T16:56:07Z,2025-03-21T17:18:16+00:00,1,7320.37,False,53,0,2,359,4,1,5,CLOSED
+6328,caddytls: fix permission requirement with AutomationPolicy,willnorris,2024-05-19T07:41:12Z,2024-05-20T15:48:59+00:00,4,32.13,True,6,3,1,1509,3,1,4,MERGED
+6326,caddytls: remove ClientHelloSNICtxKey,willnorris,2024-05-19T01:42:46Z,2024-05-19T02:47:46+00:00,1,1.08,True,0,4,1,138,0,0,0,MERGED
+6324,caddytls: set SNI server name in context,willnorris,2024-05-17T22:32:41Z,2024-05-18T09:52:19+00:00,6,11.33,True,8,4,3,612,0,1,1,MERGED
+6320,matchers: support `null` value in expression matcher,mohammed90,2024-05-16T22:29:13Z,2025-04-17T19:57:28+00:00,1,8061.47,False,6,2,1,1277,4,1,5,CLOSED
+6318,chore: downgrade minimum Go version in go.mod,mohammed90,2024-05-15T09:35:42Z,2024-05-15T19:28:34+00:00,1,9.88,True,9,7,2,589,13,0,13,MERGED
+6314,logging: Allow setting log file permissions,ririsoft,2024-05-12T14:19:11Z,2024-06-06T14:33:34+00:00,16,600.24,True,426,2,3,677,15,6,21,MERGED
+6313,caddyhttp: Trace individual middleware handlers,mholt,2024-05-10T22:35:22Z,2024-05-18T20:48:43+00:00,1,190.22,True,41,35,5,3193,0,0,0,MERGED
+6311,Fix typos,szepeviktor,2024-05-10T08:29:21Z,2024-05-10T14:08:54+00:00,4,5.66,True,25,25,13,23,2,1,3,MERGED
+6310,chore: Bump Go version in CI,francislavoie,2024-05-10T06:14:49Z,2024-05-10T14:56:19+00:00,1,8.69,True,7,10,4,0,0,0,0,MERGED
+6308,tracing: add `http.vars.trace_id` placeholder,matthewpi,2024-05-08T18:48:09Z,2024-05-08T22:40:40+00:00,4,3.88,True,5,1,1,141,0,1,1,MERGED
+6307,reverseproxy: use pointer when loading modules and remove LazyCertPool,WeidiDeng,2024-05-08T14:07:49Z,2024-05-09T01:13:38+00:00,3,11.1,True,2,238,3,2398,7,0,7,MERGED
+6302,"reverseproxy: Stop following redirects in health checks by default, add `health_follow_redirects`",aliasgar55,2024-05-06T05:25:26Z,2024-05-07T14:40:15+00:00,9,33.25,True,23,1,2,10,1,7,8,MERGED
+6301,transport: fix proxy protocol initialization,mohammed90,2024-05-05T11:27:12Z,2024-05-07T02:02:12+00:00,1,38.58,True,20,14,1,13,2,0,2,MERGED
+6298,Allow usage of root CA without a key. Fixes #6290,apollo13,2024-05-03T18:52:43Z,2024-05-07T03:38:26+00:00,1,80.76,True,11,8,1,0,1,1,2,MERGED
+6297,Set the `ServerName` field in the ClientHelloInfo when it was unset and a default SNI name is configured,ankon,2024-05-03T11:46:11Z,2024-05-07T22:46:11+00:00,1,107.0,False,5,0,1,91,5,1,6,CLOSED
+6292,context: AppIfConfigured returns error; consider not-yet-provisioned modules,francislavoie,2024-05-02T16:35:26Z,2024-05-20T17:14:58+00:00,5,432.66,True,25,25,4,1306,4,1,5,MERGED
+6279,Add `per_host` option to `metrics` handler,hussam-almarzoq,2024-04-28T10:51:21Z,2024-10-02T14:26:35+00:00,1,3771.59,False,201,15,4,447,9,4,13,CLOSED
+6278,templates: Add `pathEscape` template function and use it in `browse.html`,DenebTM,2024-04-27T20:26:16Z,2024-05-18T18:55:36+00:00,2,502.49,True,15,1,3,220,1,0,1,MERGED
+6274,reverse_proxy: handle buffered data during hijack,WeidiDeng,2024-04-26T01:01:52Z,2024-04-26T15:09:18+00:00,1,14.12,True,13,0,2,63,1,0,1,MERGED
+6264,Caddyfile: Add support for the dynamic srv's grace_period option,armadi1809,2024-04-22T22:30:33Z,2024-04-23T13:12:57+00:00,3,14.71,True,48,1,2,12,2,1,3,MERGED
+6263,doc: add `verifier` in `ClientAuthentication` caddyfile marshaler doc,mohammed90,2024-04-22T22:09:07Z,2024-04-23T13:01:55+00:00,1,14.88,True,1,0,1,23,0,0,0,MERGED
+6253,caddytls: Add option to configure certificate lifetime,clauverjat,2024-04-19T17:05:21Z,2024-04-24T20:35:14+00:00,7,123.5,True,33,3,5,1083,5,3,8,MERGED
+6252,caddyhttp: Address some Go 1.20 features,mholt,2024-04-19T15:30:05Z,2024-04-24T00:05:57+00:00,6,104.6,True,125,16,8,10,3,2,5,MERGED
+6251,logging: Fix default access logger,francislavoie,2024-04-19T02:42:57Z,2024-04-22T12:33:07+00:00,1,81.84,True,39,22,3,526,1,0,1,MERGED
+6232,feat: add generic response interceptors,dunglas,2024-04-10T10:10:44Z,2024-05-13T17:38:19+00:00,10,799.46,True,617,0,6,1035,7,7,14,MERGED
+6231,Removed shim code supporting deprecated lego dns providers,armadi1809,2024-04-10T03:43:49Z,2024-04-15T21:26:56+00:00,1,137.72,True,9,22,1,71,0,0,0,MERGED
+6229,"Upgrade: ACMEz v2, CertMagic, and ZeroSSL issuer",mholt,2024-04-08T23:11:38Z,2024-04-14T01:31:43+00:00,9,122.33,True,444,298,27,3938,29,2,31,MERGED
+6227,this commit fixes the issue #6224,danish-mehmood,2024-04-08T20:31:21Z,2024-04-08T23:12:36+00:00,2,2.69,True,5,5,2,16,3,0,3,MERGED
+6223,chore: Fix broken links in README.md,hassanila,2024-04-05T10:32:43Z,2024-04-06T03:48:44+00:00,2,17.27,True,2,2,1,143,4,0,4,MERGED
+6222,fileserver: Read Etags from precomputed files,armadi1809,2024-04-05T04:37:17Z,2024-04-13T10:49:55+00:00,5,198.21,True,84,1,3,29,9,4,13,MERGED
+6213,caddyhttp: Close http3 server gracefully,WeidiDeng,2024-04-03T12:15:41Z,2024-10-16T01:28:20+00:00,1,4693.21,True,2,33,2,271,0,0,0,MERGED
+6208,"admin: Making `Etag` a header, not a trailer",jadidbourbaki,2024-03-31T00:22:34Z,2024-04-11T21:19:24+00:00,8,284.95,True,21,6,1,418,2,3,5,MERGED
+6207,Added faster non-cryptographic hash for etag generation,jadidbourbaki,2024-03-30T12:13:20Z,2024-03-30T13:24:50+00:00,1,1.19,True,2,2,1,169,2,0,2,MERGED
+6203,Added Faster Non-cryptographic Hash Function for Load Balancing,jadidbourbaki,2024-03-29T11:38:52Z,2024-03-29T16:56:18+00:00,4,5.29,True,88,87,2,121,1,2,3,MERGED
+6202,close quic connections when server closes,WeidiDeng,2024-03-29T02:03:43Z,2024-03-29T17:51:46+00:00,1,15.8,True,24,2,1,9,4,0,4,MERGED
+6198,chore: upgrade deps,mohammed90,2024-03-27T17:01:51Z,2024-03-27T18:24:18+00:00,2,1.37,True,144,394,2,429,2,0,2,MERGED
+6193,chore: remove repetitive word,sellskin,2024-03-25T06:30:43Z,2024-03-25T15:05:45+00:00,1,8.58,True,1,1,1,0,3,0,3,MERGED
+6191,Added a null check to avoid segfault in rewrite module provision,armadi1809,2024-03-23T04:34:52Z,2024-03-23T05:51:34+00:00,1,1.28,True,7,5,1,59,2,0,2,MERGED
+6187,logging: support `ms` duration format and add docs,mohammed90,2024-03-21T23:01:57Z,2024-03-22T02:17:09+00:00,4,3.25,True,26,13,1,100,1,1,2,MERGED
+6185,"autohttps: Move log WARN to INFO, reduce confusion",francislavoie,2024-03-21T15:27:19Z,2024-05-20T19:14:39+00:00,1,1443.79,True,2,2,1,259,8,0,8,MERGED
+6184,replacer: use RWMutex to protect static provider,mohammed90,2024-03-21T12:50:30Z,2024-03-21T18:15:18+00:00,1,5.41,True,18,3,2,20314,0,0,0,MERGED
+6183,"caddyhttp: Accept XFF header values with ports, when parsing client IP",francislavoie,2024-03-21T05:57:03Z,2024-03-21T16:54:26+00:00,1,10.96,True,34,7,2,484,0,0,0,MERGED
+6182,"caddyhttp: add http.request.local{,.host,.port} placeholder",emilylange,2024-03-20T21:22:31Z,2024-03-27T21:36:54+00:00,6,168.24,True,64,0,4,2658,0,1,1,MERGED
+6176,chore: Update quic-go to v0.42.0,marten-seemann,2024-03-18T01:29:31Z,2024-03-21T16:56:10+00:00,8,87.44,True,34,129,4,0,2,3,5,MERGED
+6175,reverseproxy: Wait for both ends of websocket connections to close,WeidiDeng,2024-03-17T11:37:29Z,2024-04-15T17:37:37+00:00,7,702.0,True,9,3,2,1521,0,1,1,MERGED
+6174,"vars: Make nil values act as empty string instead of `""<nil>""`",francislavoie,2024-03-17T06:00:47Z,2024-03-21T17:21:53+00:00,1,107.35,True,4,0,1,835,6,0,6,MERGED
+6173,http: record the number of bytes read when response writer is hijacked,WeidiDeng,2024-03-15T06:43:43Z,2024-04-17T15:00:37+00:00,7,800.28,True,42,0,2,12,4,2,6,MERGED
+6168,chore: encode: use FlushError instead of Flush,WeidiDeng,2024-03-11T00:54:26Z,2024-03-11T03:04:35+00:00,1,2.17,True,5,5,1,0,1,1,2,MERGED
+6165,rewrite: `uri query` replace operation,armadi1809,2024-03-10T16:42:09Z,2024-03-22T02:23:42+00:00,7,273.69,True,263,1,4,92,6,1,7,MERGED
+6164,encode: write status immediately when status code is informational,WeidiDeng,2024-03-10T05:57:39Z,2024-03-10T14:49:49+00:00,1,8.87,True,6,15,1,377,2,0,2,MERGED
+6163,caddyhttp: Allow `header` replacement with empty string,francislavoie,2024-03-09T01:31:30Z,2024-03-21T17:29:32+00:00,1,303.97,True,27,20,3,935,3,0,3,MERGED
+6161,upgrade to cel v0.20.0,jbrown-stripe,2024-03-08T21:58:21Z,2024-03-14T03:32:43+00:00,1,125.57,True,129,135,4,0,6,0,6,MERGED
+6158,chore: Upgrade CEL to v0.20.1,francislavoie,2024-03-08T15:37:54Z,2024-03-14T03:27:09+00:00,1,131.82,False,96,107,4,169,1,3,4,CLOSED
+6154,reverseproxy: active health check allows configurable health_passes and health_fails,ottenhoff,2024-03-07T19:38:18Z,2024-03-20T17:13:36+00:00,4,309.59,True,125,9,4,71,2,2,4,MERGED
+6151,chore: Fix struct names,thirdkeyword,2024-03-06T12:16:56Z,2024-03-06T13:53:03+00:00,1,1.6,True,6,6,3,0,1,0,1,MERGED
+6150,http: suppress flushing if the response is being buffered,WeidiDeng,2024-03-06T01:21:59Z,2024-03-11T20:03:21+00:00,1,138.69,True,10,0,1,9,2,0,2,MERGED
+6146,autohttps: Implement `auto_https prefer_wildcard` option,francislavoie,2024-03-04T02:32:14Z,2024-10-02T13:31:58+00:00,5,5099.0,True,449,20,7,1367,48,1,49,MERGED
+6145,caddyfile: Populate regexp matcher names by default,francislavoie,2024-03-03T08:57:46Z,2024-04-17T18:19:14+00:00,4,1089.36,True,183,27,14,1410,3,1,4,MERGED
+6140,encode: Add `zstd` compression level support,dev-polymer,2024-03-01T21:45:13Z,2024-04-16T00:21:52+00:00,19,1082.61,True,48,2,1,1310,9,7,16,MERGED
+6137,Include command usage in the help output,SerheyDolgushev,2024-03-01T08:57:28Z,2024-03-01T15:41:06+00:00,2,6.73,False,1,1,1,12,5,1,6,CLOSED
+6130,caddyfile: Pass blocks to `import` for snippets,elee1766,2024-02-27T16:17:59Z,2024-06-14T17:27:52+00:00,2,2593.16,True,337,2,5,2969,29,0,29,MERGED
+6127,caddytls: verifier: caddyfile: re-add Caddyfile support,mohammed90,2024-02-25T08:09:44Z,2024-02-25T21:13:48+00:00,1,13.07,True,139,4,4,324,7,0,7,MERGED
+6120,rewrite: Implement `uri query` operations,armadi1809,2024-02-21T05:19:02Z,2024-03-06T15:08:46+00:00,11,345.83,True,226,1,3,254,6,15,21,MERGED
+6119,caddytest: Rename adapt tests to `*.caddyfiletest` extension,francislavoie,2024-02-20T21:10:15Z,2024-02-21T00:37:40+00:00,1,3.46,True,1,1,131,233,0,0,0,MERGED
+6117,caddyfile: Assert having a space after heredoc marker to simply check,bbaa-bbaa,2024-02-20T03:54:48Z,2024-02-20T12:29:20+00:00,6,8.58,True,8,4,1,762,3,1,4,MERGED
+6115,reverseproxy: cookie should be Secure and SameSite=None when TLS,ottenhoff,2024-02-19T23:57:52Z,2024-02-23T19:45:58+00:00,5,91.8,True,66,2,2,872,10,3,13,MERGED
+6114,reverseproxy: Configurable forward proxy URL,ImpostorKeanu,2024-02-19T14:42:24Z,2024-03-18T04:07:26+00:00,7,661.42,True,38,1,2,203,0,2,2,MERGED
+6113,httpcaddyfile: Allow nameless regexp placeholder shorthand,francislavoie,2024-02-18T20:07:56Z,2024-03-05T23:37:14+00:00,1,387.49,True,20,1,2,752,0,0,0,MERGED
+6112,adding transport_proxy_url setting to reverse_proxy module,ImpostorKeanu,2024-02-18T15:44:42Z,2024-02-19T14:21:52+00:00,9,22.62,False,83410,4694,453,21,5,4,9,CLOSED
+6109,fileserver: Preserve query during canonicalization redirect,francislavoie,2024-02-15T12:23:09Z,2024-03-06T05:51:27+00:00,2,473.47,True,10,4,1,294,1,0,1,MERGED
+6108,vars: Allow overriding `http.auth.user.id` in replacer as a special case,francislavoie,2024-02-15T11:35:21Z,2024-03-05T22:25:39+00:00,1,466.84,True,6,0,1,1195,2,0,2,MERGED
+6104,caddyfile: Reject directives in the place of site addresses,armadi1809,2024-02-14T05:02:09Z,2024-02-19T00:22:48+00:00,4,115.34,True,135,40,8,155,8,6,14,MERGED
+6103,tests: uses testing.TB interface,jcchavezs,2024-02-13T11:45:15Z,2024-02-20T22:04:14+00:00,1,178.32,True,6,6,1,62,10,0,10,MERGED
+6102,caddyhttp: Only attempt to enable full duplex for HTTP/1.x,francislavoie,2024-02-13T09:57:39Z,2024-02-13T18:45:39+00:00,1,8.8,True,2,2,1,1827,0,0,0,MERGED
+6094,logging: Inline Caddyfile syntax for `ip_mask` filter,francislavoie,2024-02-11T10:14:28Z,2024-02-12T17:15:35+00:00,1,31.02,True,27,0,2,468,0,0,0,MERGED
+6093,caddyhttp: Added plaintext capability to `file_server browse`,kylosus,2024-02-10T14:14:18Z,2024-04-01T18:12:40+00:00,4,1227.97,True,40,8,2,2136,11,2,13,MERGED
+6092,caddyauth: Rename `basicauth` to `basic_auth`,francislavoie,2024-02-10T12:16:33Z,2024-02-12T17:34:23+00:00,1,53.3,True,14,7,3,409,0,0,0,MERGED
+6091,caddyauth: Drop support for `scrypt`,francislavoie,2024-02-10T11:40:39Z,2024-02-12T19:33:54+00:00,1,55.89,True,22,142,4,269,0,0,0,MERGED
+6089,"chore: Rename CI jobs, run on M1 mac",francislavoie,2024-02-09T05:39:27Z,2024-02-09T22:31:26+00:00,4,16.87,True,29,13,3,588,0,1,1,MERGED
+6088,caddyhttp: Support multiple logger names per host,francislavoie,2024-02-09T05:10:35Z,2024-04-16T22:26:18+00:00,1,1625.26,True,249,62,10,892,5,0,5,MERGED
+6085,matchers: Drop `forwarded` option from `remote_ip` matcher,francislavoie,2024-02-07T12:11:34Z,2024-02-07T15:09:29+00:00,2,2.97,True,3,43,2,78,0,2,2,MERGED
+6083,chore: bump to golang 1.22,WeidiDeng,2024-02-07T04:52:16Z,2024-02-07T07:13:58+00:00,1,2.36,True,4,4,3,0,0,0,0,MERGED
+6082,logging: Add support for additional logger filters other than hostname,armadi1809,2024-02-04T23:02:32Z,2024-05-11T13:31:44+00:00,10,2318.49,True,216,14,6,199,10,12,22,MERGED
+6081,encode: Compress more media types by default,dunglas,2024-02-04T22:34:16Z,2024-02-09T08:41:45+00:00,6,106.12,True,30,4,1,676,0,2,2,MERGED
+6078,Added support to disable output coloring from env variables,armadi1809,2024-01-31T16:50:11Z,2024-02-02T02:12:42+00:00,5,33.38,True,5,1,1,12,3,1,4,MERGED
+6074,connection policy: add `local_ip`  matcher,mohammed90,2024-01-30T09:03:13Z,2024-04-15T18:13:24+00:00,4,1833.17,True,150,0,2,224,3,4,7,MERGED
+6069,"logging: Implement `append` encoder, allow flatter filters config",francislavoie,2024-01-28T06:39:07Z,2024-03-05T23:24:32+00:00,3,904.76,True,476,34,7,1403,3,1,4,MERGED
+6066,logging: Implement `log_append` handler,francislavoie,2024-01-26T08:14:30Z,2024-03-06T00:03:59+00:00,3,951.82,True,239,12,9,808,10,1,11,MERGED
+6065,reverseproxy: Implement modular CA provider for TLS transport,armadi1809,2024-01-26T05:09:18Z,2024-04-12T13:19:14+00:00,11,1856.17,True,241,0,5,12,5,7,12,MERGED
+6062,caddyfile: Correctly close the heredoc when the closing marker appears immediately,bbaa-bbaa,2024-01-25T05:48:23Z,2024-01-25T14:55:00+00:00,6,9.11,True,13,1,2,71,0,1,1,MERGED
+6061,caddyfile: Switch to slices.Equal for better performance,bbaa-bbaa,2024-01-25T05:29:00Z,2024-01-25T14:46:08+00:00,1,9.29,True,3,1,1,1031,2,0,2,MERGED
+6056,caddyfile: Add heredoc support to `fmt` command,bbaa-bbaa,2024-01-20T05:59:26Z,2024-01-22T02:24:50+00:00,4,44.42,True,145,1,3,188,8,2,10,MERGED
+6055,caddytls: Make on-demand 'ask' permission modular,mholt,2024-01-19T22:35:51Z,2024-01-30T23:11:29+00:00,11,264.59,True,267,137,8,355,7,3,10,MERGED
+6054,matchers: `query` now ANDs multiple keys,armadi1809,2024-01-19T21:03:30Z,2024-01-22T02:36:44+00:00,5,53.55,True,56,7,2,106,11,2,13,MERGED
+6051,caddyfile: Allow heredoc blank lines,armadi1809,2024-01-18T22:01:13Z,2024-01-19T03:57:19+00:00,2,5.93,True,47,0,2,88,7,3,10,MERGED
+6050,caddytls: clientauth: leaf verifier: make trusted leaf certs source pluggable,armadi1809,2024-01-18T21:08:01Z,2024-03-05T21:55:37+00:00,17,1128.79,True,649,4,12,12,31,28,59,MERGED
+6047,refactor: move automaxprocs init in caddycmd.Main(),dunglas,2024-01-18T10:02:43Z,2024-01-19T10:17:36+00:00,6,24.25,True,7,10,2,30,2,1,3,MERGED
+6043,"chore: Update quic-go to v0.41.0, bump Go minimum to 1.21",marten-seemann,2024-01-17T03:51:56Z,2024-01-25T18:58:19+00:00,10,207.11,True,56,85,11,308,2,2,4,MERGED
+6042,cmd: reverseproxy: log: use caddy logger,mohammed90,2024-01-15T22:00:57Z,2024-01-23T17:52:03+00:00,1,187.85,True,2,4,1,87,1,0,1,MERGED
+6040,caddyhttp: Fix panic when request missing ClientIPVarKey,francislavoie,2024-01-15T03:08:14Z,2024-01-24T00:45:51+00:00,1,213.63,True,3,1,1,405,0,0,0,MERGED
+6037,caddyfile: Normalize & flatten all unmarshalers,francislavoie,2024-01-12T10:31:01Z,2024-01-24T00:36:59+00:00,1,278.1,True,2887,2874,44,970,3,0,3,MERGED
+6032,cmd: Adjust config load logs/errors,francislavoie,2024-01-10T19:57:49Z,2024-03-05T19:26:30+00:00,3,1319.48,True,27,14,1,1421,0,1,1,MERGED
+6025,tls: add reuse_private_keys,rithvikvibhu,2024-01-07T17:17:46Z,2024-01-09T23:00:31+00:00,9,53.71,True,32,0,3,1879,6,2,8,MERGED
+6022,httpcaddyfile: Support client auth verifiers,zachgalvin,2024-01-06T00:21:21Z,2024-01-09T23:14:52+00:00,2,94.89,True,18,0,1,127,14,0,14,MERGED
+6021,Switch Solaris-derivatives away from listen_unix,insom,2024-01-05T22:31:15Z,2024-01-06T10:09:21+00:00,1,11.63,True,3,3,3,2193,2,0,2,MERGED
+6013,build(deps): bump actions/upload-artifact from 3 to 4,dependabot,2024-01-01T23:30:31Z,2024-01-02T08:23:26+00:00,1,8.88,True,2,1,1,3050,3,0,3,MERGED
+6012,build(deps): bump actions/setup-go from 4 to 5,dependabot,2024-01-01T23:30:27Z,2024-01-02T07:13:31+00:00,1,7.72,True,4,4,4,4390,0,0,0,MERGED
+6011,chore: check against errors of `io/fs` instead of `os`,mohammed90,2024-01-01T19:52:48Z,2024-01-02T05:48:56+00:00,1,9.94,True,23,22,7,265,0,0,0,MERGED
+6010,caddyhttp: support unix sockets in `caddy respond` command,networkException,2024-01-01T02:26:01Z,2024-01-01T03:34:00+00:00,1,1.13,True,66,46,1,360,1,0,1,MERGED
+6003,browse: Add total file size to directory listing,steffenbusch,2023-12-25T15:01:09Z,2023-12-30T18:47:13+00:00,1,123.77,True,17,0,2,154,2,1,3,MERGED
+6001,httpcaddyfile: Fix redir <to> html,subnut,2023-12-23T14:52:19Z,2024-01-10T12:24:48+00:00,3,429.54,True,1,0,1,401,5,1,6,MERGED
+5997,httpcaddyfile: Fix cert file decoding to load multiple PEM in one file,francislavoie,2023-12-20T08:58:50Z,2023-12-20T15:37:21+00:00,1,6.64,True,19,9,1,12,2,0,2,MERGED
+5995,replacer: Fix escaped closing braces,armadi1809,2023-12-19T06:17:46Z,2024-01-13T20:24:04+00:00,2,614.11,True,70,2,4,222,8,3,11,MERGED
+5990,httpcaddyfile: Sort skip_hosts for deterministic JSON,francislavoie,2023-12-16T16:34:50Z,2023-12-18T19:54:52+00:00,4,51.33,True,7,2,2,9,0,1,1,MERGED
+5984,test: highlight a deadlock when reloading Caddy,dunglas,2023-12-15T10:40:15Z,2023-12-15T17:53:22+00:00,1,7.22,False,67,0,1,691,7,2,9,CLOSED
+5983,Update quic-go to its latest version,armadi1809,2023-12-15T04:14:24Z,2023-12-15T05:42:01+00:00,1,1.46,True,37,39,2,14,0,0,0,MERGED
+5980,logging: Automatic `wrap` default for `filter` encoder,francislavoie,2023-12-14T03:09:54Z,2024-01-25T04:00:22+00:00,2,1008.84,True,139,27,3,2236,8,3,11,MERGED
+5979,metrics: Record request metrics on HTTP errors,tgeoghegan,2023-12-13T16:35:14Z,2023-12-15T20:14:00+00:00,4,51.65,True,142,11,2,262,8,2,10,MERGED
+5976,Ensure AppDataDir exists inside caddy.InstanceID(),armadi1809,2023-12-13T03:31:36Z,2023-12-13T14:39:11+00:00,1,11.13,True,6,1,1,14,0,0,0,MERGED
+5973,fileserver: Browse symlink display shows the target,armadi1809,2023-12-12T00:23:51Z,2024-02-06T04:31:26+00:00,20,1348.13,True,50,18,5,181,9,9,18,MERGED
+5968,cmd: Export the TLS storage last modified time as well.,jum,2023-12-07T16:23:32Z,2023-12-13T16:06:07+00:00,1,143.71,True,4,3,1,0,9,0,9,MERGED
+5965,httpcaddyfile: Add optional status code argument to `handle_errors` directive,armadi1809,2023-12-05T07:35:17Z,2024-01-16T06:24:17+00:00,4,1006.82,True,942,2,8,311,22,3,25,MERGED
+5963,tls: accept placeholders in string values of certificate loaders,mohammed90,2023-12-04T14:33:14Z,2023-12-04T16:23:15+00:00,2,1.83,True,79,3,4,183,0,0,0,MERGED
+5961,chore: enabling a few more linters,AnomalRoil,2023-12-02T13:02:02Z,2024-01-25T15:24:58+00:00,6,1298.38,True,77,28,11,465,5,2,7,MERGED
+5960,Format markdown comments in modules.caddyhttp.App,sword-jin,2023-12-01T04:15:59Z,2023-12-18T20:21:35+00:00,1,424.09,False,54,54,1,22,10,0,10,CLOSED
+5952,reverseproxy: panic when reading from backend failed to propagate stream error,WeidiDeng,2023-11-23T02:18:59Z,2023-11-23T08:18:18+00:00,1,5.99,True,5,3,1,9,7,0,7,MERGED
+5949,chore: Bump otel to v1.21.0.,dlorenc,2023-11-22T02:36:12Z,2023-11-22T14:02:13+00:00,1,11.43,True,26,26,2,217,7,0,7,MERGED
+5948,caddyhttp: Register post-shutdown callbacks,mholt,2023-11-20T14:47:28Z,2024-02-15T04:21:24+00:00,1,2077.57,True,18,1,2,103,3,0,3,MERGED
+5946,caddyhttp: http2 uses new round-robin scheduler,WeidiDeng,2023-11-17T07:36:47Z,2023-11-24T01:54:28+00:00,1,162.29,True,1,5,1,246,2,0,2,MERGED
+5945,core: Add `ctx.Slogger()` which returns an `slog` logger,francislavoie,2023-11-17T03:48:44Z,2024-01-25T19:31:16+00:00,1,1671.71,True,29,0,3,265,3,0,3,MERGED
+5944,logging: Add `zap.Option` support,francislavoie,2023-11-15T09:41:19Z,2023-12-18T20:48:35+00:00,3,803.12,True,88,27,2,159,0,2,2,MERGED
+5934,Avoid skipping a storage due to identical string representations,ankon,2023-11-09T19:15:03Z,2023-11-28T16:43:46+00:00,1,453.48,False,6,8,1,434,5,1,6,CLOSED
+5923,Align with the API changes in certmagic to pass the context into the decision func,ankon,2023-10-31T11:40:44Z,2023-12-07T17:40:14+00:00,1,893.99,True,5,2,3,29,4,0,4,MERGED
+5922,go.mod: update quic-go version to v0.40.0,WeidiDeng,2023-10-31T08:47:44Z,2023-10-31T18:05:34+00:00,2,9.3,True,6,6,2,0,0,0,0,MERGED
+5919,"Added special case support for caddyfile suffix, case insensitive",omalk98,2023-10-27T21:13:12Z,2024-04-11T21:28:16+00:00,3,4008.25,True,10,5,1,209,4,2,6,MERGED
+5918,update quic-go to v0.39.3,marten-seemann,2023-10-27T10:00:29Z,2023-10-27T11:52:13+00:00,1,1.86,True,3,3,2,274,0,0,0,MERGED
+5917,httpredirectlistener: Only set read limit for when request is HTTP,WeidiDeng,2023-10-26T13:48:07Z,2023-11-20T12:31:36+00:00,11,598.72,True,151,50,2,9,1,4,5,MERGED
+5916,chore: Fix usage pool comment,WeidiDeng,2023-10-26T01:04:54Z,2023-10-26T03:05:20+00:00,1,2.01,True,1,1,1,115,1,0,1,MERGED
+5915,proxyprotocol: use github.com/pires/go-proxyproto,mohammed90,2023-10-24T19:41:24Z,2023-12-13T16:07:43+00:00,24,1196.44,True,176,42,6,139,7,8,15,MERGED
+5914,test: acmeserver: add smoke test for the ACME server directory,mohammed90,2023-10-24T07:52:07Z,2023-10-24T17:59:53+00:00,1,10.13,True,33,0,1,14,1,0,1,MERGED
+5910,caddyhttp: Adjust `scheme` placeholder docs,francislavoie,2023-10-22T20:36:14Z,2023-10-22T21:47:16+00:00,3,1.18,True,1,1,1,36,0,1,1,MERGED
+5908,go.mod: CVE-2023-45142 Update opentelemetry,ddl-ebrown,2023-10-20T19:07:55Z,2023-10-20T21:15:49+00:00,1,2.13,True,44,330,2,118,1,0,1,MERGED
+5901,storage: Refactor with early return pattern in homeDir func,thor-son,2023-10-17T01:55:50Z,2023-10-17T05:20:20+00:00,1,3.41,False,10,5,1,85,3,0,3,CLOSED
+5898,"templates: Clarify `include` args docs, add `.ClientIP`",francislavoie,2023-10-15T13:34:07Z,2023-10-16T00:58:46+00:00,3,11.41,True,46,21,2,11,1,1,2,MERGED
+5896,httpcaddyfile: Fix TLS automation policy merging with get_certificate,francislavoie,2023-10-14T18:28:28Z,2023-10-14T20:23:50+00:00,1,1.92,True,68,0,2,206,0,0,0,MERGED
+5895,Add newline character to version string in CLI output,ThanmayNath,2023-10-14T12:33:14Z,2023-10-16T15:58:32+00:00,1,51.42,True,1,1,1,834,0,0,0,MERGED
+5891,cmd: upgrade: resolve symlink of the executable,mohammed90,2023-10-13T09:25:04Z,2023-10-13T21:19:23+00:00,2,11.91,True,10,0,1,374,1,0,1,MERGED
+5883,caddyfile: Fix variadic placeholder false positive when token contains `:`,WeidiDeng,2023-10-12T06:29:16Z,2023-10-13T06:28:21+00:00,1,23.98,True,11,0,2,9,1,0,1,MERGED
+5881,httpcaddyfile: Remove port from logger names,francislavoie,2023-10-12T05:24:47Z,2023-10-17T05:57:03+00:00,1,120.54,True,49,5,5,642,0,0,0,MERGED
+5880,fileserver: Add `precompressed` flag to command,ddemoss222,2023-10-11T21:46:39Z,2023-12-14T03:26:20+00:00,1,1517.66,True,33,2,1,102,1,0,1,MERGED
+5874,"cmd: Fix exiting with custom status code, add `caddy -v`",francislavoie,2023-10-10T07:50:31Z,2023-10-11T15:46:18+00:00,1,31.93,True,164,106,5,781,0,0,0,MERGED
+5870,admin: respond with 4xx status code on non-existing config path,BattleRattle,2023-10-08T16:53:41Z,2023-10-11T20:24:30+00:00,1,75.51,True,20,2,2,275,3,0,3,MERGED
+5869,encode: Add `application/wasm*` to the default content types,Christoph-D,2023-10-08T16:14:18Z,2023-10-10T21:18:37+00:00,1,53.07,True,3,0,2,214,1,0,1,MERGED
+5867,fileserver: Add canonical URL to browse template,Forza-tng,2023-10-07T11:50:32Z,2023-10-11T19:47:39+00:00,1,103.95,True,1,0,1,381,11,0,11,MERGED
+5865,httpcaddyfile: Add `RegisterDirectiveOrder` function for plugin authors,francislavoie,2023-10-07T04:46:08Z,2024-03-06T19:41:45+00:00,6,3638.93,True,89,15,2,1732,0,2,2,MERGED
+5862,reverseproxy: Fix `least_conn` policy regression,francislavoie,2023-10-06T04:14:19Z,2023-10-11T16:04:28+00:00,1,131.84,True,1,1,1,98,0,0,0,MERGED
+5861,reverseproxy: Replace health header placeholders,francislavoie,2023-10-06T03:48:21Z,2023-10-11T15:50:29+00:00,1,132.04,True,21,5,3,165,1,0,1,MERGED
+5860,"httpcaddyfile: Sort TLS SNI matcher, for deterministic adapt output",francislavoie,2023-10-06T02:59:06Z,2023-10-11T15:47:07+00:00,2,132.8,True,1,0,1,16,1,1,2,MERGED
+5859,caddyhttp: Add `uuid` to access logs when used,francislavoie,2023-10-06T01:58:17Z,2023-12-13T22:40:15+00:00,1,1652.7,True,22,0,3,371,5,0,5,MERGED
+5857,reverseproxy: Add debug logging for dynamic A upstreams,francislavoie,2023-10-05T19:10:03Z,2023-10-11T15:50:45+00:00,1,140.68,True,11,1,1,67,0,0,0,MERGED
+5855,fileserver: Enable compression for command by default,dunglas,2023-10-04T20:58:16Z,2023-12-14T03:44:22+00:00,5,1686.77,True,25,0,1,189,1,2,3,MERGED
+5854,fileserver: Add command shortcuts `-l` and `-a`,dunglas,2023-10-04T12:29:48Z,2023-10-10T20:57:19+00:00,2,152.46,True,2,2,1,119,4,0,4,MERGED
+5853,fix: caddytest.AssertResponseCode error message,dunglas,2023-10-02T16:04:15Z,2023-10-02T20:55:10+00:00,1,4.85,True,1,1,1,112,0,0,0,MERGED
+5852,"tls: Add support for X25519Kyber768Draft00 post-quantum ""curve"" when compiled with cfgo.",bwesterb,2023-10-02T12:30:47Z,2023-10-11T19:45:38+00:00,1,223.25,True,24,0,1,989,10,0,10,MERGED
+5851,reverseproxy: Add `tls_curves` option to HTTP transport,bwesterb,2023-10-02T11:12:19Z,2024-01-13T20:56:23+00:00,4,2481.73,True,23,0,2,224,2,1,3,MERGED
+5850,fileserver: Implement caddyfile.Unmarshaler interface,francislavoie,2023-10-02T11:06:34Z,2024-01-13T21:32:44+00:00,5,2482.44,True,114,85,1,121,0,1,1,MERGED
+5848,Use sync.Pool to reduce lengthReader allocations,perhapsmaple,2023-10-02T03:48:07Z,2023-10-16T20:42:02+00:00,3,352.9,True,20,1,1,843,3,2,5,MERGED
+5845,"templates: Add dummy `RemoteAddr` to `httpInclude` request, proxy compatibility",ThanmayNath,2023-10-01T02:43:03Z,2023-10-07T20:47:34+00:00,5,162.08,True,1,0,1,1560,7,7,14,MERGED
+5844,httpcaddyfile: Rewrite `root` and `rewrite` parsing to allow omitting matcher,francislavoie,2023-09-30T23:24:18Z,2024-01-15T16:57:08+00:00,1,2561.55,True,296,12,4,914,2,0,2,MERGED
+5841,"reverseproxy: Fix retries on ""upstreams unavailable"" error",francislavoie,2023-09-27T09:26:32Z,2023-10-10T22:07:20+00:00,1,324.68,True,17,9,1,12,0,0,0,MERGED
+5833,"filesystem: Globally declared filesystems, `fs` directive",elee1766,2023-09-21T18:23:57Z,2024-01-13T20:12:43+00:00,8,2737.81,True,450,219,30,1484,16,3,19,MERGED
+5832,reverseproxy: SRV dynamic upstream failover,mholt,2023-09-21T17:48:32Z,2024-03-05T19:08:31+00:00,3,3985.33,True,13,0,1,310,3,1,4,MERGED
+5830,reverseproxy: only change the content-length header when the full request was buffered,mcfedr,2023-09-20T19:53:50Z,2024-01-09T19:59:31+00:00,1,2664.09,True,6,2,1,328,15,0,15,MERGED
+5828,reverseproxy: fix parsing Caddyfile fails for unlimited request/response buffers,mcfedr,2023-09-20T18:49:49Z,2023-10-11T08:42:40+00:00,1,493.88,True,70,5,2,344,14,0,14,MERGED
+5812,fileserver: browse template SVG icons and UI tweaks,glowinthedark,2023-09-10T12:50:48Z,2023-09-16T01:05:45+00:00,2,132.25,True,227,216,1,2313,7,1,8,MERGED
+5811,reverseproxy: fix nil pointer dereference in AUpstreams.GetUpstreams,FossoresLP,2023-09-09T19:46:14Z,2023-09-10T23:08:02+00:00,2,27.36,True,2,2,1,433,2,0,2,MERGED
+5808,httpcaddyfile: Enable TLS for catch-all site if `tls` directive is specified,hainenber,2023-09-09T08:19:48Z,2023-10-10T21:46:40+00:00,5,757.45,True,48,1,2,789,1,2,3,MERGED
+5805,caddyhttp: Security enhancements for client IP parsing,nebez,2023-09-07T05:01:38Z,2024-01-13T20:46:38+00:00,6,3087.75,True,352,5,3,818,10,1,11,MERGED
+5803,cmd: Prevent overwriting existing env vars with `--envfile`,evandam,2023-09-06T00:12:36Z,2023-09-07T02:19:24+00:00,2,26.11,True,57,33,3,829,2,3,5,MERGED
+5796,acmeserver: add policy field to define allow/deny rules,mohammed90,2023-09-03T08:14:09Z,2024-02-23T23:26:01+00:00,2,4167.2,True,506,66,6,64,3,1,4,MERGED
+5795,requestbody: Add `replace` for optional body replacement,AdrienPensart,2023-09-02T23:13:35Z,2025-03-12T19:38:51+00:00,11,13364.42,True,23,0,2,625,8,5,13,MERGED
+5794,acmeserver: support specifying the allowed challenge types,mohammed90,2023-09-01T22:00:54Z,2024-02-08T08:42:03+00:00,10,3826.69,True,549,4,7,151,1,4,5,MERGED
+5793,reverseproxy: Add more debug logs,mholt,2023-09-01T21:02:47Z,2023-10-11T19:36:20+00:00,8,958.56,True,62,6,4,167,9,4,13,MERGED
+5791,httpcaddyfile: fix placeholder shorthands in named routes,hainenber,2023-09-01T05:04:13Z,2023-09-08T18:38:45+00:00,2,181.58,True,109,71,3,87,10,3,13,MERGED
+5790,chore: check vuln Go mods in CI,hainenber,2023-08-31T14:42:22Z,2023-09-05T15:31:26+00:00,3,120.82,True,6,0,1,81,13,0,13,MERGED
+5786,"logging: Clone array on log filters, prevent side-effects",francislavoie,2023-08-27T02:46:08Z,2023-08-29T17:41:39+00:00,5,62.93,True,10,3,1,92,1,1,2,MERGED
+5784,tls: modularize trusted CA providers,mohammed90,2023-08-25T22:02:43Z,2024-01-25T08:44:41+00:00,7,3658.7,True,2409,108,10,828,13,13,26,MERGED
+5783,pki: generating CSR through API,mohammed90,2023-08-25T19:08:02Z,2024-09-26T20:16:48+00:00,1,9553.15,False,712,3,4,1983,6,1,7,CLOSED
+5780,reverseproxy: Allow fallthrough for response handlers without routes,pkoenig10,2023-08-25T06:04:16Z,2023-10-06T03:15:26+00:00,1,1005.19,True,0,6,1,183,6,0,6,MERGED
+5779,logging: query filter for array of strings,pauljeannot,2023-08-24T17:16:00Z,2023-08-29T22:59:44+00:00,5,125.73,True,52,6,2,370,3,2,5,MERGED
+5774,"replacer: change timezone to UTC for ""time.now.http"" placeholders",WeidiDeng,2023-08-22T02:22:48Z,2023-08-22T06:41:26+00:00,1,4.31,True,4,1,1,155,1,0,1,MERGED
+5772,go.mod: Update quic-go to v0.38.0,WeidiDeng,2023-08-21T09:00:37Z,2023-08-24T02:55:28+00:00,1,65.91,True,6,6,2,0,3,0,3,MERGED
+5769,caddyfile: Fix case where heredoc marker is empty after newline,francislavoie,2023-08-20T21:52:13Z,2023-08-24T03:27:57+00:00,1,77.6,True,9,0,2,105,0,0,0,MERGED
+5765,caddyfile: Adjust error formatting,francislavoie,2023-08-19T11:35:39Z,2023-08-20T14:51:03+00:00,2,27.26,True,12,9,2,520,0,0,0,MERGED
+5761,caddyfile: Loosen heredoc parsing,francislavoie,2023-08-18T01:25:41Z,2023-08-19T10:32:32+00:00,1,33.11,True,61,15,2,363,0,0,0,MERGED
+5757,httpcaddyfile: Stricter errors for site and upstream address schemes,singhalkarun,2023-08-16T17:46:36Z,2023-08-19T11:28:26+00:00,4,65.7,True,374,2,3,362,8,3,11,MERGED
+5752,reverseproxy: Always return new upstreams (fix #5736),mholt,2023-08-16T04:07:58Z,2023-08-17T17:33:41+00:00,3,37.43,True,27,19,2,1085,11,1,12,MERGED
+5751,fileserver: docs: clarify the ability to produce JSON array with `browse`,mohammed90,2023-08-15T14:27:02Z,2023-08-18T19:04:08+00:00,1,76.62,True,17,1,1,78,7,0,7,MERGED
+5749,core: quic listener will manage the underlying socket by itself.,WeidiDeng,2023-08-15T07:18:55Z,2023-10-16T15:28:16+00:00,7,1496.16,True,126,70,3,666,10,5,15,MERGED
+5745,fileserver: Support `precompressed` files without base files,singhalkarun,2023-08-14T12:17:49Z,2024-04-18T15:12:26+00:00,5,5954.91,False,111,88,2,605,11,4,15,CLOSED
+5725,core: Apply SO_REUSEPORT to UDP sockets,mholt,2023-08-09T15:17:44Z,2023-10-17T04:17:32+00:00,3,1645.0,True,181,140,3,1167,9,1,10,MERGED
+5720,feat: Add 64-bit RISC-V to goreleaser config,AaronDewes,2023-08-08T16:26:59Z,2023-08-08T18:11:53+00:00,2,1.75,True,7,0,1,41,16,0,16,MERGED
+5719,ci: Update to Go 1.21,mholt,2023-08-08T15:46:43Z,2023-08-09T16:34:28+00:00,1,24.8,True,22,17,9,22,7,0,7,MERGED
+5718,go.mod: Upgrade golang.org/x/net to 0.14.0,shyim,2023-08-08T13:57:08Z,2023-08-08T17:23:27+00:00,1,3.44,True,15,15,2,73,1,0,1,MERGED
+5712,chore: use revive linter,faddat,2023-08-06T12:55:53Z,2023-08-14T17:28:10+00:00,8,196.54,False,432,289,96,297,3,6,9,CLOSED
+5711,feat: use automaxprocs for better perf in containers,dunglas,2023-08-06T10:33:23Z,2023-12-18T22:50:26+00:00,1,3228.28,True,14,0,3,196,5,0,5,MERGED
+5709,chore: Lint tests,faddat,2023-08-06T06:30:43Z,2024-03-05T19:11:52+00:00,15,5100.69,False,391,298,80,247,7,27,34,CLOSED
+5708,chore: use gci linter,faddat,2023-08-06T06:26:18Z,2023-08-14T15:41:16+00:00,5,201.25,True,225,134,77,101,10,1,11,MERGED
+5707,chore: use gofumpt,faddat,2023-08-06T06:24:10Z,2023-08-07T19:40:31+00:00,1,37.27,True,60,64,33,110,2,0,2,MERGED
+5705,fileserver: Don't repeat error for invalid method inside error context,francislavoie,2023-08-06T06:03:20Z,2023-08-09T17:12:10+00:00,1,83.15,True,7,2,1,76,0,0,0,MERGED
+5700,Significant variable naming changes and unit test code additions on the metric side,tae2089,2023-08-05T22:54:20Z,2024-04-11T22:45:57+00:00,1,5999.86,False,29,3,2,1025,1,0,1,CLOSED
+5696,cmd: fix cli when admin endpoint uses new unix socket permission format,emilylange,2023-08-05T15:02:40Z,2023-08-06T00:09:16+00:00,4,9.11,True,73,37,4,493,0,1,1,MERGED
+5695,reverseproxy: do not parse upstream address too early if it contains replaceble parts,mohammed90,2023-08-05T00:55:06Z,2023-08-05T21:30:03+00:00,4,20.58,True,365,40,7,11,2,2,4,MERGED
+5685,import: check that matched key is not a substring of the replacement key,WeidiDeng,2023-08-04T08:27:41Z,2023-08-04T16:44:38+00:00,2,8.28,True,40,0,2,274,1,0,1,MERGED
+5672,encode: Fix infinite recursion,francislavoie,2023-08-02T22:41:02Z,2023-08-03T00:21:12+00:00,2,1.67,True,2,2,1,9,0,0,0,MERGED
+5663,reverseproxy: Connection termination cleanup,mmm444,2023-07-31T16:50:21Z,2023-08-01T14:01:12+00:00,2,21.18,True,19,6,1,3556,6,1,7,MERGED
+5654,caddyhttp: Make use of `http.ResponseController`,francislavoie,2023-07-26T00:42:32Z,2023-08-02T20:03:26+00:00,5,187.35,True,166,94,14,1215,9,1,10,MERGED
+5648,export reverseproxy.ipVersions type,kkroo,2023-07-22T17:42:24Z,2023-07-25T18:50:21+00:00,2,73.13,True,3,3,2,152,6,1,7,MERGED
+5646,fileserver: add lazy image loading,ydylla,2023-07-22T14:41:38Z,2023-07-22T15:50:36+00:00,2,1.15,True,1,1,1,106,1,0,1,MERGED
+5644,"Update quic-go to v0.37.0, bump to Go 1.20 minimum",marten-seemann,2023-07-21T18:23:31Z,2023-07-22T04:00:48+00:00,1,9.62,True,70,65,13,78,13,0,13,MERGED
+5643,httpcaddyfile: Allow `hostnames` & logger name overrides for log directive,francislavoie,2023-07-21T01:38:53Z,2023-08-02T07:13:46+00:00,1,293.58,True,342,29,6,2146,13,0,13,MERGED
+5630,fileserver: add `export-template` sub-command to `file-server`,mohammed90,2023-07-13T18:18:58Z,2023-07-13T21:54:48+00:00,1,3.6,True,11,0,1,612,0,0,0,MERGED
+5626,caddyfile: Fix comparing if two tokens are on the same line,WeidiDeng,2023-07-12T03:02:29Z,2023-07-12T20:32:23+00:00,2,17.5,True,103,25,4,9,1,0,1,MERGED
+5624,cmd: Unwrap adapter modules to get underlying modules,WeidiDeng,2023-07-10T03:25:23Z,2024-09-26T20:11:27+00:00,1,10672.77,False,22,3,2,163,4,0,4,CLOSED
+5623,caddytls: Reuse certificate cache through reloads,mholt,2023-07-08T16:31:05Z,2023-07-11T19:10:59+00:00,4,74.67,True,115,38,10,2785,5,2,7,MERGED
+5614,cmd: Require config file exists for `caddy validate`,unknown,2023-07-02T20:25:27Z,2023-08-09T17:40:37+00:00,4,909.25,True,43,19,2,164,5,1,6,MERGED
+5611,update quic-go to v0.36.1,marten-seemann,2023-07-01T18:29:06Z,2023-07-01T23:34:28+00:00,1,5.09,True,3,3,2,85,0,0,0,MERGED
+5606,listeners: embed `net.UDPConn` to allow automatic optimization by quic-go,WeidiDeng,2023-06-30T06:54:31Z,2023-06-30T22:31:26+00:00,1,15.62,True,17,23,1,102,3,0,3,MERGED
+5596,core: Skip `chmod` for abstract unix sockets,emilylange,2023-06-24T15:54:10Z,2023-06-25T00:25:02+00:00,1,8.51,True,11,4,1,242,2,0,2,MERGED
+5591,reverseproxy: Support `tls_except_ports` for active health checks,francislavoie,2023-06-22T17:43:41Z,2023-06-22T22:20:30+00:00,1,4.61,True,25,16,1,170,0,0,0,MERGED
+5586,chore: upgrade otel,omerdemirok,2023-06-21T11:17:43Z,2023-06-21T17:46:43+00:00,1,6.48,True,45,44,2,61,2,0,2,MERGED
+5579,reverseproxy: Implement `weighted_round_robin` load balancing policy,sabify,2023-06-19T21:58:46Z,2023-06-20T17:42:59+00:00,5,19.74,True,218,1,3,0,4,7,11,MERGED
+5574,headers: Allow `>` defer shortcut for replacements,francislavoie,2023-06-15T02:00:25Z,2023-06-15T23:18:55+00:00,1,21.31,True,20,1,2,259,3,0,3,MERGED
+5573,caddyhttp: support custom network for HTTP/3,oncilla,2023-06-13T17:11:31Z,2023-06-14T01:33:39+00:00,1,8.37,True,28,11,1,287,3,0,3,MERGED
+5569,Fixes parsing of source IP in case it's an ipv6 address,gucki,2023-06-12T14:29:29Z,2023-06-12T15:35:22+00:00,1,1.1,True,7,1,1,343,0,0,0,MERGED
+5567,reverseproxy: streaming timeouts,mmm444,2023-06-08T20:16:45Z,2023-06-19T21:54:43+00:00,8,265.63,True,133,34,3,395,29,3,32,MERGED
+5564,feat: better implementation of grid layout,365cent,2023-06-04T22:00:35Z,2023-06-05T07:39:57+00:00,1,9.66,True,5,6,1,658,2,0,2,MERGED
+5560,update quic-go to v0.35.0,marten-seemann,2023-05-30T08:20:48Z,2023-05-30T09:41:57+00:00,1,1.35,True,6,6,3,12,1,0,1,MERGED
+5556,fileserver: Define request vars for tracking content served,charles-dyfis-net,2023-05-23T22:07:00Z,2024-09-26T20:04:15+00:00,8,11805.95,False,34,2,1,557,10,4,14,CLOSED
+5554,listen_unix.go: Use consts to set SO_REUSEPORT_LB on FreeBSD,jpds,2023-05-23T13:43:25Z,2023-05-23T16:56:00+00:00,2,3.21,True,15,1,3,87,2,1,3,MERGED
+5553,"templates: Add `readFile` function, skips parsing contents as a template",asyncmeow,2023-05-22T22:26:41Z,2023-05-26T16:16:29+00:00,7,89.83,True,49,8,2,194,7,2,9,MERGED
+5547,fileserver: Allow Etag override,charles-dyfis-net,2023-05-20T00:27:15Z,2023-05-20T23:21:44+00:00,2,22.91,True,12,4,1,287,12,0,12,MERGED
+5545,Make grid entires take up full width on mobile view and fix breadcrumb colors in dark mode mobile view (fileserver),unknown,2023-05-19T22:02:15Z,2023-05-20T23:23:18+00:00,3,25.35,True,15,5,1,301,0,1,1,MERGED
+5541,Fix h3 shutdown,WeidiDeng,2023-05-19T10:21:27Z,2023-05-19T16:00:01+00:00,1,5.64,True,16,8,2,173,0,0,0,MERGED
+5540,config: keep track of import instead of modifying file name,WeidiDeng,2023-05-19T06:18:21Z,2023-05-25T19:05:01+00:00,4,156.78,True,15,31,5,321,0,1,1,MERGED
+5539,Do not replace import tokens if they are part of a snippet,WeidiDeng,2023-05-18T06:26:20Z,2023-05-22T21:36:56+00:00,3,111.18,True,99,5,5,665,9,0,9,MERGED
+5536,Fix file browser footer while in grid mode,unknown,2023-05-16T17:44:22Z,2023-05-19T15:51:22+00:00,2,70.12,True,2,0,2,277,14,1,15,MERGED
+5535,headers: Add `>` Caddyfile shortcut for enabling `defer`,francislavoie,2023-05-16T02:06:03Z,2023-05-16T05:18:13+00:00,1,3.2,True,29,7,2,393,1,0,1,MERGED
+5533,caddyhttp: Refactor cert Managers (fix #5415),mholt,2023-05-11T18:46:43Z,2023-05-15T16:47:30+00:00,5,94.01,True,84,77,6,552,7,2,9,MERGED
+5532,cmd: Implement storage import/export,Phrynobatrachus,2023-05-11T18:22:47Z,2023-06-02T19:04:31+00:00,25,528.7,True,270,0,2,1339,21,12,33,MERGED
+5521,feature: watch include directory,jonatan5524,2023-05-06T14:47:54Z,2023-05-08T22:49:17+00:00,6,56.02,True,14,39,1,136,8,5,13,MERGED
+5517,fix http3 outdated certificates after config reload,WeidiDeng,2023-05-04T07:28:24Z,2023-05-10T20:25:10+00:00,18,156.95,True,79,5,1,397,1,5,6,MERGED
+5515,fastcgi: Fix `capture_stderr`,eanavitarte,2023-05-03T01:07:18Z,2023-05-04T00:40:49+00:00,2,23.56,True,1,0,1,2008,2,0,2,MERGED
+5509,"caddyhttp: Impl `ResponseWriter.Unwrap()`, prep for Go 1.20's `ResponseController`",dunglas,2023-04-25T18:29:53Z,2023-04-26T23:44:01+00:00,2,29.24,True,30,0,5,246,4,0,4,MERGED
+5508,fix some comments,cuishuang,2023-04-25T07:35:44Z,2023-04-25T15:54:42+00:00,1,8.32,True,3,3,3,0,0,0,0,MERGED
+5507,logging: Add traceID field to access logs when tracing is active,hairyhenderson,2023-04-23T16:38:30Z,2023-04-27T02:46:41+00:00,8,82.14,True,236,53,7,4514,2,3,5,MERGED
+5505,"caddyfile: Stricter parsing, error for brace on new line",francislavoie,2023-04-20T10:03:58Z,2023-04-20T18:43:52+00:00,1,8.66,True,499,487,5,881,0,0,0,MERGED
+5504,Rewrite: use escaped path,TP-O,2023-04-20T09:58:57Z,2023-05-16T15:16:07+00:00,1,629.29,True,20,12,2,172,4,1,5,MERGED
+5500,"acmeserver: Configurable `resolvers`, fix smallstep deprecations",francislavoie,2023-04-19T02:44:04Z,2023-05-03T17:07:22+00:00,15,350.39,True,283,52,5,12,2,7,9,MERGED
+5498,reverseproxy: Fix reinitialize upstream healthy metrics,u5surf,2023-04-17T22:18:56Z,2023-04-25T15:59:27+00:00,2,185.68,True,2,0,1,1179,4,0,4,MERGED
+5497,templates: Add `fileStat` function,taophp,2023-04-17T09:27:32Z,2023-04-24T16:36:37+00:00,3,175.15,True,17,0,1,104,11,3,14,MERGED
+5494,reverseproxy: Expand port ranges to multiple upstreams in CLI + Caddyfile,francislavoie,2023-04-14T23:34:44Z,2023-05-15T18:14:50+00:00,4,738.67,True,173,15,5,223,1,1,2,MERGED
+5492,celmatcher: Implement `pkix.Name` conversion to string,francislavoie,2023-04-13T15:45:39Z,2023-04-19T15:55:23+00:00,1,144.16,True,4,1,1,9,3,0,3,MERGED
+5488,"reverseproxy: Add `fallback` for some policies, instead of always random",francislavoie,2023-04-12T13:54:11Z,2023-05-05T21:08:10+00:00,1,559.23,True,237,39,2,1589,0,0,0,MERGED
+5487,reverseproxy: Optimize the base case for `least_conn` policy,francislavoie,2023-04-12T12:02:03Z,2023-05-06T02:53:49+00:00,1,566.86,True,4,1,1,154,1,0,1,MERGED
+5475,fileserver: Add color-scheme meta tag,kidonng,2023-04-02T07:38:19Z,2023-04-03T02:44:21+00:00,1,19.1,True,1,0,1,152,3,0,3,MERGED
+5474,build(deps): bump actions/setup-go from 3 to 4,dependabot,2023-04-02T00:00:35Z,2023-04-02T04:36:17+00:00,1,4.59,True,4,4,4,3419,0,0,0,MERGED
+5472,reverseproxy: Add mention of which half a copyBuffer err comes from,francislavoie,2023-03-31T06:17:59Z,2023-03-31T19:46:30+00:00,5,13.48,True,4,3,1,83,0,3,3,MERGED
+5468,reverseproxy: Add `query` and `client_ip_hash` lb policies,francislavoie,2023-03-29T08:17:28Z,2023-04-04T03:31:47+00:00,1,139.24,True,311,10,4,211,3,0,3,MERGED
+5464,headers: Add support for deleting all headers as one operation,heimoshuiyu,2023-03-27T10:21:14Z,2023-03-27T21:05:18+00:00,1,10.73,True,16,0,1,580,7,3,10,MERGED
+5463,replacer: Implement `file.*` global replacements,francislavoie,2023-03-27T09:30:18Z,2024-04-24T20:26:18+00:00,5,9466.93,True,197,67,4,12,12,2,14,MERGED
+5462,httpcaddyfile: Adjust path matcher sorting to solve for specificity,francislavoie,2023-03-27T04:58:02Z,2023-03-27T19:43:45+00:00,1,14.76,True,82,29,4,703,0,0,0,MERGED
+5461,caddyhttp: Log request body bytes read,francislavoie,2023-03-26T08:39:00Z,2023-03-27T22:40:16+00:00,6,38.02,True,32,0,1,863,0,1,1,MERGED
+5460,reverseproxy: Header up/down support for CLI command,francislavoie,2023-03-26T06:11:26Z,2023-03-27T20:35:31+00:00,1,38.4,True,59,5,1,12,0,0,0,MERGED
+5459,caddytls: Run the replacer on automation policy subjects,francislavoie,2023-03-25T23:59:34Z,2023-03-27T21:16:22+00:00,4,45.28,True,58,39,6,336,1,1,2,MERGED
+5458,replacer: Add HTTP time format,francislavoie,2023-03-25T22:03:45Z,2023-03-27T20:51:13+00:00,1,46.79,True,3,0,1,277,1,0,1,MERGED
+5446,"reverseproxy: Fix active health check header canonicalization, refactor",francislavoie,2023-03-19T19:39:40Z,2023-05-05T21:19:23+00:00,1,1129.66,True,77,50,2,9,1,0,1,MERGED
+5443,caddytls: Zero out throttle window first,mholt,2023-03-17T20:24:19Z,2023-03-20T18:06:00+00:00,1,69.69,True,23,15,2,107,3,0,3,MERGED
+5441,log: make `sink` encodable,mohammed90,2023-03-17T14:13:51Z,2023-03-27T21:41:25+00:00,3,247.46,True,106,112,5,286,4,1,5,MERGED
+5440,cicd: add `--yes` to cosign arguments,mohammed90,2023-03-17T13:26:47Z,2023-03-17T16:37:00+00:00,1,3.17,True,1,1,1,919,0,0,0,MERGED
+5439,H2 without tls conn,coolaj86,2023-03-17T08:08:02Z,2023-05-11T21:58:13+00:00,1,1333.84,False,147,7,3,70,2,1,3,CLOSED
+5435,reverseproxy: Reset Content-Length to prevent fastcgi from hanging,trea,2023-03-15T18:41:32Z,2023-03-16T17:42:17+00:00,1,23.01,True,2,1,1,41,3,0,3,MERGED
+5427,fileserver: New file browse template,mholt,2023-03-09T17:25:23Z,2023-03-10T18:19:31+00:00,9,24.9,True,659,190,3,1783,11,3,14,MERGED
+5425,quic: enable 0-RTT,marten-seemann,2023-03-08T23:38:22Z,2023-03-09T15:58:32+00:00,1,16.34,True,1,0,1,67,0,0,0,MERGED
+5424,"proxyprotocol: Add PROXY protocol support to `reverse_proxy`, add HTTP listener wrapper",gucki,2023-03-08T20:46:17Z,2023-03-31T21:44:54+00:00,16,552.98,True,245,1,9,197,3,4,7,MERGED
+5419,encode: flush status code when hijacked.,WeidiDeng,2023-03-06T03:39:13Z,2023-03-06T16:13:49+00:00,1,12.58,True,14,0,1,188,0,0,0,MERGED
+5413,core: Eliminate unnecessary shutdown delay on Unix,mholt,2023-03-03T00:18:26Z,2023-03-03T04:00:18+00:00,1,3.7,True,36,13,4,251,2,0,2,MERGED
+5408,caddyhttp: Fix `vars_regexp` matcher with placeholders,francislavoie,2023-02-28T19:50:03Z,2023-03-02T16:01:55+00:00,1,44.2,True,13,8,1,79,0,0,0,MERGED
+5405,caddyhttp: Fix shutdown delay on unix systems,francislavoie,2023-02-28T02:22:56Z,2023-03-03T03:41:53+00:00,3,73.32,False,27,16,2,539,3,1,4,CLOSED
+5404,"caddyfile: Fix heredoc fuzz crasher, drop trailing newline",francislavoie,2023-02-26T20:33:33Z,2023-02-26T21:56:48+00:00,1,1.39,True,77,17,3,115,1,0,1,MERGED
+5403,ci/cd: ship tarballs with vendored deps,mohammed90,2023-02-26T19:07:52Z,2023-02-26T22:06:16+00:00,1,2.97,True,43,2,1,519,2,0,2,MERGED
+5401,reverseproxy: allow specifying ip version for dynamic `a` upstream,emilylange,2023-02-26T18:29:58Z,2023-02-27T17:23:10+00:00,5,22.89,True,64,5,3,109,0,2,2,MERGED
+5397,context: Rename func to `AppIfConfigured`,francislavoie,2023-02-26T04:07:20Z,2023-02-27T18:58:28+00:00,1,38.85,True,17,18,2,134,2,0,2,MERGED
+5396,reverseproxy: Remove deprecated `lookup_srv`,francislavoie,2023-02-26T01:57:27Z,2023-04-10T20:08:41+00:00,1,1050.19,True,18,161,5,56,1,0,1,MERGED
+5385,caddyfile: Implement heredoc support,francislavoie,2023-02-20T16:50:07Z,2023-02-26T00:34:28+00:00,1,127.74,True,397,135,12,2050,1,0,1,MERGED
+5384,caddytls: Loosen the warning for on-demand,francislavoie,2023-02-20T11:32:43Z,2023-02-22T18:41:01+00:00,1,55.14,True,12,1,1,340,0,0,0,MERGED
+5383,cmd: Fix validating JSON with unknown fields,francislavoie,2023-02-20T08:45:22Z,2023-02-22T18:39:41+00:00,2,57.91,True,6,6,4,9,0,0,0,MERGED
+5379,"cmd: Expand cobra support, add short flags",francislavoie,2023-02-17T04:47:15Z,2023-02-24T23:09:13+00:00,11,186.37,True,198,209,7,849,0,21,21,MERGED
+5377,cmd: Adjust documentation for commands,francislavoie,2023-02-16T11:22:19Z,2023-02-16T16:14:08+00:00,1,4.86,True,31,16,2,0,0,0,0,MERGED
+5369,reverseproxy: refactor HTTP transport layer,mohammed90,2023-02-12T20:31:08Z,2023-02-24T19:54:05+00:00,11,287.38,True,148,140,2,600,9,2,11,MERGED
+5367,reverseproxy: Don't buffer chunked requests (fix #5366),mholt,2023-02-10T19:04:39Z,2023-02-12T00:25:29+00:00,2,29.35,True,80,41,2,666,4,3,7,MERGED
+5362,chore: Upgrade various dependencies,francislavoie,2023-02-08T06:31:14Z,2023-02-08T17:49:18+00:00,3,11.3,True,156,133,8,81,1,4,5,MERGED
+5353,"chore: Build with Go 1.20, keep minimum at 1.18 for now",francislavoie,2023-02-01T23:35:02Z,2023-02-06T16:29:21+00:00,2,112.91,True,45,40,9,66,6,0,6,MERGED
+5351,cmd: `fmt` exit successfully after overwriting config file,amis-shokoohi,2023-01-31T11:19:28Z,2023-01-31T16:24:45+00:00,1,5.09,True,4,1,1,11,1,0,1,MERGED
+5350,cmd: Add `--envfile` flag to `validate` command,amis-shokoohi,2023-01-31T11:13:21Z,2023-01-31T21:27:36+00:00,2,10.24,True,15,2,2,12,1,1,2,MERGED
+5348,"chore: Fix warning ""range variable captured by func literal""",francislavoie,2023-01-31T03:11:26Z,2023-01-31T08:07:57+00:00,1,4.94,True,1,0,1,0,0,0,0,MERGED
+5344,caddyauth: Add singleflight for basic auth,u5surf,2023-01-30T15:19:45Z,2023-02-06T18:29:03+00:00,3,171.16,True,12,2,2,144,2,2,4,MERGED
+5339,httpcaddyfile: Add persist_config global option,u5surf,2023-01-28T02:26:36Z,2023-01-28T04:31:38+00:00,2,2.08,True,88,0,4,131,0,1,1,MERGED
+5332,admin: Add `CADDY_ADMIN` env var to override the default,francislavoie,2023-01-25T07:42:40Z,2023-02-06T17:55:17+00:00,1,298.21,True,14,1,1,818,0,0,0,MERGED
+5331,go.mod: bump tscert package to fix Tailscale 1.34+ on Windows,bradfitz,2023-01-24T22:56:07Z,2023-01-25T01:01:54+00:00,1,2.1,True,12,11,2,221,4,0,4,MERGED
+5330,reverseproxy: Add flag to short command to disable redirects,u5surf,2023-01-24T00:30:53Z,2023-01-25T14:40:09+00:00,8,38.15,True,4,0,1,126,2,4,6,MERGED
+5329,tracing: Support placeholders in span name,davidfrickert,2023-01-23T17:07:39Z,2023-01-25T07:26:45+00:00,4,38.32,True,23,4,2,368,4,1,5,MERGED
+5328,caddyhttp: Pluggable trusted proxy IP range sources,francislavoie,2023-01-23T11:56:19Z,2023-02-06T19:44:11+00:00,5,343.8,True,188,55,6,1195,8,2,10,MERGED
+5323,caddyfile: Allow overriding server names,francislavoie,2023-01-20T07:24:58Z,2023-01-27T19:56:40+00:00,3,180.53,True,114,2,3,9,1,0,1,MERGED
+5320,httpcaddyfile: Ignore the import empty dotfile.,u5surf,2023-01-19T15:12:13Z,2023-01-21T17:22:36+00:00,4,50.17,True,50,0,6,108,3,1,4,MERGED
+5315,httpcaddyfile: Fix `handle` grouping inside `route`,WeidiDeng,2023-01-17T11:43:25Z,2023-01-18T21:04:41+00:00,2,33.35,True,93,21,5,285,3,0,3,MERGED
+5314,go.mod: Update golang.org/x/net to v0.5.0,alexandrevicenzi,2023-01-17T10:15:51Z,2023-01-17T12:07:08+00:00,1,1.85,True,12,4,2,103,5,0,5,MERGED
+5311,chore: Fix caddyfile.replaceEnvVars return,u5surf,2023-01-16T15:40:35Z,2023-01-17T11:57:42+00:00,1,20.29,True,4,15,2,46,1,0,1,MERGED
+5297,cmd: `caddy fmt` return code is 1 if not formatted,u5surf,2023-01-11T15:16:17Z,2023-01-22T04:28:37+00:00,2,253.21,True,7,3,2,47,3,0,3,MERGED
+5293,caddytls: Add test cases for Caddyfile `tls` options,ihmels,2023-01-09T18:59:07Z,2023-01-09T20:18:13+00:00,1,1.32,True,169,3,4,39,0,0,0,MERGED
+5289,Fix hanging caused by Transfer-Encoding: chunked,u5surf,2023-01-07T01:13:13Z,2023-01-09T07:13:35+00:00,2,54.01,True,17,6,1,113,0,0,0,MERGED
+5287,"caddytls: Add `dns_ttl` config, improve Caddyfile `tls` options",ihmels,2023-01-05T14:17:11Z,2023-01-06T19:44:00+00:00,5,29.45,True,173,9,3,276,5,2,7,MERGED
+5284,reverseproxy: Set origreq in active health check,mholt,2023-01-04T17:12:41Z,2023-01-06T20:06:38+00:00,2,50.9,True,4,1,1,117,8,0,8,MERGED
+5271,ci: Update GitHub Actions to avoid `set-output` deprecation,shuuji3,2022-12-28T10:04:46Z,2022-12-28T17:05:43+00:00,2,7.02,True,9,9,2,384,4,0,4,MERGED
+5270,ci: Fix goreleaser deprecation,francislavoie,2022-12-28T03:22:20Z,2022-12-28T18:11:39+00:00,7,14.82,True,20,4,1,602,4,1,5,MERGED
+5269,reverseproxy: Don't enable auto-https when `--from` flag is http,emilylange,2022-12-28T03:03:08Z,2023-01-06T20:42:07+00:00,1,233.65,True,4,0,1,890,2,0,2,MERGED
+5264,build(deps): bump goreleaser/goreleaser-action from 2 to 4,dependabot,2022-12-19T21:58:29Z,2022-12-20T00:47:34+00:00,2,2.82,True,2,2,2,4273,1,0,1,MERGED
+5263,build(deps): bump actions/cache from 2 to 3,dependabot,2022-12-19T21:58:26Z,2022-12-19T23:56:53+00:00,2,1.97,True,3,3,3,5066,1,0,1,MERGED
+5262,build(deps): bump actions/upload-artifact from 1 to 3,dependabot,2022-12-19T21:58:22Z,2022-12-20T00:14:43+00:00,2,2.27,True,1,1,1,3370,1,0,1,MERGED
+5261,build(deps): bump peter-evans/repository-dispatch from 1 to 2,dependabot,2022-12-19T21:58:20Z,2022-12-19T23:44:55+00:00,1,1.78,True,2,2,1,2778,1,0,1,MERGED
+5259,readme: white ZeroSSL text color in dark mode,emilylange,2022-12-19T02:06:54Z,2022-12-19T20:01:31+00:00,2,17.91,True,1,1,1,1382,0,0,0,MERGED
+5258,Check for github action updates monthly,jlosito,2022-12-17T17:00:49Z,2022-12-19T21:57:57+00:00,1,52.95,True,7,0,1,265,2,0,2,MERGED
+5257,encode: respect Cache-Control HTTP header no-transform,darkweak,2022-12-17T10:07:48Z,2022-12-20T20:26:53+00:00,1,82.32,True,60,7,2,310,2,0,2,MERGED
+5249,caddyfile: Implement variadics for import args placeholders,WeidiDeng,2022-12-12T12:27:06Z,2023-02-17T00:08:36+00:00,7,1595.69,True,313,18,5,55,11,2,13,MERGED
+5248,readme: darker variants of logos in dark mode,emilylange,2022-12-12T02:35:50Z,2022-12-12T17:18:30+00:00,2,14.71,True,16,4,1,969,0,0,0,MERGED
+5232,acme_server: Allow the lifetime for issued certificates to be configured,kylemcc,2022-12-05T21:12:42Z,2022-12-06T07:12:26+00:00,2,10.0,True,268,8,8,188,16,0,16,MERGED
+5230,caddytest: internalize init config into '.go' file,mohammed90,2022-12-02T13:59:18Z,2022-12-05T18:49:42+00:00,2,76.84,True,20,6,2,965,4,0,4,MERGED
+5229,reverseproxy: Improve hostByHashing distribution,skeetmtp,2022-12-02T10:11:15Z,2022-12-05T18:28:13+00:00,2,80.28,True,23,23,2,3564,4,0,4,MERGED
+5217,Use go.step.sm/crypto to generate the PKI,maraino,2022-11-23T03:36:36Z,2022-11-24T03:47:42+00:00,1,24.18,True,149,111,4,232,1,1,2,MERGED
+5210,version: don't panic if read build info doesn't work,lukedirtwalker,2022-11-18T12:30:27Z,2022-12-19T21:23:46+00:00,1,752.89,True,15,7,1,294,5,0,5,MERGED
+5199,reverseproxy: Mask the WS close message when we're the client,francislavoie,2022-11-11T05:44:10Z,2022-11-14T16:38:02+00:00,1,82.9,True,209,123,20,679,10,0,10,MERGED
+5192,caddyauth: improve handling of multiple providers,lukedirtwalker,2022-11-09T10:44:22Z,2023-02-07T12:24:24+00:00,5,2161.67,False,243,2,2,808,12,2,14,CLOSED
+5189,caddypki: use configured certificate instead of generating a new one,joga84,2022-11-08T09:35:01Z,2022-11-08T19:13:46+00:00,1,9.65,True,3,0,1,126,2,0,2,MERGED
+5179,ci: set least privilged token for github actions,ashishkurmi,2022-10-31T07:21:34Z,2022-11-06T09:01:36+00:00,2,145.67,True,6,0,1,738,3,0,3,MERGED
+5176,caddyhttp: Canonicalize header field names,ghostwheel42,2022-10-27T16:27:12Z,2022-10-29T20:35:45+00:00,2,52.14,True,2,1,1,58,4,0,4,MERGED
+5173,admin: set certmagic cache logger,bit,2022-10-27T07:36:14Z,2022-11-24T03:49:22+00:00,1,668.22,True,1,0,1,45,1,0,1,MERGED
+5170,cmd: replace deprecated func use,mohammed90,2022-10-25T12:43:47Z,2022-10-25T14:56:38+00:00,1,2.21,True,1,1,1,0,1,0,1,MERGED
+5169,admin: fix certificate renewal,bit,2022-10-25T07:15:35Z,2022-11-23T18:48:38+00:00,1,707.55,True,4,2,1,162,3,0,3,MERGED
+5161,caddyhttp: add placeholder {http.request.orig_uri.path.*},XYenon,2022-10-21T11:07:58Z,2022-10-24T17:57:50+00:00,1,78.83,True,30,8,1,83,1,0,1,MERGED
+5160,caddytest: Increased sleep between retries to reduce flakey tests in CI,ben-bud,2022-10-20T14:43:52Z,2022-10-27T22:12:30+00:00,1,175.48,True,2,2,1,92,4,0,4,MERGED
+5159,caddyconfig: fix httploader leak from unused responses due to loop not breaking on success,ChrisLahaye,2022-10-20T11:43:05Z,2022-10-24T17:58:31+00:00,6,102.26,True,2,2,1,60,1,1,2,MERGED
+5154,fix: support known tls placeholders replacing even for non tls request,nikolaevn,2022-10-18T14:05:06Z,2024-09-26T19:22:40+00:00,4,17021.29,False,217,7,2,683,4,2,6,CLOSED
+5151,cmd: Add missing `\n` to HelpTemplate,BakaFT,2022-10-17T06:06:58Z,2022-10-17T08:51:41+00:00,1,2.75,True,1,1,1,146,1,0,1,MERGED
+5149,"docs: Fix templates documentation, stray newline breaks godoc",francislavoie,2022-10-16T12:23:41Z,2022-10-16T16:25:44+00:00,1,4.03,True,0,1,1,175,0,0,0,MERGED
+5144,fileserver: fix breadcrumbs for directories with % percent sign in the name,abdusco,2022-10-13T20:30:12Z,2023-05-11T22:08:55+00:00,2,5041.65,False,63,3,2,12,5,1,6,CLOSED
+5140,log response size for websocket request,WeidiDeng,2022-10-13T07:08:55Z,2023-02-06T23:14:59+00:00,1,2800.1,True,36,14,2,81,0,0,0,MERGED
+5131,fileserver: stop listing dir when request context is cancelled,abdusco,2022-10-08T05:04:46Z,2022-10-08T18:56:35+00:00,1,13.86,True,10,4,2,124,2,0,2,MERGED
+5127,replacer: working directory global placeholder,dunglas,2022-10-07T08:23:57Z,2022-10-07T09:54:41+00:00,1,1.51,True,9,0,2,151,2,0,2,MERGED
+5118,ci: enhance the CI/CD flow,mohammed90,2022-10-04T12:10:20Z,2022-10-04T14:03:10+00:00,1,1.88,True,5,3,2,132,1,0,1,MERGED
+5115,Switch to program directory when running as Windows service,TobiX,2022-10-03T21:20:28Z,2022-10-04T17:04:02+00:00,1,19.73,True,11,0,1,912,2,0,2,MERGED
+5114,addresses: Support Windows absolute paths for unix socket proxy upstreams,ueffel,2022-10-03T16:07:41Z,2023-02-08T17:05:10+00:00,10,3072.96,True,255,18,4,353,10,2,12,MERGED
+5110,httpcaddyfile: Fix edgecase with `auto_https off` with provided certs,francislavoie,2022-10-03T03:57:37Z,2022-10-05T02:58:19+00:00,1,47.01,True,68,4,2,9,0,0,0,MERGED
+5109,logging: Better `console` encoder defaults,francislavoie,2022-10-02T20:53:31Z,2022-10-05T03:18:48+00:00,1,54.42,True,24,19,1,967,0,0,0,MERGED
+5108,logging: Add `time_local` option to use local time instead of UTC,francislavoie,2022-10-02T20:27:25Z,2022-10-05T04:23:14+00:00,1,55.93,True,17,1,1,1183,0,0,0,MERGED
+5107,"caddyhttp: Implement named routes, `invoke` directive",francislavoie,2022-10-02T19:55:06Z,2023-05-16T15:27:52+00:00,7,5419.55,True,464,29,9,838,1,2,3,MERGED
+5106,Fix inverted logic in Windows service detection,TobiX,2022-10-02T12:34:37Z,2022-10-02T20:56:55+00:00,1,8.37,True,1,1,1,429,2,0,2,MERGED
+5105,fileserver: better dark mode visited link contrast,iliana,2022-10-01T21:06:04Z,2022-10-02T00:14:27+00:00,1,3.14,True,12,0,1,336,0,0,0,MERGED
+5104,caddyhttp: Determine real client IP if trusted proxies configured,francislavoie,2022-10-01T05:22:17Z,2023-03-27T20:22:59+00:00,1,4263.01,True,462,187,9,1776,7,0,7,MERGED
+5103,caddyhttp: Add server-level `trusted_proxies` config,francislavoie,2022-10-01T03:29:20Z,2023-01-10T05:08:23+00:00,5,2425.65,True,117,23,8,719,3,1,4,MERGED
+5102,logging: Fix `skip_hosts` with wildcards,francislavoie,2022-10-01T01:14:40Z,2022-10-05T18:14:14+00:00,1,112.99,True,23,38,5,989,1,0,1,MERGED
+5101,logging: Perform filtering on arrays of strings (where possible),francislavoie,2022-09-30T23:50:40Z,2022-10-05T05:21:23+00:00,1,101.51,True,171,24,2,1652,4,0,4,MERGED
+5099,treat invalid file path as notFound,likev,2022-09-30T10:26:41Z,2022-10-05T03:32:41+00:00,1,113.1,True,1,1,1,107,4,0,4,MERGED
+5097,forwardauth: Canonicalize header fields (fix #5038),mholt,2022-09-29T19:32:42Z,2022-10-05T05:37:01+00:00,3,130.07,True,18,21,1,59,0,1,1,MERGED
+5091,reverseproxy: On 103 don't delete own headers,mholt,2022-09-28T20:40:35Z,2022-09-29T14:19:56+00:00,1,17.66,True,10,10,2,52,1,0,1,MERGED
+5088,reverseproxy: fix upstream scheme handling,lemmi,2022-09-27T17:21:10Z,2022-09-27T19:03:31+00:00,1,1.71,True,1,1,1,204,4,0,4,MERGED
+5081,caddyhttp: replace placeholders in map defaults,willnorris,2022-09-25T05:19:23Z,2022-09-28T19:38:21+00:00,1,86.32,True,23,1,2,690,1,0,1,MERGED
+5077,httploader: Implement retries,yroc92,2022-09-24T06:52:48Z,2022-10-06T04:34:50+00:00,6,285.7,True,32,1,1,14,7,10,17,MERGED
+5072,Allow version to be set manually,assistcontrol,2022-09-23T15:12:59Z,2022-10-05T16:59:57+00:00,1,289.78,True,33,3,1,367,8,0,8,MERGED
+5071,admin: use replacer on listen address,yroc92,2022-09-23T05:50:20Z,2022-09-29T17:24:53+00:00,2,155.58,True,6,3,1,123,1,1,2,MERGED
+5060,encode: don't WriteHeader unless called,WeidiDeng,2022-09-21T00:27:24Z,2022-09-21T14:30:43+00:00,2,14.06,True,1,4,1,9,0,0,0,MERGED
+5051,caddyhttp: Skip inserting HTTP->HTTPS redir if catch-all for both exist,francislavoie,2022-09-19T18:43:59Z,2022-09-20T04:11:20+00:00,1,9.46,True,20,10,1,666,0,0,0,MERGED
+5049,response recorder save status code in all cases,WeidiDeng,2022-09-17T23:02:00Z,2022-09-18T00:47:53+00:00,4,1.76,True,3,1,1,0,0,1,1,MERGED
+5046,ci: fix the name template of singing certificate and sboms,mohammed90,2022-09-17T09:08:22Z,2022-09-17T14:54:50+00:00,1,5.77,True,3,4,1,696,0,0,0,MERGED
+5042,caddyhttp: Make metrics opt-in,mholt,2022-09-16T17:21:10Z,2022-09-16T19:32:49+00:00,2,2.19,True,30,8,5,828,1,0,1,MERGED
+5040,core: Wrap listeners with type that can pipe,mholt,2022-09-14T06:02:39Z,2024-09-26T19:12:44+00:00,1,17845.17,False,67,4,3,1017,4,1,5,CLOSED
+5039,fix encode handler header manipulation,WeidiDeng,2022-09-14T03:45:12Z,2022-09-15T22:05:08+00:00,5,42.33,True,52,76,1,89,6,1,7,MERGED
+5030,caddyhttp: Explicitly disallow multiple regexp matchers,francislavoie,2022-09-09T00:48:42Z,2022-09-13T17:18:40+00:00,3,112.5,True,13,0,1,125,0,1,1,MERGED
+5027,"supplychain: publish signing cert, sbom, and signatures of sbom",mohammed90,2022-09-08T21:02:34Z,2022-09-12T22:59:54+00:00,1,97.96,True,6,2,1,0,2,0,2,MERGED
+5022,caddyhttp: Use sendfile(2) by implementing ReadFrom on wrappers,flga,2022-09-06T22:13:46Z,2022-09-07T20:13:35+00:00,1,22.0,True,200,2,2,1696,10,0,10,MERGED
+5015,httpcaddyfile: Add a couple more placeholder shortcuts,francislavoie,2022-09-05T20:25:08Z,2022-09-06T03:41:49+00:00,1,7.28,True,2,0,1,452,0,0,0,MERGED
+5007,dist: deb package manpages and bash completion scripts,mohammed90,2022-09-01T22:34:23Z,2022-09-02T03:39:18+00:00,4,5.08,True,8,1,1,74,0,1,1,MERGED
+5006,caddyhttp: Support `respond` with HTTP 103 Early Hints,mholt,2022-09-01T19:18:45Z,2022-09-05T19:50:45+00:00,1,96.53,True,77,26,4,1338,6,0,6,MERGED
+5004,fastcgi: allow users to log stderr output (#4967),flga,2022-09-01T16:05:09Z,2022-09-02T04:02:48+00:00,14,11.96,True,116,41,3,2393,3,5,8,MERGED
+4993,fileserver: Support glob expansion in file matcher,mholt,2022-08-30T19:16:22Z,2022-09-05T19:53:42+00:00,2,144.62,True,279,143,7,1274,9,1,10,MERGED
+4990,caddyhttp: Copy logger config to HTTP server during AutoHTTPS,francislavoie,2022-08-29T06:27:07Z,2022-09-02T03:31:54+00:00,1,93.08,True,22,0,2,208,3,0,3,MERGED
+4986,Remove duplicate words in comments,Abirdcfly,2022-08-27T15:37:45Z,2022-08-27T20:39:27+00:00,1,5.03,True,2,2,2,46,1,0,1,MERGED
+4985,zstd: fix typo in comment,simon04,2022-08-25T07:02:36Z,2022-08-25T09:00:05+00:00,1,1.96,True,1,1,1,0,0,0,0,MERGED
+4984,events: Begin implementing event system,mholt,2022-08-24T20:54:21Z,2022-08-25T22:37:31+00:00,5,25.72,True,632,572,15,3640,6,3,9,MERGED
+4980,httpcaddyfile: Add ocsp_interval global option,benburkert,2022-08-23T17:23:42Z,2022-08-24T17:22:56+00:00,1,23.99,True,11,0,3,179,4,0,4,MERGED
+4978,fastcgi: Optimize FastCGI transport,WeidiDeng,2022-08-23T08:29:01Z,2022-09-02T22:57:56+00:00,8,254.48,True,399,314,8,101,20,1,21,MERGED
+4977,caddyhttp: Fix for nil `handlerErr.Err`,francislavoie,2022-08-23T07:35:57Z,2022-08-23T14:17:46+00:00,1,6.7,True,5,1,1,106,0,0,0,MERGED
+4976,httpcaddyfile: Add shortcut for expression matchers,francislavoie,2022-08-23T06:23:40Z,2022-09-02T03:12:37+00:00,1,236.82,True,65,18,3,1799,3,0,3,MERGED
+4975,templates: cap of slice should not be smaller than length,jedy,2022-08-23T05:43:11Z,2022-08-23T14:26:02+00:00,1,8.71,True,1,1,1,9,1,0,1,MERGED
+4972,templates: Document `httpError` function,Malankar,2022-08-21T12:35:42Z,2022-09-02T04:07:53+00:00,1,279.54,True,8,0,1,58,1,0,1,MERGED
+4971,caddyhttp: Set `http.error.message` to the HandlerError message,francislavoie,2022-08-21T10:49:14Z,2022-08-23T05:31:07+00:00,1,42.7,True,2,1,1,9,6,0,6,MERGED
+4966,core: Change net.IP to netip.Addr; use netip.Prefix,WilczynskiT,2022-08-16T21:38:24Z,2022-08-17T22:10:58+00:00,18,24.54,True,50,57,5,10,5,9,14,MERGED
+4964,admin: Don't stop old server if new one fails,WeidiDeng,2022-08-16T03:49:20Z,2022-08-26T04:17:52+00:00,1,240.48,True,4,2,1,53,1,0,1,MERGED
+4963,fileserver: reset buffer before using it (#4962),abdusco,2022-08-16T00:50:18Z,2022-08-16T04:31:46+00:00,1,3.69,True,1,0,1,65,2,0,2,MERGED
+4953,reverseproxy: Add `unix+h2c` Caddyfile network shortcut,francislavoie,2022-08-12T19:21:23Z,2022-08-12T21:09:19+00:00,1,1.8,True,23,0,2,123,1,0,1,MERGED
+4951,reverseproxy: Fix H2C dialer using new stdlib `DialTLSContext`,francislavoie,2022-08-12T17:17:33Z,2022-08-12T19:11:14+00:00,1,1.89,True,57,65,3,179,0,0,0,MERGED
+4950,httpcaddyfile: Fix bind when IPv6 is specified with network,stapelberg,2022-08-11T06:19:21Z,2022-09-15T14:03:24+00:00,5,847.73,True,24,12,1,58,11,3,14,MERGED
+4948,caddyhttp: Smarter path matching and rewriting,mholt,2022-08-10T05:56:54Z,2022-08-16T14:48:58+00:00,20,152.87,True,614,112,7,11957,3,5,8,MERGED
+4943,logging: Fix `cookie` filter,francislavoie,2022-08-08T23:55:07Z,2022-08-09T01:11:02+00:00,1,1.27,True,18,4,2,893,0,0,0,MERGED
+4937,go.mod: Upgrade OpenTelemetry dependencies,lewandowski-stripe,2022-08-08T17:25:34Z,2022-08-08T21:04:18+00:00,1,3.65,True,18,6,2,142,4,0,4,MERGED
+4935,reverseproxy: Add upstreams healthy metrics,david-szabo97,2022-08-07T12:07:42Z,2022-08-27T18:30:24+00:00,8,486.38,True,84,0,2,578,5,5,10,MERGED
+4933,caddyhttp: Support configuring Server from handler provisioning,WeidiDeng,2022-08-05T08:15:44Z,2022-09-16T20:48:55+00:00,4,1020.55,True,54,1,2,136,1,2,3,MERGED
+4932,optimization: Replaced strings.Index with strings.Cut,chir4gm,2022-08-04T09:31:58Z,2022-08-07T04:03:37+00:00,2,66.53,True,6,9,3,232,8,4,12,MERGED
+4930,Replace strings.Index usages with strings.Cut,WilczynskiT,2022-08-04T00:21:37Z,2022-08-04T17:17:35+00:00,2,16.93,True,32,33,8,11,4,0,4,MERGED
+4929,Serve http2 when listener wrapper doesn't return *tls.Conn,WeidiDeng,2022-08-03T14:17:19Z,2023-04-10T17:05:03+00:00,2,6002.8,True,153,5,3,10,7,3,10,MERGED
+4925,"chore: Bump up to Go 1.19, minimum 1.18",francislavoie,2022-08-02T18:13:29Z,2022-08-02T20:39:09+00:00,3,2.43,True,244,625,62,0,6,1,7,MERGED
+4920,adding h2c graceful shutdown,WeidiDeng,2022-07-29T01:11:33Z,2024-09-26T19:04:18+00:00,1,18977.88,False,103,4,3,10,5,1,6,CLOSED
+4919,chore: Add .gitattributes to force *.go to LF,francislavoie,2022-07-28T22:04:13Z,2022-07-29T12:46:46+00:00,1,14.71,True,2,1,2,41,1,0,1,MERGED
+4916,caddyhttp: Clear out matcher error immediately after grabbing it,francislavoie,2022-07-27T19:47:22Z,2022-07-28T21:19:48+00:00,1,25.54,True,14,0,2,122,3,0,3,MERGED
+4913,ci: Run golangci-lint on multiple os(#4875),u5surf,2022-07-26T10:51:17Z,2022-07-27T13:27:19+00:00,7,26.6,True,6,3,1,74,9,1,10,MERGED
+4910,ci: generate SBOM and sign artifacts using cosign,mohammed90,2022-07-25T14:33:55Z,2022-09-03T00:37:10+00:00,1,946.05,True,19,2,2,230,9,0,9,MERGED
+4905,reverseproxy: Implement read & write timeouts for HTTP transport,mholt,2022-07-22T22:38:39Z,2022-07-24T04:38:42+00:00,9,30.0,True,72,2,2,35,8,4,12,MERGED
+4900,cmd: Fix reload with stdin,francislavoie,2022-07-20T21:04:53Z,2022-07-21T00:14:34+00:00,1,3.16,True,27,18,2,302,0,0,0,MERGED
+4895,reverseproxy: Close hijacked conns on reload/quit,mholt,2022-07-17T04:46:24Z,2022-09-02T23:01:56+00:00,2,1146.26,True,103,5,2,1175,9,2,11,MERGED
+4882,reverseproxy: Support 1xx status codes (HTTP early hints),dunglas,2022-07-12T19:45:47Z,2022-08-09T16:53:24+00:00,4,669.13,True,25,0,1,40,4,2,6,MERGED
+4880,headers: Only replace known placeholders,francislavoie,2022-07-12T03:53:40Z,2022-07-12T18:16:03+00:00,1,14.37,True,10,10,1,11,2,0,2,MERGED
+4879,admin api: expect quoted ETags,jhwz,2022-07-11T20:10:23Z,2022-07-12T18:23:55+00:00,1,22.23,True,20,7,3,125,2,1,3,MERGED
+4872,reverseproxy: Adjust new TLS Caddyfile directive names,francislavoie,2022-07-08T08:15:53Z,2022-07-08T17:04:22+00:00,1,8.81,True,33,30,2,315,0,0,0,MERGED
+4871,templates: Access to proxy response (closes #4420),mholt,2022-07-07T19:20:48Z,2024-09-26T19:01:21+00:00,1,19487.68,False,46,8,2,814,10,1,11,CLOSED
+4867,"go.mod: Bump up quic-go to v0.28.0, fixes for BC breaks",francislavoie,2022-07-06T04:31:19Z,2022-07-06T18:14:32+00:00,1,13.72,True,16,13,3,139,0,0,0,MERGED
+4865,TCP Keepalive configuration,karmanyaahm,2022-07-03T14:37:37Z,2022-07-11T19:55:46+00:00,5,197.3,True,53,5,5,855,8,4,12,MERGED
+4856,forwardauth: Fix case when `copy_headers` is omitted,francislavoie,2022-06-28T07:21:25Z,2022-06-29T01:23:30+00:00,1,18.03,True,24,22,1,1012,0,0,0,MERGED
+4855,reverseproxy: PROXY protocol support for http transport,WeidiDeng,2022-06-28T03:53:34Z,2023-03-15T08:11:12+00:00,4,6244.29,False,93,0,6,68,4,3,7,CLOSED
+4848,reverseproxy: Fix panic when TLS is not configured,francislavoie,2022-06-21T09:07:52Z,2022-06-22T19:01:57+00:00,1,33.9,True,23,16,1,311,0,0,0,MERGED
+4847,reverseproxy: Fix double headers in response handlers,francislavoie,2022-06-21T08:29:15Z,2022-06-22T19:10:14+00:00,2,34.68,True,34,138,5,20,1,0,1,MERGED
+4846,admin: Implement /adapt endpoint (close #4465),mholt,2022-06-20T16:54:35Z,2022-06-29T04:43:57+00:00,2,203.82,True,46,1,1,1357,0,0,0,MERGED
+4843,Add SkipTLSPorts to http transport,kresike,2022-06-15T08:47:14Z,2022-06-20T17:51:43+00:00,3,129.07,True,33,1,3,18,0,1,1,MERGED
+4838,core: add type registry to facilitate validation of type adherence to namespace requirements,mohammed90,2022-06-12T19:42:00Z,2024-04-24T18:26:25+00:00,7,16366.74,False,157,0,16,1017,8,4,12,CLOSED
+4836,Another run at making reverse proxy TLS server name replaceable for SNI upstreams,kresike,2022-06-10T16:25:48Z,2022-06-15T03:53:05+00:00,11,107.45,True,39,2,1,249,5,3,8,MERGED
+4835,Make reverse proxy TLS server name replaceable for SNI upstreams.,kresike,2022-06-09T12:00:00Z,2022-06-09T15:10:41+00:00,1,3.18,False,5,0,1,26,1,0,1,CLOSED
+4831,headers: Support wildcards for delete ops,mholt,2022-06-08T20:22:55Z,2022-06-15T15:57:44+00:00,1,163.58,True,51,3,2,11,0,0,0,MERGED
+4827,reverseproxy: Correct the `tls_server_name` docs,francislavoie,2022-06-06T07:27:48Z,2022-06-06T18:37:09+00:00,2,11.16,True,12,5,1,81,0,1,1,MERGED
+4817,reverseproxy: Add `--internal-certs` CLI flag,varianone,2022-05-28T09:23:21Z,2022-05-29T20:33:02+00:00,2,35.16,True,20,4,1,121,1,0,1,MERGED
+4811,ci: Fix build caching on Windows,francislavoie,2022-05-24T23:50:27Z,2022-05-25T17:56:39+00:00,1,18.1,True,22,6,3,337,3,0,3,MERGED
+4808,Add SSL key logging.,Manouchehri,2022-05-23T16:10:19Z,2022-09-16T20:05:37+00:00,15,2787.92,True,87,40,3,13,4,5,9,MERGED
+4798,httpcaddyfile: Add `{err.*}` placeholder shortcut,francislavoie,2022-05-18T04:59:31Z,2022-05-24T16:06:46+00:00,1,155.12,True,1,0,1,219,0,0,0,MERGED
+4796,templates: Documentation consistency,davidbgk,2022-05-17T19:14:44Z,2022-05-17T22:56:40+00:00,1,3.7,True,1,1,1,57,3,0,3,MERGED
+4790,core: Windows service integration,WingLim,2022-05-17T13:28:39Z,2022-07-29T20:06:55+00:00,2,1758.64,True,105,24,15,339,4,0,4,MERGED
+4784,Add renegotiation option in reverseproxy tls client,yaslama,2022-05-13T04:51:09Z,2022-06-10T15:33:35+00:00,7,682.71,True,38,1,3,246,5,5,10,MERGED
+4783,"forwardauth: Support renaming copied headers, block support",francislavoie,2022-05-12T23:00:10Z,2022-06-16T20:28:11+00:00,1,837.47,True,142,7,2,676,2,0,2,MERGED
+4782,chore: Bump quic-go to v0.27.0,nekohasekai,2022-05-12T03:39:27Z,2022-05-12T05:25:18+00:00,1,1.76,True,4,4,3,0,3,0,3,MERGED
+4778,reverseproxy: Support http1.1>h2c,mholt,2022-05-09T18:16:12Z,2022-05-10T21:25:58+00:00,1,27.16,True,2,2,1,116,0,0,0,MERGED
+4774,httpcaddyfile: Support multiple values for `default_bind`,francislavoie,2022-05-08T19:33:15Z,2022-05-09T01:32:10+00:00,1,5.98,True,29,8,3,27,2,0,2,MERGED
+4767,templates: Add `humanize` function,git001,2022-05-06T11:48:38Z,2022-05-24T23:47:08+00:00,9,443.98,True,112,0,3,308,8,11,19,MERGED
+4760,reverseproxy: Permit resolver addresses to not specify a port,francislavoie,2022-05-04T07:07:25Z,2022-05-04T18:40:39+00:00,1,11.55,True,9,1,1,187,0,0,0,MERGED
+4757,templates: Add custom template function registration,kroppt,2022-05-01T22:59:09Z,2022-05-02T20:55:35+00:00,1,21.94,True,38,8,2,322,2,0,2,MERGED
+4756,"reverseproxy: Implement retry count, alternative to try_duration",francislavoie,2022-05-01T20:56:48Z,2022-07-13T20:15:00+00:00,3,1751.3,True,189,69,4,1289,1,1,2,MERGED
+4754,reverseproxy: Fix Caddyfile support for `replace_status`,francislavoie,2022-04-30T20:06:53Z,2022-05-02T17:44:29+00:00,1,45.63,True,37,19,2,374,0,0,0,MERGED
+4753,caddyfile: Shortcut for `remote_ip` for private IP ranges,francislavoie,2022-04-29T22:00:42Z,2022-05-04T18:42:37+00:00,1,116.7,True,36,0,2,692,2,0,2,MERGED
+4748,Add protocol_min and protocol_max for reverseproxy transport http #4747,git001,2022-04-29T00:59:45Z,2022-04-29T03:52:45+00:00,1,2.88,False,19,2,2,113,2,1,3,CLOSED
+4742,cmd: Fix unix socket addresses for admin API requests,francislavoie,2022-04-28T07:58:08Z,2022-04-28T14:31:59+00:00,1,6.56,True,1,1,1,133,0,0,0,MERGED
+4741,core: Add optional unix socket file permissions,emilylange,2022-04-28T06:38:41Z,2023-06-23T20:49:41+00:00,4,10118.18,True,156,3,2,1297,26,1,27,MERGED
+4740,caddyhttp: Improve listen addr error message for IPv6,francislavoie,2022-04-28T06:03:27Z,2022-04-28T14:18:46+00:00,1,8.26,True,7,3,1,722,0,0,0,MERGED
+4739,reverseproxy: Support performing pre-check requests,francislavoie,2022-04-28T04:35:43Z,2022-05-06T14:50:27+00:00,6,202.25,True,539,42,13,8174,26,6,32,MERGED
+4732,logging: Use `RedirectStdLog`,francislavoie,2022-04-27T02:48:41Z,2022-04-28T14:42:30+00:00,1,35.9,True,8,1,2,893,0,0,0,MERGED
+4728,httpcaddyfile: Deprecate paths in site addresses; use zap everywhere,francislavoie,2022-04-24T21:24:03Z,2022-04-25T16:12:11+00:00,1,18.8,True,23,11,5,3542,0,0,0,MERGED
+4726,"httpcaddyfile: Add `{vars.*}` placeholder shortcut, reverse `vars` sort order",francislavoie,2022-04-24T06:22:05Z,2022-04-25T16:47:13+00:00,1,34.42,True,82,7,3,792,0,0,0,MERGED
+4724,reverseproxy: Improve hashing LB policies with HRW,mholt,2022-04-22T21:39:34Z,2022-04-27T16:39:23+00:00,4,115.0,True,46,41,2,664,2,1,3,MERGED
+4720,"caddyauth: Speed up basicauth provision, deprecate `scrypt`",francislavoie,2022-04-22T02:21:21Z,2022-09-05T19:32:58+00:00,3,3281.19,True,44,10,3,1568,3,1,4,MERGED
+4715,Expose several Caddy HTTP Matchers to the CEL Matcher,TristonianJones,2022-04-19T02:48:17Z,2022-06-22T22:53:46+00:00,16,1556.09,True,1526,70,7,816,28,5,33,MERGED
+4707,caddyhttp: Enable HTTP/3 by default,mholt,2022-04-15T16:52:37Z,2022-08-15T18:01:58+00:00,8,2929.16,True,210,191,8,434,9,3,12,MERGED
+4703,ci: Ensure we always check for latest version of Go,francislavoie,2022-04-13T18:18:32Z,2022-04-13T20:03:40+00:00,7,1.75,True,36,5,4,746,0,1,1,MERGED
+4702,fix typo,cuishuang,2022-04-13T12:44:33Z,2022-04-13T16:13:28+00:00,1,3.48,True,1,1,1,0,1,0,1,MERGED
+4695,cmd: Add `--diff` option for `caddy fmt`,francislavoie,2022-04-10T21:24:03Z,2022-04-12T18:49:19+00:00,1,45.42,True,21,0,2,476,7,0,7,MERGED
+4693,reverseproxy: Support multiple 'to' upstreams in reverse-proxy cmd,parrotmac,2022-04-10T05:09:49Z,2022-09-15T18:35:38+00:00,1,3805.43,True,32,8,1,290,7,0,7,MERGED
+4691,caddyhttp: Implement `skip_log` handler,francislavoie,2022-04-09T04:56:30Z,2022-09-15T16:05:36+00:00,8,3827.15,True,195,116,5,1418,1,1,2,MERGED
+4687,fileserver: Implement `show` list,francislavoie,2022-04-08T08:40:10Z,2023-01-06T20:45:27+00:00,1,6564.09,False,201,23,4,206,2,2,4,CLOSED
+4684,logging: Caddyfile support for `duration_format`,francislavoie,2022-04-07T08:28:16Z,2022-04-07T17:23:29+00:00,1,8.92,True,12,9,1,31,0,0,0,MERGED
+4679,Replace placeholder for file_server index,u5surf,2022-04-05T11:52:33Z,2022-04-07T21:01:09+00:00,1,57.14,True,25,0,3,53,0,0,0,MERGED
+4674,"cmd: Fix defaulting admin address if empty in config, fixes `reload`",francislavoie,2022-04-02T18:21:51Z,2022-04-03T16:04:33+00:00,1,21.71,True,4,2,1,287,0,0,0,MERGED
+4669,caddypki: Load intermediate for signing on-the-fly,francislavoie,2022-03-29T21:35:08Z,2022-04-13T16:20:43+00:00,1,354.76,True,30,9,3,102,10,1,11,MERGED
+4666,reverseproxy: Add `_ms` placeholders for proxy durations,francislavoie,2022-03-29T05:52:22Z,2022-04-11T19:04:05+00:00,3,325.2,True,11,0,4,95,11,1,12,MERGED
+4665,chore: Fix for xcaddy builds,francislavoie,2022-03-27T07:02:49Z,2022-03-28T21:07:43+00:00,1,38.08,True,94,30,2,655,3,0,3,MERGED
+4664,reverseproxy: Sync up `handleUpgradeResponse` with stdlib,francislavoie,2022-03-26T02:22:27Z,2022-04-11T18:49:56+00:00,3,400.46,True,180,4,3,204,1,1,2,MERGED
+4661,httpcaddyfile: Fix Auto-HTTPS edgecase,francislavoie,2022-03-25T00:54:32Z,2022-03-25T04:54:03+00:00,1,3.99,True,75,2,4,623,0,0,0,MERGED
+4660,chore: Clean up adapt test line endings,francislavoie,2022-03-24T23:52:45Z,2022-03-25T04:48:45+00:00,1,4.93,True,546,541,7,314,0,0,0,MERGED
+4658,core: Allow LoadConfig to return ErrConfigUnchanged,RussellLuo,2022-03-24T07:45:32Z,2022-04-11T18:03:10+00:00,2,442.29,False,19,18,2,745,1,1,2,CLOSED
+4657,map: Prevent output destinations overlap with Caddyfile shorthands,francislavoie,2022-03-23T22:36:32Z,2022-05-06T16:25:32+00:00,1,1049.82,True,61,28,2,1023,0,0,0,MERGED
+4655,caddyfile: Prevent bad block opening tokens,francislavoie,2022-03-23T01:05:10Z,2022-03-23T18:34:13+00:00,6,17.48,True,77,2,3,1466,0,1,1,MERGED
+4654,Fix http3 servers dying after reload,renbou,2022-03-21T13:41:05Z,2022-03-22T23:47:57+00:00,12,34.11,True,90,41,4,469,1,2,3,MERGED
+4649,Optimize PrepareRequest and req.Context lookups,renbou,2022-03-19T04:41:03Z,2022-09-13T20:13:26+00:00,7,4287.54,False,167,134,18,2520,41,2,43,CLOSED
+4643,"caddyfile: Support for raw token values, improve `map`, `expression`",francislavoie,2022-03-18T02:38:32Z,2022-03-18T21:08:23+00:00,14,18.5,True,300,23,6,287,1,7,8,MERGED
+4629,caddyhttp: retain all values of vars matcher when specified multiple times,mohammed90,2022-03-11T11:53:50Z,2022-03-11T15:55:37+00:00,1,4.03,True,1,1,1,11,1,0,1,MERGED
+4616,"reverseproxy: Refactor dial address parsing, augment command parsing",francislavoie,2022-03-05T20:25:44Z,2022-03-05T23:34:19+00:00,1,3.14,True,134,119,4,325,0,0,0,MERGED
+4615,caddyconfig: Support conditional requests in HTTP loader,RussellLuo,2022-03-05T07:43:10Z,2022-03-24T07:35:39+00:00,2,455.87,False,16,20,2,115,11,1,12,CLOSED
+4614,fastcgi: Protect against requests with null bytes in the path,francislavoie,2022-03-05T02:27:35Z,2022-03-07T17:06:33+00:00,1,62.65,True,7,0,1,95,7,0,7,MERGED
+4613,fileserver: Add `pass_thru` Caddyfile option,francislavoie,2022-03-05T00:52:20Z,2022-03-05T03:50:05+00:00,1,2.96,True,38,0,2,119,1,0,1,MERGED
+4606,caddyhttp: Honor wildcard hosts in log SkipHosts,mholt,2022-03-01T21:06:21Z,2022-03-04T20:45:00+00:00,1,71.64,True,2,1,1,122,2,0,2,MERGED
+4603,Prevent unnecessary loading of config,YourTechBud,2022-02-26T14:44:33Z,2022-03-01T18:32:34+00:00,1,75.8,True,15,2,1,320,24,0,24,MERGED
+4597,"caddyhttp: remote_ip matcher, handling of zone identifiers",BitWuehler,2022-02-23T14:56:14Z,2022-03-01T22:50:12+00:00,20,151.9,True,35,7,1,2025,4,16,20,MERGED
+4592,httpcaddyfile: Support explicitly turning off `strict_sni_host`,francislavoie,2022-02-21T16:49:37Z,2022-03-02T01:02:39+00:00,1,200.22,True,17,6,2,528,6,0,6,MERGED
+4589,httpcaddyfile: Disabling OCSP stapling for both managed and unmanaged,francislavoie,2022-02-19T19:25:25Z,2022-02-19T21:20:38+00:00,1,1.92,True,10,2,2,210,0,0,0,MERGED
+4587,go.mod: Revert version bump of CEL,francislavoie,2022-02-19T17:06:47Z,2022-02-19T22:09:09+00:00,2,5.04,True,6,9,2,331,19,0,19,MERGED
+4585,caddyhttp: Move HTTP redirect listener to an optional module,francislavoie,2022-02-19T06:41:48Z,2022-02-19T22:36:37+00:00,3,15.91,True,46,5,3,269,0,1,1,MERGED
+4584,caddyhttp: Always log handled errors at debug level,francislavoie,2022-02-19T05:36:02Z,2022-02-19T22:10:50+00:00,1,16.58,True,1,5,1,692,1,0,1,MERGED
+4583,logging: Add `roll_local_time` Caddyfile option,francislavoie,2022-02-19T00:52:23Z,2022-02-19T22:12:28+00:00,1,21.33,True,9,0,2,38,0,0,0,MERGED
+4582,ci: update goreleaser,mohammed90,2022-02-19T00:15:47Z,2022-02-19T22:16:12+00:00,2,22.01,True,5,6,1,398,0,0,0,MERGED
+4579,admin: support ETags,jhwz,2022-02-16T23:51:38Z,2022-07-06T19:50:08+00:00,2,3355.97,True,105,7,3,430,29,2,31,MERGED
+4572,fastcgi: ensure `SERVER_PORT` is always set,ttys3,2022-02-12T11:37:10Z,2022-03-02T18:24:16+00:00,2,438.79,True,7,2,1,602,2,0,2,MERGED
+4571,caddyhttp: remote_ip matcher strip zone from end of IPv6,BitWuehler,2022-02-11T12:53:28Z,2022-02-23T14:57:36+00:00,2,290.07,False,5,0,1,303,3,1,4,CLOSED
+4569,admin: Stop writing 500 status on invalid requests,mintbomb27,2022-02-11T05:23:13Z,2022-02-11T20:23:45+00:00,1,15.01,True,12,3,1,11,3,0,3,MERGED
+4565,"cmd: Migrate to `spf13/cobra`, remove single-dash arg support",mohammed90,2022-02-06T14:28:57Z,2022-08-30T22:38:38+00:00,15,4928.16,True,123,126,6,944,11,6,17,MERGED
+4564,templates: Elaborate on what's supported by the markdown function,francislavoie,2022-02-05T16:11:21Z,2022-02-07T05:14:42+00:00,1,37.06,True,5,1,1,9,0,0,0,MERGED
+4551,reverseproxy: Make shallow-ish clone of the request,francislavoie,2022-01-27T09:39:17Z,2022-03-03T16:54:45+00:00,1,847.26,True,76,61,1,882,2,0,2,MERGED
+4550,reverseproxy: Avoid returning a `nil` error during GetClientCertificate,francislavoie,2022-01-27T08:35:21Z,2022-02-02T06:33:36+00:00,1,141.97,True,3,0,1,9,0,0,0,MERGED
+4549,fileserver: Fix canonicalization redir when within `handle_path`,francislavoie,2022-01-27T07:27:35Z,2022-03-01T22:32:39+00:00,1,807.08,True,4,1,1,197,0,0,0,MERGED
+4545,metrics: Enforce smaller set of method labels,hairyhenderson,2022-01-23T00:14:53Z,2022-01-25T20:34:36+00:00,12,68.33,True,74,25,4,372,2,4,6,MERGED
+4544,caddyhttp: Fix test when /tmp/etc already exists,Ikke,2022-01-22T20:24:35Z,2022-01-24T21:41:09+00:00,1,49.28,True,8,1,1,713,7,0,7,MERGED
+4541,caddytls: Support custom GetCertificate modules (like Tailscale),mholt,2022-01-22T00:17:09Z,2022-02-17T22:40:34+00:00,4,646.39,True,450,158,13,2633,16,2,18,MERGED
+4538,caddyhttp: Reject absurd methods,mholt,2022-01-19T19:21:13Z,2022-01-19T20:44:09+00:00,2,1.38,True,11,0,1,45,0,0,0,MERGED
+4535,Improve the reverse-proxy CLI --to flag help message,VojtechVitek,2022-01-19T13:21:45Z,2022-01-19T19:51:47+00:00,1,6.5,True,1,1,1,0,1,0,1,MERGED
+4534,explain cryptic unix socket listener error related to process kill,ForestJohnson,2022-01-19T00:42:58Z,2022-01-19T19:26:45+00:00,2,18.73,True,23,0,1,139,0,0,0,MERGED
+4532,httpcaddyfile: Fix incorrect handling of IPv6 bind addresses,francislavoie,2022-01-18T06:54:15Z,2022-01-18T18:27:43+00:00,1,11.56,True,30,1,2,352,0,0,0,MERGED
+4531,httpcaddyfile: Add `default_bind` global option,francislavoie,2022-01-18T06:39:16Z,2022-01-18T18:29:07+00:00,1,11.83,True,58,1,3,94,0,0,0,MERGED
+4530,caddyhttp: Fix HTTP->HTTPS redir not preferring HTTPS port if ambiguous,francislavoie,2022-01-18T06:03:09Z,2022-01-18T18:56:01+00:00,1,12.88,True,1,1,1,649,4,0,4,MERGED
+4528,rewrite: Add `method` Caddyfile directive,francislavoie,2022-01-17T12:00:40Z,2022-01-18T19:17:36+00:00,1,31.28,True,48,1,3,212,0,0,0,MERGED
+4522,caddytls: Fix `MatchRemoteIP` provisoning with multiple CIDR ranges,unknown,2022-01-13T13:24:41Z,2022-01-13T16:56:18+00:00,4,3.53,True,2,2,1,0,4,0,4,MERGED
+4516,rewrite: Fix a double-encode issue when using the `{uri}` placeholder,francislavoie,2022-01-10T05:25:09Z,2022-01-13T17:17:16+00:00,2,83.87,True,28,0,2,9,0,0,0,MERGED
+4514,httpcaddyfile: Add pki app `root` and `intermediate` cert/key config,francislavoie,2022-01-09T22:51:20Z,2022-01-18T19:18:32+00:00,1,212.45,True,89,1,2,62,0,0,0,MERGED
+4513,"caddytls: Add internal Caddyfile `lifetime`, `sign_with_root` opts",francislavoie,2022-01-09T18:04:46Z,2022-01-18T19:19:51+00:00,1,217.25,True,74,1,2,171,0,0,0,MERGED
+4507,reverseproxy: Implement trusted proxies for `X-Forwarded-*` headers,francislavoie,2022-01-04T11:57:24Z,2022-03-06T23:51:55+00:00,9,1475.91,True,243,23,3,627,19,3,22,MERGED
+4506,headers: Fix `+` in Caddyfile to properly append rather than set,francislavoie,2022-01-04T10:32:28Z,2022-01-04T17:10:12+00:00,1,6.63,True,16,1,2,292,0,0,0,MERGED
+4505,logging: Support turning off roll compression via Caddyfile,francislavoie,2022-01-04T10:19:20Z,2022-01-04T19:11:27+00:00,1,8.87,True,13,0,2,82,0,0,0,MERGED
+4499,caddyhttp: Fix `MatchPath` sanitizing,francislavoie,2021-12-30T04:32:40Z,2021-12-30T09:15:49+00:00,1,4.72,True,5,5,1,349,0,0,0,MERGED
+4485,reverseproxy: Fix incorrect `health_headers` Caddyfile parsing,francislavoie,2021-12-16T22:12:45Z,2021-12-17T15:53:12+00:00,1,17.67,True,9,9,2,188,0,0,0,MERGED
+4482,"reverseproxy, admin: memory leak fix",dtelyukh,2021-12-16T12:06:42Z,2022-01-04T19:14:18+00:00,5,463.13,True,12,2,2,117,1,1,2,MERGED
+4477,httpcaddyfile: Fix sorting edgecase for nested `handle_path`,francislavoie,2021-12-12T17:37:49Z,2021-12-13T18:42:08+00:00,2,25.07,True,150,7,3,1436,3,0,3,MERGED
+4470,reverseproxy: Dynamic upstreams (with support for SRV and A/AAAA lookups),mholt,2021-12-08T23:32:26Z,2022-03-07T00:43:40+00:00,23,2113.19,True,1058,283,10,1592,12,8,20,MERGED
+4468,reverseproxy: Better handling of request headers during proxying,francislavoie,2021-12-08T06:15:45Z,2022-03-02T21:01:56+00:00,1,2030.77,False,48,28,1,1479,3,0,3,CLOSED
+4463,pki: Avoid provisioning the `local` CA when not necessary,francislavoie,2021-12-07T06:26:45Z,2021-12-13T19:25:35+00:00,5,156.98,True,59,20,3,462,2,2,4,MERGED
+4460,docs: use backticks to not italicise glob path,adamburgess,2021-12-06T01:40:50Z,2021-12-06T06:48:41+00:00,2,5.13,True,1,1,1,241,0,0,0,MERGED
+4453,"go.mod: Update to latest smallstep/truststore, support FreeBSD",francislavoie,2021-11-29T19:52:24Z,2021-11-30T00:15:41+00:00,1,4.39,True,3,2,2,47,1,0,1,MERGED
+4452,templates: fix inconsistent nested includes,rockorager,2021-11-29T15:52:51Z,2021-11-29T17:29:41+00:00,3,1.61,True,109,12,3,9,0,1,1,MERGED
+4450,httpcaddyfile: Support configuring `pki` app names via global options,francislavoie,2021-11-28T21:04:00Z,2022-01-06T03:45:42+00:00,11,918.7,True,185,3,2,360,2,3,5,MERGED
+4447,fileserver: do not double-escape paths,mohammed90,2021-11-26T14:03:44Z,2021-12-11T14:26:22+00:00,1,360.38,True,3,5,2,45,3,0,3,MERGED
+4444,improve fmt warning message,hrz6976,2021-11-25T08:32:51Z,2021-12-07T17:03:58+00:00,2,296.52,True,1,1,1,155,8,0,8,MERGED
+4443,"pki: Implement `GET /pki/certificates/<id>` API, rework `caddy trust`",francislavoie,2021-11-25T07:00:49Z,2022-03-02T18:08:36+00:00,6,2339.13,True,483,110,9,3180,5,5,10,MERGED
+4438,caddyhttp: Make logging of sensitive headers opt-in,francislavoie,2021-11-24T06:20:17Z,2021-12-02T20:26:24+00:00,3,206.1,True,81,24,6,438,4,0,4,MERGED
+4437,"fastcgi: Fix a TODO, prevent zap using reflection for logging env",francislavoie,2021-11-24T03:02:29Z,2021-12-02T20:23:19+00:00,2,209.35,True,17,4,1,232,0,1,1,MERGED
+4436,"reverseproxy: Adjust defaults, document defaults",francislavoie,2021-11-24T02:23:40Z,2021-11-24T06:32:25+00:00,1,4.15,True,54,20,5,1034,0,0,0,MERGED
+4434,logging: add support for hashing data,dunglas,2021-11-23T20:59:24Z,2021-12-02T20:51:38+00:00,6,215.87,True,100,13,3,150,2,3,5,MERGED
+4429,caddyhttp: Log non-500 handler errors at debug level,francislavoie,2021-11-20T04:21:38Z,2021-11-22T18:58:25+00:00,2,62.61,True,4,0,1,157,0,0,0,MERGED
+4426,logging: add a regexp filter,dunglas,2021-11-17T10:33:39Z,2021-11-23T17:00:20+00:00,3,150.44,True,74,0,3,214,1,1,2,MERGED
+4425,logging: add a filter for cookies,dunglas,2021-11-17T09:45:05Z,2021-11-23T16:40:21+00:00,4,150.92,True,163,0,3,109,0,4,4,MERGED
+4424,logging: add a filter for query parameters,dunglas,2021-11-17T08:16:29Z,2021-11-23T09:01:43+00:00,15,144.75,True,189,0,3,364,7,8,15,MERGED
+4419,headers: use ReplaceKnown instead of ReplaceAll to avoid ignoring JSON values,hairyhenderson,2021-11-14T16:17:57Z,2021-12-02T23:50:14+00:00,2,439.54,False,30,10,2,638,3,0,3,CLOSED
+4417,fileserver: Extract default browse template into a separate file,jjlin,2021-11-13T08:21:25Z,2021-11-15T18:53:54+00:00,3,58.54,True,7,19,2,200,2,1,3,MERGED
+4415,fileserver: Fix handling of symlink sizes in directory listings,jjlin,2021-11-12T10:28:43Z,2021-11-22T21:59:09+00:00,1,251.51,True,13,13,2,12,4,0,4,MERGED
+4410,fileserver: browse: do not encode the paths in breadcrumbs and page title,mohammed90,2021-11-10T08:38:10Z,2021-11-23T08:13:09+00:00,1,311.58,True,19,3,2,247,3,0,3,MERGED
+4403,caddyhttp: Split up logged remote address into IP and port,francislavoie,2021-11-01T05:48:40Z,2021-11-29T06:18:36+00:00,4,672.5,True,22,8,5,685,1,0,1,MERGED
+4398,httpcaddyfile: Empty tls policy for internal http localhost,Easen,2021-10-25T18:42:28Z,2021-10-26T19:54:20+00:00,1,25.2,True,99,1,2,847,1,0,1,MERGED
+4393,fileserver: Prevent focusing filter from scrolling on page load,warbaque,2021-10-20T15:15:38Z,2021-10-20T16:15:58+00:00,2,1.01,True,1,1,1,11,1,1,2,MERGED
+4391,reverseproxy: New `copy_response` handler for `handle_response` routes,francislavoie,2021-10-19T08:32:25Z,2022-03-09T18:00:52+00:00,4,3393.47,True,419,5,5,2255,9,3,12,MERGED
+4389,caddytls: Make peer certificate verification pluggable,Gr33nbl00d,2021-10-18T15:57:20Z,2022-06-02T20:25:07+00:00,11,5452.46,True,82,26,1,170,12,14,26,MERGED
+4388,reverseproxy: Prevent copying the response if a response handler ran,francislavoie,2021-10-17T04:26:29Z,2021-10-18T18:00:43+00:00,1,37.57,True,27,12,1,928,0,0,0,MERGED
+4387,caddycmd: Add `--keep-backup` to upgrade commands,francislavoie,2021-10-16T05:39:59Z,2021-11-08T18:35:47+00:00,4,564.93,True,97,19,4,685,2,3,5,MERGED
+4386,"caddycmd: Add `--skip-standard` to `list-modules` command, quieter output",francislavoie,2021-10-16T04:13:11Z,2021-10-18T18:19:07+00:00,1,62.1,True,16,7,3,615,2,0,2,MERGED
+4377,caddycmd: fix caddy validate/fmt help message,jimen0,2021-10-11T10:15:31Z,2021-10-11T15:56:04+00:00,1,5.68,True,2,2,1,159,3,0,3,MERGED
+4369,fix: retain and restore terminal mode on Windows,mohammed90,2021-10-03T20:48:56Z,2021-10-08T03:34:43+00:00,5,102.76,False,34,1,4,338,3,2,5,CLOSED
+4364,style: move from deprecated ioutil to os and io packages,kallydev,2021-09-28T09:50:39Z,2021-09-29T17:17:49+00:00,2,31.45,True,71,84,26,249,1,0,1,MERGED
+4361,opentelemetry: create a new module,andriikushch,2021-09-27T09:45:43Z,2022-03-08T19:18:33+00:00,35,3897.55,True,632,2,11,691,29,35,64,MERGED
+4358,fileserver: Fix compression breaks using httpInclude (#4352),u5surf,2021-09-21T11:29:55Z,2021-10-16T15:09:17+00:00,5,603.66,True,70,29,2,379,1,2,3,MERGED
+4357,templates: Add tests for funcInclude and funcImport,rockorager,2021-09-19T13:49:01Z,2021-09-20T18:29:37+00:00,3,28.68,True,134,0,1,68,0,1,1,MERGED
+4356,fileserver: purple color for visited links in browse,SlavikCA,2021-09-18T03:39:13Z,2021-09-20T04:01:11+00:00,1,48.37,True,4,0,1,220,1,0,1,MERGED
+4354,fileserver: Fix displayed file size if it is symlink,HayatoShiba,2021-09-18T00:38:50Z,2021-09-18T11:51:59+00:00,5,11.22,True,21,6,2,10,3,1,4,MERGED
+4347,fastcgi: Implement `try_files` override in Caddyfile directive,francislavoie,2021-09-12T17:01:06Z,2021-09-17T14:23:06+00:00,1,117.37,True,155,11,2,546,1,0,1,MERGED
+4346,caddyhttp: Add support for triggering errors from `try_files`,francislavoie,2021-09-12T16:40:47Z,2021-09-17T06:52:32+00:00,4,110.2,True,39,1,3,1708,5,1,6,MERGED
+4342,fastcgi: Fix Caddyfile parsing when `handle_response` is used,francislavoie,2021-09-11T18:50:46Z,2021-09-11T20:12:21+00:00,1,1.36,True,146,1,2,452,0,0,0,MERGED
+4332,fileserver: properly handle escaped/non-ascii paths,mohammed90,2021-09-04T16:15:49Z,2021-09-16T20:40:31+00:00,2,292.41,True,62,3,6,83,1,0,1,MERGED
+4328,ci: revert workaround implemented in #4306,mohammed90,2021-09-03T12:31:43Z,2021-09-03T14:05:04+00:00,1,1.56,True,0,7,2,75,0,0,0,MERGED
+4321,"templates: Add template function ""import"" to enable {{ template ... }} and {{ block ...}}",rockorager,2021-09-01T00:14:23Z,2021-09-17T19:00:36+00:00,3,402.77,True,69,24,2,879,13,0,13,MERGED
+4318,encode: ignore flushing until after first write,ueffel,2021-08-31T18:29:19Z,2021-08-31T19:36:36+00:00,4,1.12,True,16,0,1,325,0,2,2,MERGED
+4316,"cmd: export CaddyVersion(), Commands()",pymnh,2021-08-31T12:47:05Z,2021-09-02T00:08:02+00:00,2,35.35,True,10,4,3,371,12,0,12,MERGED
+4313,caddyhttp: Redirect HTTP requests on the HTTPS port to https://,francislavoie,2021-08-30T05:14:08Z,2022-01-06T01:01:15+00:00,12,3091.79,True,119,0,2,2183,6,3,9,MERGED
+4302,caddyfile: Prevent invalid site addresses with comma,francislavoie,2021-08-22T19:42:44Z,2021-08-23T17:26:07+00:00,1,21.72,True,7,0,1,673,0,0,0,MERGED
+4301,caddyfile: Better error message for missing site block braces,francislavoie,2021-08-22T19:22:25Z,2021-08-23T17:53:27+00:00,1,22.52,True,14,3,2,866,0,0,0,MERGED
+4300,reverseproxy: Move status replacement intercept to `replace_status`,francislavoie,2021-08-22T18:28:21Z,2022-03-01T21:12:43+00:00,1,4586.74,True,56,45,2,699,0,0,0,MERGED
+4299,reverseproxy: Remove redundant flushing,francislavoie,2021-08-22T16:32:51Z,2021-08-23T17:54:28+00:00,1,25.36,True,0,9,1,572,1,0,1,MERGED
+4297,chore: Update quic-go for go 1.17 support,assistcontrol,2021-08-20T13:33:29Z,2021-08-20T16:19:17+00:00,1,2.76,True,21,11,2,133,4,0,4,MERGED
+4296,cmd: Fix paths when using an env file,pascal-zarrad,2021-08-20T12:05:50Z,2021-08-20T21:51:31+00:00,3,9.76,True,5,0,1,911,3,0,3,MERGED
+4295,caddyhttp: Improved documentation for MatchQuery,smebberson,2021-08-20T02:12:04Z,2021-08-20T04:44:29+00:00,1,2.54,True,13,1,1,116,1,0,1,MERGED
+4291,chore: Upgrade smallstep libs,francislavoie,2021-08-18T20:04:37Z,2021-08-19T22:08:19+00:00,1,26.06,True,261,16,2,361,3,0,3,MERGED
+4289,cmd: use net.ErrClosed for matching returned error,jimen0,2021-08-18T15:50:24Z,2021-08-18T18:58:20+00:00,1,3.13,True,2,1,1,16,0,0,0,MERGED
+4285,caddyhttp: Implement `http.request.uuid` placeholder,rainerborene,2021-08-17T12:49:13Z,2021-12-15T07:17:53+00:00,7,2874.48,True,20,0,2,160,26,4,30,MERGED
+4283,"ci: Build and test on Go 1.17, bump minimum to 1.16",francislavoie,2021-08-16T22:40:11Z,2021-08-17T03:56:20+00:00,2,5.27,True,5,5,5,74,2,0,2,MERGED
+4282,logging: Remove common_log field and single_field encoder (#4149),mholt,2021-08-16T21:56:44Z,2021-11-29T06:08:52+00:00,1,2504.2,True,1,100,4,328,5,0,5,MERGED
+4280,core: bring back time.now unix formats,rainerborene,2021-08-15T21:22:52Z,2021-08-16T21:06:44+00:00,3,23.73,True,4,0,1,396,2,1,3,MERGED
+4274,admin: Synchronize server assignment/references to avoid data race,stangles,2021-08-08T00:30:54Z,2021-08-16T21:04:47+00:00,4,212.56,True,49,20,2,1507,1,2,3,MERGED
+4266,reverseproxy: Pull latest proxy changes from stdlib,francislavoie,2021-08-03T18:30:10Z,2021-08-12T16:48:24+00:00,1,214.3,True,37,15,2,703,6,0,6,MERGED
+4264,Add support for embedded named matchers,thedadams,2021-08-03T05:37:52Z,2022-06-22T20:59:46+00:00,9,7767.36,False,551,87,6,544,34,4,38,CLOSED
+4263,httpcaddyfile: Add shortcut for proxy hostport placeholder,francislavoie,2021-08-02T20:40:47Z,2021-08-12T18:08:37+00:00,1,237.46,True,1,0,1,504,3,0,3,MERGED
+4258,httpcaddyfile: Ensure hosts to skip for logs can always be collected,m90,2021-07-31T12:03:28Z,2021-08-02T20:15:27+00:00,2,56.2,True,85,3,2,1125,3,0,3,MERGED
+4246,admin: Implement a simple timer to pull config,colinaaa,2021-07-19T13:51:36Z,2021-07-28T21:39:08+00:00,8,223.79,True,38,12,2,487,5,6,11,MERGED
+4244,logging: Add missing interface guards for replace filter,leodido,2021-07-12T10:19:52Z,2021-07-12T15:13:01+00:00,1,4.89,True,2,0,1,103,1,0,1,MERGED
+4243,caddyhttp: Fix edgecase with HTTP->HTTPS logic,francislavoie,2021-07-11T15:08:22Z,2021-07-14T16:49:34+00:00,1,73.69,True,31,0,2,1166,1,0,1,MERGED
+4241,caddyhttp: Placeholder for client cert in DER + base64 format,musinit,2021-07-10T17:22:03Z,2021-10-01T22:27:29+00:00,3,1997.09,True,5,0,3,11,10,3,13,MERGED
+4237,reverseproxy: Sanitize scheme and host on incoming requests,francislavoie,2021-07-06T20:54:31Z,2021-10-26T20:41:29+00:00,2,2687.78,True,14,0,1,1864,5,2,7,MERGED
+4236,caddyhttp: Fix incorrect determination of gRPC protocol,hmol233,2021-07-06T14:12:21Z,2021-07-06T16:09:44+00:00,1,1.96,True,1,1,1,59,3,0,3,MERGED
+4233,caddyfile: keep error chain info in Dispenser.Errf,ggicci,2021-07-05T09:27:02Z,2021-07-19T14:35:14+00:00,3,341.14,True,10,3,2,180,3,1,4,MERGED
+4232,reverseproxy: Keep path to unix socket as dial address,elnoro,2021-07-05T07:00:03Z,2021-07-07T03:43:45+00:00,2,44.73,True,56,1,2,395,4,0,4,MERGED
+4226,cmd: Implement `add-package` command,musinit,2021-06-29T13:00:28Z,2021-08-11T23:31:41+00:00,17,1042.52,True,330,197,3,0,21,19,40,MERGED
+4222,fileserver: Add `disable_canonical_uris` Caddyfile subdirective,mritd,2021-06-27T03:52:18Z,2021-07-01T23:22:17+00:00,3,115.5,True,40,0,2,96,4,0,4,MERGED
+4218,fileserver: Fix browse name_dir_first sorting,diamondburned,2021-06-21T08:49:01Z,2021-07-07T06:54:55+00:00,1,382.1,True,1,1,1,231,4,0,4,MERGED
+4215,encode: Tweak compression settings,klauspost,2021-06-18T11:15:19Z,2021-06-18T17:49:49+00:00,5,6.58,True,8,6,2,277,4,1,5,MERGED
+4207,caddyhttp: Refactor and export SanitizedPathJoin for use in fastcgi,mholt,2021-06-14T16:58:03Z,2021-06-17T15:59:08+00:00,1,71.02,True,131,134,8,275,2,0,2,MERGED
+4203,Force auto-renew for OCSP revoked status (maybe) (fix #4191),mholt,2021-06-11T17:38:01Z,2021-06-12T20:44:32+00:00,1,27.11,True,8,9,2,215,0,0,0,MERGED
+4192,httpcaddyfile: Add `preferred_chains` global option and `issuer` subdirective,Klooven,2021-06-05T13:31:36Z,2021-06-08T20:10:37+00:00,9,78.65,True,187,1,5,542,5,1,6,MERGED
+4189,logging: Actually use `level_key`,francislavoie,2021-06-04T04:02:20Z,2021-06-04T20:15:43+00:00,1,16.22,True,3,0,1,80,0,0,0,MERGED
+4187,metrics: use buildinfo collector from new collectors pkg,hairyhenderson,2021-06-03T19:52:21Z,2021-06-04T04:19:17+00:00,1,8.45,True,2,1,1,349,0,0,0,MERGED
+4179,fileserver: Redirect within the original URL,diamondburned,2021-05-25T22:36:23Z,2021-06-07T18:20:08+00:00,10,307.73,True,12,10,2,642,4,1,5,MERGED
+4178,caddytls: Add Caddyfile support for `propagation_timeout`,kmpm,2021-05-25T19:08:24Z,2021-06-07T18:25:12+00:00,2,311.28,True,86,0,2,12,4,0,4,MERGED
+4165,reverseproxy: Set the headers in the replacer before `handle_response`,francislavoie,2021-05-12T04:27:03Z,2021-05-12T20:19:08+00:00,1,15.87,True,12,3,1,465,5,0,5,MERGED
+4163,caddyfile: Add parse error on site address with trailing `{`,francislavoie,2021-05-12T01:55:07Z,2021-05-12T22:18:45+00:00,4,20.39,True,9,0,2,564,0,1,1,MERGED
+4160,upgrade: inherit the permissions of the original executable,mohammed90,2021-05-11T06:02:01Z,2021-05-11T22:11:27+00:00,1,16.16,True,5,1,1,12,0,0,0,MERGED
+4154,"caddytls: Run replacer on ask URL, for env vars",francislavoie,2021-05-08T22:15:30Z,2021-05-09T04:37:27+00:00,1,6.37,True,6,0,1,11,0,0,0,MERGED
+4153,httpcaddyfile: Add `skip_install_trust` global option,francislavoie,2021-05-08T21:50:59Z,2021-06-07T18:18:49+00:00,2,716.46,True,77,0,3,11,1,0,1,MERGED
+4152,httpcaddyfile: Add `grace_period` global option,francislavoie,2021-05-07T15:39:50Z,2021-05-07T22:18:18+00:00,1,6.64,True,17,5,3,61,1,0,1,MERGED
+4151,encode: Default to order the formats are enabled for `prefer` in Caddyfile,francislavoie,2021-05-07T03:20:28Z,2021-05-10T16:06:38+00:00,1,84.77,True,70,1,2,299,0,0,0,MERGED
+4149,logging: Prep for `common_log` removal,francislavoie,2021-05-06T04:56:09Z,2021-07-14T17:07:39+00:00,1,1668.19,True,5,0,2,929,1,0,1,MERGED
+4147,fileserver: Fix `file` matcher with empty `try_files`,francislavoie,2021-05-04T03:47:06Z,2021-05-04T15:49:14+00:00,2,12.04,True,5,7,1,989,0,1,1,MERGED
+4143,caddyhttp: performance improvement in Regex Match,calvinxiao,2021-05-01T15:42:22Z,2021-05-02T16:35:28+00:00,1,24.89,True,29,2,2,535,0,0,0,MERGED
+4141,cmd: Add `envfile` flag to `start` command,jesse996,2021-04-30T17:00:14Z,2021-05-02T18:38:16+00:00,6,49.63,True,9,1,2,24,2,2,4,MERGED
+4137,caddyhttp: reverseproxy: fix hash selection policy,simaotwx,2021-04-29T08:01:53Z,2021-04-29T16:52:22+00:00,2,8.84,True,30,2,2,102,5,0,5,MERGED
+4134,httpcaddyfile: Add global option for `storage_clean_interval`,francislavoie,2021-04-26T05:14:04Z,2021-05-02T17:57:29+00:00,1,156.72,True,26,1,3,19,3,0,3,MERGED
+4132,fileserver: Better handling of HTTP status override,francislavoie,2021-04-24T23:21:30Z,2021-04-29T06:01:48+00:00,5,102.67,True,30,16,1,990,2,1,3,MERGED
+4131,caddyhttp: Fix fallback for the error handler chain,francislavoie,2021-04-24T22:52:08Z,2021-05-05T21:55:40+00:00,2,263.06,True,5,1,1,2210,3,1,4,MERGED
+4129,caddyfile: Fix `import` replacing unrelated placeholders,francislavoie,2021-04-22T18:19:55Z,2021-04-23T00:29:05+00:00,1,6.15,True,44,1,3,307,5,0,5,MERGED
+4128,httpcaddyfile: Fix unexpectedly removed policy,skeetmtp,2021-04-22T15:09:43Z,2021-04-29T16:56:01+00:00,2,169.77,True,69,3,2,214,4,1,5,MERGED
+4125,reverseproxy: Implement admin API for reporting upstream statuses,francislavoie,2021-04-21T06:12:05Z,2021-04-21T19:43:35+00:00,6,13.53,True,122,0,1,634,6,2,8,MERGED
+4111,logging: Implement dial timeout for net writer (fix #4083),mholt,2021-04-12T20:49:28Z,2021-05-19T16:48:30+00:00,6,883.98,False,39,5,1,293,9,1,10,CLOSED
+4105,ci: fuzz: add more fuzz targets,mohammed90,2021-04-04T17:52:07Z,2021-04-08T17:45:19+00:00,2,95.89,True,103,0,4,622,2,0,2,MERGED
+4104,httpcaddyfile: Fix panic in automation policy consolidation,francislavoie,2021-04-02T16:01:43Z,2021-04-02T22:47:04+00:00,3,6.76,True,157,1,2,1659,3,3,6,MERGED
+4103,caddyfile: Normalize line endings before comparing fmt result,francislavoie,2021-04-02T06:37:45Z,2021-04-02T17:55:34+00:00,1,11.3,True,6,3,1,337,0,0,0,MERGED
+4102,ci: accommodate `go mod` changes of go1.16,mohammed90,2021-04-01T20:59:12Z,2021-04-01T22:07:32+00:00,1,1.14,True,3,0,1,341,1,0,1,MERGED
+4096,reverseproxy: Set cookie path to `/` when using cookie lb_policy,d-masson,2021-03-30T17:30:39Z,2021-03-30T21:29:01+00:00,1,3.97,True,1,1,1,945,2,0,2,MERGED
+4093,fileserver: Share template logic for both `templates` and `file_server browse`,xdu31,2021-03-29T06:48:58Z,2021-05-01T02:17:23+00:00,6,787.47,True,175,111,8,11,16,2,18,MERGED
+4087,.gitignore: add IDE files,simaotwx,2021-03-24T11:07:29Z,2021-03-29T16:54:38+00:00,1,125.79,True,4,0,1,38,3,0,3,MERGED
+4085,headers: Fix Caddyfile parsing for `request_header` with matchers,francislavoie,2021-03-23T22:15:41Z,2021-03-29T16:55:29+00:00,1,138.66,True,94,0,2,119,2,0,2,MERGED
+4082,cmd: main: fix minor doc typos,xdevs23,2021-03-22T10:53:38Z,2021-03-29T17:02:21+00:00,1,174.15,True,2,2,1,32,0,0,0,MERGED
+4080,cmd: Use `caddy.Log()` instead of `fmt.Printf` for config adapter warnings,francislavoie,2021-03-22T06:20:32Z,2021-03-29T17:03:50+00:00,2,178.72,True,1,1,1,377,0,0,0,MERGED
+4078,sigtrap_posix: add missing comma to SIGTERM info,xdevs23,2021-03-21T10:27:11Z,2021-03-29T17:04:22+00:00,1,198.62,True,1,1,1,32,0,0,0,MERGED
+4077,httpcaddyfile: Add `auto_https ignore_loaded_certs`,francislavoie,2021-03-21T04:47:07Z,2021-05-02T18:11:28+00:00,2,1021.41,True,43,6,4,951,1,0,1,MERGED
+4076,fileserver: Add status code override,francislavoie,2021-03-20T06:04:11Z,2021-04-08T17:09:12+00:00,1,467.08,True,140,0,3,740,5,0,5,MERGED
+4075,update quic-go to v0.20.0,marten-seemann,2021-03-20T04:49:44Z,2021-04-05T19:09:31+00:00,1,398.33,True,13,14,2,165,2,0,2,MERGED
+4073,go.mod: Migrate golang.org/x/term,xdevs23,2021-03-19T21:13:50Z,2021-03-29T18:39:08+00:00,1,237.42,True,12,8,4,525,4,0,4,MERGED
+4072,caddyhttp: improve grammar of comment for AllowH2C,xdevs23,2021-03-19T20:51:31Z,2021-03-29T18:04:26+00:00,1,237.22,True,1,1,1,89,0,0,0,MERGED
+4070,CONTRIBUTING: fix spelling,simaotwx,2021-03-19T08:27:27Z,2021-03-19T11:37:43+00:00,2,3.17,True,2,2,1,54,2,0,2,MERGED
+4066,Add dark color scheme media query,radiden,2021-03-16T09:04:11Z,2021-03-19T17:41:02+00:00,3,80.61,True,49,0,1,148,13,0,13,MERGED
+4063,fileserver: Add a few more debug lines for fileserver problems,francislavoie,2021-03-14T16:35:26Z,2021-03-19T17:42:26+00:00,2,121.12,True,3,0,1,236,0,0,0,MERGED
+4060,notify: Send all sd_notify signals from main caddy process,carlwgeorge,2021-03-12T06:16:04Z,2021-04-05T20:01:20+00:00,2,589.75,True,43,18,6,583,4,0,4,MERGED
+4055,caddytls: Add `load_storage` module,francislavoie,2021-03-06T03:33:45Z,2021-04-21T23:05:56+00:00,2,1123.54,True,89,0,1,620,2,1,3,MERGED
+4050,"reverseproxy: Implement health_uri, replaces health_path, supports query",francislavoie,2021-03-04T19:05:37Z,2021-03-30T00:36:41+00:00,3,605.52,True,123,6,4,401,4,4,8,MERGED
+4046,reverseproxy: Fix upstreams with placeholders with no port,francislavoie,2021-03-03T08:02:39Z,2021-03-03T17:12:31+00:00,1,9.16,True,109,0,2,337,0,0,0,MERGED
+4045,"encode: Enhancements to content negotiation, serving precompressed content",ueffel,2021-03-02T19:10:21Z,2021-03-30T00:47:19+00:00,30,653.62,True,768,49,12,983,9,14,23,MERGED
+4034,httpcaddyfile: Add `error` directive for the existing handler,francislavoie,2021-02-22T09:13:13Z,2021-03-12T20:25:49+00:00,6,443.21,True,61,1,3,242,3,1,4,MERGED
+4033,caddyhttp: Implement better logic for inserting the HTTP->HTTPS redirs,francislavoie,2021-02-22T08:50:08Z,2021-04-20T01:54:12+00:00,2,1361.07,True,69,14,3,604,5,0,5,MERGED
+4029,logging: add replace filter for static value replacement,kujenga,2021-02-18T12:36:09Z,2021-03-12T20:01:34+00:00,2,535.42,True,36,3,2,601,1,0,1,MERGED
+4028,Allow configuration of loggers through Caddyfile global options,kujenga,2021-02-18T05:04:15Z,2021-03-12T20:00:03+00:00,28,542.93,True,414,26,9,389,5,8,13,MERGED
+4024,"ci: Build and test on Go 1.16, bump minimum to 1.15",francislavoie,2021-02-17T00:20:35Z,2021-02-18T12:09:49+00:00,10,35.82,True,5,5,5,1,3,3,6,MERGED
+4023,Fix to HTTP/2.- and Chrome coalescing issue,rayjlinden,2021-02-16T07:24:18Z,2022-01-12T21:24:22+00:00,1,7934.0,True,1,1,1,235,4,0,4,MERGED
+4022,caddyfile: reject cyclic imports,mohammed90,2021-02-16T03:47:00Z,2021-04-09T18:06:26+00:00,4,1262.32,True,193,5,8,169,2,2,4,MERGED
+4021,reverseproxy: Add `handle_response` blocks to `reverse_proxy` (#3710),francislavoie,2021-02-16T03:11:08Z,2021-05-02T18:39:06+00:00,11,1815.47,True,635,253,10,1082,8,5,13,MERGED
+4013,reverseproxy: Add duration/latency placeholders (close #4012),mholt,2021-02-08T19:59:30Z,2021-02-22T18:57:21+00:00,1,334.96,True,23,6,3,719,11,0,11,MERGED
+3999,listeners: Use net.UDPConn instead,francislavoie,2021-01-29T06:05:52Z,2021-02-16T21:09:48+00:00,1,447.07,False,14,9,1,77,10,0,10,CLOSED
+3995,ci: update the command to run tests on the s390x machine,mohammed90,2021-01-26T17:26:01Z,2021-01-28T22:40:36+00:00,2,53.24,True,2,1,1,171,0,0,0,MERGED
+3994,admin: Secure socket for remote management,mholt,2021-01-25T22:32:20Z,2021-01-27T23:16:05+00:00,4,48.73,True,862,214,11,6118,8,3,11,MERGED
+3992,Added regex pattern matching for Deleting Headers,rajat315315,2021-01-25T12:21:30Z,2021-03-02T19:43:30+00:00,7,871.37,False,24,4,2,12,7,4,11,CLOSED
+3991,map: Replace placeholders with regex groups,rajat315315,2021-01-25T10:56:01Z,2021-03-10T21:22:33+00:00,2,1066.44,True,3,2,2,11,13,0,13,MERGED
+3990,httpcaddyfile: Make third-party app modules configurable via globals,francislavoie,2021-01-24T17:50:21Z,2021-02-16T03:10:28+00:00,2,537.34,True,22,0,1,1236,12,2,14,MERGED
+3987,"Fix html redir code, improve flow",kroppt,2021-01-23T04:36:24Z,2021-01-28T19:59:50+00:00,1,135.39,True,138,6,2,548,2,0,2,MERGED
+3981,httpcaddyfile: Correct response status for meta redirect,rijusougata13,2021-01-21T12:01:36Z,2021-01-28T20:00:16+00:00,1,175.98,False,1,0,1,0,4,0,4,CLOSED
+3966,ci: deflake integration tests,mohammed90,2021-01-11T01:57:40Z,2021-02-05T15:36:53+00:00,2,613.65,True,55,19,1,824,8,1,9,MERGED
+3963,cmd: Implement sd_notify() to notify systemd about finished initialization,rumpelsepp,2021-01-09T13:51:41Z,2021-01-12T21:38:53+00:00,8,79.79,True,129,0,4,54,11,2,13,MERGED
+3956,caddytls: add 'key_type' subdirective,masipcat,2021-01-06T15:50:46Z,2021-01-06T19:02:59+00:00,4,3.2,True,21,0,3,190,4,5,9,MERGED
+3948,"reverseproxy: Caddyfile health check headers, host header support",bookiu,2020-12-31T10:16:23Z,2021-01-04T18:26:19+00:00,10,104.17,True,86,1,3,140,2,6,8,MERGED
+3944,metrics: allow disabling OpenMetrics negotiation,hairyhenderson,2020-12-30T13:28:50Z,2020-12-30T18:44:02+00:00,11,5.25,True,292,19,7,376,7,2,9,MERGED
+3941,ci: Add pushing to cloudsmith,francislavoie,2020-12-28T22:37:20Z,2020-12-30T17:54:59+00:00,2,43.29,True,60,1,2,584,2,0,2,MERGED
+3932,ci: reject tags if not signed by Matthew Holt's key,mohammed90,2020-12-18T06:21:07Z,2020-12-29T19:52:14+00:00,9,277.52,True,10,0,1,235,2,2,4,MERGED
+3923,caddyfile: Introduce basic linting and fmt check,mholt,2020-12-14T22:08:56Z,2021-01-04T18:11:37+00:00,2,500.04,True,40,54,7,550,2,2,4,MERGED
+3918,rewrite: Use r.URL.RawPath (fix #3596),go-d,2020-12-13T19:44:49Z,2021-01-11T16:18:53+00:00,1,692.57,True,37,11,2,118,13,0,13,MERGED
+3917,feat: add support for placeholders in headers values,SnirShechter,2020-12-13T18:03:11Z,2021-02-11T23:28:09+00:00,2,1445.42,False,19,1,2,289,5,1,6,CLOSED
+3910,reverseproxy: fix random hangs on http/2-requests with Server Pushes,dtelyukh,2020-12-09T10:42:30Z,2020-12-10T10:46:48+00:00,4,24.07,False,7,3,3,165,0,1,1,CLOSED
+3909,httpcaddyfile: support matching headers that do not exist,luludotdev,2020-12-09T00:13:59Z,2020-12-09T18:28:14+00:00,3,18.24,True,48,5,2,12,2,1,3,MERGED
+3908,feat: notify systemctl caddy is ready,gdhameeja,2020-12-08T17:11:21Z,2021-01-09T16:52:17+00:00,13,767.68,False,28,0,1,74,8,4,12,CLOSED
+3901,update quic-go to v0.19.3,marten-seemann,2020-12-04T05:29:02Z,2020-12-04T15:49:27+00:00,1,10.34,True,3,4,2,179,0,0,0,MERGED
+3898,cmd: add ability to read config from stdin,masipcat,2020-12-02T15:59:23Z,2020-12-03T17:02:19+00:00,2,25.05,True,5,1,1,11,5,0,5,MERGED
+3895,caddyauth: fix unbuffered channel passed to signal.Notify,cuonglm,2020-12-01T06:19:09Z,2020-12-01T15:27:47+00:00,1,9.14,True,1,1,1,441,4,0,4,MERGED
+3892,headers: Fix Caddyfile parsing with request matcher,francislavoie,2020-11-30T06:15:38Z,2020-11-30T17:20:31+00:00,1,11.08,True,29,0,2,513,0,0,0,MERGED
+3886,docs: Mention {http.auth.user.id} placeholder in basicauth JSON docs,francislavoie,2020-11-26T07:46:36Z,2020-11-27T03:31:25+00:00,2,19.75,True,5,0,1,107,0,1,1,MERGED
+3880,update quic-go to v0.19.2,marten-seemann,2020-11-21T09:40:06Z,2020-11-21T21:54:12+00:00,1,12.23,True,6,7,2,102,0,0,0,MERGED
+3875,reverseproxy: fix random hangs on http/2-requests with Server Pushes,dtelyukh,2020-11-18T08:47:12Z,2020-11-18T18:53:43+00:00,1,10.11,True,7,1,2,19,1,0,1,MERGED
+3874,acme_server: fix reload of acme database,ViViDboarder,2020-11-17T21:15:13Z,2020-11-23T20:58:27+00:00,9,143.72,True,71,27,2,441,3,6,9,MERGED
+3868,acme_server: switch to bbolt storage,ViViDboarder,2020-11-14T01:18:04Z,2020-11-23T20:03:59+00:00,2,234.77,True,18,3,1,185,6,0,6,MERGED
+3867,acme_server: switch to badgerV2 storage,ViViDboarder,2020-11-14T01:17:53Z,2020-11-16T18:38:39+00:00,2,65.35,False,9,4,1,189,1,1,2,CLOSED
+3862,caddytls: Support multiple issuers,mholt,2020-11-12T00:15:03Z,2020-11-16T18:05:56+00:00,12,113.85,True,307,234,13,5757,2,5,7,MERGED
+3861,basicauth: Nitpicks and small improvements,unknown,2020-11-12T00:12:14Z,2020-11-13T22:28:22+00:00,1,46.27,True,5,9,1,316,1,0,1,MERGED
+3859,Add Caddyfile support for request_body,pic,2020-11-08T16:07:54Z,2020-11-16T18:43:39+00:00,9,194.6,True,97,0,3,101,6,4,10,MERGED
+3849,Add new acme_server database options,ViViDboarder,2020-11-05T00:33:57Z,2020-11-16T18:42:46+00:00,3,282.15,False,59,9,2,572,10,1,11,CLOSED
+3846,"httpcaddyfile: Add certificate_pem placeholder short, add to godoc",gdhameeja,2020-11-04T09:32:44Z,2020-11-04T18:37:42+00:00,4,9.08,True,2,0,2,75,2,1,3,MERGED
+3845,ci: remove the continuous fuzzing job,mohammed90,2020-11-03T19:05:34Z,2020-11-04T16:32:08+00:00,2,21.44,True,0,73,1,581,0,0,0,MERGED
+3843,reverseproxy: Wire up a few missing http transport options in Caddyfile,francislavoie,2020-11-02T06:44:53Z,2020-11-02T21:59:02+00:00,1,15.24,True,63,4,2,27,1,0,1,MERGED
+3842,fastcgi: Add timeouts support to Caddyfile adapter,francislavoie,2020-11-02T06:27:28Z,2020-11-02T22:11:18+00:00,3,15.73,True,88,10,2,68,1,1,2,MERGED
+3839,caddyhttp: Merge query matchers in Caddyfile,francislavoie,2020-11-01T20:29:14Z,2020-11-02T23:05:02+00:00,1,26.6,True,38,17,2,616,0,0,0,MERGED
+3836,httpcaddyfile: Configure servers via global options,francislavoie,2020-11-01T03:51:43Z,2020-11-23T19:46:51+00:00,16,543.92,True,1084,658,15,2111,2,9,11,MERGED
+3832,caddyhttp: Add Caddyfile support for merging header matchers,francislavoie,2020-10-31T00:01:10Z,2020-10-31T16:27:01+00:00,1,16.43,True,38,1,2,550,0,0,0,MERGED
+3829,"reverseproxy: Make conns per host configurable, fix godocs",francislavoie,2020-10-29T21:54:41Z,2020-10-30T18:05:22+00:00,1,20.18,True,38,2,3,494,0,0,0,MERGED
+3824,httpcaddyfile: Revise automation policy generation,mholt,2020-10-28T16:23:41Z,2020-10-29T02:36:01+00:00,1,10.21,True,301,130,3,478,2,0,2,MERGED
+3821,Fixes logging filter for ip_mask with ipv4 adresses,christoph-kluge,2020-10-26T11:22:06Z,2020-11-02T23:01:58+00:00,2,179.66,True,1,1,1,575,2,0,2,MERGED
+3819,check if the upstream is a placeholder,jasonmccallister,2020-10-24T20:06:46Z,2020-10-29T19:51:43+00:00,2,119.75,True,3,1,1,586,1,1,2,MERGED
+3816,"reverseproxy: Better handling of ""operation was canceled"" errors",danlsgiga,2020-10-22T17:37:57Z,2020-11-25T17:54:23+00:00,9,816.27,True,24,3,1,538,2,2,4,MERGED
+3811,reverse_proxy: Fix random_choose lb_policy,d-masson,2020-10-19T10:44:58Z,2020-11-16T19:47:15+00:00,4,681.04,True,58,2,2,9,0,2,2,MERGED
+3809,reverseproxy: Implement `cookie` selection policy,d-masson,2020-10-19T10:03:08Z,2020-11-20T19:39:26+00:00,18,777.61,True,208,63,3,89,2,12,14,MERGED
+3807,Implement default header values in Caddyfile,gilbsgilbs,2020-10-18T19:25:00Z,2020-11-20T19:38:17+00:00,7,792.22,True,466,71,6,382,20,8,28,MERGED
+3794,ci: Use golangci's github action for linting,hairyhenderson,2020-10-11T21:44:36Z,2020-11-22T21:50:30+00:00,39,1008.1,True,256,199,41,691,1,38,39,MERGED
+3785,docs: Add link to website for download instructions in README,coolaj86,2020-10-08T20:03:26Z,2020-10-09T17:32:10+00:00,1,21.48,True,5,0,1,0,2,0,2,MERGED
+3781,caddyhttp: Restore original request params before error handlers,mholt,2020-10-07T18:24:25Z,2020-10-13T16:52:39+00:00,5,142.47,True,8,0,1,445,3,1,4,MERGED
+3780,"reverseproxy: Fix dial placeholders, SRV, active health checks",mholt,2020-10-07T17:11:47Z,2020-10-13T16:35:21+00:00,2,143.39,True,270,33,5,1285,6,0,6,MERGED
+3776,reverseproxy: restore allowing upstream to contain replaceable placeholders,mohammed90,2020-10-03T15:41:45Z,2020-10-12T20:27:03+00:00,6,220.75,False,302,13,3,50,2,3,5,CLOSED
+3771,reverseproxy: Change 500 error to 502 for lookup_srv config (#3763),aleert,2020-10-01T17:58:31Z,2020-10-01T20:02:32+00:00,1,2.07,True,2,1,1,65,1,0,1,MERGED
+3769,metrics: fix handler to not run the next route,hairyhenderson,2020-10-01T11:37:24Z,2020-10-01T16:57:15+00:00,2,5.33,True,1,1,1,62,0,0,0,MERGED
+3758,reverseproxy: ignore RFC 1521 parameters in mime type when checking the Content-Type header,cmfcmf,2020-09-27T15:05:58Z,2020-10-01T18:15:45+00:00,1,99.16,True,4,2,1,135,7,0,7,MERGED
+3756,reverseproxy: fix breakage in handling SRV lookup introduced by d55d50b,mohammed90,2020-09-26T01:49:12Z,2020-10-01T20:05:40+00:00,10,138.27,True,128,9,2,213,6,2,8,MERGED
+3749,admin: lower log level to Debug for /metrics requests,hairyhenderson,2020-09-24T00:53:18Z,2020-09-26T00:00:09+00:00,3,47.11,True,6,1,1,1685,0,3,3,MERGED
+3746,httpcaddyfile: Fix panic when parsing route with matchers,francislavoie,2020-09-22T21:11:42Z,2020-09-22T23:37:16+00:00,2,2.43,True,36,1,2,322,0,1,1,MERGED
+3742,metrics: Always track method label in uppercase,hairyhenderson,2020-09-22T02:50:25Z,2020-09-23T02:10:35+00:00,7,23.34,True,52,5,3,1147,5,3,8,MERGED
+3740,caddyconfig: Error on extra args for route and handle directive family,francislavoie,2020-09-21T00:24:01Z,2020-09-21T19:44:42+00:00,1,19.34,True,5,0,1,475,0,0,0,MERGED
+3739,fastcgi: Set PATH_INFO to file matcher remainder as fallback,francislavoie,2020-09-20T17:46:19Z,2020-12-05T00:12:14+00:00,2,1806.43,True,51,28,3,239,0,2,2,MERGED
+3737,metrics: Fix panic when headers aren't written,hairyhenderson,2020-09-19T02:45:36Z,2020-09-21T19:42:48+00:00,1,64.95,True,27,1,2,103,0,0,0,MERGED
+3733,metrics: Fixing panic while observing with bad exemplars,hairyhenderson,2020-09-18T02:32:04Z,2020-09-18T03:46:25+00:00,1,1.24,True,62,41,6,1955,2,0,2,MERGED
+3730,caddyfile: Add support for `vars` and `vars_regexp` matchers,mohammed90,2020-09-17T01:27:32Z,2020-09-25T23:50:27+00:00,4,214.38,True,109,0,3,165,4,1,5,MERGED
+3712,reverseproxy: Add `handle_response` blocks to `reverse_proxy` (#3710),maxatome,2020-09-06T16:17:52Z,2021-02-16T03:11:47+00:00,12,3898.9,False,187,5,4,0,7,3,10,CLOSED
+3711,logging: Experimental `except` option for delete filter,francislavoie,2020-09-06T05:55:09Z,2020-09-15T19:49:40+00:00,7,229.91,False,46,4,1,1940,3,1,4,CLOSED
+3710,reverseproxy: Add `buffer_requests` option to `reverse_proxy` directive,francislavoie,2020-09-04T19:42:08Z,2020-09-08T16:37:47+00:00,1,92.93,True,8,0,2,86,0,0,0,MERGED
+3709,Add support for metrics with Prometheus,hairyhenderson,2020-09-03T12:58:40Z,2020-09-17T18:01:21+00:00,58,341.04,True,518,33,12,48233,14,27,41,MERGED
+3706,browse: align template to struct field renames from 4940325,mohammed90,2020-09-02T19:53:42Z,2020-09-08T16:45:49+00:00,1,140.87,True,42,14,2,0,1,0,1,MERGED
+3701,caddytls: Add `dns` config to acmeissuer,francislavoie,2020-09-01T22:32:18Z,2020-09-08T17:36:47+00:00,1,163.07,True,26,0,1,691,0,0,0,MERGED
+3695,reverseproxy: return validation error if upstream address has port range size of more than 1,mohammed90,2020-08-31T23:05:17Z,2020-09-17T01:48:38+00:00,3,386.72,True,7,0,1,2368,7,1,8,MERGED
+3693,reverseproxy: do upstream health-check on the correct alternative port,mohammed90,2020-08-29T19:20:59Z,2020-09-17T16:25:34+00:00,17,453.08,True,132,21,5,227,5,5,10,MERGED
+3689,reverseproxy: Logging for streaming and upgrades,francislavoie,2020-08-26T21:16:46Z,2020-11-20T21:24:58+00:00,6,2064.14,True,8,7,1,262,0,6,6,MERGED
+3684,"fileserver: Fix try_files for directories, windows fix",francislavoie,2020-08-25T07:02:07Z,2020-09-17T00:09:28+00:00,7,545.12,True,165,35,6,1016,5,3,8,MERGED
+3682,"caddyfile: Add support for env var defaults, tests",francislavoie,2020-08-23T17:08:36Z,2020-11-23T19:51:36+00:00,2,2210.72,True,36,6,2,822,9,0,9,MERGED
+3680,cmd: Allow `caddy fmt` to read from stdin,matthewpi,2020-08-21T18:01:35Z,2020-09-14T18:30:13+00:00,6,576.48,True,19,6,2,14,3,2,5,MERGED
+3676,httpcaddyfile: Ensure handle_path is sorted as equal to handle,francislavoie,2020-08-21T05:49:02Z,2020-09-17T02:01:23+00:00,3,644.21,True,126,1,2,457,2,2,4,MERGED
+3673,ci: Tweaks for multi go version tests,francislavoie,2020-08-20T20:25:16Z,2020-08-21T02:40:27+00:00,4,6.25,True,26,22,4,363,1,1,2,MERGED
+3668,caddyhttp: Wrap http.Server logging with zap,francislavoie,2020-08-20T04:39:24Z,2020-09-08T16:44:59+00:00,2,468.09,True,9,1,1,1059,8,0,8,MERGED
+3662,caddyhttp: New placeholder for a PEM encoded value of client certificate,gdhameeja,2020-08-17T18:31:47Z,2020-09-16T21:06:52+00:00,4,722.58,True,8,0,2,9,9,2,11,MERGED
+3658,httpcaddyfile: Improve directive sorting logic,francislavoie,2020-08-14T22:52:39Z,2020-08-17T22:15:52+00:00,10,71.39,True,63,0,2,597,4,4,8,MERGED
+3653,reverseproxy: Add support for `Host` header selection policy,francislavoie,2020-08-13T19:56:09Z,2020-08-17T21:14:47+00:00,1,97.31,True,7,0,1,112,0,0,0,MERGED
+3642,ci: Upgrade to Go 1.15,francislavoie,2020-08-06T13:16:39Z,2020-08-20T20:04:11+00:00,1,342.79,True,35,16,5,0,7,0,7,MERGED
+3633,caddytls: Add support for ZeroSSL; add Caddyfile support for issuers,mholt,2020-08-04T22:20:31Z,2020-08-11T14:58:07+00:00,4,160.63,True,579,96,12,2158,2,2,4,MERGED
+3632,httpcaddyfile: Refactor to allow named matchers in `route` blocks,francislavoie,2020-08-04T11:14:00Z,2020-08-05T19:42:30+00:00,1,32.48,True,161,30,3,628,0,0,0,MERGED
+3629,reverseproxy: Add Caddyfile scheme shorthand for h2c,francislavoie,2020-08-04T09:15:54Z,2020-11-23T19:18:27+00:00,2,2674.04,True,48,3,2,12,0,1,1,MERGED
+3624,httpcaddyfile: Support `compression` in http transport config,Vigilans,2020-07-31T08:56:35Z,2020-07-31T17:30:21+00:00,8,8.56,True,104,0,2,461,1,1,2,MERGED
+3620,reverse_proxy: fix bi-h2stream breaking gzip encode handle(#3606).,masknu,2020-07-30T14:34:28Z,2020-08-04T02:50:39+00:00,6,108.27,True,259,5,3,85,3,3,6,MERGED
+3617,ci: Include tracking of GOOS for which Caddy fails to build,mohammed90,2020-07-29T00:07:55Z,2020-08-01T20:23:23+00:00,2,92.26,True,57,1,2,241,6,2,8,MERGED
+3608,Add support to  resolve CN in CEL expression,v-rosa,2020-07-27T08:19:46Z,2020-07-31T21:06:31+00:00,4,108.78,True,98,1,2,219,4,2,6,MERGED
+3607,Small improvements to avoid possible panics and inform users about the actual error,barthr,2020-07-26T15:05:19Z,2020-07-31T22:54:19+00:00,1,127.82,True,14,5,4,204,1,0,1,MERGED
+3595,httpcaddyfile: Bring `enforce_origin` and `origins` to admin config,Vigilans,2020-07-23T12:07:55Z,2020-08-03T19:44:39+00:00,5,271.61,True,164,14,4,216,2,4,6,MERGED

@@ -149,3 +149,853 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 14028,Fix keysizes -  SPOP with count (case 3) and SETRANGE,moticless,2025-05-11T07:18:58Z,2025-05-19T13:59:22+00:00,14,198.67,True,97,20,8,753,4,12,16,MERGED
 14025,Redis 8.0.1,YaacovHazan,2025-05-08T19:07:56Z,2025-05-13T13:28:36+00:00,1,114.34,True,42,2,2,0,1,0,1,MERGED
 14024,Fix internal-secret test flakiness under slow environment,sundb,2025-05-08T13:19:34Z,2025-05-14T08:31:42+00:00,1,139.2,True,3,3,1,266,0,0,0,MERGED
+14022,Fix minor grammatical error,DoozkuV,2025-05-07T18:50:49Z,2025-05-09T07:20:56+00:00,1,36.5,True,1,1,1,44,1,0,1,MERGED
+14021,"doc: adding TOC to readme, improving usability",wjohnsto,2025-05-07T18:15:39Z,2025-05-08T19:05:21+00:00,11,24.83,True,229,208,1,655,0,4,4,MERGED
+14017,Improve multithreaded performance with memory prefetching,ShooterIT,2025-05-07T02:38:07Z,2025-06-05T00:57:43+00:00,51,694.33,True,706,14,17,3646,7,14,21,MERGED
+14013,Update modeuls to 8.0.1,eranhd,2025-05-06T14:07:59Z,2025-05-06T18:20:29+00:00,1,4.21,True,3,3,3,0,1,0,1,MERGED
+14012,extract duplicated AOF list formatting logic into helper function,dukbong,2025-05-06T13:22:59Z,2025-05-20T03:08:03+00:00,1,325.75,True,15,12,1,337,6,0,6,MERGED
+14011,RQE - bump version to 8.0.1,alonre24,2025-05-06T12:57:30Z,2025-05-06T18:19:43+00:00,1,5.37,True,1,1,1,0,2,0,2,MERGED
+14010,LICENSE.txt wrongly included the text of GPLv3 instead of AGPLv3,LiorKogan,2025-05-06T05:47:29Z,2025-05-06T11:45:36+00:00,1,5.97,True,96,56,1,0,3,0,3,MERGED
+14005,Fix version for vector set commands.json,alisaifee,2025-05-03T19:12:24Z,2025-07-08T08:32:00+00:00,2,1573.33,True,11,11,1,72,5,0,5,MERGED
+14002,Update Makefile - RQE 8.0.0,DvirDukhan,2025-05-02T07:53:33Z,2025-05-02T08:59:19+00:00,1,1.1,True,1,1,1,0,1,0,1,MERGED
+14001,Update Security Policy,YaacovHazan,2025-05-02T05:44:19Z,2025-05-02T08:58:55+00:00,1,3.24,True,8,7,1,0,1,0,1,MERGED
+13999,Update Bloom TS and JSON to 8.0.0,eranhd,2025-05-01T17:45:03Z,2025-05-05T18:39:19+00:00,1,96.9,True,3,3,3,0,1,0,1,MERGED
+13996,Fix sds leak in slaveTryPartialResynchronization,chx9,2025-04-30T13:55:21Z,2025-05-06T13:53:52+00:00,1,143.98,True,2,3,1,70,1,0,1,MERGED
+13991,Remove redundant HASH_SET_COPY macro and hfieldGetExpireTime declaration,vitahlin,2025-04-29T14:50:05Z,2025-05-09T07:22:28+00:00,1,232.54,True,0,2,2,902,1,0,1,MERGED
+13990,Record the time a replica attempts to connect with master,StavRLevi,2025-04-29T09:51:28Z,2025-06-22T06:19:26+00:00,14,1292.47,True,214,6,4,679,1,12,13,MERGED
+13987,Remove io-threads-do-reads from normal config list,ShooterIT,2025-04-28T08:08:53Z,2025-04-28T09:55:47+00:00,1,1.78,True,2,4,3,234,2,0,2,MERGED
+13985,Update Makefile - search & TS RC2,DvirDukhan,2025-04-27T12:36:19Z,2025-04-27T19:47:48+00:00,2,7.19,True,2,2,2,0,1,0,1,MERGED
+13984,Correctly update kvstore overhead after emptying or releasing dict,sundb,2025-04-26T09:00:15Z,2025-05-07T08:45:24+00:00,19,263.75,True,52,11,4,1424,6,7,13,MERGED
+13981,Optimize hash and zset with lpBatchAppend,minchopaskal,2025-04-25T13:56:25Z,2025-05-20T07:44:46+00:00,3,593.81,True,21,17,2,5426,11,0,11,MERGED
+13980,RED-154147 make vectorset-commands.json coherent with the other command json file,DvirDukhan,2025-04-25T06:49:27Z,2025-04-27T12:38:18+00:00,1,53.81,True,383,0,1,1100,2,0,2,MERGED
+13978,[Vector sets] RDB IO errors handling,antirez,2025-04-24T13:43:38Z,2025-05-07T18:49:00+00:00,9,317.09,True,80,13,4,361,26,2,28,MERGED
+13971,Redis 6.2.18,YaacovHazan,2025-04-23T10:51:10Z,2025-04-23T11:54:22+00:00,1,1.05,True,36,2,4,106,2,0,2,MERGED
+13970,Resolve bounds checks on cluster_legacy.c,sundb,2025-04-23T07:03:15Z,2025-05-26T08:52:06+00:00,2,793.81,True,18,14,2,1354,4,1,5,MERGED
+13969,Make IO thread and main thread process in parallel and reduce notifications,ShooterIT,2025-04-23T06:33:10Z,2025-05-13T07:13:48+00:00,7,480.68,True,155,48,3,837,5,4,9,MERGED
+13968,Let IO threads free argv and rewrite objects,ShooterIT,2025-04-23T03:15:39Z,2025-05-23T01:09:59+00:00,10,717.91,True,64,3,4,600,5,3,8,MERGED
+13966,Fix tls port update not reflected in CLUSTER SLOTS,vitahlin,2025-04-22T13:52:49Z,2025-04-24T01:36:45+00:00,2,35.73,True,13,3,2,508,1,0,1,MERGED
+13965,Release 7.2.8,YaacovHazan,2025-04-22T10:43:58Z,2025-04-23T11:54:38+00:00,1,25.18,True,334,99,21,0,1,0,1,MERGED
+13964,Add thread sanitizer run to daily CI,skaslev,2025-04-22T08:14:45Z,2025-06-02T07:13:23+00:00,41,982.98,True,145,46,20,1111,18,14,32,MERGED
+13963,Redis 7.4.3,YaacovHazan,2025-04-22T07:53:24Z,2025-04-23T11:54:51+00:00,1,28.02,True,286,108,26,0,3,0,3,MERGED
+13961,Fix oldTC CI dk.archive.ubuntu.com  could not connect,vitahlin,2025-04-21T06:11:55Z,2025-04-21T07:23:03+00:00,1,1.19,True,8,8,2,1891,2,0,2,MERGED
+13959,[Vector sets] fast JSON filter,antirez,2025-04-20T10:08:56Z,2025-05-05T06:52:42+00:00,19,356.73,True,903,3581,7,2157,10,8,18,MERGED
+13958,Fix incorrect lag due to trimming stream via XTRIM or XADD command,nesty92,2025-04-18T23:41:50Z,2025-04-22T02:11:10+00:00,3,74.49,True,17,1,2,244,3,2,5,MERGED
+13951,Create global data before test instead of module load for module defrag test,sundb,2025-04-16T07:16:37Z,2025-07-22T12:44:12+00:00,2,2333.46,True,16,13,2,366,1,0,1,MERGED
+13950,Add GETRANGE tests with negative indices,guybe7,2025-04-15T23:31:38Z,2025-05-27T01:41:28+00:00,1,986.16,True,12,0,1,18,0,0,0,MERGED
+13945,fix flaky replication test,oranagra,2025-04-15T12:20:12Z,2025-04-15T14:18:00+00:00,1,1.96,True,1,1,1,387,0,0,0,MERGED
+13944,Input output traffic stats and command process count for each client.,minchopaskal,2025-04-14T12:50:30Z,2025-05-09T13:55:47+00:00,6,601.09,True,141,6,5,648,1,2,3,MERGED
+13942,Avoid using debug log level in tests that produce many keys,oranagra,2025-04-14T07:53:28Z,2025-04-14T11:15:50+00:00,1,3.37,True,2,2,1,93,5,0,5,MERGED
+13941,Vector Sets: VISMEMBER and other fixes,antirez,2025-04-11T11:02:08Z,2025-04-15T19:58:57+00:00,5,104.95,True,167,20,5,103,1,2,3,MERGED
+13937,Delete redundant declaration of clusterNodeIsMaster(),chx9,2025-04-10T11:51:17Z,2025-04-13T12:30:34+00:00,1,72.65,True,0,1,1,28,0,0,0,MERGED
+13934,Fix 'Client output buffer hard limit is enforced' test causing infinite loop,vitahlin,2025-04-10T07:23:08Z,2025-05-06T02:44:16+00:00,2,619.35,True,3,1,1,8742,4,1,5,MERGED
+13932,Fix port update not reflected in CLUSTER SLOTS,StavRLevi,2025-04-09T12:26:59Z,2025-04-21T09:13:56+00:00,11,284.78,True,17,0,2,242,3,6,9,MERGED
+13931,Fix order of KSN for hgetex command,tezc,2025-04-09T12:01:29Z,2025-04-14T10:31:31+00:00,3,118.5,True,71,11,2,276,2,1,3,MERGED
+13930,Extend the pubsub test cases for hgetex,HristoskoChaushev,2025-04-09T08:50:45Z,2025-04-09T12:32:36+00:00,10,3.7,False,24,0,1,84,1,1,2,CLOSED
+13926,Fix timing issue in lazyfree test,sundb,2025-04-07T13:18:43Z,2025-04-13T12:32:17+00:00,4,143.23,True,10,1,1,402,0,1,1,MERGED
+13924,Redis CE 8.0 RC1,YaacovHazan,2025-04-07T05:48:36Z,2025-04-07T08:38:16+00:00,1,2.83,True,51,2,2,0,0,0,0,MERGED
+13923,Fix various KEYSIZES enumeration issues,moticless,2025-04-06T10:20:20Z,2025-05-08T07:59:12+00:00,11,765.65,True,364,137,15,778,10,14,24,MERGED
+13922,Few fixes around make for modules,YaacovHazan,2025-04-05T19:39:25Z,2025-04-06T08:09:08+00:00,1,12.5,True,7,8,2,93,0,0,0,MERGED
+13919,Vectror Sets: build fixes for the w2v test,antirez,2025-04-04T07:33:21Z,2025-04-09T11:39:33+00:00,1,124.1,True,33,12,3,146,5,0,5,MERGED
+13916,Add MSan and integrate it with CI,minchopaskal,2025-04-02T12:19:30Z,2025-05-09T08:44:54+00:00,15,884.42,True,147,47,13,989,2,13,15,MERGED
+13915,Add vector-sets module,YaacovHazan,2025-04-02T10:20:28Z,2025-04-02T18:54:15+00:00,10,8.56,True,13721,10,48,601,2,7,9,MERGED
+13912,Reduce cache contention on connection struct and branch mispredictions in connSocketEventHandler(),fcostaoliveira,2025-04-01T23:20:05Z,2025-06-24T08:33:11+00:00,1,2001.22,False,35,6,2,4019,3,5,8,CLOSED
+13911,Fix a couple of compiler warnings,tezc,2025-04-01T22:59:23Z,2025-04-07T10:09:47+00:00,1,131.17,True,3,0,2,730,5,0,5,MERGED
+13909,Fix flaky replication test,tezc,2025-04-01T14:34:44Z,2025-04-07T10:12:33+00:00,5,139.63,True,4,1,1,421,0,1,1,MERGED
+13908,"Bump module version to v7.99.90 for RedisBloom, JSON and Timeseries",eranhd,2025-03-31T12:36:48Z,2025-03-31T18:24:23+00:00,1,5.79,True,3,3,3,0,0,0,0,MERGED
+13907,[sentinel] add tilt total count in sentinel info,carlosfu,2025-03-31T12:19:45Z,2025-06-05T03:41:53+00:00,2,1575.37,True,5,0,1,138,2,0,2,MERGED
+13905,Update RediSearch Makefile - 7.99.90,DvirDukhan,2025-03-31T07:22:35Z,2025-03-31T18:26:07+00:00,1,11.06,True,1,1,1,0,0,0,0,MERGED
+13904,Improve replication buffering on replica and fix a related bug,tezc,2025-03-31T06:07:23Z,2025-04-03T07:04:29+00:00,16,72.95,True,312,114,7,4287,7,6,13,MERGED
+13903,Reduce the call of ERR_clear_error,ShooterIT,2025-03-31T05:10:53Z,2025-05-07T07:24:09+00:00,1,890.22,True,3,2,1,2370,0,0,0,MERGED
+13901,Merge unstable into 8.0,YaacovHazan,2025-03-30T06:56:27Z,2025-03-30T12:11:57+00:00,1,5.26,True,652,63,26,27,0,0,0,MERGED
+13900,Reduce the main thread blocking in clients cron,wclmxxs,2025-03-29T13:25:12Z,2025-06-30T01:37:18+00:00,58,2220.2,True,183,76,7,12622,47,27,74,MERGED
+13898,"Implement DIFF, DIFF1, ANDOR and ONE for BITOP",minchopaskal,2025-03-28T15:20:17Z,2025-05-20T07:45:50+00:00,21,1264.43,True,485,46,4,1624,10,20,30,MERGED
+13896,Fix 'RESTORE can set LFU' test,vitahlin,2025-03-27T09:23:41Z,2025-03-28T05:33:59+00:00,6,20.17,True,18,2,1,427,5,7,12,MERGED
+13895,Put replica online when bgsave is done,tezc,2025-03-27T07:36:03Z,2025-03-31T10:48:49+00:00,8,99.21,True,13,9,3,774,0,1,1,MERGED
+13888,Improve refcount check in 'decrRefCount',slavak,2025-03-26T07:40:47Z,2025-04-03T13:29:06+00:00,2,197.81,True,9,4,1,640,5,0,5,MERGED
+13887,Fix use-after-free when diskless load config is not swapdb,tezc,2025-03-25T19:13:07Z,2025-03-26T18:50:10+00:00,1,23.62,True,50,24,2,463,1,0,1,MERGED
+13883,Fix defrag when type/encoding changes during scan,sundb,2025-03-25T08:03:40Z,2025-03-27T00:58:58+00:00,1,40.92,True,11,18,1,611,0,1,1,MERGED
+13877,Ignore shardId updates from replica nodes,jdork0,2025-03-24T12:16:49Z,2025-03-30T07:15:04+00:00,5,138.97,True,11,17,1,692,4,2,6,MERGED
+13875,avoid possible use-after-free with module KSN changes,oranagra,2025-03-24T07:43:11Z,2025-03-24T10:24:52+00:00,1,2.69,True,5,1,2,411,1,0,1,MERGED
+13873,Fix timing issue in HEXPIREAT test,gentcys,2025-03-23T13:44:28Z,2025-03-26T02:00:38+00:00,6,60.27,True,1,1,1,414,1,1,2,MERGED
+13871,Fix sdscatprintf error of the in output of `info stats`,ShooterIT,2025-03-22T15:22:49Z,2025-03-24T01:17:58+00:00,1,33.92,True,1,1,1,197,1,0,1,MERGED
+13870,Fix timing issue in module defrag test,sundb,2025-03-18T07:27:53Z,2025-03-20T13:22:48+00:00,1,53.92,True,3,3,1,457,0,0,0,MERGED
+13865,Fix messed-up unblocked clients in flush command,sundb,2025-03-15T14:19:35Z,2025-03-19T02:22:48+00:00,12,84.05,True,11,2,1,401,1,2,3,MERGED
+13864,Optimize integer addition in setTypeAddAux with lpFindInteger,RQfreefly,2025-03-15T13:56:09Z,2025-04-12T14:25:01+00:00,19,672.48,False,14812,221,82,1151,28,15,43,CLOSED
+13863,Fix potential infinite loop of RANDOMKEY during client pause,li-benson,2025-03-15T12:51:07Z,2025-03-20T13:32:12+00:00,24,120.68,True,21,1,2,48,5,4,9,MERGED
+13859,Use Search v7.99.5,kei-nan,2025-03-14T11:29:25Z,2025-03-16T08:00:51+00:00,1,44.52,True,1,1,1,0,0,0,0,MERGED
+13857,DOC-4972: update README.md with AI info for SEO,dwdougherty,2025-03-13T14:09:53Z,2025-04-03T18:17:14+00:00,1,508.12,False,1,0,1,267,0,1,1,CLOSED
+13853,Fix crash during SLAVEOF when clients are blocked on lazyfree,sundb,2025-03-11T14:08:59Z,2025-03-17T12:27:05+00:00,2,142.3,True,17,2,3,3162,3,1,4,MERGED
+13851,Redis 8.0 RC1,YaacovHazan,2025-03-11T07:53:33Z,2025-03-11T18:16:28+00:00,3,10.38,True,58,6,6,54,1,1,2,MERGED
+13848,Update Makefile with search 7.99.4,DvirDukhan,2025-03-09T09:16:01Z,2025-03-09T11:55:28+00:00,1,2.66,True,1,1,1,0,0,0,0,MERGED
+13847,Fix rax node defragmentaion being skipped,sundb,2025-03-07T11:35:57Z,2025-03-24T00:57:08+00:00,4,397.35,True,15,5,1,480,1,2,3,MERGED
+13846,Cluster compatibility check,ShooterIT,2025-03-07T03:01:49Z,2025-03-20T02:35:53+00:00,26,311.57,True,411,0,13,3316,2,10,12,MERGED
+13845,Fix string2d usage in case of hexadecimal strings parsing and overflow,fcostaoliveira,2025-03-06T16:59:22Z,2025-03-19T12:08:49+00:00,6,307.16,True,89,4,2,1628,6,4,10,MERGED
+13842,Add support to defrag ebuckets incrementally,sundb,2025-03-04T13:44:56Z,2025-05-18T04:38:53+00:00,28,1790.9,True,396,109,7,739,1,17,18,MERGED
+13840,Make RM_DefragRedisModuleDict API support incremental defragmentation for dict leaf,sundb,2025-03-03T12:03:35Z,2025-03-04T09:19:41+00:00,2,21.27,True,99,22,4,1244,0,0,0,MERGED
+13836,Update search Makefile,DvirDukhan,2025-02-27T10:10:31Z,2025-03-03T06:57:06+00:00,1,92.78,True,1,1,1,0,0,0,0,MERGED
+13835,Merge unstable into 8.0,YaacovHazan,2025-02-26T19:29:13Z,2025-02-27T06:29:01+00:00,1,11.0,True,544,144,22,21,1,0,1,MERGED
+13830,Enable the callback to be NULL for RM_DefragRedisModuleDict() and reduce the system calls of RM_DefragShouldStop(),sundb,2025-02-25T14:30:22Z,2025-02-26T12:04:29+00:00,5,21.57,True,47,21,5,584,0,4,4,MERGED
+13829,Stabilize tcl test cases,ShooterIT,2025-02-25T04:04:47Z,2025-02-25T08:31:53+00:00,7,4.45,True,9,8,2,2447,0,2,2,MERGED
+13827,"Revert ""Update history for ban-list propagation (#13749)""",sundb,2025-02-24T04:50:03Z,2025-02-24T09:40:25+00:00,1,4.84,True,2,10,2,186,1,0,1,MERGED
+13825,"Fix multiple issues with ""INFO KEYSIZES"" ",moticless,2025-02-23T07:55:38Z,2025-02-24T22:38:45+00:00,5,38.72,True,330,63,8,430,0,3,3,MERGED
+13824,Merge unstable into 8.0,YaacovHazan,2025-02-22T19:49:33Z,2025-02-23T06:27:33+00:00,1,10.63,True,4528,725,62,0,0,0,0,MERGED
+13822,Fixed passing incorrect endtime value for module context,sundb,2025-02-21T06:29:14Z,2025-02-23T04:58:48+00:00,4,46.49,True,11,9,5,355,5,2,7,MERGED
+13816,Add RM_DefragRedisModuleDict module API,sundb,2025-02-19T15:44:12Z,2025-02-20T13:09:29+00:00,1,21.42,True,249,3,4,868,2,0,2,MERGED
+13815,Add support for incremental defragmentation of global module data,sundb,2025-02-19T15:02:07Z,2025-02-19T16:28:16+00:00,1,1.44,True,113,44,6,739,0,0,0,MERGED
+13814,Refactor of ActiveDefrag to reduce latencies,sundb,2025-02-19T11:52:03Z,2025-02-19T16:05:25+00:00,2,4.22,True,678,409,7,5011,1,0,1,MERGED
+13811,Reclaim page cache memory used by the AOF file after loading,ShooterIT,2025-02-19T03:10:31Z,2025-05-09T02:05:37+00:00,5,1894.92,True,3,0,1,665,0,1,1,MERGED
+13809,Redis-cli gets RDB by RDB channel,ShooterIT,2025-02-17T02:21:56Z,2025-05-08T00:47:29+00:00,4,1918.43,True,22,7,5,218,16,1,17,MERGED
+13806,keyspace - Unify key and value & use dict no_value=1,moticless,2025-02-16T12:39:37Z,2025-05-12T07:15:17+00:00,96,2034.59,True,2340,1754,44,7224,7,80,87,MERGED
+13805,Fix typo in replication state log message,alsoalgo,2025-02-15T20:08:12Z,2025-05-07T07:28:45+00:00,2,1931.34,True,1,1,1,165,3,0,3,MERGED
+13804,Fix overflow on 32-bit systems when calculating idle time for eviction,luozongle01,2025-02-15T14:44:21Z,2025-02-19T03:01:15+00:00,1,84.28,True,1,1,1,426,5,0,5,MERGED
+13803,Fix grammar and typos,AlexJuca,2025-02-14T22:31:58Z,2025-04-22T01:16:10+00:00,7,1586.74,True,4,4,2,280,3,2,5,MERGED
+13802,Fix syntax issue in comments of src/module.c,yunxiao3,2025-02-14T12:50:14Z,2025-02-19T02:58:14+00:00,2,110.13,True,3,3,1,70,4,0,4,MERGED
+13800,Remove DENYOOM flag from hexpire command,tezc,2025-02-13T15:38:16Z,2025-02-16T17:07:29+00:00,1,73.49,True,4,8,5,275,0,0,0,MERGED
+13798,"Add HGETDEL, HGETEX and HSETEX hash commands",tezc,2025-02-11T08:17:20Z,2025-02-14T14:13:35+00:00,9,77.94,True,1924,128,11,2393,5,8,13,MERGED
+13796,Reduce redundant key slot calculations on expiration checks,fcostaoliveira,2025-02-10T11:08:12Z,2025-02-25T03:55:30+00:00,9,352.79,True,48,13,1,717,8,7,15,MERGED
+13794,Missing --memkeys and --keystats for some options in redis-cli help text,yveslb,2025-02-09T19:55:16Z,2025-02-13T00:42:38+00:00,2,76.79,True,5,4,1,46,0,0,0,MERGED
+13793,Fix wrongly updating fsynced_reploff_pending when appendfsync=everysecond,ShooterIT,2025-02-08T07:33:59Z,2025-02-13T02:48:29+00:00,3,115.24,True,25,26,1,1518,10,0,10,MERGED
+13792,Optimize dictFind by leveraging key length functions to avoid redundant computations.,fcostaoliveira,2025-02-07T17:40:40Z,2025-02-24T14:27:06+00:00,10,404.77,True,33,2,4,1344,6,16,22,MERGED
+13790,Don't send unnecessary PING to replicas,ShooterIT,2025-02-06T13:30:46Z,2025-02-13T02:52:19+00:00,5,157.36,True,11,6,3,720,0,1,1,MERGED
+13787,Avoid redundant calls to sdslen(c->querybuf) in processMultibulkBuffer,fcostaoliveira,2025-02-05T01:06:39Z,2025-02-24T12:06:15+00:00,7,466.99,True,12,9,1,716,3,1,4,MERGED
+13783,Memory Usage command LIST accuracy fix,ofirluzon,2025-02-03T23:55:37Z,2025-02-14T01:18:47+00:00,3,241.39,True,3,2,1,2103,1,0,1,MERGED
+13782,Fix typo in repl-ping-replica-period comment in redis.conf,alsoalgo,2025-02-03T17:31:31Z,2025-02-06T02:14:57+00:00,1,56.72,True,1,1,1,253,1,0,1,MERGED
+13781,Add an API to load default configuration values,kei-nan,2025-02-03T11:20:49Z,2025-02-06T11:16:33+00:00,8,71.93,True,145,28,5,1213,1,13,14,MERGED
+13780,Bump actions/upload-artifact from 3 to 4,jerrykcode,2025-02-01T04:28:51Z,2025-02-01T06:09:00+00:00,1,1.67,True,3,3,1,350,1,0,1,MERGED
+13774,Add flag for ability of a module context to execute debug commands,raz-mon,2025-01-28T07:26:32Z,2025-02-03T07:52:41+00:00,4,144.44,True,58,2,4,158,0,1,1,MERGED
+13773,AOF offset info,ShooterIT,2025-01-27T02:49:57Z,2025-02-13T09:31:40+00:00,35,414.7,True,295,7,5,3679,0,8,8,MERGED
+13772,Fix compile error with TLS_DEBUGGING,dtrodrigues,2025-01-25T22:41:16Z,2025-01-26T02:14:43+00:00,1,3.56,True,1,1,1,15,2,0,2,MERGED
+13767,Update RQE version 7.99.3,nafraf,2025-01-23T16:03:12Z,2025-01-23T20:46:51+00:00,1,4.73,True,1,1,1,25,0,0,0,MERGED
+13766,Fix memleak of SFLUSH experimental command,moticless,2025-01-23T07:49:16Z,2025-01-30T11:35:02+00:00,1,171.76,True,4,1,1,81,0,0,0,MERGED
+13764,Reuse lookupCommand data on consecutive same command calls on main thread,fcostaoliveira,2025-01-22T13:21:30Z,2025-02-24T04:33:14+00:00,8,783.2,True,19,2,1,1751,16,3,19,MERGED
+13763,Added a shared secret over Redis cluster.,MeirShpilraien,2025-01-21T16:17:41Z,2025-02-03T07:54:37+00:00,9,303.62,True,152,3,7,1128,9,3,12,MERGED
+13759,Redis 8.0 M03,YaacovHazan,2025-01-20T14:02:32Z,2025-01-20T17:45:11+00:00,1,3.71,True,72,6,6,0,0,0,0,MERGED
+13758,Start AOFRW before streaming repl buffer during fullsync,tezc,2025-01-20T08:18:30Z,2025-02-04T18:40:18+00:00,13,370.36,True,52,18,6,1648,1,3,4,MERGED
+13755,Update modules with latest version,YaacovHazan,2025-01-19T19:15:03Z,2025-01-20T08:08:19+00:00,1,12.89,True,3,3,3,67,1,0,1,MERGED
+13752,Gradually reduce defrag CPU usage when defragmentation is ineffective,sundb,2025-01-16T13:27:41Z,2025-01-24T03:35:32+00:00,10,182.13,True,126,7,2,755,0,6,6,MERGED
+13750,Update RQE version,DvirDukhan,2025-01-15T21:15:08Z,2025-01-16T06:40:19+00:00,1,9.42,True,1,1,1,7,1,0,1,MERGED
+13749,Update history for ban-list propagation,nosammai,2025-01-15T18:07:42Z,2025-01-27T13:05:37+00:00,3,282.97,True,10,2,2,103,5,0,5,MERGED
+13745,"Stabilize test suite, backport recent test and makefile changes to old release branch.",sundb,2025-01-14T07:09:49Z,2025-01-15T13:21:32+00:00,1,30.2,True,76,34,6,2396,4,0,4,MERGED
+13744,Fix incorrect parameter type reports,ShooterIT,2025-01-14T02:58:04Z,2025-01-14T07:51:05+00:00,1,4.88,True,61,18,17,509,3,0,3,MERGED
+13742,Merge unstable into 8.0,YaacovHazan,2025-01-13T20:02:56Z,2025-01-14T12:07:44+00:00,2,16.08,True,8216,1634,115,0,1,0,1,MERGED
+13741,Revert #12395 and #12272,YaacovHazan,2025-01-13T19:52:37Z,2025-02-05T18:49:42+00:00,1,550.95,True,50,23,4,120,1,0,1,MERGED
+13740,Add internal connection and command mechanism,raz-mon,2025-01-13T15:42:37Z,2025-02-05T09:48:08+00:00,94,546.09,True,602,28,12,2470,12,66,78,MERGED
+13738,Update info.tcl test to revert client output limits sooner,sundb,2025-01-13T12:54:28Z,2025-01-14T09:30:18+00:00,1,20.6,True,15,2,1,476,2,0,2,MERGED
+13737,"Fix CVE-2024-51741, CVE-2024-46981",YaacovHazan,2025-01-12T19:22:00Z,2025-01-13T19:20:19+00:00,1,23.97,True,36,3,4,95,0,0,0,MERGED
+13732,Rdb channel replication,tezc,2025-01-08T09:08:26Z,2025-01-13T12:09:52+00:00,41,123.02,True,2205,213,18,9837,11,12,23,MERGED
+13729,Redis 7.2.7,YaacovHazan,2025-01-06T10:03:52Z,2025-01-06T14:03:47+00:00,1,4.0,True,742,180,30,636,4,0,4,MERGED
+13728,release 6.2.17,YaacovHazan,2025-01-06T10:02:17Z,2025-01-06T12:36:07+00:00,1,2.56,True,16,3,3,86,5,0,5,MERGED
+13725,Fix crash due to cron argv release,sundb,2025-01-06T06:26:25Z,2025-01-08T01:57:24+00:00,8,43.52,True,16,3,3,341,9,3,12,MERGED
+13721,Refactor Client Write Preparation and Handling,fcostaoliveira,2025-01-03T18:20:26Z,2025-01-13T07:40:36+00:00,8,229.34,True,144,107,1,2337,5,8,13,MERGED
+13716,Fix typos in multiple Redis source files,RQfreefly,2025-01-01T07:08:07Z,2025-01-07T07:35:48+00:00,2,144.46,True,26,26,8,5932,3,0,3,MERGED
+13711,Fix index error of CRLF when replying with integer-encoded strings,raffertyyu,2024-12-29T15:26:39Z,2024-12-31T13:41:10+00:00,8,46.24,True,64,2,2,76,10,4,14,MERGED
+13703,Add reads/writes metrics for IO threads,ShooterIT,2024-12-26T07:01:40Z,2025-01-06T07:59:02+00:00,8,264.96,True,45,33,3,881,1,1,2,MERGED
+13702,Do security attack check only when command not found to reduce the critical path,ShooterIT,2024-12-25T08:16:10Z,2024-12-26T04:51:44+00:00,1,20.59,True,9,8,1,562,1,0,1,MERGED
+13698,Fix issue with argv not being shrunk,sundb,2024-12-24T02:33:30Z,2025-01-08T08:12:52+00:00,3,365.66,True,10,5,3,746,0,1,1,MERGED
+13696,Offload `lookupCommand` into IO threads when threaded IO is enabled,ShooterIT,2024-12-23T07:01:22Z,2024-12-25T08:03:22+00:00,1,49.03,True,30,6,7,331,0,0,0,MERGED
+13695,Async IO Threads,ShooterIT,2024-12-22T12:31:45Z,2024-12-23T06:16:40+00:00,1,17.75,True,1683,635,38,15627,1,0,1,MERGED
+13693,Avoid importing memory aligned malloc,sundb,2024-12-19T11:14:12Z,2024-12-20T01:39:14+00:00,1,14.42,True,8,0,1,422,2,0,2,MERGED
+13690,Check length before reading in `stringmatchlen`,thaliaarchi,2024-12-12T10:09:56Z,2024-12-26T04:37:23+00:00,1,330.46,True,5,5,1,456,2,0,2,MERGED
+13683,Optimize dict `no_value` also for even addresses,moticless,2024-12-09T08:57:55Z,2024-12-22T12:10:07+00:00,6,315.2,True,157,114,3,429,0,3,3,MERGED
+13678,modules API: Add test for ACL check of empty prefix,moticless,2024-12-04T15:14:05Z,2024-12-10T07:16:30+00:00,2,136.04,True,15,2,2,152,0,3,3,MERGED
+13676,Modules API: new HashFieldMinExpire(). Add flag REDISMODULE_HASH_EXPIRE_TIME to HashGet().,moticless,2024-12-03T13:06:31Z,2024-12-05T09:14:53+00:00,6,44.14,True,216,33,7,876,2,4,6,MERGED
+13674,Do not call _dictClear()'s callback for the first 65k items,tezc,2024-12-02T09:38:35Z,2024-12-03T06:26:19+00:00,1,20.8,True,3,2,1,731,1,0,1,MERGED
+13672,Fix bug in PFMERGE command,Nugine,2024-12-01T10:02:17Z,2024-12-18T06:41:04+00:00,2,404.65,True,71,2,2,324,5,1,6,MERGED
+13669,Deprecate ubuntu lunar and macos-12 in workflows,vitahlin,2024-11-27T11:18:58Z,2024-11-28T13:59:44+00:00,5,26.68,True,4,7,1,336,2,2,4,MERGED
+13666,Modules API: Add RedisModule_ACLCheckKeyPrefixPermissions,moticless,2024-11-27T06:08:52Z,2024-11-28T16:33:58+00:00,26,34.42,True,178,3,8,681,5,9,14,MERGED
+13665,Async IO threads,ShooterIT,2024-11-26T09:12:18Z,2024-12-22T11:30:37+00:00,52,626.31,True,1609,604,34,15400,9,8,17,MERGED
+13661,Fix memory leak of jemalloc tcache on function flush command,tezc,2024-11-21T05:57:53Z,2024-11-21T11:12:59+00:00,3,5.25,True,49,3,4,762,1,1,2,MERGED
+13660,"Add Lua VM memory to memory overhead, now that it's part of zmalloc",oranagra,2024-11-20T12:10:44Z,2024-11-21T06:22:17+00:00,3,18.19,True,32,19,8,471,2,1,3,MERGED
+13656,modules API: Support register unprefixed config parameters,moticless,2024-11-18T06:44:22Z,2024-11-21T07:55:02+00:00,13,73.18,True,494,111,6,3344,4,4,8,MERGED
+13655,Avoid unnecessary hfield Creation/Deletion on updates in hashTypeSet. HSET updates improvement of ~10%,fcostaoliveira,2024-11-15T21:39:01Z,2024-12-12T17:41:09+00:00,16,644.04,True,205,63,6,2764,6,15,21,MERGED
+13653,Fix module loadex command crash due to invalid config,nafraf,2024-11-14T05:12:39Z,2024-11-21T06:14:14+00:00,6,169.03,True,23,6,4,139,6,3,9,MERGED
+13652,Improve listpack Handling and Decoding Efficiency: 16.3% improvement on LRANGE command,fcostaoliveira,2024-11-14T01:22:56Z,2024-12-04T10:04:37+00:00,16,488.69,True,165,59,4,8233,8,9,17,MERGED
+13646,Optimize dictFind with prefetching and branch prediction hints.,fcostaoliveira,2024-11-08T20:29:23Z,2024-12-04T09:16:15+00:00,9,612.78,True,29,1,2,3328,5,2,7,MERGED
+13644,Optimize addReplyBulk on sds/int encoded strings: 2.2% to 4% reduction of CPU Time on GET high pipeline use-cases,fcostaoliveira,2024-11-06T18:14:45Z,2024-11-26T08:11:01+00:00,2,469.94,True,20,3,1,2380,1,0,1,MERGED
+13642,Dynamic event loop binding for connection structure,ShooterIT,2024-11-06T06:37:11Z,2024-11-08T07:58:11+00:00,1,49.35,True,84,43,7,538,0,0,0,MERGED
+13639,Print command tokens on a crash when hide-user-data-from-log is enabled,tezc,2024-11-05T08:28:01Z,2024-11-11T06:34:18+00:00,7,142.1,True,418,22,3,608,0,1,1,MERGED
+13638,CRC64 perf improvements,moticless,2024-11-04T15:09:01Z,2024-11-12T07:21:23+00:00,5,184.21,True,655,56,6,410,5,1,6,MERGED
+13637,Release 7.4.2,YaacovHazan,2024-11-04T14:26:57Z,2025-01-06T14:00:10+00:00,1,1511.55,True,461,77,22,949,3,0,3,MERGED
+13633,Release 7.2.7,YaacovHazan,2024-10-31T18:29:02Z,2024-12-30T19:03:12+00:00,1,1440.57,False,697,170,27,603,1,0,1,CLOSED
+13632,Fix wrong behavior of XREAD + after last entry of stream have been removed,edkalina,2024-10-31T11:14:01Z,2025-02-25T05:40:24+00:00,20,2802.44,True,33,7,2,343,5,3,8,MERGED
+13630,Release 7.2.7,YaacovHazan,2024-10-30T13:35:04Z,2024-10-31T18:29:08+00:00,1,28.9,False,423,82,20,603,0,0,0,CLOSED
+13627,"Modules: defrag CB should take robj, not sds",guybe7,2024-10-30T05:04:57Z,2024-10-30T09:32:52+00:00,1,4.47,True,8,4,2,101,0,0,0,MERGED
+13626,Fix memory leak on rdbload error,moticless,2024-10-29T19:33:13Z,2024-10-30T08:03:31+00:00,1,12.51,True,1,0,1,87,0,0,0,MERGED
+13624,Redis 8.0 M02,YaacovHazan,2024-10-28T12:04:36Z,2024-10-28T17:09:19+00:00,1,5.08,True,54,4,2,0,0,0,0,MERGED
+13622,Merge unstable into 8.0,YaacovHazan,2024-10-27T13:14:51Z,2024-10-27T15:23:40+00:00,1,2.15,True,563,133,31,0,0,0,0,MERGED
+13619,Fix crash in RM_GetCurrentUserName() when the user isn't accessible,iddm,2024-10-25T13:04:43Z,2024-10-28T13:26:29+00:00,7,72.36,True,6,0,1,452,3,2,5,MERGED
+13609,Fix compilation on compilers that do not support target attribute,sundb,2024-10-17T06:00:16Z,2024-10-18T01:11:23+00:00,10,19.19,True,13,2,2,202,1,3,4,MERGED
+13608,Fix get # option in sort command,opt-m,2024-10-17T03:39:14Z,2024-10-22T01:55:00+00:00,2,118.26,True,17,3,2,194,8,0,8,MERGED
+13606,Update modules with latest version,YaacovHazan,2024-10-15T15:14:03Z,2024-10-15T16:58:42+00:00,1,1.74,True,3,3,3,67,0,0,0,MERGED
+13601,Clean up .rediscli_history_test temporary file,ShooterIT,2024-10-15T05:12:26Z,2024-10-17T01:12:11+00:00,1,44.0,True,4,2,1,502,0,0,0,MERGED
+13600,Temporarily hide the new SFLUSH command by marking it as experimental,YaacovHazan,2024-10-14T06:54:37Z,2024-10-15T08:02:51+00:00,2,25.14,True,85,103,6,237,2,0,2,MERGED
+13593,Fix race in stream-cgroups test,sundb,2024-10-11T05:58:22Z,2024-10-12T01:23:19+00:00,1,19.42,True,2,0,1,154,0,0,0,MERGED
+13592,Add KEYSIZES section to INFO,moticless,2024-10-10T12:45:15Z,2024-10-29T11:07:26+00:00,40,454.37,True,836,75,19,1904,4,42,46,MERGED
+13589,Fix typo in object.c,chx9,2024-10-09T13:06:38Z,2025-05-17T04:33:37+00:00,1,5271.45,True,1,1,1,0,1,0,1,MERGED
+13588,"Fix CVE-2024-31449, CVE-2024-31227, CVE-2024-31228",YaacovHazan,2024-10-08T12:51:28Z,2024-10-08T17:55:44+00:00,1,5.07,True,20,4,5,147,0,0,0,MERGED
+13583,Release 7.4.1,oranagra,2024-10-02T17:39:36Z,2024-10-02T19:04:05+00:00,1,1.41,True,35,6,7,308,0,0,0,MERGED
+13582,Release 7.2.6,oranagra,2024-10-02T17:39:02Z,2024-10-02T19:13:33+00:00,2,1.58,True,39,6,7,359,4,0,4,MERGED
+13581,Release 6.2.15,oranagra,2024-10-02T17:33:57Z,2024-10-02T19:58:33+00:00,2,2.41,True,33,5,6,231,5,0,5,MERGED
+13579,Fix duplicate variable assignment in sdscatfmt(),HeisenbergUwU,2024-09-30T06:47:38Z,2024-10-07T07:05:35+00:00,1,168.3,False,2,2,1,79,3,0,3,CLOSED
+13578,Update target module in search,alonre24,2024-09-29T11:57:31Z,2024-10-08T10:58:29+00:00,1,215.02,True,2,2,1,46,0,0,0,MERGED
+13577,FEAT: Add HGETDEL command,samanebi,2024-09-27T08:45:26Z,2025-08-19T10:57:31+00:00,5,7826.2,False,138,0,5,551,14,4,18,CLOSED
+13576,fix typo in test_helper.tcl,chx9,2024-09-27T06:44:47Z,2024-10-08T06:15:48+00:00,1,263.52,True,1,1,1,56,2,0,2,MERGED
+13573,Merge unstable into 8.0,YaacovHazan,2024-09-26T07:51:21Z,2024-09-26T11:36:04+00:00,1,3.75,True,4671,158,34,0,0,0,0,MERGED
+13567,Use hashtable as the default type of temp set object during sunion/sdiff,tezc,2024-09-24T06:46:45Z,2024-09-25T09:41:18+00:00,1,26.91,True,28,1,1,681,3,0,3,MERGED
+13566,Optimize ZUNION[STORE] by avoiding redundant temporary dict usage,moticless,2024-09-23T15:25:22Z,2024-09-25T08:55:01+00:00,3,41.49,True,13,46,1,313,4,1,5,MERGED
+13564,Add new SFLUSH command to cluster for slot-based FLUSH,moticless,2024-09-23T05:41:04Z,2024-09-29T06:13:22+00:00,17,144.54,True,357,21,8,967,0,9,9,MERGED
+13563,Fix race in HFE tests,moticless,2024-09-22T08:28:52Z,2024-09-23T07:30:30+00:00,1,23.03,True,7,6,1,177,1,0,1,MERGED
+13560,Replace wrongly free with zfree in redis-cli,sundb,2024-09-20T02:19:19Z,2024-09-23T01:40:47+00:00,2,71.36,True,7,1,2,45,1,0,1,MERGED
+13558,"Optimize PFCOUNT, PFMERGE command by SIMD acceleration",Nugine,2024-09-18T06:34:46Z,2024-11-08T07:19:38+00:00,31,1224.75,True,265,12,2,2029,16,18,34,MERGED
+13549,Support `musl` Rust Installation in Modules Makefile,adamiBs,2024-09-15T11:05:28Z,2024-09-15T17:23:05+00:00,1,6.29,True,22,4,1,153,0,0,0,MERGED
+13545,Fix missing initialization of EbucketsIterator->isRax,sundb,2024-09-13T06:47:47Z,2024-09-13T09:12:27+00:00,3,2.41,True,1,1,1,222,1,0,1,MERGED
+13538,Redis 8.0 M01,YaacovHazan,2024-09-11T12:09:30Z,2024-09-12T08:52:28+00:00,2,20.72,True,331,46,18,2154,0,0,0,MERGED
+13531,Optimize HSCAN/ZSCAN command in case of listpack encoding: avoid the usage of intermediate list,fcostaoliveira,2024-09-09T22:30:55Z,2024-09-13T12:36:20+00:00,10,86.09,True,67,8,2,2520,4,8,12,MERGED
+13530,Optimize SSCAN command in case of listpack or intset encoding: avoid the usage of intermediate list. From 2N to N iterations,fcostaoliveira,2024-09-09T16:25:33Z,2024-09-12T14:36:54+00:00,1,70.19,True,36,3,2,2024,0,0,0,MERGED
+13529,"Optimize LREM, LPOS, LINSERT, LINDEX: Avoid N-1 sdslen() calls on listTypeEqual",fcostaoliveira,2024-09-09T12:17:05Z,2024-09-10T12:26:36+00:00,1,24.16,True,10,7,2,2688,0,0,0,MERGED
+13528,Increment kvstore's non_empty_dicts only on first insert,sundb,2024-09-09T11:42:43Z,2024-09-11T01:36:01+00:00,2,37.89,True,28,1,1,346,0,0,0,MERGED
+13526,Extend modules API to read also expired keys and subkeys,moticless,2024-09-08T15:48:54Z,2024-09-19T17:47:00+00:00,11,265.97,True,159,21,7,255,2,3,5,MERGED
+13524,Add the option to build Redis with modules,YaacovHazan,2024-09-08T09:28:03Z,2024-09-09T12:47:02+00:00,5,27.32,True,159,3,7,222,0,2,2,MERGED
+13521,Reuse c->argv after command execution to reduce memory allocation overhead,sundb,2024-09-06T07:02:06Z,2024-11-14T12:35:32+00:00,16,1661.56,True,46,16,2,351,9,5,14,MERGED
+13520, Replace usage of _addReplyLongLongWithPrefix with specific bulk/mbulk functions to reduce condition checks in hotpath.,fcostaoliveira,2024-09-05T15:51:11Z,2024-09-15T13:40:09+00:00,5,237.82,True,32,3,1,2652,2,2,4,MERGED
+13519,Add iterator capability to ebuckets DS,moticless,2024-09-05T13:59:33Z,2024-09-12T12:02:32+00:00,7,166.05,True,166,2,2,72,0,2,2,MERGED
+13518,Fix flaky replication tests,tezc,2024-09-05T09:40:07Z,2024-09-08T09:54:01+00:00,2,72.23,True,23,1,2,214,1,1,2,MERGED
+13516,Optimize client type check on reply hot code paths,fcostaoliveira,2024-09-05T00:26:20Z,2024-09-06T02:24:30+00:00,4,25.97,True,18,11,1,2319,3,3,6,MERGED
+13515,Fix set with invalid length causes smembers to hang,sundb,2024-09-04T02:56:55Z,2024-09-04T09:35:46+00:00,2,6.65,True,17,2,2,241,1,0,1,MERGED
+13514,Fix the master-slave synchronization relationship of cluster shards cannot be restored due to network failure,wstar05,2024-09-03T12:23:15Z,2024-09-25T15:12:18+00:00,1,530.82,False,6,1,1,862,2,1,3,CLOSED
+13512,"RED-129256, Fix TOUCH command from script in no-touch mode",oranagra,2024-09-03T11:23:39Z,2024-09-12T08:33:26+00:00,1,213.16,True,21,1,2,240,0,0,0,MERGED
+13510,Fix RM_RdbLoad() to enable AOF after loading is completed,tezc,2024-09-03T07:03:58Z,2024-09-04T08:11:04+00:00,1,25.12,True,4,1,2,227,0,0,0,MERGED
+13509,Added new defrag API to allocate and free raw memory.,MeirShpilraien,2024-09-02T07:23:18Z,2024-09-03T12:03:19+00:00,6,28.67,True,153,10,7,879,2,4,6,MERGED
+13505,Optimize SET/INCR*/DECR*/SETRANGE/APPEND by reducing duplicate computation,fcostaoliveira,2024-08-29T23:09:26Z,2024-09-04T06:51:22+00:00,19,127.7,True,87,30,4,4008,1,15,16,MERGED
+13504,Fixed variable parameter formatting issues in serverPanic function,cyy-tag,2024-08-29T10:23:54Z,2024-09-03T07:51:46+00:00,13,117.46,True,9,1,1,134,1,2,3,MERGED
+13503,Avoid overhead of comparision function pointer calls in lpFind(),sundb,2024-08-29T09:06:25Z,2024-09-03T14:53:13+00:00,2,125.78,True,10,4,1,373,11,0,11,MERGED
+13500,testsuite --dump-logs works on servers started before the test,oranagra,2024-08-28T16:12:46Z,2024-08-29T06:27:24+00:00,1,14.24,True,9,0,1,379,0,0,0,MERGED
+13499,"Created specific SMEMBERS command logic which avoids sinterGenericCommand, and minimizes processing and memory overhead",fcostaoliveira,2024-08-28T15:04:12Z,2024-09-03T10:32:43+00:00,8,139.48,True,31,3,4,1693,3,3,6,MERGED
+13498,"Remove outdated ""Try Redis"" link in README.md",mxmlkzdh,2024-08-27T17:31:55Z,2024-09-05T14:04:50+00:00,2,212.55,True,0,1,1,44,1,0,1,MERGED
+13495,Reply LOADING on replica while flushing the db,tezc,2024-08-27T13:33:23Z,2024-09-03T06:48:44+00:00,35,161.26,True,316,49,15,1358,5,11,16,MERGED
+13494,changed addReplyHumanLongDouble to addReplyDouble in georadiusGeneric and geoposCommand,fcostaoliveira,2024-08-27T09:57:31Z,2024-09-03T12:54:20+00:00,2,170.95,True,4,4,1,2240,10,0,10,MERGED
+13490,Optimize the HELLO command reply,fcostaoliveira,2024-08-26T15:16:19Z,2024-09-03T09:27:36+00:00,4,186.19,True,18,10,3,4136,5,0,5,MERGED
+13489,MOD-7645: Return module commands in ACL CAT,raz-mon,2024-08-26T11:57:56Z,2024-08-26T18:25:23+00:00,1,6.46,True,0,1,1,175,1,0,1,MERGED
+13488,Introduce reusable query buffer for client reads,sundb,2024-08-26T08:41:24Z,2024-09-04T11:10:40+00:00,1,218.49,True,174,15,5,1897,4,0,4,MERGED
+13487,"change sentinel to repeatedly publishing +sdown messages to prevent redis instance stuck in ""sdown""",sunxiao2010n,2024-08-26T07:10:06Z,2024-08-30T05:50:35+00:00,1,94.67,False,20,0,1,223,5,1,6,CLOSED
+13479,Update old links for modules-api-ref.md,dwdougherty,2024-08-20T15:18:04Z,2024-11-04T16:18:22+00:00,2,1825.01,True,22,21,8,248,2,1,3,MERGED
+13476,Fix a race condition issue in the cache_memory of functionsLibCtx,sundb,2024-08-17T07:17:12Z,2024-08-19T02:11:45+00:00,1,42.91,True,1,1,1,2117,0,0,0,MERGED
+13474,Fix error message for XREAD command with wrong parameter,sundb,2024-08-14T05:04:07Z,2024-08-14T13:40:43+00:00,3,8.61,True,3,3,2,130,0,1,1,MERGED
+13473,Fix incorrect lag due to trimming stream via XTRIM command,sundb,2024-08-13T13:29:55Z,2024-08-16T15:13:32+00:00,1,73.73,True,56,2,2,1180,1,0,1,MERGED
+13468,Avoid cluster.nodes load corruption due to shard-id generation,stevelipinski,2024-08-08T21:00:24Z,2024-09-12T06:01:09+00:00,2,825.01,True,41,30,1,865,17,0,17,MERGED
+13465,Pass extensions to node if extension processing is handled by it,sundb,2024-08-06T12:21:52Z,2024-08-08T02:48:04+00:00,8,38.44,True,68,16,3,1395,2,1,3,MERGED
+13461,Fix HTTL/HPTTL to be NONDETERMINISTIC_OUTPUT,moticless,2024-08-04T10:50:17Z,2024-08-04T14:42:50+00:00,1,3.88,True,14,4,3,69,0,0,0,MERGED
+13458,Fix typo in `hyperloglog.c`,c8ef,2024-08-01T14:18:00Z,2024-08-01T23:49:52+00:00,1,9.53,True,1,1,1,0,0,0,0,MERGED
+13453,Fix some test failures caused by key being deleted due to premature expiration,sundb,2024-07-29T05:35:54Z,2024-07-31T00:15:39+00:00,12,42.66,True,16,6,3,1151,1,2,3,MERGED
+13448,"Rename to ""Redis Community Edition""",LiorKogan,2024-07-25T13:28:29Z,2024-07-28T17:54:28+00:00,15,76.43,True,36,30,4,0,0,5,5,MERGED
+13445,solve races in replication lpop tests,oranagra,2024-07-25T09:35:38Z,2024-07-25T11:06:40+00:00,3,1.52,True,20,17,1,369,0,1,1,MERGED
+13443,Ensure validity of myself as master or replica when loading cluster config,sundb,2024-07-25T06:16:20Z,2024-08-06T12:40:46+00:00,1,294.41,True,2,0,1,4456,1,0,1,MERGED
+13440,Keep cluster shards command implementation generic,jhershberg,2024-07-24T11:04:34Z,2024-08-05T08:08:49+00:00,2,285.07,True,191,108,3,476,0,0,0,MERGED
+13439,"On active expire, factor maxToExpire based on Hertz",moticless,2024-07-24T05:54:46Z,2024-07-25T10:22:02+00:00,2,28.45,True,5,3,1,309,4,1,5,MERGED
+13438,Optimize RDB_TYPE_HASH_METADATA to keep relative expiration time,moticless,2024-07-23T14:57:40Z,2024-07-24T05:39:10+00:00,1,14.69,True,35,13,1,154,0,0,0,MERGED
+13434,Different fix for the race in #13361,oranagra,2024-07-21T15:00:15Z,2024-07-22T07:11:30+00:00,2,16.19,True,9,6,2,523,1,0,1,MERGED
+13433,solve race conditions in tests,oranagra,2024-07-21T14:28:53Z,2024-07-22T07:11:56+00:00,1,16.72,True,11,0,2,590,0,0,0,MERGED
+13431,Avoid used_memory contention when update from multiple threads.,MeirShpilraien,2024-07-21T10:14:37Z,2024-08-19T10:22:16+00:00,29,696.13,True,48,15,3,12941,11,13,24,MERGED
+13428,Use shard-id of the master if the replica is inconsistent with master,sundb,2024-07-18T10:42:35Z,2024-08-19T15:01:29+00:00,1,772.32,False,30,13,1,586,2,1,3,CLOSED
+13426,Add redis_docs_sync workflow,paoloredis,2024-07-17T13:46:40Z,2024-08-21T08:41:14+00:00,8,834.91,True,24,0,1,90,0,2,2,MERGED
+13425,HFE - Simplify logic of HGETALL,moticless,2024-07-17T13:25:17Z,2024-09-05T09:48:45+00:00,4,1196.39,True,16,9,2,0,3,3,6,MERGED
+13423,Fix external test hang in redis-cli test when run in a certain order,oranagra,2024-07-17T09:06:19Z,2024-07-17T12:42:28+00:00,11,3.6,True,8,6,4,780,0,2,2,MERGED
+13422,Fix CLUSTER SHARDS command returns empty array,sundb,2024-07-16T13:54:55Z,2024-08-01T23:22:13+00:00,1,393.45,True,23,4,2,232,1,0,1,MERGED
+13421,Test infra adjustments for external CI runs,oranagra,2024-07-16T07:13:26Z,2024-07-16T08:38:20+00:00,1,1.42,True,14,9,3,260,0,0,0,MERGED
+13413,Crash report: Use more chars for argv,guybe7,2024-07-13T05:21:12Z,2024-07-14T03:37:44+00:00,1,22.28,True,1,1,1,183,0,0,0,MERGED
+13412,Reduce redundant call of prepareClientToWrite when call addReply* continuously,sundb,2024-07-12T15:49:12Z,2024-07-15T15:19:19+00:00,1,71.5,True,40,24,2,711,0,0,0,MERGED
+13411,Fix wrong dbnum showed in redis-cli after client reconnected,vitahlin,2024-07-12T15:35:52Z,2024-08-03T04:06:02+00:00,21,516.5,True,27,0,2,1377,2,10,12,MERGED
+13410,Prevent deleting RDB read event after restarting RDB saving for other diskless replicas,sundb,2024-07-12T15:35:24Z,2024-07-16T01:22:44+00:00,11,81.79,True,6,4,1,264,2,4,6,MERGED
+13409,Disable aof for `Scripts do not block on waitaof` test,sundb,2024-07-11T03:25:25Z,2024-07-11T12:25:58+00:00,1,9.01,True,1,0,1,232,1,0,1,MERGED
+13408,KSN: HEXPIRE-like commands should emit hdel if expire-time is in the past,guybe7,2024-07-11T03:15:01Z,2024-07-11T08:24:58+00:00,2,5.17,True,3,3,2,109,0,0,0,MERGED
+13407,Trigger Lua GC after script loading,sundb,2024-07-10T14:01:53Z,2024-07-16T01:28:47+00:00,17,131.45,True,58,23,6,917,2,5,7,MERGED
+13405,Module unblock on keys: updateStatsOnUnblock is called twice,guybe7,2024-07-10T05:46:07Z,2024-07-11T08:13:38+00:00,4,26.46,True,22,26,3,912,3,2,5,MERGED
+13400,Hide user data from log,sundb,2024-07-08T09:35:00Z,2024-07-09T10:54:18+00:00,3,25.32,True,65,12,7,605,0,1,1,MERGED
+13399,Avoid starting defrag after config resetstat for defrag test,sundb,2024-07-08T03:28:55Z,2024-07-12T02:07:09+00:00,3,94.64,True,31,64,1,453,0,1,1,MERGED
+13394,Upgrade action/checkout version and add old-chain CI actions to test gcc4.8,vitahlin,2024-07-04T13:56:53Z,2024-07-08T13:34:15+00:00,12,95.62,True,233,83,6,520,14,11,25,MERGED
+13393,Add codecov for automated code coverage,vitahlin,2024-07-04T10:55:54Z,2025-01-27T13:04:11+00:00,2,4970.14,True,47,1,4,1350,5,2,7,MERGED
+13391,HFE - RDB serialize also hash min expiration (For ROF flow),moticless,2024-07-03T14:42:10Z,2024-07-07T14:00:19+00:00,5,95.3,True,68,9,4,1055,0,4,4,MERGED
+13385,Add help for `DEBUG SCRIPT` command,sundb,2024-07-02T10:58:08Z,2024-07-04T06:44:42+00:00,1,43.78,True,4,7,3,105,0,0,0,MERGED
+13383,Rebuild function engines for function flush command,sundb,2024-07-01T11:05:59Z,2024-07-10T09:35:36+00:00,9,214.49,True,61,8,6,528,0,4,4,MERGED
+13380,Fix possible crash due to OOM panic on invalid command,oranagra,2024-06-30T08:22:44Z,2024-07-01T06:04:20+00:00,1,21.69,True,9,5,2,451,0,0,0,MERGED
+13377,DOC-3932: remove frontmatter attributes from module API spec generator,dwdougherty,2024-06-28T18:18:59Z,2024-07-02T05:25:43+00:00,1,83.11,True,1,11,1,55,0,0,0,MERGED
+13372,HFE - Fix statistic to count also lazy expired and rename INFO params,moticless,2024-06-27T07:55:54Z,2024-07-02T15:22:10+00:00,5,127.44,True,48,37,6,281,0,1,1,MERGED
+13369,HFE - count in command must match actual number of fields,moticless,2024-06-26T08:44:33Z,2024-06-26T11:12:06+00:00,3,2.46,True,54,29,2,264,0,1,1,MERGED
+13365,Update CentOS 7 repo URL for EOL and macOS GitHub Action for deprecation,sundb,2024-06-25T01:37:58Z,2024-07-02T13:53:32+00:00,4,180.26,True,27,3,2,643,1,1,2,MERGED
+13364,Fix H(P)EXPIREAT command to propagate HDEL as well,moticless,2024-06-24T15:00:42Z,2024-06-25T10:15:09+00:00,16,19.24,True,90,23,2,1228,0,10,10,MERGED
+13363,Don't keep global replication buffer reference for replicas marked CLIENT_CLOSE_ASAP,sundb,2024-06-24T09:53:20Z,2024-06-26T00:26:24+00:00,10,38.55,True,64,0,4,489,0,4,4,MERGED
+13361,Solve a race between BGSAVE and FLUSHALL messing up the dirty counter,oranagra,2024-06-23T18:45:45Z,2024-07-01T06:04:52+00:00,6,179.32,True,25,1,3,433,1,4,5,MERGED
+13359,optimize bitcount command using popcnt,hanhui365,2024-06-21T10:19:13Z,2024-10-17T01:13:19+00:00,30,2822.9,True,37,4,1,719,37,14,51,MERGED
+13348,Adapt HRANDFIELD to HFE feature,moticless,2024-06-17T13:17:29Z,2024-06-24T15:11:53+00:00,15,169.91,True,321,223,8,1845,0,9,9,MERGED
+13347,Fix rdbLoadObject() empty hash,moticless,2024-06-16T06:30:11Z,2024-06-20T10:53:47+00:00,1,100.39,True,26,46,5,820,1,0,1,MERGED
+13343,Reply with array of return codes if the key does not exist for HFE commands,tezc,2024-06-13T10:24:45Z,2024-06-14T06:35:06+00:00,1,20.17,True,53,33,2,451,0,0,0,MERGED
+13339,Update `FIELDS` argument to block type for HFE commands schema,j178,2024-06-12T11:47:49Z,2024-06-14T05:51:49+00:00,1,42.07,True,198,135,10,1325,0,0,0,MERGED
+13338,Fix incorrect lag field in XINFO when tombstone is after the last_id of consume group,sundb,2024-06-12T07:20:18Z,2024-07-30T14:31:31+00:00,1,1159.19,True,33,9,2,339,5,0,5,MERGED
+13329,Add new hexpired notification for HFE,sundb,2024-06-07T07:34:25Z,2024-06-11T13:42:34+00:00,18,102.14,True,81,31,3,577,5,5,10,MERGED
+13326,HFE - Avoid lazy expire if called by modules + cleanup,moticless,2024-06-05T14:49:08Z,2024-06-10T08:24:26+00:00,16,113.59,True,375,344,7,779,0,11,11,MERGED
+13323,Sort out mess document for RM_Replicate and RM_ReplicateVerbatim,sundb,2024-06-05T02:59:43Z,2024-06-21T09:59:49+00:00,1,391.0,True,9,9,1,191,0,0,0,MERGED
+13319,Make some commets more friendly,SoulPancake,2024-06-04T05:42:06Z,2024-08-06T17:20:06+00:00,3,1523.63,True,2,2,2,13,4,1,5,MERGED
+13315,Fixed crashes due to missed slotToKeyInit() and missed expires_cursor reset,sundb,2024-06-03T04:19:05Z,2024-06-18T10:02:23+00:00,8,365.72,True,59,0,3,577,5,1,6,MERGED
+13313,Fix returned value nextExpireTime by ebExpire(),moticless,2024-06-02T09:24:06Z,2024-06-03T10:54:44+00:00,3,25.51,True,32,17,3,296,0,2,2,MERGED
+13311,Fix crash due to unblock client during slot migration,guanmengshi,2024-06-02T04:13:20Z,2024-06-04T12:16:36+00:00,1,56.05,True,28,0,2,441,3,0,3,MERGED
+13310,Prevent negative expire parameter in HEXPIRE/HEXPIREAT/HPEXPIRE/HPEXPIREAT commands,sundb,2024-06-02T03:37:33Z,2024-06-04T12:35:26+00:00,8,56.96,True,20,13,2,1269,6,2,8,MERGED
+13303,Hash Field Expiration,sundb,2024-05-29T16:52:05Z,2024-05-30T07:26:19+00:00,2,14.57,True,10270,600,53,1972,2,0,2,MERGED
+13299,Remove variable expired in expireSlaveKeys() to prevent confusing the compiler,CoolThi,2024-05-29T09:57:12Z,2024-08-28T13:52:23+00:00,1,2187.92,True,1,3,1,234,0,0,0,MERGED
+13297,Fix hscan return value,tezc,2024-05-28T06:19:44Z,2024-05-28T08:59:57+00:00,3,2.67,True,31,1,2,518,0,2,2,MERGED
+13296,reduce getNodeByQuery CPU time by using less cache lines (from 2064 Bytes struct to 64 Bytes): reduces LLC misses and Memory Loads,fcostaoliveira,2024-05-28T00:26:17Z,2024-06-18T10:00:47+00:00,1,513.58,True,5,4,1,4919,2,0,2,MERGED
+13295,Fix hfe reply schemas,tezc,2024-05-27T11:11:37Z,2024-05-27T13:07:01+00:00,1,1.92,True,191,263,9,122,0,0,0,MERGED
+13294,Update version references from 8.0 to 7.4 for upcoming release,sundb,2024-05-27T03:49:50Z,2024-05-27T08:47:24+00:00,1,4.96,True,5,5,3,0,0,0,0,MERGED
+13293,Fix statistics test,moticless,2024-05-25T20:42:16Z,2024-05-26T00:34:15+00:00,1,3.87,True,2,2,1,0,1,0,1,MERGED
+13291,Delete hsetf and hgetf,tezc,2024-05-24T09:44:28Z,2024-05-26T10:30:45+00:00,3,48.77,True,76,1825,6,215,2,2,4,MERGED
+13289,Add debug script command,AcherTT,2024-05-23T10:38:03Z,2024-06-21T10:21:26+00:00,5,695.72,True,29,0,3,146,0,9,9,MERGED
+13287,Fix ebuckets stop indication during ebExpire(),moticless,2024-05-23T06:14:07Z,2024-05-23T07:46:50+00:00,1,1.55,True,8,4,1,250,0,0,0,MERGED
+13285,HFE to support AOF and replicas,moticless,2024-05-21T12:09:09Z,2024-05-29T11:47:48+00:00,53,191.64,True,983,482,21,732,2,38,40,MERGED
+13279,Improve performance of hfe listpack,tezc,2024-05-18T17:34:55Z,2024-05-22T20:05:32+00:00,19,98.51,True,492,205,3,1337,2,14,16,MERGED
+13278,sanitize dump payload for HFE,sundb,2024-05-18T14:49:18Z,2024-05-22T02:53:30+00:00,13,84.07,True,146,59,9,409,0,3,3,MERGED
+13276,Have consistent behavior of SPUBLISH within multi/exec like regular command,sundb,2024-05-17T01:25:03Z,2024-05-21T01:25:14+00:00,8,96.0,True,80,7,3,751,0,2,2,MERGED
+13275,Add Statistics hashes_with_expiry_fields to INFO,moticless,2024-05-16T12:29:48Z,2024-05-23T14:29:46+00:00,1,170.0,True,37,3,2,352,2,0,2,MERGED
+13274,Free current client asynchronously after user permissions changes,valentinogeron,2024-05-16T10:07:46Z,2024-05-30T14:09:30+00:00,1,340.03,True,86,21,5,403,0,0,0,MERGED
+13272,Release Redis 7.2.5,YaacovHazan,2024-05-16T07:17:04Z,2024-05-19T06:12:35+00:00,1,70.93,True,437,50,25,637,0,0,0,MERGED
+13270,Fix commands H*EXPIRE* and H*TTL to include constant FIELDS ,moticless,2024-05-15T11:04:03Z,2024-05-16T16:35:58+00:00,6,29.53,True,276,216,16,184,2,4,6,MERGED
+13266,"Revert ""Change mmap rand bits as a temporary mitigation to resolve asan bug (#13150)""",sundb,2024-05-13T13:56:52Z,2024-05-15T06:12:22+00:00,1,40.26,True,1,6,2,204,0,0,0,MERGED
+13263,Fix hgetf/hsetf reply type by returning string,tezc,2024-05-13T07:01:50Z,2024-05-13T08:09:49+00:00,3,1.13,True,35,6,5,445,0,1,1,MERGED
+13258,Fix some memory leaks in redis-cli,LuMingYinDetect,2024-05-11T00:42:11Z,2024-08-08T02:51:33+00:00,10,2138.16,True,3,0,1,95,4,3,7,MERGED
+13255,Fix test failure due to differing reply format of XREADGROUP under RESP3 in MULTI,sundb,2024-05-10T07:52:12Z,2024-05-14T12:08:32+00:00,2,100.27,True,2,3,1,416,9,1,10,MERGED
+13249,ebuckets: Add test for ACT_UPDATE_EXP_ITEM,moticless,2024-05-05T15:13:48Z,2024-05-08T15:38:45+00:00,2,72.42,True,72,12,2,117,0,1,1,MERGED
+13246,Log the real reason for why posix_fadvise failed,TedLyngmo,2024-05-03T10:00:02Z,2024-05-21T02:33:14+00:00,2,424.55,True,4,1,1,144,0,0,0,MERGED
+13243,Hfe serialization listpack,ronen-kalish,2024-05-02T16:12:35Z,2024-05-17T10:27:02+00:00,76,354.24,True,660,88,12,951,11,52,63,MERGED
+13238,Fix reply schema for hfe related commands,sundb,2024-04-30T08:01:56Z,2024-05-03T03:11:42+00:00,2,67.16,True,496,456,10,0,0,1,1,MERGED
+13237,Add notification support for HFE,sundb,2024-04-30T07:52:53Z,2024-05-09T14:23:00+00:00,4,222.5,True,26,8,4,109,5,1,6,MERGED
+13233,Fix CI failure caused by PR #13231,sundb,2024-04-25T04:44:37Z,2024-04-25T06:11:45+00:00,1,1.45,True,2,2,1,412,1,0,1,MERGED
+13231,Fix forget to update the dict's node in the kvstore's rehashing list after defragment,sundb,2024-04-22T11:24:34Z,2024-04-24T08:15:42+00:00,2,44.85,True,40,2,2,169,1,0,1,MERGED
+13230,"Support HSET+expire in one command, at infra level",moticless,2024-04-22T07:38:46Z,2024-04-25T15:29:03+00:00,1,79.84,True,444,258,3,799,0,0,0,MERGED
+13229,Add defragment support for HFE,sundb,2024-04-19T08:44:14Z,2024-05-14T09:32:33+00:00,33,600.81,True,299,11,6,1151,7,15,22,MERGED
+13221,Reduce getNodeByQuery overhead,fcostaoliveira,2024-04-17T13:08:07Z,2024-07-03T10:23:14+00:00,5,1845.25,True,36,35,5,4556,8,3,11,MERGED
+13220,dynamically list test files,dev-jonghoonpark,2024-04-17T12:56:23Z,2024-05-30T11:09:26+00:00,2,1030.22,True,30,101,7,818,2,0,2,MERGED
+13218,Replace bit shift with __builtin_ctzll in HyperLogLog,panzhongxian,2024-04-17T09:41:06Z,2024-08-05T02:51:43+00:00,4,2633.18,True,4,11,1,2885,11,2,13,MERGED
+13209,Hash Field Expiration - listpack support ,tezc,2024-04-15T03:45:46Z,2024-05-08T20:11:32+00:00,80,568.43,True,3636,749,17,1504,4,56,60,MERGED
+13195,redis-cli - sendReadOnly() to work with Redis Cloud,yveslb,2024-04-06T23:01:11Z,2024-04-08T08:12:57+00:00,3,33.2,True,3,1,1,248,3,1,4,MERGED
+13191,Fix daylight race condition and some thread leaks,sundb,2024-04-03T17:06:38Z,2024-04-04T10:49:51+00:00,1,17.72,True,16,5,8,3706,0,0,0,MERGED
+13183,Use usleep() instead of sched_yield() to yield cpu,sundb,2024-04-01T04:36:48Z,2024-04-07T12:59:36+00:00,2,152.38,True,1,1,1,540,19,0,19,MERGED
+13178,kvstoreIteratorNext() wrongly reset iterator twice,moticless,2024-03-28T12:58:27Z,2024-04-01T15:08:55+00:00,4,98.17,True,10,8,1,436,0,1,1,MERGED
+13172,Hash Field Expiration,moticless,2024-03-26T13:04:51Z,2024-04-18T13:06:30+00:00,37,552.03,True,6617,209,36,27033,5,33,38,MERGED
+13169,"Revert ""Change license from BSD-3 to dual RSALv2+SSPLv1""",PatrickJS,2024-03-25T03:15:16Z,2024-03-26T16:49:17+00:00,72,37.57,False,3066,1333,166,34,31,0,31,CLOSED
+13168,"Revert ""Change license from BSD-3 to dual RSALv2+SSPLv1 (#13157)""",StevenMatchett,2024-03-24T21:16:40Z,2024-03-26T16:49:50+00:00,2,43.55,False,3066,1333,166,28,2,0,2,CLOSED
+13167,Change FLUSHALL/FLUSHDB SYNC to run as blocking ASYNC,moticless,2024-03-24T16:32:38Z,2024-04-02T12:09:52+00:00,11,211.62,True,352,48,7,2426,1,8,9,MERGED
+13166,Update debug.c,eltociear,2024-03-24T15:03:58Z,2025-08-20T18:33:44+00:00,1,12339.5,False,1,1,1,9,1,0,1,CLOSED
+13163,Change license from dual RSALv2+SSPLv1 to GPLv3,melroy89,2024-03-23T01:15:28Z,2024-03-24T02:09:22+00:00,2,24.9,False,541,600,1,123,16,0,16,CLOSED
+13154,Fix dict use-after-free problem in kvs->rehashing,lyq2333,2024-03-19T02:44:33Z,2024-03-20T20:44:29+00:00,11,42.0,True,11,0,2,885,9,1,10,MERGED
+13150,Change mmap rand bits as a temporary mitigation to resolve asan bug,madolson,2024-03-17T05:14:49Z,2024-03-17T07:06:51+00:00,2,1.87,True,6,1,2,403,5,0,5,MERGED
+13149,Maintain determinstic ordering of replica(s) in `CLUSTER SLOTS` response,hpatro,2024-03-16T03:48:55Z,2024-04-08T18:15:47+00:00,5,566.45,False,5,0,1,1079,6,3,9,CLOSED
+13148,fix wrong data type conversion in zrangeResultBeginStore,lyq2333,2024-03-15T11:34:35Z,2024-03-19T06:52:55+00:00,4,91.31,True,9,2,2,524,2,1,3,MERGED
+13147,Add missing REDIS_STATIC in quicklist,AlexanderMahone0,2024-03-15T09:50:03Z,2024-03-18T06:22:19+00:00,3,68.54,True,2,2,1,299,1,0,1,MERGED
+13146,fix typos in hiredis,testwill,2024-03-15T09:04:50Z,2024-03-16T01:21:47+00:00,1,16.28,False,3,3,3,0,1,0,1,CLOSED
+13143,Avoid unnecessary dict shrink in zremrangeGenericCommand,CharlesChen888,2024-03-14T11:49:16Z,2024-03-19T02:14:19+00:00,2,110.42,True,2,1,1,104,0,1,1,MERGED
+13141,Prevent lua error_reply abuse from causing errorstats to become larger,enjoy-binbin,2024-03-14T08:50:21Z,2024-03-19T06:18:23+00:00,8,117.47,True,87,1,4,1592,2,2,4,MERGED
+13135,Fix dictionary use-after-free in active expire and make kvstore iter to respect EMPTY flag,enjoy-binbin,2024-03-13T16:34:08Z,2024-03-18T15:41:54+00:00,13,119.13,True,205,12,7,1083,2,11,13,MERGED
+13134,Unshare object to avoid LRU/LFU being messed up.,CharlesChen888,2024-03-13T11:23:05Z,2024-04-16T00:57:23+00:00,4,805.57,False,9,2,3,728,1,4,5,CLOSED
+13133,"Allocate Lua VM code with jemalloc instead of libc, and count it used memory",enjoy-binbin,2024-03-13T08:41:33Z,2024-04-16T09:43:34+00:00,36,817.03,True,276,65,12,1584,11,19,30,MERGED
+13132,Optimize range deletion in zset encoded with listpack ,lyq2333,2024-03-13T07:17:02Z,2024-08-05T09:48:11+00:00,16,3482.52,False,92,40,3,1963,6,9,15,CLOSED
+13129,redis-benchmark: single primary node setup in cluster mode is valid configuration,hpatro,2024-03-12T04:14:45Z,2024-04-08T18:21:18+00:00,5,662.11,False,0,5,1,301,1,1,2,CLOSED
+13117,Xread last entry in stream (#7388),ronen-kalish,2024-03-06T14:26:58Z,2024-03-13T06:23:32+00:00,9,159.94,True,138,0,2,310,3,4,7,MERGED
+13115,Fix conversion of numbers in lua args to redis args,mdouglass,2024-03-06T06:32:40Z,2024-03-10T06:46:49+00:00,9,96.24,True,19,2,2,965,14,5,19,MERGED
+13114,Fix override merging bug in start_cluster affecting tests,PingXie,2024-03-05T21:45:15Z,2024-03-14T04:45:55+00:00,3,199.01,False,37,1,1,847,4,1,5,CLOSED
+13112,Change crc16 slot table to be fixed size to save ~128kb of memory,madolson,2024-03-05T20:58:56Z,2024-03-08T23:50:36+00:00,2,74.86,True,2,1,1,326,0,0,0,MERGED
+13108,Lua eval scripts first in first out LRU eviction,enjoy-binbin,2024-03-04T11:39:15Z,2024-03-13T06:27:41+00:00,8,210.81,True,194,24,5,2402,11,11,22,MERGED
+13104,Enable accept4() on *BSD,panjf2000,2024-03-02T14:26:09Z,2024-03-12T14:35:52+00:00,1,240.16,True,3,1,1,337,12,0,12,MERGED
+13103,Fix reply schemas validator build issue due to new regular expression,enjoy-binbin,2024-03-02T10:28:32Z,2024-03-02T19:26:05+00:00,4,8.96,True,3,2,1,468,2,2,4,MERGED
+13101,Call finalizerProc when free the aeTimeEvent in ae,enjoy-binbin,2024-03-01T11:25:14Z,2024-03-03T07:20:18+00:00,2,43.92,True,2,0,1,131,1,0,1,MERGED
+13098,freeDictIfNeeded when kvstoreEmpty,soloestoy,2024-02-29T01:59:26Z,2024-02-29T06:16:41+00:00,2,4.29,True,1,0,1,78,0,0,0,MERGED
+13097,redis-cli fixes around help hints version filtering,YaacovHazan,2024-02-28T12:27:21Z,2024-03-02T09:48:36+00:00,4,69.35,True,8,3,1,584,0,2,2,MERGED
+13092,"Fix redis-cli --count (for --scan, --bigkeys, etc) was ignored unless --pattern was also used",LiiNen,2024-02-26T11:59:25Z,2024-02-28T07:44:30+00:00,2,43.75,True,2,1,1,1899,0,0,0,MERGED
+13090,Comment update for quicklistNode,AlexanderMahone0,2024-02-24T12:52:02Z,2025-08-04T07:08:07+00:00,1,12642.27,False,2,3,1,221,2,0,2,CLOSED
+13089,Optimize randomkey on expired keys,lyq2333,2024-02-23T07:51:06Z,2024-08-05T09:48:34+00:00,1,3937.96,False,44,19,1,2007,1,1,2,CLOSED
+13087,"SCRIPT FLUSH run truly async, close lua interpreter in bio",enjoy-binbin,2024-02-22T13:14:33Z,2024-02-28T15:57:30+00:00,5,146.72,True,45,11,5,436,17,3,20,MERGED
+13086,Fix minor memory leak in rewriteSetObject,enjoy-binbin,2024-02-22T11:06:51Z,2024-02-22T12:46:56+00:00,1,1.67,True,1,0,1,120,1,0,1,MERGED
+13084,Don't update node ip when peer ip is unreachable #10696,wangweilica,2024-02-22T06:34:12Z,2024-02-23T07:50:43+00:00,1,25.28,False,15,4,1,657,2,0,2,CLOSED
+13083,Implement HSETXX,Cheban1996,2024-02-21T23:19:38Z,2025-05-21T22:25:41+00:00,6,10919.1,False,156,2,7,6,6,2,8,CLOSED
+13080,Optimize DEL on expired keys,lyq2333,2024-02-21T08:39:48Z,2024-02-26T10:50:04+00:00,10,122.17,True,27,18,1,1252,1,5,6,MERGED
+13078,Edit the history field of xinfo-consumers,guybe7,2024-02-21T06:05:32Z,2024-02-22T07:44:29+00:00,2,25.65,True,2,2,2,62,0,0,0,MERGED
+13077,Avoid expiration and eviction during data syncing,lyq2333,2024-02-21T03:57:02Z,2024-08-05T09:48:46+00:00,2,3989.86,False,136,7,10,824,2,1,3,CLOSED
+13076,Add new allocator.muzzy field to memory-stats reply schema,enjoy-binbin,2024-02-21T02:37:40Z,2024-02-21T06:35:10+00:00,2,3.96,True,3,0,1,115,1,0,1,MERGED
+13073,Makefile respect user's REDIS_CFLAGS and OPT,zuiderkwast,2024-02-20T11:34:24Z,2024-03-13T15:02:00+00:00,3,531.46,True,8,5,1,1096,2,0,2,MERGED
+13072,Add KVSTORE_FREE_EMPTY_DICTS to cluster mode keys / expires kvstore,enjoy-binbin,2024-02-20T08:25:14Z,2024-03-13T06:30:20+00:00,12,526.09,True,8,3,1,739,26,6,32,MERGED
+13071,Fix timing issue in blockedclient test,enjoy-binbin,2024-02-20T03:55:43Z,2024-02-20T06:43:14+00:00,2,2.79,True,1,1,1,537,1,1,2,MERGED
+13069,Add API RedisModule_ClusterKeySlot and RedisModule_ClusterCanonicalKeyNameInSlot,zuiderkwast,2024-02-19T14:50:50Z,2024-03-12T16:26:13+00:00,6,529.59,True,42,0,4,429,9,1,10,MERGED
+13068,Fix size stat in malloc(0) and cleanups around zmalloc file,enjoy-binbin,2024-02-19T14:41:32Z,2024-02-26T10:07:07+00:00,10,163.43,True,49,11,1,839,1,3,4,MERGED
+13066,Adds a README to the command JSON files,guybe7,2024-02-19T10:38:23Z,2024-02-19T16:49:31+00:00,4,6.19,True,15,0,1,115,1,3,4,MERGED
+13063,Calculate the incremental rehash time more precisely,soloestoy,2024-02-19T06:36:01Z,2024-02-19T12:29:54+00:00,2,5.9,True,5,5,2,563,0,0,0,MERGED
+13062,Fix wathced client test timing issue caused by late close,enjoy-binbin,2024-02-19T04:16:54Z,2024-02-20T09:12:19+00:00,1,28.92,True,13,4,4,354,1,0,1,MERGED
+13059,redis-cli - fix sscanf incorrect return-value check warnings,enjoy-binbin,2024-02-18T05:02:04Z,2024-02-18T08:55:11+00:00,1,3.89,True,2,2,1,227,0,0,0,MERGED
+13058,Implement defragmentation for pubsub kvstore,sundb,2024-02-18T02:44:02Z,2024-03-04T14:56:50+00:00,49,372.21,True,255,74,6,1011,2,18,20,MERGED
+13056,"xinfo-stream add minimum to seen-time, skip logreqres in fuzzer",enjoy-binbin,2024-02-16T14:11:44Z,2024-02-20T10:21:10+00:00,2,92.16,True,5,2,2,751,10,0,10,MERGED
+13055,Fix PONG message processing for primary-ship tracking during failovers,PingXie,2024-02-16T08:06:41Z,2024-03-05T01:32:25+00:00,18,425.43,True,61,1,1,422,4,10,14,MERGED
+13054,Minor optimization in kvstoreDictAddRaw when dict exists,enjoy-binbin,2024-02-15T11:03:26Z,2024-02-15T16:07:24+00:00,8,5.07,True,13,11,2,755,0,2,2,MERGED
+13053,Increase tolerance range to block reprocess tests to avoid timing issues,enjoy-binbin,2024-02-15T07:42:38Z,2024-02-15T08:44:49+00:00,3,1.04,True,9,9,3,957,1,1,2,MERGED
+13052,zunionInterDiffGenericCommand use ztrycalloc to avoid OOM panic,enjoy-binbin,2024-02-15T07:30:54Z,2024-02-15T08:49:10+00:00,3,1.3,True,7,1,1,275,0,1,1,MERGED
+13047,Fix CLIENAT KILL MAXAGE test timing issue,enjoy-binbin,2024-02-11T17:21:43Z,2024-02-12T06:11:33+00:00,3,12.83,True,31,11,2,641,0,1,1,MERGED
+13046,Do not include gossip about receiver in cluster messages,srgsanky,2024-02-11T15:56:19Z,2024-02-14T00:38:38+00:00,3,56.71,True,8,5,1,451,1,1,2,MERGED
+13043,Add new DEBUG dict-resizing command to disable the dict resize,enjoy-binbin,2024-02-08T12:45:11Z,2024-02-08T14:39:59+00:00,3,1.91,True,24,30,5,836,1,1,2,MERGED
+13042,Fix SORT STORE quicklist with the right options,enjoy-binbin,2024-02-08T09:35:40Z,2024-02-08T12:36:11+00:00,4,3.01,True,24,18,8,408,3,1,4,MERGED
+13041,"AOF_FSYNC_EVERYSEC higher resolution, change aof_last_fsync and aof_flush_postponed_start to use mstime",enjoy-binbin,2024-02-08T09:20:05Z,2024-02-18T10:08:29+00:00,1,240.81,True,12,12,3,1074,14,1,15,MERGED
+13040,Fix crash due to merge of quicklist node introduced by #12955,sundb,2024-02-08T06:41:03Z,2024-02-08T12:29:16+00:00,3,5.8,True,72,8,2,669,0,2,2,MERGED
+13038,Fix heap-use-after-free when pubsubshard_channels became NULL,enjoy-binbin,2024-02-07T07:48:11Z,2024-02-07T12:53:50+00:00,9,5.09,True,64,31,6,407,6,3,9,MERGED
+13036,Add offset_lag field to INFO REPLICATION slavex,enjoy-binbin,2024-02-07T04:10:13Z,2024-02-18T07:17:34+00:00,2,267.12,False,4,2,1,331,4,1,5,CLOSED
+13035,Fix dict don't rehash when there is child test,enjoy-binbin,2024-02-07T02:40:24Z,2024-02-07T07:19:18+00:00,3,4.65,True,2,2,1,315,1,1,2,MERGED
+13031,Fix kvstore unable to push resize_cursor for resize when dict is NULL,enjoy-binbin,2024-02-06T03:31:41Z,2024-02-06T07:41:15+00:00,1,4.16,True,1,3,1,188,2,0,2,MERGED
+13027,Minor optimization for expire dict in defragKey,enjoy-binbin,2024-02-04T08:56:42Z,2024-02-06T10:19:45+00:00,3,49.38,True,4,7,1,287,0,1,1,MERGED
+13020,Re-compute active_defrag_running after adjusting defrag configurations,enjoy-binbin,2024-02-01T08:08:13Z,2024-02-06T11:39:08+00:00,7,123.52,True,41,8,5,828,0,1,1,MERGED
+13016,Fix dict resize allow test,enjoy-binbin,2024-01-31T04:56:24Z,2024-01-31T11:11:53+00:00,7,6.26,True,6,1,1,615,1,2,3,MERGED
+13015,Fix module assertion crash when timer and timeout are unlocked in the same event loop,enjoy-binbin,2024-01-30T14:36:28Z,2024-01-31T11:10:20+00:00,7,20.56,True,17,0,4,805,10,3,13,MERGED
+13013,Fix the failure of defrag test under 32-bit,sundb,2024-01-30T13:09:34Z,2024-02-11T13:12:42+00:00,4,288.05,True,37,1,3,1330,13,1,14,MERGED
+13009,fix dict rehash tests introduced by #12802 broken by #12819,oranagra,2024-01-30T08:03:00Z,2024-01-30T12:32:38+00:00,4,4.49,True,15,4,1,1575,5,1,6,MERGED
+13008,Improve error handling in connSocketBlockingConnect for various connction failures,ganyyy,2024-01-29T16:45:03Z,2024-02-06T12:31:08+00:00,4,187.77,True,1,0,1,649,1,0,1,MERGED
+13006,Simplify kevent() call in aeApiPoll(),panjf2000,2024-01-29T14:33:01Z,2024-02-07T15:27:10+00:00,3,216.9,False,5,9,1,49,1,1,2,CLOSED
+13005,Use epoll_pwait2() if available,panjf2000,2024-01-29T10:50:01Z,2024-04-15T12:10:14+00:00,2,1849.34,False,15,0,2,459,14,1,15,CLOSED
+13004,Fix blocking commands timeout is reset due to re-processing command,enjoy-binbin,2024-01-29T08:42:57Z,2024-01-30T09:32:59+00:00,2,24.83,True,105,8,7,633,10,1,11,MERGED
+13000,"Fix maxmemory-samples stack overflow crash in evictionPoolPopulate, limit its value to [1,64]",enjoy-binbin,2024-01-29T06:36:14Z,2024-01-29T08:38:52+00:00,1,2.04,True,3,2,2,290,2,0,2,MERGED
+12996,Defragger improvements around large bins,sundb,2024-01-26T15:22:10Z,2024-02-20T16:11:10+00:00,18,600.82,True,99,18,6,486,6,11,17,MERGED
+12993,fix the wrong path in mkreleasehdr.sh,judeng,2024-01-26T07:12:24Z,2024-01-26T23:01:54+00:00,1,15.82,True,1,1,1,132,1,0,1,MERGED
+12986,Pick random slot for a node to distribute operation across slots in redis-benchmark,hpatro,2024-01-25T01:53:14Z,2024-03-11T18:19:30+00:00,9,1120.44,True,1,5,1,1175,4,2,6,MERGED
+12985,Add RM_TryCalloc() and RM_TryRealloc(),tezc,2024-01-24T22:58:52Z,2024-01-29T18:56:03+00:00,4,115.95,True,45,0,4,147,0,0,0,MERGED
+12980,Add sender NULL check in clusterProcessGossipSection invalid_ids case,enjoy-binbin,2024-01-23T05:15:51Z,2024-01-23T17:45:02+00:00,1,12.49,True,5,1,1,341,0,0,0,MERGED
+12978,Bump actions/cache from 3 to 4,dependabot,2024-01-22T15:48:38Z,2024-01-23T09:09:49+00:00,1,17.35,True,1,1,1,5164,0,0,0,MERGED
+12977,"Allow running WAITAOF in scripts, remove NOSCRIPT flag",enjoy-binbin,2024-01-22T14:42:58Z,2024-01-23T13:19:41+00:00,1,22.61,True,8,3,4,316,5,0,5,MERGED
+12973,add -fno-omit-frame-pointer to default complication flags,judeng,2024-01-22T09:35:12Z,2024-02-19T19:47:02+00:00,7,682.2,True,3,0,1,1472,6,1,7,MERGED
+12971,Expose lua os.clock() api,sundb,2024-01-22T08:34:24Z,2024-02-22T09:29:52+00:00,32,744.92,True,56,2,3,192,3,8,11,MERGED
+12969,update redis-check-rdb types,oranagra,2024-01-21T13:02:06Z,2024-01-23T09:48:02+00:00,2,44.77,True,3,4,2,60,0,0,0,MERGED
+12966,Add metrics for WATCH,soloestoy,2024-01-19T05:56:37Z,2024-02-18T08:36:41+00:00,6,722.67,True,93,20,7,1459,1,4,5,MERGED
+12965,Exit early if slowlog/acllog max len set to zero,hpatro,2024-01-18T22:30:04Z,2024-01-23T00:01:04+00:00,13,97.52,True,43,9,5,202,5,6,11,MERGED
+12962,Fix minor memory leaks in dictTest,enjoy-binbin,2024-01-18T11:58:29Z,2024-01-18T14:32:05+00:00,2,2.56,True,12,4,1,43,1,1,2,MERGED
+12961,Revert multi OOM limit and add multi buffer limit,soloestoy,2024-01-18T06:34:52Z,2024-01-25T09:17:40+00:00,10,170.71,True,9,17,3,1535,4,2,6,MERGED
+12960,Fix unexpected resize causing test failure,enjoy-binbin,2024-01-18T02:24:56Z,2024-01-18T09:19:29+00:00,1,6.91,True,3,3,1,514,2,0,2,MERGED
+12958,Fix redis-check-aof incorrectly considering data in manifest format as MP-AOF,enjoy-binbin,2024-01-17T08:15:24Z,2024-03-12T06:47:43+00:00,4,1318.54,True,37,2,3,458,1,1,2,MERGED
+12957,Record the time a replica attempts to connect with master,soloestoy,2024-01-17T03:05:38Z,2025-07-22T12:53:25+00:00,15,13257.8,False,149,4,4,1185,14,4,18,CLOSED
+12956,Optimize defragLaterItem Function for Readability and Maintainability,WM0323,2024-01-16T20:34:30Z,2024-01-17T00:28:53+00:00,1,3.91,False,19,14,1,329,1,0,1,CLOSED
+12955,"Fix crash in LSET command when replacing small list items with larger ones, creating listpacks larger than 4GB",sundb,2024-01-16T12:03:57Z,2024-02-06T16:21:28+00:00,2,508.29,True,54,13,2,833,3,0,3,MERGED
+12952,"Fix dict resize ratio checks, avoid precision loss from integer division",enjoy-binbin,2024-01-15T18:16:46Z,2024-01-18T09:16:50+00:00,11,63.0,True,127,9,2,494,2,4,6,MERGED
+12950,Optimize dictTypeResizeAllowed to avoid mistaken OOM judgement.,CharlesChen888,2024-01-15T12:23:43Z,2024-01-18T14:35:13+00:00,4,74.19,True,6,6,1,420,2,0,2,MERGED
+12949,Make db->avg_ttl more precise,lyq2333,2024-01-15T12:11:06Z,2024-02-04T06:34:26+00:00,9,474.39,True,52,21,1,1207,3,2,5,MERGED
+12948,"Change the threshold of dict expand, shrink and rehash",lyq2333,2024-01-15T10:12:13Z,2024-01-19T15:00:43+00:00,8,100.81,True,60,54,4,1366,18,2,20,MERGED
+12947,Set the correct id for tempDb,soloestoy,2024-01-15T08:14:40Z,2024-01-22T03:47:51+00:00,2,163.55,True,1,0,1,660,0,0,0,MERGED
+12944,Allow SPUBLISH command within multi/exec on replica,hpatro,2024-01-12T20:37:02Z,2024-04-10T16:42:03+00:00,2,2132.08,False,64,7,2,703,2,1,3,CLOSED
+12943,Fix fd check in memtest_test_linux_anonymous_maps,enjoy-binbin,2024-01-12T16:21:35Z,2024-01-14T09:18:18+00:00,2,40.95,True,1,1,1,150,0,0,0,MERGED
+12942,Fix race in slot dict resize test,enjoy-binbin,2024-01-12T15:25:25Z,2024-01-17T06:46:09+00:00,7,111.35,True,15,0,1,973,1,2,3,MERGED
+12940,Some cleanups around function,enjoy-binbin,2024-01-12T10:25:13Z,2024-01-23T12:26:34+00:00,2,266.02,True,24,25,5,519,0,6,6,MERGED
+12939,Print time zone in server log.,CharlesChen888,2024-01-12T08:57:28Z,2024-04-16T00:57:12+00:00,2,2272.0,False,2,1,1,637,9,1,10,CLOSED
+12935,Move the function exists check in FCALL to the back,enjoy-binbin,2024-01-11T12:43:25Z,2024-01-14T15:09:35+00:00,1,74.44,False,11,11,1,113,1,0,1,CLOSED
+12931,Change dictGetSafeIterator to dictGetIterator in pubsub,lyq2333,2024-01-10T07:47:08Z,2024-01-19T15:03:20+00:00,8,223.27,True,3,5,1,329,9,2,11,MERGED
+12930,Avoid double free of cluster link,hpatro,2024-01-09T22:58:02Z,2024-01-11T23:59:22+00:00,2,49.02,True,4,4,1,1644,0,1,1,MERGED
+12929,Sharded pubsub message propagation via replication link,hpatro,2024-01-09T20:24:10Z,2024-04-12T18:12:08+00:00,3,2253.8,False,102,9,6,2643,3,1,4,CLOSED
+12927,Add announced-endpoints test to all_tests and fix tls related tests,enjoy-binbin,2024-01-09T16:04:08Z,2024-01-10T02:18:59+00:00,1,10.25,True,14,5,2,165,0,0,0,MERGED
+12925,Refine the purpose of rdb saving with accurate flags,lyq2333,2024-01-09T07:31:06Z,2024-02-01T11:41:02+00:00,10,556.17,True,6,5,3,1516,0,2,2,MERGED
+12924,Fix possible corruption in sdsResize (CVE-2023-41056),oranagra,2024-01-09T06:52:33Z,2024-01-09T11:51:56+00:00,2,4.99,True,16,14,1,306,3,0,3,MERGED
+12923,Release 7.2.4,oranagra,2024-01-09T06:51:38Z,2024-01-09T11:51:50+00:00,1,5.0,True,276,64,18,545,0,0,0,MERGED
+12922,Release 7.0.15,oranagra,2024-01-09T06:50:55Z,2024-01-09T11:51:42+00:00,1,5.01,True,36,26,4,275,1,0,1,MERGED
+12921,Prevent nodes with invalid IDs from being propagated through gossip,BCathcart,2024-01-09T00:25:06Z,2024-01-22T19:25:43+00:00,11,331.01,True,43,0,1,577,0,5,5,MERGED
+12919,Fix minor fd leak in rdbSaveToSlavesSockets,enjoy-binbin,2024-01-08T14:20:06Z,2024-01-08T15:36:35+00:00,1,1.27,True,1,0,1,118,0,0,0,MERGED
+12915,Address some failures with new tests for improving debug report,madolson,2024-01-06T04:49:05Z,2024-01-09T01:56:06+00:00,3,69.12,True,41,23,3,227,5,1,6,MERGED
+12914,Re-indent code and reduce code being complied on Solaris for anetKeepAlive,panjf2000,2024-01-05T14:47:23Z,2024-01-08T09:12:25+00:00,1,66.42,True,50,47,1,767,3,0,3,MERGED
+12913,Add overhead of all DBs and rehashing dict count to info.,CharlesChen888,2024-01-05T13:24:51Z,2024-03-01T05:41:25+00:00,58,1336.28,True,100,23,8,972,11,22,33,MERGED
+12910,Event loop per I/O thread (PoC),zuiderkwast,2024-01-03T15:44:30Z,2024-08-27T06:48:45+00:00,1,5679.07,False,1237,504,20,1839,6,1,7,CLOSED
+12909,Connection minor fixes,zuiderkwast,2024-01-03T14:31:12Z,2024-08-27T07:01:46+00:00,1,5680.51,False,1,3,2,874,1,0,1,CLOSED
+12907,Update CONTRIBUTING.md,LiorKogan,2024-01-03T08:28:33Z,2024-01-03T15:21:19+00:00,1,6.88,True,14,15,1,115,4,0,4,MERGED
+12906,fix scripts access wrong slot if they disagree with pre-declared keys,soloestoy,2024-01-03T07:41:14Z,2024-01-15T01:57:13+00:00,12,282.27,True,24,7,5,1368,0,3,3,MERGED
+12905,Make RM_Yield thread-safe,sundb,2024-01-02T03:11:45Z,2024-01-07T10:10:29+00:00,13,126.98,True,31,1,3,3935,11,5,16,MERGED
+12904,Bump cross-platform-actions/action from 0.21.1 to 0.22.0,dependabot,2024-01-01T15:11:34Z,2024-01-04T20:38:34+00:00,2,77.45,True,1,1,1,3582,0,0,0,MERGED
+12903,Reduce sdslen calls to once per sds in LCS,JoverZhang,2024-01-01T08:46:29Z,2024-01-02T12:47:31+00:00,2,28.02,False,6,6,1,29,0,1,1,CLOSED
+12902,Update copyright year,devcamke,2024-01-01T07:53:20Z,2024-01-02T07:58:45+00:00,1,24.09,False,1,1,1,0,0,0,0,CLOSED
+12899,Reduce performance impact of dict rehashing and make it shorter.,roshkhatri,2023-12-28T22:53:20Z,2024-01-27T09:11:54+00:00,28,706.31,True,143,76,2,3175,19,27,46,MERGED
+12898,Fix propagation of entries_read by calling streamPropagateGroupID unconditionally,enjoy-binbin,2023-12-28T09:07:33Z,2024-02-29T07:48:20+00:00,3,1510.68,True,32,7,5,1429,9,2,11,MERGED
+12897,Correct bytes_per_key computing.,CharlesChen888,2023-12-28T08:53:28Z,2024-01-12T03:58:53+00:00,2,355.09,True,1,1,1,205,1,0,1,MERGED
+12896,Fix crash caused by pubsubShardUnsubscribeAllChannelsInSlot not deleting the client,enjoy-binbin,2023-12-28T04:24:07Z,2023-12-28T06:32:52+00:00,4,2.15,True,4,1,1,290,3,2,5,MERGED
+12895,Reorder signalModifiedKey in xaddCommand.,CharlesChen888,2023-12-28T03:53:58Z,2023-12-28T11:29:27+00:00,1,7.59,True,2,1,1,250,4,0,4,MERGED
+12893,Add new command MEXISTS to return list of existing at the specified keys,git-hulk,2023-12-27T16:04:44Z,2024-03-23T15:29:08+00:00,2,2087.41,False,107,0,5,308,3,1,4,CLOSED
+12892,Adjust redis-cli --cluster create arity from -2 to -1,enjoy-binbin,2023-12-27T15:35:02Z,2023-12-28T06:26:24+00:00,1,14.86,True,1,1,1,572,1,0,1,MERGED
+12888,Allow non-denyoom commands in MULTI on OOM,eladbern,2023-12-26T14:41:44Z,2024-01-27T06:35:39+00:00,3,759.9,False,31,4,3,126,1,1,2,CLOSED
+12887,Fix oom-score-adj test due to no permission,sundb,2023-12-26T06:57:43Z,2023-12-27T06:42:46+00:00,2,23.75,True,8,6,1,742,0,1,1,MERGED
+12885,Add restart option to create-cluster script,enjoy-binbin,2023-12-25T09:28:43Z,2023-12-26T02:36:44+00:00,1,17.13,True,19,1,1,174,0,0,0,MERGED
+12884,fix comment of aeProcessEvents,zalj,2023-12-24T17:49:18Z,2023-12-26T02:58:14+00:00,1,33.15,True,2,2,1,161,0,0,0,MERGED
+12878,fix missing comments,LiuLiujie,2023-12-22T08:34:37Z,2023-12-26T03:30:05+00:00,1,90.92,True,2,1,1,68,1,0,1,MERGED
+12870,Bump actions/upload-artifact from 3 to 4,dependabot,2023-12-18T15:21:32Z,2023-12-28T02:36:20+00:00,1,227.25,False,3,3,1,3050,1,0,1,CLOSED
+12869,Bump github/codeql-action from 2 to 3,dependabot,2023-12-18T15:21:27Z,2023-12-28T09:32:23+00:00,2,234.18,True,3,3,1,3936,3,0,3,MERGED
+12862,Always keep an in-memory history of all commands in redis-cli,enjoy-binbin,2023-12-13T14:00:11Z,2023-12-15T15:22:03+00:00,4,49.36,True,35,12,4,438,4,1,5,MERGED
+12860,Redact ACL username information and mark *-key-file-pass configs as sensitive,enjoy-binbin,2023-12-13T08:58:02Z,2023-12-13T13:28:13+00:00,2,4.5,True,33,10,4,455,5,0,5,MERGED
+12857,Handle recursive serverAsserts and provide more information for recursive segfaults,madolson,2023-12-12T04:10:27Z,2024-01-03T02:20:22+00:00,16,526.17,True,138,27,5,577,8,5,13,MERGED
+12851,Add missing test cases for hash commands,hwware,2023-12-08T14:22:08Z,2023-12-17T12:02:54+00:00,2,213.68,True,10,0,1,159,2,1,3,MERGED
+12850,Shrink dict when deleting dictEntry,lyq2333,2023-12-08T10:19:55Z,2024-01-15T06:20:53+00:00,54,908.02,True,99,40,8,1205,3,19,22,MERGED
+12849,Add metric to INFO CLIENTS: pubsub_clients.,CharlesChen888,2023-12-08T08:50:08Z,2023-12-13T05:44:13+00:00,8,116.9,True,66,9,5,204,3,5,8,MERGED
+12848,Unified db rehash method for both standalone and cluster,soloestoy,2023-12-08T08:39:43Z,2023-12-15T02:42:53+00:00,19,162.05,True,115,104,6,2029,1,4,5,MERGED
+12847,Optimize dictExpand of empty dict,lyq2333,2023-12-08T06:40:03Z,2023-12-08T09:48:52+00:00,1,3.15,True,11,0,1,288,0,0,0,MERGED
+12846,Fix rehashingStarted miscalculating bucket_count in dict initialization,enjoy-binbin,2023-12-08T04:29:27Z,2023-12-10T08:55:30+00:00,4,52.43,True,12,23,2,754,1,3,4,MERGED
+12843,Avoid unnecessary slot computing in KEYS command.,CharlesChen888,2023-12-07T09:25:03Z,2023-12-07T11:48:15+00:00,2,2.39,True,2,2,1,91,0,0,0,MERGED
+12841,coverity.yml: Upload should go to project redis-unstable,moshekaplan,2023-12-06T17:10:33Z,2023-12-06T18:51:58+00:00,1,1.69,True,1,1,1,143,1,0,1,MERGED
+12840,Fix multi dbs donot dbExpand when loading RDB,soloestoy,2023-12-06T06:38:43Z,2023-12-06T08:59:56+00:00,1,2.35,True,2,1,1,542,0,0,0,MERGED
+12839,Fix replica node cannot expand dicts when loading legacy RDB,soloestoy,2023-12-06T06:24:58Z,2023-12-07T06:30:48+00:00,3,24.1,True,10,4,3,530,0,0,0,MERGED
+12838,Optimize performance when many clients [p|s]unsubscribe simultaneously,lyq2333,2023-12-06T06:08:31Z,2024-01-08T08:32:31+00:00,7,794.4,True,81,45,3,1163,5,14,19,MERGED
+12837,Extend rax usage by allowing any long long value,knggk,2023-12-06T05:55:29Z,2023-12-14T22:50:18+00:00,4,208.91,True,97,73,9,663,0,5,5,MERGED
+12836,Add INCR type command against wrong argument test cases.,hwware,2023-12-06T04:16:15Z,2024-01-23T13:39:38+00:00,6,1161.39,True,24,0,3,359,1,2,3,MERGED
+12832,Fix CLUSTER SHARDS crash in 7.0/7.2 mixed clusters where shard ids are not sync,enjoy-binbin,2023-12-05T08:07:15Z,2024-01-08T04:54:41+00:00,3,812.79,True,6,0,1,2680,1,0,1,MERGED
+12829,Check whether the client is NULL in luaCreateFunction,enjoy-binbin,2023-12-04T04:00:23Z,2023-12-04T18:12:48+00:00,3,14.21,True,3,1,1,329,1,1,2,MERGED
+12828,config.c: Avoid leaking file handle if file is 0 bytes,moshekaplan,2023-12-03T21:23:19Z,2023-12-27T06:53:56+00:00,2,561.51,True,8,1,1,259,0,0,0,MERGED
+12826,redis-cli --keystats and --keystats-samples with --top and --cursor,yveslb,2023-12-03T06:08:10Z,2024-05-25T07:59:27+00:00,48,4177.85,True,782,30,2,1696,16,46,62,MERGED
+12824,"When one shard, sole primary node marks potentially failed replica as FAIL instead of PFAIL",bentotten,2023-12-02T01:09:34Z,2024-01-11T23:48:19+00:00,14,982.65,True,87,3,4,319,3,11,14,MERGED
+12823,Align server.lastsave and server.rdb_save_time_last by removing multiple calls to time(NULL),bentotten,2023-12-01T22:22:15Z,2023-12-08T01:03:52+00:00,6,146.69,True,6,4,1,134,2,4,6,MERGED
+12822,Refactor the per-slot dict-array db.c into a new kvstore data structure,guybe7,2023-11-30T13:28:07Z,2024-02-05T15:21:35+00:00,88,1609.89,True,1126,927,23,1732,11,52,63,MERGED
+12819,Optimize resizing hash table to resize not only non-empty dicts.,CharlesChen888,2023-11-29T09:03:17Z,2024-01-29T19:02:07+00:00,36,1473.98,True,89,60,7,1049,19,16,35,MERGED
+12818,Optimize CPU cache efficiency on dict while rehashing in `dictTwoPhaseUnlinkFind`,lyq2333,2023-11-29T08:11:39Z,2023-11-30T05:50:10+00:00,2,21.64,True,1,0,1,162,1,0,1,MERGED
+12817,Fix race condition issues between the main thread and module threads,sundb,2023-11-29T03:44:45Z,2024-01-19T13:12:50+00:00,60,1233.47,True,130,58,8,5420,18,16,34,MERGED
+12816,Add missing comments `dont_compress`,roharon,2023-11-28T23:10:18Z,2023-12-26T03:30:56+00:00,2,652.34,False,2,1,1,57,1,2,3,CLOSED
+12815,Use CLZ in _dictNextExp to get the next power of two,enjoy-binbin,2023-11-28T11:53:02Z,2023-11-29T12:42:22+00:00,1,24.82,True,3,8,1,2950,1,0,1,MERGED
+12812,Add parameter to determine whether to load RDB when AOF is off,lyq2333,2023-11-27T07:56:45Z,2024-08-05T09:48:58+00:00,1,6049.87,False,17,1,4,668,8,1,9,CLOSED
+12811,clarify the comment of findSlotByKeyIndex function,soloestoy,2023-11-27T07:42:47Z,2023-11-28T02:45:40+00:00,3,19.05,True,8,3,1,161,1,1,2,MERGED
+12809,Un-register notification and server event when RedisModule_OnLoad fails,enjoy-binbin,2023-11-26T17:36:09Z,2023-11-27T15:26:33+00:00,4,21.84,True,86,29,7,572,5,2,7,MERGED
+12807,GH Workflows: Create CI job for Coverity scan,moshekaplan,2023-11-24T21:29:58Z,2023-12-06T12:50:00+00:00,7,279.33,True,32,0,1,781,9,2,11,MERGED
+12805,Use shard-id of the master if the replica does not support shard-id,enjoy-binbin,2023-11-23T14:24:01Z,2024-01-07T04:24:41+00:00,9,1070.01,True,19,1,2,1054,13,3,16,MERGED
+12804,Replace slots_to_channels radix tree with slot specific dictionaries for shard channels.,CharlesChen888,2023-11-23T11:57:10Z,2023-12-27T09:40:45+00:00,28,813.73,True,159,149,8,1818,8,19,27,MERGED
+12802,Fix resize hash tables stuck on the last non-empty slot,soloestoy,2023-11-23T07:49:14Z,2023-11-28T10:50:16+00:00,15,123.02,True,58,27,4,1210,4,4,8,MERGED
+12800,util.c: Don't leak directory handle if recursive call to dirRemove fails,moshekaplan,2023-11-22T22:37:56Z,2023-11-23T08:04:02+00:00,3,9.44,True,1,0,1,234,2,0,2,MERGED
+12799,Only rebuild server when src or deps are modified,madolson,2023-11-22T22:30:33Z,2023-12-05T03:24:24+00:00,2,292.9,True,1,1,1,253,0,0,0,MERGED
+12797,redis-check-aof.c: Avoid leaking file handle if file is zero bytes,moshekaplan,2023-11-22T16:40:34Z,2023-11-23T08:08:49+00:00,3,15.47,True,1,0,1,192,0,0,0,MERGED
+12796,config.c: Avoid leaking file handle if redis_fstat() fails,moshekaplan,2023-11-22T16:36:03Z,2023-11-23T08:06:13+00:00,2,15.5,True,4,1,1,183,0,0,0,MERGED
+12795,rdb.c: Avoid potential file handle leak (Coverity 404720),moshekaplan,2023-11-22T16:31:03Z,2023-11-23T08:14:17+00:00,1,15.72,True,1,1,1,259,2,0,2,MERGED
+12789,"Optimize dict expand check, move allow check after the thresholds check",enjoy-binbin,2023-11-21T13:44:43Z,2023-11-22T09:33:26+00:00,1,19.81,True,2,2,1,802,16,0,16,MERGED
+12786,Fix compilation warning in KeySpace_ServerEventCallback and add CFLAGS=-Werror flag for module CI,sundb,2023-11-21T03:48:43Z,2023-11-30T15:41:00+00:00,9,227.87,True,22,22,3,527,1,3,4,MERGED
+12784,Remove overhead.hashtable.slot-to-keys from memory-stats reply_schema,enjoy-binbin,2023-11-20T08:33:35Z,2023-12-10T07:46:21+00:00,2,479.21,True,0,4,2,116,1,0,1,MERGED
+12783,Consolidate anetSendTimeout and anetRecvTimeout,panjf2000,2023-11-20T03:42:12Z,2023-12-27T03:46:07+00:00,1,888.07,False,13,14,1,96,3,0,3,CLOSED
+12782,Implement TCP Keep-Alives across most Unix-like systems,panjf2000,2023-11-20T03:40:43Z,2023-12-26T16:44:19+00:00,17,877.06,True,110,25,1,1205,8,2,10,MERGED
+12781,Make the sampling logic in eviction clearer,soloestoy,2023-11-20T02:35:27Z,2023-12-06T01:37:24+00:00,23,383.03,True,52,32,4,936,1,8,9,MERGED
+12777,replace calculateKeySlot with known slot in evictionPoolPopulate,soloestoy,2023-11-17T07:57:48Z,2023-11-17T11:01:06+00:00,1,3.06,True,1,1,1,35,0,0,0,MERGED
+12775,"check dbSize when rewrite AOF, in case unnecessary SELECT",soloestoy,2023-11-17T03:39:34Z,2023-11-17T11:00:27+00:00,1,7.35,True,4,1,1,70,0,0,0,MERGED
+12774,Fix timing issue in CLUSTER SLAVE / REPLICAS consistent test,enjoy-binbin,2023-11-17T02:54:57Z,2023-11-19T09:09:33+00:00,1,54.24,True,5,2,1,244,1,0,1,MERGED
+12773,"Fix dbExpand not dividing by slots, resulting in consuming slots times the dictExpand",enjoy-binbin,2023-11-16T13:29:04Z,2023-11-22T09:16:06+00:00,5,139.78,True,11,1,3,120,3,2,5,MERGED
+12770,Fix empty rehashing list in swapdb mode,enjoy-binbin,2023-11-16T02:42:49Z,2023-11-16T09:18:25+00:00,1,6.59,True,2,1,1,115,1,0,1,MERGED
+12769, Adding missing SWAPDB related test cases.,hwware,2023-11-15T20:37:06Z,2023-11-19T10:44:49+00:00,3,86.13,True,40,0,1,173,1,1,2,MERGED
+12768,Fix the check for new RDB_OPCODE_SLOT_INFO in redis-check-rdb,enjoy-binbin,2023-11-15T15:34:56Z,2023-11-29T12:25:17+00:00,2,332.84,True,3,1,1,84,1,0,1,MERGED
+12767,Remove dead code around should_expand_db,enjoy-binbin,2023-11-15T13:25:19Z,2023-12-10T08:40:15+00:00,3,595.25,True,4,10,2,224,7,1,8,MERGED
+12766,Add noscores option to command ZSCAN.,CharlesChen888,2023-11-15T11:28:06Z,2024-02-01T06:55:03+00:00,2,1867.45,False,49,10,4,166,3,2,5,CLOSED
+12765,Add novalues option to command HSCAN.,CharlesChen888,2023-11-15T09:57:22Z,2024-01-30T18:32:59+00:00,4,1832.59,True,39,8,4,227,5,1,6,MERGED
+12764,Empty rehashing list in emptyDbStructure,enjoy-binbin,2023-11-15T03:00:30Z,2023-11-15T05:55:34+00:00,1,2.92,True,1,0,1,299,1,0,1,MERGED
+12763,Handle missing fields in dbSwapDatabases and swapMainDbWithTempDb,enjoy-binbin,2023-11-14T16:36:44Z,2023-12-10T15:30:20+00:00,3,622.89,True,14,2,3,518,8,0,8,MERGED
+12760,Pass extensions to node if extension processing is handled by it,hpatro,2023-11-13T23:47:21Z,2024-04-10T16:42:12+00:00,8,3568.91,False,17,5,2,1045,3,5,8,CLOSED
+12757,Fix DB iterator not resetting pauserehash causing dict being unable to rehash,enjoy-binbin,2023-11-13T14:08:43Z,2023-11-14T12:28:46+00:00,5,22.33,True,35,13,7,750,2,1,3,MERGED
+12754,Optimize KEYS when pattern includes hashtag and implies a single slot.,CharlesChen888,2023-11-13T05:09:54Z,2023-12-05T14:21:50+00:00,8,537.2,True,25,4,2,207,2,4,6,MERGED
+12752,Increase timeout for expiry cluster tests,hpatro,2023-11-10T21:51:05Z,2023-11-11T10:01:04+00:00,1,12.17,True,3,1,1,313,3,0,3,MERGED
+12751,Add an explanation for URI with -u in redis-cli --help,lowgiant,2023-11-10T15:34:36Z,2023-11-19T13:09:14+00:00,7,213.58,True,9,2,2,627,3,2,5,MERGED
+12750,reset bucket_count when empty db,soloestoy,2023-11-10T09:12:36Z,2023-11-10T13:52:57+00:00,6,4.67,True,1,0,1,120,0,1,1,MERGED
+12745,Fix delKeysInSlot server events are not executed inside an execution unit,enjoy-binbin,2023-11-09T08:44:32Z,2023-12-11T18:15:20+00:00,5,777.51,True,22,10,5,321,1,2,3,MERGED
+12742,"Cluster refactor, common API for different implementations",jhershberg,2023-11-09T08:04:12Z,2023-11-22T07:31:20+00:00,46,311.45,True,7352,7108,13,1438,6,24,30,MERGED
+12741,fix the wrong judgement for activerehashing in standalone mode,soloestoy,2023-11-09T07:30:29Z,2023-11-09T09:30:50+00:00,2,2.01,True,2,2,1,62,0,0,0,MERGED
+12739,Fix genClusterDebugString minor sds leaks,enjoy-binbin,2023-11-08T15:25:19Z,2023-11-08T17:14:37+00:00,1,1.82,True,9,3,1,85,0,0,0,MERGED
+12738,Optimize the efficiency of active expiration when databases exceeds 16.,soloestoy,2023-11-08T10:21:01Z,2023-11-27T04:12:12+00:00,14,449.85,True,9,1,1,1396,0,1,1,MERGED
+12735,"redis-cli --bigkeys ,--hotkeys and --memkeys to replica in cluster mode",xuliang0317,2023-11-07T08:27:56Z,2023-11-20T07:33:28+00:00,13,311.09,True,21,0,1,349,3,2,5,MERGED
+12733,Before evicted and before expired server events are not executed inside an execution unit.,MeirShpilraien,2023-11-06T14:37:59Z,2023-11-08T07:28:22+00:00,9,40.84,True,119,7,5,1144,1,3,4,MERGED
+12732,Use cross-platform-actions for FreeBSD support.,yossigo,2023-11-06T14:18:24Z,2023-11-06T16:07:14+00:00,1,1.81,True,41,29,2,302,0,1,1,MERGED
+12728,Support by/get options for sort(_ro) in cluster mode when pattern implies slot.,CharlesChen888,2023-11-06T03:58:55Z,2023-12-13T19:16:36+00:00,8,903.29,True,49,6,2,307,3,2,5,MERGED
+12727,Update sentinel.c,xuliang0317,2023-11-06T03:43:34Z,2023-11-07T08:01:08+00:00,1,28.29,False,17,4,2,31,1,0,1,CLOSED
+12726,Fix clusterLoadConfig aux_argv minor memory leak,enjoy-binbin,2023-11-05T14:27:17Z,2023-12-03T09:00:53+00:00,1,666.56,True,4,0,1,143,2,0,2,MERGED
+12722,Remove unnecessary argument(tp) in gettimeofday() call for retrieving timezone,Bannirui,2023-11-03T06:27:38Z,2023-11-06T13:10:10+00:00,1,78.71,True,1,2,1,229,0,0,0,MERGED
+12720,remove unnecessary memcpy,Absoler,2023-11-03T04:46:17Z,2023-11-21T11:17:25+00:00,2,438.52,False,1,3,1,945,5,0,5,CLOSED
+12713,Release Redis 7.2.3,oranagra,2023-11-01T08:40:17Z,2023-11-01T12:38:13+00:00,1,3.97,True,21,4,4,227,0,0,0,MERGED
+12711,Change server.stat_client_qbuf_limit_disconnections to atomic to aovid concurrency problem.,CharlesChen888,2023-10-31T11:15:05Z,2023-11-01T02:57:24+00:00,1,15.71,True,6,4,3,313,3,0,3,MERGED
+12710,re-enable defrag tests in cluster mode,roshkhatri,2023-10-31T08:27:16Z,2023-11-02T11:55:48+00:00,3,51.48,True,2,2,1,266,4,0,4,MERGED
+12708,Bump actions/setup-node from 3 to 4,dependabot,2023-10-30T15:50:40Z,2023-11-02T10:22:50+00:00,1,66.54,True,1,1,1,3940,0,0,0,MERGED
+12707,Handle all CLUSTER_REDIR_ error code when verifying Lua.,CharlesChen888,2023-10-30T06:57:23Z,2023-11-06T09:48:59+00:00,5,170.86,True,15,0,1,412,12,1,13,MERGED
+12705,Update active rehashing list on change in activerehashing config,hpatro,2023-10-28T20:57:45Z,2023-12-10T10:03:04+00:00,5,1021.09,False,26,1,1,628,2,1,3,CLOSED
+12704,Optimize finding slot for a given key count in a fenwick tree,roshkhatri,2023-10-27T21:54:32Z,2023-10-28T00:15:20+00:00,2,2.35,True,20,27,1,108,0,1,1,MERGED
+12702,Cluster: Don't crash when adding a forgotten node to blacklist twice,zuiderkwast,2023-10-27T10:18:06Z,2023-10-31T14:20:07+00:00,4,100.03,True,4,2,1,96,0,1,1,MERGED
+12697,Reduce dbBuckets operation time complexity from O(N) to O(1),hpatro,2023-10-26T01:57:49Z,2023-10-27T19:05:40+00:00,9,41.13,True,82,18,5,429,4,5,9,MERGED
+12694,Reset later item flag after defrag later is done,roshkhatri,2023-10-25T21:42:02Z,2023-10-27T10:56:15+00:00,3,37.24,True,1,0,1,365,3,0,3,MERGED
+12693,Fix fd leak causing deleted files to remain open and eat disk space,oranagra,2023-10-25T11:26:00Z,2023-10-25T17:54:02+00:00,2,6.47,True,1,0,1,247,0,0,0,MERGED
+12692,Calculate slotCount only once when initializing dbs.,CharlesChen888,2023-10-25T05:53:14Z,2023-10-26T09:52:56+00:00,2,28.0,False,1,1,1,86,1,0,1,CLOSED
+12689,"Fix test, disable expiration until empty buckets are formed",hpatro,2023-10-23T20:21:45Z,2023-10-24T08:29:40+00:00,2,12.13,True,6,2,1,757,3,0,3,MERGED
+12687,Update comment around propagateDeletion,enjoy-binbin,2023-10-22T13:18:53Z,2023-10-24T10:10:03+00:00,1,44.85,True,14,10,2,122,0,0,0,MERGED
+12674,Fix defrag test,hpatro,2023-10-18T22:08:15Z,2023-10-22T08:56:45+00:00,1,82.81,True,25,5,1,512,3,0,3,MERGED
+12673,Increment Ref Count function,georgeanderson,2023-10-18T21:02:31Z,2023-10-30T14:27:18+00:00,1,281.41,False,2,6,1,135,0,0,0,CLOSED
+12672,Disable flaky defrag tests affecting daily run,hpatro,2023-10-18T19:01:09Z,2023-10-19T18:12:59+00:00,1,23.2,True,2,0,1,732,4,0,4,MERGED
+12667, Adds DEBUG_ASSERTIONS option to custom log and assert,roshkhatri,2023-10-17T17:10:00Z,2023-11-12T04:31:35+00:00,8,611.36,True,11,2,4,348,11,5,16,MERGED
+12666,Add new compilation CI for macos-11 and macos-13,sundb,2023-10-17T11:39:41Z,2023-10-18T10:25:52+00:00,1,22.77,True,29,0,1,140,0,0,0,MERGED
+12665,Release 7.2.2,oranagra,2023-10-17T10:50:20Z,2023-10-18T07:44:10+00:00,2,20.9,True,243,56,14,976,0,1,1,MERGED
+12664,Release 7.0.14,oranagra,2023-10-17T10:47:16Z,2023-10-18T07:43:45+00:00,1,20.94,True,144,29,8,247,0,0,0,MERGED
+12663,Release 6.2.14,oranagra,2023-10-17T10:44:47Z,2023-10-18T07:43:10+00:00,1,20.97,True,34,13,6,247,0,0,0,MERGED
+12660,Fix resize hash table dictionary iterator,hpatro,2023-10-16T22:18:23Z,2023-10-19T10:58:32+00:00,5,60.67,True,5,17,3,1051,17,2,19,MERGED
+12659,Determine the large limit of the quicklist node based on fill,sundb,2023-10-16T13:54:17Z,2024-02-22T08:02:39+00:00,2,3090.14,True,127,120,4,1367,5,0,5,MERGED
+12658,Fix async safety in signal handlers,meiravgri,2023-10-16T09:08:51Z,2023-11-23T11:22:20+00:00,76,914.22,True,476,186,9,3943,10,28,38,MERGED
+12655,remove heap allocations from signal handlers.,meiravgri,2023-10-15T15:10:31Z,2023-10-16T14:21:50+00:00,1,23.19,True,61,76,3,1053,0,0,0,MERGED
+12646,Replace `emptyDb()` with new `emptyData()` in comments,yelinaung,2023-10-11T08:00:45Z,2023-10-12T12:34:08+00:00,5,28.56,True,4,4,3,72,0,1,1,MERGED
+12642,Bump codespell from 2.2.5 to 2.2.6 in /.codespell,dependabot,2023-10-09T15:16:50Z,2023-10-10T02:09:24+00:00,1,10.88,False,1,1,1,6305,1,0,1,CLOSED
+12641,Change addReplyErrorFormat to addReplyError when there is no format,enjoy-binbin,2023-10-09T11:54:55Z,2023-11-30T10:36:17+00:00,2,1246.69,True,4,5,4,198,0,0,0,MERGED
+12640,Input output traffic stats and command process count for each client.,CharlesChen888,2023-10-09T07:07:00Z,2024-04-16T00:56:35+00:00,3,4553.83,False,44,4,5,572,8,1,9,CLOSED
+12639,test suite: clean server pids after server crashed,oranagra,2023-10-08T15:23:34Z,2023-10-13T13:28:53+00:00,2,118.09,True,4,0,1,328,0,0,0,MERGED
+12638,dump server longs on hang corrupt dump fuzzer test,oranagra,2023-10-08T09:20:12Z,2023-10-08T13:19:32+00:00,2,3.99,True,4,0,1,279,0,0,0,MERGED
+12636,Fix misleading error message in redis.log when loglevel is invalid,enjoy-binbin,2023-10-07T03:00:15Z,2023-11-23T08:23:30+00:00,1,1133.39,True,1,1,1,54,0,0,0,MERGED
+12634,Fix typo in redis.conf,xogoodnow,2023-10-05T13:49:01Z,2024-11-22T12:29:17+00:00,2,9934.67,True,1,1,1,33,5,0,5,MERGED
+12633,Support NO ONE block in REPLICAOF command json,enjoy-binbin,2023-10-05T08:40:20Z,2023-10-10T08:10:40+00:00,4,119.51,True,108,18,3,131,0,1,1,MERGED
+12630,Cleanup nested module keyspace notifications,oranagra,2023-10-04T10:03:24Z,2023-10-05T10:50:17+00:00,3,24.78,True,2,1,1,366,0,0,0,MERGED
+12627,WAITAOF: Try to wake blocked clients ASAP in the next beforeSleep,guybe7,2023-10-02T16:08:34Z,2023-12-28T09:27:58+00:00,2,2081.32,True,12,1,1,342,0,0,0,MERGED
+12626,Stabilization and improvements around aof tests,YaacovHazan,2023-09-30T20:54:31Z,2023-10-02T05:20:54+00:00,3,32.44,True,111,148,5,1046,0,1,1,MERGED
+12625,Changes have been made to the project's root Makefile to facilitate the building of dependencies.,paragikjain,2023-09-30T08:06:42Z,2023-10-03T07:57:32+00:00,3,71.85,False,9,0,1,199,0,2,2,CLOSED
+12623,fix crash in crash-report and other improvements,meiravgri,2023-09-28T14:31:47Z,2023-10-02T17:02:02+00:00,4,98.5,True,110,35,3,2530,0,1,1,MERGED
+12622,WAITAOF: Update fsynced_reploff_pending even if there's nothing to fsync,guybe7,2023-09-28T12:28:43Z,2023-09-28T14:19:21+00:00,2,1.84,True,40,1,3,808,1,3,4,MERGED
+12620,WAITAOF: Update fsynced_reploff_pending just before starting the initial AOFRW fork,guybe7,2023-09-27T14:06:21Z,2023-09-28T14:05:53+00:00,10,23.99,True,47,12,2,694,0,2,2,MERGED
+12612,Dump server logs when corrupt fuzzer reports crash,enjoy-binbin,2023-09-26T09:47:20Z,2023-09-27T06:08:19+00:00,4,20.35,True,11,0,2,135,1,2,3,MERGED
+12611,Fix compile on macOS 13,ygcaicn,2023-09-26T07:20:12Z,2023-10-08T08:12:50+00:00,40,288.88,True,10,6,2,973,30,10,40,MERGED
+12610,#12605 for redis 7.2 Update cluster.c,zyy4676,2023-09-26T06:49:07Z,2023-12-09T06:07:22+00:00,1,1775.3,False,29,8,1,504,0,0,0,CLOSED
+12609,redis#12605 #11914 for redis 7.2 Update cluster.c,zyy4676,2023-09-26T03:49:32Z,2023-09-26T07:07:16+00:00,1,3.3,False,514,36,16,485,1,0,1,CLOSED
+12606, #12605 .for  redis-clluster 5.0,zyy4676,2023-09-24T18:38:04Z,2023-09-26T05:08:59+00:00,1,34.52,False,251153,49485,1382,310,1,0,1,CLOSED
+12604,Fix crash when running rebalance command in a mixed cluster of 7.0 and 7.2,enjoy-binbin,2023-09-23T08:36:22Z,2023-10-12T05:15:26+00:00,3,452.65,True,2,6,1,653,10,1,11,MERGED
+12601,Fix compilation errors on macos with sdk 13.5.2,sundb,2023-09-22T11:34:35Z,2023-09-26T10:54:51+00:00,2,95.34,False,4,0,1,430,3,1,4,CLOSED
+12599,An idea for alternative FMTARGS macro,madolson,2023-09-22T00:13:28Z,2023-09-27T20:32:27+00:00,6,140.32,False,159,33,3,1110,2,3,5,CLOSED
+12596,support XREAD[GROUP] with BLOCK option in scripts,soloestoy,2023-09-21T03:31:34Z,2023-10-12T07:54:50+00:00,13,508.39,True,26,14,4,465,2,5,7,MERGED
+12581,Update server.h,zyy4676,2023-09-14T18:06:47Z,2023-09-24T17:25:00+00:00,1,239.3,False,22,2,2,115,5,0,5,CLOSED
+12577,Unsubscribe all clients from replica for shard channel if the master ownership changes,hpatro,2023-09-14T02:07:38Z,2023-10-13T03:48:27+00:00,30,697.68,True,58,5,2,159,2,8,10,MERGED
+12572,Remove redundant statement call and add comment about mf_slave,enjoy-binbin,2023-09-12T10:17:03Z,2023-11-22T09:38:07+00:00,4,1703.35,False,2,1,1,143,2,1,3,CLOSED
+12571,Fix redis-cli pubsub_mode and connect minor prompt / crash issue,enjoy-binbin,2023-09-12T08:48:44Z,2023-10-11T07:45:38+00:00,2,694.95,True,1,0,1,548,0,0,0,MERGED
+12569,Use server.current_client to decide whether cluster commands should return TLS info.,CharlesChen888,2023-09-12T02:35:41Z,2023-09-21T15:41:32+00:00,3,229.1,True,18,4,1,654,0,1,1,MERGED
+12568,Fix several bugs in quicklist:,imchuncai,2023-09-11T10:21:12Z,2023-10-02T04:19:17+00:00,34,497.97,False,217,115,2,745,24,8,32,CLOSED
+12564,Clear owner_not_claiming_slot bit for the slot in clusterDelSlot,srgsanky,2023-09-09T05:51:27Z,2023-09-26T21:03:28+00:00,4,423.2,True,2,1,1,467,7,0,7,MERGED
+12561,Fix that slot return in CLUSTER SHARDS should be integer,enjoy-binbin,2023-09-08T06:45:32Z,2023-09-10T06:33:01+00:00,1,47.79,True,2,2,2,348,2,0,2,MERGED
+12557,Bump codespell from 2.2.4 to 2.2.5,enjoy-binbin,2023-09-07T07:31:41Z,2023-09-08T13:10:17+00:00,3,29.64,True,14,14,10,50,0,2,2,MERGED
+12554,Redis 7.0.13,oranagra,2023-09-06T12:37:43Z,2023-09-06T17:55:58+00:00,1,5.3,True,177,20,14,593,0,0,0,MERGED
+12553,Redis 7.2.1,oranagra,2023-09-06T12:37:16Z,2023-09-06T17:56:15+00:00,1,5.32,True,113,26,16,478,0,0,0,MERGED
+12547,Fix potentially fragile bpop tests,enjoy-binbin,2023-09-05T03:25:35Z,2023-11-02T07:31:44+00:00,2,1396.1,False,2,0,1,244,7,0,7,CLOSED
+12546,Bump actions/checkout from 3 to 4,dependabot,2023-09-04T15:28:39Z,2024-02-02T03:42:17+00:00,1,3612.23,False,40,40,6,4863,2,0,2,CLOSED
+12545,Update command tips on more admin / configuration commands,nihohit,2023-09-03T10:30:19Z,2023-09-04T18:30:43+00:00,1,32.01,True,47,12,7,358,6,0,6,MERGED
+12543,Add reverse history search in redis-cli (linenoise),ClaytonNorthey92,2023-09-02T17:39:34Z,2024-05-10T03:10:14+00:00,14,6009.51,True,413,6,3,2505,41,11,52,MERGED
+12541,Fix a couple of tabs that caused misindentation,madolson,2023-09-01T22:40:15Z,2023-10-02T23:44:10+00:00,3,745.07,True,8,8,4,197,1,0,1,MERGED
+12539,Better standardize around assertions,madolson,2023-09-01T17:11:23Z,2023-10-03T01:58:44+00:00,1,752.79,True,6,14,9,728,1,0,1,MERGED
+12538,Check shard_id pointer validity in updateShardId,secwall,2023-09-01T11:56:51Z,2023-09-03T03:14:48+00:00,2,39.3,True,2,2,1,1817,1,0,1,MERGED
+12537,Add logreqres:skip flag to new INFO obuf limit test,enjoy-binbin,2023-09-01T09:51:59Z,2023-09-01T11:15:12+00:00,2,1.39,True,1,1,1,613,0,0,0,MERGED
+12536,Optimize SCAN with MATCH when pattern implies cluster slot,zuiderkwast,2023-08-31T22:23:23Z,2023-11-01T07:06:50+00:00,14,1472.72,True,86,5,7,212,20,4,24,MERGED
+12533,Remove unnecessary use of sds and mem copy in module.c,roshkhatri,2023-08-30T22:40:27Z,2023-08-31T21:08:05+00:00,3,22.46,True,12,24,1,209,1,7,8,MERGED
+12530,Align CONFIG RESETSTAT/REWRITE tips with CONFIG SET.,nihohit,2023-08-30T10:59:46Z,2023-08-30T18:49:02+00:00,1,7.82,True,18,4,3,137,0,0,0,MERGED
+12522,Fix sort_ro get-keys function return wrong key number,yangbodong22011,2023-08-29T08:23:11Z,2023-08-30T19:00:03+00:00,2,34.61,True,6,1,2,327,0,0,0,MERGED
+12514,Add printing for LATENCY related tests,enjoy-binbin,2023-08-25T03:32:28Z,2023-08-27T08:42:55+00:00,2,53.17,True,25,2,1,339,2,0,2,MERGED
+12510,Call emptyData when disk-based sync rdbLoad fails,enjoy-binbin,2023-08-22T06:57:14Z,2024-01-18T14:28:52+00:00,2,3583.53,True,4,0,1,576,1,0,1,MERGED
+12506,"redis.conf: Add data loss warning to ""appendonly""",threema-danilo,2023-08-21T12:22:54Z,2023-08-22T15:15:48+00:00,6,26.88,True,4,0,1,141,1,2,3,MERGED
+12501,POC for CSCAN that does incremental cluster scanning,madolson,2023-08-19T01:34:16Z,2024-03-20T23:24:53+00:00,2,5157.84,False,133,1,5,927,2,1,3,CLOSED
+12500,Introduce listSearchDel to simplify some code,madolson,2023-08-18T23:13:58Z,2024-03-20T23:24:57+00:00,7,5160.18,False,39,66,10,261,2,4,6,CLOSED
+12498,[Draft] Key/Value Embedding in Redis Main Dictionary,hpatro,2023-08-17T18:50:52Z,2024-05-02T20:37:34+00:00,3,6217.78,False,497,250,29,2688,23,5,28,CLOSED
+12488,Update supported version list.,oranagra,2023-08-15T10:18:54Z,2023-08-16T05:36:41+00:00,2,19.3,True,10,10,4,125,2,0,2,MERGED
+12486,Allows modules to declare new ACL categories.,roshkhatri,2023-08-15T01:45:21Z,2023-08-30T20:01:25+00:00,24,378.27,True,193,14,6,1158,2,18,20,MERGED
+12479,change return type to ssize_t (long long) to be consistant.,hwware,2023-08-11T22:36:07Z,2023-08-16T07:38:59+00:00,1,105.05,True,3,3,2,364,0,0,0,MERGED
+12477,"Fix CLUSTER REPLICAS time complexity, should be O(N)",enjoy-binbin,2023-08-11T08:19:27Z,2023-08-15T03:57:56+00:00,1,91.64,True,5,4,4,122,0,0,0,MERGED
+12476,Add two stats to count client input and output buffer oom.,CharlesChen888,2023-08-11T08:10:22Z,2023-08-30T18:51:15+00:00,12,466.68,True,31,0,4,302,2,1,3,MERGED
+12474,Fix overflow calculation for next timer event,nirrattner,2023-08-10T23:53:11Z,2023-09-24T10:31:12+00:00,3,1066.63,True,1,1,1,1060,3,1,4,MERGED
+12472,Fixed a bug where sequential matching ACL rules weren't compressed,madolson,2023-08-10T04:00:07Z,2023-08-10T06:58:53+00:00,1,2.98,True,7,1,2,937,0,0,0,MERGED
+12468,Cluster API refactor,jhershberg,2023-08-09T11:03:59Z,2024-05-26T17:14:48+00:00,12,6990.18,False,8053,7632,41,1955,2,8,10,CLOSED
+12465,Fix LREM count LONG_MIN overflow minor issue,enjoy-binbin,2023-08-07T03:00:23Z,2023-08-21T09:50:41+00:00,1,342.84,True,1,1,1,319,2,0,2,MERGED
+12459,do not call handleClientsBlockedOnKeys inside yielding command,soloestoy,2023-08-03T09:10:44Z,2023-08-05T06:52:04+00:00,1,45.69,True,48,1,2,4070,3,0,3,MERGED
+12457,optimize the check of kill pubsub clients after modifying ACL rules,soloestoy,2023-08-03T07:14:35Z,2023-08-05T07:00:55+00:00,2,47.77,True,6,0,1,56,0,0,0,MERGED
+12456,Avoid mostly harmless integer overflow in cjson,sundb,2023-08-03T06:24:14Z,2023-08-05T04:57:06+00:00,1,46.55,True,9,4,3,2155,0,0,0,MERGED
+12453,Print stack trace from all threads in crash report,meiravgri,2023-08-01T11:44:23Z,2023-09-24T06:47:24+00:00,66,1291.05,True,561,30,8,4410,12,42,54,MERGED
+12452,fix false success and a memory leak for ACL selector with bad parenthesis combination,soloestoy,2023-08-01T03:28:49Z,2023-08-02T07:46:06+00:00,1,28.29,True,11,1,2,380,2,0,2,MERGED
+12451,Ensure that the function load timeout is disabled during loading from RDB/AOF and on replicas.,MeirShpilraien,2023-07-31T10:16:11Z,2023-08-02T08:43:31+00:00,2,46.46,True,22,10,4,742,0,0,0,MERGED
+12450,Optimize ZRANGE offset location from linear search to skiplist jump.,CharlesChen888,2023-07-31T09:24:39Z,2023-08-31T11:42:08+00:00,34,746.29,True,198,116,5,2350,8,18,26,MERGED
+12447,fix potential crash bug.,icy17,2023-07-28T06:46:20Z,2023-08-31T19:45:36+00:00,1,828.99,True,1,0,1,95,0,0,0,MERGED
+12446,change log match to line match in tcl sanitizer_errors_from_file.,DarrenJiang13,2023-07-28T06:39:14Z,2023-07-30T05:48:30+00:00,3,47.15,True,2,2,1,85,2,0,2,MERGED
+12445,"Fix GEOHASH / GEODIST / GEOPOS time complexity, should be O(1)",enjoy-binbin,2023-07-27T14:19:38Z,2023-08-05T04:29:25+00:00,2,206.16,True,6,6,4,242,0,1,1,MERGED
+12444,Fix race condition in tests/unit/auth.tcl,dlopr,2023-07-27T10:37:24Z,2023-08-01T15:03:33+00:00,1,124.44,True,1,1,1,118,0,0,0,MERGED
+12442,[MINOR] Remove redundency code in sentinal.,hwware,2023-07-26T19:15:23Z,2023-10-15T19:37:25+00:00,1,1944.37,False,0,5,1,424,2,0,2,CLOSED
+12437,Fix flaky SENTINEL RESET test,enjoy-binbin,2023-07-25T07:33:45Z,2023-08-10T05:58:52+00:00,2,382.42,True,12,4,1,134,1,0,1,MERGED
+12435,Test coverage for incr/decr operation on robj encoding type optimization,hpatro,2023-07-24T21:34:55Z,2023-07-25T23:43:31+00:00,4,26.14,True,29,0,1,456,4,2,6,MERGED
+12434,Add missing structural API changes to JSON file,Daz-3ux,2023-07-24T11:34:49Z,2024-02-04T06:42:16+00:00,8,4675.12,True,27,4,4,323,10,3,13,MERGED
+12429,Add test case for APPEND command usage on integer value,hpatro,2023-07-21T00:48:31Z,2023-07-25T01:25:51+00:00,4,96.62,True,15,0,1,934,0,3,3,MERGED
+12426,Signal handler attributes,meiravgri,2023-07-20T10:24:29Z,2023-08-20T16:16:45+00:00,4,749.87,True,64,34,4,2261,2,5,7,MERGED
+12420,update monitor client's memory and evict correctly,soloestoy,2023-07-18T11:04:10Z,2023-07-25T13:10:38+00:00,2,170.11,True,4,5,3,676,5,0,5,MERGED
+12417,Update request/response policies.,nihohit,2023-07-17T12:51:35Z,2023-07-25T07:21:23+00:00,5,186.5,True,9,12,4,909,2,1,3,MERGED
+12416, Add modules API for set,zh1029,2023-07-17T07:43:04Z,2023-12-20T01:56:45+00:00,52,3738.23,False,240,1,6,143,5,32,37,CLOSED
+12415,Replaced comment with excessive warning.,georgeanderson,2023-07-16T22:13:33Z,2023-07-18T06:36:45+00:00,2,32.39,True,1,1,1,139,0,0,0,MERGED
+12411,Hide unnecessary comma in front of empty hostname in the return of CLUSTER NODES.,CharlesChen888,2023-07-13T09:36:30Z,2023-07-16T03:31:42+00:00,3,65.92,True,3,3,1,671,0,0,0,MERGED
+12409,Hiredis 1.2.0,chayim,2023-07-12T12:17:05Z,2023-07-13T14:45:39+00:00,3,26.48,True,106,24,11,194,1,1,2,MERGED
+12402,Relase 7.2-RC3,oranagra,2023-07-10T07:30:07Z,2023-07-10T11:55:21+00:00,1,4.42,True,5794,1375,153,3646,1,0,1,MERGED
+12401,Release 7.0.12,oranagra,2023-07-10T07:21:10Z,2023-07-10T11:39:42+00:00,1,4.31,True,582,178,21,1136,3,0,3,MERGED
+12400,Release 6.2.13,oranagra,2023-07-10T07:20:37Z,2023-07-10T11:38:00+00:00,1,4.29,True,338,130,11,492,0,0,0,MERGED
+12399,Release 6.0.20,oranagra,2023-07-10T07:20:02Z,2023-07-10T11:37:46+00:00,1,4.3,True,338,129,11,492,1,0,1,MERGED
+12395,improve performance for scan command when matching data type,judeng,2023-07-08T06:41:13Z,2024-08-20T02:47:52+00:00,1,9812.11,True,6,36,2,999,7,0,7,MERGED
+12394,"BITCOUNT: check for wrong argument, before checking for key",hwware,2023-07-07T20:39:52Z,2023-08-21T09:53:46+00:00,1,1069.23,True,23,13,2,570,0,0,0,MERGED
+12391,Initialize cluster owner_not_claiming_slot to avoid warning,enjoy-binbin,2023-07-07T03:17:39Z,2023-07-07T13:40:45+00:00,2,10.38,True,2,0,1,441,1,0,1,MERGED
+12389,add an assertion to make sure numkeys is 0 in getKeysUsingKeySpecs,soloestoy,2023-07-06T03:16:40Z,2023-07-06T05:17:26+00:00,1,2.01,True,1,1,1,174,0,0,0,MERGED
+12388,"Test coverage for objectComputeSize api's set, zset and stream code part.",hwware,2023-07-05T22:22:13Z,2024-03-23T22:33:54+00:00,20,6288.19,False,28,1,3,1696,3,7,10,CLOSED
+12387,"In LCS command, WITHMATCHLEN and MINMATCHLEN option only makes sense when used with IDX option ",hwware,2023-07-05T20:50:48Z,2024-03-23T22:33:41+00:00,1,6289.71,False,17,2,2,1615,4,3,7,CLOSED
+12386,skip the rehashed entries in dictNext,w4096,2023-07-05T07:20:52Z,2023-08-16T07:45:26+00:00,3,1008.41,True,5,0,1,475,6,1,7,MERGED
+12385,"Fix and increase tollerance of event loop test, add verbose logs",enjoy-binbin,2023-07-05T04:00:39Z,2023-07-05T06:32:30+00:00,1,2.53,True,8,3,1,782,1,0,1,MERGED
+12380,Fix possible crash in command getkeys ,llahav-amzn,2023-07-03T06:09:51Z,2023-07-03T09:45:18+00:00,5,3.59,True,22,6,2,752,0,1,1,MERGED
+12379,cleanup: dictExpandAllowed remove redundant conditional statement,caixiangyue,2023-07-03T03:51:34Z,2023-07-03T06:20:30+00:00,1,2.48,False,2,4,1,0,0,0,0,CLOSED
+12377,Revert zrangeGenericCommand negative offset check,enjoy-binbin,2023-07-02T15:28:35Z,2023-07-02T17:38:31+00:00,1,2.17,True,5,28,2,202,2,0,2,MERGED
+12372,redis-benchmark: add documentation for the amount of clients needed ,unknown,2023-07-02T06:48:36Z,2023-07-05T07:27:14+00:00,5,72.64,True,3,1,1,76,5,2,7,MERGED
+12368,The history described by json is inconsistent with the website,Daz-3ux,2023-07-01T08:45:11Z,2023-07-04T09:14:07+00:00,1,72.48,False,26,2,3,287,0,0,0,CLOSED
+12363,Avoid DEBUG POPULATE crash at dictExpand OOM,enjoy-binbin,2023-06-29T07:14:04Z,2023-07-01T14:35:35+00:00,5,55.36,True,4,1,1,49,0,2,2,MERGED
+12355,Set HIDDEN_CONFIG flag on aof-disable-auto-gc,enjoy-binbin,2023-06-27T03:58:50Z,2023-06-27T07:21:58+00:00,1,3.39,True,1,1,1,203,0,0,0,MERGED
+12352,Bump vmactions/freebsd-vm from 0.3.0 to 0.3.1,dependabot,2023-06-26T15:57:30Z,2023-06-27T06:17:34+00:00,1,14.33,True,3,3,1,1945,0,0,0,MERGED
+12349,Add RISC-V debug support,michalbiesek,2023-06-26T08:46:22Z,2023-06-27T08:53:42+00:00,1,24.12,True,45,0,1,65,0,0,0,MERGED
+12344,Process loss of slot ownership in cluster bus,srgsanky,2023-06-25T17:55:29Z,2023-07-06T00:46:23+00:00,16,246.85,True,73,6,3,694,7,7,14,MERGED
+12343,Move clusterBeforeSleep before blockedBeforeSleep,enjoy-binbin,2023-06-25T08:52:43Z,2023-06-25T11:21:04+00:00,2,2.47,True,6,6,1,455,3,1,4,MERGED
+12342,Fix use after free on blocking RM_Call.,MeirShpilraien,2023-06-25T08:24:33Z,2023-06-25T11:12:27+00:00,2,2.8,True,95,5,3,1056,0,3,3,MERGED
+12339,Adding of O3 on linking stage for OPTIMIZATION=-O3 cases,markovamaria,2023-06-23T16:49:05Z,2023-06-27T08:54:17+00:00,1,88.09,True,1,1,1,350,0,0,0,MERGED
+12338,Fix typos in comments,gabiganam,2023-06-22T06:02:12Z,2023-06-22T15:10:42+00:00,1,9.14,True,2,2,2,0,0,0,0,MERGED
+12337,Modules: Unblock from within a timer coverage,guybe7,2023-06-21T15:26:46Z,2023-06-22T20:15:17+00:00,8,28.81,True,162,25,7,1215,1,4,5,MERGED
+12333,Print strerror when bio initialization fails,enjoy-binbin,2023-06-21T08:01:41Z,2023-06-21T14:57:11+00:00,1,6.92,True,1,1,1,114,0,0,0,MERGED
+12331,Fix ZRANK/ZREVRANK reply_schema description,enjoy-binbin,2023-06-20T03:39:42Z,2023-06-20T08:15:41+00:00,1,4.6,True,5,5,3,54,3,0,3,MERGED
+12330,Make nodename test more consistent,madolson,2023-06-20T00:12:52Z,2023-06-21T01:00:55+00:00,3,24.8,True,23,24,3,920,0,0,0,MERGED
+12328,Doc indentation fix for the --functions-rdb option,mstmdev,2023-06-19T09:19:21Z,2023-06-20T08:15:11+00:00,1,22.93,True,1,1,1,0,0,0,0,MERGED
+12326,Fix broken protocol when PUBLISH emits local push inside MULTI,oranagra,2023-06-18T13:36:35Z,2023-06-20T17:41:42+00:00,6,52.09,True,134,5,7,678,7,2,9,MERGED
+12325,Fix cluster human_nodename Getter data loss in nodes.conf,enjoy-binbin,2023-06-18T09:35:52Z,2023-06-20T00:13:18+00:00,1,38.62,True,2,2,1,269,0,0,0,MERGED
+12324,Add command being unblocked cause another command to get unblocked execution order test,enjoy-binbin,2023-06-16T10:06:08Z,2023-06-16T12:39:00+00:00,1,2.55,True,51,0,2,1079,0,0,0,MERGED
+12323,More generalized error msg for sintercard and zintercard for limit option,hwware,2023-06-15T20:42:09Z,2023-06-20T17:58:27+00:00,2,117.27,False,2,2,2,1199,5,0,5,CLOSED
+12322,Sanitizer reported memory leak for '--invalid' option or port number is missed cases to redis-server.,hwware,2023-06-15T18:15:06Z,2023-06-20T07:07:29+00:00,8,108.87,True,12,3,2,5105,3,2,5,MERGED
+12321,Align RM_ReplyWithErrorFormat with RM_ReplyWithError,guybe7,2023-06-15T13:47:02Z,2023-06-20T17:44:43+00:00,7,123.96,True,22,10,2,486,1,4,5,MERGED
+12320,Fix SPOP/RESTORE propagation when doing lazy free,enjoy-binbin,2023-06-15T12:48:03Z,2023-06-16T15:14:11+00:00,3,26.44,True,57,3,4,610,0,1,1,MERGED
+12318,Removing duplicated tests,YaacovHazan,2023-06-15T07:18:51Z,2023-06-16T12:55:25+00:00,2,29.61,True,0,21,1,208,0,0,0,MERGED
+12316,Optimize SET PXAT to reduce calls of rewriteClientCommandVector,enjoy-binbin,2023-06-14T14:06:37Z,2023-06-15T07:07:48+00:00,5,17.02,True,8,6,2,122,1,2,3,MERGED
+12315,Set Jemalloc --disable-cache-oblivious to reduce memory overhead,oranagra,2023-06-14T09:38:52Z,2023-06-18T07:30:23+00:00,1,93.86,True,1,1,1,1779,3,0,3,MERGED
+12313,Only check if we need to resize if we actually appended,unknown,2023-06-14T01:15:40Z,2023-06-19T00:28:44+00:00,3,119.22,False,6,5,1,193,2,1,3,CLOSED
+12310,Correcting the Copied test case without changing command.,hwware,2023-06-13T15:08:27Z,2023-06-14T07:03:34+00:00,2,15.92,True,1,1,1,588,0,0,0,MERGED
+12304,Prevent PEJ on loading and on readonly replica.,MeirShpilraien,2023-06-12T10:28:11Z,2023-06-15T07:10:23+00:00,10,68.7,True,7,1,1,686,2,1,3,MERGED
+12301,Fix XREADGROUP BLOCK stuck in endless loop,enjoy-binbin,2023-06-12T00:57:10Z,2023-06-13T10:27:05+00:00,21,33.5,True,28,2,2,641,5,5,10,MERGED
+12299,Implement `CLIENT KILL MAXAGE <maxage>`,slavak,2023-06-11T10:23:34Z,2024-01-30T18:24:37+00:00,10,5600.02,True,61,3,4,254,4,5,9,MERGED
+12298,Optimize PSUBSCRIBE and PUNSUBSCRIBE from O(N*M) to O(N),enjoy-binbin,2023-06-11T09:43:20Z,2023-06-19T13:31:18+00:00,5,195.8,True,35,38,9,1194,2,4,6,MERGED
+12296,Fix ACLAppendUserForLoading memory leak when merge error,enjoy-binbin,2023-06-10T06:38:29Z,2023-06-11T01:11:17+00:00,1,18.55,True,4,4,1,260,1,0,1,MERGED
+12288,Adding missing test cases for Addslot Command,hwware,2023-06-08T19:51:17Z,2023-06-11T05:36:27+00:00,1,57.75,True,11,0,1,51,0,0,0,MERGED
+12279,redis-cli --stat take dbnum value from CONFIG GET to output total keys,enjoy-binbin,2023-06-07T14:30:54Z,2023-08-16T07:54:37+00:00,13,1673.4,True,24,1,1,83,0,3,3,MERGED
+12277,Add missing return on -UNKILLABLE sent by master case,enjoy-binbin,2023-06-07T10:59:51Z,2023-06-08T12:13:54+00:00,2,25.23,True,1,0,1,138,8,0,8,MERGED
+12276,"Use Reservoir Sampling for random sampling of dict, and fix hang during fork",sundb,2023-06-07T06:04:40Z,2023-06-16T16:13:08+00:00,7,226.14,True,147,8,2,1400,8,6,14,MERGED
+12274,Adding geo command's missing test cases,hwware,2023-06-06T21:13:35Z,2023-06-20T09:50:04+00:00,1,324.61,True,13,0,1,648,4,0,4,MERGED
+12273,redis-cli: use previous hostip when not provided by redis cluster server,MakDon,2023-06-06T16:10:38Z,2023-07-20T22:31:07+00:00,6,1062.34,True,23,2,2,1191,10,5,15,MERGED
+12272,Improve GETRANGE command behavior,linzihao1999,2023-06-06T15:13:41Z,2024-08-20T04:34:43+00:00,1,10573.35,True,17,14,2,1461,15,0,15,MERGED
+12269,Allow cluster slots/shards api to respond during loading,hpatro,2023-06-05T21:32:11Z,2023-06-13T15:16:32+00:00,3,185.74,True,8,2,4,115,1,0,1,MERGED
+12257,Rewrite huge printf calls to smaller ones for readability,zuiderkwast,2023-06-02T16:01:21Z,2023-09-28T06:21:23+00:00,11,2822.33,True,476,492,5,415,24,5,29,MERGED
+12254,Refresh deps/hiredis to latest (unreleased) version.,yossigo,2023-06-01T10:57:05Z,2023-06-06T03:40:44+00:00,2,112.73,True,2561,308,42,103,2,0,2,MERGED
+12253,Use std=gnu11 instead of std=c11.,yossigo,2023-06-01T08:52:00Z,2023-06-05T09:11:31+00:00,1,96.33,True,2,2,1,187,3,0,3,MERGED
+12250,use embedded string object and more efficient ll2string for long long value convert to string,judeng,2023-05-31T09:56:16Z,2023-06-20T12:14:45+00:00,22,482.31,True,41,113,6,597,9,7,16,MERGED
+12249,Document aof-disable-auto-gc in redis.conf,sonicloong,2023-05-31T04:59:32Z,2023-06-27T03:59:11+00:00,2,646.99,False,4,0,1,174,9,0,9,CLOSED
+12247,Reset command duration for rejected command.,YaacovHazan,2023-05-30T08:29:44Z,2023-06-11T20:12:05+00:00,1,299.71,True,20,0,2,388,1,0,1,MERGED
+12244,Fix outdated LFU comments to eliminate confusion,enjoy-binbin,2023-05-29T15:28:27Z,2023-12-06T18:46:57+00:00,11,4587.31,True,13,15,1,233,0,5,5,MERGED
+12243,Fix GETEX db delete call to emit DB_FLAG_KEY_EXPIRED on expiration,enjoy-binbin,2023-05-29T11:21:52Z,2023-05-29T12:39:32+00:00,1,1.29,True,1,2,1,96,3,0,3,MERGED
+12242,flushSlavesOutputBuffers should not write to replicas scheduled to drop,oranagra,2023-05-29T11:00:45Z,2023-06-12T11:05:35+00:00,3,336.08,True,25,11,4,289,1,0,1,MERGED
+12241,Avoid trying to trim string loaded from RDB file.,oranagra,2023-05-29T09:17:15Z,2023-05-30T07:43:26+00:00,1,22.44,True,9,3,3,75,1,0,1,MERGED
+12238,[BUG] Incorrect error msg for XREAD command,hwware,2023-05-26T20:03:59Z,2023-05-28T05:37:32+00:00,2,33.56,True,11,2,2,539,0,1,1,MERGED
+12237,enable malloc_usable_size on haiku and dragonflybsd.,devnexen,2023-05-26T15:55:05Z,2023-05-28T05:44:28+00:00,1,37.82,True,5,1,2,0,0,0,0,MERGED
+12235,Add new loglevel nothing to sentinel-config.json,enjoy-binbin,2023-05-26T02:30:55Z,2023-05-26T06:12:23+00:00,1,3.69,True,3,0,1,449,1,0,1,MERGED
+12234,Support maxiov per connection type,pizhenwei,2023-05-25T08:58:32Z,2023-05-28T05:35:27+00:00,5,68.62,True,9,4,5,166,0,1,1,MERGED
+12233,"Support TLS service when ""tls-cluster"" is not enabled and persist both plain and TLS port in nodes.conf",CharlesChen888,2023-05-25T07:06:56Z,2023-06-26T14:43:38+00:00,36,775.61,True,334,96,9,2041,11,24,35,MERGED
+12231,hiding the password when use the '-a',polaris-alioth,2023-05-25T01:07:28Z,2024-03-06T11:09:13+00:00,1,6874.03,False,4,0,2,95,7,0,7,CLOSED
+12229,Try lazyfree temp zset in ZUNION / ZINTER / ZDIFF and optimize ZINTERCARD to avoid create temp zset,enjoy-binbin,2023-05-24T15:29:50Z,2023-05-29T06:55:17+00:00,9,111.42,True,15,7,2,355,0,1,1,MERGED
+12227,CI to validate commands.def is up to date,oranagra,2023-05-24T10:34:13Z,2023-05-24T13:21:19+00:00,1,2.79,True,12,4,2,42,0,0,0,MERGED
+12224,Add dummy CLUSTER SLAVES call tests to fix reply ci,enjoy-binbin,2023-05-24T04:05:42Z,2023-05-24T06:28:39+00:00,1,2.38,True,14,0,2,346,0,0,0,MERGED
+12223,Sync the new loglevel nothing to sentinel,enjoy-binbin,2023-05-24T02:59:51Z,2023-05-24T06:32:39+00:00,1,3.55,True,12,4,3,257,0,0,0,MERGED
+12220,Fix WAIT for clients being blocked in a module command,oranagra,2023-05-23T13:26:01Z,2023-05-28T07:10:52+00:00,7,113.75,True,86,0,4,564,2,1,3,MERGED
+12219,Add ability for modules to know which client is being cmd filtered,sjpotter,2023-05-23T13:07:55Z,2023-06-20T06:03:53+00:00,6,664.93,True,63,1,4,178,16,2,18,MERGED
+12218,fix typo in db.c comment,mojh7,2023-05-23T10:15:19Z,2023-05-24T22:03:17+00:00,1,35.8,True,1,1,1,32,0,0,0,MERGED
+12212,Make a light weight version (default) of DEBUG HTSTATS,oranagra,2023-05-22T13:31:36Z,2023-05-24T13:27:44+00:00,5,47.94,True,39,17,3,336,3,1,4,MERGED
+12209,improve performance for scan command when matching pattern or data type,judeng,2023-05-22T09:37:14Z,2023-06-27T13:43:46+00:00,69,868.11,True,352,118,5,2155,28,37,65,MERGED
+12205,Optimize HRANDFIELD and ZRANDMEMBER case 3 when listpack encoded,enjoy-binbin,2023-05-19T16:47:18Z,2023-05-22T12:48:33+00:00,6,68.02,True,48,32,4,6589,13,3,16,MERGED
+12198,"Adding test case for hvals, hkeys, hexists against wrong type",hwware,2023-05-18T19:52:11Z,2023-05-24T06:34:13+00:00,2,130.7,True,4,1,1,97,1,1,2,MERGED
+12197,Correct get_proc_stat_ll comment,junezqj,2023-05-18T14:25:59Z,2024-03-06T11:05:19+00:00,1,7028.66,False,1,1,1,16,1,0,1,CLOSED
+12194,Try to fix SENTINEL SIMULATE-FAILURE test by re-source init-tests before each test,enjoy-binbin,2023-05-18T03:47:41Z,2023-05-29T10:43:27+00:00,1,270.93,True,7,1,1,910,16,0,16,MERGED
+12192,replica redirect read&write to master in standalone mode,soloestoy,2023-05-17T12:03:32Z,2024-11-20T05:46:44+00:00,25,13265.72,False,57,8,7,614,52,4,56,CLOSED
+12187,Add BITFIELD_RO basic tests for non-repl use cases,fadidahanna,2023-05-16T14:45:16Z,2023-05-18T09:16:46+00:00,1,42.52,True,12,2,1,182,0,0,0,MERGED
+12185,"Performance improvement to ZADD and ZRANGESTORE, convert to skiplist and expand dict in advance",enjoy-binbin,2023-05-16T11:47:01Z,2023-05-18T12:24:47+00:00,13,48.63,True,82,12,2,1770,5,4,9,MERGED
+12183,Fix for set max entries edge case in setTypeCreate / setTypeMaybeConvert,enjoy-binbin,2023-05-16T08:32:43Z,2023-05-16T18:32:21+00:00,5,9.99,True,57,10,3,944,0,2,2,MERGED
+12179,Allow bigger tolerance in eventloop duration test.,CharlesChen888,2023-05-15T14:57:20Z,2023-06-11T06:02:41+00:00,1,639.09,True,2,2,1,238,0,0,0,MERGED
+12178,Manage number of new connections per cycle,AshMosh,2023-05-15T13:56:10Z,2024-01-02T23:15:03+00:00,22,5577.31,True,30,4,7,777,32,8,40,MERGED
+12177,improve performance for keys with expiration time,judeng,2023-05-15T12:22:56Z,2023-06-14T08:17:39+00:00,2,715.91,True,0,6,1,496,4,0,4,MERGED
+12174,Improve moduleBlockClient timeout overflow handling,guybe7,2023-05-15T08:48:23Z,2023-06-21T09:48:14+00:00,1,889.0,True,13,5,1,89,0,0,0,MERGED
+12173,Release Redis 7.2 RC2,oranagra,2023-05-15T06:55:03Z,2023-05-15T10:08:15+00:00,2,3.22,True,67005,31527,907,1747,0,0,0,MERGED
+12171,Don't disconnect all clients in ACL LOAD,slavak,2023-05-14T12:20:07Z,2023-12-24T09:56:44+00:00,12,5373.61,True,185,72,4,315,2,12,14,MERGED
+12169,"increase tolerance of new event loop test, fails on freebsd CI",oranagra,2023-05-14T06:08:56Z,2023-05-14T14:40:29+00:00,1,8.53,True,1,1,1,60,0,0,0,MERGED
+12167,Fix bug: LPOS RANK LONG_ MIN causes overflow,ncghost1,2023-05-13T10:31:40Z,2023-05-14T06:04:33+00:00,2,19.55,True,2,1,2,179,0,0,0,MERGED
+12166,"Exclude aux fields from ""cluster nodes"" and ""cluster replicas"" output",PingXie,2023-05-12T19:04:09Z,2023-05-23T15:32:38+00:00,6,260.47,True,17,36,6,258,8,2,10,MERGED
+12158,Fix memory leak when RM_Call's RUN_AS_USER fails,sjpotter,2023-05-11T09:58:37Z,2023-05-23T11:29:28+00:00,8,289.51,True,20,21,1,383,0,1,1,MERGED
+12156,fix moduleNotifyKeyUnlink to open the key with READ rather than WRITE,oranagra,2023-05-11T08:40:58Z,2023-05-11T15:16:08+00:00,1,6.59,True,1,1,1,30,0,0,0,MERGED
+12155,Prevent repetitive backlog trimming,BCathcart,2023-05-10T21:27:07Z,2023-05-18T06:25:56+00:00,6,176.98,True,6,6,1,1240,2,2,4,MERGED
+12152,"Correct COMMAND DOCS summary, like COMMAND INFO",enjoy-binbin,2023-05-09T14:49:26Z,2023-05-10T05:26:46+00:00,1,14.62,True,20,10,3,160,1,0,1,MERGED
+12151,fix `GEORADIUS[BYMEMBER]` `STORE` & `STOREDIST` args spec,leibale,2023-05-09T06:34:39Z,2023-05-09T11:24:37+00:00,7,4.83,True,48,38,5,92,7,4,11,MERGED
+12150,EXPIRE precision test more attempts and more tolerant,enjoy-binbin,2023-05-09T04:05:44Z,2023-05-09T11:14:23+00:00,1,7.14,True,8,6,1,498,0,0,0,MERGED
+12148,Adding missing test case for smembers scard commands,hwware,2023-05-08T15:09:57Z,2023-05-16T16:26:49+00:00,1,193.28,True,6,2,1,105,0,0,0,MERGED
+12144,Remove repetitive the,cuishuang,2023-05-08T09:03:21Z,2023-05-08T23:12:45+00:00,1,14.16,True,3,3,3,56,0,0,0,MERGED
+12141,Fix defrag CI for 32bit after merge of jemalloc 5.3,oranagra,2023-05-08T05:33:52Z,2023-05-08T06:44:20+00:00,2,1.17,True,2,1,1,129,0,0,0,MERGED
+12136,Correct zrangeGenericCommand comment,tisonkun,2023-05-06T16:20:38Z,2023-05-08T23:13:32+00:00,2,54.88,True,1,1,1,13,0,0,0,MERGED
+12133,add a new loglevel 'nothing' to disable logging,soloestoy,2023-05-06T03:48:25Z,2023-05-23T15:30:44+00:00,3,419.71,True,3,0,3,463,6,1,7,MERGED
+12129,Delete empty key if fails after moduleCreateEmptyKey() in module,sundb,2023-05-05T03:38:30Z,2023-05-07T07:13:19+00:00,2,51.58,True,107,6,4,299,0,1,1,MERGED
+12126,Pause cron to prevent premature shrinking in querybuf test,enjoy-binbin,2023-05-04T06:44:39Z,2023-05-04T10:02:08+00:00,2,3.29,True,8,2,1,532,6,0,6,MERGED
+12125,adding missing test cases GET and GETEX,hwware,2023-05-03T17:40:13Z,2023-05-07T08:46:11+00:00,2,87.1,True,8,0,1,63,0,0,0,MERGED
+12123,multi.tcl: reset readraw at the end of the test,guybe7,2023-05-03T14:06:21Z,2023-05-04T08:58:31+00:00,5,18.87,True,3,3,1,246,0,2,2,MERGED
+12119,Fix name of module API in documentation,madolson,2023-05-03T01:29:00Z,2023-05-03T17:35:28+00:00,2,16.11,True,1,1,1,109,0,0,0,MERGED
+12117,[MINOR] Change the local buffer size values with macros to better readability.,hwware,2023-05-01T21:16:17Z,2023-05-08T14:39:26+00:00,5,161.39,False,2,2,1,141,0,2,2,CLOSED
+12116,Updating missing test cases for Hash commands,hwware,2023-05-01T14:48:01Z,2023-05-01T18:00:08+00:00,1,3.2,True,9,2,1,106,0,0,0,MERGED
+12115,Update jemalloc 5.3.0,oranagra,2023-05-01T14:36:20Z,2023-05-07T14:41:18+00:00,1,144.08,True,52038,20516,382,280,3,0,3,MERGED
+12109,Rdb channel for full sync,naglera,2023-04-27T11:38:57Z,2024-09-05T09:56:28+00:00,120,11926.29,False,1781,89,15,470,8,111,119,CLOSED
+12104,Update old Debian CI.,yossigo,2023-04-25T07:35:02Z,2023-04-25T11:09:38+00:00,2,3.58,True,1,1,1,271,2,0,2,MERGED
+12088,Free backlog only if rsi is invalid when master reboot,soloestoy,2023-04-21T07:15:52Z,2023-05-06T03:53:28+00:00,3,356.63,True,40,5,2,750,1,0,1,MERGED
+12083,"Minor change around the req-res validator, skip sentinel commands",guybe7,2023-04-20T14:37:14Z,2023-04-20T20:28:45+00:00,1,5.86,True,32,20,2,338,1,0,1,MERGED
+12082,optimize spopwithcount propagation,ztxiuyuan,2023-04-20T12:08:50Z,2023-05-22T07:27:14+00:00,7,763.31,True,66,21,2,344,1,10,11,MERGED
+12079,Add missing reply schema and coverage tests,enjoy-binbin,2023-04-20T07:01:27Z,2023-04-27T06:32:14+00:00,46,167.51,True,197,17,9,535,8,15,23,MERGED
+12076,Fix typos,AussieSeaweed,2023-04-19T20:32:38Z,2023-04-20T08:50:29+00:00,2,12.3,True,4,4,3,0,0,0,0,MERGED
+12070,adding missing test cases for decr decrby commands,hwware,2023-04-18T20:52:33Z,2023-04-19T06:55:56+00:00,1,10.06,True,11,0,1,245,0,0,0,MERGED
+12068,"after calling aeSetDontWait from beforesleep, aeProcessEvent may be still wait once",CFlyGoo,2023-04-18T14:18:33Z,2023-04-23T14:02:09+00:00,12,119.73,True,22,27,1,258,6,5,11,MERGED
+12067,Move startup system check to before daeomniztion and modules init,oranagra,2023-04-18T13:18:51Z,2023-04-19T06:23:47+00:00,1,17.08,True,28,24,1,248,0,0,0,MERGED
+12065,Report AOF failure status to systemd in shutdown,enjoy-binbin,2023-04-18T10:35:07Z,2023-04-24T05:20:01+00:00,1,138.75,True,2,0,1,286,2,0,2,MERGED
+12064,Tests: Do not save an RDB by default and add a SIGTERM default AOFRW test,enjoy-binbin,2023-04-18T09:53:53Z,2023-04-18T13:14:27+00:00,6,3.34,True,52,19,10,409,3,2,5,MERGED
+12061,Adding missing test cases for getrange command,hwware,2023-04-17T16:38:44Z,2023-04-18T05:32:10+00:00,1,12.89,True,5,0,1,216,0,0,0,MERGED
+12059,Update dict.c dict_can_resize comment,CFlyGoo,2023-04-17T12:07:36Z,2023-04-18T14:17:22+00:00,2,26.16,True,3,3,1,145,0,0,0,MERGED
+12058,6.0.19,oranagra,2023-04-17T07:26:40Z,2023-04-17T12:54:33+00:00,1,5.46,True,302,23,13,293,0,0,0,MERGED
+12057,6.2.12,oranagra,2023-04-17T07:25:12Z,2023-04-17T12:54:27+00:00,1,5.49,True,271,15,16,460,0,0,0,MERGED
+12056,Redis 7.0.11,oranagra,2023-04-17T07:22:12Z,2023-04-17T12:54:04+00:00,1,5.53,True,209,47,16,499,0,0,0,MERGED
+12051,Fix RDB check regression caused by PR 12022,joehu21,2023-04-16T16:15:31Z,2023-04-17T18:05:36+00:00,6,25.83,True,14,13,5,631,15,5,20,MERGED
+12049,Tests: Do not save an RDB by default,guybe7,2023-04-16T09:08:03Z,2023-04-18T10:32:20+00:00,1,49.4,False,20,13,6,289,5,1,6,CLOSED
+12045,Calc total allocations when using freeReplicationBacklogRefMemAsync,enjoy-binbin,2023-04-14T07:10:37Z,2023-04-16T12:58:54+00:00,2,53.8,False,1,3,1,316,0,1,1,CLOSED
+12042,redis-cli - add option --count for scan,kell0gg,2023-04-14T05:04:02Z,2023-05-11T05:15:00+00:00,8,648.18,True,8,2,1,180,4,1,5,MERGED
+12041,[BUG]  COMMAND GETKEYS and COMMAND GETKEYSANDFLAG returns error for CLUSTER subcommand KEYSLOT,hwware,2023-04-13T19:52:21Z,2023-04-17T10:16:30+00:00,5,86.4,False,28,6,3,881,1,4,5,CLOSED
+12039,Added missing test cases for substring,hwware,2023-04-13T14:19:45Z,2023-04-13T18:48:26+00:00,2,4.48,True,3,0,1,160,2,0,2,MERGED
+12036,improve performance of keys command by using static objects,judeng,2023-04-13T10:04:53Z,2023-04-16T10:02:47+00:00,1,71.97,True,4,5,1,61,1,0,1,MERGED
+12035,Fix some compile warnings and errors when building with gcc-12 or clang,sundb,2023-04-13T08:59:41Z,2023-04-18T06:53:51+00:00,13,117.9,True,128,66,11,6166,8,12,20,MERGED
+12029,Background Job Manager (BJM) - replacement for BIO,JimB123,2023-04-12T17:33:39Z,2024-04-23T15:30:28+00:00,11,9045.95,False,1154,571,24,2026,20,26,46,CLOSED
+12025,iterate clients fairly in clientsCron(),soloestoy,2023-04-12T05:54:56Z,2023-04-24T06:01:40+00:00,1,288.11,True,3,4,1,672,6,0,6,MERGED
+12024,Print IP and port on Possible SECURITY ATTACK detected,enjoy-binbin,2023-04-12T04:38:13Z,2023-04-13T01:23:00+00:00,1,20.75,True,7,1,1,151,1,0,1,MERGED
+12023,Don't pass --fail-commands-not-all-hit to validator if we don't run the full testsuite,enjoy-binbin,2023-04-12T03:29:24Z,2023-04-12T09:23:51+00:00,3,5.91,True,105,3,1,309,1,1,2,MERGED
+12022,Fix redis_check_rdb() hang when rdb is FIFO,joehu21,2023-04-11T18:24:47Z,2023-04-14T23:14:27+00:00,5,76.83,True,11,0,1,265,9,3,12,MERGED
+12021,Add ZREMRANGEBYLEX basics tests to fix reply-schemas daily,enjoy-binbin,2023-04-11T04:48:58Z,2023-04-11T08:14:17+00:00,3,3.42,True,40,0,1,342,1,1,2,MERGED
+12020,Remove prototypes with empty declarations,madolson,2023-04-11T01:58:31Z,2023-05-03T00:31:32+00:00,5,526.55,True,210,211,43,582,5,1,6,MERGED
+12019,Minor performance improvement to SADD and HSET,madolson,2023-04-11T01:55:56Z,2023-05-08T23:11:20+00:00,24,669.26,True,39,7,3,2210,4,4,8,MERGED
+12018,Updating reply_schema for sentinal commands,hwware,2023-04-10T20:39:23Z,2023-04-19T06:08:11+00:00,1,201.48,True,37,5,5,488,13,0,13,MERGED
+12017,Update reply_schema details for info and hset commands json files accordingly. ,hwware,2023-04-10T19:31:49Z,2023-04-13T09:17:28+00:00,4,61.76,True,2,0,2,232,1,2,3,MERGED
+12013,Attempt to solve MacOS CI issues in GH Actions,oranagra,2023-04-10T08:16:07Z,2023-04-12T06:19:21+00:00,6,46.05,True,143,109,22,1001,3,3,6,MERGED
+12008,[New command] CLUSTER KEYSHARD key,hwware,2023-04-06T15:00:51Z,2023-11-20T21:09:36+00:00,5,5478.15,False,275,0,3,737,5,3,8,CLOSED
+12004,Increase threshold for flaky cache reclaim test,oranagra,2023-04-04T12:54:09Z,2023-04-05T11:45:42+00:00,2,22.86,True,7,7,1,558,0,0,0,MERGED
+12000,avoid incorrect shrinking of querybuf when client is reading a big argv,judeng,2023-04-03T11:13:29Z,2023-04-16T12:49:26+00:00,3,313.6,True,32,3,3,658,6,1,7,MERGED
+11997,Changed activeExpireCycle server.masterhost check to iAmMaster in beforeSleep,enjoy-binbin,2023-04-03T09:08:03Z,2023-04-04T06:05:53+00:00,1,20.96,True,1,1,1,505,3,0,3,MERGED
+11995,Add help message for client setinfo,yangbodong22011,2023-04-03T07:16:53Z,2023-04-04T12:56:34+00:00,2,29.66,True,4,0,1,400,2,1,3,MERGED
+11992,Disconnect pub-sub subscribers when revoking `allchannels` permission,slavak,2023-04-02T09:38:46Z,2023-04-02T13:18:29+00:00,1,3.66,True,21,0,2,559,0,0,0,MERGED
+11988,"CRC64 can be faster, if we want",josiahcarlson,2023-03-31T21:16:50Z,2024-03-27T17:35:08+00:00,15,8684.31,False,563,50,6,901,16,24,40,CLOSED
+11987,Add 'count' option to the 'RANDOMKEY' command,hwware,2023-03-31T14:53:30Z,2024-03-23T22:32:33+00:00,3,8599.65,False,195,12,3,568,4,1,5,CLOSED
+11982,Use dummy allocator to make accesses defined as per standard,sundb,2023-03-30T07:51:22Z,2023-04-10T17:38:41+00:00,30,273.79,True,118,37,6,4111,29,14,43,MERGED
+11980,Fixtcl,Mixficsol,2023-03-30T00:53:52Z,2023-03-30T03:05:59+00:00,1,2.2,False,8,3,2,69,2,0,2,CLOSED
+11975,redis-cli - handle sensitive command redaction for variadic CONFIG SET,hwware,2023-03-27T20:05:55Z,2023-04-02T16:19:45+00:00,6,140.23,True,9,6,1,417,1,1,2,MERGED
+11974,"Fix parseScanCursorOrReply to reject empty strings instead of treating them the same as ""0""",Mixficsol,2023-03-26T17:59:35Z,2023-04-12T09:10:14+00:00,7,399.18,False,14,7,3,248,10,3,13,CLOSED
+11973,Fix fork done handler wrongly update fsync metrics and enhance AOF_FSYNC_ALWAYS,enjoy-binbin,2023-03-26T14:06:50Z,2023-03-29T12:17:06+00:00,42,70.17,True,64,13,4,1559,6,13,19,MERGED
+11971,Add COMMAND COUNT test to cover reply-schemas-validator test,enjoy-binbin,2023-03-25T02:56:56Z,2023-03-26T05:39:05+00:00,1,26.7,True,9,6,2,342,0,0,0,MERGED
+11970,Fixed tracking of command duration for multi/eval/module/wait,madolson,2023-03-25T00:51:57Z,2023-03-30T02:58:52+00:00,16,122.12,True,14,1,5,1742,7,5,12,MERGED
+11963,Add basic eventloop latency measurement.,CharlesChen888,2023-03-24T03:59:50Z,2023-05-12T17:13:16+00:00,80,1189.22,True,215,34,5,1155,24,52,76,MERGED
+11962,Fix warning: a function declaration without a prototype,Rtoax,2023-03-24T02:45:21Z,2023-03-24T05:38:31+00:00,1,2.89,False,205,205,41,545,1,0,1,CLOSED
+11961,Clang: fix for -flto argument,rafie,2023-03-23T15:00:27Z,2023-03-27T09:55:18+00:00,9,90.91,True,7,2,1,208,4,1,5,MERGED
+11958,ignore latency errors in the schema validation CI,oranagra,2023-03-23T06:14:00Z,2023-03-23T08:49:09+00:00,2,2.59,True,2,2,1,145,0,0,0,MERGED
+11945,[redis-benchmark] Adding --seed option to seed the RNG,hqkhan,2023-03-20T17:31:01Z,2023-05-02T13:20:38+00:00,9,1027.83,True,7,1,1,630,0,3,3,MERGED
+11944,Optimize MSETNX to avoid double lookup,oranagra,2023-03-20T17:15:33Z,2023-05-28T07:58:30+00:00,7,1646.72,True,36,10,4,119,4,2,6,MERGED
+11942,Overhauls command summaries and man pages.,itamarhaber,2023-03-20T16:24:03Z,2023-03-29T17:48:59+00:00,3,217.42,True,783,784,390,657,5,6,11,MERGED
+11941,Release 7.0.10,oranagra,2023-03-20T13:20:29Z,2023-03-20T17:16:50+00:00,1,3.94,True,441,97,19,538,0,0,0,MERGED
+11940,Avoid assertion when MSETNX is used with the same key twice (CVE-2023-28425),oranagra,2023-03-20T12:47:57Z,2023-03-20T16:50:45+00:00,2,4.05,True,10,3,2,118,0,0,0,MERGED
+11939,Fix new subscribe mode test in reply-schemas-validator,enjoy-binbin,2023-03-20T08:46:58Z,2023-03-20T09:58:20+00:00,4,1.19,True,7,0,2,534,1,1,2,MERGED
+11936,"update summary of lpop, lpushx, rpop, rpushx commands in json file",hwware,2023-03-17T20:11:28Z,2023-03-24T13:40:24+00:00,2,161.48,False,4,4,4,1005,4,1,5,CLOSED
+11934,"Minor fix to print, set to str",enjoy-binbin,2023-03-17T10:20:04Z,2023-03-17T12:20:55+00:00,1,2.01,True,3,3,1,263,2,0,2,MERGED
+11933,Fix cluster client connection lost,chenshi5012,2023-03-17T09:09:33Z,2023-04-10T01:22:51+00:00,1,568.22,False,7,1,1,84,1,0,1,CLOSED
+11930,passwords printed in the crash log,polaris-alioth,2023-03-17T07:07:23Z,2023-03-20T06:18:39+00:00,2,71.19,True,6,0,1,912,1,0,1,MERGED
+11926,Fix compile lto-wrapper warning for aarch64,Rtoax,2023-03-16T11:17:08Z,2023-03-17T16:23:07+00:00,1,29.1,True,1,1,1,597,4,0,4,MERGED
+11923,Add RM_ReplyWithErrorFormat that can support format,enjoy-binbin,2023-03-15T16:13:57Z,2023-04-12T07:11:30+00:00,5,662.96,True,53,2,6,456,4,1,5,MERGED
+11922,Fix WAITAOF mix-use last_offset and last_numreplicas,enjoy-binbin,2023-03-15T12:54:13Z,2023-03-15T16:16:16+00:00,3,3.37,True,86,5,3,530,0,2,2,MERGED
+11917,Fix WAITAOF reply when using last_offset and last_numreplicas,enjoy-binbin,2023-03-15T05:14:08Z,2023-03-15T09:07:04+00:00,6,3.88,True,98,33,3,330,1,4,5,MERGED
+11913,CLI hints based on command arg JSON,zuiderkwast,2023-03-14T14:27:50Z,2023-03-30T16:05:34+00:00,11,385.63,False,12015,9888,15,270,8,2,10,CLOSED
+11911,"Bump codespell to 2.2.4, fix typos and outupdated comments",enjoy-binbin,2023-03-14T11:52:04Z,2023-03-16T06:50:32+00:00,1,42.97,True,23,24,12,39,1,0,1,MERGED
+11910,Remove unnecessary `fsync` when sentinel flushs config file,ShooterIT,2023-03-14T03:22:44Z,2023-03-19T10:51:35+00:00,2,127.48,True,7,15,1,120,0,0,0,MERGED
+11908,Bump codespell from 2.2.2 to 2.2.4 in /.codespell,dependabot,2023-03-13T15:59:06Z,2023-03-14T11:52:41+00:00,1,19.89,False,1,1,1,5728,2,0,2,CLOSED
+11907,Add support for pubsub channel subscribers information,hpatro,2023-03-13T10:12:03Z,2023-07-11T17:06:23+00:00,26,2886.91,False,358,2,4,1575,20,33,53,CLOSED

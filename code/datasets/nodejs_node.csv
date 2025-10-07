@@ -149,3 +149,853 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 59755,test: skip more sea tests on Linux ppc64le,richardlau,2025-09-04T12:18:14Z,2025-09-05T12:39:33+00:00,2,24.36,True,3,0,1,145,6,0,6,MERGED
 59753,url: add type checking to `urlToHttpOptions()`,simon-id,2025-09-04T02:51:48Z,2025-09-12T12:59:27+00:00,3,202.13,True,12,0,2,1370,5,0,5,MERGED
 59751,"lib,src: refactor assert to load error source from memory",legendecas,2025-09-03T21:09:07Z,2025-09-11T10:37:48+00:00,1,181.48,False,321,313,18,311,5,0,5,CLOSED
+59750,deps: upgrade npm to 11.6.0,npm-cli-bot,2025-09-03T20:15:39Z,2025-09-05T20:29:22+00:00,4,48.23,True,471,486,192,1022,6,0,6,MERGED
+59747,http: optimize IncomingMessage._dump,ronag,2025-09-03T15:44:59Z,2025-09-06T16:06:37+00:00,13,72.36,False,26,4,3,1201,23,5,28,CLOSED
+59745,[v20.x] test: skip test-http-imports on macos,marco-ippolito,2025-09-03T09:52:59Z,2025-09-03T13:06:49+00:00,2,3.23,False,4,0,1,22,6,0,6,CLOSED
+59744,repl: fix REPL completion under unary expressions,kingsword09,2025-09-03T09:51:21Z,2025-09-05T17:37:05+00:00,2,55.76,True,151,0,2,164,9,0,9,MERGED
+59743,"Revert ""lib: optimize writable stream buffer clearing""",ri7116,2025-09-03T08:57:28Z,2025-09-08T08:11:21+00:00,5,119.23,True,1,1,1,335,4,0,4,MERGED
+59742,test: guard write to proxy client if proxy connection is ended,joyeecheung,2025-09-03T08:54:16Z,2025-09-17T13:59:10+00:00,4,341.08,True,25,15,2,254,8,1,9,MERGED
+59736,doc: provide alternative to `url.parse()` using WHATWG URL,styfle,2025-09-02T19:50:38Z,2025-09-26T17:58:18+00:00,14,574.13,False,19,1,1,213,2,3,5,CLOSED
+59730,url: add err.input to ERR_INVALID_FILE_URL_PATH,joyeecheung,2025-09-02T12:46:57Z,2025-09-05T17:03:16+00:00,4,76.27,True,36,22,5,312,4,1,5,MERGED
+59729,meta: bump actions/download-artifact from 4.3.0 to 5.0.0,dependabot,2025-09-02T12:31:18Z,2025-09-04T12:54:13+00:00,2,48.38,True,1,1,1,3350,2,0,2,MERGED
+59728,meta: bump github/codeql-action from 3.29.2 to 3.30.0,dependabot,2025-09-02T11:35:10Z,2025-09-04T11:42:22+00:00,2,48.12,True,4,4,2,4336,2,0,2,MERGED
+59727,meta: bump actions/cache from 4.2.3 to 4.2.4,dependabot,2025-09-02T11:30:40Z,2025-09-04T11:33:38+00:00,3,48.05,True,1,1,1,3841,2,0,2,MERGED
+59726,meta: bump `codecov/codecov-action` to 5.5.0,dependabot,2025-09-02T11:25:22Z,2025-09-05T06:03:11+00:00,3,66.63,True,3,3,3,36,4,3,7,MERGED
+59725,meta: bump actions/checkout from 4.2.2 to 5.0.0,dependabot,2025-09-02T11:21:17Z,2025-09-04T11:25:33+00:00,4,48.07,True,41,41,27,5911,3,0,3,MERGED
+59724,esm: fix missed renaming in ModuleJob.runSync,joyeecheung,2025-09-02T09:52:29Z,2025-09-04T10:01:32+00:00,3,48.15,True,40,1,5,200,7,0,7,MERGED
+59723,doc: update OpenSSL default security level to 2 in TLS documentation,JeetuSuthar,2025-09-02T09:46:38Z,2025-09-08T07:57:40+00:00,2,142.18,True,1,1,1,328,4,0,4,MERGED
+59721,test_runner: fix todo inheritance,MoLow,2025-09-02T09:24:38Z,2025-09-04T09:35:49+00:00,6,48.19,True,14,8,4,12,6,2,8,MERGED
+59720,tools: add sccache to `test-internet` workflow,aduh95,2025-09-02T08:41:31Z,2025-09-04T08:52:21+00:00,6,48.18,True,7,2,1,73,4,0,4,MERGED
+59718,src: fix build on NetBSD,0-wiz-0,2025-09-02T07:52:53Z,2025-09-04T08:00:30+00:00,5,48.13,True,1,0,1,45,6,0,6,MERGED
+59717,http: use cached '1.1' http version string,ronag,2025-09-02T07:43:03Z,2025-09-08T09:27:29+00:00,6,145.74,True,5,1,1,35,8,1,9,MERGED
+59711,"src,permission: add --allow-inspector ability",RafaelGSS,2025-09-01T20:23:12Z,2025-09-11T20:10:03+00:00,3,239.78,True,112,5,14,307,10,1,11,MERGED
+59710,"util,console: colorize regexp groups, character classes, etc",BridgeAR,2025-09-01T19:49:25Z,2025-09-05T14:29:21+00:00,8,90.67,True,431,9,5,1216,13,0,13,MERGED
+59709,benchmark: sqlite prevent create both tables on prepare select,brunocroh,2025-09-01T19:09:42Z,2025-09-03T19:18:06+00:00,2,48.14,True,52,38,2,383,4,0,4,MERGED
+59708,benchmark: update num to n in dgram offset-length,brunocroh,2025-09-01T18:27:29Z,2025-09-24T14:12:01+00:00,2,547.74,False,6,6,1,2200,7,0,7,CLOSED
+59707,doc: stabilize --disable-sigusr1,RafaelGSS,2025-09-01T18:03:40Z,2025-09-09T17:06:09+00:00,6,191.04,True,4,2,1,9,5,1,6,MERGED
+59705,src: store `Local` for `CallbackScope` on stack,addaleax,2025-09-01T16:32:54Z,2025-09-09T15:00:42+00:00,6,190.46,True,6,4,2,758,9,2,11,MERGED
+59704,src: track async resources via pointers to stack-allocated handles,addaleax,2025-09-01T16:32:25Z,2025-09-04T09:35:39+00:00,6,65.05,True,47,34,7,224,3,2,5,MERGED
+59703,"lib,src: cache ModuleWrap.hasAsyncGraph",legendecas,2025-09-01T15:28:02Z,2025-09-11T12:54:24+00:00,19,237.44,True,114,115,8,410,11,6,17,MERGED
+59696,benchmark: calibrate config dgram multi-buffer,brunocroh,2025-09-01T10:05:19Z,2025-09-14T00:39:40+00:00,2,302.57,True,7,7,1,4050,4,0,4,MERGED
+59692,typings: update 'types' binding,Renegade334,2025-08-31T15:16:15Z,2025-09-24T14:11:47+00:00,4,574.93,True,33,30,2,705,4,0,4,MERGED
+59690,tools: update gyp-next to 0.20.4,nodejs-github-bot,2025-08-31T00:37:27Z,2025-09-02T01:08:00+00:00,3,48.51,True,2012,2032,44,50,4,0,4,MERGED
+59689,deps: update histogram to 0.11.9,nodejs-github-bot,2025-08-31T00:37:24Z,2025-09-08T13:34:18+00:00,3,204.95,True,11,12,2,51,6,0,6,MERGED
+59687,lib: fix inspect deduplication logic,miguelmarcondesf,2025-08-30T18:28:03Z,2025-09-21T06:28:45+00:00,14,516.01,True,40,7,3,398,12,7,19,MERGED
+59684,node-api: make napi_delete_reference use node_api_basic_env,JeetuSuthar,2025-08-30T04:47:39Z,2025-09-12T15:58:57+00:00,10,323.19,True,3,2,2,626,13,4,17,MERGED
+59683,worker: optimize cpu profile implement,theanarkh,2025-08-29T17:42:15Z,2025-09-01T16:25:49+00:00,19,70.73,True,119,100,10,201,6,9,15,MERGED
+59681,fs: fix dereference: false on cpSync,npaun,2025-08-29T17:25:45Z,2025-08-31T17:30:54+00:00,9,48.09,True,52,41,3,13,8,2,10,MERGED
+59680,lib: fix DOMException subclass support,legendecas,2025-08-29T17:15:34Z,2025-08-31T17:20:02+00:00,4,48.07,True,58,3,2,12,5,0,5,MERGED
+59679,esm: populate separate cache for require(esm) in imported CJS,joyeecheung,2025-08-29T17:05:29Z,2025-09-08T14:59:31+00:00,6,237.9,True,240,78,13,340,10,1,11,MERGED
+59676,lib: use slice to compact Readable buffer in streams,wlgh1553,2025-08-29T16:03:09Z,2025-09-03T04:01:09+00:00,1,107.97,False,2,1,1,472,9,0,9,CLOSED
+59675,src: separate module.hasAsyncGraph and module.hasTopLevelAwait,joyeecheung,2025-08-29T14:38:04Z,2025-09-01T14:59:05+00:00,2,72.35,True,18,34,5,475,7,0,7,MERGED
+59673,build: use `windows-2025` runner,targos,2025-08-29T14:16:20Z,2025-08-31T14:19:11+00:00,3,48.05,True,1,1,1,45,3,0,3,MERGED
+59671,src: use non-deprecated Get/SetPrototype methods,targos,2025-08-29T11:01:43Z,2025-08-31T20:17:32+00:00,6,57.26,True,2,2,1,19,5,0,5,MERGED
+59667,Rewrite fastutf8stream tests node test,mcollina,2025-08-28T16:17:15Z,2025-09-01T21:42:40+00:00,2,101.42,False,350,142,2,12,11,1,12,CLOSED
+59663,[v22.x backport]deps: V8: cherry-pick 6b1b9bca2a8,Xiao-Tao,2025-08-28T11:36:58Z,2025-09-19T12:35:33+00:00,1,528.98,False,12,10,2,54,10,0,10,CLOSED
+59661,sea: implement sea.getAssetKeys(),joyeecheung,2025-08-28T10:00:16Z,2025-09-04T11:58:50+00:00,1,169.98,True,218,4,8,118,4,0,4,MERGED
+59660,test: fix internet/test-dns,targos,2025-08-28T09:44:42Z,2025-08-30T09:47:39+00:00,10,48.05,True,3,3,1,156,6,4,10,MERGED
+59659,"src,sqlite: refactor value conversion",geeksilva97,2025-08-28T03:53:32Z,2025-09-02T02:57:19+00:00,11,119.06,True,36,39,2,202,7,1,8,MERGED
+59653,[v20.x backport] lib: suppress source map lookup exceptions,devjiwonchoi,2025-08-27T19:54:36Z,2025-09-02T13:11:05+00:00,2,137.27,False,68,30,5,944,14,0,14,CLOSED
+59652,"doc: update ""Type stripping in dependencies"" section",joshkel,2025-08-27T19:52:42Z,2025-09-02T18:12:17+00:00,8,142.33,True,2,2,1,316,3,1,4,MERGED
+59650,lib: revert to using default derived class constructors,Renegade334,2025-08-27T17:32:02Z,2025-08-30T14:28:10+00:00,3,68.94,True,9,58,9,634,4,0,4,MERGED
+59649,src: remove duplicate code,theanarkh,2025-08-27T17:15:45Z,2025-08-29T17:20:54+00:00,3,48.09,True,0,1,1,169,5,0,5,MERGED
+59647,crypto: add KMAC Web Cryptography algorithms,panva,2025-08-27T14:07:21Z,2025-09-06T22:43:15+00:00,5,248.6,True,1402,79,23,173,12,6,18,MERGED
+59644,"doc,crypto: add description to the KEM and supports() methods",panva,2025-08-27T09:44:11Z,2025-09-07T13:17:50+00:00,1,267.56,True,29,2,1,197,2,0,2,MERGED
+59642,doc: fix quic session instance typo,jakecastelli,2025-08-27T01:51:20Z,2025-08-29T02:24:58+00:00,4,48.56,True,1,1,1,0,2,0,2,MERGED
+59641,"2025-08-28, Version 22.19.0 'Jod' (LTS)",github-actions,2025-08-26T23:06:22Z,2025-08-28T21:08:48+00:00,1,46.04,True,11740,3892,654,12355,3,0,3,MERGED
+59640,test: mark test-inspector-network-fetch as flaky again,joyeecheung,2025-08-26T20:10:32Z,2025-08-28T20:21:08+00:00,3,48.18,True,2,0,1,186,7,0,7,MERGED
+59637,test: skip test-fs-cp* tests that are constantly failing on Windows,joyeecheung,2025-08-26T19:48:18Z,2025-08-28T19:57:08+00:00,4,48.15,True,5,5,1,416,7,0,7,MERGED
+59635,doc: fix filehandle.read typo,ruyadorno,2025-08-26T19:20:11Z,2025-08-28T19:23:59+00:00,4,48.06,True,1,1,1,0,1,0,1,MERGED
+59634,src: migrate WriteOneByte to WriteOneByteV2,legendecas,2025-08-26T13:06:46Z,2025-08-29T22:41:01+00:00,6,81.57,True,137,36,5,223,10,0,10,MERGED
+59633,doc: improve documentation for raw headers in HTTP/2 APIs,pimterry,2025-08-26T12:59:09Z,2025-08-29T15:42:29+00:00,7,74.72,True,46,20,2,319,2,1,3,MERGED
+59632,src: fix race on process exit and off thread CA loading,legendecas,2025-08-26T10:07:59Z,2025-09-02T10:19:26+00:00,1,168.19,True,8,0,1,7847,6,1,7,MERGED
+59629,"2025-08-27, Version 24.7.0 (Current)",github-actions,2025-08-26T06:12:56Z,2025-08-27T21:17:53+00:00,1,39.08,True,16665,3034,337,13159,12,0,12,MERGED
+59627,doc: reserve NMV 140 for Electron 39,dsanders11,2025-08-25T22:13:02Z,2025-08-27T22:18:09+00:00,4,48.09,True,1,0,1,34,1,0,1,MERGED
+59623,src: call `V8::ExternalMemoryAccounter::Update` instead of `V8::ExternalMemoryAccounter::Increase` to report memory difference to V8,thunder-coding,2025-08-25T18:49:24Z,2025-09-09T12:17:47+00:00,1,353.47,True,2,2,2,590,5,0,5,MERGED
+59622,build: compile bundled uvwasi conditionally,carlocab,2025-08-25T18:15:23Z,2025-08-27T18:40:28+00:00,2,48.42,True,8,4,1,98,3,0,3,MERGED
+59619,src: remove JSONParser,joyeecheung,2025-08-25T11:50:02Z,2025-08-27T14:46:44+00:00,14,50.95,True,0,199,3,60,5,0,5,MERGED
+59616,deps: update amaro to 1.1.2,nodejs-github-bot,2025-08-25T08:29:22Z,2025-08-27T11:38:48+00:00,5,51.16,True,5,5,4,46,6,0,6,MERGED
+59611,inspector: add http2 tracking support,RaisinTen,2025-08-24T16:20:06Z,2025-08-27T16:25:14+00:00,6,72.09,True,496,2,4,739,6,1,7,MERGED
+59609,build: fix getting OpenSSL version on Windows,targos,2025-08-24T10:06:40Z,2025-09-04T09:28:25+00:00,3,263.36,True,3,3,1,48,6,0,6,MERGED
+59608,"doc,crypto: cleanup unlinked and self method references webcrypto.md",panva,2025-08-24T09:58:48Z,2025-08-26T10:15:11+00:00,4,48.27,True,17,17,1,144,3,0,3,MERGED
+59607,repl: fix wrong parentheses,meixg,2025-08-24T08:40:48Z,2025-08-27T17:32:01+00:00,2,80.85,True,121,4,4,18,6,0,6,MERGED
+59606,typings: add typing for 'uv',JinhyeokFang,2025-08-24T08:21:46Z,2025-09-08T16:13:06+00:00,1,367.86,True,92,0,2,19,1,0,1,MERGED
+59605,deps: update undici to 7.15.0,nodejs-github-bot,2025-08-24T00:40:26Z,2025-09-09T14:19:03+00:00,2,397.64,False,2984,2850,37,48,19,0,19,CLOSED
+59604,deps: update ngtcp2 to 1.15.1,nodejs-github-bot,2025-08-24T00:39:42Z,2025-09-21T00:37:18+00:00,2,671.96,False,1460,138,25,48,1,0,1,CLOSED
+59603,tools: update gyp-next to 0.20.3,nodejs-github-bot,2025-08-24T00:39:23Z,2025-08-26T01:06:31+00:00,2,48.45,True,17,8,4,50,6,0,6,MERGED
+59602,test: update WPT for urlpattern to cff1ac1123,nodejs-github-bot,2025-08-24T00:21:22Z,2025-09-06T10:43:17+00:00,2,322.37,True,44,2,3,88,9,0,9,MERGED
+59601,src: add name for more threads,theanarkh,2025-08-23T18:57:48Z,2025-08-27T17:20:33+00:00,7,94.38,True,12,5,3,401,7,2,9,MERGED
+59600,src: fix broken fast callback signatures,Renegade334,2025-08-23T18:00:53Z,2025-09-24T14:11:39+00:00,3,764.18,False,170,106,13,665,7,1,8,CLOSED
+59598,doc: improve `sqlite.backup()` progress/fulfillment documentation,Renegade334,2025-08-23T15:50:08Z,2025-08-25T15:58:10+00:00,3,48.13,True,5,3,1,72,2,0,2,MERGED
+59595,test: deflake test-http-keep-alive-empty-line,lpinca,2025-08-23T13:14:54Z,2025-08-28T19:02:10+00:00,3,125.79,True,15,10,1,162,8,0,8,MERGED
+59591,doc: clarify experimental platform vulnerability policy,mcollina,2025-08-23T10:28:17Z,2025-08-25T10:35:13+00:00,5,48.12,True,16,0,1,526,3,1,4,MERGED
+59589,benchmark: reduce readfile-permission-enabled config,RafaelGSS,2025-08-22T21:11:02Z,2025-08-24T21:19:34+00:00,2,48.14,True,2,2,1,176,2,0,2,MERGED
+59588,benchmark: calibrate length of util.diff,RafaelGSS,2025-08-22T20:53:12Z,2025-08-24T20:57:38+00:00,3,48.07,True,1,1,1,331,2,0,2,MERGED
+59587,benchmark: calibrate config array-vs-concat,RafaelGSS,2025-08-22T19:28:13Z,2025-08-30T23:33:57+00:00,5,196.1,True,9,9,1,3249,7,1,8,MERGED
+59586,benchmark: calibrate config v8/serialize.js,RafaelGSS,2025-08-22T19:05:52Z,2025-08-25T13:35:26+00:00,3,66.49,True,2,2,1,566,3,0,3,MERGED
+59585,"typings: add missing properties in ConfigBinding, OSBinding",wlgh1553,2025-08-22T18:56:16Z,2025-09-08T16:12:57+00:00,1,405.28,True,4,0,2,115,1,0,1,MERGED
+59579,doc: update install_tools.bat free disk space,StefanStojanovic,2025-08-22T11:12:11Z,2025-08-29T12:34:56+00:00,3,169.38,True,1,1,1,113,6,0,6,MERGED
+59578,assert: cap input size in myersDiff to avoid Int32Array overflow,haramj,2025-08-22T08:34:49Z,2025-09-09T00:36:15+00:00,5,424.02,True,40,1,2,373,10,2,12,MERGED
+59576,wasi: fix `clean` target in `test/wasi/Makefile`,aduh95,2025-08-22T08:25:50Z,2025-08-30T19:06:03+00:00,4,202.67,True,3,1,1,138,6,1,7,MERGED
+59572,doc: mark `path.matchesGlob` as stable,avivkeller,2025-08-21T23:24:18Z,2025-08-31T07:48:19+00:00,4,224.4,True,4,2,1,183,3,0,3,MERGED
+59571,crypto: update root-certificates to 3.114,nodejs-github-bot,2025-08-21T23:06:55Z,2025-08-23T23:12:44+00:00,3,48.1,True,1000,305,2,368,8,0,8,MERGED
+59570,crypto: support signature context in node:crypto and Web Cryptography,panva,2025-08-21T14:23:38Z,2025-09-07T13:17:45+00:00,3,406.9,False,459,210,23,323,15,1,16,CLOSED
+59569,crypto: support ML-KEM in Web Cryptography,panva,2025-08-21T14:21:39Z,2025-08-23T15:02:06+00:00,8,48.67,False,1851,100,18,337,5,6,11,CLOSED
+59568,sea: allow using inspector command line flags with SEA,joyeecheung,2025-08-21T13:37:40Z,2025-08-27T19:38:55+00:00,5,150.02,True,193,4,4,508,10,0,10,MERGED
+59567,crypto: require HMAC key length with SHA-3 hashes in Web Cryptography,panva,2025-08-21T10:21:03Z,2025-08-23T10:25:51+00:00,2,48.08,True,69,28,5,186,6,0,6,MERGED
+59563,test: skip sea tests on Linux ppc64le,richardlau,2025-08-20T19:14:52Z,2025-08-22T19:23:40+00:00,5,48.15,True,14,0,1,145,3,0,3,MERGED
+59562,doc: add Miles Guicent as triager,milesguicent,2025-08-20T17:55:56Z,2025-08-31T17:39:23+00:00,3,263.72,True,2,0,1,579,10,0,10,MERGED
+59560,sea: implement execArgvExtension,joyeecheung,2025-08-20T16:19:12Z,2025-08-25T11:35:56+00:00,5,115.28,True,372,7,10,841,5,1,6,MERGED
+59558,crypto: fix subtle.getPublicKey error for secret type key inputs,panva,2025-08-20T15:51:12Z,2025-08-22T15:56:56+00:00,3,48.1,True,8,2,2,465,8,0,8,MERGED
+59551,"2025-09-03, Version 20.19.5 'Iron' (LTS)",marco-ippolito,2025-08-20T12:43:02Z,2025-09-03T18:15:27+00:00,1,341.54,True,18338,15390,877,12289,65,0,65,MERGED
+59550,crypto: load system CA certificates off thread,joyeecheung,2025-08-20T12:07:54Z,2025-08-25T11:35:46+00:00,4,119.46,True,36,0,3,2057,5,1,6,MERGED
+59547,build: fix 'implicit-function-declaration' on OpenHarmony platform,hqzing,2025-08-20T09:22:06Z,2025-09-02T16:27:04+00:00,4,319.08,True,1,1,1,1206,5,0,5,MERGED
+59546,test: support standalone env comment in tests,pmarchini,2025-08-20T09:19:37Z,2025-08-22T09:24:31+00:00,2,48.08,True,52,28,2,77,4,0,4,MERGED
+59544,crypto: add Argon2 Web Cryptography algorithms,panva,2025-08-19T19:34:12Z,2025-08-26T16:05:56+00:00,3,164.53,True,452,5,9,88,9,0,9,MERGED
+59539,crypto: add AES-OCB Web Cryptography algorithm,panva,2025-08-19T14:06:22Z,2025-08-24T09:47:21+00:00,3,115.68,True,440,23,17,90,11,1,12,MERGED
+59538,crypto: fix CryptoKey internal slot behaviours,panva,2025-08-19T14:01:30Z,2025-08-21T14:15:01+00:00,3,48.23,False,141,82,13,27,7,0,7,CLOSED
+59537,"crypto: support SLH-DSA KeyObject, sign, and verify",panva,2025-08-19T13:47:02Z,2025-08-26T15:41:25+00:00,3,169.91,True,542,37,33,683,6,1,7,MERGED
+59536,doc: update environment_variables,phistuck,2025-08-19T13:30:43Z,2025-08-21T14:55:35+00:00,2,49.41,True,2,2,1,108,2,0,2,MERGED
+59532,test: rename test-net-server-drop-connections-in-cluster.js to -http-,nektro,2025-08-19T06:23:30Z,2025-08-21T19:38:10+00:00,2,61.24,True,0,0,1,0,3,0,3,MERGED
+59529,stream: replace manual function validation with validateFunction,JinhyeokFang,2025-08-19T03:02:50Z,2025-08-30T14:37:15+00:00,5,275.57,True,6,21,1,187,5,0,5,MERGED
+59527,module: allow overriding linked requests for a ModuleWrap,legendecas,2025-08-19T00:07:40Z,2025-08-22T12:57:08+00:00,3,84.82,True,82,10,2,369,10,0,10,MERGED
+59526,tools: avoid parsing test files twice,pmarchini,2025-08-18T19:29:03Z,2025-08-20T19:33:00+00:00,4,48.07,True,5,0,1,294,3,1,4,MERGED
+59524,build: list uvwasi as dependency,aduh95,2025-08-18T18:26:31Z,2025-08-19T13:45:09+00:00,1,19.31,False,1,0,1,67,6,0,6,CLOSED
+59523,test: fix `test-setproctitle` status when `ps` is not available,aduh95,2025-08-18T18:21:29Z,2025-08-20T18:24:04+00:00,2,48.04,True,3,8,1,74,6,0,6,MERGED
+59522,test: fix timeout in test-wasi-pthread for CI stability,Ronitsabhaya75,2025-08-18T17:52:00Z,2025-09-04T21:03:32+00:00,3,411.19,False,223,3,5,536,13,3,16,CLOSED
+59520,tools: fix for code scanning alert no. 470: Incomplete multi-character sanitization,RafaelGSS,2025-08-18T17:31:21Z,2025-08-20T17:57:27+00:00,1,48.44,False,10,1,1,760,5,0,5,CLOSED
+59519,esm: link modules synchronously when no async loader hooks are used,joyeecheung,2025-08-18T14:15:09Z,2025-08-20T14:31:11+00:00,6,48.27,False,29,15,5,657,4,2,6,CLOSED
+59518,[v24.x] lib: do not modify prototype deprecated asyncResource (encore),slagiewka,2025-08-18T11:12:23Z,2025-08-27T09:08:56+00:00,2,213.94,False,2,2,1,272,13,0,13,CLOSED
+59517,test: lazy-load internalTTy,pmarchini,2025-08-18T11:01:48Z,2025-08-20T19:50:01+00:00,4,56.8,True,2,2,1,411,5,1,6,MERGED
+59516,node-api: link to other programming language bindings,legendecas,2025-08-18T10:18:03Z,2025-08-22T10:57:46+00:00,5,96.66,True,19,12,1,103,2,1,3,MERGED
+59512,tools: update coverage GitHub Actions to fixed version,Trott,2025-08-18T05:45:31Z,2025-08-18T08:30:57+00:00,6,2.76,True,3,3,3,67,4,0,4,MERGED
+59511,doc: clarify maxRSS unit in `process.resourceUsage()`,himself65,2025-08-18T05:32:26Z,2025-08-20T05:36:07+00:00,3,48.06,True,1,1,1,68,2,0,2,MERGED
+59507,deps: update undici to 7.14.0,nodejs-github-bot,2025-08-17T20:23:08Z,2025-08-21T13:54:51+00:00,5,89.53,True,1653,1374,23,48,8,0,8,MERGED
+59504,[v20.x] backport require(esm) bugfixes and improvements,joyeecheung,2025-08-17T18:15:54Z,2025-08-20T12:39:36+00:00,2,66.39,False,571,227,28,112,12,0,12,CLOSED
+59503,test: add parseTestMetadata support,pmarchini,2025-08-17T11:41:26Z,2025-08-20T06:58:14+00:00,2,67.28,True,76,19,4,156,9,0,9,MERGED
+59498,docs: add NAPI-RS reference to the Node-API doc,Brooooooklyn,2025-08-17T08:44:04Z,2025-08-18T11:59:08+00:00,2,27.25,False,47,0,1,130,5,0,5,CLOSED
+59497,test: update WPT for WebCryptoAPI to ff26d9b307,nodejs-github-bot,2025-08-17T00:21:45Z,2025-08-19T16:55:44+00:00,4,64.57,True,5,5,3,90,13,0,13,MERGED
+59495,repl: eol deprecate instantiating without new,avivkeller,2025-08-16T20:30:19Z,2025-09-07T19:08:40+00:00,5,526.64,True,825,855,3,173,6,1,7,MERGED
+59492,"doc,crypto: add supported asymmetric key types section",panva,2025-08-16T14:51:09Z,2025-08-19T04:40:37+00:00,2,61.82,True,32,27,1,89,3,1,4,MERGED
+59491,"crypto: support ML-KEM, DHKEM, and RSASVE key encapsulation mechanisms",panva,2025-08-16T14:49:07Z,2025-08-20T14:30:58+00:00,6,95.7,True,1098,0,14,552,10,6,16,MERGED
+59490,sqlite: avoid useless call to FromMaybe(),tniessen,2025-08-16T10:21:36Z,2025-08-18T10:26:42+00:00,3,48.09,True,1,2,1,93,5,0,5,MERGED
+59488,test: split test-wasi.js and mark test-wasi-pthread as flaky,joyeecheung,2025-08-15T23:54:44Z,2025-08-18T12:17:59+00:00,4,60.39,False,118,29,17,262,4,1,5,CLOSED
+59487,src: fix order of CHECK_NOT_NULL/dereference,tniessen,2025-08-15T23:26:43Z,2025-08-18T12:17:47+00:00,4,60.85,True,1,1,1,142,3,0,3,MERGED
+59485,cherry-pick V8 Linux s390x fixes for clang,richardlau,2025-08-15T16:31:42Z,2025-08-17T16:42:50+00:00,5,48.19,False,64,17,4,975,7,0,7,CLOSED
+59484,build: do not set `-mminimal-toc` with `clang`,richardlau,2025-08-15T15:00:33Z,2025-08-20T13:55:28+00:00,4,118.92,True,12,2,1,106,4,0,4,MERGED
+59479,test_runner: set mocktimer's interval undefined when clearInterval called,hotpineapple,2025-08-15T06:12:04Z,2025-08-27T03:36:55+00:00,2,285.41,True,22,0,2,88,6,0,6,MERGED
+59476,test: deflake connection refused proxy tests,joyeecheung,2025-08-14T22:31:31Z,2025-08-17T17:52:42+00:00,2,67.35,False,61,41,2,407,11,0,11,CLOSED
+59475,test: use case-insensitive path checking on Windows in fs.cpSync tests,joyeecheung,2025-08-14T21:55:46Z,2025-08-16T22:08:36+00:00,2,48.21,True,27,9,4,1062,4,0,4,MERGED
+59473,src: use simdjson to parse --snapshot-config,joyeecheung,2025-08-14T18:26:11Z,2025-08-22T11:07:51+00:00,5,184.69,True,47,18,1,12,7,1,8,MERGED
+59472,src: move shared_ptr objects in KeyObjectData,tniessen,2025-08-14T15:54:53Z,2025-08-16T16:06:23+00:00,2,48.19,True,1,1,1,183,6,0,6,MERGED
+59471,crypto: fix EVPKeyCtxPointer::publicCheck(),tniessen,2025-08-14T14:41:26Z,2025-08-16T14:47:58+00:00,3,48.11,True,0,1,1,358,6,0,6,MERGED
+59470,doc: add security incident reponse plan,RafaelGSS,2025-08-14T14:37:57Z,2025-08-20T17:57:45+00:00,2,147.33,True,5,0,1,155,2,0,2,MERGED
+59469,benchmark: make child_process tests windows-compatible,ri7116,2025-08-14T10:58:50Z,2025-09-03T04:16:39+00:00,1,473.3,False,5,1,1,206,4,0,4,CLOSED
+59468,typings: add missing URLBinding methods,whsung0330,2025-08-14T10:38:34Z,2025-08-21T20:39:21+00:00,3,178.01,True,2,0,1,60,1,0,1,MERGED
+59466,"http, benchmark: remove CRLF variables",wlgh1553,2025-08-14T04:32:44Z,2025-08-20T07:10:17+00:00,8,146.63,True,8,13,4,827,10,0,10,MERGED
+59464, stream: add brotli support to CompressionStream and DecompressionStream ,KhafraDev,2025-08-13T22:15:52Z,2025-08-21T02:22:19+00:00,8,172.11,True,24,5,4,118,8,1,9,MERGED
+59461,crypto: support ML-KEM KeyObject,panva,2025-08-13T16:00:01Z,2025-08-16T14:39:15+00:00,3,70.65,True,665,3,21,704,13,1,14,MERGED
+59460,assert available memory can be calculated for max-old-space-size-percentage,Asaf-Federman,2025-08-13T10:33:57Z,2025-08-18T06:51:49+00:00,2,116.3,True,13,3,2,308,6,0,6,MERGED
+59459,benchmark: reflect current OpenSSL in crypto key benchmarks,panva,2025-08-13T10:13:34Z,2025-08-15T10:24:47+00:00,5,48.19,True,18,6,3,134,3,0,3,MERGED
+59456,util: add remaining errors to `wellKnownPrototypes`,erights,2025-08-12T20:27:27Z,2025-08-19T09:00:24+00:00,13,156.55,True,11,0,1,1177,11,3,14,MERGED
+59455,http2: add support for raw header arrays in h2Stream.respond(),pimterry,2025-08-12T16:50:59Z,2025-08-21T11:18:10+00:00,10,210.45,True,204,35,5,811,5,4,9,MERGED
+59453,esm: sync-ify module translation,joyeecheung,2025-08-12T13:27:42Z,2025-08-14T14:28:40+00:00,6,49.02,True,6,8,2,142,5,1,6,MERGED
+59451,assert: resolve TODO and rename function,aduh95,2025-08-12T09:42:35Z,2025-08-14T09:51:13+00:00,6,48.14,True,5,7,2,328,4,0,4,MERGED
+59448,"assert,util: fail promise comparison in deep equal checks",BridgeAR,2025-08-11T23:32:27Z,2025-08-19T10:22:36+00:00,4,178.84,True,43,21,3,203,8,0,8,MERGED
+59447,util: hide duplicated stack frames when using util.inspect,BridgeAR,2025-08-11T22:27:05Z,2025-09-05T17:15:12+00:00,17,594.8,True,300,3,2,313,11,7,18,MERGED
+59446,util: fix error's namespaced node_modules highlighting using inspect,BridgeAR,2025-08-11T21:14:05Z,2025-08-19T10:22:26+00:00,9,181.14,True,41,13,2,339,5,2,7,MERGED
+59445,doc: add RafaelGSS as performance strategic lead,RafaelGSS,2025-08-11T20:16:34Z,2025-08-13T20:31:21+00:00,11,48.25,True,2,1,1,253,3,0,3,MERGED
+59443,test-runner: add option to rerun only failed tests,MoLow,2025-08-11T16:52:19Z,2025-08-19T07:42:00+00:00,25,182.83,True,359,2,13,0,23,14,37,MERGED
+59440,test: skip test-watch-mode inspect when no inspector,jasnell,2025-08-11T03:00:26Z,2025-08-13T03:11:14+00:00,4,48.18,True,1,1,1,166,4,0,4,MERGED
+59437,src: improve error reporting in node_mksnapshot,jasnell,2025-08-10T21:16:29Z,2025-09-07T12:34:36+00:00,6,663.3,True,9,1,1,397,12,1,13,MERGED
+59436,src: update OpenSSL pqc checks,panva,2025-08-10T21:03:42Z,2025-08-12T21:15:25+00:00,5,48.2,True,22,19,6,71,15,1,16,MERGED
+59434,tools: fix return value of try_check_compiler,theanarkh,2025-08-10T17:38:44Z,2025-08-13T10:39:54+00:00,3,65.02,True,1,1,1,699,2,0,2,MERGED
+59429,v8: add cpu profile APIs,theanarkh,2025-08-10T08:09:48Z,2025-09-08T14:05:58+00:00,16,701.94,False,131,0,6,193,1,13,14,CLOSED
+59428,worker: add cpu profile APIs for worker,theanarkh,2025-08-10T07:23:36Z,2025-08-29T15:42:21+00:00,24,464.31,True,390,1,14,375,10,16,26,MERGED
+59427,doc: fix a missing link in the `errors` page,meteorqz6,2025-08-10T06:58:25Z,2025-09-05T04:38:43+00:00,4,621.67,True,3,2,1,140,4,4,8,MERGED
+59424,test: replace manual error checks with assert.ifError/mustSucceed,KimSH39,2025-08-09T18:06:40Z,2025-08-15T05:40:01+00:00,2,131.56,True,14,12,3,398,3,0,3,MERGED
+59423,test: deflake sequential/test-tls-session-timeout,joyeecheung,2025-08-09T17:27:43Z,2025-08-11T17:36:30+00:00,4,48.15,True,81,57,2,1303,15,0,15,MERGED
+59420,http: trim off brackets from IPv6 addresses with string operations,pckrishnadas88,2025-08-09T15:23:47Z,2025-08-20T11:34:27+00:00,38,260.18,True,3,1,1,1497,24,10,34,MERGED
+59419,http2: report sent headers object in client stream dcs,RaisinTen,2025-08-09T13:18:43Z,2025-08-17T05:29:41+00:00,1,184.18,True,63,12,3,221,4,0,4,MERGED
+59416,lib: use validators for argument validation,meteorqz6,2025-08-09T09:55:55Z,2025-09-21T02:47:14+00:00,5,1024.86,True,39,39,5,186,9,0,9,MERGED
+59414,test_runner: isSkipped in JUnit reporter,mete0rfish,2025-08-09T06:53:24Z,2025-08-13T08:50:43+00:00,2,97.96,True,14,1,2,189,5,0,5,MERGED
+59412,test: add missing hasPostData in test-inspector-emit-protocol-event,islandryu,2025-08-09T02:03:28Z,2025-08-16T10:12:50+00:00,1,176.16,True,1,0,1,844,4,0,4,MERGED
+59411,[v22.x] doc: update --use-system-ca changelog on 22.x,joyeecheung,2025-08-08T22:58:52Z,2025-08-21T11:37:56+00:00,1,300.65,True,3,1,1,110,2,0,2,MERGED
+59410,Create webpack.yml,Josayoolay,2025-08-08T22:42:13Z,2025-08-08T23:42:50+00:00,1,1.01,False,28,0,1,0,1,1,2,CLOSED
+59408,test: split test-fs-cp.js,joyeecheung,2025-08-08T16:01:03Z,2025-08-10T19:35:43+00:00,5,51.58,True,1585,1100,77,430,18,0,18,MERGED
+59406,lib: optimize writable stream buffer clearing,ri7116,2025-08-08T12:46:54Z,2025-08-11T03:29:01+00:00,5,62.7,True,1,1,1,484,9,0,9,MERGED
+59405,sqlite: add sqlite-type symbol for DatabaseSync,himself65,2025-08-08T00:16:04Z,2025-08-23T21:45:43+00:00,2,381.49,True,16,0,2,544,9,0,9,MERGED
+59404,inspector: initial support websocket inspection,islandryu,2025-08-07T22:45:14Z,2025-08-19T10:09:15+00:00,4,275.4,True,409,1,9,121,10,3,13,MERGED
+59395,doc: fix Pbkdf2Params hash attribute heading,panva,2025-08-07T16:26:00Z,2025-08-09T16:35:12+00:00,2,48.15,True,1,1,1,50,2,0,2,MERGED
+59392,tools: disable nullability-completeness warnings,targos,2025-08-07T12:03:31Z,2025-08-09T12:15:02+00:00,4,48.19,True,15,1,1,97,9,0,9,MERGED
+59391,src: use simdjson::pad,0hmX,2025-08-07T11:53:57Z,2025-08-17T20:24:02+00:00,7,248.5,True,2,14,1,11,9,3,12,MERGED
+59388,"test,crypto: skip unsupported ciphers",codebytere,2025-08-07T09:30:56Z,2025-08-09T17:18:51+00:00,3,55.8,True,183,118,7,80,7,2,9,MERGED
+59385,build: only mention Apple when on Apple,targos,2025-08-07T07:53:44Z,2025-08-09T08:01:11+00:00,5,48.12,True,1,1,1,0,4,0,4,MERGED
+59381,quic: fixup windows coverage compile error,jasnell,2025-08-06T21:18:27Z,2025-08-07T02:33:43+00:00,5,5.25,False,11,5,3,13,9,0,9,CLOSED
+59379,util: fix numericSeparator with negative fractional numbers,Han5991,2025-08-06T15:16:09Z,2025-09-08T20:10:50+00:00,4,796.91,True,35,9,2,1023,11,1,12,MERGED
+59377,test_runner: do not error when getting `fullName` of root context,Renegade334,2025-08-06T12:08:17Z,2025-08-23T19:40:58+00:00,4,415.54,True,7,1,2,305,9,0,9,MERGED
+59375,perf: simplify IPv6 checks in isLoopback(),pckrishnadas88,2025-08-06T07:49:24Z,2025-08-12T09:05:19+00:00,7,145.27,False,2,2,1,2306,22,0,22,CLOSED
+59371,deps: update OpenSSL to 3.5.2,nodejs-github-bot,2025-08-05T17:06:17Z,2025-08-07T17:09:13+00:00,5,48.05,False,1013,742,211,48,5,0,5,CLOSED
+59368,test: use mustSucceed in test-repl-tab-complete-import,KimSH39,2025-08-05T16:28:16Z,2025-08-23T09:28:03+00:00,2,425.0,True,10,19,1,394,13,0,13,MERGED
+59365,crypto: modern algorithms in Web Cryptography API,panva,2025-08-05T14:00:36Z,2025-08-19T13:58:37+00:00,16,335.97,False,4942,583,59,1610,32,11,43,CLOSED
+59363,src: add Intel CET properties to large_pages.S,tjuhaszrh,2025-08-05T11:10:55Z,2025-08-13T01:52:07+00:00,5,182.69,True,21,0,1,1274,3,1,4,MERGED
+59358,build: check Apple clang version in configure script,targos,2025-08-05T07:37:46Z,2025-08-07T07:46:56+00:00,6,48.15,False,18,18,2,69,8,2,10,CLOSED
+59356,doc: fix missing reference links for server.keepAliveTimeoutBuffer,wlgh1553,2025-08-05T02:47:05Z,2025-08-07T02:53:31+00:00,3,48.11,True,2,1,1,239,2,0,2,MERGED
+59355,src: mark realm leaf classes final,addaleax,2025-08-04T22:58:31Z,2025-08-07T11:00:44+00:00,5,60.04,True,2,2,2,117,4,0,4,MERGED
+59353,build: fix OpenSSL version detection,richardlau,2025-08-04T19:41:15Z,2025-08-06T19:47:18+00:00,3,48.1,True,6,3,1,159,3,0,3,MERGED
+59351,typings: improve internal binding types,meteorqz6,2025-08-04T18:17:14Z,2025-08-09T10:15:38+00:00,3,111.97,True,10,0,2,31,1,1,2,MERGED
+59350,sqlite: handle ?NNN bind params as positional,geeksilva97,2025-08-04T16:44:46Z,2025-08-22T12:56:58+00:00,5,428.2,True,33,1,2,12,16,1,17,MERGED
+59348,test: exclude mock from coverage,islandryu,2025-08-04T13:00:23Z,2025-08-11T05:49:54+00:00,9,160.83,True,87,3,7,68,5,4,9,MERGED
+59347,lib: use primordial,hotpineapple,2025-08-04T12:24:11Z,2025-08-19T16:14:48+00:00,6,363.84,True,2,1,1,164,10,3,13,MERGED
+59344,doc: fix grammar in global dispatcher usage,Juneezee,2025-08-04T03:38:12Z,2025-08-06T03:53:35+00:00,2,48.26,True,1,1,1,76,1,0,1,MERGED
+59343,doc: run license-builder,github-actions,2025-08-04T00:10:00Z,2025-08-06T00:30:52+00:00,7,48.35,True,25,0,1,188,2,0,2,MERGED
+59342,quic: continuing work on impl using openssl 3.5,jasnell,2025-08-03T21:03:45Z,2025-09-08T02:29:37+00:00,2,845.43,False,1109,856,58,31,20,1,21,CLOSED
+59339,domain: remove deprecated API call,himself65,2025-08-03T03:31:34Z,2025-08-05T03:51:16+00:00,3,48.33,True,1,1,1,725,4,0,4,MERGED
+59338,deps: update undici to 7.13.0,nodejs-github-bot,2025-08-03T00:45:11Z,2025-08-05T17:00:31+00:00,4,64.26,True,1920,360,28,48,6,0,6,MERGED
+59337,deps: update sqlite to 3.50.4,nodejs-github-bot,2025-08-03T00:44:05Z,2025-08-05T00:53:18+00:00,4,48.15,True,38,11,2,48,3,0,3,MERGED
+59336,deps: update ada to 3.2.7,nodejs-github-bot,2025-08-03T00:44:02Z,2025-08-10T05:30:11+00:00,5,172.77,True,15,5,2,44,6,0,6,MERGED
+59335,deps: update googletest to eb2d85e,nodejs-github-bot,2025-08-03T00:44:01Z,2025-09-06T12:30:23+00:00,4,827.77,True,8,5,2,53,7,0,7,MERGED
+59332,doc: rename x509.extKeyUsage to x509.keyUsage,panva,2025-08-02T18:24:58Z,2025-08-09T18:43:08+00:00,1,168.3,True,10,10,1,786,2,0,2,MERGED
+59330,test: fix typos in comments and variable names,wlgh1553,2025-08-02T11:07:52Z,2025-08-13T10:25:19+00:00,2,263.29,True,5,5,2,71,8,0,8,MERGED
+59329,doc: correct orthography `eg.` → `e.g.`,JakobJingleheimer,2025-08-02T09:12:00Z,2025-08-03T08:27:14+00:00,7,23.25,True,2,2,2,38,11,0,11,MERGED
+59323,src: use simdjson to parse SEA configuration,joyeecheung,2025-08-01T21:55:22Z,2025-08-10T13:47:40+00:00,4,207.87,False,153,141,2,136,16,0,16,CLOSED
+59318,tools: bump the eslint group in /tools/eslint with 5 updates,dependabot,2025-08-01T18:35:10Z,2025-10-01T18:11:04+00:00,2,1463.6,False,127,136,2,20960,1,0,1,CLOSED
+59317,test_runner: fix isSkipped in JUnit reporter,mete0rfish,2025-08-01T15:22:52Z,2025-08-09T06:50:07+00:00,2,183.45,False,13971,5352,509,126,2,0,2,CLOSED
+59316,meta: add mailmap entry for Aditi,Aditi-1400,2025-08-01T15:20:16Z,2025-08-03T15:24:00+00:00,3,48.06,True,1,0,1,22,1,0,1,MERGED
+59315,http: add Agent.agentKeepAliveTimeoutBuffer option,haramj,2025-08-01T14:11:30Z,2025-08-13T02:32:31+00:00,2,276.35,True,64,3,3,689,8,0,8,MERGED
+59314,sea: support execArgv in sea config,joyeecheung,2025-08-01T13:18:06Z,2025-08-17T08:31:32+00:00,5,379.22,True,270,3,7,690,13,1,14,MERGED
+59312,doc: add missing Zstd strategy constants,Annaick,2025-08-01T10:27:31Z,2025-08-19T18:38:45+00:00,7,440.19,True,28,0,1,215,4,1,5,MERGED
+59311,"test: update WPT resources,WebCryptoAPI,webstorage",panva,2025-08-01T10:14:04Z,2025-08-03T11:31:40+00:00,2,49.29,True,2570,593,35,145,7,0,7,MERGED
+59308,src: use simdjson,himself65,2025-08-01T03:33:00Z,2025-08-02T06:20:41+00:00,1,26.79,False,117,115,3,13,1,1,2,CLOSED
+59304,src: use C++20 `contains()` method,iknoom,2025-07-31T20:09:20Z,2025-08-04T08:00:01+00:00,2,83.84,False,8,10,7,136,13,0,13,CLOSED
+59298,meta: add tsc and build team as codeowners building.md,RafaelGSS,2025-07-31T13:50:46Z,2025-08-02T13:59:50+00:00,7,48.15,True,1,0,1,27,2,0,2,MERGED
+59297,doc: clarify the need of compiler compatible with c++20,RafaelGSS,2025-07-31T12:33:29Z,2025-08-02T18:23:29+00:00,2,53.83,True,5,0,1,105,2,0,2,MERGED
+59296,lib: use validateString,hotpineapple,2025-07-31T11:19:12Z,2025-08-02T11:31:47+00:00,7,48.21,True,4,4,1,48,7,3,10,MERGED
+59295,doc: clarify release candidate stability index,panva,2025-07-31T10:49:27Z,2025-08-02T10:58:22+00:00,9,48.15,True,3,3,1,731,3,0,3,MERGED
+59293,lib: docs deprecate _http_*,bjohansebas,2025-07-31T00:52:51Z,2025-08-02T01:12:05+00:00,7,48.32,True,15,0,1,142,5,0,5,MERGED
+59292,deps: upgrade npm to 11.5.2,npm-cli-bot,2025-07-30T20:40:40Z,2025-09-03T20:15:41+00:00,3,839.58,False,397,296,176,197,6,0,6,CLOSED
+59291,src: remove unused DSAKeyExportJob,panva,2025-07-30T20:10:09Z,2025-08-05T13:25:43+00:00,2,137.26,True,0,56,2,87,6,0,6,MERGED
+59289,meta: add nodejs/path to path files,RafaelGSS,2025-07-30T18:34:12Z,2025-08-01T18:48:10+00:00,5,48.23,True,5,0,1,9,2,0,2,MERGED
+59286,lib: handle windows reserved device names on UNC,RafaelGSS,2025-07-30T15:12:55Z,2025-08-09T12:54:53+00:00,8,237.7,True,60,0,3,576,17,3,20,MERGED
+59284,crypto: prepare webcrypto key import/export for modern algorithms,panva,2025-07-30T10:40:28Z,2025-08-05T13:25:29+00:00,2,146.75,True,125,97,8,294,5,0,5,MERGED
+59283,deps: V8: cherry-pick 6b1b9bca2a8 [loong64][codegen] Avoid memory access under stack pointer,Xiao-Tao,2025-07-30T07:25:18Z,2025-08-28T06:48:11+00:00,2,695.38,True,12,10,2,829,19,0,19,MERGED
+59280,doc: add WDYT to glossary,btea,2025-07-30T06:11:15Z,2025-08-01T06:19:44+00:00,6,48.14,True,1,0,1,33,1,0,1,MERGED
+59278,assert: change utils to use index instead of for...of,JinhyeokFang,2025-07-29T22:39:39Z,2025-08-07T22:47:09+00:00,4,216.12,True,2,1,1,229,14,0,14,MERGED
+59276,cli: add NODE_USE_SYSTEM_CA=1,joyeecheung,2025-07-29T14:21:18Z,2025-08-10T14:20:58+00:00,15,287.99,True,113,0,5,177,24,3,27,MERGED
+59275,src: warn about FastOneByteString invalidation,jasnell,2025-07-29T13:49:19Z,2025-08-07T02:35:09+00:00,7,204.76,False,8,0,1,79,7,1,8,CLOSED
+59273,doc: add manpage entry for --use-system-ca,joyeecheung,2025-07-29T10:14:24Z,2025-07-31T10:16:57+00:00,4,48.04,True,7,0,1,0,2,0,2,MERGED
+59271,tools: bump @eslint/plugin-kit from 0.3.3 to 0.3.4 in /tools/eslint,dependabot,2025-07-29T09:06:48Z,2025-08-11T23:40:13+00:00,1,326.56,True,3,3,1,2207,1,0,1,MERGED
+59270,worker: implements nits in Web Locks code,aduh95,2025-07-29T08:10:29Z,2025-07-31T08:14:57+00:00,3,48.07,True,14,22,1,143,5,0,5,MERGED
+59269,doc: update deprecation guide for `util.is**()`,AugustinMauroy,2025-07-29T08:03:26Z,2025-08-28T14:59:54+00:00,18,726.94,True,6,6,1,89,5,3,8,MERGED
+59267,src: add nullptr handling from GetReqWrap() ,F3lixTheCat,2025-07-29T00:23:02Z,2025-07-31T01:55:11+00:00,6,49.54,True,22,0,1,64,16,0,16,MERGED
+59262,doc: add path.join and path.normalize clarification,RafaelGSS,2025-07-28T18:48:14Z,2025-07-30T19:01:40+00:00,4,48.22,True,5,0,1,489,4,0,4,MERGED
+59261,lib: handle superscript variants on windows device,RafaelGSS,2025-07-28T18:21:27Z,2025-08-02T17:39:17+00:00,3,119.3,True,10,0,2,187,6,0,6,MERGED
+59260,src: optimize usage of memory api,theanarkh,2025-07-28T15:15:16Z,2025-08-05T17:12:24+00:00,2,193.95,False,6,4,2,402,8,1,9,CLOSED
+59259,"crypto: support ML-DSA KeyObject, sign, and verify",panva,2025-07-28T12:49:47Z,2025-08-06T21:49:30+00:00,22,225.0,True,1479,44,31,948,15,12,27,MERGED
+59258,lib: add protection in worker_thread.js,hotpineapple,2025-07-28T12:48:41Z,2025-08-05T09:03:29+00:00,1,188.25,False,28,6,1,63,2,0,2,CLOSED
+59257,"2025-07-29, Version 24.5.0 (Current)",github-actions,2025-07-28T09:27:16Z,2025-07-31T21:44:56+00:00,3,84.29,True,1984461,71922,4943,11150,13,0,13,MERGED
+59256,"2025-07-29, Version 22.18.0 'Jod' (LTS)",github-actions,2025-07-28T09:24:33Z,2025-07-31T21:44:56+00:00,1,84.34,True,19186,13077,1037,13629,5,0,5,MERGED
+59254,test: make test-debug-process locale-independent,Amemome,2025-07-28T05:22:52Z,2025-08-19T01:08:01+00:00,3,523.75,True,1,1,1,1177,8,0,8,MERGED
+59249,quic: start re-enabling and working on quic with openssl 3.5,jasnell,2025-07-27T19:51:23Z,2025-08-03T20:49:05+00:00,5,168.96,False,4733,3192,85,559,14,1,15,CLOSED
+59247,doc: fix the version tls.DEFAULT_CIPHERS was added,mureinik,2025-07-27T15:53:34Z,2025-08-18T16:56:41+00:00,1,529.05,True,1,3,1,610,1,0,1,MERGED
+59245,doc: clarify glob's exclude option behavior,hotpineapple,2025-07-27T14:45:07Z,2025-08-18T16:28:00+00:00,2,529.71,True,3,0,1,90,2,1,3,MERGED
+59244,http2: set `Http2Stream#sentHeaders` for raw headers,RaisinTen,2025-07-27T14:38:25Z,2025-07-29T14:44:52+00:00,3,48.11,True,61,2,4,241,5,0,5,MERGED
+59243,http: add server.keepAliveTimeoutBuffer option,haramj,2025-07-27T13:16:30Z,2025-08-04T13:47:10+00:00,7,192.51,True,83,8,3,851,10,2,12,MERGED
+59242,tools: allow selecting test subsystems with numbers in their names,RaisinTen,2025-07-27T13:15:58Z,2025-07-29T13:24:35+00:00,4,48.14,True,1,1,1,291,2,0,2,MERGED
+59240,zlib: add dictionary support to zstdCompress and zstdDecompress,lluisemper,2025-07-27T10:56:37Z,2025-08-04T16:13:57+00:00,5,197.29,True,79,7,4,424,10,5,15,MERGED
+59238,build: update macOS runner and Xcode,targos,2025-07-27T07:23:40Z,2025-07-29T15:51:30+00:00,5,56.46,False,10,3,3,141,8,0,8,CLOSED
+59235,crypto: expose signatureAlgorithm on X509Certificate,patrickrbc,2025-07-27T01:19:22Z,2025-09-16T19:27:05+00:00,5,1242.13,True,134,0,6,211,6,0,6,MERGED
+59234,deps: update OpenSSL to 3.5.1,nodejs-github-bot,2025-07-27T00:43:49Z,2025-07-29T01:23:28+00:00,6,48.66,False,1965427,67662,4186,48,14,0,14,CLOSED
+59233,deps: update zlib to 1.3.1-caf4afa,nodejs-github-bot,2025-07-27T00:43:08Z,2025-09-21T00:37:18+00:00,2,1343.9,False,0,0,0,53,5,0,5,CLOSED
+59232,test: update WPT for WebCryptoAPI to 1d2c5fb36a,nodejs-github-bot,2025-07-27T00:23:08Z,2025-08-03T05:38:27+00:00,1,173.26,False,5,5,14,90,2,0,2,CLOSED
+59229,doc: format safely for `doc-kit`,avivkeller,2025-07-26T19:53:56Z,2025-07-28T20:03:37+00:00,3,48.16,True,190,207,13,126,2,0,2,MERGED
+59228,benchmark: remove deprecated _extend from benchmark,RafaelGSS,2025-07-26T17:54:21Z,2025-08-11T15:42:47+00:00,5,381.81,True,0,42,1,9,6,0,6,MERGED
+59226,doc: link to `TypedArray.from()` in signature,avivkeller,2025-07-26T15:59:38Z,2025-08-21T23:30:30+00:00,5,631.51,True,1,1,1,143,3,0,3,MERGED
+59224,doc: rephrase dynamic import() description,meteorqz6,2025-07-26T15:01:42Z,2025-09-12T06:40:24+00:00,7,1143.64,True,3,2,1,235,5,3,8,MERGED
+59223,implement `DummyWritableStream` for spec-compliant no-op writable,ahmadnasriya,2025-07-26T13:25:38Z,2025-07-26T20:35:57+00:00,4,7.17,False,109,38,11,1890,1,2,3,CLOSED
+59221,test_runner: remove unused callee convertion,himself65,2025-07-26T09:53:53Z,2025-07-29T07:21:50+00:00,5,69.47,False,1,2,1,300,15,0,15,CLOSED
+59219,test: don't use expose internals in test-http-outgoing-buffer.js,nektro,2025-07-26T03:11:59Z,2025-07-28T03:25:59+00:00,4,48.23,True,1,2,1,0,3,0,3,MERGED
+59215,benchmark: add fs warmup to writefile-promises,brunocroh,2025-07-25T19:24:20Z,2025-07-29T20:20:48+00:00,2,96.94,True,14,4,1,2486,5,0,5,MERGED
+59214,worker: fix worker name with \0,theanarkh,2025-07-25T18:03:41Z,2025-08-13T13:53:25+00:00,12,451.83,True,33,15,8,196,7,4,11,MERGED
+59213,worker: add name for worker,theanarkh,2025-07-25T16:05:28Z,2025-08-05T13:45:42+00:00,25,261.67,True,118,5,11,674,13,7,20,MERGED
+59204,test: use mustSucceed instead of mustCall,mete0rfish,2025-07-25T04:48:49Z,2025-07-27T04:54:23+00:00,2,48.09,True,1,1,1,271,4,0,4,MERGED
+59201,util: remove unnecessary template strings,btea,2025-07-25T01:34:36Z,2025-09-07T21:47:02+00:00,5,1076.21,True,1,1,1,109,10,0,10,MERGED
+59199,deps: upgrade npm to 11.5.1,npm-cli-bot,2025-07-24T18:45:55Z,2025-07-26T07:44:34+00:00,2,36.98,True,1761,542,238,1890,6,0,6,MERGED
+59196,deps: upgrade npm to 11.5.0,npm-cli-bot,2025-07-24T17:31:23Z,2025-07-24T18:45:57+00:00,1,1.24,False,1735,542,238,1687,4,0,4,CLOSED
+59195,[v24.x] lib: do not modify prototype deprecated asyncResource,RafaelGSS,2025-07-24T14:34:11Z,2025-08-11T23:33:09+00:00,1,440.98,False,2,2,1,266,6,0,6,CLOSED
+59190,doc: copyedit SECURITY.md,Trott,2025-07-24T04:32:02Z,2025-07-26T04:45:34+00:00,4,48.23,True,13,12,1,0,3,0,3,MERGED
+59187,benchmark: adjust configuration for string-decoder bench,RafaelGSS,2025-07-23T20:41:35Z,2025-07-25T20:49:57+00:00,2,48.14,True,7,3,1,3856,3,0,3,MERGED
+59186,benchmark: add calibrate-n script,RafaelGSS,2025-07-23T20:37:46Z,2025-07-29T18:49:56+00:00,3,142.2,True,333,0,2,1172,5,1,6,MERGED
+59181,url: replaced slice with at,Connormiha,2025-07-23T09:20:41Z,2025-09-14T00:39:32+00:00,14,1263.31,True,4,2,1,246,8,3,11,MERGED
+59180,doc: fix typo in README.md,ri7116,2025-07-23T08:16:09Z,2025-07-28T21:58:59+00:00,3,133.71,True,1,1,1,47,2,0,2,MERGED
+59179,[v22.x backport] Wasm ESM Integration PRs & Unflagging,guybedford,2025-07-22T21:41:59Z,2025-08-26T22:56:48+00:00,1,841.25,False,263,66,25,366,31,0,31,CLOSED
+59177,worker: add cpuUsage for worker,theanarkh,2025-07-22T18:43:48Z,2025-07-28T10:42:45+00:00,7,135.98,True,225,1,9,261,5,5,10,MERGED
+59176,typings: improve internal binding types,targos,2025-07-22T18:31:58Z,2025-08-02T05:43:00+00:00,2,251.18,True,72,1,9,132,5,0,5,MERGED
+59174,benchmark: add --track to benchmark,RafaelGSS,2025-07-22T17:16:49Z,2025-07-25T13:22:26+00:00,4,68.09,True,8,1,1,295,2,0,2,MERGED
+59172,benchmark: small lint fix on _cli.js,RafaelGSS,2025-07-22T17:03:42Z,2025-07-24T17:17:53+00:00,2,48.24,True,2,2,1,9,2,0,2,MERGED
+59171,benchmark: drop misc/punycode benchmark,RafaelGSS,2025-07-22T17:02:21Z,2025-07-24T17:06:06+00:00,3,48.06,True,0,79,1,117,2,0,2,MERGED
+59170,benchmark: fix sqlite-is-transaction,RafaelGSS,2025-07-22T17:00:17Z,2025-07-24T17:05:56+00:00,4,48.09,True,1,1,1,323,2,0,2,MERGED
+59165,test: remove timeout in test-https-proxy-request-handshake-failure,joyeecheung,2025-07-22T12:03:57Z,2025-07-25T14:54:56+00:00,4,74.85,True,0,1,1,178,6,0,6,MERGED
+59164,doc: fix broken sentence in `URL.parse`,SuperchupuDev,2025-07-22T11:40:14Z,2025-07-24T11:48:38+00:00,5,48.14,True,1,1,1,173,1,0,1,MERGED
+59162,tools: add support for URLs to PR commits in `merge.sh`,aduh95,2025-07-22T09:30:13Z,2025-07-24T09:44:33+00:00,4,48.24,True,25,4,1,194,2,1,3,MERGED
+59161,tools: add script to make reviewing backport PRs easier,aduh95,2025-07-22T09:27:24Z,2025-08-26T22:49:25+00:00,1,853.37,True,30,0,1,42,2,0,2,MERGED
+59160,tools: clarify README linter error message,joyeecheung,2025-07-22T09:05:28Z,2025-07-25T15:15:23+00:00,3,78.17,True,5,3,1,150,2,1,3,MERGED
+59159,doc: improve onboarding instructions,joyeecheung,2025-07-22T08:51:06Z,2025-07-24T08:59:03+00:00,12,48.13,True,31,7,1,165,5,3,8,MERGED
+59158,test: fix flaky test-worker-message-port-transfer-filehandle test,himself65,2025-07-22T08:13:10Z,2025-07-26T07:44:26+00:00,4,95.52,True,1,0,1,3386,17,0,17,MERGED
+59156,fs: correct error message when FileHandle is transferred,himself65,2025-07-22T04:19:59Z,2025-07-29T19:28:35+00:00,4,183.14,True,8,1,2,13,23,0,23,MERGED
+59153,test_runner: write timestamp as first line in watch mode,OkunadeNaheem,2025-07-21T20:27:52Z,2025-07-30T20:58:37+00:00,14,216.51,False,43,0,3,342,1,6,7,CLOSED
+59151,cli: add --use-env-proxy,joyeecheung,2025-07-21T17:21:55Z,2025-07-26T20:43:10+00:00,7,123.35,True,347,30,16,177,12,3,15,MERGED
+59148,src: use `FastStringKey` for `TrackV8FastApiCall`,addaleax,2025-07-21T16:21:14Z,2025-07-23T16:28:17+00:00,4,48.12,False,26,10,4,208,5,0,5,CLOSED
+59147,test: expand linting rules around `assert` w literal messages,addaleax,2025-07-21T16:12:04Z,2025-07-23T16:28:06+00:00,4,48.27,True,27,15,11,253,5,1,6,MERGED
+59144,test: mark web lock held test as flaky,IlyasShabi,2025-07-21T14:12:30Z,2025-07-27T14:09:20+00:00,4,143.95,True,8,0,1,12,17,1,18,MERGED
+59141,deps: update amaro to 1.1.1,nodejs-github-bot,2025-07-21T12:33:34Z,2025-07-23T12:59:19+00:00,3,48.43,True,94,16,5,60,8,0,8,MERGED
+59140,meta: move one or more collaborators to emeritus,nodejs-github-bot,2025-07-21T04:26:28Z,2025-07-23T16:27:58+00:00,10,60.02,True,2,2,1,127,5,0,5,MERGED
+59138,test_runner: enhance config_file support,pmarchini,2025-07-20T19:49:06Z,2025-08-16T06:43:49+00:00,9,634.91,True,495,14,15,400,14,4,18,MERGED
+59135,deps: update undici to 7.12.0,nodejs-github-bot,2025-07-20T00:44:10Z,2025-07-23T07:02:28+00:00,5,78.31,True,1085,954,34,48,5,0,5,MERGED
+59134,deps: update OpenSSL to 3.0.17,nodejs-github-bot,2025-07-20T00:43:31Z,2025-07-22T01:54:06+00:00,3,49.18,False,1275,1119,235,49,5,0,5,CLOSED
+59133,deps: update corepack to 0.34.0,nodejs-github-bot,2025-07-20T00:43:15Z,2025-07-22T01:10:31+00:00,3,48.45,True,23,7,4,50,4,0,4,MERGED
+59132,deps: update sqlite to 3.50.3,nodejs-github-bot,2025-07-20T00:43:13Z,2025-07-22T22:50:29+00:00,5,70.12,True,138,124,2,48,7,0,7,MERGED
+59131,deps: update googletest to 7e17b15,nodejs-github-bot,2025-07-20T00:43:12Z,2025-07-22T21:23:26+00:00,3,68.67,True,9,4,1,53,5,0,5,MERGED
+59129,test: update WPT for WebCryptoAPI to ab08796857,nodejs-github-bot,2025-07-20T00:23:11Z,2025-07-22T05:57:10+00:00,4,53.57,False,26,12,7,90,11,0,11,CLOSED
+59128,tools: add message on auto-fixing js lint issues in gh workflow,dario-piotrowicz,2025-07-20T00:03:45Z,2025-10-05T17:57:01+00:00,26,1865.89,True,25,1,1,175,3,7,10,MERGED
+59125,util: add `loadEnvFile` utility,dario-piotrowicz,2025-07-19T17:50:32Z,2025-09-21T21:07:42+00:00,1,1539.29,False,201,95,9,218,11,2,13,CLOSED
+59123,doc: fix typo in writing-test.md,SeokhunEom,2025-07-19T11:14:13Z,2025-07-21T11:17:31+00:00,6,48.05,True,1,1,1,52,2,0,2,MERGED
+59120,benchmark: new options setup and teardown,0hmX,2025-07-19T06:04:05Z,2025-07-30T18:34:30+00:00,8,276.51,False,33,6,3,393,3,2,5,CLOSED
+59119,tools: bump @eslint/plugin-kit from 0.3.1 to 0.3.3 in /tools/eslint,dependabot,2025-07-18T23:18:46Z,2025-07-22T16:28:11+00:00,2,89.16,True,16,4,1,2832,1,0,1,MERGED
+59117,src: clear all linked module caches once instantiated,legendecas,2025-07-18T22:58:32Z,2025-07-29T12:17:53+00:00,19,253.32,True,132,86,3,715,10,8,18,MERGED
+59116,benchmark: reduce N for diagnostics_channel subscribe benchmark,artimmy,2025-07-18T20:35:25Z,2025-07-20T20:45:00+00:00,3,48.16,True,3,4,1,0,2,0,2,MERGED
+59115,test_runner: emit 'test:restarted' event when tests are restarted,OkunadeNaheem,2025-07-18T19:06:21Z,2025-07-18T20:48:04+00:00,1,1.7,False,33,0,3,13,2,1,3,CLOSED
+59113,doc: update the instruction on how to verify releases,aduh95,2025-07-18T16:55:13Z,2025-07-27T21:48:25+00:00,16,220.89,True,19,23,1,555,5,4,9,MERGED
+59111,doc: avoid suggesting testing fast api with intense loop,legendecas,2025-07-18T12:42:37Z,2025-07-21T11:59:16+00:00,7,71.28,True,46,46,1,143,4,1,5,MERGED
+59110,"src,test: fix config file parsing for flags defaulted to true",geeksilva97,2025-07-18T04:33:30Z,2025-07-20T04:47:17+00:00,8,48.23,True,20,0,3,308,13,1,14,MERGED
+59104,test: make test-inspector-network-resource sequential,islandryu,2025-07-17T16:23:19Z,2025-07-28T13:29:24+00:00,3,261.1,True,0,2,2,514,8,1,9,MERGED
+59101,win: fix .node_repl_history file location,StefanStojanovic,2025-07-17T10:50:46Z,2025-08-12T10:56:18+00:00,3,624.09,False,13,1,1,244,3,1,4,CLOSED
+59099,[v22.x backport] doc: add missing section for setReturnArrays in sqlite.md,geeksilva97,2025-07-17T02:37:04Z,2025-08-21T11:35:35+00:00,4,848.98,True,11,0,1,98,7,2,9,MERGED
+59098,util: respect nested formats in styleText,himself65,2025-07-16T23:42:49Z,2025-07-23T19:33:52+00:00,25,163.85,True,129,5,2,13,27,13,40,MERGED
+59097,lib: prefer AsyncIteratorPrototype primordial,Renegade334,2025-07-16T22:29:57Z,2025-07-29T21:54:16+00:00,5,311.41,True,3,7,2,44,11,0,11,MERGED
+59096,meta: clarify pr objection process further,jasnell,2025-07-16T21:02:23Z,2025-08-06T14:30:53+00:00,88,497.48,True,23,5,1,561,13,24,37,MERGED
+59094,perf_hooks: do not expose SafeMap via Histogram wrapper,Renegade334,2025-07-16T19:04:04Z,2025-07-22T16:28:02+00:00,6,141.4,True,11,5,2,525,4,0,4,MERGED
+59093,src: remove declarations of removed BaseObject static fns,addaleax,2025-07-16T17:36:45Z,2025-07-22T17:23:58+00:00,6,143.79,True,0,5,1,99,11,0,11,MERGED
+59091,test: mark test-inspector-network-fetch as flaky on Windows,joyeecheung,2025-07-16T17:04:00Z,2025-07-17T23:46:25+00:00,3,30.71,True,2,0,1,340,8,0,8,MERGED
+59089,doc: stream.isReadable and stream.isWritable API fixups,joaoGabriel55,2025-07-16T13:40:36Z,2025-09-07T14:50:37+00:00,16,1273.17,True,8,1,1,13,6,5,11,MERGED
+59087,"node-api,doc: update links to ecma262 with section names",legendecas,2025-07-16T12:36:22Z,2025-07-18T12:45:52+00:00,4,48.16,True,73,76,1,186,2,0,2,MERGED
+59086,src: add cache to nearest parent package json,IlyasShabi,2025-07-16T11:23:24Z,2025-07-21T15:26:02+00:00,6,124.04,True,12,1,1,849,10,0,10,MERGED
+59085,node-api: clarify enum value ABI stability,legendecas,2025-07-16T10:25:17Z,2025-08-18T08:58:46+00:00,20,790.56,True,31,5,1,546,5,12,17,MERGED
+59082,src: add percentage support to --max-old-space-size,Asaf-Federman,2025-07-16T07:45:02Z,2025-07-28T05:06:17+00:00,13,285.35,True,223,0,7,574,19,4,23,MERGED
+59080,doc: fix missing link to the Error documentation in the `http` page,estliberitas,2025-07-15T23:40:46Z,2025-08-27T10:40:49+00:00,3,1019.0,True,1,1,1,109,2,1,3,MERGED
+59079,build: remove suppressions.supp,RafaelGSS,2025-07-15T22:38:26Z,2025-07-17T22:50:50+00:00,3,48.21,True,0,6,1,118,1,0,1,MERGED
+59078,doc: add RafaelGSS as steward July 25,RafaelGSS,2025-07-15T22:35:29Z,2025-07-16T09:16:53+00:00,4,10.69,True,1,0,1,9,3,0,3,MERGED
+59074,"sqlite,doc: add setReturnArrays missing docs",geeksilva97,2025-07-15T04:39:53Z,2025-07-17T15:57:08+00:00,10,59.29,True,13,0,1,160,8,2,10,MERGED
+59072,cli: support `${pid}` placeholder in --cpu-prof-name,haramj,2025-07-14T15:04:13Z,2025-07-24T10:28:19+00:00,8,235.4,True,66,4,3,477,14,5,19,MERGED
+59071,node-api: added SharedArrayBuffer api,mertcanaltin,2025-07-14T14:47:30Z,2025-09-16T09:57:07+00:00,21,1531.16,True,334,13,6,104,15,18,33,MERGED
+59067,crypto: avoid copying buffers to UTF-8 strings in `crypto.hash()`,Renegade334,2025-07-14T08:30:09Z,2025-07-18T11:03:37+00:00,5,98.56,False,11,14,1,235,14,0,14,CLOSED
+59066,doc: guide for runtime-specific conditional exports using --import,Momena-akhtar,2025-07-14T07:49:35Z,2025-07-15T09:56:23+00:00,1,26.11,False,39,0,1,335,3,0,3,CLOSED
+59065,[v22.x backport] src: backport fast API changes,Renegade334,2025-07-14T07:15:08Z,2025-07-28T06:59:22+00:00,1,335.74,True,66,235,20,238,9,0,9,MERGED
+59060,http: deprecate writeHeader,bjohansebas,2025-07-14T01:02:02Z,2025-07-29T23:12:48+00:00,10,382.18,True,28,3,3,125,11,0,11,MERGED
+59059,src: call unmask after install signal handler,theanarkh,2025-07-14T00:38:52Z,2025-07-25T18:15:23+00:00,3,281.61,True,9,5,2,247,25,0,25,MERGED
+59056,doc: run license-builder,github-actions,2025-07-14T00:09:35Z,2025-07-16T00:40:47+00:00,9,48.52,True,1,1,1,188,2,0,2,MERGED
+59055,src: fix broken fast callback signatures,Renegade334,2025-07-13T23:32:29Z,2025-08-23T17:51:55+00:00,1,978.32,False,170,106,13,576,7,1,8,CLOSED
+59052,doc: add new environment variables doc page,dario-piotrowicz,2025-07-13T16:50:24Z,2025-07-20T20:53:54+00:00,4,172.06,True,163,6,4,4703,5,0,5,MERGED
+59050,doc: clarify ERR_FS_FILE_TOO_LARGE explanation to reflect fs.readFile() I/O limit,haramj,2025-07-13T15:32:41Z,2025-07-16T06:44:22+00:00,5,63.19,True,4,2,1,330,5,1,6,MERGED
+59049,src: remove duplicate assignment of `O_EXCL` in node_constants.cc,Tango992,2025-07-13T11:32:48Z,2025-08-13T11:10:22+00:00,4,743.63,True,0,4,1,797,6,0,6,MERGED
+59048,build: bump minimum Clang version to 19,targos,2025-07-13T10:54:51Z,2025-08-02T14:10:08+00:00,11,483.25,True,56,12,7,52,15,1,16,MERGED
+59047,test_runner: propagate --experimental-config-file to child processes,sjwhole,2025-07-13T10:45:10Z,2025-08-16T12:42:25+00:00,5,817.95,False,5,5,4,1356,8,1,9,CLOSED
+59044,repl: handle errors from getters during completion,islandryu,2025-07-13T07:07:49Z,2025-07-19T12:32:20+00:00,4,149.41,True,63,3,2,0,12,0,12,MERGED
+59043,buffer: cache Environment::GetCurrent to avoid repeated calls,mertcanaltin,2025-07-13T00:55:29Z,2025-07-26T16:35:47+00:00,6,327.67,True,3,2,1,53,6,0,6,MERGED
+59042,test: update `startCLI` to set `--port=0` by default,dario-piotrowicz,2025-07-12T23:57:38Z,2025-07-20T17:37:28+00:00,3,185.66,True,43,41,35,776,8,1,9,MERGED
+59041,docs: zlib: rm unused process from example,coderaiser,2025-07-12T11:02:59Z,2025-07-14T22:35:54+00:00,2,59.55,True,0,1,1,43,3,0,3,MERGED
+59040,lib: add trace-sigint APIs,theanarkh,2025-07-12T08:44:40Z,2025-08-11T09:14:45+00:00,11,720.5,True,141,4,9,299,8,4,12,MERGED
+59037,tools: ignore CVE mention when linting release proposals,aduh95,2025-07-11T19:36:42Z,2025-07-13T19:45:02+00:00,2,48.14,True,2,1,2,133,2,0,2,MERGED
+59036,"node-api: reword ""implementation in an alternative VM"" as implementable",legendecas,2025-07-11T16:37:30Z,2025-08-01T16:58:49+00:00,6,504.36,True,2,2,1,256,2,1,3,MERGED
+59032,repl: fix repl crashing on variable declarations without init,dario-piotrowicz,2025-07-11T09:38:57Z,2025-07-11T16:43:10+00:00,3,7.07,True,10,0,2,13,7,0,7,MERGED
+59026,doc: add note on process memoryUsage,fengmk2,2025-07-11T02:08:12Z,2025-07-28T21:25:08+00:00,4,427.28,False,8,0,1,0,3,1,4,CLOSED
+59024,esm: WebAssembly.namespaceInstance,guybedford,2025-07-11T01:24:13Z,2025-07-11T22:21:00+00:00,5,20.95,False,55,5,5,665,8,2,10,CLOSED
+59020,esm: add JS string builtins support to Wasm ESM Integration,guybedford,2025-07-10T13:59:15Z,2025-07-18T23:32:13+00:00,8,201.55,True,241,1,15,829,9,1,10,MERGED
+59019,doc: fix typed list formatting,avivkeller,2025-07-10T13:16:03Z,2025-07-15T17:18:43+00:00,12,124.04,True,666,669,39,80,4,1,5,MERGED
+59017,build: fix `node_use_sqlite` for GN builds,codebytere,2025-07-10T08:12:44Z,2025-08-09T00:22:25+00:00,4,712.16,True,12,1,2,131,6,0,6,MERGED
+59014,test: skip tests that cause timeouts on IBM i,abmusse,2025-07-10T01:14:31Z,2025-07-21T14:38:21+00:00,4,277.4,True,10,7,4,956,12,0,12,MERGED
+59013,test: remove unnecessary crypto skip,Ethan-Arrowood,2025-07-09T22:29:47Z,2025-09-02T15:55:42+00:00,2,1313.43,False,0,5,1,33,9,0,9,CLOSED
+59011,module: fix conditions override in synchronous resolve hooks,joyeecheung,2025-07-09T15:16:23Z,2025-07-26T09:13:12+00:00,4,401.95,True,269,33,10,190,14,0,14,MERGED
+59008,crypto: runtime-deprecate default shake128/256 output lengths,panva,2025-07-09T14:17:06Z,2025-07-11T14:21:46+00:00,4,48.08,True,17,11,6,197,7,0,7,MERGED
+59005,module: add registerCondition API for runtime-specific conditional exports,Momena-akhtar,2025-07-09T10:57:03Z,2025-07-14T07:50:33+00:00,1,116.89,False,0,3046,2,1926,15,0,15,CLOSED
+59000,vm: sync-ify SourceTextModule linkage,legendecas,2025-07-08T23:44:50Z,2025-08-29T12:17:18+00:00,22,1236.54,True,602,101,16,507,12,24,36,MERGED
+58999,doc: update V8 fast API guidance,Renegade334,2025-07-08T22:55:48Z,2025-09-21T23:52:25+00:00,12,1800.94,True,428,110,1,495,3,8,11,MERGED
+58997,doc: add stability index to the `--watch-kill-signal` flag,dario-piotrowicz,2025-07-08T18:48:06Z,2025-07-10T18:57:31+00:00,3,48.16,True,2,0,1,29,11,0,11,MERGED
+58996,fix return value of fs APIs,theanarkh,2025-07-08T18:28:20Z,2025-07-20T06:51:26+00:00,3,276.38,True,24,17,3,322,7,0,7,MERGED
+58995,doc: add missing `<code>` blocks,aduh95,2025-07-08T17:59:31Z,2025-07-10T18:02:07+00:00,3,48.04,True,5,5,2,0,2,0,2,MERGED
+58993,"2025-07-09, Version 24.4.0 (Current)",github-actions,2025-07-08T14:48:22Z,2025-07-09T12:34:24+00:00,3,21.77,True,7697,3678,305,8235,8,0,8,MERGED
+58992,"tools,test: enforce best practices to detect never settling promises",aduh95,2025-07-08T14:28:53Z,2025-07-16T08:57:22+00:00,1,186.47,True,17,13,13,0,3,0,3,MERGED
+58986,src: check import attributes value types as strings,legendecas,2025-07-07T22:49:54Z,2025-07-09T22:57:38+00:00,5,48.13,True,15,2,1,117,6,0,6,MERGED
+58983,doc: add sponsorship link to RafaelGSS,RafaelGSS,2025-07-07T14:48:52Z,2025-07-09T14:52:38+00:00,6,48.06,True,1,1,1,9,1,0,1,MERGED
+58982,doc: add scroll margin to links,silverwind,2025-07-07T13:49:35Z,2025-07-10T14:22:52+00:00,12,72.55,True,8,0,1,285,5,1,6,MERGED
+58980,"http,https: add built-in proxy support in http/https.request and Agent",joyeecheung,2025-07-07T10:42:28Z,2025-07-18T07:30:23+00:00,15,260.8,True,3770,172,60,5154,11,5,16,MERGED
+58978,lib: fix incorrect `ArrayBufferPrototypeGetDetached` primordial type,dario-piotrowicz,2025-07-06T23:36:19Z,2025-07-09T11:05:39+00:00,5,59.49,True,1,1,1,66,5,0,5,MERGED
+58977,test: add missing port=0 arg in test-debugger-extract-function-name,dario-piotrowicz,2025-07-06T20:01:20Z,2025-07-08T23:18:27+00:00,2,51.29,True,1,1,1,906,5,0,5,MERGED
+58976,lib: add type names in source mapped stack traces,legendecas,2025-07-06T17:27:14Z,2025-08-01T17:11:58+00:00,2,623.75,True,48,9,7,83,6,0,6,MERGED
+58973,dns: fix parse memory leaky,theanarkh,2025-07-06T09:37:35Z,2025-07-08T09:42:22+00:00,6,48.08,True,2,2,1,206,10,1,11,MERGED
+58972,doc: remove broken link to permission model source code,juanarbol,2025-07-06T05:12:36Z,2025-07-08T05:22:36+00:00,4,48.17,True,0,2,1,450,2,0,2,MERGED
+58967,deps: update zlib to 1.3.1-3102d2a,nodejs-github-bot,2025-07-06T00:41:11Z,2025-07-13T00:42:18+00:00,2,168.02,False,60,5,8,53,4,0,4,CLOSED
+58966,deps: update ada to 3.2.6,nodejs-github-bot,2025-07-06T00:41:11Z,2025-07-22T16:44:50+00:00,6,400.06,True,328,65,2,44,6,0,6,MERGED
+58963,doc: add missing environment variables to manpage,HumaneLogic,2025-07-05T14:16:20Z,2025-07-11T07:38:25+00:00,4,137.37,True,33,11,2,197,7,4,11,MERGED
+58961,[v20.x backport] crypto: fix SHAKE128/256 breaking change introduced with OpenSSL 3.4,panva,2025-07-05T12:09:53Z,2025-08-14T10:43:34+00:00,2,958.56,False,116,24,9,25,5,0,5,CLOSED
+58960,[v22.x backport] crypto: fix SHAKE128/256 breaking change introduced with OpenSSL 3.4,panva,2025-07-05T11:48:33Z,2025-07-21T14:24:53+00:00,1,386.61,True,94,23,7,25,5,0,5,MERGED
+58958,"doc: ""if and only if"" should be ""if"" in util.parseArgs default value",Slayer95,2025-07-04T21:11:10Z,2025-07-15T09:00:33+00:00,13,251.82,True,6,4,1,58,1,2,3,MERGED
+58957,module: throw error when re-runing errored module jobs,joyeecheung,2025-07-04T18:25:05Z,2025-07-09T16:39:29+00:00,8,118.24,True,45,2,4,260,6,3,9,MERGED
+58953,inspector: support undici traffic data inspection,legendecas,2025-07-04T10:53:15Z,2025-07-07T21:25:34+00:00,2,82.54,True,197,117,3,68,6,0,6,MERGED
+58952,test: deflake test-runner-watch-mode-kill-signal,dario-piotrowicz,2025-07-03T21:23:56Z,2025-07-07T20:52:54+00:00,4,95.48,True,63,54,1,334,6,0,6,MERGED
+58951,"src,permission: add support to permission.has(addon)",RafaelGSS,2025-07-03T19:53:54Z,2025-07-07T15:21:07+00:00,2,91.45,True,74,2,9,68,5,0,5,MERGED
+58950,test: move http proxy tests to test/client-proxy,joyeecheung,2025-07-03T18:16:05Z,2025-07-18T07:36:09+00:00,2,349.33,False,255,136,7,281,5,1,6,CLOSED
+58948,test: deflake stream-readable-to-web test,Ethan-Arrowood,2025-07-03T16:29:25Z,2025-08-02T04:25:36+00:00,11,707.94,True,64,62,2,13,21,3,24,MERGED
+58944,meta: add marco-ippolito to security release stewards,marco-ippolito,2025-07-03T14:27:00Z,2025-07-09T10:16:59+00:00,9,139.83,True,3,0,1,69,5,0,5,MERGED
+58943,repl: catch promise errors during eval in completion,islandryu,2025-07-03T14:20:11Z,2025-09-11T11:51:31+00:00,27,1677.52,False,235,8,5,352,9,8,17,CLOSED
+58942,crypto: fix SHAKE128/256 breaking change introduced with OpenSSL 3.4,panva,2025-07-03T09:30:19Z,2025-07-05T09:34:24+00:00,17,48.07,True,91,22,7,1008,10,7,17,MERGED
+58941,test: add known issue test for fs.cpSync dereference bug,jasnell,2025-07-03T03:29:18Z,2025-08-02T14:23:16+00:00,3,730.9,True,39,0,1,12,5,0,5,MERGED
+58940,os: fix GetInterfaceAddresses memory leaky,theanarkh,2025-07-03T01:00:23Z,2025-07-05T17:33:24+00:00,2,64.55,True,3,1,1,169,5,0,5,MERGED
+58938,bootstrap: initialize http proxy after user module loader setup,joyeecheung,2025-07-03T00:43:24Z,2025-07-05T01:10:38+00:00,6,48.45,True,4,1,1,237,8,0,8,MERGED
+58935,worker: add worker name to report,theanarkh,2025-07-02T17:44:04Z,2025-08-12T10:25:12+00:00,7,976.69,True,9,6,3,198,16,0,16,MERGED
+58934,"doc: move ""Core Promise APIs"" to ""Completed initiatives""",aduh95,2025-07-02T16:46:03Z,2025-07-04T22:35:37+00:00,8,53.83,True,14,15,1,134,7,0,7,MERGED
+58933,doc: fix `fetch` subsections in `globals.md`,aduh95,2025-07-02T16:29:43Z,2025-07-04T16:44:16+00:00,5,48.24,True,2,2,1,73,1,0,1,MERGED
+58932,doc: mark stability markers consistent in `globals.md`,aduh95,2025-07-02T16:25:04Z,2025-07-06T09:49:46+00:00,2,89.41,True,2,160,1,66,1,1,2,MERGED
+58931,doc: add missing `Class:` mentions,aduh95,2025-07-02T16:18:45Z,2025-07-04T16:29:40+00:00,7,48.18,True,30,30,2,131,2,0,2,MERGED
+58930,"tools,doc: move more MDN links to types",aduh95,2025-07-02T16:11:49Z,2025-07-04T16:14:26+00:00,5,48.04,True,24,29,5,171,3,0,3,MERGED
+58928,lib: flag to conditionally modify proto on deprecate,RafaelGSS,2025-07-02T14:55:12Z,2025-07-08T18:54:46+00:00,2,147.99,True,53,13,2,406,8,0,8,MERGED
+58927,doc: remove mhdawson from security steward rotation,mhdawson,2025-07-02T13:55:57Z,2025-07-04T14:04:13+00:00,10,48.14,True,0,1,1,0,3,0,3,MERGED
+58925,doc: clarify details of TSC public and private meetings,jasnell,2025-07-02T02:12:32Z,2025-07-07T21:25:26+00:00,23,139.22,True,53,11,1,308,3,10,13,MERGED
+58924,doc: add missing environment variables to manpage and remove test wor…,HumaneLogic,2025-07-01T23:52:19Z,2025-07-05T21:15:56+00:00,2,93.39,False,29,11,2,13,6,7,13,CLOSED
+58923,meta: bump step-security/harden-runner from 2.12.0 to 2.12.2,dependabot,2025-07-01T18:35:21Z,2025-07-04T12:33:37+00:00,2,65.97,True,1,1,1,2851,2,0,2,MERGED
+58922,meta: bump github/codeql-action from 3.28.18 to 3.29.2,dependabot,2025-07-01T18:35:19Z,2025-07-04T12:33:29+00:00,2,65.97,True,4,4,2,6043,2,0,2,MERGED
+58921,tools: bump the eslint group in /tools/eslint with 6 updates,dependabot,2025-07-01T18:18:33Z,2025-07-03T18:27:55+00:00,3,48.16,True,108,533,3,21068,1,0,1,MERGED
+58920,lib: expose global ErrorEvent,Richienb,2025-07-01T15:34:08Z,2025-08-18T08:14:54+00:00,12,1144.68,True,16,1,6,12,18,3,21,MERGED
+58917,doc: add constraints for mem leak to threat model,RafaelGSS,2025-07-01T13:27:47Z,2025-07-24T03:53:28+00:00,12,542.43,True,15,0,1,258,4,3,7,MERGED
+58916,meta: add IlyasShabi to collaborators,IlyasShabi,2025-07-01T13:24:07Z,2025-07-01T17:15:50+00:00,3,3.86,True,2,0,1,13,4,0,4,MERGED
+58915,src: cleanup uv_fs_req before uv_fs_stat on existSync,RafaelGSS,2025-07-01T13:12:05Z,2025-07-03T16:39:12+00:00,4,51.45,False,48,0,2,227,6,0,6,CLOSED
+58914,[v22.x] test: skip broken sea on rhel8,marco-ippolito,2025-07-01T12:12:47Z,2025-07-03T10:10:33+00:00,1,45.96,False,12,0,1,127,4,0,4,CLOSED
+58911,docs: add @ovflowd back to core collaborators,ovflowd,2025-07-01T01:18:52Z,2025-07-03T06:48:59+00:00,12,53.5,True,2,2,1,141,3,0,3,MERGED
+58910,doc: update email address for Richard Lau,richardlau,2025-07-01T01:07:41Z,2025-07-03T01:50:01+00:00,4,48.71,True,5,4,2,91,3,0,3,MERGED
+58902,"[22.x] win,build: Fix MSVS v17.14 compilation issue on v22",StefanStojanovic,2025-06-30T11:27:33Z,2025-07-03T17:28:54+00:00,5,78.02,False,2,2,2,176,13,0,13,CLOSED
+58901,src: fix a series of `-Wno-unreachable-code` errors,codebytere,2025-06-30T09:59:29Z,2025-07-04T14:41:37+00:00,4,100.7,False,6,8,4,108,7,0,7,CLOSED
+58900,tools: update `inspector_protocol` to `69d69dd`,codebytere,2025-06-30T09:02:26Z,2025-07-02T19:57:10+00:00,2,58.91,True,159,307,20,183,5,0,5,MERGED
+58898,"src,permission: enhance permission model debug",RafaelGSS,2025-06-30T03:33:38Z,2025-07-02T17:37:14+00:00,4,62.06,True,41,31,1,293,6,1,7,MERGED
+58897,fs: port SonicBoom module to fs module as FastUtf8Stream,jasnell,2025-06-30T02:49:17Z,2025-07-29T03:27:30+00:00,13,696.64,False,2888,0,18,469,28,4,32,CLOSED
+58896,src: simplify adding fast APIs to ExternalReferenceRegistry,Renegade334,2025-06-29T22:24:12Z,2025-07-04T13:32:13+00:00,6,111.13,True,52,188,13,531,5,1,6,MERGED
+58893,test: add known issue tests for recursive readdir calls with Buffer path,dario-piotrowicz,2025-06-29T21:44:59Z,2025-07-01T21:48:33+00:00,3,48.06,True,45,0,3,0,3,0,3,MERGED
+58891,repl: improve REPL disabling completion on proxies and getters,dario-piotrowicz,2025-06-29T20:21:22Z,2025-07-09T20:52:26+00:00,1,240.52,True,223,28,2,369,7,0,7,MERGED
+58886,module: link module with a module request record,legendecas,2025-06-29T15:58:34Z,2025-07-04T19:56:09+00:00,27,123.96,True,216,56,10,957,15,11,26,MERGED
+58885,doc: update vm doc links,legendecas,2025-06-29T14:15:21Z,2025-07-01T14:23:56+00:00,5,48.14,True,6,6,1,102,1,0,1,MERGED
+58883,test: add known issue tests for fs.cp,jasnell,2025-06-29T04:20:02Z,2025-07-01T04:35:07+00:00,8,48.25,True,111,0,3,36,5,3,8,MERGED
+58882,deps: update sqlite to 3.50.2,nodejs-github-bot,2025-06-29T00:41:46Z,2025-07-01T00:44:38+00:00,3,48.05,True,171,120,2,48,6,0,6,MERGED
+58880,test: update WPT for url to 814f9a33b0,nodejs-github-bot,2025-06-29T00:22:26Z,2025-09-07T08:41:08+00:00,2,1688.31,False,40,3,4,81,4,0,4,CLOSED
+58878,test: add tests to ensure that node.1 is kept in sync with cli.md,dario-piotrowicz,2025-06-28T20:59:54Z,2025-06-30T21:03:29+00:00,10,48.06,True,273,0,2,251,11,5,16,MERGED
+58877,doc: update release key for aduh95,aduh95,2025-06-28T19:54:41Z,2025-07-18T15:24:42+00:00,7,475.5,True,4,2,1,60,15,0,15,MERGED
+58876,doc: fix links in test.md,vassudanagunta,2025-06-28T19:46:54Z,2025-06-30T19:50:14+00:00,7,48.06,True,4,3,1,100,4,1,5,MERGED
+58872,test: replace `.filter()[0]` with `.find()`,LiviaMedeiros,2025-06-28T14:40:28Z,2025-06-29T18:58:30+00:00,2,28.3,True,3,3,3,17,4,0,4,MERGED
+58867,build: disable `v8_enable_pointer_compression_shared_cage` on non-64bit,codebytere,2025-06-27T17:43:45Z,2025-06-30T08:39:44+00:00,6,62.93,True,1,0,1,167,4,0,4,MERGED
+58866,test: remove reliance on in-tree `deps/undici`,richardlau,2025-06-27T16:24:07Z,2025-06-29T16:33:15+00:00,4,48.15,True,3,3,1,286,4,0,4,MERGED
+58862,doc: add missing comma in `child_process.md`,ronijames008,2025-06-27T15:19:29Z,2025-06-29T15:27:46+00:00,3,48.14,True,1,1,1,388,2,0,2,MERGED
+58861,tools: Compile maglev files into v8_compiler if maglev is disabled,ziyao233,2025-06-27T10:50:59Z,2025-07-07T13:53:25+00:00,3,243.04,False,5,5,1,363,8,0,8,CLOSED
+58859,deps: update undici to 7.11.0,nodejs-github-bot,2025-06-27T09:30:52Z,2025-06-29T16:42:18+00:00,2,55.19,True,1417,894,66,48,8,0,8,MERGED
+58856,fs: close dir before throwing if `options.bufferSize` is invalid,LiviaMedeiros,2025-06-26T21:33:46Z,2025-07-06T05:32:45+00:00,3,223.98,True,15,1,2,37,3,0,3,MERGED
+58855,test: close dirs in `fs-opendir` test,LiviaMedeiros,2025-06-26T21:11:38Z,2025-06-28T21:31:57+00:00,3,48.34,True,2,0,1,69,5,1,6,MERGED
+58853,permission: propagate permission model flags on spawn,RafaelGSS,2025-06-26T21:04:01Z,2025-07-02T02:32:21+00:00,11,125.47,True,171,18,7,274,12,4,16,MERGED
+58848,fs: throw `ERR_INVALID_THIS` on illegal invocations,LiviaMedeiros,2025-06-26T16:49:32Z,2025-06-28T16:58:54+00:00,2,48.16,True,22,0,4,239,3,0,3,MERGED
+58847,[v22.x] deps: upgrade npm to 10.9.3,npm-cli-bot,2025-06-26T15:55:18Z,2025-07-27T22:12:33+00:00,1,750.29,True,10251,9659,634,1697,14,0,14,MERGED
+58846,v8: fix missing callback in heap utils destroy,BridgeAR,2025-06-26T14:52:12Z,2025-06-30T11:51:41+00:00,5,92.99,True,13,1,2,194,3,0,3,MERGED
+58845,crypto: fix inclusion of `OPENSSL_IS_BORINGSSL` define,codebytere,2025-06-26T12:59:57Z,2025-07-01T12:57:57+00:00,7,119.97,True,4,0,1,138,9,1,10,MERGED
+58844,src: -Wmismatched-new-delete in debug_utils.cc,codebytere,2025-06-26T12:45:17Z,2025-06-28T18:52:03+00:00,4,54.11,True,1,1,1,496,5,0,5,MERGED
+58841,inspector: prevent propagation of promise hooks to noPromise hooks,islandryu,2025-06-26T10:21:29Z,2025-08-12T09:14:19+00:00,1,1126.88,True,49,10,2,5047,3,0,3,MERGED
+58840,"test_runner: correct ""already mocked"" error punctuation placement",JakobJingleheimer,2025-06-26T10:01:34Z,2025-06-26T20:01:15+00:00,5,9.99,True,1,1,1,103,8,0,8,MERGED
+58839,build: option to use custom `inspector_protocol` path,codebytere,2025-06-26T09:11:36Z,2025-06-28T09:23:18+00:00,3,48.2,True,6,2,3,267,5,0,5,MERGED
+58837,doc: improve transparency and inclusivity of TSC meetings,joyeecheung,2025-06-25T21:29:26Z,2025-07-08T22:20:54+00:00,44,312.86,False,16,0,1,401,4,15,19,CLOSED
+58836,"fs: special input `-1` on `chown`, `lchown` and `fchown`",himself65,2025-06-25T17:35:29Z,2025-06-29T21:47:02+00:00,4,100.19,True,126,9,5,179,10,3,13,MERGED
+58835,"`http.OutgoingMessage` extends from `stream.Writable`, not `Stream`",yg-i,2025-06-25T17:10:37Z,2025-06-26T03:27:26+00:00,2,10.28,False,1,1,1,181,1,0,1,CLOSED
+58833,test_runner: correctly filter --experimental-config-file,pmarchini,2025-06-25T16:14:31Z,2025-06-29T20:48:29+00:00,4,100.57,True,66,1,4,12,16,0,16,MERGED
+58831,test_runner: fix timeout not propagated to the child process in run,jakecastelli,2025-06-25T11:39:16Z,2025-06-27T11:50:18+00:00,2,48.18,True,8,2,2,247,7,0,7,MERGED
+58829,vm: expose import phase on SourceTextModule.moduleRequests,legendecas,2025-06-25T10:47:56Z,2025-06-28T18:51:49+00:00,4,80.06,True,260,38,6,186,11,2,13,MERGED
+58825,doc: add missing colon to headers in `globals.md`,avivkeller,2025-06-25T00:26:36Z,2025-06-27T00:40:36+00:00,7,48.23,True,2,2,1,64,1,0,1,MERGED
+58824,test_runner: improve mock timer promisifiers,Renegade334,2025-06-24T23:03:57Z,2025-07-10T20:15:31+00:00,4,381.19,True,79,77,2,462,6,0,6,MERGED
+58822,crypto: add tls.setDefaultCACertificates(),joyeecheung,2025-06-24T21:39:23Z,2025-07-18T19:57:54+00:00,13,574.31,True,1128,14,21,2387,15,1,16,MERGED
+58818,[v24.x] deps: V8: backport 1c3e018e7d48,Renegade334,2025-06-24T19:13:18Z,2025-08-08T09:56:20+00:00,4,1070.72,False,8,2,4,604,20,0,20,CLOSED
+58813,"2025-06-24, Version 24.3.0 (Current)",github-actions,2025-06-24T14:19:56Z,2025-06-24T22:39:52+00:00,2,8.33,True,14222,4264,657,7593,11,0,11,MERGED
+58811,doc: fix `stream.md` section order,aduh95,2025-06-24T07:22:31Z,2025-06-26T12:10:40+00:00,4,52.8,True,38,38,1,121,2,0,2,MERGED
+58800,test_runner: automatically wait for subtests to finish,LiviaMedeiros,2025-06-23T10:07:36Z,2025-06-24T14:03:04+00:00,3,27.92,False,56,84,11,997,5,0,5,CLOSED
+58799,test: deflake test-config-file,lpinca,2025-06-23T09:24:46Z,2025-06-25T09:38:24+00:00,7,48.23,False,17,13,2,221,8,0,8,CLOSED
+58797,src: add an option to make compile cache path relative,Aditi-1400,2025-06-23T00:06:25Z,2025-09-12T11:00:39+00:00,40,1954.9,True,448,15,15,402,13,36,49,MERGED
+58796,meta: add ability to block issues,anonrig,2025-06-22T22:42:26Z,2025-06-26T02:00:24+00:00,5,75.3,False,9,0,2,96,6,2,8,CLOSED
+58791,repl: fix eval errors thrown after close throwing `ERR_USE_AFTER_CLOSE`,dario-piotrowicz,2025-06-22T12:41:05Z,2025-06-28T18:51:41+00:00,2,150.18,True,51,2,2,162,7,0,7,MERGED
+58790,meta: add @nodejs/inspector as codeowner,legendecas,2025-06-22T09:56:27Z,2025-06-24T10:05:43+00:00,8,48.15,True,7,0,1,0,2,0,2,MERGED
+58788,tools: update gyp-next to 0.20.2,nodejs-github-bot,2025-06-22T00:40:47Z,2025-06-26T01:51:02+00:00,2,97.17,True,112,101,23,50,7,0,7,MERGED
+58786,deps: update nghttp2 to 1.66.0,nodejs-github-bot,2025-06-22T00:40:45Z,2025-06-24T01:04:26+00:00,4,48.39,True,42,11,7,49,3,0,3,MERGED
+58785,test: update WPT for urlpattern to 84b75f0880,nodejs-github-bot,2025-06-22T00:21:45Z,2025-06-26T01:50:54+00:00,3,97.49,True,16,2,3,88,4,0,4,MERGED
+58783,doc: fix stability 1.x links excluding the decimal digit,dario-piotrowicz,2025-06-21T22:22:57Z,2025-06-23T22:30:45+00:00,14,48.13,True,3,2,1,396,5,2,7,MERGED
+58782,src: extend `--env-file` to also accept sections,dario-piotrowicz,2025-06-21T21:49:08Z,2025-07-20T20:56:41+00:00,7,695.13,False,458,42,14,13,8,14,22,CLOSED
+58779,doc: reserve NMV 139 for Electron 38,clavin,2025-06-21T18:45:16Z,2025-06-23T18:49:42+00:00,3,48.07,True,1,0,1,43,1,0,1,MERGED
+58777,build: fix typo 'Stoage' to 'Storage' in help text,ganglike248,2025-06-21T15:13:18Z,2025-06-23T15:23:48+00:00,5,48.17,True,1,1,1,2004,5,0,5,MERGED
+58776,"doc: add comma after ""blocks"" for clarity in child_process.md",ronijames008,2025-06-21T14:40:33Z,2025-06-27T14:17:12+00:00,2,143.61,False,13366477,0,41697,388,1,0,1,CLOSED
+58775,repl: improve tab completion on computed properties,dario-piotrowicz,2025-06-21T12:14:45Z,2025-06-26T01:50:46+00:00,3,109.6,True,130,18,2,185,4,1,5,MERGED
+58774,lib:enable support for utf-16 encoding in blob,ankittripathi1,2025-06-20T13:38:04Z,2025-06-20T18:39:11+00:00,3,5.02,False,6,1,1,62,5,1,6,CLOSED
+58773,deps: V8: cherry-pick 0ce2edb7adfd,kxxt,2025-06-20T10:25:56Z,2025-07-04T12:56:56+00:00,3,338.52,True,3,9,2,684,18,0,18,MERGED
+58771,test: deflake test-buffer-large-size-buffer-alloc-unsafe,lpinca,2025-06-20T09:40:42Z,2025-06-22T09:43:36+00:00,6,48.05,True,15,5,1,106,4,0,4,MERGED
+58770,[v22.x] tools: disable failing coverage jobs,aduh95,2025-06-20T07:16:10Z,2025-06-23T10:17:33+00:00,2,75.02,True,4,2,2,208,3,0,3,MERGED
+58767,test: correct SIMD support comment,richardlau,2025-06-19T17:13:41Z,2025-06-21T17:19:45+00:00,5,48.1,True,1,1,1,704,7,0,7,MERGED
+58765,lib: make `validateInternalField()` throw `ERR_INVALID_THIS`,LiviaMedeiros,2025-06-19T12:47:26Z,2025-06-24T03:40:24+00:00,3,110.88,False,83,88,12,231,8,0,8,CLOSED
+58762,test_runner: fix Date serialization in TAP reporter YAML output,Ronitsabhaya75,2025-06-19T07:36:34Z,2025-06-25T01:41:07+00:00,2,138.08,False,161,0,5,2154,8,1,9,CLOSED
+58761,[v20.x] test: skip broken sea on rhel8,marco-ippolito,2025-06-19T07:36:28Z,2025-06-20T05:19:46+00:00,9,21.72,False,12,0,1,43,4,1,5,CLOSED
+58760,assert: remove dead code,kt3k,2025-06-19T04:29:59Z,2025-06-29T21:39:05+00:00,9,257.15,True,16,25,1,151,6,2,8,MERGED
+58758,src: pass resource on permission checks for spawn,RafaelGSS,2025-06-18T19:52:51Z,2025-06-21T14:40:11+00:00,8,66.79,True,40,18,5,162,6,2,8,MERGED
+58754,deps: update amaro to 1.1.0,nodejs-github-bot,2025-06-18T13:57:59Z,2025-06-20T14:07:56+00:00,3,48.17,True,106,7,11,46,3,0,3,MERGED
+58753,doc: fix wrong RFC number in http2,deokjinkim,2025-06-18T13:52:04Z,2025-06-20T13:57:24+00:00,9,48.09,True,2,2,1,69,3,0,3,MERGED
+58752,tools: make nodedownload module compatible with Python 3.14,frenzymadness,2025-06-18T08:00:15Z,2025-06-22T05:49:15+00:00,3,93.82,True,5,10,1,123,2,0,2,MERGED
+58750,[v24.x] deps: V8: cherry-pick 3d750c2aa9ef,targos,2025-06-18T06:52:01Z,2025-07-23T07:11:06+00:00,3,840.32,False,53,20,4,507,28,1,29,CLOSED
+58749,deps: V8: cherry-pick 1d7159580156,targos,2025-06-18T06:50:09Z,2025-07-03T15:37:56+00:00,5,368.8,False,31,8,4,475,13,0,13,CLOSED
+58748,sqlite: add tagged template,0hmX,2025-06-18T05:11:21Z,2025-09-17T16:54:11+00:00,45,2195.71,True,1071,126,9,324,38,23,61,MERGED
+58745,[v22.x backport] esm: Wasm globals ns unwrapping 22 backport,guybedford,2025-06-18T00:55:45Z,2025-07-21T14:58:39+00:00,1,806.05,True,502,16,8,30,9,0,9,MERGED
+58738,test: skip the test if the buffer allocation fails,lpinca,2025-06-17T08:28:50Z,2025-06-20T06:12:31+00:00,4,69.73,True,55,23,4,147,8,1,9,MERGED
+58734,test: deflake test-buffer-large-size-buffer-alloc,lpinca,2025-06-16T20:19:19Z,2025-06-18T20:26:26+00:00,5,48.12,True,14,4,1,147,9,0,9,MERGED
+58732,doc: add history entry for TS support in hooks,aduh95,2025-06-16T19:45:40Z,2025-06-18T19:56:09+00:00,5,48.17,True,3,0,1,12,2,0,2,MERGED
+58728,fs: avoid computing time coefficient constants in runtime,LiviaMedeiros,2025-06-16T16:32:46Z,2025-06-18T16:36:55+00:00,4,48.07,True,4,4,1,100,3,0,3,MERGED
+58722,doc: run license-builder,github-actions,2025-06-16T07:29:03Z,2025-06-18T07:36:05+00:00,8,48.12,True,2,2,1,188,2,0,2,MERGED
+58721,doc: run license-builder,github-actions,2025-06-16T00:10:34Z,2025-06-16T07:28:05+00:00,2,7.29,False,2,30,1,188,3,0,3,CLOSED
+58719,watch: add `--watch-kill-signal` flag,dario-piotrowicz,2025-06-15T18:06:18Z,2025-06-28T22:52:02+00:00,6,316.76,False,160,2,7,124,19,1,20,CLOSED
+58716,test_runner: prefer `Atomics` primordials,aduh95,2025-06-15T14:33:49Z,2025-06-17T14:54:50+00:00,5,48.35,True,4,10,2,21,6,0,6,MERGED
+58715,test: refactor repl save-load tests,dario-piotrowicz,2025-06-15T12:55:54Z,2025-06-22T18:11:34+00:00,6,173.26,True,289,154,7,319,13,2,15,MERGED
+58714,doc: add islandryu to collaborators,islandryu,2025-06-15T09:48:22Z,2025-06-16T09:27:03+00:00,5,23.64,True,2,0,1,13,3,0,3,MERGED
+58713,deps: patch V8 to 13.7.152.19,nodejs-github-bot,2025-06-15T00:43:37Z,2025-07-24T11:28:42+00:00,8,946.75,True,207,73,18,55,25,0,25,MERGED
+58712,deps: update minimatch to 10.0.3,nodejs-github-bot,2025-06-15T00:41:12Z,2025-06-26T22:08:50+00:00,5,285.46,True,1133,705,7,51,7,0,7,MERGED
+58711,deps: update acorn to 8.15.0,nodejs-github-bot,2025-06-15T00:41:01Z,2025-06-23T20:35:30+00:00,6,211.91,True,245,39,8,47,9,0,9,MERGED
+58710,deps: update googletest to 35b75a2,nodejs-github-bot,2025-06-15T00:40:57Z,2025-06-27T13:14:47+00:00,3,300.56,True,45,0,2,53,6,0,6,MERGED
+58709,repl: fix tab completion not working with computer string properties,dario-piotrowicz,2025-06-15T00:16:15Z,2025-06-17T00:39:15+00:00,2,48.38,True,131,1,2,885,9,0,9,MERGED
+58707,process: move multipleResolves event to EOL,jasnell,2025-06-14T21:50:54Z,2025-06-29T11:23:39+00:00,7,349.55,False,10,238,9,80,11,2,13,CLOSED
+58706,crypto: move deprecated hash and mgf1Hash options to EOL,jasnell,2025-06-14T21:33:05Z,2025-06-20T20:09:33+00:00,11,142.61,False,28,137,5,33,7,5,12,CLOSED
+58704,Avoid match looping in sourceMappingURL tag detection by using negative lookahead,Llorx,2025-06-13T21:48:02Z,2025-06-22T18:37:49+00:00,3,212.83,False,29,24,4,117,16,1,17,CLOSED
+58703,src: unflag --experimental-default-config-file,marco-ippolito,2025-06-13T06:57:14Z,2025-09-02T13:17:30+00:00,5,1950.34,False,26,22,6,30,5,1,6,CLOSED
+58700,url: add fileURLToPathBuffer API,jasnell,2025-06-12T20:49:22Z,2025-06-14T21:06:25+00:00,11,48.28,False,215,0,6,561,14,5,19,CLOSED
+58699,build(deps): bump brace-expansion from 1.1.11 to 1.1.12 in /tools/clang-format,dependabot,2025-06-12T20:07:03Z,2025-06-14T20:14:51+00:00,3,48.13,True,7,6,1,2138,1,0,1,MERGED
+58698,tools: bump brace-expansion from 1.1.11 to 1.1.12 in /tools/eslint,dependabot,2025-06-12T20:07:01Z,2025-06-14T20:14:44+00:00,2,48.13,True,3,3,1,2138,1,0,1,MERGED
+58697,New SQlite database options,miguelmarcondesf,2025-06-12T18:50:36Z,2025-06-24T14:26:07+00:00,11,283.59,True,223,6,5,109,11,7,18,MERGED
+58696,deps: upgrade npm to 11.4.2,npm-cli-bot,2025-06-12T15:15:42Z,2025-06-20T04:39:59+00:00,3,181.4,True,7285,2045,381,3896,7,0,7,MERGED
+58693,[v22.x backport] esm: implement import.meta.main,Lordfirespeed,2025-06-12T13:17:12Z,2025-07-28T06:47:21+00:00,1,1097.5,True,241,16,12,48,20,0,20,MERGED
+58692,fs: make `Dir` disposers idempotent,Renegade334,2025-06-12T12:14:53Z,2025-06-20T19:03:35+00:00,4,198.81,True,21,24,3,104,3,0,3,MERGED
+58691,lib: make domexception a native error,legendecas,2025-06-12T10:26:20Z,2025-06-21T10:43:40+00:00,8,216.29,False,102,22,5,1391,15,1,16,CLOSED
+58685,test: reduce the use of private symbols in test-events-once.js,kt3k,2025-06-12T03:02:03Z,2025-06-15T09:56:42+00:00,2,78.91,True,6,7,1,165,3,0,3,MERGED
+58681,lib: fix `getTypeScriptParsingMode` jsdoc,ShenHongFei,2025-06-11T16:44:02Z,2025-06-26T07:04:40+00:00,4,350.34,True,1,1,1,115,7,1,8,MERGED
+58679,fs: runtime deprecate mistakenly exposed `fs.Dir` methods,jasnell,2025-06-11T15:20:42Z,2025-06-14T17:05:37+00:00,2,73.75,False,74,9,3,527,7,4,11,CLOSED
+58678,tools: include toolchain.gypi in abseil.gyp,legendecas,2025-06-11T14:05:47Z,2025-06-20T09:27:26+00:00,3,211.36,True,11,4,3,163,13,1,14,MERGED
+58677,src: enhance error messages for unknown options,pmarchini,2025-06-11T13:25:44Z,2025-06-13T13:40:17+00:00,5,48.24,True,4,4,2,99,6,0,6,MERGED
+58675,test: use `common.skipIfInspectorDisabled()` to skip tests,dario-piotrowicz,2025-06-11T12:06:38Z,2025-06-13T12:10:52+00:00,5,48.07,True,13,13,5,210,5,0,5,MERGED
+58674,fs: fix TypeError in glob when directory access is denied,Sylphy-0xd3ac,2025-06-11T11:02:45Z,2025-08-01T14:26:20+00:00,10,1227.39,False,23,2,2,386,21,1,22,CLOSED
+58672,fs: make `processReadResult()` and `readSyncRecursive()` private,LiviaMedeiros,2025-06-11T08:43:10Z,2025-06-14T17:23:47+00:00,7,80.68,True,9,9,1,260,8,0,8,MERGED
+58669,http2: fix DEP0194 message,climba03003,2025-06-10T23:07:45Z,2025-06-11T13:47:31+00:00,3,14.66,True,7,7,6,114,6,0,6,MERGED
+58667,tools: edit commit-queue workflow file,aduh95,2025-06-10T19:53:39Z,2025-06-12T20:05:27+00:00,4,48.2,True,12,16,1,264,2,0,2,MERGED
+58666,src: add web locks api,IlyasShabi,2025-06-10T19:40:42Z,2025-07-18T14:56:36+00:00,102,907.26,False,5030,0,70,633,38,59,97,CLOSED
+58665,"2025-06-24, Version 22.17.0 'Jod' (LTS)",github-actions,2025-06-10T18:43:45Z,2025-06-25T00:10:09+00:00,1,341.44,True,15953,6488,500,17396,4,0,4,MERGED
+58661,module: fix typescript import.meta.main,marco-ippolito,2025-06-10T11:10:13Z,2025-06-12T11:21:54+00:00,7,48.19,True,74,15,3,13,5,0,5,MERGED
+58659,"win,tools: use Azure Trusted Signing (v20 backport)",StefanStojanovic,2025-06-10T09:27:08Z,2025-06-10T15:07:05+00:00,1,5.67,False,11587,6957,268,267,6,0,6,CLOSED
+58657,module: refactor commonjs typescript loader,marco-ippolito,2025-06-10T06:22:38Z,2025-06-12T06:35:22+00:00,4,48.21,True,19,94,1,1784,10,1,11,MERGED
+58655,"typings: add ZSTD_COMPRESS, ZSTD_DECOMPRESS to internalBinding",nektro,2025-06-10T01:41:28Z,2025-06-12T01:47:49+00:00,3,48.11,True,2,0,1,22,1,0,1,MERGED
+58653,repl: avoid deprecated `require.extensions` in tab completion,gulbaki,2025-06-09T21:56:32Z,2025-06-23T06:21:47+00:00,14,320.42,True,1,1,1,624,4,3,7,MERGED
+58649,"lib,src: support DOMException ser-des",legendecas,2025-06-09T15:58:12Z,2025-06-11T16:11:18+00:00,4,48.22,True,137,2,6,191,5,0,5,MERGED
+58647,tools: improve release proposal linter,aduh95,2025-06-09T14:56:56Z,2025-06-11T15:02:36+00:00,4,48.09,True,25,11,1,185,3,0,3,MERGED
+58646,module: correctly detect top-level await in ambiguous contexts,islandryu,2025-06-09T14:36:19Z,2025-08-15T22:10:17+00:00,16,1615.57,True,94,0,2,496,7,4,11,MERGED
+58645,inspector: add protocol methods retrieving sent/received data,legendecas,2025-06-09T11:24:20Z,2025-06-20T10:20:37+00:00,1,262.94,True,480,85,11,187,5,0,5,MERGED
+58644,test: update WPT for dom/abort to dc928169ee,nodejs-github-bot,2025-06-09T10:41:23Z,2025-06-11T10:50:55+00:00,4,48.16,True,48,31,7,87,4,0,4,MERGED
+58643,module: remove experimental warning from type stripping,marco-ippolito,2025-06-09T10:03:43Z,2025-06-11T10:12:04+00:00,10,48.14,True,26,20,6,251,6,0,6,MERGED
+58640,test: update WPT for es-exceptions to 2f96fa1996,nodejs-github-bot,2025-06-09T08:50:49Z,2025-06-11T08:55:52+00:00,4,48.08,True,29,3,8,117,6,0,6,MERGED
+58639,deps: update amaro to 1.0.0,nodejs-github-bot,2025-06-09T06:52:33Z,2025-06-11T06:57:41+00:00,5,48.09,True,39,16,5,46,4,0,4,MERGED
+58637,test: split indirect eval import tests,legendecas,2025-06-08T22:37:30Z,2025-06-11T09:06:23+00:00,2,58.48,True,90,30,4,421,4,0,4,MERGED
+58636,test: refactor repl tab complete tests,dario-piotrowicz,2025-06-08T21:49:02Z,2025-06-15T09:48:50+00:00,5,156.0,True,1003,734,6,412,6,2,8,MERGED
+58635,"2025-06-09, Version 24.2.0 (Current)",github-actions,2025-06-08T18:03:00Z,2025-06-09T21:46:23+00:00,1,27.72,True,22268,8561,485,16092,6,0,6,MERGED
+58633,test: cleanup status files,panva,2025-06-08T09:19:06Z,2025-06-10T09:33:19+00:00,4,48.24,True,2,6,3,92,6,0,6,MERGED
+58631,deps: patch V8 to 13.7.152.14,nodejs-github-bot,2025-06-08T00:42:58Z,2025-06-14T14:45:48+00:00,3,158.05,True,7,2,3,55,7,0,7,MERGED
+58630,deps: update sqlite to 3.50.1,nodejs-github-bot,2025-06-08T00:40:24Z,2025-06-10T01:07:50+00:00,4,48.46,True,73,35,2,48,4,0,4,MERGED
+58629,deps: update simdjson to 3.13.0,nodejs-github-bot,2025-06-08T00:40:23Z,2025-06-10T01:07:42+00:00,4,48.46,True,328,26,2,50,3,0,3,MERGED
+58628,deps: update zlib to 1.3.1-470d3a2,nodejs-github-bot,2025-06-08T00:40:21Z,2025-06-10T01:07:34+00:00,3,48.45,True,890,324,44,53,4,0,4,MERGED
+58627,doc: add correct argument types for fs.cp APIs,jasnell,2025-06-08T00:26:20Z,2025-06-14T17:05:11+00:00,3,160.65,False,12,12,1,196,4,0,4,CLOSED
+58625,src: add new CopyUtimes function to reduce code duplication,dario-piotrowicz,2025-06-07T23:26:46Z,2025-06-09T23:35:36+00:00,2,48.15,True,36,47,1,0,3,0,3,MERGED
+58623,tools: switch to `@stylistic/eslint-plugin`,targos,2025-06-07T18:44:55Z,2025-06-13T08:55:04+00:00,9,134.17,True,439,15,3,107,1,1,2,MERGED
+58620,crypto: runtime deprecate ECDH.setPublicKey(),jasnell,2025-06-07T15:46:31Z,2025-06-09T15:53:10+00:00,6,48.11,True,34,4,3,73,5,2,7,MERGED
+58619,dns: move falsy hostname in lookup to end-of-life,jasnell,2025-06-07T15:27:36Z,2025-06-13T12:47:23+00:00,5,141.33,True,114,106,8,45,9,1,10,MERGED
+58618,async_hooks: move `asyncResource` property on bound function to EOL,jasnell,2025-06-07T15:11:17Z,2025-06-09T15:20:31+00:00,5,48.15,True,6,17,3,110,4,2,6,MERGED
+58617,url: move bad port deprecation in legacy url to end-of-life,jasnell,2025-06-07T15:02:53Z,2025-06-09T17:17:03+00:00,5,50.24,False,14,32,4,157,5,2,7,CLOSED
+58616,fs: move rmdir recursive option to end-of-life,jasnell,2025-06-07T14:43:22Z,2025-06-21T16:20:39+00:00,16,337.62,True,105,434,13,57,13,8,21,MERGED
+58615,test: close FileHandle objects in tests explicitly,jasnell,2025-06-07T14:21:01Z,2025-06-09T14:36:24+00:00,2,48.26,True,82,49,4,163,4,0,4,MERGED
+58614,src: replace V8 Fast API todo comment with note comment,dario-piotrowicz,2025-06-07T14:20:33Z,2025-06-09T14:22:29+00:00,4,48.03,True,2,1,1,254,3,0,3,MERGED
+58612,module: convert schema-only core module on `convertCJSFilenameToURL`,himself65,2025-06-07T09:12:19Z,2025-06-25T16:49:56+00:00,8,439.63,True,93,4,3,13,13,7,20,MERGED
+58610,test: skip tests failing when run under root,LiviaMedeiros,2025-06-06T23:29:28Z,2025-06-10T12:57:27+00:00,4,85.47,True,8,3,2,0,10,0,10,MERGED
+58604,doc: add path rules and validation for export targets in package.json,0hmX,2025-06-06T16:03:01Z,2025-06-09T08:30:31+00:00,15,64.46,True,53,0,1,176,2,11,13,MERGED
+58603,build: remove config.status under `make distclean`,Renegade334,2025-06-06T15:36:36Z,2025-06-12T22:47:19+00:00,2,151.18,True,1,1,1,12,4,0,4,MERGED
+58602,http2: add diagnostics channel 'http2.server.stream.close',RaisinTen,2025-06-06T13:56:35Z,2025-06-11T11:57:52+00:00,3,118.02,True,129,3,4,0,5,0,5,MERGED
+58601,test: improve flakiness detection on stack corruption tests,RaisinTen,2025-06-06T13:10:40Z,2025-06-08T13:17:08+00:00,5,48.11,True,10,4,2,196,5,0,5,MERGED
+58599,doc: punctuation fix for Node-API versioning clarification,jiacai2050,2025-06-06T10:51:48Z,2025-06-12T21:12:33+00:00,3,154.35,True,1,1,1,0,4,0,4,MERGED
+58598,module: allow cycles in require() in the CJS handling in ESM loader,joyeecheung,2025-06-06T10:43:29Z,2025-06-11T09:33:16+00:00,3,118.83,True,42,4,7,425,8,0,8,MERGED
+58597,"doc,lib: update source map links to ECMA426",legendecas,2025-06-06T10:20:37Z,2025-06-08T10:30:12+00:00,3,48.16,True,21,16,6,87,5,0,5,MERGED
+58591,doc: add support link for panva,panva,2025-06-05T20:07:55Z,2025-06-07T20:14:10+00:00,6,48.1,True,1,1,1,16,1,0,1,MERGED
+58589,[v20.x backport] various WebCryptoAPI and WPT updates,panva,2025-06-05T13:14:24Z,2025-06-09T07:50:44+00:00,1,90.61,False,2477,1580,60,36,5,0,5,CLOSED
+58588,v20.19.3 proposal,marco-ippolito,2025-06-05T12:10:54Z,2025-06-23T08:32:24+00:00,3,428.36,True,54535,40274,290,5697,56,1,57,MERGED
+58587,deps: use proper C standard when building libuv,thunder-coding,2025-06-05T11:21:36Z,2025-06-07T15:45:07+00:00,3,52.39,True,2,2,1,1503,9,0,9,MERGED
+58585,util: add util.disposer helper to wrap a dispose function,legendecas,2025-06-05T09:08:01Z,2025-08-18T09:43:49+00:00,3,1776.6,False,314,0,6,140,3,3,6,CLOSED
+58583,test: mark timeouts & flaky test as flaky on IBM i,abmusse,2025-06-05T04:13:03Z,2025-06-06T05:48:13+00:00,3,25.59,True,16,0,3,471,6,0,6,MERGED
+58580,src: make global error message vectors const in contextify,mertcanaltin,2025-06-04T21:35:26Z,2025-06-10T10:59:14+00:00,10,133.4,True,10,9,1,91,5,2,7,MERGED
+58579,"src,permission: implicit allow-fs-read to app entrypoint",RafaelGSS,2025-06-04T20:58:16Z,2025-06-07T13:33:25+00:00,5,64.59,True,110,13,8,229,8,1,9,MERGED
+58577,lib: prefer Atomics primordials,Renegade334,2025-06-04T19:07:06Z,2025-06-15T14:34:25+00:00,6,259.46,False,17,10,3,192,4,0,4,CLOSED
+58573,doc: fix jsdoc definition of assert.ifError() fn in lib/assert.js,pr4j3sh,2025-06-04T12:36:54Z,2025-06-27T13:30:52+00:00,9,552.9,True,1,1,1,68,6,0,6,MERGED
+58571,doc: correct formatting of example definitions for `--test-shard`,JakobJingleheimer,2025-06-04T08:53:08Z,2025-06-04T20:27:17+00:00,3,11.57,True,3,2,1,103,3,0,3,MERGED
+58567,test: deflake async-hooks/test-improper-order on AIX,gulbaki,2025-06-03T11:16:20Z,2025-06-10T11:15:06+00:00,18,167.98,False,9,2,1,357,7,4,11,CLOSED
+58566,deps: update corepack to 0.33.0,nodejs-github-bot,2025-06-03T09:12:58Z,2025-06-05T09:15:01+00:00,3,48.03,True,37,12,4,50,3,0,3,MERGED
+58565,deps: update googletest to e9092b1,nodejs-github-bot,2025-06-03T09:12:55Z,2025-06-07T09:19:15+00:00,2,96.11,True,97,207,6,53,3,0,3,MERGED
+58564,doc: deprecate passing an empty string to `options.shell`,aduh95,2025-06-03T08:57:29Z,2025-06-05T09:03:25+00:00,4,48.1,True,24,0,1,22,3,0,3,MERGED
+58563,doc: mark Node.js 23 as End-of-Life,aduh95,2025-06-03T08:36:36Z,2025-06-05T08:43:03+00:00,10,48.11,True,1,18,1,115,1,0,1,MERGED
+58561,deps: V8: cherry-pick 249de887a8d3,targos,2025-06-03T05:09:13Z,2025-06-05T07:51:08+00:00,2,50.7,True,19,7,3,560,7,0,7,MERGED
+58560,http2: add diagnostics channel 'http2.server.stream.finish',RaisinTen,2025-06-02T14:40:53Z,2025-06-04T14:51:58+00:00,3,48.18,True,80,1,3,0,5,0,5,MERGED
+58552,meta: bump github/codeql-action from 3.28.16 to 3.28.18,dependabot,2025-06-01T18:46:19Z,2025-06-07T09:07:04+00:00,2,134.35,True,4,4,2,5021,2,0,2,MERGED
+58551,meta: bump codecov/codecov-action from 5.4.2 to 5.4.3,dependabot,2025-06-01T18:46:09Z,2025-06-07T09:06:57+00:00,2,134.35,True,3,3,3,4550,4,0,4,MERGED
+58550,meta: bump ossf/scorecard-action from 2.4.1 to 2.4.2,dependabot,2025-06-01T18:46:01Z,2025-06-04T22:05:01+00:00,3,75.32,True,1,1,1,2534,2,0,2,MERGED
+58549,tools: bump the eslint group in /tools/eslint with 6 updates,dependabot,2025-06-01T18:14:55Z,2025-06-03T18:23:39+00:00,3,48.15,True,219,175,1,22251,1,0,1,MERGED
+58548,fs: add autoClose option to FileHandle readableWebStream,jasnell,2025-06-01T15:50:09Z,2025-06-05T01:27:15+00:00,9,81.62,False,58,13,4,724,10,5,15,CLOSED
+58547,crypto: forward auth tag to OpenSSL immediately,tniessen,2025-06-01T11:05:47Z,2025-06-03T11:13:45+00:00,2,48.13,True,16,43,2,729,5,0,5,MERGED
+58546,test: rewrite test-child-process-spawn-args,targos,2025-06-01T10:58:52Z,2025-06-03T11:02:37+00:00,3,48.06,True,50,55,2,139,12,1,13,MERGED
+58545,src: fix typo in CFunctionCallbackWithalueAndOptions declaration,dario-piotrowicz,2025-06-01T10:35:10Z,2025-06-01T17:06:44+00:00,1,6.53,False,2,2,1,90,2,0,2,CLOSED
+58544,src: add V8 Fast API for `URL.revokeObjectURL`,dario-piotrowicz,2025-06-01T10:29:35Z,2025-06-07T14:23:35+00:00,6,147.9,False,84,13,4,172,6,0,6,CLOSED
+58543,test: dispose of filehandles in filehandle.read tests,LiviaMedeiros,2025-06-01T07:43:15Z,2025-06-05T01:52:48+00:00,2,90.16,True,4,9,2,156,4,0,4,MERGED
+58542,[v24.x] Backport doc deprecations,targos,2025-06-01T07:14:32Z,2025-06-03T07:43:14+00:00,5,48.48,False,66,3,2,123,2,0,2,CLOSED
+58541,lib: graduate error codes that have been around for years,jasnell,2025-06-01T03:10:23Z,2025-06-03T03:35:18+00:00,6,48.42,True,0,8,1,133,1,0,1,MERGED
+58540,vm: graduate the vm.measureMemory API,jasnell,2025-06-01T01:45:15Z,2025-06-02T14:17:33+00:00,3,36.54,False,4,21,6,58,4,1,5,CLOSED
+58539,deps: patch V8 to 13.7.152.13,nodejs-github-bot,2025-06-01T00:47:16Z,2025-06-03T01:07:59+00:00,5,48.35,True,25,11,4,55,7,0,7,MERGED
+58538,deps: update zlib to 1.3.1-a1f2fe2,nodejs-github-bot,2025-06-01T00:44:50Z,2025-06-03T09:12:55+00:00,2,56.47,False,805,309,42,53,3,0,3,CLOSED
+58537,test: update WPT for urlpattern to 3ffda23e5a,nodejs-github-bot,2025-06-01T00:24:00Z,2025-06-11T11:23:09+00:00,4,250.99,False,147,2,5,88,9,0,9,CLOSED
+58536,fs: move FileHandle close on GC to EOL,jasnell,2025-05-31T19:45:08Z,2025-06-25T16:00:57+00:00,9,596.26,False,75,163,8,454,14,6,20,CLOSED
+58533,tls: move IP-address servername deprecation to eol,jasnell,2025-05-31T18:52:29Z,2025-06-02T19:01:00+00:00,11,48.14,True,31,53,4,58,5,3,8,MERGED
+58532,assert: move assert.fail with multiple arguments to eol,jasnell,2025-05-31T18:05:31Z,2025-06-02T18:09:22+00:00,10,48.06,True,12,205,4,93,4,5,9,MERGED
+58531,perf_hooks: move deprecated accessors to EOL,jasnell,2025-05-31T17:24:15Z,2025-06-02T17:29:28+00:00,6,48.09,True,8,53,4,147,4,1,5,MERGED
+58530,doc: update metadata for _transformState deprecation,jasnell,2025-05-31T16:53:10Z,2025-06-05T23:42:30+00:00,5,126.82,True,4,1,1,251,2,2,4,MERGED
+58529,fs: move fs stream open method to eol,jasnell,2025-05-31T16:43:40Z,2025-06-02T16:54:31+00:00,7,48.18,True,10,38,4,201,6,1,7,MERGED
+58528,worker: move terminate callback to end-of-life,jasnell,2025-05-31T16:27:51Z,2025-06-02T18:17:14+00:00,5,49.82,False,11,26,4,109,6,3,9,CLOSED
+58527,child_process: move _channel to end-of-life,jasnell,2025-05-31T16:16:44Z,2025-06-02T16:25:50+00:00,6,48.15,True,5,20,3,86,3,1,4,MERGED
+58526,meta: add guidelines for introduction of ERM support,jasnell,2025-05-31T15:38:50Z,2025-06-29T13:54:00+00:00,69,694.25,True,509,0,1,253,6,53,59,MERGED
+58525,child_process: `options.shell` validation,Renegade334,2025-05-31T15:30:42Z,2025-07-23T16:33:23+00:00,4,1273.04,False,68,8,4,847,1,1,2,CLOSED
+58524,test: remove duplicated allocUnsafeSlow test,targos,2025-05-31T11:29:13Z,2025-06-02T11:32:58+00:00,5,48.06,True,0,1,1,0,4,0,4,MERGED
+58521,meta: enable eslint jsdoc rules,anonrig,2025-05-31T00:31:26Z,2025-07-18T09:28:21+00:00,20,1160.95,True,495,247,86,260,13,6,19,MERGED
+58518,http: deprecate instantiating classes without new,anonrig,2025-05-30T21:58:59Z,2025-06-01T22:07:36+00:00,5,48.14,True,15,0,1,291,2,1,3,MERGED
+58517,"src,permission: add --allow-net permission",RafaelGSS,2025-05-30T20:53:53Z,2025-06-17T12:35:23+00:00,5,423.69,True,681,19,33,818,13,1,14,MERGED
+58516,fs: add disposable mkdtemp,bakkot,2025-05-30T18:08:02Z,2025-07-07T13:44:49+00:00,33,907.61,False,329,0,7,187,33,16,49,CLOSED
+58514,permission: remove useless conditional,juanarbol,2025-05-30T15:37:30Z,2025-06-02T05:01:01+00:00,5,61.39,True,1,3,1,63,6,0,6,MERGED
+58512,http2: add diagnostics channel 'http2.server.stream.error',RaisinTen,2025-05-30T12:52:34Z,2025-06-01T13:08:20+00:00,3,48.26,True,75,7,3,0,6,0,6,MERGED
+58507,test: make sqlite-database-sync tests work with system sqlite,jellelicht,2025-05-30T10:53:07Z,2025-06-01T10:56:01+00:00,5,48.05,True,1,1,1,149,4,0,4,MERGED
+58504,doc: clarify DEP0194 scope,aduh95,2025-05-29T10:56:44Z,2025-05-31T10:59:16+00:00,6,48.04,True,16,5,2,171,4,0,4,MERGED
+58502,"win,tools: use Azure Trusted Signing",StefanStojanovic,2025-05-29T09:10:16Z,2025-06-05T14:41:59+00:00,3,173.53,True,22,5,1,373,7,0,7,MERGED
+58500,src: update std::vector<v8::Local<T>> to use v8::LocalVector<T>,Aditi-1400,2025-05-28T21:34:03Z,2025-05-31T18:58:08+00:00,5,69.4,True,4,3,3,429,3,1,4,MERGED
+58499,doc: add Filip Skokan to TSC,RafaelGSS,2025-05-28T19:45:03Z,2025-05-28T21:12:16+00:00,5,1.45,True,2,0,1,32,3,0,3,MERGED
+58497,tools: check for std::vector<v8::Local> in lint,Aditi-1400,2025-05-28T18:29:38Z,2025-08-01T15:55:31+00:00,4,1557.43,True,15,0,1,486,13,0,13,MERGED
+58494,test: mark `test-http2-debug` as flaky on LinuxONE,richardlau,2025-05-28T11:53:05Z,2025-05-28T21:09:20+00:00,6,9.27,False,4,0,1,67,6,0,6,CLOSED
+58492,typings: add inspector internalBinding typing,islandryu,2025-05-28T11:05:09Z,2025-05-30T11:11:35+00:00,2,48.11,True,38,0,2,0,1,0,1,MERGED
+58490,fs: allow correct handling of burst in fs-events with AsyncIterator,pipobscure,2025-05-28T10:03:11Z,2025-06-10T16:27:18+00:00,28,318.4,True,131,8,7,2916,12,17,29,MERGED
+58489,src: remove fast API for InternalModuleStat,joyeecheung,2025-05-28T08:36:42Z,2025-06-03T10:15:40+00:00,7,145.65,True,1,50,2,2293,11,0,11,MERGED
+58483,src: add env->cppgc_allocation_handle() convenience method,jasnell,2025-05-27T15:25:20Z,2025-05-29T15:32:44+00:00,4,48.12,True,8,7,4,110,5,0,5,MERGED
+58479,doc: explain child_process code and signal null values everywhere,RaisinTen,2025-05-27T11:32:26Z,2025-05-29T11:42:14+00:00,3,48.16,True,13,4,1,272,2,0,2,MERGED
+58478,test: account for truthy signal in flaky async_hooks tests,RaisinTen,2025-05-27T07:29:27Z,2025-05-29T07:40:11+00:00,6,48.18,True,12,4,2,356,4,1,5,MERGED
+58477,"doc,src,test: fix typos",noritaka1166,2025-05-27T03:36:13Z,2025-05-28T08:18:47+00:00,12,28.71,True,8,8,8,149,13,2,15,MERGED
+58476,"fs: fix cp, cpSync handle existing symlinks",jakecastelli,2025-05-27T03:10:45Z,2025-06-07T06:44:15+00:00,16,267.56,False,38,7,4,13,11,5,16,CLOSED
+58475,doc: update `git node release` example,aduh95,2025-05-26T19:11:54Z,2025-05-28T19:14:26+00:00,6,48.04,True,21,2,1,46,2,1,3,MERGED
+58474,dgram: move deprecated APIs to EOL,jasnell,2025-05-26T18:13:14Z,2025-05-31T02:59:40+00:00,7,104.77,True,7,162,4,44,7,1,8,MERGED
+58473,module: move Module._debug to end-of-life,jasnell,2025-05-26T17:58:34Z,2025-05-31T00:23:18+00:00,8,102.41,False,5,3,2,64,5,1,6,CLOSED
+58472,benchmark: fix broken fs.cpSync benchmark,dario-piotrowicz,2025-05-26T17:26:20Z,2025-05-27T16:53:05+00:00,3,23.45,True,4,1,1,453,10,0,10,MERGED
+58471,src: remove node.h APIs to make callback without an async context,legendecas,2025-05-26T17:25:04Z,2025-06-06T10:50:03+00:00,3,257.42,True,0,65,2,158,8,0,8,MERGED
+58470,src: remove deprecated initialization APIs in node.h,legendecas,2025-05-26T17:13:00Z,2025-05-28T17:24:45+00:00,3,48.2,False,16,65,4,113,6,0,6,CLOSED
+58469,src: remove deprecated process exit APIs in node.h,legendecas,2025-05-26T17:07:55Z,2025-05-29T08:09:14+00:00,7,63.02,True,0,16,2,55,4,0,4,MERGED
+58467,doc: graduate Symbol.dispose/asyncDispose from experimental,jasnell,2025-05-26T15:56:17Z,2025-05-28T16:51:50+00:00,18,48.93,False,57,29,10,179,9,14,23,CLOSED
+58461,fs: improve cpSync no-filter copyDir performance,dario-piotrowicz,2025-05-26T11:18:37Z,2025-06-07T14:44:25+00:00,9,291.43,True,249,8,5,1068,12,6,18,MERGED
+58459,src: fix possible dereference of NULL pointer,Eusgor,2025-05-26T09:28:33Z,2025-05-29T20:01:49+00:00,3,82.55,True,1,1,1,271,6,0,6,MERGED
+58457,doc: clarify x509.checkIssued only checks metadata,panva,2025-05-26T06:16:30Z,2025-05-28T06:26:05+00:00,3,48.16,True,18,1,1,141,2,0,2,MERGED
+58456,meta: move one or more collaborators to emeritus,nodejs-github-bot,2025-05-26T04:14:45Z,2025-05-26T13:16:06+00:00,4,9.02,True,2,2,1,127,4,0,4,MERGED
+58455,[v22.x backport] worker: make Worker async disposable,jasnell,2025-05-26T01:04:43Z,2025-07-28T09:12:30+00:00,4,1520.13,True,22,1,3,18,15,1,16,MERGED
+58454,tools: support `DisposableStack` and `AsyncDisposableStack` in linter,LiviaMedeiros,2025-05-25T20:15:51Z,2025-05-27T21:33:39+00:00,5,49.3,True,14,1,2,0,5,0,5,MERGED
+58453,events: add addDisposableListener method to EventEmitter,jasnell,2025-05-25T19:01:44Z,2025-06-30T20:58:38+00:00,8,865.95,False,150,34,5,704,13,7,20,CLOSED
+58449,http2: add diagnostics channel 'http2.server.stream.start',RaisinTen,2025-05-25T14:08:44Z,2025-05-29T11:11:46+00:00,9,93.05,True,149,1,4,0,11,2,13,MERGED
+58446,deps: patch V8 to 13.7.152.10,nodejs-github-bot,2025-05-25T00:42:24Z,2025-05-28T10:30:38+00:00,3,81.8,True,126,5,9,55,7,0,7,MERGED
+58445,deps: update undici to 7.10.0,nodejs-github-bot,2025-05-25T00:40:46Z,2025-05-27T23:19:23+00:00,6,70.64,True,354,78,16,48,6,0,6,MERGED
+58442,Slightly improve module deprecation warnings,dario-piotrowicz,2025-05-23T22:35:01Z,2025-05-26T14:39:28+00:00,3,64.07,False,17,17,17,222,7,0,7,CLOSED
+58441,dns: set timeout to 1000ms when timeout <= 0,theanarkh,2025-05-23T19:36:26Z,2025-06-25T16:36:20+00:00,3,789.0,True,1,2,1,684,7,0,7,MERGED
+58440,dns: support max timeout,theanarkh,2025-05-23T19:05:46Z,2025-07-10T15:50:44+00:00,10,1148.75,True,118,22,5,263,11,4,15,MERGED
+58439,src: fix `-Wreturn-stack-address` error,codebytere,2025-05-23T18:12:57Z,2025-05-28T13:56:21+00:00,4,115.72,True,1,1,1,311,5,0,5,MERGED
+58438,test_runner: support object property mocking,idango10,2025-05-23T17:34:38Z,2025-06-09T17:57:07+00:00,5,408.37,True,501,1,3,646,14,8,22,MERGED
+58437,util: add 'none' style to styleText,jasnell,2025-05-23T16:09:42Z,2025-05-26T01:13:49+00:00,2,57.07,False,10,1,3,154,9,1,10,CLOSED
+58434,src: improve CompileFunctionAndCacheResult error handling,legendecas,2025-05-23T09:20:43Z,2025-05-26T14:01:38+00:00,4,76.68,False,87,67,4,22,6,0,6,CLOSED
+58433,doc: add links to parent class for `node:zlib` classes,aduh95,2025-05-23T09:20:40Z,2025-05-25T09:30:41+00:00,3,48.17,True,21,0,1,0,1,0,1,MERGED
+58432,deps: update OpenSSL gen container to Ubuntu 22.04,targos,2025-05-23T09:13:47Z,2025-05-30T20:21:57+00:00,6,179.14,True,1,1,1,66,7,0,7,MERGED
+58431,deps: keep required OpenSSL doc files,targos,2025-05-23T08:55:57Z,2025-05-25T13:07:54+00:00,4,52.2,True,4964,1,3,62,9,0,9,MERGED
+58430,fs: prevent multiple invocations of callback in Dir class,0hmX,2025-05-23T04:33:27Z,2025-08-12T14:40:52+00:00,3,1954.12,False,63,10,2,630,3,3,6,CLOSED
+58426,sqlite: handle thrown errors in result callback,cjihrig,2025-05-22T23:28:30Z,2025-05-25T21:49:37+00:00,5,70.35,True,25,1,2,125,4,0,4,MERGED
+58424,test: remove --no-warnings flag,tniessen,2025-05-22T20:48:40Z,2025-05-27T08:37:00+00:00,5,107.81,True,1,1,1,207,6,0,6,MERGED
+58421,test: leverage `process.features.openssl_is_boringssl` in test,codebytere,2025-05-22T13:48:18Z,2025-05-24T13:58:11+00:00,3,48.16,True,50,23,6,84,3,0,3,MERGED
+58418,fs: remove IIFE in glob,LiviaMedeiros,2025-05-22T09:36:40Z,2025-06-17T21:20:09+00:00,5,635.72,True,22,9,2,12,6,2,8,MERGED
+58417,benchmark: add callback-based `fs.glob` to glob benchmark,LiviaMedeiros,2025-05-22T09:31:57Z,2025-05-25T13:52:41+00:00,7,76.35,True,28,6,1,0,4,3,7,MERGED
+58416,test: fix test-buffer-tostring-range on allocation failure,joyeecheung,2025-05-21T21:08:54Z,2025-05-23T21:13:39+00:00,6,48.08,True,21,9,2,217,4,0,4,MERGED
+58415,test: skip in test-buffer-tostring-rangeerror on allocation failure,joyeecheung,2025-05-21T20:59:21Z,2025-05-23T21:02:38+00:00,3,48.05,True,19,5,1,300,7,0,7,MERGED
+58414,test: fix missing edge case in test-blob-slice-with-large-size,joyeecheung,2025-05-21T20:43:15Z,2025-05-23T20:45:47+00:00,8,48.04,True,9,3,1,427,6,0,6,MERGED
+58413,doc: remove remaining uses of `@@wellknown` syntax,Renegade334,2025-05-21T18:27:59Z,2025-05-23T18:31:35+00:00,7,48.06,True,36,31,3,153,2,0,2,MERGED
+58412,process: make process.execve's args argument optional,mureinik,2025-05-21T11:35:06Z,2025-07-26T02:35:57+00:00,11,1575.01,True,36,1,4,187,19,2,21,MERGED
+58409,buffer: implement native C++ fast-path for Buffer.concat,mertcanaltin,2025-05-20T19:12:43Z,2025-05-25T11:10:27+00:00,1,111.96,False,107,9,2,2498,9,0,9,CLOSED
+58408,dns: support max_timeout for retry query,theanarkh,2025-05-20T18:38:56Z,2025-05-23T18:41:11+00:00,2,72.04,False,98,22,5,263,2,4,6,CLOSED
+58407,src: fix build when using shared simdutf,aduh95,2025-05-20T18:01:59Z,2025-05-22T18:12:43+00:00,3,48.18,True,2,2,1,65,4,0,4,MERGED
+58406,"2025-05-21, Version 24.1.0 (Current)",github-actions,2025-05-20T18:00:31Z,2025-05-21T15:20:12+00:00,1,21.33,True,4343,2407,210,7114,4,0,4,MERGED
+58405,report: use uv_getrusage_thread in report,theanarkh,2025-05-20T17:01:46Z,2025-05-22T17:10:39+00:00,13,48.15,True,3,4,1,206,6,1,7,MERGED
+58404,dns: fix dns query cache implementation,Ethan-Arrowood,2025-05-20T14:13:25Z,2025-06-02T15:29:36+00:00,4,313.27,True,4,4,2,137,20,0,20,MERGED
+58403,doc: fix the order of the process API doc,mureinik,2025-05-20T13:45:44Z,2025-05-22T14:19:14+00:00,4,48.56,True,51,51,1,248,2,0,2,MERGED
+58400,lib: make ERM functions into wrappers returning undefined,LiviaMedeiros,2025-05-20T10:45:09Z,2025-05-25T13:44:44+00:00,2,122.99,True,34,20,11,1555,6,0,6,MERGED
+58396,test: test reordering of setAAD and setAuthTag,tniessen,2025-05-19T21:25:46Z,2025-05-21T21:36:38+00:00,2,48.18,True,50,19,1,318,3,0,3,MERGED
+58391,test: show more information in test-http2-debug upon failure,joyeecheung,2025-05-19T12:17:16Z,2025-05-20T19:00:50+00:00,2,30.73,True,23,19,1,102,8,0,8,MERGED
+58390,http2: add diagnostics channel 'http2.server.stream.created',RaisinTen,2025-05-19T11:47:30Z,2025-05-25T13:22:05+00:00,3,145.58,True,81,0,3,0,5,0,5,MERGED
+58389,"src,lib: obtain sourceURL in magic comments from V8",legendecas,2025-05-19T11:01:19Z,2025-05-30T09:47:21+00:00,17,262.77,True,261,140,31,284,14,4,18,MERGED
+58388,"2025-05-21, Version 22.16.0 'Jod' (LTS)",github-actions,2025-05-19T09:07:15Z,2025-05-21T15:20:12+00:00,2,54.22,True,65036,43222,658,18301,6,0,6,MERGED
+58387,crypto: expose `process.features.openssl_is_boringssl`,codebytere,2025-05-19T08:19:16Z,2025-05-22T11:04:16+00:00,8,74.75,True,26,8,7,353,5,3,8,MERGED
+58385,workers: make Worker async disposable,jasnell,2025-05-19T02:37:20Z,2025-05-26T01:07:32+00:00,10,166.5,False,28,0,3,37,9,2,11,CLOSED
+58384,perf_hooks: make the event loop display histogram disposable,jasnell,2025-05-19T01:16:46Z,2025-05-26T01:15:37+00:00,4,167.98,False,34,1,3,57,7,0,7,CLOSED
+58382,test: do not skip OCB decryption in FIPS mode,tniessen,2025-05-19T00:19:02Z,2025-05-21T00:38:15+00:00,3,48.32,True,2,2,1,81,5,0,5,MERGED
+58379,src: fix FIPS init error handling,tniessen,2025-05-18T21:08:11Z,2025-05-30T11:23:57+00:00,6,278.26,True,29,5,2,1603,20,0,20,MERGED
+58378,sqlite: cleanup ERM support and export Session class,jasnell,2025-05-18T21:00:53Z,2025-05-31T00:21:48+00:00,8,291.35,False,74,14,6,124,20,3,23,CLOSED
+58377,src: make a number of minor improvements to buffer,jasnell,2025-05-18T18:47:09Z,2025-05-24T21:11:43+00:00,10,146.41,False,55,17,9,255,8,1,9,CLOSED
+58376,src: prepare for v8 sandboxing,jasnell,2025-05-18T17:52:03Z,2025-05-26T16:04:52+00:00,7,190.21,False,81,7,7,576,15,5,20,CLOSED
+58375,lib: remove no-mixed-operators eslint rule,BridgeAR,2025-05-18T16:09:58Z,2025-05-21T15:03:41+00:00,2,70.9,True,0,10,1,477,2,0,2,MERGED
+58373,http2: remove no longer userful options.selectPadding,hkleungai,2025-05-18T07:40:07Z,2025-05-25T18:24:01+00:00,5,178.73,True,0,3,1,196,6,0,6,MERGED
+58372,deps: patch V8 to 13.6.233.11,nodejs-github-bot,2025-05-18T00:41:02Z,2025-05-18T07:57:19+00:00,2,7.27,False,2,1,2,55,1,0,1,CLOSED
+58371,zlib: remove mentions of unexposed Z_TREES constant,hkleungai,2025-05-17T18:47:10Z,2025-05-27T03:00:31+00:00,5,224.22,True,1,2,2,173,9,0,9,MERGED
+58370,child_process: give names to `ChildProcess` functions,LiviaMedeiros,2025-05-17T17:27:23Z,2025-05-21T12:59:26+00:00,4,91.53,True,4,4,1,0,5,0,5,MERGED
+58369,fix: Console.log to console.error,mrigueti,2025-05-17T14:49:00Z,2025-05-18T16:49:40+00:00,3,26.01,False,11,8,4,338,1,3,4,CLOSED
+58368,test: remove loop over single element,tniessen,2025-05-17T13:16:50Z,2025-05-19T13:24:07+00:00,5,48.12,True,8,11,1,197,8,0,8,MERGED
+58367,test: add chacha20-poly1305 to auth tag order test,tniessen,2025-05-17T11:11:40Z,2025-05-19T11:21:08+00:00,2,48.16,True,6,6,1,264,4,0,4,MERGED
+58363,test: remove references to create(De|C)ipher,tniessen,2025-05-16T22:25:08Z,2025-05-18T22:34:17+00:00,5,48.15,True,3,3,1,68,4,0,4,MERGED
+58362,path: faster posix path.resolve() without arguments,BridgeAR,2025-05-16T22:04:14Z,2025-05-19T13:23:58+00:00,11,63.33,True,40,15,8,2021,6,1,7,MERGED
+58361,fix(process): clarify error when process.cwd() fails due to missing d…,carlos-menezes,2025-05-16T17:23:48Z,2025-05-18T18:13:06+00:00,1,48.82,False,66,4,5,14,2,1,3,CLOSED
+58360,doc: add missing options.info for ZstdOptions,hkleungai,2025-05-16T16:35:58Z,2025-05-28T18:44:51+00:00,3,290.15,True,1,0,1,586,1,1,2,MERGED
+58359,doc: add missing options.info for BrotliOptions,hkleungai,2025-05-16T16:32:40Z,2025-05-28T18:44:43+00:00,1,290.2,True,1,0,1,422,1,0,1,MERGED
+58358,tty: use terminal VT mode on Windows,addaleax,2025-05-16T15:43:30Z,2025-05-18T22:43:58+00:00,4,55.01,True,11,1,1,712,3,0,3,MERGED
+58357,"build,win: fix dll build",StefanStojanovic,2025-05-16T14:56:08Z,2025-06-02T11:23:28+00:00,4,404.46,True,8,3,2,227,9,1,10,MERGED
+58356,meta: ignore mailmap changes in linux ci,JonasBa,2025-05-16T14:51:27Z,2025-05-16T18:53:33+00:00,6,4.04,True,2,0,1,79,3,0,3,MERGED
+58355,doc: add JonasBa to collaborators,JonasBa,2025-05-16T14:36:54Z,2025-05-16T20:19:55+00:00,9,5.72,True,3,0,2,12,5,0,5,MERGED
+58351,[20.x] tools: disable failing test envs in `test-linux` CI,aduh95,2025-05-16T09:58:47Z,2025-05-22T14:27:22+00:00,1,148.48,False,3,15,1,128,2,0,2,CLOSED
+58350,build: add support for OpenHarmony operating system,hqzing,2025-05-16T09:00:50Z,2025-05-21T13:18:39+00:00,7,124.3,True,632,59,23,788,13,0,13,MERGED
+58349,net: always publish to 'net.client.socket' diagnostics channel,RaisinTen,2025-05-16T08:59:55Z,2025-05-18T09:05:17+00:00,3,48.09,True,55,12,4,242,5,0,5,MERGED
+58347,deps: upgrade npm to 11.4.0,npm-cli-bot,2025-05-15T17:15:07Z,2025-06-12T15:15:44+00:00,6,670.01,False,4933,1263,348,2288,5,0,5,CLOSED
+58342,[v20.x] deps: V8: backport build fixes for Xcode 16.3,Bo98,2025-05-15T05:09:16Z,2025-06-05T11:42:50+00:00,4,510.56,False,29,34,8,1271,16,0,16,CLOSED
+58339,doc: add latest security release steward,RafaelGSS,2025-05-14T21:51:54Z,2025-05-15T10:35:45+00:00,3,12.73,True,1,0,1,9,3,0,3,MERGED
+58337,lib: deprecate `_stream_*` modules,dario-piotrowicz,2025-05-14T18:38:39Z,2025-05-23T13:48:25+00:00,8,211.16,True,81,10,13,305,12,1,13,MERGED
+58335,tools: add missing highway defines for IBM i,abmusse,2025-05-14T16:50:21Z,2025-05-17T04:29:13+00:00,4,59.65,True,1,1,1,62,10,0,10,MERGED
+58332,test: add tests ensuring worker threads cannot access internals,Lordfirespeed,2025-05-14T14:59:47Z,2025-05-26T22:18:35+00:00,5,295.31,True,36,0,1,0,12,1,13,MERGED
+58329,http2: add diagnostics channel 'http2.client.stream.close',RaisinTen,2025-05-14T13:12:41Z,2025-05-19T08:12:41+00:00,4,115.0,True,121,0,4,0,6,0,6,MERGED
+58327,fs: unexpose internal constants,legendecas,2025-05-14T12:32:51Z,2025-05-16T19:40:17+00:00,5,55.12,True,94,13,6,235,9,0,9,MERGED
+58325,node-api: use WriteOneByteV2 in napi_get_value_string_latin1,legendecas,2025-05-14T10:20:37Z,2025-05-16T16:10:55+00:00,2,53.84,True,12,12,1,61,7,0,7,MERGED
+58320,Test runner/revert/#56664,pmarchini,2025-05-14T08:46:29Z,2025-05-14T15:02:43+00:00,3,6.27,False,237,127,19,141,3,2,5,CLOSED
+58317,http2: add diagnostics channel 'http2.client.stream.finish',RaisinTen,2025-05-14T06:19:27Z,2025-05-18T07:36:26+00:00,3,97.28,True,81,0,3,0,7,0,7,MERGED
+58316,stream: making DecompressionStream spec compliant for trailing junk,0hmX,2025-05-13T18:13:02Z,2025-05-26T00:38:40+00:00,2,294.43,True,83,10,6,262,5,0,5,MERGED
+58313,http2: deprecate priority,mcollina,2025-05-13T17:27:19Z,2025-05-29T08:09:05+00:00,8,374.7,True,25,2,2,22,11,4,15,MERGED
+58309,vm: import call should return a promise in the current context,legendecas,2025-05-13T10:36:11Z,2025-05-16T07:43:49+00:00,5,69.13,True,150,8,2,459,7,1,8,MERGED
+58308,doc: add puskin to collaborators,puskin,2025-05-13T08:29:45Z,2025-05-13T09:30:33+00:00,7,1.01,True,3,0,2,13,3,1,4,MERGED
+58307,worker: give names to `MessagePort` functions,LiviaMedeiros,2025-05-13T06:16:16Z,2025-05-17T04:41:26+00:00,2,94.42,True,5,4,1,208,5,0,5,MERGED
+58306,http2: add diagnostics channel 'http2.client.stream.error',RaisinTen,2025-05-13T04:58:27Z,2025-05-16T12:15:50+00:00,4,79.29,True,62,0,3,0,5,0,5,MERGED
+58305,typings: remove blob extra typings,dario-piotrowicz,2025-05-13T00:28:04Z,2025-05-22T09:48:32+00:00,2,225.34,False,0,8,1,270,4,0,4,CLOSED
+58303,errors: show url of unsupported attributes in the error message,Aditi-1400,2025-05-12T23:49:40Z,2025-05-26T21:19:23+00:00,3,333.5,True,8,3,2,13,7,1,8,MERGED
+58302,doc: document default test-reporter change,nicojs,2025-05-12T22:42:11Z,2025-05-14T22:50:39+00:00,5,48.14,True,4,0,1,61,2,1,3,MERGED
+58299,doc: mark the callback argument of crypto.generatePrime as mandatory,mureinik,2025-05-12T19:13:53Z,2025-05-14T19:17:46+00:00,3,48.06,True,1,1,1,745,2,0,2,MERGED
+58297,doc: remove comma delimiter mention on permissions doc,RafaelGSS,2025-05-12T18:00:54Z,2025-05-14T18:06:03+00:00,5,48.09,True,2,2,1,13,2,0,2,MERGED
+58296,stream: test explicit resource management implicitly,LiviaMedeiros,2025-05-12T15:18:24Z,2025-05-17T04:41:18+00:00,6,109.38,False,75,0,7,68,4,3,7,CLOSED
+58294,doc: fix CryptoKey.algorithm type and other interfaces in webcrypto.md,panva,2025-05-12T08:07:55Z,2025-05-14T19:44:31+00:00,6,59.61,True,175,35,3,576,2,1,3,MERGED
+58293,http2: remove support for priority signaling,mcollina,2025-05-12T07:44:36Z,2025-06-03T09:09:41+00:00,14,529.42,True,81,84,10,267,14,2,16,MERGED
+58292,http2: add diagnostics channel 'http2.client.stream.start',RaisinTen,2025-05-12T07:34:18Z,2025-05-14T07:41:43+00:00,2,48.12,True,82,3,3,0,4,0,4,MERGED
+58291,doc: make Stability labels not sticky in Stability index,LiviaMedeiros,2025-05-12T07:06:16Z,2025-05-14T07:08:15+00:00,10,48.03,True,4,0,1,75,3,0,3,MERGED
+58285,src: remove unused `internalVerifyIntegrity` internal binding,dario-piotrowicz,2025-05-11T21:15:22Z,2025-05-13T21:23:47+00:00,2,48.14,True,0,46,2,203,4,0,4,MERGED
+58283,readline: add stricter validation for functions called after closed (second attempt),dario-piotrowicz,2025-05-11T20:04:16Z,2025-05-18T19:46:38+00:00,2,167.71,True,93,19,11,968,8,0,8,MERGED
+58282,Revert https://github.com/nodejs/node/pull/56664,romainmenke,2025-05-11T17:33:07Z,2025-06-23T09:37:43+00:00,3,1024.08,False,237,127,19,591,36,0,36,CLOSED
+58281,test: remove unnecessary `console.log` from test-repl-null-thrown,dario-piotrowicz,2025-05-11T17:27:13Z,2025-05-13T17:30:08+00:00,4,48.05,True,0,1,1,104,3,0,3,MERGED
+58280,node-api: add warning for NAPI_EXPERIMENTAL,miguelmarcondesf,2025-05-11T16:41:45Z,2025-06-13T16:00:37+00:00,24,791.31,True,12,0,1,26,15,3,18,MERGED
+58279,watch: fix watch args not being properly filtered (second attempt),dario-piotrowicz,2025-05-11T13:40:10Z,2025-05-13T13:52:47+00:00,2,48.21,True,117,5,2,828,3,0,3,MERGED
+58278,benchmark: add dereference and force options to fs.cpSync,sonsurim,2025-05-11T13:29:06Z,2025-05-23T14:07:32+00:00,2,288.64,True,38,5,1,347,3,0,3,MERGED
+58275,doc: update commit-queue documentation,dario-piotrowicz,2025-05-11T11:57:55Z,2025-05-13T12:10:36+00:00,16,48.21,True,2,4,1,378,2,2,4,MERGED
+58273,test: reduce iteration count in test-child-process-stdout-flush-exit,aduh95,2025-05-11T07:13:04Z,2025-05-13T19:10:09+00:00,3,59.95,True,6,1,1,234,3,0,3,MERGED
+58272,deps: update sqlite to 3.50.0,nodejs-github-bot,2025-05-11T00:38:17Z,2025-06-04T23:03:52+00:00,10,598.43,True,2917,1538,3,48,12,0,12,MERGED
+58271,deps: update llhttp to 9.2.1,nodejs-github-bot,2025-05-11T00:38:15Z,2025-05-23T13:53:33+00:00,2,301.25,False,1491,1452,8,47,3,1,4,CLOSED
+58270,build: fix uvwasi pkgname,aduh95,2025-05-10T23:19:02Z,2025-05-12T23:29:17+00:00,5,48.17,True,1,1,1,82,3,0,3,MERGED
+58269,build: fix defaults for shared llhttp,aduh95,2025-05-10T22:32:02Z,2025-05-16T12:55:50+00:00,2,134.4,True,2,2,1,114,3,0,3,MERGED
+58268,deps: update undici to 7.9.0,nodejs-github-bot,2025-05-10T21:55:08Z,2025-05-18T16:09:46+00:00,2,186.24,True,793,620,26,47,7,0,7,MERGED
+58267,src: remove unused `checkMessagePort` internal binding,dario-piotrowicz,2025-05-10T21:41:57Z,2025-05-12T21:44:58+00:00,6,48.05,True,0,11,3,150,4,0,4,MERGED
+58266,buffer: avoid unnecessary copy in Buffer.concat for single FastBuffer,mertcanaltin,2025-05-10T20:15:21Z,2025-05-12T16:01:06+00:00,5,43.76,False,21,0,2,2664,1,1,2,CLOSED
+58265,src: remove unused `shouldRetryAsESM` internal binding,dario-piotrowicz,2025-05-10T19:53:37Z,2025-05-12T19:57:54+00:00,8,48.07,True,0,17,1,150,3,0,3,MERGED
+58262,doc: deprecate utilsNativeError in favor of ErrorisError,miguelmarcondesf,2025-05-10T18:11:59Z,2025-06-08T03:46:13+00:00,10,681.57,True,23,0,2,109,8,1,9,MERGED
+58261,doc: update stability status for diagnostics_channel to experimental,idango10,2025-05-10T15:53:05Z,2025-05-13T04:42:15+00:00,7,60.82,True,16,6,1,13,7,1,8,MERGED
+58260,fix: fallback for TextEncoder using util.TextEncoder,mohithbunny,2025-05-10T14:15:44Z,2025-05-13T12:32:37+00:00,4,70.28,False,17,5,5,793,4,1,5,CLOSED
+58258,buffer: give names to `Buffer.prototype.*Write()` functions,LiviaMedeiros,2025-05-10T06:52:53Z,2025-05-12T07:02:23+00:00,8,48.16,True,3,3,1,0,4,0,4,MERGED
+58255,tools: add read permission to workflows that read contents,aduh95,2025-05-09T23:04:45Z,2025-05-11T23:10:37+00:00,6,48.1,True,2,0,2,173,2,0,2,MERGED
+58254,tools: ignore deps and benchmark folder,RafaelGSS,2025-05-09T22:42:15Z,2025-05-15T19:41:17+00:00,4,140.98,True,2,2,1,75,2,0,2,MERGED
+58253,Changing assert to become a class,miguelmarcondesf,2025-05-09T21:42:35Z,2025-08-05T14:15:02+00:00,57,2104.54,True,823,49,15,626,20,19,39,MERGED
+58251,sqlite: set `name` and `length` on `sqlite.backup()`,LiviaMedeiros,2025-05-09T16:00:16Z,2025-05-11T16:11:29+00:00,3,48.19,True,8,1,2,0,5,1,6,MERGED
+58250,test: fix executable flags,LiviaMedeiros,2025-05-09T14:55:37Z,2025-05-10T03:34:04+00:00,3,12.64,True,0,0,2,331,4,0,4,MERGED
+58248,typings: add missing typings for `TypedArray`,jazelly,2025-05-09T13:56:32Z,2025-05-12T05:56:32+00:00,2,64.0,True,19,0,1,393,1,0,1,MERGED
+58246,http2: add diagnostics channel 'http2.client.stream.created',RaisinTen,2025-05-09T06:46:56Z,2025-05-11T08:38:15+00:00,4,49.86,True,87,0,3,0,8,0,8,MERGED
+58241,typings: add typing for `TypedArrayPrototypeFill`,jazelly,2025-05-09T03:23:06Z,2025-05-09T13:31:17+00:00,1,10.14,False,1,0,1,0,2,0,2,CLOSED
+58237,deps: support madvise(3C) across ALL illumos revisions,danmcd,2025-05-08T19:21:08Z,2025-08-07T14:14:09+00:00,5,2178.88,True,14,2,2,252,38,0,38,MERGED
+58236,"fs: glob is stable, so should not emit experimental warnings",theoludwig,2025-05-08T14:31:01Z,2025-05-10T14:37:27+00:00,3,48.11,True,0,8,3,151,5,0,5,MERGED
+58233,test: add `Float16Array` to `common.getArrayBufferViews()`,LiviaMedeiros,2025-05-08T11:37:08Z,2025-05-10T11:39:27+00:00,4,48.04,True,2,1,2,0,5,0,5,MERGED
+58230,deps: enable new JS features the V8 way,targos,2025-05-08T09:37:34Z,2025-05-10T09:39:37+00:00,7,48.03,False,73,42,10,170,6,0,6,CLOSED
+58228,fs: ensure `dir.read()` does not throw synchronously,aduh95,2025-05-08T09:27:37Z,2025-05-10T08:38:28+00:00,5,47.18,True,4,4,2,73,4,1,5,MERGED
+58226,"2025-05-08, Version 24.0.1 (Current)",github-actions,2025-05-08T08:10:17Z,2025-05-08T20:02:39+00:00,1,11.87,True,437,331,57,1430,5,0,5,MERGED
+58225,repl: extract and standardize history from both repl and interface,puskin,2025-05-08T07:50:16Z,2025-05-28T07:38:39+00:00,16,479.81,True,747,267,9,639,17,11,28,MERGED
+58224,test: switch from deprecated `optparse` to `argparse`,avivkeller,2025-05-08T00:14:20Z,2025-05-21T19:25:50+00:00,1,331.19,True,42,42,1,162,5,0,5,MERGED
+58222,buffer: use atomic freecallback instead of mutex in callbackinfo,mertcanaltin,2025-05-07T22:00:58Z,2025-05-08T17:40:23+00:00,2,19.66,False,8,17,1,56,1,1,2,CLOSED
+58220,buffer: move SlowBuffer to EOL,panva,2025-05-07T19:33:39Z,2025-05-09T19:41:31+00:00,9,48.13,True,61,118,23,174,8,0,8,MERGED
+58217,[v22.x backport] src: initialize privateSymbols for per_context ,jazelly,2025-05-07T13:01:18Z,2025-05-19T08:51:31+00:00,1,283.84,False,66,16,5,275,12,0,12,CLOSED
+58216,Update README and merge .md,NishaGadave,2025-05-07T12:13:45Z,2025-05-07T13:45:17+00:00,1,1.53,False,1,0,1,0,0,0,0,CLOSED
+58214,Update README.md,Skc-VitInProjects,2025-05-07T11:25:00Z,2025-05-07T13:44:46+00:00,1,2.33,False,1,0,1,0,0,0,0,CLOSED
+58213,build: look for libnode.so in lib subdirectory,khardix,2025-05-07T10:26:42Z,2025-05-22T12:16:25+00:00,3,361.83,True,13,3,1,386,7,0,7,MERGED
+58212,test: deflake test-http2-client-socket-destroy,lpinca,2025-05-07T08:04:14Z,2025-05-09T19:14:23+00:00,2,59.17,True,1,0,1,118,6,0,6,MERGED
+58211,"Revert ""buffer: move SlowBuffer to EOL""",panva,2025-05-07T06:19:48Z,2025-05-07T19:31:21+00:00,15,13.19,True,118,61,23,681,25,1,26,MERGED
+58210,src: add a couple fast apis in node_os,jasnell,2025-05-07T04:41:11Z,2025-05-12T17:34:46+00:00,5,132.89,False,71,4,3,34,4,0,4,CLOSED
+58209,perf_hooks: couple of perf hooks improvements,jasnell,2025-05-07T04:15:39Z,2025-05-26T16:08:01+00:00,6,467.87,False,51,2,5,142,13,1,14,CLOSED
+58206,fs: add support to `Dir` for explicit resource management,aduh95,2025-05-07T02:20:54Z,2025-05-11T14:53:21+00:00,4,108.54,True,54,7,3,0,5,2,7,MERGED
+58202,"Revert ""test_runner: change ts default glob""",theoludwig,2025-05-06T23:41:43Z,2025-05-09T05:54:29+00:00,3,54.21,True,10,7,6,1292,12,0,12,MERGED
+58200,src: remove overzealous tcsetattr error check,bnoordhuis,2025-05-06T19:26:12Z,2025-05-08T22:38:36+00:00,5,51.21,True,5,3,1,468,5,0,5,MERGED
+58196,util: inspect: do not crash on an Error stack pointing to itself,SamVerschueren,2025-05-06T15:59:49Z,2025-06-16T23:36:47+00:00,8,991.62,True,37,4,2,172,13,2,15,MERGED
+58193,lib: fix sourcemaps with ts module mocking,marco-ippolito,2025-05-06T15:04:04Z,2025-05-08T15:14:22+00:00,6,48.17,True,89,1,6,13,5,3,8,MERGED
+58192,inspector: add mimeType and charset support to Network.Response,islandryu,2025-05-06T14:56:40Z,2025-05-28T10:15:38+00:00,9,523.32,True,232,2,8,156,5,4,9,MERGED
+58190,"Revert ""watch: fix watch args not being properly filtered""",joyeecheung,2025-05-06T11:43:44Z,2025-05-06T18:28:22+00:00,5,6.74,False,5,70,2,763,5,0,5,CLOSED
+58189,"doc: type improvement of file `http.md`, `outgoingMessage.setHeader` and `outgoingMessage.getHeader` section",samuel871211,2025-05-06T08:49:14Z,2025-09-14T00:39:24+00:00,3,3135.84,True,4,4,1,19,3,0,3,MERGED
+58188,"doc: fix typo of file `http.md`, `outgoingMessage.setTimeout` section",samuel871211,2025-05-06T08:21:13Z,2025-05-11T14:53:14+00:00,7,126.53,True,2,2,1,0,2,0,2,MERGED
+58187,Revert V8 MSVC and deadlock workarounds,targos,2025-05-06T08:03:38Z,2025-05-08T08:28:11+00:00,4,48.41,False,30,93,16,49,10,0,10,CLOSED
+58186,tools: support environment variables via comments,pmarchini,2025-05-05T20:33:47Z,2025-05-11T17:54:56+00:00,7,141.35,True,115,7,9,198,5,1,6,MERGED
+58185,[v20.x] permission: ignore internalModuleStat on module loading,RafaelGSS,2025-05-05T19:42:22Z,2025-08-14T10:39:56+00:00,2,2414.96,False,109,23,11,727,5,0,5,CLOSED
+58184,test: remove Float16Array flag,LiviaMedeiros,2025-05-05T17:12:48Z,2025-05-07T20:20:10+00:00,4,51.12,True,3,21,6,66,6,0,6,MERGED
+58183,test: fix watch tests not including completion messages,dario-piotrowicz,2025-05-05T16:48:32Z,2025-05-06T02:59:42+00:00,3,10.19,True,5,5,1,252,8,1,9,MERGED
+58182,fs: add support for `URL` for `fs.glob`'s `cwd` option,aduh95,2025-05-05T15:31:44Z,2025-05-11T17:29:46+00:00,10,145.97,True,48,4,3,93,9,5,14,MERGED
+58181,test: force slow `JSON.stringify` path for overflow,codebytere,2025-05-05T12:55:18Z,2025-05-30T06:22:52+00:00,3,593.46,True,8,4,1,289,6,0,6,MERGED
+58180,"http,https: give names to anonymous or misnamed functions",LiviaMedeiros,2025-05-05T12:39:34Z,2025-05-12T12:28:05+00:00,5,167.81,True,17,14,3,534,7,1,8,MERGED
+58178,http: fix keep-alive not timing out after post-request empty line,islandryu,2025-05-05T08:46:23Z,2025-06-24T12:37:20+00:00,5,1203.85,True,50,2,2,947,14,3,17,MERGED
+58176,test: update WPT for WebCryptoAPI to 591c95ce61,nodejs-github-bot,2025-05-05T07:40:39Z,2025-05-27T11:59:19+00:00,3,532.31,True,255,94,10,90,11,0,11,MERGED
+58175,doc: add history entries to `--input-type` section,aduh95,2025-05-05T07:22:46Z,2025-05-07T07:30:48+00:00,2,48.13,True,10,1,1,0,1,0,1,MERGED
+58174,deps: update amaro to 0.5.3,nodejs-github-bot,2025-05-05T06:39:17Z,2025-05-07T06:46:04+00:00,4,48.11,True,6,6,4,46,5,0,5,MERGED
+58173,test: allow `tmpDir.path` to be modified,avivkeller,2025-05-05T00:50:05Z,2025-05-12T18:43:03+00:00,2,185.88,True,8,2,1,111,6,0,6,MERGED
+58172,cli: add support to bin scripts,IlyasShabi,2025-05-04T20:50:50Z,2025-06-23T08:20:53+00:00,1,1187.5,False,258,43,9,205,1,5,6,CLOSED
+58171,build: fix pointer compression builds,joyeecheung,2025-05-04T19:47:28Z,2025-05-18T23:24:05+00:00,3,339.61,False,27,5,6,894,21,0,21,CLOSED
+58169,src: simplify is_callable by making it a concept,tniessen,2025-05-04T17:45:35Z,2025-09-20T22:44:23+00:00,5,3340.98,True,3,7,2,211,6,4,10,MERGED
+58168,src: remove NonCopyableMaybe,tniessen,2025-05-04T16:55:29Z,2025-05-06T17:02:29+00:00,8,48.12,True,0,32,1,155,4,0,4,MERGED
+58166,crypto: merge CipherBase.initiv into constructor,tniessen,2025-05-04T16:30:12Z,2025-05-07T16:13:30+00:00,2,71.72,True,34,43,3,326,5,0,5,MERGED
+58165,node-api: use WriteV2 in napi_get_value_string_utf16,tniessen,2025-05-04T16:03:17Z,2025-05-16T16:10:45+00:00,12,288.12,True,10,8,1,197,7,3,10,MERGED
+58164,src: use String::WriteV2() in TwoByteValue,tniessen,2025-05-04T15:34:31Z,2025-05-09T03:15:47+00:00,6,107.69,True,4,6,1,67,11,0,11,MERGED
+58163,src: refactor WriteUCS2 and remove flags argument,tniessen,2025-05-04T15:17:04Z,2025-05-08T12:55:26+00:00,2,93.64,True,23,31,2,1045,5,0,5,MERGED
+58160,fs: improve `cpSync` dest overriding performance,dario-piotrowicz,2025-05-04T13:29:18Z,2025-05-23T12:26:05+00:00,31,454.95,True,85,7,5,171,16,7,23,MERGED
+58158,doc: clarify napi_get_value_string_* for bufsize 0,tniessen,2025-05-04T12:31:11Z,2025-05-12T17:07:53+00:00,9,196.61,True,6,0,1,104,4,3,7,MERGED
+58157,build: escape > metachar in vcbuild,Flarna,2025-05-04T11:47:31Z,2025-05-06T11:54:01+00:00,3,48.11,True,1,1,1,121,5,0,5,MERGED
+58156,buffer: use Utf8LengthV2() instead of Utf8Length(),tniessen,2025-05-04T11:40:19Z,2025-05-17T14:21:31+00:00,4,314.69,True,1,1,1,142,9,0,9,MERGED
+58155,src: enforce assumptions in FIXED_ONE_BYTE_STRING,tniessen,2025-05-04T10:58:18Z,2025-08-24T11:07:37+00:00,7,2688.16,True,8,6,1,659,8,1,9,MERGED
+58154,src: enable Float16Array and explicit resource management,targos,2025-05-04T09:54:38Z,2025-05-04T23:14:20+00:00,5,13.33,True,6,6,3,73,11,0,11,MERGED
+58153,build: ignore doc-only change for test-linux workflows,hkleungai,2025-05-04T05:58:57Z,2025-05-04T07:57:32+00:00,1,1.98,False,4,0,1,315,3,0,3,CLOSED
+58152,deps: update ada to 3.2.4,nodejs-github-bot,2025-05-04T00:39:21Z,2025-05-18T08:11:20+00:00,6,343.53,True,34,40,2,44,9,0,9,MERGED
+58151,deps: update googletest to 09ffd00,nodejs-github-bot,2025-05-04T00:39:18Z,2025-06-01T00:44:52+00:00,5,672.09,False,87,197,5,53,7,0,7,CLOSED
+58150,deps: update zlib to 1.3.1-4821bf7,nodejs-github-bot,2025-05-04T00:39:18Z,2025-05-25T00:39:56+00:00,3,504.01,False,0,0,0,53,7,0,7,CLOSED
+58149,async_hooks: ensure AsyncLocalStore instances work isolated,Flarna,2025-05-03T22:42:41Z,2025-05-06T18:00:56+00:00,11,67.3,True,81,3,3,167,3,3,6,MERGED
+58148,test: reduce flakiness in test-heapdump-http2,joyeecheung,2025-05-03T21:29:10Z,2025-05-05T21:32:09+00:00,2,48.05,True,3,4,1,740,4,0,4,MERGED
+58147,esm: add support for dynamic source phase hook,guybedford,2025-05-03T19:28:11Z,2025-05-22T14:43:12+00:00,12,451.25,False,19,18,4,124,9,2,11,CLOSED
+58146,tty: improve color terminal color detection,BridgeAR,2025-05-03T18:47:06Z,2025-05-21T12:05:07+00:00,3,425.3,True,54,20,2,200,9,2,11,MERGED
+58145,doc: fix misaligned options in vm.compileFunction(),hkleungai,2025-05-03T18:42:31Z,2025-05-05T18:50:51+00:00,2,48.14,True,7,7,1,295,1,0,1,MERGED
+58144,deps: update llhttp to 9.3.0,indutny,2025-05-03T17:49:33Z,2025-05-07T14:21:52+00:00,4,92.54,True,1459,1491,9,158,9,0,9,MERGED
+58143,http: remove unused functions and add todos,anonrig,2025-05-03T16:59:20Z,2025-05-09T02:07:04+00:00,4,129.13,True,6,28,1,66,10,0,10,MERGED
+58142,test: skip test-buffer-tostring-rangeerror when low on memory,BridgeAR,2025-05-03T16:55:56Z,2025-05-07T16:28:21+00:00,5,95.54,True,6,1,1,2535,5,0,5,MERGED
+58141,buffer: use constexpr where possible,anonrig,2025-05-03T16:48:22Z,2025-05-06T16:53:37+00:00,3,72.09,True,2,2,1,34,9,0,9,MERGED
+58138,Add a `[[ErrorData]]` internal slot to DOMException,petamoriken,2025-05-03T12:57:56Z,2025-05-15T15:45:09+00:00,6,290.79,False,19,6,2,95,5,1,6,CLOSED
+58136,doc: clarify --watch and --watch-path usage with --run,juanibe,2025-05-03T10:10:31Z,2025-05-22T17:00:18+00:00,13,462.83,False,7,0,1,317,14,5,19,CLOSED

@@ -1,4 +1,8 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+16138,Emit a message on `cache clean` and `prune` when lock is held,zanieb,2025-10-06T14:46:51Z,2025-10-06T16:49:24+00:00,1,2.04,True,24,20,2,449,0,0,0,MERGED
+16137,Add `--force` flag for `uv cache prune`,zanieb,2025-10-06T14:30:05Z,2025-10-06T16:36:58+00:00,1,2.11,True,81,3,5,42,6,0,6,MERGED
+16135,Remove unused version.rs,konstin,2025-10-06T09:09:24Z,2025-10-06T14:58:20+00:00,1,5.82,True,0,203,1,112,0,0,0,MERGED
+16132,doc: fix example of bumping beta version without patch bump,khneal,2025-10-06T04:00:31Z,2025-10-06T09:16:01+00:00,1,5.26,True,3,3,1,147,0,0,0,MERGED
 16114,Fix rendering of `_CONDA_ROOT` in reference,Gankra,2025-10-03T13:37:41Z,2025-10-03T15:38:01+00:00,1,2.01,True,12,5,2,74,4,0,4,MERGED
 16109,Move `TRACING_DURATIONS_FILE` to `EnvironmentOptions`,TaKO8Ki,2025-10-03T02:57:10Z,2025-10-04T05:09:55+00:00,5,26.21,True,29,8,5,91,1,2,3,MERGED
 16094,Avoid rejecting already-installed URL distributions with `--no-sources`,charliermarsh,2025-10-02T00:11:26Z,2025-10-02T13:32:15+00:00,1,13.35,True,86,29,3,245,0,0,0,MERGED
@@ -149,3 +153,849 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 15351,chore: add trixie base images and alpine 3.22 support,samypr100,2025-08-18T14:30:45Z,2025-08-18T22:55:42+00:00,1,8.42,True,9,0,2,220,3,0,3,MERGED
 15350,Update pypa/gh-action-pypi-publish to version with pinned hashes,konstin,2025-08-18T14:14:39Z,2025-09-05T13:11:40+00:00,1,430.95,True,1,1,1,144,0,0,0,MERGED
 15347,Add an `aarch64-pc-windows-msvc` target,zanieb,2025-08-18T13:29:22Z,2025-08-18T17:57:28+00:00,4,4.47,True,24,0,3,48,0,2,2,MERGED
+15338,Update pre-commit dependencies,renovate,2025-08-18T02:42:15Z,2025-08-18T19:07:12+00:00,1,16.42,True,2,2,1,1630,0,0,0,MERGED
+15328,"Add `--no-install-local` option to `uv sync`, `uv add` and `uv export` ",xaskii,2025-08-17T04:45:43Z,2025-08-22T16:31:52+00:00,5,131.77,True,185,14,10,486,3,2,5,MERGED
+15326,Document improvements to build-isolation setups,charliermarsh,2025-08-16T15:51:58Z,2025-08-18T21:15:36+00:00,7,53.39,True,263,77,2,227,4,3,7,MERGED
+15317,Add WSL testing for pyenv-win,zanieb,2025-08-15T20:45:05Z,2025-08-18T16:21:44+00:00,2,67.61,True,52,0,1,108,0,2,2,MERGED
+15315,Skip interpreters that are not found on query,zanieb,2025-08-15T20:28:19Z,2025-08-18T15:42:48+00:00,1,67.24,True,16,13,1,521,1,0,1,MERGED
+15314,Allow pinning managed Python versions to specific build versions,zanieb,2025-08-15T19:24:15Z,2025-08-25T21:25:05+00:00,13,242.01,True,5518,2537,17,759,0,9,9,MERGED
+15306,Install non-build-isolation packages in a second phase,charliermarsh,2025-08-15T13:11:26Z,2025-08-15T22:00:55+00:00,13,8.82,True,415,43,7,951,0,4,4,MERGED
+15300,fix: Handle dotted package names in script path resolution,crh23,2025-08-15T10:07:17Z,2025-08-15T21:44:59+00:00,1,11.63,True,230,2,8,422,1,0,1,MERGED
+15292,Reject `match-runtime = true` for dynamic packages,charliermarsh,2025-08-14T23:08:58Z,2025-08-15T09:18:11+00:00,1,10.15,True,60,6,4,273,0,0,0,MERGED
+15289,Reject already-installed wheels built with outdated settings,charliermarsh,2025-08-14T20:38:49Z,2025-08-15T15:15:55+00:00,2,18.62,True,684,251,28,428,1,1,2,MERGED
+15281,Allow passing custom reqwest client to RegistryClient,nilskch,2025-08-14T14:28:41Z,2025-08-14T17:00:09+00:00,2,2.52,True,70,40,2,415,2,1,3,MERGED
+15272,fix: refresh activation scripts from upstream virtualenv,2bndy5,2025-08-14T08:53:59Z,2025-09-05T21:12:37+00:00,14,540.31,True,160,75,8,1416,9,2,11,MERGED
+15269,Add Debian 13 trixie to published Docker images,smeng9,2025-08-14T04:24:16Z,2025-08-14T13:54:25+00:00,1,9.5,True,28,2,2,13,2,0,2,MERGED
+15256,"Allow selection of pyodide interpreters with ""pyodide""",zanieb,2025-08-13T17:25:53Z,2025-08-13T19:08:55+00:00,2,1.72,True,250,100,8,0,0,2,2,MERGED
+15252,Add `extra-build-dependencies` hint for any missing module on build failure,blueraft,2025-08-13T16:00:39Z,2025-08-14T17:00:57+00:00,10,25.0,True,1687,40,10,76,4,5,9,MERGED
+15251,Hint to use `extra-build-depedencies` when build fails with a missing…,blueraft,2025-08-13T15:55:00Z,2025-08-14T18:31:55+00:00,2,26.62,False,56,11,2,53,0,1,1,CLOSED
+15234, Fix `uv sync --no-sources` not switching from editable to registry installations,yumeminami,2025-08-12T09:25:18Z,2025-09-17T11:35:32+00:00,1,866.17,True,271,17,17,677,24,0,24,MERGED
+15225,Include build settings in cache key for registry source distribution lookups,charliermarsh,2025-08-11T20:12:12Z,2025-08-11T21:14:28+00:00,1,1.04,True,86,12,3,72,0,0,0,MERGED
+15223,Add the Rust toolchain to Renovate,zanieb,2025-08-11T16:59:21Z,2025-08-12T02:27:07+00:00,1,9.46,True,36,0,1,171,0,0,0,MERGED
+15212,Update Rust crate clap to v4.5.43,renovate,2025-08-11T01:36:10Z,2025-08-11T16:39:57+00:00,1,15.06,True,6,6,1,894,0,0,0,MERGED
+15204, Filter date in GitHub release URLs for `python_install_no_cache` test,ubaidsk,2025-08-10T17:02:35Z,2025-08-11T21:15:52+00:00,1,28.22,True,3,2,1,3097,0,0,0,MERGED
+15202,Add hint for venv in source distribution error,konstin,2025-08-10T13:42:40Z,2025-08-18T22:07:57+00:00,5,200.42,True,166,33,9,296,2,2,4,MERGED
+15200,Add incompatibility from proxy to base package,konstin,2025-08-10T11:26:38Z,2025-09-22T11:26:08+00:00,2,1031.99,True,99,61,7,2484,2,2,4,MERGED
+15194,Add `--reinstall` flag to `uv python upgrade`,jtfmumm,2025-08-09T17:15:59Z,2025-08-11T20:20:04+00:00,2,51.07,True,24,2,5,238,0,0,0,MERGED
+15192,Never create bin links on `uv python upgrade` if they don't already exist,jtfmumm,2025-08-09T16:54:25Z,2025-08-11T20:36:04+00:00,1,51.69,True,3,0,1,12,0,0,0,MERGED
+15187,chore: add 3.14 classifier,henryiii,2025-08-09T02:02:15Z,2025-08-11T20:22:25+00:00,1,66.34,True,1,0,1,72,0,0,0,MERGED
+15177,fix: Use 3.9 compatible zip,anticorrelator,2025-08-08T22:22:46Z,2025-08-08T23:45:14+00:00,1,1.37,True,14,24,2,169,1,0,1,MERGED
+15171,Sync latest Python releases,github-actions,2025-08-08T18:00:26Z,2025-08-08T19:03:26+00:00,1,1.05,True,470,470,2,140,0,0,0,MERGED
+15168,Retrieve all `sitepackages` from interpreters,zanieb,2025-08-08T15:11:09Z,2025-08-08T18:49:34+00:00,2,3.64,False,16,1,3,46,1,1,2,CLOSED
+15161,Fix settings rendering for `extra-build-dependencies`,charliermarsh,2025-08-08T09:37:06Z,2025-08-11T21:24:31+00:00,9,83.79,True,27,118,6,169,0,2,2,MERGED
+15160,Add R2 feature for malo tests,charliermarsh,2025-08-08T09:30:20Z,2025-08-08T11:26:18+00:00,1,1.93,True,5,0,2,14,0,0,0,MERGED
+15157,Update Rust toolchain to 1.89,samypr100,2025-08-08T03:46:48Z,2025-08-08T13:01:53+00:00,5,9.25,True,83,81,37,225,1,1,2,MERGED
+15154,Do not update `uv.lock` when using `--isolated`,zanieb,2025-08-07T21:45:13Z,2025-08-08T14:15:43+00:00,1,16.51,True,173,0,2,167,1,0,1,MERGED
+15138,Add missing periods (`.`) to list elements in `Features` docs page,yury-fedotov,2025-08-07T15:17:15Z,2025-08-07T20:42:50+00:00,1,5.43,True,2,2,1,237,0,0,0,MERGED
+15134,Consider pythonw when copying entrypoints in uv run,samypr100,2025-08-07T13:30:02Z,2025-08-07T15:06:04+00:00,1,1.6,True,78,1,2,152,0,0,0,MERGED
+15126,Ensure symlink warning is shown,konstin,2025-08-07T08:24:29Z,2025-08-07T13:56:59+00:00,2,5.54,True,67,11,6,40,0,0,0,MERGED
+15121,Include all site packages directories in ephemeral environment overlays,zanieb,2025-08-07T01:14:21Z,2025-08-08T18:49:21+00:00,2,41.58,True,55,14,6,379,2,1,3,MERGED
+15111,Upgrade h2 again,zanieb,2025-08-06T16:57:08Z,2025-08-07T13:53:12+00:00,3,20.93,True,11,11,2,286,2,1,3,MERGED
+15110,Add test cases for `find_uv_bin`,zanieb,2025-08-06T15:19:57Z,2025-08-07T12:14:01+00:00,3,20.9,True,442,75,9,344,0,2,2,MERGED
+15106,Respect `UV_HTTP_RETRIES` in `uv publish`,konstin,2025-08-06T11:53:38Z,2025-08-06T15:59:18+00:00,3,4.09,True,40,21,4,158,0,1,1,MERGED
+15105,Don't destructure global network settings,konstin,2025-08-06T11:00:12Z,2025-08-29T18:30:53+00:00,6,559.51,False,167,253,33,193,4,3,7,CLOSED
+15095,Add support for per-project build-time environment variables,charliermarsh,2025-08-05T23:13:25Z,2025-08-06T23:01:55+00:00,1,23.81,True,760,50,30,119,0,0,0,MERGED
+15087,Support `match-runtime = true` in the `uv pip` CLI,charliermarsh,2025-08-05T17:53:03Z,2025-08-05T20:03:10+00:00,2,2.17,True,272,9,5,140,0,1,1,MERGED
+15079,Revert h2 upgrade,charliermarsh,2025-08-05T10:26:13Z,2025-08-05T11:55:58+00:00,1,1.5,True,17,13,3,78,0,0,0,MERGED
+15067,Improve HTTP response caching log messages,zanieb,2025-08-04T21:51:36Z,2025-08-05T19:34:12+00:00,1,21.71,True,27,27,2,218,0,0,0,MERGED
+15066,Show wheel tag hints in install plan,charliermarsh,2025-08-04T21:09:54Z,2025-08-04T23:43:33+00:00,1,2.56,True,209,1,4,137,0,0,0,MERGED
+15061,Prefer system Python installations over managed ones when `--system` is used,zanieb,2025-08-04T14:34:06Z,2025-08-05T00:53:59+00:00,1,10.33,True,50,17,12,1440,0,0,0,MERGED
+15059,Fix handling of `python-preference = system` when managed interpreters are on the PATH,zanieb,2025-08-04T14:12:10Z,2025-08-04T16:02:42+00:00,6,1.84,True,72,20,2,774,0,3,3,MERGED
+15058,Enable `uv run` with a GitHub Gist,charliermarsh,2025-08-04T14:04:15Z,2025-08-04T23:38:20+00:00,1,9.57,True,77,1,1,177,7,0,7,MERGED
+15052,Update trampoline to ~1.87 nightly,samypr100,2025-08-04T03:42:29Z,2025-08-06T12:45:04+00:00,1,57.04,True,24,20,11,622,1,0,1,MERGED
+15041, Avoid invalid simplification with conflict markers ,konstin,2025-08-03T11:26:53Z,2025-08-06T09:26:27+00:00,14,69.99,True,419,127,11,1089,1,7,8,MERGED
+15038,Preserve lowered extra build dependencies,charliermarsh,2025-08-03T02:07:54Z,2025-08-04T21:42:11+00:00,3,43.57,True,475,125,31,312,0,2,2,MERGED
+15036,Enable extra build dependencies to 'match runtime' versions,charliermarsh,2025-08-03T00:37:44Z,2025-08-05T18:00:44+00:00,19,65.38,True,566,81,11,308,8,8,16,MERGED
+15031,Use consistent workspace inheritance,konstin,2025-08-02T18:59:19Z,2025-08-02T20:03:51+00:00,1,1.08,True,69,51,10,149,1,0,1,MERGED
+15030,Respect extra build requires when reading from wheel cache,charliermarsh,2025-08-02T18:11:34Z,2025-08-02T19:26:02+00:00,1,1.24,True,58,15,9,195,0,1,1,MERGED
+15028,Fix some nightly lints,konstin,2025-08-02T15:01:13Z,2025-08-02T18:59:24+00:00,1,3.97,True,44,52,6,367,0,0,0,MERGED
+15026,Gracefully handle entrypoint permission errors,louiswpf,2025-08-02T06:59:51Z,2025-08-02T12:03:37+00:00,1,5.06,True,8,0,1,542,0,0,0,MERGED
+15019,Address linter findings in build-binaries.yml,woodruffw,2025-08-01T20:29:38Z,2025-08-06T15:52:11+00:00,4,115.38,True,151,77,1,233,3,2,5,MERGED
+15017,Add an experimental `uv format` command,zanieb,2025-08-01T19:05:04Z,2025-08-21T11:33:18+00:00,20,472.47,True,1110,5,22,423,4,26,30,MERGED
+15013,Ignore GraalPy devtag,msimacek,2025-08-01T14:05:50Z,2025-08-07T20:53:37+00:00,1,150.8,True,8,1,2,64,2,0,2,MERGED
+15010,Add `UV_DEV` and `UV_NO_DEV` environment variables,charliermarsh,2025-08-01T02:10:16Z,2025-08-08T14:33:44+00:00,1,180.39,True,36,16,4,22,0,0,0,MERGED
+15007,replace manual venv removal with remove_virtualenv,Zaloog,2025-07-31T20:12:14Z,2025-08-07T20:52:57+00:00,7,168.68,True,14,19,5,154,2,2,4,MERGED
+14996,Remove retry wrapper when matching on error kind,charliermarsh,2025-07-31T14:54:25Z,2025-07-31T21:00:01+00:00,5,6.09,True,77,40,6,362,1,2,3,MERGED
+14987,Improve visibility of copy and line separator in dark mode,MichaReiser,2025-07-31T06:49:57Z,2025-07-31T11:50:12+00:00,1,5.0,True,2,0,1,73,0,0,0,MERGED
+14982,Use a unified variant cache across resolver and installer,charliermarsh,2025-07-30T21:04:03Z,2025-07-30T23:56:10+00:00,4,2.87,True,442,335,24,101,1,4,5,MERGED
+14972,Skip`cargo dev generate-all` test case in CI,zanieb,2025-07-30T13:46:50Z,2025-07-31T15:49:42+00:00,2,26.05,True,5,0,1,222,5,0,5,MERGED
+14970,Copy entrypoints that have a shebang that differs in `python` vs `python3`,zanieb,2025-07-30T13:24:55Z,2025-07-30T16:00:16+00:00,1,2.59,True,8,1,1,616,1,0,1,MERGED
+14965,Fix typo in uv-pep440/README.md,cbscsm,2025-07-30T04:10:05Z,2025-07-30T10:25:48+00:00,1,6.26,True,1,1,1,263,0,0,0,MERGED
+14944,Add option to prefer locked versions of packages in build environments,zanieb,2025-07-28T19:04:52Z,2025-08-07T13:50:11+00:00,4,234.76,False,778,39,26,1150,6,2,8,CLOSED
+14938,Clarify messaging when a new resolution needs to be performed,zanieb,2025-07-28T13:02:26Z,2025-07-30T01:13:30+00:00,1,36.18,True,41,41,3,155,0,0,0,MERGED
+14935,Move all retry tests to `network.rs`,konstin,2025-07-28T10:18:08Z,2025-07-28T12:33:54+00:00,1,2.26,True,61,61,2,87,0,0,0,MERGED
+14934, Better warning chain styling ,konstin,2025-07-28T09:33:21Z,2025-07-28T16:23:40+00:00,3,6.84,True,95,60,5,162,0,1,1,MERGED
+14933,Fix symlink preservation in virtual environment creation,yumeminami,2025-07-28T06:55:50Z,2025-07-31T11:59:23+00:00,5,77.06,True,200,4,2,2830,6,3,9,MERGED
+14930,Fix incorrect file permissions in wheel packages,yumeminami,2025-07-28T04:22:45Z,2025-07-28T13:56:08+00:00,2,9.56,True,7,4,2,823,4,0,4,MERGED
+14926,Update CodSpeedHQ/action action to v3.8.0,renovate,2025-07-28T02:41:42Z,2025-07-28T12:50:32+00:00,1,10.15,True,2,2,1,1471,0,0,0,MERGED
+14906,Add support for `package`-level conflicts in workspaces,zanieb,2025-07-25T20:03:10Z,2025-08-08T12:44:58+00:00,10,328.7,True,1913,240,20,1230,0,8,8,MERGED
+14896,Add cli for setting and unsetting credentials to system keyring,jtfmumm,2025-07-25T14:10:05Z,2025-09-02T11:42:06+00:00,4,933.53,False,5373,34,32,729,1,4,5,CLOSED
+14890,Update Rust crate console to 0.16.0,musicinmybrain,2025-07-25T11:16:31Z,2025-07-25T16:09:38+00:00,2,4.89,True,14,14,2,1312,1,1,2,MERGED
+14887,Remove prioritized dist duplication,konstin,2025-07-25T10:27:01Z,2025-07-25T15:18:25+00:00,2,4.86,True,50,19,3,193,0,0,0,MERGED
+14876,Avoid invalidating lockfile when path or workspace dependencies define explicit indexes,charliermarsh,2025-07-24T19:47:42Z,2025-07-25T12:18:29+00:00,1,16.51,True,521,2,2,612,0,0,0,MERGED
+14867,uv_build: Allow non-standard entrypoint names,konstin,2025-07-24T09:26:15Z,2025-07-24T12:12:36+00:00,2,2.77,True,5,17,1,118,0,1,1,MERGED
+14864,Consolidate environment hash filtering,zanieb,2025-07-24T04:33:19Z,2025-07-24T12:35:46+00:00,1,8.04,True,39,114,4,0,0,0,0,MERGED
+14853,Fix typos in uv_build reference documentation,Zij-IT,2025-07-23T19:34:25Z,2025-07-24T09:55:15+00:00,1,14.35,True,5,5,3,82,1,1,2,MERGED
+14852,Publish riscv64 wheels to PyPI,zanieb,2025-07-23T18:13:10Z,2025-07-23T21:52:37+00:00,1,3.66,True,0,4,1,70,8,0,8,MERGED
+14846,Improve concurrency safety of Python downloads into cache,konstin,2025-07-23T14:01:30Z,2025-07-23T16:52:40+00:00,1,2.85,True,5,1,1,0,0,0,0,MERGED
+14824,Add derivation chains for dependency errors,charliermarsh,2025-07-22T17:33:37Z,2025-07-22T19:08:33+00:00,5,1.58,True,164,62,7,712,0,2,2,MERGED
+14823,Split preview mode into separate feature flags,zanieb,2025-07-22T17:15:37Z,2025-07-25T16:01:58+00:00,7,70.77,True,1327,304,55,712,2,4,6,MERGED
+14822,Avoid removing empty directories when constructing virtual environments,zanieb,2025-07-22T17:02:57Z,2025-07-22T18:50:14+00:00,1,1.79,True,59,8,2,118,0,0,0,MERGED
+14821,Add `UV_INIT_BUILD_BACKEND`,zanieb,2025-07-22T16:35:45Z,2025-07-22T19:10:08+00:00,1,2.57,True,11,2,4,13,0,0,0,MERGED
+14819,Archive the 0.7.x changelog,zanieb,2025-07-22T16:25:43Z,2025-07-22T19:10:16+00:00,1,2.74,True,999,735,3,0,0,0,0,MERGED
+14816,expose `tls_built_in_root_certs` from reqwest client,nilskch,2025-07-22T16:18:44Z,2025-07-22T19:25:34+00:00,1,3.11,True,17,1,2,301,0,0,0,MERGED
+14812,Allow removal of virtual environments with missing interpreters,zanieb,2025-07-22T13:50:36Z,2025-07-22T15:16:59+00:00,1,1.44,True,115,25,2,0,0,1,1,MERGED
+14808,Update virtual environment removal to delete `pyvenv.cfg` last,zanieb,2025-07-22T11:21:46Z,2025-07-22T13:13:38+00:00,1,1.86,True,34,10,3,400,2,0,2,MERGED
+14798,Add a borrowed `Realm` type,charliermarsh,2025-07-21T19:59:48Z,2025-07-21T21:07:35+00:00,1,1.13,True,74,4,2,60,0,0,0,MERGED
+14797,Add support for `HF_TOKEN`,charliermarsh,2025-07-21T19:38:02Z,2025-07-21T20:55:34+00:00,4,1.29,True,91,3,6,566,0,3,3,MERGED
+14790,Copy entry points and Jupyter data directories into ephemeral environments,zanieb,2025-07-21T14:40:18Z,2025-07-22T12:11:05+00:00,33,21.51,True,437,2,5,894,1,10,11,MERGED
+14787,Enforce `requires-python` in `pylock.toml`,charliermarsh,2025-07-21T12:56:27Z,2025-07-21T14:37:14+00:00,3,1.68,True,68,1,4,61,0,2,2,MERGED
+14784,Remove Python 3.9.18 from `.python-versions`,konstin,2025-07-21T10:52:37Z,2025-07-21T12:27:59+00:00,1,1.59,True,0,1,1,47,0,0,0,MERGED
+14782,Collect contains markers in enum,konstin,2025-07-21T08:27:15Z,2025-07-21T12:38:33+00:00,1,4.19,True,35,30,2,124,0,0,0,MERGED
+14780,Improve `CPythonFinder._parse_download_url` a bit,j178,2025-07-21T06:16:01Z,2025-07-21T10:22:45+00:00,1,4.11,True,10,14,1,166,0,0,0,MERGED
+14779,Use sha256 checksum from GitHub API for GraalPy releases,j178,2025-07-21T06:11:07Z,2025-07-21T12:35:45+00:00,1,6.41,True,5,0,1,139,0,0,0,MERGED
+14766,Use a match for Windows executables in `venv`,charliermarsh,2025-07-20T22:10:27Z,2025-07-21T14:48:53+00:00,4,16.64,True,88,75,1,267,0,2,2,MERGED
+14764,Create (e.g.) `python3.13t` executables in `uv venv`,charliermarsh,2025-07-20T21:53:32Z,2025-07-21T16:25:50+00:00,2,18.54,True,118,3,2,283,3,0,3,MERGED
+14759,Fix typo in `concepts/projects/config.md`,CarrotManMatt,2025-07-20T19:03:48Z,2025-07-20T21:27:34+00:00,1,2.4,True,3,3,1,0,0,0,0,MERGED
+14755,Support `extras` and `dependency_groups` markers on `uv pip install` and `uv pip sync`,charliermarsh,2025-07-20T17:42:41Z,2025-07-21T12:48:47+00:00,1,19.1,True,493,83,13,206,0,1,1,MERGED
+14741,Update `setup-uv` docs for Github Actions integration guide (re-order python and uv setup),alichaudry,2025-07-18T20:51:42Z,2025-07-21T19:48:48+00:00,1,70.95,True,6,6,1,790,0,0,0,MERGED
+14738,Add hint to use `uv self version` when `uv version` cannot find a project,copilot-swe-agent,2025-07-18T18:17:23Z,2025-07-22T13:32:45+00:00,20,91.26,True,36,10,3,1468,2,9,11,MERGED
+14736,"Apply Cache-Control overrides to response, not request headers",charliermarsh,2025-07-18T17:43:08Z,2025-07-18T20:32:29+00:00,1,2.82,True,201,50,4,524,0,0,0,MERGED
+14735,Add `extra-build-dependencies`,zanieb,2025-07-18T17:37:54Z,2025-07-30T14:53:07+00:00,14,285.25,True,1744,194,46,1511,1,16,17,MERGED
+14733,Fix tests requiring patch-level Python,zanieb,2025-07-18T16:51:39Z,2025-07-20T16:12:01+00:00,1,47.34,True,2,2,1,85,0,0,0,MERGED
+14731,Match `--bounds` formatting for `uv_build` bounds in `uv init`,zanieb,2025-07-18T16:03:31Z,2025-07-21T09:48:38+00:00,1,65.75,True,29,22,4,85,2,0,2,MERGED
+14725,Add new `uv-keyring` crate that vendors the `keyring-rs` crate,jtfmumm,2025-07-18T13:56:17Z,2025-08-15T13:57:56+00:00,13,672.03,True,4474,11,15,1060,0,10,10,MERGED
+14712,Add a reusable path-or-URL parser,konstin,2025-07-18T11:04:55Z,2025-07-18T12:08:49+00:00,3,1.06,True,48,27,2,296,0,1,1,MERGED
+14708,Use SHA256 from GitHub API for Python downloads,konstin,2025-07-18T09:53:56Z,2025-07-18T12:03:55+00:00,3,2.17,True,15,2,1,393,0,2,2,MERGED
+14706,Escape requires version for built_by_uv test,konstin,2025-07-18T09:17:59Z,2025-07-18T10:50:04+00:00,1,1.53,True,22,9,3,59,0,0,0,MERGED
+14703,Retry request on invalid data error,konstin,2025-07-18T07:23:40Z,2025-07-20T22:28:34+00:00,4,63.08,True,23,7,1,47,1,2,3,MERGED
+14690,Add release notes and bump version for 0.8.0 ,zanieb,2025-07-17T20:25:01Z,2025-07-17T22:07:48+00:00,34,1.71,True,199,50,14,8,0,24,24,MERGED
+14683,Build workspace member graph to determine if members are dependencies,jtfmumm,2025-07-17T15:33:30Z,2025-07-17T20:33:53+00:00,7,5.01,False,2850,1206,84,251,0,6,6,CLOSED
+14663,Build and install workspace members that are dependencies by default,zanieb,2025-07-16T16:11:43Z,2025-07-17T18:38:02+00:00,10,26.44,True,791,67,15,58,1,5,6,MERGED
+14662,Add support for toggling Python bin and registry install options via env vars,zanieb,2025-07-16T15:40:25Z,2025-07-17T17:33:44+00:00,1,25.89,True,147,13,9,655,0,0,0,MERGED
+14661,`uv init`: Make `uv_build` the default build backend (from `hatchling`),konstin,2025-07-16T15:08:00Z,2025-07-16T18:07:08+00:00,3,2.99,True,99,223,7,1079,0,2,2,MERGED
+14659,Suggest `uv cache clean` prior to `--reinstall`,charliermarsh,2025-07-16T14:40:25Z,2025-07-16T16:02:29+00:00,1,1.37,True,7,2,1,22,0,0,0,MERGED
+14649,Remove marker from `Edge`,konstin,2025-07-16T13:12:01Z,2025-07-16T14:21:22+00:00,2,1.16,True,17,24,5,35,0,0,0,MERGED
+14646,Add UV_LIBC to allow libc selection in multi-libc environment,nathanscain,2025-07-16T06:23:09Z,2025-07-16T13:52:17+00:00,1,7.49,True,37,14,3,430,3,0,3,MERGED
+14643,Upgrade GraalPy to 24.2.2,github-actions,2025-07-16T00:29:13Z,2025-07-16T14:06:06+00:00,1,13.61,True,10,10,1,37,4,0,4,MERGED
+14640,Use `[PYTHON]` placeholder in filtered Python names,zanieb,2025-07-15T22:48:42Z,2025-07-16T14:05:10+00:00,1,15.27,True,121,116,8,108,0,0,0,MERGED
+14636,Skip Windows Python interpreters that return a broken MSIX package code,zanieb,2025-07-15T19:49:21Z,2025-07-15T21:47:35+00:00,1,1.97,True,35,4,2,327,1,0,1,MERGED
+14632,Update documentation for path dependency packaging,zanieb,2025-07-15T17:52:35Z,2025-07-16T13:34:09+00:00,1,19.69,True,44,28,2,16,0,0,0,MERGED
+14629,Fix --all-arches when paired with --only-downloads,alexprengere,2025-07-15T15:57:14Z,2025-07-15T17:03:01+00:00,1,1.1,True,2,0,1,8307,0,0,0,MERGED
+14626,Stabilize addition of Python executables to the bin,zanieb,2025-07-15T14:33:40Z,2025-07-17T16:09:13+00:00,13,49.59,True,592,112,8,85,0,6,6,MERGED
+14625,Stabilize addition of Python versions to the Windows registry,zanieb,2025-07-15T14:21:06Z,2025-07-16T19:09:46+00:00,1,28.81,True,19,6,3,88,0,0,0,MERGED
+14620,Allow users to override index `cache-control` headers,charliermarsh,2025-07-14T23:54:34Z,2025-07-15T14:00:05+00:00,1,14.09,True,323,24,8,264,0,0,0,MERGED
+14619,windows_exception: Improve async signal safety,geofft,2025-07-14T23:24:53Z,2025-07-17T01:39:21+00:00,7,50.24,True,246,58,4,143,2,2,4,MERGED
+14614,Make preview Python registration on Windows non-fatal,zanieb,2025-07-14T19:53:49Z,2025-07-15T17:29:11+00:00,1,21.59,True,45,13,6,58,0,0,0,MERGED
+14612,Update preview installation of Python executables to be non-fatal,zanieb,2025-07-14T18:05:00Z,2025-07-15T17:12:36+00:00,4,23.13,True,212,40,8,464,1,3,4,MERGED
+14611,Bump version to 0.7.21,geofft,2025-07-14T16:48:57Z,2025-07-14T18:01:28+00:00,10,1.21,True,59,24,13,0,0,6,6,MERGED
+14582,Add an exception handler on Windows,geofft,2025-07-13T02:49:37Z,2025-07-14T14:42:35+00:00,16,35.88,True,138,1,5,2011,5,6,11,MERGED
+14573,Allow `--config-settings-package` to apply configuration settings at the package level,charliermarsh,2025-07-11T23:51:29Z,2025-07-18T01:27:54+00:00,4,145.61,True,927,58,30,37,0,1,1,MERGED
+14571,Update `toml` to v0.9,ibraheemdev,2025-07-11T22:58:54Z,2025-07-21T13:18:16+00:00,13,230.32,True,72,63,11,76,2,5,7,MERGED
+14565,Increase the number of retries during test runs in CI,zanieb,2025-07-11T12:37:20Z,2025-07-11T18:59:47+00:00,1,6.37,True,36,9,3,0,0,0,0,MERGED
+14559,Enable system keyring integration via `--keyring-provider native`,jtfmumm,2025-07-11T08:26:24Z,2025-09-02T11:41:41+00:00,1,1275.25,False,290,13,11,1193,1,2,3,CLOSED
+14551,Fix `if` on macos test job,zanieb,2025-07-10T21:28:21Z,2025-07-10T23:19:45+00:00,1,1.86,True,1,1,1,0,0,0,0,MERGED
+14546,Tear miette out of the `uv venv` command,zanieb,2025-07-10T17:26:32Z,2025-07-11T12:47:06+00:00,5,19.34,True,56,162,3,98,2,1,3,MERGED
+14544,Add `UV_HTTP_RETRIES` to customize retry counts,zanieb,2025-07-10T15:54:07Z,2025-07-11T12:35:27+00:00,9,20.69,True,143,1,27,91,0,4,4,MERGED
+14536,Conditionalize version_extras test on the pypi feature,musicinmybrain,2025-07-10T11:10:37Z,2025-07-10T18:19:36+00:00,1,7.15,True,1,0,1,436,0,0,0,MERGED
+14533,"`setup-python/v5` exists, `v6` don't exists.",kimdwkimdw,2025-07-10T06:47:22Z,2025-07-10T11:17:30+00:00,1,4.5,True,2,2,1,209,2,0,2,MERGED
+14532,chore: remove redundant words in comment,jingchanglu,2025-07-10T06:06:29Z,2025-07-10T13:25:38+00:00,1,7.32,True,2,2,2,52,0,0,0,MERGED
+14530,feature: shorthand for --with (-w) in uvx and uv tool run,noamteyssier,2025-07-09T23:57:49Z,2025-07-10T18:50:50+00:00,1,18.88,True,76,6,4,403,0,0,0,MERGED
+14529,Default to `--workspace` when adding subdirectories,charliermarsh,2025-07-09T21:15:35Z,2025-07-11T02:05:49+00:00,1,28.84,True,521,41,5,310,1,0,1,MERGED
+14522,Add hint when Python downloads are disabled,zanieb,2025-07-09T15:00:20Z,2025-07-10T17:06:25+00:00,2,26.1,True,187,59,9,379,0,1,1,MERGED
+14519,Drop trailing arguments when writing shebangs,charliermarsh,2025-07-09T14:45:11Z,2025-07-09T15:51:06+00:00,2,1.1,True,138,12,2,390,0,1,1,MERGED
+14518,Add support for installing pyodide Pythons,hoodmane,2025-07-09T13:56:12Z,2025-08-13T16:03:26+00:00,3,842.12,True,516,63,15,9,9,1,10,MERGED
+14511,Revert normalization of trailing slashes on index URLs,zanieb,2025-07-08T21:56:19Z,2025-07-09T11:50:31+00:00,2,13.9,True,344,266,8,2290,0,0,0,MERGED
+14509,Add debug message when skipping Python downloads,Grinkers,2025-07-08T18:56:52Z,2025-07-09T15:56:49+00:00,1,21.0,True,1,0,1,1378,0,0,0,MERGED
+14503,Normalize trailing slashes only during lockfile validation,jtfmumm,2025-07-08T09:46:13Z,2025-07-09T09:48:46+00:00,5,24.04,False,203,182,7,747,1,3,4,CLOSED
+14498,Fix handling of pre-releases in preferences,zanieb,2025-07-07T22:02:17Z,2025-07-08T01:10:35+00:00,10,3.14,True,53,20,6,106,0,3,3,MERGED
+14496,Add `--workspace` flag to `uv add`,charliermarsh,2025-07-07T20:56:26Z,2025-07-09T15:46:53+00:00,1,42.84,True,509,7,6,109,7,0,7,MERGED
+14491,Add detail to settings/environments doc,lewis-wf,2025-07-07T19:26:33Z,2025-07-07T20:53:40+00:00,10,1.45,False,4,1,1,370,1,3,4,CLOSED
+14489,Add `exclude-newer-package`,zanieb,2025-07-07T16:29:19Z,2025-07-29T22:00:25+00:00,4,533.52,True,1784,552,67,350,0,2,2,MERGED
+14480,Move fragment preservation test to directly test our redirect handling logic,jtfmumm,2025-07-07T08:23:52Z,2025-07-07T10:51:21+00:00,1,2.46,True,39,38,2,233,1,0,1,MERGED
+14460,Multiple modules in namespace packages,konstin,2025-07-04T14:33:13Z,2025-07-09T17:45:45+00:00,6,123.21,True,309,85,9,689,1,2,3,MERGED
+14458,Log the debug error trace,konstin,2025-07-04T09:26:00Z,2025-07-31T17:13:10+00:00,1,655.79,True,9,4,5,107,9,0,9,MERGED
+14457,Add method to get packages involved in a `NoSolutionError`,tdejager,2025-07-04T08:47:26Z,2025-07-04T18:08:24+00:00,1,9.35,True,10,0,1,657,0,0,0,MERGED
+14456,Document that `VerbatimUrl` does not preserve original string after serialization,jtfmumm,2025-07-04T08:01:19Z,2025-07-04T20:42:56+00:00,1,12.69,True,5,0,1,37,0,0,0,MERGED
+14452,Sync latest Python releases,github-actions,2025-07-04T00:28:10Z,2025-07-08T00:53:38+00:00,2,96.42,True,96,0,1,37,0,0,0,MERGED
+14449,Simplify relative URL handling,konstin,2025-07-03T21:21:53Z,2025-07-09T23:20:03+00:00,1,145.97,True,37,95,7,142,0,1,1,MERGED
+14447,Use an ephemeral environment for `uv run --with` invocations,charliermarsh,2025-07-03T19:36:20Z,2025-07-14T17:18:39+00:00,5,261.71,True,161,149,7,272,2,2,4,MERGED
+14430,Add Coiled integration doc page,jrbourbeau,2025-07-02T19:53:08Z,2025-09-12T12:24:33+00:00,9,1720.52,True,145,0,3,274,2,6,8,MERGED
+14426,Sync latest Python releases,github-actions,2025-07-02T18:12:57Z,2025-07-02T19:51:18+00:00,2,1.64,True,472,478,4,37,0,2,2,MERGED
+14413,Build `path` sources without build systems by default,jtfmumm,2025-07-02T09:28:38Z,2025-07-16T21:17:02+00:00,14,347.81,True,172,48,7,295,9,6,15,MERGED
+14408,Re-enable Artifactory in the registries integration test,jtfmumm,2025-07-02T07:12:54Z,2025-07-02T11:50:36+00:00,1,4.63,True,4,5,2,88,0,0,0,MERGED
+14405,Ignore Python patch version for `--universal` pip compile,charliermarsh,2025-07-02T01:59:12Z,2025-07-02T15:11:51+00:00,2,13.21,True,66,23,2,300,1,0,1,MERGED
+14404,Make project and interpreter lock acquisition non-fatal,charliermarsh,2025-07-02T01:19:26Z,2025-07-02T18:03:43+00:00,2,16.74,True,143,21,10,304,3,0,3,MERGED
+14403,Includes `sys.prefix` in cached environment keys to avoid `--with` collisions across projects,oconnor663,2025-07-01T19:59:46Z,2025-07-02T19:40:18+00:00,3,23.68,True,45,16,2,13,2,1,3,MERGED
+14399,Allow Python requests with missing segments,zanieb,2025-07-01T18:29:09Z,2025-08-13T16:03:09+00:00,3,1029.57,True,388,23,2,1092,0,2,2,MERGED
+14396,Remove unnecessary codspeed deps,konstin,2025-07-01T14:44:30Z,2025-07-01T16:00:30+00:00,1,1.27,True,7,130,2,32,0,0,0,MERGED
+14387,Preserve original trailing slash if present in `find-links` URLs,jtfmumm,2025-07-01T09:25:05Z,2025-07-09T09:49:06+00:00,11,192.4,False,145,112,10,334,16,4,20,CLOSED
+14386,Add auto-detection for Intel GPUs,guangyey,2025-07-01T07:17:41Z,2025-07-09T13:31:09+00:00,7,198.22,True,94,12,3,474,13,1,14,MERGED
+14380,Use parsed URLs for conflicting URL error message,charliermarsh,2025-07-01T00:07:41Z,2025-07-01T12:18:02+00:00,1,12.17,True,23,19,6,548,0,0,0,MERGED
+14378,Keep track of retries in `ManagedPythonDownload::fetch_with_retry`,oconnor663,2025-06-30T21:54:34Z,2025-07-01T16:52:20+00:00,4,18.96,True,64,20,1,2027,2,1,3,MERGED
+14376,Edits to the build backend documentation,zanieb,2025-06-30T20:43:06Z,2025-07-01T08:44:24+00:00,4,12.02,True,149,59,1,0,0,1,1,MERGED
+14374,"Update python, add support for installing arm windows pythons",Gankra,2025-06-30T18:57:24Z,2025-06-30T22:02:19+00:00,1,3.08,True,645,459,2,0,1,0,1,MERGED
+14369,Add UV_COMPILE_BYTECODE_TIMEOUT environment variable,adisbladis,2025-06-30T09:01:29Z,2025-07-17T13:11:32+00:00,6,412.17,True,56,12,3,733,3,2,5,MERGED
+14368,Workaround for panic due to missing global validation in clap,konstin,2025-06-30T07:53:24Z,2025-07-01T18:39:46+00:00,4,34.77,True,170,97,3,994,1,2,3,MERGED
+14349,Consistently normalize trailing slashes on URLs with no path segments,zanieb,2025-06-29T15:53:25Z,2025-06-29T17:25:10+00:00,6,1.53,True,26,0,1,21,1,2,3,MERGED
+14348,Fix missing remote lockfile invalidation when URL has no path,zanieb,2025-06-29T15:22:28Z,2025-06-29T17:46:00+00:00,1,2.39,False,5,3,1,1348,1,0,1,CLOSED
+14339,Sync latest Python releases,github-actions,2025-06-28T00:27:12Z,2025-06-28T03:08:53+00:00,1,2.69,True,3,3,2,37,0,0,0,MERGED
+14338,Reuse build (virtual) environments across resolution and installation,charliermarsh,2025-06-27T23:41:42Z,2025-07-01T17:15:47+00:00,5,89.57,True,189,90,10,757,3,2,5,MERGED
+14337,Use the canonical `ImplementationName` -> `&str` implementation,zanieb,2025-06-27T23:30:58Z,2025-06-28T14:42:18+00:00,1,15.19,True,15,5,2,213,0,0,0,MERGED
+14336,Ignore `UV_PYTHON_CACHE_DIR` when empty,zanieb,2025-06-27T21:51:16Z,2025-06-28T14:42:27+00:00,1,16.85,True,3,1,1,32,0,0,0,MERGED
+14335,Update the tilde version specifier warning to include more context,zanieb,2025-06-27T21:44:31Z,2025-07-02T14:08:45+00:00,7,112.4,True,115,33,5,14,10,4,14,MERGED
+14331,Include the canonical path in the interpreter query cache key,zanieb,2025-06-27T20:21:49Z,2025-06-30T15:39:47+00:00,2,67.3,True,32,23,1,2468,0,0,0,MERGED
+14330,Update the Python query cache comment,zanieb,2025-06-27T19:53:39Z,2025-06-28T14:42:23+00:00,1,18.81,True,2,1,1,0,0,0,0,MERGED
+14329,Fix error message ordering for `pyvenv.cfg` version conflict,zanieb,2025-06-27T19:40:29Z,2025-06-29T13:19:05+00:00,1,41.64,True,2,2,1,46,0,0,0,MERGED
+14326,Cache Python downloads by default in `python install` tests,zanieb,2025-06-27T19:25:53Z,2025-07-28T17:33:57+00:00,1,742.13,True,185,25,3,482,0,0,0,MERGED
+14325,Make warnings about masked `[tool.uv]` fields more precise,Gankra,2025-06-27T19:01:04Z,2025-07-20T22:54:50+00:00,3,555.9,True,483,6,3,33,0,2,2,MERGED
+14322,Add missing validations for disallowed `uv.toml` fields,Gankra,2025-06-27T18:26:38Z,2025-07-11T17:01:41+00:00,2,334.58,True,45,7,2,481,4,1,5,MERGED
+14320,Add `--python-platform` to `uv sync`,charliermarsh,2025-06-27T17:48:37Z,2025-07-11T01:38:29+00:00,1,319.83,True,123,10,10,22,0,0,0,MERGED
+14319,Return `Cow` from `UrlString::with_` methods,jtfmumm,2025-06-27T16:01:54Z,2025-06-27T17:54:53+00:00,6,1.88,True,37,24,2,84,0,3,3,MERGED
+14311,Stabilize the uv build backend,konstin,2025-06-27T10:42:41Z,2025-07-02T20:37:43+00:00,2,129.92,True,9,45,7,516,0,0,0,MERGED
+14310,Add a test for `--force-pep517`,konstin,2025-06-27T10:42:19Z,2025-07-03T13:34:45+00:00,1,146.87,True,64,1,1,94,0,0,0,MERGED
+14309,Require `uv venv --clear` before removing an existing directory,jtfmumm,2025-06-27T10:02:58Z,2025-07-16T19:25:48+00:00,32,465.38,True,282,135,25,909,0,10,10,MERGED
+14304,Only drop build directories on program exit,charliermarsh,2025-06-27T02:42:06Z,2025-07-01T16:50:19+00:00,2,110.14,True,65,10,7,438,10,0,10,MERGED
+14300,Bump `--python-platform linux` to `manylinux_2_28`,charliermarsh,2025-06-26T23:48:02Z,2025-06-27T02:45:45+00:00,1,2.96,True,15,15,4,653,4,0,4,MERGED
+14295,"Add a ""choosing a build backend"" section to the docs",konstin,2025-06-26T20:40:28Z,2025-07-02T14:02:03+00:00,4,137.36,True,17,4,1,100,0,2,2,MERGED
+14290,default the test buckets dir to the canonicalized temp dir,oconnor663,2025-06-26T18:11:29Z,2025-06-26T21:56:20+00:00,1,3.75,True,10,23,5,434,4,0,4,MERGED
+14288,Avoid using path URL for workspace Git dependencies in `requirements.txt`,charliermarsh,2025-06-26T17:54:48Z,2025-06-26T19:48:12+00:00,3,1.89,True,50,9,3,22,2,1,3,MERGED
+14285,Use Flit instead of Poetry for uninstall tests,zanieb,2025-06-26T16:54:26Z,2025-06-26T18:09:05+00:00,5,1.24,True,201,16,4,20,1,2,3,MERGED
+14271,Fix equals-star and tilde-equals with `python_version` and `python_full_version`,konstin,2025-06-26T09:56:35Z,2025-07-01T15:48:48+00:00,8,125.87,True,382,163,13,1510,0,5,5,MERGED
+14261,Ensure preview default Python installs are upgradeable,jtfmumm,2025-06-25T14:10:53Z,2025-06-27T17:26:28+00:00,3,51.26,True,144,67,2,641,1,1,2,MERGED
+14254,Bump version to 0.7.15,jtfmumm,2025-06-25T08:28:25Z,2025-06-25T10:06:41+00:00,5,1.64,True,69,47,13,0,0,3,3,MERGED
+14253,Docs: add instructions for publishing to JFrog's Artifactory,ondrej-profant-dtml,2025-06-25T07:50:46Z,2025-06-30T13:58:55+00:00,5,126.14,True,64,2,1,175,8,2,10,MERGED
+14251,GCP Artifact Registry download URLs must have /simple path,dmvianna,2025-06-25T04:27:08Z,2025-06-25T15:35:41+00:00,3,11.14,True,4,4,1,1084,1,1,2,MERGED
+14246,Update CONTRIBUTING.md with instructions to format markdown files,iamdbychkov,2025-06-24T16:29:38Z,2025-07-11T17:05:16+00:00,1,408.59,True,7,0,1,9865,0,0,0,MERGED
+14245,Normalize index URLs to remove trailing slash,jtfmumm,2025-06-24T16:17:32Z,2025-06-27T15:11:21+00:00,7,70.9,True,391,174,7,837,2,3,5,MERGED
+14243,Update to reqwest 0.12.20,musicinmybrain,2025-06-24T15:47:43Z,2025-07-07T11:39:58+00:00,1,307.87,False,53,50,4,1460,1,0,1,CLOSED
+14235,Don't log GitHub fast path usage if it's cached,konstin,2025-06-24T10:31:08Z,2025-06-24T15:53:10+00:00,1,5.37,True,28,14,2,236,0,0,0,MERGED
+14221,Fix: Handle query parameters in wheel URLs,esafak,2025-06-23T16:57:09Z,2025-06-23T18:52:20+00:00,4,1.92,False,101,1,1,720,0,1,1,CLOSED
+14214,Consolidate logic for checking for a virtual environment,jtfmumm,2025-06-23T11:51:41Z,2025-06-23T13:12:43+00:00,1,1.35,True,30,16,5,220,0,0,0,MERGED
+14212,Allow symlinks in the build backend,konstin,2025-06-23T09:41:48Z,2025-06-25T07:44:22+00:00,3,46.04,True,115,55,4,315,1,1,2,MERGED
+14197,Support conflicting editable settings across groups,charliermarsh,2025-06-22T02:15:54Z,2025-07-11T02:20:01+00:00,5,456.07,True,530,216,23,937,7,1,8,MERGED
+14195,Avoid rendering desugared prefix matches in error messages,charliermarsh,2025-06-21T23:04:45Z,2025-06-27T18:06:19+00:00,1,139.03,True,115,5,3,432,1,0,1,MERGED
+14191,Search in the user scheme scripts directory last in `find_uv_bin`,zanieb,2025-06-21T18:41:07Z,2025-08-08T11:46:32+00:00,2,1145.09,True,79,3,2,202,7,0,7,MERGED
+14190,Consistently use `Ordering::Relaxed` for standalone atomic use cases,christeefy,2025-06-21T15:14:30Z,2025-06-24T19:30:26+00:00,2,76.27,True,6,6,3,454,1,0,1,MERGED
+14184,Add support for `--prefix` and `--with` installations in `find_uv_bin`,zanieb,2025-06-21T12:33:49Z,2025-08-07T21:48:07+00:00,13,1137.24,True,70,42,2,175,1,5,6,MERGED
+14182,Refactor `find_uv_bin` and add a better error message,zanieb,2025-06-21T11:58:55Z,2025-08-07T20:10:38+00:00,8,1136.2,True,120,67,3,227,0,2,2,MERGED
+14181,Update `find_uv_bin` to locate uv in the base prefix,zanieb,2025-06-21T11:47:54Z,2025-08-07T18:40:57+00:00,2,1134.88,True,30,21,2,13,1,0,1,MERGED
+14180,Improve Python uninstall perf by removing unnecessary call to `installations.find_all()`,jtfmumm,2025-06-21T09:29:18Z,2025-06-23T13:51:44+00:00,4,52.37,True,15,15,1,442,1,2,3,MERGED
+14176,Add auto-detection for AMD GPUs,charliermarsh,2025-06-21T01:59:16Z,2025-06-21T15:21:06+00:00,2,13.36,True,257,40,5,814,0,1,1,MERGED
+14174,"Lock the source tree when running setuptools, to protect concurrent builds",oconnor663,2025-06-20T23:30:35Z,2025-06-26T19:28:15+00:00,3,139.96,True,38,12,4,862,8,1,9,MERGED
+14170,Bump the test timeout from 90s -> 120s,zanieb,2025-06-20T20:10:34Z,2025-07-02T13:39:58+00:00,1,281.49,True,2,2,1,81,2,0,2,MERGED
+14169,Require `--global` for removal of the global Python pin,zanieb,2025-06-20T19:46:21Z,2025-06-26T17:22:38+00:00,6,141.6,True,62,11,5,203,2,2,4,MERGED
+14167,make `--check` outdated a non-error status 1,Gankra,2025-06-20T18:44:59Z,2025-07-14T17:47:53+00:00,5,575.05,True,217,98,6,583,2,2,4,MERGED
+14165,Restore Docker image annotations and fix attestations,zanieb,2025-06-20T17:40:28Z,2025-06-21T14:01:20+00:00,11,20.35,True,110,16,1,528,0,12,12,MERGED
+14164,Release 0.8.0,konstin,2025-06-20T17:37:15Z,2025-07-17T22:20:21+00:00,1,652.72,True,4322,1398,100,37,0,1,1,MERGED
+14161,Remove `uv version` fallback,Gankra,2025-06-20T15:44:34Z,2025-07-16T13:24:05+00:00,3,621.66,True,17,56,3,12,0,1,1,MERGED
+14156,Update cargo-dist,Gankra,2025-06-20T15:02:46Z,2025-06-20T18:20:01+00:00,3,3.29,True,90,84,3,159,2,1,3,MERGED
+14153,Prevent concurrent updates of the environment in `uv run`,oconnor663,2025-06-20T14:07:02Z,2025-06-20T20:34:45+00:00,1,6.46,True,6,0,1,2158,4,1,5,MERGED
+14152,Require disambiguated relative paths for `--index`,jtfmumm,2025-06-20T13:53:59Z,2025-06-25T08:02:06+00:00,4,114.14,True,162,4,7,670,1,2,3,MERGED
+14141,handle an existing shebang in `uv init --script`,oconnor663,2025-06-18T22:24:21Z,2025-06-19T21:47:22+00:00,19,23.38,True,88,8,6,14,0,8,8,MERGED
+14136,document the way member sources shadow workspace sources,oconnor663,2025-06-18T19:13:38Z,2025-06-18T22:31:23+00:00,3,3.3,True,7,0,1,14,1,1,2,MERGED
+14135,add support for `excluded-dependencies` ,CodeMan62,2025-06-18T18:43:59Z,2025-08-21T18:14:34+00:00,5,1535.51,False,201,1,9,136,3,5,8,CLOSED
+14132,Improvements to the Python upgrade documentation,zanieb,2025-06-18T16:17:32Z,2025-06-20T13:40:13+00:00,1,45.38,True,50,39,2,21,0,0,0,MERGED
+14131,`uv upgrade` and `uv venv --preview` no longer create symlink directories,jtfmumm,2025-06-18T16:01:41Z,2025-06-19T07:27:54+00:00,1,15.44,True,41,21,5,713,1,0,1,MERGED
+14122,Use Depot for Windows `cargo test`,zanieb,2025-06-18T02:15:47Z,2025-06-18T14:55:09+00:00,2,12.66,True,38,9,2,362,0,1,1,MERGED
+14120,Add ROCm backends to `--torch-backend`,charliermarsh,2025-06-17T19:47:38Z,2025-06-18T11:35:05+00:00,1,15.79,True,397,6,5,148,0,0,0,MERGED
+14119,Remove preview label from `--torch-backend`,charliermarsh,2025-06-17T19:31:24Z,2025-06-17T20:49:00+00:00,1,1.29,True,52,51,4,127,0,0,0,MERGED
+14117,Unify test venv `python` command creation,konstin,2025-06-17T19:15:47Z,2025-06-18T13:06:09+00:00,1,17.84,True,211,810,10,37,0,0,0,MERGED
+14116,Fix PyPI publish test script,konstin,2025-06-17T18:46:52Z,2025-06-18T07:51:53+00:00,2,13.08,True,29,31,1,296,0,1,1,MERGED
+14113,Allow `[project]` to be missing from a `pyproject.toml`,Gankra,2025-06-17T17:39:58Z,2025-09-17T15:48:56+00:00,5,2206.15,True,916,46,12,25,7,4,11,MERGED
+14109,Serialize Python requests for tools as canonicalized strings,zanieb,2025-06-17T16:31:05Z,2025-06-17T22:45:12+00:00,1,6.24,True,46,13,5,522,0,0,0,MERGED
+14108,Don't use walrus operator in interpreter query script,konstin,2025-06-17T15:51:57Z,2025-06-17T17:18:08+00:00,2,1.44,True,2,1,1,153,2,0,2,MERGED
+14107,Refactor `PythonVersionFile` global loading,zanieb,2025-06-17T13:57:02Z,2025-06-20T20:31:32+00:00,13,78.58,True,46,47,2,239,1,5,6,MERGED
+14102,Turn off `clippy::struct_excessive_bools` rule,jtfmumm,2025-06-17T09:10:14Z,2025-06-17T10:18:54+00:00,1,1.14,True,1,90,8,176,0,0,0,MERGED
+14100,doc: Sync PyTorch integration index for CUDA and ROCm versions from PyTorch website.,FishAlchemist,2025-06-17T08:00:40Z,2025-06-17T13:55:03+00:00,1,5.91,True,13,13,1,256,1,0,1,MERGED
+14092,WIP extra-build-dependencies,Gankra,2025-06-16T21:31:56Z,2025-07-18T17:37:19+00:00,4,764.09,False,469,17,24,649,5,4,9,CLOSED
+14088,Publish to DockerHub,zanieb,2025-06-16T19:37:28Z,2025-06-18T16:30:37+00:00,7,44.89,True,21,13,1,164,4,3,7,MERGED
+14084,Warn when `uv python upgrade` tries to install over a non-managed `bin` installation,jtfmumm,2025-06-16T19:15:42Z,2025-06-18T14:39:07+00:00,1,43.39,True,69,7,3,499,2,0,2,MERGED
+14076,Fix handling of changes to `requires-python`,BurntSushi,2025-06-16T14:50:51Z,2025-06-17T15:50:05+00:00,4,24.99,True,250,23,4,1162,0,1,1,MERGED
+14060,Update actions/setup-python action to v5.6.0,renovate,2025-06-16T01:49:22Z,2025-06-16T09:48:20+00:00,1,7.98,True,1,1,1,9202,0,0,0,MERGED
+14057,Update acj/freebsd-firecracker-action action to v0.5.0,renovate,2025-06-16T01:42:57Z,2025-06-16T07:42:01+00:00,1,5.98,True,1,1,1,996,0,0,0,MERGED
+14041,Fix implied `platform_machine` marker for `win_amd64` platform tag,RazerM,2025-06-15T00:46:22Z,2025-06-16T02:37:41+00:00,1,25.86,True,77,2,2,71,1,0,1,MERGED
+14032,Remove unreachable pub function,konstin,2025-06-13T16:45:09Z,2025-06-13T18:04:13+00:00,1,1.32,True,1,1,1,55,0,0,0,MERGED
+14029,Follow-up minor refactoring of transparent Python upgrade code,jtfmumm,2025-06-13T15:12:47Z,2025-06-13T17:05:37+00:00,3,1.88,True,51,96,9,461,0,1,1,MERGED
+14014,Support installing additional executables in `uv tool install`,aaron-ang,2025-06-13T05:23:08Z,2025-07-30T19:50:25+00:00,24,1142.45,True,566,227,14,184,4,13,17,MERGED
+14009,filter out riscv64 wheels before publishing to pypi,Gankra,2025-06-12T22:31:44Z,2025-06-13T13:57:04+00:00,2,15.42,True,4,0,1,24,6,0,6,MERGED
+14008,Warn users on `~=` python version specifier,aaron-ang,2025-06-12T22:07:58Z,2025-06-27T20:48:42+00:00,5,358.68,True,99,15,6,284,7,1,8,MERGED
+14003,"When validating lockfile, take account of indexes defined as sources in path dependencies",jtfmumm,2025-06-12T18:24:27Z,2025-07-25T05:06:50+00:00,5,1018.71,False,614,14,4,920,1,7,8,CLOSED
+14002,Bump version to 0.7.13,zanieb,2025-06-12T18:16:49Z,2025-06-12T19:33:31+00:00,1,1.28,True,64,24,13,0,0,0,0,MERGED
+13993,Add supported macOS version to the platform reference,zanieb,2025-06-12T13:36:11Z,2025-06-12T15:16:24+00:00,3,1.67,True,6,0,1,13,0,1,1,MERGED
+13991,Update platform support reference to include Python implementation list,zanieb,2025-06-12T13:27:45Z,2025-06-12T15:14:42+00:00,5,1.78,True,32,1,1,0,0,2,2,MERGED
+13990,Add 3.14 to the supported platform reference,zanieb,2025-06-12T13:23:16Z,2025-06-12T15:18:48+00:00,1,1.93,True,1,0,1,0,0,0,0,MERGED
+13980,Simplify Python version link construction in discovery,zanieb,2025-06-11T22:40:46Z,2025-06-11T23:59:13+00:00,1,1.31,True,18,14,1,0,0,0,0,MERGED
+13978,Update the CLI help and reference to include references to the Python bin directory,zanieb,2025-06-11T22:29:47Z,2025-06-12T10:02:51+00:00,1,11.55,True,8,5,3,13,0,0,0,MERGED
+13975,Universal sync_required_environment_hint test,konstin,2025-06-11T19:21:55Z,2025-06-12T02:47:40+00:00,1,7.43,True,18,36,1,138,0,0,0,MERGED
+13954,Support transparent Python patch version upgrades,jtfmumm,2025-06-10T19:47:38Z,2025-06-20T14:17:13+00:00,63,234.49,True,3022,306,73,3686,4,36,40,MERGED
+13946,Download versions in `uv python pin` if not found,zanieb,2025-06-10T13:08:22Z,2025-06-10T15:56:22+00:00,1,2.8,True,64,7,4,157,0,0,0,MERGED
+13944,Ignore Python discovery errors during `uv python pin`,zanieb,2025-06-10T12:36:44Z,2025-06-10T14:52:23+00:00,1,2.26,True,6,0,1,394,0,0,0,MERGED
+13940,Warn on empty index directory,aaron-ang,2025-06-10T05:23:54Z,2025-06-18T08:48:21+00:00,5,195.41,True,57,25,3,154,2,2,4,MERGED
+13936,Filter managed Python distributions by platform before querying when included in request,zanieb,2025-06-09T22:43:48Z,2025-06-13T13:50:44+00:00,4,87.12,True,105,17,3,157,0,3,3,MERGED
+13929,Add an `llms.txt` to uv,charliermarsh,2025-06-09T17:20:57Z,2025-06-10T11:46:49+00:00,2,18.43,True,98,4,4,4224,2,1,3,MERGED
+13925,Use TTY detection to determine if SIGINT forwarding is enabled,zanieb,2025-06-09T16:43:37Z,2025-06-11T13:28:34+00:00,2,44.75,True,13,14,1,328,1,1,2,MERGED
+13917,Check if relative URL is valid directory before treating as index,jtfmumm,2025-06-09T14:26:42Z,2025-06-09T17:28:39+00:00,11,3.03,True,112,6,3,524,0,4,4,MERGED
+13899,Update pytorch.md,kabouzeid,2025-06-08T11:12:28Z,2025-06-09T00:21:07+00:00,1,13.14,True,1,1,1,46,0,0,0,MERGED
+13897,Show retries for HTTP status code errors,konstin,2025-06-07T10:53:02Z,2025-06-16T10:14:00+00:00,6,215.35,True,205,146,12,626,0,4,4,MERGED
+13889,Update error message for module conflict hint,zanieb,2025-06-06T19:04:56Z,2025-06-11T22:33:41+00:00,3,123.48,False,7,9,2,17,1,1,2,CLOSED
+13884,Don't hint at versions removed by excluded-newer,konstin,2025-06-06T12:49:13Z,2025-06-06T18:35:18+00:00,1,5.77,True,125,48,7,93,0,0,0,MERGED
+13880,Minor internal README enhancement for Markdown list in PEP440,yury-fedotov,2025-06-06T05:08:16Z,2025-06-06T13:45:37+00:00,1,8.62,True,7,8,1,347,0,0,0,MERGED
+13869,"Lock during `uv sync`, `uv add` and `uv remove` to avoid race conditions",konstin,2025-06-05T17:48:08Z,2025-06-06T12:16:40+00:00,1,18.48,True,44,22,5,979,2,0,2,MERGED
+13862,Improve `python pin` error messages,zanieb,2025-06-05T14:54:45Z,2025-06-05T21:48:35+00:00,1,6.9,True,12,9,2,16,0,0,0,MERGED
+13860,Add `uv python pin --rm` to remove `.python-version` pins,zanieb,2025-06-05T14:47:58Z,2025-06-05T17:05:42+00:00,2,2.3,True,85,0,6,120,0,1,1,MERGED
+13858,Switch `sync_dry_run` test to Python 3.9,mgorny,2025-06-05T10:55:41Z,2025-06-05T13:15:00+00:00,1,2.32,True,4,4,1,245,0,0,0,MERGED
+13855,List `.gitignore` in project init files,AbhiUpadhye,2025-06-05T06:55:03Z,2025-06-05T14:21:15+00:00,1,7.44,True,1,1,1,135,3,0,3,MERGED
+13852,PEP 751 uv export supports --no-editable,samypr100,2025-06-05T03:01:32Z,2025-06-06T11:52:14+00:00,1,32.84,True,71,2,3,309,0,0,0,MERGED
+13850,update Git and GitHub Actions docs to mention `gh auth login`,oconnor663,2025-06-04T21:56:23Z,2025-06-05T20:45:00+00:00,7,22.81,True,82,4,2,352,0,3,3,MERGED
+13844,Bump version to 0.7.11,oconnor663,2025-06-04T17:06:31Z,2025-06-04T19:35:56+00:00,3,2.49,True,73,48,13,0,1,2,3,MERGED
+13835,Downgrade reqwest and hyper-util,konstin,2025-06-04T13:40:29Z,2025-06-04T16:48:54+00:00,1,3.14,True,31,51,2,51,0,0,0,MERGED
+13833,Build backend: Support namespace packages,konstin,2025-06-04T13:25:29Z,2025-06-12T17:23:58+00:00,4,195.97,True,670,229,8,2600,2,3,5,MERGED
+13817,Debug `sync_dry_run` flake by panicking with verbose output on failure,zanieb,2025-06-03T14:17:58Z,2025-06-12T13:05:25+00:00,1,214.79,True,7,12,1,219,0,0,0,MERGED
+13814,Test case: Don't redact username `git` for SSH,konstin,2025-06-03T14:08:25Z,2025-06-04T07:57:24+00:00,9,17.82,True,140,1,4,0,1,6,7,MERGED
+13806,Display ssh git username in `Debug` implementation,jtfmumm,2025-06-03T13:19:12Z,2025-06-03T14:52:51+00:00,3,1.56,True,52,18,1,246,0,1,1,MERGED
+13803,Better error message for version specifier with missing operator,jmwoliver,2025-06-03T12:36:52Z,2025-06-03T19:18:19+00:00,5,6.69,True,107,10,3,1040,3,1,4,MERGED
+13799,Don't redact username `git` for SSH,konstin,2025-06-03T09:32:24Z,2025-06-03T14:18:18+00:00,4,4.76,True,13,1,1,152,0,1,1,MERGED
+13797,Add data locations to logging,konstin,2025-06-03T08:34:08Z,2025-06-03T14:22:18+00:00,1,5.8,True,25,5,1,182,0,0,0,MERGED
+13787,"Use ""terminal driver"" instead of ""shell"" in SIGINT docs",zanieb,2025-06-02T18:37:28Z,2025-06-03T22:07:03+00:00,2,27.49,True,29,29,2,42,0,1,1,MERGED
+13783,add `--show-extras` to `uv tool list` to list extra requirements installed with tools,gaardhus,2025-06-02T13:07:12Z,2025-06-02T14:59:40+00:00,4,1.87,True,145,2,6,258,0,1,1,MERGED
+13781,Unify `zip` and `async_zip` compression methods,corentin-ant,2025-06-02T10:47:58Z,2025-06-02T12:39:32+00:00,2,1.86,True,41,2,2,292,1,0,1,MERGED
+13780,Update `lock::lock_requires_python` not to require Python 3.8,mgorny,2025-06-02T07:56:43Z,2025-06-02T09:10:52+00:00,1,1.24,True,7,4,1,178,1,0,1,MERGED
+13779,Remove winsafe,konstin,2025-06-02T07:18:19Z,2025-06-02T15:53:03+00:00,2,8.58,True,141,20,4,194,3,2,5,MERGED
+13762,Move Python upgrade functionality behind `--preview` flag,jtfmumm,2025-06-01T20:58:03Z,2025-06-10T18:08:33+00:00,6,213.18,True,451,226,56,1174,5,5,10,MERGED
+13760,optionally disable file locking,CodeMan62,2025-06-01T12:30:53Z,2025-07-11T14:17:49+00:00,3,961.78,False,8,0,3,127,3,2,5,CLOSED
+13755,Update more tests not to use Python 3.8,mgorny,2025-05-31T15:49:57Z,2025-06-02T07:22:35+00:00,1,39.54,True,14,14,3,329,2,0,2,MERGED
+13754,Update redirect implementation to handle more cases and be more testable,jtfmumm,2025-05-31T13:46:52Z,2025-06-18T08:57:37+00:00,3,427.18,True,428,103,3,2232,5,2,7,MERGED
+13751,Update dockerfile path in contributing docs,eegli,2025-05-31T08:14:01Z,2025-06-02T08:16:20+00:00,2,48.04,True,1,1,1,81,0,1,1,MERGED
+13748,"avoid fetching an exact, cached commit, even if it isn't locked",oconnor663,2025-05-31T03:33:25Z,2025-06-09T23:50:36+00:00,13,236.29,True,142,50,6,2257,12,8,20,MERGED
+13743,Propagate credentials to files on devpi indexes ending in `/+simple`,zanieb,2025-05-30T20:51:18Z,2025-06-02T00:20:56+00:00,1,51.49,True,2,1,1,115,1,0,1,MERGED
+13742,Support reading dependency-groups from pyproject.tomls with no project,Gankra,2025-05-30T20:02:34Z,2025-06-13T22:16:49+00:00,19,338.24,True,470,97,12,1347,10,11,21,MERGED
+13735,Add `[tool.uv.dependency-groups].mygroup.requires-python`,Gankra,2025-05-30T17:15:32Z,2025-06-13T22:04:13+00:00,93,340.81,True,2072,538,54,454,11,45,56,MERGED
+13732,"update python build standalone, unblocklist linux updates",Gankra,2025-05-30T15:28:06Z,2025-05-30T16:33:21+00:00,4,1.09,True,1217,366,3,0,1,1,2,MERGED
+13724,disfavor aarch64 windows in its own house,Gankra,2025-05-29T22:17:37Z,2025-06-30T21:42:01+00:00,6,767.41,True,98,6,3,2018,10,2,12,MERGED
+13722,Allow discovery of x86-64 managed Python builds on macOS,zanieb,2025-05-29T20:37:25Z,2025-05-29T22:55:21+00:00,2,2.3,True,76,1,2,154,0,1,1,MERGED
+13721,Only show the first match per platform (and architecture) by default in `uv python list` ,Gankra,2025-05-29T20:29:26Z,2025-05-29T21:38:44+00:00,1,1.16,True,9,5,1,32,6,0,6,MERGED
+13719,Disallow arm64 Windows Python installs for now,geofft,2025-05-29T17:11:53Z,2025-06-13T17:21:27+00:00,1,360.16,False,7,0,1,531,3,0,3,CLOSED
+13714,define `UV_USE_ACTIVE_ENVIRONMENT` as an alternative to `--active`,oconnor663,2025-05-29T00:31:08Z,2025-09-12T12:19:42+00:00,1,2555.81,False,129,10,6,169,13,1,14,CLOSED
+13712,Support finer-grained control when upgrading Python versions,jtfmumm,2025-05-28T22:56:21Z,2025-06-10T17:22:43+00:00,6,306.44,True,169,97,11,1013,4,2,6,MERGED
+13709,Implement ordering for Python architectures to prefer native installations,zanieb,2025-05-28T20:47:38Z,2025-05-29T19:06:34+00:00,2,22.32,True,32,3,2,329,1,1,2,MERGED
+13699,Conditionalize more tests that require PyPI,musicinmybrain,2025-05-28T11:42:20Z,2025-06-02T07:57:03+00:00,1,116.25,True,75,2,10,799,6,0,6,MERGED
+13696,Use ref-cast for `DisplaySafeUrl`,konstin,2025-05-28T08:41:50Z,2025-05-28T11:28:28+00:00,1,2.78,True,97,137,8,197,0,0,0,MERGED
+13693,Update schemars 1.0.0,ya7010,2025-05-28T05:28:24Z,2025-06-24T19:43:31+00:00,6,662.25,True,526,815,21,121,6,2,8,MERGED
+13692,Add example of enabling Dependabot,zanieb,2025-05-27T22:01:45Z,2025-05-28T09:10:14+00:00,1,11.14,True,14,1,1,93,0,0,0,MERGED
+13691,docs: integration with marimo guide,akshayka,2025-05-27T21:52:51Z,2025-05-27T23:43:43+00:00,18,1.85,True,111,1,3,542,1,11,12,MERGED
+13689,Add experimental `uv sync --output-format json`,Gankra,2025-05-27T19:56:23Z,2025-07-14T14:53:40+00:00,40,1146.95,True,1389,604,9,356,0,37,37,MERGED
+13688,Update packse scenarios,zanieb,2025-05-27T19:42:22Z,2025-05-28T13:58:39+00:00,7,18.27,True,1714,798,10,98,0,3,3,MERGED
+13683,Make `DisplaySafeUrlRef` Copy and other minor PR follow-ups,jtfmumm,2025-05-27T14:54:32Z,2025-05-28T10:36:18+00:00,1,19.7,True,1610,167,16,566,0,0,0,MERGED
+13680,Avoid using 3.8 in tests when feasible,zanieb,2025-05-27T14:22:46Z,2025-05-27T18:34:50+00:00,4,4.2,True,150,138,15,665,0,3,3,MERGED
+13665,Build s390x on nightly,konstin,2025-05-26T20:02:46Z,2025-05-27T14:32:08+00:00,1,18.49,True,3,0,1,248,0,0,0,MERGED
+13663,Exit early on `self update` if global `--offline` is set,dangdennis,2025-05-26T17:49:33Z,2025-05-27T03:29:58+00:00,4,9.67,True,50,2,4,163,0,2,2,MERGED
+13661,Increase deadsnake timeout to 15min,konstin,2025-05-26T13:51:28Z,2025-05-27T14:37:14+00:00,4,24.76,True,9,3,1,72,0,1,1,MERGED
+13656,Stack traces from Windows CI crashes,konstin,2025-05-26T12:21:15Z,2025-05-26T20:22:42+00:00,2,8.02,True,52,0,1,497,1,0,1,MERGED
+13645,Include pre-release versions in `uv python install --reinstall`,Michaelgathara,2025-05-25T23:10:35Z,2025-05-27T14:35:49+00:00,1,39.42,True,5,1,1,346,0,0,0,MERGED
+13643,Optimize Version display,konstin,2025-05-25T12:55:11Z,2025-05-26T13:17:08+00:00,3,24.37,True,29,31,2,83,0,1,1,MERGED
+13642,Avoid rendering info log level,konstin,2025-05-25T12:37:06Z,2025-05-26T13:17:16+00:00,1,24.67,True,13,11,2,322,0,0,0,MERGED
+13635,Fix cases where the uv lock is incorrectly marked as out of date,Gankra,2025-05-24T00:51:54Z,2025-05-26T18:17:19+00:00,11,65.42,True,145,21,2,170,5,5,10,MERGED
+13627,Add tests for IO Error retries,konstin,2025-05-23T20:57:25Z,2025-06-13T09:57:46+00:00,7,493.01,True,162,36,3,244,1,3,4,MERGED
+13625,Windows paths are valid URLs,konstin,2025-05-23T19:01:57Z,2025-05-28T15:11:57+00:00,3,116.17,True,19,15,1,253,10,1,11,MERGED
+13620,Fix and improve docs,ShapelessCat,2025-05-23T15:46:22Z,2025-06-10T18:15:38+00:00,4,434.49,True,27,26,15,114,1,1,2,MERGED
+13618,add `excluded-dependencies` support,CodeMan62,2025-05-23T14:31:31Z,2025-06-18T18:47:04+00:00,6,628.26,False,741,10,32,95,13,12,25,CLOSED
+13617,blocklist the linux cpython builds from 20250517,Gankra,2025-05-23T14:11:17Z,2025-05-23T22:15:16+00:00,5,8.07,True,339,1154,4,321,4,2,6,MERGED
+13615,Add script for testing uv against different registries,jtfmumm,2025-05-23T10:38:52Z,2025-06-18T07:43:45+00:00,13,621.08,True,506,0,2,1748,6,21,27,MERGED
+13603,Update uraimo/run-on-arch-action to v3.0.1 (latest),geofft,2025-05-22T21:06:40Z,2025-05-24T15:07:49+00:00,1,42.02,True,9,9,1,165,0,0,0,MERGED
+13599,No GHA token for cross arch tests,konstin,2025-05-22T18:04:07Z,2025-05-22T19:11:38+00:00,1,1.13,True,0,9,1,0,0,0,0,MERGED
+13598,Write the path of the parent environment to an `extends-environment` key in the `pyvenv.cfg` file of an ephemeral environment,AlexWaygood,2025-05-22T17:18:02Z,2025-05-27T12:46:28+00:00,2,115.47,True,117,0,4,2679,4,1,5,MERGED
+13597,Bump version to 0.7.7,Gankra,2025-05-22T17:12:44Z,2025-05-22T18:14:47+00:00,1,1.03,False,43,24,13,0,0,1,1,CLOSED
+13595,Properly handle authentication when encountering redirects,jtfmumm,2025-05-22T15:18:02Z,2025-06-18T08:49:17+00:00,7,641.52,True,697,34,11,713,7,3,10,MERGED
+13586,Use codspeed runner for wall time benchmarking,zanieb,2025-05-21T21:54:30Z,2025-05-29T17:52:17+00:00,3,187.96,True,39,1,1,642,3,1,4,MERGED
+13585,Add basic network error tests,konstin,2025-05-21T21:15:17Z,2025-06-10T10:00:05+00:00,3,468.75,True,157,1,2,497,0,1,1,MERGED
+13583,allow running non-default Python interpreters directly via uvx,oconnor663,2025-05-21T20:15:56Z,2025-05-30T16:12:39+00:00,32,211.95,True,525,233,5,2355,8,19,27,MERGED
+13578,Expand the functionality of `uv version --bump` to support pre-releases,Gankra,2025-05-21T14:51:38Z,2025-07-10T13:45:17+00:00,31,1198.89,True,1347,56,10,2685,15,36,51,MERGED
+13576,Extend use of safe URL logging types to `uv-auth` crate,jtfmumm,2025-05-21T12:37:58Z,2025-05-26T21:43:58+00:00,1,129.1,True,233,117,13,1245,1,0,1,MERGED
+13575,Hint at `tool.uv.required-environments`,konstin,2025-05-21T12:28:44Z,2025-06-06T19:15:52+00:00,5,390.79,True,84,25,3,957,1,1,2,MERGED
+13566,Fix version json tests to work outside git checkout,mgorny,2025-05-21T07:43:31Z,2025-05-21T19:59:40+00:00,4,12.27,True,85,35,1,409,0,1,1,MERGED
+13563,Build backend: Support stubs packages,konstin,2025-05-20T21:35:21Z,2025-05-22T17:02:18+00:00,7,43.45,True,240,22,5,383,1,2,3,MERGED
+13560,Add `DisplaySafeUrl` newtype to prevent leaking of credentials by default,jtfmumm,2025-05-20T19:09:43Z,2025-05-26T22:05:30+00:00,25,146.93,True,1262,2245,100,3147,6,24,30,MERGED
+13552,Platform discovery is using ld.so instead ldd,konstin,2025-05-20T10:24:03Z,2025-05-20T13:27:22+00:00,1,3.06,True,24,18,1,242,0,0,0,MERGED
+13549,make the error message clearer when running distroless containers,oconnor663,2025-05-20T07:12:03Z,2025-05-29T17:29:02+00:00,15,226.28,True,22,7,4,506,12,6,18,MERGED
+13537,Bump version to 0.7.6,zanieb,2025-05-19T14:01:34Z,2025-05-19T23:46:11+00:00,1,9.74,True,52,25,14,0,0,1,1,MERGED
+13534,Clarify adding SSH Git dependencies,art-dsit,2025-05-19T13:18:05Z,2025-05-20T14:20:15+00:00,1,25.04,True,5,2,1,353,1,0,1,MERGED
+13531,Support transparently upgradeable Python bin installations,jtfmumm,2025-05-19T08:55:36Z,2025-06-10T18:04:57+00:00,17,537.16,True,311,96,24,1498,7,8,15,MERGED
+13488,Don't error when the script is too short for the buffer,konstin,2025-05-16T12:37:26Z,2025-05-17T00:14:13+00:00,1,11.61,True,6,1,1,42,0,0,0,MERGED
+13483,Add missing word in “script not supported” error,andrewpollack,2025-05-16T04:48:52Z,2025-05-16T08:23:30+00:00,1,3.58,True,9,9,2,642,0,0,0,MERGED
+13478,Apply first set of Rustfmt edition 2024 changes,konstin,2025-05-15T19:33:12Z,2025-05-17T00:19:03+00:00,1,28.76,True,661,314,77,445,0,0,0,MERGED
+13474,Allow discovery of x86-64 managed Python builds on macOS,zanieb,2025-05-15T17:38:07Z,2025-05-29T19:06:35+00:00,6,337.47,False,74,2,2,0,0,2,2,CLOSED
+13469,More efficient cache-key globbing + support parent paths in globs,aldanor,2025-05-15T14:07:29Z,2025-07-11T15:01:54+00:00,13,1368.91,True,347,22,3,3103,10,6,16,MERGED
+13468, Build backend: Case sensitive module discovery,konstin,2025-05-15T13:59:52Z,2025-05-16T12:25:35+00:00,5,22.43,True,201,128,6,294,2,3,5,MERGED
+13465,Build backend: Normalize glob paths,konstin,2025-05-15T12:02:49Z,2025-05-15T15:19:02+00:00,1,3.27,True,94,21,3,163,0,1,1,MERGED
+13462,Reinstall local packages in `uv add`,blueraft,2025-05-15T10:03:15Z,2025-05-15T14:08:54+00:00,7,4.09,True,103,8,2,42,1,2,3,MERGED
+13460,Retain trailing comments after PEP 723 metadata block,charliermarsh,2025-05-14T19:21:09Z,2025-05-14T21:54:21+00:00,1,2.55,True,74,9,2,22,0,0,0,MERGED
+13458,fix #13456: Make VIRTUAL_ENV_PROMPT format consistent with venv/virtualenv,SANTHOSH-SACHIN,2025-05-14T17:20:04Z,2025-05-17T11:48:36+00:00,6,66.48,False,13,15,5,1167,5,2,7,CLOSED
+13455,Hint at `tool.uv.environments` on resolution error,konstin,2025-05-14T16:13:52Z,2025-06-06T14:17:52+00:00,13,550.07,True,220,4,14,1077,2,1,3,MERGED
+13451,Issue template: Please include the complete error message,konstin,2025-05-14T12:32:22Z,2025-05-15T12:36:08+00:00,2,24.06,True,2,0,1,214,0,0,0,MERGED
+13441,feat: add dynamically generated sysconfig replacement mappings,samypr100,2025-05-14T02:29:09Z,2025-06-02T15:58:30+00:00,13,469.49,True,387,117,10,305,4,5,9,MERGED
+13438,Follow links when cache-key is a glob,aldanor,2025-05-14T01:43:13Z,2025-07-14T15:35:34+00:00,2,1477.87,True,97,9,3,3282,15,0,15,MERGED
+13437,Warn when two packages write to the same module,konstin,2025-05-13T20:55:00Z,2025-08-08T09:01:14+00:00,22,2076.1,True,212,20,3,1409,12,6,18,MERGED
+13422,Remove unused source tree variant,charliermarsh,2025-05-13T03:36:13Z,2025-05-13T07:07:10+00:00,1,3.52,True,7,42,4,80,0,0,0,MERGED
+13406,Avoid panics for cannot-be-a-base URLs,konstin,2025-05-12T11:23:52Z,2025-05-13T02:29:26+00:00,2,15.09,True,7,2,2,100,2,1,3,MERGED
+13391,feat(docker): set default `UV_TOOL_BIN_DIR` on docker images,samypr100,2025-05-12T01:47:13Z,2025-06-21T19:42:28+00:00,2,977.92,True,4,0,2,628,1,0,1,MERGED
+13390,feat(docker): add 3.14 beta images to uv docker,samypr100,2025-05-12T00:14:26Z,2025-05-13T18:27:10+00:00,2,42.21,True,8,2,2,261,7,0,7,MERGED
+13366,Fix double self-dependency,konstin,2025-05-09T16:32:08Z,2025-05-13T03:03:44+00:00,2,82.53,True,93,4,3,87,0,1,1,MERGED
+13354,Fix detection of sorted dependencies when include-group is used,RazerM,2025-05-08T19:44:01Z,2025-05-10T18:00:28+00:00,1,46.27,True,247,73,2,610,1,0,1,MERGED
+13351,Add more context to errors in high level crates.,konstin,2025-05-08T17:43:43Z,2025-05-12T11:04:41+00:00,1,89.35,True,50,31,12,95,0,0,0,MERGED
+13348,Rename `--raw-sources` to `--raw`,zanieb,2025-05-08T16:58:28Z,2025-05-08T20:05:03+00:00,1,3.11,True,31,24,6,176,0,0,0,MERGED
+13334,Preserve order of dependencies which are sorted naively,RazerM,2025-05-07T17:58:35Z,2025-05-07T22:18:21+00:00,1,4.33,True,151,0,2,663,0,0,0,MERGED
+13333,Redact credentials when displaying URLs,jtfmumm,2025-05-07T16:47:17Z,2025-05-12T16:58:25+00:00,16,120.19,True,153,8,17,588,1,6,7,MERGED
+13326,Remove outdated description of index strategy,jtfmumm,2025-05-07T10:17:27Z,2025-05-07T13:18:21+00:00,1,3.02,True,1,3,1,0,0,0,0,MERGED
+13317,make `uv version` lock and sync,Gankra,2025-05-06T18:54:50Z,2025-05-21T13:46:09+00:00,8,354.86,True,1776,182,9,799,5,6,11,MERGED
+13313,Build backend: Allow escaping in globs,konstin,2025-05-06T11:04:09Z,2025-05-07T16:31:41+00:00,4,29.46,True,169,45,9,651,1,3,4,MERGED
+13312,Add `uv python upgrade` and support transparent patch upgrades in virtual environments,jtfmumm,2025-05-06T10:58:56Z,2025-06-10T17:04:37+00:00,173,846.09,True,2385,241,42,2612,3,85,88,MERGED
+13305,Suggest `uv self update` if required version is newer,blueraft,2025-05-05T20:40:43Z,2025-05-08T00:09:29+00:00,1,51.48,True,40,1,2,1039,3,0,3,MERGED
+13289,Accept `musllinux_1_0` as a valid platform tag,charliermarsh,2025-05-04T23:50:19Z,2025-05-05T06:53:42+00:00,1,7.06,True,1,2,1,174,0,0,0,MERGED
+13287,Avoid re-creating virtual environment with `--no-sync`,charliermarsh,2025-05-04T22:30:19Z,2025-05-05T14:57:47+00:00,1,16.46,True,159,44,11,152,0,0,0,MERGED
+13285,"Support more zip compression formats: bzip2, lzma, xz, zstd",konstin,2025-05-04T16:02:05Z,2025-05-04T18:08:19+00:00,1,2.1,True,1,1,1,567,0,0,0,MERGED
+13284,Treat already-installed base environment packages as preferences in `uv run --with`,charliermarsh,2025-05-04T15:40:47Z,2025-05-04T23:24:57+00:00,2,7.74,True,140,34,4,370,0,2,2,MERGED
+13281,Retry streaming downloads on broken pipe errors,konstin,2025-05-03T23:34:29Z,2025-05-04T12:56:15+00:00,1,13.36,True,2,2,2,164,0,0,0,MERGED
+13266,ProgressReporter: align progress bars by largest name length,eduardorittner,2025-05-02T14:06:35Z,2025-05-15T07:32:36+00:00,6,305.43,True,85,26,1,806,8,4,12,MERGED
+13265,Move static feature out of perf features,konstin,2025-05-02T13:59:25Z,2025-05-02T15:56:40+00:00,7,1.95,True,34,27,6,404,6,1,7,MERGED
+13264,Add `--show-with` to `uv tool list` to list packages included by `--with`,gaardhus,2025-05-02T12:36:00Z,2025-05-06T20:23:50+00:00,22,103.8,True,163,22,7,416,11,6,17,MERGED
+13261,Only rebuild download JSON on change,konstin,2025-05-02T09:41:30Z,2025-05-02T12:49:34+00:00,1,3.13,True,2,1,1,228,0,0,0,MERGED
+13260,Check nested IO errors for retries,konstin,2025-05-02T09:08:59Z,2025-05-02T12:41:09+00:00,1,3.54,True,16,7,1,1732,0,0,0,MERGED
+13251,make snapshot test more permissive,Gankra,2025-05-01T12:12:03Z,2025-06-02T18:18:11+00:00,5,774.1,False,38,16,1,12,1,1,2,CLOSED
+13241,"Update ""Viewing the version"" docs",zanieb,2025-04-30T19:30:01Z,2025-05-01T12:55:52+00:00,1,17.43,True,6,3,1,39,0,0,0,MERGED
+13230,Respect `--project` in `uv version`,konstin,2025-04-30T13:58:40Z,2025-04-30T16:11:51+00:00,2,2.22,True,77,9,2,404,1,0,1,MERGED
+13229,"Use ""error"" instead of ""warning"" for self-update message",zanieb,2025-04-30T13:57:59Z,2025-04-30T17:23:30+00:00,1,3.43,True,2,2,1,13,0,0,0,MERGED
+13228,Improve trace log for retryable errors,zanieb,2025-04-30T13:08:42Z,2025-04-30T17:29:47+00:00,1,4.35,True,12,1,1,613,1,0,1,MERGED
+13227,Use base client pattern in more sites,charliermarsh,2025-04-30T13:08:11Z,2025-05-01T00:01:00+00:00,1,10.88,True,95,71,7,47,0,0,0,MERGED
+13205,Deduplicate fetched index URLs,christeefy,2025-04-29T22:07:41Z,2025-05-02T08:29:07+00:00,1,58.36,True,39,0,2,51,2,0,2,MERGED
+13203,hard error `uv version` for more cli flags,Gankra,2025-04-29T21:36:18Z,2025-04-30T17:39:11+00:00,1,20.05,True,6,3,1,0,0,0,0,MERGED
+13201,Bump version to 0.7.0 and write changelog,zanieb,2025-04-29T19:17:28Z,2025-04-29T20:31:46+00:00,13,1.24,True,933,574,15,113,0,10,10,MERGED
+13182,Add more default group tests and fix default groups for `uv add`,blueraft,2025-04-28T16:27:17Z,2025-04-28T19:02:43+00:00,1,2.59,True,355,0,2,193,1,0,1,MERGED
+13179,Disallow mixing requirements across PyTorch indexes,charliermarsh,2025-04-28T14:50:24Z,2025-04-28T20:06:18+00:00,2,5.26,True,289,18,14,139,1,2,3,MERGED
+13176,Use `upload-time` rather than `upload_time` in `uv.lock`,charliermarsh,2025-04-28T13:27:37Z,2025-04-28T15:01:18+00:00,2,1.56,True,12307,12193,21,543,10,0,10,MERGED
+13172,Add downloading of GraalPy,timfel,2025-04-28T09:26:49Z,2025-05-06T16:02:27+00:00,18,198.59,True,416,34,8,175,7,7,14,MERGED
+13171,Reproducible uv build backend across operating systems,konstin,2025-04-28T08:46:21Z,2025-05-06T16:51:56+00:00,1,200.09,True,138,88,7,1332,0,0,0,MERGED
+13166,Update markdown to v1 and fix CLI reference links,renovate,2025-04-28T02:46:43Z,2025-05-21T20:50:09+00:00,2,570.06,True,1401,6257,4,800,1,0,1,MERGED
+13165,Update fedora Docker tag to v43,renovate,2025-04-28T02:46:35Z,2025-05-13T12:47:49+00:00,1,370.02,True,1,1,1,598,2,0,2,MERGED
+13163,Update documentation references to astral-sh/setup-uv to v6 - autoclosed,renovate,2025-04-28T02:46:26Z,2025-07-07T19:05:56+00:00,4,1696.33,False,11,11,1,670,0,1,1,CLOSED
+13130,[docs] Changed fish completions append `>>` to overwrite `>`,ndrew222,2025-04-27T13:26:48Z,2025-04-28T00:52:14+00:00,1,11.42,True,2,2,1,628,0,0,0,MERGED
+13120,Reject non-PEP 751 TOML files in install commands,charliermarsh,2025-04-26T14:45:39Z,2025-04-28T20:51:23+00:00,1,54.1,True,136,73,3,210,2,0,2,MERGED
+13119,Reject non-PEP 751 filenames in `uv pip compile` and `uv export`,charliermarsh,2025-04-26T14:30:31Z,2025-04-28T20:42:03+00:00,1,54.19,True,92,2,4,98,2,0,2,MERGED
+13115,Add pylock.toml mentions where relevant,ReinforcedKnowledge,2025-04-26T03:58:51Z,2025-04-26T14:26:30+00:00,1,10.46,True,19,18,2,485,0,0,0,MERGED
+13109,Fix display name for `uvx --version`,zanieb,2025-04-25T16:34:22Z,2025-04-28T16:19:48+00:00,1,71.76,True,1,0,1,307,1,0,1,MERGED
+13108,Remove `--version` from subcommands,zanieb,2025-04-25T16:19:28Z,2025-04-28T15:43:29+00:00,1,71.4,True,66,145,6,162,1,0,1,MERGED
+13105,Fix panic with invalid last char in PEP 508 name,konstin,2025-04-25T11:24:54Z,2025-04-25T12:56:46+00:00,1,1.53,True,34,20,2,12,1,0,1,MERGED
+13086,Reject requires python even if not listed on the index page,konstin,2025-04-24T10:18:19Z,2025-04-25T10:52:02+00:00,1,24.56,True,93,6,2,127,0,0,0,MERGED
+13051,Block scripts from overwriting `python`,konstin,2025-04-22T11:02:59Z,2025-04-25T07:10:10+00:00,5,68.12,True,97,0,3,121,1,2,3,MERGED
+13050,Implement RFC 7231 compliant relative URI and fragment handling in redirects,jtfmumm,2025-04-22T10:57:14Z,2025-04-28T07:07:06+00:00,7,140.16,True,696,37,11,150,1,2,3,MERGED
+13049,Support using `uv build-backend` in the Python backend,mgorny,2025-04-22T10:16:07Z,2025-04-22T11:46:42+00:00,1,1.51,True,17,4,1,565,1,0,1,MERGED
+13033,Skip GitHub fast path when rate-limited,christeefy,2025-04-21T23:19:11Z,2025-06-24T19:11:41+00:00,16,1531.88,True,219,4,7,538,10,9,19,MERGED
+13027,Report Python versions in `pyvenv.cfg` version mismatch,zanieb,2025-04-21T21:59:01Z,2025-04-25T18:06:46+00:00,5,92.13,True,43,27,5,297,0,1,1,MERGED
+13022,Omit Python 3.7 downloads from managed versions,zanieb,2025-04-21T19:56:20Z,2025-04-25T17:56:00+00:00,1,93.99,True,9,609,3,2890,10,0,10,MERGED
+13019,Add PEP 751 support to `uv pip compile`,charliermarsh,2025-04-21T16:08:27Z,2025-04-21T22:48:54+00:00,1,6.67,True,1546,124,14,91,0,0,0,MERGED
+13018,Add a brief sleep before sending SIGINT to children,zanieb,2025-04-21T16:01:15Z,2025-04-21T19:47:39+00:00,1,3.77,True,4,1,1,174,1,0,1,MERGED
+13017,Forward additional signals to the child process in `uv run`,zanieb,2025-04-21T15:08:37Z,2025-04-21T19:47:30+00:00,3,4.65,True,144,1,1,1184,1,1,2,MERGED
+13016,Improve messages for `FirstIndex` authentication failures,jtfmumm,2025-04-21T09:09:08Z,2025-04-22T08:45:47+00:00,3,23.61,True,161,87,7,93,0,2,2,MERGED
+12993,Validate that PEP 751 entries don't include multiple sources,charliermarsh,2025-04-21T01:31:24Z,2025-04-21T22:22:03+00:00,3,20.84,True,99,1,2,108,0,1,1,MERGED
+12992,Add `pylock.toml` to `uv pip install` and `uv pip sync`,charliermarsh,2025-04-20T22:51:43Z,2025-04-21T22:10:30+00:00,2,23.31,True,1572,148,10,562,1,1,2,MERGED
+12974,Add `python-downloads-json-url` option for `uv.toml` to configure custom Python installations via JSON URL,MeitarR,2025-04-18T20:57:45Z,2025-04-30T19:52:11+00:00,5,286.91,True,232,55,22,332,0,2,2,MERGED
+12969,Obfuscate username in tracing URL,jtfmumm,2025-04-18T14:06:58Z,2025-04-19T09:11:41+00:00,2,19.08,True,61,16,5,68,3,1,4,MERGED
+12968,Add upload time to `uv.lock`,charliermarsh,2025-04-18T14:03:52Z,2025-04-21T01:58:12+00:00,5,59.91,True,12881,12805,30,155,9,1,10,MERGED
+12967,minify pythons json on compile time,MeitarR,2025-04-18T13:09:58Z,2025-04-30T19:51:03+00:00,2,294.68,True,45,45,6,435,3,0,3,MERGED
+12966,Fix snapshot test for Add debug logs for version file search,jtfmumm,2025-04-18T12:41:26Z,2025-04-18T16:21:55+00:00,1,3.67,True,1,0,1,0,0,0,0,MERGED
+12964,Refactor `ExtraSpecification` to support `default-extras`,blueraft,2025-04-18T12:37:46Z,2025-04-28T17:30:14+00:00,4,244.87,True,1148,278,17,278,3,4,7,MERGED
+12963,"Improve formatting for `""all""` `default-groups` setting documentation",johnthagen,2025-04-18T11:46:14Z,2025-04-18T15:34:39+00:00,3,3.81,True,3,3,3,108,5,0,5,MERGED
+12958,Infer output type in `uv export`,charliermarsh,2025-04-18T03:19:19Z,2025-04-21T21:35:05+00:00,5,90.26,True,192,7,6,100,1,1,2,MERGED
+12955,Add `uv export` support for PEP 751,charliermarsh,2025-04-18T02:30:32Z,2025-04-21T21:21:17+00:00,4,90.85,True,1413,39,10,407,2,2,4,MERGED
+12951,Add debug logs for version file search,zanieb,2025-04-17T20:42:08Z,2025-04-18T16:31:52+00:00,1,19.83,True,21,1,2,0,2,0,2,MERGED
+12949,update cargo-dist and enable ci checks,Gankra,2025-04-17T19:42:47Z,2025-04-17T23:32:56+00:00,1,3.84,True,4,3,2,53,0,0,0,MERGED
+12947,Align supported Config-settings with example in docs,maxmynter,2025-04-17T15:13:39Z,2025-04-17T16:57:53+00:00,1,1.74,True,7,25,2,784,1,0,1,MERGED
+12946,Add `uv add --bounds` to configure the version constraint,konstin,2025-04-17T14:26:52Z,2025-05-28T13:11:31+00:00,41,982.74,True,709,46,18,3237,6,19,25,MERGED
+12945,Refactor adding bounds to dependencies in `pyproject.toml`,konstin,2025-04-17T14:12:04Z,2025-04-21T10:25:27+00:00,2,92.22,True,178,198,2,121,0,1,1,MERGED
+12944,Obfuscate password in credentials debug messages,jtfmumm,2025-04-17T13:18:03Z,2025-04-18T22:01:11+00:00,8,32.72,True,39,9,1,173,11,1,12,MERGED
+12943,fix(ui): update version formatting to use cyan color,kdheepak,2025-04-17T13:07:02Z,2025-04-17T16:58:36+00:00,1,3.86,True,4,4,1,1367,2,0,2,MERGED
+12941,Add test for install from remote requirements.txt,jtfmumm,2025-04-17T12:42:42Z,2025-04-17T14:25:39+00:00,6,1.72,True,120,2,3,13,0,2,2,MERGED
+12925,Fix `PythonDownloadRequest` parsing for partial keys,zanieb,2025-04-16T19:20:28Z,2025-04-18T16:25:52+00:00,2,45.09,True,107,31,3,117,0,1,1,MERGED
+12920,Properly handle authentication for 302 redirect URLs,jtfmumm,2025-04-16T15:23:38Z,2025-04-18T12:56:17+00:00,10,45.54,True,626,77,12,465,0,6,6,MERGED
+12917,Check dist name to handle bogus redirect,konstin,2025-04-16T13:20:27Z,2025-04-22T15:36:28+00:00,5,146.27,True,68,2,3,852,0,3,3,MERGED
+12916,Improve docs for `uv python list --only-downloads` and `--only-installed`,j178,2025-04-16T13:00:23Z,2025-04-16T15:51:47+00:00,1,2.86,True,8,8,2,217,0,0,0,MERGED
+12915,Show PyPy downloads during `uv python list`,alexprengere,2025-04-16T09:15:57Z,2025-04-17T16:59:13+00:00,1,31.72,True,12,7,2,239,5,0,5,MERGED
+12909,Ignore arbitrary Python requests in version files,zanieb,2025-04-15T21:11:11Z,2025-04-18T16:45:04+00:00,11,67.56,True,92,0,3,13,3,1,4,MERGED
+12905,Treat empty `UV_TOOL_DIR` as unset,zanieb,2025-04-15T20:44:48Z,2025-04-17T16:36:05+00:00,1,43.85,True,1,1,1,12,2,0,2,MERGED
+12897,Allow updating Git sources by name,maxmynter,2025-04-15T12:57:35Z,2025-04-21T02:58:38+00:00,1,134.02,True,205,3,3,1824,2,0,2,MERGED
+12895,Make `uv init` resilient against broken git,konstin,2025-04-15T10:48:14Z,2025-04-17T15:45:25+00:00,7,52.95,True,161,78,4,633,3,2,5,MERGED
+12887,docs: Fix highlight line in explicit index documentation,orishamir,2025-04-14T19:22:50Z,2025-04-15T20:39:56+00:00,1,25.29,True,1,1,1,154,1,0,1,MERGED
+12884,Ensure virtual environment is compatible with interpreter on sync,jtfmumm,2025-04-14T18:10:48Z,2025-04-15T10:01:14+00:00,3,15.84,True,166,16,4,450,0,2,2,MERGED
+12879,fix cargo-dist config,Gankra,2025-04-14T13:43:59Z,2025-04-14T14:56:22+00:00,1,1.21,True,1,1,1,60,1,0,1,MERGED
+12878,Fix tests on non-English Windows,konstin,2025-04-14T11:28:00Z,2025-04-14T13:50:55+00:00,1,2.38,True,17,29,5,370,0,0,0,MERGED
+12870,Write requested python variant to pin file in `uv init`,j178,2025-04-14T04:00:10Z,2025-04-15T20:28:21+00:00,2,40.47,True,28,16,2,4684,1,0,1,MERGED
+12864,Update Rust crate reqwest-middleware to v0.4.2,renovate,2025-04-14T03:30:10Z,2025-04-14T07:48:46+00:00,1,4.31,True,2,2,1,777,0,0,0,MERGED
+12858,Fix typo in a reference,yarikoptic,2025-04-14T03:27:42Z,2025-04-14T08:19:02+00:00,1,4.86,True,1,1,1,121,0,0,0,MERGED
+12851,Collapse whitespace in python_list tests,mgorny,2025-04-12T11:22:58Z,2025-04-14T12:23:10+00:00,1,49.0,True,41,30,2,270,2,0,2,MERGED
+12844,docs: add explicit source (matching PyTorch guide),henryiii,2025-04-11T20:12:39Z,2025-04-14T12:22:20+00:00,1,64.16,True,2,0,1,202,0,0,0,MERGED
+12842,Support build constraints in `uv tool` and PEP723 scripts.,blueraft,2025-04-11T19:17:07Z,2025-04-14T13:26:57+00:00,3,66.16,True,544,18,21,43,1,2,3,MERGED
+12839,"Set 4MB stack size for all threads, introduce `UV_STACK_SIZE`",konstin,2025-04-11T16:05:43Z,2025-04-16T07:27:46+00:00,4,111.37,True,113,51,6,659,0,1,1,MERGED
+12836,Fix pre-release exclusive comparison operator in uv-pep440,konstin,2025-04-11T12:45:28Z,2025-04-12T20:57:06+00:00,4,32.19,True,16,17,1,907,1,1,2,MERGED
+12820,Split UV_INDEX on all whitespace,winstonallo,2025-04-10T18:32:35Z,2025-04-10T20:22:17+00:00,6,1.83,True,149,21,4,538,2,3,5,MERGED
+12819,Add `--locked` to `uv sync` in GitHub Actions guide,johnthagen,2025-04-10T18:15:49Z,2025-04-10T19:47:00+00:00,1,1.52,True,1,1,1,67,1,0,1,MERGED
+12818,Replace `--frozen` with `--locked` in Docker integration guide,johnthagen,2025-04-10T18:12:10Z,2025-04-10T19:47:48+00:00,1,1.59,True,6,6,1,699,1,0,1,MERGED
+12811,feat: Error on dependency object specifier,kiran-4444,2025-04-10T16:27:38Z,2025-04-10T20:56:47+00:00,1,4.49,True,13,9,2,806,2,1,3,MERGED
+12807,Fix CLI reference with code block,konstin,2025-04-10T13:24:27Z,2025-04-10T15:59:40+00:00,1,2.59,True,12,3,2,1786,0,0,0,MERGED
+12805,Make uv’s first-index strategy more secure by default by failing early on authentication failure,jtfmumm,2025-04-10T12:38:11Z,2025-04-29T17:48:56+00:00,71,461.18,True,780,94,16,1176,12,33,45,MERGED
+12804,Build backend: Make preview default and add configuration docs,konstin,2025-04-10T12:14:39Z,2025-05-05T13:52:31+00:00,23,601.63,True,248,6,8,832,1,19,20,MERGED
+12803,Build backend: Add reference docs and schema,konstin,2025-04-10T10:40:26Z,2025-04-21T10:27:49+00:00,8,263.79,True,559,171,18,139,1,6,7,MERGED
+12793,Fix lockfile note,zanieb,2025-04-09T22:22:25Z,2025-04-10T13:53:02+00:00,2,15.51,True,2,4,1,0,0,0,0,MERGED
+12790,update cargo-dist,Gankra,2025-04-09T21:21:52Z,2025-04-10T13:42:42+00:00,1,16.35,True,26,18,2,367,0,0,0,MERGED
+12781,Add poetry-core as a build backend option,Secrus,2025-04-09T14:02:09Z,2025-04-28T19:11:52+00:00,4,461.16,True,93,0,4,67,3,1,4,MERGED
+12779,Build backend: Check module dir exists for sdist build,konstin,2025-04-09T13:10:12Z,2025-04-09T15:47:01+00:00,2,2.61,True,150,61,4,216,0,1,1,MERGED
+12778,Enable `--dry-run` with `--locked` / `--frozen` for `uv sync`,christeefy,2025-04-09T13:02:02Z,2025-04-14T13:08:26+00:00,3,120.11,True,188,58,5,219,1,1,2,MERGED
+12773,Add `UV_NO_EDITABLE` environment variable to set `--no-editable` on all invocations,haarisr,2025-04-09T07:15:25Z,2025-04-10T19:56:07+00:00,2,36.68,True,25,2,5,142,0,1,1,MERGED
+12764,Fix sdist with long directories,leiserfg,2025-04-08T21:31:19Z,2025-04-09T13:01:21+00:00,1,15.5,True,45,7,2,141,1,0,1,MERGED
+12763,Support `--with-requirements script.py` and `-r script.py` to include inline dependency metadata from another script,blueraft,2025-04-08T21:08:47Z,2025-09-05T16:45:46+00:00,33,3595.62,True,410,9,10,41,5,11,16,MERGED
+12757,Error when `tool.uv.sources` is set in system-level configuration file,charliermarsh,2025-04-08T19:41:51Z,2025-04-08T21:01:13+00:00,1,1.32,True,4,1,1,216,7,0,7,MERGED
+12742,Test publishing with pypa/gh-action-pypi-publish,konstin,2025-04-08T12:27:54Z,2025-04-25T16:27:40+00:00,1,412.0,True,21,0,1,28,4,0,4,MERGED
+12736,Update maturin-action to v1.48.1,konstin,2025-04-08T07:43:33Z,2025-04-08T16:10:48+00:00,1,8.45,True,20,20,1,133,2,0,2,MERGED
+12731,Add Pyodide support,hoodmane,2025-04-07T21:59:48Z,2025-06-03T17:01:26+00:00,8,1363.03,True,168,2,11,692,12,7,19,MERGED
+12717,Use index-level instead of realm-level credential caching for known indexes,jtfmumm,2025-04-07T14:32:03Z,2025-04-10T09:52:39+00:00,4,67.34,True,291,46,4,404,1,1,2,MERGED
+12706,Add CRC mode to make CRC checks opt-in by default,samypr100,2025-04-07T03:12:42Z,2025-04-07T18:56:38+00:00,10,15.73,False,127,32,10,491,5,4,9,CLOSED
+12699,Update Rust crate clap to v4.5.35,renovate,2025-04-07T03:07:44Z,2025-04-14T12:35:41+00:00,1,177.47,True,38,45,2,808,1,0,1,MERGED
+12688,build-binaries for riscv64 ,Xeonacid,2025-04-06T05:19:00Z,2025-06-10T15:18:28+00:00,3,1569.99,True,99,0,2,343,12,1,13,MERGED
+12683,Extend the reference documentation for `uv pip sync`,zanieb,2025-04-04T23:17:37Z,2025-04-07T22:40:26+00:00,5,71.38,True,13,1,2,10,0,1,1,MERGED
+12672,Unset `SCRIPT_PATH` in relocatable activation script,charliermarsh,2025-04-04T12:53:57Z,2025-04-07T18:11:47+00:00,2,77.3,True,14,0,1,64,6,1,7,MERGED
+12671,Make `--frozen` and `--no-sources` conflicting options,charliermarsh,2025-04-04T12:51:09Z,2025-04-24T20:31:24+00:00,1,487.67,True,6,6,1,57,8,0,8,MERGED
+12670,Bump MSRV to 1.84,charliermarsh,2025-04-04T12:43:52Z,2025-04-04T15:49:26+00:00,1,3.09,True,161,143,64,22,0,0,0,MERGED
+12669,Emit dedicated error message for Conda environment.yml files,christeefy,2025-04-04T12:25:06Z,2025-04-07T23:11:43+00:00,5,82.78,True,72,0,4,1252,6,1,7,MERGED
+12667,Distinguish between authentication failures due to missing vs invalid credentials,jtfmumm,2025-04-04T10:16:25Z,2025-04-25T15:36:51+00:00,13,509.34,False,68,77,3,320,2,3,5,CLOSED
+12651,Use index URL instead of package URL for keyring credential lookups,jtfmumm,2025-04-03T14:05:57Z,2025-04-19T07:41:01+00:00,40,377.58,True,574,205,26,695,7,8,15,MERGED
+12642,Remove `--no-config` warning from `uv pip compile` and `uv pip sync`,j178,2025-04-03T03:44:42Z,2025-04-03T12:52:29+00:00,1,9.13,True,0,12,1,1625,1,0,1,MERGED
+12634,[docs] Fix suggestion for index strategy,TBoshoven,2025-04-02T18:19:57Z,2025-04-02T20:22:28+00:00,1,2.04,True,2,2,2,413,1,0,1,MERGED
+12628,Report the queried executable path in `uv python list`,zanieb,2025-04-02T16:05:33Z,2025-04-02T19:24:58+00:00,1,3.32,True,8,1,2,254,7,0,7,MERGED
+12619,respect --offline flag for git cli operations,thejchap,2025-04-02T04:49:57Z,2025-04-04T16:02:54+00:00,6,59.22,True,82,11,6,1453,3,2,5,MERGED
+12608,Add note about `uv build` to `package = false`,zanieb,2025-04-01T20:50:44Z,2025-04-02T13:33:27+00:00,1,16.71,True,2,1,1,13,0,0,0,MERGED
+12592,fix parsing of `python-platform` in settings tomls,Gankra,2025-03-31T21:27:32Z,2025-04-01T13:08:36+00:00,1,15.68,True,67,35,2,391,1,0,1,MERGED
+12551,changed where the fish completions get installed to where fish docs recommend,ndrew222,2025-03-30T06:56:55Z,2025-03-30T15:47:01+00:00,1,8.84,True,2,2,1,554,1,0,1,MERGED
+12535,Bump version to v0.6.11,charliermarsh,2025-03-28T17:06:02Z,2025-03-30T19:35:42+00:00,1,50.49,True,43,23,12,0,0,0,0,MERGED
+12518,Bump least-recent non-EOL macOS version to 13.0,charliermarsh,2025-03-27T21:49:34Z,2025-03-28T11:49:45+00:00,1,14.0,True,8,8,4,134,0,0,0,MERGED
+12517,Avoid writing empty `requires-python` to script blocks,charliermarsh,2025-03-27T21:44:30Z,2025-03-28T14:26:52+00:00,1,16.71,True,77,57,1,78,0,0,0,MERGED
+12514,Use a boxed slice for various requirement types,charliermarsh,2025-03-27T19:39:11Z,2025-03-27T21:09:26+00:00,2,1.5,True,163,148,12,48,1,0,1,MERGED
+12502,Respect build constraints in `uv sync`,charliermarsh,2025-03-27T01:59:36Z,2025-03-27T21:11:50+00:00,2,19.2,True,273,13,17,179,2,1,3,MERGED
+12501,Add a newline after metadata when initializing scripts with other metadata blocks,merlinz01,2025-03-27T01:46:38Z,2025-03-27T21:39:29+00:00,4,19.88,True,275,9,1,878,5,1,6,MERGED
+12498,Add qualification to authenticate always documentation,jtfmumm,2025-03-26T21:21:15Z,2025-04-02T17:31:19+00:00,4,164.17,True,3,1,1,113,0,1,1,MERGED
+12497,Improve trace message in auth middleware,jtfmumm,2025-03-26T21:15:09Z,2025-03-27T14:10:02+00:00,1,16.91,True,1,1,1,36,0,0,0,MERGED
+12495,use more conformant annotation for `uv pip compile --group`,Gankra,2025-03-26T20:15:14Z,2025-07-10T12:26:02+00:00,1,2536.18,False,39,35,2,12,2,0,2,CLOSED
+12471,Add integration test for GitHub provided free-threaded Python,zanieb,2025-03-25T22:02:45Z,2025-04-10T21:51:50+00:00,1,383.82,True,31,0,1,0,1,0,1,MERGED
+12470,Respect `index.authenticate` in `uv pip` commands ,jtfmumm,2025-03-25T18:56:45Z,2025-03-25T21:13:42+00:00,2,2.28,True,37,2,10,192,1,1,2,MERGED
+12466,Use 64-bit host for 32-bit releases to work around OOM,konstin,2025-03-25T14:44:20Z,2025-03-25T17:33:31+00:00,1,2.82,True,14,3,1,208,0,0,0,MERGED
+12452,Test 10min earlier,konstin,2025-03-24T21:30:25Z,2025-03-25T01:28:53+00:00,1,3.97,False,1,1,1,189,1,0,1,CLOSED
+12439,Remove --version from uv subcommands,jtfmumm,2025-03-24T16:38:04Z,2025-04-28T07:07:39+00:00,4,830.49,False,53,144,5,399,5,1,6,CLOSED
+12430,Bump version to v0.6.10,charliermarsh,2025-03-24T15:20:09Z,2025-03-26T00:43:41+00:00,1,33.39,True,52,23,12,0,1,1,2,MERGED
+12407,"Support `--find-links`-style ""flat"" indexes in `[[tool.uv.index]]`",charliermarsh,2025-03-24T01:56:15Z,2025-03-26T01:14:44+00:00,2,47.31,True,824,120,19,969,0,5,5,MERGED
+12406,Pass around index with associated metadata,charliermarsh,2025-03-24T01:55:55Z,2025-03-24T14:15:50+00:00,1,12.33,True,213,80,19,514,0,0,0,MERGED
+12405,Add JSON Output for uv sync --dry-run,x0rw,2025-03-23T23:20:07Z,2025-07-14T16:43:32+00:00,4,2705.39,False,270,80,5,1583,4,1,5,CLOSED
+12402,Update PyTorch/Python version tip,punkeel,2025-03-23T14:41:46Z,2025-03-23T21:23:09+00:00,1,6.69,True,2,2,1,257,1,0,1,MERGED
+12400,Fix log message for `SIGTERM` when child has exited,zanieb,2025-03-23T01:43:09Z,2025-03-23T13:35:11+00:00,1,11.87,True,1,1,1,0,0,0,0,MERGED
+12396,Ignore `--find-links` entries for pinned indexes,charliermarsh,2025-03-22T19:21:59Z,2025-03-23T12:46:37+00:00,1,17.41,True,139,5,2,287,1,0,1,MERGED
+12388,docs: Update dependencies.md,kenwoodjw,2025-03-22T09:32:26Z,2025-03-23T03:06:11+00:00,1,17.56,True,6,6,1,31,1,0,1,MERGED
+12382,Add a migration guide from pip to uv projects,zanieb,2025-03-21T21:15:19Z,2025-07-02T17:25:19+00:00,18,2468.17,True,489,0,3,8,1,34,35,MERGED
+12381,Add test case for `uv python list` downloads,zanieb,2025-03-21T18:55:43Z,2025-04-21T22:24:55+00:00,3,747.49,True,141,2,2,113,1,1,2,MERGED
+12380,Add support for pre-releases to Python platform key regex,zanieb,2025-03-21T18:51:57Z,2025-03-23T03:19:04+00:00,1,32.45,True,3,4,1,43,1,0,1,MERGED
+12379,Add comments to the `with_filtered_python_keys` regex,zanieb,2025-03-21T18:47:58Z,2025-03-23T02:57:16+00:00,1,32.16,True,27,5,1,69,0,0,0,MERGED
+12376,Add `--show-version` to `uv python find`,zanieb,2025-03-21T18:05:34Z,2025-04-03T13:34:45+00:00,5,307.49,True,90,21,6,319,2,2,4,MERGED
+12375,Add support for Python version requests in `uv python list`,zanieb,2025-03-21T17:55:17Z,2025-03-23T03:13:58+00:00,1,33.31,True,199,15,7,951,0,0,0,MERGED
+12374,Add `uv python list` test cases,zanieb,2025-03-21T17:21:25Z,2025-03-23T02:57:07+00:00,1,33.59,True,172,0,3,25,1,0,1,MERGED
+12367,Skip repeated directories in `PATH` when searching for Python interpreters,zanieb,2025-03-21T14:12:51Z,2025-04-03T16:13:07+00:00,2,314.0,True,111,22,4,51,5,2,7,MERGED
+12360,Retain end-of-line comment position when adding dependency,christeefy,2025-03-21T09:52:22Z,2025-03-21T14:16:15+00:00,1,4.4,True,106,21,2,207,1,0,1,MERGED
+12350,"Add dependents (""via ..."" comments) in export command",zmeir,2025-03-20T22:25:36Z,2025-03-28T14:37:53+00:00,8,184.2,True,268,1,7,547,7,1,8,MERGED
+12349,change `uv version` to be an interface for project version reads and edits,Gankra,2025-03-20T21:11:18Z,2025-04-24T17:38:30+00:00,30,836.45,True,1738,45,11,1129,23,18,41,MERGED
+12346,Use `Box<Path>` in lieu of `PathBuf` for immutable structs,charliermarsh,2025-03-20T20:25:40Z,2025-03-25T21:56:06+00:00,1,121.51,True,225,180,23,160,2,0,2,MERGED
+12342,Add `uv sync --check` flag,blueraft,2025-03-20T16:27:32Z,2025-03-21T15:48:27+00:00,15,23.35,True,98,3,6,42,1,7,8,MERGED
+12327,Support `UV_PROJECT` environment to set project directory.,nozomirin,2025-03-20T04:22:08Z,2025-03-30T19:12:02+00:00,1,254.83,True,59,8,5,200,1,0,1,MERGED
+12323,docs: Remove note about musl binary distributions,Wingysam,2025-03-19T21:07:35Z,2025-04-16T15:41:41+00:00,1,666.57,False,7,4,1,255,3,0,3,CLOSED
+12316,"Use `keyring --mode creds` when `authenticate = ""always""`",zanieb,2025-03-19T16:46:44Z,2025-03-19T21:30:32+00:00,14,4.73,True,417,108,7,1047,1,3,4,MERGED
+12314,Allow virtual packages with `--no-build`,charliermarsh,2025-03-19T15:31:56Z,2025-03-22T16:00:02+00:00,1,72.47,True,157,16,4,22,0,1,1,MERGED
+12313,Fail with specific error message when no password on auth always,jtfmumm,2025-03-19T15:17:16Z,2025-03-19T16:43:45+00:00,1,1.44,True,55,7,2,194,1,0,1,MERGED
+12301,Use resolver-returned wheel over alternate cached wheel,charliermarsh,2025-03-18T22:16:00Z,2025-03-19T01:41:04+00:00,1,3.42,True,60,2,2,401,0,0,0,MERGED
+12300,distinguish -q and -qq,Gankra,2025-03-18T19:34:03Z,2025-03-26T20:46:16+00:00,2,193.2,True,215,109,8,371,1,1,2,MERGED
+12299,Omit wheels from lockfile based on `--exclude-newer`,charliermarsh,2025-03-18T19:27:02Z,2025-03-22T16:27:11+00:00,5,93.0,True,205,37,5,324,8,3,11,MERGED
+12289,"add `default-groups = ""all""` sugar to `pyproject.toml`",Gankra,2025-03-18T16:24:54Z,2025-03-18T18:42:06+00:00,5,2.29,True,341,38,14,67,4,2,6,MERGED
+12284,Downgrade to reqwest v0.12.12,charliermarsh,2025-03-18T14:50:18Z,2025-03-18T17:30:20+00:00,1,2.67,False,11,75,1,0,2,0,2,CLOSED
+12281,Make cache errors non-fatal in Planner::build,Gankra,2025-03-18T14:18:39Z,2025-03-18T15:27:21+00:00,10,1.15,True,194,120,5,75,0,2,2,MERGED
+12259,Disallow writing symlinks outside the source distribution target directory,charliermarsh,2025-03-18T02:27:28Z,2025-07-22T13:20:10+00:00,3,3034.88,True,28,23,4,2040,0,2,2,MERGED
+12246,Simplify managed Python flags,jtfmumm,2025-03-17T19:53:10Z,2025-03-18T17:13:15+00:00,22,21.33,True,569,716,8,825,8,6,14,MERGED
+12240,Support modules with different casing in build backend,konstin,2025-03-17T14:37:54Z,2025-03-23T13:29:21+00:00,3,142.86,True,187,13,3,562,1,2,3,MERGED
+12239,Patch `CC` and `CCX` entries in sysconfig for cross-compiled `aarch64` Python distributions,zanieb,2025-03-17T14:00:39Z,2025-04-16T13:34:05+00:00,4,719.56,True,43,4,1,13,4,1,5,MERGED
+12235,Error on lockfiles with incoherent wheel versions,konstin,2025-03-17T10:10:16Z,2025-03-17T22:33:32+00:00,9,12.39,True,114,0,2,425,6,3,9,MERGED
+12232,make BaseClientBuild accept custom proxies,gzm55,2025-03-17T09:14:21Z,2025-03-17T19:18:55+00:00,1,10.08,True,23,2,2,108,0,0,0,MERGED
+12209,Add support for `-c` constraints in `uv add`,charliermarsh,2025-03-17T00:37:51Z,2025-03-17T21:27:33+00:00,9,20.83,True,445,102,13,22,0,3,3,MERGED
+12198,Fix 2 typos in MRE docs,yury-fedotov,2025-03-16T05:08:12Z,2025-03-16T14:26:33+00:00,1,9.31,True,3,3,1,135,0,0,0,MERGED
+12194,Prefer stable releases over pre-releases in `uv python install`,zanieb,2025-03-15T20:43:48Z,2025-04-21T21:16:07+00:00,1,888.54,True,116,9,4,73,2,0,2,MERGED
+12189,Instruct Renovate to pin GitHub Actions based on SHA,charliermarsh,2025-03-15T15:54:35Z,2025-03-15T17:24:33+00:00,1,1.5,True,11,0,1,164,0,0,0,MERGED
+12188,Replace change detection GitHub Action,charliermarsh,2025-03-15T15:50:46Z,2025-03-15T17:12:00+00:00,2,1.35,True,55,22,1,145,3,5,8,MERGED
+12180,Ensure `python pin --global` creates parent directories if missing,samypr100,2025-03-15T01:42:43Z,2025-03-15T02:50:45+00:00,2,1.13,True,26,0,2,85,1,1,2,MERGED
+12176,Always reinstall local source trees passed to `uv pip install`,charliermarsh,2025-03-14T20:15:13Z,2025-03-17T21:12:21+00:00,6,72.95,True,471,214,30,490,1,2,3,MERGED
+12175,Optional managed Python archive download cache,konstin,2025-03-14T19:19:37Z,2025-04-28T10:09:10+00:00,7,1070.83,True,374,99,7,752,6,3,9,MERGED
+12168,Improve error message when a virtual environment Python symlink is broken,konstin,2025-03-14T14:02:27Z,2025-05-07T18:24:53+00:00,13,1300.37,True,134,36,6,893,10,4,14,MERGED
+12165,Fix `--directory` path in examples,jatinderjit,2025-03-14T08:39:45Z,2025-03-18T19:50:04+00:00,4,107.17,True,10,6,1,311,2,2,4,MERGED
+12159,Avoid replicating core-metadata field on `File` struct,charliermarsh,2025-03-14T00:24:05Z,2025-03-14T14:03:09+00:00,1,13.65,True,668,696,3,127,0,0,0,MERGED
+12154,Fix GraalPy abi tag parsing and discovery,timfel,2025-03-13T19:37:13Z,2025-03-13T23:55:07+00:00,1,4.3,True,33,34,5,2356,1,0,1,MERGED
+12148,Make testpypi index explicit in example snippet,ejohnso49,2025-03-13T04:07:59Z,2025-03-13T23:23:08+00:00,1,19.25,True,1,0,1,474,1,0,1,MERGED
+12138,Refactor *Settings to clarify and reduce repetition,jtfmumm,2025-03-12T16:32:41Z,2025-03-13T08:10:28+00:00,5,15.63,True,242,335,16,1437,0,2,2,MERGED
+12137,build-backend: Allow overriding module names for editable builds,blueraft,2025-03-12T16:31:43Z,2025-03-14T01:27:51+00:00,1,32.94,True,74,1,2,208,3,0,3,MERGED
+12135,Render token claims on publish permission error,konstin,2025-03-12T13:32:55Z,2025-03-13T10:19:09+00:00,1,20.77,True,52,10,1,291,1,0,1,MERGED
+12121,Add support for dynamic musl Python distributions on x86-64 Linux,zanieb,2025-03-11T20:59:22Z,2025-03-11T23:14:10+00:00,4,2.25,True,350,10940,7,501,0,2,2,MERGED
+12115,Add support for global `uv python pin`,jtfmumm,2025-03-11T14:52:22Z,2025-03-13T12:48:38+00:00,37,45.94,True,366,16,17,439,1,20,21,MERGED
+12112,Docs : Quote versions string in python-versions.md,GCHQDeveloper314,2025-03-11T11:59:17Z,2025-03-11T14:03:01+00:00,1,2.06,True,1,1,1,241,0,0,0,MERGED
+12111,publish with sized stream to comply with WSGI pypi server constraints.,jmrouet,2025-03-11T10:45:43Z,2025-03-11T14:54:30+00:00,1,4.15,True,5,2,1,142,0,0,0,MERGED
+12102,Update the `index.authenticate` docs,zanieb,2025-03-10T18:00:25Z,2025-03-11T20:01:42+00:00,2,26.02,True,67,44,5,143,1,2,3,MERGED
+12099,Reverse and format the archived changelogs,zanieb,2025-03-10T16:57:22Z,2025-03-12T16:58:51+00:00,3,48.02,True,4996,3378,6,199,0,1,1,MERGED
+12096, Cache workspace discovery,konstin,2025-03-10T14:43:19Z,2025-03-10T21:03:30+00:00,2,6.34,True,381,154,36,1313,2,1,3,MERGED
+12090,Move config dir functions to public functions in uv_dirs,jtfmumm,2025-03-10T10:04:02Z,2025-03-10T11:05:07+00:00,1,1.02,True,200,190,6,188,0,0,0,MERGED
+12087,Update Rust crate reflink-copy to v0.1.25,renovate,2025-03-10T02:52:30Z,2025-03-10T18:14:35+00:00,1,15.37,True,36,17,1,754,0,0,0,MERGED
+12079,Add support for Windows legacy scripts via uv tool run,samypr100,2025-03-10T02:49:49Z,2025-03-11T14:02:18+00:00,1,35.21,True,474,87,8,499,0,0,0,MERGED
+12070,Automatically infer the PyTorch index via `--torch-backend=auto`,charliermarsh,2025-03-09T01:47:30Z,2025-03-19T14:37:08+00:00,12,252.83,True,1289,29,31,1861,11,8,19,MERGED
+12063,Avoid allocations for default cache keys,charliermarsh,2025-03-08T03:33:00Z,2025-03-17T23:59:32+00:00,1,236.44,True,16,11,1,0,0,0,0,MERGED
+12062,Add `src` to default cache keys,charliermarsh,2025-03-08T02:57:34Z,2025-03-17T21:56:10+00:00,4,234.98,True,396,76,10,186,0,2,2,MERGED
+12053,Fix tool concept page headings,zanieb,2025-03-07T17:42:25Z,2025-03-08T14:49:22+00:00,1,21.12,True,24,18,1,79,0,0,0,MERGED
+12049,Respect `--project` during virtual environment discovery,thejchap,2025-03-07T15:48:23Z,2025-08-04T11:39:28+00:00,16,3595.85,False,1135,46,45,639,10,7,17,CLOSED
+12043,Avoid consider PATH updated when the export is commented in the shellrc,JonCholas,2025-03-07T13:24:29Z,2025-03-08T14:45:06+00:00,2,25.34,True,6,1,1,748,0,1,1,MERGED
+12041,Re-add 3 retries in `uv publish`,konstin,2025-03-07T12:56:03Z,2025-03-10T11:38:08+00:00,2,70.7,True,20,10,3,243,4,1,5,MERGED
+12017,Add a link to the Concepts > Build systems page to 'uv init --build-backend` documentation (#11502),dd-ssc,2025-03-06T19:09:40Z,2025-03-10T05:52:45+00:00,2,82.72,False,4,0,2,1153,2,1,3,CLOSED
+12012,Add `--marker` flag to `uv add`,thejchap,2025-03-06T18:01:07Z,2025-03-11T15:29:36+00:00,3,117.47,True,119,5,6,609,3,1,4,MERGED
+12005,Conflicting groups should handle conflicting inclusions automatically,jtfmumm,2025-03-06T14:00:44Z,2025-03-08T18:21:25+00:00,42,52.34,True,712,168,7,421,5,17,22,MERGED
+11995,Allow overrides in all satisfies checks,charliermarsh,2025-03-06T01:51:43Z,2025-03-06T02:54:19+00:00,1,1.04,True,131,167,5,624,0,1,1,MERGED
+11992,Warn user on `uvx run` command,charliermarsh,2025-03-05T22:04:30Z,2025-03-06T02:15:19+00:00,3,4.18,True,111,48,3,430,0,1,1,MERGED
+11968,Add `NO_BUILD` and `NO_BUILD_PACKAGE` environment variables,lengau,2025-03-05T01:59:59Z,2025-03-05T04:58:20+00:00,2,2.97,True,102,2,5,181,4,1,5,MERGED
+11959,Update top-pypi-packages filename,hugovk,2025-03-04T19:08:34Z,2025-03-04T23:23:02+00:00,1,4.24,True,1,1,1,433,1,0,1,MERGED
+11956,Fix system site packages detection default,konstin,2025-03-04T16:38:09Z,2025-03-04T23:22:13+00:00,1,6.73,True,1,1,1,278,2,0,2,MERGED
+11952,Compare major-minor specifiers when filtering interpreters,charliermarsh,2025-03-04T15:12:13Z,2025-03-04T23:29:39+00:00,6,8.29,True,65,2,2,263,0,2,2,MERGED
+11950,Move `LowerBound` and `UpperBound` structs in `uv-pep440`,charliermarsh,2025-03-04T15:11:06Z,2025-03-04T17:35:16+00:00,1,2.4,True,295,287,6,121,0,0,0,MERGED
+11948,Use the Depot Ubuntu runners instead of GitHub for release workflows,zanieb,2025-03-04T14:07:11Z,2025-03-04T19:28:14+00:00,1,5.35,True,7,4,2,124,3,0,3,MERGED
+11947,Fix error message suggesting `--user` instead of `--username`,LewisGaul,2025-03-04T12:07:58Z,2025-03-04T13:58:09+00:00,1,1.84,True,2,2,1,914,0,0,0,MERGED
+11938,Run the Docker build workflow when we touch project or toolchain metadata,zanieb,2025-03-03T23:17:02Z,2025-03-04T14:36:20+00:00,4,15.32,True,17,2,2,270,0,3,3,MERGED
+11935,Bump release workflows from ubuntu 20 to 22,zanieb,2025-03-03T21:36:52Z,2025-03-04T14:07:53+00:00,2,16.52,False,4,4,1,0,3,0,3,CLOSED
+11928,Fix typo in `no_default_groups` documentation and changelog,Viicos,2025-03-03T17:09:37Z,2025-03-03T18:44:13+00:00,1,1.58,True,9,9,3,18,0,0,0,MERGED
+11925,[Issue #11637] Use suffix on uvx binary when searching for uv binary,cliebBS,2025-03-03T15:23:38Z,2025-04-16T18:53:23+00:00,3,1059.5,False,63,1,1,1684,9,1,10,CLOSED
+11921,Replace outdated DevGroups* naming,jtfmumm,2025-03-03T10:12:29Z,2025-03-03T15:39:44+00:00,1,5.45,True,200,194,21,246,0,0,0,MERGED
+11910,Avoid string allocation when enumerating tool names,charliermarsh,2025-03-03T02:51:11Z,2025-03-03T15:13:54+00:00,1,12.38,True,7,2,1,69,0,0,0,MERGED
+11906,Update Rust crate reqwest-middleware to v0.4.1,renovate,2025-03-03T02:33:07Z,2025-03-03T13:36:58+00:00,1,11.06,True,2,2,1,629,0,0,0,MERGED
+11897,explicitly handle ctrl-c in confirmation prompt instead of signal handler,ericmarkmartin,2025-03-02T19:19:34Z,2025-03-03T15:30:48+00:00,1,20.19,True,17,30,4,1466,1,0,1,MERGED
+11896,Add an optional authentication policy to [index] configuration,jtfmumm,2025-03-02T18:55:35Z,2025-03-10T17:24:25+00:00,46,190.48,True,797,139,25,754,7,25,32,MERGED
+11895,Docs: Clarify that setting cache-keys overrides defaults,alexjball,2025-03-02T17:09:07Z,2025-03-03T02:54:49+00:00,1,9.76,True,15,10,1,349,0,0,0,MERGED
+11894,Migrate to `zlib-rs` (again),charliermarsh,2025-03-02T17:01:08Z,2025-03-03T17:29:31+00:00,2,24.47,True,5,192,9,2964,6,0,6,MERGED
+11891,Support `python find --script`,InSyncWithFoo,2025-03-02T12:55:39Z,2025-03-21T01:49:00+00:00,4,444.89,True,270,13,7,344,16,3,19,MERGED
+11890,Avoid silently dropping errors in directory enumeration,charliermarsh,2025-03-02T01:15:11Z,2025-03-03T02:39:17+00:00,2,25.4,True,62,41,9,138,0,1,1,MERGED
+11888,Add support for Windows legacy scripts via uv run,samypr100,2025-03-02T00:33:27Z,2025-03-05T20:39:48+00:00,1,92.11,True,320,2,2,653,3,0,3,MERGED
+11884,Allow overriding module name for uv build backend,csachs,2025-03-01T14:05:38Z,2025-03-07T14:20:00+00:00,4,144.24,True,303,13,10,886,0,11,11,MERGED
+11875,Make interpreter caching robust to OS upgrades,charliermarsh,2025-03-01T03:40:08Z,2025-03-02T01:36:39+00:00,4,21.94,True,9,3,3,413,0,2,2,MERGED
+11846,Suggest `uv tool update-shell` in PowerShell,charliermarsh,2025-02-28T02:24:32Z,2025-03-01T03:32:48+00:00,1,25.14,True,97,98,4,247,0,0,0,MERGED
+11839,Factor out network settings,jtfmumm,2025-02-27T20:21:41Z,2025-02-28T09:05:17+00:00,5,12.73,True,670,812,26,221,0,2,2,MERGED
+11833,Fix non-directory in workspace on Windows,konstin,2025-02-27T15:07:08Z,2025-02-28T12:40:19+00:00,1,21.55,True,27,21,2,283,0,1,1,MERGED
+11831,"Update code page to 65001 before setting environment variables, fix #11828",flaribbit,2025-02-27T11:33:34Z,2025-02-27T21:14:34+00:00,1,9.68,True,14,0,1,444,3,0,3,MERGED
+11830,Fix version string truncation while generating cache_key,nkitsaini,2025-02-27T11:30:55Z,2025-02-27T13:48:43+00:00,1,2.3,True,6,3,1,433,0,0,0,MERGED
+11824,Warn when duplicate index names found in single file,sou1118,2025-02-27T07:09:08Z,2025-02-27T21:33:58+00:00,1,14.41,True,68,5,3,2012,1,0,1,MERGED
+11823,Conditional imports,Choudhry18,2025-02-27T07:06:07Z,2025-02-27T09:08:37+00:00,1,2.04,True,16,6,2,103,0,0,0,MERGED
+11814,Add pypy3.10-v7.3.19 to managed Python releases,github-actions,2025-02-27T00:22:08Z,2025-03-02T22:48:35+00:00,1,94.44,True,48,48,2,37,0,0,0,MERGED
+11801,Discover registry PEP 514 Pythons cross 32/64-bit,konstin,2025-02-26T15:37:02Z,2025-03-03T14:46:01+00:00,2,119.15,True,18,4,2,766,0,0,0,MERGED
+11786,Add `uvw` as alias for `uv` without console window on Windows,CrendKing,2025-02-26T01:40:28Z,2025-05-28T18:37:21+00:00,1,2200.95,True,127,1,4,586,29,0,29,MERGED
+11782,Support proxy index urls,jtfmumm,2025-02-25T20:38:15Z,2025-08-15T13:58:25+00:00,29,4097.34,False,693,134,28,906,3,11,14,CLOSED
+11767,Avoid redundant clones in version containment check,charliermarsh,2025-02-25T06:24:38Z,2025-02-25T14:36:23+00:00,1,8.2,True,14,11,1,40,0,0,0,MERGED
+11761,Create a `.git` directory in the test context root,zanieb,2025-02-24T23:08:48Z,2025-02-28T06:36:41+00:00,1,79.46,True,5,0,1,71,0,0,0,MERGED
+11758,rework log verbosity (`-vvv`),Gankra,2025-02-24T21:43:39Z,2025-02-28T23:49:27+00:00,17,98.1,True,64,48,4,578,0,3,3,MERGED
+11754,Add anchor links to arguments and options in the CLI reference,zanieb,2025-02-24T19:25:45Z,2025-02-24T21:48:14+00:00,1,2.37,True,1394,1390,2,0,0,0,0,MERGED
+11744,Disable interactive git terminal prompts during fetches,piegamesde,2025-02-24T11:52:38Z,2025-02-25T19:30:56+00:00,10,31.64,True,37,0,2,330,6,4,10,MERGED
+11742,[Docs] fix readme typo,luarss,2025-02-24T11:05:41Z,2025-02-24T13:24:43+00:00,1,2.32,True,1,1,1,85,1,0,1,MERGED
+11738,Use hash instead of full wheel name in wheels bucket,nkitsaini,2025-02-24T05:27:03Z,2025-02-26T22:41:58+00:00,18,65.25,True,138,131,12,1160,10,8,18,MERGED
+11722,Fix message when there are no buildable packages,damymetzke,2025-02-23T13:23:42Z,2025-02-24T20:41:14+00:00,1,31.29,True,2,2,2,460,0,0,0,MERGED
+11720,Upgrade Rust toolchain to 1.85,samypr100,2025-02-23T00:17:58Z,2025-02-23T15:52:35+00:00,1,15.58,True,51,56,21,187,3,0,3,MERGED
+11717,Initialize PEP 723 script in `uv lock --script`,charliermarsh,2025-02-22T22:29:40Z,2025-02-24T17:40:45+00:00,1,43.18,True,92,26,4,116,0,0,0,MERGED
+11715,Use a `SmallString` for the Yanked enum,charliermarsh,2025-02-22T22:14:19Z,2025-02-24T19:03:56+00:00,1,44.83,True,18,4,6,85,4,0,4,MERGED
+11714,Use boxed slices for hash vector,charliermarsh,2025-02-22T22:13:21Z,2025-02-24T17:11:44+00:00,1,42.97,True,264,139,23,134,0,0,0,MERGED
+11706,Don't panic on Ctrl-C in confirm prompt,ericmarkmartin,2025-02-22T07:23:50Z,2025-02-26T10:10:04+00:00,1,98.77,True,84,78,3,418,8,0,8,MERGED
+11702,Treat lockfile as outdated if (empty) extras are added,charliermarsh,2025-02-22T00:42:18Z,2025-02-22T04:51:04+00:00,1,4.15,True,289,25,4,86,0,1,1,MERGED
+11690,Docs: refactor/enhance dependency groups section,rsyring,2025-02-21T06:22:07Z,2025-08-14T15:57:28+00:00,4,4185.59,False,57,35,1,961,3,4,7,CLOSED
+11686,add pip-compatible `--group` flag to `uv pip install` and `uv pip compile`,Gankra,2025-02-21T05:02:32Z,2025-03-17T18:44:11+00:00,52,589.69,True,1999,707,26,4000,9,31,40,MERGED
+11669,Fix missing a closing bracket in the cache-keys setting,chilin0525,2025-02-20T15:17:00Z,2025-02-20T20:16:20+00:00,1,4.99,True,3,3,2,81,0,0,0,MERGED
+11667,Display path separators as backslashes on Windows,jtfmumm,2025-02-20T14:42:20Z,2025-02-20T21:28:38+00:00,5,6.77,True,88,7,4,165,2,1,3,MERGED
+11666,Update versioning policy,zanieb,2025-02-20T14:00:25Z,2025-03-07T17:12:07+00:00,1,363.19,True,6,2,1,20,0,1,1,MERGED
+11665,Accept multiple `.env` files in `UV_ENV_FILE`,Seven4ME,2025-02-20T13:21:06Z,2025-02-21T05:37:23+00:00,1,16.27,True,6,4,2,705,1,0,1,MERGED
+11660,Reduce overhead in converting resolutions,konstin,2025-02-20T11:02:43Z,2025-02-20T20:13:01+00:00,3,9.17,True,63,43,10,1681,0,2,2,MERGED
+11653,Avoid installing duplicate dependencies across conflicting groups,charliermarsh,2025-02-20T05:31:27Z,2025-02-20T20:17:13+00:00,3,14.76,True,137,5,2,139,0,1,1,MERGED
+11647,"Update the ""Locking and syncing"" page",zanieb,2025-02-19T22:57:03Z,2025-02-26T18:20:27+00:00,11,163.39,True,161,22,2,243,3,11,14,MERGED
+11644,Allow quotes around command-line options in `requirement.txt files`,charliermarsh,2025-02-19T22:32:13Z,2025-02-20T20:13:10+00:00,2,21.68,True,178,11,5,22,0,1,1,MERGED
+11643,Support conflict markers in `uv export`,charliermarsh,2025-02-19T22:29:28Z,2025-02-20T20:19:46+00:00,2,21.84,True,796,49,4,723,2,1,3,MERGED
+11633,Skip removed directories during bytecode compilation,zanieb,2025-02-19T19:03:27Z,2025-02-20T20:17:38+00:00,1,25.24,True,16,2,1,52,0,0,0,MERGED
+11628,Add smoke test script in Python,zanieb,2025-02-19T17:48:58Z,2025-03-27T20:35:21+00:00,9,866.77,True,111,22,4,172,2,2,4,MERGED
+11626,Add emulated test for x86-64 Python on aarch64 Windows,zanieb,2025-02-19T16:55:04Z,2025-02-19T18:02:13+00:00,1,1.12,True,22,0,1,40,2,0,2,MERGED
+11625,Allow use of x86-64 Python on ARM Windows,zanieb,2025-02-19T16:43:19Z,2025-02-19T18:01:46+00:00,2,1.31,True,32,6,3,13,1,1,2,MERGED
+11623,Return error when running uvx with a .py script,jtfmumm,2025-02-19T15:32:02Z,2025-03-04T14:29:36+00:00,16,310.96,True,161,2,2,476,3,13,16,MERGED
+11615,Use install concurrency for bytecode compilation too,konstin,2025-02-19T09:04:57Z,2025-02-20T11:23:40+00:00,1,26.31,True,25,16,6,239,1,0,1,MERGED
+11603,Require the command in `uvx <name>` to be available in the Python environment,zanieb,2025-02-18T19:29:25Z,2025-04-18T21:57:33+00:00,20,1418.47,True,200,156,2,846,1,7,8,MERGED
+11601,Include environment variables in interpreter info caching,konstin,2025-02-18T15:43:22Z,2025-02-19T10:10:19+00:00,3,18.45,True,142,43,4,1757,0,1,1,MERGED
+11598, Add document for specifying Python interpreter in tool installation and upgrade commands.,FishAlchemist,2025-02-18T13:50:02Z,2025-02-18T17:45:58+00:00,6,3.93,True,27,0,1,378,0,1,1,MERGED
+11593,Display the built file name instead of the canonicalized name in `uv build`,jtfmumm,2025-02-18T11:04:55Z,2025-02-20T08:11:15+00:00,8,45.11,True,119,33,2,129,1,3,4,MERGED
+11591,Sort dependency group keys when adding new group,jtfmumm,2025-02-18T09:25:03Z,2025-02-18T18:12:51+00:00,11,8.8,True,256,21,2,279,0,4,4,MERGED
+11589,Set `COLUMNS` during tests ,mgorny,2025-02-18T07:21:03Z,2025-02-18T16:38:29+00:00,1,9.29,True,23,10,4,417,4,0,4,MERGED
+11585,Add `tool.uv.build-constraint-dependencies` to `pyproject.toml`,cning112,2025-02-17T23:07:53Z,2025-02-18T01:58:36+00:00,1,2.85,True,879,8,19,299,1,0,1,MERGED
+11579,Move `clone_recursive` documentation,zanieb,2025-02-17T17:31:22Z,2025-02-18T19:31:37+00:00,1,26.0,True,21,15,2,81,0,0,0,MERGED
+11576,Remove build backend parking breaks,konstin,2025-02-17T11:47:04Z,2025-03-10T22:49:27+00:00,4,515.04,False,28,44,2,341,2,2,4,CLOSED
+11572,Make fetch python downloads deterministic,j178,2025-02-17T03:45:26Z,2025-02-17T14:36:38+00:00,1,10.85,True,4,2,3,13,0,0,0,MERGED
+11553,[docs] Add shebang section for scripts,sa-,2025-02-16T10:55:08Z,2025-04-16T15:20:28+00:00,4,1420.42,True,33,0,1,115,22,3,25,MERGED
+11542,Add documentation for required environments,charliermarsh,2025-02-15T20:17:46Z,2025-02-17T17:27:57+00:00,1,45.17,True,106,24,2,100,0,0,0,MERGED
+11539,Fallback to `GET` on HTTP 400 when attempting to use range requests for wheel download,zanieb,2025-02-15T17:03:29Z,2025-02-16T04:02:46+00:00,1,10.99,True,6,0,1,10,0,0,0,MERGED
+11520,Allow selection of debug build interpreters,zanieb,2025-02-14T20:24:36Z,2025-09-12T13:32:23+00:00,13,5033.13,True,8013,107,17,84,4,7,11,MERGED
+11519,Note that main.py used to be hello.py,Gankra,2025-02-14T19:50:56Z,2025-02-14T21:59:25+00:00,2,2.14,True,4,0,1,0,0,1,1,MERGED
+11514,Eagerly reject unsupported Git schemes,konstin,2025-02-14T16:40:03Z,2025-02-18T02:14:06+00:00,3,81.57,True,212,171,18,1211,2,2,4,MERGED
+11513,fix duplicate packages with multiple conflicting extras declared,BurntSushi,2025-02-14T15:48:27Z,2025-02-18T12:45:24+00:00,5,92.95,True,3348,33,4,3054,4,2,6,MERGED
+11510,Split changelog into separate files,zanieb,2025-02-14T15:16:57Z,2025-02-14T19:20:06+00:00,1,4.05,True,4962,4994,6,409,1,0,1,MERGED
+11500,Use a 'minor' version field (`revision`) in the lockfile,charliermarsh,2025-02-14T01:53:40Z,2025-02-14T16:17:26+00:00,7,14.4,True,738,859,35,787,3,2,5,MERGED
+11499,Validate dependency groups even when `--frozen` is present,charliermarsh,2025-02-14T00:14:57Z,2025-02-14T15:54:28+00:00,1,15.66,True,168,161,10,129,4,0,4,MERGED
+11496,Bump version to v0.6.0,zanieb,2025-02-13T23:07:10Z,2025-02-14T17:55:54+00:00,9,18.81,True,84,22,11,0,0,4,4,MERGED
+11487,Respect `UV_PYTHON` in `uv python install`,zanieb,2025-02-13T18:42:54Z,2025-02-13T20:58:59+00:00,1,2.27,True,103,11,4,190,0,0,0,MERGED
+11486,Allow `-p` to use complex Python version requests in `uv pip compile`,zanieb,2025-02-13T18:30:01Z,2025-02-13T21:44:01+00:00,11,3.23,True,583,71,5,878,1,5,6,MERGED
+11485,rename hello.py to <package>.py,Gankra,2025-02-13T16:51:36Z,2025-02-13T22:06:20+00:00,2,5.25,False,2265,1098,69,35,0,1,1,CLOSED
+11478,More consistent `build-binaries.yml`,konstin,2025-02-13T12:55:56Z,2025-02-18T17:36:26+00:00,15,124.67,True,27,37,1,295,1,5,6,MERGED
+11449,Optional schemars dependency,konstin,2025-02-12T16:06:10Z,2025-02-12T17:20:19+00:00,3,1.24,True,15,7,3,135,0,1,1,MERGED
+11448,Split uv-git and uv-git-types,konstin,2025-02-12T15:59:24Z,2025-02-17T09:37:55+00:00,3,113.64,True,294,245,32,214,8,1,9,MERGED
+11446,A minimal build backend for uv: uv_build,konstin,2025-02-12T14:58:24Z,2025-03-06T19:27:20+00:00,26,532.48,True,842,96,26,784,9,18,27,MERGED
+11443,Update scripts docs with package indexes,lewis-wf,2025-02-12T12:27:23Z,2025-02-12T13:52:22+00:00,2,1.42,True,19,0,1,567,2,0,2,MERGED
+11437,fix: make -p flag in  an alias for --python,Aditya-PS-05,2025-02-12T06:44:51Z,2025-02-13T18:52:31+00:00,4,36.13,False,12,4,2,216,3,2,5,CLOSED
+11433,Support `--active` for PEP 723 script environments,charliermarsh,2025-02-12T03:05:21Z,2025-02-13T19:40:21+00:00,9,40.58,True,354,61,17,29,0,4,4,MERGED
+11431,Prefer running executables in the environment with `<name>` over `<name>/__main__.py`,zanieb,2025-02-11T22:10:07Z,2025-02-12T18:08:55+00:00,4,19.98,True,122,9,2,74,0,2,2,MERGED
+11430,Check for executable permissions in `is_executable`,zanieb,2025-02-11T21:53:45Z,2025-02-12T19:50:29+00:00,2,21.95,True,5,2,1,81,0,1,1,MERGED
+11427,Avoid comparing to system site packages in `--dry-run` mode,charliermarsh,2025-02-11T21:14:17Z,2025-02-11T22:51:18+00:00,1,1.62,True,125,66,5,309,0,0,0,MERGED
+11426,feat: error on non-existent extra from lock file,mkniewallner,2025-02-11T20:51:18Z,2025-02-12T17:29:09+00:00,6,20.63,True,375,7,6,112,3,4,7,MERGED
+11421,retry local clones without hardlinks if they fail,Gankra,2025-02-11T14:47:18Z,2025-02-12T00:42:13+00:00,2,9.92,True,13,2,1,12,11,1,12,MERGED
+11415,Mark `sync::sync_dry_run` test as requiring `python-managed`,mgorny,2025-02-11T07:28:25Z,2025-02-11T08:55:46+00:00,1,1.46,True,1,0,1,1067,6,0,6,MERGED
+11412,Remove in-memory locks from distribution database,charliermarsh,2025-02-11T00:48:54Z,2025-02-21T04:57:32+00:00,1,244.14,True,2,31,4,323,0,0,0,MERGED
+11404,feat: add workspace members as dependencies in uv init,Aditya-PS-05,2025-02-10T20:48:30Z,2025-09-11T22:52:38+00:00,4,5114.07,False,74,16,3,517,3,2,5,CLOSED
+11399,Add `NO_BINARY` and `NO_BINARY_PACKAGE` environment variables,lengau,2025-02-10T19:55:08Z,2025-02-10T21:11:46+00:00,1,1.28,True,177,2,6,472,1,0,1,MERGED
+11396,Catch broken `mac_ver()`,konstin,2025-02-10T19:00:48Z,2025-02-10T21:49:16+00:00,1,2.81,True,8,2,2,307,4,0,4,MERGED
+11394,Warn for builds in non-build and workspace root pyproject.toml,konstin,2025-02-10T18:55:03Z,2025-02-17T15:57:18+00:00,3,165.04,True,166,11,5,209,6,2,8,MERGED
+11386,Detect infinite recursion in uv run.,ssanderson,2025-02-10T14:47:21Z,2025-02-12T18:58:43+00:00,9,52.19,True,111,0,6,795,1,5,6,MERGED
+11381,Update alternative-indexes.md to use `UV_INDEX` instead of `UV_EXTRA_INDEX_URL`,valentinoli,2025-02-10T11:43:04Z,2025-02-11T14:19:20+00:00,1,26.6,True,5,5,1,113,0,0,0,MERGED
+11380,Fix windows installation instructions mismatch,konstin,2025-02-10T09:26:15Z,2025-02-10T20:42:50+00:00,1,11.28,True,1,1,1,22,0,0,0,MERGED
+11364,Use stable environments for remote and stdin scripts,charliermarsh,2025-02-09T19:58:41Z,2025-02-12T00:54:46+00:00,1,52.93,True,162,200,8,305,0,0,0,MERGED
+11361,Add `uv sync --script`,charliermarsh,2025-02-09T19:14:24Z,2025-02-12T16:02:17+00:00,10,68.8,True,957,270,12,714,6,5,11,MERGED
+11347,Use a stable directory for (local) script virtual environments,charliermarsh,2025-02-09T02:47:29Z,2025-02-12T00:45:26+00:00,2,69.97,True,429,195,7,709,1,3,4,MERGED
+11345,Bring parity to `uvx` and `uv tool install` requests,charliermarsh,2025-02-09T00:18:43Z,2025-02-12T00:16:35+00:00,1,71.96,True,323,290,5,492,0,0,0,MERGED
+11338,Fix broken anchors in readme and docs index,letientai299,2025-02-08T04:27:39Z,2025-02-08T15:21:08+00:00,3,10.89,True,12,12,2,314,2,1,3,MERGED
+11337,Allow PEP 508 requirements in tool requests,charliermarsh,2025-02-08T02:41:15Z,2025-02-12T00:06:40+00:00,4,93.42,True,117,22,3,107,0,2,2,MERGED
+11336,Fix credential caching for index roots when URL ends in `simple/`,zanieb,2025-02-08T01:57:35Z,2025-02-08T15:23:31+00:00,6,13.43,True,54,3,2,41,0,2,2,MERGED
+11328,Set 777 permissions on locked files,charliermarsh,2025-02-07T20:13:50Z,2025-02-07T21:36:10+00:00,2,1.37,True,56,3,1,204,5,0,5,MERGED
+11326,Set `UV` to the uv executable path,zanieb,2025-02-07T18:40:16Z,2025-02-07T20:44:29+00:00,15,2.07,True,74,7,6,12,2,2,4,MERGED
+11323,fix a case of duplicate `torch` packages when using conflicting extras,BurntSushi,2025-02-07T17:19:06Z,2025-02-10T14:17:32+00:00,3,68.97,True,2839,91,2,1334,0,1,1,MERGED
+11313,Optimize flattening in apache airflow workspace,konstin,2025-02-07T11:30:46Z,2025-02-07T22:08:41+00:00,2,10.63,True,50,34,4,1293,0,1,1,MERGED
+11306,Include archive bucket version in archive pointers,charliermarsh,2025-02-07T02:00:38Z,2025-02-07T22:20:11+00:00,2,20.33,True,36,9,4,414,0,1,1,MERGED
+11299,Add `uv sync --dry-run`,charliermarsh,2025-02-06T21:26:56Z,2025-02-06T23:52:50+00:00,8,2.43,True,398,130,12,102,0,6,6,MERGED
+11295,don't use the Cool popup-generating eprintln in trampoline for warnings,Gankra,2025-02-06T20:11:31Z,2025-02-07T18:33:12+00:00,10,22.36,True,42,39,8,86,4,2,6,MERGED
+11293,fix an issue where conflict markers could instigate a very large lock file,BurntSushi,2025-02-06T19:58:36Z,2025-02-18T12:44:12+00:00,5,280.76,True,1128,10,6,2140,0,1,1,MERGED
+11292,uv-python tests: Use #!/bin/sh instead of #!/bin/bash,geofft,2025-02-06T19:53:04Z,2025-02-07T15:42:33+00:00,1,19.82,True,5,5,2,91,0,0,0,MERGED
+11291,Patch pkg-config files to be relocatable,geofft,2025-02-06T19:49:58Z,2025-02-07T23:03:55+00:00,8,27.23,True,29,19,1,649,0,1,1,MERGED
+11290,Allow `--python <dir>` requests to match existing environments if `sys.executable` is the same file,zanieb,2025-02-06T19:33:06Z,2025-02-12T18:46:00+00:00,2,143.22,True,5,1,1,362,0,1,1,MERGED
+11286,Add Discord to PyPI project URLs,zanieb,2025-02-06T18:20:51Z,2025-02-06T22:47:23+00:00,1,4.44,True,1,0,1,211,2,0,2,MERGED
+11284,cleanup some dependency-group docs,Gankra,2025-02-06T16:31:07Z,2025-02-07T15:40:59+00:00,11,23.16,True,105,76,3,151,0,7,7,MERGED
+11280,Add docs for `uv tool install --editable`,konstin,2025-02-06T14:08:57Z,2025-02-07T22:56:54+00:00,1,32.8,True,17,13,2,59,0,0,0,MERGED
+11269,Use files instead of junctions on Windows,charliermarsh,2025-02-06T01:03:40Z,2025-02-08T00:13:19+00:00,5,47.16,True,351,59,14,381,4,6,10,MERGED
+11265,Allow opt-in to `.python-version` in `uv init` with `--pin-python`,zanieb,2025-02-05T22:18:32Z,2025-02-05T23:21:58+00:00,1,1.06,True,41,33,6,19,0,0,0,MERGED
+11254,Always use base Python discovery logic for cached environments,charliermarsh,2025-02-05T19:11:05Z,2025-02-05T20:47:56+00:00,1,1.61,True,54,27,3,692,3,0,3,MERGED
+11251,Allow the project `VIRTUAL_ENV` warning to be silenced with `--no-active`,zanieb,2025-02-05T16:27:06Z,2025-02-05T19:44:47+00:00,3,3.29,True,63,37,14,53,0,2,2,MERGED
+11224,fix handling of `--all-groups` and `--no-default-groups` flags,Gankra,2025-02-04T19:28:17Z,2025-02-05T20:31:23+00:00,36,25.05,True,1171,578,12,553,0,14,14,MERGED
+11218,Allow discovering virtual environments from the first interpreter found on the `PATH`,zanieb,2025-02-04T16:15:25Z,2025-02-04T21:41:38+00:00,2,5.44,True,124,11,4,1144,2,1,3,MERGED
+11211,"Fix typo ""dependency-group"" in error message and comments",mancellin,2025-02-04T10:13:57Z,2025-02-04T11:16:05+00:00,1,1.04,True,17,17,6,201,0,0,0,MERGED
+11210,Disable SSL in Git commands for `--allow-insecure-host`,charliermarsh,2025-02-04T03:19:04Z,2025-02-04T15:57:57+00:00,1,12.65,True,86,16,7,772,1,0,1,MERGED
+11209,Set base executable when returning virtual environment,charliermarsh,2025-02-04T01:28:29Z,2025-02-04T22:32:47+00:00,1,21.07,True,5,0,3,723,0,0,0,MERGED
+11208,Use base Python for cached environments,charliermarsh,2025-02-04T01:21:16Z,2025-02-04T22:23:06+00:00,3,21.03,True,201,146,6,987,0,2,2,MERGED
+11202,"Update bad shell assumptions from ""Shell autocompletion"" page",Avasam,2025-02-03T22:35:18Z,2025-02-05T23:33:49+00:00,1,48.98,True,44,6,1,520,1,0,1,MERGED
+11195,Remove warnings for missing lower bounds,zanieb,2025-02-03T20:44:38Z,2025-02-03T22:03:31+00:00,2,1.31,True,49,185,30,262,0,0,0,MERGED
+11193,Improve error messages for `uv pip install` with `--extra` or `--all-extras` and invalid sources,zanieb,2025-02-03T19:44:55Z,2025-02-03T22:12:39+00:00,5,2.46,True,88,1,2,136,4,1,5,MERGED
+11192,Add `--bare` option to `uv init`,zanieb,2025-02-03T19:27:53Z,2025-02-05T16:12:28+00:00,8,44.74,True,311,13,7,333,3,4,7,MERGED
+11189,Add support for respecting `VIRTUAL_ENV` in project commands via `--active`,zanieb,2025-02-03T18:52:37Z,2025-02-05T16:12:19+00:00,1,45.33,True,368,33,20,573,5,0,5,MERGED
+11182,Respect concurrency limits in parallel index fetch,konstin,2025-02-03T13:50:06Z,2025-02-03T15:41:17+00:00,1,1.85,True,63,10,9,280,0,0,0,MERGED
+11174,Use Astral-maintained `tokio-tar` fork,charliermarsh,2025-02-03T01:02:43Z,2025-02-03T17:51:35+00:00,13,16.81,True,49,64,7,251,1,3,4,MERGED
+11169,Update pubgrub to set-based outdated priority tracking,konstin,2025-02-02T17:37:01Z,2025-02-03T12:08:52+00:00,1,18.53,True,13,11,4,1149,0,0,0,MERGED
+11167, Fix cross-drive script installation,konstin,2025-02-02T16:08:48Z,2025-02-12T18:00:41+00:00,13,241.86,True,82,17,3,658,0,6,6,MERGED
+11165,Show messages for slow tasks in non-interactive mode,konstin,2025-02-02T13:40:06Z,2025-02-05T23:38:02+00:00,8,81.97,True,95,21,4,2144,2,4,6,MERGED
+11164,Add ``last updated`` for document,FishAlchemist,2025-02-02T11:09:02Z,2025-02-04T03:28:48+00:00,8,40.33,True,22,1,5,699,2,3,5,MERGED
+11158,Optimize exclusion computation for markers,charliermarsh,2025-02-02T00:20:21Z,2025-02-02T13:21:32+00:00,1,13.02,True,128,91,1,104,0,0,0,MERGED
+11157,Bump alpine default tag to 3.21,samypr100,2025-02-02T00:10:15Z,2025-02-07T20:44:21+00:00,2,140.57,True,1,1,1,477,0,0,0,MERGED
+11155,Set `VIRTUAL_ENV` in Jupyter kernels,charliermarsh,2025-02-01T19:43:03Z,2025-02-01T21:54:34+00:00,1,2.19,True,1,1,1,453,13,0,13,MERGED
+11145,Refactor Python discovery iterators to use `filter_ok` and `map_ok`,zanieb,2025-01-31T20:30:44Z,2025-01-31T22:06:23+00:00,1,1.59,True,35,52,1,30,0,0,0,MERGED
+11144,Migrate from `urlencoding` to `percent-encoding`,charliermarsh,2025-01-31T20:28:29Z,2025-01-31T21:29:46+00:00,1,1.02,True,30,32,13,161,0,0,0,MERGED
+11143,Filter discovered Python executables by source before querying,zanieb,2025-01-31T19:45:52Z,2025-01-31T21:53:59+00:00,11,2.14,True,107,13,2,78,0,2,2,MERGED
+11141,Clear ephemeral overlays when running tools,charliermarsh,2025-01-31T19:15:13Z,2025-02-04T22:45:45+00:00,2,99.51,True,186,92,5,708,0,0,0,MERGED
+11140,Docs on how to verify uv docker image attestations,mjpieters,2025-01-31T19:09:23Z,2025-02-04T21:38:19+00:00,7,98.48,True,56,0,1,24,4,1,5,MERGED
+11131,Improve performance of uv-python crate's manylinux submodule,cthoyt,2025-01-31T11:09:30Z,2025-05-28T13:09:20+00:00,1,2810.0,True,4,7,1,708,5,0,5,MERGED
+11127,removed unneeded `.clone()`,JackDyre,2025-01-31T07:28:20Z,2025-01-31T10:12:19+00:00,1,2.73,True,1,1,1,33,0,0,0,MERGED
+11125,Add Git SHA locking behavior to docs,charliermarsh,2025-01-31T03:35:15Z,2025-01-31T18:11:04+00:00,1,14.6,True,10,5,1,22,2,0,2,MERGED
+11122,Use explicit _GLibCVersion tuple in uv-python crate,cthoyt,2025-01-30T23:30:21Z,2025-01-31T10:52:38+00:00,1,11.37,True,9,9,1,1047,1,0,1,MERGED
+11115,Avoid fallback to PyPI in mixed CPU/CUDA example,charliermarsh,2025-01-30T18:59:52Z,2025-03-03T03:35:32+00:00,1,752.59,True,4,4,1,156,3,0,3,MERGED
+11098,Update resolver internals docs,konstin,2025-01-30T15:03:41Z,2025-02-04T13:06:27+00:00,5,118.05,True,90,14,1,312,0,2,2,MERGED
+11094,Explain build frontend vs. build backend,konstin,2025-01-30T13:05:28Z,2025-01-30T19:48:47+00:00,2,6.72,True,8,0,1,309,0,1,1,MERGED
+11091,Don't warn for previously constraint dependencies,konstin,2025-01-30T11:58:32Z,2025-02-03T20:14:31+00:00,4,104.27,False,83,8,5,42,2,3,5,CLOSED
+11088,Percent-decode URLs in canonical comparisons,charliermarsh,2025-01-30T03:44:16Z,2025-01-31T20:45:49+00:00,12,41.03,True,97,16,4,996,0,1,1,MERGED
+11085,Allow `--exclude-newer` to be set at the test context level,charliermarsh,2025-01-29T23:35:58Z,2025-01-30T00:44:21+00:00,2,1.14,True,107,173,8,92,1,0,1,MERGED
+11083,Avoid resolving symbolic links when querying Python interpreters,zanieb,2025-01-29T20:39:39Z,2025-01-30T16:10:33+00:00,1,19.52,True,105,12,3,221,7,0,7,MERGED
+11076,Add support for `uvx python`,zanieb,2025-01-29T18:45:24Z,2025-01-30T17:53:58+00:00,9,23.14,True,427,90,7,200,1,6,7,MERGED
+11075,uv-resolver: fix conflicting extra bug during `uv sync`,BurntSushi,2025-01-29T18:36:36Z,2025-01-29T22:21:10+00:00,1,3.74,True,131,37,1,2013,0,0,0,MERGED
+11074,Propagate credentials for `<index>/simple` to `<index>/...` endpoints,zanieb,2025-01-29T17:52:31Z,2025-01-30T16:22:21+00:00,3,22.5,True,103,24,12,69,6,2,8,MERGED
+11072,Update `uv python install --reinstall` to reinstall all previous versions,zanieb,2025-01-29T17:29:43Z,2025-01-30T16:08:07+00:00,7,22.64,True,164,23,3,332,0,2,2,MERGED
+11067,docs: suggest copy linking for GitLab integration guide,fgreinacher,2025-01-29T16:08:48Z,2025-01-29T17:58:14+00:00,6,1.82,True,3,4,1,394,0,2,2,MERGED
+11066,Use dependency groups in transformers ecosystem test,konstin,2025-01-29T15:46:56Z,2025-01-30T01:22:03+00:00,1,9.59,True,140,133,2,133,0,0,0,MERGED
+11063,add provides-extras to lockfile,Gankra,2025-01-29T14:20:00Z,2025-02-11T19:38:38+00:00,14,317.31,True,1233,654,33,12,4,2,6,MERGED
+11059,doc typo: unnecessary backslashes to represent brackets in markdown,aureliobarbosa,2025-01-29T12:56:14Z,2025-01-29T14:17:31+00:00,1,1.35,True,1,1,1,291,1,0,1,MERGED
+11052,Update documentation for running in a container,returnDanilo,2025-01-29T08:27:44Z,2025-01-30T00:17:59+00:00,4,15.84,True,10,7,1,529,1,2,3,MERGED
+11049,feat: wide char based trampoline,samypr100,2025-01-29T02:46:18Z,2025-09-22T22:22:28+00:00,2,5683.6,False,82,178,12,2098,7,1,8,CLOSED
+11045,Link to our MRE documentation in the issue template,zanieb,2025-01-28T23:41:56Z,2025-01-29T05:09:04+00:00,1,5.45,True,1,1,1,0,0,0,0,MERGED
+11041,Add docs for signal handling,zanieb,2025-01-28T20:59:26Z,2025-01-29T14:27:52+00:00,1,17.47,True,13,0,1,154,0,0,0,MERGED
+11040,Reflow CLI documentation comments,zanieb,2025-01-28T20:52:30Z,2025-01-29T14:21:33+00:00,2,17.48,True,346,401,2,312,1,1,2,MERGED
+11032,Stabilize `uv publish`,konstin,2025-01-28T18:41:50Z,2025-02-11T16:21:32+00:00,1,333.66,True,0,17,2,10140,1,0,1,MERGED
+11030,Fix best-interpreter lookups when there is an invalid interpreter in the PATH,zanieb,2025-01-28T18:30:49Z,2025-01-28T19:44:32+00:00,1,1.23,True,38,15,2,110,2,0,2,MERGED
+11015,Use dev drive for trampoline CI to avoid timeout,konstin,2025-01-28T10:15:48Z,2025-02-03T14:38:56+00:00,2,148.39,True,11,5,1,105,3,0,3,MERGED
+11013,Fix incorrect error message when specifying `tool.uv.sources.(package).workspace` with other options,micolous,2025-01-28T07:42:22Z,2025-01-28T14:25:34+00:00,1,6.72,True,8,8,1,409,0,0,0,MERGED
+11009,Improve SIGINT handling in `uv run`,zanieb,2025-01-28T00:36:30Z,2025-01-28T20:00:38+00:00,5,19.4,True,108,22,1,624,4,3,7,MERGED
+11007,Guard against concurrent cache writes on Windows,charliermarsh,2025-01-27T22:59:57Z,2025-01-28T20:33:50+00:00,5,21.56,True,137,71,7,2302,5,2,7,MERGED
+11003,Respect `--no-sources` for `uv pip install` workspace discovery,konstin,2025-01-27T21:22:05Z,2025-01-27T23:10:27+00:00,1,1.81,True,128,16,3,166,1,0,1,MERGED
+10994,Reject `--editable` flag on non-directory requirements,charliermarsh,2025-01-27T17:46:45Z,2025-01-27T19:37:23+00:00,9,1.84,True,67,0,2,22,0,2,2,MERGED
+10990,"Update name of ""Build binary"" job to highlight that these are the ""release"" binaries",zanieb,2025-01-27T15:35:08Z,2025-01-27T17:48:39+00:00,1,2.23,True,1,1,1,68,0,0,0,MERGED
+10989,Forward SIGINT to children in `uv run` on second Ctrl-C,zanieb,2025-01-27T15:30:55Z,2025-01-28T17:29:38+00:00,3,25.98,False,23,1,1,13,0,3,3,CLOSED
+10984,Improve publish test script resilience,konstin,2025-01-27T12:04:06Z,2025-01-27T19:20:33+00:00,1,7.27,True,75,30,1,225,0,0,0,MERGED
+10983,Use install action for cargo shear,konstin,2025-01-27T11:16:05Z,2025-01-27T17:06:18+00:00,1,5.84,True,4,2,1,54,0,0,0,MERGED
+10958,"Do not suggest --package when --backend is used, but --build-backend",styvane,2025-01-25T13:58:53Z,2025-01-29T22:15:05+00:00,6,104.27,True,43,0,3,45,3,1,4,MERGED
+10955,[docs/integration/docker] add sha pinning tip,ryan-ph,2025-01-25T06:40:13Z,2025-01-27T18:29:24+00:00,5,59.82,True,12,0,1,386,0,2,2,MERGED
+10947,Add a troubleshooting section and reproducible example guide,zanieb,2025-01-24T21:12:58Z,2025-01-27T19:29:24+00:00,5,70.27,True,174,7,5,0,3,3,6,MERGED
+10943,Set `JEMALLOC_SYS_WITH_LG_PAGE=16` in arm Docker builds,zanieb,2025-01-24T19:36:20Z,2025-01-28T17:35:54+00:00,2,93.99,True,5,1,1,92,2,0,2,MERGED
+10939,Add `UV_PYTHON_DOWNLOADS_JSON_URL` to set custom managed python sources,MeitarR,2025-01-24T15:40:43Z,2025-04-07T17:55:00+00:00,29,1754.24,True,248,19303,15,2876,13,13,26,MERGED
+10927,Allow installation of manylinux wheels on loongarch64,wojiushixiaobai,2025-01-24T05:15:35Z,2025-01-24T13:36:03+00:00,1,8.34,True,3,1,1,570,0,0,0,MERGED
+10926,Add documentation for `uv add -r`,zanieb,2025-01-24T01:53:33Z,2025-01-24T03:34:50+00:00,1,1.69,True,8,0,1,13,0,0,0,MERGED
+10925,feat: error on non-existent extra from lock file,mkniewallner,2025-01-24T01:28:00Z,2025-02-11T19:38:41+00:00,3,450.18,False,302,7,6,397,4,2,6,CLOSED
+10913,Add test case for automatic installs,zanieb,2025-01-23T21:06:37Z,2025-01-23T22:21:21+00:00,2,1.25,True,143,34,2,30,0,2,2,MERGED
+10912,Require tests to opt-in to managed Python installation,zanieb,2025-01-23T19:59:04Z,2025-01-23T21:24:41+00:00,5,1.43,True,64,48,5,253,0,3,3,MERGED
+10909,temporarily disable new uv pip dependency-group flags,Gankra,2025-01-23T18:13:46Z,2025-01-23T20:43:07+00:00,1,2.49,True,5,1064,8,153,1,0,1,MERGED
+10908,Allow fallback to Python download on non-critical discovery errors,zanieb,2025-01-23T18:10:30Z,2025-01-23T22:37:02+00:00,4,4.44,True,45,37,2,108,4,2,6,MERGED
+10902,fix `--only-group` in `uv pip` interface,Gankra,2025-01-23T15:28:25Z,2025-01-23T16:35:47+00:00,1,1.12,True,19,17,3,253,4,0,4,MERGED
+10901,Disable the progress bar with `RUST_LOG`,konstin,2025-01-23T15:10:46Z,2025-01-23T17:03:15+00:00,2,1.87,True,3,1,1,23,0,1,1,MERGED
+10899,Add a `uv pip install --group` test case with `default-groups`,zanieb,2025-01-23T14:48:10Z,2025-01-23T16:44:33+00:00,1,1.94,True,65,0,1,0,0,0,0,MERGED
+10894,docs(git): add subdirectory example,mkniewallner,2025-01-23T12:29:27Z,2025-01-23T13:58:40+00:00,1,1.49,True,13,1,1,515,1,0,1,MERGED
+10891,Make `--no-default-groups` work with `--all-groups`,j178,2025-01-23T09:56:11Z,2025-02-05T20:31:25+00:00,6,322.59,False,123,75,4,21,1,5,6,CLOSED
+10887,Improve some env var document,j178,2025-01-23T07:20:33Z,2025-01-23T14:10:19+00:00,1,6.83,True,44,14,2,0,0,0,0,MERGED
+10885,Add Windows aarch64 to the release binaries,zanieb,2025-01-23T04:49:36Z,2025-01-24T15:24:23+00:00,9,34.58,True,3,0,2,48,0,2,2,MERGED
+10884,Bump cargo-dist version to 0.28.0,zanieb,2025-01-23T04:48:23Z,2025-01-23T16:49:53+00:00,1,12.03,True,2,2,2,119,0,0,0,MERGED
+10881,Use Hashbrown's raw entry API to reduce hashes and clone in priority,charliermarsh,2025-01-23T02:40:35Z,2025-01-23T14:34:37+00:00,6,11.9,True,48,39,3,227,0,1,1,MERGED
+10880,Remove dependencies clone in resolver,charliermarsh,2025-01-23T02:20:49Z,2025-01-23T09:59:24+00:00,1,7.64,True,11,11,1,45,0,0,0,MERGED
+10877,Reduce ambiguity in conflicting extras example,charliermarsh,2025-01-22T22:11:32Z,2025-01-23T00:09:49+00:00,1,1.97,True,46,54,3,22,0,0,0,MERGED
+10875,relax error checking around unconditional enabling of conflicting extras,BurntSushi,2025-01-22T19:55:07Z,2025-01-22T23:52:05+00:00,1,3.95,True,386,65,5,956,0,0,0,MERGED
+10874,Add test coverage for use of `git` without feature flag,zanieb,2025-01-22T19:46:04Z,2025-01-23T15:55:07+00:00,5,20.15,True,45,2,8,160,0,1,1,MERGED
+10872,Disable `.egg-info` tests via `slow-tests` feature on Windows and macOS,charliermarsh,2025-01-22T19:35:35Z,2025-01-22T21:39:04+00:00,4,2.06,True,13,3,4,122,2,2,4,MERGED
+10869,feat: error on non-existent extra,mkniewallner,2025-01-22T18:14:50Z,2025-02-09T14:46:04+00:00,1,428.52,False,441,64,9,1263,11,1,12,CLOSED
+10861,"Add dependency-group cli flags to `uv pip install` and `uv pip compile` (`--group`, `--no-group`, `--only-group`, `--all-groups`)",Gankra,2025-01-22T14:55:18Z,2025-01-23T13:47:52+00:00,18,22.88,True,1253,100,19,375,8,7,15,MERGED
+10859,Make GitHub fast path errors non-fatal,charliermarsh,2025-01-22T14:49:38Z,2025-01-22T16:54:02+00:00,1,2.07,True,37,21,1,240,0,0,0,MERGED
+10856,Sort extras and groups when comparing lockfile requirements,charliermarsh,2025-01-22T13:58:42Z,2025-01-22T17:06:05+00:00,3,3.12,True,14,5,2,238,0,1,1,MERGED
+10841,Error when workspace contains conflicting Python requirements,charliermarsh,2025-01-22T02:46:09Z,2025-01-22T17:22:53+00:00,6,14.61,True,113,19,9,162,0,3,3,MERGED
+10840,Remove warnings for `--frozen` and `--locked` in `uv run --script`,charliermarsh,2025-01-22T02:22:07Z,2025-01-22T13:19:28+00:00,1,10.96,True,42,13,2,121,0,0,0,MERGED
+10837,Remove extra collects when flattening requirements,charliermarsh,2025-01-22T02:03:32Z,2025-01-22T15:14:07+00:00,2,13.18,True,138,135,2,0,0,1,1,MERGED
+10836,fix(cli): conflict `--locked` with `--upgrade`,mkniewallner,2025-01-22T01:28:09Z,2025-01-22T03:10:19+00:00,1,1.7,True,7,7,1,382,3,0,3,MERGED
+10833,Respect visitation order for proxy packages,charliermarsh,2025-01-21T23:15:37Z,2025-01-22T17:12:47+00:00,1,17.95,True,713,178,9,910,3,2,5,MERGED
+10831,Update smoke test scripts to fail on first error,zanieb,2025-01-21T22:52:19Z,2025-01-22T21:00:50+00:00,1,22.14,True,3,0,1,56,0,0,0,MERGED
+10830,Separate musl and libc linux builds in CI,zanieb,2025-01-21T22:07:38Z,2025-01-23T21:19:26+00:00,1,47.2,True,73,47,1,361,0,0,0,MERGED
+10827,Resolve `find-links` paths relative to the configuration file,NightRa,2025-01-21T21:34:36Z,2025-01-22T19:44:35+00:00,1,22.17,True,208,25,6,2539,9,0,9,MERGED
+10826,docs: rework alternative indexes documentation,mkniewallner,2025-01-21T21:16:23Z,2025-02-26T15:52:44+00:00,1,858.61,True,273,80,1,829,3,0,3,MERGED

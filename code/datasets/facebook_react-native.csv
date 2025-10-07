@@ -149,3 +149,853 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 51960,Kotlin: clean up redundant visibility modifiers (1/2),mateoguzmana,2025-06-11T17:56:36Z,2025-06-13T15:46:23+00:00,2,45.83,False,73,73,18,296,4,1,5,CLOSED
 51945,Remove JSC related files from the repo,cipolleschi,2025-06-11T10:24:47Z,2025-06-17T16:46:52+00:00,1,150.37,False,0,136,5,161,9,3,12,CLOSED
 51930,Migrate `JavaMethodWrapper` to Kotlin,mateoguzmana,2025-06-10T16:56:46Z,2025-06-13T18:44:35+00:00,4,73.8,False,397,413,2,199,5,5,10,CLOSED
+51929,Fix RNTester system bars background when edge-to-edge is enforced,zoontek,2025-06-10T16:08:09Z,2025-06-13T18:09:15+00:00,8,74.02,False,22,4,1,240,5,4,9,CLOSED
+51925,Add UiModeUtils.isDarkMode helper,zoontek,2025-06-10T15:51:26Z,2025-06-16T17:38:55+00:00,6,145.79,False,33,12,4,255,4,2,6,CLOSED
+51913,"RN: Remove ""js engine"" Suffix from Error Stacks",yungsters,2025-06-10T03:32:14Z,2025-06-11T14:19:54+00:00,1,34.79,False,1,54,3,193,4,0,4,CLOSED
+51908,Publish top-level Flow types for `react-native`,aswinandro,2025-06-09T17:38:42Z,2025-06-12T21:31:32+00:00,4,75.88,False,1,0,1,536,6,1,7,CLOSED
+51901,Fix Nightly Builds,riteshshukla04,2025-06-09T15:38:27Z,2025-06-09T16:47:13+00:00,1,1.15,False,3,1,2,525,3,0,3,CLOSED
+51896,Deprecating SafeAreaView,kikoso,2025-06-09T14:51:59Z,2025-06-18T11:18:36+00:00,7,212.44,False,24,3,3,696,8,3,11,CLOSED
+51892,merge changelogs for 0.80,hezi,2025-06-09T12:39:55Z,2025-06-12T15:21:16+00:00,5,74.69,False,27,340,1,34,4,4,8,CLOSED
+51886,fixes #40314 - index.flow.js,aswinandro,2025-06-08T16:57:30Z,2025-06-09T20:40:08+00:00,1,27.71,False,116,0,2,645,6,0,6,CLOSED
+51884,Migrate `ReactInstanceManagerBuilder` to Kotlin,mateoguzmana,2025-06-08T10:29:06Z,2025-06-11T21:10:43+00:00,1,82.69,False,428,422,3,205,3,5,8,CLOSED
+51867,Fix new codegen API disabling behaviour of the old one,kkafar,2025-06-06T08:17:17Z,2025-06-09T09:39:36+00:00,2,73.37,False,18,8,2,1384,11,0,11,CLOSED
+51855,Migrate `ReactPackageTurboModuleManagerDelegate` to Kotlin,mateoguzmana,2025-06-05T20:06:14Z,2025-06-09T16:16:53+00:00,3,92.18,False,258,274,4,227,4,1,5,CLOSED
+51838,fix: exclusion of selectively disabled libraries from codegen generation,aattola,2025-06-05T12:13:05Z,2025-06-06T10:35:53+00:00,2,22.38,False,6,0,2,819,5,0,5,CLOSED
+51833,fix: ignore build/ and DerivedData/ dirs in when reading infoPlistFiles,tjzel,2025-06-05T09:16:16Z,2025-06-05T10:24:25+00:00,1,1.14,False,1,1,1,632,7,0,7,CLOSED
+51829,build (Android): allow for additional sdkmanager paths,douglowder,2025-06-05T03:14:57Z,2025-06-06T10:28:34+00:00,3,31.23,False,2,0,1,578,3,2,5,CLOSED
+51786,Improve e2e times by using deep links to open examples,mateoguzmana,2025-06-03T20:29:00Z,2025-06-04T09:34:37+00:00,1,13.09,False,15,71,10,931,6,0,6,CLOSED
+51772,fix: make sure RNTester builds with USE_HERMES=0,okwasniewski,2025-06-03T15:09:39Z,2025-06-03T16:56:10+00:00,1,1.78,False,7,2,2,157,3,0,3,CLOSED
+51770,Added support for multiple widths with dashed and dotted borders on iOS,a-klotz-p8,2025-06-03T12:14:45Z,2025-06-12T22:35:52+00:00,1,226.35,False,38,4,1,399,12,1,13,CLOSED
+51756,Migrate `ReactFragment` to Kotlin,mateoguzmana,2025-06-02T21:16:38Z,2025-06-10T14:50:40+00:00,4,185.57,False,226,270,2,177,3,9,12,CLOSED
+51734,Migrate `NativeModuleRegistry` to Kotlin,mateoguzmana,2025-06-01T19:57:39Z,2025-06-04T11:57:10+00:00,5,63.99,False,142,171,3,442,4,7,11,CLOSED
+51721,Migrate `ReactTextViewManager` to Kotlin,mateoguzmana,2025-05-31T11:28:31Z,2025-06-05T04:27:21+00:00,5,112.98,False,232,255,3,317,5,2,7,CLOSED
+51695,Fix emitting event from turbo module crashes on 32bit android,vladimirivanoviliev,2025-05-30T13:20:18Z,2025-06-02T11:54:07+00:00,2,70.56,False,13,9,1,2273,6,1,7,CLOSED
+51691,Move scrollView to ReactFabric,cipolleschi,2025-05-29T22:10:05Z,2025-06-03T11:15:41+00:00,1,109.09,False,5,4,1,370,12,0,12,CLOSED
+51689,A couple grammar fixes,GameRoMan,2025-05-29T21:02:29Z,2025-05-30T12:19:47+00:00,1,15.29,False,17,17,9,30,1,0,1,CLOSED
+51660,Fully remove LOG_TAG from Buck/CMake,cortinico,2025-05-28T16:43:48Z,2025-05-29T17:53:17+00:00,1,25.16,False,1,1,1,222,2,3,5,CLOSED
+51631,[Android] Fix ConcurrentModificationException in InteropUIBlockListener,jkoutavas,2025-05-27T14:38:34Z,2025-05-30T10:54:14+00:00,6,68.26,False,20,12,1,5106,12,8,20,CLOSED
+51596,[ios][prebuild] build xcframeworks from prebuild script,chrfalch,2025-05-26T08:02:47Z,2025-06-06T13:47:13+00:00,6,269.74,False,470,9,3,438,2,1,3,CLOSED
+51595,[ios][prebuild] build swift package from prebuild script,chrfalch,2025-05-26T07:59:05Z,2025-06-06T13:47:12+00:00,5,269.8,False,95,6,2,443,3,2,5,CLOSED
+51592,Typo correction in RCTFollyConvert.h,riteshshukla04,2025-05-25T18:19:27Z,2025-05-26T13:34:42+00:00,1,19.25,False,1,1,1,119,3,0,3,CLOSED
+51590,Improve e2e times and flakiness by using the search,mateoguzmana,2025-05-25T11:24:42Z,2025-06-02T17:20:12+00:00,1,197.93,False,38,37,6,1476,5,0,5,CLOSED
+51583,Fix InputAccessoryView example in dark mode and convert to functional components,mateoguzmana,2025-05-24T15:41:05Z,2025-05-27T13:48:09+00:00,1,70.12,False,49,56,1,336,3,0,3,CLOSED
+51579,Update iOS RNTester build artifacts in .gitignore,mateoguzmana,2025-05-24T10:22:58Z,2025-05-26T13:10:48+00:00,1,50.8,False,6,0,1,220,3,0,3,CLOSED
+51571,[0.78] Update debugger-frontend from 7727db85...911a4d98 (S523384 mitigation),huntie,2025-05-23T18:12:58Z,2025-07-08T10:27:26+00:00,1,1096.24,True,7,7,4,974,0,0,0,MERGED
+51564,[0.80] Update debugger-frontend from bc635fa...343405b (S523384 mitigation),huntie,2025-05-23T13:16:07Z,2025-05-26T07:56:43+00:00,1,66.68,True,69,45,12,974,0,0,0,MERGED
+51530,Move RefreshControlMock into Jest preset files,huntie,2025-05-22T11:31:27Z,2025-05-22T13:04:01+00:00,1,1.54,False,3,5,2,421,7,0,7,CLOSED
+51527,[iOS][prebuild] simplify logging in prebuild scripts,chrfalch,2025-05-22T10:01:36Z,2025-05-22T17:11:00+00:00,1,7.16,False,34,32,4,386,4,0,4,CLOSED
+51523,[ios][prebuild] add missing React-RCTSettings,chrfalch,2025-05-22T06:36:09Z,2025-05-22T12:51:56+00:00,1,6.26,False,9,0,1,309,2,0,2,CLOSED
+51500,fix: Align `TimerManager` sequential ids and function error handling with web standard,kitten,2025-05-21T14:33:21Z,2025-05-22T11:46:55+00:00,1,21.23,False,15,10,3,1844,7,0,7,CLOSED
+51493,Release cached images when image component gets recycled on iOS,j-piasecki,2025-05-21T11:45:27Z,2025-07-14T08:15:56+00:00,1,1292.51,False,169,32,23,680,10,0,10,CLOSED
+51483,fix(iOS): allow to interactively swipe down the modal,okwasniewski,2025-05-20T20:36:26Z,2025-06-18T14:21:51+00:00,2,689.76,False,83,8,10,685,14,1,15,CLOSED
+51462,[0.80] Fix broken focus behavior for TextInput in older Android versions (< 9),joevilches,2025-05-19T19:11:16Z,2025-05-23T09:47:49+00:00,1,86.61,True,19,8,3,401,1,0,1,MERGED
+51449,Legacy Native Module e2e test,mateoguzmana,2025-05-18T21:40:38Z,2025-05-20T10:40:39+00:00,5,37.0,False,46,0,1,659,4,1,5,CLOSED
+51444,fix: make RCTScreenSize take horizontal orientation into account,okwasniewski,2025-05-18T12:49:26Z,2025-05-20T11:59:34+00:00,8,47.17,False,14,8,1,822,6,4,10,CLOSED
+51442,Fix crash animated,riteshshukla04,2025-05-18T07:38:51Z,2025-05-31T04:28:46+00:00,2,308.83,False,65,2,2,550,19,0,19,CLOSED
+51396,Correct Link for Networking,riteshshukla04,2025-05-16T15:12:07Z,2025-05-20T10:12:42+00:00,1,91.01,False,1,1,1,195,4,0,4,CLOSED
+51386,[kotlin][android] adding accessor for backing map,chrfalch,2025-05-16T10:33:34Z,2025-05-16T17:05:32+00:00,4,6.53,False,6,0,1,574,4,1,5,CLOSED
+51344,Fix extraneous blank space at the bottom of multiline `TextInput` with different line heights on iOS,tomekzaw,2025-05-15T10:28:44Z,2025-05-23T06:06:09+00:00,1,187.62,False,13,3,2,788,3,1,4,CLOSED
+51322,[android][kotlin] make removeView open in ViewGroupManager,chrfalch,2025-05-14T16:01:46Z,2025-05-15T17:39:42+00:00,1,25.63,False,5,1,1,865,4,0,4,CLOSED
+51300,fix issue #51297 which addresses allWarningsAsErrors type error,meghancampbel9,2025-05-13T21:10:07Z,2025-05-14T09:57:32+00:00,1,12.79,False,8,4,4,414,5,0,5,CLOSED
+51284,[iOS][prebuild] fixed defines in package.swift,chrfalch,2025-05-13T08:41:59Z,2025-05-20T11:37:36+00:00,1,170.93,False,340,67,4,744,2,0,2,CLOSED
+51238,[iOS] Fabric: Fixes Text style prop 'writingDirection' not working on  IOS New Architecture,zhongwuzw,2025-05-11T15:44:49Z,2025-05-12T11:00:56+00:00,1,19.27,False,1,1,1,171,5,0,5,CLOSED
+51227,improve disconnection reasons reporting,vzaidman,2025-05-09T16:29:33Z,2025-05-13T11:41:48+00:00,1,91.2,False,16,9,2,392,5,0,5,CLOSED
+51225,Remove any props set by default on View,javache,2025-05-09T15:25:26Z,2025-05-14T16:05:32+00:00,1,120.67,False,194,81,3,553,7,0,7,CLOSED
+51216,[ios][prebuild] add download/extract hermes prebuilts,chrfalch,2025-05-09T11:45:08Z,2025-05-20T11:37:34+00:00,4,263.87,False,290,53,3,1163,3,16,19,CLOSED
+51192,Move imported types from `@react-native/assets-registry` and `@react-native/js-polyfills` to `react-native` repo,coado,2025-05-08T11:14:15Z,2025-05-08T16:10:54+00:00,1,4.94,False,85,10,3,274,7,0,7,CLOSED
+51187,Text: Fix selectable prop mapping (was isSelectable) for Fabric - ensure correct macro conversion,iamAbhi-916,2025-05-08T08:27:49Z,2025-07-15T10:29:54+00:00,3,1634.03,False,11,11,4,3853,3,1,4,CLOSED
+51171,Make `RetryableMountingLayerException` internal,mateoguzmana,2025-05-07T19:49:04Z,2025-05-09T17:44:15+00:00,1,45.92,False,4,10,2,284,3,0,3,CLOSED
+51170,Kotlin: Clean up redundant constructs (2/n),mateoguzmana,2025-05-07T19:45:04Z,2025-05-08T10:56:36+00:00,5,15.19,False,50,56,22,379,3,1,4,CLOSED
+51160,fix(iOS): enable DEFINES_MODULE in `React-jsc`,krozniata,2025-05-07T13:57:38Z,2025-05-08T09:16:52+00:00,1,19.32,False,1,1,1,476,6,0,6,CLOSED
+51156,[RN][Release] Fix set-rn-version to account for codegen snapshot test files,cipolleschi,2025-05-07T12:22:17Z,2025-05-12T14:17:36+00:00,1,121.92,True,80,3,6,665,0,0,0,MERGED
+51152,[RN][Changelog] Add changelog for v0.80.0-rc.0,react-native-bot,2025-05-07T11:43:49Z,2025-05-08T09:36:15+00:00,1,21.87,False,347,0,1,106,3,3,6,CLOSED
+51145,"[ANDROID] Refactor ReactAndroid to use `buildReadableMap`, `buildReadableArray` DSL",l2hyunwoo,2025-05-06T22:08:09Z,2025-05-12T23:39:04+00:00,4,145.52,False,315,239,18,597,8,5,13,CLOSED
+51144,Add missing `ReplaceWith` on deprecations,mateoguzmana,2025-05-06T21:37:14Z,2025-05-07T17:13:21+00:00,2,19.6,False,20,13,10,298,3,1,4,CLOSED
+51103,[iOS] Turbo module: Fixes dictionary stripped out when value is null,zhongwuzw,2025-05-05T14:45:33Z,2025-05-23T13:43:13+00:00,6,430.96,False,170,47,21,378,21,2,23,CLOSED
+51095,[ios][prebuild] replaced use of rsync with cp in prebuild scripts,chrfalch,2025-05-05T06:52:54Z,2025-05-06T09:22:55+00:00,1,26.5,False,3,2,1,548,3,0,3,CLOSED
+51085,refactor: migrated file LazyReactPackage to Kotlin,Xintre,2025-05-02T22:47:42Z,2025-06-03T18:01:57+00:00,6,763.24,False,136,144,2,321,5,13,18,CLOSED
+51078,Exclude selectively disabled libraries from codegen generation,ismarbesic,2025-05-02T14:50:31Z,2025-05-08T11:42:21+00:00,2,140.86,False,51,16,2,925,6,1,7,CLOSED
+51070,Improve the error thrown when a bundle fails to load,vzaidman,2025-05-02T08:12:03Z,2025-05-09T14:27:59+00:00,1,174.27,False,104,11,3,1019,6,0,6,CLOSED
+51068,Added decalaration for  pressRetentionOffset prop to be recognised by typescript,iamAbhi-916,2025-05-02T06:38:46Z,2025-05-06T17:23:41+00:00,2,106.75,False,8,0,1,195,4,1,5,CLOSED
+51061,Kotlin: Clean up redundant constructs,mateoguzmana,2025-05-01T21:53:12Z,2025-05-02T11:02:36+00:00,1,13.16,False,38,39,29,349,4,0,4,CLOSED
+51051,[iOS] Fabric: Only add selection of textinput payload when event is selectionChange,zhongwuzw,2025-05-01T16:08:02Z,2025-06-17T10:27:10+00:00,3,1122.32,False,13,8,2,426,5,1,6,CLOSED
+51038,Backporting to 0.79 and enabling the features fixing issue #49694,lenaic,2025-04-30T21:19:45Z,2025-05-01T13:53:38+00:00,1,16.56,True,300,32,25,467,0,0,0,MERGED
+51023,chore: convert View to React 19,EvanBacon,2025-04-30T17:17:13Z,2025-05-12T14:17:39+00:00,4,285.01,False,88,99,1,1091,4,3,7,CLOSED
+50951,fix(CI): run monitor-new-issues only in the main repo,okwasniewski,2025-04-27T20:42:35Z,2025-04-28T10:25:02+00:00,1,13.71,False,1,0,1,230,3,0,3,CLOSED
+50947,refactor: rewrite Inspector from Java to Kotlin,Vin-Xi,2025-04-26T21:18:10Z,2025-04-28T16:24:20+00:00,2,43.1,False,78,112,2,247,3,2,5,CLOSED
+50933,Support minimumFontScale in paragraphAttributes,anupriya13,2025-04-25T11:04:44Z,2025-04-30T12:33:45+00:00,1,121.48,False,23,2,4,262,7,0,7,CLOSED
+50911,refactor: Rewrite JSBundleLoader from Java to Kotlin,yogeshpaliyal,2025-04-24T17:31:46Z,2025-04-25T12:27:11+00:00,5,18.92,False,103,99,2,249,4,4,8,CLOSED
+50901,feat: add support for numeric font weight values in shadow tree,jpudysz,2025-04-24T13:17:08Z,2025-04-25T13:55:19+00:00,1,24.64,False,29,2,1,1232,7,1,8,CLOSED
+50897,fix: build proper hermes for all debug variants,WoLewicki,2025-04-24T10:02:02Z,2025-04-24T13:19:00+00:00,1,3.28,False,2,2,1,1086,5,0,5,CLOSED
+50895,Migrate ViewGroupManager to kotlin,riteshshukla04,2025-04-24T09:46:49Z,2025-04-29T16:50:33+00:00,5,127.06,False,83,116,2,196,11,6,17,CLOSED
+50878,Flip mockito usages to mockito-kotlin,mateoguzmana,2025-04-23T18:15:30Z,2025-04-24T12:25:38+00:00,1,18.17,False,97,94,13,232,4,0,4,CLOSED
+50868,chore: update license-docs link,bornkiss,2025-04-23T11:27:54Z,2025-04-23T16:37:25+00:00,2,5.16,False,0,3,1,323,4,0,4,CLOSED
+50822,[Paper] Text: fix `selectable` prop not working correctly on initial render,mateoguzmana,2025-04-21T14:56:22Z,2025-04-23T09:25:11+00:00,1,42.48,False,10,1,1,1671,5,0,5,CLOSED
+50788,proposal: BundleConsumer interface for TurboModules,tjzel,2025-04-17T16:49:53Z,2025-09-25T11:50:35+00:00,3,3859.01,False,347,44,24,2587,1,7,8,CLOSED
+50766,[prebuild][iOS] building up to React Core,chrfalch,2025-04-16T16:55:50Z,2025-05-08T20:03:56+00:00,10,531.13,False,965,57,6,218,3,9,12,CLOSED
+50756,refactor: migrate BlobProvider.java to Kotlin,JatinDream11,2025-04-16T09:51:33Z,2025-04-22T12:50:10+00:00,5,146.98,False,114,131,2,203,8,6,14,CLOSED
+50754,refactor: migrate DynamicFromObject to Kotlin,yasir6jan,2025-04-16T09:08:39Z,2025-04-17T22:57:52+00:00,20,37.82,False,83,109,2,218,5,10,15,CLOSED
+50693,Migrate FrescoBasedReactTextInlineImageShadowNode.java to Kotlin ,nitinshukla413,2025-04-13T15:51:28Z,2025-04-14T14:43:08+00:00,1,22.86,False,153,165,2,841,6,4,10,CLOSED
+50689,Make `DrawerClosedEvent` internal,mateoguzmana,2025-04-13T13:47:17Z,2025-04-14T15:32:13+00:00,1,25.75,False,6,17,2,283,3,0,3,CLOSED
+50685,Kotlinify ReactLifecycleStateManager,rohitverma-d11,2025-04-13T08:30:31Z,2025-04-15T14:54:46+00:00,9,54.4,False,90,91,3,314,7,7,14,CLOSED
+50682,Minor Performance and Code Quality Improvements ✈️,sanjaiyan-dev,2025-04-13T03:43:52Z,2025-04-15T16:21:50+00:00,3,60.63,False,17,22,2,942,4,1,5,CLOSED
+50680,fix(ios): avoid incorrectly updating caret position,ouchuan,2025-04-12T20:22:39Z,2025-04-14T12:52:09+00:00,1,40.49,False,11,1,1,1114,7,0,7,CLOSED
+50679,Migrate ReactClippingViewGroupHelper.java to Kotlin,Priyanka26012,2025-04-12T19:26:42Z,2025-04-15T01:21:53+00:00,6,53.92,False,67,65,2,795,7,3,10,CLOSED
+50637,Generate RCTThirdPartyComponents.mm with platform-specific macros,cgoldsby,2025-04-10T23:25:44Z,2025-07-04T11:16:47+00:00,4,2027.85,False,427,9,4,2345,3,1,4,CLOSED
+50624,Add `cloneMultiple` method to the `ShadowNode` class,bartlomiejbloniarz,2025-04-10T13:09:13Z,2025-05-28T17:58:56+00:00,7,1156.83,False,97,0,2,1872,6,11,17,CLOSED
+50616,Migrated file ReactStylesDiffMap to kotlin,poonamjain96,2025-04-10T06:46:47Z,2025-04-15T11:26:57+00:00,8,124.67,False,75,105,5,305,8,6,14,CLOSED
+50602,refactor: migrate DynamicFromArray to Kotlin,BogiKay,2025-04-09T19:59:42Z,2025-04-17T14:27:34+00:00,3,186.46,False,66,105,2,216,3,1,4,CLOSED
+50597,refactor: migrate DynamicFromMap to Kotlin,artus9033,2025-04-09T18:10:48Z,2025-04-11T17:02:52+00:00,7,46.87,False,155,119,3,336,7,4,11,CLOSED
+50573,refactor: ReactEditTextInputConnectionWrapper implemented in kotlin,Q1w1N,2025-04-08T18:35:58Z,2025-04-09T14:50:00+00:00,8,20.23,False,152,160,2,419,6,5,11,CLOSED
+50562,Migrate FileReaderModule to kotlin,devanshsaini11,2025-04-08T14:59:06Z,2025-04-10T09:58:23+00:00,6,42.99,False,103,118,2,212,3,3,6,CLOSED
+50536,Migrate UiThreadUtil to Kotlin,riteshshukla04,2025-04-07T20:08:37Z,2025-04-08T19:15:13+00:00,11,23.11,False,83,76,3,205,7,7,14,CLOSED
+50532,refactor: FrescoBasedTextInlineImageSpan,gouravkhunger,2025-04-07T18:38:14Z,2025-04-17T11:46:01+00:00,18,233.13,False,179,189,4,278,12,6,18,CLOSED
+50530,RNTester: Fix playground icon & test details button,mateoguzmana,2025-04-07T16:48:38Z,2025-04-09T13:40:10+00:00,1,44.86,False,28,26,3,422,3,1,4,CLOSED
+50528,Create basic documentation for IntersectionObserver,rubennorte,2025-04-07T16:31:19Z,2025-04-08T10:45:30+00:00,1,18.24,False,121,12,6,162,3,1,4,CLOSED
+50526,Automate the rotation of issue trage squad,cipolleschi,2025-04-07T15:45:09Z,2025-04-08T09:47:05+00:00,4,18.03,False,165,2,3,312,11,3,14,CLOSED
+50505,Make `ViewGroupClickEvent` internal,mateoguzmana,2025-04-06T15:50:27Z,2025-04-07T10:40:39+00:00,1,18.84,False,4,11,2,276,3,0,3,CLOSED
+50504,Make `ReactIgnorableMountingException` internal,mateoguzmana,2025-04-06T15:05:53Z,2025-04-07T12:59:24+00:00,1,21.89,False,6,18,2,284,3,0,3,CLOSED
+50476,[iOS] Fabric: Make view touchable when alpha less than 0.01,zhongwuzw,2025-04-03T15:08:15Z,2025-04-07T09:50:19+00:00,5,90.7,False,1,1,1,278,1,1,2,CLOSED
+50459,[CI][Windows] Downgrade CMake to 3.31.6,cipolleschi,2025-04-03T06:40:50Z,2025-04-03T07:42:23+00:00,1,1.03,True,3,0,1,338,1,0,1,MERGED
+50454,[Android] Fix ReactEditText Typeface Inconsistencies for Hint and Typing with Custom Fonts,lorenc-tomasz,2025-04-02T15:27:20Z,2025-06-25T10:59:44+00:00,2,2011.54,False,18,7,1,1320,13,1,14,CLOSED
+50431,[RN][iOS][0.76] Bump folly to fix xcode 16.3 removed traits,cipolleschi,2025-04-01T15:07:55Z,2025-04-03T05:45:38+00:00,3,38.63,True,516,323,41,283,0,2,2,MERGED
+50280,chore: add jest-config to monorepo dependencies,Saadnajmi,2025-03-26T12:53:47Z,2025-03-26T15:05:24+00:00,1,2.19,False,1,0,1,530,3,0,3,CLOSED
+50269,feat: radial gradient android changes,intergalacticspacehighway,2025-03-25T21:38:00Z,2025-04-17T23:42:58+00:00,8,554.08,False,835,302,7,255,7,17,24,CLOSED
+50268,feat: radial gradient js prop passing,intergalacticspacehighway,2025-03-25T21:35:23Z,2025-04-17T23:42:59+00:00,8,554.13,False,1329,267,9,260,6,6,12,CLOSED
+50251,Migrate `CxxModuleWrapperBase` to Kotlin,mateoguzmana,2025-03-25T16:14:08Z,2025-03-27T03:38:56+00:00,5,35.41,False,56,63,2,205,4,1,5,CLOSED
+50238,[0.76][github] Fix upload-artifact version on maestro android,gabrieldonadel,2025-03-25T02:33:03Z,2025-03-25T16:07:45+00:00,1,13.58,True,1,1,1,350,0,0,0,MERGED
+50212,[iOS] Fixes crash when Blob module returns nil,zhongwuzw,2025-03-24T09:18:27Z,2025-03-24T10:36:29+00:00,1,1.3,False,5,6,1,331,7,0,7,CLOSED
+50209,feat: radial gradient,intergalacticspacehighway,2025-03-24T04:46:29Z,2025-03-26T15:45:37+00:00,7,58.99,False,2625,721,23,281,2,5,7,CLOSED
+50166,fix(ios): selection range not respected when changing text or selection when selection is forced,freeboub,2025-03-20T07:54:57Z,2025-03-20T17:05:16+00:00,2,9.17,False,15,12,1,870,6,1,7,CLOSED
+50145,Migrate `AbstractLayoutAnimation` to Kotlin,mateoguzmana,2025-03-19T21:16:07Z,2025-03-21T00:04:10+00:00,2,26.8,False,250,128,5,249,3,2,5,CLOSED
+50130,[RN][CI][Releases] Remove the v prefix from the version passed by GHA to the script,cipolleschi,2025-03-19T13:29:24Z,2025-03-20T13:34:31+00:00,2,24.09,True,4,0,1,423,0,0,0,MERGED
+50122,fix fetch of content scheme urls failing on Android,giantslogik,2025-03-19T09:20:40Z,2025-04-24T19:43:09+00:00,9,874.37,False,261,1,7,362,8,1,9,CLOSED
+50101,[iOS][prebuild] moved resources to correct location,chrfalch,2025-03-18T15:07:18Z,2025-03-19T12:10:43+00:00,1,21.06,False,1,10,1,466,3,0,3,CLOSED
+50085,[iOS][prebuild] change header structure rn deps in XCFrameworks,chrfalch,2025-03-18T09:24:50Z,2025-03-18T12:39:17+00:00,1,3.24,False,75,106,7,818,2,0,2,CLOSED
+50082,Migrate `OnLayoutEvent` to Kotlin,mateoguzmana,2025-03-17T22:56:59Z,2025-03-18T11:26:03+00:00,2,12.48,False,174,89,3,197,3,1,4,CLOSED
+50081,Migrate `ShadowNodeRegistry` to Kotlin,mateoguzmana,2025-03-17T22:33:33Z,2025-03-18T11:45:30+00:00,1,13.2,False,95,96,2,207,3,0,3,CLOSED
+50069,Update TS docs for contentInsetAdjustmentBehavior,steinalex,2025-03-17T13:10:08Z,2025-03-27T19:30:53+00:00,2,246.35,False,2,2,2,770,11,1,12,CLOSED
+50050,[ios][prebuild] fixed inclusion of resources in swift package,chrfalch,2025-03-17T10:02:13Z,2025-03-18T12:39:16+00:00,3,26.62,False,28,20,4,2708,4,1,5,CLOSED
+50049,[Fabric] iOS: Fixes Switch component incorrectly renders as toggled on even though value prop is hardcoded to false,zhongwuzw,2025-03-16T14:03:22Z,2025-03-17T16:14:22+00:00,3,26.18,False,1,1,1,200,10,1,11,CLOSED
+50048,Migrate `MemoryPressureRouter` to Kotlin,mateoguzmana,2025-03-16T11:20:38Z,2025-03-17T11:45:52+00:00,1,24.42,False,55,60,3,191,3,0,3,CLOSED
+50045,Migrate `UIManagerModuleConstants` to Kotlin,mateoguzmana,2025-03-15T14:17:18Z,2025-03-18T11:33:21+00:00,1,69.27,False,105,119,2,219,4,1,5,CLOSED
+50043,Implementation of URLSearchParams Methods,riteshshukla04,2025-03-15T05:45:45Z,2025-03-29T03:40:52+00:00,8,333.92,False,207,46,6,1598,13,6,19,CLOSED
+49986,feat(iOS): allow eager initialization of RCTRootViewFactory,mdjastrzebski,2025-03-12T16:30:47Z,2025-03-20T16:56:12+00:00,4,192.42,False,23,6,2,696,3,1,4,CLOSED
+49979,Add compact option,jnields,2025-03-12T13:34:29Z,2025-03-13T16:26:01+00:00,1,26.86,False,1,1,1,314,5,0,5,CLOSED
+49970,Add Support for local tarball to ReactNativeDependencies,cipolleschi,2025-03-12T10:54:28Z,2025-03-13T15:45:02+00:00,3,28.84,False,539,710,67,302,13,1,14,CLOSED
+49959,Fix 49958: Close a view leak due to lossy onAnimationEnd callback,knappam,2025-03-11T21:09:57Z,2025-03-13T11:20:31+00:00,2,38.18,False,64,25,4,1078,2,1,3,CLOSED
+49955,Implementing url Methods,riteshshukla04,2025-03-11T18:13:24Z,2025-03-14T12:26:17+00:00,1,66.21,False,137,10,5,252,12,0,12,CLOSED
+49915,Make `NetworkInterceptorCreator` internal,mateoguzmana,2025-03-09T11:35:16Z,2025-03-10T11:29:45+00:00,2,23.91,False,2,6,2,287,1,0,1,CLOSED
+49914,Make `WritableMapBuffer` internal,mateoguzmana,2025-03-09T10:07:53Z,2025-03-10T12:30:05+00:00,1,26.37,False,7,30,2,280,3,0,3,CLOSED
+49910,Migrate `ActivityEventListener` & `BaseActivityEventListener` to Kotlin,mateoguzmana,2025-03-08T10:39:00Z,2025-03-12T15:15:44+00:00,3,100.61,False,55,58,4,263,3,1,4,CLOSED
+49890,[0.77] Fix Android Image `defaultSource` runtime error (#49097),fbp93,2025-03-07T15:51:38Z,2025-03-10T11:25:12+00:00,1,67.56,True,7,6,4,1518,5,0,5,MERGED
+49889,fix(ios): enable use of multiple RCTAppDependencyProvider instances,vonovak,2025-03-07T14:19:09Z,2025-03-11T13:10:06+00:00,2,94.85,False,78,73,5,784,4,1,5,CLOSED
+49877,Fix elevation with border-radius set (#48982),polovi,2025-03-06T21:43:00Z,2025-03-07T12:06:05+00:00,1,14.38,True,12,11,1,902,4,1,5,MERGED
+49855,Fix touch events not being dispatched to ScrollView's children when they overflow content container,j-piasecki,2025-03-06T09:33:25Z,2025-03-12T10:53:52+00:00,2,145.34,False,7,2,1,406,6,1,7,CLOSED
+49849,Fix issue with extraModulesForBridge callback,Bruno125,2025-03-05T22:43:09Z,2025-03-07T11:19:55+00:00,1,36.61,False,9,0,1,678,6,0,6,CLOSED
+49843,fix(iOS): provide useful error message about dependency provider,okwasniewski,2025-03-05T14:24:52Z,2025-03-10T19:13:52+00:00,1,124.82,False,7,0,1,441,4,0,4,CLOSED
+49822,Migrate `OpacityAnimation` to Kotlin,mateoguzmana,2025-03-04T21:18:48Z,2025-03-11T15:43:14+00:00,4,162.41,False,170,81,3,346,8,1,9,CLOSED
+49812,moved third-party deps to ReactNativeDependencies in podspecs,chrfalch,2025-03-04T12:13:21Z,2025-03-13T15:44:59+00:00,6,219.53,False,512,697,64,893,2,4,6,CLOSED
+49789,[RN][Releases] Fix Publish template,cipolleschi,2025-03-03T14:32:38Z,2025-03-11T11:37:42+00:00,1,189.08,True,1,1,1,117,0,0,0,MERGED
+49776,[iOS] Call RCTInitializeUIKitProxies before bridge create,zhongwuzw,2025-03-03T10:48:18Z,2025-03-06T13:19:04+00:00,3,74.51,False,2,0,1,41531,4,1,5,CLOSED
+49758,Migrate `ReactNativeVersion` Android template to Kotlin,mateoguzmana,2025-03-01T12:14:19Z,2025-03-04T15:48:31+00:00,2,75.57,False,56,64,6,383,5,0,5,CLOSED
+49752,Migrate `ProgressResponseBody` to Kotlin,mateoguzmana,2025-02-28T16:55:13Z,2025-03-11T15:31:51+00:00,1,262.61,False,53,68,2,223,4,1,5,CLOSED
+49748,fix: make React Native work without AppDelegate window property,okwasniewski,2025-02-28T11:59:45Z,2025-03-03T11:50:55+00:00,1,71.85,False,6,6,3,372,4,0,4,CLOSED
+49710,[iOS] Fabric: Fixes TurboModule method parameter Int32 type not work,zhongwuzw,2025-02-27T09:02:34Z,2025-02-27T15:26:30+00:00,1,6.4,False,4,1,1,150,3,0,3,CLOSED
+49709,show JSC removal message on Android,Kudo,2025-02-27T07:50:51Z,2025-02-27T16:42:26+00:00,2,8.86,False,24,0,2,305,3,1,4,CLOSED
+49705,fix: avoid race condition crash in `[RCTDataRequestHandler invalidate]`,Saadnajmi,2025-02-26T21:35:51Z,2025-03-03T14:01:14+00:00,1,112.42,False,17,7,2,885,10,0,10,CLOSED
+49692,feat: warn about jsc moving to a separate repo,okwasniewski,2025-02-26T12:38:35Z,2025-02-27T18:36:54+00:00,3,29.97,False,15,1,1,342,7,2,9,CLOSED
+49682,Migrate `ProgressRequestBody` to Kotlin,mateoguzmana,2025-02-25T22:17:02Z,2025-02-26T13:27:32+00:00,1,15.18,False,82,86,3,397,3,0,3,CLOSED
+49641,refactor(react-native-codegen): Replace `jscodeshift` with `@babel/core`,kitten,2025-02-24T15:35:03Z,2025-03-05T22:09:46+00:00,1,222.58,False,406,827,7,3591,5,0,5,CLOSED
+49614,Refactored prebuild of react native dependencies,chrfalch,2025-02-22T19:52:59Z,2025-02-26T16:25:48+00:00,18,92.55,False,1288,45,12,2765,3,18,21,CLOSED
+49613,Remove MessageQueueThreadHandler.java to fix CI,mateoguzmana,2025-02-22T11:26:16Z,2025-02-23T20:57:41+00:00,1,33.52,False,0,32,1,314,3,0,3,CLOSED
+49610,Add Example of usge in HelloWorld app,cipolleschi,2025-02-21T22:53:08Z,2025-03-03T11:35:17+00:00,3,228.7,False,612,68,26,1336,19,2,21,CLOSED
+49607,Reland: Migrate `ReactClippingViewGroup` to Kotlin (#49413),mateoguzmana,2025-02-21T22:24:29Z,2025-02-26T08:35:18+00:00,3,106.18,False,59,66,3,400,10,1,11,CLOSED
+49594,Update androidx app compat to 1.7.0,janicduplessis,2025-02-21T15:00:54Z,2025-02-21T16:43:04+00:00,1,1.7,False,1,1,1,269,3,0,3,CLOSED
+49563,Add job to build the XCFramework for ios prebuilds,cipolleschi,2025-02-20T15:30:58Z,2025-02-28T17:11:05+00:00,1,193.67,False,221,23,6,159,14,1,15,CLOSED
+49558,chore(community-cli-plugin): Remove extraneous `@react-native/metro-babel-transformer`,kitten,2025-02-20T14:18:53Z,2025-02-21T16:49:54+00:00,1,26.52,False,0,1,1,627,3,0,3,CLOSED
+49557,chore(community-cli-plugin): Drop shadowed readline module,kitten,2025-02-20T14:12:34Z,2025-02-21T14:00:27+00:00,1,23.8,False,0,6,2,969,3,0,3,CLOSED
+49556,chore(dev-middleware): Move `selfsigned` to `package.json:devDependencies`,kitten,2025-02-20T14:03:07Z,2025-02-21T15:53:40+00:00,1,25.84,False,1,1,1,370,3,0,3,CLOSED
+49551,remove incorrect call of removeObserver from RCTDeviceInfo,sammy-SC,2025-02-20T11:51:19Z,2025-02-20T16:31:41+00:00,1,4.67,False,0,4,1,211,4,1,5,CLOSED
+49539,chore: make iOS glog script compatible with tvOS,douglowder,2025-02-19T21:16:39Z,2025-02-20T19:05:10+00:00,2,21.81,False,9,0,1,298,3,1,4,CLOSED
+49531,[iOS] Fixes strange gradient appears when using borderTopLeftRadius (or similar) not uniform,zhongwuzw,2025-02-19T15:55:56Z,2025-02-27T12:44:43+00:00,4,188.81,False,7,0,1,283,4,1,5,CLOSED
+49502,Make `RCTLog` & `ExceptionDataHelper` internal,mateoguzmana,2025-02-18T20:34:09Z,2025-02-19T14:59:29+00:00,1,18.42,False,5,15,3,287,5,0,5,CLOSED
+49501,Migrate `ViewManagerResolver` & `UIManagerModuleListener` to Kotlin,mateoguzmana,2025-02-18T20:22:41Z,2025-02-19T15:33:49+00:00,1,19.19,False,26,31,3,205,3,0,3,CLOSED
+49489,feat: js runtime switching C API for Swift,okwasniewski,2025-02-18T08:48:12Z,2025-02-26T19:04:07+00:00,15,202.27,False,275,26,20,918,3,10,13,CLOSED
+49486,Setup a Macrobenchmark for RNTester,janicduplessis,2025-02-18T06:12:03Z,2025-03-04T20:59:25+00:00,6,350.79,False,329,86,16,1411,19,13,32,CLOSED
+49452,fix: Inconsistency SVG Handling between bundle command and Image.resolveAssetSource,sunnylqm,2025-02-15T16:14:15Z,2025-02-17T19:08:27+00:00,1,50.9,False,0,1,1,770,5,0,5,CLOSED
+49449,RNGP - Add option to disable bundle compression (was: Make all React Native apps start 12% faster),mrousavy,2025-02-15T03:20:35Z,2025-02-20T02:47:18+00:00,4,119.45,False,21,0,2,1737,34,2,36,CLOSED
+49413,Migrate `ReactClippingViewGroup` to Kotlin,mateoguzmana,2025-02-13T22:20:48Z,2025-02-18T16:00:53+00:00,8,113.67,False,58,66,3,214,4,3,7,CLOSED
+49407,fix: cron timing updated and action upgrade,shubhamguptadream11,2025-02-13T17:23:32Z,2025-02-17T10:16:09+00:00,1,88.88,False,2,2,1,511,3,0,3,CLOSED
+49384,Kotlinify `ReactZIndexedViewGroup` & `ReactOverflowViewWithInset`,mateoguzmana,2025-02-13T06:26:03Z,2025-02-14T15:33:08+00:00,5,33.12,False,13,13,2,196,3,2,5,CLOSED
+49371,decouple jsc when USE_THIRD_PARTY_JSC=1 on ios,Kudo,2025-02-12T19:31:54Z,2025-02-17T14:42:02+00:00,6,115.17,False,78,39,12,1088,3,5,8,CLOSED
+49366,Allow passing custom JSRuntimeFactory to DefaultReactHost,Kudo,2025-02-12T17:04:33Z,2025-02-17T15:33:55+00:00,2,118.49,False,142,18,2,312,3,1,4,CLOSED
+49365,[RNGP] pull out jsctooling when useThirdPartyJSC is true,Kudo,2025-02-12T17:02:33Z,2025-02-14T11:57:10+00:00,1,42.91,False,62,7,5,319,3,1,4,CLOSED
+49348,feat: add jsitooling package,okwasniewski,2025-02-12T09:41:33Z,2025-02-13T16:53:15+00:00,5,31.2,False,103,2,14,628,5,3,8,CLOSED
+49341,Make com.facebook.react.views.debuggingoverlay classes internal,mateoguzmana,2025-02-11T21:01:10Z,2025-02-14T15:28:42+00:00,1,66.46,False,15,51,4,334,2,0,2,CLOSED
+49329,[iOS] Reland RNTester: Fixes turbo module examples error in bridgeless mode,zhongwuzw,2025-02-11T15:13:29Z,2025-02-11T18:59:41+00:00,1,3.77,False,2,2,2,190,3,0,3,CLOSED
+49325,fix: correctly forward dependency on `@react-native-community/cli-server-api`,tido64,2025-02-11T12:53:29Z,2025-03-18T15:16:34+00:00,9,842.38,False,4,5,2,493,1,1,2,CLOSED
+49320,[iOS] Fixes TextInput crashes when any text is entered while running as iOS app on apple silicon mac,zhongwuzw,2025-02-11T07:40:37Z,2025-03-11T13:10:07+00:00,4,677.49,False,30,58,4,2457,22,3,25,CLOSED
+49297,feat(iOS): centralize JS engine dependency configuration,okwasniewski,2025-02-10T12:31:07Z,2025-02-11T18:06:56+00:00,3,29.6,False,44,121,24,471,10,1,11,CLOSED
+49290,Remove unnecessary RobolectricTestRunner usage,mateoguzmana,2025-02-10T07:43:19Z,2025-02-10T10:44:26+00:00,1,3.02,False,0,30,10,234,3,0,3,CLOSED
+49265,Reland: [iOS] [Fabric] Fixes crash of dynamic color when light/dark mode changed,zhongwuzw,2025-02-07T15:40:56Z,2025-02-10T14:57:40+00:00,1,71.28,False,130,21,5,294,3,0,3,CLOSED
+49250,Properly handle null values coming from JS,cipolleschi,2025-02-07T11:07:09Z,2025-02-10T18:18:08+00:00,3,79.18,False,36,13,3,831,19,1,20,CLOSED
+49240,Fix new arch refresh control not shown when refreshing on mount,High5Apps,2025-02-06T23:19:14Z,2025-02-25T10:22:52+00:00,4,443.06,False,54,16,2,4321,8,2,10,CLOSED
+49236,Make `ReactPackageLogger` internal,mateoguzmana,2025-02-06T20:22:20Z,2025-02-11T12:06:32+00:00,1,111.74,False,3,9,2,265,3,0,3,CLOSED
+49235,Make `Overflow` internal,mateoguzmana,2025-02-06T20:07:39Z,2025-02-11T13:44:25+00:00,1,113.61,False,3,18,2,271,3,0,3,CLOSED
+49225,feat: added new workflow for issue monitoring in react native,shubhamguptadream11,2025-02-06T13:46:42Z,2025-02-06T21:23:48+00:00,4,7.62,False,27,0,1,780,4,2,6,CLOSED
+49218,Make `SynchronousEventReceiver` internal,mateoguzmana,2025-02-06T07:25:14Z,2025-02-06T16:35:11+00:00,1,9.17,False,2,6,2,288,3,0,3,CLOSED
+49215,"Kotlinify `MessageQueueThreadPerfStats`, `ReactQueueConfiguration` and `QueueThreadExceptionHandler`",mateoguzmana,2025-02-05T21:15:46Z,2025-02-06T15:10:20+00:00,1,17.91,False,15,15,3,270,3,0,3,CLOSED
+49182,Make `AndroidChoreographerProvider` internal,mateoguzmana,2025-02-04T22:06:24Z,2025-02-05T14:26:59+00:00,1,16.34,False,3,3,1,284,3,0,3,CLOSED
+49166,Inject dev machine IP on Android and improve error message when connection fails,hrastnik,2025-02-04T14:40:24Z,2025-04-09T19:14:07+00:00,13,1540.56,False,119,24,7,3607,15,8,23,CLOSED
+49162,feat(ios): encapsulate device info listeners,okwasniewski,2025-02-04T11:26:04Z,2025-02-13T14:32:20+00:00,4,219.1,False,26,18,3,499,5,2,7,CLOSED
+49154,React: Update conditional compilation for RCTKeyCommands to include only simulator and Mac Catalyst,EvanBacon,2025-02-04T01:26:46Z,2025-02-04T15:51:21+00:00,1,14.41,False,1,1,1,1403,4,0,4,CLOSED
+49150,Make `BorderRadiusStyle` internal,mateoguzmana,2025-02-03T22:39:01Z,2025-02-04T15:01:03+00:00,1,16.37,False,1,56,2,280,3,0,3,CLOSED
+49149,Migrate `ProgressiveStringDecoder` to Kotlin,mateoguzmana,2025-02-03T21:58:58Z,2025-02-25T15:02:11+00:00,2,521.05,False,81,88,2,229,4,3,7,CLOSED
+49123,Move analysys scripts to .github folder,cipolleschi,2025-02-03T10:56:01Z,2025-02-03T18:06:05+00:00,1,7.17,False,22,665,21,318,6,0,6,CLOSED
+49097,Fix Android Image `defaultSource` runtime error,mateoguzmana,2025-01-31T16:07:18Z,2025-02-04T11:55:07+00:00,1,91.8,False,7,6,4,1239,5,0,5,CLOSED
+49078,chore(iOS): deprecate RCTAppDelegate,okwasniewski,2025-01-31T10:43:15Z,2025-02-17T17:23:47+00:00,12,414.68,False,87,21,8,887,10,4,14,CLOSED
+49047,fix(dev-middleware): add missing `invariant` dependency,tido64,2025-01-29T14:40:51Z,2025-01-30T10:02:03+00:00,1,19.35,False,1,0,1,271,3,0,3,CLOSED
+48994,FIX: Support inline images in Text with lineHeight,rodriguescarson,2025-01-28T09:08:02Z,2025-08-20T05:35:51+00:00,1,4892.46,False,28,1,1,1050,2,0,2,CLOSED
+48993,FIX: Memory leak in Animated API by managing parent-child references,rodriguescarson,2025-01-28T07:33:43Z,2025-08-20T05:35:53+00:00,1,4894.04,False,44,19,1,1447,5,2,7,CLOSED
+48992,[Bug] fix wrong cocoapods script on new_architecture.rb,CHOIMINSEOK,2025-01-28T03:18:00Z,2025-01-28T12:57:25+00:00,1,9.66,False,3,1,1,1243,3,0,3,CLOSED
+48970,fix(react-native): pass the protocol from bundle URL to HMR client on Android,byCedric,2025-01-27T13:27:52Z,2025-01-27T17:48:53+00:00,5,4.35,False,14,1,2,2131,5,2,7,CLOSED
+48958,Add OkHttpClientProvider tests,mateoguzmana,2025-01-27T07:21:50Z,2025-01-28T14:08:43+00:00,2,30.78,False,143,0,1,282,6,3,9,CLOSED
+48952,[IOS][NewArch] fix TextInput `dataDetectorTypes`,VidocqH,2025-01-26T13:15:37Z,2025-01-28T13:18:27+00:00,2,48.05,False,59,0,8,280,3,1,4,CLOSED
+48945,Migrate com.facebook.react.modules.network.OkHttpClientFactory to Kotlin,mateoguzmana,2025-01-26T01:13:56Z,2025-01-27T12:52:26+00:00,1,35.64,False,4,5,1,220,3,0,3,CLOSED
+48942,Support for custom JavaScript runtimes for the new architecture in Android ,lukaszkurantdev,2025-01-25T08:01:18Z,2025-01-27T11:48:36+00:00,1,51.79,False,26,9,3,1721,1,1,2,CLOSED
+48925,perf: fast _getFreeIndex,kewde,2025-01-24T13:16:39Z,2025-02-10T11:47:31+00:00,1,406.51,False,6,4,1,828,8,0,8,CLOSED
+48876,Update info.ts,riteshshukla04,2025-01-22T23:26:13Z,2025-01-23T15:23:46+00:00,1,15.96,False,2,2,1,171,6,0,6,CLOSED
+48845,[iOS] Added custom load js block in bridge mode,zhongwuzw,2025-01-22T08:10:44Z,2025-02-06T17:00:58+00:00,2,368.84,False,49,0,3,246,4,0,4,CLOSED
+48817,fix(ios): add missing nonnull annotations,okwasniewski,2025-01-21T15:46:40Z,2025-01-21T17:54:26+00:00,1,2.13,False,8,0,2,222,3,0,3,CLOSED
+48813,feat: Add `REACT_NATIVE_VERSION_*` definitions to `ReactNativeVersion.h`,mrousavy,2025-01-21T13:11:34Z,2025-01-21T17:05:54+00:00,2,3.91,False,16,0,3,1067,6,0,6,CLOSED
+48806,Update changelog for 0.78.0-rc.1,fabriziocucci,2025-01-21T09:43:40Z,2025-01-21T15:33:23+00:00,1,5.83,False,13,0,1,81,3,0,3,CLOSED
+48782,Add support for owner stacks,rickhanlonii,2025-01-19T04:48:28Z,2025-01-20T16:39:40+00:00,1,35.85,False,13,1,1,856,6,1,7,CLOSED
+48781,Convert com.facebook.react.modules.network.ResponseUtil to Kotlin,mateoguzmana,2025-01-18T21:45:01Z,2025-01-21T15:33:21+00:00,2,65.81,False,130,123,2,287,4,1,5,CLOSED
+48755,Re-enable the New Architecture by default,cipolleschi,2025-01-17T11:43:15Z,2025-01-17T13:13:15+00:00,2,1.5,False,6,3,4,215,2,1,3,CLOSED
+48710,feat: Add `getConcretePropsShared()`,mrousavy,2025-01-15T17:44:30Z,2025-01-22T17:23:42+00:00,3,167.65,False,10,0,1,460,6,2,8,CLOSED
+48709,fix hermes param handling in test-e2e-local.js (#48068),vonovak,2025-01-15T17:39:50Z,2025-01-16T10:27:38+00:00,1,16.8,False,3,2,1,1285,1,0,1,CLOSED
+48707,No need to invoke 'input keyevent 82' on test-e2e-local,cortinico,2025-01-15T16:24:24Z,2025-01-16T12:15:02+00:00,1,19.84,False,1,3,1,259,4,1,5,CLOSED
+48675,Add `ProgressResponseBody` test cases,mateoguzmana,2025-01-14T19:27:37Z,2025-02-25T14:47:25+00:00,2,1003.33,False,165,0,1,226,5,5,10,CLOSED
+48652,chore(Android): migrate MessageQueueThread and it's implementation to Kotlin,TheRogue76,2025-01-13T20:03:18Z,2025-01-16T15:37:37+00:00,1,67.57,False,281,304,4,840,5,1,6,CLOSED
+48637,[RN][Release][Testing][iOS] Use RNTester App downloaded from CI instead of building,cipolleschi,2025-01-13T13:52:36Z,2025-01-15T09:08:32+00:00,4,43.27,False,63,27,3,469,5,2,7,CLOSED
+48632,🚀 Enhance Pull-to-Refresh Functionality with Native Sync and Improvements 🔄,krishpranav,2025-01-13T09:22:39Z,2025-01-14T16:47:52+00:00,3,31.42,False,50,20,2,1301,4,3,7,CLOSED
+48623,Migrate to UniformTypeIdentifiers,woxtu,2025-01-12T09:32:12Z,2025-08-20T05:51:01+00:00,3,5276.31,False,16,19,8,383,3,2,5,CLOSED
+48620,[2/2] Fix RNTester strict mode warnings,mateoguzmana,2025-01-11T16:29:58Z,2025-01-13T12:52:54+00:00,2,44.38,False,219,225,6,570,3,0,3,CLOSED
+48580,fix(iOS): modal becomes unresponsive with refresh control inside scrollable,kkafar,2025-01-09T22:36:24Z,2025-01-13T14:55:39+00:00,3,88.32,False,3,1,1,182,3,2,5,CLOSED
+48574,fix(iOS): Use REACT_NATIVE_PATH env to resolve react native path in Hermes podspec,gabrieldonadel,2025-01-09T16:23:42Z,2025-08-21T05:14:30+00:00,1,5364.85,False,10,6,1,722,3,0,3,CLOSED
+48522,Make `TouchableNativeFeedback` strict mode compatible,mateoguzmana,2025-01-07T22:26:46Z,2025-01-27T17:40:24+00:00,1,475.23,False,12,3,2,813,3,1,4,CLOSED
+48505,"Implement URL Accessors (host, hostname, username, password) for the URL class",krishpranav,2025-01-06T13:22:37Z,2025-01-16T15:54:39+00:00,8,242.53,False,94,31,5,2466,10,3,13,CLOSED
+48498,Fix ruby unit tests,kraenhansen,2025-01-05T19:02:24Z,2025-01-06T10:35:12+00:00,6,15.55,False,21,12,4,710,3,5,8,CLOSED
+48496,[iOS] Fabric: Fixes crash of dynamic color when light/dark mode changed,zhongwuzw,2025-01-05T07:48:51Z,2025-02-07T15:53:42+00:00,15,800.08,False,130,21,5,6051,19,7,26,CLOSED
+48492,Add `AppStateModule` Android unit tests,mateoguzmana,2025-01-04T15:01:36Z,2025-01-06T14:53:55+00:00,1,47.87,False,133,0,1,246,3,0,3,CLOSED
+48410,feat: linear gradient `px` and transition hint syntax support,intergalacticspacehighway,2024-12-30T06:45:29Z,2025-01-16T23:04:45+00:00,14,424.32,False,982,263,11,890,7,11,18,CLOSED
+48388,[ANDROID] [FIXED] - Fix BackHandle callback undefined cause crash issue,Iseektruth,2024-12-25T07:41:31Z,2024-12-27T12:41:56+00:00,2,53.01,False,1,1,1,2346,5,1,6,CLOSED
+48378,chore(Android): Migrate Hermes Instruments to Kotlin,TheRogue76,2024-12-24T09:06:33Z,2025-01-07T08:53:39+00:00,2,335.79,False,41,39,4,820,6,2,8,CLOSED
+48376,Fix applicationDidEnterBackground not being called,alextoudic,2024-12-23T23:47:43Z,2024-12-24T15:01:04+00:00,1,15.22,False,0,5,1,818,5,0,5,CLOSED
+48373,[LOCAL][Android][0.77] Bump Android Caches,cipolleschi,2024-12-23T16:38:57Z,2024-12-24T11:30:24+00:00,1,18.86,True,4,4,1,605,0,0,0,MERGED
+48362,[iOS] RNTester: Fixes turbo module examples error in bridgeless mode,zhongwuzw,2024-12-23T14:46:01Z,2025-02-11T13:32:17+00:00,3,1198.77,False,2,2,2,412,6,1,7,CLOSED
+48355,updated url.js,suryaansh001,2024-12-20T19:12:49Z,2025-08-21T05:14:36+00:00,1,5842.03,False,53,39,1,129,5,4,9,CLOSED
+48350,fix: iOS app crash caused by the request operation canceling,zhouzh1,2024-12-20T10:45:02Z,2025-02-18T13:14:08+00:00,12,1442.48,False,34,6,2,440,43,3,46,CLOSED
+48340,fix: Prioritise local cpp (use default as fallback),timbocole,2024-12-19T14:34:47Z,2024-12-31T13:33:54+00:00,3,286.99,False,13,3,1,675,9,1,10,CLOSED
+48339,fix: do not overwrite external `inputAccessoryView` on Fabric,kirillzyusko,2024-12-19T13:48:21Z,2024-12-19T18:17:25+00:00,1,4.48,False,5,1,1,451,5,0,5,CLOSED
+48338,feat: make reactHost accessible,WoLewicki,2024-12-19T10:51:06Z,2025-01-14T15:35:21+00:00,8,628.74,False,13,0,2,871,8,3,11,CLOSED
+48333,react-native\packages\react-native\Libraries\Blob\URL.js Changes,bobbysharma05,2024-12-19T08:40:37Z,2025-03-12T17:25:14+00:00,2,2000.74,False,54,53,3,826,10,6,16,CLOSED
+48319,[iOS] Fabric: Added ScrollEndDragEvent for scrollEndDrag event,zhongwuzw,2024-12-18T10:44:21Z,2025-01-06T16:48:43+00:00,8,462.07,False,82,4,5,145,4,5,9,CLOSED
+48317,[Android] Modal: `FLAG_SECURE` not respected in modal dialog,mateoguzmana,2024-12-17T22:18:15Z,2025-01-03T04:43:54+00:00,1,390.43,False,14,0,1,3026,4,0,4,CLOSED
+48313,[Android] Modal: Setting `resource-id` from `testID` prop,mateoguzmana,2024-12-17T19:11:31Z,2024-12-19T19:53:13+00:00,2,48.7,False,25,0,2,863,5,1,6,CLOSED
+48271,[Android] ActivityIndicator: setting `resource-id` from the `testID` prop,mateoguzmana,2024-12-14T09:25:54Z,2024-12-16T12:47:02+00:00,1,51.35,False,11,0,1,874,3,0,3,CLOSED
+48257,Add CCACHE_BINARY path to Xcode build settings and use it in ccache scripts,ste7en,2024-12-13T11:27:08Z,2024-12-16T19:02:15+00:00,1,79.59,False,3,2,3,743,9,0,9,CLOSED
+48255,feat: add `getState` for `StateWrapperImpl`,hannojg,2024-12-13T11:07:34Z,2024-12-13T18:06:09+00:00,7,6.98,False,5,0,2,1716,4,2,6,CLOSED
+48254,[Android] ScrollView: handling `testID` correctly for horizontal scroll view,mateoguzmana,2024-12-13T10:54:06Z,2024-12-13T20:47:20+00:00,1,9.89,False,16,0,1,1238,5,0,5,CLOSED
+48253,[iOS] Fabric: Fixes LayoutConformanceView not work,zhongwuzw,2024-12-13T08:47:12Z,2024-12-16T12:22:09+00:00,3,75.58,False,11,4,2,218,4,1,5,CLOSED
+48244,[RN][CI] Test Old Arch with Maestro,cipolleschi,2024-12-12T14:16:52Z,2024-12-12T17:07:00+00:00,1,2.84,False,36,14,5,158,6,1,7,CLOSED
+48243,fix(android): fix mapbuffer jni headers not found consuming react-native from prefab,hannojg,2024-12-12T14:09:39Z,2024-12-13T17:39:18+00:00,1,27.49,False,1,1,1,1058,6,0,6,CLOSED
+48234,Fix bad memory access issue on handleMemoryPressure function,bwisn,2024-12-12T12:32:53Z,2025-06-23T05:02:29+00:00,10,4624.49,False,2,1,1,1642,5,1,6,CLOSED
+48232,feat: add `RawPropsParser` as optional parameter to Concrete-/ComponentDescriptor,hannojg,2024-12-12T09:37:59Z,2024-12-12T16:13:19+00:00,1,6.59,False,12,6,3,685,3,0,3,CLOSED
+48231,feat: `RawPropsParser` add `useRawPropsJsiValue` parameter,hannojg,2024-12-12T09:18:43Z,2024-12-12T20:58:27+00:00,2,11.66,False,8,3,2,816,3,1,4,CLOSED
+48217,Exclude `packages/react-native/ReactAndroid/build` from lint checks,mateoguzmana,2024-12-11T15:51:23Z,2024-12-12T11:30:40+00:00,1,19.65,False,1,0,1,315,2,0,2,CLOSED
+48213,[iOS] Fabric: Fixes assert failure when surface stop before we start surface,zhongwuzw,2024-12-11T09:48:16Z,2024-12-24T15:45:33+00:00,5,317.95,False,3,1,1,3246,3,1,4,CLOSED
+48202,feat(android): allow passing filter function for prop folly::dynamic conversion,hannojg,2024-12-10T17:34:23Z,2024-12-12T19:42:16+00:00,6,50.13,False,73,20,10,1166,4,4,8,CLOSED
+48197,fix:fix the deadlock in EventDispatcherImpl.java,MlxChange,2024-12-10T12:35:25Z,2024-12-17T11:59:57+00:00,3,167.41,False,57,27,1,4204,5,2,7,CLOSED
+48193,[iOS] Use configuration type when adding ndebug flag to pods in release,benhandanyan,2024-12-10T02:15:44Z,2024-12-11T12:41:16+00:00,3,34.43,False,26,13,4,1417,3,2,5,CLOSED
+48174,[iOS] Enable hermes debugger by configuration type instead of configuration name,benhandanyan,2024-12-08T12:27:42Z,2024-12-09T16:55:45+00:00,3,28.47,False,36,15,3,1649,5,1,6,CLOSED
+48138,[iOS] Exclude Android HorizontalScrollContentView cxx component code,zhongwuzw,2024-12-06T10:00:49Z,2024-12-12T22:55:04+00:00,5,156.9,False,3,4,5,300,3,1,4,CLOSED
+48131,"Fixes for Keyboard Observer, KeyboardAvoidingView on iOS",mhoran,2024-12-06T00:42:21Z,2025-01-27T15:00:44+00:00,1,1262.31,False,20,20,3,1487,7,0,7,CLOSED
+48126,[iOS] Paper: TextInput `maxLength` is not working in old arch,mateoguzmana,2024-12-05T17:48:36Z,2024-12-10T20:04:55+00:00,1,122.27,False,1,1,1,802,4,0,4,CLOSED
+48124,Fix crash on HeadlessJsTaskService on old architecture,cortinico,2024-12-05T17:31:54Z,2024-12-06T20:09:34+00:00,3,26.63,False,12,13,1,604,4,1,5,CLOSED
+48103,Migrate `HeadlessJsTaskEventListener` to Kotlin,mateoguzmana,2024-12-04T22:06:57Z,2024-12-06T20:21:31+00:00,1,46.24,False,26,26,2,153,3,0,3,CLOSED
+48082,[iOS] Fabric: Post RCTInstanceDidLoadBundle notification after bundle loaded,zhongwuzw,2024-12-04T08:13:56Z,2024-12-05T14:03:54+00:00,4,29.83,False,44,38,3,193,3,2,5,CLOSED
+48047,Construct `RawValue` directly from `jsi::Value`,hannojg,2024-12-02T17:29:35Z,2024-12-11T16:49:10+00:00,21,215.33,False,528,111,24,1465,7,27,34,CLOSED
+48045,[LOCAL][RN][CI] Add Maestro tests for the Old Arch in Template App,cipolleschi,2024-12-02T15:55:24Z,2024-12-16T14:24:38+00:00,1,334.49,True,36,14,5,156,0,1,1,MERGED
+48043,"Add new Fusebox Tracing API, integrate into PerformanceEntryReporter (2/2)",huntie,2024-12-02T14:22:45Z,2024-12-12T12:45:05+00:00,1,238.37,False,454,121,21,703,23,2,25,CLOSED
+48038,Migrate `BatchEventDispatchedListener` to kotlin,mateoguzmana,2024-12-02T05:54:49Z,2024-12-03T01:58:10+00:00,1,20.06,False,3,3,1,179,3,1,4,CLOSED
+48037,[iOS] Fabric: Fixes Modal onRequestClose not called,zhongwuzw,2024-12-02T03:32:54Z,2024-12-02T12:11:23+00:00,1,8.64,False,13,1,2,133,3,0,3,CLOSED
+48023,fix: add mising subpsec to React-Fabric podspec,WoLewicki,2024-11-29T15:13:54Z,2024-12-02T11:58:37+00:00,1,68.75,False,7,0,1,581,3,0,3,CLOSED
+48013,fix: typo in inherited,WoLewicki,2024-11-29T11:26:32Z,2024-12-02T11:25:15+00:00,1,71.98,False,1,1,1,217,2,0,2,CLOSED
+47998,[Fabric] Add completion block when call js module function,zhongwuzw,2024-11-28T08:37:31Z,2024-11-29T12:13:21+00:00,1,27.6,False,4,1,1,308,5,1,6,CLOSED
+47972,Migrate jsc-android to mavenCentral,Kudo,2024-11-26T19:58:18Z,2024-12-06T20:54:51+00:00,7,240.94,False,13,243,12,466,8,5,13,CLOSED
+47955,fix:setColorScheme exception when activity recreate,Maplely,2024-11-26T13:05:44Z,2024-11-28T17:48:03+00:00,1,52.71,False,10,7,1,184,5,0,5,CLOSED
+47953,test(image): [android] react okhttp network fetcher cache control tests,mateoguzmana,2024-11-26T12:33:13Z,2024-12-09T15:39:54+00:00,1,315.11,False,150,0,1,458,3,0,3,CLOSED
+47952,Support TLS connection for Android to RN DevServer,unamed000,2024-11-26T12:23:27Z,2025-08-21T05:36:12+00:00,7,6425.21,False,44,25,4,478,9,4,13,CLOSED
+47924,[iOS] Fabric: Fixes insets not adjust when keyboard disappear,zhongwuzw,2024-11-25T09:27:33Z,2024-12-04T15:52:38+00:00,2,222.42,False,4,9,1,132,5,1,6,CLOSED
+47923,fix(gh-action): do not fetch branch,unknown,2024-11-25T07:33:54Z,2024-12-05T11:26:58+00:00,4,243.88,False,0,45,1,572,12,2,14,CLOSED
+47911,Fix no return static analysis error in SchedulerPriorityUtils.h,acoates-ms,2024-11-22T19:33:04Z,2024-12-12T11:30:39+00:00,5,471.96,False,4,3,1,361,4,3,7,CLOSED
+47902,Select text inside TextInput only once from `onLayout`,j-piasecki,2024-11-22T10:18:39Z,2025-08-21T05:43:37+00:00,4,6523.42,False,4,2,1,3270,3,3,6,CLOSED
+47882,Fixes to bridging/base.h for MSVC compatibility,acoates-ms,2024-11-21T18:24:27Z,2024-11-22T14:59:59+00:00,1,20.59,False,28,4,1,600,3,0,3,CLOSED
+47875,Include autolinkin.h in OnLoad.cpp only if it exists,cipolleschi,2024-11-21T12:15:18Z,2024-11-21T14:00:00+00:00,4,1.75,False,13,0,1,423,5,3,8,CLOSED
+47742,[iOS] Fabric: Adjusts the weight according to the font name,zhongwuzw,2024-11-20T04:25:25Z,2024-11-20T17:31:58+00:00,2,13.11,False,10,12,3,286,6,1,7,CLOSED
+47739,Fix Appearance.setColorScheme(null) not resetting color scheme value,sangonz193,2024-11-20T03:16:52Z,2024-11-21T12:47:39+00:00,1,33.51,False,3,1,1,397,5,0,5,CLOSED
+47726,Sync debugger-frontend to latest 0.76-stable (fix Expo node_modules entry points in Sources panel),huntie,2024-11-19T18:38:31Z,2024-12-04T17:25:55+00:00,1,358.79,True,4,4,3,337,1,0,1,MERGED
+47712,[Codegen] Exclude unlinked libs from codegen,cipolleschi,2024-11-19T14:29:09Z,2024-12-04T17:25:17+00:00,4,362.94,True,49,7,1,835,0,1,1,MERGED
+47698,Fix `podspec_source_build_from_local_source_dir` to ensure the `artifacts_dir` exists before downloading into it,kraenhansen,2024-11-19T10:43:54Z,2024-11-19T11:49:26+00:00,2,1.09,False,3,1,1,1389,3,0,3,CLOSED
+47691,[iOS] Fabric: Fixes custom font of weight is not honored,zhongwuzw,2024-11-19T02:56:40Z,2024-11-19T22:11:38+00:00,1,19.25,False,6,3,1,127,7,1,8,CLOSED
+47671,feat: Manage keyboard shortcuts visibility of TextInput,rezkiy37,2024-11-18T19:04:14Z,2025-01-06T18:08:29+00:00,14,1175.07,False,184,0,17,1022,18,9,27,CLOSED
+47641,fix build failure on windows in android,FouadMagdy01,2024-11-15T19:42:09Z,2024-11-18T10:42:36+00:00,4,63.01,False,7,1,1,868,6,11,17,CLOSED
+47634,Fix handling removal of transitioning views,kkafar,2024-11-15T14:42:42Z,2024-12-04T23:41:53+00:00,22,464.99,False,29,4,2,10872,14,11,25,CLOSED
+47629,Fix lazy import error from jest and Appearance.js,Kudo,2024-11-15T07:36:19Z,2024-11-21T15:50:09+00:00,1,152.23,False,5,1,1,2202,6,0,6,CLOSED
+47616,chore(Android): convert systeminfo module classes to kotlin,oddlyspaced,2024-11-14T18:23:38Z,2024-11-22T11:39:06+00:00,7,185.26,False,211,281,5,647,9,2,11,CLOSED
+47614,Fix `maxFontSizeMultiplier` prop on `Text` and `TextInput` components in new architecture,RickardZrinski,2024-11-14T17:20:59Z,2025-01-29T17:32:37+00:00,6,1824.19,False,264,5,10,1403,14,2,16,CLOSED
+47591,Fix ScrollView centerContent losing taps and causing jitter on iOS,gaearon,2024-11-13T15:48:03Z,2024-11-25T23:00:30+00:00,1,295.21,False,83,29,2,2585,12,1,13,CLOSED
+47569,[0.76] Skip hermes-parser under Babel for non-Flow JS code,huntie,2024-11-12T11:59:21Z,2024-11-13T12:12:23+00:00,1,24.22,True,21,2,3,668,0,0,0,MERGED
+47560,Fix blog post link,gaearon,2024-11-11T23:28:39Z,2024-11-12T15:23:46+00:00,1,15.92,False,2,2,1,0,4,0,4,CLOSED
+47554,Fix Dimensions window values on Android < 15,zoontek,2024-11-11T17:09:37Z,2025-07-03T18:41:56+00:00,26,5617.54,False,20,1,3,513,57,13,70,CLOSED
+47544,Support system font families on iOS,cxa,2024-11-11T08:27:51Z,2024-12-12T18:54:19+00:00,1,754.44,False,68,1,2,554,3,0,3,CLOSED
+47532,fix(iOS): unify prefetchImageWithMetadata's signature in JS and ObjC land,TheRogue76,2024-11-08T23:36:37Z,2024-11-18T12:21:26+00:00,1,228.75,False,3,3,3,649,4,0,4,CLOSED
+47514,[Codegen] Fix generated EventEmitter code for nested objects in arrays.,tvanlaerhoven,2024-11-08T14:09:06Z,2024-11-21T00:35:08+00:00,1,298.43,False,26,2,4,739,10,0,10,CLOSED
+47477,[iOS] Fabric: Fixes transform when there are multiple values that contain a matrix,zhongwuzw,2024-11-07T09:32:34Z,2024-12-10T18:37:32+00:00,6,801.08,False,20,4,4,160,14,5,19,CLOSED
+47474,fix(flow): excluding `packages/rn-tester/Pods/` from flow checks,mateoguzmana,2024-11-06T23:56:52Z,2024-11-07T12:41:38+00:00,1,12.75,False,3,0,1,312,3,0,3,CLOSED
+47458,Generate RN specific Files in RN,cipolleschi,2024-11-06T16:35:14Z,2024-11-07T12:12:42+00:00,2,19.62,False,255,39,24,544,5,2,7,CLOSED
+47452,[Codegen] feat: handle negative values in enums,okwasniewski,2024-11-06T12:24:23Z,2024-11-13T20:24:30+00:00,4,176.0,False,169,13,8,737,4,3,7,CLOSED
+47444,add e2e test for empty case in flatlist,kunalchavhan,2024-11-06T06:26:04Z,2024-11-06T12:11:37+00:00,1,5.76,False,9,0,3,162,4,0,4,CLOSED
+47435,TextLayout: take full width if text wrapped,s77rt,2024-11-05T20:06:18Z,2024-11-21T11:25:40+00:00,4,375.32,False,29,0,2,1891,15,3,18,CLOSED
+47433,test(image): [android] improving image property test cases,mateoguzmana,2024-11-05T18:44:17Z,2024-11-06T17:23:21+00:00,1,22.65,False,120,1,1,346,3,0,3,CLOSED
+47426,feat(image): [android] adding `force-cache` cache control option,mateoguzmana,2024-11-05T16:47:38Z,2024-11-12T18:48:35+00:00,4,170.02,False,29,8,6,1112,5,1,6,CLOSED
+47418,[iOS] Fabric: Fixes high contrast color when not specified,zhongwuzw,2024-11-05T15:32:18Z,2024-11-22T15:20:39+00:00,1,407.81,False,2,2,1,490,4,0,4,CLOSED
+47397,refactor(community-cli-plugin): use node builtin fetch ,jbroma,2024-11-04T23:36:58Z,2024-11-27T18:44:42+00:00,1,547.13,False,0,3,3,469,4,0,4,CLOSED
+47348,feat(image): [android] adding `only-if-cached` cache control option,mateoguzmana,2024-10-31T23:10:39Z,2024-11-04T16:43:14+00:00,7,89.54,False,41,5,6,708,3,2,5,CLOSED
+47341,feat(Android): add support for invert colors check on android accessibility,oddlyspaced,2024-10-31T17:46:44Z,2024-11-04T18:11:26+00:00,2,96.41,False,50,7,4,766,12,1,13,CLOSED
+47338,[iOS] FIxes CornerRadiiAreEqualAndSymmetrical error when check topLeftHorizontal == topLeftVertical,zhongwuzw,2024-10-31T16:43:17Z,2024-11-01T15:17:32+00:00,1,22.57,False,1,1,1,253,3,0,3,CLOSED
+47326,feat(android): add auto linking for libraries in brownfield environment,hurali97,2024-10-31T08:27:17Z,2024-11-08T13:21:45+00:00,3,196.91,False,19,10,2,1380,6,1,7,CLOSED
+47325,[New Arch] fix: cache android shadow node measurements,okwasniewski,2024-10-31T08:20:30Z,2025-08-30T05:41:22+00:00,4,7269.35,False,2,0,2,386,3,1,4,CLOSED
+47311,[iOS] Fabric: Fixes AccessoryView not disappeared when pop up the page,zhongwuzw,2024-10-30T15:57:14Z,2024-12-19T19:00:40+00:00,1,1203.06,False,0,5,1,487,6,0,6,CLOSED
+47308,fix: fix `@react-native-community/cli-platform-*` packages not being found in monorepos,tido64,2024-10-30T15:13:43Z,2025-02-12T08:39:40+00:00,1,2513.43,False,15,2,1,1619,5,0,5,CLOSED
+47306,feat: introduce RCTArchConfiguratorProtocol,okwasniewski,2024-10-30T14:43:21Z,2024-10-30T18:34:40+00:00,2,3.86,False,34,22,2,298,3,0,3,CLOSED
+47304,fix: fix `@react-native-community/cli` not being found in monorepos,tido64,2024-10-30T14:15:23Z,2025-02-14T13:05:58+00:00,2,2566.84,False,16,2,1,993,14,1,15,CLOSED
+47303,fix logbox error stack,blakef,2024-10-30T12:03:22Z,2024-10-31T10:24:52+00:00,2,22.36,True,325,76,4,345,1,1,2,MERGED
+47287,[RN][JS] Fix setUpErrorHandling to show early JS errors,cipolleschi,2024-10-29T15:02:21Z,2024-10-31T10:24:33+00:00,1,43.37,True,0,6,1,343,0,0,0,MERGED
+47236,[iOS] Fixes regression of RCTWindowFrameDidChangeNotification not fired,zhongwuzw,2024-10-28T09:58:22Z,2024-10-28T12:34:56+00:00,1,2.61,False,1,0,1,239,3,0,3,CLOSED
+47230,"fix(Android, iOS): Fix AnsiHighlight Style in RTL Layout",hexboy,2024-10-27T21:26:20Z,2024-10-31T08:37:20+00:00,4,83.18,False,42,18,3,1764,9,2,11,CLOSED
+47227,bugfix(image): add ts definition of resizeMethod attribute.,nianxiongdi,2024-10-27T17:54:20Z,2024-10-30T12:15:16+00:00,5,66.35,False,18,29,1,198,10,1,11,CLOSED
+47220,fix(iOS): migrate from RCTSharedApplication() for RCTDeviceInfo's RCTIsIPhoneNotched method,TheRogue76,2024-10-26T21:55:55Z,2024-10-29T11:41:06+00:00,1,61.75,False,4,1,1,896,3,0,3,CLOSED
+47212,feat(border): [android] `border-style: none` support,mateoguzmana,2024-10-25T22:40:11Z,2025-02-11T20:11:59+00:00,2,2613.53,False,179,3,13,1551,3,0,3,CLOSED
+47197,fix(iOS): migrate from depracated websocket method in RCTCxxInspectorWebSocketAdapter,TheRogue76,2024-10-24T23:23:05Z,2024-10-25T06:53:05+00:00,1,7.5,False,1,1,1,628,7,0,7,CLOSED
+47188,Add jsBundleFile to DefaultReactNativeHost.kt,sunnylqm,2024-10-24T15:24:33Z,2024-10-24T22:03:07+00:00,1,6.64,False,1,1,1,89,4,0,4,CLOSED
+47139,feat(iOS): introduce RCTUIConfiguratorProtocol,okwasniewski,2024-10-21T15:32:46Z,2024-10-30T11:36:36+00:00,3,212.06,False,59,42,2,294,4,1,5,CLOSED
+47122,fix(Android) drawing additional empty line when 'textAlign' is set to 'justify',coado,2024-10-18T13:36:40Z,2024-10-29T21:26:59+00:00,6,271.84,False,67,24,3,770,5,7,12,CLOSED
+47094,test(rn-tester): skip loading indicators when list is empty,frankcalise,2024-10-17T15:19:50Z,2024-10-18T10:42:56+00:00,1,19.39,False,10,2,1,652,3,0,3,CLOSED
+47083,Add Yarn files to .gitignore,zhongwuzw,2024-10-17T08:51:47Z,2024-10-17T14:39:40+00:00,1,5.8,False,8,0,1,366,8,0,8,CLOSED
+47082,Fix `adjustsFontSizeToFit` for strings with a single character,j-piasecki,2024-10-17T08:50:34Z,2024-12-09T18:16:31+00:00,7,1281.43,False,14,1,2,1059,8,3,11,CLOSED
+47073,fix: Add missing tvOS steps to build-hermes-macos GH action,douglowder,2024-10-16T19:43:42Z,2024-10-17T09:25:26+00:00,1,13.7,False,6,0,1,490,4,0,4,CLOSED
+47054,Fix iOS modal flicker on new architecture,skostilainen,2024-10-16T12:55:58Z,2024-10-17T11:45:36+00:00,2,22.83,False,1,1,1,598,6,1,7,CLOSED
+47044,fix: height and width added back in props,shubhamguptadream11,2024-10-16T07:40:50Z,2024-10-18T12:08:03+00:00,1,52.45,False,1,5,2,811,3,0,3,CLOSED
+47035,Add support for `display: contents` style,NickGerleman,2024-10-15T16:20:25Z,2024-10-19T05:09:42+00:00,2,84.82,False,283,53,18,2814,11,1,12,CLOSED
+47020,Add test for Console.log measure in new-arch-examples,poonamjain96,2024-10-15T07:58:09Z,2024-10-15T15:35:52+00:00,1,7.63,False,11,0,1,187,5,0,5,CLOSED
+47005,Make PackagerConnectionSettings class open again,gabrieldonadel,2024-10-14T00:44:44Z,2024-10-14T11:47:38+00:00,1,11.05,False,7,7,2,531,3,0,3,CLOSED
+47003,fix: start and end points linear gradient algorithm,intergalacticspacehighway,2024-10-13T11:24:19Z,2024-11-21T01:21:35+00:00,12,925.95,False,686,340,13,1282,15,34,49,CLOSED
+46971,[iOS] Add png extension only if file exist when load local image,zhongwuzw,2024-10-11T09:21:57Z,2024-11-04T18:36:58+00:00,2,585.25,False,4,1,1,239,8,0,8,CLOSED
+46952,Fix KeyboardAvoidingView not aware of the keyboard closing after it is unmounted,QichenZhu,2024-10-10T12:41:30Z,2024-10-15T15:07:37+00:00,1,122.44,False,5,0,1,2230,3,0,3,CLOSED
+46944,[iOS] Fixes scrollIndicatorInsets not work in old arch,zhongwuzw,2024-10-10T06:47:29Z,2024-10-15T15:16:05+00:00,10,128.48,False,18,0,2,201,3,2,5,CLOSED
+46888,fix: override podspecs dependencies c++ version,Titozzz,2024-10-08T13:21:23Z,2024-10-08T15:13:21+00:00,1,1.87,False,7,0,1,364,4,0,4,CLOSED
+46883,feat: add `disabledButtonTintColor` prop in `ActionSheetIOS`,henninghall,2024-10-08T09:47:56Z,2024-11-18T13:30:25+00:00,1,987.71,False,75,1,6,619,11,0,11,CLOSED
+46865,feat: Add tvOS support to Hermes artifacts,douglowder,2024-10-07T18:23:56Z,2024-10-16T10:44:06+00:00,10,208.34,False,33,10,9,575,3,6,9,CLOSED
+46851,feat: Add `CallInvoker` to `installJSIBindings(..)`/`BindingsInstaller`,mrousavy,2024-10-05T12:07:15Z,2024-10-09T11:39:51+00:00,17,95.54,False,29,12,7,500,14,8,22,CLOSED
+46847,fix(iOS): Replace uses of `CGColorRef` with UIColor to avoid manual memory management,Saadnajmi,2024-10-04T22:32:45Z,2024-10-09T23:46:41+00:00,1,121.23,False,57,78,5,2628,10,1,11,CLOSED
+46832,Avoid calling keyWindow on any UIScene,cipolleschi,2024-10-04T09:38:39Z,2024-10-04T13:02:51+00:00,1,3.4,False,8,2,1,658,5,0,5,CLOSED
+46831,chore: test case added for Image,sarthak-d11,2024-10-04T08:47:14Z,2024-10-09T14:21:14+00:00,1,125.57,False,12,0,1,163,4,0,4,CLOSED
+46830,fix: change opacity logic from random to decrement by -0.20,sarthak-d11,2024-10-04T08:39:46Z,2024-10-10T16:03:51+00:00,6,151.4,False,9,1,1,234,5,2,7,CLOSED
+46814,fix(dev-middleware): respond with status code `200` when launching RNDT,byCedric,2024-10-03T15:22:29Z,2024-10-04T09:49:23+00:00,1,18.45,False,59,1,3,422,4,1,5,CLOSED
+46797,fix(iOS): Properly retain/release backgroundColor in RCTBorderDrawing,Saadnajmi,2024-10-02T21:01:43Z,2024-10-04T11:00:34+00:00,1,37.98,False,3,0,1,735,5,0,5,CLOSED
+46790,[0.76] Update debugger-frontend from e8c7943...ce5d32a,huntie,2024-10-02T16:08:29Z,2024-10-07T14:42:18+00:00,1,118.56,True,13,15,10,447,0,0,0,MERGED
+46786,fix: `performance.measure` with mark names,robik,2024-10-02T14:25:25Z,2024-10-17T14:39:36+00:00,5,360.24,False,64,33,7,593,3,8,11,CLOSED
+46784,Add maestro e2e test for Legacy Style Event,tarunrajput,2024-10-02T12:48:17Z,2024-10-15T18:06:24+00:00,4,317.3,False,19,9,2,163,7,1,8,CLOSED
+46781,Remove run on iOS/Android key handlers,huntie,2024-10-02T11:02:56Z,2024-10-03T10:43:04+00:00,1,23.67,False,0,43,2,212,3,0,3,CLOSED
+46773,use unknown in Flatlist `setNativeProps`  type for typescript  >= 3.0,JDMathew,2024-10-02T07:08:12Z,2024-10-03T17:27:10+00:00,1,34.32,False,1,2,1,197,5,0,5,CLOSED
+46772,Rename `RCTUIGraphicsImageRenderer` to `RCTMakeUIGraphicsImageRenderer`,Saadnajmi,2024-10-02T04:10:47Z,2024-10-03T12:49:40+00:00,1,32.65,False,3,3,1,648,3,0,3,CLOSED
+46771,Add help and newlines to Metro CLI,johnf,2024-10-01T22:50:10Z,2024-10-02T14:54:43+00:00,1,16.08,False,21,11,1,401,3,0,3,CLOSED
+46732,[iOS] automaticallyAdjustKeyboardInsets not shifting scrollview content,zhongwuzw,2024-09-30T15:22:04Z,2024-10-30T19:09:42+00:00,11,723.79,False,30,13,6,267,5,8,13,CLOSED
+46731,Allow taking control of bundle loading on new arch,alanjhughes,2024-09-30T14:41:01Z,2024-10-03T14:17:24+00:00,12,71.61,False,38,65,7,941,4,15,19,CLOSED
+46730,add missing iOS platform colors,EvanBacon,2024-09-30T13:31:52Z,2024-09-30T15:17:51+00:00,1,1.77,False,4,0,2,249,3,0,3,CLOSED
+46723,fix(dev-menu): export for react-native package,frankcalise,2024-09-28T16:13:29Z,2024-09-30T16:26:29+00:00,1,48.22,False,57,0,5,809,10,4,14,CLOSED
+46692,Introducing RCT_DEV_KEY_COMMANDS to disable RCTKeyCommands,343max,2024-09-27T11:08:25Z,2025-09-03T07:50:07+00:00,1,8180.69,False,9,1,2,1261,6,0,6,CLOSED
+46690,Improve PerformanceEntryReporter API (const and pass by reference),rubennorte,2024-09-27T10:15:00Z,2024-10-01T13:58:05+00:00,2,99.72,False,1078,1317,28,79,3,1,4,CLOSED
+46655,fix(iOS): title and title color handling added for refresh control,shubhamguptadream11,2024-09-26T10:40:43Z,2024-09-30T15:08:47+00:00,3,100.47,False,2,2,1,1057,5,1,6,CLOSED
+46652,feat: deprecate passing separate new arch flags to RCTRootViewFactory,okwasniewski,2024-09-26T09:09:59Z,2024-10-10T14:43:42+00:00,2,341.56,False,27,1,2,325,8,0,8,CLOSED
+46645,[0.76] Simplify key handling in start command,huntie,2024-09-25T13:06:39Z,2024-09-30T13:43:01+00:00,4,120.61,True,33,101,3,869,1,1,2,MERGED
+46644,[0.76] Add CLI selection of multiple debug targets,huntie,2024-09-25T13:00:29Z,2024-09-30T13:41:01+00:00,1,120.68,True,297,123,8,717,1,0,1,MERGED
+46643,[0.76] Update Metro to 0.81.0-alpha.2,huntie,2024-09-25T12:54:32Z,2024-09-30T13:40:42+00:00,1,120.77,True,107,120,5,41,1,0,1,MERGED
+46628,[iOS][New Architecture]: Fix applying of tintColor and progressViewOffset props for RefreshControl component,TuTejsy,2024-09-24T16:59:19Z,2024-09-26T13:02:57+00:00,1,44.06,False,18,0,1,1099,6,0,6,CLOSED
+46625,feat: improve RCTAppDelegate usage for brownfield,okwasniewski,2024-09-24T15:22:32Z,2024-09-26T12:42:48+00:00,1,45.34,False,26,8,2,1122,3,0,3,CLOSED
+46622,Fix: processing react context listeners after the JS loads on Android,coado,2024-09-24T13:36:46Z,2024-10-16T10:37:47+00:00,2,525.02,False,6,5,1,1238,6,1,7,CLOSED
+46621,feat(iOS): refactor RCTDevLoadingView to use constraints,okwasniewski,2024-09-24T11:54:06Z,2024-09-30T15:36:34+00:00,1,147.71,False,40,23,1,936,2,1,3,CLOSED
+46619,Add changelog for 0.76.0-rc.2,blakef,2024-09-24T10:15:50Z,2024-09-25T14:00:48+00:00,1,27.75,False,17,73,1,76,5,0,5,CLOSED
+46616,fix(RCTImageLoader): thread safety and validation check,huextrat,2024-09-24T08:39:52Z,2025-09-01T05:43:23+00:00,1,8205.06,False,2,1,1,22913,5,0,5,CLOSED
+46602,feat: Expose MetroConfig type directly from @react-native/metro-config,tjzel,2024-09-23T13:00:46Z,2024-10-07T13:38:28+00:00,1,336.63,False,2,0,1,2281,4,0,4,CLOSED
+46584,Add support for `display: contents`,j-piasecki,2024-09-20T10:20:59Z,2024-10-19T05:09:44+00:00,17,690.81,False,301,58,22,4754,9,14,23,CLOSED
+46541,[CI][Testing] Add Maestro test for New Arch Example,cipolleschi,2024-09-17T15:29:13Z,2024-09-18T13:21:55+00:00,4,21.88,False,36,9,4,419,6,5,11,CLOSED
+46536,fix(ios): allow pods mixte type settings on post-install,MasGaNo,2024-09-17T12:07:03Z,2024-09-17T16:14:52+00:00,1,4.13,False,30,2,2,375,6,0,6,CLOSED
+46531,fix(iOS): subscribe to orientation changes only on iOS,okwasniewski,2024-09-17T10:09:32Z,2024-09-18T10:32:10+00:00,1,24.38,False,4,0,1,287,3,0,3,CLOSED
+46529,fix(internal): formatting of tsconfig.json,okwasniewski,2024-09-17T08:20:22Z,2024-09-17T11:26:20+00:00,1,3.1,False,13,13,1,157,3,0,3,CLOSED
+46513,fix(iOS): move boost compiler flags and folly dep name to centralized config,okwasniewski,2024-09-16T14:46:45Z,2024-09-17T12:01:19+00:00,1,21.24,False,61,38,23,267,3,0,3,CLOSED
+46497,[Android] Fix Headless Crash `Tried to finish non-existent task with id`,RodolfoGS,2024-09-14T18:34:54Z,2024-09-16T11:33:15+00:00,1,40.97,False,6,7,1,2130,4,0,4,CLOSED
+46495,fix(react-native-xcode): Add back BUNDLE_COMMAND,Vin-Xi,2024-09-14T10:50:51Z,2024-09-17T09:40:16+00:00,1,70.82,False,2,0,1,428,6,0,6,CLOSED
+46484,Add TS types for Codegen,cipolleschi,2024-09-13T16:01:39Z,2024-09-16T13:31:48+00:00,2,69.5,False,6,0,1,231,4,2,6,CLOSED
+46462,Add missing babel-jest dependency to react-native package,huntie,2024-09-12T16:43:59Z,2024-09-16T15:31:43+00:00,1,94.8,False,9,4,4,616,9,1,10,CLOSED
+46460,[iOS] Fabric: Add missing source properties of Image,zhongwuzw,2024-09-12T15:49:02Z,2024-09-19T18:06:25+00:00,9,170.29,False,67,8,3,169,5,6,11,CLOSED
+46457,[0.76] fix(iOS): don't reference PrivacyInfo.xcprivacy twice for new projects,okwasniewski,2024-09-12T14:47:25Z,2024-09-12T16:37:07+00:00,1,1.83,False,23,8,1,657,3,0,3,CLOSED
+46453,Re-add `RCTHermesInstance` constructor for compatibility,tido64,2024-09-12T12:18:09Z,2024-09-12T14:09:46+00:00,1,1.86,False,10,0,2,271,3,0,3,CLOSED
+46432,fix(iOS): fallback to old path when dynamic resolve fails,okwasniewski,2024-09-11T08:55:45Z,2024-09-13T16:47:54+00:00,1,55.87,False,10,5,1,432,4,0,4,CLOSED
+46430,Expose jsctooling via prefab,tomekzaw,2024-09-11T05:22:13Z,2024-09-11T10:57:19+00:00,1,5.58,False,5,0,1,363,4,0,4,CLOSED
+46427,Expose `react_timing` headers in `reactnative` prefab,tomekzaw,2024-09-10T20:18:04Z,2024-09-11T10:52:03+00:00,1,14.57,False,2,0,1,3057,3,0,3,CLOSED
+46416,fix app crashing when reloads overlap,coado,2024-09-10T12:58:55Z,2024-09-18T14:37:50+00:00,4,193.65,False,18,2,1,534,7,2,9,CLOSED
+46411,fix: scroll the cursor into view when focus,dominictb,2024-09-10T08:46:33Z,2024-11-18T11:42:47+00:00,1,1658.94,False,41,0,2,1879,4,0,4,CLOSED
+46388,chore: replace mkdirp with mkdir fs,anirudhdream11,2024-09-08T16:31:31Z,2024-09-17T14:08:30+00:00,10,213.62,False,23,63,12,971,8,3,11,CLOSED
+46381,fix: RNGP autolink not properly filter out pure C++ TurboModules,hsjoberg,2024-09-07T21:48:58Z,2024-09-09T14:26:40+00:00,1,40.63,False,1,0,1,837,3,0,3,CLOSED
+46378,Add support for new iOS text content type cellular EID and cellular IMEI,pasc0al,2024-09-07T11:14:08Z,2024-09-16T14:30:42+00:00,1,219.28,False,30,0,6,803,10,0,10,CLOSED
+46360,fix: Bring back Cxx TurboModule autolinking via `registerCxxModuleToGlobalModuleMap`,mrousavy,2024-09-06T08:21:27Z,2024-09-06T22:14:41+00:00,1,13.89,False,85,0,4,471,4,0,4,CLOSED
+46358,chore(react-native): accept failing glog configure in setup script,legobeat,2024-09-06T06:15:26Z,2024-09-17T10:45:28+00:00,5,268.5,False,2,2,1,413,3,1,4,CLOSED
+46353,Fix useWindowDimensions not updating because of delayed applicationState update on iOS devices,Tuuben,2024-09-05T15:15:30Z,2024-12-31T15:54:22+00:00,1,2808.65,False,4,0,1,1300,5,0,5,CLOSED
+46350,onEndReached first mount Render fix,noman-ansari,2024-09-05T11:30:14Z,2025-03-20T13:52:07+00:00,3,4706.36,False,2,1,1,513,5,1,6,CLOSED
+46339,feat(scripts): Support multiple bundles in react-native-xcode.sh,fivecar,2024-09-05T05:53:04Z,2024-09-13T12:14:02+00:00,2,198.35,False,8,5,1,968,5,1,6,CLOSED
+46300,chore(iOS): bump socket rocket to 0.7.1,okwasniewski,2024-09-02T12:20:24Z,2024-09-07T10:00:39+00:00,1,117.67,False,113,84,6,234,5,0,5,CLOSED
+46298,feat: implement ReactNativeFactory,okwasniewski,2024-09-02T10:52:52Z,2024-12-31T15:48:45+00:00,15,2884.93,False,554,354,9,854,8,10,18,CLOSED
+46290,fix(android): linear gradient with platform color,intergalacticspacehighway,2024-09-01T01:50:52Z,2024-09-18T00:25:51+00:00,1,406.58,False,108,7,5,169,3,0,3,CLOSED
+46277,fix(iOS): fire onMomentumScrollEnd when UIScrollView is removed from window,shubhamguptadream11,2024-08-30T10:02:47Z,2024-09-13T13:38:32+00:00,2,339.6,False,34,0,2,1530,11,1,12,CLOSED
+46262,Fix duplicate entries in HEADER_SEARCH_PATHS when running react_native_post_install script,dirkpostma,2024-08-29T13:13:47Z,2024-09-07T13:31:00+00:00,4,216.29,False,80,3,2,1968,8,2,10,CLOSED
+46239,Fix GH-41226 by suppressing path adjustment when not actually drawing a border,knappam,2024-08-28T14:49:40Z,2024-08-29T18:25:18+00:00,2,27.59,False,9,4,1,776,6,1,7,CLOSED
+46228,"feat(iOS): expose newArchEnabled, deprecate separate methods",okwasniewski,2024-08-27T12:29:12Z,2024-09-09T10:19:20+00:00,1,309.84,False,8,3,1,429,3,0,3,CLOSED
+46227,feat: build codegen on postinstall,okwasniewski,2024-08-27T12:15:33Z,2024-08-27T15:32:29+00:00,1,3.28,False,2,1,1,755,4,0,4,CLOSED
+46202,"fix(android):  resolve crash by handling colour resource IDs with ""android"" package name fallback",shubhamguptadream11,2024-08-24T15:33:03Z,2024-08-27T16:39:11+00:00,1,73.1,False,5,0,1,1662,5,0,5,CLOSED
+46181,feat(iOS): dynamically resolve react native path in Hermes podspec,okwasniewski,2024-08-23T09:30:03Z,2024-08-27T10:47:51+00:00,1,97.3,False,6,1,1,516,5,0,5,CLOSED
+46173,fix(iOS): fix animating `Switch` component value change,krozniata,2024-08-22T16:25:00Z,2024-09-09T23:45:29+00:00,1,439.34,False,3,2,1,686,4,0,4,CLOSED
+46172,Add line offset for baseline alignment of text attachments,j-piasecki,2024-08-22T14:03:09Z,2024-08-22T17:45:28+00:00,1,3.71,False,1,1,1,536,3,0,3,CLOSED
+46152,fix(android): make getUri and isResource available for override,shubhamguptadream11,2024-08-22T09:14:14Z,2024-08-27T12:05:24+00:00,7,122.85,False,4,4,2,124,6,1,7,CLOSED
+46130,feat(iOS): line break mode cpp changes and new functions,shubhamguptadream11,2024-08-21T10:35:18Z,2024-08-23T18:18:00+00:00,1,55.71,False,44,0,6,246,5,0,5,CLOSED
+46129,feat(iOS): line break mode prop  iOS updates to consume new cpp functions,shubhamguptadream11,2024-08-21T10:35:12Z,2024-08-23T18:18:01+00:00,1,55.71,False,83,1,7,258,8,0,8,CLOSED
+46128,feat(iOS): line break mode implement JS APIs for the new mode,shubhamguptadream11,2024-08-21T10:34:39Z,2024-09-10T11:56:25+00:00,1,481.36,False,63,0,6,309,9,0,9,CLOSED
+46125,[iOS] Clean up RCTParagraphComponentView & RCTParagraphTextView,zhongwuzw,2024-08-21T09:18:12Z,2024-08-21T19:23:42+00:00,1,10.09,False,0,3,1,208,3,0,3,CLOSED
+46122,Appearance: Cache `colorScheme` in JavaScript,yungsters,2024-08-20T23:19:30Z,2024-08-21T08:52:46+00:00,3,9.55,False,85,101,7,299,6,1,7,CLOSED
+46094,[iOS] Fixes Italic text not work,zhongwuzw,2024-08-19T10:30:34Z,2024-08-19T15:42:41+00:00,1,5.2,False,3,2,1,118,4,0,4,CLOSED
+46091,fix(iOS): displaying irregular borders on iOS old architecture,coado,2024-08-19T09:10:59Z,2025-08-30T05:41:18+00:00,4,9020.51,False,54,30,4,468,6,2,8,CLOSED
+46084,fix: Linear gradient border styles with BackgroundStyleApplicator,intergalacticspacehighway,2024-08-18T03:46:55Z,2024-08-29T00:31:39+00:00,1,260.75,False,71,21,5,202,4,3,7,CLOSED
+46075,Update React-RCTAppDelegate.podspec syntax error for USE_HERMES=1,rocketraman,2024-08-17T00:58:00Z,2024-08-20T05:25:34+00:00,4,76.46,False,2,3,1,522,6,2,8,CLOSED
+46040,Fix publish template url for GHA action,blakef,2024-08-15T13:16:28Z,2024-08-15T15:25:40+00:00,1,2.15,False,2,2,1,231,4,1,5,CLOSED
+46030,[iOS] Add missing pod dependency of jserrorhandler,zhongwuzw,2024-08-15T06:42:55Z,2024-08-15T10:28:31+00:00,1,3.76,False,6,0,1,218,3,0,3,CLOSED
+46021,[iOS] Fixes Appearance user interface style when app run from background,zhongwuzw,2024-08-14T15:51:10Z,2024-08-20T17:48:32+00:00,2,145.96,False,5,0,1,143,6,0,6,CLOSED
+46020,fix(ios): removed default value,elencho,2024-08-14T15:06:30Z,2024-08-15T15:25:41+00:00,1,24.32,False,0,6,2,140,2,0,2,CLOSED
+46017,fix(android): ensure Appearance change listener does not skip events,vonovak,2024-08-14T10:48:18Z,2024-09-09T11:34:17+00:00,1,624.77,False,14,15,1,749,3,0,3,CLOSED
+45999,Fix GH-41226,knappam,2024-08-13T15:32:32Z,2024-11-05T09:16:08+00:00,1,2009.73,False,9,4,1,772,2,0,2,CLOSED
+45996,fix (iOS): refresh control not behaving correctly if it is offscreen,deepanshushuklad11,2024-08-13T08:10:55Z,2024-08-23T11:54:39+00:00,1,243.73,False,15,0,1,1455,6,0,6,CLOSED
+45995,fix(react-native-codegen): scripts require `yargs`,tido64,2024-08-13T07:49:59Z,2024-08-19T13:21:18+00:00,1,149.52,True,3,3,1,1068,1,0,1,MERGED
+45994,fix(react-native-codegen): scripts require `yargs`,tido64,2024-08-13T07:48:36Z,2024-08-13T13:36:17+00:00,1,5.79,False,3,3,1,1068,3,0,3,CLOSED
+45993,fix(react-native): fix codegen failing in a pnpm monorepo setup,tido64,2024-08-13T07:23:24Z,2024-09-30T15:14:51+00:00,1,1159.86,True,5,4,2,2594,1,0,1,MERGED
+45991,Keep same cachedAttributedStringId if AttributedString string fragments did not change,s77rt,2024-08-13T03:51:14Z,2025-08-30T05:32:25+00:00,1,9169.69,False,10,1,5,1609,2,0,2,CLOSED
+45978,Fix changing font scale breaking text,j-piasecki,2024-08-12T14:04:33Z,2025-04-14T16:00:11+00:00,4,5881.93,False,199,31,16,2235,20,3,23,CLOSED
+45973,fix(iOS): displaying irregular borders on iOS Fabric ,coado,2024-08-12T09:49:53Z,2024-08-14T20:26:27+00:00,9,58.61,False,29,14,1,624,9,2,11,CLOSED
+45972,[iOS] Fabric: Refactor ParagraphComponentView to support border ,zhongwuzw,2024-08-12T09:35:06Z,2024-08-21T09:30:27+00:00,2,215.92,False,49,25,1,135,9,0,9,CLOSED
+45968,fix(ios): line break mode property added for iOS,shubhamguptadream11,2024-08-10T04:44:24Z,2024-08-24T16:58:35+00:00,1,348.24,False,214,0,16,387,11,0,11,CLOSED
+45964,Fix bug when clearing text when securityTextEntry is true,adnan-khan1122,2024-08-09T21:59:59Z,2024-11-18T11:41:09+00:00,1,2413.69,False,36,22,1,1758,15,0,15,CLOSED
+45957,ci: add xcbeautify for xcodebuild actions,okwasniewski,2024-08-09T08:58:15Z,2024-08-09T13:19:12+00:00,1,4.35,False,6,6,2,324,3,0,3,CLOSED
+45943,ci: run cache-repear only on main repo,okwasniewski,2024-08-08T13:25:25Z,2024-08-08T16:44:11+00:00,1,3.31,False,1,1,1,46,3,0,3,CLOSED
+45940,ci: run cache-repear only on main repo,okwasniewski,2024-08-08T08:08:03Z,2024-08-08T09:41:13+00:00,1,1.55,False,1,0,1,283,3,0,3,CLOSED
+45936,[rngp] Add shared-testutil folder to NPM files to be published,gabrieldonadel,2024-08-07T21:29:48Z,2024-08-09T12:54:41+00:00,1,39.41,False,2,1,1,273,4,0,4,CLOSED
+45928,feat(android): height issue fixed with keyboard avoiding component in new architecture,shubhamguptadream11,2024-08-07T11:04:28Z,2024-08-09T19:25:30+00:00,1,56.35,False,2,2,1,285,5,0,5,CLOSED
+45911,fix: Hermes build for visionOS simulator (Release),okwasniewski,2024-08-06T13:20:53Z,2024-08-07T15:00:05+00:00,1,25.65,False,2,2,1,213,5,0,5,CLOSED
+45903,feat(accessibility): support large content viewer on iOS,bacarybruno,2024-08-05T17:15:03Z,2024-08-15T20:42:44+00:00,8,243.46,False,102,1,9,755,8,2,10,CLOSED
+45902,[iOS] Fixes typo of  function callFunctionOnBufferedRumtimeExecutor,zhongwuzw,2024-08-05T15:53:15Z,2024-08-05T20:25:52+00:00,1,4.54,False,4,4,3,208,3,0,3,CLOSED
+45896,feat: stub `RCTStatusBarManager` for non iOS Apple platforms,okwasniewski,2024-08-05T13:06:17Z,2024-09-16T13:00:14+00:00,1,1007.9,False,65,0,2,364,5,0,5,CLOSED
+45894,[LOCAL] Bump Node on CircleCI to 18.18 to fix red signal,cortinico,2024-08-05T12:46:27Z,2024-08-07T13:16:38+00:00,1,48.5,True,1,1,1,303,1,0,1,MERGED
+45845,chore: migrate GenerateCodegenArtifactsTaskTest to assertj,Tony-MK,2024-07-31T16:15:43Z,2024-08-02T11:12:44+00:00,2,42.95,False,20,25,1,262,5,9,14,CLOSED
+45843,Disable Placeholder Scaling on iOS,coado,2024-07-31T15:16:08Z,2024-08-07T12:53:45+00:00,1,165.63,False,54,1,9,382,2,3,5,CLOSED
+45842,chore: migrate PrepareJSCTaskTest to assertj,BogiKay,2024-07-31T13:47:51Z,2024-07-31T18:05:03+00:00,1,4.29,False,29,28,1,255,4,0,4,CLOSED
+45841,fix: minor fixes for hermes scripts,okwasniewski,2024-07-31T11:08:34Z,2024-08-07T13:58:15+00:00,5,170.83,False,13,5,3,245,6,2,8,CLOSED
+45827,"Fix ""C4715 not all control paths return a value"" warning in MSVC",jonthysell,2024-07-30T20:57:26Z,2024-08-12T17:06:19+00:00,1,308.15,False,2,0,2,546,3,2,5,CLOSED
+45819,feat(iOS): implement automicallyAdjustsKeyboardInsets for new arch,okwasniewski,2024-07-30T13:06:53Z,2024-08-06T11:25:22+00:00,10,166.31,False,155,0,5,525,5,5,10,CLOSED
+45808,chore: ☂️ Migrate PreparePrefabHeadersTaskTest.kt to AssertJ,omer-ayhan,2024-07-29T23:46:17Z,2024-07-31T11:49:29+00:00,3,36.05,False,22,24,1,181,5,1,6,CLOSED
+45807,chore: ☂️ Migrate GenerateCodegenSchemaTaskTest.kt to AssertJ,omer-ayhan,2024-07-29T23:39:50Z,2024-07-31T11:57:07+00:00,3,36.29,False,20,29,1,182,4,6,10,CLOSED
+45806,chore: ☂️ Migrate BundleHermesCTaskTest.kt to AssertJ,omer-ayhan,2024-07-29T23:34:20Z,2024-07-31T18:13:51+00:00,4,42.66,False,138,139,1,174,8,16,24,CLOSED
+45790,chore: ☂️ Migrate GeneratePackageListTaskTest.kt to AssertJ,omerayhan-shft,2024-07-29T12:37:11Z,2024-07-29T15:11:41+00:00,1,2.58,False,24,32,1,180,7,0,7,CLOSED
+45789,feat: migrate ShareModuleTest to AssertJ ,migueldaipre,2024-07-29T12:00:53Z,2024-07-29T14:05:52+00:00,1,2.08,False,12,12,1,160,4,0,4,CLOSED
+45779,[LOCAL][RN] Revert React from 19Rc to 18.3.1,cipolleschi,2024-07-29T10:46:05Z,2024-07-29T13:36:44+00:00,1,2.84,True,59993,42997,15,185,3,0,3,MERGED
+45775,Fix for app restart on Android in case of remote debugging,Sushant-Sardeshpande,2024-07-29T08:40:49Z,2024-08-08T15:01:57+00:00,1,246.35,False,7,5,1,1739,5,0,5,CLOSED
+45770,[RNGP] chore: migrate HeaderUtilTest to AssertJ,gustavoabel,2024-07-28T18:32:46Z,2024-07-29T13:52:38+00:00,3,19.33,False,6,7,1,189,4,1,5,CLOSED
+45769,[RNGP] chore: migrate ReactActivityDelegateTest to AssertJ,gustavoabel,2024-07-28T18:16:26Z,2024-07-29T14:05:53+00:00,1,19.82,False,6,6,1,211,3,0,3,CLOSED
+45718,chore: migrate assertions in all unit tests in PrepareBoostTaskTest from jUnit to AssertJ.,bionanek,2024-07-26T11:07:06Z,2024-07-26T12:50:15+00:00,4,1.72,False,12,8,1,698,5,4,9,CLOSED
+45665,"chore: Migrate FileUtilsTest.kt, NdkConfiguratorUtilsTest.kt and AgpConfiguratorUtilsTest.kt to AssertJ",henriquecicero,2024-07-25T11:13:21Z,2024-07-26T12:26:00+00:00,1,25.21,False,37,42,3,226,8,3,11,CLOSED
+45649,feat: migrate BuildCodegenCLITaskTest and PrepareGlogTaskTest to AssertJ,migueldaipre,2024-07-24T16:54:34Z,2024-07-25T08:38:23+00:00,1,15.73,False,9,9,2,215,4,0,4,CLOSED
+45648,chore: ☂️ Migrate UIManagerModuleConstantsHelperTest.kt to AssertJ,yakupozbaydar,2024-07-24T15:09:54Z,2024-07-25T09:29:12+00:00,2,18.32,False,18,23,1,185,9,0,9,CLOSED
+45644,"chore: migrate tests to assertj (DialogModuleTest, ReactModuleInfoTest, FabricUIManagerTest.kt)",jaworek,2024-07-24T13:13:23Z,2024-07-25T08:47:32+00:00,1,19.57,False,29,31,3,586,3,0,3,CLOSED
+45635,chore: ☂️ Migrate InteropUiBlockListenerTest.kt to AssertJ #45610,Skipperlla,2024-07-24T07:24:59Z,2024-07-25T01:33:01+00:00,3,18.13,False,17,17,1,174,6,3,9,CLOSED
+45623,"feat: migrate DefaultNewArchitectureEntryPointTest, InteropEventEmitterTest and InteropModuleRegistryTest to AssertJ",migueldaipre,2024-07-23T23:29:09Z,2024-07-24T21:42:44+00:00,8,22.23,False,28,34,3,233,5,4,9,CLOSED
+45610,chore: ☂️  Migrate BlobModuleTest.kt to AssertJ,bufgix,2024-07-23T20:01:00Z,2024-07-24T07:18:22+00:00,1,11.29,False,10,12,1,162,3,0,3,CLOSED
+45608,"[RNGP] feat: migrate JsonUtilsTest, OsTest and TaskUtilsTest to AssertJ",migueldaipre,2024-07-23T19:47:32Z,2024-07-24T00:01:50+00:00,1,4.24,False,111,153,3,293,4,0,4,CLOSED
+45607,[RNGP] chore: ☂️ migrate BackwardCompatUtilsTest to AssertJ,gustavoabel,2024-07-23T19:11:22Z,2024-07-24T07:12:18+00:00,1,12.02,False,7,6,1,207,6,0,6,CLOSED
+45606,"chore: tests migration to assertj (KotlinStdlibCompatUtilsTest, ModelAutolinkingDependenciesJsonTest, PathUtilsTest, DependencyUtilsTest, ProjectUtilsTest)",kachmashk,2024-07-23T19:09:08Z,2024-07-24T16:48:34+00:00,6,21.66,False,185,193,5,410,11,3,14,CLOSED
+45566,Enable third-party podspec sources to be fetched from mirrored git repositories,RailByteOEBB,2024-07-22T09:52:06Z,2024-08-14T11:47:03+00:00,1,553.92,False,137,11,7,828,7,0,7,CLOSED
+45560,Restore CLI_PATH variable in react-native-xcode script,gabrieldonadel,2024-07-20T19:13:02Z,2024-07-22T10:23:04+00:00,2,39.17,False,2,2,1,793,3,1,4,CLOSED
+45559,Add upper case keys to the debug key handler,wh201906,2024-07-20T12:40:38Z,2024-07-23T11:02:57+00:00,2,70.37,False,1,1,1,303,7,1,8,CLOSED
+45557,[iOS][FIXED] Data race related to read/write on `ReactMarker::logTaggedMarkerImpl`,hakonk,2024-07-20T09:57:22Z,2024-08-12T12:10:13+00:00,1,554.21,False,33,9,6,10488,9,0,9,CLOSED
+45519,[Fabric] Fixes findNodeAtPoint when views were inverted,zhongwuzw,2024-07-18T15:31:41Z,2024-08-16T08:04:02+00:00,5,688.54,False,75,3,3,146,27,3,30,CLOSED
+45515,Update device APIs for macOS compatibility,huntie,2024-07-18T11:16:57Z,2024-07-23T12:59:14+00:00,2,121.7,False,17,2,3,271,5,2,7,CLOSED
+45486,[iOS] Fixes main thread stuck when reload in bridgeless mode,zhongwuzw,2024-07-17T03:36:12Z,2024-08-02T20:52:35+00:00,5,401.27,False,16,52,4,6579,9,2,11,CLOSED
+45464,always proxy to @react-native-community/cli,blakef,2024-07-16T12:59:41Z,2024-07-18T11:51:53+00:00,3,46.87,False,45,16,1,910,4,1,5,CLOSED
+45434,feat: linear gradient ios,intergalacticspacehighway,2024-07-15T10:22:12Z,2024-08-06T21:04:27+00:00,6,538.7,False,104,0,3,765,7,7,14,CLOSED
+45433,feat: linear gradient android,intergalacticspacehighway,2024-07-15T10:20:28Z,2024-08-01T16:44:48+00:00,11,414.41,False,1138,2,21,794,13,15,28,CLOSED
+45430,fix: background color fix when border is dotted and dashed,shubhamguptadream11,2024-07-15T07:04:45Z,2024-07-16T11:48:28+00:00,2,28.73,False,1,2,2,1225,7,0,7,CLOSED
+45401,fix: onChangeText should be called only once if changed via js in a multiline textinput,deepanshushuklad11,2024-07-12T07:31:32Z,2024-07-31T11:11:26+00:00,2,459.67,False,4,1,1,2898,10,0,10,CLOSED
+45400,[iOS] Don't set empty string when remove ccache,zhongwuzw,2024-07-12T06:45:57Z,2024-07-12T09:57:12+00:00,1,3.19,False,4,4,1,234,3,0,3,CLOSED
+45390,Undo a breaking change with I18nUtil.instance,cortinico,2024-07-11T16:00:00Z,2024-07-11T21:58:45+00:00,1,5.98,False,39,29,4,366,2,1,3,CLOSED
+45389,Undo a breaking change with ResourceDrawableIdHelper.instance,cortinico,2024-07-11T15:59:54Z,2024-07-11T21:58:45+00:00,2,5.98,False,51,29,6,398,4,1,5,CLOSED
+45386,feat: expose prefabs for newly added targets,WoLewicki,2024-07-11T13:12:49Z,2024-07-12T09:13:31+00:00,4,20.01,False,29,0,2,492,5,1,6,CLOSED
+45378,Undo breaking change on Dynamic.type and Dynamic.isNull,cortinico,2024-07-11T11:24:20Z,2024-07-11T19:29:04+00:00,1,8.08,False,6,6,2,362,3,0,3,CLOSED
+45333,fix: android autolinkLibrariesFromCommand should handle timeout or non zero exit code,mfazekas,2024-07-08T18:53:22Z,2024-07-11T10:47:10+00:00,3,63.9,False,15,2,1,4861,12,2,14,CLOSED
+45317,remove gating for optimized text,sammy-SC,2024-07-08T13:43:37Z,2024-07-08T19:43:46+00:00,2,6.0,False,399,773,5,187,4,1,5,CLOSED
+45316,fix: Hermes prepare_command fails with space in path,okwasniewski,2024-07-08T13:24:56Z,2024-07-18T14:25:59+00:00,1,241.02,False,1,1,1,427,4,0,4,CLOSED
+45313,fix: iOS crash occurring when navigating to a new app screen with a displaying modal,zhouzh1,2024-07-08T11:32:14Z,2024-08-20T17:11:36+00:00,3,1037.66,False,1,0,1,768,18,0,18,CLOSED
+45290,Fix dynamic_cast (RTTI) by adding key function to ShadowNodeWrapper again,tomekzaw,2024-07-04T14:59:15Z,2024-07-04T17:15:07+00:00,1,2.26,False,14,3,3,738,10,1,11,CLOSED
+45279,Update ignore file to include `ReactBuildConfig` in the npm package,j-piasecki,2024-07-04T09:37:38Z,2024-07-04T12:53:56+00:00,1,3.27,False,1,1,1,618,4,0,4,CLOSED
+45274,fix: get all bytes from the text in native event key in fabric,deepanshushuklad11,2024-07-04T07:54:41Z,2024-07-05T22:42:33+00:00,1,38.8,False,1,1,1,713,8,0,8,CLOSED
+45263,fix: on iOS not getting 304 from `If-None-Match` request,huzhanbo1996,2024-07-03T09:04:45Z,2024-07-05T15:59:28+00:00,1,54.91,False,6,0,1,347,4,1,5,CLOSED
+45261,Fix Memory Leak in LogBoxModule,fannnzhang,2024-07-03T04:54:50Z,2024-07-05T16:11:34+00:00,3,59.28,False,12,15,2,1218,15,1,16,CLOSED
+45220,[Hermes] Bump Hermes,cipolleschi,2024-06-28T13:48:05Z,2024-07-01T09:38:09+00:00,3,67.83,True,45,3,4,205,1,3,4,MERGED
+45214,[CI] Move machines to M1 for 0.73,cipolleschi,2024-06-28T11:00:07Z,2024-07-09T12:19:29+00:00,1,265.32,True,30,28,7,178,2,0,2,MERGED
+45208,[iOS][FIXED] fix the path of the script phase,imWildCat,2024-06-27T15:35:18Z,2024-06-27T23:18:14+00:00,1,7.72,False,1,1,1,337,13,0,13,CLOSED
+45206,New implementation of PerformanceObserver and related APIs (fixes #45122),robik,2024-06-27T13:38:54Z,2024-09-26T16:20:33+00:00,77,2186.69,False,1768,1607,33,1741,7,83,90,CLOSED
+45202,"feat: [ScrollView,FlatList] Add `ref.scrollToStart({animated?: boolean})` method",retyui,2024-06-27T11:23:59Z,2025-01-29T22:22:29+00:00,1,5194.98,False,96,0,8,438,3,1,4,CLOSED
+45201,[RN][Testing] Update testing scripts to work with any version of React native,cipolleschi,2024-06-27T09:43:42Z,2024-07-03T15:11:09+00:00,1,149.46,True,72,28,2,502,2,1,3,MERGED
+45198,[iOS] Change Image load event size info from logical size to pixel,zhongwuzw,2024-06-27T07:44:18Z,2024-12-31T17:09:14+00:00,1,4497.42,False,5,5,2,553,6,0,6,CLOSED
+45191,[iOS][Fixed] Data race related to reading/writing to `AllocationTestModule.valid`,hakonk,2024-06-26T17:54:29Z,2024-06-28T15:15:09+00:00,1,45.34,False,3,3,1,512,8,0,8,CLOSED
+45187,[Android] Fix onMomentumScrollEnd similar to iOS,Biki-das,2024-06-26T15:04:32Z,2024-11-12T18:43:28+00:00,6,3339.65,False,185,9,6,1221,24,8,32,CLOSED
+45182,fix: ensure `--build-output` destination exists,szymonrybczak,2024-06-26T11:44:00Z,2024-08-27T16:08:09+00:00,3,1492.4,False,7,0,1,465,4,2,6,CLOSED
+45176,feat: add conditionals for iOS only code in `RCTDeviceInfo.mm`,okwasniewski,2024-06-26T10:11:38Z,2024-06-28T13:08:06+00:00,1,50.94,False,13,3,2,1033,4,0,4,CLOSED
+45166,fix/react native init platform bug,blakef,2024-06-25T16:36:32Z,2024-06-26T09:10:38+00:00,1,16.57,False,2,2,1,462,6,0,6,CLOSED
+45158,[LOCAL][CI] Fix Helloworld ios jobs,cipolleschi,2024-06-25T13:03:44Z,2024-06-26T09:22:02+00:00,3,20.3,True,43,25,6,282,2,1,3,MERGED
+45147,Deps: bumps ws version which patches a security vulnerability,pranshuchittora,2024-06-24T17:18:32Z,2024-06-26T09:16:49+00:00,1,39.97,False,10,3,4,154,6,0,6,CLOSED
+45145,Normalize newlines in public-api-test,xleoooo,2024-06-24T17:05:44Z,2024-06-26T17:47:54+00:00,1,48.7,False,2,8,1,296,3,0,3,CLOSED
+45144,[LOCAL][Release-Testing] Update the testing script to use the new template,cipolleschi,2024-06-24T16:51:48Z,2024-06-25T12:55:02+00:00,15,20.05,True,69,30,2,246,1,8,9,MERGED
+45142,[LOCAL][RN][CI] Improve stability of the Hermes pipeline,cipolleschi,2024-06-24T15:37:50Z,2024-06-25T12:54:03+00:00,2,21.27,True,288,251,5,531,1,0,1,MERGED
+45134,[LOCAL][CI] Require cocoapods to hermes-engine podspec,cipolleschi,2024-06-24T13:31:42Z,2024-06-24T15:36:39+00:00,2,2.08,True,236,184,7,624,1,7,8,MERGED
+45114,[iOS] Fix data races in `RCTImageLoader` and `RCTNetworkTask` with shared atomic counters,hakonk,2024-06-22T17:57:51Z,2024-06-28T14:42:53+00:00,12,140.75,False,6,9,2,455,10,9,19,CLOSED
+45105,fix: Improve Timers error handling and web compatibility (fixes #45085),robik,2024-06-21T13:01:29Z,2024-06-24T18:31:16+00:00,3,77.5,False,42,28,3,337,6,4,10,CLOSED
+45104,fix: set proper framework dependencies for built-in pods,okwasniewski,2024-06-21T12:05:56Z,2024-06-24T10:19:50+00:00,1,70.23,False,8,2,7,481,4,0,4,CLOSED
+45102,Implement baseline alignment function on the new architecture,j-piasecki,2024-06-21T10:54:45Z,2024-07-10T19:48:54+00:00,30,464.9,False,363,54,21,1056,27,14,41,CLOSED
+45100,fix: Headless tasks in bridgeless mode (fixes #44255),robik,2024-06-21T09:49:26Z,2024-07-09T23:10:57+00:00,5,445.36,False,62,12,2,179,8,3,11,CLOSED
+45099,feat: remove upper limit for Cocoapods version (allow for 1.15.2),okwasniewski,2024-06-21T09:20:22Z,2024-06-21T11:17:50+00:00,1,1.96,False,3,3,3,244,4,0,4,CLOSED
+45097,[iOS] Fixes TextInput crash when undo if text longer than maxLength,zhongwuzw,2024-06-21T08:55:44Z,2024-06-25T11:26:39+00:00,2,98.52,False,3,1,1,288,6,1,7,CLOSED
+45095,"fix: post install error in iOS after running pod install, `undefined method 'path' for nil:NilClass`",Irfanwani,2024-06-21T04:27:12Z,2024-06-21T11:40:05+00:00,1,7.21,False,14,5,1,617,5,0,5,CLOSED
+45092,fix: align timer functions' error handling with web standards,thejamesgore,2024-06-20T23:14:15Z,2024-06-25T10:39:08+00:00,1,107.41,False,26,50,1,709,7,4,11,CLOSED
+45089,Fix indentation inside `PrivacyInfo.xcprivacy`,szymonrybczak,2024-06-20T17:30:22Z,2024-07-01T14:03:41+00:00,1,260.56,False,31,32,1,279,2,0,2,CLOSED
+45083,Add an overload for `createLayout` to reduce code duplication,j-piasecki,2024-06-20T14:00:28Z,2024-06-20T18:26:20+00:00,1,4.43,False,69,108,1,271,3,0,3,CLOSED
+45078,use new downsamplemode to disable downsampling,sunnylqm,2024-06-19T23:23:45Z,2024-10-08T22:01:25+00:00,3,2662.63,False,2,1,1,797,16,1,17,CLOSED
+45062,[LOCAL][RN][Tests] Fix JS tests for release,cipolleschi,2024-06-19T11:18:15Z,2024-06-19T13:37:48+00:00,3,2.33,True,29,26,2,241,1,1,2,MERGED
+45056,[DRAFT] Improve public-api-test coverage,xleoooo,2024-06-19T03:26:21Z,2024-07-26T21:32:41+00:00,3,906.11,False,1129,31,6,274,2,2,4,CLOSED
+45055,Implement Missing Methods in URL Class to Handle Base URL and Relative Path Combinations,sossost,2024-06-19T01:39:56Z,2025-08-21T05:50:52+00:00,4,10276.18,False,201,81,2,390,14,1,15,CLOSED
+45047,Ensure full layout occurs when a system scale change occurs,acoates-ms,2024-06-18T18:57:42Z,2024-07-09T00:59:41+00:00,1,486.03,False,8,2,4,818,6,3,9,CLOSED
+45033,[LOCAL][RN][Release Testing] Update the testing script to run with the community template,cipolleschi,2024-06-18T14:03:54Z,2024-06-18T15:23:08+00:00,1,1.32,True,23,5,1,321,1,0,1,MERGED
+45012,Remove RCTBridgeWillInvalidateModulesNotification observer from RCTDeviceInfo,hromovp,2024-06-17T17:56:14Z,2025-07-09T12:56:25+00:00,2,9283.0,False,5,13,2,1342,5,2,7,CLOSED
+45007,[RN][Jest] Fix tests for React 19,cipolleschi,2024-06-17T13:00:26Z,2024-06-17T14:51:56+00:00,1,1.86,False,5,3,1,179,3,1,4,CLOSED
+45004,fix: select text on auto focus for TextInput,kunalchavhan,2024-06-17T09:47:37Z,2024-07-12T17:53:48+00:00,7,608.1,False,35,8,3,1003,10,2,12,CLOSED
+45003,Allow for setting accessibility label on text,j-piasecki,2024-06-17T06:39:12Z,2024-06-17T10:16:31+00:00,1,3.62,False,4,0,1,956,4,0,4,CLOSED
+44957,Fix custom port listening configuration through metro.config.js,afonsograca,2024-06-14T18:11:27Z,2024-06-17T12:56:21+00:00,6,66.75,False,1,1,1,1451,4,1,5,CLOSED
+44927,fix: make it possible to add multiple mountingOverrideDelegates,WoLewicki,2024-06-13T14:32:25Z,2024-06-14T17:27:46+00:00,2,26.92,False,35,32,4,801,8,2,10,CLOSED
+44918,[iOS] Fixes Image load event in new arch,zhongwuzw,2024-06-13T02:56:45Z,2024-06-28T11:38:59+00:00,5,368.7,False,4,1,1,118,8,1,9,CLOSED
+44904,Add 0.72.15 to Changelog,alfonsocj,2024-06-12T15:00:52Z,2024-06-13T12:00:29+00:00,1,20.99,False,14,0,1,100,3,0,3,CLOSED
+44875,[RN][GHA] Move HelloWorld jobs from CCI to GHA,cipolleschi,2024-06-11T14:59:14Z,2024-06-12T17:27:32+00:00,1,26.47,False,158,119,4,172,6,0,6,CLOSED
+44844,fix: run nightly CI only on the main repo,okwasniewski,2024-06-09T09:19:32Z,2024-06-10T11:37:23+00:00,1,26.3,False,1,0,1,295,4,0,4,CLOSED
+44833,[RN][GHA] Migrate the Prepare Release workflow,cipolleschi,2024-06-07T13:36:05Z,2024-06-10T16:54:51+00:00,1,75.31,False,86,15,3,145,10,1,11,CLOSED
+44825,[iOS] feat:- added UIInterfaceOrientation in place of statusBarOrient…,Biki-das,2024-06-07T08:19:47Z,2024-06-25T11:18:41+00:00,2,434.98,False,3,3,2,485,8,5,13,CLOSED
+44805,Fix status bar height calculation for all cutout sizes,Abbondanzo,2024-06-05T20:37:44Z,2024-06-10T15:33:07+00:00,1,114.92,False,29,31,1,600,6,0,6,CLOSED
+44795,Fix:-fixed dark mode appearance for the a11y and action sheet examples in …,Biki-das,2024-06-05T11:56:16Z,2024-06-13T11:30:34+00:00,1,191.57,False,195,111,3,356,6,0,6,CLOSED
+44777,Fix border drawn over children on iOS,j-piasecki,2024-06-04T09:19:21Z,2024-06-04T13:01:26+00:00,2,3.7,False,3,2,1,2521,5,0,5,CLOSED
+44775,Support customizeRootView from RCTRootViewFactory,Kudo,2024-06-04T02:05:26Z,2024-06-06T10:55:28+00:00,1,56.83,False,23,4,3,669,8,0,8,CLOSED
+44764,"[0.74] Update `eslint-plugin-jest` to 27.x, `@typescript-eslint` deps to 7.x",huntie,2024-06-03T16:20:52Z,2024-06-04T09:27:56+00:00,1,17.12,True,67,59,3,1759,2,0,2,MERGED
+44763,[iOS]:- fixed image resize mode in release mode for iOS,Biki-das,2024-06-03T15:58:21Z,2025-08-22T05:01:10+00:00,6,10669.05,False,95,51,4,1587,21,3,24,CLOSED
+44759,feat: Implement requestIdleCallback (#44636),robik,2024-06-03T12:50:57Z,2024-06-17T11:25:10+00:00,30,334.57,False,482,1,21,528,10,36,46,CLOSED
+44746,Remove legacy InspectorPackagerConnection,huntie,2024-05-31T15:33:35Z,2024-06-03T13:13:41+00:00,1,69.67,False,3,661,5,136,5,0,5,CLOSED
+44741,[RN][GHA] Setup Nightlies,cipolleschi,2024-05-31T10:44:28Z,2024-06-07T08:32:44+00:00,3,165.8,False,665,0,1,689,5,2,7,CLOSED
+44708,Clean up old code for microtasks in Hermes,rubennorte,2024-05-29T18:12:11Z,2024-05-30T11:28:46+00:00,1,17.28,False,8,11,2,286,4,0,4,CLOSED
+44694,[iOS] Fix data race related to RCTNetworkTask.status,hakonk,2024-05-28T10:58:23Z,2024-07-03T15:26:33+00:00,7,868.47,False,66,10,4,600,4,5,9,CLOSED
+44691,feat: build visionos hermes binary on the CI,okwasniewski,2024-05-27T14:11:44Z,2024-06-10T11:57:10+00:00,4,333.76,False,71,18,10,235,6,2,8,CLOSED
+44679,Adjust iOS line height calculation,adrianha,2024-05-25T13:34:51Z,2025-08-22T05:01:07+00:00,3,10887.44,False,102,124,3,524,15,1,16,CLOSED
+44667,feat(android): font variation settings,matinzd,2024-05-23T19:42:18Z,2025-08-22T05:01:05+00:00,6,10929.31,False,188,3,21,1759,11,5,16,CLOSED
+44654,[codegen] Fixes enum codegen value cases,zhongwuzw,2024-05-23T10:15:50Z,2024-06-07T14:57:59+00:00,1,364.7,False,174,25,7,111,6,1,7,CLOSED
+44644,fix: warn only in `init` command when CLI uses cached `npx` version,szymonrybczak,2024-05-21T23:55:00Z,2024-05-23T16:52:55+00:00,1,40.97,False,9,3,1,493,8,0,8,CLOSED
+44642,chore(ci): Set `retryOnFailure` for RNTester iOS Unit and Integration tests,Saadnajmi,2024-05-21T18:43:41Z,2024-05-30T14:30:41+00:00,1,211.78,False,3,34,4,682,5,0,5,CLOSED
+44627,Allow library podspec to declare Swift Package Manager dependencies,mfazekas,2024-05-20T17:52:52Z,2024-06-25T10:48:55+00:00,3,856.93,False,103,0,2,2192,9,4,13,CLOSED
+44622,[iOS] Fixes animated frame timing,zhongwuzw,2024-05-20T12:31:09Z,2024-05-29T15:24:50+00:00,1,218.89,False,21,17,1,109,4,0,4,CLOSED
+44615,"feat: remove redundant pressed state updates, if state is not used at…",Zahoq,2024-05-20T10:35:45Z,2024-05-21T16:56:07+00:00,11,30.34,False,9,4,1,738,4,3,7,CLOSED
+44605,Reduce memory allocations when computing accessibilityLabel,sparga,2024-05-18T01:56:12Z,2024-12-24T15:53:21+00:00,1,5293.95,False,11,3,2,1734,5,0,5,CLOSED
+44586,fix startTransition inside renderers when _callbacks is undefined,sync,2024-05-15T23:39:03Z,2024-06-17T19:44:01+00:00,1,788.08,False,14,2,3,486,7,1,8,CLOSED
+44487,fix: android native rejections should be instanceof Error,huzhanbo1996,2024-05-08T13:12:26Z,2024-05-14T12:00:52+00:00,4,142.81,False,59,23,1,141,8,4,12,CLOSED
+44486,Add BindingsInstaller for TurboModules on iOS,Kudo,2024-05-08T13:05:44Z,2024-05-30T03:38:54+00:00,3,518.55,False,103,4,8,304,7,6,13,CLOSED
+44482,[iOS] Fixes rn-tester bundled images examples,zhongwuzw,2024-05-08T10:31:09Z,2024-11-12T12:24:30+00:00,1,4513.89,False,5,28,7,146,6,0,6,CLOSED
+44474,feat: move notifying observers to event dispatcher,WoLewicki,2024-05-08T08:36:14Z,2024-06-07T10:20:03+00:00,1,721.73,False,19,33,4,1799,15,0,15,CLOSED
+44472,docs(react-native): fix app build.gradle react config default paths,monholm,2024-05-08T07:24:56Z,2024-05-08T09:32:39+00:00,1,2.13,False,8,8,1,759,3,0,3,CLOSED
+44441,Decouple DevInternalSettings from DevSupportManagerBase,Kudo,2024-05-07T12:12:51Z,2024-06-06T19:19:47+00:00,1,727.12,False,73,53,5,623,12,1,13,CLOSED
+44434,chore: update Gemfile in template,matinzd,2024-05-07T06:38:48Z,2024-05-07T12:44:42+00:00,1,6.1,False,3,4,1,404,6,0,6,CLOSED
+44426,Fix inspector reporting wrong frames when using `DrawerLayoutAndroid` on the new arch,j-piasecki,2024-05-06T15:15:25Z,2024-06-03T07:35:27+00:00,7,664.33,False,298,3,12,652,2,5,7,CLOSED
+44417,chore: Increase iOS script portability,legobeat,2024-05-05T23:41:56Z,2024-05-20T13:43:55+00:00,1,350.03,False,12,3,2,585,12,0,12,CLOSED
+44336,fix fetch memory leak,huzhanbo1996,2024-04-30T15:36:33Z,2024-05-10T03:01:27+00:00,4,227.41,False,63,4,7,503,9,1,10,CLOSED
+44335,Fix Application always in light mode on initial load. ,filip131311,2024-04-30T13:17:57Z,2024-06-07T08:07:32+00:00,3,906.83,False,12,0,1,1153,13,0,13,CLOSED
+44332,Avoid calling abstract methods in RCTComposedViewRegistry,cipolleschi,2024-04-30T12:10:27Z,2024-05-01T13:32:41+00:00,1,25.37,False,4,5,1,786,1,1,2,CLOSED
+44311,fix: Fix missing space,mrousavy,2024-04-29T12:07:04Z,2024-04-29T16:25:20+00:00,1,4.3,False,1,1,1,895,3,0,3,CLOSED
+44307,fix (iOS): fix `selectTextOnFocus` in Fabric and non-Fabric by calling `selectAll` after `becomeFirstResponder`,haileyok,2024-04-29T06:52:37Z,2024-06-18T15:50:43+00:00,3,1208.97,False,20,20,2,1071,7,1,8,CLOSED
+44287,Improve heuristic that triggers onStartReached,janicduplessis,2024-04-26T15:32:02Z,2024-11-10T05:24:38+00:00,2,4741.88,False,5,6,1,1311,4,1,5,CLOSED
+44271,[iOS] Remove _logWarnIfCreateRootViewWithBridgeIsOverridden,zhongwuzw,2024-04-26T07:38:26Z,2024-05-20T10:34:31+00:00,2,578.93,False,0,16,1,147,5,1,6,CLOSED
+44270,Add missing `remove` method to `addEventListener` Jest mocks,levibuzolic,2024-04-26T05:56:03Z,2024-06-08T18:02:38+00:00,1,1044.11,False,6,2,1,474,5,0,5,CLOSED
+44244,chore(dev-middleware): add `localhost` as default host in `start` command config,szymonrybczak,2024-04-24T20:19:24Z,2024-04-25T10:07:02+00:00,2,13.79,False,4,5,2,451,7,0,7,CLOSED
+44243,Optimize runtime initialization for native components with memoization,admirsaheta,2024-04-24T19:50:52Z,2024-07-10T12:40:53+00:00,1,1840.83,False,0,0,0,636,10,0,10,CLOSED
+44228,Fix BackHandle undefined cause crash issue,Iseektruth,2024-04-24T02:17:19Z,2024-10-29T05:14:08+00:00,1,4514.95,False,1,1,1,256,4,0,4,CLOSED
+44223,fix ReactActivity.getReactDelegate().reload(),Kudo,2024-04-23T18:28:03Z,2024-05-01T22:27:27+00:00,13,195.99,False,22,9,1,1725,5,2,7,CLOSED
+44214,Implement privacy manifest aggregation,aleqsio,2024-04-23T15:31:06Z,2024-05-01T01:23:18+00:00,9,177.87,False,170,40,3,1021,8,11,19,CLOSED
+44185,Fix Symbol not found: (_JSGlobalContextSetInspectable),cipolleschi,2024-04-22T17:07:04Z,2024-04-22T21:03:19+00:00,4,3.94,False,2,0,1,364,5,1,6,CLOSED
+44168,Fix inverted flat list,kosmydel,2024-04-19T15:41:58Z,2024-06-12T23:23:16+00:00,10,1303.69,False,8,6,3,1239,30,4,34,CLOSED
+44165,Fix font scaling when `numberOfLines` is not set on Android on the new arch,j-piasecki,2024-04-19T10:32:49Z,2024-04-22T11:18:33+00:00,1,72.76,False,1,0,1,3747,5,1,6,CLOSED
+44163,Don't enlarge font when `adjustFontSizeToFit` is set on iOS on the new architecture,j-piasecki,2024-04-19T10:06:56Z,2024-04-19T17:24:35+00:00,1,7.29,False,5,0,1,3810,5,0,5,CLOSED
+44158,[iOS] Bridgeless: Expose host delegate methods,zhongwuzw,2024-04-19T07:39:58Z,2024-05-29T15:19:10+00:00,2,967.65,False,74,3,3,212,5,0,5,CLOSED
+44148,"enhanced/refactor ScrollIndicator visibility props for ScrollView, FlatList, SectionList.",Chandravardhan8998,2024-04-18T15:42:38Z,2024-10-23T05:14:06+00:00,1,4501.52,False,39,13,8,952,7,0,7,CLOSED
+44146,Fix `textAlign` with inline views on the new architecture on Android,j-piasecki,2024-04-18T15:17:40Z,2024-04-26T13:59:02+00:00,25,190.69,False,93,17,3,1819,10,5,15,CLOSED
+44112,[iOS] Fabric: Add font variant support,zhongwuzw,2024-04-16T11:00:15Z,2024-04-16T15:58:34+00:00,1,4.97,False,47,2,1,115,5,0,5,CLOSED
+44075,Add implementation of `adjustsFontSizeToFit` on the new architecture on Android,j-piasecki,2024-04-15T09:51:02Z,2024-04-17T16:02:41+00:00,7,54.19,False,180,12,8,523,10,6,16,CLOSED
+44033,Fix missing setLeftTopRightBottom method,mmmoussa,2024-04-10T20:58:04Z,2024-04-11T11:34:25+00:00,1,14.61,False,4,1,1,492,5,0,5,CLOSED
+44032,convert circleci mac and ios workflows to github actions,robandpdx,2024-04-10T20:54:32Z,2024-04-26T09:55:53+00:00,18,373.02,False,626,0,6,297,4,10,14,CLOSED
+43976,[iOS] Change bridgeless check in dev menu,zhongwuzw,2024-04-08T15:51:23Z,2024-04-12T17:02:14+00:00,1,97.18,False,1,1,1,291,3,0,3,CLOSED
+43971,Fix Orientation listener in bridgeless mode,cipolleschi,2024-04-08T13:56:21Z,2024-04-09T15:03:50+00:00,3,25.12,False,6,0,1,494,5,1,6,CLOSED
+43949,delete deprecated Xcode version check,naxey,2024-04-06T16:15:34Z,2024-04-12T09:52:57+00:00,1,137.62,False,1,13,1,576,6,0,6,CLOSED
+43945,[Fabric] img events fixes for ios and android,netmaxt3r,2024-04-05T22:09:59Z,2024-04-24T23:32:08+00:00,11,457.37,False,118,37,15,453,8,7,15,CLOSED
+43850,[iOS] Fix RCTRCTComposedViewRegistry for Old Arch by adding count and keyEnumerator,cipolleschi,2024-04-04T12:38:40Z,2024-04-04T15:42:50+00:00,1,3.07,False,10,0,1,364,4,0,4,CLOSED
+43846,[RN][iOS] Fix static linking for Bridgeless mode,cipolleschi,2024-04-04T11:20:50Z,2024-04-04T15:11:48+00:00,1,3.85,False,2,2,2,627,4,0,4,CLOSED
+43780,fix: build settings for custom build configuration,jblarriviere,2024-04-02T15:52:06Z,2024-04-03T11:49:08+00:00,3,19.95,False,1,1,1,474,2,1,3,CLOSED
+43757,[iOS] Support launchOptions in bridgeless mode,zhongwuzw,2024-04-02T08:11:57Z,2024-04-08T12:26:44+00:00,9,148.25,False,28,12,8,363,5,1,6,CLOSED
+43756,Replace outdated Prettier settings with recommended ones,gaearon,2024-04-02T03:39:48Z,2024-04-04T06:43:43+00:00,4,51.07,False,1,2,2,1490,4,1,5,CLOSED
+43751,Updated NewAppScreen,alexanderblackh,2024-04-01T23:54:52Z,2024-10-07T05:01:25+00:00,1,4517.11,False,86,38,4,686,4,3,7,CLOSED
+43738,Kotlinify ViewDefaults.kt,fabriziocucci,2024-04-01T10:22:40Z,2024-04-02T09:52:33+00:00,1,23.5,False,15,19,2,88,2,1,3,CLOSED
+43737,[iOS] Remove invalidate observer instead of re-adding observer in DeviceInfo module,zhongwuzw,2024-04-01T07:53:55Z,2024-04-04T14:38:28+00:00,1,78.74,False,5,5,2,294,3,0,3,CLOSED
+43734,Migrate ViewProps.java to Kotlin,rshest,2024-04-01T00:18:40Z,2024-04-03T13:01:00+00:00,1,60.71,False,1138,1321,32,82,5,1,6,CLOSED
+43726,[IOS]: Update Fabric Code Clarity,admirsaheta,2024-03-31T20:17:32Z,2024-04-24T19:37:49+00:00,1,575.34,False,181,199,2,1151,1,0,1,CLOSED
+43712,fix: version checker not considering nightlies,tido64,2024-03-29T08:20:44Z,2024-04-01T19:45:43+00:00,2,83.42,False,6,1,1,399,3,1,4,CLOSED
+43675,feat: Add `TurboModuleRegistry.getLazy<T>(..)`,mrousavy,2024-03-27T12:29:04Z,2024-04-30T14:28:17+00:00,2,817.99,False,21,2,4,1013,0,1,1,CLOSED
+43656,fix: remove loadSourceForBridge in RCTRootViewFactory,okwasniewski,2024-03-26T14:31:12Z,2024-04-02T13:51:43+00:00,1,167.34,False,4,51,3,3123,5,0,5,CLOSED
+43650,fix: Fix typo in error message,mrousavy,2024-03-26T09:48:30Z,2024-03-26T17:54:17+00:00,1,8.1,False,1,1,1,186,3,0,3,CLOSED
+43649,fix: add missing fields to native errors in new arch,vonovak,2024-03-26T08:27:44Z,2024-04-04T19:15:46+00:00,3,226.8,False,4,1,1,6791,6,1,7,CLOSED
+43644,convert circleci workflows to github actions for android build and test,robandpdx,2024-03-25T21:57:42Z,2024-04-02T11:26:43+00:00,11,181.48,False,223,0,3,251,6,11,17,CLOSED
+43620,Add ReactMarkerConstants.CONTENT_APPEARED support on Android,Kudo,2024-03-22T16:57:26Z,2024-06-13T11:01:38+00:00,12,1986.07,False,7,5,3,468,13,4,17,CLOSED
+43608,Include boost headers needed by `rrc_text` and `rrc_textinput`,j-piasecki,2024-03-22T11:17:20Z,2024-03-22T15:03:47+00:00,2,3.77,False,20,0,1,233,4,1,5,CLOSED
+43602,Delete useless local-cli dir,chenlong12580,2024-03-22T07:51:56Z,2024-03-25T11:32:51+00:00,1,75.68,False,0,20,3,148,4,0,4,CLOSED
+43591,Fix prefab header paths for `rrc_text` and `rrc_textinput`,j-piasecki,2024-03-21T11:01:48Z,2024-03-21T18:41:54+00:00,3,7.67,False,14,6,1,271,3,1,4,CLOSED
+43590,feat: allow use of RCTRootViewFactory from Swift,okwasniewski,2024-03-21T09:23:24Z,2024-04-12T16:24:54+00:00,2,535.02,False,7,0,2,1682,7,0,7,CLOSED
+43582,Upgrade `@react-native-community/cli` to 13.6.3,szymonrybczak,2024-03-20T19:58:52Z,2024-03-27T16:16:00+00:00,1,164.29,False,76,76,3,192,3,0,3,CLOSED
+43567,[Android] Add onUserLeaveHint support to ReactActivityDelegate #43488,behenate,2024-03-20T10:23:34Z,2024-03-20T17:40:56+00:00,1,7.29,False,72,0,9,956,4,0,4,CLOSED
+43559,fix(dev-middleware): create custom message handler for synthetic page,byCedric,2024-03-19T16:54:17Z,2024-03-20T17:40:55+00:00,4,24.78,False,102,9,2,605,2,1,3,CLOSED
+43528,Improve reusability for RCTRootViewFactory,Kudo,2024-03-18T16:29:49Z,2024-04-19T13:17:25+00:00,4,764.79,False,23,13,2,532,6,1,7,CLOSED
+43526,fix(iOS): add missing forward blocks to RCTRootViewFactory,okwasniewski,2024-03-18T12:55:11Z,2024-03-21T22:33:59+00:00,9,81.65,False,133,0,3,436,7,4,11,CLOSED
+43524,Migrate back to chromium-edge-launcher since Windows fix was merged,tido64,2024-03-18T07:43:21Z,2024-03-18T17:50:18+00:00,1,10.12,False,15,15,4,191,6,0,6,CLOSED
+43509,Add @types/react as optional peerDependency on packages that use it,acoates-ms,2024-03-15T16:15:12Z,2024-03-25T19:26:28+00:00,3,243.19,False,25,7,6,638,4,2,6,CLOSED
+43502,[Fabric] iOS: Change image source url encode ascii to utf8,zhongwuzw,2024-03-15T08:54:26Z,2024-03-15T13:21:37+00:00,1,4.45,False,2,2,1,163,4,0,4,CLOSED
+43480,[Text-Input][Android][Fix]-fixes scroll on first render of textinput with default Value,Biki-das,2024-03-14T11:44:31Z,2025-08-21T05:36:06+00:00,2,12593.86,False,13,1,3,1253,14,2,16,CLOSED
+43445,[Fabric] iOS: Fixes textinput onscroll event payload,zhongwuzw,2024-03-12T16:17:10Z,2024-03-14T15:39:05+00:00,4,47.37,False,50,1,1,481,3,1,4,CLOSED
+43435,[Animated API Example] : - added combining animted values example to the animated api example list,Biki-das,2024-03-12T14:21:43Z,2024-04-10T18:01:29+00:00,1,699.66,False,92,0,2,352,8,0,8,CLOSED
+43425,Fix maintainVisibleContentPosition on Android during momentum scroll,janicduplessis,2024-03-12T03:11:52Z,2024-03-15T03:07:01+00:00,3,71.92,False,88,16,4,2558,5,2,7,CLOSED
+43423,change: replace twitter with x,kolyaVV,2024-03-11T23:25:37Z,2024-03-13T19:08:38+00:00,3,43.72,False,3,3,1,331,4,1,5,CLOSED
+43412,Changelog: 0.73.6,hurali97,2024-03-11T14:52:20Z,2024-03-11T17:23:59+00:00,1,2.53,False,17,0,1,74,3,0,3,CLOSED
+43389,Add conditional return in `handleRemoveView`,bartlomiejbloniarz,2024-03-08T15:52:30Z,2024-03-14T14:32:06+00:00,2,142.66,False,3,0,1,926,7,1,8,CLOSED
+43381,Expose `react_render_textlayoutmanager` via prefab,tomekzaw,2024-03-08T09:38:54Z,2024-03-08T12:36:53+00:00,1,2.97,False,12,0,2,294,4,0,4,CLOSED
+43362,feat(iOS): add all supported ReturnKeyTypes,elencho,2024-03-07T10:40:04Z,2024-06-06T16:26:44+00:00,3,2189.78,False,149,30,2,508,23,1,24,CLOSED
+43351,Support onActivityResult in Bridgeless,arushikesarwani94,2024-03-06T16:35:39Z,2024-03-06T21:26:10+00:00,2,4.84,False,44,1,4,113,7,1,8,CLOSED
+43345,[RN][iOS][0.71] Fix flipper for Xcode 15.3,cipolleschi,2024-03-06T14:08:50Z,2024-04-02T12:56:14+00:00,1,646.79,True,567,545,3,543,5,0,5,MERGED
+43344,[RN][iOS][0.72] Fix flipper for Xcode 15.3,cipolleschi,2024-03-06T14:02:22Z,2024-03-07T22:14:13+00:00,4,32.2,True,485,462,3,543,1,3,4,MERGED
+43341,[RN][iOS] Fix flipper for Xcode 15.3,cipolleschi,2024-03-06T13:54:21Z,2024-03-07T06:56:53+00:00,4,17.04,True,251,27,3,539,2,1,3,MERGED
+43339,Allow importing RCTAppDelegate in Swift,okwasniewski,2024-03-06T13:10:06Z,2024-03-06T14:56:51+00:00,1,1.78,False,5,14,3,534,3,0,3,CLOSED
+43331,fix: add compiler conditional to hover style,okwasniewski,2024-03-05T14:59:19Z,2024-03-05T16:03:12+00:00,2,1.06,False,4,0,2,887,3,1,4,CLOSED
+43307,fix(dev-middleware): allow inspector proxy to fetch sourcemaps on lan connections,byCedric,2024-03-04T12:50:34Z,2024-03-11T10:54:43+00:00,2,166.07,False,0,4,1,660,3,0,3,CLOSED
+43303,[RN][iOS] Adjust InputAccessoryView width to match device width within Safe Area constraints,mauriciomeirelles,2024-03-04T08:48:05Z,2024-06-11T16:26:56+00:00,2,2383.65,False,43,7,4,894,12,1,13,CLOSED
+43297,feat: RCTConvert to support UIModalPresentationStyle,vonovak,2024-03-02T11:27:22Z,2024-03-08T02:10:47+00:00,3,134.72,False,12,21,4,909,5,1,6,CLOSED
+43291,feature(dev-middleware): add custom message handlers to extend CDP capabilities,byCedric,2024-03-01T19:29:25Z,2024-03-12T17:09:27+00:00,29,261.67,False,466,14,6,1956,3,17,20,CLOSED
+43275,Expose `rrc_text` via prefab,tomekzaw,2024-03-01T16:10:03Z,2024-03-06T11:59:14+00:00,1,115.82,False,9,0,2,250,7,0,7,CLOSED
+43274,Expose `rrc_textinput` via prefab,tomekzaw,2024-03-01T15:17:35Z,2024-03-04T12:28:06+00:00,1,69.18,False,9,0,2,260,5,0,5,CLOSED
+43262,fix(iOS): add extended check for content type application/javascript,jayshah123,2024-03-01T06:13:02Z,2024-03-01T13:05:08+00:00,1,6.87,False,4,2,1,429,2,0,2,CLOSED
+43246,[RN][iOS]Rename BUILD_FROM_SOURCE to RCT_BUILD_HERMES_FROM_SOURCE,cipolleschi,2024-02-29T10:32:59Z,2024-03-06T17:03:43+00:00,1,150.51,True,6,5,3,579,1,0,1,MERGED
+43219,Undo moving of TurboModule to internal and expose utility function for TurboModule.class.isAssignableFrom,cortinico,2024-02-27T23:03:16Z,2024-02-29T18:28:47+00:00,4,43.43,False,107,68,23,482,4,1,5,CLOSED
+43218,refactor: Use `std::string_view` for prop conversions,Saadnajmi,2024-02-27T21:35:03Z,2024-05-03T20:57:53+00:00,4,1583.38,False,48,48,9,382,2,2,4,CLOSED
+43197,[Android] update scroll views to support wide gamut color,ryanlntn,2024-02-26T17:50:27Z,2025-08-21T05:26:39+00:00,3,12995.6,False,36,31,4,497,7,2,9,CLOSED
+43195,Allow the app to control the Activity Indicator in Bridgeless mode,cipolleschi,2024-02-26T12:01:17Z,2024-03-05T17:42:37+00:00,1,197.69,False,24,2,2,898,13,2,15,CLOSED
+43193,feat(android): percentage support in translate,intergalacticspacehighway,2024-02-25T14:19:08Z,2024-05-24T12:31:33+00:00,5,2134.21,False,46,15,2,426,5,4,9,CLOSED
+43192,feat(iOS/fabric): percentage support in translate,intergalacticspacehighway,2024-02-25T14:17:47Z,2024-05-17T02:38:59+00:00,14,1956.35,False,230,83,15,763,19,12,31,CLOSED
+43191,feat(iOS/paper): percentage support in translate,intergalacticspacehighway,2024-02-25T14:17:11Z,2024-08-09T22:42:47+00:00,4,3992.43,False,181,109,9,346,1,3,4,CLOSED
+43188,fix(ios) use condensed system font,shidoro,2024-02-24T18:06:31Z,2024-05-15T12:19:39+00:00,3,1938.22,False,6,1,1,757,6,2,8,CLOSED
+43147,fix(iOS) [0.74]: RCTRedBox not appearing in Bridgeless when metro is not running,okwasniewski,2024-02-22T12:50:40Z,2024-03-08T12:58:50+00:00,5,360.14,False,48,8,2,654,6,2,8,CLOSED
+43146,fix(iOS) [0.74]: properly warn about createRootViewWithBridge,okwasniewski,2024-02-22T10:37:09Z,2024-02-28T16:42:30+00:00,2,150.09,False,1,1,1,772,8,0,8,CLOSED
+43141,fix flatlist props being undefined in ios,dieguezz,2024-02-22T03:15:13Z,2024-02-22T17:14:00+00:00,1,13.98,False,0,1,1,338,7,0,7,CLOSED
+43131,fix(android): fix `ndkVersion` is unset when building from source,tido64,2024-02-21T15:23:13Z,2024-02-21T18:18:34+00:00,1,2.92,False,2,0,1,618,5,0,5,CLOSED
+43128,[RN][Release] Fix release testing script,cipolleschi,2024-02-21T13:21:26Z,2024-02-21T17:55:37+00:00,2,4.57,True,33,21,2,429,1,0,1,MERGED
+43127,feat(cli): warn underlying command when using `npx react-native init`,byCedric,2024-02-21T13:13:06Z,2024-02-24T10:22:35+00:00,2,69.16,False,13,0,1,811,3,1,4,CLOSED
+43110,Add installJSIBindings for turbo modules on android,Kudo,2024-02-20T14:10:47Z,2024-02-28T17:08:45+00:00,5,194.97,False,209,4,15,340,2,3,5,CLOSED
+43102,fix(iOS): fix rendering `RCTRedBoxExtraData`,krozniata,2024-02-19T20:19:00Z,2024-06-28T13:02:43+00:00,3,3112.73,False,103,90,1,459,8,2,10,CLOSED
+43093,Bump CLI to 13.6.0,szymonrybczak,2024-02-19T14:51:04Z,2024-02-20T15:10:35+00:00,1,24.33,False,92,87,3,101,3,0,3,CLOSED
+43080,Fix compatibility issue with 'cp' command in shell script.,sebastiancarlos,2024-02-18T17:06:14Z,2024-05-14T18:24:26+00:00,3,2065.3,False,10,1,1,1412,6,1,7,CLOSED
+43078,feat(iOS): Implement cursor style prop,Saadnajmi,2024-02-18T09:27:29Z,2024-03-05T02:55:55+00:00,11,377.47,False,263,1,18,1479,17,5,22,CLOSED
+43068,Add react-native-test-library package,dmytrorykun,2024-02-16T14:40:02Z,2024-04-09T18:46:03+00:00,2,1276.1,False,2076,0,59,552,14,1,15,CLOSED
+43058,fix(iOS): remove deprecated method from RCTPerfMonitor & fix position,krozniata,2024-02-16T01:18:36Z,2024-07-08T11:08:58+00:00,1,3441.84,False,5,6,1,635,7,0,7,CLOSED
+43052,add 'unset' to DimensionValue type,SaadAhmadSaddiqui,2024-02-15T21:01:35Z,2024-08-21T05:13:47+00:00,1,4496.2,False,1,0,1,290,6,0,6,CLOSED
+43049,Hook the default-app-setup OnLoad.cpp file with the cxxModuleProvider from RNCLI,cortinico,2024-02-15T18:11:00Z,2024-02-20T16:35:48+00:00,4,118.41,False,102,89,4,356,6,1,7,CLOSED
+43030,[Android] MapBuffer long support,ryanlntn,2024-02-14T18:22:23Z,2024-02-28T01:39:24+00:00,5,319.28,False,91,2,8,483,5,4,9,CLOSED
+43026,refactor: supportedInterfaceOrientations method to use RCTKeyWindow(),okwasniewski,2024-02-14T15:54:37Z,2024-06-27T15:03:27+00:00,1,3215.15,False,2,2,2,242,4,0,4,CLOSED
+43012,build backwards compat API for runtime pointer,philIip,2024-02-14T07:00:02Z,2024-02-15T03:06:12+00:00,2,20.1,False,61,12,10,576,9,2,11,CLOSED
+42991,[0.73-stable] Cherry-pick improvements to monorepo publish script,huntie,2024-02-13T11:22:33Z,2024-02-19T11:27:39+00:00,3,144.09,True,523,166,8,545,2,1,3,MERGED
+42979,add privacy manifest to pod install,philIip,2024-02-13T02:42:55Z,2024-04-10T04:13:04+00:00,5,1369.5,False,87,1,5,157,7,2,9,CLOSED
+42969,Remove unused `isPressable` text attribute,cubuspl42,2024-02-12T16:17:21Z,2024-02-16T09:07:33+00:00,1,88.84,False,0,19,3,135,4,0,4,CLOSED
+42952,chore: Bump actions/checkout,m-nakamura145,2024-02-10T09:42:37Z,2024-02-12T10:18:21+00:00,1,48.6,False,7,7,6,268,3,0,3,CLOSED
+42947,fix(virtualized-lists): declare missing `react` peer dependency,jbroma,2024-02-09T18:04:46Z,2024-02-11T01:07:42+00:00,1,31.05,False,1,0,1,368,3,0,3,CLOSED
+42943,fix: fix codegen not finding all third-party libraries,tido64,2024-02-09T13:13:05Z,2024-02-19T10:59:51+00:00,2,237.78,True,18,11,1,1321,8,0,8,MERGED
+42931,convert circleci workflows to github actions,robandpdx,2024-02-08T19:03:45Z,2024-09-23T08:12:16+00:00,2,5461.14,False,1078,0,9,717,20,6,26,CLOSED
+42909,Update tsconfig to not run on files inside Pods,bartlomein,2024-02-07T12:56:59Z,2024-02-09T02:09:54+00:00,1,37.22,False,4,1,1,191,6,0,6,CLOSED
+42907,fix(dev-middleware): fix `react-native config` failing in pnpm setups,tido64,2024-02-07T11:54:06Z,2024-02-07T15:22:43+00:00,1,3.48,False,2,1,1,370,3,0,3,CLOSED
+42902,Fix onStartReached not called when list content is small,janicduplessis,2024-02-06T21:08:55Z,2024-02-08T04:49:59+00:00,1,31.68,False,6,8,1,2406,3,0,3,CLOSED
+42895,feature: Update `Image.getSize/getSizeWithHeaders ` methods to return a promise,retyui,2024-02-06T16:36:14Z,2024-02-27T09:58:52+00:00,3,497.38,False,74,30,7,1012,7,1,8,CLOSED
+42891,fix: PerfMonitor option not showing on iOS (Bridgeless),okwasniewski,2024-02-06T12:21:14Z,2024-02-15T17:18:51+00:00,5,220.96,False,8,8,2,370,2,2,4,CLOSED
+42882,introduce native api to access RuntimeExecutor,philIip,2024-02-06T08:06:27Z,2024-02-09T02:18:29+00:00,5,66.2,False,37,3,4,867,8,4,12,CLOSED
+42875,fix: cannot find module `react-native-*/Libraries/Core/InitializeCore`,tido64,2024-02-05T15:10:43Z,2024-02-05T18:03:07+00:00,1,2.87,False,1,0,1,566,3,0,3,CLOSED
+42830,[iOS] Add basic DisplayP3 color support,ryanlntn,2024-02-03T03:05:37Z,2024-02-27T13:22:25+00:00,2,586.28,False,118,9,8,983,6,2,8,CLOSED
+42819,fix: [Codegen] log supported apple platforms if there are any,okwasniewski,2024-02-02T14:55:37Z,2024-02-08T17:58:00+00:00,1,147.04,False,10,4,1,328,11,0,11,CLOSED
+42788,feat(iOS): add support for missing text content types,krozniata,2024-02-01T16:24:49Z,2024-08-23T16:25:54+00:00,3,4896.02,False,47,4,7,264,8,1,9,CLOSED
+42787,[Android] Fixes Android compile failed.,zhongwuzw,2024-02-01T15:26:16Z,2024-02-01T16:38:22+00:00,1,1.2,False,1,1,1,100,3,0,3,CLOSED
+42786,[iOS] Resolving case sensitivity issue in header file import,zhongwuzw,2024-02-01T15:10:00Z,2024-02-19T12:49:12+00:00,1,429.65,False,1,1,1,155,3,0,3,CLOSED
+42785,fix: add missing `target` property in `LayoutChangeEvent`,kirillzyusko,2024-02-01T13:15:39Z,2024-06-25T08:58:34+00:00,1,3475.72,False,4,1,1,379,16,0,16,CLOSED
+42780,[iOS] Fabric: make built-in components recycle optional,zhongwuzw,2024-02-01T08:12:09Z,2024-08-07T13:03:23+00:00,2,4516.85,False,56,0,20,344,8,1,9,CLOSED
+42770,Fix featureflags c++ library loading on Android,Almouro,2024-01-31T15:18:27Z,2024-02-01T14:46:52+00:00,1,23.47,False,3,3,2,451,6,0,6,CLOSED
+42768,Picking: 'Fix incorrect values for modal sizing',cortinico,2024-01-31T14:58:33Z,2024-06-10T13:07:07+00:00,2,3142.14,False,13,2,1,475,2,1,3,CLOSED
+42759,Changelog: 0.71.16,hurali97,2024-01-31T07:46:59Z,2024-01-31T15:31:45+00:00,2,7.75,False,19,0,1,74,2,2,4,CLOSED
+42758,introduce native api to access RuntimeExecutor,philIip,2024-01-31T07:43:00Z,2024-02-06T12:01:04+00:00,4,148.3,False,115,2,6,1043,23,2,25,CLOSED
+42756,[RNTester] Correctly specify react-native dependency (yarn classic),Saadnajmi,2024-01-31T06:33:13Z,2024-02-18T03:02:27+00:00,8,428.49,False,28,5,4,1616,4,4,8,CLOSED
+42741,[Android] Add `onUserLeaveHint` support to ReactActivityDelegate,behenate,2024-01-30T16:43:11Z,2024-02-01T17:13:08+00:00,5,48.5,False,85,0,9,756,6,2,8,CLOSED
+42739,[iOS] Fixes root view's background color in bridgeless mode,zhongwuzw,2024-01-30T15:31:50Z,2024-01-31T11:32:27+00:00,2,20.01,False,1,0,1,295,5,0,5,CLOSED
+42737,[Fabric] Fixes semantic color not work when dark mode changed,zhongwuzw,2024-01-30T15:00:52Z,2024-01-30T17:33:22+00:00,1,2.54,False,12,5,3,428,3,0,3,CLOSED
+42734,[RN][iOS] Fix warning when loading RCTUIManager and A11yManager,cipolleschi,2024-01-30T13:43:05Z,2024-02-04T20:09:25+00:00,1,126.44,True,10,5,1,1030,3,0,3,MERGED
+42706,Cherry-picking 'Avoid using Cocoapods 1.15 until it fixes an issue affection RN. (#42702)' onto 0.71,hurali97,2024-01-29T14:39:20Z,2024-01-29T15:50:52+00:00,2,1.19,True,550,550,4,203,0,0,0,MERGED
+42704,Extract the typeface-finding logic to `findEffectiveTypeface`,cubuspl42,2024-01-29T11:52:24Z,2024-08-28T05:01:10+00:00,11,5081.15,False,92,37,5,192,4,1,5,CLOSED
+42703,Do not serialize text attributes that are not used later,cubuspl42,2024-01-29T11:34:32Z,2024-08-14T06:50:56+00:00,5,4747.27,False,0,89,3,167,6,1,7,CLOSED
+42701,Refactor `TextFragmentList` into `AttributedString`,cubuspl42,2024-01-29T11:09:57Z,2024-08-28T05:01:09+00:00,1,5081.85,False,97,88,12,241,25,1,26,CLOSED
+42700,`CustomStyleSpan`: Move the class comment,cubuspl42,2024-01-29T10:47:44Z,2024-01-31T23:05:43+00:00,1,60.3,False,11,12,1,150,3,0,3,CLOSED
+42696,fix: community cli plugin homepage url in package.json,hoonjoo-park,2024-01-28T09:20:41Z,2024-01-29T15:45:14+00:00,3,30.41,False,1,1,1,221,5,1,6,CLOSED
+42691,fix: update error message to use `npx` when calling `react-native`,szymonrybczak,2024-01-27T14:21:41Z,2024-01-29T15:40:39+00:00,1,49.32,False,1,1,1,190,2,0,2,CLOSED
+42671,fix: [TS] Update `translateX` & `translateY` types to support `%`,retyui,2024-01-25T20:27:33Z,2024-01-30T15:16:09+00:00,1,114.81,False,2,2,1,564,7,0,7,CLOSED
+42664,fix: restore proper event dispatch order on Fabric,WoLewicki,2024-01-25T15:41:35Z,2024-01-26T20:45:24+00:00,2,29.06,False,1,1,1,2799,7,0,7,CLOSED
+42662,Cherry-picking 'Call super.onRequestPermissionsResult in ReactActivity (#42478)' onto 0.71,cortinico,2024-01-25T13:53:59Z,2024-01-26T06:30:42+00:00,1,16.61,True,1,0,1,442,1,0,1,MERGED
+42644,Add react-native-test-renderer package,jackpope,2024-01-24T17:33:23Z,2024-01-30T20:58:57+00:00,1,147.43,False,2116,16,11,1085,4,1,5,CLOSED
+42642,Remove RCTAppSetupPrepareApp overload and InspectorFlags call,huntie,2024-01-24T17:14:57Z,2024-02-13T10:16:13+00:00,2,473.02,False,2,32,4,318,12,1,13,CLOSED
+42637,[ios] Remove ATS config patch from react_native_post_install,gabrieldonadel,2024-01-24T15:37:24Z,2024-01-25T10:12:05+00:00,1,18.58,False,1,91,3,490,3,0,3,CLOSED
+42634,fix: UpdatePropertiesExampleView mutate existing appProperties instead of overwriting,okwasniewski,2024-01-24T14:58:57Z,2024-02-07T15:41:09+00:00,1,336.7,False,5,1,1,675,4,0,4,CLOSED
+42633,chore: cleanup in AppDelegate of RNTester,okwasniewski,2024-01-24T14:46:19Z,2024-01-25T16:29:15+00:00,5,25.72,False,5,9,1,230,2,2,4,CLOSED
+42617,Unify codepath for retrieveing metro location on Android,kmagiera,2024-01-23T13:56:38Z,2024-01-25T10:33:58+00:00,2,44.62,False,2,27,6,2539,5,0,5,CLOSED
+42601,Make Modal's `onDismiss` work on Fabric.,cipolleschi,2024-01-22T16:29:43Z,2024-02-08T10:26:34+00:00,1,401.95,False,42,9,1,1629,21,1,22,CLOSED
+42598,Clean up the function naming in `TextMeasureCache.h`,cubuspl42,2024-01-22T15:48:14Z,2024-01-23T17:03:58+00:00,2,25.26,False,4,4,1,342,5,2,7,CLOSED
+42597,Extract fragment conversions to separate functions,cubuspl42,2024-01-22T15:47:18Z,2024-01-23T08:53:50+00:00,1,17.11,False,40,34,1,376,7,0,7,CLOSED
+42596,De-duplicate the logic for counting attachments,cubuspl42,2024-01-22T15:46:11Z,2024-02-20T12:12:14+00:00,16,692.43,False,18,16,1,270,8,6,14,CLOSED
+42595,`RCTAttributedTextUtils.mm`: Split `NSAttributedString` creation,cubuspl42,2024-01-22T15:45:28Z,2024-01-25T13:12:59+00:00,1,69.46,False,51,36,1,355,6,0,6,CLOSED
+42594,Move all `ReactSpan` subclasses to a separate folder,cubuspl42,2024-01-22T15:43:31Z,2024-01-26T20:03:48+00:00,3,100.34,False,114,39,28,360,22,1,23,CLOSED
+42593,`TextLayoutUtils`: Use named arguments,cubuspl42,2024-01-22T15:42:08Z,2024-01-25T10:53:12+00:00,1,67.18,False,120,37,1,255,3,0,3,CLOSED
+42592,`CustomLineHeightSpan`: Increase the readability,cubuspl42,2024-01-22T15:39:36Z,2024-01-25T12:45:18+00:00,2,69.09,False,7,4,1,412,4,1,5,CLOSED
+42591,Enable DEFINES_MODULE for DoubleConversion,Kudo,2024-01-22T15:30:35Z,2024-01-25T10:17:26+00:00,1,66.78,False,4,0,1,1369,2,0,2,CLOSED
+42478,Call super.onRequestPermissionsResult in ReactActivity,LimAlbert,2024-01-21T11:16:49Z,2024-01-22T13:25:52+00:00,1,26.15,False,1,0,1,340,5,0,5,CLOSED
+42435,"Fixes(SectionList) component preventing element unmounting, when sepe…",Biki-das,2024-01-20T19:49:47Z,2024-02-28T10:18:54+00:00,5,926.49,False,306,339,4,11380,6,1,7,CLOSED
+42401,🚑 hotfix Flatlist bug Cannot read property 'getItem' of undefined,a-tokyo,2024-01-19T18:51:03Z,2024-01-21T23:39:10+00:00,1,52.8,False,1,0,1,392,4,0,4,CLOSED
+42375,Remove ineffective excludes from typescript-config,friederbluemle,2024-01-19T05:17:48Z,2024-01-19T18:03:51+00:00,1,12.77,False,1,7,1,1014,3,0,3,CLOSED
+42362,Undo move of CallInvokerHolder to `.internal`,cortinico,2024-01-18T16:18:19Z,2024-01-19T14:22:17+00:00,1,22.07,False,19,14,9,627,9,0,9,CLOSED
+42354,fix: singletonMap for module events,WoLewicki,2024-01-18T10:55:48Z,2024-06-11T19:23:51+00:00,4,3488.47,False,5,0,1,661,5,1,6,CLOSED
+42333,feat: add `--custom-resolver-options` to `bundle` command,szymonrybczak,2024-01-17T14:09:06Z,2024-01-18T12:56:22+00:00,3,22.79,False,14,0,2,387,3,2,5,CLOSED
+42332,Remove linting step from dangerfile,motiz88,2024-01-17T14:01:51Z,2024-01-17T15:57:55+00:00,1,1.93,False,0,12,3,263,7,1,8,CLOSED
+42330,feat: set Swift active compilation conditions build setting to DEBUG ,okwasniewski,2024-01-17T12:15:41Z,2024-06-06T11:11:06+00:00,3,3382.92,False,22,28,4,680,9,1,10,CLOSED
+42313,feat(template): add Yarn files to `.gitignore`,szymonrybczak,2024-01-16T20:31:02Z,2024-01-19T19:59:04+00:00,3,71.47,False,8,0,1,576,7,1,8,CLOSED
+42312,Assert `DefaultComponentsRegistry::registerComponentDescriptorsFromEntryPoint` is set,tido64,2024-01-16T19:32:43Z,2024-01-18T13:32:01+00:00,2,41.99,False,5,0,1,253,4,1,5,CLOSED
+42293,feat: add nullable annotations to RCTBundleURLProvider,okwasniewski,2024-01-16T10:17:51Z,2024-02-08T16:01:58+00:00,4,557.74,False,19,15,2,372,3,1,4,CLOSED
+42283,[RN][iOS] Disable bitcode for Hermes,hurali97,2024-01-15T15:01:09Z,2024-01-25T13:35:35+00:00,1,238.57,True,4,9,2,134,0,0,0,MERGED
+42281,fix: use get_folly_config() in RCTAppDelegate podspec,okwasniewski,2024-01-15T14:07:53Z,2024-01-16T14:55:49+00:00,1,24.8,False,6,5,2,211,3,0,3,CLOSED
+42279,Bump CLI to 12.3.2,szymonrybczak,2024-01-15T09:35:30Z,2024-01-19T13:43:09+00:00,1,100.13,True,75,75,3,101,3,0,3,MERGED
+42278,[iOS] Remove TARGET_OS_UIKITFORMAC macros,Saadnajmi,2024-01-15T08:49:12Z,2024-01-16T15:54:08+00:00,1,31.08,False,3,129,6,4531,4,0,4,CLOSED
+42277,[iOS] Remove an early return to suppress a deprecated API warning for `UIMenuController`,Saadnajmi,2024-01-15T08:01:27Z,2024-01-17T16:54:45+00:00,2,56.89,False,13,21,2,532,6,1,7,CLOSED
+42263,feat(RCTAppDelegate): Implement `RCTRootViewFactory`,okwasniewski,2024-01-12T15:16:33Z,2024-03-04T18:20:24+00:00,20,1251.06,False,449,174,6,2696,10,14,24,CLOSED
+42256,Format package.json files in the monorepo,Saadnajmi,2024-01-12T07:21:52Z,2024-01-22T15:25:59+00:00,1,248.07,False,13,15,6,468,5,0,5,CLOSED
+42245,remove old architecture pipeline for RNTester,okwasniewski,2024-01-11T13:39:37Z,2024-01-11T15:17:18+00:00,2,1.63,False,3,16,3,231,3,2,5,CLOSED
+42243,iOS: Introduce `vision` interfaceIdiom,okwasniewski,2024-01-11T09:49:15Z,2024-01-16T18:45:23+00:00,2,128.94,False,12,0,4,459,10,0,10,CLOSED
+42242,fix: use real_path to find plist files is update_ats Cocoapod util,chriszs,2024-01-11T09:42:34Z,2024-01-11T12:35:44+00:00,2,2.89,False,8,7,2,863,3,2,5,CLOSED
+42241,(iOS) Add `RCTUIStatusBarManager` and properly retrieve StatusBar style and height,okwasniewski,2024-01-11T09:33:16Z,2024-02-08T10:44:12+00:00,1,673.18,False,19,22,6,520,4,0,4,CLOSED
+42231,Fix retrieving current appearance in multi-window apps,okwasniewski,2024-01-10T14:31:56Z,2024-01-30T12:57:17+00:00,3,478.42,False,3,4,2,357,2,1,3,CLOSED
+42229,[RN][iOS] Fix symbol not found _jump_fcontext with use_frameworks!,cipolleschi,2024-01-10T13:26:36Z,2024-01-15T15:56:24+00:00,1,122.5,True,4,3,1,1070,1,0,1,MERGED
+42222,Apply stack Symbolication patch part 1 & 2 to 0.71-stable (#41377) (#42079) (original #40914),joe-sam,2024-01-10T04:31:59Z,2024-01-15T15:54:42+00:00,1,131.38,True,29,9,2,394,1,0,1,MERGED
+42219,prevent scroll event in nested scroll when scrollEnabled={false},Icehunter,2024-01-09T21:26:18Z,2024-01-10T18:42:07+00:00,1,21.26,False,18,0,2,1093,4,0,4,CLOSED
+42209,'[skip ci] [RN][JS] BridgelessUIManager: Implement viewIsDescendantOf,RSNara,2024-01-09T20:55:32Z,2024-01-10T20:41:46+00:00,1,23.77,False,443,177,11,124,4,1,5,CLOSED
+42183,Bump CLI to 13.5.1,szymonrybczak,2024-01-08T14:46:09Z,2024-01-25T10:39:21+00:00,2,403.89,False,94,77,5,98,11,0,11,CLOSED
+42175,[Local][RN][General] 0.72 - migrate boost away from JFrog,cipolleschi,2024-01-08T09:59:23Z,2024-01-08T11:08:23+00:00,2,1.15,True,2,2,2,170,0,0,0,MERGED
+42160,[iOS] Fix release build error due to a casing issue in hermes tarball path after download prebuilt tarball,wfern,2024-01-06T20:52:05Z,2024-01-08T18:05:11+00:00,3,45.22,False,1,1,1,1591,4,1,5,CLOSED
+42145,Bump folly to 2024.01.01.00,Kudo,2024-01-04T16:52:25Z,2024-01-05T12:15:01+00:00,1,19.38,False,123,123,46,2640,5,0,5,CLOSED
+42138,Fix New Arch build failing with `-std=c++20`,tido64,2024-01-04T10:56:14Z,2024-01-06T01:47:13+00:00,1,38.85,True,5,0,1,619,5,0,5,MERGED
+42117,[iOS] Add Fabric dynamic color support,zhongwuzw,2024-01-02T09:56:15Z,2024-01-30T13:34:33+00:00,24,675.64,False,290,80,13,116,15,22,37,CLOSED
+42114,Remove deprecated RCTBundleURLProvider options,Saadnajmi,2024-01-01T01:29:56Z,2024-01-05T19:59:13+00:00,7,114.49,False,1,51,2,277,6,1,7,CLOSED
+42094,Fix horiozntal scrollview scrollTo coordinate space in RTL on oldarch,NickGerleman,2023-12-29T00:48:22Z,2024-01-03T12:38:18+00:00,1,131.83,False,4,0,1,278,8,0,8,CLOSED
+42088,Add function to customise RootView in Bridgeless,cipolleschi,2023-12-28T10:00:12Z,2024-01-02T12:58:16+00:00,4,122.97,False,44,0,2,846,15,5,20,CLOSED
+42087,[RN][CI] Fix e2e test setup,cipolleschi,2023-12-28T08:54:45Z,2023-12-28T10:06:08+00:00,1,1.19,True,1,1,1,262,3,0,3,MERGED
+42080,Fix remount of SectionList header and footer,MateWW,2023-12-27T17:17:13Z,2024-01-05T17:20:50+00:00,3,216.06,False,13,7,2,748,3,1,4,CLOSED
+42079,Unhandled promise rejection - attach non-standard Error object stack info if possible,ospfranco,2023-12-27T16:00:21Z,2023-12-28T12:30:56+00:00,3,20.51,False,5,0,1,809,3,1,4,CLOSED
+42051,Detect `ccache` and provide a default configuration,kraenhansen,2023-12-22T23:30:21Z,2023-12-28T09:46:06+00:00,10,130.26,False,66,2,6,3678,6,4,10,CLOSED
+42047,feat: make codegen take OOT Apple platforms into account,okwasniewski,2023-12-22T12:41:04Z,2024-01-23T14:57:45+00:00,4,770.28,False,225,19,9,1370,14,2,16,CLOSED
+42036,feat: refactor `RCTKeyWindow` to be more resilient and work in multi-window apps,okwasniewski,2023-12-21T14:14:05Z,2024-01-05T15:14:01+00:00,2,361.0,False,16,32,3,752,8,1,9,CLOSED
+42014,Send Modal onDismiss event on iOS (Fabric) and Android,bernhardoj,2023-12-20T15:57:49Z,2024-01-16T17:40:04+00:00,11,649.7,False,100,172,15,910,16,3,19,CLOSED
+42011,Update CHANGELOG.md,fortmarek,2023-12-20T09:05:26Z,2023-12-20T15:46:39+00:00,1,6.69,False,8,0,1,154,2,0,2,CLOSED
+41989,Prevent LogBox from crashing on long messages (#38005),fortmarek,2023-12-19T10:10:40Z,2023-12-19T13:55:11+00:00,1,3.74,True,529,484,5,166,1,0,1,MERGED
+41968,[`template`] Use $REACT_NATIVE_PATH instead of relative path,kraenhansen,2023-12-17T20:42:07Z,2023-12-18T13:23:32+00:00,1,16.69,False,1,1,1,1310,3,0,3,CLOSED
+41967,"[`@react-native/community-cli-plugin`] Added inference of `watchFolders` from NPM, Yarn and PNPM workspaces",kraenhansen,2023-12-17T20:16:56Z,2025-08-20T05:35:46+00:00,24,14673.31,False,413,12,8,2510,11,17,28,CLOSED
+41955,[iOS] Fixes Reject error kind in Fabric,zhongwuzw,2023-12-15T14:52:15Z,2024-01-10T13:14:42+00:00,6,622.37,False,16,4,1,117,8,5,13,CLOSED
+41940,Feat:-made the RN Devtools launch error message more brief,Biki-das,2023-12-14T15:06:20Z,2024-03-12T14:01:10+00:00,3,2134.91,False,22,3,1,295,8,1,9,CLOSED
+41930,Update `MainActivity.kt` to correctly return placeholder name,szymonrybczak,2023-12-13T21:21:01Z,2023-12-15T12:27:12+00:00,1,39.1,False,3,1,1,515,6,0,6,CLOSED
+41909,Rn-tester app: Text input intrinsic size does not look properly in dark mode ,Marcoo09,2023-12-12T16:48:37Z,2024-06-23T05:01:02+00:00,3,4644.21,False,81,66,1,168,4,1,5,CLOSED
+41908,fix: Make generate-legacy-interop-components script take formatting into account,okwasniewski,2023-12-12T13:13:12Z,2023-12-13T17:48:41+00:00,6,28.59,False,15,6,1,732,7,2,9,CLOSED
+41900,"Update profiler button to use ""Toggle"" string.",szymonrybczak,2023-12-11T21:10:16Z,2023-12-12T11:15:16+00:00,1,14.08,False,3,3,2,201,4,0,4,CLOSED
+41896,Update the iOS template from Obj-C to Swift,TheRogue76,2023-12-11T18:46:48Z,2024-06-19T05:01:03+00:00,2,4570.24,False,42,58,6,2047,12,1,13,CLOSED
+41879,[iOS] Fixes ScrollView contentInsetAdjustmentBehavior assignment,zhongwuzw,2023-12-11T08:21:11Z,2023-12-12T14:54:51+00:00,1,30.56,False,1,1,1,176,2,0,2,CLOSED
+41873,fix: Fix iOS build error when `en0` is not available,mrousavy,2023-12-09T12:38:46Z,2023-12-12T14:20:28+00:00,1,73.69,False,1,1,1,1089,4,0,4,CLOSED
+41871,fix: Fix adding custom `ReactPackage`s in Kotlin template,mrousavy,2023-12-09T12:20:00Z,2023-12-11T11:02:34+00:00,1,46.71,False,3,2,1,255,5,0,5,CLOSED
+41865,Fix cleanAssetCatalog error,janicduplessis,2023-12-08T22:01:13Z,2023-12-12T21:39:04+00:00,2,95.63,False,1,1,1,490,4,1,5,CLOSED
+41856,Fix comment about adding packages in android template,janicduplessis,2023-12-08T17:48:57Z,2023-12-27T16:51:33+00:00,6,455.04,False,5,5,1,693,7,3,10,CLOSED
+41853,[iOS] Fabric: Fixes Modal present splash when animation type is none,zhongwuzw,2023-12-08T15:16:23Z,2024-07-18T17:14:10+00:00,3,5353.96,False,61,1,6,613,9,4,13,CLOSED
+41845,fix: double quote $SOURCEMAP_FILE to prevent globbing and word splitting,maykonmichel,2023-12-07T19:39:55Z,2024-06-26T11:00:04+00:00,1,4839.34,False,0,0,0,1165,9,0,9,CLOSED
+41836,"Move metro-config package into monorepo build, enable TS generation",byCedric,2023-12-07T14:17:06Z,2024-02-12T13:26:14+00:00,3,1607.15,False,46,15,5,828,6,1,7,CLOSED
+41826,fix: add build generated files to *ignore config,okwasniewski,2023-12-07T10:41:38Z,2023-12-08T18:24:30+00:00,6,31.71,False,8,0,3,205,5,2,7,CLOSED
+41813,Bump event-target-shim to v6.0.2.,kkoudev,2023-12-06T06:59:02Z,2023-12-07T00:37:21+00:00,1,17.64,False,10,8,4,1252,2,0,2,CLOSED
+41803,Fixed the height result of onContentSizeChange callback on iOS,zyestin,2023-12-05T11:52:22Z,2023-12-13T15:24:18+00:00,1,195.53,False,1,1,1,488,5,1,6,CLOSED
+41798,Test against XCode 14.3 and 15,NickGerleman,2023-12-05T07:40:51Z,2023-12-05T23:40:17+00:00,1,15.99,False,16,57,6,650,7,1,8,CLOSED
+41792,refactor: convert `NetworkingModuleTest` to kotlin,KrzysztofMoch,2023-12-04T19:44:18Z,2023-12-05T17:06:25+00:00,1,21.37,False,622,635,2,213,12,1,13,CLOSED
+41789,docs: add README file for packages,okwasniewski,2023-12-04T18:42:22Z,2023-12-05T15:21:24+00:00,2,20.65,False,75,0,1,253,3,1,4,CLOSED
+41787,feature(dev-middleware): add `enableNetworkInspector` experiment,byCedric,2023-12-04T16:21:02Z,2023-12-07T16:35:03+00:00,5,72.23,False,17,1,4,504,4,3,7,CLOSED
+41783,fix: add verdaccio generated files to .gitignore,okwasniewski,2023-12-04T12:18:11Z,2023-12-04T15:56:36+00:00,3,3.64,False,1,0,1,227,3,1,4,CLOSED
+41774,refactor: convert ReactPropForShadowNodeSetterTest to kotlin,moskalakamil,2023-12-03T22:07:48Z,2023-12-07T11:23:20+00:00,1,85.26,False,155,165,2,234,14,0,14,CLOSED
+41772,fix: paddingTop problem for multiline `TextInput`,Spice-Z,2023-12-03T13:55:53Z,2023-12-12T10:19:15+00:00,12,212.39,False,12,5,1,142,9,4,13,CLOSED
+41770,Fix single line text not fully rendered,fabOnReact,2023-12-03T06:09:13Z,2024-11-23T06:06:20+00:00,1,8543.95,False,39,21,3,1902,17,1,18,CLOSED
+41751,feat: improve e2e local testing script,Titozzz,2023-12-01T17:26:45Z,2023-12-01T18:39:39+00:00,1,1.22,False,5,4,1,213,4,0,4,CLOSED
+41741,Add changelog for 0.73.0 [skip ci],fortmarek,2023-12-01T11:04:07Z,2023-12-06T13:38:56+00:00,1,122.58,False,14,2,1,290,3,0,3,CLOSED
+41727,Fix typo in circleci config,okwasniewski,2023-11-30T19:14:42Z,2023-12-01T12:39:14+00:00,1,17.41,False,1,1,1,123,2,0,2,CLOSED
+41722,Bump CLI to 13.0.0,thymikee,2023-11-30T13:27:28Z,2023-12-11T02:17:15+00:00,1,252.83,False,75,75,3,138,4,0,4,CLOSED
+41717,[iOS] Add safe guard when receive network response data too long,zhongwuzw,2023-11-30T09:31:54Z,2023-12-13T17:54:43+00:00,2,320.38,False,15,1,1,124,4,1,5,CLOSED
+41715,Add `NDEBUG` flag for Release builds for both architectures,tjzel,2023-11-30T09:21:36Z,2023-12-01T15:10:05+00:00,4,29.81,False,152,24,5,661,8,2,10,CLOSED
+41710,Allowed children to be styled inside of TextInput,ieBeau,2023-11-29T19:26:36Z,2023-11-30T02:15:26+00:00,1,6.81,False,0,0,0,349,4,0,4,CLOSED
+41705,Make JS and TS tests independent of react-native package name,thymikee,2023-11-29T13:00:38Z,2024-06-06T05:01:18+00:00,5,4552.01,False,18,12,2,427,4,1,5,CLOSED
+41697,feat: allow OOT platforms to use custom resolver.resolveRequest,okwasniewski,2023-11-29T10:01:35Z,2023-11-29T13:57:29+00:00,1,3.93,False,22,13,2,736,4,0,4,CLOSED
+41666,[iOS] Move ActionSheet UI operation to main thread,zhongwuzw,2023-11-28T09:32:03Z,2023-11-28T23:19:30+00:00,1,13.79,False,2,2,1,142,2,0,2,CLOSED
+41659,Add support for resolving custom platform variant,thymikee,2023-11-27T16:52:44Z,2023-11-29T09:21:01+00:00,1,40.47,False,127,4,2,1198,4,1,5,CLOSED
+41657,Fix Binding JNI type,piaskowyk,2023-11-27T14:40:31Z,2023-11-30T12:36:38+00:00,1,69.94,False,8,3,2,1221,9,1,10,CLOSED
+41649,(refactor): kotlinify layout property applicator test,MCanhisares,2023-11-27T00:27:58Z,2023-11-29T15:30:58+00:00,4,63.05,False,461,462,2,248,5,1,6,CLOSED
+41639,[0.73] Fix projects being broken on dependencies starting with `a..`,cortinico,2023-11-24T15:28:53Z,2023-11-27T10:44:10+00:00,1,67.25,True,36,2,3,161,1,0,1,MERGED
+41629,Update index.js,ravi1718,2023-11-23T17:21:50Z,2023-11-24T13:37:06+00:00,1,20.25,False,77,77,1,32,1,76,77,CLOSED
+41627,chore: remove duplicated pod 'Yoga' in RNTester,okwasniewski,2023-11-23T14:46:40Z,2023-11-28T00:58:39+00:00,1,106.2,False,0,1,1,181,3,0,3,CLOSED
+41618,Update pkg/repo names in deprecation messages,friederbluemle,2023-11-23T06:31:57Z,2023-11-23T15:52:16+00:00,1,9.34,False,7,6,1,695,2,0,2,CLOSED
+41602,[iOS] Fix Fabric componentregistrynative spec not work,zhongwuzw,2023-11-22T09:24:00Z,2023-11-22T13:24:30+00:00,1,4.01,False,1,1,1,260,3,0,3,CLOSED
+41546,"Back out ""Restore InspectorProxy tests - fix Windows by Babel-ignoring `node_modules` consistently""",GijsWeterings,2023-11-18T09:50:12Z,2023-12-04T11:39:35+00:00,1,385.82,False,9,5,5,82,4,4,8,CLOSED

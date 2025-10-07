@@ -149,3 +149,853 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 12098,obs-ffmpeg: Add B-frame CQP support for AMD AV1 encoder,rhutsAMD,2025-04-29T21:14:17Z,2025-06-05T18:37:20+00:00,1,885.38,True,1,0,1,913,1,0,1,MERGED
 12095,plugins: Fix warnings with Visual Studio 2022 17.14,jeiea,2025-04-28T16:01:25Z,2025-05-02T20:59:57+00:00,5,100.98,True,3,3,2,9025,0,0,0,MERGED
 12094,media-playback: Fix possible crash on startup,jeiea,2025-04-28T15:32:32Z,2025-05-06T18:27:29+00:00,2,194.92,True,6,6,1,684,3,0,3,MERGED
+12093,linux-v4l2: Skip corrupted H264/MJPEG frames during capture,JiangXsong,2025-04-28T08:52:55Z,2025-05-15T20:06:28+00:00,5,419.23,True,6,0,1,1205,16,2,18,MERGED
+12083,cmake: Group blake2 targets under same directory for IDEs,PatTheMav,2025-04-25T16:44:15Z,2025-04-26T00:06:41+00:00,1,7.37,True,3,0,1,856,0,0,0,MERGED
+12076,cmake: Adjust macOS SDK detection,glikely,2025-04-23T12:43:32Z,2025-04-25T22:35:12+00:00,1,57.86,True,41,15,1,1048,2,0,2,MERGED
+12073,linux-v4l2: Add support for virtual camera on non-Linux environments,yurivict,2025-04-23T03:48:24Z,2025-04-28T20:41:39+00:00,3,136.89,True,34,0,1,397,3,0,3,MERGED
+12070,obs-outputs: Correct mp4_output_destory to mp4_output_destroy,jasonkanavas1,2025-04-21T18:01:49Z,2025-04-28T22:16:09+00:00,2,172.24,True,2,2,1,535,2,0,2,MERGED
+12065,CI: Use Flatpak action upstream,tytan652,2025-04-19T15:10:53Z,2025-04-22T22:11:27+00:00,1,79.01,True,4,4,2,571,2,0,2,MERGED
+12055,frontend: Fix multiview not decrementing showing state count,norihiro,2025-04-16T10:17:00Z,2025-08-22T18:10:45+00:00,6,3079.9,True,22,16,2,1277,2,2,4,MERGED
+12054,frontend: Clip source names when dock too small,Warchamp7,2025-04-15T19:41:31Z,2025-04-28T20:18:08+00:00,2,312.61,True,7,2,2,1055,0,0,0,MERGED
+12051,frontend: Clean up various strings,Warchamp7,2025-04-13T19:56:18Z,2025-04-23T18:46:52+00:00,2,238.84,True,13,10,4,777,0,0,0,MERGED
+12049,libobs/util: Fix os_process_pipe_create on Linux,franga2000,2025-04-13T17:10:46Z,2025-05-05T20:54:12+00:00,1,531.72,True,1,1,1,1225,2,0,2,MERGED
+12045,cmake: Allow Mesa EGL,Zeckmathederg,2025-04-11T22:47:46Z,2025-04-12T02:01:01+00:00,2,3.22,False,29,10,2,2741,5,1,6,CLOSED
+12042,libobs: Use absolute path for install prefix module load,Penwy,2025-04-10T23:20:07Z,2025-04-28T19:04:27+00:00,3,427.74,True,4,2,1,1062,1,0,1,MERGED
+12040,frontend: Use default location for user settings as fallback,PatTheMav,2025-04-09T11:20:27Z,2025-04-25T23:40:24+00:00,1,396.33,True,25,10,1,1347,0,0,0,MERGED
+12035,mac-capture: Fix incorrect enum comparison,jcm93,2025-04-07T21:55:44Z,2025-04-25T17:24:41+00:00,1,427.48,True,1,1,1,1078,0,0,0,MERGED
+12031,frontend: Re-set list spacing of source and scene tree to 0,gxalpha,2025-04-05T12:13:53Z,2025-04-09T23:09:26+00:00,1,106.93,True,5,2,2,1160,4,0,4,MERGED
+12022,win-capture: Update hooked state before unhooked signal,EZ64cool,2025-04-01T09:24:15Z,2025-04-28T18:44:22+00:00,2,657.34,True,1,1,1,923,0,0,0,MERGED
+12021,libobs/callback: Catch fail cases with missing error data,norihiro,2025-04-01T04:51:05Z,2025-04-28T18:26:07+00:00,2,661.58,True,4,2,1,1110,0,0,0,MERGED
+12018,libobs/util: Prevent locking mutex in child process when checking Qt5,norihiro,2025-03-31T12:55:11Z,2025-04-25T23:10:34+00:00,1,610.26,True,1,0,1,1060,1,0,1,MERGED
+12017,frontend: Add dedicated translation of remaining time,norihiro,2025-03-31T11:15:59Z,2025-04-28T17:06:03+00:00,4,677.83,True,2,1,2,919,0,0,0,MERGED
+12016,deps/json11: Fix compile error on GCC 15+,mihawk90,2025-03-30T05:00:15Z,2025-04-02T18:04:02+00:00,1,85.06,True,1,0,1,988,0,0,0,MERGED
+12006,frontend: Update Dock toolbar styling,Warchamp7,2025-03-26T22:39:16Z,2025-05-28T16:22:42+00:00,4,1505.72,True,98,20,3,917,2,4,6,MERGED
+12004,frontend: Allow network optimizations with multitrack video,lexano-ivs,2025-03-26T18:15:45Z,2025-04-30T16:27:03+00:00,3,838.19,True,9,20,5,1365,2,1,3,MERGED
+12003,frontend: Allow Stream Delay with multitrack video,lexano-ivs,2025-03-26T17:12:39Z,2025-04-29T17:50:58+00:00,1,816.64,True,4,8,4,1124,0,0,0,MERGED
+11998,build-aux: Fix incorrect HEVC vertical resolution on AMD VCN,lexano-ivs,2025-03-24T22:19:10Z,2025-04-25T22:14:23+00:00,4,767.92,True,154,0,3,2147,0,1,1,MERGED
+11997,frontend: Allow 5 multitrack reconnect attempts before re-running GCC,dsaedtler,2025-03-24T13:12:18Z,2025-05-07T19:46:51+00:00,5,1062.58,True,9,3,2,904,0,7,7,MERGED
+11996,frontend: Remove additional spacing hack in SourceTreeItem,gxalpha,2025-03-24T12:41:59Z,2025-04-08T16:44:13+00:00,1,364.04,True,0,4,1,1110,1,0,1,MERGED
+11994,libobs: Fix duplicating scene with custom size,exeldro,2025-03-24T08:08:14Z,2025-03-26T19:17:13+00:00,3,59.15,True,8,0,1,832,1,0,1,MERGED
+11987,CI: Clean up Flatpak cache detection,RytoEX,2025-03-21T20:09:25Z,2025-04-02T17:32:33+00:00,2,285.39,True,4,10,2,1218,0,0,0,MERGED
+11985,libobs: Fix setting non-0 order on only scene item,zavitax,2025-03-21T15:57:16Z,2025-04-28T17:50:01+00:00,1,913.88,True,3,3,1,814,2,0,2,MERGED
+11983,rtmp-services: Update ingest URL for Niconico Live Streaming(ニコニコ生放送),koizuka,2025-03-20T02:10:39Z,2025-04-21T18:25:50+00:00,7,784.25,True,9,23,2,2250,2,3,5,MERGED
+11980,Use Extra CMake modules on Linux,tytan652,2025-03-18T12:07:07Z,2025-04-28T17:30:26+00:00,1,989.39,True,28,621,11,1018,0,0,0,MERGED
+11977,obs-browser: Update version to 2.24.6,RytoEX,2025-03-17T18:15:54Z,2025-03-17T22:56:47+00:00,1,4.68,True,1,1,1,782,0,0,0,MERGED
+11975,rtmp-services: Add HEVC (h265) to the list of supported video codecs for Bilibili RTMP streaming,xlbljz,2025-03-17T09:51:18Z,2025-04-18T20:47:41+00:00,2,778.94,True,4,3,2,871,2,0,2,MERGED
+11972,mac-avcapture: Clear memory when creating frame struct,jcm93,2025-03-16T12:24:30Z,2025-03-18T21:35:53+00:00,2,57.19,True,2,2,1,1526,0,0,0,MERGED
+11966,CI: Update clang-format scripts and actions to version 19.1.1,PatTheMav,2025-03-14T20:18:58Z,2025-04-18T19:25:11+00:00,3,839.1,True,28,27,14,1396,1,1,2,MERGED
+11964,CI: Add workflow_dispatch trigger to scheduled repository workflow,PatTheMav,2025-03-14T17:38:56Z,2025-03-19T20:42:37+00:00,2,123.06,True,1,0,1,875,0,0,0,MERGED
+11963,CI: Update flatpak-builder and flat-manager actions,RytoEX,2025-03-14T17:02:30Z,2025-03-15T21:00:58+00:00,1,27.97,True,4,4,2,663,3,0,3,MERGED
+11959,CI: Fix Flatpak build caching issues,RytoEX,2025-03-13T21:08:49Z,2025-03-15T01:55:40+00:00,4,28.78,False,2,2,1,2376,5,1,6,CLOSED
+11955,libobs: Fix for ignored point scaling config,jhnbwrs,2025-03-13T04:00:02Z,2025-04-30T17:21:30+00:00,1,1165.36,False,10,2,1,1198,4,0,4,CLOSED
+11954,CI: Update bouf to v0.6.5,RedBlackAka,2025-03-12T22:31:02Z,2025-04-02T18:36:13+00:00,1,500.09,True,6,6,2,582,1,0,1,MERGED
+11952,nv-filters: Various bugfixes,pkviet,2025-03-12T09:28:24Z,2025-03-17T20:25:58+00:00,1,130.96,True,16,23,1,1380,0,0,0,MERGED
+11947,win-capture: Add FragPunk to compatibility list,prgmitchell,2025-03-11T19:20:45Z,2025-03-12T21:32:18+00:00,2,26.19,True,16,2,2,593,0,0,0,MERGED
+11943,frontend: Add automatic crash log upload after crashes for Windows and macOS,PatTheMav,2025-03-10T19:23:19Z,2025-08-22T19:38:13+00:00,8,3960.25,True,1548,340,25,4522,14,9,23,MERGED
+11942,Improve preview primitive performance,Lain-B,2025-03-10T18:42:12Z,2025-04-23T19:23:29+00:00,3,1056.69,True,351,184,9,1490,24,0,24,MERGED
+11937,frontend: Replace completely QPlatformNativeInterface in Qt 6.9+,tytan652,2025-03-08T14:18:59Z,2025-05-13T18:40:31+00:00,2,1588.36,True,25,3,2,1118,3,0,3,MERGED
+11936,CI: Update bouf to v0.6.5,RedBlackAka,2025-03-08T00:47:18Z,2025-03-12T22:29:40+00:00,1,117.71,False,6,6,2,607,2,0,2,CLOSED
+11932,build-aux: Update Flatpak modules,tytan652,2025-03-07T06:59:47Z,2025-03-14T16:52:28+00:00,2,177.88,True,23,23,13,779,4,0,4,MERGED
+11931,CI: Update deps to 2025-03-06 release,RytoEX,2025-03-06T22:09:31Z,2025-03-07T22:33:03+00:00,3,24.39,True,11,8,1,1479,1,1,2,MERGED
+11926,libobs: Reset reconnecting state when can_reconnect is false,dsaedtler,2025-03-05T11:31:41Z,2025-03-17T18:22:56+00:00,2,294.85,True,2,0,1,1071,1,0,1,MERGED
+11925,libobs/frontend: Add callback for reconnection decision,dsaedtler,2025-03-05T10:07:37Z,2025-03-17T17:30:58+00:00,4,295.39,True,67,3,5,1369,2,0,2,MERGED
+11924,obs-nvenc: Fix incorrect CUDA array size allocation,94Bo,2025-03-05T04:41:12Z,2025-03-17T18:49:10+00:00,3,302.13,True,1,2,1,1475,0,1,1,MERGED
+11922,frontend/widgets: Fix integer overflow,Lain-B,2025-03-05T01:05:36Z,2025-04-23T18:07:09+00:00,3,1193.03,True,3,2,1,1100,3,1,4,MERGED
+11911,cmake: Fix some Qt DLLs not being copied due to filename patterns,RytoEX,2025-02-28T21:54:39Z,2025-03-14T15:47:54+00:00,1,329.89,True,3,1,1,872,1,0,1,MERGED
+11910,obs-browser: Update version to 2.24.5,RytoEX,2025-02-28T19:52:38Z,2025-03-03T20:10:46+00:00,2,72.3,True,15,8,3,1178,0,0,0,MERGED
+11909,obs-websocket: Update version to 5.5.5,RytoEX,2025-02-28T19:28:23Z,2025-03-03T19:13:24+00:00,1,71.75,True,1,1,1,637,0,0,0,MERGED
+11906,linux-v4l2: Fix virtual camera start failure,stephematician,2025-02-28T03:30:59Z,2025-04-24T00:26:50+00:00,15,1316.93,True,56,5,1,1608,50,4,54,MERGED
+11901,rtmp-services: Update ingest URL for Niconico Live Streaming(ニコニコ生放送),koizuka,2025-02-26T09:05:36Z,2025-03-20T02:04:10+00:00,2,520.98,False,10,23,2,2024,15,0,15,CLOSED
+11900,"libobs,win-capture,win-wasapi: Fix typo in macro WIN32_LEAN_AND_MEAN",ozokyay,2025-02-26T00:59:18Z,2025-03-03T21:13:36+00:00,2,140.24,True,3,3,3,1422,0,0,0,MERGED
+11899,nv-filters: Various improvements,pkviet,2025-02-25T23:11:30Z,2025-08-21T20:52:14+00:00,27,4245.68,True,218,397,11,2277,5,19,24,MERGED
+11897,frontend: Only emit frontend events for existing scene collection,PatTheMav,2025-02-25T18:26:20Z,2025-03-20T19:05:42+00:00,1,552.66,True,4,4,1,1305,0,0,0,MERGED
+11896,mac-capture: Set minimum frame interval in capture initialization,jcm93,2025-02-25T17:49:03Z,2025-08-20T02:52:20+00:00,8,4209.05,True,10,0,1,3263,2,2,4,MERGED
+11895,mac-avcapture: Prevent race condition in source init/deinit,jcm93,2025-02-25T15:03:11Z,2025-03-07T18:51:17+00:00,2,243.8,True,23,20,1,2252,1,0,1,MERGED
+11894,obs-qsv11: Remove non-functional CQM-related code,DeeDeeG,2025-02-25T01:58:21Z,2025-04-23T17:35:10+00:00,2,1383.61,True,0,13,1,2143,0,0,0,MERGED
+11893,cmake: Adjust macOS SDK detection,jcm93,2025-02-24T00:40:50Z,2025-03-31T18:10:38+00:00,10,857.5,True,41,15,1,1709,0,2,2,MERGED
+11892,frontend: Adjust missing files dialog,Warchamp7,2025-02-23T17:24:29Z,2025-04-25T18:01:23+00:00,14,1464.62,True,139,95,8,1871,2,15,17,MERGED
+11889,frontend: Adjust scene collection importer,Warchamp7,2025-02-23T05:17:51Z,2025-04-03T17:49:58+00:00,2,948.54,True,60,25,6,1304,0,0,0,MERGED
+11887,frontend: Remove Exit button,Warchamp7,2025-02-22T18:21:40Z,2025-03-24T21:57:45+00:00,3,723.6,True,0,25,4,714,11,0,11,MERGED
+11880,frontend: Transitions (dock) separation part 1,tytan652,2025-02-18T16:44:25Z,2025-08-22T20:48:23+00:00,36,4444.07,True,268,112,6,1107,9,20,29,MERGED
+11869,frontend: Increase MAX_CRASH_REPORT_SIZE to 200 KB,WizardCM,2025-02-16T04:17:44Z,2025-04-15T19:33:42+00:00,2,1407.27,True,1,1,1,704,0,0,0,MERGED
+11861,win-dshow: Fix possible crash if frame width or height is zero,RytoEX,2025-02-13T20:17:27Z,2025-03-07T17:33:09+00:00,2,525.26,True,6,0,1,1048,4,0,4,MERGED
+11854,cmake: Refactor Wayland finder,tytan652,2025-02-11T17:28:26Z,2025-02-11T19:06:32+00:00,1,1.64,False,75,74,1,729,3,0,3,CLOSED
+11846,Add First-Class Windows ARM64 support to OBS-Studio Build System,PatTheMav,2025-02-08T17:52:15Z,2025-03-12T20:33:00+00:00,6,770.68,True,188,38,18,1549,8,2,10,MERGED
+11843,cmake: Replace COMPILE_FLAGS with COMPILE_OPTIONS,RytoEX,2025-02-07T21:00:42Z,2025-02-10T17:57:38+00:00,1,68.95,True,4,4,4,949,2,0,2,MERGED
+11841,"cmake: Don't copy legacy, unused Chromium file",WizardCM,2025-02-07T07:23:57Z,2025-02-28T23:38:31+00:00,3,520.24,True,4,7,2,1497,0,0,0,MERGED
+11839,frontend: Focus text entry in NameDialog,Warchamp7,2025-02-07T00:11:47Z,2025-04-03T18:30:00+00:00,2,1338.3,True,3,0,1,824,1,0,1,MERGED
+11836,cmake: Append all required Wayland variables,GeorgesStavracas,2025-02-06T20:03:11Z,2025-04-28T17:30:27+00:00,3,1941.45,False,2,0,1,1288,0,1,1,CLOSED
+11835,rtmp-services: Update Castr.io ingests,duyquach-castr,2025-02-06T07:12:45Z,2025-03-19T20:01:02+00:00,3,996.8,True,59,3,2,1252,0,0,0,MERGED
+11834,frontend: Fix manifest commit hash comparison,dsaedtler,2025-02-05T18:47:42Z,2025-02-23T00:15:56+00:00,2,413.47,True,1,1,1,744,0,0,0,MERGED
+11833,Canvases - Part Tres (Multitrack Changes),dsaedtler,2025-02-05T16:25:43Z,2025-05-05T21:17:20+00:00,7,2140.86,True,172,72,13,1712,5,1,6,MERGED
+11832,Canvases - Part Deux (Loading/Saving + Frontend API),dsaedtler,2025-02-05T16:25:30Z,2025-05-02T18:35:22+00:00,20,2066.16,True,303,3,13,995,3,12,15,MERGED
+11824,frontend: Update scene collection support for relative positioning,PatTheMav,2025-02-04T17:19:17Z,2025-04-21T19:17:11+00:00,8,1825.96,True,559,211,12,3628,4,4,8,MERGED
+11823,Canvases - Part One (libobs),dsaedtler,2025-02-04T12:07:05Z,2025-04-02T16:39:46+00:00,33,1372.54,True,1437,146,14,1710,6,31,37,MERGED
+11816,obs-nvenc: Fix lookahead depth value logging,DeeDeeG,2025-02-02T03:17:35Z,2025-02-23T00:04:20+00:00,2,500.78,True,2,1,1,2075,1,0,1,MERGED
+11814,nv-filters: Update for new SDK,pkviet,2025-02-01T14:00:46Z,2025-02-05T16:56:51+00:00,2,98.93,True,3,21,3,877,6,0,6,MERGED
+11805,bpm: Fix potential null-pointer dereference,lexano-ivs,2025-01-31T19:48:43Z,2025-02-14T21:19:13+00:00,3,337.51,True,6,1,1,699,1,0,1,MERGED
+11804,CI: Fix typo in setup-macos-codesigning action,RytoEX,2025-01-31T19:29:06Z,2025-02-04T14:26:23+00:00,2,90.95,True,2,2,1,606,0,0,0,MERGED
+11798,obs-nvenc: SDK 13.0 Features,derrod,2025-01-30T19:51:19Z,2025-08-21T22:35:35+00:00,13,4874.74,True,198,25,8,906,3,8,11,MERGED
+11794,obs-outputs: Allow enabling BPM for Hybrid MP4 output,derrod,2025-01-30T09:46:43Z,2025-08-22T21:35:17+00:00,5,4907.81,True,20,0,2,687,1,1,2,MERGED
+11788,libobs: Add Flatpak commit logging,tytan652,2025-01-29T10:53:27Z,2025-08-23T00:21:37+00:00,5,4933.47,True,2,0,1,762,0,0,0,MERGED
+11787,frontend: Add new appearance options,Warchamp7,2025-01-28T20:58:34Z,2025-04-22T19:04:49+00:00,5,2014.1,True,642,164,12,950,0,13,13,MERGED
+11785,frontend: Use Q_OBJECT macro for BrowserDock,cg2121,2025-01-28T12:48:50Z,2025-05-01T20:01:15+00:00,5,2239.21,True,3,0,2,541,1,0,1,MERGED
+11783,frontend: Use static_cast when casting from void pointers,cg2121,2025-01-28T10:45:45Z,2025-05-06T00:47:10+00:00,2,2342.02,True,73,79,22,785,0,0,0,MERGED
+11769,frontend: Remove channel change signal handler from transform dialog,derrod,2025-01-25T18:29:21Z,2025-08-20T17:57:37+00:00,3,4967.47,True,0,22,2,746,2,0,2,MERGED
+11747,CI: Add ARM and Game Capture Dual-Signing,derrod,2025-01-19T22:17:49Z,2025-04-15T18:56:14+00:00,6,2060.64,True,136,20,6,649,2,3,5,MERGED
+11742,"frontend: Highlight control dock buttons using style class, Remove NonCheckableButton",gxalpha,2025-01-18T15:18:31Z,2025-04-24T19:37:50+00:00,6,2308.32,True,61,101,7,2168,0,1,1,MERGED
+11741,linux-pipewire: Use list-based format selector for video capture,tytan652,2025-01-18T13:08:50Z,2025-08-22T18:34:29+00:00,17,5189.43,True,241,154,5,1200,8,3,11,MERGED
+11740,libobs: Fix various comment typos,luzpaz,2025-01-18T12:45:50Z,2025-01-18T22:42:54+00:00,1,9.95,False,3,3,2,751,6,0,6,CLOSED
+11737,.gitignore: Remove UI exclusion,gxalpha,2025-01-17T20:34:24Z,2025-01-27T22:06:18+00:00,3,241.53,True,0,1,1,710,1,0,1,MERGED
+11735,frontend: Fix crashes caused by scene collections with empty internal name,PatTheMav,2025-01-17T15:52:32Z,2025-01-17T22:32:20+00:00,1,6.66,True,8,4,1,2067,1,0,1,MERGED
+11733,frontend: Log streaming service recommended maximums,prgmitchell,2025-01-16T23:58:23Z,2025-01-30T18:21:06+00:00,10,330.38,True,30,2,2,1129,2,5,7,MERGED
+11710,obs-ffmpeg: Fix throughput checks for older AMD driver,rhutsAMD,2025-01-08T16:18:15Z,2025-03-14T12:43:14+00:00,2,1556.42,True,8,2,1,804,1,0,1,MERGED
+11708,linux-pipewire: Add explicit sync support,dkorkmazturk,2025-01-07T19:26:41Z,2025-02-05T21:20:15+00:00,11,697.89,True,643,11,17,1763,11,2,13,MERGED
+11698,obs-webrtc: Add VDO.Ninja support and improve NAT traversal,steveseguin,2025-01-03T23:08:35Z,2025-01-07T21:48:55+00:00,3,94.67,False,569,204,3,6286,6,2,8,CLOSED
+11695,libobs: Use limited range for R10l output,jpark37,2025-01-02T22:25:37Z,2025-02-20T21:44:09+00:00,1,1175.31,True,1,1,1,844,3,0,3,MERGED
+11682,obs-outputs: Fix tkhd/mvhd box version with 64-bit timestamps,derrod,2024-12-30T14:11:16Z,2025-08-20T03:37:02+00:00,3,5581.43,True,8,4,1,817,0,0,0,MERGED
+11679,obs-outputs: Add Hybrid MOV support,derrod,2024-12-29T16:57:14Z,2025-08-21T22:14:33+00:00,6,5645.29,True,531,128,13,1082,5,36,41,MERGED
+11668,libobs: Fix underlinking by adding libx11,kkartaltepe,2024-12-24T18:35:26Z,2025-01-16T20:43:49+00:00,3,554.14,True,1,0,1,617,0,0,0,MERGED
+11663,libobs: Fix deadlock on macOS input method change,izwb003,2024-12-23T18:31:40Z,2025-01-04T11:23:21+00:00,2,280.86,True,2,0,1,795,4,0,4,MERGED
+11659,obs-outputs: Use packet time callback for frame-accurate chapter markers,derrod,2024-12-22T15:21:38Z,2025-08-20T20:07:51+00:00,2,5788.77,True,68,42,1,1205,0,0,0,MERGED
+11652,cmake: Turn off camera reaction by default on macOS 14.4 and later,gxalpha,2024-12-20T20:05:43Z,2025-01-16T21:34:00+00:00,1,649.47,True,2,0,1,1712,4,0,4,MERGED
+11651,UI: Fix Linux base folder location,Penwy,2024-12-20T15:54:54Z,2025-01-08T20:25:15+00:00,2,460.51,True,1,1,1,787,1,0,1,MERGED
+11630,UI: Fix remigrating scene collections from absolute to relative,derrod,2024-12-14T22:02:48Z,2025-01-08T18:33:03+00:00,1,596.5,True,4,6,2,533,4,0,4,MERGED
+11629,image-source: Fix slideshow stopping on last file in random mode,derrod,2024-12-14T21:35:54Z,2025-01-16T20:13:50+00:00,2,790.63,True,1,1,1,492,0,0,0,MERGED
+11626,obs-nvenc: Fix translation string for 4:4:4 unsupported error,derrod,2024-12-13T03:40:40Z,2025-01-16T19:27:47+00:00,2,831.79,True,1,1,1,467,0,0,0,MERGED
+11625,obs-nvenc: Abort encoder init if custom options are invalid,derrod,2024-12-13T02:52:16Z,2025-01-16T19:50:54+00:00,4,832.98,True,20,5,4,547,3,1,4,MERGED
+11624,CI: Update macOS workflows to macOS 15 runners with Xcode 16.1,PatTheMav,2024-12-12T14:07:02Z,2025-01-23T21:43:37+00:00,3,1015.61,True,41,20,7,806,0,1,1,MERGED
+11622,UI: Reorganize and refactor entire frontend codebase,PatTheMav,2024-12-11T22:19:27Z,2025-01-16T19:04:16+00:00,61,860.75,True,28455,26200,980,6108,2,68,70,MERGED
+11618,libobs-opengl: Avoid trying to allocate 0 byte on Linux,tytan652,2024-12-11T07:49:51Z,2024-12-20T21:23:11+00:00,3,229.56,True,28,23,1,793,0,0,0,MERGED
+11615,frontend: Move media control dynamic properties to ui file,cg2121,2024-12-10T12:29:18Z,2025-01-27T21:36:08+00:00,2,1161.11,True,12,4,2,629,1,0,1,MERGED
+11614,obs-filters: Maintain order of migrated NVAFX filters,pkviet,2024-12-10T11:13:13Z,2024-12-10T19:34:48+00:00,2,8.36,True,2,0,1,749,1,0,1,MERGED
+11605,libobs: Fix race when disconnecting raw video callbacks,derrod,2024-12-08T20:22:53Z,2025-01-28T22:36:51+00:00,3,1226.23,True,27,5,4,958,1,1,2,MERGED
+11603,libobs/util: Improve inhibit portal detection on Linux,tytan652,2024-12-08T15:24:03Z,2024-12-09T23:05:17+00:00,2,31.69,True,6,5,1,796,0,0,0,MERGED
+11601,win-capture: Add The Bazaar to compatibility list,flaeri,2024-12-08T10:06:04Z,2024-12-09T08:12:54+00:00,1,22.11,True,16,2,2,677,0,0,0,MERGED
+11594,win-capture: Add Marvel Rivals to compatibility list,Gol-D-Ace,2024-12-08T00:53:46Z,2024-12-08T18:25:11+00:00,1,17.52,True,16,2,2,839,0,0,0,MERGED
+11592,CI: Disable Flatpak bundling on publish,tytan652,2024-12-07T07:47:43Z,2024-12-10T20:49:19+00:00,1,85.03,True,1,1,1,637,3,0,3,MERGED
+11591,"rtmp-services: Add ""VRCDN - Live""",aaronfrancis635,2024-12-06T19:57:57Z,2025-03-20T23:21:30+00:00,2,2499.39,True,17,2,2,942,4,0,4,MERGED
+11590,obs-scripting: Fix macOS Homebrew Python loading,jcm93,2024-12-06T19:37:35Z,2025-01-28T20:07:39+00:00,4,1272.5,True,4,3,2,1626,3,0,3,MERGED
+11585,libobs: Remove relative scene item APIs,derrod,2024-12-03T14:20:45Z,2024-12-04T19:41:07+00:00,2,29.34,True,0,130,3,915,1,0,1,MERGED
+11583,graphics-hook: Fix crash with Vulkan DirectDisplay,mbechard,2024-12-03T00:10:59Z,2025-04-23T21:24:29+00:00,2,3405.22,True,25,20,1,1094,4,1,5,MERGED
+11574,libobs: Fix scale calculation when applying new group transform,derrod,2024-11-29T15:43:51Z,2024-12-03T20:33:37+00:00,2,100.83,True,3,0,1,572,0,0,0,MERGED
+11567,frontend: Unify appearance of menus,Warchamp7,2024-11-27T21:38:57Z,2025-04-02T19:29:06+00:00,2,3021.84,True,29,5,1,917,0,0,0,MERGED
+11566,UI: Fix collision of existing backup files for new scene collections,PatTheMav,2024-11-27T17:43:48Z,2024-12-03T20:09:11+00:00,4,146.42,True,18,0,1,1375,3,0,3,MERGED
+11558,frontend: Make projectors somewhat work on Wayland,cg2121,2024-11-24T00:00:55Z,2025-01-26T07:52:43+00:00,2,1519.86,False,69,26,2,686,10,1,11,CLOSED
+11557,frontend: Make list spacing consistent,cg2121,2024-11-23T22:31:52Z,2025-04-01T20:39:54+00:00,1,3094.13,True,2,3,2,665,2,0,2,MERGED
+11555,frontend: Adjust styling for Sources list,Warchamp7,2024-11-22T22:55:00Z,2025-04-03T18:18:46+00:00,3,3163.4,True,25,58,2,1006,3,0,3,MERGED
+11554,cmake: Fix regexp to detect installed FFmpeg version,ysalmon,2024-11-22T20:56:19Z,2025-02-05T17:22:36+00:00,2,1796.44,True,1,1,1,833,0,0,0,MERGED
+11553,UI: Fix missing unassigned icon in System theme,shiina424,2024-11-22T18:12:52Z,2024-11-25T20:45:28+00:00,1,74.54,True,15,0,2,1103,0,0,0,MERGED
+11548,obs-ffmpeg: Set the codec level for AMF encoders,lexano-ivs,2024-11-21T17:50:11Z,2025-04-25T20:48:18+00:00,12,3722.97,True,201,3,1,1652,12,4,16,MERGED
+11543,cmake: Fix build directory exclusion for real,RytoEX,2024-11-21T03:47:09Z,2024-11-26T21:05:53+00:00,5,137.31,True,1,1,1,1172,1,1,2,MERGED
+11541,Add Enhanced Broadcasting support for Linux,lexano-ivs,2024-11-20T19:59:09Z,2025-04-02T03:18:15+00:00,42,3175.32,True,828,9,12,2103,2,16,18,MERGED
+11532,UI: Fix autoconfig saving signed stream key,dsaedtler,2024-11-18T14:53:34Z,2024-11-19T21:00:23+00:00,1,30.11,True,0,11,1,762,0,0,0,MERGED
+11528,decklink: Fix string handling causing plugin to not function,CyBeRoni,2024-11-16T12:58:36Z,2024-11-18T20:58:57+00:00,3,56.01,True,4,4,1,907,11,0,11,MERGED
+11525,UI: Fix handling of Amazon IVS auto URLs when using multitrack video output,palana,2024-11-14T13:49:45Z,2024-11-18T22:12:46+00:00,2,104.38,True,21,10,3,1209,1,0,1,MERGED
+11521,obs-ffmpeg: Add AMD AV1 B-frame support,rhutsAMD,2024-11-13T19:43:38Z,2025-03-13T20:53:17+00:00,4,2881.16,True,25,2,1,789,4,1,5,MERGED
+11520,obs-nvenc: Correct max target quality for AV1,Bleuzen,2024-11-13T19:01:16Z,2025-02-07T20:30:00+00:00,2,2065.48,True,2,1,1,794,1,0,1,MERGED
+11518,obs-outputs: Make MP4 output buffer/chunk size configurable,derrod,2024-11-13T14:52:31Z,2025-01-28T19:37:28+00:00,1,1828.75,True,12,5,1,772,0,0,0,MERGED
+11517,obs-outputs: Attempt to generate path if one is not specified,tt2468,2024-11-13T10:10:20Z,2025-01-27T21:02:53+00:00,3,1810.88,True,11,4,1,1160,0,1,1,MERGED
+11512,obs-transitions: Fix stinger showing count for update during transition,exeldro,2024-11-12T10:15:00Z,2025-08-20T17:34:57+00:00,3,6751.33,True,12,1,1,915,2,3,5,MERGED
+11511,obs-ffmpeg: Fix deprecation with FFmpeg 7.1,tytan652,2024-11-12T10:07:56Z,2025-01-24T22:38:24+00:00,1,1764.51,True,44,15,2,719,3,0,3,MERGED
+11510,obs-ffmpeg: Avoid setting negative bitrate for lossless audio codec,tytan652,2024-11-12T09:42:21Z,2024-11-20T18:27:39+00:00,3,200.75,True,1,1,1,756,0,0,0,MERGED
+11509,rtmp-services: Add Enhanced Streaming support for Dolby Millicast,murillo128,2024-11-11T12:54:58Z,2025-05-01T18:05:45+00:00,5,4109.18,True,6,3,2,565,22,2,24,MERGED
+11507,libobs: plugins: Use MAD for sRGB functions,jpark37,2024-11-11T03:51:00Z,2025-01-29T19:11:34+00:00,1,1911.34,True,7,7,6,927,3,0,3,MERGED
+11503,frontend-tools: Correctly pass settings to modified cb on reload,Penwy,2024-11-09T09:10:54Z,2024-11-19T23:11:08+00:00,1,254.0,True,2,2,1,1107,2,0,2,MERGED
+11501,cmake: Fix build directory exclusion,RytoEX,2024-11-08T20:42:04Z,2024-11-15T20:30:09+00:00,3,167.8,True,1,1,1,633,6,1,7,MERGED
+11495,libobs/util: Fix tv_nsec becoming 1000000000 in os_event_timedwait,norihiro,2024-11-06T12:02:54Z,2025-01-24T20:28:58+00:00,2,1904.43,True,1,1,1,1457,0,0,0,MERGED
+11492,frontend: Reorganize Preview/Source context menu,Warchamp7,2024-11-05T21:42:48Z,2025-04-15T22:00:43+00:00,2,3864.3,True,167,138,10,1582,5,0,5,MERGED
+11484,"Compatible with FFmpeg-7.1, removed all deprecated. To be tested ...",jiapei100,2024-11-03T20:47:03Z,2025-01-24T22:38:25+00:00,1,1969.86,False,154,30,3,399,1,0,1,CLOSED
+11480,UI: Create YouTube Dock when switching profile,shiina424,2024-11-02T19:59:48Z,2024-11-05T19:42:06+00:00,2,71.7,True,4,0,1,1550,0,0,0,MERGED
+11477,mac-capture: Don't read channels for disconnected audio device,jcm93,2024-11-02T01:28:42Z,2024-11-08T18:14:34+00:00,2,160.76,True,1,1,1,1324,0,0,0,MERGED
+11474,obs-qsv11: Remove old DX9 code and DX11 checks,RytoEX,2024-11-01T21:03:55Z,2024-11-07T22:34:00+00:00,1,145.5,True,0,15,2,1022,0,0,0,MERGED
+11473,obs-qsv11: Remove old MSDK 1.6 code,RytoEX,2024-11-01T20:50:23Z,2024-11-07T21:47:06+00:00,4,144.95,True,11,69,1,804,1,1,2,MERGED
+11472,"UI,libobs,obs-outputs: Remove HAVE_OBSCONFIG_H ifdefs",gxalpha,2024-11-01T20:37:30Z,2025-04-30T17:05:35+00:00,12,4316.47,True,4,30,8,1013,7,1,8,MERGED
+11471,rtmp-services: Update sheeta service URL,KOUCHANGdw,2024-11-01T06:59:17Z,2024-11-11T20:13:46+00:00,1,253.24,False,1,1,1,997,13,0,13,CLOSED
+11467,obs-filters: Move nvafx migration to queued task,exeldro,2024-10-30T14:17:23Z,2024-11-07T21:07:13+00:00,2,198.83,True,14,4,1,856,1,0,1,MERGED
+11465,UI: Update profile encoder information after module load,PatTheMav,2024-10-29T15:15:22Z,2024-10-30T20:18:29+00:00,1,29.05,True,10,7,3,1757,3,0,3,MERGED
+11460,obs-qsv11: Fix CBR Spike for Battlemage,thyintel,2024-10-28T22:36:43Z,2025-03-13T19:40:29+00:00,3,3261.06,True,3,3,1,609,9,0,9,MERGED
+11452,frontend: Implement multitrack output restart if stream key has become invalid,dsaedtler,2024-10-27T01:55:57Z,2025-01-29T18:16:47+00:00,4,2272.35,True,40,52,3,1995,1,1,2,MERGED
+11450,UI: Restore frontend API events being dispatched during initialization,PatTheMav,2024-10-26T20:27:08Z,2024-10-30T17:46:36+00:00,4,93.32,True,9,0,1,1325,3,0,3,MERGED
+11448,UI: Open active profile directory via File menu,WizardCM,2024-10-26T05:01:52Z,2024-10-30T19:57:46+00:00,6,110.93,True,7,8,1,1206,0,3,3,MERGED
+11445,cmake: Fix target_add_resource ARGN support on Linux,tytan652,2024-10-24T09:49:18Z,2024-10-24T19:08:37+00:00,3,9.32,True,1,1,1,599,0,0,0,MERGED
+11444,UI/themes: Fix missing icon in system theme,shiina424,2024-10-23T18:54:59Z,2024-11-01T20:03:14+00:00,1,217.14,True,7,0,3,1003,0,0,0,MERGED
+11442,mac-videotoolbox: Add Spatial AQ option (macOS 15),dsaedtler,2024-10-23T15:11:08Z,2025-01-29T22:01:55+00:00,13,2358.85,True,45,1,2,845,5,6,11,MERGED
+11440,frontend: Add support for TEB/Multitrack Video to macOS (arm64 only),dsaedtler,2024-10-22T20:53:26Z,2025-02-11T20:43:14+00:00,10,2687.83,True,99,2,2,798,2,5,7,MERGED
+11439,librtmp: Use /etc/ssl/certs/ path on FreeBSD,emaste,2024-10-22T20:50:38Z,2024-10-30T19:01:46+00:00,4,190.19,True,1,1,1,966,0,0,0,MERGED
+11438,UI: Log Twitch 403 error bodies,derrod,2024-10-22T20:22:10Z,2024-10-23T16:51:56+00:00,1,20.5,True,3,2,1,1024,0,0,0,MERGED
+11437,cmake/plugins: Enable -Wswitch on GCC,tytan652,2024-10-22T16:52:23Z,2024-10-25T17:01:34+00:00,4,72.15,True,9,0,3,817,0,1,1,MERGED
+11430,graphics-hook: Fix null pointer dereference,Charlese2,2024-10-21T16:51:03Z,2024-10-31T16:46:04+00:00,4,239.92,True,5,5,5,1521,2,0,2,MERGED
+11424,build-aux: Remove CEF stripping workaround,tytan652,2024-10-20T07:37:28Z,2024-10-22T19:08:10+00:00,1,59.51,True,1,2,1,813,0,0,0,MERGED
+11422,UI: Split out Whats New dialog to fix shutdown crash on Linux,WizardCM,2024-10-19T23:04:11Z,2024-10-24T20:01:46+00:00,7,116.96,True,102,29,4,1940,2,2,4,MERGED
+11415,UI: Update order of profiles and scene collections in their menus,PatTheMav,2024-10-18T12:18:23Z,2024-10-21T15:51:33+00:00,2,75.55,True,94,21,2,2056,4,0,4,MERGED
+11412,UI/importers: Translate capture sources depending on display server,SarenDev,2024-10-18T01:05:42Z,2024-10-30T18:39:30+00:00,4,305.56,True,10,1,1,829,8,2,10,MERGED
+11411,UI: Add TikTok Live Studio Virtual Camera to DLL blocklist,notr1ch,2024-10-16T20:55:33Z,2024-10-30T18:16:48+00:00,1,333.35,True,5,0,1,1032,0,0,0,MERGED
+11410,cmake: Install desktop files and icons on FreeBSD,vishwin,2024-10-16T19:49:07Z,2024-10-29T19:20:20+00:00,2,311.52,True,33,0,1,889,3,0,3,MERGED
+11409,Use XDG config paths on FreeBSD,emaste,2024-10-16T18:06:07Z,2024-10-18T22:19:19+00:00,14,52.22,True,36,29,4,1335,7,4,11,MERGED
+11406,linux-pipewire: Fix memory leaks,dimtpap,2024-10-16T14:55:37Z,2024-10-29T19:47:19+00:00,2,316.86,True,6,0,2,782,0,0,0,MERGED
+11404,CONTRIBUTING.rst: Update Coding Guidelines for 120 column limit,emaste,2024-10-16T02:22:21Z,2024-10-16T17:29:47+00:00,1,15.12,True,1,1,1,797,2,0,2,MERGED
+11399,obs-outputs: Add cast to fix build with Clang 19,emaste,2024-10-14T19:18:09Z,2024-10-16T15:59:07+00:00,10,44.68,True,1,1,1,963,0,1,1,MERGED
+11397,UI: Catch error from copy in MigrateGlobalSettings,emaste,2024-10-14T02:11:53Z,2024-10-16T15:37:22+00:00,7,61.42,True,6,1,1,1075,6,2,8,MERGED
+11393,UI/themes: Fix control button pressed color in Rachni theme,shiina424,2024-10-13T12:48:34Z,2024-11-01T19:31:13+00:00,1,462.71,True,10,0,1,964,2,0,2,MERGED
+11392,UI/themes: Fix missing icon in system theme,shiina424,2024-10-13T12:34:55Z,2024-10-23T16:18:34+00:00,1,243.73,False,3,2,1,895,3,0,3,CLOSED
+11391,UI: Fix initialization bug when launching without existing profile,PatTheMav,2024-10-13T02:49:43Z,2024-10-15T18:28:43+00:00,1,63.65,True,2,1,1,1216,1,0,1,MERGED
+11389,CI: Bump FreeBSD image to 14.1,emaste,2024-10-12T15:09:39Z,2024-10-16T17:01:48+00:00,1,97.87,True,1,1,1,617,3,0,3,MERGED
+11386,obs-qsv11: Update minimum VPL version to 2.9,RytoEX,2024-10-12T01:37:33Z,2024-10-15T18:52:04+00:00,2,89.24,True,2,2,2,637,1,0,1,MERGED
+11385,cmake: Use NOMINMAX on Windows,RytoEX,2024-10-12T01:24:05Z,2025-02-07T19:52:24+00:00,3,2850.47,True,9,12,10,1000,1,0,1,MERGED
+11384,UI: Set minimum version for nlohmann_json to 3.11,RytoEX,2024-10-11T19:36:52Z,2024-10-15T17:30:35+00:00,2,93.9,True,4,4,4,979,0,0,0,MERGED
+11380,UI: Fix crash and UX issues with updated profile and scene collection management,PatTheMav,2024-10-10T14:03:15Z,2024-10-10T20:38:33+00:00,5,6.59,True,39,70,5,1751,0,1,1,MERGED
+11379,UI: Remove custom YouTube chat input,gxalpha,2024-10-10T08:39:29Z,2024-10-30T15:59:33+00:00,2,487.33,True,15,257,9,1340,1,0,1,MERGED
+11377,UI/themes: Consistently select indicator-mute instead of MuteCheckBox,gxalpha,2024-10-09T18:10:14Z,2024-10-11T18:04:28+00:00,4,47.9,True,33,33,6,1163,0,1,1,MERGED
+11376,UI/themes: Fix selectors in Yami Light,gxalpha,2024-10-09T17:48:52Z,2024-10-10T18:37:02+00:00,2,24.8,True,8,8,1,690,0,0,0,MERGED
+11375,win-capture: Avoid NULL deref when capture not initialized,confusionattack,2024-10-09T17:38:23Z,2024-11-16T19:32:11+00:00,1,913.9,True,11,3,4,1840,3,0,3,MERGED
+11374,libobs: Add source profiler to public headers,exeldro,2024-10-09T07:08:36Z,2024-10-10T21:19:46+00:00,2,38.19,True,1,0,1,508,0,0,0,MERGED
+11370,libobs/graphics: Remove unused source file graphics-magick.c,norihiro,2024-10-08T16:00:29Z,2024-10-08T17:25:06+00:00,1,1.41,True,0,69,1,896,0,0,0,MERGED
+11369,shared/opts-parser: Fix crash when no options were given to the parser,norihiro,2024-10-08T15:46:27Z,2024-10-08T17:53:07+00:00,7,2.11,True,6,0,1,1579,0,2,2,MERGED
+11365,UI: Explicitly convert profile config path via u8path,derrod,2024-10-07T23:00:19Z,2024-10-08T16:59:45+00:00,5,17.99,True,3,4,1,655,3,2,5,MERGED
+11358,frontend: Resize Output to Source Size using rounded up values,flaeri,2024-10-06T16:25:44Z,2025-02-05T20:50:56+00:00,5,2932.42,True,3,0,1,762,6,0,6,MERGED
+11356,shared/icon-label: Prevent moc from being appended to global file,gxalpha,2024-10-06T12:41:50Z,2025-08-19T20:08:06+00:00,4,7615.44,True,35,8,4,1027,4,0,4,MERGED
+11355,win-update: Remove legacy CMake file,tytan652,2024-10-06T10:58:16Z,2024-10-07T19:02:23+00:00,1,32.07,True,0,50,1,634,0,0,0,MERGED
+11354,UI: Fix locale key for rename profile text,shiina424,2024-10-06T05:28:33Z,2024-10-07T18:47:48+00:00,1,37.32,True,1,1,1,847,0,0,0,MERGED
+11353,obs-nvenc: Add missing locale text,shiina424,2024-10-06T02:35:19Z,2024-10-07T18:27:52+00:00,1,39.88,True,3,0,1,648,0,0,0,MERGED
+11351,linux-capture: Fix xcomposite null pointer derefence,Lain-B,2024-10-05T21:12:46Z,2024-10-05T23:49:24+00:00,6,2.61,True,4,2,2,754,0,1,1,MERGED
+11350,UI: Fix settings mismatch,shiina424,2024-10-05T16:31:39Z,2024-10-07T18:13:26+00:00,2,49.7,True,14,14,4,998,1,0,1,MERGED
+11345,cmake: Use fixed SOVERSION everywhere,kkartaltepe,2024-10-05T02:51:26Z,2024-10-05T21:03:14+00:00,8,18.2,True,6,5,1,740,0,1,1,MERGED
+11337,Support GPU format/colorspace conversion,dsaedtler,2024-10-02T16:11:55Z,2025-01-29T20:01:19+00:00,4,2859.82,True,150,33,11,1228,1,4,5,MERGED
+11336,UI: Set NV12 as preferred format for multitrack video encoders,dsaedtler,2024-10-02T16:07:27Z,2024-10-03T20:47:32+00:00,1,28.67,True,2,0,1,1707,0,0,0,MERGED
+11333,plugins/test: Remove legacy CMake remnants,tytan652,2024-10-02T10:38:03Z,2024-10-03T21:32:08+00:00,1,34.9,True,0,76,4,589,0,0,0,MERGED
+11325,libobs: Remove unused is_in_bundle() method,gxalpha,2024-09-27T19:45:42Z,2024-10-03T21:09:54+00:00,2,145.4,True,0,7,1,656,0,0,0,MERGED
+11324,libobs: Assure large enough buffer in dstr_from_cfstring,gxalpha,2024-09-27T19:10:07Z,2024-10-04T17:36:09+00:00,4,166.43,True,3,1,1,2413,0,1,1,MERGED
+11322,UI: Fix What's New increment settings mismatch,gxalpha,2024-09-27T11:53:36Z,2024-10-03T14:44:47+00:00,3,146.85,True,1,1,1,850,0,0,0,MERGED
+11317,libobs: Fix sending unclamped audio to output handler,norihiro,2024-09-26T13:34:24Z,2024-09-26T23:12:34+00:00,1,9.64,True,4,3,1,2427,0,0,0,MERGED
+11315,libobs: Fix source profiling inactive sources,exeldro,2024-09-25T19:54:39Z,2024-09-26T22:09:15+00:00,1,26.24,True,6,3,1,794,2,0,2,MERGED
+11308,libobs: Disable transform debug logging by default,derrod,2024-09-22T13:13:32Z,2024-09-26T21:46:47+00:00,1,104.55,True,3,3,1,546,0,0,0,MERGED
+11307,libobs: Fix crop values for new nested scene sources being incorrect,derrod,2024-09-22T13:10:36Z,2024-09-26T20:08:42+00:00,1,102.97,True,3,0,1,699,2,0,2,MERGED
+11304,libobs: Do not allow reconnect if stop code is OBS_OUTPUT_INVALID_STREAM,dsaedtler,2024-09-21T15:35:35Z,2024-09-26T19:14:26+00:00,1,123.65,True,3,2,1,1372,0,0,0,MERGED
+11301,"UI: Fix crash when creating scene collections with ""unsafe"" names",PatTheMav,2024-09-18T21:10:19Z,2024-09-27T18:01:38+00:00,3,212.86,True,0,4,1,1388,0,1,1,MERGED
+11300,UI: Fix missing support for portable configuration files,PatTheMav,2024-09-18T21:04:22Z,2024-09-26T18:39:44+00:00,4,189.59,True,24,8,3,1348,3,1,4,MERGED
+11299,cmake: Disable discovery of Homebrew libraries for dependencies,PatTheMav,2024-09-18T18:44:54Z,2024-09-26T18:14:56+00:00,4,191.5,True,3,1,2,1118,10,2,12,MERGED
+11296,libobs: Do not attempt to reconnect if stop event is set,dsaedtler,2024-09-18T14:44:53Z,2024-10-03T20:11:21+00:00,1,365.44,True,6,0,1,1822,0,0,0,MERGED
+11293,UI: Fix config class mismatch in OBSApp class,PatTheMav,2024-09-16T18:55:29Z,2024-09-18T20:29:01+00:00,1,49.56,True,14,14,2,678,2,0,2,MERGED
+11291,shared/bpm: Fixed crash when using Stream Delay,lexano-ivs,2024-09-16T15:30:17Z,2024-10-04T19:49:44+00:00,1,436.32,True,10,8,2,1565,1,0,1,MERGED
+11284,UI: Fix outdated scene collection and profile method names,PatTheMav,2024-09-14T16:00:35Z,2024-09-16T19:53:51+00:00,2,51.89,True,3,3,1,1045,0,0,0,MERGED
+11282,CI: Minor update of build scripts and GitHub Actions workflows and actions,PatTheMav,2024-09-13T22:00:17Z,2024-09-18T20:08:38+00:00,2,118.14,True,188,116,15,1572,2,6,8,MERGED
+11280,libobs: Deselect scene item before removing,gxalpha,2024-09-13T21:15:02Z,2024-09-16T22:10:12+00:00,2,72.92,True,1,0,1,1563,0,0,0,MERGED
+11278,CI: Update third-party GitHub Actions,RytoEX,2024-09-13T19:29:49Z,2024-09-13T21:40:43+00:00,1,2.18,True,2,2,2,1483,0,0,0,MERGED
+11277,linux-pipewire: Avoid trying to allocate 0 byte,tytan652,2024-09-13T11:26:32Z,2024-10-05T23:50:31+00:00,2,540.4,True,6,0,1,643,0,0,0,MERGED
+11275,docs: Add obs_frontend_get_user_config,exeldro,2024-09-13T07:51:39Z,2024-09-17T16:10:22+00:00,1,104.31,True,17,0,1,512,0,0,0,MERGED
+11272,cmake: Disable CCache for local builds and enable by default for CI,PatTheMav,2024-09-12T16:28:44Z,2024-09-12T21:45:29+00:00,1,5.28,True,7,7,2,1646,0,0,0,MERGED
+11271,cmake: Update supported CMake version range to 3.28 and 3.30,PatTheMav,2024-09-12T15:56:08Z,2024-09-13T18:42:32+00:00,2,26.77,True,129,144,98,1058,9,10,19,MERGED
+11270,CI: Set default values for have* outputs in macos-codesigning action,gxalpha,2024-09-12T12:38:06Z,2024-09-18T20:49:54+00:00,3,152.2,True,4,2,1,1916,4,0,4,MERGED
+11269,"cmake,CI: cmake-format cleanup",gxalpha,2024-09-12T12:02:48Z,2024-09-12T18:20:28+00:00,6,6.29,True,3,69,4,847,0,1,1,MERGED
+11266,rtmp-services: Remove outdated Dolby Millicast locations,FabienLavocat,2024-09-12T07:10:50Z,2024-09-12T19:13:16+00:00,1,12.04,True,2,10,2,591,1,0,1,MERGED
+11265,libobs: Remove obs_output_signal_delay,norihiro,2024-09-12T02:03:44Z,2024-09-16T20:29:27+00:00,2,114.43,True,0,11,1,729,0,0,0,MERGED
+11263,obs-nvenc: Fix reading uninitialized variable,norihiro,2024-09-11T13:07:36Z,2024-09-11T17:02:58+00:00,2,3.92,True,2,1,1,2931,1,0,1,MERGED
+11262,frontend: Enable browser hw accel toggle under Linux,tytan652,2024-09-11T12:14:26Z,2025-05-24T18:20:21+00:00,6,6126.1,True,9,7,2,697,0,1,1,MERGED
+11260,obs-nvenc: Check if device index in settings object is actually set,derrod,2024-09-10T21:23:22Z,2024-09-10T22:50:49+00:00,1,1.46,True,2,1,1,758,0,0,0,MERGED
+11259,obs-nvenc: Support new error code for too many sessions,derrod,2024-09-10T16:57:38Z,2024-09-10T21:51:34+00:00,1,4.9,True,1,0,1,762,0,0,0,MERGED
+11255,rtmp-services: Remove defunct servers/services,github-actions,2024-09-09T00:38:21Z,2024-09-26T17:52:43+00:00,1,425.24,True,5,39,2,404,6,0,6,MERGED
+11253,CI: Fix condition for changed files in upload locales action,unknown,2024-09-08T20:41:54Z,2024-09-11T16:26:37+00:00,1,67.75,True,1,1,1,776,0,0,0,MERGED
+11251,"libobs,UI: Replace and deprecate obs_scene_sceneitem_from_source",gxalpha,2024-09-07T20:20:18Z,2024-09-27T21:22:44+00:00,7,481.04,True,21,12,3,1305,0,1,1,MERGED
+11249,libobs: Add obs_encoder_get_mixer_index,exeldro,2024-09-06T10:37:22Z,2024-09-12T22:07:19+00:00,2,155.5,True,29,2,4,589,0,1,1,MERGED
+11248,Remove legacy_check CMake macro,tytan652,2024-09-06T06:00:29Z,2024-09-11T17:24:39+00:00,2,131.4,True,0,95,44,788,0,0,0,MERGED
+11244,build-aux: Update Flatpak modules,tytan652,2024-09-05T18:46:40Z,2024-09-06T03:56:00+00:00,1,9.16,True,11,11,5,701,0,0,0,MERGED
+11243,CI: Update deps to 2024-09-05 release,RytoEX,2024-09-05T18:27:53Z,2024-09-06T03:32:34+00:00,1,9.08,True,10,10,1,1674,1,0,1,MERGED
+11235,obs-filters: Fix building of noise reduction,pkviet,2024-09-03T20:05:42Z,2024-09-10T18:50:46+00:00,10,166.75,True,6,5,3,792,6,4,10,MERGED
+11234,win-capture: Fix segfault when calling data.free(),sccooper,2024-09-03T03:29:27Z,2024-09-07T23:09:03+00:00,2,115.66,True,4,2,1,1652,0,0,0,MERGED
+11232,linux-capture: Prevent X11 display/window captures from capturing implicitly,Lain-B,2024-09-02T17:36:31Z,2024-09-03T20:28:19+00:00,2,26.86,True,171,36,4,1993,1,1,2,MERGED
+11226,UI: Replace themeID and style hints with class property,Warchamp7,2024-08-30T22:25:59Z,2024-10-04T19:20:49+00:00,5,836.91,True,586,648,33,1447,0,5,5,MERGED
+11225,UI: Replace remaining SIGNAL/SLOT macros,gxalpha,2024-08-30T15:35:55Z,2024-08-31T15:39:08+00:00,1,24.05,True,6,6,2,918,0,0,0,MERGED
+11220,cmake: Avoid breaking ABI through major version bump on Linux,tytan652,2024-08-29T15:10:56Z,2024-09-10T04:41:26+00:00,9,277.51,True,4,4,1,822,1,1,2,MERGED
+11219,GS/GL Shenannigans (Prep for obs-browser hwaccel on Linux ?),tytan652,2024-08-29T13:35:56Z,2024-09-12T19:35:46+00:00,2,342.0,True,2,1,1,1202,4,0,4,MERGED
+11218,build-aux: Update Flatpak CEF from 103/5060 to 127/6533,tytan652,2024-08-29T09:44:21Z,2024-08-31T03:05:05+00:00,2,41.35,True,9,12,2,1054,4,0,4,MERGED
+11217,UI: Fix Qt UIC warning in settings UI,tytan652,2024-08-29T09:23:45Z,2024-08-31T16:06:38+00:00,1,54.71,True,1,1,1,791,0,0,0,MERGED
+11215,frontend: Remove unnecessary projector variable,cg2121,2024-08-29T00:53:10Z,2025-01-30T20:16:24+00:00,4,3715.39,True,5,11,2,602,3,0,3,MERGED
+11214,CI: Update flatpak-builder and flat-manager actions,RytoEX,2024-08-28T23:53:10Z,2024-08-29T17:31:39+00:00,2,17.64,True,4,4,2,963,0,0,0,MERGED
+11213,CI: Update CEF from 103/5060 to 127/6533,RytoEX,2024-08-28T23:08:39Z,2024-08-31T02:38:35+00:00,2,51.5,True,6,13,1,939,4,0,4,MERGED
+11212,libobs: Always set initial scene item pos to top-left corner,derrod,2024-08-28T22:45:57Z,2024-09-02T18:39:18+00:00,2,115.89,True,4,0,1,727,0,0,0,MERGED
+11210,libobs: Fix Windows x86 CMake when using reduced obs-deps package,RytoEX,2024-08-28T20:20:03Z,2024-08-28T22:26:47+00:00,1,2.11,True,9,0,2,719,0,0,0,MERGED
+11209,UI: Fix error color at clipping is not displayed on horizontal meter,norihiro,2024-08-28T07:44:35Z,2024-09-27T17:30:10+00:00,1,729.76,True,1,1,1,1173,0,0,0,MERGED
+11208,UI: Fix low value of std::clamp gets greater than high value,norihiro,2024-08-28T07:23:44Z,2024-09-18T21:15:02+00:00,2,517.86,True,1,1,1,1688,2,0,2,MERGED
+11207,linux-pipewire: Fix 10- and 16-bit captures,PancakeTAS,2024-08-28T00:56:17Z,2025-04-01T20:01:29+00:00,9,5203.09,True,27,8,2,880,2,1,3,MERGED
+11206,libobs: Deprecate obs_get_transition_by_[name|uuid],gxalpha,2024-08-28T00:38:20Z,2025-04-01T21:07:24+00:00,3,5204.48,True,8,2,2,2318,3,0,3,MERGED
+11205,rtmp-services: Remove outdated Dolby Millicast locations,FabienLavocat,2024-08-27T22:55:21Z,2024-09-12T07:10:57+00:00,1,368.26,False,0,8,1,591,1,0,1,CLOSED
+11204,win-dshow: Fix CMake preventing Virtual Camera from working,RytoEX,2024-08-27T22:21:50Z,2024-08-28T22:10:08+00:00,1,23.8,True,3,3,1,722,0,0,0,MERGED
+11203,frontend: Simplify how projectors are saved/loaded,cg2121,2024-08-27T20:47:07Z,2025-01-31T17:20:33+00:00,3,3764.56,True,8,24,4,578,2,0,2,MERGED
+11198,shared/properties-view: Remove Qt 6.2 cmake code,gxalpha,2024-08-27T13:27:15Z,2024-08-29T03:21:06+00:00,1,37.9,True,0,4,1,656,0,0,0,MERGED
+11194,shared/qt: Remove unused libobs includes/linkage,gxalpha,2024-08-27T10:44:35Z,2024-08-31T03:55:46+00:00,1,89.19,True,1,3,3,753,1,0,1,MERGED
+11191,aja: Remove holding source settings,norihiro,2024-08-26T09:16:26Z,2025-01-29T18:39:58+00:00,1,3753.39,True,2,6,1,1801,5,0,5,MERGED
+11187,cmake/linux: Move color diagnostics settings to cmake-preset,norihiro,2024-08-26T07:29:34Z,2024-09-10T18:30:18+00:00,5,371.01,True,5,8,3,1790,2,1,3,MERGED
+11185,cmake: Exclude macOS .DS_Store from resources,gxalpha,2024-08-25T20:51:48Z,2024-08-31T14:39:11+00:00,1,137.79,True,1,0,1,785,0,0,0,MERGED
+11182,frontend: Add preview zoom controls,cg2121,2024-08-24T04:15:42Z,2025-04-01T21:31:09+00:00,4,5297.26,True,269,44,9,669,1,1,2,MERGED
+11180,UI: Fix multitrack video autoconfig option,lexano-ivs,2024-08-23T21:30:05Z,2024-09-10T20:04:56+00:00,1,430.58,True,77,65,1,891,4,0,4,MERGED
+11179,Au revoir CMake 2.0.0,tytan652,2024-08-23T20:12:00Z,2024-08-28T17:53:25+00:00,3,117.69,True,83,10187,103,786,0,2,2,MERGED
+11169,cmake: Remove legacy code path for Windows modules,PatTheMav,2024-08-21T16:03:18Z,2024-08-22T19:39:01+00:00,1,27.6,True,1,602,21,624,0,0,0,MERGED
+11167,UI: Use std::clamp instead of macro,norihiro,2024-08-21T12:16:08Z,2024-08-24T23:16:08+00:00,1,83.0,True,5,5,1,706,3,0,3,MERGED
+11165,UI: Force UpdateEditMenu on UI Thread,exeldro,2024-08-21T08:00:57Z,2024-08-24T01:27:43+00:00,5,65.45,True,9,5,2,610,4,1,5,MERGED
+11164,Remove deprecated stuff,derrod,2024-08-21T07:54:37Z,2024-08-28T23:10:27+00:00,2,183.26,True,4,476,23,797,7,0,7,MERGED
+11163,build-aux: Update Flatpak modules,tytan652,2024-08-21T07:15:19Z,2024-08-21T23:38:17+00:00,1,16.38,True,6,6,3,730,0,0,0,MERGED
+11159,frontend: Use OBSBasic::Get() in all places,cg2121,2024-08-20T06:54:13Z,2025-02-05T20:15:52+00:00,3,4069.36,True,75,78,25,594,1,1,2,MERGED
+11153,obs-nvenc: Fix nvenc availability check always returning true,derrod,2024-08-19T02:59:11Z,2024-08-19T05:30:44+00:00,1,2.53,True,1,1,1,566,1,0,1,MERGED
+11152,libobs: Add NULL check to encoder deprecation warning,derrod,2024-08-19T02:56:09Z,2024-08-19T05:30:03+00:00,1,2.56,True,1,1,1,540,0,0,0,MERGED
+11150,UI: Remove now unused GetMonitorName for Qt < 6.4,derrod,2024-08-18T07:58:38Z,2024-08-20T22:03:37+00:00,1,62.08,True,1,74,3,532,0,0,0,MERGED
+11148,"shared: Make properties view ""help"" icon High DPI",gxalpha,2024-08-18T02:16:08Z,2024-08-28T23:42:10+00:00,2,261.43,True,121,40,4,899,0,0,0,MERGED
+11147,Remove support for Ubuntu 22.04,derrod,2024-08-18T01:15:09Z,2024-08-23T17:44:04+00:00,16,136.48,True,39,538,33,727,2,2,4,MERGED
+11146,UI: Inline macOS 13 check,gxalpha,2024-08-18T00:24:18Z,2024-08-24T02:09:48+00:00,4,145.76,True,5,11,3,668,4,1,5,MERGED
+11144,cmake: Remove WITH_MESSAGE from obs-qsv11,gxalpha,2024-08-17T18:17:42Z,2024-08-20T19:22:15+00:00,1,73.08,True,0,1,1,831,6,0,6,MERGED
+11141,frontend: Add audio properties to GetClientConfiguration request,palana,2024-08-16T15:00:54Z,2025-01-29T19:37:19+00:00,5,3988.61,True,38,1,4,1254,7,1,8,MERGED
+11137,obs-ffmpeg: Fix VAAPI/NVENC ifdefs,viric,2024-08-15T10:02:05Z,2024-08-16T17:25:07+00:00,3,31.38,True,1,1,1,637,3,0,3,MERGED
+11131,mac-capture: Remove disp_finished event,gxalpha,2024-08-13T15:13:13Z,2024-08-25T00:17:06+00:00,3,273.06,True,0,13,3,933,1,2,3,MERGED
+11126,UI: Add UUID to file-based list widgets,CodeYan01,2024-08-12T20:16:45Z,2024-08-18T20:00:11+00:00,2,143.72,True,29,3,1,3388,2,0,2,MERGED
+11125,obs-nvenc: Fix building with nvcodec 12.2,tytan652,2024-08-12T20:12:16Z,2024-08-12T21:40:17+00:00,1,1.47,True,2,2,1,629,0,0,0,MERGED
+11124,libobs: Update macOS platform implementation,PatTheMav,2024-08-12T19:57:20Z,2024-09-12T20:44:39+00:00,14,744.79,True,527,590,1,1253,2,2,4,MERGED
+11122,It is recommended to use emplace_back instead of push_back.,monster29000,2024-08-12T10:36:47Z,2024-08-12T17:05:52+00:00,1,6.48,False,56,55,18,399,3,2,5,CLOSED
+11121,obs-nvenc: Improve settings logging / legacy compatibility,derrod,2024-08-12T05:34:28Z,2024-08-17T23:14:48+00:00,4,137.67,True,46,41,2,782,0,2,2,MERGED
+11119,UI/libobs: Add warning/suffix if using a deprecated encoder,derrod,2024-08-12T02:44:16Z,2024-08-17T23:20:38+00:00,2,140.61,True,25,7,3,742,0,0,0,MERGED
+11117,libobs: Move encoders to being fully reference counted,derrod,2024-08-12T02:16:23Z,2024-08-19T05:35:34+00:00,3,171.32,True,59,49,4,1092,0,1,1,MERGED
+11114,cmake: Fix malformed CMake package location on Windows,PatTheMav,2024-08-11T14:43:22Z,2024-08-20T18:48:08+00:00,2,220.08,True,6,2,2,875,4,0,4,MERGED
+11110,happy-eyeballs: Various bug fixes and improvements,notr1ch,2024-08-11T02:37:30Z,2024-08-13T00:02:04+00:00,1,45.41,True,20,3,1,1536,0,0,0,MERGED
+11109,UI: Fixup ResolveVariable to be less jank,derrod,2024-08-11T00:05:31Z,2024-08-17T23:05:26+00:00,2,167.0,True,8,11,1,686,1,0,1,MERGED
+11104,rtmp-services: Add NFHS Network,migillett,2024-08-09T16:25:46Z,2024-08-23T20:31:41+00:00,5,340.1,True,24,2,2,1165,8,1,9,MERGED
+11103,obs-webrtc: Fix bug in whip-output.cpp to support stun or turn,mondain,2024-08-09T16:06:36Z,2024-09-11T17:55:55+00:00,1,793.82,True,2,1,1,686,4,0,4,MERGED
+11102,CI: Remove game capture dual-signing,derrod,2024-08-09T01:05:01Z,2024-08-15T17:28:59+00:00,1,160.4,True,2,10,3,659,0,0,0,MERGED
+11101,UI: Improve full and incremental compilation times via explicit inclusion of generated Qt header files,PatTheMav,2024-08-08T20:07:49Z,2024-08-22T20:45:12+00:00,3,336.62,True,57,56,57,2868,4,1,5,MERGED
+11100,libobs: Always explicitly check modifiers in macOS hotkey event handler,jcm93,2024-08-08T20:04:19Z,2024-08-10T23:44:28+00:00,1,51.67,True,7,8,1,2095,3,0,3,MERGED
+11097,CI: Update deps to 2024-08-08 release,RytoEX,2024-08-08T19:43:08Z,2024-08-16T17:01:11+00:00,1,189.3,True,8,8,1,837,4,0,4,MERGED
+11080,rtmp-services: Remove Hakuna Live RTMP service,lenaky,2024-08-06T02:01:26Z,2024-08-23T00:33:50+00:00,1,406.54,True,2,25,2,649,0,0,0,MERGED
+11066,cmake: Update 32-bit project generation on Windows,PatTheMav,2024-08-02T19:30:53Z,2024-08-20T20:00:22+00:00,3,432.49,True,1145,461,51,977,8,1,9,MERGED
+11064,CI: Add clang-analyze analytics for macOS builds,PatTheMav,2024-08-02T16:51:36Z,2024-08-20T21:20:31+00:00,3,436.48,True,99,7,2,884,0,1,1,MERGED
+11063,Remove min and max macro workaround,norihiro,2024-08-02T07:27:03Z,2024-08-03T23:57:17+00:00,1,40.5,True,7,7,3,1152,0,0,0,MERGED
+11060,obs-qsv11: Add AV1 Screen Content Coding,thyintel,2024-08-01T20:34:26Z,2024-09-13T19:23:35+00:00,13,1030.82,True,38,0,4,838,1,5,6,MERGED
+11059,obs-qsv11: Check for null response on free,kkartaltepe,2024-08-01T01:17:43Z,2024-08-06T00:28:07+00:00,5,119.17,True,3,0,1,786,1,2,3,MERGED
+11056,cmake: Update use of MbedTLS to support versions 3.6.0 and beyond,PatTheMav,2024-07-31T18:18:49Z,2024-09-13T22:30:42+00:00,1,1060.2,True,47,31,4,1337,5,0,5,MERGED
+11055,"UI: Implement backend work for configurable storage locations for settings, profiles, and scene collections",PatTheMav,2024-07-31T17:29:08Z,2024-09-12T20:18:46+00:00,20,1034.83,True,2762,2132,39,4066,12,6,18,MERGED
+11052,shared/media-playback: Unref sw_frame before reuse if using hardware decoding,tt2468,2024-07-31T10:24:45Z,2024-08-03T23:31:02+00:00,3,85.1,True,1,10,1,968,1,0,1,MERGED
+11051,UI: Fix leak with paint event of volume slider,pkviet,2024-07-31T09:31:37Z,2024-08-03T23:27:17+00:00,5,85.93,True,3,4,1,615,1,0,1,MERGED
+11043,Remove unused functions,norihiro,2024-07-29T15:21:32Z,2024-08-07T21:27:49+00:00,3,222.1,True,39,176,21,1680,0,0,0,MERGED
+11038,UI: Ensure collection name is set before creating default scene,derrod,2024-07-28T17:11:51Z,2024-08-06T00:07:39+00:00,1,198.93,True,27,0,1,593,0,0,0,MERGED
+11030,win-update: Use correct winhttp proxy type,eebssk1,2024-07-26T10:09:45Z,2024-08-19T11:25:33+00:00,3,577.26,True,3,3,2,684,4,0,4,MERGED
+11027,win-capture: Add Zenless Zone Zero to compatibility list,Gol-D-Ace,2024-07-24T15:29:27Z,2024-07-24T20:05:26+00:00,1,4.6,True,16,2,2,847,0,0,0,MERGED
+11021,mac-virtualcam: Improve 'not found' error message,jcm93,2024-07-23T18:07:50Z,2024-08-05T23:36:05+00:00,3,317.47,True,1,1,1,1654,2,0,2,MERGED
+11018,obs-ffmpeg: Add QVBR rate control for VA-API,nowrep,2024-07-22T07:13:06Z,2025-01-24T20:04:50+00:00,2,4476.86,True,4,0,1,660,2,0,2,MERGED
+11011,CI: Do not mark legacy MF/AMF plugins as deleted,derrod,2024-07-20T03:27:10Z,2024-07-22T16:19:46+00:00,1,60.88,True,6,0,1,647,0,0,0,MERGED
+11010,UI: Fix cast of pointer type at invalid current scene setting on load,norihiro,2024-07-20T01:26:36Z,2024-07-20T23:49:21+00:00,1,22.38,True,2,4,1,1773,2,0,2,MERGED
+11006,mac-virtualcam: Update NotInstalled error text for macOS 15,jcm93,2024-07-19T05:46:37Z,2024-07-31T20:29:21+00:00,4,302.71,True,7,1,2,1028,0,1,1,MERGED
+11004,libobs: Add Broadcast Performance Metrics (BPM),lexano-ivs,2024-07-18T19:39:45Z,2024-09-05T20:38:58+00:00,20,1176.99,True,1324,61,19,4357,13,10,23,MERGED
+11002,libobs-opengl: Disable NV12/P010 on Windows,kkartaltepe,2024-07-18T02:17:37Z,2024-07-22T22:07:03+00:00,2,115.82,True,8,0,1,757,1,0,1,MERGED
+11000,Add architecture support to add_obs_plugin and allow QSV only on x86_64,tytan652,2024-07-17T10:27:27Z,2024-07-29T22:11:29+00:00,11,299.73,True,49,7,3,628,0,3,3,MERGED
+10999,obs-outputs: Set FLV DTS offset based on first audio or video packet,derrod,2024-07-17T08:55:09Z,2024-07-22T21:43:45+00:00,1,132.81,True,20,8,3,987,4,0,4,MERGED
+10997,Add support for compiling for Windows on ARM,thirumalai-qcom,2024-07-16T21:14:38Z,2025-02-28T21:29:58+00:00,43,5448.26,True,34,18,9,2552,12,10,22,MERGED
+10996,obs-ffmpeg: Disable NVENC/AMF DTS adjustment for AV1,palana,2024-07-16T14:28:26Z,2024-07-30T15:10:47+00:00,2,336.71,True,4,3,2,1561,2,0,2,MERGED
+10993,libobs/graphics: Prevent heap overflow in libnsgif,RytoEX,2024-07-16T01:49:02Z,2024-07-18T18:34:31+00:00,1,64.76,True,17,0,1,676,0,0,0,MERGED
+10992,UI: Don't create default desktop audio source on macOS 13+,jcm93,2024-07-16T00:14:21Z,2024-08-12T20:45:16+00:00,2,668.52,True,14,0,3,1555,0,0,0,MERGED
+10990,UI: Adjust sizing of Classic audio meter elements,Warchamp7,2024-07-15T18:58:32Z,2024-07-15T21:43:46+00:00,1,2.75,True,9,2,2,862,0,0,0,MERGED
+10989,UI: Fix read-only QTextEdit background color,Warchamp7,2024-07-15T18:02:41Z,2024-07-15T21:41:40+00:00,1,3.65,True,9,1,2,578,0,0,0,MERGED
+10982,cmake: Set CFBundleDisplayName for camera extension,gxalpha,2024-07-13T22:29:45Z,2024-07-30T03:28:39+00:00,2,388.98,True,1,0,1,1055,0,0,0,MERGED
+10975,UI: Fix source tree icon spacing,Warchamp7,2024-07-13T01:51:11Z,2024-07-15T21:39:36+00:00,1,67.81,True,16,8,2,785,0,0,0,MERGED
+10974,UI: Create OBS Studio folder for default recording location,Warchamp7,2024-07-12T19:34:33Z,2025-07-15T19:04:36+00:00,14,8831.5,False,26,7,4,972,1,5,6,CLOSED
+10967,"UI: Fix `qt-helpers.{c,h}pp` not being removed from legacy.cmake",palana,2024-07-11T16:44:00Z,2024-07-11T17:45:19+00:00,1,1.02,True,0,2,1,589,1,0,1,MERGED
+10966,obs-webrtc: Enable PacingHandler,Sean-Der,2024-07-11T14:19:35Z,2025-01-29T22:41:49+00:00,7,4856.37,True,10,0,1,817,9,2,11,MERGED
+10963,UI: Add field growth policy to form layouts,Warchamp7,2024-07-10T18:56:58Z,2024-07-10T23:53:30+00:00,3,4.94,True,150,18,1,1023,1,1,2,MERGED
+10961,Replace vendored SIMD Everywhere by prefix/system install,tytan652,2024-07-09T16:30:47Z,2025-08-21T19:22:09+00:00,18,9794.86,True,142,22924,25,1085,5,6,11,MERGED
+10957,UI: Remove `QFuture` usage,palana,2024-07-08T15:43:20Z,2024-07-10T20:12:53+00:00,7,52.49,True,235,288,10,908,6,2,8,MERGED
+10956,Updated text-functionality.c,Anurag-Modak,2024-07-08T10:26:59Z,2024-07-30T02:43:15+00:00,2,520.27,False,55,51,1,439,3,1,4,CLOSED
+10954,CI: Fix flatpak-builder-lint action,tytan652,2024-07-07T07:46:57Z,2024-07-09T21:10:48+00:00,2,61.4,True,4,3,1,629,5,0,5,MERGED
+10952,libobs: Add `obs_encoder_get_group()`,tt2468,2024-07-06T17:14:32Z,2024-09-07T23:16:38+00:00,1,1518.04,False,10,2,2,940,0,1,1,CLOSED
+10951,libobs: Add `OBS_ENCODER_CAP_SCALING` cap,tt2468,2024-07-06T04:18:32Z,2024-08-23T18:20:54+00:00,3,1166.04,True,20,3,4,1905,0,1,1,MERGED
+10943,obs-ffmpeg: Honor preferred format in native NVENC,derrod,2024-07-03T16:09:06Z,2024-07-06T23:18:52+00:00,1,79.16,True,6,1,1,673,0,0,0,MERGED
+10941,libobs: Fix plane heights for odd values,kkartaltepe,2024-07-03T02:42:57Z,2024-07-03T09:11:48+00:00,1,6.48,True,5,5,1,754,1,0,1,MERGED
+10930,Updated Lightcast.com to Our New Premium CDN,LightcastMediaCloud,2024-06-27T16:19:22Z,2024-08-22T20:18:33+00:00,3,1347.99,True,9,24,2,666,17,0,17,MERGED
+10920,libobs: Also determine WinUI 3 Window,qhy040404,2024-06-26T02:58:49Z,2024-08-18T00:16:06+00:00,2,1269.29,True,19,2,3,1283,1,0,1,MERGED
+10919,cmake: Fix FFmpeg version regex,Penwy,2024-06-25T23:22:38Z,2024-06-26T16:26:56+00:00,3,17.07,True,1,1,1,1094,3,0,3,MERGED
+10917,UI: Log streaming service recommended maximums,prgmitchell,2024-06-24T05:27:55Z,2025-01-16T23:39:24+00:00,4,4962.19,False,0,0,0,1030,1,2,3,CLOSED
+10912,obs-outputs: Skip trak box if track has no data,derrod,2024-06-22T23:21:09Z,2024-06-26T17:57:59+00:00,1,90.61,True,4,0,1,977,0,0,0,MERGED
+10911,obs-ffmpeg: Check if current NVENC configuration supports 4:4:4 encode,derrod,2024-06-22T23:13:58Z,2024-06-26T17:57:43+00:00,1,90.73,True,8,0,2,888,0,0,0,MERGED
+10904,Fix issues with file splitting in Hybrid MP4,derrod,2024-06-21T06:35:49Z,2024-06-26T03:36:34+00:00,1,117.01,True,5,2,2,730,0,0,0,MERGED
+10902,obs-qsv11: Fix CBR Spike,thyintel,2024-06-20T21:22:24Z,2024-09-10T18:13:29+00:00,9,1964.85,True,48,3,2,841,4,6,10,MERGED
+10899,linux-pipewire: Remove extra loop teardown,kkartaltepe,2024-06-20T03:46:59Z,2025-08-29T02:04:06+00:00,1,10438.29,False,0,5,1,947,1,0,1,CLOSED
+10898,win-wasapi: Remove noisy and useless debug logging,derrod,2024-06-20T02:12:02Z,2024-07-06T23:21:21+00:00,1,405.16,True,0,9,1,884,1,0,1,MERGED
+10897,obs-ffmpeg: Close VAAPI device on vaInitialize fail (memory leak fix),tt2468,2024-06-20T00:57:27Z,2024-06-20T02:46:05+00:00,1,1.81,True,1,0,1,786,0,0,0,MERGED
+10896,libobs: Fix destroy_on_stop functionality of encoder groups,tt2468,2024-06-19T23:36:06Z,2024-06-26T20:42:05+00:00,4,165.1,True,34,35,1,1537,5,3,8,MERGED
+10895,mac-avcapture: Use list-based format selector,jcm93,2024-06-19T21:44:35Z,2025-04-02T19:03:53+00:00,53,6885.32,True,536,358,9,3325,23,21,44,MERGED
+10894,UI: Link Qt::DBus on FreeBSD,emaste,2024-06-19T19:52:21Z,2024-06-26T02:37:14+00:00,4,150.75,True,1,1,1,868,2,0,2,MERGED
+10893,UI: Fix multitrack-video audio track index,lexano-ivs,2024-06-19T19:30:17Z,2024-06-20T04:44:33+00:00,1,9.24,True,1,1,1,606,0,0,0,MERGED
+10892,UI: Adjust Yami (Classic) styling,Warchamp7,2024-06-19T18:13:31Z,2024-06-26T18:58:13+00:00,2,168.75,True,89,9,3,709,7,0,7,MERGED
+10890,UI: Fix crash when exiting with a multitrack video stream active,palana,2024-06-19T16:13:05Z,2024-06-26T20:42:06+00:00,1,172.48,False,7,3,2,1549,0,1,1,CLOSED
+10889,CI: Fix FreeBSD package installation,emaste,2024-06-19T16:00:29Z,2024-06-19T17:06:10+00:00,3,1.09,True,1,1,1,1992,2,0,2,MERGED
+10887,UI: Only cache multitrack config URL startup argument,palana,2024-06-19T11:36:23Z,2024-06-19T16:08:53+00:00,2,4.54,True,12,4,1,1160,0,0,0,MERGED
+10886,CI: Update Windows Patches Action,derrod,2024-06-19T11:23:55Z,2024-06-19T14:42:11+00:00,1,3.3,True,7,4,1,721,0,0,0,MERGED
+10884,CI: Fix Windows Patches action release notes generation,RytoEX,2024-06-19T03:06:50Z,2024-06-19T14:37:12+00:00,1,11.51,True,1,0,1,1129,0,0,0,MERGED
+10883,cmake: Add obs-config.h to libobs headers,gxalpha,2024-06-18T21:06:42Z,2024-06-19T17:08:30+00:00,2,20.03,True,1,0,1,1029,0,0,0,MERGED
+10882,UI: Add pragma once to ScreenshotObj header,cg2121,2024-06-18T20:45:22Z,2024-08-10T23:53:34+00:00,1,1275.14,True,2,0,1,560,0,0,0,MERGED
+10881,UI: Cleanup frontend event handling,cg2121,2024-06-18T20:38:28Z,2024-08-11T00:35:22+00:00,5,1275.95,True,73,130,6,650,0,1,1,MERGED
+10879,UI: Add supported codecs to GetClientConfiguration request,palana,2024-06-18T15:46:53Z,2024-06-19T16:27:13+00:00,5,24.67,True,28,1,2,1058,0,1,1,MERGED
+10877,frontend-tools: Avoid initializing the scene switcher on Wayland,tytan652,2024-06-18T15:30:35Z,2024-07-30T02:26:16+00:00,2,994.93,True,5,0,1,888,7,0,7,MERGED
+10875,UI: Use advanced mode audio track in multitrack video output,palana,2024-06-18T13:18:45Z,2024-06-18T18:13:43+00:00,1,4.92,True,25,19,4,893,0,0,0,MERGED
+10874,UI: Display dialog for multitrack video output audio channels mismatch,palana,2024-06-18T12:08:16Z,2024-06-26T20:10:15+00:00,1,200.03,True,131,5,2,815,7,0,7,MERGED
+10872,UI: Fix parsing of Multitrack Video stream key query parameters,RytoEX,2024-06-18T01:01:20Z,2024-06-18T16:39:56+00:00,2,15.64,True,4,2,1,1086,2,0,2,MERGED
+10869,rtmp-services: Add Dolby Millicast,FabienLavocat,2024-06-17T18:57:01Z,2024-06-19T17:13:16+00:00,5,46.27,True,99,2,2,560,1,1,2,MERGED
+10867,UI: Fix stats window,deltamaya,2024-06-17T06:37:36Z,2025-02-10T04:07:05+00:00,1,5709.49,False,17,3,1,681,0,1,1,CLOSED
+10864,UI: Fix capitalization of 'OBS' and 'RTMP',unknown,2024-06-16T11:15:44Z,2024-06-26T19:01:01+00:00,1,247.75,True,2,2,1,522,3,0,3,MERGED
+10863,UI: Add step value to Multitrack Video maximum bitrate control,RytoEX,2024-06-16T01:42:10Z,2024-06-17T14:36:17+00:00,1,36.9,True,3,0,1,954,0,0,0,MERGED
+10857,UI: Fixup configID name and add `composition_gpu_index`,lexano-ivs,2024-06-14T22:43:51Z,2024-06-15T00:08:26+00:00,2,1.41,True,5,2,3,1036,0,0,0,MERGED
+10856,UI: Set Multitrack Video maximum bitrate limit default to 0/Auto,RytoEX,2024-06-14T22:07:52Z,2024-06-15T23:40:53+00:00,3,25.55,True,2,2,1,923,0,0,0,MERGED
+10855,Honor go live config audio channels property,palana,2024-06-14T14:51:14Z,2024-08-16T15:02:33+00:00,2,1512.19,False,147,106,8,1081,13,3,16,CLOSED
+10854,UI: Hide multitrack video options for custom output,palana,2024-06-14T14:15:12Z,2024-06-14T21:39:11+00:00,3,7.4,True,3,0,1,934,0,0,0,MERGED
+10853,UI: Make audio_configurations.vod optional,palana,2024-06-14T13:51:48Z,2024-06-14T21:33:31+00:00,2,7.7,True,4,2,2,766,2,0,2,MERGED
+10850,obs-outputs: Add multitrack flag to null output,tt2468,2024-06-14T07:36:39Z,2024-06-15T23:35:59+00:00,1,39.99,True,1,1,1,774,0,0,0,MERGED
+10849,UI: Add unit suffix to Multitrack Video bitrate limit control,RytoEX,2024-06-14T06:27:49Z,2024-06-14T18:42:03+00:00,1,12.24,True,3,0,1,605,0,0,0,MERGED
+10847,UI: Fix submenu arrow indicator position in menus,RytoEX,2024-06-13T19:53:27Z,2024-06-14T18:43:40+00:00,1,22.84,True,4,0,1,1879,0,0,0,MERGED
+10845,Update multitrack video schema to version 2024-06-04,palana,2024-06-13T15:05:11Z,2024-06-14T17:12:19+00:00,2,26.12,True,58,72,4,1174,0,0,0,MERGED
+10844,Fix loading Lua scripts on Linux through a refactor of how C path are added,tytan652,2024-06-13T14:06:30Z,2024-06-14T21:34:14+00:00,2,31.46,True,26,6,2,916,2,0,2,MERGED
+10842,UI: Restore visibility of Advanced Settings warning,RytoEX,2024-06-13T02:26:56Z,2024-06-13T18:42:26+00:00,1,16.26,True,3,0,1,710,0,0,0,MERGED
+10841,CI: Add updateChannel to check-tag in Publish workflow,RytoEX,2024-06-13T01:47:27Z,2024-06-13T17:28:04+00:00,1,15.68,True,1,0,1,999,0,0,0,MERGED
+10840,Use static blake2b library for Windows updater,derrod,2024-06-12T23:51:15Z,2024-06-14T22:10:04+00:00,2,46.31,True,16,3,2,759,0,0,0,MERGED
+10839,UI: Return std::optional from ParseThemeMeta,derrod,2024-06-12T21:42:27Z,2024-07-29T23:52:42+00:00,2,1130.17,True,36,44,1,789,0,0,0,MERGED
+10838,UI: Use unique_ptr for theme objects,derrod,2024-06-12T21:25:23Z,2024-06-12T22:41:11+00:00,1,1.26,True,3,6,1,763,2,0,2,MERGED
+10837,libobs: Fix buffer overrun in os_wcs_to_utf8(),derrod,2024-06-12T21:17:03Z,2024-08-06T15:34:25+00:00,1,1314.29,True,1,2,1,793,0,0,0,MERGED
+10834,UI: Fix themeDir buffer being resized incorrectly,derrod,2024-06-12T20:08:28Z,2024-06-12T21:57:03+00:00,1,1.81,True,1,1,1,953,0,0,0,MERGED
+10831,updater: Fix defaultlib conflict,RytoEX,2024-06-11T20:31:36Z,2024-06-11T22:25:05+00:00,1,1.89,True,1,1,1,758,0,0,0,MERGED
+10830,UI: Fix icon-size values in theme files,RytoEX,2024-06-11T20:12:37Z,2024-06-15T23:11:49+00:00,2,98.99,True,14,14,3,948,0,0,0,MERGED
+10828,UI: Prevent recursion in theme dependencies,derrod,2024-06-11T18:26:48Z,2024-06-11T22:25:40+00:00,1,3.98,True,10,0,1,652,0,0,0,MERGED
+10826,UI: Remove redundant addAction call,cg2121,2024-06-11T09:43:47Z,2024-06-15T23:08:24+00:00,1,109.41,True,2,7,1,655,0,0,0,MERGED
+10823,UI: Translate Multitrack Video error dialog buttons,RytoEX,2024-06-10T22:46:19Z,2024-06-11T17:22:32+00:00,5,18.6,True,7,3,1,1250,2,1,3,MERGED
+10820,UI: Fix crash after canceling stream attempt with incompatible settings,palana,2024-06-10T11:25:03Z,2024-06-11T17:27:15+00:00,1,30.04,True,3,0,1,788,0,0,0,MERGED
+10819,CI: Update bouf release,derrod,2024-06-09T23:30:42Z,2024-06-10T21:33:50+00:00,1,22.05,True,4,4,2,834,0,0,0,MERGED
+10818,obs-ffmpeg: Set encoder error message for CUDA errors,derrod,2024-06-09T21:59:18Z,2024-06-10T21:08:57+00:00,1,23.16,True,11,3,1,672,1,0,1,MERGED
+10817,updater: Check and update VC runtime version,derrod,2024-06-09T21:36:52Z,2024-06-11T17:24:07+00:00,2,43.79,True,75,70,3,979,0,1,1,MERGED
+10812,UI: Initialize members in constructor,gxalpha,2024-06-09T12:20:23Z,2024-06-15T23:06:38+00:00,1,154.77,True,11,8,3,2187,0,0,0,MERGED
+10810,cmake: Copy shared library soname file to rundir on Linux,tytan652,2024-06-09T08:34:37Z,2024-06-10T20:32:11+00:00,5,35.96,True,2,0,1,1614,0,1,1,MERGED
+10809,UI: Check VC++ Runtime version on startup,derrod,2024-06-09T01:18:25Z,2024-06-10T20:51:50+00:00,4,43.56,True,33,0,1,1063,4,2,6,MERGED
+10807,UI: Avoid allowing to override provided themes,tytan652,2024-06-09T00:02:57Z,2024-06-10T21:01:22+00:00,2,44.97,True,10,10,1,672,0,0,0,MERGED
+10806,UI: Connect replay buffer stopping to signal instead of slot,gxalpha,2024-06-08T21:54:36Z,2024-06-09T20:12:02+00:00,5,22.29,True,1,1,1,1279,2,0,2,MERGED
+10804,UI: Always show chapter marker hotkey,derrod,2024-06-08T17:15:43Z,2024-06-09T00:03:09+00:00,1,6.79,True,9,17,2,848,0,0,0,MERGED
+10803,UI: Add null checks before doing some API calls,notr1ch,2024-06-08T15:53:44Z,2024-06-08T19:25:04+00:00,1,3.52,True,4,3,3,571,0,0,0,MERGED
+10802,UI: Improve macOS properties tooltip spacing workaround,gxalpha,2024-06-08T15:53:32Z,2024-06-08T23:59:38+00:00,1,8.1,True,4,7,1,1211,0,0,0,MERGED
+10801,UI: Remove unnecessary string copy from log filter,derrod,2024-06-08T14:50:56Z,2024-06-08T18:06:24+00:00,2,3.26,True,0,3,1,580,3,0,3,MERGED
+10800,cmake: Fix script plugin path on Linux with CMake 3,tytan652,2024-06-08T11:21:21Z,2024-06-08T21:08:25+00:00,5,9.78,True,1,1,1,1314,1,1,2,MERGED
+10798,UI: Use signal vector for advanced audio dialog,cg2121,2024-06-08T04:00:07Z,2024-08-18T00:15:10+00:00,6,1700.25,True,36,67,4,600,1,2,3,MERGED
+10794,UI: Various audio mixer adjustments and clean up,Warchamp7,2024-06-07T20:26:52Z,2024-06-10T20:48:33+00:00,4,72.36,True,33,38,3,1053,0,1,1,MERGED
+10791,UI: Add config option to use MP4 for debug recording,derrod,2024-06-07T16:51:33Z,2024-06-07T19:50:34+00:00,1,2.98,True,26,6,2,990,0,0,0,MERGED
+10790,UI: Remove dead code from multitrack output,derrod,2024-06-07T16:35:17Z,2024-06-07T18:53:54+00:00,1,2.31,True,0,28,1,529,0,0,0,MERGED
+10789,UI: Simplify multitrack encoder availability check,derrod,2024-06-07T15:43:50Z,2024-06-07T20:00:43+00:00,1,4.28,True,8,22,1,605,2,0,2,MERGED
+10787,UI: Address logging buffer size discrepancies,jcm93,2024-06-06T20:39:45Z,2024-06-07T15:38:06+00:00,1,18.97,True,5,4,3,1445,3,0,3,MERGED
+10786,obs-webrtc: Do not use curl_easy_nextheader,Sean-Der,2024-06-06T18:33:30Z,2024-06-07T19:36:36+00:00,3,25.05,True,46,40,2,638,3,3,6,MERGED
+10784,UI: Enable custom server entry for Amazon IVS,palana,2024-06-06T13:53:16Z,2024-06-06T20:09:24+00:00,1,6.27,True,1,1,1,1137,0,0,0,MERGED
+10783,rtmp-services: Add Amazon IVS service,palana,2024-06-06T13:42:33Z,2024-06-06T18:44:48+00:00,5,5.04,True,21,2,2,1096,0,1,1,MERGED
+10781,"libobs, UI: Encoder group fixups",tt2468,2024-06-06T08:26:12Z,2024-06-17T15:20:01+00:00,2,270.9,True,122,158,8,1115,15,1,16,MERGED
+10779,UI: Clean up Settings widget structure and styling,Warchamp7,2024-06-06T04:12:42Z,2024-06-10T19:33:50+00:00,4,111.35,True,968,876,3,833,2,1,3,MERGED
+10778,UI: Fix incompatible settings message when streaming Multitrack Video,RytoEX,2024-06-06T04:07:07Z,2024-06-06T18:21:03+00:00,2,14.23,True,8,9,1,908,0,1,1,MERGED
+10777,UI: Remove GPU LUID from system info for Multitrack Video,RytoEX,2024-06-06T00:18:37Z,2024-06-06T18:02:21+00:00,3,17.73,True,1,9,2,665,0,0,0,MERGED
+10776,UI: Disable Multitrack Video by default,RytoEX,2024-06-06T00:01:55Z,2024-06-06T18:00:34+00:00,2,17.98,True,1,1,1,867,3,0,3,MERGED
+10773,libobs: Add buffered file serializer to legacy cmake,derrod,2024-06-05T22:10:57Z,2024-06-05T23:25:14+00:00,1,1.24,True,2,0,1,509,0,0,0,MERGED
+10772,libobs: Reset swapchain NULL when display render end,wanhongqing123,2024-06-05T07:58:12Z,2024-06-09T00:32:34+00:00,5,88.57,False,3,2,1,704,6,2,8,CLOSED
+10770,UI: Enable first-party YouTube Chat features in OBS,msuman-google,2024-06-03T21:02:26Z,2024-10-04T20:14:39+00:00,30,2951.2,True,85,39,4,1475,0,7,7,MERGED
+10765,obs-outputs: Add native mp4 output to legacy cmake,derrod,2024-06-02T02:31:26Z,2024-06-03T16:34:49+00:00,2,38.06,True,5,1,1,578,0,0,0,MERGED
+10761,UI: Retain existing last output resolution,derrod,2024-06-01T16:45:07Z,2024-06-05T20:44:24+00:00,1,99.99,True,9,0,1,721,0,0,0,MERGED
+10760,docs: Add versionadded for 30.x functions,CodeYan01,2024-06-01T05:44:14Z,2024-06-03T17:52:34+00:00,2,60.14,True,36,1,8,548,2,0,2,MERGED
+10759,docs: Add return type of obs_source_audio_active,CodeYan01,2024-06-01T03:08:05Z,2024-06-02T00:00:37+00:00,1,20.88,True,2,2,1,595,0,0,0,MERGED
+10754,UI: Make status bar record output a weak ref,cg2121,2024-05-30T22:38:19Z,2024-06-03T21:00:12+00:00,1,94.36,True,2,2,2,629,0,0,0,MERGED
+10751,libobs/util: Improve inhibit functions on Linux,tytan652,2024-05-29T20:33:37Z,2024-10-04T20:38:04+00:00,9,3072.07,True,28,5,1,963,0,2,2,MERGED
+10748,docs: Document obs_frontend_recording_add_chapter(),derrod,2024-05-29T06:21:34Z,2024-05-29T16:29:45+00:00,1,10.14,True,11,0,1,525,0,0,0,MERGED
+10742,linux-capture: Fix module prefix with CMake 3,tytan652,2024-05-27T19:00:43Z,2024-06-06T18:23:15+00:00,1,239.38,True,1,1,1,608,0,0,0,MERGED
+10741,"cmake,UI: Fix SOVERSION on Linux",tytan652,2024-05-27T18:36:04Z,2024-06-05T22:16:45+00:00,10,219.68,True,9,6,2,844,0,1,1,MERGED
+10740,obs-qsv11: Fix QSV failing on multi-vendor multi-GPU systems,derrod,2024-05-27T16:54:03Z,2024-06-01T23:40:34+00:00,2,126.78,True,9,4,1,947,3,0,3,MERGED
+10739,cmake: Fix RPATH on Linux on non-relocatable build,tytan652,2024-05-27T14:35:14Z,2024-05-27T18:37:14+00:00,1,4.03,False,11,6,1,721,5,0,5,CLOSED
+10738,Fix Mastering Display Luminance Metadata,derrod,2024-05-27T13:10:33Z,2025-08-22T20:49:20+00:00,3,10855.65,False,5,3,3,2587,1,1,2,CLOSED
+10733,obs-ffmpeg: Check correct VA-API codec support,kkartaltepe,2024-05-26T00:03:00Z,2024-06-01T23:14:46+00:00,5,167.2,True,16,1,1,829,0,1,1,MERGED
+10732,UI: Fix Qt 6.7 checkbox signal deprecations,gxalpha,2024-05-25T23:24:40Z,2024-05-28T20:29:27+00:00,1,69.08,True,38,4,5,1323,2,0,2,MERGED
+10727,mac-avcapture: Improve av_capture_sync_info formatting,gxalpha,2024-05-25T12:06:57Z,2024-05-26T00:14:24+00:00,1,12.12,True,16,17,1,786,4,0,4,MERGED
+10726,libobs: Fix buffer overrun in video_frame_init,derrod,2024-05-25T12:02:11Z,2024-05-26T00:12:34+00:00,3,12.17,True,1,1,1,825,4,1,5,MERGED
+10725,"UI,libobs: Update edit menu on source filter changes",gxalpha,2024-05-25T11:53:49Z,2024-05-26T00:08:43+00:00,1,12.25,True,24,0,4,1872,0,0,0,MERGED
+10724,UI: Feature/multiview vu meter,mate1213,2024-05-24T22:02:02Z,2024-06-03T15:15:04+00:00,1,233.22,False,595,11,12,878,6,0,6,CLOSED
+10723,UI: Add undo/redo to Paste Filters on audio mixer and scenes,gxalpha,2024-05-24T21:08:16Z,2024-05-26T00:06:21+00:00,1,26.97,True,26,27,2,1085,0,0,0,MERGED
+10722,UI: Inline OBSBasic::ThemeChanged(),gxalpha,2024-05-24T17:14:59Z,2024-05-26T00:04:58+00:00,1,30.83,True,4,8,2,720,1,0,1,MERGED
+10720,libobs/util: Fix potential memory error in text parser,fzwoch,2024-05-24T11:37:29Z,2024-08-06T14:20:32+00:00,3,1778.72,True,3,2,1,3120,2,0,2,MERGED
+10719,UI: Enforce completely Fusion Qt style on Linux,tytan652,2024-05-24T08:55:03Z,2024-05-25T23:58:26+00:00,1,39.06,True,8,6,3,1218,0,0,0,MERGED
+10718,UI: Fix Qt platform override in CMake 3,tytan652,2024-05-24T08:10:15Z,2024-06-05T22:33:47+00:00,8,302.39,True,17,12,4,804,0,2,2,MERGED
+10717,cmake: Do not write build number file if OBS_BUILD_NUMBER set,kamalmostafa,2024-05-24T03:30:13Z,2024-05-28T18:33:44+00:00,3,111.06,True,18,14,2,1010,3,0,3,MERGED
+10716,UI: Adjust appearance of multiview borders and labels,Warchamp7,2024-05-24T00:23:06Z,2024-05-25T23:55:02+00:00,1,47.53,True,37,20,2,1410,2,0,2,MERGED
+10713,UI:Implement drag-and-drop from sources to scenes,Diog0o,2024-05-23T11:34:48Z,2024-07-24T20:55:06+00:00,2,1497.34,False,283,9,4,1859,1,15,16,CLOSED
+10711,CI: Add PVS-Studio Analysis for Windows,derrod,2024-05-23T05:13:29Z,2024-06-04T22:37:44+00:00,15,305.4,True,342,0,7,1032,1,18,19,MERGED
+10710,UI: Implement DeleteCookies for YT Service dock,msuman-google,2024-05-22T23:21:02Z,2024-07-24T20:55:11+00:00,1,1509.57,False,9,1,1,1322,6,0,6,CLOSED
+10709,UI: Reset YT Live Chat dock on StreamingStop.,msuman-google,2024-05-22T23:08:44Z,2024-05-28T17:24:23+00:00,1,138.26,False,6,0,2,781,4,0,4,CLOSED
+10706,CI: Generate/Verify Attestation for Windows builds,derrod,2024-05-22T07:35:50Z,2024-05-28T18:13:47+00:00,1,154.63,True,10,3,3,673,2,0,2,MERGED
+10704,UI: Adjust Classic theme mixer button styling,Warchamp7,2024-05-22T03:42:40Z,2024-05-22T16:15:17+00:00,1,12.54,True,22,0,1,529,0,0,0,MERGED
+10703,rtmp-services: Update Joystick.TV servers and recommended settings,jwoertink,2024-05-21T22:20:43Z,2024-05-22T16:27:07+00:00,2,18.11,True,10,5,2,1187,0,0,0,MERGED
+10695, obs-filters: Add white balance to color filter,mar10iana,2024-05-19T14:00:30Z,2025-02-07T11:06:56+00:00,2,6333.11,False,0,0,0,1718,9,0,9,CLOSED
+10694,UI: Change how the status bar gets weak stream output,cg2121,2024-05-19T10:07:27Z,2024-05-25T23:21:10+00:00,1,157.23,True,2,2,1,602,0,0,0,MERGED
+10693,libobs: Add functions to serialize JSON with default values,derrod,2024-05-19T03:45:38Z,2024-05-26T00:29:29+00:00,1,164.73,True,60,22,3,657,0,0,0,MERGED
+10692,UI: Fix Grid Mode not persisting from View Menu,RytoEX,2024-05-19T00:21:23Z,2024-05-25T23:12:39+00:00,2,166.85,True,6,0,1,1105,0,0,0,MERGED
+10691,libobs: Include all audio priming packets if closest is start,derrod,2024-05-18T19:47:42Z,2025-08-21T20:27:24+00:00,2,11040.66,True,23,3,1,934,3,1,4,MERGED
+10690,coreaudio-encoder: Fix pts/dts not including encoder delay,derrod,2024-05-18T19:40:18Z,2024-05-18T23:32:38+00:00,1,3.87,True,15,2,2,1355,0,0,0,MERGED
+10689,libobs: Ensure audio offsets are positive,derrod,2024-05-18T19:40:11Z,2024-05-18T23:29:01+00:00,1,3.81,True,1,1,1,1038,0,0,0,MERGED
+10687,UI: Give unnamed settings labels relevant names,RytoEX,2024-05-17T21:16:23Z,2024-05-20T20:11:09+00:00,1,70.91,True,11,11,1,630,0,0,0,MERGED
+10684,UI: Removed unused friend classes,Tunghohin,2024-05-17T08:50:44Z,2024-05-28T19:04:05+00:00,3,274.22,True,0,3,2,611,1,0,1,MERGED
+10680,UI: Keep weak stream output ref in status bar,RytoEX,2024-05-15T22:23:25Z,2024-05-17T17:48:32+00:00,10,43.42,True,28,11,2,1079,3,3,6,MERGED
+10679,CI: Add additional log group to setup_ubuntu script,RytoEX,2024-05-15T18:59:14Z,2024-05-16T18:58:46+00:00,1,23.99,True,2,0,1,880,0,0,0,MERGED
+10678,CI: Add Ubuntu 24.04,RytoEX,2024-05-15T16:12:48Z,2024-05-16T18:34:08+00:00,1,26.36,True,24,15,2,1319,0,0,0,MERGED
+10674,libobs: Fix crash when mix is NULL,exeldro,2024-05-14T10:10:22Z,2024-07-11T21:24:55+00:00,1,1403.24,True,1,1,1,691,5,0,5,MERGED
+10672,obs-outputs: Adjust HEVCDecoderConfigurationRecord for hvc1 tag,derrod,2024-05-13T16:59:15Z,2024-05-18T23:17:38+00:00,2,126.31,True,1,1,1,1263,0,0,0,MERGED
+10671,libobs/util: Add buffered file serializer,derrod,2024-05-13T16:59:12Z,2024-05-18T23:15:41+00:00,5,126.27,True,491,0,4,1055,0,3,3,MERGED
+10670,libobs/util: Add seeking support to array serializer,derrod,2024-05-13T16:59:10Z,2024-05-18T23:10:42+00:00,2,126.19,True,63,1,3,915,0,0,0,MERGED
+10665,rnnoise: Fix compilation not working on latest gcc,cg2121,2024-05-12T02:38:10Z,2024-05-16T22:29:06+00:00,1,115.85,True,3,3,1,653,1,0,1,MERGED
+10661,UI: Add OS specific theme variables via prefix,Warchamp7,2024-05-10T19:39:11Z,2024-05-10T22:39:18+00:00,1,3.0,True,13,0,1,748,0,0,0,MERGED
+10659,UI: Fix visibility and lock checkbox styling on system theme,gxalpha,2024-05-10T18:23:46Z,2024-05-12T01:52:42+00:00,2,31.48,True,6,6,1,681,0,0,0,MERGED
+10658,UI: Improve and update app CMake 3 metainfo file,tytan652,2024-05-09T15:28:18Z,2024-05-10T20:21:36+00:00,1,28.89,True,45,11,2,737,0,0,0,MERGED
+10657,libobs: Fix obs_parse_avc_header missing high profile parameters,derrod,2024-05-09T10:59:01Z,2024-05-10T22:14:27+00:00,4,35.26,True,75,0,1,982,0,2,2,MERGED
+10656,build-aux: Update Flatpak dependencies,tytan652,2024-05-09T07:07:30Z,2024-05-10T20:51:56+00:00,1,37.74,True,38,36,10,1019,4,0,4,MERGED
+10647,UI: Use weak_source_expired instead of getting the source,gxalpha,2024-05-06T21:33:21Z,2024-05-10T21:42:28+00:00,1,96.15,True,2,8,1,873,0,0,0,MERGED
+10643,UI: Center preview spacing lines,gxalpha,2024-05-05T18:50:39Z,2024-05-12T03:12:36+00:00,2,152.37,True,10,7,1,1039,2,0,2,MERGED
+10642,libobs & obs-ffmpeg: Surround sound fixes,pkviet,2024-05-05T17:15:18Z,2024-05-09T14:27:21+00:00,4,93.2,True,22,0,2,1357,2,1,3,MERGED
+10640,build-aux: Disable DeckLink in the Flatpak,tytan652,2024-05-04T23:32:01Z,2024-05-08T22:04:15+00:00,1,94.54,True,2,1,1,921,0,0,0,MERGED
+10639,UI: Give private spacing helper sources names,gxalpha,2024-05-04T21:46:52Z,2024-05-12T02:13:42+00:00,7,172.45,True,6,3,1,1653,1,2,3,MERGED
+10635,UI: Add support for additional canvases to multitrack video output,palana,2024-05-03T15:43:42Z,2025-03-12T20:37:38+00:00,19,7516.9,False,211,25,13,885,6,9,15,CLOSED
+10634,Add Amazon IVS service integration,palana,2024-05-03T14:41:30Z,2024-09-06T17:40:08+00:00,22,3026.98,True,1073,206,15,757,4,5,9,MERGED
+10633,UI: Add (eRTMP) multitrack video output,palana,2024-05-03T14:29:00Z,2024-06-05T01:43:14+00:00,18,779.24,True,4142,571,41,1291,5,6,11,MERGED
+10630,UI: Set default recording format to Fragmented MOV on macOS,gxalpha,2024-05-02T20:18:37Z,2024-05-05T00:20:05+00:00,2,52.02,True,4,3,1,1227,1,0,1,MERGED
+10626,UI: Restore MuteCheckBox indeterminate state icon in Yami,tytan652,2024-05-01T08:33:44Z,2024-05-06T20:36:57+00:00,3,132.05,True,4,0,1,683,1,1,2,MERGED
+10625,UI: Update volume meter appearance,Warchamp7,2024-04-30T23:20:03Z,2024-06-03T21:20:21+00:00,3,814.0,True,237,48,5,936,18,1,19,MERGED
+10623,UI: Adjust styling of QTabBar tabs,Warchamp7,2024-04-30T16:54:24Z,2024-05-05T00:10:26+00:00,1,103.27,True,18,26,2,576,0,0,0,MERGED
+10621,obs-webrtc: Add null terminator to codec array,kc5nra,2024-04-29T17:19:34Z,2024-05-04T05:52:31+00:00,6,108.55,True,2,4,2,848,4,1,5,MERGED
+10618,obs-outputs: Add eRTMP multitrack audio support,palana,2024-04-29T11:52:54Z,2024-05-24T20:22:17+00:00,8,608.49,True,235,303,7,971,9,1,10,MERGED
+10615,UI: Fix volume control button styling,cg2121,2024-04-29T07:31:11Z,2024-04-29T18:56:59+00:00,1,11.43,True,3,5,2,658,1,0,1,MERGED
+10613,obs-scripting: Remove Python version upper limit on Linux,tytan652,2024-04-28T14:04:10Z,2024-05-03T19:31:20+00:00,5,125.45,True,12,1,2,586,0,2,2,MERGED
+10612,libobs/media-io: Fix copying different line-size video frame,norihiro,2024-04-28T13:37:03Z,2024-04-28T16:58:40+00:00,1,3.36,True,3,3,1,2054,0,0,0,MERGED
+10608,Native Hybrid MP4 Muxer,derrod,2024-04-27T05:12:10Z,2024-05-29T04:55:58+00:00,2,767.73,True,3932,3,18,5116,18,0,18,MERGED
+10607,deps/media-playback and plugins/win-dshow: Prioritize CUDA for media source decode,moocowsheep,2024-04-26T20:41:59Z,2024-05-12T03:29:43+00:00,1,366.8,True,4,6,2,2038,9,0,9,MERGED
+10606,cmake: Remove more Qt 5 code,RytoEX,2024-04-26T19:54:47Z,2024-04-30T16:02:26+00:00,1,92.13,True,3,5,3,997,0,0,0,MERGED
+10603,UI: Update media source time labels while seeking,Warchamp7,2024-04-26T05:16:28Z,2024-05-04T23:37:17+00:00,2,210.35,True,27,10,2,681,1,0,1,MERGED
+10602,UI: Remove unnecessary ProxyStyle usage,Warchamp7,2024-04-26T04:08:21Z,2024-05-23T22:55:43+00:00,7,666.79,True,268,272,17,1502,6,3,9,MERGED
+10601,win-dshow: Fix compiling with FFmpeg 7.0,RytoEX,2024-04-26T01:58:43Z,2024-04-30T15:17:40+00:00,2,109.32,True,5,0,1,692,0,0,0,MERGED
+10591,rtmp-services: Add sheeta,KOUCHANGdw,2024-04-24T07:12:58Z,2024-05-29T16:22:24+00:00,2,849.16,True,77,2,2,1057,0,0,0,MERGED
+10589,UI: Adjust preview scrolling clamp values,Warchamp7,2024-04-23T20:45:19Z,2024-05-04T23:17:12+00:00,1,266.53,True,3,0,1,734,0,0,0,MERGED
+10587,linux-capture: Rename Screen Capture as Display Capture,tytan652,2024-04-22T21:10:41Z,2024-05-04T23:15:39+00:00,2,290.08,True,7,7,2,546,1,0,1,MERGED
+10583,obs-ffmpeg: Release encode texture early,kkartaltepe,2024-04-21T16:37:03Z,2024-05-02T22:15:02+00:00,2,269.63,True,12,16,1,1534,6,2,8,MERGED
+10582,obs-ffmpeg: Fix output path logging,derrod,2024-04-21T16:15:29Z,2024-04-24T20:03:14+00:00,2,75.8,True,1,0,1,546,0,0,0,MERGED
+10580,Add composable theme files spacing in editorconfig,tytan652,2024-04-21T10:19:16Z,2024-04-25T20:11:38+00:00,2,105.87,True,4,0,1,672,0,1,1,MERGED
+10578,CI: obs-crowdin-sync Python Rewrite,unknown,2024-04-21T09:09:46Z,2024-10-30T10:55:15+00:00,8,4609.76,False,521,18,7,1508,4,8,12,CLOSED
+10577,obs-webrtc: Various WHIP patches,tt2468,2024-04-21T01:59:12Z,2024-05-12T00:09:01+00:00,5,502.16,True,15,5,1,651,0,2,2,MERGED
+10574,libobs/util: Prevent leaking pipe file descriptors to subprocesses,exeldro,2024-04-19T19:41:02Z,2024-04-20T23:57:02+00:00,2,28.27,True,6,0,1,984,1,0,1,MERGED
+10573,libobs: Fix grouped encoders never starting again after disconnect,palana,2024-04-19T15:42:29Z,2024-04-20T23:54:26+00:00,5,32.2,True,3,0,1,789,0,1,1,MERGED
+10572,UI: Clean up main window dock structure,Warchamp7,2024-04-19T02:57:06Z,2024-04-20T23:53:40+00:00,1,44.94,True,281,329,7,1147,1,0,1,MERGED
+10571,UI: Set dock floating after hiding it,norihiro,2024-04-18T23:48:11Z,2024-04-20T23:49:19+00:00,1,48.02,True,1,1,1,1497,1,0,1,MERGED
+10570,CI: Update yuzutech/annotations-action to v0.5.0,RytoEX,2024-04-18T23:46:28Z,2024-04-24T17:55:44+00:00,1,138.15,True,2,2,2,905,0,0,0,MERGED
+10569,CI: Update softprops/action-gh-release to v2.0.4,RytoEX,2024-04-18T23:06:45Z,2024-04-24T17:15:08+00:00,1,138.14,True,1,1,1,876,0,0,0,MERGED
+10567,libobs: Export NV12/P010 functions,kkartaltepe,2024-04-18T15:51:25Z,2024-04-19T19:23:57+00:00,4,27.54,True,2,0,1,757,1,0,1,MERGED
+10565,linux-pipewire: Unify ScreenCast source as Screen Capture,tytan652,2024-04-18T11:54:09Z,2024-05-09T17:55:18+00:00,2,510.02,True,68,20,2,2087,5,0,5,MERGED
+10562,CI: Fix generate-docs action,RytoEX,2024-04-17T22:31:39Z,2024-04-18T00:20:43+00:00,1,1.82,True,0,1,1,867,1,0,1,MERGED
+10561,UI: Use System theme volume meter colors for default values,RytoEX,2024-04-17T21:41:57Z,2024-04-18T17:59:44+00:00,1,20.3,True,2,2,1,1522,0,0,0,MERGED
+10552,cmake: Remove find_qt macro,RytoEX,2024-04-16T20:43:32Z,2024-04-18T01:52:14+00:00,1,29.14,True,0,46,1,742,0,0,0,MERGED
+10550,cmake: Deprecate legacy CMake for all platforms,RytoEX,2024-04-16T16:23:14Z,2024-04-17T19:24:57+00:00,3,27.03,True,13,15,1,834,5,0,5,MERGED
+10549,libobs: Fix `highest_video_ts` tracking,palana,2024-04-16T10:51:40Z,2024-04-20T23:41:56+00:00,3,108.84,True,7,8,1,2655,0,0,0,MERGED
+10546,"libobs: Add support for multitrack, AV1, and HEVC captions",jhnbwrs,2024-04-16T05:10:02Z,2024-04-27T01:17:35+00:00,12,260.13,True,341,67,4,3264,3,9,12,MERGED
+10543,rtmp-services: Add multitrack video configuration support,palana,2024-04-15T11:57:53Z,2024-05-08T01:56:53+00:00,25,541.98,True,75,14,4,1103,7,6,13,MERGED
+10542,Fix relocatable Linux builds using legacy portable build flag,PatTheMav,2024-04-15T11:19:34Z,2024-04-16T16:46:51+00:00,1,29.45,True,9,4,2,1305,1,0,1,MERGED
+10541,text-freetype2: Use cached glyph advances,kkartaltepe,2024-04-15T04:49:40Z,2024-04-20T23:28:12+00:00,4,138.64,True,8,3,1,805,2,0,2,MERGED
+10539,text-freetype2: Use a shader uniform instead of vertex attributes,kkartaltepe,2024-04-15T03:24:42Z,2024-04-22T08:01:47+00:00,6,172.62,True,12,40,6,892,5,3,8,MERGED
+10537,libobs: Mix audio of each source in a scene only once,derrod,2024-04-14T12:01:24Z,2024-05-18T23:44:46+00:00,5,827.72,True,134,15,2,817,1,3,4,MERGED
+10536,NVENC Refactor,derrod,2024-04-14T12:01:18Z,2024-08-09T00:00:10+00:00,7,2795.98,True,4613,3102,33,2495,16,4,20,MERGED
+10534,Make Flatpak use CMake build framework 3.0,tytan652,2024-04-14T08:06:27Z,2024-04-16T15:15:23+00:00,6,55.15,True,2,4,2,863,0,1,1,MERGED
+10530,libobs: Remove unused variable in obs_source,norihiro,2024-04-14T00:58:39Z,2024-04-20T23:07:37+00:00,3,166.15,True,0,2,2,670,6,1,7,MERGED
+10526,mac-avcapture: Add pointer check for outputting NULL video frames,PatTheMav,2024-04-13T15:27:57Z,2024-04-14T00:06:56+00:00,1,8.65,True,3,1,1,1070,0,0,0,MERGED
+10524,obs-webrtc: Add Link Header support,Sean-Der,2024-04-12T18:48:25Z,2024-06-05T23:28:33+00:00,18,1300.67,True,94,1,2,825,7,7,14,MERGED
+10522,plugins: Set keyframe flag on encoded audio packets,tt2468,2024-04-12T06:00:10Z,2024-04-14T00:04:48+00:00,1,42.08,True,3,0,3,950,0,0,0,MERGED
+10521,UI: Remove legacy migrations,derrod,2024-04-12T03:15:31Z,2024-07-29T22:54:01+00:00,1,2611.64,True,0,329,2,689,0,0,0,MERGED
+10518,obs-webrtc: Adjust RtcpNackResponder from bitrate,Sean-Der,2024-04-11T17:58:25Z,2024-06-04T18:37:44+00:00,7,1296.66,True,5,1,1,668,11,5,16,MERGED
+10517,obs-ffmpeg: Use video_output_info in amf_create_encoder(),lexano-ivs,2024-04-11T16:57:26Z,2024-04-14T00:00:27+00:00,1,55.05,True,8,9,1,2564,0,0,0,MERGED
+10516,"UI,docs: Send a custom event to the dock widget when closing",tytan652,2024-04-11T14:56:15Z,2024-08-04T00:18:59+00:00,4,2745.38,True,13,0,3,1496,0,2,2,MERGED
+10514,UI: Fix double confirmation dialog while discarding source change,tytan652,2024-04-11T09:05:32Z,2024-04-13T23:54:32+00:00,2,62.82,True,2,11,1,1102,1,0,1,MERGED
+10513,decklink: Update SDK to 12.0,DDRBoxman,2024-04-10T23:15:50Z,2024-04-13T23:50:05+00:00,2,72.57,True,49,41,33,680,0,0,0,MERGED
+10511,UI: Reset duration when removing show/hide transition,Warchamp7,2024-04-10T21:37:15Z,2024-04-22T20:39:21+00:00,1,287.04,True,2,0,1,1106,1,0,1,MERGED
+10510,UI: Include duration when copy/pasting scene item transitions,Warchamp7,2024-04-10T21:19:09Z,2024-04-13T23:44:51+00:00,2,74.43,True,9,3,2,775,0,0,0,MERGED
+10509,UI: Fix Top Patron threshold,Warchamp7,2024-04-10T19:06:53Z,2024-04-13T23:42:33+00:00,1,76.59,True,1,1,1,1063,0,0,0,MERGED
+10508,obs-ffmpeg: Fix SRT listener bug,pkviet,2024-04-10T09:36:45Z,2024-08-10T08:54:28+00:00,4,2927.3,True,37,32,3,689,4,1,5,MERGED
+10503,UI: Fix filter undo action using UUID instead of name,derrod,2024-04-09T22:47:46Z,2024-04-10T01:10:19+00:00,1,2.38,True,3,2,1,559,0,0,0,MERGED
+10500,obs-outputs: Add eRTMP/eFLV multitrack support,palana,2024-04-09T10:23:35Z,2024-05-03T17:06:51+00:00,19,582.72,True,568,109,5,900,5,14,19,MERGED
+10494,obs-outputs: Fix FLV muxer tag size logic and file info offset,palana,2024-04-08T12:59:34Z,2024-04-15T17:27:39+00:00,9,172.47,True,34,10,1,966,6,2,8,MERGED
+10490,UI: Always retain collection data of unloaded modules,derrod,2024-04-07T18:39:02Z,2024-04-13T23:06:28+00:00,1,148.46,True,10,19,2,1122,0,0,0,MERGED
+10487,Fix compiling with FFmpeg 7,tytan652,2024-04-06T06:59:58Z,2024-04-06T23:59:52+00:00,1,17.0,True,19,6,3,702,0,0,0,MERGED
+10485,UI: Use selected file path when opening file dialogs,Warchamp7,2024-04-06T01:13:10Z,2024-04-10T01:10:50+00:00,3,95.96,True,22,31,4,2288,1,1,2,MERGED
+10482,"Revert ""UI: Change default format for release builds to fMP4/fMOV""",RytoEX,2024-04-05T17:28:43Z,2024-04-05T18:46:53+00:00,2,1.3,True,3,2,1,1153,4,0,4,MERGED
+10478,UI: Log available encoders on load,Penwy,2024-04-03T16:00:57Z,2024-04-08T20:35:16+00:00,1,124.57,True,30,0,1,817,9,0,9,MERGED
+10473,UI: Use spacers instead of widgets in macOS Permissions UI,RytoEX,2024-04-03T00:33:13Z,2024-04-04T18:42:19+00:00,1,42.15,True,44,4,1,1287,2,0,2,MERGED
+10468,libobs-winrt: Remove interop code now provided by Windows SDK,MrMahgu,2024-04-02T00:23:00Z,2024-05-09T14:01:36+00:00,2,901.64,True,4,15,3,985,1,0,1,MERGED
+10462,"UI,plugin: Refactor virtual camera enablement",tytan652,2024-03-30T19:06:46Z,2024-03-30T23:43:30+00:00,1,4.61,True,10,29,6,944,0,0,0,MERGED
+10460,win-capture: Update hooked state before unhooked signal,EZ64cool,2024-03-30T12:31:36Z,2025-04-01T09:28:27+00:00,1,8804.95,False,1,1,1,851,4,0,4,CLOSED
+10458,mac-capture: Replace pragmas with availability markers,tytan652,2024-03-29T17:54:52Z,2024-05-16T19:25:53+00:00,2,1153.52,True,33,31,5,2399,7,0,7,MERGED
+10454,UI: Check low disk space only if recording to a file,RytoEX,2024-03-28T21:41:06Z,2024-03-30T23:24:04+00:00,2,49.72,True,11,2,2,1046,0,0,0,MERGED
+10445,obs-ffmpeg: Fix NVENC API compatibility with old drivers/hardware,RytoEX,2024-03-27T18:22:20Z,2024-03-27T23:11:26+00:00,1,4.82,True,8,4,1,1120,0,0,0,MERGED
+10444,CI: Fix JSON runtime error for language file uploads,PatTheMav,2024-03-27T16:11:01Z,2024-03-27T22:28:14+00:00,4,6.29,True,1,1,1,1085,4,1,5,MERGED
+10439,"rtmp-services: Update ""CHZZK"" platform",wly65535,2024-03-27T07:11:50Z,2024-04-02T16:45:28+00:00,8,153.56,True,10,4,2,564,5,2,7,MERGED
+10438,cmake: Replace cmake-format with gersemi for file formatting,PatTheMav,2024-03-26T22:02:14Z,2024-08-14T16:07:47+00:00,17,3378.09,True,3880,3493,170,869,5,26,31,MERGED
+10436,obs-outputs: Fix AV1 packet priority in RTMP,derrod,2024-03-26T16:25:35Z,2024-03-30T23:15:03+00:00,6,102.82,True,49,15,1,674,2,2,4,MERGED
+10426,UI: Fix scene rename on tab,howellrl,2024-03-24T23:32:51Z,2024-03-30T23:09:41+00:00,4,143.61,True,7,1,1,1033,8,0,8,MERGED
+10419,UI: Reformat .ui files with Qt Designer,derrod,2024-03-22T13:27:41Z,2024-04-18T21:26:30+00:00,15,655.98,True,173,180,17,1301,10,2,12,MERGED
+10418,UI: Prevent double scrollbars for encoder properties,derrod,2024-03-22T12:46:45Z,2024-03-23T23:43:28+00:00,1,34.95,True,11,0,3,575,2,0,2,MERGED
+10416,UI: Fix Auto-Config Wizard for custom server with no stream key,mar10iana,2024-03-21T16:51:46Z,2024-03-29T15:35:03+00:00,3,190.72,True,2,2,1,1256,5,1,6,MERGED
+10415,Cherry-pick commits for 30.1.1,RytoEX,2024-03-20T21:56:54Z,2024-03-21T20:49:59+00:00,1,22.88,True,157,106,16,767,1,0,1,MERGED
+10414,CI: Update deps to 2024-03-19 release,RytoEX,2024-03-20T20:10:47Z,2024-03-20T21:31:16+00:00,1,1.34,True,8,8,1,898,0,0,0,MERGED
+10411,mac-capture: Fix string length when duplicated,fzwoch,2024-03-19T17:46:32Z,2024-03-19T20:20:32+00:00,2,2.57,True,1,1,1,6161,0,0,0,MERGED
+10404,docs: Document the audio_active functions and signals,Penwy,2024-03-18T17:18:10Z,2024-03-27T20:29:21+00:00,2,219.19,True,23,2,2,715,0,0,0,MERGED
+10402,UI: Change advanced audio controls to use audio_active,Penwy,2024-03-18T16:28:02Z,2024-04-16T19:48:42+00:00,3,699.34,True,45,10,4,1171,2,0,2,MERGED
+10400,obs-qsv11: Check all encoders are Intel devices,kkartaltepe,2024-03-18T05:42:49Z,2024-03-21T19:43:13+00:00,1,86.01,True,2,2,1,823,0,0,0,MERGED
+10394,libobs: Set channel layout for remux output,derrod,2024-03-16T23:56:55Z,2024-03-18T23:41:46+00:00,1,47.75,True,12,0,1,555,0,1,1,MERGED
+10391,CI: Update formatting actions to use git diff filter before formatting ,PatTheMav,2024-03-16T19:41:30Z,2024-04-02T23:38:09+00:00,15,411.94,True,80,75,4,1087,0,3,3,MERGED
+10389,cmake: Fix MSVC runtime selection for win-dshow and win-capture targets,PatTheMav,2024-03-16T14:24:15Z,2024-03-16T23:36:33+00:00,6,9.21,True,16,4,5,1116,3,1,4,MERGED
+10388,obs-qsv11: Remove adaptive CQM option,derrod,2024-03-15T23:27:02Z,2024-04-07T00:07:59+00:00,2,528.68,True,2,58,5,919,2,0,2,MERGED
+10378,mac-capture: Standardize early return behavior in init_screen_stream(),jcm93,2024-03-15T02:37:05Z,2024-03-15T19:26:09+00:00,2,16.82,True,14,5,1,2204,1,0,1,MERGED
+10376,deps/media-playback: Fix hardware decoding of streams,pkviet,2024-03-14T22:58:55Z,2024-03-18T18:13:55+00:00,7,91.25,True,3,6,1,1373,1,1,2,MERGED
+10375,UI: Size the abstract-socket address properly,nabijaczleweli,2024-03-14T16:56:50Z,2024-03-18T23:18:02+00:00,3,102.35,True,5,4,1,1448,6,0,6,MERGED
+10373,obs-ffmpeg: Fix HDR metadata not being written when using FFmpeg 6.1+,derrod,2024-03-14T03:55:51Z,2024-03-14T21:12:20+00:00,2,17.27,True,72,70,3,988,0,0,0,MERGED
+10360,libobs: Fix missing w32-pthreads dependency when building without UI,PatTheMav,2024-03-11T16:41:17Z,2024-03-11T19:29:33+00:00,1,2.8,True,4,0,1,795,0,0,0,MERGED
+10358,fixed the build issues,jimmymannekkattu,2024-03-10T02:07:01Z,2024-03-13T14:50:17+00:00,5,84.72,False,4,4,3,399,4,8,12,CLOSED
+10357,win-capture: Always reconfigure audio source when game capture hooks,derrod,2024-03-09T21:47:47Z,2024-03-10T01:13:58+00:00,2,3.44,True,1,3,1,660,1,0,1,MERGED
+10354,CI: Use phased group rollouts for Sparkle stable channel updates,RytoEX,2024-03-09T03:16:31Z,2024-03-09T19:23:41+00:00,5,16.12,True,14,7,1,1549,0,1,1,MERGED
+10350,mac-avcapture: Fix possible crash if camera uses BGRA format,PatTheMav,2024-03-08T18:40:34Z,2024-03-08T22:38:41+00:00,1,3.97,True,5,1,1,900,0,0,0,MERGED
+10349,libobs: Add keyframe aligned encoder groups,palana,2024-03-08T12:38:36Z,2024-04-12T21:52:32+00:00,14,849.23,True,347,0,7,1453,9,13,22,MERGED
+10346,UI: Block Elgato Stream Deck plugin before 5.5.2.0 to avoid crashes,RytoEX,2024-03-07T22:32:58Z,2024-03-09T02:33:44+00:00,1,28.01,True,6,0,1,760,4,0,4,MERGED
+10345,libobs: Add YUVA pixel format,maths22,2024-03-07T22:22:01Z,2025-03-14T20:28:18+00:00,3,8926.1,False,251,328,8,1381,4,2,6,CLOSED
+10337,UI: Move warnings to bottom of settings window,goncalopattenden,2024-03-06T14:22:29Z,2024-04-07T04:39:22+00:00,1,758.28,True,19,4,2,1115,7,1,8,MERGED
+10331,UI: Change default format for release builds to fMP4/fMOV,derrod,2024-03-04T18:41:55Z,2024-03-11T22:40:14+00:00,2,171.97,True,2,3,1,818,0,0,0,MERGED
+10328,UI: Improve and update app metainfo file,GeorgesStavracas,2024-03-04T12:46:46Z,2024-03-14T13:08:35+00:00,13,240.36,True,29,10,2,834,5,5,10,MERGED
+10320,UI: Fix closing OBS with floating docks,cg2121,2024-03-03T01:15:32Z,2024-03-12T00:38:04+00:00,2,215.38,True,3,1,2,676,4,0,4,MERGED
+10318,UI: Fix `Start Virtual Camera` Text Cut Off in Corresponding Button,powersagitar,2024-03-02T02:10:10Z,2024-04-10T00:57:37+00:00,3,934.79,True,2,0,1,1065,6,2,8,MERGED
+10309,UI: Reserve size of congestion vector,cg2121,2024-02-29T22:56:46Z,2024-03-16T23:53:44+00:00,2,384.95,True,2,0,1,718,0,0,0,MERGED
+10308,UI: Fix text stacking in paused indicator,Aleksbgbg,2024-02-29T21:37:42Z,2024-05-04T20:39:34+00:00,1,1559.03,True,27,17,3,667,0,0,0,MERGED
+10307,CI: Update clang-format version to clang-format 17.0.3,PatTheMav,2024-02-29T20:25:29Z,2024-03-11T19:55:30+00:00,11,263.5,True,26,24,13,1001,0,4,4,MERGED
+10305,obs-webrtc: Avoid crashing on invalid answer,Aleksbgbg,2024-02-28T21:45:54Z,2024-03-07T18:52:00+00:00,5,189.1,True,15,1,1,4446,4,1,5,MERGED
+10301,CI: Limit format checks to changed files only,PatTheMav,2024-02-27T23:42:49Z,2024-03-09T20:45:36+00:00,1,261.05,True,18,14,4,1022,0,0,0,MERGED
+10300,Update translations from Crowdin,unknown,2024-02-27T22:40:54Z,2024-02-28T19:20:05+00:00,1,20.65,True,1907,327,174,669,3,0,3,MERGED
+10299,cmake: Provide a clear error on version check fail,Aleksbgbg,2024-02-27T21:43:52Z,2024-04-04T19:13:44+00:00,3,885.5,True,10,0,2,6803,6,0,6,MERGED
+10296,CI: Fix broken pip install to use ephemeral virtual environment,PatTheMav,2024-02-27T15:48:41Z,2024-02-27T19:50:03+00:00,1,4.02,True,13,0,2,861,0,0,0,MERGED
+10294,UI: Fix a bug with Output Settings not updating & Toggle audio multi-tracks correctly,pkviet,2024-02-27T01:01:13Z,2024-02-27T23:26:09+00:00,12,22.42,True,36,23,3,2162,2,5,7,MERGED
+10290,CI: Fix scheduled language file check running on same commit hash,PatTheMav,2024-02-26T17:14:43Z,2024-02-26T22:31:23+00:00,1,5.28,True,1,0,1,833,0,0,0,MERGED
+10285,UI: Fix context bar not updating on delete,cg2121,2024-02-25T01:15:31Z,2024-02-27T20:26:26+00:00,2,67.18,True,2,0,1,595,0,0,0,MERGED
+10281,mac-avcapture: Fix frame rate collection for camera device formats,PatTheMav,2024-02-24T02:35:20Z,2024-02-24T23:38:18+00:00,1,21.05,True,33,21,2,1177,0,0,0,MERGED
+10279,Update/fix Flatpak AppStream CI steps,tytan652,2024-02-23T10:20:25Z,2024-02-23T12:40:06+00:00,1,2.33,True,33,9,3,833,0,0,0,MERGED
+10276,obs-filters: Do not load NVVFX on OpenGL,exeldro,2024-02-22T09:46:20Z,2024-06-05T23:27:00+00:00,4,2509.68,True,4,1,1,657,7,0,7,MERGED
+10271,deps/media-playback: Detect and handle video res changes when using hardware decoding,tt2468,2024-02-21T03:25:42Z,2024-03-19T23:58:20+00:00,1,668.54,True,11,0,1,1725,0,0,0,MERGED
+10270,rtmp-services: Update Vaughn Live and Breakers ingests,invalidtask,2024-02-21T03:11:28Z,2024-03-09T03:35:12+00:00,2,408.4,True,42,10,2,899,1,0,1,MERGED
+10269,CI: Update deps to 2024-02-20 release,RytoEX,2024-02-20T23:19:02Z,2024-02-22T06:06:14+00:00,1,30.79,True,8,8,1,1333,0,0,0,MERGED
+10268,UI: Fix problem with Yes/No message box buttons not translated,shiina424,2024-02-20T20:36:49Z,2024-02-20T23:08:16+00:00,4,2.52,True,1,1,1,1050,0,0,0,MERGED
+10267,mac-avcapture: Fix crash issues on Intel-based Macs and older macOS,PatTheMav,2024-02-20T20:29:08Z,2024-02-20T22:57:09+00:00,2,2.47,True,78,80,4,1476,0,6,6,MERGED
+10266,win-capture: Add line break for capture audio tooltip,shiina424,2024-02-20T14:57:36Z,2024-02-20T21:00:40+00:00,1,6.05,True,1,1,1,851,0,0,0,MERGED
+10264,libobs: Fix crop to bounds ABI break,exeldro,2024-02-19T21:23:20Z,2024-02-21T03:18:51+00:00,1,29.93,True,57,18,6,554,2,0,2,MERGED
+10255,mac-avcapture: Add color format selection for capture card source,PatTheMav,2024-02-15T21:08:51Z,2024-02-18T00:28:28+00:00,1,51.33,True,55,30,3,1180,2,0,2,MERGED
+10254,mac-capture: Fix crash in device reconnect handler,PatTheMav,2024-02-15T19:40:31Z,2024-02-20T19:18:46+00:00,1,119.64,True,6,5,1,1158,0,0,0,MERGED
+10253,mac-capture: Limit number of copied audio channels to libobs limits,PatTheMav,2024-02-15T18:36:38Z,2024-02-20T19:04:29+00:00,1,120.46,True,10,5,1,1189,0,0,0,MERGED
+10248,UI: Fix locale key for fragmented tooltip,shiina424,2024-02-14T20:03:12Z,2024-02-17T23:14:18+00:00,2,75.19,True,2,2,1,1045,4,0,4,MERGED
+10246,UI: Use OBSSourceLabel for item widget labels,cg2121,2024-02-14T07:47:43Z,2024-05-12T00:35:04+00:00,1,2104.79,True,9,45,4,658,1,0,1,MERGED
+10243,win-capture: Fix leak in wasapi reroute proc call,derrod,2024-02-14T03:54:44Z,2024-02-17T23:08:59+00:00,1,91.24,True,4,4,1,471,2,0,2,MERGED
+10242,UI: Fix Remux window only being usable once,RytoEX,2024-02-13T20:59:14Z,2024-02-22T06:05:58+00:00,1,201.11,True,1,3,1,1114,0,0,0,MERGED
+10240,CI: Split Up Windows Signing Job,derrod,2024-02-13T10:10:16Z,2024-05-02T20:40:10+00:00,11,1906.5,True,447,59,17,979,15,4,19,MERGED
+10239,UI: Move projector rename signal,cg2121,2024-02-13T09:58:49Z,2024-05-12T00:51:47+00:00,1,2126.88,True,20,9,3,586,1,0,1,MERGED
+10238,UI: Volume signal cleanup,cg2121,2024-02-13T09:52:19Z,2024-05-12T01:18:13+00:00,1,2127.43,True,13,36,3,605,2,0,2,MERGED
+10232,Use flathub-infra images & various other cleanups,GeorgesStavracas,2024-02-10T23:25:11Z,2024-02-13T20:44:29+00:00,6,69.32,True,7,43,3,964,4,1,5,MERGED
+10231,obs-text: Fix alignment with extents,exeldro,2024-02-10T21:55:44Z,2024-03-27T22:45:02+00:00,2,1104.82,True,36,6,1,695,2,0,2,MERGED
+10230,obs-ffmpeg: Receive packets while frame queue is full,kkartaltepe,2024-02-10T07:02:05Z,2024-02-10T23:25:14+00:00,4,16.39,True,1,1,1,903,1,1,2,MERGED
+10229,win-dshow: Add generated Windows resource file to virtualcam sources,PatTheMav,2024-02-10T02:08:14Z,2024-02-10T06:50:06+00:00,1,4.7,True,7,1,1,713,0,0,0,MERGED
+10223,UI: Fill audio meter background each update (#9842),fzwoch,2024-02-09T13:25:38Z,2024-02-20T20:44:59+00:00,4,271.32,True,4,5,1,1059,5,0,5,MERGED
+10222,obs-qsv11: Disable texture encoder on linux,kkartaltepe,2024-02-09T04:29:39Z,2024-02-10T01:19:55+00:00,2,20.84,True,5,0,1,674,1,0,1,MERGED
+10216,UI: Include audio devices in macOS microphone permissions prompt,jcm93,2024-02-08T15:29:20Z,2024-02-10T23:14:00+00:00,3,55.74,True,1,1,1,1074,0,0,0,MERGED
+10211,docs: Add deque to the table of content and fix ROI underline,tytan652,2024-02-06T13:35:01Z,2024-02-08T23:21:38+00:00,11,57.78,True,7,5,3,848,0,2,2,MERGED
+10209,UI: Fix source remove log scene,exeldro,2024-02-06T12:33:31Z,2024-02-10T23:11:52+00:00,2,106.64,True,6,4,2,699,0,0,0,MERGED
+10208,libobs: Use 'important' usage key for macOS disk space calculations,jcm93,2024-02-06T03:00:54Z,2024-02-10T23:10:25+00:00,3,116.16,True,3,3,1,3320,0,0,0,MERGED
+10203,win-dshow: Fix YUY2 line size error,vico-shang,2024-02-05T12:16:28Z,2024-02-07T18:27:38+00:00,2,54.19,True,1,1,1,783,1,0,1,MERGED
+10199,UI: Fix RTMP check in Advanced output,pkviet,2024-02-04T11:12:41Z,2024-02-07T02:36:37+00:00,2,63.4,True,2,2,1,736,1,0,1,MERGED
+10197,CI: Switch to macOS 14 runners and Xcode 15.2,RytoEX,2024-02-03T21:31:47Z,2024-02-03T23:47:11+00:00,3,2.26,True,11,15,6,1606,0,0,0,MERGED
+10189,image-source: Fix crash when randomize with 0 files,flaeri,2024-02-02T22:19:58Z,2024-02-03T23:36:27+00:00,1,25.27,True,6,1,1,871,0,0,0,MERGED
+10187,libobs: Fix free disk space calculation on macOS,PatTheMav,2024-02-02T20:32:14Z,2024-02-03T23:35:09+00:00,2,27.05,True,9,13,1,855,0,0,0,MERGED
+10186,CI: Move Windows signing to reusable workflow,derrod,2024-02-02T14:53:14Z,2024-02-08T18:38:04+00:00,10,147.75,True,90,83,2,1317,0,2,2,MERGED
+10185,CI: Fix Steam workflow getting confused by PDBs,derrod,2024-02-02T14:50:26Z,2024-02-08T18:16:14+00:00,3,147.43,True,1,1,1,558,12,0,12,MERGED
+10184,obs-ffmpeg: Fix wrong framerate in VUI header,lucenticus,2024-02-02T11:56:20Z,2024-02-03T23:31:00+00:00,1,35.58,True,3,6,1,2489,0,0,0,MERGED
+10177,libobs-opengl: Specify display attributes,kkartaltepe,2024-02-01T04:50:24Z,2024-02-03T23:23:01+00:00,1,66.54,True,5,2,2,1095,0,0,0,MERGED
+10176,CI: Update Google Cloud GitHub Actions,derrod,2024-02-01T02:49:14Z,2024-02-01T08:22:10+00:00,1,5.55,True,3,3,2,612,0,0,0,MERGED
+10175,CI: Update third-party GitHub Actions,RytoEX,2024-01-31T23:40:08Z,2024-02-01T05:27:15+00:00,1,5.79,True,5,5,3,2361,1,0,1,MERGED
+10170,obs-qsv11: Fix for QSV AV1 in multi-GPU system,thyintel,2024-01-31T01:41:29Z,2024-04-07T00:06:31+00:00,20,1606.42,True,35,42,8,948,0,4,4,MERGED
+10169,UI: Use signal vectors for transform & source tree,cg2121,2024-01-31T00:14:30Z,2024-02-03T23:19:51+00:00,1,95.09,True,23,50,4,530,0,0,0,MERGED
+10166,deps/obs-scripting: Fix lua tick crash,exeldro,2024-01-30T18:53:18Z,2024-02-03T23:08:53+00:00,1,100.26,True,17,16,1,662,0,0,0,MERGED
+10163,aja: Add v210 pixel format support to capture plugin,paulh-aja,2024-01-30T00:28:08Z,2024-07-29T23:26:49+00:00,1,4366.98,True,52,12,6,1652,1,0,1,MERGED
+10162,rtmp-services: Add SharePlay.tv,nickg-sp,2024-01-29T23:46:08Z,2024-03-07T16:50:32+00:00,3,905.07,True,69,2,2,570,9,0,9,MERGED
+10161,CI: Update first-party GitHub Actions from v3 to v4,RytoEX,2024-01-29T20:35:12Z,2024-01-30T03:36:53+00:00,5,7.03,True,50,50,11,984,0,1,1,MERGED
+10159,obs-webrtc: Add HEVC support,murillo128,2024-01-29T13:47:43Z,2024-04-17T22:27:39+00:00,19,1904.67,True,21,15,3,564,4,6,10,MERGED
+10157,CI: Switch to production codesigning cert,derrod,2024-01-29T05:17:54Z,2024-01-30T01:10:28+00:00,1,19.88,True,35,9,4,779,1,0,1,MERGED
+10154,libobs: Copy both converted textures on stall,kkartaltepe,2024-01-28T03:21:35Z,2024-01-31T04:15:41+00:00,3,72.9,True,7,0,1,859,2,1,3,MERGED
+10153,libobs: Prevent encoder reconfiguration after initialization,derrod,2024-01-28T01:58:00Z,2024-01-29T22:35:12+00:00,2,44.62,True,29,0,1,1666,5,1,6,MERGED
+10152,obs-webrtc: Require libdatachannel 0.20 or newer,tytan652,2024-01-27T20:39:52Z,2024-01-27T23:54:23+00:00,2,3.24,True,2,2,2,659,3,0,3,MERGED
+10151,Add opengl `gs_enum_adapters` implementations,kkartaltepe,2024-01-27T09:18:33Z,2024-01-27T23:51:33+00:00,1,14.55,True,204,107,16,1118,1,0,1,MERGED
+10149,libobs: Add `obs_encoder_parent_video()` method,tt2468,2024-01-27T04:35:53Z,2024-05-03T17:33:46+00:00,5,2340.96,True,27,1,3,900,4,1,5,MERGED
+10146,aja: Prepare plugin to use new libajantv2 deps,paulh-aja,2024-01-26T07:55:08Z,2024-05-02T18:31:16+00:00,12,2338.6,True,102,41,5,3374,0,7,7,MERGED
+10145,"rtmp-services: Add ""CHZZK"" platform",wly65535,2024-01-26T06:44:39Z,2024-03-07T00:52:22+00:00,2,978.13,True,21,2,2,591,0,0,0,MERGED
+10144,UI: Add accessible names to hotkey edit boxes,DriftedClouds,2024-01-26T03:57:45Z,2024-01-27T23:37:53+00:00,1,43.67,True,1,0,1,1048,1,0,1,MERGED
+10140,libobs: Fix GPU scaling using the main mix,exeldro,2024-01-25T11:32:47Z,2024-01-25T19:10:00+00:00,2,7.62,True,1,1,1,607,1,0,1,MERGED
+10139,libobs: Rewrite video-frame.c,tt2468,2024-01-25T05:31:30Z,2024-04-26T15:25:26+00:00,5,2217.9,True,185,329,1,1273,2,3,5,MERGED
+10137,obs-ffmpeg: Implement texture encoding for VAAPI,nowrep,2024-01-24T12:38:47Z,2024-04-21T00:03:54+00:00,6,2099.42,True,353,46,5,549,8,3,11,MERGED
+10135,Add OpenH264 support to obs-ffmpeg,Conan-Kudo,2024-01-24T11:15:28Z,2025-04-03T19:43:20+00:00,7,10448.46,True,256,0,4,1282,2,6,8,MERGED
+10133,obs-ffmpeg: Linux NVENC texture encoder ,derrod,2024-01-24T01:39:34Z,2024-03-31T09:33:07+00:00,10,1615.89,True,248,36,4,719,14,3,17,MERGED
+10132,UI: Cancel session end request on commitDataRequest() signal,RytoEX,2024-01-23T22:45:00Z,2024-01-24T04:01:24+00:00,1,5.27,True,18,0,2,1164,0,0,0,MERGED
+10131,libobs: Fix audio doubling with multiple main view mixes,derrod,2024-01-23T21:00:00Z,2024-01-25T19:57:03+00:00,1,46.95,True,1,1,1,1310,2,0,2,MERGED
+10127,"Add SPA_VIDEO_FORMAT_{ABGR,xBGR} to PipeWire formats",IlyaBizyaev,2024-01-22T22:33:33Z,2024-01-25T11:02:09+00:00,1,60.48,False,35,0,4,834,3,0,3,CLOSED
+10125,libobs: Use std _Pragma,RytoEX,2024-01-22T16:32:01Z,2024-01-26T20:33:28+00:00,2,100.02,True,3,3,1,878,2,0,2,MERGED
+10124,obs-qsv11: Implement texture encoder on linux,kkartaltepe,2024-01-22T02:56:55Z,2024-04-21T00:06:46+00:00,7,2157.16,True,307,86,8,953,2,9,11,MERGED
+10122,obs-ffmpeg: Add native non-texture NVENC encoder,derrod,2024-01-21T05:24:43Z,2024-03-31T09:05:40+00:00,4,1683.68,True,882,124,10,728,6,1,7,MERGED
+10118,build-aux: Update Flatpak dependencies,tytan652,2024-01-19T11:06:48Z,2024-01-22T21:43:58+00:00,2,82.62,True,63,35,17,1116,2,0,2,MERGED
+10115,CI: Update deps to 2024-01-11 release,RytoEX,2024-01-19T02:22:42Z,2024-01-22T15:12:25+00:00,1,84.83,True,8,9,1,1749,0,0,0,MERGED
+10104,rtmp-services: Add Hakuna Live RTMP service,lenaky,2024-01-15T12:07:27Z,2024-03-28T23:34:06+00:00,2,1763.44,True,25,2,2,706,8,0,8,MERGED
+10101,Rework command line argument stuff,derrod,2024-01-14T03:53:19Z,2024-04-21T01:30:46+00:00,7,2349.62,True,235,58,7,770,2,10,12,MERGED
+10100,Enable exporting CMake interface target,tytan652,2024-01-13T14:25:02Z,2024-01-28T00:00:01+00:00,9,345.58,True,17,10,3,862,0,1,1,MERGED
+10099,cmake: Fix Xcode version error message,norihiro,2024-01-13T12:42:00Z,2024-01-13T23:51:45+00:00,2,11.16,True,3,3,1,1222,0,0,0,MERGED
+10098,obs-ffmpeg: Add `disable_scenecut` option for NVENC,palana,2024-01-12T12:59:26Z,2024-01-13T23:49:34+00:00,2,34.84,True,7,0,2,805,3,0,3,MERGED
+10097,librtmp: Add missing extended timestamp in Type 3 chunks,palana,2024-01-12T12:09:34Z,2024-01-13T23:47:17+00:00,2,35.63,True,8,0,1,1113,0,0,0,MERGED
+10092,mac-virtualcam: Compare camera UUIDs using CFUUID,jcm93,2024-01-11T02:42:12Z,2024-09-12T21:21:12+00:00,2,5898.65,True,9,3,1,1642,6,0,6,MERGED
+10091,UI: Implement GPU scaling options,derrod,2024-01-10T09:43:19Z,2024-01-21T01:28:53+00:00,2,255.76,True,95,59,5,629,8,1,9,MERGED
+10089,libobs-d3d11: Remove new/delete replacements,jpark37,2024-01-09T09:12:57Z,2024-01-11T10:02:32+00:00,4,48.83,True,0,41,3,826,4,0,4,MERGED
+10088,Rework slideshow (slideshow mk2),Lain-B,2024-01-08T00:47:32Z,2024-01-11T02:45:37+00:00,11,73.97,True,1266,26,5,1873,4,4,8,MERGED
+10084,obs-ffmpeg: Only use NVENC compatibility hack if necessary,derrod,2024-01-06T16:19:41Z,2024-01-07T00:38:43+00:00,1,8.32,True,25,18,4,1129,0,0,0,MERGED
+10083,mac-capture: Remove macOS 14 ifdef and custom CGDisplayStream header,gxalpha,2024-01-06T16:05:18Z,2024-01-09T01:40:33+00:00,2,57.59,True,0,339,3,849,0,0,0,MERGED
+10082,obs-ffmpeg: Fix incorrect CMake list syntax,RytoEX,2024-01-06T02:58:37Z,2024-01-09T00:49:04+00:00,1,69.84,True,1,1,1,1135,0,0,0,MERGED
+10081,cmake: Update MbedTLS finder to support MSVC Debug configuration,PatTheMav,2024-01-05T21:48:36Z,2024-01-08T23:54:28+00:00,1,74.1,True,1,0,1,893,0,0,0,MERGED
+10080,obs-ffmpeg: Disable hardened runtime when using ad-hoc signing,PatTheMav,2024-01-05T20:28:21Z,2024-01-09T15:59:14+00:00,2,91.51,True,8,0,1,1073,0,0,0,MERGED
+10079,rtmp-services: Add Streamway to ingest list,Ramjivan,2024-01-05T15:34:31Z,2024-03-07T16:35:50+00:00,3,1489.02,True,25,2,2,1706,8,1,9,MERGED
+10078,libobs: Log Mac model identifier,jcm93,2024-01-05T00:11:47Z,2024-01-05T20:38:07+00:00,5,20.44,True,22,2,1,1739,1,1,2,MERGED
+10077,UI: Use normal source width for screenshots,gxalpha,2024-01-04T22:16:28Z,2024-01-07T00:32:25+00:00,1,50.27,True,2,2,1,812,0,0,0,MERGED
+10076,obs-ffmpeg: Fix issue with B-frames introducing motion blur,rhutsAMD,2024-01-04T14:40:09Z,2024-01-22T14:48:13+00:00,9,432.13,True,10,1,1,1544,15,4,19,MERGED
+10075,UI: Fix unused-variable,tytan652,2024-01-04T10:48:58Z,2024-01-07T00:24:58+00:00,1,61.6,True,4,4,1,1673,2,0,2,MERGED
+10070,libobs: Add  handling for obs-ffmpeg-mux standard error output on POSIX systems,PatTheMav,2024-01-03T19:30:05Z,2024-01-14T00:20:26+00:00,3,244.84,True,98,12,1,1062,3,1,4,MERGED
+10067,UI: Switch to bigger units for high bitrate/large recordings,derrod,2024-01-03T17:15:04Z,2024-01-13T23:57:26+00:00,2,246.71,True,13,3,1,630,2,0,2,MERGED
+10066,cmake: Update build requirements to Xcode 15.1 and macOS 14.2 SDK,PatTheMav,2024-01-03T16:47:06Z,2024-01-03T21:02:26+00:00,1,4.26,True,2,2,1,853,0,0,0,MERGED
+10065,mac-capture: Update capture to include menu bar and child windows,PatTheMav,2024-01-03T15:24:35Z,2024-01-07T00:09:06+00:00,3,80.74,True,8,0,1,805,0,1,1,MERGED
+10057,libobs: Fix crop to bounding box not being duplicated with item,derrod,2023-12-31T08:50:17Z,2024-01-03T21:03:16+00:00,1,84.22,True,2,0,1,602,0,0,0,MERGED
+10055,output-timer: Fixed buttons so that stopping a timer does not stop stream/recording,marktheminer,2023-12-30T20:59:00Z,2024-04-06T17:10:16+00:00,1,2348.19,False,20,10,2,1295,7,0,7,CLOSED
+10053,libobs: Send item_remove signal after detaching item,derrod,2023-12-30T10:34:05Z,2024-01-06T23:48:37+00:00,1,181.24,True,1,1,1,1084,0,0,0,MERGED
+10052,libobs: Use UUIDs for all contexts,cg2121,2023-12-30T02:25:54Z,2024-11-23T20:45:36+00:00,1,7914.33,False,116,5,9,993,3,0,3,CLOSED
+10050,cmake: Fix win compile issue,wanhongqing123,2023-12-28T10:16:09Z,2024-04-03T18:44:40+00:00,1,2336.48,False,3,2,2,629,11,0,11,CLOSED
+10049,mac-virtualcam: Reduce excessive polling for new sample buffers,jcm93,2023-12-28T05:53:23Z,2024-01-06T23:43:42+00:00,7,233.84,True,30,10,1,2292,8,2,10,MERGED
+10044,vlc-video: Fix play_pause to respect boolean,Penwy,2023-12-26T17:31:37Z,2024-01-06T23:22:27+00:00,1,269.85,True,4,2,1,1533,0,0,0,MERGED
+10041,obs-ffmpeg: Remove Windows 7/Ubuntu 20.04 NVENC fallback,derrod,2023-12-25T10:11:00Z,2024-01-06T23:20:26+00:00,2,301.16,True,25,104,2,584,3,0,3,MERGED
+10039,libobs/plugins: Add region of interest (ROI) encoder feature,derrod,2023-12-24T10:58:14Z,2024-01-14T00:30:31+00:00,13,493.54,True,605,18,13,1551,8,5,13,MERGED
+10033,rtmp-services: Add IRLToolkit Frankfurt ingest,tt2468,2023-12-23T05:34:15Z,2024-01-06T23:08:40+00:00,1,353.57,True,6,2,2,573,0,0,0,MERGED
+10029,obs-outputs: Enable HDR for HEVC over RTMP,nquah,2023-12-21T19:01:18Z,2024-01-03T23:01:26+00:00,2,316.0,True,3,2,1,1210,1,0,1,MERGED
+10028,obs-outputs: Switch RTMP color metadata order,nquah,2023-12-21T17:00:27Z,2024-01-03T21:31:58+00:00,2,316.53,True,3,2,1,1506,0,0,0,MERGED
+10022,obs-webrtc: Improve error messages on HTTP failure,jech,2023-12-20T00:02:48Z,2024-01-26T06:09:55+00:00,1,894.12,True,12,4,1,548,4,0,4,MERGED
+10021,rtmp-services: Update Switchboard Live servers,sarwin-github,2023-12-19T14:23:52Z,2024-03-07T00:25:28+00:00,9,1882.03,True,3,7,2,839,1,2,3,MERGED
+10019,FTL Removal,derrod,2023-12-19T01:56:59Z,2024-07-29T20:41:31+00:00,1,5370.74,True,10,1494,23,655,2,0,2,MERGED
+10018,UI: Save last used output resolution to scene collection,derrod,2023-12-18T23:07:13Z,2024-01-06T23:06:00+00:00,1,455.98,True,13,0,2,647,0,0,0,MERGED
+10009,UI: Remove double unit indication in replay buffer maximum string,unknown,2023-12-17T20:06:53Z,2023-12-18T23:01:38+00:00,2,26.91,True,1,1,1,851,2,0,2,MERGED
+10004,"Preparations for Camera portal, part 3",GeorgesStavracas,2023-12-14T00:37:09Z,2023-12-14T13:20:55+00:00,1,12.73,True,39,22,3,801,0,0,0,MERGED
+10000,obs-webrtc: Add support for audio-only and video-only outputs,tt2468,2023-12-13T05:42:47Z,2024-04-22T08:04:55+00:00,2,3146.37,True,25,4,1,1064,2,0,2,MERGED
+9999,win-capture: Toggle premultiplied alpha for games,jpark37,2023-12-13T05:02:54Z,2023-12-16T23:15:19+00:00,1,90.21,True,17,1,2,657,0,0,0,MERGED
+9998,win-wasapi: Initialize a pointer reroute_target,norihiro,2023-12-12T23:55:22Z,2023-12-13T15:15:09+00:00,1,15.33,True,1,1,1,711,1,0,1,MERGED
+9996,libobs: Fix disk space reporting for attached network drives on macOS,PatTheMav,2023-12-12T15:07:41Z,2023-12-16T23:13:30+00:00,2,104.1,True,14,3,1,1448,0,0,0,MERGED
+9994,UI: Remove SignalBlocker,cg2121,2023-12-12T04:50:57Z,2023-12-16T23:10:58+00:00,1,114.33,True,4,17,2,583,2,0,2,MERGED
+9990,UI: Remove lock & vis checkbox classes,cg2121,2023-12-11T14:05:32Z,2023-12-19T03:22:39+00:00,2,181.29,True,84,125,17,643,6,0,6,MERGED
+9983,"Revert ""cmake: Align Product Name and Bundle Name on macOS""",gxalpha,2023-12-10T12:58:03Z,2023-12-10T15:56:36+00:00,1,2.98,True,3,6,2,1131,4,0,4,MERGED
+9980,graphics-hook: Fix DXGI ref leak for D3D12 capture,jpark37,2023-12-09T21:02:40Z,2023-12-16T23:03:44+00:00,1,170.02,True,40,59,1,773,0,0,0,MERGED
+9978,libobs: Mark data path modification functions as deprecated,PatTheMav,2023-12-08T16:27:51Z,2025-04-30T19:14:57+00:00,1,12218.78,True,4,2,1,635,1,0,1,MERGED
+9977,mac-capture: Fix ScreenCaptureKit deadlock when using invalid display ID,PatTheMav,2023-12-08T13:50:35Z,2023-12-09T23:34:33+00:00,1,33.73,True,7,0,1,988,0,0,0,MERGED
+9975,libobs-d3d11: Add display primaries to the log,jpark37,2023-12-08T06:10:52Z,2023-12-10T10:45:22+00:00,1,52.58,True,33,2,1,934,3,0,3,MERGED
+9971,win-capture: Clean up code in game capture,jpark37,2023-12-06T08:12:45Z,2023-12-10T10:45:33+00:00,1,98.55,True,36,83,2,840,0,0,0,MERGED
+9964,UI: Save invalid transition source data in safe mode,derrod,2023-12-04T21:52:52Z,2024-01-13T23:59:43+00:00,1,962.11,True,8,0,2,660,4,0,4,MERGED
+9957,libobs: Pair video encoder with all audio encoders,derrod,2023-12-03T17:46:56Z,2023-12-05T21:36:37+00:00,5,51.83,True,48,41,4,844,0,2,2,MERGED
+9954,libobs: Remove module UI functions,derrod,2023-12-02T14:42:31Z,2023-12-03T00:09:20+00:00,1,9.45,True,0,259,7,668,0,0,0,MERGED
+9950,libobs: Add obs_view_enum_video_info and deprecate obs_view_get_video_info,derrod,2023-12-01T20:32:20Z,2023-12-03T00:05:55+00:00,1,27.56,True,35,3,3,731,0,0,0,MERGED
+9949,libobs: Fix obs_view_remove only resetting the first matching mix,derrod,2023-12-01T20:08:30Z,2023-12-03T00:03:11+00:00,1,27.91,True,4,3,1,612,0,0,0,MERGED
+9945,docs: Add info on obs_frontend_source_list,CodeYan01,2023-11-30T23:22:25Z,2023-12-03T00:01:56+00:00,1,48.66,True,31,12,1,1246,0,0,0,MERGED
+9944,UI: Fall back in case of invalid scene name on load,Penwy,2023-11-30T19:41:05Z,2023-12-04T11:06:42+00:00,1,87.43,True,11,0,1,853,2,0,2,MERGED
+9943,Rename `circlebuf` to `deque`,derrod,2023-11-30T16:03:41Z,2024-01-20T23:47:02+00:00,4,1231.72,True,902,412,44,851,2,1,3,MERGED
+9942,mac-videotoolbox: Fix handling of unsuccessful encoder creation,PatTheMav,2023-11-30T15:46:04Z,2023-12-02T23:49:24+00:00,1,56.06,True,5,3,1,1011,0,0,0,MERGED
+9941,obs-ffmpeg: Add missing header to CMakeLists,derrod,2023-11-30T15:43:07Z,2023-12-02T23:48:12+00:00,1,56.08,True,2,0,2,531,0,0,0,MERGED
+9937,libobs: Fix GPU scaling always using the main mix,derrod,2023-11-29T16:33:07Z,2023-12-02T23:47:33+00:00,1,79.24,True,9,9,1,666,0,0,0,MERGED
+9935,Add support for FFmpeg 6.1,Stephen-Seo,2023-11-29T06:11:23Z,2023-12-02T23:43:18+00:00,5,89.53,True,61,0,6,1862,16,1,17,MERGED
+9925,win-wasapi: Ignore timestamp errors,prgmitchell,2023-11-27T16:11:07Z,2023-12-04T08:25:43+00:00,1,160.24,True,6,5,1,807,2,0,2,MERGED
+9918,CI: Use distributed network for service uptime check,derrod,2023-11-26T00:23:37Z,2023-12-18T22:40:15+00:00,12,550.28,True,90,87,4,739,1,6,7,MERGED
+9911,docs: fix missing accessor in example,Susko3,2023-11-23T20:42:02Z,2023-11-25T23:29:21+00:00,1,50.79,True,1,1,1,538,1,0,1,MERGED
+9910,libobs: Change scene items to using relative coordinates,derrod,2023-11-23T18:26:57Z,2024-08-27T21:58:51+00:00,10,6675.53,True,747,79,9,2406,15,17,32,MERGED
+9900,obs-ffmpeg: Initialize stopping member variable to false,RytoEX,2023-11-20T22:37:57Z,2023-11-26T03:07:57+00:00,2,124.5,True,1,0,1,5283,3,0,3,MERGED
+9898,libobs/util: Remove unused struct member from text-lookup,derrod,2023-11-20T14:39:08Z,2023-11-25T23:09:47+00:00,2,128.51,True,0,3,1,588,0,0,0,MERGED
+9897,30.0 hotfix cherry picks,derrod,2023-11-20T11:28:35Z,2023-12-04T20:17:55+00:00,1,344.82,True,152,45,13,554,4,0,4,MERGED
+9894,libobs: Don't keep filter mutex in obs_save_source,exeldro,2023-11-20T06:52:59Z,2023-11-26T02:49:50+00:00,6,139.95,True,17,5,1,729,4,1,5,MERGED
+9892,"libobs/util, libobs/media-io: Fix link error including header files from C++",norihiro,2023-11-20T01:41:42Z,2023-11-25T23:04:47+00:00,2,141.38,True,32,0,4,900,1,0,1,MERGED
+9888,libobs/UI: Add option for automatic cropping to bounding box,derrod,2023-11-18T11:46:59Z,2023-12-17T00:00:11+00:00,2,684.22,True,119,7,6,1215,3,0,3,MERGED
+9884,obs-scripting: Fix crash when loading Python at runtime and build errors in Debug configuration on Windows,PatTheMav,2023-11-17T15:40:32Z,2023-12-09T18:37:18+00:00,5,530.95,True,14,7,2,1759,1,1,2,MERGED
+9882,libobs-d3d11: Use OS D3DCompiler_47.dll,jpark37,2023-11-17T06:06:32Z,2023-11-18T23:17:25+00:00,1,41.18,True,9,55,4,635,0,0,0,MERGED
+9881,libobs: Use macOS specific APIs to report free disk space,PatTheMav,2023-11-16T21:31:31Z,2023-11-18T23:16:16+00:00,1,49.75,True,29,0,2,1134,0,0,0,MERGED
+9880,UI: Disable safe mode when `--multi` is used,derrod,2023-11-16T21:12:13Z,2023-11-17T20:31:36+00:00,1,23.32,True,1,0,1,493,0,0,0,MERGED
+9879,cmake: Align Product Name and Bundle Name on macOS,PatTheMav,2023-11-16T20:05:50Z,2023-11-19T14:04:28+00:00,1,65.98,True,6,3,2,824,0,0,0,MERGED
+9875,Shader Cache Improvements,derrod,2023-11-16T03:06:11Z,2023-11-20T10:32:56+00:00,8,103.45,True,77,13,2,1132,0,3,3,MERGED
+9866,libobs: Fix memory leak when migrating from legacy scene item data,norihiro,2023-11-15T17:19:26Z,2023-11-16T21:27:23+00:00,2,28.13,True,6,2,1,984,0,0,0,MERGED
+9858,Enable VS default compiler optimisations,derrod,2023-11-14T16:53:31Z,2023-11-17T16:04:33+00:00,3,71.18,True,8,5,2,902,3,0,3,MERGED
+9857,obs-filters: Remove LTCG linker flag for SpeexDSP builds on Windows,PatTheMav,2023-11-14T16:38:49Z,2023-11-16T22:24:42+00:00,3,53.76,True,1,2,1,914,0,1,1,MERGED
+9853,libobs: Consolidate scene item remove code,tt2468,2023-11-14T07:18:38Z,2023-11-18T23:30:11+00:00,2,112.19,True,18,24,1,954,0,1,1,MERGED
+9845,linux-pipewire: Ensure n_drm_formats is zero initialized,kkartaltepe,2023-11-12T02:33:15Z,2023-11-12T16:32:24+00:00,1,13.99,True,1,1,1,834,2,0,2,MERGED
+9843,obs-filters: Add maxRGB tonemapper for SDR,jpark37,2023-11-11T21:16:46Z,2023-11-11T23:50:34+00:00,1,2.56,True,84,24,3,723,0,0,0,MERGED
+9842,obs-scripting: Add Python 3.11 support for Windows and macOS,PatTheMav,2023-11-11T19:15:01Z,2023-11-11T23:45:56+00:00,1,4.52,True,21,2,3,925,0,0,0,MERGED
+9840,libobs: Fix PTS incrementation when FPS divisor is enabled,tt2468,2023-11-11T10:32:07Z,2023-11-29T15:23:24+00:00,1,436.85,True,2,1,1,1174,2,0,2,MERGED
+9828,Cherry-picks for 30.0,RytoEX,2023-11-08T18:04:59Z,2023-11-09T04:35:59+00:00,2,10.52,True,146,110,30,825,1,0,1,MERGED
+9827,libobs: Expose obs_data_set_autoselect_array,norihiro,2023-11-08T15:06:06Z,2023-11-10T08:10:44+00:00,1,41.08,True,10,0,2,1639,2,0,2,MERGED
+9822,CI: Sign and package Windows builds,derrod,2023-11-07T21:28:19Z,2024-01-09T23:54:47+00:00,52,1514.44,True,512,0,8,2170,3,28,31,MERGED
+9821,UI: Add crash handling options per thread,exeldro,2023-11-07T20:08:14Z,2024-01-01T15:33:19+00:00,1,1315.42,False,85,48,3,850,8,1,9,CLOSED
+9819,UI: Fix typo in Virtual Camera logging functions,RytoEX,2023-11-07T17:03:19Z,2023-11-08T00:09:25+00:00,1,7.1,True,4,4,2,716,0,0,0,MERGED
+9818,CI: Update deps to 2023-11-03 release,RytoEX,2023-11-07T16:48:00Z,2023-11-07T23:28:03+00:00,1,6.67,True,9,9,1,874,0,0,0,MERGED
+9816,cmake: Force PDB generation on Windows for MSVC builds in all configs,PatTheMav,2023-11-06T15:35:44Z,2023-11-11T23:17:20+00:00,11,127.69,True,21,6,2,1398,1,5,6,MERGED
+9814,Flathub publishing updates,tytan652,2023-11-06T07:30:12Z,2023-11-09T21:50:17+00:00,19,86.33,True,128,4,3,1417,1,5,6,MERGED
+9813,frontend-tools: Fix multiple signal-slot connections on output timer,matt818,2023-11-06T00:58:00Z,2023-11-20T22:02:14+00:00,5,357.07,True,9,12,1,1145,5,1,6,MERGED
+9809,build-aux: Remove StatusNotifierItem Flatpak permission,tytan652,2023-11-05T18:16:29Z,2023-11-08T09:35:15+00:00,1,63.31,True,0,1,1,1230,1,0,1,MERGED
+9807,win-wasapi: Use wasapi resampler when capturing processes & set  hnsBufferDuration to 0.,pkviet,2023-11-05T10:26:21Z,2025-08-22T23:30:50+00:00,2,15757.07,False,6,2,1,1822,7,1,8,CLOSED
+9803,mac-capture: Add handling for nil target window,jcm93,2023-11-04T23:54:09Z,2023-11-11T23:06:25+00:00,11,167.2,True,9,7,1,2125,8,2,10,MERGED
+9801,obs-scripting: Fix Sparkle delta updates by disabling bytecode caching,PatTheMav,2023-11-04T18:32:52Z,2023-11-04T23:26:51+00:00,1,4.9,True,5,0,1,1263,0,0,0,MERGED
+9798,UI: Log Virtual Camera output type,Penwy,2023-11-04T03:17:52Z,2023-11-07T06:39:01+00:00,1,75.35,True,29,0,2,886,0,0,0,MERGED
+9795,win-capture: Fix Vulkan race condition,sawillms,2023-11-03T23:34:28Z,2023-11-08T05:48:34+00:00,1,102.23,True,1,1,1,1856,3,0,3,MERGED
+9794,cmake: Allow finding the CEF wrapper without a build folder on Linux,tytan652,2023-11-03T12:43:06Z,2023-11-04T23:19:28+00:00,2,34.61,True,2,1,1,932,2,0,2,MERGED
+9790,obs-ffmpeg: Remove unused variable in VA-API utils,tytan652,2023-11-01T21:21:46Z,2023-11-04T23:17:43+00:00,1,73.93,True,0,1,1,723,0,0,0,MERGED
+9787,cmake: Update Linux build scripts to new 3.0 build path,PatTheMav,2023-11-01T16:43:07Z,2024-04-14T03:48:38+00:00,93,3947.09,True,3580,1147,107,2806,29,57,86,MERGED
+9785,libobs: Add more files to list of public headers,PatTheMav,2023-11-01T14:07:46Z,2023-11-02T15:50:31+00:00,1,25.71,True,47,2,1,1510,2,0,2,MERGED
+9780,"libobs,obs-filters: Use common straight alpha math",jpark37,2023-10-31T07:39:17Z,2023-11-04T23:12:22+00:00,1,111.55,True,19,84,18,1032,0,0,0,MERGED
+9776,(Do not look at this)(Seriously) Flathub publishing updates,GeorgesStavracas,2023-10-29T17:08:55Z,2023-11-10T13:22:28+00:00,3,284.23,False,31,4,2,613,1,1,2,CLOSED
+9772,More 30 cherry-picks,gxalpha,2023-10-28T18:50:06Z,2023-10-28T20:14:25+00:00,2,1.41,True,34,83,16,1219,3,0,3,MERGED
+9771,Camera portal (feat. PipeWire),GeorgesStavracas,2023-10-28T18:45:20Z,2024-01-11T12:57:09+00:00,8,1794.2,True,1845,161,10,1507,1,8,9,MERGED
+9769,cmake: Clean-up pass and code optimization to prepare for Linux update,PatTheMav,2023-10-27T14:18:41Z,2023-12-19T22:59:45+00:00,138,1280.68,True,1328,1138,87,2969,5,76,81,MERGED
+9768,mac-virtualcam: Correct device timer firing rate,jcm93,2023-10-27T06:53:47Z,2023-10-27T14:08:19+00:00,2,7.24,True,1,1,1,878,3,0,3,MERGED
+9767,obs-qsv11: Migrate target usage settings,RytoEX,2023-10-27T00:25:15Z,2023-10-28T19:45:54+00:00,1,43.34,True,1,0,1,1293,0,0,0,MERGED
+9766,mac-capture: Add channel selection for CoreAudio input devices,PatTheMav,2023-10-26T22:55:35Z,2023-12-19T23:33:53+00:00,4,1296.64,True,389,75,3,2392,16,2,18,MERGED
+9765,CI: Add github-actions renderer option to xcbeautify,PatTheMav,2023-10-26T22:11:24Z,2023-12-06T16:27:12+00:00,1,978.26,True,8,5,3,641,1,0,1,MERGED
+9763,CI: Update deps to 2023-10-26 release,RytoEX,2023-10-26T17:56:58Z,2023-10-26T21:52:18+00:00,1,3.92,True,9,9,1,1118,0,0,0,MERGED
+9762,libobs: Export SIMDe headers unconditionally for plugin development,PatTheMav,2023-10-26T16:05:40Z,2023-10-26T22:20:53+00:00,1,6.25,True,14,20,1,642,1,0,1,MERGED
+9759,UI: Fix checkbox misalignment on macOS in properties view,nikola3211,2023-10-25T19:37:01Z,2023-12-02T20:18:36+00:00,3,912.69,True,7,1,1,601,15,0,15,MERGED
+9752,Cherry-picks for 30,tytan652,2023-10-23T17:53:07Z,2023-10-26T20:24:52+00:00,1,74.53,True,2254,1140,319,926,11,0,11,MERGED
+9751,"rtmp-services: Add ""Vault - by CommanderRoot"" to ingest list",CommanderRoot,2023-10-23T12:01:31Z,2024-03-07T00:01:59+00:00,2,3252.01,True,31,2,2,1467,3,0,3,MERGED
+9747,win-wasapi: Log source name on initialization,prgmitchell,2023-10-22T13:27:14Z,2023-10-27T18:37:46+00:00,1,125.18,True,3,2,1,699,0,0,0,MERGED
+9746,linux-pipewire: Add locks to unsafe pipewire functions,kkartaltepe,2023-10-22T00:54:09Z,2023-10-22T14:15:04+00:00,1,13.35,True,10,2,1,821,0,0,0,MERGED
+9745,linux-pipewire: Load glad symbols on start,kkartaltepe,2023-10-21T23:33:02Z,2023-10-24T12:34:38+00:00,5,61.03,True,5,0,1,749,5,1,6,MERGED
+9743,linux-pipewire: Use the format properties for swap r/b,kkartaltepe,2023-10-21T21:14:56Z,2023-10-22T14:16:03+00:00,1,17.02,True,2,3,1,677,0,0,0,MERGED
+9742,plugins: Remove old macOS version ifdefs,gxalpha,2023-10-21T18:45:53Z,2023-10-27T20:00:42+00:00,2,145.25,True,1,24,6,904,1,0,1,MERGED
+9734,rtmp-services: Add LiveSpace,steve-livespace,2023-10-19T22:06:45Z,2024-05-02T18:35:26+00:00,1,4700.48,False,26,2,2,624,6,0,6,CLOSED
+9730,UI: Fix AMF AV1 simple recording presets,Penwy,2023-10-18T12:03:07Z,2023-10-27T18:10:21+00:00,1,222.12,True,3,0,1,922,0,0,0,MERGED
+9724,obs-qsv11: Log more QSV settings,RytoEX,2023-10-17T17:32:39Z,2023-10-18T02:36:22+00:00,2,9.06,True,9,1,1,579,0,0,0,MERGED
+9721,UI: Add missing NULL check for skipUpdateVer,derrod,2023-10-17T09:31:50Z,2023-10-17T15:17:07+00:00,1,5.75,True,2,1,1,847,0,0,0,MERGED
+9717,"libobs, mac-capture, mac-avcapture: Replace Master enums with Main",gxalpha,2023-10-16T12:03:18Z,2023-10-17T20:45:36+00:00,2,32.7,True,13,13,4,1011,0,0,0,MERGED
+9716,UI: Fix UseStreamKeyAdv not display stream key and not hide button,TianQiBuTian,2023-10-14T22:54:07Z,2023-11-08T06:13:20+00:00,1,583.32,True,7,2,2,598,2,0,2,MERGED
+9713,frontend-tools: Remove unused startAtLaunch variable,norihiro,2023-10-14T06:25:33Z,2023-10-14T23:35:39+00:00,1,17.17,True,0,11,2,980,0,0,0,MERGED
+9712,decklink-output-ui: Decouple DeckLink output state,jpark37,2023-10-14T05:01:53Z,2023-10-25T06:11:33+00:00,3,265.16,True,47,37,1,821,1,0,1,MERGED
+9709,obs-websocket: Update version to 5.3.3,RytoEX,2023-10-13T21:21:52Z,2023-10-16T17:02:06+00:00,1,67.67,True,1,1,1,4335,5,0,5,MERGED
+9708,CI: Update deps to 2023-10-17 release,RytoEX,2023-10-13T17:15:43Z,2023-10-17T16:47:57+00:00,1,95.54,True,9,9,1,629,2,0,2,MERGED
+9698,cmake: Explicitly fail if macOS SDK is too old,gxalpha,2023-10-12T11:20:48Z,2023-10-17T18:13:54+00:00,11,126.89,True,14,0,1,1656,0,2,2,MERGED
+9696,build-aux: Update Flatpak CEF build,tytan652,2023-10-12T06:35:13Z,2023-10-12T11:50:42+00:00,1,5.26,True,2,2,1,650,0,0,0,MERGED
+9695,CI: Update CEF builds,RytoEX,2023-10-11T22:52:10Z,2023-10-12T15:14:58+00:00,1,16.38,True,10,10,1,752,0,0,0,MERGED
+9694,build-aux: Use fallback-x11 instead of x11,Etaash-mathamsetty,2023-10-11T20:53:25Z,2024-09-13T20:48:56+00:00,3,8111.93,True,1,1,1,744,15,1,16,MERGED
+9693,mac-virtualcam: Log when extension replacement is requested,gxalpha,2023-10-11T11:40:48Z,2023-10-11T17:07:04+00:00,6,5.44,True,5,0,1,910,0,1,1,MERGED
+9690,UI: Fix compile error due to use of strlen in constexpr,paulh-aja,2023-10-10T22:15:26Z,2023-10-10T23:31:02+00:00,1,1.26,True,3,2,1,1979,0,0,0,MERGED
+9688,CI: Fix Steam upload (again),derrod,2023-10-10T08:42:49Z,2023-10-10T21:41:19+00:00,2,12.97,True,7,11,1,885,1,0,1,MERGED
+9685,build-aux: Update Flatpak CEF build,tytan652,2023-10-09T16:05:27Z,2023-10-09T22:58:06+00:00,2,6.88,True,2,2,1,609,0,0,0,MERGED
+9684,CI: Update CEF builds,RytoEX,2023-10-09T15:40:27Z,2023-10-09T22:34:06+00:00,6,6.89,True,10,7,1,622,0,1,1,MERGED
+9683,CI: Update deps to 2023-10-09 release,RytoEX,2023-10-09T15:16:38Z,2023-10-09T20:00:16+00:00,1,4.73,True,9,9,1,635,0,0,0,MERGED
+9682,CI: Add support for dependency revisions to Linux CI builds,PatTheMav,2023-10-09T13:17:07Z,2023-10-09T15:01:19+00:00,3,1.74,True,3,3,1,844,0,1,1,MERGED
+9681,CI: Remove automatic annotation of macOS Apple Silicon builds,PatTheMav,2023-10-09T12:28:42Z,2023-10-09T14:31:54+00:00,2,2.05,True,7,35,4,714,3,0,3,MERGED
+9679,UI: Convert QTStr macro to inline function,gxalpha,2023-10-09T09:17:29Z,2023-10-12T15:45:45+00:00,3,78.47,True,4,1,1,1117,1,0,1,MERGED
+9678,win-capture: Replace CS:GO references with Counter-Strike 2,prgmitchell,2023-10-08T23:17:26Z,2023-10-09T19:25:45+00:00,1,20.14,False,7,7,3,843,4,0,4,CLOSED
+9676,win-wasapi: Remove 'BETA' from Application Audio Capture name,derrod,2023-10-08T00:01:35Z,2023-10-08T16:49:43+00:00,1,16.8,True,1,1,1,719,2,0,2,MERGED
+9675,mac-virtualcam: Check result of finished extension installation,gxalpha,2023-10-07T15:23:54Z,2023-10-10T00:28:03+00:00,1,57.07,True,12,2,2,1285,0,1,1,MERGED
+9674,"UI: Enable ""Paste Filters"" after copying from scenes or mixer",gxalpha,2023-10-07T07:43:43Z,2023-10-08T16:59:00+00:00,1,33.25,True,2,0,1,1333,0,0,0,MERGED
+9673,cmake: Depend entirely on pkg-config if found for VPL,kkartaltepe,2023-10-07T01:22:51Z,2023-10-09T15:54:00+00:00,6,62.52,True,6,2,2,884,0,2,2,MERGED
+9672,win-wasapi: Use provided timestamp for process capture and handle flags,derrod,2023-10-06T23:31:32Z,2023-10-08T00:00:58+00:00,8,24.49,True,32,7,1,1366,3,3,6,MERGED

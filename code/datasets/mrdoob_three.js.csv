@@ -26,7 +26,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 31905,CSSRenderer: Ensure element exists when execute remove.,xiaoliyooo,2025-09-15T13:01:50Z,2025-09-16T08:34:31+00:00,1,19.54,True,2,0,2,304,3,0,3,MERGED
 31897,SSGIExample: Add Cornell Box-Inspired Scene,zalo,2025-09-12T23:17:49Z,2025-09-13T07:58:56+00:00,1,8.69,True,93,25,1,306,1,3,4,MERGED
 31895,TRAANode: Reduce Ghosting/Smearing,zalo,2025-09-12T22:55:45Z,2025-09-13T16:36:24+00:00,8,17.68,True,115,5,1,1037,5,6,11,MERGED
-31893,Examples: Add WebGPU HDR Example,RenaudRohlinger,2025-09-12T08:28:41Z,2025-09-18T09:21:23+00:00,11,144.88,True,210,12,6,419,9,7,16,MERGED
+31893,Examples: Add WebGPU HDR Example,RenaudRohlinger,2025-09-12T08:28:41Z,2025-09-18T09:21:23+00:00,11,144.88,True,210,12,6,419,10,7,17,MERGED
 31890,SSGINode: Improve Temporal Noise.,zalo,2025-09-11T20:19:19Z,2025-09-12T08:11:30+00:00,14,11.87,True,5,2,2,774,1,2,3,MERGED
 31882,SSGINode: Improve GI Blending,zalo,2025-09-11T01:25:49Z,2025-09-11T17:09:32+00:00,20,15.73,True,22,21,2,1018,2,5,7,MERGED
 31880,WebGPURenderer: Add cache for shadow nodes,sunag,2025-09-10T19:05:26Z,2025-09-12T21:03:44+00:00,1,49.97,True,118,70,1,138,1,0,1,MERGED
@@ -149,3 +149,853 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 31448,USDZExporter: Export scene hierarchy,mkeblx,2025-07-19T19:35:32Z,2025-07-21T08:21:58+00:00,1,36.77,True,88,64,1,70,5,0,5,MERGED
 31444,USDZExporter: object names fix,mkeblx,2025-07-19T04:32:39Z,2025-07-19T08:21:42+00:00,1,3.82,True,6,1,1,64,0,0,0,MERGED
 31443,WebXRManager: Set `glBinding` separately from layer creation.,mikeskydev,2025-07-18T09:15:36Z,2025-07-20T08:30:47+00:00,3,47.25,True,28,8,2,412,12,1,13,MERGED
+31439,Improved MaterialX import support to align with Blender's MaterialX exporter.,bhouston,2025-07-17T18:21:07Z,2025-07-27T22:42:37+00:00,6,244.36,True,1038,63,28,1196,9,6,15,MERGED
+31435,Tests: Add test for USDZExporter,mkeblx,2025-07-17T06:09:02Z,2025-07-17T09:05:56+00:00,1,2.95,True,98,0,2,115,0,0,0,MERGED
+31426,CameraHelper: Support reversed depth,WestLangley,2025-07-15T22:11:15Z,2025-07-16T20:38:12+00:00,1,22.45,True,38,11,1,18,1,0,1,MERGED
+31425,Textures: Fix dimensions of video frames.,Mugen87,2025-07-15T21:41:41Z,2025-07-15T22:47:53+00:00,1,1.1,True,17,1,2,104,1,1,2,MERGED
+31422,fix(GTAOPass): exclude Line2 objects from AO calculation,wyc001122,2025-07-15T15:46:25Z,2025-07-15T18:22:47+00:00,1,2.61,True,1,1,1,1053,0,0,0,MERGED
+31416,WebGPURenderer: Persistent video texture approach,sunag,2025-07-15T04:56:27Z,2025-07-15T14:56:45+00:00,4,10.01,True,46,123,5,398,9,1,10,MERGED
+31410,WebGLRenderer: Auto-correct reversed projection matrix,WestLangley,2025-07-14T13:32:59Z,2025-07-16T01:16:04+00:00,1,35.72,True,5,15,1,357,3,0,3,MERGED
+31409,Improved webgpu reflection example,mrdoob,2025-07-14T07:55:37Z,2025-07-23T11:21:05+00:00,3,219.42,True,80,80,2,163,13,7,20,MERGED
+31407,WebGLRenderer: Rename `reverseDepthBuffer`-> `reversedDepthBuffer`,sunag,2025-07-13T21:30:25Z,2025-07-14T23:58:29+00:00,1,26.47,True,18,18,7,110,1,1,2,MERGED
+31406,Examples: Switch to OrbitControls in `webgl_shadowmap.html`,WestLangley,2025-07-13T19:55:47Z,2025-07-14T08:39:32+00:00,3,12.73,True,8,8,2,114,1,1,2,MERGED
+31405,Matrix4: Simplify formula,WestLangley,2025-07-13T18:53:26Z,2025-07-14T16:50:19+00:00,1,21.95,True,1,1,1,18,1,0,1,MERGED
+31402,TSL: Introduce `computeKernel()`,Spiri0,2025-07-13T06:48:39Z,2025-07-18T02:34:12+00:00,31,115.76,True,150,60,6,1208,1,6,7,MERGED
+31401,Line2NodeMaterial: Remove unused `lineWidth` property.,Jenychen1996,2025-07-13T04:27:22Z,2025-07-13T08:34:50+00:00,1,4.12,True,0,8,1,431,4,0,4,MERGED
+31400,USDZExporter: Refactor to use two stages,mkeblx,2025-07-13T01:09:23Z,2025-07-15T06:02:45+00:00,2,52.89,True,576,268,1,488,3,2,5,MERGED
+31391,WebGLRenderer: Move `ReversedCoordinateSystem` to `camera.reversedDepth`,sunag,2025-07-11T06:10:11Z,2025-07-11T18:48:18+00:00,7,12.64,True,56,49,9,414,15,2,17,MERGED
+31390,PassNode: Provide viewport and scissor API.,Mugen87,2025-07-10T11:07:28Z,2025-07-11T08:16:15+00:00,16,21.15,True,121,1,1,468,1,6,7,MERGED
+31386,TTFLoader: Fix when TTF has different unicode assign to same glyph index,Rikahei,2025-07-09T17:23:50Z,2025-07-10T07:45:44+00:00,3,14.37,True,13,1,1,819,0,1,1,MERGED
+31384,Line3: Add method for computing closest squared distance between line segments.,TheBlek,2025-07-08T14:33:49Z,2025-07-10T07:47:23+00:00,1,41.23,True,183,0,2,398,3,0,3,MERGED
+31378,Examples/TSL: Add SubgroupFunctionNode with Compute Reduction Demonstration,cmhhelgeson,2025-07-06T23:59:49Z,2025-08-13T15:05:37+00:00,7,903.1,True,1838,0,8,485,5,13,18,MERGED
+31375,VideoTexture: Cancel rVFC on Dispose,ycw,2025-07-06T13:59:18Z,2025-07-07T08:56:07+00:00,1,18.95,True,27,2,1,77,1,1,2,MERGED
+31370,"WebGLRenderer: Add `ReversedCoordinateSystem`, fix shadows with `reverseDepthBuffer`.",CodyJasonBennett,2025-07-05T14:52:03Z,2025-07-07T14:04:11+00:00,7,47.2,True,93,13,8,1442,1,2,3,MERGED
+31369,NodeMaterialObserver: Accounts for lightsNode,ycw,2025-07-05T10:55:55Z,2025-07-12T08:35:48+00:00,2,165.66,False,8,0,2,178,2,1,3,CLOSED
+31363,Nodes: Inject shader name into shader,WestLangley,2025-07-04T01:45:36Z,2025-07-04T19:52:50+00:00,15,18.12,False,49,1,3,154,1,3,4,CLOSED
+31362,Examples: Use `onLoad()` in `webgpu_materials`.,andyleiserson,2025-07-04T01:41:33Z,2025-07-04T21:29:27+00:00,1,19.8,True,11,9,1,194,2,0,2,MERGED
+31361,TSL: Add MRT support for `traaPass()`,sunag,2025-07-03T22:14:21Z,2025-07-11T19:36:00+00:00,1,189.36,True,78,20,2,151,7,1,8,MERGED
+31355,ViewHelper: Customize the viewport size and fix `renderer.autoClear` settings,ylfq,2025-07-02T10:03:50Z,2025-07-16T11:15:04+00:00,6,337.19,False,24,14,1,302,3,1,4,CLOSED
+31352,WebGPUUtils: Ensure sample count is valid,ycw,2025-07-01T16:54:13Z,2025-07-02T07:59:54+00:00,1,15.09,True,2,17,1,290,1,0,1,MERGED
+31351,RapierPhysics: Support RoundedBoxGeometry,linbingquan,2025-07-01T15:27:19Z,2025-07-02T08:36:12+00:00,1,17.15,True,18,2,2,126,3,0,3,MERGED
+31348,RoomEnvironment: Set emissiveIntensity instead,WestLangley,2025-07-01T12:20:05Z,2025-07-02T16:19:35+00:00,1,27.99,True,9,4,2,620,6,0,6,MERGED
+31346,TransformControls: introduce scaleFromEdge property,manisandro,2025-07-01T09:16:34Z,2025-07-05T09:22:38+00:00,2,96.1,False,66,0,1,228,15,2,17,CLOSED
+31345,HTMLMesh: Add support for email and password inputs.,HuangLinBao,2025-07-01T05:07:25Z,2025-07-01T10:11:41+00:00,1,5.07,True,5,3,1,188,0,0,0,MERGED
+31343,TSL: `viewportTexture()` cache `FramebufferTexture` according to `RenderTarget`,sunag,2025-06-30T23:16:41Z,2025-07-02T22:52:56+00:00,2,47.6,True,67,7,1,175,1,1,2,MERGED
+31342,Add FluidSim class for fluid simulation,bandinopla,2025-06-30T22:43:50Z,2025-07-16T11:16:13+00:00,1,372.54,False,1082,0,5,521,4,6,10,CLOSED
+31341,Normal.js: Improve JSDoc,WestLangley,2025-06-30T20:40:39Z,2025-07-06T22:14:51+00:00,7,145.57,True,11,11,1,18,5,1,6,MERGED
+31340,"RoundedBoxGeometry: add type, parameters and toJSON",vis-prime,2025-06-30T17:13:04Z,2025-07-01T14:01:48+00:00,1,20.81,True,47,8,1,836,2,0,2,MERGED
+31337,WebGPURenderer: Compute Texture 3D Example,RenaudRohlinger,2025-06-30T12:17:54Z,2025-06-30T18:30:59+00:00,1,6.22,True,237,3,7,202,3,5,8,MERGED
+31335,WebGPUBackend: Allow Storage Buffer on Index Attribute,RenaudRohlinger,2025-06-30T07:58:24Z,2025-06-30T12:12:02+00:00,1,4.23,True,9,1,1,175,1,0,1,MERGED
+31334,Editor: Fix crash when geometry lacks position attribute.,AlexRynas,2025-06-30T07:41:55Z,2025-06-30T21:10:29+00:00,2,13.48,True,10,3,1,1247,0,1,1,MERGED
+31324,Examples: Add window resize event for webgl_geometry_extrude_shapes.html,linbingquan,2025-06-28T09:40:02Z,2025-06-28T14:52:41+00:00,1,5.21,True,13,0,1,51,0,0,0,MERGED
+31321,Examples: Improve lottie example,linbingquan,2025-06-27T11:30:02Z,2025-06-27T13:59:33+00:00,2,2.49,True,11,10,1,67,0,1,1,MERGED
+31319,RoundedBoxGeometry: Fix parameters of the parent class,linbingquan,2025-06-26T23:27:07Z,2025-06-27T07:44:56+00:00,1,8.3,True,1,1,1,51,0,0,0,MERGED
+31316,ExtrudeGeometry: Deprecated options.UVGenerator,linbingquan,2025-06-26T09:31:22Z,2025-06-29T08:11:48+00:00,1,70.67,False,8,0,1,69,6,0,6,CLOSED
+31314,TSL Transpiler: Introduce `Linker` and improvements,sunag,2025-06-26T02:49:12Z,2025-06-27T15:10:36+00:00,1,36.36,True,914,285,5,2747,4,1,5,MERGED
+31307,Frustum: Honor sprite offset in `intersectsSprite()`.,Mugen87,2025-06-24T08:48:02Z,2025-06-25T13:46:42+00:00,7,28.98,True,6,1,1,570,1,1,2,MERGED
+31300,monaco-editor@0.52.2,linbingquan,2025-06-22T02:29:36Z,2025-06-22T08:00:04+00:00,1,5.51,True,8,8,6,60,0,0,0,MERGED
+31298,RapierPhysics: Use world.removeCollider(),linbingquan,2025-06-21T14:52:21Z,2025-06-21T15:59:45+00:00,1,1.12,True,53,25,1,215,0,0,0,MERGED
+31296,RapierPhysics: Add removeMesh(),linbingquan,2025-06-21T03:20:17Z,2025-06-21T08:22:56+00:00,1,5.04,True,63,4,2,51,0,0,0,MERGED
+31295,Clock: Inline `performance.now()`.,linbingquan,2025-06-21T03:19:50Z,2025-06-21T15:56:30+00:00,5,12.61,True,2,8,1,51,1,2,3,MERGED
+31289,Fix code typo in SceneGraph manual page,MeirArani,2025-06-20T06:50:00Z,2025-06-20T08:02:22+00:00,1,1.21,True,7,7,7,515,0,0,0,MERGED
+31276,Loader: Add `abort()`.,Mugen87,2025-06-16T15:20:58Z,2025-06-30T21:18:50+00:00,24,341.96,True,83,1,4,907,5,4,9,MERGED
+31268,GLBufferAttribute: Add `normalized` property.,Rtwo-Dtwo,2025-06-15T17:36:08Z,2025-06-16T08:37:56+00:00,1,15.03,True,210,90,10,612,1,0,1,MERGED
+31261,src: Clean up.,linbingquan,2025-06-14T02:08:15Z,2025-06-14T08:03:21+00:00,1,5.92,True,1,1,1,51,1,0,1,MERGED
+31259,ArcballControls : Add `passive: false` for wheel event.,juji,2025-06-13T17:04:00Z,2025-06-14T08:05:51+00:00,1,15.03,True,1,1,1,62,1,0,1,MERGED
+31258,ImageLoader: Optimize caching.,Mugen87,2025-06-12T08:52:39Z,2025-06-13T11:13:17+00:00,1,26.34,True,54,7,1,288,4,1,5,MERGED
+31255,WebGPURenderer: Use correct invalidation array in WebGL backend.,cabanier,2025-06-11T21:51:03Z,2025-06-12T08:18:44+00:00,1,10.46,True,7,20,1,268,1,0,1,MERGED
+31249,Translate three.js manual pages into French,AlexandreGagne10,2025-06-10T10:56:32Z,2025-06-10T16:40:03+00:00,2,5.73,False,23448,9236,114,909,0,1,1,CLOSED
+31246,Renderers: Correct the blending formulas,WestLangley,2025-06-08T23:53:01Z,2025-06-10T15:15:52+00:00,1,39.38,True,17,15,7,372,3,0,3,MERGED
+31239,Add BatchedMesh LOD and BVH example page,agargaro,2025-06-07T23:07:04Z,2025-06-14T08:06:09+00:00,1,152.98,True,278,0,4,524,16,0,16,MERGED
+31236,TSL: Introduce Chromatic Aberration,pashaydev,2025-06-06T18:31:43Z,2025-06-08T04:09:24+00:00,7,33.63,True,555,0,6,1337,2,4,6,MERGED
+31232,Fix GUI colors in `webgpu_compute_cloth` example,WestLangley,2025-06-06T02:39:07Z,2025-06-06T08:28:34+00:00,1,5.82,True,10,4,1,246,3,0,3,MERGED
+31228,WebGPURenderer: Make MSAA with MRT work with WebGL backend.,Mugen87,2025-06-05T08:17:43Z,2025-06-06T08:30:41+00:00,3,24.22,True,47,10,8,5460,5,1,6,MERGED
+31227,RenderObject: Check attributes version of the geometry,sunag,2025-06-05T00:56:49Z,2025-06-06T16:27:23+00:00,2,39.51,True,93,30,3,222,1,2,3,MERGED
+31224,Docs: Improve `Object3DNode`.,SamJB123,2025-06-04T12:22:41Z,2025-06-04T16:17:29+00:00,1,3.91,True,1,1,1,157,1,0,1,MERGED
+31222,NodeBuilder - Fix Interpolation,cmhhelgeson,2025-06-03T19:15:02Z,2025-06-04T08:43:33+00:00,1,13.48,True,9,11,3,177,1,1,2,MERGED
+31217,Examples: Fix texture path of `webgpu_sandbox`,sunag,2025-06-03T02:54:15Z,2025-06-03T07:47:23+00:00,1,4.89,True,1,2,3,110,1,0,1,MERGED
+31201,XRManager: silence opaque framebuffer warning,cabanier,2025-05-30T08:19:54Z,2025-05-31T08:30:29+00:00,4,24.18,True,33,18,4,16,2,2,4,MERGED
+31196,TSL: Use multi argument versions of `min` and `max`,kristiker,2025-05-29T14:58:38Z,2025-05-30T00:45:34+00:00,1,9.78,True,14,14,5,176,1,0,1,MERGED
+31195,WebGLTextureUtils: Clean up.,linbingquan,2025-05-29T14:45:39Z,2025-05-29T21:12:18+00:00,3,6.44,True,19,19,1,76,1,1,2,MERGED
+31194,WebGPURenderer: Check if `OffscreenCanvas` is in window before accessing.,pavel-mazhuga,2025-05-29T05:18:02Z,2025-05-29T09:34:54+00:00,1,4.28,True,1,1,1,156,1,0,1,MERGED
+31189,WebGPURenderer: Remove _forceViewport,cabanier,2025-05-28T00:12:21Z,2025-05-28T08:25:55+00:00,1,8.23,True,19,12,2,161,5,0,5,MERGED
+31186,CSMShadowNode: Fix toggle of `castShadow`.,Mugen87,2025-05-27T09:27:31Z,2025-05-28T08:18:59+00:00,1,22.86,True,18,16,3,884,1,1,2,MERGED
+31177,TSL: Remove `transformed*` prefix - WIP,sunag,2025-05-26T18:23:57Z,2025-06-13T05:20:21+00:00,2,418.94,False,516,173,32,724,6,5,11,CLOSED
+31175,WebGPURenderer: Add `Storage3DTexture` and `StorageArrayTexture`,Spiri0,2025-05-26T15:31:00Z,2025-06-26T04:27:11+00:00,11,732.94,True,173,14,7,286,13,3,16,MERGED
+31160,HTMLMesh: Add support for input of type text and number in VR,vincentfretin,2025-05-24T10:56:40Z,2025-05-27T22:38:30+00:00,1,83.7,True,6,0,1,530,4,0,4,MERGED
+31158,Added in BufferGeometry documentation the referential of Rotation,Poico,2025-05-24T09:27:23Z,2025-05-24T15:16:07+00:00,3,5.81,False,6,0,1,462,0,1,1,CLOSED
+31156,TSL: Improve build stages,sunag,2025-05-24T05:30:00Z,2025-05-24T15:19:39+00:00,1,9.83,True,109,39,6,333,1,1,2,MERGED
+31155,"KTX2Loader: Support ETC2, BCn, and ASTC 4x4 sRGB",donmccurdy,2025-05-23T21:33:02Z,2025-05-27T22:38:01+00:00,2,97.08,True,278,131,29,579,2,3,5,MERGED
+31152,ColorManagement: Improve Nomenclature.,WestLangley,2025-05-23T04:18:08Z,2025-05-24T08:42:20+00:00,7,28.4,True,55,61,12,90,1,2,3,MERGED
+31150,LDrawLoader: Don't clear already-loaded materials onload.,Floppy,2025-05-22T21:20:07Z,2025-05-23T09:23:02+00:00,7,12.05,True,24,2,1,374,4,2,6,MERGED
+31147,NodeMaterial: Cleanup `alphaTest`,sunag,2025-05-22T06:03:51Z,2025-05-23T18:53:19+00:00,2,36.82,True,17,11,2,100,1,2,3,MERGED
+31144,LineMaterial: Fix clipping planes.,rtortajada,2025-05-21T17:02:15Z,2025-05-22T07:59:02+00:00,1,14.95,True,3,4,1,245,0,0,0,MERGED
+31140,Feat sdf loader,jakekinchen,2025-05-20T19:24:11Z,2025-05-30T08:20:15+00:00,4,228.93,False,670,1,8,1785,2,3,5,CLOSED
+31134,WebGPURenderer: Optimize WebXR render path.,cabanier,2025-05-19T20:27:44Z,2025-05-27T22:35:58+00:00,19,194.14,True,335,23,7,119,6,9,15,MERGED
+31133,SkyMesh: Improve varyings declaration,sunag,2025-05-19T04:05:29Z,2025-05-20T03:22:19+00:00,1,23.28,True,18,16,1,41,0,0,0,MERGED
+31130,Clean up `webgpu_compute_cloth` example,WestLangley,2025-05-18T22:19:20Z,2025-05-20T09:25:56+00:00,1,35.11,True,6,6,1,68,3,0,3,MERGED
+31127,NodeMaterial: Introduce `.maskNode` and improve `shapeCircle()`,sunag,2025-05-18T16:21:26Z,2025-05-19T04:10:13+00:00,1,11.81,True,38,13,3,367,3,1,4,MERGED
+31126,USDZExporter: Fix Object indentation level,mkeblx,2025-05-17T20:44:19Z,2025-05-18T08:35:19+00:00,1,11.85,True,10,10,1,1301,0,0,0,MERGED
+31125,GLTFExporter: Push nodes parent-first instead of child-first,aaronfranke,2025-05-17T17:47:36Z,2025-05-18T09:06:34+00:00,1,15.32,True,5,4,1,1534,0,0,0,MERGED
+31123,Examples: Add `webgpu_compute_cloth`,holtsetio,2025-05-17T12:43:29Z,2025-05-18T15:38:45+00:00,3,26.92,True,561,0,4,197,4,3,7,MERGED
+31119,USDZExporter: Fix JSDoc to match default value,mkeblx,2025-05-16T07:17:08Z,2025-05-16T08:43:29+00:00,1,1.44,True,1,1,1,96,0,0,0,MERGED
+31116,Examples: Add `webgpu_reflection_blurred`,sunag,2025-05-15T06:49:47Z,2025-05-15T08:10:03+00:00,2,1.34,True,235,0,3,101,5,1,6,MERGED
+31113,SkeletonHelper: fix typo in JSDoc,upisfree,2025-05-15T02:52:11Z,2025-05-15T08:29:19+00:00,1,5.62,True,1,1,1,0,2,0,2,MERGED
+31112,GLTFLoader: Add support for importing single root files,aaronfranke,2025-05-15T02:06:47Z,2025-07-10T09:12:54+00:00,6,1351.1,False,36,11,1,3434,14,2,16,CLOSED
+31108,WebGPURenderer: Fix runtime errors introduced by texture array refactor.,cabanier,2025-05-14T20:57:18Z,2025-05-15T08:54:41+00:00,1,11.96,True,13,12,3,64,1,0,1,MERGED
+31107,Put webgpu_lights_pointlights in webgpu category,ycw,2025-05-14T17:23:16Z,2025-05-14T18:31:39+00:00,1,1.14,True,1,1,1,108,4,0,4,MERGED
+31106,LightsNode: Fix `castShadow` regression.,Mugen87,2025-05-14T16:20:22Z,2025-05-15T08:39:09+00:00,5,16.31,True,16,17,2,330,1,2,3,MERGED
+31101,XRManager: Improve docs.,Mugen87,2025-05-14T09:49:59Z,2025-05-14T14:51:25+00:00,1,5.02,True,39,2,1,99,1,1,2,MERGED
+31099,WebGPURenderer: Fix issues in WebXR caused by texture array work.,cabanier,2025-05-14T05:21:29Z,2025-05-14T08:09:05+00:00,4,2.79,True,21,5,4,146,2,1,3,MERGED
+31096,Core: Increase version of Object/Scene format.,repalash,2025-05-13T14:25:49Z,2025-05-16T08:41:07+00:00,1,66.25,True,11,11,10,496,4,0,4,MERGED
+31092,Improved webgpu_compute_particles example,mrdoob,2025-05-13T11:12:50Z,2025-05-14T07:25:06+00:00,1,20.2,True,58,51,2,193,5,1,6,MERGED
+31089,WebGLRenderer - Add MRT support to .readRenderTargetPixels(),repalash,2025-05-12T17:13:48Z,2025-05-30T09:53:46+00:00,7,424.67,False,309,5,3,380,7,3,10,CLOSED
+31088,ImageBitmapLoader: Make error handling more robust.,Mugen87,2025-05-12T16:29:20Z,2025-05-12T21:37:17+00:00,3,5.13,True,21,5,1,348,3,1,4,MERGED
+31087,Texture: Add setValues.,CodyJasonBennett,2025-05-12T14:37:12Z,2025-05-15T08:38:44+00:00,5,66.03,True,200,9,12,251,2,2,4,MERGED
+31074,HemisphereLightNode: Changed `normalView` to `normalWorld`.,vitro-mod,2025-05-09T16:56:46Z,2025-05-09T18:03:42+00:00,1,1.12,True,2,2,1,184,1,0,1,MERGED
+31061,PCDLoader: Implement data type dependent binary parsing.,F-loat,2025-05-08T02:52:43Z,2025-05-08T14:00:00+00:00,5,11.12,True,114,27,3,170,5,3,8,MERGED
+31058,Examples: Make dynamic instancing demo more interesting.,Mugen87,2025-05-06T15:53:20Z,2025-05-07T09:03:26+00:00,4,17.17,True,132,52,3,273,0,1,1,MERGED
+31057,Examples: Add textured assets to `webgl_loader_fbx`.,tatsuya-ogawa,2025-05-06T10:13:35Z,2025-05-08T08:29:31+00:00,4,46.27,True,3,1,4,183,6,1,7,MERGED
+31054,AudioListener: Set the proper up-direction,WestLangley,2025-05-06T00:54:50Z,2025-05-06T09:39:20+00:00,1,8.74,True,13,10,1,197,4,0,4,MERGED
+31053,Examples: Clean up XR examples browser notices,mkeblx,2025-05-05T23:55:53Z,2025-05-06T07:53:08+00:00,1,7.95,True,3,11,10,179,0,0,0,MERGED
+31051,GLTFLoader: Clone node associations.,nkrajina,2025-05-05T17:32:22Z,2025-05-13T19:51:30+00:00,1,194.32,True,5,0,1,545,2,0,2,MERGED
+31044,Add FXAAPass class,neilrackett,2025-05-04T23:26:09Z,2025-05-05T07:47:55+00:00,2,8.36,True,42,12,2,536,0,1,1,MERGED
+31035,Add damp accessor to WebGL AfterimagePass class,neilrackett,2025-05-02T10:55:06Z,2025-05-04T08:55:04+00:00,5,46.0,True,19,2,2,353,1,2,3,MERGED
+31032,FBXLoader: Use `getHandler()` for custom texture loaders.,tatsuya-ogawa,2025-04-30T13:01:29Z,2025-05-05T08:23:07+00:00,11,115.36,True,2,13,1,227,10,2,12,MERGED
+31031,TextureLoader inherits FbxLoader's credentials,tatsuya-ogawa,2025-04-30T09:10:56Z,2025-04-30T10:30:23+00:00,3,1.32,False,2,2,1,214,0,1,1,CLOSED
+31028,Sphere: Add toJSON and fromJSON functions,gkjohnson,2025-04-29T16:18:04Z,2025-04-29T18:03:41+00:00,3,1.76,True,34,28,5,148,1,1,2,MERGED
+31021,"Box3: Add toJSON, fromJSON",gkjohnson,2025-04-28T20:27:52Z,2025-04-29T08:13:10+00:00,1,11.76,True,32,14,3,432,1,0,1,MERGED
+31020,SpotLightShadow: Introduce `aspect` property,sunag,2025-04-28T16:39:56Z,2025-04-28T18:14:41+00:00,1,1.58,True,31,9,3,175,11,1,12,MERGED
+30998,Texture: Add updateRanges.,CodyJasonBennett,2025-04-25T17:02:34Z,2025-05-12T08:48:56+00:00,1,399.77,True,139,1,2,706,11,0,11,MERGED
+30991,Docs: Clarify camera position on creating-a-scene.html,mgemard,2025-04-24T23:38:55Z,2025-04-29T08:11:04+00:00,1,104.54,False,1,1,1,165,0,1,1,CLOSED
+30986,TSL Node: cameraWorldQuaternion,PoseidonEnergy,2025-04-23T22:34:36Z,2025-04-29T08:11:25+00:00,6,129.61,False,16,0,2,1115,5,1,6,CLOSED
+30985,Examples - WebGPU Compute Water Adjustment,cmhhelgeson,2025-04-23T22:27:26Z,2025-04-27T17:56:28+00:00,1,91.48,True,162,81,1,94,6,2,8,MERGED
+30966,PointerLockControls: Constant for mouse sensitivity,satelllte,2025-04-20T16:57:07Z,2025-04-21T08:03:19+00:00,1,15.1,True,3,2,1,117,0,0,0,MERGED
+30965,"BatchedMesh: Fix toJSON, ObjectLoader integration",gkjohnson,2025-04-20T04:40:33Z,2025-04-20T08:07:05+00:00,1,3.44,True,91,33,3,1027,2,0,2,MERGED
+30959,WebGPURenderer: Array-Based RenderTarget Refactor,RenaudRohlinger,2025-04-19T07:07:03Z,2025-04-30T02:44:16+00:00,17,259.62,True,115,269,24,1421,10,5,15,MERGED
+30957,"fix:openthe developer tools are opened, the rotation of TrackballControls becomes very sticky.",sunlin0oo,2025-04-19T05:06:33Z,2025-04-23T08:55:06+00:00,4,99.81,False,17,1,1,482,2,1,3,CLOSED
+30950,Fix devtools littering window object,cesmoak,2025-04-18T07:13:55Z,2025-04-18T09:54:24+00:00,1,2.67,True,308,304,1,809,3,0,3,MERGED
+30941,webgl_reverse_depth_buffer: Use post-processing and add note for use of floating point depth,CodyJasonBennett,2025-04-16T14:22:19Z,2025-04-16T18:32:39+00:00,3,4.17,True,42,24,1,442,0,1,1,MERGED
+30940,LightsNode: Honor spotlight maps in cache key.,Mugen87,2025-04-16T12:18:35Z,2025-04-18T09:54:04+00:00,6,45.59,True,15,5,1,226,1,1,2,MERGED
+30933,TSL: Fix `dispose()` when using `reflector()`.,Mugen87,2025-04-15T10:22:26Z,2025-04-15T13:24:17+00:00,1,3.03,True,37,7,2,86,1,1,2,MERGED
+30932,Fix the event response mechanism for on-demand rendering in Trackball…,Avan0203,2025-04-15T10:19:49Z,2025-04-29T08:12:08+00:00,1,333.87,False,146,23,3,112,4,1,5,CLOSED
+30921,RenderTarget: Fix depth texture assignment regression.,Spiri0,2025-04-13T00:00:07Z,2025-04-13T08:30:28+00:00,1,8.51,True,2,1,1,351,2,0,2,MERGED
+30920,Multiview support for webgpu renderer,cabanier,2025-04-12T18:29:29Z,2025-04-14T21:04:37+00:00,19,50.59,True,195,40,16,65,7,8,15,MERGED
+30916,CapsuleGeometry: Clean up.,linbingquan,2025-04-12T12:13:55Z,2025-04-13T09:07:24+00:00,3,20.89,False,10,10,1,51,1,1,2,CLOSED
+30915,"CapsuleGeometry: Change length param to height, fix UVs",mkeblx,2025-04-11T21:03:18Z,2025-04-12T09:44:04+00:00,2,12.68,True,203,68,11,529,1,1,2,MERGED
+30912,TSL: Add `increment` and `decrement` and fix unsual `for()` expression syntax for transpiler,Mugen87,2025-04-11T09:16:29Z,2025-04-13T03:17:54+00:00,2,42.02,True,100,9,4,157,2,1,3,MERGED
+30907,Example: Add Cesium Ion logo to 3d tiles example,gkjohnson,2025-04-11T03:16:37Z,2025-04-11T08:26:57+00:00,1,5.17,True,12,4,2,216,0,0,0,MERGED
+30906,RapierPhysics: Add heightfield support.,andytriboletti,2025-04-11T01:04:02Z,2025-04-12T10:12:44+00:00,8,33.15,True,401,4,4,175,1,4,5,MERGED
+30905,ImprovedNoise: Use MathUtils.lerp,satelllte,2025-04-10T20:02:55Z,2025-04-11T08:30:30+00:00,1,12.46,True,17,14,1,218,0,0,0,MERGED
+30904,Editor: Fix selection box update when reparenting objects in hierarchy,lixinde,2025-04-10T14:39:23Z,2025-04-11T08:29:56+00:00,1,17.84,True,6,0,1,1109,3,0,3,MERGED
+30902,XRManager: Request reference space for both layers and non layers.,danrossi,2025-04-10T10:50:27Z,2025-04-11T08:24:00+00:00,3,21.56,True,2,2,1,146,1,1,2,MERGED
+30891,WebGPURenderer: Fix early-z rejection,sunag,2025-04-08T03:04:04Z,2025-04-08T12:15:41+00:00,1,9.19,True,0,4,1,359,1,0,1,MERGED
+30883,"Examples: Add external ""3d tiles"" globe example",gkjohnson,2025-04-07T04:03:55Z,2025-04-08T03:56:32+00:00,1,23.88,True,139,0,6,268,0,0,0,MERGED
+30881,WebGPURenderer - Disable Draw Call when object.count = 0,cmhhelgeson,2025-04-07T01:17:41Z,2025-04-07T15:14:05+00:00,3,13.94,True,14,1,1,114,1,1,2,MERGED
+30880,Docs: Typos,s-rigaud,2025-04-06T17:34:57Z,2025-04-07T08:24:14+00:00,1,14.82,True,18,18,9,43,1,0,1,MERGED
+30879,Docs: Improve types,s-rigaud,2025-04-06T17:25:57Z,2025-04-07T08:27:11+00:00,1,15.02,True,17,15,10,68,1,0,1,MERGED
+30877,ShadowNode: Inherit camera.layers only if shadow.camera.layers is not set,RenaudRohlinger,2025-04-06T13:35:06Z,2025-04-17T07:14:21+00:00,8,257.65,True,32,2,2,246,2,3,5,MERGED
+30872,"LottieWeb: Remove expressions eval, harden SSR check.",CodyJasonBennett,2025-04-05T13:06:40Z,2025-04-14T02:49:52+00:00,6,205.72,False,17,350,1,122,1,2,3,CLOSED
+30868,CapsuleGeometry: Add `heightSegments` parameter,mkeblx,2025-04-04T22:52:45Z,2025-04-07T09:33:31+00:00,4,58.68,True,53,8,12,188,7,1,8,MERGED
+30866,Examples: Fix AR hit-test,mkeblx,2025-04-04T17:48:48Z,2025-04-04T21:51:56+00:00,1,4.05,True,9,5,1,198,0,0,0,MERGED
+30865,Add dev builds to speed up dev iteration,ycw,2025-04-04T15:22:54Z,2025-04-28T19:59:37+00:00,3,580.61,True,21,2,2,644,5,1,6,MERGED
+30864,GLTFLoader: Remove support detection for WebP and AVIF.,Mugen87,2025-04-04T14:08:51Z,2025-04-07T08:38:11+00:00,1,66.49,True,2,80,1,469,1,0,1,MERGED
+30862,WebGPURenderer: Make `material.transparent` behave as in WebGLRenderer,rkreis-v,2025-04-04T11:31:44Z,2025-04-08T16:41:12+00:00,2,101.16,True,1,1,1,134,19,1,20,MERGED
+30859,Fix WebXR Haptics example when entering VR from Oculus Browser button,arturitu,2025-04-04T09:28:10Z,2025-04-07T09:34:04+00:00,1,72.1,True,1,2,1,271,1,0,1,MERGED
+30854,WebGPURenderer: Introduce `compatibilityMode`,sunag,2025-04-03T16:03:52Z,2025-04-03T17:48:44+00:00,1,1.75,True,20,19,4,362,1,0,1,MERGED
+30851,Add dev server to speed up dev iteration,ycw,2025-04-03T09:08:32Z,2025-04-20T07:56:35+00:00,3,406.8,False,443,338,5,3192,5,3,8,CLOSED
+30843,Typos,s-rigaud,2025-04-01T20:15:17Z,2025-04-02T16:37:45+00:00,1,20.37,True,85,85,17,240,2,0,2,MERGED
+30837,TSL: Fix `bitangent*` if used `material.flatShading`,sunag,2025-04-01T04:00:06Z,2025-04-02T16:11:37+00:00,3,36.19,True,46,12,4,88,10,0,10,MERGED
+30835,Animation: Fix ReferenceError in non-broswer environment,chirsz-ever,2025-03-31T16:44:18Z,2025-04-02T19:27:57+00:00,10,50.73,True,2,2,1,37,4,2,6,MERGED
+30834,AfterImageNode: Fix usage of multiple nodes.,Makio64,2025-03-31T16:17:47Z,2025-04-01T09:03:25+00:00,14,16.76,True,1,3,1,90,0,1,1,MERGED
+30833,TSL: Show shader stage in `debug()` message,sunag,2025-03-31T16:14:50Z,2025-04-01T03:52:17+00:00,1,11.62,True,5,2,1,71,1,0,1,MERGED
+30830,WebGPURenderer: Introduce Shadow Map Array,RenaudRohlinger,2025-03-31T10:31:33Z,2025-04-03T15:51:16+00:00,15,77.33,True,2499,400,31,1221,9,15,24,MERGED
+30823,Normal: Don't flip normals when using flat shading.,Mugen87,2025-03-30T09:00:30Z,2025-03-30T16:34:07+00:00,3,7.56,True,14,4,2,165,2,1,3,MERGED
+30822,ExtrudeGeometry: Fix regression introduced by #30750.,mlasala45,2025-03-29T15:36:09Z,2025-03-31T08:32:18+00:00,4,40.94,True,37,27,1,372,10,4,14,MERGED
+30818,Added additional Rapier physics examples,NikLever,2025-03-28T13:47:25Z,2025-04-01T17:20:14+00:00,26,99.55,True,1056,2,13,530,3,13,16,MERGED
+30817,MD2CharacterComplex: fix frontDeceleration attribute name,s-rigaud,2025-03-28T13:45:10Z,2025-03-28T14:48:21+00:00,1,1.05,True,3,3,1,190,0,0,0,MERGED
+30816,Docs: Add client-side redirect to new docs.,Mugen87,2025-03-28T10:08:49Z,2025-09-30T20:21:16+00:00,1,4474.21,False,11,1,1,152,1,4,5,CLOSED
+30814,Added Rapier Physics examples -- ignore this it is messed up with previous PR!!,NikLever,2025-03-28T08:20:39Z,2025-03-28T10:10:45+00:00,3,1.83,False,1167,11,10,530,0,1,1,CLOSED
+30809,WebGLRenderer: Fix `setReversed()` so `reverseDepthBuffer: true` works.,haxiomic,2025-03-26T21:02:40Z,2025-03-27T23:08:09+00:00,9,26.09,True,292,9,5,363,3,2,5,MERGED
+30802,LWOLoader: fix method calls,s-rigaud,2025-03-25T22:18:07Z,2025-03-26T08:39:47+00:00,1,10.36,True,4,4,1,94,0,0,0,MERGED
+30799,Examples: fix minor errors,s-rigaud,2025-03-25T20:12:09Z,2025-03-27T23:06:09+00:00,9,50.9,True,24,24,4,40,0,3,3,MERGED
+30798,Examples: fix minor errors,s-rigaud,2025-03-25T19:05:32Z,2025-03-26T08:30:41+00:00,3,13.42,True,8,9,4,52,0,1,1,MERGED
+30794,Editor: Add color space options for background textures.,Mugen87,2025-03-25T12:21:03Z,2025-03-25T17:07:27+00:00,3,4.77,True,36,1,2,239,0,2,2,MERGED
+30792,Examples: avoid relying on implicit event parameter,s-rigaud,2025-03-24T22:51:31Z,2025-03-25T09:27:30+00:00,1,10.6,True,9,9,5,299,0,0,0,MERGED
+30791,Docs: fix types,s-rigaud,2025-03-24T19:38:54Z,2025-03-25T17:05:35+00:00,3,21.44,True,16,12,8,43,1,1,2,MERGED
+30789,Shaders: Improve types.,s-rigaud,2025-03-24T15:33:10Z,2025-03-24T22:36:19+00:00,3,7.05,True,144,128,55,396,2,2,4,MERGED
+30779,perf: optimize Vector4 Operations (max 4.8x speedup),mattverse,2025-03-22T20:06:56Z,2025-03-23T22:39:08+00:00,2,26.54,False,73,71,1,764,5,1,6,CLOSED
+30776, Docs: fix typos ,omahs,2025-03-21T14:39:45Z,2025-03-22T09:09:11+00:00,3,18.49,True,32,32,19,15,2,2,4,MERGED
+30771,CSMShader: Add missing `getPointShadow()` argument.,brentyi,2025-03-20T22:09:11Z,2025-03-20T23:27:16+00:00,1,1.3,True,2,1,1,1334,0,0,0,MERGED
+30768,NodeMaterial: Add support for `compute()`  integrated into the material,sunag,2025-03-20T20:13:51Z,2025-03-21T15:31:51+00:00,1,19.3,True,126,55,8,1274,6,2,8,MERGED
+30764,ShadowMaskModel: Fix signatures.,Mugen87,2025-03-20T11:14:23Z,2025-03-20T18:38:25+00:00,1,7.4,True,13,4,2,575,3,1,4,MERGED
+30760,fix: handle alphaToCoverage in shadow map generation,mattverse,2025-03-20T04:22:49Z,2025-04-05T08:07:37+00:00,4,387.75,False,23,9,1,531,4,1,5,CLOSED
+30756,Earcut: Copy mapbox/earcut file into core libs,gkjohnson,2025-03-19T01:32:48Z,2025-03-19T09:18:43+00:00,1,7.77,True,690,30,5,195,1,0,1,MERGED
+30750,Automatically clean shape data passed to ExtrudeGeometry,mlasala45,2025-03-18T01:10:00Z,2025-03-26T01:51:50+00:00,16,192.7,True,55,6,3,646,8,5,13,MERGED
+30746,WebGLRenderer: Fix binding __webglFramebuffer when mipmaps are used.,haxiomic,2025-03-17T02:36:00Z,2025-03-31T10:04:52+00:00,1,343.48,True,34,3,1,1730,9,0,9,MERGED
+30744,GLTFExporter: Delete invalid and outdated fallback.,Bajdzis,2025-03-16T19:43:21Z,2025-03-17T08:07:19+00:00,1,12.4,True,1,19,1,62,0,0,0,MERGED
+30737,Earcut: Bundle earcut from source rather than copying code,gkjohnson,2025-03-15T01:48:06Z,2025-03-16T09:00:12+00:00,4,31.2,True,32,785,4,396,11,2,13,MERGED
+30736,Docs: Move guides to manual.,Mugen87,2025-03-14T12:29:38Z,2025-03-17T15:12:13+00:00,1,74.71,True,2652,18015,156,506,1,1,2,MERGED
+30730,XRManager: Add more integrated support for WebXR Layers.,cabanier,2025-03-12T20:14:59Z,2025-03-13T21:45:24+00:00,4,25.51,True,1045,10,6,305,17,3,20,MERGED
+30724,fix up AA for WebXR and use multisample extension only when needed,cabanier,2025-03-11T22:01:40Z,2025-03-12T09:10:49+00:00,1,11.15,True,5,2,2,364,1,0,1,MERGED
+30714,Backend: Move trackTimestamp to parent class,s-rigaud,2025-03-10T15:17:58Z,2025-03-10T17:15:42+00:00,1,1.96,True,8,16,3,108,1,0,1,MERGED
+30708,USDZLoader: Fix Blob options,s-rigaud,2025-03-10T14:30:30Z,2025-03-10T17:12:57+00:00,1,2.71,True,1,1,1,33,0,0,0,MERGED
+30707,WebGLRenderer: Fix reference to drawingBufferColorSpace,s-rigaud,2025-03-10T14:28:13Z,2025-03-10T17:13:55+00:00,1,2.76,True,1,1,1,151,1,0,1,MERGED
+30706,Object3D: Avoid relying on special arguments keyword,s-rigaud,2025-03-10T13:14:29Z,2025-03-16T09:01:26+00:00,6,139.78,False,17,30,1,191,3,1,4,CLOSED
+30699,Examples - Adjust Compute Geometry Sample,cmhhelgeson,2025-03-09T23:50:18Z,2025-03-10T18:16:57+00:00,6,18.44,True,10,5,1,195,1,1,2,MERGED
+30698,ExtrudeGeometry: Fix triangulation,mlasala45,2025-03-09T19:33:43Z,2025-03-18T08:55:30+00:00,1,205.36,False,101,27,2,838,17,3,20,CLOSED
+30695,lth demo,lo-th,2025-03-09T14:52:41Z,2025-03-28T01:07:31+00:00,8,442.25,True,1450,263,16,116,6,17,23,MERGED
+30689,WebGPURenderer: RenderBundle support transparent objects,RenaudRohlinger,2025-03-09T07:40:13Z,2025-03-09T09:20:28+00:00,2,1.67,True,11,7,1,109,2,1,3,MERGED
+30687,PointerLockControls: Add `unadjustedMovement`option to `lock()`.,james090500,2025-03-08T14:04:50Z,2025-03-09T09:17:41+00:00,3,19.21,True,7,2,1,176,0,1,1,MERGED
+30683,Docs:Update TransformControls.html,kang-git,2025-03-08T01:59:43Z,2025-03-08T09:10:03+00:00,1,7.17,True,10,0,1,247,0,0,0,MERGED
+30680,BufferGeometry: fix clone index data copy,s-rigaud,2025-03-07T16:21:26Z,2025-03-07T18:37:23+00:00,1,2.27,True,1,1,1,204,1,0,1,MERGED
+30679,OculusHandModel: fix reference to path attribute,s-rigaud,2025-03-07T16:15:39Z,2025-03-07T18:37:55+00:00,1,2.37,True,1,0,1,81,0,0,0,MERGED
+30678,WebGPUTextureUtils: fix reference for BC4RSnorm,s-rigaud,2025-03-07T16:11:38Z,2025-03-07T18:38:41+00:00,1,2.45,True,1,1,1,87,1,0,1,MERGED
+30677,Docs: fix types,s-rigaud,2025-03-07T15:57:48Z,2025-03-07T21:32:33+00:00,9,5.58,True,43,33,24,37,3,4,7,MERGED
+30672,WebGLRenderer: Fixed readRenderTargetPixelsAsync checking readability against incorrect render target,greyb1t,2025-03-06T20:58:41Z,2025-03-07T09:00:20+00:00,5,12.03,True,16,14,2,622,2,1,3,MERGED
+30671,MD2Loader: clip creation requires additional argument,s-rigaud,2025-03-06T19:15:33Z,2025-03-06T22:35:59+00:00,1,3.34,True,1,1,1,183,0,0,0,MERGED
+30670,LDrawLoader: wrong call to parseModel,s-rigaud,2025-03-06T19:12:01Z,2025-03-06T22:40:56+00:00,1,3.48,True,2,2,1,72,0,0,0,MERGED
+30669,GLTFLoader: fix bad reference to PATH_PROPERTIES,s-rigaud,2025-03-06T19:08:30Z,2025-03-06T22:43:44+00:00,1,3.59,True,4,4,1,52,0,0,0,MERGED
+30668,AMFLoader: fix materialId reference,s-rigaud,2025-03-06T19:04:40Z,2025-03-06T22:34:43+00:00,1,3.5,True,1,1,1,85,0,0,0,MERGED
+30667,AsciiEffect: avoid useless split operations,s-rigaud,2025-03-06T19:01:27Z,2025-03-07T18:36:44+00:00,4,23.59,True,12,4,1,235,0,1,1,MERGED
+30666,AnimationClipCreator: default to empty string for clip name,s-rigaud,2025-03-06T18:56:20Z,2025-03-06T22:34:05+00:00,1,3.63,True,7,7,1,165,0,0,0,MERGED
+30665,Types: fix errors,s-rigaud,2025-03-06T17:13:41Z,2025-03-06T22:33:15+00:00,2,5.33,True,11,12,7,66,1,1,2,MERGED
+30664,Docs: fix some typos,s-rigaud,2025-03-06T15:34:13Z,2025-03-06T16:43:56+00:00,1,1.16,True,72,72,46,39,1,0,1,MERGED
+30661,USDZExporter: Reuse instantiated material for `buildXform()`.,zphr,2025-03-06T08:44:45Z,2025-03-06T11:33:39+00:00,4,2.81,True,3,3,1,1392,0,1,1,MERGED
+30647,WebGPURenderer: Fix texture view caching and dispose event stacking,RenaudRohlinger,2025-03-04T14:57:30Z,2025-03-05T13:35:15+00:00,1,22.63,True,71,50,2,1884,1,0,1,MERGED
+30628,WebGLRenderer: Refactor `setRenderTargetTextures()`.,cabanier,2025-02-28T00:38:35Z,2025-03-01T12:28:47+00:00,1,35.84,True,8,13,2,121,9,0,9,MERGED
+30627,ParametricGeometries: Expose class types,s-rigaud,2025-02-27T18:04:19Z,2025-02-27T21:23:28+00:00,1,3.32,True,94,93,1,295,0,0,0,MERGED
+30618,WebGPUBackend: Make copyTextureToTexture work with 3D textures,zonkypop,2025-02-27T01:26:19Z,2025-03-04T08:12:46+00:00,5,126.77,True,40,16,1,153,1,2,3,MERGED
+30617,WebGPUAttributeUtils: Use correct buffer offset for `updateRanges`.,zonkypop,2025-02-26T20:56:15Z,2025-02-28T08:58:24+00:00,2,36.04,True,3,1,1,262,4,1,5,MERGED
+30608,GLSLNodeBuilder: Check texture type when declaring usampler3D/sampler3D uniforms,zonkypop,2025-02-25T03:14:58Z,2025-02-27T08:33:00+00:00,3,53.3,True,8,9,1,371,1,1,2,MERGED
+30607,WebGLRenderer - Assign CurrentRenderState in renderer.compile(),cmhhelgeson,2025-02-24T22:53:35Z,2025-02-25T08:27:39+00:00,1,9.57,True,1,2,1,177,1,0,1,MERGED
+30605,OrbitControls: Add `panLimits`,marekjedrzejewski,2025-02-24T19:55:46Z,2025-02-26T17:42:49+00:00,1,45.78,False,61,0,2,550,2,1,3,CLOSED
+30598,DDSLoader: Fix incorrect alpha when loading 24-bit uncompressed textures.,miere43,2025-02-23T20:34:57Z,2025-02-23T22:10:04+00:00,1,1.59,True,2,2,3,645,0,0,0,MERGED
+30591,Docs: Fixes missing material on the doc page about the LOD class,guiseek,2025-02-23T04:35:28Z,2025-02-23T14:30:54+00:00,1,9.92,True,1,0,1,120,0,1,1,MERGED
+30590,MeshNormalNodeMaterial: Convert packed normal to working color space,WestLangley,2025-02-23T03:29:09Z,2025-02-24T08:57:07+00:00,10,29.47,True,5,1,4,189,4,2,6,MERGED
+30585,RenderTarget: Fix copy of images.,Mugen87,2025-02-22T10:15:10Z,2025-02-23T11:58:22+00:00,1,25.72,True,11,5,3,89,1,0,1,MERGED
+30584,WebGLBackend: Bring back 3D functionality for copyTextureToTexture,zonkypop,2025-02-22T00:04:02Z,2025-03-04T08:12:21+00:00,9,248.14,True,75,25,3,266,1,4,5,MERGED
+30582,TSL: Introduce `varying.setInterpolation()`,cmhhelgeson,2025-02-21T22:39:02Z,2025-04-04T07:50:30+00:00,1,993.19,True,444,10,10,240,6,3,9,MERGED
+30581,FBXLoader: Loading FBX files with out-of-bounds material assignments lead to incorrect geometry groups and subsequent errors,hybridherbst,2025-02-21T15:03:59Z,2025-02-25T10:11:04+00:00,3,91.12,True,30,0,1,990,0,1,1,MERGED
+30569,Reflector: Add `forceUpdate`.,Shane-oo,2025-02-20T07:52:12Z,2025-02-25T10:10:02+00:00,3,122.3,True,18,4,2,77,3,1,4,MERGED
+30565,WebXRManager: Mark XR rendertarget as needing a resolve for depth or stencil.,cabanier,2025-02-20T01:22:11Z,2025-02-20T08:58:14+00:00,3,7.6,True,12,4,2,110,1,1,2,MERGED
+30564,Doc: Improve material displacementBias description,s-rigaud,2025-02-19T18:44:00Z,2025-02-20T21:53:06+00:00,5,27.15,True,69,48,15,68,0,1,1,MERGED
+30563,Eslint: Implement no-var,s-rigaud,2025-02-19T16:12:32Z,2025-02-19T21:27:03+00:00,1,5.24,False,238,235,10,511,1,1,2,CLOSED
+30562,WebGLBackend: Optimize vertex state definition.,Mugen87,2025-02-19T12:58:14Z,2025-02-20T09:13:14+00:00,1,20.25,True,63,36,2,286,2,1,3,MERGED
+30557,Jsdoc: More fixes,s-rigaud,2025-02-18T21:09:32Z,2025-02-18T22:44:49+00:00,7,1.59,True,42,12,9,38,1,4,5,MERGED
+30556,Renderer: Return self in init().,CodyJasonBennett,2025-02-18T19:06:58Z,2025-02-19T01:28:43+00:00,1,6.36,True,3,3,1,182,4,0,4,MERGED
+30550,BatchedMesh: Deprecate old instancing render paths,gkjohnson,2025-02-18T05:05:11Z,2025-02-18T10:31:55+00:00,3,5.45,True,12,0,3,147,1,1,2,MERGED
+30532,WebGPURenderer: Fix storage buffer update range,RenaudRohlinger,2025-02-16T07:54:01Z,2025-02-16T09:27:04+00:00,1,1.55,True,14,2,1,243,1,0,1,MERGED
+30530,WebGPURenderer: Volumetric lighting,sunag,2025-02-15T20:16:30Z,2025-02-19T02:24:14+00:00,4,78.13,True,1221,310,33,1034,5,7,12,MERGED
+30528,WebGPURenderer: Support rotation of env maps.,Mugen87,2025-02-15T11:45:05Z,2025-02-15T22:30:27+00:00,3,10.76,True,70,15,5,479,1,2,3,MERGED
+30524,Docs: Improve dispose guide. ,catalin-enache,2025-02-14T16:23:43Z,2025-02-17T13:05:31+00:00,10,68.7,True,13,1,1,512,3,2,5,MERGED
+30513,Eslint: remove old .apply syntax,s-rigaud,2025-02-12T20:28:57Z,2025-02-15T09:44:52+00:00,1,61.27,True,23,22,9,122,2,0,2,MERGED
+30511,Types: use TS to fix issues,s-rigaud,2025-02-12T19:37:05Z,2025-02-12T22:18:24+00:00,1,2.69,True,13,13,9,570,1,0,1,MERGED
+30510,Typos,s-rigaud,2025-02-12T15:34:11Z,2025-02-12T17:33:17+00:00,1,1.99,True,25,25,7,39,1,0,1,MERGED
+30508,MTLLoader: Add support for displacement maps.,krotalias,2025-02-12T11:45:09Z,2025-02-12T14:55:51+00:00,5,3.18,True,18,0,1,274,1,2,3,MERGED
+30504,"PMREMNode: Manage own generator, fix caching.",Mugen87,2025-02-11T23:47:58Z,2025-02-13T09:47:25+00:00,2,33.99,True,47,38,2,380,5,2,7,MERGED
+30502,Add PointerControls,zakarialaoui10,2025-02-11T16:05:18Z,2025-02-15T09:43:57+00:00,1,89.64,False,256,0,3,443,3,3,6,CLOSED
+30495,TSL: Introduce `RaymarchingBox` and `raymarchingTexture3D`,sunag,2025-02-10T07:17:05Z,2025-02-10T22:33:13+00:00,2,15.27,True,140,53,2,505,0,2,2,MERGED
+30491,3MFLoader: Fix parsing of assets with sub models.,Jack-J-Young,2025-02-09T19:00:52Z,2025-02-10T16:25:22+00:00,3,21.41,True,10,2,1,626,0,1,1,MERGED
+30487,Struct array extension,Spiri0,2025-02-09T12:58:13Z,2025-02-14T17:35:11+00:00,2,124.62,False,0,0,0,854,7,6,13,CLOSED
+30485,WebGLBackend: Fix `clear()`.,Mugen87,2025-02-09T11:11:05Z,2025-02-09T12:33:19+00:00,1,1.37,True,18,5,2,246,1,1,2,MERGED
+30478,Docs: Improve `Raycaster` page.,trusktr,2025-02-07T19:44:04Z,2025-02-08T09:46:35+00:00,1,14.04,True,3,0,1,158,0,0,0,MERGED
+30477,PMREMGenerator: Add `size` and `position` options to `fromScene()`.,Mugen87,2025-02-07T13:40:31Z,2025-02-09T02:13:19+00:00,5,36.55,True,63,30,3,244,1,2,3,MERGED
+30473,SelectionHelper: ensure DOM cleanup,trusktr,2025-02-06T22:55:35Z,2025-02-07T22:21:42+00:00,3,23.44,True,3,1,1,338,0,1,1,MERGED
+30459,WebGPURenderer: Add `setOutputRenderTarget()`,sunag,2025-02-05T06:13:51Z,2025-02-07T02:43:57+00:00,1,44.5,True,82,20,4,228,4,1,5,MERGED
+30457,WebGPURenderer: Fix clear for default framebuffer,RenaudRohlinger,2025-02-05T06:00:58Z,2025-02-05T08:27:40+00:00,1,2.44,True,2,3,1,258,3,0,3,MERGED
+30444,Docs: Add instructions for improving editor auto-completion,Makio64,2025-02-02T08:57:29Z,2025-02-03T20:11:51+00:00,1,35.24,True,17,0,1,59,0,0,0,MERGED
+30415,CCDIKSolver: Add `blendFactor` support.,anishwij,2025-01-28T13:13:00Z,2025-01-31T13:28:12+00:00,1,72.25,True,52,4,1,913,0,0,0,MERGED
+30411,GLTFLoader: Remove redundant `decay` assignment.,s-rigaud,2025-01-27T16:32:33Z,2025-01-27T17:33:22+00:00,3,1.01,True,0,2,1,96,0,1,1,MERGED
+30410,TSLEncoder: Fix transpilation issues.,Mugen87,2025-01-27T12:39:42Z,2025-01-27T17:11:07+00:00,1,4.52,True,4,2,2,139,1,1,2,MERGED
+30409,NodeMaterialObserver: Detect geometry exchange.,Mugen87,2025-01-27T10:26:26Z,2025-01-27T18:42:13+00:00,1,8.26,True,8,0,1,1208,1,1,2,MERGED
+30406,Add blendFactor support to CCDIKSolver,anishwij,2025-01-27T05:46:22Z,2025-01-28T12:53:32+00:00,3,31.12,False,153,137,13,913,1,3,4,CLOSED
+30394,TSL: Introduce `struct`,sunag,2025-01-25T21:37:24Z,2025-01-28T17:44:50+00:00,3,68.12,True,795,128,23,727,14,2,16,MERGED
+30392,WebGPURenderer: Only use `HalfFloatType` for the framebuffer target if necessary.,Mugen87,2025-01-24T22:10:11Z,2025-01-28T22:50:17+00:00,2,96.67,False,35,10,3,834,8,2,10,CLOSED
+30383,Eslint: fix errors,s-rigaud,2025-01-22T14:56:57Z,2025-01-22T17:43:03+00:00,3,2.77,True,22,21,9,79,0,1,1,MERGED
+30382,JsDoc: improve type hinting for constructors,s-rigaud,2025-01-22T14:20:41Z,2025-01-22T15:53:44+00:00,1,1.55,True,39,33,9,141,0,0,0,MERGED
+30381,Add `isVideoFrameTexture=true` in VideoFrameTexture,ycw,2025-01-22T13:31:31Z,2025-01-22T16:13:55+00:00,4,2.71,True,5,0,2,8,1,1,2,MERGED
+30380,Fix video decoder stalls issue in webgpu_video_frame.html,ycw,2025-01-22T13:23:49Z,2025-01-22T21:00:13+00:00,11,7.61,True,20,2,1,167,0,4,4,MERGED
+30375,WebGPURenderer: TimestampQuery constant,RenaudRohlinger,2025-01-22T05:16:09Z,2025-01-23T03:03:20+00:00,1,21.79,True,11,6,6,84,1,0,1,MERGED
+30371,TSL: Add missing `atomicLoad` Support,RenaudRohlinger,2025-01-21T09:32:00Z,2025-01-21T10:33:08+00:00,1,1.02,True,18,1,2,148,1,0,1,MERGED
+30370,TSL: Add matrix operations support for floats,RenaudRohlinger,2025-01-21T09:15:35Z,2025-01-21T15:36:47+00:00,3,6.35,True,80,17,1,400,2,2,4,MERGED
+30368,WebGPURenderer: Add mat2 uniform support,RenaudRohlinger,2025-01-21T09:08:17Z,2025-01-21T10:32:45+00:00,5,1.41,True,93,4,3,179,1,3,4,MERGED
+30366,consider renaming any to anyof (or something) to avoid Flow syntax error,trusktr,2025-01-21T04:02:11Z,2025-01-21T09:33:26+00:00,4,5.52,False,2,2,1,354,2,4,6,CLOSED
+30364,TSL: Add `mat2` Support,RenaudRohlinger,2025-01-20T12:33:32Z,2025-01-20T20:07:54+00:00,1,7.57,True,18,1,2,126,1,0,1,MERGED
+30363,Editor Bug fix: Auto reload after language changing,pkpedram,2025-01-20T08:34:52Z,2025-02-14T18:41:10+00:00,1,610.11,False,2,0,1,329,15,0,15,CLOSED
+30362,"InstancedMesh, BatchedMesh docs: clarify lack of negatively scaled matrix support",gkjohnson,2025-01-20T08:31:10Z,2025-01-20T10:01:36+00:00,1,1.51,True,6,0,2,107,0,0,0,MERGED
+30359,WebGPURenderer: Introduce TimestampQueryPool,RenaudRohlinger,2025-01-18T13:25:16Z,2025-01-21T17:19:14+00:00,8,75.9,True,856,269,15,2201,4,5,9,MERGED
+30351,"BufferAttributes and Materials are cloned by reference for Object3D instances, no matter what",srmcgann,2025-01-17T18:39:49Z,2025-01-18T09:05:10+00:00,3,14.42,False,12,0,1,546,2,3,5,CLOSED
+30341,Update Object3D.js,srmcgann,2025-01-17T01:46:15Z,2025-01-17T02:57:41+00:00,1,1.19,False,33,0,1,227,3,1,4,CLOSED
+30338,WebGLBackend: Fix `ArrayCamera` pixel ratio,sunag,2025-01-16T18:25:07Z,2025-01-16T22:07:22+00:00,3,3.7,True,9,4,1,88,1,1,2,MERGED
+30334,PMREMGenerator extension: Now you can set texture size and position,Spiri0,2025-01-16T02:27:09Z,2025-02-07T13:52:29+00:00,7,539.42,False,36,17,6,510,7,3,10,CLOSED
+30329,WebGPURenderer: Fix clear alpha in WebGLBackend,RenaudRohlinger,2025-01-15T09:03:47Z,2025-01-16T02:51:01+00:00,8,17.79,True,89,16,3,336,4,1,5,MERGED
+30328,EventDispatcher: obtain _listeners before if,erasta,2025-01-15T07:56:11Z,2025-01-15T09:12:29+00:00,1,1.27,True,8,6,1,223,1,0,1,MERGED
+30320,WebGPURenderer: Add .outputType backend parameter,donmccurdy,2025-01-14T04:57:47Z,2025-01-14T12:40:01+00:00,1,7.7,True,14,4,3,1226,3,0,3,MERGED
+30319,WebXRManager: Safely check for `XRWebGLBinding`.,zonkypop,2025-01-14T01:41:08Z,2025-01-14T09:06:08+00:00,1,7.42,True,1,1,1,510,2,0,2,MERGED
+30317,Docs: improve Promise typing,s-rigaud,2025-01-13T15:17:13Z,2025-01-13T20:55:19+00:00,5,5.63,True,47,4,5,165,1,1,2,MERGED
+30316,RenderObject: Improve cache key computation when rendering shadows.,Mugen87,2025-01-13T12:12:43Z,2025-01-14T09:07:35+00:00,1,20.91,True,12,5,4,369,2,1,3,MERGED
+30313,WebGPURenderer: Improve `ArrayCamera` performance and fixes,sunag,2025-01-13T01:40:14Z,2025-01-16T12:14:34+00:00,8,82.57,True,345,113,10,496,10,3,13,MERGED
+30299,WebGPUBackend: Fix Timestamp Query,ycw,2025-01-09T18:02:13Z,2025-01-10T07:36:29+00:00,2,13.57,True,15,18,1,350,3,1,4,MERGED
+30290,Derives timestamp buffer size from BigUint64Array instead of BigInt64Array,ycw,2025-01-08T21:01:35Z,2025-01-08T22:48:11+00:00,1,1.78,True,1,1,1,143,1,0,1,MERGED
+30289,Rename timeStampQuerySet to timestampQuerySet,ycw,2025-01-08T20:41:10Z,2025-01-08T22:43:59+00:00,1,2.05,True,5,5,1,80,1,0,1,MERGED
+30287,TSL: display atan second argument in the docs,s-rigaud,2025-01-08T19:20:51Z,2025-01-08T20:32:30+00:00,1,1.19,True,3,1,1,264,1,0,1,MERGED
+30284,JSDoc: Add @deprecated,s-rigaud,2025-01-08T14:46:15Z,2025-01-09T08:54:02+00:00,3,18.13,True,160,7,15,425,2,1,3,MERGED
+30282,WebXRManager: Further improvements to WebXR layers feature testing.,toji,2025-01-07T22:20:09Z,2025-01-10T11:02:55+00:00,5,60.71,True,8,3,3,1015,1,2,3,MERGED
+30281,Docs: Fix incorrect note on color management in post-processing,donmccurdy,2025-01-07T16:48:56Z,2025-01-08T18:03:06+00:00,5,25.24,True,2,6,1,198,0,1,1,MERGED
+30280,Node: typos,s-rigaud,2025-01-07T14:41:38Z,2025-01-07T17:50:07+00:00,1,3.14,True,45,45,24,36,1,0,1,MERGED
+30276,Docs: Improve `Matrix4` page.,Mugen87,2025-01-07T09:19:32Z,2025-01-07T22:18:05+00:00,1,12.98,True,2,2,1,189,0,1,1,MERGED
+30269,add VideoFrameTexture for use with WebCodecs API and example/docs,maddanio,2025-01-06T09:38:29Z,2025-01-07T07:19:25+00:00,1,21.68,False,13745,362,20,380,2,2,4,CLOSED
+30264,WebGPUAttributeUtils: Fix i16a/u16a patch,ycw,2025-01-04T10:30:05Z,2025-01-07T14:58:12+00:00,1,76.47,True,17,6,1,157,1,0,1,MERGED
+30258,ChainMap: Avoid a redundant internal weak map.,ycw,2025-01-03T14:35:50Z,2025-01-03T18:17:33+00:00,3,3.7,True,3,3,1,311,1,1,2,MERGED
+30256,RenderContexts: Introduce `getForClear()`.,Mugen87,2025-01-03T10:38:07Z,2025-01-03T12:46:35+00:00,1,2.14,True,25,15,2,365,1,1,2,MERGED
+30253,Fix glossy material for Teapot example,erich666,2025-01-02T21:33:17Z,2025-01-03T10:33:24+00:00,1,13.0,True,3,3,2,663,3,0,3,MERGED
+30251,"WebGPURenderer: Introduced `.toConst()`, `Const()`, `Var()`",RenaudRohlinger,2025-01-02T14:49:53Z,2025-01-08T01:24:02+00:00,1,130.57,True,169,18,9,520,15,1,16,MERGED
+30218,WebGPURenderer: Respect TypedArray in StorageInstancedBufferAttribute,RenaudRohlinger,2024-12-27T06:24:12Z,2024-12-28T00:24:31+00:00,1,18.01,True,38,3,2,247,1,0,1,MERGED
+30209,WebGPURenderer: Improved Shaders Names For Debug,RenaudRohlinger,2024-12-26T08:23:19Z,2024-12-26T11:32:21+00:00,1,3.15,True,39,6,5,55,1,0,1,MERGED
+30207,TSL: use `addMethodsChaining`,linbingquan,2024-12-26T03:16:17Z,2024-12-27T01:57:13+00:00,7,22.68,False,40,37,7,85,1,2,3,CLOSED
+30205,[Doc/zh]: Improve Chinese translation.,puxiao,2024-12-26T01:55:43Z,2024-12-26T09:25:27+00:00,1,7.5,True,71,34,2,0,0,0,0,MERGED
+30204,WebGPURenderer: Disable fog in shadow-material,sunag,2024-12-25T15:06:16Z,2024-12-26T02:07:50+00:00,1,11.03,True,1,6,2,197,1,0,1,MERGED
+30201,TSL: add `addMethodsChaining`,linbingquan,2024-12-25T03:51:37Z,2024-12-26T02:17:44+00:00,2,22.44,True,119,107,3,87,1,1,2,MERGED
+30188,Renderer: Document more modules.,Mugen87,2024-12-22T11:11:36Z,2024-12-23T04:09:51+00:00,1,16.97,True,383,22,11,53,1,1,2,MERGED
+30167,Node: Document more modules.,Mugen87,2024-12-19T12:46:31Z,2024-12-19T20:29:19+00:00,1,7.71,True,735,66,8,80,1,1,2,MERGED
+30164,Manual: update material feature table,s-rigaud,2024-12-18T19:26:10Z,2024-12-19T09:14:50+00:00,1,13.81,True,55,28,1,350,0,0,0,MERGED
+30162,Nodes - Document ComputeBuiltinNode and AtomicFunctionNode,cmhhelgeson,2024-12-18T18:02:16Z,2024-12-24T09:54:50+00:00,1,135.88,True,65,10,4,215,1,0,1,MERGED
+30161,SkinningNode: Fix `previousBoneMatrices`,sunag,2024-12-18T17:36:49Z,2024-12-18T22:14:09+00:00,1,4.62,True,10,1,2,110,1,1,2,MERGED
+30155,WebGPURenderer: Introduce RenderTarget3D and RenderTargetArray,RenaudRohlinger,2024-12-18T06:13:45Z,2024-12-23T13:51:27+00:00,5,127.63,True,556,59,17,583,6,3,9,MERGED
+30153,Nodes - Document AtomicFunctionNode and BarrierNode,cmhhelgeson,2024-12-18T00:29:33Z,2024-12-18T09:13:35+00:00,1,8.73,True,64,54,2,94,1,0,1,MERGED
+30152,"TSL: More consistent names `shadowPositionWorld`, `materialAO`",sunag,2024-12-17T23:12:02Z,2024-12-18T22:04:21+00:00,1,22.87,True,12,12,5,57,3,0,3,MERGED
+30151,enable mrt on array texture and texture3d render targets,wizgrav,2024-12-17T22:50:52Z,2025-07-22T12:47:19+00:00,4,5197.94,False,340,5,8,1134,8,1,9,CLOSED
+30148,Examples: Add `antialias` in `webgpu_postprocessing_ao`,sunag,2024-12-17T19:24:35Z,2024-12-17T20:41:35+00:00,4,1.28,False,1,1,2,53,0,1,1,CLOSED
+30146,Examples: typos,s-rigaud,2024-12-17T17:19:49Z,2024-12-17T21:52:17+00:00,4,4.54,True,18,18,8,616,0,1,1,MERGED
+30144,Loaders: typos,s-rigaud,2024-12-17T16:05:41Z,2024-12-17T21:54:37+00:00,1,5.82,True,14,14,2,143,0,0,0,MERGED
+30142,Node: Document more modules.,Mugen87,2024-12-17T12:06:03Z,2024-12-17T15:33:55+00:00,3,3.46,True,468,2,6,62,1,3,4,MERGED
+30138,Typos,s-rigaud,2024-12-16T16:49:47Z,2024-12-17T09:20:24+00:00,1,16.51,True,26,26,5,493,0,0,0,MERGED
+30136,CameraHelper: Fix usage with WebGPU.,AlaricBaraou,2024-12-16T12:05:05Z,2024-12-16T16:15:20+00:00,1,4.17,True,285,13,4,601,1,0,1,MERGED
+30130,TiledLightsNode: Fix cache-key performance,sunag,2024-12-16T07:39:09Z,2024-12-16T18:58:46+00:00,1,11.33,True,46,37,3,277,2,1,3,MERGED
+30119,Typos,s-rigaud,2024-12-13T20:59:14Z,2024-12-16T16:04:35+00:00,1,67.09,True,186,186,81,158,3,0,3,MERGED
+30118,Docs: Improve `Material` page (en/fr),borisghidaglia,2024-12-13T18:18:31Z,2024-12-20T09:31:52+00:00,9,159.22,True,6,2,2,126,0,2,2,MERGED
+30105,TSL: Fix `positionWorld` used in `material.positionNode` and `fragment-stage`,sunag,2024-12-11T15:17:26Z,2024-12-11T17:45:23+00:00,1,2.47,True,18,5,3,236,1,1,2,MERGED
+30103,Node: fix types,s-rigaud,2024-12-11T14:30:01Z,2024-12-11T19:44:37+00:00,7,5.24,True,55,51,28,67,1,3,4,MERGED
+30098,Manual: Improve post processing guide.,ChenKuan1110,2024-12-11T06:48:34Z,2024-12-12T22:50:07+00:00,1,40.03,True,4,4,1,278,0,1,1,MERGED
+30094,Add colorContribution property to lights for shadow-only lights,waspothegreat,2024-12-10T19:00:58Z,2025-01-02T10:43:00+00:00,1,543.7,False,73,121,4,703,2,1,3,CLOSED
+30082,TSL: Add `texture_depth_multisampled_2d` for `wgslFn`,sunag,2024-12-10T00:31:39Z,2024-12-11T17:39:25+00:00,1,41.13,True,3,1,2,117,1,1,2,MERGED
+30076,Eslint: enforce valid JSdoc format,s-rigaud,2024-12-09T14:45:55Z,2024-12-09T17:58:52+00:00,9,3.22,True,118,33,25,139,1,3,4,MERGED
+30067,Node: Document more modules.,Mugen87,2024-12-08T11:17:07Z,2024-12-08T15:46:44+00:00,1,4.49,True,418,53,11,53,1,1,2,MERGED
+30063,PMREMGenerator: Fix `fromScene()` back-side materials,sunag,2024-12-08T04:09:54Z,2024-12-08T15:48:19+00:00,3,11.64,True,5,3,2,255,1,1,2,MERGED
+30055,Node: Document more modules.,Mugen87,2024-12-07T12:15:19Z,2024-12-07T15:27:04+00:00,1,3.2,True,528,12,12,51,1,1,2,MERGED
+30042,Small improvement and color fix for CameraHelper.js,dbt-padberg,2024-12-05T16:45:30Z,2025-04-30T10:32:32+00:00,2,3497.78,False,7,7,1,71,3,2,5,CLOSED
+30041,Node: Document more modules.,Mugen87,2024-12-05T13:17:17Z,2024-12-05T19:13:23+00:00,4,5.93,True,371,3,12,51,4,2,6,MERGED
+30038,NodeBuilder: More docs.,sunag,2024-12-05T00:55:29Z,2024-12-05T19:15:23+00:00,2,18.33,True,58,52,2,58,1,1,2,MERGED
+30037,Node: Document more modules.,Mugen87,2024-12-04T14:01:43Z,2024-12-04T18:08:34+00:00,1,4.11,True,675,16,13,62,1,1,2,MERGED
+30030,Examples: webgpu_lines_fat_raycasting,RenaudRohlinger,2024-12-04T06:26:37Z,2024-12-04T12:58:25+00:00,1,6.53,True,370,4,5,242,0,0,0,MERGED
+30022,TSL: SubgroupFunctionNode,cmhhelgeson,2024-12-03T06:45:16Z,2025-07-30T04:49:35+00:00,3,5734.07,False,458,0,3,208,4,2,6,CLOSED
+30018,WebGLRenderer: Add transmission render target scale,michaeldll,2024-12-02T19:30:35Z,2024-12-09T08:32:56+00:00,5,157.04,True,18,2,3,386,6,2,8,MERGED
+30016,LineSegments2: Fix `raycast()` .,Samsy,2024-12-02T17:49:48Z,2024-12-04T06:07:50+00:00,1,36.3,True,15,6,1,74,3,0,3,MERGED
+30015,Examples: Fix typos.,s-rigaud,2024-12-02T14:44:20Z,2024-12-02T17:06:24+00:00,1,2.37,True,11,11,9,26,0,0,0,MERGED
+30013,Node: fix typos,s-rigaud,2024-12-02T13:55:50Z,2024-12-02T17:07:26+00:00,1,3.19,True,21,21,10,51,1,0,1,MERGED
+30012,Node: Document more modules.,Mugen87,2024-12-02T11:58:58Z,2024-12-02T17:24:19+00:00,2,5.42,True,450,11,6,57,1,2,3,MERGED
+30000,Node: Document more modules.,Mugen87,2024-11-30T16:08:46Z,2024-11-30T17:47:47+00:00,7,1.65,True,502,14,15,74,2,4,6,MERGED
+29999,Docs: Improve `Loader` page.,NeelDigonto,2024-11-30T10:29:22Z,2024-11-30T11:50:49+00:00,1,1.36,True,2,2,1,67,0,0,0,MERGED
+29988,OrbitControls: Add `keyRotateSpeed`.,unknown,2024-11-28T20:58:07Z,2024-11-29T17:11:24+00:00,5,20.22,True,10,4,2,161,0,1,1,MERGED
+29984,Docs: Add JSDoc config and improve `Node` docs.,Mugen87,2024-11-28T11:45:36Z,2024-11-30T10:01:06+00:00,4,46.26,True,756,33,9,942,5,2,7,MERGED
+29983,Manual: Fix `OrbitControls` usage in Offscreen Canvas demo.,Arecsu,2024-11-27T21:31:47Z,2025-01-02T22:51:29+00:00,1,865.33,True,36,1,5,1896,1,0,1,MERGED
+29981,Eslint: Improve config,s-rigaud,2024-11-27T14:45:40Z,2024-11-29T18:50:44+00:00,4,52.08,True,29,28,9,399,2,4,6,MERGED
+29975,InteractiveGroup: Add `disconnect()`.,unknown,2024-11-26T12:41:12Z,2025-01-06T08:54:34+00:00,5,980.22,True,108,51,1,445,2,2,4,MERGED
+29970,WebGPUBackend: Simplify Timestamp Queries and Ensure Work Done,RenaudRohlinger,2024-11-26T06:43:13Z,2024-11-26T10:35:10+00:00,1,3.87,True,22,40,1,436,1,0,1,MERGED
+29967,WebGPUAttributeUtils: fix updateAttribute() when using range (#29966),holtsetio,2024-11-26T02:01:32Z,2024-11-26T03:30:42+00:00,1,1.49,True,15,2,1,308,4,0,4,MERGED
+29964,Line2NodeMaterial: Add `opacityNode` support,Makio64,2024-11-25T14:18:07Z,2024-11-27T14:50:36+00:00,10,48.54,False,16,6,3,164,9,4,13,CLOSED
+29960,Audio: Override copy and clone methods to include missing properties,Byongho96,2024-11-25T07:49:01Z,2024-11-26T09:08:04+00:00,3,25.32,True,38,0,1,1132,3,1,4,MERGED
+29946,Tests: Use absolute delta value when comparing against tolerance,mrxz,2024-11-22T14:33:01Z,2024-11-23T10:03:41+00:00,1,19.51,True,16,15,5,928,0,0,0,MERGED
+29933,WebGPU: Remove `GPUShaderStage` hack.,Mugen87,2024-11-20T10:44:35Z,2024-11-20T13:05:08+00:00,1,2.34,True,0,8,1,1324,0,0,0,MERGED
+29930,Audio: Ensure progress is reset in `onEnded()`.,Jian-Nam,2024-11-20T08:12:11Z,2024-11-21T09:43:09+00:00,3,25.52,True,1,0,1,904,1,1,2,MERGED
+29920,Docs:Improve documentation about WebGLRenderer.extensions,puxiao,2024-11-19T03:14:24Z,2024-11-19T09:04:27+00:00,1,5.83,True,10,0,2,0,0,0,0,MERGED
+29919,WebGPURenderer: Fix global references in Node.js,whatisor,2024-11-19T02:32:12Z,2024-11-24T09:52:40+00:00,22,127.34,True,4,4,2,55,22,6,28,MERGED
+29917,Optimize EventDispatcher performance with Map and Set,unknown,2024-11-17T18:08:24Z,2024-11-22T09:50:54+00:00,1,111.71,False,68,96,2,1093,9,1,10,CLOSED
+29915,WebGLGeometries: Don't upload morph target attributes.,mrxz,2024-11-17T17:17:21Z,2024-11-18T09:47:07+00:00,1,16.5,True,0,28,1,350,1,0,1,MERGED
+29912,Docs:Color-management translation,mmjinglin163,2024-11-17T10:17:37Z,2024-11-18T02:05:02+00:00,1,15.79,False,267,1,2,54,2,1,3,CLOSED
+29908,Introduce storageStruct,Spiri0,2024-11-16T09:01:12Z,2025-01-28T17:51:03+00:00,4,1760.83,False,458,5,7,1023,19,3,22,CLOSED
+29904,KTX2Loader: Fix .minFilter default for untranscoded compressed textures,donmccurdy,2024-11-15T19:16:08Z,2024-11-15T23:18:28+00:00,1,4.04,True,3,0,1,468,2,0,2,MERGED
+29902,Docs: Post-processing - Missing FR translation (2),satelllte,2024-11-15T12:40:13Z,2024-11-15T16:08:25+00:00,1,3.47,True,1,1,1,196,0,0,0,MERGED
+29901,Docs: Post-processing - Missing FR translation,satelllte,2024-11-15T12:38:59Z,2024-11-15T16:07:59+00:00,1,3.48,True,1,2,1,176,0,0,0,MERGED
+29897,BlendModes: Added `blend*` prefix,sunag,2024-11-15T03:40:30Z,2024-11-19T02:55:59+00:00,1,95.26,True,106,74,6,113,12,1,13,MERGED
+29885,Docs:Libraries-and-Plugins translation,mmjinglin163,2024-11-15T03:09:30Z,2024-11-15T11:24:58+00:00,1,8.26,True,118,0,2,60,0,0,0,MERGED
+29881,TSL: Introduce `attributeArray` and `instancedArray`,sunag,2024-11-14T15:24:47Z,2024-11-23T18:26:57+00:00,5,219.04,True,221,174,23,2371,5,6,11,MERGED
+29871,ArcballControls: Add `enableFocus`.,kxxhan,2024-11-13T09:04:56Z,2024-11-18T09:58:08+00:00,1,120.89,True,41,21,5,627,0,0,0,MERGED
+29870,WebGPU: Logarithmic Depth Buffer Rename/Revision + GTAONode Fixes,PoseidonEnergy,2024-11-13T06:10:44Z,2024-11-13T10:28:16+00:00,5,4.29,True,47,14,4,1596,3,3,6,MERGED
+29864,Docs: clarify LineMaterial.linewidth units in relation to worldUnits …,nyan-left,2024-11-12T08:44:02Z,2025-01-02T10:18:55+00:00,2,1225.58,True,1,1,1,219,0,1,1,MERGED
+29849,WebGPURenderer: Add `PointShadowNode`,sunag,2024-11-08T23:18:58Z,2024-11-21T04:25:16+00:00,1,293.11,True,713,73,9,73,2,8,10,MERGED
+29848,"Docs: Loaders - ""progresses"" typo",satelllte,2024-11-08T19:13:48Z,2024-11-08T22:32:04+00:00,1,3.3,True,12,12,12,98,0,0,0,MERGED
+29845,"WebGPURenderer: Per ""texture set"" bindGroup caching.",aardgoose,2024-11-08T13:54:54Z,2024-11-13T10:12:43+00:00,4,116.3,True,61,17,4,414,5,1,6,MERGED
+29837,Introduce structs for StorageBufferattribute and StorageInstancedBufferAttribute,Spiri0,2024-11-07T23:27:09Z,2024-11-16T05:33:40+00:00,1,198.11,False,0,0,0,3586,9,1,10,CLOSED
+29833,Docs:: Add documentation for `ClippingGroup`.,aardgoose,2024-11-07T12:06:55Z,2024-11-12T09:27:54+00:00,1,117.35,True,67,3,5,240,2,0,2,MERGED
+29827,update build setup to the simplest migration to WebGPU,trusktr,2024-11-06T21:43:04Z,2024-11-07T14:18:08+00:00,1,16.58,False,290,6,8,1637,13,2,15,CLOSED
+29824,Spherical: Use `MathUtils.clamp()` for `makeSafe()`.,linbingquan,2024-11-06T13:30:36Z,2024-11-06T21:17:33+00:00,1,7.78,True,1,1,1,52,1,0,1,MERGED
+29816,ColorManagement: Support treeshake.,linbingquan,2024-11-06T04:22:09Z,2024-11-06T17:14:13+00:00,3,12.87,True,130,122,1,95,1,1,2,MERGED
+29812,Vector: Use `MathUtils.clamp()` internally,satelllte,2024-11-05T14:03:15Z,2024-11-06T09:30:08+00:00,1,19.45,True,23,21,3,100,1,0,1,MERGED
+29805,Docs Clock: Remove outdated description,s-rigaud,2024-11-04T19:59:02Z,2024-11-04T21:11:09+00:00,1,1.2,True,19,25,5,48,0,0,0,MERGED
+29803,Docs Batched/InstancedMesh: emphazise difference,s-rigaud,2024-11-04T18:35:04Z,2024-11-04T19:50:12+00:00,1,1.25,True,5,5,1,166,0,0,0,MERGED
+29802,"PointerLockControls: Remove browser prefixes for ""MouseEvent.movement"" props",satelllte,2024-11-04T14:00:15Z,2024-11-04T19:47:46+00:00,1,5.79,True,2,5,1,230,0,0,0,MERGED
+29790,BatchedMesh - better error handling 2,Makio64,2024-11-02T14:04:45Z,2024-11-05T08:59:31+00:00,1,66.91,True,54,95,1,269,1,0,1,MERGED
+29789,Materials: Revert static types of builtins materials,RenaudRohlinger,2024-11-02T01:48:47Z,2024-11-02T09:10:15+00:00,1,7.36,True,63,166,24,478,1,0,1,MERGED
+29782,SceneOptimizer: Introduce `optimizer.toBatchedMesh()`,RenaudRohlinger,2024-11-01T07:04:42Z,2024-11-02T20:25:22+00:00,2,37.34,True,401,0,1,556,3,1,4,MERGED
+29773,TSL: Add function for BPCEM.,Mugen87,2024-10-30T10:25:44Z,2024-10-30T15:12:10+00:00,3,4.77,True,251,0,6,716,3,1,4,MERGED
+29769,WebGLRenderer: Add support for copying mipmap data between textures,gkjohnson,2024-10-30T04:53:26Z,2024-10-31T12:22:25+00:00,3,31.48,True,94,24,2,453,1,1,2,MERGED
+29767,WebGPURenderer: Handle Device Lost Event,RenaudRohlinger,2024-10-30T02:41:54Z,2024-10-31T01:00:44+00:00,9,22.31,True,67,0,4,529,3,3,6,MERGED
+29762,WebGPURenderer: Support `Scene.backgroundRotation`.,Mugen87,2024-10-29T12:04:40Z,2024-10-29T14:43:49+00:00,1,2.65,True,64,6,4,96,1,1,2,MERGED
+29759,Vector4: Add `divide()`.,kristiker,2024-10-28T21:40:53Z,2024-10-29T08:52:02+00:00,1,11.19,True,27,0,3,65,1,0,1,MERGED
+29756,Docs:Manual lights.html typo,Nokic233,2024-10-28T07:43:19Z,2024-10-29T08:46:24+00:00,2,25.05,True,33,33,7,68,0,1,1,MERGED
+29746,GLTFLoader: Add KTX2 mime type support in getImageURIMimeType,puxiao,2024-10-25T01:54:24Z,2024-10-25T13:44:03+00:00,1,11.83,True,1,0,1,66,0,0,0,MERGED
+29742,WebXRManager: Inherit active layers from camera,mrxz,2024-10-24T14:36:28Z,2024-10-28T08:41:10+00:00,1,90.08,True,4,4,1,600,6,0,6,MERGED
+29736,ScriptableNode: Rename `global` to `ScriptableNodeResources`,scottmas,2024-10-23T21:32:25Z,2024-10-25T03:27:39+00:00,1,29.92,True,16,16,4,424,1,0,1,MERGED
+29728,CylinderGeometry: Fix case where triangles are missing with multiple height segments,gkjohnson,2024-10-23T02:16:05Z,2024-10-23T08:36:27+00:00,1,6.34,True,2,2,1,178,3,0,3,MERGED
+29715,Addons: Add `LensflareNode`.,Mugen87,2024-10-21T12:36:45Z,2024-10-21T15:53:29+00:00,4,3.28,True,345,0,6,701,0,2,2,MERGED
+29710,WebGLRenderer: Allow for copying 2d targets to and from layers of 3d textures,gkjohnson,2024-10-21T05:20:23Z,2024-10-23T09:30:58+00:00,6,52.18,True,84,153,3,668,3,2,5,MERGED
+29709,webgpu: add `wgsl` comment tag,linbingquan,2024-10-21T05:19:41Z,2024-10-21T13:59:14+00:00,1,8.66,True,2,2,1,68,1,0,1,MERGED
+29700,Docs: added copy button to non-inline code snippets,snowiewdev,2024-10-20T02:56:20Z,2024-10-22T12:12:56+00:00,2,57.28,True,76,0,4,711,1,1,2,MERGED
+29699,WebGLRenderer: Copy set of layers when copying 3d texture data,gkjohnson,2024-10-19T10:58:50Z,2024-10-20T00:36:33+00:00,9,13.63,True,19,9,1,425,1,1,2,MERGED
+29695,BatchedMesh: Batched cleanup 2,gkjohnson,2024-10-19T03:27:37Z,2024-10-19T08:51:37+00:00,1,5.4,True,100,81,1,1173,4,0,4,MERGED
+29694,TSL: Support defined color spaces in ColorSpaceNode,donmccurdy,2024-10-19T02:30:15Z,2024-10-20T23:40:33+00:00,3,45.17,True,32,74,6,674,2,1,3,MERGED
+29692,GLTFExporter: Better defaults for metallic and roughness factors.,Mugen87,2024-10-18T21:40:57Z,2024-10-19T12:40:32+00:00,5,14.99,True,1,2,1,208,0,1,1,MERGED
+29690,Example: Improve webgl_interactive_buffergeometry.html,linbingquan,2024-10-18T16:59:39Z,2024-10-19T08:44:55+00:00,4,15.75,False,3,4,1,51,0,1,1,CLOSED
+29687,BatchedMesh: Consolidate internal geometry information ,gkjohnson,2024-10-18T09:41:27Z,2024-10-18T12:38:46+00:00,1,2.96,True,135,177,1,765,1,0,1,MERGED
+29686,WebGPURenderer: Introduce waitForGPU,RenaudRohlinger,2024-10-18T04:51:58Z,2024-10-20T07:24:07+00:00,6,50.54,True,17,0,3,1321,10,1,11,MERGED
+29681,LineGeometry: Override `setFromPoints()`.,felixwri,2024-10-17T12:06:49Z,2024-11-19T10:05:19+00:00,1,789.98,True,31,0,2,412,1,0,1,MERGED
+29678,WebGLRenderer: Correctly generate mipmaps for 3D & Array RenderTargets ,gkjohnson,2024-10-17T07:33:38Z,2024-10-17T09:18:14+00:00,1,1.74,True,12,3,1,1119,1,0,1,MERGED
+29677,"Texture: Always generate mipmaps when ""generateMipmaps"" is true.",gkjohnson,2024-10-17T06:18:38Z,2024-10-19T09:50:21+00:00,3,51.53,True,22,8,18,604,2,1,3,MERGED
+29670,WebGPURenderer: Add backend information to `data-engine` field.,jclaessens97,2024-10-16T08:14:11Z,2024-10-16T09:57:13+00:00,1,1.72,True,4,2,1,249,6,0,6,MERGED
+29669,Examples: Clean up TSL editor example,donmccurdy,2024-10-16T00:40:00Z,2024-10-16T10:00:02+00:00,1,9.33,True,2,5,1,63,0,0,0,MERGED
+29667,3MFLoader: Add Preliminary Support for Loading Implicit Functions,zalo,2024-10-15T21:01:17Z,2024-10-16T08:11:00+00:00,2,11.16,True,97,1,4,876,5,1,6,MERGED
+29663,CSSRenderer: Ensure removing CSS objects works within iFrames.,yomotsu,2024-10-15T13:03:29Z,2024-10-15T17:51:23+00:00,1,4.8,True,13,7,2,435,0,0,0,MERGED
+29662,WebGLRenderer: Support render target textures in `copyTextureToTexture()`.,Mugen87,2024-10-15T11:39:42Z,2024-10-19T09:54:55+00:00,1,94.25,True,77,22,3,395,15,0,15,MERGED
+29658,CircleGeometries Unit Tests for Parameters and fromJSON,ericung,2024-10-15T01:25:51Z,2024-10-19T08:55:51+00:00,1,103.5,False,27,4,1,75,0,1,1,CLOSED
+29657,WebGLRenderer: sRGB decoding for VideoTexture `emissiveMap`.,donmccurdy,2024-10-14T23:04:52Z,2024-10-15T08:31:44+00:00,1,9.45,True,19,3,5,265,1,0,1,MERGED
+29656,"Add: ""Extended"" range HDR support for supported displays",hybridherbst,2024-10-14T22:44:13Z,2024-10-16T18:03:39+00:00,3,43.32,False,123,26,11,912,4,1,5,CLOSED
+29644,Codesplit WebGL/WebGPU entrypoints: Fix WebGPU Addons,RenaudRohlinger,2024-10-14T07:30:44Z,2024-11-12T14:41:26+00:00,24,703.18,True,13,8,4,264,0,1,1,MERGED
+29642,WebGPURenderer: Introduce `TiledLighting`,sunag,2024-10-13T23:19:38Z,2024-10-14T23:38:32+00:00,1,24.32,True,779,69,23,2182,10,1,11,MERGED
+29636,Addons: Add `TRAAPassNode`.,Mugen87,2024-10-13T13:19:57Z,2024-10-15T19:22:19+00:00,1,54.04,True,525,10,8,1387,5,1,6,MERGED
+29624,Batchmesh: Fix cases where calling optimize can result in inconsistent state ,gkjohnson,2024-10-11T13:12:12Z,2024-10-16T08:05:07+00:00,1,114.88,True,67,53,1,913,9,0,9,MERGED
+29623,Update Creating-a-scene.html,asimwe1,2024-10-11T12:25:23Z,2024-10-12T11:50:50+00:00,1,23.42,False,27,1,1,146,0,1,1,CLOSED
+29622,WebGPURenderer: webgl-fallback - fix uniform/texture index allocation,aardgoose,2024-10-11T09:13:55Z,2024-10-12T09:06:18+00:00,3,23.87,True,31,17,1,175,1,1,2,MERGED
+29610,Addons: WebGPU CSM shadows - using shadowNode,aardgoose,2024-10-10T10:39:48Z,2024-10-26T10:18:47+00:00,11,383.65,True,781,7,8,489,12,8,20,MERGED
+29604,TSL: Introduce `premultipliedGaussianBlur`,sunag,2024-10-09T20:32:44Z,2024-10-09T21:48:24+00:00,1,1.26,True,62,5,1,402,0,0,0,MERGED
+29602,TransformControls: Add min/max constraints.,Makio64,2024-10-09T19:28:23Z,2024-10-10T08:11:58+00:00,1,12.73,True,40,0,2,284,2,0,2,MERGED
+29598,"PostProcessingUtils: Improve names, replaced some `save` to `reset`",sunag,2024-10-09T15:21:43Z,2024-10-09T18:53:03+00:00,1,3.52,True,23,23,12,86,2,0,2,MERGED
+29597,Addons: Add `SSRNode`.,Mugen87,2024-10-09T11:45:51Z,2024-10-09T15:54:21+00:00,1,4.14,True,582,0,4,1353,13,1,14,MERGED
+29594,WebGPURenderer: Introducing an `IndirectStorageBufferAttribute`,Spiri0,2024-10-08T21:22:40Z,2024-10-10T17:24:27+00:00,11,44.03,True,37,9,7,2380,6,2,8,MERGED
+29591,BatchedMesh: Refactor error handling.,Makio64,2024-10-08T14:34:13Z,2024-11-02T14:05:16+00:00,2,599.52,False,25821,18856,324,150,5,1,6,CLOSED
+29589,WebGPURenderer: Fix missing updates to geometry attributes,RenaudRohlinger,2024-10-08T13:52:35Z,2024-10-09T19:18:58+00:00,2,29.44,True,95,10,3,301,1,1,2,MERGED
+29583,OutlineNode: Improve approach,sunag,2024-10-08T03:18:30Z,2024-10-08T15:25:30+00:00,1,12.12,True,90,112,2,381,0,0,0,MERGED
+29579,WebGLRenderer: Stable reversed Z buffer implementation.,eXponenta,2024-10-07T16:28:39Z,2024-10-21T16:09:32+00:00,4,335.68,True,48,13,4,249,15,2,17,MERGED
+29577,"BatchedMesh: add support for resizing instance count, geometry size",gkjohnson,2024-10-07T13:38:45Z,2024-10-08T06:26:47+00:00,3,16.8,True,146,3,2,874,1,1,2,MERGED
+29576,WebGPURenderer: Add support for geometry without attributes,RenaudRohlinger,2024-10-07T07:58:11Z,2024-10-07T13:05:21+00:00,3,5.12,True,12,1,1,198,1,1,2,MERGED
+29573,WebGPURenderer: Add HDR Support,RenaudRohlinger,2024-10-07T05:18:28Z,2025-08-06T01:43:08+00:00,5,7268.41,True,43,6,4,337,28,2,30,MERGED
+29566,Fix Compressed 3D Textures failing on Android and Meta Quest,RenaudRohlinger,2024-10-06T10:58:36Z,2024-10-06T12:31:26+00:00,1,1.55,True,3,4,2,1997,4,0,4,MERGED
+29545,Color: Improve documentation about color management,donmccurdy,2024-10-03T02:20:39Z,2024-10-03T21:45:42+00:00,3,19.42,True,55,17,2,320,7,1,8,MERGED
+29541,"KTX2Exporter: Fix metadata, add example",donmccurdy,2024-10-02T01:52:25Z,2024-10-03T21:43:38+00:00,2,43.85,True,239,12,4,756,3,2,5,MERGED
+29540,TSL: Avoid vector reuse in luminance() input,donmccurdy,2024-10-02T00:42:42Z,2024-10-02T20:32:25+00:00,1,19.83,True,1,2,1,256,2,0,2,MERGED
+29534,Wireframe: Add WebGPU version.,Mugen87,2024-09-30T10:19:32Z,2024-10-01T08:04:43+00:00,5,21.75,True,327,16,7,84,0,4,4,MERGED
+29532,BatchedMesh: Fix `renderer.info.render` when using multidraw.,agargaro,2024-09-29T22:04:11Z,2024-10-01T11:51:03+00:00,1,37.78,True,6,19,3,237,8,0,8,MERGED
+29527,BatchedMesh: Add `optimize()`.,gkjohnson,2024-09-29T11:27:57Z,2024-09-30T09:19:43+00:00,1,21.86,True,80,0,2,343,1,0,1,MERGED
+29524,FXAA: Improve quality.,swift502,2024-09-28T21:12:20Z,2024-10-05T16:51:07+00:00,11,163.65,True,398,404,2,1196,24,2,26,MERGED
+29523,BatchedMesh: Add `deleteGeometry()`.,gkjohnson,2024-09-28T19:50:42Z,2024-09-29T19:10:39+00:00,1,23.33,True,60,22,2,291,1,0,1,MERGED
+29522,WebGPURenderer: Ignore `diagnostic()` method in Deno.,Mutefish0,2024-09-28T16:41:30Z,2024-09-30T09:26:49+00:00,1,40.76,True,1,1,1,162,3,0,3,MERGED
+29517,SpriteNodeMaterial: size attenuation support orthographic camera,RenaudRohlinger,2024-09-28T08:51:49Z,2024-09-30T02:42:29+00:00,1,41.84,True,11,2,1,624,1,0,1,MERGED
+29514,NURBSCurve: Add `toJSON()` and `fromJSON()`.,canxerian,2024-09-27T19:54:53Z,2024-09-30T13:28:40+00:00,5,65.56,True,105,3,3,232,0,2,2,MERGED
+29510,TSL: Add CDLNode,donmccurdy,2024-09-27T02:24:32Z,2024-10-03T21:07:04+00:00,17,162.71,True,52,2,1,424,8,3,11,MERGED
+29509,GLTFExporter: Add support for WebGPURenderer,donmccurdy,2024-09-26T23:15:17Z,2024-10-17T09:31:58+00:00,5,490.28,True,138,70,2,109,7,1,8,MERGED
+29501,WebGPURenderer: Fix NodeLibrary Logic for Minified Builds,RenaudRohlinger,2024-09-26T03:49:29Z,2024-09-27T16:06:37+00:00,2,36.29,True,142,42,23,646,3,1,4,MERGED
+29492,WebGPURenderer: respect the `renderer.shadowMap.enabled` property,aardgoose,2024-09-25T17:46:31Z,2024-09-25T20:55:30+00:00,3,3.15,True,9,0,7,150,1,1,2,MERGED
+29486,Decals Example: Add decal as a child of mesh,WestLangley,2024-09-24T17:47:02Z,2024-09-25T08:25:27+00:00,1,14.64,True,4,3,1,33,0,0,0,MERGED
+29483,ToonOutlinePassNode: Add FX pass for toon outlines.,Mugen87,2024-09-24T16:29:39Z,2024-09-25T14:57:27+00:00,5,22.46,True,123,2,5,245,6,1,7,MERGED
+29479,WebGPURenderer: Introduce hash-based cache key,sunag,2024-09-24T01:15:47Z,2024-09-25T02:15:02+00:00,2,24.99,True,114,33,9,526,1,2,3,MERGED
+29476,DecalGeometry: Transform normal with normal matrix,WestLangley,2024-09-23T19:31:21Z,2024-09-24T07:41:13+00:00,1,12.16,True,7,2,2,137,5,0,5,MERGED
+29472,Exporters: Convert from working color space,donmccurdy,2024-09-23T11:51:43Z,2024-09-23T20:08:34+00:00,1,8.28,True,18,10,3,206,0,0,0,MERGED
+29470,WebGPURenderer: Prevent out of bounds textureLoad access in WGSL,aardgoose,2024-09-23T08:03:05Z,2024-09-23T18:33:58+00:00,1,10.51,True,6,5,1,213,1,0,1,MERGED
+29460,CylinderGeometry: Don't add degenerate triangles,gkjohnson,2024-09-21T10:13:42Z,2024-09-21T11:33:04+00:00,1,1.32,True,11,4,1,83,1,0,1,MERGED
+29453,CurveModifier: Add WebGPU version.,aardgoose,2024-09-20T09:28:32Z,2024-09-23T08:49:00+00:00,4,71.34,True,454,0,4,330,1,1,2,MERGED
+29451,Lensflare: Add WebGPU version.,aardgoose,2024-09-20T09:12:11Z,2024-09-21T08:47:20+00:00,8,23.59,True,509,0,4,123,3,3,6,MERGED
+29450,ColorManagement: Add ColorManagement.define( { ... } ),donmccurdy,2024-09-20T05:03:07Z,2024-09-27T13:43:13+00:00,8,176.67,True,324,174,12,1448,4,4,8,MERGED
+29449,BatchedMesh: add `deleteInstance()`,Jordan-Lane,2024-09-19T22:35:40Z,2024-09-21T04:03:25+00:00,3,29.46,True,32,10,2,851,3,2,5,MERGED
+29448,Loaders: Unpack colors to working color space,donmccurdy,2024-09-19T22:31:40Z,2024-09-20T03:07:22+00:00,1,4.59,True,72,51,13,663,0,3,3,MERGED
+29447,WebGPURenderer: Fixed shadows not rendering correctly with `logarithmicDepthBuffer`,PoseidonEnergy,2024-09-19T21:43:21Z,2024-09-28T00:37:30+00:00,14,194.9,True,70,13,4,4067,8,3,11,MERGED
+29445,WebGLRenderer: add reverse-z via EXT_clip_control,CodyJasonBennett,2024-09-19T16:37:15Z,2024-09-21T09:23:24+00:00,10,40.77,True,89,4,4,1373,8,3,11,MERGED
+29437,MaterialXLoader: Implement separate(2|3|4) nodes,aardgoose,2024-09-18T08:07:37Z,2024-09-19T14:47:06+00:00,3,30.66,True,25,9,1,191,3,2,5,MERGED
+29433,MaterialXLoader: added invert implementation,beersandrew,2024-09-17T20:48:59Z,2024-09-19T16:53:03+00:00,2,44.07,True,2,0,1,291,3,1,4,MERGED
+29422,Examples: Clean up.,Mugen87,2024-09-16T10:18:59Z,2024-09-16T11:35:16+00:00,5,1.27,True,7,1,1,400,0,2,2,MERGED
+29421,WebGPURenderer: add Texture state tracking to `NodeMaterialObserver` ,aardgoose,2024-09-16T09:56:37Z,2024-09-16T19:17:37+00:00,6,9.35,True,22,1,1,321,1,2,3,MERGED
+29419,Docs: Fix white flash on iframe load for Safari,JeremyJaydan,2024-09-16T05:02:15Z,2024-09-17T07:52:32+00:00,5,26.84,True,8,2,1,838,1,1,2,MERGED
+29409,BatchedMesh: Add `getGeometryRangeAt`,agargaro,2024-09-15T14:06:16Z,2024-09-24T19:42:49+00:00,7,221.61,True,33,3,2,221,3,2,5,MERGED
+29404,Codesplit WebGL/WebGPU entrypoints,CodyJasonBennett,2024-09-13T19:27:54Z,2024-11-08T09:01:24+00:00,10,1333.56,True,223,581,6,1065,30,3,33,MERGED
+29400,WebGPURenderer: correct texelFetch() texel coordinates in WebGL fallback,aardgoose,2024-09-12T20:03:35Z,2024-09-17T14:07:14+00:00,5,114.06,True,13,5,3,206,1,2,3,MERGED
+29397,SpriteMaterial: Simplify shader.,WestLangley,2024-09-12T14:17:57Z,2024-09-17T08:00:01+00:00,1,113.7,True,2,4,1,18,1,0,1,MERGED
+29394,SpriteNodeMaterial: Add sizeAttenuation,RenaudRohlinger,2024-09-12T10:52:56Z,2024-09-23T18:31:06+00:00,8,271.64,True,32,3,1,194,4,4,8,MERGED
+29386,WebGPURenderer: Introduce `NodeMaterialObserver` and updates,sunag,2024-09-11T03:06:20Z,2024-09-13T03:57:55+00:00,1,48.86,True,468,130,28,1259,13,1,14,MERGED
+29385,Nodes: Add AtomicFunctionNode,cmhhelgeson,2024-09-10T23:22:23Z,2024-09-17T14:28:04+00:00,2,159.09,True,126,2,5,159,3,1,4,MERGED
+29384,WebGPURenderer: `copyFrameBufferTexture()`  rectangle parameter added,aardgoose,2024-09-10T17:45:29Z,2024-09-17T13:58:54+00:00,1,164.22,True,47,17,4,392,5,0,5,MERGED
+29383,Renderer: clean up,s-rigaud,2024-09-10T12:34:53Z,2024-09-11T02:57:30+00:00,4,14.38,True,9,9,1,25,3,2,5,MERGED
+29378,"TSL: Add `workingToColorSpace`, `colorSpaceToWorking`",sunag,2024-09-10T02:29:01Z,2024-09-12T05:33:55+00:00,3,51.08,True,46,19,3,44,1,1,2,MERGED
+29376,Audio: Add `delay` parameter to `stop()`.,tatsmaki,2024-09-09T17:40:51Z,2024-09-11T09:51:57+00:00,7,40.19,True,5,3,2,193,1,2,3,MERGED
+29366,Examples: Simpler atmosphere approach in webgpu_compute_birds,mrdoob,2024-09-09T04:41:34Z,2024-09-10T00:23:35+00:00,1,19.7,True,25,15,2,859,1,1,2,MERGED
+29359,LOD: Add `removeLevel()`.,JaimeTorrealba,2024-09-08T15:51:01Z,2024-09-11T20:22:39+00:00,14,76.53,True,30,0,2,87,1,3,4,MERGED
+29358,WebGPURenderer: extract common draw call logic from backends,aardgoose,2024-09-08T14:57:22Z,2024-09-08T21:56:06+00:00,2,6.98,True,75,88,3,301,1,1,2,MERGED
+29354,Examples : Add TSL VFX Linked particles,ULuIQ12,2024-09-08T09:10:59Z,2024-09-08T21:54:22+00:00,1,12.72,True,457,0,4,701,1,2,3,MERGED
+29348,TextureUtils: Add WebGPU version.,Mugen87,2024-09-07T09:28:00Z,2024-09-09T09:18:53+00:00,5,47.85,True,64,0,2,81,0,3,3,MERGED
+29347,"TSL: Introduce `screenUV`, `screenSize`, `screenCoordinate` and `viewport` revision",sunag,2024-09-06T21:54:18Z,2024-09-07T15:45:26+00:00,9,17.85,True,261,233,38,823,3,2,5,MERGED
+29345,WebGLRenderer: Only compile renderable objects,vanruesc,2024-09-06T21:13:01Z,2024-09-08T08:00:42+00:00,1,34.79,True,6,0,1,1118,3,0,3,MERGED
+29343,BatchedMesh setGeometryIdAt getGeometryIdAt,Makio64,2024-09-06T16:15:22Z,2024-09-13T13:59:08+00:00,8,165.73,True,68,6,3,797,8,2,10,MERGED
+29340,"Raycaster: Add barycoord to intersection result, make attribution interpolation more convenient.",gkjohnson,2024-09-06T09:13:00Z,2024-09-18T21:23:32+00:00,7,300.18,True,48,23,5,1811,1,2,3,MERGED
+29339,WebGLRenderer:  reduce `ReadRenderTargetPixelsAsync` latency,aardgoose,2024-09-06T07:23:40Z,2024-09-06T08:28:36+00:00,1,1.08,True,3,1,1,138,1,0,1,MERGED
+29338,Examples: add `webgpu_animation_retargeting`,sunag,2024-09-06T05:16:07Z,2024-09-06T20:47:15+00:00,2,15.52,True,295,48,4,315,0,5,5,MERGED
+29335,LightProbeGenerator: adapt for WebGPU compatibility,aardgoose,2024-09-05T19:55:04Z,2024-09-09T14:30:39+00:00,8,90.59,True,155,12,6,357,1,3,4,MERGED
+29333,Fix commented code in Drawing-lines.html,JanardanPethani,2024-09-05T10:22:16Z,2024-09-05T12:42:35+00:00,3,2.34,False,1,1,1,165,0,1,1,CLOSED
+29331,ShadowMapViewer: Add WebGPU version.,Mugen87,2024-09-05T09:12:19Z,2024-09-05T14:43:03+00:00,6,5.51,True,202,0,3,115,1,1,2,MERGED
+29330,GLTFLoader: Fix sparse normalized.,stephomi,2024-09-05T08:54:00Z,2024-09-05T21:04:33+00:00,2,12.18,True,5,0,1,187,0,1,1,MERGED
+29323,WebGPURenderer: Add cube face to `readRenderTargetPixelsAsync` parameters,aardgoose,2024-09-04T15:04:59Z,2024-09-04T21:33:15+00:00,1,6.47,True,13,10,5,121,4,0,4,MERGED
+29318,Fix misleading comment in How-to-update-things.html,Red1C3,2024-09-04T09:35:58Z,2024-09-04T12:51:35+00:00,1,3.26,True,1,1,1,273,0,0,0,MERGED
+29312,WebGPURenderer: Use world space normal approach,sunag,2024-09-04T01:03:00Z,2024-09-04T04:27:44+00:00,5,3.41,True,14,8,3,186,1,1,2,MERGED
+29304,Add Giro3D to libraries and plugins,vpicavet,2024-09-03T11:09:06Z,2024-09-03T15:02:03+00:00,1,3.88,True,8,0,8,132,0,1,1,MERGED
+29302,EXRExporter: Add support for `WebGPURenderer`.,Mugen87,2024-09-03T09:20:48Z,2024-09-03T19:22:45+00:00,3,10.03,True,44,22,4,419,1,1,2,MERGED
+29301,LightProbeHelper: Add WebGPU version.,Mugen87,2024-09-02T19:19:31Z,2024-09-03T08:28:04+00:00,17,13.14,True,93,29,5,116,1,2,3,MERGED
+29293,WebGPURenderer: Fix getArrayBufferAsync race condition and ensure proper buffer sequencing,RenaudRohlinger,2024-09-02T06:58:40Z,2024-09-02T09:05:36+00:00,1,2.12,True,12,16,2,738,1,0,1,MERGED
+29292,"Loading KTX2 texture compatibility: When the extension is not set, th…",bahhchen,2024-09-02T06:04:22Z,2024-09-02T15:18:03+00:00,2,9.23,False,10,3,2,195,7,1,8,CLOSED
+29281,Addons: Remove SDFGeometryGenerator.,Mugen87,2024-09-01T08:35:13Z,2024-09-02T08:31:43+00:00,2,23.94,True,1,502,7,506,3,1,4,MERGED
+29278,WebGPURenderer: Fix Material Arrays and Geometry Groups,RenaudRohlinger,2024-08-31T06:38:47Z,2024-08-31T14:44:30+00:00,3,8.1,True,247,13,7,647,1,2,3,MERGED
+29257,WebGPURenderer: cache textureViews for reuse in bindGroup,aardgoose,2024-08-29T08:53:52Z,2024-08-29T22:34:15+00:00,2,13.67,True,25,16,1,204,2,1,3,MERGED
+29240,WebGPURenderer: Add signature to shader,WestLangley,2024-08-27T19:16:01Z,2024-08-28T13:55:09+00:00,4,18.65,True,2,0,1,131,2,1,3,MERGED
+29236,Nodes: `InstancedPointsNodeMaterial` - Add `pointWidthNode`,cmhhelgeson,2024-08-27T05:28:28Z,2024-08-29T04:19:41+00:00,6,46.85,True,61,33,3,730,3,3,6,MERGED
+29232,WebGPURenderer: Improve clippingContext cachekey,aardgoose,2024-08-26T12:19:57Z,2024-08-27T01:24:29+00:00,1,13.08,True,18,9,3,271,1,1,2,MERGED
+29222,Nodes: InstancedPointsNodeMaterial - don't rebuild every frame,aardgoose,2024-08-23T18:49:20Z,2024-08-24T00:51:59+00:00,1,6.04,True,0,2,1,57,1,0,1,MERGED
+29221,WebGPURenderer: Use getPreferredCanvasFormat,wcandillon,2024-08-23T18:25:55Z,2024-08-26T02:36:57+00:00,5,56.18,True,18,4,3,231,6,1,7,MERGED
+29220,OutlinePass: Improve performance of `VisibilityChangeCallBack()`.,Barokoli,2024-08-23T16:51:40Z,2024-08-26T14:17:43+00:00,8,69.43,True,31,46,1,302,0,4,4,MERGED
+29217,"WebGPURenderer: Use material name or type to label WebGPU pipelines, add names to Nodes internal materials.",aardgoose,2024-08-23T10:52:48Z,2024-08-23T12:46:54+00:00,1,1.9,True,20,5,13,25,1,0,1,MERGED
+29202,Nodes: IndexNode - `invocationLocalIndex`,cmhhelgeson,2024-08-21T21:48:29Z,2024-08-24T01:31:04+00:00,3,51.71,True,23,1,4,502,1,1,2,MERGED
+29201,Nodes: StereoCompositePassNode.js,cmhhelgeson,2024-08-21T19:32:32Z,2024-08-22T18:36:07+00:00,4,23.06,True,127,184,5,409,2,4,6,MERGED
+29199,SkyMesh: Rename `up` property to avoid name collision,Methuselah96,2024-08-21T14:18:27Z,2024-08-21T15:59:54+00:00,1,1.69,True,4,4,1,274,0,0,0,MERGED
+29196,PCDLoader: Fix regex to match header fields at line start,lenville,2024-08-21T10:07:36Z,2024-08-21T12:10:39+00:00,3,2.05,True,9,9,1,1238,0,1,1,MERGED
+29193,ViewportNode: Honor the renderer pixel ratio when using `viewport`.,sunag,2024-08-21T02:02:44Z,2024-08-22T00:10:18+00:00,1,22.13,True,3,0,1,102,1,1,2,MERGED
+29192,WebGPURenderer: Workgroup Arrays and Barrier Support,cmhhelgeson,2024-08-20T23:45:53Z,2024-09-10T18:29:48+00:00,4,498.73,True,760,4,10,806,18,8,26,MERGED
+29189,WebGLRenderer: Merge update ranges before issuing updates to the GPU.,HunterLarco,2024-08-20T18:13:00Z,2024-09-02T08:26:33+00:00,2,302.23,True,44,0,1,2483,2,0,2,MERGED
+29188,"WebGPURenderer: Update `Packing`, `Hash`, `Discard`",sunag,2024-08-20T17:45:09Z,2024-08-22T23:48:16+00:00,3,54.05,True,33,123,10,35,1,1,2,MERGED
+29187,WebGPURenderer: Tree-shaking 1/2,sunag,2024-08-20T15:17:13Z,2024-08-27T02:12:24+00:00,1,154.92,True,2302,1949,264,803,11,1,12,MERGED
+29185,PCDLoader. Fix regex to match header fields at line start.,lenville,2024-08-20T12:18:22Z,2024-08-21T08:56:45+00:00,1,20.64,True,9,9,1,1238,2,0,2,MERGED
+29179,XRControllerModelFactory: Prevent hand input source processing.,jorodi,2024-08-19T23:17:57Z,2024-09-16T18:38:22+00:00,1,667.34,True,1,1,1,613,1,0,1,MERGED
+29175,WebGPURenderer: Support Filterable Float32 Textures in WebGPU,RenaudRohlinger,2024-08-19T12:14:32Z,2024-08-19T16:28:52+00:00,1,4.24,True,9,3,2,207,1,0,1,MERGED
+29174,WebGPURenderer: Fix BatchedMesh with indexed geometry,RenaudRohlinger,2024-08-19T11:47:35Z,2024-08-19T14:16:35+00:00,1,2.48,True,2,2,1,364,1,0,1,MERGED
+29166,LightProbeHelper: Clean up,WestLangley,2024-08-18T19:25:26Z,2024-08-18T21:37:05+00:00,1,2.19,True,42,43,1,22,0,0,0,MERGED
+29158,WebGPU Renderer: cache GPUBindGroupLayouts,aardgoose,2024-08-17T14:01:13Z,2024-08-19T16:27:47+00:00,4,50.44,True,16,6,4,276,3,2,5,MERGED
+29148,WebGPURenderer: WebGL fallback - fix scissor with MSAA ,aardgoose,2024-08-15T19:33:57Z,2024-08-16T02:13:40+00:00,1,6.66,True,15,3,4,291,2,0,2,MERGED
+29147,Examples: GPGPU Water Port,cmhhelgeson,2024-08-15T19:01:34Z,2024-09-08T21:52:46+00:00,7,578.85,True,507,0,4,314,5,15,20,MERGED
+29146,TransformControls: Derive from `Controls`.,Mugen87,2024-08-15T18:27:54Z,2024-09-12T08:21:42+00:00,5,661.9,True,116,110,12,620,9,1,10,MERGED
+29144,Removed LogLuvLoader,mrdoob,2024-08-15T12:51:18Z,2024-08-27T11:00:42+00:00,2,286.16,True,0,721,6,86,6,1,7,MERGED
+29140,"WebGPUBackend: BatchedMesh in WebGPU throw Error: reading ""bytesPerElement"" of …",prince805962788,2024-08-15T02:58:36Z,2024-08-16T02:15:24+00:00,4,23.28,True,1,1,1,273,5,1,6,MERGED
+29137,WebGPURenderer: New normal nodes approach,sunag,2024-08-14T15:46:42Z,2024-08-14T17:01:30+00:00,4,1.25,True,78,68,17,329,1,2,3,MERGED
+29132,WebGPURenderer: WebGL State improvements,RenaudRohlinger,2024-08-14T04:07:44Z,2024-08-14T13:48:38+00:00,2,9.68,True,35,13,2,181,1,1,2,MERGED
+29128,BloomNode: Support transparent background,WestLangley,2024-08-13T23:59:28Z,2024-08-16T16:54:38+00:00,12,64.92,False,0,0,0,18,3,1,4,CLOSED
+29118,Fix incorrect file name in documentation paragraph,KURELLANAVEEN,2024-08-12T04:35:04Z,2024-08-12T07:46:19+00:00,1,3.19,True,1,1,1,612,0,0,0,MERGED
+29111,AnimationClipCreator: Fix timeStep logic in `CreateMaterialColorAnimation()`.,JiDW,2024-08-11T08:45:09Z,2024-08-13T11:48:44+00:00,3,51.06,True,1,1,1,392,0,1,1,MERGED
+29108,Object3D: minimize rotation-quaternion conversions,CodyJasonBennett,2024-08-10T11:11:12Z,2025-02-05T02:12:01+00:00,2,4287.01,False,329,571,7,246,1,2,3,CLOSED
+29102,GLSLNodeBuilder: Fix `GL_ANGLE_multi_draw` extension request.,cmhhelgeson,2024-08-09T16:54:37Z,2024-08-09T18:06:43+00:00,1,1.2,True,1,1,1,150,1,0,1,MERGED
+29101,ToneMappingNode: Remove the default value for `toneMapping`,WestLangley,2024-08-09T16:17:39Z,2024-08-09T18:07:16+00:00,1,1.83,True,1,1,1,57,1,0,1,MERGED
+29093,src: Simplify nomenclature,WestLangley,2024-08-09T01:18:20Z,2024-08-09T08:56:59+00:00,1,7.64,True,7,7,4,298,1,0,1,MERGED
+29092,Nodes: Rename `remainder()` to `modInt()`.,cmhhelgeson,2024-08-09T00:25:19Z,2024-08-11T03:21:46+00:00,1,50.94,True,15,5,4,840,6,1,7,MERGED
+29089,Nodes: Only use PMREM for background when blurriness is configured.,Mugen87,2024-08-08T18:10:01Z,2024-08-08T22:20:44+00:00,2,4.18,True,32,2,16,217,1,1,2,MERGED
+29081,Examples: WebGPU GPGPU Birds,cmhhelgeson,2024-08-08T01:10:00Z,2024-08-13T15:04:22+00:00,4,133.91,True,495,0,3,542,2,4,6,MERGED
+29079,DragControls: Refactor API.,Mugen87,2024-08-07T17:44:28Z,2024-08-08T09:25:25+00:00,3,15.68,True,313,166,4,472,4,2,6,MERGED
+29078,Editor: Remove unused method moveObject,s-rigaud,2024-08-07T16:04:43Z,2024-08-08T08:57:59+00:00,1,16.89,True,0,24,1,463,1,0,1,MERGED
+29076,ToneMappingNode: properly handle alpha,WestLangley,2024-08-07T01:47:21Z,2024-08-08T03:23:17+00:00,7,25.6,True,3,3,1,402,1,5,6,MERGED
+29073,Nodes: Add `CubeMapNode`.,Mugen87,2024-08-06T08:50:53Z,2024-08-07T11:16:54+00:00,4,26.43,True,316,1,5,312,1,1,2,MERGED
+29072,DragControls: Add `mouseButtons`,puxiao,2024-08-06T07:55:33Z,2024-08-08T00:40:46+00:00,2,40.75,False,118,12,6,793,5,1,6,CLOSED
+29069,WebGPURenderer: Support for access previous frame textures using `pass()`,sunag,2024-08-05T23:51:33Z,2024-08-06T04:56:05+00:00,1,5.08,True,279,52,10,403,4,1,5,MERGED
+29068,Nodes: Add `LightProbeNode`.,Mugen87,2024-08-05T20:52:32Z,2024-08-06T07:37:33+00:00,2,10.75,True,255,0,5,86,1,1,2,MERGED
+29066,WebGPURenderer: Fix instance meshes that shares the same count,RenaudRohlinger,2024-08-05T14:22:32Z,2024-08-05T15:54:48+00:00,3,1.54,True,1,1,1,518,4,2,6,MERGED
+29061,BatchedMesh: fix colorsTexture size,agargaro,2024-08-04T14:13:27Z,2024-08-05T08:14:10+00:00,1,18.01,True,1,1,1,156,1,0,1,MERGED
+29060,KTX2Loader: Update ktx-parse dependency to v0.7.1,yue4u,2024-08-04T09:26:14Z,2024-09-15T16:34:47+00:00,1,1015.14,True,1,1,1,674,1,0,1,MERGED
+29058,Nodes: Add `VelocityNode` and `MotionBlurNode`.,Mugen87,2024-08-02T15:32:12Z,2024-08-09T00:15:08+00:00,17,152.72,True,444,17,14,313,21,4,25,MERGED
+29053,WebGPURenderer: Enable Subgroup Directives/Builtins,cmhhelgeson,2024-08-01T22:49:29Z,2024-08-06T01:39:38+00:00,3,98.84,True,32,3,2,191,1,1,2,MERGED
+29040,Color/Color4: Added maths convenience and toVector methods,Gru2303,2024-07-31T16:24:16Z,2024-07-31T18:45:10+00:00,1,2.35,False,40,0,3,185,4,1,5,CLOSED
+29035,GLTFExporter: Preventing to write `null` for `attenuationDistance`.,Cold5tar,2024-07-31T12:54:57Z,2024-07-31T19:27:13+00:00,1,6.54,True,6,1,1,591,0,0,0,MERGED
+29027,Water2: Add `WebGPURenderer` version.,Mugen87,2024-07-31T08:16:26Z,2024-07-31T10:59:24+00:00,1,2.72,True,374,1,4,152,0,1,1,MERGED
+29022,Editor: Add Korean language.,shinjeongmin,2024-07-30T20:38:02Z,2024-07-31T19:27:42+00:00,1,22.83,True,402,2,3,916,2,0,2,MERGED
+29020,Examples: Add TSL VFX Tornado,brunosimon,2024-07-30T12:28:00Z,2024-07-30T19:08:03+00:00,7,6.67,True,336,0,4,182,11,2,13,MERGED
+29015,Sky: Replace `cameraPosition`,sunag,2024-07-29T19:00:21Z,2024-07-29T20:41:02+00:00,1,1.68,True,2,3,1,63,0,0,0,MERGED
+29013,Sky: Add `WebGPURenderer` version.,Mugen87,2024-07-29T14:06:28Z,2024-07-29T18:56:27+00:00,6,4.83,True,327,0,4,65,0,2,2,MERGED
+29007,Examples: Add TSL angular slicing,brunosimon,2024-07-28T16:27:24Z,2024-07-29T21:41:19+00:00,1,29.23,True,233,0,4,311,0,1,1,MERGED
+28999,Examples > Adds TSL procedural terrain example,brunosimon,2024-07-27T14:28:08Z,2024-07-29T00:11:40+00:00,3,33.73,True,360,0,4,654,0,1,1,MERGED
+28997,WebGPURenderer: Add `debug.getRawShaderAsync()`.,Mugen87,2024-07-27T08:54:34Z,2024-07-27T16:45:10+00:00,5,7.84,True,38,17,4,166,3,2,5,MERGED
+28993,RapierPhysics: Add triangular mesh collider,ferminLR,2024-07-26T23:23:57Z,2024-07-27T17:45:57+00:00,3,18.37,True,20,0,1,88,0,1,1,MERGED
+28992,NodeEditor: Make sure scene is properly resetted.,Mugen87,2024-07-26T21:49:01Z,2024-07-27T08:06:12+00:00,1,10.29,True,26,2,2,455,0,1,1,MERGED
+28982,NodeMaterial: Use `materialReference()` for env maps.,Mugen87,2024-07-26T10:14:50Z,2024-08-01T11:07:29+00:00,4,144.88,True,21,15,8,1087,2,1,3,MERGED
+28974,Nodes: Bleach Node,cmhhelgeson,2024-07-25T21:10:07Z,2024-08-01T17:46:02+00:00,6,164.6,True,29,0,2,411,3,3,6,MERGED
+28972,Example: Update `webgpu_mrt_mask` imports,sunag,2024-07-25T19:12:02Z,2024-07-25T20:46:02+00:00,1,1.57,True,2,2,1,101,2,0,2,MERGED
+28967,Examples > Add coffee smoke,brunosimon,2024-07-25T11:50:10Z,2024-07-26T03:00:35+00:00,1,15.17,True,179,0,6,148,4,0,4,MERGED
+28966,Background: Fix update when changing env map.,Mugen87,2024-07-25T10:01:33Z,2024-07-25T15:34:22+00:00,3,5.55,True,1,0,1,336,1,1,2,MERGED
+28961,Nodes: Add SepiaNode,cmhhelgeson,2024-07-24T23:21:09Z,2024-07-26T09:03:24+00:00,1,33.7,True,22,0,2,532,6,0,6,MERGED
+28952,Nodes: Add `enableExtension()` Method to `GLSLNodeBuilder`,cmhhelgeson,2024-07-24T06:01:54Z,2024-07-30T12:02:19+00:00,4,150.01,True,31,3,1,493,3,2,5,MERGED
+28951,WebGPURenderer: Add `PCFSoftShadowMap` support.,Mugen87,2024-07-23T19:07:20Z,2024-07-24T02:36:09+00:00,1,7.48,True,59,3,2,128,1,1,2,MERGED
+28941,NodeMaterial: Add `setupOutgoingLight()`.,Mugen87,2024-07-23T08:59:11Z,2024-07-23T15:29:53+00:00,4,6.51,True,26,3,7,590,1,1,2,MERGED
+28938,GLTFExporter: Remove unnecessary early return.,POPOBE97,2024-07-22T13:20:54Z,2024-07-22T19:04:28+00:00,1,5.73,True,1,1,1,471,0,0,0,MERGED
+28936,KTX2Loader: Add `parse()` method for direct buffer processing.,laddish,2024-07-22T10:01:45Z,2024-07-25T08:49:55+00:00,1,70.8,True,19,7,1,735,1,0,1,MERGED
+28929,Examples: Clean up.,Methuselah96,2024-07-21T15:24:40Z,2024-07-21T17:36:35+00:00,1,2.2,True,4,5,1,262,0,0,0,MERGED
+28926,WebGPURenderer: Add `PCFShadowMap` support.,Mugen87,2024-07-20T20:27:32Z,2024-07-23T15:25:57+00:00,5,66.97,True,128,121,9,329,5,4,9,MERGED
+28925,Examples: Clean up.,Methuselah96,2024-07-20T19:52:56Z,2024-07-21T13:07:13+00:00,1,17.24,True,0,1,1,101,0,1,1,MERGED
+28923,Core: Add Matrix2 class,gkjohnson,2024-07-20T02:28:31Z,2024-07-21T11:13:08+00:00,13,32.74,True,189,0,5,661,1,3,4,MERGED
+28922,Nodes: Cache linear depth and viewZ of depth textures in PassNode,cmhhelgeson,2024-07-20T01:42:04Z,2024-07-24T02:39:28+00:00,4,96.96,True,18,13,1,2193,1,2,3,MERGED
+28920,GLSLNodeBuilder: Remove `Int16Array` check from `getTypeFromAttribute()`.,Mugen87,2024-07-19T16:43:02Z,2024-07-20T09:03:46+00:00,2,16.35,True,1,1,1,210,1,1,2,MERGED
+28917,Docs: Expand .aoMapIntensity description,donmccurdy,2024-07-19T13:05:18Z,2024-07-21T09:39:10+00:00,3,44.56,True,20,10,5,180,3,1,4,MERGED
+28916,Addons: Update exports.,Methuselah96,2024-07-19T00:49:35Z,2024-07-19T14:28:22+00:00,3,13.65,True,1,1,1,63,0,1,1,MERGED
+28915,Nodes: Construct clip distances objects in NodeBuilder.,cmhhelgeson,2024-07-18T23:26:11Z,2025-06-19T02:51:29+00:00,4,8043.42,False,265,0,9,298,4,7,11,CLOSED
+28913,WebGPURenderer: Add bloom emissive/selective examples,sunag,2024-07-18T20:33:06Z,2024-07-18T22:36:42+00:00,2,2.06,True,307,0,6,46,4,1,5,MERGED
+28910,Nodes: Rename `uniforms()` to `uniformArray()`. ,cmhhelgeson,2024-07-18T17:52:22Z,2024-07-26T08:53:29+00:00,1,183.02,True,20,20,7,250,4,0,4,MERGED
+28909,Renderer: Use output color space conversion only when rendering to screen.,Mugen87,2024-07-18T12:52:38Z,2024-07-19T14:34:48+00:00,1,25.7,True,1,1,1,157,15,1,16,MERGED
+28904,WebGLRenderer: warnOnce for deprecation notices,davcri,2024-07-17T12:50:02Z,2024-07-17T13:56:40+00:00,1,1.11,True,4,4,1,211,1,0,1,MERGED
+28900,WebGPURenderer: Introduce `renderer.transparent` and `renderer.opaque`,sunag,2024-07-17T02:57:10Z,2024-07-18T03:42:37+00:00,1,24.76,True,6,5,1,131,1,0,1,MERGED
+28897,Nodes: Unify uniform() and uniforms() functions,cmhhelgeson,2024-07-16T22:28:17Z,2024-07-18T17:52:35+00:00,1,43.41,False,56,53,33,530,4,1,5,CLOSED
+28894,WebGPURenderer: suppress console errors when video data is unavailable.,aardgoose,2024-07-16T20:33:54Z,2024-07-17T02:06:17+00:00,3,5.54,True,26,0,1,274,2,1,3,MERGED
+28893,GLTFExporter: Set `willReadFrequently` to `true` when using `canvas2d`.,myznikovgleb,2024-07-16T20:03:29Z,2024-07-17T10:59:43+00:00,1,14.94,True,6,2,1,271,0,0,0,MERGED
+28889,WebGPURenderer: correct shadows on material rebuilding. ,aardgoose,2024-07-16T15:29:34Z,2024-07-17T00:34:41+00:00,1,9.09,True,7,0,1,527,2,0,2,MERGED
+28880,ColorManagement: Add .getLuminanceCoefficients,donmccurdy,2024-07-16T02:41:20Z,2024-07-17T14:02:25+00:00,6,35.35,True,46,18,7,1413,5,2,7,MERGED
+28872,"Box2, Box3: Escape ternary condition in ""intersectsBox"" method",satelllte,2024-07-14T19:13:18Z,2024-07-15T09:22:18+00:00,1,14.15,True,5,5,2,172,1,0,1,MERGED
+28871,"Box2, Box3: Escape ternary condition in ""containsPoint"" method",satelllte,2024-07-14T19:06:55Z,2024-07-15T09:22:08+00:00,1,14.25,True,5,5,2,180,1,0,1,MERGED
+28861,ColorAdjustmentNode: Correct `lumaCoeffs`.,Mugen87,2024-07-13T09:29:14Z,2024-07-13T20:55:30+00:00,7,11.44,True,1,1,1,115,1,1,2,MERGED
+28854,InstancedMesh: Add initial value to `setColorAt()` method.,lanvada,2024-07-12T03:14:37Z,2024-07-13T08:49:56+00:00,1,29.59,True,1,1,1,148,1,0,1,MERGED
+28850,Update doc of Mesh.clone() - added param recursive,erasta,2024-07-11T13:54:14Z,2024-07-13T09:03:44+00:00,1,43.16,False,9,2,1,117,1,1,2,CLOSED
+28847,Nodes: Add `TransitionNode`.,cmhhelgeson,2024-07-11T05:44:33Z,2024-07-18T09:30:56+00:00,5,171.77,True,343,0,5,123,5,6,11,MERGED
+28845,Examples: Adjust UltraHDRLoader color grading,mjurczyk,2024-07-10T15:23:53Z,2024-07-10T19:09:20+00:00,2,3.76,True,18,26,1,131,3,1,4,MERGED
+28844,Nodes: Add `GTAONode`.,Mugen87,2024-07-10T12:59:23Z,2024-07-11T16:57:58+00:00,10,27.98,True,479,0,7,89,18,11,29,MERGED
+28840,Update PlaneGeometry.js,stratblues,2024-07-10T01:41:04Z,2024-07-10T08:30:45+00:00,1,6.83,False,7,4,1,243,0,1,1,CLOSED
+28839,MeshBasicNodeMaterial: Fix `transformedNormalView`.,Mugen87,2024-07-09T14:23:57Z,2024-07-10T00:02:01+00:00,5,9.63,True,7,0,1,161,1,1,2,MERGED
+28837,Examples: scroll to currently selected example in the sidebar,aardgoose,2024-07-09T10:45:14Z,2024-07-09T18:59:08+00:00,1,8.23,True,2,0,1,198,2,0,2,MERGED
+28834,WebGLUniformsGroups: Fix buffer offset calculation.,Mugen87,2024-07-08T10:05:19Z,2024-07-08T11:28:08+00:00,1,1.38,True,7,7,1,194,1,0,1,MERGED
+28833,WebGPURenderer: Auto-MRT,sunag,2024-07-08T04:46:36Z,2024-07-10T00:02:58+00:00,14,43.27,True,609,179,24,1007,7,6,13,MERGED
+28832,Examples: clean up,WestLangley,2024-07-07T23:40:01Z,2024-07-08T04:17:46+00:00,1,4.63,True,4,4,2,79,0,0,0,MERGED
+28825,Examples: Add UltraHDRLoader,mjurczyk,2024-07-06T17:27:52Z,2024-07-10T06:39:07+00:00,7,85.19,True,747,291,9,1005,18,3,21,MERGED
+28821,MeshBasicNodeMaterial: Add `lightMap` support.,Mugen87,2024-07-05T22:23:36Z,2024-07-06T19:01:01+00:00,2,20.62,True,86,4,4,253,1,1,2,MERGED
+28820,Memory: Object dispose,tomorrowevening,2024-07-05T18:20:54Z,2024-07-07T21:10:55+00:00,7,50.83,False,343,9,27,151,5,4,9,CLOSED
+28819,"NodeMaterial: Honor `ambientOcclusion` in basic, lambert and phong.",Mugen87,2024-07-05T17:33:44Z,2024-07-05T21:29:05+00:00,2,3.92,True,7,3,2,99,1,1,2,MERGED
+28816,VTKLoader: Add support for `AppendedData`.,Mt-Youya,2024-07-05T12:23:47Z,2024-07-05T14:27:05+00:00,1,2.06,True,76,3,1,70,3,0,3,MERGED
+28811,TSL: Share context between RTT,sunag,2024-07-05T03:32:32Z,2024-07-05T04:52:07+00:00,4,1.33,True,41,5,3,150,3,1,4,MERGED
+28802,Nodes: Add PixelationNode,cmhhelgeson,2024-07-04T07:07:41Z,2024-07-15T09:29:39+00:00,24,266.37,True,481,0,6,140,6,34,40,MERGED
+28798,MeshBasicNodeMaterial: Refactor env map support.,Mugen87,2024-07-03T19:18:33Z,2024-07-05T08:32:33+00:00,12,37.23,True,109,36,8,145,1,3,4,MERGED
+28789,Shaders: Improve Packing,WestLangley,2024-07-03T00:57:21Z,2024-07-03T17:39:13+00:00,1,16.7,True,81,19,4,94,8,0,8,MERGED
+28784,WebGPURenderer: Support MSAA with Postprocessing,RenaudRohlinger,2024-07-02T09:05:21Z,2024-07-04T06:43:58+00:00,13,45.64,True,75,65,8,203,7,4,11,MERGED
+28781,TSL: Introduce `renderOutput()`,sunag,2024-07-02T01:42:07Z,2024-07-02T15:51:10+00:00,6,14.15,True,171,63,14,841,9,3,12,MERGED
+28779,Node: Add `Lut3DNode`.,Mugen87,2024-07-01T11:34:18Z,2024-07-01T21:45:08+00:00,12,10.18,True,251,0,6,94,1,2,3,MERGED
+28773,TSL: Introduce `node.toTexture()` and `rtt()`,sunag,2024-06-30T23:57:17Z,2024-07-01T09:08:48+00:00,2,9.19,True,388,76,11,604,6,1,7,MERGED
+28770,Node: Add `FilmNode`.,Mugen87,2024-06-30T17:11:54Z,2024-06-30T21:52:38+00:00,10,4.68,True,68,24,5,223,3,5,8,MERGED
+28756,Texture: add setValues(),CodyJasonBennett,2024-06-28T04:43:52Z,2025-02-05T02:11:58+00:00,7,5325.47,False,72,24,8,159,1,2,3,CLOSED
+28755,Node: Add `DotScreenNode` and `RGBShiftNode`.,Mugen87,2024-06-27T19:08:58Z,2024-06-28T08:25:53+00:00,9,13.28,True,301,0,7,125,0,4,4,MERGED
+28753,"WebGPURenderer: BatchMesh support for Instanced rendering with sorting, frustum culling",RenaudRohlinger,2024-06-27T12:15:24Z,2024-06-29T07:56:15+00:00,14,43.68,True,138,23,11,566,7,6,13,MERGED
+28750,Docs: Improve `Material` page.,satelllte,2024-06-26T18:57:09Z,2024-06-27T08:53:26+00:00,3,13.94,True,1,1,1,112,0,1,1,MERGED
+28742,TSL: BufferAttributeNode - Fix setUsage on non-InterleavedBuffer,RenaudRohlinger,2024-06-25T13:34:19Z,2024-06-25T18:28:48+00:00,1,4.91,True,6,2,3,112,0,0,0,MERGED
+28741,WebGPURenderer: Improve performances for trackTimestamp in WebGPU,RenaudRohlinger,2024-06-25T09:51:09Z,2024-06-25T13:36:54+00:00,1,3.76,True,44,29,1,858,0,1,1,MERGED
+28738,Fix scrollbars in examples by updating CSS,SomeoneReal,2024-06-24T23:14:10Z,2024-07-05T09:31:48+00:00,1,250.29,False,233,239,1,818,2,1,3,CLOSED
+28726,WebGPURenderer: instance mesh use binding group instead of attribute,z4122,2024-06-23T16:00:13Z,2024-07-19T22:20:28+00:00,1,630.34,True,34,15,1,806,6,1,7,MERGED
+28725,OrbitControls: Ensure pointerdown is registered when another element was focused first,lukehorvat,2024-06-22T22:55:01Z,2024-07-09T09:39:19+00:00,1,394.74,False,162,9,4,1618,4,1,5,CLOSED
+28724,"Examples: replace  ""./jsm/""  in import statements to ""three/addon""",chirsz-ever,2024-06-22T18:24:08Z,2024-06-23T09:43:29+00:00,1,15.32,True,14,14,6,103,1,0,1,MERGED
+28705,WebGPURenderer: Introduce Bind Groups,sunag,2024-06-19T22:01:40Z,2024-06-21T17:41:06+00:00,2,43.66,True,366,187,19,387,2,3,5,MERGED
+28704,WebGPURenderer: optimize interleaved buffer update,z4122,2024-06-19T17:32:03Z,2024-06-20T02:04:07+00:00,1,8.53,True,28,5,1,87,1,0,1,MERGED
+28701,WebGPURenderer: Update attribute only when needed,RenaudRohlinger,2024-06-19T03:32:14Z,2024-06-19T15:31:54+00:00,2,11.99,True,30,4,4,593,2,1,3,MERGED
+28695,Add Camera Zoom Scaling for 2D Canvas Elements,Faultless,2024-06-18T13:31:57Z,2025-09-18T13:50:01+00:00,2,10968.3,False,10,2,1,184,2,2,4,CLOSED
+28694,Cleanup: Update references to BatchedMesh.maxGeometryCount,Methuselah96,2024-06-18T13:09:54Z,2024-06-18T18:18:56+00:00,2,5.15,True,17,17,6,173,1,1,2,MERGED
+28688,ViewHelper: Make label text and style configurable.,puxiao,2024-06-18T02:06:18Z,2024-06-21T08:20:44+00:00,3,78.24,True,51,2,1,913,0,1,1,MERGED
+28685,USDZLoader: throw error instead of warning,zaesur,2024-06-17T19:01:42Z,2024-06-18T07:11:08+00:00,2,12.16,True,2,14,1,263,0,1,1,MERGED
+28679,CompressedArrayTexture: Rename `addLayerUpdates` to `addLayerUpdate`.,HunterLarco,2024-06-17T15:03:42Z,2024-06-17T20:23:57+00:00,1,5.34,True,1,1,1,573,1,0,1,MERGED
+28670,WebGLUniforms: Assign `compareFunction` lazily to retain tree-shaking.,CodyJasonBennett,2024-06-16T15:52:16Z,2024-06-17T20:26:08+00:00,6,28.56,True,12,2,1,379,8,2,10,MERGED
+28669,TSL: Respect types in WGSL Layouts,RenaudRohlinger,2024-06-16T10:33:19Z,2024-06-17T16:14:24+00:00,1,29.68,True,55,33,2,335,6,10,16,MERGED
+28667,TSL: UniformNode Support Int/Uint,RenaudRohlinger,2024-06-16T09:15:56Z,2024-06-17T02:31:55+00:00,2,17.27,True,13,13,5,194,0,1,1,MERGED
+28666,TSL: UniformsNode support `int/uint`,RenaudRohlinger,2024-06-16T09:00:32Z,2024-06-17T02:01:37+00:00,1,17.02,True,1,0,1,394,3,1,4,MERGED
+28665,RFC: Multiple bindgroups for WebGPU - breaks WebGL currently,aardgoose,2024-06-15T20:34:44Z,2024-06-20T10:33:33+00:00,3,109.98,False,255,45,11,783,4,3,7,CLOSED
+28662,Example: Don't accumulate tiny translations in games_fps.html,ycw,2024-06-15T10:19:01Z,2024-06-15T11:22:05+00:00,4,1.05,True,5,1,1,428,0,1,1,MERGED
+28654,support all texture formats and types in `DataTextureArray.addLayerUpdate` and `CompressedTextureArray.addLayerUpdate`,HunterLarco,2024-06-13T23:23:28Z,2024-06-20T21:13:38+00:00,10,165.84,True,376,53,7,850,9,3,12,MERGED
+28653,GLTFExporter: export rendertarget,marwie,2024-06-13T20:46:14Z,2024-09-17T09:41:51+00:00,3,2292.93,False,38,3,3,621,2,3,5,CLOSED
+28650,WebGPURenderer: Build - `three.webgpu.js`,sunag,2024-06-13T18:45:15Z,2024-06-30T09:27:28+00:00,7,398.7,True,75320,1710,373,1908,12,2,14,MERGED
+28649,Add parseAsync to GLTFExporter doc,trusktr,2024-06-13T17:36:22Z,2024-06-13T20:36:20+00:00,1,3.0,True,17,6,1,144,0,0,0,MERGED
+28648,USDZLoader: Support quads as triangles.,Mugen87,2024-06-13T12:19:52Z,2024-06-13T15:05:09+00:00,2,2.75,True,70,2,1,109,0,1,1,MERGED
+28646,WebGPURenderer: Override alpha channel to 1 for opaque materials,RenaudRohlinger,2024-06-13T07:41:39Z,2024-06-13T13:59:09+00:00,1,6.29,True,7,1,1,164,2,0,2,MERGED
+28641,BatchedMesh: Avoid primitive restart values in index array,donmccurdy,2024-06-12T21:04:48Z,2024-06-14T08:57:35+00:00,1,35.88,True,2,1,1,169,3,0,3,MERGED
+28638,"BatchedMesh: Implemented optimize, deleteGeometry and deleteInstance …",Shakhriddin,2024-06-12T09:44:01Z,2024-10-23T21:05:55+00:00,1,3203.36,False,433,136,2,3543,17,1,18,CLOSED
+28636,Editor: Publish app as NPM package,ycw,2024-06-12T08:31:45Z,2025-01-14T10:54:18+00:00,4,5186.38,False,54,31,3,382,1,1,2,CLOSED
+28629,Editor: Makes duplicate shortcut keys impossible,ycw,2024-06-11T20:38:17Z,2024-06-26T08:49:44+00:00,1,348.19,False,35,0,1,342,0,1,1,CLOSED
+28627,Editor: Removes `<!-- includes -->` replacement code when emits app,ycw,2024-06-11T19:19:01Z,2024-06-11T22:11:14+00:00,3,2.87,True,0,4,1,122,0,1,1,MERGED
+28624,Editor: Refreshs Geometry UI only if needed,ycw,2024-06-11T18:44:06Z,2024-06-12T08:41:36+00:00,1,13.96,True,155,17,17,367,0,0,0,MERGED
+28620,WebGPURenderer: Allow using StorageBuffer directly as attribute in nodes,RenaudRohlinger,2024-06-11T08:12:50Z,2024-06-11T16:07:00+00:00,1,7.9,True,9,1,1,309,0,0,0,MERGED
+28619,docs:translation import error,mmjinglin163,2024-06-11T03:55:57Z,2024-06-11T14:18:54+00:00,5,10.38,True,1,1,1,38,0,1,1,MERGED
+28615,WebGPURenderer: Add Enable Directive/Enable-Extension Support,cmhhelgeson,2024-06-10T21:13:02Z,2024-07-18T19:00:49+00:00,5,909.8,True,55,1,2,1666,2,2,4,MERGED
+28614,Editor: Disposes object's helper when removing helper,ycw,2024-06-10T20:42:53Z,2024-06-10T22:00:51+00:00,2,1.3,True,1,0,1,220,0,1,1,MERGED
+28613,Editor: Syncs VertexNormalHelper with geometry,ycw,2024-06-10T19:12:21Z,2024-06-10T22:03:20+00:00,1,2.85,True,11,0,1,192,0,0,0,MERGED
+28612,"Editor: Fixed wrong UI element for ""Cap Seg""",ycw,2024-06-10T18:38:12Z,2024-06-10T22:01:58+00:00,1,3.4,True,1,1,1,115,0,0,0,MERGED
+28611,Editor: UIPoints honors UNDO/REDO  ,ycw,2024-06-10T18:16:11Z,2024-06-18T08:31:20+00:00,9,182.25,False,33,8,3,405,1,4,5,CLOSED
+28602,Editor: Enhance SetValueCommand to support nested attributeName,ycw,2024-06-10T11:56:58Z,2024-06-10T14:26:43+00:00,2,2.5,False,41,7,2,1424,1,1,2,CLOSED
+28596,WebGPURenderer: remove redundant check for instance support,aardgoose,2024-06-10T08:33:18Z,2024-06-10T14:25:53+00:00,1,5.88,True,1,3,3,88,0,0,0,MERGED
+28590,Docs: Fix broken link in `Useful-links`.,YasharSL,2024-06-09T13:54:58Z,2024-06-09T22:22:53+00:00,3,8.47,True,9,9,9,214,0,1,1,MERGED
+28585,TSL: Introduces cache hierarchy,sunag,2024-06-08T03:43:34Z,2024-06-10T03:49:56+00:00,1,48.11,True,96,55,17,209,3,1,4,MERGED
+28584,WebGLRenderer: Add support for changing the assigned render target depth texture,gkjohnson,2024-06-08T00:43:44Z,2024-08-05T10:04:45+00:00,8,1401.35,True,90,4,3,836,8,3,11,MERGED
+28580,WebGPURenderer: RectAreaLight support,aardgoose,2024-06-07T13:00:36Z,2024-06-11T01:08:09+00:00,1,84.13,True,422,4,11,139,2,1,3,MERGED
+28578,WebGPURenderer: hardware clipping support.,aardgoose,2024-06-07T11:14:41Z,2024-11-06T17:50:58+00:00,1,3654.6,True,187,26,9,247,2,0,2,MERGED
+28577,TSL: Added type conversions to WGSLNodeFunction and fleshed out precision.,cmhhelgeson,2024-06-07T00:59:38Z,2024-06-10T04:06:33+00:00,1,75.12,True,49,6,1,1290,0,1,1,MERGED
+28571,WebGLRenderer: Sort objects in clip space.,eiriklegernaes,2024-06-06T07:27:47Z,2024-06-06T15:16:54+00:00,3,7.82,True,41,7,4,247,3,1,4,MERGED
+28566,Docs: EdgeSplitModifier translation,appache163,2024-06-06T01:59:13Z,2024-06-06T09:53:53+00:00,1,7.91,False,72,0,2,31,0,1,1,CLOSED
+28564,Examples: Remove broken iCCP chunks in some PNG files.,chirsz-ever,2024-06-05T18:41:02Z,2024-06-08T09:22:08+00:00,1,62.69,True,0,0,2,202,5,0,5,MERGED
+28560,GLTFLoader: Use `ImageBitmapLoader` in for Safari >= 17.,paugit,2024-06-05T11:11:43Z,2024-06-15T11:39:38+00:00,1,240.47,True,3,1,1,585,5,0,5,MERGED
+28555,RenderTransitionPass: Simplify `render()`.,Mugen87,2024-06-04T10:17:48Z,2024-06-05T09:06:17+00:00,2,22.81,True,16,41,2,136,0,2,2,MERGED
+28545,Docs:Sky translate document into Chinese,appache163,2024-06-03T10:10:58Z,2024-06-04T01:25:08+00:00,1,15.24,False,0,0,0,28,0,1,1,CLOSED
+28544,WebGLRenderer: Add .setLookCDL(),donmccurdy,2024-06-03T02:11:00Z,2025-07-09T00:32:54+00:00,1,9622.36,False,40,5,4,6339,13,1,14,CLOSED
+28543,New Material Type For Threejs ,ManishJu,2024-06-02T19:03:43Z,2024-08-01T11:27:20+00:00,5,1432.39,False,871,544,22,501,7,3,10,CLOSED
+28540,Examples: Clean up.,linbingquan,2024-06-01T15:44:45Z,2024-06-03T09:19:13+00:00,2,41.57,True,11,13,1,42,0,1,1,MERGED
+28534,Object3D: matrixNeedsUpdate and matrix/orientation optimizations,CodyJasonBennett,2024-06-01T03:59:37Z,2025-02-05T02:11:54+00:00,4,5974.2,False,429,585,18,3646,3,4,7,CLOSED
+28533,Object3D: Respect matrixWorldAutoUpdate in matrix update methods,CodyJasonBennett,2024-06-01T00:28:54Z,2024-06-04T10:01:34+00:00,4,81.54,True,25,24,2,715,9,2,11,MERGED
+28531,WebGPURenderer: Read-Only and Read-Write Storage Textures Access support in TSL,RenaudRohlinger,2024-05-31T06:10:05Z,2025-04-11T03:39:47+00:00,3,7557.49,False,44,21,4,747,1,1,2,CLOSED
+28529,docs: add docs for the Sky object instance,JaimeTorrealba,2024-05-30T15:36:12Z,2024-05-31T10:52:58+00:00,4,19.28,True,93,1,2,74,0,2,2,MERGED
+28527,Don't draw points when using a material that doesn't support points,Oletus,2024-05-30T12:12:39Z,2024-06-01T09:03:46+00:00,4,44.85,False,33,0,3,405,8,1,9,CLOSED
+28523,WebGPURenderer: fix rendering to depth textures with multiple color attachments (MRT - WGSL),aardgoose,2024-05-29T13:29:49Z,2024-05-30T00:01:10+00:00,2,10.52,True,19,9,3,370,1,1,2,MERGED
+28518,Editor: Alerts if invalid material found when rendering image in REALISTIC,ycw,2024-05-28T17:53:36Z,2024-06-03T09:18:50+00:00,5,135.42,True,49,7,2,388,0,2,2,MERGED
+28516,docs: Add EdgeSplitModifier docs,JaimeTorrealba,2024-05-28T15:29:45Z,2024-05-29T06:01:24+00:00,1,14.53,True,71,0,2,220,0,0,0,MERGED
+28515,FBXLoader: Support more texture formats.,catalin-enache,2024-05-28T14:32:08Z,2024-06-01T11:16:24+00:00,15,92.74,True,40,50,2,163,0,2,2,MERGED
+28511,TSL: UVNode - Move to TSL approach,sunag,2024-05-28T01:55:45Z,2024-05-28T03:05:46+00:00,3,1.17,True,17,61,5,70,0,1,1,MERGED
+28499,Editor: Shows status in popup when rendering video,ycw,2024-05-27T15:29:31Z,2024-05-28T08:36:19+00:00,4,17.11,True,61,17,1,248,0,1,1,MERGED
+28498,Editor: Ensures that video dimensions are divisible by 2 (requirement of libx264),ycw,2024-05-27T13:55:42Z,2024-05-28T05:30:41+00:00,2,15.58,True,10,2,1,137,1,1,2,MERGED
+28497,"Editor: Uses proper units for `CircleGeometry`, `RingGeometry` and `TorusGeometry` params in GEOMETRY tab",ycw,2024-05-27T13:35:15Z,2024-05-27T15:03:09+00:00,1,1.47,True,5,5,3,25,0,0,0,MERGED
+28495,WebGPURenderer: Pipelines - Clean up.,Methuselah96,2024-05-27T03:29:11Z,2024-05-27T18:33:44+00:00,3,15.08,True,4,2,2,67,0,3,3,MERGED
+28489,Editor: Added User Data input in GEOMETRY tab,ycw,2024-05-25T10:29:07Z,2024-05-25T14:08:36+00:00,1,3.66,True,54,1,2,111,5,0,5,MERGED
+28485,Editor: Fixed bouncy view in sidebar caused by `scrollIntoView()`,ycw,2024-05-24T09:28:33Z,2024-05-27T05:24:06+00:00,2,67.93,True,20,4,2,852,0,0,0,MERGED
+28479,Editor: Fixed mismatched UITabs scrollbar background color in dark mode,ycw,2024-05-24T06:50:51Z,2024-05-24T11:35:21+00:00,1,4.74,True,1,1,1,246,0,0,0,MERGED
+28478,Update WebGLRenderer.html,sundaramseth,2024-05-24T06:41:21Z,2024-05-24T09:13:42+00:00,1,2.54,True,1,1,1,165,0,1,1,MERGED
+28474,Fix sorting for objects with positive view z,eiriklegernaes,2024-05-23T12:05:37Z,2024-06-06T06:54:23+00:00,6,330.81,True,5,5,1,513,17,1,18,MERGED
+28472,Editor: Set shortcut keys' `pointer-events` to `none`,ycw,2024-05-23T10:55:09Z,2024-05-24T00:47:47+00:00,1,13.88,True,1,0,1,257,0,0,0,MERGED
+28471,Editor: Added translation for script title,ycw,2024-05-23T10:44:00Z,2024-05-23T14:16:31+00:00,3,3.54,True,23,6,2,72,0,1,1,MERGED
+28467,Editor: Fixed sidebar glitch via h scrollable,ycw,2024-05-23T07:19:48Z,2024-05-24T06:20:23+00:00,3,23.01,True,32,1,3,299,0,1,1,MERGED
+28463,Editor: Added REALISTIC shading support for video rendering,ycw,2024-05-22T20:31:25Z,2024-09-16T09:13:44+00:00,5,2796.71,False,188,51,2,207,5,1,6,CLOSED
+28462,"BatchedMesh: Add support for Instanced rendering with sorting, frustum culling",gkjohnson,2024-05-22T13:51:36Z,2024-06-02T00:39:58+00:00,1,250.81,True,226,230,9,3375,6,2,8,MERGED
+28460,"DepthTexture: Update depth + stencil textures to work with multi sample RTT, make formats consistent",gkjohnson,2024-05-22T11:21:29Z,2024-05-22T13:53:40+00:00,4,2.54,True,78,82,3,1138,1,1,2,MERGED
+28456,Docs: Update BatchedMesh with addInstance docs,gkjohnson,2024-05-21T23:50:36Z,2024-06-02T00:40:10+00:00,9,264.83,True,61,45,1,427,0,8,8,MERGED
+28455,WebGPURenderer: Read Only and Read/Write Storage Textures,cmhhelgeson,2024-05-21T22:57:13Z,2024-05-29T17:02:37+00:00,3,186.09,True,96,31,7,2235,10,2,12,MERGED
+28451,WebGPURenderer: Fix shadow layers,sunag,2024-05-21T15:47:27Z,2024-05-22T01:42:40+00:00,2,9.92,True,2,1,1,146,0,1,1,MERGED
+28448,Editor: Added REALISTIC shading support for image rendering,ycw,2024-05-21T08:22:59Z,2024-05-21T13:16:47+00:00,2,4.9,True,56,15,2,353,0,1,1,MERGED
+28441,#28440 Fixed BufferGeometryUtils.mergeVertices to handle morphAttributes,catalin-enache,2024-05-20T09:39:45Z,2024-05-24T09:08:51+00:00,17,95.48,True,83,17,4,132,1,5,6,MERGED
+28435,WebGPURenderer: Read/Write Only Storage Buffer Creation,cmhhelgeson,2024-05-20T03:55:58Z,2024-06-25T19:06:17+00:00,1,879.17,True,71,28,10,93,8,1,9,MERGED
+28434,WebGLRenderer: Fix incorrect background color space when setting scene.background to color,gkjohnson,2024-05-20T02:00:25Z,2024-05-20T10:10:56+00:00,12,8.18,True,10,5,2,567,4,4,8,MERGED
+28432,Editor: Added samples info for REALISTIC shading,ycw,2024-05-19T20:22:32Z,2024-05-22T12:29:48+00:00,9,64.12,True,55,2,6,236,6,2,8,MERGED
+28427,Layers: add recursive property,CodyJasonBennett,2024-05-19T11:04:09Z,2024-06-08T10:19:53+00:00,13,479.26,False,157,33,14,362,4,3,7,CLOSED
+28425,Editor: Fixed wrong aspect ratio for non default cameras on window resize,ycw,2024-05-19T09:05:11Z,2024-05-20T07:16:21+00:00,5,22.19,True,13,2,1,350,0,1,1,MERGED
+28424,Editor: Submenu title should ignore active state,ycw,2024-05-19T06:44:41Z,2024-05-19T08:35:40+00:00,1,1.85,True,1,1,1,398,0,0,0,MERGED
+28419,Examples: Fix argument passed to copyTextureToTexture,Methuselah96,2024-05-18T17:08:26Z,2024-05-19T08:30:13+00:00,1,15.36,True,1,1,1,148,0,0,0,MERGED
+28418,WebGPURenderer: support using 3d textures in shaders with texture3d() and add VolumeNodeMaterial() and examples.,aardgoose,2024-05-18T15:03:56Z,2024-05-21T15:57:39+00:00,4,72.9,True,642,12,17,407,4,3,7,MERGED
+28416,BatchedMesh: default setColorAt to white,gkjohnson,2024-05-18T08:13:12Z,2024-05-18T10:40:43+00:00,1,2.46,True,13,1,1,205,1,0,1,MERGED
+28415,Document `InstancedMesh` multi-material support.,finnbear,2024-05-18T06:12:45Z,2024-05-20T18:35:33+00:00,1,60.38,True,3,3,1,157,0,0,0,MERGED
+28413,Editor: Fixed script editor title out-of-sync,ycw,2024-05-17T20:05:41Z,2024-05-18T09:01:07+00:00,3,12.92,True,22,2,2,340,0,1,1,MERGED
+28411,SortUtils: fix termination condition & enforce unsigned value,sciecode,2024-05-17T19:07:56Z,2024-05-19T08:31:43+00:00,1,37.4,True,8,5,1,457,2,0,2,MERGED
+28405,Editor: Fix persistent history.,Mugen87,2024-05-17T11:26:27Z,2024-05-17T17:10:32+00:00,1,5.73,True,116,75,23,633,5,1,6,MERGED
+28404,"BatchedMesh: Add support for Instanced rendering with sorting, frustum culling",gkjohnson,2024-05-17T10:39:26Z,2024-05-22T09:13:22+00:00,1,118.57,True,224,218,9,3444,19,0,19,MERGED
+28400,WebGPURenderer: Read Only Storage Buffer Creation,cmhhelgeson,2024-05-16T22:42:11Z,2024-05-20T02:47:17+00:00,4,76.08,False,1084,1011,61,1959,1,2,3,CLOSED
+28397,FBXLoader: Fixed morph attributes to match base geometry length,catalin-enache,2024-05-16T11:26:42Z,2024-05-20T07:29:51+00:00,8,92.05,True,114,38,3,874,2,1,3,MERGED
+28393,CSS2D/3DRenderer: Make the code more reasonable.,lafflan,2024-05-16T03:20:07Z,2024-05-16T12:44:30+00:00,1,9.41,True,20,11,2,148,5,0,5,MERGED
+28391,upgrade tween.module.js to 23.1.2,linbingquan,2024-05-16T02:12:09Z,2024-05-16T08:28:16+00:00,1,6.27,True,75,64,1,51,1,0,1,MERGED
+28380,Added Lines Segments Example,eduardfossas,2024-05-14T19:48:41Z,2024-05-14T21:06:24+00:00,1,1.3,False,130,0,7,375,2,1,3,CLOSED
+28379,Examples: WebGPU WGSL/TSL Node Interoperability,cmhhelgeson,2024-05-14T18:47:40Z,2024-06-11T01:45:26+00:00,4,654.96,True,303,0,4,348,3,6,9,MERGED
+28375,Change CurveModifier splineTexture filtering to Linear for smoother path,manthrax,2024-05-14T05:25:54Z,2024-05-14T08:38:25+00:00,1,3.21,True,2,2,1,900,5,0,5,MERGED
+28373,Editor: update Sidebar.Geometry.ExtrudeGeometry.js,linbingquan,2024-05-14T03:39:05Z,2024-05-14T14:18:18+00:00,2,10.65,True,52,33,1,260,2,1,3,MERGED
+28369,WebGPURenderer: fix createBindGroup warnings when use videoTexture in webgpu mode [Draft],z4122,2024-05-13T16:23:16Z,2024-07-17T03:03:36+00:00,2,1546.67,False,36,11,2,530,5,1,6,CLOSED
+28366,DataTextureLoader: Simplify default value for texData.,linbingquan,2024-05-13T14:07:49Z,2024-05-16T07:49:31+00:00,4,65.69,False,13,5,1,51,1,1,2,CLOSED
+28365,ExtrudeGeometry: Simplify default value for ExtrudeGeometry options.,linbingquan,2024-05-13T13:25:02Z,2024-05-16T07:49:16+00:00,6,66.4,False,16,13,1,51,1,1,2,CLOSED
+28364,Editor: Use generated list for File>Import `accept` ,ycw,2024-05-13T13:04:46Z,2024-05-13T14:06:44+00:00,1,1.03,True,2,1,1,116,2,0,2,MERGED
+28363,USDZExporter: Make including anchoring properties optional.,vincentfretin,2024-05-13T12:28:21Z,2024-05-15T09:18:03+00:00,9,44.83,True,6,4,1,772,2,2,4,MERGED
+28358,Editor: Fixed sidebar glitches,ycw,2024-05-13T08:00:40Z,2024-05-24T06:20:41+00:00,3,262.33,False,81,11,5,1127,3,1,4,CLOSED
+28357,Editor: Fixed TODO: Bind lexical this ,ycw,2024-05-13T04:40:55Z,2024-05-13T08:35:32+00:00,1,3.91,True,2,4,1,956,0,0,0,MERGED
+28352,Editor: Fixed submenu disappear for narrow screen,ycw,2024-05-12T18:09:51Z,2024-05-13T08:34:22+00:00,1,14.41,True,1,0,1,367,0,0,0,MERGED
+28351,Editor: Added Save and Open,ycw,2024-05-12T17:41:58Z,2024-05-15T09:17:15+00:00,1,63.59,True,92,1,2,348,2,0,2,MERGED
+28347,WebGPURenderer: RenderBundle,RenaudRohlinger,2024-05-12T13:49:58Z,2024-05-23T23:32:38+00:00,2,273.71,True,603,17,10,851,18,10,28,MERGED
+28345,Editor: Fixed recovery system,ycw,2024-05-12T12:00:27Z,2024-05-18T08:50:39+00:00,1,140.84,False,239,135,23,5855,5,1,6,CLOSED
+28343,Examples: Remove need for manually assigning Line2 material resolution,gkjohnson,2024-05-12T00:02:57Z,2024-05-14T21:11:15+00:00,7,69.14,True,32,36,6,249,17,2,19,MERGED
+28342,Editor: import images as planes,linbingquan,2024-05-11T22:28:53Z,2024-05-17T09:41:51+00:00,10,131.22,False,97,0,2,51,13,4,17,CLOSED
+28340,Editor: set filename for svg,linbingquan,2024-05-11T22:00:50Z,2024-05-12T08:37:30+00:00,1,10.61,True,1,0,1,51,0,0,0,MERGED
+28339,Editor: Avoid `SetSceneCommnd` when importing file,ycw,2024-05-11T20:02:55Z,2024-05-15T09:23:11+00:00,4,85.34,True,2,11,1,1441,3,1,4,MERGED
+28337,Editor: Fixed camera UUID lost when recovering,ycw,2024-05-11T19:27:44Z,2024-05-13T08:28:31+00:00,3,37.01,True,9,0,1,460,0,1,1,MERGED
+28334,I have changed the new PMREMGenerator and the associated PMREMNode,Spiri0,2024-05-11T01:01:51Z,2024-06-06T05:14:27+00:00,8,628.21,False,101,19,4,672,13,4,17,CLOSED
+28332,Editor: Fixed Undo/Redo are both active when history is empty ,ycw,2024-05-10T13:17:00Z,2024-05-10T14:45:36+00:00,1,1.48,True,5,2,1,646,0,0,0,MERGED
+28330,CSS2DRenderer: Just traverse visible object.,lafflan,2024-05-10T09:28:16Z,2024-05-10T10:38:11+00:00,4,1.17,True,2,1,1,19,0,1,1,MERGED
+28324,Editor: Exposed supported formats in Loader.js;,ycw,2024-05-09T17:19:36Z,2024-05-13T12:52:28+00:00,3,91.55,True,458,531,1,1428,13,1,14,MERGED
+28315,WebGPURenderer: copyTextureToTexture subframe upload and new API,RenaudRohlinger,2024-05-08T09:49:09Z,2024-05-08T16:14:40+00:00,1,6.43,True,71,11,4,136,2,0,2,MERGED
+28314,SkeletonHelper: add optional AxesHelpers for each bone,trusktr,2024-05-08T08:48:13Z,2024-10-24T11:15:17+00:00,12,4058.45,False,54,11,9,491,7,3,10,CLOSED
+28309,Editor: Fixed camera name is always 'Camera' when recovering from indexedDB,ycw,2024-05-07T18:27:40Z,2024-05-07T21:20:55+00:00,3,2.89,True,2,0,1,820,0,1,1,MERGED
+28300,Editor: Fixed uncaught exception when environment/background combination is illegal,ycw,2024-05-06T23:16:26Z,2024-05-07T13:26:02+00:00,3,14.16,True,23,4,2,839,2,1,3,MERGED
+28295,Editor: Alerts if File>Import failed,ycw,2024-05-06T08:56:03Z,2024-05-08T15:05:08+00:00,5,54.15,False,352,427,2,267,2,1,3,CLOSED
+28293,CSS2D/3DRenderer: Ensure `Object3D.visible` is correctly evaluated in object hierarchies.,lafflan,2024-05-06T06:54:31Z,2024-05-09T18:19:29+00:00,4,83.42,True,35,4,2,184,13,1,14,MERGED
+28292,Editor: Fixed assets lost when importing zipped OBJ/MTL,ycw,2024-05-06T06:44:33Z,2024-05-08T10:55:20+00:00,10,52.18,True,21,19,1,208,1,3,4,MERGED
+28291,"WebGLRenderer: Add ""readRenderTargetPixelsAsync"" function",gkjohnson,2024-05-06T05:17:57Z,2024-05-07T09:02:48+00:00,3,27.75,True,137,18,4,1466,3,1,4,MERGED
+28289,WebGPURenderer: Fix SampledTexture not correctly bound,RenaudRohlinger,2024-05-06T02:19:08Z,2024-05-08T16:21:25+00:00,3,62.04,True,4,18,3,613,5,1,6,MERGED
+28288,KeyframeTrack: Improve docs and subtype ctors.,trusktr,2024-05-05T17:59:13Z,2024-05-07T08:40:39+00:00,3,38.69,True,40,28,11,254,3,1,4,MERGED
+28287,Editor: Hides irrelevant tabs for better ux,ycw,2024-05-05T17:21:39Z,2024-05-09T04:06:28+00:00,2,82.75,True,64,0,3,390,3,1,4,MERGED
+28285,WebGLRenderer: Add `initRenderTarget()`.,gkjohnson,2024-05-05T14:20:42Z,2024-05-07T10:51:40+00:00,3,44.52,True,10,0,1,343,1,1,2,MERGED
+28284,Editor: Improve menubar visual,ycw,2024-05-05T13:44:45Z,2024-05-07T23:21:42+00:00,2,57.62,False,23,12,1,504,6,1,7,CLOSED
+28281,"WebGLRenderer: Enable subframe upload in copyTextureToTexture, align API to 3d version",gkjohnson,2024-05-04T15:44:20Z,2024-05-07T10:17:23+00:00,13,66.55,True,143,35,4,2370,9,6,15,MERGED
+28278,LoaderUtils: Deprecate `decodeText()`.,ycw,2024-05-04T11:23:09Z,2024-05-06T08:54:16+00:00,8,45.52,True,3,1,1,348,1,2,3,MERGED
+28277,Editor: Fixed ghost viewport camera,ycw,2024-05-04T10:04:49Z,2024-05-06T12:46:38+00:00,5,50.7,True,9,1,1,549,0,2,2,MERGED
+28276,Fixed mismatch `.type` in SetMaterialVectorCommand.js,ycw,2024-05-03T22:33:16Z,2024-05-04T08:41:07+00:00,1,10.13,True,1,1,1,11,0,0,0,MERGED
+28275,Editor: Fixed non-localized history entries,ycw,2024-05-03T22:20:03Z,2024-05-04T10:27:43+00:00,6,12.13,True,115,23,24,291,0,1,1,MERGED
+28273,Editor: use FullScreenQuad for UITexture,linbingquan,2024-05-03T14:12:35Z,2024-05-04T09:01:38+00:00,1,18.82,True,10,10,1,51,0,0,0,MERGED
+28270,Editor: Fixed object changes out-of-sync with outliner options,ycw,2024-05-03T11:24:59Z,2024-05-06T08:46:01+00:00,1,69.35,True,24,10,1,603,0,0,0,MERGED
+28268,WebGPURenderer: update sampler bindings on texture change,aardgoose,2024-05-03T07:41:20Z,2024-05-03T22:39:21+00:00,3,14.97,True,10,0,2,418,1,1,2,MERGED
+28263,Editor: Fixed outliner option out of sync with object name,ycw,2024-05-03T03:14:08Z,2024-05-03T10:45:13+00:00,4,7.52,False,3,5,1,221,3,1,4,CLOSED
+28262,Editor: No pollute Number's prototype,ycw,2024-05-02T22:43:07Z,2024-05-03T11:10:07+00:00,1,12.45,True,15,14,5,178,0,0,0,MERGED
+28260,Editor: Fixed non-localized prompt messages,ycw,2024-05-02T20:53:53Z,2024-05-03T11:09:55+00:00,3,14.27,True,43,11,7,541,0,1,1,MERGED
+28259,WebGPURenderer: MeshMatcapNodeMaterial,aardgoose,2024-05-02T19:27:14Z,2024-05-03T03:57:08+00:00,1,8.5,True,332,0,5,8,0,1,1,MERGED
+28256,TransformControls: Make events more coherent.,s-rigaud,2024-05-01T19:19:28Z,2024-05-02T08:29:56+00:00,1,13.17,True,1,1,1,139,0,0,0,MERGED
+28255,BatchedMesh: add getColorAt and setColorAt,Kikedao,2024-05-01T18:13:59Z,2024-05-17T08:33:14+00:00,18,374.32,True,150,3,11,294,4,6,10,MERGED
+28254,Editor: Initialize UIs in user preferred language on the first run,ycw,2024-05-01T17:42:39Z,2024-05-02T08:30:57+00:00,1,14.8,True,5,1,1,363,0,0,0,MERGED
+28253,Editor: Fixed unreadable text in viewport,ycw,2024-05-01T16:16:47Z,2024-05-02T08:30:11+00:00,1,16.22,True,1,1,1,133,0,0,0,MERGED
+28251,Editor: Fixed ghost background and environment issue in a `New`-ed app,ycw,2024-05-01T15:25:39Z,2024-05-02T08:30:20+00:00,1,17.08,True,3,0,1,571,0,0,0,MERGED
+28248,Editor: Fixed outliner's low contrast issue in dark theme,ycw,2024-05-01T02:26:42Z,2024-05-02T08:30:35+00:00,1,30.06,True,4,1,1,325,0,0,0,MERGED
+28245,Editor: Fixed units ignore plural rules issue,ycw,2024-04-30T17:40:07Z,2024-05-02T08:30:47+00:00,1,38.84,True,31,4,2,182,0,0,0,MERGED
+28242,WebGLExtensions: Use warnOnce to report unsupported extensions,vanruesc,2024-04-30T12:36:46Z,2024-04-30T17:12:29+00:00,1,4.6,True,3,1,1,356,1,0,1,MERGED
+28237,WebGPURenderer: implement ClippingGroup object,aardgoose,2024-04-29T10:59:54Z,2024-11-04T22:29:38+00:00,2,4547.5,True,233,258,13,401,9,1,10,MERGED
+28236,Examples: More usage of `setAnimationLoop()`.,Mugen87,2024-04-29T09:28:31Z,2024-04-29T22:05:50+00:00,2,12.62,True,156,355,50,281,0,1,1,MERGED
+28235,WebGPURenderer: MeshToonNodeMaterial,aardgoose,2024-04-29T08:32:23Z,2024-05-03T22:47:01+00:00,3,110.24,True,296,0,6,142,0,3,3,MERGED
+28222,Update GLTFExporter.js,RemusMar,2024-04-25T20:52:46Z,2024-04-26T05:59:08+00:00,1,9.11,True,1,1,1,60,2,0,2,MERGED
+28221,Editor: Export JSON = Download,ycw,2024-04-25T19:40:14Z,2024-05-13T14:25:01+00:00,1,426.75,True,3,14,3,191,2,1,3,MERGED
+28216,FileLoader: Make sure all network errors are catched in `load()`.,ycw,2024-04-25T09:06:13Z,2024-04-27T18:05:12+00:00,9,56.98,True,4,0,1,248,1,1,2,MERGED
+28211,Examples: Added `webgpu_multiple_rendertargets_readback`,Spiri0,2024-04-24T15:59:12Z,2024-04-25T15:08:28+00:00,10,23.15,True,256,1,4,299,9,4,13,MERGED
+28207,Examples: Rename webgl_postprocessing_crossfade to webgl_postprocessi…,linbingquan,2024-04-24T11:15:11Z,2024-04-24T12:18:04+00:00,1,1.05,True,4,4,6,64,0,0,0,MERGED
+28198,Create webgpu_mrt_readback.html,Spiri0,2024-04-23T14:40:08Z,2024-04-24T16:53:17+00:00,2,26.22,False,249,0,1,214,3,2,5,CLOSED
+28197,WebGPURenderer: Allow specifying texture index for MRT in `readRenderTargetPixelsAsync()`.  ,Spiri0,2024-04-23T11:05:02Z,2024-04-23T23:15:09+00:00,2,12.17,True,2,2,1,356,9,1,10,MERGED
+28195,Editor: use importmap for `app/index.html`,linbingquan,2024-04-23T02:23:14Z,2024-04-23T18:30:06+00:00,1,16.11,True,8,1,1,204,2,0,2,MERGED
+28194,WebGLShadowMap: Clean up,linbingquan,2024-04-23T02:15:36Z,2024-04-23T08:17:30+00:00,1,6.03,True,25,25,1,136,1,0,1,MERGED
+28192,WebGPUBackend: Allows the device to be created externally,chirsz-ever,2024-04-22T20:01:09Z,2024-04-23T08:20:15+00:00,1,12.32,True,1,1,1,180,2,0,2,MERGED
+28190,OrbitControls: Apply Object's up in runtime,z4122,2024-04-22T15:46:44Z,2024-04-23T16:11:40+00:00,5,24.42,False,8,4,1,363,2,2,4,CLOSED
+28187,Editor: add RectAreaLight,linbingquan,2024-04-22T11:15:39Z,2024-05-18T08:51:19+00:00,2,621.59,False,133,2,8,116,6,1,7,CLOSED
+28179,"Adding red, green, blue field support to the binary, and ascii pcd lo…",meyerjo,2024-04-21T19:30:48Z,2024-04-29T07:53:31+00:00,4,180.38,False,32,1,1,284,5,1,6,CLOSED
+28174,Examples: Add transition effect.,linbingquan,2024-04-21T16:00:44Z,2024-04-23T16:17:41+00:00,5,48.28,True,328,262,2,124,8,2,10,MERGED
+28172,Examples: add resize event for `webgl_postprocessing_crossfade.html`,linbingquan,2024-04-21T01:43:28Z,2024-04-21T08:35:27+00:00,1,6.87,True,18,0,1,89,0,0,0,MERGED
+28171,Examples: use FullScreenQuad for `webgl_postprocessing_crossfade.html`,linbingquan,2024-04-21T01:32:02Z,2024-04-21T08:33:25+00:00,1,7.02,True,3,11,1,91,1,0,1,MERGED
+28170,RenderTarget: Add `resolveDepthBuffer`.,Mugen87,2024-04-20T13:30:58Z,2024-04-20T21:50:32+00:00,6,8.33,True,41,15,8,535,1,1,2,MERGED
+28167,NodeMaterial: Remove `WebGLNodeBuilder`,sunag,2024-04-19T23:57:37Z,2024-04-20T20:15:57+00:00,1,20.31,True,31,3064,46,251,0,0,0,MERGED
+28162,VRMLLoader: Make sure rotation axis is normalized.,vorth,2024-04-19T16:29:53Z,2024-04-19T18:27:53+00:00,1,1.97,True,1,1,1,279,0,0,0,MERGED
+28155,WebGPURenderer: support `specularColorMap`,susiwen8,2024-04-18T14:37:57Z,2024-04-22T17:47:40+00:00,6,99.16,True,23,9,4,29,0,2,2,MERGED
+28147,CCDIKSolver: Allow specifying sphere size in `createHelper()`.,Psychpsyo,2024-04-16T15:15:52Z,2024-04-17T08:39:08+00:00,1,17.39,True,4,2,1,250,0,0,0,MERGED
+28146,WebGPURenderer: Fix receiveShadow and introduce shadowPositionNode,RenaudRohlinger,2024-04-16T13:35:43Z,2024-04-17T02:48:52+00:00,1,13.22,True,32,5,6,1074,2,1,3,MERGED
+28132,WebGLRenderer: Discard depth after rendering to transmissionRenderTarget,mrxz,2024-04-13T14:19:23Z,2024-04-13T23:43:56+00:00,1,9.41,True,78,58,2,739,6,0,6,MERGED
+28127,Improve Texture documentation,ArthurSangouard,2024-04-12T15:53:23Z,2024-04-15T09:31:34+00:00,1,65.64,False,1,1,1,149,0,1,1,CLOSED
+28126,PhysicalMaterial: remove `USE_SPECULAR`,susiwen8,2024-04-12T15:04:50Z,2024-04-14T02:15:38+00:00,7,35.18,False,11,25,2,52,1,1,2,CLOSED
+28118,WebGLBackground: Split adding to render list and clearing of buffers,mrxz,2024-04-11T15:32:31Z,2024-04-13T08:25:29+00:00,5,40.88,True,29,12,2,3110,1,2,3,MERGED
+28116,Octree: Add `layers` property for filtering objects.,RemusMar,2024-04-11T13:47:52Z,2024-04-11T18:29:24+00:00,1,4.69,True,7,1,1,397,4,0,4,MERGED
+28114,Line: Honor last segment of `LineLoop` in `raycast()`.,zoeeer,2024-04-11T11:12:18Z,2024-04-17T08:37:19+00:00,3,141.42,True,66,43,1,245,2,1,3,MERGED
+28113,WebGLRenderer: Track camera per render state.,Mugen87,2024-04-11T09:55:14Z,2024-04-11T15:09:24+00:00,4,5.24,True,24,42,6,374,1,1,2,MERGED
+28105,docs: remove `THREE.` prefix from several addon uses,0b5vr,2024-04-10T04:58:19Z,2024-04-10T08:18:54+00:00,1,3.34,True,15,15,9,249,0,0,0,MERGED
+28103,BatchedMesh: Add getInstanceCount/setInstanceCount methods for instanced multi-draw,CodyJasonBennett,2024-04-09T17:41:21Z,2024-04-15T09:32:57+00:00,4,135.86,True,158,12,8,2416,14,1,15,MERGED
+28099,GLTFExporter: Fix missing clearcoat normal map scale.,Mugen87,2024-04-09T14:55:43Z,2024-04-10T05:24:50+00:00,2,14.49,True,3,0,1,96,0,0,0,MERGED
+28097,WebGLRenderer: Prerender transmission pass(es),mrxz,2024-04-09T11:14:19Z,2024-04-11T09:27:05+00:00,4,46.21,True,26,7,2,801,3,1,4,MERGED
+28096,RenderTarget: Add `resolveStencilBuffer`.,Mugen87,2024-04-09T08:36:25Z,2024-04-10T08:20:32+00:00,2,23.74,True,37,6,7,235,4,1,5,MERGED
+28088,WebGLRenderer: Let transmissionRenderTarget size match relevant viewport size,mrxz,2024-04-08T09:32:44Z,2024-04-09T08:05:20+00:00,5,22.54,True,9,4,1,764,2,1,3,MERGED
+28087,WebGLCapabilities: add `textureTypeReadable()` and `textureFormatReadable()`,sguimmara,2024-04-08T09:11:32Z,2024-04-09T08:04:45+00:00,10,22.89,True,37,10,2,736,3,4,7,MERGED
+28084,Src: Tone mapping shaders clean up,WestLangley,2024-04-07T22:41:16Z,2024-04-08T08:30:20+00:00,1,9.82,True,17,9,1,0,1,0,1,MERGED
+28077,Update Libraries-and-Plugins.html,atul-mourya,2024-04-07T04:05:19Z,2024-04-08T08:54:58+00:00,3,28.83,True,1,0,1,252,0,1,1,MERGED
+28074,Pass `onLoad` callback to `XRHandModelFactory` and `OculusHandModel`,ferminLR,2024-04-06T00:00:01Z,2024-04-08T13:58:54+00:00,1,61.98,True,7,4,2,314,0,0,0,MERGED
+28069,KTX2Loader: Remove `RGB_S3TC_DXT1_Format` usage.,Mugen87,2024-04-04T10:37:14Z,2024-04-05T04:27:39+00:00,1,17.84,True,3,3,1,208,0,0,0,MERGED
+28061,WebGPURenderer: Add `aoNode` to NodeMaterial,RenaudRohlinger,2024-04-03T13:36:32Z,2024-04-03T14:59:28+00:00,1,1.38,True,5,2,2,132,4,0,4,MERGED
+28059,Pass: avoid running code before startup of three.js,Bajdzis,2024-04-03T09:02:42Z,2024-04-03T10:05:03+00:00,6,1.04,False,1,3,1,57,0,1,1,CLOSED
+28058,Docs: Add `dispersion`.,Mugen87,2024-04-03T08:49:10Z,2024-04-04T08:26:32+00:00,2,23.62,True,45,1,10,137,0,1,1,MERGED
+28056,MeshGouraudMaterial: Remove unused lightmap_fragment chunk,pailhead,2024-04-03T08:10:29Z,2024-04-18T10:10:46+00:00,9,362.0,True,7,13,3,267,2,1,3,MERGED
+28053,SceneUtils: Add generator-based traversal methods.,HoloTheDrunk,2024-04-02T13:33:47Z,2024-04-23T08:15:26+00:00,12,498.69,True,60,1,1,268,1,5,6,MERGED
+28051,MeshPhysicalMaterial: Add `dispersion`.,Mugen87,2024-04-02T12:02:15Z,2024-04-03T08:28:56+00:00,2,20.44,True,261,14,19,986,4,2,6,MERGED
+28049,USDZExporter: Rename parse to parseAsync,mjurczyk,2024-04-02T11:54:14Z,2024-04-03T07:54:51+00:00,4,20.01,True,9,3,3,76,1,1,2,MERGED
+28036,[Geometry] Add geometry for superquadric,MatteoVoges,2024-03-31T19:55:24Z,2024-05-08T09:49:27+00:00,2,901.9,False,175,0,2,716,2,1,3,CLOSED

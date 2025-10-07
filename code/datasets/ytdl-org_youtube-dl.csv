@@ -149,3 +149,763 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 27705,[rai] improved subtitles extraction,nixxo,2021-01-06T21:49:03Z,2021-01-07T13:48:45+00:00,10,15.99,True,43,19,2,730,0,9,9,MERGED
 27696,[gimy] Add new extractor,Isaac-the-Man,2021-01-06T12:50:24Z,2024-05-11T11:01:26+00:00,1,29302.18,False,73,0,2,1153,3,2,5,CLOSED
 27673, [rai] fixes #12652,nixxo,2021-01-05T08:28:58Z,2021-01-05T18:49:57+00:00,2,10.35,True,15,1,1,752,0,1,1,MERGED
+27657,[rai] drm check and fix,nixxo,2021-01-04T14:22:15Z,2022-04-05T11:05:16+00:00,3,10940.72,False,11,1,1,806,7,2,9,CLOSED
+27646,[twitch] Switch access token to GraphQL and refactor.,23rd,2021-01-03T14:20:49Z,2021-01-05T19:13:17+00:00,3,52.87,False,68,46,1,1469,3,7,10,CLOSED
+27645,Switch to TLS for initial webpage request,orbitwide,2021-01-03T13:47:31Z,2021-01-05T02:56:13+00:00,6,37.15,False,10,10,1,1595,0,1,1,CLOSED
+27618,[vvvvid] fix season title extraction (#27601),nixxo,2021-01-01T21:21:50Z,2021-02-24T21:17:29+00:00,19,1295.93,True,6,1,1,1268,0,2,2,MERGED
+27574,[vvvvid] add playlists support,nixxo,2020-12-29T15:52:12Z,2020-12-30T17:12:18+00:00,11,25.34,True,63,7,2,714,1,21,22,MERGED
+27503,[reddit] try_get larger thumbnail images with fallback,ozburo,2020-12-22T12:16:27Z,2020-12-30T22:14:31+00:00,1,201.97,False,14,1,1,1277,3,4,7,CLOSED
+27492,Fix for #27455. Adapted StreetVoice extractor to new API and fixed tests,PaaaulZ,2020-12-20T16:38:29Z,2020-12-24T12:11:53+00:00,3,91.56,False,45,19,1,1273,4,7,11,CLOSED
+27450,[motherless] Fix broken download on recent videos and other values extraction,cladmi,2020-12-16T10:37:43Z,2021-01-05T00:41:15+00:00,5,470.06,False,14,5,1,11485,2,5,7,CLOSED
+27433,cookies.txt extension doesn't exist anymore on the Chrome Web Store,marco97pa,2020-12-14T14:15:10Z,2020-12-26T13:50:40+00:00,1,287.59,True,1,1,1,1360,0,0,0,MERGED
+27426,[reddit] Add duration to extracted information for posts containing a v.redd.it video,trevnels,2020-12-14T04:12:22Z,2020-12-17T16:21:36+00:00,2,84.15,True,6,0,1,1449,3,1,4,MERGED
+27405,[Generic] Fix RSS item thumbnail URL,renalid,2020-12-13T07:00:33Z,2020-12-19T16:18:51+00:00,5,153.31,True,26,1,1,1225,3,2,5,MERGED
+27396,[eporner] Fix regex (Closes #26197),spvkgn,2020-12-12T18:15:16Z,2020-12-13T12:56:29+00:00,4,18.69,True,5,2,1,1261,0,2,2,MERGED
+27393,[pornhub] extract all formats,JChris246,2020-12-12T14:23:27Z,2020-12-26T14:17:57+00:00,8,335.91,False,12,2,1,1246,0,8,8,CLOSED
+27362,[rbgtum] Add support for live.rbg.tum.de lecture platform,main--,2020-12-09T18:21:58Z,2023-02-09T11:25:30+00:00,1,19001.06,False,30,0,2,1435,1,2,3,CLOSED
+27361,More string comparison operators for --match-filter,max-te,2020-12-09T17:48:59Z,2024-11-04T18:28:56+00:00,1,34224.67,False,49,27,3,1424,3,0,3,CLOSED
+27358,[Smotri] Remove extractor,mashed-potatoes,2020-12-09T10:27:49Z,2020-12-09T19:01:24+00:00,1,8.56,True,1,429,4,775,1,2,3,MERGED
+27356,[pornhub] Fix like and dislike count extraction,imba-tjd,2020-12-09T04:05:19Z,2020-12-26T14:25:23+00:00,3,418.33,False,2,2,1,1502,4,4,8,CLOSED
+27331,[njpwworld] new extraction,aarubui,2020-12-07T06:51:24Z,2021-01-20T19:31:36+00:00,1,1068.67,False,19,30,1,1071,0,3,3,CLOSED
+27317,expose release_year for tubi,EntranceJew,2020-12-06T02:21:01Z,2020-12-08T18:14:47+00:00,2,63.9,True,14,0,1,814,0,2,2,MERGED
+27243,Recognize drtv program urls,Munken,2020-11-28T20:19:26Z,2020-11-29T06:44:37+00:00,1,10.42,True,4,1,1,1349,0,0,0,MERGED
+27234,[Pornhub] Fixed like and dislike extraction,JChris246,2020-11-28T14:13:01Z,2020-11-28T19:32:14+00:00,1,5.32,True,2,2,1,824,1,1,2,MERGED
+27230,[nhk] Add support for NHK video programs,rolledback,2020-11-28T03:30:35Z,2020-12-13T20:57:19+00:00,18,377.45,True,118,49,2,1244,7,18,25,MERGED
+27217,[generic] Use _meta_regex to extract twitter:player:stream tag,jetomit,2020-11-26T22:57:49Z,2020-12-13T17:13:13+00:00,1,402.26,False,2,2,1,1400,0,1,1,CLOSED
+27177,[Generic] RSS adding item description,renalid,2020-11-24T13:19:47Z,2020-12-06T15:12:26+00:00,2,289.88,True,14,5,1,1163,1,2,3,MERGED
+27149,[MedalTV] Add new extractor,xenova,2020-11-22T15:00:02Z,2020-11-24T17:27:34+00:00,36,50.46,True,139,0,2,1557,9,23,32,MERGED
+27143,[nytimes] Add new cooking.nytimes.com extractor,fourjr,2020-11-22T10:09:16Z,2020-11-22T13:12:48+00:00,1,3.06,True,39,0,2,1221,0,1,1,MERGED
+27138,set mtime for fragmented videos (such as DASH),dotysan,2020-11-21T21:43:27Z,2020-11-23T21:18:04+00:00,1,47.58,False,7,0,1,878,5,1,6,CLOSED
+27130,[svt] Add timestamp and thumbnail in more cases,wader,2020-11-21T13:28:38Z,2020-11-21T16:24:38+00:00,6,2.93,True,25,9,1,1333,2,6,8,MERGED
+27092,[viki] fix stream extraction from mpd,beefchop,2020-11-19T10:55:37Z,2020-11-19T20:38:10+00:00,2,9.71,True,3,0,1,1150,0,1,1,MERGED
+27084,Spelling,jsoref,2020-11-19T00:10:42Z,2020-11-21T15:00:05+00:00,3,62.82,True,51,51,17,1393,0,3,3,MERGED
+27081,[youtube] Fix error reason extraction,dpeukert,2020-11-18T19:30:02Z,2020-11-21T14:52:21+00:00,2,67.37,True,15,0,1,1421,0,1,1,MERGED
+27077,[rai] Fix extraction for recent raiplay.it updates,iamleot,2020-11-18T16:23:38Z,2020-11-20T09:00:05+00:00,21,40.61,True,52,74,1,1645,5,8,13,MERGED
+27047,[francetv] Add fallback video url extraction,gdzx,2020-11-17T17:23:21Z,2020-11-17T22:06:19+00:00,5,4.72,True,28,4,1,3474,1,7,8,MERGED
+27037,[iheartradio:podcast] Add new extractor,gardenappl,2020-11-17T11:22:21Z,2021-01-04T16:16:28+00:00,5,1156.9,True,1,1,1,1526,6,5,11,MERGED
+26946,[gedi] Add new extractor,nixxo,2020-10-20T14:12:33Z,2021-02-22T19:42:47+00:00,41,3005.5,False,151,0,2,750,1,16,17,CLOSED
+26912,fix installing/hardcoding,freebased,2020-10-17T13:33:45Z,2020-10-17T14:59:37+00:00,1,1.43,False,18,4,1,1124,0,2,2,CLOSED
+26910,Relaxed validation for format filters so that any arbitrary field can be used,pukkandan,2020-10-17T10:50:00Z,2023-08-01T00:05:34+00:00,1,24421.26,False,1,1,1,1129,0,1,1,CLOSED
+26894,[ustream] Add video.ibm.com domain,serl,2020-10-15T15:16:01Z,2020-10-17T16:14:46+00:00,2,48.98,True,5,2,1,1148,1,1,2,MERGED
+26873,Fix error when trying to interpret `None` as a number,1100101,2020-10-12T20:27:54Z,2020-12-13T16:43:31+00:00,10,1484.26,False,23,7,1,1113,3,6,9,CLOSED
+26870,[twentythreevideo] support subdomain urls,dancek,2020-10-12T11:35:41Z,2020-10-19T17:56:24+00:00,4,174.35,True,7,4,1,1340,2,2,4,MERGED
+26851,Don't attempt to coerce JS strings to numbers,kevinoconnor7,2020-10-09T23:09:34Z,2020-10-17T17:10:42+00:00,3,186.02,True,12,6,2,1282,1,2,3,MERGED
+26836,[yandex video][yandex efir] fixed extractor,devbreath,2020-10-08T10:13:43Z,2023-08-01T00:05:35+00:00,1,24637.86,False,40,8,1,1404,0,2,2,CLOSED
+26826,[go] Added support for FXNetworks,jamakal,2020-10-06T21:26:08Z,2020-12-27T17:36:21+00:00,1,1964.17,True,19,80,3,1211,3,0,3,MERGED
+26798,[Playvids] Add new extractor,AXDOOMER,2020-10-03T23:33:31Z,2022-11-09T20:26:31+00:00,1,18404.88,False,52,0,3,1140,3,1,4,CLOSED
+26795,[AENetworks] Update extractor for the current site(s),kevinoconnor7,2020-10-03T22:05:13Z,2020-12-06T18:50:18+00:00,1,1532.75,False,131,31,1,1204,5,0,5,CLOSED
+26775,"[viu:ott] add support for premium account, add language_flag_id query param",lkho,2020-10-02T09:49:44Z,2023-08-01T00:05:35+00:00,1,24782.26,False,96,10,1,690,3,0,3,CLOSED
+26717,[youtube] adds support for invidious.site,heyitscassio,2020-09-26T16:12:06Z,2020-12-10T17:28:10+00:00,2,1801.27,False,1,0,1,1107,0,1,1,CLOSED
+26684,[bandcamp] fix regexp for JSON matching on bandcamp,gilou,2020-09-23T21:18:04Z,2020-11-16T19:54:24+00:00,4,1294.61,False,41,18,1,779,44,2,46,CLOSED
+26662,[tver] Add support for TVer,tsukumijima,2020-09-21T21:28:56Z,2020-12-02T20:51:52+00:00,11,1727.38,False,204,0,3,2419,4,10,14,CLOSED
+26629,[skyitalia] Add new extractor,nixxo,2020-09-19T07:14:13Z,2020-11-22T12:07:52+00:00,2,1540.89,False,134,0,2,810,0,1,1,CLOSED
+26607,Remove the continue argument to aria2c when --no-continue is specified,CrendKing,2020-09-16T22:10:45Z,2020-11-28T13:13:02+00:00,6,1743.04,False,4,1,1,1954,0,1,1,CLOSED
+26569,[bitchute] Fix error for geoblocking,adrianheine,2020-09-11T21:33:19Z,2023-08-01T00:05:35+00:00,2,25274.54,False,11,2,1,773,0,1,1,CLOSED
+26557,[soundcloud] Reduce pagination limit to fix 502 Bad Gateway errors when listing a user's tracks.,tfvlrue,2020-09-09T02:31:31Z,2020-09-12T09:35:11+00:00,2,79.06,True,3,1,1,2735,3,1,4,MERGED
+26532,[Lumni] Add new extractor,Surkal,2020-09-06T16:45:08Z,2023-08-01T00:05:35+00:00,1,25399.34,False,76,0,2,1087,1,5,6,CLOSED
+26508,[Stripchat] add extractor,zulaport,2020-09-02T12:15:50Z,2022-11-09T06:37:25+00:00,1,19146.36,False,79,0,2,831,0,8,8,CLOSED
+26507,[iprima.cz] fix extractor,Surkal,2020-09-02T10:35:20Z,2020-09-23T23:46:59+00:00,1,517.19,True,2,1,1,1030,2,0,2,MERGED
+26506,[Redtube] Add support for international videos,nixxo,2020-09-02T09:20:28Z,2020-09-20T04:39:42+00:00,1,427.32,True,4,1,1,710,0,0,0,MERGED
+26464,[Alura] New extractor,hugohaa,2020-08-28T17:53:14Z,2023-08-01T00:05:35+00:00,1,25614.21,False,184,0,2,1198,1,2,3,CLOSED
+26445,[hrfernsehen] add extractor,blocktrron,2020-08-27T00:05:17Z,2022-06-06T18:34:21+00:00,8,15570.48,False,103,0,2,846,2,3,5,CLOSED
+26438,[svt] fix issue #26428 (SVT play extractor broken),hakanw,2020-08-25T15:22:04Z,2020-09-06T03:46:25+00:00,1,276.41,False,2,1,1,1064,2,1,3,CLOSED
+26381,CDA.PL extractor fix,dkja,2020-08-19T18:23:13Z,2020-11-23T19:19:01+00:00,1,2304.93,False,54,1,1,1253,11,0,11,CLOSED
+26368,[telequebec] Add support for Brightcove,patrickdessalle,2020-08-18T18:18:32Z,2020-09-19T00:56:39+00:00,1,750.64,False,14,2,1,1276,1,4,5,CLOSED
+26350,[aparat] Fixed RegexNotFoundError,Bayany,2020-08-17T04:13:57Z,2020-12-28T17:20:13+00:00,2,3205.1,False,2,2,1,1040,0,1,1,CLOSED
+26345,[doodstream] new extractor,sxvghd,2020-08-16T13:47:16Z,2023-08-01T00:05:35+00:00,1,25906.31,False,72,0,2,1066,1,1,2,CLOSED
+26302,[peertube] Extract files also from `streamingPlaylists`,0l-l0,2020-08-11T23:48:02Z,2021-01-08T18:45:34+00:00,2,3594.96,False,21,1,1,521,2,1,3,CLOSED
+26301,[videa] Adapt to updates,adrianheine,2020-08-11T22:10:09Z,2020-11-26T11:55:07+00:00,1,2557.75,True,60,2,1,802,0,0,0,MERGED
+26283,[myvideoge] New extractor,fonkap,2020-08-08T11:27:55Z,2023-02-02T23:25:46+00:00,2,21803.96,False,57,0,2,1070,5,8,13,CLOSED
+26237,Rewrite Bilibili and Bilibilibangumi Extractor to suitable for new video format.,lifegpc,2020-08-04T08:55:51Z,2020-11-27T08:31:01+00:00,2,2759.59,False,769,193,1,1329,0,1,1,CLOSED
+26100,[youtube] Fix age gate detection,random-nick,2020-07-23T22:15:18Z,2020-09-06T04:44:54+00:00,2,1062.49,True,2,1,1,1388,3,1,4,MERGED
+25958,[Mildom] Add new extractor,rli99,2020-07-10T15:57:56Z,2021-08-27T06:02:20+00:00,5,9902.07,False,59,0,3,1248,2,4,6,CLOSED
+25919,[realvision] Add extractor for RealVision.,jsharkey,2020-07-07T04:28:26Z,2023-08-01T00:05:35+00:00,2,26875.62,False,78,0,3,1574,3,1,4,CLOSED
+25886,[Gab] Add new extractor,runraid,2020-07-04T01:29:08Z,2020-07-11T03:46:20+00:00,1,170.29,False,42,0,2,1129,2,0,2,CLOSED
+25827,Add extraction logic to mitele for videos not based in ooyala,DjMoren,2020-06-28T19:41:46Z,2020-12-27T15:23:22+00:00,4,4363.69,False,34,7,1,1750,15,3,18,CLOSED
+25804,[Xhamster] Updated regex to accommodate new video_id with letters,JChris246,2020-06-27T00:33:20Z,2020-08-12T14:37:22+00:00,5,1118.07,True,5,2,1,837,3,2,5,MERGED
+25786,[youtube] Prevent excess HTTP 301 on playlist continuations,glenn-slayden,2020-06-25T06:18:06Z,2020-06-30T19:56:16+00:00,1,133.64,True,3,3,1,3763,0,0,0,MERGED
+25783,[ard.py] add playlist support (solves issue #22209),martin54,2020-06-25T00:14:44Z,2023-08-01T00:05:35+00:00,2,27167.85,False,153,1,1,1198,0,1,1,CLOSED
+25751,Better extraction for nrk,Roxedus,2020-06-21T20:30:31Z,2020-12-25T14:17:43+00:00,2,4481.79,False,41,2,1,1486,1,4,5,CLOSED
+25717,[postprocessor/embedthumbnail] Fix Youtube's WebP thumbnails by converting them to JPG,alexmerkel,2020-06-18T20:45:01Z,2020-09-13T20:30:44+00:00,3,2087.76,False,22,0,1,1071,37,6,43,CLOSED
+25545,Fix Twitch livestreams Error 410: Gone (closes #25528),panstx,2020-06-05T11:48:19Z,2020-06-05T19:16:08+00:00,1,7.46,False,20,9,1,815,1,0,1,CLOSED
+25445,malltv: some new videos are hosted on sk.mall.tv domain,mdujava,2020-05-28T15:30:18Z,2020-06-01T14:11:32+00:00,2,94.69,True,4,1,1,852,0,1,1,MERGED
+25424,[BritishCouncil] Add new extractor,jgilf,2020-05-27T06:16:55Z,2023-08-01T00:05:35+00:00,1,27857.81,False,30,0,2,1236,4,2,6,CLOSED
+25364,"Add URL metadata to mp4 container (closes #17029), remove dublicate f…",megapro17,2020-05-22T18:26:43Z,2020-05-23T04:52:45+00:00,5,10.43,False,4,1,1,1071,0,2,2,CLOSED
+25308,Bilibili add list support,ywwzwb,2020-05-18T03:19:30Z,2023-08-01T00:05:35+00:00,2,28076.77,False,313,205,2,1079,12,1,13,CLOSED
+25267,[orf] Add Radiothek extractor,sqrt2,2020-05-13T14:48:51Z,2023-08-01T00:05:36+00:00,1,28185.28,False,33,0,2,939,0,3,3,CLOSED
+25254,[ITVBTCC] Update playlist extractor (closes #25240),franhp,2020-05-12T21:59:10Z,2023-02-03T21:10:13+00:00,1,23927.18,False,17,5,1,1288,2,4,6,CLOSED
+25239,[mailru] Fix extraction (closes #24530),comsomisha,2020-05-11T15:06:14Z,2020-05-13T22:51:41+00:00,1,55.76,True,7,0,1,730,0,1,1,MERGED
+25222,Editing Giantbomb extraction to include /shows/ links,JordanWeatherby,2020-05-10T12:58:06Z,2020-05-20T21:30:51+00:00,2,248.55,True,7,4,1,1455,4,1,5,MERGED
+25216,Update video_id regexp to account for recent abc.com changes (fixes #25197 and #25207),tmthywynn8,2020-05-10T03:29:54Z,2021-04-20T22:37:20+00:00,6,8299.12,False,2,0,1,1533,12,1,13,CLOSED
+25198,[ard] relax _VALID_URL regex (closes #25134),mklein-de,2020-05-08T21:10:36Z,2020-05-19T21:08:09+00:00,1,263.96,True,4,1,1,1154,0,2,2,MERGED
+25184,[svt] Add timestamp and thumbnail in more cases,wader,2020-05-07T21:55:48Z,2020-11-21T13:28:55+00:00,1,4743.55,False,22,10,1,1390,5,1,6,CLOSED
+25122,Fix issue 12471,ankenyr,2020-05-04T06:44:41Z,2020-05-19T20:21:53+00:00,7,373.62,True,6,0,1,1308,3,5,8,MERGED
+25103,Add xvideos3 to _VALID_URL regex,rag-hav,2020-05-02T19:08:54Z,2023-08-01T00:05:35+00:00,18,28444.94,False,19,3,1,1308,3,6,9,CLOSED
+25060,[crunchyroll] Fix video_title (closes #25047),PeskyPotato,2020-04-29T12:00:59Z,2020-05-02T16:43:06+00:00,3,76.7,False,23,28,1,1427,5,1,6,CLOSED
+25005,[ffmpeg] Support splitting target based on extracted chapters (#24858),wattux,2020-04-26T09:45:02Z,2021-01-02T21:34:43+00:00,2,6035.83,False,56,0,4,1525,16,1,17,CLOSED
+24968,Add ORF Radio Stations,hh0rva1h,2020-04-23T18:44:48Z,2020-05-04T23:22:51+00:00,11,268.63,True,146,3,2,1559,1,4,5,MERGED
+24931,Add twitcasting history extractor,Yarn,2020-04-21T22:46:57Z,2023-08-01T00:05:36+00:00,10,28705.31,False,93,7,2,1234,3,7,10,CLOSED
+24906,[funimation] Add _get_subtitles,Mevious,2020-04-20T17:40:23Z,2023-08-01T00:05:36+00:00,1,28734.42,False,26,1,1,1650,2,0,2,CLOSED
+24883,[README.md] Clarify docs re: --exec command (closes #19087),willbeaufoy,2020-04-19T19:26:48Z,2020-04-23T19:31:38+00:00,2,96.08,True,1,1,1,927,0,1,1,MERGED
+24852,Improve archive efficiency,serkef,2020-04-17T22:14:09Z,2023-08-01T00:05:36+00:00,9,28801.86,False,70,6,2,1645,10,5,15,CLOSED
+24823,[youtube] Fix download of auto-captions when manual subtitles are available,madars,2020-04-16T20:13:13Z,2023-08-01T00:05:36+00:00,1,28827.87,False,8,0,1,2768,2,1,3,CLOSED
+24776,[fix] _get_cookies on Python 2 (fix #24566),sy6sy2,2020-04-14T07:52:38Z,2020-05-04T23:02:25+00:00,1,495.16,False,4,1,1,1113,0,1,1,CLOSED
+24757,[nexx] Download using correct protection tokens (fixes #24309),FliegendeWurst,2020-04-13T09:34:55Z,2021-04-22T17:58:58+00:00,13,8984.4,False,50,27,2,705,8,4,12,CLOSED
+24751,[zoomus] Add new extractor,Romern,2020-04-12T22:21:06Z,2020-11-16T18:47:56+00:00,1,5228.45,False,83,0,2,1287,15,0,15,CLOSED
+24710,[Playerglobewien],Oneboy1979,2020-04-09T14:45:22Z,2023-08-01T00:05:36+00:00,4,29001.34,False,99,0,2,1082,11,3,14,CLOSED
+24708,[soundcloud] added support for aac streams,tomsolarino,2020-04-09T12:18:27Z,2020-04-10T10:26:44+00:00,4,22.14,False,2,0,1,1630,1,1,2,CLOSED
+24689,[GoogleDrive] fix redirect loop (closes #23919),legraphista,2020-04-08T10:44:52Z,2020-09-13T13:44:13+00:00,2,3794.99,False,2,0,1,14971,4,1,5,CLOSED
+24562,[srgssr] rework to use API v2 and HTTPS,vszakats,2020-04-01T12:06:59Z,2020-04-05T18:13:31+00:00,1,102.11,False,68,54,1,1086,3,5,8,CLOSED
+24551,[Likee] Add new extractor,hatienl0i2612,2020-03-31T07:21:38Z,2022-02-25T16:09:29+00:00,1,16712.8,False,1111,1,5,1048,1,0,1,CLOSED
+24518,[cda] Try to fix and improve extraction (fixes #24458),divadsn,2020-03-28T18:53:35Z,2020-11-23T19:19:00+00:00,2,5760.42,False,26,1,1,1301,5,1,6,CLOSED
+24488,Fix download with Token Authentication from funk.net (Nexx Player),yeeeha,2020-03-26T20:09:05Z,2023-08-01T00:05:36+00:00,5,29331.94,False,21,8,1,1094,12,2,14,CLOSED
+24435,C-SPAN videos not working #18806 fix,Geremia,2020-03-22T21:30:41Z,2020-11-30T18:59:20+00:00,3,6069.48,False,41,6,1,399,2,1,3,CLOSED
+24430,[pbs] restore subtitles,gesa,2020-03-22T11:51:26Z,2023-08-01T00:05:36+00:00,2,29436.24,False,12,0,1,908,10,4,14,CLOSED
+24330,[skillshare:class] Add support for skillshare.com classes,shaileshaanand,2020-03-12T16:21:44Z,2023-08-01T00:05:36+00:00,7,29671.73,False,51,0,2,1299,9,10,19,CLOSED
+24328,[hanime] Add new extractor,BrutuZ,2020-03-12T04:27:09Z,2020-05-20T21:58:49+00:00,6,1673.53,False,104,0,2,826,3,22,25,CLOSED
+24327,[Vlaretv] Add new extractor,MaximZ21,2020-03-12T03:56:52Z,2023-08-01T00:05:36+00:00,1,29684.15,False,29,0,2,1076,0,8,8,CLOSED
+24294,Added login support for PornHub and PornHub Premium.,twaddington,2020-03-08T19:24:42Z,2021-02-03T21:10:07+00:00,12,7969.76,False,69,7,1,1139,6,5,11,CLOSED
+24288,Added basic support for pornhubpremium.com when using --cookies.,twaddington,2020-03-08T05:41:52Z,2020-03-08T11:00:26+00:00,5,5.31,True,14,4,1,1146,3,3,6,MERGED
+24233,[Airvuz] New extractor,dmlemos,2020-03-03T23:50:38Z,2023-08-01T00:05:36+00:00,1,29880.25,False,218,0,3,1985,0,0,0,CLOSED
+24209,[vimeo] fix subtitles url,tsia,2020-03-01T16:44:44Z,2020-03-02T18:27:41+00:00,2,25.72,True,2,1,1,1177,0,1,1,MERGED
+24199,fix(extractor: odnoklassniki): for download URL use the same protocol as in original URL,actionless,2020-03-01T05:01:09Z,2020-10-21T12:26:34+00:00,5,5623.42,False,7,2,1,942,3,1,4,CLOSED
+24182,[bitchute] parse timestamp,markheck,2020-02-29T01:09:55Z,2023-08-01T00:05:36+00:00,1,29974.93,False,17,10,1,1084,0,1,1,CLOSED
+24119,"I wish there was a timestamp in ""OUTPUT TEMPLATE"" for RSS/Atom",jakutis,2020-02-22T18:20:48Z,2020-03-25T12:04:00+00:00,1,761.72,False,6,0,2,1188,0,2,2,CLOSED
+24063,[pornhub] Added support for PornHub Premium.,twaddington,2020-02-17T00:22:31Z,2020-03-08T00:07:09+00:00,1,479.74,False,717,479,5,1522,2,1,3,CLOSED
+23985,[Rooster Teeth] Add subtitle support,samiksome92,2020-02-07T13:09:23Z,2023-08-01T00:05:36+00:00,1,30490.94,False,32,2,1,1197,0,0,0,CLOSED
+23930,Toggle was renamed to meWATCH (issue #23895),xaverh,2020-02-01T18:45:33Z,2020-02-05T15:41:57+00:00,3,92.94,True,12,9,1,1188,2,3,5,MERGED
+23885,Fix playlist tests (fix #23872),jxu,2020-01-29T17:57:41Z,2020-03-02T18:46:00+00:00,3,792.81,True,12,9,1,1366,0,2,2,MERGED
+23877,[utils] Fix handling of comments in js_to_json,TinyToweringTree,2020-01-28T22:05:41Z,2023-08-01T00:05:37+00:00,1,30722.0,False,41,9,2,1856,25,0,25,CLOSED
+23858,remove jpopsuki.tv,opensource-assist,2020-01-27T06:16:31Z,2020-02-14T19:24:05+00:00,2,445.13,False,1,70,3,136,1,2,3,CLOSED
+23838,[bitchute] add support for mpd,CeruleanSky,2020-01-25T12:57:58Z,2022-06-10T03:41:56+00:00,1,20798.73,False,28,4,1,1325,1,1,2,CLOSED
+23827,[archiveorg] Fix extraction,TinyToweringTree,2020-01-24T17:28:13Z,2023-08-01T00:05:37+00:00,5,30822.62,False,99,24,3,1438,1,2,3,CLOSED
+23742,[facebook] Add support for user video playlist,ajj8,2020-01-14T21:34:50Z,2023-08-01T00:05:37+00:00,12,31058.51,False,126,0,2,1081,5,12,17,CLOSED
+23720,[travis] add flake8 to travis,jnozsc,2020-01-13T07:16:34Z,2020-01-14T18:09:09+00:00,3,34.88,True,6,1,1,1291,0,2,2,MERGED
+23704,[DRTV] DRTVPlaylist extractor,vittrup88,2020-01-11T13:38:48Z,2023-08-01T00:05:36+00:00,1,31138.45,False,111,1,2,1094,0,3,3,CLOSED
+23690,[nova] Fixes for NOVA TV,jtrmal,2020-01-10T09:25:27Z,2020-02-14T19:18:26+00:00,8,849.88,False,42,13,1,1573,1,4,5,CLOSED
+23675,[tvnoe] Fixing/changing the extractor for TV Noe (Czech Christian TV),jtrmal,2020-01-08T15:00:26Z,2023-08-01T00:05:36+00:00,1,31209.09,False,41,26,1,1347,3,5,8,CLOSED
+23670,Fix Extractor safari,cdarlint,2020-01-08T06:37:00Z,2020-01-10T18:34:27+00:00,1,59.96,True,2,1,1,1483,2,1,3,MERGED
+23659,[Youporn] Regex fix for newer URLs,snizzl,2020-01-07T13:04:02Z,2021-01-15T08:13:53+00:00,2,8971.16,False,23,1,1,1076,1,1,2,CLOSED
+23657,[PeerTube] Various fixes and improvements,3risian,2020-01-07T08:14:17Z,2020-03-02T20:02:12+00:00,13,1331.8,False,64,23,1,950,4,30,34,CLOSED
+23641,[la7] Fix extraction (problematic parsing as JSON of videoParams/videoLa7),iamleot,2020-01-05T16:33:04Z,2023-08-01T00:05:36+00:00,1,31279.54,False,8,19,1,1184,3,0,3,CLOSED
+23630,[pandatv] remove pandatv support,Singwai,2020-01-05T05:21:26Z,2020-01-07T14:11:04+00:00,1,56.83,True,0,100,2,884,1,1,2,MERGED
+23626,[eroprofile] Update regexes,YetAnotherGhost,2020-01-04T17:20:09Z,2021-05-16T14:57:48+00:00,2,11949.63,False,4,3,1,1205,5,1,6,CLOSED
+23599,fixed error when parsing fm4 url,jonolt,2020-01-02T09:43:50Z,2020-01-10T18:51:15+00:00,1,201.12,True,2,5,1,1124,6,0,6,MERGED
+23537,[nrk:series] fix and update extractor,Roxedus,2019-12-27T12:47:17Z,2020-01-05T23:34:36+00:00,11,226.79,True,44,4,1,1554,0,9,9,MERGED
+23485,Fix extractor,LucBerge,2019-12-22T23:32:45Z,2022-09-30T14:08:45+00:00,3,24302.6,False,35,31,1,1116,0,9,9,CLOSED
+23459,[yourporn] fix extraction and rename to sxyprn,polokomo,2019-12-19T23:24:59Z,2020-01-14T18:28:50+00:00,1,619.06,False,15,6,2,1171,1,3,4,CLOSED
+23415,[bbc] Fix errors,ajj8,2019-12-15T00:55:12Z,2022-02-09T20:44:23+00:00,4,18907.82,False,104,55,1,1129,7,3,10,CLOSED
+23366,[XFileShare] Add NxLoad,kr4ssi,2019-12-10T00:56:19Z,2023-08-01T00:05:37+00:00,1,31919.15,False,14,3,1,1285,0,3,3,CLOSED
+23354,Pokemon,msrimat,2019-12-09T00:19:24Z,2019-12-10T20:58:18+00:00,1,44.65,False,55,29,2,1093,1,0,1,CLOSED
+23209,Copyedits for CONTRIBUTING.md,Daniel-Mietchen,2019-11-26T03:52:36Z,2023-08-01T00:05:37+00:00,3,32252.22,False,17,17,1,1061,0,0,0,CLOSED
+23012,[chaturbate] fix url extraction and parsing,unknown,2019-11-08T02:19:03Z,2019-11-21T16:23:32+00:00,1,326.07,False,4,3,1,1270,7,0,7,CLOSED
+23000,[francetv] Add fallback video url extraction (closes ytdl-org#22561),gdzx,2019-11-06T20:04:23Z,2020-11-17T17:24:41+00:00,1,9045.34,False,17,0,1,14899,7,0,7,CLOSED
+22954,[businessinsider] update regex (fixes #22929),uno20001,2019-11-01T21:57:34Z,2020-01-18T15:47:50+00:00,2,1865.84,True,17,11,1,1098,2,5,7,MERGED
+22919,[svt] fix issue #22897 : change process of video id extraction,uno20001,2019-10-30T22:25:42Z,2020-01-26T13:18:11+00:00,6,2102.87,False,34,15,1,1095,1,6,7,CLOSED
+22902,[thisoldhouse] Add metadata parsing,Jessecar96,2019-10-30T02:28:55Z,2023-08-01T00:05:37+00:00,7,32901.61,False,42,2,1,1258,2,9,11,CLOSED
+22880,[instagram] fix retrieving video URL when logged in (with cookies),Tatsh,2019-10-28T07:56:57Z,2020-12-26T15:38:31+00:00,1,10207.69,False,10,0,1,1161,5,0,5,CLOSED
+22844,[Bandcamp] Update extractor to match website changes,lyz-code,2019-10-25T13:24:54Z,2020-12-04T13:00:57+00:00,2,9743.6,False,5,2,1,992,1,1,2,CLOSED
+22843,RaiPlay: Handle multiple arrays of subtitles,thePanz,2019-10-25T13:24:19Z,2023-08-01T00:05:37+00:00,5,33010.69,False,37,19,1,755,0,5,5,CLOSED
+22838,[tiktok] fix extraction,skyme5,2019-10-25T08:18:44Z,2020-11-29T01:10:07+00:00,1,9616.86,False,105,107,2,887,12,18,30,CLOSED
+22759,[zattoo] Adopt to website redesign (closes #22258),goggle,2019-10-18T12:14:48Z,2021-02-23T14:50:01+00:00,1,11858.59,False,143,48,2,1254,4,8,12,CLOSED
+22699,[README.md] Mention different default format with -x,alxnull,2019-10-13T17:13:32Z,2023-08-01T00:05:37+00:00,1,33294.87,False,2,0,1,1297,0,0,0,CLOSED
+22689,[RoosterTeeth] Fixed downloading of FIRST only videos + Gets biggest thumbnail.,RichardHancock,2019-10-12T18:57:19Z,2019-11-05T09:06:22+00:00,1,566.15,False,38,38,1,1539,1,0,1,CLOSED
+22686,[tele5] Fix extractor,FliegendeWurst,2019-10-12T13:21:06Z,2020-04-11T23:15:35+00:00,2,4377.91,False,12,5,2,789,4,6,10,CLOSED
+22611,[Aparat] Fix recent download errors,Marware,2019-10-04T21:17:05Z,2020-12-28T17:20:11+00:00,1,10820.05,False,3,4,1,1261,1,0,1,CLOSED
+22520,[fc2] Fixed fc2 video download,playma,2019-09-27T00:34:54Z,2023-08-01T00:05:37+00:00,3,33695.51,False,13,14,1,962,11,5,16,CLOSED
+22471,[xvideos] Add support for alternative urls.,Stephan972,2019-09-21T11:31:48Z,2019-10-04T12:05:35+00:00,3,312.56,True,38,1,1,1333,0,1,1,MERGED
+22431,[lrt] fixing broken extractor,audriusm,2019-09-17T00:47:41Z,2020-12-03T23:51:28+00:00,3,10655.06,False,4725,2466,95,1295,1,8,9,CLOSED
+22390,Add support for MrDeepfakes,unknown,2019-09-12T18:22:10Z,2022-11-13T13:22:18+00:00,3,27787.0,False,171,0,2,1114,11,14,25,CLOSED
+22309,[chaturbate] Allow alternative URLs at /fullvideo/,axelerometer,2019-09-04T22:03:10Z,2019-10-04T12:22:02+00:00,6,710.31,True,6,2,1,1189,3,4,7,MERGED
+22255,[yourporn] Drop support for yourporn.sexy and fix support for sxyprn.com,v-delta,2019-08-29T14:33:05Z,2020-01-14T18:28:50+00:00,1,3315.93,False,18,9,1,1382,6,2,8,CLOSED
+22246,Add support for Nickelodeonjunior.fr,patrickdessalle,2019-08-28T17:13:44Z,2019-09-01T17:59:57+00:00,2,96.77,True,5,1,1,1114,0,1,1,MERGED
+22225,[gfycat] support when accidentally prodiving media uri,AnhNhan,2019-08-26T23:40:08Z,2019-10-04T12:27:59+00:00,1,924.8,True,7,1,1,2376,0,1,1,MERGED
+22223,Update Invidious instances,unknown,2019-08-26T17:39:03Z,2019-08-27T18:40:00+00:00,2,25.02,True,2,0,1,803,0,1,1,MERGED
+22204,[niconico] add support for series,unknown,2019-08-24T19:56:22Z,2020-02-12T04:01:45+00:00,2,4112.09,False,34,1,2,0,0,7,7,CLOSED
+22191,[ZDF/3sat/phoenix.de] Extractor updates and fixes (#21185),FliegendeWurst,2019-08-23T09:49:59Z,2020-11-18T07:15:35+00:00,5,10869.43,False,47,222,4,770,15,2,17,CLOSED
+22184, [safari] Fix authentication,phan-ctrl,2019-08-22T10:22:52Z,2019-08-27T03:16:05+00:00,4,112.89,True,4,3,1,1078,0,2,2,MERGED
+22180,Feature metadata override,katieannbaker,2019-08-22T03:05:04Z,2019-12-28T18:48:31+00:00,17,3087.72,False,83,25,3,1920,5,7,12,CLOSED
+22152,[lequipe] Add new extractor,LucBerge,2019-08-19T13:30:06Z,2019-08-29T16:09:09+00:00,1,242.65,False,30,0,2,1061,2,0,2,CLOSED
+22150,[ADN] Use PhantomJS to get the subtitle encryption key (closes #12724),cchudant,2019-08-18T21:10:30Z,2023-08-01T00:05:37+00:00,3,34634.92,False,32,4,1,1316,3,1,4,CLOSED
+22095,[gaana] Add new extractor,nikhgupta,2019-08-14T10:58:12Z,2023-08-01T00:05:37+00:00,1,34741.12,False,206,0,2,1112,2,0,2,CLOSED
+22074,[Deezer] Update to new website,LucBerge,2019-08-12T16:09:15Z,2022-09-30T14:08:45+00:00,9,27477.99,False,93,34,2,1312,10,7,17,CLOSED
+21962,[sproutvideo] Add new extractor (closes #7935),TheZ3ro,2019-07-31T19:25:28Z,2021-01-05T17:52:06+00:00,6,12574.44,False,126,11,5,2407,13,17,30,CLOSED
+21939,Add coding conventions,kylepw,2019-07-30T01:55:35Z,2019-08-01T21:49:01+00:00,6,67.89,True,64,0,1,918,1,4,5,MERGED
+21913,[openload] Add support for oload.best (#21913),smed79,2019-07-27T21:06:14Z,2019-07-30T18:40:51+00:00,1,69.58,True,4,1,1,220,0,0,0,MERGED
+21881,[mgtv] Add format_note.,JayXon,2019-07-24T05:17:35Z,2019-07-31T20:45:03+00:00,3,183.46,True,1,0,1,1693,0,1,1,MERGED
+21859,download squarespace escaped video embeds,galgeek,2019-07-22T21:16:30Z,2019-08-31T18:26:01+00:00,5,957.16,False,18,0,1,1213,5,5,10,CLOSED
+21834,New regex for extracting series title,gjedeer,2019-07-19T14:53:09Z,2019-07-30T19:35:18+00:00,3,268.7,False,3,1,1,1017,0,5,5,CLOSED
+21812,Attempt to fix Twitch extractors for new URLs,lel-amri,2019-07-17T00:33:43Z,2020-09-06T03:46:22+00:00,16,10011.21,False,22,18,1,1167,1,5,6,CLOSED
+21780,[gfycat] Add ru/ to regex,PeskyPotato,2019-07-14T10:31:00Z,2019-07-15T15:53:21+00:00,1,29.37,True,4,1,1,854,1,2,3,MERGED
+21775,[einthusan] adding .com tld,tlonic,2019-07-13T23:54:09Z,2019-07-15T15:58:56+00:00,4,40.08,True,9,3,1,1206,0,3,3,MERGED
+21774,[televizeseznam] add new extractor,arkamar,2019-07-13T21:43:27Z,2022-02-12T14:46:32+00:00,14,22673.05,False,107,0,2,1155,20,19,39,CLOSED
+21705,[twitter] Allow single dash to be used as username,Lesmiscore,2019-07-10T01:11:25Z,2019-07-13T18:22:01+00:00,2,89.18,False,4,1,1,1345,0,1,1,CLOSED
+21678,[CtsNews] Fix YouTube embed video url regex and test cases,chien-yu,2019-07-07T07:18:50Z,2019-07-15T16:03:04+00:00,3,200.74,True,5,6,1,954,0,2,2,MERGED
+21565,[vevo] Add support for embed.vevo.com URLs,unknown,2019-06-29T11:15:54Z,2019-07-01T17:13:23+00:00,2,53.96,True,4,0,1,1120,0,1,1,MERGED
+21429,[tvplay] Extract subtitles for Viafree (closes #12685),Limero,2019-06-17T16:29:26Z,2023-08-01T00:05:37+00:00,5,36127.6,False,35,8,1,1485,11,6,17,CLOSED
+21421,[yandexmusic] extract tracks from all volumes of an album (closes #21420),aerworker,2019-06-16T20:42:38Z,2019-07-13T19:38:47+00:00,1,646.94,True,55,8,1,1115,1,0,1,MERGED
+21416,Pornhubpremium,fauresystems,2019-06-16T14:20:08Z,2021-02-03T21:10:07+00:00,4,14358.83,False,71,9,1,1084,13,11,24,CLOSED
+21379,[jamendo] parsing of duration (closes #18565),matthias4217,2019-06-12T22:51:31Z,2019-11-04T14:47:24+00:00,3,3471.93,False,14,1,1,1345,0,2,2,CLOSED
+21372,[tf1] fix wat id extraction (closes ytdl-org#21365),froiss,2019-06-12T12:11:10Z,2019-06-21T17:43:14+00:00,12,221.53,False,33,3,1,1261,2,12,14,CLOSED
+21362,[xvideos] Add couple of other domains for /embedframe/ endpoint,NRTICN,2019-06-11T08:05:35Z,2023-08-01T00:05:37+00:00,1,36280.0,False,1,1,1,1051,0,0,0,CLOSED
+21356,[3sat] extractor now included in zdf3sat.py (closes #21185),matthiasroos,2019-06-10T10:59:49Z,2020-11-17T22:39:39+00:00,7,12635.66,False,26,190,1,1085,7,4,11,CLOSED
+21331,[BrightcoveNew] Add playlist support,kylepw,2019-06-08T00:18:35Z,2019-06-23T10:04:06+00:00,1,369.76,True,25,3,1,1008,4,5,9,MERGED
+21319,[unauthorizedtv] Add new extractor,kevgrig,2019-06-06T21:32:21Z,2019-12-22T04:26:35+00:00,1,4758.9,False,7654,7559,182,881,2,9,11,CLOSED
+21290,"[AsianCrush] fix extractor, add support for yuyutv and Midnight Pulp",ealgase,2019-06-03T12:12:21Z,2019-07-15T17:00:26+00:00,7,1012.8,False,71,18,1,1217,7,7,14,CLOSED
+21265,[YahooJapanNews] Add extractor.,kylepw,2019-05-31T06:00:24Z,2019-07-21T17:59:36+00:00,15,1235.99,True,132,0,2,3703,5,26,31,MERGED
+21209,[vlive] Add CH+ support (closes #16887),biwubo,2019-05-24T16:31:55Z,2019-06-07T19:25:10+00:00,5,338.89,False,73,13,1,1197,4,3,7,CLOSED
+21208,[LiveLeak] Check if the original videos exist (closes #21206),bitraid,2019-05-24T16:15:48Z,2019-05-28T12:31:12+00:00,4,92.26,True,11,5,1,1126,1,2,3,MERGED
+21155,[srgssr] add popupvideoplayer support,basicmaster,2019-05-19T16:15:31Z,2019-05-23T17:48:16+00:00,2,97.55,False,12,1,1,1076,0,2,2,CLOSED
+21154,[Ruutu] Fix extractor by attempting to authenticate video url,juzza1,2019-05-19T14:47:17Z,2020-12-11T23:50:07+00:00,4,13737.05,False,39,2,1,1205,1,1,2,CLOSED
+21079,[Kaltura] Add support for an uncommon typo in a GDC Vault page,zorbathut,2019-05-13T04:00:58Z,2021-05-04T17:16:49+00:00,5,17341.26,False,16,2,1,1442,1,3,4,CLOSED
+21076,bitchute - updated uploader regex,Zer0C001,2019-05-12T18:44:30Z,2019-05-22T20:51:51+00:00,2,242.12,True,3,2,1,1423,0,1,1,MERGED
+21066,[sbs] Handle SBS News URLs without IDs,johnsyweb,2019-05-12T03:35:53Z,2020-05-26T04:43:04+00:00,10,9121.12,False,61,28,2,1628,3,7,10,CLOSED
+21049,Cloudflare can use videodelivery.net subdomains,davex25,2019-05-10T17:44:58Z,2019-05-10T20:09:01+00:00,6,2.4,True,6,3,1,57,1,2,3,MERGED
+20967,[openload] add support for verystream.com,ealgase,2019-05-05T20:19:06Z,2019-05-10T18:35:57+00:00,11,118.28,True,78,24,3,1143,15,7,22,MERGED
+20947,[Kanal D]Added support for new site,kosantosbik,2019-05-03T15:23:08Z,2019-07-19T23:47:04+00:00,4,1856.4,False,143,0,2,1067,0,16,16,CLOSED
+20940,[thisvid] Add extractor (closes #17713),jhwgh1968,2019-05-03T03:37:27Z,2019-07-10T00:51:53+00:00,9,1629.24,False,136,0,2,1004,11,12,23,CLOSED
+20923,[europaconsilium] Add extractor (closes #20679),0x9fff00,2019-05-01T15:42:29Z,2023-08-01T00:05:37+00:00,4,37256.39,False,70,3,3,1558,1,8,9,CLOSED
+20875,[17049] rudimental support of password-protected events (playlist) in…,totobest,2019-04-28T14:16:13Z,2023-08-01T00:05:37+00:00,1,37329.82,False,20,0,1,1108,4,2,6,CLOSED
+20871,[XVideos] Add support for untracked properties,chazardsquair,2019-04-28T11:15:50Z,2023-08-01T00:05:38+00:00,6,37332.83,False,113,3,1,1378,4,11,15,CLOSED
+20870,[JioSaavn] Add extractor,awalgarg,2019-04-28T10:27:42Z,2023-10-07T23:16:21+00:00,2,38964.81,False,122,0,2,1325,4,9,13,CLOSED
+20843,[twitcasting] Add support for private videos,nonnonstop,2019-04-26T11:05:01Z,2019-04-26T16:17:40+00:00,2,5.21,True,24,3,1,1167,0,1,1,MERGED
+20833,[earthcam] Add new extractor per #19293,f4188,2019-04-25T23:54:54Z,2023-08-01T00:05:38+00:00,1,37392.18,False,66,0,2,1054,0,1,1,CLOSED
+20811,[Stitcher] - Reorganized call to json data accessing of {config} and …,zanejchen,2019-04-25T01:06:02Z,2021-01-01T17:41:08+00:00,1,14824.58,False,27,4,1,1920,0,4,4,CLOSED
+20740,[FranceTVInfo] Fix video id regex extraction (Fix #20619),mtilbury,2019-04-21T21:38:03Z,2019-05-04T23:26:31+00:00,2,313.81,True,5,4,1,1727,0,1,1,MERGED
+20706,[porntrex] Add New Extractor for porntrex.com Provides [PornTrex] and [PornTrexPlayList],nindogo,2019-04-18T14:21:02Z,2023-08-01T00:05:38+00:00,13,37569.74,False,147,0,2,1093,6,22,28,CLOSED
+20694,[changba] Add extractor per #20540,rryanq,2019-04-17T00:05:28Z,2023-08-01T00:05:38+00:00,4,37608.0,False,60,0,2,1321,1,6,7,CLOSED
+20689,"[bajeczki] New extractor for ""bajeczki.org""",Monastario,2019-04-16T16:12:00Z,2023-08-01T00:05:38+00:00,1,37615.89,False,33,0,2,1490,0,1,1,CLOSED
+20676,[BYUtv] Add support for akamai VODs (addresses #20574),mtilbury,2019-04-14T22:51:11Z,2019-05-10T20:08:35+00:00,2,621.29,False,45,13,1,1507,0,11,11,CLOSED
+20659,[Soundcloud] Added -original quality thumbnail (closes #20554),Harry-Kwon,2019-04-13T08:21:31Z,2019-10-27T17:03:08+00:00,3,4736.69,False,14,1,1,1353,0,2,2,CLOSED
+20648,[spankwire] Fixed and improved extractor,JChris246,2019-04-12T04:34:06Z,2020-04-05T13:43:56+00:00,1,8625.16,False,67,49,1,773,0,7,7,CLOSED
+20647,[dlive] add extractor,ealgase,2019-04-12T03:55:17Z,2019-05-05T19:46:25+00:00,1,567.85,False,0,0,0,1103,3,5,8,CLOSED
+20634,[giphy] Add extractor,jwilk,2019-04-10T18:45:06Z,2022-07-13T18:45:20+00:00,6,28560.0,False,63,0,2,895,1,5,6,CLOSED
+20632,[iai] Add extractor,jwilk,2019-04-10T16:03:27Z,2022-07-13T18:44:48+00:00,7,28562.69,False,56,0,2,701,1,5,6,CLOSED
+20618,[Amara] Add new extractor,joostverdoorn,2019-04-09T14:13:04Z,2020-11-19T16:26:54+00:00,2,14162.23,True,77,0,2,1352,8,7,15,MERGED
+20604,[Twitch] Add support for collections as per #20414,mtilbury,2019-04-08T05:25:59Z,2020-09-06T03:46:22+00:00,1,12406.34,False,61,0,2,1606,6,1,7,CLOSED
+20543,[Udemy] fix course id regex,anusoft,2019-04-03T09:47:24Z,2019-04-28T14:50:17+00:00,1,605.05,False,3,3,1,1308,0,1,1,CLOSED
+20518,add extractor for 13tv.co.il,itayperl,2019-03-31T20:11:52Z,2023-08-01T00:05:38+00:00,2,37995.9,False,89,0,3,856,0,2,2,CLOSED
+20506,[piksel] add subtitle capability (e.g. https://player.piksel.com/v/ums2867l),chuckcho,2019-03-29T22:55:36Z,2019-08-15T22:14:48+00:00,8,3335.32,True,15,8,1,1166,3,4,7,MERGED
+20487,[Vimeo] Add new embedded type,pihug12,2019-03-27T00:30:10Z,2023-08-01T00:05:38+00:00,1,38111.59,False,6,1,1,4224,0,1,1,CLOSED
+20484,Fixes #20480: Fixed RegexNotFoundError on RTP channel ,rolyli,2019-03-26T22:36:48Z,2023-08-01T00:05:38+00:00,1,38113.48,False,50,34,2,1406,5,7,12,CLOSED
+20425,[youporn] fix url metadata detection (width and bits) to allow best v…,Kasperdilday,2019-03-20T19:03:39Z,2021-01-15T08:13:51+00:00,3,15997.17,False,19,7,1,315,4,3,7,CLOSED
+20402,Fixes spankwire,vijayanandnandam,2019-03-18T17:36:03Z,2019-04-08T14:04:33+00:00,10,500.48,False,37,47,1,1038,4,14,18,CLOSED
+20393,[BiliBili] Add support to download paged videos,lyngai,2019-03-18T11:54:53Z,2023-08-01T00:05:38+00:00,1,38316.18,False,40,3,1,1229,5,0,5,CLOSED
+20376,[vrv] fix thumbnails,Evil-Crab,2019-03-16T23:19:02Z,2023-08-01T00:05:38+00:00,2,38352.78,False,13,9,1,1055,0,3,3,CLOSED
+20357,[corus] Add support for bigbrothercanada.ca,wolfy1339,2019-03-15T05:47:53Z,2019-03-17T07:20:22+00:00,2,49.54,True,12,2,1,1470,4,1,5,MERGED
+20351,[Ciscolive] - Update _VALID_URL patterns (Fixes issue #20320),austind,2019-03-14T15:51:53Z,2019-03-17T00:18:54+00:00,1,56.45,True,13,4,1,1093,0,4,4,MERGED
+20350,Add support for websites with multiple LD-JSON objects,GranPC,2019-03-14T15:33:03Z,2023-08-01T00:05:38+00:00,3,38408.54,False,54,4,2,1453,0,3,3,CLOSED
+20341,[Anysex] remove extractor to let generic extractor handle extraction,JChris246,2019-03-14T01:16:32Z,2019-03-17T02:13:27+00:00,1,72.95,True,0,62,2,862,0,1,1,MERGED
+20309,[youtube] Add invidiou.sh instance,utlasidyo,2019-03-10T17:42:08Z,2019-03-17T00:15:15+00:00,1,150.55,True,2,1,1,1066,0,1,1,MERGED
+20280, Download Original Thumb Size,unknown,2019-03-08T14:47:29Z,2023-08-01T00:05:38+00:00,1,38553.3,False,1,1,1,1078,0,0,0,CLOSED
+20235,[urplay] Extract timestamp,0x9fff00,2019-03-03T16:29:47Z,2019-03-05T19:11:33+00:00,3,50.7,True,16,2,1,1064,3,2,5,MERGED
+20223,Travis CI: The 'sudo' tag is now deprecated,cclauss,2019-03-02T14:11:58Z,2019-03-03T01:16:49+00:00,2,11.08,True,0,1,1,1413,0,1,1,MERGED
+20219,[utils] strip #HttpOnly_ prefix from cookies files,remitamine,2019-03-02T08:40:16Z,2019-03-03T12:24:00+00:00,5,27.73,True,33,1,3,1154,2,2,4,MERGED
+20207,Add BandcampUser extractor,lyz-code,2019-03-01T13:19:56Z,2022-02-16T16:07:16+00:00,18,25994.79,False,102,10,2,597,14,13,27,CLOSED
+20087,[abc:iview:show] Added support for full series playlists - additional episode collection allows immediate checking against the archive,VoidedHeadPort,2019-02-28T13:21:44Z,2022-05-30T02:41:44+00:00,1,28477.33,False,106,26,2,1437,7,4,11,CLOSED
+20071,Update regex for finding video_id.,unknown,2019-02-27T20:47:21Z,2019-02-28T16:29:44+00:00,1,19.71,False,5,0,1,1407,0,1,1,CLOSED
+20021,Handle Opus bitrate when quality is specified instead of bitrate,Hattshire,2019-02-26T20:13:52Z,2023-08-01T00:05:38+00:00,2,38787.86,False,9,1,1,1419,0,1,1,CLOSED
+19296,[dropout] Add new extractor,tsia,2019-02-21T16:08:43Z,2021-05-23T14:03:02+00:00,8,19725.91,False,10840,6309,184,1318,24,13,37,CLOSED
+19244,[servus] fix for new url format,Oneboy1979,2019-02-16T13:46:49Z,2019-02-24T15:54:49+00:00,13,194.13,False,11,13,1,1261,0,2,2,CLOSED
+19217,Fixes #18906: Fixes title extraction for vivo.sx.,dhoepfl,2019-02-13T15:39:30Z,2019-05-22T20:09:05+00:00,7,2356.49,False,16,2,1,1259,1,4,5,CLOSED
+19183,[svtplay] Extract more metadata and higher resolution thumbnail (closes #18159),0x9fff00,2019-02-09T23:18:42Z,2023-08-01T00:05:38+00:00,1,39192.78,False,74,34,1,1210,1,3,4,CLOSED
+19174,[dvtv] Fix extraction,jfriesse,2019-02-09T09:29:29Z,2019-04-06T15:49:52+00:00,1,1350.34,False,73,47,1,1239,6,6,12,CLOSED
+19160,[cbc] Add login support,meunierd,2019-02-06T20:13:48Z,2020-03-20T18:43:25+00:00,5,9790.49,False,34,2,1,1378,54,6,60,CLOSED
+19145,[SpankBangPlaylist] Add new extractor,JChris246,2019-02-05T18:50:11Z,2019-02-07T17:12:00+00:00,9,46.36,False,41,1,2,870,0,8,8,CLOSED
+19136,[adobepass] Fixes Adobe Pass for saml login errors with Verizon,keithah,2019-02-04T20:51:28Z,2023-08-01T00:05:38+00:00,1,39315.24,False,32,5,2,1346,3,0,3,CLOSED
+19135,[pornhub] fixed tag and category parsing #fixes 13720,JChris246,2019-02-04T17:36:16Z,2019-02-05T16:11:38+00:00,1,22.59,False,11,9,1,801,0,2,2,CLOSED
+19125,[pornhd] added like count to info dict,JChris246,2019-02-03T23:36:53Z,2019-02-04T17:06:05+00:00,2,17.49,True,8,0,1,763,0,3,3,MERGED
+19111,[pornhub] fixed category and tag parsing fixes #13720,JChris246,2019-02-02T17:51:00Z,2019-02-03T23:08:27+00:00,4,29.29,False,11,9,1,791,0,14,14,CLOSED
+19092,Fix for issue #19020,adi928,2019-02-01T19:14:42Z,2019-02-03T03:53:49+00:00,6,32.65,False,11,3,1,1119,0,3,3,CLOSED
+19086,[soundcloud] Fix paged playlist download archival,CoryDHall,2019-02-01T02:00:23Z,2019-02-02T16:42:02+00:00,7,38.69,False,55,37,1,1196,1,7,8,CLOSED
+19085,Contar,castorinop,2019-01-31T22:50:37Z,2023-08-01T00:05:38+00:00,10,39409.25,False,287,0,2,829,1,8,9,CLOSED
+19084,[ceskatelevize] ČT currently uses WebVTT subtitles,aidik,2019-01-31T22:19:42Z,2022-07-26T12:06:47+00:00,1,30517.78,False,3,28,1,1145,1,1,2,CLOSED
+19078,[drtuber] Added duration to info dict,JChris246,2019-01-30T22:34:55Z,2019-02-01T23:04:01+00:00,1,48.48,True,6,0,1,807,0,1,1,MERGED
+19059,[zattoo] Add new Zattoo reseller: Salt,goggle,2019-01-28T18:18:23Z,2019-01-28T19:20:47+00:00,1,1.04,True,12,0,2,854,0,2,2,MERGED
+19000,Add VdoCipher extractor,zopieux,2019-01-25T19:13:24Z,2023-08-01T00:05:38+00:00,2,39556.87,False,81,2,4,867,3,2,5,CLOSED
+18992,[yourporn] Fixed Extractor and added duration,JChris246,2019-01-25T02:00:11Z,2019-01-28T23:38:02+00:00,2,93.63,False,9,2,1,1590,0,5,5,CLOSED
+18972,Fixed extractor and added duration,JChris246,2019-01-23T20:22:33Z,2019-01-25T17:39:46+00:00,4,45.29,False,29,4,1,1578,0,2,2,CLOSED
+18957,[orf:fm4:story] Fix extraction (closes #18919),gfabiano,2019-01-22T21:07:39Z,2023-08-01T00:05:38+00:00,1,39626.97,False,18,3,1,1261,2,1,3,CLOSED
+18930,[Openload] Add support to new domain,lr94,2019-01-20T13:51:30Z,2019-01-30T17:18:09+00:00,1,243.44,False,5,2,1,1075,1,0,1,CLOSED
+18913,[ruv] Fix extractor,ejonsson,2019-01-18T17:34:25Z,2023-08-01T00:05:38+00:00,1,39726.52,False,52,25,1,1113,0,5,5,CLOSED
+18895,Convert archive.org thumbnail url to absolute (Closes #18892),seasoprano,2019-01-17T04:25:36Z,2019-01-17T07:25:30+00:00,2,3.0,False,8,0,1,1159,2,0,2,CLOSED
+18876,[OK.RU] Raise error in case of paid videos.,aviperes,2019-01-16T10:38:41Z,2019-01-20T08:15:01+00:00,3,93.61,True,9,0,1,1061,0,2,2,MERGED
+18850,Facebook - get timestamp from tahoe if missing.,aviperes,2019-01-14T11:38:26Z,2023-08-01T00:05:38+00:00,5,39828.45,False,95,23,1,1332,3,6,9,CLOSED
+18792,[rai] Fix most tests,ao2,2019-01-09T15:56:42Z,2020-12-15T23:55:00+00:00,3,16951.97,False,16,13,1,1060,5,2,7,CLOSED
+18771,[Hungama] Add new extractor,awalgarg,2019-01-07T12:26:16Z,2019-01-08T03:06:30+00:00,1,14.67,False,33,0,2,1269,4,5,9,CLOSED
+18757,"[Instagram] Add new [:tag] extractor, refactor [:user]",jhwgh1968,2019-01-06T00:35:39Z,2019-01-20T09:10:47+00:00,6,344.59,True,105,37,2,1283,6,14,20,MERGED
+18748,[YouPorn] Make title regex more specific.,oddstr13,2019-01-05T00:08:31Z,2019-01-08T17:39:17+00:00,2,89.51,False,1,7,1,536,0,3,3,CLOSED
+18731,[facebook] extract better titles (fixes #14156),barsnick,2019-01-03T16:20:15Z,2023-08-01T00:05:38+00:00,1,40087.76,False,4,0,1,2520,4,0,4,CLOSED
+18725,[dnb] Add new extractor,user706,2019-01-02T22:19:25Z,2023-08-01T00:05:38+00:00,1,40105.77,False,76,0,2,1095,1,6,7,CLOSED
+18713,[compoundmedia] Add new extractor,kevgrig,2019-01-01T22:25:50Z,2019-01-05T02:04:01+00:00,4,75.64,False,48,0,2,860,3,5,8,CLOSED
+18712,[gramofononline] new extractor,user706,2019-01-01T15:43:30Z,2023-08-01T00:05:38+00:00,11,40136.37,False,140,0,2,1063,1,6,7,CLOSED
+18710,[Streamango] Added support to new domain,leober-ramos33,2019-01-01T15:12:54Z,2019-01-20T09:24:21+00:00,1,450.19,True,4,1,1,242,0,1,1,MERGED
+18696,[hketv] Add new extractor,anthonyfok,2018-12-30T10:49:08Z,2019-01-20T10:44:55+00:00,33,503.93,False,186,0,2,1990,4,22,26,CLOSED
+18635,[sverigesradio] Add extractor,wader,2018-12-25T13:40:54Z,2019-04-28T11:05:38+00:00,31,2973.41,False,109,0,2,1086,15,41,56,CLOSED
+18629,[vrtnu] Requesting video info has new end-point requiring a new vrtPlayerToken.,Twilkie,2018-12-24T23:04:54Z,2020-01-14T16:54:44+00:00,1,9257.83,False,12,6,1,1261,21,0,21,CLOSED
+18622,[adobepass] support FubuTV MSO,ngdio,2018-12-24T02:11:54Z,2023-08-01T00:05:38+00:00,1,40341.9,False,44,17,1,813,0,1,1,CLOSED
+18609,[radiocanada] Relax DRM check,alexhuot1,2018-12-21T23:07:23Z,2019-01-20T11:33:10+00:00,1,708.43,True,13,1,1,1254,3,3,6,MERGED
+18558,More flexible mediasite regex to download public videos,DaanVanVugt,2018-12-17T07:58:29Z,2018-12-17T17:03:01+00:00,5,9.08,True,6,2,1,1077,0,1,1,MERGED
+18549,readme: add flake instructions,glensc,2018-12-16T15:08:05Z,2018-12-19T20:22:10+00:00,4,77.23,True,7,3,1,64,1,1,2,MERGED
+18547,Add new extractor: Kanal2,glensc,2018-12-16T11:46:44Z,2023-08-01T00:05:39+00:00,22,40524.32,False,122,0,2,918,9,16,25,CLOSED
+18530,Add support for gaana.com,GourangaDas,2018-12-15T07:11:54Z,2023-08-01T00:05:38+00:00,1,40552.9,False,187,0,2,1176,8,11,19,CLOSED
+18521,[youtube] Fix TFA,eduardog3000,2018-12-14T01:48:04Z,2023-08-01T00:05:38+00:00,11,40582.29,False,26,2,1,2663,11,1,12,CLOSED
+18437,Add age-limit option on dailymotion to download explicit,coffeecore,2018-12-07T09:48:03Z,2019-11-26T21:18:46+00:00,1,8507.51,False,12,7,1,1336,1,2,3,CLOSED
+18435,[regiotv] Fix broken extractor (closes #15348),goggle,2018-12-07T04:06:38Z,2019-03-10T04:35:18+00:00,2,2232.48,False,13,34,1,874,2,3,5,CLOSED
+18380,Don't display messsage about confirmation code when file isn't downloadble,bato3,2018-12-03T09:18:45Z,2023-08-01T00:05:39+00:00,1,40838.78,False,12,7,1,1148,0,1,1,CLOSED
+18371,[ARD:mediathek] Fix title and description extraction,goggle,2018-12-02T17:59:44Z,2018-12-06T20:41:03+00:00,1,98.69,True,7,2,1,1243,0,1,1,MERGED
+18298,Added Proxy username:password to example,MatthewBraun,2018-11-25T02:22:15Z,2023-08-01T00:05:38+00:00,1,41037.72,False,2,1,1,1576,0,2,2,CLOSED
+18268,[narando] add new extractor,ealgase,2018-11-21T20:46:14Z,2023-08-01T00:05:39+00:00,3,41115.32,False,85,0,2,1210,4,19,23,CLOSED
+18265,[cpac] Add new extractor,ealgase,2018-11-21T17:02:26Z,2022-02-24T18:27:58+00:00,1,28585.43,False,38,0,2,1153,0,1,1,CLOSED
+18135,[tiktok] Add new extractor,Flat,2018-11-09T22:13:03Z,2018-12-01T19:45:31+00:00,10,525.54,False,80,0,2,1077,6,19,25,CLOSED
+18070,Add support for safari learning paths,luisdeltoro,2018-11-04T19:00:44Z,2023-08-01T00:05:39+00:00,3,41525.08,False,58,1,2,1117,27,2,29,CLOSED
+18044,[atv.at] fix initial video extraction,NeroBurner,2018-11-01T19:08:40Z,2018-11-16T17:18:50+00:00,3,358.17,True,4,2,1,944,3,3,6,MERGED
+18001,New: Extracter for Porntrex,nindogo,2018-10-28T17:04:39Z,2019-07-03T06:26:10+00:00,5,5941.36,False,2295,893,72,1312,4,5,9,CLOSED
+17984,Ciscolive,austind,2018-10-27T02:22:39Z,2018-11-20T23:15:27+00:00,12,596.88,False,137,0,2,1509,3,26,29,CLOSED
+17981,[Twitcasting] Add new extractor,sichuan-pepper,2018-10-26T19:02:05Z,2018-11-02T17:32:59+00:00,1,166.51,False,45,0,2,1135,3,3,6,CLOSED
+17939,Rightnowmedia Support,ABOTlegacy,2018-10-21T19:11:59Z,2023-08-01T00:05:39+00:00,1,41860.89,False,106,0,2,1352,0,6,6,CLOSED
+17912,[Openload] Add new support to new domain oload.icu,leober-ramos33,2018-10-18T01:15:11Z,2018-10-28T15:51:30+00:00,1,254.61,True,4,1,1,98,0,0,0,MERGED
+17904,pass on extractor's info to postprocessors,mx1up,2018-10-16T17:05:03Z,2023-08-01T00:05:39+00:00,4,41983.01,False,110,17,2,1863,10,3,13,CLOSED
+17891,[sonosfm] Add new extractor,capital-G,2018-10-14T21:38:30Z,2023-08-01T00:05:39+00:00,1,42026.45,False,40,0,2,823,0,4,4,CLOSED
+17856,[MallTV] Add new extractor,schunka,2018-10-10T22:07:28Z,2019-02-07T17:45:19+00:00,36,2875.63,False,63,2,5,1136,6,28,34,CLOSED
+17850,Add welt.de extractor.,MPW1412,2018-10-09T18:00:45Z,2023-08-01T00:05:39+00:00,1,42150.08,False,57,0,2,775,6,6,12,CLOSED
+17838,[discovery] Add support for --geo-verification-proxy,unknown,2018-10-08T17:01:25Z,2019-01-02T16:46:08+00:00,1,2063.75,True,4,3,1,1149,0,2,2,MERGED
+17766,[ard] ARDIE: support subtitles,ngdio,2018-10-03T13:29:21Z,2022-02-07T16:47:40+00:00,1,29355.31,False,8,0,1,815,2,2,4,CLOSED
+17706,[dailymotion] fix extraction,mrfade,2018-09-29T10:33:32Z,2018-10-04T19:07:34+00:00,5,128.57,False,7,1,1,1036,6,4,10,CLOSED
+17649,[nbc] Add support for series playlists,ppritcha,2018-09-23T22:37:41Z,2023-08-01T00:05:39+00:00,2,42529.47,False,102,3,2,1297,4,15,19,CLOSED
+17625,liveleak: add original format without watermark,jomo,2018-09-21T03:05:08Z,2021-06-20T21:23:52+00:00,14,24090.31,False,10,0,1,986,2,5,7,CLOSED
+17498,[Instagram] Support for Stories videos,Tatsh,2018-09-08T22:46:30Z,2025-06-06T12:51:40+00:00,2,59102.09,False,214,30,2,1063,16,3,19,CLOSED
+17497,[niconico] Search Extractor,zC5ZZFGOLreaxDGZhIijndYG4hZYcv3U,2018-09-08T22:24:03Z,2023-08-01T00:05:39+00:00,2,42889.69,False,56,2,2,1431,1,6,7,CLOSED
+17479,[SverigesRadio] Add new extractor,burnoutberni,2018-09-07T22:24:57Z,2019-04-28T11:07:15+00:00,1,5580.7,False,79,1,2,2147,2,6,8,CLOSED
+17453,Mediaklikk extractor,tmarki,2018-09-06T21:37:58Z,2023-08-01T00:05:39+00:00,2,42938.46,False,70,0,2,1125,4,5,9,CLOSED
+17450,[wwe] Add extractor,mrtnmtth,2018-09-06T14:14:51Z,2018-11-17T17:02:13+00:00,3,1730.79,False,57,0,2,804,3,9,12,CLOSED
+17448,[nbc] unescape url before sending (close #17374),timendum,2018-09-06T10:35:25Z,2018-09-08T07:44:07+00:00,1,45.15,True,7,1,1,892,1,1,2,MERGED
+17442,[nbc] unescape url before sending (close #17374),timendum,2018-09-05T11:31:58Z,2018-09-06T10:32:13+00:00,5,23.0,False,0,0,0,839,0,1,1,CLOSED
+17434,[PBS] Fix subtitle download,raphaeldore,2018-09-04T18:56:20Z,2023-08-01T00:05:39+00:00,4,42989.16,False,48,2,2,1473,2,4,6,CLOSED
+17414,"Added info extractor for www.tele5.de, a German TV station.",jensrutschmann,2018-09-01T18:21:20Z,2018-09-08T09:10:45+00:00,8,158.82,False,40,0,2,1183,5,12,17,CLOSED
+17397,Ardone,LangerJan,2018-08-31T09:01:36Z,2018-09-01T09:42:31+00:00,2,24.68,True,4,1,1,1234,2,1,3,MERGED
+17363,[RTBF] Get full title and description,Urgau,2018-08-27T19:17:08Z,2021-09-25T20:58:53+00:00,1,27001.7,False,17,3,1,860,6,2,8,CLOSED
+17360,[bitchute] Needs user agent to get formats,Tatsh,2018-08-27T13:53:04Z,2018-08-27T15:04:57+00:00,1,1.2,True,3,1,1,1107,0,1,1,MERGED
+17327,[olympicchannel] Add extractor,michaelforney,2018-08-25T02:15:00Z,2023-08-01T00:05:39+00:00,12,43245.84,False,44,0,2,988,3,10,13,CLOSED
+17261,[webofstories] fix playlist downloads,mohammed90,2018-08-17T03:06:24Z,2018-08-26T14:23:32+00:00,4,227.29,False,3,3,1,1539,1,1,2,CLOSED
+17249,[6play] Add support for play.rtl.hr,hmlinaric,2018-08-16T00:20:55Z,2018-08-21T17:06:28+00:00,1,136.76,True,5,1,1,1157,0,2,2,MERGED
+17152,[RadioJavan] Add audio download support,hkdsun,2018-08-04T14:59:56Z,2020-05-19T13:15:19+00:00,1,15694.26,False,71,27,3,1032,1,4,5,CLOSED
+17151,[RadioJavan] Fix video downloads,hkdsun,2018-08-04T13:55:28Z,2018-09-02T19:55:25+00:00,1,702.0,False,13,1,1,976,2,3,5,CLOSED
+17126,[twitch:vod] Twitch passport support for login,timbroder,2018-07-31T21:11:09Z,2018-08-03T15:46:24+00:00,9,66.59,False,13,7,1,1398,1,3,4,CLOSED
+17122,"[dplay] handle es, removed old metadata (close #16969)",timendum,2018-07-31T15:59:42Z,2020-01-27T18:35:26+00:00,4,13082.6,False,47,23,2,822,9,12,21,CLOSED
+17118,Close socket after downloading page.,bato3,2018-07-31T11:06:33Z,2023-08-01T00:05:39+00:00,1,43836.99,False,14,3,1,1134,1,1,2,CLOSED
+17110,[cbnc] fix extraction,gfabiano,2018-07-30T16:17:47Z,2018-10-29T17:00:13+00:00,1,2184.71,False,44,2,2,1072,0,1,1,CLOSED
+17108,[dplay] handle es (close #16969),timendum,2018-07-30T11:56:48Z,2018-07-31T15:53:09+00:00,1,27.94,False,0,0,0,845,0,3,3,CLOSED
+17091,[ADN] login + response error detect FIXES #17084,bato3,2018-07-29T01:25:50Z,2021-01-25T08:26:00+00:00,7,21871.0,False,53,1,1,855,3,4,7,CLOSED
+17088,[pornhub] Added support to subtitles,gfabiano,2018-07-28T19:46:15Z,2018-07-28T23:24:10+00:00,1,3.63,True,34,0,1,1071,0,2,2,MERGED
+17077,Make proxy PRIVATE in verbose,bato3,2018-07-27T12:55:37Z,2023-08-01T00:05:39+00:00,2,43931.17,False,19,2,2,1326,3,4,7,CLOSED
+17076,(Crunchyroll) Don't match `media-<id>` as playlist,bato3,2018-07-27T12:00:04Z,2018-07-28T23:56:52+00:00,3,35.95,True,4,1,1,875,1,1,2,MERGED
+17059,Update to Firefox plugin,funky-monkey,2018-07-25T13:18:23Z,2018-07-27T17:18:41+00:00,1,52.01,True,1,1,1,147,1,0,1,MERGED
+17045,Clarified format selection merging behaviour in readme,awiebe,2018-07-23T05:02:15Z,2018-07-23T15:55:34+00:00,1,10.89,False,3,1,1,1517,0,1,1,CLOSED
+17021,[Iwara] Update extractor,kzm4269,2018-07-20T08:53:41Z,2018-07-21T10:41:34+00:00,1,25.8,True,1,1,1,1098,0,1,1,MERGED
+17017,[Expressen] Improve extractor to work with more URLs,haraldmartin,2018-07-19T14:07:17Z,2021-05-20T12:13:21+00:00,3,24862.1,False,61,14,1,1161,5,3,8,CLOSED
+17001,[slutload] Fix extraction for desktop and mobile site,windom,2018-07-18T09:59:25Z,2018-07-18T19:01:04+00:00,1,9.03,False,53,17,2,1275,0,1,1,CLOSED
+16985,Fixes #16984 - Don't display og:metadata Warning,bato3,2018-07-16T12:36:16Z,2018-07-18T19:04:06+00:00,1,54.46,True,2,1,1,883,0,1,1,MERGED
+16968,[zingmp3] Update extractor,Taik,2018-07-14T17:11:26Z,2021-03-22T14:59:17+00:00,1,23565.8,False,62,46,1,1158,1,1,2,CLOSED
+16958,[Mp4upload] new extractor (updated),bato3,2018-07-12T21:27:16Z,2023-08-01T00:05:39+00:00,6,44282.64,False,146,0,2,827,3,13,16,CLOSED
+16942,[facebook] Add facebook views count,yurganov,2018-07-09T22:08:41Z,2018-07-18T19:27:52+00:00,1,213.32,False,21,0,1,1242,2,2,4,CLOSED
+16930,[cartoonnetwork] Fix for the recent conversion from CVP to NGTV,shaneallgeier,2018-07-08T05:02:48Z,2019-01-19T08:17:51+00:00,1,4683.25,False,20,16,1,1369,1,3,4,CLOSED
+16755,Add extractor for downloading a complete series from iView,DanielHeath,2018-06-18T00:25:58Z,2023-08-01T00:05:40+00:00,25,44879.66,False,61,0,2,1098,16,24,40,CLOSED
+16741,[Iwara] Add new metadata extractors,AlexAplin,2018-06-15T03:30:28Z,2019-04-13T23:37:28+00:00,1,7268.12,False,41,0,1,1231,6,5,11,CLOSED
+16735,Continue trying after _parse_jwplayer_data fails,moyamo,2018-06-14T15:38:36Z,2018-09-02T19:17:07+00:00,7,1923.64,False,21,3,1,1391,1,4,5,CLOSED
+16716,Issue 16277,Nekmo,2018-06-12T21:51:21Z,2019-10-16T11:05:17+00:00,7,11773.23,False,75,143,1,347,4,12,16,CLOSED
+16711,[foxnews:article] Fix video ID extraction,Urgau,2018-06-12T15:25:16Z,2018-06-20T16:55:20+00:00,1,193.5,False,25,12,1,793,12,2,14,CLOSED
+16623,[PBS] Fix AttributeError: 'NoneType',Urgau,2018-06-03T08:50:49Z,2018-06-15T19:58:04+00:00,14,299.12,False,31,1,1,782,3,5,8,CLOSED
+16620,[alphaporno] Fix test errors,jpalecek,2018-06-03T00:59:25Z,2023-08-01T00:05:39+00:00,1,45239.1,False,24,19,1,1201,2,1,3,CLOSED
+16598,[DW] Update extractor with /playersources API,effleurager,2018-06-01T05:30:16Z,2020-03-16T06:56:21+00:00,6,15697.43,False,42,11,1,953,4,3,7,CLOSED
+16595,[openload] improvement for determinating file extension,mrfade,2018-05-31T22:12:44Z,2018-06-01T17:16:23+00:00,1,19.06,True,7,3,3,916,0,2,2,MERGED
+16593,Issue 16583,rhhayward,2018-05-31T16:35:02Z,2018-06-01T17:37:08+00:00,1,25.04,False,5,1,1,1566,2,1,3,CLOSED
+16582,[skillshare:course] Add new extractor,Oshawk,2018-05-30T12:35:38Z,2019-10-21T17:02:15+00:00,4,12220.44,False,127,0,2,1437,5,12,17,CLOSED
+16568,[mediaset] Update extractor for 2018,timendum,2018-05-28T16:09:04Z,2018-06-29T19:21:11+00:00,2,771.2,False,41,19,1,729,2,2,4,CLOSED
+16554,[facebook] Implement secondary request for specific videos,nathanrossi,2018-05-26T16:15:15Z,2018-06-01T18:44:54+00:00,1,146.49,False,35,3,1,3264,0,3,3,CLOSED
+16527,[CBC] Fix title extraction (fixes issue #16502),parmjitv,2018-05-22T23:17:29Z,2018-05-26T13:05:54+00:00,1,85.81,True,5,2,1,1228,3,1,4,MERGED
+16507,handle wrong formatted date argument,Arlon1,2018-05-21T00:29:40Z,2020-12-28T18:42:00+00:00,3,22866.21,False,4,1,1,1319,0,1,1,CLOSED
+16495,[niconico] use HeartBeat,nekojun,2018-05-19T02:33:15Z,2023-08-01T00:05:39+00:00,5,45597.54,False,45,1,3,1317,0,5,5,CLOSED
+16455,Allow creation of internet shortcut files,h-h-h-h,2018-05-14T22:11:55Z,2023-08-01T00:05:40+00:00,2,45697.9,False,273,9,10,3877,3,3,6,CLOSED
+16427,[reddit] ignore subdomains,llyyr,2018-05-10T14:52:57Z,2018-05-10T16:17:24+00:00,3,1.41,True,5,1,1,1033,4,1,5,MERGED
+16354,[bilibili] Support paged videos,chongjea,2018-05-02T08:46:19Z,2023-08-01T00:05:40+00:00,8,45999.32,False,25,9,1,1086,2,1,3,CLOSED
+16352,Youtube Channel Playlist Title's,joe-bruno,2018-05-02T04:31:28Z,2020-12-27T14:00:11+00:00,1,23289.48,False,8,4,1,1118,1,1,2,CLOSED
+16329,[peertube] Added extractor,parth-verma,2018-04-29T18:18:23Z,2018-05-25T17:11:05+00:00,20,622.88,False,48,0,2,1105,4,18,22,CLOSED
+16328,Frontend master extractor,Kerruba,2018-04-29T17:48:48Z,2018-07-07T17:52:16+00:00,15,1656.06,False,275,0,2,1170,3,17,20,CLOSED
+16327,[ibm think videos] Added new extractor,parth-verma,2018-04-29T17:07:06Z,2023-08-01T00:05:39+00:00,17,46062.98,False,33,2,3,1110,4,8,12,CLOSED
+16317,Pietsmiet,mhartkorn,2018-04-28T12:06:49Z,2019-01-02T15:09:59+00:00,3,5979.05,False,102,0,2,1064,2,6,8,CLOSED
+16274,Add support for old.reddit.com URLs.,Meneth32,2018-04-25T06:05:39Z,2018-04-29T14:59:40+00:00,1,104.9,True,5,1,1,1138,1,0,1,MERGED
+16269,[puhutv] Add new extractor,mrfade,2018-04-24T16:11:03Z,2018-07-22T13:38:53+00:00,2,2133.46,False,236,0,2,797,4,12,16,CLOSED
+16250,[openload] Generic IP v4 & v6 stream URL parsing (fixes #16137),zopieux,2018-04-22T10:22:45Z,2018-04-24T17:49:31+00:00,1,55.45,True,4,1,1,843,7,1,8,MERGED
+16236,Add MakoTV extractor,relrelb,2018-04-20T18:21:19Z,2023-08-01T00:05:40+00:00,3,46277.74,False,114,0,2,1402,11,13,24,CLOSED
+16189,[generic] prefer enclosures over following links in rss feeds,bastiandg,2018-04-14T15:39:25Z,2018-04-29T15:14:38+00:00,8,359.59,True,18,6,1,2982,3,3,6,MERGED
+16184,[scientology] Add new extractor,sguan28,2018-04-14T07:18:51Z,2023-08-01T00:05:40+00:00,1,46432.78,False,43,0,2,1075,0,5,5,CLOSED
+16174,Indavideo token,dnet,2018-04-13T08:29:19Z,2018-05-25T17:46:06+00:00,5,1017.28,True,18,5,1,1138,3,4,7,MERGED
+16154,[KeezMovies] Added fallback to generic extractor (fixes issue #16134),parmjitv,2018-04-11T00:12:12Z,2018-04-19T15:25:51+00:00,13,207.23,True,17,11,1,1147,4,8,12,MERGED
+16153,[senedd] Add extactor for senedd.tv,cwd24,2018-04-10T23:38:59Z,2023-08-01T00:05:40+00:00,1,46512.44,False,61,0,2,1100,0,3,3,CLOSED
+16115,[generic] Add Share-Videos.se embeds detection (Fixes #16089),f2face,2018-04-07T04:29:52Z,2018-04-08T17:19:24+00:00,9,36.83,True,18,0,1,818,0,2,2,MERGED
+16106,[medialaan] Fix clips downloading,kenavera,2018-04-06T09:13:49Z,2021-01-27T13:59:38+00:00,1,24652.76,False,24,14,1,1423,8,3,11,CLOSED
+16105,[Roosterteeth] Update extractor to support new site.,ddmgy,2018-04-06T06:01:50Z,2019-11-05T07:19:19+00:00,2,13873.29,False,102,69,1,2624,30,13,43,CLOSED
+16100,"Make JSON-LD ""@context"" parsing more robust (closes #16006)",aeph6Ee0,2018-04-05T11:07:13Z,2018-04-07T20:09:42+00:00,3,57.04,True,1,1,1,1105,1,3,4,MERGED
+16062,[Joox] Add new extractor,hugotai101,2018-04-01T18:09:46Z,2018-04-03T17:37:11+00:00,1,47.46,False,92,1,2,1052,2,12,14,CLOSED
+16059,Add svtplay series playlist support,wader,2018-04-01T13:20:05Z,2018-04-04T17:30:48+00:00,4,76.18,False,58,0,2,1063,14,22,36,CLOSED
+16038,[VTM.be] fix long video_id,kenavera,2018-03-30T08:21:46Z,2018-03-31T15:14:50+00:00,2,30.88,True,1,0,1,1363,0,1,1,MERGED
+16003,Add videakid as an alias for videa,cdman,2018-03-27T05:22:44Z,2018-03-27T15:02:04+00:00,1,9.66,True,11,2,1,1398,1,2,3,MERGED
+15987,[guitartricks] Add new extractor,thiemo,2018-03-25T14:45:56Z,2018-05-09T11:15:22+00:00,2,1076.49,False,144,0,2,660,2,2,4,CLOSED
+15979,[XVideos] Correctly set thumbnail image (fixes issue #15978),parmjitv,2018-03-24T19:20:07Z,2018-03-31T16:46:08+00:00,2,165.43,True,3,1,1,1112,2,3,5,MERGED
+15931,[ccma] fix extractor. A list of urls is now being sent from the server.,andrescarrasco,2018-03-20T09:05:56Z,2018-04-21T21:56:54+00:00,6,780.85,False,16,3,1,1287,2,7,9,CLOSED
+15927,[kaltura] add support for embeds specifying a kaltura session,jspiros,2018-03-20T04:38:16Z,2023-08-01T00:05:40+00:00,6,47035.46,False,22,8,1,1260,1,3,4,CLOSED
+15888,"Fix --force-ipv4, --force-ipv6, --source-address",Tatsh,2018-03-17T00:23:30Z,2018-08-27T18:51:37+00:00,2,3930.47,False,35,0,1,2948,0,3,3,CLOSED
+15867,Vidtodo [Add new Extractor],alrii,2018-03-14T13:45:18Z,2020-12-28T18:39:58+00:00,3,24484.91,False,69,0,2,1261,2,3,5,CLOSED
+15855,[vimeo] fix album extraction (issue #15704),kayb94,2018-03-13T15:41:24Z,2019-08-03T09:39:55+00:00,1,12185.98,False,58,1,1,890,7,4,11,CLOSED
+15852,Unable to extract player parameters,balibell,2018-03-13T11:02:12Z,2018-03-14T09:18:47+00:00,1,22.28,False,7,4,1,1250,0,2,2,CLOSED
+15846,Fix ffmpeg error with bin_data streams,Tatsh,2018-03-13T06:57:08Z,2019-01-28T03:16:25+00:00,1,7700.32,False,3,0,1,2456,4,2,6,CLOSED
+15840,"FFmpegCutVideo postprocessor, for cutting the video after download",marnunez,2018-03-12T16:41:36Z,2023-08-01T00:05:40+00:00,2,47215.4,False,76,0,4,1912,3,6,9,CLOSED
+15837,[Tvnow] bugfix & download whole serie,AndroKev,2018-03-12T10:44:56Z,2018-04-02T17:12:01+00:00,4,510.45,False,58,16,2,1315,2,11,13,CLOSED
+15822,"[TastyTrade] Fix old test, handle alt urls",thepelkus-too,2018-03-11T01:33:51Z,2020-12-20T17:12:02+00:00,7,24375.64,False,21,6,1,1644,2,10,12,CLOSED
+15784,"[heise] fix title extraction, modify test accordingly",kayb94,2018-03-06T21:56:34Z,2018-03-15T16:10:46+00:00,6,210.24,False,9,11,1,855,2,4,6,CLOSED
+15728,[heise] delegate to KalturaIE when necessary (#14961),kayb94,2018-03-01T01:26:15Z,2018-03-06T16:10:02+00:00,1,134.73,True,20,0,1,837,1,4,5,MERGED
+15687,"[Vidello] added new extractor, fixes #14457",Wandang,2018-02-23T19:06:01Z,2023-08-01T00:05:40+00:00,11,47620.99,False,45,0,2,853,2,14,16,CLOSED
+15672,"[Volat] Added extractor, fixes #15041",Wandang,2018-02-22T01:09:27Z,2018-05-27T11:27:45+00:00,2,2266.3,False,43,1,2,911,1,3,4,CLOSED
+15663,[ZDF] added current test case,Wandang,2018-02-20T12:19:07Z,2018-02-21T14:57:35+00:00,1,26.64,True,11,8,1,830,2,2,4,MERGED
+15659,"[RedTube] fixed redtube test case md5,upload date and duration",Wandang,2018-02-20T11:45:20Z,2018-02-21T14:55:29+00:00,3,27.17,True,5,4,1,826,3,3,6,MERGED
+15629,"--metadata option, allows the user to specify key/value pairs for encoding metadata",vayalil,2018-02-17T01:25:32Z,2023-08-01T00:05:40+00:00,1,47782.67,False,63,0,4,1751,1,2,3,CLOSED
+15628,[fusion] updated regex to use .tv,VietTPham,2018-02-17T00:49:42Z,2018-02-17T13:54:52+00:00,1,13.09,True,3,3,1,1102,0,1,1,MERGED
+15614,[PornHub] Added support for channel video collections (fixes issue #15613),parmjitv,2018-02-16T04:23:20Z,2018-02-16T18:17:07+00:00,1,13.9,True,20,1,1,1107,1,1,2,MERGED
+15561,[veoh] Support embed urls,jscissr,2018-02-10T22:29:58Z,2018-02-10T23:51:11+00:00,1,1.35,True,4,1,1,855,0,1,1,MERGED
+15551,[picarto] Add new extractor,TingPing,2018-02-10T00:19:30Z,2018-04-15T17:36:03+00:00,7,1553.28,False,91,0,2,889,6,25,31,CLOSED
+15502,"Fix ""Unable to extract player data"" regex error",Vrihub,2018-02-05T11:07:37Z,2018-02-07T14:48:17+00:00,1,51.68,True,3,1,1,773,0,1,1,MERGED
+15480,replace http by https in api calls Medialaan extractor,wernerkarlheisenberg,2018-02-02T18:42:45Z,2018-02-06T06:40:19+00:00,1,83.96,False,2,2,1,1074,2,1,3,CLOSED
+15462,[vtv] Add new extractor,tmsbrg,2018-01-31T22:22:29Z,2018-06-11T18:39:56+00:00,3,3140.29,False,92,0,2,1074,2,14,16,CLOSED
+15416,[GameInformer] Fix brightcove_id regex.,Hidenori826,2018-01-25T04:23:16Z,2018-02-07T14:40:49+00:00,6,322.29,True,7,2,1,1437,2,5,7,MERGED
+15276,[Picarto] Add new extractor for recorded Picarto VODs,caiwan,2018-01-16T15:33:01Z,2018-04-15T17:36:03+00:00,1,2138.05,False,42,0,2,64,0,4,4,CLOSED
+15233,Mytaratata,cdevienne,2018-01-12T12:33:11Z,2022-03-14T16:48:16+00:00,10,36532.25,False,75,0,2,374,1,9,10,CLOSED
+15229,[weeklybeats] Added new extractor ,coolsa,2018-01-12T06:27:50Z,2023-08-01T00:05:40+00:00,1,48641.63,False,35,1,2,1339,0,6,6,CLOSED
+15227,[rentv] Fix extractor,einstein95,2018-01-11T18:05:36Z,2018-04-21T16:24:15+00:00,2,2398.31,False,14,3,1,1088,0,6,6,CLOSED
+15187, [rtvs] Add new extractor,r0b0,2018-01-06T18:51:09Z,2018-01-21T10:42:12+00:00,5,351.85,False,38,0,2,862,0,4,4,CLOSED
+15182,[viu:ott] Add support to download entire series with --yes-playlist,lkho,2018-01-06T15:01:46Z,2023-08-01T00:05:40+00:00,1,48777.07,False,148,10,1,1071,23,5,28,CLOSED
+15179,extend gamestar extractor to cover gamepro.de,hvraven,2018-01-05T20:34:15Z,2018-01-13T12:38:30+00:00,9,184.07,False,25,18,1,956,0,4,4,CLOSED
+15151,"Limelight extractor crashes if ""pc"" playlist is empty fix #15150",scarpentier,2018-01-02T15:41:36Z,2018-01-09T22:41:16+00:00,1,174.99,False,2,2,1,3173,0,1,1,CLOSED
+15147,[acast] Fix broken episode extractor,wader,2018-01-02T13:03:48Z,2018-01-02T16:32:18+00:00,2,3.48,True,12,11,1,1041,0,1,1,MERGED
+15143,[Cartoon Network] 1080p support,DulusNo,2018-01-02T10:12:23Z,2018-06-28T17:45:19+00:00,1,4255.55,False,79,14,1,2608,0,1,1,CLOSED
+15139,[twitch] Determine ids from URLs when extracting playlist,wlritchi,2018-01-02T00:21:22Z,2018-01-03T09:22:55+00:00,3,33.03,True,8,1,1,5171,0,1,1,MERGED
+15137,[youku] Fix list extraction.(close #15135),CoXier,2018-01-01T11:44:33Z,2018-01-04T14:25:28+00:00,1,74.68,True,9,3,1,1015,6,1,7,MERGED
+15133,[Tumblr] Add login support,zackfern,2017-12-31T22:05:59Z,2018-05-26T13:02:08+00:00,4,3494.94,False,33,1,1,1964,3,8,11,CLOSED
+15124,[motherless] Add support for groups,mweinelt,2017-12-30T23:12:56Z,2018-01-06T16:33:40+00:00,6,161.35,True,77,1,2,816,5,19,24,MERGED
+15117,[Soundcloud] Also use avatar picture for thumbnail (fixes issue #12878),parmjitv,2017-12-30T03:59:15Z,2018-01-05T01:25:43+00:00,1,141.44,True,20,1,1,1192,5,3,8,MERGED
+15112,[pluralsight] Fixes #11118,50csent,2017-12-29T16:51:34Z,2017-12-29T20:59:50+00:00,2,4.14,True,2,2,1,1177,0,1,1,MERGED
+15104,Create Privacy Shield,2017-05-1200-11-20,2017-12-28T18:57:00Z,2017-12-29T02:45:20+00:00,2,7.81,False,1,0,1,1324,1,1,2,CLOSED
+15103,[hclips] Add new extractor,ekimae-youkai,2017-12-28T18:22:06Z,2023-08-01T00:05:40+00:00,1,48989.73,False,63,0,2,1470,1,4,5,CLOSED
+15097,[BrightcoveNew] Fix: find videos embedded in xilinx.com site,raron,2017-12-28T01:50:21Z,2023-08-01T00:05:40+00:00,1,49006.26,False,68,0,2,1668,4,4,8,CLOSED
+15079,[Weibo] add support for Sina Weibo,sprhawk,2017-12-26T08:48:55Z,2018-01-09T10:15:12+00:00,3,337.44,True,137,0,2,1124,8,20,28,MERGED
+15068,[ccma] Fix pattern to support video collection URLs,vlopezj,2017-12-23T22:14:28Z,2023-08-01T00:05:40+00:00,1,49105.85,False,29,2,1,1356,1,1,2,CLOSED
+15066,[youku] Fix list extraction.(close #15065),CoXier,2017-12-23T16:33:58Z,2017-12-25T14:02:48+00:00,1,45.48,True,5,1,1,466,10,0,10,MERGED
+15048,[bilibili] Update payload,ctgnauh,2017-12-21T10:07:39Z,2018-03-15T17:20:41+00:00,3,2023.22,False,5,7,1,1046,2,1,3,CLOSED
+15037,[playtvak] fix video regex,oskar456,2017-12-20T13:09:42Z,2017-12-27T15:57:26+00:00,2,170.8,True,15,5,1,892,0,1,1,MERGED
+15033,"[la7] Add embedded urls, update tests",timendum,2017-12-19T13:45:19Z,2021-05-03T12:13:04+00:00,2,29542.46,False,13,12,1,860,4,1,5,CLOSED
+15029,[vsports] Add new extractor,ricardojoaoreis,2017-12-19T00:03:50Z,2023-08-01T00:05:40+00:00,1,49224.03,False,45,0,2,1002,0,2,2,CLOSED
+15026,[Heise] Fixes #14961,Hier631,2017-12-18T13:52:32Z,2018-03-15T16:10:46+00:00,2,2090.3,False,6,2,1,1153,9,5,14,CLOSED
+15021,[redditr] Fix extraction of i.redd.it animated GIFs,jwilk,2017-12-17T21:46:05Z,2023-08-01T00:05:40+00:00,1,49250.33,False,61,3,1,1515,3,4,7,CLOSED
+15015,[daum] Fix clipID-based downloads,Namnamseo,2017-12-17T10:35:47Z,2019-11-01T10:44:08+00:00,1,16416.14,False,19,10,1,2229,0,2,2,CLOSED
+15012,[FranceTV] add Zouzous and Ludo extrators,akofman,2017-12-17T02:34:17Z,2018-02-11T14:47:22+00:00,5,1356.22,False,84,0,2,1179,6,12,18,CLOSED
+15009,[atresplayer] Support to new Manifest object URL,zurfyx,2017-12-16T20:32:31Z,2019-10-16T11:09:01+00:00,1,16046.61,False,21,28,1,1476,6,1,7,CLOSED
+15001,[Heise] Fixes #14961,Hier631,2017-12-15T18:13:59Z,2017-12-18T13:52:17+00:00,1,67.64,False,4,3,1,1153,0,1,1,CLOSED
+14997,[franceinter] Fix upload date extraction (again),helb,2017-12-15T09:19:00Z,2018-01-21T10:50:53+00:00,1,889.53,True,1,1,1,1498,0,1,1,MERGED
+14994,[npo] Fix extraction for new zapp.nl URLs,helb,2017-12-15T00:59:45Z,2018-02-17T13:33:49+00:00,1,1548.57,False,4,1,1,1742,0,3,3,CLOSED
+14993,"[iprima] Fix iprima extraction, update/add test URLs",helb,2017-12-15T00:47:33Z,2023-08-01T00:05:40+00:00,1,49319.3,False,30,6,1,1706,0,4,4,CLOSED
+14980,Fixes #14961,Hier631,2017-12-14T00:08:05Z,2017-12-15T18:06:35+00:00,1,41.98,False,6,4,2,1153,0,1,1,CLOSED
+14973,[internazionale] Add new extractor for www.internazionale.it,iamleot,2017-12-13T11:30:06Z,2017-12-27T16:30:08+00:00,1,341.0,False,47,0,2,1192,1,5,6,CLOSED
+14943,"[jsinterp] Partial unary support, NaN, string coercion rules",Tatsh,2017-12-10T03:38:55Z,2018-03-04T19:07:20+00:00,1,2031.47,False,0,0,0,2787,6,2,8,CLOSED
+14915,[bloomberg] fix bloomberg extractor,bobpoekert,2017-12-06T00:13:32Z,2023-08-01T00:05:40+00:00,1,49535.87,False,10,1,1,1142,0,2,2,CLOSED
+14899,[Flixel] Add new extractor,olivierguerriat,2017-12-03T12:37:21Z,2023-08-01T00:05:40+00:00,1,49595.47,False,36,0,2,898,0,4,4,CLOSED
+14879,[extractor/openload] Closes #14665,zachee,2017-11-30T00:50:16Z,2017-12-29T22:56:00+00:00,6,718.1,False,5,1,1,1889,0,1,1,CLOSED
+14828,[JWPlatform] support iframes,johnhawkinson,2017-11-22T17:07:07Z,2017-11-24T13:39:57+00:00,2,44.55,True,17,4,2,5399,1,1,2,MERGED
+14806,[slutload] Support mobile site,windom,2017-11-20T11:31:00Z,2017-12-30T18:41:07+00:00,1,967.17,True,11,3,1,1089,0,2,2,MERGED
+14780,[xhamster] Added support for mobile site; fixed thumbnails and tests,windom,2017-11-17T14:51:20Z,2017-12-05T17:08:31+00:00,4,434.29,True,11,5,1,1380,0,2,2,MERGED
+14779,[vidlii] Add new extractor,pjattke,2017-11-17T10:28:14Z,2018-02-25T13:29:41+00:00,53,2403.02,False,128,0,2,875,3,35,38,CLOSED
+14763,[openload] Support [www.]openload.link URLs and make flake8 pass,jahudka,2017-11-16T01:49:36Z,2017-11-25T17:04:14+00:00,5,231.24,True,4,1,1,1198,5,1,6,MERGED
+14739,fix timestamp after embedthumbnail AtomicParsley (closes #9355),jrowens,2017-11-13T17:43:28Z,2023-08-01T00:05:40+00:00,1,50070.37,False,6,0,1,2159,4,0,4,CLOSED
+14725,[srgssr] Extract the correct video + add subtitles (closes #14717),goggle,2017-11-11T18:35:37Z,2021-02-25T14:51:03+00:00,4,28844.26,False,151,74,1,956,2,2,4,CLOSED
+14692,update douyutv api,hcwhan,2017-11-07T09:48:32Z,2020-12-22T11:43:09+00:00,1,27385.91,False,9,16,1,1261,0,4,4,CLOSED
+14687,[ximalaya_extractor] Add new extractor ximalaya ,scil,2017-11-06T16:01:34Z,2018-01-11T12:35:10+00:00,10,1580.56,True,237,0,2,1131,5,42,47,MERGED
+14676,[zattoo] Add information extractor (closes #14668),goggle,2017-11-05T17:13:23Z,2018-04-30T18:52:32+00:00,7,4225.65,False,240,0,2,1439,6,15,21,CLOSED
+14639,Update --help documentation to include SOCKS proxy authentication syntax ,Inhisprime,2017-10-31T11:43:11Z,2018-12-27T01:27:21+00:00,4,10117.74,False,6,4,1,1111,1,2,3,CLOSED
+14617,[screencast] fix url extract for multiple file types,enigmaquip,2017-10-29T02:49:37Z,2018-10-28T16:28:06+00:00,2,8749.64,False,8,39,1,1148,0,1,1,CLOSED
+14616,[seznamzpravy] Add new extractor,che0,2017-10-28T18:26:01Z,2018-01-27T16:34:32+00:00,11,2182.14,True,173,0,2,1074,5,22,27,MERGED
+14603,[fxnetworks] improve extraction,enigmaquip,2017-10-27T14:27:06Z,2017-10-28T22:20:19+00:00,2,31.89,True,15,8,1,1322,3,2,5,MERGED
+14598,"[wdr] New extractor ""wdr:elefant"" for videos of ""Sendung mit dem Elefanten""",sleske,2017-10-27T06:17:40Z,2018-01-13T16:32:11+00:00,9,1882.24,False,52,3,2,969,7,4,11,CLOSED
+14597,[ENSSavoirs] Add new extractor,sylsau,2017-10-26T23:17:50Z,2023-08-01T00:05:40+00:00,1,50496.8,False,65,1,3,498,0,2,2,CLOSED
+14575,[nbc] Fix downloading classic-tv videos,einstein95,2017-10-24T13:48:08Z,2017-10-25T16:23:27+00:00,2,26.59,True,6,2,1,1227,1,3,4,MERGED
+14570,[ellentube] Fix broken extractor (closes #14407),goggle,2017-10-23T19:19:02Z,2017-12-08T19:18:01+00:00,1,1103.98,False,145,104,3,1206,1,2,3,CLOSED
+14566,[twitch] Fix clip title detection.,jdpurcell,2017-10-23T14:55:09Z,2017-10-23T16:12:51+00:00,2,1.29,True,1,1,1,1026,0,1,1,MERGED
+14564,[vshare] extractor rewritten,timendum,2017-10-23T14:49:45Z,2017-11-14T15:34:46+00:00,1,528.75,True,44,8,2,947,2,5,7,MERGED
+14548,[ParliamentLiveUK] Fixed extractor,goggle,2017-10-20T15:08:11Z,2017-10-20T16:31:13+00:00,3,1.38,True,4,4,1,1100,1,1,2,MERGED
+14534,"[NDTV] Added support for sub-sites (gadgets,khabar,profit)",rawcoder,2017-10-18T12:17:37Z,2017-10-22T01:32:20+00:00,22,85.25,True,83,22,1,1145,6,7,13,MERGED
+14529,[Unity] Add new extractor (fixes issue #14528),parmjitv,2017-10-17T22:30:03Z,2017-10-18T21:46:07+00:00,3,23.27,True,33,0,2,1193,3,5,8,MERGED
+14518,[Servus] Add new extractor,goggle,2017-10-17T01:13:10Z,2017-10-19T15:17:21+00:00,1,62.07,True,44,0,2,1056,0,2,2,MERGED
+14515,Dropping support for Python 3.2 and 3.3,yan12125,2017-10-16T16:20:23Z,2018-01-23T15:26:56+00:00,2,2375.11,False,10,12,6,1601,16,0,16,CLOSED
+14499,[CamModels] Add extractor,CSharp-Truckstop-Restroom-Hero,2017-10-15T05:30:24Z,2018-05-26T14:26:50+00:00,2,5360.94,False,94,0,2,2085,3,17,20,CLOSED
+14497,[niconico] Fix downloading videos with null owner,pawitp,2017-10-15T02:39:01Z,2017-10-15T03:40:58+00:00,5,1.03,True,25,4,1,1329,0,2,2,MERGED
+14489,Fix fox provider login,cyperous,2017-10-14T02:32:55Z,2017-12-06T21:57:26+00:00,1,1291.41,False,23,17,2,1429,0,3,3,CLOSED
+14483,[rai] Add support to show playlist,timendum,2017-10-13T14:32:30Z,2017-10-23T13:31:50+00:00,1,238.99,False,0,0,0,883,0,2,2,CLOSED
+14455,[slideslive] Add extractor (closes #2680),jwilk,2017-10-09T17:03:03Z,2017-10-10T16:45:11+00:00,1,23.7,True,35,0,2,757,0,3,3,MERGED
+14443,[HRTi] new urls are wihout #,atopuzov,2017-10-07T16:06:26Z,2017-10-07T22:40:09+00:00,5,6.56,True,4,1,1,115,2,2,4,MERGED
+14423,Handling lnkgo url without .alfa part,r-pankevicius,2017-10-06T10:01:41Z,2017-10-06T16:59:10+00:00,1,6.96,True,4,1,1,1247,0,1,1,MERGED
+14398,[goodgame] Add goodgame extractors,tausackhn,2017-10-03T17:46:56Z,2022-07-21T11:07:28+00:00,1,42041.34,False,276,0,2,1071,6,11,17,CLOSED
+14396,MPD manifests: fix uncompared 'segment_duration' in condition,mk-pmb,2017-10-03T16:22:08Z,2017-10-03T20:50:28+00:00,1,4.47,True,1,1,1,1695,2,3,5,MERGED
+14388,[egghead:lesson] detect dash and m3u8 URLs (#6635),mk-pmb,2017-10-03T01:03:43Z,2017-10-29T00:14:16+00:00,2,623.18,False,71,30,4,1661,14,4,18,CLOSED
+14369,[tvp] Fix extraction for vod.tvp.pl (closes #14368),rafalborczuch,2017-09-30T20:24:44Z,2017-10-01T11:59:00+00:00,2,15.57,True,8,7,1,743,2,1,3,MERGED
+14358,[rtve] Fix extraction (closes 14290),gfabiano,2017-09-28T17:00:07Z,2017-09-30T20:21:18+00:00,1,51.35,True,33,3,1,739,0,2,2,MERGED
+14351,[pbs] Fix extraction (closes #14305),gfabiano,2017-09-27T21:05:38Z,2018-07-30T16:39:07+00:00,1,7339.56,False,88,7,1,739,5,4,9,CLOSED
+14336,[rai] Add support to show playlist,timendum,2017-09-26T09:37:52Z,2017-10-13T14:29:22+00:00,1,412.86,False,0,0,0,778,0,1,1,CLOSED
+14334,[adobepass] Add support for Frontier MSO,AarynSmith,2017-09-26T00:31:06Z,2020-07-22T00:32:44+00:00,1,24720.03,False,5,0,1,769,1,0,1,CLOSED
+14319,[sueddeutschede] Add extractor (closes #14216),scfc,2017-09-24T23:27:47Z,2023-08-01T00:05:40+00:00,1,51264.63,False,42,0,2,1039,0,3,3,CLOSED
+14280,[CNBC] New url regex,JCGoran,2017-09-20T19:14:40Z,2018-10-29T17:00:12+00:00,1,9693.76,False,18,5,1,1044,3,3,6,CLOSED
+14279,[beeg] Fix extraction,gfabiano,2017-09-20T18:59:27Z,2017-09-20T21:05:34+00:00,3,2.1,True,5,2,1,739,0,5,5,MERGED
+14264,[youku] Add new url regex,holymonson,2017-09-19T12:26:01Z,2023-08-01T00:05:40+00:00,6,51395.66,False,18,3,1,1006,0,1,1,CLOSED
+14256,[streamango] Fix streamango extraction,gfabiano,2017-09-18T22:02:23Z,2018-02-25T11:35:59+00:00,1,3829.56,False,32,3,1,785,5,0,5,CLOSED
+14232,updates available platforms and 1080p support,addiittya2006,2017-09-16T11:40:23Z,2017-09-18T20:15:04+00:00,1,56.58,False,13,1,2,1177,2,1,3,CLOSED
+14231,Add a new extractor for pietsmiet.de,mhartkorn,2017-09-16T11:37:20Z,2017-11-26T13:14:00+00:00,1,1705.61,False,86,0,2,1539,1,3,4,CLOSED
+14205,[Fox] Restore Adobe Pass auth,gkoelln,2017-09-14T14:28:18Z,2017-12-06T21:57:26+00:00,1,1999.49,False,17,12,1,1078,4,4,8,CLOSED
+14185,Add support for skypixel.com,Loknar,2017-09-12T20:27:32Z,2023-08-01T00:05:40+00:00,1,51555.64,False,144,0,4,1395,1,8,9,CLOSED
+14148,[ku6] Closes issue #14127,timendum,2017-09-07T16:01:46Z,2017-12-19T14:04:09+00:00,1,2470.04,False,32,16,1,602,2,1,3,CLOSED
+14141,[twitter] fixed duration,capital-G,2017-09-06T16:04:51Z,2017-09-19T20:58:07+00:00,3,316.89,True,8,4,1,1349,5,3,8,MERGED
+14134,[nbc:NBCSportsVPlayer] Corrected video URL (fixes issue #13873),parmjitv,2017-09-06T04:21:32Z,2017-09-20T19:53:07+00:00,8,351.53,True,5,4,1,1064,5,2,7,MERGED
+14132,[mixcloud] Add support for new frontend,ishitatsuyuki,2017-09-06T02:35:25Z,2017-09-22T22:38:00+00:00,4,404.04,False,114,63,2,706,7,5,12,CLOSED
+14128,[ProSiebenSat1] Improve title extraction (#13915),kayb94,2017-09-05T19:49:32Z,2018-03-06T21:58:47+00:00,6,4370.15,False,8,6,1,883,0,2,2,CLOSED
+14110,[Readme] Further specify how to run single tests,kayb94,2017-09-03T19:12:55Z,2017-09-08T15:13:18+00:00,1,116.01,True,3,1,1,842,1,1,2,MERGED
+14109,[Heise] Add support for embedded youtube videos,kayb94,2017-09-03T18:31:29Z,2017-09-17T15:46:53+00:00,1,333.26,True,27,6,1,450,3,1,4,MERGED
+14108,[Heise] Add support for new c't uplink episodes,kayb94,2017-09-03T12:14:33Z,2023-08-01T00:05:40+00:00,3,51779.85,False,73,5,1,757,7,4,11,CLOSED
+14107,[generic] Fix support for multiple HTML5 videos on one page (#14080),kayb94,2017-09-03T11:54:13Z,2017-09-22T22:49:49+00:00,3,466.93,True,19,3,1,719,2,3,5,MERGED
+14093,[soundcloud] Fix download URL with private tracks,ishitatsuyuki,2017-09-01T08:12:25Z,2017-09-03T09:31:51+00:00,6,49.32,False,9,9,1,1145,0,4,4,CLOSED
+14086,[bpb] Close issue #14043,timendum,2017-08-31T12:09:50Z,2017-09-03T09:46:33+00:00,1,69.61,False,2,2,1,864,0,1,1,CLOSED
+14060,[bandcamp] Extract more metadata,rr-,2017-08-30T10:07:51Z,2018-07-04T13:27:58+00:00,6,7395.34,False,64,18,1,1590,3,8,11,CLOSED
+14007,[kakao] [All issues fixed] Add new extractor,Namnamseo,2017-08-24T03:22:40Z,2017-09-23T00:29:19+00:00,7,717.11,False,141,0,2,2625,4,9,13,CLOSED
+13996,[AmericasTestKitchen] Add new extractor (closes #10764),nbppp2,2017-08-23T01:01:05Z,2017-09-22T23:30:18+00:00,22,742.49,False,86,0,2,1102,2,15,17,CLOSED
+13940,[README.md] Made explicit HTTPS calls,alanyee,2017-08-17T04:37:20Z,2017-08-20T16:35:40+00:00,3,83.97,True,25,25,1,1172,4,3,7,MERGED
+13938,[adobepass] Add AT&T U-Verse MSO,jkap,2017-08-17T03:33:49Z,2019-07-03T21:05:36+00:00,2,16457.53,False,5,0,1,1151,7,1,8,CLOSED
+13877,[spreaker] Add new extractor,Tatsh,2017-08-10T12:17:38Z,2020-11-25T20:00:00+00:00,2,28879.71,False,197,1,2,1049,11,16,27,CLOSED
+13876,[vzaar] update to generic extractor for embedded urls,tetra-eder,2017-08-10T09:23:06Z,2017-08-11T15:00:39+00:00,1,29.63,True,25,0,2,1110,0,4,4,MERGED
+13852,[20min] Fix extractions for 20min embeds.,goggle,2017-08-07T20:26:33Z,2017-08-07T22:41:38+00:00,2,2.25,True,1,1,1,3728,0,1,1,MERGED
+13805,Fix QQ Music url changed,Lua12138,2017-08-02T03:29:09Z,2017-08-17T08:11:36+00:00,1,364.71,True,48,44,1,1026,10,5,15,MERGED
+13779,[Iwara] Improve metadata extraction,AlexAplin,2017-07-30T22:45:13Z,2018-06-15T02:02:39+00:00,1,7659.29,False,36,0,1,1093,2,4,6,CLOSED
+13773,Fix for #13740,mmcru,2017-07-29T23:32:08Z,2017-08-04T15:46:55+00:00,1,136.25,True,5,1,1,1031,2,2,4,MERGED
+13757,fix bug#13554,xiaojieluo,2017-07-28T05:46:04Z,2018-01-21T11:15:11+00:00,1,4253.49,False,5,0,1,1057,0,1,1,CLOSED
+13722,[pornhub] Fix categories and tags extraction,burnersauce,2017-07-24T02:33:31Z,2019-02-07T18:34:50+00:00,1,13528.02,False,3,10,1,932,0,2,2,CLOSED
+13711,[nick] Automate geo-restriction bypass,unknown,2017-07-23T09:41:17Z,2017-07-23T13:40:05+00:00,2,3.98,True,1,0,1,1336,2,1,3,MERGED
+13707,[aliexpress] Add new extractor,esvanha,2017-07-22T19:42:50Z,2017-09-03T09:06:58+00:00,4,1021.4,False,41,0,2,800,4,11,15,CLOSED
+13695,[npo] added npo3 support,esvanha,2017-07-21T13:43:09Z,2017-07-22T12:15:56+00:00,1,22.55,True,5,2,1,973,1,3,4,MERGED
+13670,[stopgame] Add new extractor,sufuf3,2017-07-17T13:06:26Z,2020-07-09T13:50:02+00:00,1,26112.73,False,117,0,2,774,8,4,12,CLOSED
+13669,[build] Override timestamps in zip file,bmwiedemann,2017-07-17T12:03:18Z,2017-08-22T13:51:20+00:00,3,865.8,True,9,2,1,143,10,1,11,MERGED
+13639,[neomagazin] Add new extractor,ngdio,2017-07-13T01:29:03Z,2018-12-24T21:08:57+00:00,1,12715.67,False,485,147,5,1115,0,3,3,CLOSED
+13638,[GoogleDrive] Added support for captions (fixes issue #13619),parmjitv,2017-07-13T00:42:32Z,2017-08-22T16:48:59+00:00,15,976.11,True,103,1,1,1054,12,17,29,MERGED
+13633,[aznude] Add new extractor,DirkGiggler,2017-07-12T01:02:42Z,2023-08-01T00:05:40+00:00,10,53063.05,False,131,0,2,922,6,16,22,CLOSED
+13622,[Vice] support for alternative embed-player fixes #13019,Argn0,2017-07-10T00:48:20Z,2018-03-03T16:08:33+00:00,2,5679.34,False,45,11,1,1040,1,6,7,CLOSED
+13617,[slideshare] fix extraction,satunnainen,2017-07-09T16:13:49Z,2017-07-14T15:11:08+00:00,1,118.96,True,1,1,1,1043,0,1,1,MERGED
+13613,[vlive:playlist] Add new extractor,coreynicholson,2017-07-09T12:34:36Z,2017-07-09T21:24:05+00:00,9,8.82,True,58,1,2,1756,6,10,16,MERGED
+13609,Always truncate files to 10241 bytes with --test,kmark,2017-07-08T23:26:10Z,2017-12-20T09:16:32+00:00,3,3945.84,False,8,1,1,1287,3,3,6,CLOSED
+13606,[FiveTV] Add new regex and fix bad test,rrooij,2017-07-08T21:22:04Z,2017-07-14T15:10:18+00:00,3,137.8,True,3,2,1,1125,3,2,5,MERGED
+13600,[AnimeLab] Add new extractor,mariuszskon,2017-07-08T08:26:54Z,2021-06-19T07:41:24+00:00,12,34607.24,False,289,0,2,1651,34,10,44,CLOSED
+13565,Extractor for rutube.ru playlists (issues/13534),luceatnobis,2017-07-04T14:13:18Z,2017-09-10T11:41:43+00:00,15,1629.47,False,85,0,2,1231,4,15,19,CLOSED
+13552,Minor improvements to issue template,unknown,2017-07-03T09:57:58Z,2017-07-23T13:33:18+00:00,7,483.59,True,6,6,1,1488,0,2,2,MERGED
+13549,[ESPN] Include additional URL formats (fixes issue #13244),parmjitv,2017-07-03T05:27:58Z,2017-07-06T15:56:00+00:00,3,82.47,True,40,8,1,1094,3,7,10,MERGED
+13525,[cjsw] Add new extractor,christsmith,2017-06-29T20:19:02Z,2017-07-09T10:02:45+00:00,5,229.73,False,42,0,2,1138,1,13,14,CLOSED
+13506,CBS/theplatform  No AssetType/Format Matches Error (issue #13490),Argn0,2017-06-27T12:48:28Z,2018-03-19T17:29:04+00:00,2,6364.68,False,11,4,2,1052,0,2,2,CLOSED
+13503,[CBSNews] Fixed regex for news videos (fixes issue #13284),parmjitv,2017-06-27T06:02:31Z,2017-06-28T15:21:36+00:00,3,33.32,True,16,1,1,1196,0,2,2,MERGED
+13489,[abc.net.au:iview] Support hq streams when available,d2au,2017-06-25T04:56:13Z,2017-07-09T10:57:48+00:00,1,342.03,False,6,1,1,1047,0,2,2,CLOSED
+13451,Update ign.py fix issue #13328,Argn0,2017-06-21T10:49:12Z,2017-06-24T18:59:15+00:00,2,80.17,True,7,0,1,1008,1,4,5,MERGED
+13449,[Panopto] Add Panopto extractors,kmark,2017-06-21T07:56:58Z,2023-08-01T00:05:40+00:00,7,53560.14,False,281,0,2,1565,18,7,25,CLOSED
+13415,[watchindianporn] Fix parser,gfabiano,2017-06-17T23:33:29Z,2017-06-19T21:30:46+00:00,2,45.95,True,14,36,1,833,7,8,15,MERGED
+13414,Support for rai livestreams,rabblac,2017-06-17T18:14:58Z,2017-06-24T18:50:20+00:00,7,168.59,False,19,1,2,1237,5,6,11,CLOSED
+13396,[ruv] Add new extractor,orng,2017-06-15T22:39:46Z,2017-06-19T16:47:01+00:00,2,90.12,False,32,0,2,1150,3,3,6,CLOSED
+13384,[disney] provide episode_number and season_number for some series,saper,2017-06-14T21:28:41Z,2023-08-01T00:05:40+00:00,2,53714.62,False,14,1,1,26,2,1,3,CLOSED
+13363,Fix QQMusic url format.,iikira,2017-06-13T13:23:06Z,2017-08-17T08:13:26+00:00,1,1554.84,False,19,19,1,1084,1,1,2,CLOSED
+13322,[DrTuber] Fetch video URL from JSON stream (fixes issue #12058),parmjitv,2017-06-08T23:18:48Z,2017-06-22T17:08:36+00:00,10,329.83,True,18,3,1,1107,11,15,26,MERGED
+13315,[picosong] Add new extractor,magcius,2017-06-08T02:57:27Z,2021-08-15T19:01:21+00:00,24,36712.07,False,79,0,2,1248,10,11,21,CLOSED
+13292,[streamango] fix embed links by making title optional,steebchen,2017-06-05T18:19:56Z,2017-06-07T14:55:18+00:00,2,44.59,False,8,1,1,817,4,1,5,CLOSED
+13290,[Tubepatrol] Add new extractor,parmjitv,2017-06-05T09:39:03Z,2017-06-30T16:13:55+00:00,1,606.58,False,89,1,2,1311,4,8,12,CLOSED
+13268,[Joj] Add new extractor,luboss,2017-06-02T20:51:41Z,2017-07-09T12:19:09+00:00,8,879.46,False,57,0,2,31,2,16,18,CLOSED
+13216,[xhamster] fix author and like count regexps,fiocfun,2017-05-27T10:44:06Z,2017-05-28T00:57:01+00:00,2,14.22,False,2,2,1,1231,0,1,1,CLOSED
+13194,Deezerfull,deezerdl,2017-05-24T13:22:25Z,2023-08-01T00:05:40+00:00,5,54226.72,False,696,37,7,1429,18,3,21,CLOSED
+13174,[Stream.cz] add subtitle support,oskar456,2017-05-20T18:19:14Z,2017-05-21T08:41:53+00:00,4,14.38,True,11,2,1,840,0,1,1,MERGED
+13156,[youtube] Fixes issue with not being able to decode signatures on DASH MPD URLs (#8944),Protuhj,2017-05-19T06:09:49Z,2017-05-20T18:11:37+00:00,6,36.03,True,4,2,1,1393,2,3,5,MERGED
+13077,[toypics] fix extractor,vobe,2017-05-13T23:44:35Z,2017-05-19T18:18:03+00:00,1,138.56,True,8,7,1,1072,3,3,6,MERGED
+13063,[dvtv] Parse adaptive formats as well,jktjkt,2017-05-12T15:20:37Z,2017-05-27T23:20:34+00:00,4,368.0,False,24,7,1,1204,3,3,6,CLOSED
+13053,[Aljazeera] improve _VALID_URL,steebchen,2017-05-11T13:22:45Z,2017-05-13T17:57:03+00:00,1,52.57,True,6,3,1,621,2,2,4,MERGED
+13032,[Beam:Vod] Add new extractor,mikf,2017-05-09T07:38:57Z,2017-05-27T22:45:23+00:00,4,447.11,False,116,10,2,1068,1,2,3,CLOSED
+13031,[pear] Add new extractor,troywith77,2017-05-09T05:22:19Z,2017-07-15T20:07:36+00:00,1,1622.75,False,35,0,2,1090,3,3,6,CLOSED
+13024,NonkTube Add new extractor,sarbajitsaha,2017-05-08T09:35:20Z,2017-05-08T13:10:13+00:00,7,3.58,False,69,0,2,1216,2,6,8,CLOSED
+13016,[DRTV] Fix issue where sign language version of video would be downloaded,RasmusRendal,2017-05-07T11:09:56Z,2017-05-09T08:39:38+00:00,3,45.49,False,20,2,1,1338,4,3,7,CLOSED
+12986,[ceskatelevize] Extend the extractor for ceskatelevize.cz,jpalecek,2017-05-04T22:13:33Z,2023-08-01T00:05:40+00:00,3,54697.87,False,285,53,2,1574,0,5,5,CLOSED
+12949,introduce chapters field(2),remitamine,2017-05-01T12:03:48Z,2017-05-02T19:47:03+00:00,16,31.72,True,49,3,3,325,3,5,8,MERGED
+12937,[Rmc decouverte] Fix extractor,midas02,2017-04-30T17:44:08Z,2017-05-06T10:57:08+00:00,1,137.22,False,10,7,1,279,5,1,6,CLOSED
+12909,[YoutubeDL] write raw subtitle files,remitamine,2017-04-28T21:31:39Z,2017-09-13T09:36:41+00:00,2,3300.08,True,22,21,1,379,6,1,7,MERGED
+12876,[afreecatv] fix extractor,Tithen-Firion,2017-04-27T16:14:18Z,2017-04-27T21:00:15+00:00,1,4.77,True,1,2,1,1231,1,1,2,MERGED
+12873,[archiveorg] update test cases,Tithen-Firion,2017-04-27T16:13:45Z,2017-04-27T20:48:32+00:00,2,4.58,True,2,2,1,1231,0,1,1,MERGED
+12869,[cbc] update test cases,Tithen-Firion,2017-04-27T16:12:54Z,2017-04-29T13:34:18+00:00,3,45.36,True,3,3,1,1231,0,1,1,MERGED
+12866,[collegerama] update test cases,Tithen-Firion,2017-04-27T16:12:13Z,2017-04-27T21:00:49+00:00,1,4.81,True,2,1,1,1231,1,1,2,MERGED
+12864,[cbslocal] update test cases,Tithen-Firion,2017-04-27T16:11:33Z,2017-04-27T21:27:00+00:00,3,5.26,True,2,2,1,1231,2,1,3,MERGED
+12861,[cbsinteractive] update extractor and test cases,Tithen-Firion,2017-04-27T13:41:23Z,2017-05-24T08:21:33+00:00,2,642.67,True,28,33,2,1231,2,3,5,MERGED
+12857,"[buzzfeed] fix extractor, update test cases",Tithen-Firion,2017-04-27T11:29:00Z,2023-08-01T00:05:41+00:00,4,54876.61,False,16,6,2,1049,0,3,3,CLOSED
+12839,Don't list master m3u8 playlists in format list,dstftw,2017-04-25T15:14:54Z,2017-04-27T14:54:27+00:00,1,47.66,False,11,61,11,450,9,0,9,CLOSED
+12801,[vier] Support authentication,mrBliss,2017-04-20T13:29:37Z,2017-05-15T14:46:55+00:00,19,601.29,True,72,2,1,1229,10,16,26,MERGED
+12792,[Noovo] Add new extractor,fredbourni,2017-04-19T21:51:33Z,2017-04-29T17:25:00+00:00,4,235.56,False,53,0,2,1082,2,5,7,CLOSED
+12774,[Medialaan] Fix extraction,midas02,2017-04-18T03:53:58Z,2017-05-27T23:29:12+00:00,2,955.59,False,19,1,1,1067,4,3,7,CLOSED
+12758,[BandcampWeekly] Add new extractor,adamvoss,2017-04-16T13:47:31Z,2017-06-04T16:23:18+00:00,13,1178.6,False,68,1,2,1008,7,9,16,CLOSED
+12754,[openload] rewrite extractor,Tithen-Firion,2017-04-15T22:38:28Z,2017-08-26T08:17:31+00:00,5,3177.65,True,242,45,4,1444,31,3,34,MERGED
+12752,[go90] Improve extraction,triple-j,2017-04-15T17:27:54Z,2017-04-15T21:48:13+00:00,4,4.34,True,36,2,1,1214,5,8,13,MERGED
+12725,[radiocloud.jp] Add new extractor,EliteTK,2017-04-12T20:35:16Z,2023-08-01T00:05:40+00:00,3,55227.51,False,71,0,2,1977,1,4,5,CLOSED
+12713,extractor for decko.ceskatelevize.cz,ondras,2017-04-11T13:59:23Z,2017-04-11T18:46:32+00:00,2,4.79,False,88,0,2,1613,3,1,4,CLOSED
+12712,[PuhuTv] Add new extractor,schrekia,2017-04-11T13:43:03Z,2018-04-24T17:07:43+00:00,2,9075.41,False,66,0,2,1056,3,12,15,CLOSED
+12709,[GameStar] Fix JSON control character error / fix comment_count,aeph6Ee0,2017-04-10T21:33:11Z,2023-08-01T00:05:40+00:00,1,55274.54,False,22,8,2,1117,0,1,1,CLOSED
+12699,WashingtonPost iframe embeds,johnhawkinson,2017-04-10T05:14:21Z,2017-04-29T16:09:54+00:00,2,466.93,False,65,37,2,1589,0,1,1,CLOSED
+12698,Various CondeNast fixes,johnhawkinson,2017-04-10T03:01:05Z,2023-08-01T00:05:41+00:00,1,55293.08,False,48,12,2,818,1,2,3,CLOSED
+12693,[zaq1] Add new extractor,piotr5151,2017-04-09T10:05:39Z,2017-04-30T14:47:05+00:00,2,508.69,False,68,0,2,1015,2,5,7,CLOSED
+12679,"[kaltura] Support iframe embeds, with test",johnhawkinson,2017-04-08T03:31:49Z,2017-04-08T09:40:58+00:00,4,6.15,True,27,1,2,441,2,4,6,MERGED
+12643,[Streamango] Add new extractor,mphe,2017-04-04T17:52:41Z,2017-04-15T14:51:28+00:00,1,260.98,False,55,0,2,769,3,4,7,CLOSED
+12631,npo:recents,jhoek,2017-04-03T18:03:49Z,2017-05-21T18:06:25+00:00,1,1152.04,False,75,0,2,946,1,6,7,CLOSED
+12558,"[WSJ] Extract videos embedded in articles, too",johnhawkinson,2017-03-25T23:53:32Z,2017-04-15T13:59:40+00:00,2,494.1,False,29,4,2,11,1,5,6,CLOSED
+12539,[vier] Extract more info,mrBliss,2017-03-24T09:56:34Z,2017-05-17T16:40:55+00:00,3,1302.74,False,25,3,1,1186,5,3,8,CLOSED
+12518,Add npo:recents extractor,jhoek,2017-03-21T16:41:47Z,2017-04-02T07:53:50+00:00,5,279.2,False,118,0,3,1436,3,4,7,CLOSED
+12514,"[picarto] Add new extractor, Picarto.TV",TheAMM,2017-03-20T23:08:59Z,2018-04-15T17:36:03+00:00,4,9378.45,False,81,0,2,888,0,7,7,CLOSED
+12511,[external] Print executable name  (e.g. avconv) instead of classname,johnhawkinson,2017-03-20T15:09:24Z,2023-08-01T00:05:41+00:00,4,55784.94,False,11,3,1,903,1,1,2,CLOSED
+12493,[Gaskrank] fix for broken site.,motophil,2017-03-19T11:56:50Z,2017-05-27T23:48:24+00:00,5,1667.86,False,9,29,1,538,0,3,3,CLOSED
+12488,[test_download] print additional IEs in summary output,johnhawkinson,2017-03-19T02:30:32Z,2017-03-25T14:36:41+00:00,2,156.1,True,14,0,1,2776,4,2,6,MERGED
+12478,Update canvas.py,midas02,2017-03-18T01:46:25Z,2017-04-08T15:46:39+00:00,1,518.0,False,2,0,1,1334,3,2,5,CLOSED
+12477,Update vrt.py,midas02,2017-03-18T01:41:12Z,2017-04-08T15:46:39+00:00,1,518.09,False,2,0,1,1383,3,1,4,CLOSED
+12455,[hotstar] added support for downloading playlist,unknown,2017-03-15T11:02:42Z,2017-03-16T14:10:15+00:00,2,27.13,False,60,2,2,1305,2,5,7,CLOSED
+12436,[younow] Add new extractor,Tatsh,2017-03-12T22:23:52Z,2017-10-28T21:20:43+00:00,1,5518.95,False,202,0,2,1069,2,5,7,CLOSED
+12428,[crunchyroll] Extract season name as well as the series,Starsam80,2017-03-11T22:48:15Z,2017-03-12T04:18:10+00:00,3,5.5,True,21,1,1,851,1,1,2,MERGED
+12421,[szenikeu] Add new extractor,benages,2017-03-10T23:25:55Z,2023-08-01T00:05:41+00:00,1,56016.66,False,59,0,2,1032,1,5,6,CLOSED
+12399,[telequebec] description array may be empty,scarpentier,2017-03-08T01:26:51Z,2017-03-08T11:27:06+00:00,1,10.0,False,1,1,1,976,0,1,1,CLOSED
+12391,[Fox] Add metadata extraction,gkoelln,2017-03-07T14:46:46Z,2017-03-25T13:12:25+00:00,5,430.43,True,6,2,1,1061,4,1,5,MERGED
+12361,[cbs.com:playlist] Extract playlists of CBS shows.,johnhawkinson,2017-03-05T02:16:03Z,2023-08-01T00:05:41+00:00,7,56157.83,False,94,1,2,96,10,3,13,CLOSED
+12328,[3plus] Add new information extractor,goggle,2017-03-02T15:01:11Z,2022-04-23T02:43:50+00:00,4,45059.71,False,109,4,3,880,4,3,7,CLOSED
+12327,[prosiebensat1] Fixed Title Extraction. Issue #12318,ThomasChr,2017-03-02T14:11:48Z,2017-03-09T16:18:38+00:00,1,170.11,True,3,1,1,1231,8,1,9,MERGED
+12313,Spiegel.de: support embedded spiegeltv content,runningbits,2017-02-28T23:12:51Z,2017-11-27T18:30:20+00:00,1,6523.29,False,32,5,2,1765,2,2,4,CLOSED
+12307,"Fix ""'str' object does not support item assignment""",rndusr,2017-02-28T17:14:17Z,2017-03-26T13:51:10+00:00,4,620.61,True,36,21,3,259,24,6,30,MERGED
+12305,[OnePieceTube] Add new extractor,unknown,2017-02-28T15:05:17Z,2017-02-28T19:52:48+00:00,1,4.79,False,84,0,2,1033,1,6,7,CLOSED
+12304,[vier] Add support for vijf.be,vierbergenlars,2017-02-28T15:03:50Z,2017-03-04T16:47:20+00:00,8,97.72,True,27,6,1,1104,1,4,5,MERGED
+12296,[streamcz] Add playlist support (closes #12289),goggle,2017-02-27T20:40:01Z,2022-04-23T02:43:42+00:00,1,45126.06,False,106,7,2,768,0,1,1,CLOSED
+12278,[vshare.io] Add new extractor,piotr5151,2017-02-26T11:25:35Z,2017-04-03T20:06:20+00:00,3,872.68,False,37,0,2,1231,13,7,20,CLOSED
+12276,[Crunchyroll] Allow extractor to extract uploader name that's not a link,xbe,2017-02-26T10:07:01Z,2017-02-26T11:08:10+00:00,1,1.02,True,18,2,1,1143,2,1,3,MERGED
+12268,[cda] Decode url (fixes #12255),goggle,2017-02-25T21:13:49Z,2017-02-26T14:05:52+00:00,1,16.87,True,5,0,1,725,1,1,2,MERGED
+12243,[tunepk] Add new extractor,irfancharania,2017-02-24T05:04:28Z,2017-03-05T16:32:21+00:00,1,227.46,False,55,0,2,1036,1,1,2,CLOSED
+12234,[utils] add support for ttml styles,remitamine,2017-02-23T17:54:08Z,2017-04-19T13:40:02+00:00,8,1315.77,True,152,9,2,280,6,4,10,MERGED
+12222,[srgssr] Migrate to integrationlayer version 2.0 API,goggle,2017-02-22T19:48:20Z,2017-11-13T16:04:50+00:00,10,6332.27,False,271,75,1,2004,1,3,4,CLOSED
+12213,also allow vidzi.cc videos,ibotty,2017-02-22T10:20:35Z,2017-02-22T14:28:09+00:00,2,4.13,True,1,1,1,807,0,1,1,MERGED
+12178,"[Brightcove] Support <video> URLs, e.g. programme-tv",johnhawkinson,2017-02-19T02:47:34Z,2017-04-15T13:33:20+00:00,16,1330.76,False,75,20,2,42,8,6,14,CLOSED
+12172,[tegnamedia] Add new information extractors,goggle,2017-02-17T22:04:12Z,2022-04-23T02:43:21+00:00,1,45364.65,False,126,0,2,1167,2,6,8,CLOSED
+12104,Support Vimeo urls with query strings,akx,2017-02-12T22:04:17Z,2017-06-13T17:10:31+00:00,1,2899.1,False,8,4,1,756,2,3,5,CLOSED
+12099,[Bostonglobe] New. Nonstandard version of Brightcove,johnhawkinson,2017-02-12T13:43:53Z,2017-03-19T12:40:33+00:00,30,838.94,True,126,52,4,424,19,16,35,MERGED
+12034,Changing get_element_by_attribute() and get_element_by_class() to return a list of results. See PR #11956,ThomasChr,2017-02-09T08:59:46Z,2017-02-11T09:16:55+00:00,5,48.29,True,51,10,2,1629,23,4,27,MERGED
+12002,[Openload.co] Fixed Extraction,sudovijay,2017-02-07T05:03:32Z,2017-02-17T15:31:58+00:00,4,250.47,False,10,7,1,1351,15,1,16,CLOSED
+12000,Adding Dish MSO,gkoelln,2017-02-06T22:29:45Z,2023-08-01T00:05:41+00:00,3,56785.6,False,65,0,1,1047,92,1,93,CLOSED
+11999,[openload] improvement embedding,BagiraHun,2017-02-06T21:37:27Z,2019-11-26T22:58:23+00:00,1,24553.35,False,3,3,1,978,0,1,1,CLOSED
+11989,"[indavideo] Bugfix, support embedding",BagiraHun,2017-02-06T12:32:58Z,2018-05-25T18:27:00+00:00,9,11357.9,False,85,63,3,812,5,5,10,CLOSED
+11984,Makefile: Add missing uninstall target,mirsal,2017-02-06T09:27:40Z,2023-08-01T00:05:41+00:00,4,56798.63,False,12,0,1,813,4,4,8,CLOSED
+11965,[vk] Catch author blocked error message,bugchecker,2017-02-04T10:10:27Z,2017-02-04T15:21:28+00:00,2,5.18,False,11,0,1,1361,3,1,4,CLOSED
+11931,update extra '\' in pattern,Justsoos,2017-02-01T13:32:05Z,2017-02-02T20:28:09+00:00,1,30.93,False,1,1,1,90,0,1,1,CLOSED
+11929,Added new Regex for prosiebensat1 Extractor Description. Fixes #11810,ThomasChr,2017-02-01T09:08:06Z,2017-02-01T15:00:42+00:00,12,5.88,True,3,1,1,1301,5,6,11,MERGED
+11912,[vtm] Add extractor for member-only videos on VTM.be,mrBliss,2017-01-31T13:08:33Z,2017-03-17T22:59:39+00:00,30,1089.85,False,137,0,2,1107,22,19,41,CLOSED
+11892,Fix https://github.com/rg3/youtube-dl/issues/11890,Khang-NT,2017-01-31T05:22:50Z,2017-01-31T15:23:33+00:00,5,10.01,False,4,1,1,671,17,0,17,CLOSED
+11884,Updated Wimp.com extractor to work with newer jPlayer code using data…,stuporglue,2017-01-30T17:09:09Z,2020-12-28T18:19:48+00:00,1,34273.18,False,32,16,1,1793,3,2,5,CLOSED
+11880,[vimeo] Add support for extracting licenses,legoktm,2017-01-30T07:47:00Z,2017-01-31T17:58:46+00:00,1,34.2,False,4,0,1,1409,3,0,3,CLOSED
+11873,Add extractor for VrtNU,mrBliss,2017-01-29T18:03:04Z,2017-10-25T16:08:09+00:00,13,6454.08,True,167,15,4,1318,30,13,43,MERGED
+11850,[visir] Add new information extractor,goggle,2017-01-27T15:02:02Z,2022-04-23T02:42:54+00:00,8,45875.68,False,157,0,2,802,5,6,11,CLOSED
+11835,[Bandcamp] Extract additional fields,gkoelln,2017-01-25T17:00:06Z,2017-02-07T17:00:56+00:00,17,312.01,False,31,0,1,1148,5,8,13,CLOSED
+11825,Fix #11605 DASH initialization url formatting,hyww,2017-01-24T05:11:10Z,2017-01-28T23:58:13+00:00,1,114.78,False,1,0,1,1070,0,1,1,CLOSED
+11817,[azmedien:show] Add support for another form of playlists,goggle,2017-01-23T10:28:57Z,2017-01-29T13:42:57+00:00,2,147.23,False,28,4,1,1529,4,2,6,CLOSED
+11797,[chaturbate] Fix Chaturbate extractor,einstein95,2017-01-21T13:05:16Z,2017-01-21T20:02:26+00:00,3,6.95,False,11,7,1,1122,1,6,7,CLOSED
+11796,[vimeo] Add video title in --flat-playlist,mozbugbox,2017-01-21T08:04:39Z,2017-01-21T16:38:36+00:00,2,8.57,False,3,3,1,1144,2,2,4,CLOSED
+11795,[pornflip] Add PornFlip extractor,einstein95,2017-01-21T07:05:29Z,2017-01-21T20:44:35+00:00,4,13.65,False,60,0,2,1088,5,14,19,CLOSED
+11794,[leeco] Add live.le.com functionality,einstein95,2017-01-21T03:34:17Z,2023-08-01T00:05:41+00:00,3,57188.52,False,59,1,2,1071,6,14,20,CLOSED
+11790,[rai] changed the extractor for the new site and dismisison of the old one,timendum,2017-01-20T16:43:51Z,2017-04-01T19:15:53+00:00,4,1706.53,False,195,162,2,1007,9,3,12,CLOSED
+11784,[azmedientv] Add new information extractors ,goggle,2017-01-19T13:50:54Z,2017-01-21T19:18:48+00:00,2,53.47,False,91,0,2,1175,4,8,12,CLOSED
+11771,[thisav] Fix regex,ryucc,2017-01-18T20:31:05Z,2017-02-18T13:22:52+00:00,1,736.86,False,5,0,1,1447,0,1,1,CLOSED
+11730,Fixes #11572 Use cfscrape to avoid Crunchyroll error 503,kidburglar,2017-01-15T16:10:14Z,2019-03-02T14:56:01+00:00,3,18622.76,False,18,0,1,1393,31,3,34,CLOSED
+11724,[Iwara] Fix download,hakatashi,2017-01-15T05:46:43Z,2017-02-05T14:31:15+00:00,2,512.74,False,74,16,1,1730,1,3,4,CLOSED
+11701,Update adobepass.py,gkoelln,2017-01-13T18:10:25Z,2017-01-13T19:56:02+00:00,10,1.76,False,29,4,1,3651,0,2,2,CLOSED
+11685,[gaskrank] Add new extractor,motophil,2017-01-11T19:25:07Z,2017-02-05T16:19:38+00:00,31,596.91,True,122,0,2,328,5,23,28,MERGED
+11683,[twentymin] Fixed information extractor,goggle,2017-01-11T18:35:46Z,2017-01-18T15:20:49+00:00,3,164.75,False,31,6,1,1156,3,7,10,CLOSED
+11653,[EllenTV] Improve,TRox1972,2017-01-09T17:24:32Z,2017-02-17T15:46:49+00:00,1,934.37,False,5,6,1,1231,0,1,1,CLOSED
+11646,[Openload] Fix extraction,sudovijay,2017-01-08T16:58:07Z,2017-01-13T16:56:46+00:00,6,119.98,False,6,5,1,1261,11,3,14,CLOSED
+11643,"[orf] Update OE1 extractor, merge with FM4.",phaer,2017-01-08T15:04:51Z,2017-05-13T21:32:04+00:00,4,3006.45,False,53,62,2,1056,0,1,1,CLOSED
+11633,[youtube:playlist] Fix 'this playlist doesn't exist/is private' error not working (#11604),unknown,2017-01-08T01:13:27Z,2017-01-22T19:35:39+00:00,1,354.37,True,2,1,1,1399,0,1,1,MERGED
+11626,[hitrecord] Add new extractor (closes #10867),TRox1972,2017-01-06T20:59:37Z,2017-01-08T13:18:06+00:00,4,40.31,False,49,0,2,1231,0,3,3,CLOSED
+11608,"[Freesound] extended and fix ""title"" extraction closes #11602",shizeeg,2017-01-05T01:57:25Z,2017-01-12T16:04:56+00:00,4,182.13,False,50,5,1,1040,1,5,6,CLOSED
+11596,[Beam] Add new extractor,shizeeg,2017-01-03T23:02:12Z,2017-01-14T23:10:02+00:00,3,264.13,False,83,0,2,1327,0,7,7,CLOSED
+11581,"Fix ""invalid escape sequences"" error on Python 3.6",yan12125,2017-01-02T12:15:14Z,2017-01-05T16:59:53+00:00,3,76.74,False,537,537,282,2188,4,1,5,CLOSED
+11574,"added tagging support (ffmpeg metadata - artist,title,album)",dominic-miglar,2017-01-01T13:18:54Z,2017-01-01T15:51:06+00:00,1,2.54,False,10,0,1,1231,3,2,5,CLOSED
+11565,[infoq] Add audio only format if available,wader,2016-12-31T13:41:42Z,2017-02-03T04:10:13+00:00,11,806.48,True,55,12,2,1221,10,6,16,MERGED
+11537,[Twitch] Add support for player.twitch.tv urls,robert-lawrence,2016-12-26T01:49:16Z,2016-12-31T15:41:10+00:00,2,133.87,False,22,1,1,1177,1,3,4,CLOSED
+11526,Add Code Of Conduct,ivannieto,2016-12-24T15:53:28Z,2016-12-28T15:44:00+00:00,5,95.84,False,74,0,1,1037,7,1,8,CLOSED
+11521,[acast] Fix broken audio URL and timestamp extraction,wader,2016-12-23T23:10:41Z,2016-12-24T13:34:15+00:00,2,14.39,False,21,5,1,1192,6,2,8,CLOSED
+11520,[StreamMe] Add new extractor,shizeeg,2016-12-23T20:12:12Z,2019-03-17T03:02:15+00:00,19,19518.83,False,223,0,2,1468,8,20,28,CLOSED
+11484,[Seeso] Add new extractor,sa7mon,2016-12-19T05:19:56Z,2018-03-16T21:30:32+00:00,9,10864.18,False,96,0,2,1546,6,3,9,CLOSED
+11462,[tistory] Add new extractor,qsniyg,2016-12-16T17:32:47Z,2023-08-01T00:05:41+00:00,1,58038.55,False,232,0,2,1403,4,13,17,CLOSED
+11422,"Harmonized line length style, spell-checked README",habi,2016-12-12T11:19:23Z,2016-12-31T15:30:15+00:00,5,460.18,False,9,13,2,441,1,1,2,CLOSED
+11377,Pandoratv extractor fix,Serkora,2016-12-06T13:41:17Z,2016-12-07T16:46:42+00:00,5,27.09,True,14,0,1,1045,1,1,2,MERGED
+11375,[vlive] Update extraction,coreynicholson,2016-12-06T12:43:17Z,2016-12-14T14:06:50+00:00,2,193.39,False,21,9,1,662,7,1,8,CLOSED
+11366,Add extractor for NHL TV,joshka,2016-12-05T08:29:50Z,2023-08-01T00:05:41+00:00,14,58311.6,False,221,0,7,1108,22,6,28,CLOSED
+11312,[spike] Extract MGID via custom mobile URL,malept,2016-11-27T23:42:54Z,2016-11-29T16:06:01+00:00,5,40.39,True,23,2,2,1409,2,2,4,MERGED
+11272,[jsinterp] Actual JS interpreter,sulyi,2016-11-23T01:47:53Z,2021-09-08T11:23:08+00:00,41,42009.59,False,4377,0,50,1098,37,26,63,CLOSED
+11256,Sulyi,sulyi,2016-11-21T13:46:31Z,2016-11-23T06:35:02+00:00,2,40.81,False,66,4,4,2039,6,1,7,CLOSED
+11247,"[hellporno] Add extraction for .net zone, fix tests (wrong extension)",savicki,2016-11-19T23:15:29Z,2016-11-22T15:16:44+00:00,2,64.02,False,19,4,1,1251,1,3,4,CLOSED
+11244,[MiTele] Fix (supports more urls),zurfyx,2016-11-19T18:30:52Z,2016-11-24T14:53:33+00:00,1,116.38,False,14,1,1,1133,2,2,4,CLOSED
+11242,[lapresse] new extractor,up4,2016-11-19T14:28:42Z,2016-11-19T18:50:26+00:00,1,4.36,False,22,0,2,1163,6,1,7,CLOSED
+11224,[radiocanada] Extractor Enhancements,up4,2016-11-17T23:28:18Z,2023-08-01T00:05:41+00:00,6,58728.62,False,37,0,2,1153,3,4,7,CLOSED
+11208,"[funnyordie] Improve bitrate regex, add _check_formats call for video",savicki,2016-11-15T23:49:33Z,2016-11-22T15:16:55+00:00,3,159.46,False,7,5,1,1218,3,4,7,CLOSED
+11207,"[ruleporn] Add support for non Nuevo urls, add tests, strip title",savicki,2016-11-15T21:51:51Z,2019-03-12T15:58:09+00:00,4,20322.1,False,79,16,1,1067,5,5,10,CLOSED
+11186,[stolaf] new extractor,fstirlitz,2016-11-13T16:14:18Z,2020-09-12T12:36:36+00:00,2,33572.37,False,88,3,4,0,1,2,3,CLOSED
+11165,"[PlaysTVIE] Fix for plays.tv extractor, adding additional tests",unknown,2016-11-11T20:53:46Z,2016-11-12T22:45:32+00:00,2,25.86,False,5,8,1,931,1,3,4,CLOSED
+11134,[rai] changed the extractor for the new site and dismisison of the older one,timendum,2016-11-07T09:04:29Z,2017-01-20T16:15:08+00:00,2,1783.18,False,119,164,2,865,4,7,11,CLOSED
+11132,[xattr] Added more fields.,fbarriga,2016-11-07T03:32:46Z,2023-08-01T00:05:41+00:00,1,58988.55,False,213,2,2,1021,2,1,3,CLOSED
+11122,[openload] Fix extraction.,kasper93,2016-11-05T05:36:04Z,2016-11-16T12:43:19+00:00,3,271.12,True,67,9,3,764,9,1,10,MERGED
+11063,"[zdf] update for the completely new video portal launched Oct 28, see #11055",bastik,2016-10-29T12:23:27Z,2017-01-04T21:06:55+00:00,3,1616.72,False,214,170,1,1121,20,4,24,CLOSED
+11002,[CanalU] Add new extractor,frinkelpi,2016-10-22T19:20:12Z,2023-08-01T00:05:41+00:00,1,59356.76,False,69,0,2,792,0,1,1,CLOSED
+10945,[utils] add a base exception class and initialize exceptions properly,mdawar,2016-10-17T12:13:48Z,2017-02-17T15:51:13+00:00,2,2955.62,False,18,9,1,709,5,1,6,CLOSED
+10942,Add FFmpegSlice postprocessor,marcwebbie,2016-10-16T13:21:53Z,2023-02-24T06:45:43+00:00,3,55721.4,False,46,1,4,1524,4,2,6,CLOSED
+10938,[Youtube] Add game extractor,CommanderRoot,2016-10-16T03:39:37Z,2016-10-19T07:24:50+00:00,1,75.75,False,10,0,1,1121,4,1,5,CLOSED
+10936,[cda] Fix and improve extraction,kasper93,2016-10-16T01:40:40Z,2016-11-12T22:45:42+00:00,10,669.08,False,45,16,1,686,1,5,6,CLOSED
+10934,[jamendo] Add new extractor,Thor77,2016-10-15T21:15:16Z,2016-10-24T19:43:03+00:00,29,214.46,True,118,0,2,610,5,9,14,MERGED
+10926,[nytimes] Support downloading podcasts,johnhawkinson,2016-10-15T03:34:28Z,2016-10-16T11:22:21+00:00,6,31.8,False,65,5,1,426,7,7,14,CLOSED
+10917,[huajiao] Add new extractor,pyx,2016-10-14T02:02:21Z,2016-10-15T06:56:42+00:00,3,28.91,True,54,0,2,1084,3,1,4,MERGED
+10911,Fix Vevo titles with featured artists,aerickson,2016-10-13T11:18:27Z,2016-11-24T16:12:31+00:00,4,1012.9,False,27,4,1,1008,3,2,5,CLOSED
+10888,Print traceback when raising UnavailableVideoError,johnhawkinson,2016-10-09T12:16:18Z,2023-08-01T00:05:41+00:00,1,59675.82,False,1,0,1,470,11,0,11,CLOSED
+10879,[FFmpegExtractAudioPP] info dict return audio filepath and ext instead of the video filepath if file already exists,mdawar,2016-10-08T20:20:34Z,2016-10-15T19:12:03+00:00,3,166.86,True,3,3,1,718,0,1,1,MERGED
+10876,Fix UnavailableVideoError when writing to pipes.,johnhawkinson,2016-10-08T14:01:09Z,2018-03-24T09:36:51+00:00,3,12763.59,False,21,13,2,362,2,3,5,CLOSED
+10869,[yuvutu] Add new extractor,drguildo,2016-10-07T15:30:02Z,2018-11-10T20:13:07+00:00,1,18340.72,False,86,0,2,1216,1,1,2,CLOSED
+10859,Various grammar corrections.,drguildo,2016-10-06T11:54:14Z,2016-10-15T19:26:06+00:00,3,223.53,True,35,35,1,725,1,1,2,MERGED
+10854,[Iqm2] new extractor for Accela/IQM2,johnhawkinson,2016-10-06T05:55:51Z,2023-08-01T00:05:41+00:00,26,59754.16,False,108,0,2,1200,8,10,18,CLOSED
+10849,[ruutu] Add support for Supla URLs,arza-zara,2016-10-05T16:24:19Z,2016-10-15T19:31:56+00:00,2,243.13,True,14,2,1,825,0,1,1,MERGED
+10842,[npo] Add www.2doc.nl (formarly www.hollanddoc.nl) support to npo.py,pimborman,2016-10-03T21:36:52Z,2016-10-05T16:44:06+00:00,3,43.12,False,27,0,2,1375,0,3,3,CLOSED
+10830,[kotnrtube] Improve metadata extraction,TRox1972,2016-10-01T22:03:43Z,2016-10-02T11:02:55+00:00,4,12.99,False,16,7,1,932,0,2,2,CLOSED
+10829,[pornoxo] Improve metadata extraction,TRox1972,2016-10-01T13:36:33Z,2016-10-02T12:19:34+00:00,9,22.72,True,12,19,1,932,3,4,7,MERGED
+10819,[adobepass] Add Comcast,raleeper,2016-09-30T23:01:05Z,2016-10-19T19:16:24+00:00,1,452.26,True,48,8,1,1483,9,1,10,MERGED
+10816,[byutv] Rely on _match_id and _parse_json,TRox1972,2016-09-30T17:59:59Z,2016-10-01T17:53:07+00:00,4,23.89,False,6,7,1,1023,1,2,3,CLOSED
+10815,[reverbnation] Modernize,TRox1972,2016-09-30T17:56:12Z,2016-10-08T18:10:49+00:00,1,192.24,False,17,10,1,1042,0,1,1,CLOSED
+10807,[Funk] New extractor,catdog2,2016-09-30T01:01:09Z,2017-07-15T00:04:12+00:00,2,6911.05,False,115,1,3,1194,8,2,10,CLOSED
+10798,Fix tests and rely on `_match_id` for some extractors,TRox1972,2016-09-29T14:30:43Z,2016-09-30T17:55:48+00:00,9,27.42,False,40,68,13,1422,0,2,2,CLOSED
+10796,[Morningstar] Modernize,TRox1972,2016-09-29T13:27:27Z,2023-08-01T00:05:41+00:00,10,59914.64,False,12,12,1,1037,0,4,4,CLOSED
+10790,[Instagram] Extract video dimensions,TRox1972,2016-09-28T15:29:16Z,2016-09-30T17:19:58+00:00,8,49.84,False,10,2,1,1032,1,4,5,CLOSED
+10788,[Instagram] Extract comments,TRox1972,2016-09-28T14:56:23Z,2016-09-29T13:54:39+00:00,9,22.97,True,11,0,1,1045,1,3,4,MERGED
+10769,[nick] add support for nick austria and nicknight,NeroBurner,2016-09-26T20:57:10Z,2016-11-01T18:36:28+00:00,4,861.65,False,27,1,2,740,2,1,3,CLOSED
+10757,[vk] Add support for dailymotion embeds,kasper93,2016-09-25T15:08:41Z,2016-09-27T15:01:51+00:00,3,47.89,False,23,1,1,735,2,4,6,CLOSED
+10751,[promptfile] fixed,OndrejIT,2016-09-25T11:37:08Z,2016-09-26T15:13:44+00:00,2,27.61,True,11,5,1,1240,3,1,4,MERGED
+10748,[mwave] added support for URL language flags,cheshyre,2016-09-24T21:49:07Z,2016-09-24T23:15:00+00:00,3,1.43,False,2,2,1,245,0,2,2,CLOSED
+10736,[pandatv] Add new extractor,azuwis,2016-09-23T15:12:25Z,2016-10-24T18:46:03+00:00,24,747.56,True,85,0,2,916,6,13,19,MERGED
+10718,[meipai] Add new extractor,pyx,2016-09-21T00:28:03Z,2016-12-17T12:43:50+00:00,1,2100.26,False,100,0,2,998,2,4,6,CLOSED
+10699,[Aparat] Add Multiple Formats Support,mxamin,2016-09-18T19:12:30Z,2018-10-29T16:33:01+00:00,5,18501.34,False,54,15,1,815,2,4,6,CLOSED
+10697,[Antenna] Add new extractor,vagnum08,2016-09-18T16:38:48Z,2016-12-27T11:50:07+00:00,3,2395.19,False,110,0,2,690,1,4,5,CLOSED
+10693,[soundcloud] Added soundcloud license detection for file name formatt…,coolsa,2016-09-18T10:01:46Z,2016-09-20T18:59:54+00:00,1,56.97,False,8,1,1,569,1,3,4,CLOSED
+10688,Add support for youtube embedded post in LiveLeak IE,varunest,2016-09-17T15:31:36Z,2016-11-29T16:37:31+00:00,4,1753.1,True,15,1,1,827,0,2,2,MERGED
+10651,[funimation] establish session before logging in,Parent5446,2016-09-14T18:34:08Z,2016-09-16T03:52:44+00:00,3,33.31,False,20,3,1,607,6,2,8,CLOSED
+10649,Improve some ids regexes.,unknown,2016-09-14T16:03:36Z,2016-09-15T16:14:45+00:00,3,24.19,False,3,3,3,844,2,4,6,CLOSED
+10648,Add option --configfile,fast90,2016-09-14T15:38:30Z,2016-12-31T16:45:31+00:00,12,2593.12,False,15,0,2,345,6,10,16,CLOSED
+10509,[tv2hu] Add new extractor,Vukkk,2016-08-31T09:04:03Z,2017-04-12T18:46:52+00:00,5,5385.71,False,79,0,2,885,2,5,7,CLOSED
+9937,"[fragment,hls,f4m,dash,ism] improve fragment downloading",remitamine,2016-06-28T17:17:33Z,2017-04-19T10:48:23+00:00,3,7073.51,True,112,124,7,211,6,1,7,MERGED
+9590,[iTunes] Add new extractor (Closes #2097),TRox1972,2016-05-23T17:34:32Z,2023-08-01T00:05:41+00:00,1,63006.52,False,60,0,2,123,5,15,20,CLOSED
+8008,[nieuwsblad] Add new extractor (Closes #7662),fluxw42,2015-12-25T19:13:53Z,2020-04-13T14:02:03+00:00,13,37698.8,False,229,6,5,45,15,9,24,CLOSED
+7267,Parallel nosetests,yan12125,2015-10-22T14:41:41Z,2017-02-19T13:27:35+00:00,1,11662.76,False,11,4,2,532,17,3,20,CLOSED
+5920,[downloader/f4m] Make retry time proportional to the fragment duration,aajanki,2015-06-07T15:38:57Z,2023-08-01T00:05:42+00:00,1,71432.45,False,11,1,1,82,0,0,0,CLOSED

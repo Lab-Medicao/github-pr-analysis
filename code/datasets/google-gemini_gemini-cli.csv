@@ -1,4 +1,5 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+10584,test: enable interactive integration tests for windows,hritan,2025-10-06T11:24:18Z,2025-10-06T12:38:09+00:00,1,1.23,False,6,0,2,165,1,0,1,CLOSED
 10520,Temporarily remove NPM integration tests till we resolve #10517,scidomino,2025-10-04T00:36:28Z,2025-10-05T15:37:32+00:00,1,39.02,True,2,12,1,156,1,0,1,MERGED
 10514,Cleanup extension update logic,jakemac53,2025-10-03T22:06:39Z,2025-10-04T04:19:15+00:00,10,6.21,True,310,292,10,1160,2,5,7,MERGED
 10489,fix(lint): Fixes silent pass for formatting mistakes in gh ci,abhipatel12,2025-10-03T15:39:58Z,2025-10-04T03:59:45+00:00,2,12.33,True,1,1,1,30,2,1,3,MERGED
@@ -149,3 +150,852 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 9156,Fix: Only log message bus debug info when feature is enabled,allenhutchison,2025-09-22T20:30:37Z,2025-09-22T23:13:20+00:00,2,2.71,True,2,2,1,638,2,0,2,MERGED
 9155,Update .github directory from main branch,scidomino,2025-09-22T20:19:26Z,2025-09-22T22:11:27+00:00,1,1.87,True,1514,733,23,237,3,0,3,MERGED
 9150,Fix(quality): Refine Stream Validation Logic,SandyTao520,2025-09-22T19:36:02Z,2025-09-22T21:44:21+00:00,1,2.14,True,192,81,2,1263,1,0,1,MERGED
+9149,fix(patch): cherry-pick 4ef46e4 to release/v0.5.5,gemini-cli,2025-09-22T19:19:52Z,2025-09-23T20:37:27+00:00,1,25.29,False,18,3,1,78,2,0,2,CLOSED
+9148,fix(patch): cherry-pick 4ef46e4 to release/v0.6.0-preview.4,gemini-cli,2025-09-22T19:19:52Z,2025-09-22T22:43:45+00:00,1,3.4,True,18,3,1,79,1,0,1,MERGED
+9145,add(telemetry): Add character-level edit metrics to Concord,kiranani,2025-09-22T18:45:40Z,2025-09-25T16:14:34+00:00,4,69.48,True,170,1,3,257,1,2,3,MERGED
+9142,Update manual release documentation,scidomino,2025-09-22T18:18:34Z,2025-09-22T21:01:15+00:00,2,2.71,True,46,99,1,132,2,1,3,MERGED
+9123,fix(pre-commit): improve monorepo handling and failure messaging,Lyonk71,2025-09-22T16:29:42Z,2025-09-23T16:02:41+00:00,3,23.55,True,32,2,3,150,1,1,2,MERGED
+9121,"Improve extensions consent flow, command formatting, github-release behavior",chrstnb,2025-09-22T16:24:57Z,2025-09-22T23:54:08+00:00,3,7.49,True,49,32,4,477,2,1,3,MERGED
+9119,fix: retry requests on available RetryInfo,gsquared94,2025-09-22T16:03:57Z,2025-10-06T08:57:09+00:00,2,328.89,False,169,3,2,206,3,3,6,CLOSED
+9114,Make --allowed-tools work in non-interactive mode,mistergarrison,2025-09-22T15:06:02Z,2025-09-26T17:12:06+00:00,6,98.1,True,388,7,9,3155,4,1,5,MERGED
+9113,feat(config): Support telemetry configuration via environment variables,jerop,2025-09-22T14:52:12Z,2025-09-22T18:27:08+00:00,3,3.58,True,480,30,7,1585,3,1,4,MERGED
+9052,docs: fix links in headless.md after relocation from docs/cli,junhaoliao,2025-09-22T05:09:56Z,2025-09-23T16:29:36+00:00,3,35.33,True,5,5,1,322,5,0,5,MERGED
+9049,Fix private release downloading,chrstnb,2025-09-22T04:01:36Z,2025-09-25T23:35:11+00:00,3,91.56,False,133,50,2,385,2,4,6,CLOSED
+9021,refactor(cli): Extract reusable BaseSelectionList component and modernize RadioButtonSelect tests,abhipatel12,2025-09-21T04:33:29Z,2025-09-22T15:21:48+00:00,13,34.81,True,2068,401,10,2141,2,8,10,MERGED
+9014,Fix issue causing all keyboard input to be unresponsive waiting for a response from kitty.,jacob314,2025-09-21T00:32:19Z,2025-09-28T22:41:18+00:00,1,190.15,False,546,72,2,1310,2,1,3,CLOSED
+9007,fix(cli): support comma separated values for extensions and allowed mcp server names,agmsb,2025-09-20T17:27:32Z,2025-09-20T19:55:18+00:00,1,2.46,True,27,0,2,389,1,0,1,MERGED
+9004,fix: resolve positional prompt argument being ignored with other flags,seeun0210,2025-09-20T16:21:01Z,2025-09-21T21:21:27+00:00,2,29.01,True,49,6,5,2224,2,0,2,MERGED
+8995,fix(docs): fix a few Markdown syntax errorrs,doggy8088,2025-09-20T12:50:23Z,2025-09-20T23:09:50+00:00,2,10.32,True,3,3,2,58,1,0,1,MERGED
+8986,fix(ui): prevent useSlashCompletion effects from running during @ completion,SandyTao520,2025-09-20T05:49:10Z,2025-09-20T16:19:06+00:00,1,10.5,True,51,2,2,1605,1,0,1,MERGED
+8964,Releasing: Version mgmt,mattKorwel,2025-09-20T03:25:51Z,2025-09-25T04:07:54+00:00,2,120.7,True,476,36,5,5264,2,4,6,MERGED
+8954,handling propper checkouts for releasemanual,mattKorwel,2025-09-20T00:50:25Z,2025-09-25T04:01:45+00:00,2,123.19,True,10,0,1,98,2,0,2,MERGED
+8949,Fix incompatibilities with package.json,scidomino,2025-09-19T22:41:58Z,2025-09-20T18:45:12+00:00,4,20.05,True,112,29,7,928,3,0,3,MERGED
+8940,feat(cli): Add /model command for interactive model selection,abhipatel12,2025-09-19T20:02:11Z,2025-09-23T16:54:36+00:00,10,92.87,True,743,1,19,2439,3,8,11,MERGED
+8938,feat: add message bus integration for tool confirmation,allenhutchison,2025-09-19T19:39:07Z,2025-09-22T19:07:24+00:00,5,71.47,True,451,3,6,760,2,3,5,MERGED
+8934,fix(security): Pin wrap-ansi to 9.0.2,SandyTao520,2025-09-19T18:37:55Z,2025-09-19T21:22:51+00:00,1,2.75,True,35,130,3,74,3,0,3,MERGED
+8930,Fix(metrics) - Add exit hook for cleanup in Optl sdk,shishu314,2025-09-19T18:21:15Z,2025-09-22T14:09:44+00:00,4,67.81,True,3,0,1,215,2,1,3,MERGED
+8929,"feat(ci): Add a ""verify release"" action + workflow to the pipeline",richieforeman,2025-09-19T18:18:41Z,2025-09-22T19:34:52+00:00,14,73.27,True,180,25,6,310,4,6,10,MERGED
+8927,Update extension-releasing.md to have more info,jakemac53,2025-09-19T17:54:48Z,2025-09-19T18:59:00+00:00,10,1.07,True,50,7,1,319,2,3,5,MERGED
+8925,Refactor to defer initialization.,jacob314,2025-09-19T17:41:15Z,2025-09-23T02:52:44+00:00,4,81.19,True,572,106,5,162,3,7,10,MERGED
+8921,doc: Document manual push to dev channel,bobcatfish,2025-09-19T16:58:18Z,2025-09-23T22:16:59+00:00,2,101.31,False,10,1,1,352,2,0,2,CLOSED
+8919,fix: Create notification issues for manual release failures,bobcatfish,2025-09-19T16:32:12Z,2025-09-23T22:16:45+00:00,3,101.74,False,12,0,1,730,2,1,3,CLOSED
+8912,feat(deps): automate NOTICES.txt generation and improve license detection,skeshive,2025-09-19T14:44:22Z,2025-09-22T16:29:36+00:00,1,73.75,False,36,2,4,1343,2,1,3,CLOSED
+8909,fix(cli): return proper errors from loadExtensionConfig,hritan,2025-09-19T13:27:19Z,2025-09-22T09:47:42+00:00,2,68.34,True,127,44,2,229,1,1,2,MERGED
+8905,Fix pr-triage.sh cannot find the closing issues.,portlek,2025-09-19T11:45:19Z,2025-09-23T12:47:38+00:00,1,97.04,False,1,1,1,880,2,1,3,CLOSED
+8859,"fix(cli): ""Loaded cached credentials"" message appears twice during CLI startup",JayadityaGit,2025-09-19T07:04:02Z,2025-09-24T15:31:09+00:00,2,128.45,False,1,6,1,1763,4,0,4,CLOSED
+8837,fix(shell): improve shell output presentation and usability,galz10,2025-09-19T05:46:32Z,2025-09-30T21:02:42+00:00,7,279.27,True,107,17,4,1534,3,1,4,MERGED
+8833,Reinstate support for updating locally-installed extensions,chrstnb,2025-09-19T05:35:01Z,2025-09-22T03:50:23+00:00,2,70.26,True,111,37,6,190,2,2,4,MERGED
+8811,"Prompte telemetry, debug and proxy flags to global",bbiggs,2025-09-19T03:56:32Z,2025-09-19T06:17:18+00:00,3,2.35,True,70,70,1,285,1,2,3,MERGED
+8809,Filter out the 'trust' attribute from extension MCP server configs,chrstnb,2025-09-19T03:49:56Z,2025-09-20T01:22:51+00:00,2,21.55,True,37,1,3,457,2,1,3,MERGED
+8797,Fix extensions enablement bugs,chrstnb,2025-09-19T02:30:18Z,2025-09-19T15:48:03+00:00,5,13.3,True,353,83,5,432,2,14,16,MERGED
+8792,feat(cli): Add permissions command to modify trust settings,shrutip90,2025-09-19T01:25:32Z,2025-09-22T18:50:31+00:00,13,89.42,True,991,53,26,788,2,5,7,MERGED
+8788,Modifying new_prompt logging to handle real prompts only,razakhan-dev,2025-09-19T01:02:55Z,2025-09-22T21:36:10+00:00,4,92.55,True,13,9,1,813,2,2,4,MERGED
+8768,doc: Add docs on release failure chat notifications,bobcatfish,2025-09-18T22:57:28Z,2025-09-19T16:45:02+00:00,4,17.79,True,23,0,1,418,3,1,4,MERGED
+8766,Fix npm_channel options in manual release workflow.,scidomino,2025-09-18T22:31:52Z,2025-09-19T03:15:18+00:00,1,4.72,True,3,1,1,165,3,0,3,MERGED
+8765,Fix bug where users are unable to re-enter disconnected terminals.,jacob314,2025-09-18T22:24:30Z,2025-09-20T18:04:18+00:00,2,43.66,True,267,55,15,1044,5,0,5,MERGED
+8764,Add skip_github_release option to manual release.,scidomino,2025-09-18T22:21:49Z,2025-09-19T16:07:38+00:00,2,17.76,False,12,1,2,181,3,1,4,CLOSED
+8761,(feat): Add a ToDo tool to track ongoing task lists,anj-s,2025-09-18T22:05:25Z,2025-09-20T13:05:50+00:00,8,39.01,True,341,0,7,2000,6,11,17,MERGED
+8760,feat(ide): Read IDE info from discovery file,skeshive,2025-09-18T21:41:26Z,2025-09-22T00:59:24+00:00,4,75.3,True,89,69,5,192,3,1,4,MERGED
+8751,add(mcp): Add MCP Server name to ToolCallEvent OTel logging,kiranani,2025-09-18T20:11:26Z,2025-09-18T22:53:50+00:00,1,2.71,False,94,5,4,194,1,2,3,CLOSED
+8747,fix(cli) : fix shell colors to match new coloring,galz10,2025-09-18T19:41:38Z,2025-09-18T20:48:53+00:00,4,1.12,True,57,40,3,1579,3,1,4,MERGED
+8746,"for github release extensions, dont require built assets",jakemac53,2025-09-18T19:38:43Z,2025-09-19T16:07:01+00:00,4,20.47,True,11,8,1,418,2,1,3,MERGED
+8745,fix(patch): cherry-pick f3abfb8 to release/v0.5.4,gemini-cli,2025-09-18T19:38:28Z,2025-09-18T22:04:19+00:00,2,2.43,True,3,1,2,78,2,0,2,MERGED
+8737,Update Paid tier specific privacy notice.,srithreepo,2025-09-18T19:00:27Z,2025-09-22T19:08:12+00:00,3,96.13,True,18,3,1,99,6,2,8,MERGED
+8736,Better parsing of github extension source uris,jakemac53,2025-09-18T19:00:15Z,2025-09-18T20:16:04+00:00,5,1.26,True,71,11,2,427,2,2,4,MERGED
+8730,fix(#7777): screen reader accessibility setting not working,hugomurillomtz,2025-09-18T18:52:19Z,2025-09-20T00:33:12+00:00,6,29.68,True,54,1,2,828,4,1,5,MERGED
+8726,fix(shell): update shell setting from usePty to enableInteractiveShell,galz10,2025-09-18T18:28:40Z,2025-09-18T20:22:41+00:00,3,1.9,True,27,25,7,2053,2,2,4,MERGED
+8723,Releasing: Patching e2e coordination,mattKorwel,2025-09-18T18:09:10Z,2025-09-18T19:29:44+00:00,1,1.34,True,50,13,2,140,3,0,3,MERGED
+8713,fix(extensions): Fix github-release install.,bradhoekstra,2025-09-18T16:42:08Z,2025-09-18T17:54:52+00:00,1,1.21,False,1,1,1,122,2,0,2,CLOSED
+8702,metrics(extensions) - Add logging methods for extensions operations,shishu314,2025-09-18T15:55:44Z,2025-09-18T18:53:14+00:00,5,2.96,True,246,1,6,400,2,5,7,MERGED
+8698,refactor(ide): replace DetectedIde enum with IDE_DEFINITIONS object,skeshive,2025-09-18T15:41:39Z,2025-09-18T19:43:30+00:00,4,4.03,True,129,229,16,440,3,1,4,MERGED
+8693,Support rendering function calls and responses when sharing chat to markdown,rramkumar1,2025-09-18T14:37:50Z,2025-09-19T21:51:07+00:00,13,31.22,True,150,17,2,450,2,4,6,MERGED
+8692,fix(cli): uninstall extensions using their source URL,hritan,2025-09-18T13:46:09Z,2025-09-18T16:13:44+00:00,7,2.46,True,47,10,3,308,2,3,5,MERGED
+8691,Improve compression splitpoint logic.,scidomino,2025-09-18T13:26:08Z,2025-09-18T18:52:08+00:00,5,5.43,True,84,59,2,590,2,1,3,MERGED
+8685,fix(cli): ctrl c/ctrl d close cli when in dialogs,lifefloating,2025-09-18T10:30:25Z,2025-09-19T07:06:02+00:00,9,20.59,True,231,25,4,1201,3,5,8,MERGED
+8676,fixing error,mattKorwel,2025-09-18T04:49:09Z,2025-09-18T15:57:12+00:00,4,11.13,True,29,26,1,2360,3,2,5,MERGED
+8670,feat(CI): Add a github action to build the sandbox image and push to GHCR,richieforeman,2025-09-18T01:17:47Z,2025-09-20T14:23:31+00:00,9,61.1,True,125,13,3,701,2,4,6,MERGED
+8669,Mk fix nightly,mattKorwel,2025-09-18T00:40:17Z,2025-09-18T01:54:10+00:00,5,1.23,True,4,3,1,1,2,1,3,MERGED
+8661,Improve compression split point logic.,scidomino,2025-09-17T22:57:36Z,2025-09-18T01:18:15+00:00,2,2.34,False,61,36,2,391,2,0,2,CLOSED
+8655,Properly publish npm-shrinkwrap.json.,scidomino,2025-09-17T22:19:33Z,2025-09-18T01:21:46+00:00,4,3.04,True,3,1,2,438,89,0,89,MERGED
+8653,Add a version specifier to the npx command for GCP AR auth.,cornmander,2025-09-17T22:14:40Z,2025-09-18T15:03:58+00:00,5,16.82,True,16,0,2,154,2,1,3,MERGED
+8650,fix(ui): Track last prompt token count in processStream,SandyTao520,2025-09-17T21:52:56Z,2025-09-18T19:07:57+00:00,3,21.25,True,72,24,8,1337,4,1,5,MERGED
+8647,refactor(shell): Send AnsiOutput when ShowColor is false,galz10,2025-09-17T20:52:43Z,2025-09-18T20:16:21+00:00,7,23.39,True,120,41,4,3254,2,2,4,MERGED
+8644,feat(ide): Allow IDEs to self-identify via discovery file,skeshive,2025-09-17T20:38:13Z,2025-09-18T20:01:06+00:00,3,23.38,False,178,141,10,528,2,1,3,CLOSED
+8636,feat(escape ansi): escape ansi ctrl codes from model output before displaying to user,adamfweidman,2025-09-17T17:27:00Z,2025-09-25T18:16:32+00:00,15,192.83,True,390,66,6,1399,3,5,8,MERGED
+8632,feat(ci): add sensitive keyword lint check,skeshive,2025-09-17T16:53:18Z,2025-10-03T15:03:22+00:00,6,382.17,False,38,0,1,236,3,2,5,CLOSED
+8599,Fix automatic compression bug,scidomino,2025-09-17T03:10:45Z,2025-09-17T20:31:08+00:00,5,17.34,True,28,55,3,940,5,1,6,MERGED
+8597,Release Promotion Clean up,mattKorwel,2025-09-17T01:27:30Z,2025-09-17T06:47:05+00:00,4,5.33,True,325,183,7,636,3,2,5,MERGED
+8593,Move headless.md to docs folder,jerop,2025-09-16T23:18:06Z,2025-09-17T01:29:59+00:00,3,2.2,True,3,3,3,212,2,0,2,MERGED
+8588,feat(CI): Package docker containers to GHCR for PRs.,richieforeman,2025-09-16T22:19:59Z,2025-09-18T14:45:28+00:00,6,40.42,True,95,0,2,305,3,3,6,MERGED
+8585,feat: Add `-o` as alias for `--output-format`,bobcatfish,2025-09-16T21:48:18Z,2025-09-16T22:58:38+00:00,4,1.17,True,1,0,1,409,2,1,3,MERGED
+8583,fix(tests): reduce flakiness in simple mcp server test,agmsb,2025-09-16T21:07:11Z,2025-09-16T22:51:01+00:00,4,1.73,True,19,0,1,459,2,1,3,MERGED
+8581,feat(extensions): add support for sso:// protocol,galz10,2025-09-16T20:42:17Z,2025-09-17T17:52:04+00:00,6,21.16,True,14,1,2,1596,2,1,3,MERGED
+8571,fix(cli): Fix performance issues on relaunching CLI in inner node pro…,shrutip90,2025-09-16T18:49:04Z,2025-09-16T22:08:08+00:00,8,3.32,True,25,8,1,940,2,3,5,MERGED
+8570,Show Citations by default for all users.,scidomino,2025-09-16T18:44:12Z,2025-09-17T02:55:09+00:00,3,8.18,True,5,8,2,308,2,0,2,MERGED
+8564,docs: add headless mode guide,jerop,2025-09-16T17:42:24Z,2025-09-16T19:13:25+00:00,5,1.52,True,329,16,3,368,5,8,13,MERGED
+8562,chore(settings): enable setting migration,galz10,2025-09-16T17:33:23Z,2025-09-16T19:03:33+00:00,4,1.5,True,1,1,1,117,2,1,3,MERGED
+8557,feat: clipboard image support and fixes,bniladridas,2025-09-16T16:22:51Z,2025-09-28T07:51:58+00:00,4,279.49,False,0,0,0,1169,5,6,11,CLOSED
+8556,Simplify error messages when user runs into daily quotas.,srithreepo,2025-09-16T16:01:42Z,2025-09-16T22:52:38+00:00,5,6.85,True,9,23,2,165,9,1,10,MERGED
+8551,Conditionally use consent flow,chrstnb,2025-09-16T15:24:13Z,2025-09-17T13:40:38+00:00,3,22.27,True,47,27,3,404,2,1,3,MERGED
+8545,feat: remove session summary feature,jerop,2025-09-16T13:24:36Z,2025-09-16T15:29:40+00:00,3,2.08,True,2,55,4,120,2,0,2,MERGED
+8544,Update extension enablement logic,chrstnb,2025-09-16T13:20:39Z,2025-09-16T20:04:43+00:00,1,6.73,True,1470,1134,10,3602,2,0,2,MERGED
+8541,feat: add direct Google Cloud telemetry exporters,jerop,2025-09-16T10:34:10Z,2025-09-16T19:26:34+00:00,6,8.87,True,1217,154,11,369,2,5,7,MERGED
+8535,Refs/heads/patch 2,1042422227,2025-09-16T04:41:48Z,2025-09-18T20:58:40+00:00,3,64.28,False,19,25,4,165,2,0,2,CLOSED
+8533,Fix Windows CI flaky test in SettingsDialog.test.tsx,lifefloating,2025-09-16T03:54:32Z,2025-09-16T16:23:17+00:00,1,12.48,True,25,0,1,2116,2,0,2,MERGED
+8530,Improve CI Times by 70%,mattKorwel,2025-09-16T03:00:33Z,2025-09-18T23:29:40+00:00,7,68.49,True,858,304,14,1008,3,4,7,MERGED
+8529,refactor(core): Remove generateJson from GeminiClient,abhipatel12,2025-09-16T02:38:50Z,2025-09-17T01:11:21+00:00,4,22.54,True,0,217,2,1540,2,1,3,MERGED
+8518,feat(telemetry): Add telemetry and metrics for model routing,abhipatel12,2025-09-16T00:28:22Z,2025-09-16T21:08:53+00:00,9,20.68,True,507,20,16,2865,2,6,8,MERGED
+8514,feat(third_party) Port `get-ripgrep`.,joshualitt,2025-09-15T23:23:51Z,2025-09-19T15:18:15+00:00,3,87.91,True,308,129,16,148,1,4,5,MERGED
+8513,Serialize function calls that mutate state,scidomino,2025-09-15T23:18:35Z,2025-09-17T18:57:41+00:00,4,43.65,True,331,8,4,402,12,3,15,MERGED
+8512,feat(vscode-ide-companion): harden ide-server with CORS and host validation,skeshive,2025-09-15T22:56:09Z,2025-09-18T14:19:54+00:00,6,63.4,True,169,18,2,835,3,3,6,MERGED
+8511,Add support for auto-updating git extensions,jakemac53,2025-09-15T22:47:06Z,2025-09-18T22:08:05+00:00,12,71.35,True,1311,526,20,813,3,9,12,MERGED
+8510,refactor: Replace exec with spawn,galz10,2025-09-15T22:16:19Z,2025-09-16T19:19:39+00:00,6,21.06,True,331,296,11,1558,2,5,7,MERGED
+8508,Fix to issue #736 resulting in GEMINI_CLI_AUTH_TYPE not getting populated most of the time in the start_session events,razakhan-dev,2025-09-15T21:35:29Z,2025-09-17T06:21:50+00:00,9,32.77,True,4,2,2,1191,2,5,7,MERGED
+8505,feat(iap support): Add service account impersonation provider to MCPServers to support IAP on Cloud Run,adamfweidman,2025-09-15T21:06:25Z,2025-09-27T08:20:56+00:00,15,275.24,True,360,0,4,1240,2,13,15,MERGED
+8498,Add simple extensions release flow support,chrstnb,2025-09-15T19:27:30Z,2025-09-17T22:26:21+00:00,19,50.98,True,726,243,8,2337,3,17,20,MERGED
+8497,Remove unused code.,scidomino,2025-09-15T19:16:29Z,2025-09-16T19:25:11+00:00,8,24.14,True,29,299,2,769,2,3,5,MERGED
+8494,Ide req auth,skeshive,2025-09-15T19:04:26Z,2025-10-03T14:28:40+00:00,2,427.4,False,153,10,3,165,2,3,5,CLOSED
+8492,chore(docs): Fix typo in shell.md,galz10,2025-09-15T18:55:13Z,2025-09-15T21:43:36+00:00,3,2.81,True,1,1,1,22,2,0,2,MERGED
+8491,feat(vscode-ide-companion): add auth token validation to IDE server,skeshive,2025-09-15T18:37:34Z,2025-09-15T23:35:33+00:00,3,4.97,True,188,26,3,393,2,4,6,MERGED
+8490,feat(ide): add auth token support to IdeClient,skeshive,2025-09-15T18:25:02Z,2025-09-15T23:38:41+00:00,3,5.23,True,40,0,2,355,2,1,3,MERGED
+8489,update shell info,hminooei,2025-09-15T18:16:07Z,2025-09-15T20:50:32+00:00,3,2.57,True,3,3,2,53,2,1,3,MERGED
+8482,fix(cli): add workspacePath to extension variables,hritan,2025-09-15T16:32:44Z,2025-09-17T04:37:16+00:00,3,36.08,True,124,25,4,224,3,1,4,MERGED
+8480,docs(tools): update shell.md for interactive commands,galz10,2025-09-15T15:52:51Z,2025-09-15T17:22:28+00:00,3,1.49,True,59,2,1,518,2,1,3,MERGED
+8479,docs(ide): define diffing interface for companion extension spec,skeshive,2025-09-15T15:52:34Z,2025-09-15T23:10:46+00:00,4,7.3,True,91,11,1,285,2,9,11,MERGED
+8466,feat(cli): Auto restart CLI inner node process on trust change,reconsumeralization,2025-09-15T13:13:01Z,2025-09-15T17:51:59+00:00,4,4.65,False,215,82,6,1023,2,8,10,CLOSED
+8457,Selective upstream integration,reconsumeralization,2025-09-15T05:43:12Z,2025-09-15T10:31:44+00:00,3,4.81,False,6663,177,58,1675,3,5,8,CLOSED
+8456,fix(e2e): resolve flaky list_directory test,abhipatel12,2025-09-15T03:14:41Z,2025-09-15T04:14:54+00:00,3,1.0,True,1,1,1,1961,2,0,2,MERGED
+8455,feat(routing): Introduce Classifier-based Model Routing Strategy,abhipatel12,2025-09-15T01:03:53Z,2025-09-16T00:09:46+00:00,9,23.1,True,508,4,4,2780,2,3,5,MERGED
+8446,chore(tests): Remove stale snapshot for deleted App.tsx,abhipatel12,2025-09-14T21:03:40Z,2025-09-15T01:26:36+00:00,3,4.38,True,0,31,1,904,2,0,2,MERGED
+8443,refactor(core): Use BaseLlmClient for utility LLM calls in edit corrector,abhipatel12,2025-09-14T20:14:20Z,2025-09-16T00:58:49+00:00,3,28.74,True,120,112,6,3418,2,0,2,MERGED
+8442,refactor(core): Move generateEmbedding to BaseLlmClient,abhipatel12,2025-09-14T18:34:42Z,2025-09-15T15:48:14+00:00,3,21.23,True,133,129,4,1493,2,1,3,MERGED
+8432,fix(config):Reviving CustomWitty feature,JayadityaGit,2025-09-14T07:56:00Z,2025-09-22T15:35:10+00:00,3,199.65,True,43,7,4,1164,3,0,3,MERGED
+8430,Fix mixed input crash by adding proper error handling 8304,lifefloating,2025-09-14T06:37:15Z,2025-09-15T23:36:58+00:00,1,41.0,True,80,8,3,1874,0,0,0,MERGED
+8427,refactor(core): Use BaseLlmClient for LLM-based loop detection,abhipatel12,2025-09-14T01:29:22Z,2025-09-14T03:26:15+00:00,3,1.95,True,50,29,2,1265,2,0,2,MERGED
+8424,refactor(core): Migrate next speaker check to use BaseLlmClient,abhipatel12,2025-09-14T00:47:16Z,2025-09-15T04:31:21+00:00,3,27.73,True,74,40,4,1812,2,0,2,MERGED
+8423,fix(stats): Use request model as fallback for stats logging,abhipatel12,2025-09-13T23:51:54Z,2025-09-14T01:15:53+00:00,4,1.4,True,23,4,3,2241,2,1,3,MERGED
+8422,docs: fix typos and grammar errors in documentation,lhwzds,2025-09-13T23:30:20Z,2025-09-19T21:52:28+00:00,3,142.37,True,3,3,3,1146,0,1,1,MERGED
+8418,fix(markdown): Fix markdown rendering,dracic,2025-09-13T20:14:21Z,2025-09-24T20:52:36+00:00,14,264.64,False,1205,35,2,2896,23,8,31,CLOSED
+8416,"chore: updated  tinyglobby, fdir, picomatch, vite libraries to fix vulnerabilities",nagendrareddy10,2025-09-13T18:33:01Z,2025-09-22T13:27:38+00:00,7,210.91,False,0,0,0,243,1,2,3,CLOSED
+8403,docs: Fix broken Extension example,vorburger,2025-09-13T14:11:06Z,2025-09-19T21:48:04+00:00,3,151.62,True,1,1,1,968,3,0,3,MERGED
+8396,fix(tests): fix flaky SettingsDialog tests,bulkypanda,2025-09-13T08:16:40Z,2025-09-22T23:01:40+00:00,10,230.75,True,58,26,1,636,3,12,15,MERGED
+8395,fix(tests): improve test reliability and performance,bulkypanda,2025-09-13T08:03:16Z,2025-09-17T17:30:28+00:00,13,105.45,True,39,22,2,442,1,7,8,MERGED
+8391,fix(tests): Cleans up setup test and fix behavior test,SandyTao520,2025-09-13T01:40:27Z,2025-09-15T16:52:11+00:00,1,63.2,True,9,39,1,219,2,0,2,MERGED
+8386,Correctly support comma-separated values for `--allowed-tools`,binux,2025-09-12T23:18:26Z,2025-09-19T21:55:00+00:00,1,166.61,True,14,0,2,538,1,0,1,MERGED
+8381,refactor: refactor slash command parsing to a util function.,capachino,2025-09-12T22:08:22Z,2025-09-16T00:09:46+00:00,5,74.02,True,217,41,3,633,0,1,1,MERGED
+8380,feat(dev): add pre-commit hook for formatting and linting,Lyonk71,2025-09-12T21:41:32Z,2025-09-20T02:12:17+00:00,14,172.51,True,302,2,4,597,4,4,8,MERGED
+8378,fix(cli): Auto restart CLI inner node process on trust change,shrutip90,2025-09-12T21:26:15Z,2025-09-17T20:20:17+00:00,16,118.9,True,135,49,7,211,5,7,12,MERGED
+8377,fix(core): stop streaming request on loop detection,SandyTao520,2025-09-12T21:04:45Z,2025-09-12T23:56:39+00:00,3,2.87,True,74,1,2,1630,2,2,4,MERGED
+8375,fix(core): Include the latest user request in countTokens for compression,SandyTao520,2025-09-12T20:02:33Z,2025-09-12T21:24:37+00:00,4,1.37,True,73,18,2,1647,2,1,3,MERGED
+8374,refactor(ui): extract QueuedMessageDisplay into separate component,akhil29,2025-09-12T19:39:28Z,2025-09-18T19:08:14+00:00,7,143.48,True,144,52,4,656,2,2,4,MERGED
+8373,JSON errors in non-interactive auth validation,jerop,2025-09-12T19:38:33Z,2025-09-12T23:32:31+00:00,6,3.9,True,187,26,3,369,2,2,4,MERGED
+8371,cleanup(extension) - Add tests for the install command,shishu314,2025-09-12T19:26:07Z,2025-09-16T18:39:51+00:00,5,95.23,True,107,3,1,220,2,3,5,MERGED
+8367,"cleanup(gha): Use Matrix runner w/ {self, ubuntu} for a low-risk workflow",richieforeman,2025-09-12T18:51:49Z,2025-09-16T16:19:11+00:00,2,93.46,True,7,1,1,221,3,0,3,MERGED
+8366,# feat(routing): Introduce useModelRouter feature flag,abhipatel12,2025-09-12T18:44:35Z,2025-09-12T20:12:03+00:00,5,1.46,True,267,48,14,2152,2,2,4,MERGED
+8364,hotfix #8270 into preview release,skeshive,2025-09-12T18:27:15Z,2025-09-12T19:42:25+00:00,3,1.25,False,37,5,2,0,2,1,3,CLOSED
+8362,fix(ui): Correct footer measurement and prevent negative terminal height,galz10,2025-09-12T18:14:03Z,2025-09-13T05:54:17+00:00,4,11.67,True,74,15,2,1884,3,3,6,MERGED
+8356,Improve dark theme colors and readability for light themes,WangWanyue,2025-09-12T17:19:42Z,2025-09-15T23:38:41+00:00,14,78.32,True,4,4,3,60,2,1,3,MERGED
+8355,feat(extensions) - Add local/remote for mcp servers,shishu314,2025-09-12T17:05:12Z,2025-09-15T15:24:01+00:00,4,70.31,True,44,2,2,601,2,2,4,MERGED
+8348,feat(cli): configure policy engine from existing settings,allenhutchison,2025-09-12T16:05:23Z,2025-09-18T20:58:38+00:00,14,148.89,True,1149,2,7,898,3,14,17,MERGED
+8339,Telemtry(extensions) - Add logging for extension events,shishu314,2025-09-12T15:25:54Z,2025-09-22T17:00:42+00:00,5,241.58,True,80,48,8,471,2,3,5,MERGED
+8338,refactor(ide): Improve IDE diff communication protocol    ,skeshive,2025-09-12T14:24:08Z,2025-09-12T15:56:48+00:00,4,1.54,True,210,114,6,1491,2,0,2,MERGED
+8329,fix(auth): allow exit on escape or ctrl+c,Smetalo,2025-09-12T11:07:15Z,2025-09-18T00:04:18+00:00,6,132.95,False,15,8,2,280,5,5,10,CLOSED
+8325,feat(extensions): support custom git protocols for install,Smetalo,2025-09-12T08:48:54Z,2025-09-20T03:43:52+00:00,4,186.92,False,12,6,2,524,4,2,6,CLOSED
+8316,fix(ui): ensure [MCP] tag color matches active state,miguelsolorio,2025-09-12T01:08:41Z,2025-09-12T02:49:57+00:00,3,1.69,True,1,1,1,551,2,1,3,MERGED
+8306,fix: Make trustedFolders file path configurable,shrutip90,2025-09-11T22:50:49Z,2025-09-16T17:09:39+00:00,3,114.31,True,41,13,2,307,2,1,3,MERGED
+8305,feat(cli) Custom Commands work in Non-Interactive/Headless Mode,capachino,2025-09-11T22:34:30Z,2025-09-19T13:54:18+00:00,11,183.33,True,417,26,5,1119,6,4,10,MERGED
+8301,"Make a stateful extensions list component, with update statuses",jakemac53,2025-09-11T21:46:39Z,2025-09-12T16:36:54+00:00,4,18.84,True,705,241,15,1739,3,2,5,MERGED
+8298,Use shrinkwrap for package locking,scidomino,2025-09-11T21:25:33Z,2025-09-12T20:39:23+00:00,3,23.23,True,10,8,8,440,8,2,10,MERGED
+8293,Metric(extension) - Add logging for uninstalling extension,shishu314,2025-09-11T19:56:29Z,2025-09-12T17:50:15+00:00,3,21.9,True,78,9,6,454,2,1,3,MERGED
+8291,Update default text styles,miguelsolorio,2025-09-11T19:53:56Z,2025-09-11T21:34:58+00:00,3,1.68,True,21,10,7,373,2,4,6,MERGED
+8284,Fix license file.,joshualitt,2025-09-11T19:06:47Z,2025-09-11T22:48:00+00:00,2,3.69,True,2,2,1,94,0,0,0,MERGED
+8282,Move IdeClient.connect() to initializeApp().,scidomino,2025-09-11T18:42:51Z,2025-09-11T20:19:50+00:00,2,1.62,True,32,58,7,462,3,0,3,MERGED
+8278,Refactor IdeContextStore,scidomino,2025-09-11T17:32:15Z,2025-09-11T18:36:53+00:00,3,1.08,True,92,114,10,316,3,1,4,MERGED
+8270,fix(ide): Correct IDE client temp dir and port matching,skeshive,2025-09-11T16:01:00Z,2025-09-12T18:07:24+00:00,3,26.11,True,37,5,2,453,3,2,5,MERGED
+8266,feat(ide): Check for IDE diffing capabilities before opening diffs,skeshive,2025-09-11T15:36:49Z,2025-09-11T20:30:21+00:00,4,4.89,True,183,50,9,556,3,5,8,MERGED
+8262,docs(ide ext): add companion extension specification,skeshive,2025-09-11T13:20:34Z,2025-09-12T21:21:23+00:00,6,32.01,True,121,1,3,875,2,6,8,MERGED
+8239,refactor(ui): Optimize rendering performance,galz10,2025-09-11T01:06:04Z,2025-09-17T22:48:51+00:00,10,165.71,True,501,87,13,2077,2,3,5,MERGED
+8233,Fix suggestion alignment,miguelsolorio,2025-09-10T23:55:11Z,2025-09-11T03:58:54+00:00,6,4.06,True,25,30,2,525,3,2,5,MERGED
+8231,feat(ui): Add confirmation dialog for disabling loop detection for current session,SandyTao520,2025-09-10T23:25:50Z,2025-09-11T05:31:21+00:00,3,6.09,True,498,39,12,2704,4,6,10,MERGED
+8230,Typo fix in releases.md,ingenthr,2025-09-10T23:22:40Z,2025-09-12T00:32:06+00:00,3,25.16,True,1,1,1,196,2,0,2,MERGED
+8225,Fix compression issues,scidomino,2025-09-10T22:15:41Z,2025-09-10T23:17:20+00:00,5,1.03,True,129,597,4,667,4,1,5,MERGED
+8223,feat: add telemetry for output format usage,jerop,2025-09-10T22:03:28Z,2025-09-11T13:54:08+00:00,3,15.84,True,8,0,4,474,2,2,4,MERGED
+8216,refactor(ide ext): Update port file name + switch to 1-based index for characters + remove truncation text,skeshive,2025-09-10T20:47:27Z,2025-10-03T19:20:28+00:00,5,550.55,False,94,129,5,770,4,4,8,CLOSED
+8208,feat(extension) - Add permission prompt for when user installs a local extension with mcpservers,shishu314,2025-09-10T19:33:01Z,2025-09-12T15:04:50+00:00,2,43.53,True,104,1,2,614,3,1,4,MERGED
+8207,fix(metrics) - Remove the error field from ApiResponseEvent,shishu314,2025-09-10T18:58:35Z,2025-09-11T17:53:07+00:00,3,22.91,True,4,57,6,714,2,1,3,MERGED
+8202,feat(release): automate patch creation and release process,mattKorwel,2025-09-10T18:07:25Z,2025-09-11T16:36:06+00:00,5,22.48,True,313,28,5,821,3,5,8,MERGED
+8200,feat(ui): make accept edits & yolo mode match shell mode styles,miguelsolorio,2025-09-10T18:01:18Z,2025-09-11T17:53:07+00:00,6,23.86,True,89,15,8,577,2,7,9,MERGED
+8199,Update README.md,OakNinja,2025-09-10T17:28:49Z,2025-09-10T19:19:42+00:00,3,1.85,True,2,2,1,109,1,0,1,MERGED
+8197,fix(cli): restart gemini cli if untrusted folder option selected,hritan,2025-09-10T16:38:04Z,2025-09-11T16:47:31+00:00,4,24.16,False,128,47,5,165,1,2,3,CLOSED
+8196,feat: simplify patch release workflow,mattKorwel,2025-09-10T16:14:18Z,2025-09-12T17:37:58+00:00,25,49.39,True,489,86,10,95,4,14,18,MERGED
+8195,feat(core): Copy `downloadRipGrep` with license.,joshualitt,2025-09-10T15:58:22Z,2025-09-11T20:25:31+00:00,4,28.45,True,207,0,4,312,1,1,2,MERGED
+8177,fix: `gitignore` handling,gsquared94,2025-09-10T12:08:06Z,2025-09-10T20:03:16+00:00,9,7.92,True,250,163,5,2633,0,7,7,MERGED
+8173,fix: make `bfsFileSearch` more efficient,gsquared94,2025-09-10T11:38:25Z,2025-09-10T18:51:59+00:00,6,7.23,True,13,5,1,304,0,2,2,MERGED
+8165,fix(cli): added directory name to folder trust dialog,hritan,2025-09-10T09:46:47Z,2025-09-10T16:55:38+00:00,1,7.15,True,11,2,2,232,2,0,2,MERGED
+8160,Fix: Long model responses truncated in CLI output,FlowerRealm,2025-09-10T07:49:34Z,2025-09-11T10:25:53+00:00,18,26.61,False,270,46,7,1340,19,16,35,CLOSED
+8159,fix(#7039): broken IDE integration for multi-edit/multi-write flows,hugomurillomtz,2025-09-10T07:28:38Z,2025-09-10T18:33:12+00:00,10,11.08,True,166,2,2,1992,10,3,13,MERGED
+8155,feat(accessibility): implement centralized screen reader layout system,vick08,2025-09-10T06:08:47Z,2025-09-23T18:09:22+00:00,6,324.01,True,348,64,10,898,11,9,20,MERGED
+8154,"Fix #8077: Settings command overwrites entire JSON file, leaking environment variables",lifefloating,2025-09-10T05:46:38Z,2025-09-13T06:45:35+00:00,17,72.98,True,379,26,8,1852,4,10,14,MERGED
+8153,feat(routing): Initialize model routing architecture,abhipatel12,2025-09-10T04:38:23Z,2025-09-11T17:53:07+00:00,17,37.25,True,1263,67,28,4984,2,12,14,MERGED
+8152,Release Process vNext,mattKorwel,2025-09-10T04:07:12Z,2025-09-10T08:45:00+00:00,8,4.63,True,647,593,15,909,2,7,9,MERGED
+8145,fix(rendering): remove React.strictMode from gemini.tsx,galz10,2025-09-10T02:25:55Z,2025-09-10T22:42:35+00:00,4,20.28,True,4,10,1,1341,2,1,3,MERGED
+8139,feat: Add /chat share command,rramkumar1,2025-09-10T00:33:10Z,2025-09-13T06:38:33+00:00,20,78.09,True,272,4,3,852,11,6,17,MERGED
+8130,chore(release): v0.4.0,mattKorwel,2025-09-09T22:25:43Z,2025-09-09T23:59:58+00:00,2,1.57,False,15,15,7,165,3,1,4,CLOSED
+8129,Merge v0.4.0,mattKorwel,2025-09-09T22:19:11Z,2025-09-09T23:59:51+00:00,2,1.68,False,443,291,26,28,2,0,2,CLOSED
+8126,feat(core): Re-download `rg` binary if it is deleted.,joshualitt,2025-09-09T21:46:20Z,2025-09-11T22:41:47+00:00,1,48.92,True,73,3,2,196,0,0,0,MERGED
+8119,Add `json` output format,jerop,2025-09-09T20:43:44Z,2025-09-10T20:33:59+00:00,7,23.84,True,1526,23,20,802,3,7,10,MERGED
+8113,[Part 3/6] feat(telemetry): enhance metrics with performance monitoring APIs,eLyiN,2025-09-09T20:35:00Z,2025-09-25T16:17:07+00:00,9,379.7,True,1015,3,4,1765,4,3,7,MERGED
+8111,[Part 2/6] feat(telemetry): add activity detector with user interaction tracking,eLyiN,2025-09-09T20:24:21Z,2025-09-18T00:08:53+00:00,6,195.74,True,261,0,4,1798,1,3,4,MERGED
+8110,[Part 1/6] feat(telemetry): add rate limiter and high-water mark tracker with tests,eLyiN,2025-09-09T20:14:54Z,2025-09-09T23:06:39+00:00,3,2.86,True,717,0,5,3042,1,7,8,MERGED
+8107,feat(ide): Update context filtering to be done CLI-side + update port discovery logic,skeshive,2025-09-09T19:56:17Z,2025-09-09T23:03:01+00:00,6,3.11,True,624,27,5,868,4,5,9,MERGED
+8106,chore(a2a-server): if a2a task creation fails return error to user,adamfweidman,2025-09-09T19:31:52Z,2025-09-10T16:25:46+00:00,6,20.9,True,91,15,4,423,2,3,5,MERGED
+8105,Final Changes for stable release,mattKorwel,2025-09-09T19:25:41Z,2025-09-09T20:55:27+00:00,6,1.5,True,443,291,26,118,3,1,4,MERGED
+8103,Limit recursion when looking for .gitignore files,bbiggs,2025-09-09T19:10:00Z,2025-09-09T22:02:09+00:00,4,2.87,True,34,23,1,217,0,1,1,MERGED
+8101,feat(security) - Encrypted oauth flag,shishu314,2025-09-09T18:55:45Z,2025-09-16T14:19:17+00:00,9,163.39,True,1027,768,4,859,2,3,5,MERGED
+8100,Extensions update command,jakemac53,2025-09-09T18:54:45Z,2025-09-10T15:25:53+00:00,7,20.52,True,303,54,2,525,5,3,8,MERGED
+8097,fix(ide companion extension): Don't show the installation confirmation message in Firebase Studio,richieforeman,2025-09-09T18:05:28Z,2025-09-10T00:32:33+00:00,8,6.45,True,42,2,3,866,2,2,4,MERGED
+8087,feat(ui): Semantic tokens refactor,miguelsolorio,2025-09-09T16:45:08Z,2025-09-10T18:10:03+00:00,5,25.42,True,509,424,57,426,6,1,7,MERGED
+8086,Add .geminiignore support to the glob tool.,scidomino,2025-09-09T16:40:52Z,2025-09-10T17:06:17+00:00,10,24.42,True,391,473,6,394,9,7,16,MERGED
+8084,Ignore workspace extensions in user extensions dir,chrstnb,2025-09-09T16:19:23Z,2025-09-10T00:36:12+00:00,4,8.28,True,4,0,1,278,2,1,3,MERGED
+8082,fix(trust): Pass folderTrust config to a2a server,shishu314,2025-09-09T15:28:22Z,2025-09-11T18:36:53+00:00,5,51.14,True,3,1,2,684,2,2,4,MERGED
+8078,feat: Tool Integration with PolicyEngine (PR 2 of #7231),allenhutchison,2025-09-09T13:53:11Z,2025-09-21T21:22:11+00:00,5,295.48,False,1484,4,12,1308,0,6,6,CLOSED
+8057,Add clearcut logging for extensions install command,chrstnb,2025-09-09T04:21:58Z,2025-09-09T16:26:29+00:00,3,12.08,True,208,65,7,199,2,3,5,MERGED
+8053,fix: Restore footer configuration settings (#8041),Lyonk71,2025-09-09T03:36:14Z,2025-09-12T00:27:11+00:00,4,68.85,True,180,81,4,1013,5,1,6,MERGED
+8044,Remove docs mention from sandbox footer,miguelsolorio,2025-09-08T23:59:54Z,2025-09-09T16:27:17+00:00,2,16.46,False,2,4,2,371,3,1,4,CLOSED
+8042,"Reduce margin on narrow screens, flow the footer contents",bbiggs,2025-09-08T23:27:05Z,2025-09-29T23:30:50+00:00,10,504.06,True,91,74,7,664,0,7,7,MERGED
+8039,feat(core): Only summarize long tool output for shell command,SandyTao520,2025-09-08T22:32:24Z,2025-09-09T20:12:22+00:00,1,21.67,True,25,3,4,1713,2,0,2,MERGED
+8037,refactor(ide): extract IDE context types into a separate file,skeshive,2025-09-08T21:13:05Z,2025-09-09T16:28:59+00:00,5,19.27,True,78,45,6,657,2,1,3,MERGED
+8034,fix: positional arguments for MCP prompts,LukeSchlangen,2025-09-08T20:05:18Z,2025-09-15T15:36:00+00:00,9,163.51,True,365,15,4,276,0,4,4,MERGED
+8028,feat(actions): add swebench eval harness to github actions,agmsb,2025-09-08T18:45:19Z,2025-09-16T18:25:13+00:00,5,191.66,True,36,17,1,2159,7,1,8,MERGED
+8026,Fix maxOutputTokens compression bug.,scidomino,2025-09-08T18:42:37Z,2025-09-08T21:26:06+00:00,2,2.72,True,0,29,2,732,3,0,3,MERGED
+8021,Allow users to type while waiting for MCP servers,scidomino,2025-09-08T17:17:47Z,2025-09-08T23:48:50+00:00,10,6.52,True,122,95,10,716,4,5,9,MERGED
+8018,"Add functionality to check for git extension updates, as well as support for installing a specific ref",jakemac53,2025-09-08T17:01:35Z,2025-09-10T16:55:38+00:00,9,47.9,True,253,25,3,1026,7,4,11,MERGED
+8014,feat(telemetry): Add content length to tool calls and log tool output truncation event,SandyTao520,2025-09-08T16:36:10Z,2025-09-11T15:59:20+00:00,7,71.39,True,275,10,10,1318,4,3,7,MERGED
+8010,feat(security) - Use hybrid token storage when flag is enabled,shishu314,2025-09-08T14:47:09Z,2025-09-15T18:17:19+00:00,21,171.5,True,383,213,3,581,2,13,15,MERGED
+8006,docs: document custom witty loading phrases feature,JayadityaGit,2025-09-08T14:15:35Z,2025-10-01T16:16:56+00:00,8,554.02,True,9,1,1,804,6,2,8,MERGED
+7990,Fix narrow terminal streaming UI issue where loading indicator creates visual artifacts,lifefloating,2025-09-08T09:55:10Z,2025-09-17T03:16:38+00:00,1,209.36,False,30,42,2,1462,1,2,3,CLOSED
+7953,refactor: migrate tools to use ConfigPermissionRepository,bulkypanda,2025-09-08T03:31:57Z,2025-09-13T07:27:48+00:00,2,123.93,False,965,44,12,1934,1,1,2,CLOSED
+7952,refactor(core): Introduce LlmUtilityService and promptIdContext,abhipatel12,2025-09-08T03:28:50Z,2025-09-09T05:25:50+00:00,7,25.95,True,942,164,12,3075,2,4,6,MERGED
+7937,feat: add core permission repository infrastructure,bulkypanda,2025-09-07T20:25:08Z,2025-09-13T07:27:42+00:00,2,131.04,False,819,0,6,567,1,1,2,CLOSED
+7935,fix(ui): disable input prompt during tool confirmation,Lyonk71,2025-09-07T19:24:47Z,2025-09-07T20:28:07+00:00,2,1.06,True,15,2,1,1072,1,0,1,MERGED
+7920,Perf/type safety improvements,reconsumeralization,2025-09-07T08:22:49Z,2025-09-07T10:31:59+00:00,2,2.15,False,20,10,1,4076,1,8,9,CLOSED
+7913,Mention replacements for deprecated settings in settings.json,jacob314,2025-09-07T04:06:52Z,2025-09-07T19:35:11+00:00,5,15.47,True,10,10,1,121,2,1,3,MERGED
+7903,add(logging): Add OTel logging for counting chars,kiranani,2025-09-06T21:40:49Z,2025-09-07T17:51:55+00:00,4,20.18,True,30,2,2,185,0,1,1,MERGED
+7876,feat: Add cross-platform clipboard image support,bniladridas,2025-09-06T16:04:18Z,2025-09-16T16:18:43+00:00,14,240.24,False,1314,183,6,193,9,14,23,CLOSED
+7871,Fix dollar sign replacement bug in file editing ,lifefloating,2025-09-06T13:24:18Z,2025-09-13T06:19:51+00:00,9,160.93,True,239,24,8,1227,8,2,10,MERGED
+7867,feat: Add interactive model selection and message queue mode controls,LastMile-Innovations,2025-09-06T11:30:52Z,2025-09-21T08:39:03+00:00,2,357.14,False,801,58,31,5302,0,6,6,CLOSED
+7853,"feat(commands): Add new commands for docs, git, and PR review",allenhutchison,2025-09-06T04:06:07Z,2025-09-09T12:21:33+00:00,5,80.26,True,98,2,4,871,2,3,5,MERGED
+7850,feat: add cached string width function for performance optimization,jacob314,2025-09-06T03:10:33Z,2025-09-11T04:33:29+00:00,7,121.38,True,381,167,3,341,5,4,9,MERGED
+7847,Allow for slash commands to opt-out of autocompletion and /help discovery.,dewitt,2025-09-06T00:27:46Z,2025-09-06T21:27:22+00:00,1,20.99,True,103,59,8,462,4,0,4,MERGED
+7845,Remove conflicting shell Directory checks,hminooei,2025-09-05T23:56:30Z,2025-09-13T17:45:52+00:00,7,185.82,True,60,60,2,1800,3,2,5,MERGED
+7844,fix the api key edge case,hminooei,2025-09-05T23:44:10Z,2025-09-08T20:55:07+00:00,8,69.18,False,19,3,2,387,9,3,12,CLOSED
+7842,fix(settings): use union merge for excludeTools,spencerschrock,2025-09-05T23:28:14Z,2025-09-10T18:42:11+00:00,4,115.23,True,6,2,2,576,0,0,0,MERGED
+7836,Move scope settings to new dialog,miguelsolorio,2025-09-05T22:45:08Z,2025-09-08T18:56:31+00:00,4,68.19,True,261,108,4,520,3,0,3,MERGED
+7835,feat(core): Tool Confirmation Message Bus foundation (PR 1 of 3),allenhutchison,2025-09-05T22:37:44Z,2025-09-11T16:52:04+00:00,35,138.24,True,1330,0,10,1156,6,18,24,MERGED
+7833,bug(core): Fix `Check Bundle Size` github action.,joshualitt,2025-09-05T21:53:21Z,2025-09-07T19:15:50+00:00,4,45.37,True,1,0,1,58,2,1,3,MERGED
+7832,Fix(core): Fix stream validation logic,SandyTao520,2025-09-05T21:39:57Z,2025-09-05T23:35:20+00:00,1,1.92,True,65,55,2,1404,3,0,3,MERGED
+7831,feat: Add cross-platform clipboard image support,bniladridas,2025-09-05T21:34:32Z,2025-09-06T15:16:30+00:00,2,17.7,False,0,0,0,759,0,3,3,CLOSED
+7829,add(mcp): Add MCP Server name to ToolCallEvent OTel logging,kiranani,2025-09-05T21:13:45Z,2025-09-18T22:18:23+00:00,6,313.08,True,94,5,4,194,2,3,5,MERGED
+7825,Pull contentGenerator out of GeminiClient and into Config.,scidomino,2025-09-05T20:56:36Z,2025-09-07T20:10:03+00:00,7,47.22,True,361,783,16,792,4,4,8,MERGED
+7824,fix: handle vpc-sc violations in LoadCodeAssist method,gsquared94,2025-09-05T20:15:27Z,2025-09-06T03:08:37+00:00,4,6.89,True,90,7,3,288,0,1,1,MERGED
+7818,"feat(core): Download ripgrep at runtime, if enabled.",joshualitt,2025-09-05T19:15:44Z,2025-09-08T21:55:48+00:00,10,74.67,True,408,123,17,231,2,4,6,MERGED
+7816,UX Bugfix for Retry Logic,mrcabbage972,2025-09-05T18:47:00Z,2025-10-01T15:18:22+00:00,2,620.52,False,61,1,2,225,2,1,3,CLOSED
+7815,Remove org/repo install support,chrstnb,2025-09-05T18:41:28Z,2025-09-09T05:11:39+00:00,3,82.5,True,4,34,2,270,2,0,2,MERGED
+7812,fix(highlight): Fix backslash handling in file path highlighting and text buffer,lifefloating,2025-09-05T17:54:15Z,2025-09-06T05:35:35+00:00,3,11.69,False,76,4,4,1247,2,1,3,CLOSED
+7807,Make 'source' a positional argument in extensions install and set flag to true,chrstnb,2025-09-05T16:35:49Z,2025-09-05T18:57:12+00:00,3,2.36,True,52,73,9,504,2,0,2,MERGED
+7803,feat(ui): enhanced update checking with installation-aware provider s…,TheWeaklessOne,2025-09-05T15:11:36Z,2025-09-05T19:21:17+00:00,2,4.16,False,353,174,5,1920,1,2,3,CLOSED
+7802,feat(security) - Make oauth token storage implement the shared interface,shishu314,2025-09-05T15:07:39Z,2025-09-05T16:19:15+00:00,3,1.19,True,89,66,6,432,2,1,3,MERGED
+7800,fix(mcp): handle `gemini mcp add` scope correctly in home directory,wietsevenema,2025-09-05T14:36:50Z,2025-09-20T14:23:47+00:00,9,359.78,True,240,1,2,631,4,8,12,MERGED
+7797,Add hidden property to slash commands,dewitt,2025-09-05T13:53:00Z,2025-09-05T20:54:17+00:00,2,7.02,True,70,22,8,500,4,0,4,MERGED
+7786,exit ide mode if not available,patricklx,2025-09-05T09:09:37Z,2025-09-05T14:20:23+00:00,2,5.18,False,7,2,1,307,2,1,3,CLOSED
+7782,fix(config): Correct settings migration to prevent overwrite,JayadityaGit,2025-09-05T07:25:58Z,2025-09-14T06:42:12+00:00,6,215.27,False,38,4,3,1633,3,4,7,CLOSED
+7774,feat: Add reusable EnumSelector UI component (split from #6832),hoteye,2025-09-05T05:21:27Z,2025-09-09T21:55:38+00:00,11,112.57,True,249,1,4,1410,4,3,7,MERGED
+7766,chore(release): v0.3.2,mattKorwel,2025-09-05T00:29:58Z,2025-09-09T21:42:46+00:00,2,117.21,False,15,15,7,165,2,0,2,CLOSED
+7765,feat(triage): add status/bot-triaged label after triage,srithreepo,2025-09-05T00:29:31Z,2025-09-05T13:55:24+00:00,1,13.43,True,11,6,2,197,3,0,3,MERGED
+7759,Fix syntax highlighting and rendering issues.,jacob314,2025-09-04T23:26:25Z,2025-09-05T22:40:57+00:00,5,23.24,True,120,45,4,439,3,1,4,MERGED
+7755,fix: Remove special handling for folderTrust flag,shrutip90,2025-09-04T22:24:56Z,2025-09-05T16:21:00+00:00,3,17.93,True,4,16,2,413,2,0,2,MERGED
+7751,add(logging): Add OTel logging for counting chars,kiranani,2025-09-04T21:07:38Z,2025-09-06T21:11:20+00:00,4,48.06,False,0,0,0,185,0,2,2,CLOSED
+7750,Refactor Authentication Components and Hooks,scidomino,2025-09-04T21:00:09Z,2025-09-05T22:46:07+00:00,10,25.77,True,462,756,11,787,8,9,17,MERGED
+7749,fix(ci): fix windows e2e tests,galz10,2025-09-04T20:25:31Z,2025-09-06T00:05:21+00:00,6,27.66,True,14,15,4,94,2,1,3,MERGED
+7745,Feat(security) - Create a class for Oauth credential,shishu314,2025-09-04T20:12:55Z,2025-09-05T14:41:28+00:00,3,18.48,True,327,1,3,353,2,3,5,MERGED
+7737,chore: Use GEMINI_DIR consistently,bobcatfish,2025-09-04T19:01:40Z,2025-09-17T21:34:06+00:00,3,314.54,False,45,74,17,615,2,1,3,CLOSED
+7731,Fix(extension) - Add pid into portFile,shishu314,2025-09-04T18:20:37Z,2025-09-05T18:12:13+00:00,2,23.86,False,10,7,2,497,2,1,3,CLOSED
+7723,Remove experimental extensions management flag,chrstnb,2025-09-04T18:00:04Z,2025-09-09T20:28:13+00:00,5,122.47,False,158,231,10,303,3,1,4,CLOSED
+7722,Release/v0.3.0,mattKorwel,2025-09-04T17:58:12Z,2025-09-09T21:51:09+00:00,3,123.88,False,341,77,27,71,1,2,3,CLOSED
+7721,Release/v0.3.0 preview.1,mattKorwel,2025-09-04T17:55:38Z,2025-09-09T21:51:38+00:00,2,123.93,False,202,63,23,35,1,2,3,CLOSED
+7719,feat(settings): Add support for settings `enum` options,richieforeman,2025-09-04T17:31:11Z,2025-09-08T14:17:49+00:00,3,92.78,True,883,395,7,905,7,1,8,MERGED
+7718,fix(e2e) - e2e command fails on windows,abhipatel12,2025-09-04T17:11:34Z,2025-09-14T03:31:47+00:00,2,226.34,False,48,39,5,165,2,1,3,CLOSED
+7716,Feat(security) - Make the OAuthTokenStorage non static,shishu314,2025-09-04T17:07:46Z,2025-09-04T20:53:30+00:00,3,3.76,True,188,149,7,508,1,1,2,MERGED
+7703,Fix dollar sign replacement bug in file editing,lifefloating,2025-09-04T10:26:04Z,2025-09-05T03:18:54+00:00,4,16.88,True,68,23,6,1214,7,4,11,MERGED
+7698,Fix(triage): Update pr-triage.sh script,srithreepo,2025-09-04T03:51:27Z,2025-09-16T00:11:46+00:00,3,284.34,True,5,41,1,199,2,1,3,MERGED
+7697,feat(settings): Add availableTerminalHeight prop and optimize settings dialog height management,ali-aljufairi,2025-09-04T03:42:19Z,2025-09-17T18:16:14+00:00,17,326.57,True,820,26,5,234,13,9,22,MERGED
+7692,fix(core): tend to history with dangling function calls/responses,agmsb,2025-09-04T00:14:23Z,2025-09-04T07:38:00+00:00,3,7.39,True,29,1,1,551,3,1,4,MERGED
+7687,fix(read_many_files): address flaky integration test,allenhutchison,2025-09-03T22:32:50Z,2025-09-21T21:21:46+00:00,4,430.82,False,12,5,1,506,1,1,2,CLOSED
+7686,Allow adding to the message queue when authenticating,scidomino,2025-09-03T22:20:50Z,2025-09-04T20:57:27+00:00,3,22.61,False,55,63,5,234,1,1,2,CLOSED
+7685,fix: Update permissions for trustedFolders.json file to make it more …,shrutip90,2025-09-03T22:10:54Z,2025-09-03T23:19:24+00:00,3,1.14,True,2,2,2,225,1,1,2,MERGED
+7680,improve performance of shell commands with lots of output,jakemac53,2025-09-03T21:01:31Z,2025-09-04T16:31:12+00:00,6,19.49,True,12,9,4,1342,3,2,5,MERGED
+7679,Enable smart edit by default on main,silviojr,2025-09-03T20:39:01Z,2025-09-03T23:19:24+00:00,1,2.67,True,2,2,2,255,1,0,1,MERGED
+7678,fix(settings): Add missing v1 settings to migration map,galz10,2025-09-03T20:27:53Z,2025-09-03T21:56:28+00:00,5,1.48,True,16,0,2,169,1,2,3,MERGED
+7675,Remove command from extension docs,chrstnb,2025-09-03T20:14:04Z,2025-09-03T23:31:16+00:00,3,3.29,True,0,13,1,237,1,0,1,MERGED
+7668,feat: Add positional argument for prompt,allenhutchison,2025-09-03T18:19:17Z,2025-09-03T22:59:31+00:00,8,4.67,True,67,3,2,452,1,5,6,MERGED
+7667,fix(token-usage): fix token usage recording for failed API calls,nsalerni,2025-09-03T17:49:05Z,2025-09-05T18:33:27+00:00,5,48.74,True,9,12,1,594,2,1,3,MERGED
+7660,feat: use largest windows runner for ci,mattKorwel,2025-09-03T17:17:49Z,2025-09-09T21:52:45+00:00,1,148.58,False,1,1,1,80,3,0,3,CLOSED
+7659,feat: run e2e tests on pull requests,mattKorwel,2025-09-03T17:06:34Z,2025-09-03T20:27:15+00:00,1,3.34,True,10,5,2,125,2,0,2,MERGED
+7656,"fix: InputPrompt wrapped lines maintain highlighting, increase responsiveness in narrow cases ",psinha40898,2025-09-03T16:50:58Z,2025-09-17T20:45:46+00:00,12,339.91,True,149,33,7,3230,7,4,11,MERGED
+7652,Revert 7165,miguelsolorio,2025-09-03T15:42:03Z,2025-09-03T19:42:03+00:00,2,4.0,False,37,319,4,115,2,0,2,CLOSED
+7650,chore(a2a-server): Merge A2A types,adamfweidman,2025-09-03T15:17:17Z,2025-09-03T16:38:17+00:00,3,1.35,True,55,47,5,131,1,1,2,MERGED
+7647,fix the proQutaDialog,JayadityaGit,2025-09-03T14:36:22Z,2025-09-05T17:37:49+00:00,3,51.02,True,1,0,1,1658,5,0,5,MERGED
+7645,feat: handle nested gitignore files,gsquared94,2025-09-03T13:28:26Z,2025-09-03T14:33:21+00:00,6,1.08,True,169,4,2,2866,0,2,2,MERGED
+7641,feat(cli): custom witty message,JayadityaGit,2025-09-03T11:05:14Z,2025-09-03T16:49:21+00:00,3,5.74,True,98,21,7,2485,4,0,4,MERGED
+7634,refactor: Centralize and improve model fallback handling,abhipatel12,2025-09-03T04:31:01Z,2025-09-08T20:34:10+00:00,12,136.05,True,1543,380,20,3887,5,14,19,MERGED
+7628,Enhance json configuration docs,paulirish,2025-09-03T01:21:15Z,2025-09-04T01:37:34+00:00,5,24.27,True,44,40,1,1317,0,2,2,MERGED
+7627,Use IdeClient directly instead of config.ideClient,scidomino,2025-09-03T01:10:30Z,2025-09-04T16:46:51+00:00,9,39.61,True,288,217,24,555,5,4,9,MERGED
+7621,Rename smart_edit to replace to align with the EditTool,silviojr,2025-09-02T23:26:25Z,2025-09-03T00:52:53+00:00,1,1.44,True,1,1,1,268,1,0,1,MERGED
+7619,feat(telemetry): Add character counts to diff stats,kiranani,2025-09-02T23:09:55Z,2025-09-03T23:01:46+00:00,9,23.86,True,75,19,4,401,0,5,5,MERGED
+7617,Log config.useSmartEdit to Clearcut,owenofbrien,2025-09-02T22:21:42Z,2025-09-03T10:09:26+00:00,4,11.8,True,46,0,8,511,1,1,2,MERGED
+7616,fix(a2a-server): Fix flaky test on Windows by awaiting server close,davideast,2025-09-02T21:43:18Z,2025-09-03T00:34:49+00:00,3,2.86,True,14,11,1,2045,0,1,1,MERGED
+7613,Emit a warning when memory usage exceeds 7GB,jakemac53,2025-09-02T20:01:48Z,2025-09-17T21:45:25+00:00,4,361.73,True,156,0,7,692,2,1,3,MERGED
+7610,feat(oauth) - Create hybrid storage class,shishu314,2025-09-02T19:19:25Z,2025-09-02T23:25:25+00:00,6,4.1,True,979,0,5,393,1,8,9,MERGED
+7609,Fix diff approval race between CLI and IDE,rahatarmanahmed,2025-09-02T19:11:39Z,2025-09-03T21:04:46+00:00,5,25.89,True,11,2,1,1898,6,1,7,MERGED
+7608,Semantic tokens,miguelsolorio,2025-09-02T18:53:53Z,2025-09-08T17:45:47+00:00,1,142.87,False,675,483,61,420,4,1,5,CLOSED
+7606,chore(relase): merge Release/v0.3.0 preview.2 into Release/v0.3.0 preview.0 prior to stable release,adamfweidman,2025-09-02T18:27:03Z,2025-09-09T21:52:02+00:00,2,171.42,False,5053,1952,91,1372,0,2,2,CLOSED
+7605,Move settings error throwing to loadSettings,scidomino,2025-09-02T18:03:57Z,2025-09-03T17:52:18+00:00,3,23.81,True,50,205,14,668,1,0,1,MERGED
+7603,Change editing tool name dynamically according to config,silviojr,2025-09-02T16:54:31Z,2025-09-08T12:34:13+00:00,1,139.66,False,247,36,5,474,1,0,1,CLOSED
+7601,chore(ci): Update GitHub /assign workflow to use advanced search API,davideast,2025-09-02T16:23:52Z,2025-09-02T22:58:11+00:00,1,6.57,True,2,1,1,1690,1,0,1,MERGED
+7599,chore(e2e): Stabilize e2e test by adding a more descriptive prompt,adamfweidman,2025-09-02T16:08:19Z,2025-09-03T04:28:16+00:00,4,12.33,True,3,2,1,364,1,1,2,MERGED
+7595,Screen reader updates (#7307),chrstnb,2025-09-02T15:13:23Z,2025-09-02T21:26:56+00:00,3,6.23,True,67,28,13,311,1,2,3,MERGED
+7593,chore(a2a-server): refactor a2a-server src directory,sammccauley117,2025-09-02T14:54:55Z,2025-09-03T14:35:33+00:00,3,23.68,True,253,229,17,432,0,2,2,MERGED
+7583,feat(cli): add skip option for pending tool calls,JayadityaGit,2025-09-02T06:55:42Z,2025-09-02T16:23:14+00:00,4,9.46,False,490,8,14,1696,2,3,5,CLOSED
+7579,fix(core): Cap maxOutputTokens in chat compression to prevent API errors,qingshanyuluo,2025-09-02T05:41:22Z,2025-09-03T03:22:01+00:00,3,21.68,False,10,1,1,212,1,1,2,CLOSED
+7577,rename(telemetry): Update ai_(added|removed)_lines to model_(added|removed)_lines,kiranani,2025-09-02T04:43:41Z,2025-09-04T04:05:34+00:00,3,47.36,True,40,40,9,617,2,1,3,MERGED
+7571,Fix setting migration nosiness and merging,galz10,2025-09-01T23:29:14Z,2025-09-02T01:23:36+00:00,3,1.91,True,85,17,2,2142,1,0,1,MERGED
+7566,refactor(core): Require model for utility calls,abhipatel12,2025-09-01T21:10:25Z,2025-09-02T00:39:41+00:00,4,3.49,True,34,19,4,2084,1,1,2,MERGED
+7558,chore: improve inclusive-language,jackwotherspoon,2025-09-01T18:53:35Z,2025-09-03T00:23:08+00:00,4,29.49,True,12,12,6,71,2,3,5,MERGED
+7555,fix: gemini-cli-vscode-ide-companion's package script,xiaoxiangmoe,2025-09-01T16:45:16Z,2025-09-03T13:48:51+00:00,4,45.06,True,2183,19,3,449,1,0,1,MERGED
+7553,fix(gitIgnore): prevent crash/error when processing malformed file paths in GitIgnoreParser,lifefloating,2025-09-01T16:39:31Z,2025-09-03T06:30:43+00:00,3,37.85,True,37,6,2,1483,1,1,2,MERGED
+7539,fix(auth): improve Google OAuth error handling and prevent empty error messages,bulkypanda,2025-09-01T08:20:15Z,2025-09-03T21:02:09+00:00,3,60.7,True,463,31,2,1015,1,0,1,MERGED
+7538,fix(build): allow builds to continue when sandbox detection fails,bulkypanda,2025-09-01T07:46:33Z,2025-09-01T14:34:16+00:00,3,6.8,True,1,1,1,483,1,1,2,MERGED
+7535,Fix: ctrl+c tip fix,JayadityaGit,2025-09-01T06:53:56Z,2025-09-03T03:39:08+00:00,3,44.75,False,6,1,1,1759,2,1,3,CLOSED
+7528,Merge general settings from different configuration sources,bbiggs,2025-08-31T23:04:21Z,2025-09-01T00:54:52+00:00,4,1.84,True,15,0,2,308,0,2,2,MERGED
+7516,fix(int-tests): fix failing integration tests,galz10,2025-08-31T20:03:12Z,2025-09-01T00:55:35+00:00,3,4.87,True,19,10,2,110,1,0,1,MERGED
+7503,feat: InputPrompt Performance Optimization 6579,lifefloating,2025-08-31T17:03:03Z,2025-09-11T04:36:20+00:00,2,251.55,False,640,54,7,2628,7,2,9,CLOSED
+7501,feat: add new witty messages,JayadityaGit,2025-08-31T09:54:45Z,2025-09-02T23:24:03+00:00,3,61.49,False,2,0,1,660,1,1,2,CLOSED
+7489,fix(diffstats): Always return diff stats from EditTool,kiranani,2025-08-30T23:53:41Z,2025-09-04T17:35:58+00:00,2,113.7,True,29,24,2,817,1,0,1,MERGED
+7485,feat(preflight): Optimize preflight script with parallel execution,kevinbenabdelhak,2025-08-30T21:12:02Z,2025-09-03T17:26:46+00:00,2,92.25,False,1,1,1,177,4,1,5,CLOSED
+7483,Fix duplicate LOC counting due to diff_stat being passed in multiple places,bdmorgan,2025-08-30T21:00:36Z,2025-08-31T11:51:29+00:00,6,14.85,True,51,123,9,875,1,2,3,MERGED
+7464,Fix: connect on docker devcontainer to vscode-ide,dtometzki,2025-08-30T13:34:43Z,2025-09-10T19:30:29+00:00,5,269.93,True,4,0,2,381,3,1,4,MERGED
+7451,test(auth): improve test environment variable cleanup,bulkypanda,2025-08-30T03:44:15Z,2025-09-03T00:35:47+00:00,6,92.86,True,4,0,1,392,0,3,3,MERGED
+7449,fix(workflows): improve issue triage,srithreepo,2025-08-30T01:17:37Z,2025-08-30T02:57:56+00:00,1,1.67,True,129,47,2,227,3,0,3,MERGED
+7446,fix(diffstats): Fix diff stats to correctly capture the edits,kiranani,2025-08-30T00:28:29Z,2025-08-30T21:10:37+00:00,1,20.7,True,30,19,2,863,0,0,0,MERGED
+7445,refactor(setting): Improve settings migration and tool loading,galz10,2025-08-30T00:27:38Z,2025-09-04T02:35:35+00:00,6,122.13,True,551,310,7,2167,1,5,6,MERGED
+7438,Enable citations by default for certain users.,scidomino,2025-08-29T22:44:55Z,2025-09-02T16:47:22+00:00,4,90.04,True,87,181,5,599,1,2,3,MERGED
+7433,Override Gemini CLI trust with VScode workspace trust when in IDE,shrutip90,2025-08-29T21:31:24Z,2025-09-03T18:56:38+00:00,10,117.42,True,248,30,16,217,1,6,7,MERGED
+7427,feat(core): Enable ripgrep by default.,joshualitt,2025-08-29T20:43:38Z,2025-09-12T00:00:18+00:00,2,315.28,True,24,22,5,171,1,1,2,MERGED
+7420,Fix(cli) - Remove Foldertrust Feature Flag,shishu314,2025-08-29T19:27:15Z,2025-09-02T16:11:00+00:00,3,92.73,True,10,240,8,395,1,0,1,MERGED
+7419,Add footer configuration settings,miguelsolorio,2025-08-29T19:19:05Z,2025-09-02T17:46:44+00:00,7,94.46,True,231,85,8,911,1,6,7,MERGED
+7418,chore(dedup): Mock tools refix,adamfweidman,2025-08-29T18:51:50Z,2025-08-29T20:19:08+00:00,4,1.46,True,210,242,6,353,2,2,4,MERGED
+7416,Handle cleaning up the response text in the UI when a response stream retry occurs,mrcabbage972,2025-08-29T18:48:24Z,2025-09-04T02:13:09+00:00,8,127.41,True,455,256,8,950,5,5,10,MERGED
+7413,Fix(Cli) - Restart gemini cli on folder trust settings changes,shishu314,2025-08-29T17:50:56Z,2025-08-29T20:41:20+00:00,7,2.84,True,3,3,2,388,1,1,2,MERGED
+7409,fix(trust): Respect folder trust setting when reading GEMINI.md,richieforeman,2025-08-29T16:29:33Z,2025-08-29T18:26:21+00:00,5,1.95,True,113,16,10,944,1,3,4,MERGED
+7408,feat(extension) - Notify users when there is a new version and update it,shishu314,2025-08-29T16:20:56Z,2025-09-04T01:57:26+00:00,7,129.61,True,223,6,2,526,1,4,5,MERGED
+7404,Streaming retry UI fix,mrcabbage972,2025-08-29T15:39:27Z,2025-10-01T15:18:14+00:00,1,791.65,False,498,187,6,503,1,1,2,CLOSED
+7395,Reduce bundle size & check it in CI,swissspidy,2025-08-29T09:42:59Z,2025-09-04T21:10:40+00:00,4,155.46,True,174,422,10,445,2,2,4,MERGED
+7394,fix: hide tips when folder trust dialog is open,hritan,2025-08-29T08:55:09Z,2025-09-08T16:52:19+00:00,3,247.95,True,53,16,4,288,2,0,2,MERGED
+7384,Fix backwards-compatibility for allowedTools -> tools.allowed,werdnum,2025-08-29T07:06:06Z,2025-08-29T16:09:38+00:00,5,9.06,True,22,0,2,599,0,0,0,MERGED
+7382,Fix enable command typo,chrstnb,2025-08-29T06:24:19Z,2025-08-29T16:59:31+00:00,4,10.59,True,1,1,1,192,1,0,1,MERGED
+7377,update(deps): genai sdk now handles empty GEMINI_API_KEY correctly,gsquared94,2025-08-29T03:26:53Z,2025-09-01T01:09:50+00:00,3,69.72,True,8,16,4,561,0,0,0,MERGED
+7373,fix(trust): Update config.isTrustedFolder,shrutip90,2025-08-29T00:58:15Z,2025-08-29T02:53:44+00:00,4,1.92,True,67,135,11,222,1,1,2,MERGED
+7370,Ts fix critical errors,reconsumeralization,2025-08-29T00:22:47Z,2025-09-01T07:51:50+00:00,2,79.48,False,48,7,3,7222,2,3,5,CLOSED
+7369,fix(a2a): Don't mutate 'replace' tool args in scheduleToolCalls,vmiura,2025-08-29T00:19:40Z,2025-08-29T16:42:36+00:00,3,16.38,True,121,36,4,742,0,0,0,MERGED
+7368,fix(ide): use port number for server port file instead of vscode pid,skeshive,2025-08-29T00:12:03Z,2025-09-01T01:10:07+00:00,4,72.97,True,313,188,3,998,2,1,3,MERGED
+7364,Support installing extensions with org/repo,chrstnb,2025-08-28T22:53:40Z,2025-09-02T15:27:31+00:00,3,112.56,True,65,11,2,590,1,1,2,MERGED
+7362,feat: Handle large pastes in the input prompt,patnir411,2025-08-28T22:27:26Z,2025-09-15T23:36:40+00:00,3,433.15,False,93,6,5,2348,5,4,9,CLOSED
+7360,feat(cli): deprecate redundant CLI flags,allenhutchison,2025-08-28T22:21:46Z,2025-08-28T23:33:28+00:00,4,1.2,True,44,1,1,404,1,1,2,MERGED
+7358,Skip MCP server connections in untrusted folders,shrutip90,2025-08-28T21:22:53Z,2025-08-28T22:56:52+00:00,9,1.57,True,179,16,7,271,2,3,5,MERGED
+7352,docs(config): update documentation for  settings structure,galz10,2025-08-28T20:52:28Z,2025-08-28T22:42:08+00:00,5,1.83,True,1054,368,12,362,1,2,3,MERGED
+7350,Show citations at the end of each turn,scidomino,2025-08-28T20:40:36Z,2025-08-28T23:53:17+00:00,11,3.21,True,260,22,8,643,3,5,8,MERGED
+7347,feat: Add a `--session-summary` flag,leehagoodjames,2025-08-28T19:40:29Z,2025-08-29T17:05:44+00:00,6,21.42,True,61,1,3,1603,2,1,3,MERGED
+7343,fix: Settings in Folder trust hook,shrutip90,2025-08-28T19:09:27Z,2025-08-28T20:11:34+00:00,4,1.04,True,6,2,1,165,1,1,2,MERGED
+7342,fix(trust): Refuse to load extensions from untrusted workspaces,richieforeman,2025-08-28T18:59:22Z,2025-08-28T20:59:30+00:00,11,2.0,True,214,114,2,445,1,4,5,MERGED
+7341,Fix(trust) - Disable commands from untrusted directories when useFolderTrust is enabled,shishu314,2025-08-28T18:26:32Z,2025-08-28T21:56:34+00:00,6,3.5,True,68,0,3,711,1,3,4,MERGED
+7331,fix: show parent name in trust folder confirmation,hritan,2025-08-28T17:22:02Z,2025-08-29T19:18:07+00:00,4,25.93,True,30,5,2,274,1,1,2,MERGED
+7323,fix(trust): Refuse to load  from untrusted process.cwd() sources; Add tests,richieforeman,2025-08-28T16:28:40Z,2025-08-28T19:26:25+00:00,6,2.96,True,158,44,4,301,1,5,6,MERGED
+7321,Add flag to update all extensions,chrstnb,2025-08-28T16:11:25Z,2025-08-29T17:37:25+00:00,3,25.43,True,73,32,3,319,1,3,4,MERGED
+7314,feat(cli) - Create class for handling tokens in keychain,shishu314,2025-08-28T15:24:54Z,2025-09-03T15:11:35+00:00,3,143.78,False,0,0,0,390,2,8,10,CLOSED
+7313,fix(settings/env): Ensure that `loadEnvironment` is always called with settings.,richieforeman,2025-08-28T15:16:36Z,2025-08-28T18:03:58+00:00,4,2.79,True,14,37,3,622,1,1,2,MERGED
+7307,Screen reader updates,chrstnb,2025-08-28T14:06:44Z,2025-08-28T21:02:48+00:00,4,6.93,True,69,28,13,1897,1,3,4,MERGED
+7293,Update README.md,iluaster,2025-08-28T09:26:14Z,2025-08-28T16:25:22+00:00,2,6.99,False,1,1,1,45,2,1,3,CLOSED
+7281,Revert 7228,galz10,2025-08-28T03:29:50Z,2025-08-28T05:17:31+00:00,2,1.79,False,243,195,9,0,0,2,2,CLOSED
+7279,fix(ide): polyfill import.meta.url for cjs build,skeshive,2025-08-28T03:03:42Z,2025-08-28T05:22:28+00:00,4,2.31,True,6,0,1,426,1,1,2,MERGED
+7278,Refine stream validation to prevent unnecessary retries,mrcabbage972,2025-08-28T02:56:03Z,2025-08-28T17:31:54+00:00,3,14.6,True,232,5,2,1622,2,2,4,MERGED
+7275,Fix linting errors,cornmander,2025-08-28T02:07:23Z,2025-08-28T05:12:54+00:00,1,3.09,False,2,0,1,759,0,0,0,CLOSED
+7267,Fix issues where escape codes could end up on startup in the input prompt,jacob314,2025-08-28T00:06:23Z,2025-09-06T00:28:57+00:00,4,216.38,True,168,51,5,1617,4,2,6,MERGED
+7254,Fix diff rendering in windows.,scidomino,2025-08-27T21:29:34Z,2025-08-27T22:36:00+00:00,4,1.11,True,11,13,2,300,1,1,2,MERGED
+7251,Add `gemini extensions new` command to create boilerplate examples,chrstnb,2025-08-27T20:30:56Z,2025-08-29T16:59:22+00:00,3,44.47,True,278,1,12,765,0,1,1,MERGED
+7250,fix(terminal): Prevent garbled output in non-standard terminals,gsquared94,2025-08-27T20:22:14Z,2025-08-28T11:05:47+00:00,2,14.73,False,12,1,2,855,1,0,1,CLOSED
+7244,refactor: refactor settings to a nested structure,galz10,2025-08-27T19:35:07Z,2025-08-28T01:53:09+00:00,12,6.3,True,2801,1373,41,4399,5,8,13,MERGED
+7243,docs(contributing): add section on self-assigning issues,davideast,2025-08-27T19:03:22Z,2025-08-28T18:54:33+00:00,3,23.85,True,8,0,1,144,0,0,0,MERGED
+7241,Add `gemini extensions link` command,chrstnb,2025-08-27T18:26:16Z,2025-09-02T17:37:52+00:00,3,143.19,True,461,20,15,564,1,3,4,MERGED
+7240,feat(cli) - Create base class for handling tokens stored in files,shishu314,2025-08-27T18:24:48Z,2025-08-28T14:07:59+00:00,5,19.72,True,509,2,4,468,1,4,5,MERGED
+7239,fix(cli): Correctly pass file filtering settings and add tests,brychanrobot,2025-08-27T18:23:46Z,2025-09-03T17:37:14+00:00,5,167.22,True,79,8,2,589,1,1,2,MERGED
+7235,fix(bug): correct /about command in bug report template,allenhutchison,2025-08-27T17:37:47Z,2025-08-27T18:39:32+00:00,5,1.03,True,4,1,1,237,1,1,2,MERGED
+7229,Fix Triage Bot ,srithreepo,2025-08-27T16:36:59Z,2025-08-30T01:01:58+00:00,5,56.42,False,130,47,3,394,2,4,6,CLOSED
+7228,chore(cleanup): Consolidate MockTool definitions,adamfweidman,2025-08-27T16:30:01Z,2025-08-27T18:28:30+00:00,3,1.97,True,194,236,6,279,1,2,3,MERGED
+7221,feat(cli) - Define base class for token storage,shishu314,2025-08-27T15:23:29Z,2025-08-27T18:00:09+00:00,4,2.61,True,257,0,2,490,1,1,2,MERGED
+7219,fix(logging): Log NodeJS Version && Make Config.SessionID readonly,richieforeman,2025-08-27T15:11:45Z,2025-08-28T18:33:14+00:00,3,27.36,True,19,5,4,501,1,1,2,MERGED
+7218,refactor: improve intermediate result parsing in issue dedup workflow,gsquared94,2025-08-27T14:45:10Z,2025-08-27T17:28:43+00:00,1,2.73,True,23,32,1,288,1,0,1,MERGED
+7214,fix: unset GEMINI_API_KEY env var if empty,gsquared94,2025-08-27T10:58:48Z,2025-08-27T13:30:08+00:00,5,2.52,True,8,0,1,1141,0,2,2,MERGED
+7213,feat(extension): resolve environment variables in extension configuration,skal88,2025-08-27T10:39:10Z,2025-08-29T18:03:51+00:00,8,55.41,True,509,43,5,3234,3,3,6,MERGED
+7186,Rebase 0.2.0,cornmander,2025-08-27T02:14:07Z,2025-08-28T05:18:05+00:00,4,27.07,False,76,72,8,142,2,4,6,CLOSED
+7184,Release/v0.2.0,skeshive,2025-08-27T01:31:44Z,2025-08-28T05:18:16+00:00,3,27.78,False,2027,379,32,165,1,0,1,CLOSED
+7174,fix(ui): fix drag-and-drop file feature for macOS terminal 2,944750720,2025-08-27T00:17:24Z,2025-09-04T22:19:55+00:00,8,214.04,True,268,1,2,2197,2,4,6,MERGED
+7173,fix: flaky tests,bulkypanda,2025-08-27T00:17:08Z,2025-08-27T01:25:50+00:00,2,1.15,False,7,3,1,169,1,0,1,CLOSED
+7167,bug(core): Strip thoughts when loading history.,joshualitt,2025-08-26T23:51:39Z,2025-08-28T17:36:19+00:00,3,41.74,True,40,2,2,248,0,0,0,MERGED
+7165,Add highlights for input /commands and @file/paths,miguelsolorio,2025-08-26T23:44:46Z,2025-09-02T16:38:56+00:00,6,160.9,True,319,37,4,212,3,3,6,MERGED
+7163,fix(tests): Fix Firebase Studio IDE detection tests,davideast,2025-08-26T23:17:26Z,2025-08-27T17:42:43+00:00,4,18.42,True,8,8,3,11641,0,1,1,MERGED
+7162,feat(cli): Add support for Ctrl+Backspace to delete a word backward,davideast,2025-08-26T22:48:01Z,2025-09-03T01:12:31+00:00,9,170.41,True,196,71,6,452,0,5,5,MERGED
+7160,Fix shell argument parsing in windows,scidomino,2025-08-26T22:20:59Z,2025-08-27T19:25:48+00:00,4,21.08,True,3,2,2,549,1,1,2,MERGED
+7159,Update build command to set GEMINI_SANDBOX var.,cornmander,2025-08-26T22:15:31Z,2025-08-27T00:11:39+00:00,4,1.94,True,1,1,1,59,0,1,1,MERGED
+7139,feat: Add Support for Server Mode.,Apaezmx,2025-08-26T20:04:10Z,2025-08-26T21:04:56+00:00,4,1.01,False,168,512,5,3136,1,2,3,CLOSED
+7133,feat(errors): Make errors more informative,leehagoodjames,2025-08-26T18:59:40Z,2025-08-26T23:32:37+00:00,10,4.55,True,133,11,8,612,1,3,4,MERGED
+7130,fix(ci): Fix self assign action permissions,davideast,2025-08-26T17:57:00Z,2025-08-27T00:34:57+00:00,1,6.63,True,0,1,1,232,1,0,1,MERGED
+7129,feat: Add Support for Server Mode.,Apaezmx,2025-08-26T17:55:47Z,2025-08-26T19:41:28+00:00,2,1.76,False,127,0,3,238,0,2,2,CLOSED
+7127,feat(actions): create initial eval workflow,agmsb,2025-08-26T17:41:47Z,2025-08-27T08:09:17+00:00,1,14.46,True,29,0,1,597,1,0,1,MERGED
+7123,Do not call nextSpeakerCheck if there was an error processing the stream. Issue #7048,silviojr,2025-08-26T16:39:37Z,2025-08-28T18:21:55+00:00,1,49.7,False,88,0,2,219,2,0,2,CLOSED
+7118,Fix Arrow Keys and make Kitty Protocol more robust,deepankarsharma,2025-08-26T15:45:33Z,2025-09-02T23:47:20+00:00,13,176.03,True,446,49,3,1464,3,8,11,MERGED
+7109,chore: unused deps,yoshi-taka,2025-08-26T13:53:26Z,2025-08-26T15:31:04+00:00,3,1.63,True,0,124,3,183,0,1,1,MERGED
+7099,Clearcut Logging of Content Error Metrics,mrcabbage972,2025-08-26T12:35:48Z,2025-08-26T19:48:53+00:00,21,7.22,True,314,40,7,692,15,33,48,MERGED
+7094,feat: add Pro Quota Dialog,JayadityaGit,2025-08-26T09:33:52Z,2025-08-28T23:00:56+00:00,5,61.45,True,218,3,3,1642,6,8,14,MERGED
+7087,fix(process-utils): replace wmic with powershell for windows process,dracic,2025-08-26T06:30:21Z,2025-08-28T14:20:15+00:00,5,55.83,True,139,14,4,2244,7,1,8,MERGED
+7086,Log Gemini CLI OS / Process platform in the clearcut,uttamkanodia14,2025-08-26T06:26:52Z,2025-08-27T07:42:30+00:00,8,25.26,True,11,0,3,198,1,2,3,MERGED
+7083,Make config non optional in ToolConfirmationMessage,shrutip90,2025-08-26T05:28:20Z,2025-08-26T17:17:58+00:00,3,11.83,True,17,7,5,217,1,1,2,MERGED
+7082,add(telemetry): Add OTel logging for `FileOperationEvent`,kiranani,2025-08-26T05:24:13Z,2025-09-04T17:35:58+00:00,3,228.2,True,106,1,4,126,1,2,3,MERGED
+7068,chore(tools): use Array comprehension syntax,jacob314,2025-08-26T01:21:51Z,2025-08-26T15:24:20+00:00,2,14.04,False,89,71,1,154,1,1,2,CLOSED
+7065,Add prompt to migrate workspace extensions,chrstnb,2025-08-26T00:38:30Z,2025-08-27T00:53:48+00:00,1,24.25,True,377,21,8,857,1,0,1,MERGED
+7058,fix: resolve three flaky tests,bulkypanda,2025-08-25T23:13:33Z,2025-08-26T00:37:27+00:00,3,1.4,True,69,44,3,1358,0,2,2,MERGED
+7055,Standardize exit codes,scidomino,2025-08-25T22:00:36Z,2025-08-26T04:55:20+00:00,7,6.91,True,116,97,10,222,3,3,6,MERGED
+7054,refactor: centralize tool status symbols in constants,bulkypanda,2025-08-25T21:59:49Z,2025-08-27T15:03:51+00:00,3,41.07,True,28,14,3,132,0,1,1,MERGED
+7052,cherrypick workflow fixes into preview release branch,jerop,2025-08-25T21:16:54Z,2025-08-25T22:29:36+00:00,7,1.21,True,195,16,3,50,0,2,2,MERGED
+7051,fix(keyboard): Implement Tab and Backspace handling for Kitty Protocol (#7006) (Cherry-pick),abhipatel12,2025-08-25T21:16:07Z,2025-08-25T22:29:57+00:00,4,1.23,True,107,1,3,43,0,1,1,MERGED
+7049,feat(cli) - Define shared interface for storage,shishu314,2025-08-25T21:07:54Z,2025-08-26T21:15:37+00:00,4,24.13,True,57,47,6,578,1,2,3,MERGED
+7048,Do not call nextSpeakerCheck if there was an error processing the stream. ,silviojr,2025-08-25T21:03:38Z,2025-08-26T04:21:30+00:00,1,7.3,True,88,0,2,606,1,0,1,MERGED
+7047,fix(compression): Discard compression result if it results in more token usage,richieforeman,2025-08-25T20:40:12Z,2025-08-27T21:10:44+00:00,22,48.51,True,397,47,6,337,5,9,14,MERGED
+7042,Add extensions enable command,chrstnb,2025-08-25T19:44:02Z,2025-08-26T16:04:50+00:00,5,20.35,True,132,1,4,368,1,5,6,MERGED
+7041,feat: Disable YOLO and AUTO_EDIT modes for untrusted folders,shrutip90,2025-08-25T19:36:12Z,2025-08-26T00:40:34+00:00,9,5.07,True,451,55,9,742,1,4,5,MERGED
+7037,feat: add golden snapshot test for ToolGroupMessage and improve success symbol,bulkypanda,2025-08-25T19:14:42Z,2025-08-25T21:53:16+00:00,5,2.64,True,456,7,4,520,0,3,3,MERGED
+7036,Zed preview patches,ConradIrwin,2025-08-25T19:09:05Z,2025-08-25T21:17:07+00:00,3,2.13,True,210,147,2,174,0,1,1,MERGED
+7035,[extensions] Add an initial set of extension variables ,chrstnb,2025-08-25T18:42:55Z,2025-08-26T02:23:49+00:00,7,7.68,True,166,5,6,483,1,9,10,MERGED
+7032,Added session id logging for non-interactive sessions in debug mode,owenofbrien,2025-08-25T18:18:01Z,2025-08-25T22:30:56+00:00,3,4.22,True,4,0,1,401,1,1,2,MERGED
+7030,chore: format & imports,adamfweidman,2025-08-25T18:10:26Z,2025-08-26T14:56:41+00:00,5,20.77,True,2,2,1,127,1,0,1,MERGED
+7027,feat(ide): Enable Firebase Studio install now that FS has updated VsCode,richieforeman,2025-08-25T17:34:09Z,2025-08-25T21:22:09+00:00,6,3.8,True,142,39,2,186,3,2,5,MERGED
+7007,fix(cli) - Add logging for shell errors,shishu314,2025-08-25T16:07:48Z,2025-08-26T19:36:16+00:00,5,27.47,True,31,0,3,695,1,1,2,MERGED
+7006,fix(keyboard): Implement Tab and Backspace handling for Kitty Protocol,abhipatel12,2025-08-25T16:04:49Z,2025-08-25T18:50:45+00:00,3,2.77,True,107,1,3,2262,1,2,3,MERGED
+7005,Show error instead of aborting if model fails to call tool,as-cii,2025-08-25T16:04:30Z,2025-08-25T18:07:59+00:00,3,2.06,True,62,61,1,572,1,0,1,MERGED
+7004,feat: Update GitHub workflow configurations,jerop,2025-08-25T16:01:10Z,2025-08-25T21:20:04+00:00,4,5.32,True,16,16,2,581,3,1,4,MERGED
+7002,fix: Enable disableFuzzySearch config option propagation,brychanrobot,2025-08-25T15:54:02Z,2025-08-27T15:39:52+00:00,3,47.76,True,16,8,2,702,0,0,0,MERGED
+7001,[extensions] Add disable command,chrstnb,2025-08-25T15:48:59Z,2025-08-26T14:46:55+00:00,7,22.97,True,291,29,11,772,1,7,8,MERGED
+6996,refactor(core): async config initialization flow,skeshive,2025-08-25T13:54:38Z,2025-09-04T15:45:04+00:00,2,241.84,False,360,278,40,999,4,0,4,CLOSED
+6995,Ensure a Strictly Alternating Message History,mrcabbage972,2025-08-25T13:53:31Z,2025-08-26T18:10:29+00:00,18,28.28,True,599,351,2,1675,16,31,47,MERGED
+6981,fix 6968 (core): remove duplicate test cases,ksprashu,2025-08-25T05:44:16Z,2025-08-26T02:25:40+00:00,2,20.69,False,0,172,1,1050,3,0,3,CLOSED
+6969,Fix/2967 gemini md import bug,ksprashu,2025-08-24T16:53:59Z,2025-10-05T05:16:03+00:00,2,996.37,False,145,16,2,2948,1,1,2,CLOSED
+6961,Added the strictSchemeValidation setting for MCP server parameters. ,blouflab,2025-08-24T11:47:44Z,2025-09-29T17:25:00+00:00,9,869.62,False,14,7,3,426,2,4,6,CLOSED
+6957,Fix(command): line/block Comments Incorrectly Parsed as Slash Commands,lifefloating,2025-08-24T08:31:41Z,2025-08-26T04:05:05+00:00,8,43.56,True,157,9,9,1527,2,7,9,MERGED
+6949,Support JSON schema formats using ajv-formats,bbiggs,2025-08-24T04:48:15Z,2025-08-24T16:46:21+00:00,4,11.97,True,45,0,3,721,1,1,2,MERGED
+6941,fix: misaligned right border on tool calls ui and spacing in multiple tool calls ui,bulkypanda,2025-08-23T22:30:02Z,2025-08-25T18:36:27+00:00,3,44.11,True,8,7,3,514,0,1,1,MERGED
+6933,Feature/enhanced security system,reconsumeralization,2025-08-23T16:44:29Z,2025-08-23T22:11:42+00:00,2,5.45,False,8872,2005,124,4104,7,3,10,CLOSED
+6923,Add MCP loading indicator when initializing Gemini CLI,swissspidy,2025-08-23T12:20:50Z,2025-08-28T20:04:22+00:00,3,127.73,True,96,7,5,383,2,1,3,MERGED
+6922,fix(vscode): target originating window for diff display,Louis454545,2025-08-23T12:02:27Z,2025-08-27T17:43:04+00:00,2,101.68,False,1,0,1,500,1,0,1,CLOSED
+6919,fix(mcp): Display OAuth authentication messages in CLI UI instead of debug console,Louis454545,2025-08-23T11:36:01Z,2025-09-17T22:40:24+00:00,10,611.07,True,51,38,4,1402,16,9,25,MERGED
+6916,fix(ui): Custom commands file path autocompletion,dracic,2025-08-23T10:54:29Z,2025-09-21T14:31:28+00:00,8,699.62,False,783,36,5,3379,4,3,7,CLOSED
+6914,Add `.prettierignore` file,swissspidy,2025-08-23T09:37:50Z,2025-08-24T21:11:40+00:00,3,35.56,True,20,0,1,260,1,1,2,MERGED
+6912,add(OTel): Add OTel logging for MalformedJsonEvent,kiranani,2025-08-23T08:35:16Z,2025-08-25T02:24:21+00:00,3,41.82,True,62,2,5,238,0,1,1,MERGED
+6910,refactor: Extract path resolution logic into helper function,johnthomasdev,2025-08-23T07:35:30Z,2025-09-05T23:02:03+00:00,14,327.44,True,233,40,2,1721,15,19,34,MERGED
+6902,feat: add command to modify granted always allow permissions,bulkypanda,2025-08-23T00:36:23Z,2025-09-13T07:27:36+00:00,1,510.85,False,3678,102,34,308,3,0,3,CLOSED
+6901,fix(cli): mitigate environment-var command injection in sandbox; add …,reconsumeralization,2025-08-22T23:50:47Z,2025-09-13T03:51:39+00:00,2,508.01,False,195304,7025,828,2597,4,2,6,CLOSED
+6893,fix(core): Skip loop check for dividers,SandyTao520,2025-08-22T22:23:19Z,2025-08-23T00:17:58+00:00,6,1.91,True,34,2,2,1562,1,3,4,MERGED
+6885,add(telemetry): Add missing telemetry for UserPromptEvent,kiranani,2025-08-22T21:34:35Z,2025-08-28T02:28:11+00:00,9,124.89,True,15,4,3,126,0,2,2,MERGED
+6879,[extensions] Add extensions list command,chrstnb,2025-08-22T21:07:41Z,2025-08-25T18:37:50+00:00,3,69.5,True,64,0,3,603,1,1,2,MERGED
+6878,[extensions] Add extensions update command,chrstnb,2025-08-22T21:06:38Z,2025-08-25T19:51:09+00:00,7,70.74,True,174,4,4,498,1,8,9,MERGED
+6877,[extensions] Add extensions uninstall command,chrstnb,2025-08-22T21:02:45Z,2025-08-25T17:52:53+00:00,3,68.84,True,142,0,5,361,1,4,5,MERGED
+6874,Feature/codebase indexing semantic search,TankiClassic25,2025-08-22T20:48:35Z,2025-08-30T23:07:12+00:00,4,194.31,False,4686,2723,33,5762,3,4,7,CLOSED
+6871,Update instructions for patching a release,skeshive,2025-08-22T20:37:59Z,2025-08-23T04:25:28+00:00,3,7.79,True,47,13,2,0,1,4,5,MERGED
+6870,Metrics for Retries on Content Errors,mrcabbage972,2025-08-22T20:32:39Z,2025-08-22T23:22:56+00:00,6,2.84,True,95,6,4,815,2,3,5,MERGED
+6863,feat(mcp): Add ODIC fallback to OAuth metadata look up,xiaoheh,2025-08-22T19:35:34Z,2025-08-26T16:16:56+00:00,2,92.69,True,146,62,2,1417,0,0,0,MERGED
+6859,Filter thought parts before passing them to CountToken,bdmorgan,2025-08-22T19:26:26Z,2025-08-22T23:25:10+00:00,11,3.98,True,133,3,2,994,4,4,8,MERGED
+6857,fix(#6392): latest prompt being reloaded when ending a persistent process,hugomurillomtz,2025-08-22T19:13:42Z,2025-08-26T18:11:49+00:00,10,94.97,True,99,6,2,765,2,3,5,MERGED
+6855,Log all parts of a streaming response,silviojr,2025-08-22T19:00:12Z,2025-08-22T20:12:42+00:00,2,1.21,True,4,1,1,899,1,0,1,MERGED
+6853,"Revert ""fix(core): correctly consolidate multi-part text content""",allenhutchison,2025-08-22T18:55:21Z,2025-08-27T22:05:01+00:00,1,123.16,False,17,55,1,82,1,0,1,CLOSED
+6849,Added usage details to /tools command.,psimakov,2025-08-22T18:42:29Z,2025-08-26T18:17:40+00:00,4,95.59,True,2,1,2,229,0,1,1,MERGED
+6844,Add support for debug logging of keystrokes to investigate #6227,deepankarsharma,2025-08-22T17:46:02Z,2025-08-22T23:41:55+00:00,3,5.93,True,333,2,7,497,0,2,2,MERGED
+6840,feat(ci): add self-assign workflow for issues,davideast,2025-08-22T17:08:08Z,2025-08-22T20:12:25+00:00,1,3.07,True,99,0,1,613,3,1,4,MERGED
+6836,"bug(core): Fix for ""no changes"" edits.",joshualitt,2025-08-22T16:44:40Z,2025-08-22T18:20:46+00:00,3,1.6,True,44,6,2,226,0,0,0,MERGED
+6832,Add internationalization (i18n) support to Gemini CLI,hoteye,2025-08-22T16:04:43Z,2025-09-08T19:04:52+00:00,27,411.0,False,9763,1701,207,4175,15,22,37,CLOSED
+6830,Re-add permission to address PR comment,cornmander,2025-08-22T15:36:09Z,2025-08-22T16:40:23+00:00,1,1.07,False,1,0,1,79,1,0,1,CLOSED
+6828,feat(cli): Allow themes to be specified as file paths,santhoshkumarCodes,2025-08-22T15:00:54Z,2025-08-22T20:12:25+00:00,8,5.19,True,222,6,3,2670,5,4,9,MERGED
+6827,Feature/codebase indexing semantic search,TankiClassic25,2025-08-22T14:46:52Z,2025-08-22T20:45:27+00:00,7,5.98,False,4655,2724,33,5745,9,11,20,CLOSED
+6823,Smart Edit Tool ,silviojr,2025-08-22T14:18:37Z,2025-08-29T19:55:35+00:00,21,173.62,True,1503,2,6,1484,2,16,18,MERGED
+6818,Add flag for clearing opentelemetry settings in script,jerop,2025-08-22T11:37:34Z,2025-09-17T00:14:03+00:00,2,612.61,False,23,20,2,137,1,1,2,CLOSED
+6817,Feature/codebase indexing semantic search,TankiClassic25,2025-08-22T11:26:38Z,2025-08-22T14:46:12+00:00,15,3.33,False,4596,2724,33,5728,12,34,46,CLOSED
+6805,[IDE Companion] feat: Enhance Context Summary to Display Selected Lines and Active File,Blackoutta,2025-08-22T03:48:20Z,2025-09-01T12:52:13+00:00,4,249.06,False,166,8,2,1915,6,1,7,CLOSED
+6801,fix(checkpointing): improve error handling and messaging for Git issues,bulkypanda,2025-08-22T02:19:39Z,2025-08-22T15:42:52+00:00,3,13.39,True,38,12,2,598,0,1,1,MERGED
+6795,fix(ide): preserve focus when showing diff view,skeshive,2025-08-22T00:56:06Z,2025-08-22T02:35:46+00:00,3,1.66,True,1,0,1,420,1,0,1,MERGED
+6790,test(integration-tests): isolate user memory from test runs,galz10,2025-08-21T23:07:30Z,2025-08-22T00:44:22+00:00,3,1.61,True,36,2,2,1302,1,3,4,MERGED
+6789,feat(actions): initial adhoc eval action,agmsb,2025-08-21T22:57:31Z,2025-08-26T16:47:15+00:00,1,113.83,False,13657,4409,477,160,0,1,1,CLOSED
+6779,feat(mcp): Improve MCP prompt argument parsing,jakemac53,2025-08-21T21:04:02Z,2025-08-22T18:20:46+00:00,4,21.28,True,170,17,2,963,1,2,3,MERGED
+6778,feat(mcp): log include MCP request with error,leehagoodjames,2025-08-21T21:01:48Z,2025-08-22T18:22:53+00:00,3,21.35,True,13,7,2,1052,1,1,2,MERGED
+6777,Retry Message Stream on Empty Chunks,mrcabbage972,2025-08-21T20:55:30Z,2025-08-22T20:12:25+00:00,21,23.28,True,841,203,3,2366,9,15,24,MERGED
+6776,fix(ui): Fix command suggestion text wrapping with dynamic width alignment,dracic,2025-08-21T19:28:08Z,2025-08-23T08:39:46+00:00,3,37.19,False,8,1,1,2161,2,1,3,CLOSED
+6771,fix: handle extra text in gemini output for dedup workflow,gsquared94,2025-08-21T18:11:36Z,2025-08-21T20:50:39+00:00,1,2.65,True,7,2,1,378,1,0,1,MERGED
+6769,Feature/codebase indexing semantic search,TankiClassic25,2025-08-21T18:00:58Z,2025-08-21T19:32:39+00:00,5,1.53,False,3330,123,33,4483,3,12,15,CLOSED
+6767,Add a2a agents to config object,adamfweidman,2025-08-21T17:28:01Z,2025-08-22T20:09:31+00:00,2,26.69,False,204,0,8,240,2,1,3,CLOSED
+6765,refactor(ide): Improve IDE detection discovery,skeshive,2025-08-21T17:01:39Z,2025-08-25T18:49:51+00:00,6,97.8,True,372,151,13,2232,2,4,6,MERGED
+6762,Feat: Add codebase indexing and semantic search functionality.,TankiClassic25,2025-08-21T16:43:58Z,2025-08-21T17:59:14+00:00,4,1.25,False,3106,123,31,4483,0,7,7,CLOSED
+6758,Fix stats display layout,chrstnb,2025-08-21T15:38:06Z,2025-08-21T18:05:47+00:00,3,2.46,True,19,17,3,2674,1,0,1,MERGED
+6756,Support all content types in prompts from Zed,agu-z,2025-08-21T15:15:16Z,2025-08-22T21:21:18+00:00,3,30.1,True,150,87,2,1166,0,1,1,MERGED
+6751,feat: add explicit license selection and status visibility,JeongJaeSoon,2025-08-21T13:37:53Z,2025-08-22T20:12:25+00:00,6,30.58,True,382,40,13,2953,12,0,12,MERGED
+6747,fix(cli): improve stdin handling and add initial state check,lifefloating,2025-08-21T11:33:46Z,2025-08-22T15:51:49+00:00,3,28.3,True,66,20,1,2074,1,2,3,MERGED
+6737,"fix(console): fix debug icon rendering in ""Debug Console"" Box",HunDun0Ben,2025-08-21T09:14:12Z,2025-08-22T04:47:31+00:00,3,19.56,True,1,1,1,528,0,1,1,MERGED
+6732,feat(settings) support editing string settings.,jacob314,2025-08-21T08:25:03Z,2025-08-21T23:53:11+00:00,5,15.47,True,361,156,4,697,2,2,4,MERGED
+6729,"fix: Ctrl+E should move to current line end, not buffer end",mkusaka,2025-08-21T07:22:20Z,2025-08-22T04:48:55+00:00,3,21.44,True,40,3,2,2109,0,1,1,MERGED
+6724,Introduce system defaults (vs system overrides),bbiggs,2025-08-21T05:34:36Z,2025-08-25T04:30:13+00:00,5,94.93,True,241,26,9,692,1,4,5,MERGED
+6723,fix(copyCommand): provide friendlier error messages for `/copy` command,HunDun0Ben,2025-08-21T04:59:10Z,2025-08-22T17:19:31+00:00,12,36.34,True,113,15,5,901,5,4,9,MERGED
+6721,feat(sessions): Integrate chat recording into GeminiChat,bl-ue,2025-08-21T04:16:04Z,2025-09-03T05:39:50+00:00,13,313.4,True,515,72,17,697,3,6,9,MERGED
+6716,feat(commands): Enable @file processing in TOML commands,abhipatel12,2025-08-21T01:18:07Z,2025-08-28T03:32:53+00:00,11,170.25,True,1835,330,27,3988,3,11,14,MERGED
+6714,Reuse CoreToolScheduler for nonInteractiveToolExecutor,scidomino,2025-08-21T01:12:30Z,2025-08-21T23:58:57+00:00,6,22.77,True,93,258,6,588,2,2,4,MERGED
+6713,Force restart on trust level change to reload settings,shrutip90,2025-08-21T01:12:26Z,2025-08-21T07:47:51+00:00,8,6.59,True,273,47,12,575,1,5,6,MERGED
+6703,[extensions] Add extension management install command,chrstnb,2025-08-21T00:20:48Z,2025-08-25T17:16:46+00:00,15,112.93,True,562,115,14,1315,3,21,24,MERGED
+6701,fix(metrics): Do not convert numerical metrics to strings,kiranani,2025-08-20T23:33:48Z,2025-08-21T07:35:24+00:00,5,8.03,True,9,9,3,202,0,2,2,MERGED
+6699,feat(core): Annotate remaining error paths in tools with type.,joshualitt,2025-08-20T22:47:27Z,2025-08-21T21:50:06+00:00,6,23.04,True,348,48,19,193,0,3,3,MERGED
+6698,fix(#4645): checkpointing not recognizing local repo on French envs,hugomurillomtz,2025-08-20T22:39:52Z,2025-09-17T17:34:38+00:00,5,666.91,False,55,4,2,737,4,1,5,CLOSED
+6696,Add integration test to confirm environment variable propagation.,cornmander,2025-08-20T22:25:51Z,2025-08-21T01:59:33+00:00,5,3.56,True,30,0,1,107,0,1,1,MERGED
+6694,feat(shell): enable interactive commands with virtual terminal,galz10,2025-08-20T22:05:20Z,2025-09-11T20:40:50+00:00,22,526.59,True,2338,317,43,2148,4,39,43,MERGED
+6692,feat(cli): add /hello command,XayHanmonty,2025-08-20T21:42:26Z,2025-08-21T01:22:16+00:00,2,3.66,False,70,0,5,1653,1,1,2,CLOSED
+6689,refactor(core): reuse computeNewContent in performAddMemoryEntry,chen893,2025-08-20T21:07:51Z,2025-08-29T17:48:18+00:00,4,212.67,True,5,36,1,365,1,1,2,MERGED
+6677,feat(ide): improve IDE installation UX and feedback,skeshive,2025-08-20T19:42:32Z,2025-08-20T21:25:22+00:00,4,1.71,True,51,11,3,1287,2,3,5,MERGED
+6676,At Command Race Condition Bugfix For Non-Interactive Mode,mrcabbage972,2025-08-20T19:32:14Z,2025-08-21T18:57:25+00:00,5,23.42,True,82,8,2,374,2,3,5,MERGED
+6675,fix: typos/grammar in roadmap,bravetux,2025-08-20T19:18:56Z,2025-08-20T20:28:44+00:00,3,1.16,True,3,3,1,567,0,0,0,MERGED
+6674,[ez] Add extension management feature flag,chrstnb,2025-08-20T19:18:34Z,2025-08-21T18:22:36+00:00,2,23.07,False,23,0,3,227,1,1,2,CLOSED
+6665,feat: auto-approve pending tool calls when auto_edit/yolo is activated,bulkypanda,2025-08-20T17:25:29Z,2025-09-15T03:32:12+00:00,9,610.11,True,649,24,5,610,2,6,8,MERGED
+6663,Fixing at command race condition,mrcabbage972,2025-08-20T17:09:40Z,2025-08-20T20:05:34+00:00,2,2.93,True,139,36,4,1112,2,1,3,MERGED
+6662,fix(core): Fix permissions for oauth_creds.json,xplo1t-sec,2025-08-20T16:46:55Z,2025-08-29T17:48:18+00:00,5,217.02,True,5,0,1,1008,1,1,2,MERGED
+6661,Remove unused attribute,scidomino,2025-08-20T16:45:33Z,2025-08-20T23:25:55+00:00,6,6.67,True,0,13,3,233,1,1,2,MERGED
+6659,feat(ide ext): Write workspace path to port file,skeshive,2025-08-20T16:31:10Z,2025-08-20T21:25:22+00:00,5,4.9,True,463,365,4,1091,2,6,8,MERGED
+6658,Update releases.md,mattKorwel,2025-08-20T16:31:05Z,2025-09-03T22:32:03+00:00,2,342.02,False,5,2,1,25,0,1,1,CLOSED
+6657,Limit dependabot PRs to security updates,cornmander,2025-08-20T16:16:27Z,2025-08-20T22:35:26+00:00,4,6.32,True,2,0,1,228,0,2,2,MERGED
+6655,return the JSON stringified parameters from getDescription for MCP tools and Discovered tools,jakemac53,2025-08-20T15:57:01Z,2025-08-20T20:27:40+00:00,5,4.51,True,24,2,5,888,3,3,6,MERGED
+6653,Introduce initial screen reader mode handling and flag,chrstnb,2025-08-20T15:43:21Z,2025-08-21T22:38:39+00:00,3,30.92,True,125,52,14,1582,1,4,5,MERGED
+6643,feat(release): update release process for nightly and preview builds,mattKorwel,2025-08-20T13:58:04Z,2025-08-20T16:02:15+00:00,5,2.07,True,166,78,3,438,3,2,5,MERGED
+6640,feat(mcp-client): Handle 401 error for httpUrl,yoichiro,2025-08-20T13:07:31Z,2025-08-21T07:16:10+00:00,4,18.14,True,66,23,2,2643,3,0,3,MERGED
+6633,feat(cli): add fuzzy matching for command suggestions,dracic,2025-08-20T10:52:16Z,2025-08-29T18:49:13+00:00,23,223.95,True,1095,169,2,2470,7,13,20,MERGED
+6631,"Changes to add MCP tool count, and MCP tool name as dimension",agarwalravikant,2025-08-20T10:18:31Z,2025-08-20T14:31:25+00:00,4,4.21,True,51,5,7,205,0,1,1,MERGED
+6627,docs: Update keyboard shortcuts for input clearing functionality,lifefloating,2025-08-20T09:12:07Z,2025-08-20T14:06:26+00:00,3,4.91,True,2,1,2,1421,2,0,2,MERGED
+6621,Fix formatting in README.md,aaabramov,2025-08-20T07:30:20Z,2025-08-20T15:04:26+00:00,3,7.57,True,4,2,1,205,1,0,1,MERGED
+6620, add Ctrl+Backspace (KILL_WORD_LEFT) to delete word backwards,thirtyninetythree,2025-08-20T07:21:39Z,2025-09-09T07:04:21+00:00,5,479.71,False,34,1,5,621,1,1,2,CLOSED
+6614,chore(deps)(deps): bump google-github-actions/run-gemini-cli from 0.1.10 to 0.1.11,dependabot,2025-08-20T06:31:29Z,2025-08-20T14:23:53+00:00,1,7.87,True,5,5,5,3950,1,0,1,MERGED
+6603,Update README.md,mattKorwel,2025-08-20T02:06:24Z,2025-08-20T04:04:56+00:00,6,1.98,True,339,244,4,42,1,5,6,MERGED
+6597,Add a2a-server package to gemini-cli,adamfweidman,2025-08-20T00:33:48Z,2025-08-26T21:02:28+00:00,8,164.48,True,6391,449,27,1397,2,8,10,MERGED
+6595,Add permissions specs to token generation.,cornmander,2025-08-20T00:32:03Z,2025-08-20T05:09:00+00:00,2,4.62,True,9,3,5,129,2,1,3,MERGED
+6591,feat: update .gitignore in /setup-github,jerop,2025-08-19T22:56:26Z,2025-08-20T02:04:25+00:00,3,3.13,True,181,2,3,480,1,1,2,MERGED
+6589,feat(core): Add skipNextSpeakerCheck setting,SandyTao520,2025-08-19T22:28:31Z,2025-08-19T23:54:46+00:00,1,1.44,True,23,0,5,1755,4,0,4,MERGED
+6585,Remove unnecessary promiuse usage.,scidomino,2025-08-19T21:26:42Z,2025-08-19T22:38:05+00:00,3,1.19,True,61,67,18,270,2,0,2,MERGED
+6583,test(logging): Add tests for default log fields,leehagoodjames,2025-08-19T21:14:21Z,2025-08-20T14:42:26+00:00,8,17.47,True,65,1,1,175,1,2,3,MERGED
+6576,fix(ide): Fix bug where companion extension was not being installed on Windows correctly,skeshive,2025-08-19T18:30:49Z,2025-08-19T20:31:40+00:00,3,2.01,True,24,12,2,12,1,1,2,MERGED
+6569,Update README.md Removed 1000 Req/ day message as it won't support 1000,ajaymalik14,2025-08-19T16:25:30Z,2025-08-20T13:42:58+00:00,2,21.29,False,2,2,1,184,1,1,2,CLOSED
+6567,feat: Add IDE client to /bug & /about if IDE mode is enabled,skeshive,2025-08-19T15:17:56Z,2025-08-19T18:28:54+00:00,3,3.18,True,21,2,4,0,1,3,4,MERGED
+6566,fix(ide): Correctly identify IDE process when run from terminal,skeshive,2025-08-19T15:09:22Z,2025-08-20T00:33:31+00:00,6,9.4,True,126,31,1,700,2,6,8,MERGED
+6564,Add enforcedAuthType setting ,chrstnb,2025-08-19T14:32:42Z,2025-09-03T22:44:30+00:00,2,368.2,True,194,18,10,946,7,0,7,MERGED
+6556,docs: Update mcpServers configuration documentation,yoichiro,2025-08-19T12:17:25Z,2025-08-19T21:54:08+00:00,7,9.61,True,20,2,1,1122,2,3,5,MERGED
+6555,fix(cli): Improve proxy test isolation and sandbox path resolution,kookyleo,2025-08-19T12:10:18Z,2025-08-23T04:54:27+00:00,3,88.74,True,228,89,6,2055,1,0,1,MERGED
+6544,fix: allow re-auth with another google account,bulkypanda,2025-08-19T07:23:15Z,2025-08-20T00:16:20+00:00,3,16.88,True,86,3,2,523,1,2,3,MERGED
+6541,Semantic color tokens: refactor via createSemanticColors(),ali-aljufairi,2025-08-19T06:50:02Z,2025-08-19T16:17:31+00:00,4,9.46,True,69,34,14,59,0,2,2,MERGED
+6540,update(opentelemetry): Upgrade OTel dependencies,kiranani,2025-08-19T06:39:27Z,2025-08-19T23:51:32+00:00,4,17.2,True,294,273,3,408,0,1,1,MERGED
+6532,fix(paste) incorrect handling of \\\n in pastes,jacob314,2025-08-19T04:25:13Z,2025-08-19T20:55:55+00:00,5,16.51,True,120,60,5,459,1,1,2,MERGED
+6523,Update colors tokens for inputer/footer,miguelsolorio,2025-08-19T00:34:55Z,2025-08-26T22:21:31+00:00,2,189.78,True,32,24,12,440,3,1,4,MERGED
+6519,feat: auto-approve compatible pending tools when allow always is selected,bulkypanda,2025-08-18T23:57:59Z,2025-08-20T01:31:42+00:00,4,25.56,True,234,0,2,745,3,3,6,MERGED
+6516,chore: Implement secure CI/CD pipeline,galz10,2025-08-18T23:14:29Z,2025-09-17T18:14:12+00:00,2,715.0,False,133,40,3,2938,1,1,2,CLOSED
+6510,feat(search): Add option to disable fuzzy search,brychanrobot,2025-08-18T21:37:40Z,2025-08-22T06:41:38+00:00,3,81.07,True,114,2,7,1291,2,1,3,MERGED
+6507,fix(tools): Handle special characters in file paths for glob and read_many_files,galz10,2025-08-18T21:20:24Z,2025-08-18T23:45:20+00:00,5,2.42,True,96,15,4,1650,1,6,7,MERGED
+6505,feat(ui): add `hideFooter` setting to hide footer from UI,jackwotherspoon,2025-08-18T20:59:53Z,2025-08-19T21:12:40+00:00,4,24.21,True,82,17,3,634,3,0,3,MERGED
+6504,Update footer,miguelsolorio,2025-08-18T20:57:18Z,2025-08-19T00:29:54+00:00,2,3.54,False,223,178,9,333,4,1,5,CLOSED
+6503,Remove checking for a condition just for logging,anj-s,2025-08-18T20:28:55Z,2025-08-19T20:29:31+00:00,2,24.01,True,0,4,1,52,1,0,1,MERGED
+6501,fix(core): harden user account caching,mboshernitsan,2025-08-18T20:15:25Z,2025-08-19T20:22:30+00:00,1,24.12,True,175,57,2,922,1,0,1,MERGED
+6498,fix: GCA creds loading order,gsquared94,2025-08-18T19:35:53Z,2025-08-18T21:17:25+00:00,4,1.69,True,85,16,2,1653,0,1,1,MERGED
+6497,Fix crash when encountering an included directory which doesn't exist,gbbosak,2025-08-18T19:20:51Z,2025-08-22T21:21:59+00:00,8,98.02,True,65,24,6,975,1,1,2,MERGED
+6496,feat: Show /ide subcommands based on connection status instead of ideMode boolean,skeshive,2025-08-18T19:19:13Z,2025-08-19T17:31:18+00:00,3,22.2,True,60,12,5,75,1,0,1,MERGED
+6494,fix(#5605): .env file loaded after settings are parsed,hugomurillomtz,2025-08-18T18:51:03Z,2025-08-19T19:16:09+00:00,12,24.42,True,105,156,2,2146,3,4,7,MERGED
+6493,docs(readme): fix 'quick examples' code block formatting,nahilrasheed,2025-08-18T18:20:44Z,2025-08-22T15:56:47+00:00,2,93.6,False,0,0,0,490,1,0,1,CLOSED
+6491,feat(core): refactor shell execution to use node-pty,galz10,2025-08-18T17:59:28Z,2025-08-19T23:14:37+00:00,8,29.25,True,1062,326,17,3053,3,2,5,MERGED
+6482,fix: copy command gets stuck,hritan,2025-08-18T15:45:29Z,2025-08-20T18:55:09+00:00,10,51.16,True,45,22,2,587,4,4,8,MERGED
+6481,Disable failing IDE tests.,cornmander,2025-08-18T15:41:17Z,2025-08-18T17:58:13+00:00,3,2.28,True,2,2,1,76,0,2,2,MERGED
+6479,feat(logging): add session_id to all logs,leehagoodjames,2025-08-18T15:11:43Z,2025-08-19T21:13:26+00:00,8,30.03,False,78,64,5,542,3,4,7,CLOSED
+6478,feat(chat): Enable non-blocking chat input,MSHIVVANI,2025-08-18T15:01:40Z,2025-08-18T17:46:02+00:00,2,2.74,False,25,23,1,612,2,1,3,CLOSED
+6473,fix(ui): fix drag-and-drop file feature for macOS terminal,944750720,2025-08-18T14:20:37Z,2025-08-29T17:55:52+00:00,10,267.59,False,1928,1377,3,3223,12,9,21,CLOSED
+6467,Feat/chinese translation,FlowerRealm,2025-08-18T11:35:18Z,2025-09-10T06:54:14+00:00,4,547.32,False,4630,9,84,2363,5,2,7,CLOSED
+6463,fix(ui): fix drag-and-drop file feature for macOS terminal,944750720,2025-08-18T10:28:24Z,2025-08-18T13:47:20+00:00,2,3.32,False,63,0,1,2665,0,1,1,CLOSED
+6453,feat(cli): Add --allowed-tools flag to bypass tool confirmation (#2417),werdnum,2025-08-18T07:12:36Z,2025-08-26T16:29:34+00:00,13,201.28,True,524,135,14,1457,6,11,17,MERGED
+6448,feat(cli): Add research communication opt-in capability,yashv6655,2025-08-18T03:46:44Z,2025-08-20T16:53:21+00:00,38,61.11,False,1163,290,21,14,2,37,39,CLOSED
+6445,Add vi globals to fix integration tests.,cornmander,2025-08-18T01:36:46Z,2025-08-18T05:23:32+00:00,4,3.78,True,2,2,2,76,0,1,1,MERGED
+6441,fix(commands): Respect YOLO mode in custom slash commands,abhipatel12,2025-08-17T22:59:10Z,2025-08-18T14:41:25+00:00,3,15.7,True,56,5,2,3380,3,0,3,MERGED
+6432,feat: improve InputPrompt component functionality,mohab-kamle,2025-08-17T15:47:40Z,2025-08-18T17:46:55+00:00,3,25.99,False,10,2,2,1144,1,1,2,CLOSED
+6431,Log start session event through telemetry/loggers,bbiggs,2025-08-17T14:16:30Z,2025-08-18T20:10:01+00:00,10,29.89,True,3,6,1,133,0,2,2,MERGED
+6423,Log all session metadata,owenofbrien,2025-08-17T10:11:05Z,2025-08-19T20:12:13+00:00,5,58.02,True,108,112,6,640,1,2,3,MERGED
+6417,Support IDE connections via stdio MCP,bbiggs,2025-08-17T05:33:52Z,2025-08-21T22:10:10+00:00,7,112.61,True,315,81,2,598,0,5,5,MERGED
+6408,Fix several IDE mode integration tests,cornmander,2025-08-17T02:20:55Z,2025-08-17T08:02:22+00:00,3,5.69,True,97,14,3,57,0,1,1,MERGED
+6402,feat: add instruction queue for better user experience,bulkypanda,2025-08-16T22:40:13Z,2025-08-18T17:47:39+00:00,2,43.12,False,231,6,5,595,1,2,3,CLOSED
+6397,fix(cli): gemini command stuck in git bash,dumbbellcode,2025-08-16T21:35:04Z,2025-08-23T00:28:41+00:00,9,146.89,True,187,67,5,1362,6,4,10,MERGED
+6394,Initial work on Extension Management implementation,bdmorgan,2025-08-16T20:31:42Z,2025-08-25T13:12:38+00:00,12,208.68,False,1322,336,26,227,2,22,24,CLOSED
+6393,Complete TodoListTool feature for Gemini-CLI,njtan142,2025-08-16T19:20:36Z,2025-08-28T21:02:32+00:00,3,289.7,False,189,4,6,381,1,1,2,CLOSED
+6390,Patch to help debug,joshualitt,2025-08-16T17:08:43Z,2025-08-27T16:20:26+00:00,2,263.2,False,77,5,4,0,0,0,0,CLOSED
+6380,feat(core): Support configuring Gemini API base URL via environment variable,xiaoguomeiyitian,2025-08-16T11:21:54Z,2025-08-17T00:21:55+00:00,2,13.0,False,1,0,1,759,5,1,6,CLOSED
+6367,feat,lixingxing001,2025-08-16T03:37:52Z,2025-08-18T17:49:24+00:00,1,62.19,False,92,67,17,165,3,0,3,CLOSED
+6363,bug(core): Do not throw validation errors when building tools in `nonInteractiveToolExecutor`.,joshualitt,2025-08-16T02:44:04Z,2025-08-18T20:34:40+00:00,12,65.84,True,303,58,7,284,0,4,4,MERGED
+6361,fix(docs): update authentication documentation to reflect available options,bulkypanda,2025-08-16T01:49:43Z,2025-08-18T22:10:38+00:00,3,68.35,True,3,3,1,171,0,0,0,MERGED
+6360,fix: add privacy settings hook and tests,bulkypanda,2025-08-16T01:35:35Z,2025-08-19T07:03:40+00:00,4,77.47,True,261,11,4,778,0,1,1,MERGED
+6359,feat(core): share file list patterns between glob and grep tools,Han5991,2025-08-16T00:55:50Z,2025-08-23T04:54:27+00:00,20,171.98,True,727,97,13,2366,19,26,45,MERGED
+6358,fix: ensure consistent theme behavior between local and CI test runs,bulkypanda,2025-08-16T00:41:41Z,2025-08-19T06:03:07+00:00,3,77.36,True,43,0,4,333,0,3,3,MERGED
+6348,feat(oauth): Make oauth client a singleton to survive cache failures,mboshernitsan,2025-08-15T21:40:20Z,2025-08-16T05:12:27+00:00,5,7.54,True,20,2,2,951,2,4,6,MERGED
+6339,feat(telemetry): Add email to telemetry prompt,steventohme,2025-08-15T18:51:16Z,2025-08-25T20:16:28+00:00,4,241.42,True,4,0,1,660,3,1,4,MERGED
+6338,fix: handle multiline output in issue dedup workflow,gsquared94,2025-08-15T18:28:27Z,2025-08-15T21:55:32+00:00,1,3.45,True,3,1,1,1089,1,0,1,MERGED
+6337,fix: implement AbortSignal support for slash command cancellation (#6066),akhil29,2025-08-15T17:44:19Z,2025-08-22T17:37:35+00:00,4,167.89,False,361,43,9,1782,3,3,6,CLOSED
+6336,fix: allow user to use responseSchema as well.,wanlin31,2025-08-15T17:33:27Z,2025-08-15T21:55:32+00:00,3,4.37,True,2,0,1,417,0,2,2,MERGED
+6335,Fix shell tool description to be os-specific,scidomino,2025-08-15T17:26:54Z,2025-08-15T19:15:37+00:00,4,1.81,True,72,14,2,307,2,1,3,MERGED
+6332,fix: improve robustness of `gemini mcp add` command,jackwotherspoon,2025-08-15T16:42:32Z,2025-08-15T19:43:14+00:00,3,3.01,True,45,0,2,1590,1,0,1,MERGED
+6328,Revert #6088,galz10,2025-08-15T16:08:06Z,2025-08-15T17:35:28+00:00,3,1.46,True,415,445,16,93,1,0,1,MERGED
+6317,Check for pending tool calls before appending IDE Context,evanotero,2025-08-15T11:52:06Z,2025-08-15T22:13:11+00:00,7,10.35,True,358,2,2,2966,1,1,2,MERGED
+6313,Add session id to session summary and /bug template,owenofbrien,2025-08-15T10:17:03Z,2025-08-15T15:28:37+00:00,3,5.19,True,75,26,8,541,2,1,3,MERGED
+6312,fix(ui): Fix hang in chat save confirmation dialog,flowernotfound,2025-08-15T10:05:47Z,2025-08-15T15:54:09+00:00,3,5.81,True,1,0,1,47,1,0,1,MERGED
+6311,feat(about): Add the IDE Client's display name to `/about`,evanotero,2025-08-15T09:04:22Z,2025-08-15T16:39:22+00:00,3,7.58,True,57,0,7,1202,0,1,1,MERGED
+6308,Fix IDE Companion Connection in Proxy Environments,Blackoutta,2025-08-15T08:18:50Z,2025-08-20T00:41:53+00:00,11,112.38,True,92,3,3,2240,6,4,10,MERGED
+6305,fix(input) ctrl-j support was lost switching to keyBindings.ts,jacob314,2025-08-15T07:38:35Z,2025-08-15T15:39:29+00:00,6,8.02,True,1,0,1,156,1,1,2,MERGED
+6304,fix(input) Resolve cases where escape was broken,jacob314,2025-08-15T07:20:28Z,2025-08-15T18:00:37+00:00,6,10.67,True,697,582,14,1721,7,1,8,MERGED
+6303,fix(docs): path of chat checkpoints in manual,rfabbri,2025-08-15T06:36:21Z,2025-08-21T22:37:10+00:00,10,160.01,True,2,2,1,452,2,3,5,MERGED
+6302,fix(docs) formatting in README.md quick examples (better PR with proper separate branch),rfabbri,2025-08-15T06:31:42Z,2025-08-21T21:25:14+00:00,2,158.89,False,3,3,1,570,1,0,1,CLOSED
+6294,Fix flaky test for SettingsDialog.,jacob314,2025-08-15T04:30:08Z,2025-08-15T06:11:12+00:00,3,1.68,True,22,16,1,118,1,0,1,MERGED
+6291,chore: remove duplicated lockfile,Brooooooklyn,2025-08-15T03:29:20Z,2025-08-15T15:47:01+00:00,1,12.29,True,0,4583,1,0,1,0,1,MERGED
+6288,test: use dynamic date in environment context test,cfool,2025-08-15T02:37:08Z,2025-08-20T03:19:01+00:00,4,120.7,False,51,0,1,215,3,1,4,CLOSED
+6283,Fix formatting in README quick examples,rfabbri,2025-08-15T00:42:37Z,2025-08-15T06:17:56+00:00,3,5.59,False,0,0,0,240,1,2,3,CLOSED
+6282,fix: pendingSlashCommandHistoryItems corrected to properly memoize updates,psinha40898,2025-08-15T00:42:28Z,2025-08-15T15:18:16+00:00,3,14.6,True,7,8,1,1396,0,0,0,MERGED
+6281,fixes for oauth spec - adds github oauth support. Resource paramater.,emeryray2002,2025-08-15T00:17:32Z,2025-08-15T19:21:04+00:00,5,19.06,True,558,174,5,2812,2,2,4,MERGED
+6278,feat(shell): Include disallowed commands in block reason,cornmander,2025-08-14T23:13:23Z,2025-08-15T14:44:30+00:00,10,15.52,True,8,4,2,256,0,4,4,MERGED
+6276,[ide-mode] Show folder picker for runGeminiCLI in multi-root workspaces,sunnyps,2025-08-14T23:06:09Z,2025-08-15T17:34:14+00:00,4,18.47,False,113,2,2,722,5,1,6,CLOSED
+6275,fix: update issue dedup workflow,gsquared94,2025-08-14T22:56:48Z,2025-08-15T12:58:20+00:00,2,14.03,True,379,248,4,2468,1,0,1,MERGED
+6274,Fix bug where RadioButtonSelect treated an omitted isFocus parameter,jacob314,2025-08-14T22:52:34Z,2025-08-14T23:55:40+00:00,6,1.05,True,87,26,4,310,1,1,2,MERGED
+6273,[ide-mode] Fix path delimiter for multi-root workspaces on Windows,sunnyps,2025-08-14T22:50:09Z,2025-08-15T23:04:56+00:00,7,24.25,True,43,7,4,625,1,2,3,MERGED
+6272,Fix license notice generation script to include transitive dependencies,skeshive,2025-08-14T22:36:36Z,2025-08-15T00:12:16+00:00,3,1.59,True,2271,20,2,0,1,0,1,MERGED
+6269,Stylize diff line numbers & characters,miguelsolorio,2025-08-14T21:34:22Z,2025-08-15T06:25:02+00:00,3,8.84,True,24,3,1,298,1,1,2,MERGED
+6265,IDE integration Gemini command multi-folder support + bump version,skeshive,2025-08-14T21:01:54Z,2025-08-15T00:19:57+00:00,4,3.3,True,42,31,6,280,1,0,1,MERGED
+6262,[ide-mode] Use command to detect IDE,chrstnb,2025-08-14T20:09:20Z,2025-08-22T19:03:34+00:00,3,190.9,False,170,108,5,501,0,2,2,CLOSED
+6255,chore(compiler): Enable strict property access TS compiler flag.,richieforeman,2025-08-14T19:29:30Z,2025-08-17T16:50:02+00:00,4,69.34,True,495,483,75,355,1,7,8,MERGED
+6253,Update semantic color tokens,miguelsolorio,2025-08-14T19:05:15Z,2025-08-15T22:46:16+00:00,10,27.68,True,606,502,60,1517,4,8,12,MERGED
+6252,fix: console patcher initialised in main,hritan,2025-08-14T19:03:19Z,2025-08-15T04:31:27+00:00,3,9.47,True,8,0,1,365,1,1,2,MERGED
+6248,Show /ide enable & /ide disable commands based on connection status,skeshive,2025-08-14T18:18:13Z,2025-08-15T00:29:15+00:00,3,6.18,True,8,3,2,220,1,0,1,MERGED
+6242,fix(telemetry): Exclude tool tokens from prompt token count,Taz-dingo,2025-08-14T16:26:12Z,2025-08-21T12:43:35+00:00,4,164.29,False,26,7,2,2578,3,1,4,CLOSED
+6241,fix: add console patcher to oauth2 in core package,hritan,2025-08-14T16:22:41Z,2025-08-14T18:57:30+00:00,3,2.58,False,257,103,3,518,1,1,2,CLOSED
+6240,feat(core): Save large tool outputs to a file and return truncated lines,SandyTao520,2025-08-14T16:19:24Z,2025-09-05T22:48:04+00:00,18,534.48,True,511,10,14,1858,5,18,23,MERGED
+6237,feat(core): Implement auto model routing,abhipatel12,2025-08-14T16:00:14Z,2025-09-17T01:19:52+00:00,2,801.33,False,1735,27,29,2227,2,2,4,CLOSED
+6235,fix(core): correctly consolidate multi-part text content,thisisrick25,2025-08-14T15:45:50Z,2025-08-22T18:20:30+00:00,8,194.58,True,55,17,1,1693,5,4,9,MERGED
+6234,feat(core): Preload User Memory in New Chat History,bct8925,2025-08-14T14:23:19Z,2025-08-15T13:01:12+00:00,2,22.63,False,41,1,5,1026,3,0,3,CLOSED
+6233,Fix release notes generation,skeshive,2025-08-14T13:47:25Z,2025-08-14T18:19:21+00:00,3,4.53,True,19,0,1,167,2,1,3,MERGED
+6217,Sends Gemini CLI Client install id to Vertex and Gemini.,uttamkanodia14,2025-08-14T08:46:11Z,2025-08-18T07:13:48+00:00,13,94.46,True,54,4,2,203,2,3,5,MERGED
+6210,feat: Show untrusted status in the Footer,shrutip90,2025-08-14T06:37:28Z,2025-08-14T18:23:22+00:00,11,11.77,True,219,58,10,382,2,4,6,MERGED
+6208,feat: VSCode multi-root workspace support,sunnyps,2025-08-14T06:17:07Z,2025-08-14T20:05:44+00:00,2,13.81,False,430,9,4,4055,1,1,2,CLOSED
+6204,update docs,JayadityaGit,2025-08-14T04:01:14Z,2025-08-15T03:22:39+00:00,6,23.36,True,1,1,1,1083,6,1,7,MERGED
+6202,feat(settings): enhance settings management with generic setter and display hel…,ali-aljufairi,2025-08-14T03:52:16Z,2025-08-19T02:35:01+00:00,9,118.71,True,546,219,5,913,1,9,10,MERGED
+6199,feat(core): Cleanup after migrating tools.,joshualitt,2025-08-14T03:24:32Z,2025-08-19T21:01:29+00:00,11,137.62,True,86,132,17,232,1,7,8,MERGED
+6198,Docs: update overview of Gemini CLI GitHub Actions,jerop,2025-08-14T03:09:20Z,2025-08-14T14:53:12+00:00,3,11.73,True,26,28,1,94,1,1,2,MERGED
+6197,feat(core): Migrate MockTools to declarative pattern.,joshualitt,2025-08-14T02:39:16Z,2025-08-15T15:50:55+00:00,6,37.19,True,292,335,6,222,0,4,4,MERGED
+6196,chore(vscode): Add eslint as a recommended extension,richieforeman,2025-08-14T02:37:56Z,2025-08-14T16:21:21+00:00,3,13.72,True,5,1,1,254,1,0,1,MERGED
+6195,feat(client/compression): Log telemetry when compressing chat context.,richieforeman,2025-08-14T02:03:00Z,2025-08-18T20:05:41+00:00,16,114.04,True,427,124,14,652,3,8,11,MERGED
+6194,bug(mcp): catch errors reported by GitHub MCP,leehagoodjames,2025-08-14T01:54:48Z,2025-08-14T22:36:03+00:00,9,20.69,True,122,0,2,652,1,3,4,MERGED
+6193,docs: update how to use vertex AI auth with ADC,gsquared94,2025-08-14T01:50:11Z,2025-08-14T04:07:12+00:00,5,2.28,True,50,22,1,2130,0,2,2,MERGED
+6188,"feat(core): Migrate web-search, write-file, and discovered-tool.",joshualitt,2025-08-13T23:33:09Z,2025-08-14T20:35:19+00:00,7,21.04,True,588,399,5,256,3,4,7,MERGED
+6187,Fix/emoji support,jacob314,2025-08-13T23:15:48Z,2025-08-14T00:39:17+00:00,5,1.39,True,75,11,2,1668,1,1,2,MERGED
+6185,refactor: remove modelCheck feature,allenhutchison,2025-08-13T23:00:59Z,2025-08-14T00:32:12+00:00,3,1.52,True,1,82,2,278,1,0,1,MERGED
+6184,feat(deps): Update @google/genai to 1.13.0,SandyTao520,2025-08-13T22:51:13Z,2025-08-14T02:18:20+00:00,4,3.45,True,25,46,3,593,1,1,2,MERGED
+6182,[ide-mode] Suggest the extension name in the installation messages,chrstnb,2025-08-13T21:24:53Z,2025-08-14T15:04:20+00:00,4,17.66,True,13,3,4,273,1,3,4,MERGED
+6181,chore(gemini.md): Make the checkExhaustive helper section more brief/direct,richieforeman,2025-08-13T21:24:17Z,2025-08-13T23:06:20+00:00,3,1.7,True,3,16,1,193,1,0,1,MERGED
+6178,Prevent writing outside of the workspace roots,scidomino,2025-08-13T20:34:15Z,2025-08-14T23:07:13+00:00,7,26.55,True,251,244,2,473,4,2,6,MERGED
+6177,[ide-mode] Support multi-folder workspaces,chrstnb,2025-08-13T20:25:25Z,2025-08-14T20:19:44+00:00,11,23.91,True,425,37,7,277,2,9,11,MERGED
+6176,Log CLI version and git commit hash (v2),owenofbrien,2025-08-13T20:05:58Z,2025-08-14T10:19:07+00:00,7,14.22,True,34,5,4,369,1,2,3,MERGED
+6175,Update Ink version,jacob314,2025-08-13T20:00:17Z,2025-08-13T21:46:32+00:00,4,1.77,True,5,5,2,91,1,0,1,MERGED
+6172,Compression input,shishu314,2025-08-13T19:39:27Z,2025-08-14T14:15:31+00:00,2,18.6,False,11,7,4,165,1,1,2,CLOSED
+6169,Read and write files through Zed,ConradIrwin,2025-08-13T19:18:43Z,2025-08-18T22:36:11+00:00,4,123.29,True,268,50,17,1145,0,1,1,MERGED
+6166,chore(cli/slashcommands): Add status enum to SlashCommandEvent telemetry,richieforeman,2025-08-13T18:32:05Z,2025-08-13T20:45:33+00:00,3,2.22,True,254,127,7,1018,1,1,2,MERGED
+6163,feat(extensions): Implement `gemini extensions install` for installing user-level extensions from Git and local paths,evanotero,2025-08-13T17:57:53Z,2025-08-21T16:52:55+00:00,2,190.92,False,549,9,8,2325,0,3,3,CLOSED
+6158,test(integration): add failing test for stdin context with prompt,allenhutchison,2025-08-13T17:12:16Z,2025-08-21T00:03:00+00:00,6,174.85,True,202,27,4,263,1,4,5,MERGED
+6145,[ide-mode] Add docs on running the vscode companion extension locally,chrstnb,2025-08-13T14:42:57Z,2025-08-14T17:53:58+00:00,9,27.18,True,32,2,3,178,1,5,6,MERGED
+6140,fix(ide): Add TMUX support for IDE detection and connection,nithin-raj-9100,2025-08-13T14:06:59Z,2025-08-29T18:17:54+00:00,12,388.18,False,215,3,4,1743,6,9,15,CLOSED
+6138,chore(build/compiler): Enable a bunch of strict TS compiler options.,richieforeman,2025-08-13T13:43:09Z,2025-08-13T20:23:59+00:00,17,6.68,True,141,84,28,581,1,9,10,MERGED
+6124,feat: update pending tool call message to mention Esc and Ctrl+C for cancellation,JayadityaGit,2025-08-13T07:38:35Z,2025-08-13T20:32:53+00:00,4,12.9,False,5,5,1,1097,6,1,7,CLOSED
+6121,/chat save command saves empty conversations with only system context,trycatchkamal,2025-08-13T05:55:46Z,2025-08-14T16:37:07+00:00,5,34.69,True,24,22,2,4927,1,2,3,MERGED
+6120,feat(triage): Improve GitHub issue triage workflows,jerop,2025-08-13T05:22:03Z,2025-08-14T22:28:04+00:00,2,41.1,True,192,56,2,636,2,0,2,MERGED
+6114,feat(core): Continue declarative tool migration.,joshualitt,2025-08-13T03:40:26Z,2025-08-13T19:05:12+00:00,7,15.41,True,516,590,6,227,0,3,3,MERGED
+6113,fix: use server-returned project for gca free tier auth,gsquared94,2025-08-13T03:27:19Z,2025-08-13T21:11:24+00:00,6,17.73,True,175,22,2,1764,0,2,2,MERGED
+6111,chore(ci): add global linter,sethvargo,2025-08-13T03:10:03Z,2025-08-13T19:02:25+00:00,5,15.87,True,300,25,2,266,1,3,4,MERGED
+6094,feat: add file change tracking to session metrics,bulkypanda,2025-08-13T00:38:06Z,2025-08-19T06:04:25+00:00,6,149.44,True,291,35,10,410,2,5,7,MERGED
+6092,Update quota-and-pricing.md to clarify billing,blanca-delgado-parra,2025-08-12T23:03:16Z,2025-08-15T19:07:04+00:00,7,68.06,True,79,45,1,141,2,6,8,MERGED
+6090,fix(core): Discard thought signature when switching from Gemini API Key to OAuth,SandyTao520,2025-08-12T22:40:57Z,2025-08-13T20:39:50+00:00,6,21.98,True,192,3,4,1602,1,5,6,MERGED
+6088,feat(core): refactor shell execution to use node-pty ,galz10,2025-08-12T22:33:14Z,2025-08-14T20:47:26+00:00,9,46.24,True,456,412,16,2805,2,7,9,MERGED
+6087,feat(filesearch): Introduce non-recursive file search strategy,brychanrobot,2025-08-12T22:08:50Z,2025-08-18T20:49:54+00:00,6,142.68,True,1019,416,8,2375,0,1,1,MERGED
+6083,Create Docs Pages based on github documentation,srithreepo,2025-08-12T20:43:27Z,2025-08-12T22:15:43+00:00,1,1.54,True,54,0,1,471,2,0,2,MERGED
+6081,fix(core): treat UTF16/32 BOM files as text and decode correctly,tayyab3245,2025-08-12T20:28:16Z,2025-08-29T01:26:59+00:00,11,388.98,True,649,28,3,3615,8,2,10,MERGED
+6080,feat(ui): improve discoverability of MCP slash commands,rinilkunhiraman,2025-08-12T20:02:58Z,2025-09-06T03:26:14+00:00,4,583.39,True,210,488,4,2722,1,1,2,MERGED
+6076,Add enterprise settings docs,chrstnb,2025-08-12T19:41:47Z,2025-08-20T17:14:14+00:00,7,189.54,True,320,0,3,569,3,9,12,MERGED
+6075,Update versioning script to also bump version for companion extension so they stay in sync,skeshive,2025-08-12T19:16:10Z,2025-08-14T14:37:04+00:00,3,43.35,True,1,1,1,0,1,1,2,MERGED
+6074,chore(telemetry): Add various surface detection to `determineSurface` for logging.,richieforeman,2025-08-12T19:06:00Z,2025-08-13T21:52:26+00:00,9,26.77,True,168,10,4,395,1,4,5,MERGED
+6073,Add support for trustedFolders.json config file,shrutip90,2025-08-12T18:53:03Z,2025-08-13T18:13:02+00:00,17,23.33,True,635,54,8,952,1,10,11,MERGED
+6071,feat: Add programming language to CLI events,nandakishorereddy-chundi,2025-08-12T18:33:47Z,2025-08-22T12:27:07+00:00,21,233.89,True,420,46,18,1286,1,11,12,MERGED
+6068,[ide-mode] Update installation logic and nudge,chrstnb,2025-08-12T17:46:53Z,2025-08-12T20:14:54+00:00,9,2.47,True,78,113,8,553,1,5,6,MERGED
+6063,Launch VS Code IDE Integration,skeshive,2025-08-12T17:11:59Z,2025-08-12T21:14:10+00:00,3,4.04,True,21,121,19,222,2,1,3,MERGED
+6059,chore(ci): Ensure release workflow is consistent and not vulnerable to injection attacks,sethvargo,2025-08-12T16:40:04Z,2025-08-12T19:57:57+00:00,1,3.3,True,129,91,1,238,4,0,4,MERGED
+6056,Switch from useInput to useKeypress.,jacob314,2025-08-12T16:05:09Z,2025-08-12T21:11:39+00:00,4,5.11,True,354,263,19,356,1,0,1,MERGED
+6055,Log yolo mode + number of turns,shishu314,2025-08-12T15:51:42Z,2025-08-25T20:16:28+00:00,9,316.41,True,103,2,9,751,1,5,6,MERGED
+6053,"chore(ci): do not ""fail fast"" on Node tests",sethvargo,2025-08-12T14:30:07Z,2025-08-12T19:25:33+00:00,1,4.92,True,1,0,1,320,2,0,2,MERGED
+6049,feat(ui): implement message queuing during streaming responses,akhil29,2025-08-12T13:18:26Z,2025-08-19T16:31:51+00:00,8,171.22,True,622,15,4,1145,8,8,16,MERGED
+6048,fix(cli): keywords handled for text component,hritan,2025-08-12T12:29:03Z,2025-08-13T16:18:33+00:00,6,27.82,False,49,2,2,718,3,3,6,CLOSED
+6046,Log CLI version and git commit hash,owenofbrien,2025-08-12T12:03:35Z,2025-08-14T10:38:44+00:00,4,46.59,False,69,0,10,355,2,1,3,CLOSED
+6039,fix(core): avoid error handling on cancelled requests to prevent crash,pwrwpw,2025-08-12T09:47:27Z,2025-08-21T07:27:39+00:00,4,213.67,True,31,4,2,1005,4,0,4,MERGED
+6027,chore(vscode): Add `Build & Launch CLI` option to vscode project,richieforeman,2025-08-12T00:54:37Z,2025-08-12T18:59:42+00:00,3,18.08,True,3,2,2,210,1,1,2,MERGED
+6024,feat: add --approval-mode parameter,bulkypanda,2025-08-12T00:15:44Z,2025-08-12T22:17:09+00:00,6,22.02,True,581,9,4,436,0,2,2,MERGED
+6023,chore(cli/slashcommands): Add status enum to SlashCommandEvent telemetry,richieforeman,2025-08-12T00:03:21Z,2025-08-13T15:48:51+00:00,10,39.76,True,217,122,7,1001,3,7,10,MERGED
+6021,Upgrade integration tests to use Vitest,scidomino,2025-08-11T22:57:14Z,2025-08-12T23:03:49+00:00,5,24.11,True,516,625,18,560,2,2,4,MERGED
+6016,feat(quality): Prompt engineer LLM-based loop detection,SandyTao520,2025-08-11T21:45:00Z,2025-08-29T20:25:41+00:00,4,430.68,False,17,7,1,1727,3,2,5,CLOSED
+6015,Fix: log api response error status codes,owenofbrien,2025-08-11T20:34:33Z,2025-08-12T16:58:02+00:00,5,20.39,True,16,0,1,380,1,1,2,MERGED
+6013,chore(usage telemetry): Freshen up Clearcut logging,richieforeman,2025-08-11T19:56:24Z,2025-08-12T18:39:37+00:00,8,22.72,True,972,273,9,616,1,5,6,MERGED
+6009,fix: add BOM-aware binary detection for UTF-16/32 files,Louis454545,2025-08-11T19:12:24Z,2025-08-20T14:46:50+00:00,3,211.57,False,660,1032,23,2153,2,5,7,CLOSED
+6008,fix: correct citation marker positioning for multibyte UTF-8 text in WebSearchTool,Louis454545,2025-08-11T19:04:51Z,2025-08-22T18:52:53+00:00,3,263.8,False,205,1,2,1685,2,2,4,CLOSED
+6006,Reduce noisy IDE integration error message in standalone terminal,skeshive,2025-08-11T18:13:13Z,2025-08-11T20:04:04+00:00,3,1.85,True,3,3,1,116,1,0,1,MERGED
+6005,[ide-mode] Update sandbox detection logic to support macos seatbelt,chrstnb,2025-08-11T18:06:19Z,2025-08-11T21:16:10+00:00,3,3.16,True,1,4,1,440,1,0,1,MERGED
+5999,Add --experimental-cli to speed up prettier formatting.,cornmander,2025-08-11T16:53:10Z,2025-08-11T19:15:25+00:00,4,2.37,True,1,1,1,318,0,1,1,MERGED
+5998,fix(settings) : Disable showing statics in the dialog,ali-aljufairi,2025-08-11T16:42:43Z,2025-08-19T03:45:52+00:00,4,179.05,True,6,6,3,214,0,2,2,MERGED
+5984,docs(commands): add /settings command for user-friendly settings editing,ali-aljufairi,2025-08-11T14:28:31Z,2025-08-12T04:15:37+00:00,5,13.79,True,5,0,1,185,0,2,2,MERGED
+5982,docs: add Ramparts MCP Security Scanner to Featured Extensions and examples,nitingarg-sw,2025-08-11T12:10:48Z,2025-08-12T12:39:38+00:00,2,24.48,False,120,0,2,746,2,1,3,CLOSED
+5970,Create mamon,mamonaminyar1998,2025-08-11T06:43:43Z,2025-08-11T20:04:32+00:00,2,13.35,False,1,0,1,165,1,1,2,CLOSED
+5969,fix(#5340): unable to load chats with weird characters,hugomurillomtz,2025-08-11T06:40:48Z,2025-08-14T23:31:57+00:00,32,88.85,True,232,43,3,2199,4,11,15,MERGED
+5967,fix(tools): Add an end of file list marker to ReadManyFilesTool,vmiura,2025-08-11T05:42:45Z,2025-08-22T15:21:32+00:00,9,273.65,True,24,8,5,908,8,3,11,MERGED
+5966, feat(cli): Introduce arguments for shell execution in custom commands,abhipatel12,2025-08-11T05:24:26Z,2025-08-17T04:09:50+00:00,24,142.76,True,1200,217,12,2972,3,17,20,MERGED
+5962,feat(core): add host validation to GoogleCredentialProvider,cornmander,2025-08-11T02:06:33Z,2025-08-11T16:47:16+00:00,5,14.68,True,73,13,3,420,0,1,1,MERGED
+5956,fix(core): citation markers misplaced in search results containing multibyte characters,pokutuna,2025-08-10T22:04:23Z,2025-08-22T16:26:50+00:00,5,282.37,True,94,5,2,2073,1,1,2,MERGED
+5952,fix(cli): honor argv @path in interactive sessions (quoted + unquoted),tayyab3245,2025-08-10T20:35:04Z,2025-10-01T01:27:06+00:00,4,1228.87,True,191,23,3,1046,12,4,16,MERGED
+5947,docs(config): Add showLineNumbers option to documentation,galz10,2025-08-10T17:14:58Z,2025-08-10T19:13:16+00:00,3,1.97,True,8,0,1,289,1,1,2,MERGED
+5933,docs: improve discoverability of chat persistence feature,shivas1432,2025-08-10T10:51:22Z,2025-08-12T12:35:45+00:00,2,49.74,False,46,1,1,898,2,2,4,CLOSED
+5928,feat(todos): implement TodoWriteTool for task management and tracking,Louis454545,2025-08-10T09:56:14Z,2025-08-22T20:32:09+00:00,2,298.6,False,452,13,5,2925,1,1,2,CLOSED
+5925,Fix URL truncation in CLI display components #5902,lifefloating,2025-08-10T06:28:11Z,2025-08-18T05:32:51+00:00,4,191.08,True,24,5,4,1938,5,1,6,MERGED
+5911,Fix(grep): memory overflow in grep search and enhance test coverage,lifefloating,2025-08-10T05:09:50Z,2025-08-22T06:20:52+00:00,14,289.18,True,2566,36,20,3668,17,13,30,MERGED
+5904,feat(ui): improve layout of slash command menu,lietwin,2025-08-09T22:43:28Z,2025-09-03T20:08:08+00:00,3,597.41,False,0,0,0,334,1,2,3,CLOSED
+5890,fix(cli): preserve input history after /clear command,flowernotfound,2025-08-09T15:02:53Z,2025-08-29T18:28:55+00:00,9,483.43,True,437,39,4,1424,3,2,5,MERGED
+5889,Fix locale-specific date formatting issue in environmentContext.ts,lifefloating,2025-08-09T14:57:13Z,2025-08-19T20:31:40+00:00,6,245.57,True,3,2,2,1304,6,2,8,MERGED
+5884,[#5356] Minor fix: Remove duplicate binding and add complete navigation command,Lee-WonJun,2025-08-09T11:16:43Z,2025-08-09T22:34:42+00:00,4,11.3,True,34,42,3,884,0,1,1,MERGED
+5880,Modify content generated describing the ide context to only include deltas after the initial update,jacob314,2025-08-09T08:00:20Z,2025-08-11T17:22:33+00:00,13,57.37,True,509,78,2,1398,1,5,6,MERGED
+5868,update: issue triage workflows tags duplicate issues,gsquared94,2025-08-09T02:32:34Z,2025-08-11T18:55:02+00:00,4,64.37,True,250,0,2,528,1,3,4,MERGED
+5867,fix: use correct inferred OAuth metadata urls,DinoChiesa,2025-08-09T01:55:51Z,2025-08-15T00:21:41+00:00,10,142.43,False,44,45,3,3176,5,4,9,CLOSED
+5866,feat: drop load-memory-from-include-directories option from cli args,y-okt,2025-08-09T01:31:30Z,2025-08-09T19:57:48+00:00,3,18.44,True,1,10,1,426,2,0,2,MERGED
+5863,feat(/setup-github): Use node to download the files,sethvargo,2025-08-09T00:24:24Z,2025-08-12T01:39:06+00:00,6,73.25,True,118,48,3,456,0,9,9,MERGED
+5862,"feat: add ""surface"" to all logs",leehagoodjames,2025-08-09T00:21:04Z,2025-08-11T15:17:20+00:00,4,62.94,True,19,11,1,435,2,0,2,MERGED
+5857,feat: Add option to hide line numbers in code blocks,galz10,2025-08-08T19:49:38Z,2025-08-08T22:18:22+00:00,4,2.48,True,138,29,7,2244,1,2,3,MERGED
+5856,Add MCP Roots support,jakemac53,2025-08-08T19:47:22Z,2025-08-08T23:35:46+00:00,3,3.81,True,87,1,4,698,5,0,5,MERGED
+5850,fix: Prevent duplicate or inactive tools/prompts after server refresh,haroldmciver-go,2025-08-08T18:01:10Z,2025-08-13T19:37:37+00:00,9,121.61,True,36,1,5,1453,2,2,4,MERGED
+5845,Add a request queue to the tool scheduler,jakemac53,2025-08-08T16:23:03Z,2025-08-08T21:57:46+00:00,4,5.58,True,384,131,3,1024,1,3,4,MERGED
+5842,fix(cli) - Adding logging for response and error in LoggingContentGenerator,shishu314,2025-08-08T15:59:37Z,2025-08-08T20:05:12+00:00,4,4.09,True,111,89,2,719,1,1,2,MERGED
+5839,Updates UX for context selection via IDE integration ,skeshive,2025-08-08T14:08:16Z,2025-08-08T19:57:24+00:00,3,5.82,False,337,117,12,597,3,3,6,CLOSED
+5838,"feat(cli): support single Ctrl+C to cancel streaming, preserving double Ctrl+C to exit",JayadityaGit,2025-08-08T12:14:51Z,2025-08-12T04:20:49+00:00,11,88.1,True,40,21,3,1893,10,8,18,MERGED
+5835,"feat(cli): Add the '/model set' command, enabling users to choose their model and more granularly manage theis quotas",momoadeli,2025-08-08T10:01:12Z,2025-08-12T18:45:34+00:00,35,104.74,False,374,1,14,598,11,12,23,CLOSED
+5834,prevent auto-execute on paste and preserve multi-line content in chat input,Alish-0x,2025-08-08T09:47:52Z,2025-09-06T02:04:42+00:00,8,688.28,True,171,9,2,2161,9,1,10,MERGED
+5819,feat(subagent): Enable incremental output streaming,allenhutchison,2025-08-07T23:58:43Z,2025-08-26T19:04:36+00:00,9,451.1,True,189,111,2,950,2,5,7,MERGED
+5818,docs: Improve local telemetry example,jerop,2025-08-07T23:58:07Z,2025-08-08T01:23:22+00:00,5,1.42,True,11,1,1,224,1,2,3,MERGED
+5815,Add FolderTrustDialog that shows on launch and enables folderTrust setting,shrutip90,2025-08-07T23:15:57Z,2025-08-08T18:10:54+00:00,10,18.92,True,244,1,7,471,2,5,7,MERGED
+5814,feat(cli): validate model names with precedence and concise startup logs,mariorch22,2025-08-07T23:01:00Z,2025-09-08T10:17:18+00:00,3,755.27,False,0,0,0,3306,7,2,9,CLOSED
+5812,Normalize using a helper function,SandyTao520,2025-08-07T22:45:23Z,2025-08-20T20:23:32+00:00,5,309.64,False,232,49,11,165,2,9,11,CLOSED
+5811,[ide-mode] Write port to file in ide-server,chrstnb,2025-08-07T22:40:20Z,2025-08-14T18:15:32+00:00,10,163.59,True,258,16,4,1306,6,12,18,MERGED
+5808,[ide-mode] Hide diff options when active diff is not focused,chrstnb,2025-08-07T22:19:50Z,2025-08-08T15:28:27+00:00,4,17.14,True,34,1,2,369,1,3,4,MERGED
+5804,[ide-mode] Wire up env variables to sandbox,chrstnb,2025-08-07T20:57:12Z,2025-08-08T15:41:47+00:00,4,18.74,True,21,1,2,487,1,3,4,MERGED
+5802,update: `google-github-actions/run-gemini-cli` version in workflows,gsquared94,2025-08-07T20:45:02Z,2025-08-07T22:03:41+00:00,2,1.31,True,11,10,2,224,1,0,1,MERGED
+5798,Add new folderTrust setting that the users can enable or disable,shrutip90,2025-08-07T19:33:11Z,2025-08-07T21:12:16+00:00,5,1.65,True,130,4,5,297,3,1,4,MERGED
+5797,fix: slash command completion menu column width and spacing issues,naaa760,2025-08-07T19:26:34Z,2025-08-23T00:01:23+00:00,8,364.58,True,38,13,1,1918,1,2,3,MERGED
+5796,Use semantic colors in themes,miguelsolorio,2025-08-07T19:17:28Z,2025-08-07T23:17:33+00:00,6,4.0,True,396,198,22,1340,2,3,5,MERGED
+5795,fix(core): Replace flaky performance tests with robust correctness tests,allenhutchison,2025-08-07T18:49:24Z,2025-08-07T22:43:55+00:00,6,3.91,True,39,86,2,703,2,1,3,MERGED
+5793,avoid loading and initializing CLI config twice in non-interactive mode,jakemac53,2025-08-07T18:24:53Z,2025-08-07T21:25:23+00:00,6,3.01,True,201,61,6,1166,3,3,6,MERGED
+5792,[ide-mode] Close all open diffs when the CLI gets closed,chrstnb,2025-08-07T17:54:57Z,2025-08-08T15:44:45+00:00,3,21.83,True,126,7,7,422,1,1,2,MERGED
+5790,chore(telemetry): Log `FIREBASE_STUDIO` when using Gemini CLI within Firebase Studio,richieforeman,2025-08-07T16:50:55Z,2025-08-07T22:56:29+00:00,6,6.09,True,20,4,1,258,2,1,3,MERGED
+5781,fix(cli) - Move logging into CodeAssistServer,shishu314,2025-08-07T16:00:52Z,2025-08-08T00:04:14+00:00,4,8.06,True,195,82,13,726,3,1,4,MERGED
+5780,Include Schema Error Handling for Vertex and Google Auth methods,adamfweidman,2025-08-07T15:55:23Z,2025-08-07T20:28:53+00:00,4,4.56,True,39,29,3,782,6,1,7,MERGED
+5771,perf(filesearch): Use async fzf for non-blocking file search,brychanrobot,2025-08-07T13:54:07Z,2025-08-07T22:31:32+00:00,5,8.62,True,33,24,3,755,0,2,2,MERGED
+5752,feat(core): Enhance Agent's Proactive Self-Modification Capabilities,Fridayxiao,2025-08-07T06:37:39Z,2025-08-22T19:09:34+00:00,2,372.53,False,1,0,1,3075,1,1,2,CLOSED
+5751,perf(core): parallelize memory discovery file operations performance gain,mag123c,2025-08-07T06:07:34Z,2025-08-21T18:30:58+00:00,4,348.39,True,154,37,2,1591,8,3,11,MERGED
+5744,"Migrate EditTool, GrepTool, and GlobTool to DeclarativeTool",joshualitt,2025-08-07T04:04:49Z,2025-08-07T17:11:59+00:00,3,13.12,True,600,514,8,160,0,1,1,MERGED
+5742,fix(tests): add missing deps in cli to fix sandbox runs,agmsb,2025-08-07T03:32:32Z,2025-08-07T18:04:50+00:00,6,14.54,True,4,0,2,457,9,1,10,MERGED
+5737,fix(cli): Escape before calling read_many_files,SandyTao520,2025-08-07T01:24:34Z,2025-08-07T22:20:57+00:00,2,20.94,False,181,48,6,165,1,1,2,CLOSED
+5734,feat(telemetry): Prevent memory leak in ClearcutLogger,galz10,2025-08-06T23:59:38Z,2025-08-08T01:59:44+00:00,4,26.0,True,492,73,4,2940,2,3,5,MERGED
+5732,docs(readme): Overhaul for clarity and user experience,LyalinDotCom,2025-08-06T23:41:27Z,2025-08-10T18:58:26+00:00,7,91.28,True,193,136,1,2769,6,8,14,MERGED
+5727,Few IDE integration polishes,skeshive,2025-08-06T22:12:01Z,2025-08-07T21:25:23+00:00,4,23.22,True,150,10,4,278,2,3,5,MERGED
+5725,fix(logging): Ensure sandbox startup messages are routed to stderr,allenhutchison,2025-08-06T22:01:01Z,2025-08-07T00:24:50+00:00,5,2.4,True,546,529,3,1163,1,3,4,MERGED
+5723,fix(core): Improve errors in situations where the command spawn does …,richieforeman,2025-08-06T21:38:34Z,2025-08-06T23:37:55+00:00,5,1.99,True,43,12,2,1043,1,2,3,MERGED
+5721,Add a context percentage threshold setting for auto compression,jakemac53,2025-08-06T21:22:54Z,2025-08-07T14:41:01+00:00,7,17.3,True,219,7,8,768,3,2,5,MERGED
+5719,README + reduce required VS Code version for companion extension,skeshive,2025-08-06T21:07:32Z,2025-08-07T21:30:49+00:00,4,24.39,True,20,20,5,222,2,3,5,MERGED
+5713,chore(deps): update dependencies and remove unused lockfiles,fabiomartino,2025-08-06T21:03:07Z,2025-08-09T13:41:11+00:00,17,64.63,False,1550,10985,10,941,4,11,15,CLOSED
+5709,experiment: Add feature exp flag for folder trust,shrutip90,2025-08-06T20:47:26Z,2025-08-06T22:33:06+00:00,9,1.76,True,44,0,4,317,1,5,6,MERGED
+5699,Add support for VSCode-like editors,chrstnb,2025-08-06T19:01:50Z,2025-08-11T21:07:46+00:00,9,122.1,True,118,14,5,496,1,3,4,MERGED
+5694,Add detection of tools with bad schemas and automatically omit them with a warning,jakemac53,2025-08-06T17:42:43Z,2025-08-06T20:25:12+00:00,6,2.71,True,404,0,2,967,2,2,4,MERGED
+5693,Make ProjectIdRequiredError error more lenient,scidomino,2025-08-06T17:23:01Z,2025-08-11T18:10:58+00:00,3,120.8,True,6,4,1,265,1,1,2,MERGED
+5692,fix(oauth): Add Accept header to token requests,eeekcct,2025-08-06T17:22:45Z,2025-08-22T18:57:11+00:00,5,385.57,False,197,2,2,1406,3,3,6,CLOSED
+5688,fix: properly report tool errors in telemetry,akhil29,2025-08-06T17:02:06Z,2025-08-08T11:39:51+00:00,14,42.63,True,606,229,8,2121,13,23,36,MERGED
+5686,feat(chat): Add overwrite confirmation dialog to `/chat save`,flowernotfound,2025-08-06T16:20:38Z,2025-08-09T07:05:34+00:00,8,62.75,True,214,3,7,2811,1,5,6,MERGED
+5685,Add integration test for maximum schema depth error handling,jakemac53,2025-08-06T16:05:34Z,2025-08-06T20:52:20+00:00,7,4.78,True,227,17,4,377,1,5,6,MERGED
+5684,feat: open repo secrets page in addition to README,leehagoodjames,2025-08-06T15:11:21Z,2025-08-07T16:06:48+00:00,6,24.92,True,158,4,6,95,4,2,6,MERGED
+5683,chore(cli): log a debug message about why rev-parse fails in /setup-github,sethvargo,2025-08-06T14:51:21Z,2025-08-06T20:52:31+00:00,4,6.02,False,2,1,1,263,2,1,3,CLOSED
+5681,"feat(core): Introduce ""fancy sort"" for intuitive file search results",brychanrobot,2025-08-06T14:13:57Z,2025-09-11T04:29:11+00:00,4,854.25,False,267,13,2,1733,2,1,3,CLOSED
+5678,bug(tests): fix test errors,leehagoodjames,2025-08-06T13:38:12Z,2025-08-06T19:33:06+00:00,4,5.92,True,2,1,2,1945,1,0,1,MERGED
+5677,Fix to send user tool confirmation decision for yolo or non interacti…,agarwalravikant,2025-08-06T13:37:00Z,2025-08-06T17:52:07+00:00,8,4.25,True,35,9,6,324,0,3,3,MERGED
+5666,feat: add humorous tip for new line shortcut in Gemini CLI,JayadityaGit,2025-08-06T09:57:42Z,2025-08-09T07:30:36+00:00,5,69.55,True,1,0,1,1291,2,1,3,MERGED
+5660,Fix for git issue 5657 to add lines of code added/removed telemetry,agarwalravikant,2025-08-06T06:40:20Z,2025-08-08T03:50:16+00:00,7,45.17,False,3718,1244,108,259,1,6,7,CLOSED
+5658,feat(model): Validate Model Selection and Improve Error Handling,yuyu1025,2025-08-06T06:11:58Z,2025-08-11T08:50:02+00:00,3,122.63,False,120,1,5,958,1,2,3,CLOSED
+5653,"feat: Enable /setup-github to always run, and error appropriately",leehagoodjames,2025-08-06T04:07:51Z,2025-08-06T13:12:08+00:00,8,9.07,True,18,8,3,924,1,3,4,MERGED
+5651,feat(ui): Improve UI layout adaptation for narrow terminals,galz10,2025-08-06T04:03:55Z,2025-08-07T23:01:41+00:00,7,42.96,True,560,132,15,2020,3,12,15,MERGED
+5650,feat: Improve @-command file path completion with fzf integration,DevMassive,2025-08-06T03:51:21Z,2025-08-06T23:47:45+00:00,9,19.94,True,49,2,5,932,5,4,9,MERGED
+5648,feat(file-search): Add support for non-recursive file search,brychanrobot,2025-08-06T03:43:05Z,2025-08-06T06:38:53+00:00,7,2.93,True,208,0,6,1521,1,3,4,MERGED
+5645,chore(integration-tests): refactor to typescript,jacob314,2025-08-06T02:07:28Z,2025-08-12T16:25:37+00:00,6,158.3,True,163,57,15,560,3,2,5,MERGED
+5644,docs(setup-github): Inform user of the next steps after running slash command,leehagoodjames,2025-08-06T02:02:08Z,2025-08-06T03:06:12+00:00,4,1.07,True,2,1,1,51,1,1,2,MERGED
+5640,[proposal] Add reverse-i-search for user input,chrstnb,2025-08-06T01:05:18Z,2025-08-19T18:23:42+00:00,2,329.31,False,280,84,6,492,0,2,2,CLOSED
+5634,Add more descriptive logging in non interactive mode,anj-s,2025-08-06T00:19:41Z,2025-08-07T18:33:02+00:00,3,42.22,False,52,7,2,381,2,3,5,CLOSED
+5633,Silence docker set up messages,mtrofin,2025-08-06T00:08:42Z,2025-09-15T16:09:35+00:00,2,976.01,False,6,6,1,165,1,1,2,CLOSED
+5618,[ide-mode] Support rendering in-IDE diffs using the edit tool,chrstnb,2025-08-05T21:44:17Z,2025-08-06T21:01:35+00:00,5,23.29,True,79,3,3,316,1,2,3,MERGED
+5616,check for the prompt capability before listing prompts from MCP servers,jakemac53,2025-08-05T21:16:02Z,2025-08-05T22:56:05+00:00,4,1.67,True,45,9,2,517,2,1,3,MERGED
+5613,feat(core): Introduce `DeclarativeTool` and `ToolInvocation`.,joshualitt,2025-08-05T20:45:58Z,2025-08-06T17:55:34+00:00,12,21.16,True,957,647,24,1137,0,7,7,MERGED
+5610,Add hint to enable IDE integration for users running in VS Code,skeshive,2025-08-05T20:26:46Z,2025-08-06T19:54:04+00:00,3,23.45,True,244,5,7,178,1,1,2,MERGED
+5609,Detect and warn about cyclic tool refs when schema depth errors are encountered,jakemac53,2025-08-05T20:22:22Z,2025-08-06T01:53:33+00:00,9,5.52,True,249,0,3,1529,3,3,6,MERGED
+5603,[ide-mode] Add support for in-IDE diff handling in the CLI,chrstnb,2025-08-05T19:39:39Z,2025-08-06T17:42:12+00:00,12,22.04,True,322,51,12,664,2,15,17,MERGED
+5601,fix: Restore user input when the user cancels response,shishu314,2025-08-05T18:30:29Z,2025-08-06T19:25:25+00:00,5,24.92,True,87,10,3,679,2,3,5,MERGED
+5593,fix: small typo in ROADMAP.md,jaegeral,2025-08-05T16:17:12Z,2025-08-05T19:09:26+00:00,4,2.87,True,1,1,1,45,1,1,2,MERGED
+5591,"Refactor IDE client state management, improve user-facing error messages, and add logging of connection events",skeshive,2025-08-05T16:01:01Z,2025-08-05T22:59:03+00:00,3,6.97,True,232,152,16,750,1,1,2,MERGED
+5576,chore(settings): clean up comments in settings.ts,gotgelf,2025-08-05T11:15:55Z,2025-08-05T19:15:36+00:00,3,7.99,True,1,2,1,221,0,0,0,MERGED
+5567,Fix(vim): Fix shell mode in Vim mode,justinmahood,2025-08-05T06:48:44Z,2025-08-05T23:35:06+00:00,5,16.77,True,80,5,2,1021,3,2,5,MERGED
+5564,Format Open Samsung GalaxyA06,Turkey115,2025-08-05T06:08:33Z,2025-08-09T03:40:06+00:00,2,93.53,False,3,8,1,210,3,1,4,CLOSED
+5552,"Remove the ""local modifications"" string from bug and about reports.",dewitt,2025-08-05T01:48:56Z,2025-08-05T04:07:19+00:00,3,2.31,True,0,6,1,346,1,0,1,MERGED
+5546,Fix incorrect error messages for IDE mode,skeshive,2025-08-05T00:02:16Z,2025-08-05T14:25:06+00:00,2,14.38,False,33,18,1,312,1,2,3,CLOSED
+5545,fix(mcp): ensure authorization url is valid when containing query params,davideast,2025-08-04T23:35:46Z,2025-08-05T18:49:38+00:00,3,19.23,True,114,10,2,1613,0,2,2,MERGED
+5541,refactor(core): refactor useCommandCompletion hook and optimize its performance,SandyTao520,2025-08-04T22:05:03Z,2025-08-06T02:02:22+00:00,2,27.96,False,468,373,2,3003,2,1,3,CLOSED
+5540,bug(core): Fix flaky test by using waitFor.,jacob314,2025-08-04T21:43:16Z,2025-08-05T22:01:58+00:00,4,24.31,True,17,10,1,159,1,0,1,MERGED
+5539,feat (cli): Add command search using Ctrl+r,Aisha630,2025-08-04T21:36:27Z,2025-09-15T18:01:50+00:00,18,1004.42,True,633,78,10,848,19,13,32,MERGED
+5536,Zed integration schema upgrade,agu-z,2025-08-04T21:06:04Z,2025-08-13T16:04:25+00:00,5,210.97,True,1283,744,24,1519,4,2,6,MERGED
+5529,feat(core): Parse Multimodal MCP Tool responses,luccasparoni,2025-08-04T19:58:27Z,2025-08-05T19:25:05+00:00,8,23.44,True,577,53,4,1952,2,3,5,MERGED
+5524,Use new URLs for downloading workflows,sethvargo,2025-08-04T18:17:42Z,2025-08-04T20:16:08+00:00,8,1.97,True,3,4,2,22,0,4,4,MERGED
+5522,Improve user-facing error messages for IDE mode,skeshive,2025-08-04T18:02:44Z,2025-08-04T21:11:34+00:00,6,3.15,True,43,54,5,26,1,3,4,MERGED
+5521,fix(docs): Fix code block delimiters in commands.md,studgeek,2025-08-04T17:53:51Z,2025-08-05T23:36:38+00:00,3,29.71,True,2,2,1,272,1,0,1,MERGED
+5514,Test edit modes compared to edit_modes,silviojr,2025-08-04T16:25:29Z,2025-09-12T13:50:30+00:00,2,933.42,False,91,1,2,190,1,2,3,CLOSED
+5513,Test edit modes,silviojr,2025-08-04T16:24:41Z,2025-09-12T13:50:38+00:00,2,933.43,False,579,65,7,165,2,3,5,CLOSED
+5508,fix(ui): Sanitize terminal output and preserve tabular layout in MaxSizedBox (#2286),busycaesar,2025-08-04T13:29:56Z,2025-08-05T23:22:20+00:00,2,33.87,False,115,2,1,1807,3,3,6,CLOSED
+5492,fix(core): Treat .mts files as TypeScript modules instead of video files,yashv6655,2025-08-04T04:26:57Z,2025-08-06T06:21:52+00:00,10,49.92,True,9,4,2,520,2,3,5,MERGED
+5491,Fix `/setup-github` command since the gemini-cli-action repo has moved,paramaggarwal,2025-08-04T04:24:20Z,2025-08-06T03:10:14+00:00,2,46.77,False,6,6,2,1181,1,1,2,CLOSED
+5488,feat(ui): Introduce useUI Hook and UIContext,Lyonk71,2025-08-04T02:36:57Z,2025-09-06T05:49:25+00:00,45,795.21,True,3435,3380,40,2414,1,29,30,MERGED
+5482,feat(cli):  Handle Punctuation in @ Command Parsing,SandyTao520,2025-08-03T22:23:40Z,2025-08-04T17:54:40+00:00,9,19.52,True,917,15,6,3581,1,6,7,MERGED
+5481,"feat(mcp): add `gemini mcp` commands for `add`, `remove` and `list`",jackwotherspoon,2025-08-03T22:07:54Z,2025-08-06T15:58:34+00:00,15,65.84,True,1082,155,10,4135,11,12,23,MERGED
+5479,feat: restart MCP servers on /mcp refresh,rmedranollamas,2025-08-03T21:27:17Z,2025-08-19T19:11:33+00:00,9,381.74,True,427,447,9,598,7,11,18,MERGED
+5475,feat(core): Add trailing space when completing an at completion suggestion,SandyTao520,2025-08-03T19:17:51Z,2025-08-04T18:36:48+00:00,4,23.32,True,14,9,2,1595,2,1,3,MERGED
+5470,fix(sandbox): Docker Image build twice with custom Dockerfile,dtometzki,2025-08-03T16:44:22Z,2025-08-22T19:31:22+00:00,6,458.78,False,2,4,1,614,3,2,5,CLOSED
+5467,docs(fix): Update themes documentation to include new color keys for…,ali-aljufairi,2025-08-03T15:13:45Z,2025-08-03T22:01:54+00:00,3,6.8,True,8,1,1,246,1,3,4,MERGED
+5465,"feat(vim): Support ""Undo"" Command in Vim Mode",talohana,2025-08-03T14:17:52Z,2025-08-03T17:32:51+00:00,2,3.25,False,25,8,5,1161,0,1,1,CLOSED
+5449,Add a setting to disable the version update nag message,bbiggs,2025-08-03T04:15:03Z,2025-08-03T18:26:14+00:00,3,14.19,True,15,0,3,581,0,1,1,MERGED
+5426,feat: have `/bug` copy over last prompt and response to GitHub issue,jackwotherspoon,2025-08-02T18:54:28Z,2025-09-12T04:45:19+00:00,4,969.85,False,335,8,7,2156,13,4,17,CLOSED
+5420,Update README.md,arindam0025,2025-08-02T16:35:31Z,2025-08-13T15:20:02+00:00,2,262.74,False,0,1,1,165,2,0,2,CLOSED
+5408,feat(docs): Add /chat delete command in commands.md,flowernotfound,2025-08-02T10:48:03Z,2025-08-05T22:03:38+00:00,3,83.26,True,3,0,1,78,0,0,0,MERGED
+5396,Feat/chinese translation,FlowerRealm,2025-08-02T03:15:18Z,2025-08-18T11:33:24+00:00,24,392.3,False,4403,9,80,911,33,25,58,CLOSED

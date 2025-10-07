@@ -149,3 +149,853 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 10659,doc(readme): add links to translated README versions,dowithless,2025-08-16T08:35:15Z,2025-08-18T13:39:35+00:00,1,53.07,True,10,0,1,1123,6,0,6,MERGED
 10656,feat(backend): implement low balance and insufficient funds notifications,ntindle,2025-08-15T19:06:43Z,2025-08-25T16:17:40+00:00,5,237.18,True,398,49,9,2418,14,6,20,MERGED
 10654,build(backend): Change base image to `debian:13-slim` w/ Python 3.13,Pwuts,2025-08-15T15:55:26Z,2025-08-20T19:51:09+00:00,7,123.93,True,103,29,6,934,7,1,8,MERGED
+10652,feat(frontend): new library agent view setup,0ubbe,2025-08-15T14:25:22Z,2025-08-19T12:24:53+00:00,1,93.99,True,2066,1337,25,631,8,0,8,MERGED
+10650,fix(frontend): remove console logs + prevent via lint rule,0ubbe,2025-08-15T11:33:56Z,2025-09-02T15:12:39+00:00,1,435.65,False,213,553,73,624,5,1,6,CLOSED
+10648,docs(frontend): update README with Docker instructions,0ubbe,2025-08-15T10:23:21Z,2025-08-15T14:45:30+00:00,2,4.37,True,42,15,1,408,4,2,6,MERGED
+10644,"fix(platform): fix admin dashboard credit tool search, pagination, and modal feedback issues",ntindle,2025-08-15T00:19:55Z,2025-08-15T18:16:48+00:00,3,17.95,True,33,13,7,1486,4,2,6,MERGED
+10642,feat(infra): Add Docker Compose watch configuration for development,ntindle,2025-08-14T19:07:18Z,2025-08-23T21:50:27+00:00,1,218.72,False,230,16,3,1999,9,1,10,CLOSED
+10641,feat(backend): add support for v0 by Vercel models and credentials,ntindle,2025-08-14T19:00:33Z,2025-08-15T06:13:49+00:00,2,11.22,True,80,0,6,2945,4,1,5,MERGED
+10639,feat(docker): streamline Supabase to minimal essential services,majdyz,2025-08-13T23:09:51Z,2025-08-14T05:04:41+00:00,3,5.91,True,18,73,2,2197,7,0,7,MERGED
+10635,fix(backend/AM): Fix AutoMod api key issue,Bentlybro,2025-08-13T11:11:01Z,2025-08-13T13:59:29+00:00,1,2.81,True,1,1,1,432,5,0,5,MERGED
+10634,fix(backend): resolve CloudLoggingHandler deadlock causing scheduler hangs,majdyz,2025-08-13T08:53:12Z,2025-08-13T13:34:32+00:00,1,4.69,True,17,3,1,4408,4,0,4,MERGED
+10633,feat(backend): add store meta blocks,ntindle,2025-08-13T04:01:12Z,2025-08-25T08:06:25+00:00,12,292.09,True,777,1,6,1913,10,11,21,MERGED
+10629,fix(marketplace): loading state,0ubbe,2025-08-12T14:03:45Z,2025-08-13T12:55:23+00:00,1,22.86,True,21,2,1,446,4,0,4,MERGED
+10628,feat(frontend): update settings form,0ubbe,2025-08-12T13:57:19Z,2025-08-13T15:09:08+00:00,2,25.2,True,748,487,14,882,4,0,4,MERGED
+10622,ref(infra): Supabase DB Docker env management and compose,ntindle,2025-08-11T23:43:17Z,2025-08-12T05:23:28+00:00,1,5.67,True,256,222,5,4298,3,0,3,MERGED
+10621,ref(backend):env config and docker-compose setup,ntindle,2025-08-11T22:08:42Z,2025-08-12T05:24:59+00:00,2,7.27,True,326,304,16,4819,13,1,14,MERGED
+10615,feat(platform/docker): add frontend service to docker-compose with env config improvements,majdyz,2025-08-11T13:32:42Z,2025-08-14T03:37:40+00:00,13,62.08,True,883,1239,41,3835,13,6,19,MERGED
+10596,test(frontend): add e2e test for profile form page,Abhi1992002,2025-08-11T05:30:33Z,2025-08-11T12:48:20+00:00,2,7.3,True,281,7,3,636,4,4,8,MERGED
+10595,feat(feature-flag): add LaunchDarkly user context and metadata support,majdyz,2025-08-11T04:28:04Z,2025-08-12T05:39:18+00:00,2,25.19,True,1026,130,17,5087,8,0,8,MERGED
+10588,ref(backend): update Gmail blocks to unify architecture and improve email handling,ntindle,2025-08-08T20:23:57Z,2025-08-13T02:27:10+00:00,2,102.05,True,507,284,1,2171,5,1,6,MERGED
+10587,fix(backend): Support dynamic values_#_* fields in CreateDictionaryBlock,ntindle,2025-08-08T19:45:36Z,2025-08-12T23:10:06+00:00,4,99.41,True,156,3,2,1634,5,1,6,MERGED
+10586,feat(backend): add more discord blocks support,ntindle,2025-08-08T16:58:42Z,2025-08-08T18:57:11+00:00,3,1.97,True,939,17,2,4378,4,0,4,MERGED
+10579,refactor(backend): separate notification service from scheduler,majdyz,2025-08-08T03:05:59Z,2025-08-08T07:07:42+00:00,3,4.03,True,64,15,7,1201,10,1,11,MERGED
+10576,ref(backend): time/date blocks to support ISO 8601 and custom formats,ntindle,2025-08-07T18:36:05Z,2025-08-07T22:44:08+00:00,2,4.13,True,216,15,2,2575,4,1,5,MERGED
+10575,feat(blocks): Add Anthropics new Claude Opus 4.1 model,Bentlybro,2025-08-07T14:28:06Z,2025-08-07T17:53:16+00:00,1,3.42,True,5,0,2,329,4,0,4,MERGED
+10574,feat(blocks): Add GPT-5 models to the platform,Bentlybro,2025-08-07T13:12:29Z,2025-08-07T17:34:20+00:00,1,4.36,True,15,0,2,544,5,0,5,MERGED
+10573,fix id not preserved through airtable oauth refresh,Swiftyos,2025-08-07T13:00:00Z,2025-08-07T14:44:36+00:00,1,1.74,True,1,0,1,958,4,0,4,MERGED
+10572,test(frontend): add e2e tests for agent dashboard page,Abhi1992002,2025-08-07T12:57:38Z,2025-08-08T07:38:57+00:00,1,18.69,True,195,8,8,533,4,0,4,MERGED
+10571,fix(frontend): marketplace top agents section,Abhi1992002,2025-08-07T12:50:24Z,2025-08-08T05:02:38+00:00,3,16.2,True,6,1,2,343,5,2,7,MERGED
+10570,dx(platform): simplify local supabase,Swiftyos,2025-08-07T12:25:40Z,2025-09-04T12:51:19+00:00,6,672.43,False,0,66,2,1347,11,5,16,CLOSED
+10568,fix(backend): add graph validation before scheduling recurring jobs,majdyz,2025-08-07T12:03:46Z,2025-08-08T05:50:01+00:00,5,17.77,True,106,30,2,3883,4,2,6,MERGED
+10566,fix(backend): resolve unclosed HTTP client session errors,majdyz,2025-08-07T10:59:46Z,2025-08-08T05:55:36+00:00,3,18.93,True,107,37,5,1588,4,1,5,MERGED
+10565,feat(installers): Update install scripts,Bentlybro,2025-08-07T09:06:35Z,2025-08-19T15:00:50+00:00,1,293.9,False,0,0,0,552,5,0,5,CLOSED
+10564,fix(backend): migrate notification service to fully async to resolve RabbitMQ connection issues,majdyz,2025-08-07T05:09:00Z,2025-08-07T08:33:39+00:00,1,3.41,True,193,158,10,3304,4,0,4,MERGED
+10561,feat(blocks): Add 5 additional GitHub Integration blocks,Swiftyos,2025-08-06T14:32:39Z,2025-08-08T15:29:14+00:00,12,48.94,True,1228,0,2,1164,7,3,10,MERGED
+10559,feat(blocks): Add OpenAI's new opensource models,Bentlybro,2025-08-06T10:38:32Z,2025-08-06T11:53:39+00:00,2,1.25,True,6,0,2,459,5,0,5,MERGED
+10556,fix(builder): Defer graph validation to backend,Pwuts,2025-08-05T15:05:59Z,2025-08-05T23:52:47+00:00,1,8.78,True,311,259,11,715,15,1,16,MERGED
+10555,fix(backend): clean up parsing a bit for gmail read,ntindle,2025-08-05T14:27:37Z,2025-08-05T18:40:34+00:00,2,4.22,True,4,4,1,350,11,2,13,MERGED
+10551,fix(backend): Fix Airtable API boolean type casting for string values,Swiftyos,2025-08-05T08:26:34Z,2025-08-05T13:34:42+00:00,1,5.14,True,41,18,1,1031,4,0,4,MERGED
+10548,chore(frontend/deps-dev): Bump the development-dependencies group across 1 directory with 16 updates,dependabot,2025-08-05T00:21:10Z,2025-08-15T11:57:54+00:00,1,251.61,True,502,460,2,26457,3,0,3,MERGED
+10545,feat(platform/dashboard): Enable editing for agent submissions,Abhi1992002,2025-08-04T17:34:13Z,2025-08-20T02:59:43+00:00,4,369.43,True,1219,142,30,1021,19,3,22,MERGED
+10540,feat(backend): migrate AgentExecutor from ProcessPoolExecutor to ThreadPoolExecutor,majdyz,2025-08-04T13:23:00Z,2025-08-07T08:44:01+00:00,1,67.35,True,56,60,1,1545,13,0,13,MERGED
+10539,feat(backend/AM): Integrate AutoMod content moderation,Bentlybro,2025-08-04T12:35:52Z,2025-08-11T09:49:19+00:00,10,165.22,True,531,10,10,2858,10,11,21,MERGED
+10538,refactor(backend): remove Ayrshare from execution & credentials manager,Swiftyos,2025-08-04T11:48:34Z,2025-08-04T13:48:12+00:00,2,1.99,True,79,68,17,1446,12,0,12,MERGED
+10537,feat(backend): Enable Ayrshare TikTok support,Swiftyos,2025-08-04T10:07:54Z,2025-08-08T14:14:11+00:00,1,100.1,True,17,17,2,509,9,0,9,MERGED
+10536,feat(docker): add frontend service to docker-compose with env config improvements,majdyz,2025-08-04T08:47:24Z,2025-08-07T08:44:01+00:00,3,71.94,True,280,350,18,2261,13,0,13,MERGED
+10533,fix(blocks): handle invalid or empty response from MusicGen model,mitanshhh,2025-08-03T13:58:22Z,2025-08-25T16:44:31+00:00,1,530.77,True,1,1,1,1894,7,0,7,MERGED
+10531,fix(blocks): handle invalid or empty response from MusicGen model,mitanshhh,2025-08-03T09:21:28Z,2025-08-03T11:01:52+00:00,2,1.67,False,10,10,2,1825,14,0,14,CLOSED
+10530,feat(frontend): Add reusable infinite scroll component for consistent pagination across frontend,Abhi1992002,2025-08-03T06:45:21Z,2025-08-04T06:00:47+00:00,1,23.26,True,165,71,5,1496,4,0,4,MERGED
+10528,feat(backend): add timeout guard for locked_transaction used for credit transactions,majdyz,2025-08-02T13:10:10Z,2025-08-02T15:41:43+00:00,1,2.53,True,29,15,2,837,5,0,5,MERGED
+10523,fix(frontend) : Update server-side mutator to bypass proxy,Abhi1992002,2025-08-01T18:04:46Z,2025-08-04T11:45:56+00:00,3,65.69,True,70,21,11,682,4,3,7,MERGED
+10522,feat: Avoid Rest & DatabaseManager service serving traffic when the db is not yet connected,majdyz,2025-08-01T16:18:20Z,2025-08-01T23:27:23+00:00,3,7.15,True,22,7,6,412,4,2,6,MERGED
+10521,feat(blocks): update exa websets implementation,Swiftyos,2025-08-01T14:59:19Z,2025-08-08T15:24:35+00:00,1,168.42,True,630,66,5,3468,13,0,13,MERGED
+10520,refactor(frontend): Update data fetching strategy in marketplace main page,Abhi1992002,2025-08-01T11:39:33Z,2025-08-01T15:37:26+00:00,1,3.96,True,976,96,22,670,4,0,4,MERGED
+10519,fix(platform/install): Replace Bash-specific lowercase syntax for POSIX compatibility,sergiopani,2025-08-01T09:11:06Z,2025-09-10T10:59:17+00:00,1,961.8,False,10,10,2,2184,15,0,15,CLOSED
+10518,feat(backend): Make agent graph execution retriable and its failure visible,majdyz,2025-08-01T08:17:55Z,2025-08-01T11:53:34+00:00,3,3.59,True,128,30,9,461,4,1,5,MERGED
+10517,fix(test): Enhance E2E test data script to include featured creators and agents,Abhi1992002,2025-08-01T06:46:38Z,2025-08-01T11:19:01+00:00,1,4.54,True,92,2,1,564,4,0,4,MERGED
+10515,fix(frontend): publish agent improvements,0ubbe,2025-07-31T15:58:00Z,2025-07-31T17:05:48+00:00,3,1.13,True,261,234,20,903,3,2,5,MERGED
+10513,feat(backend): optimize processing of queues in notif service,ntindle,2025-07-31T14:55:50Z,2025-07-31T17:26:31+00:00,1,2.51,True,165,49,2,1442,9,2,11,MERGED
+10494,feat(blocks): Add Firecrawl Integration for Web Scraping and Data Extraction,Swiftyos,2025-07-30T13:22:43Z,2025-07-31T09:58:18+00:00,1,20.59,True,457,1,10,1846,4,0,4,MERGED
+10491,fix(backend): Fix Google OAuth token revocation,Pwuts,2025-07-30T11:36:29Z,2025-07-30T12:47:39+00:00,2,1.19,True,28,17,1,393,4,0,4,MERGED
+10490,feat(backend/AM): Integrate AutoMod content moderation,Bentlybro,2025-07-30T11:21:42Z,2025-08-04T12:30:15+00:00,3,121.14,False,0,0,0,2746,14,13,27,CLOSED
+10488,fix(frontend): agent activity links (2),0ubbe,2025-07-30T10:58:10Z,2025-07-30T14:03:12+00:00,2,3.08,True,435,674,6,694,3,0,3,MERGED
+10487,feat(backend): Add AI-generated activity status for agent executions,majdyz,2025-07-30T10:47:00Z,2025-08-01T11:50:58+00:00,3,49.07,True,1288,2,9,1253,6,1,7,MERGED
+10486,feat(blocks): Add Wolfram Alpha LLM API Block,Swiftyos,2025-07-30T09:29:29Z,2025-07-30T11:16:30+00:00,1,1.78,True,64,0,3,1312,4,0,4,MERGED
+10485,feat(blocks): Add Airtable Integration with Base Management,Swiftyos,2025-07-30T08:47:49Z,2025-07-30T11:16:30+00:00,1,2.48,True,228,5,3,382,7,0,7,MERGED
+10483,fix(backend): Fix LLM blocks call tracking,majdyz,2025-07-30T04:14:20Z,2025-07-30T05:27:20+00:00,1,1.22,True,585,15,4,2377,4,0,4,MERGED
+10482,"feat(backend): add getting user profile, drafts, update send email to use mulitple to, cc, bcc",ntindle,2025-07-30T04:12:56Z,2025-07-30T08:50:44+00:00,6,4.63,True,506,107,2,2842,4,6,10,MERGED
+10481,feat(backend): Introduce http client refresh on repeated error,majdyz,2025-07-30T00:03:12Z,2025-07-30T01:31:53+00:00,2,1.48,True,651,18,4,355,4,0,4,MERGED
+10480,fix(frontend): agent activity sometimes broken links,0ubbe,2025-07-29T18:40:35Z,2025-07-30T08:35:33+00:00,1,13.92,True,50,37,3,524,3,0,3,MERGED
+10479,fix(frontend): publish agent modal refactor + improvements,0ubbe,2025-07-29T17:43:42Z,2025-07-31T13:51:54+00:00,6,44.14,True,2431,1370,41,1416,9,4,13,MERGED
+10475,feat(backend): improve gmail blocks,ntindle,2025-07-29T01:12:24Z,2025-07-29T04:13:47+00:00,2,3.02,True,30,12,2,425,4,0,4,MERGED
+10464,feat(blocks): Add WordPress integration with OAuth and create post block,Swiftyos,2025-07-28T14:00:06Z,2025-07-29T07:40:50+00:00,2,17.68,True,834,0,5,1612,5,7,12,MERGED
+10462,feat(frontend): agent activity improvements,0ubbe,2025-07-28T12:16:25Z,2025-07-29T16:31:57+00:00,1,28.26,True,491,150,12,2013,3,0,3,MERGED
+10459,fix(frontend/builder): Prevent bad graph reloads,Pwuts,2025-07-26T12:34:45Z,2025-07-26T15:27:40+00:00,4,2.88,True,102,111,1,625,8,2,10,MERGED
+10454,fix(backend): Ensure we only present working auth options on blocks,Swiftyos,2025-07-25T16:56:21Z,2025-07-29T17:36:21+00:00,46,96.67,True,324,156,15,1656,6,31,37,MERGED
+10453,fix(frontend): agent activity count + use links,0ubbe,2025-07-25T14:43:15Z,2025-07-28T12:17:06+00:00,4,69.56,False,135,66,5,1558,4,4,8,CLOSED
+10449,feat(backend): Avoid executor over-consuming messages when it's fully occupied,majdyz,2025-07-25T00:30:32Z,2025-07-28T23:19:02+00:00,1,94.81,True,123,15,3,570,6,0,6,MERGED
+10448,chore(backend/deps): Update 8 packages,dependabot,2025-07-25T00:06:59Z,2025-07-25T13:25:12+00:00,3,13.3,True,46,45,2,22485,3,1,4,MERGED
+10446,chore(frontend): ci caching + e2e test data script,0ubbe,2025-07-24T17:49:50Z,2025-07-24T19:26:05+00:00,1,1.6,True,48,2,3,395,3,0,3,MERGED
+10445,fix(frontend): socket logout handling,0ubbe,2025-07-24T16:05:42Z,2025-07-25T14:10:58+00:00,13,22.09,True,130,48,12,756,5,6,11,MERGED
+10441,feat(backend): Ensure json column value serializable & remove excessive transaction and locking ,majdyz,2025-07-24T05:58:21Z,2025-07-28T23:17:19+00:00,20,113.32,True,431,201,13,520,4,9,13,MERGED
+10440,fix(frontend): handle websocket connection on logout,0ubbe,2025-07-23T18:56:27Z,2025-07-24T07:45:35+00:00,2,12.82,True,107,16,4,1139,3,1,4,MERGED
+10439,feat(frontend): Add tests for publishing agent flow,Abhi1992002,2025-07-23T17:37:18Z,2025-07-30T03:54:30+00:00,3,154.29,False,116,2,7,571,4,1,5,CLOSED
+10437,feat(platform): Move DatabaseManager away from RestAPI as a standalone sevice,majdyz,2025-07-23T04:39:03Z,2025-07-23T13:37:26+00:00,8,8.97,True,16,22,5,368,6,2,8,MERGED
+10434,feat(frontend): Add marketplace agent page tests,Abhi1992002,2025-07-23T04:27:20Z,2025-08-04T06:06:42+00:00,1,289.66,True,125,3,3,610,7,0,7,MERGED
+10429,feat(frontend): Add marketplace creator page tests,Abhi1992002,2025-07-22T13:05:14Z,2025-08-01T15:39:06+00:00,1,242.56,True,84,1,3,574,6,0,6,MERGED
+10427,feat(frontend): Add main marketplace page tests and page object structure,Abhi1992002,2025-07-22T12:07:36Z,2025-08-01T06:54:22+00:00,5,234.78,True,293,1,4,1209,7,1,8,MERGED
+10425,feat(platform): Move NotificationManager service from rest-api pod to scheduler pod,majdyz,2025-07-21T23:39:06Z,2025-07-22T00:53:49+00:00,1,1.25,True,5,3,2,528,4,0,4,MERGED
+10422,refactor(frontend): improve LaunchDarkly provider initialization,ntindle,2025-07-21T20:12:30Z,2025-07-22T11:59:15+00:00,2,15.78,True,45,18,1,3251,13,0,13,MERGED
+10421,chore(libs/deps-dev): Bump ruff from 0.12.3 to 0.12.4 in /autogpt_platform/autogpt_libs in the development-dependencies group,dependabot,2025-07-21T19:49:23Z,2025-08-20T14:12:16+00:00,1,714.38,True,22,21,2,1896,6,0,6,MERGED
+10419,chore(frontend/deps-dev): Bump the development-dependencies group in /autogpt_platform/frontend with 9 updates,dependabot,2025-07-21T19:32:09Z,2025-07-23T11:51:57+00:00,1,40.33,True,527,497,2,1896,3,0,3,MERGED
+10418,feat(platform): Disable Trigger Setup through Builder,Pwuts,2025-07-21T17:24:18Z,2025-09-16T23:05:32+00:00,7,1373.69,True,185,198,15,1118,14,1,15,MERGED
+10417,ci(frontend): query generation on dev and ci check ,0ubbe,2025-07-21T16:23:04Z,2025-08-19T11:33:21+00:00,25,691.17,True,262,22493,346,627,16,16,32,MERGED
+10416,feat(frontend): agent activity dropdown,0ubbe,2025-07-21T16:04:36Z,2025-07-22T17:37:49+00:00,3,25.55,True,1112,100,27,1213,3,0,3,MERGED
+10415,feat(backend): Add thread safety to NodeExecutionProgress output handling,majdyz,2025-07-21T13:35:08Z,2025-07-22T01:23:36+00:00,2,11.81,True,15,8,2,1498,4,2,6,MERGED
+10414,fix(frontend): init LD on the client,0ubbe,2025-07-21T12:40:56Z,2025-07-21T13:47:51+00:00,3,1.12,True,12,4,3,671,4,0,4,MERGED
+10412,feat(backend): Add Missing FK indexes and remove unused & redundant indexes,majdyz,2025-07-21T08:23:06Z,2025-07-21T09:37:22+00:00,4,1.24,True,135,52,2,3775,5,2,7,MERGED
+10411,feat(backend): Add database index for improved query performance,Swiftyos,2025-07-21T07:07:54Z,2025-07-21T08:30:49+00:00,4,1.38,True,3,0,2,898,5,8,13,MERGED
+10410,fix: transfer NodeTextBoxInput to use local state to fix cursor jump,vickywane,2025-07-20T07:02:34Z,2025-07-24T18:46:21+00:00,3,107.73,True,11,3,2,633,14,2,16,MERGED
+10409,feat(backend): Register agent subgraphs as library entries during agent import,majdyz,2025-07-19T12:35:11Z,2025-07-21T12:06:57+00:00,2,47.53,True,82,48,5,505,4,2,6,MERGED
+10408,fix(frontend): launch darkly initialisation,0ubbe,2025-07-18T21:13:10Z,2025-07-19T05:54:23+00:00,1,8.69,True,5,21,1,346,3,0,3,MERGED
+10406,fix(backend): use admin route for store downloads,ntindle,2025-07-18T17:12:15Z,2025-07-18T21:12:03+00:00,1,4.0,True,3,3,2,423,7,0,7,MERGED
+10403,feat(backend): avoid using DatabaseManager when direct query is possible from the API layer,majdyz,2025-07-18T13:14:35Z,2025-07-18T23:30:09+00:00,2,10.26,True,21,20,4,509,4,3,7,MERGED
+10402,docs(blocks): Add AI/ML API integration guide and update LLM headers,D1m7asis,2025-07-18T12:02:43Z,2025-08-13T18:36:15+00:00,1,630.56,True,151,6,16,1546,10,0,10,MERGED
+10401,fix(platform): Fix service health check mechanism on app service,majdyz,2025-07-18T10:06:14Z,2025-07-18T13:55:10+00:00,1,3.82,True,27,3,3,474,8,0,8,MERGED
+10398,feat(frontend): beta blocks via launchdarkly + E2E improvements,0ubbe,2025-07-17T16:20:43Z,2025-07-18T19:35:12+00:00,3,27.24,True,253,305,18,891,4,1,5,MERGED
+10397,feat(frontend): hide captcha if verified,0ubbe,2025-07-17T12:07:46Z,2025-07-18T20:29:29+00:00,1,32.36,True,37,30,3,391,4,0,4,MERGED
+10395,feat(block;backend):  Truncate execution update payload on large data & Improve ReadSpreadsheetBlock performance,majdyz,2025-07-17T06:23:38Z,2025-07-17T16:15:21+00:00,5,9.86,True,316,68,10,1351,6,2,8,MERGED
+10393,feat(blocks): Add Excel support to ReadSpreadsheetBlock and introduced FileReadBlock,majdyz,2025-07-16T09:19:00Z,2025-07-16T12:11:40+00:00,1,2.88,True,310,28,6,2034,4,0,4,MERGED
+10389,chore(backend/deps): Bump the production-dependencies group across 1 directory with 4 updates,dependabot,2025-07-15T19:59:19Z,2025-07-17T03:35:19+00:00,1,31.6,True,19,19,2,8034,9,0,9,MERGED
+10388,refactor(frontend): e2e tests setup + speed + readability,0ubbe,2025-07-15T14:36:08Z,2025-07-17T10:14:26+00:00,3,43.64,True,963,822,28,1562,6,2,8,MERGED
+10387,chore(frontend/deps): Bump the production-dependencies group across 1 directory with 7 updates,dependabot,2025-07-15T11:06:53Z,2025-07-25T13:43:04+00:00,1,242.6,False,503,464,2,23670,12,0,12,CLOSED
+10386,chore(backend/deps-dev): Bump faker from 33.3.1 to 37.4.0 in /autogpt_platform/backend,dependabot,2025-07-14T21:45:19Z,2025-07-17T05:02:17+00:00,1,55.28,True,10,11,2,1438,14,0,14,MERGED
+10385,chore(frontend/deps-dev): Bump chromatic from 11.25.2 to 13.1.2 in /autogpt_platform/frontend,dependabot,2025-07-14T21:38:06Z,2025-07-15T11:01:01+00:00,1,13.38,True,9,9,2,1438,3,0,3,MERGED
+10384,chore(backend/deps): Bump websockets from 14.2 to 15.0.1 in /autogpt_platform/backend,dependabot,2025-07-14T21:18:13Z,2025-07-17T05:48:20+00:00,1,56.5,True,77,79,2,1438,16,0,16,MERGED
+10382,chore(frontend/deps-dev): Bump the development-dependencies group in /autogpt_platform/frontend with 4 updates,dependabot,2025-07-14T21:13:57Z,2025-07-15T11:02:06+00:00,1,13.8,True,60,54,2,11104,3,0,3,MERGED
+10379,chore(frontend/deps-dev): Bump @types/node from 22.15.30 to 24.0.13 in /autogpt_platform/frontend,dependabot,2025-07-14T21:08:15Z,2025-07-17T03:52:45+00:00,1,54.74,True,32,32,2,1438,7,0,7,MERGED
+10378,chore(backend/deps): Bump pinecone from 5.4.2 to 7.3.0 in /autogpt_platform/backend,dependabot,2025-07-14T21:04:14Z,2025-07-17T02:55:39+00:00,1,53.86,True,20,19,2,1438,9,0,9,MERGED
+10377,chore(frontend/deps): Bump dotenv from 16.5.0 to 17.2.0 in /autogpt_platform/frontend,dependabot,2025-07-14T20:52:11Z,2025-07-17T04:23:18+00:00,2,55.52,True,9,3,2,1438,4,0,4,MERGED
+10376,chore(libs/deps-dev): Bump ruff from 0.12.2 to 0.12.3 in /autogpt_platform/autogpt_libs in the development-dependencies group,dependabot,2025-07-14T20:47:40Z,2025-07-17T03:58:48+00:00,1,55.19,True,21,21,2,5928,4,0,4,MERGED
+10375,chore(backend/deps): Bump youtube-transcript-api from 0.6.3 to 1.1.1 in /autogpt_platform/backend,dependabot,2025-07-14T20:43:38Z,2025-07-17T17:01:24+00:00,2,68.3,True,16,24,3,1438,20,0,20,MERGED
+10373,chore(backend/deps-dev): Bump the development-dependencies group in /autogpt_platform/backend with 2 updates,dependabot,2025-07-14T20:35:28Z,2025-07-17T04:02:30+00:00,1,55.45,True,25,25,2,1896,17,0,17,MERGED
+10371,chore(libs/deps): Bump the production-dependencies group across 1 directory with 7 updates,dependabot,2025-07-14T20:19:42Z,2025-07-17T05:27:59+00:00,1,57.14,True,63,61,4,15377,8,0,8,MERGED
+10368,feat(tests): Add E2E test data creator script for comprehensive testing,Abhi1992002,2025-07-14T12:04:25Z,2025-07-17T15:58:39+00:00,2,75.9,True,646,0,2,772,5,0,5,MERGED
+10360,fix(docs): Updated Discord Badge in README for Better Visibility,MuhammadEhsan02,2025-07-12T14:58:30Z,2025-07-14T10:08:37+00:00,4,43.17,True,2,2,1,557,12,0,12,MERGED
+10357,fix(frontend): fix my agent count in the library,Abhi1992002,2025-07-12T11:29:29Z,2025-07-14T10:32:37+00:00,1,47.05,True,7,1,2,525,4,0,4,MERGED
+10355,test(frontend): e2e tests for library page,Abhi1992002,2025-07-12T05:38:05Z,2025-08-06T08:10:15+00:00,1,602.54,True,775,15,12,922,16,0,16,MERGED
+10354,fix(frontend): disable Cloudflare on Vercel previews,0ubbe,2025-07-11T14:54:46Z,2025-07-14T10:38:46+00:00,1,67.73,True,32,3,3,563,4,0,4,MERGED
+10352,feat(backend): Add ReverseListOrderBlock for reversing list element order,Swiftyos,2025-07-11T09:43:02Z,2025-07-21T09:48:30+00:00,2,240.09,True,28,0,1,1411,4,1,5,MERGED
+10350,feat(backend): Add BaaS integration blocks,Swiftyos,2025-07-11T09:21:42Z,2025-08-22T15:13:54+00:00,2,1013.87,True,435,0,4,1832,8,8,16,MERGED
+10349,feat(backend): Add Oxylabs web scraping API integration,Swiftyos,2025-07-11T09:20:10Z,2025-09-04T12:51:01+00:00,1,1323.51,False,851,0,3,1734,9,0,9,CLOSED
+10347,feat(docs): Add info about auto setup script to docs + readme,Bentlybro,2025-07-11T08:24:25Z,2025-07-15T17:52:28+00:00,9,105.47,True,39,5,4,161,5,5,10,MERGED
+10343,fix(backend): update and fix weekly summary email,ntindle,2025-07-10T21:51:08Z,2025-08-14T15:50:01+00:00,16,833.98,True,288,87,6,476,10,30,40,MERGED
+10342,fix(frontend): logout pages design adjustments,0ubbe,2025-07-10T19:16:46Z,2025-07-14T10:41:33+00:00,1,87.41,True,39,48,4,471,4,0,4,MERGED
+10341,feat(frontend): new navbar design,0ubbe,2025-07-10T16:46:11Z,2025-07-10T18:18:20+00:00,1,1.54,True,920,1513,32,622,4,0,4,MERGED
+10340,feat(backend): Integrate GCS file storage with automatic expiration for Agent File Input,majdyz,2025-07-10T15:52:56Z,2025-07-18T03:20:54+00:00,2,179.47,True,3906,2469,29,5608,23,0,23,MERGED
+10338,feat(blocks): Add Airtable Integration,Swiftyos,2025-07-10T11:47:12Z,2025-07-25T13:37:09+00:00,56,361.83,True,2543,15,22,5025,13,28,41,MERGED
+10337,feat(blocks): add Replicate model blocks,snehaoladri,2025-07-10T00:51:10Z,2025-07-18T04:31:32+00:00,17,195.67,True,222,46,5,1251,12,8,20,MERGED
+10335,platform(feat): Added many integrations,Swiftyos,2025-07-09T13:49:38Z,2025-07-11T10:19:31+00:00,2,44.5,False,20823,612,126,958,9,1,10,CLOSED
+10334,feat(frontend): change to use Sonner toast,0ubbe,2025-07-09T11:56:40Z,2025-07-09T17:30:34+00:00,1,5.57,True,429,418,36,761,4,0,4,MERGED
+10332,feat(backend): Add block error rate monitoring and Discord alerts,majdyz,2025-07-09T03:40:35Z,2025-07-10T22:07:40+00:00,1,42.45,True,567,88,13,1991,18,0,18,MERGED
+10328,fix(backend): Include node execution steps and cost of sub-graph execution,majdyz,2025-07-08T17:40:30Z,2025-07-14T09:12:51+00:00,8,135.54,True,40,27,4,1185,12,3,15,MERGED
+10324,feat(blocks): replicate block,snehaoladri,2025-07-07T23:49:20Z,2025-07-10T01:48:01+00:00,1,49.98,False,1036414,709,3687,3006,16,3,19,CLOSED
+10323,feat(platform/builder): Builder credentials support + UX improvements,Pwuts,2025-07-07T22:08:20Z,2025-07-11T15:59:35+00:00,21,89.85,True,1325,1641,35,2279,33,14,47,MERGED
+10322,chore(frontend/deps-dev): Bump the development-dependencies group in /autogpt_platform/frontend with 11 updates,dependabot,2025-07-07T20:52:39Z,2025-07-08T21:22:00+00:00,1,24.49,True,961,1007,2,9870,6,0,6,MERGED
+10321,chore(frontend/deps): Bump the production-dependencies group across 1 directory with 12 updates,dependabot,2025-07-07T20:04:00Z,2025-07-09T09:58:08+00:00,1,37.9,True,230,237,2,1896,6,0,6,MERGED
+10317,fix(backend): Improve GitHub PR URL validation and API URL generation,seer-by-sentry,2025-07-07T16:08:11Z,2025-09-05T06:48:31+00:00,2,1430.67,True,6,5,1,960,10,0,10,MERGED
+10316,fix(backend/library): Fix `sub_graphs` check in `LibraryAgent.from_db(..)`,Pwuts,2025-07-07T10:45:17Z,2025-07-10T08:05:05+00:00,1,69.33,True,1,1,1,458,4,0,4,MERGED
+10315,feature(frontend): agent notifications,0ubbe,2025-07-07T09:57:32Z,2025-07-21T16:01:05+00:00,2,342.06,False,2686,540,41,1513,13,1,14,CLOSED
+10314,feat(frontend): logged out pages UI updates,0ubbe,2025-07-07T09:24:20Z,2025-07-10T18:39:09+00:00,4,81.25,True,1025,774,32,963,4,3,7,MERGED
+10312,fix(frontend): auth e2e tests,Abhi1992002,2025-07-05T06:11:46Z,2025-07-07T13:23:48+00:00,1,55.2,True,644,7,9,2844,11,0,11,MERGED
+10311,fix(frontend): fix agent run details view,0ubbe,2025-07-04T13:36:44Z,2025-07-07T13:53:51+00:00,1,72.29,True,20,16,2,541,9,0,9,MERGED
+10309,feat(platform/library): Support UX for manual-setup triggers,Pwuts,2025-07-04T10:44:16Z,2025-09-02T10:33:59+00:00,6,1439.83,True,249,125,17,879,11,2,13,MERGED
+10308,fix(frontend/library): Support number values in empty input check,Pwuts,2025-07-04T10:36:44Z,2025-07-04T12:41:55+00:00,1,2.09,True,8,1,1,372,4,0,4,MERGED
+10306,security(platform): Add oscp stapling to requests,Swiftyos,2025-07-04T08:59:24Z,2025-07-04T14:26:43+00:00,2,5.46,False,341,7,2,2954,8,1,9,CLOSED
+10305,fix(frontend): better proxy error logging,0ubbe,2025-07-04T08:05:42Z,2025-07-07T13:53:51+00:00,4,77.8,True,18,7,3,401,4,1,5,MERGED
+10303,fix(frontend): password reset via server callback,0ubbe,2025-07-03T17:09:28Z,2025-07-04T12:25:34+00:00,3,19.27,True,106,10,5,1707,5,1,6,MERGED
+10301,fix(backend/library): Include subgraphs in `get_library_agent`,Pwuts,2025-07-03T14:59:58Z,2025-07-04T10:45:29+00:00,1,19.76,True,17,5,2,333,5,0,5,MERGED
+10296,fix(frontend): proxy via API route no actions,0ubbe,2025-07-03T09:46:31Z,2025-07-03T15:35:09+00:00,2,5.81,True,154,32,3,1370,4,1,5,MERGED
+10294,feat(backend): implement KV data storage blocks,majdyz,2025-07-02T23:50:04Z,2025-07-03T14:41:50+00:00,6,14.86,True,254,14,7,1405,4,3,7,MERGED
+10291,fix: redirect agent uploads to specific agent page and update tests,ntindle,2025-07-02T18:29:29Z,2025-07-07T04:33:29+00:00,1,106.07,False,4,4,1,742,5,0,5,CLOSED
+10289,fix(frontend): do not swallow errors on the proxy,0ubbe,2025-07-02T13:37:36Z,2025-07-02T14:42:53+00:00,1,1.09,True,48,3,2,471,4,0,4,MERGED
+10288,fix(frontend): onboarding runtime error,0ubbe,2025-07-02T12:53:58Z,2025-07-02T14:29:25+00:00,2,1.59,True,39,18,1,810,4,0,4,MERGED
+10287,feat(block): Enhance Mem0 blocks filetering & add more GoogleSheets blocks,majdyz,2025-07-01T22:53:17Z,2025-07-03T18:18:09+00:00,2,43.41,True,1018,37,3,2262,5,6,11,MERGED
+10286,feat: optimize frontend CI with shared setup job ,souhailaS,2025-07-01T17:42:42Z,2025-07-02T10:16:53+00:00,1,16.57,True,75,3,1,1255,5,0,5,MERGED
+10283,feat(backend): Support aiohttp.BasicAuth in `make_request`,seer-by-sentry,2025-07-01T08:17:50Z,2025-07-01T13:30:05+00:00,3,5.2,True,4,0,1,1173,12,0,12,MERGED
+10277,chore(frontend/deps-dev): Bump the development-dependencies group in /autogpt_platform/frontend with 9 updates,dependabot,2025-06-30T20:39:47Z,2025-07-01T06:46:08+00:00,1,10.11,True,667,538,2,1896,3,0,3,MERGED
+10268,feat(docs): update README.md to show how new data fetching works,Abhi1992002,2025-06-30T11:56:12Z,2025-06-30T13:05:07+00:00,3,1.15,True,138,0,1,367,3,1,4,MERGED
+10266,feat(frontend): use the new set up on library data fetching client,Abhi1992002,2025-06-30T09:20:36Z,2025-06-30T12:24:45+00:00,2,3.07,True,470,404,20,413,4,0,4,MERGED
+10265,feat(frontend): update data fetching strategy and restructure dashboard page,Abhi1992002,2025-06-30T04:24:31Z,2025-07-08T13:38:29+00:00,1,201.23,True,282,239,10,1188,6,0,6,MERGED
+10262,[docs] Diagram representation of the AutoGPT project,ivanmilevtues,2025-06-28T21:42:10Z,2025-09-09T05:48:45+00:00,1,1736.11,False,1457,0,7,1786,6,0,6,CLOSED
+10261,feat(blocks): add data manipulation blocks and refactor basic.py,Torantulino,2025-06-27T20:26:41Z,2025-07-03T20:20:13+00:00,2,143.89,True,656,392,3,2704,5,1,6,MERGED
+10260,fix(backend): Avoid swallowing exception on graph execution failure,majdyz,2025-06-27T19:09:27Z,2025-06-30T21:26:32+00:00,7,74.28,True,184,39,5,674,5,3,8,MERGED
+10258,fix(backend): Convert pyclamd to aioclamd for anti-virus scan concurrency improvement,majdyz,2025-06-27T17:24:46Z,2025-06-30T21:26:32+00:00,5,76.03,True,179,114,5,795,8,2,10,MERGED
+10254,feat(frontend): add dialog component,0ubbe,2025-06-27T12:04:13Z,2025-06-27T17:25:23+00:00,2,5.35,True,643,0,14,1988,3,1,4,MERGED
+10253,fix(frontend): design system feedback,0ubbe,2025-06-27T11:18:58Z,2025-06-30T10:14:19+00:00,1,70.92,True,259,190,6,699,4,1,5,MERGED
+10252,feat(block): Introduce context-window aware prompt compaction for LLM & SmartDecision blocks ,majdyz,2025-06-27T02:32:26Z,2025-06-27T15:23:07+00:00,3,12.84,True,236,29,6,1544,4,1,5,MERGED
+10251,feat(block): Add enriching email feature for SearchPeopleBlock & introduce GetPersonDetailBlock,majdyz,2025-06-26T18:07:42Z,2025-06-26T20:28:54+00:00,1,2.35,True,297,91,5,352,5,0,5,MERGED
+10250,refactor(frontend): move sub-components to the `/app` folder,0ubbe,2025-06-26T16:41:25Z,2025-07-01T14:12:21+00:00,2,117.52,False,1163,1222,47,780,8,1,9,CLOSED
+10249,chore(frontend/deps-dev): Bump the development-dependencies group across 1 directory with 14 updates,dependabot,2025-06-26T13:47:44Z,2025-06-27T10:36:21+00:00,1,20.81,True,320,184,2,1896,3,0,3,MERGED
+10248,refactor(frontend): update settings pages fetching using react query,Abhi1992002,2025-06-26T09:20:57Z,2025-06-26T15:30:07+00:00,2,6.15,True,743,452,13,404,3,3,6,MERGED
+10246,feat(platform/library): Scheduling UX,Pwuts,2025-06-25T22:01:21Z,2025-06-27T15:47:04+00:00,9,41.76,True,1090,803,25,2028,134,8,142,MERGED
+10244,feat(frontend): add Badge component,0ubbe,2025-06-25T16:36:37Z,2025-06-26T05:37:05+00:00,1,13.01,True,193,0,3,327,4,1,5,MERGED
+10243,dx(frontend): add unit tests for components ,0ubbe,2025-06-25T16:09:25Z,2025-07-04T15:38:53+00:00,8,215.49,False,2038,492,21,1929,9,2,11,CLOSED
+10242,chore(backend/deps): Bump the production-dependencies group across 1 directory with 20 updates,dependabot,2025-06-25T16:02:42Z,2025-07-08T19:37:14+00:00,1,315.58,True,216,189,2,1896,7,0,7,MERGED
+10235,chore(frontend): setup chromatic,0ubbe,2025-06-25T09:47:32Z,2025-06-25T14:10:56+00:00,2,4.39,True,28,2702,32,628,6,1,7,MERGED
+10232,feat(backend): Add ClamAV support for anti-virus scan on file upload to the platform,majdyz,2025-06-25T00:59:51Z,2025-06-25T15:47:02+00:00,12,14.79,True,574,4,12,515,4,4,8,MERGED
+10230,fix(backend/library): Fix library breakage for manual-setup triggered agents,Pwuts,2025-06-24T21:28:32Z,2025-06-24T22:51:42+00:00,2,1.39,True,2,2,2,481,8,0,8,MERGED
+10222,feat(platform): centralize api calls in nextjs for token handling,Abhi1992002,2025-06-24T16:38:29Z,2025-06-30T08:45:36+00:00,2,136.12,True,280,75,15,1420,15,1,16,MERGED
+10220,fix(backend/library): Split & fix `update_library_agent` endpoint,Pwuts,2025-06-24T15:37:35Z,2025-06-25T09:08:22+00:00,1,17.51,True,117,39,8,573,13,0,13,MERGED
+10218,feat(platform/builder): Hide action buttons on triggered graphs,Pwuts,2025-06-24T13:12:49Z,2025-06-30T08:49:17+00:00,1,139.61,True,210,117,8,786,10,0,10,MERGED
+10215,feat(platform): Add Host-scoped credentials support for blocks HTTP requests,majdyz,2025-06-24T04:30:19Z,2025-06-26T19:25:09+00:00,40,62.91,True,1981,599,69,610,12,24,36,MERGED
+10210,fix(blocks): Fix Image input on AIImageEditorBlock to accept relative path file media,majdyz,2025-06-23T17:30:58Z,2025-06-24T20:51:28+00:00,1,27.34,True,42,16,4,442,4,0,4,MERGED
+10209,feat(platform): setup and configure orval,Abhi1992002,2025-06-23T06:14:01Z,2025-06-24T14:18:25+00:00,2,32.07,True,7737,68,21,1308,15,4,19,MERGED
+10208,feat(frontend): improve cookie config,0ubbe,2025-06-22T17:15:19Z,2025-06-25T09:26:20+00:00,3,64.18,False,41,25,6,786,8,2,10,CLOSED
+10206,fix(backend): test data script,0ubbe,2025-06-22T16:38:40Z,2025-06-25T09:14:34+00:00,1,64.6,True,12,5,1,764,4,0,4,MERGED
+10205,fix(frontend): make FE CI faster,0ubbe,2025-06-22T16:31:08Z,2025-07-02T13:03:39+00:00,1,236.54,False,142,28,4,1704,10,1,11,CLOSED
+10202,"docs(frontend, backend): add OAuth security boundary docs",ntindle,2025-06-20T14:58:39Z,2025-06-26T18:23:19+00:00,2,147.41,True,470,0,2,1754,4,2,6,MERGED
+10201,feat(frontend): enforce auth through httpOnly cookies,0ubbe,2025-06-20T12:05:24Z,2025-06-26T13:41:40+00:00,2,145.6,True,888,301,16,1557,8,0,8,MERGED
+10200,feat(backend): add custom openapi generator,Abhi1992002,2025-06-20T07:29:36Z,2025-06-20T13:47:22+00:00,1,6.3,True,30,0,1,1036,7,0,7,MERGED
+10199,feat(block): Enable cloud Apollo integration cost,majdyz,2025-06-20T04:25:44Z,2025-06-20T15:33:48+00:00,2,11.13,True,27,0,1,278,4,1,5,MERGED
+10198,feat(blocks): Improve SmartDecisionBlock & AIStructuredResponseGeneratorBlock,majdyz,2025-06-20T01:50:29Z,2025-06-20T14:30:05+00:00,1,12.66,True,117,61,8,586,6,0,6,MERGED
+10197,fix(blocks): Fix broken Apollo Blocks,majdyz,2025-06-19T20:24:35Z,2025-06-20T05:29:58+00:00,1,9.09,True,108,87,5,429,4,0,4,MERGED
+10196,feat(frontend): Add cool Input component,0ubbe,2025-06-19T15:11:20Z,2025-06-19T16:20:53+00:00,1,1.16,True,344,0,4,2177,5,0,5,MERGED
+10194,feat(frontend): Add React Query DevTools and ESLint Rules,Abhi1992002,2025-06-19T13:05:43Z,2025-06-19T16:08:23+00:00,2,3.04,True,67,10,6,1254,8,1,9,MERGED
+10192,docs(frontend): new Button component + stories,0ubbe,2025-06-19T09:45:13Z,2025-06-19T10:57:22+00:00,1,1.2,True,635,25,14,569,4,0,4,MERGED
+10191,"fix(frontend): Update Schedule Task's default value to ""daily""",Bentlybro,2025-06-19T06:08:38Z,2025-06-19T07:30:17+00:00,1,1.36,True,3,3,1,425,5,0,5,MERGED
+10190,feat(frontend): Add React Query for Data Fetching,Abhi1992002,2025-06-19T05:23:40Z,2025-06-19T12:23:48+00:00,1,7.0,True,70,11,4,1060,6,0,6,MERGED
+10189,fix(backend): Add graph_id path parameter to fix automatic client generation from OpenAPI spec ,Abhi1992002,2025-06-19T04:00:54Z,2025-06-19T05:51:14+00:00,2,1.84,True,1,1,1,566,4,0,4,MERGED
+10186,docs(frontend): document new color tokens,0ubbe,2025-06-18T15:57:02Z,2025-06-19T05:51:14+00:00,1,13.9,True,412,2,3,355,4,0,4,MERGED
+10183,feat(backend): Add request retry on block execution and RPC,majdyz,2025-06-17T19:08:09Z,2025-06-17T21:18:29+00:00,1,2.17,True,114,28,6,545,5,0,5,MERGED
+10182,fix(frontend): fix all lint errors and add next/typescript,0ubbe,2025-06-17T11:58:08Z,2025-06-17T14:43:28+00:00,1,2.76,True,219,348,89,2094,6,0,6,MERGED
+10179,refactor(frontend): upgrade to Storybook 9,0ubbe,2025-06-17T09:49:21Z,2025-06-18T10:49:35+00:00,2,25.0,True,365,6579,80,680,9,1,10,MERGED
+10178,chore(libs/deps-dev): Bump ruff from 0.11.10 to 0.11.13 in /autogpt_platform/autogpt_libs in the development-dependencies group,dependabot,2025-06-16T19:13:53Z,2025-07-09T04:14:42+00:00,1,537.01,True,25,25,2,5509,6,0,6,MERGED
+10177,"chore(backend/deps, libs/deps): Bump redis from 5.2.x to 6.2.0",dependabot,2025-06-16T19:09:33Z,2025-07-25T14:25:09+00:00,1,931.26,True,26,24,4,4739,10,0,10,MERGED
+10175,chore(libs/deps): Bump pytest-asyncio from 0.26.0 to 1.0.0 in /autogpt_platform/autogpt_libs,dependabot,2025-06-16T19:07:08Z,2025-07-17T04:40:09+00:00,1,729.55,True,89,14,4,3415,6,0,6,MERGED
+10173,chore(backend/deps-dev): Bump the development-dependencies group across 1 directory with 4 updates,dependabot,2025-06-16T18:55:44Z,2025-07-08T20:14:49+00:00,1,529.32,True,35,35,2,7439,13,0,13,MERGED
+10167,feat(platform/library): Triggered-agent support,Pwuts,2025-06-16T16:16:45Z,2025-06-24T20:42:33+00:00,11,196.43,True,1813,603,35,3285,74,3,77,MERGED
+10166,fix(backend): Unbreak `add_store_agent_to_library`,Pwuts,2025-06-16T12:46:33Z,2025-06-17T11:11:41+00:00,1,22.42,True,5,5,1,496,8,0,8,MERGED
+10161,fix(frontend): don't let other people look at our cookies,ntindle,2025-06-13T18:50:46Z,2025-06-22T17:37:55+00:00,6,214.79,False,324,27,7,1265,25,1,26,CLOSED
+10160,feat(backend): cache control headers,ntindle,2025-06-13T18:36:20Z,2025-06-20T14:35:54+00:00,5,163.99,True,257,1,5,1572,14,1,15,MERGED
+10159,fix(platform/backend): skip invalid graphs when listing in block menu,Torantulino,2025-06-13T16:04:58Z,2025-06-16T08:16:06+00:00,2,64.19,True,4,1,1,1366,5,0,5,MERGED
+10155,docs(frontend): document spacing tokens,0ubbe,2025-06-13T14:22:58Z,2025-06-13T15:25:59+00:00,1,1.05,True,276,0,2,324,4,0,4,MERGED
+10152,frontend: fix Next.js 15 cookies API compatibility and React rendering issues,AmeyKuradeAK,2025-06-12T15:32:37Z,2025-09-09T05:46:20+00:00,1,2126.23,False,607,131,10,3498,9,6,15,CLOSED
+10150,feat(frontend): handle cross-tab login/logout + auth architecture refactor,0ubbe,2025-06-11T15:41:35Z,2025-06-13T15:43:54+00:00,3,48.04,True,286,130,28,1568,9,2,11,MERGED
+10148,[Snyk] Security upgrade requests from 2.31.0 to 2.32.4,ntindle,2025-06-11T07:01:20Z,2025-06-16T15:16:48+00:00,1,128.26,True,1,0,1,1246,6,0,6,MERGED
+10145,feat(blocks): Drop the price of chatgpt o3 model,Bentlybro,2025-06-10T19:18:57Z,2025-06-10T23:46:00+00:00,1,4.45,True,1,1,1,384,5,0,5,MERGED
+10144,feat(blocks): add veo3 to ai video generator,Bentlybro,2025-06-10T19:16:09Z,2025-06-10T23:46:16+00:00,1,4.5,True,3,0,1,434,5,0,5,MERGED
+10143,fix(frontend): account menu still showing after logout,0ubbe,2025-06-10T14:37:32Z,2025-06-11T05:07:11+00:00,10,14.49,True,45,10,1,1040,8,2,10,MERGED
+10142,feat(executor): Improve execution ordering to allow depth-first execution,majdyz,2025-06-10T08:56:42Z,2025-06-10T12:56:33+00:00,1,4.0,True,61,43,3,497,6,0,6,MERGED
+10139,fix(frontend): Fix builder UI glitch,majdyz,2025-06-10T04:07:00Z,2025-06-10T06:05:08+00:00,1,1.97,True,71,60,6,920,5,0,5,MERGED
+10138,feat(backend): Make execution engine async-first,majdyz,2025-06-10T03:54:15Z,2025-06-17T09:52:28+00:00,3,173.97,True,2243,1809,153,564,10,1,11,MERGED
+10137,chore(frontend/deps-dev): Bump @chromatic-com/storybook from 3.2.4 to 3.2.6 in /autogpt_platform/frontend,dependabot,2025-06-09T18:01:43Z,2025-06-10T12:04:38+00:00,1,18.05,True,6,6,2,3202,3,0,3,MERGED
+10135,chore(frontend/deps-dev): Bump the development-dependencies group in /autogpt_platform/frontend with 5 updates,dependabot,2025-06-09T17:49:21Z,2025-06-10T16:14:28+00:00,2,22.42,True,102,101,2,4762,6,0,6,MERGED
+10134,chore(frontend/deps): Bump @hookform/resolvers from 3.10.0 to 5.1.1 in /autogpt_platform/frontend,dependabot,2025-06-09T17:43:51Z,2025-06-10T16:05:43+00:00,1,22.36,True,13,7,2,2746,3,0,3,MERGED
+10133,chore(frontend/deps): Bump the production-dependencies group in /autogpt_platform/frontend with 3 updates,dependabot,2025-06-09T17:38:27Z,2025-06-11T11:27:38+00:00,1,41.82,True,102,90,2,6540,3,0,3,MERGED
+10132,feat(frontend): document typography tokens + Text component,0ubbe,2025-06-09T13:14:00Z,2025-06-10T15:21:50+00:00,7,26.13,True,475,8,9,1139,5,8,13,MERGED
+10128,feat(backend): Blocks Menu redesign backend,kcze,2025-06-09T09:10:20Z,2025-08-26T02:33:36+00:00,13,1865.39,True,1206,29,16,1062,28,7,35,MERGED
+10125,fix(frontend): avoid Sentry initialisation and warnings on local dev,0ubbe,2025-06-06T11:41:36Z,2025-06-10T10:35:50+00:00,1,94.9,True,78,57,5,2030,6,0,6,MERGED
+10124,fix(frontend): cookies console warnings ,0ubbe,2025-06-06T10:15:55Z,2025-06-06T11:39:47+00:00,4,1.4,True,22,18,9,559,6,2,8,MERGED
+10123,"feat(backend, frontend): make changes to use our security modules more effectively",ntindle,2025-06-05T21:01:54Z,2025-06-16T15:36:44+00:00,11,258.58,True,312,102,36,439,13,4,17,MERGED
+10120,fix(frontend): hydration warning,0ubbe,2025-06-05T13:27:25Z,2025-06-05T17:29:18+00:00,5,4.03,True,232,230,4,754,9,2,11,MERGED
+10119,fix(frontend): Run CSS/JS Formatter,majdyz,2025-06-05T13:26:27Z,2025-06-06T10:52:07+00:00,1,21.43,False,0,0,0,204,6,0,6,CLOSED
+10117,feat(platform): allow to signin with Google,0ubbe,2025-06-05T12:52:09Z,2025-06-09T14:38:16+00:00,7,97.77,True,364,188,10,872,19,5,24,MERGED
+10115,dx: Fix file filter for `platform/backend` auto-label,Pwuts,2025-06-05T12:03:42Z,2025-06-05T16:03:38+00:00,1,4.0,True,3,2,1,88,4,0,4,MERGED
+10113,fix(profile): account menu layout and alignment,0ubbe,2025-06-05T11:29:07Z,2025-06-05T12:39:49+00:00,3,1.18,True,9,9,1,517,6,1,7,MERGED
+10105,chore(frontend/deps-dev): Bump eslint-plugin-storybook from 0.11.6 to 0.12.0 in /autogpt_platform/frontend,dependabot,2025-06-05T05:18:59Z,2025-06-05T08:09:35+00:00,1,2.84,True,7,94,2,2797,3,0,3,MERGED
+10104,chore(frontend/deps-dev): Bump chromatic from 11.29.0 to 12.1.0 in /autogpt_platform/frontend,dependabot,2025-06-05T05:17:24Z,2025-07-14T21:38:10+00:00,1,952.35,False,9,9,2,2971,10,1,11,CLOSED
+10103,fix(frontend): Resolve perpetual loading state on password reset,Pwuts,2025-06-04T23:19:54Z,2025-06-05T09:37:13+00:00,2,10.29,True,0,2,1,308,5,0,5,MERGED
+10102,fix(frontend): Use `FRONTEND_BASE_URL` to make password reset link,Pwuts,2025-06-04T23:05:56Z,2025-06-05T16:03:23+00:00,6,16.96,True,4,7,2,679,11,1,12,MERGED
+10101,chore(backend): Tell Dependabot not to update Poetry,ntindle,2025-06-04T20:51:33Z,2025-06-04T22:50:01+00:00,3,1.97,True,4,0,1,74,5,1,6,MERGED
+10099,dx: Add Claude Code GitHub Workflow,ntindle,2025-06-04T19:07:31Z,2025-06-05T21:57:18+00:00,3,26.83,True,47,0,1,1585,8,1,9,MERGED
+10096,chore(backend/deps): Bump the production-dependencies group across 1 directory with 19 updates,dependabot,2025-06-04T15:52:17Z,2025-06-05T05:14:10+00:00,2,13.36,False,179,162,2,21179,8,1,9,CLOSED
+10089,docs(ollama): Update to add info on how to properly setup ollama environment variables,Bentlybro,2025-06-04T14:13:54Z,2025-06-06T11:01:29+00:00,1,44.79,True,79,7,1,468,4,0,4,MERGED
+10088,fix(github): dependabot config,0ubbe,2025-06-04T13:17:06Z,2025-06-04T17:36:19+00:00,1,4.32,True,1,1,1,527,4,0,4,MERGED
+10087,chore(frontend/deps): Bump the production-dependencies group across 1 directory with 5 updates,dependabot,2025-06-04T13:11:51Z,2025-06-04T17:23:22+00:00,2,4.19,True,100,94,2,12143,3,0,3,MERGED
+10086,chore(frontend/deps-dev): Bump the development-dependencies group across 1 directory with 3 updates,dependabot,2025-06-04T13:10:45Z,2025-06-04T18:27:40+00:00,1,5.28,True,252,152,2,5863,3,0,3,MERGED
+10084,perf(backend/db): Optimize StoreAgent and Creator views with database indexes and materialized views,Swiftyos,2025-06-04T11:39:21Z,2025-07-10T15:09:42+00:00,13,867.51,True,1906,81,13,1842,19,5,24,MERGED
+10082,feat(backend): Add nested dynamic pin-name support,majdyz,2025-06-03T13:14:19Z,2025-06-04T16:47:30+00:00,1,27.55,True,448,162,3,619,4,0,4,MERGED
+10081,fix(storybook): make font load in Stories,0ubbe,2025-06-03T13:02:21Z,2025-06-04T16:33:20+00:00,7,27.52,True,57,10,5,638,7,3,10,MERGED
+10079,chore(backend): Downgrade poetry to 2.1.1 for dependabot,Bentlybro,2025-06-02T19:16:04Z,2025-06-04T15:37:22+00:00,5,44.35,True,77,18,4,502,5,1,6,MERGED
+10076,chore(deps): Bump peter-evans/repository-dispatch from 2 to 3,dependabot,2025-06-02T17:49:55Z,2025-06-06T11:35:10+00:00,1,89.75,True,6,6,2,7301,3,0,3,MERGED
+10074,feat(platform): Add Block Development SDK with auto-registration system,Swiftyos,2025-06-02T13:01:39Z,2025-07-10T14:17:55+00:00,77,913.27,True,6180,611,72,4755,25,56,81,MERGED
+10073,fix(docs): comment out segment about video because we removed video,ntindle,2025-06-02T11:49:21Z,2025-06-02T14:49:49+00:00,1,3.01,True,1,1,1,172,4,0,4,MERGED
+10072,chore(frontend): move from yarn1 to pnpm,0ubbe,2025-06-02T11:23:15Z,2025-06-04T13:07:29+00:00,14,49.74,True,16598,12558,27,2021,12,7,19,MERGED
+10071,Fix Gmail body parsing for multipart messages (#9863),tejas-dharani,2025-06-02T08:34:37Z,2025-07-15T19:50:21+00:00,3,1043.26,True,306,13,4,3374,14,2,16,MERGED
+10066,feat(executor;frontend): Move output processing step from node executor to graph executor & simplify input beads calculation,majdyz,2025-05-30T17:49:15Z,2025-06-05T16:29:19+00:00,2,142.67,True,331,163,7,1443,4,1,5,MERGED
+10063,feat(platform/blocks): add AI Image Editor Block powered by flux kontext,Torantulino,2025-05-30T11:04:10Z,2025-06-02T21:10:18+00:00,2,82.1,True,231,0,4,2241,5,4,9,MERGED
+10061,feat(frontend): require passwrods to be min length 12,ntindle,2025-05-29T18:41:30Z,2025-05-30T15:40:23+00:00,4,20.98,True,6,6,2,273,4,1,5,MERGED
+10058,feat(blocks;frontend): Add file multipart upload support for SendWebRequestBlock & Improve key-value input UI rendering,majdyz,2025-05-28T15:05:43Z,2025-06-03T08:10:59+00:00,2,137.09,True,145,66,3,603,4,1,5,MERGED
+10056,fix(platform): Turnstile CAPTCHA reset after failed login attempts,Bentlybro,2025-05-28T10:53:06Z,2025-05-28T15:37:05+00:00,3,4.73,True,58,21,5,1794,3,2,5,MERGED
+10054,docs: add system requirements section to README,chojuninengu,2025-05-27T16:15:20Z,2025-06-02T15:05:03+00:00,1,142.83,True,29,2,1,1335,11,0,11,MERGED
+10051,docs: add system requirements section to README (#10050),chojuninengu,2025-05-27T07:17:31Z,2025-05-27T18:30:33+00:00,1,11.22,False,29,1282,2,1254,14,0,14,CLOSED
+10047,chore(libs/deps-dev): bump ruff from 0.11.10 to 0.11.11 in /autogpt_platform/autogpt_libs in the development-dependencies group,dependabot,2025-05-26T18:02:52Z,2025-06-11T14:46:53+00:00,1,380.73,False,21,21,2,4783,6,0,6,CLOSED
+10044,chore(frontend/deps): bump the production-dependencies group across 1 directory with 24 updates,dependabot,2025-05-26T17:59:10Z,2025-06-02T17:50:51+00:00,1,167.86,False,295,305,2,16072,4,0,4,CLOSED
+10042,feat(frontend): Upgrade to Next.js v15 + update config,Pwuts,2025-05-26T15:51:20Z,2025-06-04T16:35:31+00:00,6,216.74,True,491,320,21,1773,15,2,17,MERGED
+10039,feat(backend): snapshot test responses,Swiftyos,2025-05-26T09:40:46Z,2025-06-06T20:55:15+00:00,14,275.24,True,4917,1716,71,1832,21,11,32,MERGED
+10038,fix(platform): Optimise Query Indexes,Swiftyos,2025-05-26T09:33:37Z,2025-05-27T09:36:24+00:00,4,24.05,True,43,9,4,3859,6,1,7,MERGED
+10036,fix(platform): load env vars in docker compose,Bentlybro,2025-05-24T17:56:35Z,2025-08-25T14:18:49+00:00,3,2228.37,False,17,0,1,263,6,1,7,CLOSED
+10031,fix(frontend/marketplace): require category selection,itsababseh,2025-05-24T16:57:45Z,2025-05-27T15:13:43+00:00,1,70.27,True,14,6,2,597,6,0,6,MERGED
+10030,fix(backend): improve server error handling,Swiftyos,2025-05-23T20:49:04Z,2025-06-10T10:26:09+00:00,2,421.62,True,274,77,11,386,7,0,7,MERGED
+10029,refactor(frontend): streamline provider metadata management,Swiftyos,2025-05-23T20:40:55Z,2025-06-10T10:06:16+00:00,1,421.42,False,241,152,6,2343,7,1,8,CLOSED
+10028,feat(platform/backend): auto discover credentials in all block modules,Swiftyos,2025-05-23T20:30:06Z,2025-06-02T13:07:12+00:00,3,232.62,False,307,250,28,2836,5,5,10,CLOSED
+10027,feat(backend): setup logging utilities,Swiftyos,2025-05-23T20:04:10Z,2025-06-10T10:04:19+00:00,2,422.0,False,50,1,9,345,5,11,16,CLOSED
+10025,feat(backend): Speed up graph create/update,Pwuts,2025-05-22T21:24:36Z,2025-05-26T10:30:55+00:00,2,85.11,True,62,76,4,667,7,1,8,MERGED
+10023,"feat(frontend, backend): Publish Agent Dialog Agent List Pagination",ntindle,2025-05-22T20:25:31Z,2025-07-28T22:49:08+00:00,5,1610.39,True,264,73,8,352,19,7,26,MERGED
+10020,feat(blocks/exa): Fix Exa blocks error reporting,Pwuts,2025-05-22T19:56:04Z,2025-05-24T16:33:06+00:00,1,44.62,True,4,3,3,924,3,0,3,MERGED
+10017,fix(frontend): Fix login/logout actions; update credentials cache on state change,Pwuts,2025-05-22T16:20:05Z,2025-06-04T23:00:10+00:00,3,318.67,True,161,202,16,1189,20,1,21,MERGED
+10010,feat(frontend): Redirect from www. to root domain,Swiftyos,2025-05-22T15:04:00Z,2025-06-02T14:47:35+00:00,1,263.73,False,7,1,1,147,5,0,5,CLOSED
+10009,fix(blocks): Error messages from SendWebRequestBlock use the requested translated IP instead of the orignal URL,majdyz,2025-05-22T15:00:23Z,2025-05-22T16:01:54+00:00,2,1.03,True,7,0,1,346,6,0,6,MERGED
+10005,Fix Exa blocks handling of empty results,Swiftyos,2025-05-22T14:42:40Z,2025-05-24T16:19:35+00:00,1,49.62,False,15,7,3,627,5,0,5,CLOSED
+10003,dx(backend): Disable pre-commit `pytest` hooks,Pwuts,2025-05-22T14:32:42Z,2025-05-25T12:56:30+00:00,1,70.4,True,32,32,1,331,5,0,5,MERGED
+10002,fix(frontend): Top Agents header spacing,ograce1421,2025-05-22T14:23:28Z,2025-05-22T16:27:33+00:00,1,2.07,True,5,4,1,542,11,0,11,MERGED
+10001,fix(platform/backend): redis config default and logging call,ntindle,2025-05-22T14:15:05Z,2025-08-04T16:41:14+00:00,1,1778.44,False,1,1,1,1545,10,0,10,CLOSED
+9996,feat(blocks): Add AI/ML API support to LLM blocks,D1m7asis,2025-05-21T13:08:30Z,2025-06-11T18:01:47+00:00,13,508.89,True,77,0,11,960,25,10,35,MERGED
+9995,feat(frontend): Page-specific titles,Pwuts,2025-05-21T00:48:54Z,2025-05-25T06:08:16+00:00,2,101.32,True,39,13,12,974,7,0,7,MERGED
+9993,"feat(frontend/library): Replace ""Loading..."" by loading spinners",Pwuts,2025-05-20T22:30:04Z,2025-05-22T16:14:24+00:00,1,41.74,True,8,7,3,306,3,0,3,MERGED
+9991,ref(frontend/admin): fix location of spending page,ntindle,2025-05-20T16:51:13Z,2025-05-20T21:59:04+00:00,2,5.13,True,2,3,4,237,4,0,4,MERGED
+9989,fix(backend): Unbreak URL handling for GitHub blocks,Pwuts,2025-05-20T13:29:02Z,2025-05-20T23:12:16+00:00,1,9.72,True,126,93,3,349,4,0,4,MERGED
+9984,fix(backend): Include webhook block executions in `GraphExecution` queries,Pwuts,2025-05-19T22:52:39Z,2025-05-27T17:59:25+00:00,1,187.11,True,58,19,3,431,3,0,3,MERGED
+9970,fix(platform): Restore `See runs` button on marketplace listing page,kcze,2025-05-19T15:52:33Z,2025-05-28T07:45:12+00:00,1,207.88,True,8,3,3,680,3,0,3,MERGED
+9965,feat(blocks/gmail): add Gmail thread blocks,Torantulino,2025-05-18T07:30:02Z,2025-07-17T20:22:51+00:00,4,1452.88,True,426,14,3,1555,15,3,18,MERGED
+9963,Fix(frontend): Update StoreCard component to use `bg-background` instead of hardcoded `bg-white`,Torantulino,2025-05-17T21:29:31Z,2025-06-16T08:14:21+00:00,2,706.75,True,1,1,1,825,4,0,4,MERGED
+9962,feat(blocks/gmail): add Gmail thread blocks and docs,Torantulino,2025-05-17T20:13:06Z,2025-05-18T06:51:17+00:00,1,10.64,False,254,3,3,298,3,1,4,CLOSED
+9959,Add Gmail thread blocks and docs,Torantulino,2025-05-17T12:42:09Z,2025-05-17T20:16:13+00:00,1,7.57,False,248,2,3,220,3,1,4,CLOSED
+9953,chore(frontend/deps): Update 35 dependencies to latest minor versions,dependabot,2025-05-16T11:03:22Z,2025-05-16T13:28:40+00:00,1,2.42,True,643,1326,4,21804,3,0,3,MERGED
+9952,fix(backend): Graph execution update on terminate,Pwuts,2025-05-16T00:58:21Z,2025-05-19T21:15:40+00:00,2,92.29,True,19,11,3,782,3,1,4,MERGED
+9951,refactor(frontend): Move `OttoChatWidget` out of root layout,Pwuts,2025-05-16T00:26:28Z,2025-05-20T13:56:54+00:00,5,109.51,True,49,34,5,712,3,3,6,MERGED
+9949,feat(frontend/library): Show toast on WebSocket (dis|re)connect,Pwuts,2025-05-15T23:42:28Z,2025-05-19T21:17:06+00:00,8,93.58,True,140,40,11,1126,3,2,5,MERGED
+9948,fix(frontend/turnstile): Reset on failed login/register,Bentlybro,2025-05-15T21:36:55Z,2025-06-06T11:12:51+00:00,1,517.6,True,39,8,3,687,3,0,3,MERGED
+9946,feat(block): Add Ayrshare integration for social media posting,Swiftyos,2025-05-15T14:21:53Z,2025-07-25T13:46:02+00:00,73,1703.4,True,3883,13,34,6215,83,58,141,MERGED
+9945,updated code since lasst update,banga19,2025-05-15T10:05:50Z,2025-05-16T08:23:07+00:00,1,22.29,False,17349,17585,217,958,7,0,7,CLOSED
+9942,feat(blocks/exa): Add Exa Websets,Swiftyos,2025-05-14T14:29:34Z,2025-06-10T10:03:48+00:00,8,643.57,False,654,0,4,2055,5,5,10,CLOSED
+9940,fix(backend): Make URL pinning work with `extra_url_validator`,ntindle,2025-05-14T08:47:48Z,2025-05-15T13:36:25+00:00,6,28.81,True,19,21,2,587,4,3,7,MERGED
+9939,feat(backend): Truncate logging on NotificationManager and LLMBlocks,majdyz,2025-05-14T04:16:37Z,2025-05-14T19:41:53+00:00,3,15.42,True,62,33,4,334,4,1,5,MERGED
+9938,fix: Resolve `logger.warn(..)` deprecration warnings,emmanuel-ferdman,2025-05-13T22:00:00Z,2025-05-16T08:56:03+00:00,3,58.93,True,2,2,2,317,7,1,8,MERGED
+9937,feat(platform): Add `Run 10 agents` wallet task,kcze,2025-05-13T15:41:21Z,2025-05-28T07:57:07+00:00,6,352.26,True,111,26,12,1039,7,3,10,MERGED
+9935,fix(frontend): Re-subscribe on WebSocket re-connect,Pwuts,2025-05-13T12:32:58Z,2025-05-14T01:02:27+00:00,5,12.49,True,199,126,3,957,3,3,6,MERGED
+9933,refactor(frontend): Move from remote loaded GTM to local,ntindle,2025-05-13T11:25:04Z,2025-05-14T16:31:45+00:00,9,29.11,True,941,6,5,535,4,4,8,MERGED
+9932,fix(backend): Change library agents fetch sort from version to updatedAt,Torantulino,2025-05-13T06:57:39Z,2025-05-13T08:13:01+00:00,2,1.26,True,1,1,1,1301,4,0,4,MERGED
+9931,feat(blocks): Add more Revid.ai media generation blocks,Torantulino,2025-05-12T20:53:49Z,2025-06-27T06:55:45+00:00,11,1090.03,True,415,43,2,1912,17,9,26,MERGED
+9930,chore(backend/deps): Bump 18 dependencies to latest minor versions,dependabot,2025-05-12T18:20:32Z,2025-05-16T10:49:50+00:00,1,88.49,True,101,165,6,21702,6,0,6,MERGED
+9928,fix(backend): Unbreak existing Agent Executor nodes,Pwuts,2025-05-12T11:01:52Z,2025-05-12T12:04:37+00:00,1,1.05,True,9,0,1,362,3,0,3,MERGED
+9927,feat(backend): send emails daily instead of hourly,ntindle,2025-05-12T09:38:37Z,2025-05-12T18:48:48+00:00,1,9.17,True,1,1,1,343,4,0,4,MERGED
+9926,fix(blocks): Fix load_all_blocks in concurrent calls,majdyz,2025-05-09T12:53:15Z,2025-05-09T14:10:54+00:00,1,1.29,True,6,11,1,461,4,0,4,MERGED
+9924,feat(blocks): Enrichlayer integration,ntindle,2025-05-09T05:22:07Z,2025-08-15T06:06:01+00:00,14,2352.73,True,1045,1,10,532,20,9,29,MERGED
+9922,fix(frontend/library): Quick Patch for Rendering Agent Outputs,Torantulino,2025-05-08T10:52:53Z,2025-05-08T12:05:15+00:00,2,1.21,True,4,1,1,689,3,1,4,MERGED
+9921,fix(backend): Continue stats accounting on aborted or broken executions,majdyz,2025-05-08T09:05:32Z,2025-05-09T07:09:38+00:00,8,22.07,True,67,7,3,462,5,3,8,MERGED
+9920,feat(blocks): initial google calendar,ntindle,2025-05-07T18:24:16Z,2025-05-12T18:47:59+00:00,8,120.4,True,598,0,1,392,6,14,20,MERGED
+9919,fix(backend/scheduler): Unbreak `Scheduler.get_execution_schedules`,Pwuts,2025-05-07T15:55:00Z,2025-05-08T11:51:43+00:00,1,19.95,True,32,24,2,511,3,0,3,MERGED
+9917,feat(frontend): Update login and signup feedback,kcze,2025-05-07T14:18:05Z,2025-05-13T16:23:29+00:00,2,146.09,True,60,54,5,566,3,1,4,MERGED
+9916,feat(frontend): Onboarding Updates 3,kcze,2025-05-07T11:46:37Z,2025-05-14T14:53:38+00:00,2,171.12,True,125,58,13,819,5,0,5,MERGED
+9915,refactor(backend): Clear out Notification Service code blockage,majdyz,2025-05-07T11:17:19Z,2025-05-09T06:52:17+00:00,1,43.58,True,160,172,4,510,4,0,4,MERGED
+9914,feat(backend): Introduce late execution check scheduled job,majdyz,2025-05-07T03:33:16Z,2025-05-07T05:24:36+00:00,1,1.86,True,112,84,9,549,4,0,4,MERGED
+9912,dx(platform): Add initial setup scripts for linux and windows,Bentlybro,2025-05-06T16:23:11Z,2025-07-01T13:26:42+00:00,6,1341.06,True,575,1,5,1360,8,4,12,MERGED
+9908,chore(libs/deps): Update 4 dependencies,dependabot,2025-05-05T17:43:54Z,2025-05-16T10:07:00+00:00,1,256.38,True,280,274,4,11621,3,0,3,MERGED
+9907,fix(backend): Avoid broken process pool by not failing process initializer,majdyz,2025-05-05T12:09:33Z,2025-05-05T13:50:02+00:00,1,1.67,True,7,3,2,392,4,0,4,MERGED
+9905,feat(platform): Onboarding design&UX update,kcze,2025-05-02T11:51:16Z,2025-05-02T15:05:33+00:00,1,3.24,True,222,123,12,1301,3,0,3,MERGED
+9904,feat(backend): Move Scheduler,ntindle,2025-05-01T16:54:13Z,2025-05-05T19:22:38+00:00,4,98.47,True,85,10,6,293,4,1,5,MERGED
+9902,hotfix(backend): Avoid executing any agent with zero balance,majdyz,2025-05-01T13:36:10Z,2025-05-01T15:11:09+00:00,2,1.58,True,47,18,5,391,4,0,4,MERGED
+9901,fix(backend): Avoid executing any agent with zero balance,majdyz,2025-05-01T13:22:45Z,2025-05-01T15:34:24+00:00,1,2.19,True,57,22,6,391,4,0,4,MERGED
+9899,Add Llama API Support,cmodi-meta,2025-04-30T18:37:10Z,2025-05-14T20:08:27+00:00,8,337.52,True,112,3,11,1187,25,2,27,MERGED
+9896,fix: AI Text Generator Block prompt value handling,chojuninengu,2025-04-29T11:48:11Z,2025-09-09T05:44:22+00:00,1,3185.94,False,32,16,1,1535,8,0,8,CLOSED
+9894,chore(backend/deps): bump todoist-api-python from 2.1.7 to 3.0.1 in /autogpt_platform/backend,dependabot,2025-04-28T19:47:53Z,2025-05-19T17:38:09+00:00,1,501.84,False,38,14,2,3499,11,0,11,CLOSED
+9889,feat(backend): Improve cancel execution reliability,majdyz,2025-04-28T09:18:58Z,2025-04-29T17:29:14+00:00,2,32.17,True,61,95,3,732,6,1,7,MERGED
+9888,"Add Note to ""Getting Started"" page for Raspberry Pi 5 page size issue",Japh,2025-04-28T06:33:20Z,2025-04-28T19:29:58+00:00,2,12.94,True,22,0,1,451,6,0,6,MERGED
+9887,fix: handle empty 204 responses in SendWebRequestBlock,Lohith-11,2025-04-28T04:44:54Z,2025-04-28T19:38:40+00:00,2,14.9,True,9,1,1,820,7,1,8,MERGED
+9885,fix(frontend): Add support to optional multiselect,Abhi1992002,2025-04-26T12:10:26Z,2025-04-28T15:41:15+00:00,2,51.51,True,10,5,1,402,3,1,4,MERGED
+9881,feat: allow admins to download agents for review,ntindle,2025-04-25T22:40:28Z,2025-04-28T18:21:37+00:00,1,67.69,True,210,15,7,562,4,0,4,MERGED
+9880,fix: handle token limits and estimate token count for llm calls,seer-by-sentry,2025-04-25T12:38:00Z,2025-04-25T14:08:08+00:00,5,1.5,True,26,1,1,797,4,1,5,MERGED
+9877,feat(frontend): Add billing page toggle,majdyz,2025-04-24T18:17:40Z,2025-04-24T19:56:02+00:00,3,1.64,True,13,6,3,308,4,0,4,MERGED
+9875,fix(block): Fix Smart Decision Block missing input beads & incompability with input in special characters,majdyz,2025-04-24T16:00:40Z,2025-04-24T19:47:32+00:00,5,3.78,True,65,33,5,684,6,2,8,MERGED
+9871,feat(platform/library): Allow sorting Agents by Last Execution Time,Keerthi421,2025-04-23T12:04:18Z,2025-07-11T13:29:19+00:00,4,1897.42,False,34,13,5,748,10,4,14,CLOSED
+9870,feat(platform): Forking agent in Library,kcze,2025-04-23T11:37:38Z,2025-04-23T16:54:26+00:00,10,5.28,True,173,4,8,773,3,7,10,MERGED
+9866,feat(backend): Expose execution prometheus metrics,majdyz,2025-04-23T06:59:36Z,2025-04-24T08:11:29+00:00,1,25.2,True,45,6,4,435,4,0,4,MERGED
+9865,feat(backend): Add retry on executor process initialization,majdyz,2025-04-23T05:55:44Z,2025-04-23T21:47:09+00:00,1,15.86,True,12,6,3,449,4,0,4,MERGED
+9864,feat(backend): Use forkserver on process creation if possible,majdyz,2025-04-23T02:48:24Z,2025-04-24T07:58:53+00:00,1,29.17,True,7,2,1,290,4,0,4,MERGED
+9862,fix(backend): Include sub-graphs in graph-level credentials support,Pwuts,2025-04-22T17:09:32Z,2025-05-07T17:52:25+00:00,1,360.71,True,96,37,7,563,5,0,5,MERGED
+9859,"WIP- ci(frontend,design): add storybook builds to the frontend ",Abhi1992002,2025-04-22T15:30:04Z,2025-06-13T15:59:27+00:00,1,1248.49,False,2932,3608,132,1166,8,0,8,CLOSED
+9858,feat(backend): Require discriminator value on graph save,Pwuts,2025-04-22T10:46:53Z,2025-05-08T10:10:07+00:00,2,383.39,True,69,45,3,941,4,0,4,MERGED
+9855,feat(frontend): Use route groups,kcze,2025-04-21T18:55:51Z,2025-04-22T09:33:35+00:00,3,14.63,True,88,81,65,594,3,1,4,MERGED
+9852,chore(backend/deps-dev): Bump 3 dev dependencies to latest minor versions,dependabot,2025-04-21T18:27:28Z,2025-05-16T11:55:36+00:00,1,593.47,True,29,29,2,60,9,0,9,MERGED
+9850,feat(block): bring back PrintConsoleBlock,ntindle,2025-04-21T17:50:32Z,2025-04-28T10:20:59+00:00,2,160.51,True,27,0,1,227,5,1,6,MERGED
+9848,fix(platform): Fix Google Maps API Key setting through env,majdyz,2025-04-21T17:24:41Z,2025-04-21T20:00:47+00:00,1,2.6,True,11,0,1,333,4,0,4,MERGED
+9847,"feat(platform): Add captcha to login, signup and password reset pages",Bentlybro,2025-04-21T16:20:54Z,2025-05-07T21:32:24+00:00,13,389.19,True,680,12,17,1796,9,10,19,MERGED
+9845,fix(library/run): Replace credits to cents,Abhi1992002,2025-04-19T06:08:16Z,2025-04-21T12:54:04+00:00,3,54.76,True,4,2,1,218,3,1,4,MERGED
+9843,feat(platform): Update Marketplace Agent listing buttons,kcze,2025-04-18T13:50:17Z,2025-05-05T17:11:38+00:00,10,411.36,True,160,60,6,1340,5,4,9,MERGED
+9842,feat(backend): Support flexible RPC client,majdyz,2025-04-18T13:19:49Z,2025-05-01T05:01:46+00:00,1,303.7,True,353,186,16,769,6,0,6,MERGED
+9839,feat(backend): Add retry mechanism for pika publish_message,majdyz,2025-04-18T09:00:44Z,2025-04-18T18:19:19+00:00,1,9.31,True,20,0,1,474,4,0,4,MERGED
+9838,fix(backend): Handle add execution API request failure,majdyz,2025-04-18T08:22:12Z,2025-04-18T18:58:10+00:00,2,10.6,True,61,27,2,536,9,0,9,MERGED
+9835,fix(frontend/library): Prevent execution updates mixing between library agents,Pwuts,2025-04-17T13:16:35Z,2025-04-17T14:34:31+00:00,1,1.3,True,3,1,1,685,3,0,3,MERGED
+9833,feat(frontend): Publish Agent Dialog Agent List Pagination,Kedarinath1502,2025-04-17T01:26:39Z,2025-05-22T16:00:45+00:00,1,854.57,True,79,26,2,138,13,1,14,MERGED
+9828,fix(backend): Fix array types in database,kcze,2025-04-16T14:39:28Z,2025-04-18T08:06:58+00:00,1,41.46,True,56,0,1,672,3,0,3,MERGED
+9826,fix(frontend/builder): Fix key-value pair input for any non-string types,majdyz,2025-04-16T07:22:49Z,2025-04-16T11:33:01+00:00,1,4.17,True,10,8,1,547,4,0,4,MERGED
+9825,fix(backend): Fix cancel_execution can only work once,majdyz,2025-04-16T06:19:03Z,2025-04-16T10:56:23+00:00,9,4.62,True,55,19,2,398,4,2,6,MERGED
+9822,fix(frontend): Fix onboarding agent execution,kcze,2025-04-15T20:21:30Z,2025-04-18T10:01:25+00:00,1,61.67,True,15,10,1,390,3,0,3,MERGED
+9821,fix(frontend): Fix Input value mixup on Library page ,majdyz,2025-04-15T19:33:16Z,2025-04-16T09:53:50+00:00,3,14.34,True,2,10,2,402,4,0,4,MERGED
+9820,feat(frontend): Update completed task group design in Wallet,kcze,2025-04-15T12:15:15Z,2025-04-18T10:07:17+00:00,3,69.87,True,51,56,1,553,3,1,4,MERGED
+9819,feat(frontend): Wallet top-up and auto-refill,kcze,2025-04-15T10:56:13Z,2025-04-18T10:06:14+00:00,6,71.17,True,484,31,10,453,3,2,5,MERGED
+9818,fix(marketplace/library): Removing white borders from Avatar,Abhi1992002,2025-04-15T10:28:46Z,2025-04-19T06:13:06+00:00,2,91.74,True,4,4,2,127,3,0,3,MERGED
+9812,Spike/infra pooling,ntindle,2025-04-14T16:38:52Z,2025-04-15T16:01:13+00:00,9,23.37,True,23,13,9,926,7,3,10,MERGED
+9810,fix((backend): Fix migrate llm models in existing agents,kcze,2025-04-12T15:32:40Z,2025-04-19T13:17:24+00:00,2,165.75,True,12,12,2,517,3,1,4,MERGED
+9808,fix(marketplace): Render newline in marketplace description text,Abhi1992002,2025-04-11T05:03:40Z,2025-04-11T11:11:48+00:00,1,6.14,True,2,2,1,125,3,0,3,MERGED
+9807,feat(platform): Move SchedulerService from RestService pod to WebsocketService pod to make it singleton,majdyz,2025-04-10T20:20:25Z,2025-04-30T13:57:44+00:00,1,473.62,False,5,4,3,318,6,0,6,CLOSED
+9805,fix(backend/db): Fix unchecked Prisma statements,Pwuts,2025-04-10T18:41:12Z,2025-04-10T21:04:42+00:00,9,2.39,True,82,133,11,671,3,3,6,MERGED
+9804,feat(backend): Remove RPC service from Agent Executor,majdyz,2025-04-10T16:26:35Z,2025-04-11T19:25:48+00:00,1,26.99,True,669,598,13,1128,6,0,6,MERGED
+9800,fix(marketplace): Fix small UI bugs,Abhi1992002,2025-04-10T09:59:36Z,2025-04-11T13:32:00+00:00,1,27.54,True,10,9,9,439,8,0,8,MERGED
+9793,fix(blocks): Fix block I/O value sharing,Pwuts,2025-04-09T15:21:39Z,2025-04-09T19:38:05+00:00,3,4.27,True,75,72,27,294,3,0,3,MERGED
+9791,fix(backend): Truncate large data in logging; switch info logs to debug,seer-by-sentry,2025-04-09T14:55:04Z,2025-07-18T01:15:37+00:00,4,2386.34,False,34,5,1,787,12,1,13,CLOSED
+9789,feat(platform/library): Add credentials UX on `/library/agents/[id]`,Pwuts,2025-04-09T10:32:15Z,2025-04-18T14:50:00+00:00,11,220.3,True,778,435,23,2617,7,7,14,MERGED
+9788,feat(backend): Add new llama 4 maverick & scout models,Bentlybro,2025-04-08T20:20:35Z,2025-04-08T22:21:49+00:00,1,2.02,True,6,0,2,894,4,0,4,MERGED
+9786,feat(backend): Agent Presets backend improvements,Pwuts,2025-04-08T09:43:41Z,2025-06-05T16:41:17+00:00,12,1398.96,True,310,189,9,1115,12,5,17,MERGED
+9777,fix(ci): Fix linter exit code on failure,Pwuts,2025-04-07T18:35:16Z,2025-04-09T09:30:04+00:00,10,38.91,True,21,12,2,221,4,2,6,MERGED
+9775,chore(libs/deps-dev): Bump `ruff` from 0.11.2 to 0.11.10,dependabot,2025-04-07T18:05:43Z,2025-05-16T11:06:58+00:00,3,929.02,True,21,21,2,2039,6,0,6,MERGED
+9774,refactor(backend): Clean up Library & Store DB schema,Pwuts,2025-04-07T17:38:18Z,2025-04-10T11:01:44+00:00,7,65.39,True,441,295,29,898,3,1,4,MERGED
+9773,"feat(frontend, backend): track sentry environment on frontend + sentry init in app services",ntindle,2025-04-07T15:23:53Z,2025-04-10T14:57:04+00:00,9,71.55,True,56,1,6,535,7,3,10,MERGED
+9772,fix(frontend): Fill defaults from schema to `hardcodedValues` in `CustomNode.tsx`,kcze,2025-04-07T15:02:10Z,2025-04-07T17:17:03+00:00,2,2.25,True,35,37,2,323,3,0,3,MERGED
+9769,fix(marketplace): Fix store card style,Abhi1992002,2025-04-07T01:40:38Z,2025-04-10T10:53:17+00:00,7,81.21,True,44,35,3,331,10,2,12,MERGED
+9767,[Snyk] Security upgrade next from 14.2.25 to 14.2.26,ntindle,2025-04-05T08:11:29Z,2025-04-07T17:39:52+00:00,2,57.47,True,63,63,3,1443,5,0,5,MERGED
+9765,fix(backend): reduce log level for retrying connection,ntindle,2025-04-04T18:36:28Z,2025-04-07T17:22:13+00:00,2,70.76,True,1,1,1,347,4,0,4,MERGED
+9764,fix(backend): ProviderName behavior when loading secrets,ntindle,2025-04-04T18:27:43Z,2025-04-07T17:21:55+00:00,3,70.9,True,2,2,1,428,4,0,4,MERGED
+9762,feat(frontend): Use `TypeBasedInput` for onboarding agent input,kcze,2025-04-04T15:59:00Z,2025-04-04T17:17:44+00:00,1,1.31,True,29,61,2,426,4,0,4,MERGED
+9759,feat(backend/executor): Move execution queue + cancel mechanism to RabbitMQ,majdyz,2025-04-04T12:38:13Z,2025-04-11T14:39:09+00:00,21,170.02,True,185,32,3,1328,13,8,21,MERGED
+9758,fix(backend): Update deprecated code caused by upgrades,majdyz,2025-04-04T12:22:14Z,2025-04-04T16:54:45+00:00,1,4.54,True,433,382,38,430,4,0,4,MERGED
+9757,"fix(marketplace): Fixing margins between headers, divider and content",Abhi1992002,2025-04-04T05:55:23Z,2025-04-10T13:27:49+00:00,2,151.54,True,29,19,7,418,12,0,12,MERGED
+9756,feat(backend): baseline sentry logging,ntindle,2025-04-04T00:13:16Z,2025-04-04T15:53:07+00:00,2,15.66,True,182,6,3,441,4,0,4,MERGED
+9755,"feat(frontend/library): Add ""Open in builder"" run action",Pwuts,2025-04-03T20:37:42Z,2025-04-03T21:55:37+00:00,2,1.3,True,78,82,6,517,3,0,3,MERGED
+9754,fix(frontend): bad handling on error prompts,ntindle,2025-04-03T20:17:45Z,2025-04-03T22:39:38+00:00,1,2.36,True,19,11,4,398,4,0,4,MERGED
+9751,"feat(frontend,backend): user spending admin dashboard",ntindle,2025-04-03T15:01:37Z,2025-04-29T18:03:23+00:00,12,627.03,True,821,28,19,552,10,7,17,MERGED
+9750,refactor(backend): Un-share resource initializations from AppService + Remove Pyro,majdyz,2025-04-03T09:51:24Z,2025-04-08T20:09:26+00:00,1,130.3,True,76,349,12,577,10,0,10,MERGED
+9749,docs(platform): Add WSL 2 recommendation for Docker on Windows,MaduraHerath,2025-04-03T06:33:55Z,2025-04-03T18:58:37+00:00,4,12.41,True,24,0,1,410,7,1,8,MERGED
+9748,fix(marketplace): Reduce margin between search bar and chips to 20px,Abhi1992002,2025-04-03T05:29:39Z,2025-04-03T16:21:05+00:00,1,10.86,True,2,2,2,80,4,0,4,MERGED
+9745,fix(marketplace): Fix margin between arrows and carousel,Abhi1992002,2025-04-03T05:01:53Z,2025-04-03T16:23:40+00:00,1,11.36,True,3,3,1,246,4,0,4,MERGED
+9744,fix(marketplace): Fix margin between divider and section on creators page,Abhi1992002,2025-04-03T04:40:38Z,2025-04-03T16:23:40+00:00,1,11.72,True,2,2,1,82,4,0,4,MERGED
+9742,"feat(backend, libs): Tell uvicorn to use our logger + always log to stdout+stderr",ntindle,2025-04-02T19:12:31Z,2025-04-03T17:03:17+00:00,15,21.85,True,36,36,5,558,4,6,10,MERGED
+9740,"feat(platform/library): Add real-time ""Steps"" count to agent run view",Pwuts,2025-04-02T16:15:56Z,2025-04-03T19:19:33+00:00,4,27.06,True,126,105,10,837,3,1,4,MERGED
+9739,fix(marketplace): Fix store card typography,Abhi1992002,2025-04-02T12:54:04Z,2025-04-03T16:17:31+00:00,3,27.39,True,10,5,2,623,4,1,5,MERGED
+9738,fix(marketplace): Add 58px bottom padding to creator page agents section on large screens,Abhi1992002,2025-04-02T12:35:40Z,2025-04-03T16:36:27+00:00,1,28.01,True,1,1,1,135,4,0,4,MERGED
+9737,fix(marketplace): Fix typography of heading in marketplace,Abhi1992002,2025-04-02T12:07:56Z,2025-04-07T10:50:50+00:00,1,118.72,True,4,5,4,412,8,0,8,MERGED
+9736,feat(platform): Onboarding Phase 2,kcze,2025-04-02T11:06:25Z,2025-04-12T11:18:00+00:00,9,240.19,True,698,131,31,1065,10,4,14,MERGED
+9734,fix(backend): handle notification service errors more elegently,ntindle,2025-04-01T20:14:54Z,2025-04-03T15:18:10+00:00,8,43.05,True,26,16,2,639,4,3,7,MERGED
+9729,fix(ci/backend): Use Poetry version from lockfile,Pwuts,2025-03-31T10:36:40Z,2025-04-03T13:13:29+00:00,6,74.61,True,19,2,1,612,5,0,5,MERGED
+9728,chore(backend/deps): bump the production-dependencies group across 1 directory with 20 updates,dependabot,2025-03-31T10:30:17Z,2025-04-01T23:17:33+00:00,1,36.79,True,441,354,2,19455,5,0,5,MERGED
+9727,chore(libs/deps): bump the production-dependencies group across 1 directory with 4 updates,dependabot,2025-03-31T10:19:50Z,2025-04-02T02:30:36+00:00,2,40.18,True,453,348,4,12464,6,0,6,MERGED
+9726,Implement Flask web interface and enhance file operations,heeresbach,2025-03-31T02:17:35Z,2025-04-28T19:21:39+00:00,2,689.07,False,107,3,4,1466,8,2,10,CLOSED
+9725,feat(autogpt_classic): Implement Flask web interface and enhance file operations,heeresbach,2025-03-31T02:07:34Z,2025-04-28T19:21:26+00:00,2,689.23,False,107,3,4,1466,8,2,10,CLOSED
+9724,fix(frontend): Sort agents by last edited date in publish dialog,Abhi1992002,2025-03-30T05:15:12Z,2025-04-01T03:47:01+00:00,1,46.53,True,14,8,1,174,4,0,4,MERGED
+9721,feat(blocks): Add Postgres Integration,Abhi1992002,2025-03-29T12:48:55Z,2025-05-13T10:49:46+00:00,1,1078.01,False,738,0,5,887,6,2,8,CLOSED
+9718,refactor(libs): Remove print statements,Pwuts,2025-03-28T16:45:16Z,2025-03-31T11:07:05+00:00,1,66.36,True,0,3,1,175,4,0,4,MERGED
+9717,refactor(frontend): Clean up graph import & export logic,Pwuts,2025-03-28T15:45:09Z,2025-04-03T16:39:17+00:00,1,144.9,True,110,122,7,932,4,0,4,MERGED
+9715,fix(frontend): Fix date picker ux,Abhi1992002,2025-03-28T12:59:28Z,2025-04-01T09:02:24+00:00,1,92.05,True,66,12,2,187,4,0,4,MERGED
+9711,feat(frontend): Add advanced block search with relevance ranking,Abhi1992002,2025-03-28T06:47:22Z,2025-04-07T09:18:46+00:00,4,242.52,True,74,9,3,831,4,1,5,MERGED
+9710,feat(backend): Make agent store data to be publicly accessible by non authenticated user,majdyz,2025-03-28T06:00:02Z,2025-03-28T07:32:23+00:00,1,1.54,True,7,4,2,414,4,0,4,MERGED
+9709,feat(frontend): Adding better skeleton on agent run page,Abhi1992002,2025-03-28T05:11:38Z,2025-05-13T10:47:23+00:00,4,1109.6,False,34,14,2,175,8,2,10,CLOSED
+9707,fix(frontend): Remove animation from search bar on library agent page,Abhi1992002,2025-03-28T04:51:36Z,2025-03-31T13:18:40+00:00,1,80.45,True,21,48,1,114,6,0,6,MERGED
+9706,fix(frontend): Add extra padding bottom on library agent page,Abhi1992002,2025-03-28T04:23:37Z,2025-03-31T13:18:23+00:00,1,80.91,True,1,1,1,74,4,0,4,MERGED
+9704,feat: different signup error message,ntindle,2025-03-27T21:17:31Z,2025-04-01T20:46:18+00:00,2,119.48,True,154,44,3,467,4,1,5,MERGED
+9703,fix(platform): Fixs to allow formatting and tests to work from sub command,Swiftyos,2025-03-27T15:39:47Z,2025-03-28T08:39:44+00:00,5,17.0,True,28,2,4,1263,6,2,8,MERGED
+9700,feat(frontend): Implement UI for Agent Input subtypes,majdyz,2025-03-26T11:20:17Z,2025-04-01T20:46:18+00:00,40,153.43,True,909,743,26,551,8,14,22,MERGED
+9696,fix(backend): Skip updating status of already terminated graph,majdyz,2025-03-25T14:09:35Z,2025-03-26T04:42:52+00:00,1,14.55,True,6,10,2,519,4,0,4,MERGED
+9695,feat(platform/library): Real-time execution updates,Pwuts,2025-03-25T13:26:01Z,2025-03-28T12:41:43+00:00,10,71.26,True,618,340,32,2231,9,6,15,MERGED
+9694,refactor(backend): Improve error message on unmatched webhook ingress,Pwuts,2025-03-25T12:47:19Z,2025-03-25T13:57:29+00:00,1,1.17,True,23,4,3,382,4,0,4,MERGED
+9689,feat(frontend/library): Add toast on agent execution request failure,majdyz,2025-03-25T08:55:33Z,2025-03-25T14:11:55+00:00,4,5.27,True,79,56,5,1282,4,1,5,MERGED
+9688,fix(backend): Increase block request security; Prevent DNS rebinding & open redirect attack,majdyz,2025-03-25T04:51:28Z,2025-03-25T06:09:48+00:00,2,1.31,True,233,96,2,776,6,0,6,MERGED
+9686,chore(backend/deps): bump psutil from 6.1.1 to 7.0.0 in /autogpt_platform/backend,dependabot,2025-03-24T19:38:01Z,2025-04-01T22:11:30+00:00,2,194.56,True,19,26,2,2962,6,0,6,MERGED
+9680,fix(platform/library): Fix UX for webhook-triggered runs,Pwuts,2025-03-24T16:05:14Z,2025-04-03T17:57:35+00:00,12,241.87,True,108,103,8,790,14,3,17,MERGED
+9672,[Snyk] Security upgrade next from 14.2.23 to 14.2.25,ntindle,2025-03-22T08:59:08Z,2025-03-23T23:48:24+00:00,1,38.82,True,63,63,2,1402,5,0,5,MERGED
+9669,feat(platform): TEST Airtable Integration,Swiftyos,2025-03-21T12:22:14Z,2025-06-02T14:49:37+00:00,1,1754.46,False,1132,1,15,28,6,1,7,CLOSED
+9667,feat(backend): Avoid loading all node executions on large continuos agent,majdyz,2025-03-21T11:00:21Z,2025-03-21T13:10:14+00:00,3,2.16,True,122,89,6,852,4,1,5,MERGED
+9666,fix(frontend): Fix unreliable websocket connection for node execution update,majdyz,2025-03-20T23:04:34Z,2025-03-21T12:09:21+00:00,1,13.08,True,34,22,2,438,6,0,6,MERGED
+9665,feat(backend): Mark starting nodes as QUEUED instead of INCOMPLETE during the initial execution,majdyz,2025-03-20T21:53:57Z,2025-03-21T12:20:04+00:00,1,14.44,True,2,5,2,408,4,0,4,MERGED
+9664,refactor(backend): Defer loading of `.blocks` and `.integrations.webhooks` on module init,Pwuts,2025-03-20T20:24:09Z,2025-03-24T16:05:46+00:00,1,91.69,True,139,105,11,767,7,0,7,MERGED
+9663,refactor(backend): Reorganize & clean up execution update system,Pwuts,2025-03-20T17:17:39Z,2025-03-25T12:14:04+00:00,15,114.94,True,853,655,38,891,10,14,24,MERGED
+9662,feat(platform): Use a single DB manager across the system,majdyz,2025-03-20T16:12:29Z,2025-03-21T09:43:36+00:00,1,17.52,True,3,4,2,1244,4,0,4,MERGED
+9661,feat(backend): Add capability to charge based on block execution count,majdyz,2025-03-20T15:44:23Z,2025-03-24T07:47:17+00:00,1,88.05,True,241,136,7,1166,4,0,4,MERGED
+9660,fix(backend/ws): Add `user_id` to websocket event subscription key,Pwuts,2025-03-20T15:10:14Z,2025-03-20T16:54:07+00:00,3,1.73,True,198,49,6,75,6,1,7,MERGED
+9658,fix(frontend/library): Truncate agent card title and description,Pwuts,2025-03-19T14:30:06Z,2025-03-19T16:16:31+00:00,1,1.77,True,6,3,2,517,5,0,5,MERGED
+9657,feat(block): Add agent input block subtypes,majdyz,2025-03-19T14:27:08Z,2025-03-24T03:17:58+00:00,20,108.85,True,774,328,16,310,7,9,16,MERGED
+9656,fix(frontend/library): Improve agent I/O rendering,Pwuts,2025-03-19T13:48:32Z,2025-03-19T15:40:51+00:00,1,1.87,True,5,4,3,810,5,0,5,MERGED
+9655,fix(blocks): SendWebRequestBlock to properly handle HTTP error responses,Torantulino,2025-03-18T22:26:01Z,2025-03-19T13:29:54+00:00,12,15.06,True,44,18,1,1547,8,10,18,MERGED
+9650,feat(frontend/library): Make agent input fields expandable,Pwuts,2025-03-17T22:45:41Z,2025-03-18T15:33:25+00:00,1,16.8,True,84,13,2,743,5,0,5,MERGED
+9646,chore(frontend/deps): bump @sentry/nextjs from 8.54.0 to 9.6.0 in /autogpt_platform/frontend,dependabot,2025-03-17T19:05:10Z,2025-04-02T03:13:25+00:00,1,368.14,True,448,333,2,7090,4,0,4,MERGED
+9640,feat(backend): Support sub-agent on export/import agent feature,majdyz,2025-03-16T15:00:19Z,2025-03-17T17:11:21+00:00,3,26.18,True,282,237,14,1090,6,2,8,MERGED
+9636,feat(platform): Onboarding updates,kcze,2025-03-14T13:52:44Z,2025-03-25T11:02:49+00:00,11,261.17,True,575,291,27,1254,11,8,19,MERGED
+9634,feat(frontend/backend): admin agent review table,ntindle,2025-03-14T03:28:36Z,2025-03-24T08:14:58+00:00,19,244.77,True,1163,1149,22,760,20,15,35,MERGED
+9632,fix(frontend): Fill defaults from schema to `hardcodedValues` at node creation,kcze,2025-03-13T16:08:43Z,2025-03-23T23:10:46+00:00,2,247.03,True,35,1,1,668,4,0,4,MERGED
+9630,feat(backend): Fix failed RPC on Notification Service,majdyz,2025-03-13T12:43:43Z,2025-03-14T02:12:53+00:00,3,13.49,True,71,27,3,563,6,1,7,MERGED
+9629,fix(block): Avoid infinite loop execution on AddToListBlock self-loop,majdyz,2025-03-13T08:29:28Z,2025-03-18T15:04:38+00:00,2,126.59,True,16,0,1,375,4,0,4,MERGED
+9628,feat(backend): add backend support for store listings submissions,ntindle,2025-03-13T05:09:28Z,2025-03-23T23:52:22+00:00,38,258.71,True,1343,224,15,1247,27,27,54,MERGED
+9627,"feat(platform/library): Add ""Export agent to file"" action",Pwuts,2025-03-12T19:02:58Z,2025-03-16T14:30:10+00:00,1,91.45,True,82,44,2,1144,22,0,22,MERGED
+9626,fix(backend): Move Notification service to DB manager,majdyz,2025-03-12T17:48:57Z,2025-03-13T03:33:16+00:00,1,9.74,True,87,70,4,1153,4,0,4,MERGED
+9623,feat(platform): WIP Elevenlabs Integration,Swiftyos,2025-03-12T14:39:13Z,2025-06-02T14:49:17+00:00,11,1968.17,False,1036,0,9,38,4,9,13,CLOSED
+9621,feat(backend/iffy): Add initial Iffy moderation ,Bentlybro,2025-03-12T11:04:43Z,2025-08-20T14:17:45+00:00,63,3867.22,False,663,1,11,3895,30,45,75,CLOSED
+9620,feat(platform)!: Lock Supabase docker-compose code,majdyz,2025-03-12T05:37:40Z,2025-03-14T17:36:06+00:00,2,59.97,True,1878,56,29,1208,7,0,7,MERGED
+9618,feat(frontend): break out the sidebar into a reusable component + use it for admin page,ntindle,2025-03-12T03:23:29Z,2025-03-17T21:41:07+00:00,2,138.29,True,103,216,3,478,4,0,4,MERGED
+9616,fix: backend admin page logic was broken,ntindle,2025-03-11T21:06:00Z,2025-03-14T17:22:12+00:00,3,68.27,True,41,31,2,638,4,3,7,MERGED
+9613,fix(otto): prevent breaking when failing to make api call,Bentlybro,2025-03-11T13:58:27Z,2025-03-12T07:57:03+00:00,2,17.98,True,79,52,5,1359,5,1,6,MERGED
+9611,chore(frontend/deps): bump the production-dependencies group across 1 directory with 13 updates,dependabot,2025-03-10T18:03:59Z,2025-03-12T14:53:04+00:00,1,44.82,True,95,95,2,21174,3,0,3,MERGED
+9610,fix(platform): Make LibraryAgent image as initial StoreListing image,majdyz,2025-03-10T12:07:47Z,2025-03-12T05:37:26+00:00,8,41.49,True,30,37,7,484,4,3,7,MERGED
+9608,fix(backend): Remove useless agent marketplace indices,majdyz,2025-03-10T10:01:50Z,2025-03-11T10:19:15+00:00,1,24.29,True,11,4,2,1022,5,0,5,MERGED
+9605,"feat(backend): Reduce excessive application log, Make DB configurable, Set DB connection limit & timeout",majdyz,2025-03-08T09:19:10Z,2025-03-10T05:48:42+00:00,1,44.49,True,64,9,7,407,9,0,9,MERGED
+9599,feat(block): Allow undefined self-loop link to `list` input pin on `AddToListBlock`,majdyz,2025-03-07T11:03:51Z,2025-03-07T22:26:24+00:00,1,11.38,True,24,3,1,1223,4,0,4,MERGED
+9597,refactor(backend): move the router files for postmark to not the v2 folder,ntindle,2025-03-07T06:13:08Z,2025-04-03T16:15:32+00:00,2,658.04,True,4,4,4,409,10,0,10,MERGED
+9596,feat(backend): baseline summary processing,ntindle,2025-03-07T05:18:52Z,2025-03-12T05:40:00+00:00,6,120.35,True,403,33,5,957,9,6,15,MERGED
+9592,feat(backend): be more defensive about how we load list data from db,ntindle,2025-03-06T16:37:26Z,2025-03-10T17:26:16+00:00,1,96.81,True,41,17,2,526,4,0,4,MERGED
+9591,fix(frontend/library): Use correct graph version to render I/O,Pwuts,2025-03-06T14:19:02Z,2025-03-06T17:31:11+00:00,1,3.2,True,50,13,1,530,8,0,8,MERGED
+9586,feat(backend): batching operations for queues + agent run become batched,ntindle,2025-03-06T07:53:30Z,2025-03-10T18:30:10+00:00,9,106.61,True,552,142,11,734,7,6,13,MERGED
+9585,feat(backend): Improve SmartDecisionMaker Agent-loop capability & add Anthropics support,majdyz,2025-03-06T06:19:58Z,2025-03-06T12:26:30+00:00,1,6.11,True,135,23,4,741,12,0,12,MERGED
+9584,feat(blocks): add a generic webhook block,ntindle,2025-03-06T03:58:08Z,2025-04-02T03:43:42+00:00,8,647.76,True,83,0,4,499,11,4,15,MERGED
+9583,feat(blocks): add list comments and update comment blocks,ntindle,2025-03-05T23:06:37Z,2025-03-06T08:09:15+00:00,2,9.04,True,279,1,2,501,7,1,8,MERGED
+9581,docs(security): Update disclosure timeline,ntindle,2025-03-05T17:08:20Z,2025-03-06T16:18:55+00:00,1,23.18,True,1,0,1,117,8,0,8,MERGED
+9580,docs(online/offline): #8887 Move to a single source of truth for docs — Remove duplicate info from backend readme[.advanced].md,MK4070,2025-03-05T16:53:46Z,2025-03-07T21:20:06+00:00,3,52.44,True,294,288,4,153,5,2,7,MERGED
+9578,fix(backend): Unbreak `add_marketplace_agent_to_library`,Pwuts,2025-03-05T15:32:48Z,2025-03-06T11:12:01+00:00,2,19.65,True,31,30,3,487,5,0,5,MERGED
+9575,"Revert ""fix(frontend): Consolidate Application Buttons to ShadcN Base Button Component""",Pwuts,2025-03-05T12:07:57Z,2025-03-05T16:06:36+00:00,1,3.98,True,139,292,14,200,3,0,3,MERGED
+9574,fix(frontend): Fix global `<body>` styling and base fonts,Pwuts,2025-03-05T11:24:17Z,2025-05-24T15:40:54+00:00,4,1924.28,True,53,74,25,712,12,2,14,MERGED
+9573,feat(frontend): Loading indicator for button click handlers,Pwuts,2025-03-05T11:17:55Z,2025-03-05T15:15:50+00:00,1,3.97,True,31,4,1,673,3,0,3,MERGED
+9572,fix(library): Anchor message to bottom of page ,andrewhooker2,2025-03-05T09:20:00Z,2025-03-05T10:29:50+00:00,1,1.16,True,9,5,1,1537,8,0,8,MERGED
+9570,fix(frontend): Consolidate Application Buttons to ShadcN Base Button Component,andrewhooker2,2025-03-05T05:41:15Z,2025-03-05T07:18:41+00:00,1,1.62,True,292,139,14,1541,3,0,3,MERGED
+9568,feat(backend): Integrate Ideogram for auto-generating created agent thumbnail,majdyz,2025-03-05T01:59:24Z,2025-03-05T14:59:38+00:00,7,13.0,True,154,55,6,692,7,5,12,MERGED
+9566,fix(backend): Error out execution when no starting node is available,majdyz,2025-03-04T09:04:58Z,2025-03-05T07:17:36+00:00,3,22.21,True,11,4,2,1055,6,1,7,MERGED
+9565,Enhance process management with error handling and lifecycle improvements,rahmanlibi47,2025-03-04T07:36:07Z,2025-03-05T08:03:42+00:00,1,24.46,True,14,2,2,470,6,0,6,MERGED
+9564,feat(backend): one click unsub for emails,ntindle,2025-03-04T05:20:55Z,2025-03-07T14:18:14+00:00,3,80.96,True,132,14,9,916,6,1,7,MERGED
+9560,chore(backend/deps-dev): bump the development-dependencies group across 1 directory with 5 updates,dependabot,2025-03-03T17:36:07Z,2025-04-02T01:00:33+00:00,1,703.41,True,40,41,2,12208,9,0,9,MERGED
+9559,chore(libs/deps-dev): bump ruff from 0.9.6 to 0.9.9 in /autogpt_platform/autogpt_libs in the development-dependencies group,dependabot,2025-03-03T17:27:50Z,2025-03-14T18:33:28+00:00,1,265.09,True,21,21,2,5626,3,0,3,MERGED
+9555,feat(backend): Enable safe URL redirect on web requests for blocks,majdyz,2025-03-03T05:54:00Z,2025-03-05T05:38:14+00:00,1,47.74,True,34,4,1,1127,4,0,4,MERGED
+9552,feat(backend): Add tool execution response on Smart Decision Block,majdyz,2025-03-02T04:43:53Z,2025-03-02T11:04:31+00:00,1,6.34,True,134,41,5,1685,4,0,4,MERGED
+9551,fix(backend): Use raw content from the LLM as conversation history,majdyz,2025-03-01T15:43:35Z,2025-03-01T20:59:56+00:00,1,5.27,True,20,34,2,1872,4,0,4,MERGED
+9550,fix(backend): Append prompt into the conversations output & Remove unused output pin on SmartDecisionBlock,majdyz,2025-03-01T12:48:32Z,2025-03-01T14:10:14+00:00,1,1.36,True,3,5,1,1051,4,0,4,MERGED
+9547,"feat(platform): Agent Run ""Stop"" + ""Delete"" functionality",Pwuts,2025-02-28T15:49:35Z,2025-03-05T16:39:44+00:00,4,120.84,True,239,119,18,1075,7,3,10,MERGED
+9546,"feat(platform): Library Agent ""Delete"" functionality",Pwuts,2025-02-28T15:30:57Z,2025-03-03T17:08:45+00:00,1,73.63,True,303,135,14,1341,4,0,4,MERGED
+9543,docs(platform): Example block,Swiftyos,2025-02-28T13:54:04Z,2025-07-11T08:46:15+00:00,55,3186.87,False,575,0,14,729,11,31,42,CLOSED
+9540,feat(backend): Add conversation history as Smart Decision Block output,majdyz,2025-02-28T03:28:29Z,2025-02-28T15:22:32+00:00,2,11.9,True,68,113,5,1559,4,1,5,MERGED
+9536,fix(frontend): Remove unused Stripe on frontend,majdyz,2025-02-27T09:16:59Z,2025-02-27T11:33:13+00:00,2,2.27,True,20,63,6,984,5,0,5,MERGED
+9535,fix(backend): allow more than one arg on the tuple,ntindle,2025-02-27T08:08:49Z,2025-02-27T09:37:00+00:00,1,1.47,True,1,1,1,405,4,0,4,MERGED
+9534,feat(backend): low balance notiifcation,ntindle,2025-02-27T07:43:59Z,2025-03-05T05:35:55+00:00,17,141.87,True,400,119,12,849,8,15,23,MERGED
+9529,fix(backend): Fix exception response on RPC error & Missing Graph `Running` Status,majdyz,2025-02-26T17:16:01Z,2025-02-26T20:41:44+00:00,1,3.43,True,45,24,5,1259,4,0,4,MERGED
+9527,feat(platform): Cost indication for agent runs,Pwuts,2025-02-26T13:00:30Z,2025-02-28T14:39:18+00:00,5,49.65,True,25,24,6,510,3,2,5,MERGED
+9520,feat(backend): Add cost on node & graph execution stats,majdyz,2025-02-25T22:58:19Z,2025-02-27T09:58:07+00:00,7,35.0,True,187,78,7,421,5,6,11,MERGED
+9514,feat(blocks): Enabled block Usage for Smart Decision Maker Block,Swiftyos,2025-02-25T11:53:01Z,2025-02-25T17:56:57+00:00,7,6.07,True,184,87,4,573,6,6,12,MERGED
+9512,fix(frontend): Minor UI changes; Align badges & buttons on LibraryV1,majdyz,2025-02-24T14:33:30Z,2025-02-25T09:56:17+00:00,1,19.38,True,20,13,2,1017,6,0,6,MERGED
+9511,feat(platform): Onboarding flow backend,kcze,2025-02-24T14:25:21Z,2025-03-06T12:38:18+00:00,15,238.22,True,883,235,32,1770,11,9,20,MERGED
+9508,feat(backend): Pyro to FastAPI migration for micro service,majdyz,2025-02-23T02:11:53Z,2025-02-25T05:22:09+00:00,25,51.17,True,284,67,5,2076,27,17,44,MERGED
+9506,feat(backend): handle bounced emails from postmark,ntindle,2025-02-22T00:52:07Z,2025-02-25T21:17:46+00:00,23,92.43,True,550,32,15,1622,4,11,15,MERGED
+9504,"fix(frontend): Minor UI tweak, fix non-accessible button on phone screen",majdyz,2025-02-21T14:07:38Z,2025-02-24T09:19:44+00:00,2,67.2,True,6,6,5,979,4,0,4,MERGED
+9503,fix(frontend): Fix `Run`/`Stop` button on Builder page refresh,kcze,2025-02-20T16:49:27Z,2025-02-21T13:47:53+00:00,1,20.97,True,10,1,2,555,3,0,3,MERGED
+9501,feat(backend): move failed messages into a dead letter queue,ntindle,2025-02-19T23:45:35Z,2025-02-20T10:27:53+00:00,1,10.71,True,72,59,1,984,4,0,4,MERGED
+9499,fix(frontend): Remove invalid font class names,majdyz,2025-02-19T03:12:57Z,2025-02-20T09:38:49+00:00,3,30.43,True,31,31,12,1232,6,1,7,MERGED
+9498,fix(frontend): Fix return type and usage of `api.listLibraryAgents()`,Pwuts,2025-02-18T13:43:12Z,2025-02-18T17:58:59+00:00,1,4.26,True,148,73,14,942,3,0,3,MERGED
+9497,fix(backend): correctly check if email service is set up,ntindle,2025-02-18T13:06:12Z,2025-02-18T14:50:38+00:00,1,1.74,True,4,0,1,406,4,0,4,MERGED
+9490,feature(platform) Smart Decision Maker Block,Swiftyos,2025-02-17T10:29:22Z,2025-02-25T14:29:22+00:00,29,196.0,True,1136,187,13,2474,11,14,25,MERGED
+9489,fix(backend): Fix failing poetry.lock validation on CI,majdyz,2025-02-17T10:28:56Z,2025-02-18T08:57:59+00:00,2,22.48,True,942,36,2,1054,4,0,4,MERGED
+9488,feat(backend): Notification Integration for credits system,majdyz,2025-02-17T09:43:45Z,2025-02-20T12:38:39+00:00,6,74.92,True,258,78,10,999,9,4,13,MERGED
+9485,feat(frontend): Onboarding flow UI,kcze,2025-02-15T11:40:08Z,2025-02-21T16:26:19+00:00,3,148.77,True,1428,57,42,516,5,0,5,MERGED
+9482,fix(frontend): Featured agents cards layout+sizing,Bentlybro,2025-02-14T15:59:04Z,2025-03-05T14:54:01+00:00,3,454.92,True,57,65,2,414,7,7,14,MERGED
+9476,"feat(settings): Rework user settings page with Form, loading skeleton…",andrewhooker2,2025-02-13T06:09:28Z,2025-02-19T15:09:09+00:00,4,152.99,True,764,170,13,2487,9,0,9,MERGED
+9475,feat(backend): Migrate json encoded string columns into a native json column,majdyz,2025-02-12T18:05:19Z,2025-02-13T12:21:23+00:00,2,18.27,True,116,39,6,1156,9,0,9,MERGED
+9470,feat(block): Add batch matched result and its count on ExtractTextInformationBlock,majdyz,2025-02-12T09:12:58Z,2025-02-12T12:45:07+00:00,1,3.54,True,25,2,1,1100,5,0,5,MERGED
+9469,feat(backend): add ability to send emails to notification service,ntindle,2025-02-12T04:22:45Z,2025-02-14T18:13:07+00:00,5,61.84,True,689,11,13,1395,6,2,8,MERGED
+9466,feat(platform): Add Dispute & Refund resolution process,majdyz,2025-02-11T12:51:50Z,2025-02-18T09:40:37+00:00,22,164.81,True,796,93,15,1090,5,12,17,MERGED
+9465,tweak(frontend): Update user profile from marketplace to appropriate profile route,andrewhooker2,2025-02-10T23:10:01Z,2025-02-11T11:43:10+00:00,1,12.55,True,23,267,10,1136,5,0,5,MERGED
+9464,feat(backend): spawn the notifications service + basic test,ntindle,2025-02-10T21:59:15Z,2025-02-14T04:16:51+00:00,16,78.29,True,313,33,12,1807,5,6,11,MERGED
+9463,fix(market): Market featured agent card,andrewhooker2,2025-02-10T21:00:14Z,2025-02-10T22:19:57+00:00,2,1.33,True,141,246,6,1307,7,0,7,MERGED
+9454,chore(libs/deps-dev): bump ruff from 0.9.3 to 0.9.6 in /autogpt_platform/autogpt_libs in the development-dependencies group across 1 directory,dependabot,2025-02-10T17:19:52Z,2025-02-24T09:20:26+00:00,1,328.01,True,38,38,2,7750,3,0,3,MERGED
+9452,feat(backend): Migrate old models in existing agents,kcze,2025-02-10T12:30:54Z,2025-03-25T09:59:07+00:00,6,1029.47,True,41,0,2,588,10,2,12,MERGED
+9450,feature(block): Add XML Parser Block,safimuhammad,2025-02-10T04:35:26Z,2025-02-10T21:17:37+00:00,1,16.7,True,66,78,3,1340,6,0,6,MERGED
+9448,docs: Provide feedback when cloning submodules,townie,2025-02-08T22:58:30Z,2025-02-12T04:02:57+00:00,3,77.07,True,2,2,2,671,7,0,7,MERGED
+9445,"feat(backend): schema updates, migration, queries for Email Notification Service",ntindle,2025-02-07T22:19:55Z,2025-02-12T23:11:59+00:00,44,120.87,True,646,21,8,1518,8,16,24,MERGED
+9444,feat(platform): Schedule specific agent version,kcze,2025-02-07T16:07:49Z,2025-02-10T13:42:46+00:00,2,69.58,True,55,5,5,697,3,1,4,MERGED
+9443,fix(frontend): Fix issue when pasting blocks,kcze,2025-02-07T12:36:29Z,2025-02-07T15:02:26+00:00,1,2.43,True,20,22,1,149,3,0,3,MERGED
+9439,fix(frontend): Fix beads when output is array,kcze,2025-02-07T11:50:10Z,2025-02-07T15:02:26+00:00,1,3.2,True,3,3,1,117,3,0,3,MERGED
+9438,feat(backend): attach rabbitmq to the AppService,ntindle,2025-02-06T19:54:06Z,2025-02-08T21:49:50+00:00,13,49.93,True,365,2,5,2514,5,10,15,MERGED
+9437,feat(infra): add rabbitmq to docker compose,ntindle,2025-02-06T19:11:02Z,2025-02-07T15:59:37+00:00,7,20.81,True,49,3,3,962,6,2,8,MERGED
+9435,platform(fix): Improve performance of builder,Swiftyos,2025-02-06T10:58:52Z,2025-02-07T09:38:50+00:00,8,22.67,True,809,782,3,126,5,2,7,MERGED
+9433,chore(backend/deps-dev): bump faker from 33.3.1 to 35.2.0 in /autogpt_platform/backend,dependabot,2025-02-05T21:30:47Z,2025-04-07T18:42:50+00:00,1,1461.2,False,17,18,2,2734,14,0,14,CLOSED
+9432,chore(libs/deps): bump the production-dependencies group across 1 directory with 4 updates,dependabot,2025-02-05T21:30:34Z,2025-02-05T22:57:57+00:00,2,1.46,True,107,31,3,6635,3,0,3,MERGED
+9430,feat(platform/external-api): Enhance the output from the external API on agent output,aarushik93,2025-02-05T21:06:18Z,2025-02-05T22:25:02+00:00,2,1.31,True,58,19,2,2121,6,0,6,MERGED
+9428,"feat(frontend): Show toast on low credit balance, rename `Credits` page to `Billing`",kcze,2025-02-05T15:31:17Z,2025-02-06T16:32:26+00:00,8,25.02,True,34,4,4,1095,3,5,8,MERGED
+9427,fix(backend): Charge user credits before its block execution,majdyz,2025-02-05T14:23:45Z,2025-02-05T15:59:56+00:00,1,1.6,True,8,11,2,1225,4,0,4,MERGED
+9426,feat(backend): Avoid multiple auto-top-ups within the same execution,majdyz,2025-02-05T13:39:52Z,2025-02-05T15:59:56+00:00,2,2.33,True,64,15,2,1291,4,1,5,MERGED
+9424,platform(fix): Fix missing Profiles,Swiftyos,2025-02-05T09:14:02Z,2025-02-06T10:20:32+00:00,16,25.11,True,273,152,8,418,7,10,17,MERGED
+9423,feat(frontend): Use USD value instead of cents credit value,majdyz,2025-02-05T08:53:36Z,2025-02-05T11:05:00+00:00,5,2.19,True,58,272,10,1187,4,3,7,MERGED
+9418,fix(backend): Set the minimum auto top-up amount to 500 credits,majdyz,2025-02-04T16:19:36Z,2025-02-04T17:22:25+00:00,1,1.05,True,6,2,2,1064,4,0,4,MERGED
+9415,feat(backend): working branch for notifications service,ntindle,2025-02-04T15:31:56Z,2025-02-25T21:13:07+00:00,2,509.69,False,1,2,1,576,20,2,22,CLOSED
+9407,feat(platform/library): Agent Library v2,Swiftyos,2025-02-04T08:28:36Z,2025-02-25T17:53:40+00:00,48,513.42,True,3475,1644,43,1651,19,49,68,MERGED
+9403,chore(frontend/deps): bump framer-motion from 11.16.0 to 12.0.11 in /autogpt_platform/frontend,dependabot,2025-02-03T18:09:29Z,2025-02-05T22:07:32+00:00,1,51.97,True,16,16,2,2426,3,0,3,MERGED
+9401,chore(frontend/deps-dev): bump the development-dependencies group in /autogpt_platform/frontend with 13 updates,dependabot,2025-02-03T18:08:36Z,2025-02-05T22:27:41+00:00,1,52.32,True,184,184,2,10740,3,0,3,MERGED
+9400,chore(frontend/deps): bump the production-dependencies group in /autogpt_platform/frontend with 4 updates,dependabot,2025-02-03T18:06:14Z,2025-02-05T22:27:41+00:00,1,52.36,True,276,252,2,8014,3,0,3,MERGED
+9399,chore(backend/deps): bump google-cloud-storage from 2.19.0 to 3.0.0 in /autogpt_platform/backend,dependabot,2025-02-03T17:26:49Z,2025-02-06T14:34:17+00:00,1,69.12,True,5,5,2,6262,6,0,6,MERGED
+9398,chore(backend/deps): bump websockets from 13.1 to 14.2 in /autogpt_platform/backend,dependabot,2025-02-03T17:26:13Z,2025-02-22T00:26:11+00:00,1,439.0,True,77,94,2,2346,22,0,22,MERGED
+9396,chore(backend/deps-dev): bump the development-dependencies group across 1 directory with 4 updates,dependabot,2025-02-03T17:23:42Z,2025-02-10T17:38:32+00:00,1,168.25,False,35,36,2,10331,8,0,8,CLOSED
+9392,fix(backend): Fix return url post top-up ,majdyz,2025-02-03T11:50:34Z,2025-02-03T12:50:48+00:00,1,1.0,True,5,2,2,1018,4,0,4,MERGED
+9391,fix(backend): Fix broken top-up flow,majdyz,2025-02-03T10:06:11Z,2025-02-03T11:17:05+00:00,1,1.18,True,5,11,2,1023,5,0,5,MERGED
+9390,feat(backend): Update llm models,kcze,2025-02-02T17:27:16Z,2025-02-05T10:18:58+00:00,8,64.86,True,87,52,2,1185,4,3,7,MERGED
+9389,fix(frontend): Show feedback if user exists on sign up,kcze,2025-02-01T13:55:42Z,2025-02-01T15:32:55+00:00,1,1.62,True,11,4,2,1250,3,0,3,MERGED
+9387,"feat(blocks): add base for smartlead, apollo, and zerobounce blocks",ntindle,2025-01-31T23:51:04Z,2025-02-19T16:50:20+00:00,23,448.99,True,2221,5,24,432,16,10,26,MERGED
+9386,ref(docs): move to mintlify,ruhanponnada,2025-01-31T20:54:09Z,2025-04-28T13:25:39+00:00,1,2080.53,False,3760,4669,245,202,7,1,8,CLOSED
+9383,"fix(frontend): Fix typing for `dict`/`dict[Any, Any]` `SchemaField`",kcze,2025-01-31T09:56:19Z,2025-02-01T20:50:29+00:00,1,34.9,True,15,1,2,1223,4,0,4,MERGED
+9381,Marketplace UI changes.,safimuhammad,2025-01-31T05:30:33Z,2025-01-31T10:03:41+00:00,1,4.55,True,2,3,1,1050,5,0,5,MERGED
+9380,fix(backend): fix missing agent object requirement,ntindle,2025-01-30T21:33:55Z,2025-02-03T13:42:54+00:00,4,88.15,True,1,1,1,89,4,1,5,MERGED
+9379,Update README.md,ethethanlee,2025-01-30T16:15:34Z,2025-01-30T18:23:00+00:00,1,2.12,True,7,0,1,1024,5,0,5,MERGED
+9369,feat(block) : Todoist rest api blocks,Abhi1992002,2025-01-30T06:46:57Z,2025-01-30T13:53:03+00:00,1,7.1,True,3673,136,21,1732,7,0,7,MERGED
+9368,Fix: Allow further zooming out in the builder (#9325),pratimsadhu,2025-01-30T03:04:59Z,2025-01-30T10:09:10+00:00,1,7.07,True,1,1,1,578,7,0,7,MERGED
+9366,feat(blocks): add text replace block,ntindle,2025-01-29T14:42:24Z,2025-01-30T09:50:34+00:00,1,19.14,True,28,0,1,273,6,0,6,MERGED
+9364,chore(backend/deps): bump the production-dependencies group across 1 directory with 9 updates,dependabot,2025-01-29T13:25:51Z,2025-01-29T17:25:14+00:00,1,3.99,True,39,38,2,25784,3,0,3,MERGED
+9361,fix(backend): Remove hardcoded auto-top-up config definition on set_auto_top_up,majdyz,2025-01-29T12:36:45Z,2025-01-29T14:30:43+00:00,2,1.9,True,5,3,2,1040,4,0,4,MERGED
+9358,Fixed font for Heading Issue #8971,safimuhammad,2025-01-29T08:06:37Z,2025-01-30T21:12:04+00:00,3,37.09,True,6,6,1,1046,13,1,14,MERGED
+9357,WIP - add library and presets backend,Swiftyos,2025-01-29T08:04:20Z,2025-02-14T08:21:02+00:00,1,384.28,False,290,186,13,1019,11,1,12,CLOSED
+9355,Create Lidia,evelolilka,2025-01-28T21:08:47Z,2025-01-30T12:57:18+00:00,1,39.81,False,1,0,1,964,6,0,6,CLOSED
+9353,"WIP- ci(frontend,design): add storybook builds to the frontend",ntindle,2025-01-28T14:23:53Z,2025-04-22T15:33:36+00:00,1,2017.16,False,267,88,9,419,13,1,14,CLOSED
+9352,fix(frontend) : add default support in oneOf field,Abhi1992002,2025-01-28T09:06:06Z,2025-01-28T13:04:20+00:00,1,3.97,True,28,6,1,129,2,0,2,MERGED
+9350,fix(backend): Strip credential and user IDs from store agent download,Abhi1992002,2025-01-28T05:41:53Z,2025-03-18T10:43:37+00:00,7,1181.03,False,12,14,2,590,8,4,12,CLOSED
+9349,chore(frontend/deps): bump the production-dependencies group across 1 directory with 19 updates,dependabot,2025-01-27T18:07:07Z,2025-01-28T13:41:33+00:00,1,19.57,True,238,246,2,23258,2,0,2,MERGED
+9347,chore(frontend/deps-dev): bump the development-dependencies group in /autogpt_platform/frontend with 15 updates,dependabot,2025-01-27T18:06:08Z,2025-01-28T13:38:21+00:00,2,19.54,True,201,196,2,20909,2,0,2,MERGED
+9343,chore(libs/deps-dev): bump ruff from 0.9.2 to 0.9.3 in /autogpt_platform/autogpt_libs in the development-dependencies group,dependabot,2025-01-27T17:38:32Z,2025-01-29T17:04:46+00:00,2,47.44,True,24,99,2,7739,3,0,3,MERGED
+9341,fix(backend/test): Increase agent execution timeout to fix `test_agent_execution` flakiness,ntindle,2025-01-27T14:13:15Z,2025-01-27T21:33:19+00:00,1,7.33,True,1,1,1,50,5,0,5,MERGED
+9340,fix(backend): Make spend credit failure as part of block execution failure,majdyz,2025-01-27T10:54:45Z,2025-01-28T12:35:31+00:00,3,25.68,True,25,20,2,1100,3,0,3,MERGED
+9337,fix(block): Remove TwitterUnblockUserBlock & TwitterBlockUserBlock,majdyz,2025-01-26T13:19:31Z,2025-01-26T14:21:15+00:00,1,1.03,True,0,130,1,1203,5,0,5,MERGED
+9336,fix(frontend): add typechecks and fix existing type errors in frontend,ntindle,2025-01-26T11:36:44Z,2025-01-29T12:50:48+00:00,55,73.23,True,825,304,36,546,6,31,37,MERGED
+9333,Added autocomplete,turboslapper,2025-01-25T21:09:00Z,2025-01-26T04:33:37+00:00,3,7.41,True,18,5,2,2502,9,0,9,MERGED
+9332,feat(platform): Support opening graphs with version and execution id,kcze,2025-01-25T16:35:04Z,2025-02-07T10:42:52+00:00,10,306.13,True,283,235,22,1630,8,8,16,MERGED
+9331,Use .env vars in docker-compose.platform.yml,elabbarw,2025-01-24T18:07:58Z,2025-02-14T12:37:38+00:00,5,498.49,False,0,0,0,662,10,1,11,CLOSED
+9330,feat(block): Add LLM prompt as the output pin,majdyz,2025-01-24T17:13:48Z,2025-01-25T12:51:53+00:00,1,19.63,True,60,18,1,1032,3,0,3,MERGED
+9329,chore(frontend/deps): bump the production-dependencies group across 1 directory with 18 updates,dependabot,2025-01-24T16:41:47Z,2025-01-27T18:06:16+00:00,1,73.41,False,233,241,2,23422,3,0,3,CLOSED
+9327,chore(backend/deps): bump the production-dependencies group across 1 directory with 16 updates,dependabot,2025-01-24T16:21:12Z,2025-01-27T17:47:19+00:00,1,73.44,False,150,148,2,21554,4,0,4,CLOSED
+9320,feat(platform): Add multimedia file support & add basic Video blocks,majdyz,2025-01-23T16:48:45Z,2025-01-26T16:22:44+00:00,22,71.57,True,1697,914,13,1387,7,9,16,MERGED
+9319,feat(blocks) : Authentication for todoist block,Abhi1992002,2025-01-22T17:16:34Z,2025-01-30T16:27:53+00:00,9,191.19,True,3,3,2,264,12,3,15,MERGED
+9311,fix(frontend): Fix page layouts (sizing + padding),Pwuts,2025-01-21T21:28:51Z,2025-01-24T13:32:41+00:00,2,64.06,True,15,8,6,460,2,0,2,MERGED
+9309,feat: image block for claude,ntindle,2025-01-21T16:03:31Z,2025-04-28T15:44:42+00:00,3,2327.69,False,480,53,1,288,14,1,15,CLOSED
+9308,feat: add screenshotone block,ntindle,2025-01-21T16:01:04Z,2025-02-03T15:05:15+00:00,11,311.07,True,196,6,8,302,10,6,16,MERGED
+9306,feat(backend): Minimize the non caught error logic between graph exec creation and queueing,majdyz,2025-01-21T10:17:57Z,2025-01-24T15:05:01+00:00,1,76.78,True,4,4,1,1206,3,0,3,MERGED
+9300,chore(backend/deps-dev): bump the development-dependencies group across 1 directory with 5 updates,dependabot,2025-01-20T17:56:45Z,2025-01-24T15:05:01+00:00,1,93.14,True,40,40,3,10425,2,0,2,MERGED
+9299,chore(libs/deps-dev): bump ruff from 0.8.6 to 0.9.2 in /autogpt_platform/autogpt_libs in the development-dependencies group across 1 directory,dependabot,2025-01-20T17:45:25Z,2025-01-22T09:32:29+00:00,1,39.78,True,21,21,2,6028,4,0,4,MERGED
+9298,chore(frontend/deps-dev): bump the development-dependencies group across 1 directory with 17 updates,dependabot,2025-01-20T17:37:02Z,2025-01-24T16:35:17+00:00,1,94.97,True,232,214,2,25535,2,0,2,MERGED
+9296,fix(platform): PAYG system fixes,kcze,2025-01-19T15:06:03Z,2025-01-29T17:12:43+00:00,3,242.11,True,19,9,5,1337,5,2,7,MERGED
+9295,fix(backend): Make monthly top-up adjust the target balance instead of top-up the target amount,majdyz,2025-01-19T04:00:56Z,2025-01-24T15:05:17+00:00,3,131.07,True,29,25,2,1376,3,1,4,MERGED
+9291,feat(platform): Implement User Credit Transaction History,majdyz,2025-01-17T20:02:42Z,2025-01-30T14:15:04+00:00,7,306.21,True,274,21,7,1015,11,4,15,MERGED
+9290,fix(frontend): Unbreak save button after save error,Pwuts,2025-01-16T22:50:52Z,2025-01-17T13:46:18+00:00,1,14.92,True,1,0,1,406,2,0,2,MERGED
+9288,docs(Ollama): Remove steps about adding ollama credentials,Bentlybro,2025-01-16T12:59:46Z,2025-01-16T22:49:22+00:00,3,9.83,True,1,7,2,141,2,1,3,MERGED
+9285,feat: mem0 ai memory block,ntindle,2025-01-16T08:51:52Z,2025-01-28T15:33:00+00:00,22,294.69,True,729,6,19,579,9,13,22,MERGED
+9278,feat(platform): Implement Auto-Top-Up credits capability,majdyz,2025-01-15T17:56:39Z,2025-01-28T11:11:45+00:00,12,305.25,True,310,55,9,1145,9,9,18,MERGED
+9272,feat(platform): Create external API,aarushik93,2025-01-15T13:13:25Z,2025-01-17T11:58:28+00:00,1,46.75,True,191,7,9,1250,5,0,5,MERGED
+9271,feat(blocks): Add blocks for GitHub checks & statuses,ntindle,2025-01-15T11:19:20Z,2025-01-28T12:50:02+00:00,16,313.51,True,655,2,6,587,7,9,16,MERGED
+9269,feat(platform): Linear integration,ntindle,2025-01-15T07:45:45Z,2025-01-17T13:51:55+00:00,3,54.1,True,1009,1,18,1113,6,1,7,MERGED
+9267,feat(backend): Enable executing store agents without agent ownership,Pwuts,2025-01-14T14:22:22Z,2025-01-28T11:17:54+00:00,7,332.93,True,447,46,17,917,3,6,9,MERGED
+9266,Feat(Otto) Add Initial Otto Chat Bot code,Bentlybro,2025-01-14T13:59:45Z,2025-03-06T18:11:22+00:00,28,1228.19,True,556,3,11,1236,21,19,40,MERGED
+9264,feat(platform): Add billing portal entry point,majdyz,2025-01-13T22:50:53Z,2025-01-16T21:15:29+00:00,2,70.41,True,114,60,4,1013,5,0,5,MERGED
+9258,feat(backend): Library v2 Agents and Presets,Pwuts,2025-01-13T17:04:21Z,2025-02-13T17:49:36+00:00,7,744.75,True,1213,417,27,525,8,4,12,MERGED
+9256,"Revert broken Library v2 DB stuff (#9218, #9211)",Pwuts,2025-01-13T13:09:26Z,2025-01-13T15:08:59+00:00,1,1.99,True,320,1193,20,283,2,0,2,MERGED
+9255,fix(blocks/Exa): Fix exa contents block advanced toggle,aarushik93,2025-01-13T12:55:38Z,2025-01-13T16:35:14+00:00,1,3.66,True,3,3,1,420,3,0,3,MERGED
+9248,test(frontend): Re-enable the tests in monitor.spec.ts and then ensure they pass,ntindle,2025-01-12T23:11:57Z,2025-01-15T09:56:29+00:00,1,58.74,True,117,37,5,199,5,0,5,MERGED
+9247,"Resolve for issue #9082: Marketplace - ""Select All"" doesn't work in Agent Dashboard",Ayush-Mittal10,2025-01-10T14:14:35Z,2025-01-24T17:31:08+00:00,2,339.28,True,55,27,4,492,4,0,4,MERGED
+9243,[Snyk] Security upgrade next from 14.2.20 to 14.2.21,ntindle,2025-01-09T19:00:08Z,2025-01-15T18:26:14+00:00,1,143.44,True,63,63,2,1448,5,0,5,MERGED
+9237,chore(libs/deps): bump the production-dependencies group across 1 directory with 4 updates,dependabot,2025-01-09T18:52:14Z,2025-01-24T16:08:57+00:00,2,357.28,True,334,258,3,8093,4,0,4,MERGED
+9235,feat(backend/blocks/nvidia): Provide Nvidia by default,aarushik93,2025-01-09T15:42:33Z,2025-01-09T18:29:51+00:00,1,2.79,True,14,0,3,901,3,0,3,MERGED
+9234,docs(Ollama): Update Ollama docs,Bentlybro,2025-01-09T11:56:28Z,2025-01-09T15:44:31+00:00,3,3.8,True,79,35,10,393,3,0,3,MERGED
+9233,"fix(backend): Add default credentials for Fal, Exa, E2B",aarushik93,2025-01-09T10:41:14Z,2025-01-09T14:12:19+00:00,4,3.52,True,42,1,3,1047,3,1,4,MERGED
+9230,feat(platform): fix carousel on store page,Abhi1992002,2025-01-09T06:31:22Z,2025-01-09T14:13:31+00:00,1,7.7,True,130,84,2,337,2,0,2,MERGED
+9229,fix(block): Remove Python.format & Jinja templating format backward compatibility,majdyz,2025-01-08T21:44:26Z,2025-01-09T16:46:49+00:00,4,19.04,True,94,15,7,1849,3,1,4,MERGED
+9225,feat(platform): Redirect to builder after saving agent to library and disable save button for owned agents,kcze,2025-01-08T16:53:23Z,2025-03-23T10:46:20+00:00,1,1769.88,False,222,175,6,1493,6,0,6,CLOSED
+9217,feat(backend): Add graph/node id & execution id on CreditTransaction table,majdyz,2025-01-08T03:19:15Z,2025-01-16T21:14:18+00:00,7,209.92,True,129,76,8,393,12,1,13,MERGED
+9214,chore(frontend/deps): bump the production-dependencies group across 1 directory with 11 updates,dependabot,2025-01-07T14:34:14Z,2025-01-07T18:54:17+00:00,1,4.33,True,151,143,2,18041,2,0,2,MERGED
+9213,feat(blocks/nvidia): Add Nvidia deepfake detection block,aarushik93,2025-01-07T14:23:01Z,2025-01-07T22:53:38+00:00,1,8.51,True,253,13,10,1316,3,0,3,MERGED
+9212,feat(platform) : Add api key generation frontend,Abhi1992002,2025-01-07T10:34:31Z,2025-01-08T11:25:19+00:00,1,24.85,True,399,7,7,297,2,0,2,MERGED
+9211,feat(backend): Add Support for Managing Agent Presets with Pagination and Soft Delete,Swiftyos,2025-01-07T10:01:36Z,2025-01-10T11:57:35+00:00,17,73.93,True,1194,320,20,804,5,4,9,MERGED
+9210,fix(backend): Fix intermittent failure of `test_agent_execution`,Pwuts,2025-01-07T01:45:19Z,2025-01-07T03:55:28+00:00,1,2.17,True,11,16,1,74,2,0,2,MERGED
+9209,fix(backend): Fix webhook ingress URL generation,Pwuts,2025-01-06T22:59:10Z,2025-01-06T23:59:41+00:00,2,1.01,True,3,2,2,277,2,0,2,MERGED
+9207,chore(frontend/deps-dev): bump the development-dependencies group in /autogpt_platform/frontend with 4 updates,dependabot,2025-01-06T17:45:10Z,2025-01-07T18:55:24+00:00,1,25.17,True,20,20,2,4839,3,0,3,MERGED
+9206,chore(market/deps-dev): bump ruff from 0.8.4 to 0.8.6 in /autogpt_platform/market in the development-dependencies group,dependabot,2025-01-06T17:44:48Z,2025-01-08T11:09:20+00:00,1,41.41,False,24,125,2,6031,10,0,10,CLOSED
+9202,chore(libs/deps-dev): bump ruff from 0.8.3 to 0.8.6 in /autogpt_platform/autogpt_libs in the development-dependencies group across 1 directory,dependabot,2025-01-06T17:23:22Z,2025-01-07T08:10:55+00:00,1,14.79,True,24,100,2,6051,2,0,2,MERGED
+9197,Fix Poetry v2.0.0 compatibility,Pwuts,2025-01-06T11:18:36Z,2025-01-06T22:34:50+00:00,3,11.27,True,3143,159,13,1161,3,0,3,MERGED
+9195,fix(platform): Add custom fonts and update layout styles,Abhi1992002,2025-01-06T05:38:56Z,2025-01-08T09:57:32+00:00,1,52.31,True,17,4,3,128,3,0,3,MERGED
+9185,feat(backend/executor): Add `TERMINATED` execution status,Pwuts,2025-01-03T13:53:30Z,2025-01-06T23:21:08+00:00,1,81.46,True,43,22,9,563,3,0,3,MERGED
+9180,refactor(blocks): Move some GitHub blocks to correct file,Bentlybro,2025-01-03T11:15:33Z,2025-01-03T15:16:00+00:00,1,4.01,True,417,418,2,221,2,0,2,MERGED
+9179,feature(backend): Add ability to execute store agents without agent ownership,Swiftyos,2025-01-03T10:27:22Z,2025-01-10T11:39:06+00:00,25,169.2,True,416,53,17,744,5,10,15,MERGED
+9176,feat(backend): Add running balance and introduce atomicity on transaction creation,majdyz,2025-01-03T00:35:23Z,2025-01-13T15:19:47+00:00,1,254.74,True,645,315,21,1398,6,3,9,MERGED
+9172,feat(blocks): Add github list stargazers block,Bentlybro,2025-01-02T20:24:29Z,2025-01-03T10:16:45+00:00,2,13.87,True,90,0,1,132,2,1,3,MERGED
+9171,fix(backend): Fix validation of hostname-less URLs,Pwuts,2025-01-02T19:22:19Z,2025-01-03T10:16:45+00:00,1,14.91,True,5,16,1,448,2,0,2,MERGED
+9170,fix(frontend): Make input layout & padding consistent,majdyz,2025-01-02T17:18:49Z,2025-01-03T11:12:29+00:00,1,17.89,True,16,23,4,1313,3,0,3,MERGED
+9165,chore(market/deps-dev): bump the development-dependencies group across 1 directory with 3 updates,dependabot,2025-01-02T09:30:54Z,2025-01-03T10:16:45+00:00,1,24.76,True,29,29,2,6822,2,0,2,MERGED
+9164,refactor(marketplace): Delete Old marketplace code,Swiftyos,2025-01-02T09:30:32Z,2025-01-07T10:18:56+00:00,1,120.81,True,0,5501,40,163,5,0,5,MERGED
+9163,feat(blocks): Add AI/ML API support to LLM blocks,waterstark,2025-01-01T13:06:28Z,2025-05-22T12:43:02+00:00,19,3383.61,False,76,0,11,554,21,15,36,CLOSED
+9158,CodeExecutionBlock split into InstantiationBlock & StepExecutionBlock,mariosacaj,2024-12-30T23:55:59Z,2025-01-28T13:00:58+00:00,1,685.08,True,267,0,1,1717,6,0,6,MERGED
+9157,fix(backend): Prevent HTTP requests access to internal IPV6 addresses for Agent Blocks,majdyz,2024-12-30T20:22:53Z,2024-12-31T16:33:33+00:00,1,20.18,True,30,14,1,1210,3,0,3,MERGED
+9153,chore(backend/deps-dev): bump the development-dependencies group across 1 directory with 3 updates,dependabot,2024-12-30T18:05:17Z,2025-01-06T17:34:56+00:00,1,167.49,False,30,30,2,6396,5,0,5,CLOSED
+9150,chore(frontend/deps-dev): bump the development-dependencies group across 1 directory with 5 updates,dependabot,2024-12-30T17:21:14Z,2025-01-02T14:59:37+00:00,1,69.64,True,30,30,2,7253,2,0,2,MERGED
+9149,feat(backend): Make scheduler DB connection pool configurable & prevent connection overflow,majdyz,2024-12-30T16:56:27Z,2024-12-31T16:33:33+00:00,1,23.62,True,14,1,2,1411,4,0,4,MERGED
+9147,"fix(platform): avoid agent input value export, handling marketplace redirection, agent store fixes",Swiftyos,2024-12-30T13:39:17Z,2024-12-30T15:04:35+00:00,2,1.42,True,210,46,9,1195,7,7,14,MERGED
+9146,feat(blocks): Add github create repo block,Bentlybro,2024-12-30T10:45:10Z,2025-01-02T14:12:44+00:00,1,75.46,False,57,168,1,322,5,0,5,CLOSED
+9144,feat(blocks): Add github create file block,Bentlybro,2024-12-29T22:31:48Z,2025-01-02T09:41:55+00:00,2,83.17,True,220,0,1,296,2,1,3,MERGED
+9143,feat(blocks): Add Image to video block with Kling Pro 1.5,Torantulino,2024-12-29T20:58:47Z,2025-04-28T13:25:04+00:00,1,2872.44,False,214,0,1,855,6,0,6,CLOSED
+9138,Fix broken connections when copying and pasting an agent,RitikDutta,2024-12-28T13:41:51Z,2025-01-28T16:05:13+00:00,5,746.39,True,11,2,1,831,13,1,14,MERGED
+9135,fix(backend): Added locking status check before releasing to avoid releasing timing out lock,majdyz,2024-12-27T22:44:51Z,2024-12-31T07:48:04+00:00,1,81.05,True,8,5,3,3656,3,0,3,MERGED
+9132,fix(frontend): Fix broken block UI layout,majdyz,2024-12-26T23:23:28Z,2024-12-31T08:13:48+00:00,2,104.84,True,8,41,1,1291,3,0,3,MERGED
+9130,fix(backend): Remove croniter,majdyz,2024-12-26T20:49:53Z,2024-12-31T15:38:49+00:00,1,114.82,True,2,29,2,1026,3,0,3,MERGED
+9128,fix(platform): Fields with default value are not set to advanced by default,majdyz,2024-12-25T22:26:11Z,2024-12-31T16:33:33+00:00,1,138.12,True,16,10,4,1242,5,0,5,MERGED
+9124,refactor(frontend): Auth pages update,kcze,2024-12-23T14:02:16Z,2024-12-30T18:38:10+00:00,7,172.6,True,804,416,17,2728,2,4,6,MERGED
+9121,fix(store) : Download agent from store if user is not logged in,Abhi1992002,2024-12-23T04:44:39Z,2025-01-03T17:35:11+00:00,2,276.84,True,264,10,6,1476,4,1,5,MERGED
+9119,fix(frontend): Change `/store*` url to `/marketplace*`,kcze,2024-12-21T14:24:04Z,2025-01-18T16:49:42+00:00,5,674.43,True,225,234,30,226,8,1,9,MERGED
+9114,[Platform] Creator profile description no longer ignores new lines,ethethanlee,2024-12-20T20:23:30Z,2024-12-21T12:17:04+00:00,1,15.89,True,5,1,1,470,6,0,6,MERGED
+9113,feat(platform): Add username+password credentials type; fix email and reddit blocks,ntindle,2024-12-20T17:38:43Z,2025-01-28T08:21:59+00:00,22,926.72,True,506,131,20,2029,11,13,24,MERGED
+9097,blocks(exa): Add more Exa blocks,aarushik93,2024-12-20T12:28:17Z,2024-12-20T13:57:09+00:00,6,1.48,True,381,58,5,523,3,4,7,MERGED
+9091,feat: swap context menu for dropdown to fix three dots doing nothing,ntindle,2024-12-20T04:35:55Z,2024-12-20T08:16:53+00:00,1,3.68,True,12,12,1,995,3,0,3,MERGED
+9088,fix(store): Make username case insensitive,Swiftyos,2024-12-19T17:23:48Z,2024-12-19T18:27:05+00:00,1,1.05,True,13,12,4,59,3,0,3,MERGED
+9080,fix(frontend): Make clickable area bigger,aarushik93,2024-12-19T13:00:07Z,2024-12-19T22:18:55+00:00,3,9.31,True,37,35,2,1069,3,0,3,MERGED
+9078,fix(store): Display error toast messaging on creator popup,aarushik93,2024-12-19T12:33:20Z,2024-12-19T22:34:02+00:00,2,10.01,True,17,8,1,1193,3,0,3,MERGED
+9077,fix(frontend): Disable agent save button when saving or running,kcze,2024-12-19T11:49:13Z,2024-12-19T13:56:15+00:00,1,2.12,True,13,1,3,1046,2,0,2,MERGED
+9051,feat(platform/library): Library v2 > Agent Runs page,Pwuts,2024-12-18T16:18:22Z,2025-02-19T22:25:02+00:00,26,1518.11,True,1330,236,51,1353,13,14,27,MERGED
+9050,feat(platform): Implement top-up flow for PAYG System,kcze,2024-12-18T16:01:27Z,2025-01-16T00:01:26+00:00,29,680.0,True,599,149,27,2809,11,20,31,MERGED
+9043,feat(platform): Add basic library functionality,Swiftyos,2024-12-18T09:52:04Z,2024-12-18T13:01:48+00:00,1,3.16,True,702,20,17,84,5,0,5,MERGED
+9037,Update index.md  with better documentation ,UDDITwork,2024-12-17T13:52:05Z,2025-01-16T08:29:55+00:00,1,714.63,False,85,30,1,958,9,7,16,CLOSED
+9036,refactor(frontend): Update Supabase and backend API management,kcze,2024-12-17T13:40:54Z,2024-12-18T10:08:54+00:00,12,20.47,True,889,1160,49,2583,2,6,8,MERGED
+9024,feat(frontend): search results updates,Bentlybro,2024-12-17T10:20:23Z,2024-12-18T08:25:32+00:00,1,22.09,True,13,7,3,413,3,0,3,MERGED
+9019,build(deps): bump the production-dependencies group across 1 directory with 7 updates,dependabot,2024-12-17T08:46:59Z,2024-12-17T10:09:53+00:00,2,1.38,False,32,32,2,13360,5,0,5,CLOSED
+9013,build(deps-dev): bump the development-dependencies group in /autogpt_platform/market with 2 updates,dependabot,2024-12-16T18:08:57Z,2024-12-17T10:09:03+00:00,1,16.0,False,27,27,2,8531,4,0,4,CLOSED
+9012,build(deps): bump uvicorn from 0.32.1 to 0.34.0 in /autogpt_platform/market in the production-dependencies group,dependabot,2024-12-16T18:08:15Z,2024-12-17T09:16:35+00:00,1,15.14,True,7,7,2,3345,3,0,3,MERGED
+9008,build(deps-dev): bump ruff from 0.8.2 to 0.8.3 in /autogpt_platform/autogpt_libs in the development-dependencies group,dependabot,2024-12-16T17:50:54Z,2024-12-17T09:02:11+00:00,1,15.19,True,22,22,2,7343,3,0,3,MERGED
+9007,build(deps-dev): bump faker from 30.10.0 to 33.1.0 in /autogpt_platform/backend,dependabot,2024-12-16T17:41:59Z,2024-12-17T10:08:44+00:00,2,16.45,False,5,5,2,2573,10,0,10,CLOSED
+8992,fix(platform): Restored monitor page and monitor spec code.,Swiftyos,2024-12-16T10:05:16Z,2024-12-16T18:24:57+00:00,1,8.33,True,360,0,2,130,4,0,4,MERGED
+8987,feat(frontend): Reset password page,kcze,2024-12-14T12:27:00Z,2024-12-17T18:51:02+00:00,1,78.4,True,219,0,2,1500,5,0,5,MERGED
+8982,"feat(frontend) : Add optional input support for object, array, multi-select, and select as well.",Abhi1992002,2024-12-13T13:48:42Z,2024-12-17T04:08:28+00:00,3,86.33,True,55,2,1,416,2,1,3,MERGED
+8974,feat:(backend/test) update test_data_creator.py,Bentlybro,2024-12-13T10:33:02Z,2024-12-13T14:11:12+00:00,1,3.64,True,5,26,1,281,0,0,0,MERGED
+8951,test(frontend): additional build page automation tooling,ntindle,2024-12-11T23:03:10Z,2024-12-17T09:16:35+00:00,1,130.22,True,110,5,3,402,5,0,5,MERGED
+8949,ci(frontend): Speed up test jobs,Pwuts,2024-12-11T20:04:20Z,2024-12-12T20:11:20+00:00,1,24.12,True,15,20,1,161,4,0,4,MERGED
+8943,feat(frontend): Update and fix tutorial,Bentlybro,2024-12-11T13:45:57Z,2024-12-11T20:18:17+00:00,1,6.54,True,10,9,1,414,3,0,3,MERGED
+8941,fix(frontend): Make pins smaller and fix hover area and highlight for input pins,kcze,2024-12-11T07:24:25Z,2024-12-11T09:46:05+00:00,1,2.36,True,5,5,2,1238,2,0,2,MERGED
+8940,fix(frontend) : Optional number input,Abhi1992002,2024-12-11T04:55:52Z,2024-12-11T19:56:36+00:00,1,15.01,True,16,1,1,111,3,0,3,MERGED
+8939,chore(platform):Refactor GraphExecution naming clash and remove unused Graph Execution functions,majdyz,2024-12-11T02:23:07Z,2024-12-11T16:11:53+00:00,3,13.81,True,49,164,11,1524,3,3,6,MERGED
+8934,feat(block): Support find all regex extraction for ExtractTextInformationBlock,majdyz,2024-12-10T18:05:25Z,2024-12-10T22:25:27+00:00,1,4.33,True,30,8,1,1081,5,0,5,MERGED
+8932,feat(platform): Support multiple credentials inputs on blocks,Pwuts,2024-12-10T17:19:03Z,2025-01-03T15:32:41+00:00,5,574.23,True,207,127,10,447,9,3,12,MERGED
+8929,fix(backend): Add missing DB indexes,majdyz,2024-12-10T01:32:29Z,2024-12-10T10:47:47+00:00,1,9.26,True,71,10,2,1109,3,0,3,MERGED
+8925,build(deps): bump the production-dependencies group in /autogpt_platform/frontend with 12 updates,dependabot,2024-12-09T17:54:53Z,2024-12-09T21:18:34+00:00,1,3.39,True,683,561,2,19850,2,0,2,MERGED
+8924,build(deps-dev): bump the development-dependencies group in /autogpt_platform/autogpt_libs with 2 updates,dependabot,2024-12-09T17:47:48Z,2024-12-09T21:19:28+00:00,1,3.53,True,25,25,2,6972,2,0,2,MERGED
+8923,build(deps-dev): bump the development-dependencies group in /autogpt_platform/market with 2 updates,dependabot,2024-12-09T17:43:43Z,2024-12-12T20:23:11+00:00,2,74.66,True,25,25,2,6466,5,0,5,MERGED
+8922,build(deps): bump the production-dependencies group in /autogpt_platform/market with 2 updates,dependabot,2024-12-09T17:43:00Z,2024-12-09T21:06:51+00:00,1,3.4,True,9,9,2,7136,2,0,2,MERGED
+8920,fix(frontend) : Increase size of connection pin in blocks,Abhi1992002,2024-12-09T13:14:20Z,2024-12-09T14:18:14+00:00,1,1.06,True,1,1,1,46,2,0,2,MERGED
+8916,fix(frontend): Automatically choose client/server-side API client,Pwuts,2024-12-09T11:02:54Z,2024-12-09T20:30:45+00:00,3,9.46,False,30,14,4,940,4,2,6,CLOSED
+8908,fix(backend): Fix Github PR blocks,vishesh10,2024-12-08T07:26:41Z,2024-12-09T15:05:12+00:00,2,31.64,True,17,4,1,463,6,1,7,MERGED
+8905,feat(blocks): Add new openrouter models,Torantulino,2024-12-06T23:38:41Z,2024-12-09T12:17:54+00:00,1,60.65,True,24,3,2,903,3,0,3,MERGED
+8903,feat(blocks): Add CreateDictionaryBlock and CreateListBlock,Torantulino,2024-12-06T22:00:55Z,2024-12-12T23:02:04+00:00,1,145.02,True,98,0,1,436,4,0,4,MERGED
+8901,feat(Blocks): Add Mailerlite blocks,Torantulino,2024-12-06T19:56:21Z,2025-02-05T09:13:34+00:00,1,1453.29,False,798,22,11,0,3,4,7,CLOSED
+8900,feat(frontend): Add field extraction handle for block with object output,majdyz,2024-12-06T19:47:11Z,2024-12-09T22:17:54+00:00,1,74.51,True,36,12,2,1392,5,0,5,MERGED
+8898,Incremental additions to platform documentation,kbarnard10,2024-12-06T18:34:46Z,2024-12-06T19:41:46+00:00,1,1.12,True,253,2,6,305,5,0,5,MERGED
+8897,fix(platform): Stop the start up & shutdown of LaunchDarkly on local envs,aarushik93,2024-12-06T11:06:57Z,2024-12-06T13:09:27+00:00,1,2.04,True,14,3,1,1320,3,0,3,MERGED
+8894,fix(backend): Make sure all the obtained DB connections are able to query,majdyz,2024-12-06T04:02:36Z,2024-12-06T05:17:43+00:00,1,1.25,True,8,1,2,1233,3,0,3,MERGED
+8891,fix(backend): Enable Jinja SandboxedEnvironment for TextFormatter,majdyz,2024-12-06T00:06:53Z,2024-12-06T04:47:58+00:00,1,4.68,True,35,16,3,1134,3,0,3,MERGED
+8890,fix(backend): Add stricter URL validation for block requests,majdyz,2024-12-05T23:30:46Z,2024-12-06T04:47:58+00:00,1,5.29,True,115,18,2,1596,3,0,3,MERGED
+8885,ci(backend): Add `poetry.lock` check,Pwuts,2024-12-05T17:03:45Z,2024-12-05T19:08:55+00:00,1,2.09,True,111,108,3,541,2,0,2,MERGED
+8883,fix(frontend): Agent output not being re-fetched on each agent output dialog opened,majdyz,2024-12-05T15:43:06Z,2024-12-06T05:42:48+00:00,1,13.99,True,2,5,1,1068,3,0,3,MERGED
+8880,feat(frontend): monitor tests,ntindle,2024-12-04T21:52:44Z,2024-12-06T21:42:45+00:00,1,47.83,True,484,24,13,404,5,0,5,MERGED
+8878,ux(builder): Remove title from input and output blocks,aarushik93,2024-12-04T10:45:55Z,2025-02-04T18:33:46+00:00,1,1495.8,False,3,15,3,1064,7,0,7,CLOSED
+8877,docs: add docs for writing playwright tests,ntindle,2024-12-04T01:53:43Z,2024-12-04T18:44:31+00:00,2,16.85,True,203,24,10,181,5,1,6,MERGED
+8874,feat(platform): Agent Store V2 ,Swiftyos,2024-12-03T07:25:06Z,2024-12-13T16:48:32+00:00,13,249.39,True,20449,7548,197,1794,14,9,23,MERGED
+8873,fix: specify encoding for file with emoji in it so it loads on windows,ntindle,2024-12-03T06:23:54Z,2024-12-03T11:30:59+00:00,1,5.12,True,3,1,1,222,3,0,3,MERGED
+8872,docs: huntr no longer is offering a security bounty so remove it,ntindle,2024-12-02T20:45:18Z,2024-12-02T21:58:28+00:00,1,1.22,True,1,1,1,205,4,0,4,MERGED
+8871,build(deps-dev): bump the development-dependencies group in /autogpt_platform/market with 2 updates,dependabot,2024-12-02T19:12:42Z,2024-12-06T04:24:51+00:00,1,81.2,True,25,25,2,10558,2,0,2,MERGED
+8870,chore(backend/deps): Update `cryptography` from 43.0.3 to 44.0.0,dependabot,2024-12-02T18:39:24Z,2024-12-17T09:02:11+00:00,1,350.38,True,39,39,2,3596,10,0,10,MERGED
+8865,build(deps): bump the production-dependencies group in /autogpt_platform/frontend with 5 updates,dependabot,2024-12-02T18:30:08Z,2024-12-06T04:34:17+00:00,1,82.07,True,94,116,2,9873,2,0,2,MERGED
+8864,build(deps-dev): bump ruff from 0.8.0 to 0.8.1 in /autogpt_platform/autogpt_libs in the development-dependencies group,dependabot,2024-12-02T18:28:23Z,2024-12-03T11:49:34+00:00,1,17.35,True,21,21,2,8357,2,0,2,MERGED
+8863,build(deps): bump pyjwt from 2.10.0 to 2.10.1 in /autogpt_platform/autogpt_libs in the production-dependencies group,dependabot,2024-12-02T18:28:00Z,2024-12-05T19:11:19+00:00,1,72.72,False,5,5,2,2629,4,0,4,CLOSED
+8862,feat(frontend): add block connecting test,Bentlybro,2024-12-02T16:28:29Z,2024-12-02T20:33:52+00:00,1,4.09,True,81,1,2,360,0,0,0,MERGED
+8861,feat(frontend): Disallow webhook+input or webhook+webhook in the same graph,Pwuts,2024-12-02T14:51:27Z,2024-12-12T14:27:20+00:00,1,239.6,True,46,8,2,586,6,0,6,MERGED
+8860,dx(backend): Fix linting & formatting for `autogpt_libs`,Pwuts,2024-12-02T13:16:21Z,2024-12-03T11:47:08+00:00,1,22.51,True,26,15,6,204,2,0,2,MERGED
+8856,feat(blocks): Add support for mutually exclusive input fields,Abhi1992002,2024-12-02T11:46:36Z,2024-12-16T23:45:51+00:00,4,347.99,True,148,8,2,550,6,1,7,MERGED
+8855,chore(blocks/fal): Use dict instead of Dict,aarushik93,2024-12-02T11:32:18Z,2024-12-03T11:09:39+00:00,1,23.62,True,6,6,2,1003,3,0,3,MERGED
+8852,feat(blocks): Add `depends_on` support for input fields,Abhi1992002,2024-12-02T05:44:39Z,2024-12-17T03:34:33+00:00,17,357.83,True,84,1,4,405,5,11,16,MERGED
+8850,feat(libs): Add API key rate limit middleware,aarushik93,2024-12-01T15:15:41Z,2024-12-03T09:25:29+00:00,6,42.16,True,118,5,7,419,3,5,8,MERGED
+8847,feat(frontend/feature-flags): Add LaunchDarkly feature flagging UI,aarushik93,2024-12-01T14:26:31Z,2024-12-06T19:38:55+00:00,7,125.21,True,1721,1690,6,1468,11,3,14,MERGED
+8845,Adding Docs for Agent Blocks ,kbarnard10,2024-11-30T20:06:16Z,2024-12-02T10:48:33+00:00,1,38.7,True,87,0,2,39,4,0,4,MERGED
+8841,dx: Fix dependabot PR/commit titles,Pwuts,2024-11-29T15:13:34Z,2024-12-02T10:53:06+00:00,1,67.66,True,21,3,1,186,2,0,2,MERGED
+8840,feat(platform): Adds rating card,Bentlybro,2024-11-29T12:39:47Z,2024-12-02T10:17:22+00:00,3,69.63,True,150,0,3,369,1,2,3,MERGED
+8839,feat(frontend): Make Block description searchable on Block list palette,majdyz,2024-11-29T02:41:04Z,2024-11-29T07:55:30+00:00,1,5.24,True,3,0,1,1099,3,0,3,MERGED
+8838,feat(blocks): Add webhook block status indicator,Pwuts,2024-11-28T22:40:25Z,2024-12-05T11:01:33+00:00,6,156.35,True,220,76,14,1077,3,4,7,MERGED
+8837,fix(backend): Fix `credentials` cost filter not able to filter the block cost,majdyz,2024-11-28T15:08:21Z,2024-11-29T08:59:55+00:00,6,17.86,True,127,92,7,1257,3,2,5,MERGED
+8836,fix(backend): Fix conn_retry decorator possible incorrect behaviour on failed async function,majdyz,2024-11-28T10:06:25Z,2024-11-29T09:44:52+00:00,2,23.64,True,89,12,4,3036,3,1,4,MERGED
+8835,feat(blocks): Add Exa API Blocks,aarushik93,2024-11-27T21:12:13Z,2024-12-06T11:12:46+00:00,2,206.01,True,294,0,6,1128,5,1,6,MERGED
+8834,fix(frontend): Fix missing credentials input when no credentials available,Pwuts,2024-11-27T15:57:02Z,2024-11-27T18:39:53+00:00,1,2.71,True,8,8,1,443,2,0,2,MERGED
+8832,fix(backend): Spin-up Database manager on rest.py,majdyz,2024-11-27T15:29:48Z,2024-11-27T16:39:09+00:00,1,1.16,True,3,6,4,1415,7,0,7,MERGED
+8805,feat(blocks): Add Slant 3D printing via API service,ntindle,2024-11-27T10:37:36Z,2024-12-04T03:10:21+00:00,24,160.55,True,961,2,13,1172,4,10,14,MERGED
+8804,feat(frontend): add block tests,ntindle,2024-11-27T07:17:42Z,2024-12-03T16:35:50+00:00,1,153.3,True,563,5,11,381,9,0,9,MERGED
+8803,fix(frontend): Add integer type definition for node handles,Abhi1992002,2024-11-27T06:12:05Z,2024-11-27T07:16:29+00:00,1,1.07,True,4,0,2,71,2,0,2,MERGED
+8802,fix(frontend): advanced-toggle-default,Abhi1992002,2024-11-27T05:31:13Z,2024-12-03T12:27:52+00:00,1,150.94,True,1,1,1,207,4,0,4,MERGED
+8787,build(deps): bump pydantic from 2.9.2 to 2.10.2 in /autogpt_platform/autogpt_libs in the production-dependencies group across 1 directory,dependabot,2024-11-26T22:45:18Z,2024-11-29T13:54:27+00:00,1,63.15,True,108,100,2,6461,5,0,5,MERGED
+8786,feat(blocks): Add Hubspot blocks,aarushik93,2024-11-26T21:58:17Z,2024-11-29T09:40:12+00:00,5,59.7,True,374,0,8,1158,3,2,5,MERGED
+8781,feat(blocks): Add Word Character Count Block,Bentlybro,2024-11-26T18:02:33Z,2024-11-26T21:38:43+00:00,1,3.6,True,43,0,1,259,1,0,1,MERGED
+8778,feat(blocks): Add Code extraction Block,Bentlybro,2024-11-26T17:39:14Z,2024-12-12T20:49:59+00:00,6,387.18,True,110,0,1,309,4,2,6,MERGED
+8773,fix(platform): handle None value in issue body when fetching GitHub issues,Abhi1992002,2024-11-26T16:51:51Z,2024-11-26T20:46:14+00:00,1,3.91,True,6,3,1,64,2,0,2,MERGED
+8771,fix(platform): allowing condition block to compare 2 strings,Abhi1992002,2024-11-26T16:20:25Z,2024-11-26T20:40:51+00:00,1,4.34,True,10,4,3,103,2,0,2,MERGED
+8768,feat(blocks): Add code execution block,Abhi1992002,2024-11-26T13:24:35Z,2024-12-06T01:43:33+00:00,12,228.32,True,232,1,6,137,7,7,14,MERGED
+8767,updated URL on README.md,oxygen-fragment,2024-11-26T10:58:56Z,2024-11-26T20:49:48+00:00,1,9.85,True,0,0,0,716,4,0,4,MERGED
+8765,feat(tests): add baseline utility for integration testing from frontend ui,ntindle,2024-11-26T04:48:25Z,2024-11-27T09:44:20+00:00,8,28.93,True,279,24,8,377,6,4,10,MERGED
+8763,chore(backend): Update 12 dependencies,dependabot,2024-11-25T18:48:37Z,2024-11-27T16:49:23+00:00,1,46.01,True,106,98,2,22438,4,0,4,MERGED
+8762,docs(backend): Add `--build` to docker command in Getting Started guide,Pwuts,2024-11-25T18:48:26Z,2024-11-26T04:51:25+00:00,2,10.05,True,2,2,2,146,2,0,2,MERGED
+8761,build(deps-dev): bump the development-dependencies group in /autogpt_platform/backend with 2 updates,dependabot,2024-11-25T18:42:14Z,2024-11-25T22:49:45+00:00,1,4.13,True,28,28,2,7470,1,0,1,MERGED
+8760,chore(libs): Update dev dependency Ruff from 0.7.4 to 0.8.0,dependabot,2024-11-25T18:32:11Z,2024-11-26T22:43:06+00:00,1,28.18,True,21,21,2,6629,2,0,2,MERGED
+8758,chore(market): Update Ruff from 0.7.4 to 0.8.0,dependabot,2024-11-25T18:26:30Z,2024-11-26T08:12:28+00:00,1,13.77,True,21,21,2,6623,1,0,1,MERGED
+8757,build(deps): bump the production-dependencies group in /autogpt_platform/market with 2 updates,dependabot,2024-11-25T18:25:57Z,2024-11-29T13:51:38+00:00,1,91.43,True,12,12,2,7040,1,0,1,MERGED
+8756,chore(frontend): Update 14 dev dependencies,dependabot,2024-11-25T17:58:54Z,2024-11-27T16:06:26+00:00,1,46.13,True,218,225,2,21892,2,0,2,MERGED
+8755,chore(frontend): Update 5 dependencies,dependabot,2024-11-25T17:53:02Z,2024-11-27T16:33:22+00:00,1,46.67,True,124,131,2,11154,2,0,2,MERGED
+8754,feat(platform): Add Twitter integration,Abhi1992002,2024-11-25T16:44:38Z,2025-01-08T20:10:13+00:00,25,1059.43,True,12773,872,51,8009,23,14,37,MERGED
+8752,feat(platform): Include all agent versions in Runs in Monitor,kcze,2024-11-25T10:49:55Z,2024-12-11T01:59:27+00:00,16,375.16,True,169,170,13,1525,4,6,10,MERGED
+8751,refactor(backend): Apply lint on autogpt_lib folder on backend/linter.py,majdyz,2024-11-25T10:40:58Z,2024-12-02T10:11:33+00:00,12,167.51,True,8,6,4,1153,10,6,16,MERGED
+8750,feat(platform): Support manually setting up webhooks,ntindle,2024-11-24T09:41:06Z,2024-12-18T19:38:58+00:00,23,585.96,True,449,132,19,781,17,10,27,MERGED
+8749,feat(blocks): Various block QoL improvements,ntindle,2024-11-24T08:32:06Z,2024-11-27T16:18:54+00:00,6,79.78,True,22,8,3,783,5,1,6,MERGED
+8747,docs(platform): Fix url in `README.md`,thecosmicmuffet,2024-11-22T20:19:32Z,2024-11-23T02:37:42+00:00,1,6.3,True,1,1,1,82,4,0,4,MERGED
+8746,fix(frontend): Add text length limit when displaying Graph & Block name with different length in different places,majdyz,2024-11-22T10:26:58Z,2024-11-27T08:37:27+00:00,1,118.17,True,58,26,9,1243,3,0,3,MERGED
+8745,[Snyk] Security upgrade @sentry/nextjs from 8.38.0 to 8.39.0,ntindle,2024-11-22T05:49:30Z,2024-11-27T15:47:36+00:00,1,129.97,False,117,106,2,1452,6,0,6,CLOSED
+8736,fix(backend): Fix .env file read contention on pyro connection setup,majdyz,2024-11-21T17:09:47Z,2024-11-25T09:55:52+00:00,1,88.77,True,13,10,5,1681,7,0,7,MERGED
+8728,refactor(backend): Remove un-needed join in `fix_llm_provider_credentials` query,majdyz,2024-11-20T10:50:12Z,2024-11-21T09:35:18+00:00,1,22.75,True,2,4,1,1044,3,0,3,MERGED
+8727,fix(frontend): Monitor Page got all the request doubled on each page refresh,majdyz,2024-11-20T03:24:35Z,2024-11-20T10:43:34+00:00,1,7.32,True,3,1,1,1393,2,0,2,MERGED
+8725,refactor(backend): Simplify `CredentialsField` usage + use `ProviderName` globally,Pwuts,2024-11-20T00:22:04Z,2024-12-11T19:56:36+00:00,17,523.58,True,314,192,38,332,12,5,17,MERGED
+8718,feat(platform/featureflags): Setting up feature flagging ,aarushik93,2024-11-19T14:23:22Z,2024-11-27T19:29:57+00:00,13,197.11,True,539,110,16,1095,12,10,22,MERGED
+8717,feat(platform): Updates to Runner Output UI,Bentlybro,2024-11-19T14:17:25Z,2024-11-20T19:35:29+00:00,1,29.3,True,60,4,1,567,1,0,1,MERGED
+8715,fix(platform): Remove settings endpoint,aarushik93,2024-11-19T12:57:09Z,2024-11-19T23:39:40+00:00,1,10.71,True,2,45,1,1131,2,0,2,MERGED
+8713,"fix(backend): Improve typing for blocks StepThroughItemsBlock, CountdownTimerBlock, AddToListBlock, AddToDictionaryBlock",majdyz,2024-11-19T04:36:49Z,2024-11-19T20:53:35+00:00,1,16.28,True,100,45,3,1267,2,0,2,MERGED
+8710,fix(backend): Re-work the connection input consumption logic for Agent Executor Block,majdyz,2024-11-19T02:29:54Z,2024-11-21T11:05:41+00:00,8,56.6,True,53,22,3,1837,4,3,7,MERGED
+8709,feat: generate simple auth tests,ntindle,2024-11-19T01:58:11Z,2024-11-20T15:21:16+00:00,3,37.38,True,237,6,12,1111,3,1,4,MERGED
+8706,build(deps-dev): bump the development-dependencies group in /autogpt_platform/market with 2 updates,dependabot,2024-11-18T18:46:31Z,2024-11-19T13:08:09+00:00,1,18.36,True,25,25,2,8389,1,0,1,MERGED
+8705,build(deps): bump fastapi from 0.115.4 to 0.115.5 in /autogpt_platform/market in the production-dependencies group,dependabot,2024-11-18T18:45:49Z,2024-11-20T13:08:07+00:00,1,42.37,True,5,5,2,6756,3,0,3,MERGED
+8703,build(deps): bump the production-dependencies group in /autogpt_platform/frontend with 7 updates,dependabot,2024-11-18T18:39:10Z,2024-11-20T13:20:28+00:00,1,42.69,True,164,151,2,9450,1,0,1,MERGED
+8701,build(deps-dev): bump ruff from 0.7.3 to 0.7.4 in /autogpt_platform/autogpt_libs in the development-dependencies group,dependabot,2024-11-18T18:25:32Z,2024-11-19T10:10:26+00:00,1,15.75,True,21,21,2,8241,1,0,1,MERGED
+8700,build(deps): bump pyjwt from 2.9.0 to 2.10.0 in /autogpt_platform/autogpt_libs in the production-dependencies group,dependabot,2024-11-18T18:25:09Z,2024-11-19T10:06:06+00:00,1,15.68,True,6,6,2,8756,1,0,1,MERGED
+8699,build(deps-dev): bump the development-dependencies group in /autogpt_platform/backend with 2 updates,dependabot,2024-11-18T18:15:09Z,2024-11-19T13:28:34+00:00,1,19.22,True,28,28,2,8390,1,0,1,MERGED
+8694,feat(platform): Updates to Profile and Settings page,Bentlybro,2024-11-18T13:55:57Z,2024-11-20T08:59:41+00:00,1,43.06,True,91,151,2,158,0,0,0,MERGED
+8688,fix(frontend): avoid displaying long description text for block,majdyz,2024-11-18T12:14:10Z,2024-11-18T13:25:21+00:00,1,1.19,True,4,1,1,1006,3,0,3,MERGED
+8687,refactor(frontend): Update buttons to edit agents in Monitor,kcze,2024-11-18T11:42:45Z,2024-11-18T12:56:40+00:00,1,1.23,True,6,5,2,208,1,0,1,MERGED
+8686,build(deps-dev): bump eslint from 8.57.0 to 9.15.0 in /autogpt_platform/frontend,dependabot,2024-11-18T11:15:15Z,2024-12-17T08:51:28+00:00,1,693.6,False,301,274,3,8331,6,0,6,CLOSED
+8682,fix(backend): Add the lower cap of the user credits to zero,majdyz,2024-11-18T04:19:46Z,2024-11-18T13:12:43+00:00,1,8.88,True,2,1,1,1004,2,0,2,MERGED
+8681,fix(backend): Define executionmanager hostname for local docker-mode,majdyz,2024-11-18T04:10:58Z,2024-11-18T09:16:03+00:00,1,5.08,True,1,0,1,1242,2,0,2,MERGED
+8680,fix(frontend): Typing in the NodeKeyValueInput field causes the field to un-focus,majdyz,2024-11-18T02:57:12Z,2024-11-18T10:51:54+00:00,1,7.91,True,5,1,1,1301,2,0,2,MERGED
+8675,docs(platform): update docs for security ssrf,ntindle,2024-11-15T21:10:16Z,2024-11-20T15:29:45+00:00,1,114.32,True,63,3,2,43,3,0,3,MERGED
+8674,fix(backend): Add migrations to fix credentials inputs,Pwuts,2024-11-15T17:36:47Z,2024-11-15T19:18:02+00:00,1,1.69,True,97,0,3,896,2,0,2,MERGED
+8670,fix(frontend): Allow importing agent file with empty description,Pwuts,2024-11-15T14:37:25Z,2024-11-18T23:57:02+00:00,1,81.33,True,1,1,1,676,1,0,1,MERGED
+8666,fix(forge): Fix double `model` kwarg error in `AnthropicProvider.create_chat_completion(..)`,Pwuts,2024-11-15T14:25:22Z,2024-11-25T15:41:50+00:00,1,241.27,True,0,1,1,246,2,0,2,MERGED
+8665,fix(platform/builder): Add heartbeat mechanism,aarushik93,2024-11-15T13:47:49Z,2024-11-18T16:33:16+00:00,1,74.76,True,73,9,3,1237,3,0,3,MERGED
+8654,"Revert ""fix(platform): Remove migrate and encrypt function""",Pwuts,2024-11-14T21:42:06Z,2024-11-14T23:34:31+00:00,1,1.87,True,41,0,2,274,1,0,1,MERGED
+8653,feat(blocks): Add Open Router integration with a large selection of new models,Torantulino,2024-11-14T20:36:06Z,2024-11-18T14:03:51+00:00,7,89.46,True,97,3,9,1203,6,3,9,MERGED
+8649,fix(backend): Add execution persistence for execution scheduler service,majdyz,2024-11-14T09:30:27Z,2024-11-15T10:17:37+00:00,1,24.79,True,505,294,16,1635,5,0,5,MERGED
+8648,refactor(backend): Rename & move `IntegrationCredentialsStore` to backend,ntindle,2024-11-14T05:32:36Z,2024-11-29T12:01:43+00:00,27,366.49,True,246,187,42,555,10,11,21,MERGED
+8647,fix(frontend): Fix input-field update on empty & default value,majdyz,2024-11-14T04:33:25Z,2024-11-14T09:03:12+00:00,1,4.5,True,17,7,3,1524,2,0,2,MERGED
+8646,fix(platform): Remove migrate and encrypt function,aarushik93,2024-11-13T21:53:27Z,2024-11-13T23:09:26+00:00,1,1.27,True,0,41,2,1387,2,0,2,MERGED
+8645,Create SECURITY.md,ntindle,2024-11-13T21:18:18Z,2024-11-13T22:28:52+00:00,1,1.18,True,47,0,1,191,3,0,3,MERGED
+8644,feat(frontend): Center initial canvas ,majdyz,2024-11-13T18:03:03Z,2024-11-14T09:15:30+00:00,4,15.21,True,38,8,1,1194,4,1,5,MERGED
+8642,tweak(frontend): Add jina and unreal to hidden credentials list in frontend,Torantulino,2024-11-13T16:46:38Z,2024-11-14T09:33:01+00:00,2,16.77,True,2,0,1,0,2,0,2,MERGED
+8638,fix(frontend): Remove double title on credentials input,Pwuts,2024-11-13T14:20:31Z,2024-11-13T19:37:55+00:00,1,5.29,True,14,9,2,878,1,0,1,MERGED
+8634,feat(platform) : scheduling agent runner,Abhi1992002,2024-11-13T12:05:10Z,2024-11-14T15:18:57+00:00,1,27.23,True,1248,10,16,879,6,7,13,MERGED
+8633,feat(frontend): check auth before allowing actions to run,ntindle,2024-11-13T00:01:05Z,2024-11-14T09:45:31+00:00,2,33.74,True,28,0,3,500,2,0,2,MERGED
+8632,fix(classic): update docs for security deprecation ,ntindle,2024-11-12T22:34:50Z,2024-11-13T18:52:21+00:00,2,20.29,True,99,16,2,472,3,6,9,MERGED
+8630,Add provision for other languages in Youtube Video Block,vishesh10,2024-11-12T17:57:47Z,2024-11-14T09:20:47+00:00,1,39.38,True,16,1,1,387,6,0,6,MERGED
+8623,refactor(backend): Centralize Block Cost into a Single File,majdyz,2024-11-12T07:55:56Z,2024-11-12T14:10:00+00:00,2,6.23,True,250,216,4,1234,2,1,3,MERGED
+8618,build(deps-dev): bump ruff from 0.7.2 to 0.7.3 in /autogpt_platform/autogpt_libs in the development-dependencies group,dependabot,2024-11-11T18:11:28Z,2024-11-11T22:10:09+00:00,1,3.98,True,21,21,2,6898,1,0,1,MERGED
+8617,build(deps): bump supabase from 2.9.1 to 2.10.0 in /autogpt_platform/autogpt_libs in the production-dependencies group,dependabot,2024-11-11T18:11:04Z,2024-11-11T21:48:57+00:00,2,3.63,True,21,22,2,3242,1,0,1,MERGED
+8616,build(deps): bump cookie from 0.7.0 to 1.0.1 in /autogpt_platform/frontend,dependabot,2024-11-11T17:53:37Z,2024-11-12T00:15:45+00:00,1,6.37,True,5,5,2,3261,1,0,1,MERGED
+8615,build(deps-dev): bump the development-dependencies group in /autogpt_platform/frontend with 12 updates,dependabot,2024-11-11T17:52:55Z,2024-11-11T22:34:44+00:00,1,4.7,True,172,172,2,17071,1,0,1,MERGED
+8614,build(deps): bump the production-dependencies group in /autogpt_platform/frontend with 8 updates,dependabot,2024-11-11T17:51:03Z,2024-11-11T23:25:26+00:00,1,5.57,True,167,170,2,18225,1,0,1,MERGED
+8612,build(deps-dev): bump the development-dependencies group in /autogpt_platform/market with 2 updates,dependabot,2024-11-11T17:36:21Z,2024-11-11T22:13:44+00:00,1,4.62,True,25,25,2,7046,1,0,1,MERGED
+8611,build(deps-dev): bump the development-dependencies group in /autogpt_platform/backend with 3 updates,dependabot,2024-11-11T17:29:42Z,2024-11-11T23:31:13+00:00,1,6.03,True,29,29,2,7927,3,0,3,MERGED
+8610,build(deps): bump the production-dependencies group in /autogpt_platform/backend with 2 updates,dependabot,2024-11-11T17:28:04Z,2024-11-11T22:21:45+00:00,1,4.89,True,27,28,2,4061,1,0,1,MERGED
+8609,build(deps): bump peter-evans/repository-dispatch from 2 to 3,dependabot,2024-11-11T17:21:53Z,2024-11-11T19:59:13+00:00,1,2.62,True,2,2,2,7301,1,0,1,MERGED
+8602,feat(platform): User API key management,Abhi1992002,2024-11-09T11:08:01Z,2025-01-09T09:38:07+00:00,2,1462.5,False,360,0,4,332,10,2,12,CLOSED
+8597,feat(platform): Add api generator functions and endpoints,Abhi1992002,2024-11-08T13:06:26Z,2024-11-14T14:33:27+00:00,7,145.45,True,523,3,4,2022,4,7,11,MERGED
+8596,fix(backend): Fix iteration and timer block,majdyz,2024-11-08T09:52:04Z,2024-11-19T04:38:34+00:00,1,258.77,False,43,17,2,1040,7,0,7,CLOSED
+8593,feat(backend): Add API key DB table,aarushik93,2024-11-08T01:54:11Z,2024-11-08T17:48:37+00:00,13,15.91,True,84,0,2,1338,1,3,4,MERGED
+8584,dx: Fix `pre-commit` config,Pwuts,2024-11-07T20:25:03Z,2024-11-08T16:06:24+00:00,1,19.69,True,190,34,3,822,2,0,2,MERGED
+8583,fix(searchtheweb): Fix the Jina Search Block,aarushik93,2024-11-07T18:21:20Z,2024-11-07T23:26:18+00:00,3,5.08,True,90,47,5,1023,1,1,2,MERGED
+8581,refactor(backend): Remove config.default.json,aarushik93,2024-11-07T04:29:38Z,2024-11-08T03:20:15+00:00,1,22.84,True,1,10,2,981,2,0,2,MERGED
+8578,feat(backend): Enable json parsing with typing & conversion,majdyz,2024-11-07T03:07:22Z,2024-11-15T10:29:00+00:00,4,199.36,True,51,12,4,1121,16,1,17,MERGED
+8575,fix(frontend): Broken UI caused by lack of error propagation on Run,majdyz,2024-11-06T13:37:42Z,2024-11-07T01:49:32+00:00,3,12.2,True,56,21,4,1266,1,2,3,MERGED
+8574,"feat(backend): Improve pyro reliability by adding connection timeout, retry, cleanup, and dynamic connection thread size",majdyz,2024-11-06T12:15:37Z,2024-11-07T04:34:33+00:00,9,16.32,True,45,5,4,1455,1,2,3,MERGED
+8567,build(deps): bump the production-dependencies group across 1 directory with 11 updates,dependabot,2024-11-05T20:43:03Z,2024-11-05T23:32:15+00:00,1,2.82,True,79,273,4,19681,1,0,1,MERGED
+8566,update dev from master,ntindle,2024-11-05T18:58:10Z,2024-11-06T17:02:16+00:00,2,22.07,False,5,3,2,864,2,1,3,CLOSED
+8561,fix(docker): Removed all docker containers that are not strictly required by the platform,Swiftyos,2024-11-05T09:10:15Z,2024-11-05T15:00:13+00:00,2,5.83,False,233,62,2,965,3,1,4,CLOSED

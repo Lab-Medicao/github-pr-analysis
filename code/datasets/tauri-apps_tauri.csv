@@ -1,4 +1,5 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+14256,chore(deps): update dependency rollup to v4.52.4,renovate,2025-10-06T09:48:00Z,2025-10-06T11:10:02+00:00,1,1.37,True,104,104,2,1172,1,0,1,MERGED
 14230,chore(deps): update dependency rollup to v4.52.3,renovate,2025-09-30T08:59:06Z,2025-10-02T08:34:29+00:00,1,47.59,True,104,104,2,1286,1,0,1,MERGED
 14225,Fix `clippy::used_underscore_binding` lint in command macro,rmburg,2025-09-28T09:57:11Z,2025-09-28T11:21:58+00:00,1,1.41,True,1,1,1,775,1,0,1,MERGED
 14223,Add support for adaptive and themed  icons on android ,kandrelczyk,2025-09-27T12:08:44Z,2025-10-01T12:41:54+00:00,4,96.55,True,504,94,2,352,7,2,9,MERGED
@@ -149,3 +150,852 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 13455,fix: mock context without `dynamic-acl` feature,Legend-Master,2025-05-17T03:22:39Z,2025-05-17T10:08:54+00:00,1,6.77,True,16,16,6,95,1,0,1,MERGED
 13449,docs: fix missing docs for a few methods,Legend-Master,2025-05-15T15:17:15Z,2025-05-15T16:17:28+00:00,1,1.0,True,30,4,3,0,1,0,1,MERGED
 13443,fix(macos): run `app.set_theme` on main thread,Legend-Master,2025-05-14T15:39:08Z,2025-05-15T07:13:24+00:00,2,15.57,True,28,20,2,10,1,1,2,MERGED
+13441,refactor: reduce the code in macro `pass`,Legend-Master,2025-05-14T15:10:24Z,2025-05-15T01:26:49+00:00,1,10.27,True,26,26,1,119,1,0,1,MERGED
+13429,fix: main binary name can't contain dots,Legend-Master,2025-05-13T16:15:38Z,2025-05-14T08:50:12+00:00,1,16.58,True,121,79,11,368,1,0,1,MERGED
+13426,fix(cli): slow dev startup,Legend-Master,2025-05-13T09:32:25Z,2025-05-14T08:48:05+00:00,8,23.26,True,37,48,3,190,2,2,4,MERGED
+13423,fix(window): ensure set_window_effects runs on main thread in WindowBuilder (#13422),kingsword09,2025-05-13T03:10:19Z,2025-05-16T21:38:13+00:00,4,90.47,True,9,4,2,63,3,2,5,MERGED
+13418,refactor: put dynamic acl to a feature,Legend-Master,2025-05-12T06:22:27Z,2025-05-16T14:54:24+00:00,4,104.53,True,274,253,17,672,2,1,3,MERGED
+13417,docs(api): fix incorrect example and clarify description for dirname in path API docs,MidnightCrowing,2025-05-12T04:55:11Z,2025-05-12T08:35:35+00:00,2,3.67,True,2,2,1,286,4,0,4,MERGED
+13410,chore: feature gate html manipulation code,Legend-Master,2025-05-10T03:20:18Z,2025-05-10T16:13:20+00:00,1,12.88,True,30,12,8,243,6,0,6,MERGED
+13409,chore(deps): bump ring from 0.17.8 to 0.17.14,dependabot,2025-05-09T20:19:46Z,2025-05-10T01:58:21+00:00,1,5.64,True,5,6,1,3574,1,0,1,MERGED
+13406,feat: check if webview runtime is accessible when creating a webview,amrbashir,2025-05-09T16:23:59Z,2025-05-10T03:00:10+00:00,5,10.6,True,169,0,7,0,1,3,4,MERGED
+13401,fix(macOS): caculation for work area,oscartbeaumont,2025-05-09T01:09:25Z,2025-05-09T11:36:12+00:00,1,10.45,True,5,1,2,1154,1,0,1,MERGED
+13399,fix(windows): Set drag and drop to false in window builder in `disable_drag_and_drop_handler()`,guillemcordoba,2025-05-08T17:25:52Z,2025-06-26T15:39:19+00:00,1,1174.22,False,6,0,1,194,1,0,1,CLOSED
+13398,chore(deps): update dependency @types/node to v22.15.18 (1.x),renovate,2025-05-08T12:16:58Z,2025-05-16T15:09:04+00:00,1,194.87,True,5,5,2,640,2,0,2,MERGED
+13397,chore(deps): update rust crate duct to v1 (dev),renovate,2025-05-08T12:16:42Z,2025-06-03T14:54:27+00:00,1,626.63,True,15,43,2,675,2,0,2,MERGED
+13393,chore(deps/cli): upgrade yarn.lock (v1),FabianLars,2025-05-07T20:21:00Z,2025-05-12T12:41:26+00:00,1,112.34,True,394,460,34,0,3,0,3,MERGED
+13392,fix(cli): don't canonicalize cargo's target dir in frontendDist verification,FabianLars,2025-05-07T18:19:14Z,2025-05-07T21:00:24+00:00,1,2.69,True,3,3,1,264,2,0,2,MERGED
+13388,chore(deps): update dependency eslint-config-prettier to v10.1.5 (1.x),renovate,2025-05-07T12:29:44Z,2025-05-16T15:47:48+00:00,1,219.3,True,5,5,2,1078,2,0,2,MERGED
+13374,docs: Fix description and add example for `WebviewWindowBuilder::from_config`,miguelpduarte,2025-05-04T09:39:34Z,2025-05-05T12:37:53+00:00,1,26.97,True,19,2,1,594,1,0,1,MERGED
+13368,docs: Added more detailed comments to menu `popup` method and DPI-related classes,geeseofbeverlyroad,2025-05-03T13:37:32Z,2025-05-05T12:25:31+00:00,1,46.8,True,15,1,2,290,1,0,1,MERGED
+13365,fix(tauri-runtime-wry): window prevent overflow monitor check,lucasfernog,2025-05-02T17:10:25Z,2025-05-03T17:31:44+00:00,1,24.36,True,8,3,2,350,1,0,1,MERGED
+13360,fix: Can't register multiple plugin listeners for an event,velocitysystems,2025-05-01T14:16:53Z,2025-05-02T18:43:47+00:00,1,28.45,True,6,0,2,300,1,0,1,MERGED
+13358,feat: add `--root-certificate-path` option for mobile dev,lucasfernog,2025-05-01T12:18:26Z,2025-08-16T12:13:10+00:00,2,2567.91,True,68,1,5,294,2,2,4,MERGED
+13355,chore(deps): bump js dependencies,Legend-Master,2025-05-01T03:45:22Z,2025-05-01T09:29:35+00:00,1,5.74,True,326,294,6,13,2,0,2,MERGED
+13334,fix(bundler): custom sign command failing to sign uninstaller executable,lucasfernog,2025-04-28T19:42:56Z,2025-04-30T18:21:14+00:00,1,46.64,True,15,1,2,440,1,0,1,MERGED
+13325,refactor: rework `transformCallback`,Legend-Master,2025-04-27T09:09:32Z,2025-05-05T12:15:38+00:00,1,195.1,True,134,97,12,601,2,0,2,MERGED
+13324,"fix path joining behavior where path.join('', 'a') incorrectly returns ""/a"" instead of ""a"" (#13313)",kingsword09,2025-04-27T03:31:47Z,2025-04-27T06:18:28+00:00,1,2.78,True,35,6,2,93,1,0,1,MERGED
+13322,refactor: use `WindowConfig` for `create_webview`,Legend-Master,2025-04-27T03:07:43Z,2025-05-01T12:43:25+00:00,1,105.59,True,15,81,3,421,2,0,2,MERGED
+13319,feat: expose the setAutoResize API for webviews in @tauri-apps/api (#13318),kingsword09,2025-04-27T00:56:33Z,2025-04-27T02:27:23+00:00,1,1.51,True,54,1,6,66,1,0,1,MERGED
+13317,fix(windows) typos in Hebrew translation for NSIS installer,neriyaco,2025-04-26T19:27:40Z,2025-04-27T03:09:20+00:00,1,7.69,True,3,3,1,59,1,0,1,MERGED
+13316,fix: use app's resource table for storing tray icons,Legend-Master,2025-04-26T16:34:50Z,2025-05-06T11:11:49+00:00,1,234.62,True,91,103,5,124,3,0,3,MERGED
+13306,fix(core): immediately unregister event listener on unlisten call,lucasfernog,2025-04-25T12:23:49Z,2025-05-05T13:46:05+00:00,1,241.37,True,62,20,8,390,1,0,1,MERGED
+13304,feat: add support for `Service-Woker-Allowed` HTTP header,39zde,2025-04-25T08:47:36Z,2025-05-06T11:15:19+00:00,1,266.46,True,45,0,4,340,1,0,1,MERGED
+13301,chore(deps): update dependency @types/node to v22.15.15 (1.x),renovate,2025-04-25T02:12:21Z,2025-05-07T19:53:58+00:00,1,305.69,True,5,5,2,639,1,0,1,MERGED
+13294,fix: Allow the use of target dir inside frontendDist/distDir(#13287),kingsword09,2025-04-24T15:01:02Z,2025-04-27T19:37:51+00:00,3,76.61,True,51,22,3,131,2,4,6,MERGED
+13288,Use `format_callback::format_raw` for channels,oscartbeaumont,2025-04-23T23:40:45Z,2025-04-29T00:45:22+00:00,7,121.08,True,32,20,3,531,6,3,9,MERGED
+13282,Apply Version Updates From Current Changes,github-actions,2025-04-23T01:52:30Z,2025-06-24T18:50:45+00:00,1,1504.97,True,270,285,68,10746,2,0,2,MERGED
+13279,docs(webview): corrected examples to ensure webview is created after window initialization,situ2001,2025-04-22T17:02:16Z,2025-04-23T02:56:52+00:00,1,9.91,True,53,43,1,1042,1,0,1,MERGED
+13278,fix: add proxy URL support to Webview at Rust-side.,situ2001,2025-04-22T16:43:04Z,2025-04-23T01:38:44+00:00,1,8.93,True,9,0,2,524,1,0,1,MERGED
+13276,feat: add workarea getter for monitor,amrbashir,2025-04-22T13:48:26Z,2025-04-23T01:29:03+00:00,4,11.68,True,153,85,20,0,2,1,3,MERGED
+13269,"enhance(core): respect `data-tauri-drag-region=""false""`",amrbashir,2025-04-21T01:56:55Z,2025-04-21T03:03:55+00:00,3,1.12,True,22,8,2,0,1,1,2,MERGED
+13265,chore(deps): update rust crate brotli to v8 (1.x),renovate,2025-04-20T02:40:25Z,2025-05-17T13:44:02+00:00,1,659.06,True,7,7,3,672,1,0,1,MERGED
+13264,chore(deps): update rust crate brotli to v8 (dev),renovate,2025-04-20T02:40:14Z,2025-04-20T12:23:13+00:00,1,9.72,True,6,6,3,607,1,0,1,MERGED
+13260,fix(bundler): set ARCH env var for appimagetool,FabianLars,2025-04-18T11:38:12Z,2025-05-06T11:48:56+00:00,1,432.18,True,12,1,2,13,1,0,1,MERGED
+13255,fix(cli): wrong export methods for iOS building (#11092),jmilesj,2025-04-17T11:53:40Z,2025-08-29T19:03:28+00:00,1,3223.16,False,84,22,4,826,6,1,7,CLOSED
+13249,chore(deps): update rust crate jsonschema to 0.30 (dev),renovate,2025-04-16T21:32:44Z,2025-04-20T12:37:48+00:00,1,87.08,True,7,5,2,1258,1,0,1,MERGED
+13241,fix(core): make tauri-runtime-wry optional with features,Legend-Master,2025-04-16T02:06:28Z,2025-04-16T06:50:12+00:00,1,4.73,True,10,5,2,73,1,0,1,MERGED
+13240,fix(ci): ubuntu 20.04 no longer exists,lucasfernog,2025-04-15T19:01:22Z,2025-04-15T20:45:05+00:00,1,1.73,True,6,7,2,0,2,0,2,MERGED
+13236,fix: fileAssociations missing LSHandlerRank on macOS (#13159),kingsword09,2025-04-15T06:13:59Z,2025-04-15T16:45:46+00:00,3,10.53,True,215,4,9,91,3,1,4,MERGED
+13235,fix: using center and prevent overflow together crashes,Legend-Master,2025-04-15T05:25:27Z,2025-04-15T08:59:02+00:00,1,3.56,True,2,2,1,102,1,0,1,MERGED
+13227,fix(core): use `Headers` in `sendIpcMessage`,Legend-Master,2025-04-14T00:46:15Z,2025-04-14T20:58:20+00:00,6,20.2,True,19,8,4,257,2,1,3,MERGED
+13217,fix(macros): invoke handler stack overflow,Legend-Master,2025-04-12T15:45:58Z,2025-04-14T21:52:23+00:00,2,54.11,True,24,12,2,372,1,1,2,MERGED
+13209,feat: bundle type detection at runtime via binary patching,kandrelczyk,2025-04-11T20:18:35Z,2025-07-07T15:08:01+00:00,6,2082.82,True,376,62,19,422,12,4,16,MERGED
+13203,ci: remove redundant corepack enable,trivikr,2025-04-11T06:45:53Z,2025-04-11T12:04:19+00:00,1,5.31,True,15,47,9,88,4,0,4,MERGED
+13185,feat: add `set_dock_visibility` method,1111mp,2025-04-09T09:23:45Z,2025-04-11T18:13:08+00:00,1,56.82,True,168,4,13,2419,1,0,1,MERGED
+13175,feat(core): make `invoke_system` take `AsRef<str>`,Legend-Master,2025-04-08T02:32:04Z,2025-04-11T23:30:06+00:00,1,92.97,True,10,4,3,0,1,0,1,MERGED
+13172,chore(deps): update rust crate tokio to v1.43.1 [security] (dev),renovate,2025-04-07T22:28:06Z,2025-04-08T01:35:03+00:00,1,3.12,True,3,3,1,1118,1,0,1,MERGED
+13163,"chore: update tao, wry, windows, webview2-com",lucasfernog,2025-04-07T14:49:37Z,2025-04-09T11:15:31+00:00,2,44.43,True,166,87,13,104,4,0,4,MERGED
+13152,feat(cli): try detect package manager from env,Legend-Master,2025-04-06T03:06:45Z,2025-04-13T00:01:06+00:00,1,164.91,True,36,12,3,27,1,0,1,MERGED
+13150,fix(core): missing `core:` in referenced commands,Legend-Master,2025-04-05T14:45:35Z,2025-04-13T00:03:19+00:00,1,177.3,True,13,9,2,62,2,0,2,MERGED
+13146,chore(example): migrate API example to svelte 5,Legend-Master,2025-04-05T07:41:56Z,2025-04-13T00:11:21+00:00,1,184.49,True,319,284,10,96,1,0,1,MERGED
+13145,fix: make `isTauri` runtime-unrelated,typed-sigterm,2025-04-05T05:37:44Z,2025-04-13T00:30:03+00:00,1,186.87,True,8,2,3,53,2,0,2,MERGED
+13144,chore(deps): update dependency typescript to v5.8.3 (1.x),renovate,2025-04-05T02:10:57Z,2025-04-10T13:37:51+00:00,2,131.45,True,6,6,3,706,2,0,2,MERGED
+13140,chore(deps): bump openssl from 0.10.70 to 0.10.72,dependabot,2025-04-04T20:54:04Z,2025-04-05T02:07:42+00:00,1,5.23,True,4,4,1,3715,1,0,1,MERGED
+13138,chore(deps-dev): bump vite from 6.2.4 to 6.2.5,dependabot,2025-04-04T16:02:13Z,2025-04-05T02:08:13+00:00,1,10.1,True,31,31,2,1940,2,0,2,MERGED
+13136,fix: channel callback never cleaned up from `window`,Legend-Master,2025-04-04T13:21:20Z,2025-04-12T13:31:25+00:00,6,192.17,True,226,122,10,266,4,2,6,MERGED
+13135,enhance(core): change eval to take `Into<String>`,Legend-Master,2025-04-04T03:03:10Z,2025-04-04T08:06:23+00:00,1,5.05,True,19,10,5,43,1,0,1,MERGED
+13131,chore: fix a few internal docs and apply clippy suggestions,Legend-Master,2025-04-03T03:23:21Z,2025-04-03T15:57:36+00:00,1,12.57,True,48,64,27,25,1,0,1,MERGED
+13130,chore(core)!: remove re-exported WebviewAttributes,Legend-Master,2025-04-03T03:21:00Z,2025-04-11T23:34:16+00:00,1,212.22,True,5,1,2,27,1,0,1,MERGED
+13122,docs: add `SafePathBuf` examples,WofWca,2025-04-01T20:59:00Z,2025-04-02T17:02:48+00:00,2,20.06,True,11,0,1,0,1,0,1,MERGED
+13120,fix(cli): preserve null when merging patches,Legend-Master,2025-04-01T12:30:26Z,2025-04-01T16:09:50+00:00,1,3.66,True,90,8,1,20,3,0,3,MERGED
+13117,fix(cli): merge config based on the first one,Legend-Master,2025-04-01T05:10:13Z,2025-04-01T09:18:14+00:00,1,4.13,True,13,5,2,46,3,0,3,MERGED
+13111,chore(deps-dev): bump vite from 6.2.3 to 6.2.4,dependabot,2025-03-31T18:41:35Z,2025-04-01T01:05:11+00:00,1,6.39,True,137,137,2,1916,1,0,1,MERGED
+13096,fix(cli): `tauri info` can't find the latest version for rust crates,Legend-Master,2025-03-29T14:23:43Z,2025-03-29T15:45:38+00:00,1,1.37,True,51,24,5,55,1,0,1,MERGED
+13093,fix: suppress deprecated warning in tray icon codegen,Legend-Master,2025-03-29T05:59:01Z,2025-03-31T01:54:08+00:00,2,43.92,True,8,0,2,10,3,0,3,MERGED
+13090,feat: macOS/iOS: add option to disable or enable link previews when building a webview,Simon-Laux,2025-03-28T18:19:23Z,2025-04-11T12:00:34+00:00,1,329.69,True,104,1,12,936,1,0,1,MERGED
+13079,"feat(cli): allow for toml files in --config arg, closes #7859",Pietagorh,2025-03-26T01:49:12Z,2025-03-30T16:11:47+00:00,10,110.38,True,31,11,11,155,4,5,9,MERGED
+13076,feat: expose api to run initialization scripts on all frames.,Simon-Laux,2025-03-25T18:05:22Z,2025-04-02T00:41:35+00:00,16,174.6,True,199,19,6,1262,3,9,12,MERGED
+13072,chore(deps-dev): bump vite from 6.2.0 to 6.2.3,dependabot,2025-03-25T14:02:38Z,2025-03-26T07:10:34+00:00,1,17.13,True,150,150,2,4829,2,0,2,MERGED
+13066,fix #13059: Add generic parameter to emit and emitTo,ahaoboy,2025-03-24T13:03:59Z,2025-03-25T03:34:20+00:00,2,14.51,True,17,13,4,12,1,1,2,MERGED
+13062,chore(deps): update dependency rollup to v4.37.0 (dev),renovate,2025-03-23T18:26:00Z,2025-03-24T13:14:02+00:00,1,18.8,True,101,92,2,1299,1,0,1,MERGED
+13057,enhance: include permission group permissions in the generated schema,Legend-Master,2025-03-23T04:49:38Z,2025-03-23T13:35:45+00:00,17,8.77,True,112,29,14,241,1,7,8,MERGED
+13042,chore(deps): update dependency @types/node to v22.14.0 (1.x),renovate,2025-03-21T11:01:19Z,2025-04-10T13:37:18+00:00,1,482.6,True,10,10,2,639,2,0,2,MERGED
+13040,fix: `run_return` not responding to `restart`,Legend-Master,2025-03-21T02:14:59Z,2025-04-02T12:54:39+00:00,1,298.66,True,47,45,2,202,2,0,2,MERGED
+13033,fix: don't ship global api bundle if withGlobalTauri is false,Legend-Master,2025-03-20T14:15:56Z,2025-03-20T15:37:31+00:00,1,1.36,True,41,28,10,239,11,0,11,MERGED
+13032,fix: channel no longer being always allowed,Legend-Master,2025-03-20T02:28:00Z,2025-03-20T15:19:56+00:00,1,12.87,True,24,71,8,370,7,0,7,MERGED
+13030,feat: Support custom CFBundleVersion for iOS and macOS,velocitysystems,2025-03-19T17:28:47Z,2025-04-12T12:28:48+00:00,3,571.0,True,200,40,15,624,7,1,8,MERGED
+13016,chore(deps): bump zip from 2.2.2 to 2.3.0,dependabot,2025-03-18T00:20:12Z,2025-03-18T03:35:36+00:00,1,3.26,True,5,66,1,3238,1,0,1,MERGED
+13015,docs: improve Capability docs: mention webviews,WofWca,2025-03-17T17:14:22Z,2025-03-18T07:46:48+00:00,1,14.54,True,6,5,4,0,1,0,1,MERGED
+13013,docs: update `.disable_javascript()` docs,WofWca,2025-03-17T15:52:31Z,2025-03-18T07:47:27+00:00,1,15.92,True,0,8,2,197,2,0,2,MERGED
+13012,feat(core): resolve file names from Android content URIs,lucasfernog,2025-03-17T14:06:02Z,2025-03-18T11:29:08+00:00,1,21.39,True,123,11,6,405,8,0,8,MERGED
+13006,fix: always delete auto start registry entry,Legend-Master,2025-03-17T01:57:25Z,2025-03-17T11:21:14+00:00,1,9.4,True,0,2,1,281,1,0,1,MERGED
+13002,fix: align log like Cargo,nanoqsh,2025-03-16T22:06:18Z,2025-03-17T00:39:36+00:00,1,2.56,True,2,2,1,110,1,0,1,MERGED
+13001,docs: improve `tauri_build::build` & `try_build`,WofWca,2025-03-16T20:26:54Z,2025-03-17T12:28:10+00:00,4,16.02,True,12,9,1,304,1,2,3,MERGED
+13000,docs: clarify Capability::windows/webviews OR nature,WofWca,2025-03-16T15:04:57Z,2025-03-17T11:29:58+00:00,2,20.42,True,15,9,4,484,3,3,6,MERGED
+12998,fix: use bun.lock to identify bun's lockfile (fix #12914),jason89521,2025-03-16T13:30:18Z,2025-03-16T17:00:04+00:00,1,3.5,True,22,18,2,10,3,0,3,MERGED
+12996,chore: fix missing .md on request-restart.md,Legend-Master,2025-03-16T11:45:29Z,2025-03-16T13:20:26+00:00,1,1.58,True,0,0,1,34,1,0,1,MERGED
+12995,chore: examples: fix & simplify helloworld,WofWca,2025-03-16T08:20:24Z,2025-03-16T09:50:07+00:00,1,1.5,True,1,10,1,286,2,0,2,MERGED
+12994,refactor: remove permission description from runtime,Legend-Master,2025-03-16T04:06:31Z,2025-03-16T10:33:41+00:00,1,6.45,True,15,10,4,656,1,0,1,MERGED
+12992,chore: fix helloworld example hang on Windows,WofWca,2025-03-15T20:04:48Z,2025-03-16T08:20:41+00:00,1,12.26,False,1,1,1,265,1,0,1,CLOSED
+12989,fix: Don't minify api dist files,FabianLars,2025-03-15T16:33:22Z,2025-03-16T10:11:42+00:00,1,17.64,True,1,1,1,16,1,0,1,MERGED
+12987,chore: remove 2.0.0-rc references,lucasfernog,2025-03-15T11:24:41Z,2025-03-15T15:03:09+00:00,1,3.64,True,4,4,4,0,1,0,1,MERGED
+12983,chore: Fix example readme instructions. Add `pnpm build:debug`.,FabianLars,2025-03-15T10:02:59Z,2025-03-15T15:51:40+00:00,1,5.81,True,10,16,4,13,6,0,6,MERGED
+12971,fix(core): `AssetResolver.get()`: don't skip first char,WofWca,2025-03-13T19:56:31Z,2025-03-14T03:29:56+00:00,1,7.56,True,8,2,2,586,1,0,1,MERGED
+12970,feat(cli): allow merging multiple configuration values,lucasfernog,2025-03-13T18:50:15Z,2025-03-14T15:04:58+00:00,1,20.25,True,161,90,16,360,1,0,1,MERGED
+12958,feat(tauri-build): set CompanyName for Windows,Enigmatrix,2025-03-12T10:58:40Z,2025-03-13T07:35:56+00:00,1,20.62,True,11,0,1,147,8,0,8,MERGED
+12944,add `Window.is_always_on_top()` and `WebviewWindow.is_always_on_top()`,Simon-Laux,2025-03-10T03:12:00Z,2025-03-13T21:02:01+00:00,1,89.83,True,98,2,12,29,6,0,6,MERGED
+12940,chore(deps): update rust crate cargo_toml to 0.22 (dev),renovate,2025-03-09T15:20:29Z,2025-03-12T12:42:37+00:00,1,69.37,True,4,4,3,686,2,0,2,MERGED
+12938,Add Hebrew translation to NSIS languages,neriyaco,2025-03-09T04:23:22Z,2025-04-13T01:04:30+00:00,1,836.69,True,32,0,2,73,1,0,1,MERGED
+12935,fix: webview closing event error,tk103331,2025-03-08T19:46:26Z,2025-03-10T04:48:02+00:00,4,33.03,True,7,2,3,631,1,3,4,MERGED
+12933,chore(deps): update dependency @types/node to v22.13.10 (1.x),renovate,2025-03-08T09:34:37Z,2025-03-10T17:45:45+00:00,1,56.19,True,5,5,2,639,2,0,2,MERGED
+12932,chore(deps): update dependency rollup to v4.35.0 (dev),renovate,2025-03-08T09:34:26Z,2025-03-09T02:12:56+00:00,1,16.64,True,92,92,2,1285,2,0,2,MERGED
+12917,chore(deps): update dependency eslint-config-prettier to v10.1.1 (1.x),renovate,2025-03-07T07:09:36Z,2025-03-10T18:01:27+00:00,1,82.86,True,5,5,2,1490,2,0,2,MERGED
+12916,chore(deps): update dependency eslint-config-prettier to v10.1.1 (dev),renovate,2025-03-07T07:09:25Z,2025-03-09T02:12:09+00:00,1,43.05,True,6,6,2,1490,2,0,2,MERGED
+12912,feature(linux) add mousewheel bindings for zoom functions,Daedaluz,2025-03-06T14:36:49Z,2025-03-15T16:29:13+00:00,1,217.87,True,26,6,4,123,1,0,1,MERGED
+12911,fix(core): add ctrl '+' key as zoom in,Daedaluz,2025-03-06T14:32:06Z,2025-03-15T13:16:29+00:00,1,214.74,True,6,1,2,127,2,0,2,MERGED
+12907,refactor: use a single closure for filtering in `emit_to`,Legend-Master,2025-03-06T12:01:46Z,2025-03-15T16:46:51+00:00,2,220.75,True,34,43,2,1979,2,1,3,MERGED
+12900,add `AppHandle.fetch_data_store_identifiers` and `AppHandle.remove_data_store`,Simon-Laux,2025-03-05T23:52:44Z,2025-03-13T21:17:22+00:00,1,189.41,True,286,11,13,349,1,0,1,MERGED
+12890,feat: add a new option to remove unused commands,Legend-Master,2025-03-04T09:02:15Z,2025-03-15T16:46:08+00:00,16,271.73,True,695,274,40,728,16,4,20,MERGED
+12885,chore(deps): update dependency @types/node to v22.13.9 (1.x),renovate,2025-03-03T19:43:03Z,2025-03-04T22:41:32+00:00,1,26.97,True,5,5,2,638,2,0,2,MERGED
+12884,fix: allow double `--` in permissions as command can have double `__`,oscartbeaumont,2025-03-03T14:42:06Z,2025-03-14T15:13:48+00:00,2,264.53,True,7,1,2,320,1,1,2,MERGED
+12878,fix(core): remove `TSend: Clone` for `Channel` in commands,amrbashir,2025-03-03T07:38:29Z,2025-03-03T15:41:11+00:00,1,8.04,True,1,1,1,18,1,0,1,MERGED
+12874,feat: introduce `request_restart`,Legend-Master,2025-03-03T02:43:21Z,2025-03-16T11:42:29+00:00,1,320.99,True,40,67,3,143,1,0,1,MERGED
+12873,chore(deps): update dependency prettier to v3.5.3 (1.x),renovate,2025-03-03T02:23:17Z,2025-03-04T22:52:37+00:00,1,44.49,True,10,10,4,699,2,0,2,MERGED
+12871,"fix(cli): Tauri project path resolution, closes #3527 #12779",lucasfernog,2025-03-02T19:05:09Z,2025-03-03T11:18:01+00:00,2,16.21,True,33,5,2,58,3,0,3,MERGED
+12870,fix(core): compatibility check for Android SDK < 24,lucasfernog,2025-03-02T18:29:09Z,2025-03-02T20:56:25+00:00,1,2.45,True,14,0,2,333,1,0,1,MERGED
+12861,chore(deps): update dependency @types/node to v22.13.8 (1.x),renovate,2025-02-28T22:23:19Z,2025-03-01T10:16:56+00:00,1,11.89,True,5,5,2,638,2,0,2,MERGED
+12853,chore(deps): update dependency typescript to v5.8.2 (1.x),renovate,2025-02-28T17:26:55Z,2025-03-01T10:43:22+00:00,1,17.27,True,6,6,3,706,2,0,2,MERGED
+12848,fix(windows): ensure APIs exist before using it,amrbashir,2025-02-28T09:54:29Z,2025-02-28T12:46:17+00:00,2,2.86,True,138,10,6,13,3,0,3,MERGED
+12839,docs: Update wording from #12830,FabianLars,2025-02-27T20:17:46Z,2025-02-27T22:12:19+00:00,1,1.91,True,18,16,2,64,2,0,2,MERGED
+12837,feat(api): implement `getIdentifier()` to access `tauri.conf.json` identifier,niladrix719,2025-02-27T12:11:12Z,2025-03-02T18:12:34+00:00,2,78.02,True,58,1,6,761,7,1,8,MERGED
+12833,fix(deps): os webview not gated in wry feature,Legend-Master,2025-02-27T07:18:51Z,2025-02-27T08:38:20+00:00,3,1.32,True,13,4,2,86,1,1,2,MERGED
+12832,chore(deps): update js dependencies,Legend-Master,2025-02-27T02:17:18Z,2025-02-27T09:15:32+00:00,1,6.97,True,362,439,6,57,2,0,2,MERGED
+12830,docs: copy over important missing docs from wry that the custom uri schemes are implemented differently on windows and android,Simon-Laux,2025-02-26T21:20:26Z,2025-02-27T01:10:08+00:00,1,3.83,True,42,0,2,98,1,0,1,MERGED
+12826,Apply Version Updates From Current Changes,github-actions,2025-02-26T20:00:38Z,2025-02-28T13:14:08+00:00,1,41.23,True,41,28,15,787,0,0,0,MERGED
+12825,chore(deps): update rust crate resvg to 0.45.0 (dev),renovate,2025-02-26T16:43:41Z,2025-02-26T21:00:52+00:00,1,4.29,True,19,29,2,1968,1,0,1,MERGED
+12822,chore(deps): update dependency eslint-config-prettier to v10.0.2 (dev),renovate,2025-02-26T15:14:59Z,2025-02-26T19:46:52+00:00,1,4.53,True,6,6,2,834,2,0,2,MERGED
+12821,feat: add `WebviewBuilder.disable_javascript` and `WebviewWindowBuilder.disable_javascript`,Simon-Laux,2025-02-26T14:30:46Z,2025-03-02T17:54:34+00:00,1,99.4,True,72,4,14,522,1,0,1,MERGED
+12818,feat: add `Webview.reload` and `WebviewWindow.reload`,Simon-Laux,2025-02-26T06:01:27Z,2025-03-02T18:11:25+00:00,2,108.17,True,40,0,6,527,1,0,1,MERGED
+12817,enhance(windows): disable our in-client resizing for undecorated window with shadows,amrbashir,2025-02-26T04:00:50Z,2025-02-26T15:21:46+00:00,2,11.35,True,199,61,5,24,3,0,3,MERGED
+12801,fix(cli): Hide `updater` bundle target in help output,FabianLars,2025-02-24T12:57:05Z,2025-02-25T18:25:28+00:00,1,29.47,True,7,1,1,19,1,0,1,MERGED
+12786,fix(linux): Add missing RPM signature,kandrelczyk,2025-02-23T00:13:17Z,2025-02-24T13:52:06+00:00,1,37.65,True,6,0,2,208,2,0,2,MERGED
+12781,chore(deps): update dependency prettier to v3.5.2 (1.x),renovate,2025-02-22T20:33:59Z,2025-02-22T22:12:01+00:00,1,1.63,True,21,28,13,1150,2,0,2,MERGED
+12778,chore(deps): update dependency @types/node to v22.13.5 (1.x),renovate,2025-02-22T18:01:25Z,2025-02-22T20:32:43+00:00,1,2.52,True,5,5,2,638,2,0,2,MERGED
+12760,chore: align `.gitignore` of android template with docs,typed-sigterm,2025-02-21T13:33:59Z,2025-03-15T15:27:29+00:00,2,529.89,False,2,1,1,26,1,1,2,CLOSED
+12759,fix(bundler): bundle resources to correct path during RPM bundling when resources are specified as a map,nekename,2025-02-21T10:55:27Z,2025-03-09T15:19:19+00:00,1,388.4,True,9,4,2,1275,6,0,6,MERGED
+12750,chore(deps): update dependency globals to v16 (dev),renovate,2025-02-20T13:23:33Z,2025-02-20T14:26:14+00:00,1,1.04,True,9,3,2,915,2,0,2,MERGED
+12745,fix(tauri): fix `use-after-free` unsoundness for state manager,WSH032,2025-02-20T03:30:26Z,2025-02-20T05:08:10+00:00,5,1.63,False,131,62,10,35,1,3,4,CLOSED
+12733,chore: cleanup a few unneeded clones,Legend-Master,2025-02-18T03:36:24Z,2025-02-18T10:35:40+00:00,1,6.99,True,27,52,6,0,1,0,1,MERGED
+12723,fix(tauri): deprecate `Manager::unmanage` to fix `use-after-free`,WSH032,2025-02-17T08:00:52Z,2025-02-21T00:38:31+00:00,1,88.63,True,76,44,3,394,17,0,17,MERGED
+12710,feat(tauri): derive `Clone` for `tauri::ExitRequestApi`,WSH032,2025-02-15T15:31:23Z,2025-03-15T13:26:22+00:00,1,669.92,True,6,1,2,23,3,0,3,MERGED
+12702,chore(deps): update dependency rollup to v4.34.7 (dev),renovate,2025-02-14T11:32:46Z,2025-02-15T02:19:48+00:00,1,14.78,True,103,103,2,986,2,0,2,MERGED
+12701,feat(tauri): export struct `tauri::ExitRequestApi`,WSH032,2025-02-14T01:24:01Z,2025-02-15T15:21:06+00:00,1,37.95,True,7,2,2,395,3,0,3,MERGED
+12695,docs: fix incorrect example for WebviewBuilder::from_config,egegungordu,2025-02-12T16:36:32Z,2025-02-12T22:04:29+00:00,1,5.47,True,4,5,1,150,1,0,1,MERGED
+12668,feat: introduce `App::run_return`,thomaseizinger,2025-02-10T05:50:25Z,2025-03-16T10:04:22+00:00,24,820.23,True,155,50,11,238,42,13,55,MERGED
+12665,feat: add `Webview::cookies` and `Webview::cookies_for_url()`,charrondev,2025-02-09T19:26:07Z,2025-03-15T15:34:41+00:00,4,812.14,True,198,18,11,1259,12,2,14,MERGED
+12663,chore(deps): update dependency prettier to v3.5.1 (1.x),renovate,2025-02-09T13:21:50Z,2025-02-20T11:57:38+00:00,1,262.6,True,10,10,4,1170,3,0,3,MERGED
+12660,chore(deps): update rust crate jsonschema to 0.29 (dev),renovate,2025-02-09T05:45:29Z,2025-02-09T13:19:32+00:00,1,7.57,True,7,6,2,3806,1,0,1,MERGED
+12647,chore(deps): update dependency rollup to v4.34.6 (dev),renovate,2025-02-07T17:58:30Z,2025-02-07T19:07:55+00:00,1,1.16,True,103,103,2,961,2,0,2,MERGED
+12646,update(readme): Remove beta tag from android and iOS; Alert that Android 7 is unsupported,ahqsoftwares,2025-02-07T16:30:05Z,2025-03-18T11:33:47+00:00,1,931.06,True,2,2,1,78,3,0,3,MERGED
+12643,feat(uninstaller): remove autostart entry during uninstallation,animeshchaudhri,2025-02-07T10:46:21Z,2025-03-16T19:28:10+00:00,2,896.7,True,15,0,2,898,12,0,12,MERGED
+12625,Apply Version Updates From Current Changes (v1),github-actions,2025-02-05T12:24:26Z,2025-05-17T13:08:33+00:00,1,2424.74,True,9,8,5,241,1,0,1,MERGED
+12623,docs: Update testing crate docs to inform reader about 'tauri://localhost',3lpsy,2025-02-05T02:37:33Z,2025-02-20T11:48:33+00:00,2,369.18,True,1,0,1,233,1,0,1,MERGED
+12606,chore(deps): bump openssl from 0.10.68 to 0.10.70,dependabot,2025-02-03T18:53:40Z,2025-02-03T20:30:48+00:00,1,1.62,True,4,4,1,3428,1,0,1,MERGED
+12605,feat: add Ukrainian translation for the custom tauri messages in the nsis bundle,niusia-ua,2025-02-03T16:51:13Z,2025-02-06T15:44:48+00:00,1,70.89,True,33,0,3,13,2,0,2,MERGED
+12604,chore(deps): update dependency rollup to v4.34.4 (dev),renovate,2025-02-03T14:54:31Z,2025-02-06T17:32:56+00:00,1,74.64,True,148,118,11,1526,4,0,4,MERGED
+12602,feat: basic support for linux riscv64,kxxt,2025-02-03T12:18:39Z,2025-03-16T19:33:17+00:00,1,991.24,True,72,2,12,219,7,0,7,MERGED
+12599,chore(deps): update rust crate infer to 0.19 (dev),renovate,2025-02-02T11:55:03Z,2025-02-20T13:36:44+00:00,1,433.69,True,399,888,5,1518,4,0,4,MERGED
+12594,chore(deps): update dependency @types/node to v22.13.4 (1.x),renovate,2025-02-01T21:46:51Z,2025-02-20T11:15:54+00:00,1,445.48,True,5,5,2,638,3,0,3,MERGED
+12593,chore(deps): update dependency rollup to v4.34.0 (dev),renovate,2025-02-01T21:46:40Z,2025-02-02T11:54:02+00:00,1,14.12,True,103,103,2,1658,2,0,2,MERGED
+12592,docs: update devUrl on config schema,Smankusors,2025-02-01T18:03:13Z,2025-02-01T21:45:13+00:00,1,3.7,True,3,3,3,293,0,0,0,MERGED
+12559,chore(deps): update rust crate tauri-winres to 0.3 (dev),renovate,2025-01-29T18:03:30Z,2025-01-29T20:51:24+00:00,1,2.8,True,19,5,2,1117,1,0,1,MERGED
+12549,chore(deps): update dependency @types/node to v22.12.0 (1.x),renovate,2025-01-28T10:37:24Z,2025-01-28T11:41:48+00:00,1,1.07,True,5,5,2,639,2,0,2,MERGED
+12548,chore(deps): update dependency rollup to v4.32.1 (dev),renovate,2025-01-28T10:37:13Z,2025-01-28T13:46:04+00:00,1,3.15,True,116,116,2,905,2,0,2,MERGED
+12541,chore(deps): wry@0.50 muda@0.16 tray-icon@0.20 windows@0.60 webview2-com@0.36 objc@0.6 window-vibrancy@0.6 tao@0.32,FabianLars,2025-01-27T19:28:30Z,2025-02-25T17:41:01+00:00,3,694.21,True,363,970,24,0,13,1,14,MERGED
+12538,fix(ios): Configure initial view controller for the launch screen on iOS,DeTeam,2025-01-27T14:27:41Z,2025-02-26T19:42:24+00:00,1,725.25,True,6,1,2,59,1,0,1,MERGED
+12529,feat: derive Clone for PathResolver,amrbashir,2025-01-26T15:37:49Z,2025-01-26T18:11:15+00:00,1,2.56,True,17,0,3,13,1,0,1,MERGED
+12524,chore(deps): update rust crate ureq to v3 (dev),renovate,2025-01-26T13:35:52Z,2025-01-29T22:23:38+00:00,1,80.8,True,143,71,6,1090,4,0,4,MERGED
+12483,chore(deps): update dependency @types/node to v22.10.9 (1.x),renovate,2025-01-23T04:49:18Z,2025-01-23T09:27:04+00:00,1,4.63,True,5,5,2,638,3,0,3,MERGED
+12469,chore(deps-dev): bump vite from 6.0.7 to 6.0.9,dependabot,2025-01-21T20:42:36Z,2025-01-23T09:06:41+00:00,1,36.4,True,52,52,2,3702,2,0,2,MERGED
+12466,fix(bundler): fix injectedbundle search path,FabianLars,2025-01-21T12:10:56Z,2025-01-21T14:52:41+00:00,1,2.7,True,6,1,2,12,1,0,1,MERGED
+12461,fix(tauri): `Webview::navigate` unnecessarily borrows `&mut self`,WSH032,2025-01-21T05:52:36Z,2025-01-25T21:21:04+00:00,4,111.47,True,7,2,3,439,7,1,8,MERGED
+12460,feat(tauri/Emitter): add `emit_str*` method to emit serialized data,WSH032,2025-01-21T05:19:24Z,2025-01-26T15:58:22+00:00,8,130.65,True,97,34,7,12,6,1,7,MERGED
+12445,fix(cli): don't force native-tls feature on desktop,FabianLars,2025-01-19T16:57:05Z,2025-01-25T10:27:30+00:00,2,137.51,True,36,44,5,291,9,1,10,MERGED
+12444,Document `Emitter` trait method panics,sftse,2025-01-19T13:44:50Z,2025-01-24T02:17:18+00:00,6,108.54,True,289,529,14,836,5,10,15,MERGED
+12439,Apply Version Updates From Current Changes,github-actions,2025-01-18T20:40:22Z,2025-01-25T14:29:40+00:00,1,161.82,True,68,75,25,2662,1,0,1,MERGED
+12438,Add log message to inform user of DevCommand being used in tauri-cli,3lpsy,2025-01-18T17:39:14Z,2025-01-18T20:21:22+00:00,3,2.7,True,8,0,2,777,1,0,1,MERGED
+12427,fix(nsis): uninstaller installdir reg clean up,Legend-Master,2025-01-17T04:44:25Z,2025-01-20T20:33:54+00:00,3,87.82,True,16,3,2,119,3,1,4,MERGED
+12425,Apply Version Updates From Current Changes,github-actions,2025-01-17T02:08:53Z,2025-01-18T09:07:29+00:00,1,30.98,True,38,32,16,939,1,0,1,MERGED
+12424,fix: run tauri's internal init scripts before user's scripts,mattyg,2025-01-16T22:03:44Z,2025-01-17T01:37:41+00:00,2,3.57,True,37,23,2,118,1,0,1,MERGED
+12423,fix(macos): frameworks being signed with entitlements unnecessarily,tr3ysmith,2025-01-16T19:58:26Z,2025-01-23T11:14:34+00:00,1,159.27,True,11,1,2,173,1,0,1,MERGED
+12421,chore(deps): update dependency vitest to v3 (dev),renovate,2025-01-16T16:35:08Z,2025-01-23T13:03:41+00:00,1,164.48,True,85,353,3,15698,3,0,3,MERGED
+12415,"Rewrite simply ""Localhost free term"" in README.md within #10510",tamadamas,2025-01-16T02:06:22Z,2025-01-20T14:22:23+00:00,2,108.27,True,1,1,1,118,2,2,4,MERGED
+12414,chore(deps): update dependency @types/node to v22.10.7 (1.x),renovate,2025-01-16T01:27:53Z,2025-01-16T10:38:06+00:00,1,9.17,True,5,5,2,638,2,0,2,MERGED
+12413,chore(deps): update dependency fs-extra to v11.3.0 (1.x),renovate,2025-01-15T21:04:10Z,2025-01-16T10:46:52+00:00,1,13.71,True,5,5,2,842,3,0,3,MERGED
+12409,docs(utils): Fix typo in useLocalToolsDir,FabianLars,2025-01-15T11:31:13Z,2025-01-15T12:59:35+00:00,2,1.47,True,3,3,3,0,1,0,1,MERGED
+12406,fix(cli): let xcode handle building for `ios build --open`,bradleat,2025-01-15T03:48:05Z,2025-01-25T12:42:20+00:00,1,248.9,True,10,0,2,679,3,0,3,MERGED
+12402,fix(bundler/wix): Prevent dlls from overwriting root resources,FabianLars,2025-01-14T16:57:20Z,2025-01-17T15:41:31+00:00,1,70.74,True,11,5,2,12,1,0,1,MERGED
+12390,chore(deps): update dependency @types/node to v22.10.6 (1.x),renovate,2025-01-13T21:28:02Z,2025-01-14T16:58:52+00:00,1,19.51,True,5,5,2,638,2,0,2,MERGED
+12386,chore(deps): update dependency eslint-config-prettier to v10 (dev),renovate,2025-01-13T17:10:44Z,2025-01-15T02:54:33+00:00,1,33.73,True,6,6,2,17572,2,0,2,MERGED
+12385,feat: allow overriding .rpm and .deb package names,AlexProgrammerDE,2025-01-13T15:27:25Z,2025-04-13T10:10:25+00:00,1,2154.72,False,86,9,7,283,6,0,6,CLOSED
+12383,fix(tauri-driver): Parse ms:edgeOptions separately,bicarlsen,2025-01-13T15:13:51Z,2025-01-25T12:13:14+00:00,2,284.99,True,14,4,2,22,1,1,2,MERGED
+12372,chore(deps): update rust crate dirs to v6 (dev),renovate,2025-01-13T02:05:38Z,2025-01-23T12:58:00+00:00,1,250.87,True,36,30,8,605,3,0,3,MERGED
+12371,fix: fix Specta integration,oscartbeaumont,2025-01-12T23:19:33Z,2025-01-13T02:03:36+00:00,1,2.73,True,2,6,1,756,1,0,1,MERGED
+12366,feat: traffic light position,FabianLars,2025-01-12T14:18:16Z,2025-03-15T15:18:11+00:00,4,1489.0,True,207,2,12,12,25,1,26,MERGED
+12365,"fix(windows): Resolve broken installation directory handling in MSI & NSIS, preventing duplicate installations during updates",don41382,2025-01-12T13:51:50Z,2025-01-17T20:25:16+00:00,9,126.56,True,10,2,2,1054,10,1,11,MERGED
+12354,fix(cli): Fix npm package name in `tauri add`,FabianLars,2025-01-11T15:10:53Z,2025-01-11T16:28:54+00:00,1,1.3,True,7,1,2,0,2,0,2,MERGED
+12341,chore(deps): update rust crate tauri-winres to 0.2 (dev),renovate,2025-01-10T16:56:49Z,2025-01-10T19:19:48+00:00,1,2.38,True,4,4,2,806,1,0,1,MERGED
+12328,chore: Fix clippy 1.84 warnings,FabianLars,2025-01-09T20:51:50Z,2025-01-10T12:47:38+00:00,1,15.93,True,704,750,17,175,2,0,2,MERGED
+12324,fix(bundler/nsis): Include WebView2Loader.dll if found to match msi,FabianLars,2025-01-09T15:16:31Z,2025-01-17T15:12:58+00:00,4,191.94,True,19,0,2,0,1,1,2,MERGED
+12323,fix(bundler): Don't self-sign dmg,FabianLars,2025-01-09T14:06:55Z,2025-01-25T10:46:16+00:00,1,380.66,True,18,10,2,12,1,0,1,MERGED
+12320,chore(deps): update dependency typescript to v5.7.3 (1.x),renovate,2025-01-08T22:31:48Z,2025-01-09T00:20:34+00:00,1,1.81,True,6,6,3,706,2,0,2,MERGED
+12313,fix: ensure RunEvent::Exit is triggered on restart,anatawa12,2025-01-08T06:20:14Z,2025-03-15T18:49:43+00:00,5,1596.49,True,111,7,4,105,26,2,28,MERGED
+12306,chore(deps): update rust crate windows-registry to 0.4 (1.x),renovate,2025-01-07T23:06:01Z,2025-01-08T13:05:14+00:00,1,13.99,True,75,11,2,621,1,0,1,MERGED
+12298,chore(deps): update rust crate ico to 0.4 (dev),renovate,2025-01-07T20:12:41Z,2025-01-07T21:38:43+00:00,1,1.43,True,3,3,2,671,1,0,1,MERGED
+12270,chore(deps): update cargo_toml for edition 2024 [fix #10412],aurelj,2025-01-06T11:42:58Z,2025-01-06T19:34:49+00:00,1,7.86,True,11,37,5,404,4,0,4,MERGED
+12262,chore(deps): update rust crate brotli to v7 (1.x),renovate,2025-01-06T06:05:14Z,2025-01-06T09:10:46+00:00,1,3.09,True,4,4,3,607,1,0,1,MERGED
+12261,chore(deps): update dependency typescript to v5.7.2 (1.x),renovate,2025-01-06T06:04:26Z,2025-01-06T09:48:39+00:00,1,3.74,True,7,7,4,7238,2,0,2,MERGED
+12258,chore(deps): update dependency prettier to v3.4.2 (1.x),renovate,2025-01-06T03:34:24Z,2025-01-06T10:05:11+00:00,1,6.51,True,11,11,5,18978,2,0,2,MERGED
+12256,chore(deps): update dependency husky to v9 (1.x),renovate,2025-01-06T01:14:29Z,2025-01-06T10:14:03+00:00,1,8.99,True,1,1,1,9503,2,0,2,MERGED
+12250,chore(deps): update dependency eslint-config-standard-with-typescript to v43 (1.x),renovate,2025-01-05T20:12:09Z,2025-01-05T22:03:30+00:00,1,1.86,True,78,13,2,4677,2,0,2,MERGED
+12246,fix(cli): `tauri add` NPM packages for community plugins,marcomq,2025-01-05T18:30:47Z,2025-01-07T13:16:35+00:00,1,42.76,True,23,3,3,615,1,0,1,MERGED
+12245,chore(deps): update dependency @types/node to v22 (1.x),renovate,2025-01-05T16:38:47Z,2025-01-05T20:11:12+00:00,1,3.54,True,10,10,2,639,2,0,2,MERGED
+12240,chore(deps/driver): update hyper to version 1,getong,2025-01-05T13:44:46Z,2025-01-06T10:12:08+00:00,2,20.46,True,88,49,4,25,4,0,4,MERGED
+12236,chore(deps): update rust crate ureq to 2.12.1 (1.x),renovate,2025-01-05T12:12:51Z,2025-01-05T13:59:02+00:00,1,1.77,True,2,2,2,615,1,0,1,MERGED
+12228,chore(deps): update rust crate ureq to 2.10.1 (1.x),renovate,2025-01-05T06:22:39Z,2025-01-05T10:32:46+00:00,1,4.17,True,15,16,3,1049,1,0,1,MERGED
+12227,chore(deps): update rust crate unicode-width to 0.2 (1.x),renovate,2025-01-05T06:22:28Z,2025-01-05T12:34:34+00:00,1,6.2,True,10,10,2,721,3,0,3,MERGED
+12218,Apply Version Updates From Current Changes,github-actions,2025-01-04T22:54:57Z,2025-01-10T14:08:22+00:00,1,135.22,True,82,62,23,1976,1,0,1,MERGED
+12204,feat(cli): Add 64x64 png to default `tauri icon` command,pjf-dev,2025-01-04T17:32:44Z,2025-01-04T22:26:18+00:00,1,4.89,True,8,2,2,119,2,0,2,MERGED
+12203,Apply Version Updates From Current Changes (v1),github-actions,2025-01-04T15:46:10Z,2025-01-10T19:20:41+00:00,1,147.58,True,105,43,24,1082,1,0,1,MERGED
+12202,chore(deps): update rust crate itertools to 0.14 (1.x),renovate,2025-01-04T15:12:20Z,2025-01-04T20:48:32+00:00,1,5.6,True,42,50,3,1784,2,0,2,MERGED
+12193,chore(deps): update rust crate axum to 0.8.0 (1.x),renovate,2025-01-04T12:20:07Z,2025-01-04T15:47:48+00:00,1,3.46,True,106,88,3,4610,2,0,2,MERGED
+12192,chore(deps): update dependency typescript to v4.9.5 (1.x),renovate,2025-01-04T10:51:07Z,2025-01-04T14:31:57+00:00,1,3.68,True,1,1,1,17404,1,0,1,MERGED
+12191,chore(deps): update dependency rollup to v2.79.2 (1.x),renovate,2025-01-04T10:51:02Z,2025-01-04T14:31:35+00:00,1,3.68,True,1,1,1,4327,1,0,1,MERGED
+12189,chore(deps): update dependency fs-extra to v11.2.0 (1.x),renovate,2025-01-04T06:24:20Z,2025-01-04T14:32:41+00:00,2,8.14,True,5,5,2,823,2,0,2,MERGED
+12188,chore(deps): update dependency eslint-plugin-import to v2.31.0 (1.x),renovate,2025-01-04T06:24:13Z,2025-01-04T14:32:19+00:00,1,8.13,True,119,25,2,4000,2,0,2,MERGED
+12187,chore(deps): update dependency @types/node to v20.17.11 (1.x),renovate,2025-01-04T03:18:28Z,2025-01-04T12:34:23+00:00,1,9.27,True,5,5,2,639,2,0,2,MERGED
+12186,chore(deps): update dependency @rollup/plugin-typescript to v8.5.0 (1.x),renovate,2025-01-04T03:18:13Z,2025-01-04T12:17:29+00:00,1,8.99,True,1,1,1,1035,2,0,2,MERGED
+12185,chore(deps): update dependency @napi-rs/cli to v2.18.4 (1.x),renovate,2025-01-04T00:02:25Z,2025-01-04T12:44:01+00:00,1,12.69,True,8,8,4,5325,2,0,2,MERGED
+12181,feat: disable background throttling,bastiankistner,2025-01-03T23:38:40Z,2025-01-25T21:20:31+00:00,3,525.7,True,350,64,19,2119,15,2,17,MERGED
+12178,fix(cli): Re-add TriggeredKill in dev watcher logic,FabianLars,2025-01-03T22:34:31Z,2025-01-03T23:39:07+00:00,1,1.08,True,16,6,5,12,1,0,1,MERGED
+12176,chore(deps): update rust crate http to 0.2.12 (1.x),renovate,2025-01-03T22:07:31Z,2025-01-03T23:09:48+00:00,1,1.04,True,44,43,18,614,3,0,3,MERGED
+12170,chore: update copyright year,maxktz,2025-01-03T21:22:03Z,2025-01-06T12:46:06+00:00,1,63.4,True,1,1,1,36,1,0,1,MERGED
+12150,chore(deps): update rust crate anyhow to 1.0.71 (1.x),renovate,2025-01-03T04:46:41Z,2025-01-03T23:22:11+00:00,1,18.59,True,4,4,1,2879,2,0,2,MERGED
+12147,chore(deps): update dependency eslint to v8.57.1 (1.x),renovate,2025-01-03T00:05:57Z,2025-01-03T23:26:33+00:00,1,23.34,True,17,17,2,694,1,0,1,MERGED
+12144,chore(deps): update rust crate which to v7 (dev),renovate,2025-01-02T23:49:28Z,2025-01-03T22:28:10+00:00,1,22.64,True,14,8,2,1729,1,0,1,MERGED
+12136,fix(bundler): change build metadata verification into a warning,unknovvn,2025-01-02T19:38:42Z,2025-01-23T14:25:12+00:00,6,498.77,True,12,3,2,12,9,2,11,MERGED
+12133,chore(deps): update dependency vite to v6 (dev),renovate,2025-01-02T18:30:30Z,2025-01-03T22:05:30+00:00,1,27.58,True,530,256,3,16644,3,0,3,MERGED
+12125,chore(deps): update rust crate pico-args to 0.5 (dev),renovate,2025-01-02T14:05:42Z,2025-01-02T15:12:19+00:00,1,1.11,True,4,10,2,807,1,0,1,MERGED
+12123,ci: Switch to upstream create-pull-request,FabianLars,2025-01-02T13:19:12Z,2025-01-03T20:48:50+00:00,1,31.49,True,1,1,1,265,2,0,2,MERGED
+12118,chore(deps): update rust crate notify-debouncer-mini to 0.5 (dev),renovate,2025-01-02T11:22:39Z,2025-01-02T13:08:50+00:00,1,1.77,True,40,32,3,732,2,0,2,MERGED
+12113,chore(deps): update rust crate cargo_metadata to 0.19 (dev),renovate,2025-01-02T06:43:36Z,2025-01-02T14:54:39+00:00,1,8.18,True,19,5,3,1636,3,0,3,MERGED
+12101,chore(deps): update rust crate wry to 0.48 (dev),renovate,2025-01-01T22:58:01Z,2025-01-02T00:01:32+00:00,1,1.06,True,177,235,24,1169,2,0,2,MERGED
+12089,chore(deps): Update `jsonschema` to `0.28`,Stranger6667,2025-01-01T07:53:34Z,2025-01-02T12:22:08+00:00,8,28.48,True,89,47,3,69,1,1,2,MERGED
+12088,chore(deps) Update Rust crate syn to v2.0.94 (dev),renovate,2025-01-01T07:52:03Z,2025-01-01T21:16:42+00:00,1,13.41,True,69,69,1,792,1,0,1,MERGED
+12087,chore(deps) Update Tauri Build (dev),renovate,2025-01-01T07:51:48Z,2025-01-01T14:24:34+00:00,1,6.55,True,6,6,1,869,1,0,1,MERGED
+12084,chore(deps) Update Tauri API Definitions (dev),renovate,2025-01-01T04:08:24Z,2025-01-01T14:21:47+00:00,1,10.22,True,91,91,1,957,2,0,2,MERGED
+12083,chore(deps) Update Rust crate syn to v2.0.93 (dev),renovate,2025-01-01T04:08:01Z,2025-01-01T14:21:08+00:00,1,10.22,True,65,65,1,849,1,0,1,MERGED
+12080,deps: fix crate vulnerabilities,rex4539,2024-12-31T17:10:37Z,2024-12-31T22:20:16+00:00,1,5.16,True,26,26,1,137,2,0,2,MERGED
+12069,fix(api): use array for channel queueing,Legend-Master,2024-12-28T13:47:09Z,2025-01-02T11:19:50+00:00,1,117.54,True,59,33,9,146,1,0,1,MERGED
+12050,chore(deps) Update Tauri API Definitions (dev),renovate,2024-12-25T08:19:50Z,2024-12-27T03:40:37+00:00,1,43.35,True,336,175,2,5202,2,0,2,MERGED
+12049,chore(deps) Update Tauri Codegen (dev),renovate,2024-12-25T08:19:22Z,2024-12-27T03:55:57+00:00,1,43.61,True,80,80,1,1189,1,0,1,MERGED
+12047,chore(deps) Update Tauri Build to v1.0.95 (dev),renovate,2024-12-25T04:47:14Z,2024-12-27T03:37:28+00:00,1,46.84,True,4,4,1,888,1,0,1,MERGED
+12046,chore(deps) Update Rust crate syn to v2.0.91 (dev),renovate,2024-12-25T04:47:00Z,2024-12-27T03:36:28+00:00,1,46.82,True,65,65,1,704,1,0,1,MERGED
+12018,chore: fix crates.io link,ferreira-tb,2024-12-20T17:51:43Z,2024-12-21T00:46:37+00:00,4,6.92,True,3,3,1,30,2,1,3,MERGED
+12014,fix: add windows to target_os of TaoWindowEvent::Focused (fix #9755),kanatapple,2024-12-20T04:58:19Z,2025-04-13T11:31:15+00:00,1,2742.55,False,0,1,1,107,4,1,5,CLOSED
+12003,fix: fix typo in AndroidConfig docstring,leekeh,2024-12-18T13:54:16Z,2024-12-29T23:25:29+00:00,2,273.52,True,3,3,3,0,1,0,1,MERGED
+12000,fix: fix panic caused by removed_resource.is_none (fix #11955),stringhandler,2024-12-18T08:07:22Z,2024-12-23T14:11:32+00:00,3,126.07,True,10,1,2,97,2,1,3,MERGED
+11999,chore(deps) Update Tauri Codegen (dev),renovate,2024-12-18T05:40:29Z,2024-12-19T15:22:59+00:00,1,33.71,True,19,19,1,2092,1,0,1,MERGED
+11998,chore(deps) Update Tauri Build to v1.0.24 (dev),renovate,2024-12-18T05:40:09Z,2024-12-19T12:22:40+00:00,1,30.71,True,6,6,1,972,1,0,1,MERGED
+11985,fix(tauri-cli): prevent accidental object permission rm,ShaunSHamilton,2024-12-16T11:12:35Z,2024-12-29T23:18:50+00:00,1,324.1,True,26,8,2,1405,1,0,1,MERGED
+11971,feat: add support for injecting script into subframes (from wry),Geometrically,2024-12-14T05:02:01Z,2025-04-13T11:40:55+00:00,2,2886.65,False,26,7,4,60,2,1,3,CLOSED
+11961,fix: fails to build if the project path contains glob characters,Legend-Master,2024-12-13T06:39:43Z,2025-01-07T12:22:44+00:00,1,605.72,True,38,17,5,10,1,0,1,MERGED
+11960,backport: always check parent directory to 1.x,MarielaSassi,2024-12-12T18:58:59Z,2025-01-04T00:04:48+00:00,1,533.1,True,11,6,2,108,1,0,1,MERGED
+11958,fix(core): return an error when accessing unmanaged state in command,amrbashir,2024-12-12T15:06:56Z,2024-12-12T21:05:32+00:00,1,5.98,True,28,23,3,13,1,0,1,MERGED
+11943,chore(deps) Update dependency @types/node to v22.10.2 (dev),renovate,2024-12-11T10:56:34Z,2024-12-19T12:28:51+00:00,1,193.54,True,41,41,1,607,2,0,2,MERGED
+11941,chore(deps): update all js dev dependencies,Legend-Master,2024-12-11T06:20:43Z,2024-12-11T10:55:38+00:00,1,4.58,True,1090,1432,7,120,1,0,1,MERGED
+11936,chore(deps) Update Tauri API Definitions (dev),renovate,2024-12-11T04:04:56Z,2024-12-11T05:45:49+00:00,1,1.68,True,181,183,2,1587,2,0,2,MERGED
+11914,fix: the exclude path in file `Cargo.toml` of plugin template,wtto00,2024-12-09T12:48:51Z,2024-12-09T14:36:27+00:00,2,1.79,True,17,11,3,210,3,0,3,MERGED
+11906,chore(deps): update `tao` to `0.31`,amrbashir,2024-12-08T23:36:45Z,2024-12-09T10:16:33+00:00,1,10.66,True,95,105,2,12,1,0,1,MERGED
+11871,fix(feature/specta): Resolve error when using latest version of specta with tauri specta feature,johncarmack1984,2024-12-04T18:29:49Z,2024-12-05T11:56:16+00:00,3,17.44,True,26,5,3,1318,3,1,4,MERGED
+11865,chore(deps) Update Rust crate syn to v2.0.90 (dev),renovate,2024-12-04T04:19:53Z,2024-12-04T06:49:44+00:00,1,2.5,True,65,65,1,876,1,0,1,MERGED
+11864,chore(deps) Update Rust crate anyhow to v1.0.94 (dev),renovate,2024-12-04T04:19:43Z,2024-12-04T06:49:21+00:00,1,2.49,True,2,2,1,679,1,0,1,MERGED
+11852,fix(bundler): create tauri tools dir first. make tools executable.,FabianLars,2024-12-02T19:18:56Z,2024-12-02T23:29:42+00:00,2,4.18,True,6,5,2,0,2,0,2,MERGED
+11851,ci: msrv compliant lockfile. test cli with 1.77.2 instead of stable.,FabianLars,2024-12-02T19:13:50Z,2024-12-02T23:28:45+00:00,1,4.25,True,13,22,4,119,1,0,1,MERGED
+11850,fix(core): Add background color permissions,FabianLars,2024-12-02T17:12:58Z,2024-12-02T23:27:25+00:00,2,6.24,True,59,0,4,12,1,0,1,MERGED
+11849,chore: apply clippy suggestions.,FabianLars,2024-12-02T17:03:16Z,2024-12-02T23:36:06+00:00,3,6.55,True,17,17,13,0,3,1,4,MERGED
+11835,fix(path): wrong command for isAbsolute plugin,ilittlebig,2024-11-30T18:51:47Z,2024-11-30T21:04:48+00:00,1,2.22,True,6,1,2,220,0,0,0,MERGED
+11817,fix(core): Remove os check on `data_store_identifier`,FabianLars,2024-11-28T09:19:52Z,2024-12-02T23:32:02+00:00,1,110.2,True,2,4,2,48,1,0,1,MERGED
+11799,feat(bundler): add option to disable `CI` for just the dmg bundler,FabianLars,2024-11-26T16:37:13Z,2024-11-28T02:41:19+00:00,1,34.07,True,12,3,3,291,1,0,1,MERGED
+11798,feat(macos): Add `with_data_store_identifier` to `WebviewBuilder`,lars-berger,2024-11-26T15:23:52Z,2024-11-28T02:43:34+00:00,1,35.33,True,44,0,5,64,3,0,3,MERGED
+11785,fix(core): Initialize command cache when a capability is added,lars-berger,2024-11-24T17:48:35Z,2024-11-26T12:18:55+00:00,3,42.51,True,9,1,2,295,3,1,4,MERGED
+11769,fix(cli): Statically compile msvc runtime,FabianLars,2024-11-21T16:46:23Z,2024-12-04T18:32:09+00:00,4,313.76,True,7,0,1,424,3,1,4,MERGED
+11767,feat(core): Add `Scope::is_forbidden`,FabianLars,2024-11-21T15:43:36Z,2024-11-26T12:31:48+00:00,2,116.8,True,43,14,2,113,1,3,4,MERGED
+11758,refactor(bundler): Move appimage bundler script logic into rust,FabianLars,2024-11-20T23:51:16Z,2024-11-28T02:52:24+00:00,11,171.02,True,301,240,6,0,2,6,8,MERGED
+11750,chore(deps) Update dependency @types/node to v22.9.1 (dev),renovate,2024-11-20T09:06:40Z,2024-12-02T18:48:33+00:00,1,297.7,True,30,30,2,605,2,0,2,MERGED
+11749,docs: Remove header images from inline docs,liigo,2024-11-20T07:54:39Z,2024-11-21T12:48:49+00:00,1,28.9,True,0,28,14,75,3,0,3,MERGED
+11745,chore(deps) Update Rust crate url to v2.5.4 (dev),renovate,2024-11-20T04:01:26Z,2024-12-02T14:38:11+00:00,1,298.61,True,2,2,1,910,1,0,1,MERGED
+11744,chore(deps) Update Tauri Build to v1.0.215 (dev),renovate,2024-11-20T04:01:14Z,2024-11-27T05:18:33+00:00,1,169.29,True,6,6,1,933,1,0,1,MERGED
+11742,feat: add `tauri::Builder::on_tray_icon_event`,amrbashir,2024-11-20T00:10:37Z,2024-11-21T13:06:57+00:00,2,36.94,True,47,1,4,0,1,1,2,MERGED
+11741,fix(api): transform icon when creating icon menu item and predefined about menu item with icon,amrbashir,2024-11-19T23:28:09Z,2024-11-21T12:22:51+00:00,1,36.91,True,67,78,8,0,1,0,1,MERGED
+11730,fix(core): manually simplify patterns for fs scope,amrbashir,2024-11-19T01:19:52Z,2024-11-19T22:50:10+00:00,1,21.5,True,65,7,3,541,1,0,1,MERGED
+11727,fix(windows): add Portuguese language in nsis bundle (fix #11725),Kiyozz,2024-11-18T18:42:09Z,2024-11-18T22:11:16+00:00,1,3.49,True,36,0,3,130,0,0,0,MERGED
+11726,feat(api/tray): add `TrayIcon.setShowMenuOnLeftClick` method,amrbashir,2024-11-18T17:09:26Z,2024-11-21T12:50:41+00:00,2,67.69,True,203,74,19,166,3,0,3,MERGED
+11724,fix(api.js): Change cb type in mockIPC to return unknown,FabianLars,2024-11-18T12:55:14Z,2024-11-18T15:50:40+00:00,1,2.92,True,12,6,3,211,1,0,1,MERGED
+11716,"refactor(bundler): remove unused fs utils, add http utils",FabianLars,2024-11-17T15:18:03Z,2024-11-18T23:23:21+00:00,1,32.09,True,499,714,21,54,2,0,2,MERGED
+11711,docs(examples): fix file-assoc readme cargo build command,FabianLars,2024-11-16T16:35:18Z,2024-11-18T17:50:41+00:00,1,49.26,True,1,1,1,13,2,0,2,MERGED
+11694,refactor(cli): use `cargo run` for `tauri dev`,FabianLars,2024-11-14T20:59:39Z,2024-12-05T10:38:06+00:00,2,493.64,True,105,199,6,679,4,0,4,MERGED
+11676,fix(bundler): sign DLLs,thewh1teagle,2024-11-13T13:39:39Z,2025-04-13T21:46:14+00:00,13,3632.11,True,174,35,10,4831,6,6,12,MERGED
+11669,chore(deps) Update Tauri Bundler (dev),renovate,2024-11-13T05:23:43Z,2025-01-01T22:12:30+00:00,1,1192.81,True,137,54,3,3366,2,0,2,MERGED
+11668,chore(deps) Update Tauri API Definitions (dev),renovate,2024-11-13T05:22:33Z,2024-11-19T05:13:44+00:00,1,143.85,True,211,200,2,3524,2,0,2,MERGED
+11663,fix(cli/info): use `XDG_SESSION_DESKTOP` instead of `DESKTOP_SESSION`,amrbashir,2024-11-12T22:59:52Z,2024-11-14T16:02:22+00:00,1,41.04,True,1,1,1,0,1,0,1,MERGED
+11661,feat: Implement Badging API,ahqsoftwares,2024-11-12T14:53:28Z,2024-11-20T00:59:28+00:00,10,178.1,True,345,7,14,102,2,17,19,MERGED
+11659,Apply Version Updates From Current Changes,github-actions,2024-11-12T14:28:27Z,2025-01-02T18:29:17+00:00,1,1228.01,True,254,240,56,6796,5,0,5,MERGED
+11658,fix: parse json5 capability files when `config-json5` is enabled,Legend-Master,2024-11-12T07:59:54Z,2024-11-12T14:44:38+00:00,3,6.75,True,19,1,4,10,2,2,4,MERGED
+11653,feat(cli): include linux DE and session type in `tauri info`,amrbashir,2024-11-12T02:00:32Z,2024-11-12T13:59:47+00:00,3,11.99,True,37,2,2,0,2,1,3,MERGED
+11646,Apply Version Updates From Current Changes,github-actions,2024-11-11T13:18:21Z,2024-11-11T14:25:14+00:00,1,1.11,True,19,17,10,525,1,0,1,MERGED
+11639,fix(api/dpi): fix toLogical and toPhysical for positions,dgerhardt,2024-11-10T20:28:55Z,2024-11-11T12:21:25+00:00,2,15.88,True,8,3,3,140,2,0,2,MERGED
+11632,docs: document vanilla JS import alternative,kornelski,2024-11-09T12:51:08Z,2024-11-11T12:21:08+00:00,2,47.5,True,10,0,1,32,1,1,2,MERGED
+11628,"feat(windows, linux): Add `with_extension_path` to `WebviewBuilder`",SpikeHD,2024-11-09T05:23:59Z,2024-11-12T23:20:06+00:00,6,89.94,True,49,2,5,276,5,12,17,MERGED
+11624,fix(cli): `android dev` not working on Windows without `--host`,lucasfernog,2024-11-08T11:48:21Z,2024-11-09T00:57:36+00:00,1,13.15,True,65,15,4,71,1,0,1,MERGED
+11616,fix(core): fix child webviews on macOS and Windows treated as full webview window,amrbashir,2024-11-07T16:06:10Z,2024-11-08T11:04:14+00:00,2,18.97,True,8,1,2,13,1,1,2,MERGED
+11608,fix(ci): unpin ravif,Legend-Master,2024-11-07T05:02:37Z,2024-11-07T08:09:06+00:00,1,3.11,True,0,1,1,106,1,0,1,MERGED
+11606,chore(deps) Update Tauri macOSSign (dev) - autoclosed,renovate,2024-11-06T16:22:49Z,2025-01-01T22:31:20+00:00,1,1350.14,False,133,303,2,661,2,0,2,CLOSED
+11604,chore(deps) Update Rust crate thiserror to v2 (dev),renovate,2024-11-06T12:55:58Z,2024-11-08T11:21:38+00:00,1,46.43,True,85,65,9,3543,3,0,3,MERGED
+11601,chore(deps) Update Tauri Bundler (dev),renovate,2024-11-06T10:51:03Z,2024-11-06T16:25:49+00:00,1,5.58,True,10,10,1,1224,1,0,1,MERGED
+11597,chore(deps) Update Tauri API Definitions (dev),renovate,2024-11-06T04:10:35Z,2024-11-06T10:50:00+00:00,1,6.66,True,248,259,2,1806,2,0,2,MERGED
+11596,chore(deps) Update Tauri Codegen (dev),renovate,2024-11-06T04:10:06Z,2024-11-06T10:49:39+00:00,1,6.66,True,258,20,1,3223,1,0,1,MERGED
+11590,ci: fix msrv check,FabianLars,2024-11-05T11:27:05Z,2024-11-05T15:42:33+00:00,1,4.26,True,18,20,2,0,1,0,1,MERGED
+11588,ci: Remove `tauri-driver` from covector config,FabianLars,2024-11-05T10:03:53Z,2024-11-05T11:14:16+00:00,1,1.17,True,0,5,1,149,1,0,1,MERGED
+11584,feat(bundler): add option to configure RPM compression,amrbashir,2024-11-05T01:14:06Z,2024-11-05T12:08:08+00:00,2,10.9,True,314,5,8,11,3,0,3,MERGED
+11583,fix(tray): build tray on main thread,amrbashir,2024-11-04T23:51:41Z,2024-11-05T15:42:09+00:00,4,15.84,True,33,7,4,13,1,1,2,MERGED
+11581,fix(event): handle AnyLabel listeners in `emit_to`,Mikkel-T,2024-11-04T10:04:08Z,2024-11-04T12:31:18+00:00,3,2.45,True,30,1,2,128,1,1,2,MERGED
+11575,enhance: include the path in ACL I/O errors,kornelski,2024-11-03T18:04:51Z,2024-11-04T12:30:44+00:00,1,18.43,True,27,18,5,221,4,0,4,MERGED
+11569,fix: fix webview not focused by default,amrbashir,2024-11-02T10:14:31Z,2024-11-04T11:58:47+00:00,1,49.74,True,82,24,12,13,1,0,1,MERGED
+11562,feat(bundler): Add Debian package support for updater bundles,jLynx,2024-11-01T03:12:44Z,2024-11-13T01:12:07+00:00,3,285.99,True,14,2,3,951,2,2,4,MERGED
+11545,chore(deps) Update dependency @types/node to v22 (dev),renovate,2024-10-30T06:41:11Z,2024-11-06T12:54:52+00:00,1,174.23,True,30,30,2,606,2,0,2,MERGED
+11544,chore(deps) Update Rust crate handlebars to v6.2.0 (dev),renovate,2024-10-30T06:40:48Z,2024-11-06T10:49:18+00:00,1,172.14,True,18,2,1,787,1,0,1,MERGED
+11543,chore(deps) Update Tauri API Definitions (dev),renovate,2024-10-30T04:02:34Z,2024-11-06T03:31:40+00:00,1,167.49,True,201,166,2,2550,2,0,2,MERGED
+11541,chore(deps) Update Tauri macOSSign (dev),renovate,2024-10-30T03:51:26Z,2024-11-06T13:41:34+00:00,1,177.84,True,155,334,2,661,1,0,1,MERGED
+11529,fix(cli): fix yarn berry detection,amrbashir,2024-10-29T16:59:35Z,2024-11-05T17:15:48+00:00,1,168.27,True,49,46,8,13,1,0,1,MERGED
+11523,fix(cli): fix `tauri migrate` failing to install NPM deps when running from Deno,amrbashir,2024-10-28T17:10:36Z,2024-11-05T17:16:32+00:00,1,192.1,True,17,8,3,0,1,0,1,MERGED
+11522,enhance(core): use `diagnostic::on_unimplemented` on rustc 1.78 and newer for async commands with references,amrbashir,2024-10-28T12:49:38Z,2024-11-05T17:20:30+00:00,1,196.51,True,54,0,2,0,1,0,1,MERGED
+11521,feat(cli): process `bundle > windows > wix > fragmentPaths` with Handlebars,amrbashir,2024-10-28T11:58:11Z,2024-11-05T17:46:54+00:00,2,197.81,True,17,23,4,138,1,1,2,MERGED
+11514,feat(cli): remove UNC path prefix in `TAURI_APP_PATH` and `TAURI_FRONTEND_PATH`,bizarre,2024-10-28T01:24:10Z,2024-10-28T09:21:42+00:00,2,7.96,True,2,0,1,372,1,1,2,MERGED
+11512,feat(cli): associate newly created capability with the main window,lucasfernog,2024-10-27T20:48:55Z,2024-10-28T11:05:24+00:00,1,14.27,True,9,3,4,113,1,0,1,MERGED
+11492,fix(cli): Fix mixup of `TAURI_APP_PATH` and `TAURI_FRONTEND_PATH`,regexident,2024-10-25T12:37:07Z,2024-10-27T20:55:23+00:00,1,56.3,True,107,84,15,4367,2,0,2,MERGED
+11486,feat: background color APIs,amrbashir,2024-10-24T16:10:39Z,2024-11-06T16:21:47+00:00,1,312.19,True,976,200,26,52,5,0,5,MERGED
+11485,feat: add HeaderConfig to SecurityConfig,39zde,2024-10-24T14:55:29Z,2024-11-06T14:16:46+00:00,12,311.35,True,704,5,10,3005,1,14,15,MERGED
+11477,feat: add `use_https_scheme` for Windows and Android,amrbashir,2024-10-24T08:00:11Z,2024-11-05T12:48:59+00:00,5,292.81,True,358,79,22,13,3,5,8,MERGED
+11473,chore(deps) Update Rust crate syn to v2.0.83 (dev),renovate,2024-10-23T20:02:10Z,2024-10-24T02:40:00+00:00,1,6.63,True,59,59,1,670,1,0,1,MERGED
+11472,chore(deps) Update Rust crate syn to v2.0.85 (dev),renovate,2024-10-23T20:02:00Z,2024-10-24T05:23:24+00:00,1,9.36,True,59,59,1,664,1,0,1,MERGED
+11470,chore(deps) Update dependency @types/node to v20.17.0 (dev),renovate,2024-10-23T16:23:13Z,2024-10-24T05:15:04+00:00,1,12.86,True,30,30,2,608,2,0,2,MERGED
+11469,feat(core): add window_class name API on Windows,amrbashir,2024-10-23T13:58:47Z,2024-11-05T18:18:47+00:00,2,316.33,True,78,0,11,12,1,0,1,MERGED
+11459,chore(deps) Update Rust crate proc-macro2 to v1.0.89 (dev),renovate,2024-10-23T07:12:06Z,2024-10-23T08:25:22+00:00,1,1.22,True,2,2,1,881,1,0,1,MERGED
+11457,chore(deps) Update Rust crate image to v0.25.4 (dev),renovate,2024-10-23T04:15:10Z,2024-10-23T09:47:00+00:00,1,5.53,True,18,8,2,1901,2,0,2,MERGED
+11455,feat(core/path): add `PathResolver::home_dir` on Android,amrbashir,2024-10-23T03:58:03Z,2024-10-24T03:43:03+00:00,1,23.75,True,26,9,4,21,1,0,1,MERGED
+11451,feat: add `WebviewWindow/Webview::devtools`,amrbashir,2024-10-22T15:40:34Z,2024-11-05T19:00:49+00:00,2,339.34,True,119,3,11,13,2,0,2,MERGED
+11441,fix(api/menu): fix submenus when created using an object in `items` field in the object passed to `Menu/Submenu.new`,amrbashir,2024-10-22T01:06:52Z,2024-10-23T13:47:33+00:00,3,36.68,True,53,22,10,66,2,2,4,MERGED
+11440,Apply Version Updates From Current Changes,github-actions,2024-10-21T18:32:58Z,2024-11-09T13:47:40+00:00,1,451.25,True,265,273,62,11197,0,0,0,MERGED
+11439,feat(core): add WebviewWindow::resolve_command_scope,lucasfernog,2024-10-21T13:59:09Z,2024-10-21T18:16:08+00:00,1,4.28,True,201,45,7,356,1,0,1,MERGED
+11429,enhance: always check parent directory (fix #8679),griffi-gh,2024-10-20T21:14:45Z,2024-11-06T13:41:14+00:00,4,400.44,True,14,17,3,12,4,1,5,MERGED
+11414,feat(cli) Make `tauri migrate` update $schema in tauri.conf.json,Czxck001,2024-10-19T07:44:25Z,2024-10-21T18:25:00+00:00,1,58.68,True,19,0,2,313,1,0,1,MERGED
+11406,docs: Add missing info regarding the drop position offset.,shi-yan,2024-10-18T03:00:06Z,2024-12-02T19:40:56+00:00,5,1096.68,True,3,0,1,0,0,1,1,MERGED
+11405,enhance(cli): add context to public/secret key decoding errors,amrbashir,2024-10-18T02:16:53Z,2024-10-21T18:37:28+00:00,2,88.34,True,28,12,3,13,1,1,2,MERGED
+11404,fix(bundler): try to sign binaries only if targeting windows,amrbashir,2024-10-18T02:05:19Z,2024-10-20T11:56:41+00:00,1,57.86,True,33,24,2,13,1,0,1,MERGED
+11402,feat(bundler): add `recommends` for deb and rpm,amrbashir,2024-10-18T00:43:33Z,2024-10-21T18:38:14+00:00,1,89.91,True,77,0,8,13,1,0,1,MERGED
+11401,fix(runtime-wry): run `cursor_position` getter on main thread,amrbashir,2024-10-17T23:55:31Z,2024-10-22T12:59:21+00:00,1,109.06,True,31,21,3,13,1,0,1,MERGED
+11398,feat(core): fallback to Window and AppHandle resource table on close,lucasfernog,2024-10-17T11:14:43Z,2024-10-17T15:37:35+00:00,1,4.38,True,13,1,2,417,1,0,1,MERGED
+11390,feat(core): add methods for predefined items with specific text on `Menu/SubmenuBuilder`,amrbashir,2024-10-17T02:56:09Z,2024-10-17T14:03:20+00:00,1,11.12,True,524,569,4,13,1,0,1,MERGED
+11388,feat(bundler): add `wix > version` option,amrbashir,2024-10-17T01:52:44Z,2024-10-17T15:37:15+00:00,3,13.74,True,107,7,7,13,1,1,2,MERGED
+11377,chore(deps) Update Rust crate json-patch to v3 (dev),renovate,2024-10-16T03:08:32Z,2024-10-17T11:38:20+00:00,1,32.5,True,1,1,1,677,2,0,2,MERGED
+11374,"fix(core): expose `content-range` header in `asset` protocol, closes #11371",chrox,2024-10-15T18:15:32Z,2024-10-17T11:41:28+00:00,2,41.43,True,6,0,2,25,1,0,1,MERGED
+11369,chore: remove references to unused __TAURI_INTERNALS__.metadata,lucasfernog,2024-10-15T03:06:28Z,2024-10-15T16:26:43+00:00,1,13.34,True,17,17,6,0,1,0,1,MERGED
+11362,feat(core): add channel interceptor API,lucasfernog,2024-10-14T18:54:31Z,2024-10-14T22:48:22+00:00,1,3.9,True,49,7,5,145,1,0,1,MERGED
+11360,fix: aarch64 docker image regression from #11358,lucasfernog,2024-10-14T13:53:15Z,2024-10-15T00:14:22+00:00,1,10.35,True,1,1,1,0,1,0,1,MERGED
+11358,fix(ci): run on ubuntu 22.04,lucasfernog,2024-10-14T12:10:10Z,2024-10-14T13:28:14+00:00,5,1.3,True,915,1032,35,0,4,1,5,MERGED
+11355,fix(core): mark event commands as async,lucasfernog,2024-10-14T11:07:16Z,2024-10-15T01:44:22+00:00,2,14.62,True,20,9,4,43,1,0,1,MERGED
+11354,feat(core): add `ContextMenu::hpopupmenu` on Windows,amrbashir,2024-10-14T10:33:01Z,2024-10-14T16:46:21+00:00,2,6.22,True,27,3,7,13,1,1,2,MERGED
+11348,fix(core): fallback to `WRY_ANDROID_PACKAGE` with backticks replaced,amrbashir,2024-10-14T04:35:37Z,2024-10-14T16:15:15+00:00,1,11.66,True,7,1,2,11,1,0,1,MERGED
+11337,"docs: fix ""Capability"" documentation example",pjdon,2024-10-13T04:28:01Z,2024-10-13T11:23:58+00:00,1,6.93,True,1,0,1,66,1,0,1,MERGED
+11333,docs(android): warn users that passing raw bytes over ipc is not possible on android,kartonrad,2024-10-12T17:20:49Z,2024-10-14T16:19:47+00:00,2,46.98,True,8,1,1,111,0,1,1,MERGED
+11331,fix(ci): install librsvg2-dev on the publish cli workflow,lucasfernog,2024-10-12T16:28:46Z,2024-10-12T20:57:18+00:00,1,4.48,True,1,1,1,0,2,0,2,MERGED
+11324,fix(api): docs for core module __TAURI__ usage,lucasfernog,2024-10-12T10:55:31Z,2024-10-12T13:32:54+00:00,1,2.62,True,1,1,1,0,1,0,1,MERGED
+11322,feat(tauri-cli): add plugin remove command,ShaunSHamilton,2024-10-11T20:50:05Z,2024-11-07T17:58:25+00:00,9,645.14,True,133,6,6,147,2,5,7,MERGED
+11315,fix(cli): resolve `bundle > icon` glob when searching for `.ico` for MSI installer,amrbashir,2024-10-11T04:36:40Z,2024-10-12T02:23:55+00:00,4,21.79,True,39,28,4,13,1,3,4,MERGED
+11314,fix(cli & core): use unescaped package id in proguard file ,amrbashir,2024-10-11T03:00:47Z,2024-10-11T19:17:29+00:00,1,16.28,True,17,11,3,13,2,0,2,MERGED
+11305,feat: add deno support,amrbashir,2024-10-10T10:22:43Z,2024-10-11T19:47:56+00:00,1,33.42,True,51,88,5,24,1,0,1,MERGED
+11304,feat(cli): add deno support,amrbashir,2024-10-10T10:05:52Z,2024-10-11T19:48:23+00:00,2,33.71,True,56,118,9,24,6,0,6,MERGED
+11290,fix(core): expose ipc::Invoke,lucasfernog,2024-10-09T16:25:29Z,2024-10-11T11:52:50+00:00,2,43.46,True,5,1,2,136,1,0,1,MERGED
+11287,fix(bundler): enhance DMG creation script,lucasfernog,2024-10-09T13:57:42Z,2024-10-11T11:52:19+00:00,1,45.91,True,425,254,3,91,1,0,1,MERGED
+11268,fix: fix incorrect label passed to `ipc` protocol,amrbashir,2024-10-08T05:05:31Z,2024-10-12T10:46:51+00:00,8,101.69,True,257,141,13,13,3,4,7,MERGED
+11264,"fix(core): return empty body for HEAD requests to `asset` protocol, closes #11263",chrox,2024-10-07T23:37:17Z,2024-10-08T01:07:42+00:00,3,1.51,True,9,0,2,0,2,1,3,MERGED
+11258,feat(cli): make tauri/cli fully support projects with non-standard structure,regexident,2024-10-07T19:24:06Z,2024-10-17T11:24:20+00:00,2,232.0,True,44,25,2,9905,9,0,9,MERGED
+11255,Apply Version Updates From Current Changes,github-actions,2024-10-07T17:14:16Z,2024-10-12T15:28:16+00:00,1,118.23,True,105,87,27,3522,1,0,1,MERGED
+11243,fix: npm audit,lucasfernog,2024-10-06T17:12:51Z,2024-10-07T16:23:28+00:00,1,23.18,True,10,11,6,162,1,0,1,MERGED
+11242,feat(bundler/nsis): add `Italian` language,alex-sandri,2024-10-06T16:07:57Z,2024-10-07T16:56:15+00:00,4,24.8,True,35,0,3,0,2,3,5,MERGED
+11241,feat: allow overriding resource directory at compile-time,griffi-gh,2024-10-06T14:53:30Z,2024-10-20T21:26:42+00:00,2,342.55,False,5,0,1,12,3,1,4,CLOSED
+11236,fix: IPC on multiwindowed linux apps (fix #11171),Ynng,2024-10-05T20:12:46Z,2024-10-12T02:50:08+00:00,1,150.62,False,113,102,4,171,7,2,9,CLOSED
+11235,feat(core): expose invoke key for custom IPC implementations,lucasfernog,2024-10-05T16:20:15Z,2024-10-06T10:36:00+00:00,1,18.26,True,14,0,2,229,1,0,1,MERGED
+11228,feat: add back `tauri::Builder::on_menu_event`,amrbashir,2024-10-05T08:37:37Z,2024-10-09T14:09:42+00:00,2,101.53,True,41,1,4,0,3,0,3,MERGED
+11224,fix: usage of `node12 which is deprecated`,hamirmahal,2024-10-04T18:02:55Z,2024-10-05T16:22:18+00:00,2,22.32,True,1,1,1,13,1,1,2,MERGED
+11219,fix(api): actually publish with the latest tag,lucasfernog,2024-10-04T10:38:44Z,2024-10-04T13:13:57+00:00,1,2.59,True,6,1,2,40,1,0,1,MERGED
+11218,"fix(bundler): wrap `Exec` in desktop with quotes, rename appimage main binary if has spaces",amrbashir,2024-10-04T06:14:12Z,2024-10-06T17:08:38+00:00,4,58.91,True,45,7,4,0,1,2,3,MERGED
+11217,fix(windows): fix command bug in update elevated task (fix #11216),kittuov,2024-10-04T05:03:41Z,2024-10-04T07:01:49+00:00,7,1.97,True,6,1,2,244,1,3,4,MERGED
+11213,fix(core): deadlock when creating new window with tracing feature,lucasfernog,2024-10-03T21:30:59Z,2024-10-04T19:13:44+00:00,2,21.71,True,35,14,3,310,1,1,2,MERGED
+11209,Apply Version Updates From Current Changes,github-actions,2024-10-03T17:09:22Z,2024-10-06T11:41:18+00:00,1,66.53,True,51,34,18,951,1,0,1,MERGED
+11208,chore(cli): update cargo-mobile2 to adjust lib name validation,lucasfernog,2024-10-03T14:23:11Z,2024-10-03T16:46:49+00:00,1,2.39,True,9,3,3,32,1,0,1,MERGED
+11198,chore: promote to v2 stable,lucasfernog,2024-10-02T11:12:13Z,2024-10-02T12:42:45+00:00,1,1.51,True,634,1742,235,310,1,0,1,MERGED
+11197,chore(deps) Update Rust crate brotli to v7 (dev),renovate,2024-10-02T10:02:51Z,2024-10-17T13:07:20+00:00,1,363.07,True,38,5,2,576,3,0,3,MERGED
+11195,chore(deps) Update Rust crate brotli to v7 (dev),renovate,2024-10-02T07:59:11Z,2024-10-17T13:21:31+00:00,1,365.37,True,1,1,1,576,2,0,2,MERGED
+11193,chore(deps) Update Rust crate windows-registry to 0.3.0 (dev),renovate,2024-10-02T04:09:37Z,2024-10-17T13:23:30+00:00,1,369.23,True,1,1,1,594,2,0,2,MERGED
+11192,chore(deps) Update Rust crate proc-macro2 to v1.0.87 (dev),renovate,2024-10-02T04:09:20Z,2024-10-13T14:44:30+00:00,1,274.59,True,2,2,1,723,1,0,1,MERGED
+11191,"feat(api): add `SERIALIZE_TO_IPC_FN` const and implement it for dpi types, add more constructors",amrbashir,2024-10-02T02:54:47Z,2024-11-05T21:30:17+00:00,14,834.59,True,462,205,15,0,12,16,28,MERGED
+11189,feat(cli): add clap parse test,lucasfernog,2024-10-01T20:32:05Z,2024-10-01T23:53:39+00:00,1,3.36,True,12,0,1,115,1,0,1,MERGED
+11188,chore: publish 1.x NPM packages with the v1 tag,lucasfernog,2024-10-01T17:26:16Z,2024-10-15T03:02:02+00:00,5,321.6,True,3,3,3,109,2,1,3,MERGED
+11186,feat(cli): retain log verbosity when running a mobile IDE script,lucasfernog,2024-10-01T02:56:57Z,2024-10-02T00:58:54+00:00,2,22.03,True,15,1,2,151,1,1,2,MERGED
+11185,"feat(cli): enhance Android dev port forwarding, use host IP for android devices, closes #11137",lucasfernog,2024-10-01T02:53:43Z,2024-10-02T10:01:29+00:00,1,31.13,True,297,184,5,655,7,0,7,MERGED
+11184,"fix(cli): iOS app signature not retaining entitlements, closes #11089",lucasfernog,2024-09-30T23:45:34Z,2024-10-01T13:15:42+00:00,1,13.5,True,1880,130,10,597,1,0,1,MERGED
+11181,feat(cli): support Trunk for iOS dev out of the box,lucasfernog,2024-09-30T15:30:51Z,2024-09-30T16:54:13+00:00,3,1.39,True,7,0,2,175,1,1,2,MERGED
+11175,Apply Version Updates From Current Changes,github-actions,2024-09-29T10:58:53Z,2024-10-02T10:36:42+00:00,1,71.63,True,83,16,15,2322,1,0,1,MERGED
+11163,refactor(core)!: pass webview label to uri scheme protocol handlers,amrbashir,2024-09-27T05:32:16Z,2024-09-29T10:41:26+00:00,3,53.15,True,63,25,6,12,1,1,2,MERGED
+11162,feat(core): support async functions in `mobile_entry_point` macro,amrbashir,2024-09-27T02:01:44Z,2024-09-27T17:06:23+00:00,1,15.08,True,30,3,2,13,1,0,1,MERGED
+11161,fix(core): store the hosting `Window` directly on `Webview` and `WebviewWindow`,amrbashir,2024-09-27T00:52:53Z,2024-09-27T17:15:39+00:00,1,16.38,True,141,115,6,13,1,0,1,MERGED
+11154,feat: add `Window::set_enabled` and `Window::is_enabled`,amrbashir,2024-09-26T18:44:38Z,2024-09-27T17:35:01+00:00,1,22.84,True,453,152,21,12,2,0,2,MERGED
+11148,docs: fix formatting of JS comments for API reference,olivierlemasle,2024-09-26T12:03:44Z,2024-09-26T13:05:56+00:00,1,1.04,True,15,15,5,168,1,0,1,MERGED
+11146,"Revert ""chore(cli/deps): temporarily add tower dependency to fix compile error without --locked (#11136)""",FabianLars,2024-09-26T10:36:20Z,2024-09-26T13:05:33+00:00,1,2.49,True,16,19,2,68,1,0,1,MERGED
+11140,feat: add `Webview::show` and `Webview::hide`,amrbashir,2024-09-26T00:47:06Z,2024-09-27T05:30:30+00:00,1,28.72,True,231,12,22,13,1,0,1,MERGED
+11139,fix(nsis): properly handle Webview2 download return value,amrbashir,2024-09-25T23:38:31Z,2024-09-26T01:53:05+00:00,1,2.24,True,6,1,2,21,1,0,1,MERGED
+11136,chore(cli/deps): temporarily add tower dependency to fix compile error without --locked,FabianLars,2024-09-25T21:06:02Z,2024-09-25T23:08:07+00:00,2,2.03,True,3,0,2,47,1,1,2,MERGED
+11132,feat: add `ScopeObjectMatch` trait for easy scope validation,chippers,2024-09-25T14:34:46Z,2024-09-25T23:22:37+00:00,2,8.8,True,114,1,3,1446,1,1,2,MERGED
+11131,fix(nsis): properly handle Webview2 download return value ,0rvar,2024-09-25T14:21:22Z,2024-09-25T23:38:58+00:00,1,9.29,True,7,1,2,569,1,0,1,MERGED
+11123,chore(deps) Update dependency @rollup/plugin-typescript to v12 (dev),renovate,2024-09-25T03:14:25Z,2024-09-29T10:42:43+00:00,1,103.47,True,6,6,2,869,2,0,2,MERGED
+11122,chore(deps) Update Tauri Bundler (dev),renovate,2024-09-25T03:14:06Z,2024-09-29T10:42:18+00:00,1,103.47,True,8,8,1,852,1,0,1,MERGED
+11121,refactor!: simplify `TrayIconEvent` in JS by tagging it with `type` field,amrbashir,2024-09-25T03:13:03Z,2024-09-26T03:12:03+00:00,8,23.98,True,108,128,8,139,10,3,13,MERGED
+11118,feat(cli)!: add `--github-workflows`,amrbashir,2024-09-24T17:45:52Z,2024-09-25T00:11:39+00:00,1,6.43,True,22,0,4,13,1,0,1,MERGED
+11115,fix(ios): Don't set macOS deployment target when building for iOS,FabianLars,2024-09-24T11:34:00Z,2024-09-24T13:51:36+00:00,1,2.29,True,9,10,1,162,3,0,3,MERGED
+11111,Change V1 links to V2 site,tillmann-crabnebula,2024-09-24T08:08:14Z,2024-09-24T11:09:00+00:00,3,3.01,True,546,668,21,165,1,0,1,MERGED
+11106,test: add tests for StateManager,amrbashir,2024-09-24T01:49:06Z,2024-09-24T11:51:54+00:00,1,10.05,True,757,464,3,0,2,0,2,MERGED
+11105,refactor(core): return state in `unmanage`,amrbashir,2024-09-24T01:32:32Z,2024-09-24T13:53:15+00:00,2,12.35,True,7,5,2,0,1,1,2,MERGED
+11104,fix(api): convert `Position` to `PhsyicalPosition` for `TrayIconEvent`,amrbashir,2024-09-24T00:50:37Z,2024-09-24T11:04:54+00:00,2,10.24,True,174,97,6,48,3,1,4,MERGED
+11099,"fix(core): rerun build script if platform config changes, closes #10963",lucasfernog,2024-09-23T20:07:15Z,2024-09-24T14:02:34+00:00,1,17.92,True,36,11,6,0,1,0,1,MERGED
+11098,refactor(core&cli): activate default features in build script instead of CLI,amrbashir,2024-09-23T17:19:22Z,2024-10-01T00:02:33+00:00,6,174.72,False,57,41,7,0,3,2,5,CLOSED
+11097,chore(deps): update `muda` to `0.15` and `tray-icon` to `0.18`,amrbashir,2024-09-23T15:29:54Z,2024-09-23T21:20:40+00:00,1,5.85,True,35,26,6,0,1,0,1,MERGED
+11096,feat(bundler): improve GitHub mirror URL generation with custom templates,thep0y,2024-09-23T14:31:10Z,2024-09-24T16:04:41+00:00,12,25.56,True,105,17,4,469,1,8,9,MERGED
+11084,fix(bundler): Detect ARM gnueabi as soft-float (fix: #10970),olivierlemasle,2024-09-21T18:14:17Z,2024-09-24T14:13:22+00:00,4,67.98,True,93,43,8,225,1,1,2,MERGED
+11080,fix(cli): Fix crate type,AlexProgrammerDE,2024-09-21T06:03:07Z,2024-09-21T10:57:35+00:00,1,4.91,True,4,4,4,135,2,0,2,MERGED
+11075,Apply Version Updates From Current Changes (v1),github-actions,2024-09-20T11:40:13Z,2024-10-14T16:13:53+00:00,1,580.56,True,43,32,15,952,2,0,2,MERGED
+11071,feat(core): add `Manager::unmanage`,amrbashir,2024-09-20T03:05:18Z,2024-09-20T10:53:58+00:00,2,7.81,True,124,186,6,13,2,1,3,MERGED
+11070,fix(updater): encode version when making requests,amrbashir,2024-09-20T01:26:45Z,2024-09-20T10:57:47+00:00,1,9.52,True,11,1,2,13,1,0,1,MERGED
+11066,feat: add `webview.clear_all_browsing_data`,amrbashir,2024-09-20T00:04:21Z,2024-09-20T11:18:08+00:00,1,11.23,True,96,1,12,12,1,0,1,MERGED
+11065,refactor(core): simplify and document `push_pattern`,amrbashir,2024-09-19T23:39:17Z,2024-09-20T11:21:30+00:00,1,11.7,True,58,47,1,19,1,0,1,MERGED
+11064,fix(cli/add): use `>=` for npm and `~` for other package managers,amrbashir,2024-09-19T17:47:18Z,2024-09-19T20:11:40+00:00,1,2.41,True,101,57,8,13,2,0,2,MERGED
+11063,fix(cli): set ios deployment target only when building for ios,FabianLars,2024-09-19T16:18:52Z,2024-09-20T10:31:51+00:00,1,18.22,True,14,4,2,184,1,0,1,MERGED
+11062,Apply Version Updates From Current Changes,github-actions,2024-09-19T16:10:51Z,2024-09-27T20:51:55+00:00,1,196.68,True,287,58,29,8492,1,0,1,MERGED
+11056,feat: Expose ability to enable browser extensions in WebView2,SpikeHD,2024-09-18T18:19:49Z,2024-09-19T15:46:23+00:00,2,21.44,True,78,4,10,275,2,2,4,MERGED
+11049,chore(deps) Update Rust crate uuid to v1.11.0 (dev),renovate,2024-09-18T08:31:53Z,2024-10-17T13:24:00+00:00,1,700.87,True,2,2,1,978,2,0,2,MERGED
+11048,chore(deps) Update Tauri Bundler (dev),renovate,2024-09-18T08:31:41Z,2024-09-20T11:21:59+00:00,1,50.84,True,10,10,1,1699,1,0,1,MERGED
+11046,refactor(bundler): group and organize template file structure,amrbashir,2024-09-18T04:32:21Z,2024-09-18T14:00:27+00:00,1,9.47,True,72,88,39,276,1,0,1,MERGED
+11045,chore(deps) Update Tauri Build to v1.0.89 (dev),renovate,2024-09-18T04:04:10Z,2024-09-18T13:26:58+00:00,1,9.38,True,8,8,1,1510,1,0,1,MERGED
+11044,chore(deps) Update Rust crate syn to v2.0.77 (dev),renovate,2024-09-18T04:03:55Z,2024-09-18T13:25:59+00:00,1,9.37,True,56,56,1,699,1,0,1,MERGED
+11043,fix(core): share webcontext between webviews,amrbashir,2024-09-18T04:02:54Z,2024-09-21T10:42:08+00:00,3,78.65,True,70,33,2,13,1,2,3,MERGED
+11041,refactor(bundler/nsis): replace `nsis_process.dll` usage with `nsProcess.dll`,amrbashir,2024-09-18T01:51:23Z,2024-12-08T23:37:55+00:00,1,1965.78,False,247,31,4,326,5,1,6,CLOSED
+11039,feat: add `upgradeCode` config option,amrbashir,2024-09-17T16:30:06Z,2024-09-20T11:44:41+00:00,2,67.24,True,131,8,14,0,1,1,2,MERGED
+11034,refactor(cli/node): migrate `jest` to `vitest` for tests,amrbashir,2024-09-17T00:06:21Z,2024-09-17T10:36:03+00:00,1,10.49,True,321,2010,17,0,2,0,2,MERGED
+11033,ci: use correct version for cloudflare/wrangler-action action,amrbashir,2024-09-16T22:59:30Z,2024-09-17T09:10:47+00:00,1,10.19,True,1,1,1,0,1,0,1,MERGED
+11032,feat(core): add `app > windows > create` option to disable window creation at startup,amrbashir,2024-09-16T15:51:19Z,2024-09-16T20:03:25+00:00,2,4.2,True,31,6,6,13,1,1,2,MERGED
+11031,"feat(api): add `{LogicalPosition,LogicalSize}.toPhysical` method",amrbashir,2024-09-16T15:39:18Z,2024-09-16T19:43:54+00:00,1,4.08,True,43,3,3,13,1,0,1,MERGED
+11030,feat(cli/plugin): add `--no-example` flag,amrbashir,2024-09-16T15:29:53Z,2024-09-16T19:41:21+00:00,1,4.19,True,33,16,3,13,1,0,1,MERGED
+11029,Apply Version Updates From Current Changes,github-actions,2024-09-16T15:23:36Z,2024-09-17T12:02:10+00:00,1,20.64,True,163,58,29,2326,1,0,1,MERGED
+11026,docs: add RELEASING.md handbook,amrbashir,2024-09-16T14:25:57Z,2024-09-17T10:38:15+00:00,17,20.2,True,63,1,2,0,1,14,15,MERGED
+11019,Apply Version Updates From Current Changes,github-actions,2024-09-16T05:35:56Z,2024-09-16T08:52:24+00:00,1,3.27,True,9,2,4,241,1,0,1,MERGED
+11016,fix(core): missing NSImage feature on objc2-app-kit,Legend-Master,2024-09-16T03:40:11Z,2024-09-16T04:40:26+00:00,1,1.0,True,1,0,1,511,1,0,1,MERGED
+11013,docs: update CONTRIBUTING.md with .changes instructions,fxsalazar,2024-09-15T20:10:14Z,2024-09-16T13:22:36+00:00,1,17.21,True,3,0,1,25,3,0,3,MERGED
+11011,fix: fix `main_binary_name` includes `.exe` regression on Windows,amrbashir,2024-09-15T15:49:06Z,2024-09-15T19:30:48+00:00,4,3.69,True,34,18,5,0,1,2,3,MERGED
+11010,Apply Version Updates From Current Changes,github-actions,2024-09-15T14:38:33Z,2024-09-15T19:56:23+00:00,1,5.3,True,43,7,9,972,1,0,1,MERGED
+11007,feat(cli): discover src/main.rs binary automatically,lucasfernog,2024-09-15T10:58:12Z,2024-09-15T14:21:31+00:00,1,3.39,True,47,18,2,273,1,0,1,MERGED
+11005,fix(bundler): Use appimage files instead of debian files when building appimage,goenning,2024-09-15T08:31:32Z,2024-09-15T11:36:04+00:00,1,3.08,True,6,1,2,72,1,0,1,MERGED
+11004,feat(cli): add log plugin to the app template,lucasfernog,2024-09-14T22:52:04Z,2024-09-15T11:35:38+00:00,1,12.73,True,29,4,5,127,1,0,1,MERGED
+11002,feat(core): restart() handles binary name change for macOS,lucasfernog,2024-09-14T13:55:14Z,2024-09-14T16:30:00+00:00,1,2.58,True,57,3,4,14,1,0,1,MERGED
+11000,fix(nsis): check main binary name is not empty,Legend-Master,2024-09-14T08:10:29Z,2024-09-14T10:33:43+00:00,1,2.39,True,2,1,1,104,1,0,1,MERGED
+10996,refactor(bundler/nsis): fix migration from MSI to NSIS,amrbashir,2024-09-14T03:07:50Z,2024-09-14T13:45:58+00:00,3,10.64,True,111,73,1,0,1,0,1,MERGED
+10991,fix(core): `restart` cannot handle binary name change on macOS,lucasfernog,2024-09-13T20:57:15Z,2024-09-14T13:51:29+00:00,5,16.9,True,68,11,5,912,2,1,3,MERGED
+10989,fixes iframes in windows causes window.__TAURI_INVOKE__ is not a function error in console.,hmic,2024-09-13T15:46:10Z,2024-09-14T13:19:23+00:00,2,21.55,True,1,1,1,73,1,1,2,MERGED
+10978,refactor(core)!: rename plugin::PermissionState::Unknown to plugin::PermissionState::Prompt,lucasfernog,2024-09-12T20:36:57Z,2024-09-13T11:38:59+00:00,2,15.03,True,10,5,2,0,1,1,2,MERGED
+10977,feat: add `mainBinaryName` option,amrbashir,2024-09-12T20:31:07Z,2024-09-15T10:51:01+00:00,8,62.33,True,188,135,32,0,2,3,5,MERGED
+10975,fix(core): Use productName for FileDescription,FabianLars,2024-09-12T15:17:58Z,2024-09-12T17:36:48+00:00,1,2.31,True,17,8,7,292,6,0,6,MERGED
+10971,fix(core/acl): fix `core:default` schema generation ,amrbashir,2024-09-12T03:22:21Z,2024-09-13T11:58:27+00:00,1,32.6,True,1098,832,19,81,1,0,1,MERGED
+10969,enhance(bundler/wix): generate consistent product code for MSI installer derived from identifier,amrbashir,2024-09-11T23:47:08Z,2024-09-13T11:45:03+00:00,3,35.97,True,14,1,4,0,1,2,3,MERGED
+10967,fix(bundler/wix): use product name to generate `UpgradeCode` for MSI,amrbashir,2024-09-11T23:05:24Z,2024-09-12T12:22:28+00:00,2,13.28,True,6,1,2,373,1,0,1,MERGED
+10966,"refactor(updater/wix): launch app after update, maintain args",amrbashir,2024-09-11T22:37:05Z,2024-09-12T13:07:04+00:00,1,14.5,True,127,63,4,0,1,0,1,MERGED
+10962,fix(bundler): store and remove old main binary on updates if main binary name has change,amrbashir,2024-09-11T16:27:48Z,2024-09-13T13:09:17+00:00,6,44.69,True,19,2,4,11,1,3,4,MERGED
+10961,feat(cli): enhance iOS logs,lucasfernog,2024-09-11T12:57:46Z,2024-09-15T10:37:56+00:00,5,93.67,True,384,21,8,180,1,1,2,MERGED
+10953,Apply Version Updates From Current Changes,github-actions,2024-09-11T02:51:18Z,2024-09-15T12:54:50+00:00,1,106.06,True,216,68,25,4695,1,0,1,MERGED
+10952,feat(bundler/nsis): store main binary name to be used in registry for future updates,amrbashir,2024-09-11T01:08:06Z,2024-09-13T13:08:51+00:00,3,60.01,True,13,3,4,0,1,1,2,MERGED
+10946,fix(core): Mark `identifier` as a required field.,FabianLars,2024-09-10T10:34:50Z,2024-09-10T13:08:05+00:00,1,2.55,True,28,6,5,321,4,0,4,MERGED
+10944,fix(cli): synchronize version with iOS Info.plist,lucasfernog,2024-09-10T03:32:04Z,2024-09-10T15:31:15+00:00,1,11.99,True,12,0,2,127,1,0,1,MERGED
+10943,fix(core): mobile dev server proxy URL,lucasfernog,2024-09-10T03:24:00Z,2024-09-10T15:30:58+00:00,1,12.12,True,10,1,2,222,1,0,1,MERGED
+10940,feat(cli): generate signatures for non-zipped targets with `createUpdaterArtifacts: v1Compatible`,amrbashir,2024-09-10T02:20:15Z,2024-09-20T11:47:36+00:00,19,249.46,True,10,11,2,0,1,1,2,MERGED
+10939,feat(updater): support updating using non-zipped files,amrbashir,2024-09-10T01:37:14Z,2024-09-11T20:55:25+00:00,3,43.3,True,5073,290,35,48,1,1,2,MERGED
+10924,feat: Migrate to `objc2`,madsmtm,2024-09-08T07:14:29Z,2024-09-15T20:15:48+00:00,3,181.02,True,114,79,12,426,2,1,3,MERGED
+10885,chore: remove unneeded prettier config,amrbashir,2024-09-03T23:20:33Z,2024-09-04T01:59:42+00:00,1,2.65,True,1,4,1,0,1,0,1,MERGED
+10884,feat: derive `serde::Serialize` for `SafePathBuf`,amrbashir,2024-09-03T22:54:30Z,2024-09-04T01:55:19+00:00,1,3.01,True,9,3,3,0,1,0,1,MERGED
+10883,build(deps): bump actions/download-artifact from 3 to 4.1.7 in /.github/workflows,dependabot,2024-09-03T21:57:49Z,2024-09-04T20:08:39+00:00,1,22.18,True,10,10,4,3712,1,0,1,MERGED
+10882,build(deps): bump quinn-proto from 0.11.6 to 0.11.8,dependabot,2024-09-03T20:51:02Z,2024-09-04T20:09:04+00:00,1,23.3,True,3,3,1,2132,1,0,1,MERGED
+10881,ci: update setup-python action to v5 to fix deprecated node version,hamirmahal,2024-09-03T19:22:40Z,2024-09-03T21:57:16+00:00,2,2.58,True,1,1,1,13,3,1,4,MERGED
+10879,fix(resources): enhance error messages for globs,amrbashir,2024-09-03T17:02:12Z,2024-09-03T21:58:08+00:00,1,4.93,True,74,6,2,21,1,0,1,MERGED
+10874,docs: fix grammar in `TitleBarStyle` api config documentation,alDuncanson,2024-09-03T05:13:30Z,2024-09-03T09:17:38+00:00,1,4.07,True,1,1,1,113,1,0,1,MERGED
+10871,feat: add tauri-schema-worker,amrbashir,2024-09-03T02:23:50Z,2024-09-16T21:52:56+00:00,11,331.49,True,1082,44,20,46,3,5,8,MERGED
+10870,enhance(core): add `FromStr` impl for `SafePathBuf`,Legend-Master,2024-09-03T01:18:45Z,2024-09-03T02:20:32+00:00,1,1.03,True,17,1,2,44,1,0,1,MERGED
+10866,feat(bundler): add `TAURI_BUNDLER_TOOLS_GITHUB_MIRROR`to specify a GitHub mirror,thep0y,2024-09-02T14:14:33Z,2024-09-11T02:36:12+00:00,14,204.36,True,30,2,5,933,1,8,9,MERGED
+10865,Apply Version Updates From Current Changes,github-actions,2024-09-02T14:04:53Z,2024-09-04T20:29:03+00:00,2,54.4,True,208,77,27,3121,2,0,2,MERGED
+10858,feat(core): validate duplicated capability identifier,lucasfernog,2024-09-02T01:50:22Z,2024-09-02T14:13:14+00:00,1,12.38,True,22,0,3,175,1,0,1,MERGED
+10847,fix(cli): iOS build targetting the simulator,lucasfernog,2024-08-31T13:27:24Z,2024-09-02T16:13:22+00:00,1,50.77,True,29,6,2,125,1,0,1,MERGED
+10845,feat(cli): always validate iOS lib,lucasfernog,2024-08-31T13:19:23Z,2024-09-02T16:13:35+00:00,1,50.9,True,39,14,4,222,1,0,1,MERGED
+10844,"fix(core): clippy warnings, simplify embed_plist usage",lucasfernog,2024-08-31T11:06:13Z,2024-09-02T22:09:28+00:00,4,59.05,True,51,35,7,0,1,1,2,MERGED
+10842,fix(core): Swift warning for null invoke.resolve() iOS plugin values,lucasfernog,2024-08-31T03:03:06Z,2024-09-02T13:51:31+00:00,1,58.81,True,6,1,2,74,1,0,1,MERGED
+10841,fix(core): isolation pattern breaks raw postMessage payload,lucasfernog,2024-08-31T03:00:34Z,2024-09-02T16:12:59+00:00,1,61.21,True,13,1,2,62,1,0,1,MERGED
+10840,feat(core): always use the custom protocol IPC on Linux,lucasfernog,2024-08-31T02:16:45Z,2024-09-02T16:12:29+00:00,2,61.93,True,12,16,8,163,3,0,3,MERGED
+10838,fix(windows): Handle root paths that cannot be canonicalized,alexmoon,2024-08-30T18:06:40Z,2024-09-19T23:33:55+00:00,12,485.45,True,128,9,1,363,4,4,8,MERGED
+10825,"feat(bundler): fallback to publisher for deb maintainer, closes #10777",lucasfernog,2024-08-29T11:00:32Z,2024-08-29T18:41:40+00:00,1,7.69,True,25,6,7,0,1,0,1,MERGED
+10817,feat(core): add `plugin::PermissionState`,lucasfernog,2024-08-28T22:17:43Z,2024-08-29T01:34:03+00:00,1,3.27,True,60,1,2,0,3,0,3,MERGED
+10808,chore(deps) Update Tauri CLI (dev),renovate,2024-08-28T04:44:03Z,2024-10-17T14:03:46+00:00,1,1209.33,True,61,37,2,1562,3,0,3,MERGED
+10807,chore(deps) Update Tauri API Definitions (dev),renovate,2024-08-28T04:42:47Z,2024-10-17T14:04:06+00:00,1,1209.36,True,415,248,2,7890,2,0,2,MERGED
+10805,chore: add root taurignore,lucasfernog,2024-08-27T23:01:49Z,2024-08-28T14:48:40+00:00,5,15.78,True,16,1,2,124,2,1,3,MERGED
+10803,fix(ci): check change tags script,lucasfernog,2024-08-27T22:56:42Z,2024-08-28T00:20:45+00:00,1,1.4,True,2,2,1,0,1,0,1,MERGED
+10802,feat(cli): synchronize Tauri config and lib name with iOS Xcode project,lucasfernog,2024-08-27T22:42:04Z,2024-08-28T15:11:50+00:00,1,16.5,True,112,37,11,361,2,0,2,MERGED
+10799,feat(api): permission types for mobile plugins,lucasfernog,2024-08-27T17:09:46Z,2024-08-28T14:49:05+00:00,4,21.66,True,29,1,3,92,1,1,2,MERGED
+10796,Restructure the repository,amrbashir,2024-08-27T15:17:46Z,2024-08-27T21:42:30+00:00,1,6.41,True,11205,28397,859,0,1,0,1,MERGED
+10794,"fix(cli): migrate v1 plugins NPM packages, closes #10693",lucasfernog,2024-08-27T13:57:51Z,2024-08-27T15:01:16+00:00,1,1.06,True,146,18,5,31,1,0,1,MERGED
+10792,"fix(cli): `plugin ios init` cmd not generating iOS folder, closes #10661",lucasfernog,2024-08-27T12:00:51Z,2024-08-27T15:05:19+00:00,1,3.07,True,60,18,5,0,1,0,1,MERGED
+10791,"fix(cli): readd targetSdk to Android app template, closes #10712",lucasfernog,2024-08-27T11:47:59Z,2024-08-27T13:04:43+00:00,1,1.28,True,7,0,2,22,1,0,1,MERGED
+10790,fix(cli): do not exit mobile dev if logger could not be attached,lucasfernog,2024-08-27T02:38:36Z,2024-08-27T15:05:32+00:00,1,12.45,True,8,16,3,131,1,0,1,MERGED
+10788,chore(deps): update cargo-mobile2 to 0.15,amrbashir,2024-08-27T00:35:52Z,2024-08-27T11:42:43+00:00,1,11.11,True,16,52,10,0,2,0,2,MERGED
+10787,ci: check toml formatting with taplo-cli,amrbashir,2024-08-26T23:01:51Z,2024-08-27T00:46:05+00:00,1,1.74,True,433,441,33,0,1,0,1,MERGED
+10786,feat: add `DoubleClick` variant for `TrayIconEvent`,amrbashir,2024-08-26T22:49:23Z,2024-08-27T13:03:55+00:00,1,14.24,True,34,3,4,0,2,0,2,MERGED
+10785,fix(cli): do not generate .cargo/config file ,lucasfernog,2024-08-26T20:48:26Z,2024-08-27T01:15:09+00:00,2,4.45,True,44,73,9,152,1,0,1,MERGED
+10778,fix(ci): missing pnpm on check api action,Legend-Master,2024-08-26T03:53:59Z,2024-08-26T12:12:24+00:00,1,8.31,True,5,0,1,96,2,0,2,MERGED
+10772,refactor(core): remove deprecated webview_fixed_runtime_path option,lucasfernog,2024-08-25T13:45:55Z,2024-08-25T19:35:42+00:00,1,5.83,True,79,83,11,67,1,0,1,MERGED
+10771,"fix(cli): change supported URL Type ""link:"" in plugin template",rdlabo,2024-08-25T12:00:07Z,2024-08-26T12:16:14+00:00,1,24.27,True,2,2,1,287,0,0,0,MERGED
+10766,fix(ios): plugin ios can resolve([:]),rdlabo,2024-08-25T02:51:23Z,2024-08-27T00:52:45+00:00,2,46.02,False,3,0,1,48,1,1,2,CLOSED
+10763,fix(plugin): fix android_package_id to follow cli,rdlabo,2024-08-25T02:11:37Z,2024-08-26T16:39:05+00:00,2,38.46,True,7,4,2,41,1,1,2,MERGED
+10761,feat(core): add plugin methods getArgs and getRawArgs for iOS and Android,rdlabo,2024-08-25T02:00:15Z,2024-08-26T19:55:52+00:00,1,41.93,True,126,0,4,84,1,0,1,MERGED
+10752,feat(cli): allow xcodebuild to manage iOS signing and provisioning,lucasfernog,2024-08-23T19:35:07Z,2024-08-24T00:12:49+00:00,1,4.63,True,48,8,5,307,1,0,1,MERGED
+10751,fix(cli): ensure gradlew is executable and does not use CRLF,lucasfernog,2024-08-23T11:49:25Z,2024-08-23T13:49:45+00:00,2,2.01,True,36,2,2,369,1,1,2,MERGED
+10743,chore: cleanup and simplify examples,amrbashir,2024-08-22T18:43:33Z,2024-08-26T22:25:36+00:00,5,99.7,True,1907,18696,119,217,6,2,8,MERGED
+10734,fix: generate `Context` inside a thread,chippers,2024-08-22T07:29:14Z,2024-08-23T11:46:23+00:00,1,28.29,True,22,1,2,273,1,0,1,MERGED
+10731,chore: cleanup unnecessary scripts and files,amrbashir,2024-08-21T23:06:14Z,2024-08-22T10:56:52+00:00,1,11.84,True,74,345,44,247,2,0,2,MERGED
+10729,feat(cli/info): include plugins info,amrbashir,2024-08-21T21:21:42Z,2024-08-23T11:29:03+00:00,1,38.12,True,310,218,8,13,1,0,1,MERGED
+10718,fix(core): update swift-rs to fix iOS plugin builds,rdlabo,2024-08-21T15:18:39Z,2024-08-27T11:22:13+00:00,1,140.06,True,11,4,5,185,5,0,5,MERGED
+10707,chore(deps) Update Prettier config and its version to 3.3.3 (dev),unknown,2024-08-21T06:18:00Z,2024-08-22T01:29:49+00:00,1,19.2,False,12,14,5,777,1,0,1,CLOSED
+10703,fix(core): properly remove isolation script from DOM,lucasfernog,2024-08-21T01:57:42Z,2024-08-21T12:08:16+00:00,1,10.18,True,7,2,2,60,1,0,1,MERGED
+10700,"fix(core): allow hyphens and underscores on identifiers, closes #9707",lucasfernog,2024-08-20T18:20:57Z,2024-08-21T16:46:25+00:00,2,22.42,True,67,53,16,0,5,1,6,MERGED
+10678,fix: Correctly export `DefaultPermissionsRule`,Norbiros,2024-08-19T07:38:09Z,2024-08-19T16:10:06+00:00,3,8.53,True,6,1,2,119,1,0,1,MERGED
+10676,"fix(cli): change ""register_ios_plugin"" params to snake case",rdlabo,2024-08-19T03:08:55Z,2024-08-19T16:29:02+00:00,3,13.34,True,8,2,2,54,1,2,3,MERGED
+10669,"refactor(cli): synchronize pbxproj and export options, handle cert on build",lucasfernog,2024-08-18T15:04:52Z,2024-08-21T14:38:02+00:00,3,71.55,True,2491,172,15,248,1,1,2,MERGED
+10659,fix(ci): @tauri-apps/cli publish workflow,lucasfernog,2024-08-17T05:01:39Z,2024-08-17T11:21:27+00:00,2,6.33,True,132,30,12,29,2,0,2,MERGED
+10658,skip prepublish on api,jbolda,2024-08-17T04:58:10Z,2024-08-18T10:55:19+00:00,2,29.95,True,0,32,1,137,2,0,2,MERGED
+10657,"skip pack in publish, use check fetch",jbolda,2024-08-17T03:56:00Z,2024-08-18T10:54:59+00:00,3,30.98,True,26,95,2,174,1,1,2,MERGED
+10655,chore(deps): update tao and wry to latest,lucasfernog,2024-08-16T21:46:48Z,2024-08-16T23:30:34+00:00,1,1.73,True,438,274,12,0,2,0,2,MERGED
+10654,fix(macos-sign): missing stdout/stderr in Node.js context,lucasfernog,2024-08-16T19:01:47Z,2024-08-16T23:16:01+00:00,1,4.24,True,40,12,8,87,1,0,1,MERGED
+10652,feat(bundler): infer signing identity from certificate to import,lucasfernog,2024-08-16T17:39:52Z,2024-08-16T23:30:49+00:00,1,5.85,True,40,21,5,225,1,0,1,MERGED
+10648,fix(android): avoid rebuilds if nothing changed,Flakebi,2024-08-16T09:11:57Z,2024-08-19T16:33:39+00:00,5,79.36,True,34,30,6,183,1,1,2,MERGED
+10644,chore: use 0.1.0 as version in templates,amrbashir,2024-08-16T03:30:18Z,2024-08-16T23:19:04+00:00,1,19.81,True,6,6,6,13,2,0,2,MERGED
+10643,"chore(deps): update windows, tray-icon, muda, cocoa crates",amrbashir,2024-08-16T03:02:37Z,2024-08-16T23:14:51+00:00,1,20.2,False,271,164,11,0,2,1,3,CLOSED
+10642,fix(cli): actually check if there are multiple android devices connected,lucasfernog,2024-08-15T21:16:31Z,2024-08-16T01:12:34+00:00,1,3.93,True,1,1,1,22,1,0,1,MERGED
+10641,"refactor(core): serialize response once, closes #5641",lucasfernog,2024-08-15T17:11:53Z,2024-08-15T19:15:11+00:00,2,2.06,True,343,136,17,494,2,0,2,MERGED
+10639,fix(cli): add notarize error,lucasfernog,2024-08-15T13:50:07Z,2024-08-15T17:12:03+00:00,1,3.37,True,10,1,2,0,1,0,1,MERGED
+10638,fix(cli): only validate iOS lib on debug builds,lucasfernog,2024-08-15T11:10:55Z,2024-08-15T12:12:21+00:00,1,1.02,True,10,1,2,120,1,0,1,MERGED
+10634,feat: Custom sign command with object notation,anatawa12,2024-08-15T07:17:31Z,2024-08-19T18:55:58+00:00,9,107.64,True,162,31,9,16,3,2,5,MERGED
+10630,refactor(api)!: change window label getters to be async ref #5380,lucasfernog,2024-08-14T23:43:36Z,2024-08-15T12:12:40+00:00,3,12.48,True,153,181,17,146,2,2,4,MERGED
+10628,chore(deps) Update Tauri CLI (1.x),renovate,2024-08-14T18:00:12Z,2024-08-15T13:50:54+00:00,1,19.84,True,33,26,1,2679,3,0,3,MERGED
+10622,chore(deps) Update Tauri API Definitions (1.x),renovate,2024-08-14T13:33:01Z,2024-08-15T13:51:10+00:00,1,24.3,True,89,96,3,11026,3,0,3,MERGED
+10621,chore(deps) Update Rust crate proc-macro2 to v1.0.86 (1.x),renovate,2024-08-14T11:57:25Z,2024-08-15T13:51:28+00:00,1,25.9,True,2,2,1,992,1,0,1,MERGED
+10620,chore(deps) Update dependency @types/eslint to v9 (dev),renovate,2024-08-14T11:57:13Z,2024-08-15T13:51:46+00:00,1,25.91,True,5,5,2,609,2,0,2,MERGED
+10619,fix(bundler): armv7 appimage bundler script 404 links [closes #6579],Broken-Deer,2024-08-14T10:56:49Z,2024-08-14T15:39:36+00:00,1,4.71,True,6,0,2,90,3,0,3,MERGED
+10614,chore(deps) Update Tauri API Definitions (dev),renovate,2024-08-14T08:47:33Z,2024-08-15T14:14:36+00:00,1,29.45,True,132,120,2,3427,3,0,3,MERGED
+10613,chore(deps) Update Tauri Codegen (dev),renovate,2024-08-14T08:47:16Z,2024-08-15T13:52:12+00:00,1,29.08,True,37,37,1,2178,1,0,1,MERGED
+10611,fix(tauri-runtime-wry): ensure tray is created when event loop ready,lucasfernog,2024-08-14T03:56:55Z,2024-08-15T11:21:48+00:00,3,31.41,True,169,30,3,148,1,1,2,MERGED
+10610,chore(deps) Update Tauri CLI (dev),renovate,2024-08-14T03:52:59Z,2024-08-15T18:39:21+00:00,1,38.77,True,210,124,5,30247,3,0,3,MERGED
+10609,chore(deps) Update Rust crate syn to v2.0.74 (dev) - autoclosed,renovate,2024-08-14T03:51:54Z,2024-08-15T13:50:39+00:00,1,33.98,True,31,31,1,1168,1,0,1,MERGED
+10607,build: migrate repo to use `pnpm` as the package manager,amrbashir,2024-08-14T01:31:55Z,2024-08-17T02:04:08+00:00,1,72.54,True,5692,5360,75,0,2,0,2,MERGED
+10605,fix(cli): properly resolve merge config on mobile build closes #9970,lucasfernog,2024-08-14T01:03:01Z,2024-08-15T13:50:19+00:00,1,36.79,True,10,0,2,72,1,0,1,MERGED
+10602,feat(cli): support AndroidTV by default,amrbashir,2024-08-13T20:56:57Z,2024-08-14T00:47:41+00:00,1,3.85,True,12,0,2,13,1,0,1,MERGED
+10600,fix(cli): builtin dev server should also be forwarded for Android,lucasfernog,2024-08-13T19:15:34Z,2024-08-14T00:11:02+00:00,1,4.92,True,50,4,9,443,1,0,1,MERGED
+10595,refactor: rename `TAURI_SIGNTOOL_PATH` -> `TAURI_WINDOWS_SIGNTOOL_PATH`,amrbashir,2024-08-13T11:55:47Z,2024-08-14T00:48:12+00:00,1,12.87,True,3,2,3,155,1,0,1,MERGED
+10594,chore(deps): update serialize-to-javascript to 0.1.2,lucasfernog,2024-08-13T10:32:01Z,2024-08-13T11:37:22+00:00,1,1.09,True,22,16,5,0,1,0,1,MERGED
+10589,"feat: Support '""' quoting for custom signing tool",anatawa12,2024-08-13T04:17:37Z,2024-08-15T12:02:48+00:00,8,55.75,False,146,1,2,67,5,4,9,CLOSED
+10588,feat: `TAURI_SIGNTOOL_PATH` environment variable for specifying the path to signtool.exe.,anatawa12,2024-08-13T03:45:50Z,2024-08-13T11:49:29+00:00,3,8.06,True,9,0,2,173,1,2,3,MERGED
+10587,"refactor(tauri-runtime-wry): Arc instead of Rc, closes #9775",lucasfernog,2024-08-13T01:23:23Z,2024-08-13T11:37:46+00:00,3,10.24,True,127,63,4,339,1,1,2,MERGED
+10585,"refactor(core): return 200 on any IPC call, closes #10286",lucasfernog,2024-08-12T23:20:16Z,2024-08-13T11:39:21+00:00,2,12.32,True,39,14,7,428,5,1,6,MERGED
+10582,"fix(core): IPC fallback hanging when sending responses, closes #10327",lucasfernog,2024-08-12T19:47:47Z,2024-08-13T10:38:49+00:00,1,14.85,True,33,8,3,322,1,0,1,MERGED
+10577,"refactor(bundler): output file name consistency, closes #10465",lucasfernog,2024-08-12T10:46:42Z,2024-10-02T11:35:56+00:00,6,1224.82,False,101,112,8,406,4,5,9,CLOSED
+10572,fix(cli): properly exit with code 1 on panic when running with bun,lucasfernog,2024-08-11T22:45:33Z,2024-08-13T11:53:04+00:00,2,37.13,True,28,6,2,94,2,0,2,MERGED
+10571,chore(cli): change default export method to debugging,lucasfernog,2024-08-11T21:21:00Z,2024-08-13T01:04:16+00:00,1,27.72,True,7,1,2,31,1,0,1,MERGED
+10569,fix(cli): `ios dev` and `ios build` support for `bun`,lucasfernog,2024-08-11T20:44:20Z,2024-08-13T12:00:41+00:00,9,39.27,True,11,2,2,0,2,1,3,MERGED
+10559,feat: Add option to generate default permissions for inlined plugins,Norbiros,2024-08-10T15:04:59Z,2024-08-10T18:34:49+00:00,1,3.5,True,103,6,5,128,1,0,1,MERGED
+10558,refactor(android): Remove targetSdk from gradle config ,ahqsoftwares,2024-08-10T14:54:14Z,2024-08-11T10:06:14+00:00,2,19.2,True,7,4,5,408,3,1,4,MERGED
+10557,docs: Add hyperlink to localhost-free readme item,JonasKruckenberg,2024-08-10T14:49:41Z,2024-08-10T19:26:12+00:00,1,4.61,True,1,1,1,99,1,0,1,MERGED
+10554,Add v2 report,tweidinger,2024-08-10T06:07:52Z,2024-08-10T17:52:09+00:00,1,11.74,True,0,0,1,65,1,0,1,MERGED
+10550,fix: fails to build universal fat binary if main bin is renamed to another name,anatawa12,2024-08-09T13:36:10Z,2024-08-11T09:56:53+00:00,2,44.35,True,14,6,4,12,2,0,2,MERGED
+10547,fix(core): plugin permissions documentation heading,lucasfernog,2024-08-09T12:02:17Z,2024-08-13T00:58:44+00:00,1,84.94,True,15,10,11,0,1,0,1,MERGED
+10544,feat(cli): add support to Svelte and Vue.js code on v1 migration,lucasfernog,2024-08-08T22:58:00Z,2024-08-12T04:45:42+00:00,1,77.8,True,746,235,9,0,1,0,1,MERGED
+10542,fix(cli): incorrect JS generated by frontend migration closes #10500,lucasfernog,2024-08-08T22:05:31Z,2024-08-12T03:10:27+00:00,1,77.08,True,14,6,2,0,1,0,1,MERGED
+10540,fix(cli): manifest v1 migration,lucasfernog,2024-08-08T20:53:42Z,2024-08-12T03:23:39+00:00,1,78.5,True,120,49,2,97,1,0,1,MERGED
+10539,"fix(cli): broken v1 updater migration, add TOML support, closes #10508",lucasfernog,2024-08-08T19:58:22Z,2024-08-12T02:56:13+00:00,1,78.96,True,361,24,4,268,1,0,1,MERGED
+10533,fix(core/cli): Add custom `default` implementation for ios config,FabianLars,2024-08-08T12:13:20Z,2024-08-08T22:57:57+00:00,1,10.74,True,23,5,4,0,1,0,1,MERGED
+10532,Apply Version Updates From Current Changes,github-actions,2024-08-08T12:02:46Z,2024-08-09T02:52:47+00:00,1,14.83,True,138,46,26,2139,2,0,2,MERGED
+10527,fix: 'ndecorated' typo in window shadow description,verdaderoken,2024-08-08T00:06:52Z,2024-08-08T02:47:53+00:00,1,2.68,True,8,8,6,62,1,0,1,MERGED
+10525,ci: allow `actions: write` for version-or-publish to fix cli publishing,FabianLars,2024-08-07T19:23:55Z,2024-08-08T10:25:59+00:00,1,15.03,True,3,2,1,407,1,0,1,MERGED
+10517,chore(deps) Update Tauri CLI (dev) (major),renovate,2024-08-07T06:17:07Z,2024-08-10T19:39:55+00:00,1,85.38,True,43,11,3,1565,3,0,3,MERGED
+10516,chore(deps) Update Rust crate zip to v2 (dev),renovate,2024-08-07T05:55:16Z,2024-08-10T19:55:53+00:00,1,86.01,True,63,7,4,12016,1,0,1,MERGED
+10515,chore(deps) Update Rust crate json-patch to v2 (dev),renovate,2024-08-07T05:55:05Z,2024-08-10T19:45:24+00:00,1,85.84,True,26,5,4,655,3,0,3,MERGED
+10513,chore(deps) Update Tauri Codegen to v1.7.0 (dev),renovate,2024-08-07T04:02:58Z,2024-08-07T05:52:44+00:00,1,1.83,True,16,22,1,4137,1,0,1,MERGED
+10512,chore(deps) Update Tauri Bundler (dev),renovate,2024-08-07T04:02:39Z,2024-08-12T15:39:33+00:00,2,131.62,True,509,109,4,9455,2,0,2,MERGED
+10507,feat(cli): Upgrade gradle to 8.9 and gradle-android to 8.5.1,FabianLars,2024-08-06T14:01:04Z,2024-08-08T11:48:55+00:00,2,45.8,True,10,4,4,197,1,1,2,MERGED
+10504,feat(cli): detect project NPM package manager on init,fu050409,2024-08-06T11:34:52Z,2024-08-11T21:33:26+00:00,4,129.98,True,41,3,3,359,1,2,3,MERGED
+10499,fix: Fix bundler&cli MSRV,FabianLars,2024-08-05T17:15:23Z,2024-08-08T19:50:14+00:00,1,74.58,True,5027,821,14,642,2,0,2,MERGED
+10485,fix: permission file uses ':' in file name,anatawa12,2024-08-05T02:46:38Z,2024-08-05T12:45:01+00:00,1,9.97,True,7,4,2,12,2,0,2,MERGED
+10483,feat(cli): check if Rust lib contains required Android and iOS symbols #10094,lucasfernog,2024-08-04T22:49:44Z,2024-08-05T12:46:28+00:00,1,13.95,True,88,13,9,0,1,0,1,MERGED
+10481,fix(cli): v1 migration should add the updater plugin if it is enabled,lucasfernog,2024-08-04T20:09:59Z,2024-08-05T13:00:33+00:00,5,16.84,True,10,2,2,0,1,2,3,MERGED
+10480,chore(cli): remove `android open` and `ios open` commands,lucasfernog,2024-08-04T19:59:49Z,2024-08-05T12:57:54+00:00,2,16.97,True,6,81,5,172,1,0,1,MERGED
+10479,feat(cli): check if project identifier or lib name changed,lucasfernog,2024-08-04T19:50:49Z,2024-08-05T12:45:18+00:00,1,16.91,True,113,10,10,23,1,0,1,MERGED
+10477,chore: generate provenance statements for npm package,rwv,2024-08-04T16:33:51Z,2024-08-10T18:48:05+00:00,1,146.24,True,3,3,2,96,1,0,1,MERGED
+10471,format core directory with prettier,chippers,2024-08-03T15:41:31Z,2024-08-10T18:44:33+00:00,1,171.05,True,6,8,5,0,1,0,1,MERGED
+10470,set `packageManager` field in package.json for corepack,chippers,2024-08-03T15:40:51Z,2024-08-05T12:50:32+00:00,1,45.16,True,2,1,1,243,4,0,4,MERGED
+10463,docs: Update tauri::app::Builder::setup example,deadmeu,2024-08-03T08:42:03Z,2024-08-03T12:50:28+00:00,1,4.14,True,1,1,1,104,0,0,0,MERGED
+10457,feat(cli): allow skipping rustfmt project reformatting when adding a plugin,mmvanheusden,2024-08-02T15:24:12Z,2024-08-10T20:09:07+00:00,2,196.75,True,20,7,4,361,1,3,4,MERGED
+10442,prevent unnecessary rebuilds when working in the cargo workspace,chippers,2024-08-01T07:33:02Z,2024-08-02T10:30:02+00:00,3,26.95,True,239,218,8,883,1,0,1,MERGED
+10436,chore: update brotli dependency to v6,nyurik,2024-07-31T15:06:05Z,2024-08-11T11:23:31+00:00,2,260.29,True,16,10,5,58,1,0,1,MERGED
+10435,Fix Specta remote implementation for `Channel`,oscartbeaumont,2024-07-31T12:53:26Z,2024-08-01T07:26:52+00:00,1,18.56,True,7,2,3,139,1,0,1,MERGED
+10433,fix(core): usage without the compression feature,lucasfernog,2024-07-31T10:25:50Z,2024-07-31T21:39:51+00:00,1,11.23,True,6,1,2,166,1,0,1,MERGED
+10432,fix(core): usage without the compression feature,lucasfernog,2024-07-31T10:25:21Z,2024-07-31T21:40:02+00:00,1,11.24,True,6,1,2,143,1,0,1,MERGED
+10431,fix(cli): do not force architecture when building and archiving iOS app,glumn,2024-07-31T09:09:28Z,2024-08-19T15:36:49+00:00,1,462.46,True,11,3,4,58,1,0,1,MERGED
+10427,fix(macOS): Tauri Update Permission Denied Error,jLynx,2024-07-30T22:44:14Z,2025-02-02T20:29:22+00:00,1,4485.75,True,62,18,2,720,5,0,5,MERGED
+10423,check the main frame's origin in isolation.js,chippers,2024-07-30T11:28:33Z,2024-07-30T19:32:33+00:00,3,8.07,True,20,4,5,22,1,0,1,MERGED
+10418,fix(cli): make app_dir() logic consistent,samkearney,2024-07-29T20:14:51Z,2024-08-11T12:44:15+00:00,2,304.49,True,145,74,28,58,2,0,2,MERGED
+10415,fix: clippy warnings,lucasfernog,2024-07-29T16:02:32Z,2024-07-29T21:08:59+00:00,1,5.11,True,16,14,5,0,1,0,1,MERGED
+10405,add failable try_build for plugin builder,chippers,2024-07-29T05:07:46Z,2024-07-29T13:51:57+00:00,1,8.74,True,34,4,2,137,1,0,1,MERGED
+10404,fix: Conf parsing error always displays `tauri.conf.json` file name even when using toml or json5,ernstvanderlinden,2024-07-28T22:01:59Z,2024-07-29T12:54:22+00:00,1,14.87,True,9,2,2,334,3,0,3,MERGED
+10397,feat(core): make setting of gtk app id optional,vlabo,2024-07-26T16:18:47Z,2024-07-29T13:26:14+00:00,2,69.12,True,33,2,6,13,1,1,2,MERGED
+10395,feat(cli): add migration from 2.0.0-beta to 2.0.0-rc,lucasfernog,2024-07-26T12:22:51Z,2024-07-30T19:33:00+00:00,3,103.17,True,621,314,19,29,1,1,2,MERGED
+10394,fix(core): apply clippy suggestions,lucasfernog,2024-07-26T11:18:59Z,2024-07-29T08:53:53+00:00,1,69.58,True,69,64,19,0,4,0,4,MERGED
+10393,"feat: add iOS frameworks config option, closes #9962",lucasfernog,2024-07-26T11:04:00Z,2024-08-02T10:35:04+00:00,5,167.52,True,79,14,6,0,3,2,5,MERGED
+10392,chore: emit rustc-check-cfg for rust 1.80,anatawa12,2024-07-26T03:41:02Z,2024-07-29T15:58:27+00:00,1,84.29,True,24,0,8,118,1,0,1,MERGED
+10390,"refactor: core plugin permissions are now prefixed core:, closes #10359",lucasfernog,2024-07-25T20:58:56Z,2024-07-30T10:52:43+00:00,7,109.9,True,461,437,27,0,3,2,5,MERGED
+10386,feat: re-enable TLS checks for Android and dev proxy,lucasfernog,2024-07-25T15:18:37Z,2024-07-29T13:43:59+00:00,1,94.42,True,33,46,8,91,1,0,1,MERGED
+10370,chore(deps) Update Tauri API Definitions (dev),renovate,2024-07-24T04:02:21Z,2024-08-11T12:47:00+00:00,1,440.74,True,135,135,3,4324,3,0,3,MERGED
+10368,fix: DragDropEvent should have the same structure,tance77,2024-07-23T21:31:12Z,2024-07-24T16:44:22+00:00,4,19.22,False,14,10,1,296,1,1,2,CLOSED
+10362,fix: use specta's derive feature,Brendonovich,2024-07-23T07:50:02Z,2024-07-24T10:47:51+00:00,3,26.96,True,15,14,3,198,2,1,3,MERGED
+10360,use loopback interface on desktop dev server by default,chippers,2024-07-23T02:53:45Z,2024-07-30T05:17:19+00:00,2,170.39,True,2,2,1,221,1,1,2,MERGED
+10357,"feat(core): fallback to file system for AssetResolver::get, closes #8411",lucasfernog,2024-07-22T19:58:52Z,2024-07-31T10:13:40+00:00,1,206.25,True,80,0,6,18,1,0,1,MERGED
+10356,"feat(core): fallback to file system for AssetResolver::get, closes #8411",lucasfernog,2024-07-22T19:50:13Z,2024-07-31T10:13:52+00:00,2,206.39,True,123,30,13,247,2,0,2,MERGED
+10354,chore(deps): bump openssl from 0.10.64 to 0.10.66,dependabot,2024-07-22T18:12:40Z,2024-07-29T15:56:42+00:00,1,165.73,True,4,4,1,4973,1,0,1,MERGED
+10342,fix(docs): js doc's param mismatch for setSizeConstraints,Legend-Master,2024-07-21T11:26:48Z,2024-07-22T09:09:37+00:00,1,21.71,True,1,1,1,17,4,0,4,MERGED
+10339,feat(bundler/nsis): add minimum webview2 version checks,Legend-Master,2024-07-21T04:49:29Z,2024-08-23T12:21:40+00:00,17,799.54,True,120,52,8,61,1,9,10,MERGED
+10331,(chore) covector comment on forks,jbolda,2024-07-20T06:08:44Z,2024-07-20T12:17:06+00:00,2,6.14,True,30,0,1,118,1,1,2,MERGED
+10323,"For linting and testing auto update the node version to ""lts/*""",martinfrances107,2024-07-19T08:00:41Z,2024-08-18T10:55:38+00:00,5,722.92,True,3,3,1,388,6,4,10,MERGED
+10320,docs: Minor: 'cargo doc' reports links need to be wrapped in angle brackets.,martinfrances107,2024-07-18T16:21:22Z,2024-07-30T10:54:08+00:00,2,282.55,True,49,49,23,193,2,0,2,MERGED
+10309,chore(deps) Update Tauri Macros (dev),renovate,2024-07-17T03:44:17Z,2024-07-18T02:39:03+00:00,1,22.91,True,32,32,1,1542,1,0,1,MERGED
+10308,chore(deps) Update Tauri CLI (dev),renovate,2024-07-17T03:44:03Z,2024-08-12T15:52:16+00:00,1,636.14,True,208,379,4,30398,3,0,3,MERGED
+10300,fix(core): Return early in core.js if it's inside an iframe,FabianLars,2024-07-16T12:24:10Z,2024-07-30T07:27:40+00:00,1,331.06,True,22,4,5,139,2,0,2,MERGED
+10299,docs(core): Fix syntax in tauri.conf.json example,FabianLars,2024-07-16T09:51:26Z,2024-07-17T01:27:20+00:00,1,15.6,True,3,3,3,18,1,0,1,MERGED
+10297,"fix(macos): set default title-bar style to `Visible`, close #10225",pewsheen,2024-07-16T06:35:48Z,2024-07-17T03:40:39+00:00,4,21.08,True,20,1,2,215,0,1,1,MERGED
+10295,feat: add `Builder::append_invoke_initialization_script`,liesauer,2024-07-16T03:05:18Z,2024-08-19T19:41:28+00:00,2,832.6,True,52,0,2,173,3,2,5,MERGED
+10293,fix(utils): fix resources map becomes directory,amrbashir,2024-07-15T19:01:58Z,2024-08-17T02:03:14+00:00,3,775.02,True,505,130,6,448,12,1,13,MERGED
+10288,fix(core/windows): Remove UNC prefix from tempdir fn,FabianLars,2024-07-15T12:45:05Z,2024-07-15T17:00:43+00:00,1,4.26,True,11,1,2,12,1,0,1,MERGED
+10281,Apply Version Updates From Current Changes,github-actions,2024-07-14T11:38:24Z,2024-07-29T10:27:56+00:00,1,358.83,True,104,18,18,2870,1,0,1,MERGED
+10277,fix: `Webview.reparent` pointing to wrong Rust API,Legend-Master,2024-07-14T02:16:18Z,2024-07-14T11:20:56+00:00,1,9.08,True,7,2,3,10,1,0,1,MERGED
+10273,refactor: remove unnecessary hashes around raw str,hamirmahal,2024-07-13T07:17:37Z,2024-07-15T11:54:46+00:00,2,52.62,True,4,4,2,96,0,0,0,MERGED
+10271,changes(nsis): move pre hooks before kill app,Legend-Master,2024-07-13T04:26:37Z,2024-07-15T11:54:03+00:00,1,55.46,True,9,4,2,534,0,0,0,MERGED
+10270,fix(bundler): warning for self contained updaters,Legend-Master,2024-07-13T03:07:29Z,2024-07-15T08:18:48+00:00,3,53.19,True,14,1,2,139,0,1,1,MERGED
+10269,fix(ci): update covector workflow downgrade crates step,lucasfernog,2024-07-12T14:39:24Z,2024-07-13T10:39:08+00:00,3,20.0,True,1,1,1,0,2,0,2,MERGED
+10268,fix(codegen): icon rewriting always triggering build to rerun,lucasfernog,2024-07-12T11:41:25Z,2024-07-12T13:12:58+00:00,1,1.53,True,42,23,4,0,0,0,0,MERGED
+10267,fix(build): skip rerun-if-changed when Info.plist do not exist,lucasfernog,2024-07-12T11:20:17Z,2024-07-12T13:13:08+00:00,1,1.88,True,11,4,2,0,0,0,0,MERGED
+10259,style: simplify string formatting,hamirmahal,2024-07-11T19:10:40Z,2024-07-12T10:33:15+00:00,2,15.38,True,20,34,9,117,2,1,3,MERGED
+10254,chore(example/api): fix enter doesn't work on input with action button,Legend-Master,2024-07-11T06:49:45Z,2024-07-11T09:06:36+00:00,1,2.28,True,44,30,1,26,0,0,0,MERGED
+10252,fix: missing TSend on Channel's Serialize impl,Legend-Master,2024-07-11T04:27:28Z,2024-07-11T09:11:15+00:00,1,4.73,True,13,9,3,41,0,0,0,MERGED
+10246,enhance: use `EventName` on window's `once` and remove listener before calling handler,Legend-Master,2024-07-10T15:25:46Z,2024-07-10T16:59:01+00:00,2,1.55,True,51,31,7,243,0,0,0,MERGED
+10242,feat: add granular size constraints APIs,amrbashir,2024-07-10T11:28:45Z,2024-07-17T01:05:56+00:00,8,157.62,True,220,12,16,26,6,4,10,MERGED
+10235,fix(android): fix Android Studio project plugin link,Dreaming-Codes,2024-07-09T21:15:01Z,2024-07-10T11:26:06+00:00,1,14.18,True,58,0,2,124,1,0,1,MERGED
+10234,fix(cli): parse cargo`--target-dir` flag,amrbashir,2024-07-09T20:05:58Z,2024-07-10T13:01:04+00:00,1,16.92,True,142,31,3,13,0,0,0,MERGED
+10233,fix(cli): parse cargo`--target-dir` flag,amrbashir,2024-07-09T20:02:59Z,2024-07-10T13:01:13+00:00,1,16.97,True,142,29,3,13,1,0,1,MERGED
+10229,refactor(api)!: renamed `getCurrent` functions to avoid ambiguity,amrbashir,2024-07-09T12:44:03Z,2024-07-11T11:26:15+00:00,4,46.7,True,207,191,10,13,3,1,4,MERGED
+10223,ci: Fix cli auto publishing,FabianLars,2024-07-08T18:46:58Z,2024-07-12T13:45:56+00:00,2,90.98,True,6,10,1,33,3,2,5,MERGED
+10222,ci: Fix cli auto publishing,FabianLars,2024-07-08T18:44:14Z,2024-07-12T13:46:21+00:00,2,91.04,True,6,8,1,124,1,2,3,MERGED
+10220,Apply Version Updates From Current Changes (v1),github-actions,2024-07-08T13:05:04Z,2024-08-23T18:16:33+00:00,1,1109.19,True,227,138,41,4491,3,0,3,MERGED
+10211,fix(runtime-wry): window edge not working after setting resizable false and decorated false dynamically,Legend-Master,2024-07-06T03:23:03Z,2024-07-08T12:24:55+00:00,11,57.03,True,94,67,3,36,3,1,4,MERGED
+10210,feat(core): add a new function to set theme dynamically,Legend-Master,2024-07-06T02:16:57Z,2024-09-24T02:18:53+00:00,14,1920.03,True,281,8,21,43,4,10,14,MERGED
+10201,ci: Fix v1 docs update trigger,FabianLars,2024-07-04T15:59:38Z,2024-07-05T12:39:56+00:00,1,20.67,False,103535,59848,1319,291,5,0,5,CLOSED
+10199,feat(cli): add macos hardened runtime signing config option (#9318),FabianLars,2024-07-04T13:02:37Z,2024-07-08T12:51:20+00:00,1,95.81,True,38,1,7,17,1,0,1,MERGED
+10198,refactor(cli/migrate): use `oxc` kit to parse and migrate js/ts files,amrbashir,2024-07-04T12:25:35Z,2024-07-12T12:03:31+00:00,2,191.63,True,692,70,10,13,0,1,1,MERGED
+10188,fix(bundler): Fix updater bundler warning condition for v2 artifacts,FabianLars,2024-07-03T13:25:25Z,2024-07-04T07:47:15+00:00,1,18.36,True,7,2,2,71,0,0,0,MERGED
+10186,fix(cli/migrate): fix `clipboard `permissions migration,amrbashir,2024-07-03T06:18:47Z,2024-07-04T07:47:44+00:00,1,25.48,True,8,2,2,83,0,0,0,MERGED
+10184,fix(bundler): update nsis_tauri_utils to 0.4.1,amrbashir,2024-07-03T02:35:40Z,2024-07-08T11:33:41+00:00,1,128.97,True,7,2,2,0,0,0,0,MERGED
+10183,fix(bundler): update nsis_tauri_utils to 0.4.1,amrbashir,2024-07-03T02:34:37Z,2024-07-08T11:34:16+00:00,1,128.99,True,8,3,3,0,1,0,1,MERGED
+10179,Apply Version Updates From Current Changes,github-actions,2024-07-02T11:17:23Z,2024-07-12T19:37:38+00:00,1,248.34,True,334,51,30,9082,0,0,0,MERGED
+10177,enhance!(nsis): use `!ifmacrodef` for installer hooks,Legend-Master,2024-07-02T11:01:42Z,2024-07-03T02:48:22+00:00,2,15.78,True,31,34,7,160,0,0,0,MERGED
+10176,fix(core): iOS compilation without the wry feature,lucasfernog,2024-07-02T10:58:45Z,2024-07-03T02:40:01+00:00,1,15.69,True,7,2,3,37,0,0,0,MERGED
+10174,fix(core): fix compilation when `shell-execute` or `shell-sidecar`,FabianLars,2024-07-02T09:10:47Z,2024-07-02T10:38:46+00:00,1,1.47,True,29,18,7,32,1,0,1,MERGED
+10171,feat(core): mark `AppHandle::restart` and `process::restart` as diverging functions,amrbashir,2024-07-02T06:11:43Z,2024-07-02T10:58:34+00:00,2,4.78,True,7,2,3,13,4,0,4,MERGED
+10170,refactor!(core & api): rename drag events for better consistency and clarity,amrbashir,2024-07-02T05:20:52Z,2024-07-12T13:22:07+00:00,8,248.02,True,159,132,13,0,1,2,3,MERGED
+10167,fix(core): fix raw invoke body for isolation pattern,amrbashir,2024-07-02T04:15:50Z,2024-07-12T12:52:53+00:00,1,248.62,True,389,27,28,239,5,0,5,MERGED
+10165,chore(deps): update cargo mobile2 to 0.12.2,Legend-Master,2024-07-02T01:37:58Z,2024-07-02T03:55:29+00:00,1,2.29,True,11,11,1,38,0,0,0,MERGED
+10158,Limit pub exposure in 2.x,chippers,2024-07-01T08:19:48Z,2024-07-31T13:54:43+00:00,1,725.58,True,84,0,11,3578,13,0,13,MERGED
+10147,fix: broken link,simonhyll,2024-06-28T09:44:49Z,2024-06-28T10:48:28+00:00,1,1.06,True,1,1,1,0,2,0,2,MERGED
+10144,chore: update api example,Legend-Master,2024-06-28T03:41:31Z,2024-06-28T09:21:54+00:00,1,5.67,True,1434,678,8,227,0,0,0,MERGED
+10139,feat: add TSend generic to Channel,Brendonovich,2024-06-27T07:08:21Z,2024-07-10T13:03:20+00:00,4,317.92,True,37,16,6,341,0,2,2,MERGED
+10138,fix(core): fix `InvokeBody::Raw` deserialization,amrbashir,2024-06-27T06:11:41Z,2024-06-27T09:55:49+00:00,1,3.74,True,35,2,2,12,0,0,0,MERGED
+10137,enhance(nsis): include uninstaller size in estimated size,amrbashir,2024-06-27T05:11:13Z,2024-06-27T12:43:13+00:00,2,7.53,True,9,4,2,0,0,0,0,MERGED
+10136,fix(cli): parse `--profile=<profile>` syntax,amrbashir,2024-06-27T04:16:51Z,2024-06-27T09:53:29+00:00,2,5.61,True,81,4,2,20,2,1,3,MERGED
+10135,fix(cli): parse `--profile=<profile>` syntax,amrbashir,2024-06-27T04:14:40Z,2024-06-27T09:53:26+00:00,2,5.65,True,80,3,2,20,0,1,1,MERGED
+10134,refactor!: change `Webview::navigate` to return result,amrbashir,2024-06-27T02:03:15Z,2024-06-27T12:43:35+00:00,2,10.67,True,9,4,3,12,0,0,0,MERGED
+10128,fix(cli/plugin/new): construct path from components iterator instead of `PathBuf::join`,amrbashir,2024-06-26T05:23:20Z,2024-06-26T14:11:32+00:00,2,8.8,True,11,6,1,555,0,0,0,MERGED
+10118,ci: Fix msrv check,FabianLars,2024-06-24T22:08:04Z,2024-06-24T23:58:20+00:00,1,1.84,True,6,1,1,0,0,0,0,MERGED
+10117,fix(bundler/wix): Add `AUTOLAUNCHAPP` and `LAUNCHAPPARGS` public properties,FabianLars,2024-06-24T19:04:38Z,2024-06-26T03:27:12+00:00,7,32.38,True,15,2,2,295,0,2,2,MERGED
+10114,fix(cli): removed alpha channel from default IOS AppIcons,lyager,2024-06-24T13:18:25Z,2024-06-26T18:10:16+00:00,4,52.86,True,9,0,19,229,3,1,4,MERGED
+10113,refactor: Improve Automated Permission Documentation Generation,tillmann-crabnebula,2024-06-24T12:12:37Z,2024-06-26T04:59:47+00:00,3,40.79,True,3662,306,15,379,0,0,0,MERGED
+10110,chore: Correct grammar typo in documentation of `generate_handler` macro,matthewjnield,2024-06-24T03:54:19Z,2024-06-24T06:01:45+00:00,1,2.12,True,1,1,1,209,1,0,1,MERGED
+10108,fix(webdriver): windows: make native webdriver close with parent process (fix #8610),bukowa,2024-06-23T21:29:33Z,2025-04-14T20:57:44+00:00,1,7079.47,True,39,0,4,125,3,0,3,MERGED
+10107,chore(README.md): alpha -> beta,alimehasin,2024-06-23T16:24:11Z,2024-06-24T06:37:40+00:00,1,14.22,True,2,2,1,77,0,0,0,MERGED
+10106,fix(nsis): delete app data button gone on higher scaling,Legend-Master,2024-06-23T08:03:31Z,2024-06-26T06:01:34+00:00,5,69.97,True,38,10,2,431,0,2,2,MERGED
+10103,fix(nsis): use runtime `${If}` check to clean up deep link on uninstall,Legend-Master,2024-06-23T03:41:42Z,2024-06-24T07:48:03+00:00,2,28.11,True,7,2,2,70,0,1,1,MERGED
+10092,feat(core): make all tray and menu permissions enable by default,Legend-Master,2024-06-19T05:46:42Z,2024-06-24T16:50:07+00:00,2,131.06,True,40,66,3,72,1,0,1,MERGED
+10091,chore(deps) Update Rust crate url to v2.5.2 (dev),renovate,2024-06-19T04:40:37Z,2024-08-05T11:05:44+00:00,1,1134.42,True,2,2,1,3856,0,0,0,MERGED
+10088,prevent uncomment collision in 2.x invoke_key templating (fix #10084),chippers,2024-06-18T15:11:47Z,2024-06-18T16:42:40+00:00,1,1.51,True,0,1,1,36,0,0,0,MERGED
+10087,prevent uncomment collision in 1.x invoke_key templating (fix #10084),chippers,2024-06-18T15:07:30Z,2024-06-18T16:42:19+00:00,1,1.58,True,0,1,1,25,2,0,2,MERGED
+10086,fix(nsis): esitmated size unit,Legend-Master,2024-06-18T14:46:42Z,2024-06-19T21:04:41+00:00,1,30.3,True,15,11,2,69,3,0,3,MERGED
+10072,feat(bundler/windows): Update wix to fix vulnerabilities and add arm support (#9861),FabianLars,2024-06-17T11:20:13Z,2024-07-08T12:51:26+00:00,1,505.52,True,15,3,4,79,0,0,0,MERGED
+10054,fix: fix new clippy errors,amrbashir,2024-06-13T17:08:20Z,2024-06-24T17:54:43+00:00,1,264.77,True,2,5,5,0,0,0,0,MERGED
+10051,chore(deps): update js dev dependencies,Legend-Master,2024-06-13T03:47:25Z,2024-06-14T02:28:06+00:00,6,22.68,True,831,1701,14,128,3,1,4,MERGED
+10049,fix(NSIS): rewrite license file with BOM,amrbashir,2024-06-13T01:59:56Z,2024-06-13T15:31:27+00:00,1,13.53,True,93,84,3,79,0,0,0,MERGED
+10048,fix(deps): update rust crate windows to 0.57 and webview2-com to 0.31,amrbashir,2024-06-12T16:59:42Z,2024-06-24T16:20:47+00:00,1,287.35,True,77,26,5,0,0,0,0,MERGED
+10044,fix(api.js): Export mocks module,FabianLars,2024-06-12T13:04:17Z,2024-06-12T16:22:55+00:00,1,3.31,True,20,13,3,79,0,0,0,MERGED
+10040,chore(deps): bump braces from 3.0.2 to 3.0.3 in /examples/api,dependabot,2024-06-12T01:25:47Z,2024-06-12T09:17:15+00:00,1,7.86,True,8,8,1,2089,1,0,1,MERGED
+10039,fix(cli): icon should render explicit svg text node fonts (fix: #10022),roylaurie,2024-06-11T20:04:05Z,2024-06-12T01:25:11+00:00,2,5.35,True,56,52,4,1227,1,0,1,MERGED
+10030,feat(cli): include default.toml and capabilities in plugin template,amrbashir,2024-06-10T16:54:29Z,2024-06-11T04:06:46+00:00,5,11.2,True,75,29,10,0,0,2,2,MERGED
+10028,Feat: Improved Security Docstrings and Schema Newline Handling,tillmann-crabnebula,2024-06-10T04:20:30Z,2024-06-13T15:31:12+00:00,1,83.18,True,781,593,9,297,1,0,1,MERGED
+10018,chore(template): template format error,Pylogmon,2024-06-08T13:40:30Z,2024-06-12T01:30:25+00:00,2,83.83,True,0,0,1,351,1,1,2,MERGED
+10016,fix: missing depends for rpm package,Pylogmon,2024-06-08T12:11:49Z,2024-06-12T01:24:36+00:00,2,85.21,True,7,0,2,82,0,0,0,MERGED
+10015,fix: missing depends for rpm package,Pylogmon,2024-06-08T12:00:55Z,2024-06-12T01:24:03+00:00,2,85.39,True,7,0,2,60,0,0,0,MERGED
+10014,ci(msrv-list): Downgrade os_pipe,FabianLars,2024-06-08T11:24:11Z,2024-06-11T18:12:44+00:00,1,78.81,True,1,0,1,0,0,0,0,MERGED
+10007,fix(core): check if listener.handler is undefined,kanatapple,2024-06-07T06:54:55Z,2024-06-12T16:32:06+00:00,1,129.62,True,1,1,1,803,3,0,3,MERGED
+10004,ci: recognize contributors in releases,amrbashir,2024-06-06T16:51:55Z,2024-07-02T10:23:23+00:00,1,617.52,True,4,0,3,0,1,0,1,MERGED
+10003,ci: recognize contributors in releases,amrbashir,2024-06-06T16:43:58Z,2024-07-12T12:02:26+00:00,1,859.31,True,4,1,2,0,1,0,1,MERGED
+10002,ci(msrv-list): downgrade hyper earlier,FabianLars,2024-06-06T13:33:23Z,2024-06-06T14:42:42+00:00,1,1.16,True,1,1,1,6,0,0,0,MERGED
+10000,"fix(bench): Update time, backport of #9993",FabianLars,2024-06-06T11:27:45Z,2024-06-06T13:07:32+00:00,1,1.66,True,42,16,2,0,0,0,0,MERGED
+9999,feat(schema): make acl permissions schema unique,Legend-Master,2024-06-06T10:48:27Z,2024-06-26T20:13:55+00:00,2,489.42,True,27,3,5,215,2,0,2,MERGED
+9998,fix(cli): not working with `license.workspace = true`,anatawa12,2024-06-06T07:53:18Z,2024-06-06T11:17:33+00:00,1,3.4,True,12,2,1,166,1,0,1,MERGED
+9996,fix(cli): Cargo.lock is not synchronized with Cargo.toml,anatawa12,2024-06-06T06:58:32Z,2024-06-06T11:05:13+00:00,1,4.11,True,53,37,1,254,0,0,0,MERGED
+9995,fix(nsis): backport run app as normal user (#9944),anatawa12,2024-06-06T06:40:52Z,2024-06-06T13:00:23+00:00,1,6.33,True,14,4,3,35,0,0,0,MERGED
+9994,feat!(nsis): add an option to customize start menu folder,Legend-Master,2024-06-06T03:09:39Z,2024-06-26T06:17:02+00:00,32,483.12,True,155,18,10,12,1,10,11,MERGED
+9983,integration tests related to recent security advisory,chippers,2024-06-05T08:55:33Z,2024-07-23T02:23:29+00:00,3,1145.47,True,241,2,16,299,1,1,2,MERGED
+9979,feat(api): add `defaultWindowIcon` to `app` module,amrbashir,2024-06-05T02:15:41Z,2024-06-05T16:17:06+00:00,5,14.02,True,44,4,6,12,0,3,3,MERGED
+9977,feat: add `bundle > homepage` option,amrbashir,2024-06-05T00:14:23Z,2024-06-05T16:01:48+00:00,1,15.79,True,67,6,12,78,0,0,0,MERGED
+9974,fix(rpm): use product name for output package,amrbashir,2024-06-04T22:27:04Z,2024-06-05T16:57:32+00:00,1,18.51,True,10,3,2,31,4,0,4,MERGED
+9971,fix(cli): plugin iOS Xcode project deployment target should be 13.0,lucasfernog,2024-06-04T18:49:36Z,2024-06-04T20:55:40+00:00,1,2.1,True,8,2,2,0,0,0,0,MERGED
+9964,feat(cli): setup Android signing,lucasfernog,2024-06-04T12:50:01Z,2024-06-27T09:28:04+00:00,4,548.63,False,51,1,5,534,13,1,14,CLOSED
+9963,feat(cli): iOS signing for CI usage,lucasfernog,2024-06-04T12:37:12Z,2024-07-12T14:08:55+00:00,5,913.53,True,1836,384,21,1961,4,2,6,MERGED
+9959,feat(core): add `include_image` macro,Legend-Master,2024-06-04T10:02:06Z,2024-06-06T03:03:11+00:00,12,41.02,True,251,143,11,12,0,18,18,MERGED
+9956,fix(bundler): fix error when renaming the downloaded zip of NSIS ,Pylogmon,2024-06-04T08:44:56Z,2024-06-05T01:47:03+00:00,5,17.04,True,4,1,1,271,2,2,4,MERGED
+9952,feat: improve deserialization errors by using serde-untagged on enums,jsimonrichard,2024-06-03T20:34:35Z,2024-06-26T20:54:50+00:00,4,552.34,True,205,8,5,1217,2,2,4,MERGED
+9944,fix(nsis): run app as normal user,Legend-Master,2024-06-02T09:39:36Z,2024-06-06T00:53:11+00:00,5,87.23,True,14,4,3,88,3,2,5,MERGED
+9942,"feat(bundler): add provides, conflicts and replaces for deb and rpm",Pylogmon,2024-06-02T08:13:02Z,2024-06-04T01:47:17+00:00,8,41.57,True,221,0,8,149,5,3,8,MERGED
+9932,feat(nsis): add an option to disable compression,Legend-Master,2024-05-31T09:17:15Z,2024-06-05T16:07:49+00:00,3,126.84,True,81,44,9,0,6,1,7,MERGED
+9931,fix(cli): correct module name resolution for `clipboard` and `globalShortcut` plugins ,kareemmahlees,2024-05-31T09:01:00Z,2024-06-03T18:57:47+00:00,2,81.95,True,17,12,2,12,2,1,3,MERGED
+9929,chore(deps): migrate dirs_next to dirs,Legend-Master,2024-05-31T05:28:43Z,2024-06-04T03:03:25+00:00,2,93.58,True,78,57,14,16,3,1,4,MERGED
+9926,Apply Version Updates From Current Changes,github-actions,2024-05-30T20:18:57Z,2024-07-02T01:40:01+00:00,1,773.35,True,320,47,28,9400,2,0,2,MERGED
+9924,chore(cli): update to new buildConfig format,lucasfernog,2024-05-30T18:09:51Z,2024-05-30T19:56:11+00:00,2,1.77,True,13,2,5,103,1,0,1,MERGED
+9922,feat: expose `WebviewWinowBuilder::on_download`,amrbashir,2024-05-30T17:03:34Z,2024-06-03T18:14:00+00:00,1,97.17,True,55,0,2,12,0,0,0,MERGED
+9915,fix(nsis): migrate old shortcuts by setting the path only instead of re-creating a new one,Legend-Master,2024-05-30T05:29:57Z,2024-06-04T01:27:17+00:00,33,115.96,True,74,49,3,24,0,5,5,MERGED
+9914,fix(windows): Fix Windows System User build failures by using the current directory for bundling tools (fix: 9895),AnthonyNGarcia,2024-05-30T02:04:39Z,2024-06-03T18:45:44+00:00,2,112.68,True,176,23,13,1460,6,0,6,MERGED
+9909,fix(nsis): fix regression in shortcuts pointing to a non-existing file,amrbashir,2024-05-29T16:29:56Z,2024-05-29T19:33:24+00:00,2,3.06,True,83,44,2,31,1,0,1,MERGED
+9908,chore: update schema.json,simonhyll,2024-05-29T16:16:42Z,2024-05-29T19:33:39+00:00,1,3.28,True,2,2,2,115,0,0,0,MERGED
+9903,feat: Auto Generation of ACL Schema File for Documentation,tillmann-crabnebula,2024-05-29T08:30:42Z,2024-05-29T12:32:59+00:00,3,4.04,True,603,4,12,274,0,0,0,MERGED
+9902,feat(bundler): support custom sign command on Windows,muwoo,2024-05-29T07:51:47Z,2024-06-03T18:34:49+00:00,4,130.72,True,267,144,14,140,7,1,8,MERGED
+9899,"fix: set window origin default to null, close #9572",pewsheen,2024-05-28T08:50:23Z,2024-05-28T14:34:36+00:00,1,5.74,True,9,2,2,73,0,0,0,MERGED
+9898,fix(android): check version code in release mode,pewsheen,2024-05-28T07:42:30Z,2024-05-28T14:37:39+00:00,1,6.92,True,24,1,2,319,0,0,0,MERGED
+9896,"fix(ios): add LaunchScreen.storyboard to iOS project template, fix#9853",pewsheen,2024-05-28T04:46:25Z,2024-05-28T14:46:42+00:00,1,10.0,True,37,0,3,303,0,0,0,MERGED
+9894,chore(cli): enhance mobile build by only compiling selected target,lucasfernog,2024-05-28T01:56:45Z,2024-05-28T10:53:32+00:00,1,8.95,True,19,16,2,0,0,0,0,MERGED
+9892,chore(android): update to latest Gradle,lucasfernog,2024-05-27T17:10:58Z,2024-05-27T18:58:01+00:00,1,1.78,True,8,3,4,66,0,0,0,MERGED
+9890,refactor: rename `tauri::dev` to `is_dev` and mark as constant fn,Rajaniraiyn,2024-05-27T09:22:00Z,2024-05-27T16:03:48+00:00,1,6.7,True,15,5,6,1096,1,0,1,MERGED
+9887,fix(nsis): `nsis_tauri_utils::download` -> `NSISdl::download`,Legend-Master,2024-05-26T13:44:50Z,2024-05-26T14:59:13+00:00,1,1.24,True,1,1,1,96,0,0,0,MERGED
+9885,fix(bundler/macos): Fix incorrect deep link plist property,FabianLars,2024-05-26T10:24:59Z,2024-05-27T18:59:00+00:00,1,32.57,True,6,1,2,193,0,0,0,MERGED
+9883,feat!(core): add bundle createUpdaterArtifacts configuration,Legend-Master,2024-05-26T07:41:02Z,2024-07-01T11:34:58+00:00,12,867.9,True,348,155,10,12,4,13,17,MERGED
+9878,fix: #7614 - rebuild every time on macos because of Info.plist changes,olexiyb,2024-05-25T09:32:13Z,2024-06-26T11:08:15+00:00,3,769.6,True,18,7,2,843,0,2,2,MERGED
+9870,chore(cli): update Android target SDK to 34,lucasfernog,2024-05-24T14:10:04Z,2024-05-25T10:46:35+00:00,1,20.61,True,15,19,6,0,0,0,0,MERGED
+9869,Apply Version Updates From Current Changes,github-actions,2024-05-24T11:48:49Z,2024-05-29T03:10:21+00:00,1,111.36,True,361,99,29,7400,2,0,2,MERGED
+9865,feat(bundler): support custom sign command on Windows,amrbashir,2024-05-24T03:31:14Z,2024-05-24T13:25:13+00:00,3,9.9,True,279,150,15,25,0,2,2,MERGED
+9864,refactor!: remove `skip_webview_install` option,amrbashir,2024-05-24T02:35:25Z,2024-05-24T13:13:55+00:00,1,10.64,True,7,26,8,0,0,0,0,MERGED
+9862,fix(core/wry): implement resizing natively on Windows,amrbashir,2024-05-23T21:05:48Z,2024-06-05T16:03:22+00:00,1,306.96,True,313,154,3,101,9,0,9,MERGED
+9861,feat(bundler/windows): Update wix to fix vulnerabilities and add arm support,FabianLars,2024-05-23T20:40:36Z,2024-05-29T01:31:17+00:00,2,124.84,True,15,3,4,167,3,0,3,MERGED
+9860,"Revert ""feat(core): add `app-region: drag` to `data-tauri-drag-region` (#9789)""",amrbashir,2024-05-23T18:55:28Z,2024-05-29T15:20:05+00:00,2,140.41,True,7,5,2,1170,6,0,6,MERGED
+9858,"refactor!: use `tauri.conf.json > identifier` as package name and bundle id, close #9851",pewsheen,2024-05-23T11:36:20Z,2024-05-24T12:22:42+00:00,2,24.77,True,101,77,13,187,0,2,2,MERGED
+9857,Apply Version Updates From Current Changes (v1),github-actions,2024-05-22T18:54:05Z,2024-05-23T02:10:41+00:00,1,7.28,True,31,18,8,499,0,0,0,MERGED
+9856,feat(android): aware of version info from tauri config,mariotaku,2024-05-22T16:55:58Z,2024-05-24T13:56:21+00:00,7,45.01,True,80,7,7,294,4,7,11,MERGED
+9855,fix(cli/add): Fix handling of more rust-only and non cross platform plugins,FabianLars,2024-05-22T14:16:22Z,2024-05-22T16:57:57+00:00,1,2.69,True,33,9,2,0,0,0,0,MERGED
+9850,chore: emit rustc-check-cfg for nightly,JonasKruckenberg,2024-05-22T08:42:24Z,2024-05-24T16:12:52+00:00,3,55.51,True,25,20,15,305,4,1,5,MERGED
+9845,fix(core): export `UriSchemeResponder`,amrbashir,2024-05-21T16:00:08Z,2024-05-21T17:13:40+00:00,3,1.23,True,9,1,3,12,1,0,1,MERGED
+9843,feat(plugin): add option to use a Xcode project for iOS,lucasfernog,2024-05-21T14:02:52Z,2024-05-24T11:23:41+00:00,10,69.35,True,512,41,19,351,1,1,2,MERGED
+9840,fix(bundler/rpm): Reduce compression level to gzip/6,FabianLars,2024-05-21T10:15:41Z,2024-05-21T16:03:47+00:00,4,5.8,True,8,1,2,520,0,1,1,MERGED
+9833,fix(bundler/nsis): fix registering deep-link protocols,amrbashir,2024-05-20T17:37:18Z,2024-05-21T09:01:38+00:00,2,15.41,True,13,8,2,0,0,0,0,MERGED
+9832,fix(Windows): sync menubar theme with the window theme,amrbashir,2024-05-20T16:57:25Z,2024-05-24T17:23:54+00:00,1,96.44,True,54,9,11,24,0,0,0,MERGED
+9818,refactor(updater/nsis): migrate run updater using powershell to ShellExecute,muwoo,2024-05-19T04:42:43Z,2024-05-22T18:26:18+00:00,8,85.73,True,64,54,4,74,6,13,19,MERGED
+9817,fix(example/state): correct invoke method path to __TAURI__.core.invoke(),rych-hysh,2024-05-19T02:20:11Z,2024-05-19T09:16:23+00:00,1,6.94,True,3,3,1,333,0,0,0,MERGED
+9816,chore(examples/parent-window): fix typo in import,rych-hysh,2024-05-19T01:09:47Z,2024-05-19T08:54:51+00:00,1,7.75,True,1,1,1,134,0,0,0,MERGED
+9811,docs: update events emitTo @since JSDoc tag ,angelxmoreno,2024-05-17T19:27:03Z,2024-05-17T22:10:15+00:00,2,2.72,True,1,1,1,232,0,0,0,MERGED
+9809,feat: Backport RPM packaging to 1.x branch,hjmallon,2024-05-17T17:10:06Z,2024-05-29T01:31:30+00:00,4,272.36,True,1357,147,19,187,5,4,9,MERGED
+9800,ci: fix typo in android test workflow,pewsheen,2024-05-16T15:37:09Z,2024-05-16T16:44:48+00:00,1,1.13,True,4,4,1,0,0,0,0,MERGED
+9799,"fix(android): allow and escape Kotlin keywords as package identifier, closes #9743",pewsheen,2024-05-16T15:29:23Z,2024-05-28T10:52:48+00:00,1,283.39,True,37,5,6,505,0,0,0,MERGED
+9796,fix(core/shell): speedup `Command.execute` & fix extra new lines,amrbashir,2024-05-15T23:42:51Z,2024-05-24T16:40:05+00:00,4,208.95,True,218,155,5,230,0,1,1,MERGED
+9792,"Revert ""fix(core/shell): speedup `Command.execute` & fix extra new lines (#9706)""",amrbashir,2024-05-15T15:23:44Z,2024-05-15T16:28:15+00:00,1,1.08,True,161,207,4,28,0,0,0,MERGED
+9789,feat(core): add `app-region: drag` to `data-tauri-drag-region`,Legend-Master,2024-05-15T10:27:25Z,2024-05-22T16:45:39+00:00,5,174.3,True,15,5,5,85,2,2,4,MERGED
+9788,"feat(macos): support changing title bar style dynamically, close #9763",pewsheen,2024-05-15T10:11:52Z,2024-07-03T02:36:51+00:00,2,1168.42,True,98,1,11,108,0,3,3,MERGED
+9784,fix(macos/dialog): avoid setting empty `default_path`,amrbashir,2024-05-15T00:50:42Z,2024-05-15T15:45:11+00:00,1,14.91,True,9,0,2,45,3,0,3,MERGED
+9777,"feat(tray): add `enter`, `move` and `leave` events",amrbashir,2024-05-14T16:21:14Z,2024-05-24T17:56:32+00:00,1,241.59,True,229,77,8,12,0,0,0,MERGED
+9772,chore(example): fix duplicated windows implement and update deps,Legend-Master,2024-05-14T07:38:24Z,2024-05-14T11:25:15+00:00,1,3.78,True,53,75,1,130,0,0,0,MERGED
+9771,fix(ci): vet command typo,tillmann-crabnebula,2024-05-14T05:15:13Z,2024-05-14T10:39:12+00:00,1,5.4,True,1,1,1,47,0,0,0,MERGED
+9770,feat: adds monitor_from_point method,clearlysid,2024-05-14T01:39:59Z,2024-05-14T16:48:51+00:00,12,15.15,True,122,1,13,105,4,8,12,MERGED
+9752,Apply Version Updates From Current Changes,github-actions,2024-05-12T02:54:10Z,2024-05-23T02:20:59+00:00,2,263.45,True,211,57,32,2786,2,0,2,MERGED
+9734,feat(cli): add `tauri bundle` subcommand,amrbashir,2024-05-09T23:31:34Z,2024-05-25T14:46:56+00:00,1,375.26,True,423,274,7,12,0,0,0,MERGED
+9731,feat(nsis): support installer hooks,amrbashir,2024-05-09T22:05:21Z,2024-05-25T13:23:09+00:00,2,375.3,True,122,1,9,12,0,0,0,MERGED
+9724,"Revert ""Apply Version Updates From Current Changes (v1)""",lucasfernog,2024-05-09T15:52:40Z,2024-05-09T17:02:31+00:00,1,1.16,True,23,43,15,13,1,0,1,MERGED
+9723,"Revert ""Apply Version Updates From Current Changes""",lucasfernog,2024-05-09T15:52:39Z,2024-05-09T17:02:22+00:00,1,1.16,True,46,153,26,13,0,0,0,MERGED
+9722,Apply Version Updates From Current Changes,github-actions,2024-05-09T15:44:28Z,2024-05-09T18:22:54+00:00,1,2.64,True,158,46,26,2149,0,0,0,MERGED
+9721,Apply Version Updates From Current Changes (v1),github-actions,2024-05-09T15:37:22Z,2024-05-09T18:22:45+00:00,1,2.76,True,59,38,20,870,2,0,2,MERGED
+9718,fix(tauri-runtime-wry): window draw span not closing,lucasfernog,2024-05-09T11:57:54Z,2024-05-09T13:09:49+00:00,2,1.2,True,12,10,2,14,0,1,1,MERGED
+9717,fix(tauri-runtime-wry): window draw span not closing,lucasfernog,2024-05-09T11:55:55Z,2024-05-09T13:09:41+00:00,2,1.23,True,15,12,2,0,0,1,1,MERGED
+9714,fix: Only provide `cargo-vet` suggestions for now,tweidinger,2024-05-09T04:48:12Z,2024-05-09T12:04:35+00:00,1,7.27,True,3,2,1,189,0,0,0,MERGED
+9712,ci: pin `cross` to a commit before they bumped msrv,amrbashir,2024-05-08T22:50:32Z,2024-05-09T11:58:45+00:00,2,13.14,True,2,1,1,75,0,0,0,MERGED
+9711,chore(deps): remove unused deps from cli,amrbashir,2024-05-08T22:41:35Z,2024-05-09T20:35:02+00:00,1,21.89,True,5,22,4,0,0,0,0,MERGED
+9710,fix(build): avoid copying resource onto itself,amrbashir,2024-05-08T22:16:49Z,2024-05-28T16:48:52+00:00,2,474.53,True,15,1,2,12,0,1,1,MERGED
+9709,Apply Version Updates From Current Changes (v1),github-actions,2024-05-08T17:59:43Z,2024-05-09T15:28:21+00:00,1,21.48,True,43,23,15,543,1,0,1,MERGED
+9706,fix(core/shell): speedup `Command.execute` & fix extra new lines,amrbashir,2024-05-08T16:35:18Z,2024-05-09T15:14:53+00:00,3,22.66,True,218,155,5,189,0,1,1,MERGED
+9702,chore: Update `cargo-vet` entities and update lockfile,tillmann-crabnebula,2024-05-08T09:14:50Z,2024-05-08T13:01:49+00:00,1,3.78,True,1303,341,4,0,0,0,0,MERGED
+9698,"fix(core/shell/command): retry sending events when it fails, closes #7684",amrbashir,2024-05-07T23:41:06Z,2024-05-28T14:48:57+00:00,1,495.13,True,21,2,3,12,0,0,0,MERGED
+9693,Apply Version Updates From Current Changes,github-actions,2024-05-07T13:14:17Z,2024-05-09T15:28:31+00:00,1,50.24,True,153,46,26,2081,0,0,0,MERGED
+9691,fix(utils): wrong ToTokens impl of the window proxy_url config,lucasfernog,2024-05-07T10:25:08Z,2024-05-07T12:59:59+00:00,1,2.58,True,6,1,2,0,0,0,0,MERGED
+9688,chore(example): update denpendencies,Legend-Master,2024-05-07T04:43:32Z,2024-05-07T09:22:05+00:00,1,4.64,True,343,377,1,98,0,0,0,MERGED
+9687,feat(core): add an option for preventing window overflow,Legend-Master,2024-05-07T04:30:29Z,2025-04-12T16:56:43+00:00,9,8172.44,True,603,41,19,12,4,12,16,MERGED
+9686,chore: `’` -> `'`,Legend-Master,2024-05-07T02:48:10Z,2024-05-07T09:22:36+00:00,1,6.57,True,32,32,9,39,0,0,0,MERGED
+9676,fix: schemars 0.8.18 compatibility,Hankung7183,2024-05-06T16:38:49Z,2024-05-06T21:22:35+00:00,1,4.73,True,34,35,8,27,5,0,5,MERGED
+9669,fix: rename `kill-children.sh` to `tauri-stop-dev-processes.sh`,FabianLars,2024-05-06T09:42:50Z,2024-05-07T13:45:37+00:00,1,28.05,True,1,1,1,191,0,0,0,MERGED
+9659,"fix(windows): nsis failed to resolve resources with `$` in their name, closes #9657",enkhjile,2024-05-05T07:44:51Z,2024-05-08T17:32:09+00:00,4,81.79,True,20,2,3,419,2,4,6,MERGED
+9655,chore: rename `.cargo/config` to `.cargo/config.toml`,Legend-Master,2024-05-04T10:04:42Z,2024-05-04T14:54:30+00:00,1,4.83,True,0,0,1,122,0,0,0,MERGED
+9647,refactor!(core): return result in `Webview/WebviewWindow::url` getter,amrbashir,2024-05-03T04:06:54Z,2024-05-07T14:16:17+00:00,4,106.16,True,45,15,8,0,0,2,2,MERGED
+9646,fix(codegen): use `TAURI_ENV_TARGET_TRIPLE` to determine the current platform-specific config,amrbashir,2024-05-03T02:30:46Z,2024-05-28T16:48:24+00:00,2,614.29,True,25,6,6,12,0,1,1,MERGED
+9640,feat!: add Listener and Emitter traits,amrbashir,2024-05-01T23:18:05Z,2024-07-12T12:01:40+00:00,1,1716.73,True,859,506,14,0,2,0,2,MERGED
+9639,Apply Version Updates From Current Changes,github-actions,2024-05-01T22:01:45Z,2024-05-06T22:02:54+00:00,1,120.02,True,152,49,28,2047,0,0,0,MERGED
+9638,fix(cli/icon): return with an error instead of panic,amrbashir,2024-05-01T21:28:01Z,2024-05-02T11:26:54+00:00,2,13.98,True,8,2,2,12,0,1,1,MERGED
+9632,fix(plugin): improve error for missing `links` property,oscartbeaumont,2024-05-01T09:29:09Z,2024-05-01T21:40:31+00:00,2,12.19,True,7,1,2,1001,3,0,3,MERGED

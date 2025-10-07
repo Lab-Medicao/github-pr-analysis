@@ -149,3 +149,853 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 8969,fix: elbow arrows do not work within frames (issue: #8964),zsviczian,2025-01-03T11:17:14Z,2025-01-05T20:47:20+00:00,1,57.5,True,2,1,1,56,3,0,3,MERGED
 8961,fix: increase rejection delay for opening files with legacy api,DevKrieger,2024-12-30T09:13:15Z,2025-09-26T14:30:24+00:00,1,6485.29,True,1,1,1,85,3,0,3,MERGED
 8952,feat: Elbow arrow segment fixing & positioning,mtolmacs,2024-12-26T09:30:29Z,2025-01-17T17:07:03+00:00,8,535.61,True,3270,1704,33,4958,4,3,7,MERGED
+8946,feat: add mimeTypes on file save,2hanbyeol1,2024-12-24T08:32:48Z,2025-01-05T21:12:07+00:00,1,300.66,True,8,3,2,143,2,0,2,MERGED
+8942,feat: add crowfoot to arrowheads,ryan-di,2024-12-23T05:22:54Z,2025-01-05T20:50:24+00:00,1,327.46,True,283,173,9,51,3,0,3,MERGED
+8939,fix: normalizeSVG width and height from viewbox when size includes decimal points,zsviczian,2024-12-22T13:21:01Z,2024-12-22T22:10:11+00:00,1,8.82,True,3,1,1,1872,3,0,3,MERGED
+8927,fix: make arrow binding area adapt to zoom levels,ryan-di,2024-12-19T07:33:55Z,2024-12-22T21:55:50+00:00,1,86.37,True,247,119,14,146,4,0,4,MERGED
+8924,fix: regression on dragging a selected frame by its name,ryan-di,2024-12-18T03:30:57Z,2024-12-22T21:47:21+00:00,1,114.27,True,5,1,1,11,2,0,2,MERGED
+8901,fix: Flush pending DOM updates before .focus(),Mrazator,2024-12-09T13:30:18Z,2024-12-09T20:57:37+00:00,4,7.46,True,17,2,1,748,2,2,4,MERGED
+8895,fix: fixed image transparency by adding alpha option to preserve image alpha channel,adarkforce,2024-12-07T14:07:08Z,2024-12-10T12:41:11+00:00,1,70.57,True,1,1,1,494,3,0,3,MERGED
+8884,fix: elbow arrow endpoint drag with Ctrl held does not snap but tries to select,dominicteh1,2024-12-05T02:35:14Z,2025-04-28T06:58:11+00:00,1,3460.38,False,81,9,2,2929,4,2,6,CLOSED
+8848,feat: use stats panel to crop,ryan-di,2024-11-26T06:26:33Z,2024-12-17T12:15:30+00:00,1,509.82,True,313,13,6,208,2,0,2,MERGED
+8845,fix: right-click paste for images in clipboard (Issue #8826),shreyjay0,2024-11-25T07:29:03Z,2024-12-10T20:10:34+00:00,5,372.69,True,78,38,3,473,2,5,7,MERGED
+8832,fix: Unify binding update options for `updateBoundElements()`,mtolmacs,2024-11-20T09:38:15Z,2024-11-20T10:46:46+00:00,1,1.14,True,17,22,8,153,2,0,2,MERGED
+8831,feat: snap when cropping as well,ryan-di,2024-11-20T07:57:42Z,2024-12-16T10:31:34+00:00,1,626.56,True,26,3,1,0,2,0,2,MERGED
+8824,build(deps): bump cross-spawn from 7.0.3 to 7.0.6,dependabot,2024-11-19T09:17:51Z,2024-11-19T19:34:35+00:00,1,10.28,True,3,3,1,2359,2,0,2,MERGED
+8812,feat: in canvas links between shapes,ryan-di,2024-11-15T08:02:22Z,2024-11-26T17:53:26+00:00,1,273.85,True,1280,216,32,498,7,0,7,MERGED
+8791,fix: usage of `node12 which is deprecated`,hamirmahal,2024-11-10T23:27:21Z,2024-11-11T11:05:56+00:00,2,11.64,True,1,1,1,11,5,1,6,MERGED
+8784,build: add a flag VITE_APP_ENABLE_PWA for enabling pwa in dev environment,ad1992,2024-11-09T11:05:03Z,2024-11-09T16:15:37+00:00,1,5.18,True,8,1,3,110,3,0,3,MERGED
+8770,fix: load env vars correctly and set debug and linter flags to false explicitly in prod mode,ad1992,2024-11-07T08:16:09Z,2024-11-07T21:14:49+00:00,1,12.98,True,219,210,2,1274,3,0,3,MERGED
+8763,fix: Optimize frameToHighlight state change and snapLines state change,mtolmacs,2024-11-05T16:19:53Z,2024-11-21T14:19:00+00:00,1,381.99,True,11,5,1,69,2,0,2,MERGED
+8762,chore: Remove @tldraw/vec,mtolmacs,2024-11-05T16:12:21Z,2024-11-21T14:19:20+00:00,1,382.12,True,0,6,2,10,2,0,2,MERGED
+8757,fix: Make some events expllicitly active to avoid console warnings,mtolmacs,2024-11-04T14:08:27Z,2024-11-21T14:18:18+00:00,1,408.16,True,34,14,2,120,2,0,2,MERGED
+8756,fix: Console error in dev mode due to missing font path in non-prod,mtolmacs,2024-11-04T12:45:08Z,2024-11-04T16:54:00+00:00,4,4.15,True,8,6,1,0,2,1,3,MERGED
+8730,fix: restore svg image DataURL dimensions,dwelle,2024-10-29T15:39:28Z,2024-10-29T21:40:25+00:00,1,6.02,True,196,94,13,911,3,0,3,MERGED
+8725,Update publish-docker.yml support arm64,shalk,2024-10-28T09:56:07Z,2025-06-15T18:12:31+00:00,1,5528.27,False,2,1,1,13,2,0,2,CLOSED
+8715,"chore: simplify line-break regexes, separate text wrapping",Mrazator,2024-10-25T12:58:56Z,2024-10-30T13:24:12+00:00,1,120.42,True,1213,1039,11,456,2,0,2,MERGED
+8714,fix: fix trailing line whitespaces layout shift,Mrazator,2024-10-25T10:33:38Z,2024-10-30T13:11:13+00:00,1,122.63,True,70,2,2,418,5,0,5,MERGED
+8709,fix: usage of `node12 which is deprecated`,hamirmahal,2024-10-24T20:39:45Z,2024-10-25T05:09:44+00:00,2,8.5,True,1,1,1,12,2,1,3,MERGED
+8701,Optimize Fallback Fonts with Lazy Loading,vidipsingh,2024-10-23T16:29:38Z,2024-10-23T18:31:29+00:00,2,2.03,False,11,0,1,507,1,1,2,CLOSED
+8699,feat: added sitemap & fixed robot txt,maielo,2024-10-23T13:08:57Z,2024-10-24T10:49:33+00:00,1,21.68,True,64,14,4,0,2,0,2,MERGED
+8693,fix: load font faces in Safari manually,Mrazator,2024-10-22T20:47:13Z,2024-10-30T11:40:24+00:00,1,182.89,True,267,205,4,836,2,0,2,MERGED
+8649,fix: undo/redo action for international keyboard layouts,mishankov,2024-10-16T15:23:36Z,2024-10-21T15:08:39+00:00,3,119.75,True,325,8,3,702,13,4,17,MERGED
+8641,"fix: Comic Shanns issues, new fonts structure",Mrazator,2024-10-14T18:07:14Z,2024-10-20T22:11:53+00:00,6,148.08,True,13267,488,279,1285,4,2,6,MERGED
+8626,fix: BindingAfterDuplication function updated,unknown,2024-10-10T10:51:12Z,2024-12-14T10:10:51+00:00,8,1559.33,False,136,42,3,176,5,6,11,CLOSED
+8624,fix: text disappearing on edit (#8558),ObstinateM,2024-10-10T09:28:12Z,2024-10-17T11:11:48+00:00,1,169.73,True,6,3,1,247,3,0,3,MERGED
+8613,feat: image cropping,ryan-di,2024-10-08T15:54:44Z,2024-10-21T20:26:52+00:00,9,316.54,True,2199,92,36,3031,3,6,9,MERGED
+8593,fix: #8475 Arrow updated on both sides,ritk20,2024-10-03T23:52:27Z,2025-03-04T16:24:40+00:00,3,3640.54,True,77,38,6,178,13,1,14,MERGED
+8582,fix: copy pasted SVG or PNG cannot be undone,vedang685,2024-10-02T13:04:00Z,2025-06-10T12:50:43+00:00,9,6023.78,False,2,0,1,139,7,2,9,CLOSED
+8581,"fix: #8575 , Flowchart clones the current arrowhead",ashwintemkar,2024-10-02T11:39:08Z,2025-01-24T15:50:07+00:00,5,2740.18,True,4,4,1,59,16,2,18,MERGED
+8576,fix: flowchart reusing current arrowhead settings,unknown,2024-10-01T18:06:27Z,2024-10-02T12:09:17+00:00,3,18.05,False,2,2,1,62,2,1,3,CLOSED
+8540,feat: self-hosting existing google fonts,Mrazator,2024-09-23T19:37:16Z,2024-09-24T15:30:21+00:00,1,19.88,True,48,201,18,83,3,0,3,MERGED
+8539,"feat: Refactor and simplify math, collision, bounds, intersection",mtolmacs,2024-09-23T17:58:04Z,2025-05-17T13:12:05+00:00,1,5659.23,False,4794,4305,111,72,3,1,4,CLOSED
+8533,feat: Change shapes by selecting all of them,unknown,2024-09-21T14:17:09Z,2024-12-14T10:10:50+00:00,1,2011.89,False,226,2,5,220,28,5,33,CLOSED
+8530,feat: add first-class support for CJK,Mrazator,2024-09-20T08:46:35Z,2024-10-17T18:14:17+00:00,1,657.46,True,3558,917,288,3384,7,0,7,MERGED
+8525,feat: flip arrowheads if only arrow(s) selected,dwelle,2024-09-19T11:33:57Z,2024-09-19T13:46:36+00:00,1,2.21,True,223,69,3,164,4,0,4,MERGED
+8517,feat: prefer user defined coords and dimensions over calculated for for frame,ad1992,2024-09-18T05:46:58Z,2024-09-24T15:39:15+00:00,2,153.87,True,98,74,4,289,2,1,3,MERGED
+8514,feat: export scene to e+ on workspace creation/redemption,barnabasmolnar,2024-09-17T19:36:58Z,2024-11-04T22:35:46+00:00,1,1154.98,True,272,1,6,19,2,0,2,MERGED
+8494,docs: replace dead link,hocino,2024-09-11T10:14:04Z,2024-09-12T07:50:18+00:00,1,21.6,True,1,1,1,98,1,0,1,MERGED
+8492,fix: Linear element complete button disabled,zsviczian,2024-09-11T06:37:01Z,2024-09-12T12:59:38+00:00,1,30.38,True,1,0,1,532,4,0,4,MERGED
+8491,fix: improve canvas search scroll behavior further,dwelle,2024-09-10T22:18:39Z,2024-09-11T16:01:18+00:00,3,17.71,True,164,98,8,257,5,1,6,MERGED
+8490,fix: addFiles clears the whole image cache when each file is added - regression from #8471,zsviczian,2024-09-10T20:41:09Z,2024-09-11T05:57:42+00:00,1,9.28,True,4,3,1,118,4,0,4,MERGED
+8481,fix: WYSIWYG editor padding is not normalized with zoom.value,zsviczian,2024-09-08T18:38:47Z,2024-09-12T11:42:39+00:00,1,89.06,True,1,1,1,12,2,0,2,MERGED
+8474,fix: Buffer dependency,zsviczian,2024-09-06T11:24:29Z,2024-09-12T13:48:47+00:00,3,146.41,True,15,5,2,16,4,1,5,MERGED
+8471,fix: image rendering issue when passed in `initialData` ,abhi12299,2024-09-06T07:17:53Z,2024-09-08T21:56:00+00:00,1,62.64,True,13,9,1,2539,2,0,2,MERGED
+8459,"build: upgrade vite to 5.4.x, vitest to 2.x and related vite packages",ad1992,2024-09-02T08:15:43Z,2024-09-05T13:05:36+00:00,1,76.83,True,903,398,6,985,2,0,2,MERGED
+8458,build(deps): bump micromatch from 4.0.5 to 4.0.8 in /dev-docs,dependabot,2024-09-01T22:39:00Z,2024-09-04T10:16:37+00:00,1,59.63,True,41,22,1,2796,2,0,2,MERGED
+8457,refactor: remove unused env variable,dwelle,2024-09-01T10:53:11Z,2024-09-01T22:25:13+00:00,1,11.53,True,0,4,2,0,2,0,2,MERGED
+8456,fix: PropertiesPopover maxWidth changing fixed units to relative units,zsviczian,2024-09-01T10:42:58Z,2024-09-01T16:18:37+00:00,2,5.59,True,2,2,2,15,7,1,8,MERGED
+8454,docs: update dead link on main-menu page,hocino,2024-09-01T07:46:35Z,2024-09-01T22:31:13+00:00,1,14.74,True,1,1,1,60,1,0,1,MERGED
+8452,fix: View mode wheel zooming does not work,zsviczian,2024-08-31T07:01:14Z,2024-08-31T10:06:38+00:00,1,3.09,True,6,8,1,29,3,0,3,MERGED
+8450,build(deps): bump micromatch from 4.0.7 to 4.0.8,dependabot,2024-08-30T20:27:02Z,2024-09-01T22:37:49+00:00,1,50.18,True,3,3,1,2432,2,0,2,MERGED
+8448,fix: Re-route elbow arrows when pasted,mtolmacs,2024-08-30T14:25:17Z,2024-09-17T10:20:40+00:00,1,427.92,True,55,13,2,13,2,0,2,MERGED
+8440,feat: Common elbow mid segments,mtolmacs,2024-08-28T14:30:33Z,2024-09-17T08:11:07+00:00,1,473.68,True,56,34,5,74,2,0,2,MERGED
+8438,feat: canvas search,ryan-di,2024-08-28T08:36:02Z,2024-09-09T15:12:08+00:00,3,294.6,True,1424,47,35,438,8,1,9,MERGED
+8426,fix: fixed copy to clipboard button,spc-28,2024-08-25T12:27:29Z,2024-08-26T22:27:45+00:00,1,34.0,True,159,283,12,109,4,0,4,MERGED
+8420,docs: Update function call in @excalidraw/mermaid-to-excalidraw ,ptuls,2024-08-24T03:42:19Z,2024-08-26T11:20:29+00:00,1,55.64,True,1,1,1,181,1,0,1,MERGED
+8392,feat: improve elbow arrow keyboard move,zsviczian,2024-08-18T12:50:38Z,2024-08-26T13:58:54+00:00,10,193.14,True,31,11,1,391,8,4,12,MERGED
+8389,"chore: Unify math types, utils and functions",mtolmacs,2024-08-17T16:44:51Z,2024-09-02T22:23:39+00:00,10,389.65,True,4291,3661,98,859,3,16,19,MERGED
+8386,fix: context menu does not work after after dragging on StatsDragInput,zsviczian,2024-08-17T05:11:31Z,2024-08-26T13:58:46+00:00,1,224.79,True,48,24,1,12,2,0,2,MERGED
+8384,feat: subset font glyphs for SVG export,Mrazator,2024-08-16T16:28:53Z,2024-08-30T20:26:06+00:00,2,339.95,True,4741,91,19,1812,3,3,6,MERGED
+8367,fix: Reimplement rectangle intersection,mtolmacs,2024-08-12T12:52:08Z,2024-08-12T17:19:16+00:00,1,4.45,True,131,74,4,74,2,0,2,MERGED
+8364,feat: split `gridSize` from enabled state & support custom `gridStep`,dwelle,2024-08-11T17:38:19Z,2024-08-14T12:59:14+00:00,1,67.35,True,738,279,31,1120,4,0,4,MERGED
+8355,chore: remove unused parameter,DDDDD12138,2024-08-09T17:11:09Z,2024-08-09T19:39:41+00:00,1,2.48,True,0,1,1,97,1,0,1,MERGED
+8352,fix: Yet more patching of intersect code,mtolmacs,2024-08-09T14:22:30Z,2024-08-09T15:33:12+00:00,1,1.18,True,37,11,2,0,2,0,2,MERGED
+8345,feat: subset font glyphs for SVG export,Mrazator,2024-08-08T16:32:40Z,2024-08-20T13:22:07+00:00,2,284.82,False,136,62,6,1661,2,4,6,CLOSED
+8344,feat: Visual debugger,mtolmacs,2024-08-08T13:13:09Z,2024-08-27T17:46:00+00:00,2,460.55,True,555,21,7,1113,5,1,6,MERGED
+8342,chore: Refactor and remove scene from elbow arrow generation,mtolmacs,2024-08-08T09:36:08Z,2024-08-08T12:06:26+00:00,6,2.5,True,115,156,18,858,3,4,7,MERGED
+8340,perf: improve new element drawing,ryan-di,2024-08-08T07:52:07Z,2024-08-23T18:27:57+00:00,6,370.6,True,749,495,34,1388,5,4,9,MERGED
+8336,fix: text content with tab characters act different in view/edit,clarencechaan,2024-08-06T22:11:12Z,2024-08-09T20:20:37+00:00,1,70.16,True,12,2,2,253,2,0,2,MERGED
+8333,fix: Do not allow resizing unbound elbow arrows either,mtolmacs,2024-08-06T14:12:27Z,2024-08-06T15:33:35+00:00,1,1.35,True,7,10,3,256,2,0,2,MERGED
+8329,feat: create flowcharts from a generic element using elbow arrows,ryan-di,2024-08-06T11:09:56Z,2024-08-08T19:43:15+00:00,6,56.56,True,1431,19,21,573,12,12,24,MERGED
+8328,fix: record history when pasting image,lzl0304,2024-08-06T09:55:07Z,2024-08-29T03:42:25+00:00,3,545.79,False,832,309,3,11,1,2,3,CLOSED
+8325,docs: fix typos in props.mdx,b1sar,2024-08-05T19:59:02Z,2024-08-05T21:41:19+00:00,1,1.7,True,3,3,1,60,2,0,2,MERGED
+8324,fix: Elbow arrow fixedpoint flipping now properly flips on inverted resize and flip action,mtolmacs,2024-08-05T16:26:12Z,2024-09-19T06:47:23+00:00,5,1070.35,True,290,85,17,0,10,2,12,MERGED
+8323,"build: add `rm:build`, `rm:node_modules` & `clean-install` scripts",dwelle,2024-08-05T08:01:45Z,2024-08-05T21:37:34+00:00,1,13.6,True,4,1,1,272,3,0,3,MERGED
+8322,chore: bump `@testing-library/react` `12.1.5` -> `16.0.0`,dwelle,2024-08-04T20:08:06Z,2024-08-06T13:17:43+00:00,9,41.16,True,1033,976,52,1714,3,4,7,MERGED
+8314,fix: z-index change by one causes app to freeze,clarencechaan,2024-08-03T03:16:55Z,2024-08-09T13:26:09+00:00,1,154.15,True,36,14,2,451,1,0,1,MERGED
+8312,fix: Docker build in CI,mtolmacs,2024-08-02T11:12:58Z,2024-08-06T11:21:21+00:00,5,96.14,True,10,10,5,641,3,3,6,MERGED
+8306,fix: throttle fractional indices validation,Mrazator,2024-08-01T12:01:17Z,2024-08-02T09:55:15+00:00,1,21.9,True,71,40,4,231,4,0,4,MERGED
+8303,fix: skip registering font faces for local fonts,Mrazator,2024-07-31T20:47:58Z,2024-08-01T09:32:16+00:00,1,12.74,True,7,2,1,15,3,0,3,MERGED
+8302,feat: remove automatic frame naming,dwelle,2024-07-30T22:45:18Z,2024-07-31T11:56:11+00:00,1,13.18,True,6,35,3,118,2,0,2,MERGED
+8299,feat: Orthogonal (elbow) arrows for diagramming,mtolmacs,2024-07-30T18:35:34Z,2024-08-01T16:39:03+00:00,20,46.06,True,5455,1184,69,0,5,11,16,MERGED
+8298,fix: load fonts for `exportToCanvas`,Mrazator,2024-07-30T13:01:54Z,2024-07-30T15:23:35+00:00,8,2.36,True,73,20,4,12,2,4,6,MERGED
+8294,refactor: rename `draggingElement` -> `newElement`,ryan-di,2024-07-29T16:33:43Z,2024-08-06T11:26:07+00:00,27,186.87,True,549,679,17,526,3,11,14,MERGED
+8291,fix: re-add Cascadia Code with ligatures,Mrazator,2024-07-28T12:24:05Z,2024-07-30T09:15:11+00:00,1,44.85,True,1,1,3,614,6,0,6,MERGED
+8286,feat: multiple fonts fallbacks,Mrazator,2024-07-26T17:09:53Z,2024-07-30T08:34:41+00:00,1,87.41,True,293,127,11,1154,10,0,10,MERGED
+8285,fix: linear elements not selected on pointer up from hitting its bound text,ryan-di,2024-07-25T17:07:55Z,2024-07-27T13:02:01+00:00,1,43.9,True,42,38,4,686,2,0,2,MERGED
+8268,chore: Correct Typos in Code Comments,DDDDD12138,2024-07-22T08:55:40Z,2024-07-23T08:56:55+00:00,1,24.02,True,4,4,2,180,2,0,2,MERGED
+8267,perf: cache the temp canvas created for labeled arrows,ad1992,2024-07-22T08:22:53Z,2024-07-23T05:47:32+00:00,1,21.41,True,93,72,1,966,8,0,8,MERGED
+8238,fix: freedraw jittering,BlueGreenMagick,2024-07-14T06:34:50Z,2024-07-14T08:44:47+00:00,1,2.17,True,1,10,1,621,3,0,3,MERGED
+8235,feat: ability to debug the state of fractional indices,Mrazator,2024-07-12T15:10:31Z,2024-07-30T08:03:28+00:00,1,424.88,True,122,10,5,101,2,0,2,MERGED
+8226,feat: upgrade mermaid-to-excalidraw to v1.1.0,ad1992,2024-07-10T10:25:18Z,2024-07-10T15:27:44+00:00,1,5.04,True,10,22,4,396,2,0,2,MERGED
+8212,fix: change cursor by tool change immediately,yongjoon-km,2024-07-06T07:07:43Z,2025-01-09T13:26:12+00:00,1,4494.31,True,4,1,1,99,2,0,2,MERGED
+8201,chore: Consolidate i18n import in LanguageList component,DDDDD12138,2024-07-03T16:21:25Z,2024-07-04T15:34:17+00:00,1,23.21,True,1,2,1,89,2,0,2,MERGED
+8198,fix: memory leak - scene.destroy() and window.launchQueue,zsviczian,2024-07-02T17:12:08Z,2024-07-02T20:08:02+00:00,1,2.93,True,2,1,1,0,2,0,2,MERGED
+8185,fix: Binding after duplicating is now applied for both the old and duplicate shapes,mtolmacs,2024-06-27T18:06:57Z,2024-06-28T13:28:49+00:00,2,19.36,True,54,2,2,153,3,1,4,MERGED
+8183,fix: Add binding update to manual stat changes,mtolmacs,2024-06-26T17:46:12Z,2024-07-01T07:45:32+00:00,3,109.99,True,327,162,12,76,10,3,13,MERGED
+8168,ci: upgrade gh actions checkout and setup-node to v4,hamirmahal,2024-06-24T22:20:39Z,2024-07-08T08:56:25+00:00,3,322.6,True,2,2,1,12,2,1,3,MERGED
+8155,refactor: separate resizing logic from pointer,ryan-di,2024-06-19T08:24:59Z,2024-12-23T10:10:35+00:00,4,4489.76,True,1064,677,7,86,4,3,7,MERGED
+8152,fix: only bind arrow,zsviczian,2024-06-18T19:13:14Z,2024-06-19T08:55:35+00:00,1,13.71,True,8,2,2,12,3,0,3,MERGED
+8145,fix: Incorrect point offsetting in LinearElementEditor.movePoints(),mtolmacs,2024-06-18T07:30:36Z,2024-06-28T10:23:11+00:00,1,242.88,True,37,10,2,299,2,0,2,MERGED
+8135,feat: allow props.initialData to be a function,es-romo,2024-06-13T22:11:13Z,2024-06-24T09:36:49+00:00,1,251.43,True,10,2,3,220,7,0,7,MERGED
+8127,docs: fixed exportToCanvas() doc example using wrong prop,AlexandreLemoine40,2024-06-13T07:59:52Z,2024-07-08T08:52:05+00:00,1,600.87,True,1,1,1,465,3,0,3,MERGED
+8099,feat: Added reddit links as embeddable,subhadeep-sengupta,2024-06-05T16:46:56Z,2024-09-28T06:19:19+00:00,1,2749.54,True,31,0,1,16,1,0,1,MERGED
+8087,docs: remove extra braces in callback JSX,sunil-sharma-999,2024-05-31T08:14:57Z,2024-05-31T10:48:31+00:00,1,2.56,True,1,1,1,0,1,0,1,MERGED
+8062,fix: restore linear dimensions from points,dwelle,2024-05-25T09:05:16Z,2024-05-27T08:37:01+00:00,1,47.53,True,2,0,1,136,2,0,2,MERGED
+8061,fix: aspect ratio of distorted images are not preserved in SVG exports,zsviczian,2024-05-25T04:39:10Z,2024-09-12T12:11:08+00:00,1,2647.53,True,2,1,2,209,2,0,2,MERGED
+8049,fix: flaky snapshot tests precision issues for floating point numbers,Mrazator,2024-05-22T14:39:47Z,2024-05-23T09:51:01+00:00,4,19.19,True,205,188,8,0,2,1,3,MERGED
+8040,fix: always re-generate index of defined moved elements,Mrazator,2024-05-20T14:16:14Z,2024-05-20T21:23:42+00:00,1,7.12,True,151,125,5,230,1,0,1,MERGED
+8038,feat: create new text with width,ryan-di,2024-05-20T13:29:13Z,2024-05-28T13:53:52+00:00,1,192.41,True,178,33,13,263,2,0,2,MERGED
+8037,fix: Check for roundness undefined in restore.ts,zsviczian,2024-05-20T06:23:34Z,2024-05-23T18:05:51+00:00,1,83.7,False,1,1,1,86,4,0,4,CLOSED
+8030,"feat: add missing `type=""button""`",nishanthkarthik,2024-05-17T22:53:14Z,2024-05-18T08:36:08+00:00,1,9.71,True,20,2,10,9,2,0,2,MERGED
+8026,feat: wrap long text when pasting,ryan-di,2024-05-17T05:17:28Z,2024-05-21T14:56:09+00:00,2,105.64,True,38,11,2,248,2,1,3,MERGED
+8024,fix: undo/redo when exiting view mode,Vatsalsoni13,2024-05-16T14:53:31Z,2024-05-19T13:54:52+00:00,1,71.02,True,1050,455,3,490,3,0,3,MERGED
+8022,feat: upgrade to mermaid-to-excalidraw v1 🚀,ad1992,2024-05-16T06:01:17Z,2024-05-20T05:49:38+00:00,1,95.81,True,5,5,2,126,3,0,3,MERGED
+8020,fix: compatible safari layers button svg ,Shaocang,2024-05-15T06:02:06Z,2024-05-15T13:22:06+00:00,1,7.33,True,56,12,2,13,4,0,4,MERGED
+8016,fix: correctly resolve the package version,ggrossetie,2024-05-13T22:22:35Z,2024-05-14T08:01:02+00:00,1,9.64,True,1,1,1,70,5,0,5,MERGED
+8012,feat: introduce font picker,Mrazator,2024-05-12T23:27:57Z,2024-07-25T16:55:55+00:00,3,1769.47,True,3390,1106,120,3144,28,3,31,MERGED
+8010,build: specify `packageManager` field,dwelle,2024-05-12T10:30:32Z,2024-05-14T08:45:27+00:00,1,46.25,True,1,0,1,274,2,0,2,MERGED
+8002,fix: font not rendered correctly on init,dwelle,2024-05-09T22:09:28Z,2024-05-10T14:37:46+00:00,6,16.47,True,53,64,10,280,3,4,7,MERGED
+7999,feat: text wrapping,ryan-di,2024-05-09T09:12:07Z,2024-05-15T13:04:53+00:00,9,147.88,True,596,143,22,459,4,13,17,MERGED
+7992,build: enable consistent type imports eslint rule,ad1992,2024-05-07T15:08:13Z,2024-05-08T08:51:50+00:00,1,17.73,True,634,610,240,0,4,0,4,MERGED
+7988,fix: CVE-2023-45133,mtolmacs,2024-05-07T10:46:54Z,2024-08-02T12:44:38+00:00,6,2089.96,True,2525,2764,7,387,4,2,6,MERGED
+7987,chore: Add lcov coverage output to vitest,mtolmacs,2024-05-06T12:12:09Z,2024-05-06T15:35:23+00:00,1,3.39,True,1,1,1,177,2,0,2,MERGED
+7968,chore: Bump vitest to 1.5.3 to support VSCode vitest Extension,mtolmacs,2024-05-01T14:42:45Z,2024-05-01T18:47:52+00:00,1,4.09,True,73,61,2,145,2,0,2,MERGED
+7949,feat: record freedraw tool selection to history,Mrazator,2024-04-24T22:21:37Z,2024-04-25T17:24:05+00:00,1,19.04,True,1046,565,4,130,3,0,3,MERGED
+7946,feat: Allow binding only via linear element ends,mtolmacs,2024-04-24T16:11:51Z,2024-05-02T06:32:12+00:00,4,182.34,True,484,331,6,105,3,3,6,MERGED
+7918,fix: z-index for laser pointer to be able to draw on embeds and such,maielo,2024-04-22T15:33:35Z,2024-04-22T21:53:55+00:00,1,6.34,True,4,1,2,76,2,0,2,MERGED
+7908,build(deps): bump @excalidraw/excalidraw from 0.17.0 to 0.17.6 in /dev-docs,dependabot,2024-04-17T21:54:12Z,2024-08-05T07:49:57+00:00,1,2625.93,True,5,5,2,2693,2,0,2,MERGED
+7902,fix: collision regressions from vector geometry rewrite,ryan-di,2024-04-17T03:33:26Z,2024-04-17T11:31:12+00:00,1,7.96,True,49,8,2,0,2,0,2,MERGED
+7898,feat: expose `StoreAction` in relation to multiplayer history,Mrazator,2024-04-16T16:31:04Z,2024-04-22T09:22:25+00:00,3,136.86,True,340,189,16,494,4,1,5,MERGED
+7891,fix: Correct unit from 'eg' to 'deg',johnd99,2024-04-14T16:09:42Z,2024-04-15T09:11:27+00:00,1,17.03,True,1,1,1,0,2,0,2,MERGED
+7881,fix: hit test for closed sharp curves,ryan-di,2024-04-12T09:43:02Z,2024-04-12T10:58:52+00:00,1,1.26,True,12,1,2,11,2,0,2,MERGED
+7877,fix: CTRL/CMD & arrow point drag unbinds both sides (#6459),mtolmacs,2024-04-11T10:06:11Z,2024-04-22T22:01:06+00:00,1,275.92,True,51,2,3,1524,4,0,4,MERGED
+7865,fix: include borders when testing insides of a shape,ryan-di,2024-04-08T08:22:59Z,2024-04-09T14:07:36+00:00,1,29.74,True,3,1,1,0,2,0,2,MERGED
+7863,fix: add safe check for arrow points length in tranformToExcalidrawElements,ad1992,2024-04-08T07:13:26Z,2024-04-09T04:26:21+00:00,3,21.22,True,721,39,5,3241,3,1,4,MERGED
+7860,fix: FileSave now respects file extensions in windows,briansilah,2024-04-06T10:37:35Z,2025-06-07T09:05:12+00:00,1,10246.46,False,1,0,1,780,5,0,5,CLOSED
+7859,fix: external link not opening,therealrinku,2024-04-06T09:26:36Z,2024-04-09T14:06:49+00:00,1,76.67,True,1,5,1,302,4,0,4,MERGED
+7855,feat: resize elements from the sides,ryan-di,2024-04-05T09:02:31Z,2024-04-30T16:05:00+00:00,1,607.04,True,3936,3764,19,360,9,0,9,MERGED
+7853,feat: add system mode to the theme selector,arnostpleskot,2024-04-04T19:36:26Z,2024-04-08T14:46:24+00:00,1,91.17,True,301,56,21,1161,2,0,2,MERGED
+7849,fix: Two finger panning is slow,zsviczian,2024-04-04T04:31:00Z,2024-05-19T12:23:44+00:00,3,1087.88,True,8,5,2,232,5,2,7,MERGED
+7819,feat: upgrade mermaid-to-excalidraw to 0.3.0,ad1992,2024-03-28T08:30:54Z,2024-03-28T11:14:29+00:00,1,2.73,True,87,47,2,413,2,0,2,MERGED
+7804,feat: command palette,ryan-di,2024-03-22T05:52:05Z,2024-03-28T16:16:32+00:00,1,154.41,True,5226,317,63,377,3,0,3,MERGED
+7741,feat: improve collab error notification,ryan-di,2024-03-01T15:03:47Z,2024-03-04T12:43:44+00:00,1,69.67,True,168,20,8,528,3,0,3,MERGED
+7731,fix: export utils from excalidraw package in excalidraw library,ad1992,2024-02-27T07:35:39Z,2024-02-28T05:44:57+00:00,1,22.16,True,15,31,5,767,2,0,2,MERGED
+7723,docs: type mistake in integration of excalidraw,aashmanVerma,2024-02-25T07:22:38Z,2024-02-26T09:24:27+00:00,1,26.03,True,1,1,1,46,1,0,1,MERGED
+7722,Feat: drag tool bar,elagasteratou,2024-02-24T16:03:35Z,2025-09-25T07:26:58+00:00,1,13887.39,False,37,11,5,311,7,0,7,CLOSED
+7718,fix: split renderScene so that locales aren't imported unnecessarily,ad1992,2024-02-22T14:58:25Z,2024-02-27T05:07:44+00:00,1,110.16,True,1974,1926,17,606,4,0,4,MERGED
+7717,fix: remove dependency of t in blob.ts,ad1992,2024-02-22T07:37:08Z,2024-02-23T09:35:46+00:00,1,25.98,True,86,44,5,158,3,0,3,MERGED
+7713,fix: remove scene hack from export.ts & remove pass elementsMap to getContainingFrame,ad1992,2024-02-21T07:30:19Z,2024-02-21T11:04:20+00:00,3,3.57,True,38,92,7,9,2,1,3,MERGED
+7712,fix: remove dependency of t from clipboard and image,ad1992,2024-02-21T06:33:57Z,2024-02-21T14:15:33+00:00,3,7.69,True,44,42,8,312,3,2,5,MERGED
+7710,fix: decouple pure functions from hyperlink to prevent mermaid bundling,ad1992,2024-02-20T09:45:00Z,2024-02-20T15:29:01+00:00,1,5.73,True,198,176,9,495,2,0,2,MERGED
+7693,feat: text measurements based on font metrics,Mrazator,2024-02-15T12:50:52Z,2024-03-05T19:33:27+00:00,2,462.71,True,83,154,13,3488,9,1,10,MERGED
+7679,fix: make bounds independent of scene,ad1992,2024-02-12T08:06:41Z,2024-02-19T14:09:14+00:00,6,174.04,True,106,59,11,0,2,2,4,MERGED
+7670,fix: make LinearElementEditor independent of scene,ad1992,2024-02-08T07:35:25Z,2024-02-19T06:19:01+00:00,1,262.73,True,172,123,13,9,2,0,2,MERGED
+7666,fix: remove t from getDefaultAppState and allow name to be nullable,ad1992,2024-02-07T14:29:20Z,2024-02-15T05:41:18+00:00,1,183.2,True,101,81,15,697,4,0,4,MERGED
+7663,fix: remove scene from getElementAbsoluteCoords and dependent functions and use elementsMap,ad1992,2024-02-07T05:58:45Z,2024-02-16T06:05:02+00:00,12,216.1,True,779,270,36,9,6,10,16,MERGED
+7656,fix: keep customData when converting to ExcalidrawElement (#7654),yubinTW,2024-02-05T14:00:54Z,2024-02-08T11:53:11+00:00,3,69.87,True,482,0,11,192,10,2,12,MERGED
+7655,feat: store library to IndexedDB & support storage adapters,dwelle,2024-02-05T13:57:52Z,2024-03-08T21:29:19+00:00,12,775.52,True,718,95,14,3534,3,8,11,MERGED
+7647,feat: change collab trigger & add share dialog,dwelle,2024-02-02T22:51:30Z,2024-02-03T14:04:24+00:00,1,15.21,True,439,135,18,567,2,0,2,MERGED
+7643,fix: make getEmbedLink independent of t function,ad1992,2024-02-01T14:10:36Z,2024-02-01T15:42:10+00:00,2,1.53,True,14,9,4,540,3,1,4,MERGED
+7638,feat: support onPointerUp prop,ad1992,2024-02-01T06:56:53Z,2024-02-01T12:26:56+00:00,2,5.5,True,11,1,4,147,2,1,3,MERGED
+7637,fix: decouple container cache logic to containerCache.,ad1992,2024-01-31T12:23:44Z,2024-01-31T15:47:42+00:00,1,3.4,True,42,37,5,601,2,0,2,MERGED
+7636,refactor: update collision from ga to vector geometry,ryan-di,2024-01-31T09:51:54Z,2024-04-04T08:31:23+00:00,1,1534.66,True,2644,1550,20,1153,3,0,3,MERGED
+7635,fix: don't bundle react-dom when importing from element,ad1992,2024-01-31T08:07:53Z,2024-01-31T11:13:37+00:00,1,3.1,True,1,2,2,668,2,0,2,MERGED
+7634,fix: don't bundle react-dom when importing from transformHandles,ad1992,2024-01-31T07:36:55Z,2024-01-31T11:20:35+00:00,2,3.73,True,14,9,3,236,2,1,3,MERGED
+7619,build: Bump Dockerfile version to eliminate Snyk-detected security vulnerabilities,sam-caldwell,2024-01-28T20:43:41Z,2024-08-05T12:47:15+00:00,1,4552.06,False,0,0,0,1402,4,0,4,CLOSED
+7601,fix: make getBoundTextElement and related helpers pure,ad1992,2024-01-24T07:41:23Z,2024-01-26T05:59:08+00:00,5,46.3,True,385,143,34,596,5,6,11,MERGED
+7588,fix: update VITE_PKG_VERSION reference in assetPath,franc101,2024-01-20T22:36:22Z,2025-03-03T10:42:33+00:00,1,9780.1,False,1,1,1,175,2,0,2,CLOSED
+7586,build(deps-dev): bump vite from 5.0.6 to 5.0.12,dependabot,2024-01-19T23:08:10Z,2024-01-24T13:59:51+00:00,1,110.86,True,7,145,3,4540,2,0,2,MERGED
+7579,fix: Prevent the library label from being collapsed,mikecat,2024-01-18T12:29:17Z,2024-01-19T13:41:09+00:00,1,25.2,True,1,0,1,210,2,0,2,MERGED
+7577,refactor: decoupling global Scene state part-1,dwelle,2024-01-17T23:20:29Z,2024-01-21T23:23:02+00:00,2,96.04,True,631,385,31,369,2,2,4,MERGED
+7576,fix: Truncate collaborator name in dropdown.,barnabasmolnar,2024-01-17T22:58:44Z,2024-01-21T19:36:10+00:00,1,92.62,True,9,1,2,46,3,0,3,MERGED
+7575,docs: toggleSidebar api fix,halocean96,2024-01-17T11:52:33Z,2024-01-23T14:50:51+00:00,1,146.97,True,1,1,1,69,2,0,2,MERGED
+7558,feat: support roundness for images,aashirisrar,2024-01-13T22:07:35Z,2024-01-29T14:27:08+00:00,1,376.33,True,43,3,4,141,3,0,3,MERGED
+7552,docs: add next js with app router example,ad1992,2024-01-12T14:26:51Z,2024-01-24T11:37:55+00:00,1,285.18,True,1431,229,51,2331,7,0,7,MERGED
+7551,"fix: make getBoundTextElement, getContainer and getBoundTextElementId pure",ad1992,2024-01-12T06:17:23Z,2024-01-29T06:12:45+00:00,6,407.92,False,164,130,19,436,2,2,4,CLOSED
+7542,docs: add changelog for ESM build,ad1992,2024-01-11T08:05:35Z,2024-01-11T11:10:45+00:00,1,3.09,True,32,0,1,0,2,0,2,MERGED
+7539,feat: remove `ExcalidrawEmbeddableElement.validated` flag,dwelle,2024-01-10T21:24:32Z,2024-01-11T16:42:51+00:00,2,19.31,True,94,39,14,345,4,1,5,MERGED
+7537,docs: fix extra space in UIOptions/tools,mikecat,2024-01-10T13:48:51Z,2024-01-11T11:09:33+00:00,1,21.34,True,2,2,1,32,1,0,1,MERGED
+7536,"docs: fix ""canvas actions"" link in Props page",mikecat,2024-01-10T13:43:57Z,2024-01-17T10:49:42+00:00,1,165.1,True,1,1,1,156,1,0,1,MERGED
+7527,fix: decouple react and react-dom imports from utils and make it treeshakeable,ad1992,2024-01-08T10:56:56Z,2024-01-08T15:31:47+00:00,1,4.58,True,69,74,7,145,3,0,3,MERGED
+7511,feat: add eraser tool trail,are,2024-01-03T20:33:40Z,2024-01-11T16:10:15+00:00,5,187.61,True,482,356,13,169,3,3,6,MERGED
+7502,fix: docker setup and build of Excalidraw app,JannikStreek,2024-01-01T16:41:15Z,2025-03-12T12:55:05+00:00,1,10460.23,False,40,12,6,11,12,1,13,CLOSED
+7500,build: create ESM build for utils package 🥳,ad1992,2024-01-01T14:57:12Z,2024-02-28T14:03:47+00:00,1,1391.11,True,147,2,3,754,7,0,7,MERGED
+7483,refactor: editor events sub/unsub refactor,dwelle,2023-12-27T16:41:10Z,2023-12-30T10:12:38+00:00,1,65.52,True,186,129,5,369,2,0,2,MERGED
+7466,fix: typo in doc api,mritunjayz,2023-12-20T22:37:50Z,2024-04-30T16:52:43+00:00,1,3162.25,True,2,2,1,0,2,0,2,MERGED
+7460,fix: missing cross-env from build:umd in package.json,zsviczian,2023-12-18T16:18:28Z,2023-12-18T23:02:03+00:00,1,6.73,True,1,1,1,0,3,0,3,MERGED
+7457,fix: frame name field,Andran1k,2023-12-18T13:03:29Z,2024-01-29T09:57:22+00:00,1,1004.9,True,3,5,2,103,3,0,3,MERGED
+7454,fix: empty snapLines arrays would cause re-render,lynda0214,2023-12-18T06:05:15Z,2023-12-18T12:42:17+00:00,1,6.62,True,139,64,7,258,4,0,4,MERGED
+7449,docs: add steps for local development ,jasonpraful,2023-12-16T14:18:37Z,2023-12-16T18:18:35+00:00,1,4.0,True,2,2,1,12,3,0,3,MERGED
+7445,refactor: Fix Typo,golok727,2023-12-16T07:05:43Z,2023-12-16T18:23:11+00:00,1,11.29,True,17,15,2,0,3,0,3,MERGED
+7441,build: Welcome ESM and Bye Bye UMD,ad1992,2023-12-14T14:49:20Z,2024-01-01T14:48:44+00:00,3,431.99,True,511,1335,88,907,40,2,42,MERGED
+7437,fix: frame name editing inconvenience,ryan-di,2023-12-14T09:13:40Z,2024-01-21T19:55:29+00:00,1,922.7,True,5,5,1,11,2,0,2,MERGED
+7432,feat: move utils to utils package and make @excalidraw/utils a workspace,ad1992,2023-12-13T13:16:49Z,2023-12-13T16:21:27+00:00,4,3.08,True,261,56,18,488,2,1,3,MERGED
+7430,fix: docker build of Excalidraw app,agebhar1,2023-12-12T18:39:18Z,2024-05-07T12:30:58+00:00,2,3521.86,True,17,8,3,12,24,0,24,MERGED
+7415,build: decouple package deps and introduce yarn workspaces,ad1992,2023-12-08T12:02:45Z,2023-12-12T06:02:52+00:00,1,90.0,True,5085,8667,567,437,13,0,13,MERGED
+7410,editing group id not working,unknown,2023-12-08T04:59:49Z,2025-06-20T14:27:42+00:00,1,13449.46,False,44,0,5,0,3,1,4,CLOSED
+7407,chore: upgrade to vite 5.x and vitest 1.x,ad1992,2023-12-07T06:40:39Z,2023-12-07T10:00:09+00:00,1,3.33,True,532,319,7,0,3,0,3,MERGED
+7391,feat: add support for more UML arrowheads,dwelle,2023-12-05T13:19:26Z,2023-12-06T15:00:00+00:00,3,25.68,True,449,216,15,253,6,1,7,MERGED
+7381,feat: support mermaid class diagrams 🥳,ad1992,2023-12-04T14:06:21Z,2023-12-06T16:01:55+00:00,1,49.93,True,10,7,5,0,5,0,5,MERGED
+7377,chore: prepare release 0.17.2,dwelle,2023-12-04T09:12:44Z,2025-03-04T11:36:36+00:00,2,10946.4,False,2,2,2,255,4,1,5,CLOSED
+7359,feat: fractional indexing,ryan-di,2023-11-29T10:51:41Z,2024-04-04T12:51:12+00:00,30,3049.99,True,3459,1866,50,5418,7,23,30,MERGED
+7349,fix: umd build so it can be used in browser,ad1992,2023-11-28T05:50:42Z,2023-11-28T12:41:17+00:00,1,6.84,True,15,6,5,543,11,0,11,MERGED
+7348,feat: multiplayer undo / redo,Mrazator,2023-11-27T19:09:14Z,2024-04-17T12:01:24+00:00,50,3400.87,True,35435,15427,71,3369,4,50,54,MERGED
+7325,feat: text-to-diagram,barnabasmolnar,2023-11-22T01:38:03Z,2023-11-25T21:11:03+00:00,1,91.55,True,1381,510,37,1935,4,0,4,MERGED
+7298,fix: make zoomToFit fitToViewport account for sidebar,barnabasmolnar,2023-11-16T15:38:25Z,2023-11-17T14:56:20+00:00,1,23.3,True,15,1,1,673,3,0,3,MERGED
+7284,docs: release @excalidraw/excalidraw@0.17.0  🎉,ad1992,2023-11-14T13:08:51Z,2023-11-14T14:24:00+00:00,1,1.25,True,136,14,2,0,5,0,5,MERGED
+7273,fix: Can't toggle penMode off due to missing typecheck in togglePenMode,zsviczian,2023-11-12T11:04:17Z,2023-11-12T12:24:13+00:00,1,1.33,True,5,5,3,203,4,0,4,MERGED
+7270,fix: exportToSvg to honor frameRendering also for name not only for frame itself,zsviczian,2023-11-11T10:45:00Z,2023-11-12T22:34:05+00:00,1,35.82,True,63,34,1,127,4,0,4,MERGED
+7263,feat: allow D&D dice app domain for embeds,FilBot3,2023-11-09T22:31:27Z,2023-11-10T15:29:20+00:00,2,16.96,True,1,0,1,101,7,1,8,MERGED
+7255,build: support preact 🥳,ad1992,2023-11-08T13:42:37Z,2023-11-13T10:48:36+00:00,1,117.1,True,53,2,4,779,24,0,24,MERGED
+7252,docs: update the docs with next js dynamic import support,ad1992,2023-11-07T15:50:23Z,2023-11-09T10:33:35+00:00,1,42.72,True,27,2,1,0,3,0,3,MERGED
+7251,feat: support excalidrawAPI and remove refs support,ad1992,2023-11-07T12:36:09Z,2023-11-10T10:03:44+00:00,1,69.46,True,32,47,8,12,9,0,9,MERGED
+7249,test: fix mermaid test flake,dwelle,2023-11-07T09:10:01Z,2023-11-07T17:06:15+00:00,1,7.94,True,3,3,2,72,3,0,3,MERGED
+7248,docs: Docs for v0.17.0 🚀,ad1992,2023-11-07T06:04:09Z,2023-11-14T14:24:35+00:00,4,176.34,True,391,132,13,195,5,3,8,MERGED
+7247,feat: export getCommonBounds util,ad1992,2023-11-07T05:49:55Z,2023-11-07T08:49:14+00:00,1,2.99,True,7,0,2,19,3,0,3,MERGED
+7246,fix: make modal use viewport breakpoints,dwelle,2023-11-06T15:33:09Z,2023-11-07T09:10:13+00:00,1,17.62,True,16,15,3,108,3,0,3,MERGED
+7243,feat: make device breakpoints more specific,dwelle,2023-11-06T10:25:12Z,2023-11-06T15:29:00+00:00,1,5.06,True,164,121,28,18,3,0,3,MERGED
+7238,fix: allow pointer events when editing a linear element,zsviczian,2023-11-05T10:05:08Z,2023-11-10T14:21:59+00:00,1,124.28,True,16,11,1,393,4,0,4,MERGED
+7235,chore: Fix typo in comment in LocalData file,dantehemerson,2023-11-04T01:35:42Z,2023-11-04T17:15:09+00:00,1,15.66,True,1,1,1,0,1,0,1,MERGED
+7222,feat: remove full screen shortcut,SahilNagpure07,2023-11-02T07:34:21Z,2023-11-10T14:44:02+00:00,1,199.16,True,0,20,3,70,1,0,1,MERGED
+7216,Small typo fix frames.mdx,janpeterd,2023-11-01T13:09:12Z,2023-11-10T14:23:44+00:00,1,217.24,True,1,1,1,0,1,0,1,MERGED
+7213,test: disable flaky test,dwelle,2023-10-31T09:59:41Z,2023-10-31T11:05:08+00:00,1,1.09,True,14,14,1,129,3,0,3,MERGED
+7210,feat: render frames on export,dwelle,2023-10-30T22:07:47Z,2023-11-09T16:00:22+00:00,1,233.88,True,990,333,30,420,7,0,7,MERGED
+7205,feat: support frames via programmatic API,ad1992,2023-10-30T08:28:40Z,2023-11-01T11:44:04+00:00,10,51.26,True,1240,29,5,787,4,5,9,MERGED
+7198,feat: make clipboard more robust and reintroduce contextmenu actions,dwelle,2023-10-27T09:32:19Z,2023-10-28T19:29:28+00:00,1,33.95,True,610,192,17,440,3,0,3,MERGED
+7195,feat: regenerate ids by default when using transform api and also update bindings by 0.5px to avoid possible overlapping,ad1992,2023-10-26T14:48:22Z,2023-10-26T19:13:48+00:00,3,4.42,True,225,104,5,62,3,2,5,MERGED
+7189,"fix: Fixes the shortcut collision between ""toggleHandTool"" and ""distributeHorizontally""",GabiRepare,2023-10-25T03:40:24Z,2023-11-10T14:33:03+00:00,1,394.88,True,2,1,1,311,3,0,3,MERGED
+7170,fix: Fix for Strange Symbol Appearing on Canvas after Deleting Grouped Graphics (Issue #7116),mvaibhav77,2023-10-18T20:28:00Z,2023-10-19T10:59:40+00:00,1,14.53,True,1,3,2,1280,4,0,4,MERGED
+7168,"feat: Closing of ""Save to.."" Dialog on Save To Disk",mvaibhav77,2023-10-18T12:31:16Z,2023-10-19T17:51:51+00:00,1,29.34,True,37,13,5,1289,3,0,3,MERGED
+7157,feat: remove bound-arrows from frames,dwelle,2023-10-16T22:38:58Z,2023-10-17T16:18:20+00:00,3,17.66,True,81,16,7,750,4,2,6,MERGED
+7154,"feat: add `onChange`, `onPointerDown`, `onPointerUp` api subs",dwelle,2023-10-16T08:59:29Z,2023-10-20T11:08:23+00:00,2,98.15,True,173,0,4,0,3,0,3,MERGED
+7153,feat: support `props.locked` for `setActiveTool`,dwelle,2023-10-16T08:47:43Z,2023-10-20T11:16:23+00:00,2,98.48,True,67,5,4,4,4,2,6,MERGED
+7141,Chore: Typos fixed in excalidraw-element-skeleton.mdx,SusheelThapa,2023-10-13T11:02:23Z,2023-10-17T16:55:45+00:00,1,101.89,False,1,1,1,0,1,0,1,CLOSED
+7136,feat: Added Copy/Paste from Google Docs,lakshz,2023-10-11T21:02:52Z,2023-10-19T10:14:24+00:00,3,181.19,True,231,76,9,11,7,1,8,MERGED
+7134,fix: ensure relative z-index of elements added to frame is retained,dwelle,2023-10-11T11:39:42Z,2023-10-12T13:00:24+00:00,1,25.34,True,191,15,5,19,3,0,3,MERGED
+7127,docs: add npm downloads rate badge to README.md file,fsefidabi,2023-10-10T09:00:19Z,2023-11-01T12:27:57+00:00,1,531.46,True,3,0,1,0,4,0,4,MERGED
+7123,fix: wysiwyg left in undefined state on reload,mazijian-pp,2023-10-09T08:05:29Z,2023-10-13T12:29:54+00:00,1,100.41,True,21,8,5,9,3,0,3,MERGED
+7120,fix: regression from #6739 preventing redirect link in view mode,zsviczian,2023-10-07T16:42:48Z,2023-10-09T10:26:50+00:00,1,41.73,True,5,2,1,11,6,0,6,MERGED
+7107,fix: element relative position when dragging multiple elements on grid,zsviczian,2023-10-06T12:31:54Z,2023-10-25T20:48:03+00:00,1,464.27,True,39,26,1,12,5,0,5,MERGED
+7104,feat: new dark mode theme & light theme tweaks,barnabasmolnar,2023-10-06T11:03:54Z,2023-10-12T12:58:33+00:00,1,145.91,True,197,128,17,181,5,0,5,MERGED
+7072,fix: update links to excalidraw-app,emmanuel-ferdman,2023-10-03T06:57:28Z,2023-10-09T00:37:17+00:00,1,137.66,True,3,3,2,168,1,0,1,MERGED
+7066,fix: ensure `ClipboardItem` created in the same tick to fix safari,dwelle,2023-10-01T14:39:39Z,2023-10-16T09:38:57+00:00,1,354.99,True,7,10,2,246,3,1,4,MERGED
+7047,docs: fix typo on homepage of developer docs,atorcode,2023-09-26T22:13:21Z,2023-09-30T01:52:53+00:00,1,75.66,True,1,1,1,702,5,0,5,MERGED
+7039,docs: fix minor grammar and spellings,tempewda,2023-09-25T16:49:50Z,2023-10-02T08:11:03+00:00,1,159.35,True,3,3,3,0,1,0,1,MERGED
+7035,docs: Update the `excalidraw-app` source-code link in README.md,DanielJGeiger,2023-09-24T21:14:05Z,2023-10-03T13:41:14+00:00,1,208.45,True,1,1,1,0,2,0,2,MERGED
+7031,fix: Better fill rendering with latest RoughJS,pshihn,2023-09-23T19:48:23Z,2023-10-20T13:08:25+00:00,1,641.33,True,44,32,8,542,4,0,4,MERGED
+7028,test: add more resizing tests,alex-kim-dev,2023-09-22T15:24:50Z,2023-10-12T18:59:02+00:00,10,483.57,True,1305,302,7,58,3,2,5,MERGED
+7021,build: move build process and excalidraw-app dependencies in its own package.json,ad1992,2023-09-21T09:03:06Z,2023-12-07T11:09:11+00:00,2,1850.1,True,1888,1717,25,425,3,0,3,MERGED
+7019,fix: more eye-droper fixes,dwelle,2023-09-20T18:05:46Z,2023-09-21T04:24:03+00:00,1,10.3,True,115,59,6,401,3,0,3,MERGED
+7006,feat: zen-mode/go-to-plus button style tweaks,dwelle,2023-09-17T20:02:54Z,2023-09-19T12:20:59+00:00,1,40.3,True,30,22,4,0,3,0,3,MERGED
+7005,fix: improperly disabling UI pointer-events on canvas interaction,dwelle,2023-09-17T19:58:54Z,2023-09-19T14:01:40+00:00,9,42.05,True,54,31,13,691,3,4,7,MERGED
+6996,feat: Export `iconFillColor()`,DanielJGeiger,2023-09-15T16:31:35Z,2023-10-04T23:17:23+00:00,1,462.76,True,1,1,1,26,3,0,3,MERGED
+6995,feat: Expose `ActionManager.registerAction` through `ExcalidrawImperativeAPI`,DanielJGeiger,2023-09-15T16:24:25Z,2023-11-22T21:22:49+00:00,1,1636.97,True,12,7,2,84,6,0,6,MERGED
+6993,docs: release @excalidraw/excalidraw@0.16.0  🎉,ad1992,2023-09-15T10:52:13Z,2023-09-19T14:29:53+00:00,1,99.63,True,233,22,2,23,3,0,3,MERGED
+6987,refactor: move excalidraw-app outside src,ad1992,2023-09-14T05:53:44Z,2023-09-21T03:58:48+00:00,3,166.08,True,638,415,63,425,3,1,4,MERGED
+6983,feat: holding down CMD/CTRL will disable snap to grid when grid is active,zsviczian,2023-09-12T18:03:46Z,2023-09-18T15:10:29+00:00,5,141.11,True,56,32,4,65,9,2,11,MERGED
+6979,feat: update logo,dwelle,2023-09-11T13:55:32Z,2023-09-11T15:47:42+00:00,1,1.87,True,230,64,36,0,3,0,3,MERGED
+6976,docs: new Sidebar API,dwelle,2023-09-10T22:09:54Z,2023-09-15T13:03:23+00:00,3,110.89,True,146,72,8,0,3,3,6,MERGED
+6971,docs: add mermaid docs,ad1992,2023-09-08T06:38:03Z,2023-09-13T15:31:34+00:00,1,128.89,True,596,4,12,10,3,0,3,MERGED
+6967,fix: generic element's labels not flipping with them,alex-kim-dev,2023-09-07T15:12:09Z,2023-09-17T11:26:02+00:00,1,236.23,True,73,1,2,36,1,0,1,MERGED
+6966,feat: Thai handwriting font,peam1146,2023-09-07T06:46:35Z,2024-09-01T22:34:40+00:00,3,8655.8,False,47,1,9,635,7,3,10,CLOSED
+6957,feat: export `changeProperty()` and `getFormValue()`.,DanielJGeiger,2023-09-04T13:11:23Z,2023-09-09T13:13:15+00:00,1,120.03,True,2,2,1,82,3,0,3,MERGED
+6947,"fix: disable reverse binding from shapes to arrows, don't bind arrows in a group, allow arrow binding when endpoints are dragged",sjoelee,2023-08-29T21:06:25Z,2024-04-26T18:42:13+00:00,1,5781.6,False,44,6,2,1197,15,1,16,CLOSED
+6935,fix: grid jittery after partition PR,zsviczian,2023-08-26T18:08:54Z,2023-08-27T17:30:47+00:00,1,23.36,True,2,4,1,385,3,0,3,MERGED
+6933,fix: failing `build:app:docker` post vite migration during docker build,griimick,2023-08-25T20:58:48Z,2023-10-04T07:10:46+00:00,1,946.2,False,5627,1073,183,250,5,0,5,CLOSED
+6926,feat: multiplayer undo/redo,lizuncong,2023-08-24T02:07:20Z,2024-04-25T20:20:10+00:00,1,5898.21,False,24,9,5,31,3,2,5,CLOSED
+6920,feat: Support mermaid flowchart and sequence diagrams to excalidraw diagrams 🥳,ad1992,2023-08-21T15:31:02Z,2023-11-03T12:11:34+00:00,46,1772.68,True,1579,1228,26,826,35,23,58,MERGED
+6914,fix: z-index inconsistencies during addition / deletion in frames,Mrazator,2023-08-18T20:23:50Z,2023-09-06T22:41:45+00:00,5,458.3,True,424,79,3,2267,5,5,10,MERGED
+6904,fix: regression in indexing when adding elements to frame,dwelle,2023-08-17T16:34:54Z,2023-08-18T14:34:01+00:00,1,21.99,True,141,10,3,18,3,1,4,MERGED
+6900,fix: isBindableElement to affirm frames,7flash,2023-08-16T23:46:37Z,2023-09-15T21:15:07+00:00,1,717.48,True,1,0,1,5,2,0,2,MERGED
+6897,fix: make canvas compos memoize appState on props they declare,dwelle,2023-08-16T22:29:26Z,2023-08-17T11:39:15+00:00,2,13.16,True,133,130,12,9,3,1,4,MERGED
+6896,build(deps): bump @excalidraw/excalidraw from 0.15.2 to 0.15.3 in /dev-docs,dependabot,2023-08-16T21:01:51Z,2023-08-17T11:47:32+00:00,1,14.76,True,5,5,2,1622,2,0,2,MERGED
+6893,fix: stale labeled arrow bounds cache after editing the label,alex-kim-dev,2023-08-16T12:47:28Z,2023-09-05T15:50:27+00:00,6,483.05,True,30,1,2,9,2,4,6,MERGED
+6892,build(deps): bump word-wrap from 1.2.3 to 1.2.5,dependabot,2023-08-16T09:40:49Z,2023-08-16T10:41:43+00:00,1,1.01,True,3,3,1,2805,2,0,2,MERGED
+6891,fix: don't update label position when dragging labelled arrows,ad1992,2023-08-16T08:58:04Z,2023-10-27T06:36:11+00:00,3,1725.64,True,37,12,3,25,11,1,12,MERGED
+6890,build(deps): bump protobufjs from 6.11.3 to 6.11.4,dependabot,2023-08-15T23:06:02Z,2023-08-16T09:25:31+00:00,1,10.32,True,6,6,1,1610,2,0,2,MERGED
+6886,fix: scope `--color-selection` retrieval to given instance,zsviczian,2023-08-15T11:27:31Z,2023-08-16T21:59:37+00:00,4,34.53,True,8,3,2,229,5,1,6,MERGED
+6879,docs: Add docs for Excalidraw Element Skeleton,ad1992,2023-08-14T08:02:20Z,2023-09-19T12:58:53+00:00,3,868.94,True,436,11,4,14,4,3,7,MERGED
+6878,refactor: factor out shape generation from `renderElement.ts` pt 2,dwelle,2023-08-13T15:43:35Z,2023-08-14T11:52:25+00:00,1,20.15,True,438,416,5,520,3,1,4,MERGED
+6877,perf: Limiting the suggested binding to fix performance issue,rahul3v,2023-08-13T10:48:38Z,2023-08-14T11:11:09+00:00,1,24.38,True,3,0,1,371,3,0,3,MERGED
+6866,Update README.md,Anushka-Bhowmick,2023-08-07T19:09:04Z,2023-09-02T13:37:58+00:00,1,618.48,False,1,1,1,75,2,0,2,CLOSED
+6857,fix: webpack config exclude statement to system agnostic,zsviczian,2023-08-05T07:32:56Z,2023-08-05T09:49:58+00:00,1,2.28,True,6,8,2,228,4,0,4,MERGED
+6856,docs: add note for tests that have requisites,Denovocto,2023-08-04T20:12:29Z,2023-08-05T09:51:51+00:00,2,13.66,True,4,0,1,116,2,1,3,MERGED
+6850,fix: Actions panel ux improvement,s1lverfish,2023-08-03T10:04:33Z,2023-10-24T18:36:13+00:00,2,1976.53,True,279,261,11,891,7,1,8,MERGED
+6848,feat: follow mode,barnabasmolnar,2023-08-02T23:09:14Z,2023-12-14T23:07:12+00:00,5,3215.97,True,1038,137,28,2203,7,6,13,MERGED
+6840,test: add coverage report for PR,ad1992,2023-08-01T06:13:32Z,2023-08-01T10:43:05+00:00,1,4.49,True,140,10,4,12,3,0,3,MERGED
+6837,chore: update required node version to 18,CompuIves,2023-07-31T15:10:17Z,2023-07-31T21:47:42+00:00,1,6.62,True,15,3,3,220,4,0,4,MERGED
+6833,fix: add self destroying service-worker.js to migrate everyone from CRA to VITE,ad1992,2023-07-31T12:37:01Z,2023-07-31T14:26:51+00:00,3,1.83,True,21,1,2,0,2,1,3,MERGED
+6824,fix: refresh sw when browser refreshed,ad1992,2023-07-28T09:59:43Z,2023-07-28T14:47:25+00:00,3,4.79,True,5,2,3,608,2,2,4,MERGED
+6821,feat: add support for val.town embeds,pomdtr,2023-07-27T15:07:39Z,2023-07-28T14:55:40+00:00,1,23.8,True,12,0,1,314,4,0,4,MERGED
+6818,build: migrate to Vite 🚀,ad1992,2023-07-27T10:19:24Z,2023-07-27T18:20:11+00:00,1,8.01,True,6182,9820,100,946,6,0,6,MERGED
+6817,docs: Adding the json Schema to the documentation,Rajni2002,2023-07-27T09:09:15Z,2023-09-07T10:43:37+00:00,6,1009.57,True,80,1,2,9,6,1,7,MERGED
+6814,"revert: ""build: Migrate to Vite 🚀""",ad1992,2023-07-26T15:38:02Z,2023-07-26T17:04:07+00:00,1,1.43,True,9861,6115,100,13,3,0,3,MERGED
+6812,chore: typo - Collab.ts,mx2s,2023-07-26T13:29:32Z,2023-07-26T21:30:26+00:00,1,8.02,True,1,1,1,0,1,0,1,MERGED
+6810,feat: add support for simplePDF in Web-Embeds,bendersej,2023-07-26T06:25:54Z,2023-07-29T08:02:16+00:00,3,73.61,True,10,2,2,848,4,1,5,MERGED
+6803,fix: prevent binding focus NaN value,dwelle,2023-07-25T13:15:30Z,2023-07-26T21:28:11+00:00,2,32.21,True,95,5,5,9,3,2,5,MERGED
+6789,fix: resizing arrow labels,alex-kim-dev,2023-07-20T12:32:42Z,2023-08-02T10:04:21+00:00,1,309.53,True,86,85,7,273,7,0,7,MERGED
+6781,fix: don't show `canvasBackground` label when `UIOptions.canvasActions.changeViewBackgroundColor` is false,Minozzzi,2023-07-18T22:20:20Z,2023-07-24T07:03:54+00:00,1,128.73,True,33,3,4,12,1,0,1,MERGED
+6779,feat: render bold lines in grid,arnostpleskot,2023-07-18T05:49:45Z,2023-07-27T22:41:44+00:00,1,232.87,True,37,11,1,456,5,0,5,MERGED
+6776,refactor: add typeScript support to enforce valid translation keys,Ajaykumbhare,2023-07-17T18:14:53Z,2023-07-20T16:15:32+00:00,3,70.01,True,38,19,8,378,4,1,5,MERGED
+6759,feat: partition main canvas vertically,Mrazator,2023-07-11T19:44:25Z,2023-08-12T20:56:59+00:00,20,769.21,True,3916,2538,69,2578,12,23,35,MERGED
+6755,build(deps): bump semver from 6.3.0 to 6.3.1 in /src/packages/utils,dependabot,2023-07-11T00:20:47Z,2023-08-16T09:38:36+00:00,1,873.3,True,6,6,1,2933,2,0,2,MERGED
+6754,build(deps): bump semver from 6.3.0 to 6.3.1 in /src/packages/excalidraw,dependabot,2023-07-11T00:20:27Z,2023-08-16T09:38:16+00:00,1,873.3,True,6,6,1,2933,2,0,2,MERGED
+6747,feat: cache most of element selection,dwelle,2023-07-09T22:54:50Z,2023-07-16T23:09:44+00:00,9,168.25,True,531,3834,27,588,1,9,10,MERGED
+6745,feat: make `appState.selectedElementIds` more stable,dwelle,2023-07-08T18:00:57Z,2023-07-08T21:33:35+00:00,12,3.54,True,503,295,15,977,2,9,11,MERGED
+6739,feat: initial Laser Pointer MVP,are,2023-07-05T17:40:08Z,2023-10-05T15:05:17+00:00,1,2205.42,True,531,19,18,28,9,0,9,MERGED
+6728,fix: stronger enforcement of normalizeLink,vjeux,2023-06-29T05:10:10Z,2023-06-29T10:14:42+00:00,2,5.08,True,72,24,10,425,7,0,7,MERGED
+6727,feat: add approximate elements in bbox detection,are,2023-06-28T20:32:32Z,2023-10-26T21:33:00+00:00,1,2881.01,True,597,153,14,0,4,0,4,MERGED
+6725,fix: UI disappears when pressing the eyedropper shortcut on mobile,zsviczian,2023-06-28T17:18:12Z,2023-06-29T10:39:45+00:00,1,17.36,True,1,1,1,12,2,0,2,MERGED
+6713,build: Migrate to Vite 🚀,ad1992,2023-06-22T17:40:21Z,2023-07-26T10:25:21+00:00,16,808.75,True,6072,9818,100,4139,23,8,31,MERGED
+6708,fix: elements in non-existing frame getting removed,ryan-di,2023-06-22T13:14:37Z,2023-06-22T22:10:08+00:00,1,8.93,True,41,3,3,723,2,0,2,MERGED
+6696,fix: typo in chart.ts,noiron,2023-06-20T13:34:04Z,2023-06-21T06:13:38+00:00,1,16.66,True,3,3,1,44,1,0,1,MERGED
+6695,chore: Update translations from Crowdin,excalibot,2023-06-19T15:26:12Z,2023-10-20T09:29:28+00:00,1,2946.05,True,3416,819,54,1304,11,0,11,MERGED
+6694,fix: do not bind text to container using text tool when it has text already,ad1992,2023-06-19T08:13:47Z,2023-06-19T11:58:45+00:00,2,3.75,True,53,1,2,402,1,1,2,MERGED
+6693,fix: don't allow binding text to images,ad1992,2023-06-19T06:26:14Z,2023-06-19T08:17:29+00:00,1,1.85,True,9,12,4,0,1,0,1,MERGED
+6691,feat: introducing Web-Embeds (alias iframe element),zsviczian,2023-06-18T05:17:09Z,2023-07-24T14:51:54+00:00,12,873.58,True,1924,235,48,1423,68,4,72,MERGED
+6687,docs: add info about roadmap,ad1992,2023-06-16T12:18:49Z,2023-06-16T15:25:34+00:00,1,3.11,True,9,0,2,0,1,0,1,MERGED
+6683,feat: simple analitycs,maielo,2023-06-15T10:01:18Z,2023-06-19T09:18:29+00:00,1,95.29,True,40,67,4,211,1,0,1,MERGED
+6677,chore: Update translations from Crowdin,excalibot,2023-06-14T17:38:57Z,2023-06-19T15:10:10+00:00,1,117.52,True,372,160,54,1296,3,0,3,MERGED
+6675,feat: add canvas-roundrect-polyfill package,ad1992,2023-06-14T09:18:01Z,2023-06-14T11:56:29+00:00,1,2.64,True,13,360,6,182,3,0,3,MERGED
+6663,feat: assign random user name when not set,arnostpleskot,2023-06-09T14:20:11Z,2023-06-12T14:05:08+00:00,3,71.75,True,13,0,3,165,1,1,2,MERGED
+6659,feat: redesigned collab cursors,arnostpleskot,2023-06-07T21:53:34Z,2023-06-12T13:43:15+00:00,1,111.83,True,100,96,5,33,6,0,6,MERGED
+6658,feat: overwrite confirmation dialogs,are,2023-06-07T20:39:56Z,2023-06-19T15:08:13+00:00,2,282.47,True,917,68,22,156,3,1,4,MERGED
+6654,fix: updated link for documentation page under help section,vsaravind01,2023-06-07T04:49:10Z,2023-06-15T09:28:11+00:00,2,196.65,True,1,1,1,175,2,1,3,MERGED
+6651,fix: creating text while color picker open,dwelle,2023-06-05T21:58:51Z,2023-06-06T20:04:07+00:00,2,22.09,True,111,184,4,1302,5,0,5,MERGED
+6646,feat: disable collab feature when running in iframe,arnostpleskot,2023-06-05T07:41:23Z,2023-06-12T15:44:31+00:00,4,176.05,True,39,19,5,162,6,2,8,MERGED
+6641,chore: Update translations from Crowdin,excalibot,2023-06-02T16:31:35Z,2023-06-12T14:08:29+00:00,1,237.62,True,640,190,18,1292,1,0,1,MERGED
+6635,feat: redesign of Live Collaboration dialog,are,2023-05-31T15:17:26Z,2023-05-31T16:27:29+00:00,4,1.17,True,696,251,13,316,1,3,4,MERGED
+6625,chore: Update translations from Crowdin,excalibot,2023-05-26T14:30:27Z,2023-06-02T15:41:06+00:00,1,169.18,True,1574,742,53,1290,5,0,5,MERGED
+6624,feat: recover scrolled position after Library re-opening,arnostpleskot,2023-05-25T16:44:34Z,2023-05-31T08:22:02+00:00,1,135.62,True,129,49,6,232,3,0,3,MERGED
+6622,perf: memoize rendering of library,arnostpleskot,2023-05-25T10:20:32Z,2023-05-31T13:37:14+00:00,1,147.28,True,375,304,7,437,4,0,4,MERGED
+6621,feat: clearing library cache,arnostpleskot,2023-05-25T07:12:37Z,2023-05-29T14:01:45+00:00,3,102.82,True,86,41,7,191,2,1,3,MERGED
+6614,feat: update design of ImageExportDialog,are,2023-05-23T20:51:22Z,2023-05-26T14:16:56+00:00,1,65.43,True,875,165,21,54,5,0,5,MERGED
+6613,fix: Library dropdown visibility issue for mobile,irounik,2023-05-23T13:17:05Z,2023-05-23T20:37:20+00:00,1,7.34,True,0,2,1,146,2,0,2,MERGED
+6599,fix: color picker input closing problem,vsaravind01,2023-05-19T06:24:43Z,2023-06-01T21:17:23+00:00,1,326.88,True,2,1,1,199,2,0,2,MERGED
+6598,chore: Update translations from Crowdin,excalibot,2023-05-18T15:06:23Z,2023-05-24T14:50:11+00:00,1,143.73,True,668,668,18,1276,1,0,1,MERGED
+6589,chore: Update translations from Crowdin,excalibot,2023-05-16T10:39:04Z,2023-05-18T14:23:10+00:00,1,51.73,True,1162,2358,53,1290,20,0,20,MERGED
+6587,perf: improve rendering performance for Library,arnostpleskot,2023-05-14T21:09:42Z,2023-05-24T14:40:21+00:00,4,233.51,True,295,180,7,431,3,3,6,MERGED
+6583,fix: language list containing duplicate `en` lang,dwelle,2023-05-12T21:10:48Z,2023-05-13T20:50:15+00:00,1,23.66,True,60,58,3,0,1,1,2,MERGED
+6581,feat: support scrollToContent opts.fitToViewport,barnabasmolnar,2023-05-12T15:20:32Z,2023-06-29T10:36:39+00:00,7,1147.27,True,364,124,9,1116,3,4,7,MERGED
+6580,fix: assign the original text to text editor only during init,ad1992,2023-05-12T06:07:23Z,2023-05-13T17:17:29+00:00,1,35.17,True,1,1,1,18,5,0,5,MERGED
+6575,fix: garbled text displayed on avatars ,maruric,2023-05-11T07:37:32Z,2023-05-13T17:49:10+00:00,1,58.19,True,27,28,3,10,2,0,2,MERGED
+6571,chore: Update translations from Crowdin,excalibot,2023-05-09T14:40:47Z,2023-05-13T17:16:58+00:00,1,98.6,True,182,272,13,1274,1,0,1,MERGED
+6564,fix: i18n: Apply Trans component to publish library dialogue,Contextualist,2023-05-06T07:27:02Z,2023-05-10T08:39:22+00:00,3,97.21,True,463,1305,51,187,4,1,5,MERGED
+6560,perf: use `UIAppState` where possible to reduce UI rerenders,dwelle,2023-05-05T12:14:14Z,2023-05-08T08:14:03+00:00,2,68.0,True,155,125,33,364,2,1,3,MERGED
+6558,style: Removes extra spaces,mohammadamin16,2023-05-04T21:50:22Z,2023-05-13T21:09:16+00:00,6,215.31,True,10,21,10,0,4,5,9,MERGED
+6550,fix: add fallbacks for all fonts,karlhorky,2023-05-03T16:55:55Z,2024-10-16T20:22:41+00:00,1,12771.45,False,11,4,3,730,17,1,18,CLOSED
+6546,"feat: support creating containers, linear elements, text containers, labelled arrows and arrow bindings programatically",ad1992,2023-05-02T16:42:18Z,2023-08-09T11:11:15+00:00,26,2370.48,True,3440,454,15,17075,45,25,70,MERGED
+6542,ci: add bundle size limit action,snitin315,2023-05-02T14:55:01Z,2023-07-19T08:25:34+00:00,3,1865.51,False,572,14,3,275,9,1,10,CLOSED
+6534,feat: Add Trans component for interpolating JSX in translations,bancek,2023-04-28T16:41:25Z,2023-05-05T16:05:19+00:00,24,167.4,True,280,64,5,1495,17,11,28,MERGED
+6530,chore: Update translations from Crowdin,excalibot,2023-04-28T04:36:00Z,2023-05-09T12:45:27+00:00,1,272.16,True,1238,738,53,1274,1,0,1,MERGED
+6529,feat: testing simple analytics and fathom analytics for better privacy of the users,maielo,2023-04-27T15:03:44Z,2023-04-27T17:11:42+00:00,1,2.13,True,36,30,3,29,1,0,1,MERGED
+6523,fix: don't refresh dimensions for text containers on font load,ad1992,2023-04-26T13:06:11Z,2023-04-26T16:05:06+00:00,1,2.98,True,4,3,3,244,11,0,11,MERGED
+6520,fix: cleanup textWysiwyg and getAdjustedDimensions,ad1992,2023-04-25T15:56:36Z,2023-06-06T09:06:19+00:00,1,1001.16,True,39,90,3,1081,1,0,1,MERGED
+6519,fix: cleanup getMaxContainerHeight and getMaxContainerWidth,ad1992,2023-04-25T08:02:07Z,2023-04-25T12:36:24+00:00,3,4.57,True,96,56,7,174,1,1,2,MERGED
+6518,fix: cleanup redrawTextBoundingBox,ad1992,2023-04-25T07:09:28Z,2023-04-25T12:27:53+00:00,4,5.31,True,18,28,1,0,1,1,2,MERGED
+6517,feat: Image cropping,wbm1113,2023-04-25T03:44:31Z,2024-11-25T08:59:44+00:00,4,13925.25,False,1076,20,25,2347,17,5,22,CLOSED
+6509,feat: retain `seed` on shift-paste,dwelle,2023-04-23T12:26:16Z,2023-04-24T08:26:21+00:00,2,20.0,True,120,57,9,139,1,1,2,MERGED
+6508,build: Add version tags to Docker build,pand-app,2023-04-22T22:40:34Z,2023-04-25T11:21:25+00:00,1,60.68,True,12,2,1,95,4,0,4,MERGED
+6503,fix: text jumps when editing on Android Chrome,zsviczian,2023-04-21T12:40:26Z,2023-04-22T12:17:13+00:00,4,23.61,True,6,1,1,198,4,1,5,MERGED
+6501,style: fix font family inconsistencies,suwalkanishka,2023-04-20T17:17:41Z,2023-04-25T11:50:19+00:00,1,114.54,True,7,0,4,113,1,0,1,MERGED
+6479,fix: add fallbacks for all fonts,karlhorky,2023-04-18T11:47:18Z,2023-05-03T16:57:32+00:00,11,365.17,False,143,124,12,1408,2,4,6,CLOSED
+6477,fix: rotate the text element when binding to a rotated container,siddhant1,2023-04-18T07:41:40Z,2023-04-20T11:04:40+00:00,3,51.38,True,31,0,2,11,2,1,3,MERGED
+6475,feat: constrain export dialog preview size,dwelle,2023-04-17T21:38:57Z,2023-04-18T13:27:52+00:00,1,15.82,True,16,14,2,244,1,0,1,MERGED
+6471,chore: Update translations from Crowdin,excalibot,2023-04-17T05:31:00Z,2023-04-27T17:27:37+00:00,1,251.94,True,165,115,51,1244,1,0,1,MERGED
+6461,fix: utils leaking Scene state (#6461,dwelle,2023-04-15T21:51:04Z,2023-04-16T09:56:25+00:00,11,12.09,True,601,113,5,2846,2,12,14,MERGED
+6457,"fix: split ""Edit selected shape"" shortcut",fouqueta,2023-04-14T14:08:13Z,2023-04-14T21:34:26+00:00,2,7.44,True,8,6,2,12,3,1,4,MERGED
+6451,fix: center align text when bind to container via context menu,snorfyang,2023-04-14T01:18:53Z,2023-04-14T13:22:39+00:00,7,12.06,True,14,1,2,23,1,2,3,MERGED
+6448,fix: mark more props as optional for element,ad1992,2023-04-13T09:57:59Z,2023-04-18T13:12:49+00:00,3,123.25,True,80,48,5,0,1,1,2,MERGED
+6447,chore: typo (collab) - reconciliation.ts,mx2s,2023-04-12T12:43:19Z,2023-04-19T17:18:03+00:00,1,172.58,True,1,1,1,0,1,0,1,MERGED
+6445,fix: update coords when text unbinded from its container,ad1992,2023-04-12T07:47:40Z,2023-04-13T06:15:59+00:00,1,22.47,True,109,3,4,29,1,0,1,MERGED
+6444,fix: restore original container height when unbinding text which was binded via context menu,ad1992,2023-04-12T07:30:37Z,2023-04-18T13:20:26+00:00,6,149.83,True,5,0,1,375,1,1,2,MERGED
+6443,fix: exporting labelled arrows via export utils,ad1992,2023-04-11T07:19:18Z,2023-04-13T11:49:46+00:00,1,52.51,True,50,12,3,649,7,0,7,MERGED
+6441,build: migrate from CRA to Vite 🎉,wesbragagt,2023-04-10T20:59:30Z,2023-07-31T10:03:10+00:00,3,2677.06,False,522,33,8,749,14,1,15,CLOSED
+6440,fix: abort freedraw line if second touch is detected,zsviczian,2023-04-10T15:56:13Z,2023-04-16T13:33:17+00:00,1,141.62,True,37,2,1,744,9,0,9,MERGED
+6438,fix: don't refresh dimensions for deleted text elements,ad1992,2023-04-10T08:39:18Z,2023-04-10T11:01:58+00:00,1,2.38,True,3,0,1,0,1,0,1,MERGED
+6433,fix: fixing popover overflow on small screen,Nishant-l,2023-04-08T21:21:01Z,2023-04-11T21:23:37+00:00,1,72.04,True,60,25,2,92,3,0,3,MERGED
+6428,feat: add container to multiple text elements,ChinmayMhatre,2023-04-07T08:53:16Z,2023-04-07T13:50:36+00:00,2,4.96,True,88,84,1,211,5,1,6,MERGED
+6424,docs: fix closing tag in readme (#6424,brandstetterm,2023-04-06T19:17:51Z,2023-04-07T15:43:51+00:00,1,20.43,True,1,1,1,70,2,0,2,MERGED
+6417,fix: element vanishes when zoomed in,zsviczian,2023-04-04T17:29:11Z,2023-04-07T15:30:45+00:00,11,70.03,True,75,30,1,831,4,5,9,MERGED
+6416,fix: don't jump text to end when out of viewport in safari,ad1992,2023-04-04T16:08:34Z,2023-04-05T06:47:19+00:00,1,14.65,True,1,0,1,45,1,0,1,MERGED
+6399,fix: getDefaultLineHeight should return default font family line height for unknown font,CoyoteWaltz,2023-03-28T16:23:54Z,2023-03-29T19:16:24+00:00,6,26.88,True,7,1,2,661,1,5,6,MERGED
+6398,feat:  starting migration from GA to Matomo for better privacy,maielo,2023-03-28T12:39:17Z,2023-03-29T09:13:06+00:00,9,20.56,True,76,29,6,70,3,4,7,MERGED
+6397,fix: introduce baseline to fix the layout shift when switching to text editor,ad1992,2023-03-28T08:25:28Z,2023-04-10T13:22:47+00:00,4,316.96,True,161,50,9,2712,4,3,7,MERGED
+6396,fix: call stack size exceeded when paste large text (#6373),YinDongFang,2023-03-27T13:25:22Z,2023-03-29T08:15:30+00:00,2,42.84,True,49,11,2,67,3,0,3,MERGED
+6384,fix: use `ideographic` textBaseline to improve layout shift when editing text,dwelle,2023-03-22T14:41:25Z,2023-03-22T17:33:37+00:00,1,2.87,True,8,1,1,193,1,0,1,MERGED
+6382,feat: editable element stats,ryan-di,2023-03-21T11:57:00Z,2024-06-12T17:49:47+00:00,2,10781.88,True,3588,405,40,1368,9,1,10,MERGED
+6377,fix: division by zero in findFocusPointForEllipse leads to infinite loop in wrapText freezing Excalidraw,zsviczian,2023-03-19T16:32:13Z,2023-03-20T12:20:09+00:00,8,19.8,True,20,1,3,4162,1,4,5,MERGED
+6369,fix: containerizing text incorrectly updates arrow bindings,FadedBronze,2023-03-18T00:46:38Z,2023-03-18T15:00:28+00:00,1,14.23,True,122,7,3,119,2,0,2,MERGED
+6360,feat: add line height attribute to text element,ad1992,2023-03-16T07:50:11Z,2023-03-22T06:02:39+00:00,40,142.21,True,327,144,18,1225,17,17,34,MERGED
+6347,perf: break early if the line width <= max width of the container,ad1992,2023-03-13T10:09:28Z,2023-03-14T11:48:17+00:00,1,25.65,True,38,29,2,120,1,0,1,MERGED
+6346,build: move TS and types to devDependencies,dacitto,2023-03-11T22:59:56Z,2023-03-14T12:06:58+00:00,1,61.12,True,7,7,1,52,3,0,3,MERGED
+6339,fix: hide text align for labelled arrows,ad1992,2023-03-09T10:26:33Z,2023-03-14T11:51:47+00:00,4,121.42,True,35,6,4,104,1,1,2,MERGED
+6336,fix: show error message when measureText API breaks in brave,ad1992,2023-03-08T15:15:32Z,2023-03-13T14:16:10+00:00,4,119.01,True,244,23,17,532,1,13,14,MERGED
+6333,fix: refresh dimensions when elements loaded from shareable link and blob,ad1992,2023-03-08T09:51:39Z,2023-03-14T11:38:24+00:00,1,145.78,True,2,2,2,318,1,0,1,MERGED
+6328,fix: add an offset of 0.5px for text editor in containers,ad1992,2023-03-07T10:58:03Z,2023-03-09T07:37:36+00:00,1,44.66,True,3,4,2,1672,7,0,7,MERGED
+6320,feat: support disabling image tool,dwelle,2023-03-05T21:59:18Z,2023-11-14T09:25:41+00:00,4,6083.44,True,136,20,12,369,10,2,12,MERGED
+6319,feat: Add fitToContent and animate to scrollToContent,typehorror,2023-03-05T21:18:50Z,2023-03-25T22:26:59+00:00,1,481.14,True,413,38,7,204,9,0,9,MERGED
+6314,feat: add thai lang support,dwelle,2023-03-03T16:16:55Z,2023-03-11T21:15:53+00:00,1,196.98,True,6,0,1,9,1,0,1,MERGED
+6309,build(deps): bump @sideway/formula from 3.0.0 to 3.0.1 in /dev-docs,dependabot,2023-03-03T12:21:26Z,2023-03-03T13:45:29+00:00,1,1.4,True,3,3,1,2185,1,0,1,MERGED
+6305,build(deps): bump dns-packet from 5.3.1 to 5.4.0 in /src/packages/excalidraw,dependabot,2023-03-02T22:58:27Z,2023-03-03T12:20:53+00:00,1,13.37,True,3,3,1,3203,1,0,1,MERGED
+6301,feat: create bound container from text,ad1992,2023-03-02T10:32:14Z,2023-03-03T12:10:43+00:00,10,25.64,True,323,52,9,415,5,5,10,MERGED
+6296,chore: Add debug flag to enable text container bounding box,ad1992,2023-02-28T12:08:30Z,2023-03-03T12:31:56+00:00,2,72.39,True,24,0,2,107,1,1,2,MERGED
+6290,chore: Update translations from Crowdin,excalibot,2023-02-27T14:52:28Z,2023-04-16T15:12:38+00:00,1,1152.34,True,1784,468,51,1247,1,0,1,MERGED
+6273,fix: compute container height from bound text correctly,ad1992,2023-02-23T09:23:05Z,2023-02-23T12:09:02+00:00,1,2.77,True,78,4,3,3032,1,0,1,MERGED
+6270,fix: fit mobile toolbar and make scrollable,tfarhan00,2023-02-23T08:29:37Z,2023-02-23T10:24:05+00:00,1,1.91,True,3,2,1,0,3,0,3,MERGED
+6269,docs: add docs for `useI18n` hook,dwelle,2023-02-22T13:38:58Z,2023-04-18T10:50:31+00:00,2,1317.19,True,50,5,4,101,1,1,2,MERGED
+6265,fix: improve text wrapping inside rhombus and more fixes,ad1992,2023-02-20T10:49:43Z,2023-02-22T10:58:13+00:00,2,48.14,True,192,101,8,579,1,0,1,MERGED
+6263,docs: Fix outdated link in README.md,Kissaki,2023-02-19T09:56:09Z,2023-02-20T09:44:26+00:00,2,23.8,True,1,1,1,0,2,0,2,MERGED
+6258,fix: indenting via `tab` clashing with IME compositor,yoshi2no,2023-02-18T07:07:15Z,2023-02-22T11:10:30+00:00,1,100.05,True,3,1,1,660,4,0,4,MERGED
+6256,feat: element alignments - snapping,hugo082,2023-02-17T16:33:43Z,2023-09-28T14:28:09+00:00,5,5349.91,True,2295,87,29,3331,19,1,20,MERGED
+6251,docs: update docs for next version,ad1992,2023-02-16T14:07:41Z,2023-04-18T15:33:18+00:00,1,1465.43,True,73,10,5,47,1,0,1,MERGED
+6250,feat: Bind text to container if double clicked on filled shape or stroke,ad1992,2023-02-16T11:18:27Z,2023-02-16T15:16:52+00:00,4,3.97,True,77,11,3,51,1,1,2,MERGED
+6244,fix: Add title to HelpButton so title does not render undefined,KarelVerschraegen,2023-02-15T11:20:24Z,2023-03-03T12:49:02+00:00,1,385.48,False,2,0,1,408,3,0,3,CLOSED
+6241,docs: fix next.js example,dwelle,2023-02-14T20:50:10Z,2023-02-15T14:14:16+00:00,1,17.4,True,5,3,1,0,1,0,1,MERGED
+6240,docs: new readme,maielo,2023-02-14T15:07:51Z,2023-02-15T13:45:07+00:00,23,22.62,True,107,25,1,25,2,14,16,MERGED
+6238,feat: Make repair and refreshDimensions configurable in restoreElements,ad1992,2023-02-14T14:11:00Z,2023-02-15T05:11:11+00:00,3,15.0,True,110,19,8,48,3,2,5,MERGED
+6229,docs: Fixed broken codesandbox link in the dev-docs,LukaHietala,2023-02-13T10:29:48Z,2023-02-15T05:31:08+00:00,1,43.02,True,1,1,1,12,2,0,2,MERGED
+6224,fix: rerender i18n in host components on lang change,dwelle,2023-02-12T12:05:14Z,2023-02-22T14:01:23+00:00,1,241.94,True,88,72,14,389,5,0,5,MERGED
+6216,feat: color picker redesign,barnabasmolnar,2023-02-10T16:34:52Z,2023-05-18T14:06:28+00:00,7,2325.53,True,4013,2702,55,4009,10,5,15,MERGED
+6213,feat: sidebar tabs support,dwelle,2023-02-09T14:44:02Z,2023-05-04T17:33:32+00:00,23,2018.83,True,1936,1395,61,4345,15,18,33,MERGED
+6209,fix: provide HelpButton title prop,Brikaa,2023-02-09T09:07:59Z,2023-03-03T12:50:19+00:00,2,531.71,True,3,3,1,135,1,1,2,MERGED
+6197,fix: docker build architecture:linux/amd64 error occur on linux/arm64 instance,DejavuMoe,2023-02-05T09:14:21Z,2023-02-07T06:14:31+00:00,1,45.0,True,1,1,1,22983,1,0,1,MERGED
+6191,chore: Update translations from Crowdin,excalibot,2023-02-04T14:16:09Z,2023-02-22T11:23:11+00:00,1,429.12,True,215,166,50,1219,3,0,3,MERGED
+6188,refactor: Make the example React app reusable without duplication,DanielJGeiger,2023-02-04T00:14:22Z,2023-02-07T07:11:20+00:00,1,78.95,True,22,11,7,65,1,0,1,MERGED
+6187,feat: improve text measurements in bound containers,ad1992,2023-02-02T15:36:20Z,2023-02-23T11:03:11+00:00,4,499.45,True,144,351,15,5489,30,1,31,MERGED
+6186,feat: disable canvas smoothing (antialiasing) for right-angled elements (#6186)Co-authored-by: Ignacio Cuadra <67276174+ignacio-cuadra@users.noreply.github.com>,dwelle,2023-02-02T11:26:36Z,2023-02-03T16:07:15+00:00,1,28.68,True,39,1,2,655,4,2,6,MERGED
+6180,fix: horizontal padding when aligning bound text containers,ad1992,2023-02-01T10:10:15Z,2023-02-01T13:24:09+00:00,2,3.23,True,128,6,2,47,1,1,2,MERGED
+6178,fix: make tunnels work in multi-instance scenarios,dwelle,2023-01-31T16:22:01Z,2023-02-01T05:16:17+00:00,7,12.9,True,76,32,12,0,6,3,9,MERGED
+6172,fix: improve text wrapping in ellipse and alignment,ad1992,2023-01-30T09:14:17Z,2023-02-21T07:06:43+00:00,6,525.87,True,226,109,6,1150,3,4,7,MERGED
+6167,fix: quick typo fix ,Irvingouj,2023-01-29T01:27:07Z,2023-01-29T13:22:26+00:00,2,11.92,True,5,5,3,66,2,0,2,MERGED
+6165,feat: show error message when not connected to internet while collabo…,Mattross45,2023-01-27T15:23:02Z,2023-02-04T14:03:39+00:00,1,190.68,True,45,6,6,95,3,0,3,MERGED
+6162,fix: set the width correctly using measureText in editor,ad1992,2023-01-26T10:44:57Z,2023-01-28T11:09:54+00:00,1,48.42,True,20,14,3,149,16,0,16,MERGED
+6153,fix: :bug: broken emojis when wrap text,ignacio-cuadra,2023-01-22T23:18:13Z,2023-01-26T06:19:21+00:00,6,79.02,True,85,73,2,84,15,3,18,MERGED
+6152,feat: close MainMenu and Library dropdown on item select,dwelle,2023-01-22T17:03:44Z,2023-01-23T15:54:36+00:00,7,22.85,True,178,62,12,1971,1,2,3,MERGED
+6150,chore: Update translations from Crowdin,excalibot,2023-01-22T12:28:35Z,2023-02-04T09:04:16+00:00,1,308.59,True,333,235,50,1225,1,0,1,MERGED
+6148,style: change in ExportButton style (#6147),Nishant-l,2023-01-22T07:56:44Z,2023-01-22T12:37:18+00:00,3,4.68,True,4,0,1,0,5,1,6,MERGED
+6141,feat: add hand/panning tool,dwelle,2023-01-21T15:47:56Z,2023-01-23T15:12:28+00:00,3,47.41,True,273,139,22,144,1,1,2,MERGED
+6123,feat: introduce frames,ryan-di,2023-01-16T09:08:58Z,2023-06-14T16:42:02+00:00,16,3583.55,True,4562,479,78,6536,13,12,25,MERGED
+6117,feat: rewrite public UI component rendering using tunnels,dwelle,2023-01-14T18:20:52Z,2023-01-31T12:53:20+00:00,3,402.54,True,417,372,22,2152,4,2,6,MERGED
+6114,feat: shortcut for clearCanvas confirmDialog,proke03,2023-01-14T13:14:43Z,2023-02-04T12:33:40+00:00,1,503.32,True,38,22,4,13,7,0,7,MERGED
+6112,docs: release @excalidraw/excalidraw@0.14.1 🎉,ad1992,2023-01-13T12:29:28Z,2023-01-16T10:38:04+00:00,1,70.14,True,7,3,2,0,1,0,1,MERGED
+6109,docs: release @excalidraw/excalidraw@0.14.0  🎉,ad1992,2023-01-13T08:00:38Z,2023-01-13T10:38:29+00:00,1,2.63,True,162,2,2,0,1,0,1,MERGED
+6107,fix: mobile tools positioning,ad1992,2023-01-12T18:09:51Z,2023-01-12T19:27:26+00:00,3,1.29,True,9,6,3,0,1,2,3,MERGED
+6104,feat: new Live Collaboration Component API,ad1992,2023-01-12T09:18:39Z,2023-01-12T17:58:58+00:00,14,8.67,True,150,105,14,97,1,5,6,MERGED
+6103,fix: renamed folder MainMenu->main-menu and support rest props,ad1992,2023-01-12T07:54:52Z,2023-01-12T15:10:10+00:00,8,7.25,True,43,73,10,0,1,2,3,MERGED
+6096,feat: render unknown supplied children to UI,dwelle,2023-01-10T14:15:23Z,2023-01-12T14:20:17+00:00,4,48.08,True,45,24,3,9,2,2,4,MERGED
+6092,feat: generic button export,barnabasmolnar,2023-01-09T17:11:14Z,2023-01-12T12:06:01+00:00,4,66.91,True,89,37,10,459,5,2,7,MERGED
+6080,feat: Custom actions,DanielJGeiger,2023-01-06T23:03:25Z,2023-09-04T12:56:03+00:00,12,5773.88,False,126,18,5,85,4,5,9,CLOSED
+6077,chore: Update translations from Crowdin,excalibot,2023-01-06T07:58:38Z,2023-01-22T11:19:21+00:00,1,387.35,True,631,337,50,1221,1,0,1,MERGED
+6074,fix: stale appState of MainMenu defaultItems rendered from Actions,dwelle,2023-01-05T21:22:59Z,2023-01-06T13:32:55+00:00,3,16.17,True,463,431,26,1139,2,1,3,MERGED
+6073,docs: migrating existing docs to docusaurus :),ad1992,2023-01-05T10:12:56Z,2023-02-01T14:27:55+00:00,10,652.25,True,4400,2327,49,0,9,7,16,MERGED
+6072,fix: HelpDialog,EternalWill43,2023-01-05T09:53:16Z,2023-01-05T16:43:19+00:00,1,6.83,True,2,2,1,177,2,0,2,MERGED
+6048,feat: support WelcomeScreen customization API,dwelle,2022-12-30T22:02:26Z,2023-01-12T14:49:29+00:00,11,304.78,True,714,378,20,1495,4,6,10,MERGED
+6042,fix: React.memo resolvers not accounting for all props,dwelle,2022-12-29T13:50:22Z,2023-01-09T09:24:18+00:00,1,259.57,True,54,27,3,130,1,0,1,MERGED
+6040,"fix: Set `type=""button""` on <button>'s to prevent form submission",Dustin-Digitar,2022-12-28T11:11:45Z,2023-02-13T10:42:04+00:00,1,1127.51,False,2,0,1,229,2,0,2,CLOSED
+6038,feat: Scroll using PageUp and PageDown,DanielJGeiger,2022-12-27T22:23:35Z,2022-12-31T21:54:37+00:00,1,95.52,True,92,7,5,30,2,0,2,MERGED
+6034,feat: new Menu Component API,ad1992,2022-12-26T11:50:23Z,2023-01-05T16:34:23+00:00,37,244.73,True,1883,1918,54,2493,19,19,38,MERGED
+6030,fix: use canvas measureText to calculate width in measureText,ad1992,2022-12-23T11:05:44Z,2022-12-23T16:15:50+00:00,1,5.17,True,58,16,6,447,2,0,2,MERGED
+6025,feat: support shrinking text containers to original height when text removed,ad1992,2022-12-21T12:35:15Z,2022-12-23T06:27:49+00:00,7,41.88,True,200,19,4,74,3,1,4,MERGED
+6024,chore: bump typescript @ 4.9.4,dwelle,2022-12-21T11:45:14Z,2022-12-22T18:32:21+00:00,1,30.79,True,7,6,3,0,1,0,1,MERGED
+6021,feat: move contextMenu into the component tree and control via appState,dwelle,2022-12-20T23:14:32Z,2022-12-21T11:47:09+00:00,4,12.54,True,1750,396,15,2283,1,4,5,MERGED
+6014,fix: support breaking words containing hyphen -,ad1992,2022-12-20T07:53:45Z,2023-04-20T05:40:46+00:00,14,2901.78,True,89,9,2,266,1,3,4,MERGED
+5997,fix: Avatar outline on safari & center,dwelle,2022-12-15T17:55:10Z,2022-12-16T17:18:34+00:00,1,23.39,True,13,1,2,79,1,0,1,MERGED
+5996,fix: don't push whitespace to next line when exceeding max width during wrapping and make sure to use same width of text editor on DOM when measuring dimensions,ad1992,2022-12-15T14:01:02Z,2022-12-21T07:02:43+00:00,1,137.03,True,67,23,5,111,1,0,1,MERGED
+5981,feat(clipboard): copy actual text content from elements ,naorpeled,2022-12-09T14:31:37Z,2022-12-11T07:46:01+00:00,5,41.24,False,100,26,3,79,3,3,6,CLOSED
+5979,fix: apply the right type of roundness when pasting styles,ryan-di,2022-12-09T10:28:42Z,2022-12-10T12:12:09+00:00,1,25.72,True,63,2,2,577,2,0,2,MERGED
+5974,chore: add display name to context providers,ad1992,2022-12-08T13:45:26Z,2022-12-08T16:19:44+00:00,1,2.57,True,9,4,1,0,1,0,1,MERGED
+5970,feat: render footer as a component instead of render prop,ad1992,2022-12-07T17:21:34Z,2022-12-21T08:59:06+00:00,2,327.63,True,232,160,17,433,5,0,5,MERGED
+5958,build: move release scripts to use release branch,ad1992,2022-12-06T07:14:36Z,2022-12-06T11:03:03+00:00,1,3.81,True,5,5,5,52,1,0,1,MERGED
+5955,fix: `ExcalidrawArrowElement` rather than `ExcalidrawArrowEleement`,DanielJGeiger,2022-12-05T20:55:56Z,2022-12-06T12:00:03+00:00,1,15.07,True,2,2,1,56,1,0,1,MERGED
+5954,fix: Galego and Kurdî missing in languages plus two locale typos,1fbr,2022-12-05T19:36:25Z,2022-12-06T12:04:23+00:00,1,16.47,True,4,2,1,106,1,0,1,MERGED
+5950,fix: remove blank space,fennghuang,2022-12-05T03:45:41Z,2022-12-06T12:10:53+00:00,1,32.42,True,1,1,1,0,1,0,1,MERGED
+5949,fix: ColorPicker getColor,zsviczian,2022-12-04T17:01:36Z,2022-12-22T12:53:50+00:00,2,427.87,True,6,3,1,975,4,0,4,MERGED
+5942,fix: bindings do not survive history serialization,dwelle,2022-12-02T09:35:42Z,2022-12-02T10:36:19+00:00,1,1.01,True,43,5,2,238,1,0,1,MERGED
+5939,fix: don't allow whitespaces for bound text,ad1992,2022-12-01T20:49:14Z,2022-12-02T11:17:50+00:00,7,14.48,True,15,2,2,0,1,3,4,MERGED
+5935,fix: scale font correctly when using shift,ad1992,2022-11-30T08:23:46Z,2022-11-30T10:25:02+00:00,2,2.02,True,38,3,3,51,1,1,2,MERGED
+5930,feat: provide adaptive default radius and make rectangular elements' radii adjustable,ryan-di,2022-11-28T14:02:13Z,2022-12-08T17:51:32+00:00,2,243.82,False,869,62,29,818,4,2,6,CLOSED
+5929,ContextMenu now uses AppState,nihal-ramaswamy,2022-11-28T03:46:59Z,2022-12-20T23:15:42+00:00,1,547.48,False,114,104,4,76,2,1,3,CLOSED
+5927,feat: Don't add midpoint until dragged beyond a threshold,ad1992,2022-11-26T18:34:45Z,2022-11-28T18:31:54+00:00,5,47.95,True,258,63,5,0,1,2,3,MERGED
+5897,fix: stop replacing `del` word with `Delete`,dwelle,2022-11-17T15:48:29Z,2022-11-19T17:28:09+00:00,1,49.66,True,3,4,3,19,2,0,2,MERGED
+5893,fix: remove legacy React.render() from the editor,dwelle,2022-11-17T11:55:58Z,2022-11-19T17:27:54+00:00,2,53.53,True,33,48,3,9,2,0,2,MERGED
+5880,fix: Always bind to container selected by user,ad1992,2022-11-15T06:42:10Z,2022-11-25T10:15:35+00:00,10,243.56,True,172,110,7,271,4,5,9,MERGED
+5871,fix: SVG element attributes in icons.tsx,zsviczian,2022-11-13T11:23:09Z,2022-11-14T06:12:29+00:00,2,18.82,True,9,9,1,0,2,0,2,MERGED
+5868,fix: Correctly paste contents parsed by `JSON.parse()` as text.,DanielJGeiger,2022-11-12T00:33:54Z,2022-11-14T08:32:55+00:00,1,55.98,True,34,9,2,134,4,0,4,MERGED
+5856,fix: merge existing text with new when pasted,DanielJGeiger,2022-11-09T13:58:31Z,2022-11-09T18:09:53+00:00,1,4.19,True,119,13,2,12,3,0,3,MERGED
+5843,build(deps): bump loader-utils from 2.0.0 to 2.0.3 in /src/packages/utils,dependabot,2022-11-08T03:36:53Z,2022-11-14T08:21:08+00:00,1,148.74,False,3,3,1,2849,2,0,2,CLOSED
+5835,fix: Correctly align text in sticky notes with possible non-Wysiwyg,DanielJGeiger,2022-11-05T21:31:46Z,2022-11-12T01:00:39+00:00,2,147.48,False,185,91,6,118,2,1,3,CLOSED
+5823,test: fix failing tests and API,ad1992,2022-11-03T12:26:09Z,2022-11-04T12:52:22+00:00,1,24.44,True,1786,288,14,0,2,0,2,MERGED
+5807,chore: Update translations from Crowdin,excalibot,2022-10-31T21:43:44Z,2023-01-01T17:01:46+00:00,1,1483.3,True,1469,936,51,1228,1,0,1,MERGED
+5801,fix: consistent use of ZOOM_STEP,zsviczian,2022-10-29T12:31:10Z,2022-10-31T05:23:06+00:00,1,40.87,True,7,4,4,785,4,0,4,MERGED
+5799,fix: image horizontal flip fix + improved tests,adarkforce,2022-10-28T23:58:18Z,2023-01-08T16:19:14+00:00,5,1720.35,True,611,497,2,1303,3,1,4,MERGED
+5793,docs: release @excalidraw/excalidraw@0.13.0  🎉,ad1992,2022-10-27T06:18:11Z,2022-10-27T12:58:45+00:00,1,6.68,True,186,2,2,0,1,0,1,MERGED
+5786,feat: changed text copy/paste behaviour,adarkforce,2022-10-23T15:36:26Z,2022-11-26T22:44:27+00:00,4,823.13,True,324,33,9,384,8,1,9,MERGED
+5780,feat: editor redesign 🔥,barnabasmolnar,2022-10-21T15:59:08Z,2022-11-01T16:29:58+00:00,1,264.51,True,4898,3592,119,1416,16,0,16,MERGED
+5779,fix: Ungroup short cut key,ad1992,2022-10-21T07:11:52Z,2022-10-21T08:34:56+00:00,1,1.38,True,648,1,3,35,1,0,1,MERGED
+5774,feat: render library into `Sidebar` on mobile,dwelle,2022-10-17T14:37:58Z,2022-10-18T04:59:14+00:00,5,14.35,True,684,660,9,289,1,4,5,MERGED
+5752,fix: free draw flip not scaling correctly,adarkforce,2022-10-10T15:14:32Z,2022-10-18T22:03:58+00:00,1,198.82,True,150,52,2,104,2,0,2,MERGED
+5749,"feat: additional drag and drop image format support (webp, bmp, ico)",zsviczian,2022-10-09T13:55:52Z,2022-10-10T02:15:30+00:00,1,12.33,True,6,0,1,229,1,0,1,MERGED
+5742,"fix: restoreElementWithProperties drops ""parent"" property",josephbuchma,2022-10-06T19:27:46Z,2022-10-08T18:42:06+00:00,1,47.24,True,41,19,5,159,5,0,5,MERGED
+5727,fix: update perfect freehand library to fix extra dot,Pompette,2022-09-30T23:22:45Z,2022-10-08T19:00:33+00:00,1,187.63,True,5,5,2,273,2,0,2,MERGED
+5723,feat: Support labels for arrow 🔥,ad1992,2022-09-27T11:40:05Z,2022-12-05T15:33:13+00:00,2,1659.89,True,1668,363,25,3396,22,1,23,MERGED
+5721,fix: horizontal text alignment for bound text when resizing,zsviczian,2022-09-26T17:36:11Z,2022-09-27T11:14:42+00:00,4,17.64,True,113,41,4,11,4,1,5,MERGED
+5719,feat: Enter and Exit line editor via context menu,ad1992,2022-09-26T13:26:32Z,2022-09-27T11:24:51+00:00,14,21.97,True,103,2,6,0,2,6,8,MERGED
+5710,fix: set the dimensions of bound text correctly,ad1992,2022-09-21T11:18:12Z,2022-09-22T10:10:38+00:00,4,22.87,True,79,57,8,0,1,2,3,MERGED
+5708,refactor: create a util to compute container dimensions for bound text container,ad1992,2022-09-19T07:37:48Z,2022-09-19T10:00:38+00:00,3,2.38,True,78,56,4,101,1,1,2,MERGED
+5704,fix: double state update incorrectly resetting state,zsviczian,2022-09-16T19:04:43Z,2022-09-17T18:21:28+00:00,2,23.28,True,5,1,1,995,2,1,3,MERGED
+5700,fix: image-mirroring in export preview and in exported svg,ryan-di,2022-09-16T07:15:20Z,2022-09-17T21:02:13+00:00,4,37.78,True,163,9,7,177,3,1,4,MERGED
+5699,fix: remove no longer used code related to collab room loading,SH5H,2022-09-15T18:47:21Z,2022-09-15T19:58:07+00:00,1,1.18,True,0,14,2,84,2,0,2,MERGED
+5698,test: add more specs for line editor segment midpoints,ad1992,2022-09-15T10:06:06Z,2022-09-15T14:01:56+00:00,3,3.93,True,488,123,2,0,1,1,2,MERGED
+5693,chore: fix typo in clipboard alert,SH5H,2022-09-13T15:30:44Z,2022-09-14T06:45:36+00:00,1,15.25,True,1,1,1,27,1,0,1,MERGED
+5686,fix: Move to release notes for v0.9.0 and after,ad1992,2022-09-11T16:45:29Z,2022-09-13T10:59:56+00:00,1,42.24,True,4,852,1,0,1,0,1,MERGED
+5676,feat: stop deleting whole line when no point select in line editor,dwelle,2022-09-08T21:42:06Z,2022-11-02T13:52:33+00:00,2,1312.17,True,10,6,1,251,1,1,2,MERGED
+5664,chore: fix typo in blob.ts,eltociear,2022-09-05T06:38:54Z,2022-09-11T21:50:52+00:00,4,159.2,True,2,2,1,18,2,2,4,MERGED
+5663,feat: refactor Sidebar into standalone reusable component,dwelle,2022-09-04T21:00:19Z,2022-10-17T10:25:25+00:00,29,1021.42,True,1369,464,32,6841,3,10,13,MERGED
+5660,fix: default light theme splash 🔧,mabdullahadeel,2022-09-03T19:41:13Z,2022-09-16T13:59:03+00:00,15,306.3,True,97,52,16,1465,17,5,22,MERGED
+5659,fix: Prevent local AppState reset during collaboration,DanielJGeiger,2022-09-03T17:07:39Z,2022-11-11T23:21:34+00:00,1,1662.23,False,23,6,2,310,2,1,3,CLOSED
+5658,fix: buttons jump around on the mobile menu,zsviczian,2022-09-03T09:15:01Z,2022-09-05T10:30:47+00:00,1,49.26,True,5,6,1,800,1,0,1,MERGED
+5656,"build: add missing dependencies: pica, lodash",7flash,2022-09-02T08:48:40Z,2022-09-07T10:38:04+00:00,4,121.82,True,14,3,4,241,4,1,5,MERGED
+5641,feat: support segment midpoints in line editor,ad1992,2022-08-30T10:47:56Z,2022-09-14T14:25:55+00:00,9,363.63,True,657,104,7,525,12,6,18,MERGED
+5640,fix: #5622 - prevent session theme reset during collaboration,mabdullahadeel,2022-08-29T19:29:01Z,2022-09-01T10:11:44+00:00,1,62.71,True,7,1,1,80,2,0,2,MERGED
+5639,chore: Add interviewing.io to companies integrating,dawidjk,2022-08-29T16:16:23Z,2022-09-07T09:41:59+00:00,1,209.43,False,1,1,1,142,3,0,3,CLOSED
+5629,fix: renderScene error when canvas width is zero,zsviczian,2022-08-27T13:59:28Z,2023-10-09T10:32:39+00:00,1,9788.55,False,16,9,4,227,7,1,8,CLOSED
+5626,feat: added exportPadding to PNG (blob) export in @excalidraw/utils,zsviczian,2022-08-26T14:58:47Z,2022-08-30T07:18:24+00:00,2,88.33,True,13,4,3,186,3,0,3,MERGED
+5625,fix: disconnect from and reconnect to socket server when visibilitychange,ryan-di,2022-08-26T12:06:14Z,2023-06-15T21:02:52+00:00,1,7040.94,False,106,163,5,0,5,1,6,CLOSED
+5624,chore: update CodeSandbox links and add a config,CompuIves,2022-08-25T14:55:51Z,2022-08-29T13:22:04+00:00,1,94.44,True,44,1,2,650,5,0,5,MERGED
+5620,feat: Add an optional `ExcalidrawElement.subtype` attribute.,DanielJGeiger,2022-08-24T14:16:04Z,2022-11-12T00:49:07+00:00,3,1906.55,False,72,1,4,480,3,2,5,CLOSED
+5618,fix: improve solveQuadratic when a = 0,ryan-di,2022-08-24T05:17:56Z,2022-08-24T06:44:59+00:00,1,1.45,True,13,21,1,643,1,0,1,MERGED
+5616,fix: Add display name to components so it doesn't show as anonymous,ad1992,2022-08-23T10:50:49Z,2022-08-26T06:16:20+00:00,1,67.43,True,6,1,4,0,1,0,1,MERGED
+5615,fix: add random tiny offsets to avoid linear elements from being clipped,ryan-di,2022-08-23T08:04:00Z,2022-08-23T13:52:15+00:00,3,5.8,True,18,3,1,12,1,2,3,MERGED
+5614,docs: fix refs table,ad1992,2022-08-23T07:19:14Z,2022-08-23T08:25:43+00:00,4,1.11,True,5,5,1,0,1,4,5,MERGED
+5611,refactor: reuse common ui dialogs and message for mobile and LayerUI,ad1992,2022-08-22T13:31:59Z,2022-08-26T06:16:35+00:00,4,88.74,True,66,71,1,0,2,1,3,MERGED
+5606,fix: Crash when adding a new point in the line editor #5602,zsviczian,2022-08-21T19:03:30Z,2022-08-22T05:09:27+00:00,3,10.1,True,3,1,1,11,2,1,3,MERGED
+5591,refactor: remove unused attribute hasHitElementInside from pointerDownState,ad1992,2022-08-18T11:08:54Z,2022-08-18T13:41:19+00:00,1,2.54,True,0,8,2,0,1,0,1,MERGED
+5586,fix: multiple elements resizing regressions,alex-kim-dev,2022-08-17T16:22:59Z,2022-10-29T11:01:39+00:00,2,1746.64,True,54,33,3,371,9,1,10,MERGED
+5583,fix: free draw elements move on flip,alex-kim-dev,2022-08-17T14:45:31Z,2022-10-21T05:31:17+00:00,1,1550.76,False,7,8,1,67,3,3,6,CLOSED
+5579,fix: deselect linear element when clicked inside bounding box outside editor,ad1992,2022-08-16T16:34:26Z,2022-08-16T17:35:38+00:00,1,1.02,True,1,1,1,11,1,0,1,MERGED
+5578,feat: add flipping for multiple elements,alex-kim-dev,2022-08-16T12:41:36Z,2023-05-25T14:27:42+00:00,3,6769.77,True,241,283,7,442,12,2,14,MERGED
+5575,fix: remove unnecessary conditions in pointerup for linear elements,ad1992,2022-08-16T10:56:40Z,2022-08-18T08:28:47+00:00,1,45.54,True,14,15,1,0,1,0,1,MERGED
+5574,docs: correct readme type typo,caleboleary,2022-08-16T02:46:02Z,2022-08-16T08:25:56+00:00,1,5.67,True,1,1,1,85,2,0,2,MERGED
+5573,refactor: cleanup renderScene,ad1992,2022-08-15T09:28:07Z,2022-08-16T10:39:53+00:00,1,25.2,True,470,476,3,0,3,0,3,MERGED
+5564,feat: enable midpoint inside linear element editor,ad1992,2022-08-12T08:48:37Z,2022-08-18T14:26:27+00:00,8,149.63,True,43,20,2,19,1,3,4,MERGED
+5560,fix: resize multiple elements from center,alex-kim-dev,2022-08-11T12:25:16Z,2022-08-13T17:53:11+00:00,4,53.47,True,248,198,3,628,16,2,18,MERGED
+5555,fix: cleanup the condition for dragging elements,ad1992,2022-08-10T06:56:58Z,2022-08-10T10:02:40+00:00,1,3.1,True,34,44,2,0,1,0,1,MERGED
+5554,fix: show bounding box for 3 or more linear point elements,ad1992,2022-08-09T11:59:34Z,2022-08-10T16:12:28+00:00,4,28.21,True,68,28,4,52,3,2,5,MERGED
+5553,feat: better default radius sizes for rectangles,ryan-di,2022-08-09T03:50:31Z,2022-12-08T15:48:50+00:00,3,2915.97,True,1861,818,39,404,3,1,4,MERGED
+5552,chore: Update translations from Crowdin,excalibot,2022-08-08T18:46:50Z,2022-08-18T13:42:40+00:00,1,234.93,True,173,173,7,1197,1,0,1,MERGED
+5547,fix: shareable links being merged with current scene data,dwelle,2022-08-06T18:43:58Z,2022-08-08T15:51:19+00:00,1,45.12,True,25,18,1,696,1,0,1,MERGED
+5543,fix: remove rounding to fix jitter when shift-editing,dwelle,2022-08-04T22:50:01Z,2022-08-05T14:52:46+00:00,1,16.05,True,22,26,3,0,1,0,1,MERGED
+5542,fix: Scene lookup failing when looking up by id,dwelle,2022-08-04T19:31:51Z,2022-08-08T15:01:17+00:00,1,91.49,True,5,0,1,550,1,0,1,MERGED
+5540,fix: line deselected when shift-dragging point outside editor,dwelle,2022-08-04T16:31:10Z,2022-08-04T18:31:56+00:00,1,2.01,True,2,1,1,9,1,0,1,MERGED
+5534,feat: show a mid point for linear elements,ad1992,2022-08-04T08:30:44Z,2022-08-11T14:46:26+00:00,9,174.26,True,266,43,10,12,6,5,11,MERGED
+5527,feat: lock angle when editing linear elements with shift pressed,ryan-di,2022-08-02T15:31:23Z,2022-08-04T22:42:31+00:00,3,55.19,True,151,56,2,71,1,1,2,MERGED
+5523,fix: replaced KeyboardEvent.code with KeyboardEvent.key for all letters,jguddas,2022-08-02T08:36:42Z,2022-10-20T19:01:26+00:00,1,1906.41,True,21,21,7,109,6,0,6,MERGED
+5521,fix: Add `title` attribute to the modal close button,jdbruxelles,2022-08-01T21:02:43Z,2022-08-02T06:12:47+00:00,1,9.17,True,1,0,1,0,1,0,1,MERGED
+5520,fix: Context menu positioning when component has offsets,zsviczian,2022-08-01T18:10:09Z,2022-08-02T06:08:56+00:00,1,11.98,True,0,1,1,89,1,0,1,MERGED
+5518,feat: cursor alignment when creating linear elements with shift pressed,ryan-di,2022-08-01T11:55:11Z,2022-08-02T10:13:20+00:00,1,22.3,True,54,9,3,226,1,0,1,MERGED
+5516,feat: cursor alignment when creating generic elements,ryan-di,2022-08-01T03:40:00Z,2022-08-01T11:24:47+00:00,1,7.75,True,16,5,1,11,3,0,3,MERGED
+5508,fix: use flushSync when moving line editor since we need to read previous value after setting state,ad1992,2022-07-29T12:55:59Z,2022-07-29T13:57:37+00:00,2,1.03,True,7,1,1,972,1,1,2,MERGED
+5505,fix: useLayout effect cleanup in dev mode for charts,ad1992,2022-07-29T07:52:36Z,2022-07-29T11:55:26+00:00,1,4.05,True,2,2,1,432,1,0,1,MERGED
+5501,feat: redesign linear elements 🎉,ad1992,2022-07-28T13:32:50Z,2022-08-03T15:28:18+00:00,5,145.92,True,594,204,16,18,10,2,12,MERGED
+5500,feat: shift-clamp when creating multi-point lines/arrows,ryan-di,2022-07-28T08:08:10Z,2022-08-01T13:41:50+00:00,1,101.56,True,26,2,2,147,2,0,2,MERGED
+5498,fix: resolve paths in prebuild.js script,dwelle,2022-07-27T21:51:31Z,2022-07-30T19:56:47+00:00,1,70.09,True,3,2,1,20,1,0,1,MERGED
+5486,refactor: remove unnecessary if condition for linear element onKeyDown,ad1992,2022-07-26T07:42:01Z,2022-07-26T11:03:14+00:00,1,3.35,True,24,27,1,0,3,0,3,MERGED
+5483,chore: Update peer dependencies to React 18 in `@excalidraw/excalidraw`,DanielJGeiger,2022-07-25T22:26:26Z,2022-07-26T10:53:31+00:00,2,12.45,True,2,2,1,0,2,1,3,MERGED
+5482,docs: Integrate docusaraus for docs,ad1992,2022-07-25T10:01:33Z,2022-07-26T11:04:12+00:00,1,25.04,True,8110,1,28,168,6,0,6,MERGED
+5478,feat: add compressData and decompressData to the npm package,pomdtr,2022-07-21T20:36:27Z,2025-02-28T15:02:09+00:00,1,22866.43,False,33,0,4,114,3,1,4,CLOSED
+5468,fix: Fixing push to DockerHub,andrew-hesse,2022-07-20T02:44:12Z,2022-07-26T10:43:09+00:00,2,151.98,True,10,5,1,70,1,1,2,MERGED
+5464,fix: add display name for Excalidraw component so it doesn't show as anonymous,ad1992,2022-07-19T12:07:48Z,2022-07-19T15:34:06+00:00,1,3.44,True,1,0,1,0,1,0,1,MERGED
+5463,feat: Introduce ExcalidrawElements and ExcalidrawState provider so that app state and elements need not be passed to children,ad1992,2022-07-19T11:18:03Z,2022-08-20T17:19:44+00:00,4,774.03,True,96,80,6,66,1,2,3,MERGED
+5459,fix: check for ctrl key when wheel event triggered to only disable zooming,ad1992,2022-07-18T07:50:39Z,2022-07-18T09:09:55+00:00,2,1.32,True,2,2,1,278,1,1,2,MERGED
+5456,"fix: missing translation for ""Scale"" to Export Dialog",ggallon,2022-07-17T17:55:10Z,2022-07-20T09:22:05+00:00,1,63.45,True,3,1,1,175,2,0,2,MERGED
+5451,fix: disable render throttling by default & during resize,dwelle,2022-07-15T14:21:37Z,2022-07-16T09:36:55+00:00,10,19.25,True,66,14,11,149,1,2,3,MERGED
+5450,chore: upgrade to React 18,ad1992,2022-07-15T10:35:14Z,2022-07-22T05:50:36+00:00,3,163.26,True,76,51,11,0,1,1,2,MERGED
+5449,chore: Dedupe webpack configs.,DanielJGeiger,2022-07-15T03:40:54Z,2022-08-30T07:07:18+00:00,10,1107.44,True,223,234,5,340,2,8,10,MERGED
+5444,"refactor: don't pass zenModeEnable, viewModeEnabled and toggleZenMode props to LayerUI",ad1992,2022-07-14T07:32:56Z,2022-07-14T10:43:10+00:00,1,3.17,True,30,43,3,0,1,0,1,MERGED
+5432,fix: restore text dimensions,dwelle,2022-07-10T16:13:20Z,2022-10-28T21:31:56+00:00,3,2645.31,True,51,21,7,241,3,2,5,MERGED
+5427,feat: update toast api to account for duration and closable,ad1992,2022-07-08T13:27:28Z,2022-07-11T12:41:14+00:00,2,71.23,True,162,120,15,25,1,1,2,MERGED
+5426,fix: prevent browser zoom inside Excalidraw,ad1992,2022-07-08T08:46:06Z,2022-07-08T12:23:41+00:00,2,3.63,True,19,1,1,11,1,1,2,MERGED
+5422,feat: throttle scene rendering to animation framerate,dwelle,2022-07-06T18:09:33Z,2022-07-07T09:47:37+00:00,1,15.63,True,89,51,11,323,1,0,1,MERGED
+5421,docs: release @excalidraw/excalidraw@0.12.0  🎉,ad1992,2022-07-06T17:51:55Z,2022-07-07T12:56:20+00:00,1,19.07,True,239,5,2,0,1,0,1,MERGED
+5420,fix: account for safe area for floating buttons on mobile,dwelle,2022-07-06T13:42:05Z,2022-07-19T13:44:14+00:00,1,312.04,True,17,18,3,9,1,0,1,MERGED
+5419,build: extract all i18n files into locales folder,ad1992,2022-07-06T07:21:01Z,2022-07-06T09:51:05+00:00,1,2.5,True,1,1,1,13,1,0,1,MERGED
+5415,refactor: improve typing & check,dwelle,2022-07-05T14:03:26Z,2022-07-19T13:44:04+00:00,1,335.68,True,39,26,3,0,1,0,1,MERGED
+5414,build: automate release step fully,ad1992,2022-07-05T11:25:15Z,2022-07-06T09:50:52+00:00,1,22.43,True,81,29,4,493,4,0,4,MERGED
+5410,fix: typecast file to fix the build,ad1992,2022-07-04T08:16:58Z,2022-07-04T12:14:20+00:00,1,3.96,True,2,7,1,96,1,0,1,MERGED
+5409,chore: bye bye dependabot :),ad1992,2022-07-04T05:48:46Z,2022-07-04T14:41:06+00:00,1,8.87,True,0,37,1,0,1,0,1,MERGED
+5400,chore(deps-dev): bump sass-loader from 12.4.0 to 13.0.2 in /src/packages/excalidraw,dependabot,2022-07-03T01:46:55Z,2022-07-20T12:51:57+00:00,1,419.08,True,5,5,2,3786,1,0,1,MERGED
+5398,chore(deps-dev): bump @babel/plugin-transform-arrow-functions from 7.16.0 to 7.18.6 in /src/packages/utils,dependabot,2022-07-03T01:46:18Z,2022-07-20T10:39:24+00:00,1,416.88,True,2,9,2,11995,1,0,1,MERGED
+5397,chore(deps-dev): bump @babel/plugin-transform-typescript from 7.16.1 to 7.18.6 in /src/packages/excalidraw,dependabot,2022-07-03T01:46:04Z,2022-07-20T10:43:37+00:00,1,416.96,True,8,90,2,11989,2,0,2,MERGED
+5396,chore(deps-dev): bump sass-loader from 12.6.0 to 13.0.2 in /src/packages/utils,dependabot,2022-07-03T01:45:59Z,2022-07-20T12:47:10+00:00,1,419.02,True,5,5,2,3114,1,0,1,MERGED
+5393,chore(deps-dev): bump @babel/plugin-transform-typescript from 7.16.1 to 7.18.6 in /src/packages/utils,dependabot,2022-07-03T01:45:25Z,2022-07-20T10:15:12+00:00,1,416.5,True,6,97,2,11989,1,0,1,MERGED
+5392,chore(deps-dev): bump @babel/plugin-transform-arrow-functions from 7.16.7 to 7.18.6 in /src/packages/excalidraw,dependabot,2022-07-03T01:45:12Z,2022-07-20T12:41:40+00:00,1,418.94,True,2,9,2,11690,1,0,1,MERGED
+5391,chore(deps-dev): bump @babel/plugin-transform-async-to-generator from 7.16.5 to 7.18.6 in /src/packages/utils,dependabot,2022-07-03T01:45:07Z,2022-07-20T11:11:26+00:00,1,417.44,True,7,58,2,11913,1,0,1,MERGED
+5346,build: use next and preview tags instead of separate packages for next and preview release,ad1992,2022-06-22T12:22:50Z,2022-07-04T16:49:08+00:00,6,292.44,True,330,1427,6,270,17,2,19,MERGED
+5344,fix: delay loading until language imported,ad1992,2022-06-22T08:10:18Z,2022-06-22T16:36:30+00:00,1,8.44,True,1,1,1,11,1,0,1,MERGED
+5336,fix: remove unnecessary options passed to language detector,ad1992,2022-06-21T14:09:06Z,2022-06-21T20:03:09+00:00,1,5.9,True,2,6,1,644,1,0,1,MERGED
+5327,chore(deps-dev): bump webpack-cli from 4.9.2 to 4.10.0 in  src/packages/excalidraw,dependabot,2022-06-19T01:21:12Z,2022-07-20T10:42:51+00:00,1,753.36,True,21,21,2,2367,1,0,1,MERGED
+5324,chore(deps-dev): bump webpack-cli from 4.9.2 to 4.10.0 in /src/packages/utils,dependabot,2022-06-19T01:20:15Z,2022-07-20T10:25:20+00:00,1,753.08,True,22,81,2,2367,1,0,1,MERGED
+5322,fix: stale `appState.pendingImageElement`,dwelle,2022-06-17T17:42:15Z,2022-06-19T12:13:44+00:00,1,42.52,True,107,103,9,117,1,0,1,MERGED
+5317,fix: focus traps inside popovers,dwelle,2022-06-16T19:34:31Z,2022-06-23T15:33:50+00:00,1,163.99,True,54,22,4,109,1,0,1,MERGED
+5316,fix: non-letter shortcuts being swallowed by color picker,dwelle,2022-06-16T14:48:48Z,2022-06-17T10:37:11+00:00,1,19.81,True,18,8,2,284,1,0,1,MERGED
+5309,feat: deduplicate collab avatars based on `id`,dwelle,2022-06-15T11:20:49Z,2022-06-15T13:35:58+00:00,2,2.25,True,54,48,7,0,3,1,4,MERGED
+5308,feat: make toast closable and allow custom duration,ad1992,2022-06-15T09:53:18Z,2022-07-05T16:13:59+00:00,13,486.34,True,55,15,3,219,2,4,6,MERGED
+5307,fix: bind text to correct container when nested,ad1992,2022-06-15T07:18:02Z,2022-06-15T10:39:12+00:00,1,3.35,True,7,3,2,48,2,0,2,MERGED
+5304,fix: show toast when browser zoom is not 100%,ad1992,2022-06-14T08:29:04Z,2022-07-08T13:49:00+00:00,2,581.33,True,24,2,2,536,9,1,10,MERGED
+5303,fix: copy arrow head when using copy styles,ad1992,2022-06-14T05:56:18Z,2022-06-14T10:57:42+00:00,2,5.02,True,13,4,1,50,2,1,3,MERGED
+5278,chore: normalize package.json order,with-heart,2022-06-05T18:36:58Z,2024-07-26T16:58:14+00:00,2,18766.35,False,44,44,1,1759,1,0,1,CLOSED
+5274,feat: add sidebar for libraries panel,ishtiaqbhatti,2022-06-05T01:35:06Z,2022-06-21T15:03:23+00:00,16,397.47,True,782,241,39,0,32,28,60,MERGED
+5272,chore(deps-dev): bump terser-webpack-plugin from 5.3.1 to 5.3.3 in /src/packages/excalidraw,dependabot,2022-06-05T01:32:41Z,2022-07-20T10:43:48+00:00,1,1089.19,True,8,8,2,2295,1,0,1,MERGED
+5268,chore(deps-dev): bump webpack from 5.72.0 to 5.73.0 in /src/packages/excalidraw,dependabot,2022-06-05T01:31:50Z,2022-07-20T10:12:12+00:00,1,1088.67,True,19,52,2,2619,1,0,1,MERGED
+5243,docs: migrate example to typescript,ad1992,2022-05-25T13:38:50Z,2022-06-14T12:26:05+00:00,1,478.79,True,173,106,4,0,1,0,1,MERGED
+5241,docs: prevent touch so that pointermove works in touch devices,ad1992,2022-05-24T15:28:44Z,2022-05-25T06:09:16+00:00,1,14.68,True,1,0,1,0,1,0,1,MERGED
+5240,docs: remove dragging threshold when interacting with custom elements,ad1992,2022-05-24T14:12:58Z,2022-05-24T15:26:01+00:00,1,1.22,True,15,23,1,0,1,0,1,MERGED
+5238,docs: fix offsets in the example when dragging custom elements,ad1992,2022-05-24T07:26:57Z,2022-05-24T10:57:23+00:00,1,3.51,True,9,4,1,0,1,0,1,MERGED
+5234,chore(deps-dev): bump postcss-loader from 6.2.1 to 7.0.0 in /src/packages/excalidraw,dependabot,2022-05-22T01:07:05Z,2022-07-20T12:45:51+00:00,1,1427.65,True,10,10,2,2229,1,0,1,MERGED
+5202,feat: go-to-excalidrawplus button,maielo,2022-05-17T08:23:36Z,2022-05-18T16:30:35+00:00,1,32.12,True,59,9,4,127,1,0,1,MERGED
+5187,feat: expose utilitis to convert scene coords to viewport coords and vice versa,ad1992,2022-05-12T08:23:36Z,2022-05-12T11:44:30+00:00,3,3.35,True,51,16,4,0,1,2,3,MERGED
+5183,feat: Autoredirect to Excalidraw+ if special cookie is present,maielo,2022-05-11T21:22:24Z,2022-05-18T10:04:27+00:00,7,156.7,True,19,0,1,0,1,4,5,MERGED
+5181,fix: do not deselect when not zooming using touchscreen pinch,johtso,2022-05-11T19:24:44Z,2022-05-11T21:30:50+00:00,1,2.1,True,38,24,1,219,3,0,3,MERGED
+5174,feat: support resubmitting published library items,dwelle,2022-05-10T17:02:48Z,2022-05-11T13:56:11+00:00,1,20.89,True,39,8,6,0,1,0,1,MERGED
+5165,fix: wheel zoom normalization,johtso,2022-05-09T17:28:16Z,2022-05-11T20:01:20+00:00,4,50.55,True,9,8,1,797,6,1,7,MERGED
+5164,feat: support custom elements in @excalidraw/excalidraw,ad1992,2022-05-09T11:56:21Z,2022-05-11T08:00:16+00:00,7,44.07,True,338,18,7,658,2,4,6,MERGED
+5158,chore(deps-dev): bump webpack-dev-server from 4.7.4 to 4.9.0 in /src/packages/excalidraw,dependabot,2022-05-08T01:36:36Z,2022-05-10T12:49:38+00:00,1,59.22,True,188,405,2,3691,1,0,1,MERGED
+5155,fix: eraser removed deleted elements,dwelle,2022-05-07T16:52:32Z,2022-05-07T19:01:37+00:00,1,2.15,True,135,125,3,226,1,0,1,MERGED
+5152,fix: Handle `ColorPicker` parentSelector being undefined,tom-sherman,2022-05-06T16:55:42Z,2022-05-07T18:16:14+00:00,1,25.34,True,15,15,1,108,2,0,2,MERGED
+5144,feat: support customType in activeTool,ad1992,2022-05-05T12:16:41Z,2022-05-06T12:51:22+00:00,2,24.58,True,210,51,12,0,1,1,2,MERGED
+5142,fix: update opacity of bound text when opacity of container updated,ad1992,2022-05-04T06:46:24Z,2022-05-04T08:59:05+00:00,1,2.21,True,8,4,1,42,1,0,1,MERGED
+5139,fix: jumping of text when typing single line in bound text,ad1992,2022-05-03T09:48:17Z,2022-05-04T05:51:28+00:00,1,20.05,True,8,2,1,27,1,0,1,MERGED
+5132,fix: library multiselect not accounting for published state,dwelle,2022-05-01T12:13:35Z,2022-05-07T17:13:10+00:00,1,148.99,True,65,61,2,347,1,0,1,MERGED
+5130,fix: sort bound text elements to fix text duplication z-index error,ryan-di,2022-05-01T04:15:06Z,2023-02-02T08:23:40+00:00,1,6652.14,True,758,115,7,19,4,0,4,MERGED
+5124,chore(deps-dev): bump @babel/core from 7.17.0 to 7.17.10 in /src/packages/excalidraw,dependabot,2022-05-01T01:03:28Z,2022-05-22T01:04:11+00:00,1,504.01,False,37,105,2,5793,3,0,3,CLOSED
+5123,chore(deps-dev): bump ts-loader from 9.2.8 to 9.3.0 in /src/packages/utils,dependabot,2022-05-01T01:03:25Z,2022-05-10T12:42:13+00:00,1,227.65,True,5,5,2,2091,1,0,1,MERGED
+5121,chore(deps-dev): bump @babel/preset-env from 7.16.7 to 7.17.10 in /src/packages/excalidraw,dependabot,2022-05-01T01:03:17Z,2022-05-10T12:51:54+00:00,1,227.81,True,266,123,2,5777,1,0,1,MERGED
+5120,chore(deps-dev): bump @babel/preset-env from 7.16.7 to 7.17.10 in /src/packages/utils,dependabot,2022-05-01T01:03:05Z,2022-05-22T01:05:47+00:00,1,504.05,False,287,123,2,5777,2,0,2,CLOSED
+5119,chore(deps-dev): bump typescript from 4.5.4 to 4.6.4 in /src/packages/excalidraw,dependabot,2022-05-01T01:02:58Z,2022-05-10T12:48:59+00:00,1,227.77,True,5,5,2,3572,1,0,1,MERGED
+5116,feat: support adding multiple library items on canvas,dwelle,2022-04-30T19:21:14Z,2022-05-11T13:51:03+00:00,3,258.5,True,275,34,11,0,1,3,4,MERGED
+5115,feat: factor out url library init & switch to `updateLibrary` API,dwelle,2022-04-29T21:41:13Z,2022-05-11T13:08:54+00:00,19,279.46,True,394,235,11,783,2,11,13,MERGED
+5114,feat: support src collaborators,ad1992,2022-04-29T13:23:29Z,2022-05-02T09:45:24+00:00,5,68.37,True,69,18,10,89,1,2,3,MERGED
+5108,fix: Don't save deleted ExcalidrawElements to Firebase,DanielJGeiger,2022-04-27T20:10:53Z,2022-05-09T13:38:45+00:00,9,281.46,True,70,31,5,630,5,4,9,MERGED
+5103,feat: export exportToClipboard util from package,ad1992,2022-04-27T09:27:22Z,2022-04-29T13:28:45+00:00,5,52.02,True,111,18,7,147,3,1,4,MERGED
+5102,refactor: rename EXCALIDRAW_EXPORT_SOURCE -> EXCALIDRAW_EXPORT_SOURCE_PATH,pomdtr,2022-04-27T07:32:07Z,2022-04-27T08:49:02+00:00,1,1.28,True,5,5,4,0,1,0,1,MERGED
+5101,fix: library init/import race conditions,dwelle,2022-04-26T20:39:59Z,2022-04-29T14:45:02+00:00,1,66.08,True,247,132,11,1123,1,0,1,MERGED
+5099,fix: propagate keydown events from excalidraw-wysiwyg inputs,pomdtr,2022-04-26T08:02:04Z,2022-04-27T18:28:41+00:00,3,34.44,True,0,2,1,135,1,1,2,MERGED
+5098,chore(deps-dev): bump eslint-config-prettier from 8.3.0 to 8.5.0,dependabot,2022-04-26T07:35:34Z,2022-05-10T12:22:58+00:00,1,340.79,True,5,5,2,2145,1,0,1,MERGED
+5095,feat: Expose `window.EXCALIDRAW_EXPORT_SOURCE` which host can use to overwrite the source field in exports,pomdtr,2022-04-25T12:08:30Z,2022-04-26T11:28:39+00:00,9,23.34,True,8,1,4,9,1,6,7,MERGED
+5088,chore(deps-dev): bump babel-loader from 8.2.3 to 8.2.5 in /src/packages/utils,dependabot,2022-04-24T01:15:20Z,2022-04-27T10:03:17+00:00,1,80.8,True,7,23,2,2256,1,0,1,MERGED
+5086,chore(deps-dev): bump babel-loader from 8.2.3 to 8.2.5 in /src/packages/excalidraw,dependabot,2022-04-24T01:14:14Z,2022-05-10T12:48:27+00:00,1,395.57,True,12,19,2,2256,1,0,1,MERGED
+5079,feat: add an .excalidraw prefix to the extension of image export with embedded sceneData,pomdtr,2022-04-22T14:39:00Z,2022-04-22T16:31:31+00:00,5,1.88,True,6,2,3,251,2,1,3,MERGED
+5077,fix: boundElementIds when arrows bound to elements are deleted,ad1992,2022-04-21T12:00:07Z,2022-04-21T13:27:07+00:00,1,1.45,True,42,13,1,11,1,0,1,MERGED
+5076,fix: don't merge libraryItems on updateScene,pomdtr,2022-04-21T07:21:57Z,2022-04-21T08:54:03+00:00,1,1.53,True,15,2,1,392,1,0,1,MERGED
+5071,chore(deps): bump node-forge from 1.2.1 to 1.3.1 in /src/packages/excalidraw,dependabot,2022-04-20T12:45:46Z,2022-04-26T07:40:12+00:00,1,138.91,True,3,3,1,3973,1,0,1,MERGED
+5069,chore(deps): bump async from 2.6.3 to 2.6.4 in /src/packages/excalidraw,dependabot,2022-04-20T12:44:21Z,2022-04-26T07:32:29+00:00,1,138.8,True,3,3,1,1837,1,0,1,MERGED
+5067,feat: rewrite library state management & related refactor,dwelle,2022-04-19T21:41:45Z,2022-04-20T12:40:03+00:00,6,14.97,True,343,284,18,863,1,3,4,MERGED
+5065,fix: use excalidraw asset path in fonts when exporting to svg,ad1992,2022-04-19T10:18:57Z,2022-04-28T14:49:42+00:00,9,220.51,True,27,7,6,66,1,3,4,MERGED
+5061,chore: Update translations from Crowdin,excalibot,2022-04-18T09:56:23Z,2022-05-11T21:44:03+00:00,1,563.79,True,829,737,47,1160,1,0,1,MERGED
+5057,feat: make file handling more robust,dwelle,2022-04-17T20:01:57Z,2022-05-09T13:53:05+00:00,3,521.85,True,324,148,11,311,1,6,7,MERGED
+5049,feat: delay initial loading message & tweak design,dwelle,2022-04-16T18:48:36Z,2022-04-19T17:08:14+00:00,1,70.33,True,34,36,4,406,1,0,1,MERGED
+5046,feat: collab component state handling rewrite & fixes,dwelle,2022-04-15T19:19:37Z,2022-07-05T14:03:40+00:00,7,1938.73,True,227,192,10,2253,4,1,5,MERGED
+5045,build: export only named exports from the package,ad1992,2022-04-15T10:42:03Z,2022-04-15T12:42:58+00:00,2,2.02,True,27,7,6,34,1,1,2,MERGED
+5041,fix: transpile browser-fs-access in package build,jasonphillips,2022-04-14T22:42:06Z,2022-05-24T13:07:06+00:00,1,950.42,True,8,2,3,748,6,0,6,MERGED
+5038,fix: Add image button not working on iPad,zsviczian,2022-04-14T17:03:22Z,2022-04-15T10:20:52+00:00,1,17.29,True,53,73,1,12,2,0,2,MERGED
+5037,feat: hide trash button during collaboration,ad1992,2022-04-14T16:04:37Z,2022-04-15T16:21:41+00:00,6,24.28,True,22,7,4,17,2,2,4,MERGED
+5032,feat: refactor local persistence & fix race condition on SW reload,dwelle,2022-04-11T13:46:10Z,2022-04-11T20:15:50+00:00,2,6.49,True,232,132,6,517,1,0,1,MERGED
+5022,fix: select whole group on righclick & few lock-related fixes,dwelle,2022-04-07T12:07:27Z,2022-04-07T15:53:56+00:00,1,3.77,True,218,7,4,0,2,0,2,MERGED
+5020,fix: update `storage.rules`,dwelle,2022-04-06T12:04:10Z,2022-04-17T20:47:00+00:00,1,272.71,True,5,6,1,307,1,0,1,MERGED
+5017,fix: export serializeLibraryAsJSON in the excalidraw package,pomdtr,2022-04-05T21:24:48Z,2022-04-07T07:05:44+00:00,1,33.68,True,1,0,1,27,1,0,1,MERGED
+5016,fix: more copyText fixes,dwelle,2022-04-05T20:09:56Z,2022-04-05T21:11:00+00:00,1,1.02,True,33,17,5,0,3,0,3,MERGED
+5014,fix: Copy to clipboard all text nodes as text,Fausto95,2022-04-05T14:21:46Z,2022-04-05T19:49:00+00:00,11,5.45,True,20,14,2,30,3,4,7,MERGED
+5009,feat: create and expose serializeLibraryAsJSON,pomdtr,2022-04-03T21:50:08Z,2022-04-05T12:35:38+00:00,4,38.76,True,19,3,4,118,1,2,3,MERGED
+5001,fix: Pinch zoom in view mode,zsviczian,2022-04-02T05:28:52Z,2022-04-12T10:39:28+00:00,1,245.18,True,3,3,1,124,4,0,4,MERGED
+4996,fix: update cursorButton once freedraw is released,valgussev,2022-03-30T21:58:28Z,2022-04-01T16:25:21+00:00,1,42.45,True,9,12,4,324,4,0,4,MERGED
+4995,feat: library restoring changes,dwelle,2022-03-30T16:33:49Z,2022-04-14T14:20:36+00:00,1,357.78,True,71,29,6,17,1,0,1,MERGED
+4992,feat: hide penMode button on reload if not enabled,dwelle,2022-03-29T21:20:27Z,2022-03-30T08:53:22+00:00,1,11.55,True,4,0,1,270,2,0,2,MERGED
+4991,feat: reconcile when saving to firebase,dwelle,2022-03-29T19:57:00Z,2022-04-17T20:40:40+00:00,4,456.73,True,260,89,7,531,1,1,2,MERGED
+4984,fix: decouple actionFinalize and actionErase,zsviczian,2022-03-28T19:45:31Z,2022-03-29T19:37:09+00:00,2,23.86,True,22,16,4,13,2,0,2,MERGED
+4983,refactor: move elementLocked to activeTool.locked,ad1992,2022-03-28T12:07:53Z,2022-03-29T11:40:19+00:00,4,23.54,True,199,113,14,0,1,2,3,MERGED
+4982,fix: adding check for link length to prevent early return ,connor-pph,2022-03-27T19:15:33Z,2022-03-27T21:50:41+00:00,1,2.59,True,7,4,2,664,3,0,3,MERGED
+4981,feat: Eraser toggle to switch back to the previous tool,zsviczian,2022-03-27T19:00:12Z,2022-03-28T19:33:32+00:00,4,24.56,True,24,6,3,14,6,2,8,MERGED
+4980,fix: updateWysiwygStyle updatedElement is undefined TypeError,zsviczian,2022-03-27T17:39:48Z,2022-03-27T22:14:04+00:00,4,4.57,True,7,5,2,14,1,1,2,MERGED
+4968,refactor: rename elementType to activeTool make it an object,ad1992,2022-03-25T07:56:05Z,2022-03-25T15:16:02+00:00,14,7.33,True,364,207,25,0,1,12,13,MERGED
+4964,feat: Element locking,tom-sherman,2022-03-23T20:43:14Z,2022-04-07T11:43:29+00:00,12,351.0,True,1066,53,31,12,38,4,42,MERGED
+4963,feat: Support custom elements in @excalidraw/excalidraw,ad1992,2022-03-23T13:36:16Z,2022-05-24T10:07:40+00:00,7,1484.52,False,636,98,22,1062,16,6,22,CLOSED
+4955,"feat: Save penDetected and penMode, and detect pen already on ToolButton click",zsviczian,2022-03-22T09:53:49Z,2022-03-22T12:29:27+00:00,1,2.59,True,70,40,3,68,4,0,4,MERGED
+4954,fix: restore original opacities when alt pressed while erasing,ad1992,2022-03-22T08:37:24Z,2022-03-22T11:10:28+00:00,1,2.55,True,37,12,3,11,1,0,1,MERGED
+4946,fix: don't bind text to container if already present,ad1992,2022-03-21T15:58:42Z,2022-03-22T10:02:50+00:00,2,18.07,True,48,2,2,38,2,1,3,MERGED
+4935,feat: Support binding text to container via context menu,ad1992,2022-03-17T19:21:38Z,2022-03-21T12:24:54+00:00,13,89.05,True,159,81,9,232,1,5,6,MERGED
+4934,fix: erase all elements which are hit with single point click,ad1992,2022-03-17T09:39:35Z,2022-03-17T15:34:00+00:00,1,5.91,True,6,7,1,0,1,0,1,MERGED
+4930,feat: Map shortcut O to ellipse and Add eraser shortcut E,ad1992,2022-03-16T08:43:14Z,2022-03-16T13:01:21+00:00,4,4.3,True,67,62,6,19,3,1,4,MERGED
+4922,feat: update eraser cursor,ad1992,2022-03-14T12:16:37Z,2022-03-15T15:26:40+00:00,7,27.17,True,71,20,5,76,1,5,6,MERGED
+4897,fix: Mobile menu does not work when editing text elements (#4863),zsviczian,2022-03-11T10:08:55Z,2022-03-14T16:34:53+00:00,1,78.43,False,34,3,2,122,6,3,9,CLOSED
+4894,chore: Update translations from Crowdin,excalibot,2022-03-10T08:49:34Z,2022-04-17T22:16:44+00:00,1,925.45,True,1759,832,47,1159,2,0,2,MERGED
+4890,fix: don't crash on drop highlighted text onto canvas,tommilligan,2022-03-08T17:33:06Z,2022-03-09T10:51:14+00:00,6,17.3,True,7,4,2,347,4,3,7,MERGED
+4889,feat: added optional REACT_APP_WS_SERVER_URL for forks usecases,maielo,2022-03-08T12:59:11Z,2022-03-09T11:13:59+00:00,1,22.25,True,18,0,4,108,1,0,1,MERGED
+4887,feat: Add Eraser 🎉 ,ad1992,2022-03-07T11:49:06Z,2022-03-11T14:23:42+00:00,11,98.58,True,233,32,18,444,8,9,17,MERGED
+4886,fix: paste styles shortcut,dwelle,2022-03-07T10:38:24Z,2022-03-09T09:59:44+00:00,3,47.36,True,99,31,6,72,3,2,5,MERGED
+4882,fix: collab room initialization,dwelle,2022-03-06T12:12:15Z,2022-03-06T14:59:56+00:00,1,2.79,True,60,31,2,342,1,0,1,MERGED
+4881,feat: rewrite collab server connecting ,maielo,2022-03-06T11:45:04Z,2022-03-06T21:43:03+00:00,2,9.97,True,49,17,8,657,1,1,2,MERGED
+4871,fix: freedraw element's background fill color missing from SVG when exporting with package API exportToSvg(),zsviczian,2022-03-05T21:42:37Z,2022-03-06T22:35:16+00:00,1,24.88,True,1,0,1,151,2,0,2,MERGED
+4862,build: release @excalidraw/utils 0.1.1,dwelle,2022-03-03T11:51:43Z,2022-03-03T13:59:09+00:00,1,2.12,True,1,1,1,41,1,0,1,MERGED
+4857,chore: fix various typos,luzpaz,2022-03-01T21:06:25Z,2022-03-02T06:07:13+00:00,1,9.01,True,39,39,22,142,1,0,1,MERGED
+4853,feat: support debugging PWA in dev,dwelle,2022-02-28T14:01:51Z,2022-07-02T15:59:04+00:00,1,2977.95,True,78,13,6,673,2,1,3,MERGED
+4852,feat: support vertical text align for bound containers,ad1992,2022-02-28T11:40:40Z,2022-03-02T14:36:08+00:00,1,50.92,True,222,66,13,208,5,0,5,MERGED
+4851,chore(deps): bump url-parse from 1.5.7 to 1.5.10,dependabot,2022-02-28T04:28:52Z,2022-07-20T09:29:43+00:00,1,3413.01,True,2,10,1,1915,2,0,2,MERGED
+4846,fix: Don't show align icons for single bound container element,ad1992,2022-02-25T12:50:51Z,2022-02-28T05:38:30+00:00,3,64.79,True,11,1,1,11,1,1,2,MERGED
+4843,feat: support custom colors 🎉,ad1992,2022-02-24T11:46:22Z,2022-02-28T13:34:27+00:00,3,97.8,True,183,44,5,579,1,2,3,MERGED
+4836,fix: restore cursor position after bound text container value updated,ad1992,2022-02-22T09:30:01Z,2022-02-22T12:54:06+00:00,2,3.4,True,17,0,1,50,7,0,7,MERGED
+4832,docs: list who's integrating excalidraw,dwelle,2022-02-21T21:16:53Z,2022-02-23T22:28:17+00:00,1,49.19,True,4,0,1,0,1,1,2,MERGED
+4829,chore: add ga for most actions,dwelle,2022-02-21T15:41:43Z,2022-03-28T12:46:40+00:00,10,837.08,True,221,93,40,1789,1,7,8,MERGED
+4828,feat: Scale font size when bound text containers resized with shift pressed,ad1992,2022-02-21T14:24:28Z,2022-02-22T13:15:59+00:00,1,22.86,True,38,9,2,16,4,0,4,MERGED
+4824,fix: support resizing multiple bound text containers,ad1992,2022-02-21T10:02:23Z,2022-02-21T11:16:39+00:00,1,1.24,True,28,2,1,42,2,0,2,MERGED
+4813,chore(deps-dev): bump sass-loader from 12.4.0 to 12.6.0 in /src/packages/utils,dependabot,2022-02-20T01:19:57Z,2022-05-10T13:02:20+00:00,1,1907.71,True,5,5,2,2644,2,0,2,MERGED
+4804,fix: stuck resizing when resizing bound text container very fast beyond threshold,ad1992,2022-02-18T07:47:42Z,2022-02-18T12:50:56+00:00,1,5.05,True,27,16,2,27,2,0,2,MERGED
+4799,docs: release @excalidraw/excalidraw@0.11.0  🎉,ad1992,2022-02-16T16:06:58Z,2022-02-17T13:22:45+00:00,4,21.26,True,494,86,3,0,1,3,4,MERGED
+4798,fix: add commits directly pushed to master in changelog,ad1992,2022-02-16T14:03:35Z,2022-02-16T15:32:00+00:00,1,1.47,True,18,11,1,0,1,0,1,MERGED
+4794,fix: don't bump element version when adding files data,dwelle,2022-02-15T17:51:26Z,2022-02-16T12:56:36+00:00,1,19.09,True,1,9,1,310,1,0,1,MERGED
+4792,chore: remove `firebase-tools`,dwelle,2022-02-15T16:44:35Z,2022-02-28T09:54:20+00:00,1,305.16,True,91,2418,2,14,1,0,1,MERGED
+4791,feat: Support Links in Exported SVG,JRJurman,2022-02-15T12:59:34Z,2022-02-25T20:42:11+00:00,3,247.71,True,56,7,4,652,11,1,12,MERGED
+4786,docs: tweak documentation for release and add examples,ad1992,2022-02-15T07:30:58Z,2022-02-15T13:43:47+00:00,1,6.21,True,88,25,5,27,1,0,1,MERGED
+4765,fix: contextMenu timer & pointers not correctly reset on iOS,dwelle,2022-02-09T18:21:32Z,2022-02-09T19:42:02+00:00,1,1.34,True,11,5,1,130,1,0,1,MERGED
+4764,fix: Add multiElement-edit finalize action to Desktop (currently only visible in Mobile view),zsviczian,2022-02-09T13:43:55Z,2022-03-16T14:59:31+00:00,5,841.26,True,138,61,17,412,19,2,21,MERGED
+4762,build: deploy excalidraw package example,ad1992,2022-02-09T09:26:00Z,2022-02-09T12:15:16+00:00,1,2.82,True,10,3,5,89,2,0,2,MERGED
+4753,fix: use absolute coords when rendering link popover,ad1992,2022-02-09T07:14:39Z,2022-02-09T11:03:49+00:00,1,3.82,True,7,6,1,11,1,0,1,MERGED
+4751,fix: changing font size when text is not selected or edited,h7y,2022-02-08T16:59:26Z,2022-02-08T21:18:43+00:00,1,4.32,True,34,4,3,11,2,0,2,MERGED
+4750,build: release preview package when triggered via comment,ad1992,2022-02-08T15:40:39Z,2022-02-14T08:24:25+00:00,8,136.73,True,104,5,5,451,1,3,4,MERGED
+4742,fix: mobile link click,zsviczian,2022-02-07T19:57:06Z,2022-02-10T09:22:34+00:00,20,61.42,True,16,5,1,110,18,5,23,MERGED
+4741,fix: mobile context menu won't show on long press,zsviczian,2022-02-07T17:05:23Z,2022-02-07T18:46:29+00:00,3,1.69,True,9,1,2,0,3,2,5,MERGED
+4736,fix: make link icon clickable in mobile,ad1992,2022-02-07T10:01:35Z,2022-02-07T11:54:52+00:00,1,1.89,True,14,1,1,11,6,0,6,MERGED
+4735,feat: Make whole element clickable in view mode when it has hyperlink,ad1992,2022-02-07T09:21:15Z,2022-02-07T14:24:39+00:00,1,5.06,True,28,9,2,14,9,0,9,MERGED
+4729,chore: Update translations from Crowdin,excalibot,2022-02-06T17:41:08Z,2022-03-09T11:21:26+00:00,2,737.67,True,906,397,46,1150,1,0,1,MERGED
+4728,feat: keep selected tool on canvas reset,dwelle,2022-02-06T17:28:12Z,2022-02-07T21:30:07+00:00,1,28.03,True,2,0,1,103,1,0,1,MERGED
+4726,fix: freedraw slow movement jittery lines,zsviczian,2022-02-06T15:11:42Z,2022-02-06T16:45:23+00:00,2,1.56,True,13,7,1,738,2,1,3,MERGED
+4725,fix: Disable three finger pinch zoom in penMode,zsviczian,2022-02-06T10:39:20Z,2022-02-06T15:56:53+00:00,12,5.29,True,2,1,2,17,3,2,5,MERGED
+4723,chore(deps): bump sass from 1.47.0 to 1.49.7,dependabot,2022-02-06T01:24:17Z,2022-02-09T07:22:23+00:00,1,77.97,True,5,5,2,4411,1,0,1,MERGED
+4712,chore(deps-dev): bump css-loader from 6.5.1 to 6.6.0 in /src/packages/excalidraw,dependabot,2022-02-06T01:13:19Z,2022-02-09T07:41:07+00:00,1,78.46,True,19,24,2,2075,1,0,1,MERGED
+4705,fix: Apple Pen missing strokes,dwelle,2022-02-05T11:21:33Z,2022-02-06T19:07:37+00:00,1,31.77,True,4,1,1,46,1,0,1,MERGED
+4703,chore: Add tracking for hyperlinks,ad1992,2022-02-04T15:07:36Z,2022-02-21T12:14:28+00:00,8,405.11,True,68,13,8,0,1,6,7,MERGED
+4700,fix: remove click listener for opening popup,ad1992,2022-02-04T10:21:08Z,2022-02-04T15:06:21+00:00,3,4.75,True,8,9,2,0,1,1,2,MERGED
+4694,feat: add `onLinkOpen` component prop,dwelle,2022-02-03T15:46:08Z,2022-02-08T10:25:35+00:00,6,114.66,True,130,34,11,25,8,1,9,MERGED
+4692,fix: penMode darkmode style,zsviczian,2022-02-02T19:43:54Z,2022-02-02T23:09:59+00:00,1,3.43,True,1,0,1,15,2,0,2,MERGED
+4686,feat: support unbinding bound text,ad1992,2022-02-01T10:48:22Z,2022-02-01T14:41:24+00:00,10,3.88,True,100,4,7,23,5,3,8,MERGED
+4682,fix: reset unmounted state for the component,rulikrulit,2022-01-31T22:45:15Z,2022-02-01T11:02:22+00:00,1,12.29,True,2,0,2,286,4,0,4,MERGED
+4676,fix: keyboard-zooming in wysiwyg should zoom canvas,dwelle,2022-01-30T15:37:36Z,2022-01-31T09:43:03+00:00,2,18.09,True,46,5,3,0,1,1,2,MERGED
+4675,fix: disable contextmenu on non-secondary `pen` events or `touch`,dwelle,2022-01-30T13:46:23Z,2022-02-07T19:01:36+00:00,2,197.25,True,11,1,2,9,6,0,6,MERGED
+4664,chore(deps-dev): bump webpack-cli from 4.9.1 to 4.9.2 in /src/packages/excalidraw,dependabot,2022-01-30T01:17:55Z,2022-02-09T07:37:34+00:00,1,246.33,True,21,29,2,2350,1,0,1,MERGED
+4657,feat: Added penMode for palm rejection,zsviczian,2022-01-28T11:56:20Z,2022-02-02T13:31:38+00:00,5,121.59,True,305,4,13,419,31,2,33,MERGED
+4655,fix: binding text to non-bindable containers and not always preferring selection,dwelle,2022-01-27T13:47:51Z,2022-03-02T16:04:10+00:00,6,818.27,True,336,85,13,454,1,4,5,MERGED
+4651,perf: cache approx line height in textwysiwg,ad1992,2022-01-23T12:25:38Z,2022-01-25T11:31:13+00:00,1,47.09,True,17,7,2,0,1,0,1,MERGED
+4631,fix: Right-click object menu displays partially off-screen (#4572),zsviczian,2022-01-22T14:25:30Z,2022-01-23T16:28:38+00:00,1,26.05,True,15,6,2,104,3,0,3,MERGED
+4630,"fix: sceneCoordsToViewportCoords, jumping text when there is an offset (#4413)",zsviczian,2022-01-22T12:14:58Z,2022-01-29T13:27:03+00:00,4,169.2,True,9,28,2,166,11,1,12,MERGED
+4620,feat: Support hyperlinks 🔥 ,ad1992,2022-01-18T11:19:30Z,2022-02-03T15:04:59+00:00,11,387.76,True,1396,79,32,2374,22,4,26,MERGED
+4610,feat: support background fill for freedraw shapes,h7y,2022-01-16T14:44:24Z,2022-02-09T16:43:22+00:00,1,577.98,True,89,27,4,50,11,0,11,MERGED
+4609,chore(deps): bump follow-redirects from 1.14.6 to 1.14.7 in /src/packages/excalidraw,dependabot,2022-01-16T02:38:49Z,2022-01-16T09:31:04+00:00,1,6.87,True,3,3,1,1590,1,0,1,MERGED
+4593,chore(deps): bump follow-redirects from 1.13.3 to 1.14.7,dependabot,2022-01-15T07:26:52Z,2022-01-16T09:30:25+00:00,1,26.06,True,3,3,1,2010,1,0,1,MERGED
+4590,chore: Update translations from Crowdin,excalibot,2022-01-14T10:59:02Z,2022-02-06T17:08:55+00:00,1,558.16,True,602,250,45,1135,1,0,1,MERGED
+4589,fix: cmd/ctrl native browser behavior blocked in inputs,dwelle,2022-01-13T16:58:11Z,2022-01-13T18:53:22+00:00,1,1.92,True,83,17,6,317,3,3,6,MERGED
+4585,fix: use cached width when calculating min width during resize,ad1992,2022-01-13T08:56:06Z,2022-01-13T16:05:38+00:00,1,7.16,True,12,10,2,0,1,0,1,MERGED
+4573,fix: support collaboration in bound text,ad1992,2022-01-12T09:41:42Z,2022-01-17T12:05:35+00:00,10,122.4,True,57,83,6,48,1,3,4,MERGED
+4553,feat: support decreasing/increasing `fontSize` via keyboard,dwelle,2022-01-08T11:19:56Z,2022-01-12T14:21:36+00:00,2,99.03,True,214,93,10,491,1,1,2,MERGED
+4552,fix: prevent canvas drag while editing text,h7y,2022-01-08T05:48:34Z,2022-01-08T22:50:26+00:00,1,17.03,True,2,1,1,11,2,0,2,MERGED
+4550,fix: support shift+P for freedraw,ad1992,2022-01-07T18:36:34Z,2022-01-08T12:31:22+00:00,1,17.91,True,2,2,2,0,1,0,1,MERGED
+4548,fix: wrong shortcut for Draw tool in help dialog,jeremymouzin,2022-01-07T10:39:57Z,2022-01-07T18:20:42+00:00,1,7.68,True,1,1,1,38,1,0,1,MERGED
+4546,feat: support updating library in updateScene API,ad1992,2022-01-06T14:28:49Z,2022-01-06T16:07:33+00:00,2,1.65,True,32,9,8,108,1,1,2,MERGED
+4545,feat: Sync local storage state across tabs when out of sync,ad1992,2022-01-06T09:59:32Z,2022-01-27T12:21:55+00:00,4,506.37,True,161,37,7,98,6,2,8,MERGED
+4543,fix: don't mutate the bounded text if not updated when submitted,ad1992,2022-01-05T10:48:46Z,2022-01-11T11:06:08+00:00,8,144.29,True,413,153,5,142,4,4,8,MERGED
+4542,fix: show text properties button states correctly for bounded text,ad1992,2022-01-05T09:39:38Z,2022-01-05T12:28:04+00:00,2,2.81,True,45,3,2,13,1,1,2,MERGED
+4541,feat: update stroke color of bounded text along with container,ad1992,2022-01-05T07:28:56Z,2022-01-05T10:57:48+00:00,1,3.48,True,12,7,1,11,1,0,1,MERGED
+4537,fix: undo should work when selecting bounded text,ad1992,2022-01-04T08:43:31Z,2022-01-04T12:32:16+00:00,1,3.81,True,3,5,1,244,1,0,1,MERGED
+4535,fix: rotate bounded text when container is rotated before typing,ad1992,2022-01-04T06:49:15Z,2022-01-04T12:33:25+00:00,1,5.74,True,3,2,1,102,1,0,1,MERGED
+4533,fix: prefer spreadsheet data over image,dwelle,2022-01-03T09:57:07Z,2022-01-07T22:18:05+00:00,1,108.35,True,2,1,1,182,1,0,1,MERGED
+4530,fix: Reduce padding to 5px for bounded text,ad1992,2022-01-02T14:55:17Z,2022-01-03T12:29:26+00:00,2,21.57,True,24,26,3,11,2,0,2,MERGED
+4517,chore(deps): bump @tldraw/vec from 1.2.9 to 1.4.0,dependabot,2021-12-31T01:01:26Z,2021-12-31T12:44:44+00:00,1,11.72,True,5,5,2,1830,1,0,1,MERGED
+4502,feat: hints and shortcuts help around deep selection,dwelle,2021-12-29T14:01:39Z,2021-12-31T10:00:20+00:00,2,43.98,True,37,13,3,0,1,0,1,MERGED
+4499,feat: Support updating text properties of bounded text by selecting the container,ad1992,2021-12-29T06:40:10Z,2021-12-29T11:19:53+00:00,1,4.66,True,99,55,5,0,1,0,1,MERGED
+4495,test: Add specs for wrapText util,ad1992,2021-12-28T08:47:14Z,2021-12-28T11:22:58+00:00,1,2.6,True,149,1,3,0,1,0,1,MERGED
+4493,fix: pending review fixes for sticky notes,ad1992,2021-12-28T05:47:34Z,2021-12-28T10:54:44+00:00,1,5.12,True,3,26,4,26,1,0,1,MERGED
+4488,build: Added example folder for testing @excalidraw/excalidraw in local,ad1992,2021-12-27T09:28:18Z,2021-12-27T12:31:33+00:00,3,3.05,True,3097,13,12,676,1,1,2,MERGED
+4483,chore(deps): bump @types/react from 17.0.37 to 17.0.38,dependabot,2021-12-26T01:23:40Z,2021-12-31T00:49:15+00:00,1,119.43,True,5,5,2,1406,1,0,1,MERGED
+4481,chore(deps-dev): bump @types/pako from 1.0.2 to 1.0.3,dependabot,2021-12-26T01:23:11Z,2021-12-31T00:51:20+00:00,1,119.47,True,5,5,2,1613,1,0,1,MERGED
+4479,chore(deps): bump @tldraw/vec from 1.1.5 to 1.2.9,dependabot,2021-12-26T01:22:34Z,2021-12-31T00:52:36+00:00,1,119.5,True,5,5,2,1813,1,0,1,MERGED
+4478,chore(deps-dev): bump lint-staged from 12.1.2 to 12.1.4,dependabot,2021-12-26T01:22:18Z,2021-12-31T00:45:09+00:00,1,119.38,True,32,33,2,1896,1,0,1,MERGED
+4477,refactor: simplify zoom by removing `zoom.translation`,dwelle,2021-12-24T17:53:13Z,2022-01-29T20:12:45+00:00,1,866.33,True,151,407,16,525,6,0,6,MERGED
+4470,fix: don't select binded text when ungrouping,ad1992,2021-12-23T14:29:13Z,2021-12-23T16:06:29+00:00,1,1.62,True,19,5,1,13,1,0,1,MERGED
+4469,fix: set height correctly when text properties updated while editing in container until first submit,ad1992,2021-12-23T08:37:10Z,2021-12-23T11:32:36+00:00,2,2.92,True,62,31,6,94,3,0,3,MERGED
+4468,fix: align and distribute binded text in container and cleanup,ad1992,2021-12-23T07:15:44Z,2021-12-23T11:32:13+00:00,1,4.27,True,55,72,4,26,2,0,2,MERGED
+4462,fix: support dragging binded text in container selected in a group,ad1992,2021-12-22T11:48:13Z,2021-12-22T13:46:50+00:00,2,1.98,True,13,2,2,11,1,1,2,MERGED
+4460,fix: vertically align single line when deleting text in bounded container,ad1992,2021-12-22T08:14:37Z,2021-12-22T10:02:21+00:00,1,1.8,True,27,7,1,8,1,0,1,MERGED
+4447,fix: align library item previews to center,dwelle,2021-12-20T12:17:25Z,2021-12-21T18:59:36+00:00,1,30.7,True,2,0,1,15,1,0,1,MERGED
+4445,fix: Scope drag and drop events to Excalidraw container to prevent overriding the host drag and drop events,zsviczian,2021-12-20T09:45:58Z,2021-12-22T13:25:34+00:00,7,51.66,True,24,4,2,868,6,4,10,MERGED
+4444,fix: vertically center align the bounded text correctly when zoomed,ad1992,2021-12-20T08:35:42Z,2021-12-21T11:43:12+00:00,3,27.12,True,38,24,1,65,5,1,6,MERGED
+4442,chore(deps): bump typescript from 4.5.2 to 4.5.4,dependabot,2021-12-19T01:25:18Z,2021-12-31T00:45:31+00:00,1,287.34,True,5,5,2,2752,1,0,1,MERGED
+4437,chore(deps-dev): bump @babel/plugin-transform-async-to-generator from 7.16.0 to 7.16.5 in /src/packages/utils,dependabot,2021-12-19T01:11:05Z,2021-12-31T00:47:17+00:00,1,287.6,True,58,30,2,12321,1,0,1,MERGED
+4435,chore(deps-dev): bump @babel/core from 7.16.0 to 7.16.5 in /src/packages/utils,dependabot,2021-12-19T01:10:26Z,2021-12-31T00:45:50+00:00,1,287.59,True,44,36,2,12403,1,0,1,MERGED
+4433,chore(deps-dev): bump @babel/preset-env from 7.16.4 to 7.16.5 in /src/packages/utils,dependabot,2021-12-19T01:09:52Z,2021-12-31T00:55:18+00:00,1,287.76,False,415,306,2,12397,2,0,2,CLOSED
+4431,chore(deps-dev): bump @babel/preset-env from 7.16.4 to 7.16.5 in /src/packages/excalidraw,dependabot,2021-12-19T01:09:12Z,2021-12-31T00:56:39+00:00,1,287.79,False,415,306,2,12397,2,0,2,CLOSED
+4430,chore(deps-dev): bump @babel/preset-typescript from 7.16.0 to 7.16.5 in /src/packages/utils,dependabot,2021-12-19T01:09:10Z,2021-12-31T00:46:36+00:00,1,287.62,True,12,12,2,12400,1,0,1,MERGED
+4426,chore(deps-dev): bump @babel/plugin-transform-arrow-functions from 7.16.0 to 7.16.5 in /src/packages/excalidraw,dependabot,2021-12-19T01:07:37Z,2021-12-31T00:47:43+00:00,1,287.67,True,10,10,2,12321,1,0,1,MERGED
+4423,chore(deps-dev): bump terser-webpack-plugin from 5.2.5 to 5.3.0 in /src/packages/excalidraw,dependabot,2021-12-19T01:06:46Z,2021-12-31T00:46:53+00:00,1,287.67,True,10,10,2,2408,1,0,1,MERGED
+4420,fix: sceneCoordsToViewportCoords and bound text positioning when zoomed,zsviczian,2021-12-17T21:23:46Z,2023-10-09T10:31:40+00:00,3,15853.13,False,6,6,3,138,1,1,2,CLOSED
+4416,fix: update viewport coords correctly when editing text,ad1992,2021-12-17T08:15:15Z,2021-12-17T10:38:18+00:00,1,2.38,True,6,3,2,41,1,0,1,MERGED
+4415,fix: support updating stroke color for text by typing in color picker input,ad1992,2021-12-17T07:12:14Z,2021-12-17T14:45:22+00:00,4,7.55,True,30,6,1,59,4,1,5,MERGED
+4414,fix: bound text not atomic with container when changing z-index,ad1992,2021-12-17T06:20:06Z,2021-12-17T13:10:37+00:00,2,6.84,True,151,6,3,11,3,1,4,MERGED
+4410,fix: use word-break break-word and update text editor height only when binded to container,ad1992,2021-12-16T19:05:22Z,2021-12-17T09:54:23+00:00,1,14.82,True,11,6,1,11,3,0,3,MERGED
+4404,feat: change `boundElementIds` → `boundElements`,dwelle,2021-12-14T13:27:20Z,2021-12-14T15:07:01+00:00,7,1.66,True,589,555,13,0,1,4,5,MERGED
+4395,chore(deps): bump @testing-library/jest-dom from 5.15.1 to 5.16.1,dependabot,2021-12-12T01:20:32Z,2021-12-31T00:50:30+00:00,1,455.5,True,6,6,2,1834,1,0,1,MERGED
+4394,chore(deps-dev): bump @types/chai from 4.2.22 to 4.3.0,dependabot,2021-12-12T01:20:17Z,2021-12-31T00:48:59+00:00,1,455.48,True,5,5,2,1402,1,0,1,MERGED
+4387,feat: redesign toolbar & tweaks,dwelle,2021-12-11T19:02:31Z,2021-12-15T14:31:44+00:00,2,91.49,True,233,60,16,315,2,0,2,MERGED
+4386,chore: bump roughjs version,pshihn,2021-12-10T23:12:22Z,2021-12-11T21:46:44+00:00,1,22.57,True,8,8,3,95,2,0,2,MERGED
+4381,fix: make firebase config parsing not fail on undefined env,dwelle,2021-12-08T12:45:59Z,2021-12-09T12:24:41+00:00,2,23.64,True,9,1,1,9,1,1,2,MERGED
+4380,build: remove file loader and migrate to asset modules webpack for font assets,ad1992,2021-12-08T06:22:22Z,2021-12-08T10:26:25+00:00,1,4.07,True,8,41,5,268,1,0,1,MERGED
+4373,feat: support selecting multiple points when editing line,dwelle,2021-12-06T16:21:00Z,2021-12-13T12:35:07+00:00,1,164.24,True,612,221,12,196,5,0,5,MERGED
+4370,fix: husky not able to execute pre-commit on windows,jai-dewani,2021-12-06T03:58:15Z,2021-12-09T14:15:55+00:00,1,82.29,True,1,0,1,11,1,0,1,MERGED
+4360,chore(deps-dev): bump prettier from 2.5.0 to 2.5.1,dependabot,2021-12-05T01:29:20Z,2021-12-31T00:49:44+00:00,1,623.34,True,5,5,2,3163,1,0,1,MERGED
+4347,feat: support Image binding,zsviczian,2021-12-01T10:30:34Z,2021-12-03T10:42:28+00:00,1,48.2,True,2,0,2,0,2,0,2,MERGED
+4343,feat: bind text to shapes when pressing enter and support sticky notes 🎉 ,ad1992,2021-12-01T06:24:03Z,2021-12-16T15:44:04+00:00,20,369.33,True,1040,187,28,7827,2,14,16,MERGED
+4342,feat: set `appState.exportBackground` to `true` when exporting to `jpg`,dwelle,2021-11-30T16:08:14Z,2021-11-30T21:08:56+00:00,1,5.01,True,21,2,4,0,1,0,1,MERGED
+4341,feat: set package build target to `es2017`,dwelle,2021-11-30T14:03:04Z,2021-12-07T15:38:46+00:00,1,169.59,True,6,5,4,457,2,0,2,MERGED
+4338,chore(deps): Bump browser-fs-access to latest version,tomayac,2021-11-29T12:42:08Z,2021-11-29T21:23:12+00:00,1,8.68,True,5,5,2,0,3,0,3,MERGED
+4334,chore(deps): bump @tldraw/vec from 0.1.3 to 1.1.5,dependabot,2021-11-28T01:16:39Z,2021-12-02T14:08:30+00:00,1,108.86,True,5,5,2,1754,1,0,1,MERGED
+4333,chore(deps): bump @testing-library/jest-dom from 5.15.0 to 5.15.1,dependabot,2021-11-28T01:15:34Z,2021-12-02T14:08:59+00:00,1,108.89,True,5,5,2,1624,1,0,1,MERGED
+4332,chore(deps): bump @types/react from 17.0.35 to 17.0.37,dependabot,2021-11-28T01:15:07Z,2021-12-02T14:09:20+00:00,1,108.9,True,5,5,2,1618,1,0,1,MERGED
+4331,chore(deps-dev): bump prettier from 2.4.1 to 2.5.0,dependabot,2021-11-28T01:14:39Z,2021-12-02T13:11:17+00:00,1,107.94,True,5,5,2,2183,1,0,1,MERGED
+4330,chore(deps): bump sass from 1.43.4 to 1.43.5,dependabot,2021-11-28T01:14:06Z,2021-12-02T13:12:01+00:00,1,107.97,True,5,5,2,2576,1,0,1,MERGED
+4329,chore(deps-dev): bump postcss-loader from 6.2.0 to 6.2.1 in /src/packages/excalidraw,dependabot,2021-11-28T01:08:55Z,2021-12-02T14:10:06+00:00,1,109.02,True,10,10,2,1767,1,0,1,MERGED
+4328,chore(deps-dev): bump webpack from 5.64.3 to 5.64.4 in /src/packages/utils,dependabot,2021-11-28T01:08:44Z,2021-12-02T14:09:54+00:00,1,109.02,True,11,70,2,2290,1,0,1,MERGED
+4327,chore(deps-dev): bump webpack from 5.64.3 to 5.64.4 in /src/packages/excalidraw,dependabot,2021-11-28T01:08:34Z,2021-12-02T14:09:44+00:00,1,109.02,True,10,10,2,2290,1,0,1,MERGED
+4322,chore: Update translations from Crowdin,excalibot,2021-11-26T10:45:02Z,2022-01-13T19:06:48+00:00,3,1160.36,True,1588,507,47,1132,2,0,2,MERGED
+4321,feat: improve library preview image generation on publish,dwelle,2021-11-25T16:37:29Z,2021-11-26T10:46:14+00:00,2,18.15,True,158,73,8,484,1,2,3,MERGED
+4316,fix: export scale quality regression,dwelle,2021-11-24T21:21:50Z,2021-11-25T13:05:23+00:00,1,15.73,True,179,172,5,565,1,0,1,MERGED
+4315,chore(deps-dev): bump webpack from 5.64.0 to 5.64.3 in /src/packages/utils,dependabot,2021-11-24T15:24:39Z,2021-11-24T16:52:37+00:00,1,1.47,True,10,10,2,2631,1,0,1,MERGED
+4314,chore(deps-dev): bump webpack from 5.64.0 to 5.64.3 in /src/packages/excalidraw,dependabot,2021-11-24T15:24:37Z,2021-11-24T16:52:52+00:00,1,1.47,True,12,28,2,2631,1,0,1,MERGED
+4312,chore(deps-dev): bump lint-staged from 12.0.1 to 12.1.2,dependabot,2021-11-24T13:47:33Z,2021-11-24T15:21:06+00:00,1,1.56,True,39,39,2,2691,1,0,1,MERGED
+4311,fix: inline ENV variables when building excalidraw package,dwelle,2021-11-24T13:06:32Z,2021-11-24T15:25:20+00:00,1,2.31,True,51,1,9,109,1,0,1,MERGED
+4306,feat: support selecting multiple library items via `shift`,dwelle,2021-11-23T21:48:58Z,2021-11-26T11:46:23+00:00,2,61.96,True,117,67,15,173,1,1,2,MERGED
+4297,chore(deps): bump @types/react from 17.0.34 to 17.0.35,dependabot,2021-11-21T01:30:33Z,2021-11-24T13:39:32+00:00,1,84.15,True,5,5,2,1406,1,0,1,MERGED
+4295,chore(deps): bump @types/jest from 27.0.2 to 27.0.3,dependabot,2021-11-21T01:30:05Z,2021-11-24T13:40:49+00:00,1,84.18,True,5,5,2,1403,1,0,1,MERGED
+4293,chore(deps-dev): bump firebase-tools from 9.22.0 to 9.23.0,dependabot,2021-11-21T01:29:29Z,2021-11-24T13:39:17+00:00,1,84.16,True,19,14,2,2259,1,0,1,MERGED
+4292,chore(deps-dev): bump @babel/plugin-transform-runtime from 7.16.0 to 7.16.4 in /src/packages/utils,dependabot,2021-11-21T01:24:11Z,2021-11-24T16:54:33+00:00,1,87.51,True,44,6,1,5356,1,0,1,MERGED
+4291,chore(deps-dev): bump @babel/preset-env from 7.16.0 to 7.16.4 in /src/packages/utils,dependabot,2021-11-21T01:23:57Z,2021-11-24T16:55:14+00:00,1,87.52,True,110,42,2,5394,1,0,1,MERGED
+4289,chore(deps-dev): bump mini-css-extract-plugin from 2.4.4 to 2.4.5 in /src/packages/excalidraw,dependabot,2021-11-21T01:22:04Z,2021-11-24T15:22:34+00:00,1,86.01,True,56,7,2,1753,1,0,1,MERGED

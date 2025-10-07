@@ -1,7 +1,16 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+139658,PEP 765: What's New warnings filter suggestions,ncoghlan,2025-10-06T13:38:56Z,2025-10-06T19:41:08+00:00,4,6.04,True,13,0,1,334,2,4,6,MERGED
+139655,[3.14] gh-116488: Mention `dict.get` in the data structures tutorial (GH-139643),miss-islington,2025-10-06T13:05:08Z,2025-10-06T16:04:44+00:00,1,2.99,True,12,2,1,191,0,0,0,MERGED
+139654,gh-133210: Fix `test_pydoc` without docstrings,efimov-mikhail,2025-10-06T12:42:49Z,2025-10-06T14:51:10+00:00,1,2.14,True,3,3,1,16,8,0,8,MERGED
+139651,gh-133210: Fix `test_inspect` without docstrings,sobolevn,2025-10-06T11:12:06Z,2025-10-06T16:48:51+00:00,2,5.61,True,8,2,1,16,6,0,6,MERGED
+139643,gh-116488: Mention dict.get usage in data structures tutorial,Cycloctane,2025-10-06T08:40:14Z,2025-10-06T13:05:00+00:00,2,4.41,True,12,2,1,103,3,1,4,MERGED
+139638,[3.13] gh-137242: Allow Android testbed to take all Python command-line options (GH-138805),miss-islington,2025-10-06T05:20:15Z,2025-10-06T06:25:59+00:00,1,1.1,True,153,130,7,230,0,0,0,MERGED
+139637,[3.14] gh-137242: Allow Android testbed to take all Python command-line options (GH-138805),miss-islington,2025-10-06T05:20:08Z,2025-10-06T12:15:06+00:00,1,6.92,True,153,130,7,230,1,0,1,MERGED
+139625,gh-139624: Skip problematic locales on AIX in test_date_locale2,furkanonder,2025-10-05T19:16:13Z,2025-10-06T09:38:01+00:00,1,14.36,True,1,1,1,16,3,0,3,MERGED
 139619,gh-105812: Use the ``:deco:`` role in place of manual decorator markup,AA-Turner,2025-10-05T18:23:32Z,2025-10-05T20:15:36+00:00,1,1.87,True,38,39,13,103,5,0,5,MERGED
 139618,GH-123299: Copyedit 3.14 What's New: Trivia,AA-Turner,2025-10-05T17:46:44Z,2025-10-05T19:45:59+00:00,1,1.99,True,34,22,1,172,2,1,3,MERGED
 139615,[3.14] GH-123299: Copyedit 3.14 What's New: New Features (GH-139543),miss-islington,2025-10-05T17:05:36Z,2025-10-05T18:38:28+00:00,1,1.55,True,618,624,1,286,0,0,0,MERGED
+139608,[3.13] gh-139400: Make sure that parent parsers outlive their subparsers in `pyexpat` (GH-139403),hartwork,2025-10-05T16:01:21Z,2025-10-06T13:17:37+00:00,1,21.27,True,65,0,3,16,1,0,1,MERGED
 139603,gh-127330: Comment correction in _ssl.c,smontanaro,2025-10-05T13:15:36Z,2025-10-05T18:15:47+00:00,2,5.0,True,1,1,1,310,0,0,0,MERGED
 139601,"Replace ambiguous word ""pound"" by ""hash"" in `difflib` docs",George-Ogden,2025-10-05T12:12:57Z,2025-10-05T17:10:24+00:00,5,4.96,True,1,1,1,242,7,2,9,MERGED
 139599,[3.14] gh-118767: Remove ``bool(NotImplemented)`` from pending-removal document (GH-139526),miss-islington,2025-10-05T11:06:25Z,2025-10-05T13:01:35+00:00,1,1.92,True,0,1,1,193,0,0,0,MERGED
@@ -18,11 +27,11 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 139539,[3.14] gh-105987: unskip `test_issue105987` from `test_asyncio.test_eager_task_factory` (GH-139538),miss-islington,2025-10-03T07:19:16Z,2025-10-03T20:21:29+00:00,1,13.04,True,2,3,1,106,0,0,0,MERGED
 139535,gh-139531: Fix TypeError in inspect.getframeinfo when lineno is None,PrinceNaroliya,2025-10-03T05:12:30Z,2025-10-03T12:59:12+00:00,2,7.78,False,24,4,6,1901,2,6,8,CLOSED
 139530,GH-123299: Copyedit 3.14 What's New: New and Improved Modules,AA-Turner,2025-10-02T23:34:07Z,2025-10-04T12:58:52+00:00,1,37.41,True,274,178,2,143,3,3,6,MERGED
-139526,gh-118767: remove bool(NotImplemented) from pending-removal document,JostMigenda,2025-10-02T22:51:07Z,2025-10-05T11:03:54+00:00,3,60.21,True,0,1,1,268,3,0,3,MERGED
+139526,gh-118767: remove bool(NotImplemented) from pending-removal document,JostMigenda,2025-10-02T22:51:07Z,2025-10-05T11:03:54+00:00,3,60.21,True,0,1,1,268,4,0,4,MERGED
 139524,gh-139525: Don't specialize functions which have a modified vectorcall,DinoV,2025-10-02T21:19:54Z,2025-10-03T16:58:32+00:00,2,19.64,True,37,0,3,276,0,0,0,MERGED
 139522,[3.14] gh-139495: Fix `hashlib.file_digest()` versionchanged description of `BlockingIOError` (GH-139496),miss-islington,2025-10-02T19:50:44Z,2025-10-02T21:11:58+00:00,1,1.35,True,1,1,1,516,0,0,0,MERGED
-139514,gh-70765: avoid waiting for HTTP headers when parsing HTTP/0.9 requests,picnixz,2025-10-02T15:52:27Z,2025-10-05T12:03:25+00:00,4,68.18,True,49,0,3,214,5,2,7,MERGED
-139511,gh-88886: `Python/codecs.c`: Remove unused forward declaration post GH-137167,StanFromIreland,2025-10-02T15:23:20Z,2025-10-03T11:33:49+00:00,1,20.17,True,0,2,1,20,2,0,2,MERGED
+139514,gh-70765: avoid waiting for HTTP headers when parsing HTTP/0.9 requests,picnixz,2025-10-02T15:52:27Z,2025-10-05T12:03:25+00:00,4,68.18,True,49,0,3,214,6,2,8,MERGED
+139511,gh-88886: `Python/codecs.c`: Remove unused forward declaration post GH-137167,StanFromIreland,2025-10-02T15:23:20Z,2025-10-03T11:33:49+00:00,1,20.17,True,0,2,1,20,3,0,3,MERGED
 139508,[3.14] GH-123299: Copyedit 3.14 What's New: Other Language Changes (GH-139425),miss-islington,2025-10-02T14:52:10Z,2025-10-03T20:46:29+00:00,1,29.91,True,180,158,1,212,0,0,0,MERGED
 139505,gh-139504: Catch BrokenPipeError in ssl test_client_sigalgs_mismatch(),vstinner,2025-10-02T14:27:20Z,2025-10-02T16:08:29+00:00,3,1.69,True,8,2,1,16,3,1,4,MERGED
 139502,gh-77476: Remove urllib HTTP test,vstinner,2025-10-02T13:57:33Z,2025-10-02T15:30:08+00:00,1,1.54,True,0,21,1,104,2,0,2,MERGED
@@ -71,7 +80,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 139331,gh-139330: Check expat version/checksum in SBOM with refresh.sh,sethmlarson,2025-09-25T15:32:11Z,2025-09-25T17:13:46+00:00,2,1.69,True,9,6,3,67,1,0,1,MERGED
 139328,gh-139327: fix some reference leaks in `sqlite3` error branches,picnixz,2025-09-25T15:04:01Z,2025-10-01T09:10:13+00:00,1,138.1,True,42,32,2,16,4,0,4,MERGED
 139323,gh-139322: Create test_os package,vstinner,2025-09-25T11:15:07Z,2025-10-01T14:52:01+00:00,2,147.62,False,8668,8194,29,81,8,0,8,CLOSED
-139319,gh-139312: Update bundled libexpat to 2.7.3,StanFromIreland,2025-09-25T06:34:35Z,2025-09-27T02:44:37+00:00,3,44.17,True,58,35,7,16,9,0,9,MERGED
+139319,gh-139312: Update bundled libexpat to 2.7.3,StanFromIreland,2025-09-25T06:34:35Z,2025-09-27T02:44:37+00:00,3,44.17,True,58,35,7,16,11,0,11,MERGED
 139318,gh-115119: Defer `--with-system-libmpdec` removal to 3.16,sobolevn,2025-09-25T06:21:10Z,2025-09-26T11:21:38+00:00,1,29.01,True,2,2,1,227,3,0,3,MERGED
 139317,gh-139316: Docs: Clarify behavior of regular expression pattern caching as it relates to re.compile,sethdandridge,2025-09-25T01:47:21Z,2025-09-26T08:03:33+00:00,1,30.27,False,9,4,1,102,2,0,2,CLOSED
 139307,gh-139275: Fix compilation of Modules/_remote_debugging_module.c when the system doesn't have process_vm_readv,pablogsal,2025-09-24T16:30:54Z,2025-09-24T23:16:45+00:00,1,6.76,True,4,2,3,16,0,1,1,MERGED
@@ -138,6 +147,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 139039,[3.14] gh-128627: Use __builtin_wasm_test_function_pointer_signature for Emscripten trampoline (GH-137470),miss-islington,2025-09-17T14:34:11Z,2025-09-17T16:21:01+00:00,1,1.78,True,129,201,9,305,3,0,3,MERGED
 139032,Add pganssle to CODEOWNERS for zoneinfo,pganssle,2025-09-17T12:12:29Z,2025-09-17T15:17:27+00:00,5,3.08,True,4,0,1,104,1,5,6,MERGED
 139030,[3.13] gh-134466: Don't run when termios is inaccessible (GH-138911),ambv,2025-09-17T11:01:57Z,2025-09-17T16:25:41+00:00,1,5.4,True,61,40,3,236,0,0,0,MERGED
+139026,[3.12] gh-138998: Upgrade vendored expat to 2.7.2 (GH-138999),miss-islington,2025-09-17T10:47:14Z,2025-10-06T14:07:21+00:00,3,459.34,True,770,394,10,133,4,0,4,MERGED
 139025,[3.13] gh-138998: Upgrade vendored expat to 2.7.2 (GH-138999),miss-islington,2025-09-17T10:47:09Z,2025-09-18T11:42:42+00:00,1,24.93,True,766,390,10,133,0,0,0,MERGED
 139024,[3.14] gh-138998: Upgrade vendored expat to 2.7.2 (GH-138999),miss-islington,2025-09-17T10:47:04Z,2025-09-17T12:41:02+00:00,1,1.9,True,764,388,10,133,1,0,1,MERGED
 139022,[3.14] gh-99948: Support ctypes.util.find_library in emscripten environment (GH-138519),miss-islington,2025-09-17T10:18:05Z,2025-09-17T14:24:46+00:00,1,4.11,True,88,0,3,295,1,0,1,MERGED
@@ -149,3 +159,843 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 138995,"[3.14] Revert ""gh-118803: Remove `ByteString` from `typing` and `collections.abc` (GH-118804)"" (GH-138990)",miss-islington,2025-09-16T15:48:26Z,2025-09-17T08:08:15+00:00,2,16.33,True,127,31,13,193,1,0,1,MERGED
 138989,[3.14] gh-137226: Fix get_type_hints() on generic TypedDict with stringified annotations (GH-138953),JelleZijlstra,2025-09-16T14:34:52Z,2025-09-17T09:22:16+00:00,1,18.79,True,39,12,3,941,0,0,0,MERGED
 138988,[3.14] gh-138514: getpass: restrict `echo_char` to a single ASCII character (GH-138591),miss-islington,2025-09-16T14:22:15Z,2025-09-17T14:20:45+00:00,1,23.98,True,57,9,5,529,0,0,0,MERGED
+138987,GH-123299: Copyedit 3.14 What's New: C API,AA-Turner,2025-09-16T14:13:36Z,2025-09-17T10:14:57+00:00,6,20.02,True,169,189,2,244,2,7,9,MERGED
+138981,gh-135755: Make Py_TAIL_CALL_INTERP macro private,vstinner,2025-09-16T13:20:45Z,2025-09-18T12:33:08+00:00,2,47.21,True,315,315,12,71,11,0,11,MERGED
+138977,Fix some typos,aisk,2025-09-16T11:46:24Z,2025-09-16T13:03:39+00:00,1,1.29,True,13,13,4,0,0,0,0,MERGED
+138976,[3.14] Synced docs and docstring  for `sysconfig.get_platform` (GH-135530),miss-islington,2025-09-16T11:17:45Z,2025-10-04T14:55:26+00:00,1,435.63,True,26,18,3,260,0,0,0,MERGED
+138975,[3.13] Synced docs and docstring  for `sysconfig.get_platform` (GH-135530),miss-islington,2025-09-16T11:17:40Z,2025-09-17T13:22:36+00:00,1,26.08,True,26,18,3,260,0,0,0,MERGED
+138971,gh-138970: Add general metadata system to the peg generator,pablogsal,2025-09-16T10:23:54Z,2025-09-18T01:17:04+00:00,3,38.89,True,113,26,5,16,2,5,7,MERGED
+138962,gh-138952:  Document platform.machine() output casing inconsistency across platforms,Aniketsy,2025-09-16T05:20:43Z,2025-09-17T14:56:22+00:00,15,33.59,True,2,0,1,566,8,4,12,MERGED
+138959,gh-138958: remove unused variable in Lib/asyncio/streams.py,yihong0618,2025-09-16T01:08:43Z,2025-09-16T03:18:41+00:00,1,2.17,True,0,1,1,103,0,0,0,MERGED
+138953,gh-137226: Fix get_type_hints() on generic TypedDict with stringified annotations,JelleZijlstra,2025-09-15T20:14:08Z,2025-09-16T14:28:39+00:00,3,18.24,True,39,12,3,902,4,1,5,MERGED
+138940,gh-130567: Fix possible crash in locale.strxfrm(),serhiy-storchaka,2025-09-15T16:40:08Z,2025-09-23T15:11:51+00:00,1,190.53,True,5,1,2,190,4,1,5,MERGED
+138939,[3.14] gh-134953: Make the True/False/None check more efficient (GH-138931),miss-islington,2025-09-15T16:28:11Z,2025-09-29T20:11:41+00:00,2,339.73,True,5,4,1,99,0,0,0,MERGED
+138938,[3.14] gh-128636: Fix crash in PyREPL when os.environ is overwritten with an invalid value for macOS (GH-138089),miss-islington,2025-09-15T16:27:03Z,2025-09-16T09:10:54+00:00,1,16.73,True,33,9,5,217,0,0,0,MERGED
+138931,gh-134953: Make the True/False/None check more efficient,ambv,2025-09-15T15:12:24Z,2025-09-15T16:27:37+00:00,7,1.25,True,5,4,1,16,2,1,3,MERGED
+138930,"gh-129813, PEP 782: Use PyBytesWriter in _winapi.PeekNamedPipe()",vstinner,2025-09-15T15:10:17Z,2025-09-15T20:25:47+00:00,1,5.26,True,12,7,1,126,3,0,3,MERGED
+138929,"gh-129813, PEP 782: Use PyBytesWriter in _ssl",vstinner,2025-09-15T14:51:06Z,2025-09-18T14:54:19+00:00,1,72.05,True,12,10,1,126,5,0,5,MERGED
+138928,[3.14] gh-134953: Expand theming for `True`/`False`/`None` (GH-135000),miss-islington,2025-09-15T14:36:25Z,2025-09-15T16:02:40+00:00,1,1.44,True,6,0,3,178,0,0,0,MERGED
+138923,"gh-129813, PEP 782: Use PyBytesWriter in _sha3",vstinner,2025-09-15T13:26:24Z,2025-09-15T20:53:04+00:00,2,7.44,True,11,5,1,104,4,0,4,MERGED
+138922,"gh-129813, PEP 782: Use PyBytesWriter in _hashopenssl",vstinner,2025-09-15T13:03:47Z,2025-09-15T16:41:44+00:00,3,3.63,True,6,7,1,104,4,2,6,MERGED
+138918,gh-137838: Move _PyUOpInstruction buffer to PyInterpreterState,corona10,2025-09-15T12:15:01Z,2025-09-17T17:50:16+00:00,30,53.59,True,87,31,8,16,19,14,33,MERGED
+138911,gh-134466: Don't run when termios is inaccessible,ambv,2025-09-15T10:58:03Z,2025-09-17T10:59:49+00:00,1,48.03,True,64,41,3,200,6,0,6,MERGED
+138905,gh-138902: Fix generator send arg name,F0RRZZ,2025-09-15T08:49:02Z,2025-09-15T11:05:37+00:00,2,2.28,True,1,1,1,34,5,0,5,MERGED
+138901,"gh-129813, PEP 782: Use PyBytesWriter in _io.FileIO.readall",cmaloney,2025-09-15T02:01:01Z,2025-09-15T20:38:01+00:00,3,18.62,True,11,15,1,693,0,1,1,MERGED
+138900,gh-138899: fix make the same behavior in asyncio repl breakpoint() quit,yihong0618,2025-09-15T01:00:05Z,2025-10-01T05:49:49+00:00,1,388.83,True,4,0,2,103,5,0,5,MERGED
+138887,gh-138886: Remove deprecated `PySys_ResetWarnOptions` C-API function,sobolevn,2025-09-14T10:11:53Z,2025-09-15T09:01:33+00:00,2,22.83,True,15,16,12,1526,2,2,4,MERGED
+138881,gh-138871: Clarify NameError exception in 'del',kianelbo,2025-09-14T06:48:00Z,2025-09-15T06:11:01+00:00,2,23.38,True,2,2,1,144,4,2,6,MERGED
+138880,gh-135953: Prevent overflow in the profiler flamegraph hover boxes,pablogsal,2025-09-14T02:43:39Z,2025-09-14T20:50:18+00:00,1,18.11,True,33,7,2,16,0,0,0,MERGED
+138878,Make sure `:keyword:` role works for `case`,sobolevn,2025-09-13T20:09:11Z,2025-09-21T10:49:50+00:00,1,182.68,True,1,0,1,361,4,0,4,MERGED
+138876,Fix typo in stack_protection.md,bswck,2025-09-13T19:59:18Z,2025-09-15T08:53:13+00:00,1,36.9,True,1,1,1,23,1,0,1,MERGED
+138875,gh-135953: Reduce memory usage of stack collectors,lkollar,2025-09-13T19:45:42Z,2025-09-14T22:47:14+00:00,2,27.03,True,292,174,5,298,3,0,3,MERGED
+138874,"gh-129813, PEP 782: Use PyBytesWriter in utf8_encoder()",vstinner,2025-09-13T18:20:27Z,2025-09-23T09:47:09+00:00,12,231.44,True,98,77,2,141,14,4,18,MERGED
+138873,gh-71810: Fix _PyLong_AsByteArray() undefined behavior,vstinner,2025-09-13T17:31:42Z,2025-09-14T09:25:53+00:00,2,15.9,True,8,2,1,73,5,0,5,MERGED
+138855,gh-138854: Skip test_script_shadowing_stdlib_cwd_failure on AIX,furkanonder,2025-09-12T21:42:01Z,2025-10-06T17:42:26+00:00,1,572.01,True,1,0,1,16,3,0,3,MERGED
+138852,[3.13] gh-71648: Optimize PNG files (GH-138842),StanFromIreland,2025-09-12T20:33:54Z,2025-09-14T15:29:59+00:00,1,42.93,True,0,0,9,167,0,0,0,MERGED
+138846,[3.14] gh-138804: Check type in `shlex.quote` (GH-138809),miss-islington,2025-09-12T18:26:33Z,2025-09-13T18:29:50+00:00,2,24.05,True,9,0,3,108,2,0,2,MERGED
+138842,gh-71648: Optimize PNG files,StanFromIreland,2025-09-12T16:08:23Z,2025-09-12T20:13:05+00:00,2,4.08,True,0,0,10,244,8,0,8,MERGED
+138819,[3.13] gh-138163: skip failures if tests are run with `SCHED_BATCH` on glibc (GH-138576),miss-islington,2025-09-12T09:38:32Z,2025-09-16T08:27:19+00:00,3,94.81,True,5,0,1,126,0,1,1,MERGED
+138818,[3.13] gh-138669: Increase test coverage for difflib (GH-138670),miss-islington,2025-09-12T09:34:08Z,2025-09-14T19:42:05+00:00,1,58.13,True,39,0,1,138,0,0,0,MERGED
+138817,[3.14] gh-138669: Increase test coverage for difflib (GH-138670),miss-islington,2025-09-12T09:34:03Z,2025-09-14T21:20:32+00:00,1,59.77,True,39,0,1,138,0,0,0,MERGED
+138814,gh-138813: Fix mutable default kwargs={} in multiprocessing BaseProcess and DummyProcess to use None,zeff-ir,2025-09-12T07:20:02Z,2025-09-17T21:45:53+00:00,11,134.43,True,21,3,4,375,13,4,17,MERGED
+138810,Remove unused prototype `_PyPegen_set_source_in_metadata`,wiomoc,2025-09-11T23:11:29Z,2025-09-12T00:40:49+00:00,1,1.49,True,0,1,1,0,0,0,0,MERGED
+138809,gh-138804: Check type in `shlex.quote`,wiomoc,2025-09-11T23:03:55Z,2025-09-12T18:26:21+00:00,8,19.37,True,9,0,3,16,2,5,7,MERGED
+138806,Make Android streams respect the unbuffered (`-u`) option,mhsmith,2025-09-11T20:05:48Z,2025-09-18T10:41:21+00:00,1,158.59,True,28,20,2,426,3,0,3,MERGED
+138805,gh-137242: Allow Android testbed to take all Python command-line options,mhsmith,2025-09-11T19:57:43Z,2025-10-06T05:19:48+00:00,17,585.37,True,153,130,7,807,9,5,14,MERGED
+138802,gh-138801: pyrepl tests on Windows aren't executed anymore,chris-eibl,2025-09-11T15:47:39Z,2025-09-12T07:47:43+00:00,5,16.0,True,4,8,1,614,3,1,4,MERGED
+138797,gh-138794: Communicate to PyRefTracer when they are being replaced,pablogsal,2025-09-11T14:56:43Z,2025-09-15T10:12:09+00:00,1,91.26,True,54,9,5,103,0,1,1,MERGED
+138796,[3.11] gh-135374: Adjust test for setuptools' replacement of distutils,encukou,2025-09-11T14:45:49Z,2025-09-24T13:41:25+00:00,3,310.93,True,33,7,2,373,7,2,9,MERGED
+138792,gh-138756: Fix another leak in PyInitConfig_Free(),vstinner,2025-09-11T13:16:48Z,2025-09-12T09:46:02+00:00,1,20.49,True,1,0,1,46,2,0,2,MERGED
+138789,gh-138791: fix crash when visiting a non-consumed timer handler,picnixz,2025-09-11T11:45:44Z,2025-09-22T16:08:12+00:00,3,268.37,False,28,1,2,540,13,2,15,CLOSED
+138784,[3.14] gh-138479: Ensure that `__typing_subst__` returns a tuple (GH-138482),miss-islington,2025-09-11T10:39:17Z,2025-09-12T13:23:03+00:00,2,26.73,True,31,0,3,224,0,0,0,MERGED
+138782,[3.14] gh-71810: Fix corner case (length==0) for int.to_bytes() (GH-138739),miss-islington,2025-09-11T10:31:02Z,2025-09-12T13:22:43+00:00,1,26.86,True,10,3,3,460,0,0,0,MERGED
+138773,gh-138772: Add tests for Turtle.dot signature,JanEricNitschke,2025-09-11T05:36:53Z,2025-09-25T13:46:13+00:00,4,344.16,True,39,4,1,90,6,1,7,MERGED
+138771,gh-138013: Remove load_tests in test_io.test_general,cmaloney,2025-09-10T23:17:27Z,2025-09-16T08:37:28+00:00,1,129.33,True,7,26,1,541,6,0,6,MERGED
+138770,gh-138714: Don't assume next block has instructions when propagating line numbers,DinoV,2025-09-10T22:07:08Z,2025-09-17T16:52:56+00:00,2,162.76,True,30,13,2,210,0,1,1,MERGED
+138767,GH-138355: Remove trash_delete_later and trash_delete_nesting from _gc_runtime_state,sergey-miryanov,2025-09-10T18:51:32Z,2025-09-17T20:25:24+00:00,4,169.56,True,7,8,3,108,7,1,8,MERGED
+138766,gh-138682: Add symmetric difference to Counter,rhettinger,2025-09-10T18:43:36Z,2025-09-26T05:04:49+00:00,3,370.35,True,106,3,5,103,0,5,5,MERGED
+138760,[3.14] GH-138562: Remove ``sort()`` from the common sequence methods in the data model (GH-138563),miss-islington,2025-09-10T15:53:05Z,2025-09-11T09:23:53+00:00,1,17.51,True,8,5,1,212,0,0,0,MERGED
+138759,gh-138756: Fix memory leak in PyInitConfig_Free(),vstinner,2025-09-10T14:42:35Z,2025-09-11T10:46:19+00:00,3,20.06,True,51,9,1,47,3,1,4,MERGED
+138755,[3.11] gh-138744: GitHub Actions: pin to `windows-2022` (GH-138743),hugovk,2025-09-10T14:38:57Z,2025-09-13T20:36:27+00:00,2,77.96,True,6,6,2,55,0,1,1,MERGED
+138749,[3.14] gh-138349: Fix crash when combining module-level annotation and listcomp (#138363),vstinner,2025-09-10T13:21:48Z,2025-09-11T05:43:57+00:00,1,16.37,True,48,6,5,55,0,0,0,MERGED
+138743,gh-138744: GitHub Actions: pin to `windows-2022`,hugovk,2025-09-10T12:07:57Z,2025-09-10T14:28:27+00:00,2,2.34,True,7,7,4,2616,14,0,14,MERGED
+138741,[3.12] GH-136155: Use ``sphinxext-opengraph`` v0.12.0 (GH-137393),hugovk,2025-09-10T11:35:57Z,2025-09-24T11:27:41+00:00,2,335.86,True,13,7,1,286,1,0,1,MERGED
+138739,gh-71810: fix corner case (length==0) for int.to_bytes(),skirpichev,2025-09-10T10:55:33Z,2025-09-11T10:30:54+00:00,9,23.59,True,10,3,3,316,9,6,15,MERGED
+138738,gh-138736: Fix `sqlite3.Connection.blobopen` *row* type and naming,chirizxc,2025-09-10T09:45:50Z,2025-09-17T15:51:14+00:00,7,174.09,True,10,10,3,103,10,1,11,MERGED
+138730,gh-138729: Cover `inspect.formatannotationrelativeto` with tests,sobolevn,2025-09-10T07:38:58Z,2025-09-10T13:06:17+00:00,4,5.46,True,42,1,1,16,5,3,8,MERGED
+138728,gh-138712: Add os.NODEV,serhiy-storchaka,2025-09-10T07:13:31Z,2025-09-15T14:36:32+00:00,3,127.38,True,32,2,4,103,3,2,5,MERGED
+138726,gh-137396: tarfile: Guard against negative offset/length in GNU sparse headers,VbhvGupta,2025-09-10T06:33:49Z,2025-09-16T10:36:55+00:00,1,148.05,False,2,1,2,1130,4,0,4,CLOSED
+138724,gh-138720: Make Buffered closed check match flush,cmaloney,2025-09-10T00:46:39Z,2025-09-18T10:02:29+00:00,4,201.26,True,10,2,3,435,7,1,8,MERGED
+138719,gh-138706: update Unicode to 17.0.0,benjaminp,2025-09-09T21:18:15Z,2025-09-11T16:58:40+00:00,3,43.67,True,20937,20874,11,103,1,2,3,MERGED
+138718,gh-138716: Fix `assert a := b` syntax error message,sobolevn,2025-09-09T21:00:31Z,2025-09-10T13:05:16+00:00,2,16.08,True,262,173,4,40,1,0,1,MERGED
+138715,gh-135953: Add flamegraph reporter to sampling profiler,lkollar,2025-09-09T20:56:15Z,2025-09-09T22:06:45+00:00,1,1.18,True,1446,6,14,103,6,0,6,MERGED
+138710,gh-138709: Implement CPU time profiling in profiling.sample,pablogsal,2025-09-09T17:46:12Z,2025-09-19T18:17:28+00:00,1,240.52,True,971,38,13,16,7,1,8,MERGED
+138698,gh-133143: Use _Py_ID for the other literals in sys,encukou,2025-09-09T10:00:52Z,2025-09-09T12:57:08+00:00,1,2.94,True,19,5,5,203,0,0,0,MERGED
+138694,[3.14] Add impl-detail block for PyLong_FromLong docs (GH-126422),miss-islington,2025-09-09T09:22:49Z,2025-09-11T09:23:37+00:00,1,48.01,True,5,3,1,233,0,0,0,MERGED
+138685,"[3.13] gh-137242: Add a --no-randomize option, and use it in Android CI (GH-138649)",freakboy3742,2025-09-08T22:53:15Z,2025-09-09T08:53:01+00:00,1,10.0,True,40,7,3,263,2,0,2,MERGED
+138684,"[3.14] gh-137242: Add a --no-randomize option, and use it in Android CI (GH-138649)",miss-islington,2025-09-08T22:45:49Z,2025-09-09T08:51:48+00:00,2,10.1,True,40,7,3,360,2,0,2,MERGED
+138683,[3.14] GH-101100: Remove some entries from ``nitpick_ignore`` (GH-138464),miss-islington,2025-09-08T22:10:39Z,2025-09-09T16:12:40+00:00,1,18.03,True,33,34,18,212,0,1,1,MERGED
+138680,[3.14] gh-101100: Resolve reference warnings in reference/ (GH-138418),miss-islington,2025-09-08T19:31:32Z,2025-09-09T16:11:09+00:00,1,20.66,True,13,15,3,212,0,0,0,MERGED
+138678,gh-138679: Opcodes which consume no inputs should indicate they produced the val…,DinoV,2025-09-08T18:57:18Z,2025-09-08T20:53:12+00:00,5,1.93,True,8,1,2,221,0,2,2,MERGED
+138677,gh-138577: Mention limitations of `getpass.getpass(echo_char=...)`,yagggi,2025-09-08T16:46:38Z,2025-09-09T09:41:14+00:00,10,16.91,True,8,0,1,103,5,5,10,MERGED
+138675,gh-76007: Deprecate `__version__` attribute,hugovk,2025-09-08T16:33:01Z,2025-09-29T09:03:23+00:00,11,496.51,True,320,29,34,102,4,18,22,MERGED
+138672,gh-133143: Condense the implementation for ``sys.abi_info``,AA-Turner,2025-09-08T15:59:34Z,2025-09-08T19:21:28+00:00,3,3.37,True,37,32,7,51,0,3,3,MERGED
+138671,gh-138092: Correct the signature of mmap.flush in document,aisk,2025-09-08T15:34:21Z,2025-09-21T10:54:30+00:00,1,307.34,True,2,1,1,103,3,0,3,MERGED
+138670,gh-138669: Increase test coverage for difflib,JanEricNitschke,2025-09-08T15:33:20Z,2025-09-12T09:33:38+00:00,8,90.0,True,39,0,1,1201,5,3,8,MERGED
+138664,gh-138661: fix data race in `PyCode_Addr2Line`,kumaraditya303,2025-09-08T14:17:57Z,2025-09-12T12:34:55+00:00,4,94.28,True,15,3,3,16,6,1,7,MERGED
+138657,[3.14] gh-138644: Update c-api docs of `PyInterpreterState` about PEP-684 (GH-138651),miss-islington,2025-09-08T13:44:52Z,2025-09-11T09:23:25+00:00,1,67.64,True,9,1,1,236,0,0,0,MERGED
+138651,gh-138644: Update c-api docs of `PyInterpreterState` about PEP-684,sobolevn,2025-09-08T11:43:07Z,2025-09-08T13:44:44+00:00,4,2.03,True,9,1,1,415,5,3,8,MERGED
+138649,"gh-137242: Add a --no-randomize option, and use it in Android CI",vstinner,2025-09-08T11:26:09Z,2025-09-08T22:45:42+00:00,2,11.33,True,40,7,3,36,13,0,13,MERGED
+138643,[3.14] Use `test.support.is_wasm32` flag for `is_emscripten` or `is_wasi` for generic checks (GH-136815),miss-islington,2025-09-08T10:27:43Z,2025-09-08T13:20:00+00:00,1,2.87,True,19,15,9,143,1,0,1,MERGED
+138638,[3.14] gh-136264: Fix ``--relative-paths`` for PEP 739's build-details.json (GH-138510),miss-islington,2025-09-08T09:14:13Z,2025-09-09T16:15:40+00:00,6,31.02,True,125,20,2,285,5,2,7,MERGED
+138635,"gh-133879: Copyedit ""What's New in Python 3.15"": consistent periods and double blank lines",picnixz,2025-09-08T08:02:27Z,2025-09-08T19:12:03+00:00,1,11.16,True,8,5,1,347,0,0,0,MERGED
+138628,Re-order Modules/makesetup in CODEOWNERS and add Adam Turner,emmatyping,2025-09-07T18:41:27Z,2025-09-16T02:52:59+00:00,3,200.19,True,1,1,1,122,0,1,1,MERGED
+138626,gh-57911: Fix failing symlink test,wiomoc,2025-09-07T17:16:20Z,2025-09-08T13:42:55+00:00,1,20.44,True,2,2,1,15,1,0,1,MERGED
+138612,[3.14] gh-138584: Increase test coverage for `collections.UserList` (GH-138590),miss-islington,2025-09-07T08:54:09Z,2025-09-07T10:42:19+00:00,1,1.8,True,3,3,1,305,0,0,0,MERGED
+138602,[3.14] gh-90548: Skip NODEV portion of test_makedev when linked to musl (GH-138593),miss-islington,2025-09-06T21:53:04Z,2025-09-07T07:46:12+00:00,1,9.89,True,1,1,1,98,0,0,0,MERGED
+138601,[3.14] gh-90548: Skip ctypes test_null_dlsym when linked to musl (GH-138592),miss-islington,2025-09-06T21:52:56Z,2025-09-07T07:46:21+00:00,1,9.89,True,1,0,1,142,0,0,0,MERGED
+138600,[3.14] gh-90548: Allow Alpine/MUSL to pass test_c_locale_coercion. (GH-134454),miss-islington,2025-09-06T21:52:49Z,2025-09-07T07:46:37+00:00,1,9.9,True,23,10,1,1522,0,0,0,MERGED
+138596,[3.13] gh-138556: Fixed the links in documentation,Spider84pr,2025-09-06T18:44:07Z,2025-09-07T07:53:56+00:00,1,13.16,True,1,1,1,191,1,0,1,MERGED
+138591,gh-138514: getpass: restrict `echo_char` to a single ASCII character,benjaminjohnson01,2025-09-06T17:52:44Z,2025-09-16T14:21:56+00:00,9,236.49,True,57,9,5,101,18,17,35,MERGED
+138590,gh-138584: Fix missing type2test in Lib/tests/list_tests.py ,dbXD320,2025-09-06T17:25:09Z,2025-09-07T08:53:23+00:00,13,15.47,True,3,3,1,546,7,2,9,MERGED
+138588,Add Emma Smith to CODEOWNERS,emmatyping,2025-09-06T17:16:43Z,2025-09-07T08:11:20+00:00,11,14.91,True,13,12,1,54,4,2,6,MERGED
+138582,gh-116946: add `Py_TPFLAGS_IMMUTABLETYPE` to several internal types,picnixz,2025-09-06T13:52:34Z,2025-09-11T07:56:20+00:00,2,114.06,True,60,27,9,861,4,0,4,MERGED
+138578,gh-105487: Fix `__dir__` entries of `GenericAlias`,sobolevn,2025-09-06T10:58:31Z,2025-09-07T21:33:24+00:00,1,34.58,True,44,6,3,2479,8,1,9,MERGED
+138563,GH-138562: Remove ``sort()`` from the common sequence methods in the data model,AA-Turner,2025-09-05T20:56:13Z,2025-09-10T15:52:57+00:00,3,114.95,True,8,5,1,103,3,0,3,MERGED
+138560,[3.14] GH-138465: Improve documentation for common sequence methods (GH-138474),miss-islington,2025-09-05T19:55:15Z,2025-09-06T05:51:48+00:00,1,9.94,True,185,123,20,265,0,0,0,MERGED
+138559,gh-97517: Add documentation links to datetime strftime/strptime docstrings,mehdihassan93,2025-09-05T19:46:34Z,2025-09-15T18:50:46+00:00,5,239.07,True,62,14,3,774,6,1,7,MERGED
+138554,fix comment reference from man 7 signal to man 7 signal-safety,mohammedgqudah,2025-09-05T17:09:54Z,2025-09-06T18:40:16+00:00,1,25.51,True,3,3,3,274,5,0,5,MERGED
+138553,[3.14] gh-138191: Document ``frame.f_generator`` in the data model (GH-138540),miss-islington,2025-09-05T17:07:37Z,2025-09-06T16:59:36+00:00,1,23.87,True,7,0,1,263,0,0,0,MERGED
+138552,gh-83765: indicate the maximum amount of memory on macOS,nilleb,2025-09-05T17:03:22Z,2025-09-06T17:30:56+00:00,8,24.46,False,3,0,1,152,4,1,5,CLOSED
+138550,[3.14] annotationlib: add note on security to docs (GH-138508),miss-islington,2025-09-05T16:22:54Z,2025-09-08T20:15:57+00:00,2,75.88,True,39,0,3,176,0,0,0,MERGED
+138545,gh-137210: Move PYTHON_API_VERSION & PYTHON_ABI_VERSION to patchlevel.h,encukou,2025-09-05T15:29:10Z,2025-09-08T10:02:13+00:00,1,66.55,True,16,54,3,208,1,0,1,MERGED
+138544,Doc: Apply keyword role around finally (in sys module doc),adorilson,2025-09-05T15:24:00Z,2025-09-08T12:02:36+00:00,3,68.64,True,3,2,1,82,1,1,2,MERGED
+138540,gh-138191: Document ``frame.f_generator`` in the data model,dbXD320,2025-09-05T13:18:21Z,2025-09-05T17:07:30+00:00,9,3.82,True,7,0,1,570,3,6,9,MERGED
+138537,gh-138535: Optimize fill_time for typical timestamps,jbosboom,2025-09-05T08:53:38Z,2025-09-09T09:05:54+00:00,10,96.2,True,62,41,3,1066,7,7,14,MERGED
+138533,[3.14] gh-138515: Include email module in Emscripten build (gh-138520),miss-islington,2025-09-05T08:34:24Z,2025-09-05T10:53:39+00:00,1,2.32,True,1,1,2,103,0,0,0,MERGED
+138530,gh-137985: correct description of Formatter's datefmt param in logging doc,mattwang44,2025-09-05T08:08:04Z,2025-09-05T21:07:04+00:00,1,12.98,True,2,3,1,219,3,0,3,MERGED
+138528,[3.13] gh-107194: Improved language of list.index in tutorial (gh-138518),miss-islington,2025-09-05T07:16:16Z,2025-09-08T15:01:01+00:00,2,79.75,True,1,1,1,204,1,0,1,MERGED
+138524,[3.13] gh-138286: Run ``ruff`` on ``Tools/i18n`` (GH-138287),StanFromIreland,2025-09-05T06:50:42Z,2025-09-05T07:55:05+00:00,1,1.07,True,34,19,5,16,0,0,0,MERGED
+138523,[3.14] gh-138516: fix typo in OrderedDict exception msg (GH-138517),miss-islington,2025-09-05T06:48:42Z,2025-09-05T08:02:21+00:00,1,1.23,True,1,1,1,106,0,0,0,MERGED
+138520,gh-138515: Include email module in Emscripten build,ryanking13,2025-09-05T06:00:00Z,2025-09-05T08:34:18+00:00,2,2.57,True,1,1,2,154,10,0,10,MERGED
+138519,gh-99948: Support ctypes.util.find_library in emscripten environment,ryanking13,2025-09-05T05:52:07Z,2025-09-17T10:17:57+00:00,8,292.43,True,88,0,3,501,14,4,18,MERGED
+138518,gh-107194: Improved language of list.index in tutorial,ricsatjr,2025-09-05T05:37:14Z,2025-09-05T07:16:05+00:00,2,1.65,True,1,1,1,298,3,0,3,MERGED
+138517,gh-138516: fix typo in OrderedDict exception msg,asas1asas200,2025-09-05T05:00:45Z,2025-09-05T06:48:05+00:00,3,1.79,True,1,1,1,86,7,0,7,MERGED
+138512,[3.14] docs: add module-level `versionadded` for `annotationlib` (GH-138511),miss-islington,2025-09-04T20:45:34Z,2025-09-05T08:03:05+00:00,1,11.29,True,1,0,1,177,0,0,0,MERGED
+138510,gh-136264: Fix ``--relative-paths`` for PEP 739's build-details.json,AA-Turner,2025-09-04T19:53:22Z,2025-09-08T09:14:05+00:00,6,85.35,True,125,20,2,152,5,4,9,MERGED
+138508,annotationlib: add note on security to docs,JelleZijlstra,2025-09-04T18:52:50Z,2025-09-05T15:26:58+00:00,15,20.57,True,39,0,3,295,2,6,8,MERGED
+138505,[3.14] gh-138192: Fix Context initialization so that all subinterpreters are assigned the MISSING value. (gh-138503),miss-islington,2025-09-04T17:19:42Z,2025-09-05T12:30:04+00:00,2,19.17,True,13,4,3,156,1,0,1,MERGED
+138504,gh-116738: Test resource module on FT Python build,yoney,2025-09-04T16:46:57Z,2025-09-11T13:38:08+00:00,2,164.85,True,41,0,1,410,2,1,3,MERGED
+138500,[3.14] Docs: Fix typo in `os.fwalk()` example (GH-138486),miss-islington,2025-09-04T12:33:59Z,2025-09-11T08:50:32+00:00,1,164.28,True,2,2,1,194,0,0,0,MERGED
+138494,gh-87595: Fix the docs for mmap.size(),ZackerySpytz,2025-09-04T08:52:54Z,2025-09-04T15:52:24+00:00,2,6.99,True,4,4,2,180,1,0,1,MERGED
+138491,[3.13] gh-134163: fix: exec('_testcapi.set_nomemory(0)') hang in new repl 3.13,yihong0618,2025-09-04T01:57:17Z,2025-09-10T16:54:42+00:00,32,158.96,True,38,1,3,1191,38,18,56,MERGED
+138488,GH-123299: Copyedit 3.14 What's New: Build Changes,AA-Turner,2025-09-03T22:42:20Z,2025-09-08T07:09:46+00:00,7,104.46,True,67,24,1,265,2,3,5,MERGED
+138487,gh-138281: Remove unused `topsort` and bump minimal version in `peg_generator`,sobolevn,2025-09-03T22:18:26Z,2025-09-03T23:27:15+00:00,1,1.15,True,2,50,2,454,0,0,0,MERGED
+138486,DOC: Fix typo in `os.fwalk()` example,wjandrea,2025-09-03T22:00:18Z,2025-09-04T12:33:52+00:00,2,14.56,True,2,2,1,465,3,0,3,MERGED
+138482,gh-138479: Ensure that `__typing_subst__` returns a tuple,ZeroIntensity,2025-09-03T21:05:01Z,2025-09-11T10:39:09+00:00,20,181.57,True,31,0,3,235,5,8,13,MERGED
+138480,[3.14] GH-101100: Resolve reference warnings in whatsnew/3.10.rst (GH-138408),miss-islington,2025-09-03T20:48:46Z,2025-09-04T09:56:53+00:00,1,13.14,True,3,4,2,212,0,0,0,MERGED
+138477,[3.14] Fix Windows path in `venv` docs (GH-138476),miss-islington,2025-09-03T20:15:59Z,2025-09-11T08:50:01+00:00,1,180.57,True,1,1,1,165,0,0,0,MERGED
+138475,gh-138013: Move I/O test infrastructre to test_io.utils,cmaloney,2025-09-03T19:54:46Z,2025-09-11T10:45:30+00:00,5,182.85,True,319,308,2,1026,5,2,7,MERGED
+138474,GH-138465: Improve documentation for common sequence methods,AA-Turner,2025-09-03T19:50:43Z,2025-09-05T19:55:02+00:00,11,48.07,True,185,123,20,282,4,7,11,MERGED
+138469,[3.14] gh-138281: Run `ruff` on `Tools/peg_generator` (GH-138282),sobolevn,2025-09-03T18:08:38Z,2025-09-04T11:13:36+00:00,1,17.08,True,251,237,16,54,0,0,0,MERGED
+138461,[3.14] GH-101100: Resolve reference warnings in using/windows.rst (GH-138416),miss-islington,2025-09-03T16:18:29Z,2025-09-04T12:44:14+00:00,1,20.43,True,9,10,2,212,0,0,0,MERGED
+138460,[3.13] GH-101100: Resolve reference warnings in whatsnew/3.5.rst (GH-138412),miss-islington,2025-09-03T15:49:49Z,2025-09-03T20:58:54+00:00,1,5.15,True,52,45,3,286,0,0,0,MERGED
+138458,gh-138431: JIT Optimizer --- Fix round-tripping references for str and tuple,Fidget-Spinner,2025-09-03T15:34:40Z,2025-09-03T18:05:06+00:00,2,2.51,True,34,8,5,232,4,1,5,MERGED
+138457,[3.14] gh-135676: Reword the Operators & Delimiters section(s) (GH-137713),miss-islington,2025-09-03T15:29:22Z,2025-09-11T09:22:56+00:00,1,185.89,True,51,56,1,306,0,0,0,MERGED
+138445,[3.14] Docs: Fix typo in test.support.linked_to_musl function name (GH-138406),miss-islington,2025-09-03T12:52:20Z,2025-09-08T11:52:38+00:00,1,119.0,True,1,1,1,190,4,0,4,MERGED
+138444,[3.13] GH-101100: Resolve reference warnings in whatsnew/3.4.rst (GH-138413),miss-islington,2025-09-03T12:01:29Z,2025-09-03T15:47:23+00:00,1,3.77,True,27,27,3,286,1,0,1,MERGED
+138440,[3.14] gh-138307: Update the Ellipsis documentation (GH-138306),miss-islington,2025-09-03T11:28:16Z,2025-09-11T09:22:37+00:00,1,189.91,True,45,7,5,1719,0,0,0,MERGED
+138433,gh-138432: zoneinfo: improve error message for PathLike relative paths,tungol,2025-09-03T11:09:24Z,2025-09-11T07:08:54+00:00,6,187.99,True,23,1,3,307,10,5,15,MERGED
+138429,gh-132657: Make deepcopy and copy scale with free-threading,eendebakpt,2025-09-03T09:00:33Z,2025-09-04T07:50:24+00:00,4,22.83,True,9,8,2,769,2,2,4,MERGED
+138428,[3.13] gh-116946: fully implement GC protocol for `_curses_panel.panel` (GH-138333),picnixz,2025-09-03T08:53:51Z,2025-09-06T10:17:57+00:00,1,73.4,True,76,13,1,180,0,0,0,MERGED
+138427,[3.14] gh-116946: fully implement GC protocol for `_curses_panel.panel` (GH-138333),picnixz,2025-09-03T08:49:21Z,2025-09-06T18:20:35+00:00,2,81.52,True,73,13,1,180,0,1,1,MERGED
+138421,[3.14] gh-101100: Resolve reference warnings in library/xml.sax.handler.rst (GH-136612),miss-islington,2025-09-03T00:35:29Z,2025-09-03T06:17:45+00:00,1,5.7,True,2,5,2,214,0,0,0,MERGED
+138419,Add class directives for ``xml.dom``,AA-Turner,2025-09-03T00:19:14Z,2025-09-03T20:45:19+00:00,2,20.43,False,55,35,1,108,3,2,5,CLOSED
+138418,gh-101100: Resolve reference warnings in reference/,AA-Turner,2025-09-03T00:18:12Z,2025-09-08T19:31:25+00:00,2,139.22,True,13,15,3,102,4,1,5,MERGED
+138417,GH-101100: Resolve reference warnings in extending/extending.rst,AA-Turner,2025-09-02T23:53:34Z,2025-09-03T13:00:51+00:00,1,13.12,True,2,3,3,103,3,0,3,MERGED
+138416,GH-101100: Resolve reference warnings in using/windows.rst,AA-Turner,2025-09-02T23:50:41Z,2025-09-03T16:18:21+00:00,4,16.46,True,9,10,2,178,4,1,5,MERGED
+138415,GH-101100: Resolve reference warnings in whatsnew/2.7.rst,AA-Turner,2025-09-02T23:40:30Z,2025-09-03T11:33:14+00:00,1,11.88,True,21,15,3,166,3,0,3,MERGED
+138414,GH-101100: Resolve reference warnings in whatsnew/3.3.rst,AA-Turner,2025-09-02T23:30:21Z,2025-09-03T11:20:44+00:00,1,11.84,True,42,42,3,103,3,0,3,MERGED
+138413,GH-101100: Resolve reference warnings in whatsnew/3.4.rst,AA-Turner,2025-09-02T23:13:56Z,2025-09-03T12:01:17+00:00,1,12.79,True,26,26,2,103,3,0,3,MERGED
+138412,GH-101100: Resolve reference warnings in whatsnew/3.5.rst,AA-Turner,2025-09-02T22:54:50Z,2025-09-03T15:38:05+00:00,2,16.72,True,51,44,3,103,5,2,7,MERGED
+138411,GH-101100: Resolve reference warnings in whatsnew/3.6.rst,AA-Turner,2025-09-02T22:25:33Z,2025-09-03T15:22:17+00:00,1,16.95,True,35,31,3,103,3,0,3,MERGED
+138410,GH-101100: Resolve reference warnings in whatsnew/3.7.rst,AA-Turner,2025-09-02T21:55:30Z,2025-09-03T06:20:17+00:00,1,8.41,True,61,46,5,103,4,0,4,MERGED
+138409,GH-101100: Resolve reference warnings in whatsnew/3.8.rst,AA-Turner,2025-09-02T21:30:45Z,2025-09-03T11:24:42+00:00,1,13.9,True,52,46,3,103,3,0,3,MERGED
+138403,gh-138401: Check arg `count>=0` in `os.sendfile`,wiomoc,2025-09-02T20:20:26Z,2025-09-05T09:16:55+00:00,6,60.94,True,32,5,4,16,1,3,4,MERGED
+138400,GH-123299: Copyedit 3.14 What's New: Move and consolidate Porting,AA-Turner,2025-09-02T19:57:44Z,2025-09-03T11:10:12+00:00,1,15.21,True,94,92,1,242,4,0,4,MERGED
+138394,GH-135763: AC: Use ``Py_ssize_t(allow_negative=False)``,AA-Turner,2025-09-02T18:13:10Z,2025-09-02T20:29:05+00:00,4,2.27,True,152,126,18,74,0,1,1,MERGED
+138393,Doc: Track file downloads via plausible,JacobCoffee,2025-09-02T17:18:21Z,2025-09-02T19:02:00+00:00,4,1.73,True,1,1,1,517,7,1,8,MERGED
+138390,[3.14] gh-136599: Add tests for long_hash (GH-138335),miss-islington,2025-09-02T16:42:20Z,2025-09-10T20:54:07+00:00,1,196.2,True,16,0,1,168,0,0,0,MERGED
+138381,"[3.14] gh-138297 Point link in docs for `finally` to try/else, instead of if/else (GH-138298)",miss-islington,2025-09-02T14:56:32Z,2025-09-08T15:09:31+00:00,1,144.22,True,8,6,1,346,0,0,0,MERGED
+138379,GH-138378: Move globals-to-consts pass into main optimizer pass,markshannon,2025-09-02T14:20:23Z,2025-09-18T09:09:59+00:00,3,378.83,True,486,490,12,43,0,4,4,MERGED
+138377,Add random_derangement recipe,rhettinger,2025-09-02T14:05:10Z,2025-09-04T15:50:29+00:00,2,49.76,True,13,1,1,82,0,1,1,MERGED
+138375,gh-138372: Fix SyntaxWarning for erroneous t-string subscription,brianschubert,2025-09-02T13:36:05Z,2025-09-02T17:13:12+00:00,3,3.62,True,12,7,3,456,2,0,2,MERGED
+138370,gh-109975: Escaping an 's' after backquote in 3.13.0a5.rst,yeager,2025-09-02T11:44:56Z,2025-09-03T18:20:42+00:00,3,30.6,False,1,1,1,80,2,2,4,CLOSED
+138369,gh-127647: Fix and enable I/O protocol tests,srittau,2025-09-02T09:00:19Z,2025-09-02T13:45:29+00:00,2,4.75,True,5,4,1,60,3,0,3,MERGED
+138367,[3.14] gh-138253: Fix compatibility of sub-interpreters queues with queue.Queue (GH-138256),miss-islington,2025-09-02T05:59:28Z,2025-09-08T15:37:39+00:00,1,153.64,True,24,5,3,250,0,0,0,MERGED
+138366,gh-138013: Remove `test_io` load_tests namespace manipulation,cmaloney,2025-09-02T04:09:40Z,2025-09-03T09:49:59+00:00,2,29.67,True,67,52,1,1382,5,2,7,MERGED
+138365,gh-138013: Move I/O tests to test_io,cmaloney,2025-09-01T23:12:14Z,2025-09-03T09:37:06+00:00,3,34.41,True,28,21,9,555,2,2,4,MERGED
+138363,gh-138349: Fix crash when combining module-level annotation and listcomp,JelleZijlstra,2025-09-01T20:58:07Z,2025-09-10T13:18:40+00:00,2,208.34,True,48,5,4,392,8,0,8,MERGED
+138362,gh-138361: Add N format unit for non-negative Py_ssize_t,wiomoc,2025-09-01T20:52:28Z,2025-09-03T10:24:16+00:00,1,37.53,False,64,0,5,102,1,0,1,CLOSED
+138356,[3.14] gh-135755: Make Py_MAX_SCRIPT_PATH_SIZE private (GH-138350),miss-islington,2025-09-01T19:01:08Z,2025-09-16T12:49:35+00:00,1,353.81,True,4,4,3,105,0,0,0,MERGED
+138353,[3.14] gh-89905: Correct `-R` option doc (GH-137608),miss-islington,2025-09-01T17:58:39Z,2025-09-08T15:08:12+00:00,2,165.16,True,2,2,1,219,0,0,0,MERGED
+138350,gh-135755: Make Py_MAX_SCRIPT_PATH_SIZE private,vstinner,2025-09-01T17:03:27Z,2025-09-01T19:01:01+00:00,2,1.96,True,4,4,3,16,3,0,3,MERGED
+138348,[3.14] gh-90548: Fix musl version detection with --strip-all (GH-137864),miss-islington,2025-09-01T16:58:52Z,2025-09-07T07:51:07+00:00,1,134.87,True,17,3,3,194,4,0,4,MERGED
+138347,gh-138302: Specialize int ops only if ints are compact,Tapeline,2025-09-01T16:29:10Z,2025-09-01T17:33:16+00:00,2,1.07,True,21,3,3,16,3,1,4,MERGED
+138346,[3.14] gh-54874: Expand unicodedata module documentation (GH-138301),miss-islington,2025-09-01T15:51:19Z,2025-09-16T13:55:59+00:00,2,358.08,True,68,32,1,285,0,4,4,MERGED
+138344,gh-64490: Argument Clinic: Add support for ``**kwds``,AA-Turner,2025-09-01T15:21:15Z,2025-09-18T13:31:43+00:00,7,406.17,True,600,12,9,319,2,12,14,MERGED
+138343,gh-138342: Use a common utility for visiting an object's type,ZeroIntensity,2025-09-01T14:56:47Z,2025-09-01T16:20:33+00:00,9,1.4,True,41,203,24,478,5,8,13,MERGED
+138341,gh-116946: add `Py_TPFLAGS_IMMUTABLETYPE` to `_random.Random`,picnixz,2025-09-01T13:19:58Z,2025-09-03T07:55:53+00:00,13,42.6,True,10,5,2,165,8,3,11,MERGED
+138340,gh-116946: add `Py_TPFLAGS_IMMUTABLETYPE` to `select.[e]poll`,picnixz,2025-09-01T13:13:10Z,2025-09-02T17:53:45+00:00,7,28.68,True,12,7,2,359,1,4,5,MERGED
+138339,gh-116738: Fix test_json_mutating_exact_dict,eendebakpt,2025-09-01T12:45:50Z,2025-09-01T16:14:19+00:00,1,3.47,True,1,1,1,117,0,0,0,MERGED
+138338,"gh-116946: Revert GC protocol for immutable empty heap types (GH-138266, GH-138288, GH-138289)",picnixz,2025-09-01T12:41:05Z,2025-09-01T15:45:12+00:00,1,3.07,True,22,56,3,182,1,0,1,MERGED
+138337,"[3.13] gh-116946: Revert GC protocol for immutable empty heap types (GH-138322, GH-138323, GH-138326)",picnixz,2025-09-01T12:36:45Z,2025-09-01T15:44:47+00:00,1,3.13,True,44,102,3,181,0,0,0,MERGED
+138335,gh-136599: Add tests for long_hash,eendebakpt,2025-09-01T12:27:56Z,2025-09-02T16:42:12+00:00,3,28.24,True,16,0,1,53,4,2,6,MERGED
+138334,gh-116946: fully implement GC protocol for `_functools._lru_list_elem`,picnixz,2025-09-01T10:20:03Z,2025-09-01T21:25:51+00:00,1,11.1,False,36,12,1,135,5,0,5,CLOSED
+138333,gh-116946: fully implement GC protocol for `_curses_panel.panel`,picnixz,2025-09-01T10:11:06Z,2025-09-03T08:17:17+00:00,11,46.1,True,44,14,1,77,7,6,13,MERGED
+138331,"gh-116946: fully implement GC protocol for `_tkinter.Tk{app,tt}Object`",picnixz,2025-09-01T09:43:25Z,2025-09-11T10:59:30+00:00,19,241.27,True,52,13,1,317,12,9,21,MERGED
+138327,[3.14] gh-116946: fully implement GC protocol for `zlib` objects (GH-138290),picnixz,2025-09-01T08:47:27Z,2025-09-12T13:22:34+00:00,2,268.59,True,58,19,1,55,1,1,2,MERGED
+138321,[3.14] gh-116946: fully implement GC protocol for `lzma` objects (GH-138288),miss-islington,2025-09-01T08:23:03Z,2025-09-01T12:31:46+00:00,1,4.15,False,6,4,1,126,1,0,1,CLOSED
+138320,[3.14] gh-116946: fully implement GC protocol for `bz2` objects (GH-138266),miss-islington,2025-09-01T08:22:42Z,2025-09-01T12:22:45+00:00,1,4.0,False,9,8,1,126,0,0,0,CLOSED
+138319,"gh-138318, PyREPL: builtins should not be highlighted when used as attribute names",yihong0618,2025-09-01T08:10:57Z,2025-09-08T13:04:22+00:00,24,172.89,True,30,2,3,286,23,11,34,MERGED
+138315,gh-137988: Fix const description in argparse.add_argument() docs,PrinceNaroliya,2025-09-01T06:11:32Z,2025-09-17T15:15:57+00:00,1,393.07,True,2,2,1,1166,4,0,4,MERGED
+138312,[3.14] gh-138130: Fix return value of libc_ver() on Emscripten (GH-138132),miss-islington,2025-08-31T22:50:57Z,2025-10-05T13:03:49+00:00,1,830.21,True,8,1,2,317,1,0,1,MERGED
+138311,gh-138310: Adds sys.audit event for import_module,lisroach,2025-08-31T22:31:02Z,2025-09-19T13:21:42+00:00,20,446.84,True,98,27,8,486,2,12,14,MERGED
+138309,gh-57911: Sanitize symlink targets in tarfile on win32,wiomoc,2025-08-31T20:59:05Z,2025-09-05T14:19:47+00:00,2,113.34,True,71,42,4,29,9,2,11,MERGED
+138306,gh-138307: Update the Ellipsis documentation,adorilson,2025-08-31T19:34:07Z,2025-09-03T11:27:23+00:00,18,63.89,True,45,7,5,172,6,12,18,MERGED
+138305,gh-137242: Mention Android binary releases in documentation,mhsmith,2025-08-31T18:49:21Z,2025-09-18T13:25:30+00:00,4,426.6,True,9,2,1,274,4,2,6,MERGED
+138304,gh-135953: Add flamegraph reporter to sampling profiler,lkollar,2025-08-31T18:43:32Z,2025-09-09T20:54:44+00:00,16,218.19,False,1446,6,14,109,4,18,22,CLOSED
+138303,"gh-137242: Add a `--no-randomize` option, and use it in Android CI",mhsmith,2025-08-31T18:17:10Z,2025-09-08T12:49:24+00:00,4,186.54,False,42,11,4,1096,1,3,4,CLOSED
+138301,gh-54874: Expand unicodedata module documentation,StanFromIreland,2025-08-31T15:54:29Z,2025-09-01T15:50:32+00:00,4,23.93,True,68,32,1,270,10,2,12,MERGED
+138299,[3.14] gh-138295: Fix a grammar issue in the descriptor HOWTO (GH-138296),miss-islington,2025-08-31T15:50:30Z,2025-09-08T15:00:06+00:00,2,191.16,True,1,1,1,202,0,0,0,MERGED
+138298,"gh-138297 Point link in docs for `finally` to try/else, instead of if/else",JamesParrott,2025-08-31T15:38:43Z,2025-09-02T14:56:24+00:00,2,47.29,True,8,6,1,119,4,1,5,MERGED
+138290,gh-116946: fully implement GC protocol for `zlib` objects,picnixz,2025-08-31T11:51:19Z,2025-09-01T08:24:23+00:00,6,20.55,True,57,19,1,16,5,2,7,MERGED
+138289,gh-116946: fully implement GC protocol for `_hashlib` objects,picnixz,2025-08-31T11:16:31Z,2025-09-01T08:23:01+00:00,3,21.11,True,41,10,1,178,7,0,7,MERGED
+138288,gh-116946: fully implement GC protocol for `lzma` objects,picnixz,2025-08-31T10:15:20Z,2025-09-01T08:22:43+00:00,3,22.12,True,6,4,1,1097,6,1,7,MERGED
+138287,gh-138286: Run `ruff` on `Tools/i18n`,StanFromIreland,2025-08-31T09:18:35Z,2025-08-31T20:29:03+00:00,15,11.17,True,34,20,5,16,9,10,19,MERGED
+138285,gh-138008: Fix segfaults in _ctypes due to invalid argtypes,magnified103,2025-08-31T08:33:46Z,2025-09-10T12:01:20+00:00,4,243.46,True,49,11,3,228,11,5,16,MERGED
+138282,gh-138281: Run `ruff` on `Tools/peg_generator`,sobolevn,2025-08-31T08:05:13Z,2025-09-03T17:45:30+00:00,9,81.67,True,250,236,16,349,8,5,13,MERGED
+138280,gh-138279: Remove unused attr in RuleCollectorVisitor in parser_generator.py,chemelnucfin,2025-08-31T06:44:59Z,2025-08-31T14:23:40+00:00,1,7.64,True,2,3,1,450,1,0,1,MERGED
+138276,gh-138205: Remove the resize method on mmap object on platforms don't support it,aisk,2025-08-31T03:40:06Z,2025-09-06T08:40:04+00:00,4,149.0,True,71,83,5,16,1,10,11,MERGED
+138274,[3.14] gh-133829: Remove some specifics from the ``zipimport`` example (GH-133835),miss-islington,2025-08-31T00:53:07Z,2025-08-31T06:44:56+00:00,2,5.86,True,12,9,1,440,0,0,0,MERGED
+138269,gh-138252: Add support in SSL module for getting and setting TLS signature algorithms,ronf,2025-08-30T17:49:05Z,2025-09-08T08:36:12+00:00,38,206.79,True,497,7,7,103,13,18,31,MERGED
+138268,"gh-69605: Hardcode some stdlib submodules in PyREPL module completion (os.path, collections.abc...)",loic-simon,2025-08-30T17:11:16Z,2025-09-15T16:51:34+00:00,5,383.67,True,80,14,3,805,6,4,10,MERGED
+138266,gh-116946: fully implement GC protocol for `bz2` objects,picnixz,2025-08-30T14:26:40Z,2025-09-01T08:21:40+00:00,10,41.92,True,9,8,1,544,23,7,30,MERGED
+138265,gh-138264: Fix gcc 14 compiler warnings,serhiy-storchaka,2025-08-30T13:52:20Z,2025-09-03T08:26:56+00:00,1,90.58,True,23,23,6,16,3,0,3,MERGED
+138262,"[3.14] gh-138158: Use the `""data""` tarfile extraction filter in `Tools/ssl/multissltests.py` (GH-138147)",miss-islington,2025-08-30T10:27:39Z,2025-08-31T06:53:21+00:00,1,20.43,True,1,1,1,557,0,0,0,MERGED
+138259,[3.14] gh-138257: Fix internal `RuleCollectorVisitor` attribute name (GH-138208),miss-islington,2025-08-30T09:28:57Z,2025-08-31T06:55:00+00:00,1,21.43,True,1,1,1,265,0,0,0,MERGED
+138256,gh-138253: Fix compatibility of sub-interpreters queues with queue.Queue,serhiy-storchaka,2025-08-30T08:25:36Z,2025-09-02T05:59:20+00:00,5,69.56,True,24,5,3,161,3,1,4,MERGED
+138254,gh-61206: Support zstandard compression in the zipimport module,gpshead,2025-08-30T01:01:11Z,2025-09-02T00:14:24+00:00,3,71.22,True,112,25,4,404,1,1,2,MERGED
+138244,[3.14] gh-123858: Improve Doc: SyntaxWarning is emitted during bytecode generation (gh-122844),miss-islington,2025-08-29T13:31:01Z,2025-08-29T21:13:09+00:00,1,7.7,True,6,1,2,230,2,0,2,MERGED
+138242,gh-60462: Fix locale.strxfrm() on Solaris,serhiy-storchaka,2025-08-29T12:42:27Z,2025-09-03T12:49:28+00:00,6,120.12,True,49,1,2,220,12,1,13,MERGED
+138241,"gh-138239: Fix incorrect highlighting of ""type"" in type statements in the REPL.",00ll00,2025-08-29T12:37:16Z,2025-09-15T16:21:41+00:00,6,411.74,True,13,3,3,88,7,4,11,MERGED
+138238,gh-78502: Add a trackfd parameter to mmap.mmap() on Windows,serhiy-storchaka,2025-08-29T09:15:17Z,2025-09-03T08:31:34+00:00,5,119.27,True,92,71,5,189,2,2,4,MERGED
+138229,gh-116738: Make cProfile module thread-safe,yoney,2025-08-28T17:05:49Z,2025-09-06T07:49:14+00:00,8,206.72,True,100,14,4,1031,4,3,7,MERGED
+138228,gh-138230: Remove dead code in code gen - codegen_check_annotation is only calle…,DinoV,2025-08-28T16:56:30Z,2025-09-10T01:17:00+00:00,1,296.34,True,0,21,1,179,0,0,0,MERGED
+138221,gh-73487: Convert ``_decimal`` to use Argument Clinic (part 7),skirpichev,2025-08-28T11:23:14Z,2025-09-18T14:08:27+00:00,12,506.75,True,3137,1011,2,110,3,10,13,MERGED
+138210,gh-138010: Fix `__init_subclass__` forwarding by `warnings.deprecated`,brianschubert,2025-08-27T21:15:21Z,2025-09-05T20:44:50+00:00,1,215.49,True,36,13,3,16,6,0,6,MERGED
+138208,gh-138257: Fix internal `RuleCollectorVisitor` attribute name,chemelnucfin,2025-08-27T20:27:57Z,2025-08-30T09:28:44+00:00,3,61.01,True,1,1,1,239,7,0,7,MERGED
+138198,gh-87595: Fix size method on anonymous mmap object,aisk,2025-08-27T16:29:48Z,2025-09-02T20:30:15+00:00,1,148.01,False,6,0,3,15,2,0,2,CLOSED
+138197,"gh-126524: Revert ""gh-126524: Run `regen-unicodedata` as a part of our CI #126682""",sobolevn,2025-08-27T16:24:58Z,2025-08-28T07:31:44+00:00,2,15.11,True,1,1,1,16,2,0,2,MERGED
+138195,[3.14] Docs: Fix typo in `shutil.make_archive` example (GH-138188),miss-islington,2025-08-27T15:57:48Z,2025-09-11T09:20:28+00:00,1,353.38,True,1,1,1,167,0,0,0,MERGED
+138188,Fix typo in shutil.make_archive example,pelme,2025-08-27T13:08:32Z,2025-08-27T15:57:37+00:00,2,2.82,True,1,1,1,431,3,0,3,MERGED
+138187,"gh-134861: revert ""Add CSV and BSV output formats to asyncio ps""",kumaraditya303,2025-08-27T12:19:08Z,2025-08-28T15:49:15+00:00,2,27.5,True,12,59,3,16,0,0,0,MERGED
+138184,gh-138178: Doc: Clarify that range is an immutable sequence,Aniketsy,2025-08-27T10:30:03Z,2025-08-28T19:00:21+00:00,9,32.51,False,1,1,1,304,10,3,13,CLOSED
+138181,gh-71679: Share the repr implementation between bytes and bytearray,serhiy-storchaka,2025-08-27T10:16:52Z,2025-09-17T08:10:29+00:00,4,501.89,True,30,93,5,88,2,3,5,MERGED
+138177,gh-137838: Fix JIT trace buffer overrun by increasing possible exit stubs,corona10,2025-08-27T08:53:44Z,2025-09-09T00:51:08+00:00,10,303.96,True,19,6,5,16,2,6,8,MERGED
+138176,gh-138171: Migrate iOS testbed location and add Apple build script,freakboy3742,2025-08-27T06:59:18Z,2025-09-19T12:23:39+00:00,25,557.41,True,1708,612,49,4736,40,21,61,MERGED
+138173,gh-137838: Fix JIT trace buffer overrun by pre-reserving exit stub space,corona10,2025-08-27T05:55:04Z,2025-08-27T17:22:38+00:00,5,11.46,False,18,14,4,16,3,1,4,CLOSED
+138172,gh-76646: Fix proxy_bypass_registry trailing semicolon on Windows,PrinceNaroliya,2025-08-27T05:18:32Z,2025-09-12T08:07:43+00:00,1,386.82,False,20,5,3,607,6,2,8,CLOSED
+138167,[3.14] enhance docs for critical sections (GH-137334),miss-islington,2025-08-26T17:13:13Z,2025-08-27T14:40:27+00:00,1,21.45,True,13,5,1,172,0,0,0,MERGED
+138161,gh-138151: Fix `ForwardRef.evaluate()` for locally defined generics,dr-carlos,2025-08-26T11:14:24Z,2025-09-06T00:58:35+00:00,2,253.74,False,36,0,3,143,4,1,5,CLOSED
+138159,[3.14] gh-138148: Fix grammatical error in the `asynchronous generator iterator` term (GH-138155),miss-islington,2025-08-26T11:13:47Z,2025-08-27T13:57:36+00:00,1,26.73,True,1,1,1,222,0,0,0,MERGED
+138156,gh-137481: fix test expectations on some platforms,kulikjak,2025-08-26T09:15:37Z,2025-08-26T11:21:10+00:00,3,2.09,True,6,1,1,529,2,2,4,MERGED
+138155,gh-138148: Fix grammatical error in `asynchronous generator iterator`,XChaitanyaX,2025-08-26T06:31:41Z,2025-08-26T11:13:34+00:00,2,4.7,True,1,1,1,103,3,0,3,MERGED
+138153,gh-138013: Move test.test_io to be a module,cmaloney,2025-08-26T00:49:51Z,2025-08-31T19:14:20+00:00,4,138.41,True,11,1,4,921,5,1,6,MERGED
+138150,gh-135763: Argument Clinic: Implement allow_negative for ssize_t,wiomoc,2025-08-25T23:28:14Z,2025-09-01T21:55:22+00:00,16,166.45,True,200,24,7,16,8,14,22,MERGED
+138149,gh-134716: Support regular expressions in -W and PYTHONWARNINGS,serhiy-storchaka,2025-08-25T19:41:35Z,2025-09-16T17:06:44+00:00,2,525.42,True,83,8,6,103,1,0,1,MERGED
+138147,"gh-138158: Use the `""data""` tarfile extraction filter in `Tools/ssl/multissltests.py`",ParzivalHack,2025-08-25T18:16:39Z,2025-08-30T10:27:32+00:00,11,112.18,True,1,1,1,1176,19,6,25,MERGED
+138142,gh-138122: Implement PEP 799,pablogsal,2025-08-25T15:22:43Z,2025-08-27T16:52:51+00:00,6,49.5,True,497,386,23,16,2,12,14,MERGED
+138141,[3.14] gh-138098: Clarify strong references in `PyDict_Next` docs on the free-threaded build (GH-138106),miss-islington,2025-08-25T14:53:34Z,2025-08-27T13:58:07+00:00,1,47.08,True,9,0,1,197,0,0,0,MERGED
+138133,gh-135329: prevent infinite traceback loop on Ctrl-C  for strace,yihong0618,2025-08-25T08:42:26Z,2025-09-16T10:39:04+00:00,17,529.94,True,171,3,4,240,25,39,64,MERGED
+138132,gh-138130: Fix return value of libc_ver() on Emscripten,hoodmane,2025-08-25T08:42:01Z,2025-08-31T22:50:29+00:00,3,158.14,True,8,1,2,16,14,0,14,MERGED
+138131,gh-138061: Exclude __pycache__ directory  from the computed digest in the jit stencils,alonme,2025-08-25T08:41:45Z,2025-08-30T21:21:26+00:00,5,132.66,True,4,0,2,30,4,1,5,MERGED
+138124,[3.14] gh-138081: Fix/remove incorrect links in `idlelib/HISTORY.txt` (GH-138091),miss-islington,2025-08-25T01:48:46Z,2025-09-11T09:27:24+00:00,1,415.64,True,5,5,1,122,0,0,0,MERGED
+138123,Remove some dead code from `gzip` and `tarfile`,maurycy,2025-08-25T00:16:27Z,2025-08-25T13:23:47+00:00,1,13.12,True,0,3,2,99,1,0,1,MERGED
+138113,[3.14] gh-137740: Clarify `__del__` invocation mechanism in reference counting (GH-137741),miss-islington,2025-08-24T09:45:26Z,2025-08-27T15:26:39+00:00,1,77.69,True,8,1,1,261,0,0,0,MERGED
+138112,[3.13] gh-137740: Clarify `__del__` invocation mechanism in reference counting (GH-137741),miss-islington,2025-08-24T09:45:21Z,2025-08-26T18:13:43+00:00,1,56.47,True,8,1,1,261,0,0,0,MERGED
+138109,[3.14] gh-135261: bring back CI job for testing OpenSSL 1.1.1w (GH-135262),miss-islington,2025-08-24T09:01:44Z,2025-08-26T05:45:08+00:00,1,44.72,True,4,1,1,772,1,0,1,MERGED
+138106,gh-138098: Clarify strong references in PyDict_Next docs for free-threaded build,PrinceNaroliya,2025-08-24T07:29:59Z,2025-08-25T14:53:26+00:00,5,31.39,True,9,0,1,918,8,5,13,MERGED
+138093,gh-138092: Fix mmap.flush argument handling,aisk,2025-08-23T17:08:53Z,2025-09-30T09:08:51+00:00,3,904.0,True,27,4,4,91,4,1,5,MERGED
+138089,gh-128636: Fix crash in PyREPL when os.environ is overwritten with an invalid value for mac,yihong0618,2025-08-23T13:58:22Z,2025-09-15T16:26:23+00:00,29,554.47,True,33,9,5,341,21,17,38,MERGED
+138086,[3.14] gh-136134: smtplib: fix CRAM-MD5 on FIPS-only environments (GH-136623),picnixz,2025-08-23T09:48:29Z,2025-09-04T13:08:00+00:00,1,291.33,True,65,9,3,68,2,0,2,MERGED
+138082,gh-138081: fix some dead links in InternalDocs,yihong0618,2025-08-23T07:34:19Z,2025-09-11T08:54:16+00:00,1,457.33,True,3,3,3,359,2,0,2,MERGED
+138079,gh-138071: Clarify curses.color_pair doc about style vs extraction masks,PrinceNaroliya,2025-08-23T04:38:36Z,2025-08-23T07:52:02+00:00,1,3.22,False,9,4,1,1422,0,0,0,CLOSED
+138077,[3.14] gh-133125: Clarify ZipInfo.date_time attribute documentation (GH-136082),miss-islington,2025-08-22T23:53:09Z,2025-09-11T09:19:35+00:00,1,465.44,True,13,2,1,421,2,0,2,MERGED
+138068,[3.14] gh-91116: Add hyperlink from `sys.settrace` to frame objects (GH-138062),miss-islington,2025-08-22T16:28:44Z,2025-09-08T14:59:24+00:00,1,406.51,True,1,1,1,221,1,0,1,MERGED
+138062,gh-91116: add hyperlink from settrace to frame,XChaitanyaX,2025-08-22T13:17:41Z,2025-08-22T16:28:33+00:00,1,3.18,True,1,1,1,102,4,0,4,MERGED
+138060,[3.14] gh-138042: Fix homebrew for tail-calling macOS CI (GH-138043),miss-islington,2025-08-22T12:15:47Z,2025-08-22T14:07:39+00:00,1,1.86,True,2,2,1,170,1,0,1,MERGED
+138059,gh-138044: Remove deprecated parameter alias for `importlib.resources.files`,donBarbos,2025-08-22T12:13:31Z,2025-10-04T13:53:43+00:00,1,1033.67,True,8,49,4,103,0,0,0,MERGED
+138054,[3.14] gh-136134: imaplib: fix CRAM-MD5 on FIPS-only environments (GH-136615),picnixz,2025-08-22T10:57:44Z,2025-09-04T14:59:50+00:00,1,316.04,True,49,31,4,142,2,0,2,MERGED
+138048,gh-137996: Fix path to __main__ in forkserver preload logic,emaxx-google,2025-08-22T09:44:27Z,2025-09-07T07:28:07+00:00,3,381.73,False,5,2,2,134,4,1,5,CLOSED
+138043,gh-138042: Fix homebrew for tail-calling macOS,Fidget-Spinner,2025-08-22T07:50:25Z,2025-08-22T12:15:40+00:00,3,4.42,True,2,2,1,16,2,1,3,MERGED
+138040,gh-123299: Fix typos and copyedit What's New in 3.14,hugovk,2025-08-22T06:26:49Z,2025-08-22T07:33:29+00:00,1,1.11,True,14,14,1,103,2,0,2,MERGED
+138039,[3.13] gh-137973: Add a non-parallel test plan to the iOS testbed project (GH-138018),miss-islington,2025-08-22T05:12:03Z,2025-08-22T06:30:58+00:00,1,1.32,True,271,346,11,504,2,0,2,MERGED
+138038,[3.14] gh-137973: Add a non-parallel test plan to the iOS testbed project (GH-138018),miss-islington,2025-08-22T05:11:58Z,2025-08-25T12:00:36+00:00,1,78.81,True,271,346,11,504,4,0,4,MERGED
+138037,gh-138019: better help messge for json.tool same as ast,yihong0618,2025-08-22T02:20:20Z,2025-08-22T08:44:25+00:00,3,6.4,True,2,1,1,159,7,1,8,MERGED
+138034,[3.14] GH-132775: Fix argument parsing for ``_interpqueues.put()`` (GH-137686),miss-islington,2025-08-21T22:01:11Z,2025-08-27T13:53:40+00:00,1,135.87,True,1,1,1,125,0,0,0,MERGED
+138032,[3.13] gh-132744: Check recursion limit in _PY_FRAME_GENERAL (GH-132746),skv0zsneg,2025-08-21T19:51:33Z,2025-08-22T12:25:24+00:00,1,16.56,True,164,122,9,16,2,0,2,MERGED
+138027,gh-137384: fix warnings finalization order ,kumaraditya303,2025-08-21T16:57:48Z,2025-08-22T13:40:43+00:00,3,20.72,True,18,1,3,16,4,2,6,MERGED
+138018,gh-137973: Add a non-parallel test plan to the iOS testbed project,freakboy3742,2025-08-21T06:31:08Z,2025-08-22T05:11:50+00:00,1,22.68,True,271,346,11,2390,9,0,9,MERGED
+138017,gh-138004: Encode thread names on Solaris-based platforms as ASCII and fix main/worker threading test,jadonduff,2025-08-21T06:16:01Z,2025-09-02T15:26:26+00:00,38,297.17,True,19,6,4,3076,24,35,59,MERGED
+138015,gh-73487: Convert _decimal to use Argument Clinic (part 6),skirpichev,2025-08-21T04:41:10Z,2025-08-28T10:36:00+00:00,2,173.91,True,659,237,6,15,1,1,2,MERGED
+138014,gh-138011: Clarify tutorial method object example code,terryjreedy,2025-08-21T03:58:18Z,2025-08-21T15:02:29+00:00,3,11.07,True,1,1,1,157,4,2,6,MERGED
+138012,gh-137976: fix available_timezones to prevent reporting an invalid IANA zone name: `localtime`,ntindle,2025-08-21T01:46:30Z,2025-09-18T16:32:14+00:00,1,686.76,True,21,1,4,554,2,0,2,MERGED
+138006,gh-138005: Document that CSV `skipinitialspace=True` and `delimiter=' '` require quotation for empty fields,maurycy,2025-08-20T19:04:20Z,2025-09-11T15:11:34+00:00,3,524.12,True,3,2,1,1696,4,0,4,MERGED
+138002,[3.11] gh-137638: Remove macos-13 from GitHub Actions,zware,2025-08-20T17:14:42Z,2025-09-13T20:36:11+00:00,2,579.36,True,0,1,1,87,2,0,2,MERGED
+138001,[3.12] gh-137638: Remove macos-13 from GitHub Actions,zware,2025-08-20T17:12:31Z,2025-10-02T20:29:58+00:00,2,1035.29,False,0,5,1,87,2,0,2,CLOSED
+138000,[3.13] gh-137638: Remove macos-13 from GitHub Actions,zware,2025-08-20T17:10:39Z,2025-10-02T14:23:21+00:00,2,1029.21,False,0,10,2,87,3,0,3,CLOSED
+137999,[3.14] gh-137728 gh-137762: Fix bugs in the JIT with many local variables (GH-137764),miss-islington,2025-08-20T14:54:02Z,2025-08-21T14:00:05+00:00,2,23.1,True,9,4,3,96,2,0,2,MERGED
+137998,[3.13] gh-135734: correctly handle `--enable-optimizations --disable-test-modules` combination ,picnixz,2025-08-20T14:51:50Z,2025-08-21T18:28:04+00:00,5,27.6,True,38,7,3,16,0,4,4,MERGED
+137994,gh-137992: Stop the world when calling PyRefTracer_SetTracer,pablogsal,2025-08-20T13:18:29Z,2025-09-15T10:39:41+00:00,19,621.35,True,5,0,2,16,1,9,10,MERGED
+137989,gh-137638: Remove macos-13 from GitHub Actions,hugovk,2025-08-20T12:20:41Z,2025-10-02T20:28:26+00:00,3,1040.13,False,3,26,4,726,6,1,7,CLOSED
+137987,gh-137986: Fix and improve the csv functions docstrings,serhiy-storchaka,2025-08-20T12:02:17Z,2025-08-24T08:13:31+00:00,3,92.19,True,40,52,3,133,7,1,8,MERGED
+137983,[3.14] Fix typo in `logging` docs (GH-137981),miss-islington,2025-08-20T11:07:43Z,2025-09-11T09:19:05+00:00,1,526.19,True,1,1,1,194,0,0,0,MERGED
+137980,gh-137974: add execute_json method for JSON output ,MengAiDev,2025-08-20T10:06:25Z,2025-08-20T13:52:57+00:00,1,3.78,False,334,1,5,237,2,1,3,CLOSED
+137975,gh-128042: `configure` warns when CFLAGS=-O0 and --enable-optimizations,taegyunkim,2025-08-20T01:01:25Z,2025-08-26T23:00:43+00:00,6,165.99,True,16,0,3,16,14,2,16,MERGED
+137971,"[3.14] gh-137964: Remove the ""experimental"" designation from the Windows installer (GH-137965)",miss-islington,2025-08-19T21:31:07Z,2025-08-20T17:19:45+00:00,2,19.81,True,1,1,1,102,0,0,0,MERGED
+137968,gh-137967: Restore suggestions on nested attribute access,pablogsal,2025-08-19T17:52:39Z,2025-08-21T15:56:57+00:00,1,46.07,True,257,1,4,16,1,0,1,MERGED
+137965,"gh-137964: Remove the ""experimental"" designation from the Windows installer",itamaro,2025-08-19T16:15:49Z,2025-08-19T21:31:00+00:00,1,5.25,True,1,1,1,16,6,0,6,MERGED
+137961,GH-137959: Replace shim code in jitted code with a single trampoline function.,markshannon,2025-08-19T15:05:41Z,2025-08-21T09:40:53+00:00,1,42.59,True,166,104,17,16,3,2,5,MERGED
+137957,gh-137956: Guard against non-free-threaded extensions in free-threaded builds,encukou,2025-08-19T13:33:05Z,2025-09-15T11:24:17+00:00,5,645.85,True,58,0,3,16,3,2,5,MERGED
+137955,gh-137944: use `argparse` instead of `getopt` in `timeit`,picnixz,2025-08-19T12:52:46Z,2025-08-20T16:06:47+00:00,8,27.23,False,118,98,3,264,2,5,7,CLOSED
+137954,gh-137044: To weaken the statement regarding the RLIM_INFINITY value,serhiy-storchaka,2025-08-19T12:35:59Z,2025-08-20T12:05:39+00:00,1,23.49,True,4,5,2,103,0,0,0,MERGED
+137950,[3.14] gh-103723: fix grammar in ssl.SSLContect.sslsocket_class docstring (GH-137935),miss-islington,2025-08-19T12:00:47Z,2025-09-11T09:18:43+00:00,1,549.3,True,3,2,1,326,0,0,0,MERGED
+137948,gh-73487: Convert _decimal to use Argument Clinic (part 5),skirpichev,2025-08-19T11:32:47Z,2025-08-21T22:12:17+00:00,7,58.66,True,2046,468,3,15,2,8,10,MERGED
+137945,[3.14] gh-137883: Check the recursion limit for specialized keyword argument calls (GH-137887),ZeroIntensity,2025-08-19T10:10:10Z,2025-08-25T16:19:39+00:00,1,150.16,True,19,1,5,54,0,0,0,MERGED
+137940,gh-137920: Fix semantically relevant typo in `curses.window.attron`,vict-Yang,2025-08-19T07:18:40Z,2025-08-22T08:27:03+00:00,2,73.14,True,5,5,3,103,12,0,12,MERGED
+137937,gh-137900:Reorganize dataclasses frozen parameter documentation,tangyuan0821,2025-08-19T06:56:18Z,2025-08-20T13:08:46+00:00,3,30.21,True,5,3,1,103,3,1,4,MERGED
+137935,gh-103723: Fix grammar in ssl.SSLContect.sslsocket_class docstring,PrinceNaroliya,2025-08-19T05:42:45Z,2025-08-19T12:00:39+00:00,2,6.3,True,3,2,1,915,6,1,7,MERGED
+137933,gh-137840: Implement PEP 728 (closed and extra_items in typing.TypedDict),angela-tarantula,2025-08-19T03:21:09Z,2025-10-03T05:50:19+00:00,14,1082.49,True,165,4,3,473,1,5,6,MERGED
+137931,gh-73487: Convert _decimal to use Argument Clinic (part 4),skirpichev,2025-08-19T02:05:23Z,2025-08-20T21:59:40+00:00,8,43.9,True,488,128,3,15,3,2,5,MERGED
+137927,gh-137884: Added threading.get_native_id on Illumos/Solaris,yuce,2025-08-18T20:58:52Z,2025-08-20T17:10:45+00:00,12,44.2,True,16,3,5,1408,5,7,12,MERGED
+137923,gh-95534: Convert ``ZlibDecompressor.__new__`` to AC,AA-Turner,2025-08-18T19:33:11Z,2025-08-19T08:52:13+00:00,7,13.32,True,118,46,2,15,0,4,4,MERGED
+137919,Update the dbm documentation,serhiy-storchaka,2025-08-18T15:25:03Z,2025-08-19T15:05:24+00:00,4,23.67,True,68,41,2,226,5,0,5,MERGED
+137918,[3.14] gh-44538: Mention nested classes/functions in doctest docs (GH-137870),miss-islington,2025-08-18T14:58:53Z,2025-08-27T14:01:55+00:00,1,215.05,True,7,0,1,197,1,0,1,MERGED
+137912,[3.14] gh-135862: add C contiguous one-dimensional buffer requirement to `asyncio.StreamWriter` docs (GH-137910),miss-islington,2025-08-18T13:06:52Z,2025-08-23T16:27:51+00:00,2,123.35,True,3,0,1,193,0,0,0,MERGED
+137911,gh-77566: Clarify setdefault() behavior for dbm objects,furkanonder,2025-08-18T13:05:26Z,2025-08-18T20:13:55+00:00,1,7.14,False,33,0,1,102,3,2,5,CLOSED
+137908,[3.14] gh-127859: Fixed documentation for call_later and call_at for early wakeup in asyncio (GH-137859),miss-islington,2025-08-18T12:19:45Z,2025-08-19T11:27:36+00:00,2,23.13,True,12,0,1,186,0,0,0,MERGED
+137907,[3.13] gh-127859: Fixed documentation for call_later and call_at for early wakeup in asyncio (GH-137859),miss-islington,2025-08-18T12:19:40Z,2025-08-19T11:27:30+00:00,1,23.13,True,12,0,1,186,0,0,0,MERGED
+137902,[3.14] gh-131885: Use positional-only markers for the ``decimal`` module (GH-131990),miss-islington,2025-08-18T11:49:28Z,2025-09-11T09:18:17+00:00,2,573.48,True,62,62,1,190,0,0,0,MERGED
+137901,[3.14] gh-137847: Add examples for UUIDv6-8 (GH-137848),miss-islington,2025-08-18T11:24:30Z,2025-08-21T18:36:35+00:00,1,79.2,True,10,1,1,286,0,0,0,MERGED
+137896,gh-137894: Fix segmentation fault in deeply nested filter() iterator chains,tangyuan0821,2025-08-18T08:14:39Z,2025-08-18T11:39:02+00:00,7,3.41,False,27,2,3,1822,8,9,17,CLOSED
+137892,[3.14] Emend an error in ``string.templatelib`` example output (GH-137890),miss-islington,2025-08-17T22:12:40Z,2025-08-18T11:07:47+00:00,2,12.92,True,1,1,1,174,0,0,0,MERGED
+137887,gh-137883: Check the recursion limit for specialized keyword argument calls,ZeroIntensity,2025-08-17T17:38:06Z,2025-08-19T08:53:38+00:00,3,39.26,True,19,1,5,86,4,1,5,MERGED
+137885,gh-132947: Apply changes from importlib_metadata 8.7,jaraco,2025-08-17T17:23:08Z,2025-08-18T17:54:10+00:00,1,24.52,True,290,118,12,86,10,0,10,MERGED
+137874,[3.14] gh-131591: fix formatting of remote debugger docs (GH-137225),miss-islington,2025-08-17T10:10:32Z,2025-09-11T09:17:46+00:00,1,599.12,True,11,11,1,213,0,0,0,MERGED
+137872,GH-137841: Open tzdata/zones file with UTF-8 encoding,AA-Turner,2025-08-17T04:44:58Z,2025-08-17T16:13:58+00:00,3,11.48,True,2,1,1,16,2,0,2,MERGED
+137870,gh-44538: Mention nested classes/functions in doctest docs,bswck,2025-08-17T01:36:25Z,2025-08-18T14:58:23+00:00,13,37.37,True,7,0,1,102,6,4,10,MERGED
+137864,gh-90548: Fix musl version detection with --strip-all,cdce8p,2025-08-16T16:24:41Z,2025-09-01T16:58:45+00:00,3,384.57,True,17,3,3,918,8,2,10,MERGED
+137862,gh-137317: fix inspect signature of class with descriptor wrapper,yanyongyu,2025-08-16T15:52:13Z,2025-08-28T14:57:53+00:00,4,287.09,True,287,35,3,233,7,6,13,MERGED
+137859,gh-127859: Fixed documentation for call_later and call_at regarding early wakeup.,bharel,2025-08-16T14:40:52Z,2025-08-18T12:18:54+00:00,11,45.63,True,12,0,1,103,5,2,7,MERGED
+137857,[3.14] gh-137846: Add missing 'be' to profile doc. (GH-137856),miss-islington,2025-08-16T14:29:53Z,2025-08-16T17:24:17+00:00,1,2.91,True,1,1,1,227,0,0,0,MERGED
+137853,[3.14] gh-90483: fix docs of `SubprocessTransport.get_pipe_transport ` (GH-137852),miss-islington,2025-08-16T11:11:53Z,2025-08-29T04:25:55+00:00,1,305.23,True,3,3,1,192,0,0,0,MERGED
+137850,[3.14] gh-101359: clarify docs for `asyncio.Event.clear` (GH-137849),miss-islington,2025-08-16T10:51:06Z,2025-08-29T04:37:39+00:00,1,305.78,True,1,1,1,193,0,0,0,MERGED
+137848,gh-137847: Add examples for UUIDv6-8,LamentXU123,2025-08-16T09:15:55Z,2025-08-18T11:24:19+00:00,5,50.14,True,10,1,1,222,2,4,6,MERGED
+137845,gh-137754: Fix import of zoneinfo if _datetime is not available,serhiy-storchaka,2025-08-16T06:07:58Z,2025-08-23T09:12:13+00:00,2,171.07,True,27,1,3,82,4,0,4,MERGED
+137844,gh-73487: Convert _decimal to use Argument Clinic (part 3),skirpichev,2025-08-16T05:22:32Z,2025-08-19T08:20:06+00:00,3,74.96,True,2333,448,7,15,3,7,10,MERGED
+137830,[3.14] gh-137777: Disband the 'Program Frameworks' chapter (GH-137796),miss-islington,2025-08-15T17:41:16Z,2025-08-16T08:04:59+00:00,1,14.4,True,13,16,5,186,0,0,0,MERGED
+137827,[3.13] gh-87135: Hang non-main threads that attempt to acquire the GIL during finalization (GH-105805),gpshead,2025-08-15T15:34:11Z,2025-08-17T16:08:15+00:00,1,48.57,True,247,28,10,768,2,0,2,MERGED
+137816,gh-131178: Fix `test_unknown_flag` for platform CLI,donBarbos,2025-08-15T11:29:11Z,2025-09-05T11:29:47+00:00,2,504.01,True,3,2,1,109,1,1,2,MERGED
+137815,gh-127146: Emscripten: Add test_sample_profiler skips where needed,hoodmane,2025-08-15T11:28:48Z,2025-08-17T23:57:15+00:00,1,60.47,True,8,1,1,84,5,0,5,MERGED
+137811,"[3.13] Mention the ""context manager"" keyword in concurrent.futures documentation (GH-130976)",miss-islington,2025-08-15T10:00:42Z,2025-08-15T14:11:05+00:00,1,4.17,True,4,4,1,167,0,0,0,MERGED
+137810,"[3.14] Mention the ""context manager"" keyword in concurrent.futures documentation (GH-130976)",miss-islington,2025-08-15T10:00:37Z,2025-09-11T09:17:25+00:00,1,647.28,True,4,4,1,167,0,0,0,MERGED
+137809,gh-137808: use argument clinic for `_thread.lock` and `_thread.RLock`,kumaraditya303,2025-08-15T09:14:49Z,2025-08-15T13:58:10+00:00,15,4.72,True,861,203,6,16,5,3,8,MERGED
+137804,gh-96863: Fix subprocess.Popen.wait to raise ProcessLookupError for external waits,Writtic,2025-08-15T06:27:10Z,2025-08-17T20:03:48+00:00,5,61.61,False,49,7,5,45,3,2,5,CLOSED
+137800,gh-133171: Re-enable JUMP_BACKWARD to free-threading build,corona10,2025-08-15T05:53:14Z,2025-09-24T05:19:18+00:00,3,959.43,True,47,34,7,16,12,2,14,MERGED
+137798,gh-137760: Update REPL constants documentation,Antraxmin,2025-08-15T05:45:03Z,2025-08-15T13:53:15+00:00,7,8.14,True,5,3,1,322,5,4,9,MERGED
+137796,gh-137777: Fix remove Program Frameworks chapter and relocate its modules,rimi0108,2025-08-15T05:18:46Z,2025-08-15T17:41:09+00:00,6,12.37,True,13,16,5,103,10,8,18,MERGED
+137794,GH-123299: Copyedit 3.14 What's New: Removed,AA-Turner,2025-08-15T04:30:56Z,2025-08-15T14:56:13+00:00,4,10.42,True,294,269,1,475,3,2,5,MERGED
+137793,"gh-137786: fix error msg for *args, **kwargs default value",hnnynh,2025-08-15T03:37:57Z,2025-08-15T07:44:06+00:00,4,4.1,False,16,14,4,48,8,3,11,CLOSED
+137789,GH-123299: Copyedit 3.14 What's New: Optimizations,AA-Turner,2025-08-15T00:39:54Z,2025-08-15T11:14:45+00:00,2,10.58,True,106,81,2,188,2,3,5,MERGED
+137784,"[3.9] gh-118350: Fix support of elements ""textarea"" and ""title"" in HTMLParser (GH-135310)",serhiy-storchaka,2025-08-14T21:05:33Z,2025-09-13T20:35:13+00:00,1,719.49,True,113,5,3,55,0,0,0,MERGED
+137783,"[3.10] gh-118350: Fix support of elements ""textarea"" and ""title"" in HTMLParser (GH-135310)",serhiy-storchaka,2025-08-14T21:03:44Z,2025-09-13T20:36:51+00:00,1,719.55,True,113,5,3,55,0,0,0,MERGED
+137782,"[3.11] gh-118350: Fix support of elements ""textarea"" and ""title"" in HTMLParser (GH-135310)",serhiy-storchaka,2025-08-14T21:02:22Z,2025-09-13T20:35:57+00:00,1,719.56,True,113,5,3,55,0,0,0,MERGED
+137781,gh-137780: Python - Windows: Fix Unicode abort in AI gen'd code,zackees,2025-08-14T20:42:15Z,2025-08-14T21:56:16+00:00,1,1.23,False,2,1,2,451,11,0,11,CLOSED
+137778,[3.13] gh-137576: Fix for Basic REPL showing incorrect code in tracebacks with `PYTHONSTARTUP` (GH-137625),adqm,2025-08-14T19:03:35Z,2025-08-15T09:10:39+00:00,1,14.12,True,90,3,4,55,0,0,0,MERGED
+137774,[3.12] gh-135661: Fix CDATA section parsing in HTMLParser (GH-135665),serhiy-storchaka,2025-08-14T18:37:58Z,2025-10-06T14:06:29+00:00,1,1267.48,True,104,8,3,383,7,0,7,MERGED
+137772,[3.14] gh-135661: Fix CDATA section parsing in HTMLParser (GH-135665),miss-islington,2025-08-14T18:13:30Z,2025-09-08T15:31:42+00:00,1,597.3,True,89,26,3,435,1,0,1,MERGED
+137771,[3.14] gh-137576: Fix for Basic REPL showing incorrect code in tracebacks with `PYTHONSTARTUP` (GH-137625),miss-islington,2025-08-14T17:58:18Z,2025-08-27T15:28:20+00:00,1,309.5,True,90,3,4,150,0,0,0,MERGED
+137769,[3.14] gh-123299: Update What's new in Python 3.14: typos and misplaced item. (GH-136665),miss-islington,2025-08-14T16:14:43Z,2025-08-15T09:14:44+00:00,1,17.0,True,4,3,1,278,0,0,0,MERGED
+137766,[3.14] gh-109975: Indicate the minimum version for PyREPL in the tutorial (GH-136046),miss-islington,2025-08-14T15:45:19Z,2025-08-15T10:15:30+00:00,1,18.5,True,1,1,1,220,0,0,0,MERGED
+137764,gh-137728 gh-137762: Fix bugs in the JIT with many local variables,Fidget-Spinner,2025-08-14T14:11:50Z,2025-08-20T14:53:55+00:00,3,144.7,True,9,4,3,351,3,1,4,MERGED
+137763,[3.14] gh-133403: Run `mypy` on `Tools/build/check_warnings.py` (GH-137700),miss-islington,2025-08-14T13:58:10Z,2025-08-27T15:37:56+00:00,1,313.66,True,29,13,3,96,0,0,0,MERGED
+137753,gh-137749: Python 3.14 installer is for macOS 10.15 and later,hugovk,2025-08-14T09:49:40Z,2025-08-14T11:01:45+00:00,1,1.2,True,1,1,1,103,2,0,2,MERGED
+137750,gh-125854: Improve error messages for invalid category in the warnings module,serhiy-storchaka,2025-08-14T07:43:18Z,2025-08-14T11:59:05+00:00,1,4.26,True,31,38,4,152,1,0,1,MERGED
+137748,gh-131178: Use `support.captured_stdout` and `support.captured_stderr`,donBarbos,2025-08-14T05:55:46Z,2025-08-14T17:06:15+00:00,1,11.17,False,7,17,3,257,4,0,4,CLOSED
+137747,[3.14] gh-132339: Add support for OpenSSL 3.5 (GH-137720),zware,2025-08-14T04:26:55Z,2025-08-14T05:58:18+00:00,1,1.52,True,167,11,5,427,0,0,0,MERGED
+137741,gh-137740: Clarify __del__ invocation mechanism in reference counting,robinnarsinghranabhat,2025-08-13T21:25:31Z,2025-08-22T19:19:55+00:00,11,213.91,True,8,1,1,187,5,5,10,MERGED
+137736,Update link to translating in the devguide in `bugs.rst`,StanFromIreland,2025-08-13T19:32:08Z,2025-08-14T16:14:51+00:00,1,20.71,True,2,2,1,203,0,0,0,MERGED
+137735,gh-137433: Fix deadlock with stop-the-world and daemon threads,colesbury,2025-08-13T19:31:28Z,2025-09-16T08:21:58+00:00,2,804.84,True,55,31,6,765,2,0,2,MERGED
+137734,Use the latest dev container image perpetually,brettcannon,2025-08-13T19:13:58Z,2025-08-13T21:05:08+00:00,1,1.85,True,1,1,1,127,6,0,6,MERGED
+137731,GH-137573: mark _PyOptimizer_Optimize as no inline,inventshah,2025-08-13T18:56:45Z,2025-08-14T08:00:01+00:00,3,13.05,True,4,1,2,42,3,2,5,MERGED
+137726,gh-137725: Convert faulthandler to Argument Clinic,vstinner,2025-08-13T18:16:15Z,2025-08-16T13:16:04+00:00,14,67.0,True,956,154,7,16,7,7,14,MERGED
+137724,GH-137573: Add test to check that the margin used for overflow protection is larger than the stack space used by the interpreter,markshannon,2025-08-13T17:57:29Z,2025-09-23T13:47:28+00:00,1,979.83,True,30,0,2,16,8,0,8,MERGED
+137722,[3.14] gh-87281: Improve documentation for locale.setlocale() and locale.getlocale() (GH-137313),miss-islington,2025-08-13T17:49:41Z,2025-09-11T09:16:18+00:00,1,687.44,True,74,10,1,243,0,0,0,MERGED
+137720,gh-132339: Add support for OpenSSL 3.5,zware,2025-08-13T17:11:08Z,2025-08-14T04:18:04+00:00,5,11.12,True,166,10,5,90,12,2,14,MERGED
+137717,gh-137716:  Fix double period in AttributeError message for invalid mock assertions,rohanwinsor,2025-08-13T16:52:10Z,2025-08-14T21:26:03+00:00,3,28.56,True,2,1,2,33,4,1,5,MERGED
+137713,gh-135676: Reword the Operators & Delimiters section(s),encukou,2025-08-13T15:11:13Z,2025-09-03T15:29:15+00:00,5,504.3,True,51,56,1,770,3,7,10,MERGED
+137712,gh-137706: make typing._is_unpacked_typevartuple check for `True` instead of truthy,DavidCEllis,2025-08-13T14:47:39Z,2025-09-06T07:39:49+00:00,3,568.87,True,17,1,3,192,3,1,4,MERGED
+137707,gh-137376: Add note on top-level `global` declarations,encukou,2025-08-13T11:55:13Z,2025-08-21T12:58:38+00:00,1,193.06,True,9,2,1,103,4,1,5,MERGED
+137703,[3.14] gh-137668: Document that ord() supports also bytes and bytearray (GH-137669),miss-islington,2025-08-13T09:12:24Z,2025-09-08T14:59:10+00:00,1,629.78,True,27,9,3,194,0,0,0,MERGED
+137701,[3.14] GH-134291: Support older macOS deployment targets for JIT builds (GH-137211),ned-deily,2025-08-13T06:26:27Z,2025-08-13T10:37:02+00:00,1,4.18,True,7,14,3,333,1,0,1,MERGED
+137700,gh-133403: Run `mypy` on `Tools/build/check_warnings.py`,sobolevn,2025-08-13T06:20:07Z,2025-08-14T13:58:02+00:00,3,31.63,True,29,13,3,16,6,1,7,MERGED
+137698,[3.14] gh-133403: Run `mypy` on `Tools/build/mypy.ini` changes (GH-137692),sobolevn,2025-08-13T05:42:34Z,2025-08-13T11:10:58+00:00,1,5.47,True,1,0,1,54,0,0,0,MERGED
+137697,gh-117056: fix discrepancy in _decimal/_pydecimal public signatures,skirpichev,2025-08-13T04:29:19Z,2025-08-18T12:01:09+00:00,1,127.53,False,159,138,3,16,6,1,7,CLOSED
+137690,GH-137623: Use an AC decorator for docstring line length enforcement,AA-Turner,2025-08-12T21:12:21Z,2025-08-18T17:29:01+00:00,1,140.28,True,569,570,76,340,10,0,10,MERGED
+137688,[3.14] gh-136672: Docs: Move Enum functions and add examples (GH-136791),miss-islington,2025-08-12T19:28:36Z,2025-09-11T09:15:55+00:00,1,709.79,True,36,21,2,543,0,0,0,MERGED
+137686,GH-132775: Fix argument parsing for ``_interpqueues.put()``,AA-Turner,2025-08-12T18:57:44Z,2025-08-21T22:00:59+00:00,6,219.05,True,1,1,1,109,7,1,8,MERGED
+137685,GH-137630: Convert ``_interpqueues`` to use Argument Clinic,AA-Turner,2025-08-12T18:24:22Z,2025-09-17T16:35:00+00:00,15,862.18,True,987,217,6,2828,2,9,11,MERGED
+137684,[3.13] gh-137242: Add Android CI job (GH-137186),hugovk,2025-08-12T17:19:20Z,2025-08-12T22:00:21+00:00,2,4.68,True,134,23,4,55,0,0,0,MERGED
+137683,[3.14] gh-137242: Add Android CI job (GH-137186),hugovk,2025-08-12T17:17:49Z,2025-08-13T09:39:14+00:00,2,16.36,True,134,23,4,55,0,0,0,MERGED
+137680,GH-137630: Argument Clinic: Reduce use of 'as' for renaming in ``_interpretersmodule.c``,AA-Turner,2025-08-12T15:39:18Z,2025-08-12T22:28:38+00:00,2,6.82,True,24,26,2,45,1,1,2,MERGED
+137679,[3.14] gh-133403: Check `generate_stdlib_module_names` and `check_extension_modules` with mypy (GH-137546),miss-islington,2025-08-12T15:11:33Z,2025-08-13T10:42:26+00:00,1,19.51,True,65,42,4,96,0,0,0,MERGED
+137678,"gh-137671 suggest name for ""ModuleNotFoundError""",Locked-chess-official,2025-08-12T14:18:37Z,2025-08-12T21:53:23+00:00,5,7.58,False,202,16,5,16,2,2,4,CLOSED
+137676,GH-137573: Check C stack depth before stack allocating JIT optimizer struct,markshannon,2025-08-12T14:02:48Z,2025-09-18T13:10:52+00:00,2,887.13,False,45,1,4,16,5,2,7,CLOSED
+137674,gh-131146: Fall back to `month_name` if `standalone_month_name`s aren't distinct,encukou,2025-08-12T13:49:21Z,2025-08-13T07:03:05+00:00,2,17.23,True,8,0,1,211,2,1,3,MERGED
+137670,[3.13] Lint: Create a project-wide ``.ruff.toml`` settings file (GH-133124),webknjaz,2025-08-12T12:44:15Z,2025-08-25T11:38:16+00:00,9,310.9,True,59,6,5,120,1,1,2,MERGED
+137669,gh-137668: Document that ord() supports also bytes and bytearray,serhiy-storchaka,2025-08-12T12:01:30Z,2025-08-13T09:12:16+00:00,6,21.18,True,27,9,3,103,4,3,7,MERGED
+137666,"[3.14] gh-135228: When @dataclass(slots=True) replaces a dataclass, make the original class collectible (take 2) (GH-137047)",miss-islington,2025-08-12T11:17:02Z,2025-08-12T14:17:26+00:00,1,3.01,True,117,7,5,613,4,0,4,MERGED
+137663,Add internal doc describing the stack protection mechanism,markshannon,2025-08-12T11:08:03Z,2025-08-13T18:04:25+00:00,4,30.94,True,63,0,2,0,1,8,9,MERGED
+137654,[3.14] GH-137426: Remove code deprecation of `importlib.abc.ResourceLoader` (GH-137567),miss-islington,2025-08-11T23:19:02Z,2025-08-12T12:47:28+00:00,2,13.47,True,12,38,4,479,1,0,1,MERGED
+137652,[3.14] gh-125897: Mark range function parameters as positional only (GH-125945),miss-islington,2025-08-11T23:13:05Z,2025-09-11T09:15:25+00:00,1,730.04,True,2,2,1,203,0,0,0,MERGED
+137651,gh-128042: Update docs to not use CFLAGS=-O0 with --enable-optimizations,taegyunkim,2025-08-11T18:47:22Z,2025-08-20T01:02:55+00:00,1,198.26,False,4,0,1,103,2,0,2,CLOSED
+137648,[3.14] gh-137400: Fix a crash when disabling profiling across all threads (gh-137471),miss-islington,2025-08-11T15:41:56Z,2025-08-12T14:29:57+00:00,2,22.8,True,46,2,3,485,2,0,2,MERGED
+137645,[3.9] gh-130577: tarfile now validates archives to ensure member offsets are non-negative (GH-137027),vstinner,2025-08-11T12:56:48Z,2025-09-13T20:34:15+00:00,1,799.62,True,162,0,3,55,3,0,3,MERGED
+137644,[3.10] gh-130577: tarfile now validates archives to ensure member offsets are non-negative (GH-137027),vstinner,2025-08-11T12:56:23Z,2025-09-02T18:20:27+00:00,2,533.4,True,162,0,3,55,2,0,2,MERGED
+137642,[3.14] Fix documentation of hash in PyHash_FuncDef (GH-137595),miss-islington,2025-08-11T11:18:45Z,2025-09-11T09:15:06+00:00,1,741.94,True,1,1,1,235,0,0,0,MERGED
+137641,[3.13] Update pre-commit hooks (GH-137591),webknjaz,2025-08-11T10:19:51Z,2025-08-12T11:42:55+00:00,7,25.38,True,17,7,3,114,7,2,9,MERGED
+137637,gh-73487: Convert _decimal to use Argument Clinic (part 2),skirpichev,2025-08-11T09:13:56Z,2025-08-18T13:21:00+00:00,20,172.12,True,518,120,7,15,13,14,27,MERGED
+137631,GH-137630: Convert ``_interpreters`` to use Argument Clinic ,AA-Turner,2025-08-11T04:10:02Z,2025-08-12T15:23:13+00:00,9,35.22,True,1533,317,8,5979,2,19,21,MERGED
+137625,gh-137576: Fix for Basic REPL Showing Incorrect Code in Tracebacks with PYTHONSTARTUP,adqm,2025-08-11T01:27:36Z,2025-08-14T17:58:11+00:00,3,88.51,True,90,3,4,1435,10,3,13,MERGED
+137624,GH-137623: Begin enforcing docstring length in Argument Clinic,AA-Turner,2025-08-11T00:28:39Z,2025-08-12T20:17:36+00:00,6,43.82,True,355,12,6,16,0,4,4,MERGED
+137622,GH-92266: Remove embedded tabs from ``c-analyzer/cpython/_parser.py``,AA-Turner,2025-08-10T23:55:00Z,2025-09-17T15:25:04+00:00,5,903.5,True,243,259,1,521,0,3,3,MERGED
+137621,[3.14] Update pre-commit hooks (GH-137591),miss-islington,2025-08-10T22:32:57Z,2025-08-11T08:21:45+00:00,1,9.81,True,19,12,3,153,0,0,0,MERGED
+137613,"[3.13] gh-137583: Only lock the SSL context, not the SSL socket (GH-137588)",ZeroIntensity,2025-08-10T15:01:18Z,2025-08-12T02:05:13+00:00,1,35.07,True,57,17,4,54,4,0,4,MERGED
+137611,gh-137609: Change names of some positional-only parameters in builtins,serhiy-storchaka,2025-08-10T14:05:46Z,2025-08-25T12:36:07+00:00,2,358.51,True,42,42,4,50,0,0,0,MERGED
+137610,gh-137609: Update signatures of builtins in the documentation,serhiy-storchaka,2025-08-10T13:47:37Z,2025-08-25T12:28:27+00:00,20,358.68,True,152,146,2,245,7,42,49,MERGED
+137608,gh-89905: Correct `-R` option doc,StanFromIreland,2025-08-10T11:28:31Z,2025-09-01T17:58:25+00:00,6,534.5,True,2,2,1,227,7,2,9,MERGED
+137606,gh-73487: Convert ``_decimal`` to use Argument Clinic (part 1),skirpichev,2025-08-10T08:09:15Z,2025-08-13T12:41:57+00:00,15,76.55,True,1205,276,8,15,23,9,32,MERGED
+137599,gh-137597: Clarify flattening and bugfix for itertools.tee,Aniketsy,2025-08-09T22:36:00Z,2025-08-13T23:57:12+00:00,8,97.35,False,11,0,1,548,1,3,4,CLOSED
+137596,gh-137560: Speed up ssl.create_default_context() on Windows,serhiy-storchaka,2025-08-09T19:48:12Z,2025-08-10T06:44:43+00:00,1,10.94,False,18,4,2,192,1,0,1,CLOSED
+137595,Fix documentation of hash in PyHash_FuncDef,da-woods,2025-08-09T19:46:00Z,2025-08-11T11:18:37+00:00,3,39.54,True,1,1,1,153,4,0,4,MERGED
+137591,Update pre-commit hooks,mhsmith,2025-08-09T17:25:05Z,2025-08-10T22:32:50+00:00,5,29.13,True,19,12,3,144,12,3,15,MERGED
+137588,"gh-137583: Only lock the SSL context, not the SSL socket",ZeroIntensity,2025-08-09T13:01:39Z,2025-08-10T14:47:11+00:00,7,25.76,True,60,19,4,654,22,2,24,MERGED
+137585,gh-37817: Allow assignment to __bases__ of direct subclasses of builtin classes,serhiy-storchaka,2025-08-09T09:06:18Z,2025-09-15T16:40:28+00:00,1,895.57,True,202,66,3,15,1,1,2,MERGED
+137581,[3.14] gh-137026: Add an explainer guide for asyncio (GH-137215),miss-islington,2025-08-09T05:29:58Z,2025-08-15T10:14:39+00:00,2,148.74,True,617,0,5,6062,0,0,0,MERGED
+137579,gh-128813: cleanup C-API docs for PyComplexObject,skirpichev,2025-08-09T03:58:20Z,2025-08-11T11:51:39+00:00,1,55.89,True,103,113,1,216,0,0,0,MERGED
+137577,GH-132732: Use pure op machinery to optimize various instructions with `_POP_TOP` and `_POP_TWO` ,savannahostrowski,2025-08-09T02:35:14Z,2025-09-15T15:29:45+00:00,10,900.91,True,259,23,5,33,2,13,15,MERGED
+137567,GH-137426: Remove code deprecation of `importlib.abc.ResourceLoader`,brettcannon,2025-08-08T22:03:50Z,2025-08-11T23:18:54+00:00,3,73.25,True,12,38,4,323,3,1,4,MERGED
+137566,gh-92936: update `http.cookies` docs post GH-113663,nburns,2025-08-08T20:29:05Z,2025-08-15T20:47:46+00:00,21,168.31,True,17,1,2,178,4,10,14,MERGED
+137553,"[3.14] Replace ""ordered arguments"" with ""positional arguments"" in `unittest.mock` documentation (GH-137552)",miss-islington,2025-08-08T14:00:30Z,2025-09-11T09:14:45+00:00,1,811.24,True,1,1,1,162,0,0,0,MERGED
+137546,gh-133403: Check `generate_stdlib_module_names` and `check_extension_modules` with mypy,sobolevn,2025-08-08T07:59:43Z,2025-08-12T15:11:25+00:00,2,103.19,True,65,42,4,16,4,1,5,MERGED
+137541,[3.14] [Doc] Remove unnecessary quotes from typing module (GH-137207),miss-islington,2025-08-08T02:05:23Z,2025-08-08T14:31:32+00:00,1,12.44,True,5,5,1,825,1,0,1,MERGED
+137539,[3.14] gh-136155: Docs: check for EPUB fatal errors in CI (GH-134074),miss-islington,2025-08-08T01:51:21Z,2025-08-08T16:05:29+00:00,2,14.24,True,60,1,4,272,0,0,0,MERGED
+137538,[3.13] gh-136155: Docs: check for EPUB fatal errors in CI (GH-134074),miss-islington,2025-08-08T01:51:16Z,2025-08-08T16:05:24+00:00,1,14.24,True,60,1,4,272,0,0,0,MERGED
+137537,"[3.13] gh-130102: drop ""require numeric arguments"" from pow() docs (GH-137456)",miss-islington,2025-08-07T23:43:29Z,2025-08-08T01:25:24+00:00,1,1.7,True,1,1,1,248,0,0,0,MERGED
+137534,[3.14] gh-137412: fix `default_builtin_hashes` values in `test_hashlib.py` (GH-137413),miss-islington,2025-08-07T22:32:04Z,2025-08-08T14:36:21+00:00,1,16.07,True,4,11,1,169,0,0,0,MERGED
+137531,[3.14] gh-137526: Fix broken link to drdobbs journal in difflib.rst (GH-137527),miss-islington,2025-08-07T19:36:12Z,2025-08-27T14:02:26+00:00,1,474.44,True,2,2,1,211,0,0,0,MERGED
+137527,gh-137526: Fix broken link to drdobbs journal in difflib.rst,s3bw,2025-08-07T17:08:38Z,2025-08-07T19:36:05+00:00,1,2.46,True,2,2,1,840,4,0,4,MERGED
+137523,gh-137490: Fix signal.sigwaitinfo() on NetBSD,serhiy-storchaka,2025-08-07T14:21:24Z,2025-09-15T16:20:31+00:00,2,937.99,True,9,1,2,127,3,0,3,MERGED
+137521,[3.13] gh-137463: Update validate_abstract_methods in test_collections.py (GH-137464),guilhermeleobas,2025-08-07T13:58:36Z,2025-08-07T21:29:45+00:00,1,7.52,True,8,10,1,477,2,0,2,MERGED
+137520,[3.13] gh-137440: Update comment in Python/hamt.c on importing for testing (GH-137441),miss-islington,2025-08-07T13:52:17Z,2025-08-07T16:54:52+00:00,1,3.04,True,2,2,1,155,0,0,0,MERGED
+137518,gh-137400: Fix thread-safety issues when profiling all threads,colesbury,2025-08-07T13:49:09Z,2025-08-13T18:15:12+00:00,14,148.43,True,429,239,11,374,6,9,15,MERGED
+137515,gh-137514: Add a free-threading wrapper for mutexes,ZeroIntensity,2025-08-07T12:57:01Z,2025-08-07T15:24:50+00:00,14,2.46,True,44,88,9,145,1,4,5,MERGED
+137513,gh-137512: Add new constants in the resource module,serhiy-storchaka,2025-08-07T12:12:40Z,2025-08-19T06:52:45+00:00,2,282.67,True,111,5,5,176,2,1,3,MERGED
+137511,gh-137044: Make resource.RLIM_INFINITY always positive,serhiy-storchaka,2025-08-07T09:35:09Z,2025-08-18T16:28:56+00:00,3,270.9,True,45,26,5,213,2,1,3,MERGED
+137502,[3.14] gh-137499: Fixed dead link to NIST website (GH-137500),miss-islington,2025-08-07T05:41:47Z,2025-08-09T03:31:29+00:00,1,45.83,True,1,1,1,213,4,0,4,MERGED
+137501,[3.13] gh-137499: Fixed dead link to NIST website (GH-137500),miss-islington,2025-08-07T05:41:43Z,2025-08-09T12:42:25+00:00,1,55.01,True,1,1,1,213,2,0,2,MERGED
+137498,Introduce a structure for .github/CODEOWNERS,AA-Turner,2025-08-07T01:20:46Z,2025-08-26T01:34:07+00:00,17,456.22,True,532,291,1,1364,5,38,43,MERGED
+137494,[3.14] Docs: Small clarity change for ``except*`` (GH-121073),miss-islington,2025-08-06T21:58:31Z,2025-09-11T09:14:33+00:00,1,851.27,True,1,1,1,235,0,0,0,MERGED
+137492,[3.14] Docs: Use the correct example module in warnings.rst (GH-137402),miss-islington,2025-08-06T21:52:07Z,2025-09-11T09:14:21+00:00,1,851.37,True,1,1,1,174,0,0,0,MERGED
+137488,gh-137477: Fix inspect.getblock() for generator expressions,serhiy-storchaka,2025-08-06T20:22:52Z,2025-08-20T13:18:08+00:00,3,328.92,True,38,7,4,85,8,1,9,MERGED
+137486,gh-134861: Add 🍌SV output format to `asyncio ps`,dpdani,2025-08-06T19:28:03Z,2025-08-06T20:42:34+00:00,3,1.24,True,9,1,2,44,4,1,5,MERGED
+137482,gh-137481: consider actual day name length,snoyes,2025-08-06T18:21:26Z,2025-08-20T16:55:51+00:00,8,334.57,True,49,1,3,173,12,1,13,MERGED
+137476,gh-133143: Make information about the interpreter ABI more accessible,zklaus,2025-08-06T16:48:37Z,2025-09-08T14:35:44+00:00,26,789.79,True,137,0,5,439,18,22,40,MERGED
+137471,gh-137400: Fix a crash when disabling profiling across all threads,colesbury,2025-08-06T15:43:46Z,2025-08-11T15:41:45+00:00,1,119.97,True,46,2,3,403,9,0,9,MERGED
+137470,gh-128627: Use __builtin_wasm_test_function_pointer_signature for Emscripten trampoline,hoodmane,2025-08-06T15:35:36Z,2025-09-17T14:33:56+00:00,8,1006.97,True,129,201,9,294,24,3,27,MERGED
+137468,[3.13] gh-134262: Add retries to generate_sbom.py (GH-134263),emmatyping,2025-08-06T15:19:49Z,2025-08-06T22:58:08+00:00,1,7.64,True,19,1,1,254,1,0,1,MERGED
+137464,gh-137463: Update `validate_abstract_methods` in `test_collections.py`,guilhermeleobas,2025-08-06T14:12:06Z,2025-08-07T06:10:56+00:00,1,15.98,True,8,10,1,390,9,3,12,MERGED
+137456,"gh-130102: drop ""require numeric arguments"" from pow() docs",skirpichev,2025-08-06T12:25:39Z,2025-08-07T23:43:18+00:00,1,35.29,True,1,1,1,103,3,0,3,MERGED
+137453,[3.14] gh-137450: macOS installer shell path management improvements (GH-137451),miss-islington,2025-08-06T11:44:21Z,2025-08-13T10:39:50+00:00,2,166.92,True,192,85,4,235,1,0,1,MERGED
+137441,gh-137440: Update Python/hamt.c on importing for testing,bswck,2025-08-05T22:40:12Z,2025-08-07T13:50:49+00:00,2,39.18,True,2,2,1,16,5,0,5,MERGED
+137436,[3.14] gh-137134: Update SQLite to 3.50.4 for binary releases (GH-137135),miss-islington,2025-08-05T20:51:46Z,2025-08-06T12:45:55+00:00,3,15.9,True,13,11,8,630,0,0,0,MERGED
+137434,[3.14] Docs: add dunder and walrus to the glossary (GH-137430),miss-islington,2025-08-05T20:30:45Z,2025-08-06T11:58:52+00:00,1,15.47,True,10,0,1,173,0,0,0,MERGED
+137427,[3.14] gh-137288: Fix bug where boolean expressions are not associated with the correct exception handler (GH-137310).,iritkatriel,2025-08-05T19:12:34Z,2025-08-12T09:56:37+00:00,4,158.73,True,27,2,5,55,7,1,8,MERGED
+137415,gh-58124: Avoid CP_UTF8 in UnicodeDecodeError,vstinner,2025-08-05T12:53:55Z,2025-08-06T12:35:27+00:00,1,23.69,True,5,6,4,194,7,0,7,MERGED
+137413,gh-137412: fix `default_builtin_hashes` values in `test_hashlib.py`,picnixz,2025-08-05T10:28:53Z,2025-08-07T22:31:56+00:00,2,60.05,True,4,11,1,16,8,1,9,MERGED
+137406,[3.14] gh-137397: Skip test_os_open on NetBSD due to indefinite hang (GH-137398),miss-islington,2025-08-05T08:32:29Z,2025-09-08T14:58:45+00:00,1,822.44,True,2,0,1,110,0,0,0,MERGED
+137402,Fix typo in warnings.rst,mfeyg,2025-08-05T03:05:09Z,2025-08-06T21:51:59+00:00,3,42.78,True,1,1,1,82,4,0,4,MERGED
+137398,gh-137397: Skip test_os_open on NetBSD due to indefinite hang,furkanonder,2025-08-04T22:46:05Z,2025-08-05T08:32:21+00:00,1,9.77,True,2,0,1,16,5,0,5,MERGED
+137393,GH-136155: Use ``sphinxext-opengraph`` v0.12.0,AA-Turner,2025-08-04T21:56:10Z,2025-08-05T20:14:31+00:00,2,22.31,True,9,13,3,103,13,1,14,MERGED
+137392,[3.14] gh-132661: PEP 750 documentation: second pass (GH-137020),miss-islington,2025-08-04T21:45:59Z,2025-08-16T06:21:29+00:00,1,272.59,True,295,253,8,212,0,0,0,MERGED
+137391,gh-137390: Add missing line continuation character in configure.ac,markmcclain,2025-08-04T20:43:46Z,2025-08-04T22:08:26+00:00,1,1.41,True,1,1,1,169,8,0,8,MERGED
+137382,[3.14] gh-129033: Remove dead code in test.support.has_no_debug_ranges() (GH-137379),miss-islington,2025-08-04T14:48:33Z,2025-09-08T15:03:24+00:00,1,840.25,True,0,1,1,105,0,0,0,MERGED
+137380,[3.14] gh-137368: document __index__() support for PyLong_AsInt32/64() (GH-137369),miss-islington,2025-08-04T13:30:43Z,2025-09-11T09:14:03+00:00,2,907.72,True,4,0,1,197,0,0,0,MERGED
+137378,gh-137376: ensure that `SyntaxError` are properly detected in REPL,picnixz,2025-08-04T12:40:38Z,2025-08-19T09:42:43+00:00,2,357.03,False,151,29,9,391,2,2,4,CLOSED
+137369,gh-137368: document __index__() support for PyLong_AsInt32/64(),skirpichev,2025-08-04T03:27:20Z,2025-08-04T13:30:30+00:00,1,10.05,True,4,0,1,103,2,0,2,MERGED
+137367,[3.13] gh-122450: Expand documentation for ``Rational`` and ``Fraction`` (#136800),skirpichev,2025-08-04T03:07:29Z,2025-08-05T13:54:31+00:00,1,34.78,True,17,7,3,142,1,0,1,MERGED
+137366,[3.13] gh-81325: Support path-like objects with streaming TarFile (GH-137188),miss-islington,2025-08-04T02:53:13Z,2025-08-05T21:17:12+00:00,1,42.4,True,13,1,3,170,0,0,0,MERGED
+137361,[3.14] gh-137257: Upgrade bundled pip to 25.2 (GH-137258),miss-islington,2025-08-04T02:00:24Z,2025-08-04T05:29:30+00:00,2,3.48,True,2,1,3,101,0,0,0,MERGED
+137360,[3.14] gh-132983: Use ``Py_UNREACHABLE`` in ``_zstd_load_impl()`` (GH-137320),miss-islington,2025-08-04T01:36:20Z,2025-08-07T15:38:15+00:00,1,86.03,True,1,4,1,119,0,0,0,MERGED
+137357,[3.13] Doc: fix duplicated words (GH-136086),brianschubert,2025-08-03T20:43:27Z,2025-08-03T22:41:47+00:00,1,1.97,True,5,5,5,35,0,0,0,MERGED
+137356,[3.13] Fix typo in `Lib/test/test_ast/test_ast.py` (GH-136767),brianschubert,2025-08-03T20:38:27Z,2025-08-04T05:56:07+00:00,2,9.29,True,1,1,1,35,0,0,0,MERGED
+137355,[3.14] Fix typo in Doc/extending/extending.rst (GH-136890),brianschubert,2025-08-03T20:33:27Z,2025-09-11T08:51:42+00:00,1,924.3,True,1,1,1,120,0,0,0,MERGED
+137351,GH-136155: Fail the EPUB check on fatal errors,AA-Turner,2025-08-03T18:55:27Z,2025-08-08T01:32:20+00:00,5,102.61,True,48,27,2,145,6,4,10,MERGED
+137346,[3.14] gh-137341: Remove more word duplications (GH-137342),serhiy-storchaka,2025-08-03T16:44:33Z,2025-08-03T18:26:16+00:00,1,1.7,True,5,5,4,142,0,0,0,MERGED
+137343,[3.14] gh-132983: Fix docstrings in ``ZstdDict`` (GH-137321),miss-islington,2025-08-03T15:04:56Z,2025-08-03T19:37:49+00:00,1,4.55,True,7,7,2,190,0,0,0,MERGED
+137342,gh-137341: Remove more word duplications,serhiy-storchaka,2025-08-03T14:39:46Z,2025-08-03T16:41:12+00:00,4,2.02,True,8,8,6,103,6,2,8,MERGED
+137338,gh-137044: Support large limit values in getrlimit() and setrlimit(),serhiy-storchaka,2025-08-03T10:21:50Z,2025-08-07T08:06:38+00:00,1,93.75,True,200,121,4,226,9,1,10,MERGED
+137334,enhance docs for critical sections ,kumaraditya303,2025-08-03T06:11:11Z,2025-08-26T17:13:02+00:00,12,563.03,True,13,5,1,82,5,3,8,MERGED
+137333,gh-137335: Remove use of ``mktemp()`` in ``asyncio.windows_utils``,lighting9999,2025-08-03T05:57:07Z,2025-08-05T07:40:34+00:00,2,49.72,False,16,3,2,672,20,0,20,CLOSED
+137328,gh-137314: Fix incorrect treatment of format specs in raw fstrings,pablogsal,2025-08-02T22:10:18Z,2025-08-03T16:10:51+00:00,4,18.01,True,42,1,3,16,7,2,9,MERGED
+137327,gh-57943: disambiguate issue number in `os._fwalk` comment,s3bw,2025-08-02T21:52:29Z,2025-08-03T08:31:48+00:00,4,10.66,False,2,2,1,318,9,2,11,CLOSED
+137326,gh-115766: Fix IPv4Interface.is_unspecified,aisk,2025-08-02T15:38:04Z,2025-08-11T13:04:48+00:00,1,213.45,True,9,0,3,16,0,0,0,MERGED
+137324,[3.14] Doc: remove unused images (GH-137323),miss-islington,2025-08-02T14:32:24Z,2025-08-06T15:39:52+00:00,2,97.12,True,0,0,2,171,0,0,0,MERGED
+137322,[3.14] gh-137308: Replace a single docstring with `pass` in `-OO` mode (GH-137318),miss-islington,2025-08-02T11:57:13Z,2025-08-08T15:04:11+00:00,1,147.12,True,154,1,3,170,0,0,0,MERGED
+137321,gh-132983: Fix docstrings in ZstdDict,Rogdham,2025-08-02T09:19:00Z,2025-08-03T15:04:45+00:00,10,29.76,True,7,7,2,260,4,3,7,MERGED
+137320,gh-132983: _zstd: use Py_UNREACHABLE in _zstd_load_impl,Rogdham,2025-08-02T08:58:56Z,2025-08-04T01:36:12+00:00,3,40.62,True,1,4,1,531,5,0,5,MERGED
+137318,gh-137308: Replace a single docstring with `pass`,sobolevn,2025-08-02T07:29:21Z,2025-08-02T11:57:02+00:00,4,4.46,True,154,1,3,31,2,3,5,MERGED
+137316,gh-75989: TarFile.extractall and TarFile.extract now overwrite symlinks when extracting hardlinks,aeurielesn,2025-08-01T22:37:12Z,2025-08-06T12:59:23+00:00,1,110.37,True,57,0,3,15,1,0,1,MERGED
+137315,gh-137017: Fix `Thread.is_alive()` to only return False after the underlying OS thread exits,Abdoulrasheed,2025-08-01T22:34:38Z,2025-09-15T11:13:37+00:00,2,1068.65,True,6,0,2,100,6,1,7,MERGED
+137313,gh-87281: Improve documentation for locale.setlocale() and locale.getlocale(),serhiy-storchaka,2025-08-01T18:35:10Z,2025-08-13T17:49:33+00:00,10,287.24,True,74,10,1,102,5,16,21,MERGED
+137307,"gh-131876: Revert ""gh-131876: extract `_hashlib` helpers into a separate directory (#136995)",picnixz,2025-08-01T15:06:41Z,2025-08-01T17:45:40+00:00,1,2.65,True,221,346,20,139,2,0,2,MERGED
+137304,gh-64612: Update error handlers list under `open()`,StanFromIreland,2025-08-01T14:14:58Z,2025-08-13T10:38:30+00:00,5,284.39,True,3,31,1,102,3,4,7,MERGED
+137302,gh-133467: fix data race in type_set_name,kumaraditya303,2025-08-01T12:36:58Z,2025-08-01T13:40:40+00:00,1,1.06,True,22,4,3,310,2,0,2,MERGED
+137300,gh-137273: Fix debug assertion failure in locale.setlocale() on Windows,serhiy-storchaka,2025-08-01T12:13:29Z,2025-08-01T14:43:53+00:00,3,2.51,True,97,21,3,99,15,1,16,MERGED
+137298,"gh-109444: Mark Codec.{encode,decode} to take positional-only args",srittau,2025-08-01T08:46:56Z,2025-08-01T09:49:05+00:00,1,1.04,False,2,2,1,103,2,0,2,CLOSED
+137292,gh-137291: Support perf profiler with an evaluation hook,DinoV,2025-07-31T23:00:35Z,2025-08-07T21:54:12+00:00,1,166.89,True,54,47,4,188,3,0,3,MERGED
+137284,[3.14] gh-137282: Fix `TypeError` in tab completion and `dir()` of `concurrent.futures` (GH-137214),miss-islington,2025-07-31T16:17:34Z,2025-08-08T15:13:22+00:00,2,190.93,True,4,1,3,173,1,0,1,MERGED
+137283,"gh-138143: Allow anonymous unions in public headers, using `_Py_ANONYMOUS`",encukou,2025-07-31T15:10:13Z,2025-08-26T09:14:35+00:00,1,618.07,True,36,15,3,546,1,0,1,MERGED
+137281,gh-137191: Fix how type parameters are collected from `Protocol` and `Generic` bases with parameters,sobolevn,2025-07-31T13:45:41Z,2025-08-03T07:40:55+00:00,3,65.92,True,83,4,4,291,3,2,5,MERGED
+137280,[3.14] gh-137200: support frame lineno setter with `BRANCH_LEFT` and `BRANCH_RIGHT` events (GH-137229),miss-islington,2025-07-31T13:22:30Z,2025-08-11T14:07:19+00:00,1,264.75,True,24,0,2,129,1,0,1,MERGED
+137277,GH-137276: Don't mark uop as escaping if the escaping call is on an exit branch,markshannon,2025-07-31T11:40:29Z,2025-08-02T15:49:34+00:00,2,52.15,True,108,50,3,16,0,1,1,MERGED
+137274,[3.14] gh-137194: Fix requires_debug_ranges when _testcpi doesn't exist (GH-137195),miss-islington,2025-07-31T11:22:19Z,2025-08-05T17:34:47+00:00,1,126.21,True,6,1,1,126,5,0,5,MERGED
+137271,gh-128813: deprecate cval field of the PyComplexObject struct,skirpichev,2025-07-31T10:41:42Z,2025-08-08T10:36:43+00:00,13,191.92,True,29,2,5,131,9,9,18,MERGED
+137265,GH-137218: Update `make` for JIT stencils,savannahostrowski,2025-07-31T04:11:25Z,2025-09-19T09:36:43+00:00,2,1205.42,True,32,14,4,146,8,1,9,MERGED
+137261,gh-128813: soft-deprecate _Py_c_*() functions,skirpichev,2025-07-31T01:42:45Z,2025-08-01T07:40:12+00:00,1,29.96,True,39,1,4,103,2,0,2,MERGED
+137258,gh-137257: Upgrade bundled pip to 25.2,ichard26,2025-07-30T22:11:54Z,2025-08-04T02:00:17+00:00,2,99.81,True,2,1,3,219,9,0,9,MERGED
+137253,gh-137729: Fix support for locales with @-modifiers,serhiy-storchaka,2025-07-30T19:56:33Z,2025-08-18T07:11:15+00:00,3,443.25,True,164,16,6,36,3,4,7,MERGED
+137251,Add example of minheap and maxheap working together,rhettinger,2025-07-30T18:57:41Z,2025-07-30T20:53:33+00:00,2,1.93,True,36,0,1,209,4,1,5,MERGED
+137247,gh-119180: Refer to `annotationlib.get_annotations()` in `typing.get_type_hints()` documentation,Viicos,2025-07-30T18:12:34Z,2025-07-31T03:21:56+00:00,1,9.16,True,1,1,1,152,2,0,2,MERGED
+137246,[3.13] gh-135444: fix `asyncio.DatagramTransport.sendto` to account for datagram header size when data cannot be sent (GH-135445),miss-islington,2025-07-30T18:11:46Z,2025-08-03T04:48:53+00:00,1,82.62,True,53,5,5,162,0,0,0,MERGED
+137241,gh-137239: Add `*_max` functions to `heapq.__all__`,StanFromIreland,2025-07-30T15:44:27Z,2025-07-30T21:12:14+00:00,1,5.46,True,4,2,2,44,2,0,2,MERGED
+137240,gh-137238: Fix data race in `_Py_slot_tp_getattr_hook`,colesbury,2025-07-30T15:35:57Z,2025-08-05T13:32:22+00:00,5,141.94,True,4,9,3,144,4,1,5,MERGED
+137236,gh-137025: Include `python.worker.mjs` in Emscripten Web Example,adqm,2025-07-30T15:20:30Z,2025-07-31T08:19:52+00:00,2,16.99,True,5,1,1,295,6,0,6,MERGED
+137229,gh-137200: support frame lineno setter with `BRANCH_LEFT` and `BRANCH_RIGHT` events,xuantengh,2025-07-30T04:33:32Z,2025-07-31T13:22:22+00:00,2,32.81,True,24,0,2,24,7,1,8,MERGED
+137227,gh-137226: Fix behavior of ForwardRef.evaluate with type_params,JelleZijlstra,2025-07-30T04:20:56Z,2025-08-13T13:47:47+00:00,1,345.45,True,47,14,4,200,3,0,3,MERGED
+137225,gh-131591: Fix syntax in remote debugger doc,rffontenelle,2025-07-30T03:06:48Z,2025-08-17T05:41:31+00:00,1,434.58,True,11,11,1,165,3,0,3,MERGED
+137223,GH-137224:Optimize base64.py performance,lighting9999,2025-07-30T02:46:13Z,2025-07-30T05:47:37+00:00,5,3.02,False,222,125,2,118,17,5,22,CLOSED
+137222,[3.13] GH-116738: document thread-safety of bisect (GH-136555),miss-islington,2025-07-30T02:44:23Z,2025-07-30T11:50:40+00:00,1,9.1,True,89,0,2,197,0,0,0,MERGED
+137221,[3.14] GH-116738: document thread-safety of bisect (GH-136555),miss-islington,2025-07-30T02:44:18Z,2025-07-30T19:01:10+00:00,1,16.28,True,66,0,2,197,0,0,0,MERGED
+137215,gh-137026: Add an explainer guide for asyncio,anordin95,2025-07-29T18:19:08Z,2025-08-09T05:29:51+00:00,377,251.18,True,617,0,5,991,24,201,225,MERGED
+137214,gh-137282: Fix tab completion and dir() on concurrent.futures,henryiii,2025-07-29T18:07:07Z,2025-07-31T16:17:27+00:00,4,46.17,True,4,1,3,1030,8,3,11,MERGED
+137212,"gh-137210: Add a struct, slot & function for checking an extension's ABI",encukou,2025-07-29T16:21:09Z,2025-09-05T14:23:18+00:00,14,910.04,True,654,8,24,121,0,5,5,MERGED
+137211,GH-134291: Support older macOS deployment targets for JIT builds,brandtbucher,2025-07-29T16:12:26Z,2025-07-30T22:48:18+00:00,3,30.6,True,7,14,3,333,15,0,15,MERGED
+137208,[3.14] gh-137183: Document that `array.array` typecode `w` is new in 3.13 (GH-137184),miss-islington,2025-07-29T15:23:52Z,2025-08-15T10:13:27+00:00,1,402.83,True,4,1,1,187,0,0,0,MERGED
+137207,[Doc] Remove unnecessary quotes from typing module,adorilson,2025-07-29T15:00:46Z,2025-08-08T02:04:59+00:00,1,227.07,True,5,5,1,82,9,0,9,MERGED
+137198,gh-137197: Add SSLContext.set_ciphersuites to set TLS 1.3 ciphers,ronf,2025-07-29T05:07:16Z,2025-08-30T09:32:12+00:00,52,772.42,True,169,12,6,317,7,34,41,MERGED
+137195,GH-137194 Fix requires_debug_ranges when `_testcpi` doesn't exist,youknowone,2025-07-29T04:17:31Z,2025-07-31T11:22:12+00:00,4,55.08,True,6,1,1,16,4,2,6,MERGED
+137192,[3.14] Add a What's New entry for Emscripten (GH-137035),miss-islington,2025-07-29T00:42:14Z,2025-07-29T06:53:35+00:00,1,6.19,True,12,0,1,401,0,0,0,MERGED
+137188,gh-81325: tarfile should accept a path-like object when writing a compressed gzip,aeurielesn,2025-07-28T21:20:12Z,2025-08-04T02:53:01+00:00,4,149.55,True,13,1,3,15,4,1,5,MERGED
+137187,gh-137185: Fix `_Py_DumpStack()` async signal safety,colesbury,2025-07-28T20:50:11Z,2025-07-29T14:25:32+00:00,2,17.59,True,18,0,4,250,2,1,3,MERGED
+137186,gh-137242: Add Android CI job,mhsmith,2025-07-28T19:15:14Z,2025-08-12T17:16:05+00:00,31,358.01,True,134,23,4,52,18,11,29,MERGED
+137180,gh-137179: Fix flaky test_history_survive_crash test,colesbury,2025-07-28T18:13:06Z,2025-07-29T18:25:50+00:00,2,24.21,True,19,5,1,123,2,1,3,MERGED
+137177,[3.9] gh-130577: tarfile now validates archives to ensure member offsets are non-negative (GH-137027),gpshead,2025-07-28T17:08:28Z,2025-09-08T14:54:56+00:00,3,1005.77,False,194,0,3,54,3,3,6,CLOSED
+137176,[3.10] gh-130577: tarfile now validates archives to ensure member offsets are non-negative (GH-137027),gpshead,2025-07-28T17:05:42Z,2025-09-08T14:53:38+00:00,4,1005.8,False,194,0,3,54,2,2,4,CLOSED
+137175,[3.14] gh-131338: Disable computed stack limit checks on non-glibc linux (GH-134336),miss-islington,2025-07-28T16:32:41Z,2025-08-10T13:55:29+00:00,1,309.38,True,7,1,2,211,1,0,1,MERGED
+137172,[3.11] gh-130577: tarfile now validates archives to ensure member offsets are non-negative (GH-137027),miss-islington,2025-07-28T15:37:50Z,2025-08-19T18:00:46+00:00,1,530.38,True,162,0,3,173,5,0,5,MERGED
+137171,[3.12] gh-130577: tarfile now validates archives to ensure member offsets are non-negative (GH-137027),miss-islington,2025-07-28T15:37:45Z,2025-08-04T11:45:06+00:00,1,164.12,True,162,0,3,173,0,0,0,MERGED
+137169,[3.14] gh-130577: tarfile now validates archives to ensure member offsets are non-negative (GH-137027),miss-islington,2025-07-28T15:37:34Z,2025-07-28T19:40:56+00:00,1,4.06,True,162,0,3,173,0,0,0,MERGED
+137167,gh-88886: Remove excessive encoding name normalization,serhiy-storchaka,2025-07-28T14:06:22Z,2025-09-09T18:07:21+00:00,8,1036.02,True,54,45,5,489,6,4,10,MERGED
+137164,[3.14] gh-119711: describe `create_datagram_endpoint`'s behavior in asyncio when `local_addr` is `None` (GH-136913),miss-islington,2025-07-28T10:56:23Z,2025-08-10T13:52:30+00:00,1,314.94,True,6,0,1,195,0,0,0,MERGED
+137156,[3.13] gh-84559: improve What's New entry for `multiprocessing` startmethod changes (GH-128173),brianschubert,2025-07-27T23:01:57Z,2025-07-28T01:12:16+00:00,1,2.17,True,9,0,1,243,0,0,0,MERGED
+137154,[3.14] gh-132898: Add a note in `multiprocessing.Process` docs about creating a process in a REPL (GH-137118),miss-islington,2025-07-27T19:59:16Z,2025-07-28T19:48:58+00:00,1,23.83,True,53,8,2,402,0,0,0,MERGED
+137144,[3.14] GH-137059: `url2pathname()`: fix support for drive letter in netloc (GH-137060),miss-islington,2025-07-27T11:44:48Z,2025-07-28T19:43:15+00:00,1,31.97,True,11,1,3,221,1,0,1,MERGED
+137140,"[3.14] gh-136992: Add ""None"" as valid `SameSite` value as per RFC 6265bis (GH-137040)",miss-islington,2025-07-27T08:27:15Z,2025-07-30T19:43:53+00:00,1,83.28,True,6,3,1,603,0,0,0,MERGED
+137139,gh-133951: Remove lib64->lib symlink in venv creation,Cycloctane,2025-07-27T07:49:31Z,2025-10-04T13:55:17+00:00,2,1662.1,True,7,14,3,400,7,0,7,MERGED
+137137,gh-137136: Suppress build warnings when build on Windows with --experimental-jit-interpreter,aisk,2025-07-27T05:23:41Z,2025-09-03T14:42:26+00:00,4,921.31,True,22,20,9,16,1,2,3,MERGED
+137135,gh-137134: Update SQLite to 3.50.4 for binary releases,gpshead,2025-07-27T02:20:40Z,2025-08-05T20:50:51+00:00,3,234.5,True,13,11,8,421,33,1,34,MERGED
+137132,"[3.14] Link to plaintext for ""show source"" links (GH-137131)",miss-islington,2025-07-27T01:49:07Z,2025-07-27T06:54:41+00:00,1,5.09,True,1,1,1,181,0,0,0,MERGED
+137127,gh-137058: use __STDC_VERSION__ >= 202311L instead of __STDC_VERSION__ > 201710L,Abdoulrasheed,2025-07-26T17:49:38Z,2025-07-27T07:47:21+00:00,1,13.96,True,1,1,1,184,10,0,10,MERGED
+137126,[3.13] gh-134698: Hold a lock when the thread state is detached in ssl (GH-134724),gpshead,2025-07-26T17:44:37Z,2025-07-27T15:30:26+00:00,3,21.76,True,87,48,4,172,0,1,1,MERGED
+137123,[3.13] gh-126662: naming consistency for `signal.ItimerError` (GH-126712),miss-islington,2025-07-26T16:44:23Z,2025-07-27T04:28:21+00:00,1,11.73,True,1,1,1,100,0,0,0,MERGED
+137118,gh-132898: Add a note in `multiprocessing.Process` docs about creating a process in a REPL session,YvesDup,2025-07-26T14:51:59Z,2025-07-27T19:59:09+00:00,1,29.12,True,53,8,2,418,4,0,4,MERGED
+137105,[3.14] gh-130522: Fix unraisable TypeError in threading at interpreter shutdown (GH-131537),miss-islington,2025-07-25T14:51:39Z,2025-08-04T13:01:39+00:00,2,238.17,True,20,1,3,148,1,0,1,MERGED
+137104,gh-137103: A better circular check for json.dump(),aivarsk,2025-07-25T14:34:53Z,2025-07-31T18:48:11+00:00,2,148.22,False,39,59,1,432,7,0,7,CLOSED
+137098,GH-132532: Add new DSL macros to better declare semantics of exits at ends of instructions/uops.,markshannon,2025-07-25T11:37:30Z,2025-08-09T14:41:28+00:00,1,363.07,True,524,609,15,703,1,4,5,MERGED
+137094,gh-137093: Fix race condition in `test_embed.test_bpo20891`,ZeroIntensity,2025-07-25T00:43:08Z,2025-07-25T12:33:19+00:00,1,11.84,True,6,18,1,92,7,0,7,MERGED
+137091,gh-137090: Remove redundant statement in `Doc/library/concurrent.interpreters.rst`,soolabettu,2025-07-24T21:37:57Z,2025-07-25T15:50:53+00:00,3,18.22,True,1,1,1,103,3,2,5,MERGED
+137088,Fix Queue.shutdown docs for condition to unblock a join,rhettinger,2025-07-24T20:46:22Z,2025-07-25T13:56:28+00:00,1,17.17,True,18,12,4,943,4,0,4,MERGED
+137086,Exclude _testclinic_depr.c.h from c-analyzer,zware,2025-07-24T19:12:03Z,2025-07-24T20:50:01+00:00,1,1.63,True,225,223,4,100,5,0,5,MERGED
+137085,gh-137084: Do not call get_gc_state from inside loop in expand_region_transitivly_reachable,sergey-miryanov,2025-07-24T18:52:21Z,2025-07-25T12:43:55+00:00,1,17.86,True,1,1,1,240,3,0,3,MERGED
+137082,[3.14] gh-136870: fix data races in instrumentation of bytecode (GH-136994),miss-islington,2025-07-24T17:58:54Z,2025-07-28T19:39:44+00:00,2,97.68,True,13,8,2,461,0,0,0,MERGED
+137075,[3.13] gh-136759: rename `lock.h` to `pylock.h` (GH-137041),aisk,2025-07-24T13:22:29Z,2025-07-24T16:06:25+00:00,1,2.73,True,10,9,8,132,5,0,5,MERGED
+137072,[3.14] gh-136759: rename `lock.h` to `pylock.h` (GH-137041),miss-islington,2025-07-24T10:46:48Z,2025-08-12T16:33:23+00:00,2,461.78,False,10,9,8,185,2,0,2,CLOSED
+137067,[3.14] gh-124621: Emscripten: Add smoke test for using pyrepl in Chrome (GH-137004),miss-islington,2025-07-24T06:44:09Z,2025-07-29T20:09:47+00:00,1,133.43,True,753,0,8,236,0,0,0,MERGED
+137066,[3.14] gh-136976: Emscripten: Add _decimal and libmpdec (GH-136997),miss-islington,2025-07-24T06:31:42Z,2025-07-29T20:10:39+00:00,1,133.65,True,54,7,1,191,3,0,3,MERGED
+137062,GH-132732: Use pure op machinery to optimize `COMPARE_OP_INT/FLOAT/STR`,savannahostrowski,2025-07-24T02:11:28Z,2025-07-26T02:02:04+00:00,3,47.84,True,237,39,6,16,2,2,4,MERGED
+137060,GH-137059: `url2pathname()`: fix support for drive letter in netloc,barneygale,2025-07-23T23:42:51Z,2025-07-27T11:44:41+00:00,1,84.03,True,11,1,3,135,2,1,3,MERGED
+137057,gh-137056: Fix DTrace build support on NetBSD,furkanonder,2025-07-23T22:32:28Z,2025-08-06T07:19:56+00:00,1,320.79,True,41,6,3,16,5,0,5,MERGED
+137055,gh-137054: Remove obsolete counting of objects in young generation,sergey-miryanov,2025-07-23T19:29:36Z,2025-07-24T11:30:27+00:00,1,16.01,True,0,9,1,1770,2,0,2,MERGED
+137052,[3.14] gh-132983: Add missing references to Zstandard in shutil docstrings (GH-136617),miss-islington,2025-07-23T18:10:00Z,2025-07-25T09:30:11+00:00,1,39.34,True,5,5,1,156,0,0,0,MERGED
+137047,"gh-135228: When @dataclass(slots=True) replaces a dataclass, make the original class collectible (take 2)",JelleZijlstra,2025-07-23T15:43:28Z,2025-08-12T11:16:54+00:00,14,475.56,True,117,7,5,101,10,9,19,MERGED
+137045,[3.14] gh-137043: mention `PyList_GET_ITEM` as unsafe borrowed API in free-threading docs (GH-137042),miss-islington,2025-07-23T14:36:15Z,2025-07-23T17:45:55+00:00,2,3.16,True,2,0,1,194,0,0,0,MERGED
+137041,gh-136759: Rename lock.h to pylock.h,aisk,2025-07-23T13:32:06Z,2025-07-24T10:46:07+00:00,3,21.23,True,10,9,8,16,8,0,8,MERGED
+137040,gh-136992: Add 'None' as valid SameSite value as per RFC6265bis,iqra-codes,2025-07-23T12:16:16Z,2025-07-27T08:27:09+00:00,26,92.18,True,6,3,1,614,8,7,15,MERGED
+137035,Add What's New entry about Emscripten changes,hoodmane,2025-07-23T09:45:40Z,2025-07-29T00:42:07+00:00,7,134.94,True,12,0,1,82,4,4,8,MERGED
+137034,gh-123441: Correct the supported languages of the `iso-8859-4` codec,StanFromIreland,2025-07-23T09:19:18Z,2025-08-05T14:55:05+00:00,1,317.6,True,1,1,1,624,5,0,5,MERGED
+137029,[3.13] GH-111758: Merge TSan and UBSan reusable GHA workflows (#136820),webknjaz,2025-07-23T02:36:05Z,2025-08-01T13:00:48+00:00,9,226.41,True,130,98,3,505,1,1,2,MERGED
+137028,Fix docs for Queue.shutdown,rhettinger,2025-07-23T00:48:38Z,2025-07-24T17:23:03+00:00,16,40.57,True,58,35,4,1098,6,8,14,MERGED
+137027,gh-130577: tarfile now validates archives to ensure member offsets are non-negative,aeurielesn,2025-07-22T22:44:01Z,2025-07-28T15:37:27+00:00,4,136.89,True,162,0,3,103,17,0,17,MERGED
+137024,gh-133296: Fix versionadded for C API functions that were backported,ngoldbaum,2025-07-22T19:14:30Z,2025-07-22T20:27:50+00:00,5,1.22,True,4,5,3,201,0,1,1,MERGED
+137021,gh-116738: Make bisect module thread-safe,yoney,2025-07-22T18:36:59Z,2025-07-24T18:24:34+00:00,1,47.79,False,55,3,4,568,11,1,12,CLOSED
+137020,gh-132661: PEP 750 documentation: second pass,AA-Turner,2025-07-22T18:20:31Z,2025-08-04T21:45:51+00:00,12,315.42,True,295,253,8,159,4,5,9,MERGED
+137010,gh-124503: simplified ast.literal_eval,kmagusiak,2025-07-22T15:32:38Z,2025-07-31T09:55:00+00:00,5,210.37,True,53,45,2,267,10,1,11,MERGED
+137004,gh-124621: Emscripten: Add smoke test for using pyrepl in Chrome,hoodmane,2025-07-22T14:15:56Z,2025-07-24T06:44:02+00:00,6,40.47,True,753,0,8,112,4,2,6,MERGED
+137003,[3.14] GH-136975: Emend a spelling error (algorthm -> algorithm) (GH-136999),miss-islington,2025-07-22T13:49:07Z,2025-07-23T20:48:11+00:00,2,30.98,True,7,7,7,125,1,0,1,MERGED
+137002,[3.14] Fix code example in `annotationlib` documentation (GH-136972),miss-islington,2025-07-22T13:48:10Z,2025-07-22T16:15:27+00:00,1,2.45,True,1,1,1,187,1,0,1,MERGED
+137000,[3.14] gh-136437: Convert more ``os.path`` functions to positional-only in the docs (GH-136970),miss-islington,2025-07-22T13:38:41Z,2025-08-15T10:10:59+00:00,2,572.54,True,9,9,1,183,3,0,3,MERGED
+136997,gh-136976: Emscripten: Add _decimal and libmpdec,hoodmane,2025-07-22T13:07:09Z,2025-07-24T06:31:31+00:00,2,41.41,True,54,7,1,16,6,1,7,MERGED
+136995,gh-131876: extract `_hashlib` helpers into a separate directory,picnixz,2025-07-22T12:43:15Z,2025-07-28T09:28:48+00:00,1,140.76,True,346,221,20,54,15,0,15,MERGED
+136994,gh-136870: fix data races in instrumentation of bytecode ,kumaraditya303,2025-07-22T12:41:30Z,2025-07-24T17:58:47+00:00,1,53.29,True,13,8,2,380,7,0,7,MERGED
+136991,"Revert ""gh-112068: C API: Add support of nullable arguments in PyArg_Parse (GH-121303)""",serhiy-storchaka,2025-07-22T12:02:44Z,2025-07-22T13:39:50+00:00,1,1.62,True,139,317,12,134,3,0,3,MERGED
+136989,"Revert ""gh-66234: Add flag to disable the use of mmap in dbm.gnu (GH-135005)""",serhiy-storchaka,2025-07-22T11:51:50Z,2025-09-20T08:01:44+00:00,1,1436.16,True,2,43,5,133,0,0,0,MERGED
+136981,gh-136980: Remove unused C tracing code in bdb,FredericDT,2025-07-22T11:14:13Z,2025-07-24T00:58:55+00:00,2,37.74,True,4,16,3,465,4,2,6,MERGED
+136979,gh-136976: Emscripten: Add _decimal and libmpdec,hoodmane,2025-07-22T10:40:04Z,2025-07-22T13:07:30+00:00,1,2.46,False,53,7,1,16,2,0,2,CLOSED
+136973,gh-136968: fortify macro usage in cryptographic modules,picnixz,2025-07-22T09:34:41Z,2025-07-28T07:36:15+00:00,4,142.03,True,116,78,3,16,6,2,8,MERGED
+136972,Fix code example in `annotationlib` documentation,Viicos,2025-07-22T09:16:46Z,2025-07-22T13:48:02+00:00,1,4.52,True,1,1,1,82,2,0,2,MERGED
+136970,gh-136437: Convert more `os.path` functions to pos-only in the docs,sobolevn,2025-07-22T09:12:29Z,2025-07-22T13:38:33+00:00,1,4.43,True,9,9,1,576,3,0,3,MERGED
+136966,gh-135228: Create __dict__ and __weakref__ descriptors for object,encukou,2025-07-22T08:22:43Z,2025-08-18T12:25:51+00:00,13,652.05,True,171,120,13,712,5,6,11,MERGED
+136963,[3.13] gh-131531: Android test fixes (GH-136845),miss-islington,2025-07-22T06:51:31Z,2025-07-22T11:27:02+00:00,1,4.59,True,40,33,1,408,2,0,2,MERGED
+136962,[3.14] gh-131531: Android test fixes (GH-136845),miss-islington,2025-07-22T06:51:25Z,2025-07-22T08:15:50+00:00,1,1.41,True,40,33,1,408,2,0,2,MERGED
+136961,gh-121237: Add `%:z` directive to datetime.strptime,donBarbos,2025-07-22T05:23:55Z,2025-09-19T09:25:31+00:00,11,1420.03,True,92,42,5,196,10,9,19,MERGED
+136954,gh-136897: Update docstring of `str.translate`,AbduazizZiyodov,2025-07-21T23:00:44Z,2025-08-26T08:37:07+00:00,5,849.61,False,12,10,2,147,7,2,9,CLOSED
+136950,gh-136170: Revert adding `ZipFile.data_offset`,emmatyping,2025-07-21T19:45:15Z,2025-07-21T23:16:30+00:00,3,3.52,True,3,75,4,582,5,1,6,MERGED
+136949,gh-136437: Make several functions in `os.path` pos-only,sobolevn,2025-07-21T18:44:18Z,2025-07-23T11:56:02+00:00,3,41.2,True,51,147,5,106,4,2,6,MERGED
+136943,[3.14] gh-136421: Load `_datetime` static types during interpreter initialization (GH-136583),miss-islington,2025-07-21T17:47:33Z,2025-07-21T23:23:05+00:00,1,5.59,True,111,95,8,591,9,0,9,MERGED
+136934,gh-133600: Move config.site-wasm32-emscripten into the emscripten folder,hoodmane,2025-07-21T14:26:00Z,2025-07-21T23:58:31+00:00,1,9.54,True,2,2,2,16,4,0,4,MERGED
+136931,gh-124621: Emscripten: Support pyrepl in browser,hoodmane,2025-07-21T14:05:00Z,2025-07-22T10:13:38+00:00,7,20.14,True,504,39,13,481,13,4,17,MERGED
+136930,gh-136914: Use inspect.isroutine() in DocTest's lineno computation,dlax,2025-07-21T13:52:32Z,2025-07-25T09:46:12+00:00,5,91.89,True,39,1,4,444,7,2,9,MERGED
+136927,"[3.14] gh-135661: Fix parsing attributes with whitespaces around the ""="" separator in HTMLParser (GH-136908)",serhiy-storchaka,2025-07-21T11:17:15Z,2025-07-21T18:34:25+00:00,3,7.29,True,21,15,4,103,0,2,2,MERGED
+136923,gh-136190: dis.py: No line number in case of an artificial bytecode instruction,andreas-loos-zon,2025-07-21T10:11:21Z,2025-07-21T13:55:41+00:00,1,3.74,False,233,1,5,181,6,0,6,CLOSED
+136922,"[3.9] gh-135661: Fix parsing attributes with whitespaces around the ""="" separator in HTMLParser (GH-136908)",miss-islington,2025-07-21T10:07:46Z,2025-07-22T09:58:29+00:00,1,23.85,True,18,19,3,156,0,0,0,MERGED
+136921,"[3.10] gh-135661: Fix parsing attributes with whitespaces around the ""="" separator in HTMLParser (GH-136908)",miss-islington,2025-07-21T10:07:42Z,2025-07-22T09:57:56+00:00,1,23.84,True,18,19,3,156,0,0,0,MERGED
+136920,"[3.11] gh-135661: Fix parsing attributes with whitespaces around the ""="" separator in HTMLParser (GH-136908)",miss-islington,2025-07-21T10:07:37Z,2025-07-22T09:56:56+00:00,1,23.82,True,18,19,3,156,0,0,0,MERGED
+136919,"[3.12] gh-135661: Fix parsing attributes with whitespaces around the ""="" separator in HTMLParser (GH-136908)",miss-islington,2025-07-21T10:07:32Z,2025-07-22T09:56:40+00:00,1,23.82,True,18,19,3,156,0,0,0,MERGED
+136918,"[3.13] gh-135661: Fix parsing attributes with whitespaces around the ""="" separator in HTMLParser (GH-136908)",miss-islington,2025-07-21T10:07:27Z,2025-07-22T09:56:10+00:00,1,23.81,True,18,19,3,156,0,0,0,MERGED
+136917,gh-136912: fix handling of `OverflowError` in `hmac.digest`,picnixz,2025-07-21T10:06:00Z,2025-07-26T08:22:06+00:00,5,118.27,True,70,9,3,16,19,3,22,MERGED
+136913,gh-119711: Describe create_datagram_endpoint's behavior in asyncio when local_addr is None,aisk,2025-07-21T09:34:27Z,2025-07-28T10:55:59+00:00,2,169.36,True,6,0,1,103,4,0,4,MERGED
+136893,"gh-135228: When @dataclass(slots=True) replaces a dataclass, make the original class collectible",JelleZijlstra,2025-07-20T23:59:29Z,2025-07-22T04:43:35+00:00,2,28.73,True,54,0,3,262,3,3,6,MERGED
+136892,"Fix 3 typos in ""Next"" News items",corneliusroemer,2025-07-20T23:51:49Z,2025-07-22T08:22:08+00:00,1,32.51,True,5,5,4,57,7,0,7,MERGED
+136890,Fix typos in `Doc/extending/extending.rst` and `Doc/library/shelve.rst`,corneliusroemer,2025-07-20T23:37:42Z,2025-07-23T12:04:59+00:00,1,60.45,True,2,2,2,135,7,0,7,MERGED
+136885,gh-136882: Update stale link in the basic logging tutorial.,vsajip,2025-07-20T20:57:48Z,2025-07-21T08:29:12+00:00,6,11.52,True,4,4,1,103,3,1,4,MERGED
+136878,gh-83424: Allow empty name if handle is non-null when create ctypes.CDLL,aisk,2025-07-20T16:27:19Z,2025-09-05T15:51:35+00:00,4,1127.4,True,51,36,3,15,3,3,6,MERGED
+136875,GH-136874: `url2pathname()`: discard query and fragment components,barneygale,2025-07-20T15:02:56Z,2025-07-21T17:33:21+00:00,1,26.51,True,18,5,5,197,4,1,5,MERGED
+136864,gh-136859: Improve `StrEnum` docs,nachocab,2025-07-20T12:11:23Z,2025-07-21T15:18:41+00:00,4,27.12,True,19,4,1,358,3,2,5,MERGED
+136857,gh-130655: gettext: Add fallback testcase,GovernmentPlates,2025-07-20T10:44:55Z,2025-07-20T12:08:13+00:00,1,1.39,True,7,0,1,90,3,0,3,MERGED
+136856,gh-136854: Exit on error in `make venv`,nachocab,2025-07-20T10:37:13Z,2025-07-20T12:08:00+00:00,1,1.51,True,1,0,1,119,4,0,4,MERGED
+136846,Pedantic rewording of why relative importing doesn't work in main modules,thejcannon,2025-07-20T01:55:02Z,2025-07-21T16:30:18+00:00,2,38.59,True,2,2,1,213,3,0,3,MERGED
+136845,gh-131531: Android test fixes,mhsmith,2025-07-20T01:15:09Z,2025-07-22T06:51:16+00:00,1,53.6,True,40,33,1,303,6,0,6,MERGED
+136844,gh-136843: Document how multiple inheritance works,JelleZijlstra,2025-07-20T00:34:03Z,2025-07-28T19:35:40+00:00,21,211.03,True,122,1,3,103,3,11,14,MERGED
+136842,[3.13] gh-136764: improve comment in enum.verify.__call__ (GH-136774),miss-islington,2025-07-19T17:14:28Z,2025-07-19T19:01:42+00:00,1,1.79,True,1,1,1,111,0,0,0,MERGED
+136835,Remove duplicate comment in `Lib/test/test_platform.py`,ShaharNaveh,2025-07-19T15:49:54Z,2025-07-25T16:06:28+00:00,1,144.28,False,1,2,1,0,8,0,8,CLOSED
+136831,Replace workflow with project automations,StanFromIreland,2025-07-19T14:57:43Z,2025-10-04T05:09:37+00:00,3,1838.2,True,0,31,1,1066,1,1,2,MERGED
+136824,gh-136823: Update documentation on excluded headers in Python.h,SZeltaat,2025-07-19T14:29:16Z,2025-08-05T20:52:34+00:00,18,414.39,True,32,6,2,782,8,6,14,MERGED
+136821,gh-127598: Improve ModuleNotFoundError when -S is passed,MonadChains,2025-07-19T14:12:11Z,2025-07-20T13:33:59+00:00,11,23.36,True,26,0,3,122,2,7,9,MERGED
+136820,GH-111758: Merge TSan and UBSan reusable GHA workflows,webknjaz,2025-07-19T14:11:23Z,2025-07-20T20:03:47+00:00,10,29.87,True,139,183,4,317,8,7,15,MERGED
+136815,Refactor: Use `is_wasm32` flag for `is_emscripten` or `is_wasi` for generic checks,anistark,2025-07-19T13:40:02Z,2025-07-22T19:50:13+00:00,3,78.17,True,19,15,9,0,12,1,13,MERGED
+136814,gh-131724: Add a new max_response_headers param to HTTP/HTTPSConnection,aeurielesn,2025-07-19T13:22:34Z,2025-07-20T13:53:54+00:00,7,24.52,True,105,18,6,16,4,13,17,MERGED
+136812,gh-136437: Document some `os.path` functions as requiring pos-only,sobolevn,2025-07-19T13:04:31Z,2025-07-21T18:01:43+00:00,2,52.95,True,8,8,1,472,3,0,3,MERGED
+136811,gh-136839: Refactor simple dict.update calls,disconnect3d,2025-07-19T12:58:31Z,2025-07-19T17:12:10+00:00,4,4.23,True,5,9,4,891,4,4,8,MERGED
+136809,GH-130645: Default to color help in argparse,pablogsal,2025-07-19T12:44:46Z,2025-07-20T21:55:45+00:00,10,33.18,True,39,25,6,911,7,2,9,MERGED
+136802,gh-136787: raise consistent ValueError for bad hashes,picnixz,2025-07-19T12:03:26Z,2025-07-20T08:49:34+00:00,11,20.77,True,198,48,8,16,6,10,16,MERGED
+136800,gh-122450: Expand documentation for ``Rational`` and ``Fraction``,skirpichev,2025-07-19T11:53:46Z,2025-08-04T02:16:00+00:00,21,374.37,True,18,8,3,409,12,10,22,MERGED
+136797,gh-135468: Improve ``BaseHandler.http_error_default()`` parameter descriptions,vgiane,2025-07-19T11:42:02Z,2025-07-19T14:43:00+00:00,1,3.02,True,7,4,1,103,5,0,5,MERGED
+136796,gh-135427: Fix DeprecationWarning for os.fork when run in threads with -Werror,rani-pinchuk,2025-07-19T11:41:42Z,2025-08-26T13:33:21+00:00,10,913.86,True,391,70,27,282,15,9,24,MERGED
+136795,gh-54732: Make argparse error caused by empty rows in option files explicit,jdunter,2025-07-19T11:40:51Z,2025-07-19T14:08:19+00:00,6,2.46,True,7,1,1,213,6,4,10,MERGED
+136794,gh-136752: Clarify documentation for ``IPv{N}Address.is_reserved``,mlnrt,2025-07-19T11:40:32Z,2025-07-19T14:43:56+00:00,3,3.06,True,11,1,1,230,6,2,8,MERGED
+136791,gh-136672: Docs: Move Enum functions and add examples,RafaelWO,2025-07-19T11:26:26Z,2025-08-12T19:28:28+00:00,5,584.03,True,36,21,2,470,13,3,16,MERGED
+136788,gh-136438: Make sure `test_remote_pdb` pass with all optimization levels,olp-cs,2025-07-19T10:44:51Z,2025-07-20T08:57:55+00:00,2,22.22,True,33,20,1,1096,8,0,8,MERGED
+136780,gh-136567: Add information about lost prefixes to `Tools/cases_generator/interpreter_definition.md`,skv0zsneg,2025-07-19T09:32:07Z,2025-08-03T18:43:13+00:00,1,369.19,True,7,1,1,294,0,0,0,MERGED
+136777,gh-135953: Profile a module or script with sampling profiler,lkollar,2025-07-19T09:21:09Z,2025-08-11T11:36:43+00:00,10,554.26,True,864,79,5,229,7,12,19,MERGED
+136774,gh-136764: improve comment in enum.verify.__call__,damngamerz,2025-07-19T08:54:41Z,2025-07-19T12:55:02+00:00,2,4.01,True,1,1,1,36,6,0,6,MERGED
+136770,gh-74185: repr() of ImportError now contains attributes name and path,Yoav11,2025-07-19T08:07:56Z,2025-08-14T13:14:00+00:00,26,629.1,True,128,6,4,149,15,22,37,MERGED
+136767,fix typo in `test_ast.py`,hunterhogan,2025-07-18T20:54:37Z,2025-07-19T09:14:49+00:00,3,12.34,True,1,1,1,0,10,1,11,MERGED
+136762,gh-136547: refactor `hashlib_helper` for blocking and requesting digests,picnixz,2025-07-18T17:11:43Z,2025-07-20T12:32:35+00:00,3,43.35,True,579,310,4,968,5,7,12,MERGED
+136760,gh-116738: Make syslog module thread-safe,yoney,2025-07-18T16:40:39Z,2025-07-21T16:24:43+00:00,2,71.73,True,53,1,3,965,2,1,3,MERGED
+136758,gh-135621: Remove dependency on curses from PyREPL,ambv,2025-07-18T14:53:39Z,2025-07-21T09:57:34+00:00,7,67.07,True,1230,161,11,16,10,5,15,MERGED
+136746,gh-136744: Remove unnecessary chmod from pydoc.apropos() test.,freakboy3742,2025-07-17T15:49:50Z,2025-09-22T14:26:14+00:00,2,1606.61,True,3,14,1,1297,4,1,5,MERGED
+136743,gh-136234: Fix _SelectorSocketTransport.writelines to be robust to connection loss,bmerry,2025-07-17T14:24:52Z,2025-09-08T16:09:52+00:00,3,1273.75,True,25,0,3,34,17,1,18,MERGED
+136740,gh-127146: Emscripten: Set umask to zero in test_apropos_empty_doc,hoodmane,2025-07-17T12:42:42Z,2025-07-17T15:39:02+00:00,1,2.94,True,5,0,1,105,7,0,7,MERGED
+136720,[3.14] gh-135148: Correctly handle f/t strings with comments and debug expressions (GH-135198),miss-islington,2025-07-16T16:09:54Z,2025-07-16T22:10:46+00:00,1,6.01,True,83,20,3,112,0,0,0,MERGED
+136716,"Fix traceback.FrameSummary docstring by adding end_lineno, colno, and end_colno",olehermanse,2025-07-16T14:48:11Z,2025-07-16T17:29:31+00:00,1,2.69,True,6,0,1,320,3,0,3,MERGED
+136712,[3.14] gh-127146: Emscripten: more regular stack overflow skips (GH-136708),miss-islington,2025-07-16T14:02:34Z,2025-07-16T15:54:04+00:00,1,1.86,True,3,3,3,214,0,0,0,MERGED
+136711,[3.14] gh-127146: Emscripten: Make os.umask() actually work (GH-136706),miss-islington,2025-07-16T13:33:24Z,2025-07-16T16:12:36+00:00,1,2.65,True,23,5,2,268,0,0,0,MERGED
+136709,gh-136710: posixmodule.c: fix `chdir` docstring,haampie,2025-07-16T13:25:57Z,2025-07-16T15:30:10+00:00,1,2.07,True,4,4,2,200,9,2,11,MERGED
+136707,gh-127146: Emscripten: Don't need to avoid unpaired surrogate anymore,hoodmane,2025-07-16T12:56:08Z,2025-07-16T15:53:47+00:00,1,2.96,True,1,7,1,135,4,0,4,MERGED
+136706,gh-127146: Emscripten: Make os.umask() actually work,hoodmane,2025-07-16T12:07:13Z,2025-07-16T13:33:16+00:00,1,1.43,True,23,5,2,140,4,0,4,MERGED
+136704,gh-126548: Add a thread-unsafety warning for `importlib.reload()`,bswck,2025-07-16T10:28:15Z,2025-07-16T16:34:15+00:00,1,6.1,True,4,0,1,149,3,0,3,MERGED
+136701,gh-137153: Add `latin_N` aliases to `encodings.aliases`,StanFromIreland,2025-07-16T08:48:42Z,2025-08-29T12:28:04+00:00,2,1059.66,True,10,0,2,119,7,3,10,MERGED
+136698,Improved venv docs to indicate that isolation is the default.,facundobatista,2025-07-16T02:06:00Z,2025-07-16T11:55:31+00:00,3,9.83,True,4,4,1,200,4,1,5,MERGED
+136695,gh-116738: Make pwd module thread-safe,yoney,2025-07-15T21:32:07Z,2025-07-17T16:16:01+00:00,3,42.73,True,66,15,5,371,1,0,1,MERGED
+136680,Add `.gram` file to the `.editorconfig`,sobolevn,2025-07-15T12:21:55Z,2025-07-16T14:35:15+00:00,2,26.22,True,2,2,1,278,4,1,5,MERGED
+136670,gh-136669: build `_asyncio` as static module,kumaraditya303,2025-07-15T08:10:46Z,2025-07-16T16:39:08+00:00,12,32.47,True,10,4,3,16,4,1,5,MERGED
+136665,gh-123299: Update What's new in Python 3.14: typos and misplaced item.,hunterhogan,2025-07-15T04:00:02Z,2025-08-14T16:14:34+00:00,3,732.24,True,4,3,1,102,2,1,3,MERGED
+136664,gh-136663: fix signatures of PyFloat_Pack/Unpack[248] in docs,skirpichev,2025-07-15T01:33:02Z,2025-07-15T05:30:12+00:00,2,3.95,True,6,6,1,103,3,0,3,MERGED
+136662,gh-136660: fix UB in dictobject memcpy when there are 0 entries,marler8997,2025-07-14T21:26:15Z,2025-07-15T00:34:17+00:00,2,3.13,False,4,1,1,16,11,1,12,CLOSED
+136661,Fix a minor indentation error,gaogaotiantian,2025-07-14T21:21:05Z,2025-07-15T00:01:56+00:00,1,2.68,True,1,1,1,143,2,0,2,MERGED
+136658,[3.14] gh-116738: Make grp module thread-safe (GH-135434),miss-islington,2025-07-14T18:18:49Z,2025-07-15T05:33:34+00:00,1,11.25,True,115,46,7,376,0,0,0,MERGED
+136657,[3.14] gh-136396: Include instrumentation when creating new copies of the bytecode (GH-136525),miss-islington,2025-07-14T17:48:33Z,2025-07-15T15:10:37+00:00,1,21.37,True,161,1,3,944,0,0,0,MERGED
+136653,gh-136616: Improve `assert` syntax error messages,sobolevn,2025-07-14T14:10:32Z,2025-09-09T20:26:23+00:00,7,1374.26,True,594,400,4,66,5,2,7,MERGED
+136631,[3.14] gh-127146: Emscripten: Fix test_open_undecodable_uri by setting `-sTEXTDECODER=2` (GH-136624),miss-islington,2025-07-13T18:30:46Z,2025-07-14T02:49:36+00:00,1,8.31,True,3,0,2,271,2,0,2,MERGED
+136629,"Partially revert ""gh-101100: Fix sphinx warnings in `library/email.parser.rst` (#136475)""",hugovk,2025-07-13T15:24:08Z,2025-07-14T09:13:15+00:00,6,17.82,True,4,3,2,166,3,2,5,MERGED
+136624,gh-127146: Emscripten: Fix test_open_undecodable_uri by setting `-sTEXTDECODER=2`,hoodmane,2025-07-13T12:22:07Z,2025-07-13T18:30:38+00:00,1,6.14,True,3,0,2,183,4,0,4,MERGED
+136620,gh-136421: Fix crash in _datetime when initialized/finalized concurrently,neonene,2025-07-13T10:18:16Z,2025-07-20T12:58:53+00:00,1,170.68,False,45,6,3,16,10,3,13,CLOSED
+136617,gh-132983: Add missing references to Zstandard in shutil docstrings,Rogdham,2025-07-13T09:59:31Z,2025-07-23T18:09:53+00:00,2,248.17,True,5,5,1,182,2,0,2,MERGED
+136612,gh-101100: Resolve reference warnings in library/xml.sax.handler.rst,LamentXU123,2025-07-13T07:14:57Z,2025-09-03T00:35:22+00:00,3,1241.34,True,2,5,2,916,4,1,5,MERGED
+136608,[3.14] gh-134833: improve docs for `del s[i:j]` in `Mutable Sequence Types` (GH-134834),miss-islington,2025-07-13T05:56:38Z,2025-07-13T06:58:45+00:00,1,1.04,True,3,1,1,209,0,0,0,MERGED
+136600,gh-136599: Improve long_hash,eendebakpt,2025-07-12T21:36:40Z,2025-09-04T12:27:26+00:00,20,1286.85,True,18,1,2,1648,2,16,18,MERGED
+136596,gh-136438: Make sure `test_ast` pass with all optimization levels,efimov-mikhail,2025-07-12T17:43:52Z,2025-07-18T16:07:46+00:00,1,142.4,True,13,12,1,201,4,1,5,MERGED
+136594,gh-136438: Make sure `test_generated_cases` pass with all optimization levels,efimov-mikhail,2025-07-12T17:11:17Z,2025-07-21T12:25:25+00:00,4,211.24,True,4,4,2,1237,2,2,4,MERGED
+136588,"gh-130425: Add ""Did you mean [...]"" suggestions for `del obj.attr`",Pranjal095,2025-07-12T15:41:36Z,2025-08-22T10:21:16+00:00,8,978.66,True,98,17,4,281,3,18,21,MERGED
+136585,DOC:  Clarify version number in logging.rst,wjandrea,2025-07-12T14:15:49Z,2025-07-13T20:33:17+00:00,2,30.29,False,2,2,1,164,5,1,6,CLOSED
+136584,DOC: fix grammar typo in `Doc/library/logging.rst`,wjandrea,2025-07-12T14:09:29Z,2025-07-16T07:01:27+00:00,1,88.87,True,1,1,1,248,2,0,2,MERGED
+136583,gh-136421: Load `_datetime` static types during interpreter initialization,ZeroIntensity,2025-07-12T14:07:10Z,2025-07-21T17:47:26+00:00,27,219.67,True,111,95,8,502,15,8,23,MERGED
+136581,"[3.14] gh-91153: prevent a crash in `bytearray.__setitem__(ind, ...)` when `ind.__index__` has side-effects (GH-132379)",miss-islington,2025-07-12T13:37:59Z,2025-07-12T14:38:57+00:00,1,1.02,True,42,2,3,189,0,0,0,MERGED
+136570,gh-136547: allow to temporarily disable hash algorithms in tests,picnixz,2025-07-12T10:58:09Z,2025-07-13T08:58:15+00:00,1,22.0,True,461,13,2,16,9,0,9,MERGED
+136564,gh-134939: Correct `concurrent.interpreters` source code link,StanFromIreland,2025-07-12T07:56:24Z,2025-07-13T05:35:57+00:00,2,21.66,True,1,1,1,103,2,0,2,MERGED
+136562,gh-101100: Fix sphinx warnings in `Doc/library/platform.rst`,LamentXU123,2025-07-12T04:22:05Z,2025-07-12T18:15:05+00:00,1,13.88,True,2,3,2,746,4,0,4,MERGED
+136559,gh-136549: Fix signature of threading.excepthook(),serhiy-storchaka,2025-07-11T20:05:19Z,2025-07-12T15:54:27+00:00,2,19.82,True,3,1,3,16,5,0,5,MERGED
+136555,GH-116738: document thread-safety of bisect,nascheme,2025-07-11T18:14:40Z,2025-07-30T02:44:11+00:00,4,440.49,True,66,0,2,503,5,3,8,MERGED
+136548,"gh-89083: Add CLI tests for `UUIDv{6,7,8}`",LamentXU123,2025-07-11T15:33:19Z,2025-07-12T12:06:15+00:00,9,20.55,True,31,2,1,223,9,6,15,MERGED
+136546,gh-136492: Add `FrameLocalsProxyType` to `types`,ZeroIntensity,2025-07-11T14:27:42Z,2025-07-20T18:49:00+00:00,34,220.35,True,47,1,8,244,9,16,25,MERGED
+136534,gh-136156: Remove tempfile test_link_tmpfile(),vstinner,2025-07-11T09:50:39Z,2025-07-11T14:45:31+00:00,1,4.91,True,0,24,1,140,7,0,7,MERGED
+136531,gh-76637: Note that `undefined` Codec is for testing,StanFromIreland,2025-07-11T09:27:48Z,2025-07-11T10:50:21+00:00,1,1.38,True,5,1,1,102,5,0,5,MERGED
+136529,gh-136523: fix wave.Wave_write emitting an unraisable when open raises,inventshah,2025-07-11T03:30:36Z,2025-07-13T05:49:13+00:00,15,50.31,True,12,0,3,150,5,12,17,MERGED
+136528,GH-135904: Improve the JIT's performance on macOS,brandtbucher,2025-07-11T02:01:52Z,2025-07-14T17:14:20+00:00,1,87.21,True,73,61,6,1302,1,0,1,MERGED
+136525,gh-136396: Include instrumentation when creating new copies of the bytecode,mpage,2025-07-10T22:50:41Z,2025-07-14T17:48:10+00:00,3,90.96,True,161,1,3,840,2,1,3,MERGED
+136519,Omit `Python/perf_jit_trampoline.c` from the `**/*jit*` CODEOWNERS rule,brandtbucher,2025-07-10T19:11:12Z,2025-07-10T22:08:48+00:00,1,2.96,True,1,0,1,111,8,0,8,MERGED
+136518,gh-136517: Print uncollectable objects if DEBUG_UNCOLLECTABLE mode was set,sergey-miryanov,2025-07-10T18:18:30Z,2025-07-10T21:13:23+00:00,3,2.91,True,8,1,3,657,4,1,5,MERGED
+136510,gh-127146: Skip test_open_undecodable_uri on Emscripten,hoodmane,2025-07-10T14:25:20Z,2025-07-11T09:34:58+00:00,1,19.16,False,2,1,1,95,8,0,8,CLOSED
+136509,gh-127146: Report uid in Emscripten + node as native uid,hoodmane,2025-07-10T14:08:02Z,2025-07-16T04:17:16+00:00,1,134.15,True,22,2,4,183,21,0,21,MERGED
+136508,gh-136507: Fix mimetypes CLI to handle multiple file parameters,Wulian233,2025-07-10T13:03:43Z,2025-08-25T14:38:43+00:00,8,1105.58,True,36,11,3,16,10,4,14,MERGED
+136505,gh-111506: Add _Py_OPAQUE_PYOBJECT to hide PyObject layout & related API,encukou,2025-07-10T11:52:51Z,2025-07-12T07:55:12+00:00,1,44.04,True,123,25,8,741,3,3,6,MERGED
+136500,gh-136541: Fix several problems of perf trampolines in x86_64 and aarch64,pablogsal,2025-07-10T10:43:03Z,2025-07-11T13:32:35+00:00,1,26.83,True,148,41,5,268,55,0,55,MERGED
+136498,gh-52876: Implement missing parameter in `codecs.StreamReaderWriter` functions,StanFromIreland,2025-07-10T09:21:45Z,2025-07-10T15:42:14+00:00,1,6.34,True,8,5,2,226,6,0,6,MERGED
+136497,gh-82663: Clarify `codecs.iterdecode/encode` docs,StanFromIreland,2025-07-10T09:07:30Z,2025-07-10T15:31:08+00:00,1,6.39,True,4,4,1,206,6,0,6,MERGED
+136491,[3.14] gh-135846: Add zstd dependency to Android build script (GH-136253),miss-islington,2025-07-09T23:46:40Z,2025-07-10T00:51:09+00:00,1,1.07,True,1,1,1,189,2,0,2,MERGED
+136480,[3.13] GH-133136: Revise QSBR to reduce excess memory held (gh-135473),nascheme,2025-07-09T19:04:18Z,2025-07-30T18:06:44+00:00,1,503.04,True,8275,8108,9,935,2,0,2,MERGED
+136478,gh-136438: Make sure `test_compile` pass with all optimization levels,donBarbos,2025-07-09T17:16:26Z,2025-08-28T09:30:16+00:00,1,1192.23,True,9,3,1,1766,2,0,2,MERGED
+136475,gh-101100: Fix sphinx warnings in `library/email.parser.rst`,LamentXU123,2025-07-09T16:11:32Z,2025-07-11T09:37:01+00:00,9,41.42,True,5,6,2,1212,5,2,7,MERGED
+136474,gh-136438: Make sure `test_builtins` pass with all optimization levels,sobolevn,2025-07-09T15:56:08Z,2025-07-10T08:57:29+00:00,3,17.02,True,2,2,1,1951,6,0,6,MERGED
+136472,gh-136470: Correct InterpreterPoolExecutor's default thread name,aisk,2025-07-09T15:55:11Z,2025-07-20T23:34:32+00:00,14,271.66,True,19,0,3,75,4,6,10,MERGED
+136463,gh-121028: Soft-deprecate sys.api_version,encukou,2025-07-09T13:20:39Z,2025-07-21T12:22:48+00:00,1,287.04,True,5,2,1,189,3,0,3,MERGED
+136461,gh-136459: Add perf trampoline support for macOS ,canova,2025-07-09T10:10:09Z,2025-07-22T15:47:24+00:00,23,317.62,True,351,27,10,772,31,14,45,MERGED
+136460,Add Diego as code owner of the JIT,diegorusso,2025-07-09T09:41:10Z,2025-07-09T20:18:06+00:00,5,10.62,True,1,1,1,0,0,0,0,MERGED
+136448,gh-136447: Use `self.loop` instead of global `loop` variable in asyncio REPL,injust,2025-07-09T06:56:13Z,2025-07-09T08:57:21+00:00,1,2.02,True,1,1,1,224,6,0,6,MERGED
+136446,gh-94503: Update logging cookbook example.,vsajip,2025-07-09T05:52:16Z,2025-07-09T07:30:56+00:00,1,1.64,True,36,0,1,155,3,1,4,MERGED
+136441,"gh-132661: Add default value (of `""""`) for `Interpolation.expression`",davepeck,2025-07-08T23:57:59Z,2025-07-10T14:27:41+00:00,2,38.49,True,58,27,5,342,3,0,3,MERGED
+136435,gh-136434: Fix docs generation of `UnboundItem` in subinterpreters,sobolevn,2025-07-08T18:00:25Z,2025-07-11T12:32:00+00:00,6,66.53,True,14,7,2,1794,2,2,4,MERGED
+136432,gh-136394: Fix race condition in test_zstd,Rogdham,2025-07-08T17:40:54Z,2025-07-10T12:47:28+00:00,3,43.11,True,6,2,1,299,6,1,7,MERGED
+136431,"gh-102740: Clarify time.monotonic() ""system-wide"" in the doc",vstinner,2025-07-08T17:34:43Z,2025-07-09T23:06:48+00:00,2,29.53,True,8,6,1,103,5,0,5,MERGED
+136430,gh-136156: Skip test_tempfile.test_link_tmpfile() on Android,vstinner,2025-07-08T17:15:54Z,2025-07-09T22:17:22+00:00,5,29.02,True,1,0,1,16,6,1,7,MERGED
+136424,gh-101100: Fix sphinx warnings in `Doc/library/functools.rst`,LamentXU123,2025-07-08T15:24:24Z,2025-07-11T17:03:14+00:00,8,73.65,True,21,13,2,2775,7,6,13,MERGED
+136422,gh-136421: Fix crash when _datetime is been initialized in multiple sub-interpreters,aisk,2025-07-08T14:01:50Z,2025-07-22T11:47:27+00:00,8,333.76,False,8,1,2,16,4,4,8,CLOSED
+136419,gh-136516: Mention installation artifacts as de-facto resources,encukou,2025-07-08T13:10:07Z,2025-07-23T12:01:38+00:00,1,358.86,True,6,5,1,315,3,0,3,MERGED
+136412,gh-134043: use stackrefs for dict lookup in `_PyObject_GetMethodStackRef`,kumaraditya303,2025-07-08T11:41:29Z,2025-07-28T16:34:57+00:00,2,484.89,True,90,31,4,136,1,1,2,MERGED
+136411,GH-136410: Faster side exits,markshannon,2025-07-08T09:43:59Z,2025-08-01T15:26:08+00:00,20,581.7,True,387,267,15,516,9,9,18,MERGED
+136401,GH-91636: Clear weakrefs created by finalizers.,nascheme,2025-07-08T00:33:15Z,2025-07-08T19:19:58+00:00,4,18.78,True,54,14,4,634,5,2,7,MERGED
+136393,GH-115802: Optimize JIT stencils for size,brandtbucher,2025-07-07T18:52:43Z,2025-07-09T19:11:28+00:00,4,48.31,True,9,1,1,2507,0,1,1,MERGED
+136384,gh-136297: Fix `hypothesis` and `subTest` usage in `test_zoneinfo_property.py`,sobolevn,2025-07-07T14:23:09Z,2025-07-08T07:51:36+00:00,7,17.47,True,8,10,2,31,12,1,13,MERGED
+136381,gh-136380: Fix import behavior for concurrent.futures.InterpreterPoolExecutor,aisk,2025-07-07T13:17:23Z,2025-07-08T13:32:14+00:00,11,24.25,True,62,17,3,1919,5,9,14,MERGED
+136368,gh-98388: add tests for happy eyeballs ,kumaraditya303,2025-07-07T10:06:37Z,2025-07-07T18:00:27+00:00,2,7.9,True,88,0,1,267,2,5,7,MERGED
+136365,[3.14] gh-87790: support thousands separators for formatting fractional part of Decimal (GH-132202),miss-islington,2025-07-07T09:56:13Z,2025-07-07T16:24:31+00:00,1,6.47,True,28,1,3,162,0,0,0,MERGED
+136364,[3.14] gh-87790: support thousands separators for formatting fractional part of Fraction (GH-132204),miss-islington,2025-07-07T09:55:23Z,2025-07-07T16:24:24+00:00,1,6.48,True,24,1,3,109,0,0,0,MERGED
+136363,gh-136355: Deprecate `-b` and `-bb` CLI flags in 3.15,sobolevn,2025-07-07T09:33:23Z,2025-09-14T17:00:03+00:00,23,1663.44,True,34,0,6,103,8,16,24,MERGED
+136342,gh-109700: fix interp finalization while handling memory error,kumaraditya303,2025-07-06T16:30:06Z,2025-07-07T07:15:22+00:00,1,14.75,True,7,7,1,16,6,0,6,MERGED
+136341,gh-109070: Document that get_context in multiprocessing have side effect,aisk,2025-07-06T15:20:57Z,2025-07-06T18:26:26+00:00,1,3.09,True,7,5,1,103,3,0,3,MERGED
+136339,gh-135675: Document 10.16 vs 11.0 / 16.0 vs 26.0 behavior of platform.mac_ver(),bwoodsend,2025-07-06T14:50:22Z,2025-09-22T13:04:29+00:00,1,1870.24,False,11,0,1,338,6,2,8,CLOSED
+136338,gh-109700: fix memory error handling in `PyDict_SetDefault`,kumaraditya303,2025-07-06T13:58:05Z,2025-07-06T15:18:11+00:00,1,1.33,True,2,0,2,16,4,0,4,MERGED
+136334,gh-83714: Use statx on Linux 4.11 and later in os.stat,jbosboom,2025-07-06T08:26:11Z,2025-09-20T09:15:36+00:00,22,1824.82,False,1035,69,18,1320,20,18,38,CLOSED
+136332,gh-136021: Make `type_params` a required parameter for `typing._eval_type`,sobolevn,2025-07-06T07:19:50Z,2025-07-06T19:11:14+00:00,1,11.86,True,4,32,3,16,0,0,0,MERGED
+136328,gh-72327: Suggest using system terminal for pip install in PyREPL,ichard26,2025-07-05T22:51:08Z,2025-07-15T14:25:07+00:00,8,231.57,True,29,1,4,375,11,3,14,MERGED
+136326,gh-136289: Fix test_sqlite3 on platforms with strict UTF-8 filesystem,serhiy-storchaka,2025-07-05T20:53:09Z,2025-07-07T06:29:00+00:00,1,33.6,True,14,12,1,16,5,0,5,MERGED
+136325,gh-86682: Add versionadded for sys._getframemodulename,asottile,2025-07-05T19:13:14Z,2025-07-07T11:22:04+00:00,3,40.15,True,2,0,1,115,4,0,4,MERGED
+136319,gh-136316: Make typing.evaluate_forward_ref better at evaluating nested forwardrefs,JelleZijlstra,2025-07-05T13:57:15Z,2025-07-06T23:44:20+00:00,1,33.78,True,23,3,4,33,3,0,3,MERGED
+136314,gh-136278: Document codecs.escape_encode() and codecs.escape_decode(),Toshaksha,2025-07-05T07:12:49Z,2025-07-27T16:37:53+00:00,4,537.42,True,30,0,1,637,12,5,17,MERGED
+136310,gh-136278: Add documentation for codecs.escape_encode() and codecs.escape_decode(),Toshaksha,2025-07-05T05:00:58Z,2025-07-05T07:20:20+00:00,1,2.32,False,32,0,1,103,2,0,2,CLOSED
+136309,gh-101100: Fix sphinx warnings in `Doc/library/exceptions.rst`,unknown,2025-07-05T03:45:19Z,2025-07-08T12:05:05+00:00,1,80.33,True,19,12,2,103,4,2,6,MERGED
+136307,gh-136306: Add support for SSL groups,ronf,2025-07-04T22:40:00Z,2025-07-28T17:33:31+00:00,57,570.89,True,370,1,11,181,28,32,60,MERGED
+136304,gh-135552: Add tests that check if weakref for tp_subclasses cleared after finalization,sergey-miryanov,2025-07-04T20:14:31Z,2025-08-08T00:45:33+00:00,6,820.52,True,57,0,2,36,5,3,8,MERGED
+136301,gh-136300: Modify C tests to conform to PEP-737,wsfulton,2025-07-04T18:40:26Z,2025-07-11T13:18:35+00:00,1,162.64,True,5,9,5,147,1,4,5,MERGED
+136299,Doc: More duplicate word fix,LamentXU123,2025-07-04T18:29:12Z,2025-07-11T18:18:47+00:00,3,167.83,True,12,12,12,102,0,1,1,MERGED
+136298,gh-136297: Test all `pickle` protocols in `test_zoneinfo_property.py`,sobolevn,2025-07-04T18:26:27Z,2025-07-05T06:14:40+00:00,3,11.8,True,11,7,1,16,4,1,5,MERGED
+136293,[3.9] gh-135661: Fix parsing start and end tags in HTMLParser according to the HTML5 standard (GH-135930) (GH-136268),miss-islington,2025-07-04T15:28:16Z,2025-07-12T12:27:09+00:00,1,188.98,True,222,120,5,1356,0,0,0,MERGED
+136292,[3.10] gh-135661: Fix parsing start and end tags in HTMLParser according to the HTML5 standard (GH-135930) (GH-136268),miss-islington,2025-07-04T15:28:12Z,2025-07-12T12:26:59+00:00,1,188.98,True,222,120,5,1356,0,0,0,MERGED
+136291,[3.11] gh-135661: Fix parsing start and end tags in HTMLParser according to the HTML5 standard (GH-135930) (GH-136268),miss-islington,2025-07-04T15:28:07Z,2025-07-12T12:26:49+00:00,1,188.98,True,222,120,5,1356,0,0,0,MERGED
+136286,gh-136285: Improve `pickle` protocol testing in `test_interpreters`,sobolevn,2025-07-04T12:54:06Z,2025-07-06T07:35:30+00:00,3,42.69,True,28,30,7,16,3,1,4,MERGED
+136284,gh-53243: Document `codecs.readbuffer_encode()`,StanFromIreland,2025-07-04T11:58:02Z,2025-07-09T07:39:55+00:00,6,115.7,True,14,0,1,156,6,3,9,MERGED
+136281,gh-136156: Allow using linkat() with TemporaryFile,vstinner,2025-07-04T10:55:06Z,2025-07-08T16:39:47+00:00,2,101.74,True,27,1,3,145,11,1,12,MERGED
+136276,[3.9] gh-102555: Fix comment parsing in HTMLParser according to the HTML5 standard (GH-135664),miss-islington,2025-07-04T07:01:02Z,2025-07-12T12:24:14+00:00,1,197.39,True,50,3,3,333,0,0,0,MERGED
+136275,[3.10] gh-102555: Fix comment parsing in HTMLParser according to the HTML5 standard (GH-135664),miss-islington,2025-07-04T07:00:56Z,2025-07-12T12:24:27+00:00,1,197.39,True,50,3,3,333,0,0,0,MERGED
+136274,[3.11] gh-102555: Fix comment parsing in HTMLParser according to the HTML5 standard (GH-135664),miss-islington,2025-07-04T07:00:48Z,2025-07-12T12:24:39+00:00,1,197.4,True,50,3,3,333,0,0,0,MERGED
+136273,[3.12] gh-102555: Fix comment parsing in HTMLParser according to the HTML5 standard (GH-135664),miss-islington,2025-07-04T07:00:41Z,2025-07-12T12:24:52+00:00,1,197.4,True,50,3,3,333,0,0,0,MERGED
+136270,gh-131825: Fixed sqlite timezone-naive adapter recipe,NekrodNIK,2025-07-04T06:54:40Z,2025-07-09T14:06:43+00:00,2,127.2,True,1,1,1,103,6,0,6,MERGED
+136268,[3.12] gh-135661: Fix parsing start and end tags in HTMLParser according to the HTML5 standard (GH-135930),serhiy-storchaka,2025-07-04T05:28:12Z,2025-07-04T15:28:00+00:00,1,10.0,True,222,120,5,1159,4,0,4,MERGED
+136263,Move or outside monospace syntax in tarfile.rst,rffontenelle,2025-07-04T01:42:20Z,2025-07-04T14:40:32+00:00,2,12.97,True,6,5,1,285,5,0,5,MERGED
+136258,gh-136288: Correct error display in _testcapi/vectorcall.c,wsfulton,2025-07-03T20:58:04Z,2025-07-04T15:54:00+00:00,4,18.93,True,4,4,1,158,5,1,6,MERGED
+136253,gh-135846: Add zstd dependency to Android build script,emmatyping,2025-07-03T18:36:52Z,2025-07-09T23:46:33+00:00,2,149.16,True,1,1,1,306,16,1,17,MERGED
+136252,gh-136251: Improvements to WASM demo REPL,adqm,2025-07-03T17:43:47Z,2025-07-21T09:56:46+00:00,19,424.22,True,327,56,7,1323,35,10,45,MERGED
+136249,gh-115999: remove redundant check in free-threading from `_STORE_ATTR_WITH_HINT`,kumaraditya303,2025-07-03T16:01:31Z,2025-07-04T03:34:47+00:00,1,11.55,True,0,25,3,16,4,0,4,MERGED
+136238,gh-101100: Fix references in http.cookiejar docs #114658,LamentXU123,2025-07-03T10:36:17Z,2025-07-05T13:29:02+00:00,3,50.88,True,1,1,1,615,10,0,10,MERGED
+136230,gh-136229: Remove Platform Emscripten is not supported warning,hoodmane,2025-07-03T08:33:09Z,2025-07-09T02:26:41+00:00,4,137.89,True,24,21,2,16,5,1,6,MERGED
+136218,gh-133982: Test _pyio.BytesIO in free-threaded tests,cmaloney,2025-07-02T21:49:37Z,2025-07-04T02:27:21+00:00,3,28.63,True,80,47,5,983,5,0,5,MERGED
+136217,gh-94503: Update logging cookbook with an example of uniformly handli…,vsajip,2025-07-02T19:17:43Z,2025-07-07T09:01:03+00:00,2,109.72,True,62,0,1,128,3,1,4,MERGED
+136211,Replace `capi-sig` mailing list with `discuss.python.org`,sobolevn,2025-07-02T16:27:41Z,2025-07-02T17:43:43+00:00,1,1.27,True,1,2,1,193,3,0,3,MERGED
+136210,gh-136209: Add .. c:var:: declarations for C exception types,encukou,2025-07-02T15:40:58Z,2025-07-10T11:07:55+00:00,4,187.45,True,187,320,2,570,8,2,10,MERGED
+136205,gh-115119: recommend upstream libmpdec in build requirements,skirpichev,2025-07-02T13:02:11Z,2025-07-03T12:44:59+00:00,5,23.71,True,3,0,1,103,4,3,7,MERGED
+136204,gh-136203: Improve `TypeError` msg when comparing two `MappingProxyType`s,sobolevn,2025-07-02T12:19:57Z,2025-07-02T16:05:28+00:00,4,3.76,True,27,1,3,37,2,3,5,MERGED
+136195,gh-136193: Improve `TypeError` msg when comparing two `SimpleNamespace`s,sobolevn,2025-07-02T07:50:15Z,2025-07-02T11:32:41+00:00,7,3.71,True,27,2,3,16,2,2,4,MERGED
+136189,gh-135552: Make the GC clear weakrefs later,nascheme,2025-07-01T20:44:59Z,2025-08-07T23:32:17+00:00,12,890.79,True,318,141,9,1034,43,9,52,MERGED
+136188,gh-136134: Fallback to next auth method when CRAM-MD5 fails due to unsupported hash (e.g. FIPS),nogueira-raphael,2025-07-01T20:12:20Z,2025-07-13T09:16:40+00:00,11,277.07,False,74,4,3,348,3,5,8,CLOSED
+136187,gh-136155: Docs: only add custom OpenGraph protocol meta tags for HTML builds,m-aciek,2025-07-01T20:10:17Z,2025-07-07T13:29:27+00:00,3,137.32,True,11,9,2,157,11,1,12,MERGED
+136184,gh-136183: Deal with escapes in JIT optimizer's constant evaluator,Fidget-Spinner,2025-07-01T15:38:51Z,2025-07-02T06:08:25+00:00,1,14.49,True,77,7,6,16,1,2,3,MERGED
+136180,gh-135075: Make PyObject_SetAttr() fail with NULL value and exception,vstinner,2025-07-01T14:26:01Z,2025-07-03T12:51:44+00:00,17,46.43,True,109,9,5,212,2,11,13,MERGED
+136178,gh-127705: Move Py_INCREF_MORTAL() to the internal C API,vstinner,2025-07-01T14:06:46Z,2025-07-02T13:40:41+00:00,2,23.57,True,18,18,3,116,3,0,3,MERGED
+136168,[3.13] gh-135836: Fix `IndexError` in `asyncio.create_connection` with empty exceptions list (GH-135845),miss-islington,2025-07-01T11:50:24Z,2025-07-03T04:07:28+00:00,1,40.28,True,35,1,3,181,0,0,0,MERGED
+136167,[3.14] gh-135836: Fix `IndexError` in `asyncio.create_connection` with empty exceptions list (GH-135845),miss-islington,2025-07-01T11:50:19Z,2025-07-03T04:07:18+00:00,1,40.28,True,35,1,3,181,0,0,0,MERGED
+136166,gh-136097: Fix sysconfig._parse_makefile(),serhiy-storchaka,2025-07-01T11:45:11Z,2025-10-04T13:57:13+00:00,2,2282.2,True,132,87,3,381,0,0,0,MERGED
+136164,gh-136162: Document `encodings`,StanFromIreland,2025-07-01T09:14:45Z,2025-07-08T21:34:48+00:00,10,180.33,True,61,1,2,559,12,4,16,MERGED
+136163,gh-101100: Fix sphinx warnings in `whatsnew/3.9`,sobolevn,2025-07-01T08:00:05Z,2025-07-07T10:41:11+00:00,2,146.69,True,10,6,3,1092,3,1,4,MERGED
+136159,gh-136157: Optimize asyncio.to_thread to avoid contextvars.copy_context() overhead for empty contexts,heliang666s,2025-07-01T02:08:21Z,2025-07-03T05:17:35+00:00,2,51.15,False,42,2,3,16,5,2,7,CLOSED
+136150,gh-135629: rewrite language reference section on except* to improve clarity,iritkatriel,2025-06-30T22:14:17Z,2025-09-16T12:56:51+00:00,2,1862.71,True,32,28,1,103,14,4,18,MERGED
+136146,gh-136145: Define 'standard library' and 'stdlib' in the glossary,zware,2025-06-30T19:27:51Z,2025-07-09T21:33:46+00:00,13,218.1,True,13,0,1,103,5,5,10,MERGED
+136144,gh-132969: ACKS file update was missed in gh-133222,ogbiggles,2025-06-30T18:17:22Z,2025-07-13T05:49:44+00:00,2,299.54,True,1,0,1,53,0,0,0,MERGED
+136137,gh-136135: Doc: Fix some broken links,LamentXU123,2025-06-30T16:09:01Z,2025-07-03T00:51:31+00:00,2,56.71,True,2,2,2,128,5,0,5,MERGED
+136133,gh-136032: Fix `argparse.BooleanOptionalAction` doc,mattwang44,2025-06-30T14:54:46Z,2025-07-05T22:54:26+00:00,10,127.99,True,20,17,1,103,6,4,10,MERGED
+136127,gh-136125: Use `_PyObject_GetMethodStackRef` for  `LOAD_ATTR`,Fidget-Spinner,2025-06-30T14:14:56Z,2025-07-01T17:20:46+00:00,1,27.1,True,29,32,6,16,0,0,0,MERGED
+136126,[3.13] gh-135607: remove null checking of weakref list in dealloc of extension modules and objects (#135614),vstinner,2025-06-30T14:07:10Z,2025-07-01T09:26:52+00:00,1,19.33,True,75,73,31,55,1,0,1,MERGED
+136117,gh-85702: Catch PermissionError in zoneinfo.load_tzdata(),vstinner,2025-06-30T09:13:57Z,2025-06-30T14:33:01+00:00,3,5.32,True,9,2,2,15,12,1,13,MERGED
+136115,gh-136047: Allow typing._allow_reckless_class_checks to check `_py_abc`,youknowone,2025-06-30T07:49:33Z,2025-07-05T14:24:33+00:00,2,126.58,True,5,1,2,415,0,1,1,MERGED
+136107,gh-132657: Avoid locks and refcounts in frozenset operations,eendebakpt,2025-06-29T20:27:04Z,2025-08-30T19:25:36+00:00,2,1486.98,True,26,10,2,8877,3,1,4,MERGED
+136088,gh-136087: Remove `\r` from documented `os.linesep` values,sobolevn,2025-06-29T04:48:46Z,2025-06-30T07:12:06+00:00,1,26.39,True,1,1,1,16,4,0,4,MERGED
+136086,Doc: fix duplicated words,LamentXU123,2025-06-29T04:15:36Z,2025-06-29T22:04:02+00:00,11,17.81,True,7,7,7,585,15,4,19,MERGED
+136085,"gh-131885: update documented signatures for `csv.{writer,reader}`",adamtheturtle,2025-06-29T04:08:58Z,2025-06-30T13:32:51+00:00,1,33.4,True,2,2,1,383,4,0,4,MERGED
+136082,gh-133125: Clarify ZipInfo.date_time attribute documentation,KentaroJay,2025-06-28T18:31:45Z,2025-08-22T23:52:30+00:00,3,1325.35,True,13,2,1,103,7,4,11,MERGED
+136081,gh-127604: Docs: Include a C stack in the `faulthandler` example,ZeroIntensity,2025-06-28T16:54:03Z,2025-06-29T14:58:26+00:00,4,22.07,True,36,1,1,193,7,1,8,MERGED
+136071,gh-134759: `UnboundLocalError` in `email.message.Message.get_payload`,skv0zsneg,2025-06-28T11:26:30Z,2025-07-12T13:30:09+00:00,10,338.06,True,14,0,4,456,9,4,13,MERGED
+136069,gh-136066: simplify `platform._platform()`,picnixz,2025-06-28T09:22:18Z,2025-06-29T07:56:53+00:00,9,22.58,True,21,17,2,16,2,3,5,MERGED
+136068,gh-63207: Update `time.time` documentation after #116822,StanFromIreland,2025-06-28T09:16:35Z,2025-06-30T16:10:24+00:00,1,54.9,True,6,1,1,240,4,0,4,MERGED
+136058,gh-81520:  Add documentatoion about unexpected os.path.ismount() behaviour,bionade24,2025-06-28T06:30:02Z,2025-07-09T15:54:59+00:00,11,273.42,True,4,3,1,328,10,4,14,MERGED
+136054,gh-136053: Memory Safety Issue in marshal.c TYPE_SLICE Case,akshat62,2025-06-27T20:11:01Z,2025-06-29T07:07:24+00:00,13,34.94,True,4,0,2,16,6,10,16,MERGED

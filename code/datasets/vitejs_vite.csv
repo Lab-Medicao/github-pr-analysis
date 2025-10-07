@@ -1,5 +1,9 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+20897,chore(deps): update dependency markdown-it-image-size to v15,renovate,2025-10-06T01:51:12Z,2025-10-06T03:56:38+00:00,1,2.09,True,6,6,2,1124,0,0,0,MERGED
+20894,fix(deps): update all non-major dependencies,renovate,2025-10-06T00:48:25Z,2025-10-06T02:56:24+00:00,1,2.13,True,457,407,30,13351,0,0,0,MERGED
+20893,chore(deps): update dependency tsdown to ^0.15.6,renovate,2025-10-06T00:47:43Z,2025-10-06T02:58:34+00:00,1,2.18,True,10,16,3,940,0,0,0,MERGED
 20890,docs: correct `WebSocket` spelling,iiio2,2025-10-04T12:31:17Z,2025-10-05T01:55:41+00:00,1,13.41,True,4,4,4,98,2,0,2,MERGED
+20888,docs(cli): document `vite preview` with more information,Flimm,2025-10-03T07:57:41Z,2025-10-06T03:52:54+00:00,1,67.92,True,2,0,1,570,0,0,0,MERGED
 20887,fix(dev): remove timestamp query consistently,sapphi-red,2025-10-03T05:49:59Z,2025-10-03T09:52:40+00:00,3,4.04,True,17,19,1,1773,0,1,1,MERGED
 20883,fix(css): respect emitAssets when cssCodeSplit=false,lucalooz,2025-10-02T15:56:48Z,2025-10-03T09:53:29+00:00,2,17.94,True,11,1,1,332,0,0,0,MERGED
 20872,fix(glob): fix HMR for array patterns with exclusions,abbasyed,2025-10-02T00:58:52Z,2025-10-02T05:43:27+00:00,1,4.74,True,78,14,5,2981,0,0,0,MERGED
@@ -35,6 +39,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 20772,chore(deps): update rolldown-related dependencies,renovate,2025-09-15T01:10:13Z,2025-09-15T06:00:24+00:00,1,4.84,True,42,241,4,5271,0,0,0,MERGED
 20768,fix(hmr): trigger prune event when import is removed from non hmr module,hi-ogawa,2025-09-14T08:29:46Z,2025-09-22T03:59:12+00:00,4,187.49,True,35,1,8,727,2,1,3,MERGED
 20761,fix(esbuild): inject esbuild helper functions with minified `$` variables correctly,james-od,2025-09-13T10:17:31Z,2025-09-13T13:53:49+00:00,3,3.6,True,60,24,2,1515,0,2,2,MERGED
+20760,fix(dev): allow aliases starting with `//`,HunterLarco,2025-09-12T23:02:41Z,2025-10-06T08:51:21+00:00,2,561.81,True,15,2,5,923,9,0,9,MERGED
 20759,feat(vite): expose injectEnvironmentToHooks,threema-andre,2025-09-12T11:47:11Z,2025-09-16T07:19:34+00:00,2,91.54,False,4,1,2,239,1,1,2,CLOSED
 20756,docs: add plugin hook filter info to Plugin Authors guide,abbasyed,2025-09-12T04:17:56Z,2025-10-02T14:16:09+00:00,8,489.97,True,37,7,2,520,3,7,10,MERGED
 20755,fix(types): strict env typings fail when `skipLibCheck` is `false`,NeoIsRecursive,2025-09-11T18:20:52Z,2025-09-13T14:22:30+00:00,2,44.03,True,1,2,1,647,1,0,1,MERGED
@@ -149,3 +154,848 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 20406,fix(deps): update all non-major dependencies,renovate,2025-07-14T03:11:04Z,2025-07-15T01:09:07+00:00,1,21.97,True,436,342,14,13377,1,0,1,MERGED
 20405,chore(deps): update dependency rolldown to ^1.0.0-beta.27,renovate,2025-07-14T03:10:31Z,2025-07-14T07:08:25+00:00,1,3.96,True,110,74,2,4479,1,0,1,MERGED
 20404,docs: tiny typo,iiio2,2025-07-13T13:57:01Z,2025-07-14T08:53:56+00:00,1,18.95,True,3,3,3,11,1,0,1,MERGED
+20402,refactor: use `http-proxy-3`,sapphi-red,2025-07-12T15:19:34Z,2025-07-25T03:05:27+00:00,4,299.76,True,73,450,13,190,6,2,8,MERGED
+20401,docs: suggest `import.meta.hot.accept` in server entry,hi-ogawa,2025-07-12T08:16:48Z,2025-07-14T07:05:50+00:00,1,46.82,True,11,0,1,141,1,0,1,MERGED
+20394,feat(create-vite): bump vite-plugin-svelte to new major for vite7,dominikg,2025-07-10T14:38:35Z,2025-07-11T01:39:50+00:00,1,11.02,True,4,4,2,241,0,0,0,MERGED
+20393,fix(legacy): `modernTargets` should set `build.target`,sapphi-red,2025-07-10T13:40:46Z,2025-08-07T08:01:35+00:00,5,666.35,True,39,27,2,1011,0,2,2,MERGED
+20392,fix(legacy): don't lower CSS if legacy chunks are not generated,sapphi-red,2025-07-10T13:20:02Z,2025-07-11T12:13:40+00:00,1,22.89,True,1,1,1,176,0,0,0,MERGED
+20391,fix(hmr): register css deps as `type: asset`,sapphi-red,2025-07-10T08:50:34Z,2025-07-29T10:26:34+00:00,7,457.6,True,78,64,10,342,5,6,11,MERGED
+20388,"docs: organize ""Environment API for Frameworks"" page based on communication levels",sapphi-red,2025-07-10T03:53:42Z,2025-07-11T11:59:23+00:00,3,32.09,True,51,70,2,171,0,1,1,MERGED
+20387,perf(legacy): skip lowering when detecting polyfills,sapphi-red,2025-07-10T03:12:06Z,2025-07-17T01:53:53+00:00,1,166.7,True,41,25,4,412,0,0,0,MERGED
+20383,docs: fix regular expression on the Rolldown page,gynekolog,2025-07-09T12:06:03Z,2025-07-10T03:52:27+00:00,1,15.77,True,1,1,1,114,0,0,0,MERGED
+20382,"fix: watch assets referenced by `new URL(, import.meta.url)`",sapphi-red,2025-07-09T10:56:49Z,2025-07-15T05:09:17+00:00,1,138.21,True,74,11,10,23,2,0,2,MERGED
+20379,fix: allow resolving bare specifiers to relative paths for entries,sapphi-red,2025-07-09T02:58:46Z,2025-07-10T09:04:48+00:00,1,30.1,True,4,1,2,627,5,0,5,MERGED
+20376,fix: remove special handling for `Accept: text/html`,sapphi-red,2025-07-08T12:55:25Z,2025-07-16T10:15:07+00:00,4,189.33,True,6,25,4,375,8,0,8,MERGED
+20368,chore: use `n/prefer-node-protocol` rule,sapphi-red,2025-07-07T05:03:49Z,2025-07-07T09:59:53+00:00,1,4.93,True,11,14,8,192,0,0,0,MERGED
+20366,fix(deps): update all non-major dependencies,renovate,2025-07-07T01:15:06Z,2025-07-07T04:58:42+00:00,1,3.73,True,588,630,22,9745,0,0,0,MERGED
+20365,chore(deps): update dependency rolldown to ^1.0.0-beta.24,renovate,2025-07-07T01:14:35Z,2025-07-07T04:13:28+00:00,1,2.98,True,163,19,2,6393,1,0,1,MERGED
+20364,docs: mention `bun.lock` for lockfile,iiio2,2025-07-06T04:27:03Z,2025-07-07T03:58:25+00:00,1,23.52,True,1,1,1,85,1,0,1,MERGED
+20359,fix(client): protect against window being defined but addEv undefined,mustafa0x,2025-07-05T05:43:41Z,2025-07-07T04:21:59+00:00,1,46.64,True,2,1,1,12,0,0,0,MERGED
+20358,refactor: use hook filters in internal plugins,sapphi-red,2025-07-04T13:13:42Z,2025-07-25T03:04:15+00:00,1,493.84,True,707,703,14,128,0,0,0,MERGED
+20353,docs: update environment api as release candidate,bluwy,2025-07-04T06:02:16Z,2025-07-04T09:01:43+00:00,3,2.99,True,25,16,6,519,0,0,0,MERGED
+20352,docs: add `import.meta.env.DEV` example,adithyaa-s,2025-07-04T05:48:22Z,2025-09-22T04:46:12+00:00,5,1918.96,True,11,0,1,24,0,4,4,MERGED
+20351,feat(create-vite): update rsc template to use `@vitejs/plugin-rsc`,hi-ogawa,2025-07-04T05:39:53Z,2025-07-07T04:23:07+00:00,1,70.72,True,3,3,1,121,0,0,0,MERGED
+20347,docs(rolldown): update manualChunks status,TheAlexLichter,2025-07-03T15:52:44Z,2025-07-04T06:56:41+00:00,1,15.07,True,1,1,1,181,0,0,0,MERGED
+20338,fix(define): replace optional values,sapphi-red,2025-07-02T08:43:57Z,2025-07-07T08:25:35+00:00,1,119.69,True,24,1,4,261,0,0,0,MERGED
+20337,chore: fix typos and grammatical errors across documentation and comments,lyw405,2025-07-02T06:02:06Z,2025-07-02T09:35:46+00:00,1,3.56,True,20,20,14,801,0,0,0,MERGED
+20336,chore(legacy): fix type error in remove polyfill import babel plugin,sapphi-red,2025-07-02T04:33:53Z,2025-07-03T08:43:18+00:00,1,28.16,True,25,54,1,299,0,0,0,MERGED
+20335,refactor(legacy): use Rollup type export from Vite,sapphi-red,2025-07-02T04:21:00Z,2025-07-02T09:36:34+00:00,1,5.26,True,16,22,1,138,0,0,0,MERGED
+20325,chore(deps): update dependency dotenv to v17,renovate,2025-06-30T02:35:27Z,2025-07-07T08:58:09+00:00,1,174.38,True,9,3,2,927,0,0,0,MERGED
+20324,fix(deps): update all non-major dependencies,renovate,2025-06-30T00:36:33Z,2025-06-30T03:25:04+00:00,1,2.81,True,804,763,21,13012,0,0,0,MERGED
+20323,chore(deps): update rolldown-related dependencies,renovate,2025-06-30T00:36:00Z,2025-06-30T02:33:30+00:00,1,1.96,True,111,248,4,3819,0,0,0,MERGED
+20313,docs(troubleshooting): add section for `Failed to fetch dynamically imported module` error,sapphi-red,2025-06-27T17:19:11Z,2025-08-18T12:29:16+00:00,3,1243.17,True,45,2,2,537,4,4,8,MERGED
+20310,chore: group commits by category in changelog,sapphi-red,2025-06-27T03:38:56Z,2025-07-03T07:24:19+00:00,3,147.76,True,2105,1755,8,536,1,2,3,MERGED
+20302,test(resolve): add glob pattern sideEffects field test,sapphi-red,2025-06-26T10:38:36Z,2025-06-26T13:17:50+00:00,1,2.65,True,29,0,8,124,0,0,0,MERGED
+20301,feat(dev): add `this.fs` support,sapphi-red,2025-06-26T08:12:28Z,2025-07-25T03:03:41+00:00,1,690.85,True,140,106,5,93,0,0,0,MERGED
+20300,fix(css): skip resolving resolved paths in sass,sapphi-red,2025-06-26T06:06:30Z,2025-06-27T03:55:10+00:00,3,21.81,True,53,26,6,139,0,1,1,MERGED
+20296,fix(plugin-legacy): add types export,ocavue,2025-06-25T14:47:28Z,2025-07-09T08:28:01+00:00,1,329.68,False,1,0,1,767,4,0,4,CLOSED
+20291,docs: add vite 6 docs to version dropdown,LovelessCodes,2025-06-25T09:31:10Z,2025-06-26T04:42:08+00:00,1,19.18,True,5,1,1,208,1,0,1,MERGED
+20279,feat: export `defaultExternalConditions`,Andarist,2025-06-24T09:32:10Z,2025-07-25T02:54:57+00:00,3,737.38,True,6,2,4,530,0,0,0,MERGED
+20277,fix(module-runner): expose `normalizeModuleId`,sheremet-va,2025-06-23T11:07:59Z,2025-06-24T01:33:11+00:00,1,14.42,True,6,2,2,144,0,0,0,MERGED
+20276,chore: remove rolldown from onlyBuiltDependencies,btea,2025-06-23T06:19:37Z,2025-06-23T08:18:48+00:00,1,1.99,True,0,1,1,151,0,0,0,MERGED
+20275,docs(deps): update to vitepress v2 alpha,sapphi-red,2025-06-23T04:50:22Z,2025-06-25T10:20:41+00:00,4,53.51,True,186,264,4,111,1,1,2,MERGED
+20274,feat(types): use terser types from terser package,sapphi-red,2025-06-23T03:00:00Z,2025-06-24T01:31:39+00:00,4,22.53,True,20,260,5,415,4,1,5,MERGED
+20271,fix(deps): update all non-major dependencies,renovate,2025-06-23T01:17:46Z,2025-06-23T02:37:50+00:00,1,1.33,True,472,378,31,10062,0,0,0,MERGED
+20270,chore(deps): update rolldown-related dependencies,renovate,2025-06-23T01:17:16Z,2025-06-23T02:39:42+00:00,1,1.37,True,231,128,6,1574,1,0,1,MERGED
+20266,fix(module-runner): export `ssrExportNameKey`,sheremet-va,2025-06-22T08:53:20Z,2025-06-23T01:15:41+00:00,2,16.37,True,1,0,1,58,0,0,0,MERGED
+20260,feat(ssr): support `import.meta.resolve` in module runner,sapphi-red,2025-06-21T11:35:22Z,2025-07-28T03:14:33+00:00,9,879.65,True,171,41,12,678,9,4,13,MERGED
+20259,chore: typos in comments,kilavvy,2025-06-20T21:59:17Z,2025-06-21T05:55:10+00:00,1,7.93,True,2,2,2,271,0,0,0,MERGED
+20257,feat(create-vite): validate project name,btea,2025-06-20T14:48:59Z,2025-06-23T01:24:26+00:00,2,58.59,True,6,1,1,272,0,0,0,MERGED
+20256,chore: update onlyBuiltDependencies,btea,2025-06-20T14:33:03Z,2025-06-23T01:53:44+00:00,2,59.34,True,3,0,1,85,0,1,1,MERGED
+20244,perf(utils): improve performance of `numberToPos`,yuzheng14,2025-06-19T13:45:54Z,2025-06-20T04:50:58+00:00,3,15.08,True,38,16,3,1171,1,0,1,MERGED
+20243,fix(types): add a global interface for Worker,samchungy,2025-06-19T12:07:06Z,2025-06-26T02:09:48+00:00,3,158.04,True,11,1,2,685,2,0,2,MERGED
+20239,docs: per-environment state in plugins,patak-dev,2025-06-19T08:41:52Z,2025-06-23T12:03:31+00:00,3,99.36,True,23,0,1,1694,2,2,4,MERGED
+20235,fix: keep `import.meta.url` in bundled Vite,sapphi-red,2025-06-18T07:41:50Z,2025-06-18T09:07:20+00:00,1,1.43,True,1,1,1,804,0,0,0,MERGED
+20222,feat: apply some middlewares before `configureServer` hook,sapphi-red,2025-06-16T06:40:04Z,2025-06-17T02:22:46+00:00,1,19.71,True,16,12,1,1128,3,0,3,MERGED
+20213,"test: fix flaky ""deleted file should trigger dispose ..."" test in hmr-ssr playground",sapphi-red,2025-06-16T04:58:49Z,2025-06-16T07:39:30+00:00,1,2.68,True,17,10,1,213,0,0,0,MERGED
+20212,fix(deps): update all non-major dependencies,renovate,2025-06-16T01:20:16Z,2025-06-16T02:23:07+00:00,1,1.05,True,422,456,16,8002,0,0,0,MERGED
+20211,chore(deps): update rolldown-related dependencies,renovate,2025-06-16T01:19:58Z,2025-06-16T02:34:17+00:00,1,1.24,True,25,145,2,1040,0,0,0,MERGED
+20210,docs: mention `bun.lock` for lockfile,iiio2,2025-06-15T14:00:29Z,2025-07-06T04:22:34+00:00,6,494.37,False,1,1,1,149,5,2,7,CLOSED
+20209,feat(create-vite): add `@hiogawa/vite-rsc`,hi-ogawa,2025-06-15T06:10:57Z,2025-06-16T08:44:04+00:00,2,26.55,True,7,0,1,630,1,0,1,MERGED
+20208,docs: correct heading level in `ssr-options.md`,lumirlumir,2025-06-15T01:53:18Z,2025-06-16T01:18:27+00:00,1,23.42,True,1,1,1,103,0,0,0,MERGED
+20206,test: use `expect.poll` instead of `withRetry`/`expectWithRetry`/`untilUpdated`,sapphi-red,2025-06-14T17:36:54Z,2025-06-16T04:53:18+00:00,1,35.27,True,873,1021,41,418,0,0,0,MERGED
+20199,fix(create-vite): targetDir is empty fallback defaultTargetDir,btea,2025-06-12T14:52:10Z,2025-06-12T15:53:25+00:00,2,1.02,True,1,1,1,266,0,0,0,MERGED
+20196,docs(rolldown): update to reflect the latest changes,sapphi-red,2025-06-12T02:44:49Z,2025-06-12T09:01:03+00:00,1,6.27,True,22,11,1,317,0,0,0,MERGED
+20193,docs: fix minor grammar issue in `config/build-options`,sadan4,2025-06-11T19:35:28Z,2025-06-12T01:24:29+00:00,1,5.82,True,1,1,1,88,0,0,0,MERGED
+20189,fix: error starting solid project with Tanstack Router template,fatkharrofiqi,2025-06-10T13:45:29Z,2025-06-11T06:40:29+00:00,1,16.92,True,1,1,1,75,0,0,0,MERGED
+20188,docs: update @vitejs/plugin-react-swc link in features.md,Musanna-al-akil,2025-06-09T19:52:03Z,2025-06-10T01:39:00+00:00,1,5.78,True,1,1,1,105,0,0,0,MERGED
+20186,docs: url reference for multiples environments in `this-environment-in-hooks`,mrcego,2025-06-09T15:04:04Z,2025-06-10T01:41:51+00:00,1,10.63,True,1,1,1,107,0,0,0,MERGED
+20185,docs: reference for `server.moduleGraph` in `per-environments-apis migrations`,mrcego,2025-06-09T14:59:40Z,2025-06-10T01:41:59+00:00,1,10.71,True,1,1,1,128,0,0,0,MERGED
+20184,fix: error starting project with TanStack Router template,standingdreams,2025-06-09T04:27:59Z,2025-06-10T09:20:19+00:00,1,28.87,True,1,1,1,696,0,0,0,MERGED
+20182,chore(deps): update rolldown-related dependencies,renovate,2025-06-09T02:01:21Z,2025-06-11T08:49:05+00:00,1,54.8,True,161,140,4,6922,0,0,0,MERGED
+20181,fix(deps): update all non-major dependencies,renovate,2025-06-09T02:00:59Z,2025-06-11T09:07:09+00:00,1,55.1,True,352,391,31,16886,0,0,0,MERGED
+20179,"fix(legacy)!: remove `location.protocol!=""file:""` condition for modern android webview",maliut,2025-06-08T13:20:53Z,2025-06-16T08:49:11+00:00,3,187.47,True,4,2,2,2538,1,0,1,MERGED
+20168,chore: add a way to disable source maps when developing Vite,sapphi-red,2025-06-06T03:36:56Z,2025-06-06T07:40:16+00:00,3,4.06,True,12,3,3,114,1,3,4,MERGED
+20166,fix(types): prefer sass-embedded types over sass types for `preprocessorOptions.sass` (fix #20150),morganney,2025-06-06T00:19:19Z,2025-06-06T03:40:16+00:00,1,3.35,True,3,3,1,107,0,0,0,MERGED
+20163,feat: add base option to import.meta.glob,patak-dev,2025-06-05T13:11:19Z,2025-06-10T01:37:14+00:00,4,108.43,True,181,7,9,1255,3,2,5,MERGED
+20161,docs(rolldown): add manualChunks to advancedChunks migration guide,cexbrayat,2025-06-05T09:39:17Z,2025-06-07T13:48:18+00:00,3,52.15,True,36,0,1,192,2,4,6,MERGED
+20158,fix(hmr): use monotonicDateNow for timestamp,sapphi-red,2025-06-05T03:50:45Z,2025-06-05T08:46:40+00:00,2,4.93,True,42,19,9,318,0,0,0,MERGED
+20153,docs: correct environment api stabilization note in /docs/changes,sapphi-red,2025-06-04T02:30:19Z,2025-06-04T08:58:45+00:00,1,6.47,True,3,3,3,23,0,0,0,MERGED
+20152,docs(rolldown): add @vitejs/plugin-react-oxc recommendation,TheAlexLichter,2025-06-03T17:32:31Z,2025-06-07T13:47:56+00:00,4,92.26,True,6,0,1,140,1,2,3,MERGED
+20148,chore: update deps in create-vite for 7.0-beta,patak-dev,2025-06-03T10:57:54Z,2025-06-04T08:55:54+00:00,1,21.97,True,18,18,16,139,0,0,0,MERGED
+20144,fix: virtual svg module,patak-dev,2025-06-02T15:05:39Z,2025-06-03T11:06:05+00:00,3,20.01,True,42,1,7,77,0,2,2,MERGED
+20143,test: correct esbuild `useDefineForClassFields` test,sapphi-red,2025-06-02T11:51:12Z,2025-06-02T13:04:36+00:00,1,1.22,True,6,2,1,414,0,0,0,MERGED
+20141,fix(deps): update all non-major dependencies,renovate,2025-06-02T01:13:40Z,2025-06-06T06:14:02+00:00,1,101.01,True,1178,1067,33,13622,3,0,3,MERGED
+20140,chore(deps): update rolldown-related dependencies,renovate,2025-06-02T01:13:04Z,2025-06-02T07:38:33+00:00,1,6.42,True,291,110,5,8204,0,0,0,MERGED
+20139,chore: remove redundant word in comment,clonemycode,2025-06-01T17:05:28Z,2025-06-02T01:11:29+00:00,1,8.1,True,2,2,2,44,0,0,0,MERGED
+20133,docs: remove `env.d.ts` mentions,sapphi-red,2025-05-30T04:17:38Z,2025-05-30T09:45:01+00:00,1,5.46,True,4,4,3,116,0,0,0,MERGED
+20132,feat(create-vite): set types compiler option in tsconfigs,ArnaudBarre,2025-05-29T21:37:57Z,2025-09-22T12:09:43+00:00,10,2774.53,True,41,34,29,301,6,5,11,MERGED
+20131,chore: speed up typechecking,ArnaudBarre,2025-05-29T21:17:49Z,2025-05-30T09:47:07+00:00,2,12.49,True,10,9,8,800,0,0,0,MERGED
+20130,chore: update stackblitz/bolt sponsor logo,patak-dev,2025-05-29T13:24:42Z,2025-05-30T09:45:27+00:00,1,20.35,True,5,4,3,60,0,0,0,MERGED
+20129,fix(types): expose additional PluginContext types,sapphi-red,2025-05-29T10:20:50Z,2025-05-29T11:51:21+00:00,1,1.51,True,7,1,1,312,0,0,0,MERGED
+20127,docs: clarify dev browser support version,sapphi-red,2025-05-29T05:17:14Z,2025-05-30T09:48:24+00:00,1,28.52,True,1,1,1,205,0,0,0,MERGED
+20120,feat: resolve environments plugins at config time,patak-dev,2025-05-27T17:17:55Z,2025-05-29T14:33:13+00:00,6,45.26,True,46,51,6,1222,0,4,4,MERGED
+20119,docs: vite 7.0 blog post,patak-dev,2025-05-27T15:50:19Z,2025-06-24T09:14:34+00:00,16,665.4,True,95,0,2,76,0,18,18,MERGED
+20117,fix: handle dynamic import with `.then(m => m.a)`,sapphi-red,2025-05-27T11:37:51Z,2025-06-06T08:49:16+00:00,1,237.19,True,7,1,3,774,5,0,5,MERGED
+20115,fix: align dynamic import detection,sapphi-red,2025-05-27T05:28:12Z,2025-06-06T08:41:54+00:00,1,243.23,True,2,7,1,735,8,0,8,MERGED
+20109,docs(features): mention inlining in static assets section,sapphi-red,2025-05-26T05:24:45Z,2025-05-26T13:48:43+00:00,1,8.4,True,1,1,1,142,0,0,0,MERGED
+20107,Added instructions for vitest change when callable config is used,leighmurray,2025-05-25T19:30:01Z,2025-05-26T14:01:56+00:00,1,18.53,False,20,0,1,382,1,0,1,CLOSED
+20101,docs: clarify that rebasing `url()` references starting with a variable is not supported,sapphi-red,2025-05-24T12:15:47Z,2025-05-26T14:07:41+00:00,1,49.87,True,1,1,1,41,0,0,0,MERGED
+20100,fix(css): remove alias exclude logic from rebaseUrl,sapphi-red,2025-05-24T10:03:00Z,2025-05-26T14:21:52+00:00,1,52.31,True,16,70,1,1631,0,0,0,MERGED
+20096,chore: rename rollup to rolldown where appropriate,sapphi-red,2025-05-23T08:00:55Z,2025-05-23T09:07:46+00:00,1,1.11,True,5,5,6,82,0,0,0,MERGED
+20093,chore: generate dts internally by rolldown-plugin-dts,sapphi-red,2025-05-23T02:32:48Z,2025-05-23T06:44:26+00:00,1,4.19,True,33,25,2,132,0,0,0,MERGED
+20089,chore: use plugin hooks filter for `patch-types` plugin for bundling vite,btea,2025-05-22T12:42:46Z,2025-05-23T01:01:02+00:00,1,12.3,True,3,15,2,85,0,0,0,MERGED
+20088,feat: add `this.meta.viteVersion`,sapphi-red,2025-05-22T11:00:13Z,2025-05-27T03:03:49+00:00,1,112.06,True,123,64,9,366,0,0,0,MERGED
+20086,refactor: merge `src/node/publicUtils.ts` to `src/node/index.ts`,sapphi-red,2025-05-22T03:18:45Z,2025-05-22T08:32:37+00:00,2,5.23,True,26,30,2,70,0,0,0,MERGED
+20080,fix(optimizer): align relative `build.rollupOptions.input` resolution with rollup,sapphi-red,2025-05-21T12:06:09Z,2025-06-06T08:43:31+00:00,1,380.62,True,8,3,1,2747,11,0,11,MERGED
+20079,fix(optimizer): show error when `computeEntries` failed,sapphi-red,2025-05-21T11:13:19Z,2025-05-22T12:44:05+00:00,5,25.51,True,84,84,2,1075,0,3,3,MERGED
+20078,feat(create-vite): update target to es2023 in `tsconfig.node.json`,sapphi-red,2025-05-21T09:12:42Z,2025-05-21T12:48:18+00:00,1,3.59,True,6,6,6,296,0,0,0,MERGED
+20077,fix: merge `environments.*.resolve.noExternal` properly,sapphi-red,2025-05-21T08:47:21Z,2025-05-21T15:06:56+00:00,1,6.33,True,42,1,2,24,0,0,0,MERGED
+20075,docs: refactor components to TypeScript,wChenonly,2025-05-21T08:00:34Z,2025-05-22T02:06:28+00:00,1,18.1,True,57,57,17,15,3,0,3,MERGED
+20068,fix(css): should not wrap with double quote when the url rebase feature bailed out,sapphi-red,2025-05-20T09:58:19Z,2025-05-23T09:30:14+00:00,11,71.53,True,127,25,6,102,0,3,3,MERGED
+20067,fix(css): sass rebase url in relative imported modules,sapphi-red,2025-05-20T09:31:14Z,2025-05-28T06:37:42+00:00,1,189.11,True,14,0,5,47,0,0,0,MERGED
+20065,chore: use tsdown,sapphi-red,2025-05-20T07:50:35Z,2025-05-20T11:19:25+00:00,3,3.48,True,244,1102,9,433,1,1,2,MERGED
+20061,fix(deps): update all non-major dependencies,renovate,2025-05-19T01:38:53Z,2025-05-26T06:17:35+00:00,1,172.65,True,936,815,39,14278,5,0,5,MERGED
+20059,docs: add backticks,iiio2,2025-05-18T12:58:29Z,2025-05-19T05:36:07+00:00,1,16.63,True,2,2,2,11,1,0,1,MERGED
+20057,docs: remove single quote from buildApp hook,jay-es,2025-05-18T07:33:44Z,2025-05-19T05:36:25+00:00,1,22.04,True,1,1,1,92,0,0,0,MERGED
+20051,docs: migration guide for v7,sapphi-red,2025-05-16T06:38:38Z,2025-06-19T07:43:55+00:00,5,817.09,True,42,138,2,52,0,1,1,MERGED
+20049,ci: run tests on Node 24 as well,sapphi-red,2025-05-16T03:45:42Z,2025-05-19T08:34:37+00:00,1,76.82,True,16,10,2,46,0,0,0,MERGED
+20048,fix(optimizer): non object module.exports for Node builtin modules in CJS external facade,jamesopstad,2025-05-15T18:26:47Z,2025-05-27T12:16:51+00:00,10,281.83,True,80,33,12,189,6,2,8,MERGED
+20045,fix: treat all `optimizeDeps.entries` values as globs,jamesopstad,2025-05-15T11:13:53Z,2025-05-29T08:40:00+00:00,3,333.44,True,28,11,2,822,2,0,2,MERGED
+20043,docs: clarify `build.minify` in `'es'` mode,dfabulich,2025-05-15T01:15:05Z,2025-05-15T02:16:44+00:00,1,1.03,False,1,1,1,74,2,0,2,CLOSED
+20040,feat(client): support opening fileURL in editor,sapphi-red,2025-05-14T10:31:33Z,2025-05-20T10:18:30+00:00,1,143.78,True,1,1,1,276,0,0,0,MERGED
+20039,fix(client): render the last part of the stacktrace,sapphi-red,2025-05-14T10:25:57Z,2025-05-14T15:46:00+00:00,1,5.33,True,3,0,1,77,0,0,0,MERGED
+20038,refactor!: remove `experimental.skipSsrTransform` option,sapphi-red,2025-05-14T09:38:47Z,2025-05-29T04:57:47+00:00,1,355.32,True,1,17,1,331,0,0,0,MERGED
+20035,chore: fix comment for `devEnvironmentOptions.moduleRunnerTransform`,sapphi-red,2025-05-14T06:58:27Z,2025-05-14T09:10:18+00:00,1,2.2,True,1,1,1,55,0,0,0,MERGED
+20034,docs: update `options.ssr` migration guide,hi-ogawa,2025-05-13T07:27:42Z,2025-05-13T16:36:31+00:00,1,9.15,True,2,2,1,1274,0,0,0,MERGED
+20032,"refactor!: bump required node version to 20.19+, 22.12+ and remove cjs build",sapphi-red,2025-05-13T04:46:19Z,2025-05-21T12:26:59+00:00,5,199.68,True,55,258,19,135,0,1,1,MERGED
+20031,chore: deprecate `ResolvedConfig.createResolver` and recommend `createIdResolver`,hi-ogawa,2025-05-13T00:43:11Z,2025-05-14T09:39:15+00:00,4,32.93,True,10,7,1,1198,0,1,1,MERGED
+20029,fix: importing an optional peer dep should throw an runtime error,sapphi-red,2025-05-12T12:12:04Z,2025-05-27T12:45:44+00:00,2,360.56,True,120,31,8,665,2,1,3,MERGED
+20027,chore(deps): update dependency lint-staged to v16,renovate,2025-05-12T03:15:01Z,2025-05-13T02:28:49+00:00,1,23.23,True,29,16,2,1469,0,0,0,MERGED
+20026,chore(deps): update dependency feed to v5,renovate,2025-05-12T03:14:41Z,2025-05-13T02:33:09+00:00,1,23.31,True,7,7,2,3617,0,0,0,MERGED
+20024,docs(i18n): add Persian language docs link,mostafa-nematpour,2025-05-11T21:47:19Z,2025-05-13T10:12:58+00:00,1,36.43,True,1,0,1,72,1,0,1,MERGED
+20019,refactor: use `hostValidationMiddleware`,sapphi-red,2025-05-10T15:22:53Z,2025-05-26T02:37:29+00:00,1,371.24,True,72,227,9,217,0,0,0,MERGED
+20018,docs: tweak wordings in vite doc,iiio2,2025-05-10T07:01:15Z,2025-05-10T11:14:09+00:00,1,4.21,True,17,17,11,11,1,0,1,MERGED
+20016,test(ssr-html): deconflict filenames for typescript resolution,sapphi-red,2025-05-09T06:50:59Z,2025-05-09T10:14:58+00:00,1,3.4,True,6,4,4,358,0,0,0,MERGED
+20013,refactor: remove no-op `legacy.proxySsrExternalModules`,sapphi-red,2025-05-08T13:53:44Z,2025-05-16T02:51:06+00:00,1,180.96,True,0,12,1,114,0,0,0,MERGED
+20011,test(optimizer): add test for cjs dep static import,sapphi-red,2025-05-08T12:26:10Z,2025-05-09T10:19:52+00:00,1,21.89,True,26,2,4,176,0,0,0,MERGED
+20008,feat(create-vite): use more extends in eslint config,sapphi-red,2025-05-07T12:42:05Z,2025-06-02T08:05:45+00:00,1,619.39,True,58,56,3,418,0,0,0,MERGED
+20007,feat!: bump `build.target` and name it `baseline-widely-available`,sapphi-red,2025-05-07T12:01:59Z,2025-05-22T10:00:47+00:00,3,357.98,True,101,54,18,1199,0,0,0,MERGED
+20001,refactor: remove backward compat for calling internal plugins directly,sapphi-red,2025-05-05T09:31:09Z,2025-05-16T01:54:57+00:00,1,256.4,True,72,95,3,47,0,0,0,MERGED
+20000,docs: fix some mistakes in Environment API guides,silvenon,2025-05-04T15:07:56Z,2025-05-30T11:54:25+00:00,11,620.77,True,10,8,3,672,2,6,8,MERGED
+19999,fix(cli): make `cleanGlobalCLIOptions()` clean `--force`,MoperMop,2025-05-04T05:16:05Z,2025-05-07T06:12:38+00:00,1,72.94,True,1,0,1,432,3,0,3,MERGED
+19996,fix(ssr)!: don't access `Object` variable in ssr transformed code,hi-ogawa,2025-05-03T06:19:42Z,2025-06-09T05:25:34+00:00,3,887.1,True,62,38,9,876,22,0,22,MERGED
+19992,feat: stabilize `css.preprocessorMaxWorkers` and default to `true`,sapphi-red,2025-05-02T09:43:18Z,2025-05-28T12:56:37+00:00,2,627.22,True,6,7,2,236,0,0,0,MERGED
+19990,chore: use rolldown-plugin-dts for dts bundling,sapphi-red,2025-05-02T07:58:37Z,2025-05-22T10:01:38+00:00,3,482.05,True,256,79,3,92,3,0,3,MERGED
+19988,refactor!: remove `HotBroadcaster`,sapphi-red,2025-05-02T05:10:38Z,2025-05-29T04:57:12+00:00,1,647.78,True,6,52,2,1000,3,0,3,MERGED
+19987,refactor!: remove deprecated `HotBroadcaster` related types,sapphi-red,2025-05-02T04:52:06Z,2025-05-16T01:54:11+00:00,1,333.03,True,0,12,2,318,0,0,0,MERGED
+19986,refactor: remove deprecated env api properties,sapphi-red,2025-05-02T04:47:17Z,2025-05-16T01:50:13+00:00,1,333.05,True,0,20,3,93,0,0,0,MERGED
+19985,refactor!: remove deprecated no-op type only properties,sapphi-red,2025-05-02T04:07:48Z,2025-05-16T01:53:30+00:00,1,333.76,True,0,37,5,735,0,0,0,MERGED
+19984,feat: stabilize `optimizeDeps.noDiscovery`,sapphi-red,2025-05-02T03:39:53Z,2025-05-29T04:56:30+00:00,1,649.28,True,7,1,2,145,0,0,0,MERGED
+19983,refactor!: remove deprecated `optimizeDeps.disabled`,sapphi-red,2025-05-02T03:32:27Z,2025-05-02T09:35:59+00:00,1,6.06,False,1,84,5,106,3,0,3,CLOSED
+19981,feat: resolve server URLs before calling other listeners,sirdiego,2025-05-01T19:39:10Z,2025-07-25T02:59:56+00:00,8,2023.35,True,102,16,5,527,4,4,8,MERGED
+19979,chore: declare version range for peer dependencies,sapphi-red,2025-05-01T11:35:38Z,2025-05-16T01:57:15+00:00,1,350.36,True,5,5,1,1699,0,0,0,MERGED
+19978,refactor(css)!: always use sass compiler API,sapphi-red,2025-05-01T10:35:23Z,2025-05-27T15:31:53+00:00,3,628.94,True,18,202,8,372,0,0,0,MERGED
+19977,refactor(css)!: remove sass legacy API support,sapphi-red,2025-05-01T10:09:04Z,2025-05-16T02:35:42+00:00,1,352.44,True,15,251,8,169,0,0,0,MERGED
+19972,chore!: remove node 18 support,patak-dev,2025-04-30T19:03:41Z,2025-05-16T01:48:18+00:00,5,366.74,True,37,78,25,36,1,2,3,MERGED
+19971,feat: buildApp hook,patak-dev,2025-04-30T15:51:08Z,2025-05-16T02:38:54+00:00,12,370.8,True,57,12,5,1091,4,3,7,MERGED
+19959,fix(ssr): handle uninitialized export access as undefined,hi-ogawa,2025-04-29T07:51:36Z,2025-05-02T07:36:21+00:00,4,71.75,True,61,54,5,1019,3,2,5,MERGED
+19953,fix(deps): update all non-major dependencies,renovate,2025-04-28T01:17:11Z,2025-05-13T03:01:43+00:00,1,361.74,True,1497,1354,32,13539,3,0,3,MERGED
+19947,docs: capitalize title,iiio2,2025-04-26T17:29:01Z,2025-04-28T01:15:35+00:00,1,31.78,True,1,1,1,11,1,0,1,MERGED
+19946,docs: fix example in api-environment-frameworks.md,kandros,2025-04-26T11:15:54Z,2025-04-27T02:33:17+00:00,1,15.29,True,1,1,1,60,0,0,0,MERGED
+19943,docs: add Deno commands,alexgleason,2025-04-25T16:27:29Z,2025-04-28T09:22:58+00:00,2,64.92,True,16,0,1,126,0,0,0,MERGED
+19940,fix(optimizer): return plain object when using `require` to import externals in optimized dependencies,jamesopstad,2025-04-25T11:19:46Z,2025-04-28T09:26:38+00:00,2,70.11,True,70,2,10,12,0,0,0,MERGED
+19936,feat: make PluginContext available for Vite-specific hooks,sapphi-red,2025-04-25T06:35:21Z,2025-05-27T02:50:36+00:00,2,764.25,True,430,45,11,1055,3,0,3,MERGED
+19927,feat(create-vite): add RedwoodSDK to create-vite app.,peterp,2025-04-24T08:27:25Z,2025-04-28T09:29:29+00:00,4,97.03,True,7,0,1,54,0,1,1,MERGED
+19925,chore: use rolldown to bundle Vite itself,sapphi-red,2025-04-24T05:21:29Z,2025-05-20T10:12:31+00:00,1,628.85,True,402,291,11,423,6,0,6,MERGED
+19921,perf: skip sourcemap generation for renderChunk hook of import-analysis-build plugin,sapphi-red,2025-04-23T12:01:01Z,2025-04-24T02:31:49+00:00,1,14.51,True,5,12,1,76,0,0,0,MERGED
+19920,fix(css): resolve relative imports in sass properly on Windows,sapphi-red,2025-04-23T11:49:20Z,2025-04-24T02:31:37+00:00,1,14.7,True,5,1,1,1364,0,0,0,MERGED
+19912,feat(build): provide names for asset entrypoints,CyberAP,2025-04-22T13:14:12Z,2025-05-16T02:36:58+00:00,3,565.38,True,6,1,2,310,7,0,7,MERGED
+19903,test: remove `node-fetch` and use native fetch,sapphi-red,2025-04-21T06:31:49Z,2025-04-21T09:46:06+00:00,1,3.24,True,20,62,8,43,0,0,0,MERGED
+19902,test(ssr-deps): use `@node-rs/bcrypt` instead of `bcrypt`,sapphi-red,2025-04-21T06:16:20Z,2025-04-21T09:56:25+00:00,2,3.67,True,166,330,3,282,0,1,1,MERGED
+19900,chore(deps): update actions/configure-pages action to v5,renovate,2025-04-21T02:22:25Z,2025-04-21T04:15:58+00:00,1,1.89,True,1,1,1,736,0,0,0,MERGED
+19899,fix(deps): update all non-major dependencies,renovate,2025-04-21T02:22:20Z,2025-04-21T05:58:33+00:00,1,3.6,True,207,188,22,23604,2,0,2,MERGED
+19895,chore: move all pnpm settings to `pnpm-workspace.yaml`,btea,2025-04-18T14:03:40Z,2025-06-25T02:03:01+00:00,4,1619.99,True,42,54,3,190,0,2,2,MERGED
+19894,feat: allow passing down resolved config to vite's `createServer`,sheremet-va,2025-04-18T10:33:46Z,2025-05-16T02:40:37+00:00,4,664.11,True,33,4,2,344,11,1,12,MERGED
+19892,feat(create-vite): bump TS to 5.8,ArnaudBarre,2025-04-17T19:15:22Z,2025-04-28T08:22:01+00:00,5,253.11,True,33,20,21,336,0,1,1,MERGED
+19890,docs(rolldown): add `withFilter` +  performance chapter,TheAlexLichter,2025-04-17T16:31:28Z,2025-04-18T09:34:34+00:00,5,17.05,True,28,1,1,195,0,2,2,MERGED
+19889,docs(rolldown): mention aliasing,TheAlexLichter,2025-04-17T16:05:45Z,2025-04-18T03:37:17+00:00,3,11.53,True,11,1,1,132,0,2,2,MERGED
+19886,fix: open first url if host does not match any urls,sapphi-red,2025-04-17T09:08:02Z,2025-04-17T15:10:49+00:00,1,6.05,True,65,10,4,36,0,0,0,MERGED
+19884,chore: add section about stylistic changes in contribution guide,sapphi-red,2025-04-17T07:46:08Z,2025-04-18T06:01:14+00:00,2,22.25,True,6,0,1,27,1,1,2,MERGED
+19883,chore: reorganize contributing guide,sapphi-red,2025-04-17T06:08:57Z,2025-04-17T14:02:55+00:00,2,7.9,True,63,63,1,466,0,8,8,MERGED
+19881,docs(rolldown): clarify rolldown-vite versioning policy,sapphi-red,2025-04-17T04:36:33Z,2025-04-17T09:59:55+00:00,1,5.39,True,6,0,1,80,0,0,0,MERGED
+19880,feat(css): improve lightningcss messages,sapphi-red,2025-04-17T03:48:04Z,2025-04-17T15:27:11+00:00,1,11.65,True,42,28,1,143,0,0,0,MERGED
+19879,fix(css): respect `css.lightningcss` option in css minification process,sapphi-red,2025-04-17T03:41:23Z,2025-04-17T15:30:36+00:00,1,11.82,True,0,2,1,106,0,0,0,MERGED
+19878,fix: backward compat for internal plugin `transform` calls,hi-ogawa,2025-04-17T00:20:09Z,2025-04-17T01:45:02+00:00,1,1.41,True,18,4,2,312,4,0,4,MERGED
+19876,docs(create-vite): update react template README files,teddybradford,2025-04-16T19:34:20Z,2025-04-17T01:47:40+00:00,1,6.22,True,5,5,2,89,0,0,0,MERGED
+19875,fix(create-vite): adding an interactive flag to force interactivity,jherr,2025-04-16T16:17:05Z,2025-04-17T01:46:30+00:00,2,9.49,True,2,2,1,125,0,0,0,MERGED
+19872,docs: add rolldown video,TheAlexLichter,2025-04-16T10:58:51Z,2025-04-16T16:26:52+00:00,1,5.47,True,2,0,1,71,1,0,1,MERGED
+19870,fix(hmr): avoid infinite loop happening with `hot.invalidate` in circular deps,sapphi-red,2025-04-16T03:36:39Z,2025-04-16T07:47:45+00:00,1,4.18,True,186,19,20,433,4,0,4,MERGED
+19863,docs(static-deploy): extract github workflow file for renovate,sapphi-red,2025-04-14T11:18:47Z,2025-04-17T15:33:10+00:00,2,76.24,True,66,53,3,90,0,0,0,MERGED
+19860,docs(en): update static-deploy for add EdgeOne Pages,SuperJolly,2025-04-14T10:03:27Z,2025-07-22T13:32:53+00:00,1,2379.49,False,16,0,1,93,1,0,1,CLOSED
+19853,fix: ignore malformed uris in tranform middleware,itschasa,2025-04-12T14:28:34Z,2025-04-24T02:46:20+00:00,3,276.3,True,6,0,1,65,1,1,2,MERGED
+19852,fix: match default asserts case insensitive,btea,2025-04-12T08:24:46Z,2025-04-17T15:12:04+00:00,2,126.79,True,1,0,1,26,0,0,0,MERGED
+19849,docs: bump node version to LTS,iiio2,2025-04-12T02:03:25Z,2025-04-15T20:19:59+00:00,2,90.28,True,2,2,1,190,1,1,2,MERGED
+19843,test: fix flaky transform-plugin playground test,sapphi-red,2025-04-11T12:06:00Z,2025-04-11T16:09:14+00:00,1,4.05,True,2,0,2,307,0,0,0,MERGED
+19842,fix(ssr): fix live binding of default export declaration and hoist exports getter,hi-ogawa,2025-04-11T08:38:11Z,2025-04-21T06:59:46+00:00,3,238.36,True,170,27,16,181,5,2,7,MERGED
+19841,fix(ssr): fix execution order of re-export,hi-ogawa,2025-04-11T05:10:35Z,2025-04-23T06:16:44+00:00,3,289.1,True,98,24,11,433,4,0,4,MERGED
+19836,fix(preview): use host url to open browser,BuptStEve,2025-04-10T10:18:15Z,2025-04-11T16:08:45+00:00,5,29.84,True,18,10,3,242,0,2,2,MERGED
+19833,ci: run tests in all version branches,sapphi-red,2025-04-10T07:30:34Z,2025-04-10T09:50:48+00:00,3,2.34,True,2,4,1,162,0,1,1,MERGED
+19829,refactor(ssr): remove ssrTransform line offset preservation,hi-ogawa,2025-04-10T01:51:34Z,2025-05-21T10:07:47+00:00,1,992.27,True,199,177,2,291,5,0,5,MERGED
+19828,refactor: simplify pluginFilter implementation,btea,2025-04-10T01:45:16Z,2025-04-11T02:32:54+00:00,2,24.79,True,2,2,1,98,1,0,1,MERGED
+19823,docs(rolldown): add further insights,TheAlexLichter,2025-04-09T13:48:28Z,2025-04-11T10:39:11+00:00,8,44.85,True,60,14,1,549,0,4,4,MERGED
+19818,fix: correct the behavior when multiple transform filter options are specified,sapphi-red,2025-04-09T05:55:32Z,2025-04-09T09:04:23+00:00,1,3.15,True,61,51,3,700,0,0,0,MERGED
+19814,fix(css): remove empty chunk imports correctly when chunk file name contained special characters,sapphi-red,2025-04-08T09:12:21Z,2025-04-08T14:23:29+00:00,1,5.19,True,2,2,1,181,0,0,0,MERGED
+19810,docs: remove deprecated folder mapping exports warning,sapphi-red,2025-04-08T03:25:05Z,2025-04-08T09:54:38+00:00,2,6.49,True,0,4,1,228,0,0,0,MERGED
+19809,test: skip hmr-ssr circular test,hi-ogawa,2025-04-08T00:03:41Z,2025-04-08T03:33:38+00:00,1,3.5,True,3,1,1,36,0,0,0,MERGED
+19805,fix: avoid using `Promise.allSettled` in preload function,novlan1,2025-04-07T09:42:30Z,2025-04-16T10:00:39+00:00,3,216.3,True,16,2,2,71,5,0,5,MERGED
+19802,chore(deps): update dependency @types/picomatch to v4,renovate,2025-04-07T03:00:59Z,2025-04-07T07:52:48+00:00,1,4.86,True,6,6,2,624,0,0,0,MERGED
+19801,chore(deps): update actions/create-github-app-token action to v2,renovate,2025-04-07T03:00:28Z,2025-04-07T13:11:36+00:00,2,10.19,True,1,1,1,712,0,0,0,MERGED
+19799,docs(vite): fix description of `transformIndexHtml` hook,danielroe,2025-04-06T22:05:48Z,2025-04-07T07:57:44+00:00,2,9.87,True,7,2,1,105,0,0,0,MERGED
+19796,fix(types): remove the `keepProcessEnv` from the `DefaultEnvironmentOptions` type,dario-piotrowicz,2025-04-04T21:38:04Z,2025-04-07T13:19:14+00:00,2,63.69,True,1,1,1,317,0,0,0,MERGED
+19794,fix: addWatchFile doesn't work if base is specified (fixes #19792),anatawa12,2025-04-04T16:50:10Z,2025-04-11T03:11:55+00:00,3,154.36,True,28,13,5,201,4,0,4,MERGED
+19793,fix(hmr): run HMR handler sequentially,sapphi-red,2025-04-04T15:52:26Z,2025-04-11T07:59:42+00:00,2,160.12,True,145,144,5,2374,3,0,3,MERGED
+19791,fix: unbundle `fdir` to fix `commonjsOptions.dynamicRequireTargets`,hi-ogawa,2025-04-04T07:51:54Z,2025-04-04T09:25:54+00:00,2,1.57,True,5,15,4,625,0,0,0,MERGED
+19790,test: fix flaky hmr-ssr circular import test fail,sapphi-red,2025-04-04T05:35:22Z,2025-04-08T03:27:27+00:00,1,93.87,False,3,2,1,508,11,0,11,CLOSED
+19789,chore: refactor test setup,sapphi-red,2025-04-04T04:41:42Z,2025-04-04T07:23:46+00:00,1,2.7,True,16,27,2,605,0,0,0,MERGED
+19779,fix: keep entry asset files imported by other files,sapphi-red,2025-04-03T03:38:50Z,2025-04-03T09:11:41+00:00,3,5.55,True,27,1,4,36,0,1,1,MERGED
+19776,fix(hmr): throw non-standard error info causes logical error,btea,2025-04-02T12:11:29Z,2025-04-03T02:45:29+00:00,2,14.57,True,1,1,1,24,0,0,0,MERGED
+19775,perf(css): avoid constructing `renderedModules`,sapphi-red,2025-04-02T10:48:13Z,2025-04-10T09:45:07+00:00,1,190.95,True,13,4,1,369,5,0,5,MERGED
+19774,chore: simplify sort-imports rule,OnlyWick,2025-04-02T06:01:37Z,2025-09-24T02:02:16+00:00,1,4196.01,True,0,4,1,69,0,0,0,MERGED
+19771,docs: update to express 5,sapphi-red,2025-04-01T10:54:27Z,2025-04-28T02:28:09+00:00,1,639.56,True,13,15,4,55,0,0,0,MERGED
+19768,fix(module-runner): allow already resolved id as entry,hi-ogawa,2025-04-01T02:13:23Z,2025-04-09T09:07:55+00:00,6,198.91,True,74,28,6,484,5,1,6,MERGED
+19767,fix(dev): make query selector regexes more inclusive (fix #19213),maxpatiiuk,2025-04-01T01:57:51Z,2025-04-04T07:26:03+00:00,5,77.47,True,3,3,2,492,2,2,4,MERGED
+19760,feat(types): make CustomPluginOptionsVite backward compatible,sapphi-red,2025-03-31T05:41:28Z,2025-03-31T07:08:11+00:00,2,1.45,True,4,1,1,130,5,0,5,MERGED
+19759,docs: plugin authors guide for rolldown-vite,sapphi-red,2025-03-31T04:12:23Z,2025-04-03T03:45:32+00:00,8,71.55,True,101,0,1,11,1,14,15,MERGED
+19755,refactor: use hook filters from rollup,sapphi-red,2025-03-31T02:35:13Z,2025-05-16T02:52:23+00:00,1,1104.29,True,189,330,5,86,1,0,1,MERGED
+19744,docs: add rolldown guide short link,TheAlexLichter,2025-03-28T13:49:30Z,2025-03-31T07:21:16+00:00,5,65.53,True,3,0,1,107,0,1,1,MERGED
+19743,docs: make redirects permanent,TheAlexLichter,2025-03-28T13:47:31Z,2025-03-28T18:46:46+00:00,1,4.99,True,6,6,1,147,0,0,0,MERGED
+19742,docs: fix broken link to shared-plugins-during-build section,mostafa-nematpour,2025-03-28T12:45:32Z,2025-03-30T06:41:25+00:00,1,41.93,True,1,1,1,74,0,0,0,MERGED
+19736,fix: align plugin hook filter behavior with pluginutils,sapphi-red,2025-03-28T04:37:27Z,2025-03-28T09:47:40+00:00,1,5.17,True,43,23,4,91,0,0,0,MERGED
+19735,docs: remove lightningcss preprocessor note,sapphi-red,2025-03-28T02:32:56Z,2025-03-28T08:40:32+00:00,1,6.13,True,0,4,1,40,0,0,0,MERGED
+19732,"feat(create-vite): update ""react"" and ""react-ts"" templates to use extends in eslint config",Rel1cx,2025-03-27T12:39:34Z,2025-05-07T12:22:59+00:00,1,983.72,True,17,13,2,241,0,0,0,MERGED
+19719,feat(legacy): add 'assumptions' option,thetarnav,2025-03-25T19:29:17Z,2025-04-07T13:10:16+00:00,2,305.68,True,18,1,2,203,1,0,1,MERGED
+19718,fix: ensure buffered error visible on all tabs (#19710),thegedge,2025-03-25T18:25:16Z,2025-06-10T21:19:35+00:00,2,1850.91,False,8,4,1,1578,4,0,4,CLOSED
+19715,perf: only bundle node version `debug`,sapphi-red,2025-03-25T11:35:02Z,2025-03-31T07:38:34+00:00,1,140.06,True,7,0,1,393,0,0,0,MERGED
+19708,refactor(reporter): only call modulesReporter when logLevel is info,sapphi-red,2025-03-24T10:55:46Z,2025-03-24T13:47:14+00:00,1,2.86,True,49,47,1,359,0,0,0,MERGED
+19701,fix: add back `.mts` to default `resolve.extensions`,hi-ogawa,2025-03-24T07:32:04Z,2025-03-24T13:52:00+00:00,2,6.33,True,1,1,1,219,1,0,1,MERGED
+19699,chore(deps): update dependency miniflare to v4,renovate,2025-03-24T03:38:38Z,2025-03-24T05:43:49+00:00,1,2.09,True,31,31,2,4788,1,0,1,MERGED
+19698,fix(deps): update all non-major dependencies,renovate,2025-03-24T03:38:16Z,2025-04-17T08:49:53+00:00,1,581.19,True,908,870,45,9517,3,0,3,MERGED
+19683,feat(config): improve bad character warning,sapphi-red,2025-03-19T09:44:37Z,2025-03-21T15:02:00+00:00,1,53.29,True,20,23,3,270,0,0,0,MERGED
+19680,docs: add rolldown chapter,TheAlexLichter,2025-03-19T07:34:03Z,2025-03-21T12:55:30+00:00,11,53.36,True,98,0,3,309,0,4,4,MERGED
+19678,fix(css): scoped css order with non-scoped css,sapphi-red,2025-03-19T04:39:21Z,2025-03-20T13:56:37+00:00,2,33.29,True,80,140,15,416,4,0,4,MERGED
+19677,"ci: remove ""remove enhancement pending"" job",sapphi-red,2025-03-19T03:51:33Z,2025-03-19T09:22:09+00:00,1,5.51,True,1,10,1,91,0,0,0,MERGED
+19675,feat(docs): add a plugin to generate documentation for LLMs,okineadev,2025-03-18T18:58:45Z,2025-04-11T10:37:25+00:00,1,567.64,True,334,0,4,391,4,0,4,MERGED
+19669,test(css): fix cssScopeTo test,sapphi-red,2025-03-18T08:06:06Z,2025-03-18T10:27:50+00:00,1,2.36,True,2,2,1,35,0,0,0,MERGED
+19664,feat(experimental): add fetchable environment interface,sheremet-va,2025-03-17T17:42:38Z,2025-03-25T11:45:51+00:00,3,186.05,True,121,2,5,191,1,1,2,MERGED
+19661,fix(css): parse image-set without space after comma correctly,sapphi-red,2025-03-17T12:20:42Z,2025-03-18T10:30:28+00:00,2,22.16,True,21,1,2,24,5,0,5,MERGED
+19660,ci: set permissions to workflows,sapphi-red,2025-03-17T11:58:46Z,2025-03-18T10:28:59+00:00,4,22.5,True,15,0,5,41,1,1,2,MERGED
+19658,ci: migrate to official app token action,sapphi-red,2025-03-17T11:24:11Z,2025-03-18T01:16:48+00:00,1,13.88,True,4,4,1,123,0,0,0,MERGED
+19655,ci(publish): remove provenance workaround,sapphi-red,2025-03-17T06:43:49Z,2025-03-17T09:36:34+00:00,1,2.88,True,1,6,1,143,0,0,0,MERGED
+19654,ci: pin commit for actions,sapphi-red,2025-03-17T05:45:56Z,2025-03-17T11:09:45+00:00,2,5.4,True,5,0,1,129,2,0,2,MERGED
+19653,ci: add zizmor,sapphi-red,2025-03-17T05:44:21Z,2025-03-27T08:09:00+00:00,1,242.41,False,41,0,1,222,8,3,11,CLOSED
+19650,docs: `server.https` option is always an options object,sapphi-red,2025-03-17T02:20:17Z,2025-03-18T14:28:28+00:00,8,36.14,True,4,4,2,24,1,2,3,MERGED
+19649,fix(deps): update all non-major dependencies,renovate,2025-03-17T01:45:15Z,2025-03-17T10:53:45+00:00,1,9.14,True,830,579,29,18226,2,0,2,MERGED
+19646,fix(optimizer): fix incorrect picomatch usage in filter(),cnzgray,2025-03-15T16:42:13Z,2025-03-21T13:58:56+00:00,2,141.28,True,2,1,1,1754,2,0,2,MERGED
+19642,fix(ci): remove changed files action after security incident,dominikg,2025-03-15T10:36:55Z,2025-09-24T01:56:21+00:00,1,4623.32,False,0,26,1,344,5,0,5,CLOSED
+19635,chore(deps): update dependency @babel/runtime to v7.26.10 [security],renovate,2025-03-14T04:10:23Z,2025-03-17T11:14:48+00:00,1,79.07,True,5,5,1,3699,0,0,0,MERGED
+19633,"fix(preview): use preview https config, not server",aharelick,2025-03-12T22:27:47Z,2025-03-13T07:42:00+00:00,2,9.24,True,1,1,1,697,0,0,0,MERGED
+19631,docs(config): add vscode debug error tip,btea,2025-03-12T13:48:00Z,2025-03-14T03:59:29+00:00,7,38.19,True,16,0,1,257,1,4,5,MERGED
+19629,test(ssr): test `ssrTransform` re-export deps and test stacktrace with first line,hi-ogawa,2025-03-12T09:53:13Z,2025-04-23T07:37:28+00:00,2,1005.74,True,60,0,4,350,0,1,1,MERGED
+19624,fix: await client buildStart on top level buildStart,hi-ogawa,2025-03-11T02:16:14Z,2025-03-12T23:30:31+00:00,1,45.24,True,70,7,2,518,0,0,0,MERGED
+19616,feat: show friendly error for malformed `base`,sapphi-red,2025-03-10T05:38:18Z,2025-03-10T08:27:40+00:00,1,2.82,True,11,1,1,36,0,0,0,MERGED
+19613,fix(deps): update all non-major dependencies,renovate,2025-03-10T01:41:37Z,2025-03-10T04:00:11+00:00,1,2.31,True,439,421,29,13565,2,0,2,MERGED
+19612,"fix(ssr): use optional chaining to prevent ""undefined is not an object"" happening in `ssrRewriteStacktrace`",saintnoodle,2025-03-09T23:52:36Z,2025-03-10T05:53:45+00:00,3,6.02,True,1,1,1,5300,2,0,2,MERGED
+19602,feat: implement hook filters,sapphi-red,2025-03-07T05:44:30Z,2025-03-25T10:16:56+00:00,6,436.54,True,700,14,8,299,6,2,8,MERGED
+19601,fix(indexHtml): ensure correct URL when querying module graph,OnlyWick,2025-03-07T05:37:10Z,2025-03-10T09:02:49+00:00,2,75.43,True,22,17,1,2080,0,0,0,MERGED
+19600,chore: extend commit hash correctly when ambigious with a non-commit object,sapphi-red,2025-03-07T02:18:11Z,2025-03-07T05:51:52+00:00,1,3.56,True,4,2,2,715,0,0,0,MERGED
+19599,docs(troubleshooting): mention devcontainers as culprit for hanging requests,alexsapps,2025-03-07T01:44:07Z,2025-03-07T02:57:23+00:00,1,1.22,True,3,0,1,290,0,0,0,MERGED
+19598,fix: set `perEnvironmentStartEndDuringDev: true` for `runnerImport` to fix css import,hi-ogawa,2025-03-07T00:19:11Z,2025-03-19T05:42:57+00:00,2,293.4,False,13,0,4,162,1,1,2,CLOSED
+19591,feat(worker): show asset filename conflict warning,sapphi-red,2025-03-06T09:28:47Z,2025-03-07T07:01:05+00:00,2,21.54,True,25,11,5,248,0,0,0,MERGED
+19590,fix(css): inline css correctly for double quote use strict,sapphi-red,2025-03-06T08:44:16Z,2025-03-07T07:37:10+00:00,6,22.88,True,9,2,1,459,0,2,2,MERGED
+19589,refactor: remove `options?.ssr` support in clientInjectionsPlugin,sapphi-red,2025-03-06T08:06:46Z,2025-05-16T01:44:44+00:00,1,1697.63,True,2,3,1,173,0,0,0,MERGED
+19588,refactor: use `applyToEnvironment` in internal plugins,sapphi-red,2025-03-06T08:00:17Z,2025-03-07T01:23:01+00:00,1,17.38,True,28,19,5,83,3,0,3,MERGED
+19586,refactor: `[hookName].handler` in plugins,sapphi-red,2025-03-06T07:01:32Z,2025-03-19T11:50:23+00:00,3,316.81,True,1432,1345,19,283,8,1,9,MERGED
+19582,docs: clarify `build.manifest` / `build.ssrManifest` option values,sapphi-red,2025-03-06T02:38:13Z,2025-03-06T06:06:30+00:00,2,3.47,True,6,2,1,384,0,0,0,MERGED
+19579,feat(types): type hints for hmr events,94726,2025-03-05T23:08:27Z,2025-03-19T10:59:14+00:00,2,323.85,True,23,9,3,196,5,0,5,MERGED
+19573,feat(create-vite): add TanStack Router commands,wobsoriano,2025-03-04T19:38:25Z,2025-03-20T15:15:54+00:00,7,379.62,True,23,2,1,107,2,2,4,MERGED
+19568,test: convert config playground to unit tests,sapphi-red,2025-03-04T10:55:05Z,2025-03-04T12:52:44+00:00,1,1.96,True,179,181,16,115,0,0,0,MERGED
+19566,feat: add `*?url&no-inline` type and warning for `.json?inline` / `.json?no-inline`,OnlyWick,2025-03-04T04:15:16Z,2025-03-05T14:25:44+00:00,4,34.17,True,16,2,3,26,0,1,1,MERGED
+19565,fix(worker): delay Blob URL revocation to ensure webkit compatibility,Antraxmin,2025-03-03T21:15:03Z,2025-07-25T12:56:05+00:00,2,3447.68,False,9,14,1,1116,6,2,8,CLOSED
+19561,fix(reporter): fix incorrect bundle size calculation with non-ASCII characters,yuzheng14,2025-03-03T09:59:19Z,2025-03-04T04:16:18+00:00,3,18.28,True,5,3,1,737,0,1,1,MERGED
+19557,feat(types): expose `CustomPluginOptionsVite` type,sapphi-red,2025-03-03T06:07:04Z,2025-03-26T01:39:10+00:00,2,547.53,True,196,175,7,144,4,0,4,MERGED
+19556,chore(deps): update dependency globals to v16,renovate,2025-03-03T01:43:04Z,2025-03-03T02:48:52+00:00,1,1.1,True,11,5,4,829,0,0,0,MERGED
+19555,fix(deps): update all non-major dependencies,renovate,2025-03-03T01:42:40Z,2025-03-03T05:36:44+00:00,1,3.9,True,468,371,23,14123,1,0,1,MERGED
+19554,refactor: restore endsWith usage,OnlyWick,2025-03-03T00:36:27Z,2025-03-05T14:31:09+00:00,2,61.91,True,12,15,8,34,4,0,4,MERGED
+19553,ci: update feature template label to `pending triage`,btea,2025-03-03T00:14:49Z,2025-03-03T08:45:05+00:00,2,8.5,True,1,1,1,205,0,0,0,MERGED
+19537,perf: flush compile cache after 10s,sapphi-red,2025-02-28T14:29:37Z,2025-03-03T09:22:54+00:00,1,66.89,True,9,0,1,563,4,0,4,MERGED
+19534,fix(ssr): named export should overwrite export all,hi-ogawa,2025-02-28T01:28:23Z,2025-03-02T16:35:37+00:00,3,63.12,True,33,1,5,106,5,1,6,MERGED
+19532,docs: remove $ prefix from create-vite terminal commands in README,kuldar,2025-02-27T20:42:13Z,2025-03-02T16:31:53+00:00,2,67.83,True,4,4,1,324,0,0,0,MERGED
+19526,docs: make `import.meta.glob` example code more accurate,btea,2025-02-27T01:42:39Z,2025-02-27T02:58:23+00:00,3,1.26,True,18,18,1,24,0,1,1,MERGED
+19524,docs(create-vite): recommend eslint-react for linting,bluwy,2025-02-26T15:22:01Z,2025-02-27T11:50:49+00:00,2,20.48,True,9,9,1,686,5,0,5,MERGED
+19519,fix(create-vite): make custom command visible,sapphi-red,2025-02-26T08:12:17Z,2025-02-27T11:52:47+00:00,2,27.68,True,1,2,1,122,0,0,0,MERGED
+19517,feat: warn if `define['process.env']` contains `path` key with a value,sapphi-red,2025-02-26T04:42:02Z,2025-03-19T10:50:17+00:00,3,510.14,True,21,0,1,1038,4,0,4,MERGED
+19516,test: add glob import test case,jrmajor,2025-02-25T19:59:50Z,2025-02-26T02:33:23+00:00,1,6.56,True,3,0,2,113,0,0,0,MERGED
+19515,docs: fix pnpm version in contributing guide,jrmajor,2025-02-25T19:54:46Z,2025-02-27T01:01:51+00:00,6,29.12,True,2,2,1,50,0,2,2,MERGED
+19514,fix(create-vite): remove eslint-plugin-react,bluwy,2025-02-25T18:29:07Z,2025-02-26T09:56:52+00:00,8,15.46,True,18,17,6,742,0,4,4,MERGED
+19503,feat(env): add false option for envDir to disable env loading,OnlyWick,2025-02-24T06:43:42Z,2025-03-31T07:26:38+00:00,5,840.72,True,32,22,7,25,2,9,11,MERGED
+19501,fix(deps): update all non-major dependencies,renovate,2025-02-24T03:07:54Z,2025-02-24T10:03:15+00:00,1,6.92,True,247,226,25,7039,0,0,0,MERGED
+19497,chore: use unicode cross icon instead of x,brc-dd,2025-02-23T16:13:09Z,2025-02-23T19:50:57+00:00,2,3.63,True,1,1,1,147,0,0,0,MERGED
+19496,fix(assets): ensure ?no-inline is not included in the asset url in the production environment,OnlyWick,2025-02-23T12:14:28Z,2025-04-23T10:00:38+00:00,8,1413.77,True,21,2,3,159,10,3,13,MERGED
+19492,chore(css): move environment destructuring after condition check,OnlyWick,2025-02-22T06:52:48Z,2025-02-27T11:54:18+00:00,1,125.03,True,2,1,1,80,1,0,1,MERGED
+19491,chore(html): remove unnecessary value check,OnlyWick,2025-02-22T06:10:51Z,2025-02-27T11:53:54+00:00,1,125.72,True,1,1,1,106,0,0,0,MERGED
+19487,chore(deps): unbundle tinyglobby,benmccann,2025-02-21T19:17:14Z,2025-03-19T10:58:11+00:00,2,615.68,True,9,67,3,736,2,0,2,MERGED
+19481,fix(css): stabilize css module hashes with lightningcss in dev mode,azat-io,2025-02-21T14:35:19Z,2025-03-02T15:08:37+00:00,5,216.56,True,20,1,2,1494,1,2,3,MERGED
+19478,fix(css): temporary add `?.` after `this.getModuleInfo` in `vite:css-post`,sapphi-red,2025-02-21T08:53:03Z,2025-02-21T10:03:20+00:00,1,1.17,True,9,5,1,569,4,0,4,MERGED
+19476,fix(worker): string interpolation in dynamic worker options,christoph-pflueger,2025-02-20T04:17:22Z,2025-02-21T11:10:02+00:00,3,30.88,True,52,6,2,1295,2,1,3,MERGED
+19475,test: normalize debugId in snapshot,sapphi-red,2025-02-20T03:24:06Z,2025-02-20T04:41:42+00:00,1,1.29,True,5,2,2,205,0,0,0,MERGED
+19474,chore(create-vite): remove font family `Inter`,shulaoda,2025-02-20T02:16:30Z,2025-02-20T04:52:18+00:00,2,2.6,True,16,16,16,25,0,0,0,MERGED
+19472,chore: use destructuring alias in buildEnvironment function,OnlyWick,2025-02-19T15:43:51Z,2025-06-02T11:28:41+00:00,1,2467.75,True,1,2,1,0,0,0,0,MERGED
+19462,fix(worker): fix web worker type detection,hi-ogawa,2025-02-18T10:02:10Z,2025-02-18T15:03:53+00:00,2,5.03,True,18,1,2,100,0,0,0,MERGED
+19457,refactor: remove custom .jxl mime,sapphi-red,2025-02-18T03:59:56Z,2025-02-18T15:20:34+00:00,2,11.34,True,0,2,1,129,0,0,0,MERGED
+19453,fix: ensure `.[cm]?[tj]sx?` static assets are JS mime,lukeed,2025-02-17T19:15:41Z,2025-02-18T15:20:17+00:00,2,20.08,True,96,12,7,751,3,0,3,MERGED
+19445,feat(create-vite): use `@clack/prompts`,bluwy,2025-02-17T12:15:51Z,2025-02-25T04:59:40+00:00,1,184.73,True,224,209,6,729,5,0,5,MERGED
+19442,docs(team): update bluwy bio,bluwy,2025-02-17T07:45:17Z,2025-02-17T09:11:47+00:00,1,1.44,True,1,7,2,52,0,0,0,MERGED
+19440,fix(deps): update all non-major dependencies,renovate,2025-02-17T01:42:25Z,2025-02-19T03:46:53+00:00,1,50.07,True,1135,1015,25,16964,2,0,2,MERGED
+19424,docs: mention pkg.pr.new for unreleased commits,bluwy,2025-02-14T03:46:44Z,2025-02-14T08:55:56+00:00,3,5.15,True,29,1,1,209,5,1,6,MERGED
+19421,docs: framework agnostic features guide,patak-dev,2025-02-13T11:16:46Z,2025-02-14T09:30:20+00:00,2,22.23,True,10,6,1,285,0,0,0,MERGED
+19418,feat(css): allow scoping css to importers exports,sapphi-red,2025-02-13T09:10:19Z,2025-02-21T01:21:47+00:00,15,184.19,True,241,8,22,993,2,12,14,MERGED
+19417,"docs: use ""constants"" instead of ""constant variables""",shuuji3,2025-02-13T08:05:06Z,2025-02-13T09:45:59+00:00,2,1.68,True,1,1,1,491,0,0,0,MERGED
+19416,fix: ignore `*.ipv4` address in cert,sapphi-red,2025-02-13T04:38:53Z,2025-02-13T07:28:23+00:00,2,2.83,True,9,2,2,24,0,0,0,MERGED
+19415,docs: cleanup features page,sapphi-red,2025-02-13T04:21:18Z,2025-02-13T07:31:15+00:00,3,3.17,True,6,13,1,11,0,4,4,MERGED
+19414,feat: use host url to open browser,Mrlilili,2025-02-13T02:59:51Z,2025-02-20T07:25:58+00:00,2,172.44,True,9,2,1,963,3,0,3,MERGED
+19413,docs: extract introduction section,sapphi-red,2025-02-13T01:37:31Z,2025-02-13T07:54:53+00:00,2,6.29,True,14,9,1,194,0,0,0,MERGED
+19404,docs: sunset comparisons page,patak-dev,2025-02-11T16:29:16Z,2025-02-13T07:56:18+00:00,2,39.45,True,9,28,5,1018,2,1,3,MERGED
+19399,ci: add pnpm to ignoreDeps,btea,2025-02-11T07:54:06Z,2025-02-27T11:57:34+00:00,1,388.06,False,1,0,1,277,3,0,3,CLOSED
+19397,fix(html): ignore malformed src attrs,sapphi-red,2025-02-10T08:04:55Z,2025-02-10T11:00:10+00:00,1,2.92,True,18,4,1,24,0,0,0,MERGED
+19394,ci: update react-swc plugin version in create-vite by renovate,sapphi-red,2025-02-10T02:45:43Z,2025-02-13T05:28:28+00:00,6,74.71,True,13,1,2,198,0,2,2,MERGED
+19393,chore(deps): update pnpm to v10,renovate,2025-02-10T01:56:24Z,2025-02-24T12:02:22+00:00,3,346.1,True,35,30,2,12161,1,1,2,MERGED
+19392,fix(deps): update all non-major dependencies,renovate,2025-02-10T01:55:29Z,2025-02-14T01:36:24+00:00,1,95.68,True,1008,898,28,14143,2,1,3,MERGED
+19389,chore: bump esbuild to 0.25.0,btea,2025-02-09T14:23:46Z,2025-02-20T02:56:38+00:00,4,252.55,True,1258,1526,3,39,12,0,12,MERGED
+19384,chore(create-vite): update `@vitejs/plugin-react-swc` version,btea,2025-02-08T09:52:59Z,2025-02-08T11:38:39+00:00,1,1.76,True,1,1,1,102,0,0,0,MERGED
+19378,docs: update security warnings around `server.cors` and `server.allowedHosts`,sapphi-red,2025-02-07T03:39:32Z,2025-02-07T07:39:04+00:00,4,3.99,True,18,5,1,100,0,5,5,MERGED
+19375,fix(deps): bump tsconfck,dominikg,2025-02-06T10:52:59Z,2025-02-07T02:58:46+00:00,2,16.1,True,6,6,2,114,0,0,0,MERGED
+19361,fix(build): fix stale build manifest on watch rebuild,hi-ogawa,2025-02-05T07:39:40Z,2025-02-05T09:38:00+00:00,1,1.97,True,66,0,6,26,0,0,0,MERGED
+19357,chore(deps): update dependency vitest to v3.0.5 [security],renovate,2025-02-04T22:09:59Z,2025-02-05T02:00:45+00:00,1,3.85,True,49,49,1,4806,0,0,0,MERGED
+19356,fix: avoid builtStart during vite optimize,patak-dev,2025-02-04T16:06:14Z,2025-02-05T05:57:46+00:00,1,13.86,True,10,0,3,566,2,0,2,MERGED
+19352,fix: allow expanding env vars in reverse order,sapphi-red,2025-02-04T10:03:03Z,2025-02-04T11:35:40+00:00,5,1.54,True,70,5,7,104,3,2,5,MERGED
+19350,feat: track dependencies when loading config with native,sapphi-red,2025-02-04T06:20:14Z,2025-02-05T09:38:25+00:00,3,27.3,False,148,2,5,154,2,2,4,CLOSED
+19349,refactor!: remove deprecated hook-level `enforce`/`transform` from `transformIndexHtml` hook,sapphi-red,2025-02-04T02:19:45Z,2025-05-16T01:43:24+00:00,1,2423.39,True,3,43,2,92,0,0,0,MERGED
+19348,refactor: deprecate `vite optimize` command,sapphi-red,2025-02-04T02:08:26Z,2025-02-05T11:17:06+00:00,2,33.14,True,14,1,3,256,0,0,0,MERGED
+19347,fix: don't call buildStart hooks for `vite optimize`,sapphi-red,2025-02-04T01:42:53Z,2025-02-04T08:42:28+00:00,1,6.99,True,0,1,1,24,0,0,0,MERGED
+19341,fix(deps): update all non-major dependencies,renovate,2025-02-03T01:07:04Z,2025-02-03T14:52:54+00:00,1,13.76,True,214,161,11,6080,1,1,2,MERGED
+19332,docs: update `build.manifest` jsdocs,userquin,2025-02-01T11:36:46Z,2025-02-03T14:53:30+00:00,2,51.28,True,1,1,1,236,0,1,1,MERGED
+19331,fix(ssr): fix transform error due to export all id scope,hi-ogawa,2025-02-01T09:02:26Z,2025-02-01T21:02:43+00:00,1,12.0,True,44,1,2,723,0,0,0,MERGED
+19325,feat: support for env var for defining allowed hosts,CompuIves,2025-01-31T09:20:30Z,2025-02-05T07:51:18+00:00,2,118.51,True,12,0,2,398,3,2,5,MERGED
+19324,fix: avoid packageJson without name in `resolveLibCssFilename`,Jinjiang,2025-01-31T07:50:32Z,2025-02-04T09:32:29+00:00,9,97.7,True,19,14,6,417,4,3,7,MERGED
+19320,test: upgrade to tailwind v4,sapphi-red,2025-01-30T07:28:49Z,2025-02-03T13:17:53+00:00,4,101.82,True,427,85,27,24,5,1,6,MERGED
+19319,test: handle proxy error message,sapphi-red,2025-01-30T05:10:00Z,2025-02-01T21:23:45+00:00,1,64.23,True,16,2,2,226,0,0,0,MERGED
+19318,fix: don't call next middleware if user sent response in proxy.bypass,sapphi-red,2025-01-30T05:08:12Z,2025-02-03T13:27:39+00:00,1,104.32,True,3,0,1,174,0,0,0,MERGED
+19317,feat: show hosts in cert in CLI,sapphi-red,2025-01-30T04:49:21Z,2025-02-05T08:37:51+00:00,2,147.81,True,112,5,4,80,3,1,4,MERGED
+19313,fix: use `nodeLikeBuiltins` for `ssr.target: 'webworker'` without `noExternal: true`,sapphi-red,2025-01-29T09:27:57Z,2025-02-03T19:37:34+00:00,1,130.16,True,4,2,1,497,3,0,3,MERGED
+19312,fix(resolve): warn if node-like builtin was imported when `resolve.builtin` is empty,sapphi-red,2025-01-29T09:22:21Z,2025-02-03T16:12:39+00:00,1,126.84,True,8,3,2,125,0,0,0,MERGED
+19303,docs: add a trouble shooting section for DevContainers,sapphi-red,2025-01-27T10:13:05Z,2025-01-27T14:21:12+00:00,2,4.14,True,8,0,1,24,0,1,1,MERGED
+19300,fix(resolve): preserve hash/search of file url,hi-ogawa,2025-01-27T06:31:33Z,2025-02-03T13:10:02+00:00,2,174.64,True,29,2,2,26,0,0,0,MERGED
+19297,chore(deps): update dependency @shikijs/vitepress-twoslash to v2,renovate,2025-01-27T01:09:17Z,2025-01-27T02:20:46+00:00,1,1.19,True,250,371,2,2366,1,0,1,MERGED
+19296,fix(deps): update all non-major dependencies,renovate,2025-01-27T01:08:58Z,2025-01-27T02:28:35+00:00,1,1.33,True,756,669,25,14788,0,0,0,MERGED
+19290,fix(ssr): pretty print plugin error in `ssrLoadModule`,hi-ogawa,2025-01-26T07:57:48Z,2025-01-27T07:27:45+00:00,2,23.5,True,46,2,2,1007,1,0,1,MERGED
+19286,docs: rephrase browser range and features relation,bluwy,2025-01-24T15:56:13Z,2025-01-27T07:22:43+00:00,2,63.44,True,21,7,4,1404,2,0,2,MERGED
+19285,chore: remove outdated code comment about `scanImports` not being used in ssr,dario-piotrowicz,2025-01-24T11:54:48Z,2025-01-24T13:41:55+00:00,1,1.79,True,0,2,1,88,0,0,0,MERGED
+19281,feat(legacy): add sourcemapBaseUrl support,reyhappen,2025-01-24T03:55:11Z,2025-03-24T05:49:38+00:00,3,1417.91,True,1,0,1,111,2,1,3,MERGED
+19272,fix: respect top-level `server.preTransformRequests`,hi-ogawa,2025-01-23T09:16:32Z,2025-02-03T14:45:04+00:00,1,269.48,True,99,1,2,1030,3,0,3,MERGED
+19271,docs: fix `preview.cors` description,sapphi-red,2025-01-23T05:13:43Z,2025-01-23T07:48:12+00:00,1,2.57,True,3,1,1,120,0,0,0,MERGED
+19269,fix(css): less `@plugin` imports of JS files treated as CSS and rebased (fix #19268),karlvr,2025-01-22T22:02:13Z,2025-02-04T04:26:48+00:00,1,294.41,True,31,1,5,1453,0,0,0,MERGED
+19262,fix(legacy): build respect `hashCharacters` config,btea,2025-01-22T06:33:42Z,2025-01-22T16:24:27+00:00,1,9.85,True,1,0,1,24,0,0,0,MERGED
+19259,feat: export `defaultAllowedOrigins` for user-land config and 3rd party plugins,timacdonald,2025-01-21T22:34:22Z,2025-01-23T13:04:13+00:00,1,38.5,True,1,0,1,1013,1,0,1,MERGED
+19257,feat(create-vite): add Marko,LuLaValva,2025-01-21T19:53:02Z,2025-04-28T09:29:54+00:00,7,2317.61,True,13,0,1,607,6,2,8,MERGED
+19255,chore!: remove deprecated splitVendorChunkPlugin,patak-dev,2025-01-21T11:57:54Z,2025-05-16T01:42:24+00:00,2,2749.74,True,17,176,12,378,0,1,1,MERGED
+19253,docs: clarify browser compatibility,patak-dev,2025-01-21T10:22:30Z,2025-01-23T12:44:49+00:00,3,50.37,True,7,2,1,202,0,1,1,MERGED
+19250,feat: add `test`/`.test` to `server.allowedHosts`/`server.cors.origin` by default,sapphi-red,2025-01-21T05:04:19Z,2025-01-21T10:49:18+00:00,8,5.75,False,55,5,6,34,2,2,4,CLOSED
+19249,fix: allow CORS from loopback addresses by default,sapphi-red,2025-01-21T03:52:09Z,2025-01-21T10:20:07+00:00,4,6.47,True,46,3,4,344,5,1,6,MERGED
+19247,"fix(utils): clone `RegExp` values with `new RegExp` instead of `structuredClone` (fix #19245, fix #18875)",askoufis,2025-01-21T02:52:36Z,2025-01-24T02:53:07+00:00,2,72.01,True,1,1,1,538,0,0,0,MERGED
+19246,fix: `preview.allowedHosts` with specific values was not respected,sapphi-red,2025-01-21T02:27:45Z,2025-01-21T07:46:57+00:00,2,5.32,True,26,14,4,142,2,0,2,MERGED
+19241,fix: try parse `server.origin` URL,bluwy,2025-01-20T15:35:57Z,2025-01-20T19:30:26+00:00,3,3.91,True,6,2,1,397,1,1,2,MERGED
+19233,chore(deps): update devDependency vitest to v3,baicie,2025-01-20T03:30:36Z,2025-01-23T14:00:37+00:00,1,82.5,True,97,67,3,46,0,0,0,MERGED
+19232,chore(deps): update dependency vitest to v3,renovate,2025-01-20T02:04:02Z,2025-01-20T09:45:20+00:00,1,7.69,False,75,65,2,15681,2,0,2,CLOSED
+19231,chore(deps): update dependency strip-literal to v3,renovate,2025-01-20T02:03:42Z,2025-01-23T14:13:19+00:00,1,84.16,True,6,6,2,797,0,0,0,MERGED
+19230,fix(utils): strip all BOMs,btea,2025-01-20T01:24:27Z,2025-01-20T04:32:19+00:00,1,3.13,False,1,1,1,88,2,0,2,CLOSED
+19226,fix(ssr): combine empty source mappings,hi-ogawa,2025-01-19T02:03:19Z,2025-01-23T13:03:31+00:00,2,107.0,True,94,15,2,549,0,0,0,MERGED
+19222,fix: use loc.file from rollup errors if available,karlvr,2025-01-17T21:58:44Z,2025-01-23T13:03:50+00:00,2,135.09,True,6,1,1,3335,0,0,0,MERGED
+19212,feat: print `port` in the logged error message after failed WS connection with `EADDRINUSE`,Andarist,2025-01-16T12:13:50Z,2025-02-04T04:27:27+00:00,2,448.23,True,6,4,1,310,0,0,0,MERGED
+19210,fix: change ResolvedConfig type to interface to allow extending it,lazuee,2025-01-16T04:52:25Z,2025-01-23T13:20:02+00:00,4,176.46,True,83,82,2,166,0,0,0,MERGED
+19204,fix: ensure `server.close()` only called once,bluwy,2025-01-14T07:44:41Z,2025-01-14T09:59:09+00:00,2,2.24,True,37,19,2,80,0,1,1,MERGED
+19203,fix: use shared sigterm callback,bluwy,2025-01-14T07:38:17Z,2025-01-14T09:38:57+00:00,1,2.01,True,20,6,1,531,0,0,0,MERGED
+19202,docs(ssr): remove link to Discord channel,jahredhope,2025-01-14T02:48:14Z,2025-01-14T10:21:01+00:00,1,7.55,True,0,4,1,586,3,0,3,MERGED
+19193,fix: avoid SSR HMR for HTML files,patak-dev,2025-01-13T10:23:06Z,2025-01-14T06:34:21+00:00,2,20.19,True,1,1,1,333,0,0,0,MERGED
+19190,fix(deps): update all non-major dependencies,renovate,2025-01-13T01:17:39Z,2025-01-23T15:40:43+00:00,3,254.38,True,855,884,20,12809,3,0,3,MERGED
+19189,fix: tree shake stringified JSON imports,lPadier,2025-01-12T19:13:03Z,2025-01-15T08:33:12+00:00,5,61.34,True,68,5,3,431,0,3,3,MERGED
+19184,docs: fix mismatched variable names,pacexy,2025-01-12T03:14:11Z,2025-01-13T07:03:33+00:00,1,27.82,True,4,4,1,0,0,0,0,MERGED
+19178,feat: use native runtime to import the config,bluwy,2025-01-10T17:04:18Z,2025-02-05T09:38:22+00:00,4,616.57,True,74,30,6,248,0,1,1,MERGED
+19176,docs: unify `__dirname` usage,pacexy,2025-01-10T06:58:35Z,2025-01-16T08:41:59+00:00,2,145.72,True,17,3,2,265,0,0,0,MERGED
+19174,fix: resolve.conditions in ResolvedConfig was `defaultServerConditions`,sapphi-red,2025-01-10T02:13:40Z,2025-01-10T10:04:06+00:00,2,7.84,True,39,2,2,166,5,1,6,MERGED
+19163,feat(create-vite): official starters options naming,patak-dev,2025-01-08T16:45:35Z,2025-01-24T03:15:37+00:00,4,370.5,True,4,4,1,103,1,0,1,MERGED
+19157,feat(create-vite): add hint for external CLIs,bluwy,2025-01-07T14:55:16Z,2025-01-23T12:52:39+00:00,4,381.96,True,50,29,1,89,1,1,2,MERGED
+19152,fix(legacy): import babel once,hi-ogawa,2025-01-07T07:12:34Z,2025-01-07T16:41:59+00:00,4,9.49,True,2,5,1,1281,0,1,1,MERGED
+19146,fix(types): improve `ESBuildOptions.include / exclude` type to allow `readonly (string | RegExp)[]`,btea,2025-01-06T13:59:27Z,2025-01-07T08:25:51+00:00,2,18.44,True,2,2,1,133,6,0,6,MERGED
+19143,fix(html): fix css disorder when building multiple entry html,thy486,2025-01-06T10:05:00Z,2025-02-04T13:47:29+00:00,10,699.71,True,48,25,1,300,4,3,7,MERGED
+19139,chore(deps): update dependency pathe to v2,renovate,2025-01-06T01:38:31Z,2025-01-07T06:18:08+00:00,2,28.66,True,8,3,2,2015,0,0,0,MERGED
+19121,docs: capitalize title in sidebar,iiio2,2025-01-02T08:48:52Z,2025-01-07T05:35:54+00:00,2,116.78,True,1,1,1,11,0,0,0,MERGED
+19119,fix(optimizer): use correct default install state path for yarn PnP,smeng9,2025-01-02T00:18:12Z,2025-01-10T10:32:30+00:00,6,202.24,True,24,10,1,549,6,1,7,MERGED
+19108,fix: build time display 7m 60s,jj19100,2024-12-31T10:44:34Z,2025-01-07T05:34:34+00:00,2,162.83,True,9,3,1,140,0,0,0,MERGED
+19107,perf: skip globbing for static path in warmup,antfu,2024-12-31T09:14:52Z,2025-01-02T19:43:31+00:00,2,58.48,True,26,7,1,860,2,0,2,MERGED
+19098,fix(deps): update all non-major dependencies,renovate,2024-12-30T00:25:15Z,2025-01-07T10:04:25+00:00,1,201.65,True,533,921,28,4064,0,0,0,MERGED
+19097,fix(ssr): fix semicolon injection by ssr transform,TheAlexLichter,2024-12-29T18:14:45Z,2025-01-02T19:44:15+00:00,5,97.49,True,37,2,2,301,3,1,4,MERGED
+19085,feat(reporter): add `wasm` to the compressible assets regex,yurivish,2024-12-27T15:55:05Z,2025-01-23T13:20:49+00:00,3,645.43,True,1,1,1,501,0,0,0,MERGED
+19084,docs: fix canonical links,sapphi-red,2024-12-27T01:52:22Z,2024-12-28T09:57:09+00:00,1,32.08,True,1,1,1,482,1,0,1,MERGED
+19080,docs: make SSR page easier to be found,brillout,2024-12-26T11:51:53Z,2025-01-02T12:52:44+00:00,2,169.01,True,1,1,1,161,0,0,0,MERGED
+19079,fix(legacy): warn if plugin-legacy is passed to `worker.plugins`,sapenlei,2024-12-26T10:02:43Z,2025-02-07T04:50:30+00:00,4,1026.8,True,7,0,1,13,5,2,7,MERGED
+19077,feat(types): make ImportMetaEnv strictly available,yunics-highfield,2024-12-26T08:54:24Z,2025-03-25T06:06:00+00:00,11,2133.19,True,37,1,3,412,9,4,13,MERGED
+19076,feat(css): show lightningcss warnings,sapphi-red,2024-12-26T05:07:32Z,2024-12-27T03:29:10+00:00,1,22.36,True,50,25,1,552,2,0,2,MERGED
+19072,feat(css): add friendly errors for IE hacks that are not supported by lightningcss,sapphi-red,2024-12-25T09:23:09Z,2025-01-23T13:16:01+00:00,1,699.88,True,19,0,1,304,0,0,0,MERGED
+19071,feat(css): support preprocessor with lightningcss,sapphi-red,2024-12-25T05:38:06Z,2025-03-24T05:50:09+00:00,3,2136.2,True,1257,566,14,247,0,2,2,MERGED
+19070,fix(css): show correct error when unknown placeholder is used for CSS modules pattern in lightningcss,sapphi-red,2024-12-25T03:14:30Z,2024-12-25T05:26:25+00:00,1,2.2,True,6,4,1,473,0,0,0,MERGED
+19067,chore: fix typo in comment,ntnyq,2024-12-24T23:38:42Z,2024-12-25T01:12:02+00:00,1,1.56,True,2,2,2,53,0,0,0,MERGED
+19062,fix(html): error while removing `vite-ignore` attribute for inline script,btea,2024-12-24T10:25:21Z,2024-12-31T04:55:28+00:00,4,162.5,True,10,9,3,22,3,1,4,MERGED
+19061,perf(css): only run postcss when needed,sapphi-red,2024-12-24T10:18:43Z,2025-01-24T03:32:27+00:00,9,737.23,True,44,36,2,11,4,6,10,MERGED
+19059,fix: don't resolve URL starting with double slash,sapphi-red,2024-12-24T07:36:55Z,2025-01-07T08:44:24+00:00,2,337.12,True,8,5,2,36,0,0,0,MERGED
+19057,feat(client): ping from SharedWorker,sapphi-red,2024-12-24T06:09:35Z,2025-07-28T02:44:07+00:00,2,5180.58,True,131,19,1,622,4,2,6,MERGED
+19056,chore: bump TypeScript to ~5.7.2,sapphi-red,2024-12-24T02:12:36Z,2024-12-25T02:03:24+00:00,1,23.85,True,142,142,10,56,0,0,0,MERGED
+19053,fix(css): avoid using default export from sass-embedded,cod1r,2024-12-23T11:31:24Z,2024-12-28T07:59:21+00:00,1,116.47,False,5,2,1,62,7,0,7,CLOSED
+19048,ci: add additionalAllowedUsers to `ecosystem-ci-trigger` workflow,sapphi-red,2024-12-23T04:34:56Z,2024-12-23T15:04:15+00:00,1,10.49,True,3,1,1,155,0,0,0,MERGED
+19047,chore: update comment about `build.target`,sapphi-red,2024-12-23T04:15:21Z,2024-12-23T15:04:50+00:00,1,10.82,True,6,7,1,24,0,0,0,MERGED
+19045,fix(deps): update all non-major dependencies,renovate,2024-12-23T01:31:41Z,2024-12-24T01:39:38+00:00,1,24.13,True,294,144,21,9692,0,0,0,MERGED
+19044,test(ssr): test virtual module with query,hi-ogawa,2024-12-23T01:09:26Z,2024-12-23T11:22:32+00:00,1,10.22,True,13,0,1,280,0,0,0,MERGED
+19043,revert: unpin esbuild version,jeff-fe,2024-12-23T01:03:03Z,2024-12-24T02:58:25+00:00,1,25.92,True,266,8,2,77,5,0,5,MERGED
+19041,chore: use node v22 on netlify,iiio2,2024-12-22T16:24:09Z,2024-12-24T01:46:59+00:00,1,33.38,True,1,1,1,74,0,0,0,MERGED
+19025,fix: fix `minify` when `builder.sharedPlugins: true`,hi-ogawa,2024-12-20T08:59:47Z,2024-12-26T02:24:20+00:00,2,137.41,True,69,22,5,26,0,1,1,MERGED
+19016,fix: skip the plugin if it has been called before with the same id and importer,sapphi-red,2024-12-20T03:41:35Z,2025-01-02T19:39:25+00:00,5,327.96,True,81,8,2,1073,0,1,1,MERGED
+19015,refactor(create-vite): remove tslib from svelte-ts template,sapphi-red,2024-12-20T01:29:57Z,2024-12-20T20:46:21+00:00,2,19.27,True,0,1,1,106,0,0,0,MERGED
+19014,fix(create-vite): svelte-ts typecheck command,sapphi-red,2024-12-20T01:27:08Z,2024-12-20T20:46:43+00:00,2,19.33,True,1,1,1,149,0,0,0,MERGED
+19010,feat(worker): support dynamic worker option fields,jamsinclair,2024-12-19T14:09:20Z,2025-01-23T13:19:26+00:00,12,839.17,True,254,10,3,954,1,8,9,MERGED
+19004,fix(ssrTransform): preserve line offset when transforming imports,aleclarson,2024-12-18T17:35:56Z,2024-12-24T08:19:19+00:00,7,134.72,True,222,171,2,1629,8,5,13,MERGED
+19001,fix(css): resolve style tags in HTML files correctly for lightningcss,sapphi-red,2024-12-18T08:41:42Z,2024-12-25T03:07:20+00:00,3,162.43,True,14,13,2,275,1,1,2,MERGED
+19000,fix(resolve): handle package.json with UTF-8 BOM,sapenlei,2024-12-18T08:35:43Z,2024-12-24T08:17:44+00:00,3,143.7,True,48,2,7,71,1,1,2,MERGED
+18999,"test: fix ""excluded dep in included dep"" test",sapphi-red,2024-12-18T05:57:05Z,2024-12-18T09:47:31+00:00,2,3.84,True,6,7,5,74,0,1,1,MERGED
+18997,fix(css): escape double quotes in `url()` when lightningcss is used,sapphi-red,2024-12-18T04:22:42Z,2024-12-18T09:49:21+00:00,2,5.44,True,43,11,7,24,0,1,1,MERGED
+18995,feat(create-vite): align tsconfigs in svelte-ts template with others,sapphi-red,2024-12-18T02:00:59Z,2024-12-18T10:41:08+00:00,1,8.67,True,39,22,3,336,2,0,2,MERGED
+18988,docs: add Hono to framework examples,EdamAme-x,2024-12-17T13:53:18Z,2025-01-03T03:54:57+00:00,3,398.03,True,12,0,2,208,4,1,5,MERGED
+18987,fix: fallback terser to main thread when function options are used,sapphi-red,2024-12-17T10:16:26Z,2024-12-17T20:32:19+00:00,1,10.26,True,71,2,4,1433,0,0,0,MERGED
+18983,fix(ssr): hoist export to handle cyclic import better,hi-ogawa,2024-12-17T08:40:52Z,2025-03-26T01:18:29+00:00,6,2368.63,True,256,99,32,1599,13,6,19,MERGED
+18979,fix(hmr): register inlined assets as a dependency of CSS file,sapphi-red,2024-12-17T04:31:08Z,2025-01-24T02:54:39+00:00,2,910.39,True,134,31,8,163,0,0,0,MERGED
+18976,fix: normalize html path in `transformIndexHtml()`,vanaigr,2024-12-16T22:30:21Z,2025-03-03T07:16:47+00:00,6,1832.77,False,121,44,3,536,1,1,2,CLOSED
+18973,fix(ssr): recreate ssrCompatModuleRunner on restart,sapphi-red,2024-12-16T11:37:00Z,2024-12-16T19:46:28+00:00,2,8.16,True,1,0,1,300,0,0,0,MERGED
+18972,fix(hmr): reload CSS when inlined SVG is changed,sapphi-red,2024-12-16T10:51:11Z,2025-07-10T08:50:47+00:00,1,4941.99,False,132,29,9,112,1,1,2,CLOSED
+18971,fix(sourcemap): combine sourcemaps with multiple sources without matched source,sapphi-red,2024-12-16T05:56:17Z,2025-03-07T01:22:22+00:00,2,1939.43,True,160,8,2,36,10,0,10,MERGED
+18970,fix(css): skip non css in custom sass importer,hi-ogawa,2024-12-16T03:33:48Z,2024-12-17T05:49:30+00:00,3,26.26,True,27,3,5,1030,3,1,4,MERGED
+18969,test: don't use `__dirname` in tailwind config,sapphi-red,2024-12-16T02:19:00Z,2024-12-16T03:50:54+00:00,1,1.53,True,6,1,1,453,3,0,3,MERGED
+18968,chore(deps): update dependency @rollup/plugin-node-resolve to v16,renovate,2024-12-16T00:40:23Z,2024-12-17T05:40:21+00:00,2,29.0,True,22,3,2,867,1,0,1,MERGED
+18967,fix(deps): update all non-major dependencies,renovate,2024-12-16T00:40:04Z,2024-12-17T07:07:31+00:00,1,30.46,True,604,760,19,11720,0,0,0,MERGED
+18951,docs: capitalize text,iiio2,2024-12-13T04:05:05Z,2024-12-13T11:24:02+00:00,1,7.32,True,3,3,3,11,1,0,1,MERGED
+18948,chore: better validation error message for dts build,sapphi-red,2024-12-12T07:17:23Z,2024-12-13T12:02:07+00:00,1,28.75,True,8,4,1,93,0,0,0,MERGED
+18946,test: fix run css playground with legacy sass,sapphi-red,2024-12-12T02:52:12Z,2024-12-20T07:08:05+00:00,2,196.26,True,133,95,9,983,4,0,4,MERGED
+18945,fix(css): root relative import in sass modern API on Windows,sapphi-red,2024-12-12T02:22:32Z,2024-12-16T11:43:52+00:00,2,105.36,True,16,2,5,24,9,0,9,MERGED
+18941,"docs: distinguish the two ""env var""s using different words",sapphi-red,2024-12-11T03:04:42Z,2025-02-07T01:52:17+00:00,2,1390.79,True,41,38,3,1260,1,0,1,MERGED
+18940,feat: support async for proxy.bypass,shulaoda,2024-12-11T01:37:53Z,2025-01-23T12:50:27+00:00,31,1043.21,True,76,21,4,81,2,9,11,MERGED
+18937,docs: display file name in a better way,clicktodev,2024-12-10T15:07:32Z,2024-12-16T20:54:47+00:00,1,149.79,True,1,2,1,57,0,0,0,MERGED
+18924,docs: bring back the UwU logo,kennething,2024-12-09T21:58:49Z,2024-12-10T02:09:00+00:00,2,4.17,True,16,1,1,28,1,0,1,MERGED
+18922,feat: support log related functions in dev,sapphi-red,2024-12-09T10:44:16Z,2025-01-23T13:05:56+00:00,1,1082.36,True,189,41,3,72,7,0,7,MERGED
+18917,fix(deps): update react monorepo to v19 (major),renovate,2024-12-09T01:20:03Z,2025-01-23T12:17:47+00:00,6,1090.96,True,64,87,7,1017,2,0,2,MERGED
+18916,chore(deps): update all non-major dependencies,renovate,2024-12-09T01:19:27Z,2024-12-09T02:32:11+00:00,1,1.21,True,472,440,32,21252,0,0,0,MERGED
+18906,docs: add profile card,btea,2024-12-07T00:18:24Z,2024-12-07T04:29:18+00:00,2,4.18,True,6,0,1,29,0,0,0,MERGED
+18903,fix: `this.resolve` skipSelf should not skip for different `id` or `import`,sapphi-red,2024-12-06T10:56:50Z,2024-12-10T07:18:51+00:00,2,92.37,True,80,9,3,24,4,0,4,MERGED
+18902,refactor: make internal invoke event to use the same interface with `handleInvoke`,sapphi-red,2024-12-06T03:08:33Z,2024-12-16T11:42:09+00:00,1,248.56,True,10,16,3,55,0,0,0,MERGED
+18901,fix: make `--force` work for all environments,sapphi-red,2024-12-06T02:46:07Z,2025-01-23T14:23:12+00:00,5,1163.62,True,23,7,4,168,3,0,3,MERGED
+18900,test: use `readDepOptimizationMetadata`,sapphi-red,2024-12-06T02:41:39Z,2024-12-06T04:11:29+00:00,1,1.5,True,25,27,3,92,0,0,0,MERGED
+18899,fix(optimizer): keep NODE_ENV as-is when keepProcessEnv is `true`,sapphi-red,2024-12-06T02:09:16Z,2024-12-16T19:48:42+00:00,8,257.66,True,21,4,2,184,4,4,8,MERGED
+18898,test: test output hash changes,hi-ogawa,2024-12-06T01:39:42Z,2024-12-06T06:08:46+00:00,2,4.48,True,40,0,1,316,0,0,0,MERGED
+18895,fix: merge client and ssr values for `pluginContainer.getModuleInfo`,bluwy,2024-12-05T17:00:36Z,2024-12-10T09:52:58+00:00,3,112.87,True,84,10,2,636,0,1,1,MERGED
+18891,refactor: fix logic errors found by no-unnecessary-condition rule,sapphi-red,2024-12-05T10:23:38Z,2024-12-05T11:55:31+00:00,1,1.53,True,172,205,35,103,2,0,2,MERGED
+18890,refactor: simplify manifest plugin code,shulaoda,2024-12-05T10:14:12Z,2024-12-06T09:53:48+00:00,2,23.66,True,3,6,1,159,0,0,0,MERGED
+18889,fix(resolve): support resolving TS files by JS extension specifiers in JS files,sapphi-red,2024-12-05T09:19:28Z,2025-01-23T14:22:47+00:00,4,1181.06,True,29,49,6,664,4,0,4,MERGED
+18887,fix(config): bundle files referenced with imports field,sapphi-red,2024-12-05T04:37:27Z,2024-12-05T08:09:43+00:00,3,3.54,True,8,1,5,24,0,1,1,MERGED
+18886,fix: handle postcss load unhandled rejections,sapphi-red,2024-12-05T04:11:37Z,2024-12-05T08:21:36+00:00,7,4.17,True,15,4,2,24,0,1,1,MERGED
+18885,fix: remove CSS import in CJS correctly in some cases,sapphi-red,2024-12-05T03:38:24Z,2024-12-05T08:30:17+00:00,1,4.86,True,27,5,2,273,0,0,0,MERGED
+18881,docs: tweak wordings in Environment API doc,iiio2,2024-12-04T13:24:48Z,2024-12-05T01:47:54+00:00,4,12.38,True,22,22,5,65,3,1,4,MERGED
+18879,"docs: fix typo ""constrains"" to ""constraints""",samualtnorman,2024-12-04T11:52:43Z,2024-12-04T13:07:32+00:00,1,1.25,True,1,1,1,88,1,0,1,MERGED
+18877,docs: add SvelteKit to the Environment API story,patak-dev,2024-12-04T10:17:03Z,2024-12-04T21:09:54+00:00,2,10.88,True,2,2,1,194,1,2,3,MERGED
+18876,fix: make handleInvoke interface compatible with invoke,sapphi-red,2024-12-04T03:57:31Z,2024-12-05T13:02:50+00:00,3,33.09,True,10,4,2,282,1,1,2,MERGED
+18868,fix(css): rewrite url when image-set and url exist at the same time,btea,2024-12-03T09:15:07Z,2024-12-04T08:23:38+00:00,4,23.14,True,37,10,3,22,0,1,1,MERGED
+18866,chore: update contributing.md vite version,btea,2024-12-03T07:50:26Z,2024-12-03T13:44:53+00:00,1,5.91,True,1,1,1,63,0,0,0,MERGED
+18865,test: test `ModuleRunnerTransport` `invoke` API,dario-piotrowicz,2024-12-03T00:41:12Z,2024-12-06T02:59:09+00:00,5,74.3,True,148,1,4,97,2,2,4,MERGED
+18862,feat(create-vite): extend from @vue/tsconfig to simplify tsconfig.app.json,haoqunjiang,2024-12-02T08:36:11Z,2024-12-19T01:49:48+00:00,2,401.23,True,2,13,2,646,2,0,2,MERGED
+18858,chore: run typecheck in unit tests,hi-ogawa,2024-12-02T03:36:27Z,2024-12-02T05:00:31+00:00,1,1.4,True,14,13,7,326,0,0,0,MERGED
+18857,fix: merge `environments.ssr.resolve` with root `ssr` config,hi-ogawa,2024-12-02T02:40:55Z,2024-12-02T13:28:58+00:00,7,10.8,True,137,7,2,347,0,3,3,MERGED
+18856,docs(api-environment): remove outdated text content,yuxi-ovo,2024-12-02T01:53:28Z,2024-12-02T15:18:55+00:00,10,13.42,True,10,10,5,12,0,3,3,MERGED
+18855,feat: add support for `.jxl`,yuxi-ovo,2024-12-02T01:49:45Z,2025-01-23T12:02:09+00:00,6,1258.21,True,7,0,3,12,1,4,5,MERGED
+18853,fix(deps): update all non-major dependencies,renovate,2024-12-02T01:22:55Z,2024-12-02T08:32:32+00:00,2,7.16,True,418,362,29,11734,0,0,0,MERGED
+18852,fix(html): allow unexpected question mark in tag name,Christiano300,2024-12-01T21:19:41Z,2024-12-05T03:27:08+00:00,3,78.12,True,4,0,1,607,0,1,1,MERGED
+18851,fix: make result interfaces for `ModuleRunnerTransport#invoke` more explicit,dario-piotrowicz,2024-12-01T16:02:45Z,2024-12-02T13:28:15+00:00,2,21.43,True,5,9,2,984,5,0,5,MERGED
+18846,docs(migration): add assets names array hint to avoid breaking the build when manifest enabled,userquin,2024-11-30T11:12:13Z,2025-02-07T16:01:55+00:00,2,1660.83,False,2,0,1,437,2,1,3,CLOSED
+18844,fix: no permission to create vite config file,btea,2024-11-30T03:17:23Z,2024-12-02T10:40:22+00:00,5,55.38,True,13,4,1,22,0,1,1,MERGED
+18842,docs(assets): update static asset URL transformation in dev,onildof,2024-11-30T00:10:48Z,2024-12-02T09:05:36+00:00,1,56.91,True,1,1,1,699,1,0,1,MERGED
+18841,chore(node/constants): add jxl and remove  delete outdated text content,yuxi-ovo,2024-11-29T16:59:27Z,2024-12-02T01:21:47+00:00,1,56.37,False,1,12,2,19,2,0,2,CLOSED
+18840,fix: correctly resolve hmr dep ids and fallback to url ,patricklx,2024-11-29T16:57:48Z,2025-01-23T14:14:09+00:00,20,1317.27,True,112,32,6,230,34,7,41,MERGED
+18837,fix(module-runner): decode uri for file url passed to import,bluwy,2024-11-29T15:36:56Z,2024-12-02T14:23:06+00:00,1,70.77,True,17,1,4,140,5,0,5,MERGED
+18833,fix(config): make stacktrace path correct when sourcemap is enabled,sapphi-red,2024-11-29T08:36:21Z,2024-12-04T04:07:22+00:00,6,115.52,True,2,0,1,24,5,1,6,MERGED
+18827,fix(ssr): set `ssr.target: 'webworker'` defaults as fallback,sapphi-red,2024-11-29T01:54:51Z,2024-11-29T20:58:10+00:00,3,19.06,True,9,18,2,36,1,1,2,MERGED
+18826,fix(optimizer): resolve all promises when cancelled,sapphi-red,2024-11-29T01:42:03Z,2024-11-29T07:50:12+00:00,1,6.14,True,2,0,1,520,0,0,0,MERGED
+18823,fix: don't store temporary vite config file in `node_modules` if deno,kazushisan,2024-11-28T11:06:46Z,2024-11-29T07:49:04+00:00,10,20.7,True,7,1,1,789,1,4,5,MERGED
+18821,fix(resolve): don't set builtinModules to `external` by default,sapphi-red,2024-11-28T10:05:13Z,2024-11-29T20:57:21+00:00,2,34.87,True,13,8,2,559,2,0,2,MERGED
+18820,fix(manifest): use `style.css` as a key for the style file for `cssCodesplit: false`,sapphi-red,2024-11-28T09:13:56Z,2024-11-28T12:53:10+00:00,1,3.65,True,4,0,2,181,0,0,0,MERGED
+18819,fix(css): referencing aliased svg asset with lightningcss enabled errored,sapphi-red,2024-11-28T07:50:07Z,2024-11-28T13:06:18+00:00,3,5.27,True,42,1,7,24,0,1,1,MERGED
+18818,feat(css): format lightningcss error,sapphi-red,2024-11-28T07:19:30Z,2024-11-28T12:53:42+00:00,2,5.57,True,66,51,1,181,0,0,0,MERGED
+18808,feat: show `mode` on server start and add env debugger,nozomuikuta,2024-11-27T13:58:07Z,2025-02-20T03:24:29+00:00,10,2029.44,True,17,2,2,258,1,2,3,MERGED
+18805,docs: show old document warning,sapphi-red,2024-11-27T12:18:37Z,2024-11-28T12:54:56+00:00,3,24.61,True,49,0,2,102,4,1,5,MERGED
+18802,chore: update broken links in changelog,yuxi-ovo,2024-11-27T09:02:00Z,2024-11-27T10:32:24+00:00,8,1.51,True,2,2,1,12,1,3,4,MERGED
+18796,refactor: make properties of ResolvedServerOptions and ResolvedPreviewOptions required,sapphi-red,2024-11-27T06:31:04Z,2024-11-27T15:25:13+00:00,2,8.9,True,26,7,4,270,3,0,3,MERGED
+18793,fix(worker): fix `applyToEnvironment` hooks on worker build,hi-ogawa,2024-11-27T01:13:56Z,2024-11-27T04:52:08+00:00,4,3.64,True,43,10,11,26,3,1,4,MERGED
+18792,feat(create-vite): bump vite-plugin-solid to `2.11.0`,atilafassina,2024-11-26T22:40:44Z,2024-11-27T02:54:44+00:00,2,4.23,True,2,2,2,98,0,0,0,MERGED
+18788,fix: default empty server `proxy` prevents starting http2 server,userquin,2024-11-26T18:04:16Z,2024-11-27T03:17:59+00:00,4,9.23,True,1,1,1,242,0,2,2,MERGED
+18785,feat(create-vite): change Remix to React Router v7,AlemTuzlak,2024-11-26T16:28:06Z,2024-11-26T20:40:29+00:00,1,4.21,True,3,3,1,56,1,0,1,MERGED
+18782,fix(server): skip hot channel client normalization for wsServer ,antfu,2024-11-26T15:49:21Z,2024-11-27T04:52:27+00:00,3,13.05,True,21,7,2,43,0,1,1,MERGED
+18779,fix(server): recover `server.ws.clients.send` API changes for back compatibility,antfu,2024-11-26T13:56:38Z,2024-11-27T04:53:23+00:00,1,14.95,False,21,2,1,1164,8,0,8,CLOSED
+18776,fix(manifest): do not override existing js manifest entry ,dominikg,2024-11-26T11:27:23Z,2024-11-26T14:17:04+00:00,1,2.83,True,4,1,1,191,4,0,4,MERGED
+18774,revert: update moduleResolution value casing (#18409),ArnaudBarre,2024-11-26T11:13:14Z,2024-11-26T17:23:37+00:00,1,6.17,True,25,25,25,103,6,0,6,MERGED
+18770,chore(create-vite): update to vite 6,patak-dev,2024-11-26T10:08:01Z,2024-11-26T14:17:22+00:00,1,4.16,True,22,22,16,48,0,0,0,MERGED
+18767,docs: add missing types in env API docs,sapphi-red,2024-11-26T03:47:36Z,2024-11-26T08:27:20+00:00,1,4.66,True,54,9,2,63,0,0,0,MERGED
+18766,fix: expose missing `InterceptorOptions` type,sapphi-red,2024-11-26T03:46:41Z,2024-11-26T07:08:03+00:00,1,3.36,True,1,0,1,173,0,0,0,MERGED
+18765,docs: clarify .env loading precedence / behavior,basal-luke,2024-11-26T02:04:00Z,2024-11-29T03:51:51+00:00,6,73.8,True,2,0,1,1494,0,1,1,MERGED
+18764,fix: display pre-transform error details,hi-ogawa,2024-11-26T01:58:28Z,2024-11-26T08:29:08+00:00,2,6.51,True,16,9,2,933,0,0,0,MERGED
+18763,feat: add support for injecting debug IDs,timfish,2024-11-26T01:58:08Z,2025-02-13T10:48:04+00:00,3,1904.83,True,40,0,3,1597,4,0,4,MERGED
+18762,docs: correct docs about plugin-react-swc,mbrowne,2024-11-26T00:32:03Z,2024-12-02T13:07:58+00:00,1,156.6,True,1,1,1,169,5,0,5,MERGED
+18758,docs: changes ssr using module runner,patak-dev,2024-11-25T16:57:47Z,2024-11-26T01:24:11+00:00,1,8.44,True,4,4,1,99,0,0,0,MERGED
+18755,docs(migration): note ssr-only module reload,bluwy,2024-11-25T14:40:31Z,2024-11-25T15:43:39+00:00,1,1.05,True,47,0,1,184,0,0,0,MERGED
+18753,fix: log error when send in module runner failed,sapphi-red,2024-11-25T11:37:33Z,2024-11-25T13:42:42+00:00,2,2.09,True,5,3,3,333,0,0,0,MERGED
+18752,perf(worker): inline worker without base64,sapphi-red,2024-11-25T10:36:56Z,2024-11-25T16:01:01+00:00,2,5.4,True,13,15,5,468,0,0,0,MERGED
+18751,feat: disallow `ModuleRunnerTransport` to be async,sapphi-red,2024-11-25T09:56:41Z,2024-11-26T01:25:28+00:00,1,15.48,False,8,15,1,189,1,1,2,CLOSED
+18749,feat: enable HMR by default on ModuleRunner side,sapphi-red,2024-11-25T09:04:25Z,2024-11-25T13:15:39+00:00,3,4.19,True,12,13,4,142,0,1,1,MERGED
+18748,"fix(ssr): replace `__vite_ssr_identity__` with `(0, ...)` and inject `;` between statements",hi-ogawa,2024-11-25T03:42:34Z,2024-11-26T08:48:10+00:00,2,29.09,True,247,112,2,308,15,0,15,MERGED
+18747,chore(deps): update dependency sugarss to v5,renovate,2024-11-25T01:48:14Z,2024-11-25T08:04:11+00:00,1,6.27,True,11,11,4,752,0,0,0,MERGED
+18746,chore(deps): update all non-major dependencies,renovate,2024-11-25T01:47:45Z,2024-11-25T06:36:59+00:00,1,4.82,True,63,121,8,7452,0,0,0,MERGED
+18741,fix: exit code on `SIGTERM`,AriPerkkio,2024-11-23T08:16:05Z,2024-11-25T08:51:30+00:00,2,48.59,True,8,4,3,27,0,1,1,MERGED
+18738,docs: vite 6 announcement post,patak-dev,2024-11-22T17:35:31Z,2024-11-26T10:46:02+00:00,9,89.18,True,154,0,5,251,0,7,7,MERGED
+18733,fix(optimizer): trigger onCrawlEnd after manual included deps are registered,sapphi-red,2024-11-22T06:55:39Z,2024-11-22T11:10:21+00:00,2,4.25,True,2,1,1,1621,0,0,0,MERGED
+18730,feat: expose createServerModuleRunnerTransport,sheremet-va,2024-11-21T19:22:43Z,2025-01-23T13:07:38+00:00,1,1505.75,True,14,1,3,96,1,0,1,MERGED
+18729,feat!: drop node 21 support in version ranges,bluwy,2024-11-21T16:07:28Z,2024-11-22T03:41:25+00:00,2,11.57,True,6,6,5,169,0,0,0,MERGED
+18721,feat: show more info on server start,nozomuikuta,2024-11-20T19:17:20Z,2024-11-27T13:59:49+00:00,4,162.71,False,77,25,9,302,2,3,5,CLOSED
+18718,docs: rename `HotUpdateContext` to `HotUpdateOptions`,sapphi-red,2024-11-20T11:04:23Z,2024-11-20T13:21:38+00:00,1,2.29,True,4,4,3,70,0,0,0,MERGED
+18716,chore(create-vite): change directory structure of `template-vanilla` for consistency,nozomuikuta,2024-11-20T09:41:54Z,2024-11-22T15:28:39+00:00,2,53.78,True,1,1,5,375,3,0,3,MERGED
+18715,fix: `getModulesByFile` should return a `serverModule`,sapphi-red,2024-11-20T07:32:27Z,2024-11-20T13:22:05+00:00,2,5.83,True,1,1,1,52,0,1,1,MERGED
+18713,fix: catch error in full reload handler,sapphi-red,2024-11-20T01:58:18Z,2024-11-21T07:35:33+00:00,5,29.62,True,52,19,10,6755,0,1,1,MERGED
+18710,fix(create-vite): change create-app prompt to not remove existing files by default,texuf,2024-11-19T17:17:53Z,2024-11-21T02:49:20+00:00,2,33.52,True,4,4,1,252,0,0,0,MERGED
+18701,test: simplify `playground/json/__tests__/ssr`,hi-ogawa,2024-11-18T07:54:26Z,2024-11-18T12:00:05+00:00,1,4.09,True,29,177,7,187,0,0,0,MERGED
+18699,test: remove `runInBuild` flag from `withRetry` and `untilUpdated` helpers,hi-ogawa,2024-11-18T07:07:57Z,2024-11-19T03:01:20+00:00,2,19.89,True,142,213,24,145,0,3,3,MERGED
+18698,test: remove `runInBuild` flag from `withRetry`,hi-ogawa,2024-11-18T05:26:38Z,2024-11-19T02:54:00+00:00,2,21.46,True,27,31,6,233,1,0,1,MERGED
+18697,fix(deps)!: update dependency dotenv-expand to v12,renovate,2024-11-18T03:33:03Z,2024-11-20T13:21:12+00:00,2,57.8,True,9,7,4,1708,6,0,6,MERGED
+18696,fix(html): fix inline proxy modules invalidation,hi-ogawa,2024-11-18T03:08:00Z,2024-11-18T12:01:09+00:00,1,8.89,True,43,6,4,367,1,0,1,MERGED
+18695,test: run ssr-conditions build test,sapphi-red,2024-11-18T02:57:01Z,2024-11-19T04:39:40+00:00,3,25.71,True,97,44,5,153,0,1,1,MERGED
+18694,test: skip ssr-html build tests,sapphi-red,2024-11-18T02:56:27Z,2024-11-18T08:04:27+00:00,1,5.13,True,1,1,1,166,0,0,0,MERGED
+18691,fix(deps): update all non-major dependencies,renovate,2024-11-18T00:38:31Z,2024-11-19T03:58:59+00:00,1,27.34,True,876,671,38,12729,0,0,0,MERGED
+18684,feat: add Russian translation,dragomano,2024-11-16T05:34:14Z,2024-12-10T13:55:57+00:00,1,584.36,False,1,0,1,152,8,0,8,CLOSED
+18681,docs(migration): add entry for #17922,bluwy,2024-11-15T15:41:12Z,2024-11-15T21:59:59+00:00,1,6.31,True,2,0,1,112,0,0,0,MERGED
+18680,feat: add support for .cur type,otomad,2024-11-15T14:46:47Z,2024-11-19T06:18:07+00:00,4,87.52,True,7,0,3,24,0,1,1,MERGED
+18678,Update tsconfig.node.json,mgcrea,2024-11-15T13:57:33Z,2025-09-24T02:10:13+00:00,1,7500.21,False,3,2,1,143,2,0,2,CLOSED
+18673,"fix: `createRunnableDevEnvironment` returns `RunnableDevEnvironment`, not `DevEnvironment`",sheremet-va,2024-11-14T16:18:16Z,2024-11-15T07:56:18+00:00,2,15.63,True,1,1,1,118,0,0,0,MERGED
+18672,fix(module-runner): make evaluator optional,sheremet-va,2024-11-14T15:50:38Z,2024-11-19T10:48:02+00:00,3,114.96,True,4,3,2,42,0,0,0,MERGED
+18670,refactor(resolve): remove `allowLinkedExternal` parameter from `tryNodeResolve`,sapphi-red,2024-11-14T06:01:26Z,2024-11-14T08:11:33+00:00,1,2.17,True,35,39,2,205,0,0,0,MERGED
+18667,fix: include more modules to prefix-only module list,sapphi-red,2024-11-14T04:01:00Z,2024-11-14T08:13:15+00:00,2,4.2,True,7,1,1,38,0,1,1,MERGED
+18666,perf: reduce bundle size for `Object.keys(import.meta.glob(...))` / `Object.values(import.meta.glob(...))`,btea,2024-11-14T03:59:09Z,2024-11-22T09:36:27+00:00,10,197.62,True,175,14,3,24,9,5,14,MERGED
+18665,fix(optimizer): workaround firefox's false warning for no sources source map,hi-ogawa,2024-11-14T00:49:40Z,2024-11-19T04:24:50+00:00,3,123.59,True,48,0,7,666,0,2,2,MERGED
+18659,revert: use chokidar v3,bluwy,2024-11-13T14:25:11Z,2024-11-14T08:13:42+00:00,1,17.81,True,530,165,15,410,0,0,0,MERGED
+18658,refactor: first character judgment replacement regexp,btea,2024-11-13T14:16:49Z,2024-11-15T07:56:47+00:00,1,41.67,True,1,1,1,112,0,0,0,MERGED
+18653,chore(create-vite): add @types/node as devDependency in *-ts,misakamayako,2024-11-13T08:14:21Z,2025-09-25T08:03:33+00:00,4,7583.82,False,26,1,1,620,1,1,2,CLOSED
+18650,feat: support `module-sync` condition when loading config if enabled,sapphi-red,2024-11-13T03:44:52Z,2024-11-25T14:13:03+00:00,4,298.47,True,28,15,9,213,0,2,2,MERGED
+18649,feat: show error when accessing variables not exposed in CJS build,sapphi-red,2024-11-13T03:42:06Z,2024-11-13T10:51:53+00:00,5,7.16,True,65,4,2,155,1,2,3,MERGED
+18648,feat: expose default mainFields/conditions,sapphi-red,2024-11-13T03:02:19Z,2024-11-14T08:14:35+00:00,8,29.2,True,41,26,9,33,2,2,4,MERGED
+18647,fix(client): overlay not appearing when multiple vite clients were loaded,seokju-na,2024-11-12T12:13:07Z,2024-11-21T15:36:41+00:00,4,219.39,True,5,1,1,967,1,1,2,MERGED
+18646,feat: add `ssr.resolve.mainFields` option,sapphi-red,2024-11-12T08:12:39Z,2024-11-13T10:50:29+00:00,4,26.63,True,12,0,4,360,1,0,1,MERGED
+18644,fix(ssr): format `ssrTransform` parse error ,hi-ogawa,2024-11-11T23:07:21Z,2024-11-14T01:43:41+00:00,9,50.61,True,43,18,2,647,0,4,4,MERGED
+18642,feat(create-vite): add @types/node to typescript templates,smeng9,2024-11-11T17:33:55Z,2025-09-25T08:00:32+00:00,2,7622.44,True,12,6,12,13,7,0,7,MERGED
+18637,feat: use module runner to import the config,sheremet-va,2024-11-11T10:02:29Z,2025-01-23T12:26:53+00:00,28,1754.41,True,357,90,23,1275,10,14,24,MERGED
+18636,test: run css sourcemap playground for legacy sass,sapphi-red,2024-11-11T08:02:43Z,2024-11-11T11:31:34+00:00,1,3.48,True,61,61,6,279,0,0,0,MERGED
+18634,chore(deps): update all non-major dependencies,renovate,2024-11-11T01:51:01Z,2024-11-11T08:49:31+00:00,1,6.97,True,231,231,12,9145,0,0,0,MERGED
+18633,docs: fix mobile menu background on light mode landing page,sapphi-red,2024-11-11T01:28:48Z,2024-11-11T11:24:53+00:00,3,9.93,True,2,4,1,259,0,1,1,MERGED
+18630,perf: remove strip-ansi for a node built-in,filipw01,2024-11-10T12:55:14Z,2024-11-11T08:51:16+00:00,2,19.93,True,18,22,4,132,1,0,1,MERGED
+18628,docs: note about a silly edge case in the ssr guide,andriibeee,2024-11-09T23:01:35Z,2024-11-11T20:42:07+00:00,2,45.68,True,1,1,1,446,1,0,1,MERGED
+18627,docs: fix attribute in example,mcavigelli,2024-11-09T21:21:36Z,2024-11-11T07:38:37+00:00,1,34.28,True,1,1,1,129,0,0,0,MERGED
+18626,fix(ssr): preserve fetchModule error details,hi-ogawa,2024-11-09T02:40:57Z,2024-11-11T12:28:52+00:00,3,57.8,True,103,2,9,399,1,1,2,MERGED
+18620,feat: add `isSsrTargetWebWorker` flag to `configEnvironment` hook,sapphi-red,2024-11-08T09:17:38Z,2024-11-14T02:00:04+00:00,2,136.71,True,20,5,2,497,1,0,1,MERGED
+18619,docs: expand description of `externalConditions`,sapphi-red,2024-11-08T09:05:58Z,2024-11-11T12:30:07+00:00,5,75.4,True,9,1,1,136,0,1,1,MERGED
+18618,fix(html): externalize `rollup.external` scripts correctly,sapphi-red,2024-11-08T08:20:43Z,2024-11-09T09:35:24+00:00,1,25.24,True,79,22,4,362,2,0,2,MERGED
+18617,chore(deps): update dependencies of postcss-modules,mrginglymus,2024-11-08T08:17:01Z,2024-11-08T10:01:23+00:00,1,1.74,True,12,12,1,196,5,0,5,MERGED
+18613,docs: update haoqunjiang's info in team emeriti section,haoqunjiang,2024-11-07T14:56:48Z,2024-11-08T03:07:30+00:00,1,12.18,True,6,7,1,103,0,0,0,MERGED
+18611,feat(optimizer): allow users to specify their esbuild `platform` option,dario-piotrowicz,2024-11-07T11:56:38Z,2024-11-08T05:32:52+00:00,4,17.6,True,10,5,2,147,0,1,1,MERGED
+18602,chore(deps): update transitive deps,sapphi-red,2024-11-07T03:32:57Z,2024-11-07T14:33:03+00:00,1,11.0,True,1215,1127,7,83,3,0,3,MERGED
+18598,chore(deps): update dependencies of postcss-modules,mrginglymus,2024-11-06T15:31:40Z,2024-11-06T20:48:19+00:00,1,5.28,True,12,12,1,171,0,0,0,MERGED
+18594,chore: remove unused `ssr` variable,sapphi-red,2024-11-06T11:40:53Z,2024-11-06T12:46:17+00:00,1,1.09,True,0,2,1,68,0,0,0,MERGED
+18592,fix: vite build now works with broken symlink in public,crutchcorn,2024-11-06T06:26:28Z,2025-06-21T09:47:47+00:00,1,5451.36,False,4,0,1,352,0,1,1,CLOSED
+18591,fix(resolve): run ensureVersionQuery for SSR,sapphi-red,2024-11-06T06:09:51Z,2024-11-06T10:47:00+00:00,1,4.62,True,5,7,1,73,0,0,0,MERGED
+18590,refactor(resolve): remove `environmentsOptions` parameter,sapphi-red,2024-11-06T06:02:25Z,2024-11-06T09:23:15+00:00,2,3.35,True,13,31,2,11,0,1,1,MERGED
+18588,chore: add warning for `/` mapping in `resolve.alias`,sapphi-red,2024-11-06T04:41:28Z,2024-11-06T06:11:25+00:00,3,1.5,True,10,0,1,24,0,1,1,MERGED
+18587,"docs: clarify dynamic `new URL(foo, import.meta.url)` behavior",sapphi-red,2024-11-06T03:28:38Z,2024-11-06T09:32:50+00:00,3,6.07,True,20,0,1,11,0,1,1,MERGED
+18584,feat: add the `builtins` environment `resolve`,dario-piotrowicz,2024-11-05T21:23:59Z,2025-01-23T14:19:34+00:00,19,1888.93,True,254,60,8,1781,7,11,18,MERGED
+18581,feat(asset): inline svg in dev if within limit,bluwy,2024-11-05T15:32:46Z,2024-11-06T09:28:44+00:00,5,17.93,True,122,41,12,864,1,1,2,MERGED
+18575,fix: browser field should not be included by default for `consumer: 'server'`,sapphi-red,2024-11-05T06:11:54Z,2024-11-05T10:09:08+00:00,2,3.95,True,7,1,1,49,0,0,0,MERGED
+18573,docs(migration): add bundle size note about strictRequires true,bluwy,2024-11-05T04:00:17Z,2024-11-05T07:52:31+00:00,1,3.87,True,1,1,1,24,0,0,0,MERGED
+18571,docs(shared-options): fix typo in `css.preprocessorOptions`,shammellee,2024-11-04T23:08:47Z,2024-11-05T04:00:23+00:00,1,4.86,True,1,1,1,50,0,0,0,MERGED
+18569,docs: add Vladimir bluesky link,sheremet-va,2024-11-04T18:44:00Z,2024-11-04T20:06:02+00:00,1,1.37,True,1,0,1,41,0,0,0,MERGED
+18567,docs: remove horizontal scrollbars in code blocks,patak-dev,2024-11-04T13:58:59Z,2024-11-05T00:29:35+00:00,4,10.51,True,59,33,7,147,0,2,2,MERGED
+18563,chore(deps): update dependency @types/node to v22,renovate,2024-11-04T00:38:13Z,2024-11-04T02:56:17+00:00,1,2.3,True,27,15,2,631,0,0,0,MERGED
+18562,chore(deps): update all non-major dependencies,renovate,2024-11-04T00:37:55Z,2024-11-04T03:48:40+00:00,1,3.18,True,532,620,20,17418,1,0,1,MERGED
+18560,fix(optimizer): detect npm / yarn / pnpm dependency changes correctly (#17336),DreierF,2024-11-03T11:49:28Z,2024-11-18T08:45:30+00:00,8,356.93,True,38,11,1,50,0,2,2,MERGED
+18550,refactor: introduce `mergeWithDefaults` and organize how default values for config options are set,sapphi-red,2024-11-01T09:03:12Z,2024-11-12T22:55:25+00:00,24,277.87,True,571,226,12,68,14,6,20,MERGED
+18549,fix: use `server.perEnvironmentStartEndDuringDev`,sapphi-red,2024-11-01T08:35:06Z,2024-11-01T10:09:44+00:00,6,1.58,True,7,3,1,95,0,2,2,MERGED
+18548,fix(client): detect ws close correctly,sapphi-red,2024-11-01T08:07:03Z,2024-11-01T09:48:41+00:00,1,1.69,True,12,2,1,367,0,0,0,MERGED
+18547,docs(css): optimize sponsor-section background style,imfenghuang,2024-11-01T07:51:22Z,2025-02-10T15:24:57+00:00,1,2431.56,False,19,46,2,359,3,0,3,CLOSED
+18544,feat: extended applyToEnvironment and perEnvironmentPlugin,patak-dev,2024-10-31T22:32:49Z,2024-11-13T13:21:24+00:00,11,302.81,True,116,54,14,1694,16,4,20,MERGED
+18541,fix(json): don't `json.stringify` arrays,ghiscoding,2024-10-31T14:05:58Z,2024-11-01T03:55:34+00:00,7,13.83,True,46,19,2,133,0,3,3,MERGED
+18539,docs: optimize home page styles,warmthsea,2024-10-31T10:18:09Z,2024-10-31T17:36:33+00:00,2,7.31,True,13,1,1,513,3,0,3,MERGED
+18537,chore: upgrade to express 5,bluwy,2024-10-31T09:36:21Z,2024-11-05T11:27:51+00:00,3,121.86,True,206,118,22,206,0,1,1,MERGED
+18536,docs(migration): add section for html asset sources,bluwy,2024-10-31T09:03:37Z,2024-10-31T11:24:31+00:00,2,2.35,True,10,1,2,33,0,1,1,MERGED
+18525,ci: buildless ecosystem ci,Aslemammad,2024-10-30T21:26:16Z,2024-12-10T02:20:46+00:00,22,964.91,True,157,23,1,378,7,11,18,MERGED
+18524,refactor: client-only top-level warmup,patak-dev,2024-10-30T21:06:43Z,2024-10-31T03:21:55+00:00,2,6.25,True,3,2,1,128,0,0,0,MERGED
+18522,fix(scss): improve error logs,bluwy,2024-10-30T14:05:25Z,2024-10-31T02:13:22+00:00,4,12.13,True,10,0,1,849,0,1,1,MERGED
+18521,fix: close watcher if it's disabled,sheremet-va,2024-10-30T10:41:23Z,2024-10-30T14:48:44+00:00,2,4.12,True,12,8,1,26,0,0,0,MERGED
+18519,docs: migration guide for #18070,sapphi-red,2024-10-30T09:33:41Z,2024-10-30T14:35:46+00:00,1,5.03,True,2,0,1,11,0,0,0,MERGED
+18518,chore: fix moduleSideEffects in build script on Windows,sapphi-red,2024-10-30T06:49:29Z,2024-10-30T09:53:33+00:00,3,3.07,True,1,0,1,11,1,1,2,MERGED
+18516,docs: add jsdocs to flags in BuilderOptions,sapphi-red,2024-10-30T04:22:41Z,2024-10-30T06:34:56+00:00,2,2.2,True,12,0,1,87,0,0,0,MERGED
+18515,fix: `define` in environment config was not working,sapphi-red,2024-10-30T04:01:38Z,2024-10-30T06:34:08+00:00,2,2.54,True,42,23,6,65,1,0,1,MERGED
+18514,docs: update fs.deny default in JSDoc,sapphi-red,2024-10-30T03:36:11Z,2024-10-30T05:07:57+00:00,5,1.53,True,1,1,1,23,0,1,1,MERGED
+18509,fix(config): write temporary vite config to node_modules,bluwy,2024-10-29T14:20:53Z,2024-11-01T07:15:37+00:00,8,64.91,True,32,9,2,1089,12,1,13,MERGED
+18506,fix: allow nested dependency selector to be used for `optimizeDeps.include` for SSR,sapphi-red,2024-10-29T07:42:52Z,2024-10-31T07:48:12+00:00,2,48.09,True,17,66,3,1413,0,0,0,MERGED
+18503,fix: use picomatch to align with tinyglobby,sapphi-red,2024-10-29T03:34:21Z,2024-10-30T09:07:04+00:00,4,29.55,True,29,122,6,122,0,1,1,MERGED
+18502,chore: upgrade to unbuild v3 rc,bluwy,2024-10-29T03:30:46Z,2024-10-29T05:16:13+00:00,1,1.76,True,809,831,5,259,1,0,1,MERGED
+18499,chore: use premove instead of rimraf,bluwy,2024-10-28T17:12:01Z,2024-10-28T21:51:44+00:00,1,4.66,True,82,306,3,256,0,0,0,MERGED
+18498,docs: 📝Update README to improve Markdown linting and structure,okineadev,2024-10-28T15:50:18Z,2025-02-07T15:54:58+00:00,1,2448.08,False,14,11,1,327,16,0,16,CLOSED
+18495,fix(build): apply resolve.external/noExternal to server environments,bluwy,2024-10-28T12:05:35Z,2024-10-28T13:50:51+00:00,1,1.75,True,14,5,2,708,0,0,0,MERGED
+18494,feat(html): support `vite-ignore` attribute to opt-out of processing,bluwy,2024-10-28T11:35:53Z,2024-10-30T07:20:34+00:00,2,43.74,True,269,153,6,1336,6,0,6,MERGED
+18493,refactor!: remove fs.cachedChecks option,patak-dev,2024-10-28T11:07:21Z,2024-10-31T04:13:20+00:00,3,65.1,True,69,505,12,524,8,1,9,MERGED
+18491,docs: missing changes guides,patak-dev,2024-10-28T09:19:42Z,2024-10-30T06:13:33+00:00,7,44.9,True,72,13,3,243,0,2,2,MERGED
+18490,feat: ✨ Add Vite development container configuration,okineadev,2024-10-28T07:08:31Z,2025-01-15T12:59:29+00:00,4,1901.85,False,13,0,1,731,6,2,8,CLOSED
+18488,feat(lib)!: use package name for css output file name,bluwy,2024-10-28T04:01:34Z,2024-10-30T08:13:01+00:00,3,52.19,True,290,14,17,199,10,2,12,MERGED
+18486,fix(css): `cssCodeSplit` uses the current environment configuration,Jonny-china,2024-10-28T02:21:16Z,2024-11-01T05:57:48+00:00,1,99.61,True,1,1,1,271,0,0,0,MERGED
+18484,fix(deps): update all non-major dependencies,renovate,2024-10-28T00:43:01Z,2024-10-28T09:06:34+00:00,1,8.39,True,1080,889,30,17476,2,0,2,MERGED
+18480,fix(module-runner): delay function eval until module runner instantiation,hi-ogawa,2024-10-27T06:51:58Z,2024-10-28T10:28:29+00:00,2,27.61,True,11,6,2,630,0,0,0,MERGED
+18475,refactor: top-level createEnvironment is client-only,patak-dev,2024-10-25T21:08:35Z,2024-10-28T09:35:31+00:00,2,60.45,True,13,1,1,687,1,0,1,MERGED
+18474,docs: top-level client environment config,patak-dev,2024-10-25T20:19:37Z,2024-10-28T09:44:55+00:00,1,61.42,True,50,41,1,139,1,0,1,MERGED
+18470,perf(css): skip style.css extraction if code-split css,bluwy,2024-10-25T14:50:55Z,2024-10-25T16:00:25+00:00,1,1.16,True,14,14,1,1318,0,0,0,MERGED
+18465,refactor: optimizeDeps back to top level,patak-dev,2024-10-25T12:55:00Z,2024-10-28T08:51:20+00:00,4,67.94,True,54,66,12,2199,2,0,2,MERGED
+18464,fix(css): `cssCodeSplit` in `environments.xxx.build` is invalid,Jonny-china,2024-10-25T11:59:50Z,2024-10-26T08:50:50+00:00,1,20.85,True,1,1,1,236,0,0,0,MERGED
+18462,fix: handle warmup glob hang,bluwy,2024-10-25T09:58:42Z,2024-10-26T08:52:08+00:00,1,22.89,True,30,16,5,626,0,0,0,MERGED
+18460,feat(css): add more stricter typing of lightningcss,sapphi-red,2024-10-25T08:54:10Z,2024-10-28T05:59:44+00:00,2,69.09,True,22,28,5,62,0,0,0,MERGED
+18459,fix(css): make sass types work with sass-embedded,sapphi-red,2024-10-25T08:28:13Z,2024-10-25T16:01:18+00:00,2,7.55,True,53,6,4,107,0,2,2,MERGED
+18458,refactor(css): hide internal preprocessor types and expose types used for options,sapphi-red,2024-10-25T07:54:17Z,2024-10-25T11:18:04+00:00,1,3.4,True,8,4,4,62,0,0,0,MERGED
+18456,docs: migration guide for plugin-commonjs upgrade,sapphi-red,2024-10-25T03:51:20Z,2024-10-25T09:55:06+00:00,4,6.06,True,2,0,1,38,0,1,1,MERGED
+18455,fix: return the same instance of ModuleNode for the same EnvironmentModuleNode,sapphi-red,2024-10-25T02:21:04Z,2024-10-25T09:54:19+00:00,4,7.55,True,36,2,1,724,6,1,7,MERGED
+18453,feat!: update to chokidar v4,bluwy,2024-10-24T14:45:26Z,2024-10-29T14:28:35+00:00,17,119.72,True,181,483,16,562,7,7,14,MERGED
+18443,fix(dev): prevent double URL encoding in server.open on macOS,Sun79,2024-10-24T02:40:55Z,2024-10-24T08:24:47+00:00,8,5.73,True,1,3,1,473,0,1,1,MERGED
+18441,docs: if users need the third parameter from loadEnv as '' they must set it themselves.,alexwillingham,2024-10-23T18:04:27Z,2025-03-19T10:50:18+00:00,1,3520.76,False,3,2,1,897,2,1,3,CLOSED
+18440,feat(css)!: load postcss config within workspace root only,bluwy,2024-10-23T15:17:08Z,2024-10-24T10:26:47+00:00,3,19.16,True,5,3,2,22,1,1,2,MERGED
+18439,refactor: top level keys for environments (and .environments array),patak-dev,2024-10-23T14:19:32Z,2024-10-28T08:56:18+00:00,3,114.61,False,485,508,48,1547,6,2,8,CLOSED
+18437,fix(config): remove error if require resolve to esm,bluwy,2024-10-23T13:25:44Z,2024-10-28T15:31:25+00:00,3,122.09,True,4,14,2,675,2,1,3,MERGED
+18435,fix(create-vite): add tsBuildInfoFile option,hairihou,2024-10-23T08:24:13Z,2024-10-24T08:30:09+00:00,2,24.1,True,10,0,10,388,0,0,0,MERGED
+18432,refactor: use builder in `build`,sapphi-red,2024-10-23T06:32:01Z,2024-10-23T12:40:42+00:00,5,6.14,True,83,124,5,1080,4,2,6,MERGED
+18426,refactor: dollar sign prefixed environments,patak-dev,2024-10-22T23:12:35Z,2024-10-26T08:37:22+00:00,9,81.41,False,438,471,48,182,4,6,10,CLOSED
+18425,chore: change Angular customCommand,gioboa,2024-10-22T19:49:02Z,2024-10-23T07:16:01+00:00,1,11.45,True,1,1,1,47,0,0,0,MERGED
+18424,docs: center last projects row in landing,patak-dev,2024-10-22T19:32:05Z,2024-10-23T06:20:12+00:00,2,10.8,True,38,16,1,72,0,2,2,MERGED
+18422,feat!: support `file://` resolution,hi-ogawa,2024-10-22T08:12:42Z,2024-10-28T12:49:57+00:00,5,148.62,True,122,0,9,798,10,2,12,MERGED
+18411,fix: set scripts imported by HTML moduleSideEffects=true,sapphi-red,2024-10-21T09:13:43Z,2024-10-26T08:53:23+00:00,2,119.66,True,19,9,2,824,5,0,5,MERGED
+18410,feat: add custom Angular variants,gioboa,2024-10-21T08:57:28Z,2024-10-21T14:19:40+00:00,6,5.37,True,19,0,1,86,3,1,4,MERGED
+18407,feat(create-vite): update to svelte 5,sapphi-red,2024-10-21T02:39:44Z,2024-10-22T01:46:03+00:00,6,23.11,True,21,21,15,127,5,1,6,MERGED
+18406,chore: specify TypeScript version with `~`,sapphi-red,2024-10-21T02:24:21Z,2024-10-21T07:55:37+00:00,3,5.52,True,10,10,10,235,1,0,1,MERGED
+18404,chore(deps): update all non-major dependencies,renovate,2024-10-21T01:49:57Z,2024-10-21T04:06:14+00:00,1,2.27,True,387,763,22,11128,4,0,4,MERGED
+18403,feat(optimizer): support bun text lockfile,ArnaudBarre,2024-10-19T22:11:02Z,2025-01-23T12:49:26+00:00,5,2294.64,True,5,0,1,101,3,1,4,MERGED
+18397,docs: reload due to gsap and shiki,patak-dev,2024-10-18T14:20:43Z,2024-10-19T08:10:16+00:00,2,17.83,True,14,0,1,95,1,1,2,MERGED
+18395,feat(resolve)!: allow removing conditions,sapphi-red,2024-10-18T12:18:54Z,2024-10-31T17:37:43+00:00,24,317.31,True,158,197,23,175,13,10,23,MERGED
+18394,refactor(resolve): remove `tryEsmOnly` flag,sapphi-red,2024-10-18T10:27:33Z,2024-10-18T11:56:06+00:00,1,1.48,True,1,20,2,286,3,0,3,MERGED
+18390,fix(cli): `--watch` should not override `build.watch` options,sapphi-red,2024-10-18T02:36:14Z,2024-10-18T06:18:51+00:00,2,3.71,True,6,0,1,24,1,0,1,MERGED
+18382,feat: add .git to deny list by default,patak-dev,2024-10-17T15:09:50Z,2024-10-18T12:53:28+00:00,8,21.73,True,7,2,2,164,4,1,5,MERGED
+18379,feat: allow custom `console` in `createLogger`,sheremet-va,2024-10-17T11:20:21Z,2024-10-26T08:53:57+00:00,3,213.56,True,6,1,1,300,1,0,1,MERGED
+18377,docs: clarify `target` in `tsconfig.json`,sapphi-red,2024-10-17T08:57:36Z,2024-10-18T06:14:44+00:00,3,21.29,True,4,3,1,24,3,1,4,MERGED
+18376,docs: mention pre-bundle uses esbuild in dev,sapphi-red,2024-10-17T08:31:35Z,2024-10-17T10:34:39+00:00,1,2.05,True,2,0,1,24,1,0,1,MERGED
+18375,docs: clarify where it applies for each config options,sapphi-red,2024-10-17T08:12:02Z,2024-10-18T06:20:22+00:00,2,22.14,True,13,1,7,24,2,1,3,MERGED
+18373,ci: show format diff,sapphi-red,2024-10-17T04:46:43Z,2024-10-17T11:34:45+00:00,1,6.8,True,1,1,1,124,1,0,1,MERGED
+18368,test: remove unnecessary logs from output,sapphi-red,2024-10-16T11:59:40Z,2024-10-16T13:28:53+00:00,1,1.49,True,2,0,2,11,1,0,1,MERGED
+18367,fix: augment hash for CSS files to prevent chromium erroring by loading previous files,sapphi-red,2024-10-16T11:51:46Z,2024-10-18T03:56:36+00:00,2,40.08,True,23,0,1,138,3,0,3,MERGED
+18366,chore(create-vite): mark template files as CC0,sapphi-red,2024-10-16T10:08:38Z,2024-10-18T13:37:43+00:00,7,51.48,True,249,1,3,74,7,3,10,MERGED
+18364,docs: add multiple entries lib mode example,sapphi-red,2024-10-16T06:42:45Z,2024-10-16T15:12:02+00:00,1,8.49,True,40,6,1,120,1,0,1,MERGED
+18363,docs: `server.proxy` has precedence over Vite's internal middlewares,sapphi-red,2024-10-16T04:56:27Z,2024-10-17T11:38:49+00:00,2,30.71,True,1,1,1,24,1,1,2,MERGED
+18362,feat: use a single transport for fetchModule and HMR support,sapphi-red,2024-10-16T04:21:19Z,2024-11-07T02:24:48+00:00,46,526.06,True,1155,746,31,602,21,27,48,MERGED
+18361,fix: replace runner-side path normalization with `fetchModule`-side resolve,hi-ogawa,2024-10-16T03:33:25Z,2024-12-24T05:55:17+00:00,10,1658.36,True,67,68,11,637,18,5,23,MERGED
+18360,refactor: use `verbatimModuleSyntax` instead of `importsNotUsedAsValues`,sapphi-red,2024-10-16T02:21:26Z,2024-10-16T17:07:27+00:00,1,14.77,True,14,16,3,246,1,0,1,MERGED
+18358,feat: enable dependencies discovery and pre-bundling in ssr environments,dario-piotrowicz,2024-10-15T21:09:46Z,2024-10-23T06:15:56+00:00,22,177.1,True,147,68,12,69,11,6,17,MERGED
+18357,docs(backend-integration): add an example `importedChunks`,segevfiner,2024-10-15T14:55:21Z,2024-10-18T13:38:27+00:00,3,70.72,True,35,0,1,520,1,2,3,MERGED
+18356,chore: combine deps license with same text,bluwy,2024-10-15T13:17:54Z,2024-10-17T04:33:08+00:00,7,39.25,True,186,842,3,393,2,2,4,MERGED
+18355,docs: relative base path,sapphi-red,2024-10-15T10:48:56Z,2024-10-15T14:47:16+00:00,2,3.97,True,10,0,1,23,1,1,2,MERGED
+18353,feat: add `environment::restart`,sapphi-red,2024-10-15T08:52:15Z,2024-10-17T01:57:50+00:00,3,41.09,False,41,3,2,46,2,3,5,CLOSED
+18352,docs: update ViteConf 24 cta,patak-dev,2024-10-15T08:06:34Z,2024-10-15T09:42:16+00:00,1,1.59,True,9,5,2,58,1,0,1,MERGED
+18351,fix: more robust plugin.sharedDuringBuild,patak-dev,2024-10-14T20:49:14Z,2024-10-15T05:38:06+00:00,4,8.81,True,9,14,1,156,1,2,3,MERGED
+18349,fix(deps): update `open` dependency to 10.1.0,niklasmh,2024-10-14T11:24:54Z,2024-10-15T13:07:32+00:00,4,25.71,True,151,30,5,1021,5,1,6,MERGED
+18346,chore(deps): update dependency sirv to v3,renovate,2024-10-14T00:05:56Z,2024-10-15T05:21:39+00:00,2,29.26,True,35,22,5,1190,3,0,3,MERGED
+18345,fix(deps): update all non-major dependencies,renovate,2024-10-14T00:05:38Z,2024-10-15T07:13:44+00:00,2,31.14,True,1094,1197,51,15635,6,0,6,MERGED
+18344,fix: add position to import analysis resolve exception,hi-ogawa,2024-10-12T05:35:40Z,2024-10-14T07:33:18+00:00,2,49.96,True,7,2,1,435,1,0,1,MERGED
+18343,docs: replace __dirname with import.meta.dirname in vite config,labnol,2024-10-12T05:26:35Z,2024-10-14T13:41:38+00:00,1,56.25,False,4,4,1,44,1,0,1,CLOSED
+18342,docs: change npm and pnpm to be lowercase,fyzhu,2024-10-12T01:28:50Z,2024-10-12T12:00:37+00:00,1,10.53,True,9,9,2,38,1,0,1,MERGED
+18338,feat: implement fetchable runner,sheremet-va,2024-10-11T16:22:27Z,2024-11-07T15:56:27+00:00,6,647.57,False,194,0,8,435,7,1,8,CLOSED
+18335,chore(deps): update eslint-plugin-react-hooks to stable v5,nilsingwersen,2024-10-11T13:59:20Z,2024-10-14T04:16:11+00:00,1,62.28,True,2,2,2,144,1,0,1,MERGED
+18334,docs: env api expand runtime agnostic SSR section,sapphi-red,2024-10-11T10:35:09Z,2024-10-11T15:09:38+00:00,6,4.57,True,122,34,1,125,1,4,5,MERGED
+18333,docs: misc env api docs,sapphi-red,2024-10-11T10:27:06Z,2024-10-11T14:24:08+00:00,3,3.95,True,22,17,5,11,1,4,5,MERGED
+18332,fix(resolve): fix resolve cache key for external conditions,hi-ogawa,2024-10-11T09:54:21Z,2024-10-15T01:43:33+00:00,1,87.82,True,64,15,2,1400,4,0,4,MERGED
+18330,feat: add Angular example,gioboa,2024-10-11T08:11:47Z,2024-10-18T14:35:05+00:00,1,174.39,False,322,1,14,278,7,1,8,CLOSED
+18329,fix(ssr): `this` in exported function should be `undefined`,sapphi-red,2024-10-11T06:40:02Z,2024-10-18T13:44:29+00:00,3,175.07,True,86,33,5,406,8,0,8,MERGED
+18327,test: ssr external / resolveId test,hi-ogawa,2024-10-10T23:41:37Z,2024-10-11T01:26:42+00:00,1,1.75,True,65,4,6,181,1,0,1,MERGED
+18326,docs: split environment frameworks guide,patak-dev,2024-10-10T14:23:12Z,2024-10-11T07:45:19+00:00,1,17.37,True,200,223,3,90,4,0,4,MERGED
+18322,fix(deps): bump tsconfck,sapphi-red,2024-10-10T07:56:10Z,2024-10-10T09:11:31+00:00,2,1.26,True,6,6,2,52,1,0,1,MERGED
+18319,fix(resolve): separate package cache per environment,hi-ogawa,2024-10-10T05:02:27Z,2024-12-26T02:44:17+00:00,5,1845.7,False,297,27,21,274,2,1,3,CLOSED
+18318,ci: add test-passed/failed job,sapphi-red,2024-10-10T04:19:25Z,2024-10-10T05:35:48+00:00,2,1.27,True,16,0,1,485,1,1,2,MERGED
+18317,perf: use `crypto.hash` when available,sapphi-red,2024-10-10T02:57:44Z,2024-10-10T05:34:37+00:00,2,2.61,True,22,4,2,235,1,0,1,MERGED
+18316,docs: refactor environment api docs,patak-dev,2024-10-09T22:27:55Z,2024-10-15T01:38:50+00:00,5,123.18,True,1075,918,6,506,2,1,3,MERGED
+18313,docs(build): add a notice that a trailing slash is required for previ…,ashkantaravati,2024-10-09T15:18:27Z,2024-10-18T13:45:27+00:00,1,214.45,False,1,1,1,28,1,0,1,CLOSED
+18308,"test(css): make ""duplicate CSS"" test to focus on what it's testing",sapphi-red,2024-10-09T10:09:11Z,2024-10-09T12:56:34+00:00,1,2.79,True,3,32,1,137,1,0,1,MERGED
+18307,fix(css): dont remove JS chunk for pure CSS chunk when the export is used,sapphi-red,2024-10-09T10:00:37Z,2024-10-09T13:12:45+00:00,1,3.2,True,10,1,2,1765,3,0,3,MERGED
+18304,refactor: rename runner.destroy() to runner.close(),patak-dev,2024-10-08T20:18:10Z,2024-10-09T10:27:01+00:00,2,14.15,True,15,15,5,71,1,0,1,MERGED
+18303,feat(json)!: add `json.stringify: 'auto'` and make that the default,sapphi-red,2024-10-08T12:46:29Z,2024-10-23T14:59:33+00:00,6,362.22,True,194,29,7,513,1,2,3,MERGED
+18302,fix(resolve): fix resolve cache to consider `conditions` and more,hi-ogawa,2024-10-08T09:36:05Z,2024-10-10T07:48:36+00:00,7,46.21,True,284,31,15,235,5,1,6,MERGED
+18301,test: test optimized dep as ssr entry,hi-ogawa,2024-10-08T06:32:50Z,2024-10-08T07:51:22+00:00,1,1.31,True,17,0,1,339,1,0,1,MERGED
+18299,fix(types): add more overload to `defineConfig`,sapphi-red,2024-10-08T01:51:03Z,2024-10-08T07:52:51+00:00,2,6.03,True,49,0,2,52,3,1,4,MERGED
+18293,chore(create-vite): add `@types/eslint__js`,hairihou,2024-10-07T02:41:43Z,2024-10-07T09:58:45+00:00,1,7.28,False,20,0,3,144,2,0,2,CLOSED
+18292,fix(deps): update all non-major dependencies,renovate,2024-10-07T00:10:27Z,2024-10-07T02:05:26+00:00,1,1.92,True,1212,1139,27,16757,1,0,1,MERGED
+18289,feat: log complete config in debug mode,btea,2024-10-05T14:14:42Z,2024-10-30T08:55:59+00:00,4,594.69,True,9,2,2,197,14,1,15,MERGED
+18287,docs: update `EsbuildBuildOptions` link,btea,2024-10-05T03:19:15Z,2024-10-05T13:10:06+00:00,1,9.85,True,1,1,1,120,1,0,1,MERGED
+18286,docs: change docs to include more details about public directory,helloworld3200,2024-10-04T20:04:39Z,2024-10-18T10:33:15+00:00,3,326.48,True,1,4,1,423,7,1,8,MERGED
+18285,fix(create-vite): update qwik URL,sapphi-red,2024-10-04T17:34:26Z,2024-10-05T14:14:32+00:00,1,20.67,True,6,6,4,65,1,0,1,MERGED
+18282,fix: destroy the runner when runnable environment is closed,sheremet-va,2024-10-04T14:00:48Z,2024-10-07T13:18:25+00:00,2,71.29,True,7,0,1,114,1,0,1,MERGED
+18280,chore(docs): add margin to h4,jay-es,2024-10-04T12:15:38Z,2024-10-04T16:11:58+00:00,2,3.94,True,2,1,1,184,1,0,1,MERGED
+18276,chore: update all url references of vitejs.dev to vite.dev,yyx990803,2024-10-04T08:26:53Z,2024-10-04T09:30:11+00:00,2,1.05,True,193,193,72,134,1,0,1,MERGED
+18274,docs: update homepage,btea,2024-10-04T03:52:36Z,2024-10-04T07:42:06+00:00,1,3.83,True,2,2,2,201,2,0,2,MERGED
+18273,fix: make it easier to configure environment runner,sheremet-va,2024-10-03T15:51:18Z,2024-10-07T13:04:48+00:00,3,93.22,True,15,10,2,324,5,0,5,MERGED
+18267,docs(landing): update Qwik url,nakasyou,2024-10-03T09:02:19Z,2024-10-04T07:03:24+00:00,2,22.02,True,1,1,1,132,1,0,1,MERGED
+18265,docs: add Preact logo,marvinhagemeister,2024-10-03T08:14:25Z,2024-10-04T08:45:37+00:00,2,24.52,True,14,0,2,216,1,0,1,MERGED
+18263,feat: add `environment::listen`,sapphi-red,2024-10-03T03:47:50Z,2024-10-17T11:42:07+00:00,5,343.9,True,55,30,3,119,3,1,4,MERGED
+18261,fix(middleware-mode): call all hot.listen when server restart,sapphi-red,2024-10-03T03:02:30Z,2024-10-07T15:05:31+00:00,2,108.05,True,1,1,1,11,3,1,4,MERGED
+18258,docs(landing): add AdonisJS logo,Julien-R44,2024-10-02T15:07:38Z,2024-10-23T09:18:22+00:00,1,498.18,True,9,0,2,318,3,0,3,MERGED
+18255,feat: restrict characters useable for environment name,sapphi-red,2024-10-02T03:45:57Z,2024-10-02T06:31:03+00:00,1,2.75,True,7,0,1,48,4,0,4,MERGED
+18254,chore(deps): bump TypeScript to 5.6,sapphi-red,2024-10-02T03:18:50Z,2024-10-18T06:15:19+00:00,4,386.94,True,233,243,25,178,2,1,3,MERGED
+18253,test: silence sass legacy-js-api deprecation log,hi-ogawa,2024-10-02T02:56:14Z,2024-10-02T08:36:26+00:00,1,5.67,True,18,0,4,205,1,0,1,MERGED
+18252,fix(hmr): don't try to rewrite imports for direct CSS soft invalidation,sapphi-red,2024-10-02T01:37:46Z,2024-10-04T12:54:00+00:00,4,59.27,True,3,1,1,553,1,1,2,MERGED
+18250,fix(legacy): generate sourcemap for polyfill chunks,sapphi-red,2024-10-01T14:03:43Z,2024-10-04T12:54:23+00:00,1,70.84,True,57,12,2,24,4,0,4,MERGED
+18246,fix: `injectQuery` double encoding,sapphi-red,2024-10-01T01:53:45Z,2024-10-04T12:56:07+00:00,2,83.04,True,16,14,2,24,3,2,5,MERGED
+18243,chore(deps)!: migrate `fast-glob` to `tinyglobby`,pralkarz,2024-09-30T14:25:27Z,2024-10-17T05:24:33+00:00,21,398.99,True,121,67,17,283,6,7,13,MERGED
+18242,fix(assets): make srcset parsing HTML spec compliant (#16323),rarous,2024-09-30T13:45:58Z,2024-10-07T15:08:27+00:00,12,169.37,True,95,42,2,191,2,3,5,MERGED
+18240,refactor: use `originalFileNames`/`names`,sapphi-red,2024-09-30T08:00:54Z,2024-10-24T10:24:53+00:00,3,578.4,True,225,183,8,86,4,0,4,MERGED
+18237,refactor: break circular dependencies to fix test-unit,sapphi-red,2024-09-30T06:58:03Z,2024-09-30T09:17:21+00:00,3,2.32,True,47,33,8,314,1,1,2,MERGED
+18236,feat: support arbitrary module namespace identifier imports from cjs deps,sapphi-red,2024-09-30T06:15:49Z,2024-10-04T12:54:51+00:00,3,102.65,True,42,35,3,164,1,1,2,MERGED
+18231,chore(deps): update dependency @rollup/plugin-commonjs to v28,renovate,2024-09-30T01:41:57Z,2024-10-01T08:15:36+00:00,3,30.56,True,8,7,2,934,1,0,1,MERGED
+18230,chore(deps): update all non-major dependencies,renovate,2024-09-30T01:41:36Z,2024-09-30T05:13:50+00:00,2,3.54,True,64,153,27,3910,1,0,1,MERGED
+18221,fix(optimizer): re-optimize when changing config `webCompatible`,hi-ogawa,2024-09-28T02:02:54Z,2024-09-28T09:48:46+00:00,1,7.76,True,1,0,1,1067,1,0,1,MERGED
+18211,chore: pkg.pr.new preview with label and comment,Aslemammad,2024-09-27T05:19:55Z,2024-10-28T06:42:35+00:00,9,745.38,True,44,71,2,581,8,1,9,MERGED
+18209,refactor!: bump minimal terser version to 5.16.0,sapphi-red,2024-09-27T03:46:35Z,2024-10-23T10:33:31+00:00,2,630.78,True,2,26,4,109,1,0,1,MERGED
+18208,refactor: use `resolvePackageData` to get rollup version,sapphi-red,2024-09-27T03:30:36Z,2024-09-27T08:40:47+00:00,1,5.17,True,4,10,1,158,3,0,3,MERGED
+18207,refactor: remove `_onCrawlEnd`,sapphi-red,2024-09-27T03:18:04Z,2024-09-27T07:54:58+00:00,1,4.62,True,4,27,2,31,1,0,1,MERGED
+18206,fix: close HotChannel on environment close,sapphi-red,2024-09-27T02:54:07Z,2024-09-27T08:41:59+00:00,1,5.8,True,9,1,3,234,1,0,1,MERGED
+18204,fix(ssr): (backport #18150) fix source map remapping with multiple sources,hi-ogawa,2024-09-26T23:29:46Z,2024-09-30T07:30:12+00:00,1,80.01,True,61,10,6,205,11,0,11,MERGED
+18200,test: misc fixes,sapphi-red,2024-09-26T04:04:09Z,2024-09-26T07:54:49+00:00,2,3.84,True,4,11,4,775,1,0,1,MERGED
+18194,"fix: asset `new URL(,import.meta.url)` match",sapphi-red,2024-09-25T03:20:02Z,2024-10-30T15:55:25+00:00,5,852.59,True,77,13,2,642,6,3,9,MERGED
+18190,feat: introduce RunnableDevEnvironment,sheremet-va,2024-09-24T12:44:34Z,2024-09-27T11:42:49+00:00,6,70.97,True,128,57,8,1507,3,3,6,MERGED
+18188,"refactor: do not require ""hot"" option when creating a node environment",sheremet-va,2024-09-24T12:04:30Z,2024-10-01T11:05:01+00:00,2,167.01,False,5,8,3,147,3,0,3,CLOSED
+18187,"refactor: remove the need for ""processSourceMap""",sheremet-va,2024-09-24T11:45:15Z,2024-09-24T19:35:07+00:00,3,7.83,True,26,20,6,208,6,1,7,MERGED
+18186,fix: require serialization for `HMRConnection.send` on implementation side,hi-ogawa,2024-09-24T08:12:22Z,2024-09-26T10:39:32+00:00,6,50.45,True,12,14,4,1474,2,2,4,MERGED
+18185,refactor: replace `parse` with `splitFileAndPostfix`,btea,2024-09-24T05:55:12Z,2024-09-25T14:39:44+00:00,13,32.74,True,15,11,3,144,1,2,3,MERGED
+18180,fix(deps): upgrade rollup 4.22.4+ to ensure avoiding XSS,delihiros,2024-09-24T00:37:59Z,2024-09-30T05:06:20+00:00,7,148.47,True,446,445,4,477,7,2,9,MERGED
+18173,chore(deps): update esbuild,Nemikolh,2024-09-23T07:14:22Z,2024-09-24T07:41:59+00:00,2,24.46,True,209,210,2,689,8,0,8,MERGED
+18170,fix(deps): update all non-major dependencies,renovate,2024-09-23T00:29:02Z,2024-09-25T14:09:54+00:00,2,61.68,True,745,645,43,16492,2,0,2,MERGED
+18165,fix(worker): rewrite rollup `output.format` with `worker.format` on worker build error,hi-ogawa,2024-09-22T05:05:18Z,2024-10-16T02:17:36+00:00,1,573.21,True,49,1,5,26,1,0,1,MERGED
+18163,fix: asset import should skip handling data URIs,Justineo,2024-09-21T17:12:33Z,2024-09-26T08:21:25+00:00,2,111.15,True,32,1,3,277,3,0,3,MERGED
+18162,docs: fix typo in proxy.ts,aruseni,2024-09-21T12:31:42Z,2024-09-22T18:24:04+00:00,2,29.87,True,1,1,1,0,1,0,1,MERGED
+18152,fix(optimizer): don't externalize transitive dep package name with asset extension,hi-ogawa,2024-09-20T06:47:41Z,2024-10-07T15:38:53+00:00,2,416.85,True,78,8,9,259,6,1,7,MERGED
+18150,fix(ssr): fix source map remapping with multiple sources,hi-ogawa,2024-09-20T02:51:49Z,2024-09-26T07:56:51+00:00,2,149.08,True,61,10,6,2280,5,0,5,MERGED
+18142,feat: support `this.environment` in `options` and `onLog` hook,sapphi-red,2024-09-19T04:57:59Z,2024-09-19T18:01:03+00:00,1,13.05,True,13,5,5,128,1,0,1,MERGED
+18141,fix: handle yarn command fail when root does not exist,sapphi-red,2024-09-19T02:09:48Z,2024-10-07T15:36:03+00:00,1,445.44,True,6,3,1,868,1,0,1,MERGED
+18140,fix: use `config.consumer` instead of `options?.ssr` / `config.build.ssr`,sapphi-red,2024-09-19T01:55:40Z,2024-09-19T19:08:15+00:00,1,17.21,True,18,13,5,160,3,0,3,MERGED
+18138,docs(static-deploy): add `npm install` to render's build command,DVas138,2024-09-18T17:24:22Z,2024-09-19T01:59:00+00:00,3,8.58,True,1,1,1,74,1,2,3,MERGED
+18135,fix: attempt to fix sass resolving root of package instead of subfolder,HolyNoodle,2024-09-18T06:52:34Z,2024-09-18T11:20:16+00:00,1,4.46,False,1,1,1,210,5,0,5,CLOSED
+18133,fix(manifest): non entry CSS chunk src was wrong,sapphi-red,2024-09-18T05:08:01Z,2024-10-25T11:16:30+00:00,3,894.14,True,10,9,2,265,1,0,1,MERGED
+18132,docs: add `vitepress-plugin-group-icons`,yuyinws,2024-09-18T03:14:02Z,2024-09-19T04:53:21+00:00,2,25.66,True,142,69,17,200,2,0,2,MERGED
+18128,fix(css): ensure sass compiler initialized only once,hi-ogawa,2024-09-17T10:10:39Z,2024-09-23T13:50:32+00:00,2,147.66,True,53,4,5,272,1,0,1,MERGED
+18126,chore: escape template tag in CHANGELOG.md,hi-ogawa,2024-09-17T05:09:53Z,2024-09-17T06:11:12+00:00,1,1.02,True,1,1,1,120,1,0,1,MERGED
+18125,fix(css): fix lightningcss dep url resolution with custom root,hi-ogawa,2024-09-17T02:54:25Z,2024-09-26T08:22:39+00:00,3,221.47,True,52,1,9,26,4,0,4,MERGED
+18121,fix: backport #18112 and #18115 to v3,patak-dev,2024-09-16T19:58:59Z,2024-09-17T07:17:14+00:00,1,11.3,True,39,8,9,26,2,0,2,MERGED
+18118,fix: backport #18112 and #18115 to v4,patak-dev,2024-09-16T16:02:29Z,2024-09-16T19:03:08+00:00,1,3.01,True,37,4,6,26,2,0,2,MERGED
+18116,fix: backport #18112 and #18115 to v5,patak-dev,2024-09-16T15:48:24Z,2024-09-16T19:00:19+00:00,1,3.2,True,36,2,5,26,5,0,5,MERGED
+18115,fix: avoid DOM Clobbering gadget in `getRelativeUrlFromDocument`,jackfromeast,2024-09-16T14:27:29Z,2024-09-16T15:42:53+00:00,1,1.26,True,1,1,1,129,4,0,4,MERGED
+18113,fix(css): fix missing source file warning with sass modern api custom importer,hi-ogawa,2024-09-16T09:45:05Z,2024-09-24T03:47:31+00:00,2,186.04,True,14,6,4,351,12,0,12,MERGED
+18112,fix: fs raw query,patak-dev,2024-09-16T09:36:26Z,2024-09-16T15:38:29+00:00,1,6.03,True,35,1,4,33,3,0,3,MERGED
+18108,chore(deps): update all non-major dependencies,renovate,2024-09-16T01:51:18Z,2024-09-17T06:08:40+00:00,1,28.29,True,744,577,46,14841,1,0,1,MERGED
+18092,"fix(vite)!: refactor ""module cache"" to ""evaluated modules"", pass down module to ""runInlinedModule""",sheremet-va,2024-09-12T13:23:20Z,2024-09-25T13:24:08+00:00,6,312.01,True,270,313,11,1104,16,7,23,MERGED
+18085,refactor(create-vite): use picocolors,bluwy,2024-09-12T07:59:14Z,2024-09-12T09:30:35+00:00,1,1.52,True,51,60,5,73,2,0,2,MERGED
+18084,chore: enable some eslint rules,bluwy,2024-09-12T07:34:42Z,2024-09-12T09:28:37+00:00,4,1.9,True,93,92,39,178,1,1,2,MERGED
+18083,chore: remove npm-run-all2,bluwy,2024-09-12T06:13:17Z,2024-09-12T09:33:28+00:00,2,3.34,True,4,50,3,289,1,0,1,MERGED
+18081,fix(config): treat all files as ESM on deno,marvinhagemeister,2024-09-11T12:51:19Z,2024-09-17T06:23:52+00:00,2,137.54,True,2,1,1,1059,3,0,3,MERGED
+18075,test: refactor hmr-ssr tests,sapphi-red,2024-09-11T02:12:28Z,2024-09-12T09:34:07+00:00,1,31.36,True,701,823,4,409,1,0,1,MERGED
+18071,fix(css): fallback to mainthread if logger or pkgImporter option is set for sass,sapphi-red,2024-09-10T08:32:15Z,2024-09-10T11:44:19+00:00,1,3.2,True,7,2,1,24,1,0,1,MERGED
+18070,feat!: proxy bypass with WebSocket,sapphi-red,2024-09-10T08:24:15Z,2024-10-30T09:08:20+00:00,1,1200.73,True,15,1,1,818,1,0,1,MERGED
+18067,fix(html): escape html attribute,sunnylost,2024-09-10T05:57:56Z,2024-09-10T11:45:40+00:00,3,5.8,True,24,1,3,12,1,1,2,MERGED
+18063,fix: allow scanning exports from `script module` in svelte,paoloricciuti,2024-09-09T20:59:16Z,2024-09-10T14:02:59+00:00,9,17.06,True,22,9,1,1032,5,5,10,MERGED
+18057,fix(build): declare `preload-helper` has no side effects,yuzheng14,2024-09-09T09:18:17Z,2024-09-10T14:47:37+00:00,6,29.49,True,2,2,1,1136,1,1,2,MERGED
+18053,test: move glob test root to reduce snapshot change,sapphi-red,2024-09-09T04:00:39Z,2024-09-09T10:15:28+00:00,1,6.25,True,5,5,2,350,1,0,1,MERGED
+18052,chore: silence unnecessary logs during test,sapphi-red,2024-09-09T03:53:39Z,2024-09-09T10:13:57+00:00,1,6.34,True,7,1,2,144,1,0,1,MERGED
+18051,chore(deps): update dependency svelte-check to v4,renovate,2024-09-09T01:58:06Z,2024-09-09T03:03:18+00:00,1,1.09,True,1,1,1,1835,1,0,1,MERGED
+18050,chore(deps): update all non-major dependencies,renovate,2024-09-09T01:58:00Z,2024-09-09T03:22:52+00:00,1,1.41,True,647,520,37,14594,1,0,1,MERGED
+18046,fix(preload): allow ignoring dep errors,danielroe,2024-09-06T14:55:39Z,2024-09-09T10:12:39+00:00,2,67.28,True,13,9,2,343,7,1,8,MERGED
+18044,refactor: remove unnecessary escape,btea,2024-09-06T11:54:49Z,2024-09-09T10:00:40+00:00,3,70.1,True,6,7,4,48,2,0,2,MERGED
+18041,refactor: remove custom resolveOptions from pre-alias plugin,sapphi-red,2024-09-06T07:02:38Z,2024-09-09T14:24:51+00:00,1,79.37,True,1,4,1,146,1,0,1,MERGED
+18031,fix: store backwards compatible `ssrModule` and `ssrError`,sheremet-va,2024-09-04T10:42:14Z,2024-09-04T19:10:59+00:00,5,8.48,True,78,37,4,241,3,1,4,MERGED
+18029,refactor: update isFileServingAllowed,bluwy,2024-09-04T07:22:47Z,2024-09-04T08:47:05+00:00,1,1.41,True,18,1,1,28,1,0,1,MERGED
+18028,fix: remove `builder.entireApp`,bluwy,2024-09-04T06:59:07Z,2024-10-23T12:41:56+00:00,2,1181.71,False,10,54,4,935,11,0,11,CLOSED
+18026,docs: update changes page,bluwy,2024-09-04T06:37:20Z,2024-09-04T08:48:14+00:00,3,2.18,True,24,11,4,646,1,1,2,MERGED
+18011,refactor: update future options,bluwy,2024-09-03T09:44:30Z,2024-09-03T20:17:10+00:00,2,10.54,True,43,48,8,1513,3,0,3,MERGED
+18008,fix: mark ScanEnvironment internal,bluwy,2024-09-03T09:01:13Z,2024-09-03T19:42:27+00:00,1,10.69,True,31,19,3,247,1,0,1,MERGED
+18007,fix: expose `createServerHotChannel` and validate `createNodeDevEnvironment` context,sheremet-va,2024-09-03T08:59:20Z,2024-09-04T06:55:16+00:00,1,21.93,True,7,0,2,304,1,0,1,MERGED
+18001,fix: add typing to `CSSOptions.preprocessorOptions`,alex-kinokon,2024-09-02T20:53:50Z,2024-10-24T07:44:36+00:00,5,1234.85,True,142,87,3,195,5,0,5,MERGED
+17999,docs: edit Manual Install instructions on docs guide page,sazk07,2024-09-02T13:11:56Z,2024-09-09T13:14:42+00:00,5,168.05,True,19,3,1,152,6,2,8,MERGED
+17998,feat(css): support es2023 build target for lightningcss,btea,2024-09-02T12:27:58Z,2024-09-04T19:19:22+00:00,6,54.86,True,2,0,1,24,1,1,2,MERGED
+17997,fix: ensure req.url matches moduleByEtag URL to avoid incorrect 304 r…,coderwei99,2024-09-02T10:47:03Z,2024-09-10T04:09:06+00:00,5,185.37,True,4,1,1,13,3,3,6,MERGED
+17994,refactor: remove `injectInvalidationTimestamp` option,sheremet-va,2024-09-02T09:18:31Z,2024-09-02T15:48:30+00:00,1,6.5,True,7,72,4,79,5,0,5,MERGED
+17993,fix: cjs warning respect the logLevel flag,btea,2024-09-02T09:02:21Z,2024-09-02T12:03:33+00:00,3,3.02,True,12,0,1,130,1,1,2,MERGED
+17992,chore(deps): update dependency eslint-plugin-import-x to v4,renovate,2024-09-02T01:17:55Z,2024-09-02T02:49:48+00:00,1,1.53,True,10,93,2,1634,1,0,1,MERGED
+17991,chore(deps): update all non-major dependencies,renovate,2024-09-02T01:17:39Z,2024-09-02T03:20:05+00:00,1,2.04,True,240,235,12,11588,1,0,1,MERGED
+17990,fix(deps): bump tsconfck ,dominikg,2024-08-31T20:23:40Z,2024-09-01T06:03:05+00:00,1,9.66,True,6,6,2,112,7,0,7,MERGED
+17988,fix(html): rewrite assets url in <template>,sunnylost,2024-08-31T10:09:12Z,2024-09-02T20:37:56+00:00,2,58.48,True,15,0,3,12,1,0,1,MERGED
+17982,fix: waitForRequestIdle locked,patak-dev,2024-08-30T19:30:04Z,2024-09-01T15:23:56+00:00,2,43.9,True,4,4,1,548,3,0,3,MERGED
+17972,fix: createResolver compat,patak-dev,2024-08-29T10:04:44Z,2024-08-29T14:32:24+00:00,1,4.46,True,63,98,9,362,4,0,4,MERGED
+17969,refactor: simplify some code and reduce diff,sapphi-red,2024-08-29T04:13:23Z,2024-08-29T08:56:46+00:00,1,4.72,True,43,49,11,123,1,0,1,MERGED
+17967,fix(v6): fix `ViteDevServer.environments` type,hi-ogawa,2024-08-29T00:37:37Z,2024-08-29T08:58:03+00:00,1,8.34,True,1,4,1,601,1,0,1,MERGED
+17961,"test: fix flaky ""should reload"" test",sapphi-red,2024-08-28T06:29:51Z,2024-08-28T07:50:03+00:00,1,1.34,True,6,2,1,774,2,0,2,MERGED
+17960,fix(css): fix directory index import in sass modern api,hi-ogawa,2024-08-28T04:03:41Z,2024-09-02T20:43:50+00:00,3,136.67,True,19,7,6,373,1,1,2,MERGED
+17957,fix: cache parallel moduleInfo calls,sheremet-va,2024-08-27T12:42:43Z,2024-08-28T07:22:32+00:00,6,18.66,True,14,1,1,418,4,1,5,MERGED
+17947,fix: backward compat for setting values in resolvedConfig hook,sapphi-red,2024-08-26T06:16:49Z,2024-08-26T11:07:54+00:00,4,4.85,True,12,11,1,421,13,1,14,MERGED
+17946,chore(deps): update tj-actions/changed-files action to v45,renovate,2024-08-26T00:53:26Z,2024-09-03T13:02:30+00:00,1,204.15,True,1,1,1,4665,1,0,1,MERGED
+17945,chore(deps): update all non-major dependencies,renovate,2024-08-26T00:53:20Z,2024-08-27T08:18:16+00:00,1,31.42,True,366,272,24,8281,1,0,1,MERGED
+17942,chore: reduce diffs with v6 branch,patak-dev,2024-08-24T16:15:24Z,2024-08-24T17:40:24+00:00,1,1.42,True,12,14,4,57,1,0,1,MERGED
+17940,fix(dynamicImportVars): correct glob pattern for paths with parentheses,sunnylost,2024-08-24T11:10:46Z,2024-09-09T14:10:58+00:00,5,387.0,True,27,5,5,688,7,1,8,MERGED
+17938,fix(css): fix sass modern source map,hi-ogawa,2024-08-24T02:34:01Z,2024-09-01T15:27:04+00:00,2,204.88,True,50,10,6,118,2,0,2,MERGED
+17937,feat(css)!: change default sass api to modern/modern-compiler,hi-ogawa,2024-08-24T01:25:52Z,2024-10-25T07:49:27+00:00,2,1494.39,True,24,36,7,121,3,0,3,MERGED
+17930,fix(preload): add crossorigin attribute in CSS link tags,fallemand,2024-08-23T12:52:25Z,2024-09-02T20:39:36+00:00,2,247.79,True,1,1,1,583,1,0,1,MERGED
+17926,fix: improve CJS warning trace information,KaelWD,2024-08-23T06:51:19Z,2024-09-02T20:41:11+00:00,2,253.83,True,15,2,1,129,4,0,4,MERGED
+17922,fix(css)!: remove default import in ssr dev,bluwy,2024-08-22T09:19:27Z,2024-10-30T08:14:44+00:00,3,1654.92,True,4,10,2,256,9,1,10,MERGED
+17917,docs: update build-options.md,unknown,2024-08-21T17:35:45Z,2024-08-22T01:29:49+00:00,2,7.9,False,4,0,1,27,1,1,2,CLOSED
+17916,fix: only remove entry assets handled by Vite core,sapphi-red,2024-08-21T12:50:59Z,2024-09-01T15:45:54+00:00,4,266.92,True,3,1,1,24,1,1,2,MERGED
+17915,fix: allow getting URL of JS files in publicDir,sapphi-red,2024-08-21T12:11:05Z,2024-09-01T15:23:19+00:00,3,267.2,True,27,1,3,180,1,1,2,MERGED
+17913,test: fix backend-integration build test flaky fail,sapphi-red,2024-08-21T11:47:37Z,2024-08-21T13:44:52+00:00,2,1.95,True,3,0,1,82,2,1,3,MERGED
+17909,fix(css): fix sass `file://` reference,hi-ogawa,2024-08-21T02:55:42Z,2024-08-22T09:23:02+00:00,3,30.46,True,48,22,8,170,5,1,6,MERGED
+17896,chore(deps): update all non-major dependencies,renovate,2024-08-19T00:13:15Z,2024-08-19T08:08:55+00:00,1,7.93,True,372,382,25,4610,1,0,1,MERGED
+17891,fix: use websocket to test server liveness before client reload,hi-ogawa,2024-08-16T09:22:54Z,2024-10-25T04:54:11+00:00,5,1675.52,True,170,22,13,1189,28,1,29,MERGED
+17887,refactor: remove redundant prepend/strip base,hi-ogawa,2024-08-15T05:14:45Z,2024-08-16T05:47:55+00:00,1,24.55,True,10,7,2,559,4,0,4,MERGED
+17886,test: test `server.origin`,hi-ogawa,2024-08-15T05:00:56Z,2024-08-20T07:52:19+00:00,10,122.86,True,28,13,4,387,1,5,6,MERGED
+17885,"fix(create-vite): move ESLint ""ignores"" config to a separate object in React templates",simonlary,2024-08-15T03:40:52Z,2024-08-15T06:51:12+00:00,1,3.17,True,22,20,2,144,1,0,1,MERGED
+17884,chore: fix picocolors import for local dev,hi-ogawa,2024-08-15T00:12:40Z,2024-08-15T02:46:24+00:00,1,2.56,True,1,1,1,1236,1,0,1,MERGED

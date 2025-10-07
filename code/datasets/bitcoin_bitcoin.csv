@@ -1,4 +1,5 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+33541,Release: 30.0rc3 translations update,hebasto,2025-10-05T10:58:15Z,2025-10-06T09:24:12+00:00,1,22.43,True,337,388,1,211,2,0,2,MERGED
 33534,[29.x] Finalise 29.2rc2,fanquake,2025-10-03T13:42:07Z,2025-10-03T18:02:16+00:00,5,4.34,True,31,27,9,153,3,1,4,MERGED
 33533,test: addrman: check isTerrible when time is more than 10min in the future,brunoerg,2025-10-03T13:29:13Z,2025-10-03T19:20:51+00:00,2,5.86,True,7,1,1,510,2,0,2,MERGED
 33531,[rpc] `gettxout`: array argument for bulk queries,w0xlt,2025-10-03T00:58:15Z,2025-10-03T13:56:32+00:00,1,12.97,False,92,62,8,524,3,2,5,CLOSED
@@ -12,6 +13,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 33476,[28.x] backports + 28.3rc1,glozow,2025-09-24T19:18:35Z,2025-10-01T17:42:40+00:00,5,166.4,True,424,158,32,50,6,2,8,MERGED
 33475,bugfix: miner: fix `addPackageTxs` unsigned integer overflow,ismaelsadeeq,2025-09-24T15:41:18Z,2025-09-25T12:18:25+00:00,3,20.62,True,2,2,1,1242,2,0,2,MERGED
 33474,[29.x] Backports,fanquake,2025-09-24T14:41:16Z,2025-10-03T13:21:57+00:00,2,214.68,True,116,52,11,32,2,0,2,MERGED
+33473,[30.x] Backports & rc3,fanquake,2025-09-24T14:11:42Z,2025-10-06T09:37:33+00:00,4,283.43,True,146,119,26,141,5,0,5,MERGED
 33464,p2p: Use network-dependent timers for inbound inv scheduling,mzumsande,2025-09-23T17:19:20Z,2025-10-03T22:45:23+00:00,6,245.43,True,76,39,8,885,6,1,7,MERGED
 33459,doc: remove unrelated `bitcoin-wallet` binary from `libbitcoin_ipc` description,theStack,2025-09-22T19:16:29Z,2025-09-23T13:11:20+00:00,1,17.91,True,1,1,1,230,2,0,2,MERGED
 33453,docs: Undeprecate datacarrier and datacarriersize configuration options,bitschmidty,2025-09-22T10:40:53Z,2025-09-30T22:23:33+00:00,11,203.71,True,2,18,2,1735,70,1,71,MERGED
@@ -71,7 +73,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 33291,ci: cd into BASE_BUILD_DIR for GetCMakeLogFiles,Sjors,2025-09-03T12:24:50Z,2025-09-04T15:09:32+00:00,1,26.75,True,1,0,1,89,2,0,2,MERGED
 33290,build: suggest -DENABLE_IPC=OFF when missing capnp,Sjors,2025-09-03T07:41:04Z,2025-09-05T06:41:09+00:00,7,47.0,False,10,0,1,596,17,2,19,CLOSED
 33283,contrib: update fixed seeds,fanquake,2025-09-02T13:50:22Z,2025-09-08T09:32:59+00:00,2,139.71,True,1947,4398,7,41,3,0,3,MERGED
-33275,Release: 30.0 translations update,hebasto,2025-09-01T15:10:47Z,2025-09-09T09:20:11+00:00,4,186.16,True,10140,26645,123,552,39,3,42,MERGED
+33275,Release: 30.0 translations update,hebasto,2025-09-01T15:10:47Z,2025-09-09T09:20:11+00:00,4,186.16,True,10140,26645,123,552,40,3,43,MERGED
 33274,kernel: chainparams & headersync updates for 30.0,fanquake,2025-09-01T13:31:52Z,2025-09-03T10:08:44+00:00,17,44.61,True,46,35,3,71,4,11,15,MERGED
 33271,[29.x] finalise v29.1,fanquake,2025-08-29T15:34:09Z,2025-09-03T14:49:52+00:00,3,119.26,True,51,48,13,75,1,1,2,MERGED
 33269,test: Fixup fill_mempool docstring,maflcko,2025-08-29T06:15:44Z,2025-09-02T09:57:29+00:00,4,99.7,True,1,2,1,45,1,0,1,MERGED
@@ -149,3 +151,851 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 33104,test: Perform backup filename checks in migrate_and_get_rpc in wallet_migration.py,achow101,2025-07-30T17:17:43Z,2025-08-01T08:51:13+00:00,9,39.56,True,8,20,1,1149,3,2,5,MERGED
 33101,cmake: Proactively avoid use of `SECP256K1_DISABLE_SHARED`,hebasto,2025-07-30T12:48:29Z,2025-08-06T10:31:22+00:00,2,165.71,True,53,48,2,185,4,0,4,MERGED
 33100,ci: remove `ninja-build` from MSAN jobs,fanquake,2025-07-30T12:13:10Z,2025-07-30T15:23:55+00:00,1,3.18,True,1,2,2,31,3,0,3,MERGED
+33099,ci: allow for any libc++ intrumentation & use it for TSAN,fanquake,2025-07-30T12:03:46Z,2025-07-31T14:08:21+00:00,5,26.08,True,27,24,5,232,7,2,9,MERGED
+33094,refactor: unify container presence checks,l0rinc,2025-07-29T23:38:27Z,2025-08-15T02:27:18+00:00,7,386.81,False,162,162,54,1476,14,1,15,CLOSED
+33093,refactor: remove unused `ser_writedata16be` and `ser_readdata16be`,l0rinc,2025-07-29T23:28:52Z,2025-07-31T23:13:40+00:00,1,47.75,True,0,15,2,65,3,0,3,MERGED
+33088,doc: move `cmake -B build -LH` up in Unix build docs,fanquake,2025-07-29T10:58:55Z,2025-07-29T15:16:23+00:00,2,4.29,True,4,7,1,246,4,0,4,MERGED
+33083,qa: test that we do not disconnect a peer for submitting an invalid compact block,darosior,2025-07-28T21:52:43Z,2025-08-01T09:15:14+00:00,2,83.38,True,35,1,1,2033,6,1,7,MERGED
+33082,"wallet, refactor: Remove Legacy check and error",pablomartin4btc,2025-07-28T18:36:48Z,2025-09-09T21:37:08+00:00,5,1035.01,True,1,6,4,1472,8,1,9,MERGED
+33079,ci: limit max stack size to 512 KiB,fanquake,2025-07-28T13:38:40Z,2025-07-29T15:17:40+00:00,4,25.65,True,11,2,8,508,8,2,10,MERGED
+33078,kernel: improve BlockChecked ownership semantics,stickies-v,2025-07-28T13:38:30Z,2025-08-20T17:45:47+00:00,13,556.12,True,42,33,9,1630,12,3,15,MERGED
+33077,kernel: create monolithic kernel static library,hebasto,2025-07-28T09:50:54Z,2025-08-06T12:09:02+00:00,2,218.3,True,7,33,2,594,11,0,11,MERGED
+33076,[28.x] Backports,fanquake,2025-07-28T09:38:29Z,2025-07-30T14:31:17+00:00,2,52.88,True,36,29,6,32,2,0,2,MERGED
+33075,doc: Add legacy wallet removal release notes,maflcko,2025-07-28T09:34:51Z,2025-07-29T18:03:04+00:00,7,32.47,True,12,3,2,68,3,5,8,MERGED
+33074,[29.x] Backports,fanquake,2025-07-28T09:30:49Z,2025-08-15T12:59:13+00:00,1,435.47,True,62,33,10,60,2,0,2,MERGED
+33073,guix: warn SOURCE_DATE_EPOCH set in guix-codesign,willcl-ark,2025-07-28T09:29:11Z,2025-07-29T15:33:57+00:00,1,30.08,True,27,13,3,360,6,0,6,MERGED
+33070,doc/zmq: fix unix socket path example,romanz,2025-07-26T10:59:14Z,2025-07-28T09:18:04+00:00,2,46.31,True,1,1,1,225,3,0,3,MERGED
+33066,p2p: never check tx rejections by txid,glozow,2025-07-25T20:47:00Z,2025-09-02T14:08:34+00:00,5,929.36,False,46,222,7,2770,20,1,21,CLOSED
+33065,"rpc, wallet: replace remaining hardcoded output types with `FormatAllOutputTypes`",theStack,2025-07-25T16:56:47Z,2025-07-28T12:51:18+00:00,3,67.91,True,8,8,4,442,5,0,5,MERGED
+33064,test: fix RPC coverage check,fanquake,2025-07-25T14:02:51Z,2025-07-28T09:53:11+00:00,1,67.84,True,6,1,3,96,3,0,3,MERGED
+33063,"util: Revert ""common: Close non-std fds before exec in RunCommandJSON""",maflcko,2025-07-25T13:42:07Z,2025-07-26T09:21:03+00:00,7,19.65,True,1,59,2,3664,8,1,9,MERGED
+33061,subprocess: always check result of close(),Sjors,2025-07-25T08:20:05Z,2025-07-25T14:57:05+00:00,3,6.62,False,39,26,1,112,10,2,12,CLOSED
+33060,test: Slay BnB Mutants,murchandamus,2025-07-24T23:02:42Z,2025-08-04T17:56:38+00:00,2,258.9,True,18,8,1,600,4,0,4,MERGED
+33058,test: add assertions to SRD max weight test,yancyribbens,2025-07-24T17:56:49Z,2025-08-04T16:07:48+00:00,11,262.18,True,2,1,1,527,13,2,15,MERGED
+33056,[29.x] final changes for v29.1rc1,glozow,2025-07-24T17:20:53Z,2025-07-25T15:28:51+00:00,1,22.13,True,28,28,8,0,5,0,5,MERGED
+33052,[29.x] backport #32069,darosior,2025-07-24T13:32:33Z,2025-07-24T15:59:09+00:00,1,2.44,True,8,5,4,101,3,0,3,MERGED
+33050,"net, validation: don't punish peers for consensus-invalid txs",ajtowns,2025-07-24T10:38:37Z,2025-08-12T21:35:35+00:00,9,466.95,True,63,140,14,529,14,2,16,MERGED
+33049,doc: Fix typos in asmap README,nervana21,2025-07-24T05:34:22Z,2025-07-24T10:10:27+00:00,1,4.6,True,2,2,1,72,1,0,1,MERGED
+33048,test: reduce runtime of p2p_opportunistic_1p1c.py,glozow,2025-07-23T19:23:58Z,2025-08-01T15:06:45+00:00,1,211.71,True,35,24,1,1132,3,0,3,MERGED
+33047,test: check proper OP_2ROT behavior,brunoerg,2025-07-23T16:55:46Z,2025-07-24T11:24:23+00:00,2,18.48,True,1,0,1,1848,2,0,2,MERGED
+33046,[29.x] test: Do not pass tests on unhandled exceptions,fanquake,2025-07-23T16:03:10Z,2025-07-24T11:16:00+00:00,2,19.21,True,4,15,2,25,1,0,1,MERGED
+33044,contrib: drop use of `PermissionsStartOnly` & `Group=`,fanquake,2025-07-23T13:35:02Z,2025-08-06T13:50:52+00:00,3,336.26,True,1,3,1,470,2,1,3,MERGED
+33041,wallet: Set minversion to FEATURE_LATEST during migration,achow101,2025-07-22T23:28:55Z,2025-07-24T17:58:22+00:00,5,42.49,False,3,0,1,187,4,1,5,CLOSED
+33040,doc: update headers and remove manual TOCs,l0rinc,2025-07-22T23:02:54Z,2025-07-24T11:07:00+00:00,6,36.07,True,41,166,3,805,9,1,10,MERGED
+33039,"refactor,test: follow-ups to multi-byte block obfuscation",l0rinc,2025-07-22T17:30:17Z,2025-08-06T22:46:48+00:00,5,365.28,True,40,60,4,172,2,5,7,MERGED
+33038,fuzz: add mempool_dag fuzzer for transaction dependency testing,frankomosh,2025-07-22T15:55:09Z,2025-07-23T08:52:15+00:00,3,16.95,False,304,0,2,557,6,1,7,CLOSED
+33036,Update secp256k1 subtree to latest master,fanquake,2025-07-22T08:46:00Z,2025-07-23T08:45:55+00:00,2,24.0,True,281,303,17,173,5,0,5,MERGED
+33031,wallet: Set descriptor cache upgraded flag for migrated wallets,achow101,2025-07-21T22:33:04Z,2025-09-23T19:27:54+00:00,11,1532.91,True,67,15,4,588,5,4,9,MERGED
+33030,test: check tx is final when there is no locktime,brunoerg,2025-07-21T18:41:46Z,2025-07-22T18:08:05+00:00,2,23.44,True,4,0,1,482,5,1,6,MERGED
+33028,NOMERGE DEBUG WIP ignore,maflcko,2025-07-21T10:39:49Z,2025-07-24T20:26:06+00:00,2,81.77,False,0,0,0,0,2,1,3,CLOSED
+33021,test/refactor: revive test verifying that `GetCoinsCacheSizeState` switches from OK→LARGE→CRITICAL,l0rinc,2025-07-20T01:02:02Z,2025-08-11T22:16:18+00:00,5,549.24,True,49,133,3,288,4,1,5,MERGED
+33020,test: delete commented-out tests and add a test case in wallet_signer,naiyoma,2025-07-19T22:17:24Z,2025-07-22T22:49:12+00:00,3,72.53,True,5,38,1,556,5,1,6,MERGED
+33016,test: Add functional tests for blockreconstructionextratxn,bigshiny90,2025-07-19T16:32:34Z,2025-07-19T21:04:24+00:00,2,4.53,False,380,0,2,483,2,0,2,CLOSED
+33013,[29.x] Backport #32521,darosior,2025-07-18T21:08:44Z,2025-07-24T16:33:07+00:00,2,139.41,True,196,1,6,117,10,0,10,MERGED
+33012,script: return verification flag responsible for error upon validation failure,darosior,2025-07-18T19:19:49Z,2025-09-11T13:49:07+00:00,4,1314.49,False,335,269,19,2288,13,1,14,CLOSED
+33011,log: rate limiting followups,Crypt-iQ,2025-07-18T18:00:57Z,2025-08-14T22:15:41+00:00,55,652.25,True,224,206,7,265,20,31,51,MERGED
+33005,refactor: GenTxid type safety followups,marcofleon,2025-07-17T18:50:14Z,2025-07-30T18:20:32+00:00,26,311.5,True,46,43,6,125,7,11,18,MERGED
+33002,ci: Only pass documented env vars,maflcko,2025-07-17T12:26:25Z,2025-08-05T13:19:16+00:00,3,456.88,True,50,7,3,451,4,1,5,MERGED
+33001,test: Do not pass tests on unhandled exceptions,maflcko,2025-07-17T10:43:08Z,2025-07-23T15:44:47+00:00,10,149.03,True,3,15,1,876,6,1,7,MERGED
+32999,ci: Use APT_LLVM_V in msan task,maflcko,2025-07-17T07:57:56Z,2025-07-21T10:54:48+00:00,4,98.95,True,32,22,5,49,4,1,5,MERGED
+32994,p2p: rename GetAddresses -> GetAddressesUnsafe,danielabrozzoni,2025-07-16T13:43:19Z,2025-07-25T15:15:55+00:00,11,217.54,True,24,13,5,680,8,4,12,MERGED
+32990,wallet: remove outdated `pszSkip` arg of database `Rewrite` func,rkrux,2025-07-16T09:04:45Z,2025-07-22T23:41:28+00:00,1,158.61,True,8,8,6,173,3,0,3,MERGED
+32989,ci: Migrate CI to hosted Cirrus Runners,willcl-ark,2025-07-16T08:39:41Z,2025-09-03T10:19:35+00:00,106,1177.66,True,372,315,15,6945,46,58,104,MERGED
+32987,init: [gui] Avoid UB/crash in InitAndLoadChainstate,maflcko,2025-07-16T05:18:47Z,2025-07-30T20:55:31+00:00,6,351.61,True,52,6,4,786,8,2,10,MERGED
+32986,Adds transaction propagation information to mempool transactions,sr-gi,2025-07-16T01:47:27Z,2025-07-16T18:33:32+00:00,1,16.77,False,151,72,14,904,6,0,6,CLOSED
+32984,wallet: Set migrated wallet name only on success,achow101,2025-07-15T23:51:49Z,2025-07-24T11:00:57+00:00,8,203.15,True,30,5,2,331,4,2,6,MERGED
+32977,wallet: Remove wallet version and several legacy related functions,w0xlt,2025-07-15T08:20:12Z,2025-08-15T23:38:34+00:00,25,759.31,True,11,108,12,457,7,12,19,MERGED
+32975,assumevalid: log every script validation state change,l0rinc,2025-07-15T05:14:42Z,2025-08-15T20:54:34+00:00,23,759.66,True,13,6,3,1393,6,7,13,MERGED
+32973,validation: docs and cleanups for MemPoolAccept coins views,glozow,2025-07-14T19:39:31Z,2025-07-29T09:01:08+00:00,5,349.36,True,33,105,3,2267,8,1,9,MERGED
+32972,"rpc,net: Add getpeerbyid and listpeersbyids RPCs",waketraindev,2025-07-14T16:40:45Z,2025-07-15T08:57:09+00:00,3,16.27,False,410,148,6,509,5,1,6,CLOSED
+32970,ci: Enable more shellcheck,maflcko,2025-07-14T12:44:47Z,2025-07-25T14:35:56+00:00,7,265.85,True,5,1,1,236,2,1,3,MERGED
+32969,[28.x] Backports,fanquake,2025-07-14T12:41:03Z,2025-07-23T15:54:18+00:00,1,219.22,True,3,0,2,18,1,0,1,MERGED
+32968,test: fix intermittent failure in rpc_invalidateblock.py,stratospher,2025-07-14T09:27:48Z,2025-07-15T10:35:52+00:00,4,25.13,True,8,8,1,231,3,2,5,MERGED
+32967,log: [refactor] Use info level for init logs,maflcko,2025-07-14T09:16:19Z,2025-07-25T11:04:50+00:00,15,265.81,True,120,115,28,298,6,8,14,MERGED
+32961,fix spelling in tor.md docs,stutxo,2025-07-13T22:17:59Z,2025-07-14T09:08:00+00:00,4,10.83,True,1,1,1,124,4,1,5,MERGED
+32959,Reduce minrelaytxfee to 100 sats/kvB,RobinLinus,2025-07-13T16:30:38Z,2025-07-31T18:51:51+00:00,3,434.35,False,5,5,2,450,70,1,71,CLOSED
+32954,"cmake: Drop no longer necessary ""cmakeMinimumRequired"" object",hebasto,2025-07-12T13:05:52Z,2025-07-14T10:06:45+00:00,1,45.01,True,0,1,1,215,1,0,1,MERGED
+32948,refactor: cleanup index logging,Sjors,2025-07-11T12:46:01Z,2025-07-14T15:27:01+00:00,4,74.68,True,72,72,4,489,7,9,16,MERGED
+32945,tests: speed up coins_tests by parallelizing,ajtowns,2025-07-11T08:41:39Z,2025-07-22T18:19:28+00:00,2,273.63,True,21,11,3,264,15,1,16,MERGED
+32944,wallet: Remove `upgradewallet` RPC,w0xlt,2025-07-10T21:55:21Z,2025-07-25T20:00:21+00:00,15,358.08,True,3,107,7,83,11,3,14,MERGED
+32941,p2p: TxOrphanage revamp cleanups,glozow,2025-07-10T16:05:28Z,2025-08-04T15:48:07+00:00,12,599.71,True,284,276,14,600,15,10,25,MERGED
+32940,cmake: Use newer signature of `qt6_add_lrelease` when available,hebasto,2025-07-10T15:47:13Z,2025-07-11T13:26:20+00:00,1,21.65,True,5,4,1,93,2,0,2,MERGED
+32937,Enable `-Werror=dev` in CI & Guix,fanquake,2025-07-10T11:06:09Z,2025-07-11T22:10:50+00:00,3,35.08,True,5,2,5,338,5,0,5,MERGED
+32933,log: Properly log warnings with warn loglevel in addrdb,maflcko,2025-07-10T09:27:32Z,2025-07-11T13:24:32+00:00,2,27.95,True,8,8,1,204,1,0,1,MERGED
+32932,test: Add missing convert_to_json_for_cli,maflcko,2025-07-10T09:00:53Z,2025-07-10T10:04:07+00:00,1,1.05,True,2,2,1,471,1,0,1,MERGED
+32930,Resolve guix non-determinism with emplace_back instead of push_back,achow101,2025-07-10T06:39:35Z,2025-07-11T09:24:45+00:00,4,26.75,True,1,2,1,401,10,2,12,MERGED
+32927,fuzz: Add missing calls to `SetMockTime` for determinism,maflcko,2025-07-09T12:49:03Z,2025-07-11T10:18:08+00:00,3,45.48,True,12,3,10,632,1,0,1,MERGED
+32922,test: use notarized v28.2 binaries and fix macOS detection,Sjors,2025-07-08T11:15:34Z,2025-07-15T13:46:37+00:00,10,170.52,True,18,12,2,699,5,4,9,MERGED
+32921,test: less ambiguous error if bitcoind is missing,Sjors,2025-07-08T08:37:41Z,2025-07-10T21:51:26+00:00,4,61.23,True,17,12,1,554,4,1,5,MERGED
+32896,"wallet, rpc: add v3 transaction creation and wallet support",ishaanam,2025-07-07T20:13:59Z,2025-08-19T10:01:07+00:00,139,1021.79,True,836,32,25,1035,15,107,122,MERGED
+32892,"rpc: use anti-fee-sniping in send, sendall and walletcreatefundedpsbt",Sjors,2025-07-07T14:55:06Z,2025-07-09T07:17:25+00:00,1,40.37,False,94,27,8,481,5,1,6,CLOSED
+32890,bench: Avoid tmp files in pwd,maflcko,2025-07-07T11:12:55Z,2025-07-10T12:34:44+00:00,1,73.36,True,4,6,1,514,1,0,1,MERGED
+32888,ci: Use optimized Debug build type in test-each-commit,maflcko,2025-07-07T08:25:02Z,2025-07-24T11:45:10+00:00,4,411.34,True,9,3,2,204,7,2,9,MERGED
+32884,rest: replace `rf_names[0].rf` by `RESTResponseFormat::UNDEF`,eval-exec,2025-07-06T03:22:50Z,2025-07-08T14:59:35+00:00,2,59.61,True,2,2,1,1054,3,0,3,MERGED
+32881,test: Turn rpcauth.py test into functional test,maflcko,2025-07-05T15:30:59Z,2025-07-10T09:00:36+00:00,9,113.49,True,30,34,7,637,3,8,11,MERGED
+32880,ci: Avoid cd into build dir,maflcko,2025-07-05T13:08:54Z,2025-07-14T10:47:02+00:00,4,213.64,True,33,8,1,311,4,1,5,MERGED
+32878,index: fix wrong assert of current_tip == m_best_block_index,HowHsu,2025-07-04T15:53:48Z,2025-08-19T19:20:11+00:00,7,1107.44,True,84,8,2,267,25,0,25,MERGED
+32869,p2p: Relax BlockRequestAllowed to respond to advertised blocks,instagibbs,2025-07-03T13:42:41Z,2025-07-18T14:20:16+00:00,6,360.63,False,76,1,3,486,12,3,15,CLOSED
+32868,"test: refactor: overhaul block hash determination for `CBlock{,Header}` objects",theStack,2025-07-03T12:39:27Z,2025-07-18T13:24:30+00:00,3,360.75,True,241,278,39,1200,6,0,6,MERGED
+32866,doc: add note for watch-only wallet migration,rkrux,2025-07-03T11:57:26Z,2025-07-29T18:40:32+00:00,7,630.72,True,7,4,1,43,5,3,8,MERGED
+32865,cmake: Use `AUTHOR_WARNING` for warnings,fanquake,2025-07-03T11:21:31Z,2025-09-01T16:09:18+00:00,10,1444.8,False,6,19,3,655,13,2,15,CLOSED
+32863,[29.x] Backports,fanquake,2025-07-03T11:08:23Z,2025-07-18T17:47:34+00:00,2,366.65,True,249,64,21,94,1,0,1,MERGED
+32862,rpc: use CScheduler for relocking wallet and remove RPCTimer,pinheadmz,2025-07-03T11:06:19Z,2025-07-08T00:59:31+00:00,1,109.89,True,14,187,10,546,12,0,12,MERGED
+32859,functional test: correctly detect nonstd TRUC tx vsize in feature_taproot,instagibbs,2025-07-02T15:05:56Z,2025-07-02T23:01:54+00:00,4,7.93,True,4,1,1,25,3,1,4,MERGED
+32850,test: check P2SH sigop count for coinbase tx,brunoerg,2025-07-01T15:10:15Z,2025-07-03T08:46:58+00:00,4,41.61,True,6,0,1,184,5,0,5,MERGED
+32846,"doc: clarify that the ""-j N"" goes after the ""--build build"" part",bigspider,2025-07-01T07:22:57Z,2025-07-01T18:56:57+00:00,10,11.57,True,20,20,8,130,7,2,9,MERGED
+32845,"rpc, test: Fix JSON parsing errors in unloadwallet and getdescriptoractivity RPCs",pablomartin4btc,2025-06-30T23:51:56Z,2025-07-25T19:46:31+00:00,47,595.91,True,118,32,10,3043,14,16,30,MERGED
+32842,doc: add `/spenttxouts` to REST-interface.md,theStack,2025-06-30T21:29:07Z,2025-07-01T08:38:07+00:00,1,11.15,True,7,0,1,101,3,0,3,MERGED
+32841,feature_taproot: sample tx version border values more,instagibbs,2025-06-30T21:03:33Z,2025-07-02T10:45:31+00:00,4,37.7,True,5,3,1,295,3,1,4,MERGED
+32837,depends: fix libevent `_WIN32_WINNT` usage,fanquake,2025-06-30T16:47:03Z,2025-07-16T12:49:31+00:00,9,380.04,True,125,1,2,606,8,2,10,MERGED
+32835,test: fix feature_init.py intermittencies,furszy,2025-06-30T14:41:08Z,2025-07-08T00:26:39+00:00,10,177.76,True,82,27,1,1096,9,7,16,MERGED
+32833,test: Add `msgtype` to `msg_generic` slots,dergoegge,2025-06-30T10:17:49Z,2025-06-30T12:28:00+00:00,1,2.17,True,1,1,1,1632,5,0,5,MERGED
+32829,threading: use correct mutex name in reverse_lock fatal error messages,kevkevinpal,2025-06-29T19:41:02Z,2025-07-07T14:51:43+00:00,4,187.18,True,2,2,2,206,6,0,6,MERGED
+32828,"build, docs: Fix Boost-related issues on NetBSD",hebasto,2025-06-29T19:05:45Z,2025-07-02T12:29:55+00:00,2,65.4,True,10,1,2,553,6,1,7,MERGED
+32827,mempool: Avoid needless vtx iteration during IBD,l0rinc,2025-06-29T18:23:03Z,2025-07-21T15:02:01+00:00,25,524.65,True,15,14,2,656,10,6,16,MERGED
+32826,p2p: add more bad ports,jlopp,2025-06-29T17:16:36Z,2025-06-30T17:30:10+00:00,8,24.23,True,15,8,3,151,5,10,15,MERGED
+32825,rest: rename `strURIPart` to `uri_part`,romanz,2025-06-28T06:30:09Z,2025-06-30T12:20:58+00:00,1,53.85,True,20,20,1,27,7,0,7,MERGED
+32823,test: Fix wait_for_getheaders() call in test_outbound_eviction_blocks_relay_only(),pablomartin4btc,2025-06-27T17:24:27Z,2025-07-02T20:44:43+00:00,3,123.34,True,15,13,1,881,3,0,3,MERGED
+32822,fuzz: Make process_message(s) more deterministic,maflcko,2025-06-27T15:40:13Z,2025-07-25T09:15:12+00:00,6,665.58,True,106,21,8,439,9,0,9,MERGED
+32819,Add release note for #32530,darosior,2025-06-26T16:40:43Z,2025-06-27T11:07:40+00:00,1,18.45,True,4,0,1,0,1,0,1,MERGED
+32814,cmake: Explicitly specify `Boost_ROOT` for Homebrew's package,hebasto,2025-06-25T17:53:39Z,2025-06-26T14:00:54+00:00,1,20.12,True,12,0,1,808,4,0,4,MERGED
+32811,[28.x] Backports,fanquake,2025-06-25T10:55:03Z,2025-07-03T16:35:23+00:00,1,197.67,True,38,36,7,39,1,0,1,MERGED
+32810,[29.x] More backports,fanquake,2025-06-25T10:41:11Z,2025-07-03T10:57:35+00:00,4,192.27,True,61,7,8,68,5,0,5,MERGED
+32805,cmake: Use `HINTS` instead of `PATHS` in `find_*` commands,hebasto,2025-06-24T20:05:18Z,2025-06-26T11:10:08+00:00,1,39.08,True,3,3,1,1011,5,0,5,MERGED
+32803,test: add functional test for upgradewallet rpc,Prabhat1308,2025-06-24T15:20:37Z,2025-07-11T06:48:51+00:00,1,399.47,False,56,0,2,378,7,0,7,CLOSED
+32799,mempool: use `FeeFrac` for ancestor/descendant score comparators,theStack,2025-06-24T02:21:34Z,2025-07-09T19:16:23+00:00,2,376.91,True,19,43,1,501,1,1,2,MERGED
+32798,build: add root dir to CMAKE_PREFIX_PATH in toolchain,willcl-ark,2025-06-23T14:22:58Z,2025-06-25T10:37:44+00:00,8,44.25,True,16,0,1,605,8,3,11,MERGED
+32797,doc: archive 28.2 release notes,fanquake,2025-06-23T09:17:38Z,2025-06-23T21:50:47+00:00,1,12.55,True,83,0,1,75,1,0,1,MERGED
+32796,rpc: use CScheduler for HTTPRPCTimer,pinheadmz,2025-06-22T23:37:22Z,2025-07-03T11:06:40+00:00,15,251.49,False,16,17,2,476,10,7,17,CLOSED
+32788,descriptors: Allow `H` as a hardened indicator,achow101,2025-06-20T23:14:29Z,2025-07-03T22:15:39+00:00,7,311.02,False,8,1,2,52,16,2,18,CLOSED
+32787,bench: reduces unnecessary big vector definition,sr-gi,2025-06-20T18:34:25Z,2025-07-02T13:18:18+00:00,6,282.73,False,1,1,1,134,3,1,4,CLOSED
+32783,doc: Add fetching single PRs from upstream to productivity.md,willcl-ark,2025-06-20T10:12:17Z,2025-07-01T01:26:38+00:00,22,255.24,True,31,0,1,222,4,6,10,MERGED
+32782,test: disable secp256 tests by default,willcl-ark,2025-06-20T09:00:26Z,2025-06-30T09:09:37+00:00,1,240.15,False,39,5,3,808,13,1,14,CLOSED
+32781,refactor: modernize deprecated ipc headers,Sjors,2025-06-19T14:31:09Z,2025-06-23T08:48:50+00:00,1,90.29,True,5,5,3,527,3,0,3,MERGED
+32776,doc: taproot became always active in v24.0 (doc/bips.md),Sjors,2025-06-19T09:16:04Z,2025-06-19T10:40:52+00:00,1,1.41,True,2,1,1,18,4,0,4,MERGED
+32774,doc: Explain how to fetch commits directly,maflcko,2025-06-19T06:28:40Z,2025-06-19T11:32:34+00:00,8,5.07,True,10,1,1,207,3,1,4,MERGED
+32772,fuzz: wallet: remove `FundTx` from `FuzzedWallet`,brunoerg,2025-06-18T19:21:18Z,2025-06-19T14:14:25+00:00,1,18.89,True,0,53,1,116,4,0,4,MERGED
+32771,contrib: tracing: Fix read of `pmsg_type` in p2p_monitor.py,davidgumberg,2025-06-18T18:45:12Z,2025-06-23T08:53:41+00:00,2,110.14,True,2,2,1,277,4,0,4,MERGED
+32768,wallet: Remove `CWalletTx::fTimeReceivedIsTxTime`,achow101,2025-06-17T21:28:28Z,2025-06-25T20:05:09+00:00,5,190.61,True,9,36,3,147,5,4,9,MERGED
+32767,ci: Allow running CI in worktrees,maflcko,2025-06-17T18:31:04Z,2025-06-24T13:18:24+00:00,1,162.79,True,10,12,6,442,5,0,5,MERGED
+32766,[28.x] Finalize 28.2,achow101,2025-06-17T18:08:59Z,2025-06-19T09:18:03+00:00,4,39.15,True,22,23,8,27,5,0,5,MERGED
+32765,test: Fix list index out of range error in feature_bip68_sequence.py,zaidmstrr,2025-06-17T16:09:39Z,2025-06-19T14:04:07+00:00,3,45.91,True,3,1,1,402,7,1,8,MERGED
+32761,"rpc, doc: clarify watch-only wallets balances in RPCHelp",rkrux,2025-06-16T11:58:08Z,2025-07-28T09:18:35+00:00,3,1005.34,False,4,2,1,233,9,1,10,CLOSED
+32760,depends: capnp 1.2.0,fanquake,2025-06-16T10:03:30Z,2025-06-16T16:58:33+00:00,2,6.92,True,2,227,5,109,6,0,6,MERGED
+32758,wallet: remove dead code in legacy wallet migration,rkrux,2025-06-16T07:26:20Z,2025-07-10T21:42:04+00:00,13,590.26,True,21,49,3,513,7,6,13,MERGED
+32750,refactor: CFeeRate encapsulates FeeFrac internally,polespinasa,2025-06-15T10:17:55Z,2025-08-09T01:11:29+00:00,51,1310.89,True,66,65,11,631,15,30,45,MERGED
+32746,test: remove unnecessary m_best_header setting hack in feature_assumeutxo.py,theStack,2025-06-13T12:50:45Z,2025-06-13T14:56:05+00:00,2,2.09,True,0,6,1,102,2,0,2,MERGED
+32743,refactor: use `std::vector<std::byte>` for `BlockManager::ReadRawBlock()`,romanz,2025-06-13T05:04:34Z,2025-06-16T08:53:06+00:00,8,75.81,True,20,19,12,303,6,2,8,MERGED
+32742,test: fix catchup loop in outbound eviction functional test,theStack,2025-06-13T00:07:22Z,2025-06-25T22:14:22+00:00,7,310.12,True,2,1,1,3418,3,1,4,MERGED
+32741,rpc: add optional peer_ids param to filter getpeerinfo,waketraindev,2025-06-12T21:51:05Z,2025-09-24T13:48:01+00:00,17,2487.95,False,59,2,4,185,12,8,20,CLOSED
+32736,wallet: Correct dir iteration error handling,hodlinator,2025-06-12T13:42:34Z,2025-06-20T19:47:39+00:00,7,198.08,True,31,14,2,184,4,6,10,MERGED
+32735,[28.x] More backports,fanquake,2025-06-12T09:45:25Z,2025-06-17T12:11:38+00:00,3,122.44,True,39,9,5,82,2,0,2,MERGED
+32731,depends: Build `qt` package for FreeBSD hosts,hebasto,2025-06-11T21:43:20Z,2025-06-26T16:29:06+00:00,16,354.76,True,10,3,5,569,2,3,5,MERGED
+32727,doc: add release notes for #32425,vasild,2025-06-11T11:00:56Z,2025-06-25T19:58:47+00:00,21,344.96,True,14,0,1,29,6,11,17,MERGED
+32725,test: round difficulty and networkhashps,Sjors,2025-06-11T09:40:27Z,2025-06-20T23:30:52+00:00,2,229.84,True,7,8,1,312,4,0,4,MERGED
+32723,Refactor: Redefine CTransaction equality to include witness data,theuni,2025-06-10T22:16:14Z,2025-07-01T21:53:29+00:00,3,503.62,True,11,5,3,832,8,1,9,MERGED
+32721,"wallet, rpc: Remove deprecated balances from getwalletinfo and getunconfirmedbalance",achow101,2025-06-10T19:15:56Z,2025-06-25T20:45:49+00:00,6,361.5,True,10,50,6,295,3,2,5,MERGED
+32719,"doc, windows: CompanyName ""Bitcoin"" => ""Bitcoin Core project""",hodlinator,2025-06-10T18:27:39Z,2025-06-11T09:26:39+00:00,2,14.98,True,7,7,7,144,7,0,7,MERGED
+32717,doc: Update Qt 6 packages on FreeBSD,hebasto,2025-06-10T16:50:12Z,2025-06-13T08:37:46+00:00,3,63.79,True,2,2,1,115,2,1,3,MERGED
+32714,"init, doc: Replace datacarrier(size) deprecation with non-recommendation text",achow101,2025-06-10T04:41:08Z,2025-06-10T18:37:57+00:00,4,13.95,False,4,19,3,940,9,3,12,CLOSED
+32713,doc: fuzz: fix AFL++ link,brunoerg,2025-06-09T21:53:44Z,2025-06-10T14:18:38+00:00,3,16.41,True,1,1,1,47,2,1,3,MERGED
+32711,"doc: add missing packages for BSDs (cmake, gmake, curl) to depends/README.md",theStack,2025-06-09T12:50:10Z,2025-06-10T12:28:33+00:00,5,23.64,True,3,3,1,945,7,2,9,MERGED
+32708,"rpc, doc: update `listdescriptors` RCP help",rkrux,2025-06-09T09:47:20Z,2025-06-09T21:38:38+00:00,2,11.86,True,1,1,1,461,4,0,4,MERGED
+32703,test: Explain how to reproduce zmq:: upstream race,maflcko,2025-06-08T14:41:03Z,2025-06-11T15:56:02+00:00,1,73.25,True,6,7,1,55,3,0,3,MERGED
+32701,tests: Remove hardcoded addresstype in `rpc_psbt.py`,Christewart,2025-06-07T17:35:25Z,2025-06-26T00:08:47+00:00,1,438.56,False,1,1,1,148,4,0,4,CLOSED
+32697,test: Turn util/test_runner into functional test,maflcko,2025-06-07T08:55:56Z,2025-06-30T17:47:17+00:00,19,560.86,True,165,216,68,624,6,5,11,MERGED
+32694,index: move disk read lookups to base class,furszy,2025-06-06T20:38:40Z,2025-06-12T23:01:27+00:00,17,146.38,True,167,196,15,633,5,11,16,MERGED
+32693,depends: fix cmake compatibility error for freetype,josibake,2025-06-06T15:08:05Z,2025-06-13T11:27:53+00:00,9,164.33,True,18,0,2,1571,17,1,18,MERGED
+32690,"depends: fix multiprocess build on OpenBSD (apply capnp patch, correct SHA256SUM command)",theStack,2025-06-06T00:21:59Z,2025-06-11T15:04:56+00:00,10,134.72,True,151,2,5,1173,7,1,8,MERGED
+32684,[28.x] 28.2rc2,fanquake,2025-06-05T13:52:05Z,2025-06-09T15:18:33+00:00,4,97.44,True,31,22,9,71,4,1,5,MERGED
+32682,wallet: have external signer use PSBT error code EXTERNAL_SIGNER_NOT_FOUND,Sjors,2025-06-05T10:06:47Z,2025-06-17T00:33:21+00:00,7,278.44,True,78,13,5,723,5,2,7,MERGED
+32680,ci: Rewrite test-each-commit as py script,maflcko,2025-06-05T07:44:32Z,2025-06-10T23:57:26+00:00,6,136.22,True,62,23,3,373,5,3,8,MERGED
+32679,doc: update tor docs to use bitcoind binary from path,ismaelsadeeq,2025-06-04T17:09:47Z,2025-06-05T08:38:45+00:00,4,15.48,True,5,5,1,289,7,0,7,MERGED
+32678,guix: warn and abort when SOURCE_DATE_EPOCH is set,willcl-ark,2025-06-04T11:28:02Z,2025-06-10T14:22:08+00:00,2,146.9,True,18,0,1,250,7,0,7,MERGED
+32677,test: headers sync timeout,stringintech,2025-06-03T18:50:04Z,2025-07-15T10:47:16+00:00,22,999.95,True,101,15,1,663,11,9,20,MERGED
+32676,test: apply microsecond precision to test framework logging,mzumsande,2025-06-03T17:53:49Z,2025-06-04T22:09:17+00:00,9,28.26,True,10,2,1,448,4,2,6,MERGED
+32675,test: wallet: cover wallet passphrase with a null char,brunoerg,2025-06-03T17:17:37Z,2025-06-06T22:12:26+00:00,11,76.91,True,3,0,1,221,4,5,9,MERGED
+32673,clang-tidy: Apply modernize-deprecated-headers,maflcko,2025-06-03T13:23:34Z,2025-06-11T22:08:37+00:00,4,200.75,True,178,173,87,318,3,4,7,MERGED
+32667,build: Find Boost in config mode,hebasto,2025-06-02T21:14:25Z,2025-06-27T13:55:02+00:00,2,592.68,True,5,24,1,56,13,1,14,MERGED
+32665,depends: Bump boost to 1.88.0 and use new CMake buildsystem,fanquake,2025-06-02T16:46:15Z,2025-06-26T13:21:14+00:00,12,572.58,True,161,6,2,252,11,2,13,MERGED
+32660,rpc: Use type-safe exception to pass RPC help,maflcko,2025-06-02T12:10:42Z,2025-07-08T00:47:40+00:00,12,852.62,True,11,11,3,211,9,4,13,MERGED
+32656,depends: don't install & then delete sqlite pkgconf,fanquake,2025-06-01T11:42:24Z,2025-06-02T11:35:03+00:00,3,23.88,True,1,2,1,0,3,0,3,MERGED
+32654,init: make `-blockmaxweight` startup option debug only,ismaelsadeeq,2025-05-31T15:47:31Z,2025-08-04T18:04:37+00:00,11,1562.29,True,1,1,1,293,14,4,18,MERGED
+32651,cmake: Replace deprecated `qt6_add_translation` with `qt6_add_lrelease`,hebasto,2025-05-30T21:24:23Z,2025-06-04T14:36:29+00:00,5,113.2,True,7,7,1,160,8,1,9,MERGED
+32647,build: add -Wthread-safety-pointer,fanquake,2025-05-30T16:03:12Z,2025-06-04T08:58:09+00:00,1,112.92,True,3,2,2,531,4,0,4,MERGED
+32646,p2p: Add witness mutation check inside FillBlock,instagibbs,2025-05-30T13:46:33Z,2025-06-30T17:16:35+00:00,16,747.5,True,38,71,5,390,8,5,13,MERGED
+32644,doc: miscellaneous changes,fanquake,2025-05-30T10:08:57Z,2025-06-03T08:10:54+00:00,2,94.03,True,42,45,31,72,2,1,3,MERGED
+32642,test: update BIP340 test vectors and implementation (variable-length messages),theStack,2025-05-30T00:04:08Z,2025-06-20T21:45:48+00:00,2,525.69,True,5,3,2,320,4,0,4,MERGED
+32641,Update libmultiprocess subtree to fix clang-tidy errors,ryanofsky,2025-05-29T18:28:07Z,2025-05-30T09:12:58+00:00,1,14.75,True,108,82,8,311,2,0,2,MERGED
+32639,[28.x] Backport guix: accomodate migration to codeberg,fanquake,2025-05-29T12:31:58Z,2025-05-30T10:09:30+00:00,1,21.63,True,5,5,2,213,2,0,2,MERGED
+32638,blocks: force hash validations on disk read,l0rinc,2025-05-29T09:48:26Z,2025-06-27T20:28:46+00:00,10,706.67,True,18,16,6,1257,3,2,5,MERGED
+32634,build: Add resource file and manifest to `bitcoin.exe`,hebasto,2025-05-28T19:26:28Z,2025-05-29T09:42:16+00:00,2,14.26,True,35,0,2,230,4,1,5,MERGED
+32633,windows: Use predefined `RC_INVOKED` macro instead of custom one,hebasto,2025-05-28T19:13:02Z,2025-05-29T12:51:15+00:00,3,17.64,True,3,11,2,78,5,0,5,MERGED
+32631,refactor: Convert GenTxid to `std::variant`,marcofleon,2025-05-28T15:45:16Z,2025-07-11T17:47:34+00:00,36,1058.04,True,313,316,33,317,10,39,49,MERGED
+32629,Replace dead gnome link notificator.cpp,strmfos,2025-05-28T09:28:07Z,2025-05-29T14:18:00+00:00,4,28.83,False,0,1,1,200,4,1,5,CLOSED
+32623,test: Add missing ipc subtree to lint,maflcko,2025-05-27T08:12:39Z,2025-05-27T19:47:24+00:00,7,11.58,True,13,20,3,205,5,2,7,MERGED
+32620,wallet: Fix wallet interface detection of encrypted wallets,achow101,2025-05-26T22:06:35Z,2025-06-13T22:17:43+00:00,5,432.19,True,4,0,1,566,3,1,4,MERGED
+32619,"wallet, rpc, gui: List legacy wallets with a message about migration",achow101,2025-05-26T20:27:50Z,2025-05-30T10:17:45+00:00,4,85.83,True,24,6,4,420,3,1,4,MERGED
+32618,wallet: Remove ISMINE_WATCHONLY and watchonly from RPCs,achow101,2025-05-26T19:33:21Z,2025-07-07T20:29:05+00:00,11,1008.93,True,169,266,23,512,8,5,13,MERGED
+32615,fee estimate test: fix #31944 by handling a legitimate scenario that …,tnndbtc,2025-05-25T19:47:50Z,2025-07-03T15:11:20+00:00,8,931.39,False,15,10,1,1167,11,1,12,CLOSED
+32607,"rpc: Note in fundrawtransaction doc, fee rate is for package",benthecarman,2025-05-23T22:30:16Z,2025-06-04T21:54:35+00:00,6,287.41,True,4,1,1,164,10,3,13,MERGED
+32604,"log: Mitigate disk filling attacks by rate limiting LogPrintf, LogInfo, LogWarning, LogError",Crypt-iQ,2025-05-23T20:48:49Z,2025-07-09T18:44:54+00:00,136,1125.93,True,466,62,8,2732,27,101,128,MERGED
+32603,"rpc, doc: clarify wallet version in getwalletinfo help",rkrux,2025-05-23T15:19:03Z,2025-08-18T08:21:52+00:00,6,2081.05,False,1,1,1,494,2,2,4,CLOSED
+32602,fuzz: Add target for coins database,marcofleon,2025-05-23T15:01:21Z,2025-06-05T08:28:31+00:00,6,305.45,True,39,7,1,213,4,5,9,MERGED
+32601,test: Fix `system_tests/run_command` test,hebasto,2025-05-23T12:51:35Z,2025-07-04T10:25:40+00:00,11,1005.57,False,15,6,3,1113,3,1,4,CLOSED
+32598,walletdb: Log additional exception error messages for corrupted wallets,achow101,2025-05-23T00:42:07Z,2025-05-30T10:33:28+00:00,9,177.86,True,7,2,1,145,3,2,5,MERGED
+32597,wallet: Always set descriptor cache upgraded flag for new wallets,achow101,2025-05-23T00:39:49Z,2025-06-25T20:15:00+00:00,7,811.59,True,53,12,5,210,4,3,7,MERGED
+32596,"wallet, rpc, doc: various legacy wallet removal cleanups in RPCs",theStack,2025-05-22T22:46:30Z,2025-05-23T19:35:03+00:00,5,20.81,True,6,37,7,599,2,2,4,MERGED
+32595,build: add a depends dependency provider,willcl-ark,2025-05-22T21:25:46Z,2025-06-20T14:04:12+00:00,16,688.64,False,219,38,10,2064,14,5,19,CLOSED
+32594,"wallet, rpc: Return normalized descriptor in parent_descs",achow101,2025-05-22T21:18:21Z,2025-06-13T22:28:51+00:00,13,529.17,True,75,19,2,162,5,9,14,MERGED
+32593,"wallet, rpc: Move (Un)LockCoin WalletBatch creation out of RPC",achow101,2025-05-22T20:35:53Z,2025-07-24T17:40:37+00:00,22,1509.08,True,49,47,8,572,3,16,19,MERGED
+32592,threading: remove ancient CRITICAL_SECTION macros,theuni,2025-05-22T18:12:56Z,2025-08-23T16:18:35+00:00,3,2230.09,True,18,41,5,1062,14,1,15,MERGED
+32591,test: fix and augment block tests of invalid_txs,instagibbs,2025-05-22T14:45:38Z,2025-05-27T13:25:36+00:00,3,118.67,True,12,2,2,113,3,1,4,MERGED
+32589,[29.x] More backports,fanquake,2025-05-22T13:57:32Z,2025-06-25T10:03:10+00:00,4,812.09,True,175,42,31,196,8,2,10,MERGED
+32586,ci: Downgrade DEBUG=1 to -D_GLIBCXX_ASSERTIONS in centos task,maflcko,2025-05-22T11:48:55Z,2025-05-22T16:59:26+00:00,2,5.18,True,7,2,1,45,5,0,5,MERGED
+32584,depends: hard-code necessary c(xx)flags rather than setting them per-host,fanquake,2025-05-22T09:33:12Z,2025-07-30T20:56:27+00:00,3,1667.39,True,16,14,7,362,10,0,10,MERGED
+32582,log: Additional compact block logging,davidgumberg,2025-05-22T02:00:42Z,2025-05-29T09:58:23+00:00,11,175.96,True,8,4,2,642,7,5,12,MERGED
+32581,allocators: Apply manual ASan poisoning to `PoolResource`,dergoegge,2025-05-21T17:18:31Z,2025-08-05T09:47:07+00:00,1,1816.48,True,32,1,3,1674,11,0,11,MERGED
+32580,"wallet, test: best block locator matches scan state follow-ups",rkrux,2025-05-21T14:50:16Z,2025-07-09T21:35:33+00:00,7,1182.75,True,14,10,2,180,3,2,5,MERGED
+32573,ci: Avoid && dropping errors,maflcko,2025-05-20T19:49:17Z,2025-05-21T11:11:53+00:00,3,15.38,True,3,1,1,381,5,0,5,MERGED
+32572,doc: Remove stale sections in dev notes,maflcko,2025-05-20T16:51:55Z,2025-06-10T19:41:37+00:00,23,506.83,True,14,111,6,149,5,4,9,MERGED
+32568,"depends: use ""mkdir -p"" when installing xproto",fanquake,2025-05-20T11:27:14Z,2025-06-03T19:21:24+00:00,6,343.9,True,3,1,1,109,14,1,15,MERGED
+32567,subprocess: Backport upstream changes,hebasto,2025-05-20T10:56:27Z,2025-05-21T11:08:41+00:00,1,24.2,True,6,1,1,208,5,0,5,MERGED
+32564,"miniscript, refactor: Make `operator""""_mst` `consteval` (re-take)",hebasto,2025-05-19T13:47:25Z,2025-07-02T14:06:38+00:00,4,1056.32,True,30,37,3,130,4,2,6,MERGED
+32563,[28.x] Backport #31407,fanquake,2025-05-19T12:46:23Z,2025-06-05T13:36:25+00:00,4,408.83,True,144,75,7,26,9,1,10,MERGED
+32562,doc: remove // for ... comments,fanquake,2025-05-19T11:41:54Z,2025-05-20T08:28:51+00:00,4,20.78,True,117,92,28,199,8,4,12,MERGED
+32560,ci: Move DEBUG=1 to centos task,maflcko,2025-05-19T10:27:06Z,2025-05-20T08:30:03+00:00,5,22.05,True,4,4,2,575,1,1,2,MERGED
+32559,doc: add alpine build instructions,willcl-ark,2025-05-19T09:49:16Z,2025-08-01T13:42:50+00:00,19,1779.89,True,51,0,2,165,1,8,9,MERGED
+32553,wallet: Fix logging of wallet version,achow101,2025-05-18T19:07:56Z,2025-05-20T11:22:30+00:00,5,40.24,True,15,1,2,1051,6,0,6,MERGED
+32551,"cmake: Remove `ENABLE_{SSE41,AVX2,X86_SHANI,ARM_SHANI}` from `bitcoin-build-config.h`",hebasto,2025-05-18T15:24:07Z,2025-05-22T09:00:14+00:00,1,89.6,True,2,28,5,299,9,0,9,MERGED
+32540,rest: fetch spent transaction outputs by blockhash,romanz,2025-05-17T07:27:02Z,2025-06-27T21:44:58+00:00,33,998.3,True,149,0,4,1301,15,6,21,MERGED
+32539,init: Configure reachable networks before we start the RPC server,pinheadmz,2025-05-16T19:58:11Z,2025-06-06T22:31:57+00:00,3,506.56,True,49,26,3,1590,3,1,4,MERGED
+32537,Set minimum supported Windows version to 1903 (May 2019 Update),hebasto,2025-05-16T16:32:45Z,2025-05-19T15:01:06+00:00,4,70.47,False,19,3,3,301,5,1,6,CLOSED
+32534,Update leveldb subtree to latest upstream,fanquake,2025-05-16T15:15:19Z,2025-05-17T08:42:17+00:00,2,17.45,True,13,16,5,82,3,0,3,MERGED
+32533,test: properly check for per-tx sigops limit,theStack,2025-05-16T14:50:05Z,2025-05-22T14:06:32+00:00,4,143.27,True,21,2,2,2854,6,2,8,MERGED
+32532,Short-circuit `GetLegacySigOpCount` for known scripts,l0rinc,2025-05-16T13:59:35Z,2025-06-11T15:43:27+00:00,11,625.73,False,519,201,19,892,11,12,23,CLOSED
+32530,node: cap `-maxmempool` and `-dbcache` values for 32-bit,darosior,2025-05-16T13:19:49Z,2025-06-26T16:33:28+00:00,14,987.23,True,14,2,2,206,8,5,13,MERGED
+32528,rpc: Round verificationprogress to 1 for a recent tip,maflcko,2025-05-16T11:22:22Z,2025-05-27T23:45:09+00:00,21,276.38,True,60,25,12,308,20,4,24,MERGED
+32527,test: Remove unused verify_flags suppression,maflcko,2025-05-16T09:20:17Z,2025-05-16T10:55:08+00:00,2,1.58,True,7,5,1,64,1,0,1,MERGED
+32526,fuzz: Delete wallet_notifications,maflcko,2025-05-16T07:34:48Z,2025-05-16T12:43:05+00:00,2,5.14,True,0,174,2,358,1,0,1,MERGED
+32525,"build: Revert ""Temporarily disable compiling `fuzz/utxo_snapshot.cpp` with MSVC",maflcko,2025-05-16T06:44:33Z,2025-05-16T07:48:56+00:00,2,1.07,True,2,5,2,135,3,0,3,MERGED
+32523,wallet: Remove isminetypes,achow101,2025-05-16T01:53:31Z,2025-08-21T14:52:57+00:00,38,2340.99,True,226,348,32,576,17,20,37,MERGED
+32522,util: C++20 `ToIntegral()` Improvement,w0xlt,2025-05-15T23:51:25Z,2025-08-05T16:53:43+00:00,6,1961.04,False,5,4,1,629,1,2,3,CLOSED
+32521,policy: make pathological transactions packed with legacy sigops non-standard,darosior,2025-05-15T21:05:26Z,2025-07-18T20:25:05+00:00,113,1535.33,True,184,0,5,613,43,34,77,MERGED
+32520,Remove legacy `Parse(U)Int*`,maflcko,2025-05-15T20:06:08Z,2025-05-20T14:55:43+00:00,10,114.83,True,132,395,18,392,7,5,12,MERGED
+32519,ci: Enable feature_init and wallet_reorgsrestore in valgrind task,maflcko,2025-05-15T16:42:26Z,2025-05-16T17:01:13+00:00,1,24.31,True,3,6,2,355,2,0,2,MERGED
+32516,"test: add MAX_DISCONNECTED_TX_POOL_BYTES, chainlimits coverage",instagibbs,2025-05-15T15:19:48Z,2025-05-29T09:50:52+00:00,21,330.52,True,136,12,1,477,4,10,14,MERGED
+32514,scripted-diff: Remove unused leading newline in RPC docs,maflcko,2025-05-15T13:55:32Z,2025-05-17T09:10:39+00:00,2,43.25,True,354,241,21,162,3,0,3,MERGED
+32511,refactor: bdb removals,maflcko,2025-05-15T13:00:32Z,2025-05-16T20:28:49+00:00,1,31.47,True,14,91,9,16,7,0,7,MERGED
+32510,rfc: only put replaced txs in extra pool,Sjors,2025-05-15T12:17:02Z,2025-05-16T06:54:39+00:00,2,18.63,False,22,45,5,1102,8,2,10,CLOSED
+32509,qa: feature_framework_startup_failures.py fixes & improvements (#30660 follow-up),hodlinator,2025-05-15T11:58:44Z,2025-05-27T21:44:43+00:00,4,297.77,True,21,23,4,236,5,2,7,MERGED
+32507,ci: Exclude failing wallet_reorgsrestore.py from valgrind task for now,maflcko,2025-05-15T10:59:47Z,2025-05-15T15:24:51+00:00,3,4.42,True,5,1,1,151,3,0,3,MERGED
+32505,depends: bump to latest config.guess and config.sub,theStack,2025-05-14T22:42:28Z,2025-05-16T08:35:23+00:00,2,33.88,True,587,185,2,328,3,1,4,MERGED
+32501,RPC: removeprunedfunds should take an array of txids,BrandonOdiwuor,2025-05-14T17:35:49Z,2025-05-20T12:18:48+00:00,1,138.72,False,30,13,3,149,5,0,5,CLOSED
+32500,init: drop `-upnp`,fanquake,2025-05-14T15:05:59Z,2025-05-16T08:31:50+00:00,1,41.43,True,3,28,2,50,6,0,6,MERGED
+32499,cmake: Restrict MSVC-specific workaround to affected versions,hebasto,2025-05-14T14:56:54Z,2025-05-16T07:04:33+00:00,2,40.13,False,9,4,1,132,11,1,12,CLOSED
+32498,doc: remove Carls substitute server from Guix docs,fanquake,2025-05-14T14:10:12Z,2025-05-15T08:39:47+00:00,1,18.49,True,5,11,1,72,2,0,2,MERGED
+32492,test: add skip_if_running_under_valgrind(),fanquake,2025-05-14T09:58:24Z,2025-05-15T09:17:54+00:00,1,23.32,True,10,0,6,239,3,0,3,MERGED
+32490,refactor: Remove UB in prevector reverse iterators,maflcko,2025-05-14T07:56:12Z,2025-05-14T21:34:16+00:00,2,13.63,True,58,84,3,958,4,0,4,MERGED
+32488,fuzz: Properly setup wallet in wallet_fees target,maflcko,2025-05-13T21:13:23Z,2025-05-14T10:36:26+00:00,3,13.38,True,7,7,1,368,3,0,3,MERGED
+32487,blocks: avoid recomputing block header hash in `ReadBlock`,l0rinc,2025-05-13T20:18:31Z,2025-05-27T20:01:56+00:00,19,335.72,True,23,12,3,322,7,4,11,MERGED
+32485,Update minisketch subtree,fanquake,2025-05-13T17:10:00Z,2025-05-16T09:04:24+00:00,1,63.91,True,4,4,1,76,4,0,4,MERGED
+32484,[28.x] build: suppress `-Wunterminated-string-initialization` in secp256k1,fanquake,2025-05-13T16:18:38Z,2025-06-17T15:43:45+00:00,1,839.42,False,3,0,1,1587,7,0,7,CLOSED
+32481,"wallet, refactor: Remove Legacy wallet unused warnings and errors",pablomartin4btc,2025-05-13T14:44:33Z,2025-06-14T00:27:58+00:00,20,753.72,True,10,72,4,350,7,10,17,MERGED
+32480,[28.x] 28.2rc1,fanquake,2025-05-13T13:44:35Z,2025-05-16T17:09:56+00:00,1,75.42,True,28,28,8,27,1,0,1,MERGED
+32479,[27.x] Backports,fanquake,2025-05-13T13:31:40Z,2025-06-09T12:52:21+00:00,1,647.34,True,67,32,15,45,7,0,7,MERGED
+32477,lint: Check for missing trailing newline,maflcko,2025-05-13T10:07:04Z,2025-05-20T08:25:14+00:00,8,166.3,True,57,12,4,658,5,3,8,MERGED
+32475,wallet: Use `util::Error` throughout `AddWalletDescriptor` instead of returning `nullptr` for some errors,achow101,2025-05-13T01:28:35Z,2025-05-21T13:24:45+00:00,9,203.94,True,28,44,13,674,4,1,5,MERGED
+32473,Introduce per-txin sighash midstate cache for legacy/p2sh/segwitv0 scripts,sipa,2025-05-12T17:49:17Z,2025-08-11T09:26:25+00:00,18,2175.62,True,290,28,5,1695,18,6,24,MERGED
+32472,doc: Fix typo,hebasto,2025-05-12T16:12:10Z,2025-05-12T18:48:52+00:00,3,2.61,True,2,2,2,143,3,0,3,MERGED
+32469,cmake: Allow `WITH_DBUS` on all Unix-like systems,hebasto,2025-05-11T16:10:57Z,2025-05-12T13:23:00+00:00,1,21.2,True,2,2,1,1482,4,0,4,MERGED
+32467,checkqueue: make the queue non-optional for CCheckQueueControl and drop legacy locking macro usage,theuni,2025-05-10T01:12:16Z,2025-05-22T16:57:39+00:00,25,303.76,True,41,41,7,590,8,9,17,MERGED
+32466,threading: drop CSemaphore in favor of c++20 std::counting_semaphore,theuni,2025-05-10T01:00:48Z,2025-05-20T19:21:00+00:00,5,258.34,True,121,152,6,585,6,1,7,MERGED
+32465,thread-safety: fix annotations with REVERSE_LOCK,theuni,2025-05-10T00:49:47Z,2025-06-17T18:12:51+00:00,7,929.38,True,33,23,6,1392,15,5,20,MERGED
+32463,test: fix an incorrect `feature_fee_estimation.py` subtest,ismaelsadeeq,2025-05-09T18:20:41Z,2025-07-03T23:45:45+00:00,8,1325.42,True,12,11,1,1638,7,3,10,MERGED
+32460,fs: remove `_POSIX_C_SOURCE` defining,fanquake,2025-05-09T15:01:58Z,2025-05-30T09:21:06+00:00,4,498.32,True,0,18,2,284,23,1,24,MERGED
+32459,qt: drop unused watch-only functionality,Sjors,2025-05-09T14:36:33Z,2025-05-21T09:13:05+00:00,8,282.61,True,30,306,17,309,13,2,15,MERGED
+32458,guix: move `*-check.py` scripts under contrib/guix/,fanquake,2025-05-09T12:54:01Z,2025-05-12T18:49:22+00:00,4,77.92,True,9,34,5,405,3,0,3,MERGED
+32457,bench: replace benchmark block with more representative one (413567 → 784588),l0rinc,2025-05-09T09:30:08Z,2025-05-21T13:43:55+00:00,6,292.23,False,68,22,8,809,6,1,7,CLOSED
+32452,test: Remove legacy wallet RPC overloads,achow101,2025-05-08T22:36:25Z,2025-05-17T09:19:39+00:00,5,202.72,True,106,136,18,662,4,2,6,MERGED
+32451,contrib: add xor-blocks tool to obfuscate blocks directory,andrewtoth,2025-05-08T18:02:59Z,2025-05-27T13:56:09+00:00,42,451.89,False,224,0,4,815,12,27,39,CLOSED
+32449,"wallet: init, don't error out when loading legacy wallets",furszy,2025-05-08T16:27:18Z,2025-06-02T20:32:09+00:00,19,604.08,True,50,5,5,478,10,9,19,MERGED
+32448,contrib: remove bdb exception from FORTIFY check,fanquake,2025-05-08T13:41:00Z,2025-05-08T18:06:50+00:00,3,4.43,True,1,2,1,667,2,0,2,MERGED
+32446,build: simplify *ifaddr handling,fanquake,2025-05-08T09:59:58Z,2025-05-10T14:50:06+00:00,8,52.84,True,12,21,7,313,3,2,5,MERGED
+32445,build: let CMake determine the year,fanquake,2025-05-08T09:25:44Z,2025-05-09T11:14:09+00:00,7,25.81,False,1,1,1,294,13,2,15,CLOSED
+32444,"doc: swap ""Docker image"" for ""container image""",fanquake,2025-05-08T09:20:59Z,2025-05-08T12:50:28+00:00,2,3.49,True,5,5,1,215,3,0,3,MERGED
+32440,test: remove bdb assert in tool_wallet.py,kevkevinpal,2025-05-07T16:24:55Z,2025-05-07T18:52:06+00:00,5,2.45,True,1,32,1,123,6,0,6,MERGED
+32439,guix: accomodate migration to codeberg,fanquake,2025-05-07T16:24:28Z,2025-05-27T17:09:14+00:00,9,480.75,True,5,5,2,58,13,3,16,MERGED
+32438,refactor: Removals after bdb removal,maflcko,2025-05-07T15:29:19Z,2025-05-09T15:48:03+00:00,6,48.31,True,6,110,20,27,5,1,6,MERGED
+32437,crypto: disable ASan for sha256_sse4 with Clang,fanquake,2025-05-07T10:54:28Z,2025-05-08T08:08:47+00:00,3,21.24,True,6,2,1,140,7,0,7,MERGED
+32436,test: refactor: negate signature-s using libsecp256k1,theStack,2025-05-07T10:44:03Z,2025-05-09T20:27:01+00:00,10,57.72,True,9,16,1,484,5,4,9,MERGED
+32434,lint: Remove string exclusion from locale check,maflcko,2025-05-07T08:01:27Z,2025-05-08T09:42:34+00:00,4,25.69,True,5,32,2,1032,5,1,6,MERGED
+32432,"wallet, rpc: Use `OUTPUT_TYPES` to describe the output types instead of hardcoding them",w0xlt,2025-05-07T02:27:59Z,2025-07-01T20:53:30+00:00,4,1338.43,True,8,2,3,607,13,1,14,MERGED
+32431,deps: Bump lief to 0.16.6,davidgumberg,2025-05-07T00:59:19Z,2025-06-11T11:41:07+00:00,23,850.7,True,97,68,5,51,33,7,40,MERGED
+32429,docs: Improve `keypoolrefill` RPC docs,w0xlt,2025-05-06T19:15:28Z,2025-05-07T21:55:42+00:00,11,26.67,True,2,1,1,198,2,4,6,MERGED
+32425,config: allow setting -proxy per network,vasild,2025-05-06T13:09:42Z,2025-06-10T19:57:46+00:00,23,846.8,True,183,71,5,345,9,12,21,MERGED
+32424,docs: clarify RPC credentials security boundary,crStiv,2025-05-06T09:40:11Z,2025-08-15T13:37:24+00:00,3,2427.95,False,0,0,0,267,13,1,14,CLOSED
+32423,"rpc: Undeprecate rpcuser/rpcpassword, store all credentials hashed in memory",laanwj,2025-05-06T09:31:45Z,2025-05-19T16:42:09+00:00,19,319.17,True,75,48,3,1400,5,12,17,MERGED
+32421,test: refactor: overhaul (w)txid determination for `CTransaction` objects,theStack,2025-05-05T17:51:47Z,2025-06-11T21:21:29+00:00,6,891.5,True,333,499,45,1705,9,1,10,MERGED
+32418,[WIP] rpc: add `clearmempool` command for regtest mode,cmdruid,2025-05-04T23:58:29Z,2025-06-30T17:22:13+00:00,1,1361.4,False,88,0,3,1716,9,1,10,CLOSED
+32417,doc: Explain that .gitignore is not for IDE-specific excludes,maflcko,2025-05-04T16:53:09Z,2025-05-05T06:40:51+00:00,3,13.79,True,5,0,1,85,3,0,3,MERGED
+32415,scripted-diff: adapt script error constant names in feature_taproot.py,theStack,2025-05-03T18:28:30Z,2025-05-06T22:25:50+00:00,2,75.96,True,98,98,1,1066,5,0,5,MERGED
+32412,Musig2 fields followups,rkrux,2025-05-03T08:59:12Z,2025-07-31T05:57:01+00:00,1,2132.96,False,6,6,2,0,2,0,2,CLOSED
+32408,tests: Expand HTTP coverage to assert libevent behavior,pinheadmz,2025-05-02T18:56:14Z,2025-06-09T20:08:52+00:00,28,913.21,True,139,0,3,644,5,11,16,MERGED
+32406,policy: uncap datacarrier by default,instagibbs,2025-05-02T15:41:22Z,2025-06-09T12:25:45+00:00,77,908.74,True,146,94,26,678,158,28,186,MERGED
+32405,build: replace header checks with `__has_include`,fanquake,2025-05-02T15:31:21Z,2025-05-05T14:19:43+00:00,5,70.81,True,4,24,4,4698,6,0,6,MERGED
+32404,log: print reason when writing chainstate,l0rinc,2025-05-02T14:27:05Z,2025-05-27T21:30:11+00:00,16,607.05,True,5,1,2,1360,10,4,14,MERGED
+32403,test: remove Boost SIGCHLD workaround.,fanquake,2025-05-02T10:03:54Z,2025-05-02T21:10:50+00:00,3,11.12,True,0,8,1,65,2,0,2,MERGED
+32400,random: Use modern Windows randomness functions,davidgumberg,2025-05-02T01:00:08Z,2025-05-22T11:13:05+00:00,13,490.22,True,12,11,4,785,13,2,15,MERGED
+32396,cmake: Add application manifests when cross-compiling for Windows,hebasto,2025-05-01T15:28:35Z,2025-05-16T08:19:18+00:00,27,352.85,True,74,2,8,1763,26,5,31,MERGED
+32389,doc: Fix test_bitcoin path,monlovesmango,2025-05-01T03:20:22Z,2025-05-01T09:21:38+00:00,1,6.02,True,2,2,1,318,3,0,3,MERGED
+32388,fuzz: Remove unused TimeoutExpired catch in fuzz runner,maflcko,2025-04-30T17:57:56Z,2025-05-07T10:52:19+00:00,2,160.91,True,15,18,1,2063,4,0,4,MERGED
+32386,mining: rename gbt_force and gbt_force_name,Sjors,2025-04-30T12:01:30Z,2025-05-13T20:43:13+00:00,3,320.7,True,14,13,5,475,8,0,8,MERGED
+32385,test: refactor out same-txid-diff-wtxid tx to reuse in other tests,stratospher,2025-04-30T08:15:12Z,2025-07-07T20:37:18+00:00,13,1644.37,True,59,42,2,317,5,7,12,MERGED
+32383,util: Remove `fsbridge::get_filesystem_error_message()`,hebasto,2025-04-30T00:18:29Z,2025-04-30T17:56:26+00:00,7,17.63,True,6,24,7,801,6,2,8,MERGED
+32381,policy: allow more than one OP_RETURN outputs per tx,darosior,2025-04-29T20:21:59Z,2025-04-30T19:12:08+00:00,1,22.84,False,7,14,3,779,21,1,22,CLOSED
+32379,p2p: stop special-casing witness-stripped error for unconfirmed transactions,darosior,2025-04-29T14:23:35Z,2025-09-11T13:50:51+00:00,4,3239.45,False,17,47,7,610,15,2,17,CLOSED
+32378,interfaces: refactor: move `Mining` and `BlockTemplate`  implementation to miner,ismaelsadeeq,2025-04-29T13:48:42Z,2025-05-14T19:57:44+00:00,17,366.15,True,174,132,3,1687,9,9,18,MERGED
+32369,test: Use the correct node for doubled keypath test,achow101,2025-04-28T21:56:22Z,2025-04-29T08:59:49+00:00,3,11.06,True,1,1,1,131,3,0,3,MERGED
+32365,descriptors: Reject + sign while parsing unsigned,maflcko,2025-04-28T15:18:52Z,2025-04-29T17:25:20+00:00,4,26.11,True,13,9,2,582,1,1,2,MERGED
+32364,refactor: validation: mark CheckBlockIndex as const,stickies-v,2025-04-28T14:51:21Z,2025-05-27T22:32:45+00:00,7,703.69,True,27,26,2,677,6,1,7,MERGED
+32363,ci: Use previous releases in tests on Windows,GarmashAlex,2025-04-28T13:51:30Z,2025-04-29T13:37:30+00:00,5,23.77,False,80,10,3,1210,6,11,17,CLOSED
+32360,test: Force named args for RPCOverloadWrapper optional args,maflcko,2025-04-28T08:41:02Z,2025-04-28T19:41:30+00:00,4,11.01,True,20,24,5,182,2,2,4,MERGED
+32359,Remove arbitrary limits on OP_Return (datacarrier) outputs,petertodd,2025-04-27T20:52:44Z,2025-05-12T15:19:05+00:00,25,354.44,False,93,197,30,623,204,13,217,CLOSED
+32358,subprocess: Backport upstream changes,hebasto,2025-04-27T16:21:44Z,2025-05-05T11:36:03+00:00,3,187.24,True,82,46,1,713,10,0,10,MERGED
+32357,depends: Fix cross-compiling `qt` package from macOS to Windows,hebasto,2025-04-26T17:03:05Z,2025-04-28T15:15:21+00:00,2,46.2,True,8,0,1,534,4,0,4,MERGED
+32356,cmake: Respect user-provided configuration-specific flags,hebasto,2025-04-26T11:46:04Z,2025-05-08T15:06:21+00:00,9,291.34,True,11,8,2,2230,13,5,18,MERGED
+32355,"Bugfix: Miner: Don't reuse block_reserved_weight for ""block is full enough to give up"" weight delta",luke-jr,2025-04-26T07:45:49Z,2025-04-29T22:51:24+00:00,2,87.09,True,2,1,1,933,3,0,3,MERGED
+32353,doc: Fix fuzz test_runner.py path,monlovesmango,2025-04-25T16:40:14Z,2025-04-27T15:16:48+00:00,2,46.61,True,1,1,1,184,5,0,5,MERGED
+32352,[29.x] qt: 29.1 translations update,hebasto,2025-04-25T14:21:58Z,2025-05-06T17:03:08+00:00,9,266.69,True,3501,10706,36,464,18,5,23,MERGED
+32351,test: avoid stack overflow in `FindChallenges` via manual iteration,l0rinc,2025-04-25T14:15:23Z,2025-04-29T22:29:49+00:00,7,104.24,True,23,22,1,1711,12,2,14,MERGED
+32350,test: Slim down previous releases bdb check,maflcko,2025-04-25T14:13:20Z,2025-04-28T19:56:37+00:00,3,77.72,True,11,46,2,293,3,2,5,MERGED
+32349,"test: Increase stack size for ""Debug"" builds with MSVC",hebasto,2025-04-25T12:42:34Z,2025-04-27T09:19:09+00:00,2,44.61,False,5,0,1,215,6,1,7,CLOSED
+32345,ipc: Handle unclean shutdowns better,ryanofsky,2025-04-24T20:58:23Z,2025-08-18T19:19:27+00:00,20,2782.35,True,1119,477,78,1548,26,10,36,MERGED
+32344,"Wallet:  Fix Non-Ranged Descriptors with Range [0,0] Trigger Unexpected Wallet Errors in AddWalletDescriptor",Eunovo,2025-04-24T19:22:43Z,2025-05-20T19:30:31+00:00,10,624.13,True,24,0,2,254,10,4,14,MERGED
+32343,common: Close non-std fds before exec in RunCommandJSON,laanwj,2025-04-24T19:01:44Z,2025-05-14T23:13:59+00:00,7,484.2,True,59,1,2,1139,26,3,29,MERGED
+32342,Fix missing error check in `set_clo_on_exec` for FD_CLOEXEC handling,tomasandroil,2025-04-24T18:00:30Z,2025-04-28T17:32:39+00:00,2,95.54,False,6,2,1,669,11,1,12,CLOSED
+32338,net: remove unnecessary check from AlreadyConnectedToAddress(),vasild,2025-04-24T14:36:50Z,2025-04-29T21:31:58+00:00,7,126.92,True,13,2,3,1087,8,1,9,MERGED
+32336,test: Suppress upstream `-Wduplicate-decl-specifier` in bpfcc,maflcko,2025-04-24T08:27:05Z,2025-04-24T10:03:12+00:00,2,1.6,True,46,26,6,245,4,0,4,MERGED
+32333,doc: Add missing top-level description to pruneblockchain RPC,nervana21,2025-04-24T04:18:55Z,2025-05-20T19:02:44+00:00,5,638.73,True,3,1,1,306,6,3,9,MERGED
+32332,refactor: Update `XOnlyPubKey::GetKeyIDs()` to return a pair of pubkeys,w0xlt,2025-04-23T23:19:07Z,2025-08-04T19:49:15+00:00,11,2468.5,False,13,10,2,324,4,6,10,CLOSED
+32329,Add rpcestimateconservativefees,juanmigdr,2025-04-23T11:19:19Z,2025-04-23T15:00:03+00:00,1,3.68,False,6,2,2,960,8,0,8,CLOSED
+32327,test: Add missing check for empty stderr in util tester,maflcko,2025-04-22T16:00:27Z,2025-04-28T21:43:56+00:00,3,149.72,True,8,7,1,249,2,0,2,MERGED
+32326,net: improve the interface around FindNode() and avoid a recursive mutex lock,vasild,2025-04-22T14:36:28Z,2025-10-01T21:17:36+00:00,43,3894.69,True,40,55,5,592,18,8,26,MERGED
+32325,ci: Add missing -Wno-error=array-bounds to valgrind fuzz,maflcko,2025-04-22T14:25:44Z,2025-04-22T16:02:45+00:00,1,1.62,True,1,0,1,251,1,0,1,MERGED
+32324,test: Treat executable paths in tests consistently,hebasto,2025-04-22T10:49:33Z,2025-06-18T15:43:04+00:00,1,1372.89,False,3,1,2,525,5,0,5,CLOSED
+32318,Fix failing util_time_GetTime test on Windows,VolodymyrBg,2025-04-21T15:51:03Z,2025-04-24T22:10:14+00:00,7,78.32,True,2,9,1,612,9,2,11,MERGED
+32312,test: Fix feature_pruning test after nTime typo fix,enirox001,2025-04-20T10:41:16Z,2025-05-13T20:30:58+00:00,2,561.83,True,3,3,1,1057,7,0,7,MERGED
+32310,test: Run all benchmarks in the sanity check,maflcko,2025-04-19T11:58:03Z,2025-04-23T09:16:12+00:00,3,93.3,True,2,2,1,184,9,0,9,MERGED
+32309,bench: close wallets after migration,l0rinc,2025-04-19T10:15:38Z,2025-04-22T16:42:43+00:00,18,78.45,True,13,15,2,2182,19,3,22,MERGED
+32308,ci: Drop no longer necessary `-Wno-error=array-bounds`,hebasto,2025-04-19T08:05:05Z,2025-04-22T12:13:19+00:00,1,76.14,True,1,1,1,305,1,0,1,MERGED
+32306,ci: Temporarily disable `WalletMigration` benchmark,hebasto,2025-04-18T21:47:31Z,2025-04-19T11:56:23+00:00,4,14.15,True,2,1,1,144,2,1,3,MERGED
+32305,test: add test for decoding PSBT with MuSig2 PSBT key types (BIP 373),theStack,2025-04-18T21:35:07Z,2025-05-14T20:19:32+00:00,6,622.74,True,82,0,2,311,5,4,9,MERGED
+32304,test: test MAX_SCRIPT_SIZE for block validity,instagibbs,2025-04-18T16:38:15Z,2025-05-29T21:31:47+00:00,5,988.89,True,32,2,2,48,8,1,9,MERGED
+32300,feefrac: avoid integer overflow in temporary,sipa,2025-04-17T17:59:43Z,2025-04-18T22:34:21+00:00,10,28.58,True,3,1,2,599,8,1,9,MERGED
+32299,[28.x] Backports,fanquake,2025-04-17T14:27:08Z,2025-05-13T13:02:36+00:00,2,622.59,True,56,25,11,39,2,0,2,MERGED
+32296,refactor: reenable `implicit-integer-sign-change` check for `serialize.h`,l0rinc,2025-04-17T13:15:34Z,2025-05-16T08:57:52+00:00,13,691.71,True,31,30,2,132,8,4,12,MERGED
+32293,doc: Add deps install notes for multiprocess,TheCharlatan,2025-04-17T12:48:42Z,2025-04-22T12:16:13+00:00,10,119.46,True,23,0,2,71,7,2,9,MERGED
+32292,[29.x] Backports,fanquake,2025-04-17T10:55:40Z,2025-05-22T11:05:25+00:00,2,840.16,True,137,320,22,160,7,1,8,MERGED
+32290,test: allow all functional tests to be run or skipped with --usecli,mzumsande,2025-04-16T20:50:54Z,2025-07-03T09:20:12+00:00,15,1860.49,True,110,98,42,1647,16,6,22,MERGED
+32289,doc: Add note for building on macOS (Intel) with CMake ≥ 4.0,hebasto,2025-04-16T16:23:00Z,2025-07-02T13:35:59+00:00,2,1845.22,False,2,0,1,389,7,1,8,CLOSED
+32288,ci: drop -priority-level from bench in win cross CI,fanquake,2025-04-16T15:32:26Z,2025-04-17T10:34:42+00:00,10,19.04,True,1,1,1,77,4,1,5,MERGED
+32287,build: Fix `macdeployqtplus` after switching to Qt 6,hebasto,2025-04-16T12:39:33Z,2025-05-06T17:10:28+00:00,7,484.52,True,11,10,2,7968,1,2,3,MERGED
+32286,test: Handle empty string returned by CLI as None in RPC tests,BrandonOdiwuor,2025-04-16T11:26:28Z,2025-04-16T23:17:40+00:00,3,11.85,True,2,0,1,337,4,1,5,MERGED
+32282,torcontrol: Fix addrOnion outdated comment,eval-exec,2025-04-16T05:18:02Z,2025-04-18T22:05:17+00:00,4,64.79,True,3,3,1,74,2,1,3,MERGED
+32281,bench: Fix WalletMigration benchmark,pablomartin4btc,2025-04-15T22:22:30Z,2025-04-17T08:43:50+00:00,7,34.36,True,3,0,1,132,5,4,9,MERGED
+32279,[IBD] prevector: store `P2WSH`/`P2TR`/`P2PK` scripts inline,l0rinc,2025-04-15T16:20:13Z,2025-07-28T18:56:13+00:00,23,2498.6,True,131,28,6,9986,18,10,28,MERGED
+32273,wallet: Fix relative path backup during migration.,davidgumberg,2025-04-15T03:32:24Z,2025-07-29T18:16:10+00:00,35,2534.73,True,182,19,2,3853,22,22,44,MERGED
+32272,[doc] archive 29.0 release notes,glozow,2025-04-15T00:59:35Z,2025-04-15T10:08:02+00:00,1,9.14,True,261,0,1,0,3,0,3,MERGED
+32271,doc: Document WITH_EXTERNAL_LIBMULTIPROCESS build option better,ryanofsky,2025-04-14T20:35:38Z,2025-04-17T10:41:10+00:00,2,62.09,True,5,1,2,136,2,0,2,MERGED
+32270,test: fix pushdata scripts,instagibbs,2025-04-14T19:11:54Z,2025-05-27T10:59:36+00:00,8,1023.79,True,5,5,1,128,4,4,8,MERGED
+32269,doc: update unix build doc with build flags,bufo24,2025-04-14T18:33:48Z,2025-07-29T10:59:06+00:00,5,2536.42,False,7,7,1,227,7,2,9,CLOSED
+32263,cluster mempool: add TxGraph work controls,sipa,2025-04-13T21:29:19Z,2025-07-29T13:07:27+00:00,18,2559.64,True,183,55,9,918,9,16,25,MERGED
+32250,ci: Slim down lint image,maflcko,2025-04-11T14:36:16Z,2025-04-17T10:34:18+00:00,9,139.97,True,6,19,7,247,8,6,14,MERGED
+32245,doc: Updates how to reproduce fuzz CI failure locally,sr-gi,2025-04-10T14:20:54Z,2025-04-11T20:35:22+00:00,4,30.24,True,7,0,1,198,9,1,10,MERGED
+32243,test: added fuzz coverage for consensus/merkle.cpp,kevkevinpal,2025-04-10T03:16:54Z,2025-06-27T20:34:41+00:00,25,1889.3,True,93,0,2,178,14,9,23,MERGED
+32242,guix: Remove unused `file` package,hebasto,2025-04-09T15:24:12Z,2025-04-25T09:54:35+00:00,3,378.51,True,1,4,2,4614,12,0,12,MERGED
+32241,[29.x] 29.0 final changes,glozow,2025-04-09T15:16:17Z,2025-04-11T14:55:56+00:00,12,47.66,True,291,26,8,92,5,3,8,MERGED
+32240,feefrac test: avoid integer overflow (bugfix),sipa,2025-04-08T19:20:59Z,2025-04-09T18:27:24+00:00,3,23.11,True,3,3,1,351,5,0,5,MERGED
+32238,"qt, wallet: Convert uint256 to Txid",marcofleon,2025-04-08T15:17:40Z,2025-05-16T07:54:50+00:00,16,904.62,True,155,150,28,127,16,11,27,MERGED
+32237,qt: Update SetHexDeprecated to FromHex,marcofleon,2025-04-08T15:10:41Z,2025-04-10T11:30:29+00:00,9,44.33,True,26,61,5,682,6,5,11,MERGED
+32226,ci: switch to LLVM 20 in tidy job,fanquake,2025-04-06T00:00:39Z,2025-04-23T12:36:05+00:00,3,420.59,True,17,17,12,34,10,5,15,MERGED
+32219,test: enabling wallet migration functional test on windows,m3dwards,2025-04-04T14:49:03Z,2025-07-01T20:59:04+00:00,31,2118.17,True,202,174,7,1116,8,15,23,MERGED
+32218,ci: Merge master in test-each-commit task (take 2),maflcko,2025-04-04T06:42:52Z,2025-04-06T09:25:34+00:00,18,50.71,True,4,8,2,203,7,4,11,MERGED
+32216,bench: Match ConnectBlock tx output counts,monlovesmango,2025-04-03T17:37:33Z,2025-04-08T21:15:07+00:00,8,123.63,True,5,11,1,394,8,1,9,MERGED
+32215,depends: Fix cross-compiling on macOS,hebasto,2025-04-03T14:13:24Z,2025-04-25T09:15:12+00:00,3,523.03,True,5,1,1,146,6,1,7,MERGED
+32214,test: Remove fragile and ancient release 0.17 wallet test,maflcko,2025-04-03T10:53:22Z,2025-04-08T21:03:53+00:00,6,130.18,True,28,76,1,5749,4,1,5,MERGED
+32213,msvc: Update vcpkg manifest,hebasto,2025-04-03T09:28:28Z,2025-04-19T10:12:48+00:00,1,384.74,True,13,3,1,426,2,0,2,MERGED
+32212,test: Remove confusing and failing system time test,maflcko,2025-04-03T09:18:57Z,2025-04-07T10:47:36+00:00,3,97.48,True,2,6,1,830,3,0,3,MERGED
+32211,doc: Amend Qt 6 dependency packages for Ubuntu,hebasto,2025-04-03T09:12:24Z,2025-04-03T10:54:36+00:00,1,1.7,True,1,1,1,233,3,0,3,MERGED
+32209,test: Preserve llvm profile path,Prabhat1308,2025-04-03T06:48:48Z,2025-04-04T07:43:00+00:00,5,24.9,True,1,5,1,243,7,3,10,MERGED
+32206,doc: Add fuzz based coverage report generation,Prabhat1308,2025-04-02T18:58:43Z,2025-04-08T21:27:03+00:00,13,146.47,True,41,0,1,123,8,5,13,MERGED
+32203,ci: Merge master in test-each-commit task,maflcko,2025-04-02T16:49:46Z,2025-04-04T06:19:59+00:00,2,37.5,True,28,2,2,434,10,0,10,MERGED
+32200,net: Add Tor extended SOCKS5 error codes,laanwj,2025-04-02T10:52:09Z,2025-04-08T20:57:50+00:00,1,154.09,True,35,11,1,747,3,0,3,MERGED
+32199,util: Ensure UninterruptibleSleep does not return too early,maflcko,2025-04-02T09:35:17Z,2025-04-07T10:56:17+00:00,1,121.35,False,7,1,1,479,7,0,7,CLOSED
+32198,fuzz: Make p2p_headers_presync more deterministic,maflcko,2025-04-02T08:14:59Z,2025-04-10T15:08:42+00:00,5,198.9,True,71,20,10,561,31,0,31,MERGED
+32193,test: fix spelling in Python code comment,jbampton,2025-04-01T21:25:26Z,2025-04-02T01:49:29+00:00,1,4.4,True,1,1,1,23,1,0,1,MERGED
+32191,Make TxGraph fuzz tests more deterministic,sipa,2025-04-01T20:36:52Z,2025-04-17T17:51:49+00:00,13,381.25,True,102,76,2,654,9,7,16,MERGED
+32190,test: added coverage to bitcoin-chainstate testing invalid block header,kevkevinpal,2025-04-01T19:42:37Z,2025-04-02T13:59:11+00:00,3,18.28,False,1,0,1,345,3,0,3,CLOSED
+32189,refactor: Txid type safety (parent PR),marcofleon,2025-04-01T18:47:14Z,2025-08-01T13:59:05+00:00,2,2923.2,False,485,437,67,894,5,1,6,CLOSED
+32187,refactor: Remove spurious virtual from final ~CZMQNotificationInterface,maflcko,2025-04-01T16:51:46Z,2025-04-02T01:56:15+00:00,3,9.07,True,2,2,1,535,7,0,7,MERGED
+32186,descriptor: handle listdescriptors(private=true) for descriptors having partial keys,rkrux,2025-04-01T14:28:45Z,2025-05-05T11:43:40+00:00,2,813.25,False,75,7,2,315,12,1,13,CLOSED
+32185,coins: replace manual `CDBBatch` size estimation with LevelDB's native `ApproximateSize`,l0rinc,2025-04-01T14:06:11Z,2025-04-08T20:20:07+00:00,8,174.23,True,18,24,3,1067,5,3,8,MERGED
+32184,ci: Add workaround for vcpkg's `libevent` package,hebasto,2025-04-01T14:05:01Z,2025-04-01T21:27:48+00:00,1,7.38,True,2,2,1,134,13,0,13,MERGED
+32183,tests: Improve stderr validation in test_runner.py,GarmashAlex,2025-04-01T09:54:34Z,2025-04-22T16:03:41+00:00,4,510.15,False,6,2,1,947,2,2,4,CLOSED
+32181,BIP-777 (GPR) The Great Poker Restoration: Add the poker client back to bitcoin,stutxo,2025-04-01T06:13:04Z,2025-04-02T05:21:35+00:00,5,23.14,False,888,0,11,648,30,1,31,CLOSED
+32177,TxGraph: Increase fuzz coverage,instagibbs,2025-03-31T17:17:16Z,2025-04-03T01:51:38+00:00,3,56.57,True,11,9,2,1313,2,1,3,MERGED
+32176,net: Prevent accidental circuit sharing when using Tor stream isolation,laanwj,2025-03-31T16:23:33Z,2025-04-10T16:42:44+00:00,22,240.32,True,55,19,8,646,3,11,14,MERGED
+32175,fuzz: doc: add info about `afl-system-config` for macOS,brunoerg,2025-03-31T16:17:45Z,2025-06-13T13:00:14+00:00,6,1772.71,True,2,0,1,381,5,1,6,MERGED
+32168,doc/descriptors.md: Update next halvening heights,katesalazar,2025-03-30T12:39:34Z,2025-04-11T06:01:51+00:00,4,281.37,False,1,1,1,55,3,1,4,CLOSED
+32166,torcontrol: Define tor reply code as const to improve our maintainability,eval-exec,2025-03-30T11:00:57Z,2025-04-01T17:16:35+00:00,20,54.26,True,15,8,1,175,4,5,9,MERGED
+32161,Fix legacy migration bug,olaristo109,2025-03-28T20:12:16Z,2025-03-29T00:53:44+00:00,2,4.69,False,32,2,2,787,4,2,6,CLOSED
+32159,"net, pcp: handle multi-part responses and filter for default route while querying default gateway",willcl-ark,2025-03-28T14:11:46Z,2025-09-04T10:06:54+00:00,19,3835.92,True,62,31,1,644,19,9,28,MERGED
+32158,fuzz: Make partially_downloaded_block more deterministic,maflcko,2025-03-28T14:04:45Z,2025-04-02T05:22:07+00:00,34,111.29,True,89,30,3,1583,5,9,14,MERGED
+32155,miner: timelock the coinbase to the mined block's height,darosior,2025-03-27T19:30:36Z,2025-05-09T22:09:47+00:00,36,1034.65,True,88,58,21,1182,17,14,31,MERGED
+32154,fuzz: Avoid integer sanitizer warnings in policy_estimator target,maflcko,2025-03-27T11:16:31Z,2025-04-17T12:34:58+00:00,2,505.31,True,16,11,4,425,1,0,1,MERGED
+32153,wallet: remove redundant `Assert` call when block is disconnected,rkrux,2025-03-27T10:54:05Z,2025-03-28T15:14:48+00:00,4,28.35,True,1,1,1,294,2,1,3,MERGED
+32151,Follow-ups for txgraph #31363,sipa,2025-03-27T03:02:18Z,2025-03-28T02:32:52+00:00,8,23.51,True,54,38,5,274,2,4,6,MERGED
+32149,"wallet, migration: Fix empty wallet crash",pablomartin4btc,2025-03-27T02:32:08Z,2025-04-10T00:51:05+00:00,42,334.32,True,51,20,5,368,20,21,41,MERGED
+32145,test: Add functional test for bitcoin-chainstate,TheCharlatan,2025-03-26T09:42:30Z,2025-03-27T15:02:10+00:00,7,29.33,True,67,1,5,413,5,4,9,MERGED
+32144,lint: Remove needless borrow to fix Clippy warning,strmfos,2025-03-26T07:09:46Z,2025-03-27T07:00:21+00:00,1,23.84,True,1,1,1,372,5,0,5,MERGED
+32141,fuzz: extract unsequenced operations with side-effects,l0rinc,2025-03-25T20:35:56Z,2025-03-27T07:37:43+00:00,3,35.03,True,2,1,1,1942,7,0,7,MERGED
+32139,test: remove strict restrictions on rpc_deprecated test,polespinasa,2025-03-25T18:43:49Z,2025-04-08T19:41:59+00:00,13,336.97,True,8,6,1,416,2,2,4,MERGED
+32136,[29.x] backports and 29.0rc3,glozow,2025-03-25T14:36:10Z,2025-04-01T11:59:54+00:00,2,165.4,True,49,45,14,85,1,0,1,MERGED
+32134,descriptors: Multipath/PR 22838 follow-ups,hodlinator,2025-03-25T08:10:46Z,2025-03-31T20:08:25+00:00,19,155.96,True,19,15,2,645,6,11,17,MERGED
+32132,build: Remove bitness suffix from Windows installer,hebasto,2025-03-24T14:20:10Z,2025-03-27T07:23:43+00:00,4,65.06,True,1,1,1,85,8,1,9,MERGED
+32129,doc: Update comments for AreInputsStandard to match code,ajtowns,2025-03-24T09:09:39Z,2025-03-27T07:46:13+00:00,3,70.61,True,11,13,1,531,3,1,4,MERGED
+32128,Draft: CCoinMap Experiments,martinus,2025-03-24T06:02:30Z,2025-08-31T12:14:31+00:00,11,3846.2,False,111,31,9,2138,7,5,12,CLOSED
+32123,wallet: make coinbase that will mature on the next block available for selection,luisschwab,2025-03-22T21:31:52Z,2025-07-23T01:53:30+00:00,2,2932.36,False,71,49,14,923,11,1,12,CLOSED
+32122,fuzz: Fix off-by-one in package_rbf target,maflcko,2025-03-22T06:41:21Z,2025-03-25T20:57:51+00:00,6,86.28,True,7,8,1,405,8,1,9,MERGED
+32118,fuzz: wallet: fix crypter target,brunoerg,2025-03-21T21:37:58Z,2025-04-02T05:18:06+00:00,3,271.67,True,13,12,1,321,3,1,4,MERGED
+32117,qa: make feature_assumeutxo.py test more robust,darosior,2025-03-21T21:29:14Z,2025-05-15T13:20:08+00:00,2,1311.85,False,14,1,1,1829,12,2,14,CLOSED
+32115,Rust tool to import bip39 mnemonic,Sjors,2025-03-21T16:47:00Z,2025-03-24T10:22:49+00:00,6,65.6,False,382,0,4,1786,6,2,8,CLOSED
+32114,test: Add encodable PUSHDATA1 examples to feature_taproot,instagibbs,2025-03-21T16:07:02Z,2025-04-08T19:09:03+00:00,25,435.03,True,46,3,1,310,7,6,13,MERGED
+32113,fuzz: enable running fuzz test cases in Debug mode,ajtowns,2025-03-21T15:37:24Z,2025-04-23T02:01:12+00:00,12,778.4,True,79,16,7,459,18,3,21,MERGED
+32110,contrib: document asmap-tool commands more thoroughly,jurraca,2025-03-21T10:20:43Z,2025-04-01T16:43:29+00:00,25,270.38,True,71,0,1,613,12,12,24,MERGED
+32104,refactor: Enforces Txid and Wtxid types in RelayTransaction,sr-gi,2025-03-20T15:12:30Z,2025-04-10T15:54:38+00:00,6,504.7,False,13,14,3,324,5,1,6,CLOSED
+32103,ci: run test-each-commit on merge to master,willcl-ark,2025-03-20T13:13:27Z,2025-04-02T17:21:10+00:00,1,316.13,False,3,4,1,575,8,1,9,CLOSED
+32101,Accept unordered tracepoints in interface_usdt_utxocache.py,willcl-ark,2025-03-20T12:48:34Z,2025-03-27T07:51:05+00:00,4,163.04,True,22,11,1,451,3,1,4,MERGED
+32100,doc: clarify the documentation of `Assume` assertion,ismaelsadeeq,2025-03-20T11:20:59Z,2025-03-27T07:52:28+00:00,22,164.52,True,4,1,1,217,15,4,19,MERGED
+32096,Move some tests and documentation from testnet3 to testnet4,Sjors,2025-03-19T09:14:36Z,2025-04-01T15:54:52+00:00,10,318.67,True,58,62,6,287,11,5,16,MERGED
+32092,test: Fix intermittent issue in p2p_orphan_handling.py,maflcko,2025-03-18T16:30:55Z,2025-03-21T05:46:23+00:00,3,61.26,True,3,1,2,304,2,1,3,MERGED
+32091,test: replace assert with assert_equal and assert_greater_than,Chand-ra,2025-03-18T12:47:29Z,2025-03-20T04:59:46+00:00,8,40.2,True,12,12,1,237,4,1,5,MERGED
+32088,test: switch wallet_crosschain.py to signet and drop testnet4,Sjors,2025-03-18T08:30:20Z,2025-03-18T23:39:37+00:00,2,15.15,True,6,32,1,217,4,1,5,MERGED
+32086,Shuffle depends instructions and recommend modern make for macOS,Sjors,2025-03-17T12:37:07Z,2025-05-06T17:06:46+00:00,27,1204.49,True,90,67,1,1075,10,6,16,MERGED
+32084,doc: document workaround and fallback for macOS fuzzing,l0rinc,2025-03-17T12:18:38Z,2025-05-13T21:16:24+00:00,15,1376.96,False,56,18,1,612,23,4,27,CLOSED
+32081,depends: patch Qt rounding bugs,fanquake,2025-03-17T08:14:35Z,2025-04-02T06:43:44+00:00,1,382.49,False,102,0,2,602,4,0,4,CLOSED
+32079,test: Add test coverage for rpcwhitelistdefault when unset,naiyoma,2025-03-16T13:53:06Z,2025-04-16T23:24:03+00:00,9,753.52,True,23,25,1,426,6,1,7,MERGED
+32074,contrib: Make deterministic-coverage error messages more readable,maflcko,2025-03-15T08:07:31Z,2025-03-22T03:12:31+00:00,10,163.08,True,167,115,3,393,3,7,10,MERGED
+32073,net: Block v2->v1 transport downgrade if !fNetworkActive,hodlinator,2025-03-14T21:30:57Z,2025-03-24T20:54:48+00:00,6,239.4,True,3,2,1,281,7,1,8,MERGED
+32071,build: Drop option to disable hardening.,davidgumberg,2025-03-14T18:57:00Z,2025-04-28T12:32:26+00:00,18,1073.59,True,57,52,2,981,13,3,16,MERGED
+32070,build: use make < 3.82 syntax for define directive,Sjors,2025-03-14T15:15:51Z,2025-03-16T09:22:26+00:00,1,42.11,True,2,2,2,329,11,0,11,MERGED
+32064,build: Remove manpages when making MacOS app,achow101,2025-03-14T01:09:09Z,2025-03-14T03:14:07+00:00,2,2.08,True,1,0,1,348,4,0,4,MERGED
+32062,[29.x] backports and rc2,glozow,2025-03-13T21:10:43Z,2025-03-18T00:38:25+00:00,2,99.46,True,130,55,16,67,7,0,7,MERGED
+32060,test: Add support for mainnet addresses in address_to_scriptpubkey,VolodymyrBg,2025-03-13T17:11:06Z,2025-04-11T06:05:05+00:00,5,684.9,False,13,2,1,382,12,2,14,CLOSED
+32059,test: Update coverage.cpp to drop linux restriction,janb84,2025-03-13T17:05:59Z,2025-03-18T07:22:52+00:00,12,110.28,True,10,11,1,846,14,5,19,MERGED
+32058,test: get rid of redundant TODO tag,Chand-ra,2025-03-13T13:28:11Z,2025-03-28T02:08:03+00:00,5,348.66,True,1,1,1,257,5,2,7,MERGED
+32057,test: avoid disk space warning for non-regtest,Sjors,2025-03-13T12:35:47Z,2025-03-18T23:22:15+00:00,2,130.77,True,10,16,2,380,8,1,9,MERGED
+32050,test: avoid treating hash results as integers,theStack,2025-03-13T00:37:03Z,2025-03-27T14:30:51+00:00,8,349.9,True,22,28,5,1571,9,4,13,MERGED
+32049,contrib: Fix `gen-bitcoin-conf.sh`,davidgumberg,2025-03-12T22:00:22Z,2025-03-13T20:58:57+00:00,3,22.98,True,2,1,1,363,3,0,3,MERGED
+32046,[29.x] bump to v29.0rc1,glozow,2025-03-12T18:28:31Z,2025-03-13T03:49:33+00:00,2,9.35,True,2882,23,9,123,9,0,9,MERGED
+32044,"ci: Revert ""Temporary workaround for old CCACHE_DIR cirrus env""",maflcko,2025-03-12T16:46:45Z,2025-03-13T01:00:13+00:00,1,8.22,True,0,5,1,182,1,0,1,MERGED
+32038,depends: remove `NO_HARDEN` option,fanquake,2025-03-12T12:06:11Z,2025-03-14T03:02:26+00:00,1,38.94,True,4,21,5,192,7,0,7,MERGED
+32036,docs: fix grammatical typos in documentation files,VolodymyrBg,2025-03-11T20:57:06Z,2025-03-12T01:22:52+00:00,1,4.43,False,6,6,6,114,3,1,4,CLOSED
+32033,test: Check datadir cleanup after assumeutxo was successful,fjahr,2025-03-11T13:45:36Z,2025-03-17T13:44:29+00:00,11,143.98,True,21,2,1,151,6,4,10,MERGED
+32028,Update `secp256k1` subtree to latest master,hebasto,2025-03-10T17:37:09Z,2025-05-13T15:39:29+00:00,1,1534.04,True,11168,409,49,752,13,0,13,MERGED
+32027,cmake: Add `NO_CACHE_IF_FAILED` option for checking linker flags,hebasto,2025-03-10T16:57:38Z,2025-03-27T07:44:34+00:00,1,398.78,True,6,1,2,263,4,0,4,MERGED
+32025,"validation, fix: Use wtxid instead of txid in `CheckEphemeralSpends`",marcofleon,2025-03-10T15:17:24Z,2025-03-12T11:58:10+00:00,6,44.68,True,80,79,7,495,7,2,9,MERGED
+32023,wallet: removed duplicate call to GetDescriptorScriptPubKeyMan,saikiran57,2025-03-10T09:53:52Z,2025-04-23T20:52:03+00:00,12,1066.97,True,45,29,12,1138,17,11,28,MERGED
+32022,docs: remove repetitive words,RiceChuan,2025-03-10T03:57:24Z,2025-03-10T07:35:13+00:00,1,3.63,False,1,1,1,29,2,0,2,CLOSED
+32021,qa: Enable feature_init.py on Windows,hodlinator,2025-03-08T21:33:02Z,2025-03-12T11:27:26+00:00,4,85.91,True,18,12,1,226,2,1,3,MERGED
+32020,Improve Clarity of Commentary by Removing Redundant Word,abguermez,2025-03-08T03:19:41Z,2025-03-08T04:41:10+00:00,1,1.36,False,1,1,1,164,3,0,3,CLOSED
+32019,cmake: Check for `makensis` and `zip` tools before using them for optional `deploy` targets,hebasto,2025-03-07T16:23:34Z,2025-03-18T09:10:49+00:00,12,256.79,True,26,12,2,998,17,1,18,MERGED
+32017,doc: warn against having qt6 installed on macOS,Sjors,2025-03-07T10:02:52Z,2025-03-08T11:30:15+00:00,1,25.46,True,2,0,1,44,2,0,2,MERGED
+32014,ci: Do not try to install for fuzz builds,hebasto,2025-03-07T08:06:00Z,2025-03-07T14:08:30+00:00,4,6.04,True,2,2,2,113,4,1,5,MERGED
+32011,Docs: fix typos in documentation files,wgyt,2025-03-07T02:11:41Z,2025-03-09T16:44:54+00:00,7,62.55,True,8,8,6,0,5,2,7,MERGED
+32010,qa: Fix TxIndex race conditions,hodlinator,2025-03-06T23:08:57Z,2025-03-17T02:28:37+00:00,16,243.33,True,31,9,6,344,6,7,13,MERGED
+32006,docs: remove passing CI section in guidelines for PR merging as it's common sense,suiyuan1314,2025-03-06T02:22:06Z,2025-04-22T18:10:17+00:00,16,1143.8,False,1,10,2,76,11,6,17,CLOSED
+32004,qt: 29.0 translations update,hebasto,2025-03-05T23:21:15Z,2025-03-12T01:20:41+00:00,18,145.99,True,17573,4113,104,1043,15,10,25,MERGED
+32003,doc: remove note about macOS self-signing,fanquake,2025-03-05T17:21:59Z,2025-03-06T18:00:35+00:00,1,24.64,True,0,7,1,19,4,0,4,MERGED
+32002,doc: add note to Windows build about stripping bins,fanquake,2025-03-05T16:54:44Z,2025-03-08T11:44:06+00:00,9,66.82,True,12,3,1,328,1,5,6,MERGED
+32000,Update minisketch subtree to d1e6bb8bbf8ef104b9dd002cab14a71b91061177,fanquake,2025-03-05T15:39:03Z,2025-03-07T12:38:12+00:00,1,44.99,True,3,3,2,37,1,0,1,MERGED
+31998,depends: patch around PlacementNew issue in capnp,fanquake,2025-03-05T15:13:02Z,2025-03-13T00:52:47+00:00,4,177.66,True,76,0,2,209,1,1,2,MERGED
+31996,doc: link to benchcoin over bitcoinperf,fanquake,2025-03-05T13:59:44Z,2025-03-08T10:47:18+00:00,2,68.79,True,1,3,1,144,2,0,2,MERGED
+31992,"cmake: Avoid fuzzer ""multiple definition of `main'"" errors",ryanofsky,2025-03-04T22:51:18Z,2025-03-29T10:10:06+00:00,4,587.31,True,25,5,2,1682,14,2,16,MERGED
+31991,"RFC: Add `operator""""_uint256` compile-time user-defined literal",l0rinc,2025-03-04T21:02:10Z,2025-03-14T14:37:15+00:00,10,233.58,False,60,42,3,1156,3,3,6,CLOSED
+31987,"wallet: Replace ""non-0"" with ""non-zero"" in translatable error message",hebasto,2025-03-04T16:31:10Z,2025-03-12T19:32:29+00:00,5,195.02,True,2,2,2,265,8,1,9,MERGED
+31985,doc: Bring reduce-memory.md up to date,laanwj,2025-03-04T14:29:20Z,2025-03-04T19:36:29+00:00,4,5.12,True,2,2,1,175,6,0,6,MERGED
+31983,build: don't show ccache summary with MSVC,fanquake,2025-03-04T11:47:57Z,2025-03-05T09:54:33+00:00,3,22.11,True,2,0,1,97,3,1,4,MERGED
+31982,scripted-diff: rename libmultiprocess repository,fanquake,2025-03-04T11:33:49Z,2025-03-05T14:24:18+00:00,1,26.84,True,7,7,3,69,6,0,6,MERGED
+31981,Add checkBlock() to Mining interface,Sjors,2025-03-04T11:04:38Z,2025-06-19T00:07:42+00:00,44,2557.05,True,493,229,16,1736,20,14,34,MERGED
+31979,torcontrol: Limit reconnect timeout to max seconds and log delay in whole seconds,eval-exec,2025-03-04T09:01:32Z,2025-03-21T07:34:36+00:00,6,406.55,True,8,3,1,383,8,2,10,MERGED
+31978,kernel: pre-29.x chainparams and headerssync update,glozow,2025-03-03T21:13:41Z,2025-03-06T10:23:09+00:00,23,61.16,True,34,34,3,74,9,6,15,MERGED
+31977,test: Use rpc_deprecated only for testing deprecation,fjahr,2025-03-03T21:05:48Z,2025-03-16T08:59:52+00:00,15,299.9,True,11,11,1,601,4,7,11,MERGED
+31973,torcontrol: Add comment explaining Proxy credential randomization for Tor privacy,eval-exec,2025-03-03T15:28:07Z,2025-03-30T11:26:16+00:00,8,643.97,False,5,1,1,380,5,2,7,CLOSED
+31969,"Add mainnet assumeutxo param at height 880,000",Sjors,2025-03-01T16:02:26Z,2025-03-04T19:15:09+00:00,5,75.21,True,6,0,1,904,13,2,15,MERGED
+31961,Require sqlite when building the wallet,Sjors,2025-02-27T20:29:36Z,2025-03-14T03:23:43+00:00,15,342.9,True,34,143,40,283,23,5,28,MERGED
+31960,"seeds: add signet/testnet4, update makeseeds regex, minblocks, fixed seeds",jonatack,2025-02-27T18:26:25Z,2025-03-11T13:59:11+00:00,31,283.55,True,4070,3731,10,4186,17,12,29,MERGED
+31958,"rpc: add cli examples, update docs",rkrux,2025-02-27T12:24:25Z,2025-04-16T20:13:28+00:00,5,1159.82,True,10,6,2,642,8,1,9,MERGED
+31955,test: Fix authproxy named args debug logging,maflcko,2025-02-25T21:46:30Z,2025-03-12T01:43:44+00:00,5,339.95,True,10,5,1,386,6,3,9,MERGED
+31954,doc: update fuzz instructions when on macOS,m3dwards,2025-02-25T20:45:21Z,2025-03-05T14:31:31+00:00,20,185.77,True,5,2,1,130,6,8,14,MERGED
+31953,rpc: Allow fullrbf fee bump in (psbt)bumpfee,maflcko,2025-02-25T16:12:39Z,2025-04-21T20:26:27+00:00,16,1324.23,True,35,19,6,248,5,9,14,MERGED
+31948,ci: [lint] Use Cirrus dockerfile cache,maflcko,2025-02-25T12:12:34Z,2025-03-18T03:42:49+00:00,1,495.5,True,17,9,3,363,2,0,2,MERGED
+31945,depends: Update libmultiprocess library to fix CI failures,ryanofsky,2025-02-24T12:57:42Z,2025-02-25T14:47:09+00:00,2,25.82,True,2,2,1,1979,1,0,1,MERGED
+31943,test: add coverage for abandoning unconfirmed transaction,rkrux,2025-02-24T10:20:38Z,2025-02-26T14:36:43+00:00,2,52.27,True,4,0,1,141,7,0,7,MERGED
+31940,Add assumeutxo chainparams to release-process.md,willcl-ark,2025-02-23T17:10:41Z,2025-03-04T19:45:23+00:00,15,218.58,True,2,0,1,230,5,4,9,MERGED
+31936,rpc: Support v3 raw transactions creation,Bue-von-hon,2025-02-22T07:30:15Z,2025-07-14T14:51:21+00:00,28,3415.35,False,36,9,9,113,30,15,45,CLOSED
+31933,doc: Add Clang/LLVM based coverage report generation,Prabhat1308,2025-02-22T02:20:50Z,2025-04-02T06:15:18+00:00,53,939.91,True,59,0,1,226,18,31,49,MERGED
+31930,doc: Update translation generation instructions,pablomartin4btc,2025-02-21T18:53:48Z,2025-02-27T14:05:35+00:00,2,139.2,True,1,1,1,272,4,0,4,MERGED
+31928,ci: Fix filtering out Qt-generated files from `compile_commands.json`,hebasto,2025-02-21T13:32:36Z,2025-02-21T15:57:48+00:00,1,2.42,True,6,4,1,228,2,0,2,MERGED
+31925,contrib: update `utxo_to_sqlite` tool documentation and comment,rkrux,2025-02-21T11:30:03Z,2025-02-21T16:02:45+00:00,1,4.54,True,2,2,1,160,1,0,1,MERGED
+31923,refactor: use original log string when no suspicious chars found,l0rinc,2025-02-21T10:55:47Z,2025-04-17T20:09:18+00:00,2,1329.23,False,13,7,1,1267,12,1,13,CLOSED
+31918,fuzz: add basic TxOrphanage::EraseForBlock cov,instagibbs,2025-02-20T19:07:49Z,2025-02-21T16:05:22+00:00,3,20.96,True,18,0,1,19,1,1,2,MERGED
+31917,fuzz: provide more realistic values to the base58(check) decoders,l0rinc,2025-02-20T16:23:37Z,2025-03-16T09:03:05+00:00,12,568.66,True,25,26,1,498,6,5,11,MERGED
+31916,init: Handle dropped UPnP support more gracefully,laanwj,2025-02-20T16:08:30Z,2025-03-04T00:40:46+00:00,27,272.54,True,26,6,1,650,26,10,36,MERGED
+31910,qa: fix an off-by-one in utxo snapshot fuzz target and sanity check its snapshot data,darosior,2025-02-19T21:18:06Z,2025-03-21T08:47:00+00:00,15,707.48,True,42,3,4,456,4,3,7,MERGED
+31908,Revert merge of PR #31826,darosior,2025-02-19T15:33:09Z,2025-02-19T18:03:38+00:00,3,2.51,True,11,34,1,360,21,0,21,MERGED
+31907,qa: clarify and document one assumeutxo test case with malleated snapshot,darosior,2025-02-19T15:11:15Z,2025-03-13T20:35:33+00:00,18,533.4,True,110,2,4,556,13,7,20,MERGED
+31906,ci: Switch to gcr.io mirror to avoid rate limits,maflcko,2025-02-19T14:56:35Z,2025-02-20T18:42:25+00:00,1,27.76,True,17,17,17,368,5,1,6,MERGED
+31904,refactor: modernize outdated trait patterns using helper aliases (C++14/C++17),l0rinc,2025-02-19T13:31:31Z,2025-03-17T05:10:31+00:00,8,615.65,True,47,47,21,1275,10,3,13,MERGED
+31901,contrib: Add deterministic-unittest-coverage,maflcko,2025-02-18T20:30:25Z,2025-03-13T04:30:41+00:00,27,536.0,True,227,195,13,1009,16,11,27,MERGED
+31900,Fix field name styling in `submitpackage` RPC results,tnull,2025-02-18T19:40:05Z,2025-02-19T15:43:28+00:00,3,20.06,False,162,162,19,227,7,1,8,CLOSED
+31899,cmake: Exclude generated sources from translation,hebasto,2025-02-18T17:22:11Z,2025-02-19T21:11:27+00:00,2,27.82,True,7,2,1,983,2,0,2,MERGED
+31897,mining: drop unused  -nFees and sigops from CBlockTemplate,Sjors,2025-02-18T15:35:24Z,2025-03-25T12:42:51+00:00,13,837.12,True,64,7,5,398,12,4,16,MERGED
+31896,refactor: Remove redundant and confusing calls to IsArgSet,maflcko,2025-02-18T15:25:45Z,2025-03-27T07:33:20+00:00,13,880.13,True,42,45,5,489,8,5,13,MERGED
+31895,doc: Improve `dependencies.md`,NicolaLS,2025-02-18T13:29:23Z,2025-05-15T15:58:40+00:00,31,2066.49,True,32,19,1,534,8,8,16,MERGED
+31893,test: remove scanning check on `wallet_importdescriptors`,brunoerg,2025-02-17T21:41:24Z,2025-02-18T15:15:01+00:00,3,17.56,True,0,8,1,68,3,0,3,MERGED
+31892,build: remove ENABLE_HARDENING condition from check-security,fanquake,2025-02-17T17:13:11Z,2025-02-18T15:37:35+00:00,3,22.41,True,5,9,1,191,14,0,14,MERGED
+31891,refactor: remove redundant `for` constructs,yancyribbens,2025-02-17T17:05:46Z,2025-02-18T14:29:57+00:00,1,21.4,False,0,6,1,59,15,0,15,CLOSED
+31887,CLI cleanups,jonatack,2025-02-16T19:45:36Z,2025-03-23T16:41:18+00:00,34,836.93,True,16,35,1,94,5,11,16,MERGED
+31886,cli: return local services in -netinfo,jonatack,2025-02-16T18:31:07Z,2025-08-08T02:44:06+00:00,16,4136.22,True,32,2,2,5063,13,8,21,MERGED
+31884,cmake: Make implicit `libbitcoinkernel` dependencies explicit,hebasto,2025-02-16T16:10:35Z,2025-02-20T17:08:41+00:00,2,96.97,True,6,8,3,2118,3,0,3,MERGED
+31880,cmake: Add optional sources to `minisketch` library directly,hebasto,2025-02-16T12:52:02Z,2025-02-25T19:12:03+00:00,1,222.33,True,22,30,1,181,8,0,8,MERGED
+31874,qa wallet: Activate dormant checks in wallet_multisig_descriptor_psbt.py,hodlinator,2025-02-14T22:30:12Z,2025-03-27T20:19:00+00:00,10,981.81,True,2,2,1,55,7,3,10,MERGED
+31870,fuzz: split `coinselection` harness,brunoerg,2025-02-14T18:09:50Z,2025-03-21T10:40:18+00:00,18,832.51,True,71,47,1,242,10,5,15,MERGED
+31869,cmake: Add `libbitcoinkernel` target,hebasto,2025-02-14T17:09:55Z,2025-02-17T15:31:14+00:00,5,70.36,True,9,5,1,362,2,1,3,MERGED
+31866,"test, refactor: Add TestNode.binaries to hold binary paths",ryanofsky,2025-02-14T15:45:20Z,2025-03-20T13:06:29+00:00,8,813.35,True,82,38,6,710,8,4,12,MERGED
+31865,build: move `rpc/external_signer` to node library,fanquake,2025-02-14T15:45:13Z,2025-02-14T22:32:36+00:00,2,6.79,True,1,4,2,96,3,0,3,MERGED
+31864,doc: add missing copyright headers,fanquake,2025-02-14T15:44:40Z,2025-05-20T11:18:46+00:00,5,2275.57,True,40,17,14,78,1,5,6,MERGED
+31863,random: Initialize variables in hardware RNG functions,eval-exec,2025-02-14T09:08:56Z,2025-02-14T23:03:53+00:00,5,13.92,True,5,5,1,113,6,1,7,MERGED
+31862,doc: Fix and clarify description of ZMQ message format,jirijakes,2025-02-14T07:32:11Z,2025-04-16T23:26:21+00:00,6,1479.9,True,50,21,1,545,7,4,11,MERGED
+31857,depends: avoid an unset `CMAKE_OBJDUMP`,fanquake,2025-02-13T13:07:58Z,2025-02-14T09:49:15+00:00,2,20.69,True,1,0,1,464,1,0,1,MERGED
+31854,net: reduce CAddress usage to CService or CNetAddr,vasild,2025-02-13T10:50:17Z,2025-02-14T18:56:24+00:00,4,32.1,True,23,24,3,444,6,1,7,MERGED
+31851,doc: build: Fix instructions for msvc gui builds,davidgumberg,2025-02-12T21:01:11Z,2025-02-14T22:12:09+00:00,2,49.18,True,11,0,1,692,5,0,5,MERGED
+31850,ci: switch MSAN to use prebuilt Clang binaries,fanquake,2025-02-12T17:45:01Z,2025-02-20T15:14:50+00:00,2,189.5,False,9,21,3,44,9,1,10,CLOSED
+31849,depends: set `CMAKE_*_COMPILER_TARGET` in toolchain,fanquake,2025-02-12T17:00:20Z,2025-03-27T07:35:14+00:00,4,1022.58,True,5,0,2,562,11,1,12,MERGED
+31848,"test, tracing: don't use problematic `bpf_usdt_readarg_p()`",0xB10C,2025-02-12T16:07:01Z,2025-03-05T15:21:22+00:00,3,503.24,True,115,59,8,562,9,1,10,MERGED
+31846,test: Remove stale gettime test,maflcko,2025-02-12T11:18:18Z,2025-02-12T14:02:33+00:00,1,2.74,True,0,8,1,869,6,0,6,MERGED
+31844,cmake: add a component for each binary,theuni,2025-02-11T20:39:22Z,2025-02-14T13:19:20+00:00,7,64.67,True,48,46,10,605,15,1,16,MERGED
+31841,fuzz: Use immediate task runner to increase fuzz stability,maflcko,2025-02-11T13:42:49Z,2025-03-21T00:25:51+00:00,2,898.72,True,6,2,1,897,12,0,12,MERGED
+31840,depends: add missing Darwin objcopy,fanquake,2025-02-11T10:56:05Z,2025-02-12T17:51:04+00:00,3,30.92,True,1,0,1,449,7,0,7,MERGED
+31839,streams: Add stream position validation in BufferedFile::AdvanceStream,crStiv,2025-02-11T00:41:30Z,2025-02-11T07:06:10+00:00,1,6.41,False,3,0,1,361,2,0,2,CLOSED
+31837,test: add missing sync to p2p_tx_download.py,mzumsande,2025-02-10T18:41:30Z,2025-02-11T08:58:53+00:00,4,14.29,True,1,0,1,274,2,1,3,MERGED
+31836,contrib: Add deterministic-fuzz-coverage,maflcko,2025-02-10T16:23:23Z,2025-02-18T10:36:10+00:00,4,186.21,True,232,0,3,108,20,2,22,MERGED
+31835,validation: set BLOCK_FAILED_CHILD correctly,stratospher,2025-02-10T14:59:43Z,2025-04-23T21:10:02+00:00,10,1734.17,True,48,8,2,1444,4,3,7,MERGED
+31834,build: disable bitcoin-node if daemon is not built,Sjors,2025-02-10T13:29:31Z,2025-02-11T12:48:36+00:00,9,23.32,True,9,4,2,659,4,1,5,MERGED
+31829,p2p: improve TxOrphanage denial of service bounds,glozow,2025-02-09T21:14:45Z,2025-07-18T20:01:45+00:00,147,3814.78,True,2657,880,24,5716,60,183,243,MERGED
+31826,random: Check `GetRNDRRS` is supported in `InitHardwareRand` to avoid infinite loop,eval-exec,2025-02-08T10:17:10Z,2025-02-19T02:43:22+00:00,31,256.44,True,34,11,1,331,11,13,24,MERGED
+31820,build: consistently use `CLIENT_NAME` in libbitcoinkernel.pc.in,fanquake,2025-02-07T16:15:46Z,2025-02-10T10:00:55+00:00,4,65.75,True,1,1,1,41,2,0,2,MERGED
+31819,doc: swap CPPFLAGS for APPEND_CPPFLAGS,fanquake,2025-02-07T16:09:50Z,2025-02-10T14:56:16+00:00,1,70.77,True,2,2,1,225,7,0,7,MERGED
+31818,guix: remove test-security/symbol-check scripts,fanquake,2025-02-07T15:57:54Z,2025-02-12T08:48:01+00:00,5,112.84,True,2,327,5,755,3,1,4,MERGED
+31813,build: fix MSVC ccache reporting,vijayabhaskar78,2025-02-06T17:54:55Z,2025-02-10T10:22:19+00:00,1,88.46,False,63,48,4,950,6,2,8,CLOSED
+31811,"test: test_inv_block, use mocktime instead of waiting",instagibbs,2025-02-06T16:37:02Z,2025-02-07T16:30:35+00:00,1,23.89,True,6,1,1,245,3,0,3,MERGED
+31810,TxOrphanage: account for size of orphans and count announcements,glozow,2025-02-06T14:14:05Z,2025-02-10T10:06:32+00:00,21,91.87,True,175,24,5,721,4,13,17,MERGED
+31809,"Prepare ""Open Transifex translations for v29.0"" release step",hebasto,2025-02-06T10:44:36Z,2025-02-06T20:22:17+00:00,1,9.63,True,1283,1236,5,562,3,0,3,MERGED
+31806,fuzz: coinselection: cover `SetBumpFeeDiscount`,brunoerg,2025-02-05T17:46:55Z,2025-04-01T16:40:07+00:00,2,1318.89,True,2,0,1,211,4,0,4,MERGED
+31802,"Add bitcoin-{node,gui} to release binaries for IPC",Sjors,2025-02-05T16:04:00Z,2025-08-20T21:29:23+00:00,48,4709.42,True,71,49,24,9999,121,21,142,MERGED
+31800,depends: Avoid using the `-ffile-prefix-map` compiler option,hebasto,2025-02-05T14:56:12Z,2025-02-07T11:10:02+00:00,1,44.23,True,4,4,4,285,3,0,3,MERGED
+31794,"wallet: abandon orphan coinbase txs, and their descendants, during startup",furszy,2025-02-04T16:17:16Z,2025-02-19T02:39:11+00:00,10,346.37,True,81,5,4,606,8,10,18,MERGED
+31793,ci: Use clang-20 for sanitizer tasks,maflcko,2025-02-04T16:01:51Z,2025-02-10T10:40:23+00:00,1,138.64,True,4,4,4,190,1,0,1,MERGED
+31792,"Double check all block rules in `ConnectBlock`, not only `CheckBlock`",darosior,2025-02-03T20:12:44Z,2025-02-12T14:48:33+00:00,12,210.6,False,54,766,21,487,19,6,25,CLOSED
+31787,ci: run in worktrees,willcl-ark,2025-02-03T16:11:03Z,2025-06-16T08:36:44+00:00,12,3184.43,False,100,30,4,319,9,4,13,CLOSED
+31785,"Have createNewBlock() wait for tip, make rpc handle shutdown during long poll and wait methods",Sjors,2025-02-03T14:56:59Z,2025-04-14T21:40:20+00:00,59,1686.72,True,102,40,4,1225,28,31,59,MERGED
+31784,test: added additional coverage to waitforblock and waitforblockheight rpc's,kevkevinpal,2025-02-03T14:11:37Z,2025-02-05T10:38:05+00:00,3,44.44,True,2,0,1,170,2,0,2,MERGED
+31779,cmake: Improve safety and robustness during building `crc32c` subtree,hebasto,2025-02-02T13:32:10Z,2025-02-14T09:25:09+00:00,3,283.88,False,27,8,1,502,6,1,7,CLOSED
+31775,rpc: collect transaction fees on generateblock,tiagosh,2025-02-01T00:07:07Z,2025-02-18T16:04:06+00:00,1,423.95,False,19,6,4,291,5,1,6,CLOSED
+31768,test: check `scanning` field from `getwalletinfo`,brunoerg,2025-01-30T19:01:06Z,2025-02-14T00:25:14+00:00,8,341.4,True,8,0,1,101,5,2,7,MERGED
+31767,logging: Ensure -debug=0/none behaves consistently with -nodebug,danielabrozzoni,2025-01-30T17:04:24Z,2025-02-13T13:40:20+00:00,14,332.6,True,27,7,3,463,1,8,9,MERGED
+31766,leveldb: pull upstream C++23 changes,fanquake,2025-01-30T14:01:28Z,2025-03-20T05:03:59+00:00,2,1167.04,True,23,13,4,508,6,0,6,MERGED
+31765,cmake: Install man pages for configured targets only,hebasto,2025-01-30T13:14:08Z,2025-02-13T16:33:57+00:00,7,339.33,False,16,8,2,13,5,1,6,CLOSED
+31760,test: make sure we are on sync with a peer before checking if they have sent a message,sr-gi,2025-01-29T19:47:40Z,2025-02-06T05:02:25+00:00,3,177.25,True,1,0,1,1688,1,0,1,MERGED
+31759,test: fixes p2p_ibd_txrelay wait time,sr-gi,2025-01-29T19:27:00Z,2025-02-06T05:58:07+00:00,2,178.52,True,3,1,1,1709,3,0,3,MERGED
+31758,test: deduplicates p2p_tx_download constants,sr-gi,2025-01-29T19:13:49Z,2025-02-14T09:47:29+00:00,10,374.56,True,19,20,1,99,6,2,8,MERGED
+31757,wallet: fix crash on double block disconnection,furszy,2025-01-29T18:46:19Z,2025-03-13T19:07:02+00:00,24,1032.35,True,57,2,2,864,5,21,26,MERGED
+31751,test: fix intermittent timeout in p2p_1p1c_network.py,mzumsande,2025-01-28T22:24:46Z,2025-01-29T23:07:40+00:00,6,24.71,True,5,0,1,423,2,1,3,MERGED
+31746,test: Added coverage to the waitfornewblock rpc,kevkevinpal,2025-01-28T13:17:46Z,2025-01-31T19:45:58+00:00,6,78.47,True,1,0,1,363,9,1,10,MERGED
+31741,multiprocess: Add libmultiprocess git subtree,ryanofsky,2025-01-27T16:48:43Z,2025-04-11T12:40:47+00:00,47,1771.87,True,6030,62,79,2010,82,26,108,MERGED
+31740,depends: Update libmultiprocess library before converting to subtree,ryanofsky,2025-01-27T16:46:29Z,2025-01-29T12:10:36+00:00,2,43.4,True,36,50,8,1517,3,0,3,MERGED
+31736,doc: update links in ci.yml,espi3,2025-01-25T19:41:09Z,2025-01-28T10:13:20+00:00,1,62.54,True,3,3,1,55,5,0,5,MERGED
+31731,doc: update translation generation cmake example,l0rinc,2025-01-24T12:45:49Z,2025-02-20T17:18:38+00:00,16,652.55,True,2,2,1,293,2,1,3,MERGED
+31727,miniscript: convert non-critical asserts to CHECK_NONFATAL,darosior,2025-01-23T16:17:05Z,2025-04-10T18:06:57+00:00,7,1849.83,True,54,51,2,428,7,1,8,MERGED
+31726,ci: Replace `CMAKE_CXX_FLAGS` with `APPEND_CXXFLAGS`,hebasto,2025-01-23T15:19:48Z,2025-02-05T17:23:13+00:00,4,314.06,False,6,8,7,569,7,1,8,CLOSED
+31722,cmake: Copy `cov_tool_wrapper.sh.in` to the build tree,hebasto,2025-01-23T10:51:17Z,2025-02-13T09:34:36+00:00,4,502.72,True,2,1,3,489,1,1,2,MERGED
+31718,Docs: fix typos in documentation files,wgyt,2025-01-23T03:52:41Z,2025-01-24T10:39:42+00:00,2,30.78,True,5,5,5,0,6,1,7,MERGED
+31714,validation: Do less work in NeedsRedownload,mzumsande,2025-01-22T21:25:43Z,2025-05-23T18:12:19+00:00,1,2900.78,False,9,15,2,716,13,0,13,CLOSED
+31711,build: set build type and per-build-type flags as early as possible,theuni,2025-01-22T19:05:16Z,2025-02-12T09:41:33+00:00,7,494.6,True,12,12,2,438,8,2,10,MERGED
+31709,cmake: Fail if `Libmultiprocess` is missing when `WITH_MULTIPROCESS=ON`,hebasto,2025-01-22T17:35:32Z,2025-01-23T09:46:49+00:00,3,16.19,True,2,2,1,1137,1,0,1,MERGED
+31704,doc: add a section in the fuzzing documentation about using MSan,darosior,2025-01-21T19:53:31Z,2025-01-23T14:25:35+00:00,10,42.53,True,12,0,1,198,4,3,7,MERGED
+31703,Use number of dirty cache entries in flush warnings/logs,sipa,2025-01-21T19:27:26Z,2025-09-30T21:17:16+00:00,35,6049.83,False,50,15,5,760,10,28,38,CLOSED
+31701,test: Bump sync_mempools timeout in p2p_1p1c_network.py,maflcko,2025-01-21T14:38:49Z,2025-01-21T16:49:51+00:00,1,2.18,True,3,3,2,1797,3,0,3,MERGED
+31696,test: Check that reindex with prune wipes blk files,maflcko,2025-01-21T10:58:33Z,2025-01-23T12:43:01+00:00,12,49.74,True,36,19,1,57,4,7,11,MERGED
+31693,bench: fix used file that is not opened,rex4539,2025-01-20T19:18:40Z,2025-01-21T09:11:01+00:00,5,13.87,False,21,10,1,300,6,2,8,CLOSED
+31690,doc: Amend notes on benchmarking,maflcko,2025-01-20T11:46:45Z,2025-01-22T16:45:07+00:00,26,52.97,True,23,6,1,80,6,10,16,MERGED
+31689,Benchmark Chainstate::ConnectBlock duration,Eunovo,2025-01-20T10:34:46Z,2025-03-23T13:03:40+00:00,38,1490.48,True,138,0,2,641,26,28,54,MERGED
+31679,cmake: Install internal binaries to <prefix>/libexec/,ryanofsky,2025-01-17T17:01:17Z,2025-08-07T13:53:32+00:00,26,4844.87,True,94,36,13,2049,38,14,52,MERGED
+31678,ci: Skip read-write of default env vars,maflcko,2025-01-17T12:13:07Z,2025-02-12T14:54:22+00:00,2,626.69,True,1,3,1,331,7,1,8,MERGED
+31676,fuzz: add targets for PCP and NAT-PMP port mapping requests,darosior,2025-01-16T20:06:33Z,2025-02-21T15:57:17+00:00,12,859.85,True,111,6,6,571,10,6,16,MERGED
+31675,[test] fix p2p_orphan_handling.py empty orphanage check,glozow,2025-01-16T18:58:24Z,2025-01-17T09:37:30+00:00,1,14.65,True,1,1,1,65,3,0,3,MERGED
+31674,init: Lock blocksdir in addition to datadir,theuni,2025-01-16T15:58:54Z,2025-01-24T23:15:17+00:00,11,199.27,True,46,24,6,469,13,4,17,MERGED
+31671,Update leveldb subtree to latest upstream,fanquake,2025-01-16T11:13:12Z,2025-01-21T17:01:24+00:00,2,125.8,True,8,63,8,123,7,0,7,MERGED
+31670,doc: navigate section links,guspan-tanadi,2025-01-16T10:48:42Z,2025-02-20T15:34:50+00:00,3,844.77,False,2,2,2,0,1,2,3,CLOSED
+31669,cmake: Introduce `WITH_PYTHON` build option,hebasto,2025-01-16T09:29:41Z,2025-06-28T11:30:43+00:00,8,3914.02,False,10,13,1,480,12,1,13,CLOSED
+31666,multi-peer orphan resolution followups,glozow,2025-01-15T23:49:07Z,2025-02-04T10:10:35+00:00,25,466.36,True,105,85,11,194,5,6,11,MERGED
+31665,build: Make config warnings fatal if -DWCONFIGURE_ERROR=ON,davidgumberg,2025-01-15T23:04:54Z,2025-07-03T17:21:39+00:00,7,4050.28,False,43,9,6,1579,25,3,28,CLOSED
+31662,cmake: Do not modify `CMAKE_TRY_COMPILE_TARGET_TYPE` globally,hebasto,2025-01-15T15:45:53Z,2025-02-20T20:07:07+00:00,31,868.35,True,76,64,7,1434,15,6,21,MERGED
+31661,depends: Override default build type for `libevent`,hebasto,2025-01-15T09:28:26Z,2025-01-21T17:04:43+00:00,6,151.6,True,2,1,1,302,9,1,10,MERGED
+31658,test: p2p: fix sending of manual INVs in tx download test,theStack,2025-01-15T03:06:39Z,2025-01-24T10:49:22+00:00,4,223.71,True,33,2,1,1587,14,0,14,MERGED
+31657,ci: Supply `--platform` argument to `docker` commands.,davidgumberg,2025-01-14T23:17:39Z,2025-01-20T16:10:45+00:00,17,136.88,True,14,5,6,3023,8,6,14,MERGED
+31656,test: Add expected result assertions,yancyribbens,2025-01-14T19:26:02Z,2025-03-24T20:07:39+00:00,7,1656.69,True,9,2,1,670,18,3,21,MERGED
+31655,refactor: Avoid UB in SHA3_256::Write,maflcko,2025-01-14T18:46:07Z,2025-01-16T12:20:13+00:00,2,41.57,True,11,11,5,301,7,0,7,MERGED
+31653,lint: Call more checks from test_runner,maflcko,2025-01-14T13:59:18Z,2025-02-04T09:57:43+00:00,11,499.97,True,80,64,3,334,3,3,6,MERGED
+31651,ci: Turn CentOS task into native one,maflcko,2025-01-13T22:55:45Z,2025-01-17T11:42:54+00:00,3,84.79,True,5,7,2,1095,7,1,8,MERGED
+31649,consensus: Remove checkpoints (take 2),marcofleon,2025-01-13T15:38:11Z,2025-03-14T00:09:28+00:00,27,1424.52,True,13,738,18,595,23,7,30,MERGED
+31648,[28.x] Backports,fanquake,2025-01-13T15:12:33Z,2025-03-05T17:35:10+00:00,5,1226.38,True,44,55,8,39,3,0,3,MERGED
+31646,test: avoid internet traffic,vasild,2025-01-13T09:24:28Z,2025-01-14T21:02:01+00:00,9,35.63,True,27,17,4,255,5,1,6,MERGED
+31640,tests: improves tapscript unit tests,EthanHeilman,2025-01-11T01:14:03Z,2025-04-21T18:51:30+00:00,10,2417.62,True,88,2,2,3383,28,3,31,MERGED
+31635,test: add coverage for unknown address type for `createwalletdescriptor`,brunoerg,2025-01-10T14:09:37Z,2025-01-23T12:50:44+00:00,1,310.69,True,2,0,1,181,5,0,5,MERGED
+31634,doc: Improve dependencies documentation,NicolaLS,2025-01-10T12:39:15Z,2025-02-14T19:04:34+00:00,26,846.42,True,14,19,1,228,11,6,17,MERGED
+31633,net: Disconnect message follow-ups to #28521,hodlinator,2025-01-10T10:43:47Z,2025-01-29T20:27:10+00:00,13,465.72,True,9,8,3,267,8,4,12,MERGED
+31630,doc: Archive 28.1 release notes,achow101,2025-01-09T19:05:44Z,2025-01-14T21:06:48+00:00,3,122.02,True,107,0,1,0,3,0,3,MERGED
+31629,wallet: fix rescanning inconsistency,mzumsande,2025-01-09T18:01:20Z,2025-02-14T22:42:21+00:00,1,868.68,True,14,6,1,950,7,0,7,MERGED
+31628,test: add coverage for immediate orphanage eviction case,instagibbs,2025-01-09T15:36:53Z,2025-02-27T19:04:52+00:00,4,1179.47,False,25,0,1,88,7,2,9,CLOSED
+31627,depends: Fix spacing issue,hebasto,2025-01-09T13:42:19Z,2025-01-10T11:17:34+00:00,2,21.59,True,1,1,1,4373,1,0,1,MERGED
+31626,depends: Use base system's `sha256sum` utility on FreeBSD,hebasto,2025-01-09T12:22:40Z,2025-01-17T14:02:09+00:00,8,193.66,True,1,1,1,296,5,3,8,MERGED
+31624,doc: warn that CheckBlock() underestimates sigops,Sjors,2025-01-09T11:08:18Z,2025-05-14T14:05:50+00:00,25,3002.96,True,2,0,1,245,6,4,10,MERGED
+31622,psbt: add non-default sighash types to PSBTs and unify sighash type match checking,achow101,2025-01-09T02:09:00Z,2025-05-21T09:02:59+00:00,86,3174.9,True,253,84,27,1022,18,50,68,MERGED
+31621,doc: Update dependency installation for Debian/Ubuntu,adlai,2025-01-09T02:05:34Z,2025-01-17T11:03:22+00:00,1,200.96,True,4,4,4,488,10,0,10,MERGED
+31620,"test: Remove --noshutdown flag, Tidy startup failures",maflcko,2025-01-08T10:21:18Z,2025-01-28T10:11:26+00:00,6,479.84,True,10,20,2,733,3,1,4,MERGED
+31617,"build, test: Build `db_tests.cpp` regardless of `USE_BDB`",hebasto,2025-01-07T16:06:22Z,2025-01-09T23:46:18+00:00,1,55.67,True,3,6,2,505,3,0,3,MERGED
+31616,"init,log: Unify block index log line",l0rinc,2025-01-07T14:52:05Z,2025-01-10T11:27:09+00:00,6,68.58,True,1,2,1,426,5,1,6,MERGED
+31614,test: expect that files may disappear from /proc/PID/fd/,vasild,2025-01-07T10:45:33Z,2025-02-10T23:58:29+00:00,3,829.22,True,6,3,1,393,5,0,5,MERGED
+31611,doc: upgrade license to 2025.,kehiy,2025-01-06T12:24:13Z,2025-01-10T11:03:12+00:00,1,94.65,True,4,4,3,0,4,0,4,MERGED
+31610,doc: Fix invalid txid in `gettransaction` RPC example,l0rinc,2025-01-06T11:51:41Z,2025-07-28T21:10:40+00:00,1,4881.32,False,6,6,1,1530,18,0,18,CLOSED
+31609,test: importdescriptors is not available for non-descriptor wallets,brunoerg,2025-01-06T10:40:28Z,2025-01-10T12:36:22+00:00,2,97.93,False,1,0,1,111,5,0,5,CLOSED
+31608,doc: Clarify min macOS and Xcode version,maflcko,2025-01-06T09:09:45Z,2025-01-10T13:53:42+00:00,5,100.73,True,6,2,2,277,2,2,4,MERGED
+31607,.,MarcelMonde,2025-01-06T04:31:58Z,2025-01-06T07:06:19+00:00,2,2.57,False,147,0,2,0,2,0,2,CLOSED
+31605,doc: upgrade bitcoin core license to 2025.,kehiy,2025-01-05T15:52:53Z,2025-01-06T12:21:05+00:00,4,20.47,False,4,4,3,0,3,0,3,CLOSED
+31603,descriptor: check whitespace in keys within fragments,brunoerg,2025-01-04T14:27:28Z,2025-03-18T12:36:51+00:00,24,1750.16,True,41,5,6,634,23,10,33,MERGED
+31601,refactor: modernize recent `ByteType` usages and read/write functions,l0rinc,2025-01-03T18:24:46Z,2025-01-16T16:14:33+00:00,3,309.83,False,22,34,5,160,17,0,17,CLOSED
+31600,rpc: have getblocktemplate mintime account for timewarp,Sjors,2025-01-03T14:41:39Z,2025-01-31T19:39:46+00:00,15,676.97,True,39,9,5,530,28,6,34,MERGED
+31599,qa: Improve framework.generate* enforcement (#31403 follow-up),yuvicc,2025-01-03T13:41:58Z,2025-01-24T23:33:23+00:00,3,513.86,True,10,10,2,347,6,0,6,MERGED
+31597,ci: Switch to latest macOS and Windows images,hebasto,2025-01-03T09:04:05Z,2025-01-06T10:23:06+00:00,3,73.32,False,5,5,1,276,5,1,6,CLOSED
+31596,doc: Clarify comments about endianness after #30526,ryanofsky,2025-01-02T23:39:07Z,2025-01-06T23:53:08+00:00,11,96.23,True,26,13,4,262,4,7,11,MERGED
+31595,qa: Ensure consistent use of decimals instead of floats,hebasto,2025-01-02T20:50:39Z,2025-01-04T15:01:49+00:00,5,42.19,False,205,186,28,2960,15,3,18,CLOSED
+31594,[28.x] 28.1 backports and final changes,maflcko,2025-01-02T13:26:52Z,2025-01-07T18:33:10+00:00,3,125.11,True,46,35,11,25,10,1,11,MERGED
+31593,ci: Bump centos stream 10,maflcko,2025-01-02T13:06:40Z,2025-01-20T16:12:04+00:00,1,435.09,True,4,7,3,436,8,0,8,MERGED
+31592,ci: Run functional tests in msan task,maflcko,2025-01-02T12:48:19Z,2025-01-06T10:22:57+00:00,1,93.58,True,1,2,2,143,1,0,1,MERGED
+31590,descriptors: Try pubkeys of both parities when retrieving the private keys for an xonly pubkey in a descriptor,achow101,2025-01-02T05:04:40Z,2025-01-21T10:20:56+00:00,11,461.27,True,49,11,3,714,8,5,13,MERGED
+31588,contrib: fix `test_deterministic_coverage.sh` script for out-of-tree builds,theStack,2025-01-01T20:12:58Z,2025-02-26T14:34:24+00:00,6,1338.36,False,8,6,1,720,18,2,20,CLOSED
+31586,doc: Update NetBSD Build Guide,hebasto,2024-12-31T10:19:44Z,2025-01-06T10:36:50+00:00,1,144.28,True,10,3,1,461,2,0,2,MERGED
+31585,.,mikeknack86,2024-12-31T04:04:59Z,2024-12-31T06:19:15+00:00,1,2.24,False,18,0,1,0,1,0,1,CLOSED
+31584,txmempool: fix typos in comments,starius,2024-12-31T03:07:29Z,2025-01-06T11:11:02+00:00,1,152.06,True,2,2,2,47,2,0,2,MERGED
+31583,rpc: add target to getmininginfo field and show next block info,Sjors,2024-12-30T20:38:15Z,2025-01-22T20:01:30+00:00,65,551.39,True,4385,37,24,2149,21,34,55,MERGED
+31582,[28.x] Finalize 28.1,achow101,2024-12-30T17:58:42Z,2025-01-03T16:45:00+00:00,2,94.77,False,21,21,8,0,5,1,6,CLOSED
+31581,test: have miner_tests use  Mining interface,Sjors,2024-12-30T16:34:31Z,2025-01-06T23:28:48+00:00,14,174.9,True,118,77,1,123,6,9,15,MERGED
+31580,test: Remove non-portable IPv6 test,hebasto,2024-12-30T15:30:18Z,2025-02-20T21:02:36+00:00,2,1253.54,True,0,7,1,375,5,0,5,MERGED
+31576,test: Move `script_assets_tests` into its own suite,hebasto,2024-12-27T19:28:19Z,2025-07-25T21:48:32+00:00,3,5042.34,True,181,141,3,2889,9,1,10,MERGED
+31575,Fix memory issue during chainstate initialization on 2GB box,SecondPort,2024-12-27T18:58:24Z,2024-12-28T02:35:42+00:00,1,7.62,False,18,2,3,419,3,1,4,CLOSED
+31572,refactor: Remove redundant edge case in fee rate rounding logic,jaeheonshim,2024-12-27T13:14:52Z,2024-12-31T13:23:11+00:00,2,96.14,False,1,4,1,301,3,1,4,CLOSED
+31570,test: descriptor: fix test for `MaxSatisfactionWeight`,brunoerg,2024-12-26T17:23:32Z,2024-12-30T20:04:59+00:00,5,98.69,True,2,1,1,118,4,2,6,MERGED
+31564,Add checkblock RPC and checkBlock() to Mining interface,Sjors,2024-12-24T17:07:27Z,2025-03-04T11:04:50+00:00,7,1673.96,False,2935,1700,80,4707,24,2,26,CLOSED
+31563,rpc: Extend scope of validation mutex in generateblock,maflcko,2024-12-24T14:48:56Z,2024-12-30T19:49:28+00:00,3,149.01,True,22,13,2,350,7,0,7,MERGED
+31556,validation: Send correct notification during snapshot completion,mzumsande,2024-12-23T20:16:28Z,2024-12-30T19:40:34+00:00,8,167.4,True,19,3,2,592,4,5,9,MERGED
+31555,descriptor: remove unreachable verification for `pkh`,brunoerg,2024-12-23T12:43:12Z,2024-12-30T21:40:17+00:00,7,176.95,True,1,5,1,335,5,1,6,MERGED
+31553,cluster mempool: add TxGraph reorg functionality,sipa,2024-12-22T19:06:05Z,2025-07-07T20:14:11+00:00,44,4729.14,True,1061,60,7,2020,29,49,78,MERGED
+31552,depends: Update capnproto to 1.1.0,hebasto,2024-12-21T17:53:41Z,2025-01-06T11:31:32+00:00,1,377.63,True,2,2,1,2173,1,0,1,MERGED
+31551,[IBD] batch block reads/writes during `AutoFile` serialization,l0rinc,2024-12-21T14:34:11Z,2025-04-16T22:16:38+00:00,90,2791.71,True,330,86,7,4564,35,50,85,MERGED
+31549,fuzz: Abort if system time is called without mock time being set,marcofleon,2024-12-20T17:59:58Z,2025-01-10T00:31:17+00:00,8,486.52,True,65,5,17,472,12,1,13,MERGED
+31548,fuzz: Abort when global PRNG is used before SeedRand::ZEROS,maflcko,2024-12-20T15:30:16Z,2025-01-22T17:40:29+00:00,6,794.17,True,10,6,3,408,4,1,5,MERGED
+31545,ci: optionally use local docker build cache,0xB10C,2024-12-20T07:59:56Z,2025-01-29T21:50:27+00:00,10,973.84,True,33,0,1,1006,9,3,12,MERGED
+31544,"cmake: Remove unused `BUILD_TESTING` variable from ""dev-mode"" preset",hebasto,2024-12-19T22:29:37Z,2024-12-20T15:15:18+00:00,1,16.76,True,0,1,1,452,1,0,1,MERGED
+31543,cmake: Always provide `RPATH` on NetBSD,hebasto,2024-12-19T19:37:24Z,2025-01-17T14:11:38+00:00,1,690.57,True,7,2,1,1007,7,0,7,MERGED
+31542,test: Embed univalue json tests in binary,maflcko,2024-12-19T19:36:28Z,2025-01-03T18:58:29+00:00,14,359.37,True,254,117,6,494,9,7,16,MERGED
+31541,qa: Use `sys.executable` when invoking other Python scripts,hebasto,2024-12-19T16:06:25Z,2025-01-23T11:18:27+00:00,5,835.2,True,6,17,2,7310,12,2,14,MERGED
+31540,refactor: std::span compat fixes,maflcko,2024-12-19T12:57:18Z,2024-12-30T19:06:03+00:00,5,270.15,True,17,20,11,453,4,3,7,MERGED
+31537,qa: Limit `-maxconnections` in tests,hebasto,2024-12-18T23:27:38Z,2024-12-30T19:34:30+00:00,3,284.11,True,11,0,1,473,24,0,24,MERGED
+31535,doc: Install `py3-zmq` port on OpenBSD for `interface_zmq.py`,hebasto,2024-12-18T19:50:32Z,2024-12-20T15:17:10+00:00,1,43.44,True,2,2,1,217,1,0,1,MERGED
+31534,coins: warn on shutdown for big UTXO set flushes,l0rinc,2024-12-18T18:44:30Z,2024-12-27T14:54:22+00:00,15,212.16,True,5,2,1,1172,4,3,7,MERGED
+31531,rpc: Add signet_challenge field to getblockchaininfo and getmininginfo,A-Manning,2024-12-18T15:42:19Z,2024-12-30T18:31:19+00:00,22,290.82,True,52,14,3,355,7,9,16,MERGED
+31529,guix: latest 2.31 glibc,fanquake,2024-12-18T13:56:57Z,2024-12-20T15:19:10+00:00,2,49.37,True,4,2,1,308,4,0,4,MERGED
+31528,doc: emphasize that `Assume` always evaluates,l0rinc,2024-12-18T13:40:10Z,2024-12-18T15:31:31+00:00,1,1.86,False,1,0,1,276,3,1,4,CLOSED
+31526,doc: Install `net/py-pyzmq` port on FreeBSD for `interface_zmq.py`,hebasto,2024-12-18T12:21:43Z,2025-01-06T11:36:17+00:00,1,455.24,True,1,1,1,172,4,0,4,MERGED
+31524,refactor: Allow std::byte in (Read/Write)(LE/BE),maflcko,2024-12-18T10:09:07Z,2025-01-03T14:29:14+00:00,25,388.34,True,39,22,2,329,4,7,11,MERGED
+31522,ci: Enable DEBUG=1 for one GCC-12+ build to catch 117966 regressions,maflcko,2024-12-18T08:34:08Z,2025-01-28T10:12:46+00:00,2,985.64,True,6,4,2,269,7,0,7,MERGED
+31521,fuzz: Fix misplaced SeedRand::ZEROS,maflcko,2024-12-18T08:14:17Z,2024-12-19T15:23:35+00:00,12,31.16,True,4,4,2,404,11,1,12,MERGED
+31520,#31318 followups,Sjors,2024-12-18T07:58:33Z,2024-12-18T20:41:36+00:00,2,12.72,True,2,2,2,62,2,0,2,MERGED
+31519,refactor: Use std::span over Span,maflcko,2024-12-17T21:56:09Z,2025-03-20T05:42:03+00:00,40,2215.76,True,695,890,122,545,23,20,43,MERGED
+31517,Correct spelling and grammar improvements,savvar9991,2024-12-17T12:26:15Z,2024-12-17T16:56:54+00:00,4,4.51,False,3,3,3,436,2,2,4,CLOSED
+31503,cmake: Link `bitcoin_consensus` as a library,hebasto,2024-12-15T15:42:53Z,2024-12-17T10:52:36+00:00,2,43.16,True,1,1,1,353,1,0,1,MERGED
+31502,depends: Fix `CXXFLAGS` on NetBSD,hebasto,2024-12-14T20:38:54Z,2024-12-17T10:55:58+00:00,2,62.28,True,0,2,1,387,2,0,2,MERGED
+31500,depends: Fix compiling `libevent` package on NetBSD,hebasto,2024-12-14T15:41:04Z,2025-02-12T15:38:31+00:00,1,1439.96,True,26,1,2,2849,5,0,5,MERGED
+31498,depends: Ignore prefix directory on OpenBSD,hebasto,2024-12-14T10:00:11Z,2024-12-17T10:46:44+00:00,3,72.78,True,1,0,1,292,1,0,1,MERGED
+31497,Remove unused variable assignment,yancyribbens,2024-12-14T03:01:58Z,2024-12-30T18:22:46+00:00,3,399.35,True,0,1,1,156,8,0,8,MERGED
+31495,wallet: Utilize IsMine() and CanProvide() in migration to cover edge cases,achow101,2024-12-13T22:07:10Z,2025-02-13T17:31:00+00:00,65,1483.4,True,419,109,3,2558,5,42,47,MERGED
+31493,refactor: Use immediate lambda to work around GCC bug 117966,maflcko,2024-12-13T14:46:20Z,2024-12-17T18:32:29+00:00,7,99.77,True,4,1,1,270,2,2,4,MERGED
+31492,Execute Discover() when bind=0.0.0.0 or :: is set,andremralves,2024-12-13T14:32:00Z,2025-06-21T08:50:22+00:00,8,4554.31,False,75,24,3,1009,16,4,20,CLOSED
+31490,refactor: inline `UndoWriteToDisk` and `WriteBlockToDisk` to reduce serialization calls,l0rinc,2024-12-13T13:52:01Z,2025-01-22T17:28:30+00:00,40,963.61,True,179,204,20,637,11,17,28,MERGED
+31489,fuzz: Fix test_runner error reporting,maflcko,2024-12-13T13:42:31Z,2024-12-17T11:08:28+00:00,3,93.43,True,5,5,1,850,1,0,1,MERGED
+31486,fuzz: Abort when using global PRNG without re-seed,maflcko,2024-12-13T12:38:50Z,2024-12-17T17:55:46+00:00,26,101.28,True,131,7,39,649,17,11,28,MERGED
+31484,depends: update capnproto to 1.0.2,fanquake,2024-12-12T17:25:14Z,2024-12-13T10:47:35+00:00,3,17.37,True,2,2,1,2162,3,0,3,MERGED
+31483,kernel: Move kernel-related cache constants to kernel cache,TheCharlatan,2024-12-12T12:17:56Z,2025-01-16T15:05:06+00:00,69,842.79,True,321,75,18,1588,22,59,81,MERGED
+31481,fuzz: Faster leak check when generating corpus,maflcko,2024-12-12T10:55:29Z,2025-01-02T17:34:31+00:00,9,510.65,False,1,0,1,301,4,3,7,CLOSED
+31480,"refactor: Fix ""modernize-use-starts-ends-with"" clang-tidy warning",hebasto,2024-12-12T10:27:52Z,2024-12-12T22:13:29+00:00,4,11.76,True,1,1,1,176,3,1,4,MERGED
+31479,lint: Disable signature output in git log,hodlinator,2024-12-12T09:33:56Z,2024-12-12T11:12:01+00:00,1,1.63,True,2,2,1,1602,2,0,2,MERGED
+31478,docs: remove repetitive words,RiceChuan,2024-12-12T08:37:58Z,2024-12-12T10:06:33+00:00,1,1.48,True,1,1,1,23,3,0,3,MERGED
+31477,ci: Bump centos gcc to 12,maflcko,2024-12-12T08:32:20Z,2024-12-13T10:48:16+00:00,1,26.27,True,5,3,2,776,2,0,2,MERGED
+31469,[28.x] 28.1rc2 backports,achow101,2024-12-11T17:02:03Z,2024-12-17T18:06:18+00:00,3,145.07,True,130,46,20,39,3,0,3,MERGED
+31468,"test: Avoid intermittent error in assert_equal(pruneheight_new, 248)",maflcko,2024-12-11T15:57:09Z,2024-12-30T19:28:07+00:00,5,459.52,True,25,24,1,761,5,2,7,MERGED
+31467,fuzz: Limit wallet_notifications iterations (take 2),maflcko,2024-12-11T13:37:18Z,2025-02-20T20:50:13+00:00,7,1711.22,False,2,5,1,362,3,1,4,CLOSED
+31464,util: Add missing types in make_secure_unique,maflcko,2024-12-10T20:50:17Z,2025-01-06T15:19:30+00:00,3,642.49,True,2,2,1,410,2,0,2,MERGED
+31462,test: raise explicit error if any of the needed release binaries is missing,theStack,2024-12-10T18:53:09Z,2025-01-09T23:22:41+00:00,9,724.49,True,9,0,1,5493,9,2,11,MERGED
+31461,depends: add `-g` to *BSD_debug flags,fanquake,2024-12-10T15:24:39Z,2024-12-12T10:11:43+00:00,2,42.78,True,3,3,3,58,2,0,2,MERGED
+31460,fuzz: Expand script verification flag testing to segwit v0 and tapscript,dergoegge,2024-12-10T14:45:37Z,2025-08-08T10:41:59+00:00,3,5779.94,False,199,20,7,711,10,4,14,CLOSED
+31458,build: use `-mbig-obj` for Windows debug builds,fanquake,2024-12-10T14:06:07Z,2024-12-17T11:03:55+00:00,2,164.96,True,9,0,1,616,14,0,14,MERGED
+31457,fuzz: Speed up *_package_eval fuzz targets a bit,maflcko,2024-12-10T12:42:55Z,2025-03-20T05:06:23+00:00,11,2392.39,True,4,4,1,443,4,3,7,MERGED
+31453,util: detect and warn when using exFAT on MacOS,willcl-ark,2024-12-10T10:29:59Z,2025-08-12T14:23:25+00:00,61,5883.89,True,61,0,4,180,33,30,63,MERGED
+31452,wallet: Migrate non-HD keys to combo() descriptor,achow101,2024-12-09T20:31:19Z,2024-12-13T10:43:52+00:00,4,86.21,True,3,7,2,478,5,3,8,MERGED
+31451,"wallet: migration, avoid loading legacy wallet after failure when BDB isn't compiled",furszy,2024-12-09T19:24:14Z,2025-01-09T23:33:37+00:00,11,748.16,True,40,13,3,416,6,6,12,MERGED
+31450,guix: disable gcov in base-linux-gcc,fanquake,2024-12-09T18:21:39Z,2024-12-11T09:46:42+00:00,2,39.42,True,2,0,1,569,4,0,4,MERGED
+31448,fuzz: add cstdlib to FuzzedDataProvider,fanquake,2024-12-09T17:09:04Z,2024-12-10T09:33:41+00:00,3,16.41,True,1,0,1,427,1,0,1,MERGED
+31444,cluster mempool: add txgraph diagrams/mining/eviction,sipa,2024-12-08T14:50:02Z,2025-05-13T20:27:58+00:00,54,3749.63,True,721,47,3,628,25,58,83,MERGED
+31443,Update gen-bitcoin-conf.sh,TinFe,2024-12-08T04:44:38Z,2024-12-08T08:45:37+00:00,1,4.02,False,1,1,1,24,2,1,3,CLOSED
+31439,"validation: In case of a continued reindex, only activate chain in the end",mzumsande,2024-12-06T18:51:55Z,2025-02-14T21:59:42+00:00,7,1683.13,True,9,10,1,1174,10,2,12,MERGED
+31437,func test: Expand tx download preference tests,instagibbs,2024-12-06T17:41:56Z,2025-02-05T13:22:04+00:00,5,1459.67,True,87,11,1,538,7,2,9,MERGED
+31435,lint: Move assertion linter into lint runner,maflcko,2024-12-06T11:26:56Z,2025-01-06T13:35:54+00:00,6,746.15,True,84,72,2,399,2,1,3,MERGED
+31434,"test, univalue: Specify path to tests instead of hardcoding",hebasto,2024-12-06T11:16:13Z,2024-12-18T09:42:04+00:00,4,286.43,False,10,9,2,412,3,1,4,CLOSED
+31433,"test: #31212 follow up (spelling, refactor)",hodlinator,2024-12-05T23:08:31Z,2024-12-08T16:33:37+00:00,7,65.42,True,11,10,2,186,5,3,8,MERGED
+31431,util: use explicit cast in MultiIntBitSet::Fill(),vasild,2024-12-05T16:01:21Z,2024-12-06T10:00:48+00:00,1,17.99,True,1,1,1,428,6,0,6,MERGED
+31428,ci: Allow build dir on CI host,maflcko,2024-12-05T14:20:32Z,2025-01-31T00:34:19+00:00,15,1354.23,True,11,7,2,177,8,5,13,MERGED
+31427,lint: bump MLC to v0.19.0,willcl-ark,2024-12-05T11:27:09Z,2024-12-05T16:34:13+00:00,1,5.12,True,3,2,2,151,2,0,2,MERGED
+31423,"wallet: migration, avoid creating spendable wallet from a watch-only legacy wallet",furszy,2024-12-04T17:59:39Z,2025-07-02T20:25:48+00:00,29,5042.44,True,86,24,8,509,10,15,25,MERGED
+31422,[27.x] More backports,fanquake,2024-12-04T17:35:27Z,2025-02-11T12:21:45+00:00,1,1650.77,True,20,46,5,39,2,0,2,MERGED
+31421,cmake: Improve compatibility with Python version managers,hebasto,2024-12-04T17:11:36Z,2025-02-14T10:38:28+00:00,8,1721.45,True,7,0,1,1576,10,1,11,MERGED
+31420,test: implements helper functions for unit conversion,wfzyx,2024-12-04T16:55:29Z,2024-12-13T13:41:35+00:00,3,212.77,False,241,223,44,132,3,1,4,CLOSED
+31419,test: fix MIN macro redefinition,0xB10C,2024-12-04T14:57:08Z,2024-12-04T17:13:07+00:00,1,2.27,True,4,3,1,416,4,0,4,MERGED
+31417,test: Avoid F541 (f-string without any placeholders),maflcko,2024-12-04T13:34:48Z,2024-12-06T10:27:06+00:00,3,44.87,True,30,29,19,201,4,0,4,MERGED
+31416,doc: Fix incorrect send RPC docs,maflcko,2024-12-04T10:32:37Z,2025-01-23T17:42:59+00:00,3,1207.17,True,4,2,1,125,3,2,5,MERGED
+31415,test: fix TestShell initialization and reset(),BrandonOdiwuor,2024-12-03T17:03:04Z,2025-02-25T14:54:30+00:00,11,2013.86,True,13,9,2,719,5,4,9,MERGED
+31414,test: orphan parent is re-requested from 2nd peer,instagibbs,2024-12-03T16:19:00Z,2024-12-05T12:49:27+00:00,4,44.51,True,5,1,1,46,1,0,1,MERGED
+31413,rpc: Remove deprecated dummy alias for listtransactions::label,maflcko,2024-12-03T16:00:17Z,2025-02-14T21:29:26+00:00,3,1757.49,True,3,4,2,577,7,0,7,MERGED
+31408,test: Avoid logging error when logging error,maflcko,2024-12-03T08:46:15Z,2024-12-05T17:17:45+00:00,1,56.52,True,4,3,2,821,1,0,1,MERGED
+31407,guix: Notarize MacOS app bundle and codesign all MacOS and Windows binaries,achow101,2024-12-02T22:32:49Z,2025-03-05T17:34:41+00:00,21,2227.03,True,160,76,7,1473,90,6,96,MERGED
+31406,test: fix `test_invalid_tx_in_compactblock` in `p2p_compactblocks`,brunoerg,2024-12-02T21:54:10Z,2024-12-06T11:30:44+00:00,10,85.61,True,2,2,1,1413,3,1,4,MERGED
+31405,validation: stricter internal handling of invalid blocks,mzumsande,2024-12-02T19:29:15Z,2025-06-11T20:17:27+00:00,65,4584.8,True,52,83,2,2094,18,36,54,MERGED
+31403,test: Call generate RPCs through test framework only,maflcko,2024-12-02T13:33:31Z,2024-12-30T19:19:15+00:00,3,677.76,True,9,9,3,352,9,1,10,MERGED
+31399,"ci, macos: Install `pkgconf` Homebrew's package",hebasto,2024-12-01T11:02:13Z,2024-12-02T10:04:40+00:00,1,23.04,True,1,2,1,129,1,0,1,MERGED
+31398,wallet: refactor: various master key encryption cleanups,theStack,2024-12-01T03:54:07Z,2025-04-29T23:32:21+00:00,19,3595.64,True,81,70,4,605,6,12,18,MERGED
+31397,p2p: track and use all potential peers for orphan resolution,glozow,2024-11-30T21:06:45Z,2025-01-16T13:42:39+00:00,47,1120.6,True,638,174,18,2964,8,57,65,MERGED
+31396,test: simple reordering to reduce run time,tdb3,2024-11-30T17:35:14Z,2024-12-02T14:09:03+00:00,1,44.56,True,5,5,1,573,3,0,3,MERGED
+31395,build: Set shared linker flags in toolchain file,TheCharlatan,2024-11-30T10:34:08Z,2024-12-02T12:13:12+00:00,2,49.65,True,9,0,1,816,2,0,2,MERGED
+31393,refactor: Move GuessVerificationProgress into ChainstateManager,maflcko,2024-11-29T09:40:30Z,2024-12-18T18:58:21+00:00,8,465.3,True,22,21,5,392,1,2,3,MERGED
+31391,util: Drop boost posix_time in ParseISO8601DateTime,maflcko,2024-11-28T12:45:22Z,2024-12-04T11:21:54+00:00,2,142.61,True,94,69,14,1717,8,0,8,MERGED
+31390,Remove `src/config` directory,hebasto,2024-11-28T11:54:48Z,2024-12-02T10:07:24+00:00,2,94.21,True,0,0,1,105,1,0,1,MERGED
+31387,doc: Use more precise anchor link to codesigning docs,JeremyRand,2024-11-28T05:50:54Z,2024-12-02T14:10:00+00:00,1,104.32,True,1,1,1,94,1,0,1,MERGED
+31386,doc: Use more precise anchor links to Xcode SDK extraction,JeremyRand,2024-11-28T05:44:21Z,2024-12-02T13:41:28+00:00,1,103.95,True,2,2,2,99,1,0,1,MERGED
+31385,package validation: relax the package-not-child-with-unconfirmed-parents rule,glozow,2024-11-28T01:33:20Z,2025-08-01T14:45:25+00:00,10,5917.2,True,180,81,8,1161,12,8,20,MERGED
+31384,mining: bugfix: Fix duplicate coinbase tx weight reservation,ismaelsadeeq,2024-11-27T19:57:29Z,2025-02-10T13:26:52+00:00,84,1793.49,True,202,19,11,1819,55,51,106,MERGED
+31383,test: Add missing node.setmocktime(self.mocktime) to p2p_ibd_stalling.py,maflcko,2024-11-27T13:30:58Z,2024-12-02T13:34:26+00:00,1,120.06,True,1,0,1,1864,1,0,1,MERGED
+31379,cmake: Fix passing `APPEND_*FLAGS` to `secp256k1` subtree,hebasto,2024-11-27T09:52:00Z,2025-02-20T14:36:55+00:00,2,2044.75,True,7,7,1,747,11,0,11,MERGED
+31376,Miner: never create a template which exploits the timewarp bug,darosior,2024-11-26T18:05:01Z,2025-01-23T10:54:53+00:00,7,1384.83,True,4,6,1,361,14,1,15,MERGED
+31375,multiprocess: Add bitcoin wrapper executable,ryanofsky,2024-11-26T17:57:32Z,2025-05-27T19:38:00+00:00,78,4369.67,True,393,22,26,2415,50,78,128,MERGED
+31374,wallet: fix crash during watch-only wallet migration,furszy,2024-11-26T16:41:00Z,2024-12-09T20:12:56+00:00,17,315.53,True,66,2,2,468,8,9,17,MERGED
+31371,"doc, test: more ephemeral dust follow-ups",theStack,2024-11-25T20:18:23Z,2024-11-29T13:35:06+00:00,8,89.28,True,31,64,2,232,4,4,8,MERGED
+31367,ci: limit max stack size to 512 KiB,dergoegge,2024-11-25T16:37:07Z,2025-02-26T14:06:15+00:00,1,2229.49,False,7,0,3,13,14,0,14,CLOSED
+31366,cmake: Check `-Wno-*` compiler options for `leveldb` target,hebasto,2024-11-25T15:12:37Z,2025-02-20T17:22:25+00:00,2,2090.16,True,5,3,1,207,7,0,7,MERGED
+31365,interpreter: Use the same type for SignatureHash in the definition,TheCharlatan,2024-11-25T14:42:50Z,2024-11-26T18:45:48+00:00,4,28.05,True,1,1,1,1366,6,1,7,MERGED
+31364,refactor: Fix remaining clang-tidy performance-unnecessary-copy-initialization errors,l0rinc,2024-11-24T18:39:21Z,2024-11-26T22:00:14+00:00,11,51.35,True,8,8,4,384,9,2,11,MERGED
+31363,cluster mempool: introduce TxGraph,sipa,2024-11-24T15:59:18Z,2025-03-26T21:43:54+00:00,130,2933.74,True,3360,150,11,4753,42,118,160,MERGED
+31361,"cmake, qt: Use absolute paths for includes in MOC-generated files",hebasto,2024-11-24T15:24:38Z,2024-12-02T10:29:14+00:00,3,187.08,True,3,0,2,108,5,0,5,MERGED
+31359,cmake: Add `CheckLinkerSupportsPIE` module,hebasto,2024-11-24T11:23:36Z,2025-02-14T17:02:41+00:00,5,1973.65,True,29,10,2,170,13,1,14,MERGED
+31358,depends: Avoid hardcoding `host_prefix` in toolchain file,hebasto,2024-11-23T18:25:23Z,2025-02-05T10:35:35+00:00,3,1768.17,True,2,3,2,280,9,0,9,MERGED
+31357,cmake: Improve build script correctness,hebasto,2024-11-23T15:38:58Z,2024-12-02T10:52:45+00:00,2,211.23,True,5,2,1,385,2,0,2,MERGED
+31356,Add and use `satToBtc` and `btcToSat` util functions,andremralves,2024-11-23T07:13:34Z,2024-12-04T16:58:06+00:00,7,273.74,False,224,202,36,869,6,8,14,CLOSED
+31353,"rpc, cli: add getbalances#total, and use it for -getinfo",jonatack,2024-11-22T19:00:13Z,2025-02-20T15:25:47+00:00,1,2156.43,False,31,12,8,1032,5,1,6,CLOSED
+31352,Add coin-grinder example test,yancyribbens,2024-11-22T17:08:22Z,2024-11-27T15:35:43+00:00,1,118.46,False,23,0,1,187,2,0,2,CLOSED
+31346,Set notifications m_tip_block in LoadChainTip(),Sjors,2024-11-22T12:13:06Z,2024-12-13T13:25:33+00:00,28,505.21,True,26,8,5,105,15,5,20,MERGED
+31343,test: avoid internet traffic in rpc_net.py,theStack,2024-11-21T22:14:42Z,2024-12-11T02:00:17+00:00,5,459.76,True,3,0,1,750,4,1,5,MERGED
+31340,test: add missing segwitv1 test cases to `script_standard_tests`,theStack,2024-11-21T15:20:38Z,2025-04-01T16:32:54+00:00,15,3145.2,True,53,9,3,424,4,6,10,MERGED
+31338,test: Deduplicate assert_mempool_contents(),hodlinator,2024-11-21T11:07:17Z,2024-11-22T00:11:38+00:00,2,13.07,True,2,9,1,211,3,1,4,MERGED
+31337,build: Fix coverage builds,hebasto,2024-11-20T21:41:48Z,2024-11-27T14:21:59+00:00,8,160.67,True,10,2,1,678,16,3,19,MERGED
+31335,macOS: swap docs & CI from pkg-config to pkgconf,fanquake,2024-11-20T15:19:53Z,2024-11-21T13:37:54+00:00,16,22.3,True,3,2,2,209,8,2,10,MERGED
+31333,fuzz: Implement G_TEST_GET_FULL_NAME,hodlinator,2024-11-20T14:17:31Z,2024-11-21T13:57:23+00:00,4,23.66,True,3,2,1,272,2,0,2,MERGED
+31332,contrib: fix BUILDDIR in gen-bitcoin-conf script,MarnixCroes,2024-11-20T14:13:55Z,2025-02-05T19:27:35+00:00,3,1853.23,False,1,1,1,350,10,0,10,CLOSED
+31328,test: locking -testdatadir when not specified and then deleting lock and dir at end of test,kevkevinpal,2024-11-20T02:05:36Z,2025-02-20T20:43:06+00:00,3,2226.62,False,20,17,1,490,4,1,5,CLOSED
+31327,doc: Correct PR Review Club frequency from weekly to monthly,GabrieleBocchi,2024-11-19T22:46:31Z,2024-11-20T10:58:07+00:00,3,12.19,True,1,2,1,214,5,0,5,MERGED
+31325,Make m_tip_block std::optional,Sjors,2024-11-19T19:05:22Z,2024-12-19T15:05:47+00:00,31,716.01,True,17,4,5,29,15,14,29,MERGED
+31323,guix: swap `moreutils` for just `sponge`,fanquake,2024-11-19T16:18:58Z,2024-11-27T10:47:02+00:00,6,186.47,True,33,3,1,491,7,1,8,MERGED
+31318,Drop script_pub_key arg from createNewBlock,Sjors,2024-11-18T15:31:37Z,2024-12-17T16:50:52+00:00,16,697.32,True,123,77,21,480,17,8,25,MERGED
+31317,test: Revert to random path element,maflcko,2024-11-18T13:27:36Z,2024-11-20T10:11:02+00:00,12,44.72,True,13,4,1,334,4,2,6,MERGED
+31316,fuzz: set the output argument of FuzzedSock::Accept(),vasild,2024-11-18T13:25:05Z,2025-10-01T09:52:02+00:00,1,7604.45,False,27,0,1,318,10,0,10,CLOSED
+31315,build: Enable -Wbidi-chars=any,maflcko,2024-11-18T10:07:27Z,2024-11-20T10:55:35+00:00,2,48.8,True,1,0,1,192,4,0,4,MERGED
+31313,refactor: Clamp worker threads in ChainstateManager constructor,TheCharlatan,2024-11-18T09:56:18Z,2024-12-03T23:02:46+00:00,15,373.11,True,7,5,5,335,4,8,12,MERGED
+31312,test: run functional tests from ctest,BrandonOdiwuor,2024-11-18T09:06:53Z,2024-11-18T10:50:42+00:00,1,1.73,False,8,0,2,253,1,1,2,CLOSED
+31307,build: Temporarily disable compiling `fuzz/utxo_snapshot.cpp` with MSVC,hebasto,2024-11-17T16:57:10Z,2024-11-19T10:38:32+00:00,2,41.69,True,4,1,1,193,7,0,7,MERGED
+31306,"ci: Update Clang in ""tidy"" job",hebasto,2024-11-17T16:25:02Z,2024-12-08T16:30:45+00:00,44,504.1,True,9,8,6,186,8,10,18,MERGED
+31305,refactor: Fix remaining clang-tidy performance-inefficient-vector errors,l0rinc,2024-11-17T13:06:26Z,2024-11-26T19:58:57+00:00,6,222.88,True,11,0,7,2373,10,1,11,MERGED
+31301,refactor: convert ContainsNoNUL to ContainsNUL,PastaPastaPasta,2024-11-17T05:34:39Z,2025-02-20T19:49:48+00:00,12,2294.25,False,17,21,6,236,5,5,10,CLOSED
+31300,depends: Update minimum required CMake version,hebasto,2024-11-16T22:22:28Z,2024-11-23T11:24:40+00:00,1,157.04,False,41,4,4,930,7,1,8,CLOSED
+31297,mining: add early return to waitTipChanged(),Sjors,2024-11-15T17:32:34Z,2024-11-22T11:37:52+00:00,7,162.09,False,13,8,4,289,14,3,17,CLOSED
+31296,wallet: Translate [default wallet] string in progress messages,ryanofsky,2024-11-15T17:07:57Z,2025-08-12T18:34:04+00:00,3,6481.44,True,18,11,4,361,11,1,12,MERGED
+31295,refactor: Prepare compile-time check of bilingual format strings,maflcko,2024-11-15T16:37:43Z,2024-12-04T16:16:08+00:00,6,455.64,True,113,108,9,310,1,1,2,MERGED
+31292,Add `contrib/justfile` containing useful development workflow commands.,casey,2024-11-14T21:22:04Z,2025-02-20T15:30:20+00:00,4,2346.14,False,31,0,2,1938,6,1,7,CLOSED
+31291,test: group executed tests within the same directory,furszy,2024-11-14T21:12:48Z,2024-11-15T20:34:58+00:00,8,23.37,False,5,3,1,354,6,3,9,CLOSED
+31288,Add destroy to BlockTemplate schema,Sjors,2024-11-14T13:52:28Z,2024-11-20T15:45:56+00:00,7,145.89,True,10,9,1,372,3,2,5,MERGED
+31287,refactor: Avoid std::string format strings,maflcko,2024-11-14T11:47:09Z,2024-11-15T14:53:31+00:00,7,27.11,True,9,9,4,179,2,2,4,MERGED
+31285,guix: remove `util-linux`,fanquake,2024-11-13T17:55:00Z,2024-11-14T18:29:54+00:00,2,24.58,True,2,3,2,4696,6,0,6,MERGED
+31284,ci: Skip broken Wine64 tests by default,maflcko,2024-11-13T16:39:36Z,2024-12-03T17:21:41+00:00,2,480.7,True,4,1,2,553,19,0,19,MERGED
+31283,Add waitNext() to BlockTemplate interface,Sjors,2024-11-13T12:30:36Z,2025-03-12T19:20:59+00:00,115,2862.84,True,251,11,8,398,39,40,79,MERGED
+31282,refactor: Make node_id a const& in RemoveBlockRequest,maflcko,2024-11-13T08:54:43Z,2025-04-14T21:23:22+00:00,10,3660.48,True,55,19,5,924,5,2,7,MERGED
+31279,policy: ephemeral dust followups,instagibbs,2024-11-12T18:38:32Z,2024-11-25T18:48:57+00:00,23,312.17,True,210,146,15,771,11,17,28,MERGED
+31278,"wallet, rpc: deprecate settxfee and paytxfee",polespinasa,2024-11-12T14:19:24Z,2025-03-24T17:40:41+00:00,70,3171.35,True,35,8,12,1806,29,34,63,MERGED
+31277,doc: mention `descriptorprocesspsbt` in psbt.md,theStack,2024-11-12T14:07:00Z,2024-11-13T09:26:04+00:00,3,19.32,True,4,0,1,85,3,0,3,MERGED
+31276,guix: scope pkg-config to Linux only,fanquake,2024-11-12T11:21:58Z,2024-11-20T10:53:42+00:00,1,191.53,True,8,29,7,258,10,0,10,MERGED
+31271,doc: correct typos,fanquake,2024-11-11T14:16:04Z,2024-11-12T09:48:24+00:00,3,19.54,True,7,7,6,71,2,0,2,MERGED
+31269,validation: Remove RECENT_CONSENSUS_CHANGE validation result,TheCharlatan,2024-11-11T12:04:03Z,2024-11-14T09:43:56+00:00,2,69.66,True,2,32,7,557,6,0,6,MERGED
+31268,cmake: add optional source files to bitcoin_crypto and crc32c directly,purpleKarrot,2024-11-11T11:22:34Z,2025-02-18T12:08:59+00:00,8,2376.77,True,31,50,3,208,21,4,25,MERGED
+31267,"refactor: Drop deprecated space in operator""""_mst",maflcko,2024-11-11T10:10:52Z,2024-11-11T14:21:16+00:00,5,4.17,True,25,17,4,576,3,2,5,MERGED
+31264,doc: Fixup bitcoin-wallet manpage chain selection args,maflcko,2024-11-09T12:39:38Z,2024-11-11T10:58:10+00:00,5,46.31,True,2,2,1,170,2,1,3,MERGED
+31259,doc: Fix missing comma in JSON example in REST-interface.md,secp512k2,2024-11-08T22:24:34Z,2024-11-11T11:24:37+00:00,1,61.0,True,1,1,1,249,4,0,4,MERGED
+31257,ci: make ctest stop on failure,furszy,2024-11-08T18:12:21Z,2024-11-11T10:49:32+00:00,1,64.62,True,3,3,2,129,2,0,2,MERGED
+31251,test: report detailed msg during utf8 response decoding error,furszy,2024-11-07T19:06:00Z,2024-12-30T19:13:04+00:00,6,1272.12,True,6,1,1,813,2,4,6,MERGED
+31250,wallet: Disable creating and loading legacy wallets,achow101,2024-11-07T18:42:43Z,2025-04-25T12:11:32+00:00,70,4049.48,True,546,5616,115,170,26,36,62,MERGED
+31249,test: Add combinerawtransaction test to rpc_createmultisig,achow101,2024-11-07T18:35:27Z,2024-11-12T10:58:39+00:00,5,112.39,True,10,4,1,198,4,3,7,MERGED
+31248,test: Rework wallet_migration.py to use previous releases,achow101,2024-11-07T18:32:07Z,2024-12-05T20:47:53+00:00,20,674.26,True,174,166,3,188,4,13,17,MERGED
+31247,psbt: MuSig2 Fields,achow101,2024-11-07T18:22:32Z,2025-04-18T20:45:07+00:00,39,3890.38,True,319,1,3,123,15,24,39,MERGED
+31244,descriptors: MuSig2,achow101,2024-11-07T18:10:02Z,2025-07-31T20:52:11+00:00,123,6386.7,True,752,51,14,68,18,77,95,MERGED
+31243,descriptor: Move filling of keys from `DescriptorImpl::MakeScripts` to `PubkeyProvider::GetPubKey`,achow101,2024-11-07T16:56:35Z,2025-04-21T18:54:12+00:00,38,3961.96,True,94,75,4,369,3,30,33,MERGED
+31242,"wallet, desc spkm: Return SigningProvider only if we have the privkey",achow101,2024-11-07T16:52:10Z,2025-01-16T17:31:18+00:00,4,1680.65,True,60,24,8,374,5,5,10,MERGED
+31241,wallet: remove BDB dependency from wallet migration benchmark,furszy,2024-11-07T16:42:00Z,2025-01-24T23:21:59+00:00,11,1878.67,True,38,25,3,213,9,6,15,MERGED
+31239,test: clarify log messages when handling SOCKS5 proxy connections,vasild,2024-11-07T13:24:08Z,2024-11-11T14:08:55+00:00,2,96.75,True,4,2,1,90,2,0,2,MERGED
+31238,fuzz: Limit wallet_notifications iterations,maflcko,2024-11-06T20:48:16Z,2024-11-07T10:27:46+00:00,2,13.66,True,1,1,1,2348,2,0,2,MERGED
+31237,doc: Add missing 'blank=true' option in offline-signing-tutorial.md,secp512k2,2024-11-06T18:37:35Z,2024-11-11T14:13:18+00:00,1,115.6,True,2,1,1,460,3,0,3,MERGED
+31235,addrman: cap the `max_pct` to not exceed the maximum number of addresses,brunoerg,2024-11-06T18:07:23Z,2024-11-13T12:13:24+00:00,17,162.1,True,7,5,5,293,13,3,16,MERGED
+31233,cmake: Improve Python robustness and test usability,hebasto,2024-11-06T13:45:10Z,2025-07-03T09:47:30+00:00,17,5732.04,True,13,14,4,1159,13,4,17,MERGED
+31232,ci: `add second_deadlock_stack=1` to TSAN options,fanquake,2024-11-06T11:15:08Z,2024-11-06T15:04:12+00:00,1,3.82,True,1,1,1,490,2,0,2,MERGED
+31231,cmake: Fix `IF_CHECK_PASSED` option handling,hebasto,2024-11-06T09:01:56Z,2024-12-06T10:16:02+00:00,1,721.24,True,4,2,2,195,2,0,2,MERGED
+31225,doc: Fix grammatical errors in multisig-tutorial.md,secp512k2,2024-11-05T20:14:04Z,2024-11-14T10:26:03+00:00,1,206.2,True,1,1,1,80,1,0,1,MERGED
+31223,"net, init: derive default onion port if a user specified a -port",mzumsande,2024-11-05T18:01:38Z,2024-12-13T23:56:52+00:00,12,917.92,True,94,19,9,790,11,6,17,MERGED
+31222,tests: Handle BDB dynamic pagesize,achow101,2024-11-05T17:55:23Z,2024-11-06T21:10:41+00:00,1,27.25,False,7,4,1,130,3,1,4,CLOSED
+31221,ci: Split out native fuzz jobs for macOS and windows (take 2),dergoegge,2024-11-05T14:45:57Z,2024-11-26T18:30:13+00:00,25,507.74,True,68,8,2,256,12,8,20,MERGED
+31216,Update secp256k1 subtree to v0.6.0,achow101,2024-11-04T20:02:29Z,2024-11-06T11:15:30+00:00,2,39.22,True,4750,297,59,89,6,0,6,MERGED
+31215,rpc: increase the defaults for -rpcthreads and -rpcworkqueue,vasild,2024-11-04T16:13:31Z,2024-12-30T18:45:54+00:00,10,1346.54,True,12,3,2,283,6,1,7,MERGED
+31213,fuzz: Fix difficulty target generation in `p2p_headers_presync`,marcofleon,2024-11-04T15:00:05Z,2024-11-20T11:46:28+00:00,13,380.77,True,34,4,2,738,5,4,9,MERGED
+31212,util: Improve documentation and negation of args,hodlinator,2024-11-04T14:15:32Z,2024-12-04T18:20:58+00:00,57,724.09,True,212,75,16,493,21,45,66,MERGED
+31209,test: cover edge case for lockunspent rpc,Abdulkbk,2024-11-04T11:57:19Z,2025-02-20T15:22:32+00:00,1,2595.42,False,3,0,1,446,8,0,8,CLOSED
+31203,fuzz: fix `implicit-integer-sign-change` in wallet_create_transaction,brunoerg,2024-11-01T14:15:00Z,2024-11-01T15:40:53+00:00,1,1.43,True,1,1,1,4302,3,0,3,MERGED
+31198,"init: warn, don't error, when '-upnp' is set",darosior,2024-10-31T18:10:38Z,2024-11-01T21:15:33+00:00,1,27.08,True,2,2,1,309,9,0,9,MERGED
+31197,refactor: mining interface 30955 followups,Sjors,2024-10-31T18:07:14Z,2024-12-17T17:32:52+00:00,12,1127.43,True,25,24,5,62,3,2,5,MERGED
+31196,Prune mining interface,Sjors,2024-10-31T17:17:30Z,2024-12-18T19:44:21+00:00,9,1154.45,True,15,67,5,792,12,2,14,MERGED
+31192,"depends, doc: List packages required to build `qt` package separately",hebasto,2024-10-31T13:20:58Z,2024-11-05T16:13:31+00:00,12,122.88,True,8,2,1,174,5,3,8,MERGED
+31191,"build: Make G_FUZZING constexpr, require -DBUILD_FOR_FUZZING=ON to fuzz",maflcko,2024-10-31T13:00:35Z,2024-11-05T11:05:38+00:00,4,118.08,True,17,22,7,607,18,1,19,MERGED

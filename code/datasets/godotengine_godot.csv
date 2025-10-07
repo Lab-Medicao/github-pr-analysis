@@ -1,5 +1,6 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
 111237,Fix openGL depthbuffer attachment using wrong type,dog-on-moon,2025-10-04T03:45:03Z,2025-10-04T12:54:15+00:00,1,9.15,False,2,2,1,952,2,0,2,CLOSED
+111234,Fix warning spam in Compatibility when using depth texture,Kaleb-Reid,2025-10-03T23:25:58Z,2025-10-06T04:33:01+00:00,1,53.12,True,2,2,1,2422,0,0,0,MERGED
 111201,Ensure correct metadata for enum items,KoBeWi,2025-10-03T09:28:28Z,2025-10-03T10:49:38+00:00,2,1.35,True,11,8,2,46,2,0,2,MERGED
 111194,Add missing ItemListSecondary and TreeSecondary theme type variations,passivestar,2025-10-03T07:14:23Z,2025-10-03T17:11:17+00:00,1,9.95,True,3,0,3,117,2,0,2,MERGED
 111191,Fix weak and strong joypad vibration being swapped,Nintorch,2025-10-03T06:10:08Z,2025-10-03T17:11:17+00:00,1,11.02,True,9,3,1,189,1,0,1,MERGED
@@ -23,6 +24,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 111085,Fix tag name focus,KoBeWi,2025-09-30T18:30:08Z,2025-10-01T23:08:01+00:00,1,28.63,True,1,1,1,73,1,0,1,MERGED
 111084,"Make `CowData::reserve` warn message when new capacity < size verbose, like other `reserve` methods",Ivorforce,2025-09-30T18:23:17Z,2025-09-30T23:39:00+00:00,1,5.26,True,5,2,1,284,1,0,1,MERGED
 111079,[3.x] Fix `mbedtls` readme duplicated text,lawnjelly,2025-09-30T16:55:19Z,2025-10-01T09:14:44+00:00,1,16.32,True,0,2,1,38,1,0,1,MERGED
+111078,[3.6] Cherry-picks for the 3.6 branch (future 3.6.2) - 1st batch,lawnjelly,2025-09-30T16:36:51Z,2025-10-06T09:39:01+00:00,3,137.04,True,108802,39010,328,164,9,1,10,MERGED
 111067,Remove unused `multiplayer` member from `Node`,HolonProduction,2025-09-30T12:05:34Z,2025-10-01T23:08:01+00:00,2,35.04,True,0,2,1,246,5,0,5,MERGED
 111061,"[3.x] Android: Set minsdk to 21, workaround `fseeko` error in Opus.",InfoDevkota,2025-09-30T07:30:15Z,2025-09-30T16:26:23+00:00,6,8.94,True,36,4,5,171,11,2,13,MERGED
 111060,Always show settings to enable DOF near + far,Kaleb-Reid,2025-09-30T05:37:39Z,2025-10-01T23:08:01+00:00,1,41.51,True,2,2,1,228,1,0,1,MERGED
@@ -149,3 +151,851 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 110298,Fix Skeleton2D TwoBoneIK and LookAt mirroring,0xcafeb33f,2025-09-06T19:07:36Z,2025-09-24T15:04:33+00:00,1,427.95,True,42,30,2,270,5,0,5,MERGED
 110294,Fix Wayland build with OpenGL disabled.,bruvzg,2025-09-06T15:39:14Z,2025-09-08T19:03:16+00:00,1,51.4,True,2,2,1,54,1,0,1,MERGED
 110291,Enable objects stored as dictionary keys to be selected in inspector.,StarryWorm,2025-09-06T14:10:00Z,2025-09-19T02:07:39+00:00,1,299.96,True,1,0,1,166,1,0,1,MERGED
+110280,"Fix ""SpriteFrames"" editor not fully hidding the bottom panel",YeldhamDev,2025-09-05T16:59:50Z,2025-09-08T19:03:16+00:00,1,74.06,True,0,1,1,1146,1,0,1,MERGED
+110278,Redraw shape controls when ColorPicker theme changes,KoBeWi,2025-09-05T16:06:39Z,2025-10-01T18:20:12+00:00,1,626.23,True,3,0,1,142,2,0,2,MERGED
+110276,make_rst.py: Add missing rst-class to annotation descriptions,Cykyrios,2025-09-05T15:39:42Z,2025-09-19T02:07:38+00:00,1,322.47,True,1,0,1,99,1,0,1,MERGED
+110269,Defer checking for rendering device support until the new project dialog is opened,clayjohn,2025-09-05T07:13:01Z,2025-09-19T18:08:47+00:00,2,346.93,True,18,8,2,379,2,1,3,MERGED
+110268,[Windows] Try reading GPU IDs directly from registry.,bruvzg,2025-09-05T05:55:10Z,2025-09-17T16:48:47+00:00,6,298.89,True,87,3,1,117,1,2,3,MERGED
+110264,Metal: Ensure baked Metal binaries can be loaded on the minimum target OS,stuartcarnie,2025-09-05T00:19:17Z,2025-09-08T15:23:15+00:00,5,87.07,True,250,44,14,3928,6,1,7,MERGED
+110263,[.NET] Require `net9.0` for Android exports,raulsntos,2025-09-04T23:01:26Z,2025-09-05T13:37:22+00:00,1,14.6,True,9,3,4,517,5,0,5,MERGED
+110260,Fix the issue preventing installing C# binaries on Android devices with api <= 29,m4gr3d,2025-09-04T19:00:36Z,2025-09-05T03:54:32+00:00,3,8.9,True,7,1,1,308,2,0,2,MERGED
+110259,Add name info to EditorAutoloadSettings invalid name message,ktxyz,2025-09-04T18:50:53Z,2025-09-22T18:38:48+00:00,1,431.8,True,7,7,1,917,4,0,4,MERGED
+110257,Image: Support generating mipmaps for all uncompressed formats,BlueCube3310,2025-09-04T16:23:52Z,2025-10-01T18:20:12+00:00,2,649.94,True,59,34,2,198,2,1,3,MERGED
+110255,[3.x] Address API 35 UI changes,syntaxerror247,2025-09-04T14:48:38Z,2025-09-13T06:52:56+00:00,4,208.07,True,32,0,2,20,1,4,5,MERGED
+110251,Properly inspect old remote selection,KoBeWi,2025-09-04T13:42:38Z,2025-09-24T15:04:33+00:00,1,481.37,True,14,1,3,217,5,0,5,MERGED
+110250,Hide `Control` focus when given via mouse input,YeldhamDev,2025-09-04T13:06:00Z,2025-09-22T18:38:48+00:00,22,437.55,True,229,105,53,899,14,9,23,MERGED
+110249,Fix `CompositorEffect` not setting post-transparent callback on init,beicause,2025-09-04T11:25:29Z,2025-09-23T17:13:52+00:00,1,461.81,True,1,1,1,414,1,0,1,MERGED
+110247,Image: Make `fill` method also fill the mipmaps,BlueCube3310,2025-09-04T09:14:41Z,2025-09-24T15:04:33+00:00,2,485.83,True,11,7,2,104,1,0,1,MERGED
+110244,Fix shader baker metal crash,TCROC,2025-09-04T04:09:12Z,2025-09-08T05:05:44+00:00,2,96.94,False,53,15,11,442,16,1,17,CLOSED
+110242,Fix editor crash caused by EditorFileSystem::get_singleton access in theme initialization path,ktxyz,2025-09-04T01:17:55Z,2025-09-22T13:56:28+00:00,1,444.64,True,1,1,1,1647,6,0,6,MERGED
+110241,Fix shader compilation errors in Compatibility when using `depth_texture`,Calinou,2025-09-03T22:35:01Z,2025-09-22T18:38:49+00:00,1,452.06,True,6,6,1,220,3,0,3,MERGED
+110240,Add checks for integer vectors for integer division warning,westenral,2025-09-03T21:57:07Z,2025-10-01T01:15:32+00:00,2,651.31,True,7,1,1,414,1,1,2,MERGED
+110236,Document CanvasItem `draw_*()` methods using local coordinate space,Calinou,2025-09-03T21:10:57Z,2025-09-11T16:40:23+00:00,1,187.49,True,27,27,1,41,1,0,1,MERGED
+110231,Fix invalid suggested file name when saving resource from a scene that hasn't been saved yet,fstxz,2025-09-03T15:30:33Z,2025-09-24T15:04:33+00:00,1,503.57,True,5,2,2,13,5,0,5,MERGED
+110225,Fix `ScriptEditor::edit()` ignoring column parameter,fstxz,2025-09-03T12:59:31Z,2025-09-19T02:07:39+00:00,1,373.14,True,2,2,1,12,1,0,1,MERGED
+110223,Document `PhysicsServer3D` shapes,rburing,2025-09-03T10:37:55Z,2025-09-23T20:12:25+00:00,8,489.57,True,36,14,1,122,1,9,10,MERGED
+110215,Fix Resource duplicate calls `ImageTexture::set_image` with an invalid image.,WhalesState,2025-09-03T00:23:15Z,2025-09-08T19:03:16+00:00,1,138.67,True,17,3,2,14,10,0,10,MERGED
+110213,Image: Improve `AlphaMode` documentation,BlueCube3310,2025-09-02T21:47:54Z,2025-09-17T01:30:15+00:00,1,339.71,True,3,3,1,106,1,0,1,MERGED
+110212,Fix SpinBox value change when held down on separation between buttons,Giganzo,2025-09-02T21:42:46Z,2025-10-01T18:20:12+00:00,2,692.62,True,17,8,1,149,1,0,1,MERGED
+110206,Remove unused parameter in `__constant_get_enum_name`/`__constant_get_bitfield_name`,aaronp64,2025-09-02T19:06:43Z,2025-09-17T01:30:15+00:00,1,342.39,True,24,24,3,173,1,0,1,MERGED
+110204,Add GENERAL resource usage to the render graph and fix mutable texture initialization in D3D12.,DarioSamo,2025-09-02T18:25:45Z,2025-09-02T21:26:55+00:00,1,3.02,True,19,9,4,713,2,0,2,MERGED
+110203,Clamp minimum size of 3D texture view in D3D12.,DarioSamo,2025-09-02T18:15:44Z,2025-09-19T18:08:46+00:00,2,407.88,True,1,1,1,181,1,0,1,MERGED
+110198,"Configure SDL assuming we, in fact, have a libc",zeux,2025-09-02T15:37:05Z,2025-09-17T16:48:47+00:00,1,361.19,True,1,0,1,1132,3,0,3,MERGED
+110194,[TextServer] Shape emojis as separate runs.,bruvzg,2025-09-02T10:04:52Z,2025-09-23T02:01:28+00:00,1,495.94,True,44,9,4,29,2,0,2,MERGED
+110191,[TextEdit] Fix text edit font update order.,bruvzg,2025-09-02T05:55:39Z,2025-09-02T14:24:02+00:00,1,8.47,True,12,12,1,108,0,0,0,MERGED
+110189,Fix Clear option not visible when a Resource's @export-ed property is a Script,bjornmp,2025-09-02T01:37:04Z,2025-09-19T14:23:06+00:00,3,420.77,True,12,3,1,153,1,2,3,MERGED
+110188,Trim -loop & -cycle from animations during Godot 3 to 4 conversion,vaner-org,2025-09-02T00:54:23Z,2025-09-19T14:23:06+00:00,1,421.48,True,47,0,2,82,1,0,1,MERGED
+110184,Fix rounding error in clustered vertex light culling,Namey5,2025-09-01T23:47:00Z,2025-09-17T16:48:47+00:00,2,377.03,True,3,1,1,428,1,0,1,MERGED
+110174,Avoid attempting to load from shader cache when both the user-dir and res-dir are invalid,clayjohn,2025-09-01T19:03:43Z,2025-09-02T00:12:11+00:00,2,5.14,True,7,3,2,1348,1,0,1,MERGED
+110169,Optimize data flushing for `FileAccessCompressed` and `FileAccessEncrypted`,BlueCube3310,2025-09-01T16:35:24Z,2025-09-17T01:30:15+00:00,3,368.91,True,18,17,2,382,1,2,3,MERGED
+110164,Use placeholder instead of value for tooltips of `PROPERTY_HINT_PASSWORD` properties.,bruvzg,2025-09-01T13:51:37Z,2025-09-19T18:08:47+00:00,2,436.29,True,10,2,1,29,1,0,1,MERGED
+110160,Fix ColorPicker after adding intensity sliders.,WhalesState,2025-09-01T10:08:44Z,2025-09-01T16:16:39+00:00,2,6.13,True,2,1,2,239,3,1,4,MERGED
+110156,Fix inconsistent internal name of `get_resource_filesystem`,aaronfranke,2025-09-01T05:16:19Z,2025-09-30T23:39:00+00:00,1,714.38,True,3,3,2,886,2,0,2,MERGED
+110148,[MSDF] Fix outline bleed out at small sizes.,bruvzg,2025-08-31T20:38:17Z,2025-09-01T17:28:06+00:00,2,20.83,True,3,3,3,220,1,0,1,MERGED
+110145,Move Skeleton3D init process (for dirty flags) into `POST_ENTER_TREE` from `ENTER_TREE`,TokageItLab,2025-08-31T17:14:54Z,2025-09-08T19:03:16+00:00,3,193.81,True,5,3,1,531,6,0,6,MERGED
+110137,Fix `ScriptEditor::edit()` not jumping to the first line,fstxz,2025-08-31T12:59:23Z,2025-09-23T02:01:29+00:00,1,541.03,True,1,1,1,13,3,0,3,MERGED
+110135,Emit scene_changed event when opening a scene from an empty tab list,Flynsarmy,2025-08-31T12:01:22Z,2025-09-22T13:56:28+00:00,1,529.92,True,3,0,1,229,3,0,3,MERGED
+110113,Fix build on OpenBSD,VlkrS,2025-08-30T13:07:39Z,2025-09-01T16:16:39+00:00,2,51.15,True,1,1,1,103,1,0,1,MERGED
+110108,Differentiate the suspend button in the Game tab with the Pause button in the editor run bar,PiCode9560,2025-08-30T04:32:35Z,2025-09-24T15:04:33+00:00,7,610.53,True,3,1,2,139,7,3,10,MERGED
+110107,Fix Range scale overflow,aaronfranke,2025-08-30T03:54:27Z,2025-09-01T17:28:06+00:00,2,61.56,True,1,1,1,975,4,0,4,MERGED
+110097,Add more `Array` tests,aaronp64,2025-08-29T20:41:31Z,2025-09-19T18:08:47+00:00,5,501.45,True,160,9,3,91,1,2,3,MERGED
+110094,Add missing range hint to `Viewport.oversampling_override` in the editor,Calinou,2025-08-29T15:43:14Z,2025-09-01T16:16:39+00:00,2,72.56,True,1,1,1,99,2,0,2,MERGED
+110089,Fix `Tree` relationship lines do not apply `h_separation` and `item_margin` correctly,dagarsar,2025-08-29T14:15:27Z,2025-09-20T02:00:42+00:00,1,515.75,True,4,7,1,34,2,0,2,MERGED
+110068,"fix: macOS cmd + drag snapping not working for 3D editor Move, Rotate and Scale tool",ktxyz,2025-08-28T22:29:05Z,2025-08-29T17:06:40+00:00,1,18.63,True,1,1,1,14,1,0,1,MERGED
+110066,Fix folder color in FileSystem Dock when using light theme,Giganzo,2025-08-28T20:41:14Z,2025-10-01T18:20:12+00:00,2,813.65,True,9,2,1,30,1,0,1,MERGED
+110065,Update `ProjectSettings` HDR 2D documentation to include Compatibility,allenwp,2025-08-28T20:15:09Z,2025-09-01T17:28:06+00:00,6,93.22,True,9,4,3,138,1,4,5,MERGED
+110064,Fix `classdb_register_extension_class*` documentation in `core/extension/gdextension_interface.h`,touilleMan,2025-08-28T20:11:55Z,2025-08-29T09:08:44+00:00,2,12.95,True,3,3,1,32,0,0,0,MERGED
+110063,Metal: Reduce baked version to MSL 3.1; validate minimum version,stuartcarnie,2025-08-28T19:49:08Z,2025-09-02T00:12:11+00:00,1,100.38,True,10,1,3,159,15,0,15,MERGED
+110059,[3.x] Fix `is_visible_in_tree` regression for out of tree,lawnjelly,2025-08-28T17:16:16Z,2025-08-29T04:51:17+00:00,1,11.58,True,10,8,1,506,1,0,1,MERGED
+110058,Perform per-line or per-rect blits in blit_rect.,Rinnegatamante,2025-08-28T15:21:21Z,2025-09-30T23:39:00+00:00,6,800.29,True,11,14,1,531,12,3,15,MERGED
+110057,Fix editor export plugins always causing resources to be edited.,DarioSamo,2025-08-28T15:13:05Z,2025-08-29T17:06:40+00:00,2,25.89,True,11,7,1,395,1,0,1,MERGED
+110055,Add helper methods to convert right-to-left `Rect2i` and `Point2i` in `Tree`'s `draw_item`,dagarsar,2025-08-28T14:13:26Z,2025-10-01T18:20:12+00:00,1,820.11,True,31,44,2,141,4,0,4,MERGED
+110049,Do not set flags when `PopupMenu::set_visible` is called to hide popup.,bruvzg,2025-08-28T10:18:21Z,2025-08-29T17:06:40+00:00,1,30.81,True,1,1,1,141,1,0,1,MERGED
+110044,Validate theme type name input in Add Theme Type dialog,timothyqiu,2025-08-28T03:19:01Z,2025-08-29T17:06:40+00:00,6,37.79,True,25,19,3,684,2,4,6,MERGED
+110043,Add single-object inspect command backwards compatible API for potential regression,yotam-frid,2025-08-28T00:43:01Z,2025-09-02T00:12:11+00:00,3,119.49,True,53,0,5,1010,3,0,3,MERGED
+110041,Make `SceneTree` not crash when receiving a notification without a root being set,Ivorforce,2025-08-27T23:42:50Z,2025-08-29T17:06:40+00:00,2,41.4,True,4,0,1,3372,1,0,1,MERGED
+110040,[4.3] Install older .NET 6 on Linux CI to fix compiling,aaronfranke,2025-08-27T22:57:21Z,2025-08-28T02:57:46+00:00,1,4.01,True,3,1,1,284,1,1,2,MERGED
+110036,[4.2] Fix incorrect Vulkan include in vulkan_context.h,aaronfranke,2025-08-27T21:51:51Z,2025-08-28T02:59:50+00:00,1,5.13,True,1,5,1,910,1,0,1,MERGED
+110033,Fix `WindowUtils::copy_and_rename_pdb` regression,SK83RJOSH,2025-08-27T20:52:03Z,2025-09-08T15:22:44+00:00,1,282.51,True,1,1,1,701,8,0,8,MERGED
+110028,Enable component pruning during mesh simplification,zeux,2025-08-27T15:56:21Z,2025-10-01T18:20:12+00:00,3,842.4,True,15,0,1,1251,6,0,6,MERGED
+110027, Switch LOD generation to use iterative simplification,zeux,2025-08-27T15:49:52Z,2025-09-25T03:57:42+00:00,2,684.13,True,31,29,1,2248,4,0,4,MERGED
+110025,Fix --generate-spirv-debug-info regression (alternate take),DarioSamo,2025-08-27T15:30:19Z,2025-09-02T02:37:27+00:00,1,131.12,True,73,52,5,785,6,0,6,MERGED
+110024,Fix child relationship lines not being drawn when selecting cells other than first,dagarsar,2025-08-27T14:17:08Z,2025-09-24T15:04:33+00:00,1,672.79,True,13,5,2,11,5,3,8,MERGED
+110018,Update class reference contribution link.,Ivorforce,2025-08-27T11:10:38Z,2025-09-11T16:40:23+00:00,8,365.5,True,25,25,6,211,4,6,10,MERGED
+110012,Reinstate `const` parameter in `Tree`'s `draw_item_rect`,dagarsar,2025-08-27T09:33:15Z,2025-09-20T02:00:42+00:00,1,568.46,True,6,6,2,235,1,0,1,MERGED
+110010,[Windows] Save and restore window rect when switching to/from maximized+borderless mode.,bruvzg,2025-08-27T08:13:33Z,2025-08-27T18:44:16+00:00,1,10.51,True,21,1,1,56,1,0,1,MERGED
+110003,"Revert ""Prevent crashing if `max_threads` is zero.""",WinnerWind,2025-08-27T03:35:52Z,2025-08-27T18:44:16+00:00,2,15.14,True,2,2,2,204,1,0,1,MERGED
+110002,OpenXR: Fix ViewportTextures not displaying correct texture (OpenGL),BastiaanOlij,2025-08-27T03:11:58Z,2025-09-16T14:54:35+00:00,2,491.71,True,38,2,2,878,2,0,2,MERGED
+109995,Handle the case where VRS is a two byte per pixel format when creating default VRS texture,clayjohn,2025-08-26T19:30:14Z,2025-08-27T00:02:33+00:00,1,4.54,True,9,3,2,252,1,0,1,MERGED
+109994,Use vertex shader workaround for Mali GXX GPUs for glow shader,clayjohn,2025-08-26T18:39:01Z,2025-08-27T00:02:33+00:00,1,5.39,True,16,3,1,352,1,0,1,MERGED
+109993,Check renderer type when setting 3D upscaling mode.,bruvzg,2025-08-26T18:02:20Z,2025-08-27T18:44:17+00:00,4,24.7,True,9,0,1,13,3,2,5,MERGED
+109992, Use regularization flag for LODs of deformable objects to improve appearance post deformation,zeux,2025-08-26T17:48:03Z,2025-09-23T20:12:25+00:00,7,674.41,True,11,1,1,764,4,2,6,MERGED
+109990,Update meshoptimizer to v0.25,zeux,2025-08-26T17:25:48Z,2025-09-19T02:07:39+00:00,3,560.7,True,1162,143,8,542,1,0,1,MERGED
+109981,Clamp menus at the bottom of the screen.,bruvzg,2025-08-26T08:24:49Z,2025-09-20T02:00:42+00:00,4,593.6,True,14,0,2,29,3,3,6,MERGED
+109977,Make POT generation use `tooltip_auto_translate_mode`,timothyqiu,2025-08-26T05:15:09Z,2025-09-20T02:00:42+00:00,2,596.76,True,27,0,1,92,3,0,3,MERGED
+109974,SwiftUI lifecycle for Apple embedded platforms,rsanchezsaez,2025-08-26T00:07:57Z,2025-10-03T17:11:17+00:00,3,929.06,True,346,196,29,1931,1,3,4,MERGED
+109973,Make shader editor menu position consistent between shader languages,aaronfranke,2025-08-25T23:05:33Z,2025-08-26T14:22:09+00:00,1,15.28,True,82,113,7,1977,1,0,1,MERGED
+109970,Add debanding to SMAA and apply debanding before spatial upscalers.,allenwp,2025-08-25T21:14:48Z,2025-08-27T00:02:33+00:00,1,26.8,True,125,11,5,1626,4,0,4,MERGED
+109969,OpenXR: Fix errors reported by `XrApiLayer_core_validation`,dsnopek,2025-08-25T20:40:45Z,2025-09-20T02:00:42+00:00,1,605.33,True,36,13,5,426,1,0,1,MERGED
+109944,Fix hang when importing blender files in headless mode,DanielKinsman,2025-08-25T01:33:39Z,2025-09-20T02:00:42+00:00,5,624.45,True,2,0,1,167,2,2,4,MERGED
+109943,Fix tree to update size with scrollbars disabled,kevinlam508,2025-08-25T01:03:35Z,2025-09-24T15:04:33+00:00,1,734.02,True,13,0,2,1976,4,0,4,MERGED
+109936,"Revert ""[Web] Disregard touch events in pointer callbacks""",clayjohn,2025-08-24T18:15:44Z,2025-08-24T19:25:30+00:00,1,1.16,True,2,10,1,503,2,0,2,MERGED
+109929,Fix crash when rendering a soft body 3d,jrouwe,2025-08-24T13:39:04Z,2025-08-24T19:25:30+00:00,1,5.77,True,15,8,1,326,1,0,1,MERGED
+109927,Popup: Reset state on visibility change,deralmas,2025-08-24T08:58:29Z,2025-08-27T18:44:16+00:00,2,81.76,True,2,9,1,959,2,0,2,MERGED
+109925,Clarify that velocity doesn't need delta multiplication in CharacterBody documentation,RolandMarchand,2025-08-24T03:13:59Z,2025-09-19T02:07:38+00:00,1,622.89,True,4,0,2,1650,7,0,7,MERGED
+109915,Fix Audio bottom panel going under the taskbar on small displays,arkology,2025-08-23T19:46:48Z,2025-09-24T15:04:33+00:00,5,763.3,True,48,4,4,265,3,2,5,MERGED
+109912,CI: Fix detection of Windows D3D12 dependencies,Repiteo,2025-08-23T16:51:13Z,2025-08-24T19:25:30+00:00,4,26.57,True,20,5,1,225,0,1,1,MERGED
+109905,Add missing bone name suggestions in ModifierBoneTarget3D,TokageItLab,2025-08-23T12:26:36Z,2025-08-24T16:08:28+00:00,1,27.7,True,13,0,1,85,1,0,1,MERGED
+109903,Allow extending previously-non-abstract scripts that became abstract,aaronfranke,2025-08-23T10:09:35Z,2025-08-27T18:44:16+00:00,11,104.58,True,18,1,1,865,2,8,10,MERGED
+109900,Make Node::orphan_node_count thread-safe,Ryan-000,2025-08-23T03:06:43Z,2025-09-30T23:39:00+00:00,4,932.54,True,25,9,5,0,5,2,7,MERGED
+109897,Geometry2D minor optimization,WhalesState,2025-08-23T00:45:03Z,2025-09-20T02:00:43+00:00,2,673.26,True,9,5,1,2444,2,0,2,MERGED
+109891,Metal: Read `gl_ViewIndex` in tonemapper.glsl for multi-view subpasses,stuartcarnie,2025-08-22T23:14:36Z,2025-08-24T16:08:27+00:00,1,40.9,True,5,0,1,2354,1,0,1,MERGED
+109887,Rescale values to better utilize R128 range before snapping,aaronfranke,2025-08-22T21:19:24Z,2025-08-27T00:02:33+00:00,2,98.72,True,32,15,1,787,4,0,4,MERGED
+109884,"Remove nearly-unused ""default"" range hint min/max",aaronfranke,2025-08-22T20:10:26Z,2025-08-24T16:08:28+00:00,2,43.97,True,2,2,1,827,4,0,4,MERGED
+109882,Treat missing variants as normal cache misses during shader cache lookup,precup,2025-08-22T18:53:38Z,2025-08-24T16:08:27+00:00,1,45.25,True,6,1,1,451,3,0,3,MERGED
+109881,Fix overly aggressive focus grabbing by StateMachine and BlendSpaces,vaner-org,2025-08-22T18:25:43Z,2025-08-24T16:08:28+00:00,1,45.71,True,0,12,3,175,1,0,1,MERGED
+109877,Document `REGION_RECT` canvas shader built-in in Sprite2D region property,Calinou,2025-08-22T17:42:38Z,2025-08-25T14:56:36+00:00,1,69.23,True,1,0,1,83,2,0,2,MERGED
+109857,[Linux/BSD] Initialize DBus only once.,bruvzg,2025-08-22T06:27:37Z,2025-08-22T19:00:49+00:00,1,12.55,True,117,97,5,13,5,0,5,MERGED
+109856,OpenXR: Fix default action map entry for Vive Focus 3,BastiaanOlij,2025-08-22T06:20:39Z,2025-08-22T17:39:15+00:00,1,11.31,True,2,1,2,89,1,0,1,MERGED
+109847,Fix typos in BlendSpace2D editor's axis labels' accessibility names,vaner-org,2025-08-21T23:54:02Z,2025-09-16T16:57:20+00:00,2,617.05,True,3,3,1,49,2,0,2,MERGED
+109843,Fix `FileAccess::create_temp()` default args error,Muller-Castro,2025-08-21T23:04:34Z,2025-09-22T13:56:28+00:00,1,758.87,True,2,2,1,156,1,0,1,MERGED
+109841,Process skeleton modifiers when the skeleton is marked as dirty,precup,2025-08-21T20:15:12Z,2025-08-22T21:14:09+00:00,2,24.98,True,2,2,1,643,2,1,3,MERGED
+109828,Create an undo/redo action when pinning a SoftBody3D point in the editor,Calinou,2025-08-21T15:23:54Z,2025-08-26T14:22:09+00:00,5,118.97,True,10,6,3,413,2,2,4,MERGED
+109825,Don't start editor as unsaved,KoBeWi,2025-08-21T12:39:07Z,2025-08-21T23:57:04+00:00,1,11.3,True,1,1,1,76,12,0,12,MERGED
+109824,Enable input when ColorPicker popup exits tree,KoBeWi,2025-08-21T11:55:08Z,2025-08-22T17:39:15+00:00,2,29.74,True,1,0,1,13,1,0,1,MERGED
+109820,Fix one-way-collision polygons being merged despite being on different Y-origins in TileMapLayer,groud,2025-08-21T09:52:46Z,2025-08-22T21:14:09+00:00,2,35.36,True,12,1,2,13,1,1,2,MERGED
+109819,Fix DirectInput controllers on game startup,Nintorch,2025-08-21T08:30:59Z,2025-08-25T14:56:36+00:00,2,102.43,True,18,18,3,344,4,0,4,MERGED
+109818,Fix safe area regression on older Android versions,syntaxerror247,2025-08-21T06:43:17Z,2025-08-27T18:44:16+00:00,9,156.02,True,6,1,1,13,3,2,5,MERGED
+109815,Fix `EditorExportPlugin::_export_file()` ignoring GDScripts,Muller-Castro,2025-08-21T03:11:34Z,2025-09-16T16:57:20+00:00,4,637.76,True,21,15,1,242,1,2,3,MERGED
+109814,Update `TextEdit` to use center alignment for inline objects,aaronp64,2025-08-20T21:36:33Z,2025-08-21T11:27:09+00:00,1,13.84,True,2,2,1,440,1,0,1,MERGED
+109813,Clarify that `EXCLUDE_FROM_CAPTURE` only works with native windows.,bruvzg,2025-08-20T21:15:40Z,2025-08-21T11:27:09+00:00,1,14.19,True,1,0,1,11,1,0,1,MERGED
+109811,Rename SVGTexture to DPITexture.,bruvzg,2025-08-20T20:16:39Z,2025-08-21T11:27:09+00:00,3,15.18,True,107,107,13,0,15,3,18,MERGED
+109808,Make SVGTexture description more specific to indicate intended use case.,bruvzg,2025-08-20T17:57:43Z,2025-08-21T08:42:06+00:00,1,14.74,False,1,1,1,0,1,1,2,CLOSED
+109805,Docs: Mark `SVGTexture` as experimental,Repiteo,2025-08-20T15:23:54Z,2025-08-20T18:04:51+00:00,2,2.68,True,1,1,1,32,5,0,5,MERGED
+109801,Track last selection using ObjectID,KoBeWi,2025-08-20T12:50:46Z,2025-08-20T21:18:02+00:00,1,8.45,True,7,4,2,55,1,0,1,MERGED
+109797,Fix typo in doc of `text_editor/theme/highlighting/gdscript/string_name_color`,OzelotVanilla,2025-08-20T08:08:17Z,2025-08-20T17:10:03+00:00,1,9.03,True,1,1,1,142,1,0,1,MERGED
+109794,Correctly hide BlendSpace editor error panel on load,vaner-org,2025-08-20T03:38:54Z,2025-08-24T16:08:28+00:00,1,108.49,True,2,0,2,377,2,0,2,MERGED
+109793,Compatibility: Fix backface culling gets ignored when double-sided shadows are used,joaopedroxavier,2025-08-20T03:25:40Z,2025-09-16T16:57:19+00:00,2,661.53,True,1,1,1,349,3,0,3,MERGED
+109791,Typo cleanup pass,Talkashie,2025-08-19T23:43:54Z,2025-08-21T23:57:04+00:00,5,48.22,True,97,97,19,300,5,2,7,MERGED
+109790,[Web] Fix `AudioStreamPlayer.get_playback_position()` returning incorrect values for samples,adamscott,2025-08-19T23:38:12Z,2025-08-25T14:56:36+00:00,1,135.31,True,23,12,2,815,1,0,1,MERGED
+109786,SCons: Use gnu++20 in metal driver,Repiteo,2025-08-19T19:22:07Z,2025-08-20T17:10:03+00:00,2,21.8,True,1,1,1,504,7,0,7,MERGED
+109785,Fix incorrect statement on thread (un)safety in AStar class reference,Calinou,2025-08-19T18:48:45Z,2025-08-21T23:57:04+00:00,1,53.14,True,3,3,3,60,1,0,1,MERGED
+109779,Expose `Thread::is_main_thread()`,dsnopek,2025-08-19T15:40:20Z,2025-09-30T23:39:00+00:00,4,1015.98,True,13,0,3,616,1,0,1,MERGED
+109778,Compatibility: Improve ASTC extension detecting,BlueCube3310,2025-08-19T15:27:45Z,2025-09-19T18:08:47+00:00,2,746.68,True,5,3,2,1007,3,0,3,MERGED
+109777,Fix incorrect `blend_position` values in BlendSpace editor after dragging point,vaner-org,2025-08-19T15:14:08Z,2025-08-24T16:08:28+00:00,1,120.91,True,0,2,2,408,1,0,1,MERGED
+109772,Fix typo in ScriptLanguageExtension::lookup_code,Yarwin,2025-08-19T12:00:01Z,2025-08-19T15:32:04+00:00,2,3.53,True,1,1,1,1928,1,0,1,MERGED
+109770,Fix regression in mechanism to hold objects while emitting,RandomShaper,2025-08-19T11:37:24Z,2025-09-02T02:42:13+00:00,3,327.08,True,16,4,1,174,4,1,5,MERGED
+109766,Fix editor resource tooltip crash on broken symlinks.,bruvzg,2025-08-19T07:46:09Z,2025-08-19T15:32:04+00:00,2,7.77,True,11,2,1,75,1,1,2,MERGED
+109765,Fix MSDF outline size clamping.,bruvzg,2025-08-19T05:56:18Z,2025-08-20T17:10:03+00:00,1,35.23,True,3,3,3,233,1,0,1,MERGED
+109764,Android: Ensure proper cleanup of the fragment,ydeltastar,2025-08-19T03:43:07Z,2025-09-28T15:19:18+00:00,2,971.6,True,25,1,2,3006,3,4,7,MERGED
+109758,SCons: Fix `dlltool` on Windows MinGW builds,Repiteo,2025-08-18T23:56:47Z,2025-08-19T15:32:04+00:00,1,15.59,True,32,48,3,447,0,0,0,MERGED
+109755,Fix OptionButton not removing icon when using clear,Giganzo,2025-08-18T21:43:14Z,2025-08-19T15:32:04+00:00,4,17.81,True,2,1,1,149,1,1,2,MERGED
+109750,Handle SDL joypad events for connected controllers on game startup (on Windows and Linux),Nintorch,2025-08-18T19:00:51Z,2025-08-19T15:32:04+00:00,3,20.52,True,3,0,1,580,14,0,14,MERGED
+109747,Document ClassDB not storing information on user-defined classes,Calinou,2025-08-18T17:38:17Z,2025-08-25T14:56:36+00:00,2,165.31,True,5,3,1,104,3,0,3,MERGED
+109744,Core: Integrate semantic constants in math structs,Repiteo,2025-08-18T17:13:21Z,2025-09-16T16:57:20+00:00,3,695.73,True,198,129,16,361,0,2,2,MERGED
+109739,Use `org.a11y.Status/ScreenReaderEnabled` on Linux.,bruvzg,2025-08-18T14:48:47Z,2025-08-19T01:39:39+00:00,1,10.85,True,49,3,2,678,1,0,1,MERGED
+109736,Free TileMapLayer debug quadrant meshes when clearing,Rubonnek,2025-08-18T14:14:13Z,2025-08-21T11:27:09+00:00,1,69.22,True,3,0,1,13,1,0,1,MERGED
+109735,"Fix/remove error about ""Can't update documentation"" when saving script",mihe,2025-08-18T13:05:12Z,2025-08-19T15:32:04+00:00,2,26.45,True,2,4,2,2839,2,0,2,MERGED
+109733,Prevent held escape key from unselecting nodes after canceling a transform,ryevdokimov,2025-08-18T12:50:26Z,2025-08-20T17:10:03+00:00,1,52.33,True,1,1,1,102,1,0,1,MERGED
+109731,Minor optimizations for some shaders.,WhalesState,2025-08-18T11:58:51Z,2025-08-18T13:43:36+00:00,2,1.75,False,3,3,3,49,1,1,2,CLOSED
+109724,[macOS] Forward application focus events to the embedded process.,bruvzg,2025-08-18T06:01:37Z,2025-08-22T17:39:15+00:00,1,107.63,True,42,0,4,13,5,0,5,MERGED
+109723,[macOS] Remove FEATURE_MOUSE from embedded display server.,bruvzg,2025-08-18T05:26:12Z,2025-08-21T11:27:09+00:00,1,78.02,True,2,1,1,195,9,0,9,MERGED
+109715,Apply fix_alpha_edges after rendering svg in SVGTexture,mooflu,2025-08-18T00:19:09Z,2025-09-11T19:16:37+00:00,1,594.96,False,1,0,1,29,5,0,5,CLOSED
+109708,Fix PopupMenu accel position,Giganzo,2025-08-17T20:57:51Z,2025-08-18T13:56:39+00:00,1,16.98,True,1,1,1,30,1,0,1,MERGED
+109700,[3.x] DDS: Backport fixes from 4.x branch,BlueCube3310,2025-08-17T16:42:56Z,2025-09-13T06:56:04+00:00,1,638.22,True,474,165,1,235,1,0,1,MERGED
+109699,[RTL] Fix text around `visible_characters` boundary being added twice to the buffer.,bruvzg,2025-08-17T16:00:08Z,2025-08-18T13:56:39+00:00,1,21.94,True,2,1,1,27,1,0,1,MERGED
+109695,[3.x] Fix Line breaking may not work correctly when using color tags with specific font,Maran23,2025-08-17T14:33:41Z,2025-08-26T16:45:57+00:00,1,218.2,True,6,6,1,321,1,0,1,MERGED
+109694,[Windows] Fix color picker on old versions of Windows 10.,bruvzg,2025-08-17T13:36:26Z,2025-08-18T13:56:40+00:00,1,24.34,True,7,6,4,66,9,0,9,MERGED
+109692,Add static method `from_scalar` to vector 2/3 types.,WhalesState,2025-08-17T12:02:09Z,2025-08-19T12:19:26+00:00,1,48.29,False,231,206,103,1118,9,1,10,CLOSED
+109685,Fix infinite loop in GLTFDocument::_convert_animation_node_track,nikitalita,2025-08-17T06:59:12Z,2025-08-27T00:02:33+00:00,4,233.06,True,52,29,1,266,2,0,2,MERGED
+109684,Fix transforms trying to continue after a cancel,ryevdokimov,2025-08-17T06:11:06Z,2025-08-24T16:08:28+00:00,1,177.96,True,1,0,1,196,1,0,1,MERGED
+109676,[macOS] Fix embedded menu/spacer relative position.,bruvzg,2025-08-16T15:56:57Z,2025-08-21T11:27:09+00:00,1,115.5,True,4,4,1,38,1,0,1,MERGED
+109673,Fix missing hover style for Ignore Error breaks button,Giganzo,2025-08-16T13:29:18Z,2025-08-18T13:56:39+00:00,4,48.46,True,2,2,1,21,1,1,2,MERGED
+109672,Add hover styles to buttons in Script/Shader editor,Giganzo,2025-08-16T13:21:18Z,2025-08-18T13:56:39+00:00,1,48.59,True,49,22,9,595,1,0,1,MERGED
+109666,ImporterMesh: Validate triangle indices array size is a multiple of 3,aaronfranke,2025-08-16T08:10:58Z,2025-08-19T01:39:38+00:00,3,65.48,True,23,19,3,61251,5,3,8,MERGED
+109662,Add default param value to `EditorExportPlatform::get_forced_export_files`,raulsntos,2025-08-16T06:49:25Z,2025-08-20T17:10:03+00:00,1,106.34,True,2,2,2,291,1,0,1,MERGED
+109647,Fix missing layer provider setup when setting Surface after visibility,m4gr3d,2025-08-15T19:05:50Z,2025-08-18T13:56:39+00:00,2,66.85,True,13,2,2,1376,1,2,3,MERGED
+109644,Fix material removal clearing all instances of shared texture arrays,RandomShaper,2025-08-15T18:24:45Z,2025-08-20T17:10:03+00:00,1,118.75,True,4,2,2,79,4,0,4,MERGED
+109638,Refactor `register_class`,YYF233333,2025-08-15T14:08:59Z,2025-08-21T01:37:20+00:00,1,131.47,False,74,40,1,148,1,0,1,CLOSED
+109632,Clarify truncation behavior in file open modes,timothyqiu,2025-08-15T10:08:17Z,2025-09-23T02:01:28+00:00,4,927.89,True,2,2,1,142,1,1,2,MERGED
+109630,OpenXR: Use GLTFDocument function to get supported extension names,aaronfranke,2025-08-15T06:55:06Z,2025-08-21T11:27:09+00:00,4,148.53,True,14,23,1,653,1,1,2,MERGED
+109627,Make WAV metadata tag mappings more consistent with Vorbis,teatov,2025-08-15T06:04:43Z,2025-08-19T15:32:04+00:00,1,105.46,True,16,3,1,322,2,0,2,MERGED
+109625,GLTF: Fix crash reading texture sampler for non-existent texture,aaronfranke,2025-08-15T02:24:35Z,2025-08-15T18:04:37+00:00,2,15.67,True,10,5,1,317,1,0,1,MERGED
+109619,`ThemeEditor` fix to show filename for new/renamed files,aaronp64,2025-08-14T19:33:38Z,2025-08-20T17:10:03+00:00,3,141.61,True,24,1,2,110,1,1,2,MERGED
+109614,Strip empty deps when loading filesystem cache,h1v9,2025-08-14T15:42:16Z,2025-08-18T13:56:39+00:00,1,94.24,True,1,1,1,310,2,0,2,MERGED
+109612,Don't use `alloca()` in `Object::emit_signalp()` to prevent stack overflow,dsnopek,2025-08-14T15:28:52Z,2025-08-15T18:04:36+00:00,2,26.6,True,17,5,1,5875,4,0,4,MERGED
+109611,Add XR_META_hand_tracking_microgestures action paths,devloglogan,2025-08-14T15:12:27Z,2025-09-20T02:00:42+00:00,5,874.8,True,29,27,1,323,2,1,3,MERGED
+109608,Android: Fix build command for AAB export,syntaxerror247,2025-08-14T11:45:33Z,2025-08-14T14:33:59+00:00,2,2.81,True,1,1,1,13,1,0,1,MERGED
+109607,Fix `move_and_slide` forcing synchronization with physics thread,mihe,2025-08-14T11:19:59Z,2025-08-15T18:04:36+00:00,1,30.74,True,226,2,22,776,11,0,11,MERGED
+109604,Add constexpr to `GDREGISTER_CLASS`,YYF233333,2025-08-14T09:04:22Z,2025-09-19T06:51:14+00:00,3,861.78,False,7,7,1,198,3,0,3,CLOSED
+109603,[macOS] Process joypad input directly in the embedded process.,bruvzg,2025-08-14T08:54:37Z,2025-09-01T16:16:39+00:00,1,439.37,True,12,71,8,208,2,0,2,MERGED
+109594,Defer `format_changed` and `frame_changed` signal for all camera feeds,j20001970,2025-08-13T23:22:29Z,2025-08-26T14:22:09+00:00,1,302.99,True,21,7,1,700,5,0,5,MERGED
+109591,Pause physics command queue during physics processing,mihe,2025-08-13T21:50:17Z,2025-08-21T23:57:04+00:00,2,194.11,True,103,66,6,2068,8,3,11,MERGED
+109590,`find_*_valid_focus`: Check all tested neighbors to prevent loops.,bruvzg,2025-08-13T21:06:22Z,2025-09-30T23:39:00+00:00,1,1154.54,True,8,2,1,208,1,0,1,MERGED
+109584,Fix `TileMapLayer` terrain preview icons for transformed alternative tiles,kleonc,2025-08-13T16:46:15Z,2025-08-13T23:44:33+00:00,1,6.97,True,0,2,1,397,1,0,1,MERGED
+109582,Remove unused editor setting `editors/grid_map/palette_min_width`,spoxii,2025-08-13T16:31:00Z,2025-09-16T16:57:19+00:00,1,816.44,True,0,4,2,110,3,0,3,MERGED
+109577,"[Docs] Mention 'build version' in iOS, macOS, and visionOS export docs",AdriaandeJongh,2025-08-13T14:41:10Z,2025-08-14T14:33:59+00:00,7,23.88,True,12,6,3,391,1,4,5,MERGED
+109573,CI: Update dependency setup on Linux actions,Repiteo,2025-08-13T13:59:54Z,2025-08-22T21:14:09+00:00,1,223.24,True,8,11,2,402,0,0,0,MERGED
+109568,Android: Only validate keystore relevant to current export mode,syntaxerror247,2025-08-13T08:08:01Z,2025-09-16T16:57:20+00:00,1,824.82,True,26,24,1,108,1,0,1,MERGED
+109567,Fix spotlight's shadow peter-panning with volumetric fog,Flarkk,2025-08-13T07:35:53Z,2025-09-16T16:57:20+00:00,2,825.36,True,1,1,1,686,4,0,4,MERGED
+109564,SceneCreateDialog: Hide 3D Scene option when 3D editor is disabled,timothyqiu,2025-08-13T06:00:21Z,2025-08-13T23:44:33+00:00,1,17.74,True,7,0,1,183,1,0,1,MERGED
+109562,"Replace ""local"" `Vector` with `LocalVector`",YYF233333,2025-08-13T03:35:44Z,2025-09-17T01:30:15+00:00,1,837.91,True,14,19,2,162,1,0,1,MERGED
+109561,Improve error messages for lambda functions without a body,aaronfranke,2025-08-13T02:34:22Z,2025-08-19T01:39:39+00:00,4,143.09,True,15,8,3,96,1,1,2,MERGED
+109556,Fix mobile renderer motion vectors,devloglogan,2025-08-12T22:05:05Z,2025-08-13T23:44:33+00:00,2,25.66,True,7,7,1,237,1,0,1,MERGED
+109552,Clarify the types `InputEvent.is_action_type()` will return `true` for,Calinou,2025-08-12T17:16:36Z,2025-08-14T14:33:59+00:00,1,45.29,True,1,1,1,52,1,0,1,MERGED
+109549,Fix the text editor confusing resource files of class JSON with json files.,jroprohehe,2025-08-12T14:14:37Z,2025-10-01T18:20:12+00:00,5,1204.09,True,5,1,1,13,2,2,4,MERGED
+109548,Improve shader overloaded function error reporting.,bruvzg,2025-08-12T14:01:55Z,2025-08-14T14:33:59+00:00,2,48.53,True,46,18,1,267,1,0,1,MERGED
+109541,[LineEdit] Fix double click not selecting single character words.,bruvzg,2025-08-12T09:53:25Z,2025-08-18T13:56:39+00:00,2,148.05,True,3,3,1,13,1,2,3,MERGED
+109540,"Add methods to check which event first triggered ""just pressed/released"" state.",bruvzg,2025-08-12T09:22:37Z,2025-08-12T16:55:06+00:00,3,7.54,True,114,17,7,287,5,4,9,MERGED
+109539,Fix shortcut reset for spatial_editor/tool_select,Giganzo,2025-08-12T08:48:15Z,2025-08-12T16:55:06+00:00,1,8.11,True,0,2,1,21,6,0,6,MERGED
+109533,OpenXR: Prevent adding/removing extension wrappers after session start,dsnopek,2025-08-11T20:58:07Z,2025-09-30T23:39:00+00:00,3,1202.68,True,10,0,1,1725,1,1,2,MERGED
+109532,OpenXR: Safely set environment blend mode when rendering on a separate thread,dsnopek,2025-08-11T19:55:59Z,2025-09-30T23:39:00+00:00,4,1203.72,True,42,21,2,904,1,1,2,MERGED
+109530,[TVG] Use heap for XML parser allocs.,bruvzg,2025-08-11T18:12:24Z,2025-08-13T23:44:33+00:00,1,53.54,True,58,3,3,13,2,0,2,MERGED
+109528,Fix drive selection issue on Android,syntaxerror247,2025-08-11T16:18:11Z,2025-08-13T23:44:33+00:00,6,55.44,True,8,3,3,12,4,1,5,MERGED
+109522,Don't open folders as file in script editor,KoBeWi,2025-08-11T12:44:57Z,2025-08-12T16:55:06+00:00,1,28.17,True,7,1,1,114,1,0,1,MERGED
+109515,Speed up large selections in the editor,precup,2025-08-11T05:36:55Z,2025-09-23T02:01:28+00:00,10,1028.41,True,110,85,12,2432,1,8,9,MERGED
+109513,Miscellaneous editor optimizations for large scenes,precup,2025-08-11T05:36:27Z,2025-09-20T02:00:43+00:00,4,956.4,True,13,3,4,2773,1,3,4,MERGED
+109512,Speed up very large `Trees`,precup,2025-08-11T05:35:48Z,2025-09-20T02:00:42+00:00,2,956.41,True,10,5,1,1227,6,0,6,MERGED
+109504,Docs: `PhysicsShapeQueryParameters3D` fix function used in code example,leandro-benedet-garcia,2025-08-10T21:33:31Z,2025-08-11T14:58:32+00:00,1,17.42,True,2,2,1,244,1,0,1,MERGED
+109502,Fix scrolling to bottom panel selected button.,WhalesState,2025-08-10T20:26:44Z,2025-09-20T02:00:43+00:00,4,965.57,True,11,1,2,40,17,2,19,MERGED
+109491,Android: Add method to set root window color at runtime,syntaxerror247,2025-08-10T14:29:02Z,2025-09-26T18:53:08+00:00,3,1132.4,True,56,10,10,1854,3,4,7,MERGED
+109480,Disallow clicking to toggle the checkbox of a theme override of type `Resource` to checked,Rindbee,2025-08-10T02:04:14Z,2025-08-13T23:44:33+00:00,5,93.67,True,23,9,1,586,6,6,12,MERGED
+109478,Fix screen_orientation not being assigned on ios,TCROC,2025-08-10T01:09:17Z,2025-08-11T14:58:32+00:00,1,37.82,True,1,0,1,684,1,0,1,MERGED
+109474,Fix remote tree max selection warning not showing properly,YeldhamDev,2025-08-09T21:15:10Z,2025-08-11T14:58:32+00:00,1,41.72,True,1,4,1,195,1,0,1,MERGED
+109469,Fix cinematic preview causing the editor redraw continuously and aspect ratio not updating in camera preview,ryevdokimov,2025-08-09T17:24:57Z,2025-08-12T16:55:06+00:00,1,71.5,True,35,7,2,351,1,0,1,MERGED
+109465,Fix node can't be rotated by holding ctrl/command while in select mode,ryevdokimov,2025-08-09T15:16:54Z,2025-08-12T16:55:06+00:00,4,73.64,True,81,19,1,276,1,1,2,MERGED
+109453,test_vector2_angle_to,DeptmerAshley,2025-08-09T06:46:32Z,2025-08-09T08:11:03+00:00,1,1.41,False,40,0,2,27,1,0,1,CLOSED
+109448,Add new line when dropping onready on empty line,kitbdev,2025-08-08T22:35:37Z,2025-08-11T14:58:32+00:00,1,64.38,True,16,2,1,362,3,0,3,MERGED
+109444,Fix `BoneAttachment3D` getting global transform of external skeleton before it `is_inside_tree()`,thederickff,2025-08-08T21:22:41Z,2025-08-11T14:58:32+00:00,4,65.6,True,6,1,1,86,2,0,2,MERGED
+109442,Fix `GDScript::reload` leaving `reloading` as `true` on failure,archhabra,2025-08-08T20:00:04Z,2025-08-21T23:57:04+00:00,4,315.95,True,6,1,1,25,3,3,6,MERGED
+109441,Fix issues searching `RichTextLabel` when search result is in a table,aaronp64,2025-08-08T19:45:45Z,2025-08-11T14:58:32+00:00,1,67.21,True,44,18,2,1965,1,0,1,MERGED
+109437,Use MSDF instead of MTSDF for font rendering.,bruvzg,2025-08-08T17:40:10Z,2025-08-11T14:58:32+00:00,3,69.31,True,42,25,5,79,8,1,9,MERGED
+109425,Don't duplicate PackedScene variants,KoBeWi,2025-08-08T12:08:50Z,2025-09-05T14:03:06+00:00,10,673.9,False,25,11,4,431,4,4,8,CLOSED
+109424,Meta: Move /editor/scene folder from `core` to `docks` codeowner.,Ivorforce,2025-08-08T11:15:15Z,2025-08-11T14:58:32+00:00,2,75.72,True,1,2,1,742,5,0,5,MERGED
+109419,Increase SoftBody3D damping coefficient editor range,F3der1co,2025-08-08T09:13:56Z,2025-08-08T17:31:34+00:00,2,8.29,True,1,1,1,306,4,0,4,MERGED
+109415,[TextServer] Fix caret hit test rounding.,bruvzg,2025-08-08T05:31:31Z,2025-08-08T17:31:34+00:00,3,12.0,True,18,6,4,141,1,2,3,MERGED
+109413,ProfilerAutostartWarning svg icon cleanup,WhalesState,2025-08-07T23:54:13Z,2025-09-22T13:56:28+00:00,2,1094.04,True,1,1,1,97,1,0,1,MERGED
+109406,Metal: Ensure correct output texture format selection,stuartcarnie,2025-08-07T20:22:05Z,2025-08-08T17:31:34+00:00,3,21.16,True,11,1,2,223,3,0,3,MERGED
+109402,"Add ""dropdown"" keyword to OptionButton and MenuButton",dawdle-deer,2025-08-07T18:03:50Z,2025-08-13T23:44:33+00:00,3,149.68,True,2,2,2,126,7,0,7,MERGED
+109401,Add ubershader support to material and SDF variants in Forward+.,DarioSamo,2025-08-07T17:48:45Z,2025-09-23T02:01:28+00:00,1,1112.21,True,13,19,3,501,1,0,1,MERGED
+109397,[Unix] Fix `execute_with_pipe` closing wrong pipe handle.,bruvzg,2025-08-07T16:06:00Z,2025-08-19T15:32:04+00:00,3,287.43,True,1,1,1,138,1,1,2,MERGED
+109391,Fix headless import/export reporting progress greater than 100%,mihe,2025-08-07T12:22:34Z,2025-08-07T15:43:05+00:00,1,3.34,True,4,4,1,5155,1,0,1,MERGED
+109383,"[Unix] Replace symlink target, not the link itself when using backup save mode.",bruvzg,2025-08-07T06:12:45Z,2025-08-07T15:43:05+00:00,5,9.51,True,29,7,3,13,1,2,3,MERGED
+109382,"Revert ""Fix incorrect anchor preset when custom offset is set""",Summersay415,2025-08-07T05:56:54Z,2025-08-07T15:43:05+00:00,1,9.77,True,0,4,1,113,2,0,2,MERGED
+109377,Fix `local_to_scene` duplication of typed dictionary ,mcdubhghlas,2025-08-06T21:44:31Z,2025-08-07T15:43:05+00:00,1,17.98,True,1,1,1,161,4,0,4,MERGED
+109376,[GDScript] Fix `range` helper method using 32-bit ints for arguments.,bruvzg,2025-08-06T21:07:37Z,2025-08-08T17:31:34+00:00,1,44.4,True,33,13,3,13,6,0,6,MERGED
+109375,Fix VisualShader Conversion failing with subresources,ColinSORourke,2025-08-06T20:56:14Z,2025-09-19T14:23:06+00:00,16,1049.45,True,54,2,5,1697,14,10,24,MERGED
+109369,Material Conversion Error Handling,ColinSORourke,2025-08-06T17:35:01Z,2025-09-16T14:54:35+00:00,1,981.33,True,12,1,3,1557,5,0,5,MERGED
+109363,Fix LineEdit icon positon in right-to-left layout,Giganzo,2025-08-06T16:16:50Z,2025-09-16T14:54:35+00:00,1,982.63,True,72,26,1,1109,2,0,2,MERGED
+109354,Fix some localization issues in controls,KoBeWi,2025-08-06T12:51:54Z,2025-08-18T13:56:39+00:00,1,289.08,True,2,2,2,127,1,0,1,MERGED
+109346,[Windows] Try reading GPU driver information directly from registry.,bruvzg,2025-08-06T05:08:14Z,2025-09-16T14:54:35+00:00,1,993.77,True,94,11,2,263,6,0,6,MERGED
+109344,Document `OS.get_video_adapter_driver_info()` being slow to call the first time,Calinou,2025-08-05T21:47:49Z,2025-08-06T17:07:09+00:00,1,19.32,True,19,0,1,443,1,1,2,MERGED
+109340,Android: Thread Syncronization for FileAccessHandler,h1v9,2025-08-05T16:51:53Z,2025-08-07T18:11:44+00:00,4,49.33,True,36,29,2,63,9,0,9,MERGED
+109339,[Copyright] Fix spelling of license,AThousandShips,2025-08-05T16:30:49Z,2025-09-24T15:04:33+00:00,1,1198.56,True,1,1,1,316,4,0,4,MERGED
+109334,Reduce log spam during headless import/export,mihe,2025-08-05T13:30:14Z,2025-08-07T18:11:32+00:00,6,52.69,True,17,2,1,337,8,2,10,MERGED
+109329,Fix LineEdit center alignment,Giganzo,2025-08-05T12:04:37Z,2025-08-06T17:07:09+00:00,1,29.04,True,38,11,1,219,5,0,5,MERGED
+109323,Fix crash on empty GLTF texture,killerdevildog,2025-08-05T04:44:41Z,2025-08-15T19:53:11+00:00,3,255.14,False,44,9,1,455,2,1,3,CLOSED
+109320,Update _physics_process and _process docs to reflect implementation.,lavishbehemoth,2025-08-05T00:29:56Z,2025-08-15T18:04:36+00:00,21,257.58,True,16,11,2,302,9,17,26,MERGED
+109310,Postpone adding new extension plugins to the editor,Yarwin,2025-08-04T18:32:30Z,2025-08-06T17:07:09+00:00,5,46.58,True,1,1,1,1336,1,1,2,MERGED
+109309,GDExtension: Call startup callback only after reload is fully finished,dsnopek,2025-08-04T18:31:14Z,2025-08-07T15:43:05+00:00,2,69.2,True,11,2,2,721,2,0,2,MERGED
+109304,GDScript: Don't stop annotation argument parsing at file end,HolonProduction,2025-08-04T15:30:31Z,2025-08-20T17:10:03+00:00,1,385.66,True,1,1,1,224,1,0,1,MERGED
+109300,[Windows] Release mouse buttons after native window drag/resize operation.,bruvzg,2025-08-04T12:16:09Z,2025-08-06T17:07:09+00:00,1,52.85,True,26,0,1,27,2,0,2,MERGED
+109299,Compatibility: Fix cubemap faces order when setting texture data,BlueCube3310,2025-08-04T11:33:35Z,2025-09-19T14:23:06+00:00,2,1106.83,True,3,3,1,196,3,0,3,MERGED
+109298,Autocompletion: Remove duplicate code,HolonProduction,2025-08-04T11:03:48Z,2025-09-30T23:39:00+00:00,1,1380.59,True,0,12,1,412,1,0,1,MERGED
+109297,Autocompletion: Don't call const functions,HolonProduction,2025-08-04T10:13:06Z,2025-08-06T17:07:10+00:00,11,54.9,True,196,151,8,2828,1,2,3,MERGED
+109294,Disable auto translation of flag names in the inspector,timothyqiu,2025-08-04T08:14:20Z,2025-08-04T17:08:36+00:00,1,8.9,True,1,0,1,201,1,0,1,MERGED
+109292,[macOS] Regenerate editor `icns` file to include all resolutions.,bruvzg,2025-08-04T06:55:34Z,2025-08-06T17:07:09+00:00,1,58.19,True,0,0,2,264,1,0,1,MERGED
+109289,OpenXR: Fix required extension tooltip,BastiaanOlij,2025-08-04T03:17:42Z,2025-08-06T17:07:09+00:00,2,61.82,True,1,1,1,193,1,0,1,MERGED
+109283,Fix C# environment variables access on Linux (SDL-related bug),Nintorch,2025-08-03T20:01:26Z,2025-08-11T14:58:32+00:00,6,186.95,True,86,3,4,1915,12,1,13,MERGED
+109281,"[.NET] Fix `Quaternion(Vector3, Vector3)` constructor when vectors are the same",raulsntos,2025-08-03T19:01:42Z,2025-08-04T17:08:36+00:00,2,22.11,True,4,0,1,172,1,0,1,MERGED
+109276,Fix symlink copy in `DirAccess::copy_dir`.,bruvzg,2025-08-03T16:54:44Z,2025-08-20T18:04:51+00:00,1,409.17,True,6,3,1,183,1,0,1,MERGED
+109271,Fix glitched animation key after canceled dragging,Giganzo,2025-08-03T13:19:26Z,2025-08-25T14:56:36+00:00,1,529.62,True,1,1,1,14,1,0,1,MERGED
+109267,Android: Misc changes,syntaxerror247,2025-08-03T07:44:52Z,2025-08-03T16:27:28+00:00,1,8.71,True,8,3,3,275,1,0,1,MERGED
+109265,"Revert ""SoftBody3D: Support physics Interpolation""",clayjohn,2025-08-03T05:26:18Z,2025-08-03T16:27:28+00:00,1,11.02,True,26,146,2,397,2,0,2,MERGED
+109259,Keep collapsed state for actions when modifying Input Map,aaronp64,2025-08-02T23:30:46Z,2025-08-06T17:07:09+00:00,2,89.61,True,12,1,1,335,1,1,2,MERGED
+109243,Avoid unnecessary updates in `TileMapLayer` ,precup,2025-08-02T16:09:51Z,2025-09-25T17:19:53+00:00,6,1297.17,True,52,19,2,784,1,1,2,MERGED
+109242,Document `Tree.item_collapsed` also being emitted when the item is expanded,Calinou,2025-08-02T15:53:31Z,2025-08-06T17:07:09+00:00,3,97.23,True,2,1,1,140,1,2,3,MERGED
+109240,Automatically unregister loggers when script language is deinitialized.,bruvzg,2025-08-02T15:30:28Z,2025-08-06T17:07:09+00:00,1,97.61,True,26,0,3,13,1,0,1,MERGED
+109227,Harden jni_find_class() and its setup/cleanup,limbonaut,2025-08-02T07:54:50Z,2025-08-03T16:27:28+00:00,1,32.54,True,16,1,1,42,0,0,0,MERGED
+109216,Improve RPC Error messages,Ryan-000,2025-08-01T22:47:58Z,2025-09-22T13:56:28+00:00,2,1239.14,True,13,1,1,79,1,3,4,MERGED
+109215,Fix `Basis` scale drift in `PathFollow3D`,precup,2025-08-01T22:26:23Z,2025-08-04T23:01:42+00:00,1,72.59,False,1,0,1,484,4,0,4,CLOSED
+109214,Correct the order of Diagonal Mode in Add Property,archhabra,2025-08-01T22:02:18Z,2025-09-16T14:54:35+00:00,1,1096.87,True,1,1,1,56,3,0,3,MERGED
+109211,Remove const label from create_local_rendering_device,clayjohn,2025-08-01T21:19:47Z,2025-08-06T06:20:01+00:00,1,105.0,False,3,3,3,863,2,0,2,CLOSED
+109210,[Windows] Add Intel Gen9.5 (Kaby Lake) GPUs to Angle blocklist.,bruvzg,2025-08-01T21:05:13Z,2025-08-04T17:08:35+00:00,2,68.06,True,28,0,1,20,3,0,3,MERGED
+109208,Fix inaccurate description of `get_current_rendering_driver_name`,SheepYhangCN,2025-08-01T19:19:00Z,2025-08-06T17:07:09+00:00,1,117.8,True,3,1,1,153,1,0,1,MERGED
+109203,Fix inheriting from abstract classes dialog,IphStich,2025-08-01T14:41:12Z,2025-08-07T15:43:05+00:00,10,145.03,True,12,3,3,286,1,3,4,MERGED
+109199,Fix inconsistent thumbnail width,KoBeWi,2025-08-01T13:33:21Z,2025-08-01T16:49:59+00:00,1,3.28,True,11,1,1,31,1,0,1,MERGED
+109198,Break batch on Compatibility when primitive texture changes,Lielay9,2025-08-01T13:15:21Z,2025-08-03T16:27:28+00:00,1,51.2,True,1,1,1,13,1,0,1,MERGED
+109196,Fix path post-processing edgecentered,smix8,2025-08-01T13:07:32Z,2025-08-03T16:27:29+00:00,2,51.33,True,6,0,6,48,1,0,1,MERGED
+109188,Fix FindClass() failing to find Dictionary on Android leading to crash,limbonaut,2025-08-01T09:46:23Z,2025-08-01T16:49:59+00:00,12,7.06,True,125,48,5,1113,1,5,6,MERGED
+109186,Prompt editor restart when reflection probe size is updated,clayjohn,2025-08-01T07:14:41Z,2025-09-30T23:39:00+00:00,4,1456.41,True,5,22,6,377,1,1,2,MERGED
+109181,Dedupe images during GLTF Export,nikitalita,2025-08-01T00:38:03Z,2025-08-01T16:49:59+00:00,2,16.2,True,6,3,1,218,1,0,1,MERGED
+109180,Clarify the behavior of `RigidBody.CENTER_OF_MASS_MODE_AUTO`,Calinou,2025-07-31T22:38:49Z,2025-08-01T16:49:59+00:00,1,18.19,True,2,2,2,41,1,0,1,MERGED
+109176,Stop clearing editor_plugin_screen on script edit,SchultzenDK,2025-07-31T19:31:33Z,2025-08-15T18:04:36+00:00,1,358.55,True,3,0,1,273,4,0,4,MERGED
+109172,Fix `printraw` causing infinite recursion in `Logger._log_message`,mihe,2025-07-31T18:35:48Z,2025-08-03T16:27:28+00:00,2,69.86,True,15,1,3,341,6,0,6,MERGED
+109169,[Windows] Additionally use `cpuid` instruction to detect SSE4.2 support.,bruvzg,2025-07-31T16:58:07Z,2025-08-04T17:08:35+00:00,6,96.17,True,27,1,1,255,1,1,2,MERGED
+109168,Add `Engine.get_copyright_text()` to conveniently comply with open source licenses + open source copyright warning,Nintorch,2025-07-31T16:24:22Z,2025-07-31T17:33:00+00:00,9,1.14,False,91,0,8,791,6,3,9,CLOSED
+109166,Use a fixed-width font for the expression evaluator,Calinou,2025-07-31T15:02:27Z,2025-09-23T20:12:25+00:00,1,1301.17,True,5,0,1,295,1,0,1,MERGED
+109164,Improve documentation related to GridMap mesh/lightmap baking,Calinou,2025-07-31T14:31:02Z,2025-07-31T15:44:32+00:00,1,1.23,True,5,3,1,52,1,0,1,MERGED
+109162,Fix Android TTS on-demand init.,bruvzg,2025-07-31T13:49:22Z,2025-08-03T16:27:28+00:00,3,74.64,True,138,21,3,160,1,1,2,MERGED
+109152,Use non-MSDF fallback for MSDF fonts if fallback is a color or non-scalable font.,bruvzg,2025-07-31T06:42:55Z,2025-08-22T17:39:16+00:00,1,538.94,True,32,2,2,13,1,0,1,MERGED
+109151,Allow processing low priority threads on calling thread in the WTP.,clayjohn,2025-07-31T06:18:54Z,2025-07-31T15:44:32+00:00,1,9.43,True,1,1,1,558,1,0,1,MERGED
+109147,Rename Camera2D set_position_smoothing_enabled parameter,nocommentsgood,2025-07-30T23:09:15Z,2025-07-31T15:44:32+00:00,1,16.59,True,1,1,1,123,1,0,1,MERGED
+109143,Add and enable default textures for other samplers,sievaxx,2025-07-30T22:45:06Z,2025-09-16T16:57:20+00:00,2,1146.2,True,165,8,6,13,1,0,1,MERGED
+109139,[SVGTexture] Always use real values for `texture_set_size_override`.,bruvzg,2025-07-30T21:09:48Z,2025-08-01T16:49:59+00:00,1,43.67,True,7,1,1,13,1,0,1,MERGED
+109133,Use `point_grab_radius` setting in `Polygon2DEditor` bottom panel editor,aaronp64,2025-07-30T18:20:32Z,2025-08-21T23:57:04+00:00,5,533.61,True,18,8,1,243,1,1,2,MERGED
+109130,Clear SceneTreeDock's previous node selection when removing edited scene,aaronfranke,2025-07-30T15:51:37Z,2025-07-31T15:44:32+00:00,1,23.88,True,1,0,1,1093,1,0,1,MERGED
+109125,[3.x] Fix some `UBSan` warnings,lawnjelly,2025-07-30T12:13:38Z,2025-10-06T06:50:26+00:00,1,1626.61,False,127,105,23,581,2,0,2,CLOSED
+109123,Fix `Image` nearest and cubic resizing bias,beicause,2025-07-30T11:53:29Z,2025-08-01T16:49:59+00:00,2,52.94,True,5,8,1,990,4,0,4,MERGED
+109122,Fix external resource IDs being lost for default properties,mihe,2025-07-30T11:06:57Z,2025-07-31T15:44:32+00:00,1,28.63,True,16,12,3,487,10,0,10,MERGED
+109118,"Add `SVGTexture`support to `NinePatchRect`, `TextureProgressBar` and `StyleBoxTexture`.",bruvzg,2025-07-30T10:11:53Z,2025-08-06T17:07:09+00:00,6,174.92,True,19,28,7,13,1,2,3,MERGED
+109116,Prevent generating Editor 3D scene preview in headless mode.,WhalesState,2025-07-30T10:10:47Z,2025-07-31T15:44:32+00:00,11,29.56,True,6,13,3,14,4,1,5,MERGED
+109115,JavaClassWrapper: Add example to invoke constructor,syntaxerror247,2025-07-30T07:59:00Z,2025-07-30T14:09:05+00:00,2,6.17,True,5,0,1,60,1,0,1,MERGED
+109111,[3.x] `Batching` - Fix `MultiRect` casting to wrong type,lawnjelly,2025-07-30T06:24:36Z,2025-10-01T04:51:06+00:00,1,1510.44,True,18,42,1,1628,3,0,3,MERGED
+109109,Forward mouse events to embedded no-focus windows.,bruvzg,2025-07-30T05:18:15Z,2025-08-06T17:07:09+00:00,5,179.81,True,19,1,2,143,3,1,4,MERGED
+109102,GLTF: Fix minor niche edge case issues with accessors,aaronfranke,2025-07-29T23:54:35Z,2025-08-24T16:08:28+00:00,3,616.23,True,11,7,1,1827,1,1,2,MERGED
+109100,Fix snapping logic in Range,aaronfranke,2025-07-29T22:50:21Z,2025-08-12T16:55:06+00:00,5,330.08,True,26,2,3,2052,11,2,13,MERGED
+109095,Update HDR 2D documentation to include Compatibility support.,allenwp,2025-07-29T20:05:03Z,2025-08-04T17:08:35+00:00,5,141.06,True,2,4,2,710,1,2,3,MERGED
+109094,Fix unfiltered error output in tests,Repiteo,2025-07-29T19:36:46Z,2025-08-01T16:49:59+00:00,1,69.22,True,6,0,1,161,0,0,0,MERGED
+109090,CI: Add headless import test,Repiteo,2025-07-29T16:32:11Z,2025-07-30T14:09:05+00:00,1,21.61,True,6,0,1,59,0,0,0,MERGED
+109089,Add search keywords for CheckButton and ButtonGroup,Calinou,2025-07-29T16:18:19Z,2025-08-01T16:49:59+00:00,3,72.53,True,2,2,2,47,4,0,4,MERGED
+109078,Fix TextEdit clips children and focus style.,WhalesState,2025-07-29T13:07:36Z,2025-09-24T15:04:33+00:00,15,1369.95,True,119,64,5,541,4,15,19,MERGED
+109074,Remove outdated note from EditorScript description,KoBeWi,2025-07-29T11:47:54Z,2025-07-30T14:09:05+00:00,1,26.35,True,0,1,1,38,1,0,1,MERGED
+109072,Avoid color conversion roundtrip in colorpicker,Lielay9,2025-07-29T09:39:24Z,2025-07-30T14:09:05+00:00,3,28.49,True,3,0,1,13,1,1,2,MERGED
+109064,MacOS: Fix embedded screen_get_scale API,stuartcarnie,2025-07-28T21:07:04Z,2025-07-30T14:09:05+00:00,3,41.03,True,29,5,3,199,1,1,2,MERGED
+109059,Fix editor segfault when using a `Path3D` without a `Curve3D`,precup,2025-07-28T18:39:10Z,2025-07-31T15:44:32+00:00,3,69.09,True,1,1,1,287,5,0,5,MERGED
+109058,Prevent invalid and ambiguous tag names,KoBeWi,2025-07-28T18:27:45Z,2025-08-03T16:27:28+00:00,1,142.0,True,20,0,1,208,1,0,1,MERGED
+109057,"OpenGL: Fix crash at startup with ""Thread Model"" set to ""Separate""",dsnopek,2025-07-28T18:07:39Z,2025-07-30T14:09:05+00:00,1,44.02,True,6,2,1,5125,1,0,1,MERGED
+109052,Fix overflowing render priority for stencil mode outline and xray,Squamto,2025-07-28T16:26:07Z,2025-08-21T11:27:09+00:00,2,571.02,True,6,0,1,327,2,0,2,MERGED
+109049,Relocate `add_root_node` method to `EditorInterface` from `EditorScript` and deprecate old method,ryevdokimov,2025-07-28T13:22:17Z,2025-10-01T18:20:12+00:00,3,1564.97,True,38,25,5,498,1,1,2,MERGED
+109046,"[Accessibility] Process non-focusable windows (popups, menus) as part of the parent window tree.",bruvzg,2025-07-28T08:29:44Z,2025-08-18T13:56:39+00:00,3,509.45,True,96,42,8,27,8,2,10,MERGED
+109042,Remove Adreno 3xx flip workaround,Summersay415,2025-07-28T07:06:31Z,2025-07-28T15:56:21+00:00,2,8.83,True,3,21,4,13,1,1,2,MERGED
+109031,Include `SPACING_SPACE` in tab stops calculation.,bruvzg,2025-07-27T18:29:54Z,2025-09-19T14:23:06+00:00,1,1291.89,True,9,9,2,76,2,0,2,MERGED
+109029,Fix missing 3d gizmos,AeioMuch,2025-07-27T17:00:37Z,2025-07-30T14:09:05+00:00,1,69.14,True,1,0,1,199,4,0,4,MERGED
+109027,Remove unused member variables in EditorNode,timothyqiu,2025-07-27T15:54:07Z,2025-09-20T18:47:28+00:00,1,1322.89,True,0,21,2,542,1,0,1,MERGED
+109026,CI: Use modern `--import` syntax in GHA,Repiteo,2025-07-27T15:26:43Z,2025-07-28T15:56:21+00:00,1,24.49,True,2,2,1,197,1,0,1,MERGED
+109016,Use `EditorUndoRedoManager` to track the property changes of the configured `InputEvent` in the plugin,Rindbee,2025-07-27T05:54:38Z,2025-08-01T16:49:59+00:00,5,130.92,True,58,2,2,585,1,2,3,MERGED
+109012,Round gradient colors,Lielay9,2025-07-27T01:08:20Z,2025-09-22T13:56:28+00:00,4,1380.8,True,8,8,1,586,2,1,3,MERGED
+109010,Add the C# code equivalent to the documentation of Viewport.GetTexture(),LurkerAbove,2025-07-27T00:07:06Z,2025-08-19T01:39:39+00:00,6,553.54,True,14,4,1,131,3,1,4,MERGED
+109008,[macOS] Make document type icons look closer to current macOS system type icons.,bruvzg,2025-07-26T21:10:54Z,2025-07-28T15:56:21+00:00,1,42.76,True,15,15,20,55,3,0,3,MERGED
+109006,Fix random pitch upward bias in `AudioStreamRandomizer`,RoyBerardo,2025-07-26T19:30:57Z,2025-08-03T16:27:29+00:00,3,188.94,True,6,3,1,595,2,3,5,MERGED
+108996,Update GraphNode selection logic if not visible,gtibo,2025-07-26T14:50:44Z,2025-08-01T16:49:59+00:00,5,145.99,True,17,0,2,478,3,3,6,MERGED
+108995,Fix Tree cell text vertical alignment,passivestar,2025-07-26T12:55:30Z,2025-07-27T15:31:36+00:00,1,26.6,True,1,1,1,235,1,0,1,MERGED
+108992,Fix Editor crash during first scan in headless import mode.,WhalesState,2025-07-26T11:07:20Z,2025-07-27T15:31:35+00:00,1,28.4,True,4,8,3,1084,6,0,6,MERGED
+108979,Autocompletion: Push empty call for lambdas,HolonProduction,2025-07-25T18:28:33Z,2025-07-27T15:31:35+00:00,1,45.05,True,28,0,5,13,1,0,1,MERGED
+108978,[macOS] Add Tahoe 26.0 to version alias,adamscott,2025-07-25T18:27:47Z,2025-07-27T15:31:35+00:00,3,45.06,True,3,1,1,440,1,0,1,MERGED
+108974,Improve `IsNormalized()` in C#,Joy-less,2025-07-25T16:57:24Z,2025-09-22T13:56:28+00:00,1,1412.98,True,4,4,4,938,1,0,1,MERGED
+108969,"[Web] Fix the editor `{godot,emscripten}PoolSize` config values",adamscott,2025-07-25T11:47:11Z,2025-07-25T16:13:22+00:00,7,4.44,True,6,0,1,106,2,1,3,MERGED
+108964,Fix: Make `get_space_left` on Windows use `current_dir` instead of process CWD,moluopro,2025-07-25T09:19:18Z,2025-07-25T16:13:22+00:00,5,6.9,True,8,1,1,893,3,1,4,MERGED
+108963,Fix debug rendering in TileMapLayer,groud,2025-07-25T09:18:59Z,2025-07-25T16:13:22+00:00,1,6.91,True,29,2,2,13,1,0,1,MERGED
+108959,Fix font fallback for lines with only non-visual/control characters.,bruvzg,2025-07-25T05:26:45Z,2025-07-30T14:09:05+00:00,1,128.71,True,23,3,2,28,1,0,1,MERGED
+108956,Update the OpenXR Vendors plugin for the XR editor to the latest stable version,m4gr3d,2025-07-25T01:34:41Z,2025-07-27T15:31:36+00:00,3,61.95,True,2,2,2,82,1,1,2,MERGED
+108950,Fix debanding not being used in the 2D editor when enabled in Project Settings,Calinou,2025-07-24T20:29:38Z,2025-07-30T14:09:05+00:00,4,137.66,True,5,0,1,145,3,2,5,MERGED
+108947,Fix crash when GDScript scripts are reloaded during initial import,mihe,2025-07-24T18:25:30Z,2025-07-25T01:57:13+00:00,1,7.53,True,3,3,1,551,2,0,2,MERGED
+108944,Properly detect native class on static call optimization,vnen,2025-07-24T18:11:20Z,2025-07-25T16:13:22+00:00,2,22.03,True,8,2,4,108,2,0,2,MERGED
+108943,Don't use `GL_DEPTH_STENCIL_ATTACHMENT` on depth buffer from WebXR,dsnopek,2025-07-24T18:09:11Z,2025-07-25T01:57:13+00:00,2,7.8,True,18,9,4,359,2,0,2,MERGED
+108940,Compute texture alignment for transfers using the LCM instead.,DarioSamo,2025-07-24T17:14:08Z,2025-07-25T16:13:22+00:00,1,22.99,True,21,1,1,502,1,0,1,MERGED
+108936,Check for Vulkan Memory Model support and make it a variant.,DarioSamo,2025-07-24T15:31:59Z,2025-07-25T16:13:22+00:00,1,24.69,True,86,44,9,253,2,0,2,MERGED
+108930,Fix order of operations for macOS template check,kilian-diener,2025-07-24T11:47:27Z,2025-08-07T05:29:07+00:00,3,329.69,True,3,9,1,222,1,1,2,MERGED
+108929,Add suffix to EditorSpinSlider tooltips,Giganzo,2025-07-24T11:36:43Z,2025-09-22T13:56:28+00:00,4,1442.33,True,2,2,1,21,1,1,2,MERGED
+108927,Add two missing SDL patches to the `README.md`,bruvzg,2025-07-24T09:45:52Z,2025-07-24T19:27:40+00:00,1,9.7,True,2,0,1,0,1,0,1,MERGED
+108924,Update access-kit to 0.17.0,bruvzg,2025-07-24T07:32:49Z,2025-07-31T15:44:32+00:00,3,176.2,True,289,50,14,13,1,1,2,MERGED
+108921,Fix button down signal not emitting on first press after being disabled,Giganzo,2025-07-23T22:53:00Z,2025-07-31T15:44:32+00:00,2,184.86,True,5,0,2,385,5,1,6,MERGED
+108919,"D3D12: Fix shader model check, initialization error handling",KeyboardDanni,2025-07-23T22:02:01Z,2025-08-01T16:49:59+00:00,9,210.8,True,8,5,3,963,15,3,18,MERGED
+108916,[Physics] Add early return if step is `0`,adamscott,2025-07-23T21:29:30Z,2025-07-24T14:02:32+00:00,2,16.55,False,7,4,5,386,5,0,5,CLOSED
+108914,Remove selective shader baking.,bruvzg,2025-07-23T21:04:32Z,2025-07-24T19:27:40+00:00,1,22.39,True,6,75,5,197,1,0,1,MERGED
+108912,Fix flipped clipper2 ifdef,smix8,2025-07-23T20:32:39Z,2025-07-24T19:27:40+00:00,1,22.92,True,1,1,1,193,1,0,1,MERGED
+108911,Fix RichTextLabel nested tables not sizing properly.,DanielSnd,2025-07-23T20:24:03Z,2025-07-30T14:09:05+00:00,2,161.75,True,18,3,1,428,4,0,4,MERGED
+108906,Update documentation for `DriverResource` enum .,maidopi-usagi,2025-07-23T17:20:07Z,2025-07-31T15:44:32+00:00,1,190.41,True,19,10,1,190,1,0,1,MERGED
+108894,[macOS] Use liquid glass icon for the editor.,bruvzg,2025-07-23T06:32:42Z,2025-07-24T19:27:40+00:00,2,36.92,True,86,2,8,130,4,0,4,MERGED
+108893,Fix `ProgressDialog` errors during first scan.,WhalesState,2025-07-23T05:55:51Z,2025-07-25T16:13:22+00:00,9,58.29,True,10,1,3,303,6,3,9,MERGED
+108889,Fix TextEdit line wrap indent when disabled,kitbdev,2025-07-23T02:14:14Z,2025-07-23T18:37:59+00:00,1,16.4,True,37,37,3,252,2,0,2,MERGED
+108887,Fix SpringBone3D being unintentionally disabled.,WhalesState,2025-07-23T00:23:46Z,2025-07-23T18:37:59+00:00,2,18.24,True,6,6,4,190,2,0,2,MERGED
+108883,Fix crash in SceneTreeDock when closing a scene with a selected node,aaronfranke,2025-07-22T21:46:03Z,2025-07-23T18:37:59+00:00,1,20.87,True,10,4,3,740,2,0,2,MERGED
+108877,Fix shader editor menu switch on hover for file button,Giganzo,2025-07-22T20:44:41Z,2025-07-23T18:37:59+00:00,2,21.89,True,3,0,1,271,1,0,1,MERGED
+108874,[Web] Fix inappropriate `memfree()` use,adamscott,2025-07-22T15:48:19Z,2025-07-24T19:27:40+00:00,3,51.66,True,2,1,1,245,2,1,3,MERGED
+108872,Fix bad text contrast on readonly EditorPropertyArray/Dict/Res,Giganzo,2025-07-22T15:07:49Z,2025-09-22T13:56:28+00:00,1,1486.81,True,2,0,1,141,1,0,1,MERGED
+108869,OpenXR: Work around bug with Meta runtime on 1.0.49,dsnopek,2025-07-22T14:28:07Z,2025-07-22T16:27:17+00:00,1,1.99,True,6,1,1,641,1,0,1,MERGED
+108860,Prevent infinite recursion during printing,mihe,2025-07-22T09:46:07Z,2025-07-22T16:27:17+00:00,5,6.69,True,70,14,4,567,6,1,7,MERGED
+108859,harfbuzz: Update to 11.3.2,bruvzg,2025-07-22T06:42:39Z,2025-07-22T16:27:17+00:00,1,9.74,True,3893,2387,72,97,1,0,1,MERGED
+108858,[macOS] Fix `warp_mouse` in game mode.,bruvzg,2025-07-22T06:33:01Z,2025-08-11T14:58:32+00:00,2,488.43,True,29,13,4,50,1,1,2,MERGED
+108843,Add a way to filter neighbor points to AStar2D/3D,Chaosus,2025-07-21T18:40:05Z,2025-07-28T15:56:20+00:00,3,165.27,True,79,0,4,260,2,2,4,MERGED
+108841,Misc XR editor updates,m4gr3d,2025-07-21T18:19:12Z,2025-07-22T16:27:17+00:00,2,22.13,True,2,2,2,110,3,0,3,MERGED
+108839,Fix `StringName` errors causing infinite recursion,mihe,2025-07-21T16:37:10Z,2025-07-22T14:41:01+00:00,1,22.06,False,12,3,1,319,5,0,5,CLOSED
+108836,Use num_scientific (Grisu2) when stringifying JSON with full precision,aaronfranke,2025-07-21T16:01:44Z,2025-09-30T16:26:18+00:00,1,1704.41,True,30,23,3,1248,3,0,3,MERGED
+108832,[Web] Make `emscriptenThreadPool` and `godotThreadPool` values automatic,adamscott,2025-07-21T14:48:27Z,2025-07-28T14:49:47+00:00,4,168.02,False,33,29,6,427,5,3,8,CLOSED
+108831,Fix internal JSON stringify not preserving p_full_precision,aaronfranke,2025-07-21T14:20:56Z,2025-07-22T16:27:17+00:00,1,26.11,True,17,9,3,526,4,0,4,MERGED
+108826,Compatibility: Explicitly use BC1's RGB variant,BlueCube3310,2025-07-21T09:35:39Z,2025-09-30T23:39:00+00:00,2,1718.06,True,3,2,2,211,1,0,1,MERGED
+108825,Fix editor one-click icons not showing.,bruvzg,2025-07-21T09:16:54Z,2025-07-22T16:27:17+00:00,1,31.17,True,56,23,16,179,1,0,1,MERGED
+108820,Fix menu keyboard and controller navigation.,bruvzg,2025-07-21T07:06:32Z,2025-07-24T19:27:40+00:00,1,84.35,True,65,46,4,187,1,0,1,MERGED
+108816,Save the changes before duplicating resource files,Rindbee,2025-07-21T04:35:29Z,2025-07-30T14:09:05+00:00,4,225.56,True,25,2,1,545,3,2,5,MERGED
+108814,Fix ColorPresetButton `preset_focus` is set to wrong type in default theme,beicause,2025-07-21T03:35:02Z,2025-07-27T15:31:35+00:00,1,155.94,True,1,1,1,26,6,0,6,MERGED
+108810,Fix allow any descendant to be used as a Root Type in Scene Import,ShadowCow13,2025-07-20T21:10:37Z,2025-07-22T16:27:17+00:00,1,43.28,True,7,0,1,101,3,0,3,MERGED
+108806,Fix ICU support data loading,twrightsman,2025-07-20T18:34:52Z,2025-07-22T16:27:18+00:00,4,45.87,True,4,1,2,1375,9,1,10,MERGED
+108804,"[macOS] Use ""file"" icon for bundles in the file dialogs.",bruvzg,2025-07-20T17:49:47Z,2025-09-22T13:56:28+00:00,3,1532.11,True,6,4,3,255,2,0,2,MERGED
+108797,Add missing copyright for pitch shift,twrightsman,2025-07-20T14:32:11Z,2025-07-30T14:09:05+00:00,3,239.62,True,15,0,1,271,2,0,2,MERGED
+108796,Android: Run clipboard tasks on UI thread,syntaxerror247,2025-07-20T13:25:42Z,2025-07-23T18:37:59+00:00,3,77.2,True,29,6,1,144,4,1,5,MERGED
+108794,[macOS] Add support for exporting macOS 26 Liquid Glass icons.,bruvzg,2025-07-20T10:56:11Z,2025-09-20T18:47:28+00:00,9,1495.85,True,132,5,11,401,3,4,7,MERGED
+108792,Fix `FindInFilesPanel` sizing issues,arkology,2025-07-20T10:31:05Z,2025-08-12T16:55:06+00:00,2,558.4,True,15,11,2,561,2,0,2,MERGED
+108782,Fix spinbox formatting to fix linking,skyace65,2025-07-20T02:06:37Z,2025-07-23T18:37:59+00:00,3,88.52,True,7,1,2,493,9,1,10,MERGED
+108772,Fix root auto-translate mode ignored for child nodes when generating POT,timothyqiu,2025-07-19T10:46:38Z,2025-07-30T14:09:05+00:00,1,267.37,True,1,1,1,2264,1,0,1,MERGED
+108769,[TextServer] Fix soft hyphen font fallback.,bruvzg,2025-07-19T07:56:47Z,2025-07-23T18:37:59+00:00,2,106.69,True,22,0,1,13,1,0,1,MERGED
+108768,FIX: Prevent crashing if `max_threads` is zero. (reverted),WinnerWind,2025-07-19T06:45:51Z,2025-08-18T13:56:39+00:00,8,727.18,True,2,2,2,149,9,2,11,MERGED
+108766,Move Material3D conversion editor plugins to their own folder,aaronfranke,2025-07-19T05:12:25Z,2025-10-01T18:20:12+00:00,2,1789.13,True,278,208,5,1019,2,0,2,MERGED
+108761,Fix debanding for Mobile rendering method with HDR 2D.,allenwp,2025-07-18T21:28:57Z,2025-07-25T01:57:13+00:00,7,148.47,True,83,24,6,3128,10,5,15,MERGED
+108754,Implement `Edit in Compatibility` in project manager,SheepYhangCN,2025-07-18T19:08:18Z,2025-08-04T08:24:57+00:00,1,397.28,False,71,1,6,363,2,1,3,CLOSED
+108747,[Web] Fix Web MouseWheel scrolling,adamscott,2025-07-18T15:55:43Z,2025-07-22T16:27:17+00:00,3,96.53,True,34,11,4,116,1,1,2,MERGED
+108743,Fix jump when cutting a selection in Gridmap,Nodragem,2025-07-18T10:10:29Z,2025-09-25T17:19:53+00:00,2,1663.16,True,26,25,2,595,2,0,2,MERGED
+108729,Add a debug version for Godot's maven central artifact,m4gr3d,2025-07-18T00:25:20Z,2025-07-18T16:09:29+00:00,2,15.74,True,57,0,2,195,1,0,1,MERGED
+108728,Fix lightmap dynamic objects with physical lights,jcostello,2025-07-18T00:01:19Z,2025-07-18T16:09:30+00:00,1,16.14,True,3,3,3,12,4,0,4,MERGED
+108725,GDExtension: Add `mem_alloc2` (and friends) so padding can be requested,dsnopek,2025-07-17T21:19:58Z,2025-09-30T23:39:00+00:00,3,1802.32,True,61,1,2,376,4,0,4,MERGED
+108724,Deprecate updown icon,KoBeWi,2025-07-17T20:14:39Z,2025-07-22T16:27:17+00:00,1,116.21,True,19,9,3,134,1,0,1,MERGED
+108721,Fix hidden scrollbar in editor settings,Giganzo,2025-07-17T18:41:09Z,2025-07-22T16:27:17+00:00,1,117.77,True,1,1,1,14,1,0,1,MERGED
+108718,[SplitContainer] Fix inability to override touch dragger icon and add theme colors to touch dragger ,Koyper,2025-07-17T18:14:36Z,2025-07-18T16:09:30+00:00,2,21.91,True,28,6,4,318,2,0,2,MERGED
+108714,[Web] Disable GDScript LSP,adamscott,2025-07-17T17:09:31Z,2025-07-18T16:09:29+00:00,5,23.0,True,3,0,1,463,5,1,6,MERGED
+108708,"Fix the absolute `NodePath` was calculated incorrectly when ""Reparent to New Node""",Rindbee,2025-07-17T14:02:37Z,2025-07-23T18:37:59+00:00,1,148.59,True,7,2,2,953,4,0,4,MERGED
+108706,Fix inconsistent column in Tree click detection,KoBeWi,2025-07-17T12:31:59Z,2025-07-18T16:09:29+00:00,1,27.62,True,13,4,1,103,1,0,1,MERGED
+108699,[SpriteFramesEditor] Decompress texture before auto slicing sprite sheet.,bruvzg,2025-07-17T07:52:46Z,2025-07-17T15:43:40+00:00,3,7.85,True,5,1,1,47,4,1,5,MERGED
+108698,Optimize and clean up HashSet::clear,Brogolem35,2025-07-17T07:48:46Z,2025-09-30T23:39:00+00:00,2,1815.84,True,7,5,1,215,3,0,3,MERGED
+108697,Ensure that threads only process one pump task,clayjohn,2025-07-17T06:39:56Z,2025-07-30T14:09:05+00:00,11,319.49,True,71,17,6,563,7,5,12,MERGED
+108696,[macOS] Do not use NSApplication main loop for headless mode.,bruvzg,2025-07-17T06:12:03Z,2025-07-17T15:43:40+00:00,1,9.53,True,69,0,3,267,3,0,3,MERGED
+108692,Fix debugger immediate disconnect,m4gr3d,2025-07-17T02:48:58Z,2025-07-22T16:27:18+00:00,1,133.64,True,16,1,2,13,2,0,2,MERGED
+108684,Fix releasing the old unique name when renaming a Node,simpkins,2025-07-16T21:23:36Z,2025-07-17T15:43:40+00:00,1,18.33,True,6,5,1,270,2,0,2,MERGED
+108679,Cancel save dialog on editor exit,Alex2782,2025-07-16T18:32:03Z,2025-07-18T16:09:30+00:00,6,45.62,True,2,0,1,466,2,1,3,MERGED
+108672,Reduce code duplication in material conversion,KoBeWi,2025-07-16T16:05:07Z,2025-09-30T23:39:00+00:00,1,1831.56,True,44,202,1,0,2,0,2,MERGED
+108664,Never overwrite motion vectors in the transparent pass,clayjohn,2025-07-16T12:07:04Z,2025-07-16T16:32:15+00:00,1,4.42,True,2,4,1,1408,2,0,2,MERGED
+108661,[Linux] Fix narrowing conversion error in 32-bit builds.,bruvzg,2025-07-16T06:36:00Z,2025-07-16T16:32:15+00:00,1,9.94,True,1,1,1,341,1,0,1,MERGED
+108659,Add keypad codes to the keysym unicode map.,jdavasligil,2025-07-16T06:17:42Z,2025-07-23T18:37:59+00:00,3,180.34,True,22,0,1,600,5,1,6,MERGED
+108658,[EditorExportPlatform] Move initialization to a dedicated method.,bruvzg,2025-07-16T05:58:35Z,2025-09-30T23:39:00+00:00,1,1841.67,True,56,31,21,265,2,0,2,MERGED
+108655,Update manifold to upstream commit 76208dc,gongpha,2025-07-16T03:48:42Z,2025-07-17T15:43:40+00:00,3,35.92,True,378,154,17,151,3,0,3,MERGED
+108651,Prompt to save modified scene missing when quitting editor with running project.,Alex2782,2025-07-15T23:02:03Z,2025-07-22T16:27:18+00:00,1,161.42,True,15,1,2,304,6,0,6,MERGED
+108650,Clarify type inference in ProjectSettings Inferred Declaration warning,Calinou,2025-07-15T21:38:27Z,2025-08-25T14:56:36+00:00,2,977.3,True,1,1,1,20,1,1,2,MERGED
+108646,Optimize pattern search in TileSet editor with HashMap lookup,killerdevildog,2025-07-15T20:54:01Z,2025-10-03T23:09:08+00:00,12,1922.25,False,156,58,6,409,2,4,6,CLOSED
+108645,Fix error when dragging non-resource file,Changryy,2025-07-15T20:43:15Z,2025-07-18T16:09:30+00:00,4,67.44,True,4,2,1,135,1,1,2,MERGED
+108642,Fix new autoload scripts using file name instead of user defined name,Changryy,2025-07-15T19:25:59Z,2025-07-16T16:32:15+00:00,1,21.1,True,0,1,1,263,1,0,1,MERGED
+108638,Use `double` consistently in `Range::get_as_ratio`.,Ivorforce,2025-07-15T14:42:13Z,2025-07-15T21:58:55+00:00,1,7.28,True,2,2,1,319,1,0,1,MERGED
+108637,[Windows] Fix SSE4.2 detection with LTO build.,bruvzg,2025-07-15T14:26:02Z,2025-07-15T21:58:55+00:00,2,7.55,True,4,0,1,33,2,0,2,MERGED
+108636,Add depth resolve to the mobile renderer,clayjohn,2025-07-15T12:51:22Z,2025-09-17T16:48:47+00:00,5,1539.96,True,131,27,8,1905,4,2,6,MERGED
+108632,Add minimum scale to shader list,aryan-11825114,2025-07-15T09:48:46Z,2025-07-15T21:58:55+00:00,1,12.17,True,1,0,1,14,1,0,1,MERGED
+108630,Sort bent normal output at the bottom to prevent visual shader breakage,QbieShay,2025-07-15T09:38:01Z,2025-07-16T16:32:15+00:00,1,30.9,True,1,2,1,70,5,0,5,MERGED
+108624,[macOS] Fix mouse enter/exit event and custom cursor shape in embedded game mode.,bruvzg,2025-07-15T06:39:01Z,2025-07-17T15:43:40+00:00,1,57.08,True,66,3,5,108,1,0,1,MERGED
+108620,Visual Shader State Persistence - Type Fixes,ColinSORourke,2025-07-15T03:14:57Z,2025-07-25T01:57:13+00:00,4,238.7,True,36,14,1,1480,2,1,3,MERGED
+108618,Editor: Fix crash when specifying `--debug-server`,stuartcarnie,2025-07-14T21:32:00Z,2025-07-15T13:10:21+00:00,1,15.64,True,5,2,1,94,1,0,1,MERGED
+108617,Document Translation plurals requiring the use of the gettext PO format,Calinou,2025-07-14T20:55:43Z,2025-07-18T16:09:30+00:00,1,91.23,True,3,0,1,52,1,0,1,MERGED
+108616,SCons: Support header-only modules,Repiteo,2025-07-14T20:41:00Z,2025-07-15T13:10:21+00:00,1,16.49,True,7,92,5,218,0,0,0,MERGED
+108615,Document `AnimationMixer.animation_started` not being emitted for looping animations,Calinou,2025-07-14T20:32:01Z,2025-07-18T16:09:30+00:00,1,91.62,True,1,0,1,52,1,0,1,MERGED
+108614,GDExtension: Prevent compatibility breakage from change to `ClassDB::instantiate()` for unexposed classes,dsnopek,2025-07-14T19:30:54Z,2025-07-23T18:37:59+00:00,2,215.12,True,39,13,3,1957,12,0,12,MERGED
+108613,SCons: Ensure `CPPDEFINES` is properly utilized,Repiteo,2025-07-14T18:10:37Z,2025-09-16T16:57:20+00:00,1,1534.78,True,80,88,9,188,0,0,0,MERGED
+108610,Fix MultiSelectEdit to be compatible with the groups editor in the Node Dock,Roboticy3,2025-07-14T17:48:38Z,2025-08-16T20:41:05+00:00,2,794.87,False,256,65,9,5048,6,2,8,CLOSED
+108604,Wayland: Workaround tooltip issues ,deralmas,2025-07-14T13:55:40Z,2025-07-15T13:10:21+00:00,5,23.24,True,35,31,3,345,1,2,3,MERGED
+108599,[TextEdit] Draw guidelines under the text and caret.,bruvzg,2025-07-14T07:55:04Z,2025-07-14T15:34:55+00:00,3,7.66,True,32,19,4,151,3,2,5,MERGED
+108597,[RTL] Fix text selection offset in padded cells.,bruvzg,2025-07-14T07:44:29Z,2025-07-15T13:10:21+00:00,1,29.43,True,2,2,1,13,1,0,1,MERGED
+108592,Fix `TabBar` minimum size with `clip_tabs` enabled,lodetrick,2025-07-13T23:00:04Z,2025-07-14T15:34:55+00:00,3,16.58,True,17,11,3,503,4,1,5,MERGED
+108590,Update `auto_unfold_foreign_scenes` description,ryevdokimov,2025-07-13T21:46:26Z,2025-07-18T16:09:30+00:00,1,114.38,True,2,1,1,656,6,0,6,MERGED
+108584,Fix camera removal detection after toggling monitoring on Linux,shiena,2025-07-13T17:32:36Z,2025-07-15T21:58:55+00:00,1,52.44,True,1,0,1,387,1,0,1,MERGED
+108577,Simplify `ScriptServer::get_global_class_list`,YYF233333,2025-07-13T14:10:34Z,2025-09-30T16:26:18+00:00,5,1898.26,True,155,150,23,367,1,2,3,MERGED
+108576,Create a rotation arc showing accumulated rotation when using transform gizmo,ryevdokimov,2025-07-13T13:52:56Z,2025-09-30T23:39:00+00:00,2,1905.77,True,157,14,2,128,2,0,2,MERGED
+108570,Android Editor: Reduce default gizmo scale multiplier,syntaxerror247,2025-07-13T06:21:44Z,2025-07-22T16:27:18+00:00,2,226.09,True,1,1,1,189,3,0,3,MERGED
+108568,RenderingDevice: Add `uniform_type` check to avoid crash,beicause,2025-07-13T02:28:31Z,2025-07-14T15:34:55+00:00,1,37.11,True,1,0,1,13,1,0,1,MERGED
+108567,Add some multimesh null checks to avoid crash,beicause,2025-07-13T02:18:51Z,2025-07-14T15:34:55+00:00,1,37.27,True,13,0,2,13,1,0,1,MERGED
+108561,[Windows] Add SSE4.2 support runtime check.,bruvzg,2025-07-12T22:15:19Z,2025-07-14T15:34:55+00:00,2,41.33,True,64,1,2,4765,16,0,16,MERGED
+108558,Fix Variant properties losing value upon script update,KoBeWi,2025-07-12T18:30:48Z,2025-07-15T21:58:55+00:00,1,75.47,True,1,1,1,79,1,0,1,MERGED
+108557,Android: Fix system bar regression,syntaxerror247,2025-07-12T17:59:30Z,2025-07-30T14:09:05+00:00,20,428.16,True,54,6,5,291,9,8,17,MERGED
+108555,Fix crash when editing some resources and reloading scene,beicause,2025-07-12T17:19:23Z,2025-07-14T15:34:55+00:00,1,46.26,True,1,2,1,13,1,0,1,MERGED
+108551,Improve Paste as Unique option,KoBeWi,2025-07-12T17:00:46Z,2025-09-23T20:12:25+00:00,2,1755.19,True,19,14,1,241,2,1,3,MERGED
+108549,Do not require editor restart when changing manipulator gizmo opacity setting,ryevdokimov,2025-07-12T15:10:15Z,2025-09-23T02:01:28+00:00,1,1738.85,True,37,1,3,97,1,0,1,MERGED
+108544,Fix contacts not being reported properly when using Jolt Physics,mihe,2025-07-12T11:36:29Z,2025-07-14T15:34:55+00:00,1,51.97,True,111,1,6,887,3,0,3,MERGED
+108537,Fix error spam when hands are not tracked,m4gr3d,2025-07-11T22:54:50Z,2025-07-14T15:34:55+00:00,1,64.67,True,2,1,1,0,1,0,1,MERGED
+108533,Fix unwanted resource duplication in the theme editor,YeldhamDev,2025-07-11T19:20:09Z,2025-07-14T15:34:55+00:00,4,68.25,True,27,14,2,236,1,1,2,MERGED
+108531,"Fix MissingNode `{get,set}_original_scene` bindings",raulsntos,2025-07-11T19:00:53Z,2025-07-14T15:34:55+00:00,1,68.57,True,2,2,1,83,1,0,1,MERGED
+108530,Fix performance regression when rendering collision shapes,mihe,2025-07-11T18:55:13Z,2025-07-15T13:10:21+00:00,1,90.25,True,32,52,4,965,2,0,2,MERGED
+108527,[.NET] Fix enum from/to Variant conversion,raulsntos,2025-07-11T18:11:10Z,2025-09-16T16:57:20+00:00,1,1606.77,True,42,22,1,228,1,0,1,MERGED
+108523,Move last four 3D files to 3D folder and move physics gizmos to their own physics folder.,WhalesState,2025-07-11T15:32:29Z,2025-07-14T15:34:55+00:00,2,72.04,True,22,14,30,0,5,0,5,MERGED
+108515,[Codeowners] Minor improvements after restructure,AThousandShips,2025-07-11T12:51:20Z,2025-07-14T15:34:55+00:00,4,74.73,True,5,1,1,865,3,3,6,MERGED
+108511,Add missing OpenXR paths to /user/vive_tracker_htcx,lyuma,2025-07-11T06:52:55Z,2025-07-15T13:10:21+00:00,2,102.29,True,31,3,2,931,3,0,3,MERGED
+108510,"[macOS] Selectively bake ""no image atomics"" shader variants.",bruvzg,2025-07-11T06:25:13Z,2025-07-14T15:34:55+00:00,2,81.16,True,136,34,5,141,1,1,2,MERGED
+108504,Avoid unnecessary copy in ClassDB::get_property_list,precup,2025-07-11T02:10:40Z,2025-09-18T17:50:28+00:00,2,1671.66,True,2,6,1,923,4,0,4,MERGED
+108495,Document some deadlocks in the physics server code,simpkins,2025-07-10T20:56:15Z,2025-07-18T16:09:30+00:00,2,187.22,True,8,0,2,501,3,2,5,MERGED
+108494,Fix sphere gizmo handle position,precup,2025-07-10T20:51:48Z,2025-07-15T13:10:21+00:00,1,112.31,True,1,1,1,132,1,0,1,MERGED
+108478,"Fix export path ""leaking"" between presets",KoBeWi,2025-07-10T13:15:25Z,2025-07-14T15:34:55+00:00,1,98.33,True,3,0,2,113,1,0,1,MERGED
+108477,Fix lingering grid from TileMapLayer editor,KoBeWi,2025-07-10T12:51:36Z,2025-07-15T13:10:22+00:00,1,120.31,True,6,0,1,220,1,0,1,MERGED
+108474,Fix all asset reimport on missing filesystem_cache10,h1v9,2025-07-10T10:16:44Z,2025-07-18T16:09:30+00:00,1,197.88,True,1,1,1,141,3,0,3,MERGED
+108473,Make file part of errors/warnings clickable in Output panel,mihe,2025-07-10T10:00:40Z,2025-10-01T01:15:32+00:00,2,1983.25,True,24,4,1,1671,11,1,12,MERGED
+108472,[Windows export] Use project version as fallback.,bruvzg,2025-07-10T09:55:19Z,2025-07-17T15:43:40+00:00,1,173.81,True,2,2,1,13,1,0,1,MERGED
+108469,[RTL] Fix padding and alignment of embedded image clicks.,bruvzg,2025-07-10T07:59:56Z,2025-07-10T16:49:54+00:00,1,8.83,True,12,1,1,12,3,0,3,MERGED
+108468,CI: Generate debug build for Android,syntaxerror247,2025-07-10T07:46:30Z,2025-09-23T02:01:28+00:00,2,1794.25,True,5,5,1,372,3,0,3,MERGED
+108466,[RTL] Add method to get visible content bounding box.,bruvzg,2025-07-10T06:59:36Z,2025-07-10T16:49:54+00:00,8,9.84,True,58,0,3,209,1,10,11,MERGED
+108464,Remove an unnecessary include of main/ code from core/,simpkins,2025-07-10T02:11:39Z,2025-07-10T16:49:54+00:00,1,14.64,True,0,4,1,273,1,0,1,MERGED
+108463,Fix some Text Editor theme issues and clean up,kitbdev,2025-07-10T01:07:43Z,2025-07-16T16:32:15+00:00,15,159.41,True,354,431,8,2376,5,12,17,MERGED
+108459,Fix issue with array comparison reference,precup,2025-07-09T22:20:31Z,2025-07-10T16:49:54+00:00,2,18.49,True,8,3,1,668,2,0,2,MERGED
+108455,[Windows export] Move debug symbol sections on export.,bruvzg,2025-07-09T21:06:56Z,2025-07-10T16:49:54+00:00,3,19.72,True,72,17,1,126,1,3,4,MERGED
+108453,Never duplicate Scripts when duplicating resources recursively,MarianoGnu,2025-07-09T20:49:26Z,2025-08-14T14:33:59+00:00,2,857.74,True,6,0,1,58,10,1,11,MERGED
+108452,Metal: Remove invalid assumption for image atomic operations,stuartcarnie,2025-07-09T20:33:50Z,2025-07-10T16:49:54+00:00,2,20.27,True,14,40,3,77,2,0,2,MERGED
+108449,Fix Android splash theme regression,syntaxerror247,2025-07-09T18:05:55Z,2025-07-10T16:49:54+00:00,5,22.73,True,5,1,1,124,1,1,2,MERGED
+108442,Fix incorrect anchor preset when custom offset is set (reverted),limuy2022,2025-07-09T15:04:30Z,2025-07-15T13:10:22+00:00,2,142.1,True,4,0,1,23,4,1,5,MERGED
+108440,Fix ScriptEditor inline color wrong line number,kitbdev,2025-07-09T14:21:10Z,2025-07-10T16:49:54+00:00,2,26.48,True,9,9,3,205,1,1,2,MERGED
+108436,Scroll scene tree dock when moving item(s) with keys,AeioMuch,2025-07-09T13:45:52Z,2025-07-14T15:34:55+00:00,1,121.82,True,3,0,1,13,5,0,5,MERGED
+108433,[3.x] Update required version numbers for Android in 3.x,WolfgangSenff,2025-07-09T12:45:30Z,2025-08-08T09:19:58+00:00,16,716.57,True,62,39,14,257,16,3,19,MERGED
+108431,"[Code Editor] Fix ""Pick Color"" menu option replacing multiple color items.",bruvzg,2025-07-09T11:52:19Z,2025-07-10T16:49:54+00:00,3,28.96,True,4,3,2,126,1,2,3,MERGED
+108418,Improve error when `update_doc()` fails,KoBeWi,2025-07-08T20:55:53Z,2025-07-09T16:38:28+00:00,1,19.71,True,1,1,1,363,5,0,5,MERGED
+108410,Remove PropertyTweener start warning,KoBeWi,2025-07-08T13:58:40Z,2025-07-10T16:49:54+00:00,2,50.85,True,0,1,1,493,1,0,1,MERGED
+108401,Draw guide lines over selection and focus styleboxes,dagarsar,2025-07-08T10:32:11Z,2025-07-09T16:38:28+00:00,1,30.1,True,8,8,1,10,1,0,1,MERGED
+108400,Specify Apache license version for Grisu2,Rubonnek,2025-07-08T09:41:38Z,2025-07-09T16:38:28+00:00,2,30.95,True,1,1,1,191,2,0,2,MERGED
+108399,[RTL] Add option to scroll follow visible characters.,bruvzg,2025-07-08T08:14:02Z,2025-07-10T16:49:54+00:00,4,56.6,True,43,0,3,400,1,3,4,MERGED
+108397,Fix crash when creating voxel GI data,retrotails,2025-07-08T03:25:03Z,2025-07-09T16:38:28+00:00,1,37.22,True,6,4,1,13,1,0,1,MERGED
+108396,Fix main editor title after changing language,timothyqiu,2025-07-08T02:33:51Z,2025-07-09T16:38:28+00:00,1,38.08,True,1,0,1,106,2,0,2,MERGED
+108393,[Android] Update the maven publishing configuration following the deprecation of the OSSHR service,m4gr3d,2025-07-07T23:14:08Z,2025-07-09T16:38:28+00:00,1,41.41,True,6,6,5,78,2,0,2,MERGED
+108387,"Fix wrong ""location"" substring matching when HTTP status is 301 or 302",BadMachine,2025-07-07T20:08:34Z,2025-07-15T13:10:22+00:00,7,185.03,True,1,1,1,546,3,3,6,MERGED
+108384,[Web] Fix sample playback deletion and `AudioStreamPolyphonic` issue,adamscott,2025-07-07T18:48:07Z,2025-08-03T16:27:29+00:00,4,645.66,True,26,15,3,445,3,1,4,MERGED
+108382,[3.x] mbedTLS: Update to mbedTLS 3.6.4,Faless,2025-07-07T14:43:23Z,2025-09-13T09:29:56+00:00,4,1626.78,True,108373,38881,296,352,1,2,3,MERGED
+108381,"Fix error when ""Toggle Files Panel"" in shader editor",timothyqiu,2025-07-07T14:41:37Z,2025-07-24T19:27:40+00:00,1,412.77,True,10,8,1,291,3,0,3,MERGED
+108378,Fix division by zero in clearcoat specular BRDF,Mingxi-Z,2025-07-07T13:46:41Z,2025-07-09T16:38:28+00:00,4,50.86,True,2,2,2,318,2,1,3,MERGED
+108377,Fix can't remove inspector plugins after reaching max count,timothyqiu,2025-07-07T12:56:47Z,2025-07-07T15:14:05+00:00,1,2.29,True,0,2,1,87,1,0,1,MERGED
+108374,Deactivate orientation gizmo on window exit,dagarsar,2025-07-07T10:59:31Z,2025-08-04T17:08:35+00:00,1,678.15,True,4,0,1,11,1,0,1,MERGED
+108373,Fix the usage of udev and dbus with SDL joystick input driver,Nintorch,2025-07-07T09:05:52Z,2025-08-03T16:27:29+00:00,2,655.36,True,171,1406,13,1462,3,0,3,MERGED
+108371,"mbedTLS: Update to version 3.6.4, fixes GCC 15 compatibility",akien-mga,2025-07-07T08:26:26Z,2025-07-07T15:14:05+00:00,1,6.79,True,961,441,45,874,3,0,3,MERGED
+108368,Move 2D and 3D particle editors to the 2D and 3D folders,aaronfranke,2025-07-07T07:54:54Z,2025-07-09T16:38:28+00:00,3,56.73,True,1204,1069,7,426,1,0,1,MERGED
+108367,Fix typo in `TextParagraph.direction` hint string,timothyqiu,2025-07-07T07:25:25Z,2025-07-07T15:14:05+00:00,1,7.81,True,1,1,1,0,1,0,1,MERGED
+108364,Use inotify to detect devices for better reliability on Linux,Rindbee,2025-07-07T03:42:18Z,2025-07-17T15:43:40+00:00,4,252.02,True,5,0,1,81,1,1,2,MERGED
+108358,Use square versions of distance/length where appropriate,AThousandShips,2025-07-06T21:10:18Z,2025-08-18T12:35:07+00:00,12,1023.41,False,316,271,68,1832,28,23,51,CLOSED
+108356,Fix incorrect light values on blend import,neonmoe,2025-07-06T20:28:33Z,2025-08-18T13:56:39+00:00,11,1025.47,True,2,0,2,2578,11,3,14,MERGED
+108354,Thirdparty: Fix SDL arm64 compilation on Windows,Repiteo,2025-07-06T20:18:21Z,2025-07-07T15:14:05+00:00,1,18.93,True,14,1,2,338,0,0,0,MERGED
+108350,Add environment variable access defines to SDL linux build config,DanielSnd,2025-07-06T18:10:19Z,2025-07-18T16:09:30+00:00,3,285.99,True,3,0,1,405,6,1,7,MERGED
+108347,Fix underculling of occulusion culling,Rudolph-B,2025-07-06T17:02:48Z,2025-07-09T16:38:28+00:00,3,71.59,True,9,4,2,428,2,1,3,MERGED
+108337,DAP: Cast request's `seq` value to int,fstxz,2025-07-06T11:34:15Z,2025-07-28T15:56:21+00:00,3,532.37,True,5,0,1,14,1,2,3,MERGED
+108336,Fix and improve auto-translation for `FindInFiles`,arkology,2025-07-06T10:38:23Z,2025-07-23T18:37:59+00:00,6,415.99,True,46,29,1,408,2,2,4,MERGED
+108332,Fix remaining physics and navigation disabling issues.,WhalesState,2025-07-06T09:27:10Z,2025-07-15T13:10:22+00:00,3,219.72,True,28,11,5,323,2,3,5,MERGED
+108329,Android: Fix the EOF detection logic,m4gr3d,2025-07-06T08:15:48Z,2025-07-10T16:49:54+00:00,2,104.57,True,1,3,2,665,3,0,3,MERGED
+108328,Fix ColorPicker linear mode sliders color,beicause,2025-07-06T05:23:34Z,2025-07-30T14:09:05+00:00,1,584.76,True,1,1,1,98,1,0,1,MERGED
+108321,[4.3] Fix MSVC warning for potential mod by 0 (C4724),aaronfranke,2025-07-05T22:34:53Z,2025-08-27T20:17:35+00:00,1,1269.71,True,4,2,1,109,2,0,2,MERGED
+108312,Fix filtered out nodes not getting deselected,KoBeWi,2025-07-05T14:32:26Z,2025-07-16T16:32:15+00:00,1,266.0,True,1,1,1,13,1,0,1,MERGED
+108308,Fix `surface_get_arrays` returns wrong index array when using empty vertex array,beicause,2025-07-05T10:17:51Z,2025-07-07T15:14:05+00:00,1,52.94,True,1,1,1,13,1,0,1,MERGED
+108306,Fix lookup symbol for `super()`,Chaosus,2025-07-05T09:47:47Z,2025-07-17T15:43:40+00:00,9,293.93,True,30,1,4,11,4,2,6,MERGED
+108302,GLTF: Fix nasty bug with incorrect buffer indices on export,aaronfranke,2025-07-05T06:50:06Z,2025-07-15T13:10:21+00:00,1,246.34,True,79,80,2,1349,1,0,1,MERGED
+108297,Fix remote deselection not working when selection limit is reached,YeldhamDev,2025-07-04T23:40:44Z,2025-08-11T14:58:32+00:00,1,903.3,True,10,17,1,0,5,0,5,MERGED
+108295,Fix shader editor auto-opens on startup,beicause,2025-07-04T22:48:59Z,2025-07-23T18:37:59+00:00,1,451.82,True,11,9,2,188,2,0,2,MERGED
+108291,Create an undo/redo action when pinning a SoftBody3D point in the editor,simpkins,2025-07-04T20:41:25Z,2025-08-26T14:22:51+00:00,5,1265.69,False,8,1,1,391,2,3,5,CLOSED
+108290,"Revert ""Create more optimized CSGShape3D baked static mesh""",smix8,2025-07-04T18:48:23Z,2025-07-07T15:14:05+00:00,1,68.43,True,1,14,1,58,2,0,2,MERGED
+108287,Fix immersive mode and virtual keyboard height issue on Android,syntaxerror247,2025-07-04T17:05:07Z,2025-07-18T16:09:30+00:00,12,335.07,True,39,9,3,168,17,2,19,MERGED
+108285,Clarify that Network Mode is not mandatory for plugins,timothyqiu,2025-07-04T15:45:44Z,2025-07-18T16:09:30+00:00,2,336.4,True,1,0,1,82,1,0,1,MERGED
+108284,NavMap2D: check if obstacles have avoidance enabled,dmlary,2025-07-04T15:33:08Z,2025-07-07T15:14:05+00:00,1,71.68,True,3,0,1,151,1,0,1,MERGED
+108281,NavMap3D: check if obstacles have avoidance enabled,dmlary,2025-07-04T15:19:18Z,2025-07-07T15:14:05+00:00,1,71.91,True,3,0,1,137,4,0,4,MERGED
+108276,[Web] Restrict rendering method selection,AThousandShips,2025-07-04T13:30:14Z,2025-07-04T17:41:40+00:00,1,4.19,True,1,1,1,340,2,0,2,MERGED
+108271,Class docs: Fix ReflectionProbe note regarding Compatibility renderer support,protam12,2025-07-04T11:02:55Z,2025-07-28T15:56:21+00:00,4,580.89,True,1,1,1,1236,4,1,5,MERGED
+108264,Fix `PROPERTY_HINT_GROUP_ENABLE` display on hover,lodetrick,2025-07-04T04:23:41Z,2025-07-07T15:14:05+00:00,4,82.84,True,22,20,2,260,1,2,3,MERGED
+108262,Fix crash in C# bindings generator with bad enum documentation XML,aaronfranke,2025-07-04T03:56:00Z,2025-07-07T15:14:05+00:00,1,83.3,True,2,2,1,800,1,0,1,MERGED
+108260,Fix modifier order in keycode string generation,Silver1063,2025-07-04T00:24:54Z,2025-09-18T17:50:28+00:00,13,1841.43,True,44,28,3,554,4,7,11,MERGED
+108255,Fix: TabBar/TabContainer can't start with all tabs deselected,thygrrr,2025-07-03T21:17:56Z,2025-07-07T15:14:05+00:00,5,89.94,True,24,6,2,783,3,2,5,MERGED
+108254,Add more `PROPERTY_HINT_GROUP_ENABLE` uses,KoBeWi,2025-07-03T20:31:22Z,2025-09-22T13:56:28+00:00,5,1937.42,True,29,63,19,62,7,1,8,MERGED
+108249,Fix selecting wrong vertices in the Polygon2D editor when adding a polygon,Nikitf777,2025-07-03T19:20:45Z,2025-07-07T15:14:05+00:00,4,91.89,True,3,5,1,315,2,1,3,MERGED
+108247,Add .zed/ to .gitignore,Nikitf777,2025-07-03T18:56:41Z,2025-07-04T17:41:40+00:00,4,22.75,True,3,0,1,153,3,0,3,MERGED
+108243,Android: Fix Android plugins regression,m4gr3d,2025-07-03T16:45:08Z,2025-07-04T15:24:49+00:00,2,22.66,True,5,3,3,265,7,0,7,MERGED
+108239,Fix crash in Jolt Physics when switching scenes in editor,mihe,2025-07-03T15:03:06Z,2025-07-04T15:24:49+00:00,2,24.36,True,12,2,3,650,1,0,1,MERGED
+108235,Improve performance for shapeless objects when using Jolt Physics,mihe,2025-07-03T12:40:11Z,2025-07-03T17:27:12+00:00,2,4.78,True,14,1,4,1275,1,0,1,MERGED
+108230,Fix image download example code,Miziziziz,2025-07-03T04:34:45Z,2025-07-07T15:14:05+00:00,2,106.66,True,2,2,1,163,1,1,2,MERGED
+108216,Fix typed collections using same reference across scene instances,mihe,2025-07-02T19:50:19Z,2025-07-03T17:27:12+00:00,1,21.61,True,12,9,1,696,5,0,5,MERGED
+108214,Fix `Input.get_joy_info()` regression after the SDL input driver PR,Nintorch,2025-07-02T19:17:25Z,2025-09-01T16:16:39+00:00,13,1460.99,True,25,10,3,517,5,7,12,MERGED
+108207,Fix error spam caused by `internal_vertex_count` property,KoBeWi,2025-07-02T16:26:45Z,2025-07-04T15:24:49+00:00,1,46.97,True,1,1,1,12,1,0,1,MERGED
+108206,"Disable unsupported SSR, SSS, DoF on transparent viewports",Calinou,2025-07-02T15:58:37Z,2025-09-16T16:57:20+00:00,3,1824.98,True,25,4,6,288,2,2,4,MERGED
+108205,Android: Don't exclude display cutout in immersive mode,syntaxerror247,2025-07-02T15:44:19Z,2025-07-03T17:27:12+00:00,5,25.71,True,16,5,2,433,1,4,5,MERGED
+108200,Fix smoothed camera position with limits,KoBeWi,2025-07-02T11:55:13Z,2025-07-03T17:27:13+00:00,1,29.53,True,1,1,1,13,1,0,1,MERGED
+108196,SpinBox: Fix `custom_arrow_step` by snapping it to `step`,beicause,2025-07-02T10:39:22Z,2025-07-17T15:43:40+00:00,9,365.07,True,4,10,3,127,11,1,12,MERGED
+108172,Move Web export threads options out of variant mk2,adamscott,2025-07-01T19:48:48Z,2025-07-09T16:38:28+00:00,1,188.83,True,17,12,2,865,1,0,1,MERGED
+108171,[3.x] Fix inability to assign script after clearing,lawnjelly,2025-07-01T19:13:34Z,2025-07-02T11:06:51+00:00,1,15.89,True,5,1,1,1059,3,0,3,MERGED
+108167,GDScript: Don't get invalid dictionary key during completion,vnen,2025-07-01T15:37:22Z,2025-07-25T01:57:13+00:00,3,562.33,True,113,51,6,697,6,1,7,MERGED
+108166,Clarify initialization of scene tiles,KoBeWi,2025-07-01T15:09:42Z,2025-07-03T17:27:12+00:00,3,50.29,True,2,2,2,28,1,2,3,MERGED
+108165,"Add `CameraServer` `feeds_updated` signal, and document async behavior",shiena,2025-07-01T13:56:10Z,2025-08-08T17:31:34+00:00,28,915.59,True,33,0,6,414,7,14,21,MERGED
+108162,Change preview methods to take Callable,KoBeWi,2025-07-01T11:49:06Z,2025-09-23T20:12:25+00:00,1,2024.39,True,76,113,15,275,5,0,5,MERGED
+108159,[3.x] `LODManager` - Auto-deactivate when no LODs,lawnjelly,2025-07-01T06:39:25Z,2025-07-01T18:03:34+00:00,2,11.4,True,11,2,2,623,1,1,2,MERGED
+108147,Expose FileDialog callbacks for getting custom icons,KoBeWi,2025-06-30T19:56:34Z,2025-10-01T18:20:12+00:00,3,2230.39,True,138,13,6,127,4,2,6,MERGED
+108146,Expose methods to access FileDialog's favorite/recent lists,KoBeWi,2025-06-30T19:56:33Z,2025-09-30T23:39:00+00:00,1,2211.71,True,97,0,3,106,3,0,3,MERGED
+108144,[SDL] Fix missing header build error on some Linux systems.,bruvzg,2025-06-30T18:05:33Z,2025-07-03T17:27:12+00:00,2,71.36,True,15,0,2,573,1,0,1,MERGED
+108140,LSP: Don't poll during editor setup,HolonProduction,2025-06-30T11:54:13Z,2025-07-03T17:27:13+00:00,3,77.55,True,6,4,1,13,1,1,2,MERGED
+108132,[3.x] `FTI` - Clear all when enabling / disabling `SceneTreeFTI`,lawnjelly,2025-06-30T07:18:37Z,2025-07-01T17:22:09+00:00,1,34.06,True,11,0,1,442,1,0,1,MERGED
+108131,`FTI` - Clear `SceneTreeFTI` completely on enabling / disabling.,lawnjelly,2025-06-30T07:10:31Z,2025-07-01T23:04:05+00:00,1,39.89,True,11,0,1,441,1,0,1,MERGED
+108123,Metal: Use correct environment variable to generate labels,stuartcarnie,2025-06-29T20:11:30Z,2025-07-01T23:04:04+00:00,5,50.88,True,1,1,1,81,1,1,2,MERGED
+108122,Properly show detach script button when script is added via inspector,Kazuo256,2025-06-29T19:19:33Z,2025-07-18T16:09:30+00:00,17,452.83,True,36,11,2,883,13,7,20,MERGED
+108121,Core: Handle disabled class detection in `ClassDB`,Repiteo,2025-06-29T18:49:06Z,2025-09-17T16:48:47+00:00,2,1917.99,True,62,52,13,592,1,0,1,MERGED
+108120,[3.x] `FTI` - Add `multimesh_instances_reset_physics_interpolation()`,lawnjelly,2025-06-29T17:58:02Z,2025-07-02T07:20:15+00:00,1,61.37,True,40,0,10,749,1,0,1,MERGED
+108119,Fix subinspector for parameter preview in visual shader editor,Chaosus,2025-06-29T17:37:11Z,2025-07-04T15:24:49+00:00,1,117.79,True,4,3,1,159,1,0,1,MERGED
+108118,Simplify `varray`,YYF233333,2025-06-29T17:36:13Z,2025-09-18T17:50:28+00:00,3,1944.24,True,1,17,1,1666,3,0,3,MERGED
+108117,[3.x] `FTI` - Add reset on setting `toplevel`,lawnjelly,2025-06-29T17:25:58Z,2025-07-01T17:23:22+00:00,1,47.96,True,3,1,3,428,1,0,1,MERGED
+108116,[3.x] `FTI` - Fix `MultiMesh` stable behaviour,lawnjelly,2025-06-29T17:16:33Z,2025-07-01T17:24:29+00:00,1,48.13,True,3,0,1,1147,1,0,1,MERGED
+108113,Fix signature in docs of `EditorImportPlugin.GetOptionVisibility`,dogboydog,2025-06-29T16:19:33Z,2025-07-03T17:27:13+00:00,7,97.13,True,4,4,1,134,3,1,4,MERGED
+108112,`FTI` - Add reset on setting `top_level`,lawnjelly,2025-06-29T16:11:01Z,2025-07-01T23:04:04+00:00,2,54.88,True,4,1,3,614,1,0,1,MERGED
+108109,`FTI` - Fix `MultiMesh` init and stable behaviour,lawnjelly,2025-06-29T15:17:35Z,2025-07-01T23:04:04+00:00,1,55.77,True,16,0,1,2647,1,0,1,MERGED
+108102,Android: Fix `DisplayServer.get_display_safe_area()` issues,syntaxerror247,2025-06-29T07:53:10Z,2025-07-01T23:04:05+00:00,1,63.18,True,18,16,1,559,2,0,2,MERGED
+108094,Jolt physics: wake up a soft body when its transform changes,simpkins,2025-06-29T00:00:10Z,2025-07-03T17:27:13+00:00,1,113.45,True,1,0,1,423,3,0,3,MERGED
+108085,Fix shader function overloads with incorrect order,Chaosus,2025-06-28T18:05:38Z,2025-07-09T16:38:28+00:00,1,262.55,True,7,9,1,11,1,0,1,MERGED
+108082,X11: Fix memory leak when using window embedding,timothyqiu,2025-06-28T14:53:33Z,2025-07-01T23:04:04+00:00,3,80.18,True,5,3,1,44,1,1,2,MERGED
+108075,Improve error message when UID main scene is not found,KoBeWi,2025-06-28T11:56:22Z,2025-09-22T13:56:28+00:00,1,2066.0,True,11,1,1,16,2,0,2,MERGED
+108060,Fix EditorSettings usage in TLSContext,KoBeWi,2025-06-27T23:08:35Z,2025-06-28T11:08:44+00:00,1,12.0,True,2,2,1,117,1,0,1,MERGED
+108056,Add example of using `get_connection_list_from_node`,JekSun97,2025-06-27T21:43:39Z,2025-07-01T23:04:04+00:00,5,97.34,True,19,0,1,419,3,4,7,MERGED
+108053,[.NET] Mention MSBuild panel when building fails,raulsntos,2025-06-27T18:35:20Z,2025-06-28T11:08:44+00:00,1,16.56,True,2,2,2,322,1,0,1,MERGED
+108051,Fix `AudioListener3D` not tracking velocity for doppler,RoyBerardo,2025-06-27T17:06:22Z,2025-07-30T14:09:05+00:00,4,789.05,True,87,13,6,493,5,1,6,MERGED
+108044,Fix opaque stencil rendering,apples,2025-06-27T12:03:48Z,2025-07-31T15:44:32+00:00,16,819.68,True,36,8,6,898,3,4,7,MERGED
+108043,Document that `native file dialog` is only available on Android 10+ devices.,syntaxerror247,2025-06-27T11:41:46Z,2025-06-27T14:41:06+00:00,1,2.99,True,7,3,3,167,1,0,1,MERGED
+108042,Fix crash when disabling `SoftBody3D` while using Jolt Physics,mihe,2025-06-27T10:53:55Z,2025-06-27T14:41:06+00:00,1,3.79,True,2,1,1,209,1,0,1,MERGED
+108041,C#: Fix return value of `StringExtensions.GetExtension()`,bs-mwoerner,2025-06-27T10:03:52Z,2025-06-28T11:08:44+00:00,1,25.08,True,2,2,1,1888,1,0,1,MERGED
+108038,Fix `Mesh.generate_triangle_mesh` when using `PRIMITIVE_TRIANGLE_STRIP`,arlez80,2025-06-27T04:53:52Z,2025-07-03T17:27:13+00:00,2,156.56,True,18,6,1,173,2,0,2,MERGED
+108029,Clarify `visible_characters`,Joy-less,2025-06-27T00:05:41Z,2025-08-03T16:27:28+00:00,5,904.36,True,2,0,2,416,2,2,4,MERGED
+108028,Metal: Use image atomic operations on supported Apple hardware,stuartcarnie,2025-06-27T00:00:34Z,2025-07-07T15:14:05+00:00,9,255.23,True,5356,721,32,2023,15,9,24,MERGED
+108027,meshoptimizer: Update to 0.24,Chubercik,2025-06-26T23:05:38Z,2025-06-28T11:08:44+00:00,1,36.05,True,1314,422,14,56,1,0,1,MERGED
+108026,Gridmap editor: Avoid extra mesh instantiation when setting clipboard data,Fgico,2025-06-26T22:38:29Z,2025-07-14T15:34:55+00:00,1,424.94,True,0,1,1,273,9,0,9,MERGED
+108019,Add missing JNI variant conversion for generic Array,limbonaut,2025-06-26T17:32:37Z,2025-06-27T14:41:06+00:00,2,21.14,True,16,0,1,466,1,0,1,MERGED
+108017,Don't rename nodes when tree is invisible,KoBeWi,2025-06-26T17:08:28Z,2025-06-27T14:41:06+00:00,1,21.54,True,1,1,1,51,1,0,1,MERGED
+108015,Fix VVL errors by changing `frag_color` to FP32 and dFdx/y.,DarioSamo,2025-06-26T16:48:50Z,2025-06-27T14:41:06+00:00,3,21.87,True,15,11,1,447,2,0,2,MERGED
+108007,[Web] Poll controllers only if at least one is detected,adamscott,2025-06-26T12:39:53Z,2025-06-27T14:41:06+00:00,1,26.02,True,14,13,3,376,2,0,2,MERGED
+108006,[Web] Revert #105601 (avoid unnecessary gamepad polling),adamscott,2025-06-26T12:14:01Z,2025-06-27T14:24:38+00:00,1,26.18,False,3,13,3,535,3,0,3,CLOSED
+108005,Fix `screen_accum` not being reset when it should be in `Input::VelocityTrack`,Rindbee,2025-06-26T12:07:57Z,2025-06-27T14:41:06+00:00,1,26.55,True,3,0,1,83,1,0,1,MERGED
+108004,Block Tween `custom_step()` during step,KoBeWi,2025-06-26T10:28:56Z,2025-06-28T11:08:44+00:00,2,48.66,True,8,2,2,12,1,0,1,MERGED
+107998,Android: Fix the build logic to generate the native debug symbols,m4gr3d,2025-06-26T06:30:03Z,2025-07-07T15:14:05+00:00,3,272.73,True,36,24,6,358,3,2,5,MERGED
+107991,Add Polish translation for Linux .desktop file,Saver310,2025-06-25T21:11:29Z,2025-06-27T14:41:06+00:00,1,41.49,True,2,0,1,4,2,0,2,MERGED
+107989,Documentation: Add missing required qualifier for various classes,Jojo-1000,2025-06-25T20:29:31Z,2025-09-19T14:23:06+00:00,6,2057.89,True,42,65,15,307,8,2,10,MERGED
+107985,Fix `RenderingServer::mesh_surface_get_lods()`,simpkins,2025-06-25T17:40:01Z,2025-06-25T20:20:56+00:00,1,2.68,True,2,2,1,672,1,0,1,MERGED
+107976,Document `Gradient.sample()` clamping behavior,Calinou,2025-06-25T13:21:18Z,2025-06-25T20:20:56+00:00,1,6.99,True,1,1,1,52,1,0,1,MERGED
+107975,Improve the cubemap preview,BlueCube3310,2025-06-25T13:14:24Z,2025-09-23T02:01:28+00:00,1,2148.78,True,27,4,2,446,1,0,1,MERGED
+107973,"Add permission request for Apple embedded platforms, fix microphone input",paddy-exe,2025-06-25T13:03:33Z,2025-06-25T20:20:56+00:00,2,7.29,True,44,10,5,203,1,1,2,MERGED
+107971,DDS: Fix loading cubemaps,BlueCube3310,2025-06-25T12:13:01Z,2025-06-25T20:20:56+00:00,2,8.13,True,1,1,1,36,1,0,1,MERGED
+107965,Restore `graph_offset` property,KoBeWi,2025-06-25T08:53:12Z,2025-06-25T20:20:56+00:00,8,11.46,True,27,8,4,26,1,2,3,MERGED
+107964,Add Japanese translation for Linux .desktop file,voylin,2025-06-25T06:28:20Z,2025-06-28T11:08:44+00:00,1,76.67,True,2,0,1,216,3,0,3,MERGED
+107963,Fix SDL threading on macOS/Linux.,bruvzg,2025-06-25T04:05:41Z,2025-06-25T09:49:04+00:00,2,5.72,True,9,63,4,151,3,1,4,MERGED
+107962,Sync controller mappings DB with SDL community repo,geowarin,2025-06-25T03:15:18Z,2025-06-25T20:20:56+00:00,1,17.09,True,177,100,1,433,4,0,4,MERGED
+107956,ufbx: Update to 0.20.0,Chubercik,2025-06-24T22:22:45Z,2025-06-24T23:43:23+00:00,1,1.34,True,368,143,3,387,1,0,1,MERGED
+107955,Fix `mouse_entered` and `mouse_exited` Signals being emitted too early,lodetrick,2025-06-24T21:08:09Z,2025-09-19T14:23:06+00:00,1,2081.25,True,4,8,2,985,1,0,1,MERGED
+107954,Add Core UNIX domain socket support,stuartcarnie,2025-06-24T21:05:32Z,2025-09-30T23:39:00+00:00,13,2354.56,True,1791,529,39,3235,24,24,48,MERGED
+107948,[Web] Fix Webkit leak caused by the position reporting audio worklets,adamscott,2025-06-24T18:57:45Z,2025-06-25T09:49:04+00:00,1,14.86,True,20,21,2,868,11,0,11,MERGED
+107944,Mark GDScript and shader warnings for translation,KoBeWi,2025-06-24T16:04:51Z,2025-06-24T23:43:23+00:00,9,7.64,True,60,63,4,16,3,2,5,MERGED
+107943,Generate scene ID for created built-in Resources,KoBeWi,2025-06-24T15:58:53Z,2025-06-24T23:43:23+00:00,1,7.74,True,3,3,3,269,1,0,1,MERGED
+107940,Fix OptionButton ID value range documentation,aaronfranke,2025-06-24T15:13:58Z,2025-06-25T09:49:04+00:00,2,18.59,True,1,1,1,29,2,1,3,MERGED
+107939,Fix compiler error: pass `-mpopcnt` when using clang / llvm and targeting x86_64,TCROC,2025-06-24T15:05:47Z,2025-06-24T23:43:23+00:00,1,8.63,True,1,1,1,1589,1,0,1,MERGED
+107938,Specifiy return value in several store methods in `FileAccess`,krishnabm,2025-06-24T14:29:52Z,2025-06-28T11:08:44+00:00,2,92.65,True,14,14,1,125,10,3,13,MERGED
+107936,Add opt-in GDScript warning for when calling coroutine without `await`,mihe,2025-06-24T13:39:42Z,2025-09-30T23:39:00+00:00,2,2361.99,True,29,2,8,1391,2,0,2,MERGED
+107934,Fix resizing error when generating thumbnails,beicause,2025-06-24T12:42:39Z,2025-06-24T15:10:44+00:00,1,2.47,True,2,2,1,203,1,0,1,MERGED
+107933,Fix points jumping when dragging starts in the Polygon2D editor,Nikitf777,2025-06-24T12:23:37Z,2025-06-28T11:08:44+00:00,1,94.75,True,2,3,1,499,1,0,1,MERGED
+107932,Fix removing wrong vertices in the Polygon2D editor when points overlap each other,Nikitf777,2025-06-24T11:55:14Z,2025-07-01T23:04:04+00:00,1,179.15,True,3,5,1,410,1,0,1,MERGED
+107929,Fix updating project settings after move,KoBeWi,2025-06-24T08:31:14Z,2025-06-24T15:10:45+00:00,1,6.66,True,1,1,1,374,1,0,1,MERGED
+107928,Always send lights to sky shader if using sun scatter,Kaleb-Reid,2025-06-24T08:20:40Z,2025-06-24T23:43:23+00:00,2,15.38,True,2,2,2,128,5,0,5,MERGED
+107926,[macOS] Move keyboard layout related code to base display server.,bruvzg,2025-06-24T07:46:35Z,2025-06-24T15:10:45+00:00,1,7.4,True,175,167,4,83,1,0,1,MERGED
+107923,Use Mat3x4 for model and view transforms to save bandwidth and ALUs,clayjohn,2025-06-24T06:12:05Z,2025-09-30T23:39:00+00:00,2,2369.45,True,212,139,11,541,11,1,12,MERGED
+107919,Fix animation keying not working with toggleable inspector sections,lodetrick,2025-06-24T02:11:31Z,2025-07-03T17:27:13+00:00,5,231.26,True,136,30,2,230,3,3,6,MERGED
+107918,Fix custom Text Editor theme changes on reload,kitbdev,2025-06-23T23:50:22Z,2025-07-01T23:04:04+00:00,5,191.23,True,140,103,3,1128,3,2,5,MERGED
+107917,Cleanup closed embedded processes on macOS,a-johnston,2025-06-23T23:17:33Z,2025-06-24T15:10:45+00:00,1,15.89,True,1,2,2,485,2,0,2,MERGED
+107915,Fix particles resetting properties when emitting is toggled,QbieShay,2025-06-23T22:40:10Z,2025-07-04T15:24:49+00:00,5,256.74,True,4,4,4,27,1,1,2,MERGED
+107909,GDScript: Fix double spaces for type hints when connecting signal,dalexeev,2025-06-23T18:51:21Z,2025-06-24T15:10:45+00:00,1,20.32,True,26,17,1,194,1,0,1,MERGED
+107904,Fix ScriptEditor inline colors float handling,kitbdev,2025-06-23T17:58:36Z,2025-07-09T16:38:28+00:00,3,382.66,True,87,66,1,679,2,5,7,MERGED
+107901,[3.6] Cherry-picks for the 3.6 branch (future 3.6.1) - 3rd batch,akien-mga,2025-06-23T17:14:19Z,2025-06-23T18:24:39+00:00,1,1.17,True,98,22,9,105,1,0,1,MERGED
+107898,Image: Fix `is_invisible` detection for RGBAH and RGBAF,BlueCube3310,2025-06-23T16:40:15Z,2025-06-25T20:20:56+00:00,1,51.68,True,6,6,1,71,1,0,1,MERGED
+107895,[Docs] Various grammar and spelling fixes,AThousandShips,2025-06-23T14:46:17Z,2025-06-24T15:10:45+00:00,2,24.41,True,61,61,41,760,2,1,3,MERGED
+107893,Vulkan Mobile: Fix writing vertex color in spatial shader,beicause,2025-06-23T13:35:54Z,2025-06-23T14:50:27+00:00,1,1.24,True,4,4,1,208,1,0,1,MERGED
+107889,[3.x] `FTI` - Change `SceneTree` global setting to static,lawnjelly,2025-06-23T10:54:16Z,2025-06-24T07:37:34+00:00,1,20.72,True,29,17,9,1113,1,0,1,MERGED
+107886,`FTI` - Change `SceneTree` global setting to static,lawnjelly,2025-06-23T09:34:25Z,2025-06-24T15:10:45+00:00,3,29.61,True,30,17,11,1309,3,1,4,MERGED
+107881,[3.x] Optimize hotspots with `Object::derives_from`,lawnjelly,2025-06-23T07:52:07Z,2025-06-23T09:42:21+00:00,1,1.84,True,27,26,11,1156,1,0,1,MERGED
+107877,[3.x] Optimize hotspots with `Object::is_reference()`,lawnjelly,2025-06-23T06:58:21Z,2025-06-23T12:29:28+00:00,6,5.52,True,32,36,10,219,1,2,3,MERGED
+107876,Fix a few improper memory accesses in the clustered forward vertex shader,clayjohn,2025-06-23T06:42:15Z,2025-06-24T23:43:23+00:00,1,41.02,True,4,4,2,1008,1,0,1,MERGED
+107872,[Autocomplete] Avoid prepending literals when the character has already been typed,Thought-Weaver,2025-06-23T01:20:01Z,2025-07-10T16:49:54+00:00,18,423.5,True,104,23,5,566,2,9,11,MERGED
+107868,Provide quick access to `Object` ancestry,lawnjelly,2025-06-22T23:05:36Z,2025-09-20T18:47:28+00:00,2,2155.7,True,86,9,18,2134,1,1,2,MERGED
+107862,Expose `ScriptEditor.clear_docs_from_script`,Naros,2025-06-22T16:26:41Z,2025-06-24T15:10:45+00:00,5,46.73,True,10,1,2,217,2,1,3,MERGED
+107858,Ensure sky orientation is set when reflection uses sky,Mingxi-Z,2025-06-22T15:58:53Z,2025-06-22T22:23:06+00:00,1,6.4,True,6,4,1,586,3,0,3,MERGED
+107854,"Revert ""FTI - Reduce `VisualInstance3D` xform notifications""",lawnjelly,2025-06-22T14:51:23Z,2025-06-22T22:23:06+00:00,1,7.53,True,3,26,4,334,1,0,1,MERGED
+107852,Autocompletion: Don't filter overrides when the existing function is the current one,HolonProduction,2025-06-22T14:27:24Z,2025-06-27T14:41:06+00:00,1,120.23,True,17,2,3,13,1,0,1,MERGED
+107851,[3.x] `Scons` - add compiler requirements,lawnjelly,2025-06-22T14:21:40Z,2025-07-02T04:43:33+00:00,3,230.36,True,207,0,2,399,1,2,3,MERGED
+107850,Fix Resource doesn't update when overwritten in editor,beicause,2025-06-22T14:21:05Z,2025-07-01T23:04:04+00:00,10,224.72,True,11,6,2,604,1,4,5,MERGED
+107848,Always decode `--scene` argument UID path.,bruvzg,2025-06-22T14:14:19Z,2025-06-25T20:20:56+00:00,1,78.11,True,2,2,1,13,1,0,1,MERGED
+107847,[3.x] Bump to c++17,lawnjelly,2025-06-22T14:13:51Z,2025-07-02T04:42:25+00:00,2,230.48,True,2,2,1,438,3,0,3,MERGED
+107844,[3.x] Optimize `Object::cast_to` with ancestral classes when possible,Ivorforce,2025-06-22T13:13:18Z,2025-06-22T16:55:42+00:00,1,3.71,True,183,152,15,759,3,0,3,MERGED
+107842,Fix can't convert to ShaderMaterial in FileSystemDock,beicause,2025-06-22T12:11:23Z,2025-06-23T14:50:27+00:00,2,26.65,True,1,1,1,73,2,1,3,MERGED
+107839,Minor Optimization to Occlusion Culling,Rudolph-B,2025-06-22T08:01:17Z,2025-10-03T17:11:17+00:00,2,2481.17,True,32,47,5,1452,3,0,3,MERGED
+107837,[Web] Disregard touch events in pointer callbacks (reverted),Airyzz,2025-06-22T07:38:03Z,2025-06-24T15:10:45+00:00,1,55.55,True,10,2,1,398,1,0,1,MERGED
+107834,Tree: Fix handling of `__focus_rect` with various Select Modes,BrotherShort,2025-06-22T05:12:33Z,2025-06-22T10:08:08+00:00,1,4.93,True,1,1,1,680,1,0,1,MERGED
+107832,Fix Jolt Physics soft body vertex normal calculation,simpkins,2025-06-22T00:46:34Z,2025-06-28T11:08:44+00:00,6,154.37,True,17,3,1,674,2,2,4,MERGED
+107825,"[GraphNode] Fix slot focus rect draw, make slot focus mode configurable.",bruvzg,2025-06-21T21:25:17Z,2025-06-22T22:23:06+00:00,5,24.96,True,61,17,3,13,1,2,3,MERGED
+107823,Clarify `_set`/`_get` description,KoBeWi,2025-06-21T21:05:10Z,2025-06-25T20:20:56+00:00,1,95.26,True,4,2,1,816,2,0,2,MERGED
+107820,Fix buffer size calculations in lightmapper_rd.cpp to account for element sizes,Meowcat285,2025-06-21T20:10:05Z,2025-06-22T10:08:09+00:00,3,13.97,True,17,8,1,319,4,3,7,MERGED
+107818,Fix aspect ratio of small thumbnails,KoBeWi,2025-06-21T19:06:08Z,2025-06-22T10:08:09+00:00,1,15.03,True,9,3,1,12,1,0,1,MERGED
+107816,Use one-based line numbers for external text editors,Meorge,2025-06-21T18:26:29Z,2025-06-24T15:10:45+00:00,5,68.74,True,2,2,1,635,1,1,2,MERGED
+107808,Fix stencil preset `next_pass` stencil flags,apples,2025-06-21T16:15:54Z,2025-06-22T10:08:08+00:00,1,17.87,True,9,2,1,447,1,0,1,MERGED
+107807,Fix stencil preset priorities,apples,2025-06-21T15:50:11Z,2025-06-22T10:08:09+00:00,1,18.3,True,2,2,1,33,1,0,1,MERGED
+107802,NavigationServer2D: Bind missing `merge_rasterizer_cell_scale` setting and functions,Notgoyome,2025-06-21T14:57:00Z,2025-06-22T10:08:08+00:00,1,19.19,True,45,1,9,430,1,0,1,MERGED
+107800,Add `ReadOnlySpan<Variant>` overload for `Callable.Call`,Joy-less,2025-06-21T12:50:28Z,2025-09-20T18:47:28+00:00,1,2189.95,True,14,2,1,362,1,0,1,MERGED
+107796,"Use `reserve` in `LocalVector::resize`, to restore expected growth behavior",Ivorforce,2025-06-21T09:29:48Z,2025-06-22T10:08:09+00:00,1,24.64,True,1,5,1,494,1,0,1,MERGED
+107794,[macOS] Selectively bake specific shader variants for MoltenVK.,bruvzg,2025-06-21T07:12:02Z,2025-07-10T16:49:54+00:00,3,465.63,True,87,9,6,292,5,1,6,MERGED
+107790,Use TightLocalVector for AudioStreamWAV/MP3,DeeJayLSP,2025-06-21T03:45:47Z,2025-06-24T15:10:45+00:00,1,83.42,True,4,4,2,426,2,0,2,MERGED
+107789,Replace iOS/visionOS Xcode templates by new Apple embedded template,rsanchezsaez,2025-06-21T02:58:54Z,2025-09-19T18:08:47+00:00,5,2175.16,True,606,1194,55,688,4,5,9,MERGED
+107788,Fix minor inconsistencies and errors in `gdextension_interface.h`,dsnopek,2025-06-21T02:23:41Z,2025-06-23T14:50:27+00:00,3,60.45,True,33,20,1,673,2,0,2,MERGED
+107787,Wayland: Fix division by zero when scale is less than 1,deralmas,2025-06-21T02:06:49Z,2025-06-21T09:41:29+00:00,1,7.58,True,2,2,1,163,1,0,1,MERGED
+107786,"Revert ""Rework scene preview thumbnails""",akien-mga,2025-06-20T22:31:43Z,2025-06-21T09:41:29+00:00,1,11.16,True,310,859,11,1766,0,0,0,MERGED
+107782,Always perform color correction and debanding on nonlinear sRGB values.,allenwp,2025-06-20T20:16:17Z,2025-07-14T15:34:55+00:00,3,571.31,True,82,20,15,781,12,1,13,MERGED
+107781,[3.x] libwebm: Fix double free in mkvparser ContentEncoding,john-breton,2025-06-20T19:49:24Z,2025-06-22T11:09:05+00:00,1,39.33,True,51,0,3,301,5,0,5,MERGED
+107776,Fix baked VoxelGI using the wrong color space,retrotails,2025-06-20T19:00:02Z,2025-06-24T23:43:23+00:00,4,100.72,True,14,8,1,547,1,1,2,MERGED
+107770,Enhance bindings of deep resource duplication,RandomShaper,2025-06-20T16:13:05Z,2025-06-21T09:41:29+00:00,4,17.47,True,25,13,6,859,1,1,2,MERGED
+107769,[macOS] Restore `gl_HelperInvocation` workaround for Intel macs.,bruvzg,2025-06-20T15:27:59Z,2025-07-11T11:03:34+00:00,1,499.59,False,10,0,2,192,6,1,7,CLOSED
+107766,Swap UID and path buttons,KoBeWi,2025-06-20T13:51:11Z,2025-06-21T09:41:29+00:00,2,19.84,True,8,8,2,349,1,0,1,MERGED
+107763,Add missing `vpv.push_back(pv);` in `render_target_get_sdf_texture`.,Ivorforce,2025-06-20T12:47:49Z,2025-09-24T15:04:33+00:00,4,2306.28,True,1,1,1,257,1,1,2,MERGED
+107757,Create scene thumbnails on thread when using Compatibility renderer,daniel080400,2025-06-20T10:49:10Z,2025-06-21T09:41:34+00:00,3,22.87,False,11,7,2,1695,2,1,3,CLOSED
+107748,Fix `Evaluator`'s format issues caused by special characters in the expression,ydeltastar,2025-06-20T05:06:49Z,2025-08-03T16:27:29+00:00,1,1067.34,True,5,2,2,10,2,0,2,MERGED
+107742,Android: Address API 35 UI behavior changes,m4gr3d,2025-06-20T01:17:18Z,2025-06-22T10:08:09+00:00,11,56.85,True,97,18,9,919,17,7,24,MERGED
+107729,Add missing input transform to visual shader preview,Chaosus,2025-06-19T17:36:11Z,2025-06-27T14:41:06+00:00,1,189.08,True,6,0,1,11,1,0,1,MERGED
+107724,Prevent ternary expression with a sampler types in shaders,Chaosus,2025-06-19T16:27:09Z,2025-06-27T14:41:06+00:00,1,190.23,True,1,1,1,113,1,0,1,MERGED
+107723,Core: Integrate math constants in structs directly,Repiteo,2025-06-19T16:22:27Z,2025-09-30T16:54:53+00:00,4,2472.54,False,494,293,54,467,1,3,4,CLOSED
+107721,Remove dependency of `variant.h` in `print_string.h`,YYF233333,2025-06-19T16:06:40Z,2025-09-22T13:56:28+00:00,4,2277.83,True,24,25,6,533,2,5,7,MERGED
+107719,Create dummy thumbnails for scenes that have no visuals,daniel080400,2025-06-19T15:33:28Z,2025-06-21T09:41:33+00:00,4,42.13,False,13,2,2,806,2,2,4,CLOSED
+107717,GDScript: Replace `abstract` keyword with `@abstract` annotation,aaronfranke,2025-06-19T14:08:04Z,2025-06-27T15:12:56+00:00,14,193.08,True,179,197,31,2841,39,17,56,MERGED
+107715,Adjust names of new `XRBodyTracker` joints,devloglogan,2025-06-19T13:03:16Z,2025-06-19T15:01:13+00:00,2,1.97,True,20,20,4,353,1,0,1,MERGED
+107710,Rename `OpenXRInterface.OpenXrSessionState` to `OpenXRInterface.SessionState`,dsnopek,2025-06-19T12:26:00Z,2025-06-20T13:47:50+00:00,5,25.36,True,37,37,3,772,3,0,3,MERGED
+107709,Add module defines to the per-platform generated props file so VS knows which ones are enabled.,shana,2025-06-19T12:26:00Z,2025-06-20T13:47:50+00:00,1,25.36,True,5,0,1,1441,2,0,2,MERGED
+107708,Restore per font oversampling override.,bruvzg,2025-06-19T12:11:13Z,2025-06-20T13:47:50+00:00,6,25.61,True,130,43,17,214,1,2,3,MERGED
+107702,"[3.x] Fast child iteration in `Node`, `Spatial`, `CanvasItem`",lawnjelly,2025-06-19T07:02:30Z,2025-10-01T04:18:20+00:00,2,2493.26,True,36,25,5,2204,6,0,6,MERGED
+107700,Fix `doctool` crash and errors on macOS.,bruvzg,2025-06-19T05:37:22Z,2025-06-19T15:01:13+00:00,1,9.4,True,4,2,2,39,1,0,1,MERGED
+107698,Fix GLES3 stereo output (sRGB + lens distortion),BastiaanOlij,2025-06-19T05:06:49Z,2025-06-21T09:41:29+00:00,8,52.58,True,120,31,5,644,1,3,4,MERGED
+107696,"[3.x] Revert ""Fix Button not listing `hover_pressed` stylebox""",timothyqiu,2025-06-19T04:18:21Z,2025-06-23T16:21:16+00:00,1,108.05,True,0,4,2,387,2,0,2,MERGED
+107694,[3.x] ResourceImporterWAV: Detect if data chunk size is larger than the actual size,DeeJayLSP,2025-06-19T03:07:15Z,2025-06-22T11:08:22+00:00,1,80.02,True,14,1,1,31,2,0,2,MERGED
+107693,wayland-protocols: Update to 1.45,deralmas,2025-06-19T02:08:13Z,2025-09-18T17:50:28+00:00,1,2199.7,True,236,81,20,104,1,0,1,MERGED
+107692,Show description for editor setting overrides,timothyqiu,2025-06-19T02:07:54Z,2025-09-23T20:12:25+00:00,2,2322.08,True,21,5,4,210,1,0,1,MERGED
+107691,Fix `MeshInstance3D::get_active_material()` error on empty mesh or empty surfaces,smix8,2025-06-19T01:08:36Z,2025-06-24T15:10:45+00:00,1,134.04,True,6,6,1,559,1,0,1,MERGED
+107690,Skip killed/invalid subtween,Meorge,2025-06-19T00:02:03Z,2025-07-03T17:27:12+00:00,1,353.42,True,8,1,1,581,1,0,1,MERGED
+107689,Improve `EditorPreviewPlugin`,beicause,2025-06-18T23:59:56Z,2025-06-21T09:41:33+00:00,5,57.69,False,14,31,1,280,6,3,9,CLOSED
+107686,"Check UID to disable ""Set as Main Scene"" in FileSystemDock",vaner-org,2025-06-18T23:23:06Z,2025-06-21T09:41:29+00:00,2,58.31,True,1,1,1,373,1,1,2,MERGED
+107685,Don't update script documentation when exporting,KoBeWi,2025-06-18T22:35:28Z,2025-07-24T19:27:40+00:00,2,860.87,True,14,2,4,207,9,0,9,MERGED
+107684,"Revert ""Use lower shadow normal bias for distant directional shadow splits""",dsnopek,2025-06-18T20:57:00Z,2025-06-19T15:01:13+00:00,1,18.07,True,1,3,1,87,3,0,3,MERGED
+107683,Clear current path when deselecting files,KoBeWi,2025-06-18T20:52:55Z,2025-06-24T15:10:45+00:00,3,138.3,True,5,0,1,240,1,1,2,MERGED
+107681,Revert the removal of the `gradle_build/compress_native_libraries` export option,m4gr3d,2025-06-18T20:27:39Z,2025-08-12T16:55:06+00:00,2,1316.46,True,39,1,4,547,4,2,6,MERGED
+107676,Do not remove `SubViewport` nodes in thumbnail preview scene,daniel080400,2025-06-18T17:41:59Z,2025-06-18T23:29:51+00:00,1,5.8,True,0,14,1,604,1,0,1,MERGED
+107668,[Editor] Fix crash in `ConnectionsDialog`,AThousandShips,2025-06-18T13:18:05Z,2025-06-18T23:29:51+00:00,2,10.2,True,1,1,1,14,2,1,3,MERGED
+107666,Add MultiMesh physics interpolation for 2D transforms (MultiMeshInstance2D),Sch1nken,2025-06-18T11:18:55Z,2025-10-03T17:11:17+00:00,10,2573.87,True,53,2,4,633,3,3,6,MERGED
+107665,Update CI `ruff` pre-commit hooks,Chubercik,2025-06-18T11:01:26Z,2025-06-18T23:29:51+00:00,1,12.47,True,1,1,1,81,3,0,3,MERGED
+107663,Fix errors not being emitted when debugger breaks on script errors,mihe,2025-06-18T09:51:48Z,2025-06-24T15:10:45+00:00,1,149.32,True,18,30,2,344,2,0,2,MERGED
+107656,Cleanup accessibility names.,bruvzg,2025-06-18T06:23:10Z,2025-06-24T15:10:45+00:00,14,152.79,True,188,440,97,164,4,15,19,MERGED
+107649,"Show ""No Translations Configured"" message for empty translation preview menu",timothyqiu,2025-06-18T00:50:01Z,2025-09-23T20:12:25+00:00,2,2347.37,True,8,2,1,301,2,1,3,MERGED
+107646,Core: Fix invalid resize after appending,stuartcarnie,2025-06-17T22:57:44Z,2025-06-18T23:29:51+00:00,2,24.54,True,1,1,1,77,2,1,3,MERGED
+107643,Core: Fix data race in remote debugger; handle errors,stuartcarnie,2025-06-17T20:08:00Z,2025-06-18T23:29:51+00:00,5,27.36,True,12,7,1,243,2,5,7,MERGED
+107636,Autocompletion: Don't use `next` for `GET_NODE` inference,HolonProduction,2025-06-17T15:07:01Z,2025-07-01T23:04:04+00:00,3,343.95,True,16,2,2,131,1,1,2,MERGED
+107635,SCons: Enable `lightmapper` and `xatlas_unwrap` modules on Android and iOS editors,akien-mga,2025-06-17T14:51:53Z,2025-06-18T23:29:51+00:00,2,32.63,True,2,2,2,431,5,0,5,MERGED
+107632,Free nodes from instantiating if it is not a `Control` in the theme editor,gongpha,2025-06-17T13:27:08Z,2025-06-18T23:29:51+00:00,6,34.05,True,8,1,1,204,1,2,3,MERGED
+107630,Add null check on generating thumbnails for PackedScene,gongpha,2025-06-17T13:15:34Z,2025-06-18T23:29:51+00:00,4,34.24,True,5,0,1,317,1,1,2,MERGED
+107625,Forward+: Fix builtins in light shader,beicause,2025-06-17T12:03:29Z,2025-06-18T23:29:51+00:00,2,35.44,True,28,14,2,14,3,3,6,MERGED
+107624,Improve auto-translation of editor's top & bottom bars,timothyqiu,2025-06-17T12:00:57Z,2025-06-18T23:29:51+00:00,2,35.48,True,87,77,22,157,3,1,4,MERGED
+107623,"Add ""See Migration Guide"" button to the Project Manager",patwork,2025-06-17T11:54:29Z,2025-06-25T09:49:04+00:00,6,189.91,True,16,2,2,235,3,3,6,MERGED
+107622,Improve Camera2D limit editing,KoBeWi,2025-06-17T11:38:09Z,2025-06-18T23:29:51+00:00,3,35.86,True,59,4,2,142,1,1,2,MERGED
+107620,Fix deadlock in `EditorFileSystem::reimport_files`.,bruvzg,2025-06-17T09:48:27Z,2025-06-18T23:29:51+00:00,1,37.69,True,7,5,1,193,1,0,1,MERGED
+107619,OpenXR: Only run xrSyncActions when application has focus,BastiaanOlij,2025-06-17T07:53:18Z,2025-06-18T23:29:51+00:00,19,39.61,True,104,13,5,339,6,7,13,MERGED
+107618,"Fix `Quaternion(arc_from: Vector3, arc_to: Vector3)` behaves differently in gdscript and c#",dagarsar,2025-06-17T07:47:26Z,2025-06-27T14:41:06+00:00,16,246.89,True,41,11,3,13,3,10,13,MERGED
+107609,C#: Fix Shortcut example,raulsntos,2025-06-17T00:17:20Z,2025-06-18T23:29:51+00:00,1,47.21,True,24,28,1,212,1,2,3,MERGED
+107607,Misc: Fix typo in cmd arg description,HolonProduction,2025-06-16T21:37:20Z,2025-06-18T23:29:51+00:00,1,49.88,True,2,2,1,246,1,0,1,MERGED
+107605,Fix broken WAV info list tag parsing,DeeJayLSP,2025-06-16T20:49:08Z,2025-06-18T23:29:51+00:00,1,50.68,True,9,1,1,87,10,0,10,MERGED
+107601,Reword `text_editor/completion/add_type_hints`'s description,Mickeon,2025-06-16T17:02:57Z,2025-07-01T23:04:04+00:00,5,366.02,True,5,1,1,194,1,2,3,MERGED
+107600,Fix export fail on Android if `shader_baker` is enabled.,syntaxerror247,2025-06-16T15:54:13Z,2025-06-18T23:29:51+00:00,1,55.59,True,6,3,1,441,5,0,5,MERGED
+107598,Fix audio name doesn't appear in exports of child classes of `AudioStream`,ydeltastar,2025-06-16T15:12:39Z,2025-07-01T23:04:05+00:00,5,367.86,True,1,1,1,40,1,1,2,MERGED
+107596,Use 64-bit offset/loop points in `AudioStreamWAV`,DeeJayLSP,2025-06-16T14:58:43Z,2025-09-18T17:50:28+00:00,9,2258.86,True,51,51,2,487,14,5,19,MERGED
+107594,GDExtension: Always run shutdown callback before deinitializing any levels,dsnopek,2025-06-16T14:19:48Z,2025-06-18T23:29:51+00:00,8,57.17,True,11,7,2,814,5,2,7,MERGED
+107591,Make `PROPERTY_HINT_GROUP_ENABLE` hide properties by default,timothyqiu,2025-06-16T12:06:58Z,2025-06-24T23:43:23+00:00,2,203.61,True,55,55,19,447,2,0,2,MERGED
+107587,Add `STATIC_ASSERT_INCOMPLETE_TYPE` to enforce include minimality.,Ivorforce,2025-06-16T10:19:32Z,2025-10-01T23:08:01+00:00,17,2580.81,True,26,0,4,836,7,4,11,MERGED
+107585,Clear cache when setting Mesh's surfaces,KoBeWi,2025-06-16T09:30:58Z,2025-06-18T23:29:51+00:00,1,61.98,True,1,0,1,110,2,0,2,MERGED
+107584,Fix root node auto translation settings affecting editor root,timothyqiu,2025-06-16T08:47:12Z,2025-06-18T23:29:51+00:00,2,62.71,True,6,2,1,275,1,1,2,MERGED
+107583,[3.x] Backport nonexclusive fullscreen mode.,bruvzg,2025-06-16T08:38:51Z,2025-08-29T14:32:50+00:00,3,1781.9,True,113,11,9,353,4,1,5,MERGED
+107581,Fix game view window not updating title when translation changes,timothyqiu,2025-06-16T08:18:38Z,2025-06-18T23:29:51+00:00,1,63.19,True,52,67,5,459,1,0,1,MERGED
+107578,Fix some menu bar items unresponsive after language change,timothyqiu,2025-06-16T04:38:02Z,2025-06-18T23:29:51+00:00,1,66.86,True,6,0,1,269,1,0,1,MERGED
+107576,Docs: Fix typo and spacing in vector coordinates,Elip100,2025-06-15T23:34:30Z,2025-06-18T23:29:51+00:00,3,71.92,True,7,7,7,220,2,1,3,MERGED
+107574,Apple: Improve Apple embedded export and debugging,stuartcarnie,2025-06-15T22:07:12Z,2025-06-18T23:29:51+00:00,17,73.38,True,366,235,15,1040,15,17,32,MERGED
+107568,Fix floating point precision errors when setting particle trail length,Rudolph-B,2025-06-15T18:52:32Z,2025-07-01T23:04:05+00:00,1,388.19,True,3,3,3,322,5,0,5,MERGED
+107567,Remove angle constraint mention from SkeletonModification2DFABRIK class docs,Joey-Einerhand,2025-06-15T18:24:12Z,2025-06-18T23:29:51+00:00,2,77.09,True,1,1,1,316,1,0,1,MERGED
+107565,Clarify note in documentation about childing rigid bodies,mihe,2025-06-15T16:42:11Z,2025-06-15T23:56:23+00:00,2,7.24,True,4,2,2,399,1,1,2,MERGED
+107564,Add a note about `_notification()` being multilevel,KoBeWi,2025-06-15T16:37:24Z,2025-06-18T23:29:51+00:00,4,78.87,True,1,0,1,0,9,2,11,MERGED
+107560,Fix scale and position of popups with `force_native`.,bruvzg,2025-06-15T14:19:50Z,2025-06-18T23:29:51+00:00,1,81.17,True,25,1,6,105,1,0,1,MERGED
+107559,Remove `get_used_cells` to avoid unecessary allocations in navigation baking,groud,2025-06-15T11:44:11Z,2025-06-15T23:56:23+00:00,1,12.2,True,15,18,2,226,2,0,2,MERGED
+107554,Improve `ResourceLoader.get_dependencies()`'s description,timothyqiu,2025-06-15T09:11:56Z,2025-06-18T23:29:51+00:00,6,86.3,True,20,5,2,312,2,4,6,MERGED
+107550,Fix spelling in comments,AdrienUfferte,2025-06-14T23:01:10Z,2025-06-15T23:56:23+00:00,1,24.92,True,7,7,6,44,4,0,4,MERGED
+107547,ShaderCompiler: Optimize compilation error printing,beicause,2025-06-14T19:50:55Z,2025-09-24T15:04:33+00:00,5,2443.23,True,13,7,1,1332,3,2,5,MERGED
+107546,Fix editing/removal of bone meta,demolke,2025-06-14T19:27:46Z,2025-06-14T22:52:38+00:00,1,3.41,True,2,2,1,59,1,0,1,MERGED
+107545,[3.x] Remove implicit conversion from `LocalVector` to `PoolVector`,lawnjelly,2025-06-14T19:14:53Z,2025-06-16T04:58:55+00:00,1,33.73,True,6,6,4,138,1,0,1,MERGED
+107544,[3.x] Change `Node` children to use `LocalVector`,lawnjelly,2025-06-14T19:00:22Z,2025-06-18T16:20:32+00:00,1,93.34,True,4,4,2,1065,2,0,2,MERGED
+107543,[3.x] Remove implicit conversion from `LocalVector` to `Vector`,lawnjelly,2025-06-14T18:52:16Z,2025-06-16T04:58:09+00:00,2,34.1,True,11,11,8,588,1,1,2,MERGED
+107540,Rename TreeItem's `alt_text` to `description` for consistency with Accessibility API,Mickeon,2025-06-14T16:41:39Z,2025-06-14T22:52:38+00:00,1,6.18,True,49,49,3,830,1,0,1,MERGED
+107539,[3.6] Update changelog for 3.6.1,lawnjelly,2025-06-14T15:35:06Z,2025-06-23T19:20:25+00:00,4,219.76,True,124,10,1,495,2,2,4,MERGED
+107534,Fix editing `ShaderInclude` causes a `Shader` to be edited,beicause,2025-06-14T14:25:56Z,2025-06-18T23:29:51+00:00,2,105.07,True,7,0,1,13,3,1,4,MERGED
+107532,Add a note about navigation mesh baking issues when using `0` for the `agent_radius`,MJacred,2025-06-14T13:43:19Z,2025-06-28T11:08:44+00:00,11,333.42,True,3,1,2,29,1,5,6,MERGED
+107530,Fix freelook in 3D when multiple viewports are open,ryevdokimov,2025-06-14T12:04:59Z,2025-06-25T09:49:04+00:00,1,261.73,True,46,1,2,363,2,0,2,MERGED
+107529,Fix `CodeEdit` Array bug in the inspector,nico-tome,2025-06-14T11:57:55Z,2025-09-11T22:30:31+00:00,14,2146.54,False,17,6,2,2062,10,5,15,CLOSED
+107528,Don't put main properties of `AnimatedSprite2D` inside a group,timothyqiu,2025-06-14T11:31:16Z,2025-06-15T23:56:23+00:00,1,36.42,True,0,1,1,394,2,0,2,MERGED
+107525,"Revert ""Add support for exporting to Google Play Instant""",syntaxerror247,2025-06-14T10:26:00Z,2025-06-15T23:56:23+00:00,2,37.51,True,3,50,5,291,1,0,1,MERGED
+107517,Fix tests warning line break strictness project setting,kitbdev,2025-06-14T00:28:43Z,2025-06-15T23:56:23+00:00,4,47.46,True,2,3,2,702,2,1,3,MERGED
+107516,Fix Resource Duplication test errors,kitbdev,2025-06-14T00:07:52Z,2025-06-15T23:56:23+00:00,1,47.81,True,3,8,1,630,5,0,5,MERGED
+107515,Check render target validity before getting motion vector texture in mobile renderer,devloglogan,2025-06-13T23:59:13Z,2025-06-14T08:34:26+00:00,1,8.59,True,6,1,1,42,2,0,2,MERGED
+107514,Avoid manipulating `PackedScene` cache when generating scene preview thumbnails,daniel080400,2025-06-13T23:52:18Z,2025-06-14T22:52:38+00:00,3,23.01,True,1,1,1,209,4,1,5,MERGED
+107513,Only repath a NavigationAgent with a target position,smix8,2025-06-13T23:33:05Z,2025-06-14T22:52:38+00:00,1,23.33,True,12,4,2,536,1,0,1,MERGED
+107511,Add toggle for inserting keys/markers at current time vs mouse cursor's position,shadow-foss,2025-06-13T22:22:31Z,2025-09-20T18:47:28+00:00,15,2372.42,True,38,2,5,625,20,7,27,MERGED
+107509,Add warning about infinite recursion to NavigationAgent docs,MJacred,2025-06-13T20:46:57Z,2025-06-24T23:43:23+00:00,8,266.94,True,2,0,2,61,1,1,2,MERGED
+107507,Create more optimized CSGShape3D baked static mesh,smix8,2025-06-13T19:44:41Z,2025-06-15T23:56:23+00:00,1,52.2,True,14,1,1,134,1,0,1,MERGED
+107502,[3.7] Cherry-picks for the 3.7 branch (future 3.7 dev 1) - 1st batch,lawnjelly,2025-06-13T17:53:12Z,2025-06-14T04:48:54+00:00,1,10.93,True,508,246,21,69,1,0,1,MERGED
+107501,[3.6] Cherry-picks for the 3.6 branch (future 3.6.1) - 2nd batch,lawnjelly,2025-06-13T17:29:11Z,2025-06-14T04:55:50+00:00,1,11.44,True,576,269,32,137,1,0,1,MERGED
+107493,[3.x] Remove `vi_visible` flag from `Spatial`.,lawnjelly,2025-06-13T15:35:55Z,2025-06-22T12:11:55+00:00,4,212.6,True,24,63,5,444,2,2,4,MERGED
+107490,Fix problems with scripts and metadata in remote objects,YeldhamDev,2025-06-13T14:03:23Z,2025-06-15T23:56:23+00:00,3,57.88,True,32,40,2,14,3,1,4,MERGED
+107488,Multiply contents minimum size by scale factor,KoBeWi,2025-06-13T12:13:55Z,2025-06-13T13:58:27+00:00,1,1.74,True,1,1,1,13,1,0,1,MERGED
+107486,Use raw buffer pointers in `RenderingDevice` allocation APIs to avoid intermediary arrays,Ivorforce,2025-06-13T11:39:00Z,2025-06-18T23:29:52+00:00,9,131.85,True,71,81,10,990,14,2,16,MERGED
+107485,`SceneTreeFTI` - miscellaneous speedups,lawnjelly,2025-06-13T11:26:40Z,2025-06-13T13:58:27+00:00,1,2.53,True,2,2,1,545,1,0,1,MERGED
+107482,PCKPacker: Fix first file being written mis-aligned,nikitalita,2025-06-13T09:48:41Z,2025-06-13T16:39:11+00:00,1,6.84,True,12,0,2,425,3,0,3,MERGED
+107481,Use `LocalVector` for `Node3D` and `CanvasItem` children,lawnjelly,2025-06-13T09:20:39Z,2025-09-18T17:50:29+00:00,1,2336.5,True,91,33,4,1887,3,0,3,MERGED
+107480,[3.x] `Spatial` and `CanvasItem` children change to `LocalVector`,lawnjelly,2025-06-13T07:41:58Z,2025-06-18T13:02:54+00:00,13,125.35,True,84,37,4,1173,1,6,7,MERGED
+107479,[macOS] Add `--path` argument when instance is created by project started from editor.,bruvzg,2025-06-13T07:25:55Z,2025-06-13T13:58:27+00:00,1,6.54,True,12,0,1,214,1,0,1,MERGED
+107475,Fix global shader texture uniform,beicause,2025-06-13T05:27:16Z,2025-06-13T13:58:27+00:00,1,8.52,True,16,8,2,472,2,0,2,MERGED
+107474,[Docs] Add few notes about screen capture.,bruvzg,2025-06-13T05:00:25Z,2025-06-15T23:56:23+00:00,1,66.93,True,6,3,2,455,1,5,6,MERGED
+107473,Address remaining feedback on Android background transparency,m4gr3d,2025-06-13T03:55:51Z,2025-07-16T16:32:15+00:00,4,804.61,True,14,9,6,49,6,3,9,MERGED
+107472,Fix various errors in the class reference,timothyqiu,2025-06-13T03:50:21Z,2025-06-13T13:58:27+00:00,2,10.13,True,11,11,6,523,2,2,4,MERGED
+107471,Fix action name for `ui_colorpicker_delete_preset` in built-in InputMap,Calinou,2025-06-13T00:25:27Z,2025-06-13T16:39:11+00:00,1,16.23,True,1,1,1,98,3,0,3,MERGED
+107469,Remove implicit conversions between `LocalVector` and `Vector`,Ivorforce,2025-06-12T22:01:51Z,2025-09-30T16:26:18+00:00,15,2634.41,True,52,52,19,457,9,5,14,MERGED
+107468,Display AnimationTree editor warnings when the node is disabled,Calinou,2025-06-12T21:57:53Z,2025-09-30T23:39:00+00:00,3,2641.69,True,28,20,6,161,2,2,4,MERGED
+107467,Fix debugger inspector minimum size,kitbdev,2025-06-12T21:57:52Z,2025-06-12T23:39:42+00:00,1,1.7,True,0,7,1,203,1,0,1,MERGED
+107462,[3.x] Provide quick access to `Object` ancestry,lawnjelly,2025-06-12T17:39:28Z,2025-06-22T12:10:18+00:00,9,234.51,True,71,10,17,5287,6,7,13,MERGED
+107460,[Web] Fix Emscripten for WebXR and update minimum version,adamscott,2025-06-12T17:16:13Z,2025-07-23T18:37:59+00:00,3,985.36,True,35,23,4,267,24,0,24,MERGED
+107459,Refactor getting the usable parent screen,ArchercatNEO,2025-06-12T16:39:44Z,2025-07-16T09:09:35+00:00,8,808.5,False,31,56,1,338,2,3,5,CLOSED
+107458,Fix missing gizmo update when selection changes outside of 3D view,kilian-hu,2025-06-12T15:56:18Z,2025-07-28T15:56:21+00:00,5,1104.0,True,32,1,2,13,5,2,7,MERGED
+107457,Improve error messages for method calls expecting only 1 argument,akien-mga,2025-06-12T15:04:03Z,2025-06-12T20:53:13+00:00,2,5.82,True,8,8,7,18,0,0,0,MERGED
+107455,Fix favorite folder colors,KoBeWi,2025-06-12T13:44:15Z,2025-06-12T20:53:13+00:00,1,7.15,True,30,35,4,12,4,0,4,MERGED
+107454,Batch the adding of Jolt Physics bodies,mihe,2025-06-12T13:23:43Z,2025-06-14T22:52:38+00:00,3,57.48,True,199,127,9,942,12,0,12,MERGED
+107453,Fix bent normal maps not working with triplanar UVs,LunaCapra,2025-06-12T12:52:10Z,2025-06-12T20:53:13+00:00,2,8.02,True,5,1,1,13,1,0,1,MERGED
+107451,Fix the VRS attachment being incorrectly added to `color_attachments`,NetroScript,2025-06-12T11:59:43Z,2025-06-12T20:53:13+00:00,1,8.89,True,2,0,1,766,1,0,1,MERGED
+107450,Move font related project settings definitions to `TextServer`.,bruvzg,2025-06-12T11:38:05Z,2025-06-12T20:53:13+00:00,2,9.25,True,17,8,2,97,1,1,2,MERGED
+107448,"[TextServer] Check if ""gui/theme/lcd_subpixel_layout"" is set.",bruvzg,2025-06-12T11:18:43Z,2025-06-12T15:28:52+00:00,1,4.17,False,7,2,2,74,2,0,2,CLOSED
+107445,Fix outdated `MODE_FULLSCREEN` description,KoBeWi,2025-06-12T10:00:02Z,2025-06-12T20:53:13+00:00,2,10.89,True,0,1,1,17,1,0,1,MERGED
+107444,Add a smoke test for non-empty `nullptr` `Span`,Ivorforce,2025-06-12T09:51:06Z,2025-06-12T20:53:13+00:00,3,11.04,True,15,6,2,1079,1,1,2,MERGED
+107441,"Allow numpad comma `,` to be used for 3D Blender-Style Transforms",ryevdokimov,2025-06-12T09:02:51Z,2025-06-13T13:58:27+00:00,5,28.93,True,18,9,1,14,4,4,8,MERGED
+107439,Add `line_breaking_strictness` project setting.,bruvzg,2025-06-12T06:27:58Z,2025-06-12T10:00:06+00:00,2,3.54,True,30,1,4,76,1,0,1,MERGED
+107437,macOS: Initialize `CVDisplayLinkRef` member field,stuartcarnie,2025-06-12T04:58:11Z,2025-06-12T10:00:06+00:00,1,5.03,True,1,1,1,76,1,0,1,MERGED
+107436,Fix some inspector action buttons not updating icon when theme changes,timothyqiu,2025-06-12T03:11:27Z,2025-08-04T17:08:35+00:00,2,1285.95,True,48,121,16,165,4,1,5,MERGED
+107434,Fix FileSystemDock signal connection for path navigation text box,lodetrick,2025-06-12T02:34:34Z,2025-06-12T10:00:06+00:00,1,7.43,True,1,1,1,591,1,0,1,MERGED
+107429,Move Web export threads options out of variant,adamscott,2025-06-11T22:31:49Z,2025-09-03T12:44:24+00:00,9,2006.21,False,35,9,5,571,4,2,6,CLOSED
+107426,Fix ScriptEditor error line out of bounds,kitbdev,2025-06-11T21:35:54Z,2025-06-11T23:22:34+00:00,1,1.78,True,13,19,1,888,1,0,1,MERGED
+107424,Fix a crash when the first line of GDScript code is indented.,Ivorforce,2025-06-11T21:06:42Z,2025-06-11T23:22:34+00:00,1,2.26,True,2,5,1,13,2,0,2,MERGED
+107420,Documentation: Add clarification to `AudioStream.get_length`,JulianHeuser,2025-06-11T18:51:05Z,2025-06-12T21:48:54+00:00,6,26.96,True,1,1,1,115,1,1,2,MERGED
+107419,Change all interpolators to FP32 in mobile renderer.,DarioSamo,2025-06-11T18:39:15Z,2025-06-11T23:22:34+00:00,2,4.72,True,36,32,1,849,1,0,1,MERGED
+107416,GDScript: Add missing type conversions in `for range`,dalexeev,2025-06-11T17:48:12Z,2025-06-12T20:53:13+00:00,1,27.08,True,35,5,4,38,1,0,1,MERGED
+107415,[Web] Add Web-build specific stdout header,adamscott,2025-06-11T17:40:31Z,2025-06-13T16:39:11+00:00,4,46.98,True,99,3,9,377,3,2,5,MERGED
+107413,Fix IME window position not taking into account window transform,roughbits01,2025-06-11T15:44:48Z,2025-06-12T10:00:06+00:00,2,18.25,True,4,0,2,172,4,0,4,MERGED
+107410,Fix CSV translation not updating after reimport,timothyqiu,2025-06-11T14:38:50Z,2025-06-18T23:29:52+00:00,4,176.85,True,110,17,7,2024,1,2,3,MERGED
+107408,Make conversions from `NodePath` to `String` explicit.,Ivorforce,2025-06-11T14:23:59Z,2025-06-12T20:53:13+00:00,1,30.49,True,99,99,39,832,1,0,1,MERGED
+107406,"Core: Remove implicit conversions from `IPAddress` to `String`, to avoid accidental conversions",Ivorforce,2025-06-11T13:47:31Z,2025-06-11T23:22:34+00:00,1,9.58,True,6,6,5,541,1,0,1,MERGED
+107404,Vulkan Mobile: Fix reading builtins in `light()` of spatial shader,beicause,2025-06-11T13:01:18Z,2025-06-12T20:53:13+00:00,1,31.87,True,9,0,1,13,1,0,1,MERGED
+107402,Stop `FileAccess::fix_path` from emitting errors for invalid UIDs,mihe,2025-06-11T12:02:37Z,2025-06-12T21:48:54+00:00,2,33.77,True,6,1,1,2493,3,1,4,MERGED
+107397,Fix crash when `save_on_focus_loss` is enabled,daniel080400,2025-06-11T09:06:23Z,2025-06-11T10:40:00+00:00,1,1.56,True,28,12,2,1104,2,0,2,MERGED
+107394,Improve performance of `visible_characters`updates in `VC_CHARS_BEFORE_SHAPING` mode.,bruvzg,2025-06-11T08:01:24Z,2025-06-11T23:22:34+00:00,1,15.35,True,78,8,1,165,1,0,1,MERGED
+107391,OpenXR: Add support for spatial entities extension,BastiaanOlij,2025-06-11T06:08:27Z,2025-09-28T15:19:18+00:00,76,2625.18,True,7550,17,54,2109,16,242,258,MERGED
+107389,Fix the editor shortcuts for the game menu on Android,m4gr3d,2025-06-11T05:35:07Z,2025-06-11T09:22:37+00:00,1,3.79,True,9,4,1,1298,1,0,1,MERGED
+107388,OpenXR: Add support for render models extension,BastiaanOlij,2025-06-11T04:21:28Z,2025-06-20T13:47:50+00:00,38,225.44,True,1871,1,19,1290,3,55,58,MERGED
+107386,OpenXR: Update to 1.1.49,BastiaanOlij,2025-06-11T01:14:55Z,2025-06-11T09:22:37+00:00,1,8.13,True,1919,2,5,124,2,0,2,MERGED
+107385,Fix `Input.vibrate_handheld` on Android.,Alex2782,2025-06-11T01:03:30Z,2025-06-12T20:53:13+00:00,10,43.83,True,20,16,1,2869,6,1,7,MERGED
+107382,Add a LightmapProbe gizmo size editor setting,Calinou,2025-06-10T23:06:19Z,2025-06-12T23:39:42+00:00,1,48.56,True,138,120,6,195,2,0,2,MERGED
+107381,Change 2D navigation region and link updates to an async process,smix8,2025-06-10T22:51:18Z,2025-06-12T21:48:54+00:00,1,46.96,True,1064,461,22,88,1,0,1,MERGED
+107380,Core: Remove unused `StringName::search`.,Ivorforce,2025-06-10T22:22:01Z,2025-06-13T13:58:27+00:00,1,63.61,True,0,97,2,598,1,0,1,MERGED
+107379,"Core: Remove implicit conversions from `Callable` and `Signal` to `String`, to avoid accidental conversions",Ivorforce,2025-06-10T22:02:08Z,2025-06-11T00:27:53+00:00,1,2.43,True,8,6,5,749,1,0,1,MERGED
+107378,Unhide `one-click deploy` button on Android and XR editor.,dsnopek,2025-06-10T21:00:05Z,2025-06-11T00:27:53+00:00,1,3.46,True,0,3,1,89,1,0,1,MERGED
+107375,Add a proper error message when trying to add node to a group with an empty name,suhankins,2025-06-10T18:26:02Z,2025-06-22T10:08:09+00:00,7,279.7,True,1,1,1,306,5,2,7,MERGED
+107373,"Partially revert 107110, process all lines in `VC_CHARS_BEFORE_SHAPING` mode to return correct line count.",bruvzg,2025-06-10T17:50:39Z,2025-06-11T00:27:53+00:00,1,6.62,True,9,26,2,185,2,0,2,MERGED
+107369,Core: Add `Node::iterate_children` as a fast way to iterate a node's children,Ivorforce,2025-06-10T16:49:20Z,2025-09-30T23:39:00+00:00,2,2694.83,True,101,13,4,849,7,0,7,MERGED
+107368,Improve description of fuzzy matching in editor settings documentation,Meorge,2025-06-10T16:09:25Z,2025-06-13T16:39:11+00:00,17,72.5,True,5,3,2,131,4,7,11,MERGED
+107360,Fix Sprite2D error spam in exported project,KoBeWi,2025-06-10T14:27:33Z,2025-06-12T23:39:42+00:00,4,57.2,True,6,4,1,165,1,1,2,MERGED
+107359,Vulkan Mobile: Fix crash from shader compilation with `USE_RADIANCE_CUBEMAP_ARRAY`,dsnopek,2025-06-10T14:24:03Z,2025-06-10T16:00:13+00:00,2,1.6,True,1,1,1,6679,3,0,3,MERGED
+107357,Enforce GDScript and C# dictionary spacing style guidelines in code samples,ProgrammerOnCoffee,2025-06-10T14:06:40Z,2025-06-11T00:27:53+00:00,10,10.35,True,39,39,6,392,4,11,15,MERGED
+107356,Wayland: Simplify including protocols,ArchercatNEO,2025-06-10T13:23:17Z,2025-06-11T00:27:53+00:00,2,11.08,True,48,136,3,516,1,0,1,MERGED
+107355,Fix `script` property of custom resources inherited from scripts are not saved,beicause,2025-06-10T12:38:31Z,2025-06-12T10:00:06+00:00,1,45.36,True,5,2,2,151,1,0,1,MERGED
+107352,Implement naming version system for FBX and Blend importers like glTF,aaronfranke,2025-06-10T08:15:40Z,2025-06-11T09:22:37+00:00,2,25.12,True,55,2,7,1455,1,0,1,MERGED
+107349,ProjectSettings: Fix missing property hint of setting overrides,beicause,2025-06-10T06:50:51Z,2025-06-13T13:58:27+00:00,1,79.13,True,11,4,1,14,3,0,3,MERGED

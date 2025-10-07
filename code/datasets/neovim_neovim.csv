@@ -149,3 +149,853 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 35181,fix(lsp): show title when global winborder is set,glepnir,2025-08-06T06:39:11Z,2025-08-06T13:25:56+00:00,1,6.78,True,9,1,2,220,3,0,3,MERGED
 35176,docs(lsp): include snippet to display progress using native indicator,gpanders,2025-08-05T18:58:20Z,2025-08-06T12:31:03+00:00,8,17.55,True,20,1,1,64,0,2,2,MERGED
 35174,"vim-patch:8.2.{307,512,1123,1555,1912,3602},9.0.1689",janlazo,2025-08-05T17:40:09Z,2025-08-06T06:19:53+00:00,1,12.66,True,3385,4,3,115,1,0,1,MERGED
+35169,fix(windows): Set UTF-8 encoding for shell commands,alarcritty,2025-08-05T10:35:17Z,2025-08-18T08:02:42+00:00,6,309.46,False,25,0,5,1228,5,5,10,CLOSED
+35167,fix(snippet): adjacent tabstops without placeholders,TheBlob42,2025-08-05T07:48:38Z,2025-08-13T18:51:44+00:00,1,203.05,True,123,33,2,2147,9,0,9,MERGED
+35162,fix(lsp): make thematic break parsing conform to GFM spec,skewb1k,2025-08-04T16:05:46Z,2025-08-05T20:34:14+00:00,2,28.47,True,32,2,1,306,3,1,4,MERGED
+35142,vim-patch:3add0d5: runtime(ccomplete): use complete_check() in ccomplete plugin,zeertzjq,2025-08-03T02:25:40Z,2025-08-03T03:49:13+00:00,1,1.39,True,43,0,1,415,0,0,0,MERGED
+35141,vim-patch:9.1.1590: cannot perform autocompletion,zeertzjq,2025-08-03T00:48:58Z,2025-08-03T03:48:42+00:00,6,3.0,True,652,121,13,4155,0,2,2,MERGED
+35130,fix(options): make 'cdhome' take effect on any platform,bfredl,2025-08-01T11:06:24Z,2025-08-03T08:19:11+00:00,1,45.21,True,8,12,4,400,2,0,2,MERGED
+35129,refactor(build): don't use the preprocessor when generating headers,bfredl,2025-08-01T10:52:10Z,2025-08-06T19:58:20+00:00,1,129.1,True,74,143,24,504,1,0,1,MERGED
+35121,"Fix ""Invalid 'end_col': out of range"" error in Treesitter highlighter (issue #29550)",liftctrl,2025-07-31T17:28:00Z,2025-08-02T16:22:47+00:00,3,46.91,False,13,0,1,1142,5,2,7,CLOSED
+35115,fix(snippet): early return for final tabstop,TheBlob42,2025-07-31T06:35:58Z,2025-08-03T19:52:10+00:00,9,85.27,True,21,1,3,1020,2,3,5,MERGED
+35109,feat(lua): add `vim.pos`/`vim.range`,ofseed,2025-07-30T14:40:05Z,2025-08-17T20:37:56+00:00,54,437.96,True,768,0,9,215,10,28,38,MERGED
+35108,feat(lua): add `vim.list.bisect`,ofseed,2025-07-30T08:53:02Z,2025-08-03T14:45:50+00:00,35,101.88,True,271,65,6,265,10,16,26,MERGED
+35106,fix(extui): ensure windows are valid scheduled on_key,luukvbaal,2025-07-29T15:57:02Z,2025-07-29T23:03:38+00:00,1,7.11,True,22,1,2,10,0,0,0,MERGED
+35103,fix: connect command ASAN failure,siddhantdev,2025-07-29T03:35:05Z,2025-08-12T17:41:28+00:00,3,350.11,False,241,0,8,98,6,2,8,CLOSED
+35098,fix(api): single-line visual block insert triggers extra on_lines,glepnir,2025-07-28T06:08:42Z,2025-07-29T13:24:44+00:00,3,31.27,True,18,1,2,328,2,1,3,MERGED
+35086,feat(lsp): enable document colors by default,MariaSolOs,2025-07-27T05:03:43Z,2025-07-28T00:11:28+00:00,3,19.13,True,10,0,3,338,0,1,1,MERGED
+35080,Update help.txt: add pack,dennypenta,2025-07-26T13:08:18Z,2025-07-26T21:56:44+00:00,1,8.81,False,1,0,1,76,0,1,1,CLOSED
+35077,fix(api): nvim_create_user_command addr option should allow ranges,glepnir,2025-07-26T05:41:49Z,2025-08-03T02:52:54+00:00,3,189.18,True,8,0,2,233,3,3,6,MERGED
+35075,fix(lsp): don't override `config.title` in `vim.lsp.buf.signature_help()`,MariaSolOs,2025-07-26T00:19:18Z,2025-07-27T02:47:28+00:00,2,26.47,True,3,5,1,12,1,1,2,MERGED
+35070,fix(lsp): codelens extmark line out of range,tomtomjhj,2025-07-25T17:46:00Z,2025-07-26T19:58:51+00:00,3,26.21,True,3,1,1,237,0,1,1,MERGED
+35069,"fix(vim.secure): remove ""allow"" from choices of `vim.secure.read`",nyngwang,2025-07-25T16:30:23Z,2025-07-28T20:11:59+00:00,9,75.69,True,64,28,4,335,7,4,11,MERGED
+35067,feat(lua): add vim.list.unique(),lewis6991,2025-07-25T14:15:40Z,2025-07-28T08:34:07+00:00,10,66.31,True,114,0,7,88,18,5,23,MERGED
+35062,fix(snippet): jumping backwards to choice node,TheBlob42,2025-07-25T05:56:36Z,2025-07-27T20:10:00+00:00,1,62.22,True,30,1,2,866,1,0,1,MERGED
+35061,fix(snippet): setting end_right_gravity,TheBlob42,2025-07-25T05:56:09Z,2025-07-27T19:19:01+00:00,1,61.38,True,7,3,2,822,7,0,7,MERGED
+35052,test(pack): add `vim.pack` tests,echasnovski,2025-07-24T14:19:35Z,2025-08-02T23:35:42+00:00,13,225.27,True,1238,111,6,430,12,6,18,MERGED
+35045,"feat: "":restart"" can run arbitrary commands",sathya-pramodh,2025-07-24T05:07:45Z,2025-08-03T05:50:46+00:00,29,240.72,True,87,6,5,265,8,12,20,MERGED
+35028,feat(ui2): more predictable routing,luukvbaal,2025-07-22T12:07:17Z,2025-07-22T15:32:17+00:00,4,3.42,True,33,25,2,249,0,1,1,MERGED
+35027,feat(ssh): add a SSH configuration parser,siddhantdev,2025-07-22T11:51:25Z,2025-08-18T03:40:29+00:00,14,639.82,True,315,0,2,352,1,12,13,MERGED
+35023,"vim-patch:8.2.{2905,2906,2927},9.0.{2023,2042},9.1.{63,1453}",janlazo,2025-07-22T01:43:35Z,2025-07-24T04:29:07+00:00,1,50.76,True,43,2,1,2019,0,0,0,MERGED
+35022,vim-patch:9.1.1576: cannot easily trigger wildcard expansion,zeertzjq,2025-07-22T01:16:27Z,2025-07-22T22:12:50+00:00,3,20.94,True,240,62,15,889,0,1,1,MERGED
+35019,refactor: extract common logic from parse_cmdline and do_one_cmd,glepnir,2025-07-21T10:19:22Z,2025-10-03T05:45:19+00:00,14,1771.43,True,42,47,1,175,0,9,9,MERGED
+35018,refactor(lsp): centralized enable/is_enabled strategy,ofseed,2025-07-21T05:28:33Z,2025-08-18T14:57:58+00:00,8,681.49,True,256,190,9,1061,5,6,11,MERGED
+35014,fix(lsp): show notification with empty hover response,MariaSolOs,2025-07-20T18:12:01Z,2025-07-20T20:58:40+00:00,1,2.78,True,43,3,2,71,1,0,1,MERGED
+35003,vim-patch: update runtime files,clason,2025-07-20T09:05:00Z,2025-07-20T11:27:55+00:00,1,2.38,True,43,6,3,113,0,0,0,MERGED
+35002,refactor(lsp): extract `Client._on_detach` to reduce duplicated code,ofseed,2025-07-20T07:06:24Z,2025-07-20T16:41:35+00:00,3,9.59,True,97,115,2,246,0,1,1,MERGED
+35000,"docs: lsp, ui events, dev guidance",justinmk,2025-07-19T17:05:20Z,2025-07-29T02:23:07+00:00,9,225.3,True,331,323,39,0,0,4,4,MERGED
+34993,vim-patch: update runtime files,clason,2025-07-18T19:07:56Z,2025-07-19T09:19:41+00:00,1,14.2,True,26,8,2,149,0,0,0,MERGED
+34991,Make separate `vim.pack` help file,echasnovski,2025-07-18T15:08:43Z,2025-07-18T17:54:14+00:00,3,2.76,True,404,385,4,1452,2,1,3,MERGED
+34988,docs: use correct tag link in `:packadd`,echasnovski,2025-07-18T14:22:27Z,2025-07-18T17:45:35+00:00,1,3.39,True,1,1,1,0,0,0,0,MERGED
+34973,test(screen): remove screen:get_default_attr_ids(),luukvbaal,2025-07-17T14:18:27Z,2025-07-17T20:57:34+00:00,4,6.65,True,1626,1905,3,256,0,1,1,MERGED
+34971,fix(pack): close confirmation buffer's tab page by ID,ggandor,2025-07-17T11:19:03Z,2025-07-19T01:40:16+00:00,2,38.35,True,4,2,1,365,0,1,1,MERGED
+34967,vim-patch:9.1.1557: not possible to anchor specific lines in difff mode,zeertzjq,2025-07-17T06:11:51Z,2025-07-18T00:04:33+00:00,1,17.88,True,1584,260,22,2301,0,0,0,MERGED
+34958,"test(tui_spec): flakiness, global highlight definitions",luukvbaal,2025-07-16T16:28:58Z,2025-07-17T01:54:22+00:00,1,9.42,True,1382,1598,15,10,0,1,1,MERGED
+34950,fix(float): various (mostly) floating window related fixes,seandewar,2025-07-15T22:18:40Z,2025-07-22T12:36:34+00:00,1,158.3,True,292,79,9,60,5,0,5,MERGED
+34948,vim-patch: update runtime files,clason,2025-07-15T20:50:28Z,2025-07-16T08:32:34+00:00,2,11.7,True,54,5,7,340,0,1,1,MERGED
+34943,fix(float): prevent crash in WinLeave when closing last tab,glepnir,2025-07-15T07:54:21Z,2025-07-16T05:30:21+00:00,4,21.6,False,18,0,2,292,6,1,7,CLOSED
+34936,vim-patch: update syntax files,clason,2025-07-14T21:09:46Z,2025-07-14T22:14:00+00:00,4,1.07,True,263,29,4,224,0,2,2,MERGED
+34928,fix(lsp): prevent empty content.value from causing invalid window height,glepnir,2025-07-14T08:22:39Z,2025-07-18T05:14:35+00:00,1,92.87,False,38,2,2,242,9,0,9,CLOSED
+34921,refactor(tutor): reimplement interactive marks as extmark in Lua,brianhuster,2025-07-13T19:07:36Z,2025-07-18T03:26:55+00:00,6,104.32,True,248,115,8,767,3,3,6,MERGED
+34919,feat(vim.pack): more actions in confirm-update,echasnovski,2025-07-13T17:14:32Z,2025-10-05T19:00:47+00:00,20,2017.77,True,317,32,5,1139,3,9,12,MERGED
+34914,feat(treesitter): support language argument in `:EditQuery`,PeterCardenas,2025-07-13T11:17:30Z,2025-07-19T18:36:51+00:00,13,151.32,True,48,16,5,258,2,7,9,MERGED
+34911,"test(fold): flaky ""doesn't open folds that are not touched""",justinmk,2025-07-13T04:48:25Z,2025-07-14T00:05:02+00:00,2,19.28,True,1,2,1,40,0,1,1,MERGED
+34909,fix(lua): vim.diff is nil in uv.new_work() thread,justinmk,2025-07-12T23:05:29Z,2025-07-13T03:54:23+00:00,1,4.82,True,14,7,5,1269,3,1,4,MERGED
+34894,"vim-patch:8.1.{770,857,914,977,1004,1526,1551,1565,1584,1629,1641,1703,1728,1730,1736,1802,1853,1891,2127,2200},8.2.3922,9.0.{546,928},9.1.1382",janlazo,2025-07-12T03:03:37Z,2025-07-21T04:02:05+00:00,24,216.97,True,950,928,38,9781,7,7,14,MERGED
+34888,fix(lsp): prevent flicker in codelens virtual text,tomtomjhj,2025-07-11T17:22:13Z,2025-07-12T23:55:58+00:00,1,30.56,True,86,59,1,609,1,0,1,MERGED
+34887,fix(extui): disable cmdline highlighter when showing a message,luukvbaal,2025-07-11T15:21:02Z,2025-07-11T23:15:31+00:00,1,7.91,True,15,1,2,210,1,0,1,MERGED
+34885,fix(window): don't store invalid height in window config,luukvbaal,2025-07-11T15:06:45Z,2025-07-11T16:53:31+00:00,1,1.78,True,10,3,3,308,0,0,0,MERGED
+34883,docs(autocmd): generate events enum type,luukvbaal,2025-07-11T14:05:31Z,2025-07-12T14:46:13+00:00,5,24.68,True,189,25,6,0,13,2,15,MERGED
+34880,feat(term): increase max scrollback to 1000000,lewis6991,2025-07-11T09:47:05Z,2025-07-14T15:41:18+00:00,2,77.9,True,9,8,6,210,0,0,0,MERGED
+34873,vim-patch:9.1.1535: the maximum search count uses hard-coded value 99,zeertzjq,2025-07-10T22:19:01Z,2025-07-11T01:17:05+00:00,1,2.97,True,267,60,15,340,0,0,0,MERGED
+34869,docs: move vim.system to own section,lewis6991,2025-07-10T09:32:32Z,2025-07-10T12:34:59+00:00,3,3.04,True,267,143,7,0,1,1,2,MERGED
+34868,fix(popup): handle custom winborder in `make_floating_popup_options()`,seblyng,2025-07-10T06:53:16Z,2025-07-10T12:51:13+00:00,2,5.97,True,5,0,1,151,0,1,1,MERGED
+34864,refactor(lua): rename vim.diff => vim.text.diff,justinmk,2025-07-10T01:51:45Z,2025-07-12T22:36:07+00:00,5,68.74,True,176,173,12,116,3,2,5,MERGED
+34860,feat(tui): use DA1 response to determine OSC 52 support,gpanders,2025-07-09T18:50:39Z,2025-07-17T23:47:33+00:00,4,196.95,True,177,40,10,193,3,2,5,MERGED
+34859,feat(extui): use winborder for msg window,seblyng,2025-07-09T18:11:43Z,2025-07-10T00:42:47+00:00,2,6.52,True,50,30,4,338,4,1,5,MERGED
+34857,"vim-patch:bda55df: Revert ""runtime(haskell): Add single quote to `iskeyword` in ftplugin (vim/vim#8191)""",clason,2025-07-09T16:43:58Z,2025-07-10T07:29:15+00:00,1,14.75,True,1,1,1,148,0,0,0,MERGED
+34854,fix(runtime): no conceal in qf on `lopen`,phanen,2025-07-09T15:20:01Z,2025-07-09T16:36:10+00:00,1,1.27,True,1,1,1,153,2,1,3,MERGED
+34853,feat(lsp): diagnostic related documents support,ribru17,2025-07-09T01:51:02Z,2025-07-22T04:38:46+00:00,7,314.8,True,106,3,4,541,0,2,2,MERGED
+34849,fix(lsp): decode 'null' in server responses as vim.NIL ,skewb1k,2025-07-08T19:22:20Z,2025-08-03T14:42:44+00:00,7,619.34,True,42,26,9,2072,12,2,14,MERGED
+34847,fix(health): floating window closes when opening TOC (gO),neovim-backports,2025-07-08T12:21:26Z,2025-07-08T23:10:18+00:00,1,10.81,True,29,8,5,47,0,1,1,MERGED
+34846,feat(api): nvim_echo can emit Progress messages/events,shadmansaleh,2025-07-08T11:47:30Z,2025-08-26T20:48:53+00:00,131,1185.02,True,648,19,19,1988,25,67,92,MERGED
+34845,test(messages/cmdline_spec): use dynamic highlight IDs and format,luukvbaal,2025-07-08T09:45:21Z,2025-07-09T09:33:19+00:00,8,23.8,True,1038,1632,6,416,0,3,3,MERGED
+34838,feat(lsp): support signature help noActiveParameterSupport,skewb1k,2025-07-07T22:49:11Z,2025-08-11T21:31:57+00:00,11,838.71,True,23,13,4,251,8,3,11,MERGED
+34837,feat(diagnostic): jump to related info location from `open_float`,ribru17,2025-07-07T22:35:57Z,2025-07-10T18:24:17+00:00,4,67.81,True,113,6,5,204,5,3,8,MERGED
+34829,Fix minor typos in documentation,vladihnoo,2025-07-07T16:13:29Z,2025-07-07T17:21:51+00:00,3,1.14,False,19,16,3,75,1,3,4,CLOSED
+34828,fix(api): populate `lhsrawalt` in `nvim_get_keymap` response,ncrpy,2025-07-07T14:46:31Z,2025-07-07T23:22:02+00:00,1,8.59,True,12,15,2,792,1,0,1,MERGED
+34824,fix(lsp): convert the encoded position to line byte,ofseed,2025-07-07T02:33:45Z,2025-07-07T03:39:05+00:00,1,1.09,True,3,2,1,165,0,0,0,MERGED
+34823,feat(lsp): support `textDocument/colorPresentation`,MariaSolOs,2025-07-07T02:06:01Z,2025-07-10T15:51:27+00:00,10,85.76,True,93,1,3,179,3,4,7,MERGED
+34817,fix(osc52): no foreground colors in FAR+ConEmu,mihnita,2025-07-06T19:56:52Z,2025-07-09T19:19:51+00:00,3,71.38,False,6,2,1,132,12,1,13,CLOSED
+34814,vim-patch: autopkgtest,clason,2025-07-06T16:14:54Z,2025-07-07T09:24:04+00:00,3,17.15,True,148,19,7,322,0,2,2,MERGED
+34806,"fix: serverlist() also returns pipes from stdpath(""run"")",siddhantdev,2025-07-06T08:00:17Z,2025-07-28T04:40:04+00:00,25,524.66,True,112,5,6,642,3,16,19,MERGED
+34803,docs(tutor): Add Chinese (zh-CN) translation,pilgrimlyieu,2025-07-06T05:10:34Z,2025-07-08T12:26:40+00:00,4,55.27,True,1213,0,4,824,1,10,11,MERGED
+34799,refactor(lsp): narrower `hierarchy` argument type,MariaSolOs,2025-07-05T16:49:16Z,2025-07-06T22:12:02+00:00,1,29.38,True,8,4,1,118,10,1,11,MERGED
+34797,refactor(lsp): utility functions for enable()/is_enabled(),ofseed,2025-07-05T14:17:42Z,2025-07-13T03:44:21+00:00,37,181.44,True,195,116,9,278,6,23,29,MERGED
+34796,vim-patch:f9d87fa: runtime(go): fix `b:undo_ftplugin`,clason,2025-07-05T13:46:00Z,2025-07-05T14:51:54+00:00,1,1.1,True,5,4,1,285,0,0,0,MERGED
+34795,fix(runtime): coverity STRING_NULL #569464,glepnir,2025-07-05T06:35:22Z,2025-07-06T12:27:20+00:00,7,29.87,True,26,21,1,899,2,4,6,MERGED
+34794,fix(health): floating window closes when opening TOC (gO),glepnir,2025-07-05T05:58:55Z,2025-07-08T12:21:09+00:00,6,78.37,True,29,8,5,314,9,4,13,MERGED
+34788,"feat: "":restart +cmd""",sathya-pramodh,2025-07-04T19:34:20Z,2025-07-24T02:45:31+00:00,37,463.19,True,76,34,6,182,18,15,33,MERGED
+34787,fix(vim.pack): add() stops unexpectedly on package load error,brianhuster,2025-07-04T19:25:20Z,2025-07-06T18:04:03+00:00,15,46.65,True,15,9,2,19,3,5,8,MERGED
+34779,"feat(messages): add ""prev_cmd"" argument to msg_history_show",luukvbaal,2025-07-04T13:44:19Z,2025-07-08T09:19:02+00:00,7,91.58,True,19,23,7,159,0,1,1,MERGED
+34769,refactor(getchar): rename test variable,zeertzjq,2025-07-04T13:16:53Z,2025-07-04T21:36:01+00:00,1,8.32,True,7,6,4,126,1,0,1,MERGED
+34751,feat(lsp): handle deprecated document symbols,MariaSolOs,2025-07-04T01:21:37Z,2025-07-06T16:39:37+00:00,4,63.3,True,97,1,3,166,4,2,6,MERGED
+34746,vim-patch:0d50d60: runtime(postscr): Correct some standard font names in syntax,clason,2025-07-03T20:45:22Z,2025-07-04T06:55:54+00:00,1,10.18,True,8,8,1,87,0,0,0,MERGED
+34745,feat(extui): show dismissed message in cmdline,luukvbaal,2025-07-03T15:19:38Z,2025-07-09T09:17:18+00:00,1,137.96,True,134,116,2,471,10,0,10,MERGED
+34744,test(old): emulate test_override('char_avail') using FFI,zeertzjq,2025-07-03T15:06:53Z,2025-07-04T04:07:15+00:00,1,13.01,True,116,107,10,279,4,1,5,MERGED
+34742,test(old): emulate test_override('starting') with FFI,zeertzjq,2025-07-03T06:42:08Z,2025-07-03T11:21:58+00:00,1,4.66,True,40,19,4,269,1,0,1,MERGED
+34740,vim-patch:9.1.1501: filetype: flix files are not recognized,clason,2025-07-02T16:59:39Z,2025-07-03T07:18:18+00:00,3,14.31,True,8,0,2,266,0,2,2,MERGED
+34739,vim-patch:5ecee30: runtime(go): add section movement mappings to ftplugin,clason,2025-07-02T16:56:09Z,2025-07-02T22:28:39+00:00,1,5.54,True,32,2,1,75,0,0,0,MERGED
+34736,"fix(prompt): cursor on prompt line, disallow "":edit""",shadmansaleh,2025-07-02T15:56:39Z,2025-07-30T01:36:01+00:00,13,657.66,True,57,3,4,185,1,7,8,MERGED
+34732,fix(vim.system): env=nil passes env=nil to uv.spawn,lewis6991,2025-07-02T11:14:03Z,2025-07-02T16:01:30+00:00,5,4.79,True,32,4,4,351,6,2,8,MERGED
+34728,build: support static build,akdev1l,2025-07-02T04:14:05Z,2025-07-02T14:54:17+00:00,1,10.67,True,27,0,2,771,1,1,2,MERGED
+34725,refactor(shada): switch plugin/shada.vim to Lua,yochem,2025-07-01T15:30:46Z,2025-07-23T11:04:05+00:00,3,523.56,True,106,44,3,91,1,2,3,MERGED
+34720,fix(lsp): use `vim.notify` with action-less `showMessage` requests,MariaSolOs,2025-07-01T04:04:26Z,2025-07-01T17:13:58+00:00,3,13.16,True,51,40,1,13,0,1,1,MERGED
+34715,`vim.version` improvements,echasnovski,2025-06-30T14:45:34Z,2025-07-01T11:19:42+00:00,11,20.57,True,276,70,4,1196,3,5,8,MERGED
+34707,refactor(lua): vim.fn.system to vim.system,yochem,2025-06-29T17:15:12Z,2025-07-24T03:03:31+00:00,25,585.81,True,77,61,9,559,9,15,24,MERGED
+34680,vim-patch:0312527: runtime(pandoc): sync syntax script with upstream,clason,2025-06-27T16:49:56Z,2025-06-27T22:13:58+00:00,1,5.4,True,22,17,1,93,0,0,0,MERGED
+34679,feat(extui): don't enter pager for routed message,luukvbaal,2025-06-27T13:56:37Z,2025-06-27T19:13:02+00:00,5,5.27,True,84,16,4,276,0,1,1,MERGED
+34674,fix(lsp): fix workspace diagnostic request to follow spec,ZieMcd,2025-06-27T09:05:45Z,2025-06-27T19:17:42+00:00,4,10.2,True,5,5,1,12,1,1,2,MERGED
+34671,fix(prompt): prompt mark not placed after text edits correctly,shadmansaleh,2025-06-27T04:35:08Z,2025-06-30T10:19:44+00:00,2,77.74,True,80,3,4,188,12,2,14,MERGED
+34670,vim-patch:9.1.1482: scrolling with 'splitkeep' and line(),luukvbaal,2025-06-26T21:42:28Z,2025-06-27T09:16:24+00:00,1,11.57,True,49,6,3,210,1,0,1,MERGED
+34669,fix(lsp): include context for each client in multi-handler results,MariaSolOs,2025-06-26T18:03:21Z,2025-06-26T19:18:20+00:00,1,1.25,True,6,11,3,356,3,0,3,MERGED
+34667,fix(lsp/health): always use vim.inspect to show root_markers,gpanders,2025-06-26T14:19:06Z,2025-06-26T15:22:45+00:00,1,1.06,True,1,1,1,527,1,0,1,MERGED
+34665,"perf(extui): delay creating windows, buffers and parser",luukvbaal,2025-06-26T13:46:21Z,2025-06-27T13:54:32+00:00,1,24.14,True,40,46,5,475,0,0,0,MERGED
+34657,feat(runtime): accept predicates in take and skip,mart-mihkel,2025-06-26T09:51:19Z,2025-07-03T13:12:24+00:00,15,171.35,True,148,12,4,155,3,7,10,MERGED
+34645,fix(lsp): add `RequestFailed` error code constant,MariaSolOs,2025-06-25T23:02:41Z,2025-06-26T09:23:31+00:00,2,10.35,True,1,2,1,140,1,0,1,MERGED
+34642,feat(keymaps): add 'grt' mapping for lsp type definition,calebdw,2025-06-25T14:31:11Z,2025-06-26T13:24:14+00:00,2,22.88,True,10,2,4,323,8,1,9,MERGED
+34639,refactor(lsp): introduce `vim.lsp.Capability`,ofseed,2025-06-25T07:35:10Z,2025-07-07T03:51:30+00:00,13,284.27,True,214,165,8,3472,8,7,15,MERGED
+34638,fix(exrc): exrc knows its own location,yochem,2025-06-25T07:14:41Z,2025-06-29T15:19:10+00:00,4,104.07,True,24,11,12,158,10,2,12,MERGED
+34637,feat(lsp): support `textDocument/onTypeFormatting`,ribru17,2025-06-24T21:05:22Z,2025-08-31T21:09:12+00:00,54,1632.06,True,472,0,8,433,20,21,41,MERGED
+34635,fix: map wincmd instead of remap,phanen,2025-06-24T16:02:00Z,2025-06-25T13:33:59+00:00,3,21.53,True,1,1,1,20,0,1,1,MERGED
+34630,"fix(cmdline): validate 'incsearch' cursor for ""cmdline_show"" redraw",luukvbaal,2025-06-24T12:07:13Z,2025-06-24T14:37:51+00:00,1,2.51,True,12,0,2,281,0,0,0,MERGED
+34626,vim-patch: :uniq Ex command,zeertzjq,2025-06-24T00:59:32Z,2025-07-05T13:56:11+00:00,1,276.94,True,899,7,11,1382,12,0,12,MERGED
+34619,fix(autocmd): 'cmdheight' OptionSet with valid window grids,luukvbaal,2025-06-23T14:53:51Z,2025-06-24T08:25:46+00:00,2,17.53,True,57,10,3,240,0,1,1,MERGED
+34616,fix(health): highlight group conflicts with help,dmitmel,2025-06-23T13:59:03Z,2025-06-23T16:23:27+00:00,3,2.41,True,3,3,1,532,6,1,7,MERGED
+34614,fix(highlight): avoid red underline in floating window with blend,glepnir,2025-06-23T12:49:56Z,2025-06-27T09:52:28+00:00,2,93.04,True,60,9,2,318,1,2,3,MERGED
+34604,refactor(lsp): use `vim.lsp.buf_request_all` internally,MariaSolOs,2025-06-22T22:06:40Z,2025-06-23T17:15:25+00:00,2,19.15,True,131,164,3,160,0,0,0,MERGED
+34602,fix: correct keyboard shortcut markers in Turkish translation,sukrucildirr,2025-06-22T15:59:58Z,2025-06-23T06:38:38+00:00,2,14.64,False,9,9,1,106,0,2,2,CLOSED
+34597,feat(ui): add vim.ui.spinner,jamestrew,2025-06-22T03:20:43Z,2025-06-23T10:39:27+00:00,5,31.31,False,129,0,2,220,1,4,5,CLOSED
+34594,fix(tui): don't crash when nvim__screenshot() is called with bad path,The-Briel-Deal,2025-06-21T18:03:31Z,2025-06-28T23:12:42+00:00,3,173.15,True,5,1,1,237,3,1,4,MERGED
+34586,feat(ui): :connect command,siddhantdev,2025-06-20T16:55:03Z,2025-08-14T22:58:10+00:00,64,1326.05,True,218,3,9,150,11,27,38,MERGED
+34584,"fix(prompt): ""%"" prefix is repeated on multiline input with formatoptions+=r",shadmansaleh,2025-06-20T06:33:35Z,2025-06-24T13:52:24+00:00,20,103.31,True,20,1,2,339,4,8,12,MERGED
+34582,"fix(extui): set 'modifiable', 'noswapfile' for buffers",phanen,2025-06-20T02:54:26Z,2025-06-20T15:32:07+00:00,8,12.63,True,16,1,2,121,1,1,2,MERGED
+34567,"vim-patch:e4c157b: runtime(nroff,groff): update commentstyle in filetype plugins",clason,2025-06-18T16:45:48Z,2025-06-19T09:10:26+00:00,1,16.41,True,17,5,4,101,0,0,0,MERGED
+34566,vim-patch:9.1.1468: filetype: bright(er)script files are not recognized,clason,2025-06-18T16:29:44Z,2025-06-19T09:10:38+00:00,1,16.68,True,28,0,4,279,0,0,0,MERGED
+34558,"docs: api, pack, events, develop",justinmk,2025-06-18T11:39:59Z,2025-07-11T02:36:16+00:00,8,542.94,True,183,241,32,0,1,3,4,MERGED
+34554,test(lsp): return tables instead of deserializing strings,ribru17,2025-06-17T18:34:09Z,2025-06-17T20:41:49+00:00,2,2.13,True,38,25,1,14,1,1,2,MERGED
+34551,fix(lsp): support v:count in selection_range(),ribru17,2025-06-17T15:32:42Z,2025-06-17T21:10:57+00:00,2,5.64,True,140,20,5,67,1,1,2,MERGED
+34550,feat(lsp): pass resolved config to cmd(),justmejulian,2025-06-17T15:14:17Z,2025-06-18T11:52:17+00:00,4,20.63,True,24,15,5,363,2,2,4,MERGED
+34546,docs: vim.fs.dir.Opts type,phanen,2025-06-17T13:07:09Z,2025-06-17T14:14:25+00:00,1,1.12,True,26,13,2,36,2,1,3,MERGED
+34545,feat(defaults): default 'findfunc' to fd if available,yochem,2025-06-17T12:39:36Z,2025-06-18T13:25:28+00:00,5,24.76,False,43,1,5,748,14,3,17,CLOSED
+34542,feat(defaults): set up highlight on yank,clason,2025-06-17T09:32:23Z,2025-06-28T16:40:18+00:00,8,271.13,False,49,36,7,0,16,2,18,CLOSED
+34541,"docs: api, prompt-buffer, deprecate `<sfile>`",justinmk,2025-06-17T09:23:56Z,2025-06-18T10:46:29+00:00,7,25.38,True,62,70,21,17,4,4,8,MERGED
+34535,fix(lsp): include client ID when receiving unknown fold kind,MariaSolOs,2025-06-17T00:07:43Z,2025-06-17T02:36:06+00:00,1,2.47,True,2,2,1,150,2,0,2,MERGED
+34529,"fix(messages): ""list_cmd"" kind for :command, :version",luukvbaal,2025-06-16T15:23:52Z,2025-06-18T05:54:50+00:00,1,38.52,True,49,6,5,213,0,0,0,MERGED
+34528,refactor(generator): use fmt() for string.format() more,zeertzjq,2025-06-16T12:37:35Z,2025-06-16T22:50:51+00:00,1,10.22,True,10,10,2,0,2,0,2,MERGED
+34527,vim-patch:f548ec4: runtime(keymaps): Add Azerbaijani keymap,zeertzjq,2025-06-16T12:26:25Z,2025-06-16T22:47:05+00:00,1,10.34,True,28,0,1,160,0,0,0,MERGED
+34526,docs(api): document types using LuaCATS types,lewis6991,2025-06-16T10:50:07Z,2025-06-26T12:54:04+00:00,6,242.07,True,929,783,21,571,4,3,7,MERGED
+34522,vim-patch:631a50c: runtime(doc): mention cannot ignored events in eventignorewin,zeertzjq,2025-06-16T01:07:20Z,2025-06-16T02:14:20+00:00,2,1.12,True,170,1,5,163,0,1,1,MERGED
+34519,fix(lsp): add missing argument validations,MariaSolOs,2025-06-15T22:26:52Z,2025-06-16T13:19:20+00:00,1,14.87,True,32,0,1,77,0,0,0,MERGED
+34518,fix(lsp): use correct deprecation function,MariaSolOs,2025-06-15T22:11:16Z,2025-06-15T23:15:55+00:00,1,1.08,True,1,1,1,62,1,0,1,MERGED
+34513,fix(treesitter): enable a gc for wasmtime,lewis6991,2025-06-15T13:45:08Z,2025-06-16T08:19:17+00:00,1,18.57,True,1,0,1,0,7,1,8,MERGED
+34510,refactor: options tests,lewis6991,2025-06-15T10:33:26Z,2025-07-03T10:05:09+00:00,4,431.53,True,1228,1449,2,148,0,1,1,MERGED
+34508,feat(lsp): support annotated text edits,MariaSolOs,2025-06-15T01:59:32Z,2025-06-23T13:30:50+00:00,22,203.52,True,199,91,5,163,1,8,9,MERGED
+34502,docs: update vim_diff.txt,brianhuster,2025-06-14T15:52:04Z,2025-06-18T13:19:00+00:00,12,93.45,True,13,11,2,76,2,6,8,MERGED
+34495,fix(build): disable problematic marktree assert in RelWithDebInfo builds,bfredl,2025-06-14T09:53:35Z,2025-06-16T10:27:42+00:00,2,48.57,True,11,2,3,308,1,0,1,MERGED
+34493,feat: add busy status for buffers,shadmansaleh,2025-06-14T07:45:10Z,2025-07-06T23:17:06+00:00,17,543.53,True,77,6,10,233,5,10,15,MERGED
+34492,fix: cursor shape don't resume after `:append`,nenahp,2025-06-14T07:34:09Z,2025-06-17T22:59:06+00:00,5,87.42,True,6,0,2,132,3,1,4,MERGED
+34491,feat(prompt): prompt_getinput() gets current input,shadmansaleh,2025-06-14T05:32:05Z,2025-06-24T19:42:17+00:00,30,254.17,True,147,21,10,595,8,17,25,MERGED
+34490,fix(extui): clear cmdline buffer for first message,luukvbaal,2025-06-13T22:54:44Z,2025-06-15T10:55:01+00:00,12,36.0,True,104,20,7,864,2,5,7,MERGED
+34489,fix(lsp): show messages using vim.notify,someoneinjd,2025-06-13T15:52:54Z,2025-06-16T12:02:59+00:00,9,68.17,True,19,6,2,163,4,3,7,MERGED
+34487,doc: support overloads and async,lewis6991,2025-06-13T15:21:44Z,2025-06-16T08:18:43+00:00,10,64.95,True,86,30,5,17,0,3,3,MERGED
+34486,fix(window): don't enter unfocusable or hidden prevwin,luukvbaal,2025-06-13T14:06:14Z,2025-06-14T21:42:23+00:00,1,31.6,True,32,12,3,243,1,0,1,MERGED
+34483,"fix(diagnostics): ""attempt to index field 'signs'"" error",wenijinew,2025-06-13T08:54:54Z,2025-06-18T16:07:42+00:00,13,127.21,False,0,0,0,10,12,3,15,CLOSED
+34474,feat(lsp): support diagnostic related information,ribru17,2025-06-12T16:09:09Z,2025-07-07T17:05:03+00:00,28,600.93,True,48,2,5,237,6,10,16,MERGED
+34469,refactor(lsp): migrate LSP folding to an oop design,ofseed,2025-06-12T13:37:03Z,2025-06-19T13:23:40+00:00,16,167.78,True,104,104,1,1011,1,7,8,MERGED
+34467,fix(messages): add append parameter to history entries,luukvbaal,2025-06-12T12:38:23Z,2025-06-15T21:36:41+00:00,6,80.97,True,30,16,7,256,0,2,2,MERGED
+34466,fix(insexpand): update showmode when updating the screen,luukvbaal,2025-06-12T11:13:12Z,2025-06-13T08:37:19+00:00,1,21.4,True,8,8,1,247,1,0,1,MERGED
+34461,fix(lsp): advertise supported fold kinds,ribru17,2025-06-11T22:58:50Z,2025-06-16T20:05:00+00:00,3,117.1,True,18,3,2,291,11,2,13,MERGED
+34459,fix(float): ensure relative window grid is allocated,luukvbaal,2025-06-11T20:46:45Z,2025-06-12T06:51:30+00:00,1,10.08,True,15,0,2,173,0,0,0,MERGED
+34458,feat(lsp): support multiline semantic tokens,ribru17,2025-06-11T19:58:54Z,2025-06-13T15:30:08+00:00,9,43.52,True,128,5,5,78,0,3,3,MERGED
+34456,feat(ui): progress interface,comfysage,2025-06-11T18:23:01Z,2025-06-23T11:43:57+00:00,4,281.35,False,127,0,3,105,24,2,26,CLOSED
+34454,fix(lsp): correct diagnostic data support and related info capabilities,ribru17,2025-06-11T15:47:32Z,2025-06-12T18:00:42+00:00,2,26.22,True,1,1,1,0,2,0,2,MERGED
+34453,feat(lsp): handle disabled code actions,ribru17,2025-06-11T15:37:07Z,2025-06-16T16:41:42+00:00,9,121.08,True,93,12,4,855,1,2,3,MERGED
+34449,docs(nvim_set_client_info),dheerajd5,2025-06-11T12:21:21Z,2025-07-12T02:15:38+00:00,1,733.9,False,6,4,2,114,3,1,4,CLOSED
+34446,fix(shada): prevent use-after-free when mapping file marks,glepnir,2025-06-11T10:33:02Z,2025-06-11T22:31:48+00:00,4,11.98,True,14,3,1,335,0,2,2,MERGED
+34442,fix(help): `:h` can focus unfocusable/hide window,phanen,2025-06-11T05:20:57Z,2025-06-29T14:44:17+00:00,2,441.39,True,23,2,3,112,1,1,2,MERGED
+34436,fix(lsp): announce diagnostic tag support,ribru17,2025-06-11T00:53:12Z,2025-06-11T04:26:06+00:00,2,3.55,True,4,0,1,173,1,1,2,MERGED
+34418,fix(cmdline): set search cursor after ui_flush(),luukvbaal,2025-06-10T13:11:43Z,2025-06-12T06:53:10+00:00,1,41.69,True,26,35,1,219,0,0,0,MERGED
+34414,fix(messages): make swapfile attention message part of prompt,luukvbaal,2025-06-10T09:29:59Z,2025-06-12T09:57:17+00:00,5,48.45,True,153,284,33,293,5,1,6,MERGED
+34412,fix(msgpack): flush incomplete big UI event before packing RPC event,bfredl,2025-06-10T08:23:50Z,2025-06-12T09:35:34+00:00,2,49.2,True,33,6,4,12,1,2,3,MERGED
+34411,fix(tui): wait for embedded server's exit code,zeertzjq,2025-06-10T06:34:49Z,2025-06-10T15:27:14+00:00,5,8.87,True,141,55,10,221,0,3,3,MERGED
+34404,vim-patch:9.1.1446: filetype: cuda-gdb config files are not recognized,clason,2025-06-09T20:39:30Z,2025-06-10T07:10:47+00:00,1,10.52,True,3,1,2,225,0,0,0,MERGED
+34403,vim-patch: commentstrings,clason,2025-06-09T20:35:32Z,2025-06-10T07:10:59+00:00,1,10.59,True,22,7,5,364,0,0,0,MERGED
+34402,"docs: vim.fs., diagnostics",justinmk,2025-06-09T15:52:57Z,2025-06-13T14:49:22+00:00,3,94.94,True,94,114,10,0,1,1,2,MERGED
+34394,refactor(shada): A shada entry is a shada entry,bfredl,2025-06-09T09:48:11Z,2025-08-13T08:19:26+00:00,1,1558.52,True,166,228,1,1108,0,0,0,MERGED
+34393,fix(messages): single event for multi-expr :echo,luukvbaal,2025-06-09T08:59:45Z,2025-06-09T16:58:31+00:00,1,7.98,True,26,1,2,139,0,0,0,MERGED
+34388,feat(lsp): support linked editing ranges,ribru17,2025-06-09T02:18:22Z,2025-07-19T17:54:49+00:00,55,975.61,True,530,0,8,312,21,35,56,MERGED
+34381,"vim-patch:9.1.{1441,1444}",zeertzjq,2025-06-08T14:55:43Z,2025-06-10T00:01:51+00:00,1,33.1,True,87,111,2,580,0,0,0,MERGED
+34380,vim-patch:9.1.1439: Last diff folds not merged,zeertzjq,2025-06-08T14:34:56Z,2025-06-08T22:57:54+00:00,1,8.38,True,59,98,4,1641,0,0,0,MERGED
+34379,vim-patch:9.1.1437: MS-Windows: internal compile error in uc_list(),zeertzjq,2025-06-08T14:30:03Z,2025-06-08T22:57:32+00:00,1,8.46,True,30,6,2,284,0,0,0,MERGED
+34378,"fix(extui): only append messages exceeding 'cmdheight' to ""more""",luukvbaal,2025-06-08T14:25:43Z,2025-06-13T12:28:01+00:00,11,118.04,True,163,161,5,833,13,3,16,MERGED
+34373,fix(shada): prevent nobuflisted buffers from appearing in v:oldfiles,glepnir,2025-06-08T04:35:06Z,2025-06-10T13:50:16+00:00,9,57.25,True,17,4,2,302,11,7,18,MERGED
+34371,feat(lsp): static registration support,MariaSolOs,2025-06-08T02:12:39Z,2025-06-09T17:01:27+00:00,3,38.81,True,66,0,2,292,0,1,1,MERGED
+34370,fix(treesitter): scope highlight state per window,ribru17,2025-06-08T01:58:38Z,2025-06-08T09:01:51+00:00,1,7.05,True,38,33,1,25,0,0,0,MERGED
+34364,fix(compositor): don't blend unitialized background cells,luukvbaal,2025-06-07T22:48:33Z,2025-06-09T12:43:33+00:00,1,37.92,True,25,1,2,171,0,0,0,MERGED
+34354,feat: make :restart work for remote UI,zeertzjq,2025-06-07T02:59:05Z,2025-06-07T22:10:34+00:00,10,19.19,True,205,116,11,12,4,5,9,MERGED
+34352,fix(treesitter): support multiple `@injection.content` captures,ribru17,2025-06-06T23:07:24Z,2025-06-08T16:23:22+00:00,1,41.27,True,7,2,2,855,12,1,13,MERGED
+34349,fix(startup): make startup windows if there are only floating windows,luukvbaal,2025-06-06T19:59:22Z,2025-06-07T09:24:52+00:00,1,13.43,True,61,32,2,235,0,0,0,MERGED
+34347,fix(treesitter): scope highlight state per window,ribru17,2025-06-06T17:05:40Z,2025-06-07T16:27:46+00:00,1,23.37,True,38,33,1,795,1,0,1,MERGED
+34346,fix(api): update topline when flushing with nvim__redraw(),luukvbaal,2025-06-06T15:56:41Z,2025-06-07T09:24:24+00:00,1,17.46,True,30,0,2,148,2,0,2,MERGED
+34342,"fix(messages): capture execute(""messages"") with ext_messages",luukvbaal,2025-06-06T11:22:49Z,2025-06-06T14:45:31+00:00,1,3.38,True,35,5,2,366,0,0,0,MERGED
+34327,"fix(extui): use visible to determine active ""more""",luukvbaal,2025-06-05T13:18:50Z,2025-06-06T14:04:45+00:00,1,24.77,True,21,14,3,470,0,0,0,MERGED
+34323,fix: type fixes,lewis6991,2025-06-05T10:32:20Z,2025-06-06T14:36:48+00:00,3,28.07,True,420,354,51,14,1,2,3,MERGED
+34318,fix(term): ensure terminal attr index doesn't exceed `TERM_ATTRS_MAX`,The-Briel-Deal,2025-06-05T01:47:16Z,2025-06-30T13:22:42+00:00,17,611.59,True,20,1,2,468,6,8,14,MERGED
+34314,fix(treesitter): ensure TSNode's tree is immutable,Rodrigodd,2025-06-05T00:24:49Z,2025-06-06T14:35:52+00:00,1,38.18,True,58,24,3,1338,7,0,7,MERGED
+34311,vim-patch:bb78ea2: runtime(mbsync): Add support for TLSType in syntax script,clason,2025-06-04T20:31:15Z,2025-06-05T07:16:38+00:00,1,10.76,True,6,4,1,94,0,0,0,MERGED
+34308,fix(extui): copy window config to new tabpage,luukvbaal,2025-06-04T16:29:53Z,2025-06-04T17:59:37+00:00,2,1.5,True,50,51,4,450,0,1,1,MERGED
+34302,fix(highlight): preserve background transparency in winblend,glepnir,2025-06-04T10:39:04Z,2025-06-09T15:24:46+00:00,7,124.76,True,100,82,3,387,0,6,6,MERGED
+34299,vim-patch:2090405: runtime(doc): make examples verbatim to prevent conceal/tag parsing,yochem,2025-06-03T20:46:05Z,2025-06-03T21:55:24+00:00,1,1.16,True,33,26,6,37,0,0,0,MERGED
+34294,"vim-patch:9.1.{1426,1428}: register completion improve",glepnir,2025-06-03T07:11:13Z,2025-06-04T05:46:19+00:00,3,22.59,True,85,26,6,621,2,2,4,MERGED
+34287,"fix(api): adjust fix for reconfiguring float ""relative""",luukvbaal,2025-06-02T20:35:54Z,2025-06-03T11:27:07+00:00,3,14.85,True,9,6,2,252,1,1,2,MERGED
+34285,feat(marks): Add `MarkSet` autocmd,nathanmsmith,2025-06-02T19:27:22Z,2025-08-30T17:38:04+00:00,1,2134.18,False,85,0,5,664,12,1,13,CLOSED
+34282,fix(tui): make :restart use new size after terminal resize,zeertzjq,2025-06-02T13:45:09Z,2025-06-03T00:18:04+00:00,1,10.55,True,74,86,3,0,0,0,0,MERGED
+34278,fix(vim.diagnostic): improve typing,lewis6991,2025-06-02T12:44:21Z,2025-06-03T19:25:07+00:00,3,30.68,True,171,95,4,462,0,1,1,MERGED
+34276,feat(vim.fs) vim.fs.root() can control priority,siddhantdev,2025-06-02T11:19:38Z,2025-06-09T16:31:37+00:00,8,173.2,True,80,21,5,316,7,5,12,MERGED
+34274,refactor(windows): remove redundant icon messages,11soda11,2025-06-02T10:33:19Z,2025-06-04T14:11:01+00:00,2,51.63,True,10,15,2,496,2,1,3,MERGED
+34271,"fix(api): reconfiguring float ""relative"" does not clear ""win""",luukvbaal,2025-06-02T07:53:29Z,2025-06-02T12:59:19+00:00,2,5.1,True,17,0,2,222,2,0,2,MERGED
+34269,"fix(extui): reposition ""more"" window after entering cmdwin",luukvbaal,2025-06-02T05:15:56Z,2025-06-02T14:32:48+00:00,1,9.28,True,26,18,2,518,0,0,0,MERGED
+34267,vim-patch:9.1.1421: tests: need a test for the new-style tutor.tutor,brianhuster,2025-06-02T01:07:31Z,2025-06-28T07:42:52+00:00,2,630.59,True,110,31,3,375,8,1,9,MERGED
+34262,feat(lsp): workspace diagnostic support,MariaSolOs,2025-06-01T21:57:23Z,2025-06-09T17:02:00+00:00,18,187.08,True,302,69,6,13,2,5,7,MERGED
+34260,fix(windows): don't set window icon on SIGHUP,11soda11,2025-06-01T19:44:54Z,2025-06-01T22:23:42+00:00,6,2.65,True,13,1,2,320,2,2,4,MERGED
+34259,"vim-patch:b577ad5: runtime(java): Match annotation- and interface-type names of ""java.lang""",clason,2025-06-01T16:50:14Z,2025-06-02T08:03:12+00:00,1,15.22,True,29,9,2,497,0,0,0,MERGED
+34253,fix(api): handle count parameter correctly in nvim_parse_cmd and nvim_cmd,glepnir,2025-06-01T07:30:16Z,2025-06-09T13:50:26+00:00,6,198.34,True,154,53,2,374,2,5,7,MERGED
+34247,vim-patch: various 'complete' features,zeertzjq,2025-05-31T11:34:55Z,2025-06-02T23:00:26+00:00,4,59.43,True,1702,99,10,10224,0,1,1,MERGED
+34245,vim-patch:9.1.1419: It is difficult to ignore all but some events,luukvbaal,2025-05-31T10:48:41Z,2025-05-31T12:51:29+00:00,1,2.05,True,53,11,8,213,0,0,0,MERGED
+34244,"vim-patch:6fea0a5,5ddcecf,b9ea0a8: document on how to write lang annotation for codeblock in help file",brianhuster,2025-05-31T10:28:40Z,2025-06-01T15:11:52+00:00,2,28.72,True,35,8,2,184,3,0,3,MERGED
+34239,vim-patch:9.1.1342: Shebang filetype detection can be improved,e-kwsm,2025-05-30T16:53:03Z,2025-06-01T00:31:00+00:00,1,31.63,True,11,7,2,345,2,0,2,MERGED
+34228,fix(clipboard): handle register type in OSC 52,antoinemadec,2025-05-29T14:42:55Z,2025-06-12T15:49:41+00:00,7,337.11,False,24,2,1,10502,18,4,22,CLOSED
+34226,fix(treesitter): parser metadata annotations,clason,2025-05-29T11:37:57Z,2025-05-29T14:57:51+00:00,1,3.33,True,6,3,1,222,1,0,1,MERGED
+34225,"build(win): ""incompatible pointer type""",axelhj,2025-05-29T10:42:07Z,2025-06-23T14:07:52+00:00,20,603.43,True,6,7,2,720,8,5,13,MERGED
+34223,feat(vim.pack): minimal package manager,saccarosium,2025-05-29T08:27:49Z,2025-06-12T11:18:07+00:00,12,338.84,False,780,0,6,1257,30,12,42,CLOSED
+34217,refactor(shada): expand macros taking macros and code fragments,bfredl,2025-05-28T18:39:07Z,2025-06-09T07:54:30+00:00,1,277.26,True,139,101,1,601,0,0,0,MERGED
+34215,docs: getreg() type,phanen,2025-05-28T16:29:26Z,2025-06-04T16:26:56+00:00,1,167.96,True,9,6,3,103,0,1,1,MERGED
+34212,docs: rename builtin.txt and eval.txt,brianhuster,2025-05-28T08:06:39Z,2025-05-30T15:57:58+00:00,1,55.86,True,15,11,8,335,3,0,3,MERGED
+34210,fix(api): add missing nargs field to user command Lua callbacks,glepnir,2025-05-28T06:33:13Z,2025-06-01T22:03:35+00:00,1,111.51,True,30,0,2,285,1,0,1,MERGED
+34207,fix(eval): winnr('$') counts non-current hidden/unfocusable windows,luukvbaal,2025-05-27T16:04:47Z,2025-06-01T22:12:12+00:00,4,126.12,True,62,34,10,442,9,1,10,MERGED
+34206,fix(messages): recognize cmdline one_key/number prompt State,luukvbaal,2025-05-27T14:00:04Z,2025-06-09T16:57:28+00:00,1,314.96,True,62,26,10,510,6,0,6,MERGED
+34198,vim-patch:9.1.1408: not easily possible to complete from register content,glepnir,2025-05-27T07:42:26Z,2025-05-28T09:10:01+00:00,8,25.46,True,198,12,13,175,3,7,10,MERGED
+34190,"feat(extui): route to ""more"" window if it is open",luukvbaal,2025-05-26T14:27:41Z,2025-05-27T09:27:00+00:00,1,18.99,True,15,11,1,451,7,0,7,MERGED
+34186,"build: generate helptags without running ""nvim"" binary",bfredl,2025-05-26T08:59:58Z,2025-08-20T07:10:02+00:00,1,2062.17,True,104,12,6,260,4,1,5,MERGED
+34182,build: lint decorations_spec etc. with lintlua,zeertzjq,2025-05-26T01:25:12Z,2025-05-27T00:14:42+00:00,1,22.82,True,10,0,1,19,0,0,0,MERGED
+34180,fix(extui): fix luals lint warning with type hint,The-Briel-Deal,2025-05-26T00:33:59Z,2025-05-26T14:28:22+00:00,2,13.91,False,1,1,1,162,8,1,9,CLOSED
+34178,build: unset $TMUX when running tests,zeertzjq,2025-05-25T22:42:50Z,2025-05-26T23:47:28+00:00,1,25.08,True,1,0,1,194,1,0,1,MERGED
+34176,fix(terminal): skip setting `string_initial` to false on no-op,The-Briel-Deal,2025-05-25T22:02:58Z,2025-05-29T18:29:17+00:00,7,92.44,True,49,1,2,946,2,1,3,MERGED
+34175,fix(lsp): announce `normalizesLineEndings` capability,MariaSolOs,2025-05-25T20:33:01Z,2025-05-25T22:04:39+00:00,1,1.53,True,1,0,1,394,0,0,0,MERGED
+34172,vim-patch: 'ave you got a loicense for that?,clason,2025-05-25T15:19:32Z,2025-05-26T15:51:24+00:00,2,24.53,True,68,3,6,178,0,1,1,MERGED
+34170,fix(glob): handling commas in letter pattern,brynne8,2025-05-25T09:13:12Z,2025-06-03T13:36:44+00:00,1,220.39,True,3,2,2,183,3,0,3,MERGED
+34166,feat(lsp)!: pass entire entry to format function,MariaSolOs,2025-05-24T21:14:51Z,2025-05-31T15:47:32+00:00,3,162.54,True,49,41,4,352,5,2,7,MERGED
+34165,refactor(lsp): use `vim.validate` in `vim.lsp.log`,MariaSolOs,2025-05-24T20:39:48Z,2025-05-25T22:04:24+00:00,1,25.41,True,8,2,1,88,0,0,0,MERGED
+34144,feat(vim.ui.explorer): minimal directory viewer,saccarosium,2025-05-23T16:08:01Z,2025-09-17T04:22:33+00:00,2,2796.24,False,305,0,2,746,1,2,3,CLOSED
+34143,fix(move): consume skipcol before revealing filler lines,luukvbaal,2025-05-23T14:37:26Z,2025-05-23T22:45:00+00:00,1,8.13,True,69,43,2,185,0,0,0,MERGED
+34141,"feat(ui): ""append"" parameter for ""msg_show"" UI events",luukvbaal,2025-05-23T11:16:43Z,2025-05-23T23:02:22+00:00,2,11.76,True,74,74,10,811,0,1,1,MERGED
+34140,feat(net): add vim.net.request() and :e integration,tampueroc,2025-05-23T09:39:56Z,2025-07-13T20:43:11+00:00,68,1235.05,True,269,1,10,1350,17,38,55,MERGED
+34137,"vim-patch:2323f22,9.1.1404: add chapter 2 of beginner tutor",brianhuster,2025-05-23T01:43:54Z,2025-05-23T22:48:34+00:00,1,21.08,True,273,44,7,0,5,0,5,MERGED
+34133,feat(lua): vim.notify accepts hl_group,kjuq,2025-05-22T23:26:51Z,2025-05-23T14:10:30+00:00,2,14.73,False,28,7,4,188,1,1,2,CLOSED
+34129,fix(treesitter): properly clip nested injections,ribru17,2025-05-22T19:12:28Z,2025-05-24T10:51:12+00:00,1,39.65,True,30,1,2,14,3,0,3,MERGED
+34122,perf(runtime): vim.trim for long only whitespace strings,monkoose,2025-05-22T10:10:19Z,2025-05-26T21:41:13+00:00,15,107.52,True,76,2,3,350,24,6,30,MERGED
+34107,feat(api): nvim_buf_find,vanaigr,2025-05-21T01:36:01Z,2025-07-05T16:42:40+00:00,1,1095.11,False,547,2,8,781,6,1,7,CLOSED
+34105,fix(lsp): _cancel_all_requests() tries to cancel completed requests,AThePeanut4,2025-05-20T16:07:31Z,2025-06-12T16:21:53+00:00,11,552.24,True,3,1,1,339,6,1,7,MERGED
+34100,fix(tests): fix unittests so they don't have hidden errors,bfredl,2025-05-20T10:22:08Z,2025-05-22T11:15:41+00:00,1,48.89,True,63,39,11,421,0,0,0,MERGED
+34092,fix(lsp/health): ensure valid table before concatenating,gpanders,2025-05-19T19:26:47Z,2025-05-20T17:05:20+00:00,4,21.64,True,1,1,1,270,1,1,2,MERGED
+34091,vim-patch: update runtime files,clason,2025-05-19T18:48:41Z,2025-05-20T06:15:27+00:00,1,11.45,True,13,10,2,154,0,0,0,MERGED
+34090,feat(exrc): unset 'exrc' to stop searching parent directories,yochem,2025-05-19T13:14:22Z,2025-05-20T17:06:08+00:00,8,27.86,True,47,26,6,417,0,3,3,MERGED
+34085,fix(diagnostics): diagnostic just after EOL is not drawn,faergeek,2025-05-19T04:57:28Z,2025-06-03T14:22:37+00:00,10,369.42,True,4,1,1,408,4,2,6,MERGED
+34078,Don't set manwidth wider than the window,fionn,2025-05-18T10:59:28Z,2025-05-19T17:37:03+00:00,1,30.63,True,5,4,2,263,1,0,1,MERGED
+34073,fix(diagnostic): accept multiple namespace in `open_float()`,MariaSolOs,2025-05-17T17:35:58Z,2025-05-21T17:54:43+00:00,1,96.31,True,30,5,3,49,0,0,0,MERGED
+34068,fix(api): nvim_parse_cmd parses :map incorrectly,glepnir,2025-05-17T11:48:22Z,2025-06-14T17:17:56+00:00,19,677.49,True,89,3,3,287,0,12,12,MERGED
+34063,fix(lsp): trigger `autochdir` before resolving `root_markers`,joshbode,2025-05-17T06:02:38Z,2025-06-18T11:50:34+00:00,4,773.8,False,5,0,1,98,3,2,5,CLOSED
+34055,fix(extui): translate <Tab> in cmdline text,luukvbaal,2025-05-16T20:30:06Z,2025-05-17T09:24:06+00:00,1,12.9,True,10,8,2,319,1,0,1,MERGED
+34054,build.zig: LuaJIT / unittests,bfredl,2025-05-16T19:36:15Z,2025-05-24T20:05:33+00:00,1,192.49,True,95,51,4,0,0,0,0,MERGED
+34043,vim-patch: update runtime files,clason,2025-05-16T07:04:30Z,2025-05-16T08:49:40+00:00,1,1.75,True,10,8,2,162,0,0,0,MERGED
+34039,feat(lsp): signature help cycle binding,tiagoinaba,2025-05-15T17:44:23Z,2025-06-12T17:56:39+00:00,22,672.2,True,22,3,2,65,12,9,21,MERGED
+34038,refactor(tui): don't use pseudo-terminfo for custom modes,bfredl,2025-05-15T17:12:40Z,2025-05-16T09:45:50+00:00,1,16.55,True,14,29,2,198,0,0,0,MERGED
+34037,fix(diagnostic): deprecate `float` in `vim.diagnostic.Opts.Jump`,v1nh1shungry,2025-05-15T16:55:33Z,2025-05-20T02:44:26+00:00,8,105.81,True,25,9,3,639,1,2,3,MERGED
+34035,"feat(ui): emit ""msg_clear"" event after clearing the screen",luukvbaal,2025-05-15T15:15:05Z,2025-06-26T22:27:21+00:00,5,1015.2,True,225,137,11,381,2,2,4,MERGED
+34032,fix(tui): clear primary device callback before invoking it,zeertzjq,2025-05-15T11:02:07Z,2025-05-15T12:42:50+00:00,1,1.68,True,4,1,2,214,1,0,1,MERGED
+34024,fix(api): on_detach consistently before buf_freeall autocmds,seandewar,2025-05-14T21:53:20Z,2025-08-17T21:32:54+00:00,5,2279.66,True,139,42,3,571,1,3,4,MERGED
+34023,vim-patch:9.1.1388: Scrolling one line too far with 'nosmoothscroll' page scrolling,luukvbaal,2025-05-14T21:48:15Z,2025-05-15T08:01:35+00:00,1,10.22,True,20,3,2,312,1,0,1,MERGED
+34022,vim-patch:9.1.1387: memory leak when buflist_new() fails to reuse curbuf,seandewar,2025-05-14T18:44:12Z,2025-05-15T07:47:50+00:00,1,13.06,True,31,3,2,778,1,0,1,MERGED
+34017,fix(diagnostics): fixed virtual_text cursormoved autocmd error,rijulkap,2025-05-14T10:28:39Z,2025-05-21T15:20:37+00:00,9,172.87,True,50,13,3,1289,4,2,6,MERGED
+34016,fix(tui): don't disable vsplit scrolling in all xterm-like terminals,bfredl,2025-05-14T08:47:01Z,2025-05-16T08:59:51+00:00,2,48.21,True,38,78,2,623,3,1,4,MERGED
+34014,fix(diagnostics): position diagnostics using extmarks,faergeek,2025-05-14T05:25:32Z,2025-07-25T14:56:50+00:00,29,1737.52,True,264,18,2,1331,10,14,24,MERGED
+34012,fix(terminal): stack overflow when too many csi args,phanen,2025-05-14T03:40:26Z,2025-05-30T11:57:07+00:00,1,392.28,True,1,1,1,4054,4,0,4,MERGED
+34011,feat(lsp): incremental selection via `textDocument/selectionRange`,ribru17,2025-05-14T02:53:42Z,2025-06-12T16:25:20+00:00,10,709.53,True,141,1,5,102,18,6,24,MERGED
+34010,fix: use nvim namespace convention,yochem,2025-05-13T21:24:10Z,2025-05-22T10:40:08+00:00,3,205.27,True,5,6,4,72,1,1,2,MERGED
+34009,feat(pack): add built-in plugin manager `vim.pack`,echasnovski,2025-05-13T17:07:47Z,2025-07-04T13:32:55+00:00,118,1244.42,True,1614,0,14,9405,63,52,115,MERGED
+34006,fix(diagnostics): extend conversion support from/to quickfix format,mike325,2025-05-13T13:34:35Z,2025-07-25T13:14:01+00:00,1,1751.66,True,5,1,1,906,4,0,4,MERGED
+34005,feat: smaller indentation for outline,altermo,2025-05-13T12:44:07Z,2025-05-22T09:21:35+00:00,1,212.62,True,1,6,1,266,3,0,3,MERGED
+34003,fix(extui): handle carriage return in messages,luukvbaal,2025-05-13T11:11:21Z,2025-05-14T13:36:42+00:00,1,26.42,True,46,23,3,441,0,1,1,MERGED
+34001,vim-patch:9.1.1385: inefficient loop for 'nosmoothscroll' scrolling,neovim-backports,2025-05-13T07:11:43Z,2025-05-13T08:43:25+00:00,1,1.53,True,18,4,2,47,0,1,1,MERGED
+33998,feat(api): set nvim_echo() kind for ext_messages,luukvbaal,2025-05-13T05:54:12Z,2025-05-27T11:01:10+00:00,2,341.12,True,29,2,8,159,0,0,0,MERGED
+33994,"vim-patch:37045b5,9.1.1384 && fix(tutor): `l:lang` is undefined",brianhuster,2025-05-12T21:48:01Z,2025-05-13T02:07:51+00:00,5,4.33,True,61,25,5,867,2,1,3,MERGED
+33992,vim-patch:9.1.1385: inefficient loop for 'nosmoothscroll' scrolling,luukvbaal,2025-05-12T18:56:59Z,2025-05-13T06:39:34+00:00,2,11.71,True,18,4,2,230,1,1,2,MERGED
+33982,fix(diagnostic): accept multiple namespaces when setting loclist/qflist,MariaSolOs,2025-05-12T01:55:30Z,2025-05-13T00:13:26+00:00,2,22.3,True,28,8,3,13,0,1,1,MERGED
+33981,feat(diagnostic): add `enabled` filter,MariaSolOs,2025-05-12T01:36:47Z,2025-05-14T02:32:00+00:00,5,48.92,True,46,0,4,13,0,1,1,MERGED
+33979,fix(folds): adjust filler text drawing for transparent folds,seandewar,2025-05-11T22:12:32Z,2025-05-27T07:54:59+00:00,1,369.71,True,196,2,2,557,1,0,1,MERGED
+33977,feat(diagnostic): add `format` option to `setloclist`/`setqflist`,MariaSolOs,2025-05-11T20:45:47Z,2025-05-13T00:50:37+00:00,2,28.08,True,78,1,4,13,0,0,0,MERGED
+33976,feat(lsp): add `LspLog` command,MariaSolOs,2025-05-11T20:24:42Z,2025-05-11T22:07:28+00:00,1,1.71,False,6,0,2,14,2,1,3,CLOSED
+33972,feat(lsp): support `textDocument/inlineCompletion`,ofseed,2025-05-11T16:20:34Z,2025-08-25T02:17:34+00:00,70,2529.95,True,840,12,14,1076,13,34,47,MERGED
+33970,vim-patch:9.1.1380: 'eventignorewin' only checked for current buffer,seandewar,2025-05-11T14:59:40Z,2025-05-11T16:12:54+00:00,1,1.22,True,82,5,2,484,1,0,1,MERGED
+33964,feat(lua): add minimal vim.net.download wrapper using curl,tampueroc,2025-05-11T09:43:27Z,2025-06-24T08:49:01+00:00,11,1055.09,False,245,0,6,1601,18,9,27,CLOSED
+33958,"feat(extui): show ""g<"" hint when message spills 'cmdheight'",luukvbaal,2025-05-11T08:00:48Z,2025-05-13T06:45:08+00:00,1,46.74,True,36,28,1,918,9,1,10,MERGED
+33955,fix(vim.system): clear_env = true gives an invalid env to uv.spawn,BirdeeHub,2025-05-11T05:52:54Z,2025-06-25T22:15:20+00:00,4,1096.37,True,24,6,2,496,9,2,11,MERGED
+33953,"feat(excmd): add "":restart"" command",sathya-pramodh,2025-05-10T21:21:10Z,2025-06-02T12:54:17+00:00,50,543.55,True,206,6,7,311,9,17,26,MERGED
+33947,fix(netrw): use vim.ui.open when pressing x,saccarosium,2025-05-10T16:55:30Z,2025-05-22T07:38:55+00:00,2,278.72,False,1,2,1,281,0,1,1,CLOSED
+33943,"vim-patch:9.1.{1375,1376}: quickfix dummy buffer fixes",seandewar,2025-05-10T15:32:35Z,2025-05-11T14:31:37+00:00,1,22.98,True,63,11,2,6,1,0,1,MERGED
+33937,feat(search): increase `MAX_COUNT` to 999,clason,2025-05-10T10:29:37Z,2025-05-24T08:55:43+00:00,8,334.44,True,54,40,8,179,6,1,7,MERGED
+33933,docs(diagnostic): add `on_jump` example,MariaSolOs,2025-05-10T01:58:29Z,2025-05-14T02:39:05+00:00,4,96.68,True,22,0,1,22,1,2,3,MERGED
+33905,fix(lsp): nil error in ColorScheme autocmd,seandewar,2025-05-08T08:32:03Z,2025-05-08T16:41:49+00:00,1,8.16,True,1,1,1,334,0,0,0,MERGED
+33903,refactor(lsp): deprecate vim.lsp.util._refresh(),ofseed,2025-05-08T08:08:02Z,2025-07-13T05:00:10+00:00,7,1580.87,True,39,75,3,532,1,5,6,MERGED
+33901,fix(lsp): avoid `foldclose()` after the buffer in the window has changed,ofseed,2025-05-08T06:32:44Z,2025-05-22T10:16:28+00:00,2,339.73,True,4,1,1,158,0,1,1,MERGED
+33900,feat(diagnostic): expose render functions,MariaSolOs,2025-05-08T02:03:32Z,2025-05-08T16:37:57+00:00,1,14.57,False,84,34,2,160,2,4,6,CLOSED
+33889,feat(exrc): search in parent directories,yochem,2025-05-07T15:40:48Z,2025-05-11T16:00:52+00:00,4,96.33,True,72,12,7,413,6,1,7,MERGED
+33886,feat(logs): show full paths in lsp logs,anakin4747,2025-05-07T12:30:56Z,2025-05-17T16:57:23+00:00,5,244.44,True,2,2,1,957,7,1,8,MERGED
+33885,fix(extui): route interactive messages to more-window,luukvbaal,2025-05-07T12:22:33Z,2025-05-09T10:17:26+00:00,1,45.91,True,40,19,6,484,10,1,11,MERGED
+33877,fix(ui): prevent message box from shrinking on virt-text updates,moguls753,2025-05-06T19:39:05Z,2025-05-07T06:48:15+00:00,1,11.15,False,4,1,1,242,1,1,2,CLOSED
+33874,"fix(messages): ""list_cmd"" kind for mark commands",luukvbaal,2025-05-06T15:26:02Z,2025-05-07T01:23:38+00:00,1,9.96,True,3,0,1,104,1,0,1,MERGED
+33872,docs(luv): replace bundled LuaCATS meta files with upstream,clason,2025-05-06T14:03:24Z,2025-05-06T16:47:33+00:00,3,2.74,True,4461,4831,29,176,0,1,1,MERGED
+33868,fix(termkey): fix out-of-bounds write in array,gcrtnst,2025-05-06T10:13:45Z,2025-05-06T12:20:03+00:00,1,2.1,True,1,1,1,541,1,0,1,MERGED
+33867,fix(runtime): 'includeexpr' with non-Nvim-style Lua modules,brianhuster,2025-05-06T07:51:17Z,2025-05-06T12:15:31+00:00,1,4.4,True,23,9,2,13,2,1,3,MERGED
+33860,"fix(extui): close cmdwin to enter ""more"" window",luukvbaal,2025-05-05T14:07:09Z,2025-05-09T21:54:39+00:00,5,103.79,True,20,11,1,312,2,6,8,MERGED
+33855,fix(messages): list_cmd kind for buffer line messages,luukvbaal,2025-05-05T07:36:51Z,2025-05-05T12:04:10+00:00,1,4.46,True,34,13,3,209,0,0,0,MERGED
+33850,feat(diagnostic): add `on_jump` callback option,MariaSolOs,2025-05-04T22:19:43Z,2025-05-08T16:42:24+00:00,7,90.38,True,44,22,4,123,1,3,4,MERGED
+33847,refactor(lua): switch value arguments in `tbl_extend` behavior function,MariaSolOs,2025-05-04T19:58:48Z,2025-05-04T21:28:03+00:00,1,1.49,True,19,19,3,229,0,0,0,MERGED
+33842,fix(treesitter): eliminate flicker for single windows,ribru17,2025-05-04T16:00:22Z,2025-05-06T02:05:16+00:00,3,34.08,True,29,10,1,513,3,2,5,MERGED
+33837,fix(build): use correct cmake expression for $<CONFIG>,bfredl,2025-05-04T08:01:39Z,2025-05-04T17:35:07+00:00,1,9.56,True,7,18,3,270,0,0,0,MERGED
+33834,fix(lsp): only auto-detach lsp.config clients,glepnir,2025-05-04T01:32:37Z,2025-05-04T13:07:12+00:00,1,11.58,True,1,1,1,218,1,0,1,MERGED
+33831,"fix(extui): hide inactive ""more"" window",luukvbaal,2025-05-03T23:13:48Z,2025-05-04T11:39:07+00:00,1,12.42,True,15,7,2,200,0,0,0,MERGED
+33820,vim-patch:9.1.1361: [security]: possible use-after-free when closing a buffer,seandewar,2025-05-03T17:49:04Z,2025-05-04T02:15:52+00:00,2,8.45,True,56,16,7,530,1,0,1,MERGED
+33819,feat(lua): allow function `behavior` for `vim.tbl_extend`/`vim.tbl_deep_extend`,MariaSolOs,2025-05-03T17:35:09Z,2025-05-03T21:53:44+00:00,7,4.31,True,57,9,4,27,2,1,3,MERGED
+33812,fix(lsp): improve error notification formatting on completion,glepnir,2025-05-03T12:55:14Z,2025-05-04T13:40:36+00:00,3,24.76,True,7,2,1,336,1,3,4,MERGED
+33811,docs: fix some treesitter parse issues,clason,2025-05-03T11:17:04Z,2025-05-03T17:08:53+00:00,7,5.86,True,32,52,29,173,4,3,7,MERGED
+33810,"fix(window): skip unfocusable and hidden floats with ""{count}<C-W>w""",seandewar,2025-05-03T10:34:38Z,2025-05-03T18:30:24+00:00,3,7.93,True,72,9,3,572,5,1,6,MERGED
+33800,feat(lsp): support `documentColor` dynamic registration,MariaSolOs,2025-05-03T01:59:56Z,2025-05-04T14:00:21+00:00,11,36.01,True,73,27,5,231,0,1,1,MERGED
+33796,fix(lsp): check if client is stopping before reusing,moguls753,2025-05-02T21:44:12Z,2025-05-04T21:38:01+00:00,21,47.9,True,26,5,3,382,3,9,12,MERGED
+33792,fix(extui): only use custom highlight namespace in cmdline window,luukvbaal,2025-05-02T19:29:09Z,2025-05-03T19:30:08+00:00,1,24.02,True,6,1,2,119,0,1,1,MERGED
+33789,"feat(messages): drop ""Error executing"" in error messages",justinmk,2025-05-02T17:27:20Z,2025-05-04T15:53:29+00:00,1,46.44,True,317,398,42,854,0,1,1,MERGED
+33788,fix(treesitter): close `:InspectTree` with `q`,clason,2025-05-02T17:17:48Z,2025-05-02T19:39:12+00:00,2,2.36,True,2,0,1,161,1,0,1,MERGED
+33784,fix(extui): close message window with `q`,clason,2025-05-02T15:45:48Z,2025-05-02T17:09:56+00:00,3,1.4,True,2,2,1,146,9,1,10,MERGED
+33782,fix(lsp): improper diagnostic end_col computation,ribru17,2025-05-02T15:29:03Z,2025-05-03T08:01:21+00:00,2,16.54,True,36,2,2,231,1,1,2,MERGED
+33774,"fix(extui): cmdline visibility, cmdheight cursor position",luukvbaal,2025-05-02T12:37:52Z,2025-05-02T17:46:30+00:00,1,5.14,True,13,8,3,460,3,0,3,MERGED
+33772,feat(option): add support for custom characters in winborder option,glepnir,2025-05-02T10:26:36Z,2025-07-10T01:15:08+00:00,5,1646.81,True,100,12,8,298,1,4,5,MERGED
+33764,fix(runtime): conceal paths in help and man table of contents loclist,micampe,2025-05-02T06:05:13Z,2025-05-03T14:06:22+00:00,1,32.02,True,6,0,2,517,1,0,1,MERGED
+33762,fix(vim.lsp.enable): shouldn't run LSP configs on startup,brianhuster,2025-05-02T03:23:05Z,2025-05-02T09:05:18+00:00,4,5.7,True,3,1,1,347,2,1,3,MERGED
+33760,fix(lsp): use `bufnr` when getting clients in `symbols_to_items`,MariaSolOs,2025-05-02T01:20:17Z,2025-05-02T19:30:02+00:00,1,18.16,True,1,1,1,12,2,0,2,MERGED
+33759,fix(tui): forward C0 control codes literally,zeertzjq,2025-05-02T00:45:15Z,2025-05-02T09:40:24+00:00,2,8.92,True,37,5,4,201,7,0,7,MERGED
+33753,fix(grid): don't scroll on an invalid grid,bfredl,2025-05-01T19:11:25Z,2025-05-05T09:20:14+00:00,1,86.15,True,12,7,1,0,2,1,3,MERGED
+33751,"vim-patch:9.1.1357,83cb817",brianhuster,2025-05-01T16:51:14Z,2025-05-01T23:05:23+00:00,1,6.24,True,22,4,3,820,1,0,1,MERGED
+33746,fix(lsp): handle `nil` buffer state in `documentColor` clear,MariaSolOs,2025-05-01T14:21:58Z,2025-05-01T17:15:32+00:00,1,2.89,True,5,1,1,12,0,0,0,MERGED
+33745,refactor: move StringBuilder to types_defs.h,gpanders,2025-05-01T12:51:50Z,2025-05-01T15:06:08+00:00,2,2.24,True,6,10,8,51,0,1,1,MERGED
+33727,"fix(ui): correct condition for ""wrap"" flag in a floating grid",bfredl,2025-04-30T10:30:26Z,2025-04-30T11:56:33+00:00,1,1.44,True,167,3,3,160,0,0,0,MERGED
+33723,feat(statusline): add buffer diagnostics count,antonk52,2025-04-29T23:23:36Z,2025-07-30T01:53:57+00:00,27,2186.51,True,145,12,9,540,35,17,52,MERGED
+33721,fix(terminal): remove condition that buf is curbuf,gpanders,2025-04-29T14:40:17Z,2025-04-29T21:35:27+00:00,4,6.92,True,28,19,2,0,1,1,2,MERGED
+33720,feat(terminal): parse current buffer contents in nvim_open_term(),gpanders,2025-04-29T14:32:30Z,2025-04-30T21:34:23+00:00,7,31.03,True,100,46,9,100,3,5,8,MERGED
+33717,fix(display): adjust setting winline info for concealed lines,luukvbaal,2025-04-29T10:48:05Z,2025-05-01T07:51:51+00:00,3,45.06,True,44,41,4,292,3,1,4,MERGED
+33715,fix(vim.system): improve error message when cwd does not exist,lewis6991,2025-04-29T09:49:39Z,2025-05-29T12:59:33+00:00,8,723.16,True,13,2,2,223,1,3,4,MERGED
+33710,fix(tui): don't process UI events when suspending or stopping,zeertzjq,2025-04-29T08:28:37Z,2025-04-29T09:37:54+00:00,1,1.15,True,2,2,2,212,1,0,1,MERGED
+33707,feat(lsp): automatically stop LSP clients when filetype changes,jfly,2025-04-29T04:03:28Z,2025-05-03T21:57:59+00:00,2,113.91,True,61,0,2,17,7,2,9,MERGED
+33706,docs: default mappings,brianhuster,2025-04-29T03:36:51Z,2025-05-03T22:48:00+00:00,3,115.19,True,110,29,6,534,5,1,6,MERGED
+33703,feat(lsp): vim.lsp.is_enabled(),jfly,2025-04-29T02:01:41Z,2025-05-03T17:25:59+00:00,8,111.41,True,41,0,4,182,7,4,11,MERGED
+33702,Start and stop LSPs as necessary during `vim.lsp.enable`,jfly,2025-04-29T01:37:56Z,2025-04-30T23:57:29+00:00,15,46.33,True,82,10,2,358,1,3,4,MERGED
+33693,feat(ui): no delay for errors with ext_messages,luukvbaal,2025-04-28T12:50:10Z,2025-04-29T13:45:41+00:00,3,24.93,True,18,16,8,281,3,1,4,MERGED
+33692,fix(lsp): Don't show clients with empty content in hover,joshbode,2025-04-28T11:07:02Z,2025-05-03T16:38:09+00:00,4,125.52,False,6,1,1,368,4,2,6,CLOSED
+33687,"docs: news, intro, lsp, api",justinmk,2025-04-27T23:41:11Z,2025-06-01T21:13:51+00:00,1,837.54,True,175,154,10,0,2,1,3,MERGED
+33675,fix(lua): vim.validate `message` param,justinmk,2025-04-27T15:31:16Z,2025-05-04T23:36:32+00:00,1,176.09,True,28,15,4,85,1,1,2,MERGED
+33667,"vim-patch: 9.1.{1341,1344}",glepnir,2025-04-27T07:07:10Z,2025-04-29T06:59:32+00:00,17,47.87,True,427,1,16,1504,3,24,27,MERGED
+33662,docs(tutor): Move lesson 7.2 (create init.vim) to below lesson 7.3 (Cmdline-completion),brianhuster,2025-04-27T03:44:27Z,2025-05-21T09:26:57+00:00,2,581.71,True,58,49,3,645,11,2,13,MERGED
+33660,fix(lsp): access correct client capability in `supports_registration`,MariaSolOs,2025-04-27T01:37:21Z,2025-04-27T11:34:05+00:00,3,9.95,True,104,5,3,337,1,1,2,MERGED
+33657,refactor(lsp): use `opts.handler` from `_refresh` instead of public `inlay_hint` handler,MariaSolOs,2025-04-26T20:33:17Z,2025-07-04T20:58:39+00:00,1,1656.42,False,11,16,2,70,1,0,1,CLOSED
+33656,fix(lsp): properly handle `documentColor` from multiple servers,MariaSolOs,2025-04-26T20:08:17Z,2025-04-27T16:58:10+00:00,5,20.83,True,29,21,1,12,3,1,4,MERGED
+33648,fix(health): checkhealth float opens extra empty buffer,AThePeanut4,2025-04-26T14:08:32Z,2025-04-26T16:10:07+00:00,1,2.03,True,5,3,1,273,1,0,1,MERGED
+33642,fix(lsp): cycling signatures with the default `config.focusable`,ofseed,2025-04-26T06:24:36Z,2025-04-26T13:30:23+00:00,4,7.1,True,14,7,1,424,7,1,8,MERGED
+33637,vim-patch:35cfc3d: runtime(debversions): Add questing (25.10) as Ubuntu release name,clason,2025-04-25T17:36:01Z,2025-04-26T08:43:12+00:00,1,15.12,True,2,2,1,87,0,0,0,MERGED
+33629,fix(lsp): documentColor from multiple servers,bennypowers,2025-04-25T06:58:49Z,2025-04-27T14:47:59+00:00,1,55.82,False,44,13,1,0,6,1,7,CLOSED
+33624,fix(lsp): detect if Client:request resolved synchronously,PolyMeilex,2025-04-25T03:38:19Z,2025-04-26T14:08:03+00:00,12,34.5,True,73,2,2,515,3,5,8,MERGED
+33617,fix(trust): better support for trusting directories,jfly,2025-04-25T00:55:20Z,2025-04-30T11:20:39+00:00,18,130.42,True,213,31,4,862,6,11,17,MERGED
+33609,"fix(ui): exclude unfocusable windows from 'complete' ""w"" completion",luukvbaal,2025-04-24T14:11:02Z,2025-04-25T15:45:57+00:00,2,25.58,True,27,4,3,209,2,1,3,MERGED
+33607,fix(messages): clear 'showmode' message after insert_expand,luukvbaal,2025-04-24T11:25:24Z,2025-04-24T19:11:49+00:00,5,7.77,True,19,3,3,159,3,1,4,MERGED
+33605,feat(glob): New Glob Implementation Based on Peglob,brynne8,2025-04-24T09:05:42Z,2025-05-22T07:24:50+00:00,13,670.32,True,454,119,4,4694,19,6,25,MERGED
+33583,vim-patch: update runtime files,clason,2025-04-22T21:25:33Z,2025-04-23T06:37:36+00:00,1,9.2,True,71,15,5,162,1,0,1,MERGED
+33582,fix(snippet): use <cmd>call cursor() for visual range,luukvbaal,2025-04-22T19:50:51Z,2025-04-23T08:58:23+00:00,1,13.13,True,16,16,2,240,2,0,2,MERGED
+33579,feat(lsp.config): allow fields with an opt-out value,lewis6991,2025-04-22T15:23:09Z,2025-04-28T05:57:03+00:00,9,134.56,False,85,57,3,269,9,5,14,CLOSED
+33565,"vim-patch:9.1.{1329,1331,1338}",zeertzjq,2025-04-21T11:43:32Z,2025-04-23T23:34:37+00:00,1,59.85,True,253,2,12,6247,1,0,1,MERGED
+33560,vim-patch:e125ee4: runtime(pov): deprecate `#render` and `#statistics` in syntax script,clason,2025-04-21T08:58:15Z,2025-04-21T10:38:27+00:00,1,1.67,True,4,2,1,418,0,0,0,MERGED
+33555,fix(messages): single msg_show event for multiple :set options,luukvbaal,2025-04-20T21:58:28Z,2025-04-21T14:51:47+00:00,1,16.89,True,22,6,2,142,1,0,1,MERGED
+33554,refactor(lsp): use method type annotations for parameters,MariaSolOs,2025-04-20T21:55:20Z,2025-04-21T09:35:30+00:00,1,11.67,True,7,7,3,20,0,0,0,MERGED
+33551,fix(lsp): ensure initializeOptions is serialized as an object,Tonkpils,2025-04-20T18:15:04Z,2025-04-21T21:22:28+00:00,1,27.12,False,103,1,2,630,2,1,3,CLOSED
+33548,"feat(runtime): revert cfilter, ccomplete to legacy Vim",clason,2025-04-20T09:56:11Z,2025-04-22T09:03:06+00:00,2,47.12,True,706,1700,8,576,1,1,2,MERGED
+33547,fix(gen_vimdoc): unnecessary assert for non-source files,luukvbaal,2025-04-20T09:15:07Z,2025-04-21T08:15:33+00:00,2,23.01,True,7,5,1,130,4,1,5,MERGED
+33546,feat(ui): avoid setting 'cmdheight' with vim.ui_attach(),luukvbaal,2025-04-19T23:19:10Z,2025-04-21T13:38:23+00:00,3,38.32,True,44,27,6,407,0,2,2,MERGED
+33542,Shada saving improvements,AThePeanut4,2025-04-19T16:00:00Z,2025-04-27T23:15:30+00:00,8,199.26,True,204,46,6,1669,5,7,12,MERGED
+33536,fix(api): nvim_parse_cmd don't put key 'range' when ea.addr_count == 0,acehinnnqru,2025-04-19T06:12:56Z,2025-04-23T14:56:18+00:00,2,104.72,True,6,12,2,241,7,2,9,MERGED
+33531,vim-patch:9.1.1322: small delete register cannot paste multi-line correctly,phanen,2025-04-18T16:42:43Z,2025-04-19T00:01:51+00:00,1,7.32,True,15,6,2,298,0,0,0,MERGED
+33530,vim-patch:9.1.1321: filetype: MS ixx and mpp files are not recognized,clason,2025-04-18T16:38:02Z,2025-04-19T08:52:12+00:00,2,16.24,True,10,2,2,226,0,1,1,MERGED
+33527,"vim-patch:9.1.1319: Various typos in the code, issue with test_inst_complete.vim",zeertzjq,2025-04-18T09:05:40Z,2025-04-18T23:23:20+00:00,1,14.29,True,6,6,4,397,0,0,0,MERGED
+33524,docs: make it more beginner-friendly,brianhuster,2025-04-18T03:28:41Z,2025-04-27T15:11:02+00:00,11,227.71,True,104,5,5,564,6,7,13,MERGED
+33519,"vim-patch:9.1.{1314,1318}: max allowed string width too small",zeertzjq,2025-04-17T22:50:57Z,2025-04-18T23:22:40+00:00,1,24.53,True,13,10,5,559,1,0,1,MERGED
+33517,"fix(diagnostic): allow virtual_{lines,text} cursor exclusivity",mwcz,2025-04-17T21:17:44Z,2025-05-01T10:54:40+00:00,6,325.62,True,37,23,3,923,7,2,9,MERGED
+33510,refactor(lsp): gen_lsp,lewis6991,2025-04-17T10:52:34Z,2025-04-17T14:44:47+00:00,2,3.87,True,249,293,3,187,0,1,1,MERGED
+33509,feat(lsp): use stricter types for methods,lewis6991,2025-04-17T09:24:44Z,2025-04-17T10:40:46+00:00,2,1.27,True,103,103,8,408,0,1,1,MERGED
+33502,"fix(coverity/530026,530028): free resources on early exit in nlua_exec_file",ntpoppe,2025-04-16T19:59:32Z,2025-04-21T15:43:38+00:00,9,115.73,True,4,0,1,137,0,2,2,MERGED
+33501,vim-patch: update runtime files,clason,2025-04-16T18:06:04Z,2025-04-17T07:25:42+00:00,1,13.33,True,127,8,17,180,0,0,0,MERGED
+33494,fix(mouse): do not fetch clipboard twice when pasting with middle button,dtor,2025-04-16T08:56:34Z,2025-04-16T10:08:42+00:00,1,1.2,True,23,12,3,742,2,0,2,MERGED
+33485,feat(lsp): `root_markers` can control priority,TheRealLorenz,2025-04-15T14:47:25Z,2025-04-30T13:43:32+00:00,34,358.94,True,155,10,4,1731,25,22,47,MERGED
+33481,refactor(ui): separate types for allocated grids and viewports ,bfredl,2025-04-15T11:21:42Z,2025-04-28T10:07:54+00:00,5,310.77,True,427,438,34,84,0,4,4,MERGED
+33476,fix(lsp): jump to the target win when opts.reuse_win is true,acehinnnqru,2025-04-15T05:28:49Z,2025-04-17T14:46:18+00:00,3,57.29,True,20,3,2,13,7,1,8,MERGED
+33455,fix(vim.system): unclear non-executable message,justinmk,2025-04-13T22:14:53Z,2025-04-16T12:06:39+00:00,4,61.86,True,8,1,2,502,1,2,3,MERGED
+33453,vim-patch:9.1.1297: Ctrl-D scrolling can get stuck,luukvbaal,2025-04-13T21:26:07Z,2025-04-14T11:10:36+00:00,2,13.74,True,20,0,2,283,2,0,2,MERGED
+33449,vim-patch:829eda7: runtime(new-tutor): update tutor and correct comandline completion,brianhuster,2025-04-13T18:08:42Z,2025-04-15T07:11:17+00:00,2,37.04,True,30,13,3,232,3,1,4,MERGED
+33448,vim-patch:9.1.1299: filetype: mbsyncrc files are not recognized,clason,2025-04-13T16:47:17Z,2025-04-14T07:47:56+00:00,2,15.01,True,241,2,5,732,0,0,0,MERGED
+33446,"docs: lsp, emoji, startup",justinmk,2025-04-13T13:04:09Z,2025-04-27T20:40:46+00:00,7,343.61,True,225,124,17,10,1,7,8,MERGED
+33440,feat(lsp): support `textDocument/documentColor`,MariaSolOs,2025-04-12T20:56:30Z,2025-04-24T16:48:19+00:00,72,283.86,True,617,2,8,267,5,43,48,MERGED
+33437,fix(treesitter): clear parse options state,ribru17,2025-04-12T18:43:25Z,2025-04-12T22:51:30+00:00,1,4.13,True,2,1,1,482,2,0,2,MERGED
+33429,feat(messages): add hl-StderrMsg and hl-StdoutMsg,sathya-pramodh,2025-04-11T12:09:35Z,2025-05-02T13:06:56+00:00,4,504.96,True,22,12,9,353,2,1,3,MERGED
+33427,fix(lsp): completely clear all hints after being requested,ofseed,2025-04-11T11:39:07Z,2025-04-11T14:40:39+00:00,1,3.03,False,6,2,1,542,3,0,3,CLOSED
+33409,fix(man.lua): provide better error message when failing to execute man,11soda11,2025-04-09T22:13:14Z,2025-04-12T17:54:21+00:00,17,67.69,True,11,2,2,166,3,7,10,MERGED
+33407,vim-patch:f9f53f5: runtime(remind): include remind.vim ftplugin,clason,2025-04-09T17:59:17Z,2025-04-10T07:12:57+00:00,1,13.23,True,14,0,1,91,0,0,0,MERGED
+33398,vim-patch:0b540c6: runtime(help): add omni completion and 'iskeyword' to filetype plugin,brianhuster,2025-04-09T04:35:08Z,2025-04-09T23:36:30+00:00,8,19.02,True,31,5,3,768,3,3,6,MERGED
+33395,fix: add bold border size to vim.lsp.buf.hover,siddhantdev,2025-04-08T20:49:54Z,2025-04-09T11:15:33+00:00,3,14.43,True,1,0,1,152,2,1,3,MERGED
+33389,fix(marks): wrong display after inserting/deleting lines,luukvbaal,2025-04-08T13:21:28Z,2025-04-11T11:36:50+00:00,16,70.26,True,96,28,2,606,2,5,7,MERGED
+33388,feat(health): summary report in section header,yochem,2025-04-08T13:17:31Z,2025-04-09T11:13:20+00:00,12,21.93,True,44,22,3,916,13,6,19,MERGED
+33384,docs: fix directory path for spell files on Windows,RIscRIpt,2025-04-08T08:40:44Z,2025-04-12T10:32:13+00:00,1,97.86,False,1,1,1,261,2,1,3,CLOSED
+33383,"vim-patch:9.1.{1262,1284,1296,1306,1309}",zeertzjq,2025-04-08T06:38:17Z,2025-04-16T23:05:20+00:00,1,208.45,True,566,135,10,1672,0,1,1,MERGED
+33375,feat(meta): vendor luv meta files,clason,2025-04-07T17:06:53Z,2025-04-10T07:13:14+00:00,2,62.11,True,4826,3,25,573,9,1,10,MERGED
+33374,fix(display): scroll redrawing doesn't account for virt_lines above fold,luukvbaal,2025-04-07T16:09:50Z,2025-04-08T12:47:19+00:00,1,20.62,True,7,15,2,215,1,1,2,MERGED
+33371,feat(prompt): multiline prompt input,shadmansaleh,2025-04-07T13:51:57Z,2025-06-17T15:46:57+00:00,29,1705.92,True,410,40,13,2803,28,14,42,MERGED
+33370,feat: introduce new api.nvim_buf_del,acehinnnqru,2025-04-07T13:24:45Z,2025-04-10T02:45:59+00:00,3,61.35,False,235,0,6,581,3,2,5,CLOSED
+33357,vim-patch: update runtime files,clason,2025-04-06T15:31:47Z,2025-04-07T08:19:01+00:00,2,16.79,True,53,20,3,24,0,0,0,MERGED
+33342,refactor(lsp): deprecate client_is_stopped,justinmk,2025-04-05T23:03:51Z,2025-04-06T02:13:14+00:00,1,3.16,True,4,10,3,152,1,0,1,MERGED
+33339,fix(editor): respect [+cmd] when executing :drop,jyn514,2025-04-05T22:24:54Z,2025-04-08T12:54:33+00:00,1,62.49,True,56,14,3,12,1,0,1,MERGED
+33331,fix(vim.hl): nvim_buf_del_extmark on invalid buffer,phanen,2025-04-05T15:43:28Z,2025-04-05T22:56:41+00:00,1,7.22,True,4,0,2,322,1,1,2,MERGED
+33324,fix(vim.version): vim.VersionRange:has() with prerelease,brianhuster,2025-04-05T03:15:42Z,2025-04-11T10:15:18+00:00,7,150.99,True,16,8,3,243,9,5,14,MERGED
+33312,fix(health): correct check for inotify,FelipeLema,2025-04-04T14:10:14Z,2025-04-07T09:13:05+00:00,1,67.05,True,2,2,1,165,2,1,3,MERGED
+33288,build(deps): check for `pthread_getname_np` symbol before bundling libuv,whouishere,2025-04-03T11:55:00Z,2025-05-22T02:12:13+00:00,1,1166.29,False,8,1,1,347,4,1,5,CLOSED
+33283,feat(vim.hl): allow multiple timed highlights simultaneously,siddhantdev,2025-04-03T06:20:37Z,2025-04-03T14:26:56+00:00,3,8.11,True,113,26,4,349,1,2,3,MERGED
+33282,"vim-patch:9.1.{1269,1272}",glepnir,2025-04-03T06:14:52Z,2025-04-04T06:13:51+00:00,2,23.98,True,16,2,2,680,6,0,6,MERGED
+33280,test(lua/secure_spec): fix failure with long path,zeertzjq,2025-04-02T23:04:55Z,2025-04-03T13:32:18+00:00,1,14.46,True,67,97,1,10,1,0,1,MERGED
+33274,"refactor(tests): lint float_spec, etc.",justinmk,2025-04-02T11:59:50Z,2025-05-07T01:00:20+00:00,6,829.01,True,6019,3800,8,226,1,3,4,MERGED
+33272,fix: bug in stylize_markdown,lewis6991,2025-04-02T10:24:48Z,2025-04-04T13:33:50+00:00,5,51.15,True,8,17,1,133,5,1,6,MERGED
+33271,feat: deprecate vim.lsp.util.stylize_markdown,lewis6991,2025-04-02T10:03:51Z,2025-04-04T13:34:33+00:00,7,51.51,True,5,28,4,23,4,1,5,MERGED
+33258,fix(events): don't exit on SIGTSTP,phanen,2025-04-01T16:35:45Z,2025-04-02T15:12:20+00:00,19,22.61,True,7,2,2,141,11,4,15,MERGED
+33242,feat: emacs-lisp,altermo,2025-04-01T05:28:44Z,2025-04-02T07:04:33+00:00,1,25.6,False,24487,0,57,1218,13,0,13,CLOSED
+33235,feat(clipboard): support string shortcuts for all builtin clipboard providers,deveshidwivedi,2025-03-31T19:56:37Z,2025-04-03T13:14:08+00:00,4,65.29,True,167,71,3,189,2,2,4,MERGED
+33230,docs: lua-module-load,brianhuster,2025-03-31T16:29:28Z,2025-04-02T13:00:17+00:00,3,44.51,False,0,11,1,490,1,1,2,CLOSED
+33229,"fix(lsp): better handling of ""*"" configs",lewis6991,2025-03-31T16:01:24Z,2025-04-01T12:54:47+00:00,2,20.89,True,54,5,2,421,0,0,0,MERGED
+33228,fix(api): `nvim_set_keymap` throws error even when called in `pcall`,tstsrt,2025-03-31T14:26:04Z,2025-04-01T12:30:01+00:00,11,22.07,True,62,14,2,301,1,3,4,MERGED
+33227,docs: remove duplicate news file,zeertzjq,2025-03-31T14:14:58Z,2025-03-31T15:16:51+00:00,1,1.03,True,1,502,2,0,0,0,0,MERGED
+33223,"docs: clipboard, eval",justinmk,2025-03-31T13:56:25Z,2025-04-05T13:01:40+00:00,10,119.09,True,144,151,8,0,2,3,5,MERGED
+33218,"fix(display): wrong cursor column with 'concealcursor' = ""n"" and virt_text",luukvbaal,2025-03-31T11:14:14Z,2025-04-01T05:56:36+00:00,1,18.71,True,29,1,2,208,1,0,1,MERGED
+33217,fix(defaults): enable term-buffer ]] motion for operator-pending mode ,glacambre,2025-03-31T10:45:14Z,2025-03-31T13:22:22+00:00,1,2.62,True,2,2,1,50,2,0,2,MERGED
+33215,"fix(lsp): better handling of ""*"" configs",lewis6991,2025-03-31T10:29:18Z,2025-03-31T15:42:25+00:00,1,5.22,True,54,5,2,384,1,0,1,MERGED
+33211,fix(move): adjust for concealed lines above topline after scrolling up,luukvbaal,2025-03-31T08:58:49Z,2025-04-01T05:56:17+00:00,1,20.96,True,16,1,2,225,1,0,1,MERGED
+33201,"fix(defaults): visual-mode [[,]] for :terminal shell prompts",msaher,2025-03-30T17:37:13Z,2025-03-30T19:33:37+00:00,2,1.94,True,2,2,1,0,1,2,3,MERGED
+33198,fix(treesitter): fix `:InspectTree` incorrect injections,yuukibarns,2025-03-30T15:08:43Z,2025-04-16T14:03:28+00:00,3,406.91,True,13,7,1,49,11,1,12,MERGED
+33191,feat(build): ignore out-of-source build folder,yegorich,2025-03-30T12:49:28Z,2025-03-30T20:37:42+00:00,3,7.8,True,5,1,2,296,5,1,6,MERGED
+33189,feat(float): add bold style for border,glepnir,2025-03-30T11:44:45Z,2025-03-31T13:39:50+00:00,13,25.92,True,31,495,6,75,2,7,9,MERGED
+33183,docs: misc,brianhuster,2025-03-30T10:30:49Z,2025-03-30T15:18:23+00:00,8,4.79,True,22,71,6,161,2,3,5,MERGED
+33181,fix(terminal): emit Termrequest for all recognized osc sequence,phanen,2025-03-30T08:38:54Z,2025-03-30T21:08:01+00:00,2,12.49,True,8,10,1,124,0,0,0,MERGED
+33175,fix(checkhealth): check for outdated pynvim version properly,zeertzjq,2025-03-30T01:27:28Z,2025-03-30T14:02:59+00:00,1,12.59,True,1,1,1,53,1,0,1,MERGED
+33170,docs(lsp): `vim.api.buf_request_sync` can also take function as `params`,tigh-latte,2025-03-29T20:08:51Z,2025-03-30T15:51:49+00:00,11,19.72,True,7,2,2,310,2,1,3,MERGED
+33159,fix(api): use E226 instead of E227 for duplicate abbreviation,zeertzjq,2025-03-29T13:38:52Z,2025-03-29T23:12:02+00:00,1,9.55,True,9,1,2,0,1,0,1,MERGED
+33152,vim-patch: update runtime files,clason,2025-03-29T08:30:34Z,2025-03-29T13:29:26+00:00,1,4.98,True,119,105,3,143,0,0,0,MERGED
+33141,refactor(treesitter): migrate to ts parser callback API,ribru17,2025-03-28T21:06:59Z,2025-03-29T17:57:22+00:00,3,20.84,True,58,46,3,239,0,1,1,MERGED
+33135,fix(api): use original lhs in keymap error message,gpanders,2025-03-28T17:28:11Z,2025-03-29T13:29:07+00:00,4,20.02,True,8,3,2,536,1,1,2,MERGED
+33122,docs: lsp config/commands,justinmk,2025-03-28T12:41:01Z,2025-03-30T20:29:37+00:00,4,55.81,True,237,176,10,10,0,3,3,MERGED
+33117,Fix a typo,yegorich,2025-03-28T11:07:18Z,2025-03-28T18:13:14+00:00,3,7.1,False,1,1,1,34,1,2,3,CLOSED
+33104,refactor(treesitter): simplify injection retrieval,ribru17,2025-03-28T00:42:04Z,2025-03-28T11:38:47+00:00,1,10.95,True,44,70,2,325,0,0,0,MERGED
+33093,docs: misc,dundargoc,2025-03-27T18:31:24Z,2025-04-12T23:41:54+00:00,4,389.18,True,19,21,8,10,0,2,2,MERGED
+33091,fix: mouse click on win-separator in statusline crashes neovim,shadmansaleh,2025-03-27T16:54:25Z,2025-03-28T07:09:03+00:00,5,14.24,True,21,2,2,190,1,4,5,MERGED
+33087,fix(lsp): warn on missing configurations in `:checkhealth`,mehalter,2025-03-27T14:07:11Z,2025-03-28T12:46:10+00:00,6,22.65,True,24,18,1,433,7,2,9,MERGED
+33085,refactor(eval): move diff functions to diff.c,zeertzjq,2025-03-27T12:08:33Z,2025-03-27T13:35:20+00:00,1,1.45,True,59,58,3,89,0,0,0,MERGED
+33078,vim-patch:51a06ec: runtime(sh): consider sh as POSIX shell by default,zeertzjq,2025-03-27T01:09:40Z,2025-03-27T03:22:23+00:00,1,2.21,True,48,48,2,278,0,0,0,MERGED
+33077,docs: fix grammar in MAINTAIN.md,jamestrew,2025-03-27T01:05:44Z,2025-03-27T18:32:57+00:00,3,17.45,False,1,1,1,0,1,1,2,CLOSED
+33068,fix(man.lua): E95 when raw manpage content is piped into :Man,JTBett,2025-03-26T15:18:28Z,2025-04-15T13:27:52+00:00,10,478.16,True,33,2,2,1115,5,5,10,MERGED
+33062,Release 0.11,justinmk,2025-03-26T12:57:28Z,2025-03-26T14:10:00+00:00,1,1.21,True,13,8,6,0,6,0,6,MERGED
+33048,feat(defaults): store spellfile in stdpath('data'),yochem,2025-03-24T21:15:29Z,2025-04-04T12:21:57+00:00,11,255.11,True,76,59,8,199,5,8,13,MERGED
+33045,fix(mswin): UI may hang on exit,justinmk,2025-03-24T17:27:44Z,2025-03-25T14:14:29+00:00,1,20.78,True,11,0,1,223,0,1,1,MERGED
+33044,fix: no omni/cmdline completion for Lua's `vim.env`,brianhuster,2025-03-24T17:01:27Z,2025-03-25T23:35:13+00:00,2,30.56,True,14,1,2,174,3,0,3,MERGED
+33037,feat(prompt): add multiline support for prompt buffer (WIP) [skip ci],siddhantdev,2025-03-23T18:07:27Z,2025-04-07T06:37:22+00:00,3,348.5,False,39,0,2,753,1,1,2,CLOSED
+33036,refactor: replace C implementation of default statusline with statusline expression,shadmansaleh,2025-03-23T10:34:19Z,2025-04-21T22:05:35+00:00,28,707.52,True,167,151,23,462,21,11,32,MERGED
+33035,vim-patch:9.1.1231: filetype: SPA JSON files are not recognized,clason,2025-03-23T09:40:51Z,2025-03-23T10:47:42+00:00,2,1.11,True,74,0,5,825,0,1,1,MERGED
+33025,fix: set correct '[ mark when pasting chunks,acehinnnqru,2025-03-22T11:24:20Z,2025-03-23T23:10:42+00:00,25,35.77,True,40,1,2,10,1,12,13,MERGED
+33022,"feat(provider/python)!: add python 3.13, drop 3.7 and 3.8 (EOL)",e-kwsm,2025-03-22T03:12:13Z,2025-03-22T14:20:46+00:00,2,11.14,True,1,2,1,37,0,0,0,MERGED
+33021,feat(osc52): provide default OSC52 tool for vim.g.clipboard,andreihh,2025-03-21T22:47:45Z,2025-03-24T12:17:57+00:00,2,61.5,True,19,5,2,373,3,1,4,MERGED
+33016,"fix: considering opts.title as [string,string][] in _make_floating_pop_size",acehinnnqru,2025-03-21T11:53:06Z,2025-03-22T02:43:06+00:00,6,14.83,True,25,5,3,10,1,1,2,MERGED
+33012,feat(defaults): shelltemp=false,616b2f,2025-03-20T18:22:01Z,2025-04-12T15:24:42+00:00,27,549.04,True,137,61,11,567,5,14,19,MERGED
+33007,fix(completion): cmdline completion does not complete items for `_defer_require` module,phanen,2025-03-20T13:55:35Z,2025-03-24T12:14:22+00:00,13,94.31,True,84,17,3,445,3,8,11,MERGED
+33005,fix(log): unify error messages for vim.ui_attach/decor providers,luukvbaal,2025-03-20T12:48:05Z,2025-03-21T10:05:02+00:00,7,21.28,True,97,70,5,308,5,4,9,MERGED
+32990,fix(messages): incorrect error message splitting and kind,luukvbaal,2025-03-19T13:03:26Z,2025-03-19T18:04:08+00:00,1,5.01,True,29,39,9,428,0,0,0,MERGED
+32988,fix(checkhealth): fail to find the module when `&rtp` have nested paths,phanen,2025-03-19T10:19:53Z,2025-03-19T14:48:28+00:00,2,4.48,True,11,7,1,371,2,2,4,MERGED
+32985,feat(lsp.completion): user can control match behavior,glepnir,2025-03-19T09:54:22Z,2025-03-20T09:40:17+00:00,7,23.77,False,15,2,3,129,4,3,7,CLOSED
+32984,fix(api): don't use 'winborder' when reconfiguring float,glepnir,2025-03-19T09:29:42Z,2025-03-19T12:16:21+00:00,9,2.78,True,39,2,3,202,2,4,6,MERGED
+32978,fix(options): fix 'winborder' accepting multiple string values,zeertzjq,2025-03-19T01:10:23Z,2025-03-19T06:17:54+00:00,1,5.13,True,1,11,3,206,0,0,0,MERGED
+32973,fix(marks): ensure decor is removed with proper range,luukvbaal,2025-03-18T19:27:10Z,2025-03-19T10:00:43+00:00,4,14.56,True,33,12,2,294,0,1,1,MERGED
+32971,"fix(runtime): gO always says ""Help TOC""",justinmk,2025-03-18T18:43:39Z,2025-03-19T11:17:00+00:00,2,16.56,True,6,6,5,66,1,1,2,MERGED
+32970,fix(snippet): wrong indentation when snippet contains `^ `,80avin,2025-03-18T18:28:54Z,2025-03-19T14:47:59+00:00,2,20.32,True,5,6,2,749,4,0,4,MERGED
+32967,fix: E29 error when `<C-R>.` in RelWithDebInfo build,phanen,2025-03-18T16:17:38Z,2025-03-18T23:20:47+00:00,1,7.05,False,2,3,1,235,1,0,1,CLOSED
+32957,fix(help): remove runnable code virtual text,clason,2025-03-18T11:54:30Z,2025-03-18T13:22:08+00:00,1,1.46,True,0,5,1,368,1,0,1,MERGED
+32956,fix(api): wrong return value with reverse range and overlap,luukvbaal,2025-03-18T08:55:22Z,2025-04-21T23:18:03+00:00,2,830.38,True,62,43,5,639,1,0,1,MERGED
+32953,"vim-patch:9.1.{1214,1217,1219}: matchfuzzy() ""camelcase""",glepnir,2025-03-18T07:59:20Z,2025-03-27T00:54:32+00:00,3,208.92,True,59,15,6,349,1,2,3,MERGED
+32944,fix(column): unnecessary redraws with resized 'statuscolumn',luukvbaal,2025-03-17T15:46:34Z,2025-03-17T20:52:45+00:00,1,5.1,True,7,10,3,529,2,0,2,MERGED
+32940,fix(lua): ensure inspect_pos() only shows visible highlight extmarks,luukvbaal,2025-03-17T14:05:20Z,2025-03-18T08:39:19+00:00,1,18.57,True,84,34,2,604,0,0,0,MERGED
+32938,fix(diagnostic): remove deprecated `severity_limit` option,clason,2025-03-17T09:59:54Z,2025-03-17T22:43:09+00:00,2,12.72,True,2,9,2,122,0,0,0,MERGED
+32931,vim-patch:3c7d9b1: runtime(prql): include prql syntax script,clason,2025-03-16T19:39:21Z,2025-03-16T22:56:39+00:00,1,3.29,True,178,0,1,167,0,0,0,MERGED
+32922,docs(lsp): link to vim.log.levels,przepompownia,2025-03-15T21:20:40Z,2025-03-16T13:23:20+00:00,1,16.04,False,2,2,2,0,1,1,2,CLOSED
+32918,fix(checkhealth): when plugin has nested lua directory,phanen,2025-03-15T16:18:31Z,2025-03-16T12:49:05+00:00,4,20.51,True,27,1,3,171,2,2,4,MERGED
+32912,fix(column): appropriate v:lnum for 'statuscolumn' virtual lines,luukvbaal,2025-03-15T12:28:04Z,2025-03-15T15:18:23+00:00,1,2.84,True,28,8,2,327,1,0,1,MERGED
+32911,refactor(lsp)!: rename lsp.completion.trigger() to get(),mfussenegger,2025-03-15T12:19:08Z,2025-03-16T12:58:38+00:00,2,24.66,True,11,10,5,286,4,0,4,MERGED
+32910,"fix(lsp): correctly check for ""codeAction/resolve"" support",saecki,2025-03-15T11:27:27Z,2025-03-15T14:56:47+00:00,1,3.49,True,1,1,1,305,1,0,1,MERGED
+32896,docs(lsp): simplify example of enabling LSP folding,ofseed,2025-03-15T00:40:13Z,2025-03-16T10:21:45+00:00,9,33.69,True,25,6,2,308,2,4,6,MERGED
+32892,fix(lsp): autocmds to close lsp preview windows not cleared,Bekaboo,2025-03-14T19:28:27Z,2025-03-15T13:59:07+00:00,1,18.51,True,1,1,1,213,3,0,3,MERGED
+32887,perf(lsp): include `previousResultId` in `DocumentDiagnosticParams`,ofseed,2025-03-14T09:16:58Z,2025-04-26T16:09:20+00:00,13,1038.87,True,87,15,3,14,3,5,8,MERGED
+32876,test(cmdline): reduce redundant screen:expect() lines,luukvbaal,2025-03-13T14:20:09Z,2025-03-31T09:45:14+00:00,12,427.42,False,255,575,1,62,1,2,3,CLOSED
+32875,fix(cmdline): ext_cmdline block events for conditionals,luukvbaal,2025-03-13T12:53:24Z,2025-03-15T11:09:22+00:00,3,46.27,True,70,10,2,200,1,1,2,MERGED
+32871,test(lsp): add some tests for LSP bugs,ofseed,2025-03-13T03:42:18Z,2025-03-17T09:11:06+00:00,8,101.48,True,55,0,2,38,0,6,6,MERGED
+32860,fix(ui): restrict :set output newline for external UI,ProtonStar12,2025-03-12T13:09:33Z,2025-04-20T21:58:42+00:00,5,944.82,False,4,1,1,234,2,1,3,CLOSED
+32859,fix(vim.fs): change default `follow` value,mike325,2025-03-12T13:02:09Z,2025-03-14T08:36:40+00:00,1,43.58,True,8,12,3,55,1,0,1,MERGED
+32857,refactor(popup): replace custom height function with standard plines_m_win,glepnir,2025-03-12T09:44:08Z,2025-03-12T12:29:04+00:00,5,2.75,True,2,16,1,138,0,1,1,MERGED
+32850,fix(lua): vim.hl.on_yank highlights wrong region with yi',phanen,2025-03-12T04:08:49Z,2025-03-13T01:11:09+00:00,2,21.04,True,34,1,2,469,2,2,4,MERGED
+32846,fix(terminal): remove delay when finishing up terminal process,markstegeman,2025-03-11T22:37:30Z,2025-03-12T12:35:14+00:00,1,13.96,True,22,13,1,270,0,0,0,MERGED
+32843,feat(editor): 'autowriteall' on SIGHUP/SIGQUIT,SkohTV,2025-03-11T21:46:52Z,2025-03-31T13:14:45+00:00,12,471.46,True,79,8,3,346,6,8,14,MERGED
+32838,feat(treesitter): allow `iter_captures` to accept `opts`,ribru17,2025-03-11T15:32:00Z,2025-03-12T08:41:41+00:00,1,17.16,True,19,4,3,156,0,0,0,MERGED
+32835,"feat(api): add ""max_height"" argument to nvim_win_text_height",luukvbaal,2025-03-11T08:44:03Z,2025-04-21T11:48:26+00:00,31,987.07,True,424,186,10,218,1,16,17,MERGED
+32833,ci(test): enable translations in at least one job,zeertzjq,2025-03-11T02:26:49Z,2025-03-11T12:14:33+00:00,1,9.8,True,1,1,1,204,0,0,0,MERGED
+32827,fix(ui): schedule UI detach,gpanders,2025-03-10T20:32:12Z,2025-03-11T20:35:13+00:00,1,24.05,True,10,0,1,645,2,0,2,MERGED
+32822,fix(tohtml): set nomodeline,altermo,2025-03-10T12:01:18Z,2025-03-10T16:15:41+00:00,2,4.24,True,3,0,2,163,0,1,1,MERGED
+32819,fix(popup): new preview_bufnr when menu item is selected,glepnir,2025-03-10T08:55:45Z,2025-03-10T14:38:16+00:00,12,5.71,True,119,70,2,243,2,4,6,MERGED
+32813,fix(events): fix incorrect capitalization of Cmdwin* events,zeertzjq,2025-03-10T01:28:43Z,2025-03-10T22:49:33+00:00,1,21.35,True,10,10,4,221,1,0,1,MERGED
+32810,docs: misc,justinmk,2025-03-09T23:37:37Z,2025-03-17T11:59:32+00:00,5,180.37,True,416,373,24,0,0,4,4,MERGED
+32804,vim-patch:42e498d: runtime(plsql): move fold option from syntax to filetype plugin,clason,2025-03-09T16:23:12Z,2025-03-10T08:40:44+00:00,1,16.29,True,24,2,3,144,0,0,0,MERGED
+32802,perf(events): use hashy for event name lookup,zeertzjq,2025-03-09T15:32:05Z,2025-03-09T22:56:03+00:00,1,7.4,True,31,18,3,0,0,0,0,MERGED
+32801,fix(build): vimdoc tags are not validated,justinmk,2025-03-09T14:38:12Z,2025-03-09T17:27:28+00:00,1,2.82,True,33,31,14,202,1,1,2,MERGED
+32796,build(generator): add dependencies on hashy,zeertzjq,2025-03-09T01:11:21Z,2025-03-09T10:57:41+00:00,1,9.77,True,27,26,2,228,0,0,0,MERGED
+32793,feat(lsp): add support for completion context,MariaSolOs,2025-03-08T23:29:40Z,2025-03-10T16:20:28+00:00,10,40.85,True,113,13,5,132,1,3,4,MERGED
+32791,Fix inefficient fixstr messagepack packing,Likhithsai2580,2025-03-08T21:24:03Z,2025-05-01T14:10:51+00:00,5,1288.78,False,13,2,2,521,2,4,6,CLOSED
+32790,feat(treesitter): disable captures and patterns on TSQuery,ian-h-chamberlain,2025-03-08T17:37:32Z,2025-03-11T13:45:01+00:00,12,68.12,True,212,15,10,350,2,6,8,MERGED
+32789,docs(highlight): collect all default highlight groups,clason,2025-03-08T16:43:01Z,2025-03-09T12:52:54+00:00,4,20.16,True,16,17,2,244,0,1,1,MERGED
+32787,fix(lsp): improve validation of lsp configs,lewis6991,2025-03-08T10:16:20Z,2025-03-12T09:06:29+00:00,3,94.84,True,92,31,3,1609,0,1,1,MERGED
+32785,fix(lsp)!: pass buffer number to root_dir function,lewis6991,2025-03-08T09:32:14Z,2025-03-10T18:54:04+00:00,7,57.36,True,13,10,3,259,0,3,3,MERGED
+32783,fix: warn when `InspectTree` on buffer with no parser,phanen,2025-03-08T03:38:43Z,2025-03-11T13:15:22+00:00,2,81.61,True,10,2,1,916,1,2,3,MERGED
+32780,refactor(generator): remove nested loop for event aliases,zeertzjq,2025-03-08T02:42:27Z,2025-03-08T22:35:51+00:00,1,19.89,True,173,162,3,108,0,0,0,MERGED
+32778,docs(events): document events that can always be nested,zeertzjq,2025-03-08T00:30:06Z,2025-03-08T22:09:21+00:00,1,21.65,True,21,2,1,19,0,0,0,MERGED
+32776,fix(lsp): rename `on_publish_diagnostics` parameter: result->params,WillLillis,2025-03-07T22:04:20Z,2025-03-11T14:22:20+00:00,3,88.3,True,6,6,3,1052,5,1,6,MERGED
+32774,fix(types): do not mark unstable API as private,lewis6991,2025-03-07T21:05:38Z,2025-03-08T00:08:03+00:00,1,3.04,True,0,22,2,80,9,0,9,MERGED
+32771,docs: OSC 133 bash config,justinmk,2025-03-07T14:57:00Z,2025-03-08T00:37:43+00:00,8,9.68,True,69,42,5,159,3,2,5,MERGED
+32768,perf(keycodes): use hashy for string lookup,zeertzjq,2025-03-07T11:49:27Z,2025-03-07T22:04:16+00:00,2,10.25,True,414,242,6,225,0,1,1,MERGED
+32760,vim-patch:9.1.1177: filetype: tera files not detected,clason,2025-03-06T21:52:05Z,2025-03-06T23:07:08+00:00,1,1.25,True,15,0,3,235,0,0,0,MERGED
+32756,fix: update osc52 termfeatures flag on UIEnter/UILeave,gpanders,2025-03-06T17:31:35Z,2025-03-12T13:11:19+00:00,6,139.66,True,121,37,2,922,3,2,5,MERGED
+32755,fix(terminal): avoid rescheduling events onto the same queue,gpanders,2025-03-06T17:18:57Z,2025-03-07T18:16:39+00:00,6,24.96,True,141,94,4,1703,2,4,6,MERGED
+32741,fix(winblend): treat braille blank (\u2800) as whitespace #32741,SkohTV,2025-03-05T22:50:40Z,2025-04-23T12:27:21+00:00,5,1165.61,True,45,3,2,484,7,2,9,MERGED
+32736,feat(defaults): jump between :terminal shell prompts with ]]/[[,gpanders,2025-03-05T17:53:00Z,2025-03-07T13:45:34+00:00,6,43.88,True,160,55,10,0,1,4,5,MERGED
+32719,feat(runtime): Lua ftplugin 'includeexpr',brianhuster,2025-03-04T08:05:15Z,2025-03-17T22:41:07+00:00,27,326.6,True,115,1,4,253,12,19,31,MERGED
+32716,fix(lsp): open_floating_preview() ignores max_height,rmuir,2025-03-04T00:09:58Z,2025-03-04T18:36:57+00:00,2,18.45,True,27,1,2,267,4,1,5,MERGED
+32715,fix(lua): always use vim.inspect() for :lua=,zeertzjq,2025-03-04T00:04:59Z,2025-03-07T11:50:01+00:00,1,83.75,True,28,18,4,10,0,0,0,MERGED
+32709,"vim-patch:9.1.{1166,1168}: 'wildmode' noselect",deathbeam,2025-03-03T17:56:49Z,2025-03-03T22:41:41+00:00,8,4.75,True,105,19,9,1650,3,2,5,MERGED
+32704,feat(lsp): support for resolving code action command,MariaSolOs,2025-03-03T06:04:56Z,2025-03-06T08:21:48+00:00,3,74.28,True,66,8,5,2,2,1,3,MERGED
+32703,fix(diagnostic): virtual_lines diagnostic columns,jamestrew,2025-03-03T03:17:48Z,2025-03-04T14:59:37+00:00,2,35.7,True,105,2,2,167,1,1,2,MERGED
+32700,fix(lua-types): add enums for vim.api.keyset.win_config,przepompownia,2025-03-02T17:21:51Z,2025-03-10T13:01:51+00:00,1,187.67,True,16,7,2,0,3,0,3,MERGED
+32697,"feat(runtime): Lua ftplugin sets 'omnifunc', 'foldexpr' #32697",brianhuster,2025-03-02T13:22:49Z,2025-03-15T16:44:53+00:00,5,315.37,True,15,1,3,140,1,3,4,MERGED
+32696,fix: Issue #30263 with :checkhealth.,sathya-pramodh,2025-03-02T11:54:21Z,2025-03-29T18:06:24+00:00,14,654.2,True,18,8,6,251,14,4,18,MERGED
+32690,feat(lua): better filter private fields from command line completion,MariaSolOs,2025-03-02T02:48:23Z,2025-03-02T21:44:13+00:00,2,18.93,True,26,0,2,133,0,1,1,MERGED
+32688,vim-patch:8ac975d: runtime(tar): fix syntax error in tar.vim,clason,2025-03-01T16:20:53Z,2025-03-01T22:03:11+00:00,1,5.71,True,3,2,1,64,0,0,0,MERGED
+32687,"feat(messages): ""g<"" mapping for ext_messages",luukvbaal,2025-03-01T15:21:42Z,2025-03-09T20:38:32+00:00,1,197.28,True,193,155,7,748,3,0,3,MERGED
+32686,perf(lsp): improve rpc loop performance (with shim),lewis6991,2025-03-01T14:45:55Z,2025-04-01T12:49:46+00:00,12,742.06,True,147,98,2,22,4,7,11,MERGED
+32684,"vim-patch:56957ed: runtime(misc): add support for bzip3 to tar, vimball and gzip plugins",clason,2025-03-01T10:38:55Z,2025-03-01T12:21:55+00:00,1,1.72,True,41,4,3,144,0,0,0,MERGED
+32683,"fix(env.c): drop envmap, callers must free os_getenv() result",juditnovak,2025-02-28T23:38:34Z,2025-04-16T10:36:07+00:00,153,1114.96,True,281,146,26,407,25,60,85,MERGED
+32680,vim-patch: update lua ftplugin,brianhuster,2025-02-28T18:49:15Z,2025-03-01T22:46:26+00:00,5,27.95,True,50,15,4,833,3,3,6,MERGED
+32678,docs(Open): add reference in documentation,saccarosium,2025-02-28T14:15:18Z,2025-02-28T23:14:01+00:00,2,8.98,True,4,0,2,161,0,1,1,MERGED
+32672,vim-patch:9.1.1155: Mode message not cleared after :silent message,neovim-backports,2025-02-27T23:20:03Z,2025-02-28T00:22:31+00:00,1,1.04,True,52,1,3,47,0,1,1,MERGED
+32666,build!: turn off translations by default,dundargoc,2025-02-27T19:12:24Z,2025-03-02T01:29:25+00:00,4,54.28,True,15,5,5,135,1,2,3,MERGED
+32665,vim-patch:3d75ec7: runtime(compiler): improve svelte-check,clason,2025-02-27T18:20:38Z,2025-02-28T08:32:43+00:00,1,14.2,True,7,5,1,94,0,0,0,MERGED
+32662,fix(marks): ineffective conceal_line callback optimization,luukvbaal,2025-02-27T16:04:51Z,2025-02-28T12:36:26+00:00,8,20.53,True,27,39,6,294,1,2,3,MERGED
+32657,feat: add more metadata to _ts_inspect_language(),lewis6991,2025-02-27T12:05:32Z,2025-03-01T15:51:09+00:00,7,51.76,True,105,37,7,2765,15,4,19,MERGED
+32656,fix(display): correctly store winline info for concealed lines,luukvbaal,2025-02-27T10:16:49Z,2025-02-27T12:15:48+00:00,1,1.98,True,51,2,2,64,5,0,5,MERGED
+32638,build: move all generator scripts to `src/gen/`,lewis6991,2025-02-26T11:40:58Z,2025-02-26T16:54:38+00:00,5,5.23,True,98,60,38,407,18,1,19,MERGED
+32636,fix: reuse pum preview float win and set winfixbuf,glepnir,2025-02-26T09:09:57Z,2025-02-27T10:41:29+00:00,1,25.53,True,138,49,2,331,4,0,4,MERGED
+32632,refactor(gen_api_dispatch): avoid trailing spaces,zeertzjq,2025-02-26T03:42:37Z,2025-02-26T12:23:28+00:00,1,8.68,True,9,10,1,278,0,0,0,MERGED
+32629,fix(move): wrong cursor row on concealed line,luukvbaal,2025-02-25T16:09:38Z,2025-02-25T22:45:52+00:00,2,6.6,True,15,5,2,145,0,1,1,MERGED
+32626,fix(lua): don't override script ID from :source,zeertzjq,2025-02-25T06:23:34Z,2025-02-25T23:40:21+00:00,1,17.28,True,188,96,8,333,0,0,0,MERGED
+32624,fix(treesitter): clip combined injection highlights to tree range,vanaigr,2025-02-25T03:34:36Z,2025-05-23T05:13:34+00:00,3,2089.65,False,95,4,3,458,14,2,16,CLOSED
+32620,refactor(filetype): make some parent patterns stricter,zeertzjq,2025-02-24T23:07:17Z,2025-02-25T08:55:44+00:00,1,9.81,False,3,7,1,218,1,3,4,CLOSED
+32619,fix(treesitter): consistent highlighting of multiline combined injection,vanaigr,2025-02-24T22:55:28Z,2025-07-06T18:05:41+00:00,8,3163.17,True,48,16,2,392,6,4,10,MERGED
+32618,vim-patch:9.1.1140: filetype: m17ndb files are not detected,zeertzjq,2025-02-24T22:51:33Z,2025-02-25T09:20:45+00:00,1,10.49,True,92,1,5,577,0,0,0,MERGED
+32617,build(contrib): add zsh completion,teto,2025-02-24T21:54:50Z,2025-03-16T17:15:00+00:00,7,475.34,True,36,0,1,586,4,4,8,MERGED
+32614,vim-patch: improve &keywordprg in Vim ftplugin,brianhuster,2025-02-24T16:59:52Z,2025-02-25T23:51:11+00:00,2,30.86,True,77,28,1,297,0,1,1,MERGED
+32610,fix(api): don't override Vimscript SID,zeertzjq,2025-02-24T14:25:04Z,2025-02-25T01:17:51+00:00,1,10.88,True,237,118,16,374,1,0,1,MERGED
+32608,refactor(tests): use new-style highlight spec in legacy/,bfredl,2025-02-24T09:34:16Z,2025-03-04T12:12:01+00:00,1,194.63,True,418,460,8,0,0,0,0,MERGED
+32601,feat(lua): vim.text.indent(),justinmk,2025-02-23T20:49:40Z,2025-02-26T22:31:03+00:00,3,73.69,True,538,331,31,794,1,3,4,MERGED
+32600,"feat(complete): update ""cancel"" CompleteDone reason to set only on <C-E>",echasnovski,2025-02-23T18:27:34Z,2025-02-23T22:08:27+00:00,4,3.68,True,22,13,3,230,1,1,2,MERGED
+32596,fix(terminal): improve cursor refresh handling,seandewar,2025-02-23T16:04:23Z,2025-03-06T08:31:50+00:00,9,256.46,True,133,82,2,794,1,4,5,MERGED
+32595,fix(lua): SIGSEGV in luv callback with error(nil),phanen,2025-02-23T14:49:26Z,2025-02-24T21:34:49+00:00,11,30.76,True,36,1,2,196,0,6,6,MERGED
+32594,fix(float): allow setting title/footer without explicitly setting border,echasnovski,2025-02-23T14:37:08Z,2025-02-23T17:08:17+00:00,1,2.52,True,43,18,2,335,4,0,4,MERGED
+32587,fix: change @private to @nodoc for vim.log.levels and vim.opt*,dsully,2025-02-23T00:57:28Z,2025-02-23T15:51:13+00:00,4,14.9,True,4,4,2,457,1,1,2,MERGED
+32585,fix(lsp): ensure floating window width can fit title,MariaSolOs,2025-02-22T21:21:09Z,2025-02-23T10:32:20+00:00,1,13.19,True,19,0,2,68,1,1,2,MERGED
+32576,docs: adding linux arm64 codeblocks,NeddM,2025-02-22T10:53:51Z,2025-05-02T12:50:54+00:00,8,1657.95,False,85,23,1,183,0,5,5,CLOSED
+32575,vim-patch: some filetypes not recognized,clason,2025-02-22T10:10:26Z,2025-02-22T23:19:53+00:00,2,13.16,True,11,7,2,126,0,1,1,MERGED
+32569,fix(treesitter): always highlight each visible line,ribru17,2025-02-22T03:21:19Z,2025-07-22T04:52:03+00:00,1,3601.51,False,74,46,2,1169,7,0,7,CLOSED
+32567,refactor(treesitter): simplify parsing coroutine logic,ribru17,2025-02-22T00:45:26Z,2025-02-23T16:12:58+00:00,1,39.46,True,22,47,1,372,9,0,9,MERGED
+32562,fix(lsp): unify get_completion_word for textEdits/insertText,mfussenegger,2025-02-21T17:39:26Z,2025-02-22T08:33:54+00:00,1,14.91,True,12,3,2,367,0,0,0,MERGED
+32561,vim-patch:9.1.1136: Match highlighting marks a buffer region as changed,luukvbaal,2025-02-21T15:46:21Z,2025-02-23T08:35:26+00:00,1,40.82,True,31,61,3,240,1,0,1,MERGED
+32555,fix: pum preview info got truncated during completion,glepnir,2025-02-21T10:17:24Z,2025-03-09T20:19:01+00:00,11,394.03,True,265,116,2,604,4,5,9,MERGED
+32549,fix(treesitter): clip combined injection ranges,ribru17,2025-02-21T05:24:11Z,2025-04-13T21:22:18+00:00,2,1239.97,True,221,50,4,214,1,2,3,MERGED
+32538,fix: make r/wshada work correct w/ shadafile=NONE,IpsumCapra,2025-02-20T20:31:37Z,2025-02-26T19:03:50+00:00,4,142.54,True,25,15,3,542,6,4,10,MERGED
+32535,feat(ui): support grid=0 in nvim_input_mouse,fredizzimo,2025-02-20T16:43:32Z,2025-09-13T21:57:05+00:00,62,4925.23,True,2170,1944,15,711,18,23,41,MERGED
+32531,"fix(messages): list_cmd kind for :registers, :au[g]",luukvbaal,2025-02-20T12:18:07Z,2025-02-21T00:40:21+00:00,2,12.37,True,82,50,5,293,4,1,5,MERGED
+32530,docs: misc,dundargoc,2025-02-20T10:52:18Z,2025-03-15T14:00:44+00:00,4,555.14,True,40,42,23,0,4,4,8,MERGED
+32528,doc: Clarify window-id and tab-id return values; clarify nvim_set_current_* ,idbrii,2025-02-20T08:21:12Z,2025-02-27T10:05:00+00:00,17,169.73,True,150,139,12,1327,2,10,12,MERGED
+32521,"feat(messages): confirm kind for z=, :tselect, inputlist()",luukvbaal,2025-02-19T14:01:37Z,2025-02-20T22:04:28+00:00,3,32.05,True,52,7,5,476,2,1,3,MERGED
+32517,"vim-patch:9.1.{1121,1126}",glepnir,2025-02-19T05:53:56Z,2025-02-20T23:45:30+00:00,2,41.86,True,50,10,6,664,1,1,2,MERGED
+32508,test(lua/hl_spec): fix hang on exit with ASAN,zeertzjq,2025-02-18T11:18:30Z,2025-02-18T13:22:47+00:00,1,2.07,True,8,0,1,0,0,1,1,MERGED
+32507,docs(diagnostic): add comma in vim diagnostic config example,SallesCosta,2025-02-18T10:47:00Z,2025-02-20T10:53:56+00:00,1,48.12,False,1,1,1,24,1,0,1,CLOSED
+32506,vim-patch:c729d6d: runtime: decouple Open and Launch commands and gx mapping from netrw,saccarosium,2025-02-18T10:09:07Z,2025-02-20T12:10:14+00:00,8,50.02,True,14,145,3,79,9,5,14,MERGED
+32503,feat(lsp): use the meta model to generate server capability map,MariaSolOs,2025-02-18T01:57:45Z,2025-02-23T16:20:19+00:00,2,134.38,True,382,107,5,118,0,0,0,MERGED
+32497,feat(marks): virtual lines support horizontal scrolling,zeertzjq,2025-02-17T14:25:58Z,2025-02-20T13:47:13+00:00,14,71.35,True,274,46,12,143,5,3,8,MERGED
+32492,docs: add doc for Lua bit library,brianhuster,2025-02-17T03:34:04Z,2025-02-19T18:09:09+00:00,5,62.58,True,387,2,3,103,0,4,4,MERGED
+32491,feat(ftplugin): set 'omnifunc' of Lua to 'v:lua.vim.lua_omnifunc',brianhuster,2025-02-17T02:48:09Z,2025-02-23T15:57:16+00:00,8,157.15,True,12,1,3,392,11,2,13,MERGED
+32486,fix(main): allow nvim -es to be used interactively with a TTY,bk2204,2025-02-16T23:36:01Z,2025-02-17T15:14:28+00:00,3,15.64,False,28,1,2,1651,10,1,11,CLOSED
+32483,fix(tests): remove the __extension__ keyword  in filter_complex_blocks,nmeum,2025-02-16T19:04:45Z,2025-02-17T22:43:48+00:00,1,27.65,True,3,0,1,685,1,0,1,MERGED
+32482,perf(treesitter): only search for injections within the parse range,ribru17,2025-02-16T17:27:45Z,2025-02-21T08:56:21+00:00,19,111.48,True,65,28,5,389,0,1,1,MERGED
+32480,docs: fix stdpath typing,phanen,2025-02-16T16:43:04Z,2025-02-16T21:33:57+00:00,1,4.85,True,22,0,2,203,1,0,1,MERGED
+32474,fix(treesitter)!: enforce buffer is loaded when creating parser,luukvbaal,2025-02-16T12:53:53Z,2025-02-19T18:11:55+00:00,10,77.3,True,91,18,6,759,3,3,6,MERGED
+32451,ci(test): disable ubuntu arm,dundargoc,2025-02-15T09:37:45Z,2025-02-15T13:55:26+00:00,1,4.29,True,4,4,3,125,2,1,3,MERGED
+32446,fix(lsp): reset the applied hints when processing the `refresh` request,ofseed,2025-02-14T15:12:12Z,2025-02-23T16:48:09+00:00,1,217.6,True,3,0,1,388,1,1,2,MERGED
+32445,feat(lsp): add support for completionItem.command resolving,mfussenegger,2025-02-14T13:10:29Z,2025-02-14T18:49:08+00:00,2,5.64,True,69,9,3,179,2,0,2,MERGED
+32440,fix(ui): send multigrid message position and size when the UI is refreshed,fredizzimo,2025-02-14T10:58:06Z,2025-03-31T09:23:25+00:00,1,1078.42,True,80,0,4,536,3,1,4,MERGED
+32433,ci(release): change to ubuntu-22.04,dundargoc,2025-02-13T22:18:22Z,2025-02-14T13:54:18+00:00,1,15.6,True,4,7,1,27,1,0,1,MERGED
+32430,feat: replace netrw with minimal lua module,saccarosium,2025-02-13T16:08:33Z,2025-05-08T22:04:17+00:00,1,2021.93,False,295,9,4,887,23,1,24,CLOSED
+32426,fix(lsp): reset active request when reporting an error,ofseed,2025-02-13T04:06:18Z,2025-02-13T13:19:33+00:00,1,9.22,True,11,8,2,79,4,0,4,MERGED
+32423,vim-patch:8f3277f: runtime(nroff): set define option & add matchit config in ftplugin,clason,2025-02-12T21:16:35Z,2025-02-13T09:03:28+00:00,1,11.78,True,17,2,1,82,0,0,0,MERGED
+32408,feat(term): report terminal size in pixels,tbung,2025-02-11T22:46:19Z,2025-06-21T02:12:52+00:00,6,3099.44,False,109,19,16,1275,3,2,5,CLOSED
+32407,feat(term): trigger TermRequest for APC,tbung,2025-02-11T20:17:38Z,2025-02-13T14:24:02+00:00,15,42.11,True,67,16,7,328,10,9,19,MERGED
+32403,fix(memline): don't check line count for closed memline,luukvbaal,2025-02-11T15:47:16Z,2025-02-12T16:20:51+00:00,10,24.56,True,23,5,2,232,2,2,4,MERGED
+32400,feat(column): apply appropriate numhl highlight to virt_lines,luukvbaal,2025-02-11T11:03:43Z,2025-02-12T10:01:43+00:00,1,22.97,True,108,62,5,287,2,0,2,MERGED
+32399,fix(treesitter): detect trees with outdated regions in `is_valid()`,ribru17,2025-02-11T02:36:30Z,2025-02-11T09:17:08+00:00,1,6.68,True,40,1,2,245,0,0,0,MERGED
+32393,fix(lsp): clear word when expand multi-lines word,glepnir,2025-02-10T13:23:47Z,2025-02-13T10:24:39+00:00,3,69.01,True,47,2,2,222,3,2,5,MERGED
+32392,build: set luals checklevel to Hint,lewis6991,2025-02-10T10:02:28Z,2025-02-10T11:04:01+00:00,2,1.03,True,12,8,2,0,3,0,3,MERGED
+32391,refactor(defaults): remove need of ctx from enable_ctx_menu method,siddhantdev,2025-02-10T05:50:04Z,2025-02-10T13:18:01+00:00,3,7.47,True,5,7,1,153,0,2,2,MERGED
+32390,fix(options): fix memory leaks in vim.api.nvim_*get_option,cairijun,2025-02-10T03:56:43Z,2025-02-10T17:37:36+00:00,4,13.68,True,15,1,2,186,0,1,1,MERGED
+32387,feat(lsp): add select kind in showMessageRequest,MariaSolOs,2025-02-09T22:49:30Z,2025-02-13T13:48:56+00:00,5,86.99,True,1,0,1,269,0,1,1,MERGED
+32385,feat(ui): UI :detach command,justinmk,2025-02-09T22:16:31Z,2025-02-10T18:21:47+00:00,6,20.09,True,300,134,20,213,1,4,5,MERGED
+32383,"vim-patch:f30eb4a: runtime(qf): Update syntax file, match second delimiter",clason,2025-02-09T17:45:43Z,2025-02-10T08:33:23+00:00,1,14.79,True,78,67,2,173,0,0,0,MERGED
+32378,fix(defaults): improve visual search mappings,neeshy,2025-02-09T03:50:57Z,2025-02-09T21:23:30+00:00,6,17.54,True,45,15,2,616,3,2,5,MERGED
+32377,vim-patch:9.1.1086: completion doesn't work with multi lines,glepnir,2025-02-09T01:32:31Z,2025-02-09T02:43:02+00:00,13,1.18,True,267,11,4,198,4,11,15,MERGED
+32373,test: allow testing of win_pos,fredizzimo,2025-02-09T00:26:14Z,2025-02-09T15:31:14+00:00,1,15.08,True,26,13,2,103,0,0,0,MERGED
+32371,vim-patch:9.1.1085: filetype: cmmt files are not recognized,clason,2025-02-08T18:09:36Z,2025-02-09T10:08:54+00:00,1,15.99,True,2,1,2,307,0,0,0,MERGED
+32370,vim-patch:a35040f: runtime(tex): improve syntax highlighting,clason,2025-02-08T17:38:22Z,2025-02-08T23:41:37+00:00,1,6.05,True,41,8,1,294,0,0,0,MERGED
+32357,vim-patch:9.1.1080: filetype: Mill files are not recognized,clason,2025-02-06T20:53:10Z,2025-02-06T22:23:58+00:00,1,1.51,True,2,1,2,486,0,0,0,MERGED
+32353,build: add luals check,dundargoc,2025-02-06T12:45:57Z,2025-02-09T17:10:54+00:00,14,76.42,True,41,4,7,711,6,4,10,MERGED
+32348,fix(lsp): check for valid buf before processing semantic tokens response,echasnovski,2025-02-06T08:41:33Z,2025-02-07T22:11:00+00:00,1,37.49,True,8,2,1,550,7,0,7,MERGED
+32346,feat(defaults): enable diffopt:linematch by default,siddhantdev,2025-02-06T06:51:29Z,2025-02-06T12:17:37+00:00,1,5.44,True,7,5,6,13,2,1,3,MERGED
+32326,feat(treesitter): show which nodes are missing in InspectTree,ribru17,2025-02-04T17:27:51Z,2025-02-05T08:29:31+00:00,4,15.03,True,64,1,3,194,2,2,4,MERGED
+32318,ci(vim-patches): fix failing workflow,dundargoc,2025-02-03T23:37:49Z,2025-02-04T09:48:10+00:00,1,10.17,True,3,3,1,0,0,0,0,MERGED
+32315,"vim-patch:9.1.{1009,1022,1023,1027,1072}",zeertzjq,2025-02-03T14:36:31Z,2025-02-04T01:13:52+00:00,1,10.62,True,688,167,10,1397,0,1,1,MERGED
+32310,fix(tui): include ST to get Cs (set_cursor_color) capability augmented,uio23,2025-02-03T04:12:23Z,2025-02-03T09:09:47+00:00,2,4.96,True,3,1,1,644,0,2,2,MERGED
+32303,vim-patch:9.1.1070: Cannot control cursor positioning of getchar(),zeertzjq,2025-02-02T23:08:11Z,2025-02-03T00:09:04+00:00,7,1.01,True,209,8,7,271,0,1,1,MERGED
+32302,feat(diagnostic): allow filtering diagnostics in `format`,MariaSolOs,2025-02-02T23:04:19Z,2025-02-03T08:54:31+00:00,3,9.84,True,67,22,4,33,0,0,0,MERGED
+32293,"vim-patch:8.2.{0825,1445,2505},9.0.1142,9.1.{1063,1066,1071}",zeertzjq,2025-02-02T08:01:30Z,2025-02-03T04:07:22+00:00,1,20.1,True,209,82,6,2328,0,0,0,MERGED
+32291,refactor(autocmds): remove indirection,justinmk,2025-02-02T00:27:16Z,2025-02-02T07:43:31+00:00,3,7.27,True,62,149,4,0,0,3,3,MERGED
+32282,"feat(treesitter): table of contents for checkhealth, markdown",clason,2025-02-01T12:26:55Z,2025-02-22T12:07:21+00:00,14,503.67,True,221,79,7,823,9,11,20,MERGED
+32275,fix(diagnostic): improve current_line refresh logic,tris203,2025-01-31T21:36:49Z,2025-02-02T09:56:02+00:00,1,36.32,True,8,7,1,395,5,0,5,MERGED
+32266,fix(lsp): autotrigger should only trigger on client's triggerCharacters,rmuir,2025-01-31T00:49:48Z,2025-02-13T10:08:11+00:00,2,321.31,True,42,4,2,1255,10,1,11,MERGED
+32264,fix(treesitter): nil access when running string parser async,ribru17,2025-01-30T21:37:32Z,2025-02-01T16:02:52+00:00,1,42.42,True,23,9,2,20,0,0,0,MERGED
+32243,"Fix ""vim_snprintf() positional arguments"" failures on 32-bit systems",jamessan,2025-01-29T02:10:20Z,2025-01-29T19:56:15+00:00,2,17.77,True,21,5,1,408,5,1,6,MERGED
+32237,fix(ui): avoid redundant ext_cmdline events,luukvbaal,2025-01-28T15:42:54Z,2025-01-29T11:07:27+00:00,2,19.41,True,35,30,3,340,2,0,2,MERGED
+32233,fix(treesitter): avoid computing foldlevels for reloaded buffer,luukvbaal,2025-01-28T09:10:15Z,2025-01-28T16:34:08+00:00,6,7.4,True,17,9,1,10,2,1,3,MERGED
+32227,fix(filetype): normalize full path before matching with patterns,markstegeman,2025-01-27T19:53:51Z,2025-03-19T12:41:25+00:00,2,1216.79,True,27,1,2,345,0,1,1,MERGED
+32226,ci(release)!: remove backwards compatible releases,dundargoc,2025-01-27T19:46:51Z,2025-01-28T09:21:27+00:00,5,13.58,True,20,32,4,126,0,3,3,MERGED
+32224,docs(treesitter): fix TSNode:range() type signature,ribru17,2025-01-27T17:54:29Z,2025-01-27T22:25:07+00:00,1,4.51,True,3,12,3,93,1,0,1,MERGED
+32215,refactor(lsp): use the metamodel to generate protocol constants,MariaSolOs,2025-01-26T22:20:14Z,2025-01-29T19:13:29+00:00,9,68.89,False,751,785,3,426,2,2,4,CLOSED
+32214,vim-patch:db23436: runtime(asm): add byte directives to syntax script,clason,2025-01-26T17:35:35Z,2025-01-27T07:28:18+00:00,1,13.88,True,5,2,1,83,0,0,0,MERGED
+32207,ci(release): add linux-aarch64 appimage and tarball [skip ci],dundargoc,2025-01-25T15:29:52Z,2025-01-27T09:38:18+00:00,3,42.14,False,143,76,8,148,4,1,5,CLOSED
+32206,vim-patch:9918120: runtime(filetype): Improve Verilog detection by checking for modules definition,clason,2025-01-25T14:43:57Z,2025-01-25T22:56:18+00:00,1,8.21,True,2,2,1,157,0,0,0,MERGED
+32200,build(deps)!: bump tree-sitter to HEAD,clason,2025-01-25T12:34:39Z,2025-01-27T15:16:06+00:00,8,50.69,True,17,58,7,538,4,2,6,MERGED
+32199,fix(treesitter): stop async parsing if buffer is invalid,notomo,2025-01-25T12:24:06Z,2025-01-29T08:15:13+00:00,9,91.85,True,6,1,1,781,0,1,1,MERGED
+32194,ci(release): add linux-arm64 appimage,clason,2025-01-24T16:17:28Z,2025-01-27T15:21:40+00:00,19,71.07,True,134,63,7,200,5,4,9,MERGED
+32193,build(bump_deps): abort if archive doesn't exist,dundargoc,2025-01-24T14:39:00Z,2025-01-27T09:28:12+00:00,2,66.82,True,24,11,1,53,2,1,3,MERGED
+32192,fix: resolve all remaining LuaLS diagnostics,lewis6991,2025-01-24T13:02:14Z,2025-01-27T16:37:50+00:00,11,75.59,True,177,104,41,0,0,4,4,MERGED
+32187,feat(diagnostic): add `current_line` option for `virtual_text` handler,MariaSolOs,2025-01-23T23:39:12Z,2025-02-05T14:27:10+00:00,15,302.8,True,115,38,4,46,12,4,16,MERGED
+32182,fix(column): apply custom highlight to last 'statuscolumn' segment,luukvbaal,2025-01-23T16:27:33Z,2025-01-23T23:42:24+00:00,2,7.25,True,10,2,2,0,0,1,1,MERGED
+32174,build(deps): bump luv to v1.50.0-1,clason,2025-01-23T07:41:02Z,2025-02-05T08:29:15+00:00,4,312.8,True,340,58,2,103,1,1,2,MERGED
+32165,feat(checkhealth): enable gO to show table of contents [skip ci],dundargoc,2025-01-22T19:42:00Z,2025-02-05T14:00:05+00:00,1,330.3,False,17,0,3,15,5,0,5,CLOSED
+32157,fix(inspector): update semantic token namespace,jdrouhard,2025-01-22T05:25:08Z,2025-01-22T13:02:30+00:00,1,7.62,True,4,4,2,137,3,0,3,MERGED
+32152,feat(options): add 'eventignorewin',luukvbaal,2025-01-21T20:08:21Z,2025-02-12T10:01:07+00:00,7,517.88,True,406,259,19,1032,11,3,14,MERGED
+32151,fix(tui): ensure all pending escape sequences are processed before exiting,gpanders,2025-01-21T15:55:56Z,2025-04-22T12:18:34+00:00,4,2180.38,True,89,42,3,946,5,3,8,MERGED
+32149,fix(editor): avoid scrolling substitute confirm message,luukvbaal,2025-01-21T15:45:56Z,2025-01-22T15:36:58+00:00,1,23.85,True,20,0,2,36,3,0,3,MERGED
+32144,feat(tui/terminal): support X1 and X2 mouse events,zeertzjq,2025-01-21T12:52:34Z,2025-01-21T14:50:39+00:00,2,1.97,True,104,24,7,90,0,0,0,MERGED
+32140,fix(mouse): 'statuscolumn' fold and popopmenu handling,luukvbaal,2025-01-21T10:21:03Z,2025-01-23T16:26:11+00:00,24,54.09,True,189,126,5,386,0,11,11,MERGED
+32137,fix(log): report only when $TMPDIR is set,phanen,2025-01-21T04:25:07Z,2025-01-25T04:05:47+00:00,1,95.68,True,1,1,1,2740,6,1,7,MERGED
+32136,docs(treesitter): mention that conceal will only use the first character,MariaSolOs,2025-01-21T03:37:04Z,2025-01-21T14:50:42+00:00,1,11.23,False,7,0,1,2,1,0,1,CLOSED
+32131,vim-patch:9.1.1042: filetype: just files are not recognized,clason,2025-01-20T21:50:34Z,2025-01-23T08:42:20+00:00,1,58.86,True,481,0,6,279,4,0,4,MERGED
+32130,vim-patch:4335fcf: runtime(kconfig): updated ftplugin and syntax script,clason,2025-01-20T21:45:35Z,2025-01-20T23:16:24+00:00,1,1.51,True,708,697,3,64,0,0,0,MERGED
+32127,ci(news): treat deprecated.txt as part of news.txt,dundargoc,2025-01-20T16:38:36Z,2025-01-20T19:39:08+00:00,1,3.01,True,1,1,1,122,0,0,0,MERGED
+32125,fix(treesitter): compute folds on_changedtree only if not nil,konradmalik,2025-01-20T16:23:21Z,2025-01-20T22:32:46+00:00,4,6.16,True,3,1,1,1165,0,1,1,MERGED
+32122,feat: add Show Diagnostics to context menu,siddhantdev,2025-01-20T13:10:55Z,2025-02-09T19:32:12+00:00,11,486.35,True,23,1,2,112,1,3,4,MERGED
+32121,"fix: completion.enable(false,...) deletes invalid augroup",konradmalik,2025-01-20T12:57:41Z,2025-01-20T14:10:00+00:00,4,1.21,True,8,3,1,1458,1,2,3,MERGED
+32114,build(cjson): sync with upstream,tris203,2025-01-19T22:32:24Z,2025-02-26T08:40:02+00:00,7,898.13,True,197,155,4,153,1,4,5,MERGED
+32112,fix(lsp): set floating window filetype after context setup,guilhas07,2025-01-19T21:51:41Z,2025-01-20T13:00:13+00:00,1,15.14,True,6,5,1,318,0,0,0,MERGED
+32104,vim-patch:d402ba8: runtime(netrw): upstream snapshot of v175,clason,2025-01-19T15:52:41Z,2025-01-20T07:20:11+00:00,1,15.46,True,531,532,5,336,1,0,1,MERGED
+32103,vim-patch:2cb8246: runtime(tex): add texEmphStyle to texMatchGroup in syntax script,clason,2025-01-19T15:50:49Z,2025-01-20T07:20:24+00:00,1,15.49,True,4,3,1,119,0,0,0,MERGED
+32099,feat(api): deprecate nvim_buf_add_highlight(),bfredl,2025-01-19T12:36:48Z,2025-01-20T14:42:56+00:00,4,26.1,True,110,202,7,244,0,2,2,MERGED
+32098,feat(extmark): stack multiple highlight groups in `hl_group`,bfredl,2025-01-19T12:15:39Z,2025-01-21T11:32:20+00:00,1,47.28,True,97,4,7,225,0,0,0,MERGED
+32091,fix(lua): prevent SIGSEGV when lua error is NULL in libuv_worker,neovim-backports,2025-01-18T19:09:10Z,2025-01-19T01:00:19+00:00,1,5.85,True,21,2,2,47,0,1,1,MERGED
+32090,fix(treesitter): clean up parsing queue,tomtomjhj,2025-01-18T15:11:10Z,2025-01-19T14:53:18+00:00,1,23.7,True,2,2,1,82,0,0,0,MERGED
+32089,fix(messages): compute msg_col after last newline in ext_messages,luukvbaal,2025-01-18T11:17:30Z,2025-01-20T14:11:33+00:00,3,50.9,True,8,18,1,755,0,1,1,MERGED
+32087,vim-patch:54cb514: runtime(sh): update syntax script,clason,2025-01-18T09:47:13Z,2025-01-18T10:48:36+00:00,1,1.02,True,7,5,1,148,0,0,0,MERGED
+32086,vim-patch:9.1.1030: filetype: setting bash filetype is backwards incompatible,clason,2025-01-18T09:46:19Z,2025-01-20T07:20:36+00:00,1,45.57,True,8,11,3,575,1,0,1,MERGED
+32085,fix(lua): prevent SIGSEGV when lua error is NULL in libuv_worker,linw1995,2025-01-18T09:06:30Z,2025-01-18T19:08:50+00:00,1,10.04,True,21,2,2,1468,4,0,4,MERGED
+32082,refactor(treesitter): use coroutines for resuming _parse() logic,ribru17,2025-01-17T22:37:23Z,2025-02-03T17:11:04+00:00,11,402.56,True,122,85,4,618,12,7,19,MERGED
+32081,fix(coverity/530826): validate_opt_idx unchecked negative idx,devon-g,2025-01-17T19:15:06Z,2025-01-19T00:49:54+00:00,6,29.58,True,3,3,1,111,2,2,4,MERGED
+32079,fix(diagnostic)!: make virtual text handler opt-in,gpanders,2025-01-17T17:49:32Z,2025-01-18T13:43:22+00:00,2,19.9,True,30,6,4,275,5,0,5,MERGED
+32078,vim-patch:c2a967a: runtime(c): Update syntax and ftplugin files,clason,2025-01-17T17:43:54Z,2025-01-18T07:45:43+00:00,1,14.03,True,120,18,3,600,0,0,0,MERGED
+32077,feat(treesitter): allow is_valid() to accept a range,ribru17,2025-01-17T17:23:10Z,2025-02-03T17:11:06+00:00,5,407.8,False,59,60,3,311,0,2,2,CLOSED
+32076,docs(float): Add tag `floating-windows`,brianhuster,2025-01-17T17:00:47Z,2025-01-18T00:03:40+00:00,2,7.05,False,1,1,1,392,1,2,3,CLOSED
+32072,fix(lsp): use filterText as word if textEdit/label doesn't match,mfussenegger,2025-01-17T14:33:01Z,2025-01-17T17:34:59+00:00,1,3.03,True,42,3,2,563,0,0,0,MERGED
+32071,vim-patch:9cfdabb: runtime(netrw): change netrw maintainer,clason,2025-01-17T13:05:27Z,2025-01-18T08:49:35+00:00,2,19.74,True,810,920,10,489,8,1,9,MERGED
+32070,fix(lsp): document_symbol should use loclist as default,yochem,2025-01-17T12:50:03Z,2025-01-19T21:08:10+00:00,2,56.3,True,12,9,3,217,6,0,6,MERGED
+32069,vim-patch:9.1.1026: filetype: swc configuration files are not recognized,clason,2025-01-17T12:48:22Z,2025-01-17T15:45:59+00:00,1,2.96,True,2,1,2,265,0,0,0,MERGED
+32065,docs(gh): use new issue types,clason,2025-01-17T09:48:47Z,2025-01-17T15:41:39+00:00,3,5.88,True,4,3,3,191,0,1,1,MERGED
+32060,feat(api): combined highlights in nvim_eval_statusline(),luukvbaal,2025-01-16T17:18:56Z,2025-01-23T09:56:25+00:00,7,160.62,True,244,236,14,499,4,1,5,MERGED
+32059,ci: add arm64 runner,clason,2025-01-16T17:09:02Z,2025-01-24T09:34:19+00:00,9,184.42,True,4,33,3,138,5,2,7,MERGED
+32053,fix(messages): lsp window/showMessage is not an error,luukvbaal,2025-01-16T07:51:13Z,2025-01-17T07:40:50+00:00,1,23.83,True,7,10,3,228,0,0,0,MERGED
+32042,vim-patch:9.1.1019: filetype: fd ignore files are not recognized,clason,2025-01-15T17:55:55Z,2025-01-15T23:34:26+00:00,1,5.64,True,3,1,2,192,1,0,1,MERGED
+32038,feat(terminal): add support for kitty keyboard protocol,gpanders,2025-01-15T17:10:17Z,2025-01-17T00:33:22+00:00,7,31.38,True,498,101,8,308,3,3,6,MERGED
+32034,fix: show previews for nomodifiable buffers,tronikelis,2025-01-15T14:39:38Z,2025-01-20T14:40:26+00:00,17,120.01,True,49,1,3,55,0,6,6,MERGED
+32023,fix: vim.diagnostic.config does not take func as float config,s1n7ax,2025-01-15T07:32:04Z,2025-01-15T09:46:54+00:00,2,2.25,False,13,4,2,407,2,2,4,CLOSED
+32017,fix(marks): revise metadata for start mark of revalidated pair,luukvbaal,2025-01-14T18:37:15Z,2025-01-15T10:38:45+00:00,1,16.02,True,15,14,2,133,1,1,2,MERGED
+32014,"vim-patch:045564d: runtime(colors): Update colorschemes, include new unokai colorscheme",clason,2025-01-14T16:26:03Z,2025-01-15T08:48:56+00:00,2,16.38,True,588,21,22,244,0,1,1,MERGED
+32013,feat(messages): add :!cmd shell message kinds,luukvbaal,2025-01-14T13:58:35Z,2025-01-15T10:23:44+00:00,4,20.42,True,77,20,7,275,2,3,5,MERGED
+32012,feat: expose vim.hl.on_yank() blink functionality,siddhantdev,2025-01-14T12:57:49Z,2025-01-22T15:46:24+00:00,14,194.81,True,53,17,4,117,7,9,16,MERGED
+32010,fix(lsp): ensure minimum height for floating popup,neovim-backports,2025-01-14T10:58:52Z,2025-01-14T12:36:42+00:00,1,1.63,True,14,1,2,47,0,1,1,MERGED
+32006,feat(api): nvim_open_win() relative to tabline and laststatus,luukvbaal,2025-01-14T08:11:35Z,2025-01-14T13:02:46+00:00,2,4.85,True,133,12,8,280,1,1,2,MERGED
+32004,vim-patch:30377e0: runtime(lyrics): support milliseconds in syntax script,clason,2025-01-14T07:32:46Z,2025-01-14T12:23:02+00:00,1,4.84,True,2,2,1,279,0,0,0,MERGED
+32002,fix(lsp): make passing false to vim.lsp.enable() disable given LSP(s),andrewbraxton,2025-01-14T05:10:50Z,2025-01-15T09:58:36+00:00,2,28.8,True,1,1,1,303,1,1,2,MERGED
+32001,refactor: use `nvim.foo.bar` format for namespace/augroup names,MariaSolOs,2025-01-14T03:52:06Z,2025-01-15T10:01:44+00:00,5,30.16,True,76,67,37,27,10,2,12,MERGED
+32000,perf(treesitter): don't block when finding injection ranges,ribru17,2025-01-14T03:23:28Z,2025-02-21T17:10:24+00:00,9,925.78,True,25,8,2,723,5,4,9,MERGED
+31999,feat(terminal): support theme update notifications (DEC mode 2031),gpanders,2025-01-14T01:50:38Z,2025-01-14T14:18:59+00:00,1,12.47,True,104,0,9,35,0,0,0,MERGED
+31998,fix(lsp): schedule call to vim.lsp.start for async root_dir,gpanders,2025-01-13T18:03:15Z,2025-01-14T14:19:54+00:00,1,20.28,True,32,25,2,261,2,0,2,MERGED
+31997,fix(treesitter): uv_dlclose after uv_dlerror,horror-proton,2025-01-13T17:04:35Z,2025-01-14T09:15:35+00:00,9,16.18,True,4,3,1,215,1,2,3,MERGED
+31996,docs: misc,justinmk,2025-01-13T15:14:56Z,2025-03-02T22:27:53+00:00,6,1159.22,True,257,219,28,21,2,5,7,MERGED
+31995,docs: misc,dundargoc,2025-01-13T14:48:19Z,2025-01-30T12:46:07+00:00,1,405.96,True,38,31,17,0,0,0,0,MERGED
+31993,fix(float): nvim_win_set_config cannot set title/footer independently,glepnir,2025-01-13T12:50:50Z,2025-01-27T15:52:28+00:00,2,339.03,True,155,24,2,126,1,1,2,MERGED
+31991,feat(messages): add verbose message kind,luukvbaal,2025-01-13T11:38:21Z,2025-01-13T12:59:35+00:00,1,1.35,True,68,9,4,10,0,0,0,MERGED
+31990,fix(lsp): ensure minimum height for floating popup,Xuyuanp,2025-01-13T10:25:58Z,2025-01-13T23:17:24+00:00,3,12.86,True,14,1,2,392,2,1,3,MERGED
+31986,feat(runtime): news plugin for development builds,craigmac,2025-01-12T21:50:22Z,2025-01-14T13:12:55+00:00,12,39.38,False,236,0,4,675,4,4,8,CLOSED
+31981,refactor: simplify bump_deps.lua,dundargoc,2025-01-12T12:13:04Z,2025-01-18T09:52:52+00:00,13,141.66,True,96,363,1,51,1,5,6,MERGED
+31975,feat: incremental injection parsing,vanaigr,2025-01-12T07:51:29Z,2025-01-19T16:27:51+00:00,15,176.61,False,1652,239,12,363,18,10,28,CLOSED
+31974,perf(treesitter): cache queries strongly,ribru17,2025-01-11T23:45:18Z,2025-01-12T15:44:25+00:00,3,15.99,True,48,5,3,217,1,2,3,MERGED
+31959,feat(diagnostic): virtual_lines,MariaSolOs,2025-01-11T03:45:03Z,2025-01-26T23:33:03+00:00,32,379.8,True,417,7,7,398,33,15,48,MERGED
+31951,refactor(treesitter.foldexpr): remove unused parse_injections parameter,ribru17,2025-01-10T20:26:34Z,2025-01-10T22:06:36+00:00,1,1.67,True,2,3,1,0,0,0,0,MERGED
+31950,fix(comment): always get innermost ts commentstring,ribru17,2025-01-10T20:23:17Z,2025-07-22T04:51:53+00:00,1,4616.48,False,1,1,1,88,6,0,6,CLOSED
+31949,vim-patch:51754c8: runtime(editorconfig): set omnifunc to syntaxcomplete func,clason,2025-01-10T19:03:46Z,2025-01-10T23:44:07+00:00,2,4.67,True,4,2,1,87,0,0,0,MERGED
+31945,docs(cmake): clarify build preset descriptions,sys9kdr,2025-01-10T13:01:19Z,2025-01-11T06:56:43+00:00,2,17.92,False,3,3,1,1239,3,0,3,CLOSED
+31944,fix(options): better handling of empty values,lewis6991,2025-01-10T10:20:58Z,2025-01-13T16:58:26+00:00,15,78.62,True,72,42,9,339,1,6,7,MERGED
+31934,refactor: delete duplicate utf8-functionality,dundargoc,2025-01-09T16:44:01Z,2025-01-13T12:16:41+00:00,18,91.54,True,15,50,4,333,4,4,8,MERGED
+31931,vim-patch:9.1.0996: ComplMatchIns may highlight wrong text,glepnir,2025-01-09T13:07:06Z,2025-01-10T23:58:45+00:00,1,34.86,True,52,1,3,189,0,1,1,MERGED
+31921,"feat(extmarks): virtual text can be right-aligned, truncated",georgev93,2025-01-08T19:25:57Z,2025-01-25T03:57:45+00:00,22,392.53,True,142,9,10,676,10,10,20,MERGED
+31920,vim-patch:8ab1819: runtime(xf86conf): add section name OutputClass to syntax script,clason,2025-01-08T19:07:42Z,2025-01-09T07:07:31+00:00,1,12.0,True,4,4,1,159,0,0,0,MERGED
+31916,feat(terminal): propagate DECSET/DECRST to TermRequest,gpanders,2025-01-08T17:18:43Z,2025-01-14T14:19:35+00:00,1,141.01,False,50,16,9,382,4,0,4,CLOSED
+31906,vim-patch:9.1.0995: filetype: shaderslang files are not detected,clason,2025-01-07T20:34:31Z,2025-01-08T09:32:45+00:00,2,12.97,True,416,0,4,276,0,1,1,MERGED
+31904,feat(docs): run lua code examples with yxx,ribru17,2025-01-07T17:27:38Z,2025-01-09T16:36:16+00:00,12,47.14,True,70,12,9,274,26,6,32,MERGED
+31900,feat(api): add err field to nvim_echo() opts,luukvbaal,2025-01-07T13:24:23Z,2025-01-09T14:36:29+00:00,28,49.2,True,190,160,19,327,0,7,7,MERGED
+31895,"fix(api): replace `nvim_out_write`, `nvim_err_writeln` usages by `nvim_echo`",przepompownia,2025-01-07T02:10:09Z,2025-01-08T13:05:11+00:00,1,34.92,False,9,5,4,22,11,0,11,CLOSED
+31892,vim-patch:9.1.0993: New 'cmdheight' behavior may be surprising,luukvbaal,2025-01-06T21:34:56Z,2025-01-07T01:00:10+00:00,1,3.42,True,29,18,5,972,0,0,0,MERGED
+31888,vim-patch:7ceaa8f: runtime(vim): Remove trailing comma from match_words,clason,2025-01-06T17:16:16Z,2025-01-07T07:03:14+00:00,2,13.78,True,4,3,2,151,0,0,0,MERGED
+31887,feat(snippet): set snippet keymaps permanent instead of dynamic,mfussenegger,2025-01-06T13:31:02Z,2025-03-14T08:51:52+00:00,7,1603.35,True,43,106,5,943,8,3,11,MERGED
+31886,fix(lsp): open_floating_preview() zindex relative to current window,luukvbaal,2025-01-06T12:26:58Z,2025-01-06T14:05:50+00:00,1,1.65,True,29,1,2,197,0,0,0,MERGED
+31884,feat(snippet): add navigation_mapping completion option,MariaSolOs,2025-01-06T03:30:32Z,2025-01-09T00:05:46+00:00,4,68.59,False,36,19,2,28,6,2,8,CLOSED
+31870,feat(health): close checkhealth buffers with q,MariaSolOs,2025-01-05T03:03:37Z,2025-01-05T17:51:52+00:00,1,14.8,True,9,0,1,94,15,1,16,MERGED
+31866,fix(cmdline): always show cmdline when it is a prompt,luukvbaal,2025-01-05T00:14:11Z,2025-01-05T13:59:50+00:00,1,13.76,True,15,4,2,41,1,0,1,MERGED
+31865,fix(health): set modifiable=false in checkhealth buffers,MariaSolOs,2025-01-04T23:31:10Z,2025-01-05T08:43:59+00:00,2,9.21,True,3,0,1,2,5,0,5,MERGED
+31854,docs: cleanup news.txt,gpanders,2025-01-03T23:13:57Z,2025-01-04T18:39:58+00:00,3,19.43,True,21,18,1,61,0,1,1,MERGED
+31848,vim-patch:cd96075: runtime(java): Quietly opt out for unsupported markdown.vim versions,clason,2025-01-03T16:41:48Z,2025-01-04T09:35:00+00:00,1,16.89,True,23,10,1,134,0,0,0,MERGED
+31846,refactor: adopt vterm,dundargoc,2025-01-03T14:45:48Z,2025-01-07T11:35:25+00:00,2,92.83,True,6569,6595,42,147,1,1,2,MERGED
+31837,feat(ui): include compositor info with multigrid,fredizzimo,2025-01-02T20:16:29Z,2025-04-15T09:56:39+00:00,24,2461.67,True,666,397,13,3043,24,7,31,MERGED
+31833,fix(vim.fs.normalize): normalize case for windows drive letter,dundargoc,2025-01-02T15:29:50Z,2025-01-04T20:48:45+00:00,6,53.32,True,28,2,2,91,19,2,21,MERGED
+31830,vim-patch:9.1.0990: Inconsistent behavior when changing cmdheight,luukvbaal,2025-01-02T12:18:59Z,2025-01-05T11:09:38+00:00,1,70.84,True,161,136,8,603,2,0,2,MERGED
+31827,perf(treesitter): calculate folds asynchronously,ribru17,2025-01-02T00:43:47Z,2025-01-14T09:30:43+00:00,1,296.78,True,110,94,2,232,0,0,0,MERGED
+31824,feat(lsp): add workspace_required to lsp.config,Kibadda,2025-01-01T22:10:03Z,2025-03-30T18:07:54+00:00,5,2107.96,True,173,119,5,239,11,3,14,MERGED
+31822,docs: misc,justinmk,2025-01-01T20:33:22Z,2025-01-03T16:29:36+00:00,3,43.94,True,199,201,6,71,0,3,3,MERGED
+31821,perf(treesitter): don't fetch parser for each fold line,ribru17,2025-01-01T19:55:52Z,2025-01-07T15:43:46+00:00,22,139.8,True,102,9,3,13433,5,7,12,MERGED
+31819,Visual block insert - preview results,TheLeoP,2025-01-01T16:28:47Z,2025-10-03T14:19:53+00:00,5,6597.85,False,235,105,9,17,0,3,3,CLOSED
+31815,fix(vim.fs.abspath): correctly handle UNC paths,dundargoc,2025-01-01T12:14:05Z,2025-01-01T22:42:42+00:00,2,10.48,True,4,3,2,0,0,1,1,MERGED
+31812,fix(treesitter): injections highlighting order,vanaigr,2025-01-01T05:50:16Z,2025-07-05T16:54:15+00:00,4,4451.07,False,174,20,8,829,13,3,16,CLOSED
+31804,fix(tui): handle key events for arrow and function keys,gpanders,2024-12-31T16:20:47Z,2024-12-31T18:16:26+00:00,1,1.93,True,37,14,2,600,0,0,0,MERGED
+31803,fix(jobs): do not block UI when jobwait() doesn't block,gpanders,2024-12-31T15:52:24Z,2025-01-02T00:43:16+00:00,1,32.85,True,43,3,2,16,1,0,1,MERGED
+31802,build: Fix RelWithDebInfo optimization flags,sys9kdr,2024-12-31T15:02:38Z,2025-01-05T19:28:32+00:00,6,124.43,True,2,7,3,2888,7,1,8,MERGED
+31801,test: skip flaky watchdirs() test on macos,dundargoc,2024-12-31T13:21:23Z,2024-12-31T14:54:06+00:00,1,1.55,True,1,2,1,0,0,0,0,MERGED
+31799,ci(news): trigger job for `perf` commit type,dundargoc,2024-12-31T13:00:00Z,2024-12-31T15:36:33+00:00,1,2.61,True,6,6,1,138,0,0,0,MERGED
+31791,refactor(options): use `const` in more places,famiu,2024-12-30T19:26:37Z,2025-01-01T13:45:14+00:00,1,42.31,True,26,20,4,0,0,0,0,MERGED
+31790,feat: add vim.fs.relpath,dundargoc,2024-12-30T16:35:27Z,2025-01-13T12:14:52+00:00,38,331.66,True,114,15,5,112,6,17,23,MERGED
+31788,fix: multigrid screenstring()/getmousepos(),tksrsk,2024-12-30T13:54:45Z,2025-01-04T13:41:08+00:00,2,119.77,False,65,15,4,93,5,2,7,CLOSED
+31787,feat(ui): more user friendly substitute message,luukvbaal,2024-12-30T12:18:09Z,2025-01-02T14:40:39+00:00,3,74.38,True,79,75,36,139,0,1,1,MERGED
+31782,feat: windows normalize path after vim.fs.joinpath,GustavEikaas,2024-12-30T10:27:09Z,2024-12-31T15:40:06+00:00,8,29.22,True,27,5,3,1996,8,5,13,MERGED
+31771,feat(lsp): return resolved config for vim.lsp.config[name],mfussenegger,2024-12-29T12:49:37Z,2024-12-31T12:18:05+00:00,1,47.47,True,32,43,3,210,1,0,1,MERGED
+31765,fix(log): unintuitive message for undefined $TMPDIR,deepsghimire,2024-12-29T08:14:32Z,2025-01-19T19:37:04+00:00,4,515.38,True,5,1,1,162,5,3,8,MERGED
+31753,refactor(options): remove code for multitype options,famiu,2024-12-28T08:57:53Z,2025-01-14T09:34:17+00:00,1,408.61,True,12,89,5,313,0,0,0,MERGED
+31749,vim-patch:9.1.0965: filetype: sh filetype set when detecting the use of bash,saccarosium,2024-12-27T17:07:14Z,2024-12-28T11:20:50+00:00,3,18.23,True,11,8,3,166,5,2,7,MERGED
+31748,fix(treesitter): disable injections by commenting out queries,ribru17,2024-12-27T16:17:56Z,2025-01-28T17:59:04+00:00,14,769.69,True,5,1,2,575,2,3,5,MERGED
+31747,vim-patch:6c57c30: runtime(compiler): include a basic bash syntax checker compiler,clason,2024-12-27T15:26:22Z,2024-12-27T23:35:32+00:00,1,8.15,True,12,0,1,152,0,0,0,MERGED
+31736,vim-patch:9.1.0962: filetype: bun.lock file is not recognized,clason,2024-12-26T17:57:43Z,2024-12-27T10:40:39+00:00,1,16.72,True,2,1,2,213,0,0,0,MERGED
+31735,ci(build.yml): disable security restriction,dundargoc,2024-12-26T14:20:21Z,2024-12-26T21:35:35+00:00,1,7.25,True,3,1,1,142,0,0,0,MERGED
+31730,feat(clipboard)!: use OSC 52 as fallback clipboard provider,gpanders,2024-12-26T02:03:16Z,2024-12-31T15:59:03+00:00,1,133.93,True,39,43,5,784,3,1,4,MERGED
+31727,feat(tui): handle kitty key events in libtermkey,gpanders,2024-12-25T19:26:50Z,2024-12-31T14:29:14+00:00,1,139.04,True,40,5,5,251,5,0,5,MERGED
+31724,"vim-patch:9.1.{0960,0961}: some filetypes are not recognized",clason,2024-12-25T10:46:59Z,2024-12-25T12:38:45+00:00,1,1.86,True,39,1,4,127,0,0,0,MERGED
+31719,fix: enhance builtin autocompletion and fix LSP snippet bug,latteyt,2024-12-25T03:38:04Z,2024-12-29T14:50:16+00:00,5,107.2,False,59,18,1,200,2,1,3,CLOSED
+31713,"vim-patch:9.1.{0954,0956}",glepnir,2024-12-24T10:16:56Z,2024-12-24T11:34:47+00:00,8,1.3,True,76,44,5,830,0,7,7,MERGED
+31711,vim-patch:9.1.0958: filetype: supertux2 config files detected as lisp,clason,2024-12-24T09:32:45Z,2024-12-24T10:55:06+00:00,2,1.37,True,4,4,2,359,0,1,1,MERGED
+31710,fix: clamp range lines in `nvim__redraw()`,vanaigr,2024-12-24T07:18:14Z,2024-12-25T20:12:41+00:00,1,36.91,True,62,7,2,477,4,2,6,MERGED
+31708,docs(api): fix return type of `nvim[_buf]_get_keymap()`,Bekaboo,2024-12-24T00:57:02Z,2024-12-24T17:56:11+00:00,5,16.99,True,24,4,3,16,6,1,7,MERGED
+31703,fix(terminal): set cursor cell percentage,gpanders,2024-12-23T16:05:36Z,2024-12-23T21:39:36+00:00,1,5.57,True,11,1,2,533,1,0,1,MERGED
+31702,feat: add vim.fs.is_relative_to,dundargoc,2024-12-23T15:07:05Z,2024-12-31T12:53:42+00:00,5,189.78,False,105,0,4,112,5,3,8,CLOSED
+31701,fix(diagnostic): silence chistory command,yorickpeterse,2024-12-23T14:50:58Z,2024-12-23T19:57:16+00:00,1,5.11,True,1,1,1,317,1,1,2,MERGED
+31699,build: remove `lintcommit` from `lint` target,dundargoc,2024-12-23T12:51:50Z,2024-12-23T16:42:39+00:00,3,3.85,True,2,2,2,269,0,1,1,MERGED
+31697,feat(test): support and document lua test case debugging,mfussenegger,2024-12-23T11:43:10Z,2024-12-24T11:29:39+00:00,4,23.77,True,170,0,2,353,0,1,1,MERGED
+31679,vim-patch:9.1.0953: filetype: APKBUILD files not correctly detected,clason,2024-12-22T14:17:22Z,2024-12-22T17:05:07+00:00,1,2.8,True,20,2,3,862,0,0,0,MERGED
+31676,fix(inspect): use correct default highlight,clason,2024-12-22T10:05:01Z,2024-12-23T10:23:41+00:00,1,24.31,True,1,1,1,116,0,0,0,MERGED
+31668,test: format C test files and fix clang-tidy warnings,dundargoc,2024-12-21T12:05:59Z,2024-12-21T15:01:58+00:00,1,2.93,True,122,119,8,224,0,0,0,MERGED
+31663,feat(lsp): return table from lsp/ files on runtimepath,gpanders,2024-12-21T01:44:50Z,2024-12-21T14:27:27+00:00,3,12.71,True,20,14,3,604,5,3,8,MERGED
+31661,feat(ui): additional arguments for cmdline_show/hide events,luukvbaal,2024-12-20T22:54:08Z,2024-12-23T00:06:46+00:00,10,49.21,True,282,86,9,452,0,4,4,MERGED
+31659,vim-patch:70881ba: runtime(dockerfile): do not set commentstring in syntax script,clason,2024-12-20T18:58:27Z,2024-12-21T10:31:04+00:00,1,15.54,True,4,5,2,75,0,0,0,MERGED
+31658,vim-patch:9.1.0950: filetype: fennelrc files are not recognized,clason,2024-12-20T18:57:50Z,2024-12-21T10:30:53+00:00,1,15.55,True,3,1,2,233,0,0,0,MERGED
+31650,refactor(eval): move funcs to deprecated.c,justinmk,2024-12-20T08:46:22Z,2024-12-23T15:39:26+00:00,1,78.88,True,115,112,2,0,0,1,1,MERGED
+31646,fix(messages): no message kind for completion menu messages,przepompownia,2024-12-20T01:01:36Z,2024-12-20T12:41:57+00:00,3,11.67,True,19,0,3,103,3,1,4,MERGED
+31638,Fixed MAX_TIMEOUT value for 32-bit systems,danpascu,2024-12-19T15:44:21Z,2024-12-20T09:43:56+00:00,4,17.99,True,2,1,1,251,3,1,4,MERGED
+31637,refactor: iwyu,justinmk,2024-12-19T15:18:54Z,2024-12-23T13:43:52+00:00,3,94.42,True,179,176,136,42,0,5,5,MERGED
+31635,"feat(terminal): support grapheme clusters, including emoji",bfredl,2024-12-19T11:39:38Z,2025-01-03T09:43:22+00:00,1,358.06,True,184,631,11,0,0,0,0,MERGED
+31634,docs(api): specify when decor provider on_buf callback is called,luukvbaal,2024-12-19T08:58:51Z,2024-12-19T15:04:33+00:00,1,6.09,True,6,6,3,0,0,0,0,MERGED
+31631,feat(treesitter): async parsing,ribru17,2024-12-19T03:16:09Z,2025-01-13T06:58:34+00:00,137,603.71,True,411,48,13,1072,74,42,116,MERGED
+31630,feat(lsp): support function for client root_dir,gpanders,2024-12-19T02:47:04Z,2024-12-27T16:09:22+00:00,3,205.37,True,62,5,3,293,12,0,12,MERGED
+31627,fix(messages): better formatting for :highlight with ext_messages,luukvbaal,2024-12-18T22:19:13Z,2024-12-19T14:24:49+00:00,3,16.09,True,17,30,3,182,1,2,3,MERGED
+31625,perf(decor): improve `iter_captures()` cache,vanaigr,2024-12-18T19:13:32Z,2025-01-06T15:09:35+00:00,21,451.93,True,177,94,4,768,8,15,23,MERGED
+31620,fix(terminal): restore cursor from 'guicursor' on TermLeave,gpanders,2024-12-18T03:30:14Z,2024-12-18T17:41:06+00:00,1,14.18,True,62,42,2,13,1,0,1,MERGED
+31618,fix(coverity): error handling (CHECKED_RETURN),justinmk,2024-12-18T00:53:11Z,2024-12-18T14:05:37+00:00,3,13.21,True,12,8,1,667,0,1,1,MERGED
+31611,feat(lsp): add server version information to `:checkhealth`,lithammer,2024-12-17T22:09:39Z,2024-12-18T14:31:25+00:00,5,16.36,True,13,0,4,277,7,3,10,MERGED
+31609,feat(terminal)!: include cursor position in TermRequest event data,gpanders,2024-12-17T17:02:55Z,2025-03-05T15:45:23+00:00,10,1870.71,True,129,49,12,927,5,5,10,MERGED
+31608,fix(lsp): vim.lsp.start failed when an existing client has no workspace_folders,phanen,2024-12-17T15:48:10Z,2024-12-18T14:37:13+00:00,8,22.82,True,15,1,2,796,0,4,4,MERGED
+31601,refactor(man.lua): various changes,lewis6991,2024-12-16T16:32:17Z,2024-12-18T14:40:36+00:00,3,46.14,True,350,372,3,670,0,1,1,MERGED
+31600,refactor(api): always use TRY_WRAP,luukvbaal,2024-12-16T16:29:43Z,2024-12-17T12:12:23+00:00,3,19.71,True,359,409,10,298,2,2,4,MERGED
+31597,"fix(wininfo): when freeing windows, free the lowest priority wininfo",bfredl,2024-12-16T12:52:27Z,2025-01-20T10:02:58+00:00,1,837.18,True,49,4,2,421,0,1,1,MERGED
+31596,"fix(api): generic error messages, not using TRY_WRAP",justinmk,2024-12-16T12:04:37Z,2024-12-16T16:34:17+00:00,1,4.49,True,92,79,9,281,1,1,2,MERGED
+31595,"fix(api): not using TRY_WRAP, generic error messages",justinmk,2024-12-16T09:54:40Z,2024-12-16T12:00:21+00:00,6,2.09,True,62,109,7,315,0,1,1,MERGED
+31590,fix(messages): no message kind for :undo messages,przepompownia,2024-12-16T01:14:10Z,2024-12-16T11:07:27+00:00,7,9.89,True,32,0,3,119,0,2,2,MERGED
+31588,vim-patch:9.1.0929: filetype: lalrpop files are not recognized,clason,2024-12-15T18:28:06Z,2024-12-15T23:19:16+00:00,1,4.85,True,2,0,2,255,0,0,0,MERGED
+31585,fix(diagnostic): vim.diagnostic.setqflist() opens location list on first call,delatorrejuanchi,2024-12-15T14:50:02Z,2024-12-16T14:38:57+00:00,7,23.82,True,70,1,2,616,1,5,6,MERGED
+31576,"fix(api): nvim_win_set_buf(0, 0) fails if 'winfixbuf' is set",phanen,2024-12-14T03:55:41Z,2024-12-16T08:59:24+00:00,11,53.06,True,30,12,3,257,0,6,6,MERGED
+31575,feat(ui): allow 'sign/statuscolumn' to combine highlight attrs,luukvbaal,2024-12-14T01:35:36Z,2024-12-14T18:21:51+00:00,1,16.77,True,265,239,8,97,2,0,2,MERGED
+31571,fix(Man): completion on Mac,lewis6991,2024-12-13T14:29:00Z,2024-12-16T16:05:08+00:00,5,73.6,True,27,3,3,156,3,2,5,MERGED
+31569,fix(Man.lua): trigger completion even without arguments,saccarosium,2024-12-13T13:17:20Z,2024-12-13T14:26:20+00:00,11,1.15,True,2,3,1,101,1,2,3,MERGED
+31565,fix(lsp): reuse client if configs match and no root dir,lewis6991,2024-12-13T10:55:49Z,2024-12-13T14:36:24+00:00,1,3.68,True,50,16,3,457,9,0,9,MERGED
+31563,fix(runtime): let match(it+paren) skips use treesitter,emiasims,2024-12-12T22:55:57Z,2025-01-04T19:11:43+00:00,1,548.26,True,15,1,3,796,12,0,12,MERGED
+31562,feat(terminal)!: cursor shape and blink,gpanders,2024-12-12T22:41:50Z,2024-12-17T13:11:41+00:00,28,110.5,True,901,539,43,1048,24,14,38,MERGED

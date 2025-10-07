@@ -1,4 +1,5 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+85940,Update DataLoader.get_basedir to be an abspath,sivel,2025-10-02T18:23:13Z,2025-10-06T14:22:47+00:00,2,91.99,True,10,8,4,288,0,0,0,MERGED
 85936,Remove support for resolvelib < 0.8.0,s-hertel,2025-10-01T19:03:06Z,2025-10-01T21:33:22+00:00,3,2.5,True,30,127,4,176,0,1,1,MERGED
 85934,Deprecate `ansible.module_utils.six`,mkrizek,2025-10-01T12:36:28Z,2025-10-02T18:17:03+00:00,8,29.68,True,24,4,3,55,5,2,7,MERGED
 85932,[stable-2.17] Remove timezone support module and tests (#83465),mattclay,2025-10-01T00:15:58Z,2025-10-01T15:50:21+00:00,1,15.57,True,0,1008,3,327,1,0,1,MERGED
@@ -149,3 +150,852 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 85263,Contribute,bcoca,2025-06-04T16:31:51Z,2025-06-05T19:23:01+00:00,1,26.85,False,142,0,1,29,2,11,13,CLOSED
 85262,Fix calls to `deprecated()` to include `help_text` arg,mkrizek,2025-06-04T15:03:36Z,2025-06-05T06:46:17+00:00,2,15.71,True,27,14,8,42,0,2,2,MERGED
 85261,yaml filter: update docs,Akasurde,2025-06-04T13:39:06Z,2025-07-03T15:02:17+00:00,3,697.39,True,60,15,2,188,4,2,6,MERGED
+85253,fix key conversion on legacy JSON profiles,nitzmahone,2025-06-03T18:29:48Z,2025-06-03T22:11:27+00:00,1,3.69,True,181,27,16,235,1,1,2,MERGED
+85252,ansible-test strip alias,bcoca,2025-06-03T16:00:41Z,2025-06-05T19:19:32+00:00,3,51.31,False,5,2,2,105,0,1,1,CLOSED
+85251,wait_for module - document self match avoidance,bcoca,2025-06-03T15:49:26Z,2025-06-12T18:30:32+00:00,3,218.69,True,10,3,1,151,1,2,3,MERGED
+85238,Misc ssh agent fixes,nitzmahone,2025-05-30T19:25:01Z,2025-05-30T20:38:59+00:00,1,1.23,True,208,189,16,142,0,0,0,MERGED
+85233,Deprecate module_utils.common.collections.count,mkrizek,2025-05-30T09:39:04Z,2025-06-02T07:49:42+00:00,3,70.18,True,8,0,2,43,0,2,2,MERGED
+85232,"Clean up TE error handling, wrap sigalrm handler",nitzmahone,2025-05-30T01:07:15Z,2025-05-30T17:45:11+00:00,1,16.63,True,758,417,40,251,3,0,3,MERGED
+85226,Deprecate ansible.compat.importlib_resources,mkrizek,2025-05-29T09:34:24Z,2025-06-02T07:51:04+00:00,2,94.28,True,12,16,3,43,2,2,4,MERGED
+85225,Add missing warning methods and args,mattclay,2025-05-29T06:02:02Z,2025-05-30T18:36:21+00:00,2,36.57,True,179,12,12,77,0,3,3,MERGED
+85224,Decouple SSH client verbosity from Ansible display,nitzmahone,2025-05-29T01:37:26Z,2025-05-29T16:58:16+00:00,5,15.35,True,28,9,4,417,1,1,2,MERGED
+85223,fix from_yaml_all filter inconsistent None handling,nitzmahone,2025-05-29T00:36:30Z,2025-05-29T16:50:01+00:00,3,16.23,True,14,0,3,111,0,1,1,MERGED
+85222,Added _TEMPLAR_SANDBOX_MODE config,nitzmahone,2025-05-28T23:42:29Z,2025-05-30T01:37:59+00:00,4,25.93,True,47,1,5,203,0,2,2,MERGED
+85221,jinja2.__version__ is deprecated,mkrizek,2025-05-28T18:58:47Z,2025-05-30T09:40:10+00:00,3,38.69,True,9,6,3,103,0,1,1,MERGED
+85220,[stable-2.18] dnf5 tests: do not remove attr (#85218),mkrizek,2025-05-28T18:25:44Z,2025-05-28T23:15:15+00:00,1,4.83,True,1,2,1,76,0,0,0,MERGED
+85219,apt: Consider timeout while invoking apt-get command,Akasurde,2025-05-28T17:38:53Z,2025-06-12T22:37:21+00:00,2,364.97,True,12,3,2,279,2,1,3,MERGED
+85215,doc - Dynamically document jinja builtins,jborean93,2025-05-28T05:10:10Z,2025-06-02T20:23:30+00:00,2,135.22,True,296,46,6,272,2,0,2,MERGED
+85212,apt_repository: remove Python 2 support,mkrizek,2025-05-27T08:47:24Z,2025-05-27T14:24:23+00:00,1,5.62,True,9,29,2,42,0,0,0,MERGED
+85211,Deprecate AGNOSTIC_BECOME_PROMPT by simplifying become prompt logic,kaushikdontula,2025-05-27T04:40:26Z,2025-05-27T15:34:37+00:00,1,10.9,False,1,1,1,760,1,0,1,CLOSED
+85199,Merge dnf and dnf5 integration tests,mkrizek,2025-05-22T10:11:38Z,2025-06-02T07:52:38+00:00,2,261.68,True,83,110,9,40,1,3,4,MERGED
+85191,service: Remove py2 specific code,Akasurde,2025-05-20T23:14:37Z,2025-05-27T14:29:54+00:00,1,159.25,True,5,18,2,91,0,0,0,MERGED
+85189,ansible-test - Add RHEL 10.0 remote,mattclay,2025-05-20T15:37:34Z,2025-05-21T17:21:27+00:00,1,25.73,True,218,126,15,76,2,0,2,MERGED
+85187,fetch_file: add ca_path and cookies parameters,Akasurde,2025-05-20T14:32:35Z,2025-09-08T14:44:18+00:00,1,2664.2,True,9,2,2,282,10,0,10,MERGED
+85186,csvfile lookup: remove Python 2 compat,mkrizek,2025-05-20T14:32:09Z,2025-05-21T16:54:24+00:00,4,26.37,True,19,71,3,42,2,2,4,MERGED
+85184,Recognize virtualization type correctly on Linode,suominen,2025-05-20T07:28:27Z,2025-05-27T15:27:01+00:00,2,175.98,True,3,1,2,268,1,1,2,MERGED
+85178,New release v2.17.12,nitzmahone,2025-05-19T16:17:30Z,2025-05-19T17:34:21+00:00,1,1.28,True,19,5,5,60,0,0,0,MERGED
+85176,Exceptions clean up,mkrizek,2025-05-19T13:36:30Z,2025-06-06T05:59:01+00:00,28,424.38,True,315,392,64,738,6,54,60,MERGED
+85175,dnf5 - handle all specific libdnf5 exceptions,mkrizek,2025-05-19T11:22:00Z,2025-05-29T09:51:12+00:00,10,238.49,True,43,22,3,55,2,3,5,MERGED
+85170,apt: Mark dependencies as auto,Akasurde,2025-05-16T16:24:05Z,2025-07-03T16:25:11+00:00,11,1152.02,True,65,11,5,194,4,24,28,MERGED
+85164,get_url - check for incomplete data read,Shrews,2025-05-15T18:16:10Z,2025-06-10T20:17:22+00:00,7,626.02,True,41,1,4,234,7,3,10,MERGED
+85152,Improve SUSE distribution detection using VARIANT_ID with fallback to…,HVSharma12,2025-05-13T15:42:50Z,2025-05-29T16:20:15+00:00,4,384.62,True,189,3,6,384,3,2,5,MERGED
+85130,Integration tests clean up,mkrizek,2025-05-12T11:20:57Z,2025-05-16T15:25:18+00:00,3,100.07,True,58,464,46,40,1,1,2,MERGED
+85129,fix ensure_type to support vaulted values,nitzmahone,2025-05-09T23:41:42Z,2025-05-10T05:05:56+00:00,1,5.4,True,73,55,7,67,1,0,1,MERGED
+85128,Allow module_defaults to be defined as a dictionary variable or omitted,s-hertel,2025-05-09T23:12:43Z,2025-05-12T16:11:37+00:00,1,64.98,False,71,66,7,407,1,1,2,CLOSED
+85121,template module - render `None` as empty string,mattclay,2025-05-08T21:17:30Z,2025-05-08T22:45:53+00:00,2,1.47,True,20,0,6,54,2,1,3,MERGED
+85119,Misc config type coercion fixes,nitzmahone,2025-05-08T18:55:01Z,2025-05-08T20:06:19+00:00,3,1.19,True,334,184,8,212,0,1,1,MERGED
+85117,"Add ""CloudStack KVM Hypervisor"" to linux fact virtual",tanganellilore,2025-05-08T06:47:51Z,2025-05-09T18:52:27+00:00,3,36.08,True,3,1,2,52,2,2,4,MERGED
+85115,Exclude ansible._protomatter from ansible-doc output by default,jborean93,2025-05-07T20:29:35Z,2025-05-30T22:12:45+00:00,4,553.72,True,25,1,3,205,2,1,3,MERGED
+85109,Passing warnings to exit/fail_json is deprecated.,mkrizek,2025-05-07T11:51:42Z,2025-05-07T18:02:04+00:00,1,6.17,True,12,19,5,42,2,0,2,MERGED
+85108,Use 4 spaces instead of 2 as indent in examples,j-dr3,2025-05-07T07:55:23Z,2025-05-08T19:08:15+00:00,4,35.21,True,3,3,1,166,2,1,3,MERGED
+85107,Fix typos,omahs,2025-05-07T07:24:33Z,2025-05-08T19:05:12+00:00,1,35.68,True,7,7,5,49,1,0,1,MERGED
+85103,add fuzzy matching to package_data sanity,nitzmahone,2025-05-06T19:12:10Z,2025-05-07T18:00:21+00:00,1,22.8,True,27,5,2,125,1,0,1,MERGED
+85095,Switch to stackwalk caller ID,nitzmahone,2025-05-05T23:52:37Z,2025-05-06T01:00:02+00:00,3,1.12,True,1934,1235,93,351,3,1,4,MERGED
+85094,Assemble check mode,bcoca,2025-05-05T18:58:44Z,2025-06-12T16:13:16+00:00,5,909.24,True,48,11,5,127,0,4,4,MERGED
+85086,attempt to preserve tags in type coercion,bcoca,2025-05-02T13:59:45Z,2025-05-08T19:18:22+00:00,4,149.31,False,85,77,2,72,1,2,3,CLOSED
+85075,Prevent template lookup and action from masking `ansible_managed` value,nitzmahone,2025-04-30T17:15:00Z,2025-06-06T00:21:49+00:00,5,871.11,True,158,77,15,363,8,4,12,MERGED
+85074,make async true again,bcoca,2025-04-30T15:04:08Z,2025-05-30T15:32:50+00:00,49,720.48,True,55,54,14,31,2,28,30,MERGED
+85066,async_status: fix example to use finished test,mkrizek,2025-04-29T10:58:30Z,2025-04-29T13:52:58+00:00,1,2.91,True,1,1,1,53,0,0,0,MERGED
+85065,dnf5: avoid generating excessive history entries,mkrizek,2025-04-29T10:44:35Z,2025-04-29T14:51:22+00:00,1,4.11,True,13,1,3,55,0,0,0,MERGED
+85060,release.py - Remove email announcement support,mattclay,2025-04-29T04:38:41Z,2025-05-12T17:29:43+00:00,1,324.85,True,11,167,1,192,0,0,0,MERGED
+85049,hostname module: fix transient error with special character,erwanclx,2025-04-25T15:26:29Z,2025-06-30T18:25:30+00:00,10,1586.98,False,20,0,2,775,3,1,4,CLOSED
+85039,Implement TaskResult backward compatibility for callbacks,nitzmahone,2025-04-23T23:55:55Z,2025-04-24T00:59:46+00:00,1,1.06,True,981,619,34,79,0,0,0,MERGED
+85034,aptclean outputs false if nothing was changed,facundoy,2025-04-23T00:06:05Z,2025-09-09T01:30:39+00:00,2,3337.41,False,21,4,2,165,3,2,5,CLOSED
+85032,restore parsing/utils/jsonify.py,nitzmahone,2025-04-22T16:55:50Z,2025-04-22T19:31:45+00:00,2,2.6,True,40,0,1,112,1,1,2,MERGED
+85022,Convert TestPlaybookExecutor to pytest and add missing coverage,Shrews,2025-04-21T18:53:05Z,2025-05-05T13:36:23+00:00,1,330.72,False,79,27,1,186,1,2,3,CLOSED
+85019,ansible-test - Use `-t` for container stop timeout,mattclay,2025-04-20T00:11:56Z,2025-04-29T04:06:12+00:00,1,219.9,True,7,3,2,114,0,0,0,MERGED
+85015,fix handler include_tasks templating,s-hertel,2025-04-18T15:56:29Z,2025-06-11T15:27:00+00:00,19,1295.51,True,21,3,5,825,2,9,11,MERGED
+85012,Miscellaneous fixes,nitzmahone,2025-04-17T20:31:39Z,2025-04-17T22:14:01+00:00,1,1.71,True,186,168,10,40,0,0,0,MERGED
+85010,Fix uri form-multipart to not overwrite filename to allow retries,vydrazde,2025-04-17T14:35:10Z,2025-09-09T16:09:28+00:00,9,3481.57,True,25,2,3,145,3,6,9,MERGED
+85008,Remove unused local function _get_plugin_vars from vars manager,s-hertel,2025-04-17T13:47:55Z,2025-04-17T19:16:30+00:00,1,5.48,True,0,18,1,78,0,0,0,MERGED
+85007,Fix test_range_templating on 32-bit architectures,leegarrett,2025-04-17T11:20:50Z,2025-04-18T00:56:01+00:00,7,13.59,True,6,3,1,372,1,1,2,MERGED
+85004,Fix deferred exception handling in fail_json calls,pavan-msys,2025-04-17T08:35:39Z,2025-04-18T16:02:16+00:00,1,31.44,False,87,2,5,531,6,0,6,CLOSED
+85002,Fix constructable inventory default keyed group,jborean93,2025-04-17T00:17:55Z,2025-05-15T13:52:47+00:00,16,685.58,True,45,12,8,303,0,5,5,MERGED
+84999,Lineinfile - Add new module option - 'encoding',ketankelkar,2025-04-15T16:53:02Z,2025-08-12T20:37:33+00:00,12,2859.74,True,201,63,3,1908,4,23,27,MERGED
+84998,normalize error handler choices,bcoca,2025-04-15T16:48:07Z,2025-04-18T20:06:17+00:00,1,75.3,True,39,42,8,71,0,0,0,MERGED
+84997,"show internal but not hidden config options, while still hiding test options",bcoca,2025-04-15T15:06:14Z,2025-04-24T16:48:12+00:00,2,217.7,True,18,2,3,32,0,0,0,MERGED
+84995,get_bin_path('ssh-agent'): required is deprecated,mkrizek,2025-04-15T08:21:35Z,2025-04-15T14:30:30+00:00,1,6.15,True,3,1,2,105,0,0,0,MERGED
+84991,Miscellaneous DT fixes,mattclay,2025-04-14T20:46:18Z,2025-04-15T21:45:29+00:00,5,24.99,True,126,45,16,62,3,3,6,MERGED
+84990,filter: update integration tests,Akasurde,2025-04-14T19:20:19Z,2025-07-24T15:37:16+00:00,2,2420.28,True,98,10,5,89,2,1,3,MERGED
+84989,json filter: update docs,Akasurde,2025-04-14T17:35:43Z,2025-07-07T17:06:09+00:00,17,2015.51,True,11,6,2,70,2,14,16,MERGED
+84984,comment: raise exception when an invalid option is provided,Akasurde,2025-04-14T16:46:07Z,2025-04-19T03:40:28+00:00,7,106.91,True,24,1,3,70,4,3,7,MERGED
+84973,Fix uninstall tests,bcoca,2025-04-11T20:46:06Z,2025-04-11T22:55:08+00:00,1,2.15,True,2,0,1,82,0,0,0,MERGED
+84964,[backport 2.18] ansible-pull fix adhoc output inconsistencies on changed (#84869),bcoca,2025-04-10T19:00:55Z,2025-06-09T16:47:32+00:00,2,1437.78,True,94,9,5,221,2,1,3,MERGED
+84963,git: Document security risk involved in embedding user creds,Akasurde,2025-04-10T17:10:31Z,2025-04-10T19:15:42+00:00,1,2.09,True,4,0,1,221,0,0,0,MERGED
+84962,respawn: Update ENV dict copy with PYTHONPATH value,Akasurde,2025-04-10T16:03:52Z,2025-04-10T19:14:24+00:00,1,3.18,True,8,2,2,174,1,0,1,MERGED
+84949,Filter: add support for URL-safe encoding/decoding in b64*,Akasurde,2025-04-09T19:08:41Z,2025-04-11T16:08:02+00:00,1,44.99,True,41,6,5,209,0,0,0,MERGED
+84948,ensure predictable permissions on module artifacts,bcoca,2025-04-09T15:33:56Z,2025-04-30T14:09:06+00:00,3,502.59,True,22,8,4,91,0,1,1,MERGED
+84941,distro: detect debian for OS_FAMILY for LMDE 6,Akasurde,2025-04-08T19:58:13Z,2025-04-09T20:22:20+00:00,2,24.4,True,52,3,3,105,0,1,1,MERGED
+84933,Handle forwarded exceptions from dnf5-5.2.13,sivel,2025-04-07T20:58:01Z,2025-04-08T14:35:32+00:00,3,17.63,True,15,4,2,131,0,0,0,MERGED
+84932,Update README.md,trois-six,2025-04-07T14:55:24Z,2025-04-07T19:07:52+00:00,1,4.21,False,2,0,1,128,0,1,1,CLOSED
+84930,Fix collections nested role name in task output,kristianheljas,2025-04-07T11:22:27Z,2025-04-26T07:27:58+00:00,3,452.09,False,18,23,4,646,3,2,5,CLOSED
+84927,Support prompt matching with ssh_askpass,sivel,2025-04-03T21:54:08Z,2025-04-08T15:18:18+00:00,3,113.4,True,24,5,2,389,4,2,6,MERGED
+84925,Update variable names in C.INTERNAL_STATIC_VARS,s-hertel,2025-04-03T16:46:05Z,2025-04-03T21:31:32+00:00,1,4.76,False,11,3,1,459,5,0,5,CLOSED
+84923,Handle None return in _get_collection_name_from_path() to prevent TypeError,aniketpuro,2025-04-03T09:53:39Z,2025-06-24T15:29:13+00:00,9,1973.59,False,1532,664,59,523,15,28,43,CLOSED
+84912,ansible-config: Dump galaxy server config in proper JSON format,Akasurde,2025-03-31T18:34:07Z,2025-04-01T15:36:15+00:00,2,21.04,True,33,21,4,105,2,1,3,MERGED
+84900,Fix apt and dpkg_selections tests,mattclay,2025-03-26T18:34:52Z,2025-03-27T16:05:26+00:00,3,21.51,True,37,24,10,142,0,1,1,MERGED
+84898,Add support for Windows App Control/WDAC,jborean93,2025-03-26T05:00:12Z,2025-05-21T02:28:59+00:00,13,1341.48,True,2151,59,62,179,9,8,17,MERGED
+84896,Improve vault filter documentation with clearer examples,Ruchip16,2025-03-25T19:42:00Z,2025-03-26T02:14:49+00:00,12,6.55,True,15,7,2,789,2,8,10,MERGED
+84877,find: skip ENOENT while enumerating files,Akasurde,2025-03-21T00:37:10Z,2025-03-24T14:37:02+00:00,9,86.0,True,6,1,2,196,2,3,5,MERGED
+84870,Fix wait_for examples,bcoca,2025-03-20T15:14:18Z,2025-03-20T20:03:26+00:00,1,4.82,True,7,5,1,164,2,0,2,MERGED
+84869,ansible-pull fix adhoc output inconsistencies on changed,bcoca,2025-03-20T13:53:26Z,2025-04-10T18:56:52+00:00,3,509.06,True,93,8,4,129,1,4,5,MERGED
+84868,Windows Exec Runner Update,jborean93,2025-03-20T10:04:02Z,2025-04-01T01:24:36+00:00,30,279.34,True,2036,1496,39,396,6,26,32,MERGED
+84862,Use importlib.resources to read the config from the config package,erdnaxeli,2025-03-19T14:52:54Z,2025-03-25T15:06:45+00:00,4,144.23,False,31,10,2,478,5,1,6,CLOSED
+84852,doc-build: fix doc builds,Akasurde,2025-03-18T14:04:33Z,2025-03-18T15:20:50+00:00,2,1.27,True,1,1,1,105,1,0,1,MERGED
+84848,darwin: simplify the fact code,Akasurde,2025-03-17T23:29:21Z,2025-03-18T14:21:31+00:00,1,14.87,True,1,3,1,129,0,0,0,MERGED
+84847,These actions do not support until,bcoca,2025-03-17T21:35:23Z,2025-04-24T13:50:13+00:00,1,904.25,True,1,1,1,43,0,0,0,MERGED
+84839,"needed intersect, not difference",bcoca,2025-03-17T16:37:27Z,2025-03-19T14:41:30+00:00,1,46.07,True,17,1,4,44,0,0,0,MERGED
+84829,Set IPv4 and IPv6 simultaneously in iptables module,anvitpusalkar,2025-03-14T17:15:30Z,2025-03-21T20:19:59+00:00,1,171.07,True,146,68,3,209,2,0,2,MERGED
+84821,Support freeform parameters,zixin-bit,2025-03-13T05:13:59Z,2025-03-18T15:05:13+00:00,1,129.85,False,49,13,9,101,4,0,4,CLOSED
+84819,🧪 Drop venv when making coverage XML @ CI,webknjaz,2025-03-12T17:59:46Z,2025-03-13T11:24:37+00:00,1,17.41,True,3,3,1,244,0,0,0,MERGED
+84816,pipe/lines: simplify explanation for need for quotes,mkrizek,2025-03-12T14:30:03Z,2025-03-12T16:04:31+00:00,2,1.57,True,10,10,2,306,0,0,0,MERGED
+84806,Added Popen warning to lines.py documentation,partimScurra,2025-03-11T09:09:56Z,2025-03-11T15:38:13+00:00,1,6.47,True,5,0,1,746,2,0,2,MERGED
+84802,dnf5: fix is_installed check for provided packages,mkrizek,2025-03-10T11:54:01Z,2025-03-11T15:27:13+00:00,1,27.55,True,50,0,4,55,2,0,2,MERGED
+84791,"dnf5: use new pkg_gpgcheck option, fallback to deprecated one",mkrizek,2025-03-07T12:20:07Z,2025-03-11T17:11:58+00:00,1,100.86,True,10,1,2,42,1,1,2,MERGED
+84779,facts: use pagesize for darwin,Akasurde,2025-03-05T19:57:18Z,2025-03-11T15:40:47+00:00,2,139.72,True,679,8,7,105,1,1,2,MERGED
+84767,Support download_url without a scheme:host,sivel,2025-03-03T20:34:50Z,2025-04-02T20:21:41+00:00,6,719.78,True,16,7,2,108,2,3,5,MERGED
+84757,core: update b64encode and b64decode doc,Akasurde,2025-02-26T18:38:24Z,2025-02-28T16:37:39+00:00,1,45.99,True,20,0,2,161,2,0,2,MERGED
+84754,"Add ssh-agent launching, and ssh-agent python client",mkrizek,2025-02-26T14:11:49Z,2025-04-10T22:30:34+00:00,83,1040.31,True,1161,6,16,43,4,54,58,MERGED
+84730,Windows - Support WDAC Audit Mode,jborean93,2025-02-19T03:19:15Z,2025-02-19T19:13:29+00:00,1,15.9,True,10,3,2,389,3,0,3,MERGED
+84728,Deprecate strategy plugins,sivel,2025-02-18T15:39:50Z,2025-02-19T20:28:56+00:00,7,28.82,True,35,1,5,81,6,1,7,MERGED
+84712,windows async - refactor async wrapper code,jborean93,2025-02-13T20:49:13Z,2025-03-18T18:47:33+00:00,7,789.97,True,813,230,5,486,2,3,5,MERGED
+84709,Ensure implicit flush_handlers have a parent block,mkrizek,2025-02-13T15:55:35Z,2025-02-18T14:42:36+00:00,1,118.78,True,24,4,2,144,2,0,2,MERGED
+84707,non-confrontational by default,mkrizek,2025-02-12T10:10:17Z,2025-02-12T15:40:37+00:00,2,5.51,True,3,3,1,42,0,0,0,MERGED
+84702,re: maxsplit is now keyword argument,Akasurde,2025-02-11T13:50:14Z,2025-02-11T15:45:03+00:00,1,1.91,True,2,2,2,167,0,0,0,MERGED
+84700,Fix local connection and become issues,nitzmahone,2025-02-11T01:49:20Z,2025-02-13T17:17:58+00:00,4,63.48,True,891,76,30,199,4,3,7,MERGED
+84699,basic: remember the user sensitive information to use later,Akasurde,2025-02-10T17:11:21Z,2025-04-08T14:53:37+00:00,5,1365.7,True,26,16,6,400,5,1,6,MERGED
+84691,Extend description for meta refresh_inventory,felixfontein,2025-02-09T19:45:50Z,2025-02-11T20:00:43+00:00,8,48.25,True,7,2,1,357,1,4,5,MERGED
+84690,ansible-doc: fix indent and line wrapping for first line of (sub-)option and (sub-)return value descriptions,felixfontein,2025-02-09T12:29:45Z,2025-04-14T20:38:22+00:00,1,1544.14,True,36,24,7,1318,3,0,3,MERGED
+84689,template: update links to docs,nuno-silva,2025-02-09T12:20:14Z,2025-02-10T15:43:50+00:00,2,27.39,True,2,2,1,286,1,0,1,MERGED
+84685,Add openSUSE MicroOS to SUSE family list,mwilck,2025-02-07T15:39:33Z,2025-02-11T15:27:11+00:00,3,95.79,True,28,1,3,1092,4,2,6,MERGED
+84684,Fix example in human_to_bytes.yml,sammyhori,2025-02-07T15:05:09Z,2025-02-07T17:30:24+00:00,1,2.42,True,1,1,1,299,0,0,0,MERGED
+84681,🧪 Depend on `setuptools` @ `egg-info` test,webknjaz,2025-02-06T16:43:12Z,2025-02-07T18:43:41+00:00,4,26.01,False,6,0,2,429,0,1,1,CLOSED
+84678,Test include_vars reserved variable matching,s-hertel,2025-02-05T17:11:53Z,2025-02-07T21:16:00+00:00,13,52.07,True,24,8,3,62,0,3,3,MERGED
+84673,linear - don't treat end_role as a run_once task,s-hertel,2025-02-05T14:35:13Z,2025-02-11T14:54:39+00:00,1,144.32,True,7,4,5,52,0,0,0,MERGED
+84665,🧪 Add macOS 15.3 to CI and `ansible-test`,webknjaz,2025-02-04T19:26:59Z,2025-02-25T17:55:03+00:00,6,502.47,True,11,5,3,83,11,2,13,MERGED
+84655,Fixed string type in tags fieldattribute,Akasurde,2025-01-31T19:00:41Z,2025-07-07T18:44:19+00:00,1,3767.73,True,12,2,2,89,1,0,1,MERGED
+84654,Allow callback plugins to be dynamically configured,anvitpusalkar,2025-01-31T18:01:14Z,2025-05-12T17:15:28+00:00,2,2423.24,False,14,0,2,1229,4,1,5,CLOSED
+84641,Use separate venvs for each release command,mattclay,2025-01-30T05:46:29Z,2025-01-30T16:31:36+00:00,1,10.75,True,20,19,1,129,0,0,0,MERGED
+84632,[stable-2.14] ansible-test - Use urllib intead of curl (#84551),mattclay,2025-01-29T05:12:34Z,2025-01-30T17:32:33+00:00,1,36.33,True,45,57,3,224,1,0,1,MERGED
+84631,[stable-2.16] ansible-test - Use urllib intead of curl (#84551),mattclay,2025-01-29T05:12:29Z,2025-01-30T17:31:50+00:00,1,36.32,True,44,57,2,224,0,0,0,MERGED
+84630,[stable-2.17] ansible-test - Use urllib intead of curl (#84551),mattclay,2025-01-29T05:12:25Z,2025-01-30T17:31:45+00:00,1,36.32,True,44,57,2,224,0,0,0,MERGED
+84629,[stable-2.18] ansible-test - Use urllib intead of curl (#84551),mattclay,2025-01-29T05:12:20Z,2025-01-30T17:31:38+00:00,1,36.32,True,44,57,2,224,0,0,0,MERGED
+84626,fix ansible-galaxy-collection resolvelib test,s-hertel,2025-01-28T19:19:42Z,2025-02-11T15:04:02+00:00,1,331.74,True,4,1,2,131,4,0,4,MERGED
+84624,[fix] `warn_if_reserved` expects a list,domq,2025-01-28T15:48:52Z,2025-01-28T18:46:10+00:00,1,2.96,True,1,1,1,100,2,0,2,MERGED
+84621,"Templating overhaul, implement Data Tagging",nitzmahone,2025-01-28T02:03:44Z,2025-04-14T15:54:36+00:00,41,1837.85,True,29677,12555,793,1398,56,24,80,MERGED
+84620,Enable service_facts integration tests on Alpine,Akasurde,2025-01-28T01:57:29Z,2025-04-07T23:03:43+00:00,1,1677.1,False,0,4,1,89,6,1,7,CLOSED
+84610,ansible-test validate-modules - fix ps util checks,jborean93,2025-01-26T20:18:11Z,2025-02-18T21:42:22+00:00,3,553.4,True,104,20,6,200,3,1,4,MERGED
+84608,git: Check repo URL for protocol,Akasurde,2025-01-24T22:42:41Z,2025-01-28T15:31:30+00:00,2,88.81,False,18,0,4,124,3,1,4,CLOSED
+84597,debug: hide loop variables while using var,Akasurde,2025-01-23T16:30:34Z,2025-01-23T23:00:32+00:00,4,6.5,True,7,7,4,105,3,1,4,MERGED
+84592,connection: raise exception return by SSH,Akasurde,2025-01-22T15:57:07Z,2025-01-28T15:05:38+00:00,1,143.14,True,4,0,2,105,4,0,4,MERGED
+84589,Make timeout on become an unreachable error,mkrizek,2025-01-22T13:59:55Z,2025-02-17T14:49:50+00:00,1,624.83,True,59,11,7,67,4,0,4,MERGED
+84575,"reserved vars, avoid gather_subset",bcoca,2025-01-18T01:11:19Z,2025-01-18T02:33:25+00:00,1,1.37,True,8,10,2,31,0,0,0,MERGED
+84568,cache: remove deprecated method,Akasurde,2025-01-16T17:30:41Z,2025-01-21T17:33:22+00:00,1,120.04,True,7,0,2,144,0,0,0,MERGED
+84563,fix template,bcoca,2025-01-15T22:10:00Z,2025-01-16T21:33:43+00:00,1,23.4,True,17,5,4,31,0,1,1,MERGED
+84559,TaskResult.is_failed: unnecessary failed_when_result check,mkrizek,2025-01-15T14:36:59Z,2025-09-04T16:03:38+00:00,1,5569.44,False,31,3,5,248,5,1,6,CLOSED
+84555,Apt key bye,bcoca,2025-01-14T20:10:54Z,2025-01-21T19:45:38+00:00,5,167.58,True,35,14,4,43,0,3,3,MERGED
+84549,remove pointless cache storing os.path.join result,s-hertel,2025-01-13T16:13:02Z,2025-01-14T19:55:33+00:00,1,27.71,True,1,6,1,81,1,0,1,MERGED
+84548,Add missing documentation for update_cache parameter,dermow,2025-01-13T13:22:51Z,2025-01-13T20:15:29+00:00,2,6.88,False,4,0,1,185,2,1,3,CLOSED
+84547,Bump acme test container to 2.3.0,felixfontein,2025-01-12T21:05:53Z,2025-01-13T19:24:56+00:00,2,22.32,True,5,1,2,241,3,2,5,MERGED
+84544,generator: add support for extra vars usage,Akasurde,2025-01-10T23:50:11Z,2025-01-21T20:20:51+00:00,5,260.51,True,85,1,7,105,2,3,5,MERGED
+84541,uri: form location correctly from relative redirect,rmuir,2025-01-10T18:50:36Z,2025-03-18T19:54:49+00:00,4,1609.07,True,50,23,4,864,4,0,4,MERGED
+84539,ssh: Raise sshpass error code,Akasurde,2025-01-10T18:19:44Z,2025-01-22T16:10:03+00:00,3,285.84,False,19,5,3,105,1,2,3,CLOSED
+84536,.github: simplify PR templates,mkrizek,2025-01-09T15:18:40Z,2025-01-14T14:04:43+00:00,1,118.77,True,5,58,5,330,0,0,0,MERGED
+84535,Update ticketing stubs,Akasurde,2025-01-09T15:09:46Z,2025-01-13T20:04:51+00:00,5,100.92,True,29,28,10,115,1,15,16,MERGED
+84533,stdout callback first comment,bcoca,2025-01-08T19:20:29Z,2025-01-21T16:02:03+00:00,1,308.69,True,1,0,1,85,2,0,2,MERGED
+84524,📝 Drop drop-down default note from issue forms,webknjaz,2025-01-07T21:04:24Z,2025-01-08T13:00:26+00:00,6,15.93,True,3,48,3,315,0,3,3,MERGED
+84523,📝 Update the outdated WGs+community links in GH issues,webknjaz,2025-01-07T20:52:17Z,2025-01-08T13:07:04+00:00,2,16.25,True,2,2,1,142,0,1,1,MERGED
+84521,User: Update prompt for SSH key passphrase prompt,Akasurde,2025-01-07T04:38:57Z,2025-01-14T15:35:31+00:00,1,178.94,True,13,3,2,203,0,0,0,MERGED
+84520,Simplified the plugin action check logic in doc.py,Shadowpatriot9,2025-01-07T03:49:36Z,2025-01-10T05:18:45+00:00,1,73.49,False,1,6,1,200,0,1,1,CLOSED
+84510,"constructed, let users know some limitations",bcoca,2025-01-03T16:04:35Z,2025-01-09T21:18:24+00:00,1,149.23,True,4,0,1,152,0,1,1,MERGED
+84504,Set priority=6 for log_invocation() in basic.py,andrew-sayers,2025-01-02T13:23:08Z,2025-01-17T19:23:41+00:00,6,366.01,False,3,1,2,1159,3,1,4,CLOSED
+84496,add get_options function for CallbackBase,simonLeary42,2024-12-27T18:09:08Z,2025-01-08T16:26:42+00:00,6,286.29,True,9,2,3,2331,4,1,5,MERGED
+84494,fix incongruent ansible-vault cli options,bcoca,2024-12-26T17:29:16Z,2025-01-14T15:46:52+00:00,1,454.29,True,20,4,3,137,0,1,1,MERGED
+84491,Allows iptables chain creation with wait parameter,knewsome-cl,2024-12-23T19:55:28Z,2025-01-14T15:43:08+00:00,2,523.79,True,14,2,3,130,0,1,1,MERGED
+84488,Fix undefined variable issue in host_group_vars plugin,xzeck,2024-12-22T07:20:17Z,2025-01-13T16:51:49+00:00,12,537.53,True,11,9,2,261,6,4,10,MERGED
+84487,Mark integration tests as needs/root,leegarrett,2024-12-21T20:39:52Z,2025-05-16T06:13:56+00:00,1,3489.57,True,8,0,8,362,5,0,5,MERGED
+84485,get_url: add support for BSD-style digest,Akasurde,2024-12-20T17:55:45Z,2025-01-14T15:44:30+00:00,1,597.81,True,104,21,4,184,2,0,2,MERGED
+84482,Fix wrong homedir permissions when UMASK is unset in /etc/login.defs …,leegarrett,2024-12-20T00:51:00Z,2025-01-14T19:44:17+00:00,4,618.89,True,26,10,3,934,4,4,8,MERGED
+84477,filters/flatten: fix input documentation,VannTen,2024-12-18T21:25:32Z,2025-01-15T19:26:29+00:00,6,670.02,True,3,2,1,112,1,1,2,MERGED
+84473,`with_dict` type error include value in error message,simonLeary42,2024-12-17T18:22:29Z,2025-01-14T15:21:57+00:00,5,668.99,True,3,1,2,722,1,3,4,MERGED
+84464,fix[doc.py]: path will be undefined,Eason1118,2024-12-11T10:14:22Z,2025-01-14T15:33:43+00:00,2,821.32,True,4,1,2,116,2,1,3,MERGED
+84453,Make sure we are always using Lock from our multiprocessing context,sivel,2024-12-09T23:43:10Z,2024-12-10T15:38:57+00:00,1,15.93,True,8,5,3,131,0,0,0,MERGED
+84445,Improve performance of including tasks into the play,mkrizek,2024-12-09T15:06:24Z,2025-03-24T14:39:17+00:00,1,2519.55,True,9,13,3,628,4,0,4,MERGED
+84442,uri: move follow_redirects to module_utils,Akasurde,2024-12-06T18:26:59Z,2024-12-10T16:08:25+00:00,1,93.69,True,41,21,5,183,0,0,0,MERGED
+84438,wait_for_connection - test connection=local does not emit reset warning,s-hertel,2024-12-05T20:17:48Z,2024-12-05T22:24:48+00:00,1,2.12,True,11,0,1,68,1,0,1,MERGED
+84437,Added None/empty notes to regex_search,bcoca,2024-12-05T20:08:08Z,2024-12-10T15:51:49+00:00,3,115.73,True,4,1,1,42,1,1,2,MERGED
+84436,test: Remove dead code,Akasurde,2024-12-05T19:37:29Z,2024-12-05T22:52:12+00:00,2,3.25,True,4,17,1,89,0,1,1,MERGED
+84432,fix warnings about reserved variable names to cover all sources,bcoca,2024-12-05T15:52:31Z,2025-01-10T18:03:18+00:00,8,866.18,True,69,12,12,135,2,2,4,MERGED
+84426,Fix a debug message error,spyinx,2024-12-04T07:13:56Z,2024-12-10T15:13:23+00:00,4,151.99,True,3,1,2,253,0,1,1,MERGED
+84425,"gather_facts, fix 'smart' handling with network os and 'setup'",bcoca,2024-12-03T21:34:52Z,2024-12-17T15:19:44+00:00,3,329.75,True,39,5,3,247,0,1,1,MERGED
+84422,"copy, prevent internal options in task",bcoca,2024-12-03T16:35:19Z,2024-12-10T15:07:13+00:00,1,166.53,True,22,1,3,44,0,0,0,MERGED
+84409,unarchive: Clamp zip timestamps on 32-bit time_t,stefanor,2024-11-30T22:26:25Z,2024-12-05T22:26:58+00:00,3,120.01,True,34,1,3,868,1,1,2,MERGED
+84402,🧪 Let `ansible-test` diff ancient branches (the expensive way),webknjaz,2024-11-27T14:46:42Z,2025-06-04T06:45:17+00:00,1,4527.98,False,36,5,2,699,2,0,2,CLOSED
+84398,"config lookup, fixes and tests",Akasurde,2024-11-26T23:07:46Z,2024-12-05T19:19:34+00:00,9,212.2,True,106,20,6,125,4,5,9,MERGED
+84396,Add documentation for non-numeric cron scheduling values,norrby,2024-11-26T12:24:13Z,2024-12-17T17:48:59+00:00,1,509.41,True,9,3,1,559,0,0,0,MERGED
+84395,deps: new module utils,russoz,2024-11-26T04:03:48Z,2025-01-14T08:06:19+00:00,4,1180.04,False,184,23,4,703,6,1,7,CLOSED
+84394,Clean up interpreter discovery,mattclay,2024-11-25T22:25:15Z,2025-04-03T18:07:37+00:00,4,3091.71,True,165,317,9,205,7,1,8,MERGED
+84382,Fix the `failed_when` string in the second `ansible.builtin.uri` example,delta512,2024-11-24T07:15:15Z,2024-12-05T20:20:28+00:00,1,277.09,True,1,1,1,13151,2,0,2,MERGED
+84379,Fix integration tests on debian,leegarrett,2024-11-23T12:56:03Z,2025-02-18T21:33:25+00:00,8,2096.62,True,35,47,10,194,10,2,12,MERGED
+84377,Test aliases fix,leegarrett,2024-11-23T10:54:25Z,2024-11-26T00:43:41+00:00,1,61.82,True,20,0,15,251,0,0,0,MERGED
+84373,package_facts: extend note about python3-rpm to cover Fedora 41+,AdamWill,2024-11-22T18:47:28Z,2024-11-29T16:19:08+00:00,1,165.53,True,1,1,1,459,0,0,0,MERGED
+84371,add rootdir support to user module (FreeBSD only),TLINDEN,2024-11-22T12:01:58Z,2024-11-26T10:59:19+00:00,1,94.96,False,57,19,1,489,5,1,6,CLOSED
+84366,ansible-test - fix coverage for test modules,jborean93,2024-11-22T03:36:33Z,2024-11-27T03:43:06+00:00,1,120.11,True,83,5,9,314,5,0,5,MERGED
+84362,Coverage for virtual/hpux.py,Akasurde,2024-11-21T17:19:53Z,2024-12-03T15:41:56+00:00,1,286.37,True,82,0,1,89,2,0,2,MERGED
+84357,Coverage for virtual/sunos.py,Akasurde,2024-11-21T00:28:41Z,2024-12-03T17:11:49+00:00,1,304.72,True,197,15,3,89,0,0,0,MERGED
+84356,test coverage for virtual/sysctl.py,Akasurde,2024-11-20T22:13:00Z,2024-12-03T15:33:30+00:00,1,305.34,True,147,16,2,89,1,0,1,MERGED
+84352,Docs: Replaces module reference with backticks,oraNod,2024-11-20T17:30:16Z,2024-11-20T20:05:23+00:00,1,2.59,False,1,1,1,327,1,0,1,CLOSED
+84345,copy: implicitly create directories,spyinx,2024-11-20T04:55:50Z,2025-07-31T00:34:27+00:00,4,6067.64,False,65,3,3,141,4,1,5,CLOSED
+84336,Changed human_to_bytes input to a string,sammyhori,2024-11-19T13:24:38Z,2024-12-03T15:18:37+00:00,1,337.9,True,1,1,1,349,1,0,1,MERGED
+84335,dnf5 - consolidate package resolving settings,mkrizek,2024-11-19T09:52:30Z,2024-11-19T17:00:35+00:00,1,7.13,True,42,8,3,75,2,0,2,MERGED
+84330,Fix CVE-2024-11079 hostvars unsafe context,jborean93,2024-11-18T18:27:39Z,2024-11-19T20:30:11+00:00,5,26.04,False,4966,4498,804,149,2,5,7,CLOSED
+84326,fix documentation about avoiding apt_key,LorenzoBettini,2024-11-17T13:48:58Z,2024-12-03T15:14:37+00:00,1,385.43,True,1,1,1,144,2,0,2,MERGED
+84325,validate-modules: enforce FQCNs in seealso plugin/module entries,felixfontein,2024-11-16T21:35:52Z,2025-01-13T22:24:09+00:00,1,1392.8,True,15,2,2,293,6,0,6,MERGED
+84322,Added examples for password_hash,Akasurde,2024-11-15T16:22:33Z,2024-12-03T15:14:49+00:00,2,430.87,True,8,0,1,103,4,2,6,MERGED
+84321,Add ansible_uptime_seconds support for AIX,schroeert,2024-11-15T11:54:12Z,2024-12-03T15:12:39+00:00,3,435.31,True,36,0,2,352,2,1,3,MERGED
+84315,Additional tests for lookup_sequence,Akasurde,2024-11-14T17:52:29Z,2024-12-03T15:06:29+00:00,4,453.23,True,13,0,1,148,1,1,2,MERGED
+84313,simplify copy module,s-hertel,2024-11-14T16:47:06Z,2024-12-10T14:09:15+00:00,5,621.37,True,47,130,2,262,8,2,10,MERGED
+84310,improve ansible-galaxy-collection test failure logs for CI,s-hertel,2024-11-13T17:04:03Z,2025-04-18T14:32:58+00:00,1,3741.48,False,8,0,2,325,0,0,0,CLOSED
+84308,Fix ansible-galaxy-collection test and add assertion for the expected error,s-hertel,2024-11-13T14:39:29Z,2025-04-14T20:37:38+00:00,1,3653.97,False,10,1,1,183,1,0,1,CLOSED
+84307,Fix ansible/ansible#84295 (action/include_vars.py),krokwen,2024-11-13T11:00:08Z,2024-11-14T18:50:16+00:00,2,31.84,False,3,0,1,415,1,1,2,CLOSED
+84306,Removed deprecated include_delegate_to param,Akasurde,2024-11-13T02:29:51Z,2024-12-03T15:04:32+00:00,1,492.58,True,4,7,3,169,1,0,1,MERGED
+84303,include_vars - fix including new hash variables with hash_behaviour: merge,s-hertel,2024-11-12T17:04:23Z,2024-11-14T18:50:14+00:00,1,49.76,True,6,3,3,66,2,0,2,MERGED
+84300,vars & varnames lookups add more examples and more varied,bcoca,2024-11-12T15:57:08Z,2024-11-12T21:05:41+00:00,1,5.14,True,20,7,2,178,2,0,2,MERGED
+84299,Fix AnsibleContext and hostvars to preserve unsafe,bcoca,2024-11-12T15:04:11Z,2024-11-19T14:55:39+00:00,4,167.86,False,238,74,11,134,3,3,6,CLOSED
+84292,"dnf5,apt: add auto_install_module_deps option",mkrizek,2024-11-11T11:32:00Z,2024-11-21T16:06:18+00:00,4,244.57,True,132,61,5,56,2,1,3,MERGED
+84289,Create ~/.ssh with a specific permissions (ansible#84286),spyinx,2024-11-09T07:52:45Z,2025-07-31T00:33:27+00:00,3,6328.68,False,40,8,4,152,8,1,9,CLOSED
+84287,Deprecated libvirt_lxc_noseclabel config,Akasurde,2024-11-08T16:33:54Z,2024-11-12T15:13:45+00:00,1,94.66,True,7,1,2,139,2,0,2,MERGED
+84284,Add tests for deprecations,Akasurde,2024-11-07T23:36:42Z,2024-11-12T15:09:39+00:00,1,111.55,True,12,3,2,185,0,0,0,MERGED
+84275,dnf5: fix is_installed check,mkrizek,2024-11-07T12:44:57Z,2024-11-19T08:32:04+00:00,1,283.79,True,67,1,4,55,0,0,0,MERGED
+84270,"Remove support for resolvelib < 0.8.0, since 0.8.0 is over 3 years old",s-hertel,2024-11-06T17:35:02Z,2025-10-01T19:03:23+00:00,16,7897.47,False,38,129,4,227,10,10,20,CLOSED
+84254,lookup_template: added trim_blocks option,Akasurde,2024-11-04T18:37:18Z,2024-12-06T15:44:08+00:00,1,765.11,True,67,6,7,215,4,0,4,MERGED
+84245,Removed deprecated STRING_CONVERSION_ACTION,Akasurde,2024-11-04T16:41:34Z,2024-11-05T15:27:13+00:00,2,22.76,True,3,25,6,105,2,0,2,MERGED
+84240,ssh: Fix reset_connection with templated ansible_ssh_executable,moreati,2024-11-03T16:01:12Z,2024-12-05T20:54:47+00:00,7,772.89,True,35,14,6,2407,1,5,6,MERGED
+84237,Fixed ipv6 pattern in parse_address,spyinx,2024-11-02T03:24:46Z,2024-11-05T16:05:22+00:00,2,84.68,True,6,2,3,73,3,1,4,MERGED
+84236,ansible-test - Replace FreeBSD 13.3 with 13.4,mattclay,2024-11-01T22:55:26Z,2024-11-07T21:19:26+00:00,5,142.4,True,20,20,9,87,1,1,2,MERGED
+84218,update ansible-galaxy's resolvelib requirement upperbound from 1.1.0 to 2.0.0,s-hertel,2024-11-01T16:07:53Z,2024-11-06T15:20:26+00:00,3,119.21,True,13,9,5,283,4,1,5,MERGED
+84212,Python binary should not be python at first try for env-setup.fish,dangoncalves,2024-10-31T14:05:39Z,2024-11-05T15:13:52+00:00,1,121.14,True,15,15,1,918,0,0,0,MERGED
+84209,test: Update regex for required and default in FieldAttributes,Akasurde,2024-10-30T19:36:48Z,2025-01-03T02:14:57+00:00,5,1542.64,True,16,11,2,105,4,3,7,MERGED
+84195,New release v2.16.13rc1,mattclay,2024-10-29T17:50:57Z,2024-10-29T18:53:55+00:00,1,1.05,True,70,2,5,63,0,0,0,MERGED
+84194,New release v2.17.6rc1,mattclay,2024-10-29T17:49:07Z,2024-10-29T18:53:46+00:00,1,1.08,True,89,2,5,62,0,0,0,MERGED
+84193,New release v2.18.0rc2,mattclay,2024-10-29T17:47:21Z,2024-10-29T18:50:00+00:00,1,1.04,True,49,14,5,62,0,0,0,MERGED
+84192,Link to role argspec docs,sivel,2024-10-29T16:16:00Z,2024-11-04T23:06:58+00:00,2,150.85,True,4,1,1,101,1,0,1,MERGED
+84191,"command module, fix docs to reflect reality",bcoca,2024-10-29T14:06:26Z,2024-11-07T21:22:41+00:00,1,223.27,True,6,7,1,294,0,0,0,MERGED
+84189,[stable-2.14] ansible-test - Improve container probe error handling,mattclay,2024-10-28T20:35:21Z,2024-10-29T16:53:02+00:00,1,20.29,True,28,9,3,93,3,0,3,MERGED
+84188,[stable-2.15] ansible-test - Improve container probe error handling,mattclay,2024-10-28T20:35:18Z,2024-10-29T17:28:35+00:00,1,20.89,True,28,9,3,93,3,0,3,MERGED
+84186,encrypt: raise error on passing unsupported passlib hashtype,Akasurde,2024-10-28T18:32:08Z,2024-10-31T15:27:37+00:00,1,68.92,True,8,19,4,182,4,0,4,MERGED
+84175,Add a test using ignore_errors as a variable,s-hertel,2024-10-25T17:28:14Z,2024-10-29T15:32:18+00:00,2,94.07,True,33,2,4,108,0,0,0,MERGED
+84173,Simplify global loop result processing,mkrizek,2024-10-25T09:38:02Z,2025-09-04T15:25:04+00:00,6,7541.78,False,43,44,2,42,3,1,4,CLOSED
+84166,add to commands and improve the code state,Naresh2807,2024-10-24T17:43:07Z,2024-12-03T15:55:29+00:00,2,958.21,False,37,38,1,123,4,4,8,CLOSED
+84161,Remove deprecated pycompat24 and importlib,Akasurde,2024-10-23T23:13:10Z,2024-10-29T15:14:02+00:00,1,136.01,True,8,127,6,91,3,0,3,MERGED
+84158,Change changelog type from bugfixes to removed_features,Akasurde,2024-10-23T17:14:24Z,2024-10-29T15:09:20+00:00,1,141.92,True,1,1,1,91,0,0,0,MERGED
+84156,Remove deprecated plural form of collection path,Akasurde,2024-10-23T03:15:12Z,2024-10-29T15:07:20+00:00,2,155.87,True,4,10,3,153,0,1,1,MERGED
+84155,Remove deprecated compat.selector,Akasurde,2024-10-23T03:09:08Z,2024-10-23T14:54:40+00:00,1,11.76,True,3,66,4,134,2,0,2,MERGED
+84154,Allow async_status jid to be the full results_file path,sivel,2024-10-22T20:03:48Z,2025-04-28T17:12:13+00:00,2,4509.14,False,38,15,7,544,0,1,1,CLOSED
+84153,test: fix check_required_by,Akasurde,2024-10-22T15:59:42Z,2024-11-02T17:36:46+00:00,4,265.62,True,14,34,2,245,2,3,5,MERGED
+84149,Add --flush-cache for ad-hoc commands,anvitpusalkar,2024-10-20T14:21:56Z,2024-10-30T18:59:02+00:00,9,244.62,True,23,12,5,670,10,3,13,MERGED
+84146,chg(meta/main): Fixing linting issue,Spreadcat,2024-10-19T15:59:50Z,2024-10-23T15:43:18+00:00,10,95.72,False,14,12,2,1042,1,5,6,CLOSED
+84143,Preserve `_ansible_no_log` from action result; fix `include_vars` to set properly,nitzmahone,2024-10-18T18:38:46Z,2024-10-24T22:56:54+00:00,7,148.3,True,157,46,15,1095,0,2,2,MERGED
+84136,Trim `selinux_policytype` @ integration tests,webknjaz,2024-10-18T01:31:20Z,2024-10-18T16:25:40+00:00,1,14.91,True,1,1,1,360,1,0,1,MERGED
+84135,connection: use inventory_hostname for generating control path,Akasurde,2024-10-18T00:15:12Z,2025-01-16T16:28:02+00:00,1,2176.21,False,29,5,6,160,2,1,3,CLOSED
+84130,Remove configuration options that are documented in inventory plugins,s-hertel,2024-10-16T15:31:21Z,2024-10-16T19:39:16+00:00,1,4.13,True,0,54,1,318,0,0,0,MERGED
+84129,test: Use password lookup instead of range,cjwatson,2024-10-16T15:27:31Z,2024-10-17T19:17:43+00:00,1,27.84,True,1,1,1,450,0,1,1,MERGED
+84126,docs: print deprecation collection name,Akasurde,2024-10-15T22:43:59Z,2024-10-25T18:20:11+00:00,4,235.6,True,11,3,5,202,4,1,5,MERGED
+84125,Add warning message for files doc_fragment,Akasurde,2024-10-15T18:59:25Z,2025-01-24T16:16:07+00:00,3,2421.28,False,64,0,3,176,4,1,5,CLOSED
+84112,[stable-2.16] ansible-test - Improve container probe error handling,mattclay,2024-10-10T23:09:17Z,2024-10-11T16:58:07+00:00,1,17.81,True,28,9,3,93,0,0,0,MERGED
+84111,[stable-2.17] ansible-test - Improve container probe error handling,mattclay,2024-10-10T23:09:08Z,2024-10-11T16:58:04+00:00,1,17.82,True,28,9,3,93,0,0,0,MERGED
+84110,[stable-2.18] ansible-test - Improve container probe error handling,mattclay,2024-10-10T23:08:58Z,2024-10-11T16:58:00+00:00,1,17.82,True,28,9,3,93,0,0,0,MERGED
+84102,Add /usr/local/bin in search path,zhan9san,2024-10-10T08:28:54Z,2024-10-15T16:29:36+00:00,7,128.01,False,22,1,3,1217,7,2,9,CLOSED
+84091,Faster host removal from a handler,mkrizek,2024-10-09T12:47:18Z,2024-10-17T06:33:39+00:00,4,185.77,True,7,1,1,320,0,1,1,MERGED
+84088,Fixed broken tests,Akasurde,2024-10-09T00:09:10Z,2024-10-18T21:11:34+00:00,10,237.04,True,53,90,6,153,2,13,15,MERGED
+84085,Remove unnecessary code,Akasurde,2024-10-08T20:52:25Z,2024-10-15T14:59:01+00:00,1,162.11,True,2,6,1,172,0,1,1,MERGED
+84078,Update unique filter docs,Akasurde,2024-10-08T17:04:11Z,2024-10-08T19:09:07+00:00,1,2.08,True,19,3,1,141,2,0,2,MERGED
+84077,[WIP] Copy: opt for sha256 instead of sha1,Akasurde,2024-10-08T14:58:50Z,2025-01-24T16:15:53+00:00,2,2593.28,False,20,16,6,89,2,2,4,CLOSED
+84057,Add missing documentation for sftp_batch_mode and environment variables.,heet007-code,2024-10-05T20:58:10Z,2025-06-05T05:29:14+00:00,4,5816.52,False,3,1,1,1380,5,2,7,CLOSED
+84053,Use more secure hashing functions,Akasurde,2024-10-04T18:16:36Z,2025-02-04T23:53:35+00:00,4,2957.62,False,317,198,13,246,3,3,6,CLOSED
+84049,Fix returning unreachable for looped tasks,s-hertel,2024-10-03T21:21:30Z,2024-10-30T14:35:23+00:00,2,641.23,True,52,0,4,133,2,0,2,MERGED
+84043,file: simplify the code,Akasurde,2024-10-02T22:46:19Z,2024-10-03T13:53:09+00:00,2,15.11,True,126,94,2,142,0,0,0,MERGED
+84041,Use sentinel everywhere,Akasurde,2024-10-02T14:32:53Z,2024-10-02T22:49:35+00:00,4,8.28,True,92,94,19,91,2,2,4,MERGED
+84040,Move processing includes into ``StrategyBase``,mkrizek,2024-10-02T10:32:01Z,2025-09-04T15:22:22+00:00,2,8092.84,False,271,360,5,55,2,2,4,CLOSED
+84038,Update template.py,anadevti,2024-10-01T23:09:10Z,2024-10-04T21:03:01+00:00,1,69.9,False,18,14,1,754,3,0,3,CLOSED
+84015,uri: Handle HTTP exception raised,Akasurde,2024-09-27T01:50:17Z,2025-01-21T21:39:29+00:00,1,2803.82,True,41,2,4,185,2,0,2,MERGED
+84012,facts: Skip path if the distribution path is directory,Akasurde,2024-09-25T22:53:45Z,2024-09-26T19:05:57+00:00,2,20.2,True,21,1,3,228,0,1,1,MERGED
+84011,Improved documentation on READ.ME,rehamansoor,2024-09-25T21:31:27Z,2024-11-15T12:19:10+00:00,2,1214.8,False,44,0,1,169,3,2,5,CLOSED
+84008,Add additional logging for SSH runtime output timeouts and escalation messages,uber-dendy,2024-09-25T11:26:16Z,2024-09-30T15:26:21+00:00,4,124.0,True,12,7,2,1762,5,2,7,MERGED
+84007,Reduce number of implicit meta tasks,mkrizek,2024-09-25T10:59:21Z,2024-10-03T14:02:02+00:00,6,195.04,True,93,152,10,566,3,2,5,MERGED
+84001,INVENTORY_IGNORE_EXTS stop ignoring ini,bcoca,2024-09-24T18:10:15Z,2024-09-26T19:15:34+00:00,2,49.09,True,5,1,3,237,1,1,2,MERGED
+83995,package/dnf action plugins: better facts failure msg,mkrizek,2024-09-24T11:57:31Z,2024-09-26T07:19:00+00:00,3,43.36,True,14,9,3,1150,2,1,3,MERGED
+83982,split: Fix incorrect example result of the split builtin filter,brlin-tw,2024-09-23T14:58:53Z,2024-09-24T15:33:26+00:00,1,24.58,True,1,1,1,359,0,0,0,MERGED
+83979,ansible-galaxy - include the action in the usage,s-hertel,2024-09-23T12:56:17Z,2024-09-23T14:04:45+00:00,1,1.14,True,1,1,1,115,0,1,1,MERGED
+83969,dnf5: fix tb when plugins API is not available,mkrizek,2024-09-19T11:30:06Z,2024-09-24T08:52:20+00:00,1,117.37,True,11,1,2,62,0,0,0,MERGED
+83968,Implicit flush_handlers inherit play tags,mkrizek,2024-09-19T10:45:29Z,2024-10-04T07:47:29+00:00,8,357.03,True,41,12,5,54,0,1,1,MERGED
+83965,Add basic validation for action_groups,felixfontein,2024-09-18T19:19:04Z,2024-09-24T15:15:44+00:00,2,139.94,True,60,1,6,90,0,1,1,MERGED
+83962,ansible-test no longer needs special casing in `__main__.py`,sivel,2024-09-18T15:48:38Z,2024-09-19T14:56:46+00:00,1,23.14,True,2,17,1,172,0,0,0,MERGED
+83961,dnf5: re-introduce ``state: installed`` alias,mkrizek,2024-09-18T14:17:22Z,2024-09-23T07:33:38+00:00,1,113.27,True,5,3,3,55,0,0,0,MERGED
+83956,"user module, avoid chmoding symlink'd home file",bcoca,2024-09-17T19:27:01Z,2024-10-08T17:15:34+00:00,7,501.81,True,74,2,4,44,0,5,5,MERGED
+83953,timedout extended,bcoca,2024-09-17T16:06:51Z,2024-09-18T14:58:30+00:00,1,22.86,True,46,1,5,87,0,0,0,MERGED
+83949,Remove remaining 2.18 deprecations,sivel,2024-09-16T22:08:42Z,2024-09-24T00:57:44+00:00,2,170.82,True,61,58,10,300,2,1,3,MERGED
+83945,Fix error message given by ansible.module_utils.facts.timeout.timeout,s-hertel,2024-09-13T03:17:31Z,2024-10-03T21:54:54+00:00,5,498.62,True,4,4,3,107,2,2,4,MERGED
+83936,Remove reliance on `sshpass` and utilize `SSH_ASKPASS`,sivel,2024-09-11T18:41:11Z,2025-03-17T15:07:45+00:00,43,4484.44,True,242,105,9,1626,12,21,33,MERGED
+83934,DRAFT: Add YAML tags for controlling variable merge behavior,phemmer,2024-09-10T17:57:59Z,2024-10-01T15:14:35+00:00,1,501.28,False,94,26,5,3084,4,5,9,CLOSED
+83933,"Ansible Errors, Don't hide stacked messages when yaml",bcoca,2024-09-10T17:31:29Z,2024-09-24T17:58:41+00:00,2,336.45,True,16,8,4,31,0,1,1,MERGED
+83925,Replace binary_modules Makefile with Python script,mattclay,2024-09-09T18:41:18Z,2024-09-09T22:06:36+00:00,1,3.42,True,41,18,2,107,0,0,0,MERGED
+83919,Clarify galaxy CLI --help about install locations,s-hertel,2024-09-09T16:58:21Z,2024-09-18T19:07:21+00:00,8,218.15,True,32,4,2,4378,0,3,3,MERGED
+83913,file module: Clarify the docs that the force parameter works for hardlinks too,arrowd,2024-09-06T15:45:51Z,2024-09-11T09:05:16+00:00,4,113.32,True,2,2,1,151,0,1,1,MERGED
+83910,Add initial SonarCloud config,webknjaz,2024-09-06T13:27:13Z,2024-09-10T15:32:09+00:00,1,98.08,False,68,0,1,626,1,2,3,CLOSED
+83909,Stop suggesting `easy_install` in hacking,webknjaz,2024-09-06T13:20:48Z,2024-09-06T15:13:06+00:00,1,1.87,True,1,1,1,229,0,0,0,MERGED
+83907,Fix iptables test for case when iptables exists,bcoca,2024-09-05T18:50:56Z,2024-09-06T20:57:05+00:00,3,26.1,True,1,18,2,64,0,1,1,MERGED
+83905,Pr 47344,bcoca,2024-09-05T16:04:49Z,2024-09-10T16:16:33+00:00,3,120.2,False,45,1,3,49,0,1,1,CLOSED
+83901,delay keyword changed from int to float,bcoca,2024-09-04T15:07:17Z,2024-09-06T04:50:35+00:00,1,37.72,True,46,25,3,173,0,0,0,MERGED
+83892,release.py - Include pyproject.toml in git add,mattclay,2024-09-03T21:09:53Z,2024-09-04T04:27:50+00:00,1,7.3,True,1,0,1,86,0,0,0,MERGED
+83880,Add DaemonThreadPoolExecutor impl,nitzmahone,2024-08-31T00:58:00Z,2024-09-03T18:23:39+00:00,2,89.43,True,126,0,8,365,0,0,0,MERGED
+83876,Add location on include_tasks fail inside include,jborean93,2024-08-29T23:48:40Z,2024-09-01T20:21:30+00:00,1,68.55,True,23,1,5,997,1,0,1,MERGED
+83875,Remove references to IRC & Google Groups,gundalow,2024-08-29T18:18:04Z,2024-08-29T19:25:17+00:00,2,1.12,True,10,14,4,123,0,0,0,MERGED
+83866,"fact gathering, mounts, fixes for single proc code and tests",bcoca,2024-08-27T12:53:19Z,2024-09-10T16:15:29+00:00,11,339.37,True,40,105,5,165,1,8,9,MERGED
+83864,decimal truncation prevention,bcoca,2024-08-27T00:10:01Z,2024-09-20T14:06:15+00:00,17,589.94,True,43,110,9,31,0,10,10,MERGED
+83862,Update communication links for the forum,oraNod,2024-08-26T18:34:38Z,2024-09-16T11:43:30+00:00,4,497.15,True,60,42,6,311,8,3,11,MERGED
+83860,"copy, fix permissions and atime on diff partitions (#83824)",bcoca,2024-08-26T18:26:23Z,2024-08-28T16:12:20+00:00,1,45.77,False,89,1,3,114,1,1,2,CLOSED
+83855,package_facts fix empty packages on forgein mgr,bcoca,2024-08-26T18:09:28Z,2024-11-12T13:36:26+00:00,12,1867.45,True,57,3,3,44,0,4,4,MERGED
+83846,[stable-2.16] Fix module arg parsing with respawned module on Python 2,sivel,2024-08-22T20:19:29Z,2024-08-28T19:42:48+00:00,2,143.39,True,4,1,2,134,2,1,3,MERGED
+83843,[stable-2.17] config base: fix typo in option description,gotmax23,2024-08-22T16:20:06Z,2024-08-28T19:42:10+00:00,1,147.37,True,1,1,1,182,2,0,2,MERGED
+83834,Update raw SSH behaviour on Windows and expand test matrix,jborean93,2024-08-21T04:02:50Z,2024-08-28T20:27:16+00:00,1,184.41,True,116,71,14,484,0,0,0,MERGED
+83830,Fix up raw_params for ansible.windows modules,jborean93,2024-08-19T21:13:36Z,2024-08-19T22:59:07+00:00,1,1.76,True,30,9,2,521,0,0,0,MERGED
+83828,Add sonarcloud config,sivel,2024-08-19T20:44:44Z,2024-08-20T21:29:22+00:00,3,24.74,False,8,0,2,83,1,1,2,CLOSED
+83824,"copy, fix permissions and atime on diff partitions",bcoca,2024-08-19T16:22:24Z,2024-08-26T18:22:15+00:00,3,170.0,True,49,3,3,66,0,1,1,MERGED
+83815,add sftp_batch_mode description,NagaganeshwarAnand,2024-08-17T11:55:10Z,2025-06-05T05:29:00+00:00,1,7001.56,False,1,1,1,1523,1,1,2,CLOSED
+83806,Update user.py,Dule-martins,2024-08-15T20:08:40Z,2024-08-22T19:27:34+00:00,4,167.31,False,15,1,1,236,5,2,7,CLOSED
+83804,Add fact about physical memory size on linux,Klaas-,2024-08-15T16:04:16Z,2024-08-22T19:25:12+00:00,12,171.35,False,19,0,1,1511,1,2,3,CLOSED
+83803,galaxy-cli tasking polling interval from environment variable,jctanner,2024-08-15T14:20:09Z,2024-08-26T14:14:51+00:00,9,263.91,True,23,2,3,302,3,3,6,MERGED
+83797,ansible-test - Add Windows remote connection option,mattclay,2024-08-14T20:52:38Z,2024-08-15T20:40:42+00:00,1,23.8,True,82,20,11,92,0,0,0,MERGED
+83793,PlayIterator: skip tasks from already ran roles,mkrizek,2024-08-14T15:06:58Z,2024-10-08T05:28:03+00:00,1,1310.35,True,23,29,6,88,0,0,0,MERGED
+83786,ansible-test - Remove generation of egg-info,mattclay,2024-08-14T00:56:41Z,2024-08-14T16:03:52+00:00,2,15.12,True,5,64,4,103,2,0,2,MERGED
+83777,Fix ansible-vault integration test,s-hertel,2024-08-13T14:02:56Z,2024-08-13T21:20:40+00:00,4,7.3,True,12,11,1,201,0,1,1,MERGED
+83773,ini lookup: add new interpolation option,mkrizek,2024-08-13T08:20:41Z,2024-08-13T15:04:43+00:00,1,6.73,True,26,1,6,55,0,0,0,MERGED
+83772,Suppress cryptography warnings for paramiko,mattclay,2024-08-12T22:30:48Z,2024-08-13T00:28:27+00:00,3,1.96,True,8,1,2,84,3,1,4,MERGED
+83766,clarify ansible.builtin.success documentation,s-hertel,2024-08-12T19:27:47Z,2024-08-26T14:10:01+00:00,4,330.7,False,5,3,2,275,1,2,3,CLOSED
+83761,Print the name of the option being deprecated,mkrizek,2024-08-12T09:38:22Z,2024-08-27T09:59:11+00:00,1,360.35,True,8,18,4,55,2,0,2,MERGED
+83758,Sequence query fix,MooseAnthem,2024-08-09T20:40:21Z,2024-11-14T03:46:57+00:00,7,2311.11,True,48,7,3,3207,4,3,7,MERGED
+83756,Ensure skipped loop iteration register var is available,mkrizek,2024-08-09T14:34:52Z,2024-08-13T17:48:49+00:00,1,99.23,True,33,9,5,55,0,0,0,MERGED
+83753,ssh and psrp - Support more complex characters in fetch_file,jborean93,2024-08-08T19:41:43Z,2024-08-18T18:21:24+00:00,1,238.66,True,51,23,5,520,4,0,4,MERGED
+83750,"Gather mount facts, fallback for when multiproc is not feasable",bcoca,2024-08-08T15:27:10Z,2024-08-19T14:25:30+00:00,6,262.97,True,104,39,6,44,0,2,2,MERGED
+83748,get_url: properly parse filename in content-disposition,mkrizek,2024-08-08T12:48:21Z,2024-10-03T13:36:42+00:00,2,1344.81,True,41,22,4,397,4,1,5,MERGED
+83739,cidr host list inventory plugin,bcoca,2024-08-07T14:14:56Z,2025-02-06T15:58:42+00:00,2,4393.73,False,90,4,3,657,2,2,4,CLOSED
+83738,use diff intermediate var to preserve functionality,bcoca,2024-08-07T13:23:31Z,2024-08-08T19:18:00+00:00,1,29.91,True,31,2,3,54,3,1,4,MERGED
+83724,Fix type hints and misc mypy/pylint issues,mattclay,2024-08-06T01:15:31Z,2024-08-06T02:30:37+00:00,2,1.25,True,17,20,4,82,0,1,1,MERGED
+83718,atomic_move - fix creating file in directory with setgid bit,s-hertel,2024-08-05T14:39:34Z,2024-08-12T14:34:20+00:00,3,167.91,True,48,1,5,65,3,1,4,MERGED
+83717,Add vaulted_file test,bcoca,2024-08-05T14:31:57Z,2024-08-08T19:14:05+00:00,2,76.7,True,74,14,11,73,2,3,5,MERGED
+83716,Enable validation of subkeys in rpm key module,kellinm,2024-08-04T06:15:45Z,2024-08-12T14:13:39+00:00,5,199.97,True,96,11,3,891,0,1,1,MERGED
+83713,release.py - Auto-update setuptools upper bound,mattclay,2024-08-02T22:12:29Z,2024-08-05T21:59:27+00:00,2,71.78,True,77,17,3,815,0,1,1,MERGED
+83712,Fix display to log severity mapping,bcoca,2024-08-02T17:45:17Z,2024-08-06T20:18:03+00:00,2,98.55,True,49,21,4,246,2,1,3,MERGED
+83711,fix: `COLOR_INCLUDED` to colorize `included` output,akire0ne,2024-08-02T17:04:50Z,2024-08-09T14:26:22+00:00,4,165.36,True,14,1,4,429,4,1,5,MERGED
+83710,fix error message when csvfile receives no search term,s-hertel,2024-08-02T14:51:49Z,2024-08-06T21:50:51+00:00,2,102.98,True,31,0,3,441,0,0,0,MERGED
+83705,Clarify definition of ansible.builtin.success,rptaylor,2024-08-01T18:13:33Z,2024-08-22T22:38:05+00:00,30,508.41,False,3,3,1,262,13,5,18,CLOSED
+83700,Enable file module to disable diff_mode,cavcrosby,2024-08-01T14:10:01Z,2024-10-25T18:32:11+00:00,2,2044.37,True,56,0,6,57,7,1,8,MERGED
+83696,test: Remove unreachable tests,Akasurde,2024-07-31T21:02:04Z,2024-10-18T19:23:41+00:00,2,1894.36,True,0,147,1,188,3,1,4,MERGED
+83694,tests: use keyserver with keyid while using apt_key,Akasurde,2024-07-31T18:14:43Z,2024-07-31T22:52:12+00:00,2,4.62,True,23,8,1,89,0,1,1,MERGED
+83691,Use file name when content-disposition is inline,budgester,2024-07-31T11:06:00Z,2024-10-03T13:37:49+00:00,1,1538.53,False,1,1,1,122,2,1,3,CLOSED
+83688,isidentifier: Remove Python 2 specific code,Akasurde,2024-07-30T20:04:26Z,2024-09-23T20:41:09+00:00,3,1320.61,True,20,34,3,89,4,1,5,MERGED
+83686,test: update tests,Akasurde,2024-07-30T19:47:14Z,2024-08-01T00:32:11+00:00,2,28.75,True,127,132,7,146,0,1,1,MERGED
+83684,systemd facts: Handle AttributeError,Akasurde,2024-07-30T03:02:59Z,2024-08-01T19:09:02+00:00,1,64.1,True,30,10,4,171,3,0,3,MERGED
+83680,Use dict comprehension instead,Akasurde,2024-07-27T16:23:27Z,2024-10-16T19:33:07+00:00,2,1947.16,True,1,5,1,91,2,0,2,MERGED
+83678,[stable-2.16] ansible-test - Improve unknown env error message,Akasurde,2024-07-26T18:29:30Z,2024-07-29T16:20:14+00:00,1,69.85,True,6,1,2,75,0,0,0,MERGED
+83677,[stable-2.17] ansible-test - Improve unknown env error message,Akasurde,2024-07-26T18:22:40Z,2024-07-29T16:20:04+00:00,1,69.96,True,6,1,2,75,0,0,0,MERGED
+83676,ansible-doc: handle on_fail,Akasurde,2024-07-26T17:23:31Z,2024-08-01T19:08:11+00:00,1,145.74,True,17,2,3,137,0,0,0,MERGED
+83675,Remove extraneous get_bin_path call,Akasurde,2024-07-26T15:24:21Z,2024-08-02T00:12:57+00:00,2,152.81,True,3,2,2,155,1,1,2,MERGED
+83674,Remove selinux import,Akasurde,2024-07-26T04:52:22Z,2024-07-29T16:58:54+00:00,1,84.11,True,3,6,2,169,2,0,2,MERGED
+83673,test: Handle Singleton Display class,Akasurde,2024-07-26T00:08:23Z,2024-08-02T06:21:08+00:00,2,174.21,True,28,10,4,103,0,1,1,MERGED
+83672,Typo fixes and other bits and bobs,leegarrett,2024-07-25T22:41:29Z,2024-07-27T16:16:34+00:00,5,41.58,True,132,132,117,242,0,1,1,MERGED
+83671,Set LANGUAGE environment variable is set to a non-English locale,Akasurde,2024-07-25T21:27:01Z,2024-07-26T22:50:23+00:00,2,25.39,True,7,3,5,105,0,0,0,MERGED
+83670,AI Environment Creation module idea (Intern Project),Naya1217,2024-07-25T18:04:43Z,2024-08-28T15:24:49+00:00,2,813.34,False,172,0,3,607,2,1,3,CLOSED
+83668,Replace random with secrets,Akasurde,2024-07-25T01:14:59Z,2024-07-25T21:31:41+00:00,1,20.28,True,26,23,13,130,0,0,0,MERGED
+83666,user: create Buildroot subclass as alias to Busybox,nemith,2024-07-23T20:21:14Z,2024-11-07T14:45:32+00:00,1,2562.41,True,8,0,2,723,8,0,8,MERGED
+83662,Limit respawn to supported python versions,sivel,2024-07-23T14:28:19Z,2025-03-04T14:43:40+00:00,10,5376.26,True,15,1,2,106,5,3,8,MERGED
+83659,dnf/dnf5: address issues discovered in 2.16 yum tests,mkrizek,2024-07-23T11:16:50Z,2025-07-31T13:08:30+00:00,3,8953.86,True,165,79,3,254,18,1,19,MERGED
+83656,winrm - quota retry handling,jborean93,2024-07-22T23:22:20Z,2024-07-31T18:12:31+00:00,4,210.84,True,68,2,5,1128,0,2,2,MERGED
+83643,remove one ignore clause for module copy,russoz,2024-07-20T05:53:50Z,2024-10-02T13:53:58+00:00,4,1784.0,True,4,3,3,182,4,1,5,MERGED
+83642,remove ignore clauses for module uri,russoz,2024-07-20T05:17:46Z,2024-11-07T14:56:52+00:00,1,2649.65,True,3,1,3,201,3,2,5,MERGED
+83624,dnf/setup_rpm_repo: simplify dummy testing repos,mkrizek,2024-07-17T11:57:02Z,2024-07-29T08:41:23+00:00,3,284.74,True,145,263,13,800,0,2,2,MERGED
+83621,Fix task-adjacent search path in roles,s-hertel,2024-07-16T21:52:05Z,2024-08-06T21:53:23+00:00,1,504.02,True,18,5,6,841,6,0,6,MERGED
+83620,Added info about MacOS targets for cron module,teekwan,2024-07-16T14:59:41Z,2024-07-23T18:37:57+00:00,5,171.64,True,3,0,1,320,2,1,3,MERGED
+83617,Fix file changed detection for get_url in check mode,jorg-vr,2024-07-16T09:46:55Z,2024-08-02T07:23:07+00:00,1,405.6,False,5,5,2,818,6,0,6,CLOSED
+83601,debconf: handle boolean value representation consistently,pabigot,2024-07-13T18:46:01Z,2024-07-18T19:50:32+00:00,4,121.08,True,34,5,3,655,0,1,1,MERGED
+83599,validate-modules: detect names set mismatch between argument spec and documentation,felixfontein,2024-07-13T12:16:44Z,2024-07-28T15:39:01+00:00,1,363.37,True,74,1,4,74,3,0,3,MERGED
+83595,remove ignore clauses for module lineinfile,russoz,2024-07-12T21:45:59Z,2024-07-18T19:51:08+00:00,4,142.09,True,1,6,2,1003,0,1,1,MERGED
+83585,"Vault, adding envelope and cipher, also fixes",bcoca,2024-07-11T17:10:44Z,2024-08-01T15:53:15+00:00,9,502.71,False,664,399,18,630,2,6,8,CLOSED
+83577,remove ignore clauses for module blockinfile,russoz,2024-07-11T02:29:57Z,2024-07-11T15:56:05+00:00,1,13.44,True,1,6,2,917,0,0,0,MERGED
+83575,remove ignore clauses for module find,russoz,2024-07-10T21:48:38Z,2024-07-22T14:10:49+00:00,9,280.37,True,34,5,4,342,0,2,2,MERGED
+83574,remove ignore clauses for module replace,russoz,2024-07-10T21:32:24Z,2024-07-18T19:14:23+00:00,1,189.7,True,1,6,2,728,1,0,1,MERGED
+83573,module compression is now again settable via var,bcoca,2024-07-10T13:57:28Z,2024-07-12T15:38:51+00:00,3,49.69,True,4,2,2,44,2,2,4,MERGED
+83569,feat(service_facts): support user systemd services,hakula139,2024-07-10T03:50:40Z,2025-02-27T03:57:47+00:00,4,5568.12,False,41,7,2,176,1,1,2,CLOSED
+83562,increase timeout downloading galaxy role URLs,s-hertel,2024-07-09T18:35:05Z,2024-07-23T21:56:15+00:00,1,339.35,True,5,1,2,437,6,0,6,MERGED
+83556,dnf: follow-up on is_newer_installed arches fix,mkrizek,2024-07-09T11:01:14Z,2024-07-09T20:26:29+00:00,2,9.42,True,52,8,2,42,1,1,2,MERGED
+83551,Quality-of-life improvements for release tool,mattclay,2024-07-09T00:59:32Z,2024-07-09T17:17:28+00:00,1,16.3,True,7,2,1,206,0,0,0,MERGED
+83547,apt: Report change when package is removed,Akasurde,2024-07-08T21:58:26Z,2024-07-25T15:01:46+00:00,5,401.06,True,84,2,4,205,0,4,4,MERGED
+83543,Ensure that we are handling `DownloadError` properly in the `dnf` module,rebtoor,2024-07-08T11:29:26Z,2024-07-10T16:02:51+00:00,1,52.56,True,4,4,2,2886,3,0,3,MERGED
+83541,Add SL-Micro to Suse family list,HVSharma12,2024-07-06T12:43:31Z,2024-07-08T04:37:32+00:00,2,39.9,True,26,1,3,787,0,1,1,MERGED
+83540,update distro version,DhaneshRaghavan,2024-07-06T06:50:06Z,2024-07-09T16:48:44+00:00,10,81.98,True,11,5,3,188,5,5,10,MERGED
+83530,validate-modules: reject option/alias names equal up to casing belonging to different options,felixfontein,2024-07-04T08:49:34Z,2024-07-05T23:35:55+00:00,2,38.77,True,92,0,4,961,5,1,6,MERGED
+83526,[2.14] 🧪 Switch CentOS 7 yum repo mirrors to the vault,webknjaz,2024-07-03T17:52:26Z,2024-07-03T18:55:24+00:00,1,1.05,True,9,0,1,460,1,0,1,MERGED
+83525,[2.15] 🧪 Switch CentOS 7 yum repo mirrors to the vault,webknjaz,2024-07-03T17:51:43Z,2024-07-03T21:02:04+00:00,1,3.17,True,9,0,1,460,1,0,1,MERGED
+83523,[2.16] 🧪 Switch CentOS 7 yum repo mirrors to the vault,webknjaz,2024-07-03T15:39:47Z,2024-07-03T17:27:57+00:00,1,1.8,True,9,0,1,412,3,0,3,MERGED
+83522,Fix incorrect rc when executing end_host in rescue,mkrizek,2024-07-03T13:17:57Z,2024-07-04T07:19:56+00:00,1,18.03,True,31,4,5,55,2,0,2,MERGED
+83520,package_facts: fix warning logic,flowerysong,2024-07-03T04:54:14Z,2024-07-05T17:27:45+00:00,11,60.56,True,132,74,9,754,3,2,5,MERGED
+83519,[stable-2.17] package_facts: ignore warnings by apk on stderr,Akasurde,2024-07-02T21:12:23Z,2024-07-09T20:44:21+00:00,5,167.53,True,17,1,3,174,0,1,1,MERGED
+83517,known_hosts: don't modify `AnsibleModule.params`,flowerysong,2024-07-02T18:50:33Z,2024-07-09T15:07:45+00:00,3,164.29,True,14,9,2,4959,0,0,0,MERGED
+83511,validate-modules: fix require_only_one,felixfontein,2024-07-02T06:21:22Z,2024-07-02T13:36:23+00:00,1,7.25,True,1,1,1,258,1,0,1,MERGED
+83510,fix module_defaults group incorrectly giving deprecation warnings,s-hertel,2024-07-01T19:30:47Z,2024-07-30T13:45:25+00:00,3,690.24,True,14,4,4,175,2,1,3,MERGED
+83508,Add mount_facts module,s-hertel,2024-07-01T14:22:54Z,2024-09-19T19:05:05+00:00,57,1924.7,True,1847,0,7,344,7,28,35,MERGED
+83507,Added docstrings to V2 methods in the CallbackBase Class (4 & 5 of 27),garciart,2024-07-01T02:10:31Z,2024-12-30T20:58:10+00:00,16,4386.79,True,51,27,1,3742,6,5,11,MERGED
+83500,Replace references to archived ansible/ansible-examples repository,cstiago,2024-06-27T17:29:26Z,2024-07-01T12:06:53+00:00,8,90.62,True,20,20,1,223,5,3,8,MERGED
+83499,Fix tb for when env var contains %,mkrizek,2024-06-27T13:25:22Z,2024-06-28T14:50:45+00:00,3,25.42,True,8,1,3,107,2,1,3,MERGED
+83489,Add dinit as a service_mgr,jcgruenhage,2024-06-26T08:51:46Z,2024-07-08T22:30:10+00:00,3,301.64,True,5,0,2,312,4,1,5,MERGED
+83488,"module_utils, move out file functions from AnsibleModule to common to enable better reuse",bcoca,2024-06-25T16:35:03Z,2025-02-04T15:57:00+00:00,3,5375.37,False,427,317,6,150,2,2,4,CLOSED
+83473,"linear strategy, show templated task name on start",bcoca,2024-06-18T16:15:49Z,2024-06-25T13:24:24+00:00,2,165.14,True,13,14,3,778,2,1,3,MERGED
+83469,ansible-test: update http-test-container to 3.2.0,felixfontein,2024-06-18T13:00:48Z,2024-06-18T20:46:52+00:00,2,7.77,True,3,1,2,180,1,2,3,MERGED
+83468,SSH-Keygen with KDF rounds specified,dorpauli,2024-06-18T12:08:00Z,2024-09-16T15:25:46+00:00,14,2163.3,False,155,0,4,178,17,6,23,CLOSED
+83459,Update the dnf5 copr repo,mkrizek,2024-06-17T09:50:04Z,2024-06-18T15:08:19+00:00,1,29.3,True,1,1,1,90,0,0,0,MERGED
+83458,service_facts on OpenBSD: Don't crash on '=' in rcctl flags.,shiftyphil,2024-06-17T06:46:32Z,2024-06-18T14:00:09+00:00,3,31.23,True,3,1,2,182,0,1,1,MERGED
+83456,unarchive: handle non-ascii filenames in zip file,Akasurde,2024-06-16T20:46:40Z,2024-10-16T13:36:04+00:00,2,2920.82,False,188,62,6,105,0,2,2,CLOSED
+83454,unarchive: handle content and size differences,Akasurde,2024-06-16T04:14:22Z,2024-06-20T17:50:27+00:00,2,109.6,True,125,10,9,182,0,1,1,MERGED
+83453,replace: update after/before example,Akasurde,2024-06-15T16:34:51Z,2024-06-18T15:03:49+00:00,1,70.48,True,4,1,2,103,0,0,0,MERGED
+83438,Fix meta tasks breaking host/fork affinity with host_pinned,mkrizek,2024-06-13T12:58:41Z,2024-08-13T15:39:00+00:00,2,1466.67,True,121,1,7,55,6,1,7,MERGED
+83431,review modules docs - batch(fragments),russoz,2024-06-12T10:04:55Z,2024-07-09T17:13:10+00:00,1,655.14,True,43,44,11,40,3,1,4,MERGED
+83429,dnf: update `use_backend` documentation,flowerysong,2024-06-11T21:15:13Z,2024-06-15T01:12:37+00:00,7,75.96,True,14,3,1,155,0,2,2,MERGED
+83427,Revert warning message in setup/gather_facts,Akasurde,2024-06-11T17:42:19Z,2024-06-11T19:01:29+00:00,3,1.32,True,36,110,20,91,0,1,1,MERGED
+83422,review modules docs - batch(tuvwy),russoz,2024-06-11T11:39:33Z,2024-07-09T19:29:15+00:00,4,679.83,True,32,31,5,40,3,1,4,MERGED
+83420,review modules docs - batch(s),russoz,2024-06-11T10:11:52Z,2024-07-09T19:26:54+00:00,14,681.25,True,21,21,7,39,2,3,5,MERGED
+83418,review modules docs - batch(klmpr),russoz,2024-06-11T08:34:23Z,2024-06-13T19:03:46+00:00,1,58.49,True,26,25,5,40,0,0,0,MERGED
+83417,dnf - arches must be the same in the is_newer_installed check,mkrizek,2024-06-11T07:46:13Z,2024-06-28T09:45:40+00:00,1,409.99,True,23,1,3,55,0,0,0,MERGED
+83404,Clarify documentation for `INJECT_FACTS_AS_VARS`,flowerysong,2024-06-10T15:01:57Z,2024-06-11T15:12:31+00:00,2,24.18,True,1,1,1,207,0,0,0,MERGED
+83403,human_to_bytes: strictly parse strings,yctomwang,2024-06-10T13:38:02Z,2024-06-18T16:21:05+00:00,11,194.72,True,104,4,4,691,0,6,6,MERGED
+83400,Validate and process Handler.listen only once,mkrizek,2024-06-07T11:17:45Z,2024-06-10T15:46:12+00:00,3,76.47,True,18,20,3,67,0,0,0,MERGED
+83399,docs adjustments - batch(ghi),russoz,2024-06-06T21:58:17Z,2024-06-11T15:02:51+00:00,2,113.08,True,50,50,7,40,0,0,0,MERGED
+83393,Fix issue where using listen parameter for handlers in collections could lead to memory issues,ShawnHardwick,2024-06-06T18:18:48Z,2024-06-10T15:55:22+00:00,2,93.61,False,3,1,2,219,6,1,7,CLOSED
+83391,Revert bool filter booleanization strategy option,s-hertel,2024-06-06T16:42:02Z,2024-06-06T21:30:15+00:00,9,4.8,True,15,60,4,321,1,4,5,MERGED
+83389,fix any_errors_fatal tests,s-hertel,2024-06-06T14:58:36Z,2024-06-06T19:25:49+00:00,1,4.45,True,4,6,2,65,0,1,1,MERGED
+83384,vault: Handle directory value to vault password file,Akasurde,2024-06-06T00:20:20Z,2024-06-15T01:40:30+00:00,1,217.34,True,12,0,3,283,0,0,0,MERGED
+83382,[stable-2.14] Drop Alpine 3 docker jobs from CI,webknjaz,2024-06-05T19:32:05Z,2024-06-05T20:35:39+00:00,1,1.06,True,0,4,1,71,0,0,0,MERGED
+83381,display: warn user about empty log path value,Akasurde,2024-06-05T19:11:03Z,2024-07-23T21:21:23+00:00,1,1154.17,True,34,10,4,105,2,0,2,MERGED
+83370,env: update examples for setting default values to variable,krescent,2024-06-05T07:23:41Z,2024-07-21T15:12:55+00:00,5,1111.82,True,8,9,1,227,1,1,2,MERGED
+83369,docs adjustments - batch(def),russoz,2024-06-05T05:36:29Z,2024-06-11T02:16:59+00:00,1,140.68,True,70,70,10,74,3,0,3,MERGED
+83368,docs adjustments (batch 2),russoz,2024-06-05T04:02:34Z,2024-06-06T19:04:48+00:00,2,39.04,True,23,23,6,74,2,1,3,MERGED
+83365,Properly quote all needed components of shell commands,sivel,2024-06-04T16:52:05Z,2024-06-06T20:14:18+00:00,5,51.37,True,98,34,9,118,0,2,2,MERGED
+83364,additional timeout info,bcoca,2024-06-04T15:51:39Z,2024-06-04T18:11:54+00:00,1,2.34,True,9,1,1,390,0,0,0,MERGED
+83363,Fix block rescue when some hosts are failing and rescued not affecting other hosts with run_once as true,yctomwang,2024-06-04T14:35:51Z,2024-06-05T22:45:38+00:00,4,32.16,False,28,1,4,251,0,1,1,CLOSED
+83362,"bool filter, add booleanization strategy option",bcoca,2024-06-04T13:19:25Z,2024-06-06T00:26:01+00:00,2,35.11,True,60,15,4,157,8,4,12,MERGED
+83358,Optimize the get_ini_entries method,ut003460,2024-06-04T03:26:55Z,2024-06-05T01:53:33+00:00,1,22.44,False,3,6,1,525,0,1,1,CLOSED
+83356,facts: add facts about x86_64 flags to detect microarchitecture,Akasurde,2024-06-03T22:18:25Z,2024-06-04T20:35:08+00:00,3,22.28,True,46,14,5,105,0,1,1,MERGED
+83355,add support for inactive option,konstruktoid,2024-06-03T21:43:44Z,2024-06-21T18:31:32+00:00,7,428.8,True,128,0,3,299,2,2,4,MERGED
+83354,Ensure the correct connection name is shown in results,bcoca,2024-06-03T18:48:14Z,2024-06-24T13:52:06+00:00,3,499.06,True,57,2,6,293,0,2,2,MERGED
+83347,Fix Test failure with cowsay installed/present,yctomwang,2024-06-03T10:20:06Z,2024-06-03T13:51:32+00:00,2,3.52,True,4,2,2,236,0,0,0,MERGED
+83342,Added docstrings to V2 methods in the CallbackBase Class (2 & 3 of 27),garciart,2024-06-02T16:38:39Z,2024-06-17T22:33:46+00:00,5,365.92,True,35,11,1,3590,0,3,3,MERGED
+83341,docs adjustments (batch 1),russoz,2024-06-02T09:30:55Z,2024-07-21T15:31:19+00:00,18,1182.01,True,36,36,4,74,4,9,13,MERGED
+83337,Use open with context manager,Akasurde,2024-05-31T16:50:21Z,2024-10-18T17:53:11+00:00,3,3361.05,True,43,66,16,91,4,2,6,MERGED
+83332,ansible-galaxy - fix ignoring certs when installing from git repos,s-hertel,2024-05-30T20:22:40Z,2024-10-07T22:42:50+00:00,1,3122.34,True,49,6,4,52,3,0,3,MERGED
+83325,ansible-test action-plugin-docs Support sidecar docs,jborean93,2024-05-30T03:49:42Z,2024-06-12T20:16:15+00:00,1,328.44,True,109,4,12,189,6,0,6,MERGED
+83322,Provide filename and line number of variable which triggered the deprecation warning,Naya1217,2024-05-29T19:28:39Z,2024-08-01T22:41:42+00:00,7,1539.22,True,5,1,2,161,6,5,11,MERGED
+83317,fix an incorrect quotation mark in failed_when,lalalalelele,2024-05-29T11:54:22Z,2024-12-18T16:46:19+00:00,1,4876.87,False,1,1,1,65,1,1,2,CLOSED
+83311,ansible-doc: make color configurable,Akasurde,2024-05-27T14:44:05Z,2024-05-29T16:44:55+00:00,3,50.01,True,59,2,3,91,1,1,2,MERGED
+83301,filter: update the documentation for win_splitdrive,Akasurde,2024-05-23T15:40:59Z,2024-05-23T19:12:29+00:00,2,3.52,True,16,4,1,103,0,1,1,MERGED
+83298,dnf: remove legacy code,mkrizek,2024-05-23T09:15:19Z,2024-06-28T13:49:42+00:00,4,868.57,True,23,77,2,42,0,1,1,MERGED
+83297,dnf: stop filtering exceptions by matching on text,mkrizek,2024-05-23T07:50:14Z,2024-08-21T13:45:28+00:00,5,2165.92,True,15,51,2,422,9,3,12,MERGED
+83295,ignore additional dnf error when removing packages by wildcard,mheiges,2024-05-22T16:20:43Z,2024-08-21T13:46:57+00:00,1,2181.44,False,2,1,1,798,1,1,2,CLOSED
+83293,Deprecate remaining safe evals,mkrizek,2024-05-22T14:01:26Z,2024-08-08T06:41:52+00:00,2,1864.67,True,26,7,4,43,2,4,6,MERGED
+83290,cron: return stdout and rc for cron command,jackfarzan,2024-05-21T15:30:07Z,2024-10-01T21:45:28+00:00,4,3198.26,True,4,1,2,111,0,1,1,MERGED
+83278,"gather_facts, mention ansible_facts_parallel var",bcoca,2024-05-20T17:34:52Z,2024-05-29T22:11:43+00:00,1,220.61,True,2,0,1,47,0,1,1,MERGED
+83275,Fix gather_facts for Windows and shell dirname,jborean93,2024-05-20T05:14:02Z,2025-09-24T03:57:56+00:00,2,11806.73,False,143,25,13,296,0,1,1,CLOSED
+83271,Add support for extra vars in ansible.builtin.generator plugin,Roysav,2024-05-19T09:25:44Z,2025-06-23T09:57:00+00:00,1,9600.52,False,4,0,1,1164,0,1,1,CLOSED
+83269,Correct code comment in the PlaybookExecutor class to reflect current behavior,appeltel,2024-05-18T15:50:52Z,2024-05-21T15:14:29+00:00,1,71.39,True,1,4,1,778,0,0,0,MERGED
+83267,Documented v2_runner_on_failed method in Callback class,garciart,2024-05-18T02:00:05Z,2024-05-31T21:22:34+00:00,3,331.37,True,18,1,1,2989,1,1,2,MERGED
+83266,test for gathering FIPS facts,Akasurde,2024-05-17T18:05:44Z,2024-10-16T19:35:12+00:00,1,3649.49,True,21,19,2,89,2,0,2,MERGED
+83263,Add end_role meta task,mkrizek,2024-05-17T14:00:11Z,2024-08-13T21:49:00+00:00,2,2119.81,True,124,3,14,104,2,0,2,MERGED
+83259,Remove deprecated VariableManager._get_delegated_vars,mkrizek,2024-05-16T07:35:42Z,2024-05-17T07:32:39+00:00,1,23.95,True,9,151,3,56,0,0,0,MERGED
+83258,Warn if binary is unavailable using get_bin_path,Akasurde,2024-05-15T23:33:15Z,2024-05-16T02:32:22+00:00,1,2.99,True,44,20,4,91,1,0,1,MERGED
+83257,Remove extraneous pylint ignore,Akasurde,2024-05-15T20:51:04Z,2024-06-11T02:23:49+00:00,1,629.55,True,9,26,7,150,2,0,2,MERGED
+83256,test: Cleanup facts/network/* tests,Akasurde,2024-05-15T18:10:14Z,2024-05-30T16:23:19+00:00,4,358.22,True,186,195,4,89,2,1,3,MERGED
+83249,Ensure meta tasks don't disrupt host_pinned host/fork affinity,sivel,2024-05-13T22:35:26Z,2024-08-13T15:40:16+00:00,1,2201.08,False,60,1,5,146,3,1,4,CLOSED
+83235,fix copy module update atime/mtime,dkuji,2024-05-12T14:55:29Z,2024-08-14T14:43:12+00:00,9,2255.8,True,46,0,4,95,5,3,8,MERGED
+83233,[backport-2.12] ansible-test - Use PyPI proxy for centos7 (#83226),webknjaz,2024-05-10T16:51:30Z,2024-05-10T20:19:42+00:00,4,3.47,True,11,1,2,205,0,2,2,MERGED
+83230,apt_*: add more info message while updating apt cache,Akasurde,2024-05-09T23:42:05Z,2024-05-23T23:15:02+00:00,3,335.55,True,30,9,4,105,2,2,4,MERGED
+83221,Remove Python 3.10 support for the controller,mkrizek,2024-05-09T14:17:46Z,2024-06-17T07:03:41+00:00,7,928.77,True,41,93,14,55,6,2,8,MERGED
+83220,ansible-test: replace RHEL 9.3 with 9.4,mkrizek,2024-05-09T12:46:31Z,2024-06-17T07:02:13+00:00,1,930.26,False,11,9,3,52,8,0,8,CLOSED
+83217,debconf: set empty password value,Akasurde,2024-05-08T17:03:40Z,2024-10-01T15:48:57+00:00,7,3502.75,True,153,41,4,105,7,6,13,MERGED
+83212,Darwin: add unit tests for hardware fact gathering,Akasurde,2024-05-07T20:52:28Z,2024-05-07T22:33:14+00:00,1,1.68,True,659,8,5,89,0,0,0,MERGED
+83211,Refactor dmidecode fact gathering code,Akasurde,2024-05-07T17:52:25Z,2024-05-14T15:18:59+00:00,2,165.44,True,34,23,3,154,2,0,2,MERGED
+83205,ansible-doc: fix typo in output,flowerysong,2024-05-06T15:54:38Z,2024-05-06T20:04:21+00:00,1,4.16,True,12,10,10,87,2,0,2,MERGED
+83203,dnf: integration tests cleanup,mkrizek,2024-05-06T10:58:12Z,2024-05-07T06:42:55+00:00,1,19.75,True,31,81,3,190,0,0,0,MERGED
+83202,freebsd: add ezjail,Akasurde,2024-05-06T02:43:23Z,2024-05-06T19:38:29+00:00,1,16.92,False,172,0,10,191,2,1,3,CLOSED
+83194,remove old install info when installing collections,s-hertel,2024-05-03T22:56:39Z,2024-05-14T15:09:55+00:00,1,256.22,True,27,0,3,52,0,0,0,MERGED
+83192,added examples for systemd service usage,bcoca,2024-05-03T15:25:33Z,2024-05-06T21:53:19+00:00,2,78.46,True,13,0,1,29,0,1,1,MERGED
+83183,"Don't hardcode the dnf module, dynamically select one",sivel,2024-05-02T14:38:26Z,2024-05-02T17:22:57+00:00,1,2.74,True,61,25,7,115,0,0,0,MERGED
+83180,Updated the docstring for the v2_runner_on_failed method in the Callb…,garciart,2024-05-01T22:36:35Z,2024-05-10T18:43:09+00:00,3,212.11,False,15,0,1,3116,3,2,5,CLOSED
+83175,"ansible-galaxy, clarify licensing for 'init' templates and results",bcoca,2024-05-01T18:09:08Z,2024-05-06T20:22:52+00:00,9,122.23,True,59,1,50,29,3,2,5,MERGED
+83169,uri: deprecate 'yes' or 'no' value in follow_redirects param,Akasurde,2024-05-01T00:18:09Z,2024-05-02T02:43:22+00:00,5,26.42,True,28,13,3,159,3,4,7,MERGED
+83165,Update default.py,garciart,2024-04-30T01:15:23Z,2024-05-01T22:08:18+00:00,2,44.88,False,15,0,1,2830,1,1,2,CLOSED
+83157,Gather sysinfo facts on s390,sivel,2024-04-29T16:00:08Z,2024-05-01T18:10:58+00:00,1,50.18,True,292,0,4,107,0,0,0,MERGED
+83155,ansible-doc: correctly treat separate paragraphs in top-level descriptions as separate paragraphs,felixfontein,2024-04-29T10:27:29Z,2024-04-30T15:15:36+00:00,1,28.8,True,20,14,3,476,1,0,1,MERGED
+83153,Adds `limit` parameter to `ansible.builtin.find` ,colin-nolan,2024-04-28T16:46:14Z,2024-06-13T20:12:51+00:00,12,1107.44,True,31,3,1,1121,3,5,8,MERGED
+83152,MUNI tech writers: timeout documentation.,sourn00dl,2024-04-28T08:58:17Z,2024-05-17T13:38:03+00:00,8,460.66,True,6,2,2,90,6,5,11,MERGED
+83150,pymarkdown: update docs,Akasurde,2024-04-26T20:53:42Z,2024-05-06T21:52:50+00:00,1,240.99,True,54,61,17,29,2,0,2,MERGED
+83149,package_facts add alias support,bcoca,2024-04-26T14:40:35Z,2024-05-02T18:33:12+00:00,3,147.88,True,59,28,3,45,2,6,8,MERGED
+83145,Add Keycloak service account auth capability to ansible-galaxy,sivel,2024-04-25T19:33:59Z,2025-01-07T18:02:23+00:00,2,6166.47,True,39,21,4,1095,10,0,10,MERGED
+83141,assemble: update argument_spec with 'decrypt' option,Akasurde,2024-04-25T00:25:05Z,2024-04-25T19:22:19+00:00,1,18.95,True,8,1,3,254,0,1,1,MERGED
+83133,Add description of ansible.utils.path.unfrackpath() basedir argument,moreati,2024-04-24T08:58:35Z,2024-04-25T19:11:38+00:00,1,34.22,True,3,0,1,155,0,0,0,MERGED
+83130,"inspect components, ansible_managed templatable (#83053)",bcoca,2024-04-23T16:47:17Z,2024-04-24T14:22:25+00:00,2,21.59,True,64,51,6,129,0,1,1,MERGED
+83129,"config, integrate dynamic galaxy servers",bcoca,2024-04-23T16:46:17Z,2024-05-29T19:42:21+00:00,17,866.93,True,272,80,8,57,0,10,10,MERGED
+83127,Add `lazy_import` for avoiding circular imports,sivel,2024-04-23T16:19:59Z,2024-04-23T22:43:48+00:00,4,6.4,False,31,5,3,110,2,1,3,CLOSED
+83122,Add version ceiling for pypsrp,jborean93,2024-04-23T00:50:34Z,2024-04-30T00:09:36+00:00,2,167.32,True,4,1,3,219,3,0,3,MERGED
+83116,"Refactor yum_repository, deprecate yum only options",mkrizek,2024-04-22T09:37:20Z,2024-05-09T09:27:27+00:00,1,407.84,True,132,175,2,124,4,0,4,MERGED
+83114,Update distro version in __init__.py,mishrahrishikesh,2024-04-21T18:08:49Z,2024-04-23T15:26:42+00:00,2,45.3,True,1,1,1,343,2,1,3,MERGED
+83113,"Fix Creating user directory using tilde always reports ""changed""",yctomwang,2024-04-21T11:47:00Z,2024-07-07T19:26:15+00:00,2,1855.65,True,30,2,3,392,6,3,9,MERGED
+83109,[stable-2.15] facts: Add a generic detection for VMware product name,Akasurde,2024-04-19T13:19:42Z,2024-05-09T17:08:43+00:00,1,483.82,True,4,1,2,163,2,1,3,MERGED
+83108,"setup_rpm_repo/create_repo: ""Arch dependent binaries in noarch package""",mkrizek,2024-04-19T12:29:32Z,2024-04-22T07:10:42+00:00,1,66.69,True,6,6,2,407,1,0,1,MERGED
+83105,dnf5: implement enable_plugin and disable_plugin options,mkrizek,2024-04-19T10:41:08Z,2024-05-09T08:54:40+00:00,4,478.23,True,60,9,3,80,1,3,4,MERGED
+83089,Support https proxy servers,sivel,2024-04-18T20:18:56Z,2024-04-23T22:30:29+00:00,8,122.19,False,245,3,4,172,3,6,9,CLOSED
+83085,Extend ProxyHandler to support CIDR ranges for no_proxy,sivel,2024-04-18T16:16:09Z,2025-04-28T17:08:51+00:00,11,9000.88,False,250,2,9,120,3,7,10,CLOSED
+83083,add systemd version and features fact,konstruktoid,2024-04-18T13:31:59Z,2024-04-19T01:22:56+00:00,10,11.85,True,65,2,6,819,1,3,4,MERGED
+83079,systemd_service: handle failure when mask operation fails,Akasurde,2024-04-18T00:41:34Z,2024-04-18T16:28:30+00:00,6,15.78,True,45,0,6,180,0,4,4,MERGED
+83071,Add changelog about target Python versions support,mkrizek,2024-04-17T06:52:38Z,2024-04-17T18:59:35+00:00,1,12.12,True,2,0,1,51,2,0,2,MERGED
+83068,plugin: fixed examples of csv lookup plugin,Akasurde,2024-04-16T21:39:39Z,2024-04-17T22:08:22+00:00,4,24.48,True,24,9,2,103,0,1,1,MERGED
+83053,"inspect components, ansible_managed templatable",bcoca,2024-04-16T15:37:53Z,2024-04-23T16:43:47+00:00,7,169.1,True,64,51,6,44,3,4,7,MERGED
+83038,"vault, update options to current recomendations",bcoca,2024-04-15T14:57:50Z,2024-08-01T15:54:30+00:00,1,2592.94,False,1557,1331,16,154,2,1,3,CLOSED
+83030,handlers: fix executing in lockstep using linear,mkrizek,2024-04-12T12:49:16Z,2024-04-16T15:45:18+00:00,1,98.93,True,31,1,4,55,0,0,0,MERGED
+83022,Fallbacks for brand new APIs that don't exist in released dnf5,sivel,2024-04-11T20:34:27Z,2024-04-12T08:15:49+00:00,1,11.69,True,10,2,1,391,0,0,0,MERGED
+83020,dnf5: replace removed API calls,mkrizek,2024-04-11T16:53:17Z,2024-04-11T19:57:44+00:00,3,3.07,True,7,4,2,153,0,2,2,MERGED
+83014,feat: checksum_algo param for find module,ShIRannx,2024-04-10T18:00:18Z,2024-10-11T18:02:39+00:00,11,4416.04,True,65,25,5,452,14,5,19,MERGED
+83012,facts: Add a generic detection for VMware product name,Akasurde,2024-04-10T14:56:49Z,2024-04-11T19:07:36+00:00,1,28.18,True,4,1,2,163,5,1,6,MERGED
+83011,dnf - honor installroot and substitutes in paths,mkrizek,2024-04-10T13:41:58Z,2024-04-12T07:34:47+00:00,1,41.88,True,8,12,4,371,0,0,0,MERGED
+82992,clean up ansible-connection,nitzmahone,2024-04-05T00:50:32Z,2024-05-02T21:37:19+00:00,4,668.78,True,60,82,17,801,8,7,15,MERGED
+82988,paramiko_ssh: remove deprecated ssh_*_args parameters,Akasurde,2024-04-04T16:51:40Z,2024-04-04T19:51:22+00:00,1,3.0,True,7,80,2,229,0,0,0,MERGED
+82985,Remove Python 2 traces from dnf/dnf5 modules,mkrizek,2024-04-04T13:20:33Z,2024-04-04T19:39:11+00:00,2,6.31,True,2,12,2,66,2,0,2,MERGED
+82982,Drop Python 3.7 support,mattclay,2024-04-03T23:53:27Z,2024-04-04T16:41:14+00:00,1,16.8,True,6,19,10,64,2,0,2,MERGED
+82977,action - remove deprecated functionality from plugin,Akasurde,2024-04-03T18:41:56Z,2024-07-09T17:29:15+00:00,2,2326.79,False,11,13,4,105,2,2,4,CLOSED
+82976,plugins: remove deprecated features,Akasurde,2024-04-03T16:06:44Z,2024-04-04T19:29:51+00:00,1,27.39,True,6,28,6,178,2,0,2,MERGED
+82974,ansible-config: ensure we get templated default,bcoca,2024-04-03T14:07:39Z,2024-04-09T18:57:26+00:00,1,148.83,True,23,14,4,44,2,0,2,MERGED
+82973,to_nice_json: document the indent option,mkrizek,2024-04-03T11:20:34Z,2024-04-04T19:27:51+00:00,1,32.12,True,9,3,2,169,0,0,0,MERGED
+82968,Remove deprecated 'loader' argument,Akasurde,2024-04-03T00:12:25Z,2024-04-04T19:23:18+00:00,1,43.18,True,55,6,4,180,3,0,3,MERGED
+82961,Remove platforms from overlooked templates,s-hertel,2024-04-02T19:48:45Z,2024-04-02T21:06:39+00:00,1,1.3,True,0,30,2,167,0,0,0,MERGED
+82960,apt: add a note about extraneous quotes in package name,Akasurde,2024-04-02T19:13:29Z,2024-04-04T19:12:53+00:00,2,47.99,True,1,0,1,233,0,0,0,MERGED
+82933,remove nonexistent url from role templates,s-hertel,2024-04-01T16:01:27Z,2024-04-02T15:15:12+00:00,1,23.23,True,2,54,4,442,1,0,1,MERGED
+82923,apt - remove extraneous quotes from package input,Akasurde,2024-03-27T18:26:47Z,2024-04-02T18:38:39+00:00,1,144.2,False,36,2,3,226,1,0,1,CLOSED
+82913,apt: handle options while installing python3-apt,Akasurde,2024-03-26T00:12:01Z,2024-03-26T15:16:27+00:00,3,15.07,True,22,11,2,205,0,1,1,MERGED
+82912,Document sort_keys option in to_nice_json() filter,MegaphoneJon,2024-03-25T21:30:33Z,2024-03-26T15:15:28+00:00,2,17.75,True,4,0,1,220,0,1,1,MERGED
+82911,Fix installing roles containing safe symlinks,s-hertel,2024-03-25T17:54:57Z,2024-04-24T15:07:29+00:00,3,717.21,True,52,90,8,722,0,4,4,MERGED
+82902,ssh docs fixes,bcoca,2024-03-25T14:59:16Z,2024-03-26T21:07:33+00:00,1,30.14,True,7,6,1,29,0,0,0,MERGED
+82901,async support check mode,bcoca,2024-03-25T13:01:16Z,2024-03-26T21:06:29+00:00,2,32.09,True,41,9,4,32,0,0,0,MERGED
+82899,use FQCN in deb822_repository examples,evgeni,2024-03-23T15:24:25Z,2025-04-11T20:54:58+00:00,1,9221.51,False,3,3,1,120,7,0,7,CLOSED
+82894,first_found lookup; minor fixes (#82836),bcoca,2024-03-22T17:06:08Z,2024-04-10T19:33:20+00:00,1,458.45,False,11,2,3,213,2,0,2,CLOSED
+82875,mypy: update code required to bump sanity requirements,Akasurde,2024-03-21T15:41:14Z,2024-03-21T16:54:24+00:00,1,1.22,True,1,1,1,89,0,0,0,MERGED
+82874,pylint: update for use-yield-from,Akasurde,2024-03-21T15:28:19Z,2024-03-21T16:37:18+00:00,1,1.15,True,8,16,5,142,0,0,0,MERGED
+82854,"Allow ""role_name : "" prefix for notifying handler listen topics",s-hertel,2024-03-19T17:49:48Z,2024-03-26T18:29:46+00:00,3,168.67,True,35,2,5,370,1,3,4,MERGED
+82853,Use a PyPI CDN URL in `unarchive` integration test,webknjaz,2024-03-19T17:03:52Z,2024-03-19T18:14:12+00:00,1,1.17,True,1,1,1,1124,0,0,0,MERGED
+82851,Update password.py : use errno instead of strerror in _get_lock exception,flyinva,2024-03-19T16:20:31Z,2024-04-30T18:55:41+00:00,1,1010.59,False,2,1,1,319,5,1,6,CLOSED
+82836,first_found lookup; minor fixes,bcoca,2024-03-18T15:40:36Z,2024-03-22T17:00:47+00:00,1,97.34,True,12,2,3,105,0,0,0,MERGED
+82831,add countme option to yum_repository,konstruktoid,2024-03-15T13:55:22Z,2024-04-18T11:51:22+00:00,11,813.93,True,14,0,3,185,5,5,10,MERGED
+82827,Allow check mode async task disabling check_mode,jborean93,2024-03-14T23:04:58Z,2024-03-20T15:34:57+00:00,3,136.5,True,31,1,4,151,3,1,4,MERGED
+82826,Fix up to_datetime timedelta seconds docs,jborean93,2024-03-14T22:27:36Z,2024-03-19T15:04:11+00:00,1,112.61,True,7,2,1,329,0,0,0,MERGED
+82825,Address non-UTF8 module responses with `diff` in git module,sivel,2024-03-14T20:49:48Z,2024-06-12T21:53:29+00:00,1,2161.06,False,5,1,2,121,3,0,3,CLOSED
+82823,filter: Misc fixes in docs,Akasurde,2024-03-14T16:43:52Z,2024-03-14T19:11:33+00:00,1,2.46,True,13,13,3,131,0,0,0,MERGED
+82819,docs: describe capture references,Akasurde,2024-03-14T03:13:18Z,2024-03-14T19:03:50+00:00,2,15.84,True,14,0,2,152,2,1,3,MERGED
+82818,atomic_move - fix preserving extended acls,s-hertel,2024-03-13T22:29:18Z,2024-03-18T14:58:00+00:00,7,112.48,True,80,102,7,490,0,2,2,MERGED
+82805,apt: Install recommended packages while installing deb files,Akasurde,2024-03-12T00:49:33Z,2024-03-19T15:52:50+00:00,5,183.05,True,49,2,4,202,2,4,6,MERGED
+82800,Fix discrepancy in behaviour between apt-get clean and its equivalent ansible.builtin.apt: clean=True,yctomwang,2024-03-10T10:10:33Z,2024-03-12T15:10:50+00:00,1,53.0,True,26,1,3,508,1,0,1,MERGED
+82795,Document no until support for meta,jborean93,2024-03-07T19:21:07Z,2024-03-12T15:02:38+00:00,1,115.69,True,2,0,1,51,0,0,0,MERGED
+82794,Remove ansible.utils.py3compat,sivel,2024-03-07T15:39:46Z,2024-03-07T23:08:22+00:00,1,7.48,True,24,58,5,363,5,0,5,MERGED
+82789,Fix  handling of ansible_loop_var and ansible_index_var inside ansible.builtin.include_tasks,yctomwang,2024-03-07T04:03:53Z,2024-03-07T19:08:29+00:00,1,15.08,True,16,0,4,628,1,0,1,MERGED
+82784,winrm - Handle task timeout,jborean93,2024-03-07T02:11:05Z,2024-03-20T19:19:52+00:00,1,329.15,True,40,2,4,371,1,0,1,MERGED
+82783,Handle error raised when argument validation,Akasurde,2024-03-07T00:17:27Z,2024-03-07T19:04:58+00:00,1,18.79,True,19,2,3,202,0,0,0,MERGED
+82770,Don't inherit stdio,sivel,2024-03-04T23:42:46Z,2025-03-17T15:08:13+00:00,18,9063.42,True,184,136,13,166,12,13,25,MERGED
+82768,Follow fix for test_iptables,Akasurde,2024-03-04T18:54:06Z,2024-03-05T11:42:09+00:00,1,16.8,True,1,1,1,183,1,0,1,MERGED
+82766,Avoid winrm hang on stdin write failure,jborean93,2024-03-03T23:27:53Z,2024-03-06T22:47:04+00:00,1,71.32,True,114,51,3,305,2,0,2,MERGED
+82762,Use of constant for 644 permission variable,Akasurde,2024-03-01T14:38:24Z,2024-03-05T15:09:58+00:00,1,96.53,True,56,39,13,91,4,0,4,MERGED
+82757,debconf: allow a list for value when vtype is multiselect,Akasurde,2024-02-27T21:00:55Z,2024-03-12T16:06:35+00:00,2,331.09,True,101,6,3,172,2,1,3,MERGED
+82756,Improve documentation for replace module,remram44,2024-02-27T16:40:18Z,2024-02-29T19:01:26+00:00,1,50.35,True,6,3,1,741,0,0,0,MERGED
+82755,[stable-2.12] Disable ansible-test podman container tests on Ubuntu 22.04 (#82748),sivel,2024-02-27T15:54:21Z,2024-02-27T17:42:49+00:00,1,1.81,True,1,1,1,77,0,0,0,MERGED
+82754,[stable-2.14] Disable ansible-test podman container tests on Ubuntu 22.04 (#82748),sivel,2024-02-27T15:54:15Z,2024-02-27T17:38:48+00:00,1,1.74,True,1,1,1,77,0,0,0,MERGED
+82753,[stable-2.15] Disable ansible-test podman container tests on Ubuntu 22.04 (#82748),sivel,2024-02-27T15:54:10Z,2024-02-27T17:38:42+00:00,1,1.74,True,1,1,1,77,0,0,0,MERGED
+82744,dnf: fix installing a package based on the file it provides,mkrizek,2024-02-26T13:20:08Z,2024-03-08T07:25:44+00:00,2,258.09,True,65,29,4,55,0,0,0,MERGED
+82735,dnf: obey the keepcache setting,mkrizek,2024-02-22T14:45:56Z,2024-02-27T14:22:56+00:00,1,119.62,True,17,2,3,55,2,0,2,MERGED
+82734,Split the unified PR template into few,webknjaz,2024-02-22T12:48:12Z,2024-03-07T22:22:05+00:00,9,345.56,True,105,25,7,385,11,4,15,MERGED
+82725,dnf: utilize the API for the installed checks,mkrizek,2024-02-21T13:04:56Z,2024-03-08T08:43:42+00:00,1,379.65,True,103,142,5,99,1,0,1,MERGED
+82723,ansible-test - Add work-around for pytest>=8 errors,mattclay,2024-02-21T04:01:23Z,2024-02-21T18:08:55+00:00,1,14.13,True,3,0,2,464,0,1,1,MERGED
+82722,Add MIRACLE LINUX as RedHat OS Family,tikfj,2024-02-21T02:37:17Z,2024-02-27T17:42:16+00:00,1,159.08,True,42,1,3,110,4,0,4,MERGED
+82721,Ignore empty vault filenames,corubba,2024-02-21T02:18:10Z,2025-08-24T09:38:40+00:00,6,13207.34,False,77,14,5,8361,4,1,5,CLOSED
+82718,add error handling when parsing values in ini files,karlg100,2024-02-20T13:38:33Z,2024-08-01T02:34:42+00:00,1,3900.94,True,31,34,4,1129,2,0,2,MERGED
+82697,Add macOS 14.3 to CI and ansible-test,webknjaz,2024-02-15T19:36:33Z,2024-02-16T20:26:16+00:00,1,24.83,True,39,4,5,96,4,0,4,MERGED
+82691,fix handling allow_duplicates with the role cache,s-hertel,2024-02-14T22:54:39Z,2024-03-28T19:33:09+00:00,3,1028.64,True,39,3,6,581,1,0,1,MERGED
+82690,Copy target min python check into ansiballz template,sivel,2024-02-14T19:30:09Z,2024-05-21T23:12:33+00:00,6,2331.71,False,36,1,3,315,4,4,8,CLOSED
+82681,Output MarkDown version next to RST version of changelog,felixfontein,2024-02-13T12:30:13Z,2025-06-07T15:02:36+00:00,1,11522.54,False,15,7,5,789,4,2,6,CLOSED
+82678,ansible-doc: restore role attributes,felixfontein,2024-02-12T19:18:51Z,2024-03-21T21:06:16+00:00,7,913.79,True,44,1,6,53,8,2,10,MERGED
+82675,Fix error when templating an unsafe string leading to a type error in Python,sbettid,2024-02-11T11:33:16Z,2024-02-26T14:39:07+00:00,2,363.1,True,9,2,3,905,3,0,3,MERGED
+82672,uri: update use_netrc.yml,eltociear,2024-02-10T15:15:39Z,2024-02-14T03:38:56+00:00,3,84.39,True,3,3,1,107,0,3,3,MERGED
+82671,Show examples in role entrypoint argument specs,felixfontein,2024-02-10T13:49:24Z,2024-05-01T15:27:50+00:00,3,1945.64,True,20,0,4,83,6,1,7,MERGED
+82668,ensure correct handling of ansible_loop_var and ansible_index_var iin ansible.builtin.include_tasks,AkshatHotCode,2024-02-09T13:07:35Z,2024-03-07T22:51:00+00:00,1,657.72,False,7,3,3,673,4,1,5,CLOSED
+82666,test_apt: migrate from unittest to pytest,Akasurde,2024-02-09T02:45:47Z,2024-03-15T02:19:37+00:00,6,839.56,True,40,40,1,89,4,4,8,MERGED
+82665,"Add support for crypt/libxcrypt via ctypes, as an alternative to passlib",sivel,2024-02-08T20:09:30Z,2025-04-28T17:08:50+00:00,3,10676.99,False,226,35,9,137,3,3,6,CLOSED
+82657,Reword warning if the reserved keyword `_ansible_` is used,Akasurde,2024-02-08T00:40:04Z,2024-02-09T04:43:47+00:00,4,28.06,True,20,1,4,180,2,3,5,MERGED
+82647,test: migrate iptables tests from unittests to pytest,Akasurde,2024-02-06T00:52:47Z,2024-03-01T17:01:33+00:00,28,592.15,True,1410,1154,1,89,1,21,22,MERGED
+82644,Fix discrepency between apt-get clean and ansible.builtin.apt: clean=…,unknown,2024-02-04T19:48:06Z,2024-03-12T15:11:22+00:00,2,883.39,False,3,1,2,306,6,0,6,CLOSED
+82642,import_role - allow subdirectories with _from options,s-hertel,2024-02-02T21:11:44Z,2024-02-06T15:13:47+00:00,2,90.03,True,33,10,6,167,0,0,0,MERGED
+82641,iptables: added choices in match_set_flags option,Akasurde,2024-02-02T16:45:58Z,2024-02-06T15:12:55+00:00,5,94.45,True,72,60,3,182,2,1,3,MERGED
+82634,add LOCAL_SEARCH_PATH configuration (paths in which Ansible will search for local files when source path is relative),nitschSB,2024-02-01T12:12:51Z,2024-03-18T13:45:47+00:00,2,1105.55,False,69,13,15,579,9,2,11,CLOSED
+82631,Fix issues with ansible-playbook-callbacks test (#82407),markgoddard,2024-01-31T12:07:45Z,2024-02-14T21:11:19+00:00,1,345.06,True,15,12,4,1016,2,0,2,MERGED
+82630,Fix issues with ansible-playbook-callbacks test (#82407),markgoddard,2024-01-31T11:57:53Z,2024-02-14T21:11:25+00:00,1,345.23,True,15,12,4,1016,2,0,2,MERGED
+82629,Easier package mgr overrides,bcoca,2024-01-31T04:03:54Z,2024-04-02T20:38:05+00:00,21,1504.57,True,56,21,4,33,7,13,20,MERGED
+82627,"dnf,dnf5 - add the best option and fix nobest",mkrizek,2024-01-30T17:31:21Z,2024-02-01T19:05:58+00:00,2,49.58,True,41,17,5,718,0,0,0,MERGED
+82607,Do not ignore SyntaxError from jinja2.Environment.from_string,mkrizek,2024-01-26T11:19:16Z,2024-01-29T09:33:33+00:00,1,70.24,True,14,1,3,522,1,0,1,MERGED
+82605,add extra vars to ansible-galaxy skeletons,s-hertel,2024-01-25T22:15:45Z,2024-02-14T18:50:36+00:00,1,476.58,True,33,2,3,150,4,0,4,MERGED
+82601,Update user group list syntax,fennewald,2024-01-25T00:26:54Z,2024-03-05T15:34:52+00:00,2,975.13,False,1,1,1,853,4,1,5,CLOSED
+82599,apt_repository: Update PPA URL to point to HTTPS,Akasurde,2024-01-24T19:22:39Z,2024-02-07T19:07:35+00:00,2,335.75,True,47,2,3,105,2,1,3,MERGED
+82597,shell: warn if unsupported parameter warn is provided,Akasurde,2024-01-24T17:16:19Z,2024-02-13T13:48:05+00:00,3,476.53,False,22,2,3,105,3,2,5,CLOSED
+82594,changelog: use correct spelling for possessive pronoun its,gotmax23,2024-01-23T22:48:43Z,2024-02-14T20:08:47+00:00,2,525.33,True,3,3,3,99,8,0,8,MERGED
+82593,actually show plugin config warnings/deprecations,bcoca,2024-01-23T20:33:55Z,2024-07-01T23:56:19+00:00,34,3843.37,True,401,23,17,53,7,16,23,MERGED
+82580,Adding note about implicit groups,sscheib,2024-01-22T11:29:33Z,2024-01-23T21:00:45+00:00,6,33.52,True,4,0,2,453,1,3,4,MERGED
+82579,replace word by the one that was probably meant instead,leitwerk-ag,2024-01-22T11:28:05Z,2024-01-23T15:10:27+00:00,1,27.71,False,1,1,1,123,1,1,2,CLOSED
+82575,ansible-test validate-modules sanity test: do not treat leading underscore in plugin names as attempted deprecation,felixfontein,2024-01-21T10:30:42Z,2024-03-20T21:01:50+00:00,1,1426.52,True,24,8,3,643,6,0,6,MERGED
+82571,Remove tests for ansible-runner,Shrews,2024-01-19T19:01:29Z,2024-02-06T15:50:54+00:00,1,428.82,True,0,141,11,252,2,0,2,MERGED
+82562,Support `action_plugin` in plugin_routing_schema,NilashishC,2024-01-18T14:59:43Z,2024-01-19T16:21:10+00:00,3,25.36,True,42,12,5,200,12,1,13,MERGED
+82556,service_facts:  add FreeBSD support,bcoca,2024-01-17T18:06:02Z,2024-10-10T18:22:21+00:00,3,6408.27,True,78,3,3,57,2,2,4,MERGED
+82552,Fix url encoded credentials in netloc,jpic,2024-01-17T09:40:09Z,2024-01-23T15:37:37+00:00,1,149.96,True,24,3,4,1020,12,1,13,MERGED
+82551,default svn URL to 127.0.0.1 for subversion integration tests,nitzmahone,2024-01-17T02:47:53Z,2024-01-17T17:49:47+00:00,3,15.03,True,7,6,3,324,2,1,3,MERGED
+82544,expect docs - improve responses description,s-hertel,2024-01-15T17:41:44Z,2024-01-16T20:03:38+00:00,3,26.36,True,10,10,1,182,4,1,5,MERGED
+82543,Deprecate support for the v2 galaxy API,sivel,2024-01-15T16:50:00Z,2024-02-13T15:31:33+00:00,7,694.69,True,11,0,2,341,3,2,5,MERGED
+82537,iptables module: Enable support for pmtu clamp,potvinp,2024-01-14T15:36:55Z,2024-01-18T17:15:21+00:00,4,97.64,False,69,0,2,295,2,3,5,CLOSED
+82536,Update attribute description for check_mode,Bakugo90,2024-01-13T22:16:22Z,2024-01-16T15:10:12+00:00,3,64.9,True,1,1,1,1129,1,1,2,MERGED
+82534,validate_argument_spec: fixed example syntax,akira6592,2024-01-13T02:42:55Z,2024-01-13T16:17:21+00:00,1,13.57,True,14,14,1,162,1,0,1,MERGED
+82530,Add FreeBSD 13.3 and 14.0 to ansible-test,bcoca,2024-01-12T16:11:43Z,2024-03-21T17:50:52+00:00,23,1657.65,True,70,8,10,71,9,21,30,MERGED
+82526,Reboot timeout fix,bcoca,2024-01-11T20:02:45Z,2024-01-16T22:17:15+00:00,3,122.24,True,30,11,2,95,0,2,2,MERGED
+82522,expect - fix argument spec error with timeout=null,s-hertel,2024-01-11T14:58:05Z,2024-01-11T19:21:30+00:00,1,4.39,True,19,2,3,95,2,0,2,MERGED
+82518,Improve error message for parameters starting with '_ansible',Ritesh-Sivanathan,2024-01-11T03:30:21Z,2024-01-11T19:55:43+00:00,3,16.42,False,1,1,1,329,1,1,2,CLOSED
+82517,apt_key: Consider expired keys while performing operations,Akasurde,2024-01-11T00:42:08Z,2024-07-09T17:29:02+00:00,1,4336.78,False,56,1,4,216,0,1,1,CLOSED
+82510,[stable-2.16] Enable directly using `AnsibleUnsafeText` with Python `pathlib`,sivel,2024-01-09T23:32:43Z,2024-01-18T18:45:27+00:00,7,211.21,True,40,0,4,279,0,2,2,MERGED
+82508,[ansible-galaxy] Remove role name conversion when the repo startswith 'ansible-role',s-hertel,2024-01-09T20:49:16Z,2024-01-11T19:11:56+00:00,4,46.38,True,8,2,2,640,4,2,6,MERGED
+82504,Use FQCN in example in apt module docs,acozine,2024-01-09T16:15:23Z,2024-01-11T19:10:08+00:00,2,50.91,True,1,1,1,242,1,0,1,MERGED
+82503,document missing `apt` dependency handling,s-hertel,2024-01-09T15:49:52Z,2024-01-10T00:49:14+00:00,4,8.99,True,3,0,1,93,0,3,3,MERGED
+82498,ansible-config dedupe ini plugin entries,bcoca,2024-01-08T16:03:36Z,2024-01-09T17:07:04+00:00,2,25.06,True,52,14,5,44,0,3,3,MERGED
+82496,Add Alp-Dolomite to Suse family list,HVSharma12,2024-01-08T13:18:01Z,2024-01-09T15:49:50+00:00,2,26.53,True,26,1,3,841,2,1,3,MERGED
+82495,user: expand user path for tilde in user provided shell variable,hydromelvictor,2024-01-07T04:15:03Z,2024-09-02T12:08:20+00:00,3,5743.89,False,0,0,0,215,5,1,6,CLOSED
+82484,uri action plugin check_mode support update,bcoca,2024-01-04T19:36:02Z,2024-01-09T17:14:01+00:00,1,117.63,True,18,4,5,82,3,0,3,MERGED
+82483,deb822_repository: handle idempotency,Akasurde,2024-01-04T19:33:22Z,2024-01-09T15:34:19+00:00,1,116.02,True,25,8,3,156,0,0,0,MERGED
+82480,propagate WorkerProcess create/start exceptions,nitzmahone,2024-01-04T01:47:32Z,2025-06-02T20:21:02+00:00,5,12378.56,False,302,262,7,858,4,2,6,CLOSED
+82475,Add fix for older connection plugins,jbemmel,2024-01-03T22:32:24Z,2024-04-02T15:19:08+00:00,1,2152.78,False,1395,1,3,22,9,1,10,CLOSED
+82466,Deprecate `required` param in get_bin_path,Akasurde,2024-01-03T00:20:24Z,2024-01-09T15:25:02+00:00,4,159.08,True,14,3,2,197,1,3,4,MERGED
+82462,[dnf] Do not try to resolve file path with whatprovides,noonedeadpunk,2023-12-28T18:04:12Z,2024-02-29T14:06:55+00:00,1,1508.05,False,12,8,2,601,13,0,13,CLOSED
+82452,[stable-2.16] Role fixes (#82339),bcoca,2023-12-22T14:54:57Z,2024-01-19T22:37:42+00:00,1,679.71,True,112,46,9,339,2,0,2,MERGED
+82451,Add the task info for tombstoned module/action plugins,s-hertel,2023-12-21T15:44:48Z,2024-01-08T04:12:39+00:00,3,420.46,True,20,7,4,117,2,1,3,MERGED
+82449,Remove more Python 2 handling from tests,s-hertel,2023-12-20T21:56:42Z,2024-01-08T04:00:10+00:00,1,438.06,True,0,14,4,77,4,0,4,MERGED
+82446,pip - only require setuptools or packaging in check mode,s-hertel,2023-12-20T04:29:04Z,2024-01-16T14:56:16+00:00,5,658.45,False,85,16,4,245,7,1,8,CLOSED
+82443,Added keep_existing parameter to include_vars,ChaoticByte,2023-12-19T18:01:21Z,2024-01-04T19:56:15+00:00,2,385.92,False,168,56,8,378,3,1,4,CLOSED
+82436,"lineinfile, remove incorrect/unused 'others' option",bcoca,2023-12-18T16:45:31Z,2024-01-04T19:29:05+00:00,1,410.73,True,0,5,2,159,5,0,5,MERGED
+82427,Update uri.py,sockejr,2023-12-15T13:23:30Z,2024-01-04T19:27:59+00:00,1,486.07,False,1,0,1,243,3,1,4,CLOSED
+82420,Updates to interpreter discovery for 2.17,sivel,2023-12-13T18:07:28Z,2024-02-14T19:16:54+00:00,2,1513.16,True,29,47,5,310,0,1,1,MERGED
+82419,Adds details to the password_hash documentation,acozine,2023-12-13T17:36:37Z,2024-01-04T14:42:14+00:00,4,525.09,True,2,1,1,300,2,3,5,MERGED
+82413,Replace unwelcoming words,Akasurde,2023-12-12T19:11:21Z,2023-12-18T17:05:16+00:00,2,141.9,True,8,8,4,89,0,0,0,MERGED
+82407,Fix issues with ansible-playbook-callbacks test,markgoddard,2023-12-12T12:57:55Z,2024-01-17T08:22:41+00:00,6,859.41,True,15,12,4,1016,11,5,16,MERGED
+82405,ci: run docs-build checkers from ansible-documentation,gotmax23,2023-12-11T22:25:59Z,2025-06-04T06:18:00+00:00,2,12967.87,False,51,0,2,462,17,0,17,CLOSED
+82398,[backport-2.14] Replace FreeBSD 13.1 with 13.2 in CI and ansible-test,webknjaz,2023-12-11T16:18:35Z,2023-12-11T18:45:14+00:00,1,2.44,True,9,5,4,297,0,1,1,MERGED
+82397,[backport-2.15] Replace FreeBSD 13.1 with 13.2 in CI and ansible-test,webknjaz,2023-12-11T16:18:24Z,2023-12-11T18:45:25+00:00,1,2.45,True,9,5,4,297,0,1,1,MERGED
+82388,Fix condition for unquoting configuration strings from ini files,snipfoo,2023-12-09T00:26:39Z,2024-03-26T14:12:18+00:00,11,2605.76,True,70,30,9,444,6,1,7,MERGED
+82377,Rename git module option gpg_whitelist to gpg_allowlist,sedrubal,2023-12-07T12:48:56Z,2024-03-15T22:49:29+00:00,2,2386.01,True,29,14,2,472,3,0,3,MERGED
+82376,Additional Unsafe fixes,sivel,2023-12-06T22:06:45Z,2023-12-07T23:17:14+00:00,2,25.17,True,18,4,3,177,2,1,3,MERGED
+82364,Run all handlers with the same `listen` topic when notified from another handler,snipfoo,2023-12-06T10:33:46Z,2023-12-13T09:56:52+00:00,5,167.38,True,45,2,4,480,4,2,6,MERGED
+82361,"Scripts inventory plugin, add examples",bcoca,2023-12-05T15:35:36Z,2023-12-08T14:51:37+00:00,9,71.27,True,121,1,1,30,2,11,13,MERGED
+82355,ansible-test - Allow multiple documents in the YAML stream for EXAMPLES,tremble,2023-12-05T07:25:38Z,2023-12-13T20:18:36+00:00,2,204.88,True,122,4,7,364,13,0,13,MERGED
+82354,Missing Exception Handling in SSH Plugin Fixed Error Verbosity Issue,aaron-zg,2023-12-05T07:13:28Z,2025-01-17T15:20:41+00:00,1,9824.12,False,13,2,1,212,2,1,3,CLOSED
+82343,[stable-2.15] Install upgraded crun from edge (#81833).,sivel,2023-12-04T16:38:02Z,2023-12-04T17:53:43+00:00,1,1.26,True,8,1,1,35,0,0,0,MERGED
+82342,[stable-2.14] Install upgraded crun from edge (#81833).,sivel,2023-12-04T16:37:55Z,2023-12-04T17:54:00+00:00,1,1.27,True,8,1,1,35,0,0,0,MERGED
+82341,[stable-2.15] Better errors for delegate_to (#82319),bcoca,2023-12-04T15:23:22Z,2024-01-19T22:52:12+00:00,1,1111.48,True,51,26,4,130,4,0,4,MERGED
+82339,Role fixes,bcoca,2023-12-04T15:09:19Z,2023-12-22T14:52:12+00:00,12,431.71,True,136,48,9,238,0,5,5,MERGED
+82336,Move `follow_redirects` parameter,monsdar,2023-12-03T07:05:57Z,2024-12-06T18:28:04+00:00,5,8867.37,False,32,21,5,231,5,3,8,CLOSED
+82334,🧪 Run svn integration test locally with TLS,webknjaz,2023-12-02T04:09:00Z,2023-12-06T16:10:56+00:00,1,108.03,True,89,14,7,442,4,1,5,MERGED
+82332,Add helptext to ansible-inventory's positional arg,lucanLepus,2023-12-01T21:32:32Z,2023-12-07T19:12:52+00:00,3,141.67,True,3,4,1,196,4,1,5,MERGED
+82326,Fix various issues in unsafe_proxy,mattclay,2023-12-01T00:09:27Z,2023-12-01T17:28:05+00:00,2,17.31,True,12,26,1,469,2,0,2,MERGED
+82320,[???] `Role.static` was always `True`...,mkrizek,2023-11-30T16:57:27Z,2023-12-08T09:01:13+00:00,32,184.06,False,17,27,4,2069,2,9,11,CLOSED
+82314,Fix templating tags on plays and roles,mkrizek,2023-11-29T11:43:14Z,2025-06-10T18:49:06+00:00,5,13423.1,True,61,5,8,84,7,2,9,MERGED
+82309,Amend doc of name= parameter to indicate a list of packages can be used,jpmens,2023-11-28T13:04:21Z,2023-11-30T16:09:36+00:00,8,51.09,True,1,0,1,165,0,1,1,MERGED
+82296,Update sanity requirements,Akasurde,2023-11-27T19:20:10Z,2024-03-23T00:17:52+00:00,5,2788.96,True,58,49,14,89,4,2,6,MERGED
+82295,Ensure that unsafe is more difficult to lose [stable-2.14],sivel,2023-11-27T16:50:20Z,2023-11-27T18:27:58+00:00,1,1.63,True,519,143,57,122,0,0,0,MERGED
+82294,Ensure that unsafe is more difficult to lose [stable-2.15],sivel,2023-11-27T16:50:16Z,2023-11-27T18:27:25+00:00,1,1.62,True,522,146,56,122,0,0,0,MERGED
+82293,Ensure that unsafe is more difficult to lose [stable-2.16],sivel,2023-11-27T16:50:10Z,2023-11-27T18:26:45+00:00,1,1.61,True,526,151,58,122,0,0,0,MERGED
+82292,add type hints for lib/ansible/__init__.py,maxamillion,2023-11-27T15:53:52Z,2023-12-08T16:35:34+00:00,17,264.69,False,39,28,1,329,3,12,15,CLOSED
+82291,Remove macOS 13.2 from ansible-test,mansoor17syed,2023-11-27T15:38:09Z,2024-03-27T22:45:54+00:00,4,2911.13,True,2,1,2,231,2,2,4,MERGED
+82284,Append option encoding in find module,ShIRannx,2023-11-25T08:42:46Z,2024-01-22T13:53:37+00:00,19,1397.18,True,74,9,5,434,11,9,20,MERGED
+82282,find: do not fail on PermissionError,Akasurde,2023-11-24T15:28:02Z,2024-01-23T18:55:13+00:00,6,1443.45,True,70,4,5,163,3,6,9,MERGED
+82274,changed the salt type from int to string,s-suryakiran,2023-11-23T06:06:20Z,2023-11-28T15:23:39+00:00,1,129.29,True,1,1,1,336,0,0,0,MERGED
+82273,fix loading vars_plugins in roles,s-hertel,2023-11-22T21:34:42Z,2024-01-26T14:01:15+00:00,3,1552.44,True,58,53,6,546,2,3,5,MERGED
+82268,2.16: Allow include_tasks handlers for searching role subdirs (#82248),mkrizek,2023-11-22T16:47:18Z,2023-11-27T17:55:57+00:00,1,121.14,True,19,2,7,97,2,0,2,MERGED
+82263,csvfile - let the config system do the typecasting.,helmo,2023-11-22T07:31:33Z,2024-12-06T16:15:18+00:00,3,9128.73,True,19,3,3,144,13,1,14,MERGED
+82254,[DOCS] README: update working groups link,Andersson007,2023-11-21T07:04:34Z,2024-03-15T16:49:33+00:00,1,2769.75,True,2,2,1,213,3,0,3,MERGED
+82253,unarchive: force unarchive if the symlink target changes,Akasurde,2023-11-21T02:06:26Z,2023-11-21T17:11:24+00:00,1,15.08,True,68,0,3,137,1,0,1,MERGED
+82252,reduce number of implicit flush_handlers tasks when unnecessary,s-hertel,2023-11-20T19:51:36Z,2024-10-01T13:39:00+00:00,8,7577.79,False,51,18,8,2375,2,4,6,CLOSED
+82248,Allow include_tasks handlers for searching role subdirs,mkrizek,2023-11-20T11:17:50Z,2023-11-22T16:42:51+00:00,1,53.42,True,19,2,7,73,0,0,0,MERGED
+82242,csvfile - add a keycol parameter to specify in which column to search.,helmo,2023-11-19T20:39:11Z,2023-11-21T15:40:32+00:00,4,43.02,True,13,3,3,224,1,2,3,MERGED
+82233,"wait_for, fallback to read for non mmapable files (#82064)",bcoca,2023-11-16T23:04:53Z,2023-11-27T16:28:04+00:00,1,257.39,True,29,5,3,106,0,0,0,MERGED
+82227,handle when caplevel is already taken care of,bcoca,2023-11-16T15:31:01Z,2023-11-16T19:49:40+00:00,1,4.31,True,20,2,4,45,1,0,1,MERGED
+82225,syslog: Handle ValueError raised while sending logs to syslog,Akasurde,2023-11-15T20:25:15Z,2023-11-16T21:15:08+00:00,7,24.83,True,4,1,2,89,2,2,4,MERGED
+82218,ansible-test: Added Fedora 39,Akasurde,2023-11-14T17:40:36Z,2023-11-17T02:30:14+00:00,5,56.83,True,11,6,4,142,1,4,5,MERGED
+82217,no_log avoid masking booleans,bcoca,2023-11-14T16:55:27Z,2023-11-16T19:04:34+00:00,1,50.15,True,70,0,4,45,0,0,0,MERGED
+82215,Fix ManifestControl dataclass to work with future annotations,sivel,2023-11-14T15:34:21Z,2023-11-16T19:02:58+00:00,2,51.48,True,163,5,5,125,2,0,2,MERGED
+82212,Include import_* tasks in play iterator,jborean93,2023-11-14T10:47:13Z,2025-01-29T18:31:40+00:00,1,10615.74,False,19,2,5,384,2,1,3,CLOSED
+82211,ansible-test - remove rhel 9.2 test remote,mkrizek,2023-11-14T07:56:26Z,2023-11-27T09:03:43+00:00,1,313.12,True,2,1,2,146,2,0,2,MERGED
+82210,Restart a Service with Sleep Between Stop and Start,theputta,2023-11-14T04:40:04Z,2023-11-15T03:40:48+00:00,1,23.01,True,6,0,1,122,1,1,2,MERGED
+82209,Create prefix of file using ansible.builtin.tempfile,theputta,2023-11-14T03:48:26Z,2023-11-15T18:43:10+00:00,3,38.91,True,6,0,1,106,1,2,3,MERGED
+82202,"union filter, fix typo in example",bcoca,2023-11-13T14:54:23Z,2023-11-13T19:59:08+00:00,1,5.08,True,1,1,1,42,0,0,0,MERGED
+82193,ansible-galaxy - fix exit code for failed role import,s-hertel,2023-11-10T23:14:47Z,2023-12-12T18:59:19+00:00,1,763.74,True,25,4,3,77,3,1,4,MERGED
+82187,"uri: Handle the ""force"" parameter properly",mikebonnet,2023-11-10T15:56:40Z,2024-01-23T13:54:18+00:00,6,1773.96,True,66,1,4,1756,6,1,7,MERGED
+82183,Allow for arbitrary key 'context' in argument spec,sivel,2023-11-09T20:56:20Z,2024-01-30T14:59:57+00:00,1,1962.06,True,117,0,6,491,3,0,3,MERGED
+82181,"Add ssh-agent launching, and ssh-agent python client",sivel,2023-11-09T16:03:21Z,2025-03-04T22:03:05+00:00,4,11550.0,False,1074,5,13,889,5,6,11,CLOSED
+82178,ansible-test - Add RHEL 9.3 support,mkrizek,2023-11-09T09:45:18Z,2023-11-14T07:23:45+00:00,1,117.64,True,11,8,3,56,2,0,2,MERGED
+82173,git: Check if version is populated or not,Akasurde,2023-11-08T15:21:19Z,2024-05-03T22:17:37+00:00,2,4254.94,True,6,3,2,162,7,2,9,MERGED
+82167,Update Python3,Akasurde,2023-11-07T21:52:30Z,2023-11-07T23:43:31+00:00,2,1.85,True,4,1,1,89,0,1,1,MERGED
+82165,Targeted fix for installing roles with symlinks containing '..',s-hertel,2023-11-07T21:23:24Z,2023-11-30T23:05:49+00:00,5,553.71,True,229,45,6,269,6,2,8,MERGED
+82162,galaxy: Skip verification for unwanted files,Akasurde,2023-11-07T20:13:31Z,2024-02-27T23:05:29+00:00,3,2690.87,True,21,0,3,105,3,2,5,MERGED
+82158,copy keep suffix on temp file for validation,bcoca,2023-11-07T16:06:12Z,2023-11-13T15:03:59+00:00,1,142.96,True,14,5,5,98,0,1,1,MERGED
+82153,ansible-test - Use pylint unidiomatic-typecheck,mattclay,2023-11-07T00:27:40Z,2023-11-07T19:04:23+00:00,1,18.61,True,5,21,5,422,0,0,0,MERGED
+82152,[stable-2.16] setup.cfg: add `Programming Language :: Python :: 3.12` classifier,gotmax23,2023-11-06T22:51:53Z,2023-11-27T16:25:01+00:00,2,497.55,True,1,0,1,113,3,0,3,MERGED
+82151,setup.cfg: add `Programming Language :: Python :: 3.12` classifier,gotmax23,2023-11-06T22:50:01Z,2023-11-07T15:23:48+00:00,1,16.56,True,1,0,1,113,1,0,1,MERGED
+82147,Reword note on default determination on other OSes,tdltdc,2023-11-06T19:46:32Z,2023-11-07T15:20:46+00:00,1,19.57,True,2,2,1,80,0,0,0,MERGED
+82138,restore role param precedence (#82106),bcoca,2023-11-06T14:36:43Z,2023-11-27T16:24:26+00:00,1,505.8,True,9,1,3,105,2,0,2,MERGED
+82133,[bp-2.16] Fix the strategy plugin description in keywords,Akasurde,2023-11-04T16:02:21Z,2023-11-27T16:23:15+00:00,1,552.35,True,10,10,1,166,2,0,2,MERGED
+82129,Use functools.update_wrapper instead of a copy,mattclay,2023-11-02T23:36:00Z,2023-11-06T20:01:18+00:00,1,92.42,True,5,18,2,126,0,0,0,MERGED
+82127,[stable-2.16] Remove duplicate winrm test (#82124),jborean93,2023-11-02T21:11:53Z,2023-11-27T16:22:30+00:00,1,595.18,True,0,20,1,93,2,0,2,MERGED
+82117,ansible-test - remove Fedora 38 container and remote support,Akasurde,2023-11-02T09:57:06Z,2024-01-10T19:05:57+00:00,1,1665.15,True,3,2,3,105,4,0,4,MERGED
+82115,ansible-test - Add alpine 3.19,Akasurde,2023-11-02T09:09:37Z,2024-03-22T01:02:30+00:00,2,3375.88,True,6,0,4,105,13,1,14,MERGED
+82113,Fix the strategy plugin description in keywords,Akasurde,2023-11-02T02:22:05Z,2023-11-02T21:17:47+00:00,1,18.93,True,10,10,1,130,3,0,3,MERGED
+82106,restore role param precedence,bcoca,2023-11-01T14:36:12Z,2023-11-06T14:18:36+00:00,1,119.71,True,9,1,3,45,3,0,3,MERGED
+82105,Add DCO and update CONTRIBUTING.md,GregSutcliffe,2023-11-01T10:53:51Z,2023-11-27T18:19:38+00:00,15,631.43,True,47,2,1,1127,13,7,20,MERGED
+82101,pip - Add module in venv example,mattclay,2023-10-31T00:28:04Z,2023-10-31T16:14:52+00:00,2,15.78,True,20,0,1,70,2,0,2,MERGED
+82091,Update ssh.py,DeeptanshuDas,2023-10-29T15:44:44Z,2023-10-31T15:14:08+00:00,1,47.49,False,6,0,1,282,3,0,3,CLOSED
+82087,Fix for 'apt_repository modify comment line /etc/apt/sources.list',sndrr,2023-10-27T22:46:29Z,2024-05-14T02:09:24+00:00,1,4779.38,False,11,10,2,2194,4,0,4,CLOSED
+82081,facts: Update RAID devices regex for FreeBSD,lostsoulparty,2023-10-26T12:04:33Z,2024-05-06T20:41:38+00:00,4,4640.62,True,608,3,5,339,3,2,5,MERGED
+82079,docs(template): use unambiguous syntax for mode,arthurzenika,2023-10-26T07:26:49Z,2023-10-26T19:21:26+00:00,1,11.91,True,1,1,1,63,2,0,2,MERGED
+82078,Create a User with a Home Directory,theputta,2023-10-26T03:26:40Z,2023-10-26T19:20:51+00:00,1,15.9,True,5,0,1,81,0,0,0,MERGED
+82074,Clarify wording of human_to_bytes filter,leegarrett,2023-10-25T17:09:31Z,2024-12-06T13:24:55+00:00,2,9788.26,False,5,1,1,131,0,1,1,CLOSED
+82072,Remove deprecated scp_if_ssh from SSH connection plugin,Akasurde,2023-10-25T03:16:18Z,2024-03-25T14:50:38+00:00,10,3659.57,True,13,104,4,172,7,4,11,MERGED
+82071,don't warn about using a yescrypt hash as user password,konstruktoid,2023-10-24T22:39:49Z,2023-10-26T19:03:49+00:00,1,44.4,True,18,1,3,172,0,0,0,MERGED
+82070,[stable-2.16] ansible-pull now handles all secret files CLI options (#82009),bcoca,2023-10-24T13:21:44Z,2023-11-27T15:37:52+00:00,1,818.27,True,27,2,5,197,4,0,4,MERGED
+82067,Fix contains example,Akasurde,2023-10-24T04:53:58Z,2023-10-24T15:30:11+00:00,1,10.6,True,1,1,1,162,0,0,0,MERGED
+82066,Remove create_new_password parameter in CLI.build_vault_ids,JustinWayland,2023-10-24T02:19:58Z,2023-11-06T14:30:13+00:00,17,324.17,True,8,28,3,947,11,8,19,MERGED
+82064,"wait_for, fallback to read for non mmapable files",bcoca,2023-10-23T21:23:09Z,2023-11-16T20:20:52+00:00,1,574.96,True,27,5,3,44,0,0,0,MERGED
+82059,corrected become same user config docs,bcoca,2023-10-23T15:18:42Z,2023-10-27T07:21:31+00:00,2,88.05,True,3,2,1,43,2,0,2,MERGED
+82058,Address nuance in key checking docs,bcoca,2023-10-23T15:01:54Z,2023-10-25T16:02:29+00:00,2,49.01,True,8,4,2,105,1,1,2,MERGED
+82053,[stable-2.16] Fix Jinja plugin deduplication (#82002),bcoca,2023-10-20T23:02:08Z,2023-11-27T15:37:01+00:00,1,904.58,True,110,5,9,193,2,0,2,MERGED
+82050,Use a Specific Package Manager,theputta,2023-10-20T19:20:40Z,2025-06-04T06:18:42+00:00,6,14218.97,True,6,0,1,108,2,3,5,MERGED
+82047,Gather facts about SSH Keys,theputta,2023-10-20T03:34:56Z,2023-10-20T15:42:49+00:00,2,12.13,False,3,0,1,97,0,1,1,CLOSED
+82039,Fail if a file contains unexpected content,theputta,2023-10-19T21:09:31Z,2023-10-20T02:53:02+00:00,2,5.73,False,5,0,1,148,1,1,2,CLOSED
+82038,Block Outgoing Traffic to a Specific IP,theputta,2023-10-19T21:04:17Z,2023-10-24T15:10:28+00:00,1,114.1,False,8,0,1,100,1,1,2,CLOSED
+82035,Display Only Facts Regarding Time and Date,theputta,2023-10-19T20:53:21Z,2023-10-24T15:08:42+00:00,1,114.26,False,3,0,1,90,1,1,2,CLOSED
+82030,ansible-pull: expand destinantion directoy to avoid purgin in /,bcoca,2023-10-19T20:27:04Z,2023-11-15T15:09:04+00:00,1,642.7,True,9,3,3,104,2,0,2,MERGED
+82026,Respect `ANSIBLE_HOME` when determining SSH control path directory ,sodle,2023-10-19T03:03:53Z,2024-06-05T15:43:23+00:00,13,5532.66,False,7,1,2,1013,2,3,5,CLOSED
+82012,Fix additional spelling errors in builtin modules,R055A,2023-10-18T17:50:19Z,2023-10-24T04:22:35+00:00,3,130.54,True,43,43,35,423,3,2,5,MERGED
+82003,Fix task.resolved_action callbacks,s-hertel,2023-10-17T18:51:49Z,2024-05-30T14:20:54+00:00,3,5419.48,True,42,8,7,256,2,1,3,MERGED
+82002,Fix Jinja plugin deduplication,bcoca,2023-10-17T16:43:04Z,2023-10-20T23:00:41+00:00,3,78.29,True,110,5,9,44,2,1,3,MERGED
+82001,var names not matching in example.,mahespth,2023-10-17T16:17:58Z,2023-10-19T19:41:51+00:00,1,51.4,True,1,1,1,232,0,0,0,MERGED
+81995,Enable file cache. fix #81994,tobixx,2023-10-17T12:26:38Z,2024-03-15T18:50:39+00:00,1,3606.4,True,48,18,10,52,9,0,9,MERGED
+81990,modules: remove PY2 compat,mkrizek,2023-10-17T08:46:29Z,2024-01-17T08:24:35+00:00,11,2207.64,True,26,55,7,42,2,8,10,MERGED
+81989,module_utils/basic.py: remove PY2 compat,mkrizek,2023-10-17T08:08:27Z,2024-01-17T14:35:58+00:00,5,2214.46,True,70,127,2,43,4,3,7,MERGED
+81979,Update gen_distribution_version_testcase.py,gargtanishka895,2023-10-16T06:15:01Z,2024-02-12T20:09:58+00:00,3,2869.92,False,14,25,1,288,2,2,4,CLOSED
+81978,Replace launchpad.net/api with api.launchpad.net @ apt_repository module,DomenickD3,2023-10-15T17:05:22Z,2023-10-18T23:33:11+00:00,1,78.46,True,6,1,2,6081,15,0,15,MERGED
+81976,Update README.md,sidwar007,2023-10-15T10:01:57Z,2025-04-11T20:55:38+00:00,9,13066.89,False,8,9,1,127,3,3,6,CLOSED
+81969,Fix typos in builtin modules,isaac-chung,2023-10-13T18:52:27Z,2023-10-14T03:37:59+00:00,1,8.76,True,18,18,15,172,0,0,0,MERGED
+81966,Fix galaxy role illegal filename handling,nomike,2023-10-13T08:20:39Z,2023-11-30T23:18:32+00:00,6,1166.96,False,138,72,1,131,2,1,3,CLOSED
+81953,Update default test container Python to 3.12 and support for PyLint 3.0.1,nitzmahone,2023-10-11T17:38:36Z,2023-10-11T20:04:22+00:00,1,2.43,True,37,6,7,177,0,0,0,MERGED
+81951,Clarify some points in config lookup documentation,bcoca,2023-10-11T15:28:41Z,2023-10-24T13:17:32+00:00,12,309.81,True,29,15,3,30,5,6,11,MERGED
+81943,[git] Pass private key content from the control node,infame-io,2023-10-10T08:24:10Z,2024-06-05T15:41:54+00:00,3,5743.3,False,58,2,4,882,7,3,10,CLOSED
+81931,Fix locale related parsing error in git.py,Migsi,2023-10-09T12:38:45Z,2023-10-25T13:47:55+00:00,3,385.15,True,4,1,2,602,1,0,1,MERGED
+81929,[rpm_key] Pass GPG key as string value,infame-io,2023-10-07T11:50:04Z,2025-01-10T20:44:42+00:00,4,11072.91,False,9852,11294,876,986,4,2,6,CLOSED
+81927,return real path when stat symlink with follow arg,nicolasleborgne,2023-10-05T21:57:44Z,2023-10-06T05:03:30+00:00,2,7.1,False,5,1,2,66,0,1,1,CLOSED
+81917,ansible-galaxy - fix traceback error for invalid req file,jborean93,2023-10-05T16:23:03Z,2023-10-05T19:03:01+00:00,2,2.67,True,20,1,3,161,1,0,1,MERGED
+81909,ensure task_executor gets a correct action name,bcoca,2023-10-05T13:51:07Z,2023-10-19T20:44:42+00:00,10,342.89,False,76,30,12,125,2,6,8,CLOSED
+81904,Update __init__.py,abhinavs1920,2023-10-05T04:13:49Z,2023-10-08T06:14:00+00:00,1,74.0,False,2,2,1,88,1,1,2,CLOSED
+81900,Proxy more display methods,sivel,2023-10-04T18:56:49Z,2024-02-14T23:53:52+00:00,4,3196.95,True,89,36,2,90,1,2,3,MERGED
+81896,Deprecate `pycompat24`,webknjaz,2023-10-04T16:01:44Z,2023-10-10T16:00:06+00:00,3,143.97,True,54,5,3,80,2,1,3,MERGED
+81895,"Remove the yum module, redirect it to dnf",mkrizek,2023-10-04T16:01:28Z,2024-01-23T16:23:43+00:00,3,2664.37,True,70,4791,45,56,4,2,6,MERGED
+81880,Remove py2 support from urls.py,sivel,2023-10-03T21:54:31Z,2023-10-09T16:35:50+00:00,5,138.69,True,455,1470,15,95,0,2,2,MERGED
+81879,Deprecate Python 2 `importlib.import_module` compat,webknjaz,2023-10-03T21:42:00Z,2023-10-10T15:52:47+00:00,2,162.18,True,24,14,5,79,1,1,2,MERGED
+81874,Remove Python 2 datetime compat fallbacks,webknjaz,2023-10-03T21:10:00Z,2025-03-11T16:19:42+00:00,11,12595.16,True,106,64,8,79,16,4,20,MERGED
+81867,Remove redundant undefined error message,Akasurde,2023-10-03T19:43:03Z,2024-01-30T01:00:53+00:00,3,2837.3,True,13,6,3,105,0,1,1,MERGED
+81866,Drop Python 2.7 and Python 3.6 support,mattclay,2023-10-03T19:17:56Z,2023-10-03T21:52:39+00:00,1,2.58,True,28,335,31,79,0,0,0,MERGED
+81861,"Updated some incomplete docstrings, added missing docstrings",freewaydev,2023-10-03T18:32:35Z,2025-06-06T02:07:39+00:00,2,14671.58,False,961,63,18,125,6,1,7,CLOSED
+81858,Update the test containers to include Python3.12.0 final,s-hertel,2023-10-03T16:21:20Z,2023-10-03T17:46:59+00:00,1,1.43,True,3,3,1,91,0,0,0,MERGED
+81857,[2.16] Update the test containers to include Python 3.12.0 final,s-hertel,2023-10-03T16:21:07Z,2023-10-03T17:51:59+00:00,1,1.51,True,3,3,1,91,0,0,0,MERGED
+81846,Bump Pylint sanity test requirements for 3.12 ,Akasurde,2023-10-02T21:00:23Z,2023-10-03T13:38:49+00:00,1,16.64,True,4,18,4,63,0,0,0,MERGED
+81845,[backport][stable-2.16] Bump `coverage.py` to v7.3.2 in `ansible-test`,webknjaz,2023-10-02T20:55:17Z,2023-10-03T13:13:06+00:00,1,16.3,True,3,3,3,246,0,0,0,MERGED
+81843,Bump sanity test requirements for 3.12,Akasurde,2023-10-02T20:07:22Z,2023-10-03T13:18:33+00:00,1,17.19,True,10,10,7,37,1,0,1,MERGED
+81840,Restore import_role variable exporting behavior,bcoca,2023-10-02T19:51:31Z,2023-10-03T17:59:01+00:00,1,22.12,True,44,19,6,156,0,0,0,MERGED
+81833,Install upgraded crun from edge,sivel,2023-10-02T15:50:15Z,2023-10-02T18:30:32+00:00,2,2.67,True,7,1,1,93,0,2,2,MERGED
+81829,Fix reporting role as not found when remote_data is None,s-hertel,2023-10-02T14:15:31Z,2023-10-02T16:11:13+00:00,1,1.93,True,5,0,2,66,0,0,0,MERGED
+81821,Fix/spelling error built-in modules,KrshnK,2023-10-01T13:47:28Z,2023-10-14T02:06:25+00:00,3,300.32,False,91,3049,28,159,1,11,12,CLOSED
+81814,fixes spelling errors,rose2221,2023-09-29T13:51:25Z,2023-10-02T13:27:48+00:00,5,71.61,True,8,8,7,80,2,2,4,MERGED
+81812,Fix `is_pinned` property of `Requirement`,webknjaz,2023-09-28T22:44:03Z,2025-02-07T23:01:24+00:00,3,11952.29,True,75,4,3,361,5,1,6,MERGED
+81809,Consolidate systemd detection logic,Akasurde,2023-09-28T17:56:03Z,2023-10-26T02:09:46+00:00,4,656.23,True,37,32,4,212,0,1,1,MERGED
+81807,Add compat function for parsing Content-Disposition header,sivel,2023-09-28T14:23:57Z,2023-10-02T13:30:34+00:00,1,95.11,True,45,1,3,136,2,0,2,MERGED
+81804,ansible-vault - suggest --stdin-name when --name is provided without command line args,s-hertel,2023-09-27T22:07:30Z,2024-04-24T18:11:34+00:00,2,5036.07,False,11,1,3,853,6,2,8,CLOSED
+81803,systemd_service: add a note about module rename,Akasurde,2023-09-27T19:32:28Z,2023-09-28T19:20:16+00:00,1,23.8,True,6,4,1,248,0,0,0,MERGED
+81801,Fix dnf module crash for non-existent url,s-hertel,2023-09-27T15:31:51Z,2023-10-03T16:37:35+00:00,2,145.1,True,4,1,3,1164,0,2,2,MERGED
+81796,"ansible-doc: show 'notes', 'seealso', and top-level 'version_added' for role entrypoints",felixfontein,2023-09-27T11:22:55Z,2025-08-11T23:07:32+00:00,7,16427.74,True,92,43,6,81,24,4,28,MERGED
+81789,Update test container versions for devel,s-hertel,2023-09-26T17:09:54Z,2023-09-28T14:24:03+00:00,1,45.24,True,3,3,1,107,0,0,0,MERGED
+81784,Fix typo in finished.yml,eltociear,2023-09-26T16:34:48Z,2023-09-26T19:19:11+00:00,1,2.74,True,1,1,1,94,1,0,1,MERGED
+81780,Prevent roles from using symlinks to overwrite files outside of the installation directory,sivel,2023-09-26T15:20:49Z,2023-09-26T16:32:20+00:00,2,1.19,True,123,23,5,168,0,0,0,MERGED
+81776,Add intentional tests for module_utils/yumdnf.py,mkrizek,2023-09-26T11:57:56Z,2023-09-29T05:48:25+00:00,3,65.84,True,87,0,2,47,0,1,1,MERGED
+81775,Add count and mandatory_count parameters in regex_replace filter,lukaslihotzki-f,2023-09-25T23:29:32Z,2023-09-29T14:33:14+00:00,4,87.06,True,43,2,4,744,2,2,4,MERGED
+81772,Import role public,bcoca,2023-09-25T18:21:03Z,2023-10-02T19:42:00+00:00,10,169.35,True,63,29,8,76,1,7,8,MERGED
+81770,Add UID and GID min/max keys,skupfer,2023-09-24T13:09:18Z,2024-08-01T16:04:59+00:00,3,7490.93,True,308,2,7,280,8,0,8,MERGED
+81762,Add lineinfile integration test for removing a nonexistent line,s-hertel,2023-09-22T14:22:25Z,2023-09-26T15:07:54+00:00,1,96.76,True,21,0,1,125,0,0,0,MERGED
+81756,add intentional coverage for copy with force=false,s-hertel,2023-09-21T19:40:51Z,2023-09-22T13:53:25+00:00,3,18.21,True,12,0,1,1011,0,2,2,MERGED
+81755,Add family fallback for Amzn to register as RedHat,Akasurde,2023-09-21T19:37:32Z,2023-10-03T18:54:15+00:00,1,287.28,True,3,1,2,158,2,0,2,MERGED
+81753,Harden the ansiballz and respawn python templates,sivel,2023-09-21T15:43:08Z,2023-09-21T19:48:48+00:00,1,4.09,True,14,13,3,3258,0,0,0,MERGED
+81745,Handle exception in interpreter discovery,Akasurde,2023-09-21T00:25:19Z,2023-09-21T18:13:40+00:00,2,17.81,True,18,0,3,203,0,1,1,MERGED
+81740,Add intentional tests for dnf install rpm when higher version is installed,mkrizek,2023-09-20T15:10:19Z,2023-09-26T19:49:14+00:00,7,148.65,True,33,1,3,46,0,1,1,MERGED
+81738,Add intentional tests for dnf list,mkrizek,2023-09-20T11:16:10Z,2023-09-21T17:52:43+00:00,2,30.61,True,30,0,1,47,0,1,1,MERGED
+81733,Allow for searching handler subdir for included task via include_role,mkrizek,2023-09-20T07:55:55Z,2023-09-21T19:12:04+00:00,1,35.27,True,22,3,7,55,0,0,0,MERGED
+81732,tests: update CloudStack test container to version 1.7.0.,resmo,2023-09-20T07:46:03Z,2023-09-20T15:34:03+00:00,1,7.8,True,4,1,2,203,0,0,0,MERGED
+81730,Test heuristic_log_sanitize,sivel,2023-09-19T19:12:00Z,2023-09-26T19:23:16+00:00,2,168.19,True,56,0,2,101,0,2,2,MERGED
+81729,Remove deprecated APIs from ansible-doc,Akasurde,2023-09-19T16:52:38Z,2023-09-19T23:48:33+00:00,1,6.93,True,3,11,3,159,1,0,1,MERGED
+81727,yaml filters now use 'ansible yaml',bcoca,2023-09-19T15:24:36Z,2025-04-24T16:47:10+00:00,4,13993.38,False,8,2,3,84,3,3,6,CLOSED
+81726,Fix ansible-test issues with detecting docker host and forwarding ports,sivel,2023-09-19T15:05:44Z,2023-09-19T17:10:53+00:00,2,2.09,True,7,1,3,350,0,1,1,MERGED
+81721,Remove crypt support from ansible.utils.encrypt,mkrizek,2023-09-19T07:08:38Z,2024-01-18T07:23:01+00:00,10,2904.24,True,27,227,16,56,5,4,9,MERGED
+81720,Remove deprecated JINJA2_NATIVE_WARNING configuration entry,mkrizek,2023-09-19T06:56:22Z,2023-10-02T19:57:18+00:00,3,325.02,True,2,13,2,54,2,1,3,MERGED
+81719,Provide more info about plugin in deprecation message,Akasurde,2023-09-19T04:32:13Z,2023-09-29T18:19:17+00:00,1,253.78,True,10,6,3,229,6,0,6,MERGED
+81711,remote log info,bcoca,2023-09-18T18:35:05Z,2023-11-30T18:12:56+00:00,12,1751.63,True,41,3,7,457,3,6,9,MERGED
+81709,Implement an informative reporter for resolvelib,webknjaz,2023-09-16T02:38:10Z,2025-03-10T11:57:09+00:00,12,12993.32,True,91,0,2,954,9,4,13,MERGED
+81707,inventory_ini: Handle SyntaxWarning in ini parsing,Akasurde,2023-09-15T22:48:41Z,2023-09-18T14:50:51+00:00,1,64.04,True,13,2,4,149,1,0,1,MERGED
+81705,support 8 character permission strings,GodsVictory,2023-09-15T14:54:00Z,2023-11-22T00:48:31+00:00,6,1617.91,True,10,1,2,175,2,1,3,MERGED
+81700,vars: handle exception in combine_vars,Akasurde,2023-09-14T20:49:27Z,2023-09-19T15:03:58+00:00,4,114.24,True,38,5,4,192,0,1,1,MERGED
+81697,Add an example for cleaning up the async job cache,s-hertel,2023-09-13T15:49:16Z,2023-09-14T19:11:28+00:00,1,27.37,True,6,1,1,148,0,0,0,MERGED
+81696,Fix example in strftime filter plugin help,Klaas-,2023-09-13T09:39:08Z,2023-10-09T15:55:07+00:00,1,630.27,True,10,8,2,270,4,1,5,MERGED
+81692,log verbosity,bcoca,2023-09-12T21:14:32Z,2023-11-16T01:58:00+00:00,3,1540.72,True,30,3,4,149,4,2,6,MERGED
+81691,ansible-galaxy - skip excluding virtual when determining what requirements are already installed,s-hertel,2023-09-12T17:44:52Z,2023-09-13T13:36:25+00:00,6,19.86,False,32,3,2,474,1,2,3,CLOSED
+81680,sanity: update requirements,Akasurde,2023-09-11T19:56:33Z,2023-09-12T15:33:08+00:00,1,19.61,True,6,6,4,58,0,0,0,MERGED
+81678,copy: print correct dest path when content + diff is used,Akasurde,2023-09-11T17:08:16Z,2023-09-12T15:32:41+00:00,1,22.41,True,11,3,4,206,0,0,0,MERGED
+81675,Update password_hash.yml,artificial-intelligence,2023-09-11T08:33:43Z,2024-04-23T01:20:04+00:00,11,5392.77,True,1,1,1,23,2,2,4,MERGED
+81667,run_once: unnotify hosts on handlers that are not run,mkrizek,2023-09-08T14:05:52Z,2023-10-03T18:43:47+00:00,1,604.63,True,26,7,7,67,0,0,0,MERGED
+81662,blockinfile: avoid crash on Python 3 when creating directory fails,felixfontein,2023-09-07T20:28:19Z,2023-09-12T19:46:44+00:00,1,119.31,True,35,1,4,220,2,0,2,MERGED
+81660,ansible-vault: Check if the destination is writable,Akasurde,2023-09-07T16:45:46Z,2023-09-07T19:30:05+00:00,1,2.74,True,20,3,3,260,0,0,0,MERGED
+81650,"Lazy load Templar for [changed,failed]_when",mkrizek,2023-09-06T11:13:14Z,2023-09-08T08:06:58+00:00,1,44.9,True,3,4,2,347,0,0,0,MERGED
+81646,Improve ansible-pull documentation,rakeshkhopade12,2023-09-06T05:00:54Z,2023-09-07T19:13:23+00:00,1,38.21,True,1,1,1,226,3,0,3,MERGED
+81639,Fix set filters to use set operations,mattclay,2023-09-05T18:51:38Z,2023-09-11T16:32:32+00:00,1,141.68,True,102,79,8,548,0,0,0,MERGED
+81638,blockinfile: do not crash when filename has no path,felixfontein,2023-09-05T18:47:48Z,2024-03-20T23:39:19+00:00,5,4732.86,True,17,1,3,187,3,2,5,MERGED
+81624,Properly template tags in parent blocks,mkrizek,2023-09-04T14:57:29Z,2023-10-03T19:07:27+00:00,2,700.17,True,40,15,5,391,2,1,3,MERGED
+81623,changed link  ‘Risks of becoming an unprivileged user’ ,1LAV1,2023-09-04T11:14:02Z,2023-09-05T15:45:58+00:00,1,28.53,True,1,2,1,12,1,1,2,MERGED
+81622,Improve ansible-pull documentation,rakeshkhopade12,2023-09-04T09:25:12Z,2023-09-07T19:23:57+00:00,2,81.98,False,1,1,1,160,5,1,6,CLOSED
+81619,Make sure paths are treated correctly when building collection files manifest,ccamacho,2023-09-02T15:52:01Z,2023-09-20T18:18:38+00:00,51,434.44,True,31,5,3,210,5,17,22,MERGED
+81617,get_bin_path: remove deprecated 'required' param,Akasurde,2023-09-01T18:33:40Z,2023-09-29T21:01:14+00:00,1,674.46,False,296,303,32,245,6,1,7,CLOSED
+81614,utils/encrypt.py: remove unused private _LOCK,mkrizek,2023-09-01T07:37:42Z,2023-09-05T15:02:56+00:00,1,103.42,True,2,3,2,93,0,0,0,MERGED
+81606,"Always allow ""no-other-choice"" pre-release dependencies when resolving collection dependency tree",webknjaz,2023-08-31T00:35:51Z,2023-09-20T14:35:55+00:00,30,494.0,True,309,80,9,1087,8,9,17,MERGED
+81605,load virtual dependencies to handle as direct requests before dep resolution,s-hertel,2023-08-30T20:03:20Z,2023-08-31T09:48:44+00:00,1,13.76,False,127,17,6,1267,3,1,4,CLOSED
+81600,test: remove ansible-examples.git repo,Akasurde,2023-08-30T15:58:18Z,2024-04-17T21:15:42+00:00,2,5549.29,True,19,16,2,116,5,1,6,MERGED
+81599,ansible-galaxy fix scm dependency error,bcoca,2023-08-30T15:15:15Z,2023-09-21T19:49:30+00:00,10,532.57,True,11,8,3,326,3,8,11,MERGED
+81587,Fix typos in url lookup plugin options,ushuz,2023-08-28T19:20:33Z,2023-08-29T21:27:10+00:00,12,26.11,True,29,3,3,139,5,5,10,MERGED
+81586,galaxy: check if the target for symlink exists,Akasurde,2023-08-28T17:02:49Z,2023-09-12T23:05:51+00:00,1,366.05,True,30,0,3,150,1,0,1,MERGED
+81585,[docs] env lookup: environment variable example should be USER,konstruktoid,2023-08-28T09:07:02Z,2023-08-29T19:11:22+00:00,8,34.07,False,6,6,1,417,3,1,4,CLOSED
+81584,Daemonize follow-up fixes,vaygr,2023-08-25T23:29:39Z,2023-09-22T13:41:30+00:00,6,662.2,True,6,3,2,131,1,1,2,MERGED
+81581,Fix stealth exceptions and blocking select() in daemonize() (#81064) - 2.15,vaygr,2023-08-25T17:51:27Z,2023-10-02T13:30:45+00:00,14,907.65,True,12,5,3,276,2,3,5,MERGED
+81579,Added new connection plugin prepare_command method,jborean93,2023-08-25T05:36:09Z,2025-01-29T18:31:18+00:00,6,12564.92,False,187,41,10,738,0,2,2,CLOSED
+81578,reboot: show last error message in verbose log,Akasurde,2023-08-25T00:50:58Z,2023-09-15T17:50:27+00:00,6,520.99,True,17,9,2,158,5,3,8,MERGED
+81572,flush_handlers: handle a failure in a nested block with force_handlers,mkrizek,2023-08-24T09:12:53Z,2023-11-13T08:57:44+00:00,1,1943.75,True,42,27,4,55,2,0,2,MERGED
+81571,encrypt: deprecate passlib_or_crypt,Akasurde,2023-08-24T01:22:50Z,2023-09-07T21:44:27+00:00,6,356.36,True,25,12,5,299,2,4,6,MERGED
+81568,dnf module can be used to update packages to latest,barbacbd,2023-08-23T18:10:06Z,2023-08-28T08:48:46+00:00,3,110.64,True,31,5,3,264,3,1,4,MERGED
+81565,Only mark role as complete once it has a task run for the target host,s-hertel,2023-08-23T12:54:54Z,2023-09-08T16:11:49+00:00,2,387.28,True,67,2,8,128,4,0,4,MERGED
+81555,fix/81553 Add warnings for illegal file names in role,atsalolikhin-spokeo,2023-08-21T22:09:38Z,2023-08-28T18:54:09+00:00,2,164.74,True,24,2,3,127,14,1,15,MERGED
+81554,docs: update error message,Akasurde,2023-08-21T21:16:38Z,2023-10-04T14:49:04+00:00,1,1049.54,True,9,6,2,248,4,1,5,MERGED

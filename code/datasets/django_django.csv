@@ -149,3 +149,853 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 19663,Refs #36138 -- Corrected global_settings comment for ADMINS.,medmunds,2025-07-22T00:19:41Z,2025-07-22T11:53:56+00:00,2,11.57,True,1,1,1,644,0,0,0,MERGED
 19662,Fixed incorrectly concatenated string in SimpleBlockTagTests.test_simple_block_tag_with_context_missing_content().,medmunds,2025-07-21T21:50:51Z,2025-07-22T11:36:01+00:00,2,13.75,True,5,3,1,671,0,0,0,MERGED
 19661,Fixed #36500 -- Set flake8 max-doc-length.,medmunds,2025-07-21T21:31:14Z,2025-07-23T23:17:56+00:00,19,49.78,True,2954,1988,391,933,12,51,63,MERGED
+19659,Fixed #36511 -- Ensured filters came before table in keyboard navigation in admin changelist.,Antoliny0919,2025-07-20T14:07:50Z,2025-07-30T15:32:39+00:00,2,241.41,True,92,33,5,923,2,0,2,MERGED
+19658,"Fixed #36516, Refs #36366 -- Fixed changelist footer layout with list_editable and list_filter.",Antoliny0919,2025-07-20T13:53:03Z,2025-07-24T06:38:43+00:00,3,88.76,True,20,2,2,623,4,1,5,MERGED
+19656,Fixed #36230 -- Improved color contrast for blockquote in admin.,LauHerregodts,2025-07-20T12:11:25Z,2025-07-20T19:12:46+00:00,4,7.02,True,2,2,1,633,1,1,2,MERGED
+19653,Fixed #34898: Add PostgreSQL collation warning for unique CharFields ,alainajaffer,2025-07-19T10:13:57Z,2025-07-19T13:12:20+00:00,1,2.97,False,13,0,3,752,2,0,2,CLOSED
+19652,Fixed #36055 -- Prevented overlap of object-tools buttons and page header in the admin.,Antoliny0919,2025-07-19T08:38:36Z,2025-07-24T08:33:32+00:00,1,119.92,False,58,33,6,587,5,0,5,CLOSED
+19651,Removed double spaces after periods.,sarahboyce,2025-07-18T13:42:18Z,2025-07-23T13:09:44+00:00,2,119.46,True,215,216,109,264,2,1,3,MERGED
+19650,Improved readability of AppConfig.__init__ and added validation error using f-strings. Refs ticket - N/A,veerababu1729,2025-07-18T09:41:07Z,2025-07-19T11:22:15+00:00,1,25.69,False,41,40,1,1000,1,0,1,CLOSED
+19649,Refs #35680 -- Sorted shell default autoimports to prevent isort mismatches.,nessita,2025-07-17T15:59:08Z,2025-07-18T11:47:44+00:00,2,19.81,True,4,4,2,2156,0,0,0,MERGED
+19648,Fixed #25251 -- Added --use-clones option to never run against test DB,florean,2025-07-17T07:26:55Z,2025-08-25T20:20:16+00:00,1,948.89,False,145,12,10,1210,2,0,2,CLOSED
+19646,[5.2.x] Added SimpleTestCase.enterContext() on Python < 3.11.,nessita,2025-07-16T17:16:54Z,2025-07-16T21:11:53+00:00,1,3.92,True,5,8,2,104,0,0,0,MERGED
+19645,Fixed #36369: Added tests to verify FORWARD_PROPERTIES and REVERSE_PROPERTIES cache behaviours.,jrsenthil-kumar2312,2025-07-16T12:58:41Z,2025-09-19T18:57:05+00:00,3,1565.97,True,29,0,2,982,1,1,2,MERGED
+19644,Triggered window resize to fix layout issues.,sarahboyce,2025-07-16T10:25:44Z,2025-07-18T15:29:12+00:00,2,53.06,True,12,3,3,707,1,0,1,MERGED
+19643,Fixed #36410 -- Added named template partials to DTL,FarhanAliRaza,2025-07-16T10:13:09Z,2025-08-15T00:53:15+00:00,54,710.67,True,1587,2,16,713,49,82,131,MERGED
+19641,Add initial workflow to check if tests are added in PRs,0saurabh0,2025-07-16T07:51:06Z,2025-08-17T16:48:43+00:00,1,776.96,False,187,1,3,832,1,1,2,CLOSED
+19640,Added GitHub Action to enforce stable branch commit message prefix.,nessita,2025-07-14T21:18:28Z,2025-07-16T11:38:14+00:00,1,38.33,True,63,0,1,295,1,0,1,MERGED
+19639,Fixed #36499 -- Adjusted utils_tests.test_html.TestUtilsHtml.test_strip_tags following Python's HTMLParser new behavior.,nessita,2025-07-14T17:53:43Z,2025-08-13T02:04:09+00:00,6,704.17,True,25,3,2,618,3,2,5,MERGED
+19637,Fixed typo in docs/ref/utils.txt.,cliff688,2025-07-13T16:28:54Z,2025-07-13T17:38:23+00:00,1,1.16,True,1,1,1,0,0,0,0,MERGED
+19636,Add MaxFileSizeValidator and MinFileSizeValidator to core validators,mahdirahimi1999,2025-07-11T22:35:58Z,2025-07-12T06:38:38+00:00,1,8.04,False,296,0,3,938,5,0,5,CLOSED
+19635,Added Django ecosystem page to the documentation.,tim-schilling,2025-07-11T21:59:04Z,2025-07-13T13:06:40+00:00,5,39.13,True,20,2,3,553,2,1,3,MERGED
+19634,fix: more extensive file name checking,AntKondr,2025-07-11T04:08:46Z,2025-07-11T05:19:47+00:00,1,1.18,False,1,1,1,494,3,0,3,CLOSED
+19630,Fixed #36502 -- Restored UNNEST strategy for foreign key bulk inserts on PostgreSQL.,charettes,2025-07-09T17:15:07Z,2025-07-10T16:33:00+00:00,1,23.3,True,21,3,3,127,2,1,3,MERGED
+19629,"Refs #35844, #35945 -- Used asgiref.sync.iscoroutinefunction() instead of deprecated asyncio.iscoroutinefunction().",felixxm,2025-07-09T10:03:22Z,2025-07-09T16:01:45+00:00,2,5.97,True,1,2,1,196,0,0,0,MERGED
+19628,Updated asgiref dependency.,carltongibson,2025-07-09T07:52:17Z,2025-07-09T16:06:49+00:00,1,8.24,True,6,3,4,788,2,0,2,MERGED
+19626,Fixed #36226 -- Accepted str or bytes for password and salt in password hashers.,roelzkie15,2025-07-08T16:25:37Z,2025-07-22T10:15:10+00:00,7,329.83,True,63,7,3,999,4,3,7,MERGED
+19625,Fixed typo in ReverseManyToOneDescriptor docstring.,tinmarbusir,2025-07-08T14:38:24Z,2025-07-09T16:10:04+00:00,2,25.53,True,1,1,1,158,1,0,1,MERGED
+19622,Update README.rst,Bharat-Panchal15,2025-07-06T17:09:32Z,2025-07-06T19:21:09+00:00,1,2.19,False,2,0,1,539,0,0,0,CLOSED
+19621,Added tests for assertRedirects() when following a redirect.,cliff688,2025-07-06T08:51:52Z,2025-07-17T20:36:02+00:00,8,275.74,True,189,149,1,1831,0,6,6,MERGED
+19620,Fixed #36438 -- Made MigrationAutodetector remove generated fields before their base fields.,cliff688,2025-07-06T06:49:31Z,2025-07-25T11:59:13+00:00,6,461.16,True,151,11,4,682,0,6,6,MERGED
+19616,Refs #27236 -- Removed references to removed index_together migration methods.,cliff688,2025-07-03T06:50:37Z,2025-07-03T13:23:25+00:00,1,6.55,True,2,2,1,180,0,0,0,MERGED
+19614,Fixed #36490 -- Avoided unnecessary transaction in bulk_create.,charettes,2025-07-02T05:51:04Z,2025-08-15T08:45:02+00:00,3,1058.9,True,60,23,2,662,2,1,3,MERGED
+19611,Fixed #36439 -- Optimized acheck_password by using sync_to_async on verify_password.,roelzkie15,2025-06-30T17:58:33Z,2025-07-31T09:12:50+00:00,4,735.24,True,6,1,1,1411,5,2,7,MERGED
+19610,Fixed #36488 -- use & separator when merging query strings in RedirectView,ejucovy,2025-06-30T17:52:27Z,2025-09-08T20:13:24+00:00,2,1682.35,False,26,1,2,794,1,1,2,CLOSED
+19607,"Removed verbose ""which"" from migrations topic",jmoppel,2025-06-29T21:18:24Z,2025-07-27T06:39:49+00:00,2,657.36,False,6,8,1,687,7,0,7,CLOSED
+19606,Fixed #36486 -- Added MongoDB to list of third-party DB backends.,Faravah,2025-06-29T16:36:34Z,2025-09-09T06:23:41+00:00,3,1717.79,True,1,0,1,438,2,0,2,MERGED
+19605,"Refs #34140, Refs #36485 -- Grouped docs checks under a unified make check target.",smithdc1,2025-06-29T12:15:51Z,2025-08-05T15:18:19+00:00,1,891.04,True,65,11,3,639,4,0,4,MERGED
+19604,Fixed #99999 -- Added a shortcut function to make toast,nikhil-somani,2025-06-29T08:00:32Z,2025-06-29T09:34:15+00:00,1,1.56,False,23,0,4,539,0,0,0,CLOSED
+19602,Fixed #35453 -- ManyToManyField no longer flagged as a concrete field.,rpkilby,2025-06-27T20:12:52Z,2025-09-22T13:52:22+00:00,4,2081.66,True,31,33,8,844,4,1,5,MERGED
+19599,Enforced absolute targets for :doc: in docs.,adamchainz,2025-06-27T13:34:14Z,2025-08-28T16:48:32+00:00,1,1491.24,True,305,261,32,482,4,0,4,MERGED
+19597,Fixed #36009 -- Added support for PostGIS 3.5,smithdc1,2025-06-26T12:27:23Z,2025-07-23T11:17:18+00:00,1,646.83,True,8,2,2,461,11,0,11,MERGED
+19596,Separated creating the release and setting it as default in Trac in the post-release steps.,sarahboyce,2025-06-26T10:43:32Z,2025-06-27T12:46:17+00:00,1,26.05,True,7,9,1,0,0,0,0,MERGED
+19595,Fixed #36481 -- Fixed QuerySet.update concrete fields check.,rpkilby,2025-06-26T06:04:55Z,2025-09-04T16:15:45+00:00,4,1690.18,True,43,8,4,501,13,0,13,MERGED
+19592,Fixed #36470 — strip ANSI escape codes from log_message() output,houston0222,2025-06-25T20:22:11Z,2025-06-25T22:52:16+00:00,2,2.5,False,40,2,2,940,2,0,2,CLOSED
+19591,Fixed #36479: Failing test for black formatter missing install simulation on a macOS,roelzkie15,2025-06-25T17:41:23Z,2025-07-01T18:24:08+00:00,9,144.71,True,6,2,1,789,0,1,1,MERGED
+19590,fix #31834 sqlmigrate command error when field are added in unique_together,bishnusyangja,2025-06-25T07:21:25Z,2025-09-03T00:28:41+00:00,1,1673.12,False,13,8,1,539,2,0,2,CLOSED
+19588,Refs #35728 -- Added standard failure prefixes to assertion message tests.,cliff688,2025-06-24T21:20:28Z,2025-07-06T08:46:11+00:00,1,275.43,False,182,154,2,236,1,1,2,CLOSED
+19586,Fixed #35846 -- Improved reproducibility on staticfiles manifests.,matthews-noriker,2025-06-24T06:40:42Z,2025-07-01T18:24:34+00:00,8,179.73,True,20,3,3,1114,0,1,1,MERGED
+19584,Fixed #36168 -- Fixed backwards migration to replaced migrations with…,YasserShkeir,2025-06-21T18:34:51Z,2025-06-22T10:27:14+00:00,1,15.87,False,177,0,2,1884,0,0,0,CLOSED
+19582,Added unit tests for slugify function,Soham-456,2025-06-20T17:59:12Z,2025-06-20T20:14:53+00:00,1,2.26,False,17799,6088,904,141,1,0,1,CLOSED
+19581,Removed @skipUnlessDBFeature silencing of nonexistent features.,timgraham,2025-06-20T01:03:35Z,2025-06-20T15:16:22+00:00,1,14.21,True,4,8,2,130,0,0,0,MERGED
+19578,"Fixed #36471 -- Added support for __coveredby GIS lookup and Collect, GeoHash, IsValid on MariaDB 12.0.1+.",felixxm,2025-06-19T09:55:05Z,2025-06-25T06:58:23+00:00,3,141.06,True,101,66,6,12,0,1,1,MERGED
+19574,Fixed #26583 -- Silenced individual clashing name warnings in collectstatic's default verbosity.,blighj,2025-06-18T12:17:12Z,2025-08-05T14:37:43+00:00,9,1154.34,True,56,13,3,961,4,5,9,MERGED
+19572,Fixed #36469 -- Added link to stable version of the docs in development docs warning.,AyushPatiTripathi,2025-06-17T18:48:33Z,2025-06-18T09:55:52+00:00,1,15.12,False,134,3,10,529,3,0,3,CLOSED
+19571,Clarified that only latest dependency versions are valid for security reports.,RealOrangeOne,2025-06-17T14:29:37Z,2025-06-18T14:04:34+00:00,2,23.58,True,15,1,2,808,5,0,5,MERGED
+19570, Fixed #36467 -- Removed leading whitespaces from Set-Cookie header values in WSGIHandler.,lukas-komischke-ameos,2025-06-17T09:33:37Z,2025-06-18T09:25:14+00:00,2,23.86,True,39,4,6,709,2,0,2,MERGED
+19568,Fix typo,Dimaz55,2025-06-17T05:39:58Z,2025-06-17T07:47:25+00:00,1,2.12,False,147,31,2,45,1,0,1,CLOSED
+19567,Fixed #36465 -- Disallowed '+' and '-' characters in template variable names.,haileyajohnson,2025-06-16T21:46:09Z,2025-06-18T12:04:39+00:00,9,38.31,True,34,6,3,1395,4,1,5,MERGED
+19565,Fixed #36464 -- Fixed tuple in subquery lookup when missing native support.,charettes,2025-06-14T15:10:21Z,2025-06-30T23:15:25+00:00,22,392.08,True,38,3,3,376,11,3,14,MERGED
+19563,"Add run_extra_validation() hook to AuthenticationForm for custom validations (e.g., CAPTCHA)",khamedtaha,2025-06-13T16:45:36Z,2025-06-29T17:41:21+00:00,1,384.93,False,10,0,1,715,1,0,1,CLOSED
+19562,Fixed #36456 -- Improved content type negotiation in technical 500 error response.,IsJn-227,2025-06-13T10:34:01Z,2025-07-18T08:18:23+00:00,2,837.74,True,19,2,2,523,2,0,2,MERGED
+19559,Refs #35676 -- Added supports_table_check_constraints skip to model_forms tests.,timgraham,2025-06-13T02:06:04Z,2025-06-13T06:11:04+00:00,1,4.08,True,2,0,2,20,0,0,0,MERGED
+19557,Refs #36009 -- Added GitHub action workflow to run tests with latest stable postgis version.,nessita,2025-06-12T12:58:43Z,2025-06-17T18:25:47+00:00,4,125.45,True,81,0,2,207,1,1,2,MERGED
+19556,Documented use of update_fields with File.save(),rixx,2025-06-12T11:23:48Z,2025-06-17T07:26:58+00:00,2,116.05,False,16,2,2,975,0,1,1,CLOSED
+19555,Fixed #36453 -- Made When.condition resolve with for_save=False.,cliff688,2025-06-12T10:08:02Z,2025-06-16T08:40:29+00:00,14,94.54,True,32,0,3,746,2,8,10,MERGED
+19554,Fixed #36454 -- Fixed typo in docs/intro/tutorial08.txt.,ruvilonix,2025-06-11T18:19:46Z,2025-06-12T07:55:30+00:00,2,13.6,True,1,1,1,525,3,0,3,MERGED
+19553,Fixed #36447 -- Only considered quality when selecting preferred media type.,RealOrangeOne,2025-06-11T15:52:29Z,2025-06-16T07:25:25+00:00,11,111.55,True,94,9,4,652,1,3,4,MERGED
+19552,Added guidance on AI-assisted security reports to docs/internals/security.txt.,nessita,2025-06-11T13:41:08Z,2025-06-17T14:45:03+00:00,18,145.07,True,62,0,1,254,0,9,9,MERGED
+19551,Fixed #21080 -- Used JsLex for ES module support in ManifestStaticFilesStorage.,blighj,2025-06-10T23:05:24Z,2025-08-18T18:24:45+00:00,3,1651.32,False,913,76,5,1282,5,4,9,CLOSED
+19550,Added follow-up to CVE-2025-48432 to security archive.,sarahboyce,2025-06-10T10:40:24Z,2025-06-10T13:08:31+00:00,2,2.47,True,8,0,1,194,0,0,0,MERGED
+19549,Fixed #36485 -- Added linting tool for documentation files. ,smithdc1,2025-06-09T22:42:19Z,2025-08-25T13:51:11+00:00,19,1839.15,True,4179,3612,271,845,5,5,10,MERGED
+19548,"Fixed #36446 -- Restored ""q"" in internal MediaType.params property.",nessita,2025-06-09T14:55:47Z,2025-06-09T20:37:40+00:00,5,5.7,True,69,10,3,483,1,1,2,MERGED
+19547,Refs #10785 -- Added missing __hash__() method to custom pk test model.,jacobtylerwalls,2025-06-09T14:09:43Z,2025-06-09T16:32:55+00:00,1,2.39,True,3,0,1,894,1,0,1,MERGED
+19546,"Fixed #36445 -- Ensured Value(None, output_field=JSONField()) is saved as JSON null in bulk_update()",GoyalRocks007,2025-06-09T12:51:39Z,2025-09-01T19:51:50+00:00,4,2023.0,False,17,2,3,927,4,1,5,CLOSED
+19543,Fixed #35305 -- Avoided recreating constraints on fields renamed via db_column.,jacobtylerwalls,2025-06-08T20:58:11Z,2025-06-23T12:06:14+00:00,5,351.13,True,203,0,2,597,0,3,3,MERGED
+19541,Refs #36419 -- Fixed BulkUpdateTests.test_json_field_sql_null() crash on Oracle.,felixxm,2025-06-08T14:50:15Z,2025-06-10T06:40:47+00:00,1,39.84,True,6,2,1,3972,1,0,1,MERGED
+19540,Fixed #36449 -- Fixed field types in example model using ForeignObject.,jacobtylerwalls,2025-06-08T14:19:01Z,2025-06-10T07:44:40+00:00,2,41.43,True,3,3,1,118,0,0,0,MERGED
+19539,High-level diagram visualization of the django codebase,ivanmilevtues,2025-06-08T12:10:02Z,2025-06-08T14:42:13+00:00,1,2.54,False,1313,0,9,1292,3,0,3,CLOSED
+19538,Refs #35038 -- Reduced CreateModel/AlterConstraint operations when optimizing migrations.,jacobtylerwalls,2025-06-07T22:23:48Z,2025-06-19T10:22:23+00:00,1,275.98,True,63,0,2,147,0,0,0,MERGED
+19537,Fixed #36448 -- Fixed GeoDjango spelling in test_commands.py docstrings.,nakanoh,2025-06-07T15:40:47Z,2025-06-10T07:50:21+00:00,2,64.16,True,2,2,1,922,0,0,0,MERGED
+19535,Fixed #36433 -- Fixed constraint validation crash when condition uses a ForeignKey attname.,colleenDunlap,2025-06-06T21:01:00Z,2025-06-13T06:50:25+00:00,1,153.82,True,17,0,2,596,4,0,4,MERGED
+19532,"Refs #36416, #34378, #36143 -- Fixed isolation of LookupTests.test_in_bulk_preserve_ordering_with_batch_size().",jacobtylerwalls,2025-06-06T04:32:21Z,2025-06-09T20:40:23+00:00,1,88.13,True,7,12,1,2510,0,0,0,MERGED
+19531,Fixed #36442 -- Cloned FilteredRelation before rename_prefix_from_q.,mihalikv,2025-06-05T21:59:53Z,2025-06-12T06:36:54+00:00,5,152.62,True,23,0,2,782,0,1,1,MERGED
+19530,Fixed #36421 -- Made test_msgfmt_error_including_non_ascii compatible…,jericho1050,2025-06-05T21:05:34Z,2025-06-11T15:09:16+00:00,2,138.06,True,23,2,1,819,3,0,3,MERGED
+19528,[5.2.x] Updated translations from Transifex.,sarahboyce,2025-06-05T14:06:41Z,2025-06-06T11:55:05+00:00,3,21.81,True,444,424,59,0,0,0,0,MERGED
+19526,Fixed #36437 -- Improved accessibility of messages in admin,michalpokusa,2025-06-04T22:49:17Z,2025-06-18T06:37:44+00:00,6,319.81,True,104,29,12,710,0,1,1,MERGED
+19525,Refs CVE-2025-48432 -- Ensured `log_response` is used anywhere a response is logged,RealOrangeOne,2025-06-04T15:10:59Z,2025-06-06T12:05:33+00:00,5,44.91,True,124,58,8,684,0,1,1,MERGED
+19523,Fixed #36432 -- Fixed a prefetch_related crash on related target subclass queryset.,charettes,2025-06-04T02:38:59Z,2025-06-04T08:46:49+00:00,2,6.13,True,25,1,4,136,0,1,1,MERGED
+19522,Fixed #36430 -- Removed artificially low limit on single field bulk operations on SQLite.,jacobtylerwalls,2025-06-04T01:55:10Z,2025-08-21T14:47:41+00:00,6,1884.88,True,27,36,5,552,3,2,5,MERGED
+19521,Fixed #36435 -- Made CaptureQueriesContext restore reset_queries conditionally.,adamchainz,2025-06-03T22:29:07Z,2025-06-05T11:49:39+00:00,5,37.34,True,32,12,2,819,0,1,1,MERGED
+19520,Made minor grammar and punctuation improvements in docs/topics/migrations.txt.,cliff688,2025-06-02T20:48:28Z,2025-06-11T15:52:27+00:00,7,211.07,True,8,8,1,0,0,3,3,MERGED
+19516,Fixed #36425 -- Standardized integer fields descriptions.,junghwan16,2025-05-31T07:37:58Z,2025-06-11T07:59:00+00:00,2,264.35,True,12,10,1,745,1,0,1,MERGED
+19513,Docs: 36425 -- Improve positive integer field documentation across database backends,junghwan16,2025-05-30T09:42:55Z,2025-05-31T00:08:19+00:00,1,14.42,False,66,2,2,645,1,0,1,CLOSED
+19512,Fixed #36380 -- Deferred SQL formatting when running tests with --debug-sql.,nessita,2025-05-29T12:20:15Z,2025-06-16T20:41:24+00:00,38,440.35,True,245,41,4,333,7,18,25,MERGED
+19511,Fixed #36388 -- Handle empty combinator arguments in QuerySet methods,byeongjulee222,2025-05-29T02:33:52Z,2025-05-29T06:00:38+00:00,1,3.45,False,18,0,3,693,1,0,1,CLOSED
+19510,Fixed #36423 -- Prevented filter_horizontal buttons from intercepting form submission.,blayzen-w,2025-05-28T18:32:51Z,2025-06-03T01:25:14+00:00,5,126.87,True,56,4,5,627,5,1,6,MERGED
+19509,Fixed #36380 -- Deferred SQL formatting until DEBUG log is emitted.,nessita,2025-05-28T15:03:28Z,2025-05-29T12:21:38+00:00,1,21.3,False,142,73,4,590,1,1,2,CLOSED
+19508,Fixed #34111 -- Made test runner with --debug-sql format SQL queries.,nessita,2025-05-27T20:43:50Z,2025-05-29T12:21:15+00:00,30,39.62,False,104,93,7,355,2,14,16,CLOSED
+19507,Fixed #36411 -- Made HttpRequest.get_preferred_type() consider media type parameters.,RealOrangeOne,2025-05-27T16:15:23Z,2025-06-03T19:10:41+00:00,28,170.92,True,200,31,4,657,2,12,14,MERGED
+19504,Ticket 26434,michalnik,2025-05-26T16:53:52Z,2025-06-03T00:05:32+00:00,10,175.19,False,108,1,2,496,4,3,7,CLOSED
+19503,Fixed #36419 -- Made bulk_update() convert top-level None to SQL NULL for JSONField.,cliff688,2025-05-26T14:47:02Z,2025-06-06T15:40:35+00:00,14,264.89,True,21,2,3,438,5,5,10,MERGED
+19502,Fixed #36416 -- Made QuerySet.in_bulk() account for composite pks in id_list.,jacobtylerwalls,2025-05-24T18:05:18Z,2025-06-03T15:45:15+00:00,10,237.67,True,23,1,3,613,2,5,7,MERGED
+19498,Fuxed #36413 -- Added delayed_redirect() shortcut for HTML-based client-side redirection.,Mobin-Ghaemi,2025-05-23T08:32:09Z,2025-05-23T11:27:39+00:00,1,2.92,False,59,2,2,570,2,0,2,CLOSED
+19497,Refs #35444 -- Adjusted multi-args distinct aggregate test ordering expectations.,charettes,2025-05-23T05:03:30Z,2025-05-23T09:19:31+00:00,2,4.27,True,1,1,1,762,1,1,2,MERGED
+19496,Fixed typo in form rendering API docs.,adamzap,2025-05-22T21:44:01Z,2025-05-23T09:19:59+00:00,1,11.6,True,1,1,1,496,0,0,0,MERGED
+19495,Fixed #36407 -- Cast default value when using Case statement in Order By clause.,ontowhee,2025-05-22T18:30:22Z,2025-06-05T07:52:56+00:00,13,325.38,True,28,4,2,770,2,7,9,MERGED
+19493,Skipped test_no_logs_without_debug test when the runner is invoked with --debug-sql.,jacobtylerwalls,2025-05-22T13:03:40Z,2025-07-13T16:29:35+00:00,1,1251.43,True,3,0,1,778,0,0,0,MERGED
+19490,Fixed #36402 -- Updated sdist package name in reusabe apps tutorial for PEP 625.,jcjudkins,2025-05-22T03:47:55Z,2025-05-26T15:33:29+00:00,5,107.76,True,3,3,1,765,0,1,1,MERGED
+19489,Fixed #36405 -- Fixed Aggregate.order_by using OuterRef.,adamchainz,2025-05-21T12:53:10Z,2025-05-23T14:15:59+00:00,7,49.38,True,45,5,4,654,3,5,8,MERGED
+19488,Fixed #36390 -- Deprecated RemoteUserMiddleware subclasses missing aprocess_request().,sarahboyce,2025-05-20T15:14:50Z,2025-05-23T08:22:36+00:00,7,65.13,True,90,9,5,598,1,4,5,MERGED
+19485,Refs #26688 -- Added tests for `log_response()` internal helper.,nessita,2025-05-20T01:57:25Z,2025-05-22T18:39:32+00:00,2,64.7,True,179,39,2,417,0,1,1,MERGED
+19484,Fixed #36369: Added tests for FORWARD_PROPERTIES and REVERSE_PROPERTIES.,jrsenthil-kumar2312,2025-05-20T01:11:03Z,2025-07-17T23:44:34+00:00,4,1414.56,False,62,0,2,989,5,3,8,CLOSED
+19482,Refs #35829 -- Made cosmetic edits to django/contrib/admin/static/admin/img/README.md.,nessita,2025-05-19T18:18:35Z,2025-05-20T11:57:11+00:00,1,17.64,True,7,5,1,82,0,0,0,MERGED
+19481,Fixed typo in release notes for 6.0.,jacobtylerwalls,2025-05-19T14:53:40Z,2025-05-19T18:09:09+00:00,1,3.26,True,1,1,1,0,0,0,0,MERGED
+19480,Fixed #32770 -- Added system check to ensure `django.contrib.postgres` in `INSTALLED_APPS` when using its features.,cliff688,2025-05-18T14:08:35Z,2025-06-18T06:36:49+00:00,4,736.47,True,197,12,12,539,0,4,4,MERGED
+19479,Fixed #36380 -- Kept query formatting lazy.,jacobtylerwalls,2025-05-18T12:57:27Z,2025-05-29T14:49:07+00:00,1,265.86,False,13,2,2,812,1,0,1,CLOSED
+19477,Updated unique field addition migration sample.,cknoblauch,2025-05-16T23:30:56Z,2025-05-20T06:55:47+00:00,2,79.41,False,2,2,1,623,0,1,1,CLOSED
+19474,Fixed #36399 -- Added support for multiple Cookie headers in HTTP/2 for ASGIRequest.,JaeHyuckSa,2025-05-16T12:08:06Z,2025-08-21T14:48:54+00:00,10,2330.68,True,38,2,3,438,5,7,12,MERGED
+19472,Fixed #36388 -- Made QuerySet.union() return self when called with no arguments.,colleenDunlap,2025-05-15T19:46:21Z,2025-05-19T08:34:16+00:00,1,84.8,True,13,0,4,787,5,0,5,MERGED
+19470,Refs #35844 -- Skipped selenium and geoip2 requirement in Windows for Python 3.14+.,felixxm,2025-05-15T15:24:18Z,2025-05-15T17:52:52+00:00,1,2.48,True,2,2,1,160,0,0,0,MERGED
+19469,Fixed #36392 -- Raised ValueError when subquery referencing composite pk selects too many columns.,jacobtylerwalls,2025-05-15T02:59:33Z,2025-05-16T06:19:39+00:00,5,27.34,True,16,1,3,703,0,2,2,MERGED
+19468,Add missing import for ContentType model in the admin docs.,Antoliny0919,2025-05-15T01:59:12Z,2025-05-15T13:48:00+00:00,1,11.81,True,1,0,1,569,0,0,0,MERGED
+19467,Fixed incorrect spacing in docs/ref/contrib/postgres/fields.txt.,jacobtylerwalls,2025-05-14T17:18:24Z,2025-05-15T12:22:10+00:00,1,19.06,True,2,2,1,77,0,0,0,MERGED
+19465,Fixed #36386 -- Added styles and icons for INFO and DEBUG messages in the admin.,michalpokusa,2025-05-13T20:17:23Z,2025-06-25T10:46:58+00:00,8,1022.49,True,74,2,7,710,7,4,11,MERGED
+19462,Refs #35844 -- Skipped argon2-cffi requirement in Windows for Python 3.14+.,nessita,2025-05-13T14:31:18Z,2025-05-14T20:43:22+00:00,1,30.2,True,1,1,1,339,1,0,1,MERGED
+19461,Removed unreachable condition in TruncBase.convert_value(),timgraham,2025-05-13T01:19:25Z,2025-05-27T12:02:55+00:00,5,346.73,True,1,3,1,29,0,1,1,MERGED
+19459,Fixed #36210 -- Allowed Subquery usage in further lookups against composite pks.,jacobtylerwalls,2025-05-12T02:18:02Z,2025-08-07T12:28:45+00:00,23,2098.18,True,105,10,8,868,12,13,25,MERGED
+19458,Fixed #36383 -- Improved migration serialization of partial objects.,adamchainz,2025-05-11T21:17:31Z,2025-05-14T00:42:19+00:00,2,51.41,True,112,33,4,792,1,0,1,MERGED
+19457,Fixed #36381 -- Improved tutorial's form template to show message when no choices are available.,BirendraKSharma,2025-05-09T18:28:41Z,2025-05-12T07:39:03+00:00,1,61.17,False,40,15,1,552,1,0,1,CLOSED
+19454,Fixed #36377 -- Added hints support to CreateExtension and subclasses.,asottile,2025-05-08T20:41:03Z,2025-07-22T09:56:58+00:00,18,1789.27,True,166,28,5,535,0,6,6,MERGED
+19453,Fixed #36373 -- Fixed select_related() crash on foreign object for a composite pk.,charettes,2025-05-08T18:04:58Z,2025-05-12T11:33:07+00:00,9,89.47,True,21,6,4,91,0,3,3,MERGED
+19450,Refs #34488 -- Fixed file path for ClearableFileInput selenium tests.,timgraham,2025-05-08T13:28:11Z,2025-05-15T16:02:01+00:00,2,170.56,True,2,1,1,79,4,0,4,MERGED
+19449,Extended release notes with setuptools upgrade note.,nessita,2025-05-08T12:11:52Z,2025-05-09T16:29:20+00:00,3,28.29,True,18,3,3,312,0,1,1,MERGED
+19448,Fixed #36366 -- Improved accessibility of pagination in the admin.,Antoliny0919,2025-05-08T10:44:03Z,2025-06-27T16:03:17+00:00,23,1205.32,True,118,33,9,867,4,12,16,MERGED
+19447,Fixed #36368 -- Prevented duplicate locale paths and write_po_file calls in makemessages.,michalpokusa,2025-05-08T03:20:49Z,2025-08-12T07:47:16+00:00,10,2308.44,True,89,6,4,1305,0,3,3,MERGED
+19445,Fixed #33312 -- Raised explicit exception when copying deferred model instances.,charettes,2025-05-06T19:12:40Z,2025-05-16T06:13:58+00:00,7,227.02,True,42,3,5,501,3,3,6,MERGED
+19444,"Refs #36052, #32234 -- Fixed inspectdb tests for CompositePrimaryKey on Oracle.",felixxm,2025-05-05T20:55:08Z,2025-05-06T06:20:57+00:00,1,9.43,True,3,3,2,1953,5,0,5,MERGED
+19443,Simplified artifact building steps in docs/internals/howto-release-django.txt.,nessita,2025-05-05T19:36:30Z,2025-05-06T14:11:40+00:00,2,18.59,True,2,4,1,178,0,1,1,MERGED
+19441,Docs: Add test suite tip to contributing guide,lfariabr,2025-05-03T13:20:15Z,2025-05-03T16:30:52+00:00,1,3.18,False,2,0,1,545,3,0,3,CLOSED
+19440,Fixed #36363 -- Added field names to admin duplicated fields error hint,Safrone,2025-05-01T21:07:39Z,2025-05-08T10:38:13+00:00,10,157.51,True,54,5,3,816,0,5,5,MERGED
+19439,Add template logic to display message when no choices are available and document adding choices via shell,BirendraKSharma,2025-05-01T06:57:50Z,2025-05-09T17:36:59+00:00,1,202.65,False,40,15,1,577,0,0,0,CLOSED
+19437,Fixed flakiness in file_storage.tests.CustomStorageTests.test_file_get_accessed_time.,ngnpope,2025-04-30T19:05:31Z,2025-05-23T14:23:47+00:00,2,547.3,True,27,21,1,635,2,0,2,MERGED
+19436,Backports related to making Django release artifacts PEP 625 compliant (5 commits).,nessita,2025-04-30T17:51:19Z,2025-05-05T14:46:51+00:00,4,116.93,True,154,255,12,271,1,2,3,MERGED
+19435,Made cosmetic edits and added upcoming security release to release notes.,nessita,2025-04-30T14:25:46Z,2025-04-30T17:55:12+00:00,1,3.49,True,8,5,3,35,0,0,0,MERGED
+19434,Fixed #36360 -- Fixed a queryset update() crash when using values() with annotations.,charettes,2025-04-29T17:45:20Z,2025-04-30T09:41:35+00:00,4,15.94,False,18,5,3,133,3,1,4,CLOSED
+19431,Fixed #36358 -- Fixed composite integer primary key introspection on SQLite.,charettes,2025-04-29T03:41:21Z,2025-04-30T13:51:50+00:00,9,34.17,True,24,48,9,172,2,6,8,MERGED
+19430,Fixed #36357 -- Removed unique_together from inspectdb output for tables with composite primary keys.,bmispelon,2025-04-28T08:06:30Z,2025-04-30T14:55:25+00:00,11,54.82,True,10,1,3,745,3,3,6,MERGED
+19429,Fixed #34746 -- Add a size limit for variable size when pretty printing e…,ja8zyjits,2025-04-27T16:17:07Z,2025-04-28T15:30:38+00:00,1,23.23,False,243,10,5,866,1,0,1,CLOSED
+19428,Update contributing docs for new feature ideas,LilyFirefly,2025-04-27T13:55:47Z,2025-05-14T00:38:04+00:00,13,394.7,True,97,78,5,579,0,18,18,MERGED
+19427,Fixed #36143 -- Made max_query_params respect SQLITE_LIMIT_VARIABLE_NUMBER.,laymonage,2025-04-27T12:55:07Z,2025-05-08T10:37:11+00:00,12,261.7,True,74,3,6,2545,0,14,14,MERGED
+19425,Fixed not showing error message for inactive user in AuthenticationForm,lucaskaiiser,2025-04-27T08:25:41Z,2025-04-27T16:41:28+00:00,1,8.26,False,12,9,1,1283,2,0,2,CLOSED
+19424,Removed redundant redefinition of variable in tests/test_utils/tests.py.,cliff688,2025-04-27T07:21:39Z,2025-05-27T21:20:07+00:00,1,733.97,True,10,10,1,116,3,0,3,MERGED
+19423,Fixed #33174 -- Fixed migrations crash for model inheriting from Generic[T].,UnknownPlatypus,2025-04-26T15:16:28Z,2025-05-12T16:39:20+00:00,5,385.38,True,117,0,7,3855,2,2,4,MERGED
+19422,Fixed aggregation tests crash on databases that don't support JSONFields.,laymonage,2025-04-26T14:57:25Z,2025-04-27T07:03:35+00:00,1,16.1,True,3,0,1,876,0,0,0,MERGED
+19421,Fixed #36354 -- Removed javascript fallback for outdated browsers not supporting `:has()`.,fsbraun,2025-04-26T14:10:24Z,2025-04-28T20:48:19+00:00,1,54.63,True,0,34,3,883,2,0,2,MERGED
+19419,Fixed #35852 -- Fixed inconsistent formatting of numbers in a locale-aware fashion.,tim-mccurrach,2025-04-26T11:44:12Z,2025-05-14T14:04:04+00:00,3,434.33,True,48,11,2,1355,0,1,1,MERGED
+19418,Fixed #36335 -- Fixed typo in docs/topics/db/managers.txt.,dbogar89,2025-04-26T11:16:56Z,2025-04-27T06:40:14+00:00,1,19.39,True,1,1,1,142,1,0,1,MERGED
+19415,Refs #36326 -- Fixed QuerySet.raw() crash on models with CompositePrimaryKey on Oracle.,felixxm,2025-04-25T09:23:30Z,2025-04-26T14:03:06+00:00,4,28.66,True,10,5,1,92,3,1,4,MERGED
+19414,Made changes to README.rst,klu2300090005,2025-04-25T05:27:05Z,2025-04-25T07:00:59+00:00,1,1.56,False,107,0,1,610,1,0,1,CLOSED
+19410,Fixed #36309 -- Made email alternatives and attachments pickleable.,nessita,2025-04-23T21:17:53Z,2025-04-24T13:11:16+00:00,2,15.89,True,23,2,3,627,1,0,1,MERGED
+19408,Fixed #36348 -- Fixed handling multiple nested url()s in ManifestStaticFilesStorage.,sciyoshi,2025-04-23T02:02:09Z,2025-05-16T13:56:17+00:00,18,563.9,True,12,1,3,527,4,7,11,MERGED
+19407,Update django.po,Salehi-Esp,2025-04-21T14:38:59Z,2025-04-23T11:47:27+00:00,1,45.14,False,6,6,1,590,1,0,1,CLOSED
+19405,Fixed #27489 -- Renamed permissions upon model renaming.,artirix1927,2025-04-20T22:38:55Z,2025-08-19T14:36:52+00:00,16,2895.97,True,292,5,6,951,4,11,15,MERGED
+19404,Fixed #36341 -- Fixed utils.text.wrap not preserving empty lines.,Grrandi,2025-04-20T16:03:13Z,2025-04-23T19:14:05+00:00,9,75.18,True,56,2,3,635,2,5,7,MERGED
+19402,Fixed #35728 -- Computed error messages in assertions only on test failures.,cliff688,2025-04-20T10:40:33Z,2025-07-18T08:16:59+00:00,10,2133.61,True,87,51,2,1566,3,4,7,MERGED
+19401,Fixed #36295 -- Added support for overriding `GenericForeignKey` in abstract models,AhmedNassar7,2025-04-20T10:00:43Z,2025-05-08T15:07:10+00:00,3,437.11,True,32,2,3,930,2,1,3,MERGED
+19398,Fixed #36312 -- Solved `dark_mode.css` size units for svg in Safari,AhmedNassar7,2025-04-20T07:38:18Z,2025-04-27T10:08:44+00:00,3,170.51,True,3,3,1,685,2,5,7,MERGED
+19395,Fixed #36273 -- Moved Index system checks from Model to Index.check().,timgraham,2025-04-20T00:42:54Z,2025-05-14T14:00:54+00:00,2,589.3,True,111,97,3,74,1,0,1,MERGED
+19393,Fixed #15727 -- Added Content-Security-Policy support.,robhudson,2025-04-19T17:59:09Z,2025-06-27T18:57:02+00:00,20,1656.96,True,1229,13,28,589,11,23,34,MERGED
+19392,Fixed #36332 -- Corrected mixed up examples for get_full_path() and get_full_path_info() in docs and clarified misleading tests.,Kashemir001,2025-04-18T14:16:06Z,2025-05-13T15:41:17+00:00,2,601.42,True,10,10,2,736,0,0,0,MERGED
+19390,Refs #31223 -- Added __class_getitem__() to Model,malo-malo,2025-04-17T14:03:27Z,2025-04-18T08:24:36+00:00,2,18.35,False,9,0,2,537,4,0,4,CLOSED
+19389,"Fixed #36331 -- Reverted ""Fixed #36055 -- Prevented overlap of object-tools buttons and page header in the admin.""",Antoliny0919,2025-04-17T10:40:31Z,2025-04-23T01:13:39+00:00,4,134.55,True,14,38,7,539,0,2,2,MERGED
+19387,Disabled Google password manager pop-up interfering with selenium tests.,sarahboyce,2025-04-16T13:59:41Z,2025-04-16T18:00:49+00:00,1,4.02,True,4,0,1,163,1,0,1,MERGED
+19383,Americanized some spellings.,adamchainz,2025-04-15T13:24:46Z,2025-04-16T08:21:39+00:00,3,18.95,True,41,41,13,506,4,2,6,MERGED
+19382,Fixed #36326 -- Added `CompositePrimaryKey` support in `QuerySet.raw()`.,JaeHyuckSa,2025-04-14T17:19:31Z,2025-04-17T15:23:06+00:00,5,70.06,True,21,2,3,524,3,3,6,MERGED
+19381,Refs #28586 -- Split descriptor from GenericForeignKey.,adamchainz,2025-04-14T15:04:23Z,2025-09-18T23:44:16+00:00,8,3776.66,True,60,38,5,1068,0,2,2,MERGED
+19380,Fixed #36327 -- Added multiple database support to assertNumQueries(),kingbuzzman,2025-04-13T13:06:56Z,2025-04-14T19:41:38+00:00,7,30.58,False,210,10,5,1537,2,6,8,CLOSED
+19379,Fixed #35507 -- Improved accessibility using a search landmark and aria-labelledby.,Antoliny0919,2025-04-13T06:17:31Z,2025-05-14T14:03:01+00:00,5,751.76,True,17,7,4,720,8,4,12,MERGED
+19377,"Fixed #36320 -- Ignored ""duplicated_toc_entry"" for ePub docs build.",bmispelon,2025-04-11T21:04:56Z,2025-04-12T17:39:07+00:00,3,20.57,True,1,1,1,634,0,0,0,MERGED
+19376,Skipped label PR job when not running from django/django.,sarahboyce,2025-04-11T12:09:32Z,2025-04-23T14:40:17+00:00,2,290.51,True,2,0,1,0,0,0,0,MERGED
+19374,[5.1.x] Pinned flake8 == 7.1.2 in GitHub actions.,sarahboyce,2025-04-11T11:26:55Z,2025-04-23T14:26:20+00:00,1,290.99,False,1,1,1,265,2,0,2,CLOSED
+19373,Bumped versions in pre-commit and npm configurations.,sarahboyce,2025-04-11T11:07:35Z,2025-04-12T17:42:00+00:00,1,30.57,True,5,5,2,85,0,0,0,MERGED
+19372,Fixed #36314 -- Fixed MinimumLengthValidator error message translation.,AhmedNassar7,2025-04-10T21:55:25Z,2025-04-17T10:30:20+00:00,10,156.58,True,41,8,3,738,10,2,12,MERGED
+19368,Fixed #36311 -- Standardized spelling in documentation,AhmedNassar7,2025-04-10T04:13:36Z,2025-04-15T17:48:55+00:00,5,133.59,True,42,44,19,822,0,2,2,MERGED
+19367,Refs #36036 -- Removed unsupported 4D GEOS tests.,andharris,2025-04-09T12:52:05Z,2025-04-10T01:40:55+00:00,2,12.81,True,5,36,2,611,2,0,2,MERGED
+19363,Fixed #33091 -- Raised FieldError when updating a parent field using a child field reference.,cliff688,2025-04-08T19:22:35Z,2025-04-10T07:59:40+00:00,3,36.62,False,83,15,4,931,1,6,7,CLOSED
+19362,Fixed #36282 -- Used prefetched values in ForwardManyToOneDescriptor from indirect ancestors.,diesieben07,2025-04-08T17:04:16Z,2025-07-22T10:14:21+00:00,15,2513.17,True,225,22,3,1007,5,11,16,MERGED
+19361,"Fixed #35595, #35962 -- Removed indexes and constraints before fields in migrations.",wookkl,2025-04-08T16:06:58Z,2025-06-27T15:17:45+00:00,12,1919.18,True,132,1,2,750,2,4,6,MERGED
+19359,Fixed #36281 -- Used async-safe write in ASGIHandler.read_body().,zebra0345,2025-04-08T11:11:02Z,2025-05-04T15:46:32+00:00,9,628.59,True,73,1,2,871,11,7,18,MERGED
+19358,Fixed #35986 -- Fixed test classes with `@translation.override` decorator.,AhmedNassar7,2025-04-08T07:52:00Z,2025-04-09T07:49:18+00:00,4,23.95,True,23,7,3,833,0,1,1,MERGED
+19352,optimize CSRF failure template fallback handling,khalidhub7,2025-04-06T23:17:45Z,2025-04-28T05:47:01+00:00,1,510.49,False,20,46,1,229,1,0,1,CLOSED
+19349,Fixed #36269 -- Added documentation for testing callable storage in FileField,AhmedNassar7,2025-04-06T06:52:22Z,2025-04-15T08:05:59+00:00,10,217.23,True,33,0,1,833,0,2,2,MERGED
+19348,Fixed #35993 -- Updated documentation on gettext f-string support limitations.,AhmedNassar7,2025-04-05T23:40:45Z,2025-04-15T08:02:25+00:00,4,224.36,True,16,2,1,752,4,2,6,MERGED
+19347,Added supports_expression_defaults check in DefaultTests.test_full_clean() test.,felixxm,2025-04-05T20:19:08Z,2025-04-06T07:40:12+00:00,1,11.35,True,1,0,1,86,1,0,1,MERGED
+19346,"Refs #36088, Refs #36260 -- Added supports_expression_defaults checks in bulk_create tests.",timgraham,2025-04-05T13:21:29Z,2025-04-05T16:47:53+00:00,1,3.44,True,10,1,2,47,2,0,2,MERGED
+19345,Fixed #36156 -- Added supports_json_field check in test_db_default_output_field_resolving test.,Kelvin4664,2025-04-05T08:00:05Z,2025-04-05T16:54:08+00:00,1,8.9,True,1,0,1,539,1,0,1,MERGED
+19344,Added flatpages app parameters to pass a context and set a default template.,lilliputten,2025-04-04T22:48:49Z,2025-05-11T11:48:59+00:00,1,877.0,False,87,5,2,779,3,0,3,CLOSED
+19343,Fixed #36301 -- Fixed select_for_update(of) crash when using values()/values_list().,charettes,2025-04-04T19:07:23Z,2025-04-07T21:48:56+00:00,1,74.69,True,27,11,3,362,1,0,1,MERGED
+19341,Fixed #36255 -- Improved accessibility of the admin action button.,gtossou,2025-04-04T11:57:12Z,2025-04-04T15:41:13+00:00,3,3.73,True,2,2,9,521,2,0,2,MERGED
+19340,Fixed #36298 -- Truncated the overwritten file content in file_move_safe().,sarahboyce,2025-04-04T07:54:02Z,2025-04-07T14:11:36+00:00,2,78.29,True,59,0,6,575,6,3,9,MERGED
+19339,docs: Improve README with development setup and Discord description,Shreevatsatg,2025-04-04T05:05:44Z,2025-04-04T06:26:48+00:00,2,1.35,False,9,1,1,643,0,0,0,CLOSED
+19337,Fixed #36289 -- Fixed bulk_create() crash with nullable geometry fields on PostGIS.,charettes,2025-04-03T15:24:27Z,2025-04-04T19:34:29+00:00,1,28.17,False,18,7,4,372,1,0,1,CLOSED
+19335,Fixed #36293 -- Enabled non-blocking gzip compression for SSE responses.,huoyinghui,2025-04-03T05:50:42Z,2025-04-03T07:11:45+00:00,1,1.35,False,56,2,3,113,0,0,0,CLOSED
+19334,Fixed #36292 -- Fixed a crash when aggregating over a group mixing transforms and references.,charettes,2025-04-03T03:23:50Z,2025-04-03T16:34:57+00:00,3,13.19,True,33,1,3,124,2,1,3,MERGED
+19332,Fixed #36288 -- Addressed improper handling of duplicates in values_list().,charettes,2025-04-02T22:58:44Z,2025-04-11T07:04:49+00:00,5,200.1,True,35,16,4,302,2,4,6,MERGED
+19331,Fixed #36290 -- Made TupleIn() lookup discard tuples containing None.,charettes,2025-04-02T17:42:01Z,2025-04-03T20:28:29+00:00,4,26.77,True,37,1,5,399,4,3,7,MERGED
+19330,Added Prefetch + filter() example for prefetch_related().,Cyab1,2025-04-01T23:16:34Z,2025-06-18T17:30:25+00:00,2,1866.23,False,11,0,1,516,1,0,1,CLOSED
+19328,"Fixed #36284, Refs #31170 -- Ensured related lookup popups are closed properly.",nessita,2025-04-01T15:43:18Z,2025-04-01T16:52:27+00:00,2,1.15,True,3,3,2,804,1,0,1,MERGED
+19326,Fixed typo in django/db/models/options.py.,cliff688,2025-04-01T07:27:48Z,2025-04-01T17:07:05+00:00,1,9.65,True,1,1,1,34,0,0,0,MERGED
+19324,"Fixed #36283 -- Reverted ""Fixed #35798, Refs #31641 -- Prevented admin navigation sidebar loading flicker.""",felixxm,2025-03-31T21:03:24Z,2025-04-01T07:30:41+00:00,1,10.45,True,2,2,2,126,0,0,0,MERGED
+19323,Clarified pre_delete and post_delete's origin attributes.,cliff688,2025-03-31T09:59:17Z,2025-03-31T14:10:45+00:00,2,4.19,True,4,6,1,226,0,1,1,MERGED
+19320,Fixed #36184 -- Allowed migrating forward to squashed migrations.,jacobtylerwalls,2025-03-30T13:01:41Z,2025-04-01T07:35:37+00:00,1,42.57,True,19,9,2,547,0,0,0,MERGED
+19319,Fixed warnings per flake8 7.2.0.,felixxm,2025-03-30T05:25:26Z,2025-03-30T15:54:15+00:00,3,10.48,True,1,6,5,50,1,4,5,MERGED
+19318,Fixed #22977 -- Added system check for clashing managers and reverse related fields.,felixxm,2025-03-29T20:37:04Z,2025-03-31T21:05:28+00:00,1,48.47,True,50,0,3,99,0,0,0,MERGED
+19316,Refs #36055 -- Prevented overlap of object-tools buttons and page header in the admin on small screens.,felixxm,2025-03-28T20:35:14Z,2025-03-31T07:15:58+00:00,1,58.68,True,4,0,1,74,0,0,0,MERGED
+19315,"Improved ""fetch"" translations helper to restrict the resulting set by date.",nessita,2025-03-28T19:00:01Z,2025-04-04T18:55:07+00:00,7,167.92,True,155,106,2,972,3,4,7,MERGED
+19314,Fixed #36265 -- Added serialization support for ZoneInfo objects in migrations.,Song-Junho97,2025-03-28T10:41:17Z,2025-03-31T11:44:54+00:00,11,73.06,True,28,0,4,743,1,4,5,MERGED
+19312,Fixed #36213 -- Added warning about MySQL’s handling of self-select updates in QuerySet.update() documentation,bbkfhq,2025-03-27T16:34:01Z,2025-04-02T06:45:03+00:00,2,134.18,True,8,0,1,1063,7,1,8,MERGED
+19311,[5.2.x] Updated translations from Transifex.,sarahboyce,2025-03-27T09:13:08Z,2025-03-31T14:05:06+00:00,2,100.87,True,3894,3217,212,636,1,0,1,MERGED
+19310,Refs #34619 -- Corrected selector description in the admin.,felixxm,2025-03-25T20:07:37Z,2025-03-26T20:59:34+00:00,1,24.87,True,4,4,3,94,2,0,2,MERGED
+19308,"[5.0.x] Pinned black == 24.10.0 in GitHub actions, pre-commit and test requirements.",sarahboyce,2025-03-25T16:27:35Z,2025-03-25T18:57:37+00:00,1,2.5,True,5,5,4,0,1,0,1,MERGED
+19306,Fixed #36276 -- Omitted size=None from ArrayField.deconstruct().,timgraham,2025-03-25T01:22:22Z,2025-03-25T11:02:14+00:00,2,9.66,True,19,30,5,12,0,0,0,MERGED
+19303, Fixed #36274 -- Added support for run_before and atomic in MigrationWriter.,mikicz,2025-03-23T15:43:44Z,2025-04-16T08:20:49+00:00,2,568.62,True,49,2,3,908,0,0,0,MERGED
+19302,Fixed #35790 - Added warning for non whitespace text outside {% extends %} tag,YogyaChugh,2025-03-23T14:55:53Z,2025-04-29T16:06:47+00:00,6,889.18,False,69,0,4,672,10,7,17,CLOSED
+19300,Fixed #36255 -- Improved accessibility of the admin action button.,gtossou,2025-03-23T01:22:15Z,2025-04-04T12:33:40+00:00,6,299.19,False,31948,13334,1078,545,6,2,8,CLOSED
+19299,Updated ogrinfo output in GIS tutorial.,dr-rompecabezas,2025-03-22T21:42:45Z,2025-03-23T20:36:16+00:00,1,22.89,True,18,6,1,659,0,0,0,MERGED
+19297,Doc'd how to use Intersphinx in the reusable apps tutorial.,carltongibson,2025-03-22T13:30:53Z,2025-03-28T08:36:13+00:00,9,139.09,True,1,1,1,818,5,4,9,MERGED
+19296,Fixed #36267 -- Fixed contenttypes shortcut() view crash with an invalid object_id for a UUIDField pk.,AhmedNassar7,2025-03-21T15:21:21Z,2025-04-02T07:33:13+00:00,10,280.2,True,20,2,3,712,0,6,6,MERGED
+19295,Fixed #36271 -- Raised TemplateSyntaxError when using a relative template path with an unknown origin.,YogyaChugh,2025-03-21T14:44:37Z,2025-03-24T16:05:58+00:00,6,73.36,True,19,1,2,796,4,3,7,MERGED
+19293,Fixed #28050 -- Added template name to TemplateSyntaxError.,FarhanAliRaza,2025-03-21T03:39:23Z,2025-04-17T06:56:53+00:00,4,651.29,True,39,2,3,627,1,3,4,MERGED
+19291,Fixed typo in docs/topics/signals.txt.,mguegnol,2025-03-20T23:35:13Z,2025-03-23T19:02:42+00:00,3,67.46,True,1,1,1,206,0,0,0,MERGED
+19289,Fixed #36268 -- Added leading `?` in every querystring template tag result.,nessita,2025-03-20T14:49:37Z,2025-03-24T14:53:42+00:00,9,96.07,True,54,44,4,503,0,6,6,MERGED
+19288,Added post pre-release tasks to release docs.,sarahboyce,2025-03-20T07:31:54Z,2025-03-21T13:54:30+00:00,5,30.38,True,32,0,1,0,0,3,3,MERGED
+19287,Fixed #36266 -- Renamed HIDE_PRODUCTION_WARNING environment variable to DJANGO_RUNSERVER_HIDE_WARNING.,JohananOppongAmoateng,2025-03-19T22:54:31Z,2025-03-21T09:19:37+00:00,2,34.42,True,5,4,4,1065,1,2,3,MERGED
+19286,[5.2.x] Updated source translation catalogs.,felixxm,2025-03-19T16:37:53Z,2025-03-19T21:26:40+00:00,2,4.81,True,551,549,5,0,4,0,4,MERGED
+19285,Fixed #27222 -- Refreshed model field values assigned expressions on save().,charettes,2025-03-19T06:27:35Z,2025-09-13T22:29:18+00:00,49,4288.03,False,334,120,17,32,8,30,38,CLOSED
+19281,Fixed #36262 -- Made GeneratedField.db_persist a required key-word argument.,JasonLovesDoggo,2025-03-17T14:14:35Z,2025-03-25T11:50:24+00:00,2,189.6,True,5,4,4,729,2,2,4,MERGED
+19280,Refs #36138 -- Cleaned up duplicate code and improved tests for mail_admins()/mail_managers().,sarahboyce,2025-03-17T12:30:50Z,2025-03-18T09:08:09+00:00,3,20.62,True,98,43,2,25,0,2,2,MERGED
+19279,Made GitHub apply Django template syntax highlighting to HTML files.,adamchainz,2025-03-17T11:06:31Z,2025-03-18T14:30:55+00:00,2,27.41,True,2,0,1,589,7,0,7,MERGED
+19277,Fixed #36260 -- Made bulk_create() work with DB-generated primary keys.,mitya57,2025-03-16T18:40:01Z,2025-03-26T08:55:09+00:00,9,230.25,True,30,10,4,614,1,5,6,MERGED
+19276,Fixed #33537 -- Made test database cloning on MySQL reraise unexpected errors.,felixxm,2025-03-16T11:25:07Z,2025-03-17T14:45:08+00:00,5,27.33,True,67,8,2,77,1,2,3,MERGED
+19273,Fixed #34819 -- Allowed GenericForeignKey to prefetch using prepped primary keys.,cliff688,2025-03-15T09:20:07Z,2025-03-26T08:55:39+00:00,11,263.59,True,20,5,3,785,0,3,3,MERGED
+19270,Fixed #36254 -- Fixed template dictionary unpacking in docs/topics/i18n/timezones.txt.,tinyhare,2025-03-14T09:50:12Z,2025-03-17T08:45:16+00:00,4,70.92,True,1,1,1,611,0,0,0,MERGED
+19268,Fixed #36230 -- Improved blockquote contrast in admin docs.,Jordan-Boulton1,2025-03-13T13:22:33Z,2025-07-20T19:10:13+00:00,1,3101.79,False,18,6,2,1012,5,5,10,CLOSED
+19267,Made selenium tests less flaky by waiting until popups are closed and page is loaded.,sarahboyce,2025-03-13T10:19:46Z,2025-03-18T09:52:01+00:00,3,119.54,True,27,11,3,209,0,2,2,MERGED
+19266,Fixed #33497 -- Doc'd disable persistent connections for async.,carltongibson,2025-03-13T09:26:31Z,2025-03-19T00:26:57+00:00,6,135.01,True,9,0,2,675,1,1,2,MERGED
+19265,Refs #35945 -- Fixed test_paginating_unordered_queryset_raises_warning_async() test on byte-compiled Django.,felixxm,2025-03-13T07:11:41Z,2025-03-13T10:08:11+00:00,1,2.94,False,6,1,1,2443,2,0,2,CLOSED
+19264,Fixed #36252 -- Fixed Duplicate Display of Imports in Django Shell,Hesham942,2025-03-13T02:37:31Z,2025-03-17T19:29:28+00:00,9,112.87,True,9,3,3,700,11,2,13,MERGED
+19262,Removed default for app_configs from system check functions.,adamchainz,2025-03-12T22:03:20Z,2025-06-11T15:46:28+00:00,3,2177.72,True,8,8,4,1142,0,0,0,MERGED
+19260,Fixed #36249 -- Fixed typo in docs/topics/db/queries.txt.,Hesham942,2025-03-12T15:15:19Z,2025-03-12T21:09:05+00:00,1,5.9,True,1,1,1,12,1,0,1,MERGED
+19258,Refs #34380 -- Fixed the documented URLField default scheme to https.,sarahboyce,2025-03-12T14:01:15Z,2025-03-12T15:45:11+00:00,2,1.73,True,1,1,1,558,0,0,0,MERGED
+19257,Refs #25582 -- Doc'd query and fragment arguments for reverse_lazy().,adamchainz,2025-03-12T12:38:35Z,2025-03-12T15:41:49+00:00,3,3.05,True,8,4,2,765,2,1,3,MERGED
+19255,Fixed #36239 -- Fixed a crash in ManyToManyField.through_fields check when to model is invalid.,JaeHyuckSa,2025-03-12T08:41:31Z,2025-03-28T11:37:58+00:00,2,386.94,True,48,1,2,497,0,0,0,MERGED
+19253,Removed duplicate entries in docs/releases/5.2.txt.,Hisham-Pak,2025-03-11T17:07:58Z,2025-03-12T10:04:21+00:00,1,16.94,True,0,3,1,0,2,0,2,MERGED
+19250,Fixed incorrect formatting for inline pluralized code references.,cliff688,2025-03-10T09:17:37Z,2025-03-13T18:18:35+00:00,5,81.02,True,65,59,11,36,3,31,34,MERGED
+19248,"Fixed #36239 -- Fixed ManyToManyField check error which are invalid ""to"" when passing through/through_fields",Amaan-ali03,2025-03-10T00:01:33Z,2025-03-11T20:48:46+00:00,2,44.79,False,23,3,1,987,1,1,2,CLOSED
+19246,Used _expression_refs_exclude() hook in CheckConstraint/UniqueConstraint.validate().,felixxm,2025-03-09T18:20:06Z,2025-03-10T12:19:39+00:00,1,17.99,True,20,18,1,16,2,0,2,MERGED
+19245,Fixed #36207 -- Cleared cached ForeignObject relations via refresh_from_db().,jacobtylerwalls,2025-03-09T15:32:08Z,2025-05-09T12:01:04+00:00,14,1460.48,True,12,2,2,707,0,2,2,MERGED
+19244,Fixed #33579 -- Specialized exception raised on forced update failures.,charettes,2025-03-09T12:08:28Z,2025-03-10T20:48:28+00:00,9,32.67,True,93,4,8,361,2,11,13,MERGED
+19243, Fix last_insert_id for Oracle Backend to Properly Retrieve Sequence Values,Amaan-ali03,2025-03-09T10:14:08Z,2025-03-09T19:16:22+00:00,1,9.04,False,382309,90293,5001,1099,0,0,0,CLOSED
+19240,Fixed #36000 -- Deprecated HTTP as the default protocol in urlize and urlizetrunc.,AhmedNassar7,2025-03-08T15:51:12Z,2025-03-19T13:28:43+00:00,12,261.63,True,141,38,9,1153,1,26,27,MERGED
+19238,Corrected test case in ExclusionConstraintTests.test_invalid_expressions().,sarahboyce,2025-03-07T09:18:41Z,2025-03-07T10:28:02+00:00,1,1.16,True,1,1,1,236,0,0,0,MERGED
+19237,Corrected aggregation example in docs/ref/models/querysets.txt.,cliff688,2025-03-07T07:41:10Z,2025-03-14T09:47:07+00:00,4,170.1,True,7,7,1,328,0,1,1,MERGED
+19236,Fixed #36222 -- Fixed ExclusionConstraint validation crash on excluded fields in condition.,JaeHyuckSa,2025-03-07T07:36:38Z,2025-03-10T20:05:50+00:00,6,84.49,True,17,0,3,665,2,4,6,MERGED
+19235,Fixed #36226 -- Supported every password hasher with str and bytes pa…,CodemanRichard,2025-03-07T06:59:40Z,2025-07-14T13:14:02+00:00,3,3102.24,False,24,6,2,631,2,2,4,CLOSED
+19234,Fixed #36213 -- Added warning about MySQL’s handling of self-select updates in QuerySet.update() documentation,edcedcedcedc,2025-03-06T22:58:01Z,2025-04-01T07:55:55+00:00,2,608.97,False,9,0,1,781,2,4,6,CLOSED
+19233,Fixed #36234 -- Restored single_object argument to LogEntry.objects.log_actions().,adamchainz,2025-03-06T16:36:22Z,2025-03-12T19:25:30+00:00,1,146.82,True,59,4,4,628,9,0,9,MERGED
+19232,Fixed #36177 -- Added a trailing newline to JSON serializer.,knyghty,2025-03-06T10:30:31Z,2025-03-11T07:01:09+00:00,6,116.51,True,23,27,22,831,0,2,2,MERGED
+19231,Fixed #36226 -- Supported every password hasher with str and bytes pa…,CodemanRichard,2025-03-06T06:47:34Z,2025-03-07T06:57:09+00:00,2,24.16,False,24,6,2,631,0,1,1,CLOSED
+19228,issue 29446 suggestion fix  #ticket 29446,Bhupeshpanwar,2025-03-06T05:12:38Z,2025-03-13T11:42:13+00:00,4,174.49,False,3725,5,7,497,2,1,3,CLOSED
+19227,Fixed typo in docs/ref/checks.txt.,Hesham942,2025-03-05T12:22:42Z,2025-03-05T15:20:39+00:00,2,2.97,True,1,1,1,0,1,0,1,MERGED
+19226,Fixed #36202 -- Added examples of JSONField __contains and __contained_by lookups with nested arrays to docs.,cliff688,2025-03-05T11:41:07Z,2025-03-18T20:54:11+00:00,9,321.22,True,12,0,1,438,1,2,3,MERGED
+19225,Fixed typo in django/db/backends/postgresql/psycopg_any.py comment.,jacobtylerwalls,2025-03-05T00:05:33Z,2025-03-05T09:40:14+00:00,1,9.58,True,1,1,1,0,0,0,0,MERGED
+19223,Fixed #36227 -- Updated outdated PostgreSQL documentation links,Hesham942,2025-03-04T18:37:29Z,2025-03-05T14:06:55+00:00,1,19.49,True,5,5,1,993,4,0,4,MERGED
+19221,Fixed typo in django/core/cache/backends/redis.py comment.,timgraham,2025-03-04T16:11:28Z,2025-03-06T01:02:23+00:00,3,32.85,True,3,2,1,0,0,1,1,MERGED
+19220,Fixed #36224 -- Fixed shell imports when settings not configured.,sarahboyce,2025-03-03T16:30:21Z,2025-03-07T14:34:56+00:00,8,94.08,True,93,15,2,539,5,5,10,MERGED
+19219,Fixed #36066 -- Documented that Q objects can be used directly in annotations.,samruddhiDharankar,2025-03-01T22:59:04Z,2025-03-10T11:54:23+00:00,1,204.92,True,9,4,2,501,3,0,3,MERGED
+19216,Applied Black's 2025 stable style.,felixxm,2025-03-01T16:37:56Z,2025-03-01T18:41:39+00:00,2,2.06,True,222,194,45,48,5,1,6,MERGED
+19214,Fixed #36217 -- Used LogEntry.save() for single object deletion in admin.,Antoliny0919,2025-02-28T11:21:13Z,2025-03-04T09:34:16+00:00,4,94.22,True,41,14,8,638,3,2,5,MERGED
+19213,Fixed #35816 -- Handled parsing of scientific notation in DTL.,haileyajohnson,2025-02-27T17:26:37Z,2025-03-11T07:02:28+00:00,7,277.6,True,71,4,2,1210,2,3,5,MERGED
+19212,Refs #36175 -- Refactor admin to use querystring template tag.,Antoliny0919,2025-02-27T10:57:32Z,2025-09-27T08:33:04+00:00,13,5085.59,False,292,224,14,77,6,14,20,CLOSED
+19211,Refs #35167 -- Removed hardcoded pk in test_bulk_update_custom_get_prep_value().,jacobtylerwalls,2025-02-25T17:26:10Z,2025-02-27T08:42:11+00:00,2,39.27,True,3,5,1,99,0,0,0,MERGED
+19210,"Fixed #36215, Refs #28909 -- Changed to use PEP 448 unpacking to combine iterables.",akx,2025-02-25T09:49:26Z,2025-03-31T21:05:28+00:00,2,827.27,False,82,72,41,1318,6,1,7,CLOSED
+19209,Removed outdated docstring in tests/basic/models.py.,cliff688,2025-02-25T08:42:38Z,2025-02-25T14:22:08+00:00,1,5.66,True,0,6,1,80,0,0,0,MERGED
+19207,Fixed #36207 -- Fixed refresh_from_db ForeignObject relations,gmaOCR,2025-02-23T16:34:26Z,2025-04-26T06:19:19+00:00,6,1477.75,False,56,1,2,1057,1,6,7,CLOSED
+19206,Fixed #36210 -- Relaxed CompositePrimaryKey's check for Query to also accept Subquery.,jacobtylerwalls,2025-02-23T16:05:48Z,2025-02-25T15:46:45+00:00,1,47.68,False,43,8,2,543,2,1,3,CLOSED
+19202,security.py revised code to resolve 3 Bugs in securityMiddleware,csabhijeet,2025-02-21T19:14:48Z,2025-02-22T00:57:19+00:00,1,5.71,False,64,0,1,2280,1,0,1,CLOSED
+19201,Added security reporting guidelines.,sarahboyce,2025-02-21T10:38:01Z,2025-02-24T07:51:08+00:00,24,69.22,True,189,24,3,231,0,17,17,MERGED
+19200,Fixed #36201 -- Fixed `ModelChoiceField/ModelMultipleChoiceField.clean()` to catch `ValidationError` from queryset operations.,JaeHyuckSa,2025-02-20T15:55:31Z,2025-03-10T12:01:02+00:00,7,428.09,True,17,3,2,524,0,2,2,MERGED
+19199,Fixed #35839 -- Fixed crash when adding GeneratedField with db_comment on MySQL.,JaeHyuckSa,2025-02-20T09:46:22Z,2025-02-22T18:56:54+00:00,2,57.18,True,20,2,2,645,1,1,2,MERGED
+19198,Disambiguated url in flatpages URLconf example.,cliff688,2025-02-20T08:09:34Z,2025-04-09T01:02:10+00:00,1,1144.88,True,10,5,1,581,1,0,1,MERGED
+19197,Refs #35167 -- Fixed test_bulk_update_custom_get_prep_value() crash on databases that don't support primitives in JSONFields.,felixxm,2025-02-19T21:17:58Z,2025-02-20T07:14:18+00:00,3,9.94,True,5,1,2,95,2,0,2,MERGED
+19196,"Fixed #34262 -- Added support for AnyValue for MySQL, Oracle, and Postgresql 16+.",ontowhee,2025-02-19T19:21:34Z,2025-05-20T08:01:42+00:00,25,2148.67,True,212,11,11,636,5,41,46,MERGED
+19195,Clarified admonition in GeneratedField docs.,adamzap,2025-02-19T16:06:13Z,2025-02-20T13:41:00+00:00,1,21.58,True,2,2,1,642,0,0,0,MERGED
+19194,Fixed #36200 -- Clarified MIDDLEWARE setting updates when using a custom RemoteUserMiddleware.,joonashak,2025-02-19T12:40:06Z,2025-02-20T15:12:29+00:00,5,26.54,True,15,2,1,563,0,2,2,MERGED
+19192,Fixed docs build on Sphinx 8.2+.,felixxm,2025-02-19T07:37:29Z,2025-02-19T08:44:53+00:00,1,1.12,True,8,6,1,142,1,0,1,MERGED
+19190,"Fixed #34871, #36518 -- Implemented unresolved lookup expression replacement.",charettes,2025-02-18T17:48:40Z,2025-08-04T07:22:53+00:00,11,3997.57,True,124,4,4,294,2,8,10,MERGED
+19189,Refs #35999 -- Removed #django IRC channel reference from README.rst.,sarahboyce,2025-02-18T16:36:18Z,2025-02-19T07:38:24+00:00,1,15.04,True,0,3,1,42,0,0,0,MERGED
+19188,Removed advice to propose a new contrib app.,sarahboyce,2025-02-18T13:59:57Z,2025-02-18T15:09:53+00:00,2,1.17,True,0,6,1,455,0,0,0,MERGED
+19187,"Fixed #36152 -- Deprecated use of ""%"" in column aliases.",jacobtylerwalls,2025-02-18T03:42:28Z,2025-06-20T06:25:22+00:00,5,2930.72,True,49,0,4,553,0,1,1,MERGED
+19186,Fixed #36163 -- Deprecated most positional args to django.core.mail.,medmunds,2025-02-18T03:16:29Z,2025-07-17T17:01:16+00:00,2,3589.75,True,295,57,7,882,3,2,5,MERGED
+19185,Fixed #36197 -- Fixed improper many-to-many count() and exists() for non-pk to_field.,charettes,2025-02-17T18:48:18Z,2025-02-18T10:43:27+00:00,1,15.92,True,14,1,3,142,0,0,0,MERGED
+19183,Fixed #35167 -- Delegated to super() in JSONField.get_db_prep_save().,jacobtylerwalls,2025-02-17T02:43:14Z,2025-02-18T16:28:24+00:00,4,37.75,True,41,8,3,552,1,1,2,MERGED
+19182,Fixed #36085 -- Fix sqlite jsonfield negative index,Hesham942,2025-02-16T19:17:43Z,2025-03-04T17:06:04+00:00,10,381.81,False,34,4,3,1116,1,2,3,CLOSED
+19180,[5.2.x] Refs #36181 -- Removed the obsolete SubqueryConstraint machinery.,felixxm,2025-02-15T15:33:25Z,2025-02-15T16:48:53+00:00,1,1.26,True,15,70,4,3310,0,0,0,MERGED
+19179,Fixed #36191 -- Added O_TRUNC flag when overwriting files in FileSystemStorage.,gutard,2025-02-15T15:08:04Z,2025-02-17T10:02:23+00:00,1,42.91,False,7,3,4,676,0,0,0,CLOSED
+19176,Fixed #36186 -- Added forloop.length variable within a template for loop.,stroebjo,2025-02-14T18:48:48Z,2025-02-24T15:25:54+00:00,4,236.62,True,30,2,4,555,3,1,4,MERGED
+19175,Fixed typo in docs/ref/databases.txt.,Confidenceman02,2025-02-14T06:27:05Z,2025-02-14T14:15:29+00:00,2,7.81,True,1,1,1,16,0,0,0,MERGED
+19174,Demo PR,josaputra15,2025-02-13T22:58:50Z,2025-02-14T01:11:47+00:00,1,2.22,False,1,1,1,0,0,0,0,CLOSED
+19171,Corrected SHORT_DATE_FORMAT for Korean (ko).,yeongbin05,2025-02-13T10:43:30Z,2025-02-13T21:35:16+00:00,1,10.86,True,1,1,1,114,7,0,7,MERGED
+19168,Fixed #35803 -- Reverted GIS functions support on MariaDB 11.7.,felixxm,2025-02-12T22:27:31Z,2025-02-13T09:38:04+00:00,2,11.18,True,31,59,5,62,1,0,1,MERGED
+19167,"Fixed #36182 -- Made querystring return ""?"" rather than """" when all parameters are removed.",sarahboyce,2025-02-12T16:09:16Z,2025-02-13T14:49:25+00:00,5,22.67,True,23,9,4,539,3,3,6,MERGED
+19165,"Add ""return self"" for HttpResponseBase.set_cookie()",mobilemodula,2025-02-12T15:10:21Z,2025-02-12T21:47:04+00:00,1,6.61,False,2,1,1,435,2,0,2,CLOSED
+19164,Corrected wording in docs/ref/models/constraints.txt.,violuke,2025-02-12T14:57:54Z,2025-02-14T14:19:12+00:00,2,47.35,True,1,1,1,487,0,0,0,MERGED
+19163,Fixed #36146 -- Updated migration command to record applied/unapplied migration statuses recursively.,georgi-yanchev,2025-02-11T21:19:45Z,2025-02-13T10:27:09+00:00,2,37.12,False,170,12,8,810,1,0,1,CLOSED
+19162,Refs #23919 -- Removed Python 2 workaround in fixtures_regress,timgraham,2025-02-11T14:13:28Z,2025-02-11T17:38:58+00:00,1,3.42,True,0,6,1,28,4,0,4,MERGED
+19160,Fixed #36181 -- Allowed Subquery usage in __in lookups against composite pks.,charettes,2025-02-10T14:07:33Z,2025-02-13T08:29:24+00:00,4,66.36,True,28,72,6,191,1,1,2,MERGED
+19159,Fixed #36178 -- Applied consistent object quoting in admin delete confirmation page.,Antoliny0919,2025-02-10T10:17:48Z,2025-02-17T10:04:10+00:00,11,167.77,True,3,3,1,534,2,1,3,MERGED
+19158,Fixed #36128 -- Doc'd the need to add a unique constraint in custom m2m through models.,cliff688,2025-02-10T07:57:16Z,2025-03-04T12:06:09+00:00,8,532.15,True,22,8,3,438,3,6,9,MERGED
+19157,Fixed #35676 -- Made BaseModelForm validate constraints that reference an InlineForeignKeyField.,cliff688,2025-02-10T07:09:57Z,2025-03-12T08:16:15+00:00,10,721.11,True,135,13,7,585,2,8,10,MERGED
+19155,Fixed #36179 -- Unhexed entries and removed duplicates in auth/common-passwords.txt.gz,mimi89999,2025-02-09T16:18:37Z,2025-02-18T07:58:49+00:00,4,207.67,True,10,1,3,595,8,0,8,MERGED
+19154,"Used ""django"" repository in twine call in release how-to.",felixxm,2025-02-09T12:07:02Z,2025-02-11T01:53:31+00:00,1,37.77,True,1,1,1,189,0,0,0,MERGED
+19153,Fixed #34865 - Memory release without garbage collection when `DatabaseWarpper` is removed.,fowczarek,2025-02-08T13:24:43Z,2025-03-17T21:28:20+00:00,11,896.06,True,53,0,9,539,8,5,13,MERGED
+19152,Fixed #36173 -- Stabilized identity of Concat with an explicit output_field.,charettes,2025-02-07T21:42:22Z,2025-02-15T15:23:46+00:00,2,185.69,True,53,7,3,502,0,1,1,MERGED
+19151,Fixed #36105 -- Dropped support for MariaDB 10.5.,felixxm,2025-02-07T17:14:10Z,2025-02-09T11:57:40+00:00,1,42.73,True,18,49,6,12,1,0,1,MERGED
+19149,Refs #36005 -- Used datetime.UTC alias instead of datetime.timezone.utc.,felixxm,2025-02-06T22:00:26Z,2025-02-18T07:35:37+00:00,6,273.59,True,271,272,41,38,3,1,4,MERGED
+19148,"Fixed #35358, Refs #35234 -- Renamed _check() methods to check() for constraints.",felixxm,2025-02-06T21:32:55Z,2025-02-19T19:27:32+00:00,2,309.91,True,19,14,5,25,4,0,4,MERGED
+19147,Fixed #36158 -- Refactored `shell` command to improve auto-imported objects reporting.,nessita,2025-02-06T20:19:28Z,2025-02-13T15:01:13+00:00,18,162.7,True,238,126,3,693,2,10,12,MERGED
+19146,Fixed #35816 --Fix Scientific Notation Parsing in Django Templates,IronJam11,2025-02-06T19:36:48Z,2025-03-10T16:50:59+00:00,2,765.24,False,24,1,3,1850,2,1,3,CLOSED
+19145,"Fixed #36477, Refs #36163 -- Implemented deprecate_posargs decorator.",medmunds,2025-02-06T03:05:34Z,2025-07-16T11:49:03+00:00,23,3848.72,True,589,0,3,1209,7,20,27,MERGED
+19144,Used assertTrue/False in EmailMultiAlternatives.body_contains() docs.,adamchainz,2025-02-06T02:09:52Z,2025-02-06T15:02:06+00:00,2,12.87,False,2,2,1,543,7,1,8,CLOSED
+19143,Fixed #36138 -- Changed ADMINS and MANAGERS settings to lists of strings.,medmunds,2025-02-05T20:10:04Z,2025-03-21T09:17:58+00:00,19,1045.13,True,102,52,10,632,1,10,11,MERGED
+19142,"Fixed #36165 -- Made PostgreSQL's SchemaEditor._delete_index_sql() respect the ""sql"" argument.",nessita,2025-02-05T15:13:34Z,2025-02-05T23:15:40+00:00,4,8.04,True,25,1,2,332,0,1,1,MERGED
+19141,Fixed #35908 -- Retired the django-developers and django-users mailing lists.,sarahboyce,2025-02-05T12:16:46Z,2025-02-19T11:14:28+00:00,4,334.96,True,107,158,13,842,0,3,3,MERGED
+19140,Fixed #35572 - Migrated os.listdir calls to os.scandir.,mvaraujo,2025-02-04T04:07:13Z,2025-02-26T16:10:51+00:00,1,540.06,False,206,66,10,651,1,0,1,CLOSED
+19136,Update calendar.js,CD187,2025-02-03T18:08:59Z,2025-02-03T19:22:34+00:00,2,1.23,False,3,5,1,39,0,0,0,CLOSED
+19134,Ticket #36158 -- Fix instance misreporting in get_and_report_namespace when verbosity=2,salvo-polizzi,2025-02-03T07:15:10Z,2025-02-07T19:26:58+00:00,2,108.2,False,39,3,2,1132,4,1,5,CLOSED
+19133,[5.1.x] Refs #36140 -- Added missing import in django/contrib/auth/forms.py.,felixxm,2025-02-02T18:54:25Z,2025-02-02T20:01:59+00:00,2,1.13,True,1,0,1,21,2,0,2,MERGED
+19131,Update tox.ini,RadoslavPetkow,2025-02-02T16:51:42Z,2025-02-02T18:25:15+00:00,1,1.56,False,5,5,1,539,0,0,0,CLOSED
+19130,Fixed #36162 -- Made `make black` in docs work on macOS.,medmunds,2025-01-31T19:51:57Z,2025-02-02T01:27:38+00:00,1,29.59,True,1,1,1,630,1,0,1,MERGED
+19128,Bumped versions in pre-commit and npm configurations.,felixxm,2025-01-30T15:06:19Z,2025-02-01T07:53:14+00:00,1,40.78,True,9,9,3,0,1,0,1,MERGED
+19127,[5.1.x] Corrected ArrayAgg example for ordering usage.,nessita,2025-01-30T13:45:29Z,2025-01-30T17:50:48+00:00,1,4.09,True,2,2,1,109,0,0,0,MERGED
+19124,Fixed #35452 -- Deprecated orphans being more than or equal to page_size in pagination.,wookkl,2025-01-30T12:23:29Z,2025-03-25T11:04:14+00:00,3,1294.68,True,48,10,5,638,2,4,6,MERGED
+19121,Fixed #36159 -- Removed the empty import example in the custom shell docs.,salvo-polizzi,2025-01-30T09:53:50Z,2025-01-30T11:15:07+00:00,1,1.35,True,0,13,1,526,0,0,0,MERGED
+19119,Fixed #36140 -- Allowed BaseUserCreationForm to define non required password fields.,nessita,2025-01-29T22:10:35Z,2025-02-02T01:49:07+00:00,5,75.64,True,103,22,3,658,0,3,3,MERGED
+19115,Fix typos and improve clarity in comments,mahiuddin-dev,2025-01-29T06:23:39Z,2025-01-29T08:26:23+00:00,2,2.05,False,8,8,3,678,0,2,2,CLOSED
+19114,Clarified docs for default email value in UserManager.create_user().,amirreza8002,2025-01-29T02:22:48Z,2025-02-04T19:35:08+00:00,2,161.21,True,3,0,1,667,3,0,3,MERGED
+19113,Fixed #36155 -- Improved error handling when annotate arguments require an alias.,vinkomlacic,2025-01-28T22:52:34Z,2025-01-30T11:17:17+00:00,2,36.41,True,23,2,3,776,0,0,0,MERGED
+19112,"Pinned isort version to ""<6.0.0"" to avoid undesired reformat.",nessita,2025-01-28T18:41:32Z,2025-01-29T01:17:40+00:00,1,6.6,True,1,1,1,29,2,0,2,MERGED
+19111,Clarified the Releaser's discretion for determining and postponing the release date.,sarahboyce,2025-01-28T15:45:37Z,2025-01-28T17:18:09+00:00,9,1.54,True,6,2,1,616,0,2,2,MERGED
+19110,Fixed #36151 -- Allowed GenericForeignKey fields to be explicitly included on model forms.,jpic,2025-01-28T12:03:27Z,2025-02-02T01:43:08+00:00,15,109.66,False,24,0,3,1035,14,5,19,CLOSED
+19108,Fixed #36149 -- Allowed subquery values against tuple in and exact lookups.,charettes,2025-01-28T04:12:29Z,2025-02-11T08:08:35+00:00,19,339.94,True,137,77,12,201,6,8,14,MERGED
+19107,Fixed #36148 -- Enabled native tuple comparison lookups on Oracle >= 23.4 and SQLite >= 3.37.,charettes,2025-01-27T20:15:38Z,2025-02-09T16:47:11+00:00,14,308.53,False,50,22,3,465,7,5,12,CLOSED
+19106,Added missing period for consistency and readability,shaymolcho,2025-01-27T05:24:58Z,2025-02-15T14:15:20+00:00,1,464.84,False,1,1,1,758,1,0,1,CLOSED
+19104,comment line 226:229 and disable raise TypeError,BlackErmac,2025-01-26T06:41:58Z,2025-01-27T01:52:24+00:00,1,19.17,False,4,4,1,2551,1,0,1,CLOSED
+19103,Fixed #36122 -- Raised FieldError when updating with composite reference value.,charettes,2025-01-26T00:19:32Z,2025-01-28T12:05:53+00:00,2,59.77,True,14,0,2,100,0,1,1,MERGED
+19102,Prevented docutils from logging to the console in admindocs test,adamzap,2025-01-25T22:53:58Z,2025-01-27T08:23:56+00:00,2,33.5,True,2,1,1,857,0,0,0,MERGED
+19099,Fixed #36135 -- Fixed reverse GenericRelation prefetching.,charettes,2025-01-25T05:34:00Z,2025-02-03T09:39:14+00:00,3,220.09,True,29,1,3,1002,0,1,1,MERGED
+19093,Fixed #35801 -- Prevented collision of senders with non-overlapping lifetimes.,charettes,2025-01-23T06:19:18Z,2025-04-23T13:36:00+00:00,14,2167.28,True,86,22,2,905,1,4,5,MERGED
+19092,Fixed #36120 -- Raised FieldError when targeting a composite primary key field with QuerySet.update().,jacobtylerwalls,2025-01-23T03:22:42Z,2025-01-28T10:19:46+00:00,3,126.95,True,11,0,2,621,0,1,1,MERGED
+19091,Refs #27674 -- Removed unused GIS icons.,claudep,2025-01-22T20:12:10Z,2025-01-23T08:33:14+00:00,2,12.35,True,0,2,2,21,0,0,0,MERGED
+19090,Fixed #36125 -- Switched docs to use chat.djangoproject.com when referencing the Discord server.,bmispelon,2025-01-22T20:07:03Z,2025-01-22T21:22:50+00:00,1,1.26,True,9,9,9,594,0,0,0,MERGED
+19089,Refs #36050 -- Relaxed CompositePrimaryKey's check for OuterRef to also accept Subquery.,jacobtylerwalls,2025-01-22T13:51:26Z,2025-01-28T13:15:26+00:00,2,143.4,False,82,29,2,612,2,3,5,CLOSED
+19088,Fixed #36118 -- Accounted for multiple primary keys in bulk_update max_batch_size.,sarahboyce,2025-01-22T12:16:26Z,2025-01-29T09:11:55+00:00,25,164.92,True,69,11,6,293,5,7,12,MERGED
+19087,Switched to pull_request_target event trigger in the Labels Github action.,sarahboyce,2025-01-22T07:49:42Z,2025-01-22T11:43:19+00:00,1,3.89,True,1,1,1,518,0,0,0,MERGED
+19086,"Dropped support for Python 3.08, 3.09, 3.10, 3.11",EliuFlorez,2025-01-21T22:50:14Z,2025-01-22T07:30:59+00:00,1,8.68,False,0,4,1,53,1,0,1,CLOSED
+19085,Fixed #36119 -- Fixed UnicodeEncodeError when attaching a file with 8bit Content-Transfer-Encoding.,gmaOCR,2025-01-21T22:16:39Z,2025-01-31T11:54:12+00:00,18,229.63,True,28,4,2,511,4,14,18,MERGED
+19083,Updated the release process documentation to reflect the current process.,sarahboyce,2025-01-21T12:19:43Z,2025-01-28T10:33:00+00:00,5,166.22,True,47,33,1,402,2,4,6,MERGED
+19082,Fixed #24529 -- Allowed double squashing of migrations.,sarahboyce,2025-01-21T09:54:10Z,2025-01-22T09:56:32+00:00,1,24.04,True,314,42,14,38,1,2,3,MERGED
+19081,Fixed #36121 -- Allowed customizing the admin site password change form.,mohammadrezaesk,2025-01-21T09:40:33Z,2025-01-30T11:19:06+00:00,3,217.64,True,24,3,6,814,2,3,5,MERGED
+19078,Fixed #36114 -- Fixed link visibility when list_display_links field contains only whitespace.,Antoliny0919,2025-01-21T07:26:13Z,2025-01-22T13:56:44+00:00,3,30.51,True,13,0,2,646,0,1,1,MERGED
+19077,Refs #36005 -- Bumped minimum supported versions of 3rd-party packages.,felixxm,2025-01-20T22:12:25Z,2025-01-28T07:02:13+00:00,11,176.83,True,62,47,11,118,11,4,15,MERGED
+19075,Refs #32193 -- Updated python-memcached to pymemcache in contributing guide.,felixxm,2025-01-20T20:01:02Z,2025-01-20T21:43:45+00:00,1,1.71,True,1,1,1,34,1,0,1,MERGED
+19073,Fixed #36117 -- Raised ValueError when providing composite expressions to case / when.,charettes,2025-01-20T06:25:53Z,2025-01-22T07:56:18+00:00,8,49.51,True,48,87,3,370,0,3,3,MERGED
+19072,Fixed #36116 -- Optimized multi-column ForwardManyToOne prefetching.,charettes,2025-01-20T02:58:24Z,2025-01-21T08:09:43+00:00,8,29.19,True,51,20,3,230,0,2,2,MERGED
+19071,Refs #35448 -- Fixed BackendTestCase.test_queries_logger() on Oracle < 23c,felixxm,2025-01-19T18:47:01Z,2025-01-20T06:53:47+00:00,2,12.11,True,1,0,1,648,3,0,3,MERGED
+19070,Fixed #36083 -- Ran system checks in ParallelTestSuite workers,adamzap,2025-01-18T22:28:38Z,2025-09-17T01:57:23+00:00,15,5787.48,True,16,1,3,710,8,4,12,MERGED
+19069,Fixed #36111 -- Fixed test --debug-sql crash on Oracle when no prior query has executed.,jacobtylerwalls,2025-01-18T19:30:52Z,2025-01-25T17:06:11+00:00,1,165.59,True,7,1,2,654,7,1,8,MERGED
+19068,Add missing command for running-test on contributing page,baidoosik,2025-01-18T15:36:27Z,2025-07-28T11:55:42+00:00,6,4580.32,True,22,17,2,882,20,1,21,MERGED
+19067,Fixed #36005 -- Dropped support for Python 3.10 and 3.11.,felixxm,2025-01-18T14:28:00Z,2025-01-20T13:07:28+00:00,7,46.66,True,79,266,30,12,0,2,2,MERGED
+19065,Fixed #36107 -- Adjusted UNNEST bulk_create strategy to opt-out sized arrays.,charettes,2025-01-17T18:46:44Z,2025-01-20T13:15:32+00:00,9,66.48,True,38,1,4,451,3,3,6,MERGED
+19064,Fixed #36109 -- Fixed RecursionError when stacking FilteredRelation joins.,pmdevita,2025-01-17T18:31:24Z,2025-01-27T09:32:20+00:00,1,231.02,True,25,0,3,801,2,0,2,MERGED
+19063,Fixed #35959 -- Reused password hashing rendering in display_for_field.,sarahboyce,2025-01-17T17:08:25Z,2025-04-17T15:00:21+00:00,10,2157.87,True,123,34,10,539,3,7,10,MERGED
+19062,Fixed #36106 - Added exclude option for django-admin flush command.,dZlatanovski,2025-01-17T13:25:34Z,2025-02-01T07:57:56+00:00,1,354.54,False,69,1,6,157,1,0,1,CLOSED
+19061,[5.0.x] Refs #34060 -- Adjusted CVE-2024-53908 regression test for psycopg2.,charettes,2025-01-17T05:19:45Z,2025-01-17T09:12:30+00:00,1,3.88,True,1,1,1,198,0,0,0,MERGED
+19060,[4.2.x] Refs #34060 -- Adjusted CVE-2024-53908 regression test for psycopg2.,charettes,2025-01-17T05:17:09Z,2025-01-17T07:28:10+00:00,1,2.18,True,1,1,1,197,0,0,0,MERGED
+19059,Fixed #35877 -- Clarified ManyToManyField through model database inde…,AyushKhatri-Dev,2025-01-17T05:09:13Z,2025-09-26T12:17:15+00:00,2,6055.13,False,35,0,1,701,1,1,2,CLOSED
+19057,Fixed #35972 -- Fixed lookup crashes after subquery annotations.,jacobtylerwalls,2025-01-16T13:28:55Z,2025-08-04T08:14:01+00:00,22,4794.75,True,128,23,11,735,10,6,16,MERGED
+19056,Fixed #36078 -- Doc'd that Postgres normalizes a range field with no points to empty.,cliff688,2025-01-16T12:12:24Z,2025-03-18T15:49:54+00:00,2,1467.62,True,9,0,1,438,1,1,2,MERGED
+19055,[4.2.x] Refs #36098 -- Fixed validate_ipv4_address() crash for non-string values.,sarahboyce,2025-01-16T11:08:12Z,2025-01-16T19:01:12+00:00,2,7.88,True,2,0,1,182,1,1,2,MERGED
+19054,Refs #35090 -- Fixed urlpatterns.tests.SimplifiedURLTests when run in reverse.,felixxm,2025-01-16T10:29:04Z,2025-01-16T12:12:33+00:00,1,1.72,True,7,3,1,46,0,0,0,MERGED
+19053,Fixed typos in docs/releases/5.2.txt.,cliff688,2025-01-16T10:11:12Z,2025-01-16T12:12:51+00:00,2,2.03,True,3,3,1,0,0,0,0,MERGED
+19052,Fixed #36102 -- Moved i18n comments directly above the translatable string.,JulienPalard,2025-01-15T22:15:30Z,2025-02-14T14:22:42+00:00,2,712.12,True,22,13,1,807,6,0,6,MERGED
+19050,Fixed #36100 -- Checked if composite pk is set in get_next/get_previous.,jacobtylerwalls,2025-01-15T12:50:38Z,2025-01-15T16:23:46+00:00,9,3.55,True,11,2,2,585,0,3,3,MERGED
+19049,Pre-edits for 5.2a1,sarahboyce,2025-01-15T12:05:19Z,2025-01-15T20:11:21+00:00,2,8.1,True,117,178,2,151,0,0,0,MERGED
+19048,Refs #29499 -- Fixed race condition in update_or_create() test. ,charettes,2025-01-15T05:23:11Z,2025-01-15T14:36:57+00:00,1,9.23,True,53,33,1,2215,2,0,2,MERGED
+19047,Fixed #36098 -- Fixed validate_ipv6_address()/validate_ipv46_address() crash on ipaddress.IPv6Address instances.,felixxm,2025-01-14T22:13:24Z,2025-01-15T16:46:06+00:00,11,18.55,True,74,10,8,12,0,3,3,MERGED
+19044,Fixed #36097 -- Organized geographic db functions docs with headers.,sarahboyce,2025-01-14T10:12:46Z,2025-03-19T12:16:33+00:00,3,1538.06,True,409,403,1,538,4,0,4,MERGED
+19043,"Fixed #35521 -- Allowed overriding BoundField class on fields, forms and renderer.",matthiask,2025-01-14T06:53:16Z,2025-01-15T20:04:26+00:00,28,37.19,True,362,14,8,524,13,12,25,MERGED
+19042,Fixed #35677 -- Avoided non-sticky filtering of prefetched many-to-many.,charettes,2025-01-14T06:01:41Z,2025-02-06T13:27:52+00:00,1,559.44,True,55,7,4,586,1,0,1,MERGED
+19041,Fixed #36095 -- Introduced lazy references before they are used in docs.,cliff688,2025-01-13T19:22:52Z,2025-03-21T13:09:10+00:00,1,1601.77,True,22,0,2,941,0,0,0,MERGED
+19040,Fixed #36093 -- Addressed regression due to switching to pk_fields.,charettes,2025-01-13T18:58:44Z,2025-01-14T15:21:23+00:00,3,20.38,True,35,10,7,177,0,0,0,MERGED
+19039,Fixed ambiguous pronoun reference in docs/ref/models/fields.txt.,cliff688,2025-01-13T17:38:37Z,2025-01-24T17:45:32+00:00,2,264.12,True,1,1,1,107,3,0,3,MERGED
+19038,Fixed #36092 -- Disallowed non-local fields in composite primary keys.,csirmazbendeguz,2025-01-13T11:35:02Z,2025-01-13T13:21:42+00:00,1,1.78,True,23,0,2,521,0,0,0,MERGED
+19037,Fixed #36087 -- Supported password reset on a custom user model with a composite primary key.,sarahboyce,2025-01-13T11:02:53Z,2025-01-13T14:51:21+00:00,1,3.81,True,37,4,5,539,1,1,2,MERGED
+19036,Fixed #36075 -- Documented how to introspect composite primary keys.,charettes,2025-01-13T04:10:24Z,2025-01-14T15:20:18+00:00,15,35.16,True,105,10,3,144,4,7,11,MERGED
+19035,Refs #36050 -- Fixed OuterRef support for CompositePrimaryKey on Oracle.,charettes,2025-01-12T23:26:14Z,2025-01-13T10:14:01+00:00,1,10.8,True,10,0,1,251,1,0,1,MERGED
+19032,Fixed #36055 -- Prevented overlap of object-tools buttons and page header in the admin.,Antoliny0919,2025-01-12T10:28:40Z,2025-02-04T07:47:26+00:00,1,549.31,True,34,10,5,606,2,0,2,MERGED
+19031,Refs #35844 -- Removed unnecessary and deprecated ArgumentParser.add_argument_group()'s prefix_chars argument.,felixxm,2025-01-11T20:06:14Z,2025-01-13T15:53:48+00:00,2,43.79,True,1,1,1,373,0,0,0,MERGED
+19030,Fixed #36085 -- Added JSONField support for negative array indexing on SQLite.,savanto,2025-01-11T19:16:53Z,2025-05-14T11:21:18+00:00,24,2944.07,True,99,23,9,963,7,11,18,MERGED
+19029,Fixed invalid html templates in tests.,UnknownPlatypus,2025-01-11T17:47:53Z,2025-01-17T14:55:37+00:00,3,141.13,True,5,4,3,681,0,0,0,MERGED
+19025,Added role_required decorator for role-based access control,HoussemCoder,2025-01-11T10:22:49Z,2025-01-11T13:19:21+00:00,1,2.94,False,173,0,3,1105,0,0,0,CLOSED
+19024,Fixed #36086 -- Fixed crash when using GeneratedField with non-AutoField pk.,charettes,2025-01-11T05:17:43Z,2025-01-13T10:13:30+00:00,7,52.93,True,34,20,4,541,0,5,5,MERGED
+19023,Refs #36036 -- Added support for GEOSHasM.,andharris,2025-01-10T15:14:05Z,2025-02-03T11:34:23+00:00,9,572.34,True,70,8,7,583,6,2,8,MERGED
+19022,Fixed #36070 -- Doc'd model validation behavior for composite pks.,jacobtylerwalls,2025-01-10T14:44:25Z,2025-01-15T12:44:24+00:00,11,118.0,True,26,11,4,565,0,8,8,MERGED
+19021,Refs #36064 -- Added Model.has_db_default() to encapsulate NOT_PROVIDED checks.,charettes,2025-01-10T05:36:21Z,2025-01-10T07:31:15+00:00,5,1.92,True,27,40,6,332,0,1,1,MERGED
+19020,Refs #35612 -- Extended docs on how the security team evaluates reports.,nessita,2025-01-09T14:56:08Z,2025-02-04T11:54:01+00:00,21,620.96,True,8,2,1,150,0,3,3,MERGED
+19019,Fixed #36077 -- Corrected docs on pk value where Model.save() executes an UPDATE.,jacobtylerwalls,2025-01-09T14:52:15Z,2025-01-13T10:18:03+00:00,2,91.43,True,2,3,1,515,0,1,1,MERGED
+19018,Refs #36075 -- Used field in pk_fields over field.primary_key.,sarahboyce,2025-01-09T12:42:13Z,2025-01-13T11:04:59+00:00,8,94.38,True,53,7,8,300,1,6,7,MERGED
+19017,Fixed #36074 -- Excluded composite primary key fields on save() updates.,charettes,2025-01-09T05:35:15Z,2025-01-09T16:38:43+00:00,2,11.06,True,8,2,2,697,2,0,2,MERGED
+19016,Fixed #36066 -- Documented use of Q objects inside annotations.,lufafajoshua,2025-01-08T13:14:28Z,2025-03-10T08:37:13+00:00,2,1459.38,False,6,0,1,568,1,1,2,CLOSED
+19014,Refs #36005 -- Strengthened wording on supported Python versions in FAQ.,carltongibson,2025-01-07T19:23:42Z,2025-01-08T09:21:55+00:00,3,13.97,True,5,5,1,503,1,0,1,MERGED
+19012,Fixed #36060 -- Prevented IntegrityError in bulk_create() with order_with_respect_to.,myoungjinGo-BE,2025-01-07T15:25:19Z,2025-06-03T14:27:33+00:00,29,3527.04,True,182,2,3,707,5,17,22,MERGED
+19011,Fixed #36068 -- Raised ValueError when providing a composite PK field to bulk_create() update_fields.,jacobtylerwalls,2025-01-07T11:31:54Z,2025-01-10T07:23:39+00:00,2,67.86,True,17,2,2,587,0,1,1,MERGED
+19010,Fixed #36069 -- Fixed the positioning of the delete button in TabularInlines.,Antoliny0919,2025-01-07T11:28:24Z,2025-02-04T07:56:23+00:00,8,668.47,True,34,4,2,472,1,1,2,MERGED
+19009,Fixed #36058 -- Refactored SpatialRefSysMixin.srs to use cached_property,agovene,2025-01-07T10:36:45Z,2025-02-04T07:40:03+00:00,5,669.05,True,32,25,2,644,1,2,3,MERGED
+19008,Fixed #36064 -- Skipped an UPDATE when adding a model instance with a composite primary key with default values.,csirmazbendeguz,2025-01-07T09:20:06Z,2025-01-10T10:43:38+00:00,21,73.39,True,35,5,5,538,0,4,4,MERGED
+19007,Fixed #36065 -- Fixed ordering by expression referencing composite primary key.,charettes,2025-01-07T05:10:00Z,2025-01-08T09:20:49+00:00,6,28.18,True,83,26,4,356,4,7,11,MERGED
+19006,Fixed #36061 -- Added missing migration support for through_fields,bdnettleton,2025-01-07T02:06:25Z,2025-02-06T14:26:12+00:00,2,732.33,True,20,0,3,849,2,0,2,MERGED
+19005,Fixed #36062 -- Handled serialization of CompositePrimaryKeys.,sarahboyce,2025-01-06T10:45:32Z,2025-01-08T13:52:59+00:00,6,51.12,True,84,3,6,437,3,4,7,MERGED
+19002,Fixed #36063 -- Made a FileField navigate to the object admin change page when in list_display_links.,Antoliny0919,2025-01-05T10:05:43Z,2025-01-08T15:32:42+00:00,10,77.45,True,30,5,5,457,0,2,2,MERGED
+18999,Fixed #36044 -- Inherited from DjangoTemplates in custom form template examples.,Guilouf,2025-01-03T21:34:21Z,2025-01-24T14:17:27+00:00,9,496.72,False,4,4,1,607,0,2,2,CLOSED
+18997,Added GitHub action to label pull requests without a ticket in title.,sarahboyce,2025-01-03T14:42:42Z,2025-01-21T14:49:40+00:00,3,432.12,True,52,0,1,886,0,1,1,MERGED
+18994,Fixed #36050 -- Added OuterRef support to CompositePrimaryKey.,csirmazbendeguz,2025-01-03T09:59:00Z,2025-01-10T13:38:09+00:00,7,171.65,True,78,9,2,494,2,5,7,MERGED
+18993,Fixed #36048 -- Preferred ValueError to NotSupportedError for composite pk lookup checks.,jacobtylerwalls,2025-01-03T01:42:55Z,2025-01-06T08:33:27+00:00,3,78.84,True,9,13,4,692,1,0,1,MERGED
+18992,Fixed #36057 -- Enabled 'test --pdb' to debug chained exceptions.,adamchainz,2025-01-02T11:56:04Z,2025-01-04T03:30:40+00:00,1,39.58,True,5,2,1,535,1,0,1,MERGED
+18991,Fixed #36021 -- Added settings module configuration from pyproject.toml.,ryanhiebert,2025-01-02T11:12:26Z,2025-01-02T14:41:54+00:00,3,3.49,False,26,0,2,508,1,3,4,CLOSED
+18990,Fixed #36056 -- Made OutputWrapper a virtual TextIOBase subclass only.,adamchainz,2025-01-02T10:58:37Z,2025-01-04T03:29:53+00:00,2,40.52,True,29,2,2,3363,4,0,4,MERGED
+18987,Fixed #36022 -- Added django alternative spelling of django-admin.,ryanhiebert,2025-01-02T02:31:16Z,2025-01-02T14:48:33+00:00,1,12.29,False,9,0,3,969,1,1,2,CLOSED
+18986,Fixed #36052 -- Supported CompositePrimaryKey in inspectdb.,jacobtylerwalls,2025-01-01T23:08:17Z,2025-01-03T15:28:21+00:00,5,40.33,True,11,10,2,506,0,2,2,MERGED
+18985,Refs #373 -- Errored when providing db_column to CompositePrimaryKey.,jacobtylerwalls,2025-01-01T21:09:52Z,2025-01-02T12:03:49+00:00,2,14.9,True,7,0,2,533,1,0,1,MERGED
+18984,Fixed #36051 -- Declared arity on aggregate functions.,jacobtylerwalls,2025-01-01T20:56:04Z,2025-01-14T15:47:09+00:00,7,306.85,True,36,0,4,553,0,2,2,MERGED
+18983,Refs #470 -- Fixed field_defaults test failures due to year-end boundary conditions.,jacobtylerwalls,2025-01-01T16:57:05Z,2025-01-23T15:43:06+00:00,1,526.77,True,12,3,1,961,5,0,5,MERGED
+18982,Fixed #36034 -- Added system check for ForeignKey/ForeignObject/ManyToManyField to CompositePrimaryKeys.,felixxm,2025-01-01T14:39:45Z,2025-01-02T12:06:47+00:00,1,21.45,True,178,0,3,12,0,0,0,MERGED
+18981,Fixed typo in django/db/models/query.py docstring.,jacobtylerwalls,2024-12-31T22:56:24Z,2025-01-02T12:12:35+00:00,2,37.27,True,2,2,2,0,0,0,0,MERGED
+18980,Updated Python license.,thunder-007,2024-12-31T18:45:28Z,2025-01-02T14:50:14+00:00,1,44.08,True,1,1,1,607,1,0,1,MERGED
+18979,Fixed #36042 -- Raised ValueError when using CompositePrimaryKey as rhs.,jacobtylerwalls,2024-12-31T18:18:18Z,2025-01-07T10:42:06+00:00,10,160.4,True,66,5,9,735,5,5,10,MERGED
+18977,Updated event listeners from unload to pagehide.,PoojaVishwakarma0402,2024-12-30T15:59:52Z,2025-08-21T15:13:39+00:00,2,5615.23,False,5,5,3,875,4,2,6,CLOSED
+18976,Small optimization,ashm-dev,2024-12-30T09:00:35Z,2024-12-30T11:06:32+00:00,2,2.1,False,2,2,1,725,0,0,0,CLOSED
+18975,Fixed #36029 -- Handled implicit exact lookups in condition depth checks for FilteredRelation.,jacobtylerwalls,2024-12-29T13:15:34Z,2025-01-03T07:40:13+00:00,3,114.41,True,19,6,2,554,0,1,1,MERGED
+18973,Added a test for QuerySet.delete() raising EmptyResultSet.,timgraham,2024-12-27T00:33:39Z,2025-01-03T02:49:49+00:00,2,170.27,True,9,0,1,997,1,1,2,MERGED
+18972,Fixed #36032 -- Add a link to the URLField value on the app index page.,Antoliny0919,2024-12-25T09:59:46Z,2025-01-10T11:57:53+00:00,1,385.97,True,26,3,6,542,3,0,3,MERGED
+18971,Fixed #31170 -- Added change event trigger to dismissRelatedLookupPopup.,lumi808,2024-12-24T23:26:31Z,2025-02-18T09:34:15+00:00,2,1330.13,True,83,3,3,700,0,0,0,MERGED
+18970,Fixed #36037 -- Fixed default primary key type in docs.,aripollak,2024-12-24T20:22:47Z,2025-01-02T14:25:59+00:00,2,210.05,True,4,4,2,881,0,0,0,MERGED
+18967,Refs #373 -- Fixed false failure of test_error_on_comment_pk_conflict.,timgraham,2024-12-24T01:02:08Z,2024-12-27T02:29:05+00:00,3,73.45,True,1,1,1,112,6,0,6,MERGED
+18966,Fixed #35581 -- Updated django.core.mail to Python's modern email API.,medmunds,2024-12-24T00:25:30Z,2025-07-25T11:50:02+00:00,24,5123.41,True,851,215,9,3447,18,21,39,MERGED
+18965,Fixed #35740 -- Fixed FileFieldStorageTests.test_extended_length_storage when using bcachefs.,YashRaj1506,2024-12-23T22:13:09Z,2025-01-03T07:40:48+00:00,1,249.46,True,1,1,1,686,0,0,0,MERGED
+18964,Fixed #36025 -- Fixed re-aliasing of iterable (in/range) lookups rhs.,charettes,2024-12-23T04:17:24Z,2025-02-06T15:57:45+00:00,1,1091.67,True,49,11,3,917,0,0,0,MERGED
+18960,Fixed #35991 -- Fixed crash when adding non-nullable field after renaming part of CompositePrimaryKey on SQLite.,felixxm,2024-12-22T14:38:53Z,2024-12-27T12:55:42+00:00,2,118.28,True,46,0,2,12,1,1,2,MERGED
+18959,Fixed #36017 -- Used EmailValidator in urlize to detect emails.,gmaOCR,2024-12-21T17:13:22Z,2025-01-20T08:50:32+00:00,4,711.62,True,9,23,2,567,2,1,3,MERGED
+18958,Fixed #34917 -- Underlined the 'a' tags in the main content area of the admin.,Antoliny0919,2024-12-21T11:19:49Z,2025-03-27T12:27:34+00:00,24,2305.13,True,50,33,24,549,7,10,17,MERGED
+18957,Fixed #36010 -- Avoided touching mo files while checking writability.,claudep,2024-12-20T22:27:55Z,2025-01-23T10:36:43+00:00,1,804.15,True,12,10,2,0,0,0,0,MERGED
+18954,ticket 36028: added `AdminSite.template_engine` option.,foucdeg,2024-12-20T08:35:29Z,2025-01-05T13:57:13+00:00,1,389.36,False,47,1,6,564,1,0,1,CLOSED
+18953,Refs #35844 -- Fixed OtherModelFormTests.test_prefetch_related_queryset() test on Python 3.14+.,felixxm,2024-12-20T07:50:38Z,2024-12-20T13:18:10+00:00,2,5.46,True,6,5,1,40,0,0,0,MERGED
+18952,Fixed #36026 -- Updated the class-based View's documentation to explain the setup function,chaitanyarahalkar,2024-12-19T20:06:30Z,2025-01-03T13:11:23+00:00,2,353.08,True,5,0,1,538,3,1,4,MERGED
+18951,Fixed #36017 Urlizer email fixed,gmaOCR,2024-12-19T19:19:38Z,2024-12-21T17:07:50+00:00,1,45.8,False,10977,4798,547,716,7,0,7,CLOSED
+18950,Fixed #36014 -- Supported international domains in EmailValidator.,chaitanyarahalkar,2024-12-18T05:23:05Z,2025-01-08T09:20:11+00:00,5,507.95,True,23,14,3,913,10,5,15,MERGED
+18949,Fixed #35967 -- Deferred test suite fixtures serialization after all dbs setup.,charettes,2024-12-18T04:51:01Z,2025-02-16T12:43:07+00:00,9,1447.87,True,105,22,9,185,2,6,8,MERGED
+18948,Added DatabaseFeatures.rounds_to_even.,timgraham,2024-12-17T14:01:51Z,2024-12-18T11:50:49+00:00,2,21.82,True,7,2,3,28,4,1,5,MERGED
+18947,Fixed #36016 -- Prevented traceback when quitting makemigrations with Ctrl-C.,amansharma612,2024-12-17T08:37:14Z,2024-12-19T10:33:19+00:00,1,49.93,True,26,4,2,551,4,0,4,MERGED
+18946,Ref #36018 - Checked request before getting site id from settings,devo-wm,2024-12-16T21:05:07Z,2024-12-17T13:34:50+00:00,1,16.5,False,3,3,1,539,1,0,1,CLOSED
+18945,Refs #35520 -- Fixed expected query count in admin_views tests.,timgraham,2024-12-16T17:36:17Z,2024-12-17T13:40:34+00:00,1,20.07,True,2,5,1,158,0,0,0,MERGED
+18943,Added Chiemezuo to AUTHORS,Chiemezuo,2024-12-16T13:49:06Z,2024-12-17T13:38:59+00:00,1,23.83,True,1,0,1,617,2,0,2,MERGED
+18942,Fixed #36013 -- Removed use of IDNA-2003 in django.utils.html.,medmunds,2024-12-15T23:09:49Z,2025-01-23T09:38:19+00:00,1,922.48,True,74,20,5,863,0,0,0,MERGED
+18941,Fixed #36012 -- Fixed broken mailto punctuation encoding in Urlizer.,medmunds,2024-12-15T22:51:23Z,2024-12-17T09:18:50+00:00,4,34.46,True,15,0,2,659,0,1,1,MERGED
+18940,Imported Coalesce from django.db.models.functions.,jacobtylerwalls,2024-12-15T16:40:38Z,2024-12-16T09:29:35+00:00,2,16.82,True,1,1,1,163,0,0,0,MERGED
+18939,Refs #35718 -- Moved JSONObject to django.db.models.functions.json.,laymonage,2024-12-15T16:21:22Z,2024-12-16T11:06:02+00:00,4,18.74,True,98,89,6,1501,0,1,1,MERGED
+18938,Fixed #35945 -- Added async interface to Paginator,wookkl,2024-12-15T13:03:04Z,2025-03-12T08:22:47+00:00,25,2083.33,True,783,115,6,808,10,21,31,MERGED
+18937,Fixed #36008 -- Fixed order of database reset in TransactionTestCase docs.,Chiemezuo,2024-12-15T08:58:24Z,2024-12-16T12:12:50+00:00,3,27.24,True,6,6,1,824,3,0,3,MERGED
+18936,Fixed #35891 -- Confirmed support for GDAL 3.10.,smithdc1,2024-12-14T20:20:54Z,2024-12-27T15:21:04+00:00,2,307.0,True,7,4,2,12,13,0,13,MERGED
+18935,Refs #29850 -- Removed obsolete test_window_frame_raise_not_supported_error.,timgraham,2024-12-14T15:59:57Z,2024-12-16T12:42:21+00:00,2,44.71,True,0,6,1,157,0,0,0,MERGED
+18933,Enhanced tutorial01 with additional clarity and examples.,emanueldavidov,2024-12-13T18:08:45Z,2024-12-13T22:52:34+00:00,1,4.73,False,52,0,1,653,1,0,1,CLOSED
+18931,Fixed #34856 -- Fixed references to index_together in historical migrations.,systemallica,2024-12-13T11:47:03Z,2024-12-17T08:59:43+00:00,3,93.21,True,235,15,4,677,1,1,2,MERGED
+18930,Refs #32819 -- Added aria-describedby property to BoundField.,smithdc1,2024-12-13T10:15:24Z,2024-12-17T11:04:45+00:00,1,96.82,True,58,14,6,225,1,0,1,MERGED
+18929,Bootstrapped Django 6.0.,sarahboyce,2024-12-13T09:32:01Z,2025-01-15T21:28:37+00:00,9,803.94,True,434,2119,105,175,10,5,15,MERGED
+18927,Fixed #35924 - Removed choose/remove all controls used in FilteredSelectMultiple widget,ajosephau,2024-12-13T04:56:24Z,2025-08-04T08:33:28+00:00,1,5619.62,False,0,20,2,559,1,0,1,CLOSED
+18926,Fixed typo in ArrayField test name.,timgraham,2024-12-13T01:52:59Z,2024-12-13T08:00:44+00:00,3,6.13,True,1,1,1,54,0,0,0,MERGED
+18925,Fixed #36007 -- Removed dead code from URLValidator.,medmunds,2024-12-12T22:56:45Z,2024-12-13T15:10:34+00:00,2,16.23,True,13,28,2,895,4,0,4,MERGED
+18923,Fixed #26007: Update the doc string on get_template_names of SingleObjectTemplateResponseMixin,nanorepublica,2024-12-11T21:06:11Z,2024-12-18T12:08:15+00:00,5,159.03,True,14,7,3,618,3,6,9,MERGED
+18922,"Fixed #35992, Fixed #35997 -- Added system check for CompositePrimaryKeys in Meta.indexes/constraints/unique_together.",felixxm,2024-12-11T20:57:35Z,2024-12-17T09:28:40+00:00,2,132.52,True,200,2,4,215,0,0,0,MERGED
+18920,Fixed #36002 -- Update docstrings for RemoteUserMiddleware and PersistentRemoteUserMiddleware.,Kagee,2024-12-11T18:48:33Z,2024-12-18T09:07:30+00:00,5,158.32,True,14,11,1,741,2,4,6,MERGED
+18918,Removed outdated examples from performance.txt,amansharma612,2024-12-11T17:56:13Z,2024-12-11T19:47:18+00:00,2,1.85,True,1,4,1,607,0,0,0,MERGED
+18917,Fixed #35996 -- Fixed exception related to missing chunk_size when serializing a many-to-many field that had a prefetch.,ericapisani,2024-12-11T16:30:25Z,2024-12-18T09:39:21+00:00,10,161.15,True,49,18,3,711,9,3,12,MERGED
+18916,Fixed #35999 -- Removed #django IRC channel references where appropriate.,sarahboyce,2024-12-11T14:28:28Z,2025-01-08T09:24:53+00:00,6,666.94,True,14,24,7,178,0,1,1,MERGED
+18915,Fixed #35992 -- Fixed migrations crash on UniqueConstrains/Indexes with CompositePrimaryKey in expressions.,felixxm,2024-12-10T20:46:37Z,2024-12-16T07:26:09+00:00,6,130.66,False,39,2,2,28,1,1,2,CLOSED
+18914,Fixed #35829 -- Updated admin icons using Font Awesome Free version 6.7.2.,pablobn,2024-12-10T18:27:29Z,2025-05-15T12:09:27+00:00,15,3737.7,True,325,147,23,410,14,9,23,MERGED
+18912,Clarified feature freeze tasks in docs/internals/howto-release-django.txt.,nessita,2024-12-10T17:30:01Z,2025-01-23T14:28:05+00:00,11,1052.97,True,120,73,1,146,1,8,9,MERGED
+18911,Fixed #35969 -- Disallowed specifying a USING clause for altered gene…,lufafajoshua,2024-12-10T11:46:57Z,2024-12-17T10:27:26+00:00,2,166.67,True,33,0,2,581,0,0,0,MERGED
+18910,Fixed #35993 -- Replaced outdated information on gettext f-string support.,wolfskaempf,2024-12-10T09:53:25Z,2025-04-06T10:38:50+00:00,3,2808.76,False,2,1,1,754,15,0,15,CLOSED
+18909,Fixed #36088 -- Avoided unnecessary DEFAULT usage on bulk_create().,charettes,2024-12-10T00:04:12Z,2025-02-01T18:32:47+00:00,10,1290.48,True,91,22,6,784,6,6,12,MERGED
+18908,Fixed #22977 -- Added system check for clashing managers and reverse related fields.,ajosephau,2024-12-09T19:56:56Z,2025-03-18T14:47:53+00:00,3,2370.85,False,48,0,3,790,2,3,5,CLOSED
+18907,Fixed #35989 -- Removed crs from GeoJSON serializer.,jhthompson,2024-12-09T17:56:41Z,2024-12-11T09:45:47+00:00,6,39.82,True,3,6,3,668,0,1,1,MERGED
+18906,Fixed #35988 -- Made BaseForm.full_clean() pass renderer to ErrorDict.,adamchainz,2024-12-09T11:18:01Z,2024-12-10T11:13:45+00:00,1,23.93,True,17,1,2,486,0,0,0,MERGED
+18905,Fixed #35987 -- Made ErrorList.copy() copy the renderer attribute.,adamchainz,2024-12-09T10:55:20Z,2024-12-10T11:14:53+00:00,6,24.33,True,47,0,3,1055,0,2,2,MERGED
+18904,Removed unused and unnecessary words from docs/spelling_wordlist.,felixxm,2024-12-09T05:22:54Z,2024-12-09T08:34:18+00:00,1,3.19,True,0,27,1,76,2,0,2,MERGED
+18901,Added missing GeometryDistance to the GIS available functions table.,franciscouzo,2024-12-08T19:31:07Z,2024-12-09T08:36:18+00:00,2,13.09,True,1,0,1,624,0,0,0,MERGED
+18900,Refs #35842 -- Fixed test_lookups_special_chars_double_quotes on SQLite 3.47+.,laymonage,2024-12-08T19:22:47Z,2024-12-16T11:34:27+00:00,3,184.19,True,10,4,1,679,1,2,3,MERGED
+18897,Fixed #35414 -- Used default headers in AsyncRequestFactory.,YashRaj1506,2024-12-07T11:59:01Z,2025-01-03T07:41:34+00:00,3,643.71,True,15,0,2,1125,3,1,4,MERGED
+18895,Fixed #35982 -- Made DecimalField.get_db_prep_value() call DatabaseOperations.adapt_decimalfield_value().,timgraham,2024-12-07T01:49:59Z,2024-12-09T08:46:07+00:00,3,54.94,True,21,15,7,35,1,1,2,MERGED
+18894,Fixed #35881 -- MultiWidget bypasses subwidget rendering customization,sschauk,2024-12-06T23:33:03Z,2024-12-08T20:06:38+00:00,1,44.56,False,1120,5167,154,873,2,0,2,CLOSED
+18891,Fixed #35980 -- Updated setuptools to produce normalized package names.,ngnpope,2024-12-06T18:38:11Z,2025-04-03T15:37:05+00:00,3,2828.98,True,1,1,1,668,9,0,9,MERGED
+18890,Fixed #36023 -- Updated content_disposition_header to handle control chars.,alexmv,2024-12-06T15:52:10Z,2025-01-07T08:22:09+00:00,5,760.5,True,11,1,2,581,2,1,3,MERGED
+18889,Fixed #35904 -- Added bulk create and forced insertion options to loaddata command,JorisBenschop,2024-12-05T14:57:41Z,2024-12-19T09:39:59+00:00,9,330.7,False,992,11,6,144,0,12,12,CLOSED
+18888,Fixed #35973 -- Improved makemessages locale validation to handle num…,jpmallarino,2024-12-05T13:46:01Z,2024-12-09T07:32:11+00:00,3,89.77,True,10,1,2,1102,0,0,0,MERGED
+18887,Refs #373 -- Fixed CompositePrimaryKey tests if yaml isn't installed.,sarahboyce,2024-12-05T08:13:21Z,2024-12-05T09:23:34+00:00,1,1.17,True,8,1,1,4,0,0,0,MERGED
+18883,Refs #35653 Clarified documentation of EMAIL_SSL_CERTFILE and EMAIL_SSL_KEYFILE.,dbIgel,2024-12-04T08:55:21Z,2025-01-21T22:34:23+00:00,11,1165.65,True,20,5,1,587,3,1,4,MERGED
+18882,feat: add migrations management in django/core/command,VincentAdamNemessisX,2024-12-04T06:23:25Z,2024-12-04T09:43:23+00:00,1,3.33,False,128,0,1,538,1,0,1,CLOSED
+18880,Refs #21286 -- Enabled ImageField data in serializer data tests.,adamzap,2024-12-03T03:21:09Z,2024-12-03T14:15:16+00:00,2,10.9,True,6,3,2,1165,2,1,3,MERGED
+18878,Fixed #34533 -- OuterRef not resolved as part of ORDER BY clause,AyushKhatri-Dev,2024-12-02T18:34:46Z,2025-05-13T16:24:02+00:00,4,3885.82,False,61,1,3,712,7,10,17,CLOSED
+18877,"Fixed #34624 -- Removed change, delete, and view buttons for non-Select widgets in RelatedFieldWidgetWrapper.",JaeHyuckSa,2024-12-02T13:26:32Z,2025-08-29T06:38:12+00:00,7,6473.19,True,23,6,3,501,7,2,9,MERGED
+18875,Fixed #35964 -- Remove unnecessary calls and fix dictionary key order in Formset document examples can_order and can_delete.,Antoliny0919,2024-12-02T07:37:31Z,2024-12-02T11:56:46+00:00,1,4.32,True,4,6,1,529,0,0,0,MERGED
+18874,Refs #373 -- Simplified DatabaseIntrospection.get_constraints() tests for composite primary keys.,felixxm,2024-12-01T20:00:08Z,2024-12-02T10:03:42+00:00,2,14.06,True,11,50,1,70,0,0,0,MERGED
+18873,The patch for XSS vulnerabilty in BaseModelAdmin.get_empty_value_display(),nhienit2010,2024-12-01T14:58:21Z,2024-12-02T00:14:19+00:00,1,9.27,False,3,3,1,1023,1,0,1,CLOSED
+18872,[4.2.x] Refs CVE-2024-11168 -- Updated vendored _urlsplit() to properly validate IPv6 and IPvFuture addresses.,felixxm,2024-12-01T11:46:42Z,2024-12-03T08:50:11+00:00,5,45.06,True,60,0,2,227,2,1,3,MERGED
+18871,Refs #32819 -- Added id to ErrorList class and template.,smithdc1,2024-12-01T07:55:42Z,2024-12-05T09:24:39+00:00,7,97.48,True,91,59,10,585,0,5,5,MERGED
+18869,Fixed 26022001 -- Added a shortcut function to make toast,shadowfaxx1,2024-11-30T15:12:20Z,2024-11-30T17:49:37+00:00,2,2.62,False,23,0,5,493,0,1,1,CLOSED
+18867,Fixed #35931 -- Document fields and methods of the FlatPage model,Koressi,2024-11-30T00:04:15Z,2025-04-27T14:10:35+00:00,10,3566.11,True,68,8,1,678,3,10,13,MERGED
+18866,Refs #373 -- Fixed CompositePKChecksTests.test_composite_pk_cannot_include_generated_field() test on databases with no GeneratedField support.,felixxm,2024-11-29T20:39:31Z,2024-12-02T07:37:53+00:00,3,58.97,True,6,4,1,0,2,0,2,MERGED
+18862,Fixed grammar issues in the fixtures docs.,boxed,2024-11-29T07:59:55Z,2024-12-03T00:54:48+00:00,2,88.91,True,13,16,1,199,4,1,5,MERGED
+18860,Fixed #35950 -- Restored refreshing of relations when fields deferred.,adamchainz,2024-11-28T12:15:23Z,2024-12-02T15:01:37+00:00,5,98.77,True,31,9,4,505,3,3,6,MERGED
+18859,Refactored tests.serializers.test_data.,sarahboyce,2024-11-28T11:09:44Z,2024-12-02T07:35:56+00:00,13,92.44,True,90,77,1,99,5,6,11,MERGED
+18858, Refs #35888 -- Used CSS mask-image property for admin icons.,blulady,2024-11-27T23:06:17Z,2024-11-29T20:04:01+00:00,8,44.96,False,53,17,2,716,6,8,14,CLOSED
+18857,Fixed #35940 -- Disabled SelectFilter add/remove buttons when appropriate.,BSmick6,2024-11-27T21:24:49Z,2025-01-09T07:18:29+00:00,2,1017.89,True,103,52,7,719,7,0,7,MERGED
+18855,"Added stub release notes and release date for 5.1.4, 5.0.10, and 4.2.17.",sarahboyce,2024-11-27T13:31:07Z,2024-11-27T14:41:18+00:00,1,1.17,True,21,2,4,0,0,0,0,MERGED
+18854,Fixed #35944 -- Handled serialization of Unicode values in ArrayField and HStoreField.,olegsv,2024-11-27T10:01:49Z,2024-12-05T14:31:52+00:00,1,196.5,True,69,29,4,637,0,0,0,MERGED
+18852,Fixed #35942 -- Fixed createsuperuser management command crash on Python 3.13+.,tweekmonster,2024-11-26T05:49:21Z,2024-11-26T20:15:00+00:00,9,14.43,True,15,5,3,1682,1,1,2,MERGED
+18851,Fixed #35939 -- Simplified and linked documentation for the Permission.content_type attribute.,BSmick6,2024-11-26T01:13:36Z,2024-11-27T11:34:49+00:00,3,34.35,True,2,2,1,608,1,1,2,MERGED
+18850,Fixed #35493 -- Allowed template self-inclusion with ./ and ../.,BSmick6,2024-11-25T21:06:32Z,2024-12-06T09:44:10+00:00,1,252.63,True,55,12,3,1111,2,0,2,MERGED
+18848,Fixed #25582 -- Added support for query and fragment to django.urls.reverse.,benbacardi,2024-11-25T14:22:11Z,2024-12-11T19:40:30+00:00,10,389.31,True,136,6,5,451,6,7,13,MERGED
+18847,Fixed #35936 -- Used unnest for bulk inserts on Postgres when possible. ,charettes,2024-11-25T03:13:42Z,2024-12-11T12:56:19+00:00,16,393.71,True,94,4,4,68,3,11,14,MERGED
+18846,Fixed #35935 -- Colorized system checks when running sqlmigrate.,jacobtylerwalls,2024-11-24T22:06:07Z,2024-12-09T07:31:25+00:00,3,345.42,True,37,6,2,590,0,1,1,MERGED
+18845,Refs #35842 -- Fixed handling of quotes in JSONField key lookups on Oracle.,laymonage,2024-11-24T20:25:04Z,2024-12-03T10:19:56+00:00,11,205.91,True,76,4,3,3135,3,5,8,MERGED
+18843,Removed trailing whitespace in docs.,adamzap,2024-11-24T04:54:36Z,2024-11-27T16:13:28+00:00,2,83.31,True,7,7,6,526,6,1,7,MERGED
+18842,Added missing backticks to class-based views docs.,adamzap,2024-11-24T04:43:00Z,2024-11-26T20:10:41+00:00,3,63.46,True,1,1,1,463,0,0,0,MERGED
+18841,Fixed #35915 -- Clarified the empty list case in QueryDict.__getitem__() docs.,jburns6789,2024-11-23T22:25:30Z,2024-12-02T10:11:05+00:00,5,203.76,True,11,2,1,541,5,1,6,MERGED
+18840,Refs #33735 -- Captured stderr during ASGITest.test_file_response.,jacobtylerwalls,2024-11-23T21:45:19Z,2024-11-27T10:00:09+00:00,3,84.25,True,3,1,1,856,0,0,0,MERGED
+18839,Fixed #35920 -- Observed requires_system_checks in migrate and runserver.,jacobtylerwalls,2024-11-23T20:12:55Z,2024-12-11T16:25:49+00:00,8,428.21,True,115,24,7,1066,3,7,10,MERGED
+18838,"Removed trailing comma from the first ""index"" view example from tutorial 03 for consistency",ulgens,2024-11-23T10:27:14Z,2024-12-06T11:53:54+00:00,1,313.44,True,1,3,1,1316,0,0,0,MERGED
+18837,Fixed #35925 -- FilteredSelectMultiple filter icon missing padding in RTL,AyushKhatri-Dev,2024-11-23T10:25:40Z,2024-11-29T15:37:04+00:00,7,149.19,True,1,14,3,645,0,5,5,MERGED
+18834,Ticket_#3519 QueryDict method doc string update.,jburns6789,2024-11-20T22:19:47Z,2024-11-23T22:22:49+00:00,3,72.05,False,5,5,1,639,7,2,9,CLOSED
+18831,Fixed #35921 -- Fixed failure when running tests in parallel on postgres.,jacobtylerwalls,2024-11-20T14:09:02Z,2024-11-27T11:51:41+00:00,3,165.71,True,1,1,1,844,0,0,0,MERGED
+18827,Fixed #35918 -- Added support for SQLCompiler.execute_sql() to return row count.,rtpg,2024-11-19T05:09:43Z,2025-01-03T14:07:02+00:00,16,1088.96,True,39,35,4,979,1,10,11,MERGED
+18824,Refs #35844 -- Fixed copying BaseContext and its subclasses on Python 3.14+.,felixxm,2024-11-17T15:56:28Z,2024-11-18T15:05:37+00:00,3,23.15,True,11,1,2,4678,0,0,0,MERGED
+18823,Fixed #28041 -- Added Lexeme expression to contrib.postgres.search.,GappleBee,2024-11-17T14:20:14Z,2025-09-16T19:09:11+00:00,60,7276.82,True,423,1,4,477,15,74,89,MERGED
+18820,Fixed #35913 -- Prevented formset name suffix 'FormFormSet'.,Antoliny0919,2024-11-17T02:31:59Z,2024-11-20T10:36:33+00:00,4,80.08,True,12,1,2,552,0,1,1,MERGED
+18819,Fixed typo in docs/topics/performance.txt.,cahogan,2024-11-16T18:43:39Z,2024-11-18T14:12:42+00:00,2,43.48,True,1,1,1,619,0,0,0,MERGED
+18818,Fixed #34856 -- Fixed references to index_together in historical migrations.,charettes,2024-11-16T15:48:02Z,2024-12-16T13:05:35+00:00,1,717.29,False,53,8,3,670,7,0,7,CLOSED
+18817,Refs #32339 -- Updated default formset rendering is as_div in formset docs.,Antoliny0919,2024-11-16T02:18:01Z,2024-11-18T15:59:33+00:00,5,61.69,True,5,4,1,185,0,1,1,MERGED
+18816,Fixed #35791 -- Updated icon button dimensions to ensure size of 24x24 pixels,tainarapalmeira,2024-11-15T15:59:33Z,2024-11-29T07:31:06+00:00,2,327.53,True,55,121,10,886,7,0,7,MERGED
+18815,"Made cosmetic edits to 5.2 release notes, including line wrapping at 79 cols.",nessita,2024-11-15T13:17:52Z,2024-11-16T02:30:47+00:00,3,13.22,True,19,22,1,214,3,1,4,MERGED
+18813,Updated docs examples to use relative imports,e11bits,2024-11-15T07:51:21Z,2024-12-08T09:53:13+00:00,26,554.03,False,163,111,26,716,11,22,33,CLOSED
+18812,Fixed typo in performance.txt.,cahogan,2024-11-15T02:55:21Z,2024-11-16T13:28:36+00:00,1,34.55,False,1,1,1,542,4,0,4,CLOSED
+18811,Added Django Commons as maintainers of debug toolbar.,tim-schilling,2024-11-14T16:14:44Z,2024-11-19T11:01:20+00:00,5,114.78,True,6,5,1,789,0,1,1,MERGED
+18810,Enabled fail_on_warning on RTD builds.,smithdc1,2024-11-14T13:32:31Z,2024-11-27T18:20:49+00:00,3,316.81,True,4,4,2,202,8,0,8,MERGED
+18808,Fixed #35908 - Retired django-developers and django-users mailing list.,chaitanyarahalkar,2024-11-14T03:28:29Z,2025-02-05T12:18:24+00:00,5,2000.83,False,40,92,11,1852,2,8,10,CLOSED
+18807,Fixed #17430 -- Documented access to the Django admin when using a custom auth backend.,mariahynes,2024-11-13T20:29:51Z,2024-11-14T09:29:33+00:00,1,12.99,True,11,7,1,1440,0,0,0,MERGED
+18806,Fixed typo in docs/howto/static-files/deployment.txt,input,2024-11-13T19:31:31Z,2024-11-14T08:46:35+00:00,4,13.25,True,1,1,1,21,0,0,0,MERGED
+18803,Fixed #35892 -- Supported Widget.use_fieldset in admin forms,sai-ganesh-03,2024-11-13T07:44:38Z,2025-08-04T08:30:34+00:00,2,6336.77,False,18,0,4,502,1,2,3,CLOSED
+18800,Replaced message suggestions from IRC to Discord in contributing docs.,AfiMaameDufie,2024-11-12T21:38:28Z,2024-11-14T10:36:20+00:00,5,36.96,True,9,5,3,662,1,4,5,MERGED
+18799,Refs #21286 -- Enabled TextField primary key serializer test data.,adamzap,2024-11-12T14:22:13Z,2024-11-28T10:45:34+00:00,14,380.39,True,19,6,2,790,2,4,6,MERGED
+18797,Refs #17430 -- added extra context to documentation.,mariahynes,2024-11-12T09:19:49Z,2024-11-13T19:40:47+00:00,1,34.35,False,0,0,0,1265,1,0,1,CLOSED
+18796,"Fixed #35903 -- Made admin's ""view on site"" URL accept non-integer ContentType pks.",timgraham,2024-11-11T14:29:40Z,2024-11-11T15:53:31+00:00,1,1.4,True,14,1,2,43,0,0,0,MERGED
+18795,Fixed #35815 -- Made system check accept db_default literals when DatabaseFeatures.supports_expression_defaults = False.,timgraham,2024-11-11T13:31:00Z,2024-11-11T15:05:09+00:00,2,1.57,True,21,1,2,43,0,0,0,MERGED
+18794,Fixed typo in django/db/backends/sqlite3/features.py.,felixxm,2024-11-11T08:45:44Z,2024-11-11T11:21:51+00:00,2,2.6,True,1,1,1,241,0,0,0,MERGED
+18792,Refs #21286 -- Fixed YAML serialization of TimeField primary key.,adamzap,2024-11-10T03:38:57Z,2024-11-12T12:23:14+00:00,4,56.74,True,11,9,3,1290,1,2,3,MERGED
+18791,re create postgres extensions on test db when --no-migrations is enabled,wadhah101,2024-11-09T23:59:48Z,2024-11-10T17:38:22+00:00,1,17.64,False,26,0,1,727,2,0,2,CLOSED
+18790,Refs #32365 -- Removed pytz from list of test dependencies in unit test docs.,felixxm,2024-11-09T19:03:56Z,2024-11-11T11:24:21+00:00,3,40.34,True,0,1,1,21,0,0,0,MERGED
+18788,add custom exception detail in get_object_or_404,ebottos94,2024-11-09T13:21:47Z,2024-11-09T19:11:06+00:00,4,5.82,False,6,4,1,132,2,1,3,CLOSED
+18787,Refs #35849 -- Skipped ParallelTestSuiteTest.test_handle_add_error_before_first_test() without tblib.,felixxm,2024-11-08T21:09:24Z,2024-11-11T11:31:48+00:00,1,62.37,True,12,17,1,27,2,0,2,MERGED
+18786,Improved GEOS error messages and tests.,smithdc1,2024-11-08T10:02:36Z,2025-07-22T01:23:29+00:00,3,6135.35,True,851,685,10,285,0,3,3,MERGED
+18785,Fixed #35897 -- Removed unnecessary escaping in template's get_exception_info().,vanschelven,2024-11-08T09:01:46Z,2024-11-28T14:53:31+00:00,1,485.86,True,29,8,3,886,0,0,0,MERGED
+18783,Fixed #17905 -- Restricted access to model pages in admindocs to users with permissions.,sai-ganesh-03,2024-11-07T10:44:38Z,2024-11-11T15:56:03+00:00,4,101.19,True,143,7,4,525,0,8,8,MERGED
+18782,Fixed #35886 -- Moved object-based Script media assets to the public API,codingjoe,2024-11-07T09:24:59Z,2025-01-02T12:08:13+00:00,30,1346.72,True,211,94,4,5441,4,19,23,MERGED
+18781,Updated validate_slug regular expression in form validation docs.,Antoliny0919,2024-11-07T00:52:11Z,2024-11-11T13:50:14+00:00,2,108.97,True,1,1,1,303,0,0,0,MERGED
+18778,Fixed #35900 -- `staticfiles`: Made `staticfiles.json` location unguessable for security.,hartwork,2024-11-06T17:56:17Z,2024-11-12T09:58:48+00:00,6,136.04,False,15,2,2,1583,5,2,7,CLOSED
+18774,"Fixed #35889 -- Corrected reference of defaults widgets in ""Styling widget instance"" docs.",Antoliny0919,2024-11-06T09:53:25Z,2024-11-06T12:07:29+00:00,1,2.23,True,8,8,1,547,0,0,0,MERGED
+18772,Removed misleading list of tested OS in GEOS API docs.,ajosephau,2024-11-06T07:54:58Z,2024-11-14T10:36:45+00:00,8,194.7,True,1,2,1,556,0,2,2,MERGED
+18770,Refs #23968 -- Removed unnecessary list comprehension in contrib.admin.helpers.,john-parton,2024-11-05T17:07:02Z,2024-11-07T12:37:59+00:00,2,43.52,True,1,1,1,891,2,0,2,MERGED
+18768,Removed definition of JSONObject ArgJoiner class in as_native() function.,sarahboyce,2024-11-05T11:36:20Z,2024-11-06T10:18:43+00:00,16,22.71,True,5,6,1,33,1,1,2,MERGED
+18767,Fixed typo in docs/internals/howto-release-django.txt.,felixxm,2024-11-05T11:16:53Z,2024-11-05T15:15:02+00:00,2,3.97,True,3,3,1,0,1,0,1,MERGED
+18766,Fixed #35887 -- Added imports and admin.site.register to non-partial admin inline doc examples.,e11bits,2024-11-05T06:43:51Z,2024-11-14T11:09:50+00:00,5,220.43,True,20,7,2,568,1,5,6,MERGED
+18765,Refs #26001 -- Handled relationship exact lookups in ModelAdmin.search_fields.,sarahboyce,2024-11-04T15:11:59Z,2024-11-05T08:06:15+00:00,1,16.9,True,47,29,3,77,4,0,4,MERGED
+18763,Updated instruction sentence on how to claim a ticket.,mariahynes,2024-11-04T09:09:31Z,2024-11-05T15:59:34+00:00,10,30.83,True,7,3,1,883,7,2,9,MERGED
+18762,Fixed #17461 -- Doc'd the presumed order of foreign keys on the intermediary model of a self-referential m2m.,cliff688,2024-11-04T08:47:11Z,2025-05-02T06:56:56+00:00,8,4294.16,True,42,3,2,607,0,5,5,MERGED
+18760,Fixed #35863 -- replaced bold text with heading level 3,blulady,2024-11-03T22:31:16Z,2024-11-06T17:09:39+00:00,7,66.64,False,102,88,1,748,3,6,9,CLOSED
+18759,Fixed #27409 -- Made admindocs support custom link text in docstrings.,sai-ganesh-03,2024-11-03T18:19:51Z,2024-11-06T13:39:19+00:00,5,67.32,True,60,3,5,539,2,8,10,MERGED
+18757,Removed outdated reference to removing old Django versions instructions.,cliff688,2024-11-03T09:16:51Z,2024-11-29T16:10:17+00:00,2,630.89,True,0,3,1,166,1,0,1,MERGED
+18756,Fixed broken link in django/core/handlers/asgi.py comment.,andersk,2024-11-03T01:45:55Z,2025-01-18T14:03:31+00:00,3,1836.29,True,2,2,1,0,0,1,1,MERGED
+18755,Fixed #35775 -- Confirmed support for GEOS 3.13.,smithdc1,2024-11-02T21:11:13Z,2024-11-19T15:14:16+00:00,3,402.05,True,2,1,1,105,6,0,6,MERGED
+18754,Fixed typo in some tests.,yatami38,2024-11-02T20:48:02Z,2024-11-11T13:47:04+00:00,3,208.98,True,2,2,2,0,0,0,0,MERGED
+18753,Fixed #35883 -- Confirmed support for GDAL 3.9.,smithdc1,2024-11-02T15:51:16Z,2024-11-04T08:24:17+00:00,3,40.55,True,10,5,3,162,1,2,3,MERGED
+18752,Fixed #35882 -- Made migration questioner loop on all errors.,adamchainz,2024-11-02T07:56:56Z,2024-11-18T14:15:44+00:00,5,390.31,True,26,4,2,777,1,1,2,MERGED
+18751,Fixed #35880 -- Removed invalid example in form Field.required docs due to CharField.strip.,Antoliny0919,2024-11-02T01:58:42Z,2024-11-05T14:33:14+00:00,5,84.58,True,0,2,1,535,0,1,1,MERGED
+18750,Updated BRIN index links in contrib.postgres indexes docs.,adamzap,2024-11-01T19:38:29Z,2024-11-11T13:49:24+00:00,2,234.18,True,2,2,1,560,0,0,0,MERGED
+18747,Fixed #35867 -- Allowed links in admindocs view details summary.,sai-ganesh-03,2024-10-31T14:25:23Z,2024-11-04T09:43:06+00:00,2,91.3,True,32,6,6,511,5,0,5,MERGED
+18745,Refs #373 -- Used a feature flag to disable composite subquery test on MySQL.,charettes,2024-10-31T13:08:18Z,2024-11-01T07:15:10+00:00,3,18.11,True,3,7,1,66,2,0,2,MERGED
+18743,"Fixed #35011, Refs #28900 -- Added tests for QuerySet.union() with multiple models and DateTimeField annotations.",jrief,2024-10-30T16:13:09Z,2024-11-08T12:16:45+00:00,4,212.06,True,37,1,1,682,1,2,3,MERGED
+18742,Fixed #34619 -- Ensured FilteredSelectMultiple elements were associated with their labels.,GappleBee,2024-10-30T10:34:21Z,2024-11-20T12:23:18+00:00,12,505.82,True,168,108,9,363,8,9,17,MERGED
+18741,Fixed #35876 -- Displayed non-ASCII fieldset names when rendering ModelAdmin.fieldsets.,sarahboyce,2024-10-30T08:30:16Z,2024-10-31T05:38:08+00:00,10,21.13,True,23,8,5,479,2,2,4,MERGED
+18740,Create Manager,atharvjain,2024-10-29T16:52:54Z,2024-10-29T19:51:43+00:00,1,2.98,False,1,0,1,539,1,0,1,CLOSED
+18738,Fixed #26220 -- Allowed ModelFormMixin to retrieve model from form_class.,cliff688,2024-10-29T07:31:53Z,2025-04-09T07:20:37+00:00,6,3887.81,False,111,27,8,138,5,3,8,CLOSED
+18737,Fixed #35873 -- Corrected Form.as_table() call in form docs.,Antoliny0919,2024-10-29T02:37:12Z,2024-10-30T09:25:01+00:00,2,30.8,True,1,1,1,515,10,0,10,MERGED
+18736,Fixed #35871 -- Corrected example on altering the base_fields attribute in forms docs.,Antoliny0919,2024-10-28T23:50:27Z,2024-10-29T07:39:10+00:00,1,7.81,True,2,2,1,550,0,0,0,MERGED
+18735,Fixed #35868 -- Removed unneeded AttributeError catching in collectstatic's delete_file().,pruszel,2024-10-28T22:43:08Z,2024-10-29T09:30:22+00:00,2,10.79,True,2,2,1,542,0,0,0,MERGED
+18734,Fixed #35864 -- Documented connection ignored with send_messages().,medmunds,2024-10-28T20:01:23Z,2024-10-30T10:20:53+00:00,4,38.33,True,9,6,1,570,1,2,3,MERGED
+18733,Refs #35844 -- Expanded compatibility for expected error messages in command tests on Python 3.12 and 3.13.,tainarapalmeira,2024-10-28T14:04:57Z,2024-10-29T21:06:28+00:00,5,31.03,True,8,18,2,806,1,2,3,MERGED
+18732, Refs #35581 -- Clarified and simplified some mail tests.,sarahboyce,2024-10-28T13:53:20Z,2024-10-29T10:13:27+00:00,1,20.34,True,123,212,1,251,0,0,0,MERGED
+18731,Refs #34900 -- Removed usage of deprecated glob.glob1().,earthyoung,2024-10-28T07:03:51Z,2024-10-28T13:10:12+00:00,7,6.11,True,1,1,1,43,3,2,5,MERGED
+18730,Corrected note on importing fields in model field reference docs.,aruseni,2024-10-27T19:53:57Z,2024-10-29T15:24:55+00:00,1,43.52,True,3,3,1,241,0,0,0,MERGED
+18729,Clarified that readonly_fields are also displayed when fields and fieldsets are not set on ModelAdmin.,aruseni,2024-10-27T19:39:46Z,2024-10-30T11:53:10+00:00,1,64.22,True,2,1,1,363,0,0,0,MERGED
+18728,Removed unneeded sentence on contributing page.,mariahynes,2024-10-27T11:46:18Z,2024-10-29T10:34:36+00:00,4,46.8,True,1,2,1,809,2,0,2,MERGED
+18727,Fixed #35869 -- Added explicit warning when AppConfig.create() can't choose from multiple subclasses of AppConfig.,narasux,2024-10-27T10:16:47Z,2024-11-11T01:55:10+00:00,1,351.64,False,23,3,2,642,2,0,2,CLOSED
+18726,Fixed typo in ref/models/fields.txt.,cliff688,2024-10-27T10:16:35Z,2024-10-29T10:17:37+00:00,3,48.02,True,1,1,1,0,0,0,0,MERGED
+18724,Fixed typo in docs/intro/tutorial05.txt.,cliff688,2024-10-26T15:40:53Z,2025-01-07T13:48:00+00:00,1,1750.12,True,1,1,1,0,1,0,1,MERGED
+18723,Fixed #35866 -- Clarified the internal Model style guide on the positioning of other Python magic methods.,maddrum,2024-10-26T12:01:29Z,2024-10-30T15:21:57+00:00,4,99.34,True,1,1,1,727,0,1,1,MERGED
+18722,Refs #35742 -- Used curly quote in add user form message.,claudep,2024-10-25T19:08:15Z,2024-10-26T09:51:25+00:00,1,14.72,True,1,1,1,0,0,0,0,MERGED
+18720,Activated Sphinx multi-process mode.,pauloxnet,2024-10-25T11:29:36Z,2024-11-27T21:15:26+00:00,2,801.76,True,2,1,1,878,2,0,2,MERGED
+18718,minor changes,idanieltao,2024-10-25T06:16:06Z,2024-10-25T07:32:19+00:00,1,1.27,False,0,0,1,32,0,0,0,CLOSED
+18716,Refs #35844 -- Corrected expected error messages in commands tests on Python 3.14+.,tainarapalmeira,2024-10-24T09:44:29Z,2024-10-25T11:30:11+00:00,6,25.76,True,17,6,3,703,2,2,4,MERGED
+18714,Improved the writing documentation page.,pauloxnet,2024-10-23T20:44:02Z,2024-10-25T14:35:35+00:00,9,41.86,True,37,12,1,489,2,2,4,MERGED
+18712,Used webbroswer module in docs Makefile.,pauloxnet,2024-10-23T20:27:26Z,2024-10-24T08:45:44+00:00,6,12.3,True,1,1,1,489,0,1,1,MERGED
+18710, Improved readability of triage workflow image by increasing its size and color contrast.,emmebravo,2024-10-23T19:30:03Z,2024-10-25T08:00:33+00:00,5,36.51,True,22,22,2,562,3,2,5,MERGED
+18707,Fixed #35856 -- Added QuerySet.explain() support for MEMORY/SERIALIZE option on PostgreSQL 17+.,ajosephau,2024-10-23T11:15:10Z,2024-10-30T14:54:48+00:00,14,171.66,True,29,1,5,618,1,5,6,MERGED
+18705,Added missing lang attributes to html element in docs.,JohananOppongAmoateng,2024-10-22T22:27:21Z,2024-10-30T13:02:30+00:00,3,182.59,True,4,4,3,531,4,0,4,MERGED
+18704,Updated solutions list on using REMOTE_USER how-to.,AfiMaameDufie,2024-10-22T21:24:28Z,2024-10-24T07:54:58+00:00,7,34.51,True,3,4,1,708,4,2,6,MERGED
+18701,Fixed example indentation in docs/howto/overriding-templates.txt.,felixxm,2024-10-22T09:10:55Z,2024-10-22T11:07:19+00:00,1,1.94,True,7,7,1,7,0,0,0,MERGED
+18700,fix #35858 (timezone): handle string inputs and warn against pytz usage in make_aware,Acture,2024-10-22T08:04:35Z,2024-10-22T10:18:14+00:00,1,2.23,False,55,0,2,1038,1,0,1,CLOSED
+18699,Ticket #35831 Include ModelForm and its Meta options in reference docs,jernwerber,2024-10-22T06:28:14Z,2025-08-22T09:40:15+00:00,25,7299.2,False,254,10,2,819,5,36,41,CLOSED
+18698,when creating a new branch,dheli1525,2024-10-21T19:22:00Z,2024-10-21T21:09:13+00:00,2,1.79,False,1,1,1,539,0,1,1,CLOSED
+18696,modified-inline-remove-button-35791,rohanyadav9,2024-10-19T14:45:06Z,2024-11-14T10:01:26+00:00,1,619.27,False,3,3,2,548,1,0,1,CLOSED
+18695,Fixed #35849 -- Made ParallelTestSuite report correct error location.,dcki,2024-10-19T06:15:05Z,2024-11-06T16:14:41+00:00,14,441.99,True,166,14,3,2849,7,5,12,MERGED
+18694,Added an alt attribute to an img for accessibility.,blulady,2024-10-19T01:21:41Z,2024-10-22T12:21:06+00:00,2,82.99,False,1,1,1,513,1,0,1,CLOSED
+18692,Fixed typo in docs/intro/reusable-apps.txt.,felixxm,2024-10-18T19:24:41Z,2024-10-21T17:20:04+00:00,1,69.92,True,1,1,1,56,0,0,0,MERGED
+18690,Fixed #35843 -- Simplified explanation of formsets iteration behavior.,cliff688,2024-10-18T09:35:55Z,2024-11-13T18:14:17+00:00,10,632.64,True,4,7,1,637,7,2,9,MERGED
+18689,"Fixed #18392 -- Changed default mysql encoding to ""utf8mb4"".",bcail,2024-10-17T20:35:02Z,2024-11-18T14:00:33+00:00,4,761.43,True,28,35,6,549,9,4,13,MERGED
+18688,Fixed #28999 -- Documented how to reverse a class-based view by instance.,cliff688,2024-10-17T17:50:51Z,2024-10-23T13:37:56+00:00,6,139.78,True,42,2,4,621,3,3,6,MERGED
+18687,"Refactored Django Admin for Group and User models: improved readability, performance, and security.",cap1k0,2024-10-16T23:22:49Z,2024-10-17T05:35:11+00:00,1,6.21,False,48,142,1,1784,0,0,0,CLOSED
+18686,Refs #35844 -- Added Python 3.14 to daily builds.,felixxm,2024-10-16T18:41:40Z,2024-10-17T01:19:17+00:00,1,6.63,True,3,2,2,12,0,0,0,MERGED
+18685,Refs #35844 -- Fixed tests for test --parallel option on Python 3.14+.,felixxm,2024-10-16T18:28:10Z,2024-10-24T14:41:40+00:00,2,188.22,True,6,0,2,227,3,0,3,MERGED
+18684,Fixed #35845 -- Updated DomainNameValidator to require entire string to be a valid domain name.,justin-thurman,2024-10-16T13:53:17Z,2024-10-17T14:45:44+00:00,7,24.87,True,22,6,3,647,6,2,8,MERGED
+18683,Fixed #35667 -- Improved deprecation warning handling by replacing `stacklevel` with `skip_file_prefixes`. ,JaeHyuckSa,2024-10-16T11:10:49Z,2025-09-19T15:31:25+00:00,5,8116.34,False,70,3,3,881,8,3,11,CLOSED
+18682,Fixed #35731 -- Extend documentation about db_default and DatabaseDefault.,YashRaj1506,2024-10-16T09:11:26Z,2024-10-23T09:48:30+00:00,18,168.62,True,14,0,2,563,5,7,12,MERGED
+18680,Refs #35844 -- Used asgiref.sync.iscoroutinefunction() instead of deprecated asyncio.iscoroutinefunction().,felixxm,2024-10-16T06:25:16Z,2024-10-17T13:15:12+00:00,3,30.83,True,6,7,2,164,1,0,1,MERGED
+18677,Fixed #35841 -- Re-enabled support for DB-IP databases in GeoIP2.,ngnpope,2024-10-15T16:11:01Z,2024-10-18T00:40:53+00:00,4,56.5,True,130,70,13,1118,2,1,3,MERGED
+18675,Fixed #26322 -- Updated lazy model reference section of fields docs.,cliff688,2024-10-14T19:45:24Z,2024-10-17T14:39:40+00:00,22,66.9,True,127,68,1,554,0,10,10,MERGED
+18674,Refs #373 -- Added TupleIn subqueries.,csirmazbendeguz,2024-10-14T17:33:34Z,2024-11-04T08:20:54+00:00,9,494.79,True,79,3,2,1336,12,4,16,MERGED
+18673,Refs #35782 -- Documented the `get_help_text` methods in password validators.,bcail,2024-10-14T13:16:35Z,2024-10-15T10:48:45+00:00,1,21.54,True,20,0,1,520,0,0,0,MERGED
+18672,Fixed #35837 -- Added missing alters_data=True to QuerySet and UserManager methods.,sarahboyce,2024-10-14T12:00:36Z,2024-11-01T10:43:49+00:00,5,430.72,True,70,1,4,539,1,3,4,MERGED
+18669,Made docs on urlresolver reverse() more self-contained.,cliff688,2024-10-12T14:56:46Z,2024-11-27T18:26:15+00:00,1,1107.49,True,2,2,1,92,0,0,0,MERGED
+18667,Fixed #28696 -- Added GeometryType GIS database function and __geom_type lookup.,LeOndaz,2024-10-12T04:42:23Z,2025-07-20T12:16:03+00:00,9,6751.56,True,192,54,9,652,26,14,40,MERGED
+18666,Fixed docs build on Sphinx 8.1+.,felixxm,2024-10-11T11:55:04Z,2024-10-11T15:14:02+00:00,1,3.32,True,5,1,1,217,0,0,0,MERGED
+18665,Fixed #35998 -- Added caching to django.utils.html.urlize().,sarahboyce,2024-10-11T11:44:44Z,2025-01-14T16:59:32+00:00,9,2285.25,True,45,6,2,539,1,6,7,MERGED
+18663,Fixed typo in docs/releases/5.2.txt.,felixxm,2024-10-09T18:51:14Z,2024-10-10T07:13:13+00:00,1,12.37,True,18,18,1,0,0,0,0,MERGED
+18661,Fixed docstring for django.core.exceptions module,bmispelon,2024-10-09T09:35:58Z,2024-10-10T07:17:21+00:00,1,21.69,True,1,1,1,576,1,0,1,MERGED
+18658,Fixed #35612 -- Added security reporting guidelines.,sarahboyce,2024-10-08T07:00:07Z,2024-10-11T08:53:12+00:00,19,73.88,True,35,0,1,265,3,16,19,MERGED
+18657,Refs #34900 -- Confirmed Python 3.13 compatibility. ,felixxm,2024-10-08T06:20:20Z,2024-10-09T07:27:33+00:00,7,25.12,True,23,19,12,12,3,1,4,MERGED
+18656,Fixed #35809 -- Set background color for selected rows in the admin's form select widget.,nessita,2024-10-07T14:31:33Z,2024-10-08T13:01:28+00:00,7,22.5,True,67,0,3,746,2,4,6,MERGED
+18654,Fixed #35807 -- Mentioned async case for internal get/set urlconf hel…,carltongibson,2024-10-07T08:08:45Z,2024-10-07T09:17:11+00:00,1,1.14,True,5,4,1,311,0,0,0,MERGED
+18653,Fixed #35789 -- Added more clear error message,ekinertac,2024-10-06T12:33:32Z,2024-10-10T10:21:02+00:00,7,93.79,True,21,3,2,358,1,2,3,MERGED
+18652,"Fixed #35795 -- Updated ""Delete"" button semantics and accessibility",j-the-ripper,2024-10-05T09:38:55Z,2024-10-17T12:23:29+00:00,7,290.74,True,8,8,3,605,4,1,5,MERGED
+18650,Create woody,shubhsim7079,2024-10-04T09:56:27Z,2024-10-04T12:05:36+00:00,1,2.15,False,1,0,1,539,0,0,0,CLOSED
+18648,Bumped PostgreSQL to 17 in scheduled tests workflow.,nessita,2024-10-03T18:23:51Z,2024-10-03T20:49:02+00:00,2,2.42,True,2,2,1,0,0,0,0,MERGED
+18647,[5.1.x] Updated translations from Transifex.,nessita,2024-10-03T18:04:51Z,2024-10-07T20:35:43+00:00,1,98.51,True,1903,938,87,92,4,0,4,MERGED
+18645,Refs #22997 -- Prevented requesting a default value for ID field.,bcail,2024-10-02T21:12:15Z,2025-02-06T12:53:43+00:00,1,3039.69,True,30,0,2,542,0,0,0,MERGED
+18643,Reindented attributes and methods for classes in docs/ref/middleware.txt.,nessita,2024-10-02T14:24:12Z,2024-10-02T17:21:10+00:00,1,2.95,True,35,37,1,617,2,0,2,MERGED
+18641,Fixed #35804 -- Removed unused rules for ul.tools from admin CSS.,userAdityaa,2024-10-01T20:41:16Z,2024-10-07T10:05:53+00:00,2,133.41,True,0,13,2,780,0,0,0,MERGED
+18638,Refs #33783 -- Added IsEmpty GIS database function and __isempty lookup on SpatiaLite.,smithdc1,2024-09-29T16:02:44Z,2025-09-23T02:04:42+00:00,15,8602.03,True,36,7,7,708,4,7,11,MERGED
+18635,Fixed #35789 -- Improve non-first {% extends %} error message.,nabil-rady,2024-09-28T20:42:26Z,2024-10-08T14:12:43+00:00,1,233.5,False,2,1,1,523,1,0,1,CLOSED
+18634,Fixed #35799 -- Fixed positioning of icon in RTL,tataraba,2024-09-28T16:41:31Z,2024-10-08T10:39:55+00:00,2,233.97,True,2,4,2,572,0,0,0,MERGED
+18633,Fixed #35792 -- Updated the _get_group_permissions method of ModelBackend.,BonaFideIT,2024-09-28T09:37:48Z,2024-10-09T14:14:32+00:00,2,268.61,True,1,3,1,560,3,0,3,MERGED
+18631,"Fixed #35803 -- Added support for Collect, GeoHash, IsValid, and __coveredby lookup on MariaDB 11.7+.",felixxm,2024-09-27T20:47:11Z,2024-10-25T05:55:55+00:00,16,657.15,True,106,63,5,170,5,4,9,MERGED
+18630,Update docs.yml,pauloxnet,2024-09-27T16:29:25Z,2024-11-27T19:41:18+00:00,1,1467.2,False,2,2,1,826,5,0,5,CLOSED
+18629,Fixed #35797 -- Removed debug context processor from project template.,marcgibbons,2024-09-27T14:42:44Z,2024-09-30T19:52:28+00:00,5,77.16,True,3,6,6,709,2,1,3,MERGED
+18628,Fixed #35952 -- Used class property for available apps check on `TransactionTestCase`,RealOrangeOne,2024-09-27T13:14:52Z,2024-12-04T08:36:40+00:00,3,1627.36,True,4,2,1,774,2,1,3,MERGED
+18627,Fixed #35859 -- Implement Tasks interface as per DEP 14,RealOrangeOne,2024-09-27T10:32:24Z,2025-09-16T20:28:32+00:00,185,8505.94,True,3094,0,29,1277,8,136,144,MERGED
+18626,Restructured how-to landing page,evildmp,2024-09-27T10:03:18Z,2024-10-22T18:10:26+00:00,2,608.12,True,50,22,1,438,0,0,0,MERGED
+18625,Refs #35734 -- Updated PostgreSQL version in daily tests to 17.,JaeHyuckSa,2024-09-27T04:02:52Z,2024-10-09T19:04:28+00:00,1,303.03,False,1,1,1,682,1,0,1,CLOSED
+18624,Fixed #35791 -- Modified Inline remove buttons.,evananyonga,2024-09-26T19:14:03Z,2024-11-05T10:15:42+00:00,1,951.03,False,3,3,2,776,3,1,4,CLOSED
+18623,Refs #373 -- Added additional validations to tuple lookups.,csirmazbendeguz,2024-09-26T16:05:25Z,2024-10-14T12:51:57+00:00,7,428.78,True,139,7,2,545,1,7,8,MERGED
+18622,Fixed #35778 -- Used JSON_OBJECT database function on PostgreSQL 16+ with server-side bindings.,john-parton,2024-09-26T15:54:09Z,2024-11-06T12:48:22+00:00,4,980.9,True,23,18,1,1015,5,2,7,MERGED
+18620,Fixed #35782 -- Allowed overriding password validation error messages.,bcail,2024-09-26T14:34:26Z,2024-10-15T15:23:39+00:00,18,456.82,True,131,18,4,585,2,8,10,MERGED
+18619,Renamed local variables in CsrfViewMiddleware._origin_verified() for clarity.,vanschelven,2024-09-25T12:01:40Z,2025-09-15T18:03:43+00:00,2,8526.03,True,4,4,1,1021,3,0,3,MERGED
+18618,Updated sign() outputs in Cryptographic signing docs.,felixxm,2024-09-25T06:55:59Z,2024-09-25T17:52:18+00:00,2,10.94,True,10,10,1,69,1,0,1,MERGED
+18617,Fixed #22828 -- Documented ModelAdmin getters returning class attributes.,Koressi,2024-09-25T02:27:23Z,2024-10-24T07:18:55+00:00,5,700.86,True,21,0,1,673,6,6,12,MERGED
+18616,Fixed #35784 -- Extended HttpResponseRedirectBase to preserve the original HTTP method with status codes 307 and 308.,lorinkoz,2024-09-24T07:21:33Z,2024-11-14T18:53:49+00:00,23,1235.54,True,114,10,7,920,7,19,26,MERGED
+18615,Fixed #35502 Refactor startproject command in tutorial01.txt,Sahil390,2024-09-23T18:30:03Z,2024-09-24T09:15:44+00:00,1,14.76,False,1,1,1,560,2,0,2,CLOSED
+18614,Fixed #24529 -- Allow double squashing of migrations,georgi-yanchev,2024-09-23T15:54:51Z,2025-01-21T09:57:21+00:00,13,2874.04,False,353,38,14,929,8,13,21,CLOSED
+18613,Fixed #35449 -- Fixed validation issue with SplitArrayField when remove_trailing_nulls=True,GappleBee,2024-09-23T15:46:50Z,2024-10-07T13:36:57+00:00,9,333.84,True,17,1,2,412,2,1,3,MERGED
+18611,Fixed #35781 -- Modified DateField presave to hanlde timezones.,Mahmoud-yassen,2024-09-22T21:55:06Z,2024-09-22T23:15:58+00:00,1,1.35,False,23,2,3,3340,1,0,1,CLOSED
+18610,Fixed #35670 -- Clarified get_login_url() in LoginRequiredMiddleware docs.,userAdityaa,2024-09-21T21:30:30Z,2024-10-02T16:15:22+00:00,1,258.75,True,8,8,1,970,2,0,2,MERGED
+18609,fixed hypercorn URLs,amirreza8002,2024-09-21T06:25:11Z,2024-10-21T21:31:40+00:00,2,735.11,True,2,2,1,571,0,0,0,MERGED
+18608,Moved from_lookup method to super class.,OtherBarry,2024-09-21T04:18:04Z,2024-09-22T15:31:45+00:00,1,35.23,False,9,9,1,846,2,0,2,CLOSED
+18607,Made cosmetic edits to the Steering council docs.,sarahboyce,2024-09-20T14:40:41Z,2024-09-23T10:50:45+00:00,7,68.17,True,6,3,1,21,0,2,2,MERGED
+18606,Updated docs to use py <script.py> for running Python scripts in Windows.,cliff688,2024-09-20T12:03:33Z,2025-04-09T07:21:34+00:00,1,4819.3,False,3,3,1,1182,4,0,4,CLOSED
+18604,Refs #35766 -- Added a release note for BaseChoiceIterator slicing regression.,sarahboyce,2024-09-20T07:32:18Z,2024-09-20T14:49:29+00:00,1,7.29,False,3,0,1,389,1,0,1,CLOSED
+18600,Fixed #35776 -- Dropped support for GDAL 3.0.,smithdc1,2024-09-19T12:44:05Z,2024-09-19T15:26:30+00:00,1,2.71,True,6,7,3,576,0,0,0,MERGED
+18597,Fixed #35308 -- Caught and logged OSError when launching formatters.,jacobtylerwalls,2024-09-19T03:58:27Z,2024-11-29T12:04:48+00:00,13,1712.11,True,110,10,11,513,4,7,11,MERGED
+18596,Fixed #35095 -- Formatted the documentation for fixing the monetary values of Swiss (German),userAdityaa,2024-09-18T22:09:41Z,2024-12-18T22:22:40+00:00,5,2184.22,False,5,5,1,835,3,2,5,CLOSED
+18593,Fixed #35180 -- Recreated PostgreSQL _like indexes when changing between TextField and CharField field types.,bcail,2024-09-17T19:15:50Z,2024-10-31T05:37:14+00:00,4,1042.36,True,61,7,2,600,0,1,1,MERGED
+18592,Refs #35734 -- Added entry to scheduled tests workflow to test newer PostgreSQL versions.,nessita,2024-09-17T18:55:39Z,2024-09-19T13:37:13+00:00,3,42.69,True,48,0,2,408,0,1,1,MERGED
+18591,Updated link with valid options for LANGUAGE_CODE in global_settings.py.,c-ovanya,2024-09-17T15:03:32Z,2024-09-19T12:18:05+00:00,4,45.24,True,4,2,1,278,5,1,6,MERGED
+18590,Fixed #35766 -- Handled slices in BaseChoiceIterator.,sarahboyce,2024-09-17T10:43:18Z,2024-09-18T14:45:53+00:00,2,28.04,True,30,2,2,437,0,2,2,MERGED
+18587,Removed setting the release schedule from Steering Council prerogatives as per DEP 44.,sarahboyce,2024-09-16T08:22:27Z,2024-09-16T10:15:41+00:00,1,1.89,True,0,1,1,111,0,0,0,MERGED
+18586,Fixed #35762 -- Avoided unneeded quote_name() calls in SQLite introspection.,claudep,2024-09-16T06:52:35Z,2024-09-17T06:56:44+00:00,4,24.07,True,4,4,1,71,0,2,2,MERGED
+18585,Improved test for TokenType.COMMENT by using correct block syntax in template tests.,LilyFirefly,2024-09-15T20:55:23Z,2024-09-16T13:30:30+00:00,2,16.59,True,2,2,1,643,0,0,0,MERGED
+18584,Fixed #34221 -- Honored translation precedence with mixed plural forms.,claudep,2024-09-14T17:12:45Z,2024-09-16T09:04:09+00:00,1,39.86,True,48,6,2,0,0,0,0,MERGED
+18582,Fixed #34887 -- Added support for unlimited models.CharField on SQLite.,JaeHyuckSa,2024-09-13T11:12:44Z,2024-09-16T11:31:06+00:00,7,72.31,True,18,3,4,688,12,1,13,MERGED
+18580,Closed connection pool in clean up of test_allowed_database_copy_queries.,sarahboyce,2024-09-13T09:19:19Z,2024-09-13T10:37:37+00:00,2,1.3,True,2,0,1,3896,0,0,0,MERGED
+18579,Refs #28215 -- Marked auth form passwords as sensitive variables.,GappleBee,2024-09-12T21:05:35Z,2024-11-15T12:53:14+00:00,6,1527.79,True,136,1,2,445,9,7,16,MERGED
+18577,Fixed #35754 -- Mapped full-width characters in latex to half-width.,khanxmetu,2024-09-12T12:14:48Z,2024-09-13T14:52:07+00:00,3,26.62,True,6,1,2,686,7,0,7,MERGED
+18576,Pinned Miniforge in benchmark workflow.,sarahboyce,2024-09-12T09:45:29Z,2024-09-13T12:08:01+00:00,1,26.38,True,5,0,1,323,2,0,2,MERGED
+18574,Refs #29522 -- Improved test coverage of deserializers.,sarahboyce,2024-09-12T08:59:29Z,2024-09-12T11:44:28+00:00,5,2.75,True,62,6,4,25,0,2,2,MERGED
+18573,Hide help text on hidden fields,rlaager,2024-09-12T08:56:56Z,2024-09-12T11:49:57+00:00,1,2.88,False,24,8,3,643,3,0,3,CLOSED
+18572,Refs #373 -- Added support for using tuple lookups in filters.,csirmazbendeguz,2024-09-11T15:44:50Z,2024-09-26T14:25:50+00:00,17,358.68,True,180,53,2,1754,12,4,16,MERGED
+18570,Fixed #35748 -- Documented that Field.formfield() may return None.,cliff688,2024-09-10T20:47:17Z,2024-09-19T13:19:09+00:00,3,208.53,True,12,2,2,696,1,6,7,MERGED
+18569,Fixed #35752 -- Fixed crash when using In() lookup in filters.,csirmazbendeguz,2024-09-10T16:51:01Z,2024-09-11T10:42:17+00:00,1,17.85,True,25,1,2,777,2,0,2,MERGED
+18568,Fixed #7732 -- Added support for connection pooling in oracle backend.,suraj-ora-2020,2024-09-10T16:19:49Z,2024-12-17T10:26:33+00:00,21,2346.11,True,215,9,7,12,17,9,26,MERGED
+18566,Fixed #35767 -- Adjusted customizing user model docs.,carltongibson,2024-09-10T14:22:31Z,2024-09-16T20:40:11+00:00,13,150.29,True,4,5,1,261,0,2,2,MERGED
+18565,"Refs #373, Refs #24121 -- Added ColPairs.__repr__().",csirmazbendeguz,2024-09-10T13:14:25Z,2024-09-17T12:25:58+00:00,10,167.19,True,11,0,2,549,0,1,1,MERGED
+18564,Refs #373 -- Removed outdated comment in RelatedIn lookup.,csirmazbendeguz,2024-09-10T12:33:34Z,2024-09-11T14:32:06+00:00,3,25.98,True,0,4,1,701,0,0,0,MERGED
+18562,i`T,Jpjames1,2024-09-09T23:25:57Z,2024-09-10T06:36:38+00:00,1,7.18,False,48,6,2,539,0,0,0,CLOSED
+18561, Fixed #35656 -- Added autodetector_class attribute to migration commands.,LeOndaz,2024-09-09T16:16:37Z,2024-10-15T14:39:12+00:00,2,862.38,True,142,4,10,513,18,2,20,MERGED
+18560,Fixed #35680 -- Added default automatic imports to shell.,salvo-polizzi,2024-09-09T15:24:23Z,2025-07-17T10:51:43+00:00,17,7459.46,True,119,20,5,577,7,17,24,MERGED
+18559,Added method to clear cached_property without raising AttributeError.,JaeHyuckSa,2024-09-09T14:12:32Z,2024-12-02T10:17:51+00:00,8,2012.09,True,1,1,1,802,0,2,2,MERGED
+18558,"Removed ordering variable in url_remove if o_list_remove is empty, fixing #35747.",ldeluigi,2024-09-09T10:13:42Z,2024-09-11T08:25:18+00:00,2,46.19,False,15,1,2,623,1,0,1,CLOSED
+18557,Refs #33817 -- Corrected errors raised when Oracle driver is not installed.,felixxm,2024-09-09T08:44:47Z,2024-09-09T12:08:49+00:00,1,3.4,True,6,3,2,103,1,0,1,MERGED
+18556,Improve Contribution Tutorial with Up-to-Date Resources and Guidance,WillBeInfluentialProgrammer,2024-09-09T08:32:56Z,2024-09-09T10:26:09+00:00,1,1.89,False,16,37,1,539,1,0,1,CLOSED
+18555,Fixed #35744 -- Relabelled external aliases of combined queries.,charettes,2024-09-09T01:19:58Z,2024-10-14T23:21:48+00:00,6,862.03,True,41,1,2,203,0,4,4,MERGED
+18554,Create django-environ in extra,Farhan-labib,2024-09-08T19:40:32Z,2024-09-09T06:00:30+00:00,1,10.33,False,95,0,1,428,3,0,3,CLOSED
+18553,Fixed #35705 -- Added Rotate GIS database function to rotate geometries.,enprava,2024-09-08T16:45:15Z,2025-02-23T15:23:34+00:00,25,4030.64,False,76,5,9,583,12,18,30,CLOSED
+18552,"Fixed #35742 -- Removed hardcoded ""username"" references in admin templates.",Antoliny0919,2024-09-08T08:40:18Z,2024-10-08T08:18:52+00:00,19,719.64,True,3,5,3,1117,14,8,22,MERGED
+18550,Fixed issue with update_fields in save() method on docs example.,cliff688,2024-09-06T12:39:49Z,2024-09-11T11:23:36+00:00,10,118.73,True,1,1,1,263,2,2,4,MERGED
+18549,Fixed #35734 -- Used JSONB_BUILD_OBJECT database function on PostgreSQL when using server-side bindings.,john-parton,2024-09-06T02:57:42Z,2024-09-26T14:19:34+00:00,21,491.36,True,7,1,2,1289,4,8,12,MERGED
+18548,35737: Clarify where `models` comes from to understand missing import in tutorial,Mariatta,2024-09-05T19:53:33Z,2024-09-06T00:37:03+00:00,3,4.72,True,2,1,1,694,2,0,2,MERGED
+18547,Fixed #35735 -- Restored access to subscribable class methods and properties in templates.,fsbraun,2024-09-05T17:20:22Z,2024-09-17T07:52:45+00:00,21,278.54,True,50,0,2,889,4,12,16,MERGED
+18546,Fixed #35038 -- Created AlterConstraint operation.,salvo-polizzi,2024-09-05T15:20:19Z,2024-11-28T16:40:52+00:00,20,2017.34,True,394,3,10,612,5,14,19,MERGED
+18545,Fixed #35681 -- fix documentation for geoip2.GeoIP2Exception.,jribbens,2024-09-05T13:56:47Z,2024-09-07T02:21:15+00:00,3,36.41,True,3,2,1,725,0,0,0,MERGED
+18544,Fix None response serialisation in make_bytes used by response.content,bitdean,2024-09-05T13:05:36Z,2024-09-18T12:34:53+00:00,1,311.49,False,2,0,1,552,2,0,2,CLOSED
+18543,feat: added JSON property to HTTPRequest Object,anubhav9454,2024-09-05T13:03:50Z,2024-09-06T12:37:11+00:00,2,23.56,False,10,0,1,75,2,0,2,CLOSED
+18542,Fixed #35732 -- Wrapped Postgresql Concat args in parenthesis to fix operator precedence bug.,avilaton,2024-09-05T12:51:17Z,2024-09-11T12:36:57+00:00,14,143.76,True,22,2,3,958,4,6,10,MERGED
+18541,Fixed #35718 -- Add JSONArray to django.db.models.functions.,john-parton,2024-09-04T23:27:45Z,2025-01-06T09:08:32+00:00,28,2961.68,True,270,1,5,638,29,13,42,MERGED
+18540,Fixed #35682 -- Updated docstrings for base view classes which require a response mixin.,YashRaj1506,2024-09-04T14:54:24Z,2024-10-15T11:41:05+00:00,4,980.78,True,49,13,4,901,10,0,10,MERGED
+18538,#33171: Invalid link for readonly fields in django admin with missing…,GitRon,2024-09-03T15:39:02Z,2024-10-10T14:19:14+00:00,3,886.67,False,46,1,3,737,5,2,7,CLOSED
+18537,Refs #35706 -- Added a summary box above the form title with links to fields that have errors.,sanjeevholla26,2024-09-03T13:29:10Z,2025-09-24T22:56:25+00:00,6,9273.45,False,48,7,3,677,9,2,11,CLOSED
+18534,Fixed #35727 -- Added HttpResponse.text property.,JaeHyuckSa,2024-09-03T03:49:48Z,2024-10-16T09:20:10+00:00,32,1037.51,False,115,66,16,569,11,15,26,CLOSED
+18533,Refs #35706 -- Replaced template _('...') usages with translate tag.,sanjeevholla26,2024-09-03T02:50:12Z,2024-09-03T08:16:05+00:00,2,5.43,True,7,7,7,528,0,0,0,MERGED
+18529,Added EMAIL_USE_SSL to the Core Settings Topical Index Docs.,github-user-en,2024-08-31T05:37:22Z,2024-09-03T08:16:20+00:00,4,74.65,True,1,0,1,561,3,0,3,MERGED
+18528,Added assertion for the results of migrating an integer pk to SmallAutoField.,timgraham,2024-08-31T00:20:05Z,2024-09-03T06:22:39+00:00,2,78.04,True,13,0,1,58,0,0,0,MERGED
+18527,Refs #35706 -- Prefixed 'Error:' to titles of admin pages with form errors.,sanjeevholla26,2024-08-30T18:19:13Z,2024-09-02T13:19:33+00:00,22,67.01,True,63,0,10,725,1,6,7,MERGED
+18526,Fixed #35716 -- Fixed VariableDoesNotExist when rendering admin fieldsets.,sarahboyce,2024-08-29T19:02:30Z,2024-08-30T18:49:27+00:00,2,23.78,True,13,3,5,538,0,1,1,MERGED
+18524,Fixed #35717 -- Reduced Create/RemoveCollation operations when optimizing migrations.,adamchainz,2024-08-29T17:53:13Z,2024-10-10T11:18:46+00:00,10,1001.43,True,24,1,2,549,3,3,6,MERGED
+18523,Expanded contributor docs on getting feedback from the wider community.,mharyam,2024-08-28T20:54:31Z,2024-10-16T11:23:23+00:00,8,1166.48,True,54,10,2,738,0,6,6,MERGED
+18522,Fixed #35712 -- Updated Q.check() to ensure that it always leaves the...,a-p-f,2024-08-28T16:46:27Z,2024-09-02T15:01:29+00:00,5,118.25,False,22,4,2,227,1,1,2,CLOSED
+18520,Removed outdated note on subqueries.,adamchainz,2024-08-28T10:13:51Z,2024-08-28T18:55:31+00:00,2,8.69,True,1,3,1,627,0,0,0,MERGED
+18519,Fixed typo in docs/ref/models/expressions.txt.,felixxm,2024-08-28T09:25:35Z,2024-08-28T12:08:17+00:00,1,2.71,True,3,3,1,13,1,0,1,MERGED
+18518,Dropped safeguards against very old versions of gettext.,claudep,2024-08-27T19:33:20Z,2024-08-30T11:39:04+00:00,4,64.1,True,12,705,8,34,2,1,3,MERGED
+18516,Fixed typos in docs/howto/initial-data.txt.,jacobtylerwalls,2024-08-26T12:56:08Z,2024-08-28T18:24:07+00:00,4,53.47,True,2,2,1,0,0,1,1,MERGED
+18515,Fixed admin_view instructions,royallthefourth,2024-08-25T20:39:38Z,2024-08-31T01:16:13+00:00,1,124.61,False,3,3,1,640,1,0,1,CLOSED
+18514,Fixed #35660 -- Provided fixtures during setUpClass phase of TransactionTestCase.,jacobtylerwalls,2024-08-24T15:56:57Z,2024-09-17T07:53:47+00:00,19,567.95,True,133,55,9,1553,4,10,14,MERGED
+18512,Fixed #35702 -- Removed connection pooling note for mysql drivers.,Hisham-Pak,2024-08-23T14:34:07Z,2024-08-30T07:08:33+00:00,5,160.57,True,0,2,1,438,1,1,2,MERGED
+18511,Added HTML email example prominently to email documentation,GitRon,2024-08-23T08:42:00Z,2024-09-11T16:04:43+00:00,8,463.38,True,37,3,1,789,7,3,10,MERGED
+18510,Refs #35704 -- Used copy.replace() in Operation.reduce() methods.,adamchainz,2024-08-22T18:29:05Z,2025-02-17T07:02:06+00:00,2,4284.55,True,71,127,4,730,5,0,5,MERGED
+18509,Added helper and refactored PasswordResetFormTest to unify email sending tests.,nessita,2024-08-22T16:05:38Z,2024-08-23T14:13:31+00:00,2,22.13,True,23,17,1,295,0,1,1,MERGED
+18508,Fixed #35700 -- Added AlterModelTable and AlterModelTableComment reductions.,adamchainz,2024-08-22T11:04:43Z,2024-08-30T16:50:12+00:00,3,197.76,True,72,0,2,770,1,0,1,MERGED
+18507,Refs #34900 -- Updated requirements for Python 3.13.,felixxm,2024-08-22T09:27:24Z,2024-08-28T12:02:48+00:00,7,146.59,True,5,5,1,38,0,1,1,MERGED
+18505,Fixed #35703 -- Returned default url conf when running under prefix.,maartenbreddels,2024-08-21T18:02:56Z,2024-08-23T16:07:47+00:00,3,46.08,True,10,1,2,1238,7,0,7,MERGED
+18503,Sorted alphabetically forms list in docs/topics/auth/default.txt.,nessita,2024-08-21T14:41:56Z,2024-08-22T12:14:12+00:00,1,21.54,True,12,12,1,226,1,0,1,MERGED
+18502,Refs #35581 -- Improved django.core.mail tests.,medmunds,2024-08-20T21:51:46Z,2024-12-03T10:17:15+00:00,20,2508.42,True,615,187,1,2454,10,16,26,MERGED
+18501,Added missing skips for supports_select_union and supports_sequence_reset.,timgraham,2024-08-20T14:30:34Z,2024-08-26T15:53:09+00:00,3,145.38,True,8,1,4,0,1,0,1,MERGED
+18500,Fixed #35689 -- Handled custom labels in LabelCommand.missing_args_message.,gfabbretti8,2024-08-20T14:02:19Z,2024-08-23T15:26:29+00:00,7,73.4,True,27,1,3,598,4,1,5,MERGED
+18499,Updated GitHub PR template headings to level 4.,MHLut,2024-08-20T08:39:54Z,2024-08-20T10:51:25+00:00,2,2.19,True,3,3,1,608,0,0,0,MERGED
+18498,Fixed #35688 -- Moved setting timezone and role to DatabaseWrapper class methods.,sarahboyce,2024-08-19T14:52:58Z,2024-08-28T22:25:07+00:00,22,223.54,True,71,25,3,437,5,15,20,MERGED
+18497,Fixed #35690 -- Add support for calling QuerySet.in_bulk() after QuerySet.values(),john-parton,2024-08-19T04:16:16Z,2025-05-31T23:44:46+00:00,1,6859.48,False,41,1,2,1038,6,3,9,CLOSED
+18496,Fixed #35690 -- Raise TypeError if QuerySet.in_bulk is called after QuerySet.values or QuerySet.values_list.,john-parton,2024-08-19T02:56:13Z,2024-09-02T13:04:52+00:00,4,346.14,True,9,0,2,965,2,1,3,MERGED
+18494,Fixed #25706 -- Refactored geometry widgets to remove inline JavaScript.,claudep,2024-08-18T15:03:49Z,2025-06-12T20:35:14+00:00,11,7157.52,True,308,96,8,12,5,7,12,MERGED
+18493,Fixed #35682 -- Updated Docstrings for BaseViews,YashRaj1506,2024-08-18T14:23:32Z,2024-09-04T13:46:19+00:00,8,407.38,False,1378,1107,112,971,15,10,25,CLOSED
+18492,"Fixed #35074 -- Fixed adding/removing indexes when spatial_index is changed on MySQL, PostgreSQL, and Oracle.",felixxm,2024-08-18T12:46:29Z,2024-09-19T06:12:11+00:00,11,761.43,True,218,0,4,12,2,3,5,MERGED
+18491,Fixed #35686 -- Added table headers to app list tables for screen readers.,sarahboyce,2024-08-17T18:33:40Z,2024-08-20T07:05:16+00:00,6,60.53,True,30,3,3,650,0,2,2,MERGED
+18489,Fixed #32519 -- Added support for using key and path transforms in update() for JSONFields.,adzshaf,2024-08-17T14:31:41Z,2024-11-03T14:18:35+00:00,12,1871.78,False,1346,9,21,1982,2,26,28,CLOSED
+18488,Updated translations from Transifex.,RobertGoodman08,2024-08-16T19:49:09Z,2024-08-17T02:45:39+00:00,1,6.94,False,2,1,1,614,1,0,1,CLOSED
+18487,Refs #10941 -- Added tests for querystring template tag.,nessita,2024-08-16T17:48:56Z,2024-11-29T07:27:11+00:00,14,2509.64,True,50,38,1,471,3,3,6,MERGED
+18486,Refs #35658 -- Fixed test_create_file_field_from_another_file_field_in_memory_storage when run in reverse.,felixxm,2024-08-15T05:52:10Z,2024-08-15T06:52:19+00:00,1,1.0,True,2,1,1,4,0,0,0,MERGED
+18485,Refs #373 - Fixed tuple lookups coding style issues.,csirmazbendeguz,2024-08-15T05:28:50Z,2024-09-11T09:23:01+00:00,18,651.9,True,64,42,3,520,3,4,7,MERGED
+18484,"Fixed #35678 -- Removed ""usable_password"" field from BaseUserCreationForm.",nessita,2024-08-14T19:48:10Z,2024-08-19T15:39:59+00:00,19,115.86,True,263,168,6,1019,2,9,11,MERGED
+18481,Fixed #35693 -- Made password validators callable.,iamkorniichuk,2024-08-14T14:17:28Z,2024-12-01T11:20:49+00:00,1,2613.06,False,9,0,1,514,6,0,6,CLOSED
+18480,Fixed #35671 -- Clarified string-based fields behavior when null=False.,cliff688,2024-08-14T12:38:58Z,2024-08-20T06:09:39+00:00,19,137.51,True,9,7,1,1048,7,3,10,MERGED
+18478,Fixed typo of check-in in contributing doc,kdotmanoj,2024-08-14T10:11:00Z,2024-08-15T05:51:49+00:00,1,19.68,False,1,1,1,535,4,0,4,CLOSED
+18477,Update ModelAdmin#save_model to properly set `update_fields`,jameskeane,2024-08-14T03:24:30Z,2024-08-17T14:33:14+00:00,1,83.15,False,7,1,1,639,1,0,1,CLOSED
+18476,Documented that overriding User.is_active = None broke in Django 4.2.,JuanoD,2024-08-13T23:07:06Z,2024-08-14T13:10:30+00:00,1,14.06,False,50,0,1,1498,5,0,5,CLOSED
+18475,Updated django.po for sk locale,eriktelepovsky,2024-08-13T22:20:11Z,2024-08-14T08:17:43+00:00,1,9.96,False,8,8,1,528,1,0,1,CLOSED
+18474,Refs #35537 -- Clarified release notes for email attachments and alternatives changes.,felixxm,2024-08-13T21:03:36Z,2024-08-14T08:00:03+00:00,2,10.94,True,2,3,1,0,1,0,1,MERGED
+18473,Fixed typo of --no-startup in django-admin docs.,smithdc1,2024-08-13T06:54:15Z,2024-08-13T09:18:43+00:00,1,2.41,True,1,1,1,678,0,0,0,MERGED
+18472,Refs #35648 -- Corrected release notes for SafeString.__add__() changes.,felixxm,2024-08-12T17:49:51Z,2024-08-12T18:56:00+00:00,1,1.1,True,2,2,1,12,0,0,0,MERGED
+18470,Fixed #35669 -- Improved error message for max post-process passes exceeded,JaeHyuckSa,2024-08-12T13:05:22Z,2024-08-30T08:00:51+00:00,5,426.92,True,14,8,3,728,0,3,3,MERGED
+18469,Fixed #35668 -- Added mapping support to format_html_join.,nabil-rady,2024-08-11T19:09:37Z,2024-08-20T06:20:34+00:00,7,203.18,True,54,4,4,677,5,12,17,MERGED
+18467,"Refs #35591 -- Removed hardcoded ""stable"" version in runserver warning.",felixxm,2024-08-11T11:13:57Z,2024-08-12T08:57:02+00:00,1,21.72,True,16,7,4,12,0,0,0,MERGED
+18466,Standardized calling decorators on contrib.auth views.,claudep,2024-08-10T15:02:32Z,2025-07-22T19:29:14+00:00,2,8308.44,True,15,33,2,398,0,0,0,MERGED
+18465,Fixed #35623 -- Documented that a field cannot be named 'check'.,mohammadsaleehi,2024-08-10T13:59:43Z,2024-08-12T17:58:37+00:00,6,51.98,True,3,0,1,650,0,2,2,MERGED
+18464,Fixed #35666 -- Documented stacklevel testing and adjusted test suite accordingly.,charettes,2024-08-09T17:09:48Z,2024-08-28T14:44:05+00:00,4,453.57,True,154,65,37,313,10,2,12,MERGED
+18463,Refs #34609 -- Fixed stack level of format_html() warning.,adamchainz,2024-08-09T14:11:46Z,2024-08-27T18:14:50+00:00,2,436.05,True,5,3,2,1560,10,0,10,MERGED
+18462,Fixed #35665 -- Fixed a crash when passing empty order_by to Window.,charettes,2024-08-09T12:58:50Z,2024-08-13T09:26:17+00:00,13,92.46,True,38,13,6,522,1,3,4,MERGED
+18461,Added test for acheck_password() to ensure make_password is called for unusable passwords.,nessita,2024-08-08T14:37:35Z,2024-08-08T15:53:36+00:00,1,1.27,True,41,20,1,386,2,0,2,MERGED
+18460,Fixed #35661 -- Fixed test_too_many_digits_to_rander() test crash on PyPy.,felixxm,2024-08-08T06:17:51Z,2024-08-08T07:53:04+00:00,3,1.59,True,11,1,1,296,1,1,2,MERGED
+18458,Marked missing part of warning footer for translation in SelectFilter2.js.,marcpicaud,2024-08-07T16:33:35Z,2024-08-12T17:23:21+00:00,2,120.83,True,1,1,1,618,0,0,0,MERGED
+18457,Refs #35591 -- Emphasized that runserver is not suitable for production.,nanorepublica,2024-08-07T13:48:40Z,2024-08-08T08:08:53+00:00,2,18.34,True,15,6,3,515,0,4,4,MERGED
+18455,Refs #31405 -- Improved LoginRequiredMiddleware documentation.,adamchainz,2024-08-07T07:25:54Z,2024-08-08T08:05:31+00:00,8,24.66,True,47,17,3,779,0,9,9,MERGED
+18453,Fixed #35658 -- Initialized InMemoryFileNode instances with a name.,LucasEsposito,2024-08-07T01:52:57Z,2024-08-09T10:27:16+00:00,6,56.57,True,24,4,2,1254,0,2,2,MERGED
+18452,Support conversion of an HttpResponse into a boolean,JasonGrace2282,2024-08-06T20:06:20Z,2024-08-07T19:38:27+00:00,1,23.54,False,10,0,2,1082,4,0,4,CLOSED
+18451,Fixed #35612 --Added note on reports of security vulnerability.,OkayJosh,2024-08-06T00:45:56Z,2024-10-08T07:05:19+00:00,9,1518.32,False,9,0,1,624,4,3,7,CLOSED
+18450,Refs #373 -- Added Model._is_pk_set().,csirmazbendeguz,2024-08-05T14:20:31Z,2024-09-09T20:46:50+00:00,7,846.44,True,67,27,13,783,41,7,48,MERGED
+18449,Fixed #35657 -- Made FileField handle db_default values.,sarahboyce,2024-08-05T12:07:30Z,2024-08-05T19:36:49+00:00,10,7.49,True,27,0,4,538,0,6,6,MERGED
+18447,Used :pypi: role where appropriate.,felixxm,2024-08-05T11:41:31Z,2024-08-05T13:35:50+00:00,1,1.91,True,25,35,10,0,0,0,0,MERGED
+18445,Fixed #35656 -- Added support for changing migration autodetector.,LeOndaz,2024-08-04T15:22:10Z,2024-09-09T15:30:51+00:00,1,864.14,False,91,25,7,513,23,0,23,CLOSED
+18442,Fixed #35553 -- Added a regex to catch import*as.,FarhanAliRaza,2024-08-02T20:28:46Z,2024-08-07T09:01:56+00:00,6,108.55,True,13,3,3,517,5,2,7,MERGED
+18441,"Refs #35601, Refs #35599 -- Made cosmetic edits to TelInput/ColorInput docs.",felixxm,2024-08-02T18:50:02Z,2024-08-02T20:40:53+00:00,1,1.85,True,4,6,2,0,1,0,1,MERGED
+18440,"Fixed #35655 -- Reverted ""Fixed #35295 -- Used INSERT with multiple rows on Oracle 23c.""",sarahboyce,2024-08-02T12:54:49Z,2024-08-03T07:05:30+00:00,1,18.18,True,0,22,2,143,3,0,3,MERGED
+18439,"Fixed #35645, Refs #35558 -- Added ""medium"" color in the admin CSS to improve accessibility of headings.",nessita,2024-08-01T14:24:43Z,2024-08-05T12:02:02+00:00,3,93.62,True,10,12,23,404,4,1,5,MERGED
+18437,Fixed #35601 -- Added TelInput widget.,LucasEsposito,2024-08-01T01:40:18Z,2024-08-02T09:31:54+00:00,6,31.86,True,46,0,7,802,1,6,7,MERGED
+18436,refs #33537: Added ability to exit if mysqldump fails.,Faakhir30,2024-07-31T18:34:03Z,2025-03-16T11:25:36+00:00,2,5464.86,False,155,27,2,1096,2,6,8,CLOSED
+18435,Fixed #35591 -- Added warning to runserver about being unsuitable for production.,nanorepublica,2024-07-31T16:24:36Z,2024-08-09T08:34:11+00:00,19,208.16,True,61,1,5,548,1,16,17,MERGED
+18434,Fixed #35648 -- Extended SafeString to support __radd__.,matthiask,2024-07-31T15:50:35Z,2024-08-12T17:25:06+00:00,3,289.58,True,76,5,3,605,3,1,4,MERGED
+18433,Fixed #35646 -- Extended SafeExceptionReporterFilter.hidden_settings to treat `AUTH` as a sensitive match.,nessita,2024-07-31T14:48:02Z,2024-08-01T18:02:00+00:00,8,27.23,True,49,34,4,451,0,2,2,MERGED
+18431,"Fixed #35643 -- Fixed a crash when ordering a QuerySet by a reference containing ""__"".",charettes,2024-07-31T03:59:06Z,2024-08-02T19:21:12+00:00,6,63.37,True,27,2,2,252,0,2,2,MERGED
+18430,[5.1.x] Updated translations from Transifex.,nessita,2024-07-30T20:07:41Z,2024-08-07T12:56:31+00:00,9,184.81,True,4217,2128,201,175,4,3,7,MERGED
+18429,Extended script to manage translations to support fetching new translations since a given date.,nessita,2024-07-30T19:47:02Z,2024-08-05T16:51:28+00:00,1,141.07,True,159,18,1,751,0,1,1,MERGED
+18428,Removed GitHub Actions for creating and checking reminders.,nessita,2024-07-30T18:29:59Z,2024-07-31T13:07:58+00:00,1,18.63,True,0,34,2,165,0,0,0,MERGED
+18426,Fixed #35640 : ModelMultipleChoiceField validation of inherited models.,omarbenhamid,2024-07-30T06:54:17Z,2024-07-30T08:01:39+00:00,1,1.12,False,1,1,1,607,1,0,1,CLOSED
+18425,Fixed #35638 -- Updated validate_constraints to consider db_default.,shangxiao,2024-07-30T06:11:45Z,2024-08-05T15:33:13+00:00,15,153.36,True,143,19,13,928,0,6,6,MERGED
+18424,Fixed #35440 -- Simplified parse_header_parameters by leveraging stdlid's Message.,chudilo,2024-07-29T20:41:50Z,2025-03-27T11:57:03+00:00,7,5775.25,True,69,38,3,4544,18,2,20,MERGED
+18422,Fixed #35639 -- Improved admin's delete confirmation page title.,matthiask,2024-07-29T09:39:27Z,2024-08-07T21:10:50+00:00,2,227.52,True,4,2,4,986,2,0,2,MERGED
+18420,Create backup.py,Nodebaron,2024-07-27T19:53:34Z,2024-07-28T03:23:12+00:00,1,7.49,False,4,0,1,614,1,0,1,CLOSED
+18418,Referenced joining the triage and review team as motivation to do PR reviews.,sarahboyce,2024-07-27T09:14:12Z,2024-07-29T12:46:10+00:00,5,51.53,True,5,2,1,712,0,1,1,MERGED
+18416,Added missing skips in constraint tests.,timgraham,2024-07-26T15:06:09Z,2024-07-26T16:59:12+00:00,1,1.88,True,3,0,1,155,0,0,0,MERGED
+18415,Fixed #35631 -- Extract quality value from Accept header,RealOrangeOne,2024-07-26T13:43:17Z,2024-09-09T10:02:19+00:00,20,1076.32,True,248,27,5,902,1,24,25,MERGED
+18414,[5.0.x] Refs #35625 -- Corrected CheckConstraint argument name in migrations.test_operations.,felixxm,2024-07-26T07:50:37Z,2024-07-26T09:40:59+00:00,1,1.84,True,1,1,1,4,0,0,0,MERGED
+18413,Fixed #35599 -- Added ColorInput widget,arjunomray,2024-07-26T05:44:56Z,2024-08-02T07:51:49+00:00,3,170.11,True,39,0,7,520,2,4,6,MERGED
+18412,Fixed #35586 -- Added support for set-returning database functions.,devin13cox,2024-07-25T18:55:19Z,2024-08-12T13:35:20+00:00,7,426.67,True,54,0,6,802,1,9,10,MERGED
+18410,New template filter 'spaceint'.,Whatthesac,2024-07-25T02:52:36Z,2024-07-25T03:59:21+00:00,1,1.11,False,171,1,4,382,0,0,0,CLOSED
+18409,Added dedicated test for invalid inputs in floatformat template filter tests.,nessita,2024-07-24T21:18:15Z,2024-07-25T19:15:54+00:00,4,21.96,True,39,4,1,338,0,2,2,MERGED
+18407,Fixed #35628 -- Allowed compatible GeneratedFields for ModelAdmin.date_hierarchy.,john-parton,2024-07-24T18:57:01Z,2024-08-05T13:27:20+00:00,11,282.51,True,58,3,3,950,6,7,13,MERGED
+18404,Refs #373 -- Added tuple lookups.,csirmazbendeguz,2024-07-23T13:19:02Z,2024-08-01T15:26:09+00:00,12,218.12,True,555,69,6,1336,6,5,11,MERGED
+18403,Fixed #35627 -- Raised a LookupError rather than an unhandled ValueError in get_supported_language_variant().,lorinkoz,2024-07-23T08:54:19Z,2024-07-25T07:38:46+00:00,3,46.74,True,31,7,6,874,2,1,3,MERGED

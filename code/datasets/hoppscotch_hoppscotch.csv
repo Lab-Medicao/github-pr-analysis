@@ -1,4 +1,5 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+5433,fix(js-sandbox): resolve errors with `pw.env` namespace in legacy sandbox,jamesgeorge007,2025-10-03T09:52:18Z,2025-10-06T11:15:35+00:00,2,73.39,True,22,15,2,1119,0,0,0,MERGED
 5418,fix: correctly resolve inherited properties before request runs,nivedin,2025-09-30T06:17:46Z,2025-09-30T12:13:13+00:00,4,5.92,True,24,53,2,154,0,2,2,MERGED
 5412,chore: accept single character length name and trim white spaces,nivedin,2025-09-29T06:52:37Z,2025-09-29T07:55:40+00:00,3,1.05,True,32,29,12,120,0,1,1,MERGED
 5409,fix: highlight environment on string containing dot,souravagrawal29,2025-09-27T14:14:12Z,2025-09-29T07:59:58+00:00,4,41.76,True,16,11,4,223,0,1,1,MERGED
@@ -7,7 +8,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 5400,chore: security patch for the dependency chain,mirarifhasan,2025-09-24T05:03:20Z,2025-09-24T10:52:31+00:00,4,5.82,True,2358,1568,12,1941,0,0,0,MERGED
 5397,fix: ensure npm is installed for Node.js base image,Leon-Luu,2025-09-22T09:16:02Z,2025-09-24T03:43:51+00:00,2,42.46,True,3,3,1,608,0,1,1,MERGED
 5394,fix(relay): multiple Set-Cookie headers in resp,CuriousCorrelation,2025-09-21T14:14:26Z,2025-09-23T11:44:29+00:00,5,45.5,True,76,15,8,4123,0,4,4,MERGED
-5388,feat(scripting-revamp): introduce `hopp` namespace,jamesgeorge007,2025-09-17T06:55:01Z,2025-09-24T11:39:55+00:00,4,172.75,True,10494,822,76,12424,0,10,10,MERGED
+5388,feat(scripting-revamp): introduce `hopp` namespace,jamesgeorge007,2025-09-17T06:55:01Z,2025-09-24T11:39:55+00:00,4,172.75,True,10494,822,76,12439,0,10,10,MERGED
 5384,fix: prevent empty entries when dragging items past last row,aakashsbhatia2,2025-09-11T02:52:50Z,2025-09-18T08:43:33+00:00,5,173.85,True,316,0,9,482,1,3,4,MERGED
 5383,feature: add alphabetical sort for user and team collections,mirarifhasan,2025-09-10T15:05:01Z,2025-09-23T09:16:23+00:00,14,306.19,True,3476,339,63,2368,0,14,14,MERGED
 5381,fix(desktop): window lifecycle for instance switch,CuriousCorrelation,2025-09-09T06:17:06Z,2025-09-22T09:25:53+00:00,5,315.15,True,56,19,3,2534,0,3,3,MERGED
@@ -149,3 +150,852 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 4963,feat: import authorization header with curl,chhaviG22,2025-04-07T13:43:49Z,2025-05-08T09:38:51+00:00,3,739.92,True,32,7,2,682,6,0,6,MERGED
 4958,chore: truncate long secret environment variables,atrimpe-ford,2025-04-04T19:03:39Z,2025-04-11T11:55:12+00:00,1,160.86,True,2,2,1,394,0,0,0,MERGED
 4952,chore: add organization dashboard link to profile dropdown,nivedin,2025-04-02T10:01:27Z,2025-04-07T14:26:29+00:00,3,124.42,True,32,1,3,152,0,1,1,MERGED
+4951,fix(web): add explicit headers following prior normalization,CuriousCorrelation,2025-04-01T06:22:00Z,2025-04-04T09:15:06+00:00,2,74.89,True,10,0,1,3411,12,1,13,MERGED
+4945,fix(kernel): deterministic form data processing,CuriousCorrelation,2025-03-28T13:11:19Z,2025-04-08T09:20:04+00:00,5,260.15,True,219,189,19,7329,0,2,2,MERGED
+4944,fix: 4672 whitespace vars codesnippet generation,yousefmarey12,2025-03-27T19:40:32Z,2025-04-17T15:58:35+00:00,1,500.3,False,80,20,1,1066,0,1,1,CLOSED
+4943,chore: bump vulnerable dependencies,AndrewBastin,2025-03-27T15:41:56Z,2025-03-27T17:15:29+00:00,1,1.56,True,70,87,10,277,0,0,0,MERGED
+4942,feat: Agent registration UX flow updates,nivedin,2025-03-27T08:44:32Z,2025-03-27T15:39:25+00:00,8,6.91,True,163,100,7,517,4,3,7,MERGED
+4940,fix(common): oauth2 password flow not respecting scopes,qhris,2025-03-26T09:16:17Z,2025-03-26T11:20:37+00:00,2,2.07,True,1,1,1,1020,1,0,1,MERGED
+4932,fix: import bug with extension and agent interceptors,nivedin,2025-03-24T11:21:17Z,2025-03-28T12:22:45+00:00,4,97.02,True,35,5,4,343,0,0,0,MERGED
+4931,fix(relay): avoid override with header passthrough,CuriousCorrelation,2025-03-24T08:56:25Z,2025-03-25T11:04:27+00:00,2,26.13,True,30,36,6,3302,0,0,0,MERGED
+4927,fix(common): oauth2 basic header encoding,qhris,2025-03-21T15:05:21Z,2025-03-28T08:16:22+00:00,2,161.18,True,10,1,1,1225,0,0,0,MERGED
+4925,docs: link to the Desktop App,ThePredators,2025-03-21T04:42:35Z,2025-03-25T11:10:42+00:00,1,102.47,True,2,1,1,76,0,0,0,MERGED
+4920,chore(i18n): update tw translation,SimonAllen0901,2025-03-20T00:59:36Z,2025-03-25T11:02:25+00:00,2,130.05,True,26,26,1,79,0,0,0,MERGED
+4917,feat(common): lenient OpenAPI imports,anwarulislam,2025-03-19T11:35:26Z,2025-04-09T14:14:35+00:00,9,506.65,True,73,29,1,1147,8,5,13,MERGED
+4916,feat: format JSON responses having `text/plain` content type,anwarulislam,2025-03-19T11:33:18Z,2025-03-28T08:08:33+00:00,3,212.59,True,37,2,2,898,1,1,2,MERGED
+4911,fix(common): normalize headers before final relay,CuriousCorrelation,2025-03-19T07:51:57Z,2025-03-19T10:17:42+00:00,3,2.43,True,113,79,10,279,0,0,0,MERGED
+4910,fix(common): pre-process proxy response to base type,CuriousCorrelation,2025-03-19T05:57:55Z,2025-03-19T07:42:32+00:00,1,1.74,True,4,4,1,360,0,0,0,MERGED
+4909,feat(common): create new requests without siphoning data from the previous one,anwarulislam,2025-03-18T22:09:40Z,2025-03-27T07:19:42+00:00,2,201.17,True,9,224,4,513,1,0,1,MERGED
+4908,fix(common): handle missing host and basePath in OpenAPI URL parsing,anwarulislam,2025-03-18T21:25:34Z,2025-03-19T08:20:03+00:00,1,10.91,True,3,1,1,239,0,0,0,MERGED
+4906,fix: resolve issues around import via URL,nivedin,2025-03-18T16:21:39Z,2025-03-19T09:40:20+00:00,2,17.31,True,7,4,2,153,0,0,0,MERGED
+4893,fix(infra): deterministic env var ordering,CuriousCorrelation,2025-03-15T11:23:19Z,2025-03-19T10:38:47+00:00,1,95.26,True,3,0,3,764,0,0,0,MERGED
+4892,fix(desktop): preserve formdata ordering,CuriousCorrelation,2025-03-14T13:37:36Z,2025-03-19T08:34:14+00:00,1,114.94,True,1978,1541,8,636,0,0,0,MERGED
+4890,fix: resolve issues around rendering HTML response previews,nivedin,2025-03-14T11:30:22Z,2025-03-18T08:02:08+00:00,2,92.53,True,35,14,2,550,0,0,0,MERGED
+4888,fix(desktop): fix missing ca certs when client certs are not present,CuriousCorrelation,2025-03-14T10:22:59Z,2025-03-19T09:07:55+00:00,1,118.75,True,22,24,1,1255,0,0,0,MERGED
+4887,chore: replace old interceptor component with new one,nivedin,2025-03-14T10:19:10Z,2025-03-14T15:20:05+00:00,2,5.02,True,7,63,5,277,1,0,1,MERGED
+4883,fix(kernel): pre-req transformers for backcompat,CuriousCorrelation,2025-03-13T10:03:49Z,2025-03-17T08:58:49+00:00,1,94.92,True,40,9,1,275,0,0,0,MERGED
+4873,feat(common): click to activate environment from sidebar as primary,anwarulislam,2025-03-11T22:16:58Z,2025-03-21T07:52:46+00:00,1,225.6,True,160,19,6,204,0,0,0,MERGED
+4872,feat: add search in environment selector and sidebar,nivedin,2025-03-11T12:57:16Z,2025-03-24T16:48:19+00:00,3,315.85,True,288,71,5,214,0,8,8,MERGED
+4871,fix(infra): docker compose service dependencies,CuriousCorrelation,2025-03-11T11:47:17Z,2025-03-12T08:28:19+00:00,1,20.68,True,22,4,1,70,0,0,0,MERGED
+4868,feat(desktop): update check timeout 2s -> 5s,CuriousCorrelation,2025-03-10T12:06:06Z,2025-03-10T17:11:58+00:00,2,5.1,True,10,5,1,617,0,0,0,MERGED
+4867,fix: resolve typos across packages,luzpaz,2025-03-10T12:03:45Z,2025-03-12T08:23:09+00:00,2,44.32,True,44,44,26,265,5,0,5,MERGED
+4865,docs: more detailed bug report template,CuriousCorrelation,2025-03-10T08:12:08Z,2025-03-10T14:59:19+00:00,2,6.79,True,80,3,1,70,0,1,1,MERGED
+4864,docs(desktop): update `README`,CuriousCorrelation,2025-03-10T07:30:19Z,2025-03-10T17:16:15+00:00,2,9.77,True,111,5,3,98,2,1,3,MERGED
+4860,feat(kernel): isolate type ser/de to platform,CuriousCorrelation,2025-03-08T07:36:04Z,2025-03-10T17:15:51+00:00,3,57.66,True,511,235,21,843,0,0,0,MERGED
+4855,fix: typos in packages/hoppscotch-common/src/platform,luzpaz,2025-03-06T20:45:23Z,2025-03-10T07:23:43+00:00,1,82.64,True,5,5,5,227,0,0,0,MERGED
+4844,fix(desktop): increase bundle download timeout,CuriousCorrelation,2025-03-06T07:14:27Z,2025-03-06T11:14:29+00:00,2,4.0,True,17,7,3,262,0,0,0,MERGED
+4843,feat(infra): make webapp server part of fe container,CuriousCorrelation,2025-03-06T05:59:38Z,2025-03-06T10:32:42+00:00,2,4.55,True,11,30,2,248,0,0,0,MERGED
+4840,fix(common): `proxy` interceptor `json` response decode,CuriousCorrelation,2025-03-06T03:49:25Z,2025-03-06T10:28:03+00:00,1,6.64,True,2,2,1,76,0,0,0,MERGED
+4836,fix(common): resolve issues around shared workspace invite validation,jamesgeorge007,2025-03-05T18:10:38Z,2025-03-06T07:23:49+00:00,1,13.22,True,6,0,1,530,2,0,2,MERGED
+4829,fix: environment variable not working on auth,nivedin,2025-03-05T12:29:15Z,2025-03-05T14:20:16+00:00,2,1.85,True,184,165,1,335,0,0,0,MERGED
+4826,fix(common): correct coordinates calculation for selection end position,anwarulislam,2025-03-05T11:25:27Z,2025-03-13T08:26:04+00:00,2,189.01,True,1,1,1,645,0,0,0,MERGED
+4825,fix: enable `aws` auth passthrough,CuriousCorrelation,2025-03-05T10:37:21Z,2025-03-05T13:01:59+00:00,1,2.41,True,71,9,8,112,0,0,0,MERGED
+4821,fix: support for `apikey` auth for native interceptors,CuriousCorrelation,2025-03-05T04:16:30Z,2025-03-05T08:45:37+00:00,2,4.49,True,404,11,12,300,0,0,0,MERGED
+4818,fix(common): improve authorization header handling,anwarulislam,2025-03-04T21:45:53Z,2025-03-26T11:42:41+00:00,3,517.95,True,30,3,1,386,1,1,2,MERGED
+4815,fix: preserve hierarchy during personal collection imports,chhaviG22,2025-03-04T15:06:51Z,2025-03-14T08:16:04+00:00,1,233.15,True,4,0,4,332,1,0,1,MERGED
+4807,fix: kernel-io calls via `openExternalLink`,CuriousCorrelation,2025-03-04T12:09:42Z,2025-03-05T07:33:55+00:00,2,19.4,True,52,18,9,98,0,0,0,MERGED
+4805,fix: update embed redirect URL,nivedin,2025-03-04T09:20:04Z,2025-03-04T10:50:42+00:00,1,1.51,True,1,1,1,85,0,0,0,MERGED
+4800,fix(agent): typescript build warnings,CuriousCorrelation,2025-03-03T07:29:44Z,2025-03-03T08:46:42+00:00,1,1.28,True,161,7,4,68,0,0,0,MERGED
+4799,fix(common): `PersistenceService` call site compat,CuriousCorrelation,2025-03-02T12:49:31Z,2025-03-03T07:09:49+00:00,3,18.34,True,137,27,4,3054,0,0,0,MERGED
+4798,feat(desktop): stablize updater ux and window state,CuriousCorrelation,2025-03-02T11:34:44Z,2025-03-03T09:30:04+00:00,2,21.92,True,461,211,12,289,0,0,0,MERGED
+4792,fix: preserve encoded characters in cURL URLs,xTudoS,2025-02-27T17:06:22Z,2025-07-24T07:44:36+00:00,3,3518.64,True,23,1,1,1283,2,0,2,MERGED
+4789,chore: move openapi validation and dereferencing to a worker,amk-dev,2025-02-25T21:48:27Z,2025-02-26T13:34:15+00:00,3,15.76,True,102,6,3,203,0,1,1,MERGED
+4785,feat: alphabetical sorting for collection folder requests,Pranay-Pandey,2025-02-25T01:20:35Z,2025-09-29T10:05:48+00:00,1,5192.75,False,107,1,5,360,3,0,3,CLOSED
+4779,feat: search requests by endpoint in personal workspace,Pranay-Pandey,2025-02-23T10:35:56Z,2025-03-26T09:52:14+00:00,4,743.27,True,6,2,1,203,1,0,1,MERGED
+4778,chore: remove top level awaits,nivedin,2025-02-21T16:03:16Z,2025-02-21T17:32:03+00:00,1,1.48,True,68,240,6,58,0,0,0,MERGED
+4775,chore: openapi importer bug fixs,amk-dev,2025-02-20T16:13:20Z,2025-02-24T15:17:43+00:00,2,95.07,True,81,18,5,482,0,0,0,MERGED
+4766,fix: typos in packages/hoppscotch-selfhost-desktop,luzpaz,2025-02-19T16:37:36Z,2025-02-20T08:15:29+00:00,2,15.63,True,7,7,7,214,0,0,0,MERGED
+4763,fix: close context menu while scrolling,nivedin,2025-02-19T09:14:08Z,2025-02-19T10:24:33+00:00,1,1.17,True,2,2,1,227,0,0,0,MERGED
+4760,feat: visual enhancement for inactive fields,anwarulislam,2025-02-18T00:37:29Z,2025-02-19T07:06:16+00:00,2,30.48,True,10,0,4,294,0,0,0,MERGED
+4759,fix: request validation issue on load persistence tab,anwarulislam,2025-02-17T23:34:04Z,2025-02-20T10:59:43+00:00,1,59.43,True,16,2,2,686,3,0,3,MERGED
+4749,chore: fix typos in `.vue` component files,luzpaz,2025-02-12T18:13:10Z,2025-02-18T18:17:14+00:00,3,144.07,True,2,2,2,232,0,0,0,MERGED
+4746,fix: ensure GraphQL connection sends authentication headers,anwarulislam,2025-02-12T11:59:36Z,2025-02-24T11:58:46+00:00,5,287.99,True,196,99,3,177,0,0,0,MERGED
+4742,feat: improve graphql query builder,anwarulislam,2025-02-09T22:08:22Z,2025-03-13T11:32:14+00:00,4,757.4,True,157,92,15,613,0,0,0,MERGED
+4728,chore: pin pnpm v9 as the package manager,AndrewBastin,2025-02-05T21:08:14Z,2025-02-06T07:36:08+00:00,2,10.46,True,4,3,2,853,0,0,0,MERGED
+4725,fix: properties not inherited while importing from postman,anwarulislam,2025-02-05T12:19:52Z,2025-02-07T09:15:51+00:00,1,44.93,True,17,17,3,489,0,0,0,MERGED
+4724,fix: cURL header imports without trailing space,stelardn,2025-02-05T12:00:07Z,2025-02-19T07:48:02+00:00,2,331.8,True,43,0,2,858,0,0,0,MERGED
+4712,fix: ensure correct body for application/x-www-form-urlencoded in all code exports,shuaixr,2025-01-31T02:51:13Z,2025-02-06T09:12:30+00:00,2,150.35,True,4,0,1,3294,0,0,0,MERGED
+4711,Fix schema generation issue on test runner,anwarulislam,2025-01-30T17:27:08Z,2025-01-30T18:27:14+00:00,1,1.0,True,5,0,1,134,0,0,0,MERGED
+4708,chore: security patches for dependency chain,AndrewBastin,2025-01-29T11:36:24Z,2025-01-29T17:31:46+00:00,1,5.92,True,136,84,3,628,0,0,0,MERGED
+4706,feat(common): introducing history ui provider service to hoppscotch-common,JoelJacobStephen,2025-01-28T21:02:07Z,2025-01-29T17:37:30+00:00,2,20.59,True,474,370,8,369,0,0,0,MERGED
+4704,refactor: foundational changes to support subdomain based cloud instances,jamesgeorge007,2025-01-28T15:17:12Z,2025-02-24T06:54:28+00:00,4,639.62,True,1222,351,25,2726,0,1,1,MERGED
+4703,feat(ai-exp): add support for custom request naming scheme,Govind-S-B,2025-01-28T12:08:50Z,2025-01-29T14:54:39+00:00,1,26.76,True,75,46,5,157,0,0,0,MERGED
+4699,chore: add warning prompt for same response name ,nivedin,2025-01-27T16:54:09Z,2025-01-29T09:00:01+00:00,5,40.1,True,57,7,3,485,0,2,2,MERGED
+4697,feat: support rust reqwest code generation,KShivendu,2025-01-24T22:20:54Z,2025-02-06T09:21:10+00:00,2,299.0,True,16,11,3,286,1,0,1,MERGED
+4694,feat: add support for `HAWK` authentication,anwarulislam,2025-01-24T17:41:53Z,2025-04-29T09:21:19+00:00,4,2271.66,True,709,50,24,1030,0,3,3,MERGED
+4687,chore: format collection contents prior to export,shipko,2025-01-22T17:49:13Z,2025-02-06T10:49:59+00:00,2,353.01,True,3,3,2,203,0,0,0,MERGED
+4686,fix authorization hierarchy in postman import,anwarulislam,2025-01-22T01:57:37Z,2025-01-29T08:02:57+00:00,2,174.09,True,10,5,1,258,4,0,4,MERGED
+4685,chore: collection runner improvements,anwarulislam,2025-01-22T01:41:26Z,2025-01-29T12:07:10+00:00,1,178.43,True,43,18,4,307,1,0,1,MERGED
+4684,feat: platform independent core and the new desktop app,CuriousCorrelation,2025-01-21T04:43:29Z,2025-02-27T18:31:26+00:00,4,901.8,True,53981,4017,465,13578,0,3,3,MERGED
+4679,Update tr.json,halillusion,2025-01-17T12:54:47Z,2025-01-28T17:37:46+00:00,1,268.72,True,460,460,1,113,0,0,0,MERGED
+4666,docs: use GitHub markdown alert formatting for note,kutt,2025-01-08T17:08:11Z,2025-02-06T14:58:15+00:00,1,693.83,True,2,1,1,46,0,0,0,MERGED
+4658,fix(selfhost-desktop): add alias for querystring,shipko,2025-01-04T10:06:38Z,2025-02-06T11:43:04+00:00,1,793.61,True,1,0,1,205,0,0,0,MERGED
+4656,Correct the english response body lost rerun msg,shmup,2025-01-03T19:47:48Z,2025-02-06T09:47:32+00:00,1,806.0,True,1,1,1,74,1,0,1,MERGED
+4650,Update Czech localization,strepon,2024-12-27T20:29:46Z,2025-01-28T16:51:46+00:00,1,764.37,True,104,100,1,0,0,0,0,MERGED
+4645,fix(import/postman): handle non-string form values,med8bra,2024-12-25T18:41:23Z,2025-02-06T11:37:27+00:00,2,1024.93,True,2,2,1,401,0,0,0,MERGED
+4642,feat(sh-admin): introducing input validations to server configurations in admin dashboard,JoelJacobStephen,2024-12-24T14:48:07Z,2025-02-19T14:41:21+00:00,1,1367.89,True,68,5,7,561,0,0,0,MERGED
+4638,fix: do not show an empty body element when bulk editing,amk-dev,2024-12-22T23:17:11Z,2024-12-23T06:48:07+00:00,1,7.52,True,3,3,3,142,0,0,0,MERGED
+4637,feat: UI for test scripts generation under AI experiments,Govind-S-B,2024-12-20T05:09:30Z,2024-12-20T12:47:31+00:00,2,7.63,True,549,3,8,222,0,1,1,MERGED
+4636,refactor: move AI request naming style to settings,Govind-S-B,2024-12-20T01:06:01Z,2024-12-20T15:09:12+00:00,1,14.05,True,110,2,6,191,2,0,2,MERGED
+4635,feat: support for sending client credentials via basic auth header,amk-dev,2024-12-19T22:06:31Z,2025-01-15T13:13:06+00:00,3,639.11,True,506,163,26,209,0,1,1,MERGED
+4634,chore: resolve Docker image vulnerabilities associated with `cross-spawn`,mirarifhasan,2024-12-19T15:09:30Z,2024-12-20T06:44:46+00:00,1,15.59,True,3675,4287,3,139,0,0,0,MERGED
+4630,feat: add bulk edit to multipart/form data and fix url encoded form bulk edit,amk-dev,2024-12-18T19:19:51Z,2024-12-19T13:22:05+00:00,2,18.04,True,271,72,6,133,1,0,1,MERGED
+4626,feat: one click graphql document generation from docs,anwarulislam,2024-12-18T08:50:18Z,2025-01-30T05:45:37+00:00,5,1028.92,True,2014,371,34,595,6,1,7,MERGED
+4625,build: enable the use of external DB for internal test deployments,mirarifhasan,2024-12-18T06:43:53Z,2024-12-18T10:03:18+00:00,1,3.32,True,3,1,1,278,0,0,0,MERGED
+4624,fix(sh-admin): resolve record retrieval limits in pending invites section by implementing pagination,JoelJacobStephen,2024-12-17T14:51:16Z,2024-12-19T17:18:14+00:00,2,50.45,True,59,19,3,905,0,0,0,MERGED
+4623,fix: read data from DB for latest value,mirarifhasan,2024-12-17T11:33:40Z,2024-12-18T17:23:09+00:00,2,29.82,True,3,3,1,376,0,0,0,MERGED
+4618,chore: update collection runner modal UI,nivedin,2024-12-16T08:58:58Z,2024-12-18T11:59:14+00:00,5,51.0,True,20,11,1,199,0,2,2,MERGED
+4609,feat: enhance collection runner functionality,anwarulislam,2024-12-11T11:09:53Z,2024-12-19T14:36:52+00:00,5,195.45,True,244,49,19,903,0,1,1,MERGED
+4607,feat: disable tracking request history,amk-dev,2024-12-11T00:30:41Z,2024-12-16T10:52:59+00:00,4,130.37,True,477,6,24,171,0,1,1,MERGED
+4605,refactor(sh-admin): updated dates format displayed in admin dashboard,JoelJacobStephen,2024-12-10T14:14:43Z,2024-12-16T08:43:21+00:00,1,138.48,True,4,4,4,358,0,0,0,MERGED
+4604,feat(backend): update Microsoft strategy to handle multiple scopes,RaHehl,2024-12-10T09:19:10Z,2024-12-12T10:40:52+00:00,2,49.36,True,1,1,1,91,0,0,0,MERGED
+4596,chore: improve health check script,progprnv,2024-12-06T13:13:57Z,2025-02-06T11:01:42+00:00,3,1485.8,True,6,7,1,1032,0,0,0,MERGED
+4595,chore: improve healthcheck configuration for AIO container,progprnv,2024-12-05T16:28:45Z,2025-05-14T11:45:41+00:00,2,3835.28,True,29,9,2,363,0,1,1,MERGED
+4594,HSB-505 feat: user history disabling,mirarifhasan,2024-12-05T11:03:01Z,2024-12-16T08:33:09+00:00,7,261.5,True,301,20,18,798,1,5,6,MERGED
+4587,fix: add tab id while opening tab,nivedin,2024-12-03T16:25:13Z,2024-12-16T08:48:21+00:00,1,304.39,True,3,17,2,224,0,0,0,MERGED
+4583,chore(cli): drop Node.js `v18` support,jamesgeorge007,2024-12-02T09:53:35Z,2024-12-02T16:19:46+00:00,2,6.44,True,129,74,4,1267,0,0,0,MERGED
+4566,chore: show warning for interceptors not supporting binary data,CuriousCorrelation,2024-11-27T08:22:26Z,2024-11-27T11:23:30+00:00,1,3.02,True,26,16,5,75,0,0,0,MERGED
+4565,feat: add autocomplete for multipart/formdata individual content types,amk-dev,2024-11-26T23:25:32Z,2024-11-27T09:50:28+00:00,1,10.42,True,58,0,1,82,0,0,0,MERGED
+4564,chore: collection runner enhancements and ui clean up,anwarulislam,2024-11-26T22:37:55Z,2024-11-28T12:25:00+00:00,1,37.78,True,215,51,10,67,0,0,0,MERGED
+4562,fix: show file chip for the selected file in binary body,amk-dev,2024-11-26T14:38:12Z,2024-11-27T09:35:36+00:00,1,18.96,True,781,68,11,915,0,0,0,MERGED
+4560,refactor(sh-admin): updated documentation links in dashboard,JoelJacobStephen,2024-11-26T02:17:25Z,2024-11-26T13:43:08+00:00,1,11.43,True,16,7,4,271,0,0,0,MERGED
+4555,chore: update response original request version ,nivedin,2024-11-25T09:05:25Z,2024-11-25T13:04:03+00:00,1,3.98,True,85,15,8,216,0,0,0,MERGED
+4550,feat: add individual content types for formadata,amk-dev,2024-11-19T19:32:08Z,2024-11-24T14:06:10+00:00,4,114.57,True,161,10,10,152,0,1,1,MERGED
+4549,HSB-500 fix: returning introspection complexity to 0,mirarifhasan,2024-11-18T18:11:31Z,2024-11-25T13:55:40+00:00,3,163.74,True,9,0,1,211,0,1,1,MERGED
+4548,feat(sh-admin): introducing user guidance and error management helpers in admin dashboard ,JoelJacobStephen,2024-11-18T14:51:11Z,2024-11-22T16:52:34+00:00,1,98.02,True,209,106,12,1050,0,0,0,MERGED
+4545,HSB-499 feat: env file sync with infra config,mirarifhasan,2024-11-18T07:39:38Z,2024-11-26T14:22:51+00:00,1,198.72,True,210,59,8,383,0,0,0,MERGED
+4537,fix: resolve GraphQL collection tree and tab dissociation issues,jamesgeorge007,2024-11-14T09:28:24Z,2024-11-22T17:01:00+00:00,1,199.54,True,78,24,6,1557,0,0,0,MERGED
+4535,chore: continue openapi imports on error with a partial import,amk-dev,2024-11-13T17:28:41Z,2024-11-25T07:20:20+00:00,2,277.86,True,69,2,1,241,0,0,0,MERGED
+4527,feat(agent): add registration list management and ux,CuriousCorrelation,2024-11-11T07:14:47Z,2025-03-01T09:01:02+00:00,1,2641.77,False,418,71,16,479,0,0,0,CLOSED
+4523,hotfix: graphql connection error handler,anwarulislam,2024-11-07T22:02:39Z,2024-11-12T15:45:48+00:00,4,113.72,True,55,15,4,808,0,1,1,MERGED
+4516,fix: clicking on run query without connecting connects without docs polling,AndrewBastin,2024-11-06T19:09:54Z,2024-11-07T06:58:04+00:00,2,11.8,True,8,7,2,418,0,0,0,MERGED
+4511,fix(agent): propagate default values to persistent store,CuriousCorrelation,2024-11-04T13:47:26Z,2024-11-06T09:30:52+00:00,3,43.72,True,151,108,12,399,0,1,1,MERGED
+4508,HSB-497 chore: user deletetion if not solo team owner,mirarifhasan,2024-11-03T04:15:39Z,2024-11-05T15:48:23+00:00,3,59.55,True,32,19,2,329,3,1,4,MERGED
+4505,fix(selfhost-desktop): specify `Digest Auth` support for `Proxy` interceptor,jamesgeorge007,2024-11-01T17:29:57Z,2024-11-06T06:16:38+00:00,1,108.78,True,5,4,1,331,0,0,0,MERGED
+4494,fix: process headers correctly in Digest Auth and other updates,jamesgeorge007,2024-10-30T10:02:02Z,2024-10-30T11:42:20+00:00,1,1.67,True,105,85,8,1577,0,0,0,MERGED
+4492,fix: scrollbar appearing on digest auth input fields and other improvements,anwarulislam,2024-10-29T13:31:13Z,2024-10-29T15:05:14+00:00,1,1.57,True,9,12,4,458,0,0,0,MERGED
+4489,feat: import summaries,amk-dev,2024-10-28T22:53:43Z,2024-11-25T06:12:26+00:00,3,655.31,True,450,43,10,130,0,0,0,MERGED
+4485,fix: preserve request order when importing and exporting collections,sz-2302,2024-10-27T11:59:37Z,2025-07-22T21:27:24+00:00,2,6441.46,False,517,247,4,3043,2,0,2,CLOSED
+4483,feat: one-click graphQL query & mutation generation,bogking,2024-10-27T06:21:45Z,2024-12-18T08:51:20+00:00,1,1250.49,False,594,35,7,1332,2,2,4,CLOSED
+4482,fix: inherited headers and auth included in code generation,Loznerol,2024-10-26T08:13:41Z,2024-12-18T13:43:09+00:00,2,1277.49,True,60,13,1,433,3,0,3,MERGED
+4478,fix: codegen breaking in example tab and minor UI updates,nivedin,2024-10-25T13:19:05Z,2024-10-28T10:39:40+00:00,1,69.34,True,36,14,7,325,0,0,0,MERGED
+4475,feat: collection CLI runner with iterations and data feed,shobanrajm,2024-10-25T10:43:51Z,2024-11-22T17:08:52+00:00,1,678.42,True,626,241,16,952,1,0,1,MERGED
+4474,fix: postman env variables are to be imported as secrets,shobanrajm,2024-10-25T10:34:43Z,2024-10-28T11:28:12+00:00,1,72.89,True,53,12,5,278,2,0,2,MERGED
+4472,feat(ci): portable and installer build workflow for `hoppscotch-agent`,CuriousCorrelation,2024-10-24T15:48:58Z,2024-10-24T19:59:10+00:00,1,4.17,True,251,2,2,496,0,0,0,MERGED
+4471,feat: `hoppscotch-relay` for request forwarding,CuriousCorrelation,2024-10-24T12:10:01Z,2024-10-24T20:06:15+00:00,1,7.94,True,789,623,8,98,0,0,0,MERGED
+4468,feat: portable version of `hoppscotch-agent`,CuriousCorrelation,2024-10-24T08:13:43Z,2024-10-24T10:16:20+00:00,1,2.04,True,1009,139,14,235,0,0,0,MERGED
+4467,HSB-495 feat: user workspace stats api added,mirarifhasan,2024-10-23T09:33:19Z,2024-10-28T18:23:53+00:00,1,128.84,True,109,3,3,421,0,0,0,MERGED
+4466,feat: support for binary body,amk-dev,2024-10-22T19:31:09Z,2024-11-26T14:18:01+00:00,2,834.78,True,261,22,16,308,0,0,0,MERGED
+4465,feat: use VITE_PROXY_URL for PROXY_URL,SunsetMkt,2024-10-22T14:08:30Z,2025-05-09T15:33:38+00:00,1,4777.42,False,2,1,1,164,6,0,6,CLOSED
+4464,chore: environment highlight colour schema update,nivedin,2024-10-22T07:48:12Z,2024-10-25T07:31:38+00:00,3,71.72,True,88,29,6,295,2,0,2,MERGED
+4462,fix: prevent keypress actions in the loading state,xLansang,2024-10-21T11:52:01Z,2024-10-22T16:30:30+00:00,1,28.64,True,34,0,8,406,0,0,0,MERGED
+4461,chore: improve `German` translation,RaHehl,2024-10-21T08:44:44Z,2024-10-25T08:47:22+00:00,3,96.04,True,211,137,1,73,0,0,0,MERGED
+4457,feat(i18n/cn): update CN translation,subframe7536,2024-10-18T14:40:15Z,2024-10-25T08:39:49+00:00,3,161.99,True,198,198,1,47,1,0,1,MERGED
+4456,fix: resolve empty state image correctly in profile page,jamesgeorge007,2024-10-18T06:57:38Z,2024-10-22T16:34:18+00:00,1,105.61,True,1,1,1,1536,0,0,0,MERGED
+4455,fix(i18n/es): fixed translation errors and translated missing keys,sawa-ko,2024-10-17T16:12:12Z,2024-10-25T08:20:26+00:00,5,184.14,True,156,156,1,255,2,5,7,MERGED
+4445,HSB-494 fix: downgrade eslint related package,mirarifhasan,2024-10-17T07:25:07Z,2024-10-17T10:29:02+00:00,2,3.07,True,192,169,2,211,0,1,1,MERGED
+4444,chore: bump dependencies,jamesgeorge007,2024-10-16T14:55:18Z,2024-10-23T21:55:55+00:00,1,175.01,True,4826,6305,22,5522,0,0,0,MERGED
+4442,feat: `openssl` based `hoppscotch-relay` for request forwarding,CuriousCorrelation,2024-10-16T07:35:13Z,2024-10-24T08:50:51+00:00,2,193.26,True,2285,860,28,187,0,1,1,MERGED
+4440,feat(common): introducing ability to set custom collection import size limit,JoelJacobStephen,2024-10-15T23:42:22Z,2024-10-23T13:04:40+00:00,2,181.37,True,32,14,5,399,2,0,2,MERGED
+4435,feat(common): add status code and additional metadata to GraphQL responses,barrettluke,2024-10-13T22:45:04Z,2025-07-24T11:22:33+00:00,8,6804.62,True,189,2,4,562,0,3,3,MERGED
+4433,chore(sh-admin): bump dependencies,JoelJacobStephen,2024-10-13T03:10:23Z,2024-10-23T13:21:01+00:00,1,250.18,True,2781,4290,8,1233,0,0,0,MERGED
+4431,feat: show login dialogue for features behind login,amk-dev,2024-10-12T09:02:53Z,2024-11-13T07:11:39+00:00,3,766.15,True,43,17,6,302,0,0,0,MERGED
+4430,chore(backend): configure CORS for development and production environments,ZenMachina16,2024-10-12T06:15:08Z,2025-05-14T06:59:24+00:00,3,5136.74,True,6,7,1,1116,0,2,2,MERGED
+4426,HSB-489 feat: hoppscotch-backend dependency update,mirarifhasan,2024-10-10T13:07:00Z,2024-10-16T21:46:54+00:00,1,152.66,True,6108,4691,7,98,0,0,0,MERGED
+4422,fix: add full request as request context,amk-dev,2024-10-09T22:22:54Z,2024-10-10T12:41:58+00:00,2,14.32,True,9,2,2,330,0,0,0,MERGED
+4419,feat: add button to export test results as json,Pranay-Pandey,2024-10-08T21:01:32Z,2024-10-28T15:53:21+00:00,3,474.86,True,51,6,3,246,1,2,3,MERGED
+4416,fix: trailing comma makes json invalid,anwarulislam,2024-10-08T12:43:22Z,2024-10-28T15:34:08+00:00,5,482.85,True,93,266,5,714,2,0,2,MERGED
+4412,feat: add the ability to configure query params encoding for requests,Pranay-Pandey,2024-10-07T21:12:32Z,2024-10-23T13:14:21+00:00,3,376.03,True,187,108,11,448,0,0,0,MERGED
+4402,fix: comments being stripped out of json request body,AndrewBastin,2024-10-04T16:54:24Z,2024-10-04T18:11:40+00:00,1,1.29,True,13,17,3,408,0,0,0,MERGED
+4397,fix: correct SVG rendering issue by adjusting blob type (#3565),shuaixr,2024-10-02T09:45:09Z,2024-10-03T13:34:45+00:00,1,27.83,True,2,2,1,168,0,0,0,MERGED
+4396,feat: hoppscotch agent and agent interceptor ,AndrewBastin,2024-10-01T18:04:14Z,2024-10-03T14:56:30+00:00,2,44.87,True,14622,595,106,1791,0,0,0,MERGED
+4393,fix: update copy + improve ux on ai experiments,amk-dev,2024-10-01T09:00:35Z,2024-10-01T10:47:31+00:00,1,1.78,True,59,13,8,345,0,0,0,MERGED
+4388,refactor(backend): minor updates in `TeamEnvironmentsService`,mir-ishfaq-hussain,2024-09-30T17:00:04Z,2025-04-29T09:07:05+00:00,4,5056.12,True,8,7,1,138,0,1,1,MERGED
+4386,feat: modify body with ai & feedback on ai requests hoppscotch-common bindings,amk-dev,2024-09-30T11:39:46Z,2024-09-30T16:51:14+00:00,1,5.19,True,791,79,13,136,0,0,0,MERGED
+4384,fix: resolve personal environments correctly while editing via quick peek,shipko,2024-09-29T15:36:43Z,2024-10-10T11:45:54+00:00,2,260.15,True,5,6,1,340,1,0,1,MERGED
+4382,feat: save api response,nivedin,2024-09-26T19:47:00Z,2024-09-30T13:36:53+00:00,4,89.83,True,3074,315,84,296,1,1,2,MERGED
+4377,feat: import to the current workspace from any team / personal workspace,amk-dev,2024-09-25T23:53:47Z,2024-09-30T13:12:09+00:00,1,109.31,True,447,77,9,444,0,0,0,MERGED
+4373,fix: import openapi file servers url detection,Lupennat,2024-09-21T14:49:24Z,2025-02-07T09:51:18+00:00,2,3331.03,True,1,1,1,123,0,0,0,MERGED
+4368,feat: extend duplicate collection to personal workspace in SH,jamesgeorge007,2024-09-20T11:39:01Z,2024-09-30T15:50:19+00:00,2,244.19,True,604,275,12,2038,0,0,0,MERGED
+4367,feat: add file extensions to response exports,shipko,2024-09-20T11:25:40Z,2025-04-29T08:21:34+00:00,2,5300.93,True,15,9,3,96,1,0,1,MERGED
+4365,fix(desktop): content security policy config preventing app launch,CuriousCorrelation,2024-09-20T09:35:41Z,2024-09-23T11:32:22+00:00,1,73.94,True,1,1,1,535,0,0,0,MERGED
+4363,chore: make client secret optional across grant types,amk-dev,2024-09-19T20:39:16Z,2024-09-27T11:50:26+00:00,2,183.19,True,256,42,16,389,0,0,0,MERGED
+4361,fix: workspace environment list reset bug,nivedin,2024-09-19T08:04:36Z,2024-09-19T12:47:07+00:00,1,4.71,True,31,27,1,299,0,0,0,MERGED
+4359,chore: export single User/Team Collection,balub,2024-09-18T20:19:35Z,2024-09-27T11:25:47+00:00,2,207.1,True,68,3,5,231,0,5,5,MERGED
+4358,chore: addition of new GQL subscription for `UserCollection` duplication,balub,2024-09-18T19:28:28Z,2024-09-26T17:24:44+00:00,6,189.94,True,141,3,4,187,0,7,7,MERGED
+4356,feat: add generate data schema option in spotlight searcher,anwarulislam,2024-09-18T11:43:51Z,2024-09-27T11:17:56+00:00,1,215.57,True,10,0,1,114,0,0,0,MERGED
+4344,fix: preemptly update pwa settings to avoid missing files in the service worker cache,amk-dev,2024-09-13T06:39:53Z,2024-09-19T13:39:15+00:00,1,150.99,True,132,33,3,1759,0,1,1,MERGED
+4339,feat: add support for `Digest` authorization,anwarulislam,2024-09-11T12:32:04Z,2024-10-29T07:04:40+00:00,3,1146.54,True,964,49,29,654,0,2,2,MERGED
+4337,fix: close context menu when no text is selected,nivedin,2024-09-10T17:14:04Z,2024-09-11T06:10:22+00:00,1,12.94,True,18,8,1,152,0,0,0,MERGED
+4336,fix: ensure cross-platform compatibility with file exports,jamesgeorge007,2024-09-09T09:14:35Z,2024-09-10T07:23:33+00:00,1,22.15,True,116,109,8,1111,0,0,0,MERGED
+4335,feat: support for comments on `application/json` request body,anwarulislam,2024-09-09T06:20:41Z,2024-10-01T08:38:01+00:00,1,530.29,True,537,72,7,379,1,0,1,MERGED
+4334,feat: duplicate global environment under team workspaces,jamesgeorge007,2024-09-09T05:49:54Z,2024-09-25T12:44:55+00:00,3,390.92,True,135,111,9,1406,1,0,1,MERGED
+4333,chore: bump github actions to v4,trivikr,2024-09-08T23:18:58Z,2024-09-10T08:02:12+00:00,1,32.72,True,4,4,3,439,0,0,0,MERGED
+4329,feat(filename): added filename in download functional,shipko,2024-09-05T10:55:35Z,2024-09-19T12:53:40+00:00,2,337.97,True,56,46,15,178,3,0,3,MERGED
+4325,fix(status): fix import status message,shipko,2024-09-03T11:28:00Z,2024-09-11T07:35:05+00:00,2,188.12,True,14,12,3,166,1,1,2,MERGED
+4323,chore: Russian translation,YAGrand,2024-09-03T07:25:14Z,2024-09-03T09:52:47+00:00,2,2.46,False,95,66,1,132,1,8,9,CLOSED
+4315,fix: sidebar codegen crashing and AWS Signature Auth flow updates,AndrewBastin,2024-09-01T03:12:52Z,2024-09-01T15:55:06+00:00,3,12.7,True,63,26,7,872,0,0,0,MERGED
+4311,chore: AWS Signature Authorization type flow updates,anwarulislam,2024-08-30T13:50:18Z,2024-08-30T14:58:27+00:00,1,1.14,True,92,41,8,403,0,0,0,MERGED
+4309,fix: resolve multiple UI issues and account for `description` field in syncing context,nivedin,2024-08-29T14:42:51Z,2024-08-30T06:45:19+00:00,2,16.04,True,73,29,6,1292,0,0,0,MERGED
+4307,feat: support importing HAR ( Http Archive Format ) files,amk-dev,2024-08-28T19:26:37Z,2024-08-29T09:03:07+00:00,2,13.61,True,287,0,4,382,0,0,0,MERGED
+4305,feat(cli): add support for AWS Signature Authorization type,jamesgeorge007,2024-08-28T13:15:14Z,2024-08-30T08:42:32+00:00,1,43.45,True,231,6,6,683,0,0,0,MERGED
+4304,fix: colour mode bug in profile page ,nivedin,2024-08-28T11:59:19Z,2024-08-28T13:18:59+00:00,1,1.33,True,1,1,1,103,0,0,0,MERGED
+4302,feat: ability to refresh tokens for oauth flows,amk-dev,2024-08-27T12:44:22Z,2024-08-29T07:57:31+00:00,2,43.22,True,488,68,20,775,0,0,0,MERGED
+4298,chore(lang): update ru locale #2,shipko,2024-08-26T10:48:13Z,2024-08-28T08:28:34+00:00,1,45.67,True,1,1,1,71,0,0,0,MERGED
+4296,bug: .env.example fix comments formatting,lwp2070809,2024-08-26T03:05:03Z,2024-08-26T05:55:13+00:00,1,2.84,True,4,2,1,524,0,0,0,MERGED
+4295,chore(lang): update ru locale,shipko,2024-08-25T16:18:32Z,2024-08-26T06:52:46+00:00,1,14.57,True,130,130,1,161,0,0,0,MERGED
+4290,chore: updated and corrected Danish translations.,ch99q,2024-08-23T10:16:30Z,2024-08-26T07:13:14+00:00,1,68.95,True,714,724,1,644,0,0,0,MERGED
+4284,fix: persist request execution context between tabs,nivedin,2024-08-22T07:31:03Z,2024-08-22T17:10:21+00:00,2,9.65,True,18,7,3,493,0,0,0,MERGED
+4282,HSB-482 fix: add env missing checks,mirarifhasan,2024-08-21T18:15:09Z,2024-08-26T11:06:16+00:00,1,112.85,True,11,0,2,162,0,0,0,MERGED
+4280,feat: sort environments alphabetically,nivedin,2024-08-20T15:02:35Z,2024-08-28T07:46:10+00:00,2,184.73,True,146,31,8,376,0,1,1,MERGED
+4275,feat(cli): add support for request variables,jamesgeorge007,2024-08-19T07:16:22Z,2024-08-26T13:51:30+00:00,1,174.59,True,449,45,8,1582,0,0,0,MERGED
+4273,fix: improvement for body tab and RawBody empty string bug,shipko,2024-08-18T05:50:11Z,2024-08-19T10:12:35+00:00,1,28.37,True,6,1,2,176,0,0,0,MERGED
+4269,Add Open Containers Initiative (OCI) labels,DevSecNinja,2024-08-16T09:47:26Z,2024-08-29T08:34:00+00:00,1,310.78,True,5,0,1,740,0,0,0,MERGED
+4263,fix: sync all settings actions in SH,jamesgeorge007,2024-08-14T07:17:14Z,2024-08-19T19:52:10+00:00,1,132.58,True,22,4,4,2329,0,0,0,MERGED
+4260,fix: update Arabic translations,tasnim0tantawi,2024-08-13T13:50:30Z,2024-08-19T10:10:14+00:00,2,140.33,True,624,624,1,113,1,4,5,MERGED
+4255,fix: reset currentEnv if there is a shared workspace change,nivedin,2024-08-13T08:40:41Z,2024-08-19T10:13:32+00:00,1,145.55,True,19,9,2,547,0,0,0,MERGED
+4252,chore: update WhatsNewDialog UI and position,anwarulislam,2024-08-11T22:00:03Z,2024-08-19T19:51:34+00:00,1,189.86,True,65,16,2,226,1,0,1,MERGED
+4245,chore: hide duplicate `Global environment` action for a team workspace,jamesgeorge007,2024-08-07T09:32:02Z,2024-08-07T16:12:37+00:00,2,6.68,True,39,25,2,999,0,0,0,MERGED
+4244,chore: add ai renames at more places,amk-dev,2024-08-07T00:37:53Z,2024-08-07T16:13:32+00:00,2,15.59,True,221,144,9,344,0,0,0,MERGED
+4242,fix: ensure `Content-Type` header priority in the CLI,jamesgeorge007,2024-08-06T14:57:25Z,2024-08-07T16:16:27+00:00,1,25.32,True,290,32,11,1627,0,0,0,MERGED
+4240,"i18n: Fix german translation for ""label""",pavog,2024-08-06T11:26:28Z,2024-08-07T16:17:32+00:00,1,28.85,True,1,1,1,183,0,0,0,MERGED
+4238,fix: add to parameters regex,ajmalmohad,2024-08-04T12:46:51Z,2024-08-06T09:48:14+00:00,1,45.02,True,1,1,1,414,0,0,0,MERGED
+4233,refactor: slim down the backend containers,AndrewBastin,2024-08-01T22:30:49Z,2024-08-08T06:01:13+00:00,6,151.51,True,1256,442,12,2330,2,4,6,MERGED
+4231,chore: user management api additions,balub,2024-08-01T11:56:11Z,2024-08-05T10:01:59+00:00,2,94.1,True,46,1,3,267,0,1,1,MERGED
+4226,fix: path not taken into account for socket.io connection without token auth,artu-ole,2024-07-31T06:04:57Z,2024-08-06T12:05:50+00:00,1,150.01,True,2,2,2,376,0,0,0,MERGED
+4222,feat: hoppscotch-common & platform additions for ai experiments,amk-dev,2024-07-29T23:48:33Z,2024-07-30T06:46:44+00:00,1,6.97,True,208,18,12,648,0,0,0,MERGED
+4221,fix(sh-admin): resolved issue while rendering images,JoelJacobStephen,2024-07-29T16:09:26Z,2024-07-29T17:29:03+00:00,1,1.33,True,2,4,4,554,0,0,0,MERGED
+4217,feat: add loading state for import actions,HelixY2J,2024-07-28T12:12:08Z,2024-09-23T11:30:48+00:00,4,1367.31,True,194,93,9,967,1,7,8,MERGED
+4216,refactor: make global environment a versioned entity,ipalakchopra,2024-07-28T09:35:00Z,2024-09-23T11:31:14+00:00,3,1369.94,True,336,137,17,1313,0,6,6,MERGED
+4212,HSB-473 feat: encrypt sensitive data before storing in db,mirarifhasan,2024-07-25T10:54:16Z,2024-08-14T07:34:12+00:00,7,476.67,True,213,26,8,487,0,8,8,MERGED
+4211,feat: duplicate REST/GraphQL collections,jamesgeorge007,2024-07-24T17:30:19Z,2024-07-29T13:07:34+00:00,4,115.62,True,726,97,26,5091,0,11,11,MERGED
+4210,fix: auth bug when value is a secret environment,nivedin,2024-07-24T10:30:18Z,2024-07-27T15:24:16+00:00,1,76.9,True,54,13,3,294,0,0,0,MERGED
+4207,feat: duplicate team and user collections,balub,2024-07-23T12:36:29Z,2024-07-24T16:25:08+00:00,5,27.81,True,122,0,4,506,0,4,4,MERGED
+4203,fix: codemirror search bar misaligned,nivedin,2024-07-22T07:16:59Z,2024-07-22T11:34:54+00:00,1,4.3,True,7,50,7,93,0,0,0,MERGED
+4202,feat(sh-admin): introducing infra-tokens to admin dashboard,JoelJacobStephen,2024-07-21T18:43:19Z,2024-07-29T12:20:06+00:00,1,185.61,True,753,74,18,474,0,0,0,MERGED
+4196,i18n: Add german translations,pavog,2024-07-17T15:45:41Z,2024-07-18T08:56:10+00:00,2,17.17,True,256,256,1,772,0,0,0,MERGED
+4195,i18n: Fix existing german translations,pavog,2024-07-17T10:45:16Z,2024-07-18T08:49:47+00:00,2,22.08,True,8,8,1,201,0,0,0,MERGED
+4194,feat: Ability to toggle cookies to work in HTTP,balub,2024-07-17T07:12:41Z,2024-07-24T16:14:39+00:00,3,177.03,True,5,2,2,434,0,1,1,MERGED
+4191,HSB-462 feat: infra token module and sh apis,mirarifhasan,2024-07-16T12:47:24Z,2024-07-29T07:06:18+00:00,4,306.31,True,1075,126,21,257,0,6,6,MERGED
+4190,feat: request auto rename prototype,Govind-S-B,2024-07-16T11:45:49Z,2024-07-30T08:57:35+00:00,1,333.2,False,71,8,4,104,1,1,2,CLOSED
+4189,feat(cli): add support for JUnit reporter,jamesgeorge007,2024-07-16T07:23:55Z,2024-07-26T17:26:58+00:00,2,250.05,True,1197,64,15,6125,0,0,0,MERGED
+4188,fix: wrap line button showing inconsistency bug,nivedin,2024-07-15T07:15:31Z,2024-07-18T09:50:58+00:00,1,74.59,True,3,2,3,190,0,0,0,MERGED
+4187,feat: description field for request parameters and headers,anwarulislam,2024-07-14T14:27:24Z,2024-08-27T09:00:12+00:00,4,1050.55,True,1347,1073,29,4580,0,1,1,MERGED
+4181,fix: embeds response and request option section getting hidden bug,nivedin,2024-07-11T11:28:42Z,2024-07-18T09:43:43+00:00,5,166.25,True,251,196,13,410,0,3,3,MERGED
+4180,fix: secret variables being populated as `undefined` on code snippets,nivedin,2024-07-10T16:33:17Z,2024-07-18T09:14:37+00:00,4,184.69,True,134,87,9,360,0,1,1,MERGED
+4177,feat: persist HTML response preview preference,anwarulislam,2024-07-09T14:58:38Z,2024-07-19T10:48:55+00:00,3,235.84,True,75,38,4,299,0,0,0,MERGED
+4176,refactor(sh-admin): updated invite flow for the admin dashboard,JoelJacobStephen,2024-07-09T12:50:39Z,2024-07-26T14:44:41+00:00,3,409.9,True,96,19,6,1072,3,1,4,MERGED
+4173,fix: `<img>` is flex's immediate child therefore it stretch to its parent width,anwarulislam,2024-07-07T07:12:50Z,2024-07-17T16:04:08+00:00,2,248.85,True,2,2,1,231,0,0,0,MERGED
+4172,fix: fix issue for multipart/form-data and cookie header (#4162),shipko,2024-07-06T14:21:06Z,2024-07-22T13:03:38+00:00,3,382.71,True,24,9,3,358,1,1,2,MERGED
+4166,chore: cleanup i18n translations,nivedin,2024-07-03T11:08:15Z,2024-07-05T14:52:50+00:00,1,51.74,True,3654,419,30,127,0,0,0,MERGED
+4153,feat: copyable invite links,amk-dev,2024-06-28T14:39:03Z,2024-06-28T15:48:10+00:00,3,1.15,True,119,4,7,273,0,1,1,MERGED
+4151,fix: codemirror crashing due to cursor not updating,nivedin,2024-06-28T10:18:50Z,2024-07-02T08:11:20+00:00,2,93.88,True,8,15,2,367,0,0,0,MERGED
+4142,feat: add support for AWS Signature authorization,anwarulislam,2024-06-24T05:59:13Z,2024-08-30T08:30:13+00:00,3,1610.52,True,1490,657,26,113,1,0,1,MERGED
+4141,feat: CLI collection runner command generation UI flow,jamesgeorge007,2024-06-22T12:34:54Z,2024-06-27T13:47:56+00:00,6,121.22,True,584,97,11,1335,1,1,2,MERGED
+4138,fix: large content scroll bug in codemirror editor,nivedin,2024-06-20T15:30:08Z,2024-06-21T17:57:22+00:00,1,26.45,True,8,4,3,869,0,0,0,MERGED
+4123,refactor(common): improvements to banner handling logic,JoelJacobStephen,2024-06-14T14:08:31Z,2024-06-25T09:44:53+00:00,4,259.61,True,25,18,1,293,0,2,2,MERGED
+4122,fix: styling issue on selection in codemirror,nivedin,2024-06-14T09:38:14Z,2024-06-24T06:45:04+00:00,1,237.11,True,1,0,1,401,0,0,0,MERGED
+4121,HSB-450 feature: user last active on,mirarifhasan,2024-06-13T11:16:34Z,2024-06-21T07:10:21+00:00,2,187.9,True,100,5,8,416,0,1,1,MERGED
+4114,fix: make client credential optional in authcode + pkce flow,amk-dev,2024-06-11T20:11:52Z,2024-06-12T08:40:55+00:00,2,12.48,True,140,20,7,291,0,0,0,MERGED
+4113,refactor(workspaces): personal workspace provider additions for REST environments,jamesgeorge007,2024-06-11T15:39:48Z,2024-06-21T12:10:01+00:00,1,236.5,True,1792,564,35,3583,0,0,0,MERGED
+4112,fix: headers having different values with the same key are not shown,AndrewBastin,2024-06-06T16:30:46Z,2024-06-12T08:41:43+00:00,2,136.18,True,34,19,5,1191,0,0,0,MERGED
+4111,feat: client certificates and ability to skip ssl cert verification in desktop app,AndrewBastin,2024-06-06T13:03:52Z,2024-06-25T10:05:43+00:00,1,453.03,True,2223,829,15,1045,0,0,0,MERGED
+4108,fix: ctrl+enter inserting newline in code,ajmalmohad,2024-06-05T12:33:51Z,2024-07-02T09:37:27+00:00,1,645.06,True,10,0,1,538,1,0,1,MERGED
+4107,chore: changed the returned status type for errors in the access-tokens,balub,2024-06-05T12:26:58Z,2024-06-07T06:38:35+00:00,1,42.19,True,14,12,4,351,0,0,0,MERGED
+4106,fix: huge code scroll issue,ajmalmohad,2024-06-05T10:24:09Z,2024-06-20T15:31:55+00:00,2,365.13,False,21,7,7,619,1,0,1,CLOSED
+4105,feat: new ui for response interface generation,anwarulislam,2024-06-05T10:20:26Z,2024-08-30T06:40:52+00:00,4,2060.34,True,467,251,8,394,1,3,4,MERGED
+4099,feat: added codegen tab in the sidbear,anwarulislam,2024-06-03T06:26:27Z,2024-06-24T06:33:19+00:00,5,504.11,True,432,377,5,348,0,2,2,MERGED
+4098,feat: added change log prompt for PWA updates,anwarulislam,2024-06-03T06:14:34Z,2024-06-27T16:03:33+00:00,9,585.82,True,236,73,12,366,0,7,7,MERGED
+4097,fix(sh-desktop): add missing @hoppscotch/data to selfhost-desktop,xTudoS,2024-06-02T06:17:23Z,2024-06-06T15:02:50+00:00,1,104.76,True,1,0,1,293,0,0,0,MERGED
+4095,feat(cli): access team workspace collections and environments,jamesgeorge007,2024-05-30T17:52:47Z,2024-06-27T12:41:29+00:00,11,666.81,True,17364,13197,48,7899,0,6,6,MERGED
+4094,feat: introduce personal access tokens for authorization,jamesgeorge007,2024-05-29T14:16:06Z,2024-06-24T06:15:31+00:00,6,615.99,True,857,226,9,2590,0,4,4,MERGED
+4087,feat(sh-admin): introducing advanced SMTP configurations and invite links to dashboard,JoelJacobStephen,2024-05-24T16:53:28Z,2024-06-27T19:15:50+00:00,1,818.37,True,406,98,11,977,0,0,0,MERGED
+4086,fix: precision lost when json is beautified,nivedin,2024-05-23T17:06:45Z,2024-06-03T09:00:31+00:00,2,255.9,True,3,2,1,341,0,0,0,MERGED
+4081,fix(sh-admin): saving changes to server configurations post a failed attempt will require a page reload in dashboard,JoelJacobStephen,2024-05-22T13:13:50Z,2024-06-03T09:01:44+00:00,3,283.8,True,29,14,4,648,1,1,2,MERGED
+4079,feat: adding support for `hopp-cli` in self-host Hoppscotch,balub,2024-05-20T19:58:04Z,2024-05-28T11:09:50+00:00,7,183.2,True,983,24,20,863,1,8,9,MERGED
+4078,HSB-439 feature: invite link with SMTP optional,mirarifhasan,2024-05-20T17:47:54Z,2024-06-27T12:23:40+00:00,12,906.6,True,12773,14642,22,322,3,11,14,MERGED
+4077,feat(sh-admin): introducing last active status to users table and individual user's page in dashboard ,JoelJacobStephen,2024-05-20T05:08:56Z,2024-06-26T07:00:40+00:00,4,889.86,True,23,19,6,368,0,2,2,MERGED
+4076,hotix: prevent unwanted variable wrapping during Insomnia import,anwarulislam,2024-05-20T03:44:23Z,2024-06-24T06:16:50+00:00,2,842.54,True,8,3,1,349,1,1,2,MERGED
+4074,HSB-445 feature: storing user last login timestamp,mirarifhasan,2024-05-19T17:09:36Z,2024-05-27T16:19:42+00:00,9,191.17,True,123,34,15,463,0,5,5,MERGED
+4071,fix: add previous value as optional in test schema env diff,nivedin,2024-05-16T18:35:47Z,2024-06-03T08:59:48+00:00,2,422.4,True,2,2,1,357,0,0,0,MERGED
+4060,fix: persist interceptor state for logged out user,nivedin,2024-05-13T08:42:49Z,2024-06-03T08:58:58+00:00,8,504.27,True,67,117,5,378,1,2,3,MERGED
+4057,locale: update tr i18n translations,islamzeki,2024-05-10T17:34:28Z,2024-06-03T09:05:32+00:00,2,567.52,True,90,36,1,260,0,0,0,MERGED
+4051,"refactor: Set default interceptor to ""proxy""",nivedin,2024-05-09T08:02:06Z,2024-05-10T08:31:43+00:00,1,24.49,True,59,46,2,284,0,0,0,MERGED
+4048,feat: healthcheck for external services,balub,2024-05-07T09:02:12Z,2024-05-07T14:35:17+00:00,1,5.55,True,142,0,5,622,0,0,0,MERGED
+4045,build: database seed for hoppscotch backend,mirarifhasan,2024-05-07T05:35:27Z,2025-07-09T06:43:08+00:00,1,10273.13,False,14738,16574,4,377,0,1,1,CLOSED
+4044,refactor(sh-admin): improved error handling and dynamic user actions in admin dashboard,JoelJacobStephen,2024-05-07T05:23:19Z,2024-06-03T11:47:46+00:00,7,654.41,True,154,73,8,1072,1,6,7,MERGED
+4042,HSB-431 fix: email case sensitive in email provider,mirarifhasan,2024-05-07T04:54:55Z,2024-05-15T07:07:35+00:00,2,194.21,True,34,20,6,720,1,2,3,MERGED
+4039,Update tr.json,islamzeki,2024-05-06T13:57:11Z,2024-05-10T08:46:04+00:00,2,90.81,True,5,5,1,252,0,0,0,MERGED
+4033,fix: code generate modal erroring out,AndrewBastin,2024-05-03T10:01:17Z,2024-05-06T17:14:13+00:00,2,79.22,True,106,83,2,1303,1,0,1,MERGED
+4030,Switching workspace doesn't invalidate context ,jobartim44,2024-05-02T16:03:12Z,2024-05-30T09:03:43+00:00,2,665.01,False,5,0,1,204,5,0,5,CLOSED
+4015,refactor: switch workspace after creation,nivedin,2024-04-29T14:10:35Z,2024-05-09T14:58:24+00:00,5,240.8,True,112,149,11,338,0,5,5,MERGED
+4009,refactor: update to dioc v3,AndrewBastin,2024-04-25T17:45:21Z,2024-04-29T13:36:18+00:00,3,91.85,True,173,170,46,1311,0,0,0,MERGED
+4006,feat: hover placeholder transition for smartenvinput,nivedin,2024-04-24T15:36:20Z,2024-04-30T10:42:24+00:00,3,139.1,False,190,44,14,399,0,4,4,CLOSED
+4005,locale: update ru locale,shipko,2024-04-24T07:31:15Z,2024-05-10T08:21:25+00:00,3,384.84,True,226,187,1,227,0,1,1,MERGED
+4004,fix(common): rest and graphql pages not being rendered when french is selected as app language,JoelJacobStephen,2024-04-24T06:17:12Z,2024-04-25T12:31:46+00:00,2,30.24,True,20,20,1,348,0,1,1,MERGED
+4003,chore: update pt-br translations,stelardn,2024-04-23T19:39:16Z,2024-05-10T08:26:58+00:00,2,396.8,True,293,293,1,333,0,0,0,MERGED
+4000,fix: resolved mailer module email issue,balub,2024-04-23T10:54:34Z,2024-04-29T06:35:07+00:00,1,139.68,True,1,3,1,333,1,0,1,MERGED
+3986,fix: french lang translation,jobartim44,2024-04-18T16:32:58Z,2024-04-19T15:51:15+00:00,2,23.3,True,12,12,1,235,0,0,0,MERGED
+3982,refactor: infra-config code refactor,mirarifhasan,2024-04-17T12:26:56Z,2024-04-19T07:13:43+00:00,2,42.78,True,28,15,2,447,0,1,1,MERGED
+3978,fix: use pressed key rather than its code,posva,2024-04-15T09:26:47Z,2024-04-19T17:05:14+00:00,10,103.64,True,14857,12786,3,247,5,4,9,MERGED
+3977,feat: first time user spotlight animation,nivedin,2024-04-15T07:26:44Z,2024-04-22T06:51:30+00:00,10,167.41,True,326,77,11,491,2,8,10,MERGED
+3976,Added new button to save request modal,shipko,2024-04-14T02:09:14Z,2024-05-09T15:22:22+00:00,10,613.22,True,30,7,1,397,0,4,4,MERGED
+3973,chore: migrate `Node.js` implementation for `js-sandbox` to `isolated-vm`,jamesgeorge007,2024-04-12T12:23:28Z,2024-04-19T15:38:46+00:00,3,171.25,True,1029,286,52,2424,0,7,7,MERGED
+3971,refactor(sh-admin): improved handling of server configurations in admin dashboard,JoelJacobStephen,2024-04-12T03:29:25Z,2024-05-06T16:20:31+00:00,10,588.85,True,303,279,9,308,0,13,13,MERGED
+3966,fix: use proper values for `addTo` field when auth type is `api-key`,amk-dev,2024-04-08T12:45:17Z,2024-04-16T12:14:28+00:00,3,191.49,True,182,30,12,683,0,1,1,MERGED
+3950,fix: spanish lang translation messages,sawa-ko,2024-03-29T03:20:35Z,2024-04-16T12:17:10+00:00,2,440.94,True,233,233,1,317,0,0,0,MERGED
+3948,feat: console error messages and better names for requests imported from openapi,sawa-ko,2024-03-29T02:24:23Z,2024-10-17T14:00:50+00:00,6,4859.61,False,42,22,3,1095,0,2,2,CLOSED
+3939,fix(desktop): set window caption color if Windows version >= 11,Timic3,2024-03-27T18:40:16Z,2024-04-16T12:21:27+00:00,1,473.69,True,29,9,3,582,3,0,3,MERGED
+3937,chore(sh-admin): alert the user while deleting users who are team owners,jamesgeorge007,2024-03-26T19:06:41Z,2024-03-28T14:47:25+00:00,16,43.68,True,180,63,6,1196,0,16,16,MERGED
+3934,fix: lint errors removed by using `satisfies` or `as` for type,anwarulislam,2024-03-25T18:30:14Z,2024-03-28T14:58:48+00:00,3,68.48,True,526,83,11,127,0,1,1,MERGED
+3931,fix(common): ensure requests are translated to the latest version during import and search actions,jamesgeorge007,2024-03-22T17:51:01Z,2024-03-25T11:39:55+00:00,4,65.81,True,69,20,2,614,1,0,1,MERGED
+3930,chore: spotlight improvements for team requests search,amk-dev,2024-03-22T11:56:37Z,2024-03-25T07:11:18+00:00,3,67.24,True,29,1,2,196,0,0,0,MERGED
+3929,feat: added mutation and function to platform for updating user profile name,nivedin,2024-03-22T11:28:20Z,2024-03-25T09:11:25+00:00,7,69.72,True,68,18,7,322,0,3,3,MERGED
+3927,chore: split axios request options into platform,amk-dev,2024-03-21T14:25:35Z,2024-03-22T08:12:41+00:00,1,17.79,True,21,3,3,456,0,0,0,MERGED
+3926,refactor(sh-admin): improvements to pending invites page in dashboard,JoelJacobStephen,2024-03-21T13:20:56Z,2024-03-22T12:24:41+00:00,2,23.06,True,5,7,4,368,0,0,0,MERGED
+3925,fix: workspace list section bugs,nivedin,2024-03-21T12:31:45Z,2024-03-22T12:32:28+00:00,2,24.01,True,28,7,2,528,0,0,0,MERGED
+3924,feat: added new mutation to update username in hopp app,balub,2024-03-21T11:47:25Z,2024-03-22T06:37:38+00:00,2,18.84,True,52,2,4,442,0,0,0,MERGED
+3922,fix: request failing on change content type to multipart-formdata,anwarulislam,2024-03-21T08:49:44Z,2024-03-22T12:41:16+00:00,2,27.86,True,4,3,2,220,0,0,0,MERGED
+3921,chore: added input validation to search query,balub,2024-03-21T08:43:09Z,2024-03-21T10:43:11+00:00,1,2.0,True,23,2,2,299,0,0,0,MERGED
+3920,refactor: AIO healthcheck bash script ,balub,2024-03-21T08:13:57Z,2024-03-21T10:42:13+00:00,1,2.47,True,7,3,1,342,0,0,0,MERGED
+3918,fix: fix direct import from url failing,amk-dev,2024-03-20T12:53:44Z,2024-03-20T14:36:51+00:00,2,1.72,True,1,1,1,384,0,0,0,MERGED
+3914,feat: github enterprise SSO provider addition,nivedin,2024-03-20T09:59:58Z,2024-03-20T14:31:56+00:00,2,4.53,True,40,7,2,343,0,0,0,MERGED
+3912,feat: add extended support for versioned entities in the CLI,jamesgeorge007,2024-03-19T19:28:38Z,2024-03-20T14:43:22+00:00,2,19.25,True,352,159,14,3014,0,2,2,MERGED
+3911,feat: focus codemirror view when ImportCurl component launched,anwarulislam,2024-03-19T17:06:28Z,2024-03-22T12:51:16+00:00,2,67.75,True,10,1,2,429,0,0,0,MERGED
+3908,refactor: collection search query,balub,2024-03-19T08:10:57Z,2024-03-19T11:42:35+00:00,2,3.53,True,25,26,2,458,5,0,5,MERGED
+3907,chore: update copy for header inspection,anwarulislam,2024-03-18T04:57:48Z,2024-03-21T16:45:23+00:00,4,83.79,True,5,4,2,453,0,1,1,MERGED
+3905,fix: can't import curl command with data-urlencode,shipko,2024-03-18T04:32:52Z,2024-03-25T07:42:48+00:00,5,171.17,True,53,1,2,240,1,1,2,MERGED
+3900,refactor: use trigram search index instead of full text search,AndrewBastin,2024-03-14T17:05:35Z,2024-03-15T14:40:12+00:00,4,21.58,True,113,52,3,631,1,0,1,MERGED
+3899,fix: collection auth headers active tab update bug and type fix,nivedin,2024-03-14T12:21:25Z,2024-03-15T15:47:34+00:00,1,27.44,True,129,120,5,371,0,0,0,MERGED
+3898,hotfix: reset infra-config bug,balub,2024-03-14T06:47:18Z,2024-03-14T16:16:34+00:00,1,9.49,True,17,14,2,406,0,0,0,MERGED
+3896,feat: team search in workspace search and spotlight,amk-dev,2024-03-13T12:22:30Z,2024-03-19T13:20:35+00:00,5,144.97,True,940,20,7,105,3,0,3,MERGED
+3895,chore: fix some typos,kaifulee,2024-03-13T11:25:10Z,2024-03-15T14:36:35+00:00,2,51.19,True,5,5,4,235,0,0,0,MERGED
+3894,refactor(sh-admin): updated data sharing doc links + remove disabled property from all inputs in configurations,JoelJacobStephen,2024-03-12T13:10:28Z,2024-03-13T10:48:27+00:00,1,21.63,True,2,6,4,495,0,0,0,MERGED
+3893,refactor: personal workspace nomenclature update,nivedin,2024-03-12T07:01:06Z,2024-03-13T08:51:23+00:00,2,25.84,True,7,33,4,306,0,0,0,MERGED
+3892,hotfix: full text search,balub,2024-03-12T06:22:01Z,2024-03-19T11:43:25+00:00,2,173.36,False,40,32,2,455,0,2,2,CLOSED
+3889,hotfix: request variable version syncing bug,nivedin,2024-03-11T07:53:40Z,2024-03-12T06:12:06+00:00,5,22.31,True,47,61,5,375,0,1,1,MERGED
+3888,chore: bump codemirror dependencies,jamesgeorge007,2024-03-11T07:23:53Z,2024-03-11T08:51:39+00:00,1,1.46,True,95,166,3,299,0,0,0,MERGED
+3886,feat: support for predefined variables,kishannareshpal,2024-03-10T16:49:40Z,2024-09-30T08:47:34+00:00,3,4887.97,True,608,17,14,1758,2,2,4,MERGED
+3885,feat: oauth revamp + support for multiple grant types in oauth ,amk-dev,2024-03-09T00:48:18Z,2024-03-19T18:48:03+00:00,14,258.0,True,2728,363,44,146,1,10,11,MERGED
+3881,fix: secret env bug in firebase due to undefined value,nivedin,2024-03-07T13:08:35Z,2024-03-13T11:41:51+00:00,2,142.55,True,26,24,8,405,0,1,1,MERGED
+3880,refactor: update team nomenclature,nivedin,2024-03-07T11:46:19Z,2024-03-08T18:24:32+00:00,1,30.64,True,91,71,5,473,0,0,0,MERGED
+3878,feat: common changes for site protection,amk-dev,2024-03-05T20:47:35Z,2024-03-07T18:13:20+00:00,1,45.43,True,16,4,4,380,2,0,2,MERGED
+3876,chore: pin dependencies across packages,jamesgeorge007,2024-03-04T10:54:02Z,2024-03-07T18:07:48+00:00,1,79.23,True,2942,6181,13,810,0,0,0,MERGED
+3875,update locale hu,krisztianbarat,2024-03-02T22:37:25Z,2024-04-16T12:15:55+00:00,2,1069.64,True,203,203,1,235,1,0,1,MERGED
+3874,fix: context menu bug and incorrect position,nivedin,2024-03-01T11:08:11Z,2024-03-07T12:29:06+00:00,3,145.35,True,27,19,3,482,0,1,1,MERGED
+3867,refactor: remove restore tab popup and its functionalities,nivedin,2024-02-28T10:08:06Z,2024-03-05T12:44:41+00:00,1,146.61,True,21,341,13,302,0,0,0,MERGED
+3859,refactor(workspaces): provider additions for collections under personal workspace,jamesgeorge007,2024-02-26T05:48:45Z,2024-05-22T07:18:13+00:00,1,2065.49,True,8207,1263,40,6948,0,0,0,MERGED
+3857,feat: full text search for `TeamCollections` and `TeamRequests`,balub,2024-02-25T17:41:30Z,2024-03-05T12:35:59+00:00,5,210.91,True,474,45,19,1435,0,11,11,MERGED
+3852,fix: collection level authorization inheritance issue,anwarulislam,2024-02-22T04:32:54Z,2024-02-23T14:03:08+00:00,3,33.5,True,48,48,8,838,0,3,3,MERGED
+3851,refactor: possible links in email templates do not highlight,AndrewBastin,2024-02-21T18:57:03Z,2024-02-22T19:35:20+00:00,2,24.64,True,72,60,3,718,8,0,8,MERGED
+3848,fix: perfomance in safari,nivedin,2024-02-21T09:02:39Z,2024-02-21T19:11:30+00:00,1,10.15,True,50,36,18,858,0,0,0,MERGED
+3847,feat: inital setup info route,balub,2024-02-20T19:42:27Z,2024-02-21T15:45:48+00:00,1,20.06,True,90,6,6,544,0,0,0,MERGED
+3846,feat: use tags as folders when importing from openapi,amk-dev,2024-02-20T18:55:34Z,2024-03-07T14:25:46+00:00,1,379.5,True,67,25,1,658,0,0,0,MERGED
+3845,feat(sh-admin): introducing data analytics and newsletter configurations,JoelJacobStephen,2024-02-20T15:06:43Z,2024-03-06T14:36:48+00:00,21,359.5,True,573,154,18,681,1,36,37,MERGED
+3844,fix: use x-www-form-urlencoded for token exchange requests in oauth,amk-dev,2024-02-19T08:08:20Z,2024-02-21T19:12:03+00:00,1,59.06,True,13,9,1,305,0,0,0,MERGED
+3838,feat: SH instance analytics data collection ,balub,2024-02-16T08:28:54Z,2024-02-21T19:05:12+00:00,2,130.6,True,10025,4029,10,571,0,0,0,MERGED
+3835,fix(common): prevent exceptions with open shared requests in new tab action,jamesgeorge007,2024-02-16T06:26:44Z,2024-02-21T19:06:45+00:00,1,132.67,True,10,1,2,358,0,0,0,MERGED
+3831,fix: fix accessing undefined property `variables`,amk-dev,2024-02-15T11:56:39Z,2024-02-15T16:02:50+00:00,1,4.1,True,1,1,1,166,0,0,0,MERGED
+3829,fix(persistence-service): update global environment variables schema,jamesgeorge007,2024-02-14T17:35:48Z,2024-02-15T16:10:31+00:00,1,22.58,True,18,34,2,322,0,0,0,MERGED
+3825,feat: request variables,nivedin,2024-02-14T13:52:00Z,2024-03-07T07:20:45+00:00,8,521.48,True,1273,506,54,728,2,20,22,MERGED
+3820,chore: add workspace type property in request run analytics event,amk-dev,2024-02-12T08:42:34Z,2024-02-13T12:08:11+00:00,2,27.43,True,10,1,2,131,0,0,0,MERGED
+3819,fix: environment tooltip update bug,nivedin,2024-02-12T08:13:12Z,2024-02-13T12:12:02+00:00,2,27.98,True,28,3,2,403,0,0,0,MERGED
+3817,fix: secret environment flow bugs,nivedin,2024-02-09T15:22:12Z,2024-02-10T14:52:10+00:00,1,23.5,True,49,15,7,510,0,0,0,MERGED
+3814,feat(sh-admin): enhanced user management in admin dashboard,JoelJacobStephen,2024-02-08T15:03:14Z,2024-03-13T09:15:13+00:00,7,810.2,True,2712,2183,23,994,2,10,12,MERGED
+3812,fix(sh-admin): persist active selection in the sidebar,jamesgeorge007,2024-02-08T05:03:58Z,2024-02-08T16:46:33+00:00,2,11.71,True,10,8,1,554,0,0,0,MERGED
+3805,refactor: update share request flow,nivedin,2024-02-05T09:27:48Z,2024-02-05T18:20:15+00:00,3,8.87,True,66,16,5,576,0,1,1,MERGED
+3792,chore: Oauth temporary ux improvements,amk-dev,2024-01-30T17:34:25Z,2024-02-06T15:05:29+00:00,5,165.52,True,73,45,3,427,0,1,1,MERGED
+3790,refactor: consolidated admin dashboard improvements,JoelJacobStephen,2024-01-30T13:45:21Z,2024-02-02T09:47:25+00:00,3,68.03,True,768,721,20,539,0,1,1,MERGED
+3787,feat: upgraded prisma version to v5.8.0,balub,2024-01-30T08:07:32Z,2024-01-30T12:46:28+00:00,2,4.65,True,1877,672,2,293,0,0,0,MERGED
+3786,HSB-358 feat: admin user management (backend),mirarifhasan,2024-01-30T03:51:43Z,2024-02-21T16:05:08+00:00,10,540.22,True,4762,10063,10,1053,0,28,28,MERGED
+3783,chore: added micro interactions,liyasthomas,2024-01-29T04:42:18Z,2024-01-30T13:12:42+00:00,1,32.51,True,1286,1128,51,244,0,0,0,MERGED
+3780,feat: support secret environment variables in CLI,jamesgeorge007,2024-01-25T18:24:29Z,2024-02-08T16:28:45+00:00,2,334.07,False,2922,574,84,5158,1,0,1,CLOSED
+3779,feat: secret variables in environments,nivedin,2024-01-25T17:28:25Z,2024-02-08T16:28:42+00:00,18,335.0,True,2137,435,55,824,2,45,47,MERGED
+3777,chore(cli): emit bundle in ESM format,jamesgeorge007,2024-01-25T13:42:13Z,2024-02-05T17:25:05+00:00,2,267.71,True,232,188,11,732,0,1,1,MERGED
+3770,refactor: updated teams nomenclature in admin dashboard to workspaces,JoelJacobStephen,2024-01-23T05:38:23Z,2024-02-08T16:47:42+00:00,1,395.16,True,30,30,1,738,0,0,0,MERGED
+3754,feat: press tab on current input field to focus the next input field,anwarulislam,2024-01-17T00:47:26Z,2024-01-23T16:51:23+00:00,5,160.07,True,28,32,1,551,0,2,2,MERGED
+3752,simple changes for assigning null values,mir-ishfaq-hussain,2024-01-16T15:02:15Z,2024-09-18T14:48:34+00:00,3,5903.77,False,0,0,0,0,0,1,1,CLOSED
+3745,fix: fix unwanted double slashes when importing from openapi,amk-dev,2024-01-12T12:30:41Z,2024-01-23T16:19:34+00:00,3,267.81,True,12,6,1,346,0,0,0,MERGED
+3742,refactor: persist running requests while switching tabs,nivedin,2024-01-11T08:04:45Z,2024-01-23T16:43:58+00:00,5,296.65,True,19,8,2,424,1,1,2,MERGED
+3737,feat(sh-admin): introducing additional SSO related server configurations to dashboard,JoelJacobStephen,2024-01-09T13:05:07Z,2024-03-08T09:48:54+00:00,1,1412.73,True,153,69,5,636,0,4,4,MERGED
+3730,fix: documentation is not being generated on GQL,anwarulislam,2024-01-07T20:46:31Z,2024-01-23T16:30:41+00:00,3,379.74,True,4,16,2,420,2,0,2,MERGED
+3727,chore(common): analytics on spotlight,jamesgeorge007,2024-01-07T09:44:16Z,2024-02-02T10:02:06+00:00,3,624.3,True,267,76,10,1879,0,0,0,MERGED
+3724,feat(js-sandbox): expose `atob` & `btoa` functions for Node.js,Timeraa,2024-01-06T04:35:15Z,2024-02-05T17:42:55+00:00,1,733.13,True,95,0,4,353,0,0,0,MERGED
+3719,feat(common): support simultaneous imports of collections and environment files,jamesgeorge007,2024-01-04T12:54:11Z,2024-03-05T12:19:01+00:00,5,1463.41,True,256,130,16,1258,1,7,8,MERGED
+3718,HBE-345 feature: sso callback url and scope added in infra-config,mirarifhasan,2024-01-04T10:36:46Z,2024-03-07T06:37:51+00:00,11,1508.02,True,394,144,14,493,0,10,10,MERGED
+3717,refactor: add option to disable context menu,nivedin,2024-01-04T10:20:22Z,2024-01-23T16:35:06+00:00,3,462.25,True,32,7,4,354,0,0,0,MERGED
+3709,refactor: improvements to the dashboard sidebar,JoelJacobStephen,2024-01-03T07:12:57Z,2024-01-23T16:25:43+00:00,5,489.21,True,42,117,2,298,0,2,2,MERGED
+3705,fix(selfhost-web): perform logout if the silent refresh attempt fails,shipko,2023-12-29T04:06:57Z,2024-01-23T16:24:00+00:00,3,612.28,True,18,13,1,432,4,0,4,MERGED
+3704,fix: bugs in shared request,nivedin,2023-12-28T10:37:22Z,2024-01-23T16:54:18+00:00,6,630.28,True,67,35,11,439,0,6,6,MERGED
+3702,refactor: improvements to users module in admin dashboard,JoelJacobStephen,2023-12-28T06:56:20Z,2024-02-02T09:47:52+00:00,7,866.86,False,267,286,10,449,1,12,13,CLOSED
+3700,feat: team environment search and switch,anwarulislam,2023-12-27T10:21:48Z,2024-01-30T14:19:05+00:00,4,819.95,True,120,16,3,351,0,11,11,MERGED
+3691,feat(common): support importing environments individually,jamesgeorge007,2023-12-22T08:47:31Z,2023-12-24T06:42:02+00:00,3,45.91,True,14,3,2,381,0,1,1,MERGED
+3690,fix: minor updation for shared request and auth-headers features,nivedin,2023-12-22T07:02:53Z,2023-12-24T11:21:30+00:00,2,52.31,False,94,6,8,518,1,1,2,CLOSED
+3689,HBE-343 hotfix: improve smtp email validation and fix enableAndDisableSSO mutation,mirarifhasan,2023-12-22T05:16:55Z,2023-12-22T15:04:54+00:00,4,9.8,True,123,24,5,2904,0,3,3,MERGED
+3687,fix(cli): environment resolution in the single-entry export format,jamesgeorge007,2023-12-21T14:29:11Z,2023-12-22T13:51:33+00:00,1,23.37,True,79,6,6,2098,0,0,0,MERGED
+3686,refactor: added input validation to server configurations in admin dashboard,JoelJacobStephen,2023-12-21T07:56:28Z,2024-02-02T09:47:51+00:00,5,1033.86,False,85,43,5,322,2,6,8,CLOSED
+3677,feat(js-sandbox): add `pw.env.unset` method,ajmalmohad,2023-12-19T17:23:38Z,2024-01-23T17:01:27+00:00,1,839.63,True,328,51,8,549,0,0,0,MERGED
+3671,fix(persistence-service): update schemas found to differ in runtime,jamesgeorge007,2023-12-19T11:29:39Z,2023-12-19T13:04:28+00:00,1,1.58,True,11,10,2,550,0,0,0,MERGED
+3668,fix: auth-header not inheriting properties,nivedin,2023-12-19T08:26:49Z,2023-12-19T11:34:24+00:00,2,3.13,True,20,4,2,352,0,0,0,MERGED
+3667,hotfix: added validation on infra config update,mirarifhasan,2023-12-19T08:23:14Z,2023-12-19T11:15:46+00:00,7,2.88,True,71,3,2,469,0,1,1,MERGED
+3665,chore(common): Gist export flow updates,jamesgeorge007,2023-12-19T06:04:44Z,2023-12-19T12:07:35+00:00,1,6.05,True,102,93,8,1063,0,0,0,MERGED
+3664,fix(common): ensure the add-environment modal value field is empty when opened via the inspector,jamesgeorge007,2023-12-18T08:46:03Z,2023-12-18T15:09:23+00:00,4,6.39,True,1,1,1,530,0,1,1,MERGED
+3662,fix: gql history schema error,nivedin,2023-12-18T06:59:55Z,2023-12-19T11:09:32+00:00,1,28.16,True,5,2,2,361,0,0,0,MERGED
+3661,chore(common): remove expand widget from the GQL collections import/export modal,jamesgeorge007,2023-12-15T17:11:48Z,2023-12-16T11:36:51+00:00,1,18.42,True,15,3,1,398,0,0,0,MERGED
+3660,build: update node alpine version,jordibeen,2023-12-15T12:55:20Z,2024-01-03T11:19:52+00:00,2,454.41,True,1,1,1,727,3,0,3,MERGED
+3659,fix: embeds system theme,nivedin,2023-12-15T12:49:29Z,2023-12-16T11:31:23+00:00,2,22.7,True,19,19,2,337,0,0,0,MERGED
+3657,refactor: embeds preview theme,nivedin,2023-12-15T09:52:06Z,2023-12-15T11:38:02+00:00,2,1.77,True,37,37,1,308,0,1,1,MERGED
+3656,refactor: improvements made to how banners are to be dismissed,JoelJacobStephen,2023-12-15T07:20:46Z,2023-12-15T11:38:57+00:00,1,4.3,True,6,2,4,362,0,0,0,MERGED
+3655,feat: added unset variable to sandbox,ajmalmohad,2023-12-15T06:24:50Z,2023-12-19T16:21:17+00:00,3,105.94,False,27628,19709,636,430,1,3,4,CLOSED
+3653,fix(common): GraphQL query syntax highlighting,jamesgeorge007,2023-12-14T17:37:02Z,2023-12-15T09:07:01+00:00,2,15.5,True,1543,811,3,709,0,0,0,MERGED
+3652,fix: auth-headers in collection bug ,nivedin,2023-12-14T13:19:14Z,2023-12-14T21:19:35+00:00,2,8.01,True,19,7,5,368,1,0,1,MERGED
+3647,feat: persist line wrap setting,ajmalmohad,2023-12-13T05:04:55Z,2024-02-09T08:35:10+00:00,9,1395.5,True,273,72,21,607,3,5,8,MERGED
+3646,feat: dynamically load enabled auth providers,amk-dev,2023-12-13T03:21:47Z,2023-12-13T18:08:22+00:00,1,14.78,True,160,104,14,973,0,0,0,MERGED
+3638,chore: improve placeholder component styles,liyasthomas,2023-12-10T09:09:08Z,2023-12-12T09:32:43+00:00,8,48.39,True,479,413,42,97,0,2,2,MERGED
+3637,chore: add protocols' logo to realtime page,liyasthomas,2023-12-09T10:43:32Z,2023-12-12T08:55:56+00:00,1,70.21,True,19,6,6,194,0,0,0,MERGED
+3636,feat(cli): support collection level authorization and headers,jamesgeorge007,2023-12-08T13:42:16Z,2023-12-14T07:13:22+00:00,1,137.52,True,373,104,5,11629,1,0,1,MERGED
+3635,fix: use base url instead of hardcoded url,liyasthomas,2023-12-08T08:22:16Z,2023-12-12T09:36:29+00:00,3,97.24,True,30,22,7,102,0,1,1,MERGED
+3632,Update user.service.ts,mir-ishfaq-hussain,2023-12-07T10:51:01Z,2024-01-18T04:34:07+00:00,3,1001.72,False,2,6,1,428,1,1,2,CLOSED
+3631,feat: introduce platform defs for adding additional spotlight searchers,amk-dev,2023-12-06T23:07:19Z,2023-12-07T10:58:02+00:00,1,11.85,True,18,0,4,239,0,0,0,MERGED
+3630,fix(common): ensure banner colors are displayed correctly,jamesgeorge007,2023-12-06T17:14:55Z,2023-12-12T08:25:18+00:00,1,135.17,True,3,3,2,406,0,0,0,MERGED
+3628,feat: introducing server configurations in admin dashboard,JoelJacobStephen,2023-12-06T06:03:02Z,2023-12-13T17:05:00+00:00,1,179.03,True,1007,29,22,1913,2,0,2,MERGED
+3627,feat: embeds,nivedin,2023-12-05T16:09:42Z,2023-12-07T09:33:49+00:00,2,41.4,True,782,144,23,370,0,0,0,MERGED
+3626,Update mailer.module.ts -> better configuration and accept custom certs,RaHehl,2023-12-05T15:24:30Z,2025-04-29T08:45:09+00:00,2,12257.34,False,24,9,1,334,1,1,2,CLOSED
+3625,feat: import environments from insomnia,amk-dev,2023-12-05T12:44:29Z,2023-12-13T13:45:39+00:00,3,193.02,True,172,10,5,592,2,0,2,MERGED
+3622,bug: convert to UTC time before using toISO().,Voimulax,2023-12-05T07:16:52Z,2024-01-15T07:28:56+00:00,2,984.2,False,1,1,1,290,3,0,3,CLOSED
+3620,HoppscotchUI Package Separated to a repository,anwarulislam,2023-12-04T03:27:16Z,2023-12-16T11:28:11+00:00,1,296.02,True,1295,8444,87,437,0,0,0,MERGED
+3619,refactor(scripting-revamp): migrate `js-sandbox` to `web worker/Node vm` based implementation,jamesgeorge007,2023-12-03T13:25:39Z,2023-12-07T10:40:42+00:00,6,93.25,True,2708,3188,43,2076,0,6,6,MERGED
+3615,feat: init boring avatars,liyasthomas,2023-12-01T15:47:38Z,2023-12-04T07:50:26+00:00,2,64.05,True,41,116,7,77,4,0,4,MERGED
+3614,feat: addition of `data` field into User and Team Collections,balub,2023-12-01T11:05:54Z,2023-12-05T14:42:38+00:00,17,99.61,True,1162,119,16,1121,0,11,11,MERGED
+3606,Add helm chart,shipko,2023-11-29T11:34:58Z,2025-02-04T09:20:14+00:00,1,10389.75,False,808,0,24,485,7,0,7,CLOSED
+3603,fix: minor ui improvements,liyasthomas,2023-11-28T15:28:12Z,2023-11-29T17:15:41+00:00,2,25.79,True,37,27,9,227,0,0,0,MERGED
+3600,feat: collection runner,anwarulislam,2023-11-28T11:58:56Z,2024-11-26T10:26:09+00:00,4,8734.45,True,3194,483,66,1120,17,1,18,MERGED
+3591,HBE-326 feature: server configuration through GraphQL API,mirarifhasan,2023-11-24T09:09:29Z,2023-12-12T10:42:58+00:00,14,433.56,True,1717,613,37,886,0,17,17,MERGED
+3588,fix: email validation failure in cases when email entered is correct when trying to create a team in admin dashboard,JoelJacobStephen,2023-11-23T09:01:26Z,2023-11-29T16:19:50+00:00,2,151.31,True,31,7,4,806,0,0,0,MERGED
+3586,feat: add ability to make banners dismissible + new info and warning color schemes added based on themes,JoelJacobStephen,2023-11-23T05:45:17Z,2023-12-03T19:27:37+00:00,4,253.71,True,79,45,8,660,4,0,4,MERGED
+3575,chore: bump deps for `hoppscotch-common` and `hoppscotch-selfhost-web`,amk-dev,2023-11-21T12:18:50Z,2023-12-05T12:03:25+00:00,6,335.74,True,2878,3118,15,676,3,1,4,MERGED
+3567,fix: XML body disappearing with invalid XML,amk-dev,2023-11-19T20:15:12Z,2023-11-20T09:32:07+00:00,2,13.28,True,21,7,1,350,0,0,0,MERGED
+3566,feat: convert json to interfaces,rajdip-b,2023-11-19T17:14:26Z,2023-12-03T17:44:27+00:00,8,336.5,True,283,64,9,380,19,1,20,MERGED
+3561,Feat/selfhosted desktop backend auth,rokibulislaam,2023-11-16T21:53:45Z,2025-03-12T16:58:38+00:00,2,11563.08,False,542,292,13,773,5,0,5,CLOSED
+3559,fix: enlarged hoppscotch logo on dashboard login screen,JoelJacobStephen,2023-11-16T12:42:09Z,2023-11-16T17:21:09+00:00,2,4.65,True,1,5,2,423,0,0,0,MERGED
+3556,refactor: allow banner service to hold multiple banners and display the banner with the highest score,JoelJacobStephen,2023-11-16T08:28:17Z,2023-11-17T15:01:35+00:00,2,30.55,True,110,46,4,767,0,0,0,MERGED
+3555,i18n(fr): Updating the `packages/hoppscotch-common/locales/fr.json` file.,thomasbnt,2023-11-16T00:09:49Z,2024-04-16T12:45:38+00:00,2,3660.6,True,188,189,1,286,0,0,0,MERGED
+3553,refactor: interceptor error display in graphql response,nivedin,2023-11-15T08:46:40Z,2023-11-17T11:33:53+00:00,1,50.79,True,118,24,6,429,0,0,0,MERGED
+3548,fix: interceptor error from extension issue,nivedin,2023-11-14T08:35:57Z,2023-11-14T11:47:23+00:00,2,3.19,True,143,12,10,412,0,0,0,MERGED
+3541,chore: Remove whitespace in env variables,dantehemerson,2023-11-13T05:53:04Z,2023-11-22T14:20:36+00:00,1,224.46,False,12421,361,173,406,1,0,1,CLOSED
+3537,feat: introducing shared requests to admin dashboard,JoelJacobStephen,2023-11-10T16:37:26Z,2023-12-05T18:51:28+00:00,11,602.23,True,485,132,11,858,5,14,19,MERGED
+3535,feat(backend): add `getTracker` method for IP extraction,RaHehl,2023-11-10T13:31:39Z,2025-04-29T08:59:01+00:00,3,12859.46,True,3,0,1,474,1,0,1,MERGED
+3531,fix: Oauth 2.0 authentication type is breaking,amk-dev,2023-11-10T02:34:54Z,2023-11-13T18:42:05+00:00,3,88.12,True,186,94,6,544,0,1,1,MERGED
+3509,fix(common): parentheses and single quotes support to curl imports,ajmalmohad,2023-11-08T16:24:07Z,2023-12-04T17:33:23+00:00,2,625.15,True,6,1,1,563,0,0,0,MERGED
+3505,feat: collection level headers and authorization,nivedin,2023-11-07T16:00:50Z,2023-12-13T17:13:18+00:00,7,865.21,True,3216,965,95,1327,0,2,2,MERGED
+3504,feat: introducing shortcode into admin module,balub,2023-11-07T14:45:13Z,2023-11-10T08:58:02+00:00,6,66.21,True,323,19,10,765,0,5,5,MERGED
+3503,feat: platform definition added for additional settings components,anwarulislam,2023-11-07T11:14:45Z,2023-11-29T16:12:51+00:00,2,532.97,True,31,2,4,772,0,5,5,MERGED
+3502,fix(common): prevented truncating parameters,ajmalmohad,2023-11-07T07:50:28Z,2023-12-03T19:19:46+00:00,1,635.49,True,9,1,1,490,1,0,1,MERGED
+3500,chore: updated brand assets,liyasthomas,2023-11-06T13:28:02Z,2023-11-08T10:17:35+00:00,1,44.83,True,161,14,27,319,1,0,1,MERGED
+3497,chore: hoppscotch-ui improvements,anwarulislam,2023-11-06T06:17:20Z,2023-12-05T18:38:44+00:00,3,708.36,True,726,640,69,292,1,0,1,MERGED
+3495,chore: improve cookie modal ui,liyasthomas,2023-11-04T15:43:30Z,2023-11-06T05:54:31+00:00,1,38.18,True,178,94,3,209,0,0,0,MERGED
+3494,fix: offset,liyasthomas,2023-11-04T06:02:47Z,2023-11-06T05:26:15+00:00,2,47.39,True,7,8,4,251,0,0,0,MERGED
+3493,refactor: move persistence logic into a dedicated service,jamesgeorge007,2023-11-03T18:26:28Z,2023-11-29T17:10:26+00:00,5,622.73,True,3176,644,18,759,0,3,3,MERGED
+3488,fix: graphql page crashing and broken syntax highlighting ,amk-dev,2023-11-02T14:11:17Z,2023-11-02T17:40:37+00:00,1,3.49,True,4,21,2,402,2,0,2,MERGED
+3487,chore: fix spelling mistake on type import,anwarulislam,2023-11-02T13:04:38Z,2023-11-06T05:55:04+00:00,2,88.84,True,4,4,2,130,0,0,0,MERGED
+3486,feat: shared request,nivedin,2023-11-01T13:01:20Z,2023-12-04T17:21:19+00:00,12,796.33,True,1525,517,35,1443,4,4,8,MERGED
+3484,fix: add optional chaining for teamMembers to handle undefined team,nmerget,2023-10-31T14:29:45Z,2023-11-06T05:55:39+00:00,2,135.43,True,4,4,2,262,0,1,1,MERGED
+3476,feat: introduction of shared-requests,balub,2023-10-26T06:54:57Z,2023-11-07T12:27:51+00:00,18,293.55,True,381,125,9,609,1,17,18,MERGED
+3475,fix: mailer template issue,balub,2023-10-25T09:03:35Z,2023-11-06T11:55:36+00:00,4,290.87,True,62,62,6,686,0,1,1,MERGED
+3474,feat: new banner service and added ability to bind additional services from other platforms,JoelJacobStephen,2023-10-25T07:29:17Z,2023-11-06T06:11:19+00:00,40,286.7,True,143,23,8,1071,2,29,31,MERGED
+3473,chore(data): bump dependencies,jamesgeorge007,2023-10-25T06:07:11Z,2023-11-02T18:23:53+00:00,2,204.28,True,60,42,2,190,0,0,0,MERGED
+3472,chore(common): implement enforced pre-commit type checks for FE service files,jamesgeorge007,2023-10-25T05:30:17Z,2023-11-02T18:07:27+00:00,6,204.62,True,931,718,4,962,0,3,3,MERGED
+3466,feat(common): display status text from the API response if available,kpguru20001,2023-10-21T15:59:33Z,2023-12-04T18:01:49+00:00,5,1058.04,True,25,4,5,609,9,2,11,MERGED
+3465,fix(common): :bug: allows URL parsing as obsvered in #1873,kpguru20001,2023-10-21T13:08:45Z,2023-11-01T16:53:34+00:00,1,267.75,True,2,2,1,410,1,0,1,MERGED
+3460,"fix(self-hosted/web): add ""useCredentials: true"" to Vite PWA options",superbiche,2023-10-18T10:46:22Z,2023-11-01T04:16:20+00:00,3,329.5,True,1,0,1,837,0,0,0,MERGED
+3457,refactor: versioning and migration mechanism for public data structures,AndrewBastin,2023-10-16T13:11:56Z,2023-11-02T13:24:16+00:00,12,408.21,True,757,489,16,588,2,17,19,MERGED
+3455,refactor: updated dashboard gql queries and components to use the new infra type of the updated schema,JoelJacobStephen,2023-10-16T05:54:05Z,2023-11-01T18:10:19+00:00,2,396.27,True,33,28,19,635,0,0,0,MERGED
+3452,feat: improve import-export UI,liyasthomas,2023-10-13T06:00:18Z,2023-10-13T12:27:14+00:00,11,6.45,True,77,77,5,256,0,11,11,MERGED
+3451,refactor: move sentry to platform,nivedin,2023-10-12T10:56:15Z,2023-11-01T12:47:55+00:00,2,481.86,True,5362,2597,6,282,5,0,5,MERGED
+3449,feat: support for subpath based access in SH apps,jamesgeorge007,2023-10-12T08:19:42Z,2023-11-22T14:05:35+00:00,3,989.76,True,262,48,18,8466,2,2,4,MERGED
+3448,fix(common): use tab service within helpers,jamesgeorge007,2023-10-12T04:57:04Z,2023-10-12T07:45:45+00:00,2,2.81,True,8,3,1,365,0,0,0,MERGED
+3445,HBE-296 feat: introducing 'infra' type and splitting model properties between 'admin' and 'infra',mirarifhasan,2023-10-11T12:14:59Z,2023-10-30T11:03:43+00:00,11,454.81,True,2873,4263,7,1157,0,14,14,MERGED
+3444,refactor: improvements to the auth implementation in admin dashboard,JoelJacobStephen,2023-10-11T05:54:19Z,2023-10-16T12:44:02+00:00,8,126.83,True,204,403,14,911,0,17,17,MERGED
+3441,chore(cli): bump dependencies,jamesgeorge007,2023-10-10T10:10:03Z,2023-10-16T12:53:23+00:00,1,146.72,True,1105,226,2,380,0,0,0,MERGED
+3440,fix: memory leak issue on TeamInvite modal,anwarulislam,2023-10-10T05:07:39Z,2023-10-11T02:29:13+00:00,3,21.36,True,3,2,1,262,0,0,0,MERGED
+3438,feat: add import buttons in empty root state for collection & environment section,nivedin,2023-10-09T10:44:49Z,2023-10-11T05:38:51+00:00,19,42.9,True,160,80,7,524,0,19,19,MERGED
+3425,refactor: revamp the importers & exporters systems to be reused ,amk-dev,2023-10-05T19:37:29Z,2023-12-06T15:54:29+00:00,23,1484.28,True,2356,1849,90,7082,0,72,72,MERGED
+3418,fix(selfhost-web): environment variables usage in meta tags,jamesgeorge007,2023-10-04T13:51:42Z,2023-10-05T08:21:42+00:00,2,18.5,True,4,4,1,514,0,0,0,MERGED
+3416,feat(common): alert the user on empty collection/environment exports,jamesgeorge007,2023-10-04T10:31:30Z,2023-10-05T09:08:38+00:00,2,22.62,True,22,0,4,521,0,0,0,MERGED
+3415,HBE-270 Test-Case timestamp issue fix in backend,mirarifhasan,2023-10-04T10:08:55Z,2023-10-16T06:41:15+00:00,2,284.54,True,22,15,2,472,0,0,0,MERGED
+3413,feat: add client credentials,sgtremblay,2023-10-02T16:30:12Z,2024-03-20T13:28:02+00:00,1,4076.96,False,170,88,10,593,6,0,6,CLOSED
+3409,i18n: update tw.json,5idereal,2023-10-01T12:46:06Z,2023-10-06T05:57:24+00:00,1,113.19,True,111,111,1,289,0,0,0,MERGED
+3408,fix: Cannot set custom method #3406,dreygur,2023-09-30T23:17:00Z,2023-10-06T06:27:26+00:00,3,127.17,True,3,2,2,238,1,1,2,MERGED
+3396,fix: team collection resetting on unmount within app lifecycle,AndrewBastin,2023-09-27T11:09:25Z,2023-10-06T06:04:45+00:00,2,210.92,True,13,9,1,294,0,0,0,MERGED
+3395,refactor: updated i18n implementation in the admin dashboard,JoelJacobStephen,2023-09-27T06:14:56Z,2023-10-06T12:06:19+00:00,1,221.86,True,135,210,4,774,0,0,0,MERGED
+3392,fix: gql `teamID` is not passed issue,anwarulislam,2023-09-26T12:02:29Z,2023-09-28T16:34:03+00:00,1,52.53,True,250,180,3,266,0,0,0,MERGED
+3389,HBE-266 Update NestJS packages,mirarifhasan,2023-09-25T03:30:31Z,2023-10-16T06:53:56+00:00,2,507.39,True,3076,6287,6,377,1,0,1,MERGED
+3385,fix: blank screen in admin dashboard when failing to refresh tokens or when cookies are expired and user not fully logged out in such cases,JoelJacobStephen,2023-09-22T07:24:47Z,2023-10-09T04:38:36+00:00,2,405.23,True,2926,550,5,887,0,0,0,MERGED
+3380,feat: introduces ability to export single environment variables and allow CLI to accept the export format used by the app,JoelJacobStephen,2023-09-21T10:03:14Z,2023-10-06T05:51:54+00:00,8,355.81,True,196,258,11,1811,0,20,20,MERGED
+3377,refactor: removed all instances of `rejectOnNotFound` in prisma queries,balub,2023-09-21T06:47:16Z,2023-10-16T08:34:04+00:00,2,601.78,True,6,5,2,409,0,1,1,MERGED
+3374,fix: tooltip position in editor instance,liyasthomas,2023-09-19T16:22:04Z,2023-10-09T06:07:52+00:00,4,469.76,True,13,19,4,356,0,3,3,MERGED
+3368,chore(deps): remove stale type definitions,jamesgeorge007,2023-09-18T10:55:35Z,2023-10-05T09:19:04+00:00,1,406.39,True,223,73,3,238,0,0,0,MERGED
+3367,feat: tab service added,anwarulislam,2023-09-18T10:18:17Z,2023-10-11T12:51:07+00:00,22,554.55,True,1112,841,60,440,0,11,11,MERGED
+3363,chore(cli): update error message,jamesgeorge007,2023-09-17T18:27:57Z,2023-09-18T13:49:51+00:00,1,19.36,True,2,2,2,404,0,0,0,MERGED
+3362,fix: remove scrollbar from smart env input component on firefox,liyasthomas,2023-09-15T16:12:53Z,2023-09-18T07:50:53+00:00,1,63.63,True,13,1,4,291,0,0,0,MERGED
+3359,fix: dirty tab count incorrect when closing tabs,nivedin,2023-09-15T08:20:06Z,2023-09-18T05:50:26+00:00,2,69.51,True,5,2,1,330,0,0,0,MERGED
+3356,fix: duplicate tab reference bug,nivedin,2023-09-15T06:10:41Z,2023-09-18T05:45:19+00:00,3,71.58,True,2,1,1,370,0,0,0,MERGED
+3354,fix: authorisation headers not being sent along with subscriptions when using graphql,JoelJacobStephen,2023-09-14T15:18:01Z,2023-09-28T16:27:07+00:00,2,337.15,True,11,3,3,662,0,1,1,MERGED
+3351,fix: sticky searchbar hidden in codemirror,nivedin,2023-09-13T10:39:57Z,2023-09-18T07:15:14+00:00,2,116.59,True,172,23,22,382,0,2,2,MERGED
+3350,chore: clean up i18n,liyasthomas,2023-09-13T08:33:51Z,2023-09-18T05:56:31+00:00,1,117.38,True,4698,486,33,54,0,0,0,MERGED
+3348,refactor: minor performance improvements on teams related operations,AndrewBastin,2023-09-13T06:03:02Z,2023-09-18T13:17:00+00:00,2,127.23,True,520,202,16,681,1,0,1,MERGED
+3346,"fix support menu actions: typo in ""twitter link"" and ""invite to hoppscotch"" action",liyasthomas,2023-09-12T10:16:07Z,2023-09-13T06:25:58+00:00,1,20.16,True,7,16,2,235,0,0,0,MERGED
+3341,refactor: remove font sizes from the app,JoelJacobStephen,2023-09-11T15:31:54Z,2023-09-13T06:15:39+00:00,2,38.73,True,70,399,11,625,0,0,0,MERGED
+3340,fix: context-menu position fixed while scrolling,nivedin,2023-09-11T12:56:13Z,2023-09-12T07:13:11+00:00,2,18.28,True,66,53,2,551,0,0,0,MERGED
+3337,refactor: remove zen mode from the app,JoelJacobStephen,2023-09-11T04:25:11Z,2023-09-12T08:40:38+00:00,1,28.26,True,2,49,5,424,0,0,0,MERGED
+3333,fix(common): broken link to `REST API Testing` docs,jamesgeorge007,2023-09-08T08:25:26Z,2023-09-12T07:02:10+00:00,2,94.61,True,1,1,1,185,0,0,0,MERGED
+3332,refactor: keyboard shortcuts now supports different keyboard layouts including Dvorak,JoelJacobStephen,2023-09-08T06:38:00Z,2023-09-08T16:32:40+00:00,4,9.91,True,11,11,1,725,0,2,2,MERGED
+3328,feat: no permission warning added for users except owner while deleting team,anwarulislam,2023-09-07T12:01:24Z,2023-10-09T14:01:49+00:00,3,770.01,True,52,57,2,455,0,2,2,MERGED
+3325,feat: differentiation for successful invites and failed invites,anwarulislam,2023-09-06T20:43:26Z,2023-09-18T06:18:39+00:00,1,273.59,True,53,24,2,338,0,0,0,MERGED
+3324,fix: unusual behavior while scrolling through spotlight entries,anwarulislam,2023-09-06T20:04:04Z,2023-09-12T07:12:44+00:00,2,131.14,True,26,6,2,439,0,0,0,MERGED
+3323,fix: missing baseurl on import openapi,anwarulislam,2023-09-06T20:00:36Z,2023-09-18T09:12:04+00:00,4,277.19,True,30,2,2,363,0,2,2,MERGED
+3318,chore(fix/devcontainer): make devcontainer copy .env.example,SamJakob,2023-09-05T20:42:18Z,2023-09-28T16:28:17+00:00,1,547.77,True,1,1,1,546,0,0,0,MERGED
+3314,fix: keyboard shortcut for help and support,liyasthomas,2023-09-05T05:00:31Z,2023-09-10T05:52:34+00:00,1,120.87,False,1,1,1,89,1,0,1,CLOSED
+3312,i18n: translate locales to russian,YAGrandGPBL,2023-09-04T09:29:59Z,2023-09-13T07:23:10+00:00,1,213.89,True,318,171,1,237,0,0,0,MERGED
+3310,docs: updated screenshots and features list,liyasthomas,2023-09-02T16:29:00Z,2023-09-05T06:36:47+00:00,1,62.13,True,182,293,10,408,2,0,2,MERGED
+3300,style: updated font size and truncation on fields in the invited users table in admin dashboard,JoelJacobStephen,2023-08-28T12:18:56Z,2023-08-28T17:57:56+00:00,1,5.65,True,19,42,3,338,0,0,0,MERGED
+3299,fix: spotlight actions on graphql,anwarulislam,2023-08-28T11:44:22Z,2023-08-28T15:10:02+00:00,1,3.43,True,240,108,12,141,0,0,0,MERGED
+3297,fix: graphql operation highlight issue on focus changed,anwarulislam,2023-08-28T07:28:52Z,2023-08-28T12:25:42+00:00,1,4.95,True,0,2,1,596,0,0,0,MERGED
+3295,chore: improved command labels and icons,liyasthomas,2023-08-25T12:26:18Z,2023-08-28T12:45:01+00:00,1,72.31,True,72,41,5,2760,0,0,0,MERGED
+3294,HBE-258 hotfix: skip parameter in findMany in shortcode module,mirarifhasan,2023-08-25T09:30:53Z,2023-08-25T20:05:51+00:00,2,10.58,True,1,1,1,559,0,0,0,MERGED
+3293,fix: fix issues with codegen,amk-dev,2023-08-25T07:25:24Z,2023-08-28T10:27:44+00:00,1,75.04,True,274,184,5,655,0,0,0,MERGED
+3287,feat: move crisp out of common,AndrewBastin,2023-08-24T13:11:50Z,2023-08-25T21:30:59+00:00,1,32.32,True,325,319,17,952,0,0,0,MERGED
+3286,fix: tab right click rename bug,nivedin,2023-08-24T07:30:27Z,2023-08-24T18:50:08+00:00,1,11.33,True,3,1,1,331,0,0,0,MERGED
+3285,fix: autocomplete bug,nivedin,2023-08-24T07:14:48Z,2023-08-24T13:16:58+00:00,2,6.04,True,5,24,3,303,0,0,0,MERGED
+3284,i18n: update translation for Indonesian,arthantyo,2023-08-24T03:48:40Z,2023-09-13T07:18:46+00:00,1,483.5,True,44,44,1,489,0,0,0,MERGED
+3283,fix: icons inside tooltip,liyasthomas,2023-08-23T18:46:18Z,2023-08-24T18:25:22+00:00,1,23.65,True,31,30,5,311,0,0,0,MERGED
+3282,feat: cleaner save context handling for graphql,AndrewBastin,2023-08-23T15:47:25Z,2023-08-24T13:37:17+00:00,4,21.83,True,365,42,16,490,0,1,1,MERGED
+3280,fix: fix issues in displaying the suggestions menu on EnvInput,amk-dev,2023-08-23T11:22:08Z,2023-08-23T15:48:49+00:00,1,4.44,True,3,2,1,497,0,0,0,MERGED
+3279,fix: context menu bugs,nivedin,2023-08-23T09:32:34Z,2023-08-24T18:57:03+00:00,1,33.41,True,4,4,3,270,0,0,0,MERGED
+3277,fix: inspections bugs,nivedin,2023-08-23T09:17:35Z,2023-08-28T12:13:46+00:00,1,122.94,True,938,581,25,304,0,0,0,MERGED
+3276,fix: vertical scroll not working on codemirror instance when lines are not wrapped,amk-dev,2023-08-23T09:02:24Z,2023-08-23T12:44:13+00:00,2,3.7,True,12,0,3,435,0,0,0,MERGED
+3275,fix: spotlight issues,anwarulislam,2023-08-22T22:35:05Z,2023-08-24T20:14:29+00:00,1,45.66,True,443,319,20,303,0,0,0,MERGED
+3274,chore: minor ui improvements,liyasthomas,2023-08-22T15:29:35Z,2023-08-22T16:52:43+00:00,1,1.39,True,42,42,20,508,0,0,0,MERGED
+3273,refactor: autofocus can be disabled in smart input hopp ui component,JoelJacobStephen,2023-08-22T11:53:06Z,2023-08-22T14:40:41+00:00,1,2.79,True,34,20,6,295,0,0,0,MERGED
+3265,fix: search input autofocus,liyasthomas,2023-08-19T15:31:50Z,2023-08-21T09:28:45+00:00,1,41.95,True,2,2,1,396,0,0,0,MERGED
+3264,feat: load allowed login methods from .env,amk-dev,2023-08-18T11:29:18Z,2023-08-18T15:53:56+00:00,1,4.41,True,200,161,1,244,0,0,0,MERGED
+3262,feat: spotlight collection searcher,AndrewBastin,2023-08-18T09:02:01Z,2023-08-18T15:26:46+00:00,3,6.41,True,453,0,4,460,0,1,1,MERGED
+3261,fix: placeholder size and text overflow on tab head,liyasthomas,2023-08-18T07:10:12Z,2023-08-18T16:02:10+00:00,1,8.87,True,22,13,10,1601,0,0,0,MERGED
+3260,Polish Environment Selector,liyasthomas,2023-08-17T09:00:53Z,2023-08-17T11:16:45+00:00,2,2.26,True,37,18,4,2200,0,0,0,MERGED
+3258,chore: bump dependencies ,amk-dev,2023-08-16T12:28:14Z,2023-08-21T03:36:30+00:00,1,111.14,True,6059,5170,56,0,0,0,0,MERGED
+3255,feat: add spotlight definition,anwarulislam,2023-08-12T20:35:31Z,2023-08-21T14:33:52+00:00,1,209.97,True,1633,25,23,182,0,0,0,MERGED
+3246,HBE-248 feat: prefix VITE_ added in conditional auth provider env variable ,mirarifhasan,2023-08-07T04:34:54Z,2023-08-08T08:46:13+00:00,3,28.19,True,22,17,4,860,0,0,0,MERGED
+3245,spotlight: navigation searcher added,anwarulislam,2023-08-07T00:53:34Z,2023-08-12T16:51:45+00:00,2,135.97,True,112,200,3,964,0,0,0,MERGED
+3244,spotlight: settings based actions added,anwarulislam,2023-08-07T00:15:31Z,2023-08-17T16:34:59+00:00,5,256.32,True,842,55,5,1197,1,8,9,MERGED
+3241,i18n: update vi.json,ducconit,2023-08-05T04:22:37Z,2023-09-13T06:22:37+00:00,1,938.0,True,471,471,1,368,3,0,3,MERGED
+3232,refactor: revoke team invitation in admin dashboard,JoelJacobStephen,2023-08-03T15:46:03Z,2023-08-14T12:07:05+00:00,2,260.35,True,3,3,2,336,0,0,0,MERGED
+3230,fix: disable line wrapping in EnvInput component,liyasthomas,2023-08-03T10:34:48Z,2023-08-05T18:13:02+00:00,3,55.64,True,0,1,1,186,0,0,0,MERGED
+3227,refactor: fonts are now bundled with packages,liyasthomas,2023-08-02T16:45:34Z,2023-08-05T18:12:31+00:00,3,73.45,True,237,112,18,1081,0,1,1,MERGED
+3225,feat: introducing ability to conditionally enable auth providers in dashboard,JoelJacobStephen,2023-08-02T12:13:13Z,2023-08-17T16:23:35+00:00,2,364.17,True,108,59,4,431,0,0,0,MERGED
+3221,fix: elastic overscroll on safari,liyasthomas,2023-08-01T07:47:23Z,2023-08-02T15:17:54+00:00,2,31.51,True,3,0,3,639,0,0,0,MERGED
+3220,feat: tippy menu for history and tab,nivedin,2023-07-28T16:28:41Z,2023-08-08T07:53:11+00:00,5,255.41,True,361,36,10,530,0,6,6,MERGED
+3213,feat: inspections,nivedin,2023-07-26T06:40:32Z,2023-08-17T20:07:21+00:00,3,541.45,True,1406,19,20,752,0,1,1,MERGED
+3210,feat: smart-tree component added to hoppscotch-ui,anwarulislam,2023-07-25T07:43:27Z,2023-08-20T15:18:32+00:00,1,631.58,True,34,21,8,102,0,1,1,MERGED
+3204,feat: dynamically select which auth providers for your instance of Hoppscotch (BE implementation),balub,2023-07-21T10:45:07Z,2023-08-03T12:34:10+00:00,10,313.82,True,413,228,28,883,3,9,12,MERGED
+3201,fix: firefox browser scrollbar issue,anwarulislam,2023-07-20T09:38:54Z,2023-08-01T07:50:17+00:00,7,286.19,True,6,1,2,155,0,5,5,MERGED
+3200,Added ability to disable displaying authentication providers,RaHehl,2023-07-20T07:44:25Z,2023-08-19T16:58:20+00:00,1,729.23,False,28,0,4,353,1,0,1,CLOSED
+3193,feat: container registry friendly docker images and all-in-one container,AndrewBastin,2023-07-17T15:43:26Z,2023-08-23T18:31:28+00:00,2,890.8,True,680,42,23,3480,13,1,14,MERGED
+3192,docs: fixed shortcut keys for spotlight and shortcuts menu,liyasthomas,2023-07-17T10:26:16Z,2023-07-17T13:57:50+00:00,1,3.53,True,5,4,2,587,0,0,0,MERGED
+3190,refactor: replacing shortcodes table ui with hopp smart table,JoelJacobStephen,2023-07-16T16:54:33Z,2023-08-07T05:59:27+00:00,1,517.08,False,279,160,5,375,0,0,0,CLOSED
+3189,fix: fixed issue in team-environment test cases,balub,2023-07-14T13:40:34Z,2023-07-17T07:03:12+00:00,3,65.38,True,2,2,1,397,0,0,0,MERGED
+3187,redesigned search button,liyasthomas,2023-07-14T07:47:57Z,2023-07-17T09:10:15+00:00,2,73.37,True,609,61,4,838,0,0,0,MERGED
+3182,chore: update generateSitemap usage,amk-dev,2023-07-13T07:17:54Z,2023-07-17T09:09:32+00:00,2,97.86,True,2,3,2,236,0,0,0,MERGED
+3181,fix: text overflow on spotlight search results,liyasthomas,2023-07-12T05:53:30Z,2023-07-17T07:02:45+00:00,2,121.15,True,20,20,1,548,0,0,0,MERGED
+3180,feat: context menu,nivedin,2023-07-11T11:27:18Z,2023-08-02T15:22:16+00:00,10,531.92,True,1446,76,22,553,2,8,10,MERGED
+3179,fix: update vite-plugin-dts version which fixes build issue on docker/alpine,anwarulislam,2023-07-10T10:08:39Z,2023-07-17T07:02:25+00:00,3,164.9,True,223,153,4,211,1,0,1,MERGED
+3178,feat: introducing a new smart table hoppscotch ui component,JoelJacobStephen,2023-07-09T06:25:55Z,2023-11-06T06:01:55+00:00,29,2879.6,True,440,400,11,767,0,48,48,MERGED
+3177,HBE-147 refactor: Introduce Team-Environments into self-host refactored to pseudo-fp format,balub,2023-07-07T13:32:49Z,2023-07-13T06:22:19+00:00,6,136.82,True,403,435,7,368,0,14,14,MERGED
+3175,HBE-152 refactor: team invitation module in pseudo fp-ts,mirarifhasan,2023-07-07T06:16:45Z,2023-07-13T06:28:03+00:00,8,144.19,True,291,444,10,1247,4,17,21,MERGED
+3174,fix: email not being checked case insensitive on team invitation acceptance,AndrewBastin,2023-07-06T07:55:49Z,2023-07-11T14:33:08+00:00,1,126.62,True,5,3,2,625,0,0,0,MERGED
+3171,feat: revamped spotlight,AndrewBastin,2023-07-04T08:28:10Z,2023-07-11T17:32:33+00:00,14,177.07,True,3899,1001,36,3341,5,4,9,MERGED
+3170,feat(lang): update tw translation,5idereal,2023-07-04T03:50:09Z,2023-07-14T06:06:08+00:00,1,242.27,True,58,58,1,28,0,0,0,MERGED
+3164,chore: new filled star icon to toggle favorite history entry,liyasthomas,2023-06-27T12:11:47Z,2023-07-06T08:00:38+00:00,2,211.81,True,3,2,3,347,0,0,0,MERGED
+3163,fix: keybinding modifier issue,anwarulislam,2023-06-27T10:38:17Z,2023-07-17T18:26:08+00:00,3,487.8,True,18,11,1,512,0,1,1,MERGED
+3162,[feat] : Allow admins to revoke a team invite (HBE-230),ankitsridhar16,2023-06-27T09:15:32Z,2023-08-03T08:38:32+00:00,6,887.38,True,33,0,2,613,0,1,1,MERGED
+3160,fix: text overflow on details summary label,liyasthomas,2023-06-26T07:01:05Z,2023-06-26T13:00:25+00:00,2,5.99,True,11,6,3,538,0,0,0,MERGED
+3157,fix: remove existing team invitation for an invitee when adding invitee to team by admin (HBE-229),ankitsridhar16,2023-06-22T06:12:19Z,2023-06-22T18:08:02+00:00,6,11.93,True,43,2,2,881,0,3,3,MERGED
+3156,feat: introduce more events into the analytics pipeline,AndrewBastin,2023-06-21T19:03:21Z,2023-06-24T04:48:36+00:00,2,57.75,True,307,8,22,460,0,0,0,MERGED
+3155,fix: unified bg color in collection tree,nivedin,2023-06-21T09:27:42Z,2023-06-21T19:08:28+00:00,1,9.68,True,2,2,2,308,0,0,0,MERGED
+3154,refactor: move hoppscotch-common tests to vitest,AndrewBastin,2023-06-20T17:43:55Z,2023-06-21T19:06:25+00:00,1,25.38,True,700,283,21,804,0,0,0,MERGED
+3153,Fix typos,omerbaflah,2023-06-19T14:59:32Z,2023-06-21T19:05:58+00:00,5,52.11,True,6,6,2,244,0,2,2,MERGED
+3152,fix: use --location param for url when parsing curl,amk-dev,2023-06-19T12:51:15Z,2023-06-22T18:10:09+00:00,4,77.31,True,7,12,3,609,0,1,1,MERGED
+3151,chore(i18n): updated Hungarian translation,urbalazs,2023-06-19T10:55:52Z,2023-06-20T08:58:53+00:00,1,22.05,True,100,100,1,0,0,0,0,MERGED
+3150,"fix: Add healthcheck for hoppscotch-db in docker-compose, and more",NicklasWallgren,2023-06-18T12:59:58Z,2023-07-17T15:52:56+00:00,6,698.88,True,13,3,1,561,15,1,16,MERGED
+3148,fix: reduce the memory consumption during build to prevent OOM,NicklasWallgren,2023-06-17T06:45:53Z,2023-07-17T18:38:07+00:00,2,731.87,True,9,4,5,752,3,0,3,MERGED
+3143,refactor: modified shortcodes UI to maintain table layout in smaller screens,JoelJacobStephen,2023-06-16T06:14:32Z,2023-07-17T06:38:17+00:00,1,744.4,False,14,8,3,511,3,0,3,CLOSED
+3142,fix: shortcode resolution screen is stuck on invalid shortcodes,nivedin,2023-06-14T14:54:52Z,2023-06-19T08:34:07+00:00,2,113.65,True,55,0,2,312,0,0,0,MERGED
+3141,feat: auto-complete recent history entries in URL bar,nivedin,2023-06-14T14:03:18Z,2023-07-11T14:33:43+00:00,2,648.51,True,244,16,4,395,2,0,2,MERGED
+3138,fix: Self-host unable to use Azure oauth,domestic-fennec,2023-06-14T13:28:50Z,2023-06-22T18:13:05+00:00,1,196.74,True,2,1,2,1256,11,0,11,MERGED
+3137,fix: fixed issue with team-invitations and new user accounts,balub,2023-06-14T12:40:54Z,2023-06-15T11:45:06+00:00,2,23.07,True,2,2,2,943,1,0,1,MERGED
+3136,fix: graphql authorization headers,anwarulislam,2023-06-13T15:49:51Z,2023-06-22T18:02:23+00:00,2,218.21,True,105,27,8,992,0,0,0,MERGED
+3133,vi fix typo in translation of clear_all,thuvh,2023-06-12T03:16:53Z,2023-06-12T05:01:59+00:00,1,1.75,True,1,1,1,298,0,0,0,MERGED
+3130,fix: fix url getting overridden when query params are present,amk-dev,2023-06-09T11:38:55Z,2023-06-09T16:23:56+00:00,2,4.75,True,18,8,2,512,0,0,0,MERGED
+3126,chore: type and UX improvement for SmartTree,anwarulislam,2023-06-08T15:24:59Z,2023-08-02T15:24:02+00:00,3,1319.98,True,48,67,3,897,0,1,1,MERGED
+3123,feat: placeholder component in hoppscotch-ui,anwarulislam,2023-06-08T01:42:21Z,2023-06-20T18:39:17+00:00,4,304.95,True,378,577,43,954,1,0,1,MERGED
+3122,fix: failed to execute 'observe' on 'IntersectionObserver',anwarulislam,2023-06-08T00:41:32Z,2023-06-09T04:10:10+00:00,2,27.48,True,9,3,1,602,0,0,0,MERGED
+3119,feat: environment quick peek,liyasthomas,2023-06-07T11:17:18Z,2023-08-15T14:00:37+00:00,2,1658.72,True,328,381,9,1072,0,0,0,MERGED
+3117,i18n: Update tr.json,islamzeki,2023-06-06T12:06:54Z,2023-06-07T18:18:19+00:00,1,30.19,True,5,5,1,200,0,0,0,MERGED
+3115,fix: collection request name edit issue,anwarulislam,2023-06-05T13:34:28Z,2023-06-09T04:06:41+00:00,7,86.54,True,13,3,3,1440,10,1,11,MERGED
+3113,fix: team environment lost when route changes,nivedin,2023-06-05T08:36:01Z,2023-06-07T18:16:09+00:00,1,57.67,True,38,2,1,324,0,0,0,MERGED
+3108,fix: stack order of tab inside environment selector,liyasthomas,2023-06-03T11:18:04Z,2023-06-07T18:17:25+00:00,1,102.99,True,1,1,1,397,0,0,0,MERGED
+3103,Custom location on admin redirect to base,webysther,2023-06-02T13:40:45Z,2023-06-20T18:43:40+00:00,1,437.05,True,1,1,1,225,1,0,1,MERGED
+3100,chore: improve mobile responsiveness on environment selector,liyasthomas,2023-06-01T13:45:43Z,2023-06-02T14:56:18+00:00,2,25.18,True,21,10,2,1110,0,0,0,MERGED
+3096,Fix: Update team invitation link to domain specified in .env [HBE-202],ankitsridhar16,2023-05-30T07:06:43Z,2023-05-31T14:36:34+00:00,2,31.5,True,1,1,1,793,0,0,0,MERGED
+3089,feat: introducing a new smart input hoppscotch ui component,JoelJacobStephen,2023-05-29T12:49:12Z,2023-08-05T18:15:02+00:00,5,1637.43,True,543,639,33,489,0,5,5,MERGED
+3086,feat(hoppscotch-common/locales): fix and update es (spanish) locale,sawa-ko,2023-05-27T16:42:06Z,2023-05-30T00:15:40+00:00,1,55.56,True,138,138,1,235,0,0,0,MERGED
+3083,fix: update package.json script,travzhang,2023-05-27T03:41:43Z,2023-05-30T21:50:47+00:00,2,90.15,True,1,1,1,0,0,0,0,MERGED
+3081,chore: update wss url to ws in .env.example,amk-dev,2023-05-26T08:49:49Z,2023-05-30T00:23:02+00:00,2,87.55,True,1,1,1,413,0,0,0,MERGED
+3079,feat: prettify XML response,nivedin,2023-05-25T13:38:15Z,2023-05-30T00:18:19+00:00,2,106.67,True,60,63,5,370,0,0,0,MERGED
+3077,chore: removed unnecessary dependencies from hoppscotch-ui,anwarulislam,2023-05-24T01:19:57Z,2023-08-23T12:43:19+00:00,4,2195.39,True,50,188,4,1009,0,0,0,MERGED
+3076,feat: replacing windicss by tailwindcss in hoppscotch-ui,anwarulislam,2023-05-23T23:50:38Z,2023-11-01T15:25:09+00:00,13,3879.58,True,6750,5014,174,519,8,7,15,MERGED
+3074,chore: make style sheets consistent,liyasthomas,2023-05-23T06:36:56Z,2023-05-30T00:12:58+00:00,2,161.6,True,618,95,16,1199,0,0,0,MERGED
+3070,fix: timing dependency on test case,mirarifhasan,2023-05-22T07:04:56Z,2023-05-23T20:32:39+00:00,2,37.46,True,5,3,1,1486,0,0,0,MERGED
+3068,chore(i18n): Update zh-CN translations,overtrue,2023-05-20T16:15:10Z,2023-05-30T00:19:43+00:00,1,224.08,True,40,40,1,267,0,0,0,MERGED
+3064,fix: analytics logging behavior being incorrect,AndrewBastin,2023-05-18T11:48:36Z,2023-05-23T20:34:28+00:00,2,128.76,True,10,1,2,821,0,0,0,MERGED
+3063,fix: sync popup firing multiple times,nivedin,2023-05-18T09:13:41Z,2023-05-31T03:36:37+00:00,3,306.38,True,87,27,2,398,0,4,4,MERGED
+3059,fix: set team environment from test,nivedin,2023-05-16T11:26:20Z,2023-05-30T21:38:28+00:00,4,346.2,True,37,12,3,719,0,1,1,MERGED
+3058,fix: dead key issue in mac,anwarulislam,2023-05-15T23:55:56Z,2023-05-23T20:41:37+00:00,2,188.76,True,2,2,1,685,0,0,0,MERGED
+3057,feat: rename request by double clicking its name on tabs,anwarulislam,2023-05-15T21:45:13Z,2023-05-24T20:18:19+00:00,7,214.55,True,29,12,3,1016,1,4,5,MERGED
+3054,fix: don't cut off the part that's already been typed,liyasthomas,2023-05-14T13:08:17Z,2023-05-23T20:36:03+00:00,3,223.46,True,53,44,1,357,1,0,1,MERGED
+3053,"Fix typo, rename cuttentTime to currentTime",BKer,2023-05-12T13:01:37Z,2023-05-23T20:38:01+00:00,2,271.61,True,2,2,1,337,0,0,0,MERGED
+3052,chore: environment selector with new ux,liyasthomas,2023-05-11T17:10:17Z,2023-05-30T21:47:37+00:00,2,460.62,True,162,103,5,572,2,0,2,MERGED
+3051,feat: introducing i18n support to admin dashboard,JoelJacobStephen,2023-05-11T14:10:05Z,2023-06-16T04:17:01+00:00,3,854.12,True,905,184,58,444,0,3,3,MERGED
+3046,docs: updated screenshots,liyasthomas,2023-05-10T06:01:03Z,2023-05-10T13:47:48+00:00,1,7.78,True,0,0,3,282,0,0,0,MERGED
+3045,fix: 403 forbidden error when trying to load a Google profile picture,liyasthomas,2023-05-10T05:19:25Z,2023-05-24T20:23:44+00:00,2,351.07,True,2,2,1,305,0,0,0,MERGED
+3044,feat: add support to audio and video API responses,liyasthomas,2023-05-09T16:39:27Z,2023-05-24T20:16:14+00:00,2,363.61,True,196,0,6,715,0,0,0,MERGED
+3043,chore: add onCodemirrorInstanceMount hook to platform,amk-dev,2023-05-09T14:37:28Z,2023-05-10T13:29:57+00:00,1,22.87,True,5,0,3,189,0,0,0,MERGED
+3041,fix: invalid environment index can break the app,amk-dev,2023-05-08T14:05:13Z,2023-05-10T13:44:17+00:00,3,47.65,True,28,18,1,494,0,4,4,MERGED
+3039,fix: reset envs when user switches workspaces,nivedin,2023-05-08T10:57:41Z,2023-05-10T20:33:35+00:00,1,57.6,True,192,181,6,315,0,2,2,MERGED
+3032,feat: picture component moved to hoppscotch-ui,anwarulislam,2023-05-03T22:26:55Z,2023-05-08T19:02:54+00:00,1,116.6,True,46,145,8,1096,0,0,0,MERGED
+3031,fix: tab system breaks when a new tab is created while waiting for response in another tab,anwarulislam,2023-05-03T21:55:14Z,2023-05-10T13:46:28+00:00,4,159.85,True,10,46,3,381,1,1,2,MERGED
+3030,Fix issue with disappearing tab when opening request tabs with long text in body/script,anwarulislam,2023-05-03T20:16:49Z,2023-05-08T19:00:27+00:00,4,118.73,True,4,5,2,304,0,1,1,MERGED
+3029,fix: update the hoppscotch-sh-admin magic link route to match hoppscotch-app,amk-dev,2023-05-03T14:25:32Z,2023-05-03T17:42:51+00:00,1,3.29,True,1,1,2,167,0,0,0,MERGED
+3028,fix: magic link URL,mirarifhasan,2023-05-03T13:42:31Z,2023-05-09T10:25:38+00:00,1,140.72,True,1,1,1,803,0,0,0,MERGED
+3027,fix: pane layout broken when wrap line is off,nivedin,2023-05-03T10:07:41Z,2023-05-03T15:09:22+00:00,3,5.03,True,4,0,1,395,0,1,1,MERGED
+3025,fix: returning response from authCookieHandler,mirarifhasan,2023-05-02T18:14:43Z,2023-05-09T10:25:02+00:00,1,160.17,True,2,2,1,2363,0,0,0,MERGED
+3013,feat: scroll to show the new active tab header,anwarulislam,2023-04-21T18:33:26Z,2023-05-09T10:28:45+00:00,4,423.92,True,95,25,1,593,1,0,1,MERGED
+3012,fix: wrong tab selected after navigating from different route,anwarulislam,2023-04-21T17:29:47Z,2023-04-23T10:36:12+00:00,1,41.11,True,0,3,1,614,0,0,0,MERGED
+3010,fix: request name not updating in the save request modal,nivedin,2023-04-21T11:10:29Z,2023-04-23T10:17:07+00:00,2,47.11,True,22,7,1,335,0,1,1,MERGED
+3008,fix: non-prettified output on large JSON objects,liyasthomas,2023-04-20T15:25:58Z,2023-04-21T15:39:26+00:00,1,24.22,True,13,13,2,517,0,0,0,MERGED
+3006,fix: language switching issue to en from slug,anwarulislam,2023-04-19T10:57:57Z,2023-04-22T10:52:30+00:00,2,71.91,True,80,71,5,346,1,1,2,MERGED
+3003,chore: improve tabs scrollbar & unsaved request indicator,liyasthomas,2023-04-18T18:01:08Z,2023-04-21T14:38:45+00:00,1,68.63,True,41,26,2,537,0,0,0,MERGED
+3002,fix: selected env changed while sidebar collapsed,nivedin,2023-04-18T15:37:32Z,2023-04-21T14:57:04+00:00,6,71.33,True,62,26,3,346,0,3,3,MERGED
+2998,chore: use auto-imported icons,liyasthomas,2023-04-17T17:37:00Z,2023-04-21T14:50:23+00:00,3,93.22,True,12,41,10,371,1,0,1,MERGED
+2997,docs: fixed broken documentation links,liyasthomas,2023-04-17T17:22:15Z,2023-04-18T17:44:07+00:00,1,24.36,True,66,52,33,414,0,0,0,MERGED
+2996,[bug] Control+F not working in result from API request,gitstart,2023-04-17T12:29:20Z,2023-05-11T12:55:15+00:00,2,576.43,False,90,1,15,549,4,2,6,CLOSED
+2989,i18n: updated locales to reflect latest strings,liyasthomas,2023-04-14T11:13:17Z,2023-04-19T08:26:15+00:00,1,117.22,True,720,4,32,581,0,0,0,MERGED
+2988,fix: unwanted transitions caused pane layout shift,liyasthomas,2023-04-14T09:11:19Z,2023-04-21T14:25:59+00:00,1,173.24,True,8,0,1,722,0,0,0,MERGED
+2987,docs: added border to screenshots,liyasthomas,2023-04-14T08:53:34Z,2023-04-18T17:44:53+00:00,1,104.86,True,0,0,2,122,0,0,0,MERGED
+2984,docs: updated screenshots,liyasthomas,2023-04-13T14:43:19Z,2023-04-13T17:20:53+00:00,1,2.63,True,0,0,3,229,0,0,0,MERGED
+2975,Update README.md to add required step for local development,Nabeelshar,2023-04-09T11:14:56Z,2023-04-09T16:02:31+00:00,3,4.79,False,4,3,1,51,1,1,2,CLOSED
+2974,refactor: add optional ids to environments,amk-dev,2023-04-08T19:38:37Z,2023-04-09T09:00:42+00:00,1,13.37,True,98,12,5,275,0,0,0,MERGED
+2970,fix: team environment bug when logout,nivedin,2023-04-06T10:29:58Z,2023-04-06T21:30:30+00:00,1,11.01,True,17,24,4,286,0,0,0,MERGED
+2969,feat: added scrollbar for tabs,anwarulislam,2023-04-05T23:54:42Z,2023-04-06T09:50:16+00:00,1,9.93,True,106,29,1,1257,0,0,0,MERGED
+2968,chore: enable/disable features in platforms,amk-dev,2023-04-05T21:19:23Z,2023-04-06T09:36:33+00:00,1,12.29,True,7,0,3,97,0,0,0,MERGED
+2967,fix: reordering last request bug and its UX ,nivedin,2023-04-05T13:56:51Z,2023-04-05T16:05:14+00:00,1,2.14,True,261,141,10,350,0,0,0,MERGED
+2966,fix: tabhead and scrolling issue,anwarulislam,2023-04-05T13:49:38Z,2023-04-05T15:56:42+00:00,1,2.12,True,127,49,6,254,0,0,0,MERGED
+2965,chore: update header UI,nivedin,2023-04-04T18:53:12Z,2023-04-05T10:00:47+00:00,1,15.13,True,15,54,2,245,0,0,0,MERGED
+2964,fix: move collection and request to bottom of list,nivedin,2023-04-04T18:41:30Z,2023-04-05T10:08:57+00:00,1,15.46,True,471,168,12,304,0,0,0,MERGED
+2963,chore: load terms of service & privacy policy links from env variables,amk-dev,2023-04-04T12:37:06Z,2023-04-04T15:29:31+00:00,1,2.87,True,71,58,4,244,0,0,0,MERGED
+2962,fix: no page rendering issue after navigating from rest page,anwarulislam,2023-04-04T03:32:13Z,2023-04-04T15:18:32+00:00,1,11.77,True,56,55,2,433,0,0,0,MERGED
+2955,chore: add removeDuplicateEntry dispatcher to history store,amk-dev,2023-03-30T06:15:20Z,2023-03-30T09:43:25+00:00,1,3.47,True,42,0,1,193,0,0,0,MERGED
+2954,chore: move history firebase things to hoppscotch-web,amk-dev,2023-03-29T13:24:17Z,2023-03-29T18:39:08+00:00,1,5.25,True,28,14,5,145,0,0,0,MERGED
+2953,chore: move settings firebase things to platform,amk-dev,2023-03-28T22:46:44Z,2023-03-29T18:29:28+00:00,1,19.71,True,116,2,5,146,0,0,0,MERGED
+2952,"refactor: make editFolder, editCollection take Partial collection as parameter",amk-dev,2023-03-27T01:50:20Z,2023-03-29T06:30:21+00:00,1,52.67,True,22,10,1,371,0,0,0,MERGED
+2948,fix: reordering bugs and UX fixes,nivedin,2023-03-13T16:38:58Z,2023-03-14T08:31:47+00:00,1,15.88,True,390,183,9,390,1,0,1,MERGED
+2947,refactor: store changes for collections,amk-dev,2023-03-13T12:32:12Z,2023-03-14T08:46:45+00:00,1,20.24,True,9,6,1,491,0,0,0,MERGED
+2940,chore: move collections sync system to platform,amk-dev,2023-03-02T13:21:27Z,2023-03-13T11:38:06+00:00,1,262.28,True,46,47,7,149,0,0,0,MERGED
+2939,chore: move environments firebase things to hoppscotch-web,amk-dev,2023-03-02T09:15:16Z,2023-03-02T13:20:13+00:00,2,4.08,True,30,12,5,150,0,2,2,MERGED
+2931,feat: postman collection 2.1 export,aitchnyu,2023-02-24T10:39:48Z,2024-01-17T13:07:15+00:00,17,7850.46,False,245,7,7,1009,4,21,25,CLOSED
+2921,fix: response time for requests via extension has incorrect value,aitchnyu,2023-02-13T10:29:17Z,2023-02-17T13:44:50+00:00,1,99.26,True,10,11,3,712,1,0,1,MERGED
+2918,feat: rest revamp,anwarulislam,2023-02-04T13:59:26Z,2023-03-30T19:15:43+00:00,7,1301.27,True,2252,1914,63,758,0,30,30,MERGED
+2917,feat: active tab no longer resets after request,aitchnyu,2023-02-03T15:17:02Z,2023-02-08T04:59:19+00:00,4,109.7,True,93,74,6,1074,0,2,2,MERGED
+2916,feat: added reordering and moving for collection,nivedin,2023-02-02T15:06:04Z,2023-02-24T13:39:08+00:00,1,526.55,True,1721,359,24,566,0,0,0,MERGED
+2915,feat: active tab no longer resets after request,aitchnyu,2023-02-02T11:28:16Z,2023-02-03T16:16:22+00:00,2,28.8,False,66,66,2,509,2,0,2,CLOSED
+2912,fix: my collection search filter empty state UI,nivedin,2023-01-31T14:40:34Z,2023-01-31T17:03:11+00:00,1,2.38,True,11,14,2,307,0,0,0,MERGED
+2908,Fixed Ukrainian Localization grammatical errors,kyee-rs,2023-01-27T14:59:40Z,2023-01-28T03:14:32+00:00,2,12.25,True,73,73,1,309,0,0,0,MERGED
+2907,refactor: cli updates,aitchnyu,2023-01-25T17:51:30Z,2023-02-07T12:17:55+00:00,17,306.44,True,137,271,13,738,0,15,15,MERGED
+2899,chore: abstract auth from hoppscotch/commons to hoppscotch/web,amk-dev,2023-01-10T00:43:44Z,2023-02-01T15:17:23+00:00,3,542.56,True,975,815,38,13,0,0,0,MERGED
+2898,chore(i18n): update japanese translations,mochipon,2023-01-09T11:57:19Z,2023-01-09T15:23:12+00:00,1,3.43,True,582,585,1,550,0,0,0,MERGED
+2895,chore: update i18n translations,travzhang,2023-01-05T05:26:03Z,2023-01-05T07:57:18+00:00,1,2.52,True,76,76,1,0,0,0,0,MERGED
+2892,update tw.json,5idereal,2022-12-27T08:52:51Z,2023-01-03T07:21:34+00:00,1,166.48,True,23,23,1,0,0,0,0,MERGED
+2891,fix: login modal not visible in small screen,anwarulislam,2022-12-25T19:47:23Z,2022-12-26T00:44:26+00:00,1,4.95,True,32,22,4,581,0,0,0,MERGED
+2887,Hoppscotch UI,anwarulislam,2022-12-20T12:41:48Z,2023-01-28T02:57:00+00:00,11,926.25,True,2947,200,65,1395,1,16,17,MERGED
+2886,refactor: new collection panel UI for mobile ,JoelJacobStephen,2022-12-20T12:00:59Z,2023-02-23T07:44:37+00:00,4,1555.73,False,180,150,3,445,1,3,4,CLOSED
+2874,chore: reintroduce sitemap generation,AndrewBastin,2022-12-10T02:02:29Z,2022-12-11T02:10:45+00:00,1,24.14,True,40,13,5,1042,0,0,0,MERGED
+2873,fix: cannot write to body when a request is loaded from history,amk-dev,2022-12-09T14:08:19Z,2022-12-09T15:09:36+00:00,2,1.02,True,2,2,1,305,0,1,1,MERGED
+2871,fix: circular watcher dependencies on invite.vue causing infinite loop,amk-dev,2022-12-06T11:46:09Z,2022-12-06T20:59:38+00:00,1,9.22,True,16,19,1,549,0,0,0,MERGED
+2865,feat : smart tree component,nivedin,2022-12-01T11:42:49Z,2023-01-31T11:45:03+00:00,3,1464.04,True,4427,4086,39,3176,2,0,2,MERGED
+2863,feat: ability to delete user account and data,anwarulislam,2022-11-29T10:01:44Z,2022-12-17T04:01:39+00:00,6,426.0,True,390,158,7,386,0,3,3,MERGED
+2861,fix: delete not working properly on request body,amk-dev,2022-11-24T11:59:42Z,2022-11-25T03:00:43+00:00,1,15.02,True,3,1,1,262,0,0,0,MERGED
+2853,feat: Ability to test headers in test request,BirnadinErick,2022-11-14T02:09:38Z,2022-11-29T02:23:11+00:00,1,360.23,False,172,6,6,452,2,1,3,CLOSED
+2851,chore: remove unwanted debug info,amk-dev,2022-11-08T18:11:14Z,2022-11-09T22:37:05+00:00,1,28.43,True,9,26,1,137,0,0,0,MERGED
+2850,fix: fix cursor going out of bounds when filtering response,amk-dev,2022-11-08T11:51:53Z,2022-11-09T22:23:28+00:00,1,34.53,True,10,12,1,463,0,0,0,MERGED
+2848,refactor: move global env to top in UI,nivedin,2022-11-02T19:24:14Z,2022-11-03T04:43:06+00:00,4,9.31,True,93,25,7,470,0,1,1,MERGED
+2847,fix: errors on opening json outline,amk-dev,2022-10-31T21:06:16Z,2022-10-31T22:28:31+00:00,1,1.37,True,1,1,1,183,0,0,0,MERGED
+2846,fix: linting erroring out on graphql queries,amk-dev,2022-10-31T14:18:03Z,2022-10-31T22:45:53+00:00,1,8.46,True,2,2,1,199,0,0,0,MERGED
+2837,Greek translation,ArchontisKostis,2022-10-29T11:33:52Z,2022-10-29T19:04:01+00:00,1,7.5,True,132,132,1,346,0,0,0,MERGED
+2836,chore: add polyfill for replaceAll,amk-dev,2022-10-28T21:36:41Z,2022-10-29T00:29:07+00:00,1,2.87,True,56,39,3,164,0,0,0,MERGED
+2827,fix: codemirror field overflow,nivedin,2022-10-26T19:30:49Z,2022-10-27T02:42:24+00:00,1,7.19,True,13,11,1,327,0,0,0,MERGED
+2824,fix: import hopp collection,nivedin,2022-10-26T09:51:59Z,2022-10-28T02:29:46+00:00,1,40.63,True,13,6,1,352,4,0,4,MERGED
+2813,Feat: Add inline environment variable edit,franciscoemanuel,2022-10-23T19:27:15Z,2022-11-02T12:25:23+00:00,12,232.97,True,176,30,10,818,6,10,16,MERGED
+2810,fix: useCodemirror getting non strings as value,amk-dev,2022-10-21T21:58:40Z,2022-10-22T07:06:07+00:00,1,9.12,True,32,12,2,309,0,0,0,MERGED
+2791,feat: use environment variable to specify proxyscotch access token,biondizzle,2022-10-16T02:06:29Z,2022-10-29T22:16:41+00:00,3,332.17,True,6,0,3,1721,6,1,7,MERGED
+2781,Add missing Ukrainian translations,andrii-bodnar,2022-10-13T18:44:11Z,2022-10-14T03:47:19+00:00,1,9.05,True,6,6,1,0,0,0,0,MERGED
+2778,chore: migration vite import.meta.glob,hausg,2022-10-12T03:55:43Z,2022-10-12T09:44:44+00:00,1,5.82,True,1,1,1,396,0,0,0,MERGED
+2775,chore: serialize when logging errors,amk-dev,2022-10-11T12:11:45Z,2022-10-11T20:49:27+00:00,1,8.63,True,21,7,2,120,0,0,0,MERGED
+2774,fix(i18n): wrong and missing translations for spanish language,sawa-ko,2022-10-10T22:49:40Z,2022-10-11T02:56:19+00:00,1,4.11,True,62,62,1,321,0,0,0,MERGED
+2772,fix: fix auth/graphql errors causing errors on logout,amk-dev,2022-10-10T21:07:12Z,2022-10-11T08:36:22+00:00,1,11.49,True,99,71,2,176,0,0,0,MERGED
+2770,fix: team environment importing ,nivedin,2022-10-10T10:18:35Z,2022-10-10T14:45:01+00:00,1,4.44,True,33,20,4,441,0,0,0,MERGED
+2768,fix: realtime connect/disconnect issue,anwarulislam,2022-10-10T06:35:55Z,2022-10-13T12:03:46+00:00,1,77.46,True,91,17,40,436,2,0,2,MERGED
+2756,refactor: revamped collection panel UI for mobile,JoelJacobStephen,2022-10-09T13:48:31Z,2022-12-20T11:48:25+00:00,1,1726.0,False,113,25,14,494,1,0,1,CLOSED
+2755,feat: added possibility to order requests alphabetically (#2261),AbderrahmaneGuermat,2022-10-09T13:07:26Z,2022-10-22T07:11:13+00:00,1,306.06,False,21,2,1,452,2,2,4,CLOSED
+2750,Update tr.json,islamzeki,2022-10-07T06:32:16Z,2022-10-09T15:31:48+00:00,1,56.99,True,5,5,1,235,0,0,0,MERGED
+2746,feat: use email as fallback for display name,amk-dev,2022-10-06T12:54:45Z,2022-10-06T19:15:34+00:00,1,6.35,True,31,13,8,78,2,0,2,MERGED
+2744,fix: fix ref access when using v-for on Invite.vue,amk-dev,2022-10-06T04:48:28Z,2022-10-06T10:36:14+00:00,1,5.8,True,39,34,3,36,0,0,0,MERGED
+2742,fix: fix type error when generating profile picture initials,amk-dev,2022-10-06T02:35:06Z,2022-10-06T12:26:30+00:00,2,9.86,True,25,9,4,48,4,5,9,MERGED
+2739,translate and fix some Indonesia language,fikimaul,2022-10-05T11:39:39Z,2022-10-05T14:40:19+00:00,1,3.01,True,65,65,1,235,0,0,0,MERGED
+2734,Added hindi language to locales,Dhravya,2022-10-03T15:14:43Z,2022-10-04T06:49:12+00:00,1,15.57,True,678,0,2,250,1,1,2,MERGED
+2715,fix: term translattion in tw.json,hms5232,2022-10-01T03:51:21Z,2022-10-01T11:44:11+00:00,1,7.88,True,9,9,1,348,0,0,0,MERGED
+2706,chore: exclude robots.txt and sitemap.xml from using fallback navigation,amk-dev,2022-09-29T19:26:38Z,2022-10-02T11:09:11+00:00,1,63.71,True,1,0,1,86,0,0,0,MERGED
+2679,fix: parse env with dash from request body,anwarulislam,2022-09-19T14:29:57Z,2022-10-03T09:17:09+00:00,1,330.79,False,3,2,1,442,1,1,2,CLOSED
+2668,"#2667 update German language. Unified personal ""Du"" instead of ""Sie""",rivermanbw,2022-09-17T12:22:57Z,2022-10-03T13:26:38+00:00,2,385.06,True,85,85,1,0,0,0,0,MERGED
+2664,fix: allow posting empty key files in multipart/form-data,fumblehool,2022-09-14T17:45:28Z,2022-10-06T20:59:16+00:00,1,531.23,True,3,3,2,332,2,0,2,MERGED
+2662,fix: find linked account from authentication error and link it,aitchnyu,2022-09-14T10:55:27Z,2022-10-03T19:38:00+00:00,2,464.71,True,35,68,2,365,1,3,4,MERGED
+2644,feat: gql revamp,anwarulislam,2022-09-06T11:57:14Z,2023-08-22T12:13:43+00:00,4,8400.27,True,2504,1703,41,448,2,4,6,MERGED
+2631,fix: #2630,islamzeki,2022-09-02T10:40:15Z,2022-09-04T03:14:40+00:00,1,40.57,True,1,1,1,9,0,0,0,MERGED
+2626,fix: link github and google,aitchnyu,2022-08-31T11:20:01Z,2022-09-06T09:28:46+00:00,1,142.15,True,21,3,2,835,1,0,1,MERGED
+2606,fix: form data with same key send only last one,nivedin,2022-08-22T10:13:15Z,2022-08-22T17:32:03+00:00,1,7.31,True,75,20,2,381,0,0,0,MERGED
+2578,feat: allow quoted key/values for escaping characters and trail/lead whitespaces in raw key value pairs,AndrewBastin,2022-08-12T07:15:47Z,2022-08-12T08:23:40+00:00,1,1.13,True,392,80,7,1239,0,0,0,MERGED
+2575,feat: added support for path variables,MasonJason23,2022-08-10T22:36:38Z,2022-10-29T22:02:46+00:00,4,1919.44,True,1813,527,51,676,8,8,16,MERGED
+2560,Hightlight environment variable with a dash '-' in its name,anwarulislam,2022-08-06T15:46:58Z,2022-08-08T11:53:17+00:00,1,44.11,True,4,3,1,382,0,0,0,MERGED
+2558,docs: fix PWA broken link,PatrickPrakash,2022-08-04T09:04:50Z,2022-08-04T13:11:20+00:00,1,4.11,True,1,1,1,347,1,0,1,MERGED
+2556,feat: remember pane sizes,sagar290,2022-08-03T06:37:00Z,2022-08-09T23:41:03+00:00,30,161.07,True,75,13,8,378,2,24,26,MERGED
+2544,refactor: revamped collection panel UI for mobile,JoelJacobStephen,2022-07-31T07:02:46Z,2022-10-09T15:01:11+00:00,2,1687.97,False,123,14,9,306,2,0,2,CLOSED
+2528,fix: curl parser x-www-form-urlencoded body parsing,kyteinsky,2022-07-24T10:34:50Z,2022-07-28T15:33:05+00:00,1,100.97,True,33,1,2,106,0,0,0,MERGED
+2527,feat: added delay flag in @hoppscotch/cli and related tests,devblin,2022-07-23T07:39:14Z,2022-08-04T13:49:14+00:00,2,294.17,True,163,19,13,340,1,1,2,MERGED
+2523,fix: disabled search in team collection,JoelJacobStephen,2022-07-18T13:17:40Z,2022-07-25T08:31:26+00:00,1,163.23,True,1,0,1,245,1,0,1,MERGED
+2512,feat: team environments,nivedin,2022-07-14T17:19:33Z,2022-10-07T16:35:39+00:00,5,2039.27,True,1883,224,28,712,5,9,14,MERGED
+2511,update tw.json,5idereal,2022-07-14T11:54:19Z,2022-07-25T08:07:53+00:00,1,260.23,True,57,14,1,0,0,0,0,MERGED
+2510,fix: search panel position in response,khusroohayat,2022-07-14T07:24:13Z,2022-07-25T08:58:02+00:00,3,265.56,True,5,1,1,0,6,0,6,MERGED
+2506,refactor: tabs component improvements,amk-dev,2022-07-11T16:31:23Z,2022-10-16T09:24:20+00:00,1,2320.88,False,108,94,2,273,0,3,3,CLOSED
+2473,Test Results: Environment variables overflow issue fix,nirnejak,2022-06-27T08:55:18Z,2022-06-27T10:22:32+00:00,1,1.45,True,2,2,1,569,0,0,0,MERGED
+2460,fix: empty string exported when exporting team collections,amk-dev,2022-06-26T23:19:51Z,2022-06-27T16:54:38+00:00,1,17.58,True,3,3,1,262,0,0,0,MERGED
+2454,fix: environment variables save without pressing 'save' button,nivedin,2022-06-23T11:08:54Z,2022-06-30T09:12:44+00:00,1,166.06,True,60,18,1,304,0,0,0,MERGED
+2450,feat: realtime tabs as subpages,anwarulislam,2022-06-21T08:35:44Z,2022-06-28T09:42:47+00:00,1,169.12,True,260,198,8,595,3,0,3,MERGED
+2434,fix: variable typo,FlandreDaisuki,2022-06-17T18:31:38Z,2022-06-18T02:07:32+00:00,1,7.6,True,5,5,3,253,0,0,0,MERGED
+2433,fix: remove confirm change popup and add ability to overwrite request in saveas popup ,nivedin,2022-06-17T16:34:20Z,2022-06-22T09:51:35+00:00,1,113.29,True,28,60,2,341,0,0,0,MERGED
+2432,Fix/saving request after update,vaugenwake,2022-06-16T19:44:33Z,2022-06-18T08:53:08+00:00,1,37.14,False,0,4,2,414,1,0,1,CLOSED
+2428,fix: resolve removing body parameters in requests (#2390),vaugenwake,2022-06-15T21:46:13Z,2022-06-16T14:17:46+00:00,1,16.53,True,85,45,1,543,3,0,3,MERGED
+2426,fix: Copy and download filtered response body,nivedin,2022-06-13T14:32:45Z,2022-06-16T00:39:44+00:00,1,58.12,True,6,7,1,303,0,0,0,MERGED
+2425,feat: display response size with a bigger unit in tooltip,nicognaW,2022-06-13T05:31:16Z,2022-06-14T10:10:33+00:00,3,28.65,True,37,2,1,576,3,7,10,MERGED
+2410,feat: checks only if not default param,moritzmock,2022-06-11T12:33:52Z,2022-06-14T16:51:03+00:00,2,76.29,True,4,0,1,400,0,1,1,MERGED
+2404,feat: filter json body response,nivedin,2022-06-06T08:41:14Z,2022-06-10T12:42:40+00:00,4,100.02,True,174,13,8,473,0,0,0,MERGED
+2389,refactor: updated js-sandbox with new quickjs apis,devblin,2022-06-01T07:35:50Z,2022-10-03T19:11:08+00:00,10,2987.59,False,3091,756,42,300,4,12,16,CLOSED
+2385,refactor: use refAutoReset instead of settimeout,liyasthomas,2022-05-31T13:35:56Z,2022-06-01T11:24:38+00:00,1,21.81,True,62,53,18,280,0,0,0,MERGED
+2382,feat: segmented content-type dropdown UI,nivedin,2022-05-30T12:15:56Z,2022-05-31T11:34:05+00:00,2,23.3,True,71,16,3,343,1,0,1,MERGED
+2381,MQTT Revamp,anwarulislam,2022-05-30T08:19:40Z,2022-11-26T21:13:25+00:00,9,4332.9,True,1277,206,23,325,28,13,41,MERGED
+2373,feat: added support for passing env.json file to test cmd,devblin,2022-05-28T17:42:52Z,2022-06-15T18:23:24+00:00,4,432.68,True,308,95,20,470,0,13,13,MERGED
+2372,feat: export hoppscotch collections as openapi document,amk-dev,2022-05-27T23:58:16Z,2022-10-16T09:24:19+00:00,12,3393.43,False,1690,817,14,1315,4,49,53,CLOSED
+2370,fix: curl parser json detection issues,kyteinsky,2022-05-27T11:23:40Z,2022-06-18T08:39:16+00:00,5,525.26,True,6,9,1,62,0,1,1,MERGED
+2366,fix: curl parser url sanitisation,kyteinsky,2022-05-26T08:37:37Z,2022-05-27T09:18:33+00:00,1,24.68,True,107,31,6,202,0,0,0,MERGED
+2347,feat: UI of shortcode actions,nivedin,2022-05-19T10:11:46Z,2022-05-24T12:28:49+00:00,9,122.28,True,631,118,12,370,1,4,5,MERGED
+2332,feat: extension identification improvements,amk-dev,2022-05-10T00:19:21Z,2022-05-19T08:11:06+00:00,2,223.86,True,243,129,10,394,2,5,7,MERGED
+2324,fix : save request popup bug,nivedin,2022-05-05T13:16:06Z,2022-05-05T15:16:29+00:00,1,2.01,True,20,1,2,410,0,0,0,MERGED
+2321,feat: Shortcodes UI implementation,nivedin,2022-05-04T07:43:22Z,2022-05-19T10:57:24+00:00,1,363.23,False,3523,508,65,318,1,7,8,CLOSED
+2313,refactor: isolate computed header calculation on effective requests,AndrewBastin,2022-05-02T07:43:10Z,2022-05-11T09:23:07+00:00,1,217.67,True,263,70,4,677,4,0,4,MERGED
+2300,chore: tests for hoppscotch-cli,devblin,2022-04-29T20:46:51Z,2022-05-11T10:14:19+00:00,2,277.46,True,1901,137,30,329,1,0,1,MERGED
+2299,fix: same key params are not overwritten to the last defined,anwarulislam,2022-04-29T14:03:32Z,2022-04-30T13:53:43+00:00,1,23.84,True,66,15,3,414,0,0,0,MERGED
+2274,feat: fix turkish language,unknown,2022-04-18T13:16:37Z,2022-04-18T14:38:39+00:00,1,1.37,True,177,177,1,262,0,0,0,MERGED
+2270,fix: add aria labels to forms,sweetkane,2022-04-17T18:24:54Z,2022-04-18T04:31:04+00:00,1,10.1,True,1,0,1,680,0,0,0,MERGED
+2268,feat: loading states for modal buttons,kyteinsky,2022-04-16T01:07:50Z,2022-04-20T18:18:26+00:00,2,113.18,True,242,177,13,62,6,0,6,MERGED
+2267,refactor : migrate components to script setup on ts,nivedin,2022-04-14T17:56:13Z,2022-04-17T16:59:32+00:00,3,71.06,True,325,392,5,273,4,5,9,MERGED
+2262,feat: import collections from URL,amk-dev,2022-04-13T11:50:40Z,2022-05-03T12:24:47+00:00,3,480.57,True,239,59,13,240,1,1,2,MERGED
+2257,feat: added execution duration and updated collection-metrics,devblin,2022-04-12T21:01:19Z,2022-04-18T17:13:43+00:00,8,140.21,True,399,73,10,508,1,9,10,MERGED
+2243,Open API support for post/put body schemas,RishabhAgarwal-2001,2022-04-08T05:44:26Z,2022-06-29T16:44:43+00:00,5,1979.0,True,464,7,5,647,2,12,14,MERGED
+2241,feat: add `New Request` button for folder and collection,kyteinsky,2022-04-07T05:44:50Z,2022-04-14T11:39:03+00:00,6,173.9,True,390,3,12,205,6,9,15,MERGED
+2240,refactor: realtime log entry revamp,JoelJacobStephen,2022-04-06T17:34:38Z,2022-05-09T20:35:24+00:00,4,795.01,True,653,144,18,429,3,2,5,MERGED
+2239,feat: unsaved change popup,nivedin,2022-04-06T16:55:41Z,2022-04-13T15:22:45+00:00,4,166.45,True,769,240,7,776,10,9,19,MERGED
+2234,feat: add toInclude() function,ace-n,2022-04-05T00:55:21Z,2022-04-05T10:27:15+00:00,1,9.53,True,244,3,5,523,1,0,1,MERGED
+2228,refactor: real-time system,anwarulislam,2022-04-02T11:31:18Z,2022-05-28T09:35:41+00:00,15,1342.07,True,2120,1801,24,379,38,66,104,MERGED
+2225,chore: bump hoppscotch-cli dependencies,devblin,2022-04-01T11:34:22Z,2022-04-01T19:12:39+00:00,1,7.64,True,107,65,2,263,2,0,2,MERGED
+2216,fix: add environment variables for OAuth2,ntarunmenon,2022-03-31T00:38:00Z,2022-04-04T06:07:19+00:00,1,101.49,True,36,42,3,644,1,0,1,MERGED
+2210,feat: remember last selected team id,anwarulislam,2022-03-28T12:14:47Z,2022-04-02T09:47:37+00:00,13,117.55,True,98,4,4,695,11,2,13,MERGED
+2204,feat: added developer options to copy user id token ,nivedin,2022-03-25T18:06:22Z,2022-03-28T08:44:16+00:00,3,62.63,True,114,2,3,278,5,4,9,MERGED
+2202,refactor: remove footer on narrow screens,JoelJacobStephen,2022-03-25T14:42:05Z,2022-03-29T06:55:54+00:00,1,88.23,True,274,25,5,353,5,0,5,MERGED
+2200,refactor: check spelling,jsoref,2022-03-25T05:22:48Z,2022-03-25T11:19:28+00:00,4,5.94,True,32,32,16,609,1,3,4,MERGED
+2191,feat: override content-type,anwarulislam,2022-03-22T21:03:31Z,2022-03-29T04:23:55+00:00,6,151.34,True,115,35,6,742,15,14,29,MERGED
+2189,feat: reorder key-value entries,liyasthomas,2022-03-22T14:19:02Z,2022-03-24T14:17:21+00:00,1,47.97,True,989,667,11,345,2,0,2,MERGED
+2187,refactor: replace deprecated String.prototype.substr(),CommanderRoot,2022-03-22T07:22:49Z,2022-03-23T14:31:26+00:00,1,31.14,True,2,2,2,460,2,0,2,MERGED
+2183,Fix typo in usage step,twfahey1,2022-03-21T20:34:42Z,2022-03-23T07:59:56+00:00,1,35.42,True,1,1,1,0,2,0,2,MERGED
+2175,Supporting Raw Body Imports from Postman,RishabhAgarwal-2001,2022-03-18T11:36:39Z,2022-03-25T08:27:14+00:00,1,164.84,True,1363,878,24,478,4,0,4,MERGED
+2171,fix(i18n): improved Spanish language,sawa-ko,2022-03-16T23:07:57Z,2022-03-17T06:01:04+00:00,1,6.89,True,168,168,1,286,0,0,0,MERGED
+2169,refactor: inherit default curl parser values,kyteinsky,2022-03-16T05:40:44Z,2022-04-04T16:08:12+00:00,17,466.46,True,1333,956,16,97,1,39,40,MERGED
+2167,refactor: preserve big ints and decimals on JSONLensRenderer,AndrewBastin,2022-03-15T07:08:03Z,2022-03-15T09:09:54+00:00,1,2.03,True,89,84,3,295,0,0,0,MERGED
+2153,refactor: improve the mobile layout.,JoelJacobStephen,2022-03-08T07:48:04Z,2022-03-21T02:15:11+00:00,1,306.45,True,118,56,16,298,11,4,15,MERGED
+2145,chore: introduce curl parser tests and minor changes,kyteinsky,2022-03-02T14:03:35Z,2022-03-14T18:09:32+00:00,4,292.1,True,862,46,6,191,6,0,6,MERGED
+2131,refactor: combine add and edit environment modals,kyteinsky,2022-02-25T13:06:50Z,2022-03-07T11:01:55+00:00,10,237.92,True,56,108,4,131,9,2,11,MERGED
+2126,Enable image lens for WebP,kidonng,2022-02-20T17:05:48Z,2022-02-20T20:04:56+00:00,1,2.99,True,1,1,1,591,2,0,2,MERGED
+2125,Add an authorization tab for GraphQL,liyasthomas,2022-02-20T15:16:50Z,2022-03-14T19:14:26+00:00,8,531.96,True,491,29,12,725,12,6,18,MERGED
+2118,Add an authorization tab for GraphQL,RishabhAgarwal-2001,2022-02-14T06:48:06Z,2022-02-20T15:09:03+00:00,1,152.35,True,515,38,12,725,7,0,7,MERGED
+2104,feat: handle test script execution failure,RishabhAgarwal-2001,2022-01-31T08:54:22Z,2022-02-01T08:59:18+00:00,7,24.08,True,33,3,4,576,1,1,2,MERGED
+2088,fix: parsing of protocol correctly,kyteinsky,2022-01-25T14:41:43Z,2022-02-22T17:33:22+00:00,17,674.86,True,994,329,7,548,9,20,29,MERGED
+2083,feat: Ensure Method In Endpoint,RishabhAgarwal-2001,2022-01-24T07:53:44Z,2022-01-24T10:52:25+00:00,1,2.98,True,13,0,1,619,1,0,1,MERGED
+2074,Feature: hopp-cli in TypeScript,devblin,2022-01-20T05:39:15Z,2022-03-28T08:26:15+00:00,45,1610.78,True,2654,119,36,79,22,41,63,MERGED
+2073,chore(i18n): updated Hungarian translation,urbalazs,2022-01-19T23:19:09Z,2022-01-20T00:40:38+00:00,1,1.36,True,296,296,1,0,1,0,1,MERGED
+2067,fix: multipart form data sorting,kyteinsky,2022-01-17T15:06:28Z,2022-01-22T21:00:39+00:00,1,125.9,True,83,19,3,431,1,0,1,MERGED
+2057,fix: chinese pinyin input - fix #2039,baiy,2022-01-06T11:18:46Z,2022-01-06T15:18:36+00:00,1,4.0,True,9,2,1,97,1,0,1,MERGED
+2048,Bug/body missing onimport,anwarulislam,2021-12-28T17:52:11Z,2021-12-29T01:16:41+00:00,1,7.41,True,65,20,3,253,1,0,1,MERGED
+2042,i18n: Update zh-CN translations,jks15satoshi,2021-12-24T06:14:19Z,2021-12-24T11:36:41+00:00,1,5.37,True,70,70,1,283,0,0,0,MERGED
+2037,feat: import cURL on paste,anwarulislam,2021-12-22T14:04:15Z,2021-12-22T19:57:06+00:00,4,5.88,True,46,2,4,388,7,2,9,MERGED
+2031,feat: Import Insomnia collection to Hoppscotch,anwarulislam,2021-12-19T20:19:18Z,2021-12-20T16:08:55+00:00,2,19.83,True,251,3,3,499,8,0,8,MERGED
+2021,feat: (authentication) Api key based authentication [#2000],EdwinFajardoBarrera,2021-12-17T02:15:19Z,2021-12-17T16:02:30+00:00,4,13.79,True,122,12,3,327,3,4,7,MERGED
+1999,feat: socketio bearer authentication,rakshit087,2021-12-07T08:49:56Z,2021-12-30T10:55:32+00:00,1,554.09,True,145,2,1,16,6,0,6,MERGED
+1995,Refactoring Lenses Using Vue Composables,RishabhAgarwal-2001,2021-12-05T14:26:46Z,2022-01-17T15:30:48+00:00,16,1033.07,True,187,208,10,112,9,10,19,MERGED
+1991,fix: show an error when pre-request script fails,andriuspetrauskis,2021-12-02T16:24:15Z,2021-12-02T17:44:27+00:00,2,1.34,True,112,6,36,37,3,0,3,MERGED
+1987,fix: docker node-gyp python not found,lokesh1729,2021-11-30T11:10:02Z,2021-12-03T07:44:34+00:00,2,68.58,True,4,2,1,204,16,0,16,MERGED
+1985,fix: code generators,devblin,2021-11-29T15:05:22Z,2021-11-30T02:16:45+00:00,1,11.19,True,285,263,21,11,1,0,1,MERGED
+1955,"feat: add undo when parameters and headers are deleted, resolves #1951",Wils3B,2021-11-16T09:34:25Z,2021-11-16T11:04:11+00:00,1,1.5,True,65,15,3,304,3,0,3,MERGED
+1952,realtime persistence.,0xc0Der,2021-11-15T13:10:01Z,2021-12-02T14:50:25+00:00,26,409.67,True,1124,73,10,78,6,27,33,MERGED
+1944,chore(i18n): update tw translations,TonyRL,2021-11-11T17:58:16Z,2021-11-11T23:54:26+00:00,1,5.94,True,30,26,1,793,0,0,0,MERGED
+1942,allow environment variables in request body.,0xc0Der,2021-11-06T20:39:52Z,2021-11-10T14:22:11+00:00,4,89.71,True,15,4,3,19,4,1,5,MERGED
+1941,duplicate request in collections.,0xc0Der,2021-11-06T13:03:05Z,2021-11-10T13:39:40+00:00,2,96.61,True,58,5,8,23,4,0,4,MERGED
+1938,fix: 100% HTML preview area size,iagormoraes,2021-11-04T20:04:32Z,2021-11-05T00:55:50+00:00,1,4.86,True,5,3,3,107,1,0,1,MERGED
+1930,sync request params with bulk editor.,0xc0Der,2021-11-02T14:23:32Z,2021-11-04T07:31:57+00:00,4,41.14,True,25,14,1,108,4,1,5,MERGED
+1925,persist environment selection.,0xc0Der,2021-11-01T17:26:42Z,2021-11-03T17:45:52+00:00,1,48.32,True,28,0,1,69,2,0,2,MERGED
+1924,Allow duplication of global environment,0xc0Der,2021-11-01T17:22:24Z,2021-11-02T00:46:16+00:00,1,7.4,True,14,3,1,79,2,0,2,MERGED
+1893,Update Turkish translations and localizations,buraksaraloglu,2021-10-24T20:10:59Z,2021-10-24T23:32:31+00:00,1,3.36,True,50,50,1,104,1,0,1,MERGED
+1889,chore: add json file extension,FlandreDaisuki,2021-10-19T15:49:16Z,2021-10-20T06:36:01+00:00,1,14.78,True,3,3,3,76,4,0,4,MERGED
+1888,Feature: Adds arrow keys navigation on power search,franciscoemanuel,2021-10-19T05:25:36Z,2021-10-19T08:14:14+00:00,1,2.81,True,107,3,4,14,3,0,3,MERGED
+1887,chore(i18n): update tw translations,hms5232,2021-10-18T08:33:11Z,2021-10-19T09:18:51+00:00,1,24.76,True,1,1,1,33,1,0,1,MERGED
+1872,ci(workflow): add cache to workflows using actions/setup-node,oscard0m,2021-10-12T19:02:12Z,2021-10-16T17:20:16+00:00,1,94.3,True,6,10,1,412,6,0,6,MERGED
+1867,feat: add socket.io-client version selector menu,blenderskool,2021-10-11T14:46:08Z,2021-10-12T05:52:47+00:00,1,15.11,True,212,8,3,935,1,0,1,MERGED
+1864,multipart payload not working while using proxy,cedric05,2021-10-09T21:56:18Z,2021-10-13T16:02:28+00:00,3,90.1,True,21,5,3,117,3,1,4,MERGED
+1862,route navigation no longer happening in typable areas,rishabhkalra96,2021-10-08T17:33:58Z,2021-10-09T01:15:18+00:00,1,7.69,True,2,4,1,195,4,0,4,MERGED
+1852,Show graphql error message,StephaneBischoff,2021-10-03T15:28:41Z,2021-10-04T02:31:47+00:00,5,11.05,True,38,11,4,499,6,3,9,MERGED
+1850,Feature/1842 make body stored on query vars,mandaputtra,2021-10-03T01:52:18Z,2021-10-03T06:58:49+00:00,1,5.11,True,19,1,2,145,1,0,1,MERGED
+1848,feat: add ability to copy environments,StephaneBischoff,2021-10-02T21:34:11Z,2021-10-03T13:08:37+00:00,6,15.57,True,50,1,3,39,1,2,3,MERGED
+1845,chore(i18n): fix polish translation,YasiOnFire,2021-10-01T18:43:08Z,2021-10-02T02:04:24+00:00,2,7.35,True,86,86,1,134,1,0,1,MERGED
+1836,"Move to JS code execution sandbox (HOPP-67, HOPP-66)",AndrewBastin,2021-09-24T19:48:00Z,2021-09-25T16:57:42+00:00,1,21.16,True,2091,508,32,304,0,0,0,MERGED
+1794,Update korean translation,SlugsRifle,2021-08-31T05:03:07Z,2021-08-31T06:53:33+00:00,1,1.84,True,118,118,1,0,0,0,0,MERGED
+1790,refactor: bump firebase to v9,AndrewBastin,2021-08-29T05:24:13Z,2021-08-29T12:58:33+00:00,1,7.57,True,950,492,11,44,0,0,0,MERGED
+1769,fix: broken settings persistence on the home page,s-r-x,2021-08-09T04:25:14Z,2021-08-09T08:04:20+00:00,1,3.65,True,25,87,2,523,2,0,2,MERGED
+1767,fix: translations on Team and other components,juzhiyuan,2021-08-08T03:32:38Z,2021-08-30T08:53:17+00:00,2,533.34,False,119,43,22,9,3,1,4,CLOSED
+1742,fix: undefined duration,s-r-x,2021-07-14T06:00:01Z,2021-07-14T07:21:09+00:00,1,1.35,True,8,2,2,68,1,0,1,MERGED
+1737,fix: duplicated input ids,s-r-x,2021-07-01T10:31:08Z,2021-07-01T23:28:22+00:00,2,12.95,True,27,27,13,450,1,1,2,MERGED
+1727,Cleaner Docker run command,d4v3y0rk,2021-06-19T16:09:31Z,2021-06-20T00:17:24+00:00,1,8.13,True,1,1,1,154,1,0,1,MERGED
+1723,fix: broken gql collection request editor,s-r-x,2021-06-15T10:27:40Z,2021-06-15T12:54:53+00:00,1,2.45,True,64,0,7,11,1,0,1,MERGED
+1721,fix: modal backdrop click,s-r-x,2021-06-15T09:46:55Z,2021-06-15T12:43:03+00:00,1,2.94,True,22,3,1,218,1,0,1,MERGED
+1720,refactor: modals,s-r-x,2021-06-14T18:48:45Z,2021-06-15T08:18:38+00:00,1,13.5,True,38525,175,9,130,3,0,3,MERGED
+1710,Passwordless sign in with email address,liyasthomas,2021-06-09T17:11:16Z,2021-06-11T05:14:07+00:00,1,36.05,True,222,8,11,0,0,0,0,MERGED
+1709,Made changes to Black Mode to make UI elements more visible.,JoelJacobStephen,2021-06-08T13:13:53Z,2021-06-09T03:22:58+00:00,1,14.15,True,3,3,2,214,1,0,1,MERGED
+1703,fix: prevent overwrite of content type,nelsontky,2021-06-05T16:19:37Z,2021-06-06T10:12:50+00:00,1,17.89,True,5,2,2,297,1,0,1,MERGED
+1701,chore: remove stray debugger,scmmishra,2021-06-03T05:39:36Z,2021-06-06T09:47:12+00:00,1,76.13,True,0,2,1,66,2,0,2,MERGED
+1675,"Corrected Hindi Errors in language folder, In file, Now it's perfectly comprehendible.",Sanscode2911,2021-05-28T18:43:02Z,2021-05-29T17:33:44+00:00,1,22.84,False,17,17,1,128,1,1,2,CLOSED
+1640,Added Hindi Language Support,DevenRathod2,2021-05-15T06:34:07Z,2021-05-15T13:07:50+00:00,1,6.56,True,315,0,2,54,4,0,4,MERGED
+1625,FEAT: add syntax highlighting in Code Generator Modal,iamtabrezkhan,2021-05-03T09:30:55Z,2021-05-05T02:57:45+00:00,3,41.45,True,43,12,24,249,2,1,3,MERGED

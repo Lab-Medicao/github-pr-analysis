@@ -1,13 +1,14 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+164678,[dynamo] Support torch.fx.traceback.annotate,anijain2305,2025-10-05T03:40:07Z,2025-10-06T02:59:26+00:00,6,23.32,False,298,22,9,719,3,2,5,CLOSED
 164654,Enable ruff FURB161 rule,cyyever,2025-10-04T08:08:52Z,2025-10-04T23:26:31+00:00,1,15.29,False,1,2,2,32,3,0,3,CLOSED
-164652,[2/N] Fix clang-tidy readability checks ,cyyever,2025-10-04T06:36:24Z,2025-10-05T07:05:14+00:00,1,24.48,False,142,199,89,743,8,0,8,CLOSED
-164645,Enable all SIM rules except disabled ones,cyyever,2025-10-04T04:40:46Z,2025-10-05T07:38:30+00:00,1,26.96,False,182,255,97,457,15,0,15,CLOSED
+164652,[2/N] Fix clang-tidy readability checks ,cyyever,2025-10-04T06:36:24Z,2025-10-06T01:06:04+00:00,1,42.49,False,178,210,89,743,11,0,11,CLOSED
 164630,remove more no longer needed torch._check_is_size calls 1,laithsakka,2025-10-04T00:34:20Z,2025-10-04T22:06:08+00:00,1,21.53,False,9,28,4,353,3,0,3,CLOSED
 164627,remove no longer needed torch._check_is_size calls from test_dynamic_shapes,laithsakka,2025-10-04T00:20:48Z,2025-10-04T22:06:07+00:00,1,21.76,False,14,15,1,138,2,0,2,CLOSED
 164622,remove guard_size_oblivious from is_contiguous python eager eval path.,laithsakka,2025-10-03T23:47:06Z,2025-10-04T21:02:43+00:00,1,21.26,False,4,1,1,186,4,0,4,CLOSED
 164607,[CI] Limit Numba CUDA-13 patch to CUDA environments only,CSkmd,2025-10-03T21:34:39Z,2025-10-04T02:39:10+00:00,1,5.08,False,8,6,1,186,7,0,7,CLOSED
 164606,[fr] Re-order mismatch check in fr analysis script,fduwjj,2025-10-03T21:30:02Z,2025-10-04T01:16:18+00:00,1,3.77,False,23,17,1,276,3,0,3,CLOSED
 164605,[CI] Add another win shard,clee2000,2025-10-03T21:14:54Z,2025-10-03T22:51:13+00:00,2,1.61,False,4,3,1,301,6,0,6,CLOSED
+164595,[FSDP2] check storage equal and consider data_ptr() == 0,weifengpy,2025-10-03T19:13:16Z,2025-10-06T08:44:42+00:00,2,61.52,False,25,16,2,371,3,1,4,CLOSED
 164590,[CD][CUDA13] Fix wrong incompatibility warning on Spark device ,nWEIdia,2025-10-03T18:43:51Z,2025-10-04T02:20:57+00:00,6,7.62,False,1,1,1,767,2,1,3,CLOSED
 164588,Add pyrefly suppressions (3/n),maggiemoss,2025-10-03T17:53:28Z,2025-10-03T22:03:06+00:00,1,4.16,False,244,29,49,371,3,0,3,CLOSED
 164584,move fw|bw compiler args in aot joint with descriptors,avikchaudhuri,2025-10-03T16:51:38Z,2025-10-04T00:24:50+00:00,1,7.55,False,21,5,1,246,4,0,4,CLOSED
@@ -25,6 +26,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 164513,Add pyrefly suppressions 2/n,maggiemoss,2025-10-02T22:07:32Z,2025-10-03T02:46:16+00:00,1,4.65,False,133,13,26,391,3,0,3,CLOSED
 164512,config for dcache + unit tests,nmacchioni,2025-10-02T22:04:37Z,2025-10-03T10:53:03+00:00,1,12.81,False,168,0,3,324,4,0,4,CLOSED
 164509,[inductor] Enable triton kernels with unbacked inputs,ZixinYang,2025-10-02T21:33:45Z,2025-10-03T21:05:22+00:00,1,23.53,False,25,1,2,1420,5,0,5,CLOSED
+164505,AC should work with pre-dispatch IR,tugsbayasgalan,2025-10-02T21:08:06Z,2025-10-06T11:05:25+00:00,7,85.96,False,126,5,2,229,10,3,13,CLOSED
 164501,[PyTorch Pinned Allocator] Add support of reserved pinned memory segment to avoid slow paths,banitag1,2025-10-02T20:42:19Z,2025-10-03T18:11:30+00:00,1,21.49,False,125,13,5,538,8,0,8,CLOSED
 164496,[DTensor] raise error if the local_tensor argument passed to DTensor.from_local is a DTensor,XilunWu,2025-10-02T18:33:50Z,2025-10-02T21:25:04+00:00,1,2.85,False,20,4,2,570,3,0,3,CLOSED
 164494,[inductor] thread hint_override in more kernel args,pianpwk,2025-10-02T18:30:00Z,2025-10-03T22:07:15+00:00,1,27.62,False,9,3,1,263,3,0,3,CLOSED
@@ -149,3 +151,851 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 164188,fix: inductor non_blocking test - warmup events to make test pass whether it is the first run or not,v0i0,2025-09-29T23:05:54Z,2025-09-30T18:20:19+00:00,1,19.24,False,1,3,1,253,3,0,3,CLOSED
 164187,[BE] remove manylinuxcxx11-abi-builder:cpu-cxx11-abi docker image,atalman,2025-09-29T22:59:08Z,2025-09-30T00:26:24+00:00,3,1.45,False,0,78,3,136,3,0,3,CLOSED
 164184,Fix TestExportOpInfo,SherlockNoMad,2025-09-29T22:51:28Z,2025-09-30T16:12:42+00:00,2,17.35,False,1,2,1,64,7,0,7,CLOSED
+164183,[CI] Push `viable/strict/${time}` tags,malfet,2025-09-29T22:47:48Z,2025-10-01T03:41:13+00:00,2,28.89,False,3,0,1,87,8,1,9,CLOSED
+164177,Add initial suppressions for pyrefly,maggiemoss,2025-09-29T20:56:03Z,2025-10-02T20:57:44+00:00,7,72.03,False,170,75,38,457,7,2,9,CLOSED
+164175,half support for fused_moving_avg_obs_fake_quant() op,jeffdaily,2025-09-29T20:39:23Z,2025-09-30T19:35:20+00:00,2,22.93,False,22,15,3,262,5,0,5,CLOSED
+164174,Support propagating custom meta field to backward graph nodes,yushangdi,2025-09-29T20:33:09Z,2025-10-04T05:03:35+00:00,11,104.51,False,173,28,5,2215,7,4,11,CLOSED
+164173,Add Rocm to Operator Microbenchmark CI,jainapurva,2025-09-29T20:24:34Z,2025-10-03T07:35:35+00:00,1,83.18,False,25,0,1,364,4,0,4,CLOSED
+164171,Support calling torch.compile inside non-strict export,tugsbayasgalan,2025-09-29T19:38:55Z,2025-10-03T16:31:10+00:00,10,92.87,False,308,47,6,1959,12,5,17,CLOSED
+164169,[inductor] separate preamble from main work in compile_fx,avikchaudhuri,2025-09-29T19:30:05Z,2025-10-02T05:44:34+00:00,1,58.24,False,115,71,1,797,11,0,11,CLOSED
+164165,[CMake] Fix `USE_FBGEMM_GENAI` option,malfet,2025-09-29T18:43:36Z,2025-09-30T02:38:06+00:00,6,7.91,False,14,8,2,319,3,2,5,CLOSED
+164162,Exporting aten.sdpa with cuda under fake mode on a cuda-less machine,yiming0416,2025-09-29T18:29:14Z,2025-09-30T17:21:35+00:00,1,22.87,False,20,2,2,394,6,0,6,CLOSED
+164159,[cutlass-4][take 2] upgrade to cutlass 4.2.1,henrylhtsang,2025-09-29T17:57:45Z,2025-10-03T03:48:03+00:00,3,81.84,False,12,12,4,256,11,4,15,CLOSED
+164158,[inductor] fix TestTemplateRender in select_algorithm,isuruf,2025-09-29T17:53:28Z,2025-10-02T21:52:12+00:00,2,75.98,False,1,1,1,261,3,0,3,CLOSED
+164156,[submodule] upgrade cutlass version to 4.2.1 and completely resolved python/cutlass name collision,henrylhtsang,2025-09-29T17:43:52Z,2025-09-30T17:05:01+00:00,2,23.35,False,6,4,2,234,9,0,9,CLOSED
+164152,[PyTorch] Pull ARM's box-cox,Nicoshev,2025-09-29T16:45:49Z,2025-10-01T15:00:08+00:00,1,46.24,False,107,156,1,2023,14,0,14,CLOSED
+164151,Add operator benchmarking run to CI nightly,pytorchbot,2025-09-29T16:40:11Z,2025-09-29T18:21:20+00:00,1,1.69,True,278,97,10,893,1,0,1,MERGED
+164149,[Easy] Add pointwise tag to fma,eellison,2025-09-29T16:11:05Z,2025-09-29T22:40:06+00:00,1,6.48,False,1,0,1,253,6,0,6,CLOSED
+164147,Update Sphinx theme,svekars,2025-09-29T15:53:44Z,2025-09-30T15:36:02+00:00,1,23.7,False,1,1,1,96,8,0,8,CLOSED
+164146,Add explicit dependency on ATen Headers when building FBGEMM_GENAI,fadeputr,2025-09-29T15:38:24Z,2025-09-29T20:24:36+00:00,2,4.77,False,2,0,1,2156,3,0,3,CLOSED
+164140,Fix operator benchmark issue#162708,pytorchbot,2025-09-29T15:00:12Z,2025-09-29T16:34:26+00:00,1,1.57,True,8,3,1,126,4,0,4,MERGED
+164139,Install `fmtlib` headers.,ysiraichi,2025-09-29T14:52:51Z,2025-09-30T01:10:17+00:00,2,10.29,False,6,0,1,587,14,0,14,CLOSED
+164138,Skip test_conv3d_cudnn_broken on ROCM,malfet,2025-09-29T14:38:52Z,2025-09-29T16:56:55+00:00,1,2.3,False,1,0,1,153,8,0,8,CLOSED
+164136,[MPSInductor] Unskip test_repeat_interleave_Tensor_decomp,malfet,2025-09-29T14:18:18Z,2025-09-29T16:20:37+00:00,1,2.04,False,0,6,1,327,4,0,4,CLOSED
+164135,[EZ][BE] Fix unused parameter warnings in EmbeddingBag,malfet,2025-09-29T14:13:34Z,2025-09-29T17:44:11+00:00,1,3.51,False,10,10,1,2244,7,0,7,CLOSED
+164132,Improved support for autotuning in wrapper_fxir,nandesuka,2025-09-29T13:47:06Z,2025-10-02T22:54:25+00:00,3,81.12,False,5,1,1,351,6,1,7,CLOSED
+164131,Adjust ...mark_unbacked() -> ...decorators.mark_unbacked() in logs.,gueraf,2025-09-29T13:46:34Z,2025-09-29T17:44:04+00:00,2,3.96,False,4,4,3,178,4,0,4,CLOSED
+164127,Rename remaining periodic and xpu workflows py3.9->py3.10,atalman,2025-09-29T13:31:59Z,2025-09-29T19:26:25+00:00,1,5.91,False,12,12,2,226,3,0,3,CLOSED
+164117,Remove export of slice_in_dim,cyyever,2025-09-29T07:15:35Z,2025-09-29T16:56:16+00:00,1,9.68,False,0,1,1,32,4,0,4,CLOSED
+164112,Fix invalid f-strings,cyyever,2025-09-29T05:52:38Z,2025-09-30T04:17:16+00:00,2,22.41,False,13,13,8,303,11,0,11,CLOSED
+164108,[MPS] Chunk fillBuffer into 4Gb slices,malfet,2025-09-29T05:26:55Z,2025-09-29T20:19:32+00:00,1,14.88,False,12,1,1,1271,5,0,5,CLOSED
+164104,[3/N] Import Callable from collections.abc in torch/distributed,cyyever,2025-09-29T03:40:00Z,2025-09-30T00:28:57+00:00,1,20.82,False,154,121,74,244,3,0,3,CLOSED
+164103,Remove unnecessary list comprehensions,cyyever,2025-09-29T03:26:53Z,2025-09-30T03:56:58+00:00,2,24.5,False,51,68,16,333,7,0,7,CLOSED
+164101,"Update the operator benchmarking, to benchmark using torch.compile",pytorchbot,2025-09-29T02:50:09Z,2025-09-29T14:49:05+00:00,1,11.98,True,155,30,3,781,1,0,1,MERGED
+164095,Fix silent incorrectness for bmm/baddmm out_dtype overload,PaulZhang12,2025-09-29T02:30:38Z,2025-09-30T20:13:15+00:00,7,41.71,False,101,12,2,204,8,4,12,CLOSED
+164093,[MPSHooks] Release pending command encoder,malfet,2025-09-29T02:00:48Z,2025-09-29T17:50:16+00:00,4,15.82,False,39,1,3,579,5,1,6,CLOSED
+164092,[vllm hash update] update the pinned vllm hash,pytorchupdatebot,2025-09-29T00:27:10Z,2025-09-29T04:41:09+00:00,1,4.23,False,1,1,1,78,3,0,3,CLOSED
+164085,[dynamo][export] Make the source_stack and fqn info same between dynamo and export,anijain2305,2025-09-28T20:00:15Z,2025-09-29T04:35:16+00:00,1,8.58,False,92,43,7,266,4,0,4,CLOSED
+164084,[export] Skip the check instead of disable,anijain2305,2025-09-28T19:41:31Z,2025-09-30T06:52:36+00:00,1,35.18,False,5,3,1,283,7,0,7,CLOSED
+164082,[hops] Support unspecialized nn module for export hops,anijain2305,2025-09-28T19:35:23Z,2025-09-29T01:34:13+00:00,1,5.98,False,8,1,1,238,12,0,12,CLOSED
+164081,[dynamo] Special path for cloning of torch dispatch tensors,anijain2305,2025-09-28T19:33:41Z,2025-09-30T05:15:59+00:00,2,33.7,False,5,0,1,230,12,0,12,CLOSED
+164080,[dynamo][export] Add some missing trace rules,anijain2305,2025-09-28T19:31:59Z,2025-09-29T08:47:27+00:00,1,13.26,False,2,16,2,230,6,0,6,CLOSED
+164079,[dynamo][logging] Add to param_count only if metrics_count is active,anijain2305,2025-09-28T19:29:20Z,2025-09-29T00:59:20+00:00,1,5.5,False,4,3,1,286,10,0,10,CLOSED
+164075,Fix refine_ranges corner case,laithsakka,2025-09-28T17:08:58Z,2025-10-03T23:30:49+00:00,3,126.36,False,19,11,5,339,8,1,9,CLOSED
+164072,registraion replaced with registration in jit_type.h file comment,RajeshvShiyal,2025-09-28T14:57:11Z,2025-09-28T22:55:28+00:00,1,7.97,False,1,1,1,34,4,0,4,CLOSED
+164068,[Fix] Adding missing `f` prefixes to formatted strings [4/N],can-gaa-hou,2025-09-28T09:34:08Z,2025-09-29T04:07:10+00:00,1,18.55,False,6,6,5,154,3,0,3,CLOSED
+164067,[Fix] Adding missing `f` prefixes to formatted strings [3/N],can-gaa-hou,2025-09-28T09:33:56Z,2025-09-29T04:35:26+00:00,1,19.02,False,2,2,2,108,3,0,3,CLOSED
+164066,[Fix] Adding missing `f` prefixes to formatted strings [2/N],can-gaa-hou,2025-09-28T09:33:44Z,2025-09-29T04:40:47+00:00,1,19.12,False,11,11,9,193,3,0,3,CLOSED
+164065,[Fix] Adding missing `f` prefixes to formatted strings [1/N],can-gaa-hou,2025-09-28T09:33:24Z,2025-09-29T04:53:05+00:00,1,19.33,False,26,25,9,282,24,0,24,CLOSED
+164058,Remove old ROCm skip conditions in tests,cyyever,2025-09-28T04:08:31Z,2025-09-29T03:01:01+00:00,1,22.88,False,0,26,1,256,3,0,3,CLOSED
+164056,"Remove unused PyIntXXX, THPUtils_newReal_BOOL, THPQXXX macros",cyyever,2025-09-28T03:26:05Z,2025-09-30T13:48:29+00:00,1,58.37,False,8,41,5,74,8,0,8,CLOSED
+164055,Remove C++ workarounds for Python < 3.10,cyyever,2025-09-28T03:16:42Z,2025-09-28T20:00:05+00:00,1,16.72,False,0,6,2,218,4,0,4,CLOSED
+164054,[2/N] Apply ruff UP035 check in torch files,cyyever,2025-09-28T02:20:12Z,2025-09-29T03:35:36+00:00,4,25.26,False,92,79,48,363,9,1,10,CLOSED
+164053,[vllm hash update] update the pinned vllm hash,pytorchupdatebot,2025-09-28T00:28:28Z,2025-09-28T04:35:20+00:00,1,4.11,False,1,1,1,78,3,0,3,CLOSED
+164049,[CUDA] fix indexing on large tensor causing nvalid configuration argument,Isalia20,2025-09-27T21:17:09Z,2025-09-29T06:07:39+00:00,3,32.84,False,19,5,2,53,5,1,6,CLOSED
+164045,[PP] Use default export mode (non-strict),kwen2501,2025-09-27T17:23:06Z,2025-09-29T06:31:08+00:00,1,37.13,False,1,1,1,266,6,0,6,CLOSED
+164044,Speed up FP precision lookup,lakshayg,2025-09-27T15:56:01Z,2025-10-03T21:35:23+00:00,12,149.66,False,170,132,16,454,15,3,18,CLOSED
+164043,[AMP] using device-agnostic API like torch.amp.autocast,FFFrog,2025-09-27T15:27:03Z,2025-09-29T02:27:08+00:00,2,35.0,False,63,62,11,386,3,1,4,CLOSED
+164038,[DONT MERGE YET][dynamo][guards] Do not dict pop in framelocals dict creation,anijain2305,2025-09-27T06:19:08Z,2025-10-01T03:28:17+00:00,5,93.15,False,7,1,1,708,2,1,3,CLOSED
+164037,[PP] Customize pipeline's submod name,kwen2501,2025-09-27T05:08:01Z,2025-10-01T16:29:22+00:00,2,107.36,False,17,5,1,285,11,1,12,CLOSED
+164035,[fx] Allow customization of submod name in split graph,kwen2501,2025-09-27T03:56:03Z,2025-10-01T16:26:18+00:00,4,108.5,False,12,2,2,253,12,1,13,CLOSED
+164034,[torchfuzz] Make scalar and tensor distribution configurable,bobrenjc93,2025-09-27T03:10:45Z,2025-09-30T04:50:57+00:00,1,73.67,False,138,20,2,58,3,0,3,CLOSED
+164031,[Replicate][Pipeline Parallelism] integration of new replicate function with pipeline parallelism,anshul-si,2025-09-27T00:49:58Z,2025-10-01T18:01:19+00:00,9,113.19,False,250,5,2,436,3,3,6,CLOSED
+164029,[vllm hash update] update the pinned vllm hash,pytorchupdatebot,2025-09-27T00:24:32Z,2025-09-27T04:34:59+00:00,1,4.17,False,1,1,1,78,3,0,3,CLOSED
+164028,[a2av] Separate in/out splits into two tensors,pytorchbot,2025-09-27T00:20:45Z,2025-10-01T21:43:19+00:00,1,117.38,True,36,29,4,551,2,0,2,MERGED
+164027,[cuDNN][Convolution] Disable cuDNN for 3D convolutions with kernel size != 1 for cuDNN 9.8+,pytorchbot,2025-09-27T00:02:04Z,2025-09-29T16:07:14+00:00,1,64.09,True,34,2,3,494,2,0,2,MERGED
+164026,[cuDNN][SDPA] Disable dropout for cuDNN SDPA on 9.11 - 9.13,pytorchbot,2025-09-27T00:00:59Z,2025-09-29T16:06:23+00:00,1,64.09,True,18,0,2,184,1,0,1,MERGED
+164023,[cuDNN][conv][64-bit] Disable cuDNN for 64-bit depthwise convs again,pytorchbot,2025-09-26T23:46:39Z,2025-09-29T16:03:36+00:00,1,64.28,True,22,11,2,227,1,0,1,MERGED
+164020,[Max Autotune][B200] Add addmm config to avoid test OOM,jananisriram,2025-09-26T23:28:24Z,2025-09-29T17:38:50+00:00,4,66.17,False,10,1,1,450,5,1,6,CLOSED
+164019,[Inductor][FP8] Add op_name for ScaledMM TMA template heuristic,jananisriram,2025-09-26T23:27:59Z,2025-09-29T17:24:29+00:00,1,65.94,False,1,0,1,469,4,0,4,CLOSED
+164016,[testing] upload test stats: Add info to the invoking file summary and some other changes,clee2000,2025-09-26T23:06:54Z,2025-09-29T21:20:22+00:00,1,70.22,False,71,44,1,400,3,0,3,CLOSED
+164013,Fix unbacked replacement where LHS is purely backed expr and RHS is unbacked expr,ColinPeppler,2025-09-26T22:23:26Z,2025-10-02T02:40:56+00:00,9,124.29,False,67,2,2,3159,6,4,10,CLOSED
+164012,lint: Filter out /usr/include from results,seemethere,2025-09-26T22:20:59Z,2025-09-27T00:54:11+00:00,3,2.55,False,2,0,1,106,3,1,4,CLOSED
+164009,[FSDP2] support AC(FSDP) for torchtitan's MOE,weifengpy,2025-09-26T22:01:34Z,2025-09-30T22:02:27+00:00,4,96.01,False,236,4,3,4616,10,2,12,CLOSED
+164008,lint: Only include files in pytorch,seemethere,2025-09-26T22:00:28Z,2025-09-27T00:54:10+00:00,2,2.9,False,2,0,1,482,3,0,3,CLOSED
+164007,[amd] Add cudaHostFn_t to cuda_to_hip_mappings,minsii,2025-09-26T21:59:55Z,2025-09-27T06:09:54+00:00,1,8.17,False,1,0,1,374,4,0,4,CLOSED
+164005,"[dynamo, 3.14] fix _detect_and_normalize_assert_statement for 3.14",williamwen42,2025-09-26T21:58:32Z,2025-10-03T22:07:57+00:00,2,168.16,False,39,43,1,230,17,0,17,CLOSED
+164004,"[dynamo, 3.14] fix tracing typing.Union",williamwen42,2025-09-26T21:58:26Z,2025-09-30T17:43:24+00:00,4,91.75,False,8,2,1,326,5,0,5,CLOSED
+164003,[torchfuzz] fix bool propagation,bobrenjc93,2025-09-26T21:45:01Z,2025-09-27T04:51:32+00:00,1,7.11,False,13,0,3,305,3,0,3,CLOSED
+164002,[torchfuzz] ones over zero,bobrenjc93,2025-09-26T21:44:57Z,2025-09-27T00:53:06+00:00,3,3.14,False,15,14,2,193,3,2,5,CLOSED
+164000,Fix setting of memory fraction in test_garbage_collect_expandable,rraminen,2025-09-26T21:03:11Z,2025-09-26T23:57:37+00:00,1,2.91,False,1,1,1,1236,8,0,8,CLOSED
+163999,Migrate DeviceType to torch/headeronly,janeyx99,2025-09-26T20:52:10Z,2025-09-30T23:13:29+00:00,4,98.36,False,187,98,5,50,9,1,10,CLOSED
+163996,Fix flex_attention device default to auto-detect available device,antonvice,2025-09-26T20:13:53Z,2025-10-01T20:07:47+00:00,1,119.9,False,56,8,1,4464,6,0,6,CLOSED
+163994,[inductor] Handle patterns where input/output nodes are the same,angelayi,2025-09-26T20:12:30Z,2025-10-02T08:37:57+00:00,5,132.42,False,65,5,2,221,6,2,8,CLOSED
+163988,[AARCH64][CD][CUDA13][Triton][PTXAS] Turn on BUILD_BUNDLE_PTXAS=1  ,nWEIdia,2025-09-26T20:03:15Z,2025-09-30T01:56:16+00:00,1,77.88,False,3,1,2,1526,9,0,9,CLOSED
+163987,[dist] handle discontiguous allgather/reducescatter inputs,pytorchbot,2025-09-26T20:02:14Z,2025-09-26T23:21:08+00:00,1,3.31,True,47,8,3,115,1,0,1,MERGED
+163986,fix flex attention eager: dont round down scores to low-precision (closes #163588),v0i0,2025-09-26T19:54:16Z,2025-10-03T01:10:03+00:00,5,149.26,False,2,2,2,284,11,1,12,CLOSED
+163985,[CI] Re-enable test_all_to_all_vdev_2d_offset,kwen2501,2025-09-26T19:44:29Z,2025-09-27T16:56:28+00:00,1,21.2,False,7,8,1,440,6,0,6,CLOSED
+163981,[c10d] P2P tensors must be dense,pytorchbot,2025-09-26T19:17:44Z,2025-09-29T18:27:24+00:00,2,71.16,True,26,1,2,213,1,0,1,MERGED
+163980,Work Around exposing statically linked libstdc++ CXX11 ABI strong symbols,atalman,2025-09-26T18:59:30Z,2025-10-01T23:17:33+00:00,7,124.3,False,39,4,6,3805,14,6,20,CLOSED
+163977,[ROCm] use hipSolver instead of MAGMA for Cholesky,afanfa,2025-09-26T18:23:49Z,2025-09-28T06:53:09+00:00,1,36.49,False,4,4,1,347,6,0,6,CLOSED
+163972,[CD][CUDA][Triton][PTXAS] Turn on  BUILD_BUNDLE_PTXAS=1 for CUDA13 X86 Wheel Build,nWEIdia,2025-09-26T17:12:55Z,2025-09-27T02:08:26+00:00,2,8.93,False,2,0,1,758,4,0,4,CLOSED
+163967,Building guards should be under metrics_context,tugsbayasgalan,2025-09-26T16:22:45Z,2025-09-28T16:28:37+00:00,1,48.1,False,90,67,1,255,8,0,8,CLOSED
+163966,Fix TMA transpose logic to handle 1D shapes + string differences,njriasan,2025-09-26T16:18:51Z,2025-09-30T17:51:40+00:00,3,97.55,False,41,37,2,428,6,1,7,CLOSED
+163960,Add Comm-Compute Preserving Bucketer,eellison,2025-09-26T14:49:43Z,2025-09-30T04:54:03+00:00,6,86.07,False,703,16,5,1432,10,4,14,CLOSED
+163959,Helper to augment graph with additional deps,eellison,2025-09-26T14:49:38Z,2025-09-30T04:54:02+00:00,6,86.07,False,470,4,3,986,9,2,11,CLOSED
+163957,Fix tensor creation with empty names crash,arkadip-maitra,2025-09-26T14:27:07Z,2025-09-26T17:41:04+00:00,2,3.23,False,6,1,2,23,5,0,5,CLOSED
+163956,Use linux.g4dn.4xlarge.nvidia.gpu for cuda 12.4 legacy driver tests,atalman,2025-09-26T14:17:19Z,2025-09-29T19:38:21+00:00,1,77.35,False,7,8,2,259,6,0,6,CLOSED
+163954,Move inductor jobs 3.9->3.10,pytorchbot,2025-09-26T13:29:16Z,2025-09-26T16:37:50+00:00,2,3.14,True,40,46,20,304,1,0,1,MERGED
+163951,[MPS] test sparse add MPS dtypes so we get proper expected failure,Isalia20,2025-09-26T12:09:14Z,2025-09-26T14:49:01+00:00,1,2.66,False,23,0,1,237,3,0,3,CLOSED
+163948,Better error handling in torch/csrc/jit/codegen/*,licy666,2025-09-26T09:12:15Z,2025-10-02T01:10:13+00:00,5,135.97,False,12,17,4,209,8,2,10,CLOSED
+163947,[1/N] Apply UP035 rule in tests,cyyever,2025-09-26T08:34:29Z,2025-09-29T01:42:05+00:00,3,65.13,False,79,49,41,434,5,1,6,CLOSED
+163944,[Docs] Add standard-imghdr for PyTorch Doc,FFFrog,2025-09-26T07:37:31Z,2025-09-27T08:14:53+00:00,2,24.62,False,8,1,1,276,3,0,3,CLOSED
+163941,[DTensor] Raise an RuntimeError when checkpointing APIs are used with Partial placement,fegin,2025-09-26T06:49:53Z,2025-09-27T19:50:18+00:00,1,37.01,False,47,0,2,945,6,0,6,CLOSED
+163939,Suppress `FutureWarning`s in `torch.distributed.algorithms.ddp_comm_hooks`,xuantengh,2025-09-26T06:19:38Z,2025-10-01T07:51:15+00:00,3,121.53,False,58,28,1,107,5,1,6,CLOSED
+163937,[ROCm][CI/CD] upgrade nightly wheels to ROCm 7.0,jagadish-amd,2025-09-26T06:04:09Z,2025-09-26T21:42:13+00:00,1,15.63,False,296,298,9,116,4,0,4,CLOSED
+163931,[MPS] Add backward pass for `embedding_bag`,kurtamohler,2025-09-26T04:02:56Z,2025-10-03T00:48:41+00:00,1,164.76,False,357,81,7,65,6,0,6,CLOSED
+163930,[DeviceMesh][ez] Extract the pg creation as a util function,fduwjj,2025-09-26T04:00:31Z,2025-09-26T20:43:02+00:00,2,16.71,False,63,10,1,313,3,2,5,CLOSED
+163928,[DeviceMesh][ez] Add a type alias for backend config,fduwjj,2025-09-26T03:49:59Z,2025-09-26T14:46:57+00:00,1,10.95,False,7,11,1,275,3,0,3,CLOSED
+163925,[AOTI] Pass in shape_env for get_stride_order,tissue3,2025-09-26T02:59:42Z,2025-09-26T21:10:07+00:00,1,18.17,False,31,2,2,696,7,0,7,CLOSED
+163922,[inductor] add subsystem to pattern matcher,avikchaudhuri,2025-09-26T01:36:16Z,2025-09-28T03:15:28+00:00,5,49.65,False,28,8,5,1089,7,1,8,CLOSED
+163920,[3.14] make unbacked_sym[int/float]_counter integers,williamwen42,2025-09-26T01:28:02Z,2025-09-30T17:43:22+00:00,1,112.26,False,15,17,4,403,5,0,5,CLOSED
+163919,"[dynamo, 3.14] support LOAD_COMMON_CONSTANT",williamwen42,2025-09-26T01:27:57Z,2025-09-30T17:43:20+00:00,2,112.26,False,18,0,1,326,5,0,5,CLOSED
+163916,[Reland][163423] Promote `@requires_nvshmem` instead of `enable_triton`,pytorchbot,2025-09-26T00:53:06Z,2025-09-26T22:58:30+00:00,1,22.09,True,275,175,2,184,4,0,4,MERGED
+163914,[CI] Fix test_triton_wait_until hang,pytorchbot,2025-09-26T00:46:07Z,2025-09-26T16:16:00+00:00,1,15.5,True,0,2,1,345,1,0,1,MERGED
+163912,Exporting aten.conv with cuda under fake mode on a cuda-less machine,yiming0416,2025-09-26T00:26:13Z,2025-09-26T06:04:24+00:00,1,5.64,False,9,2,2,558,4,0,4,CLOSED
+163907,[CI] Install libuv for Win testing,pytorchbot,2025-09-25T23:21:08Z,2025-09-26T07:03:22+00:00,1,7.7,True,1,1,1,228,1,0,1,MERGED
+163905,"Back out ""Revert D81959389""",yyetim,2025-09-25T23:12:36Z,2025-09-30T07:05:16+00:00,1,103.88,False,77,2,5,419,14,0,14,CLOSED
+163904,[NFC] fixed typo in sparse semi structured filename,aartbik,2025-09-25T23:09:13Z,2025-09-27T21:19:50+00:00,1,46.18,False,0,0,1,62,3,0,3,CLOSED
+163903,[cuDNN][SDPA] Disable dropout for cuDNN SDPA on 9.11 - 9.13,eqy,2025-09-25T23:08:22Z,2025-09-26T23:50:11+00:00,7,24.7,False,18,0,2,184,13,1,14,CLOSED
+163901,[Inductor] address comments from https://github.com/pytorch/pytorch/pull/163803,hl475,2025-09-25T22:36:11Z,2025-09-26T17:18:49+00:00,3,18.71,False,2,5,1,273,9,1,10,CLOSED
+163898,[Compile] Fix Compile Warning for Capture Id,yewentao256,2025-09-25T21:35:51Z,2025-10-05T06:51:37+00:00,1,225.26,False,1,1,1,1044,4,0,4,CLOSED
+163897,[FSDP][Replicate] created ReplicateModule and changed replicate to use it instead of FSDPModule,anshul-si,2025-09-25T21:13:45Z,2025-10-01T17:30:13+00:00,1,140.27,False,15,1,1,614,3,0,3,CLOSED
+163896,Fix preserve annotation with decomp,yushangdi,2025-09-25T20:56:14Z,2025-09-26T20:28:49+00:00,2,23.54,False,0,4,2,202,4,0,4,CLOSED
+163895,Fix non-TMA loads in grouped MM Triton kernel,alexsamardzic,2025-09-25T20:48:55Z,2025-10-01T12:21:16+00:00,5,135.54,False,7,7,2,261,15,1,16,CLOSED
+163893,Add tests for aot_export_joint_with_descriptors annotation,yushangdi,2025-09-25T20:18:39Z,2025-09-26T19:25:46+00:00,1,23.12,False,47,0,1,165,3,0,3,CLOSED
+163891,[Dynamic Shape][BE] trim _DimHint serialization,cp2923,2025-09-25T19:59:00Z,2025-09-27T00:08:05+00:00,1,28.15,False,57,0,2,1224,9,0,9,CLOSED
+163890,[torchfuzz] Add support for fuzz templates ,bobrenjc93,2025-09-25T19:49:25Z,2025-09-26T22:51:48+00:00,1,27.04,False,909,153,17,82,3,0,3,CLOSED
+163889,[AOTI] log error triton kernel name during autotune,cp2923,2025-09-25T19:47:05Z,2025-09-26T23:29:52+00:00,1,27.71,False,17,8,1,350,8,0,8,CLOSED
+163887,Fix cpp build,pytorchbot,2025-09-25T19:08:33Z,2025-09-25T21:50:59+00:00,1,2.71,True,45,3,3,19,1,0,1,MERGED
+163886,[CI] Fix test_triton_wait_until hang,kwen2501,2025-09-25T18:16:11Z,2025-09-25T22:22:19+00:00,1,4.1,False,0,2,1,345,5,0,5,CLOSED
+163885,[BE] Update Python min version to 3.10 (#162310),Camyll,2025-09-25T18:12:09Z,2025-09-25T21:44:48+00:00,2,3.54,True,16,13,5,146,1,1,2,MERGED
+163883,[ROCm][CI/CD] create ROCm 7.0 magma tarball,ethanwee1,2025-09-25T17:51:05Z,2025-09-26T00:51:21+00:00,1,7.0,False,12,6,3,116,3,0,3,CLOSED
+163881,[MPS] Fix nan behavior in `grid_sampler_3d`,kurtamohler,2025-09-25T17:37:08Z,2025-09-26T23:08:04+00:00,1,29.52,False,7,3,2,65,3,0,3,CLOSED
+163879,[DTensor] implement logsumexp,suo,2025-09-25T17:20:53Z,2025-09-25T23:08:33+00:00,1,5.79,False,61,0,2,200,4,2,6,CLOSED
+163873,"[CherrryPick][2.9] Cherry pick request for `Reapply ""Make functionalization ViewMeta serializable with pickle #163769`",Lucaskabela,2025-09-25T17:09:14Z,2025-10-02T20:07:51+00:00,6,170.98,True,979,423,38,691,9,5,14,MERGED
+163870,Add Static Dispatch Kernels (#163676),kqfu,2025-09-25T16:39:41Z,2025-09-26T03:00:11+00:00,2,10.34,False,29,0,1,208,7,0,7,CLOSED
+163869,[ROCm] Implement float32 copy kernel,jerrymannil,2025-09-25T16:23:28Z,2025-09-26T00:39:33+00:00,1,8.27,False,24,1,1,196,3,0,3,CLOSED
+163868,Remove unused argument from DEFINE_BINARY macro. ,laithsakka,2025-09-25T16:21:32Z,2025-09-28T06:32:45+00:00,1,62.19,False,14,14,1,58,3,0,3,CLOSED
+163867,[export] support unbacked stack,ColinPeppler,2025-09-25T15:59:27Z,2025-10-01T16:48:49+00:00,3,144.82,False,25,3,2,50,19,1,20,CLOSED
+163866,Add runtime_overhead PR Time Benchmark,azahed98,2025-09-25T15:52:22Z,2025-09-27T03:27:01+00:00,8,35.58,False,112,1,2,870,8,2,10,CLOSED
+163862,[CD] Add statically linked windows libraries to exclude list,pytorchbot,2025-09-25T15:32:08Z,2025-09-25T21:46:56+00:00,1,6.25,True,12,1,1,372,1,0,1,MERGED
+163861,fix pickling for BitwiseFn,pytorchbot,2025-09-25T15:29:13Z,2025-10-02T19:35:40+00:00,1,172.11,True,25,11,3,429,7,0,7,MERGED
+163860,[ROCm][CD] create ROCm 7.0 images for binary builds,ethanwee1,2025-09-25T15:21:25Z,2025-09-25T17:26:44+00:00,1,2.09,False,21,4,7,129,3,0,3,CLOSED
+163858,Update issue templates adding a DISABLE AUTOREVERT option,jeanschmidt,2025-09-25T15:03:10Z,2025-09-29T13:10:09+00:00,3,94.12,False,26,2,3,83,4,2,6,CLOSED
+163850,[OpenReg][BE] Replacing explicit prefix/suffix with CMake variables,can-gaa-hou,2025-09-25T11:49:34Z,2025-09-25T16:33:19+00:00,1,4.73,False,2,4,1,227,4,0,4,CLOSED
+163848,"Revert ""enable test_sampled_addmm_zero_sized_cuda for rocm (#121940)""",dnikolaev-amd,2025-09-25T11:29:41Z,2025-09-25T16:38:06+00:00,1,5.14,False,2,2,1,1064,4,0,4,CLOSED
+163844,Fix specialize_impl from triton.runtime.jit,houseroad,2025-09-25T07:58:02Z,2025-09-26T06:37:30+00:00,3,22.66,False,17,0,1,6638,7,0,7,CLOSED
+163843,[DTensor] fix uneven _StridedShard,tianyu-l,2025-09-25T07:02:20Z,2025-09-25T22:12:31+00:00,4,15.17,False,124,111,5,615,3,2,5,CLOSED
+163842,Improve repeat op to a single copy,haifeng-jin,2025-09-25T05:07:40Z,2025-10-01T06:27:57+00:00,4,145.34,False,24,33,1,684,19,2,21,CLOSED
+163839,[fr] Skip the dtype check for some one to all or all to one collective,fduwjj,2025-09-25T04:34:39Z,2025-09-25T16:02:08+00:00,1,11.46,False,38,17,2,416,3,0,3,CLOSED
+163837,[a2av] Separate in/out splits into two tensors,kwen2501,2025-09-25T04:21:20Z,2025-09-26T01:03:56+00:00,3,20.71,False,36,29,4,551,8,1,9,CLOSED
+163835,Expose torch.nn.utils.parametrize,hanchchch,2025-09-25T03:08:03Z,2025-09-26T16:38:20+00:00,1,37.5,False,2,1,1,237,7,0,7,CLOSED
+163829,[Inductor][ATen][FP8] Relax stride check for block-wise scaling when scaling dimension is 1,jananisriram,2025-09-25T01:15:14Z,2025-09-29T17:28:28+00:00,2,112.22,False,30,9,2,718,5,0,5,CLOSED
+163828,[Inductor-FX] Generalize FloorDiv conversion to handle more complex launch grids. Remove python_slow grid mode.,blaine-rister,2025-09-25T00:58:45Z,2025-09-30T16:47:53+00:00,3,135.82,False,179,82,3,3044,12,0,12,CLOSED
+163824,DebugMode supports_higher_order_operators=True,SherlockNoMad,2025-09-25T00:31:35Z,2025-09-25T17:11:46+00:00,1,16.67,False,11,0,2,129,3,0,3,CLOSED
+163823,[vllm hash update] update the pinned vllm hash,pytorchupdatebot,2025-09-25T00:26:07Z,2025-09-26T04:29:55+00:00,1,28.06,False,1,1,1,78,9,0,9,CLOSED
+163822,Handle DDE in infer_size_impl,laithsakka,2025-09-25T00:25:33Z,2025-09-28T06:32:44+00:00,8,78.12,False,49,10,2,136,7,2,9,CLOSED
+163820,[dtensor] avoid shape recompilations on DTensorSpec,pianpwk,2025-09-25T00:16:01Z,2025-10-03T17:18:22+00:00,3,209.04,False,58,1,3,158,13,1,14,CLOSED
+163819,[AOTI win] Add ABI stable method for updating constant buffer,yushangdi,2025-09-25T00:10:41Z,2025-10-02T18:31:04+00:00,1,186.34,False,35,0,2,1185,3,0,3,CLOSED
+163818,"[dynamo, 3.14] fix BUILD_TUPLE with 0 args",williamwen42,2025-09-25T00:04:03Z,2025-09-30T17:43:18+00:00,1,137.65,False,26,21,5,326,5,0,5,CLOSED
+163812,[torchfuzz] make generated code much more concise and cleaner,bobrenjc93,2025-09-24T23:08:42Z,2025-09-25T22:12:36+00:00,1,23.07,False,29,50,2,1482,3,0,3,CLOSED
+163810,[PGO] ignore extra PGO key if warm/cold cache present,pianpwk,2025-09-24T22:59:35Z,2025-09-25T07:16:08+00:00,1,8.28,False,16,78,2,258,4,0,4,CLOSED
+163809,[export] _detect_attribute_assignment gives warning instead of raising ValueError,yiming0416,2025-09-24T22:39:33Z,2025-09-26T00:43:32+00:00,2,26.07,False,50,5,2,725,6,1,7,CLOSED
+163808,[AOTI] Update AOTInductor tutorial,desertfire,2025-09-24T22:35:07Z,2025-09-26T22:01:33+00:00,1,47.44,False,4,5,1,133,3,0,3,CLOSED
+163807,graph break on tolist if capture_scalar_outputs is false,laithsakka,2025-09-24T22:33:46Z,2025-09-28T04:02:55+00:00,3,77.49,False,55,39,30,500,10,2,12,CLOSED
+163803,[Inductor] add a new config fallback_embedding_bag_byte_unpack,hl475,2025-09-24T22:25:31Z,2025-09-25T22:07:08+00:00,2,23.69,False,33,0,3,358,12,2,14,CLOSED
+163800,[cherrypick] [CI] Move Windows build/tests to Python-3.10 #162862,Camyll,2025-09-24T22:09:11Z,2025-09-25T16:06:52+00:00,1,17.96,True,32,11,8,45,1,0,1,MERGED
+163799,[PGO] distinguish sticky PGO put,pianpwk,2025-09-24T22:06:49Z,2025-09-25T06:59:27+00:00,1,8.88,False,10,5,1,286,5,0,5,CLOSED
+163797,[CI] Install libuv for Win testing,malfet,2025-09-24T21:45:01Z,2025-09-25T01:10:17+00:00,1,3.42,False,1,1,1,228,5,0,5,CLOSED
+163796,"[dynamo, 3.14] fix stack ref copy error",williamwen42,2025-09-24T21:16:10Z,2025-09-30T17:43:16+00:00,1,140.45,False,13,13,1,326,5,0,5,CLOSED
+163795,Add H100 runner to be recognized in actionlint,janeyx99,2025-09-24T20:46:31Z,2025-09-25T22:09:14+00:00,6,25.38,False,3,0,1,58,3,2,5,CLOSED
+163794,[doc] Add AOTInductor intermediate debug printer OSS user manual,YUNQIUGUO,2025-09-24T20:40:24Z,2025-09-30T03:01:05+00:00,1,126.34,False,83,0,3,205,11,0,11,CLOSED
+163792,[aoti] Save compute information,angelayi,2025-09-24T20:34:35Z,2025-09-26T05:40:48+00:00,4,33.1,False,75,12,3,433,6,1,7,CLOSED
+163790,[CD] Simplify NVIDIA driver installation step (#163349),atalman,2025-09-24T20:29:19Z,2025-09-25T14:40:57+00:00,1,18.19,True,0,2,1,172,1,0,1,MERGED
+163788,Use cuda nvrtc so file based on cuda version used by torch (#163642),atalman,2025-09-24T20:24:30Z,2025-09-25T14:40:09+00:00,1,18.26,True,14,4,1,86,1,0,1,MERGED
+163787,[CI] Run CUDA-13 binary builds on trunk,malfet,2025-09-24T20:06:42Z,2025-09-25T00:58:19+00:00,2,4.86,False,13,13,2,267,3,0,3,CLOSED
+163784,[DO NOT LAND] Make _flat_weights in RNN ParameterList,yiming0416,2025-09-24T19:14:09Z,2025-09-24T22:15:00+00:00,1,3.01,False,30,23,2,195,4,0,4,CLOSED
+163782,Add smoke tests to verify that stable ABI FA3 wheel runs w/ newer torch,janeyx99,2025-09-24T18:34:48Z,2025-10-01T02:30:40+00:00,6,151.93,False,299,0,3,148,3,3,6,CLOSED
+163781,[Triton] [Inductor] Prune template selection based on decompose_k,njriasan,2025-09-24T18:30:18Z,2025-09-26T04:09:38+00:00,2,33.66,False,25,12,3,1069,16,0,16,CLOSED
+163779,[aoti] Load metadata w/o loading package,angelayi,2025-09-24T18:02:31Z,2025-09-26T05:40:47+00:00,4,35.64,False,143,7,4,456,6,1,7,CLOSED
+163778,Remove Python 3.9 for Triton builds,atalman,2025-09-24T18:00:45Z,2025-09-24T20:19:47+00:00,1,2.32,False,2,5,1,18,3,0,3,CLOSED
+163777,[PyTorch Pinned Allocator] Pinned memory stats and perf fixes around allocating blocks,banitag1,2025-09-24T18:00:10Z,2025-10-01T03:29:01+00:00,1,153.48,False,108,28,7,164,7,0,7,CLOSED
+163776,[ROCm] Increase binary build timeout to 5 hours (300 minutes),jithunnair-amd,2025-09-24T17:56:39Z,2025-09-24T23:02:12+00:00,1,5.09,False,20,0,4,488,3,0,3,CLOSED
+163775,Update pyrefly configuration file,maggiemoss,2025-09-24T17:54:32Z,2025-09-24T23:14:42+00:00,2,5.34,False,67,16,1,186,5,0,5,CLOSED
+163773,Avoid fast path mask left-align check in compiled TransformerEncoder,jbschlosser,2025-09-24T17:23:15Z,2025-09-26T22:29:41+00:00,4,53.11,False,28,3,2,439,3,1,4,CLOSED
+163771,[PyTorch CCA] Add an API to get expandable segment sizes,banitag1,2025-09-24T16:38:16Z,2025-10-01T02:17:02+00:00,1,153.65,False,88,0,6,279,7,0,7,CLOSED
+163770,Fix various bugs in subclass input in export,tugsbayasgalan,2025-09-24T15:37:33Z,2025-09-28T18:03:35+00:00,9,98.43,False,104,7,3,429,10,6,16,CLOSED
+163769,"Reapply ""Make functionalization `ViewMeta` serializable with pickle. (#143712)"" ",Lucaskabela,2025-09-24T15:23:22Z,2025-09-25T10:27:42+00:00,1,19.07,False,979,423,38,625,14,0,14,CLOSED
+163768,[CD] Add statically linked windows libraries to exclude list,atalman,2025-09-24T15:05:01Z,2025-09-25T14:03:20+00:00,2,22.97,False,12,1,1,372,7,1,8,CLOSED
+163766,[CD] CUDA 13.0 fix preload logic to include nvidia/cu13/lib/,pytorchbot,2025-09-24T14:52:58Z,2025-09-25T14:38:16+00:00,1,23.75,True,15,4,1,818,1,0,1,MERGED
+163764,[Cherry-Pick] [CD] CUDA 13 specific followup changes. Remove sm50-70 From CUDA 12.6 and CUDA 12.8 builds (#162455),atalman,2025-09-24T14:43:18Z,2025-09-25T14:37:52+00:00,3,23.91,True,95,95,6,268,2,1,3,MERGED
+163763,Fix THP_PyObject_VirtualFree return type,guangyey,2025-09-24T14:39:09Z,2025-10-02T20:21:57+00:00,4,197.71,False,1,1,1,681,17,0,17,CLOSED
+163758,Update torch-xpu-ops commit pin,CuiYifeng,2025-09-24T12:52:05Z,2025-09-26T09:05:11+00:00,1,44.22,False,1,1,1,338,3,0,3,CLOSED
+163757,Better error handling in torch/csrc/jit/ir/*,licy666,2025-09-24T12:29:41Z,2025-09-28T01:18:28+00:00,1,84.81,False,9,18,3,179,10,0,10,CLOSED
+163754,refactor bucketing,eellison,2025-09-24T12:02:08Z,2025-09-30T04:54:02+00:00,1,136.87,False,220,166,1,299,5,0,5,CLOSED
+163750,Releases multicast object before releasing mapped buffers in CUDASymmetricMemory,syed-ahmed,2025-09-24T08:07:02Z,2025-10-01T09:07:52+00:00,7,169.01,False,6,5,2,436,18,2,20,CLOSED
+163748,[Tools] Adapting the Hypothesis library (version 5.x) for use with the PyTorch framework,FFFrog,2025-09-24T07:29:16Z,2025-09-25T16:41:53+00:00,4,33.21,False,18,6,1,161,6,2,8,CLOSED
+163747,[Inductor] Check if profiling before using record_function in CompiledFxGraph,azahed98,2025-09-24T06:57:21Z,2025-09-26T06:49:43+00:00,2,47.87,False,7,3,1,2523,8,0,8,CLOSED
+163746,fixes import error 'functionalize' from functorch,RiyaP-QA,2025-09-24T06:34:00Z,2025-09-28T23:16:48+00:00,1,112.71,False,1,1,1,56,8,0,8,CLOSED
+163745,[ROCm] Transformer/SDPA unit test parity,xinyazhang,2025-09-24T05:34:57Z,2025-09-25T17:14:23+00:00,1,35.66,False,29,30,6,496,3,0,3,CLOSED
+163744,Update ruff to 0.13.1,cyyever,2025-09-24T05:07:31Z,2025-09-26T10:12:26+00:00,2,53.08,False,15,16,10,588,14,0,14,CLOSED
+163743,[torchfuzz] simplify codegen and runner,bobrenjc93,2025-09-24T04:37:17Z,2025-09-25T21:42:25+00:00,1,41.09,False,164,317,3,17028,3,0,3,CLOSED
+163742,[DTensor] Shortcut redistribution when num_shards == 1,SherlockNoMad,2025-09-24T04:19:59Z,2025-09-24T23:49:12+00:00,7,19.49,False,27,1,2,248,6,6,12,CLOSED
+163740,[Triton] [Inductor] Set default configs for Blackwell Matmul Template,njriasan,2025-09-24T04:10:13Z,2025-09-24T08:17:38+00:00,1,4.12,False,12,4,1,327,4,0,4,CLOSED
+163739,[torchfuzz] print out tensor descriptor as comments in codegen,bobrenjc93,2025-09-24T03:57:04Z,2025-09-25T01:29:32+00:00,1,21.54,False,37,2,2,640,3,0,3,CLOSED
+163738,[WIP][precompile] Set fake_mode of base tensor in fx graph pickler,yiming0416,2025-09-24T03:54:20Z,2025-09-26T14:36:41+00:00,1,58.71,False,66,1,2,2948,7,0,7,CLOSED
+163737,"Revert ""[inductor] Fix issue with scalar arg handling""",jansel,2025-09-24T03:46:58Z,2025-09-24T07:33:16+00:00,1,3.77,False,3,104,6,361,3,0,3,CLOSED
+163729,[Inductor-FX] Support unbacked symbol definitions,blaine-rister,2025-09-24T03:29:16Z,2025-09-29T18:10:40+00:00,2,134.69,False,161,20,3,1927,3,1,4,CLOSED
+163728,[Code Clean] Remove deadcodes about Python3.9 [8/N],FFFrog,2025-09-24T03:01:48Z,2025-09-25T05:12:50+00:00,2,26.18,False,3,56,6,343,5,0,5,CLOSED
+163723,[Inductor][CPP] Fix the test case of test_linear_reuse_kernels,CaoE,2025-09-24T02:09:30Z,2025-09-29T05:29:05+00:00,2,123.33,False,14,4,1,278,3,1,4,CLOSED
+163719,[c10d] P2P tensors must be dense,kwen2501,2025-09-24T01:18:43Z,2025-09-24T06:58:06+00:00,1,5.66,False,26,1,2,213,7,0,7,CLOSED
+163718,[AOTI] Add verbose error information for extract file,xuhancn,2025-09-24T01:14:33Z,2025-09-24T19:27:32+00:00,1,18.22,False,20,3,1,659,3,0,3,CLOSED
+163715,Always produce kernel_info.json,yushangdi,2025-09-24T00:46:25Z,2025-09-25T19:38:53+00:00,1,42.87,False,9,9,1,340,5,0,5,CLOSED
+163712,[dist] handle discontiguous allgather/reducescatter inputs,ngimel,2025-09-24T00:26:56Z,2025-09-24T19:38:47+00:00,4,19.2,False,47,8,3,115,10,2,12,CLOSED
+163711,[vllm hash update] update the pinned vllm hash,pytorchupdatebot,2025-09-24T00:25:25Z,2025-09-24T04:31:39+00:00,1,4.1,False,1,1,1,78,3,0,3,CLOSED
+163710,"Revert ""Remove test conditions for CUDA<12 (#163495)""",Camyll,2025-09-24T00:05:03Z,2025-09-24T05:00:33+00:00,4,4.92,False,66,6,4,77,7,0,7,CLOSED
+163707,[inductor] fix: 'get_raw_stream' undefined,dolpm,2025-09-23T23:38:41Z,2025-09-29T15:48:19+00:00,1,136.16,False,12,0,1,542,7,0,7,CLOSED
+163705,Do not generate guards on unbacked SymInt inputs,laithsakka,2025-09-23T23:24:14Z,2025-09-24T19:19:20+00:00,4,19.92,False,143,4,2,539,6,1,7,CLOSED
+163704,Record redistribute_local_tensor in DebugMode,SherlockNoMad,2025-09-23T23:00:10Z,2025-09-24T16:11:28+00:00,5,17.19,False,145,113,5,193,12,2,14,CLOSED
+163703,Update pytorch.org links in docs/conf.py,pytorchbot,2025-09-23T22:53:48Z,2025-09-24T22:44:43+00:00,1,23.85,True,2,2,1,93,1,0,1,MERGED
+163700,Add fake_impl for _native_multi_head_attention,ydwu4,2025-09-23T22:18:15Z,2025-09-25T19:01:30+00:00,1,44.72,False,138,1,3,247,4,0,4,CLOSED
+163698,[torchfuzz] refactor multi_process_fuzzer to be more readable,bobrenjc93,2025-09-23T22:03:11Z,2025-09-24T23:32:37+00:00,1,25.49,False,112,95,1,138,3,0,3,CLOSED
+163697,[NFC] fixed mistake in comment,aartbik,2025-09-23T21:59:47Z,2025-09-25T15:53:55+00:00,1,41.9,False,2,2,1,67,7,0,7,CLOSED
+163696,[Inductor] Update DeviceAssert op to behave like store,karthickai,2025-09-23T21:38:44Z,2025-09-24T23:35:59+00:00,5,25.95,False,59,93,6,425,3,2,5,CLOSED
+163695,Add analytics ID to cpp docs,pytorchbot,2025-09-23T21:34:11Z,2025-09-24T22:45:17+00:00,1,25.18,True,1,0,1,29,1,0,1,MERGED
+163694,[MPS] [Sparse] unique_dim and sparse broadcast,Isalia20,2025-09-23T21:32:04Z,2025-09-26T23:03:17+00:00,14,73.52,False,104,8,4,222,5,8,13,CLOSED
+163685,[inductor] Fix unbounded number of substitutions when equality checks contain Max expr,sevenEng,2025-09-23T20:35:37Z,2025-09-26T18:46:41+00:00,1,70.18,False,53,4,2,4815,8,0,8,CLOSED
+163682,Update pytorch.org links in docs/conf.py,svekars,2025-09-23T20:28:05Z,2025-09-23T21:40:15+00:00,2,1.2,False,2,2,1,93,5,0,5,CLOSED
+163681,cd: Move arm64 to linux.arm64.r7g.12xlarge.memory,seemethere,2025-09-23T20:27:15Z,2025-09-24T04:06:12+00:00,3,7.65,False,29,29,2,206,3,0,3,CLOSED
+163677,[Flex] Fix silent correctness w/ backpropping grads,drisspg,2025-09-23T20:12:37Z,2025-09-24T02:12:23+00:00,1,6.0,False,30,1,2,955,5,0,5,CLOSED
+163676,Add Static Dispatch Kernels,kqfu,2025-09-23T20:09:38Z,2025-09-25T18:25:18+00:00,1,46.26,False,29,0,1,143,5,0,5,CLOSED
+163673,Preserve user annotation in graph,SherlockNoMad,2025-09-23T20:04:17Z,2025-09-25T15:50:19+00:00,12,43.77,False,106,0,5,1446,10,6,16,CLOSED
+163669,"Support for amin, amax, and aminmax",srsuryadev,2025-09-23T18:02:17Z,2025-09-23T23:45:46+00:00,2,5.72,False,3,3,1,146,17,0,17,CLOSED
+163665,Fake process group Direct construction error,ahkush,2025-09-23T17:31:46Z,2025-10-02T22:19:30+00:00,6,220.8,False,75,12,6,696,9,4,13,CLOSED
+163661,[CD] CUDA 13.0 fix preload logic to include nvidia/cu13/lib/,atalman,2025-09-23T16:39:39Z,2025-09-24T11:27:10+00:00,3,18.79,False,15,4,1,818,9,0,9,CLOSED
+163655,Update pytorch_sphinx_theme2 to latest hash,pytorchbot,2025-09-23T15:46:21Z,2025-09-23T17:13:51+00:00,1,1.46,True,1,1,1,127,1,0,1,MERGED
+163654,[AMP] Add deprecated decorator for torch.xxx.amp.autocast class,FFFrog,2025-09-23T15:39:42Z,2025-09-27T14:37:15+00:00,1,94.96,False,50,10,2,329,7,0,7,CLOSED
+163653,[BE] Delete all pre py-3.10 checks,malfet,2025-09-23T15:13:49Z,2025-09-23T23:22:57+00:00,8,8.15,False,64,488,23,379,6,6,12,CLOSED
+163652,Allow unbacked to unbacked replacements if rhs unbacked symbols are all inputs,laithsakka,2025-09-23T15:07:54Z,2025-09-26T06:23:24+00:00,9,63.26,False,138,11,6,785,6,7,13,CLOSED
+163649,[EZ] Perma-ignore UP038,malfet,2025-09-23T14:52:24Z,2025-09-23T17:58:22+00:00,1,3.1,False,1,1,1,152,3,0,3,CLOSED
+163648,[EZ] Fix UP041 violations,malfet,2025-09-23T14:52:18Z,2025-09-23T17:58:21+00:00,2,3.1,False,1,2,2,115,2,0,2,CLOSED
+163646,[Code Clean] Remove deadcodes about Python3.9 [7/N],FFFrog,2025-09-23T14:38:22Z,2025-09-24T07:31:00+00:00,1,16.88,False,4,12,4,313,3,0,3,CLOSED
+163645,[Code Clean] Remove deadcodes about Python3.9 [6/N],FFFrog,2025-09-23T14:38:14Z,2025-09-24T07:30:58+00:00,1,16.88,False,8,56,5,456,2,0,2,CLOSED
+163644,[Code Clean] Remove deadcodes about Python3.9 [5/N],FFFrog,2025-09-23T14:38:06Z,2025-09-24T07:30:57+00:00,1,16.88,False,1,1,1,128,2,0,2,CLOSED
+163643,[Code Clean] Remove deadcodes about Python3.9 [4/N],FFFrog,2025-09-23T14:37:59Z,2025-09-24T07:30:56+00:00,1,16.88,False,20,33,3,170,3,0,3,CLOSED
+163642,Use cuda nvrtc so file based on cuda version used by torch,atalman,2025-09-23T14:09:45Z,2025-09-24T14:23:44+00:00,3,24.23,False,14,2,1,45,5,3,8,CLOSED
+163639,Revert to old behaviour of not padding strides if shape or stride is dynamic,nandesuka,2025-09-23T13:09:38Z,2025-09-24T18:31:05+00:00,6,29.36,False,9,0,1,234,6,1,7,CLOSED
+163633,CUDA 13.0 Warning update for supported architectures,pytorchbot,2025-09-23T11:43:16Z,2025-09-23T17:13:06+00:00,1,5.5,True,1,1,1,533,1,0,1,MERGED
+163632,[3/N] Use std::filesystem in inductor,cyyever,2025-09-23T10:14:51Z,2025-09-24T00:23:38+00:00,3,14.15,False,9,57,1,42,3,1,4,CLOSED
+163629,[Code Clean] Remove deadcodes about Python3.9 [3/N],FFFrog,2025-09-23T09:30:01Z,2025-09-24T07:30:55+00:00,1,22.02,False,0,247,1,128,2,0,2,CLOSED
+163627,[Code Clean] Remove deadcodes about Python3.9 [2/N],FFFrog,2025-09-23T08:59:46Z,2025-09-24T07:30:54+00:00,1,22.52,False,3,4,3,343,2,0,2,CLOSED
+163626,[Code Clean] Remove deadcodes about Python3.9 [1/N],FFFrog,2025-09-23T08:43:58Z,2025-09-24T07:30:53+00:00,2,22.78,False,5,9,4,128,3,0,3,CLOSED
+163623,Remove dataclass_slots,cyyever,2025-09-23T08:20:01Z,2025-09-26T00:54:46+00:00,3,64.58,False,17,154,5,201,7,1,8,CLOSED
+163622,[Release 2.9] Update torch-xpu-ops commit pin,CuiYifeng,2025-09-23T07:47:46Z,2025-09-26T13:46:02+00:00,2,77.97,True,1,1,1,196,1,0,1,MERGED
+163621,[Quant] extend the op list for quant lift up,Valentine233,2025-09-23T07:39:29Z,2025-09-29T06:14:48+00:00,7,142.59,False,21,15,2,312,7,3,10,CLOSED
+163619,Add `inference_mode` hint message to use `eval` with inference.,zeshengzong,2025-09-23T07:17:22Z,2025-09-24T20:07:18+00:00,1,36.83,False,6,0,1,39,4,0,4,CLOSED
+163616,"Update doc for torch.index_select, which can accept IntTensor as a parameter",catswe,2025-09-23T06:51:35Z,2025-09-25T18:29:20+00:00,3,59.63,False,1,1,1,115,4,1,5,CLOSED
+163614,Implement CUDA stream protocol,msaroufim,2025-09-23T06:14:22Z,2025-09-23T21:02:11+00:00,1,14.8,False,28,0,2,19,10,0,10,CLOSED
+163613,[distributed] Remove python code older than 3.10 ,cyyever,2025-09-23T05:51:32Z,2025-09-28T04:15:27+00:00,2,118.4,False,4,13,2,379,3,0,3,CLOSED
+163610,[Code Clean] Replace `std::runtime_error` with `TORCH_CHECK`,KarhouTam,2025-09-23T05:06:00Z,2025-09-26T04:52:51+00:00,6,71.78,False,73,75,12,526,30,4,34,CLOSED
+163609,[DTensor][Export] Supporting exporting a model with DTensor params/inputs,SherlockNoMad,2025-09-23T04:30:45Z,2025-09-30T07:54:16+00:00,14,171.39,False,158,0,1,524,4,8,12,CLOSED
+163607,[ez] use list initializer syntax in fill_diagonal_,bobrenjc93,2025-09-23T04:04:50Z,2025-09-23T21:27:15+00:00,2,17.37,False,3,7,1,58,8,1,9,CLOSED
+163601,Change python grid calc for MTIA back to python mode,nandesuka,2025-09-23T02:54:02Z,2025-09-27T00:12:57+00:00,1,93.32,False,0,5,1,290,15,0,15,CLOSED
+163600,[AOTI] Pass comments from metadata to the autotune block,desertfire,2025-09-23T02:20:12Z,2025-09-24T02:02:02+00:00,1,23.7,False,5,2,1,617,3,0,3,CLOSED
+163598,[SDPA] [MPS] Fixes regression in 2.8.0 for scaled_dot_product_attention using mps,Vismai-Khanderao,2025-09-23T01:56:52Z,2025-09-29T16:09:51+00:00,3,158.22,False,82,55,3,751,13,2,15,CLOSED
+163596,[Inductor-FX] Support symbol and dynamic scalar graph inputs and outputs,blaine-rister,2025-09-23T01:03:07Z,2025-09-24T06:08:16+00:00,5,29.09,False,81,14,3,1625,6,1,7,CLOSED
+163593,[Kineto] Add list of string parsing for profiler,muchulee8,2025-09-23T00:38:52Z,2025-09-23T22:45:51+00:00,3,22.12,False,131,8,3,303,3,1,4,CLOSED
+163592,[ROCm][CI] cudagraph trees ut fixes,xinyazhang,2025-09-23T00:29:53Z,2025-09-23T14:45:20+00:00,1,14.26,False,25,28,1,915,3,0,3,CLOSED
+163590,[vllm hash update] update the pinned vllm hash,pytorchupdatebot,2025-09-23T00:25:09Z,2025-09-23T04:44:18+00:00,1,4.32,False,1,1,1,78,6,0,6,CLOSED
+163589,[Inductor] deterministic mode,shunting314,2025-09-23T00:17:29Z,2025-10-04T01:05:10+00:00,19,264.79,False,355,7,7,751,16,7,23,CLOSED
+163587,[export] Remove .contiguous() when saving weights to raw bytes,yiming0416,2025-09-23T00:12:13Z,2025-09-23T15:44:58+00:00,1,15.55,False,37,1,2,317,9,0,9,CLOSED
+163585,CUDA 13.0 Warning update for supported architectures,atalman,2025-09-22T23:17:43Z,2025-09-23T11:27:16+00:00,1,12.16,False,1,1,1,533,7,0,7,CLOSED
+163584,Update conv1d meta kernel to match eager,jansel,2025-09-22T23:07:33Z,2025-09-26T17:11:27+00:00,1,90.06,False,124,12,2,339,3,1,4,CLOSED
+163583,[2.9 cherry pick][triton] update 3.5 pin to bbb06c0334a6772b92d24bde54956e675c8c6604 (#163382),davidberard98,2025-09-22T22:59:29Z,2025-09-23T01:20:21+00:00,1,2.35,True,1,1,1,302,1,0,1,MERGED
+163581,[cuDNN][Convolution] Disable cuDNN for 3D convolutions with kernel size != 1 for cuDNN 9.8+,eqy,2025-09-22T22:52:47Z,2025-09-26T23:47:33+00:00,11,96.91,False,34,2,3,494,9,5,14,CLOSED
+163578,Fix warn message,drisspg,2025-09-22T22:24:59Z,2025-09-23T22:46:54+00:00,4,24.37,False,1,1,1,87,11,1,12,CLOSED
+163575,Adds Issue#153109 as a test for CUDAPluggableAllocator,syed-ahmed,2025-09-22T22:20:06Z,2025-10-01T09:07:51+00:00,6,202.8,False,74,0,2,58,13,3,16,CLOSED
+163571,fix pickling for BitwiseFn,dolpm,2025-09-22T22:02:09Z,2025-09-25T04:52:15+00:00,4,54.84,False,17,5,3,429,22,2,24,CLOSED
+163570,[Inductor] Remove `no_type_check` annotation on properties,blaine-rister,2025-09-22T21:59:00Z,2025-09-23T18:20:07+00:00,3,20.35,False,5,8,1,401,11,0,11,CLOSED
+163566,Use _RecordFunctionFast for torch.autograd.profiler.record_function,azahed98,2025-09-22T21:46:52Z,2025-09-30T20:36:52+00:00,3,190.83,False,9,11,2,639,5,1,6,CLOSED
+163565,Add mistral/gpt-oss to benchmarks,angelayi,2025-09-22T21:46:16Z,2025-09-24T06:12:40+00:00,1,32.44,False,94,0,15,365,10,0,10,CLOSED
+163562,[ROCm] Improve perf for elementwise broadcast with mixed dtype,jerrymannil,2025-09-22T21:29:08Z,2025-09-23T17:42:52+00:00,1,20.23,False,29,0,1,194,5,0,5,CLOSED
+163561,[AOTI] Fix model_package_loader get_cpp_compile_command,xuhancn,2025-09-22T21:23:14Z,2025-09-23T17:38:22+00:00,2,20.25,False,75,26,1,2953,6,1,7,CLOSED
+163560,[torchfuzz] introduce multi process fuzzer,bobrenjc93,2025-09-22T21:08:32Z,2025-09-23T22:00:54+00:00,11,24.87,False,474,49,2,106,4,9,13,CLOSED
+163559,[MTIA] Enable deserialization for FP8 checkpoint loading,PatriceVignola,2025-09-22T21:01:48Z,2025-10-02T04:18:50+00:00,4,223.28,False,33,2,5,185,12,1,13,CLOSED
+163558,[torchfuzz] introduce tensor and scalar pointwise ops,bobrenjc93,2025-09-22T20:57:35Z,2025-09-23T06:20:16+00:00,1,9.38,False,57,145,6,106,9,0,9,CLOSED
+163557,[torchfuzz] remove unneeded try catch,bobrenjc93,2025-09-22T20:57:30Z,2025-09-23T06:05:12+00:00,1,9.13,False,5,11,1,106,5,0,5,CLOSED
+163556,[torchfuzz] shuffle compatible ops,bobrenjc93,2025-09-22T20:57:26Z,2025-09-23T05:53:48+00:00,1,8.94,False,2,0,1,106,5,0,5,CLOSED
+163555,[torchfuzz] decompose -> fuzz_inputs_specs,bobrenjc93,2025-09-22T20:57:20Z,2025-09-23T05:45:02+00:00,1,8.79,False,24,22,10,106,5,0,5,CLOSED
+163554,[torchfuzz] cache operators,bobrenjc93,2025-09-22T20:57:15Z,2025-09-23T05:28:10+00:00,1,8.52,False,14,2,1,106,5,0,5,CLOSED
+163553,[torchfuzz] remove supports_variable_inputs for now,bobrenjc93,2025-09-22T20:57:10Z,2025-09-23T04:44:57+00:00,1,7.8,False,0,32,8,106,5,0,5,CLOSED
+163552,Skip on sm100 later since Tests are non determinisitic,drisspg,2025-09-22T20:38:48Z,2025-09-23T15:45:09+00:00,3,19.11,False,1,2,1,155,3,1,4,CLOSED
+163550,docs and optional kwargs for full graph capture,avikchaudhuri,2025-09-22T20:36:12Z,2025-09-24T01:20:31+00:00,1,28.74,False,42,33,3,229,11,0,11,CLOSED
+163549,[Reland][163423] Promote `@requires_nvshmem` instead of `enable_triton`,kwen2501,2025-09-22T20:31:44Z,2025-09-25T23:02:04+00:00,1,74.51,False,275,175,2,184,13,0,13,CLOSED
+163547,[torchfuzz] Encapsulate fuzzing and codegen logic into ops,bobrenjc93,2025-09-22T19:19:09Z,2025-09-23T04:26:02+00:00,13,9.11,False,809,357,16,106,5,10,15,CLOSED
+163541,Add XFails for tests erroing on B200,drisspg,2025-09-22T18:52:18Z,2025-09-22T20:34:03+00:00,2,1.7,False,21,0,2,74,2,0,2,CLOSED
+163540,[SymmMem] Add get_nbi the nonblocking version,kwen2501,2025-09-22T18:45:37Z,2025-10-01T17:50:27+00:00,2,215.08,False,64,2,2,464,9,0,9,CLOSED
+163537,Large tests failing on bfloat16,drisspg,2025-09-22T18:18:33Z,2025-09-23T15:45:08+00:00,3,21.44,False,12,0,1,9127,5,0,5,CLOSED
+163534,Rename to _debug_mode.py to make it private,SherlockNoMad,2025-09-22T17:32:10Z,2025-09-23T04:27:13+00:00,1,10.92,False,3,6,6,182,6,0,6,CLOSED
+163532,[DCP] DTensor slice dequantization with proper block alignment,saumishr,2025-09-22T17:17:44Z,2025-09-23T16:48:21+00:00,1,23.51,False,229,41,2,3696,3,0,3,CLOSED
+163529,[Inductor] avoid CUDA__equal when constant tensors are from different device,cp2923,2025-09-22T16:48:15Z,2025-09-22T22:04:15+00:00,2,5.27,False,6,4,2,478,5,0,5,CLOSED
+163525,ci: Add a way to lint all files in a PR from label,seemethere,2025-09-22T16:05:11Z,2025-09-22T18:06:42+00:00,3,2.03,False,23,9,2,214,4,2,6,CLOSED
+163521,Support partial _DynamoCacheEntries when not all backends available,jamesjwu,2025-09-22T15:25:42Z,2025-10-03T16:14:35+00:00,1,264.81,False,98,37,4,263,10,0,10,CLOSED
+163520,[inductor] Fix bugs in emulate_precision_casts,jansel,2025-09-22T15:02:18Z,2025-09-24T02:52:42+00:00,1,35.84,False,139,11,3,299,2,2,4,CLOSED
+163518,[BE] Use `output_t` directly,malfet,2025-09-22T14:41:01Z,2025-09-22T21:33:44+00:00,1,6.88,False,3,3,1,106,3,0,3,CLOSED
+163516,Improve fake tensor leakage detection in export by not relying on gc too much,tugsbayasgalan,2025-09-22T14:38:39Z,2025-09-22T22:04:27+00:00,2,7.43,False,31,76,5,566,11,0,11,CLOSED
+163515,[BE] Delete `skipIfMPSOnMacOS13`,malfet,2025-09-22T14:38:23Z,2025-09-22T21:10:25+00:00,1,6.53,False,4,69,2,97,3,0,3,CLOSED
+163513,Reduce divergence between c10 and c10_ovrsource by flipping glog and link_whole defaults,ezyang,2025-09-22T14:20:12Z,2025-09-29T20:50:47+00:00,1,174.51,False,15,3,1,247,10,0,10,CLOSED
+163507,[BUG] MaxUnpool2d/3d should check output dim before accessing its elements,can-gaa-hou,2025-09-22T12:36:30Z,2025-09-22T21:36:52+00:00,4,9.01,False,38,12,4,13,3,1,4,CLOSED
+163506,PyTorch `histc` fix for values with large magnitudes,ironsided777,2025-09-22T12:27:20Z,2025-09-25T20:55:29+00:00,10,80.47,False,62,4,2,4062,9,2,11,CLOSED
+163499,[AOTI] fix TestAOTInductorPackage temp file locked handler.,xuhancn,2025-09-22T08:28:45Z,2025-09-22T16:54:22+00:00,2,8.43,False,7,7,1,1360,3,0,3,CLOSED
+163498,Use accelerator API in common_dtensor,dilililiwhy,2025-09-22T08:16:45Z,2025-09-23T16:30:24+00:00,2,32.23,False,19,17,1,216,13,0,13,CLOSED
+163495,Remove test conditions for CUDA<12,cyyever,2025-09-22T07:45:14Z,2025-09-26T12:21:42+00:00,1,100.61,False,6,66,4,137,6,0,6,CLOSED
+163494,[xla hash update] update the pinned xla hash,pytorchupdatebot,2025-09-22T07:41:44Z,2025-09-29T12:31:18+00:00,1,172.83,False,1,1,1,77,6,0,6,CLOSED
+163493,Update slow tests,pytorchupdatebot,2025-09-22T07:40:47Z,2025-09-29T11:58:20+00:00,1,172.29,False,241,247,1,79,6,0,6,CLOSED
+163489,Replace Literal[None] with None in typing,cyyever,2025-09-22T06:50:00Z,2025-09-22T22:10:11+00:00,2,15.34,False,10,19,6,253,9,0,9,CLOSED
+163488,[pt2][cache] rework cache for true generic usage + better tests,nmacchioni,2025-09-22T06:11:44Z,2025-09-23T07:31:52+00:00,12,25.34,False,1231,642,4,1633,14,10,24,CLOSED
+163486,Add type annotations to MPS profiler utilities,bobrenjc93,2025-09-22T05:44:59Z,2025-09-27T23:00:56+00:00,3,137.27,False,17,9,1,313,3,2,5,CLOSED
+163485,symintify fill_diagonol_,bobrenjc93,2025-09-22T05:38:49Z,2025-09-23T21:27:15+00:00,2,39.81,False,21,14,2,244,6,2,8,CLOSED
+163482,[inductor] Fix divmod error in decomp,jansel,2025-09-22T04:48:17Z,2025-09-24T02:52:44+00:00,2,46.07,False,35,7,3,291,3,1,4,CLOSED
+163481,[inductor] Fix issue with scalar arg handling,jansel,2025-09-22T04:38:48Z,2025-09-24T02:52:40+00:00,2,46.23,False,104,3,6,291,4,1,5,CLOSED
+163478,remove allow-untyped-defs from ./torch/fx/experimental/unification/multipledispatch/core.py,bobrenjc93,2025-09-22T03:47:19Z,2025-09-25T06:48:47+00:00,3,75.02,False,24,9,4,208,2,2,4,CLOSED
+163477,remove allow-untyped-defs from ./torch/distributed/optim/zero_redundancy_optimizer.pyi,bobrenjc93,2025-09-22T03:47:14Z,2025-10-01T20:00:45+00:00,4,232.23,False,12,10,1,98,2,2,4,CLOSED
+163476,remove allow-untyped-defs from ./torch/utils/benchmark/op_fuzzers/sparse_unary.py,bobrenjc93,2025-09-22T03:47:08Z,2025-09-25T06:48:50+00:00,3,75.03,False,11,2,1,74,4,1,5,CLOSED
+163475,remove allow-untyped-defs from ./torch/nn/utils/_expanded_weights/embedding_expanded_weights.py,bobrenjc93,2025-09-22T03:47:03Z,2025-09-25T06:48:48+00:00,2,75.03,False,9,6,1,74,2,0,2,CLOSED
+163474,remove allow-untyped-defs from ./torch/distributions/half_normal.py,bobrenjc93,2025-09-22T03:46:59Z,2025-10-01T20:00:43+00:00,3,232.23,False,14,11,1,98,2,1,3,CLOSED
+163473,remove allow-untyped-defs from ./torch/utils/benchmark/op_fuzzers/unary.py,bobrenjc93,2025-09-22T03:46:54Z,2025-10-01T20:00:42+00:00,1,232.23,False,15,2,1,98,2,1,3,CLOSED
+163472,remove allow-untyped-defs from ./torch/onnx/_internal/torchscript_exporter/_globals.py,bobrenjc93,2025-09-22T03:46:49Z,2025-09-23T03:50:32+00:00,1,24.06,False,5,6,1,106,6,0,6,CLOSED
+163471,remove allow-untyped-defs from ./torch/ao/quantization/quantizer/utils.py,bobrenjc93,2025-09-22T03:46:44Z,2025-09-25T06:48:49+00:00,2,75.03,False,15,7,1,74,2,0,2,CLOSED
+163470,remove allow-untyped-defs from ./torch/ao/quantization/pt2e/duplicate_dq_pass.py,bobrenjc93,2025-09-22T03:46:40Z,2025-09-22T20:29:13+00:00,1,16.71,False,1,2,1,122,3,0,3,CLOSED
+163469,remove allow-untyped-defs from ./torch/utils/data/datapipes/iter/fileopener.py,bobrenjc93,2025-09-22T03:46:34Z,2025-09-22T20:29:12+00:00,2,16.71,False,4,5,1,122,2,0,2,CLOSED
+163468,[1/N] Remove 'type: ignore' suppressions ,cyyever,2025-09-22T03:42:13Z,2025-09-23T03:53:16+00:00,2,24.18,False,19,18,5,151,7,0,7,CLOSED
+163465,[2/N] Use filesystem in inductor,cyyever,2025-09-22T01:53:44Z,2025-09-23T03:56:19+00:00,1,26.04,False,6,30,2,73,6,0,6,CLOSED
+163463,[vllm hash update] update the pinned vllm hash,pytorchupdatebot,2025-09-22T00:28:36Z,2025-09-22T21:25:00+00:00,1,20.94,False,2,2,2,78,6,0,6,CLOSED
+163461,[WOQ][Inductor] Enable CUDA coverage for _weight_int8pack_mm,bbeckca,2025-09-22T00:25:17Z,2025-09-24T19:20:42+00:00,1,66.92,False,0,1,1,587,12,0,12,CLOSED
+163460,Triton template IMA reads on B200,drisspg,2025-09-22T00:24:28Z,2025-09-22T20:34:41+00:00,2,20.17,False,7,6,2,269,3,0,3,CLOSED
+163459,switch from stack based to graph based aproach,laithsakka,2025-09-21T21:50:37Z,2025-09-22T16:41:38+00:00,1,18.85,False,488,637,7,50,3,0,3,CLOSED
+163458,[SymmMem] Fix put_signal + wait_until hang,pytorchbot,2025-09-21T21:00:37Z,2025-09-23T17:10:02+00:00,1,44.16,True,44,59,2,666,1,0,1,MERGED
+163456,[BE]: Add a few more missing move from return indices,Skylion007,2025-09-21T19:13:22Z,2025-09-22T20:24:26+00:00,2,25.18,False,5,5,3,259,3,0,3,CLOSED
+163455,Avoid `at::alias` in the `repeat` op implementation,haifeng-jin,2025-09-21T17:44:04Z,2025-09-24T22:28:27+00:00,4,76.74,False,22,6,1,1768,3,2,5,CLOSED
+163452,[MPS] Fix compile linalg inv,Isalia20,2025-09-21T16:11:07Z,2025-09-22T10:36:56+00:00,15,18.43,False,16,10,2,215,3,3,6,CLOSED
+163447,[torch] DRY a couple of lines in unpickler,yfeldblum,2025-09-21T13:03:31Z,2025-09-21T20:29:36+00:00,1,7.43,False,1,3,1,114,4,0,4,CLOSED
+163445,Simplify BFLOAT16_AVAILABLE,cyyever,2025-09-21T11:50:39Z,2025-09-22T07:31:49+00:00,4,19.69,False,1,6,2,241,8,2,10,CLOSED
+163444,Enable half precision types on test_conv_cudnn_nhwc_support,cyyever,2025-09-21T10:43:33Z,2025-09-22T04:11:23+00:00,1,17.46,False,1,4,1,102,3,0,3,CLOSED
+163443,Remove C++ and test branches for CUDA<12,cyyever,2025-09-21T10:20:10Z,2025-09-22T18:20:11+00:00,1,32.0,False,3,39,6,40,3,0,3,CLOSED
+163442,Remove outdated commented CMake code,cyyever,2025-09-21T09:33:52Z,2025-09-22T23:07:39+00:00,1,37.56,False,1,2,1,58,3,0,3,CLOSED
+163441,[submodule] Bump libfmt to 12.0.0,cyyever,2025-09-21T09:06:10Z,2025-09-21T22:37:27+00:00,1,13.52,False,1,1,1,184,3,0,3,CLOSED
+163440,Remove workarounds for Python 3.6,cyyever,2025-09-21T08:53:54Z,2025-09-22T04:08:08+00:00,1,19.24,False,2,8,2,184,3,0,3,CLOSED
+163439,Use functools.cache on has_efa,cyyever,2025-09-21T08:45:07Z,2025-09-23T05:03:05+00:00,1,44.3,False,5,10,1,47,7,0,7,CLOSED
+163438,[BC breaking] Remove deprecated imports for torch.utils.data.datapipes.iter.grouping,cyyever,2025-09-21T08:01:07Z,2025-09-23T05:02:10+00:00,1,45.02,False,0,69,2,402,10,0,10,CLOSED
+163434,[inductor] Freeze layouts in FlexAttention,jansel,2025-09-21T05:04:48Z,2025-09-23T15:37:51+00:00,3,58.55,False,114,3,4,339,6,1,7,CLOSED
+163433,"[2/n] Support module.to(""cuda:0"") in FakeTensorMode on cuda-less machine",SherlockNoMad,2025-09-21T02:39:36Z,2025-09-22T20:16:37+00:00,4,41.62,False,44,13,3,781,6,4,10,CLOSED
+163432,[precompile] Add option to disable guard check on aot-compiled function.,zhxchen17,2025-09-21T02:36:55Z,2025-09-30T16:10:20+00:00,2,229.56,False,21,1,2,495,10,0,10,CLOSED
+163430,[CI][CUDA][B200] Skip tests to unblock #159494,nWEIdia,2025-09-21T01:57:43Z,2025-09-22T18:54:02+00:00,1,40.94,False,9,2,2,419,4,0,4,CLOSED
+163426,[Flex attention] Fix flex attention head broadcast,Isalia20,2025-09-20T22:43:11Z,2025-09-23T13:01:56+00:00,5,62.31,False,89,7,2,1332,10,1,11,CLOSED
+163423,[SymmMem] Promote `@requires_nvshmem` instead of `enable_triton`,kwen2501,2025-09-20T21:54:10Z,2025-10-03T00:25:13+00:00,6,290.52,False,275,176,2,1000,10,2,12,CLOSED
+163422,[inductor] Fix error from custom CUDA allocators,jansel,2025-09-20T21:28:26Z,2025-09-23T15:38:00+00:00,3,66.16,False,5,1,1,339,6,1,7,CLOSED
+163419,[inductor] libdevice.sqrt => tl.sqrt_rn,jansel,2025-09-20T19:34:16Z,2025-09-23T15:37:49+00:00,2,68.06,False,16,2,3,339,4,0,4,CLOSED
+163417,Add torchfuzz initial impl.,laithsakka,2025-09-20T19:04:25Z,2025-09-21T19:17:56+00:00,3,24.23,False,2522,0,8,263,3,2,5,CLOSED
+163416,[BE][Ez]: Prevent copies of std::vector in CUDA ForeachOps,Skylion007,2025-09-20T18:59:13Z,2025-09-21T05:24:15+00:00,1,10.42,False,14,14,7,370,3,0,3,CLOSED
+163415,[inductor] Don't require_dense for grid_sampler_2d_backward,jansel,2025-09-20T16:56:54Z,2025-09-22T21:53:09+00:00,1,52.94,False,51,1,2,371,4,0,4,CLOSED
+163414,[inductor] Skip test_baddmm on XPU,jansel,2025-09-20T16:26:40Z,2025-09-22T21:53:08+00:00,3,53.44,False,3,0,1,371,3,1,4,CLOSED
+163412,[dynamo] Fix TorchFunctionMode handling with get_rng_state,jansel,2025-09-20T16:20:39Z,2025-09-23T15:37:58+00:00,1,71.29,False,22,3,2,322,3,0,3,CLOSED
+163411,Update fbgemm submodule,cthi,2025-09-20T15:56:18Z,2025-09-22T15:46:15+00:00,1,47.83,False,1,1,1,147,4,0,4,CLOSED
+163398,[inductor] Fix bug where viewed outputs get padded,jansel,2025-09-20T03:57:09Z,2025-09-22T21:53:05+00:00,1,65.93,False,72,1,2,371,3,0,3,CLOSED
+163396,[BE][CI] Unify requirments,malfet,2025-09-20T01:09:08Z,2025-10-01T03:28:50+00:00,1,266.33,False,19,81,7,289,3,0,3,CLOSED
+163395,[graph partition] Add way to register custom rule (#163310),zou3519,2025-09-20T01:03:03Z,2025-09-23T01:18:07+00:00,1,72.25,True,105,0,2,550,1,0,1,MERGED
+163394,Combine strong and weak refcounts in intrusive_ptr in a single refcount,mcfi,2025-09-20T00:41:03Z,2025-09-22T17:53:31+00:00,8,65.21,False,144,119,2,825,10,6,16,CLOSED
+163393,[inductor] Support out_dtype arg to matmul,jansel,2025-09-20T00:33:50Z,2025-09-23T15:37:53+00:00,3,87.07,False,100,23,4,347,3,2,5,CLOSED
+163392,[vllm hash update] update the pinned vllm hash,pytorchupdatebot,2025-09-20T00:23:57Z,2025-09-21T04:34:17+00:00,1,28.17,False,1,1,1,78,9,0,9,CLOSED
+163390,[dynamo] Fix handling of kwargs in exception constructor,rtimpe,2025-09-20T00:15:16Z,2025-09-24T22:44:17+00:00,1,118.48,False,30,3,4,222,8,0,8,CLOSED
+163388,[Inductor][Intel GPU] Save `threads_per_warp` from tirton compiled kernel for launching kernel correctly in cpp wrapper.,pytorchbot,2025-09-20T00:02:49Z,2025-09-26T18:42:09+00:00,3,162.66,True,13,4,3,483,2,0,2,MERGED
+163387,[inductor] Fallback on strided complex add,jansel,2025-09-20T00:00:54Z,2025-09-22T21:53:07+00:00,2,69.87,False,70,0,3,385,3,1,4,CLOSED
+163386,Better decomp for torch.eye,jansel,2025-09-20T00:00:50Z,2025-09-22T21:53:04+00:00,5,69.87,False,14,4,1,154,7,3,10,CLOSED
+163385,[dynamo][guards] Revert introduction of different types of lambda_guards,anijain2305,2025-09-19T23:50:44Z,2025-09-27T18:20:50+00:00,1,186.5,False,5,133,3,462,3,0,3,CLOSED
+163383,Clean up obsoleted vLLM tests,huydhn,2025-09-19T23:11:58Z,2025-09-20T02:48:40+00:00,3,3.61,False,1,5,1,161,5,0,5,CLOSED
+163382,[triton] update 3.5 pin to bbb06c0334a6772b92d24bde54956e675c8c6604,davidberard98,2025-09-19T23:06:35Z,2025-09-22T20:21:02+00:00,2,69.24,False,1,1,1,354,9,0,9,CLOSED
+163381,Lazy import to avoid circular import issue for DebugMode,SherlockNoMad,2025-09-19T22:52:28Z,2025-09-20T01:54:59+00:00,1,3.04,False,5,4,1,9,3,0,3,CLOSED
+163379,[CUDA] revert PR 130472,pytorchbot,2025-09-19T22:10:07Z,2025-09-29T20:05:26+00:00,2,237.92,True,17,105,4,215,1,0,1,MERGED
+163378,Refactor Provenance Tracking,yushangdi,2025-09-19T21:51:45Z,2025-09-25T22:56:03+00:00,1,145.07,False,101,103,12,998,6,0,6,CLOSED
+163376,[SymmMem] Barrier on team instead of world,pytorchbot,2025-09-19T21:38:22Z,2025-09-26T23:41:18+00:00,1,170.05,True,107,72,2,353,1,0,1,MERGED
+163375,[SymmMem] Fix memory allocation hold-up,pytorchbot,2025-09-19T21:37:45Z,2025-09-26T23:35:56+00:00,1,169.97,True,18,13,2,505,1,0,1,MERGED
+163373,[ROCm] Fix environment variable AOTRITON_INSTALLED_PREFIX,xinyazhang,2025-09-19T21:17:11Z,2025-09-22T15:01:22+00:00,3,65.74,False,7,7,1,219,8,1,9,CLOSED
+163371,use reduction hint for aggressive rblock,eellison,2025-09-19T20:46:58Z,2025-09-23T22:04:25+00:00,2,97.29,False,21,10,1,439,3,1,4,CLOSED
+163367,[CuTe] Add layout overlap checking util function in _MeshLayout,fduwjj,2025-09-19T20:32:44Z,2025-09-27T00:22:18+00:00,34,171.83,False,70,0,2,455,10,15,25,CLOSED
+163365,Less aggressive persistent reduction when it could induce large masking with dynamic shapes,eellison,2025-09-19T20:30:05Z,2025-09-23T21:59:00+00:00,4,97.48,False,65,0,2,961,7,2,9,CLOSED
+163364,[Opitmus] fix fp8 activation quatization for duplicates forward output,mengluy0125,2025-09-19T20:08:28Z,2025-09-20T06:33:24+00:00,1,10.42,False,233,10,2,961,7,0,7,CLOSED
+163360,[Caffe2] Improve SVE batch box cox by 2%,Nicoshev,2025-09-19T19:34:34Z,2025-09-20T06:42:29+00:00,1,11.13,False,12,6,1,619,5,0,5,CLOSED
+163357,Adding check for square matrix for input tensor in matrix_exp backwar…,mansiag05,2025-09-19T18:24:54Z,2025-10-01T03:12:35+00:00,1,272.79,False,16,0,2,20,6,0,6,CLOSED
+163354,[CUDA][cuBLAS][FP8] Forward-fix #162022,eqy,2025-09-19T17:26:35Z,2025-09-21T00:55:15+00:00,2,31.48,False,1,1,1,127,3,0,3,CLOSED
+163352,Don't use declarations in global namespace in stable headers,mikaylagawarecki,2025-09-19T16:35:03Z,2025-09-19T21:15:55+00:00,1,4.68,False,46,27,3,755,3,0,3,CLOSED
+163351,[dynamo] Fix issue with namedtuple slicing,jansel,2025-09-19T16:23:22Z,2025-09-20T00:42:05+00:00,2,8.31,False,23,0,2,320,3,0,3,CLOSED
+163350,Realize LazyVariableTracker before raising exception,guilhermeleobas,2025-09-19T15:59:42Z,2025-09-19T19:25:20+00:00,2,3.43,False,3,1,1,265,3,0,3,CLOSED
+163349,[CD] Simplify NVIDIA driver installation step,malfet,2025-09-19T15:54:47Z,2025-09-19T18:50:51+00:00,1,2.93,False,0,2,1,98,6,0,6,CLOSED
+163344,Simplify _compute_local_shape_and_global_offset and make it SPMD.,ezyang,2025-09-19T14:52:56Z,2025-09-24T02:24:11+00:00,3,107.52,False,81,58,1,730,3,0,3,CLOSED
+163341,[BE] Introduce `CONDA_ROOT_DIR`,malfet,2025-09-19T14:16:23Z,2025-09-19T19:45:35+00:00,3,5.49,False,6,6,3,192,5,1,6,CLOSED
+163340,Delete functorch C extension entirely.,ezyang,2025-09-19T13:53:46Z,2025-09-24T06:09:01+00:00,4,112.25,False,0,4884,12,433,28,0,28,CLOSED
+163339,Move ROCM trunk wheel builds to 3.10,malfet,2025-09-19T13:33:16Z,2025-09-19T18:52:03+00:00,1,5.31,False,8,8,2,482,5,0,5,CLOSED
+163322,[hop] support local_map + SAC,xmfan,2025-09-19T06:36:36Z,2025-09-24T04:57:43+00:00,14,118.35,False,286,40,2,461,5,6,11,CLOSED
+163319,[inductor] fix as_strided lowering with .view(dtype) inputs,xmfan,2025-09-19T03:51:14Z,2025-09-23T12:51:01+00:00,1,105.0,False,38,3,3,267,7,1,8,CLOSED
+163318,[Flex] Changing how bwd configs are setup and updating default b200 config,drisspg,2025-09-19T03:38:26Z,2025-09-19T16:57:24+00:00,2,13.32,False,169,76,2,6209,3,1,4,CLOSED
+163317,[Code Clean] Replace `std::runtime_error` with `TORCH_CHECK`,KarhouTam,2025-09-19T03:27:52Z,2025-09-23T03:35:02+00:00,4,96.12,False,74,79,12,309,5,2,7,CLOSED
+163315,[Inductor][Intel GPU] Save `threads_per_warp` from tirton compiled kernel for launching kernel correctly in cpp wrapper.,etaf,2025-09-19T03:20:26Z,2025-09-19T21:06:59+00:00,5,17.78,False,13,4,3,483,8,2,10,CLOSED
+163313,Remove autograd code for Python < 3.9,cyyever,2025-09-19T02:47:04Z,2025-09-21T15:35:09+00:00,1,60.8,False,0,10,1,80,4,0,4,CLOSED
+163310,[graph partition] Add way to register custom rule,zou3519,2025-09-19T01:56:34Z,2025-09-19T23:28:06+00:00,9,21.53,False,105,0,2,421,3,4,7,CLOSED
+163308,Better error handling in torch/nativert/*,licy666,2025-09-19T00:58:26Z,2025-09-28T14:23:48+00:00,5,229.42,False,55,59,8,443,14,7,21,CLOSED
+163305,[inductor][triton heuristics] move allow tf32 out of config params,coconutruben,2025-09-19T00:32:27Z,2025-09-20T05:30:42+00:00,2,28.97,False,21,11,2,1171,3,1,4,CLOSED
+163304,[vllm hash update] update the pinned vllm hash,pytorchupdatebot,2025-09-19T00:25:25Z,2025-09-19T04:25:46+00:00,1,4.01,False,1,1,1,78,3,0,3,CLOSED
+163298,[SymmMem] Barrier on team instead of world,kwen2501,2025-09-18T21:41:56Z,2025-09-19T20:19:49+00:00,1,22.63,False,107,72,2,353,6,0,6,CLOSED
+163297,[CUDA][Expandable Segments] Follow-up cleanups for even more expandable segments tests,eqy,2025-09-18T21:33:34Z,2025-09-30T15:39:17+00:00,1,282.1,False,4,4,1,143,3,0,3,CLOSED
+163296,[testing] Add test owner labels for some cuda? tests,clee2000,2025-09-18T21:29:30Z,2025-09-26T18:26:59+00:00,2,188.96,False,2,2,2,170,8,0,8,CLOSED
+163295,[export] Fix wrap_with_set_grad_enabled retracing,angelayi,2025-09-18T21:18:51Z,2025-09-21T22:54:45+00:00,1,73.6,False,10,14,2,1067,5,0,5,CLOSED
+163293,Change DebugMode record_torchfunction default to False,SherlockNoMad,2025-09-18T21:03:49Z,2025-09-19T00:30:55+00:00,1,3.45,False,6,6,2,193,3,0,3,CLOSED
+163292,"[dynamo, 3.14] fix WITH_EXCEPT_START",williamwen42,2025-09-18T20:59:12Z,2025-09-30T17:43:14+00:00,1,284.73,False,11,3,1,326,5,0,5,CLOSED
+163289,Deprecate Lite Interpreter,JacobSzwejbka,2025-09-18T20:22:10Z,2025-09-18T23:56:23+00:00,1,3.57,False,19,0,1,285,6,0,6,CLOSED
+163288,[DeviceMesh] Add extra check in flatten result cache lookup,fduwjj,2025-09-18T20:17:01Z,2025-09-26T03:42:02+00:00,7,175.42,False,24,3,2,474,4,2,6,CLOSED
+163282,[Fix] Restrict stride normalization to 1D tensors on export,Kathryn-cat,2025-09-18T19:47:30Z,2025-09-22T19:10:08+00:00,1,95.38,False,2,19,1,1221,14,0,14,CLOSED
+163281,[MPS] Compute `offset2bag/bag_size/max_indices` in `_embedding_bag`,kurtamohler,2025-09-18T19:36:58Z,2025-09-23T22:30:51+00:00,9,122.9,False,161,50,6,269,3,5,8,CLOSED
+163280,Fix performance regression when indexing by Numpy arrays,ezyang,2025-09-18T19:12:56Z,2025-09-19T05:03:00+00:00,2,9.83,False,3,1,1,1460,3,0,3,CLOSED
+163276,[opaque_obj] Add set_payload + docs,angelayi,2025-09-18T18:57:49Z,2025-09-22T20:02:32+00:00,7,97.08,False,115,3,4,123,8,2,10,CLOSED
+163273,Extend triton_mm auto-tune options for HIM shapes,RandySheriff,2025-09-18T18:15:10Z,2025-09-26T00:06:01+00:00,2,173.85,False,1,0,1,592,46,0,46,CLOSED
+163270,"[export] add node.meta[""val""] when HOO's output is empty",yushangdi,2025-09-18T17:41:01Z,2025-09-18T21:26:08+00:00,2,3.75,False,26,0,2,125,3,1,4,CLOSED
+163269,Update pytorch_sphinx_theme2 to latest hash,svekars,2025-09-18T17:22:51Z,2025-09-22T23:20:25+00:00,1,101.96,False,1,1,1,127,5,0,5,CLOSED
+163265,"[Release 2.9] [cuDNN][SDPA][submodule] Roll-back cuDNN frontend upgrade, update Met…",eqy,2025-09-18T16:17:43Z,2025-09-19T17:53:04+00:00,1,25.59,True,31,4,4,521,1,0,1,MERGED
+163264,[Code Clean] Replace std::runtime_error with TORCH_CHECK,FFFrog,2025-09-18T16:07:21Z,2025-09-25T11:28:54+00:00,2,163.36,False,135,132,19,74,9,0,9,CLOSED
+163262,[SymmMem] Fix NVSHMEM plugin + Triton 3.5,pytorchbot,2025-09-18T15:49:58Z,2025-09-19T17:51:02+00:00,1,26.02,True,105,49,2,819,1,0,1,MERGED
+163259,Move control flow export tests to new tracer,tugsbayasgalan,2025-09-18T14:21:38Z,2025-09-28T19:56:13+00:00,1,245.58,False,23,20,1,124,8,0,8,CLOSED
+163258,Use new_tracer_experimental for torchao strict export,tugsbayasgalan,2025-09-18T14:21:32Z,2025-09-28T19:55:57+00:00,2,245.57,False,12,6,2,591,9,1,10,CLOSED
+163256,[ROCm] update ci_expected_accuracy for dynamo benchmarks,amdfaa,2025-09-18T14:01:56Z,2025-09-18T19:05:24+00:00,1,5.06,False,24,4,5,382,3,0,3,CLOSED
+163252,Add SDPA patterns for T5 variants when batch size is 1,CaoE,2025-09-18T08:11:26Z,2025-09-26T08:50:10+00:00,5,192.65,False,654,88,5,371,3,2,5,CLOSED
+163244,Update torch-xpu-ops commit pin,Chao1Han,2025-09-18T05:01:24Z,2025-09-19T02:04:44+00:00,1,21.06,False,1,1,1,256,4,0,4,CLOSED
+163242,Make `Tensor.__dlpack__(stream=None)` capture-safe during CUDA Graph capture,eee4017,2025-09-18T04:25:41Z,2025-09-24T16:04:21+00:00,1,155.64,False,7,4,1,745,17,0,17,CLOSED
+163241,[DTensor] Fix DTensor.mean with uneven sharding,SherlockNoMad,2025-09-18T04:19:31Z,2025-09-18T19:53:54+00:00,1,15.57,False,59,1,3,179,3,0,3,CLOSED
+163240,[AI Codemod][DevmatePerfOptimizationVectorReallocation] fbcode/caffe2/torch/csrc/jit/serialization/unpickler.cpp,yfeldblum,2025-09-18T04:13:15Z,2025-09-20T23:26:27+00:00,4,67.22,False,2,3,1,120,11,1,12,CLOSED
+163238,Massive hack to make autograd shut up about threaded PG mutations,ezyang,2025-09-18T03:32:43Z,2025-09-18T18:13:01+00:00,1,14.67,False,46,11,2,221,7,2,9,CLOSED
+163236,[export] Tag lifted constants with source object id.,zhxchen17,2025-09-18T03:10:08Z,2025-09-19T21:29:27+00:00,1,42.32,False,46,0,2,507,6,1,7,CLOSED
+163235,[OpenReg][Docs] Correct docs about `openreg` usage example.,KarhouTam,2025-09-18T02:50:49Z,2025-09-23T06:16:48+00:00,3,123.43,False,4,4,3,653,12,1,13,CLOSED
+163234,[Inductor-FX] Support torch.cond,blaine-rister,2025-09-18T02:08:45Z,2025-09-20T03:52:34+00:00,8,49.73,False,297,74,5,3884,6,6,12,CLOSED
+163233,[CPU] Support transpose and packing fusion for bit8,Valentine233,2025-09-18T01:53:07Z,2025-09-26T07:15:07+00:00,2,197.37,False,132,0,2,187,4,0,4,CLOSED
+163231,[CP] Fix cuDNN CP LSE dimension bug,fegin,2025-09-18T01:06:55Z,2025-09-20T06:13:49+00:00,3,53.12,False,15,3,1,253,5,1,6,CLOSED
+163227,[Graph Partition] improve custom op output alias,BoyuanFeng,2025-09-18T00:56:00Z,2025-09-19T17:01:40+00:00,6,40.09,False,78,4,3,1986,7,3,10,CLOSED
+163223,Fix SEMI_STRUCTURED_SUPPORTED_BACKENDS selection on CUDA and ROCm,dnikolaev-amd,2025-09-18T00:37:38Z,2025-09-18T06:29:31+00:00,1,5.86,False,2,2,1,258,4,0,4,CLOSED
+163218,[vllm hash update] update the pinned vllm hash,pytorchupdatebot,2025-09-18T00:25:27Z,2025-09-18T04:31:50+00:00,1,4.11,False,1,1,1,78,3,0,3,CLOSED
+163215,[inductor] do comm compute overlap at aten fx level,eellison,2025-09-18T00:15:22Z,2025-09-30T04:54:01+00:00,12,292.64,False,1104,10,8,1265,19,7,26,CLOSED
+163214,[CI] reuse old whl: fix metadata file not getting version replaced,clee2000,2025-09-17T23:53:19Z,2025-09-18T16:08:33+00:00,1,16.25,False,1,1,1,339,4,0,4,CLOSED
+163213,[DeviceMesh] Simplifying internal bookkeeping with CuTe layout,fduwjj,2025-09-17T23:40:14Z,2025-10-03T05:51:31+00:00,53,366.19,False,246,141,3,2215,13,39,52,CLOSED
+163212,[DeviceMesh] Introduce CuTe layout into devicemesh code base for internal bookkeeping,fduwjj,2025-09-17T23:40:11Z,2025-09-26T03:32:22+00:00,5,195.87,False,343,1,2,1429,3,1,4,CLOSED
+163210,[BE] Remove bottleneck,PaliC,2025-09-17T23:30:55Z,2025-09-18T12:08:16+00:00,1,12.62,False,0,495,10,60,5,0,5,CLOSED
+163209,[inductor][choices] move extra kwargs out of get_template_configs,coconutruben,2025-09-17T23:11:22Z,2025-09-20T05:30:43+00:00,1,54.32,False,8,6,3,661,5,0,5,CLOSED
+163205,[ROCm][SymmMem] Fix skip condition for PLATFORM_SUPPORTS_SYMM_MEM,pragupta,2025-09-17T22:39:20Z,2025-09-19T12:12:51+00:00,1,37.56,False,10,8,1,453,4,0,4,CLOSED
+163203,[testing] Add test owner labels for some ao sparse tests,clee2000,2025-09-17T22:21:26Z,2025-09-18T16:08:16+00:00,1,17.78,False,11,11,11,130,3,0,3,CLOSED
+163194,[SymmMem] Fix put_signal + wait_until hang,kwen2501,2025-09-17T21:16:10Z,2025-09-18T18:20:04+00:00,1,21.07,False,44,59,2,666,6,0,6,CLOSED
+163191,"[dynamo, 3.14] fix inactive ctx handling in resume functions",williamwen42,2025-09-17T20:42:40Z,2025-09-30T17:43:13+00:00,1,309.01,False,5,7,1,326,5,0,5,CLOSED
+163188,[aoti] AOTI mingw cross compilation ,yushangdi,2025-09-17T20:26:52Z,2025-10-01T02:22:09+00:00,18,317.92,False,225,62,12,956,11,14,25,CLOSED
+163187,[Reland] Return NoOpDeviceGuardImpl in replace of CudaDeviceGuard when device is not available,SherlockNoMad,2025-09-17T20:19:20Z,2025-09-18T04:46:29+00:00,1,8.45,False,210,5,6,592,6,0,6,CLOSED
+163186,Update LPPool docs to clarify ceil_mode padding semantics when ceil_mode=True,Jonahcb,2025-09-17T20:17:33Z,2025-09-30T15:22:52+00:00,1,307.09,False,21,0,2,1472,12,0,12,CLOSED
+163174,[testing] Add test owner labels for some distributed tests,clee2000,2025-09-17T18:30:39Z,2025-09-26T18:19:07+00:00,1,215.81,False,7,7,7,232,6,0,6,CLOSED
+163173,[pcache] Generalize testing + All Caches thread-safe,nmacchioni,2025-09-17T18:29:30Z,2025-09-18T00:32:49+00:00,3,6.06,False,240,225,2,1088,6,1,7,CLOSED
+163171,[cuDNN][conv][64-bit] Disable cuDNN for 64-bit depthwise convs again,eqy,2025-09-17T17:22:10Z,2025-09-26T22:12:20+00:00,5,220.84,False,22,11,2,227,17,2,19,CLOSED
+163169,[dynamo][ez] Initialize tracer_output to None by default.,zhxchen17,2025-09-17T17:10:44Z,2025-09-18T01:30:26+00:00,1,8.33,False,1,0,1,499,4,0,4,CLOSED
+163168,dynamo: Handle objects in graph that do not support weakref,c00w,2025-09-17T17:01:02Z,2025-09-22T22:11:11+00:00,2,125.17,False,41,1,3,2647,4,0,4,CLOSED
+163167,Add fake_impl for _native_multi_head_attention,ydwu4,2025-09-17T16:57:25Z,2025-09-23T22:20:36+00:00,1,149.39,False,137,0,2,141,18,0,18,CLOSED
+163166,compile_kernel: Add DLPack test,msaroufim,2025-09-17T16:41:01Z,2025-09-17T22:55:51+00:00,2,6.25,False,36,0,1,228,3,0,3,CLOSED
+163165,compile_kernel remove header_code arg,msaroufim,2025-09-17T16:11:26Z,2025-09-17T19:47:35+00:00,2,3.6,False,3,18,3,1042,3,0,3,CLOSED
+163163,add more restriction to fusion with large accumulate reads,xuanzhang816,2025-09-17T15:40:14Z,2025-09-19T01:20:33+00:00,1,33.67,False,19,10,3,253,4,0,4,CLOSED
+163160,[ncclx][c10d] check if process group nccl is using nccl,riklas,2025-09-17T15:15:07Z,2025-09-30T21:04:45+00:00,11,317.83,False,24,12,2,167,7,4,11,CLOSED
+163155,very small typo in fsdp2 comment,zhc7,2025-09-17T11:23:33Z,2025-09-17T20:19:44+00:00,2,8.94,False,1,1,1,101,3,0,3,CLOSED
+163152,[SymmMem] Fix NVSHMEM plugin + Triton 3.5,kwen2501,2025-09-17T08:49:01Z,2025-09-18T00:50:25+00:00,2,16.02,False,105,49,2,819,6,5,11,CLOSED
+163148,[unit test] correct wrong input shape in test_flop_fx,thenumberouscode,2025-09-17T06:52:05Z,2025-09-18T18:38:04+00:00,2,35.77,False,1,1,1,623,3,0,3,CLOSED
+163147,[Inductor][Triton][FP8] Add a Blackwell-specific scaled persistent + TMA template for GEMMs,jananisriram,2025-09-17T06:19:17Z,2025-09-19T17:23:41+00:00,1,59.07,False,176,0,3,2113,7,2,9,CLOSED
+163145,[Triton] [Inductor] Enable Epilogue Subtiling in the blackwell ws template,njriasan,2025-09-17T05:38:30Z,2025-09-24T05:38:05+00:00,11,167.99,False,131,57,7,531,27,6,33,CLOSED
+163140,[ROCm][CI] Upgrade ROCm to 7.0,pruthvistony,2025-09-17T03:23:56Z,2025-09-30T02:23:30+00:00,1,310.99,False,29,25,6,165,13,0,13,CLOSED
+163138,Don't register wrong overload to prim decomp,tugsbayasgalan,2025-09-17T03:06:29Z,2025-09-18T17:01:22+00:00,2,37.91,False,41,4,3,565,7,0,7,CLOSED
+163137,Move inductor.aot_compile to use new tracer,tugsbayasgalan,2025-09-17T02:46:44Z,2025-09-26T15:54:28+00:00,1,229.13,False,19,17,2,379,11,1,12,CLOSED
+163136,Fix bug with renaming submodules in dynamo for new tracer,tugsbayasgalan,2025-09-17T02:46:38Z,2025-09-26T15:54:27+00:00,4,229.13,False,31,5,2,723,11,2,13,CLOSED
+163134,Remove data_source argument from Sampler,cyyever,2025-09-17T01:47:56Z,2025-09-21T05:44:44+00:00,1,99.95,False,2,17,2,56,4,0,4,CLOSED
+163133,[mypy] add some import ignores to onnx,xmfan,2025-09-17T01:23:15Z,2025-09-17T09:32:43+00:00,1,8.16,False,2,2,2,110,3,0,3,CLOSED
+163131,[CP][BE] Correct an incorrect docstring,fegin,2025-09-17T01:01:46Z,2025-09-19T23:55:06+00:00,2,70.89,False,1,1,1,202,6,0,6,CLOSED
+163130,[FSDP2] idempotent reset_sharded_param: no-op if _local_tensor is already padded,weifengpy,2025-09-17T01:01:31Z,2025-09-18T09:20:40+00:00,2,32.32,False,60,2,2,670,15,1,16,CLOSED
+163128,[vllm hash update] update the pinned vllm hash,pytorchupdatebot,2025-09-17T00:26:09Z,2025-09-17T04:26:10+00:00,1,4.0,False,1,1,1,78,3,0,3,CLOSED
+163127,[ROCm] Fix mx fp8 and fp4 code after scaling refactor changes.,jagadish-amd,2025-09-16T23:58:55Z,2025-09-19T12:29:56+00:00,2,60.52,False,33,15,3,749,9,1,10,CLOSED
+163126,[dtensor][compile] Disable proxy mode in sharding prop rules,anijain2305,2025-09-16T23:34:47Z,2025-09-17T16:49:39+00:00,1,17.25,False,14,5,2,101,5,0,5,CLOSED
+163125,Use computed buffer sizes of torch for cusparseLt metadata,aartbik,2025-09-16T23:28:39Z,2025-09-19T22:12:43+00:00,1,70.73,False,20,17,4,80,13,0,13,CLOSED
+163123,Turn on capture_dynamic_output_shape_ops when fullgraph=True,bobrenjc93,2025-09-16T23:12:16Z,2025-09-18T21:24:20+00:00,2,46.2,False,17,24,4,238,5,1,6,CLOSED
+163122,[optim] override SWALR.state_dict and load_state_dict,filipviz,2025-09-16T23:07:13Z,2025-09-17T18:17:30+00:00,1,19.17,False,34,4,2,1563,3,0,3,CLOSED
+163121,Turn on capture_scalar_outputs when fullgraph=True,bobrenjc93,2025-09-16T23:07:03Z,2025-09-18T21:24:18+00:00,2,46.29,False,17,26,6,238,3,1,4,CLOSED
+163120,[optim] prevent unintended aliasing in lr_scheduler; update type annotations/docs,filipviz,2025-09-16T22:53:33Z,2025-09-25T06:59:02+00:00,20,200.09,False,509,79,3,1053,15,5,20,CLOSED
+163117,[inductor][choices] pass through annotations from KTC to ChoiceCaller,coconutruben,2025-09-16T22:39:45Z,2025-09-17T18:06:53+00:00,1,19.45,False,3,0,1,657,4,0,4,CLOSED
+163116,[CD] Do not enable GenAI on Windows,malfet,2025-09-16T22:34:49Z,2025-09-17T14:09:14+00:00,2,15.57,False,1,1,1,371,3,0,3,CLOSED
+163115,[CP][BE] Cosmetic refactors for CP code base,fegin,2025-09-16T22:14:39Z,2025-09-19T07:21:49+00:00,1,57.12,False,101,104,1,328,6,0,6,CLOSED
+163112,Update Gloo submodule,malfet,2025-09-16T21:57:45Z,2025-09-17T03:04:12+00:00,1,5.11,False,1,1,1,424,5,0,5,CLOSED
+163111,[CI] Update NVIDIA driver to `580.82.07`,malfet,2025-09-16T21:49:22Z,2025-09-17T17:37:09+00:00,2,19.8,False,36,1,3,254,11,1,12,CLOSED
+163110,"[dynamo, 3.14] support LOAD_CONST on slice, codegen LOAD_CONST slice instead of BINARY/STORE_SLICE",williamwen42,2025-09-16T21:41:50Z,2025-09-30T17:43:11+00:00,1,332.02,False,17,5,3,326,5,0,5,CLOSED
+163109,"[dynamo, 3.14] fix context managers",williamwen42,2025-09-16T21:41:45Z,2025-09-30T17:43:10+00:00,2,332.02,False,161,56,6,326,5,0,5,CLOSED
+163107,Update tests to check for more robust pattern,tugsbayasgalan,2025-09-16T21:33:58Z,2025-09-23T21:11:51+00:00,2,167.63,False,26,12,2,2945,12,3,15,CLOSED
+163106,Fix some edge cases,pytorchbot,2025-09-16T21:30:04Z,2025-09-25T14:29:39+00:00,2,208.99,True,162,133,3,5294,1,0,1,MERGED
+163104,"[cuDNN][SDPA][submodule] Roll-back cuDNN frontend upgrade, update Meta registration",eqy,2025-09-16T21:18:58Z,2025-09-17T15:48:58+00:00,1,18.5,False,31,4,4,414,8,0,8,CLOSED
+163101,[CI] Remove functorch doc build jobs,malfet,2025-09-16T20:32:33Z,2025-09-16T22:26:02+00:00,3,1.89,False,0,54,2,112,3,0,3,CLOSED
+163098,[optim] prevent problematic tensor aliasing in lr_scheduler,filipviz,2025-09-16T20:14:56Z,2025-09-17T13:40:28+00:00,2,17.43,False,44,7,2,1518,12,0,12,CLOSED
+163097,[Cherry Pick][Graph Partition] allow sharing default device context,BoyuanFeng,2025-09-16T20:14:23Z,2025-09-19T18:10:30+00:00,1,69.94,True,150,21,4,293,3,0,3,MERGED
+163096,DisableTorchFunction in debug_string,SherlockNoMad,2025-09-16T20:11:20Z,2025-09-17T00:19:53+00:00,1,4.14,False,20,5,2,270,6,0,6,CLOSED
+163094,[inductor] Fix convolution autotune check when groups != 1,yushangdi,2025-09-16T20:06:52Z,2025-09-17T09:09:35+00:00,1,13.05,False,26,1,2,943,3,0,3,CLOSED
+163092,[submodule] CUTLASS upgrade to 4.2.0 and change cutlass to cutlass_cppgen,henrylhtsang,2025-09-16T19:43:31Z,2025-09-18T18:03:54+00:00,2,46.34,False,9,9,5,253,8,0,8,CLOSED
+163090,[multi-kernel] shape-similarity kernel selection,pianpwk,2025-09-16T19:31:18Z,2025-09-23T21:00:50+00:00,10,169.49,False,230,66,4,1133,5,6,11,CLOSED
+163088,remove tolerance override for dynamo test_mixed_device_dtype in SGD,janeyx99,2025-09-16T19:22:23Z,2025-09-17T18:17:26+00:00,1,22.92,False,0,10,1,83,3,0,3,CLOSED
+163087,Enable several unit tests on ROCm,BLOrange-AMD,2025-09-16T19:10:13Z,2025-10-03T19:31:09+00:00,2,408.35,False,3,3,3,1690,17,0,17,CLOSED
+163086,Rm pytorch deps platform args,jaejunku,2025-09-16T19:00:07Z,2025-09-19T02:13:07+00:00,2,55.22,False,15,1,1,349,5,0,5,CLOSED
+163083,[sdpa] make sure to recompile if alignment is different than before,ColinPeppler,2025-09-16T18:26:21Z,2025-09-23T01:33:36+00:00,8,151.12,False,125,17,3,2365,7,2,9,CLOSED
+163080,write conv1d decomposition,yushangdi,2025-09-16T16:59:18Z,2025-09-17T19:22:41+00:00,1,26.39,False,91,0,2,854,3,0,3,CLOSED
+163078,[PyTorch] Compile SVE's box-cox only when building targeting SVE,Nicoshev,2025-09-16T16:07:04Z,2025-09-17T03:35:15+00:00,2,11.47,False,2,2,1,260,8,0,8,CLOSED
+163077,update test_quantization tests to run weekly,liangel-02,2025-09-16T14:21:00Z,2025-09-24T11:31:15+00:00,14,189.17,False,86,16,8,13,5,9,14,CLOSED
+163074,fix f-string in errors.py,henrykrumb,2025-09-16T13:28:31Z,2025-09-16T19:19:32+00:00,2,5.85,False,1,1,1,235,4,0,4,CLOSED
+163073,"[inductor] in emulate_precision_casts, disable fma fusion in triton",v0i0,2025-09-16T13:22:48Z,2025-09-23T23:59:20+00:00,4,178.61,False,63,0,4,253,10,0,10,CLOSED
+163070,[TEST][CUDA] Use proper dtype in test_cuda_tensor_pow_scalar_tensor_cuda,Aidyn-A,2025-09-16T12:29:53Z,2025-09-16T18:28:53+00:00,1,5.98,False,2,2,1,336,3,0,3,CLOSED
+163063,Restore environment after NcclUserBufferRegistrationTest,Flamefire,2025-09-16T09:24:55Z,2025-09-16T17:37:12+00:00,1,8.2,False,13,8,1,533,4,0,4,CLOSED
+163050,[ROCm] test_aot_inductor: Enable fp8 tests.,jagadish-amd,2025-09-16T07:36:27Z,2025-09-18T14:05:25+00:00,1,54.48,False,7,11,1,315,6,0,6,CLOSED
+163047,enable sync batchnorm for HPU device,harikodali,2025-09-16T06:49:46Z,2025-09-16T20:45:41+00:00,1,13.93,False,1,0,1,54,4,0,4,CLOSED
+163044,[AOTI-FX] Solve for undefined symbols in dynamic input shapes,blaine-rister,2025-09-16T06:07:47Z,2025-09-17T04:12:06+00:00,5,22.07,False,120,38,2,3721,3,2,5,CLOSED
+163042,[docs] Add cross-reference to torch.nn.ReLU from Softplus (and LeakyReLU “See also”),Username46786,2025-09-16T05:52:03Z,2025-09-17T12:50:00+00:00,1,30.97,False,6,3,1,515,3,1,4,CLOSED
+163041,[ONNX] Fix rotary_embedding_23 implementation,pytorchbot,2025-09-16T04:42:23Z,2025-09-17T00:16:23+00:00,1,19.57,True,119,19,2,2335,1,0,1,MERGED
+163039,[CPU] Adding missing brackets in native MaxUnpool log,can-gaa-hou,2025-09-16T03:31:55Z,2025-09-16T21:28:17+00:00,1,17.94,False,2,2,1,105,8,0,8,CLOSED
+163038,[C10d] Code clean for torch.distributed.init_process_group,FFFrog,2025-09-16T02:59:19Z,2025-09-16T08:15:28+00:00,1,5.27,False,2,2,1,174,3,0,3,CLOSED
+163036,Fix invalid indices bug for max_unpool2d/3d on MPS,can-gaa-hou,2025-09-16T02:28:34Z,2025-09-19T05:13:24+00:00,7,74.75,False,39,0,2,13,9,4,13,CLOSED
+163025,[CI] disable rerun of distributed tests,kwen2501,2025-09-16T00:06:56Z,2025-09-16T03:11:52+00:00,1,3.08,False,7,5,1,303,4,0,4,CLOSED
+163024,"Revert ""Make distributed modules importable even when backend not bui…",Camyll,2025-09-15T23:57:47Z,2025-09-19T17:34:55+00:00,1,89.62,True,451,774,50,368,1,0,1,MERGED
+163023,[inductor] return constant shape for ops that do not return,isuruf,2025-09-15T23:44:56Z,2025-09-26T20:44:28+00:00,1,260.99,False,9,6,1,409,8,0,8,CLOSED
+163021,[mps] Take into account offset,angelayi,2025-09-15T23:33:55Z,2025-09-16T07:14:36+00:00,1,7.68,False,1,1,1,52,3,0,3,CLOSED
+163019,[functionalize] Avoid one more call to custom get_device on FunctionalTensorWrapper,anijain2305,2025-09-15T23:28:10Z,2025-09-19T02:52:10+00:00,3,75.4,False,1,1,1,170,3,0,3,CLOSED
+163018,Set the credential to upload vLLM nightly wheels on schedule and workflow_dispatch,huydhn,2025-09-15T23:23:46Z,2025-09-16T22:26:24+00:00,2,23.04,False,2,2,1,131,8,0,8,CLOSED
+163017,[Bugfix] Match eager stride semantics for cloned tensors with preserve_format in compile,Lucaskabela,2025-09-15T23:21:18Z,2025-09-19T19:41:36+00:00,5,92.34,False,86,9,3,464,5,1,6,CLOSED
+163016,"[Reland] Return NoOpDeviceGuardImpl in replace of CudaDeviceGuard when device is not available, or cpu-only build",SherlockNoMad,2025-09-15T22:45:16Z,2025-09-17T22:27:24+00:00,1,47.7,False,207,4,6,521,9,0,9,CLOSED
+163014,[ROCm][CI] update _rocm-test.yml based on _linux-test.yml,jeffdaily,2025-09-15T22:37:04Z,2025-09-16T02:14:41+00:00,2,3.63,False,26,11,3,405,3,1,4,CLOSED
+163012,[MPS] Add `embedding_bag` forward pass,kurtamohler,2025-09-15T22:04:53Z,2025-09-17T19:00:50+00:00,4,44.93,False,423,5,8,269,8,3,11,CLOSED
+163011,"[MPS] zeros like, narrow and enable tests",Isalia20,2025-09-15T21:53:15Z,2025-09-16T17:48:07+00:00,1,19.91,False,10,9,2,99,4,0,4,CLOSED
+163009,"[dynamo, 3.14] support some bytecodes, fix CALL_FUNCTION_EX",williamwen42,2025-09-15T21:21:15Z,2025-09-30T17:43:09+00:00,2,356.37,False,105,47,7,326,6,0,6,CLOSED
+163008,Add decomp rule to assert_tensor_metadata for BatchedTensors ,tugsbayasgalan,2025-09-15T21:18:56Z,2025-09-17T03:49:44+00:00,4,30.51,False,18,0,2,369,21,1,22,CLOSED
+162998,[ROCm] Remove HIPBLASLT_ALLOW_TF32 from codebase,xinyazhang,2025-09-15T20:47:40Z,2025-09-18T13:53:58+00:00,2,65.11,False,48,196,10,549,12,0,12,CLOSED
+162996,Inspect schedule IR comms,H-Huang,2025-09-15T20:24:13Z,2025-09-16T16:59:09+00:00,1,20.58,False,14,3,1,233,3,0,3,CLOSED
+162995,[CUDA] fix shared memory race in `reduce_kernel`,eqy,2025-09-15T20:23:41Z,2025-09-16T07:53:24+00:00,1,11.5,False,1,0,1,470,3,0,3,CLOSED
+162993,"Move export_db to use new tracer, remove restriction on optional inputs",tugsbayasgalan,2025-09-15T20:18:05Z,2025-09-18T00:43:35+00:00,1,52.42,False,20,16,3,148,8,0,8,CLOSED
+162992,Make dynamo preserving stack trace work with inlined nn modules,tugsbayasgalan,2025-09-15T20:18:00Z,2025-09-18T00:43:26+00:00,1,52.42,False,10,5,2,319,10,0,10,CLOSED
+162991,[Flight Recorder][WP] Added mismatch tail as an arg,VieEeEw,2025-09-15T19:48:37Z,2025-09-16T04:46:09+00:00,1,8.96,False,9,3,2,787,8,0,8,CLOSED
+162988,[CI][Distributed][CUDA][Symm-Mem] Enable B200 Symm Mem Test,nWEIdia,2025-09-15T19:01:14Z,2025-09-27T05:12:08+00:00,1,274.18,False,96,18,4,360,9,0,9,CLOSED
+162987,[functional] Use the saved device on storage instead for device_custom,anijain2305,2025-09-15T19:00:48Z,2025-09-18T23:43:23+00:00,3,76.71,False,13,10,2,337,4,0,4,CLOSED
+162984,[BE] Adding aliases for CUDA and XPU API documentation,jiannanWang,2025-09-15T18:25:35Z,2025-09-21T22:28:31+00:00,1,148.05,False,89,39,5,141,8,0,8,CLOSED
+162983,[precompile] Store traced file information with CompileArtifacts.,zhxchen17,2025-09-15T18:15:18Z,2025-09-16T18:27:51+00:00,3,24.21,False,79,23,4,777,3,1,4,CLOSED
+162982,[doc]: Small typos,joshuamarkovic,2025-09-15T18:14:18Z,2025-09-16T17:42:21+00:00,2,23.47,False,43,43,38,471,6,0,6,CLOSED
+162981,[SymmMem] Not use run_test.py in CI,kwen2501,2025-09-15T18:00:00Z,2025-09-16T01:17:21+00:00,2,7.29,False,4,4,1,183,2,1,3,CLOSED
+162977,fix deterministic scatter_add path for multi-d tensors,pytorchbot,2025-09-15T17:33:04Z,2025-09-17T00:17:36+00:00,1,30.74,True,5,4,2,64,1,0,1,MERGED
+162975,Add to inductor provenance tracking doc,yushangdi,2025-09-15T17:04:50Z,2025-09-16T19:09:09+00:00,2,26.07,False,19,7,5,70,3,0,3,CLOSED
+162974,Workaround for mtia double init issue in has_triton,srostrup,2025-09-15T17:02:46Z,2025-09-16T04:46:14+00:00,1,11.72,False,10,0,2,1251,8,0,8,CLOSED
+162972,compile_kernel enable pch,msaroufim,2025-09-15T16:39:55Z,2025-09-15T22:55:42+00:00,2,6.26,False,9,0,1,6212,7,1,8,CLOSED
+162969,replace more // with FloorDiv in inductor code,laithsakka,2025-09-15T16:09:41Z,2025-09-18T03:28:34+00:00,3,59.31,False,8,6,1,346,7,0,7,CLOSED
+162968,Add basic tests for torch.distributed.tensor._utils.compute_global_tensor_info,swolchok,2025-09-15T16:03:06Z,2025-09-23T14:56:35+00:00,1,190.89,False,54,1,1,254,6,0,6,CLOSED
+162965,[ROCm][benchmark] Add HF LLM benchmark expected accuracy,amdfaa,2025-09-15T15:20:57Z,2025-09-15T18:04:43+00:00,1,2.73,False,200,0,10,376,7,0,7,CLOSED
+162963,[BE] Slight improvements to documentation in python_dispatch,ezyang,2025-09-15T14:55:59Z,2025-09-21T01:45:49+00:00,2,130.83,False,15,7,3,275,12,0,12,CLOSED
+162961,[BE] Improve pytest summary display for OpInfo tests,ezyang,2025-09-15T14:40:27Z,2025-09-15T19:58:22+00:00,1,5.3,False,2,2,2,1247,3,0,3,CLOSED
+162960,[BE] Use init_device_mesh over DeviceMesh,ezyang,2025-09-15T13:46:16Z,2025-09-17T06:12:21+00:00,3,40.43,False,2,2,1,188,6,0,6,CLOSED
+162959,[export] handling NamedTuple inputs,Raman-RH,2025-09-15T13:32:32Z,2025-09-23T17:43:54+00:00,2,196.19,False,23,0,2,897,6,1,7,CLOSED
+162956,[ATen][CUDA] CUTLASS matmuls: add sm_103a flag ,Aidyn-A,2025-09-15T11:26:47Z,2025-09-16T10:30:00+00:00,3,23.05,False,8,2,1,291,6,0,6,CLOSED
+162951,[Intel GPU][pre_compile] Add XPU toolkit version and hardware info in compiled model check.,etaf,2025-09-15T08:52:17Z,2025-09-18T00:04:29+00:00,2,63.2,False,50,46,5,314,3,0,3,CLOSED
+162950,[CUDA] revert PR 130472,thenumberouscode,2025-09-15T08:51:00Z,2025-09-19T19:50:48+00:00,18,107.0,False,17,105,4,215,26,7,33,CLOSED
+162947,[xla hash update] update the pinned xla hash,pytorchupdatebot,2025-09-15T07:41:47Z,2025-09-15T11:42:04+00:00,1,4.0,False,1,1,1,77,3,0,3,CLOSED
+162946,Update slow tests,pytorchupdatebot,2025-09-15T07:40:59Z,2025-09-15T11:31:41+00:00,1,3.85,False,247,242,1,79,3,0,3,CLOSED
+162942,[torch][cuda][device_limits] Library for querying device hardware limits for flops and bandwidth,valentinandrei,2025-09-15T07:01:48Z,2025-09-23T04:48:23+00:00,9,189.78,False,163,2,4,1115,18,7,25,CLOSED
+162936,Add api info for torch._C._nn.pyi,orangeH25,2025-09-15T03:53:16Z,2025-09-24T04:56:00+00:00,2,217.05,False,41,0,1,94,9,0,9,CLOSED
+162935,[Release 2.9] Update torch-xpu-ops commit pin,CuiYifeng,2025-09-15T03:34:29Z,2025-09-17T00:19:31+00:00,2,44.75,True,1,1,1,229,2,0,2,MERGED
+162933,[Fix XPU CI][Inductor UT] Fix test cases broken by community.,etaf,2025-09-15T02:51:43Z,2025-09-17T05:35:10+00:00,2,50.72,False,17,7,4,215,9,0,9,CLOSED
+162932,"Skip empty tests, they don't make sense for numerics",ezyang,2025-09-15T02:13:12Z,2025-09-15T06:20:29+00:00,1,4.12,False,5,4,1,188,3,0,3,CLOSED
+162928,[vllm hash update] update the pinned vllm hash,pytorchupdatebot,2025-09-15T00:27:59Z,2025-09-16T04:25:06+00:00,1,27.95,False,1,1,1,78,6,0,6,CLOSED
+162927,Fix: ShapeEnv not propagated properly to inductor SizeVars,laithsakka,2025-09-14T23:44:57Z,2025-09-18T00:56:25+00:00,4,73.19,False,17,1,5,770,13,0,13,CLOSED
+162926,[MTIA] [PyTorch] [Export] Allow setting names for lifted constants before tracing.,patrick-toulme,2025-09-14T22:56:07Z,2025-09-18T22:11:10+00:00,12,95.25,False,471,38,3,1137,29,5,34,CLOSED
+162925,[BE] Use `fmt::format` to define Conv key,malfet,2025-09-14T21:41:17Z,2025-09-15T02:44:16+00:00,4,5.05,False,26,65,1,138,5,2,7,CLOSED
+162924,[6/n] Quantization with min & max bounds support - using fbgemm changes in ATen,sampathvic,2025-09-14T21:06:13Z,2025-09-25T02:52:08+00:00,1,245.77,False,223,40,4,629,20,0,20,CLOSED
+162921,[BE] Delete [Ventura|Sonoma]Ops header,malfet,2025-09-14T20:55:53Z,2025-09-15T02:44:15+00:00,2,5.81,False,2,296,18,199,2,0,2,CLOSED
+162920,[easy] Fix unsigned long issue in static cuda launcher,jamesjwu,2025-09-14T19:47:37Z,2025-09-15T15:00:36+00:00,2,19.22,False,1,1,1,189,3,0,3,CLOSED
+162916,[Triton] [Inductor] Add a Blackwell specific Template for persistent matmul,njriasan,2025-09-14T17:30:54Z,2025-09-15T23:23:07+00:00,1,29.87,False,348,1,6,883,4,0,4,CLOSED
+162914,Redirect all use of filesystem to c10/utils/FileSystem.h,ezyang,2025-09-14T15:51:49Z,2025-09-15T04:30:44+00:00,4,12.65,False,34,13,8,188,7,1,8,CLOSED
+162910,[MPS] enable empty like and unsqueeze for SparseMPS,Isalia20,2025-09-14T14:43:27Z,2025-09-14T17:47:09+00:00,2,3.06,False,5,5,2,95,4,0,4,CLOSED
+162896,QoL: add pip to requirements-build.txt,ezyang,2025-09-14T03:31:53Z,2025-09-14T17:08:07+00:00,1,13.6,False,1,0,1,185,4,0,4,CLOSED
+162895,[DTensor] Add _foreach_pow to sharding propagation list.,dcci,2025-09-14T03:28:07Z,2025-09-15T21:14:11+00:00,1,41.77,False,2,0,1,109,9,0,9,CLOSED
+162894,"typo corrected from A[:,0].sum() to A[0,:].sum()",RajeshvShiyal,2025-09-14T02:13:39Z,2025-09-14T14:42:22+00:00,1,12.48,False,1,1,1,57,4,0,4,CLOSED
+162893,[AOTInductor] Use CudaCachingAllocator for memory allocation,muchulee8,2025-09-14T01:21:58Z,2025-09-17T17:08:23+00:00,1,87.77,False,69,4,5,436,7,0,7,CLOSED
+162892,[audio hash update] update the pinned audio hash,pytorchupdatebot,2025-09-14T00:28:12Z,2025-09-14T04:27:40+00:00,1,3.99,False,1,1,1,79,3,0,3,CLOSED
+162891,[vllm hash update] update the pinned vllm hash,pytorchupdatebot,2025-09-14T00:27:51Z,2025-09-14T04:27:37+00:00,1,4.0,False,1,1,1,78,3,0,3,CLOSED
+162889,[functional] Avoid duplicate custom get_device call in constructor,anijain2305,2025-09-13T23:52:22Z,2025-09-16T05:00:22+00:00,2,53.13,False,1,1,1,178,5,0,5,CLOSED
+162888,[data foundation][vizard] Prevent checking the device type of numpy object in Tensorboard logger,clarkdykang,2025-09-13T21:49:04Z,2025-09-14T08:09:12+00:00,1,10.34,False,2,0,1,551,8,0,8,CLOSED
+162887,[BE] [Triton] [Inductor] Add an assert for store_output val_shape to use a tuple,njriasan,2025-09-13T21:14:21Z,2025-09-18T04:30:39+00:00,1,103.27,False,4,3,3,449,10,0,10,CLOSED
+162886,Simplify PrecompileContext to no longer be a CacheArtifactManager,jamesjwu,2025-09-13T20:45:00Z,2025-09-20T01:24:40+00:00,2,148.66,False,148,441,10,1341,9,1,10,CLOSED
+162885,[MPS] sparse mps any,Isalia20,2025-09-13T20:15:01Z,2025-09-14T18:57:56+00:00,2,22.72,False,1,2,2,78,8,0,8,CLOSED
+162877,[CI] Move libtorch-cpu-shared-with-deps-release-build to python 3.10,atalman,2025-09-13T13:13:31Z,2025-09-15T15:27:29+00:00,1,50.23,False,1,1,1,18,5,0,5,CLOSED
+162875,[NVRTC] Enable compiling templated kernels,gau-nernst,2025-09-13T06:50:59Z,2025-09-14T06:17:39+00:00,1,23.44,False,86,13,3,515,5,0,5,CLOSED
+162873,[Graph Partition] allow sharing default device context,BoyuanFeng,2025-09-13T06:28:24Z,2025-09-16T19:36:47+00:00,8,85.14,False,150,21,4,1024,14,1,15,CLOSED
+162869,Do not use // but use CleanDiv or FloorDiv instead,laithsakka,2025-09-13T02:42:30Z,2025-09-14T01:30:37+00:00,1,22.8,False,19,1,2,530,5,0,5,CLOSED
+162866,fix deterministic scatter_add path for multi-d tensors,ngimel,2025-09-13T01:18:28Z,2025-09-15T06:50:04+00:00,1,53.53,False,5,4,2,64,5,0,5,CLOSED
+162865,[ONNX] Fix rotary_embedding_23 implementation,justinchuby,2025-09-13T00:48:01Z,2025-09-16T03:30:08+00:00,9,74.7,False,119,19,2,2335,12,4,16,CLOSED
+162864,[audio hash update] update the pinned audio hash,pytorchupdatebot,2025-09-13T00:23:22Z,2025-09-13T04:17:23+00:00,1,3.9,False,1,1,1,79,3,0,3,CLOSED
+162863,[Inductor-FX] Support IndexPutFallback,blaine-rister,2025-09-12T23:38:35Z,2025-09-16T08:52:49+00:00,4,81.24,False,102,25,7,769,3,2,5,CLOSED
+162862,[CI] Move Windows build/tests to Python-3.10,malfet,2025-09-12T23:24:50Z,2025-09-19T22:51:41+00:00,2,167.45,False,32,11,8,1271,13,0,13,CLOSED
+162861,[FSDP][Replicate] tests replicate type casting behavior and edge cases in mixed precision,anshul-si,2025-09-12T22:38:38Z,2025-09-30T22:03:27+00:00,1,431.41,False,240,1,1,949,3,0,3,CLOSED
+162856,[ROCm] fix conv relu fusion,xinyazhang,2025-09-12T22:03:13Z,2025-09-15T22:49:36+00:00,1,72.77,False,80,188,2,131,4,0,4,CLOSED
+162855,[FSDP][Replicate] tests replicate core functionality with mixed precision,anshul-si,2025-09-12T22:02:31Z,2025-09-30T21:46:01+00:00,1,431.73,False,387,0,1,438,3,0,3,CLOSED
+162853,[FSDP][Replicate] tests replicate is composable with tp,anshul-si,2025-09-12T21:49:45Z,2025-09-30T21:29:57+00:00,1,431.67,False,105,0,1,365,3,0,3,CLOSED
+162851,[FSDP][Replicate] tests replicate with custom forward method,anshul-si,2025-09-12T21:44:21Z,2025-09-30T21:15:38+00:00,1,431.52,False,54,1,1,391,3,0,3,CLOSED
+162850,Clean up 'torch.onnx' entries from public API allowlist,justinchuby,2025-09-12T21:00:22Z,2025-09-15T16:14:45+00:00,1,67.24,False,0,51,1,104,3,0,3,CLOSED
+162849,"make fullgraph_capture work on mod, args, kwargs",avikchaudhuri,2025-09-12T20:53:30Z,2025-09-20T22:48:10+00:00,5,193.91,False,83,73,4,604,19,1,20,CLOSED
+162846,[MPS] Fix `[nan]median` output for empty tensors,malfet,2025-09-12T20:33:11Z,2025-09-12T22:26:33+00:00,1,1.89,False,4,0,2,141,3,0,3,CLOSED
+162844,[lint][CI] Don't checkout submodules for lintrunner-noclang,clee2000,2025-09-12T20:15:58Z,2025-09-15T19:53:05+00:00,1,71.62,False,1,1,1,20,7,0,7,CLOSED
+162842,Update placement utils and weights to handle meta device,georgiaphillips,2025-09-12T19:55:55Z,2025-09-17T08:12:37+00:00,3,108.28,False,378,12,5,2234,7,0,7,CLOSED
+162841,Add option to FakeProcessGroup to raise error if comms are invoked.,ezyang,2025-09-12T19:51:02Z,2025-10-01T17:48:23+00:00,1,453.96,False,79,1,3,543,9,0,9,CLOSED
+162839,[FSDP][Replicate] tests replicate gradient accumulation and 1f1b microbatching,anshul-si,2025-09-12T19:24:22Z,2025-09-30T21:00:19+00:00,3,433.6,False,236,0,1,782,3,1,4,CLOSED
+162836,[FSDP][Replicate] tests replicate parity for shared parameters,anshul-si,2025-09-12T19:07:00Z,2025-09-25T23:08:25+00:00,1,316.02,False,56,0,1,209,3,0,3,CLOSED
+162834,[BE] Add Documentation for Device APIs,jiannanWang,2025-09-12T18:47:27Z,2025-09-16T17:01:09+00:00,2,94.23,False,6,4,6,96,7,1,8,CLOSED
+162830,[FSDP][Replicate] tests replicate parity with activation checkpointing,anshul-si,2025-09-12T18:29:12Z,2025-09-25T22:57:02+00:00,1,316.46,False,134,0,1,611,3,0,3,CLOSED
+162828,[DCP] Add timeout for checkpoint background process join,kevinmtang,2025-09-12T17:57:15Z,2025-09-16T02:32:54+00:00,2,80.59,False,10,3,1,426,4,1,5,CLOSED
+162827,"[ROCm] enable aoti tests, forward fix 162353",jeffdaily,2025-09-12T17:51:16Z,2025-09-12T20:05:54+00:00,6,2.24,False,5,3,3,174,6,1,7,CLOSED
+162826,[OpenReg] Fix the docs of Accelerator Intergration,FFFrog,2025-09-12T17:41:38Z,2025-09-12T23:53:22+00:00,1,6.2,False,6,12,3,163,3,0,3,CLOSED
+162823,Fix pipeline parallelism not correctly initializing backwards stages when evaluating before training.,BlueCrescent,2025-09-12T17:04:17Z,2025-09-25T15:13:23+00:00,5,310.15,False,103,46,2,595,19,1,20,CLOSED
+162821,[triton] Update 3.5 pin to 5ae38bdb0dc066c5823e34dc9797afb9de42c866,davidberard98,2025-09-12T16:33:19Z,2025-09-12T18:34:25+00:00,1,2.02,False,2,4,2,310,3,0,3,CLOSED
+162814,[BE] [Inductor] Update NoValidChoicesError logic,njriasan,2025-09-12T15:05:48Z,2025-09-13T00:45:52+00:00,1,9.67,False,7,4,1,417,6,0,6,CLOSED
+162811,[ROCm][SymmMem] re-enable UTs,pragupta,2025-09-12T14:49:23Z,2025-09-16T15:35:49+00:00,1,96.77,False,123,38,3,1561,3,0,3,CLOSED
+162808,[BE] Preserve caller source location in the error message,albanD,2025-09-12T14:23:17Z,2025-09-15T13:29:47+00:00,1,71.11,False,5,5,2,1235,10,0,10,CLOSED
+162807,Expunge use of filesystem header from distributed,ezyang,2025-09-12T13:53:03Z,2025-09-14T15:51:58+00:00,4,49.98,False,99,18,7,568,8,3,11,CLOSED
+162806,"Claude loves making these files in top level, ignore them for sanity.",ezyang,2025-09-12T13:51:54Z,2025-09-13T04:59:03+00:00,1,15.12,False,2,0,1,94,3,0,3,CLOSED
+162804,Update torch-xpu-ops commit pin,CuiYifeng,2025-09-12T13:22:28Z,2025-09-16T06:30:52+00:00,1,89.14,False,1,1,1,359,10,0,10,CLOSED
+162799,[AOTI] raise PyTorchStreamWriter open failed error code on windows,xuhancn,2025-09-12T11:17:50Z,2025-09-13T01:41:18+00:00,4,14.39,False,30,12,1,836,6,1,7,CLOSED
+162796,[Easy][AMP] Refactor the AMP logic for getting dtype,FFFrog,2025-09-12T09:40:02Z,2025-09-21T06:32:38+00:00,1,212.88,False,2,5,1,121,3,0,3,CLOSED
+162794,[async_tp] Support mm+rs with scatter_dim matmul K by sharding B,IvanKobzarev,2025-09-12T07:52:32Z,2025-09-25T12:18:42+00:00,1,316.44,False,49,5,4,717,10,0,10,CLOSED
+162788,Fix rebind_unbacked in torch.fx.experimental.symbolic_shapes,ColsonZhang,2025-09-12T05:00:05Z,2025-09-14T17:07:18+00:00,1,60.12,False,1,1,1,818,4,0,4,CLOSED
+162787,[ROCm] Enable test_fixed_striding,jagadish-amd,2025-09-12T03:39:36Z,2025-09-15T20:23:47+00:00,5,88.74,False,6,8,1,387,5,1,6,CLOSED
+162785,[FSDP][Replicate] tests replicate synchronization after optimizer states,anshul-si,2025-09-12T01:46:52Z,2025-09-18T04:47:12+00:00,1,147.01,False,50,0,1,597,3,0,3,CLOSED
+162784,Port shared_ptr optimization in std::shared_ptr to intrusive_ptr,mcfi,2025-09-12T01:36:42Z,2025-09-13T21:01:04+00:00,11,43.41,False,48,16,1,241,20,1,21,CLOSED
+162781,[inductor][heuristics] add kernel template params,coconutruben,2025-09-12T00:36:19Z,2025-09-18T02:15:45+00:00,6,145.66,False,70,21,4,599,10,2,12,CLOSED
+162778,Fix the regression issue caused by non-arrch64 platforms not hitting the MKLDNN path.,pytorchbot,2025-09-12T00:25:22Z,2025-09-17T00:21:10+00:00,1,119.93,True,4,6,1,124,1,0,1,MERGED
+162777,[pcache] Cache and AsyncCache implementations,nmacchioni,2025-09-12T00:21:23Z,2025-09-16T04:07:16+00:00,51,99.76,False,627,0,2,2321,30,23,53,CLOSED
+162776,[MPS] Fix conv layout handling,malfet,2025-09-12T00:08:11Z,2025-09-25T23:41:37+00:00,3,335.56,False,112,133,7,2162,3,1,4,CLOSED
+162774,Fix cpp build,svekars,2025-09-11T23:58:33Z,2025-09-25T18:21:48+00:00,3,330.39,False,45,3,3,19,9,1,10,CLOSED
+162773,Add basic tests for torch.distributed.tensor._utils.compute_global_tensor_info,swolchok,2025-09-11T23:51:56Z,2025-09-15T19:45:30+00:00,1,91.89,False,55,1,1,254,3,0,3,CLOSED
+162772,Fix boxcox to return same result for same input in one batch,Yuhta,2025-09-11T23:43:22Z,2025-09-22T02:33:30+00:00,2,242.84,False,22,12,1,286,16,0,16,CLOSED
+162771,[ONNX] Support enable_gqa when dropout is non-zero,titaiwangms,2025-09-11T23:43:01Z,2025-09-12T04:01:00+00:00,1,4.3,False,94,0,2,50,3,0,3,CLOSED
+162767,[flatbuffer] Fix compile error due to discarded result,pulsejet,2025-09-11T23:22:52Z,2025-09-13T20:24:46+00:00,6,45.03,False,2,1,1,729,10,3,13,CLOSED
+162766,[ROCm][CI] unskip some test_memory_format tests,pragupta,2025-09-11T23:18:43Z,2025-09-12T15:02:45+00:00,1,15.73,False,8,29,2,204,5,0,5,CLOSED
+162765,[mxfp8 torch._scaled_grouped_mm] fix meta registration for 3d tensor,danielvegamyhre,2025-09-11T23:16:26Z,2025-09-12T03:51:54+00:00,1,4.59,False,5,5,1,302,4,0,4,CLOSED
+162764,fix cpp extension distributed warning spew,msaroufim,2025-09-11T23:08:52Z,2025-09-12T06:12:49+00:00,2,7.07,False,9,4,1,2678,4,0,4,CLOSED
+162763,fix high=0 bug in nll_loss test,haifeng-jin,2025-09-11T23:05:20Z,2025-09-12T21:48:20+00:00,2,22.72,False,2,1,1,594,3,1,4,CLOSED
+162761,Fix windows path escape characters,ghostspiders,2025-09-11T22:26:34Z,2025-09-17T23:39:43+00:00,5,145.22,False,4,3,2,269,9,0,9,CLOSED
+162760,[DCP] Decrease checkpoint background process Gloo pg init timeout,kevinmtang,2025-09-11T21:36:34Z,2025-10-03T18:56:28+00:00,1,525.33,False,4,1,1,443,16,0,16,CLOSED
+162759,[Inductor] Fix ComboKernels failing due to missing helper functions,karthickai,2025-09-11T21:21:26Z,2025-09-12T20:01:09+00:00,2,22.66,False,27,0,2,309,5,0,5,CLOSED
+162758,[ROCm] fix hardsigmoid op,dnikolaev-amd,2025-09-11T21:17:42Z,2025-09-12T15:07:17+00:00,2,17.83,False,2,7,2,263,5,0,5,CLOSED
+162754,[scan] create fw and bw graphs via partitioning,ydwu4,2025-09-11T21:02:22Z,2025-09-27T18:13:23+00:00,7,381.18,False,735,410,6,329,3,3,6,CLOSED
+162752,[audio hash update] update the pinned audio hash,pytorchupdatebot,2025-09-11T20:58:13Z,2025-09-12T04:18:57+00:00,1,7.35,False,1,1,1,79,6,0,6,CLOSED
+162751,[vllm hash update] update the pinned vllm hash,pytorchupdatebot,2025-09-11T20:57:59Z,2025-09-13T04:16:54+00:00,1,31.32,False,1,1,1,78,8,0,8,CLOSED
+162749,fix wait() missing in redistribute tensor,zpcore,2025-09-11T20:48:45Z,2025-09-17T16:24:31+00:00,3,139.6,False,4,4,2,549,9,0,9,CLOSED
+162747,bring back the old vllm's use_existing_torch.py,yangw-dev,2025-09-11T20:41:51Z,2025-09-12T03:41:42+00:00,1,7.0,False,41,2,4,153,3,0,3,CLOSED
+162744,Fix operator benchmark issue#162708,jainapurva,2025-09-11T20:00:07Z,2025-09-12T06:55:09+00:00,1,10.92,False,8,3,1,126,12,0,12,CLOSED
+162740,Refactor PrecompileContext to be considerably more debuggable,jamesjwu,2025-09-11T18:34:51Z,2025-09-19T01:14:31+00:00,1,174.66,False,322,152,4,1694,18,0,18,CLOSED
+162739,[inductor] fix expand_shape when copy_shape is not a string,isuruf,2025-09-11T18:26:27Z,2025-09-15T23:22:09+00:00,2,100.93,False,1,1,1,261,5,0,5,CLOSED
+162738,Support vmap + custom autograd function/improve DTensor constructor inefficiency,pytorchbot,2025-09-11T18:22:39Z,2025-09-17T00:22:16+00:00,1,125.99,True,212,43,5,1441,1,0,1,MERGED
+162733,[triton] Update 3.5 pin (AMD compilation fix + warp spec),davidberard98,2025-09-11T16:28:16Z,2025-09-11T18:19:19+00:00,1,1.85,False,1,1,1,107,3,0,3,CLOSED
+162732,[MTIA Runtime] Add foreach_div ops to native_functions.yaml,nakuliyer,2025-09-11T16:19:22Z,2025-09-17T17:44:06+00:00,1,145.41,False,4,0,1,412,33,0,33,CLOSED
+162726,[ONNX] Set fallback=False by default,justinchuby,2025-09-11T14:34:06Z,2025-09-11T18:10:02+00:00,2,3.6,False,2,2,2,1147,17,0,17,CLOSED
+162721,Remove tests-to-include from rocm-mi300 workflow,jithunnair-amd,2025-09-11T12:56:00Z,2025-09-11T14:36:11+00:00,1,1.67,False,0,1,1,172,6,0,6,CLOSED
+162718,Fix overflow in slow_conv3d when kernel size is too large.,mansiag05,2025-09-11T10:37:51Z,2025-09-26T13:39:32+00:00,7,363.03,False,72,0,2,589,6,3,9,CLOSED
+162717,fix: raise value error on init ParametrizationList if original.device != new.device,hanchchch,2025-09-11T10:18:53Z,2025-09-11T23:08:01+00:00,1,12.82,False,24,0,2,363,7,0,7,CLOSED
+162707,Add api info for torch._C._nn.pyi,orangeH25,2025-09-11T07:19:35Z,2025-09-21T06:17:17+00:00,1,238.96,False,56,0,1,117,7,0,7,CLOSED
+162705,Add a new API torch.xpu.can_device_access_peer for Intel GPU,guangyey,2025-09-11T06:52:40Z,2025-09-16T18:00:25+00:00,2,131.13,False,55,0,7,199,10,0,10,CLOSED
+162702,[dtensor] do not mutate specs when doing sharding prop,xmfan,2025-09-11T06:29:57Z,2025-09-17T09:32:42+00:00,7,147.05,False,19,10,2,979,5,2,7,CLOSED
+162701,Bump setuptools from 72.1.0 to 78.1.1 in /.github/requirements,dependabot,2025-09-11T06:00:29Z,2025-09-12T04:03:27+00:00,2,22.05,True,1,1,1,2804,1,0,1,MERGED
+162699,[Inductor][FP8] Add new scaled_mm and scaled_persistent_mm configs to Inductor FP8 Triton templates,jananisriram,2025-09-11T05:42:11Z,2025-09-11T21:21:08+00:00,1,15.65,False,8,0,1,1099,4,0,4,CLOSED
+162698,[ONNX] Set fallback=False by default,copilot-swe-agent,2025-09-11T05:34:32Z,2025-09-11T14:33:25+00:00,3,8.98,False,2,2,2,1611,4,2,6,CLOSED
+162696,[CUDAGraph][UX] warn many times for rerecording from dynamic shapes,BoyuanFeng,2025-09-11T05:30:43Z,2025-09-12T06:38:35+00:00,3,25.13,False,1,3,2,1085,3,1,4,CLOSED
+162695,[dynamo][guards] Fail on an unknown framelocals to dict conversion,anijain2305,2025-09-11T05:22:59Z,2025-09-29T05:04:36+00:00,1,431.69,False,1,3,1,238,6,0,6,CLOSED
+162694,[dynamo][guards] Do not consturct framelocals to dict on GlobalsGuardAccessor,anijain2305,2025-09-11T05:22:56Z,2025-09-11T15:01:03+00:00,1,9.64,False,5,0,1,238,2,0,2,CLOSED
+162693,update the baseline data for the operator benchmark,LifengWang,2025-09-11T05:03:58Z,2025-09-12T20:53:32+00:00,1,39.83,False,10,6,2,1214,11,0,11,CLOSED
+162690,"[CuTe] Change the logic of pycute manipulation ops like coalesce, complement from co-lex to lex",fduwjj,2025-09-11T04:35:02Z,2025-09-16T19:53:48+00:00,37,135.31,False,237,33,6,1170,4,18,22,CLOSED
+162688,[Triton] [Inductor] Restrict subprocess autotuning to just Triton,njriasan,2025-09-11T04:02:01Z,2025-09-24T01:03:44+00:00,3,309.03,False,12,7,1,552,23,0,23,CLOSED
+162686,[Inductor-FX] Support ScatterFallback,blaine-rister,2025-09-11T03:30:52Z,2025-09-12T08:41:53+00:00,1,29.18,False,116,27,6,1362,3,0,3,CLOSED
+162684,paths to exclude shape guards,avikchaudhuri,2025-09-11T03:26:50Z,2025-09-11T15:34:09+00:00,1,12.12,False,22,11,2,278,6,0,6,CLOSED
+162682,Make inline tests to use new exporter and fix some issues around it,tugsbayasgalan,2025-09-11T03:18:11Z,2025-09-17T20:09:31+00:00,1,160.86,False,93,19,2,558,9,0,9,CLOSED
+162680,[SymmMem] Fix memory allocation hold-up,kwen2501,2025-09-11T01:36:46Z,2025-09-19T20:19:50+00:00,8,210.72,False,18,13,2,505,10,2,12,CLOSED
+162678,[Inductor][FP8] Validate exhaustive autotuning for FP8 Inductor templates,jananisriram,2025-09-11T01:13:29Z,2025-09-12T02:12:37+00:00,1,24.99,False,13,10,1,1242,7,0,7,CLOSED
+162673,[Triton] [Inductor] Pruned failed compilations from Autotuning candidates,njriasan,2025-09-11T00:43:45Z,2025-09-11T21:22:38+00:00,4,20.65,False,20,2,2,974,6,1,7,CLOSED
+162672,[inductor][ez] add ChoiceCaller annotations,coconutruben,2025-09-11T00:29:27Z,2025-09-16T20:49:57+00:00,1,140.34,False,4,0,1,605,6,0,6,CLOSED
+162665,[DTensor] Introduce DebugMode,SherlockNoMad,2025-09-10T23:18:15Z,2025-09-16T07:30:09+00:00,26,128.2,False,424,3,5,3668,14,12,26,CLOSED
+162664,Build vLLM aarch64 nightly wheels,huydhn,2025-09-10T23:18:08Z,2025-09-13T03:43:59+00:00,1,52.43,False,44,30,4,83,9,0,9,CLOSED
+162663,[CUDAGraph][UX] error instead of warn for excessive re-record,BoyuanFeng,2025-09-10T23:17:59Z,2025-09-12T05:11:53+00:00,1,29.9,False,92,145,7,931,5,0,5,CLOSED
+162661,[RecordFunction] Add Scope for Record Function Fast,sraikund16,2025-09-10T23:05:34Z,2025-09-15T21:01:51+00:00,1,117.94,False,34,20,2,32,5,0,5,CLOSED
+162660,[opaque obj] Initial OpaqueObject,angelayi,2025-09-10T23:03:22Z,2025-09-22T18:30:31+00:00,7,283.45,False,156,0,5,2045,8,5,13,CLOSED
+162658,[FSDP][Replicate] tests replicate with prefetching,anshul-si,2025-09-10T23:01:00Z,2025-09-18T01:05:19+00:00,1,170.07,False,49,0,1,737,3,0,3,CLOSED
+162657,[ez][CI] Fix docs push in nightly workflow,clee2000,2025-09-10T22:59:29Z,2025-09-11T16:45:45+00:00,1,17.77,False,1,1,1,211,8,0,8,CLOSED
+162656,[FSDP][Replicate] tests replicate module functionality when used multiple times in a forward pass,anshul-si,2025-09-10T22:50:16Z,2025-09-18T01:02:11+00:00,1,170.2,False,51,0,1,474,3,0,3,CLOSED
+162655,[aoti] add config for libtorch free so,yushangdi,2025-09-10T22:42:53Z,2025-09-12T07:31:07+00:00,6,32.8,False,107,21,4,865,3,6,9,CLOSED
+162654,[FSDP][Replicate] tests replicate runs forward/backward for root and non-root module,anshul-si,2025-09-10T22:38:44Z,2025-09-18T00:47:23+00:00,1,170.14,False,46,0,1,525,3,0,3,CLOSED
+162652,add support for hint_override in mark_unbacked,bobrenjc93,2025-09-10T22:30:22Z,2025-09-17T22:29:56+00:00,6,167.99,False,92,12,4,343,10,3,13,CLOSED
+162651,[DTensor] Add guide for what to do about mixed torch.Tensor and DTensor operations,zou3519,2025-09-10T22:30:17Z,2025-09-18T06:41:06+00:00,4,176.18,False,72,0,2,223,6,3,9,CLOSED
+162650,[FSDP][Replicate] tests replicate parity for single and multigroup,anshul-si,2025-09-10T22:28:09Z,2025-09-18T00:38:53+00:00,1,170.18,False,230,4,1,899,3,0,3,CLOSED
+162649,[ROCm][CI] benchmark must patch fbgemm_gpu with tbb dep,jithunnair-amd,2025-09-10T22:22:49Z,2025-09-11T14:10:55+00:00,1,15.8,False,13,5,1,575,3,0,3,CLOSED
+162648,[ROCm] Build FBGEMM_GENAI for gfx942 only,jithunnair-amd,2025-09-10T22:20:56Z,2025-09-23T18:55:39+00:00,12,308.58,False,11,1,2,792,13,3,16,CLOSED
+162647,compile_kernel large shared memory fix,msaroufim,2025-09-10T22:16:05Z,2025-09-11T05:52:49+00:00,2,7.61,False,135,7,2,44,7,1,8,CLOSED
+162646,Smoke tests don't run nvshmem on Windows,atalman,2025-09-10T22:11:01Z,2025-09-11T16:09:25+00:00,6,17.97,False,5,3,1,321,4,2,6,CLOSED
+162644,Fix protobuf test comparison by parsing proto instead of raw strings,0xjeffro,2025-09-10T21:38:35Z,2025-09-12T16:26:58+00:00,4,42.81,False,6,5,1,487,5,1,6,CLOSED
+162643,-ldl for nativert tests,dolpm,2025-09-10T21:22:28Z,2025-09-11T00:36:00+00:00,2,3.23,False,1,0,1,13,4,0,4,CLOSED
+162637,[ONNX] Update export docstring & Set fallback=False by default,pytorchbot,2025-09-10T20:35:51Z,2025-09-17T00:23:47+00:00,1,147.8,True,62,90,2,76,1,0,1,MERGED
+162636,[FSDP][Replicate] tests replicate casting module after init,anshul-si,2025-09-10T20:30:58Z,2025-09-17T20:36:16+00:00,1,168.09,False,63,2,1,704,3,0,3,CLOSED
+162635,Don't include cuh header when USE_NVSHMEM is off,ezyang,2025-09-10T20:28:59Z,2025-09-11T00:24:53+00:00,1,3.93,False,3,0,1,192,3,0,3,CLOSED
+162634,Add cuda headers automatically for compile_kernel,msaroufim,2025-09-10T20:21:34Z,2025-09-11T00:20:36+00:00,1,3.98,False,40,0,2,216,6,0,6,CLOSED
+162633,fix var args for shape guards,avikchaudhuri,2025-09-10T20:17:46Z,2025-09-12T00:33:39+00:00,4,28.26,False,105,26,2,107,11,2,13,CLOSED
+162631,[FSDP][Replicate] tests replicate parameter registration,anshul-si,2025-09-10T20:12:45Z,2025-09-17T02:46:33+00:00,1,150.56,False,121,1,1,595,6,0,6,CLOSED
+162629,[FSDP][Replicate] tests replicate input device movements,anshul-si,2025-09-10T19:52:23Z,2025-09-16T17:35:30+00:00,1,141.72,False,53,0,1,502,3,0,3,CLOSED
+162628,Fix provenance tracking kernel name for fallback kernels,yushangdi,2025-09-10T19:49:34Z,2025-09-16T06:56:05+00:00,2,131.11,False,2,1,1,444,7,0,7,CLOSED
+162626,compile_kernel: Handle python floats as c double,msaroufim,2025-09-10T19:34:37Z,2025-09-11T06:03:29+00:00,1,10.48,False,42,8,2,96,17,0,17,CLOSED
+162625,[Inductor] Add force fallback config for repeat_interleave op to address cuda device asserts on certain block sizes,karthickai,2025-09-10T19:16:23Z,2025-09-11T21:52:36+00:00,1,26.6,False,39,0,3,302,5,0,5,CLOSED
+162622,[ONNX] Update export docstring,justinchuby,2025-09-10T18:32:15Z,2025-09-10T20:29:50+00:00,2,1.96,False,60,88,1,76,8,2,10,CLOSED
+162620,bf16 support for fused_moving_avg_obs_fake_quant() op,liangel-02,2025-09-10T18:22:22Z,2025-09-16T21:22:48+00:00,5,147.01,False,140,83,3,253,8,3,11,CLOSED
+162619,Placement: make is_shard/is_replicate/is_partial more straightforward,swolchok,2025-09-10T18:17:20Z,2025-09-15T22:54:09+00:00,3,124.61,False,17,9,1,386,5,0,5,CLOSED
+162618,Fix torch export with dict input nested in args,supercharleszhu,2025-09-10T18:03:34Z,2025-09-13T03:24:32+00:00,3,57.35,False,36,1,2,4247,3,1,4,CLOSED
+162617,[AOTI] Fix Windows fail to zip opened file.,xuhancn,2025-09-10T17:43:23Z,2025-09-11T06:22:24+00:00,1,12.65,False,14,4,2,729,10,0,10,CLOSED
+162616,[torch][c10d] propagate timeout to ProcessGroupGloo creation,suo,2025-09-10T17:38:34Z,2025-09-11T17:36:16+00:00,1,23.96,False,4,2,1,191,4,0,4,CLOSED
+162615,[standalone_compile] fix multiprocess compile,zou3519,2025-09-10T17:29:43Z,2025-09-10T20:42:16+00:00,1,3.21,False,10,5,2,1497,2,0,2,CLOSED
+162614,added example for torch.is_storage,rohit-kumar-manav,2025-09-10T17:27:46Z,2025-09-11T20:25:29+00:00,3,26.96,False,8,0,1,13,8,2,10,CLOSED
+162609,[ez] add docstring/typing for codegen_kernel_benchmark,ColinPeppler,2025-09-10T16:25:53Z,2025-09-10T20:49:42+00:00,1,4.4,False,21,1,2,307,6,0,6,CLOSED
+162608,Update SECURITY.md with reporting guidelines,malfet,2025-09-10T16:21:19Z,2025-09-11T16:30:32+00:00,2,24.15,False,2,0,1,69,3,0,3,CLOSED
+162600,[ROCm] rocblas Aten GEMM overload for FP32 output from FP16/BF16 inputs,jagadish-amd,2025-09-10T15:21:11Z,2025-09-11T03:34:11+00:00,2,12.22,False,10,8,2,199,7,0,7,CLOSED
+162597,fix typo: summit -> submit,pytorchbot,2025-09-10T14:50:13Z,2025-09-12T15:41:11+00:00,1,48.85,True,1,1,1,28,1,0,1,MERGED
+162596,[CD] Aarch64 Fix packaging ``libarm_compute.so`` and other libraries to the aarch64 CUDA wheels,pytorchbot,2025-09-10T14:43:16Z,2025-09-10T16:22:02+00:00,1,1.65,True,3,8,1,3469,1,0,1,MERGED
+162595,"Don't unconditionally import torch._dynamo, it's slow",ezyang,2025-09-10T14:35:31Z,2025-09-10T17:21:06+00:00,2,2.76,False,2,1,1,217,3,1,4,CLOSED
+162594,[RELAND] Always build USE_DISTRIBUTED (#160449) and Make distributed modules importable even when backend not built (#159889),ezyang,2025-09-10T14:10:48Z,2025-09-29T13:52:32+00:00,2,455.7,False,778,458,52,296,28,0,28,CLOSED
+162590,[ROCm] Bump FBGEMM commit to avoid CK errors,pragupta,2025-09-10T13:38:09Z,2025-09-22T16:01:18+00:00,1,290.39,False,1,1,1,164,22,0,22,CLOSED
+162587,fix typo: summit -> submit,crcrpar,2025-09-10T13:06:01Z,2025-09-10T14:43:58+00:00,1,1.63,False,1,1,1,28,6,0,6,CLOSED
+162581,[CI] Remove the unnecessary workflow related functorch,FFFrog,2025-09-10T11:28:47Z,2025-09-28T19:56:23+00:00,1,440.46,False,0,47,1,208,4,0,4,CLOSED
+162578,[BUG] Fix nonzero_static crash on CUDA when the input is a empty tensor,can-gaa-hou,2025-09-10T10:23:49Z,2025-09-15T05:44:19+00:00,1,115.34,False,20,0,2,53,10,0,10,CLOSED
+162577,[ROCm/Windows] Support load_inline on windows,jammm,2025-09-10T10:18:42Z,2025-09-12T08:10:10+00:00,4,45.86,False,15,7,1,456,12,1,13,CLOSED
+162573,use torch.accelerator and device_module instead of cuda to make DataParallel more device agnostic.,sunjiabin17,2025-09-10T08:45:01Z,2025-09-11T10:04:30+00:00,8,25.32,False,10,6,1,695,15,6,21,CLOSED
+162569,[FlexAttention][Easy] turn off TMA when cannot use it,BoyuanFeng,2025-09-10T04:27:14Z,2025-09-11T19:51:23+00:00,4,39.4,False,0,4,1,201,3,1,4,CLOSED
+162566,[CD] Aarch64 Fix packaging ``libarm_compute.so`` and other libraries to the aarch64 CUDA wheels,atalman,2025-09-10T04:11:46Z,2025-09-10T14:22:45+00:00,2,10.18,False,3,8,1,3469,7,0,7,CLOSED
+162560,[DTensor] add op support for aten.unbind.int,tianyu-l,2025-09-10T02:39:09Z,2025-09-11T00:58:25+00:00,4,22.32,False,111,37,3,660,4,1,5,CLOSED
+162559,Fix set_grad_enabled HOP in strict mode with new tracer,tugsbayasgalan,2025-09-10T02:32:09Z,2025-09-17T17:13:06+00:00,2,182.68,False,29,23,1,266,8,1,9,CLOSED
+162558,Fix inconsistent test and add new tracer as config,tugsbayasgalan,2025-09-10T02:32:03Z,2025-09-17T17:01:51+00:00,1,182.5,False,61,60,7,335,8,0,8,CLOSED
+162557,Don't skip register_dataclass unflatten in dynamo,tugsbayasgalan,2025-09-10T02:31:56Z,2025-09-17T16:53:05+00:00,7,182.35,False,37,8,2,239,8,3,11,CLOSED
+162556,Prefer_deferred_runtime_asserts should be propagated to new tracer,tugsbayasgalan,2025-09-10T02:31:48Z,2025-09-16T21:25:03+00:00,1,162.89,False,190,180,3,319,5,0,5,CLOSED
+162555,Skip test_ind_worker_queue on Windows and macOS (flaky),huydhn,2025-09-10T01:50:05Z,2025-09-10T07:05:17+00:00,3,5.25,False,5,0,1,271,5,1,6,CLOSED
+162552,[audio hash update] update the pinned audio hash,pytorchupdatebot,2025-09-10T00:24:32Z,2025-09-10T04:24:42+00:00,1,4.0,False,1,1,1,79,3,0,3,CLOSED
+162551,[vllm hash update] update the pinned vllm hash,pytorchupdatebot,2025-09-10T00:24:18Z,2025-09-11T04:56:07+00:00,1,28.53,False,1,1,1,78,9,0,9,CLOSED
+162550,[torchao][pt2e] Make prepare and convert faster by caching,navsud,2025-09-10T00:05:58Z,2025-09-11T07:59:25+00:00,1,31.89,False,2,0,1,401,6,0,6,CLOSED
+162546,xpu: test py_limited_api with SyclExtension,dvrogozh,2025-09-09T23:35:46Z,2025-09-12T21:57:04+00:00,10,70.36,False,59,13,5,317,3,4,7,CLOSED
+162544,Build fbgemm_gpu for TORCH_CUDA_ARCH_LIST=10.0 and CUDA 12.8 and 12.9,danielvegamyhre,2025-09-09T23:27:51Z,2025-09-10T22:59:43+00:00,4,23.53,False,11,3,2,803,4,2,6,CLOSED
+162543,Fix inconsistent clock types in `ProcessGroupNCCL::runHookLoop`,0xjeffro,2025-09-09T23:19:28Z,2025-09-12T16:50:46+00:00,5,65.52,False,5,5,2,4105,12,1,13,CLOSED
+162541,[CP][BE] Correct the names of some tests,fegin,2025-09-09T22:47:30Z,2025-09-19T00:38:07+00:00,4,217.84,False,8,8,1,278,3,0,3,CLOSED
+162540,[CP] Remove the need of recording cp_dim in the global var,fegin,2025-09-09T22:47:27Z,2025-09-18T23:40:51+00:00,3,216.89,False,3,21,2,259,3,0,3,CLOSED
+162539,[CP][BE] Remove _AttentionContextParallel,fegin,2025-09-09T22:47:23Z,2025-09-18T06:20:20+00:00,2,199.55,False,3,298,2,241,13,0,13,CLOSED
+162538,[nativert] AOTI delegate with flat inputs and outputs,yiming0416,2025-09-09T22:43:30Z,2025-09-10T11:35:49+00:00,1,12.87,False,55,4,2,232,7,0,7,CLOSED
+162537,[inductor] Add FLOAT_IS_NAN and COMPLEX_IS_NAN guards,isuruf,2025-09-09T22:31:19Z,2025-09-12T04:32:50+00:00,2,54.03,False,65,10,3,238,3,0,3,CLOSED
+162536,[Cutlass] Add exp and sigmoid activations,mlazos,2025-09-09T22:26:25Z,2025-09-10T21:44:30+00:00,3,23.3,False,6,2,2,261,3,0,3,CLOSED
+162535,[Cutlass] Add tanh activation and test case for activations,mlazos,2025-09-09T22:26:22Z,2025-09-10T21:44:29+00:00,2,23.3,False,28,2,2,261,2,0,2,CLOSED
+162534,[CuTe] Add type for CuTe layout via claude,fduwjj,2025-09-09T22:22:44Z,2025-09-12T04:59:23+00:00,33,54.61,False,178,107,4,421,5,24,29,CLOSED
+162533,[FlexAttn][Minor] Update FlexConfig doc,BoyuanFeng,2025-09-09T22:16:43Z,2025-09-10T02:03:50+00:00,1,3.79,False,2,1,1,201,3,0,3,CLOSED
+162532,forward fix shape guards handling for executorch,avikchaudhuri,2025-09-09T21:31:33Z,2025-09-11T15:40:58+00:00,1,42.16,False,17,2,3,5328,2,0,2,CLOSED
+162531,Update Nvidia driver to CUDA 13.0 compatible 580.82.07,atalman,2025-09-09T21:29:00Z,2025-09-17T14:10:50+00:00,2,184.7,False,2,5,2,855,14,0,14,CLOSED
+162530,Add operator benchmarking run to CI nightly,jainapurva,2025-09-09T21:27:09Z,2025-09-29T00:46:41+00:00,8,459.33,False,278,97,10,893,20,6,26,CLOSED
+162528,[dynamo] Add DUAL_LEVEL_MATCH C++ guard,isuruf,2025-09-09T21:08:21Z,2025-09-12T04:32:49+00:00,1,55.41,False,64,8,3,238,2,0,2,CLOSED
+162527,Allow aot_module_simplified to return a serializable output,jamesjwu,2025-09-09T20:18:16Z,2025-09-16T15:22:08+00:00,6,163.06,False,147,60,7,787,4,3,7,CLOSED
+162525,[dynamo][guards] Do not construct entire framelocals dict for LAMBDA_GUARD,anijain2305,2025-09-09T19:59:24Z,2025-09-29T05:04:51+00:00,3,465.09,False,128,19,7,230,7,1,8,CLOSED
+162520,[serialization] Add pte file to archive,lucylq,2025-09-09T19:00:22Z,2025-09-11T07:59:14+00:00,1,36.98,False,20,0,4,308,5,0,5,CLOSED
+162519,[dynamo][refactor] Move get_framelocals_idx to a helper,anijain2305,2025-09-09T18:59:20Z,2025-09-10T00:35:12+00:00,1,5.6,False,15,14,1,238,3,0,3,CLOSED
+162518,[CP] Fix the CP FlexAttention test,fegin,2025-09-09T18:48:06Z,2025-09-16T00:12:29+00:00,3,149.41,False,9,6,1,178,6,0,6,CLOSED
+162516,[BE] Fix `'_WIN32' is not defined` warning,malfet,2025-09-09T18:39:26Z,2025-09-10T04:21:42+00:00,1,9.7,False,1,1,1,139,4,0,4,CLOSED
+162515,[c10d][nvshmem] fix override function modifier,jushg,2025-09-09T18:35:25Z,2025-09-10T11:35:53+00:00,2,17.01,False,1,1,1,206,4,0,4,CLOSED
+162513,[inductor] Add shape to load_input in matmul templates,isuruf,2025-09-09T18:20:09Z,2025-09-11T01:51:18+00:00,1,31.52,False,31,17,3,269,6,0,6,CLOSED
+162510,[ROCm] Support torch.cuda._compile_kernel,jammm,2025-09-09T18:11:39Z,2025-09-12T00:19:52+00:00,18,54.14,False,102,29,2,238,33,9,42,CLOSED
+162509,[dynamo][guards] Prevent framelocals to dict conversion for not required LAMBDA_GUARD,anijain2305,2025-09-09T18:06:08Z,2025-09-10T18:52:18+00:00,4,24.77,False,135,9,3,293,5,1,6,CLOSED
+162508,Fully native DTensor.__new__,swolchok,2025-09-09T17:44:41Z,2025-09-21T18:36:08+00:00,5,288.86,False,129,103,4,285,4,3,7,CLOSED
+162506,[triton] enable int64 indexing in convolution and mm template,yuguo68,2025-09-09T17:16:04Z,2025-09-10T01:53:30+00:00,1,8.62,False,15,15,5,344,4,0,4,CLOSED
+162505,Make torch.cuda.rng_set_state() and torch.cuda.rng_get_state() work during stream capture.,galv,2025-09-09T17:07:58Z,2025-09-17T03:57:38+00:00,8,178.83,False,70,12,2,615,8,2,10,CLOSED
+162501,CUDA 13.0 Windows Nvidia Driver Update to 580.88,pytorchbot,2025-09-09T16:24:43Z,2025-09-09T18:27:57+00:00,1,2.05,True,5,5,1,26,1,0,1,MERGED
+162499,[nativert][triton] improve hardware registration,dolpm,2025-09-09T16:18:03Z,2025-09-10T04:53:00+00:00,1,12.58,False,142,88,8,74,14,0,14,CLOSED
+162495,[ONNX] Expose the testing module,justinchuby,2025-09-09T16:03:59Z,2025-09-10T01:40:27+00:00,3,9.61,False,18,0,3,249,9,1,10,CLOSED
+162494,fix Dtensor doc link,H-Huang,2025-09-09T15:59:49Z,2025-09-09T22:10:40+00:00,1,6.18,False,2,2,1,153,3,0,3,CLOSED
+162493,[Release 2.9] Release only changes,atalman,2025-09-09T15:58:35Z,2025-09-09T18:15:21+00:00,3,2.28,True,343,466,101,32,2,0,2,MERGED
+162487,Fix error message,tugsbayasgalan,2025-09-09T14:30:16Z,2025-09-16T19:06:34+00:00,2,172.6,False,63,9,3,615,7,1,8,CLOSED
+162479,[CPU][GEMM Template] Improve A16W8 performance,Xia-Weiwen,2025-09-09T10:04:05Z,2025-09-18T01:28:41+00:00,10,207.41,False,37,38,4,546,9,3,12,CLOSED
+162472,Fix flaky AOTFxirTestCase,huydhn,2025-09-09T08:16:20Z,2025-09-09T19:39:28+00:00,2,11.39,False,1,1,1,5654,4,0,4,CLOSED
+162460,[DTensor] fix copy_ strategy to support linearity,tianyu-l,2025-09-09T06:11:59Z,2025-09-10T00:47:16+00:00,3,18.59,False,17,20,3,541,4,1,5,CLOSED
+162459,[inductor] keep weakdep for mutation with different index,shunting314,2025-09-09T05:47:07Z,2025-09-19T23:33:41+00:00,1,257.78,False,21,0,2,566,6,0,6,CLOSED
+162455,[CD] CUDA 13 specific followup changes,tinglvv,2025-09-09T04:13:23Z,2025-09-11T00:03:51+00:00,3,43.84,False,95,95,6,235,11,1,12,CLOSED
+162450,[Inductor][UT] Fix flex attention related inductor cases,hoshibara,2025-09-09T02:45:13Z,2025-09-10T06:48:04+00:00,1,28.05,False,6,2,1,445,4,0,4,CLOSED
+162443,[Optimus] Add batch dropout pattern,mengluy0125,2025-09-09T00:38:01Z,2025-09-10T09:49:05+00:00,2,33.18,False,56,0,2,1031,6,0,6,CLOSED
+162442,[inductor] Enable combo kernels with unbacked inputs,ColinPeppler,2025-09-09T00:37:26Z,2025-09-10T20:49:41+00:00,4,44.2,False,99,12,5,2012,5,3,8,CLOSED
+162441,Use upper bound for persistent rblock,eellison,2025-09-09T00:32:12Z,2025-09-10T22:29:05+00:00,1,45.95,False,43,5,2,419,5,0,5,CLOSED
+162440,"Reland #161649, vectorize stored in cat for all dtypes",ngimel,2025-09-09T00:31:58Z,2025-09-18T13:50:47+00:00,4,229.31,False,148,11,2,9,5,2,7,CLOSED
+162439,DeviceMesh: support _rank for use with non-global PGs,d4l3k,2025-09-09T00:31:09Z,2025-09-10T01:19:33+00:00,4,24.81,False,12,3,2,443,12,2,14,CLOSED
+162438,[pre_compile] Add check for cuda and hardware version,yushangdi,2025-09-09T00:30:09Z,2025-09-12T01:42:10+00:00,5,73.2,False,155,15,5,435,5,3,8,CLOSED
+162437,[audio hash update] update the pinned audio hash,pytorchupdatebot,2025-09-09T00:26:02Z,2025-09-09T04:41:36+00:00,1,4.26,False,1,1,1,79,3,0,3,CLOSED
+162432,[standalone_compile] binary format write should be atomic,zou3519,2025-09-08T23:33:08Z,2025-09-09T18:43:15+00:00,1,19.17,False,4,2,1,317,5,0,5,CLOSED
+162428,Fix missing moves in initJITBindings,swolchok,2025-09-08T22:45:51Z,2025-09-09T08:47:36+00:00,1,10.03,False,3,1,1,126,8,0,8,CLOSED
+162426,[inductor] Add shape for store_output in matmul templates,isuruf,2025-09-08T22:13:20Z,2025-09-11T01:51:17+00:00,1,51.63,False,21,15,8,269,3,0,3,CLOSED
+162425,CUDA 13.0 Windows Nvidia Driver Update to 580.88,atalman,2025-09-08T22:06:38Z,2025-09-09T14:40:37+00:00,2,16.57,False,5,5,1,26,9,0,9,CLOSED
+162424,[torch][c10d] fix split_group in mixed backend case,suo,2025-09-08T22:02:37Z,2025-09-11T16:29:36+00:00,4,66.45,False,109,30,6,960,12,0,12,CLOSED
+162423,Update docs for quantile to be clearer for nearest,janeyx99,2025-09-08T21:47:25Z,2025-09-09T18:04:15+00:00,5,20.28,False,1,1,1,52,3,1,4,CLOSED
+162421,Add missing fstream include to fix std::ofstream compilation error,0xjeffro,2025-09-08T21:41:57Z,2025-09-09T05:14:35+00:00,1,7.54,False,1,0,1,1028,6,0,6,CLOSED
+162419,[ROCm] enable grouped gemm fallback,jagadish-amd,2025-09-08T21:31:37Z,2025-09-09T20:04:59+00:00,1,22.56,False,8,18,2,241,4,0,4,CLOSED
+162418,[precompile] Fix issues with guard serialization on distributed types.,zhxchen17,2025-09-08T21:19:19Z,2025-09-11T23:09:57+00:00,4,73.84,False,178,23,4,430,14,3,17,CLOSED
+162416,repro 161902,avikchaudhuri,2025-09-08T21:14:49Z,2025-09-11T16:35:27+00:00,1,67.34,False,32,10,2,283,11,0,11,CLOSED
+162414,[DeviceMesh] Make CuTe layout as mesh layout to be ready for using in DeviceMesh,fduwjj,2025-09-08T20:56:24Z,2025-09-15T17:04:45+00:00,13,164.14,False,71,0,1,573,19,5,24,CLOSED
+162413,[CuTe] Copy code from pycute for device mesh bookkeeping,fduwjj,2025-09-08T20:56:22Z,2025-09-12T04:28:06+00:00,9,79.53,False,1483,0,11,567,14,3,17,CLOSED
+162412,[CUDA-13] Implement workaround for cudaErrorNotSupported,malfet,2025-09-08T20:47:13Z,2025-09-09T04:12:14+00:00,3,7.42,False,12,0,1,21,4,1,5,CLOSED
+162407,[fx] fix qualified name for methods of torch.Tensor,isuruf,2025-09-08T19:14:37Z,2025-09-09T05:14:46+00:00,2,10.0,False,2,2,2,316,3,0,3,CLOSED
+162406,[inductor] Small refactor of CachingAutotuner,kundaMwiza,2025-09-08T18:48:11Z,2025-09-30T11:29:18+00:00,1,520.69,False,60,35,1,423,10,0,10,CLOSED
+162401,Add fp16-overflow regression test,malfet,2025-09-08T17:44:03Z,2025-09-08T20:33:26+00:00,2,2.82,False,5,0,1,237,3,0,3,CLOSED
+162400,Fix markdown link syntax in graph breaks index,williamwen42,2025-09-08T17:36:36Z,2025-09-12T19:29:52+00:00,1,97.89,False,1,1,1,0,3,0,3,CLOSED
+162396,Replace export_for_training with export,tugsbayasgalan,2025-09-08T17:04:38Z,2025-09-10T14:19:38+00:00,2,45.25,False,180,215,24,595,17,0,17,CLOSED
+162394,[SymmMem] Use global pe for put and get,kwen2501,2025-09-08T16:58:55Z,2025-09-09T03:58:51+00:00,4,11.0,False,80,30,2,363,3,1,4,CLOSED
+162389,[precompile] Fix inlined source tracking with generators.,zhxchen17,2025-09-08T15:47:47Z,2025-09-09T00:13:57+00:00,2,8.44,False,26,6,2,601,4,1,5,CLOSED
+162388,[associative_scan] partial gradient support,bohnstingl,2025-09-08T15:32:18Z,2025-09-09T23:52:32+00:00,1,32.34,False,140,21,2,112,4,0,4,CLOSED
+162387,[CUDA][float8][TF32] Disable tf32 for vs. emulated rowwise comparison,eqy,2025-09-08T15:22:29Z,2025-09-09T17:04:11+00:00,1,25.7,False,2,0,1,43,3,0,3,CLOSED
+162385,[ROCm][CI] update fbgemm nightly benchmark hash,jataylo,2025-09-08T14:42:06Z,2025-09-09T15:44:43+00:00,1,25.04,False,1,1,1,572,3,0,3,CLOSED
+162383,CD Windows CUDA 13.0 build - fix packaging of cuda dlls,atalman,2025-09-08T13:50:19Z,2025-09-08T17:57:27+00:00,3,4.12,False,15,12,1,165,3,1,4,CLOSED
+162372,[xla hash update] update the pinned xla hash,pytorchupdatebot,2025-09-08T07:41:55Z,2025-09-08T11:31:19+00:00,1,3.82,False,1,1,1,77,3,0,3,CLOSED
+162371,Repackage vLLM nightlies,huydhn,2025-09-08T07:29:50Z,2025-09-10T04:02:38+00:00,1,44.55,False,107,45,2,584,3,0,3,CLOSED
+162368,Improved error lr last epoch,krastogi-in,2025-09-08T06:38:07Z,2025-09-15T23:33:17+00:00,1,184.92,False,14,2,2,13,9,0,9,CLOSED
+162364,"[CD] [aarch64] Add CUDA 12.6 and 12.8 to build matrix, remove 12.9 build",tinglvv,2025-09-08T05:41:28Z,2025-09-08T20:00:27+00:00,1,14.32,False,653,9,4,159,4,0,4,CLOSED
+162361,Add api info for torch._C._nn.pyi,orangeH25,2025-09-08T02:45:30Z,2025-09-12T05:56:25+00:00,1,99.18,False,53,0,1,86,8,0,8,CLOSED
+162360,[optim] avoid aliasing lr and initial_lr in `SequentialLR.__init__`,filipviz,2025-09-08T02:22:41Z,2025-09-16T20:15:55+00:00,5,209.89,False,25,1,2,147,5,3,8,CLOSED
+162356,[vllm hash update] update the pinned vllm hash,pytorchupdatebot,2025-09-08T00:26:57Z,2025-09-09T04:40:28+00:00,1,28.23,False,1,1,1,78,6,0,6,CLOSED
+162355,[Inductor] do loop reordering in a separate final round,shunting314,2025-09-08T00:26:15Z,2025-09-19T20:21:38+00:00,3,283.92,False,55,11,2,3639,4,0,4,CLOSED
+162354,are_strides_like_channels_last_or_false,laithsakka,2025-09-07T23:09:40Z,2025-09-16T00:49:08+00:00,2,193.66,False,18,8,2,257,16,1,17,CLOSED
+162353,[nativert] aoti,dolpm,2025-09-07T22:26:48Z,2025-09-12T05:56:28+00:00,1,103.49,False,581,5,18,74,65,0,65,CLOSED
+162351,[BE]: Update NCCL to 2.28.3,Skylion007,2025-09-07T19:36:20Z,2025-09-28T01:39:01+00:00,3,486.04,False,48,48,6,251,13,0,13,CLOSED
+162349,[MPS] mps sparse mul op implementation,Isalia20,2025-09-07T19:27:30Z,2025-09-11T18:36:29+00:00,15,95.15,False,436,31,4,251,11,9,20,CLOSED
+162347,[BE]: Update cudnn frontend submodule to 1.14.1,Skylion007,2025-09-07T19:05:33Z,2025-09-08T20:03:26+00:00,2,24.96,False,3,3,2,297,6,0,6,CLOSED
+162341,[inductor] fix 3d tiled online softmax,shunting314,2025-09-06T23:08:58Z,2025-09-09T02:59:55+00:00,2,51.85,False,14,1,2,451,3,0,3,CLOSED
+162337,Remove __torch_dispatch__ check in THPVariable_make_dtensor,swolchok,2025-09-06T17:37:00Z,2025-09-11T06:58:40+00:00,1,109.36,False,6,2,1,312,3,0,3,CLOSED
+162336,Fix TODO in make_tensor_for_subclass_helper,swolchok,2025-09-06T17:36:56Z,2025-09-17T06:46:37+00:00,1,253.16,False,17,2,2,210,8,0,8,CLOSED
+162334,Add std::any_of to ConvParams struct,benjaminglass1,2025-09-06T16:12:42Z,2025-09-08T20:12:23+00:00,7,51.99,False,22,38,1,207,6,2,8,CLOSED
+162332,Improve typing of ONNX decorators with ParamSpec,Vinayak-Pawar,2025-09-06T10:32:50Z,2025-09-07T18:06:07+00:00,2,31.55,False,24,14,3,898,8,0,8,CLOSED
+162330,[ROCm/Windows] Support aotriton for scaled_dot_product_attention on Windows.,jammm,2025-09-06T09:34:11Z,2025-09-15T16:13:07+00:00,22,222.65,False,179,44,5,539,45,6,51,CLOSED
+162329,Eliminate setup.py install/develop in the codebose,XuehaiPan,2025-09-06T08:07:35Z,2025-09-29T03:54:31+00:00,1,547.78,False,2,3,2,90,4,0,4,CLOSED
+162328,`_compile_kernel()`: handle smem > 48kb,gau-nernst,2025-09-06T05:41:32Z,2025-09-11T00:09:18+00:00,2,114.46,False,65,0,2,711,9,0,9,CLOSED
+162324,[BE][Easy] update CUDA and ROCm sources in nightly tool,XuehaiPan,2025-09-06T03:54:12Z,2025-10-01T08:25:16+00:00,1,604.52,False,9,3,1,184,2,0,2,CLOSED
+162323,Move inductor jobs 3.9->3.10,atalman,2025-09-06T03:36:17Z,2025-09-12T03:43:09+00:00,3,144.11,False,40,46,20,190,15,1,16,CLOSED
+162322,[CUDA 13][cuDNN][Windows] Roll back cuDNN upgrade from 9.13 to 9.12 on Windows,eqy,2025-09-06T03:26:33Z,2025-09-06T13:32:10+00:00,2,10.09,False,1,1,1,153,3,0,3,CLOSED
+162320,[SymmMem] Add team pool to hold duplicated teams for the same rank group,kwen2501,2025-09-06T01:01:58Z,2025-09-09T03:58:50+00:00,16,74.95,False,175,33,2,491,5,7,12,CLOSED
+162318,[dynamo] fix resume_execution.py KeyError in Python 3.11+,williamwen42,2025-09-06T00:47:03Z,2025-09-08T20:26:28+00:00,3,67.66,False,37,6,2,277,9,0,9,CLOSED
+162317,[AOTI-FX] Support registering custom FX backends,blaine-rister,2025-09-06T00:42:55Z,2025-09-06T07:32:06+00:00,1,6.82,False,56,4,3,467,3,0,3,CLOSED
+162316,[inductor] bugfix: keep WeakDeps (WAR deps) during fusion,v0i0,2025-09-06T00:29:38Z,2025-09-21T13:08:14+00:00,10,372.64,False,40,12,2,975,13,1,14,CLOSED
+162315,[audio hash update] update the pinned audio hash,pytorchupdatebot,2025-09-06T00:24:32Z,2025-09-08T18:26:36+00:00,1,66.03,False,1,1,1,79,14,0,14,CLOSED
+162314,[vllm hash update] update the pinned vllm hash,pytorchupdatebot,2025-09-06T00:24:15Z,2025-09-07T04:29:25+00:00,1,28.09,False,1,1,1,78,6,0,6,CLOSED
+162311,[inductor] fuse for scalar shared data,shunting314,2025-09-05T23:31:53Z,2025-09-08T17:20:49+00:00,1,65.82,False,52,16,2,616,10,0,10,CLOSED
+162310,[BE] Update Python min version to 3.10,malfet,2025-09-05T22:56:37Z,2025-09-22T17:04:24+00:00,3,402.13,False,16,13,5,50,22,0,22,CLOSED
+162309,[inductor][triton] support static cuda launcher after triton # 7866,davidberard98,2025-09-05T22:49:02Z,2025-09-08T07:57:52+00:00,1,57.15,False,13,1,1,663,3,0,3,CLOSED
+162308,[export] Update PT2 archive docs,yiming0416,2025-09-05T22:40:25Z,2025-09-09T02:08:17+00:00,1,75.46,False,17,12,1,159,8,0,8,CLOSED

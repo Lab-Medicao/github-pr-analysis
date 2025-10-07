@@ -149,3 +149,842 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 3863,test(http): use constant instead of numeric literal,testwill,2024-03-04T02:38:30Z,2024-03-05T06:36:02+00:00,1,27.96,True,19,19,1,0,1,0,1,MERGED
 3859,chore(perf): Optimize the Copy method of the Context struct,1911860538,2024-02-29T03:31:41Z,2024-03-05T06:07:11+00:00,1,122.59,True,10,6,1,2741,3,0,3,MERGED
 3855,chore(refactor): modify interface check way,demoManito,2024-02-26T06:04:00Z,2024-03-06T14:27:21+00:00,1,224.39,True,16,16,1,58,3,0,3,MERGED
+3851,chore(header): Add support for RFC 9512: application/yaml,vincentbernat,2024-02-21T19:01:42Z,2024-03-05T13:54:35+00:00,1,306.88,True,12,8,6,274,2,0,2,MERGED
+3848,chore(deps): refactor CI and update dependencies,appleboy,2024-02-18T13:28:34Z,2024-02-19T02:34:48+00:00,1,13.1,True,27,24,3,490,1,0,1,MERGED
+3845,chore(deps): bump golangci/golangci-lint-action from 3.7.0 to 4.0.0,dependabot,2024-02-12T22:12:50Z,2024-02-19T02:34:49+00:00,1,148.37,False,1,1,1,7433,1,0,1,CLOSED
+3842,ci(testing): add go1.22 version,appleboy,2024-02-12T07:42:17Z,2024-02-18T09:32:06+00:00,1,145.83,True,7,8,2,166,4,0,4,MERGED
+3839,chore(IP): add TrustedPlatform constant for Fly.io.,ab,2024-02-07T02:09:26Z,2024-02-07T12:18:53+00:00,1,10.16,True,18,3,3,134,1,0,1,MERGED
+3838,chore(deps): bump codecov/codecov-action from 3 to 4,dependabot,2024-02-05T22:47:49Z,2024-02-06T02:39:25+00:00,1,3.86,True,1,1,1,8609,0,0,0,MERGED
+3835,chore(deps): update dependencies to latest versions,appleboy,2024-02-01T03:08:41Z,2024-02-01T04:17:37+00:00,1,1.15,True,48,45,3,427,2,0,2,MERGED
+3834,ci(lint): update tooling and workflows for consistency,appleboy,2024-02-01T01:05:42Z,2024-02-01T03:03:26+00:00,1,1.96,True,14,17,4,126,1,0,1,MERGED
+3832,fix(sec): upgrade golang.org/x/crypto to 0.17.0,chncaption,2024-01-31T04:44:49Z,2024-02-01T01:00:17+00:00,1,20.26,True,5,2,2,523,0,0,0,MERGED
+3820,fix(binding): binding error while not upload file (#3819),clearcodecn,2024-01-04T01:49:47Z,2024-02-05T02:46:36+00:00,1,768.95,True,5,0,2,400,5,0,5,MERGED
+3812,fix(router): catch-all conflicting wildcard,FirePing32,2023-12-22T16:54:41Z,2024-02-04T13:14:29+00:00,1,1052.33,True,80,73,8,120,16,0,16,MERGED
+3806,chore(deps): bump github/codeql-action from 2 to 3,dependabot,2023-12-18T22:58:12Z,2024-01-19T00:18:58+00:00,1,745.35,True,2,2,1,3946,0,0,0,MERGED
+3798,chore(deps): bump actions/setup-go from 4 to 5,dependabot,2023-12-11T22:58:52Z,2023-12-13T02:27:26+00:00,1,27.48,True,3,3,2,4390,0,0,0,MERGED
+3797,chore(deps): bump github.com/pelletier/go-toml/v2 from 2.0.8 to 2.1.1,dependabot,2023-12-11T22:10:08Z,2023-12-13T02:28:52+00:00,1,28.31,True,6,6,2,3352,0,0,0,MERGED
+3792,chore(ci): update GitHub Actions configuration (add go1.21),appleboy,2023-12-07T01:26:20Z,2024-01-18T16:35:08+00:00,1,1023.15,True,11,12,3,1294,3,0,3,MERGED
+3784,fix(route): Add fullPath in context copy,KarthikReddyPuli,2023-11-27T20:10:26Z,2024-03-06T08:46:54+00:00,1,2388.61,True,3,0,2,172,3,0,3,MERGED
+3774,chore(deps): bump golang.org/x/net from 0.14.0 to 0.18.0,dependabot,2023-11-13T22:53:54Z,2023-11-16T12:23:37+00:00,1,61.5,True,12,12,2,2169,0,0,0,MERGED
+3769,chore(deps): bump github.com/go-playground/validator/v10 from 10.15.1 to 10.16.0,dependabot,2023-11-06T22:40:07Z,2023-11-16T15:45:25+00:00,1,233.09,True,3,3,2,3350,1,0,1,MERGED
+3765,Remove redundant comments,WeiTheShinobi,2023-10-31T15:15:48Z,2023-11-16T15:46:12+00:00,1,384.51,True,0,1,1,108,0,0,0,MERGED
+3759,fix(header): Allow header according to RFC 7231 (HTTP 405),Crocmagnon,2023-10-17T14:02:56Z,2024-02-06T03:08:57+00:00,1,2677.1,True,23,3,2,215,1,0,1,MERGED
+3749,chore(deps): bump github.com/go-playground/validator/v10 from 10.15.1 to 10.15.5,dependabot,2023-10-02T22:07:03Z,2023-11-06T22:40:13+00:00,1,840.55,False,3,3,2,2585,2,0,2,CLOSED
+3741,Use white color for HTTP 1XX,viralparmarme,2023-09-26T13:01:45Z,2023-09-27T07:17:11+00:00,3,18.26,True,3,0,2,11,3,0,3,MERGED
+3721,chore(deps): bump goreleaser/goreleaser-action from 4 to 5,dependabot,2023-09-11T22:08:28Z,2023-12-13T02:27:58+00:00,1,2212.32,True,1,1,1,4232,1,0,1,MERGED
+3712,chore(deps): bump actions/checkout from 3 to 4,dependabot,2023-09-04T22:12:54Z,2023-09-08T14:18:00+00:00,1,88.08,True,4,4,3,4853,1,0,1,MERGED
+3703,chore(deps): bump golangci/golangci-lint-action from 3.4.0 to 3.7.0,dependabot,2023-08-21T22:36:11Z,2023-08-27T08:58:10+00:00,1,130.37,True,1,1,1,7420,1,0,1,MERGED
+3702,chore(deps): bump github.com/go-playground/validator/v10 from 10.14.0 to 10.15.1,dependabot,2023-08-21T22:09:40Z,2023-08-27T08:58:37+00:00,1,130.82,True,3,3,2,2789,1,0,1,MERGED
+3691,Increased unit tests coverage,leo-aa88,2023-08-08T05:23:49Z,2023-08-12T14:21:56+00:00,1,104.97,True,43,0,2,72,3,0,3,MERGED
+3688,chore(deps): bump golang.org/x/net from 0.13.0 to 0.14.0,dependabot,2023-08-07T22:50:15Z,2023-08-11T01:23:47+00:00,1,74.56,True,12,12,2,1699,1,0,1,MERGED
+3684,Upgrade golang.org/x/net -> v0.13.0,cpcf,2023-08-03T22:55:57Z,2023-08-04T02:58:47+00:00,1,4.05,True,1,1,1,75,0,0,0,MERGED
+3666,fix: Add pointer support for url query params (#3659),omkar-foss,2023-07-14T12:29:37Z,2023-11-16T15:46:43+00:00,2,3003.28,True,38,0,2,496,2,0,2,MERGED
+3641,fix re-enter middleware bug ,Robert-XIAO-777,2023-06-07T10:47:59Z,2025-03-20T15:37:36+00:00,3,15652.83,False,2,0,1,70,2,1,3,CLOSED
+3633,feat: gin.Context GetXxx added support for more go native types,CC11001100,2023-06-05T08:31:46Z,2024-09-15T00:59:00+00:00,6,11224.45,True,294,2,2,684,2,1,3,MERGED
+3622,chore(deps): bump github.com/mattn/go-isatty from 0.0.18 to 0.0.19,dependabot,2023-05-29T22:57:47Z,2023-05-31T09:46:50+00:00,1,34.82,False,3,3,2,1522,3,0,3,CLOSED
+3621,chore(deps): bump github.com/pelletier/go-toml/v2 from 2.0.7 to 2.0.8,dependabot,2023-05-29T22:57:38Z,2023-05-31T09:47:06+00:00,1,34.82,False,6,5,2,2698,3,0,3,CLOSED
+3620,ready release gin 1.9.1,thinkerou,2023-05-29T02:51:08Z,2023-06-01T02:27:14+00:00,13,71.6,False,44,15,4,42,11,2,13,CLOSED
+3616,Fix typos in ISSUE_TEMPLATE.md,hirokinakano,2023-05-25T11:54:08Z,2023-05-26T03:45:47+00:00,1,15.86,True,2,2,1,235,0,0,0,MERGED
+3610,chore(deps): bump github.com/go-playground/validator/v10 from 10.12.0 to 10.14.0,dependabot,2023-05-22T22:57:47Z,2023-05-26T03:48:00+00:00,1,76.84,True,9,6,2,2429,1,0,1,MERGED
+3599,chore(deps): bump golang.org/x/net from 0.9.0 to 0.10.0,dependabot,2023-05-08T22:57:30Z,2023-05-24T08:45:22+00:00,3,369.8,True,6,6,2,1817,1,0,1,MERGED
+3597,3577 sec fix,KDreynolds,2023-05-08T05:01:08Z,2024-03-04T19:15:35+00:00,2,7238.24,False,102,9,3,103,2,2,4,CLOSED
+3595,chore(CI): update release args,qloog,2023-05-06T11:04:56Z,2023-06-05T01:52:39+00:00,1,710.8,True,1,1,1,27,1,0,1,MERGED
+3593,feat(logger): ability to skip logs based on user-defined logic,palvaneh,2023-05-03T07:25:41Z,2024-02-02T01:52:26+00:00,1,6594.45,True,88,21,3,251,5,0,5,MERGED
+3585,chore: update dependencies for various packages and libraries,appleboy,2023-04-27T00:09:22Z,2023-04-27T02:16:59+00:00,1,2.13,True,48,51,2,571,1,0,1,MERGED
+3583,"chore: improve linting, testing, and GitHub Actions setup",appleboy,2023-04-26T03:37:53Z,2023-04-26T06:13:56+00:00,1,2.6,True,23,24,6,356,1,0,1,MERGED
+3575,docs: changed documentation link for trusted proxies,mozoarella,2023-04-21T15:56:57Z,2023-04-26T03:18:22+00:00,1,107.36,True,3,3,1,256,1,0,1,MERGED
+3572,feat(engine): Added `OptionFunc` and `With`,flc1125,2023-04-19T02:15:58Z,2024-03-11T14:35:30+00:00,3,7860.33,True,54,8,3,872,10,1,11,MERGED
+3556,fix lack of escaping of filename in Content-Disposition,motoyasu-saburi,2023-04-01T03:26:29Z,2023-05-29T01:57:53+00:00,10,1390.52,True,21,1,2,5,18,1,19,MERGED
+3544,chore(deps): bump github.com/goccy/go-json from 0.10.0 to 0.10.2,dependabot,2023-03-20T22:57:41Z,2023-05-26T07:56:08+00:00,1,1592.97,False,3,3,2,4303,1,0,1,CLOSED
+3543,chore(deps): bump actions/setup-go from 3 to 4,dependabot,2023-03-20T22:57:41Z,2023-05-26T03:50:32+00:00,1,1588.88,True,3,3,2,3435,0,0,0,MERGED
+3525,improve render code coverage,CCpro10,2023-03-05T03:20:25Z,2023-05-10T09:19:27+00:00,1,1589.98,True,46,0,1,0,1,0,1,MERGED
+3522,refactor(binding): use strings.Cut to replace strings.Index,lgbgbl,2023-03-04T13:20:57Z,2024-05-07T22:28:15+00:00,1,10329.12,True,2,5,1,0,1,0,1,MERGED
+3516,chore(deps): bump github.com/bytedance/sonic from 1.8.1 to 1.8.2,dependabot,2023-02-27T22:58:58Z,2023-03-01T02:05:28+00:00,1,27.11,True,3,3,2,1673,1,0,1,MERGED
+3515,chore(deps): bump github.com/stretchr/testify from 1.8.1 to 1.8.2,dependabot,2023-02-27T22:58:42Z,2023-03-01T02:04:56+00:00,1,27.1,True,3,2,2,1698,1,0,1,MERGED
+3514,feat(binding): support override default binding implement,ssfyn,2023-02-27T08:44:20Z,2024-03-23T00:50:25+00:00,1,9352.1,True,12,12,1,42,3,0,3,MERGED
+3511,chore: support min go version 1.18,thinkerou,2023-02-22T12:19:46Z,2023-03-01T02:03:48+00:00,4,157.73,True,72,179,30,15,6,2,8,MERGED
+3509,chore(deps): bump github.com/ugorji/go/codec from 1.2.9 to 1.2.10,dependabot,2023-02-20T22:57:58Z,2023-02-21T09:43:24+00:00,1,10.76,True,3,3,2,2179,1,0,1,MERGED
+3508,chore(deps): bump github.com/bytedance/sonic from 1.7.1 to 1.8.1,dependabot,2023-02-20T22:57:51Z,2023-02-21T09:42:49+00:00,1,10.75,True,3,3,2,2208,1,0,1,MERGED
+3505,fix(security): vulnerability GO-2023-1571,kevinmichaelchen,2023-02-17T20:49:50Z,2023-02-18T06:43:39+00:00,1,9.9,True,3,3,2,52,4,0,4,MERGED
+3503,Fix #3500 Add escape logic for header,t0rchwo0d,2023-02-17T03:55:20Z,2023-02-19T13:25:49+00:00,11,57.51,True,47,8,2,315,5,4,9,MERGED
+3502,fix(tree): correctly expand the capacity of params,georgijd-form3,2023-02-16T13:30:23Z,2023-12-07T00:38:55+00:00,1,7043.14,True,85,4,3,1455,7,0,7,MERGED
+3500,Add escape logic for header,t0rchwo0d,2023-02-14T17:52:37Z,2023-02-17T02:00:19+00:00,4,56.13,True,16,0,2,4102,7,1,8,MERGED
+3498,chore(deps): bump golang.org/x/net from 0.5.0 to 0.6.0,dependabot,2023-02-13T22:57:47Z,2023-02-14T02:59:37+00:00,1,4.03,True,9,9,2,1635,1,0,1,MERGED
+3492,update .gitignore,Holmes-pengge,2023-02-07T15:11:58Z,2023-02-12T22:56:57+00:00,1,127.75,False,2,0,1,386,1,0,1,CLOSED
+3491,chore(deps): bump github.com/ugorji/go/codec from 1.2.8 to 1.2.9,dependabot,2023-02-06T22:02:53Z,2023-02-07T08:37:36+00:00,1,10.58,True,3,3,2,2520,1,0,1,MERGED
+3489,chore(http): add support for go1.20 http.rwUnwrapper to gin.responseWriter,davidmdm,2023-02-04T19:02:21Z,2023-02-12T05:01:44+00:00,2,177.99,True,10,0,2,402,2,0,2,MERGED
+3484,chore(go): Add support go 1.20,mstmdev,2023-02-02T04:39:23Z,2023-02-12T05:01:05+00:00,4,240.36,True,4,4,3,0,4,1,5,MERGED
+3482,chore(deps): bump github.com/go-playground/validator/v10 from 10.11.1 to 10.11.2,dependabot,2023-01-30T22:03:39Z,2023-01-31T11:53:46+00:00,1,13.84,True,14,35,2,1903,1,0,1,MERGED
+3478,chore(deps): bump golangci/golangci-lint-action from 3.3.1 to 3.4.0,dependabot,2023-01-23T22:02:35Z,2023-01-31T11:53:11+00:00,1,181.84,True,1,1,1,7715,1,0,1,MERGED
+3474,docs(readme): release v1.9.0 version,thinkerou,2023-01-17T06:41:35Z,2023-02-21T09:20:33+00:00,1,842.65,True,73,24,4,53,4,0,4,MERGED
+3473,chore(deps): bump github.com/bytedance/sonic from 1.6.1 to 1.7.0,dependabot,2023-01-16T22:03:06Z,2023-01-17T01:58:29+00:00,1,3.92,True,3,3,2,2129,1,0,1,MERGED
+3467,chore(deps): bump github.com/bytedance/sonic from 1.6.0 to 1.6.1,dependabot,2023-01-09T22:07:51Z,2023-01-10T02:12:12+00:00,1,4.07,True,3,3,2,2108,0,0,0,MERGED
+3466,chore(deps): bump golang.org/x/net from 0.4.0 to 0.5.0,dependabot,2023-01-09T22:07:46Z,2023-01-10T02:11:46+00:00,1,4.07,True,9,9,2,1683,0,0,0,MERGED
+3464,chore(router): match method added to routergroup for multiple HTTP methods supporting,alirezaeftekhari,2023-01-08T06:15:52Z,2023-02-06T07:46:42+00:00,3,697.51,True,11,0,2,550,1,0,1,MERGED
+3460,fix(router): tree bug where loop index is not decremented.,kristiansvalland,2023-01-03T09:44:56Z,2023-01-07T00:57:54+00:00,6,87.22,True,28,9,2,42,1,3,4,MERGED
+3458,chore(deps): bump github.com/ugorji/go/codec from 1.2.7 to 1.2.8,dependabot,2023-01-02T22:02:27Z,2023-01-03T02:40:53+00:00,1,4.64,True,3,4,2,2640,1,0,1,MERGED
+3457,chore(deps): bump github.com/mattn/go-isatty from 0.0.16 to 0.0.17,dependabot,2023-01-02T22:02:24Z,2023-01-03T03:39:57+00:00,1,5.63,True,3,3,2,1495,1,0,1,MERGED
+3455,refactor: use bytes.ReplaceAll directly,lgbgbl,2022-12-31T10:25:16Z,2023-03-01T05:57:15+00:00,1,1435.53,True,1,1,1,119,2,0,2,MERGED
+3453,console logger HTTP status code bug fixed,alirezaeftekhari,2022-12-28T15:08:26Z,2023-01-02T03:38:53+00:00,2,108.51,True,19,0,2,845,3,0,3,MERGED
+3449,docs(readme): move more example to docs/doc.md,thinkerou,2022-12-25T04:05:12Z,2023-01-02T02:40:26+00:00,1,190.59,True,2321,2277,2,177,1,0,1,MERGED
+3446,docs: update markdown format,apriil15,2022-12-22T16:48:33Z,2023-01-05T02:15:29+00:00,1,321.45,True,73,76,1,46,3,0,3,MERGED
+3442,chore(deps): bump github.com/bytedance/sonic from 1.4.0 to 1.6.0,dependabot,2022-12-19T22:01:55Z,2022-12-21T06:43:42+00:00,1,32.7,True,7,16,2,3746,1,0,1,MERGED
+3441,chore(deps): bump goreleaser/goreleaser-action from 3 to 4,dependabot,2022-12-19T22:01:50Z,2022-12-21T06:43:06+00:00,1,32.69,True,1,1,1,2879,1,0,1,MERGED
+3433,refactor: avoid calling strings.ToLower twice,lgbgbl,2022-12-11T14:46:47Z,2022-12-22T15:17:20+00:00,2,264.51,True,3,1,1,0,1,0,1,MERGED
+3432,Fix the GO-2022-1144 vulnerability,mstmdev,2022-12-10T16:53:27Z,2022-12-21T06:44:36+00:00,1,253.85,True,9,7,2,853,3,0,3,MERGED
+3429,update context.go Get/Set method use defer,youngxhui,2022-12-08T12:01:41Z,2023-01-02T03:39:27+00:00,2,591.63,True,2,2,1,56,1,0,1,MERGED
+3424,chore(deps): bump github.com/goccy/go-json from 0.9.11 to 0.10.0,dependabot,2022-12-05T22:02:22Z,2022-12-25T05:49:44+00:00,1,463.79,True,3,3,2,2561,1,0,1,MERGED
+3420,docs(readme): release v1.8.2 version,appleboy,2022-12-01T05:08:06Z,2022-12-21T07:02:01+00:00,1,481.9,True,12,1,2,133,2,0,2,MERGED
+3419,chore(request): check reader if it's nil before reading,noahyao1024,2022-11-30T04:07:03Z,2024-03-11T14:44:28+00:00,2,11218.62,True,3,0,1,386,2,0,2,MERGED
+3414,docs(context): #3369 modify the annotation about Context.Param(),yuki-node,2022-11-24T05:14:56Z,2022-12-01T05:15:31+00:00,1,168.01,True,3,1,1,175,3,0,3,MERGED
+3413,fix(context): check handler is nil,hktalent,2022-11-23T12:22:53Z,2024-05-13T06:55:42+00:00,3,12882.55,True,8,3,2,9,3,2,5,MERGED
+3408,chore(deps): bump github.com/pelletier/go-toml/v2 from 2.0.2 to 2.0.6,dependabot,2022-11-21T22:13:21Z,2022-11-23T07:34:18+00:00,1,33.35,True,3,4,2,3842,1,0,1,MERGED
+3401,test(TOML): Add some tests for the TOML render,mstmdev,2022-11-15T07:53:43Z,2022-12-22T15:18:47+00:00,1,895.42,True,22,0,1,0,1,0,1,MERGED
+3400,docs(readme): Add the TOML rendering example,mstmdev,2022-11-15T07:52:37Z,2022-11-17T14:37:50+00:00,1,54.75,True,6,2,1,0,1,0,1,MERGED
+3399,chore(deps): bump golangci/golangci-lint-action from 3.3.0 to 3.3.1,dependabot,2022-11-14T22:02:25Z,2022-11-17T14:38:19+00:00,1,64.6,True,1,1,1,3561,0,0,0,MERGED
+3398,docs(README): delete TOC,apriil15,2022-11-14T17:43:24Z,2022-12-21T14:30:23+00:00,1,884.78,False,0,69,1,120,6,0,6,CLOSED
+3397,fix(context): panic on NegotiateFormat - index out of range,adrianiacobghiula,2022-11-14T14:03:33Z,2023-01-16T14:50:08+00:00,2,1512.78,True,9,1,2,386,1,0,1,MERGED
+3395,remove deprecated of package io/ioutil,0x2d3c,2022-11-13T02:31:08Z,2022-11-17T14:35:55+00:00,1,108.08,True,27,31,8,16,1,0,1,MERGED
+3394,docs(readme): Modify sample code bugs,go-bai,2022-11-12T09:47:23Z,2022-11-17T14:34:37+00:00,1,124.79,True,1,1,1,29,0,0,0,MERGED
+3391,feat: support custom json codec at runtime,timandy,2022-11-10T01:45:42Z,2025-06-16T15:16:36+00:00,18,22789.51,True,497,125,19,261,28,10,38,MERGED
+3390,Don't panic when failed to render or write JSON,git-hulk,2022-11-07T08:37:26Z,2023-01-17T06:22:26+00:00,2,1701.75,False,21,6,2,276,1,0,1,CLOSED
+3389,docs(comment): Modify comment syntax error,wanghaha-dev,2022-11-04T14:59:44Z,2022-11-06T09:05:11+00:00,1,42.09,True,4,4,2,27,0,0,0,MERGED
+3385,Adjust the position of some functions,Heliner,2022-11-01T14:31:04Z,2023-01-17T06:23:54+00:00,1,1839.88,True,8,8,1,602,0,0,0,MERGED
+3379,docs(readme): Using the embed package as a recommended example that build a single binary with templates,mstmdev,2022-10-28T16:27:54Z,2022-11-09T06:50:46+00:00,1,278.38,True,40,32,1,0,1,0,1,MERGED
+3378,"chore(docs): Remove the Brigade project, because the Gin is no longer used in the latest version",mstmdev,2022-10-28T16:25:32Z,2023-01-17T06:26:27+00:00,1,1934.02,True,0,1,1,48,1,0,1,MERGED
+3377,docs(readme): The krakend is rename to lura,mstmdev,2022-10-28T16:22:19Z,2022-11-06T09:09:25+00:00,1,208.78,True,1,1,1,0,1,0,1,MERGED
+3376,docs(readme): Update some go website links,mstmdev,2022-10-28T16:20:53Z,2022-11-06T09:10:33+00:00,2,208.83,True,4,4,1,0,1,0,1,MERGED
+3373,chore(deps): bump github.com/stretchr/testify from 1.8.0 to 1.8.1,dependabot,2022-10-24T22:09:16Z,2022-11-08T11:53:08+00:00,3,349.73,True,4,2,2,1483,1,0,1,MERGED
+3372,chore(deps): bump golangci/golangci-lint-action from 3.2.0 to 3.3.0,dependabot,2022-10-24T22:08:59Z,2022-11-08T11:53:34+00:00,1,349.74,True,1,1,1,2213,1,0,1,MERGED
+3371,fix: fix typo in comment,lgbgbl,2022-10-22T09:16:25Z,2022-11-08T11:54:48+00:00,1,410.64,True,1,1,1,20,0,0,0,MERGED
+3370,test(git): gitignore add develop tools,demoManito,2022-10-20T03:07:38Z,2024-03-08T07:56:00+00:00,1,12124.81,True,4,0,1,386,2,0,2,MERGED
+3361,chore(dep): Changes minimum support go version to go1.16,mstmdev,2022-10-12T11:28:50Z,2022-10-16T01:32:28+00:00,2,86.06,True,4,4,3,0,1,0,1,MERGED
+3347,Replace bytes.Buffer with strings.Builder where appropriate,hopehook,2022-10-03T05:49:17Z,2023-01-20T01:51:42+00:00,1,2612.04,True,20,21,4,63,2,0,2,MERGED
+3345,refactor(struct): Remove redundant type conversions,hopehook,2022-10-01T14:30:28Z,2022-10-16T01:49:24+00:00,1,347.32,True,7,11,3,386,0,0,0,MERGED
+3344,Convert strings and slices using the officially recommended way,hopehook,2022-10-01T13:46:58Z,2023-03-02T00:12:21+00:00,11,3634.42,True,26,1,3,176,6,4,10,MERGED
+3340,chore(deps): bump actions/setup-go from 2 to 3,dependabot,2022-09-26T22:08:27Z,2022-10-11T07:39:38+00:00,1,345.52,True,1,1,1,3952,1,0,1,MERGED
+3333,Fix the GO-2022-0969 and GO-2022-0288 vulnerabilities,mstmdev,2022-09-22T02:07:53Z,2022-10-12T06:18:13+00:00,1,484.17,True,4,3,3,11,5,0,5,MERGED
+3330,chore(deps): bump github.com/go-playground/validator/v10 from 10.10.0 to 10.11.1,dependabot,2022-09-19T22:09:30Z,2022-09-20T06:44:55+00:00,1,8.59,True,13,12,2,3362,1,0,1,MERGED
+3328,fix: test fmt.Println replace t.Error,demoManito,2022-09-18T16:38:05Z,2022-11-06T09:12:11+00:00,2,1168.57,True,13,13,1,386,3,0,3,MERGED
+3327,fix: modify interface check way,demoManito,2022-09-18T16:27:41Z,2022-10-19T16:49:19+00:00,1,744.36,True,6,6,6,535,3,0,3,MERGED
+3325,fix(typo): spelling `covert` -> `convert`,jbampton,2022-09-18T14:08:15Z,2022-10-16T01:41:14+00:00,1,659.55,True,1,1,1,0,1,0,1,MERGED
+3324,FIX TYPO: Gin by default useR -> ... useS,runebone,2022-09-17T10:36:09Z,2022-09-18T13:59:57+00:00,1,27.4,True,2,2,1,386,0,0,0,MERGED
+3316,chore(file): Creates a directory named path,mskKandula,2022-09-06T12:01:32Z,2022-10-16T01:45:09+00:00,1,949.73,True,5,0,1,159,0,0,0,MERGED
+3304,GitHub Workflows security hardening,sashashura,2022-08-31T05:03:54Z,2022-08-31T06:33:26+00:00,1,1.49,True,3,0,1,562,1,0,1,MERGED
+3302,Fix typos in RouterGroup method docs,autarch,2022-08-30T15:45:44Z,2022-08-31T06:34:34+00:00,1,14.81,True,7,7,1,94,0,0,0,MERGED
+3298,rename variable because collide with the imported package name,Kamandlou,2022-08-26T09:19:17Z,2022-09-01T02:21:28+00:00,1,137.04,True,8,3,2,0,1,0,1,MERGED
+3293,chore(deps): bump github.com/bytedance/sonic from 1.3.4 to 1.4.0,dependabot,2022-08-22T22:10:09Z,2022-09-01T02:02:40+00:00,1,219.88,True,3,3,2,3650,1,0,1,MERGED
+3292,chore(deps): bump github.com/goccy/go-json from 0.9.10 to 0.9.11,dependabot,2022-08-22T22:10:00Z,2022-09-01T02:01:58+00:00,1,219.87,True,3,3,2,2408,1,0,1,MERGED
+3281,chore(deps): bump github.com/mattn/go-isatty from 0.0.14 to 0.0.16,dependabot,2022-08-15T22:10:39Z,2022-08-16T23:14:59+00:00,1,25.07,True,6,6,2,1815,1,0,1,MERGED
+3278,chore: upgrade golangci-lint and fix golangci-lint error,thinkerou,2022-08-15T02:29:44Z,2022-08-15T13:38:21+00:00,1,11.14,True,74,60,12,1154,2,0,2,MERGED
+3277,Format with Go 1.19 formatter,Aoang,2022-08-15T02:23:34Z,2022-08-16T23:14:19+00:00,1,44.85,True,4,0,1,5,3,0,3,MERGED
+3273,chore(deps): bump github.com/bytedance/sonic from 1.3.2 to 1.3.4,dependabot,2022-08-08T22:16:05Z,2022-08-15T01:52:06+00:00,1,147.6,True,4,3,2,2580,1,0,1,MERGED
+3272,chore(go): Add support go 1.19,mstmdev,2022-08-07T18:46:34Z,2022-10-16T01:33:27+00:00,14,1662.78,True,49,1,3,0,10,2,12,MERGED
+3262,chore(deps): bump google.golang.org/protobuf from 1.28.0 to 1.28.1,dependabot,2022-08-01T22:17:10Z,2022-08-02T07:28:31+00:00,1,9.19,True,3,3,2,2259,1,0,1,MERGED
+3260,docs: update markdown format,appleboy,2022-07-31T02:54:22Z,2022-08-01T01:23:45+00:00,1,22.49,True,946,930,1,54,1,0,1,MERGED
+3254,'go get' is no longer supported outside a module.,orhan-cmd,2022-07-21T13:48:31Z,2023-04-26T05:25:37+00:00,1,6687.62,False,7,2,1,88,5,0,5,CLOSED
+3251,chore(deps): bump github.com/goccy/go-json from 0.9.8 to 0.9.10,dependabot,2022-07-18T22:25:50Z,2022-07-31T05:02:22+00:00,1,294.61,True,3,3,2,3009,1,0,1,MERGED
+3246,Fix query binding,illiafox,2022-07-15T08:30:31Z,2023-01-20T01:52:51+00:00,3,4529.37,False,30,3,2,80,1,3,4,CLOSED
+3245,Fixed syntax errors,Claude-Zq,2022-07-13T11:14:52Z,2022-07-15T11:03:42+00:00,1,47.81,False,4,4,3,386,0,1,1,CLOSED
+3243,Fix NegotiateFormat,eleven26,2022-07-12T13:02:19Z,2022-12-06T09:31:00+00:00,2,3524.48,False,11,1,2,189,2,0,2,CLOSED
+3236,fix(uri): query binding bug,illiafox,2022-07-10T12:13:01Z,2024-03-21T14:28:42+00:00,4,14882.26,True,25,2,2,80,2,1,3,MERGED
+3229,chore(deps): bump github.com/stretchr/testify from 1.7.5 to 1.8.0,dependabot,2022-07-04T22:20:36Z,2022-07-05T01:56:55+00:00,1,3.61,True,3,3,2,1665,1,0,1,MERGED
+3228,chore(deps): bump github.com/goccy/go-json from 0.9.7 to 0.9.8,dependabot,2022-07-04T22:20:30Z,2022-07-05T01:58:06+00:00,1,3.63,True,3,3,2,3037,1,0,1,MERGED
+3227,fix(route): redirectSlash bug,thinkerou,2022-07-03T13:01:59Z,2022-11-06T09:02:40+00:00,2,3020.01,True,28,1,2,74,10,0,10,MERGED
+3213,chore(deps): bump github.com/stretchr/testify from 1.7.4 to 1.7.5,dependabot,2022-06-27T22:14:10Z,2022-06-28T02:44:54+00:00,1,4.51,True,3,3,2,1678,1,0,1,MERGED
+3211,switch min version of go to 1.15,thinkerou,2022-06-26T13:03:15Z,2022-06-26T23:11:42+00:00,1,10.14,True,4,4,4,386,1,0,1,MERGED
+3210,feat(gin): support http3 using quic-go/quic-go,thinkerou,2022-06-26T12:45:47Z,2024-05-09T01:17:07+00:00,1,16380.52,True,119,35,6,91,16,0,16,MERGED
+3207,chore(deps): bump github.com/stretchr/testify from 1.7.2 to 1.7.4,dependabot,2022-06-20T22:22:20Z,2022-06-24T14:06:46+00:00,1,87.74,True,5,2,2,1807,1,0,1,MERGED
+3199,fix(binding): dereference pointer to struct when validating structs,echovl,2022-06-14T07:39:08Z,2024-02-07T11:44:11+00:00,1,14476.08,True,28,1,2,11,1,0,1,MERGED
+3198,chore(deps): bump github.com/pelletier/go-toml/v2 from 2.0.1 to 2.0.2,dependabot,2022-06-13T22:12:17Z,2022-06-14T02:08:56+00:00,1,3.94,True,3,4,2,2057,1,0,1,MERGED
+3184,feat: add sonic json support,Rainshaw,2022-06-09T10:28:19Z,2022-08-02T02:20:59+00:00,16,1287.88,True,67,4,7,48,11,4,15,MERGED
+3180,Doc fix: Small fix on Context's ClientIP() method.,jordan0day,2022-06-08T15:26:18Z,2022-06-09T02:08:49+00:00,1,10.71,True,1,1,1,88,0,0,0,MERGED
+3177,chore(deps): bump github.com/stretchr/testify from 1.7.1 to 1.7.2,dependabot,2022-06-06T22:09:55Z,2022-06-06T23:55:03+00:00,1,1.75,True,6,4,2,1670,1,0,1,MERGED
+3176,docs: release v1.8.1 version,appleboy,2022-06-06T10:48:06Z,2022-06-06T13:01:40+00:00,2,2.23,True,7,1,2,54,1,0,1,MERGED
+3172,feat(context): add ContextWithFallback feature flag (#3166),wei840222,2022-06-02T03:50:58Z,2022-06-06T10:43:53+00:00,1,102.88,True,110,16,3,31,9,0,9,MERGED
+3170,docs(changelog): add break changes section,appleboy,2022-06-01T11:52:41Z,2022-06-02T01:48:35+00:00,1,13.93,True,5,1,1,47,1,0,1,MERGED
+3163,chore(deps): bump goreleaser/goreleaser-action from 2 to 3,dependabot,2022-05-30T22:11:22Z,2022-05-30T23:25:47+00:00,1,1.24,True,1,1,1,4589,1,0,1,MERGED
+3160,add v1.8.0 changelog,thinkerou,2022-05-28T08:39:48Z,2022-05-30T07:16:10+00:00,1,46.61,True,436,230,5,54,1,0,1,MERGED
+3159,chore(CI/CD): add go version release flow,appleboy,2022-05-28T03:44:41Z,2022-05-28T07:23:00+00:00,1,3.64,True,92,1,3,54,1,0,1,MERGED
+3158,chore: update go.mod and remove space from copyright,thinkerou,2022-05-28T01:01:36Z,2022-05-28T02:42:28+00:00,1,1.68,True,129,126,78,0,4,0,4,MERGED
+3150,chore(deps): bump golangci/golangci-lint-action from 3.1.0 to 3.2.0,dependabot,2022-05-16T22:12:02Z,2022-05-18T14:27:28+00:00,1,40.26,True,1,1,1,6765,1,0,1,MERGED
+3145,feat: remove route in router,SaltySooda,2022-05-07T08:33:11Z,2025-05-27T06:15:09+00:00,4,26781.7,False,121,0,2,333,4,1,5,CLOSED
+3139,feat: automatically SetMode to TestMode when run go test.,micanzhang,2022-05-05T09:39:12Z,2022-05-14T01:11:35+00:00,2,207.54,True,14,1,2,20,4,0,4,MERGED
+3132,chore(deps): bump github/codeql-action from 1 to 2,dependabot,2022-04-25T22:12:43Z,2022-04-26T00:51:13+00:00,1,2.64,True,2,2,1,2757,1,0,1,MERGED
+3131,chore(deps): bump github.com/goccy/go-json from 0.9.6 to 0.9.7,dependabot,2022-04-25T22:12:30Z,2022-04-26T00:50:28+00:00,1,2.63,True,3,3,2,2818,1,0,1,MERGED
+3129,"fix: removed YODA conditions, removed blank identifier from `invalid_obj`",kbakdev,2022-04-22T20:41:55Z,2022-04-23T10:01:03+00:00,3,13.32,True,6,6,2,0,3,0,3,MERGED
+3123,Fix: missing `sameSite` when do context.reset(),ahuigo,2022-04-15T21:23:45Z,2022-04-17T04:41:59+00:00,3,31.3,True,1,0,1,2273,1,1,2,MERGED
+3118,chore(deps): bump actions/setup-go from 2 to 3,dependabot,2022-04-11T22:11:06Z,2022-04-17T06:15:54+00:00,1,128.08,True,2,2,1,3613,1,0,1,MERGED
+3117,chore(deps): bump codecov/codecov-action from 2 to 3,dependabot,2022-04-11T22:11:03Z,2022-04-17T06:16:17+00:00,1,128.09,True,1,1,1,6163,1,0,1,MERGED
+3108,docs: Update README.md,dijonkitchen,2022-04-02T04:48:30Z,2022-04-16T01:52:09+00:00,2,333.06,True,1,1,1,0,1,0,1,MERGED
+3105,chore(deps): bump github.com/goccy/go-json from 0.9.5 to 0.9.6,dependabot,2022-03-28T22:10:09Z,2022-03-29T06:03:30+00:00,1,7.89,True,3,3,2,2783,1,0,1,MERGED
+3104,chore(deps): bump google.golang.org/protobuf from 1.27.1 to 1.28.0,dependabot,2022-03-28T22:10:06Z,2022-03-29T04:02:20+00:00,1,5.87,True,3,3,2,3177,1,0,1,MERGED
+3100,Fix some tests,mstmdev,2022-03-24T08:47:16Z,2022-04-21T10:21:47+00:00,2,673.58,True,19,4,4,361,1,0,1,MERGED
+3094,chore(deps): bump github.com/stretchr/testify from 1.7.0 to 1.7.1,dependabot,2022-03-21T22:12:03Z,2022-03-29T06:03:54+00:00,1,175.86,True,3,2,2,2075,1,0,1,MERGED
+3093,chore(deps): bump actions/cache from 2 to 3,dependabot,2022-03-21T22:11:59Z,2022-03-25T00:44:38+00:00,1,74.54,True,1,1,1,3661,1,0,1,MERGED
+3092,chore(CI/CD): add go1.18 version,appleboy,2022-03-21T02:17:21Z,2022-03-21T09:38:12+00:00,1,7.35,True,18,5,3,28,3,0,3,MERGED
+3090,"Update some comments, add function name prefix to comment",mstmdev,2022-03-20T17:47:55Z,2022-03-23T13:35:10+00:00,1,67.79,True,25,24,3,0,1,0,1,MERGED
+3088,Annotation fix,icy4ever,2022-03-18T13:11:49Z,2022-03-20T13:26:12+00:00,1,48.24,True,1,1,1,386,1,0,1,MERGED
+3087,fix: test error,thinkerou,2022-03-18T02:04:30Z,2022-03-18T03:55:25+00:00,1,1.85,True,4,4,1,47,1,0,1,MERGED
+3086,fix: typo in README.md,a2tt,2022-03-17T16:27:55Z,2022-03-18T09:41:09+00:00,1,17.22,True,1,1,1,0,3,0,3,MERGED
+3083,Distinguish between group and nested group,chipmunktail,2022-03-16T15:06:16Z,2022-03-17T03:55:09+00:00,1,12.81,True,1,0,1,386,1,0,1,MERGED
+3081,[GIN-001] - Add TOML bining for gin,Valentine-Mario,2022-03-15T09:42:42Z,2022-05-28T00:34:43+00:00,12,1766.87,True,157,3,12,445,13,5,18,MERGED
+3076,doc: change the form name of upload example code,phith0n,2022-03-11T15:38:32Z,2022-03-15T03:24:18+00:00,1,83.76,True,2,2,1,917,1,0,1,MERGED
+3071,feat attachment filename support utf8,a-wing,2022-03-09T15:24:59Z,2022-03-17T03:56:17+00:00,1,180.52,True,35,2,4,473,1,0,1,MERGED
+3069,Bump github.com/goccy/go-json from 0.9.0 to 0.9.5,dependabot,2022-03-07T22:17:38Z,2022-03-12T12:42:58+00:00,1,110.42,True,3,3,2,3958,1,0,1,MERGED
+3068,Bump actions/checkout from 2 to 3,dependabot,2022-03-07T22:16:05Z,2022-03-16T15:19:06+00:00,1,209.05,True,3,3,2,3222,1,0,1,MERGED
+3067,add jsonpb Render,hongshengjie,2022-03-02T05:56:58Z,2022-06-10T13:59:20+00:00,2,2408.04,False,89,0,3,386,3,2,5,CLOSED
+3064,Bump github.com/ugorji/go/codec from 1.2.6 to 1.2.7,dependabot,2022-02-28T22:22:41Z,2022-03-20T13:31:43+00:00,1,471.15,True,5,5,2,2052,1,0,1,MERGED
+3063,Bump golangci/golangci-lint-action from 2 to 3.1.0,dependabot,2022-02-28T22:22:31Z,2022-03-19T13:19:58+00:00,1,446.96,True,1,1,1,4017,1,0,1,MERGED
+3056,Update routergroup.go,bestgopher,2022-02-13T14:48:08Z,2022-02-14T06:39:57+00:00,1,15.86,True,1,1,1,400,1,0,1,MERGED
+3050,feat: fix lint error,thinkerou,2022-02-05T13:40:26Z,2022-02-07T15:15:44+00:00,1,49.59,True,6,1,1,0,0,0,0,MERGED
+3049,feat(CodeQL): Discover vulnerabilities across a codebase with CodeQL,appleboy,2022-02-05T06:26:16Z,2022-02-05T12:57:13+00:00,1,6.52,True,49,2,2,45,0,0,0,MERGED
+3045,TextUnmarshaler support for binding,ssoroka,2022-02-01T18:41:55Z,2024-05-01T12:29:15+00:00,6,19673.79,False,198,0,4,361,20,3,23,CLOSED
+3044,fix typo,MichaelDeSteven,2022-01-30T08:47:57Z,2022-02-05T01:30:38+00:00,2,136.71,True,2,2,1,469,0,0,0,MERGED
+3041,remove panic in Render,Tevic,2022-01-26T05:09:17Z,2023-01-17T06:40:38+00:00,1,8545.52,False,13,19,4,501,2,0,2,CLOSED
+3037,ci: bump golangci-lint version,sashamelentyev,2022-01-25T16:19:54Z,2022-02-05T01:36:38+00:00,2,249.28,True,1,1,1,0,1,0,1,MERGED
+3034,Bump github.com/goccy/go-json from 0.9.0 to 0.9.4,dependabot,2022-01-24T22:10:43Z,2022-03-07T22:17:45+00:00,1,1008.12,False,3,3,2,3212,2,0,2,CLOSED
+3033,fix: default trusted proxies should add ipv6,LeeEirc,2022-01-21T17:17:05Z,2022-05-28T00:14:36+00:00,2,3030.96,True,1,1,1,0,1,0,1,MERGED
+3028,Remove incorrect comments about context.Bind() and improve docs,waynerv,2022-01-18T15:58:09Z,2022-01-20T14:33:36+00:00,1,46.59,True,5,7,1,309,0,0,0,MERGED
+3023,Fix typo,jarodsong6,2022-01-12T07:06:07Z,2022-01-12T14:12:33+00:00,2,7.11,True,1,1,1,8,0,0,0,MERGED
+3021,Bump github.com/goccy/go-json from 0.8.1 to 0.9.0,dependabot,2022-01-10T22:10:26Z,2022-01-11T00:15:13+00:00,1,2.08,True,3,3,2,2722,1,0,1,MERGED
+3013,Bump github.com/go-playground/validator/v10 from 10.9.0 to 10.10.0,dependabot,2022-01-03T22:14:06Z,2022-01-08T09:25:32+00:00,1,107.19,True,3,3,2,2208,1,0,1,MERGED
+3012,test(route): expose performRequest func,appleboy,2022-01-02T06:13:07Z,2022-01-02T11:07:45+00:00,1,4.91,True,115,120,9,223,1,0,1,MERGED
+3006,fix: typo,jincheng9,2021-12-28T14:55:35Z,2022-01-02T06:04:07+00:00,1,111.14,True,1,1,1,10,3,0,3,MERGED
+2998,docs: redirect to the correct line of code,jincheng9,2021-12-23T03:25:02Z,2021-12-26T00:02:01+00:00,2,68.62,True,1,1,1,10,3,0,3,MERGED
+2997,Update README.md,chipmunktail,2021-12-22T14:15:14Z,2021-12-22T23:51:12+00:00,1,9.6,True,2,2,1,386,1,0,1,MERGED
+2993,fix: typo,jincheng9,2021-12-20T05:35:20Z,2021-12-20T09:42:54+00:00,1,4.13,True,2,2,2,10,2,0,2,MERGED
+2990,test support go1.18,thinkerou,2021-12-19T00:59:54Z,2022-03-21T01:43:18+00:00,5,2208.72,True,214,174,47,78,3,3,6,MERGED
+2988,fix: description error,jincheng9,2021-12-16T08:59:15Z,2021-12-18T11:40:47+00:00,1,50.69,True,3,3,1,10,4,0,4,MERGED
+2986,fix: description error,jincheng9,2021-12-12T06:04:38Z,2021-12-15T15:27:23+00:00,1,81.38,True,7,2,3,10,3,0,3,MERGED
+2985,Update README.md,chipmunktail,2021-12-11T06:12:52Z,2021-12-11T08:24:11+00:00,1,2.19,True,1,1,1,386,0,0,0,MERGED
+2983,fix: wrong when wildcard follows named param,jincheng9,2021-12-09T03:12:07Z,2021-12-12T05:30:34+00:00,2,74.31,True,3,1,2,326,3,0,3,MERGED
+2981,Bump github.com/goccy/go-json from 0.7.10 to 0.8.1,dependabot,2021-12-06T22:11:44Z,2021-12-07T00:09:09+00:00,1,1.96,True,3,3,2,2655,1,0,1,MERGED
+2978,fix:param is empty string not response 404.,eshine996,2021-12-04T12:51:40Z,2022-04-08T09:14:12+00:00,1,2996.38,False,8,0,1,43,1,0,1,CLOSED
+2977,fix: typo,jincheng9,2021-12-04T12:45:54Z,2021-12-05T00:41:25+00:00,1,11.93,True,4,4,1,10,1,0,1,MERGED
+2973,fix: typo,jincheng9,2021-12-02T08:26:51Z,2021-12-02T10:00:24+00:00,1,1.56,True,7,7,3,10,1,0,1,MERGED
+2968,fix: description error,jincheng9,2021-11-29T06:06:49Z,2021-11-30T00:36:36+00:00,1,18.5,True,2,2,2,10,1,0,1,MERGED
+2967,TrustedProxies: Add default IPv6 support and refactor,Bisstocuz,2021-11-29T03:43:41Z,2021-12-03T06:49:16+00:00,4,99.09,True,64,49,3,618,3,2,5,MERGED
+2964,chore: support min version of go: 1.14,thinkerou,2021-11-28T01:35:59Z,2022-03-21T02:51:17+00:00,1,2713.26,True,5,5,4,0,2,0,2,MERGED
+2958,fix: typo,jincheng9,2021-11-25T08:45:14Z,2021-11-25T10:12:09+00:00,1,1.45,True,1,1,1,12,2,0,2,MERGED
+2954,FIX hash link typo at README.md,minarc,2021-11-22T16:22:30Z,2021-11-28T01:24:15+00:00,1,129.03,True,1,1,1,50,1,0,1,MERGED
+2952,chore(docs): Bump to v1.7.7,Bisstocuz,2021-11-22T06:44:54Z,2021-11-24T13:52:52+00:00,1,55.13,True,33,1,3,261,8,0,8,MERGED
+2934,prettify error message for catch-all conflict with existing path segment,SericaLaw,2021-11-12T08:10:58Z,2021-11-28T01:26:18+00:00,6,377.26,True,6,1,1,657,3,1,4,MERGED
+2933,Fix grammar,zero11-0203,2021-11-10T04:41:29Z,2021-11-11T00:07:55+00:00,1,19.44,True,6,6,1,0,0,0,0,MERGED
+2926,Fix typo,chutommy,2021-10-30T20:49:25Z,2021-10-31T01:23:08+00:00,1,4.56,True,1,1,1,0,1,0,1,MERGED
+2924,fix tsr with mixed static and wildcard paths,ibraheemdev,2021-10-29T02:28:54Z,2021-11-01T00:21:37+00:00,3,69.88,True,49,26,2,14,8,0,8,MERGED
+2923,Update version.go,AydenHex,2021-10-28T09:07:52Z,2021-11-01T00:33:38+00:00,1,87.43,True,1,1,1,456,1,0,1,MERGED
+2913,README.md: fix a typo,kulong0105,2021-10-22T08:54:17Z,2021-10-22T13:26:15+00:00,2,4.53,True,1,1,1,10,1,0,1,MERGED
+2906,Provide custom options of TrustedPlatform for another CDN services,Bisstocuz,2021-10-19T14:24:31Z,2021-10-24T00:34:03+00:00,3,106.16,True,49,12,4,148,2,0,2,MERGED
+2905,Bump github.com/goccy/go-json from 0.7.9 to 0.7.10,dependabot,2021-10-18T22:09:58Z,2021-10-18T23:55:14+00:00,1,1.75,True,3,3,2,1904,1,0,1,MERGED
+2897,Update the code logic for latestNode in tree.go,zhuxi0511,2021-10-09T16:56:47Z,2021-10-23T03:58:58+00:00,2,323.04,True,120,52,5,1943,12,0,12,MERGED
+2891,Bump github.com/goccy/go-json from 0.7.8 to 0.7.9,dependabot,2021-10-04T22:07:47Z,2021-10-06T01:38:42+00:00,1,27.52,True,3,3,2,2051,1,0,1,MERGED
+2887,Tidy: Complete TrustedProxies feature,Bisstocuz,2021-09-29T15:15:58Z,2021-10-06T01:37:25+00:00,3,154.36,True,80,72,6,523,7,0,7,MERGED
+2886,setted typo fix,axiaoxin,2021-09-29T09:12:40Z,2021-09-30T02:04:28+00:00,2,16.86,True,18,18,3,56,1,0,1,MERGED
+2883,Fix grammatical and spelling errors in context.go,joeADSP,2021-09-28T13:08:39Z,2021-09-28T23:35:07+00:00,1,10.44,True,2,2,1,0,0,0,0,MERGED
+2882,Add gosec,sashamelentyev,2021-09-26T10:40:10Z,2021-09-28T03:37:32+00:00,2,40.96,True,33,29,1,31,2,0,2,MERGED
+2880,Correcting grammatical errors in README file,aravinth2094,2021-09-25T08:56:53Z,2021-09-28T00:57:36+00:00,1,64.01,True,1,1,1,0,1,0,1,MERGED
+2872,turn on HandleMethodNotAllowed when using NoMethod #2871,togettoyou,2021-09-17T02:32:47Z,2021-09-28T01:45:51+00:00,1,263.22,True,2,1,1,0,1,0,1,MERGED
+2870,golangci(lint) : more linters,mmorel-35,2021-09-16T21:29:45Z,2021-09-21T07:22:22+00:00,1,105.88,True,24,8,7,0,1,0,1,MERGED
+2865,Bump github.com/json-iterator/go from 1.1.11 to 1.1.12,dependabot,2021-09-13T22:09:28Z,2021-09-21T07:23:31+00:00,1,177.23,True,5,5,2,1587,1,0,1,MERGED
+2861,fixed SetOutput() panics on go 1.17,cookieY,2021-09-07T06:34:43Z,2021-09-08T03:30:56+00:00,2,20.94,True,4,4,2,53,2,0,2,MERGED
+2858,bump golangci-lint version,sashamelentyev,2021-09-06T17:57:54Z,2021-09-06T22:43:42+00:00,1,4.76,True,1,1,1,0,1,0,1,MERGED
+2857,feat(router): add literal colon support (#1432),wssccc,2021-09-06T08:49:37Z,2024-06-01T05:44:57+00:00,10,23972.92,True,83,1,4,69,13,5,18,MERGED
+2856,Fix go1.17 test error,thinkerou,2021-09-05T11:31:05Z,2021-09-06T00:10:06+00:00,1,12.65,True,64,13,3,40,1,0,1,MERGED
+2852,Add go-clean-template,sashamelentyev,2021-09-02T10:26:11Z,2021-09-06T15:24:07+00:00,1,100.97,False,1,0,1,0,2,0,2,CLOSED
+2851,fix: check obj type in protobufBinding,Tevic,2021-08-31T13:05:47Z,2021-09-07T02:10:32+00:00,4,157.08,True,13,1,2,455,2,1,3,MERGED
+2849,Bump github.com/goccy/go-json from 0.7.6 to 0.7.7,dependabot,2021-08-30T22:10:16Z,2021-08-31T01:58:54+00:00,1,3.81,True,3,3,2,2146,1,0,1,MERGED
+2848,gin.Context.SetParam shortcut for e2e tests,filikos,2021-08-30T16:21:31Z,2021-09-07T02:08:46+00:00,5,177.79,True,20,0,2,285,2,1,3,MERGED
+2847,fix the misplacement of adding slashes,citizen233,2021-08-29T13:13:08Z,2021-10-26T10:15:29+00:00,5,1389.04,True,17,1,2,13,10,2,12,MERGED
+2844,ClientIP: check every proxy for trustiness,agmt,2021-08-24T11:39:08Z,2021-10-09T00:38:51+00:00,8,1093.0,True,21,20,2,416,9,3,12,MERGED
+2839,bump golangci-lint,sashamelentyev,2021-08-21T12:11:25Z,2021-08-21T13:45:30+00:00,1,1.57,True,1,1,1,72,2,0,2,MERGED
+2838,Delete deadcode exclude rules,sashamelentyev,2021-08-21T11:46:07Z,2021-08-21T13:46:52+00:00,1,2.01,True,0,3,1,55,2,0,2,MERGED
+2837,Add short func with named return,sashamelentyev,2021-08-21T09:58:27Z,2021-08-22T01:29:51+00:00,2,15.52,True,24,28,1,30,2,0,2,MERGED
+2834,Delete unused arg,sashamelentyev,2021-08-20T14:01:45Z,2021-08-21T06:59:17+00:00,1,16.96,True,2,2,1,30,2,0,2,MERGED
+2832,Quick Fix c.ClientIP() Parse Error for TrustedProxies feature & NoMethod annotation,Bisstocuz,2021-08-19T18:00:19Z,2021-09-29T11:26:02+00:00,18,977.43,True,6,2,2,519,10,3,13,MERGED
+2830,Delete unused static const,sashamelentyev,2021-08-19T10:59:44Z,2021-08-20T00:38:24+00:00,1,13.64,True,1,2,1,30,3,0,3,MERGED
+2828,chore: Add go1.17 for testing,appleboy,2021-08-18T12:22:47Z,2021-09-06T00:21:03+00:00,1,443.97,True,1,1,1,54,2,0,2,MERGED
+2827,chore(ci): update dependencies,mmorel-35,2021-08-16T11:53:38Z,2021-08-19T07:46:32+00:00,11,67.88,True,411,143,18,101,9,6,15,MERGED
+2825,feat(context): return GIN Context from Value method,ifaisalalam,2021-08-14T18:27:43Z,2022-04-23T10:02:54+00:00,6,6039.59,True,7,0,2,12,3,1,4,MERGED
+2823,Add setting base path functionality,springrain,2021-08-14T11:43:10Z,2023-05-17T02:30:26+00:00,2,15374.79,False,8,0,1,76,6,0,6,CLOSED
+2820,Fix the path params slice out of range with the wrong latest node,git-hulk,2021-08-13T05:21:53Z,2021-10-23T04:00:50+00:00,1,1702.65,False,10,3,3,354,21,0,21,CLOSED
+2804,catch error from examples,goqihoo,2021-08-03T13:05:50Z,2021-08-11T01:42:25+00:00,2,180.61,True,3,2,1,571,0,0,0,MERGED
+2803,fix(engine): missing route params for CreateTestContext (#2778),RoCry,2021-08-03T09:16:02Z,2022-11-06T09:08:12+00:00,3,11039.87,True,27,5,3,127,6,0,6,MERGED
+2798,use StringToBytes func,lancoLiu,2021-07-30T01:39:39Z,2022-04-23T10:01:41+00:00,3,6416.37,True,1,1,1,386,4,0,4,MERGED
+2797,fix readability in recovery test,xerenahmed,2021-07-26T21:27:06Z,2021-07-26T23:59:54+00:00,1,2.55,True,3,3,1,0,1,0,1,MERGED
+2796,fix #2786,qm012,2021-07-23T14:35:15Z,2021-07-26T02:07:54+00:00,2,59.54,True,197,43,3,300,4,0,4,MERGED
+2788,"minor tweaks,optimize code",lancoLiu,2021-07-13T05:19:48Z,2021-08-22T17:32:41+00:00,5,972.21,True,8,10,1,0,1,1,2,MERGED
+2787,Improve router group tests,zihengCat,2021-07-12T04:43:25Z,2021-07-13T01:44:20+00:00,2,21.02,True,8,4,1,118,2,0,2,MERGED
+2783,use assert1 func,lancoLiu,2021-07-10T12:07:44Z,2021-07-11T06:38:45+00:00,2,18.52,True,1,3,1,0,2,0,2,MERGED
+2782,Use std http method constant instead of raw string,zihengCat,2021-07-08T15:37:58Z,2021-07-09T02:30:44+00:00,1,10.88,True,1,1,1,70,1,0,1,MERGED
+2780,update the version of validator in the comment,helios741,2021-07-06T04:55:43Z,2021-07-06T08:36:32+00:00,1,3.68,True,4,4,2,72,0,0,0,MERGED
+2777,Export struct sliceValidateError to allow error casting,edebernis,2021-07-05T12:28:17Z,2021-11-21T13:45:03+00:00,7,3337.28,True,14,14,3,98,9,1,10,MERGED
+2776,Use bit shift operation instead of division,zihengCat,2021-07-05T10:31:23Z,2021-07-06T08:37:15+00:00,2,22.1,True,2,1,1,81,1,0,1,MERGED
+2774,byte alignment,lancoLiu,2021-07-02T11:05:07Z,2021-07-04T02:37:13+00:00,2,39.53,True,17,17,1,386,1,0,1,MERGED
+2769,fallback Context.Deadline() Context.Done() Context.Err() to Context.Request.Context(),wei840222,2021-06-28T10:24:11Z,2021-07-31T16:46:53+00:00,5,798.38,True,57,9,2,131,2,1,3,MERGED
+2767,fix #2762,qm012,2021-06-27T12:43:42Z,2021-07-22T22:58:15+00:00,16,610.24,True,172,30,3,183,29,6,35,MERGED
+2765,Improve `sliceValidateError.Error` performance,zihengCat,2021-06-25T06:52:08Z,2021-06-28T14:05:29+00:00,3,79.22,True,58,6,3,248,4,0,4,MERGED
+2764,Use buf.String() instead of string(buf.Bytes()),zihengCat,2021-06-24T15:47:18Z,2021-06-25T04:14:06+00:00,1,12.45,True,3,1,2,119,1,0,1,MERGED
+2761,Skip unnecessary variable assignment in timeFormat,zihengCat,2021-06-24T05:44:59Z,2021-06-24T07:31:38+00:00,1,1.78,True,1,2,1,51,1,0,1,MERGED
+2760,fix typo and add comments,zihengCat,2021-06-23T15:22:46Z,2021-06-24T05:07:49+00:00,1,13.75,True,2,1,1,82,1,0,1,MERGED
+2756,updated comments for Get function for params,imaskm,2021-06-20T20:10:04Z,2021-06-23T03:36:24+00:00,1,55.44,True,2,2,1,380,0,0,0,MERGED
+2755,Fix insufficient slice check,mamil,2021-06-19T12:16:48Z,2021-06-25T05:22:02+00:00,3,137.09,True,14,1,2,380,7,0,7,MERGED
+2751,gin.Context with fallback value from gin.Context.Request.Context(),wei840222,2021-06-15T12:37:52Z,2021-06-24T08:33:15+00:00,5,211.92,True,180,77,11,683,9,1,10,MERGED
+2750,Array collection format in form binding,Simon-Saaw,2021-06-13T11:59:36Z,2024-08-24T06:16:31+00:00,1,28026.28,False,106,7,4,517,7,4,11,CLOSED
+2749,feat: add StaticFileFS,thinkgos,2021-06-08T11:58:11Z,2022-03-18T01:52:23+00:00,6,6781.9,True,64,4,4,460,3,2,5,MERGED
+2744,add an option to have the default value as a list with commas as seperator,n3aka,2021-06-01T06:58:48Z,2024-09-21T15:24:19+00:00,2,29000.43,False,69,2,3,493,2,0,2,CLOSED
+2739,Setting trusted platform using an enum-like,ItalyPaleAle,2021-05-28T06:11:01Z,2021-06-24T00:58:10+00:00,2,642.79,True,43,13,4,324,3,0,3,MERGED
+2738,Update default validator's docs link,iamhesir,2021-05-26T07:30:55Z,2021-05-26T10:46:14+00:00,1,3.26,True,1,1,1,458,1,0,1,MERGED
+2737,optimize code and reduce code cyclomatic complexity,tylitianrui,2021-05-25T04:54:06Z,2021-06-03T12:12:51+00:00,1,223.31,True,4,8,2,380,1,0,1,MERGED
+2732,Upgrade github.com/ugorji/go/codec,sunshineplan,2021-05-21T02:08:08Z,2021-05-24T00:31:22+00:00,4,70.39,True,5,5,2,11,3,1,4,MERGED
+2729,upgrade validator to v10.6.1,likakuli,2021-05-20T12:48:53Z,2021-05-23T01:54:54+00:00,2,61.1,True,7,5,2,165,1,0,1,MERGED
+2724,chore(docs): bump to v1.7.2,appleboy,2021-05-19T02:12:04Z,2021-05-19T23:57:55+00:00,1,21.76,True,7,1,2,72,1,0,1,MERGED
+2723,Get client IP when using Cloudflare,ItalyPaleAle,2021-05-18T02:36:27Z,2021-05-28T02:03:59+00:00,2,239.46,True,18,1,3,308,9,0,9,MERGED
+2722,optimize code,tylitianrui,2021-05-15T02:23:05Z,2021-05-22T05:17:20+00:00,2,170.9,True,3,3,1,380,1,0,1,MERGED
+2720,feat(binding): support custom struct tag,mtt0,2021-05-14T04:00:48Z,2021-06-29T16:53:56+00:00,4,1116.89,True,68,0,3,5,1,1,2,MERGED
+2716,Check multipart file header size on test,y-yagi,2021-05-09T02:07:22Z,2021-05-23T03:44:41+00:00,2,337.62,True,1,1,1,108,1,0,1,MERGED
+2715,README.md update,yugu2day,2021-05-08T07:54:32Z,2021-05-19T02:57:24+00:00,1,259.05,True,1,1,1,380,1,0,1,MERGED
+2711,Use `Duration.Truncate` for truncating precision,y-yagi,2021-05-03T03:21:22Z,2021-05-04T14:38:14+00:00,2,35.28,True,1,2,1,491,1,0,1,MERGED
+2710,Fix example code of `Bind Uri`,y-yagi,2021-05-01T02:55:59Z,2021-05-01T05:57:23+00:00,2,3.02,True,1,1,1,59,1,0,1,MERGED
+2707,use errors.New to replace fmt.Errorf will much better,0x2d3c,2021-04-27T14:36:23Z,2021-04-28T10:39:09+00:00,1,20.05,True,2,2,1,53,1,0,1,MERGED
+2706,Fix conflict between param and exact path,g1eny0ung,2021-04-25T09:35:35Z,2021-05-19T02:05:36+00:00,15,568.5,True,44,3,2,152,13,6,19,MERGED
+2703,Add note about `nomsgpack` tag to the readme,y-yagi,2021-04-24T04:20:05Z,2021-05-01T06:13:50+00:00,4,169.9,True,11,0,1,78,1,0,1,MERGED
+2701,adjust the routergroup Any method,daheige,2021-04-22T13:58:07Z,2021-10-24T01:31:14+00:00,1,4427.55,True,11,9,1,33,1,0,1,MERGED
+2700,Optimize code adjust,daheige,2021-04-22T13:45:31Z,2021-06-01T23:35:30+00:00,11,969.83,True,29,11,4,149,6,2,8,MERGED
+2694,Use `Header()` instead of deprecated `HeaderMap`,y-yagi,2021-04-17T05:34:22Z,2021-04-20T23:55:08+00:00,1,90.35,True,1,1,1,112,1,0,1,MERGED
+2692,set engine.TrustedProxies For items that don't use gin.RUN,yiranzai,2021-04-15T06:19:02Z,2021-05-25T05:47:36+00:00,8,959.48,True,109,28,3,285,12,3,15,MERGED
+2685,RouterGroup.Handle regular match optimization of http method,daheige,2021-04-11T07:12:20Z,2021-04-21T00:24:55+00:00,3,233.21,True,6,1,1,191,1,0,1,MERGED
+2680,"Add support go-json, another drop-in json replacement.",zzjin,2021-04-09T08:57:25Z,2021-04-21T00:45:50+00:00,2,279.81,True,36,5,4,244,1,0,1,MERGED
+2679,Remove go1.12 support,thinkerou,2021-04-08T22:36:27Z,2021-04-11T16:29:34+00:00,1,65.89,True,26,40,6,0,1,0,1,MERGED
+2678,bump to v1.7.1,thinkerou,2021-04-08T22:30:05Z,2021-04-08T23:38:13+00:00,1,1.14,True,7,1,2,0,1,0,1,MERGED
+2675,fix: data race with trustedCIDRs (#2674),fifsky,2021-04-08T14:29:00Z,2021-04-08T16:27:35+00:00,2,1.98,True,17,3,3,259,2,0,2,MERGED
+2672,bump to v1.7.0 version,appleboy,2021-04-06T02:56:51Z,2021-04-08T07:47:41+00:00,2,52.85,True,29,2,2,23,4,0,4,MERGED
+2670,feat: add Method() function to gin.Context,leungyauming,2021-03-31T03:16:55Z,2021-04-07T14:51:26+00:00,4,179.58,False,64,0,3,21,2,1,3,CLOSED
+2663,Add mixed param and non-param paths (port of httprouter#329),rw-access,2021-03-26T15:51:01Z,2021-04-06T02:49:08+00:00,6,250.97,True,111,67,5,2253,8,2,10,MERGED
+2659,Update tree.go,youzeliang,2021-03-23T06:54:15Z,2021-06-22T22:44:40+00:00,3,2199.84,True,2,2,1,398,2,0,2,MERGED
+2638,support Go v1.16 version,thinkerou,2021-02-18T02:10:28Z,2021-04-20T23:38:55+00:00,3,1485.47,True,13,3,3,0,3,1,4,MERGED
+2632,feat(engine): add trustedproxies and remoteIP,manucorporat,2021-02-07T23:45:20Z,2021-04-06T03:37:26+00:00,17,1371.87,True,391,22,6,32,24,6,30,MERGED
+2622,chore: Deleted spaces,sashamelentyev,2021-01-26T11:25:02Z,2021-01-27T01:58:21+00:00,1,14.56,True,38,38,6,24,1,0,1,MERGED
+2620,Remove the tedious named return value,panjf2000,2021-01-23T12:23:22Z,2021-02-08T15:24:23+00:00,1,387.02,True,1,1,1,0,1,0,1,MERGED
+2617,chore: remove duplicate test 'assert.Equal',0Lookingfor0,2021-01-20T01:33:20Z,2021-03-27T06:41:31+00:00,2,1589.14,True,0,2,1,166,1,0,1,MERGED
+2609,basic auth: fix timing oracle,Snawoot,2021-01-12T14:13:26Z,2021-01-13T01:40:37+00:00,1,11.45,True,2,1,1,430,1,0,1,MERGED
+2602,"Revert ""Adding ppc64le architecture support on travis-ci (#2538)""",thinkerou,2021-01-05T02:01:51Z,2021-01-10T15:51:03+00:00,1,133.82,True,0,28,1,73,2,0,2,MERGED
+2600,fix compile error from #2572,thinkerou,2021-01-02T09:05:06Z,2021-01-03T13:14:57+00:00,1,28.16,True,6,5,1,0,2,0,2,MERGED
+2596,ci: add github action workflows,laojianzi,2020-12-29T08:06:16Z,2021-06-23T05:10:50+00:00,12,4221.08,True,73,57,6,989,21,3,24,MERGED
+2595,test: fixed the TestUnixSocket test on windows,laojianzi,2020-12-29T07:17:41Z,2021-01-11T01:07:45+00:00,2,305.83,True,2,1,1,43,1,0,1,MERGED
+2584,fix error gin support min Go version,0x2d3c,2020-12-15T14:12:34Z,2021-01-12T00:32:05+00:00,2,658.33,True,3,3,2,51,1,0,1,MERGED
+2572,some loop don't need to transfer to bytes slice and some use the zero…,mask-pp,2020-12-01T11:27:28Z,2020-12-23T10:23:02+00:00,15,526.93,False,525,526,3,92,13,6,19,CLOSED
+2567,"""gin mode unknown"" error: show available mode",codenoid,2020-11-26T19:34:12Z,2021-01-11T16:03:32+00:00,1,1100.49,True,1,1,1,688,1,0,1,MERGED
+2560,"make it clear that the context will be reset after the request ends, …",jinfeijie,2020-11-16T16:25:18Z,2022-01-23T14:08:00+00:00,2,10389.71,False,6,2,1,258,0,1,1,CLOSED
+2552,Fixes to the graceful shutdown example,jjba23,2020-11-11T07:37:34Z,2021-01-13T01:06:13+00:00,1,1505.48,True,3,2,1,430,7,0,7,MERGED
+2551,Fix typos in context.go,ihac,2020-11-10T11:57:26Z,2020-11-11T01:41:36+00:00,2,13.74,True,2,2,1,54,1,0,1,MERGED
+2540,ci: romove go1.11 for gin1.7,thinkerou,2020-10-22T01:29:40Z,2020-10-25T09:08:31+00:00,1,79.65,True,1,3,2,0,1,0,1,MERGED
+2538,Adding ppc64le architecture support on travis-ci,kishorkunal-raj,2020-10-21T09:52:22Z,2021-01-03T14:30:22+00:00,1,1780.63,True,28,0,1,712,4,0,4,MERGED
+2536,upgrade go-validator to v10.4.1,Doarakko,2020-10-20T20:53:33Z,2020-10-21T01:36:02+00:00,1,4.71,True,10,3,2,177,1,0,1,MERGED
+2531,Update json.go,lihang212010,2020-10-16T06:33:24Z,2021-04-29T07:51:16+00:00,1,4681.3,False,4,0,1,434,4,0,4,CLOSED
+2528,fix: print headers without Authorization header on broken pipe,zachnewburgh,2020-10-13T18:33:14Z,2020-10-15T14:41:36+00:00,2,44.14,True,3,2,1,12,6,0,6,MERGED
+2526,"implement "".Unwrap() error"" on Error type (#2525)",LeGEC,2020-10-09T17:12:28Z,2020-10-17T13:22:38+00:00,3,188.17,True,38,0,2,114,1,0,1,MERGED
+2519,Add some missing dots on README,zasdaym,2020-10-03T10:31:54Z,2020-10-16T01:32:11+00:00,3,303.0,True,2,2,1,433,2,0,2,MERGED
+2517,fix #2505: make Recovery respect gin.DisableConsoleColor,tkgalk,2020-10-01T21:10:12Z,2023-09-25T10:20:18+00:00,1,26125.17,False,21,14,3,430,1,0,1,CLOSED
+2512,update content-disposition header to MIME-style,eudore,2020-09-24T15:56:38Z,2020-09-25T01:45:17+00:00,1,9.81,True,1,1,1,231,1,0,1,MERGED
+2511,Fix form binding with json custom type that underling form is string(#2510),LaysDragon,2020-09-23T07:48:26Z,2025-03-24T07:45:41+00:00,2,39431.95,False,48,1,2,208,5,0,5,CLOSED
+2508,reduce allocs and improve the render `WriteString`,imxyb,2020-09-21T15:43:10Z,2020-10-16T10:32:34+00:00,2,594.82,True,3,1,1,407,2,0,2,MERGED
+2500,use IndexByte replace Split to improve performance,imxyb,2020-09-17T11:47:28Z,2020-10-15T05:55:58+00:00,4,666.14,True,10,1,2,405,1,1,2,MERGED
+2498,Fix spelling,jbampton,2020-09-13T15:10:39Z,2020-09-14T02:40:20+00:00,1,11.49,True,2,2,2,0,1,0,1,MERGED
+2489,Fix typo,forest747,2020-09-02T14:15:07Z,2020-09-02T15:15:26+00:00,1,1.01,True,1,1,1,0,1,0,1,MERGED
+2487,Add GetUint and GetUint64 method on gin.context,kaiiak,2020-08-31T16:23:06Z,2020-09-01T01:33:55+00:00,1,9.18,True,28,0,2,11,2,0,2,MERGED
+2484,Allow bind with a map[string]string,ItalyPaleAle,2020-08-29T01:30:33Z,2020-10-30T23:20:47+00:00,3,1509.84,True,143,0,3,925,3,1,4,MERGED
+2476,Fix Allow header according to RFC 7231,unbyte,2020-08-22T08:15:42Z,2024-02-06T02:48:05+00:00,2,30306.54,False,23,3,2,356,5,2,7,CLOSED
+2474,X-Forwarded-For handling is unsafe,sorenisanerd,2020-08-20T22:00:47Z,2021-02-09T20:30:16+00:00,2,4150.49,False,208,15,4,191,33,1,34,CLOSED
+2463,ci support Go 1.15,tanhaipeng,2020-08-12T00:27:15Z,2020-08-12T01:28:51+00:00,1,1.03,True,4,0,1,18,1,0,1,MERGED
+2451,Fix spelling,jbampton,2020-08-03T16:00:07Z,2020-08-03T23:04:06+00:00,1,7.07,True,5,5,3,0,1,0,1,MERGED
+2450,binding: avoid 2038 problem on 32-bit architectures,lantw44,2020-08-03T08:12:23Z,2020-08-08T09:31:09+00:00,1,121.31,True,1,1,1,462,1,0,1,MERGED
+2449,README: Change badge to pkg.go.dev,tanaka0325,2020-08-01T04:52:30Z,2020-08-01T07:03:34+00:00,1,2.18,True,1,1,1,10,1,0,1,MERGED
+2448,Docs: Update README.md Custom Validator sample code,utamori,2020-07-30T00:58:42Z,2020-08-01T07:26:30+00:00,1,54.46,True,7,4,1,21,1,0,1,MERGED
+2441,Add support for FCGI via net/http/fcgi,thomasgodart,2020-07-22T12:39:01Z,2024-11-30T15:15:20+00:00,2,38210.61,False,87,0,2,455,2,1,3,CLOSED
+2425,Add GetUint and GetUint64 method on gin.context,kaiiak,2020-07-04T15:35:20Z,2020-08-31T02:40:35+00:00,6,1379.09,False,28,0,2,0,4,1,5,CLOSED
+2412,Prevent panic in Context.GetQuery() when there is no Request,pofl,2020-06-15T11:35:54Z,2020-08-08T12:32:19+00:00,2,1296.94,True,20,1,2,712,2,0,2,MERGED
+2399,reuse http.request.body,gpchow,2020-05-27T11:47:44Z,2024-12-13T01:30:45+00:00,1,39853.72,False,11,1,1,892,1,1,2,CLOSED
+2395,DebugPrintRouteFunc() unit test,pnvasanth,2020-05-25T12:33:49Z,2020-05-25T13:47:07+00:00,1,1.22,True,13,0,1,66,1,0,1,MERGED
+2393,Rename some variables,bestgopher,2020-05-25T09:23:53Z,2020-05-25T12:13:10+00:00,2,2.82,True,14,14,3,105,1,0,1,MERGED
+2391,remove a unused type SecureJSONPrefix,bestgopher,2020-05-23T15:52:24Z,2020-05-24T02:58:29+00:00,3,11.1,True,0,3,1,440,1,1,2,MERGED
+2389,Add a redirect sample for POST method,MilesLin,2020-05-23T14:56:12Z,2020-05-24T03:37:33+00:00,3,12.69,True,6,0,1,401,1,1,2,MERGED
+2388,add miss copyright,thinkerou,2020-05-23T10:27:21Z,2020-05-23T14:52:02+00:00,1,4.41,True,8,0,2,0,1,0,1,MERGED
+2387,Remove some functions that have the same effect as the bytes package,bestgopher,2020-05-23T02:42:13Z,2020-05-23T14:19:38+00:00,1,11.62,True,9,33,1,460,1,0,1,MERGED
+2378,chore(performance): improve countParams,appleboy,2020-05-17T08:03:51Z,2020-05-17T10:11:23+00:00,1,2.13,True,37,8,1,911,3,0,3,MERGED
+2375,chore: rename getQueryCache/getFormCache to initQueryCache/initFormCache,thinkerou,2020-05-13T14:51:06Z,2020-05-14T03:35:15+00:00,1,12.74,True,12,13,2,0,1,0,1,MERGED
+2371,chore: update tree,thinkerou,2020-05-12T04:35:38Z,2021-01-03T13:34:11+00:00,1,5672.98,True,127,128,1,58,2,0,2,MERGED
+2368,Sync route tree to httprouter latest code,appleboy,2020-05-10T02:55:09Z,2020-05-10T05:22:25+00:00,5,2.45,True,393,282,4,55,1,2,3,MERGED
+2366,fix(tree): reassign fullpath when register new node which the same current node,vinhha96,2020-05-09T07:45:33Z,2020-05-11T05:25:49+00:00,4,45.67,True,4,0,2,1298,2,1,3,MERGED
+2365,chore: improve render string performance,appleboy,2020-05-09T06:55:48Z,2020-05-09T09:41:01+00:00,1,2.75,True,1,2,1,1118,1,0,1,MERGED
+2362,uncomment the code in README,AnupKumarPanwar,2020-05-07T16:52:49Z,2020-05-08T00:50:27+00:00,1,7.96,True,4,4,1,0,1,0,1,MERGED
+2359,"fix bug that tag `form:"",default=1""` are not effective in some cases",iGoogle-ink,2020-05-06T02:27:09Z,2020-05-06T16:17:14+00:00,4,13.83,False,17,10,2,498,3,1,4,CLOSED
+2358,Fix typo,bn4t,2020-05-05T13:32:59Z,2020-05-05T15:20:01+00:00,1,1.78,True,1,1,1,0,1,0,1,MERGED
+2357,chore: update godoc address,thinkerou,2020-05-05T02:15:32Z,2020-05-05T06:06:43+00:00,1,3.85,True,1,1,1,104,1,0,1,MERGED
+2356,chore: update some code style,thinkerou,2020-05-05T01:59:50Z,2020-05-05T05:55:58+00:00,1,3.94,True,11,11,5,0,1,0,1,MERGED
+2355,docs: update benchmark result v1.6.3,appleboy,2020-05-04T15:30:04Z,2020-05-05T08:37:41+00:00,1,17.13,True,663,684,2,38,1,0,1,MERGED
+2354,chore: update the result of CR,thinkerou,2020-05-03T13:44:49Z,2020-05-04T03:40:42+00:00,1,13.93,True,16,10,6,0,1,0,1,MERGED
+2351,chore(performance): Change *sync.RWMutex to sync.RWMutex,appleboy,2020-05-03T04:25:33Z,2020-05-03T12:39:35+00:00,1,8.23,True,13,16,2,5331,10,0,10,MERGED
+2341,Update gin_integration_test.go,ronaldpetty,2020-04-27T17:41:04Z,2020-04-28T01:36:05+00:00,2,7.92,True,6,2,1,683,2,0,2,MERGED
+2337,chore(debug): add ability to override the debugPrint statement,josegonzalez,2020-04-23T17:32:06Z,2024-03-11T14:41:07+00:00,4,34029.15,True,15,5,1,486,3,2,5,MERGED
+2329,update: CHANGELOG.md add log for version 1.6.2,0x2d3c,2020-04-20T09:54:28Z,2020-04-20T12:07:36+00:00,1,2.22,True,7,0,1,0,1,0,1,MERGED
+2323,fix typo in the PR template and CONTRIBUTING files,theonlyjohnny,2020-04-16T09:47:35Z,2020-04-17T04:26:42+00:00,1,18.65,True,2,2,2,0,3,0,3,MERGED
+2322,Add CustomRecovery builtin middleware ,theonlyjohnny,2020-04-16T09:44:06Z,2020-07-09T01:40:01+00:00,4,2007.93,True,161,5,3,516,3,1,4,MERGED
+2321,update:SetMode function,bestgopher,2020-04-16T02:34:46Z,2020-04-16T14:31:59+00:00,2,11.95,True,6,4,1,81,1,0,1,MERGED
+2312,update set cookie example,linvis,2020-04-05T06:25:15Z,2020-04-08T15:31:32+00:00,1,81.1,True,1,1,1,381,2,0,2,MERGED
+2307,Update version.go,piengeng,2020-03-27T12:38:50Z,2020-03-27T13:39:12+00:00,1,1.01,True,1,1,1,401,1,0,1,MERGED
+2306,Add set samesite in cookie.,appleboy,2020-03-27T01:40:51Z,2020-03-27T02:47:23+00:00,1,1.11,True,15,4,2,11,5,0,5,MERGED
+2305,fix missing initial sync.RWMutex,appleboy,2020-03-27T01:15:35Z,2020-03-27T02:57:37+00:00,4,1.7,True,22,0,3,9,3,1,4,MERGED
+2302,Support binding for slice/array obj [Rewrite],wuhuizuo,2020-03-26T08:47:33Z,2021-01-03T13:43:35+00:00,11,6796.93,True,142,11,4,376,7,4,11,MERGED
+2295,bump to v1.6.1 version,appleboy,2020-03-23T07:36:22Z,2020-03-23T10:00:58+00:00,1,2.41,True,1,1,1,26,1,0,1,MERGED
+2294,"Revert ""fix accept incoming network connections""",appleboy,2020-03-23T06:09:01Z,2020-03-23T09:48:26+00:00,1,3.66,True,2,2,1,27,3,0,3,MERGED
+2293,Update version.go,piengeng,2020-03-23T04:39:46Z,2020-03-23T05:52:29+00:00,1,1.21,True,1,1,1,406,2,0,2,MERGED
+2290,docs: Add 1.6 changelogs,appleboy,2020-03-22T03:25:31Z,2020-03-22T04:28:47+00:00,1,1.05,True,63,13,1,9,1,0,1,MERGED
+2288,Improved the graceful shutdown and restart section and removed dead code,zignd,2020-03-21T22:38:23Z,2020-03-22T02:25:35+00:00,1,3.79,True,17,15,1,473,1,0,1,MERGED
+2280,Unix Socket Handling,ryanjyoder,2020-03-08T23:27:53Z,2020-03-16T14:36:16+00:00,4,183.14,True,2,5,1,626,2,1,3,MERGED
+2277,Add mitigation for log injection,manute,2020-03-03T14:44:38Z,2020-03-07T13:51:34+00:00,1,95.12,True,6,6,2,28,2,0,2,MERGED
+2262,ci support go1.14,thinkerou,2020-02-26T01:07:03Z,2020-02-26T02:27:04+00:00,2,1.33,True,4,0,1,0,1,0,1,MERGED
+2237,Add mitigation for log injection,junorouse,2020-02-19T06:37:26Z,2020-02-26T15:25:23+00:00,2,176.8,False,1,1,1,565,3,0,3,CLOSED
+2231,chore: upgrade depend version,thinkerou,2020-02-11T13:08:16Z,2020-02-13T12:23:30+00:00,1,47.25,True,15,15,2,0,1,0,1,MERGED
+2229,tree: range over nodes values,thinkerou,2020-02-08T12:17:09Z,2020-02-09T02:46:23+00:00,1,14.49,True,3,3,1,0,1,0,1,MERGED
+2228,Use json marshall in context json to fix breaking new line issue. Fixes #2209,KaushikNeelichetty,2020-02-07T11:41:10Z,2020-02-21T09:15:18+00:00,5,333.57,True,15,12,5,21,4,1,5,MERGED
+2223,docs(path): improve comments,appleboy,2020-01-27T10:13:32Z,2020-01-28T03:38:46+00:00,1,17.42,True,18,8,2,42,1,0,1,MERGED
+2222,tree: remove duplicate assignment,appleboy,2020-01-27T09:14:14Z,2020-01-28T10:35:48+00:00,1,25.36,True,0,2,1,42,1,0,1,MERGED
+2220,add yaml negotitation,unknown,2020-01-23T11:25:51Z,2020-02-06T06:50:22+00:00,1,331.41,True,7,2,2,50,1,0,1,MERGED
+2217,Renew README to fit the modification of SetCookie method,panjf2000,2020-01-22T12:50:57Z,2020-01-22T23:54:09+00:00,1,11.05,True,1,1,1,9,2,0,2,MERGED
+2216,fix accept incoming network connections,keob,2020-01-22T09:18:35Z,2020-03-07T01:21:03+00:00,2,1072.04,True,2,2,1,154,2,0,2,MERGED
+2215,chore: upgrade go-isatty and json-iterator/go,appleboy,2020-01-21T14:11:17Z,2020-01-21T16:24:25+00:00,1,2.22,True,8,8,2,116,1,0,1,MERGED
+2212,path: sync code with httprouter,panjf2000,2020-01-16T12:51:04Z,2020-01-16T14:41:00+00:00,1,1.83,True,1,2,1,301,1,0,1,MERGED
+2206,Use zero-copy approach to convert types between string and byte slice,panjf2000,2020-01-14T06:43:33Z,2020-01-17T16:32:50+00:00,2,81.82,True,130,10,6,410,2,0,2,MERGED
+2202,Fix spelling,jbampton,2020-01-06T16:11:04Z,2020-01-07T01:19:49+00:00,1,9.15,True,7,7,2,0,1,0,1,MERGED
+2196,"Update docs on Context.Done(), Context.Deadline() and Context.Err()",AstolfoKawaii,2019-12-29T07:41:47Z,2020-01-07T17:48:29+00:00,1,226.11,True,6,12,1,282,1,0,1,MERGED
+2194,Support binding for slice/array obj,wuhuizuo,2019-12-25T13:24:38Z,2020-03-26T16:47:14+00:00,12,2211.38,False,837,226,33,265,1,5,6,CLOSED
+2190,Update validator to v10,mosdeo,2019-12-19T08:02:10Z,2019-12-20T06:01:58+00:00,1,22.0,True,1,1,1,48,1,0,1,MERGED
+2189,upgrade go-validator to v10 for README,flysnoworg,2019-12-18T11:58:26Z,2019-12-19T03:21:59+00:00,2,15.39,True,1,1,1,54,1,0,1,MERGED
+2188,Update to currently output,mosdeo,2019-12-18T09:06:19Z,2019-12-18T13:08:58+00:00,1,4.04,True,1,1,1,42,1,0,1,MERGED
+2186,"Fix ""Custom Validators"" example",mosdeo,2019-12-16T15:07:43Z,2019-12-18T01:44:33+00:00,1,34.61,True,6,9,1,57,3,0,3,MERGED
+2179,Reuse bytes when cleaning the URL paths,panjf2000,2019-12-11T13:15:52Z,2020-01-07T09:37:18+00:00,2,644.36,True,83,15,2,43,14,0,14,MERGED
+2177,tree: remove one else statement,thinkerou,2019-12-10T13:17:24Z,2019-12-18T08:58:39+00:00,1,187.69,True,103,104,1,0,1,0,1,MERGED
+2173,tree: sync httprouter update,thinkerou,2019-12-08T14:31:11Z,2019-12-09T07:04:36+00:00,1,16.56,True,85,71,1,49,1,0,1,MERGED
+2172,tree: sync httprouter update,thinkerou,2019-12-08T09:39:17Z,2019-12-08T11:34:06+00:00,1,1.91,True,27,20,1,82,3,0,3,MERGED
+2171,tree: sync httprouter update,thinkerou,2019-12-08T08:52:23Z,2019-12-08T10:35:09+00:00,1,1.71,True,33,28,1,76,1,0,1,MERGED
+2166,Fixed a bug in the calculation of the maximum number of parameters,thinkerou,2019-12-03T13:25:38Z,2019-12-03T23:56:02+00:00,1,10.51,True,11,0,2,45,1,0,1,MERGED
+2165,Add project to README,vcastellm,2019-12-02T09:39:24Z,2019-12-02T12:59:57+00:00,1,3.34,True,1,0,1,38,1,0,1,MERGED
+2163,tree: sync part httprouter codes and reduce if/else,thinkerou,2019-12-01T10:28:42Z,2019-12-01T11:53:03+00:00,1,1.41,True,180,174,1,3753,1,0,1,MERGED
+2159,chore(performance): Improve performance for adding RemoveExtraSlash flag,appleboy,2019-11-27T13:46:22Z,2019-11-28T16:02:03+00:00,1,26.26,True,41,9,2,3518,1,0,1,MERGED
+2156,tree: use for range,thinkerou,2019-11-27T05:10:09Z,2020-02-25T15:32:31+00:00,3,2170.37,False,4,4,1,0,1,1,2,CLOSED
+2155,use http method constant,thinkerou,2019-11-26T12:21:36Z,2019-11-28T23:50:50+00:00,4,59.49,True,369,369,8,0,1,1,2,MERGED
+2153,docs(benchmarks): for gin v1.5,appleboy,2019-11-26T08:03:43Z,2019-11-29T05:07:19+00:00,1,69.06,True,620,531,1,10522,4,0,4,MERGED
+2150,Stop useless panicking in context and render,eeonevision,2019-11-25T08:53:57Z,2023-02-12T02:01:34+00:00,6,28193.13,True,16,19,4,386,15,0,15,MERGED
+2149,upgrade go-validator to v10,fifsky,2019-11-25T02:21:36Z,2019-11-25T06:49:45+00:00,2,4.47,True,15,17,4,68,2,0,2,MERGED
+2148,drop support govendor,thinkerou,2019-11-25T02:04:45Z,2019-11-25T07:42:24+00:00,1,5.63,True,4,205,4,12,1,0,1,MERGED
+2147,Drop support go1.10,thinkerou,2019-11-24T04:29:47Z,2019-11-24T15:07:56+00:00,1,10.64,True,3,4,4,0,1,0,1,MERGED
+2129,fix comment in `mode.go`,plsmaop,2019-11-10T03:29:31Z,2019-11-24T08:22:19+00:00,2,340.88,True,1,1,1,456,1,0,1,MERGED
+2126,feat: use ShouldBindWith  after ShouldBindBodyWith,mohuishou,2019-11-06T16:14:27Z,2019-11-08T03:09:20+00:00,2,34.91,False,39,28,2,517,1,1,2,CLOSED
+2122,Changed wording for clarity in README.md,BradyBromley,2019-11-03T23:54:01Z,2019-11-25T03:03:36+00:00,1,507.16,True,1,1,1,381,1,0,1,MERGED
+2121,[FIX] allow empty headers on DataFromReader,vkd,2019-11-03T22:16:36Z,2019-11-25T02:45:54+00:00,1,508.49,True,43,0,3,178,1,0,1,MERGED
+2118,Close files opened in static file handler,Shamus03,2019-10-30T14:57:18Z,2019-10-31T14:52:02+00:00,3,23.91,True,3,1,1,11,1,1,2,MERGED
+2114,"[FIX] c.Request.FormFile maybe file, need close",linfangrong,2019-10-29T05:55:12Z,2019-10-31T15:17:13+00:00,2,57.37,True,5,1,1,292,1,0,1,MERGED
+2112,FileFromFS,nikandfor,2019-10-28T11:24:15Z,2020-03-07T02:23:34+00:00,2,3134.99,True,42,0,3,213,10,0,10,MERGED
+2110,Update gin.go,ishanray,2019-10-27T21:41:06Z,2019-10-31T03:13:40+00:00,2,77.54,True,1,1,1,381,1,0,1,MERGED
+2109,ready to release v1.5.0,thinkerou,2019-10-27T05:57:05Z,2019-11-24T02:25:22+00:00,2,668.47,True,38,4,2,29,13,15,28,MERGED
+2106,Update README.md,Ildar1111,2019-10-24T16:36:37Z,2019-10-25T02:03:53+00:00,1,9.45,True,2,2,1,733,1,0,1,MERGED
+2103,format errUnknownType,zhangyunhao116,2019-10-23T06:19:16Z,2019-10-26T06:20:36+00:00,2,72.02,True,1,1,1,121,1,0,1,MERGED
+2094,Update go.sum file,vkd,2019-10-12T16:50:32Z,2019-10-15T03:04:25+00:00,1,58.23,True,1,0,1,0,3,0,3,MERGED
+2093,Fix 'errcheck' linter warnings,vkd,2019-10-12T16:13:40Z,2019-10-27T05:59:00+00:00,1,349.76,True,25,8,5,0,3,0,3,MERGED
+2086,Relocate binding body tests,vkd,2019-10-06T18:55:10Z,2019-10-10T08:58:32+00:00,3,86.06,True,105,72,6,73,1,1,2,MERGED
+2085,Add details in the issue template,vkd,2019-10-06T09:45:01Z,2019-10-15T06:25:55+00:00,2,212.68,True,41,5,1,119,1,0,1,MERGED
+2080,Fix spelling.,jbampton,2019-09-30T06:58:51Z,2019-10-02T23:46:41+00:00,1,64.8,True,4,4,2,0,0,0,0,MERGED
+2068,Updated Readme.md: file.Close() for template read,bullgare,2019-09-23T16:37:41Z,2019-09-24T14:18:42+00:00,3,21.68,True,1,0,1,82,1,1,2,MERGED
+2063,use url.URL.Query instead of parsing query,5anthosh,2019-09-19T12:22:24Z,2019-09-24T02:01:57+00:00,2,109.66,True,1,2,1,51,1,0,1,MERGED
+2056,chore: remove env var for go master branch,thinkerou,2019-09-14T01:07:05Z,2019-09-22T07:35:34+00:00,1,198.47,True,0,1,1,0,1,0,1,MERGED
+2052,Make countParams more readable,zhangyunhao116,2019-09-10T07:25:30Z,2019-09-11T10:10:40+00:00,1,26.75,True,2,3,1,381,1,0,1,MERGED
+2051,refactor(context.go): GetPostFormMap,Panmax,2019-09-09T13:46:30Z,2019-09-10T06:32:31+00:00,2,16.77,True,2,7,1,56,1,0,1,MERGED
+2038,chore: support go1.13,thinkerou,2019-09-03T23:54:08Z,2019-09-04T04:26:50+00:00,3,4.54,True,1,0,1,0,1,1,2,MERGED
+2037,binding: add BindPlain function,guonaihong,2019-09-03T14:53:12Z,2024-03-24T05:10:36+00:00,2,39926.29,False,150,0,5,282,10,1,11,CLOSED
+2028,feat(binding): add DisallowUnknownFields() in gin.Context.BindJSON(),kszafran,2019-08-23T09:28:42Z,2019-09-06T05:57:00+00:00,1,332.47,True,51,1,4,130,2,0,2,MERGED
+2025,Add Header bind methods to README,theonlyjohnny,2019-08-20T07:07:32Z,2019-08-30T02:58:56+00:00,1,235.86,True,2,2,1,0,1,0,1,MERGED
+2023,support run HTTP server with specific net.Listener,Zheaoli,2019-08-18T14:00:14Z,2019-09-30T01:12:22+00:00,3,1019.2,True,45,0,2,842,4,1,5,MERGED
+2019,Bump github.com/mattn/go-isatty library to support Risc-V,carlosedp,2019-08-15T18:50:36Z,2019-08-16T01:10:45+00:00,1,6.34,True,5,5,2,260,4,0,4,MERGED
+2014,Adjust Render.Redirect test case,yinggaozhen,2019-08-12T06:18:20Z,2019-09-10T08:57:28+00:00,2,698.65,False,11,1,1,143,5,0,5,CLOSED
+2011,Added specific installation instructions for Mac,jimfilippou,2019-08-08T12:10:08Z,2019-09-05T13:50:54+00:00,1,673.68,True,6,0,1,449,3,0,3,MERGED
+2007,Fixed JSONP format (added semicolon),gabolaev,2019-08-05T17:42:45Z,2019-09-02T12:18:08+00:00,2,666.59,True,4,4,3,128,1,0,1,MERGED
+2004,Simplify code,muesli,2019-07-26T19:21:24Z,2019-07-27T01:06:38+00:00,1,5.75,True,1,2,2,60,0,0,0,MERGED
+1981,Support negative Content-Length in DataFromReader,segevfiner,2019-07-08T10:00:25Z,2019-08-05T01:43:00+00:00,1,663.71,True,26,1,2,147,1,0,1,MERGED
+1980,binding: support unix time,guonaihong,2019-07-06T08:36:22Z,2019-07-10T05:02:40+00:00,5,92.44,True,68,13,3,1602,2,2,4,MERGED
+1971,Typo,rzajac,2019-07-03T21:35:28Z,2019-07-03T23:57:52+00:00,1,2.37,True,1,1,1,0,1,0,1,MERGED
+1970,Refactor redirect request in gin.go,nsiregar,2019-07-03T16:19:56Z,2019-11-26T00:19:30+00:00,1,3487.99,True,17,16,2,69,1,0,1,MERGED
+1969,upgrade github.com/ugorji/go/codec,thinkerou,2019-07-03T02:40:24Z,2019-07-09T22:20:21+00:00,1,163.67,True,12,16,3,10,5,0,5,MERGED
+1966,Update CHANGELOG.md,wangyufeng0615,2019-06-29T17:03:59Z,2019-06-30T00:55:10+00:00,1,7.85,True,1,1,1,8,0,0,0,MERGED
+1963,fix README.md code bug and Change map to gin.H,guonaihong,2019-06-25T13:35:53Z,2019-06-28T01:25:19+00:00,1,59.82,True,7,4,1,834,1,0,1,MERGED
+1961,fix README.md example code bug,srt180,2019-06-25T06:35:36Z,2019-06-28T01:34:15+00:00,1,66.98,True,1,1,1,57,1,0,1,MERGED
+1957,support bind http header param #1956,guonaihong,2019-06-18T11:32:52Z,2019-06-27T04:47:46+00:00,15,209.25,True,152,0,6,537,4,4,8,MERGED
+1949,binding: add support of multipart multi files (#1878),vkd,2019-06-12T19:39:51Z,2019-06-18T11:49:11+00:00,14,136.16,True,225,43,4,134,4,7,11,MERGED
+1943,fix ignore walking on form mapping (#1942),vkd,2019-06-10T15:30:33Z,2019-11-01T02:47:41+00:00,1,3443.29,True,14,3,2,89,4,0,4,MERGED
+1939,Gin1.5 bytes.Buffer to strings.Builder,guonaihong,2019-06-10T02:29:45Z,2019-06-29T12:43:33+00:00,2,466.23,True,3,4,2,210,3,1,4,MERGED
+1937,Add user case: brigade,thinkerou,2019-06-09T05:31:32Z,2019-06-28T16:09:54+00:00,1,466.64,True,1,0,1,0,1,0,1,MERGED
+1933,Drop Support for go1.8 and go1.9,dmarkham,2019-06-06T03:11:15Z,2019-06-28T15:43:08+00:00,2,540.53,True,4,6,4,34,3,0,3,MERGED
+1931,Attempt to fix #1927,thinkerou,2019-06-06T01:41:36Z,2019-06-12T13:07:16+00:00,2,155.43,True,1,0,1,0,7,0,7,MERGED
+1926, logger_test: color,awesee,2019-06-04T02:22:05Z,2019-08-29T00:32:22+00:00,1,2062.17,True,23,22,2,381,5,0,5,MERGED
+1923,use sse v0.1.0,thinkerou,2019-06-02T15:20:17Z,2019-06-03T14:42:26+00:00,1,23.37,True,9,7,3,0,1,0,1,MERGED
+1922,use context instead of x/net/context,thinkerou,2019-06-02T14:56:14Z,2019-06-03T14:52:34+00:00,1,23.94,True,1,7,2,0,1,0,1,MERGED
+1920,feat: improve get post data.,appleboy,2019-05-31T01:02:20Z,2019-06-02T09:24:42+00:00,1,56.37,True,20,8,1,1227,1,0,1,MERGED
+1919,Bugfix for the FullPath feature,bbiao,2019-05-30T15:12:29Z,2019-06-28T15:54:53+00:00,2,696.71,True,14,2,2,517,7,0,7,MERGED
+1909,Some code improvements,sosiska,2019-05-21T12:34:30Z,2019-05-21T15:08:53+00:00,2,2.57,True,4,6,3,107,2,0,2,MERGED
+1893,Now you can parse the inline lowercase start structure,guonaihong,2019-05-10T09:14:12Z,2019-05-13T02:17:31+00:00,4,65.06,True,49,7,2,638,1,1,2,MERGED
+1891,Use DefaultWriter and DefaultErrorWriter for debug messages,djui,2019-05-09T19:47:13Z,2019-05-10T06:03:26+00:00,1,10.27,True,10,9,2,58,1,0,1,MERGED
+1886,add dev version,thinkerou,2019-05-08T04:10:40Z,2019-05-12T10:47:28+00:00,4,102.61,True,1,5,2,0,1,1,2,MERGED
+1885,Update README.md about go version,thinkerou,2019-05-07T11:45:10Z,2019-05-08T03:10:35+00:00,1,15.42,True,1,1,1,0,1,0,1,MERGED
+1879,update vendor: ugorji/go,thinkerou,2019-05-05T11:05:27Z,2019-05-07T11:43:05+00:00,1,48.63,True,36,53,3,0,1,0,1,MERGED
+1868,Fix a typo syscanll.SIGTERM -> syscall.SIGTERM,DeathKing,2019-04-24T08:08:41Z,2019-04-24T12:21:42+00:00,1,4.22,True,2,2,1,381,1,0,1,MERGED
+1861,Fix spelling.,jbampton,2019-04-22T12:09:31Z,2019-04-22T15:11:58+00:00,1,3.04,True,2,2,1,0,2,0,2,MERGED
+1852,Add build tag nomsgpack,sapk,2019-04-08T23:10:57Z,2020-01-07T03:31:11+00:00,7,6556.34,True,228,69,12,549,13,2,15,MERGED
+1851,"v1.4.0 + #1631 (remove go1.6/go1,7 support)",dmarkham,2019-04-07T23:05:22Z,2019-05-07T10:32:32+00:00,6,707.45,True,225,191,21,114,4,2,6,MERGED
+1846,chore(readme): rollback readme,easonlin404,2019-04-05T04:24:24Z,2019-04-06T13:48:34+00:00,2,33.4,True,1970,36,1,85,2,0,2,MERGED
+1842,binding: move tests of mapping to separate test file,vkd,2019-04-03T19:56:46Z,2019-05-07T11:06:56+00:00,1,807.17,True,271,406,2,124,3,0,3,MERGED
+1841,Fix context.Params race condition on Copy(),samuelabreu,2019-04-03T18:18:36Z,2019-05-27T06:04:31+00:00,2,1283.77,True,26,0,2,528,12,0,12,MERGED
+1836,Remove contents of the Authorization header while dumping requests,achanda,2019-04-01T12:51:33Z,2019-04-18T02:45:38+00:00,1,397.9,True,40,1,2,93,3,0,3,MERGED
+1830,Truncate Latency precision in long running request,dmarkham,2019-03-27T06:23:38Z,2019-03-28T06:14:00+00:00,2,23.84,True,28,0,2,11,5,0,5,MERGED
+1829,refactor(form_mapping.go): mapping multipart request,vkd,2019-03-26T18:15:35Z,2019-04-02T01:01:35+00:00,10,150.77,True,70,48,2,748,1,5,6,MERGED
+1826,Hold matched route full path in the Context,zaynetro,2019-03-26T07:53:30Z,2019-05-26T00:20:22+00:00,2,1456.45,True,117,46,6,937,12,0,12,MERGED
+1822,chore: update ginS,thinkerou,2019-03-21T05:52:09Z,2019-03-21T07:12:07+00:00,1,1.33,True,15,3,1,0,1,0,1,MERGED
+1817,Clean the Request Path early,dmarkham,2019-03-18T23:50:48Z,2019-05-07T11:32:36+00:00,2,1187.7,True,43,10,2,122,4,0,4,MERGED
+1805,fix #1804 which is caused by calling middleware twice.,sairoutine,2019-03-10T09:10:47Z,2019-03-11T02:52:48+00:00,2,17.7,True,22,2,2,138,3,0,3,MERGED
+1802,IsTerm flag should not be affected by DisableConsoleColor method.,sairoutine,2019-03-08T12:52:59Z,2019-03-18T03:12:31+00:00,6,230.33,True,75,25,2,511,11,2,13,MERGED
+1800,travisci: use go module when go11+,thinkerou,2019-03-08T01:42:22Z,2019-03-08T15:18:53+00:00,1,13.61,True,7,9,1,0,1,0,1,MERGED
+1797,add support arrays on mapping,vkd,2019-03-05T17:26:02Z,2019-03-14T05:34:56+00:00,11,204.15,True,48,3,2,106,1,1,2,MERGED
+1795,Fix URL to starter template in the docs,kumar303,2019-03-03T20:51:55Z,2019-03-04T00:06:47+00:00,1,3.25,True,1,1,1,130,1,0,1,MERGED
+1794,add support time.Duration on mapping,vkd,2019-03-03T12:39:06Z,2019-03-04T03:37:47+00:00,1,14.98,True,30,0,2,119,1,0,1,MERGED
+1793,chore: update readme,thinkerou,2019-03-03T08:12:42Z,2019-03-14T05:23:36+00:00,2,261.18,True,35,1972,1,585,6,0,6,MERGED
+1792,chore: update go mod package,thinkerou,2019-03-03T06:59:33Z,2019-03-03T23:28:04+00:00,1,16.48,True,25,18,2,0,1,0,1,MERGED
+1791,chore: use internal/json,thinkerou,2019-03-03T06:50:27Z,2019-03-04T22:46:19+00:00,1,39.93,True,6,1,3,0,1,0,1,MERGED
+1788,chore: add examples repo link to README,thinkerou,2019-03-02T00:24:02Z,2019-03-02T11:21:10+00:00,2,10.95,True,3,1,2,0,4,0,4,MERGED
+1786,remove docs dir,thinkerou,2019-02-28T14:48:10Z,2019-02-28T23:11:03+00:00,1,8.38,True,0,137,1,45,1,0,1,MERGED
+1785,fix #1784: correct error comparison on tests,vkd,2019-02-28T12:27:06Z,2019-02-28T14:43:28+00:00,1,2.27,True,6,4,1,42,1,0,1,MERGED
+1779,make context.Keys available as LogFormatterParams,MusicAdam,2019-02-23T23:14:24Z,2019-03-07T01:47:31+00:00,2,266.55,True,7,0,2,141,7,0,7,MERGED
+1776,Split examples to alone repo,thinkerou,2019-02-21T09:26:30Z,2019-03-01T15:42:41+00:00,1,198.27,True,25,2393,64,230,4,0,4,MERGED
+1774,chore: fix Make script when failed,thinkerou,2019-02-20T04:02:09Z,2019-02-21T12:32:56+00:00,1,32.51,True,4,1,1,927,1,0,1,MERGED
+1771,Change color methods in using defaultLogger function to public,sairoutine,2019-02-13T10:25:53Z,2019-02-22T08:48:55+00:00,2,214.38,True,67,37,2,9,1,0,1,MERGED
+1765,Make silent debug info on tests,vkd,2019-02-07T10:23:48Z,2019-02-18T02:10:45+00:00,1,255.78,True,27,19,5,136,1,0,1,MERGED
+1764,fix many redirects (#1760),vkd,2019-02-06T18:19:37Z,2019-02-18T01:35:09+00:00,2,271.26,True,42,0,2,82,1,1,2,MERGED
+1761,fix travis freeze on concurrent test,vkd,2019-02-03T20:09:30Z,2019-02-04T01:27:01+00:00,2,5.29,True,12,4,1,313,1,0,1,MERGED
+1752,Add response size to LogFormatterParams,phacops,2019-01-27T18:40:59Z,2019-02-22T05:12:06+00:00,1,610.52,True,4,0,1,81,2,0,2,MERGED
+1751,chore: attempt to fix some gomod issue,thinkerou,2019-01-24T10:46:05Z,2019-01-25T18:28:40+00:00,1,31.71,True,43,85,3,129,1,0,1,MERGED
+1749,"refactor(form_mapping.go): mapping ptr, struct and map",vkd,2019-01-22T18:36:39Z,2019-03-03T06:39:44+00:00,14,948.05,True,314,123,4,971,2,10,12,MERGED
+1747,Fix not to pass formatted string to Fprintf's format specifier parameter,sairoutine,2019-01-19T11:31:38Z,2019-01-20T00:39:10+00:00,1,13.13,True,1,1,1,47,3,0,3,MERGED
+1745,fix Context.Next() - recheck len of handlers every iteration,vkd,2019-01-17T08:48:38Z,2019-01-18T01:57:07+00:00,3,17.14,True,41,1,4,3054,2,1,3,MERGED
+1740,add notify accept signal,awkj,2019-01-10T10:15:47Z,2019-02-19T16:02:38+00:00,1,965.78,True,10,2,2,491,5,0,5,MERGED
+1739,fix errcheck warnings,vkd,2019-01-09T20:49:25Z,2019-01-18T01:32:55+00:00,2,196.72,True,122,83,19,86,0,0,0,MERGED
+1736,"Revert ""context: inherits context cancelation and deadline from http.Request context for Go>=1.7 (#1690)""",thinkerou,2019-01-08T13:39:11Z,2019-01-09T01:32:44+00:00,1,11.89,True,28,118,4,206,1,0,1,MERGED
+1733,allow ignoring field on form mapping,bazaglia,2019-01-05T17:29:25Z,2019-02-22T04:23:53+00:00,4,1138.91,True,28,0,2,308,4,1,5,MERGED
+1729,Add context.HandlerNames(),lggomez,2019-01-02T16:59:23Z,2019-02-26T04:15:41+00:00,1,1307.27,True,26,0,2,107,3,0,3,MERGED
+1728,fix password error,ryapp,2019-01-02T12:38:37Z,2019-01-20T10:27:04+00:00,1,429.81,True,1,1,1,381,2,0,2,MERGED
+1726,Fix case of GitHub,jbampton,2018-12-30T03:22:44Z,2018-12-31T01:02:53+00:00,1,21.67,True,2,2,1,0,1,0,1,MERGED
+1724,Add a function to force color in console output,orobardet,2018-12-29T16:08:21Z,2019-02-20T13:14:17+00:00,2,1269.1,True,57,5,3,303,3,0,3,MERGED
+1722,fix render writeHeaders method to make it the same as http.Header.Set,songjiayang,2018-12-29T07:39:26Z,2019-02-22T06:20:24+00:00,1,1318.68,True,4,2,2,9,1,0,1,MERGED
+1719,fix test - auto choose port number,vkd,2018-12-27T09:09:21Z,2018-12-28T02:26:30+00:00,2,17.29,True,2,2,1,0,1,0,1,MERGED
+1718,fix mapping inner structs with correct tag,vkd,2018-12-27T08:29:16Z,2018-12-28T01:57:10+00:00,1,17.46,True,24,1,2,0,1,0,1,MERGED
+1711,Add comment to LogFormatterParams struct's fields,sairoutine,2018-12-21T09:54:32Z,2018-12-25T15:27:24+00:00,1,101.55,True,17,8,1,35,3,0,3,MERGED
+1709,Improvements and more begginer-friendly README,samueldcs,2018-12-20T23:32:57Z,2019-03-05T23:47:01+00:00,2,1800.23,False,23,17,1,105,3,2,5,CLOSED
+1707,chore: attemp to fix #1700,thinkerou,2018-12-20T13:46:44Z,2018-12-25T15:40:12+00:00,1,121.89,True,2,2,1,13,1,0,1,MERGED
+1699,Fix #1693: file.Filename should not be trusted,ganlvtech,2018-12-15T19:30:31Z,2018-12-17T00:13:07+00:00,1,28.71,True,10,2,3,38,1,0,1,MERGED
+1695,ci: exit 1 when build fail,thinkerou,2018-12-12T14:12:24Z,2018-12-25T16:27:46+00:00,1,314.26,True,4,1,1,55,2,0,2,MERGED
+1694,Add BindUri,thinkerou,2018-12-12T11:01:27Z,2018-12-12T15:40:29+00:00,1,4.65,True,56,6,2,11,1,0,1,MERGED
+1690,context: inherits context cancelation and deadline from http.Request context for Go>=1.7,rbeuque74,2018-12-10T18:18:28Z,2018-12-13T03:20:18+00:00,3,57.03,True,118,28,4,612,2,1,3,MERGED
+1682,fix bug,thinkerou,2018-12-05T01:31:39Z,2018-12-05T05:36:50+00:00,3,4.09,True,4,1,1,267,3,1,4,MERGED
+1677,Add LoggerWithFormatter method,sairoutine,2018-12-01T13:44:05Z,2018-12-12T01:05:17+00:00,9,251.35,True,324,24,3,1037,6,2,8,MERGED
+1676,chore: remove wercker yml file,thinkerou,2018-11-29T04:48:34Z,2018-12-04T18:02:04+00:00,1,133.22,True,0,1,1,40,1,0,1,MERGED
+1671,ci: break when test fail,thinkerou,2018-11-27T04:56:09Z,2018-12-05T05:49:03+00:00,1,192.88,True,8,1,2,129,2,0,2,MERGED
+1669,chore: fix test fail,thinkerou,2018-11-26T15:30:04Z,2018-12-04T21:58:36+00:00,1,198.48,True,4,3,2,1684,1,0,1,MERGED
+1667,doc: remove README_ZH.md,thinkerou,2018-11-26T11:56:05Z,2018-11-26T13:05:55+00:00,1,1.16,True,0,1993,1,231,1,0,1,MERGED
+1663,Router: Route StaticFS() not found to Router's NoRoute(),ilijaivanov,2018-11-25T15:23:16Z,2018-11-26T15:01:51+00:00,5,23.64,True,25,2,2,12,2,1,3,MERGED
+1661,add picfit to gin user list,thinkerou,2018-11-25T07:27:13Z,2018-11-25T12:52:47+00:00,1,5.43,True,1,0,1,51,1,0,1,MERGED
+1659,update README_ZH.md,weibaohui,2018-11-24T15:53:22Z,2018-11-25T13:18:01+00:00,2,21.41,True,111,55,1,6,1,0,1,MERGED
+1658,add krakend to gin user list,thinkerou,2018-11-23T15:49:20Z,2018-11-24T12:49:27+00:00,1,21.0,True,1,0,1,56,1,0,1,MERGED
+1657,update README_ZH.md,weibaohui,2018-11-23T15:06:25Z,2018-11-24T11:15:20+00:00,1,20.15,True,46,49,1,6,1,0,1,MERGED
+1653,WriteJSON check response write error,lpxxn,2018-11-20T08:41:48Z,2019-01-20T10:08:31+00:00,1,1465.45,False,34,0,1,484,4,1,5,CLOSED
+1650,Make sure the debug log contains line breaks,andeya,2018-11-19T08:06:38Z,2018-11-22T01:07:01+00:00,2,65.01,True,3,0,1,437,1,0,1,MERGED
+1640,recovery: fix issue about syscall import on google app engine,thinkerou,2018-11-12T10:08:18Z,2018-11-22T01:17:45+00:00,2,231.16,True,4,4,2,124,6,0,6,MERGED
+1638,handle nil body for JSON binding,mllu,2018-11-11T07:52:28Z,2018-11-22T01:55:52+00:00,2,258.06,True,11,0,2,644,2,0,2,MERGED
+1631,Remove go1.6/go1.7 support,thinkerou,2018-11-07T11:03:17Z,2019-05-07T03:08:17+00:00,3,4336.08,False,105,167,18,13,6,2,8,CLOSED
+1626,Fix typos,jbampton,2018-11-05T04:27:06Z,2018-11-05T06:17:05+00:00,1,1.83,True,8,8,7,0,1,0,1,MERGED
+1625,Fix typos,jbampton,2018-11-04T10:23:02Z,2018-11-05T01:13:17+00:00,1,14.84,True,9,9,3,0,1,0,1,MERGED
+1624,Change the `doctype` to be lowercase to be consistent with the rest o…,jbampton,2018-11-04T09:35:49Z,2018-11-05T01:44:00+00:00,1,16.14,True,1,1,1,17,1,0,1,MERGED
+1623,Remove type attribute from HTML script tag to be consistent with the …,jbampton,2018-11-04T05:56:04Z,2018-11-05T01:35:25+00:00,1,19.66,True,1,1,1,160,1,0,1,MERGED
+1621,Change HTML link tags to use HTML5 syntax.,jbampton,2018-11-01T11:56:00Z,2018-11-01T13:48:26+00:00,1,1.87,True,2,2,2,201,1,0,1,MERGED
+1620,Missing the right colon,chenyang929,2018-11-01T11:53:15Z,2018-11-01T14:44:50+00:00,1,2.86,True,1,1,1,406,1,0,1,MERGED
+1619,Added some comments to avoid having golint warnings,denisse-dev,2018-10-31T21:24:13Z,2018-11-01T07:30:19+00:00,1,10.1,True,7,3,2,88,1,0,1,MERGED
+1618,Yaml binding,doxxx,2018-10-31T18:38:12Z,2018-11-06T01:49:46+00:00,5,127.19,True,111,5,7,174,5,3,8,MERGED
+1617,Change HTML input tags to use HTML5 syntax.,jbampton,2018-10-31T12:40:56Z,2018-11-01T08:05:41+00:00,1,19.41,True,11,11,3,157,1,0,1,MERGED
+1616,"FIX r.LoadHTMLGlob(""/path/to/templates"")",forging2012,2018-10-31T03:16:43Z,2018-10-31T12:19:59+00:00,1,9.05,True,1,1,1,85,1,0,1,MERGED
+1615,Added support for SameSite cookie flag,anio,2018-10-29T09:04:05Z,2020-01-20T07:12:45+00:00,2,10750.14,True,6,5,2,53,7,0,7,MERGED
+1614,support ArrayMap for post form,farmerx,2018-10-29T01:17:12Z,2019-05-16T01:39:29+00:00,4,4776.37,False,53,0,2,1649,5,3,8,CLOSED
+1612,support bind uri param,thinkerou,2018-10-28T16:21:08Z,2018-11-22T01:29:49+00:00,4,585.14,True,158,31,8,454,3,1,4,MERGED
+1610,Implement io.ReaderFrom on responseWriter,heyimalex,2018-10-25T19:30:55Z,2022-06-13T20:54:41+00:00,2,31849.4,False,50,18,2,27,2,0,2,CLOSED
+1609,feat(server): Implements RunFd method,yyoshiki41,2018-10-25T10:45:59Z,2018-11-06T02:28:52+00:00,1,279.71,True,54,0,2,1641,1,0,1,MERGED
+1606,Use Writer in Context.Status,willnewrelic,2018-10-24T18:01:23Z,2019-10-17T02:14:45+00:00,4,8576.22,True,1,1,1,163,19,0,19,MERGED
+1601,docs: add photoprism to gin's user list,thinkerou,2018-10-18T12:30:27Z,2018-10-19T03:06:23+00:00,1,14.6,True,1,0,1,186,1,0,1,MERGED
+1600,Pass MaxMultipartMemory when FormFile is called,isgj,2018-10-17T14:31:23Z,2018-10-22T15:01:15+00:00,4,120.5,True,18,2,2,249,4,1,5,MERGED
+1599,Add example to set and get cookies,Clivern,2018-10-16T17:39:51Z,2018-10-17T07:40:57+00:00,1,14.02,True,30,0,1,54,1,0,1,MERGED
+1598,Update hello.go,dickanirwansyah,2018-10-16T17:32:22Z,2019-02-19T09:37:27+00:00,1,3016.08,False,1,0,1,381,1,1,2,CLOSED
+1592,fix(Makefile): golint to new URL,appleboy,2018-10-13T14:56:28Z,2018-10-14T03:05:25+00:00,1,12.15,True,1,1,1,44,1,0,1,MERGED
+1588,add chinese docs,569616226,2018-10-12T16:41:57Z,2018-11-22T15:42:41+00:00,2,983.01,True,1940,0,1,24,2,1,3,MERGED
+1585,replace deprecated HeaderMap with Header(),andriikushch,2018-10-11T15:36:55Z,2018-10-11T23:31:32+00:00,1,7.91,True,44,44,5,61,2,0,2,MERGED
+1583,fix wrong word,zesani,2018-10-08T14:06:27Z,2018-10-08T23:14:22+00:00,1,9.13,True,2,2,1,406,2,0,2,MERGED
+1580,fix(gin): data race warning for gin mode,kplachkov,2018-10-01T18:24:20Z,2024-05-08T01:13:36+00:00,2,49086.82,True,17,25,3,36,9,0,9,MERGED
+1572,feat: add go version judge when print debug warning log,thinkerou,2018-09-26T04:38:52Z,2018-09-26T05:49:12+00:00,1,1.17,True,40,2,2,10,1,0,1,MERGED
+1571,fix: fmt output log to os.Stderr,appleboy,2018-09-26T01:34:46Z,2018-09-27T00:59:45+00:00,2,23.42,True,2,1,1,74,2,0,2,MERGED
+1570,Make logger use a yellow background and a darkgray text for legibility,denisse-dev,2018-09-25T22:18:36Z,2018-09-26T02:28:25+00:00,1,4.16,True,3,3,2,323,1,0,1,MERGED
+1569,attempt to support go module,thinkerou,2018-09-25T15:05:36Z,2018-10-15T04:52:51+00:00,3,469.79,True,64,16,5,121,6,1,7,MERGED
+1565,removed use of sync.pool from HandleContext and added test coverage,japettyjohn,2018-09-23T20:41:29Z,2018-10-01T02:49:40+00:00,2,174.14,True,24,1,2,582,1,0,1,MERGED
+1561,"chore: recover go master build, partial revert #1514",javierprovecho,2018-09-19T15:54:02Z,2018-09-20T01:13:04+00:00,1,9.32,True,5,0,1,100,1,0,1,MERGED
+1560,feat: replace debug log with fmt package.,appleboy,2018-09-19T04:36:01Z,2018-09-19T05:57:01+00:00,1,1.35,True,86,74,3,31,12,0,12,MERGED
+1559,Fix LoadHTML* tests,sponomarev,2018-09-19T03:50:05Z,2018-10-16T00:48:42+00:00,2,644.98,True,166,114,2,691,6,0,6,MERGED
+1555,"Let's user define how he wants to log his routes (eg. JSON, key value, or something else)",jerome-laforge,2018-09-16T18:09:42Z,2018-09-17T04:09:34+00:00,4,10.0,True,51,1,2,11,4,0,4,MERGED
+1554,initial go.mod module definition,thinkerou,2018-09-16T13:03:17Z,2018-09-16T15:22:55+00:00,1,2.33,True,92,0,2,165,0,0,0,MERGED
+1549,chore: add a version file includes gin version,thinkerou,2018-09-15T05:32:37Z,2018-09-17T07:08:12+00:00,3,49.59,True,9,5,2,61,0,1,1,MERGED
+1546,use encode replace json marshal increase json encoder speed,itcloudy,2018-09-14T06:56:43Z,2019-05-21T23:48:51+00:00,2,5992.87,True,12,15,5,413,8,0,8,MERGED
+1544,chore: add some annotations,thinkerou,2018-09-12T13:05:24Z,2018-09-15T02:23:33+00:00,1,61.3,True,97,16,21,71,1,0,1,MERGED
+1541,simplify slice expressions: s[:] => s,quasilyte,2018-09-11T18:20:41Z,2018-09-12T13:21:26+00:00,1,19.01,True,12,12,3,60,1,0,1,MERGED
+1540,remove debug print statements from test code,quasilyte,2018-09-11T18:14:54Z,2018-09-12T01:13:16+00:00,1,6.97,True,0,11,1,69,1,0,1,MERGED
+1539,add new capability to limit accepted connections,Jim-Lambert-Bose,2018-09-11T16:52:49Z,2018-10-16T12:36:04+00:00,2,835.72,False,88,35,13,48,8,4,12,CLOSED
+1533,chore: add release badge for readme,thinkerou,2018-09-05T11:46:37Z,2018-09-22T03:37:29+00:00,1,399.85,True,1,0,1,0,1,0,1,MERGED
+1530,Update: examples/graceful-shutdown/server.go,ffhelicopter,2018-09-04T16:03:28Z,2019-02-20T05:24:30+00:00,5,4045.35,True,10,0,2,613,5,2,7,MERGED
+1529,tree: improve panic information when a catch-all wildcard conflict occurs,thinkerou,2018-09-04T13:12:21Z,2018-09-21T02:21:59+00:00,1,397.16,True,51,2,2,290,3,0,3,MERGED
+1526,Add NewRelic middleware example.,JeremyLoy,2018-09-03T00:15:58Z,2019-02-20T02:41:47+00:00,1,4082.43,True,73,0,3,0,9,0,9,MERGED
+1524,chore: update issue_implate,thinkerou,2018-08-31T09:59:02Z,2018-08-31T16:40:33+00:00,1,6.69,True,1,1,1,0,1,0,1,MERGED
+1521,document: add docs dir and middleware document,thinkerou,2018-08-31T09:20:53Z,2018-10-15T05:01:45+00:00,2,1075.68,True,137,0,1,0,1,0,1,MERGED
+1520,chore: update vendor version,thinkerou,2018-08-30T12:38:05Z,2018-08-30T15:36:53+00:00,1,2.98,True,2,26,1,120,1,0,1,MERGED
+1514,Add golang 1.11.x testing,appleboy,2018-08-27T01:51:37Z,2018-08-30T06:22:51+00:00,1,76.52,True,1,1,1,9,1,0,1,MERGED
+1510,fix go master branch(1.11+) error about Query and Form,thinkerou,2018-08-24T02:00:00Z,2018-09-26T22:51:33+00:00,1,812.86,False,54,4,3,811,13,0,13,CLOSED
+1509,Update README.md,llgoer,2018-08-23T07:40:00Z,2018-08-30T06:29:26+00:00,1,166.82,True,1,1,1,39,6,0,6,MERGED
+1505,docs: add fnproject to gin's user list,javierprovecho,2018-08-22T11:52:28Z,2018-08-31T20:38:16+00:00,2,224.76,True,2,1,1,205,2,0,2,MERGED
+1504,add internal package which includes json package,thinkerou,2018-08-22T09:28:53Z,2018-08-30T11:04:03+00:00,1,193.59,True,5,5,7,521,1,0,1,MERGED
+1503,format readme code import,anoty,2018-08-21T03:53:56Z,2018-08-21T05:29:26+00:00,1,1.59,True,6,3,1,25,1,0,1,MERGED
+1498,render: update msgpack usage,thinkerou,2018-08-19T10:18:46Z,2018-08-19T14:14:02+00:00,1,3.92,True,2,2,1,78,1,0,1,MERGED
+1497,chore: add missing copyright and update if/else,thinkerou,2018-08-19T10:12:12Z,2018-08-19T14:52:44+00:00,1,4.68,True,6,2,2,0,1,0,1,MERGED
+1496,not use protobuf on context but use it on render,thinkerou,2018-08-19T06:21:40Z,2018-08-19T09:39:59+00:00,1,3.31,True,9,9,5,56,1,0,1,MERGED
+1492,Fix typo in README,crispgm,2018-08-16T09:16:39Z,2018-08-17T03:33:24+00:00,1,18.28,True,1,1,1,32,2,0,2,MERGED
+1487,Set default time format in form binding,lokhman,2018-08-14T14:12:00Z,2018-08-17T01:41:57+00:00,1,59.5,True,1,1,1,319,2,0,2,MERGED
+1486,Add support of time pointer fields in form binding,lokhman,2018-08-14T13:41:56Z,2025-06-21T04:23:56+00:00,6,60062.7,False,12,13,2,133,6,2,8,CLOSED
+1485,Add BindXML AND ShouldBindXML #1484,syssam,2018-08-14T09:09:09Z,2018-08-17T01:12:15+00:00,7,64.05,True,94,18,3,35,2,1,3,MERGED
+1483,add issue/pr template explain,thinkerou,2018-08-14T01:51:40Z,2018-08-14T03:35:14+00:00,4,1.73,True,20,0,2,276,1,1,2,MERGED
+1482,chore: use http.Status* instead of hard code,thinkerou,2018-08-13T14:06:39Z,2018-08-14T01:51:57+00:00,2,11.76,True,209,192,20,0,2,0,2,MERGED
+1481, add link for every referenced pull request,thinkerou,2018-08-13T13:12:27Z,2018-08-14T03:48:28+00:00,1,14.6,True,19,18,1,106,1,0,1,MERGED
+1480,Remove: Double negative,awulkan,2018-08-12T19:45:01Z,2018-08-12T20:54:23+00:00,1,1.16,True,1,1,1,45,2,0,2,MERGED
+1479,Add support for Protobuf format response and unit test,salamer,2018-08-12T15:26:01Z,2018-08-19T02:45:57+00:00,4,155.33,True,113,2,6,399,10,3,13,MERGED
+1478,"docs: add changelog for v1.3.0, update authors and version const",javierprovecho,2018-08-12T12:10:41Z,2018-08-14T08:58:52+00:00,7,44.8,True,29,3,3,0,1,1,2,MERGED
+1474,improve render code coverage,thinkerou,2018-08-12T05:08:51Z,2018-08-12T14:02:37+00:00,1,8.9,True,15,0,1,23,1,0,1,MERGED
+1473,improve utils code coverage,thinkerou,2018-08-12T04:43:17Z,2018-08-12T13:38:08+00:00,1,8.91,True,13,0,1,0,1,0,1,MERGED
+1470,chore: add return or remove else for reduce indent,thinkerou,2018-08-10T11:35:37Z,2018-08-12T13:17:58+00:00,1,49.71,True,46,33,2,0,1,0,1,MERGED
+1469,small enhance for cleanPath,thinkerou,2018-08-10T09:17:13Z,2018-08-10T12:50:24+00:00,1,3.55,True,2,2,1,51,1,0,1,MERGED
+1467,chore: add test case for source/function of recovery.go,thinkerou,2018-08-09T05:00:19Z,2018-08-09T09:20:07+00:00,1,4.33,True,20,0,1,0,1,0,1,MERGED
+1463,Attempt to fix #1462,thinkerou,2018-08-07T15:52:30Z,2018-08-12T02:12:34+00:00,1,106.33,True,21,24,2,5,1,0,1,MERGED
+1461,chore: update top bar header,thinkerou,2018-08-07T04:31:41Z,2018-08-07T05:49:31+00:00,2,1.3,True,6,5,1,0,1,0,1,MERGED
+1460,flush operation will overwrite the origin status code,congcongke,2018-08-06T11:26:35Z,2018-08-07T04:41:28+00:00,6,17.25,True,17,0,2,121,3,2,5,MERGED
+1459,interface implement type check,oldtree,2018-08-06T06:47:37Z,2018-08-06T15:08:02+00:00,1,8.34,True,1,0,1,30,1,0,1,MERGED
+1450,add context param query cache,ijaa,2018-07-31T03:23:33Z,2019-05-29T03:25:03+00:00,2,7248.02,True,11,1,1,190,3,0,3,MERGED
+1447,add RelativePath,youngbloood,2018-07-28T05:26:22Z,2019-05-26T00:20:58+00:00,6,7242.91,False,22,7,4,241,10,7,17,CLOSED
+1438,return json if jsonp has not callback,solos,2018-07-20T10:45:59Z,2018-07-20T16:52:56+00:00,1,6.12,True,20,1,2,37,1,0,1,MERGED
+1433,Add tests for context.Stream,dmirogin,2018-07-17T12:57:36Z,2018-08-06T22:44:33+00:00,1,489.78,True,57,0,2,0,2,0,2,MERGED
+1431,Simplify context error,dmirogin,2018-07-17T11:16:41Z,2018-08-05T05:29:26+00:00,1,450.21,True,5,6,2,124,1,0,1,MERGED
+1421,"update assert param(expect, actual) position",vcaesar,2018-07-02T16:10:31Z,2018-07-03T07:39:18+00:00,1,15.48,True,10,10,2,44,1,0,1,MERGED
+1419,Use camel case instead of ALL_CAPS,crispgm,2018-07-02T07:53:30Z,2019-02-22T04:53:48+00:00,1,5637.01,True,5,5,2,26,6,0,6,MERGED
+1417,unify test data,thinkerou,2018-07-01T13:51:08Z,2018-08-12T15:38:32+00:00,1,1009.79,True,23,23,13,22,1,0,1,MERGED
+1413,add comment for context,thinkerou,2018-06-26T13:51:36Z,2018-06-28T09:08:09+00:00,1,43.28,True,15,0,1,44,1,0,1,MERGED
+1411,remove hardcode instead of http status value,thinkerou,2018-06-26T06:17:14Z,2018-06-26T09:21:33+00:00,1,3.07,True,15,13,6,0,1,0,1,MERGED
+1407,add an edge case from httprouter pr,thinkerou,2018-06-23T00:10:08Z,2018-06-23T03:06:28+00:00,1,2.94,True,2,1,2,44,1,0,1,MERGED
+1406,use strings.Split instead of strings.IndexByte,thinkerou,2018-06-22T13:16:34Z,2018-06-22T16:08:59+00:00,1,2.87,True,3,7,1,0,1,0,1,MERGED
+1405,example: fix typo for grpc,thinkerou,2018-06-22T04:39:39Z,2018-06-22T15:44:46+00:00,1,11.09,True,1,1,1,19,1,0,1,MERGED
+1402,vendor: remove vendor package from example folder,thinkerou,2018-06-22T02:03:39Z,2018-06-22T16:45:44+00:00,1,14.7,True,0,61,1,208,1,0,1,MERGED
+1401,add grpc example,thinkerou,2018-06-21T13:42:15Z,2018-06-22T01:51:06+00:00,8,12.15,True,290,2,7,28,7,4,11,MERGED
+1400,utils:  use strings.Split instead of strings.IndexByte,thinkerou,2018-06-20T13:35:13Z,2018-06-21T01:31:43+00:00,1,11.94,True,1,4,1,1430,1,0,1,MERGED
+1398,support h2c with prior knowledge,taoso,2018-06-20T00:24:48Z,2022-02-05T13:13:21+00:00,2,31836.81,True,54,4,4,328,20,0,20,MERGED
+1394,add go version prerequisite and debug warning,thinkerou,2018-06-14T08:21:21Z,2018-06-26T10:56:44+00:00,2,290.59,True,64,54,3,9,1,0,1,MERGED
+1391,Add mutex for protect Context.Keys map,AcoNCodes,2018-06-12T11:39:25Z,2020-03-16T16:52:03+00:00,3,15437.21,True,11,1,2,94,11,0,11,MERGED
+1390,get matched route from context,lftk,2018-06-12T04:51:11Z,2019-05-26T00:20:48+00:00,4,8347.49,False,78,7,6,118,24,1,25,CLOSED
+1387,binding: support map for map form,thinkerou,2018-06-10T04:57:37Z,2019-03-02T01:21:06+00:00,1,6356.39,False,66,12,2,1707,3,2,5,CLOSED
+1383,Support map as query string or post form parameters,thinkerou,2018-06-06T01:37:41Z,2018-08-06T04:07:12+00:00,1,1466.49,True,121,1,3,382,1,0,1,MERGED
+1371,Add and fix the explanation of `HandleContext`,chainhelen,2018-05-26T11:17:31Z,2018-05-30T01:19:05+00:00,1,86.03,True,15,3,2,233,1,0,1,MERGED
+1370,Don't log requests,dustin-decker,2018-05-25T14:56:09Z,2018-09-23T07:15:24+00:00,3,2896.32,True,17,3,2,113,8,0,8,MERGED
+1367,Handle ResponseWriters that don't implement CloseNotifier,wolfgangmeyers,2018-05-24T02:08:28Z,2018-08-19T16:42:11+00:00,1,2102.56,False,7,1,1,0,2,0,2,CLOSED
+1360,minor typo in routergroup.go,williamchange,2018-05-19T08:15:52Z,2018-05-31T03:41:46+00:00,1,283.43,True,1,1,1,43,1,0,1,MERGED
+1359,doc: update readme for adding binding about skip validate,thinkerou,2018-05-17T12:00:23Z,2018-05-31T06:13:40+00:00,1,330.22,True,4,0,1,8,1,0,1,MERGED
+1358,add json ASCII string render,duguying,2018-05-16T08:05:57Z,2018-07-03T09:17:08+00:00,10,1153.19,True,101,0,5,53,5,4,9,MERGED
+1352,Fix typo in panic() message (extra single quote),aurelienrb,2018-05-10T16:56:08Z,2018-05-11T01:57:22+00:00,1,9.02,True,2,2,1,35,2,0,2,MERGED
+1350,"fix bug, return err when failed binding bool",chainhelen,2018-05-09T19:56:03Z,2018-05-11T14:40:34+00:00,1,42.74,True,24,1,2,1464,6,0,6,MERGED
+1342,support struct pointer,thinkerou,2018-04-29T16:38:04Z,2018-05-01T06:24:19+00:00,1,37.77,True,151,1,3,156,3,0,3,MERGED
+1341,Fix #216: Enable to call binding multiple times in some formats,delphinus,2018-04-29T07:09:33Z,2018-05-11T02:33:34+00:00,13,283.4,True,279,10,9,2907,9,4,13,MERGED
+1336,Add support of pointers in form binding,lokhman,2018-04-25T17:25:38Z,2018-04-26T14:09:35+00:00,1,20.73,True,44,0,2,151,5,0,5,MERGED
+1333,Add Jsonp Support to Context,w169q169,2018-04-25T06:48:51Z,2018-04-26T03:52:20+00:00,3,21.06,True,114,0,6,121,2,1,3,MERGED
+1328,Add example to build single binary with templates,delphinus,2018-04-22T02:21:00Z,2018-04-22T07:04:39+00:00,1,4.73,True,175,1,8,41,4,0,4,MERGED
+1327,unify assert.Equal usage,thinkerou,2018-04-19T23:58:05Z,2018-04-20T02:27:45+00:00,1,2.49,True,110,110,3,33,1,0,1,MERGED
+1325,Add Contents for README because it too long,thinkerou,2018-04-19T15:28:33Z,2018-04-20T01:54:01+00:00,1,10.42,True,41,0,1,0,1,0,1,MERGED
+1324,change README for app-engine example because of goapp deprecation  ,esplo,2018-04-19T02:28:30Z,2018-04-19T04:00:23+00:00,1,1.53,True,4,3,1,134,2,0,2,MERGED
+1304,Serve easily dynamic files with `DataFromReader` context method,jclebreton,2018-04-02T19:45:02Z,2018-05-12T03:00:42+00:00,12,943.26,True,116,0,6,105,6,4,10,MERGED
+1296,Add new method LoadHTMLFilesRecursively for recursively load template files in a folder,math-nao,2018-03-22T23:00:54Z,2020-10-22T12:11:46+00:00,5,22669.18,False,126,1,3,212,8,4,12,CLOSED
+1287,doc(graceful-shutdown): failure to ListenAndServe should be a reason to exit,rbeuque74,2018-03-16T23:08:04Z,2018-03-20T06:05:25+00:00,1,78.96,True,4,4,2,317,1,0,1,MERGED
+1277,fix(binding): Expose validator engine used by the default Validator,sudo-suhas,2018-03-09T04:09:14Z,2018-03-29T06:33:08+00:00,6,482.4,True,161,15,8,687,14,1,15,MERGED
+1274,Updated the Model binding and validation section,mihailo-misic,2018-03-07T19:38:27Z,2019-02-23T12:43:49+00:00,3,8465.09,False,9,10,1,211,2,1,3,CLOSED
+1273,Add Pusher() function for support http2 server push,htobenothing,2018-03-07T15:26:40Z,2018-06-21T01:53:52+00:00,1,2530.45,True,177,1,9,244,15,0,15,MERGED
+1272,Expose HandlerFunc in RouteInfos,loopfz,2018-03-07T08:13:39Z,2018-10-23T02:56:34+00:00,3,5514.72,True,9,6,1,115,4,0,4,MERGED
+1271,Fix intercepting headers in middlewares,tjamet,2018-03-07T00:15:31Z,2022-05-28T00:27:10+00:00,1,37032.19,True,51,1,2,619,4,0,4,MERGED
+1270,add gin panic time log,hellojukay,2018-03-06T02:40:07Z,2018-03-20T06:42:52+00:00,2,340.05,True,7,1,1,151,1,0,1,MERGED
+1264,update for supporting file binding,p581581,2018-03-01T14:38:05Z,2019-03-18T02:16:35+00:00,5,9155.64,True,129,3,4,295,11,2,13,MERGED
+1260,Extend context.File to allow for the content-dispositon attachments via a new method context.Attachment,emman27,2018-02-27T17:07:07Z,2019-03-01T02:17:47+00:00,2,8793.18,True,21,0,2,314,5,0,5,MERGED
+1259,Fix panic stack trace being printed during recovery of broken pipe (#1089),justinfx,2018-02-27T03:19:47Z,2018-11-06T05:40:21+00:00,2,6050.34,True,69,5,2,291,16,0,16,MERGED
+1256,chore(travis): add 1.10 version,easonlin404,2018-02-22T09:57:15Z,2018-02-22T13:00:20+00:00,1,3.05,True,1,0,1,0,1,0,1,MERGED
+1253,Get Body From Context,davidbayo10,2018-02-16T19:39:48Z,2020-02-21T08:49:53+00:00,1,17629.17,False,59,0,2,102,2,0,2,CLOSED
+1252,Added flag to context.Stream indicates if client disconnected in middle of stream,KromDaniel,2018-02-12T19:55:38Z,2019-03-02T15:07:38+00:00,1,9187.2,True,5,4,1,21,1,0,1,MERGED
+1250,"Make """" mode being the same as debug mode",mariokostelac,2018-02-11T21:07:42Z,2018-02-23T01:09:34+00:00,3,268.03,True,7,0,2,441,1,1,2,MERGED
+1249,Add CodeTriage badge to gin-gonic/gin,codetriage-readme-bot,2018-02-11T20:47:29Z,2018-02-22T13:28:50+00:00,1,256.69,True,1,0,1,1595,1,0,1,MERGED
+1238,add prefix from X-Forwarded-Prefix in redirectTrailingSlash,tudurom,2018-01-28T14:44:55Z,2019-02-27T11:56:29+00:00,3,9477.19,True,25,6,2,65,2,1,3,MERGED
+1231,Minor typo in README.md example code,ipandtcp,2018-01-18T01:26:21Z,2018-01-23T02:07:34+00:00,1,120.69,True,1,1,1,11,2,0,2,MERGED
+1219,minor typo in README.md,williamchange,2018-01-02T08:15:09Z,2018-01-23T02:36:37+00:00,2,498.36,True,1,1,1,20,1,0,1,MERGED
+1215,Fix some golint warnings in gin.go,steambap,2017-12-27T08:30:56Z,2017-12-29T09:10:29+00:00,1,48.66,True,7,0,1,13,1,0,1,MERGED
+1209,Fix golint warnings in utils.go,steambap,2017-12-22T05:32:52Z,2017-12-25T05:58:02+00:00,1,72.42,True,7,4,1,13,1,0,1,MERGED
+1206,Minor grammatical correction in README,leothelocust,2017-12-20T20:50:15Z,2017-12-21T02:48:12+00:00,1,5.97,True,1,1,1,0,1,0,1,MERGED
+1204,Doc: Fix typo in documentation of Bind,OrkoHunter,2017-12-19T16:37:39Z,2017-12-20T01:32:40+00:00,1,8.92,True,2,2,1,65,2,0,2,MERGED
+1202,Remove redundant if err != nil check,steambap,2017-12-19T01:21:40Z,2017-12-21T03:00:18+00:00,3,49.64,True,2,4,1,13,1,1,2,MERGED
+1199,README: Small update to clarify on Goroutines,mhilbrunner,2017-12-15T14:12:14Z,2017-12-16T16:52:08+00:00,1,26.66,True,1,1,1,0,1,0,1,MERGED
+1188,Update README.md,miking38,2017-11-30T13:40:15Z,2017-12-17T00:05:30+00:00,1,394.42,True,1,1,1,44,1,0,1,MERGED
+1185,use lower if the struct is private,thinkerou,2017-11-28T02:18:05Z,2017-12-17T05:02:33+00:00,1,458.74,True,12,12,2,0,2,0,2,MERGED
+1184,Linting and optimizing struct memory signature.,BorisBorshevsky,2017-11-26T10:45:15Z,2017-11-29T02:50:15+00:00,1,64.08,True,27,48,11,0,1,0,1,MERGED
+1183,fix(build): remove unused target.,appleboy,2017-11-26T06:10:12Z,2018-01-24T03:06:43+00:00,1,1412.94,True,1,1,1,56,1,0,1,MERGED
+1177,"update assert param(expect, actual) position",thinkerou,2017-11-21T12:11:00Z,2017-11-21T13:18:45+00:00,1,1.13,True,271,271,9,98,1,0,1,MERGED
+1176,add deprecated test case,thinkerou,2017-11-21T02:48:37Z,2017-11-29T08:42:52+00:00,3,197.9,True,56,0,2,0,1,1,2,MERGED
+1174,simple code and increase coverage,thinkerou,2017-11-18T08:01:25Z,2017-11-21T02:03:57+00:00,1,66.04,True,2,6,1,0,1,0,1,MERGED
+1173,Add test cases for RunTLS and each mode,thinkerou,2017-11-16T15:45:04Z,2017-11-21T01:27:57+00:00,1,105.71,True,155,18,3,0,1,0,1,MERGED
+1170,307 is better than 301,qclaogui,2017-11-13T10:06:26Z,2018-10-23T02:37:33+00:00,1,8248.52,False,1,1,1,26,3,0,3,CLOSED
+1168,Add some test cases and run test cases on binding/render dir,thinkerou,2017-11-12T13:05:19Z,2018-01-26T03:46:12+00:00,1,1790.68,True,957,2,5,437,3,0,3,MERGED
+1166,add package for govendor,thinkerou,2017-11-12T01:37:58Z,2017-11-12T05:11:23+00:00,1,3.56,True,17,5,4,0,7,0,7,MERGED
+1165,format some codes style,thinkerou,2017-11-11T07:26:09Z,2017-11-12T05:24:52+00:00,1,21.98,True,9,16,4,0,1,0,1,MERGED
+1156,Added simple testing documentation and examples,firstrow,2017-11-01T17:26:34Z,2017-11-12T05:37:32+00:00,1,252.18,True,72,1,3,306,5,0,5,MERGED
+1155,Fix up syntax error in README,dlackty,2017-11-01T15:23:57Z,2017-11-12T05:56:59+00:00,1,254.55,True,1,1,1,0,1,0,1,MERGED
+1149,fix markdown render,thinkerou,2017-10-30T00:51:58Z,2017-10-30T02:38:38+00:00,1,1.78,True,4,4,1,5,1,0,1,MERGED
+1146,not use aliase when import package,thinkerou,2017-10-27T03:02:31Z,2017-10-29T12:12:23+00:00,1,57.16,True,4,9,4,0,2,0,2,MERGED
+1144,Update comment to reflect correct constant.,mst-ableton,2017-10-26T15:05:29Z,2017-11-02T13:48:55+00:00,1,166.72,True,1,1,1,51,3,0,3,MERGED
+1138,support default value for form,thinkerou,2017-10-24T02:45:06Z,2018-04-25T08:24:04+00:00,10,4397.65,True,68,1,2,115,4,3,7,MERGED
+1134,Set socket to recieve writes,astralarya,2017-10-18T21:27:19Z,2019-02-22T03:45:33+00:00,1,11790.3,True,1,0,1,11,1,0,1,MERGED
+1131,List the handlers on startup,jithinjk,2017-10-17T09:10:12Z,2019-09-06T08:27:03+00:00,3,16535.28,False,65,1,4,264,10,1,11,CLOSED
+1121,Print warning log when user create one engine using gin.Default in debug mode,thinkerou,2017-09-28T23:01:42Z,2017-09-29T03:58:58+00:00,1,4.95,True,25,0,3,10,1,0,1,MERGED
+1119,feat: add multiple service example.,appleboy,2017-09-28T07:10:54Z,2017-09-29T08:48:11+00:00,1,25.62,True,156,0,2,8,1,0,1,MERGED
+1117,Support time location on form binding,delphinus,2017-09-25T04:08:35Z,2017-09-28T14:23:19+00:00,1,82.25,True,21,8,2,216,1,0,1,MERGED
+1112,"Support negotiation wildcards, fix #391",Equim-chan,2017-09-17T10:45:48Z,2019-03-01T02:03:15+00:00,3,12711.29,True,38,3,2,40,2,1,3,MERGED
+1108,combine var and use tmp var,thinkerou,2017-09-14T13:04:55Z,2017-09-28T14:54:38+00:00,1,337.83,True,27,21,1,0,1,0,1,MERGED
+1105,travis: add 1.9.x instead 1.9 to go version,dvrkps,2017-09-11T10:38:00Z,2017-09-11T14:33:19+00:00,1,3.92,True,1,1,1,28,1,0,1,MERGED
+1104,Fixed README.md typo,kristoiv,2017-09-09T18:10:10Z,2017-09-11T14:17:26+00:00,2,44.12,True,3,3,3,0,4,0,4,MERGED
+1103,fix typo,thinkerou,2017-09-07T23:41:07Z,2017-09-08T00:56:57+00:00,1,1.26,True,1,1,1,0,1,0,1,MERGED
+1101,Empty string check,thinkerou,2017-09-07T03:43:15Z,2017-09-28T16:22:35+00:00,1,516.66,True,11,12,5,84,1,0,1,MERGED
+1100,Moved const 'defaultMemory' to attrib. Engine.MaxMultipartMemory instead.,dmlambea,2017-09-05T11:06:46Z,2017-09-07T03:45:17+00:00,1,40.64,True,20,5,5,323,1,0,1,MERGED
+1097,doc(recovery): add RecoveryWithWriter doc,easonlin404,2017-09-04T15:41:32Z,2017-09-05T01:17:54+00:00,1,9.61,True,1,0,1,5,1,0,1,MERGED
+1094,32 << 10 != 32 Mb,necryin,2017-09-03T16:42:12Z,2017-09-04T01:15:51+00:00,1,8.56,True,4,2,1,91,1,0,1,MERGED
+1092,correct spelling mistake,EdwardBetts,2017-09-01T11:36:35Z,2017-09-01T14:02:26+00:00,1,2.43,True,1,1,1,0,1,0,1,MERGED
+1088,doc(context): add cookie doc,easonlin404,2017-08-28T08:46:17Z,2017-08-28T19:38:53+00:00,1,10.88,True,7,0,1,9,0,0,0,MERGED
+1082,add 1.9 version.,appleboy,2017-08-26T04:47:02Z,2017-08-26T08:48:56+00:00,1,4.03,True,1,0,1,45,1,0,1,MERGED
+1081,Use standard library for retrieving header,dmarkham,2017-08-25T17:23:27Z,2017-08-26T04:53:27+00:00,1,11.5,True,1,4,1,79,1,0,1,MERGED
+1080,Update readme for adding tag example of binding time field,gitbundle-ops,2017-08-24T17:11:37Z,2017-08-25T01:06:13+00:00,1,7.91,True,10,2,1,0,1,0,1,MERGED
+1077,not use dot when import package,thinkerou,2017-08-24T13:19:58Z,2017-08-25T01:13:54+00:00,1,11.9,True,4,4,1,13,1,0,1,MERGED
+1076,reduce go cyclo,thinkerou,2017-08-24T09:21:18Z,2017-08-25T01:00:49+00:00,3,15.66,True,2,5,1,0,1,1,2,MERGED
+1074,doc(readme): update writing logs section wording.,easonlin404,2017-08-23T16:19:47Z,2017-08-24T02:50:31+00:00,3,10.51,True,6,5,1,0,1,1,2,MERGED
+1072,not display color when set disableColor,thinkerou,2017-08-21T15:28:47Z,2017-08-22T02:27:29+00:00,1,10.98,True,4,3,1,33,1,0,1,MERGED
+1068,feat: Add support for custom validation tags,sudo-suhas,2017-08-16T04:14:30Z,2017-08-27T07:37:40+00:00,4,267.39,True,175,13,5,278,9,0,9,MERGED
+1067,fix 200 to http.Status,KeisukeYamashita,2017-08-15T11:55:21Z,2017-08-16T01:50:43+00:00,1,13.92,True,2,2,1,73,1,0,1,MERGED
+1064,fix(test): only check Location header,easonlin404,2017-08-13T13:48:37Z,2017-08-14T03:02:31+00:00,3,13.23,True,13,13,1,60,1,1,2,MERGED
+1060,align log format,thinkerou,2017-08-11T02:00:14Z,2017-08-14T06:34:29+00:00,1,76.57,True,1,1,1,67,3,0,3,MERGED
+1059,merge args if it have same type,thinkerou,2017-08-09T15:44:40Z,2017-08-14T04:21:06+00:00,2,108.61,True,1,1,1,0,1,0,1,MERGED
+1057,update comment,thinkerou,2017-08-08T12:40:55Z,2017-08-16T03:55:50+00:00,1,183.25,True,48,49,13,162,1,0,1,MERGED
+1056,doc(readme): add additional middleware doc.,easonlin404,2017-08-07T09:17:11Z,2017-08-17T04:18:50+00:00,1,235.03,True,4,0,1,18,1,0,1,MERGED
+1054,refactor(test): unify assert.Equal usage,easonlin404,2017-08-04T04:44:34Z,2017-08-04T05:45:59+00:00,1,1.02,True,57,57,5,0,1,0,1,MERGED
+1051,"fix composite literal uses unkeyed fields warnings, #1050",easonlin404,2017-08-01T16:34:04Z,2017-08-02T15:00:11+00:00,1,22.44,True,2,2,1,0,1,0,1,MERGED
+1049,doc(context):  more clearer bind doc when input is not valid,easonlin404,2017-07-31T17:07:03Z,2017-08-01T04:49:28+00:00,1,11.71,True,1,1,1,28,1,0,1,MERGED
+1047,ShouldBind counterparts for Bind methods,sudo-suhas,2017-07-31T07:24:16Z,2017-10-23T09:14:10+00:00,3,2017.83,True,138,14,3,2167,16,0,16,MERGED
+1043,Adds a new StringHTML Render method,afiune,2017-07-27T19:59:31Z,2024-11-25T05:14:43+00:00,2,64257.25,False,63,3,5,260,12,2,14,CLOSED
+1042,doc(context): add status func comment.,easonlin404,2017-07-27T16:57:35Z,2017-07-28T00:50:58+00:00,1,7.89,True,1,0,1,0,1,0,1,MERGED
+1038,update template example,thinkerou,2017-07-20T15:05:51Z,2017-07-21T02:29:24+00:00,1,11.39,True,65,22,2,0,4,0,4,MERGED
+1036,remove invalid return,thinkerou,2017-07-19T09:42:41Z,2017-07-19T12:49:19+00:00,2,3.11,True,2,3,2,9,1,0,1,MERGED
+1035,feat(Benchmark): update benchmark data,appleboy,2017-07-19T03:25:36Z,2017-07-19T07:40:05+00:00,3,4.24,True,635,330,2,1755,3,1,4,MERGED
+1033,chore(vendor): update jsoniter package.,appleboy,2017-07-18T03:39:03Z,2017-07-18T21:06:15+00:00,1,17.45,True,3,3,1,61,1,0,1,MERGED
+1032,not use tmp var,thinkerou,2017-07-18T01:53:18Z,2017-07-18T03:39:40+00:00,1,1.77,True,1,2,1,0,1,0,1,MERGED
+1031,use return not use else for reducing indent,thinkerou,2017-07-17T23:34:18Z,2017-07-18T01:11:54+00:00,3,1.63,True,8,6,1,0,1,1,2,MERGED
+1030,dos(upload): fix alignment,easonlin404,2017-07-17T17:05:19Z,2017-07-18T01:23:11+00:00,1,8.3,True,3,3,1,0,1,0,1,MERGED
+1029,feat(context): add BindQuery func,easonlin404,2017-07-17T16:57:38Z,2017-07-19T07:50:05+00:00,4,38.87,True,109,1,6,60,3,1,4,MERGED
+1028,use return not use else,thinkerou,2017-07-17T15:47:11Z,2017-07-18T00:54:39+00:00,1,9.12,True,6,4,1,0,1,0,1,MERGED
+1027,style(msgpack): remove redundant comments,easonlin404,2017-07-17T09:31:58Z,2017-07-17T10:57:59+00:00,1,1.43,True,0,4,1,0,1,0,1,MERGED
+1026,refactor(json): Restore gin support for app engine,appleboy,2017-07-17T02:08:08Z,2017-07-18T21:01:29+00:00,6,42.89,True,47,9,7,252,25,2,27,MERGED
+1024,"docs(readme): add reference to validator.v8 docs, close #738",javierprovecho,2017-07-16T20:38:33Z,2017-07-17T00:50:45+00:00,1,4.2,True,2,0,1,0,1,0,1,MERGED
+1022,feat(context): add SaveUploadedFile func.,easonlin404,2017-07-15T17:16:25Z,2017-07-16T03:42:09+00:00,2,10.43,True,72,35,5,8,2,2,4,MERGED
+1020,Fix context.Copy() race condition,raphaelgavache,2017-07-14T19:38:53Z,2019-02-26T07:10:17+00:00,2,14195.52,True,29,0,3,1146,7,0,7,MERGED
+1015,upgrade validator version to v9,thinkerou,2017-07-13T14:37:35Z,2019-09-05T13:39:56+00:00,3,18815.04,True,73,42,6,0,39,0,39,MERGED
+1013,right-justified benchmarks data,thinkerou,2017-07-12T14:52:04Z,2017-07-19T03:30:31+00:00,2,156.64,False,294,294,1,44,7,0,7,CLOSED
+1006,use space not tab,thinkerou,2017-07-11T13:45:28Z,2017-07-11T15:28:09+00:00,1,1.71,True,32,31,1,0,1,0,1,MERGED
+1003,update json-iterator revison to fix TestRenderIndentedJSON failed,easonlin404,2017-07-11T02:30:37Z,2017-07-11T05:59:03+00:00,1,3.47,True,4,4,2,61,2,0,2,MERGED
+1000,add http2 example,thinkerou,2017-07-10T13:43:05Z,2017-07-11T01:03:10+00:00,3,11.33,True,97,0,5,0,8,2,10,MERGED
+998,fix(render): remove repeated static check.,easonlin404,2017-07-10T04:36:53Z,2017-07-10T06:45:20+00:00,1,2.14,True,0,1,1,0,1,0,1,MERGED
+997,resolve #368 add option to UseNumber() in gin.Context.BindJSON(),whirosan,2017-07-09T16:23:01Z,2017-07-10T08:33:36+00:00,2,16.18,True,18,1,3,152,2,0,2,MERGED
+994,"docs(readme): add binding html checkbox example, close #129",javierprovecho,2017-07-08T18:23:55Z,2017-07-09T09:02:45+00:00,1,14.65,True,46,0,1,4,1,0,1,MERGED
+992,"chore(vendor): update jsonite rev, close #991",javierprovecho,2017-07-08T17:10:20Z,2017-07-10T06:57:09+00:00,1,37.78,True,3,3,1,4,1,0,1,MERGED
+990,feat: change json lib to jsoniter,appleboy,2017-07-08T08:50:34Z,2017-07-08T10:31:45+00:00,1,1.69,True,23,9,6,184,7,0,7,MERGED
+987,feat: add SecureJSON func to prevent json hijacking,easonlin404,2017-07-07T17:35:08Z,2017-07-08T08:41:42+00:00,1,15.11,True,101,9,6,535,2,0,2,MERGED
+985,Use single line,easonlin404,2017-07-06T17:14:56Z,2017-07-07T00:43:47+00:00,1,7.48,True,2,4,1,0,1,0,1,MERGED
+984,use comma ok and use single line,thinkerou,2017-07-06T13:45:26Z,2017-07-06T14:49:55+00:00,1,1.07,True,2,11,2,0,1,0,1,MERGED
+983,Separate type define,thinkerou,2017-07-06T11:26:41Z,2017-07-06T12:59:27+00:00,1,1.55,True,28,32,2,12,1,0,1,MERGED
+980,Improve serveError code coverage,easonlin404,2017-07-05T16:22:57Z,2017-07-06T01:30:10+00:00,1,9.12,True,12,0,1,63,1,0,1,MERGED
+975,separate type define,thinkerou,2017-07-04T16:42:17Z,2017-07-05T07:47:36+00:00,1,15.09,True,132,140,6,185,1,0,1,MERGED
+974,improved swap,thinkerou,2017-07-04T14:08:52Z,2017-07-05T01:55:50+00:00,1,11.78,True,1,3,1,0,2,0,2,MERGED
+970,add doc.go,thinkerou,2017-07-04T01:44:06Z,2017-07-04T08:17:55+00:00,1,6.56,True,6,0,1,0,7,0,7,MERGED
+963,Improve debug code coverage,easonlin404,2017-07-01T09:16:18Z,2017-07-02T07:29:29+00:00,1,22.22,True,20,0,1,4,1,0,1,MERGED
+962,Made funMaps for the templates configurable and hot-reloadable,tboerger,2017-06-30T19:24:06Z,2017-07-02T08:51:52+00:00,2,37.46,True,75,12,4,122,3,0,3,MERGED
+951,add Makefile for example,thinkerou,2017-06-15T06:26:51Z,2017-06-16T01:07:42+00:00,5,18.68,True,19,0,2,0,3,3,6,MERGED
+945,delete else keyword,thinkerou,2017-06-12T12:31:00Z,2017-06-13T02:36:38+00:00,1,14.09,True,13,13,1,0,1,0,1,MERGED
+944,Improve errors code coverage,easonlin404,2017-06-12T10:35:56Z,2017-06-13T02:37:21+00:00,1,16.02,True,7,0,1,4,1,0,1,MERGED
+921,Add content negotiation tests code coverage,easonlin404,2017-05-27T14:04:31Z,2017-05-29T06:28:38+00:00,1,40.4,True,62,0,1,48,4,0,4,MERGED
+910,panic if err is nil on c.Error,ammario,2017-05-09T00:13:49Z,2017-07-05T13:26:16+00:00,1,1381.21,True,11,0,2,129,6,0,6,MERGED
+904,Fix time.Time binding,andreynering,2017-04-27T12:51:23Z,2017-05-04T01:22:01+00:00,1,156.51,True,5,0,1,57,2,0,2,MERGED
+900,Fix minor type in context.go,rahuldroy,2017-04-25T12:57:46Z,2017-05-04T01:22:48+00:00,1,204.42,True,7,7,1,0,3,0,3,MERGED
+868,Updating IsDebugging docs to remove redundant words.,regner,2017-04-05T19:29:30Z,2017-07-05T14:17:03+00:00,1,2178.79,True,1,1,1,0,1,0,1,MERGED
+863,feat: support Let's Encrypt tls.,appleboy,2017-04-03T13:24:32Z,2017-04-17T07:58:30+00:00,3,330.57,True,106,2,4,79,23,1,24,MERGED
+860,add custom Delims support,shenshouer,2017-04-01T17:02:57Z,2017-05-29T08:03:50+00:00,5,1383.01,True,84,10,4,131,11,2,13,MERGED
+857,feat: add GetRawData func.,appleboy,2017-03-30T07:33:58Z,2017-03-31T00:45:56+00:00,3,17.2,True,17,0,2,26,3,1,4,MERGED
+856,feat(context): add cast helpers to c.Keys,javierprovecho,2017-03-29T15:35:41Z,2017-06-02T01:00:05+00:00,1,1545.41,True,167,0,2,85,3,0,3,MERGED
+839,feat: Support get value from request header.,appleboy,2017-03-17T01:14:23Z,2017-03-24T12:43:23+00:00,1,179.48,True,14,0,2,17,7,0,7,MERGED
+835,docs: add graceful-shutdown example for go 1.8,appleboy,2017-03-15T02:21:11Z,2017-03-16T15:38:30+00:00,1,37.29,True,193,38,7,0,1,0,1,MERGED
+834,feat: support cygwin for log writer.,appleboy,2017-03-14T08:49:31Z,2017-03-16T01:15:41+00:00,7,40.44,True,10,8,3,28,1,1,2,MERGED
+825,Added Sourcegraph badge,rohanpai,2017-03-01T20:51:45Z,2017-03-01T23:03:17+00:00,1,2.19,True,1,0,1,0,1,0,1,MERGED
+819,fix: buffer should reset when test logger output,cssivision,2017-02-28T03:52:28Z,2017-02-28T07:15:53+00:00,1,3.39,True,8,1,1,121,1,0,1,MERGED
+810,The url.RawPath used when engine.UseRawPath is set to true.,egorse,2017-02-18T09:13:55Z,2017-02-28T10:29:42+00:00,2,241.26,True,130,12,4,262,5,0,5,MERGED
+808,Added support for MessagePack binding and rendering,harindup,2017-02-17T21:12:06Z,2017-02-23T14:08:38+00:00,2,136.94,True,138,2,7,0,4,3,7,MERGED
+801,Support time.Time on form binding,andreynering,2017-02-12T20:02:59Z,2017-02-17T13:32:37+00:00,2,113.49,True,42,5,2,358,2,0,2,MERGED
+800,chore(errorHandler):new abortWithStatus method with Json body,pjgg,2017-02-11T13:27:07Z,2017-02-14T01:11:02+00:00,8,59.73,True,37,0,2,94,5,6,11,MERGED
+797,Fixed typos in Context,matbesancon,2017-02-01T09:27:06Z,2017-02-01T14:47:50+00:00,1,5.35,True,1,1,1,41,1,0,1,MERGED
+784,Add upload file example.,appleboy,2017-01-03T03:54:36Z,2017-01-03T16:05:00+00:00,1,12.17,True,170,32,5,28,2,0,2,MERGED
+783,update get client ip func,appleboy,2017-01-03T02:21:58Z,2017-01-03T15:56:17+00:00,1,13.57,True,14,12,2,145,1,0,1,MERGED
+781,Fix #198,javierprovecho,2017-01-02T12:45:08Z,2017-01-09T15:24:48+00:00,5,170.66,True,211,32,12,439,7,3,10,MERGED
+780,Add comment for the logic behind func.,appleboy,2017-01-02T10:02:20Z,2017-01-02T12:54:07+00:00,1,2.86,True,3,0,1,64,0,0,0,MERGED
+779,Add convenience method to check if websockets required,aviddiviner,2017-01-02T01:23:22Z,2017-01-02T08:05:30+00:00,4,6.7,True,32,0,2,397,4,0,4,MERGED
+777,RawPath and Unescape URL parameters,gcnathan,2016-12-29T14:57:08Z,2017-02-28T10:30:03+00:00,1,1459.55,False,87,38,3,506,6,1,7,CLOSED
+775,Support upload single or multiple files.,appleboy,2016-12-24T04:44:12Z,2016-12-27T11:26:55+00:00,1,78.71,True,49,2,2,1129,1,0,1,MERGED
+772,Improve document for #742,appleboy,2016-12-23T01:13:39Z,2017-01-02T02:50:14+00:00,2,241.61,True,34,1,1,97,0,1,1,MERGED
+756,Fix #731,javierprovecho,2016-12-06T19:26:13Z,2016-12-16T16:02:31+00:00,7,236.6,True,92,38,3,536,2,1,3,MERGED
+755,Fix #723,javierprovecho,2016-12-05T10:22:55Z,2016-12-06T14:14:12+00:00,2,27.85,True,30,0,4,0,3,0,3,MERGED
+754,Support google appengine for IsTerminal func.,appleboy,2016-12-04T01:47:12Z,2016-12-04T10:44:33+00:00,1,8.96,True,6,9,2,83,4,0,4,MERGED
+744,Logger: skip ANSI color commands if output is not a tty,aviddiviner,2016-11-17T21:41:07Z,2016-11-30T22:20:25+00:00,2,312.65,True,13,2,1,1471,9,0,9,MERGED
+741,Honor normal gin write contract for context.JSON(),chriswhelix,2016-11-16T00:05:44Z,2016-12-11T02:20:32+00:00,2,602.25,False,6,1,1,543,4,0,4,CLOSED
+728,remove coveralls services.,appleboy,2016-10-28T15:14:42Z,2016-10-28T19:29:00+00:00,1,4.24,True,2,6,2,74,4,0,4,MERGED
+724,Move golang.org/x/net/context.Context interface implementation check to tests,mannaz,2016-10-19T14:38:50Z,2016-12-05T09:55:06+00:00,3,1123.27,True,3,3,2,302,5,0,5,MERGED
+717,Remove net/http optional import from README,krisnova,2016-10-13T05:42:02Z,2016-10-27T05:21:12+00:00,1,335.65,False,0,6,1,402,2,0,2,CLOSED
+710,Removed additional Iota,soniabhishek,2016-09-29T14:02:38Z,2016-10-12T14:18:04+00:00,1,312.26,True,2,2,1,55,3,0,3,MERGED
+709,Added HandleContext to re-enter soft-rewritten Requests.,fbettag,2016-09-23T13:27:08Z,2017-02-10T14:44:55+00:00,2,3361.3,True,9,0,1,1073,2,0,2,MERGED
+707,Make CreateTestContext public without importing net/http/httptest,yehezkielbs,2016-09-21T02:30:51Z,2016-12-05T08:48:30+00:00,2,1806.29,True,88,54,3,0,8,0,8,MERGED
+702,Fix context keys get set,rohan-j-shah,2016-09-12T08:55:04Z,2018-12-06T13:11:18+00:00,1,19564.27,False,29,10,4,56,9,1,10,CLOSED
+701,Context.Get() does not need to test whether Keys is nil or not,maxatome,2016-09-09T09:42:00Z,2016-12-06T19:39:01+00:00,1,2121.95,True,1,3,1,95,5,0,5,MERGED
+694,Add PureJSON renderer,ffigiel,2016-08-31T18:02:49Z,2018-08-20T07:15:31+00:00,7,17245.21,True,133,4,8,11,24,12,36,MERGED
+637,Remove an obsolete func in README,tatsuyafw,2016-06-07T22:47:06Z,2016-12-05T09:47:24+00:00,2,4331.01,True,1,1,1,78,3,0,3,MERGED
+631,Fix incorrect error implmentation,tevjef,2016-05-29T20:09:01Z,2016-12-05T09:58:31+00:00,2,4549.82,True,1,1,1,34,2,0,2,MERGED
+627,fix default log format,liudanking,2016-05-26T08:23:09Z,2016-12-05T09:49:16+00:00,2,4633.44,True,1,1,1,64,2,0,2,MERGED
+623,better display for log message,novaeye,2016-05-19T09:46:58Z,2017-01-05T08:29:34+00:00,2,5542.71,True,1,1,1,0,3,0,3,MERGED
+622,add Engine.ResetRoutes() for clean existed routes,tsaikd,2016-05-19T06:22:49Z,2019-05-20T12:45:38+00:00,4,26310.38,False,20,0,2,38,10,2,12,CLOSED
+570,Implement QueryArray and PostFormArray methods,andreynering,2016-03-30T01:00:36Z,2016-12-03T00:12:19+00:00,2,5951.2,True,70,5,2,127,4,0,4,MERGED
+525,Made Context.RequestHeader(string) public access.,spxrogers,2016-02-01T18:22:51Z,2017-05-01T15:15:10+00:00,1,10916.87,False,7,9,1,288,1,0,1,CLOSED
+520,add import path to .travis.yml,178inaba,2016-01-27T17:45:07Z,2017-07-08T17:17:14+00:00,1,12671.54,True,2,0,1,526,0,0,0,MERGED
+382,Listen to CloseNotifier in stream handler.,spynup,2015-07-22T19:21:49Z,2019-03-01T15:45:53+00:00,2,31628.4,False,8,2,1,941,4,0,4,CLOSED

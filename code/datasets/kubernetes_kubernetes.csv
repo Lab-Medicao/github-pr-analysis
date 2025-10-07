@@ -33,9 +33,9 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 134271,Add nil scheme check in GetReference,Jefftree,2025-09-25T14:29:54Z,2025-09-25T21:54:15+00:00,1,7.41,True,42,1,2,408,2,0,2,MERGED
 134270,Automated cherry pick of #134265: kubeadm: ensure waiting for apiserver uses a local client,neolit123,2025-09-25T13:58:01Z,2025-09-26T07:22:19+00:00,2,17.41,True,78,38,10,393,11,0,11,MERGED
 134269,Automated cherry pick of #134265: kubeadm: ensure waiting for apiserver uses a local client,neolit123,2025-09-25T13:57:43Z,2025-09-26T07:22:19+00:00,2,17.41,True,78,38,10,393,10,0,10,MERGED
-134268,gce: Fix etcd manifest,joshjms,2025-09-25T13:05:52Z,2025-09-28T15:00:16+00:00,6,73.91,True,27,16,2,319,12,2,14,MERGED
+134268,gce: Fix etcd manifest,joshjms,2025-09-25T13:05:52Z,2025-09-28T15:00:16+00:00,6,73.91,True,27,16,2,319,13,2,15,MERGED
 134265,kubeadm: ensure waiting for apiserver uses a local client,neolit123,2025-09-25T11:54:23Z,2025-09-25T13:36:21+00:00,7,1.7,True,58,36,8,1039,13,2,15,MERGED
-134262,Automated cherry pick of #132328: clean: use correct pod template,sats-23,2025-09-25T09:54:41Z,2025-10-03T14:39:00+00:00,1,196.74,True,1,1,1,307,18,0,18,MERGED
+134262,Automated cherry pick of #132328: clean: use correct pod template,sats-23,2025-09-25T09:54:41Z,2025-10-03T14:39:00+00:00,1,196.74,True,1,1,1,307,21,0,21,MERGED
 134254,containerd download should be more robust to remove flakiness,dims,2025-09-24T21:13:56Z,2025-09-26T10:04:19+00:00,6,36.84,True,70,33,1,2032,15,2,17,MERGED
 134251,etcd: Update etcd to v3.6.5,joshjms,2025-09-24T17:14:52Z,2025-10-03T14:00:58+00:00,12,212.77,True,11,11,7,331,45,1,46,MERGED
 134247,"Automated cherry pick of #134245: Revert ""fix: handle corner cases in the async preemption""",macsko,2025-09-24T15:01:15Z,2025-09-26T09:52:19+00:00,1,42.85,True,39,127,3,293,7,0,7,MERGED
@@ -141,7 +141,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 133933,Clean up duplicate logs,zhifei92,2025-09-08T13:38:05Z,2025-09-08T21:05:44+00:00,1,7.46,True,0,1,1,313,3,0,3,MERGED
 133931,Wait the readiness of pods for all the containers generate logs,ardaguclu,2025-09-08T12:25:34Z,2025-09-19T11:20:13+00:00,4,262.91,True,3,0,1,587,6,1,7,MERGED
 133930,chore(kubelet): migrate stats to contextual logging,bart0sh,2025-09-08T12:16:42Z,2025-09-08T21:05:36+00:00,1,8.81,True,134,102,12,274,8,0,8,MERGED
-133929,scheduler/volumebinding: passive assume cache,huww98,2025-09-08T11:48:57Z,2025-10-02T15:42:57+00:00,23,579.9,True,805,571,7,3371,28,15,43,MERGED
+133929,scheduler/volumebinding: passive assume cache,huww98,2025-09-08T11:48:57Z,2025-10-02T15:42:57+00:00,23,579.9,True,805,571,7,3371,29,15,44,MERGED
 133923,Replace deprecated sets.String with sets.Set in client-go/tools/*,maxcelant,2025-09-08T02:40:24Z,2025-09-12T05:38:06+00:00,6,98.96,True,58,57,11,605,29,1,30,MERGED
 133921,update prometheus' client_golang and common packages,dims,2025-09-07T21:25:33Z,2025-09-10T17:26:05+00:00,6,68.01,True,25966,20254,268,907,13,2,15,MERGED
 133918,fix: ConfigFlags cert/key override validation issue,akhilsingh-git,2025-09-07T11:23:59Z,2025-09-12T11:02:03+00:00,2,119.63,False,238,3,3,952,13,1,14,CLOSED
@@ -149,3 +149,853 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 133910,Fix GracefulNodeShutdown perma failing test,bitoku,2025-09-05T15:33:11Z,2025-09-08T14:39:39+00:00,6,71.11,True,0,22,1,870,19,1,20,MERGED
 133907,Remove redundant experimental prefix in wait command,ardaguclu,2025-09-05T13:10:16Z,2025-09-05T18:13:33+00:00,1,5.05,True,1,1,1,287,7,0,7,MERGED
 133905,Automated cherry pick of #133890: kubelet/metrics: fix multiple Register call,huww98,2025-09-05T06:54:45Z,2025-09-26T08:34:19+00:00,2,505.66,True,12,12,5,210,6,0,6,MERGED
+133904,Change WaitForNamedCacheSync to WaitForNamedCacheSyncWithContext,aditigupta96,2025-09-05T06:43:24Z,2025-09-11T01:48:03+00:00,3,139.08,True,13,13,13,284,14,0,14,MERGED
+133900,fix typo for sattsfied,lucming,2025-09-05T02:39:18Z,2025-09-05T10:39:25+00:00,1,8.0,True,2,2,1,271,8,0,8,MERGED
+133898,Update client-go compatibility matrix to include releases up to 1.34,HadrienPatte,2025-09-04T21:49:28Z,2025-09-08T16:23:29+00:00,1,90.57,True,12,12,1,296,8,0,8,MERGED
+133896,fix: Only warn for unrecognized formats on type=string,yongruilin,2025-09-04T20:50:56Z,2025-09-04T23:03:14+00:00,7,2.21,True,33,13,3,559,6,1,7,MERGED
+133894,Add k8s-long-name and k8s-short-name  format validation tags,lalitc375,2025-09-04T17:44:17Z,2025-09-05T08:01:36+00:00,1,14.29,True,801,0,11,1649,13,0,13,MERGED
+133893,Kubeadm: Close container runtime connections after use,HirazawaUi,2025-09-04T14:45:37Z,2025-09-06T08:35:25+00:00,8,41.83,True,20,0,4,502,5,3,8,MERGED
+133888,hpa: prevent integer overflow in external metrics sum,omerap12,2025-09-04T08:42:34Z,2025-09-05T20:45:32+00:00,1,36.05,True,24,0,2,848,6,0,6,MERGED
+133886,Cleanup enabling resource size estimate,serathius,2025-09-04T07:43:56Z,2025-09-10T12:36:01+00:00,7,148.87,True,118,132,9,88,6,3,9,MERGED
+133883,Fix incorrect description of feature PodObservedGenerationTracking,yangjunmyfm192085,2025-09-04T06:33:18Z,2025-09-09T15:46:07+00:00,2,129.21,True,13,13,7,587,7,1,8,MERGED
+133881,"WIP: Add recognized CRD formats: int32, int64, float, and double",mjlshen,2025-09-04T04:43:52Z,2025-09-04T23:26:15+00:00,5,18.71,False,10,0,2,986,6,1,7,CLOSED
+133879,Automated cherry pick of #133873: Disable estimating resource size for resources with watch cache disabled,serathius,2025-09-03T21:55:41Z,2025-09-04T08:13:17+00:00,1,10.29,True,36,5,3,361,6,0,6,MERGED
+133875,apply integration test: fix ordering test flake,pohly,2025-09-03T14:53:44Z,2025-09-03T21:03:23+00:00,6,6.16,True,9,1,1,2565,5,1,6,MERGED
+133873,Disable estimating resource size for resources with watch cache disabled,serathius,2025-09-03T13:54:36Z,2025-09-03T19:55:20+00:00,4,6.01,True,36,5,3,610,19,2,21,MERGED
+133871,Ensure that storage only accesses keys from under resourcePrefix,serathius,2025-09-03T10:24:03Z,2025-09-11T07:08:07+00:00,8,188.73,True,88,88,10,39,21,3,24,MERGED
+133868,Enforce that all resources set resourcePrefix,serathius,2025-09-03T08:24:44Z,2025-09-04T02:07:14+00:00,8,17.71,True,112,72,14,61,7,3,10,MERGED
+133867,scheduler-perf: fix data race in createPodsSteadily,pohly,2025-09-03T07:40:32Z,2025-09-03T13:27:22+00:00,2,5.78,True,2,0,1,924,6,1,7,MERGED
+133866,Automated cherry pick of #133817: Disable collecting stats for resources not setting prefix to prevent error logs,serathius,2025-09-03T07:23:58Z,2025-09-03T19:07:17+00:00,1,11.72,True,2,1,1,291,7,0,7,MERGED
+133863,Fix typos in help for kubectl create clusterrole,tom1299,2025-09-03T04:32:04Z,2025-09-03T13:37:00+00:00,1,9.08,False,3,3,1,214,8,0,8,CLOSED
+133850,refactor(DRA validation): Add granular controls for declarative validation migration,yongruilin,2025-09-02T17:28:29Z,2025-09-16T22:28:10+00:00,6,340.99,True,32,6,1,557,6,3,9,MERGED
+133842,Update #virtual-ips-and-service-proxies link,B1F030,2025-09-02T13:50:00Z,2025-09-10T13:20:34+00:00,9,191.51,False,45,45,12,1436,10,1,11,CLOSED
+133841,[failing-test] fix kubectl exec command in cmd test,yangjunmyfm192085,2025-09-02T13:34:27Z,2025-09-24T20:02:15+00:00,1,534.46,True,5,5,1,391,6,0,6,MERGED
+133840,Update Nautilus test BASEIMAGES agnhost from 2.33 to 2.57,OsamaNabih,2025-09-02T12:01:39Z,2025-09-15T02:58:08+00:00,2,302.94,True,8,8,2,441,13,0,13,MERGED
+133838,Fix race in movePodsToActiveOrBackoffQueue,macsko,2025-09-02T09:40:16Z,2025-09-06T07:31:25+00:00,1,93.85,True,12,12,5,1138,12,0,12,MERGED
+133837,Update CNI plugins to v1.8.0,saschagrunert,2025-09-02T06:40:36Z,2025-09-03T14:53:15+00:00,1,32.21,True,6,6,5,372,6,0,6,MERGED
+133824,refactor(hpa): improve readability of convertDesiredReplicasWithRules,kincoy,2025-09-01T13:23:11Z,2025-09-02T13:53:22+00:00,1,24.5,False,11,26,1,677,6,0,6,CLOSED
+133823,Update to spf13/pflag to prevent CI break,dims,2025-09-01T12:23:56Z,2025-09-01T18:53:13+00:00,3,6.49,True,930,205,73,628,7,0,7,MERGED
+133818,Update kitten base image from agnhost:2.33 to agnhost:2.57,oyiz-michael,2025-09-01T08:27:31Z,2025-09-17T05:36:10+00:00,3,381.14,True,8,8,2,670,8,0,8,MERGED
+133817,Disable collecting stats for resources not setting prefix to prevent error logs,serathius,2025-09-01T08:23:29Z,2025-09-02T16:31:16+00:00,2,32.13,True,2,1,1,112,11,1,12,MERGED
+133808,Fix/kubectl: add request-level timeout to prevent delete hanging,akintunero,2025-08-31T17:09:11Z,2025-09-10T16:34:09+00:00,3,239.42,False,80,2,3,1503,11,1,12,CLOSED
+133807,Fix/test: increase timeouts for ResourceSlice Controller test to reduce flakiness,akintunero,2025-08-31T17:01:21Z,2025-09-02T01:34:39+00:00,2,32.55,False,4,4,1,1394,9,1,10,CLOSED
+133800,Update volume/iscsi base image from fedora:38 to fedora:42,oyiz-michael,2025-08-31T12:09:52Z,2025-09-13T11:24:07+00:00,4,311.24,True,5,5,2,512,11,1,12,MERGED
+133799,Update volume/nfs base image from centos:7 to centos:stream9,oyiz-michael,2025-08-31T11:57:35Z,2025-09-03T06:03:13+00:00,1,66.09,True,6,6,3,374,15,0,15,MERGED
+133792,Lock down AllowOverwriteTerminationGracePeriodSeconds,HirazawaUi,2025-08-30T14:20:19Z,2025-09-04T16:13:18+00:00,2,121.88,True,6,1,3,536,10,0,10,MERGED
+133790,Fix flaky resource claim metrics test,Jpsassine,2025-08-29T23:24:02Z,2025-09-11T11:40:08+00:00,7,300.27,True,12,8,1,1130,10,3,13,MERGED
+133786,Use consistent documentation of aliases in the API,jpbetz,2025-08-29T19:50:33Z,2025-08-29T21:15:09+00:00,1,1.41,True,46,25,8,296,7,0,7,MERGED
+133783,Automated cherry pick of #133771: Fix completion of resource names,vpnachev,2025-08-29T12:37:22Z,2025-09-04T10:37:14+00:00,2,142.0,True,100,3,2,205,11,0,11,MERGED
+133782,lock DisableAllocatorDualWrite,aojea,2025-08-29T11:49:16Z,2025-09-02T05:43:41+00:00,3,89.91,True,10,5,3,341,10,1,11,MERGED
+133781,test/integration/apiserver: fix several data races,pohly,2025-08-29T10:49:40Z,2025-09-02T20:09:17+00:00,19,105.33,True,43,21,5,620,9,3,12,MERGED
+133777,refactor(event): simplify conditional logic in event handling,yshngg,2025-08-29T09:07:16Z,2025-09-11T01:47:56+00:00,1,304.68,True,2,2,2,324,10,0,10,MERGED
+133776,Automated cherry pick of #133513: Add missing conversion for timeoutForControlPlane,HirazawaUi,2025-08-29T08:28:25Z,2025-09-03T06:33:15+00:00,1,118.08,True,5,0,1,338,5,0,5,MERGED
+133774,Remove deprecated pod-infra-container-image flag,carlory,2025-08-29T07:14:37Z,2025-08-29T10:03:53+00:00,14,2.82,False,4,34,5,426,15,1,16,CLOSED
+133772,test: De-flake TestReflectorNotStoppedOnSlowInitialization,aditigupta96,2025-08-29T05:13:45Z,2025-09-01T16:59:49+00:00,3,83.77,False,1,1,1,1121,8,2,10,CLOSED
+133768,"Add  +k8s:ifEnabled, +k8s:ifDisabled and +k8s:enumExclude tags",jpbetz,2025-08-28T23:54:58Z,2025-09-03T04:41:13+00:00,3,124.77,True,1543,271,24,1248,8,2,10,MERGED
+133765,restore partial functionality of public func `AuditEventFrom` which was deleted by #129472,cfryanr,2025-08-28T21:09:08Z,2025-09-30T16:14:18+00:00,5,787.09,True,174,0,2,2077,15,2,17,MERGED
+133762,[InPlacePodVerticalScaling] Expand coverage for resourceQuota and limitRanger e2e tests,natasha41575,2025-08-28T19:37:44Z,2025-10-02T07:10:56+00:00,21,827.55,True,437,146,1,556,11,7,18,MERGED
+133760,drop spammy xtrace from hack/test scripts,BenTheElder,2025-08-28T19:22:09Z,2025-08-28T20:27:09+00:00,3,1.08,True,0,3,3,497,5,1,6,MERGED
+133755,Automated cherry pick of #133513: Add missing conversion for timeoutForControlPlane,HirazawaUi,2025-08-28T14:59:20Z,2025-09-03T06:33:15+00:00,1,135.57,True,5,0,1,338,5,0,5,MERGED
+133754,Automated cherry pick of #133513: Add missing conversion for timeoutForControlPlane,HirazawaUi,2025-08-28T14:57:13Z,2025-09-03T06:33:15+00:00,1,135.6,True,5,0,1,338,5,0,5,MERGED
+133753,Automated cherry pick of #133513: Add missing conversion for timeoutForControlPlane,HirazawaUi,2025-08-28T14:56:28Z,2025-09-03T06:33:15+00:00,1,135.61,True,5,0,1,338,6,0,6,MERGED
+133749,Automated cherry pick of #132477: Fix DaemonSet misscheduled status not updating on node taint changes,xigang,2025-08-28T10:07:53Z,2025-09-04T12:45:16+00:00,2,170.62,True,34,1,2,197,9,0,9,MERGED
+133747,DRA: CRUD conformance tests,pohly,2025-08-28T09:15:44Z,2025-10-03T03:22:56+00:00,77,858.12,True,1750,3,13,826,25,40,65,MERGED
+133746,Automated cherry pick of #133425: Fix SELinux label comparison,jsafrane,2025-08-28T08:31:23Z,2025-09-04T09:27:25+00:00,1,168.93,True,147,24,5,238,8,0,8,MERGED
+133745,Automated cherry pick of #133425: Fix SELinux label comparison,jsafrane,2025-08-28T08:29:33Z,2025-09-04T15:31:17+00:00,1,175.03,True,147,24,5,238,12,0,12,MERGED
+133744,Remove GA feature gate StatefulSetAutoDeletePVC,carlory,2025-08-28T08:06:06Z,2025-08-29T02:54:26+00:00,2,18.81,False,137,491,22,413,5,1,6,CLOSED
+133742,Remove GA feature gate ComponentSLIs,carlory,2025-08-28T06:49:13Z,2025-09-02T05:43:34+00:00,2,118.91,True,1,30,2,453,7,1,8,MERGED
+133741,cleanup: remove redundant type conversions in podautoscaler,kincoy,2025-08-28T06:33:47Z,2025-09-01T11:35:20+00:00,2,101.03,True,6,6,5,359,7,0,7,MERGED
+133740,add events.events.k8s.io to clusterrole view/edit default,pacoxu,2025-08-28T04:53:15Z,2025-09-03T15:45:15+00:00,1,154.87,True,49,7,3,342,6,0,6,MERGED
+133738,cleanup: replace manual signal handling with SetupSignalContext,s-z-z,2025-08-28T03:31:58Z,2025-09-08T16:19:18+00:00,1,276.79,False,7,15,3,378,12,0,12,CLOSED
+133736,Populate pending and ineligible endpoints,dims,2025-08-28T00:28:15Z,2025-08-28T21:57:16+00:00,14,21.48,True,32,0,2,603,11,5,16,MERGED
+133731,Drop experimental prefix from kubectl wait command,ardaguclu,2025-08-27T15:38:26Z,2025-08-28T03:24:50+00:00,1,11.77,True,1,1,1,366,8,0,8,MERGED
+133728,Fix the spelling error of grpc in the log,Frank-svg-dev,2025-08-27T11:17:00Z,2025-09-17T03:00:09+00:00,1,495.72,True,1,1,1,62,12,0,12,MERGED
+133720,Drop SizeMemoryBackedVolumes after the feature GA-ed in 1.32,carlory,2025-08-27T03:20:34Z,2025-09-02T22:33:13+00:00,2,163.21,True,2,35,4,520,14,0,14,MERGED
+133717,Add e2e test for MaxUnavailable StatefulSet RollingUpdate,helayoty,2025-08-26T22:13:40Z,2025-09-18T10:53:42+00:00,10,540.67,True,142,17,3,516,11,8,19,MERGED
+133714,kubelet: fix error message for EnableNodeLogQuery,jrvaldes,2025-08-26T19:15:10Z,2025-09-09T15:45:59+00:00,5,332.51,True,2,2,2,508,11,1,12,MERGED
+133710,Move GetAffinityTerms functions to staging repo,ania-borowiec,2025-08-26T13:11:32Z,2025-08-28T04:39:32+00:00,5,39.47,True,153,145,5,666,9,6,15,MERGED
+133708,fix(controller/podautoscaler): do not print panic when .status.lastScaleTime is not set,ingvagabund,2025-08-26T12:23:01Z,2025-09-01T11:35:13+00:00,2,143.2,True,5,1,1,1165,6,0,6,MERGED
+133707,Remove use of pkg/scheduler/framework.NodeInfo in node_ports.go,ania-borowiec,2025-08-26T12:11:48Z,2025-09-01T02:25:11+00:00,7,134.22,True,79,13,2,526,7,2,9,MERGED
+133697,Codify feature gate dependencies,tallclair,2025-08-25T22:21:10Z,2025-09-30T14:14:19+00:00,14,855.89,True,485,2,5,1634,42,12,54,MERGED
+133695,Fix kube-proxy iptables startup: log but don't exit if ipv4 or ipv6 is not available,prezha,2025-08-25T21:50:20Z,2025-08-26T16:22:11+00:00,10,18.53,True,4,5,1,660,29,3,32,MERGED
+133687,Drop PodIndexLabel after the feature GA-ed in 1.32,soltysh,2025-08-25T12:18:52Z,2025-09-12T14:30:11+00:00,4,434.19,True,20,99,7,366,14,2,16,MERGED
+133686,Drop CronJobsScheduledAnnotation after the feature GA-ed in 1.32,soltysh,2025-08-25T12:01:58Z,2025-08-28T03:24:29+00:00,1,63.38,True,6,38,4,360,5,0,5,MERGED
+133684,Drop StatefulSetAutoDeletePVC after the feature GA-ed in 1.32,soltysh,2025-08-25T11:52:08Z,2025-08-28T17:49:16+00:00,4,77.95,True,199,493,25,367,9,2,11,MERGED
+133682,Increase port-forward broken connection detection client timeout,ardaguclu,2025-08-25T10:38:02Z,2025-08-28T17:49:08+00:00,18,79.19,True,11,1,1,928,14,3,17,MERGED
+133681,"Drop unused tests, after KEP-3335 graduated to GA",soltysh,2025-08-25T09:43:31Z,2025-08-28T03:24:22+00:00,1,65.68,True,0,71,1,446,4,0,4,MERGED
+133677,feat: Add new imagePullPolicy: IfNotNewerPresent that pulls image if image ID (ref/digest) on remote is not matching.,nikos445,2025-08-24T14:45:32Z,2025-09-23T18:01:01+00:00,11,723.26,False,75831,18584,363,1910,24,2,26,CLOSED
+133667,kubeadm: clarify the comments for a few API fields,neolit123,2025-08-23T14:27:30Z,2025-08-28T03:24:14+00:00,7,108.95,True,18,9,3,478,5,1,6,MERGED
+133659,Fix panic in PodResources API test when FeatureGates is nil,kannon92,2025-08-22T14:39:16Z,2025-09-01T10:27:12+00:00,1,235.8,True,3,0,1,668,15,0,15,MERGED
+133655,DRA E2E: clean up class creation for extended resource tests,pohly,2025-08-22T13:44:32Z,2025-08-28T03:24:07+00:00,3,133.66,True,59,33,2,971,8,2,10,MERGED
+133647,Add doc.go and ARCHITECTURE.md to apiserver,jpbetz,2025-08-21T19:25:31Z,2025-09-02T09:59:14+00:00,2,278.56,True,316,0,2,191,7,1,8,MERGED
+133642,Automated cherry pick of #133625: Remove patch/update from ServiceCIDR API conformance test,danwinship,2025-08-21T13:09:22Z,2025-09-03T09:35:23+00:00,1,308.43,True,0,27,1,324,8,0,8,MERGED
+133633,Add integration tests for maxUnavailable in Statefulset,helayoty,2025-08-20T23:30:52Z,2025-08-25T16:16:43+00:00,2,112.76,False,399,28,1,450,8,6,14,CLOSED
+133632,"Add doc.go, ARCHITECTURE.md, and example_test.go to client-go",jpbetz,2025-08-20T21:10:56Z,2025-09-10T15:39:59+00:00,4,498.48,True,686,0,3,334,9,6,15,MERGED
+133628,"Automated cherry pick of #133562: DRA: wait for stats to converge in ""creates slices"" e2e test",nojnhuh,2025-08-20T19:00:29Z,2025-09-26T08:38:20+00:00,2,877.63,True,8,0,1,189,7,0,7,MERGED
+133627,kubectl: include container fieldPath in event messages,itzPranshul,2025-08-20T17:15:16Z,2025-09-11T00:05:57+00:00,1,510.84,True,5,1,1,1477,12,0,12,MERGED
+133624,Fix flaking RunTestDelayedWatchDelivery,serathius,2025-08-20T12:14:30Z,2025-09-12T11:10:08+00:00,6,550.93,True,10,5,1,695,8,1,9,MERGED
+133620,Remove rbd image and storage class,zeqian-meng,2025-08-20T09:57:41Z,2025-09-19T01:36:11+00:00,2,711.64,True,0,322,13,547,17,0,17,MERGED
+133615,Promote VAC API test to conformance,carlory,2025-08-20T03:12:09Z,2025-08-28T12:37:18+00:00,3,201.42,True,13,2,2,528,11,1,12,MERGED
+133612,feat: Add discovery check to SVM to ensure migration doesn't get stuck,michaelasp,2025-08-19T22:27:26Z,2025-09-12T01:32:07+00:00,39,555.08,True,243,13,2,508,13,21,34,MERGED
+133608,added resourceClaimModified to bindClaim to decide whether to update assume cache,yliaog,2025-08-19T17:02:51Z,2025-08-29T22:23:08+00:00,10,245.34,True,85,34,2,381,8,3,11,MERGED
+133605,Enforce API conventions around Conditions fields via Kube API Linter,JoelSpeed,2025-08-19T13:31:55Z,2025-09-16T15:08:14+00:00,7,673.61,True,189,27,6,2338,10,2,12,MERGED
+133604,Fix storage counting all objects instead of objects for resource,serathius,2025-08-19T13:18:50Z,2025-08-19T16:23:36+00:00,2,3.08,True,114,2,2,1492,20,1,21,MERGED
+133603,Fix nfacct test cases on s390x,saisindhuri91,2025-08-19T13:04:13Z,2025-08-28T03:23:45+00:00,4,206.33,True,5,2,1,521,13,1,14,MERGED
+133598,kubectl expose --help: change --selector help text for clarity,vishnumohanan404,2025-08-18T19:46:40Z,2025-08-28T03:23:38+00:00,1,223.62,True,1,1,1,1352,8,0,8,MERGED
+133596,Require Storage Version Migrator to be Gated Behind RealFIFO,michaelasp,2025-08-18T17:55:55Z,2025-08-28T03:23:30+00:00,6,225.46,True,5,0,1,579,11,3,14,MERGED
+133595,fix flake in dra test 'TestPlugin',tkashem,2025-08-18T17:52:41Z,2025-08-19T04:41:08+00:00,3,10.81,True,21,1,1,1233,11,3,14,MERGED
+133585,DRA: Fix flake in dra BindingConditions integration test,KobayashiD27,2025-08-18T02:41:40Z,2025-08-28T03:23:23+00:00,5,240.7,True,43,30,1,711,9,3,12,MERGED
+133582,Update CronJob casing for create job help,BobyMCbobs,2025-08-17T23:49:03Z,2025-08-28T03:23:16+00:00,1,243.57,True,1,1,1,382,4,0,4,MERGED
+133580,Add gated /statusz diagnostics endpoint to kube-proxy,ozalakshay,2025-08-17T10:33:31Z,2025-09-05T13:36:35+00:00,8,459.05,False,5,1,1,833,15,4,19,CLOSED
+133575,[BUG] [Selectors]: Return an error in case nil selectors are passed to the matcher functions,aerosouund,2025-08-16T10:22:39Z,2025-09-05T02:21:16+00:00,1,471.98,True,15,0,1,484,24,2,26,MERGED
+133573,fix: Update unit test to catch actual nil Labels case and fix functionality to handle nil Labels,DerekFrank,2025-08-15T21:32:30Z,2025-08-28T03:23:09+00:00,1,293.84,True,25,12,2,689,8,1,9,MERGED
+133571,"fix many incorrect deprecation warnings in godoc, enable deprecatedComment linter",BenTheElder,2025-08-15T17:58:15Z,2025-08-28T01:30:53+00:00,3,295.54,True,56,26,44,1061,10,1,11,MERGED
+133570,Clarify staging repository READMEs,BenTheElder,2025-08-15T17:17:43Z,2025-08-16T04:09:08+00:00,5,10.86,True,154,0,31,756,11,1,12,MERGED
+133562,"DRA: wait for stats to converge in ""creates slices"" e2e test",nojnhuh,2025-08-15T06:23:45Z,2025-08-19T11:21:36+00:00,4,100.96,True,8,0,1,1680,20,1,21,MERGED
+133523,e2e_dra: use latest release if stable doesn't exist,bart0sh,2025-08-14T11:43:34Z,2025-08-18T08:33:09+00:00,16,92.83,True,52,13,1,743,14,4,18,MERGED
+133522,"[release-1.33][go] Bump images, dependencies and versions to go 1.24.6 and distroless iptables",cpanato,2025-08-14T11:31:55Z,2025-08-14T16:59:09+00:00,1,5.45,True,11,11,7,505,4,0,4,MERGED
+133521,"[release-1.32][go] Bump images, dependencies and versions to go 1.23.12 and distroless iptables",cpanato,2025-08-14T11:28:58Z,2025-08-14T16:59:09+00:00,1,5.5,True,11,11,7,502,4,0,4,MERGED
+133519,fix race condition in kubelet's PodCertsManager,PersistentJZH,2025-08-14T09:50:20Z,2025-09-16T23:26:10+00:00,12,805.6,True,16,10,1,345,12,4,16,MERGED
+133518,Don't run PreEnqueue when pod is activated from backoffQ,macsko,2025-08-14T08:13:22Z,2025-08-28T01:30:39+00:00,4,329.29,True,45,13,2,593,9,4,13,MERGED
+133517,"[release-1.31][go]  Bump images, dependencies and versions to go 1.23.12 and distroless iptables",cpanato,2025-08-14T07:51:25Z,2025-08-14T16:59:09+00:00,1,9.13,True,11,11,7,502,4,0,4,MERGED
+133516,"[go] Bump dependencies, images and versions used to Go 1.24.6 and distroless iptables",cpanato,2025-08-14T07:47:01Z,2025-08-14T13:23:10+00:00,1,5.6,True,10,10,6,505,8,0,8,MERGED
+133513,Add missing conversion for timeoutForControlPlane,tom1299,2025-08-14T04:57:11Z,2025-08-28T01:30:31+00:00,12,332.56,True,5,0,1,1327,18,3,21,MERGED
+133509,fix flake race in VAP e2e case ,xuzhenglun,2025-08-13T19:07:33Z,2025-08-28T01:30:24+00:00,1,342.38,True,1,1,1,295,7,1,8,MERGED
+133500,cache: do not allocate chan for nothing,bimmlerd,2025-08-13T09:52:28Z,2025-08-28T01:30:16+00:00,2,351.63,True,7,13,2,783,13,1,14,MERGED
+133492,drop automaxprocs hacks now that go 1.25 handles this built in,BenTheElder,2025-08-12T22:19:10Z,2025-09-18T05:12:07+00:00,3,870.88,True,0,53,7,988,19,1,20,MERGED
+133491,fix flake in the dra scheduler plugin test,tkashem,2025-08-12T22:15:00Z,2025-08-14T09:57:08+00:00,15,35.7,True,5,4,1,869,19,4,23,MERGED
+133489,fix/update volume/rbd base image,brandonrjacobs,2025-08-12T21:20:41Z,2025-09-01T12:22:38+00:00,3,471.03,False,4,4,1,348,8,0,8,CLOSED
+133485,fix: setting serviceAccountName field to null should not rely on serviceAccount field,ylink-lfs,2025-08-12T16:11:09Z,2025-08-12T20:26:07+00:00,2,4.25,False,0,8,2,648,6,1,7,CLOSED
+133479,feat(apis/batch): PodFailurePolicyOnPodConditionsPattern.Status can be omitted,mayooot,2025-08-12T07:38:01Z,2025-08-28T01:30:09+00:00,2,377.87,True,6,5,6,2015,15,1,16,MERGED
+133477,Allow IfNotPresent to be used in node e2e tests,chenggu88,2025-08-11T23:39:56Z,2025-09-03T09:11:16+00:00,10,537.52,True,6,11,1,624,19,3,22,MERGED
+133476,Add retries to node's crictl test,mauriciopoppe,2025-08-11T22:49:53Z,2025-08-28T01:30:01+00:00,8,386.67,True,25,14,1,1706,10,2,12,MERGED
+133470,Update NodeRestriction to prevent nodes from updating their OwnerReferences,natherz97,2025-08-11T16:02:27Z,2025-08-11T23:05:11+00:00,2,7.05,True,35,6,2,733,4,0,4,MERGED
+133469,Update NodeRestriction to prevent nodes from updating their OwnerReferences,natherz97,2025-08-11T16:02:21Z,2025-08-11T23:05:11+00:00,2,7.05,True,35,6,2,733,5,0,5,MERGED
+133468,Update NodeRestriction to prevent nodes from updating their OwnerReferences,natherz97,2025-08-11T16:02:11Z,2025-08-11T23:05:11+00:00,2,7.05,True,35,6,2,733,4,0,4,MERGED
+133467,Update NodeRestriction to prevent nodes from updating their OwnerReferences,natherz97,2025-08-11T15:59:53Z,2025-08-11T22:29:06+00:00,1,6.49,True,35,6,2,733,12,0,12,MERGED
+133463,e2e: node: cpumanager: replace the test suite,ffromani,2025-08-11T12:21:41Z,2025-08-28T16:23:09+00:00,1,412.02,True,2655,3495,4,497,22,0,22,MERGED
+133462,e2e: node: cpumanager: cleanup and tidification before test replacement,ffromani,2025-08-11T12:05:34Z,2025-08-28T01:29:47+00:00,1,397.4,True,879,748,10,497,13,0,13,MERGED
+133461,fix using stale pod when evict failed and retry,justlorain,2025-08-11T10:27:06Z,2025-08-28T01:29:39+00:00,1,399.04,True,136,26,3,492,17,0,17,MERGED
+133449,Add sig-instrumentation as OWNERS for etcd3/metrics,richabanker,2025-08-08T17:01:34Z,2025-08-28T01:29:32+00:00,1,464.47,True,6,1,1,265,10,0,10,MERGED
+133447,Add release-1.34 configuration publishing bot rules for v1.34,mbianchidev,2025-08-08T15:04:08Z,2025-08-08T16:57:43+00:00,1,1.89,True,481,0,1,221,11,0,11,MERGED
+133440,deflake e2e test: Services should implement NodePort and HealthCheckNodePort correctly when ExternalTrafficPolicy changes,carlory,2025-08-08T07:44:55Z,2025-09-05T21:37:43+00:00,2,685.88,True,16,1,2,534,16,1,17,MERGED
+133438,Increase termination timeout for `evicted pods should be terminal` test,saschagrunert,2025-08-08T06:11:08Z,2025-09-03T10:53:14+00:00,4,628.7,True,14,3,2,639,7,1,8,MERGED
+133436,Align metric deprecation and hiding with metrics deprecation policy,richabanker,2025-08-08T05:16:52Z,2025-08-28T01:29:25+00:00,10,476.21,True,1364,244,12,1270,6,8,14,MERGED
+133433,Respect metric deprecation policy for hiding metrics,rexagod,2025-08-07T23:15:47Z,2025-08-08T18:34:05+00:00,13,19.3,False,290,51,12,391,7,8,15,CLOSED
+133432,test: Standardize labels for ResourceHealthStatus e2e tests,Jpsassine,2025-08-07T21:49:32Z,2025-08-28T01:29:17+00:00,3,483.66,True,1,2,1,1010,11,1,12,MERGED
+133431,"Remove DeprecatedVersion for apiserver_storage_objects, adjust help text",richabanker,2025-08-07T21:07:38Z,2025-08-08T18:39:43+00:00,3,21.53,True,13,14,3,542,16,0,16,MERGED
+133428,kubelet: remove allocationManager's reference to containerManager,natasha41575,2025-08-07T19:23:31Z,2025-08-30T00:13:09+00:00,1,532.83,True,35,27,6,566,7,0,7,MERGED
+133426,Add e2e test for SELinuxMount to CSI drivers,jsafrane,2025-08-07T15:44:40Z,2025-08-28T01:29:10+00:00,3,489.74,True,243,0,5,634,13,1,14,MERGED
+133425,Fix SELinux label comparison,jsafrane,2025-08-07T15:20:49Z,2025-08-28T00:18:56+00:00,3,488.97,True,147,24,5,615,15,1,16,MERGED
+133421,e2e/watchlist: remove dynamic `Age` column value in Table test to prevent test flake,p0lyn0mial,2025-08-07T12:01:42Z,2025-08-28T00:18:49+00:00,3,492.29,True,44,4,1,720,7,1,8,MERGED
+133419,Fix label selector parsing for consecutive commas,Xdynix,2025-08-07T08:50:49Z,2025-08-28T00:18:42+00:00,3,495.46,True,15,1,2,684,15,1,16,MERGED
+133415,HPA: optimize calculatePodRequests for specific container lookups,AadiDev005,2025-08-07T07:05:34Z,2025-08-28T00:18:34+00:00,8,497.22,True,37,1,2,1782,21,9,30,MERGED
+133401,e2e_node: test DRA plugin gRPC connection reuse,bart0sh,2025-08-06T14:00:48Z,2025-09-17T18:26:11+00:00,12,1012.42,True,155,0,1,503,24,7,31,MERGED
+133398,Split preemption integration tests to mitigate the timeout,macsko,2025-08-06T09:07:52Z,2025-08-28T00:18:27+00:00,1,519.18,True,1271,1194,3,453,61,0,61,MERGED
+133394,check invariant metrics after e2e tests,BenTheElder,2025-08-06T00:43:38Z,2025-10-02T23:00:57+00:00,43,1390.29,True,244,0,6,712,24,13,37,MERGED
+133391,fix: don't log nil error,alimaazamat,2025-08-05T20:46:54Z,2025-08-06T19:54:46+00:00,7,23.13,False,3,0,1,722,3,1,4,CLOSED
+133380,cli-runtime: Return defined error object from resource.Builder on SingleResourceType violated,tchap,2025-08-04T20:58:49Z,2025-09-02T15:01:23+00:00,9,690.04,True,8,7,3,759,11,2,13,MERGED
+133367,Decouple `term` and `remotecommand` packages,ash2k,2025-08-03T10:41:51Z,2025-08-28T00:18:19+00:00,2,589.61,True,72,24,7,2108,9,0,9,MERGED
+133364,Fix: kubectl edit now correctly updates appArmorProfile,itzPranshul,2025-08-03T05:15:50Z,2025-09-01T02:25:18+00:00,2,693.16,False,39,1,1,593,6,1,7,CLOSED
+133363,Allow implicit extended resource name to be used no matter explicit extendedResourceName field is set or not in device class,yliaog,2025-08-03T01:48:58Z,2025-09-11T20:40:08+00:00,34,954.85,True,337,50,10,619,44,11,55,MERGED
+133360,fix: parsing the patch directly,sanposhiho,2025-08-02T09:51:43Z,2025-08-28T00:18:12+00:00,3,614.44,True,16,18,1,654,10,2,12,MERGED
+133359,use pull if not present for eviction tests,kannon92,2025-08-01T20:56:51Z,2025-09-07T14:41:10+00:00,2,881.74,False,6,5,1,351,13,0,13,CLOSED
+133357,Add Kubelet stress test for pod cleanup when rejection due to `VolumeAttachmentLimitExceeded`,torredil,2025-08-01T13:58:53Z,2025-09-03T21:55:15+00:00,3,799.94,True,122,18,5,984,22,1,23,MERGED
+133353,node: unblock e2e serial lanes,ffromani,2025-08-01T07:45:43Z,2025-08-06T18:37:25+00:00,1,130.86,True,3,0,1,590,29,0,29,MERGED
+133349,always pull pause image for eviction tests,kannon92,2025-08-01T04:44:47Z,2025-08-01T20:35:37+00:00,5,15.85,True,3,2,1,331,10,1,11,MERGED
+133347,kubeadm: simplify error handling in getAPIEndpointWithRetry,SataQiu,2025-08-01T03:54:07Z,2025-08-28T00:17:50+00:00,2,644.4,True,4,8,1,349,4,0,4,MERGED
+133344,Fix memory limit decrease test on cri-o,tallclair,2025-07-31T23:29:09Z,2025-08-02T11:01:37+00:00,3,35.54,True,8,1,1,820,5,1,6,MERGED
+133342,fixed exended resource scheduling performance test,yliaog,2025-07-31T18:14:24Z,2025-08-01T05:45:15+00:00,1,11.51,True,2,2,1,385,7,0,7,MERGED
+133338,defaultservicecidr controller no shutdown eventbroadcaster on start,aojea,2025-07-31T11:02:20Z,2025-08-28T00:17:42+00:00,1,661.26,True,5,2,1,494,6,1,7,MERGED
+133334,Fix potential race in PodStatusPatchCall implementation,macsko,2025-07-31T09:35:15Z,2025-08-01T09:47:46+00:00,1,24.21,True,2,1,1,637,11,0,11,MERGED
+133327,Change KYAML gate to on-by-default,thockin,2025-07-31T00:52:08Z,2025-08-28T04:39:17+00:00,5,675.79,True,4,3,2,234,24,2,26,MERGED
+133325,Fix conversion-gen handling of unexported fields and custom conversions of pointers,liggitt,2025-07-30T21:20:56Z,2025-08-28T13:55:18+00:00,5,688.57,True,810,68,10,386,4,3,7,MERGED
+133323,Make kubectl auth reconcile retry on conflict,liggitt,2025-07-30T18:27:14Z,2025-08-28T00:17:35+00:00,1,677.84,True,35,8,1,422,7,1,8,MERGED
+133322,Add helper command for comparing protobuf files,liggitt,2025-07-30T18:22:59Z,2025-08-28T00:17:27+00:00,1,677.91,True,63,0,1,422,4,0,4,MERGED
+133321,Fix dynamicresources_test flakiness,yliaog,2025-07-30T18:19:07Z,2025-08-10T01:03:44+00:00,12,246.74,True,74,11,2,834,25,9,34,MERGED
+133315,Use the tool directive instead of tools.go without sharing dependency in hack/tools,kei01234kei,2025-07-30T15:45:48Z,2025-08-27T23:06:56+00:00,5,679.35,True,28,62,2,279,14,2,16,MERGED
+133311,Use `math/rand/v2` in `k8s.io/apimachinery/pkg/util/rand`,tklauser,2025-07-30T12:48:01Z,2025-07-31T08:16:52+00:00,2,19.48,False,16,32,2,647,6,1,7,CLOSED
+133309,Fix potential race in closing API dispatcher,macsko,2025-07-30T12:29:33Z,2025-08-01T09:47:38+00:00,1,45.3,True,1,1,1,584,15,0,15,MERGED
+133307,component-base/metrics: store WithContext ctx in a wrapper to avoid race,sttts,2025-07-30T10:53:44Z,2025-08-27T23:06:41+00:00,9,684.22,True,255,52,5,1312,18,4,22,MERGED
+133298,Move NominatedNodeName preemption-related integration tests to a new package,macsko,2025-07-30T08:52:07Z,2025-07-30T12:20:28+00:00,1,3.47,True,495,413,3,501,10,0,10,MERGED
+133293,Demote KEP-5278 feature gates ClearingNominatedNodeNameAfterBinding and NominatedNodeNameForExpectation to Alpha,utam0k,2025-07-30T06:50:42Z,2025-07-31T09:37:16+00:00,1,26.78,True,11,6,3,932,9,0,9,MERGED
+133287,golangci: Disable staticcheck QF1008 in hints,ahmedtd,2025-07-29T20:54:39Z,2025-08-27T23:06:33+00:00,2,698.2,True,3,0,3,295,7,1,8,MERGED
+133286,added WithFlaky to the device plugin test case: supports extended resources together with ResourceClaim,yliaog,2025-07-29T20:11:15Z,2025-08-19T07:43:35+00:00,4,491.54,True,6,1,1,505,33,1,34,MERGED
+133285,Automated cherry pick of #132895: Fixes scheduler nil panic due to empty init container request&limit,yue9944882,2025-07-29T19:49:49Z,2025-07-30T07:16:28+00:00,1,11.44,True,78,15,2,331,6,0,6,MERGED
+133283,Cherrypick 133262 remove broken test that depends on expired credential onto Release 1.31,BenTheElder,2025-07-29T18:00:27Z,2025-07-30T17:42:28+00:00,1,23.7,True,25,212,4,509,5,0,5,MERGED
+133281,[FG:InPlacePodVerticalScaling] Don't read AllocatedResources from PodStatus during admission,tallclair,2025-07-29T17:26:39Z,2025-08-27T23:06:26+00:00,1,701.66,True,1,32,2,955,26,0,26,MERGED
+133279,[PodLevelResources] handle pod-level resource manager alignment,ffromani,2025-07-29T14:36:34Z,2025-07-30T00:28:33+00:00,2,9.87,True,492,32,9,1350,23,1,24,MERGED
+133278,kubelet: Don't ignore idsPerPod config,rata,2025-07-29T13:57:42Z,2025-08-11T12:51:00+00:00,8,310.89,False,131,60,11,1156,14,4,18,CLOSED
+133276,KEP-5278 Stop clearing NominatedNodeName in all cases,macsko,2025-07-29T12:20:03Z,2025-07-29T18:24:40+00:00,2,6.08,True,225,79,3,639,11,1,12,MERGED
+133275,Add / update kubelet and DRA API owners,liggitt,2025-07-29T12:10:05Z,2025-07-29T18:24:33+00:00,6,6.24,True,29,8,5,386,8,3,11,MERGED
+133272,add fake-registry-server command to agnhost,drjackild,2025-07-29T10:08:05Z,2025-09-11T02:41:56+00:00,47,1048.56,True,601,4,10,594,54,20,74,MERGED
+133267,Fix apiserver service proxying e2e test flakiness,danwinship,2025-07-28T23:52:39Z,2025-07-29T06:18:37+00:00,2,6.43,True,17,9,2,1395,13,1,14,MERGED
+133266,Cherrypick 133262 remove broken test that depends on expired credential onto Release 1.31,BenTheElder,2025-07-28T23:39:36Z,2025-07-29T18:07:34+00:00,2,18.47,False,25,212,4,509,12,0,12,CLOSED
+133265,Cherrypick 133262 remove broken test that depends on expired credential onto Release 1.32,BenTheElder,2025-07-28T23:37:28Z,2025-07-29T17:34:27+00:00,2,17.95,True,25,212,4,509,4,0,4,MERGED
+133264,Cherrypick 133262 remove broken test that depends on expired credential onto Release 1.33,BenTheElder,2025-07-28T23:34:36Z,2025-07-29T17:34:27+00:00,2,18.0,True,25,212,4,509,5,0,5,MERGED
+133262,"remove broken test that depends on expired credential, remove hardcoded credential, add TODOs",BenTheElder,2025-07-28T22:46:54Z,2025-07-29T00:28:28+00:00,2,1.69,True,25,217,4,733,13,0,13,MERGED
+133256,[PodLevelResources] Event for unsupported pod-level resource manager alignment,ndixita,2025-07-28T17:32:12Z,2025-07-29T23:56:17+00:00,4,30.4,False,989,400,15,893,24,7,31,CLOSED
+133254,Fix incorrect validation on the kubelet,HirazawaUi,2025-07-28T15:21:23Z,2025-07-29T17:12:35+00:00,4,25.85,True,19,3,3,658,8,1,9,MERGED
+133251,Fix sidecar containers flaky tests,HirazawaUi,2025-07-28T12:28:43Z,2025-08-27T23:06:12+00:00,1,730.62,True,2,1,1,433,11,0,11,MERGED
+133243,ContainerRestartRules feature gate should work with probes,yuanwang04,2025-07-27T23:28:55Z,2025-07-28T18:42:29+00:00,4,19.23,True,17,14,4,633,20,2,22,MERGED
+133242,Pod Certificates: Fix kubelet volume host arg order; improve logging,ahmedtd,2025-07-27T21:24:47Z,2025-07-30T16:34:27+00:00,6,67.16,True,107,32,3,388,26,2,28,MERGED
+133239,add paths section to kubelet statusz endpoint,Peac36,2025-07-27T11:12:22Z,2025-09-05T08:01:29+00:00,6,956.82,True,46,5,2,689,14,2,16,MERGED
+133237,chore: use ptr.Deref to replace int deref utils,ylink-lfs,2025-07-26T15:54:54Z,2025-08-27T23:06:04+00:00,2,775.19,True,13,28,3,380,6,0,6,MERGED
+133229,fix up types for 1.34 release - remove GA feature gates,SergeyKanzhelev,2025-07-25T23:35:44Z,2025-09-03T00:49:20+00:00,4,937.23,True,35,80,9,314,9,1,10,MERGED
+133226,Bump etcd sdk to v3.6.4,ivanvc,2025-07-25T21:18:25Z,2025-07-27T07:14:27+00:00,1,33.93,True,382,294,61,430,9,0,9,MERGED
+133225,Build etcd v3.6.4 image,ivanvc,2025-07-25T20:53:38Z,2025-07-26T04:46:27+00:00,1,7.88,True,5,5,3,357,8,0,8,MERGED
+133220,[PodLevelResources] Add missing label to Downward API test,toVersus,2025-07-25T16:11:36Z,2025-07-29T04:06:29+00:00,7,83.91,True,2,1,1,473,25,1,26,MERGED
+133218,adds a list of available HTTP endpoints for the kube-controller-manag…,nmn3m,2025-07-25T12:28:42Z,2025-09-10T18:48:22+00:00,4,1134.33,True,62,10,2,1335,17,2,19,MERGED
+133217,Kubelet: Migrate util/ and logs/ to contextual logging,bart0sh,2025-07-25T12:11:26Z,2025-09-05T21:37:35+00:00,2,1017.44,True,140,83,15,423,20,0,20,MERGED
+133213,fix: handle corner cases in the async preemption,sanposhiho,2025-07-25T10:04:04Z,2025-07-28T17:06:37+00:00,15,79.04,True,127,39,3,391,11,10,21,MERGED
+133211,Add remote runtime/image `Close()` API,saschagrunert,2025-07-25T08:48:09Z,2025-09-03T00:49:13+00:00,11,952.02,True,69,0,7,475,9,3,12,MERGED
+133199,feat: list available endpoints in /statusz for kubelet,ylink-lfs,2025-07-25T01:39:55Z,2025-09-07T09:56:09+00:00,9,1064.27,False,32,1,2,1138,5,1,6,CLOSED
+133197,new/1748: print the current kubectl command encapsulated by kuberc,rxinui,2025-07-25T01:26:38Z,2025-09-16T17:06:12+00:00,26,1287.66,True,183,117,3,3555,14,32,46,MERGED
+133195,Update DRA Pod spec comments,nojnhuh,2025-07-24T23:25:07Z,2025-07-25T07:32:35+00:00,2,8.12,True,9,9,9,461,20,0,20,MERGED
+133193,Deflake test stream translator web socket server errors,aojea,2025-07-24T22:07:35Z,2025-07-29T18:24:26+00:00,6,116.28,True,71,63,2,1050,8,2,10,MERGED
+133191,Add jefftree to OWNERS,Jefftree,2025-07-24T21:34:28Z,2025-09-11T14:06:11+00:00,3,1168.53,True,13,0,6,695,9,1,10,MERGED
+133190,kube-proxy: list available endpoints in /statusz,aman4433,2025-07-24T20:25:34Z,2025-09-25T14:28:23+00:00,7,1506.05,True,84,1,2,1704,25,5,30,MERGED
+133187,Add ratcheting of max CRD selectableFields limit,jpbetz,2025-07-24T18:14:40Z,2025-09-11T22:28:15+00:00,5,1180.23,True,395,9,2,572,26,4,30,MERGED
+133186,Do not remove PVC ClaimRef to fix flaky VAC test,ConnorJC3,2025-07-24T18:06:00Z,2025-08-27T23:05:42+00:00,4,821.0,True,5,6,1,2512,3,1,4,MERGED
+133180,chore: replace ptr caster with unified ptr.To,ylink-lfs,2025-07-24T16:07:59Z,2025-07-25T03:14:35+00:00,2,11.11,True,14,20,2,380,9,0,9,MERGED
+133179,Replace deprecated strings.Title with cases.Title,nmn3m,2025-07-24T15:36:35Z,2025-09-09T12:53:30+00:00,16,1125.28,True,37,28,11,608,30,5,35,MERGED
+133176,Make PSA host enforcement honor emulation version,liggitt,2025-07-24T15:07:42Z,2025-07-25T00:59:27+00:00,2,9.86,True,36,0,4,357,12,2,14,MERGED
+133172, Move interfaces: Handle and Plugin and related types from kubernetes/kubernetes to staging repo kube-scheduler,ania-borowiec,2025-07-24T12:07:25Z,2025-09-08T13:05:32+00:00,21,1104.97,True,2091,1959,105,2320,25,13,38,MERGED
+133170,e2e: podresources: disable memory manager integration,ffromani,2025-07-24T11:14:53Z,2025-07-24T14:56:48+00:00,1,3.7,True,0,22,1,905,13,0,13,MERGED
+133167,fix: handle corner cases in the async preemption,sanposhiho,2025-07-24T08:21:53Z,2025-07-24T20:05:19+00:00,3,11.72,True,126,33,2,1199,9,3,12,MERGED
+133159,chore: ptrTo util removal with ptr.To,ylink-lfs,2025-07-24T01:11:58Z,2025-07-24T05:52:39+00:00,3,4.68,True,8,11,1,380,6,0,6,MERGED
+133157,KEP 4033: Add metric for out of support CRI and bump feature to GA,haircommander,2025-07-23T21:20:58Z,2025-07-24T20:05:04+00:00,9,22.73,True,104,5,5,472,11,3,14,MERGED
+133156,DRAAdminAccess: move metrics test from e2e to integration,ritazh,2025-07-23T21:15:30Z,2025-07-25T20:40:28+00:00,3,47.42,True,225,295,2,424,16,0,16,MERGED
+133152,kubelet: DRA: Close gRPC connection when removing DRA plugin,bart0sh,2025-07-23T17:57:21Z,2025-07-24T20:04:57+00:00,2,26.13,True,17,2,1,450,12,0,12,MERGED
+133150,Remove Unit Test for WinDSR Feature Gate,rzlink,2025-07-23T17:39:37Z,2025-07-24T02:57:02+00:00,3,9.29,True,0,68,1,404,9,0,9,MERGED
+133149,draadminaccess test make it serial,ritazh,2025-07-23T16:15:53Z,2025-07-24T02:56:55+00:00,1,10.68,True,1,1,1,510,8,1,9,MERGED
+133147,DRA: Add experimental allocator variant,pohly,2025-07-23T14:55:00Z,2025-07-23T17:30:35+00:00,2,2.59,True,1723,0,5,540,5,0,5,MERGED
+133146,Add flake debugging for admission test,liggitt,2025-07-23T13:43:50Z,2025-07-24T02:56:49+00:00,2,13.22,True,25,5,4,221,4,1,5,MERGED
+133140,DRA Updated to not directly change the global variable `claim`,KobayashiD27,2025-07-23T05:35:32Z,2025-07-23T11:58:34+00:00,1,6.38,True,2,1,1,436,5,0,5,MERGED
+133138,kubelet: poll after reloading logind conf,linxiulei,2025-07-23T04:32:22Z,2025-09-03T17:05:13+00:00,5,1020.55,True,32,8,2,297,27,4,31,MERGED
+133137,Build etcd v3.6.3 image,ivanvc,2025-07-22T23:52:08Z,2025-07-23T02:04:42+00:00,1,2.21,True,5,5,3,334,7,0,7,MERGED
+133136,feat: Add warnings for unrecognized formats in CRDs,yongruilin,2025-07-22T23:28:22Z,2025-07-23T04:14:26+00:00,1,4.77,True,561,2,4,701,8,0,8,MERGED
+133135,added debug_redact to cri api secrets,SergeyKanzhelev,2025-07-22T22:12:56Z,2025-07-23T02:04:35+00:00,1,3.86,True,758,757,2,210,10,0,10,MERGED
+133134,Record SyncTerminatingPod error and set error status on span when non-nil err returned,rutigs,2025-07-22T21:14:09Z,2025-09-15T20:15:16+00:00,8,1319.02,False,6251681,0,27162,558,18,2,20,CLOSED
+133130,chore: residual boolptr and intptr removal with ptr.To,ylink-lfs,2025-07-22T16:58:50Z,2025-07-23T00:56:34+00:00,2,7.96,True,8,15,2,380,7,0,7,MERGED
+133129,node: podresources: improve test coverage for the `Get` endpoint,ffromani,2025-07-22T16:45:45Z,2025-07-24T02:56:41+00:00,1,34.18,True,161,59,1,297,5,0,5,MERGED
+133127,DRA: skip flaky test case on Windows,bart0sh,2025-07-22T15:15:01Z,2025-07-23T18:42:28+00:00,3,27.46,True,10,0,1,444,14,1,15,MERGED
+133126,improve CRD handling in VolumePopulator test,RomanBednar,2025-07-22T14:59:01Z,2025-08-15T16:09:08+00:00,5,577.17,True,26,2,1,2471,15,3,18,MERGED
+133125,cleanup: remove redundant cleanFlagSet nil check,xigang,2025-07-22T14:56:48Z,2025-08-17T02:17:13+00:00,2,611.34,False,2,4,1,507,5,1,6,CLOSED
+133122,Automated cherry pick of #132891: Added NodeSelectors field to external DriverDefinition,vr4manta,2025-07-22T12:21:14Z,2025-09-04T09:27:17+00:00,1,1053.1,True,11,0,1,183,10,0,10,MERGED
+133120,KEP-5229: Add the metrics,utam0k,2025-07-22T10:48:53Z,2025-07-28T10:58:36+00:00,7,144.16,True,147,19,5,946,13,36,49,MERGED
+133119,kubelet: DRA: Handle grpc.ErrServerStopped in plugin tests,bart0sh,2025-07-22T10:15:22Z,2025-07-24T09:10:28+00:00,1,46.92,True,2,1,1,707,14,0,14,MERGED
+133116,Fix: Add garbage collection to handle Approved-Unissued CSRs,264nm,2025-07-22T01:27:49Z,2025-08-27T23:05:34+00:00,6,885.63,True,50,2,2,1320,27,1,28,MERGED
+133113,bump resource claim controller concurrent syncs to 50,alaypatel07,2025-07-21T22:06:11Z,2025-07-25T00:59:20+00:00,6,74.89,True,1,1,1,1072,10,1,11,MERGED
+133112,chore(validation-gen): cleanup and fix for comments and doc,yongruilin,2025-07-21T21:31:31Z,2025-07-22T01:08:33+00:00,1,3.62,True,11,13,8,374,4,0,4,MERGED
+133110,DRAAdminAccess: add upgrade downgrade test,ritazh,2025-07-21T19:50:00Z,2025-07-23T14:08:28+00:00,4,42.31,True,223,10,2,547,11,1,12,MERGED
+133107,DRA E2E: revisit conformance classification of tests,pohly,2025-07-21T17:07:06Z,2025-07-22T19:32:35+00:00,1,26.42,True,9,16,1,592,8,0,8,MERGED
+133105,KEP-5229: Run Unschedulable scheduler_perf test case with SchedulerAsyncAPICalls feature gate enabled,togettoyou,2025-07-21T14:34:13Z,2025-07-23T11:58:27+00:00,7,45.4,True,31,0,1,460,10,2,12,MERGED
+133104,chore: replace float64Ptr with ptr.To helper,aman4433,2025-07-21T13:20:35Z,2025-07-22T23:16:27+00:00,2,33.93,True,13,20,3,331,9,4,13,MERGED
+133097,Resolve confusing use of TooManyRequests error for eviction,kei01234kei,2025-07-21T08:21:52Z,2025-09-04T19:19:15+00:00,7,1090.96,True,80,3,2,496,27,4,31,MERGED
+133085,DRAAdminAccess: move to beta,ritazh,2025-07-20T18:51:55Z,2025-07-24T04:44:34+00:00,4,81.88,True,7,5,2,769,12,2,14,MERGED
+133083,chore: residual uint64ptr removal with ptr.To,ylink-lfs,2025-07-20T14:17:39Z,2025-07-20T22:12:26+00:00,3,7.91,True,77,83,2,380,5,0,5,MERGED
+133080,scheduler_perf: remove outdated TODO comments,togettoyou,2025-07-19T15:02:02Z,2025-08-27T23:05:27+00:00,3,944.06,True,21,23,3,355,10,1,11,MERGED
+133079,kubelet: don't fetch image credentials if the image is present and if we don't need to check if the pod is allowed to pull it,atykhyy,2025-07-19T13:23:46Z,2025-07-21T21:15:03+00:00,6,55.85,True,6,6,1,3075,7,1,8,MERGED
+133078,"Fixed: function TransportConfig, if c is nil, it will crash",orange30,2025-07-19T11:10:41Z,2025-08-01T01:50:35+00:00,2,302.67,False,3,0,1,406,4,1,5,CLOSED
+133077,integration: fix etcd output handling,pohly,2025-07-19T09:49:14Z,2025-07-20T19:52:37+00:00,1,34.06,True,3,2,1,754,4,0,4,MERGED
+133075,Bump sample-device-plugin base image to alpine:3.22,aman4433,2025-07-19T09:14:50Z,2025-07-19T18:24:25+00:00,1,9.16,True,6,6,2,316,7,0,7,MERGED
+133073,test: remove fixed duration sleep for network_policy test,ylink-lfs,2025-07-19T08:58:31Z,2025-09-01T11:54:08+00:00,4,1058.93,False,20,7,2,736,5,5,10,CLOSED
+133070,DRAAdminAccess: add e2e,ritazh,2025-07-19T01:18:14Z,2025-07-20T17:38:25+00:00,2,40.34,True,298,3,1,588,7,1,8,MERGED
+133068,feat: Enabledeclarative validation in CertificateSigningRequest subresources updates,yongruilin,2025-07-18T23:34:48Z,2025-07-21T18:58:33+00:00,4,67.4,True,113,47,2,781,8,1,9,MERGED
+133067,kubectl/logs: Add LogOptions.RunLogsContext,tchap,2025-07-18T21:41:34Z,2025-09-05T13:43:27+00:00,2,1168.03,True,18,11,1,748,10,1,11,MERGED
+133065,dedupe fetching allocatable and available resources in node test,natasha41575,2025-07-18T17:48:06Z,2025-07-23T00:56:27+00:00,5,103.14,True,27,34,1,386,6,2,8,MERGED
+133061,Account for caching and maximum object size when estimating LIST request,serathius,2025-07-18T15:53:03Z,2025-07-18T19:12:33+00:00,1,3.33,True,379,90,2,638,5,0,5,MERGED
+133059,kube-proxy node manager (take 2),danwinship,2025-07-18T14:32:02Z,2025-07-22T03:36:27+00:00,23,85.07,True,1162,911,18,659,18,8,26,MERGED
+133057,fix(rbac): allow node to get endpointslices,shanduur,2025-07-18T13:34:51Z,2025-07-18T15:31:58+00:00,2,1.95,False,20,1,3,487,10,1,11,CLOSED
+133055,Fix probe behavior for non-running containers and sidecars,AadiDev005,2025-07-18T13:26:45Z,2025-07-19T01:37:17+00:00,1,12.18,False,16693,2234,273,2398,7,0,7,CLOSED
+133053,Add jitter to priodically executed processes in storage to avoid too many concurrent executions,serathius,2025-07-18T08:59:48Z,2025-07-18T21:08:33+00:00,4,12.15,True,45,31,3,35,8,2,10,MERGED
+133047,scheduler integration: fail test instead of existing,pohly,2025-07-18T06:53:35Z,2025-07-18T14:16:32+00:00,2,7.38,True,23,26,3,409,8,2,10,MERGED
+133046,[PodLevelResources] Add validation for Windows OS,toVersus,2025-07-18T02:52:30Z,2025-07-24T02:56:34+00:00,14,144.07,True,337,67,17,921,16,10,26,MERGED
+133045,[FG:InPlacePodVerticalScaling] Retry pending resizes only if aggregated requests are decreasing,natasha41575,2025-07-18T00:52:22Z,2025-07-19T03:28:32+00:00,7,26.6,True,191,25,5,687,8,5,13,MERGED
+133040,Update VolumeAttributesClass API Description,sunnylovestiramisu,2025-07-17T18:29:02Z,2025-07-17T22:59:00+00:00,1,4.5,True,15,18,9,416,6,0,6,MERGED
+133035,Fix cel cost,cici37,2025-07-17T16:03:42Z,2025-07-17T19:28:25+00:00,3,3.41,True,12,16,1,285,8,1,9,MERGED
+133034,Increase maxSeats for List requests,serathius,2025-07-17T15:58:17Z,2025-07-17T22:58:45+00:00,4,7.01,True,55,29,6,747,9,1,10,MERGED
+133030,chore: replacing timer ptr with ptr.To,PatrickLaabs,2025-07-17T13:13:28Z,2025-07-19T02:16:32+00:00,5,37.05,True,7,10,1,456,6,1,7,MERGED
+133029,Improve ServiceAccount Token Refresh Logic in Kubelet tokenManager,xigang,2025-07-17T12:42:24Z,2025-07-18T06:00:51+00:00,6,17.31,False,12,1,1,658,7,3,10,CLOSED
+133028,Convert `k8s.io/kubelet/pkg/apis/deviceplugin` from gogo to protoc,saschagrunert,2025-07-17T12:09:19Z,2025-07-21T21:14:56+00:00,4,105.09,True,2278,7556,20,502,12,2,14,MERGED
+133026,Convert `k8s.io/kubelet/pkg/apis/dra` from gogo to protoc,saschagrunert,2025-07-17T11:13:00Z,2025-08-29T15:17:09+00:00,28,1036.07,True,1690,4712,16,479,19,4,23,MERGED
+133023,kubeadm should generate default etcd command based on etcd version,carlory,2025-07-17T09:06:34Z,2025-07-17T13:34:32+00:00,6,4.47,True,81,14,3,582,5,1,6,MERGED
+133022,update go version for publishing bot rules,cpanato,2025-07-17T08:19:00Z,2025-07-17T16:38:33+00:00,2,8.33,True,92,545,1,527,5,0,5,MERGED
+133021,feat: trigger PreBindPreFlight in the binding cycle,sanposhiho,2025-07-17T08:11:24Z,2025-07-29T11:10:02+00:00,33,290.98,True,792,202,13,865,18,23,41,MERGED
+133019,DRA scheduler plugin: add pohly as approver,pohly,2025-07-17T07:47:07Z,2025-07-24T10:42:33+00:00,1,170.92,True,2,0,1,417,9,0,9,MERGED
+133018,kubectl: add port names to describe pod output,rushmash91,2025-07-17T07:18:52Z,2025-07-18T07:18:27+00:00,1,23.99,True,78,2,2,985,17,0,17,MERGED
+133016,Add `kubelet_credential_provider_config_info` metric,aramase,2025-07-17T06:25:01Z,2025-07-18T02:36:24+00:00,5,20.19,True,265,26,5,770,8,14,22,MERGED
+133013,feat: add CSR status.conditions approved+denied declarative validation tags to v1 and v1beta1 and add associated tests,aaron-prindle,2025-07-17T01:31:35Z,2025-07-21T22:22:26+00:00,9,116.85,True,499,6,9,3855,16,3,19,MERGED
+133012,[FG:InPlacePodVerticalScaling] Support reducing memory limits,tallclair,2025-07-17T01:25:52Z,2025-07-18T00:10:39+00:00,6,22.75,True,527,74,8,885,13,9,22,MERGED
+133011,chore: remove residual int64ptr usage with ptr.To,ylink-lfs,2025-07-17T01:09:11Z,2025-07-17T09:58:24+00:00,2,8.82,True,22,25,1,380,6,0,6,MERGED
+133010,Bump cel-go to v0.26.0,cici37,2025-07-17T00:24:34Z,2025-07-17T22:58:39+00:00,7,22.57,True,997,289,36,390,15,4,19,MERGED
+132999,Promote PodLevelResources to Beta,ndixita,2025-07-16T19:17:11Z,2025-07-30T00:28:26+00:00,1,317.19,True,5,0,2,573,10,2,12,MERGED
+132996,WIP: Respect restartPolicy: Never for main container if sidecar fails startupProbe,AadiDev005,2025-07-16T13:00:11Z,2025-07-19T02:18:39+00:00,2,61.31,False,8,3,1,905,9,0,9,CLOSED
+132991,Endpoints e2e updates for KEP-4974,danwinship,2025-07-16T11:09:20Z,2025-07-24T02:56:27+00:00,2,183.79,True,623,438,14,2628,12,1,13,MERGED
+132987,Automated cherry pick of #131018: Mask Linux thermal interrupt info in /proc and /sys.,saschagrunert,2025-07-16T09:00:23Z,2025-09-03T08:01:16+00:00,2,1175.01,True,149,18,5,249,10,0,10,MERGED
+132986,Automated cherry pick of #131018: Mask Linux thermal interrupt info in /proc and /sys.,saschagrunert,2025-07-16T09:00:06Z,2025-09-03T08:05:16+00:00,2,1175.09,True,149,18,5,249,8,0,8,MERGED
+132985,Automated cherry pick of #131018: Mask Linux thermal interrupt info in /proc and /sys.,saschagrunert,2025-07-16T08:59:24Z,2025-09-03T09:35:15+00:00,3,1176.6,True,149,18,5,249,10,0,10,MERGED
+132983,[FG:InPlacePodVerticalScaling] cleanup: fetch individual PodResourceInfo from allocated resource state,chengjoey,2025-07-16T06:31:19Z,2025-07-18T00:10:32+00:00,2,41.65,True,50,33,5,332,8,1,9,MERGED
+132980,test: add batch pod deletion for kubelet e2e tests,ylink-lfs,2025-07-16T01:27:57Z,2025-07-20T09:52:30+00:00,37,104.41,True,20,24,3,413,14,13,27,MERGED
+132979,chore: residual intptr removal with ptr.To,ylink-lfs,2025-07-16T01:09:06Z,2025-07-16T19:12:39+00:00,2,18.06,True,12,20,2,380,5,0,5,MERGED
+132976,"refactor allocator, removed claimsToAllocate from NewAllocator(), instead, passed it through Allocate()",yliaog,2025-07-15T22:47:44Z,2025-07-17T08:48:32+00:00,6,34.01,True,33,53,10,435,8,2,10,MERGED
+132973,Add PodCPUAndMemoryStats to stats.Provider interface,tallclair,2025-07-15T21:31:41Z,2025-07-17T03:02:37+00:00,4,29.52,True,460,56,8,1001,7,2,9,MERGED
+132970,cpumanager: graduate prefer-align-cpus-by-uncorecache to beta,wongchar,2025-07-15T20:22:07Z,2025-07-23T08:00:28+00:00,2,179.64,True,13,1,2,369,5,1,6,MERGED
+132969,fix conversion-gen memory equality test,liggitt,2025-07-15T20:20:31Z,2025-07-16T22:28:30+00:00,7,26.13,True,593,27,7,232,7,4,11,MERGED
+132968,cpumanager: expand test coverage for prefer-align-cpus-by-uncore-cache,wongchar,2025-07-15T19:49:55Z,2025-07-22T20:40:52+00:00,18,168.85,True,623,78,3,775,21,8,29,MERGED
+132965,Deprecate apiserver_storage_objects and replace it with apiserver_resource_objects metric using labels consistent with other metrics,serathius,2025-07-15T17:41:04Z,2025-07-17T21:18:31+00:00,1,51.62,True,35,8,3,214,7,0,7,MERGED
+132960,Configure JSON content type for generic webhook RESTClient.,benluddy,2025-07-15T15:38:25Z,2025-09-02T15:01:16+00:00,4,1175.38,True,268,0,3,2667,11,1,12,MERGED
+132959,test: add e2e case for mutating named port,ylink-lfs,2025-07-15T15:26:03Z,2025-07-24T14:56:35+00:00,10,215.51,True,70,0,1,462,7,14,21,MERGED
+132950,Use object size estimation for non-recursive list,serathius,2025-07-15T09:10:56Z,2025-07-16T19:12:31+00:00,2,34.03,True,84,85,3,345,5,1,6,MERGED
+132944,Inconsistency resets cache snapshots and prevents collection of new ones until cache is marked consistent again,serathius,2025-07-14T21:01:18Z,2025-07-16T01:54:22+00:00,1,28.88,True,136,30,8,68,3,0,3,MERGED
+132942,Add KYAML support to kubectl,thockin,2025-07-14T20:08:54Z,2025-07-25T00:59:07+00:00,8,244.84,True,1064,240,70,1794,14,4,18,MERGED
+132940,KEP-3695: add kubeletPodResources feature gate to Beta,guptaNswati,2025-07-14T19:25:35Z,2025-07-25T00:59:00+00:00,1,245.56,True,10,0,2,583,36,1,37,MERGED
+132935,KEP-4222: Adopt text and JSON transcoding support for CBOR.,benluddy,2025-07-14T17:54:12Z,2025-07-24T20:04:49+00:00,4,242.18,True,1285,1001,79,939,14,2,16,MERGED
+132934,chore: residual strPtr utility removal with ptr.To,ylink-lfs,2025-07-14T16:31:52Z,2025-07-14T23:42:53+00:00,2,7.18,True,52,64,4,380,7,0,7,MERGED
+132933,Reject pod when attachment limit is exceeded,torredil,2025-07-14T15:54:33Z,2025-07-25T00:58:54+00:00,34,249.07,True,354,77,13,2787,17,10,27,MERGED
+132931,DRA E2E: test mixture of extended resources + ResourceClaim,pohly,2025-07-14T14:56:58Z,2025-07-14T19:06:31+00:00,2,4.16,True,77,0,2,601,6,1,7,MERGED
+132928,reflector: detects unsupported meta.Table gvks for watchlist,p0lyn0mial,2025-07-14T13:17:21Z,2025-07-14T17:22:24+00:00,1,4.08,True,93,40,4,289,5,0,5,MERGED
+132924,Prevent running two HPA cachers for different API versions,serathius,2025-07-14T10:17:04Z,2025-07-16T03:58:29+00:00,7,41.69,True,21,6,1,244,11,3,14,MERGED
+132920,chore: maxPtr utility removal with ptr.To,ylink-lfs,2025-07-14T01:09:04Z,2025-07-14T05:24:23+00:00,2,4.26,True,10,16,2,380,5,0,5,MERGED
+132917,[debug] add e2e case for named port test,ylink-lfs,2025-07-13T14:49:29Z,2025-07-15T15:32:31+00:00,4,48.72,False,89,15,1,1399,12,5,17,CLOSED
+132912,Graduate PodObservedGenerationTracking to beta,natasha41575,2025-07-12T23:47:21Z,2025-07-21T21:14:40+00:00,3,213.46,True,100,43,6,911,7,1,8,MERGED
+132910,scheduler_perf: Add memory tracking to performance tests,utam0k,2025-07-12T12:35:49Z,2025-07-19T04:38:32+00:00,15,160.05,True,120,0,2,641,13,10,23,MERGED
+132907,chore: removed boolPtrFn helpers with ptr package implementation,PatrickLaabs,2025-07-12T09:36:37Z,2025-07-13T03:04:29+00:00,1,17.46,True,21,27,2,472,7,0,7,MERGED
+132906,service-ip-alloc: delay ip processing on service recreate,aroradaman,2025-07-12T09:02:22Z,2025-07-14T23:42:46+00:00,10,62.67,True,219,63,2,1085,15,1,16,MERGED
+132905,chore: intPtr utility removal with ptr.To,ylink-lfs,2025-07-12T08:46:41Z,2025-07-12T23:31:43+00:00,2,14.75,True,8,11,1,380,5,0,5,MERGED
+132903,[FG:InPlacePodVerticalScaling] Instrumentation for in-place pod resize,natasha41575,2025-07-11T21:34:03Z,2025-07-18T23:54:25+00:00,19,170.34,True,1498,50,12,551,15,20,35,MERGED
+132902,KEP-127: kubelet: add metrics for userns pods,haircommander,2025-07-11T20:01:16Z,2025-07-25T02:08:43+00:00,15,318.12,True,107,0,3,547,20,4,24,MERGED
+132901,Graduate ListFromCacheSnapshot to Beta,serathius,2025-07-11T19:54:49Z,2025-07-16T14:28:24+00:00,1,114.56,True,9,0,4,104,7,0,7,MERGED
+132899,"[release-1.31][go] Bump images, dependencies and versions to go 1.23.11 and distroless iptables",cpanato,2025-07-11T18:46:29Z,2025-07-16T19:58:24+00:00,2,121.2,True,11,11,7,502,8,0,8,MERGED
+132898,"[release-1.32][go] Bump images, dependencies and versions to go 1.23.11 and distroless iptables",cpanato,2025-07-11T18:41:04Z,2025-07-16T19:48:24+00:00,2,121.12,True,11,11,7,502,8,0,8,MERGED
+132897,"[release-1.33][go] Bump dependencies, images and versions used to Go 1.24.5 and distroless iptables",cpanato,2025-07-11T18:36:09Z,2025-07-16T22:28:24+00:00,2,123.87,True,11,11,7,505,9,0,9,MERGED
+132895,Fixes scheduler nil panic due to empty init container request&limit,yue9944882,2025-07-11T18:21:06Z,2025-07-29T21:58:26+00:00,15,435.62,True,78,15,2,2730,13,3,16,MERGED
+132893,Add apiserver_resource_size_estimate_bytes metric,serathius,2025-07-11T14:54:13Z,2025-07-16T22:28:23+00:00,14,127.57,True,101,46,5,2951,9,3,12,MERGED
+132892,Provide accurate information whether list will be delegated to list work estimator,serathius,2025-07-11T14:02:35Z,2025-10-05T16:45:29+00:00,3,2066.72,False,108,70,11,525,6,2,8,CLOSED
+132890,add Replicaset -> ReplicationController conversion test,atiratree,2025-07-11T12:46:29Z,2025-07-15T05:32:29+00:00,1,88.77,True,100,1,1,479,4,0,4,MERGED
+132889,Disable SchedulerAsyncPreemption feature correctly in integration tests,macsko,2025-07-11T12:31:23Z,2025-07-13T20:18:22+00:00,1,55.78,True,18,0,1,429,8,0,8,MERGED
+132886, KEP-5229: Send API calls through dispatcher and cache,macsko,2025-07-11T11:06:03Z,2025-07-28T10:58:29+00:00,15,407.87,True,3074,1780,34,1300,16,10,26,MERGED
+132884,Enable running cache inconsistency detection by default,serathius,2025-07-11T09:41:32Z,2025-07-14T16:12:31+00:00,4,78.52,True,223,58,11,371,8,2,10,MERGED
+132879,test: add test for GetLogVerbosity in kubectl cmd.go,ylink-lfs,2025-07-11T01:43:36Z,2025-07-13T07:51:35+00:00,6,54.13,False,93,0,1,554,6,8,14,CLOSED
+132878,chore: replace int32Ptr usage with ptr.To,ylink-lfs,2025-07-11T01:11:37Z,2025-07-13T01:18:21+00:00,2,48.11,True,12,18,4,353,13,0,13,MERGED
+132876,Compact watch cache based on last observed etcd compaction,serathius,2025-07-10T18:42:29Z,2025-07-11T18:25:28+00:00,7,23.72,True,343,43,14,463,6,5,11,MERGED
+132873,Make actuated resources an internal detail of the KubeGenericRuntimeManager,tallclair,2025-07-10T17:51:03Z,2025-09-10T18:48:13+00:00,17,1488.95,True,935,649,17,1727,32,10,42,MERGED
+132870,DRA: refactor claim allocator,pohly,2025-07-10T13:25:33Z,2025-07-15T08:28:30+00:00,9,115.05,True,6904,4898,12,597,17,4,21,MERGED
+132868,KEP-127 - validation: Return an error if user namespaces are used with volumeDevices,rata,2025-07-10T12:04:16Z,2025-07-28T17:06:30+00:00,11,437.04,True,235,8,4,1166,17,4,21,MERGED
+132867,"local-up-cluster: cleanup, support automated upgrade/downgrade testing",pohly,2025-07-10T11:13:59Z,2025-07-10T16:45:28+00:00,1,5.52,True,177,126,1,649,8,0,8,MERGED
+132865,[WIP] Update etcd from v3.6.1 to v3.6.2,bzsuni,2025-07-10T09:44:08Z,2025-07-28T05:18:10+00:00,2,427.57,False,10,10,6,351,7,1,8,CLOSED
+132864,Build etcd image v3.6.2,bzsuni,2025-07-10T09:18:20Z,2025-07-11T11:13:28+00:00,2,25.92,True,8,8,3,333,7,1,8,MERGED
+132849,Prevent the failure of releasing the lock by updating the resource version in case of the resource conflict,kei01234kei,2025-07-09T18:06:13Z,2025-07-17T16:38:26+00:00,2,190.54,True,81,7,2,582,9,2,11,MERGED
+132848,Expose compaction revision from compactor,serathius,2025-07-09T15:01:30Z,2025-07-10T18:15:27+00:00,2,27.23,True,242,40,3,906,13,1,14,MERGED
+132847,test: increase test coverage for pkg/kubelet/types,ylink-lfs,2025-07-09T14:40:03Z,2025-07-17T01:56:38+00:00,2,179.28,True,101,0,1,1560,7,0,7,MERGED
+132846,DRA E2E: ResourceSlice Controller test flake,pohly,2025-07-09T13:59:42Z,2025-07-09T15:13:28+00:00,2,1.23,True,17,10,1,1123,3,1,4,MERGED
+132845,chore: replace int64ptr with ptr.To,ylink-lfs,2025-07-09T13:36:24Z,2025-07-09T17:11:34+00:00,2,3.59,True,80,96,5,373,6,0,6,MERGED
+132840,Increase verbosity of frequently printed loglines in binder plugin,ppmechlinski,2025-07-09T12:43:11Z,2025-07-14T10:44:31+00:00,1,118.02,True,9,9,1,772,14,0,14,MERGED
+132838,Drop experimental flags from etcd,AwesomePatrol,2025-07-09T12:10:23Z,2025-07-16T09:18:23+00:00,6,165.13,True,47,6,2,1103,17,3,20,MERGED
+132833,Convert `k8s.io/kms/apis` from gogo to protoc,saschagrunert,2025-07-09T05:48:02Z,2025-07-16T19:12:24+00:00,9,181.41,True,1534,1001,19,467,7,9,16,MERGED
+132832,add SuccessCriteriaMet status for kubectl get job,Goend,2025-07-09T05:36:26Z,2025-07-10T09:25:27+00:00,8,27.82,True,25,0,2,428,16,1,17,MERGED
+132828,[WIP][debug] ci: re-enable concurrency in integration test,ylink-lfs,2025-07-09T01:20:57Z,2025-07-12T04:47:04+00:00,1,75.44,False,16,7,3,691,21,0,21,CLOSED
+132827,Add feature gate enable test for KubeletPodResourcesGet,guptaNswati,2025-07-09T00:03:13Z,2025-07-18T19:12:26+00:00,1,235.15,True,42,0,1,400,13,1,14,MERGED
+132825,API: extending validations with WithOrigins for pkg/apis/core,PatrickLaabs,2025-07-08T19:13:11Z,2025-08-27T23:05:20+00:00,21,1203.87,True,18,17,4,657,14,8,22,MERGED
+132824,Extend E2E test coverage for PSI metrics under pressure,roycaihw,2025-07-08T19:09:10Z,2025-07-25T07:32:28+00:00,6,396.39,True,159,0,2,306,22,2,24,MERGED
+132822,Promote PSI metrics feature to beta,roycaihw,2025-07-08T17:51:07Z,2025-07-25T02:08:35+00:00,1,392.29,True,5,1,2,1258,12,0,12,MERGED
+132821,[KEP-3962]Promote MutatingAdmissionPolicy to Beta,cici37,2025-07-08T17:46:09Z,2025-07-17T21:18:24+00:00,13,219.54,True,15036,2237,66,1189,19,3,22,MERGED
+132819,chore: remove residual uint64ptr usage with k8s.io/util/ptr,ylink-lfs,2025-07-08T14:21:02Z,2025-07-08T18:45:34+00:00,1,4.41,True,16,25,3,373,8,0,8,MERGED
+132818,e2e: node: cpumanager cgroup v1 compatibility,ffromani,2025-07-08T14:08:33Z,2025-07-24T20:04:42+00:00,3,389.94,True,37,13,1,559,11,2,13,MERGED
+132817,watchlist supports sending resources in Table format,p0lyn0mial,2025-07-08T13:04:15Z,2025-07-16T18:04:30+00:00,1,197.0,True,123,5,2,322,12,0,12,MERGED
+132814,ci: update sample-apiserver version to v0.33.2,ylink-lfs,2025-07-08T11:53:41Z,2025-07-08T14:53:35+00:00,2,3.0,True,7,7,3,531,6,0,6,MERGED
+132811,e2e: node: cpumanager: fix cpu quota non-regression tests,ffromani,2025-07-08T09:18:52Z,2025-07-18T22:24:39+00:00,1,253.1,True,4,109,1,475,32,0,32,MERGED
+132810,chore: removing redundant type conversion,PatrickLaabs,2025-07-08T09:07:00Z,2025-07-22T22:06:26+00:00,2,348.99,True,5,5,1,374,8,0,8,MERGED
+132806,chore: replacement of toPtr helper functions with ptr packge,PatrickLaabs,2025-07-08T07:52:12Z,2025-07-08T21:33:41+00:00,1,13.69,True,31,39,2,458,8,0,8,MERGED
+132803,Make kubelet token cache UID-aware to prevent stale tokens after service account recreation,aramase,2025-07-08T05:34:12Z,2025-07-11T05:25:27+00:00,7,71.85,True,619,3,9,645,7,7,14,MERGED
+132800,DRAAdminAccess: update resourceclaim_controller metrics,ritazh,2025-07-08T04:38:30Z,2025-07-18T17:54:25+00:00,27,253.27,True,405,120,3,1052,15,21,36,MERGED
+132798,Show simple values in validation rule failures,cbandy,2025-07-07T23:19:23Z,2025-08-27T23:05:13+00:00,1,1223.76,True,74,60,3,754,11,6,17,MERGED
+132796,increase the verbosity of kubelet preemption log,AnishShah,2025-07-07T21:06:16Z,2025-07-11T19:49:35+00:00,7,94.72,True,1,1,1,412,6,2,8,MERGED
+132795,Avoid manually writing resize patches for pod resize E2Es,tallclair,2025-07-07T21:05:51Z,2025-07-09T19:05:28+00:00,1,45.99,True,169,239,3,634,5,0,5,MERGED
+132794,chore: replacement of boolPtr helper functions to ptr packge,PatrickLaabs,2025-07-07T19:32:19Z,2025-07-08T03:13:26+00:00,1,7.69,True,26,39,6,468,10,0,10,MERGED
+132792,chore: typo 'invaILd' occurrence replacement,ylink-lfs,2025-07-07T16:10:58Z,2025-07-08T04:45:26+00:00,2,12.57,True,14,14,3,359,15,0,15,MERGED
+132791,Update pod resize test to accept new cpu.weight conversion.,bitoku,2025-07-07T15:50:22Z,2025-09-11T23:20:08+00:00,13,1591.5,True,104,30,8,576,26,5,31,MERGED
+132788,chore: remove strPtr usage with ptr.To,ylink-lfs,2025-07-07T12:18:35Z,2025-07-08T07:35:36+00:00,4,19.28,True,164,179,7,373,14,0,14,MERGED
+132787,chore: remove uint64Ptr using ptr.To[int64] instead,ylink-lfs,2025-07-07T11:41:52Z,2025-07-07T18:15:33+00:00,2,6.56,True,108,118,9,373,8,0,8,MERGED
+132785,remove utilpointer usage in pkg/controlplane/controller/apiserverleasegc/gc_controller_test.go,ylink-lfs,2025-07-07T11:28:25Z,2025-07-07T14:11:24+00:00,1,2.72,False,10,10,1,453,6,0,6,CLOSED
+132784,chore: depr. pointer pkg replacement for pkg/controller (2/2),PatrickLaabs,2025-07-07T11:23:53Z,2025-07-07T18:15:26+00:00,1,6.86,True,138,138,10,1048,6,0,6,MERGED
+132781,chore: depr. pointer pkg replacement for pkg/controller (1/2),PatrickLaabs,2025-07-07T11:14:55Z,2025-07-07T19:32:24+00:00,1,8.29,True,46,47,9,997,7,0,7,MERGED
+132779,chore: depr. pointer pkg replacement for pkg/apis (2/2),PatrickLaabs,2025-07-07T11:05:42Z,2025-07-07T19:32:17+00:00,2,8.44,True,107,108,11,1330,7,0,7,MERGED
+132778,chore: depr. pointer pkg replacement for pkg/apis (1/2),PatrickLaabs,2025-07-07T10:55:53Z,2025-07-07T19:32:10+00:00,1,8.6,True,80,80,10,961,7,0,7,MERGED
+132777,chore: depr. pointer pkg replacement for pkg/security and plugin/pkg,PatrickLaabs,2025-07-07T10:44:30Z,2025-07-09T03:01:27+00:00,2,40.28,True,38,302,12,884,21,1,22,MERGED
+132776,kubeadm: use named ports in static pod manifests,neolit123,2025-07-07T10:20:17Z,2025-07-15T08:28:23+00:00,2,190.13,True,95,30,6,916,7,0,7,MERGED
+132773,Convert `k8s.io/kubelet/pkg/apis/pluginregistration` from gogo to protoc,saschagrunert,2025-07-07T08:49:44Z,2025-07-24T20:04:35+00:00,5,419.25,True,1896,4359,19,508,18,6,24,MERGED
+132772,Convert `externaljwt` from gogo to protoc,saschagrunert,2025-07-07T08:30:05Z,2025-07-08T14:53:27+00:00,4,30.39,True,1289,891,9,486,11,2,13,MERGED
+132771,Enable image pull credential verification with service account–based credential providers,aramase,2025-07-07T07:38:23Z,2025-07-19T20:22:47+00:00,4,300.74,True,1920,154,20,1268,10,7,17,MERGED
+132770,Fix help for set selector,tom1299,2025-07-07T07:17:51Z,2025-08-27T21:54:56+00:00,5,1238.62,True,1,1,1,1656,6,1,7,MERGED
+132768,Add egress selector support to JWT authenticator,enj,2025-07-07T01:58:37Z,2025-07-16T00:48:30+00:00,7,214.83,True,1067,16,18,1185,8,4,12,MERGED
+132767,[KEP-4816] DRAPrioritizedList to Beta,mortent,2025-07-06T23:53:51Z,2025-07-24T20:04:27+00:00,1,428.18,True,5,0,2,728,9,0,9,MERGED
+132765,chore: depr. pointer pkg replacement for test/e2e (2/2),PatrickLaabs,2025-07-06T20:45:07Z,2025-07-07T19:32:03+00:00,3,22.78,True,52,55,10,850,9,1,10,MERGED
+132764,chore: depr. pointer pkg replacement for test/e2e (1/2),PatrickLaabs,2025-07-06T20:34:06Z,2025-07-07T02:59:26+00:00,1,6.42,True,48,49,9,839,6,0,6,MERGED
+132763,chore: depr. pointer pkg replacement for test/e2e and utils,PatrickLaabs,2025-07-06T20:20:16Z,2025-07-07T01:51:32+00:00,1,5.52,True,26,26,8,826,5,0,5,MERGED
+132762,chore: depr. pointer pkg replacement for test integration,PatrickLaabs,2025-07-06T20:03:54Z,2025-07-07T01:51:25+00:00,1,5.79,True,38,39,8,934,6,0,6,MERGED
+132760,golangci-lint: exclude naming convention check for swagger docs,pohly,2025-07-06T14:59:12Z,2025-07-06T16:25:25+00:00,1,1.44,True,18,0,3,414,4,0,4,MERGED
+132756,ci: redis removal for e2e test dependency simplicity,ylink-lfs,2025-07-06T11:38:04Z,2025-07-24T16:38:42+00:00,10,437.01,True,8,414,29,454,11,3,14,MERGED
+132754,chore: depr. pointer pkg replacement for component-base,PatrickLaabs,2025-07-06T09:22:08Z,2025-07-06T20:39:32+00:00,1,11.29,True,68,68,2,634,6,0,6,MERGED
+132753,chore: depr. pointer pkg replacement for controller-manager,PatrickLaabs,2025-07-06T09:15:58Z,2025-07-06T19:33:25+00:00,1,10.29,True,2,2,1,589,5,0,5,MERGED
+132752,chore: second depr. pointer pkg replacement for apiserver (2/2),PatrickLaabs,2025-07-06T09:11:00Z,2025-07-06T22:13:25+00:00,1,13.04,True,75,75,4,792,6,0,6,MERGED
+132751,chore: first depr. pointer pkg replacement for apiserver (1/2),PatrickLaabs,2025-07-06T09:01:34Z,2025-07-06T20:39:25+00:00,1,11.63,True,114,115,4,827,6,0,6,MERGED
+132750,chore: depr. pointer pkg replacement for cli-runtime,PatrickLaabs,2025-07-06T08:51:57Z,2025-07-07T19:31:56+00:00,6,34.67,True,20,20,2,569,11,1,12,MERGED
+132748,kubelet: remove unused package,HirazawaUi,2025-07-06T08:20:17Z,2025-07-12T13:53:28+00:00,1,149.55,True,18,762,5,503,6,0,6,MERGED
+132744,kubelet: enhance exec probe logging with pod and container context,xigang,2025-07-05T14:23:27Z,2025-07-15T20:16:37+00:00,10,245.89,True,13,9,2,495,13,4,17,MERGED
+132743,chore: depr. pointer pkg replacement for psa policy,PatrickLaabs,2025-07-05T10:25:14Z,2025-07-05T21:13:37+00:00,1,10.81,True,40,40,5,919,5,0,5,MERGED
+132742,chore: depr. pointer pkg replacement for psa admissiontest,PatrickLaabs,2025-07-05T10:15:11Z,2025-07-05T21:13:31+00:00,1,10.97,True,17,17,1,596,6,0,6,MERGED
+132741,chore: depr. pointer pkg replacement for psa tests,PatrickLaabs,2025-07-05T10:10:52Z,2025-07-06T01:59:32+00:00,1,15.81,True,30,30,6,955,7,0,7,MERGED
+132740,Loop over all IP address from each node in e2e test ,adrianmoisey,2025-07-05T08:57:26Z,2025-07-09T12:05:28+00:00,3,99.13,True,32,17,1,641,9,1,10,MERGED
+132739,chore: remove utilpointer usage in pkg/apis/autoscaling,ylink-lfs,2025-07-05T03:46:38Z,2025-07-06T01:59:25+00:00,2,22.21,True,129,130,10,412,6,0,6,MERGED
+132738,chore: remove utilpointer usage in pkg/api/pod,ylink-lfs,2025-07-05T03:37:50Z,2025-07-06T04:55:25+00:00,2,25.29,True,10,11,2,398,9,0,9,MERGED
+132730,Move unschedulablePods struct to a separate file,onasser1,2025-07-04T11:36:41Z,2025-07-14T10:44:23+00:00,23,239.13,True,248,197,4,515,14,13,27,MERGED
+132726,chore: depr. pointer pkg replacement for apiext. apiservers validations,PatrickLaabs,2025-07-04T08:54:20Z,2025-07-05T23:41:24+00:00,3,38.78,True,4,4,1,613,6,1,7,MERGED
+132725,chore: depr. pointer pkg replacement for apiext. pkg/registry,PatrickLaabs,2025-07-04T08:50:00Z,2025-07-04T23:53:24+00:00,2,15.06,True,6,11,1,765,6,0,6,MERGED
+132724,chore: depr. pointer pkg replacement for apiext. pkg/cntroller,PatrickLaabs,2025-07-04T08:32:34Z,2025-07-05T19:19:24+00:00,3,34.78,True,5,6,2,685,6,1,7,MERGED
+132723,chore: depr. pointer pkg replacement for apiext.-apiserver apiextensions,PatrickLaabs,2025-07-04T08:14:52Z,2025-07-06T07:23:24+00:00,2,47.14,True,147,149,7,1149,8,3,11,MERGED
+132722,fix(kube-proxy) avoid add zero-masked loadBalancerSourceRanges to ipet,imroc,2025-07-04T08:10:05Z,2025-07-18T14:16:26+00:00,2,342.11,True,15,7,4,684,13,2,15,MERGED
+132721,chore: depr. pointer pkg replacement for apiext. integration,PatrickLaabs,2025-07-04T08:00:23Z,2025-07-05T21:13:24+00:00,4,37.22,True,6,7,3,771,6,1,7,MERGED
+132720,chore: depr. pointer pkg replacement for the cloud-provider,PatrickLaabs,2025-07-04T07:53:04Z,2025-07-05T02:13:31+00:00,1,18.34,True,4,5,2,640,7,0,7,MERGED
+132718,"client-go, kubectl: Replace deprecated ErrWaitTimeout with recommended method",mayuka-c,2025-07-04T07:43:52Z,2025-07-24T14:56:28+00:00,3,487.21,True,14,15,10,625,21,1,22,MERGED
+132717,cleanup: use HandleErrorWithXXX instead of logger.Error where errors are intentionally ignored,togettoyou,2025-07-04T07:34:52Z,2025-07-08T08:43:27+00:00,5,97.14,True,67,62,9,624,10,8,18,MERGED
+132716,chore: remove utilpointer usage in test/integration/service/loadbancer_test.go,ylink-lfs,2025-07-04T04:55:57Z,2025-07-05T02:13:24+00:00,2,21.29,True,16,17,1,435,7,0,7,MERGED
+132715,fix: TestPatchResourceTimeout flaky test,googs1025,2025-07-04T03:35:11Z,2025-07-08T16:03:34+00:00,1,108.47,True,12,8,1,325,18,1,19,MERGED
+132713,fix: revert TestPatchResourceTimeout addition for flaky avoidance,ylink-lfs,2025-07-04T02:43:23Z,2025-07-08T13:58:57+00:00,1,107.26,False,2,54,2,379,6,1,7,CLOSED
+132708,cleanup conntrack entries test for UDP service,yashsingh74,2025-07-03T16:50:19Z,2025-07-09T04:51:27+00:00,3,132.02,True,85,0,1,279,8,7,15,MERGED
+132706,DRA API: graduation to GA,pohly,2025-07-03T13:42:11Z,2025-07-24T10:42:26+00:00,38,501.0,True,57079,15257,262,1799,64,27,91,MERGED
+132704,Promote WatchList feature to Beta,p0lyn0mial,2025-07-03T12:19:48Z,2025-07-21T18:58:27+00:00,14,438.64,True,16,4,5,389,12,4,16,MERGED
+132703,kcm/app: Add proper goroutine management,tchap,2025-07-03T12:11:21Z,2025-09-15T08:58:12+00:00,40,1772.78,True,1681,927,23,1472,21,18,39,MERGED
+132702,[WIP] reflector: watchlist supports decoding meta.Table,p0lyn0mial,2025-07-03T11:23:59Z,2025-07-14T14:12:54+00:00,4,266.82,False,97,4,1,285,10,3,13,CLOSED
+132701,chore: depr. pointer pkg replacement for the kube-aggregator,PatrickLaabs,2025-07-03T10:01:05Z,2025-07-03T21:43:32+00:00,1,11.71,True,4,4,2,677,7,0,7,MERGED
+132699,chore: depr. pointer pkg replacement for the csr,PatrickLaabs,2025-07-03T09:36:17Z,2025-07-03T20:37:33+00:00,2,11.02,True,2,2,1,549,6,1,7,MERGED
+132698,chore: depr. pointer pkg replacement for the reflector,PatrickLaabs,2025-07-03T09:30:01Z,2025-07-03T19:31:25+00:00,1,10.02,True,36,36,2,623,5,0,5,MERGED
+132697,"[go] Bump images, dependencies and versions to go 1.25rc2",cpanato,2025-07-03T07:35:43Z,2025-09-17T13:16:42+00:00,1,1829.68,False,16,14,5,501,15,0,15,CLOSED
+132693,chore: remove utilpointer usage in conversion package,ylink-lfs,2025-07-03T01:18:33Z,2025-07-04T04:35:26+00:00,2,27.28,True,20,20,1,413,17,0,17,MERGED
+132692,Fix data race in scheduling post start hook,enj,2025-07-03T00:18:20Z,2025-09-09T09:44:35+00:00,4,1641.44,False,2,1,1,12383,6,2,8,CLOSED
+132691,Apply fix to namespace deletion test,fedebongio,2025-07-02T18:30:10Z,2025-07-03T12:07:25+00:00,1,17.62,True,4,2,1,352,12,1,13,MERGED
+132683,DRA resourceslice controller: fix recreation after quick delete,pohly,2025-07-02T13:56:28Z,2025-07-03T20:37:25+00:00,8,30.68,True,310,71,2,1878,7,6,13,MERGED
+132680,Don't log irrelevant zone hints message on no endpoints,milesbxf,2025-07-02T12:39:18Z,2025-07-08T13:45:34+00:00,5,145.1,True,22,4,2,531,13,6,19,MERGED
+132674,Fix volume limit e2e test cleanup,jsafrane,2025-07-02T11:18:18Z,2025-07-03T15:37:25+00:00,3,28.32,True,49,47,1,875,9,1,10,MERGED
+132672,Stabilize swap eviction priority test ,iholder101,2025-07-02T10:12:35Z,2025-07-08T07:35:29+00:00,7,141.38,True,62,12,1,1661,31,5,36,MERGED
+132668,Fix todos from sorted features golangci-lint plugin PR,dims,2025-07-02T02:20:54Z,2025-07-09T20:15:27+00:00,1,185.91,True,269,171,14,475,8,1,9,MERGED
+132667,ci: httpd gradual removal in controller_revision and daemon_set e2e test,ylink-lfs,2025-07-02T01:28:27Z,2025-07-04T06:20:12+00:00,1,52.86,False,2,2,2,450,4,0,4,CLOSED
+132666,[debug] ci: presubmit job speedup impact test,ylink-lfs,2025-07-02T01:20:07Z,2025-07-08T12:22:01+00:00,3,155.03,False,7,7,3,380,7,1,8,CLOSED
+132663,applyconfiguration-gen: preserve struct and field comments in generated code,mrIncompetent,2025-07-01T20:16:27Z,2025-09-10T22:56:04+00:00,1,1706.66,True,19503,3298,927,1426,15,0,15,MERGED
+132662,Bump recovery feature ga,gnufied,2025-07-01T19:00:22Z,2025-07-18T00:10:25+00:00,4,389.17,True,64,1,10,81,17,2,19,MERGED
+132659,Fix AuthInfo godoc for Token / TokenFile precedence,Arthur-Befumo,2025-07-01T17:58:51Z,2025-07-02T15:55:24+00:00,2,21.94,True,4,2,2,390,7,1,8,MERGED
+132658,kubelet: add a unit test that verifies that the dra plugin enforces timeout,tkashem,2025-07-01T17:44:52Z,2025-10-05T16:45:29+00:00,7,2303.01,False,88,10,2,362,11,6,17,CLOSED
+132657,Drop BoundedFrequencyRunner from pkg/util/async,danwinship,2025-07-01T16:51:54Z,2025-07-24T05:52:32+00:00,1,541.01,True,0,766,2,351,5,0,5,MERGED
+132656,KEP-4601: Graduate selector authorization to stable,liggitt,2025-07-01T16:15:30Z,2025-07-14T23:42:39+00:00,2,319.45,True,79,79,22,807,9,1,10,MERGED
+132655,ci: remove httpd usage while using agnhost instead,ylink-lfs,2025-07-01T15:43:58Z,2025-09-06T03:23:24+00:00,40,1595.66,True,195,1410,40,442,25,16,41,MERGED
+132654,Bump kube-openapi,Jefftree,2025-07-01T15:27:59Z,2025-07-01T19:43:31+00:00,2,4.26,True,237,218,67,433,6,1,7,MERGED
+132651,GA the NodeSwap feature gate,iholder101,2025-07-01T13:33:33Z,2025-07-18T16:48:26+00:00,1,411.25,True,108,166,4,1171,13,0,13,MERGED
+132647,Ensure Loadbalancer internal port is set to container port from endpointslice if the targetPort is not specified in service info creation.,princepereira,2025-07-01T10:09:46Z,2025-07-11T01:41:28+00:00,9,231.53,True,72,1,2,1582,11,1,12,MERGED
+132645,Graduate ConsistentListFromCache to GA,serathius,2025-07-01T09:44:44Z,2025-07-14T16:12:24+00:00,1,318.46,True,21,3,6,187,9,0,9,MERGED
+132642,Implement container restart policy rules,yuanwang04,2025-07-01T06:48:06Z,2025-07-24T23:44:51+00:00,42,568.95,True,6006,1377,98,900,27,27,54,MERGED
+132640,kubeadm: fix missing log of health check,pacoxu,2025-07-01T02:56:10Z,2025-07-01T05:46:32+00:00,2,2.84,True,7,7,2,668,10,0,10,MERGED
+132638,chore: remove utilpointer usage in package pkg/apis/admissionregistration,ylink-lfs,2025-07-01T01:12:12Z,2025-07-01T18:35:32+00:00,2,17.39,True,8,8,4,425,6,0,6,MERGED
+132632,fix: add RV check on GC delete calls,sdowell,2025-06-30T21:05:32Z,2025-07-25T00:58:47+00:00,6,579.89,True,172,12,5,836,11,4,15,MERGED
+132627,Validate OS not windows for PodLevelResources,annasong20,2025-06-30T16:41:48Z,2025-07-18T22:09:31+00:00,9,437.46,False,113,59,6,1125,11,3,14,CLOSED
+132626,KEP-3721: Support for env files,HirazawaUi,2025-06-30T14:53:55Z,2025-07-22T20:40:43+00:00,55,533.78,True,6397,1204,94,1304,22,31,53,MERGED
+132625,chore: remove utilpointer usage in package staging/src/k8s.io/apiserver/pkg/registry/rest/delete,ylink-lfs,2025-06-30T12:55:01Z,2025-07-01T07:25:24+00:00,2,18.51,True,42,42,2,467,6,0,6,MERGED
+132623,scheduler_perf: Fix version emulation for empty featureGates map,utam0k,2025-06-30T12:36:40Z,2025-07-01T16:21:52+00:00,1,27.75,True,1,1,1,546,5,0,5,MERGED
+132619,scheduler_perf: add logs to report the failure of measuring SchedulingThroughput,saza-ku,2025-06-30T09:04:16Z,2025-07-10T08:15:28+00:00,3,239.19,True,22,15,1,791,12,3,15,MERGED
+132617,Add ServiceAccountTokenCacheType support to credential provider plugin,aramase,2025-06-30T07:32:34Z,2025-07-15T17:56:45+00:00,8,370.4,True,573,505,9,949,9,28,37,MERGED
+132615,Commonize filtering of Pods by Owner with all orphans in namespace,mimowo,2025-06-30T06:13:08Z,2025-07-02T09:03:33+00:00,5,50.84,True,125,96,6,394,12,2,14,MERGED
+132614,"Fix validation for Job with suspend=true,completions=0 to set Complete condition",mimowo,2025-06-30T06:03:43Z,2025-07-01T19:43:24+00:00,5,37.66,True,55,1,3,745,14,2,16,MERGED
+132613,feat: increment an internal metric when duplicate validation errors are found,gavinkflam,2025-06-30T05:18:04Z,2025-08-27T21:54:41+00:00,25,1408.61,True,165,6,5,938,8,8,16,MERGED
+132612,test: assert pkg removal in pkg/scheduler,ylink-lfs,2025-06-30T04:05:29Z,2025-06-30T08:34:56+00:00,1,4.49,False,69,25,4,590,6,0,6,CLOSED
+132607,test: code coverage increase for kubelet/preemption,ylink-lfs,2025-06-29T15:56:48Z,2025-08-27T21:54:34+00:00,7,1421.96,True,197,32,1,1750,17,6,23,MERGED
+132606,add paths section to scheduler statusz endpoint,Peac36,2025-06-29T15:30:08Z,2025-09-08T14:39:31+00:00,20,1703.16,True,4,3,2,660,21,8,29,MERGED
+132605,[PodLevelResources] Update Downward API defaulting for resource limits,toVersus,2025-06-29T09:42:28Z,2025-07-24T23:44:43+00:00,11,614.04,True,308,11,5,1371,18,4,22,MERGED
+132604,JSON & YAML output for kubectl api-resources,dharmit,2025-06-29T09:37:19Z,2025-07-24T13:46:28+00:00,13,604.15,True,399,76,4,548,10,7,17,MERGED
+132598,DRA plugin: handle gRPC serving failures,bart0sh,2025-06-28T18:22:52Z,2025-07-16T21:18:24+00:00,51,434.93,True,316,86,7,596,18,16,34,MERGED
+132596,Add useful endpoints to kube-scheduler /statusz,nmn3m,2025-06-28T11:15:34Z,2025-07-24T16:50:50+00:00,3,629.59,False,50,5,2,1105,10,1,11,CLOSED
+132595,Graduate PodLifecycleSleepAction to GA,AxeZhan,2025-06-28T09:45:23Z,2025-07-19T20:22:40+00:00,10,514.62,True,14,13,7,431,29,4,33,MERGED
+132594,kubeadm: graduate WaitForAllControlPlaneComponents to GA,neolit123,2025-06-28T09:25:28Z,2025-06-30T03:40:30+00:00,1,42.25,True,9,74,6,669,4,0,4,MERGED
+132593,Update kubectl kustomize to kustomize/v5.7.1,koba1t,2025-06-28T07:44:52Z,2025-07-24T16:38:35+00:00,16,632.9,True,215,1271,41,748,13,4,17,MERGED
+132581,List available endpoints for kube-apiserver,itssimrank,2025-06-27T17:19:56Z,2025-07-24T04:44:27+00:00,17,635.41,True,126,14,8,828,18,8,26,MERGED
+132578,Report actionable error when GC fails due to disk pressure,drigz,2025-06-27T14:11:01Z,2025-08-27T21:54:27+00:00,33,1471.72,True,69,11,3,1819,22,7,29,MERGED
+132577,WIP: API: enhance validation with ErrorMatcher,pohly,2025-06-27T13:34:16Z,2025-10-05T15:45:28+00:00,5,2402.19,False,118,111,13,1634,11,38,49,CLOSED
+132574,DRA kubelet: remove v1alpha4,pohly,2025-06-27T08:13:59Z,2025-06-30T11:00:36+00:00,2,74.78,True,26,3172,13,953,9,0,9,MERGED
+132573,kubectl: add basic test cases TestDescribeCronJob for describe CronJob,icylord,2025-06-27T06:11:23Z,2025-07-06T23:50:01+00:00,2,233.64,False,48,0,1,215,8,1,9,CLOSED
+132569,test: Add unit tests for allocation manager AddPod(),pravk03,2025-06-27T00:30:58Z,2025-07-15T17:56:38+00:00,6,449.43,True,247,0,1,337,14,8,22,MERGED
+132567,Enhance help text for the 'top' command,janetkuo,2025-06-27T00:03:57Z,2025-06-30T18:00:43+00:00,8,89.95,True,24,2,1,321,9,4,13,MERGED
+132566,DRA: add E2E test for PerDeviceNodeSelection,barney-s,2025-06-26T21:34:33Z,2025-10-05T16:45:29+00:00,15,2419.18,False,122,49,2,602,10,7,17,CLOSED
+132560,fix: Truncate too long Deployment name in RS name,hdp617,2025-06-26T18:24:47Z,2025-06-27T23:32:29+00:00,15,29.13,True,152,1,2,551,8,8,16,MERGED
+132558,KEP-4762: Allows setting any FQDN as the pod's hostname,HirazawaUi,2025-06-26T14:12:36Z,2025-07-23T23:26:27+00:00,36,657.23,True,1760,1045,82,1984,33,29,62,MERGED
+132557,Avoid killing kops etcd-manager,dims,2025-06-26T13:19:17Z,2025-06-26T20:30:29+00:00,1,7.19,True,1,1,1,2070,6,0,6,MERGED
+132555,scheduler_perf: Set version emulation only when QueueingHints is disabled,utam0k,2025-06-26T13:03:15Z,2025-06-29T12:52:30+00:00,2,71.82,True,4,1,1,802,11,1,12,MERGED
+132554,WIP: DRA GA tracking branch,pohly,2025-06-26T10:38:45Z,2025-09-10T12:12:41+00:00,6,1825.57,False,197,39,3,198,9,2,11,CLOSED
+132550,bug: Remove duplicate RBAC resources update validations,gavinkflam,2025-06-26T04:25:55Z,2025-08-27T21:54:20+00:00,1,1505.47,True,4,11,4,539,4,0,4,MERGED
+132549,bug: Remove duplicate storage resources update validations,gavinkflam,2025-06-26T04:21:08Z,2025-08-27T21:54:13+00:00,1,1505.55,True,3,6,3,495,4,3,7,MERGED
+132548,bug: Remove duplicate DaemonSet update validations,gavinkflam,2025-06-26T04:14:38Z,2025-07-15T19:06:30+00:00,1,470.86,True,2,7,2,438,6,0,6,MERGED
+132545,Fix gRPC listener error message and some minor (subjective) renaming,gauravkghildiyal,2025-06-26T03:03:03Z,2025-06-27T22:24:28+00:00,5,43.36,True,5,6,3,503,4,1,5,MERGED
+132544,tests: runtime units,acpana,2025-06-26T01:02:45Z,2025-06-30T22:50:30+00:00,2,117.8,True,740,0,1,450,8,1,9,MERGED
+132542,Improve ignore-not-found behavior,gemmahou,2025-06-25T23:23:51Z,2025-07-03T01:53:24+00:00,7,170.49,True,151,2,2,924,16,3,19,MERGED
+132541,tests: add more units,acpana,2025-06-25T22:01:19Z,2025-07-01T21:15:24+00:00,3,143.23,True,388,1,2,484,8,5,13,MERGED
+132540,Migrate devicemanager to context logging (1/5),chuangw6,2025-06-25T21:37:08Z,2025-10-05T15:45:31+00:00,13,2442.14,False,220,167,18,932,17,6,23,CLOSED
+132537,add validation logic for APIVersion fields of HPA,lalitc375,2025-06-25T19:35:24Z,2025-07-23T02:04:28+00:00,9,654.48,True,805,306,5,795,12,11,23,MERGED
+132536,Refactor: Use field.Required for missing field errors,xiaoweim,2025-06-25T19:15:49Z,2025-10-05T14:45:31+00:00,3,2443.49,False,57,58,26,653,10,13,23,CLOSED
+132534,test: code coverage increase for kubelet/prober,ylink-lfs,2025-06-25T16:40:05Z,2025-07-17T02:19:44+00:00,9,513.66,False,562,91,3,2381,10,6,16,CLOSED
+132533,DRA: fix deleting orphaned ResourceClaim on startup,nojnhuh,2025-06-25T16:12:23Z,2025-07-02T09:03:26+00:00,4,160.85,True,47,2,2,569,7,1,8,MERGED
+132531,Enable OpenAPI formats immediately at release version,jpbetz,2025-06-25T15:17:05Z,2025-09-11T14:18:12+00:00,9,1871.02,False,256,35,11,1641,13,4,17,CLOSED
+132529,Replaced deprecated pointer pkg in pkg/kubeapiserver,PatrickLaabs,2025-06-25T11:25:12Z,2025-07-01T17:27:31+00:00,1,150.04,True,16,16,2,525,7,0,7,MERGED
+132523,KEP-5229: Implement API dispatcher,macsko,2025-06-25T07:53:08Z,2025-07-22T14:26:35+00:00,52,654.56,True,1508,3,10,872,30,26,56,MERGED
+132522,DRA: Implementation of Consumable Capacity (KEP-5075),sunya-ch,2025-06-25T04:18:05Z,2025-07-30T06:56:27+00:00,179,842.64,True,15146,1391,140,1922,41,174,215,MERGED
+132515,Update CCM image to v33.1.1,gemmahou,2025-06-24T20:32:09Z,2025-07-25T00:58:40+00:00,6,724.44,True,2,1,1,635,22,2,24,MERGED
+132514,Allow white-spaced CABundle during webhook client creation and validation,tiffanny29631,2025-06-24T20:30:58Z,2025-07-25T00:58:33+00:00,7,724.46,True,119,2,3,463,7,2,9,MERGED
+132513,Cleanup: Remove field name from invalid field detail message,xiaoweim,2025-06-24T20:24:10Z,2025-07-15T04:04:29+00:00,5,487.67,True,60,60,21,767,13,16,29,MERGED
+132509,chore: Remove vet target and associated script from Makefile and hack directory,yongruilin,2025-06-24T17:53:29Z,2025-06-26T07:26:34+00:00,3,37.55,True,0,46,2,424,8,1,9,MERGED
+132504,Introduce OpenAPI format support for k8s-short-name and k8s-long-name,jpbetz,2025-06-24T15:59:05Z,2025-06-25T13:46:38+00:00,2,21.79,True,370,82,58,4508,12,1,13,MERGED
+132503,Remove redundant MilliValue call in GetRawMetric for podautoscaler,LoganGoogle,2025-06-24T14:22:48Z,2025-08-27T21:53:59+00:00,2,1543.52,True,0,2,1,357,7,0,7,MERGED
+132498,e2e: node cpumanager parity with the old suite,ffromani,2025-06-24T13:23:40Z,2025-07-01T14:15:32+00:00,1,168.86,True,235,1,1,947,7,0,7,MERGED
+132497,apiserver/storage/cacher/listwatcher: error when the WatchList FG is disabled,p0lyn0mial,2025-06-24T13:22:19Z,2025-06-25T08:04:29+00:00,5,18.7,True,41,0,2,285,5,2,7,MERGED
+132487,KEP-5229: Add SchedulerAsyncAPICalls feature gate,macsko,2025-06-24T12:45:10Z,2025-06-26T12:54:36+00:00,1,48.16,True,16,0,2,410,8,0,8,MERGED
+132484,test: code coverage increase for kubelet_client,ylink-lfs,2025-06-24T11:50:29Z,2025-06-26T00:50:28+00:00,29,37.0,True,343,34,8,1521,9,17,26,MERGED
+132483,Activly poll for namespace termination instead of sleeping,serathius,2025-06-24T11:26:35Z,2025-06-25T09:58:35+00:00,16,22.53,True,52,25,1,30,6,5,11,MERGED
+132480,kubectl: avoid logging during init,pohly,2025-06-24T09:15:35Z,2025-06-25T15:26:31+00:00,1,30.18,True,0,1,1,2291,4,0,4,MERGED
+132479,apiserver/cacher: properly wire listwatch options to the listwatcher,p0lyn0mial,2025-06-24T08:56:10Z,2025-06-24T10:48:29+00:00,2,1.87,True,65,4,2,285,9,1,10,MERGED
+132478,verify-e2e-images.sh enhancements,pohly,2025-06-24T08:35:11Z,2025-09-02T05:43:20+00:00,6,1677.14,True,26,4,1,2477,5,1,6,MERGED
+132477,Fix DaemonSet misscheduled status not updating on node taint changes,xigang,2025-06-24T07:08:47Z,2025-08-27T21:53:51+00:00,5,1550.75,True,34,1,2,1859,18,5,23,MERGED
+132473, [FG:InPlacePodVerticalScaling] Add a feature gate for in-place resize with static memory manager policy support ,pravk03,2025-06-24T00:34:01Z,2025-07-19T22:50:25+00:00,31,622.27,True,341,40,9,698,28,11,39,MERGED
+132472,Cleanup: Remove redundant detail messages in field.Required,xiaoweim,2025-06-23T23:30:14Z,2025-07-01T08:33:25+00:00,7,177.05,True,47,47,19,748,14,2,16,MERGED
+132469,feat(validation-gen): Enhance validation with new rules and core refactoring,yongruilin,2025-06-23T21:00:31Z,2025-07-13T03:04:22+00:00,3,462.06,True,5854,399,95,1003,9,1,10,MERGED
+132468,e2e: retry getting status on restart policy tests,haircommander,2025-06-23T18:49:54Z,2025-07-09T01:21:28+00:00,2,366.53,True,3,3,1,564,5,0,5,MERGED
+132467,fix: prevent SSA from creating CR while CRD terminating,sdowell,2025-06-23T17:36:07Z,2025-06-24T19:08:28+00:00,8,25.54,True,77,6,2,881,11,3,14,MERGED
+132465,fix: versioned validation test avoid incorrect conversion,yongruilin,2025-06-23T16:46:09Z,2025-07-01T03:58:30+00:00,10,179.21,True,51,2,2,652,8,3,11,MERGED
+132462,podtopologylabels: update topology.k8s.io->topology.kubernetes.io,munnerz,2025-06-23T14:13:09Z,2025-07-21T20:06:35+00:00,2,677.89,True,49,49,5,1252,11,0,11,MERGED
+132458,Remove typo in SelfSubjectAccessReview,yardenshoham,2025-06-23T11:10:39Z,2025-06-23T16:06:11+00:00,1,4.93,False,1,1,1,147,5,0,5,CLOSED
+132457,"Moving Scheduler interfaces to staging: Move PodInfo and NodeInfo interfaces (together with related types) to staging repo, leaving internal implementation in kubernetes/kubernetes/pkg/scheduler",ania-borowiec,2025-06-23T11:02:48Z,2025-07-24T16:38:27+00:00,16,749.59,True,1739,1422,71,1235,14,24,38,MERGED
+132456,nftables short-circuit local traffic to external addresses,aroradaman,2025-06-23T10:55:06Z,2025-07-10T00:53:28+00:00,1,397.97,True,48,43,4,1429,12,0,12,MERGED
+132453,client-go/reflector: stop exposing UseWatchList,p0lyn0mial,2025-06-23T08:37:23Z,2025-06-25T11:04:29+00:00,17,50.45,True,22,26,5,289,9,3,12,MERGED
+132451,Fix race in scheduler integration tests,macsko,2025-06-23T07:59:35Z,2025-08-31T12:03:09+00:00,9,1660.06,True,132,88,11,1016,24,9,33,MERGED
+132443,Clear pod.Status.NominatedNodeName when pod is bound,utam0k,2025-06-22T12:39:11Z,2025-07-29T17:12:27+00:00,41,892.55,True,616,434,7,1081,24,18,42,MERGED
+132442,"ci: update test image base: nginx, nginx-new",ylink-lfs,2025-06-22T08:56:16Z,2025-06-24T05:58:29+00:00,7,45.04,True,12,12,4,683,7,3,10,MERGED
+132439,scheduler: stop clearing NominatedNodeName on all cases,utam0k,2025-06-21T04:14:44Z,2025-07-29T12:37:28+00:00,16,920.38,False,313,155,4,529,17,19,36,CLOSED
+132438,golangci plugin for sorting feature gates,dims,2025-06-21T03:16:00Z,2025-06-27T19:08:30+00:00,37,159.88,True,2334,802,24,1055,14,24,38,MERGED
+132433,feat: make CLE timers configurable,michaelasp,2025-06-20T21:02:00Z,2025-06-30T19:08:31+00:00,12,238.11,True,133,24,9,435,14,5,19,MERGED
+132432,fix unit test flake for authn config on windows,aramase,2025-06-20T19:32:46Z,2025-06-23T18:24:27+00:00,1,70.86,True,13,1,1,255,6,0,6,MERGED
+132430,HPA support for pod-level resource specifications,laoj2,2025-06-20T15:37:23Z,2025-07-29T16:02:26+00:00,7,936.42,True,337,64,8,564,18,5,23,MERGED
+132429,Promote sig-storage feature `MutableCSINodeAllocatableCount` to Beta,torredil,2025-06-20T14:03:13Z,2025-07-22T20:40:35+00:00,4,774.62,True,29,23,13,930,11,1,12,MERGED
+132427,feat(kubelet): migrate kuberuntime to contextual logging,soma00333,2025-06-20T11:58:07Z,2025-07-21T12:50:37+00:00,40,744.88,True,774,601,38,1998,39,9,48,MERGED
+132419,etcd: Build etcd image 3.6.0-1,joshjms,2025-06-20T09:10:36Z,2025-07-11T13:13:42+00:00,3,508.05,False,7,7,3,373,10,1,11,CLOSED
+132417,e2e/watchlist: new test for checking metadata informer,p0lyn0mial,2025-06-20T06:30:00Z,2025-06-23T14:48:03+00:00,4,80.3,True,90,10,1,289,6,1,7,MERGED
+132413,Replaced deprecated pointer pkg with new ptr pkg on src/apimachinery,PatrickLaabs,2025-06-20T05:14:47Z,2025-07-01T17:27:24+00:00,2,276.21,True,12,13,1,991,6,0,6,MERGED
+132412,remove kvh.exec,liyuerich,2025-06-20T02:10:01Z,2025-07-07T19:31:48+00:00,1,425.36,True,0,3,1,342,14,0,14,MERGED
+132409,DRA: add e2e test with initContainer using external claim,nojnhuh,2025-06-19T20:28:38Z,2025-06-23T21:18:35+00:00,2,96.83,True,12,0,1,729,4,0,4,MERGED
+132407,Bump to mockery v3,skitt,2025-06-19T15:58:08Z,2025-08-29T14:03:09+00:00,5,1702.08,True,8594,7959,44,638,6,3,9,MERGED
+132406,cleanup shellcheck for temporary HOME directory,dims,2025-06-19T15:49:41Z,2025-06-20T16:38:52+00:00,4,24.82,True,4,2,1,324,8,1,9,MERGED
+132401,Refactor: isolate flag registration to kube-apiserver to eliminate global state,togettoyou,2025-06-19T10:13:57Z,2025-07-16T05:44:30+00:00,2,643.51,True,95,126,9,614,20,1,21,MERGED
+132400,Add namespace-aware orphan pod indexing for improved controller performance,xigang,2025-06-19T08:35:04Z,2025-06-21T01:46:51+00:00,1,41.2,True,11,6,5,322,10,0,10,MERGED
+132399,Fix [Failing test] [sig-node] [Feature:GPUDevicePlugin] [Serial]-related tests,carlory,2025-06-19T07:44:51Z,2025-06-24T07:24:29+00:00,1,119.66,True,18,4,1,2308,10,0,10,MERGED
+132395,handling the etcd 3.6+ build directory location change,Timothy-Dougherty,2025-06-19T02:22:29Z,2025-06-19T12:56:52+00:00,8,10.57,True,6,2,1,441,12,2,14,MERGED
+132392,Annotate LimitRangeSpec.Limits to be optional,shumiao,2025-06-18T23:38:27Z,2025-06-28T00:15:22+00:00,1,216.62,False,1,522200,900,481,11,1,12,CLOSED
+132391,feat: add PreBindPreFlight and implement in in-tree plugins,sanposhiho,2025-06-18T22:15:30Z,2025-07-15T11:06:23+00:00,8,636.85,True,141,5,12,646,17,8,25,MERGED
+132390,fix for gimme when $HOME is not writable,dims,2025-06-18T22:02:48Z,2025-06-19T02:00:51+00:00,2,3.97,True,3,0,1,426,9,1,10,MERGED
+132380,Move recovery tests ga,gnufied,2025-06-18T20:00:59Z,2025-07-01T22:21:24+00:00,3,314.34,True,247,96,5,98,12,1,13,MERGED
+132378,codegen tool: resolves GOBIN via `go env`,bartoszmajsak,2025-06-18T19:33:42Z,2025-07-18T03:50:24+00:00,6,704.28,True,24,18,1,712,9,1,10,MERGED
+132374,Fixed large resourceversion and limit for storages,PatrickLaabs,2025-06-18T14:40:46Z,2025-06-25T09:58:28+00:00,17,163.29,True,12,3,2,2973,13,4,17,MERGED
+132373,Use Mock CSI Driver for MutableCSINodeAllocatableCount storage e2e test,torredil,2025-06-18T14:05:11Z,2025-06-18T21:02:58+00:00,13,6.96,True,147,151,4,1098,8,5,13,MERGED
+132369,cluster/gce: rm KUBE_LIST_FROM_CACHE_INCONSISTENCY_DETECTOR,p0lyn0mial,2025-06-18T10:33:31Z,2025-06-18T13:34:52+00:00,1,3.02,True,0,38,4,318,5,0,5,MERGED
+132365,flag: fix nil-ptr panic & typo messages,mohiuddin-khan-shiam,2025-06-17T20:06:39Z,2025-09-02T01:29:13+00:00,2,1829.38,True,9,5,1,573,11,0,11,MERGED
+132363,Use `jq` docker image for pause windows build,ArkaSaha30,2025-06-17T17:16:37Z,2025-06-17T20:31:06+00:00,1,3.24,True,5,3,1,552,3,0,3,MERGED
+132361,Enable Declarative Validation for CertificateSigningRequest,yongruilin,2025-06-17T16:52:25Z,2025-07-08T00:05:25+00:00,2,487.22,True,304,2,9,1494,10,0,10,MERGED
+132360,[WIP] pkg/kubelet: Fix concurrent map write crash during image gc,sohankunkerkar,2025-06-17T15:57:03Z,2025-06-20T23:12:07+00:00,1,79.25,False,165,10,2,689,20,0,20,CLOSED
+132356,Migrate pkg/kubelet/certificate to contextual logging,RashRAJ,2025-06-17T14:57:52Z,2025-06-25T14:35:41+00:00,1,191.63,False,25,17,7,539,7,0,7,CLOSED
+132355,Estimate average size of objects in etcd and plug it into request cost estimator,serathius,2025-06-17T13:43:48Z,2025-06-26T12:54:29+00:00,23,215.18,True,685,122,25,562,9,9,18,MERGED
+132354,[PodLevelResources] Verify scheduler resource metrics account for Pod Level Resources,toVersus,2025-06-17T13:22:49Z,2025-07-22T20:40:27+00:00,4,847.29,True,166,0,1,1200,9,1,10,MERGED
+132351,bugfix(hpa): introduce buildQuantity helper for consistent resource quantity,googs1025,2025-06-17T11:40:38Z,2025-06-26T18:02:36+00:00,13,222.37,True,81,2,2,770,8,5,13,MERGED
+132350,client-go/util/consistencydetector: remove CheckListFromCacheDataConsistencyIfRequested,p0lyn0mial,2025-06-17T11:40:27Z,2025-06-17T17:50:59+00:00,7,6.18,True,14,269,4,415,8,1,9,MERGED
+132348,[KEP-2400] Add a container_swap_limit_bytes metric,iholder101,2025-06-17T09:45:24Z,2025-07-17T03:02:30+00:00,19,713.28,True,34,6,3,906,25,6,31,MERGED
+132347,kuberc: additional tests,soltysh,2025-06-17T09:37:20Z,2025-06-17T11:41:01+00:00,2,2.06,True,19,8,2,513,5,1,6,MERGED
+132346,Remove the dependency of the volume manager on the container runtime,zhifei92,2025-06-17T07:22:46Z,2025-06-19T00:24:58+00:00,2,41.04,True,0,11,6,475,6,0,6,MERGED
+132344,Remove the dependency of the shutdown manager on the probe manager.,zhifei92,2025-06-17T05:36:13Z,2025-06-18T21:02:50+00:00,1,39.44,True,11,45,7,480,7,0,7,MERGED
+132343,Add error prefixes for authn config load or validation failures,aramase,2025-06-16T22:36:57Z,2025-06-17T14:29:16+00:00,2,15.87,True,32,4,2,259,5,1,6,MERGED
+132342,[FG:InPlacePodVerticalScaling] Prioritize resize requests by priorityClass and qos class,natasha41575,2025-06-16T22:01:30Z,2025-07-10T23:35:27+00:00,11,577.57,True,559,15,3,499,7,16,23,MERGED
+132341,Promote KubeletTracing featuregate to GA,dashpole,2025-06-16T20:45:21Z,2025-07-14T22:34:23+00:00,3,673.82,True,375,7260,15,534,23,0,23,MERGED
+132340,Graduate API Server Tracing to GA,dashpole,2025-06-16T20:38:09Z,2025-07-21T21:14:34+00:00,2,840.61,True,78,4,8,730,7,0,7,MERGED
+132339,KEP-5311 Relaxed validation for Services names,adrianmoisey,2025-06-16T20:22:48Z,2025-07-08T16:03:27+00:00,28,523.68,True,534,21,8,608,9,19,28,MERGED
+132338,Added omitempty tag and opt tag to the API v1beta2 and v1beta1 AdminAccess type,PatrickLaabs,2025-06-16T19:58:05Z,2025-06-23T21:18:28+00:00,2,169.34,True,2,2,2,1015,12,0,12,MERGED
+132337,Automated cherry pick of #132244: 1.33 regression - Consistent paginated lists serve from cache,hakuna-matatah,2025-06-16T17:48:39Z,2025-07-10T04:47:26+00:00,1,562.98,True,134,5,2,310,20,0,20,MERGED
+132336,Fix APIServerTracing test data race,dashpole,2025-06-16T17:38:43Z,2025-06-23T03:26:56+00:00,1,153.8,True,4,4,1,495,14,1,15,MERGED
+132326,apiserver/handlers/watch: stop encoding initialEventsListBlueprint,p0lyn0mial,2025-06-16T11:00:40Z,2025-06-16T14:02:59+00:00,2,3.04,True,12,254,5,483,5,1,6,MERGED
+132325,WIP: DRA kubelet connection monitoring,bart0sh,2025-06-16T09:50:43Z,2025-06-25T07:39:02+00:00,14,213.81,False,840,402,8,121,28,8,36,CLOSED
+132322,DRA: wrap e2e finalizer update in retry,nojnhuh,2025-06-16T05:06:19Z,2025-06-16T06:10:58+00:00,3,1.08,True,13,6,1,478,3,2,5,MERGED
+132316,Automated cherry pick of #132308: Kubeadm: fix failing e2e tests  ,HirazawaUi,2025-06-15T05:24:43Z,2025-06-16T09:20:58+00:00,3,27.94,True,1,1,1,173,13,0,13,MERGED
+132314,Nicer value rendering in API errors,thockin,2025-06-15T01:15:57Z,2025-07-03T08:33:33+00:00,3,439.29,True,515,126,12,935,15,4,19,MERGED
+132313,"Use ""Invalid"" errors rather than ""TypeInvalid""",thockin,2025-06-15T00:52:35Z,2025-06-15T11:23:03+00:00,1,10.51,True,5,5,3,64,3,0,3,MERGED
+132308,Kubeadm: fix failing e2e tests  ,HirazawaUi,2025-06-14T16:12:06Z,2025-06-14T17:20:56+00:00,1,1.15,True,1,3,1,361,14,0,14,MERGED
+132305,Job controller optimization: reduce work duration time & minimize cache locking,xigang,2025-06-14T10:56:43Z,2025-06-18T12:27:02+00:00,16,97.51,True,33,3,1,582,13,3,16,MERGED
+132303,Kubeadm: Fix failed e2e test cases,HirazawaUi,2025-06-14T06:29:28Z,2025-06-14T07:52:56+00:00,6,1.39,True,2,0,1,982,9,2,11,MERGED
+132300,"[release-1.32] Validate requests sent to etcd in TestList ""test List with limit"" scenario",serathius,2025-06-13T21:32:13Z,2025-06-16T21:04:59+00:00,11,71.55,False,134,40,5,35,5,1,6,CLOSED
+132299,"Add `last_config_info` metric for authn, authz and encryption config",aramase,2025-06-13T20:58:39Z,2025-07-18T01:24:24+00:00,22,820.43,True,483,62,20,1515,14,4,18,MERGED
+132297,Fix CRI fake_runtime RemovePodSandbox,markx,2025-06-13T19:29:40Z,2025-06-16T02:32:58+00:00,1,55.05,True,1,1,1,449,8,0,8,MERGED
+132296,DRA: Introduce a helper function producing standardized 'resource.kubernetes.io/pcieRoot' device attributes for DRA drivers,everpeace,2025-06-13T19:21:16Z,2025-07-22T15:54:27+00:00,54,932.55,True,339,0,4,831,19,28,47,MERGED
+132295,DRA: automated upgrade/downgrade testing,pohly,2025-06-13T18:38:49Z,2025-07-16T05:44:23+00:00,32,779.09,True,2349,873,24,1056,51,11,62,MERGED
+132293,DNM update knftables,danwinship,2025-06-13T14:42:11Z,2025-06-13T16:27:13+00:00,1,1.75,False,833,96,10,3,6,0,6,CLOSED
+132292,Plug size of objects stored into APF estimator,serathius,2025-06-13T14:37:34Z,2025-06-18T07:27:55+00:00,4,112.84,False,503,129,27,1724,7,2,9,CLOSED
+132291,Migrate kubelet to contextual logging,RashRAJ,2025-06-13T13:55:50Z,2025-06-17T13:58:20+00:00,2,96.04,False,1663,745,86,271,9,1,10,CLOSED
+132290,add script for verifying dead code elimination,dims,2025-06-13T13:24:01Z,2025-06-17T20:30:52+00:00,3,103.11,True,78,0,1,486,19,1,20,MERGED
+132289,update go version for publishing bot rules,cpanato,2025-06-13T11:35:53Z,2025-06-13T14:52:57+00:00,2,3.28,True,91,91,1,436,4,0,4,MERGED
+132288,chore: update CoreDNS to v1.12.3,thevilledev,2025-06-13T10:17:29Z,2025-08-28T13:55:10+00:00,1,1827.63,True,23,11,10,670,12,0,12,MERGED
+132285,rest client: remove support for API streaming ,p0lyn0mial,2025-06-13T08:55:24Z,2025-06-13T13:43:11+00:00,5,4.8,True,8,580,2,374,8,1,9,MERGED
+132284,Bump etcd to v3.6.1,ArkaSaha30,2025-06-13T07:51:11Z,2025-06-30T18:00:35+00:00,6,418.16,True,10,10,7,455,24,2,26,MERGED
+132283,"Automated cherry pick of #130782: Kubeadm issue #3152 ControlPlane node setup failing with ""etcdserver: can only promote a learner member""",neolit123,2025-06-13T07:05:59Z,2025-07-12T05:17:29+00:00,1,694.19,True,9,0,1,336,6,0,6,MERGED
+132282,"Automated cherry pick of #130782: Kubeadm issue #3152 ControlPlane node setup failing with ""etcdserver: can only promote a learner member""",neolit123,2025-06-13T07:05:40Z,2025-07-09T09:43:28+00:00,1,626.63,True,9,0,1,336,4,0,4,MERGED
+132281,"Automated cherry pick of #130782: Kubeadm issue #3152 ControlPlane node setup failing with ""etcdserver: can only promote a learner member""",neolit123,2025-06-13T07:05:21Z,2025-07-12T00:45:35+00:00,1,689.67,True,9,0,1,336,29,0,29,MERGED
+132280,"Automated cherry pick of #130782: Kubeadm issue #3152 ControlPlane node setup failing with ""etcdserver: can only promote a learner member""",neolit123,2025-06-13T07:04:29Z,2025-07-09T16:01:28+00:00,1,632.95,True,9,0,1,336,6,0,6,MERGED
+132277,[PodLevelResources] Pod Level Resources Eviction Manager,KevinTMtz,2025-06-12T23:38:34Z,2025-07-24T23:44:35+00:00,33,1008.1,True,410,81,7,741,19,14,33,MERGED
+132276,Add warnings for use of Alpha features with Emulated Version,michaelasp,2025-06-12T22:36:42Z,2025-07-15T19:06:23+00:00,8,788.49,True,71,1,3,604,16,3,19,MERGED
+132272,Automated cherry pick of #132168: reduce logspam when calculating sandbox resources,Peac36,2025-06-12T17:43:12Z,2025-07-12T01:17:35+00:00,1,703.57,True,2,2,2,238,8,0,8,MERGED
+132270,DRA E2E: label tests which need a certain minimum kubelet,pohly,2025-06-12T16:18:38Z,2025-06-13T10:29:03+00:00,3,18.17,True,7,3,1,542,11,1,12,MERGED
+132264,Promote RelaxedEnvironmentVariableValidation test to Conformance #132219,HirazawaUi,2025-06-12T13:50:46Z,2025-07-12T18:31:28+00:00,2,724.68,True,22,2,3,1059,12,0,12,MERGED
+132260,Bump base image used in nonewprivs to alpine:3.22,kishen-v,2025-06-12T13:04:04Z,2025-06-13T02:18:56+00:00,1,13.25,True,6,6,2,394,3,0,3,MERGED
+132259,Test requests send to etcd for all LIST requests,serathius,2025-06-12T12:53:14Z,2025-09-17T23:34:11+00:00,3,2338.68,True,641,11,1,197,11,3,14,MERGED
+132258,Correct error message to print `ResetConfigurationKind`,J3m3,2025-06-12T12:39:01Z,2025-06-13T04:42:56+00:00,2,16.07,True,1,1,1,698,6,0,6,MERGED
+132255,feat: optimize ListAll and ListAllByNamespace to return directly when nothing to select,likakuli,2025-06-12T09:50:34Z,2025-06-24T15:24:29+00:00,13,293.57,True,150,1,4,3235,5,4,9,MERGED
+132253,"Validate requests sent to etcd in TestList ""test List with limit"" scenario",serathius,2025-06-12T09:36:48Z,2025-06-17T19:01:09+00:00,12,129.41,True,123,38,5,150,13,4,17,MERGED
+132251,kubectl delete: update interactive delete to break on new line,ardaguclu,2025-06-12T08:30:39Z,2025-06-12T15:27:06+00:00,1,6.94,True,6,6,2,363,3,0,3,MERGED
+132249,Bump perl base image to perl:5.40,kishen-v,2025-06-12T07:13:04Z,2025-06-12T10:35:02+00:00,1,3.37,True,6,6,2,384,4,0,4,MERGED
+132247,Bump ipc-utils base image to alpine:3.22,kishen-v,2025-06-12T06:29:36Z,2025-06-12T13:42:57+00:00,1,7.22,True,6,6,2,394,8,0,8,MERGED
+132244,1.33 regression - Consistent paginated lists serve from cache,hakuna-matatah,2025-06-12T03:00:20Z,2025-06-16T19:55:00+00:00,17,112.91,True,134,5,2,480,13,2,15,MERGED
+132242,bump to alpine 3.22 and bump apparmor-loader to 1.6,a-finocchiaro,2025-06-11T23:48:34Z,2025-06-12T08:48:57+00:00,1,9.01,True,6,6,2,1495,7,0,7,MERGED
+132241,disable selinux relabeling when mounting sourcedir to shellcheck,BenTheElder,2025-06-11T22:36:22Z,2025-06-17T14:29:01+00:00,1,135.88,True,1,1,1,468,5,0,5,MERGED
+132235,Add Windows Server 2025 (ltsc2025) to BASEIMAGEs,TinaMor,2025-06-11T18:39:12Z,2025-06-17T19:01:02+00:00,8,144.36,True,7,4,6,400,7,1,8,MERGED
+132232,feat: optimize label selector match performance,likakuli,2025-06-11T13:34:53Z,2025-06-12T17:46:56+00:00,8,28.2,True,41,8,3,987,6,8,14,MERGED
+132231,Fix outdated links in VolumeSource godocs,czeslavo,2025-06-11T12:50:53Z,2025-06-26T18:02:29+00:00,1,365.19,True,29,35,8,578,9,0,9,MERGED
+132229,dynamic client: remove support for API streaming,p0lyn0mial,2025-06-11T07:56:37Z,2025-06-12T07:45:03+00:00,2,23.81,True,88,298,4,380,7,1,8,MERGED
+132226,"[release-1.33] [go] Bump images, dependencies and versions to go 1.24.4 and distroless iptables",cpanato,2025-06-11T06:35:56Z,2025-06-13T10:46:57+00:00,2,52.18,True,11,11,7,491,6,0,6,MERGED
+132225,"[release-1.32] [go]Bump images, dependencies and versions to go 1.23.10 and distroless iptables",cpanato,2025-06-11T06:33:30Z,2025-06-13T10:46:57+00:00,1,52.22,True,11,11,7,493,7,0,7,MERGED
+132224,"[release-1.31] [go] Bump images, dependencies and versions to go 1.23.10 and distroless iptables",cpanato,2025-06-11T06:31:32Z,2025-06-13T10:46:57+00:00,1,52.26,True,11,11,7,493,7,0,7,MERGED
+132223,"[release-1.30] [go] Bump images, dependencies and versions to go 1.23.10 and distroless iptables",cpanato,2025-06-11T06:28:56Z,2025-06-13T10:46:57+00:00,1,52.3,True,11,11,7,493,7,0,7,MERGED
+132222,"[go] Bump dependencies, images and versions used to Go 1.24.4 and distroless iptables",cpanato,2025-06-11T06:25:25Z,2025-06-12T10:34:56+00:00,1,28.16,True,10,10,6,491,7,0,7,MERGED
+132221,New implementation for `Diff` (drop in replacement for `cmp.Diff`),dims,2025-06-11T03:43:18Z,2025-06-17T01:02:58+00:00,35,141.33,True,632,173,38,779,27,17,44,MERGED
+132219,Promote OrderedNamespaceDeletion test to Conformance,BenTheElder,2025-06-11T02:51:45Z,2025-07-14T23:42:31+00:00,2,812.85,True,13,2,2,850,18,1,19,MERGED
+132217,feat(validation-gen): Improve validation test helpers for validation-gen,yongruilin,2025-06-10T18:47:11Z,2025-06-11T06:36:55+00:00,1,11.83,True,26,50,3,703,4,0,4,MERGED
+132214,add warnings when creating headless service with specified load balan…,Peac36,2025-06-10T17:07:12Z,2025-07-21T21:14:27+00:00,6,988.12,True,50,0,2,477,14,4,18,MERGED
+132212,Add validation of `volumeClaimTemplates` in StatefulSet,astraw99,2025-06-10T15:40:45Z,2025-07-16T18:04:23+00:00,7,866.39,True,119,3,3,309,5,4,9,MERGED
+132210,Adding `grpcnotrace` tag for production (non-debug) builds,dims,2025-06-10T15:21:37Z,2025-06-11T22:58:55+00:00,16,31.62,True,7,2,1,1173,15,3,18,MERGED
+132208,Rate-limit the LoadBalancer rolling update test,danwinship,2025-06-10T13:16:03Z,2025-06-12T15:26:58+00:00,2,50.18,True,10,8,1,493,12,1,13,MERGED
+132200,Build etcd image v3.6.1,ArkaSaha30,2025-06-10T06:14:01Z,2025-06-12T03:21:02+00:00,2,45.12,True,7,7,3,423,9,3,12,MERGED
+132198,add generation / observedGeneration test for mirror pods,natasha41575,2025-06-09T20:49:23Z,2025-07-21T23:30:25+00:00,11,1010.68,True,202,48,2,433,12,4,16,MERGED
+132197,Build k8s using latest commit of golang,dims,2025-06-09T19:50:41Z,2025-06-10T13:14:27+00:00,12,17.4,True,16,2,2,867,7,2,9,MERGED
+132194,Add an interface that all apply configurations implement,alvaroaleman,2025-06-09T15:37:42Z,2025-06-18T22:36:50+00:00,14,222.99,True,3386,1,882,1188,13,3,16,MERGED
+132193,Migrate pkg/kubelet/certificate to contextual logging,RashRAJ,2025-06-09T13:27:11Z,2025-09-30T08:46:10+00:00,7,2707.32,False,44,29,9,451,24,6,30,CLOSED
+132190,"Move ClusterEvent type to staging repo, leaving some functions (that contain logic internal to scheduler) in kubernetes/kubernetes",ania-borowiec,2025-06-09T11:15:07Z,2025-06-26T15:06:29+00:00,3,411.86,True,1378,1334,48,1089,11,1,12,MERGED
+132189,"Move ClusterEvent type to staging repo, leaving some functions (that contain logic internal to scheduler) in kubernetes/kubernetes",ania-borowiec,2025-06-09T09:49:53Z,2025-06-09T10:59:11+00:00,3,1.16,False,0,0,0,1089,7,2,9,CLOSED
+132183,Fix incorrect logging of insufficientResources in preemption,chrisy-x,2025-06-09T06:38:15Z,2025-06-10T03:50:24+00:00,1,21.2,True,1,1,1,963,8,0,8,MERGED
+132179,Use a fixed number of connections for LoadBalancer test,aojea,2025-06-08T11:28:02Z,2025-06-09T14:56:35+00:00,4,27.48,False,23,18,1,384,13,2,15,CLOSED
+132178,Allow system:monitoring role to access kubelet metrics endpoints,gavinkflam,2025-06-08T04:09:47Z,2025-06-11T19:03:02+00:00,3,86.89,True,15,0,3,467,14,2,16,MERGED
+132177,Remove use of html/template in apiserver to avoid disabling dead code elimination,pgimalac,2025-06-08T00:42:57Z,2025-06-13T16:00:57+00:00,3,135.3,True,50,67,6,1118,37,1,38,MERGED
+132173,KEP-3939: Job Pod Replacement Policy; promote to GA,dejanzele,2025-06-07T17:56:46Z,2025-06-24T14:04:28+00:00,7,404.13,True,55,16,15,613,19,0,19,MERGED
+132172,suppress git worktree status output to reduce log noise in govulncheck,gal-dahan,2025-06-07T17:41:24Z,2025-10-05T15:45:26+00:00,1,2878.07,False,1,1,1,409,13,0,13,CLOSED
+132171,Fix the issue of slow startup of the systemd watchdog,zhifei92,2025-06-07T16:08:24Z,2025-06-16T17:13:07+00:00,12,217.08,True,66,32,6,393,13,6,19,MERGED
+132170,"Fix kubelet iptables startup, clarify semantics of utiliptables calls.",danwinship,2025-06-07T14:43:41Z,2025-06-08T09:56:22+00:00,3,19.21,True,28,9,3,1472,4,1,5,MERGED
+132168,reduce logspam when calculating sandbox resources,Peac36,2025-06-07T13:31:13Z,2025-06-11T19:02:55+00:00,5,101.53,True,2,2,2,364,12,3,15,MERGED
+132165,bug: Fix misleading response codes in admission control metrics,gavinkflam,2025-06-07T04:37:39Z,2025-06-12T23:07:01+00:00,7,138.49,True,114,9,8,828,12,4,16,MERGED
+132163,Bugfix: record authentication latency before audit filter wraps up,yue9944882,2025-06-07T00:55:46Z,2025-07-15T20:16:23+00:00,6,931.34,True,37,7,4,1337,14,2,16,MERGED
+132160,Automated cherry pick of #132109: Clean backoff record earlier,linxiulei,2025-06-06T20:58:53Z,2025-07-09T07:19:29+00:00,1,778.34,True,102,0,2,152,8,0,8,MERGED
+132159,Automated cherry pick of #132109: Clean backoff record earlier,linxiulei,2025-06-06T20:51:13Z,2025-07-09T17:17:27+00:00,1,788.44,True,103,0,2,227,13,0,13,MERGED
+132158,Automated cherry pick of #132109: Clean backoff record earlier,linxiulei,2025-06-06T20:45:41Z,2025-07-09T12:43:27+00:00,1,783.96,True,103,0,2,227,11,0,11,MERGED
+132155,feat verify-goluncheck: add -q flag for git worktree command,vekarpov,2025-06-06T18:47:31Z,2025-07-08T18:45:27+00:00,5,767.97,True,2,1,1,16,18,1,19,MERGED
+132152,[FG:InPlacePodVerticalScaling] Add a more complex e2e test for deferred resizes,natasha41575,2025-06-06T16:32:59Z,2025-07-17T22:58:32+00:00,18,990.43,True,171,2,2,1227,5,13,18,MERGED
+132150,Handle consistent LIST in watch cache to avoid incorrect semantics while setting ResourceVersion on options,serathius,2025-06-06T15:20:29Z,2025-06-26T11:46:36+00:00,9,476.44,True,101,69,6,354,9,5,14,MERGED
+132149,metadata client: remove support for API streaming,p0lyn0mial,2025-06-06T14:47:15Z,2025-06-09T10:38:23+00:00,1,67.85,True,11,44,2,381,9,1,10,MERGED
+132148,KEP-3329: drop PodDisruptionConditions feature gate,soltysh,2025-06-06T14:17:03Z,2025-06-06T20:38:45+00:00,1,6.36,True,0,27,2,479,4,0,4,MERGED
+132146,WIP Integration test demonstrating bug 132042 [Experiment],mimowo,2025-06-06T12:27:23Z,2025-06-06T20:53:26+00:00,1,8.43,False,96,0,1,683,15,0,15,CLOSED
+132142,fix TestNodeAffinityPriority,carlory,2025-06-06T08:05:44Z,2025-06-06T09:38:52+00:00,1,1.55,True,0,1,1,420,4,0,4,MERGED
+132139,kuberuntime_manager: don't log entire container spec.,hoskeri,2025-06-05T23:22:07Z,2025-06-06T22:04:39+00:00,1,22.71,True,4,4,1,257,12,0,12,MERGED
+132138,Remove unsupported map of slice validation for non-byte elements in validation-gen,yongruilin,2025-06-05T22:51:05Z,2025-06-11T05:30:55+00:00,2,126.66,True,14,4,1,903,10,2,12,MERGED
+132135,Simplify options in declarative validation,jpbetz,2025-06-05T21:10:39Z,2025-06-12T06:38:55+00:00,2,153.47,True,39,40,9,558,5,0,5,MERGED
+132134,[Draft] Consistent paginated lists serve from cache,hakuna-matatah,2025-06-05T20:41:36Z,2025-06-16T21:06:46+00:00,36,264.42,False,14,4,2,475,22,9,31,CLOSED
+132130,Use named params and structured tags in declarative validation,jpbetz,2025-06-05T15:25:48Z,2025-06-05T23:32:38+00:00,2,8.11,True,500,196,14,530,8,1,9,MERGED
+132128,Bump cadvisor to 0.53,skitt,2025-06-05T15:20:34Z,2025-08-28T12:37:10+00:00,10,2013.28,True,5854,4099,257,790,31,6,37,MERGED
+132127,KEP-3015: PreferSameTrafficDistribution to Beta,danwinship,2025-06-05T14:59:09Z,2025-06-12T05:14:54+00:00,7,158.26,True,15,13,3,689,6,2,8,MERGED
+132125,kubeadm: fix one missed pkg/errors location; drop pkg/errors from go.mod,neolit123,2025-06-05T14:50:48Z,2025-06-05T20:02:39+00:00,2,5.2,True,2,25,6,487,15,0,15,MERGED
+132123,hack: fix KUBE_RACE in benchmark-dockerized.sh,pohly,2025-06-05T13:14:18Z,2025-06-05T16:54:45+00:00,1,3.67,True,3,2,1,787,7,0,7,MERGED
+132122,calculateStatus should use the same now time point for each pod,atiratree,2025-06-05T13:04:50Z,2025-06-16T15:08:59+00:00,6,266.07,True,75,10,5,329,7,1,8,MERGED
+132121,schedule pod availability checks at the correct time in ReplicaSets,atiratree,2025-06-05T12:59:39Z,2025-07-23T21:04:28+00:00,37,1160.08,True,398,17,6,883,7,16,23,MERGED
+132119,KEP-3335: drop StatefulSetStartOrdinal feature gate,soltysh,2025-06-05T12:13:23Z,2025-06-05T22:28:45+00:00,2,10.26,True,0,34,4,484,10,0,10,MERGED
+132117,promote agnhost to v2.56,yashsingh74,2025-06-05T09:17:51Z,2025-06-05T16:54:39+00:00,5,7.61,True,1,1,1,323,4,2,6,MERGED
+132114,fix(typo): miss 'and' conjunction,yshngg,2025-06-05T05:28:31Z,2025-10-02T01:17:26+00:00,1,2851.82,False,1,1,1,331,9,0,9,CLOSED
+132113,pkg/kubeapiserver: use utils/ptr package instead of utils/pointer,liangyuanpeng,2025-06-05T05:10:53Z,2025-07-06T00:51:32+00:00,1,739.68,True,16,16,2,692,9,0,9,MERGED
+132111,Update PR template with more guidance around issue links,jenshu,2025-06-05T03:36:25Z,2025-06-06T19:00:51+00:00,9,39.41,True,15,5,1,512,9,3,12,MERGED
+132110,"Bump gengo/v2 to latest, pick up related validation-gen fixes",jpbetz,2025-06-05T02:43:45Z,2025-06-05T18:58:46+00:00,1,16.25,True,1217,207,29,867,9,0,9,MERGED
+132109,Clean backoff record earlier,linxiulei,2025-06-05T02:14:23Z,2025-06-06T20:38:39+00:00,42,42.4,True,103,0,2,359,16,22,38,MERGED
+132108,[KEP-5100] WinDSR feature gate to GA,rzlink,2025-06-04T23:27:58Z,2025-07-22T18:04:33+00:00,2,1146.61,True,5,0,2,751,16,2,18,MERGED
+132106,[KEP-3751] Allow PVC VACName to go from non-nil to nil,AndrewSirenko,2025-06-04T20:56:00Z,2025-07-23T19:52:30+00:00,21,1174.94,True,48,23,11,1048,21,7,28,MERGED
+132105,Preempt based based on allocated resources rather than desired,tallclair,2025-06-04T20:30:17Z,2025-06-05T01:26:37+00:00,1,4.94,True,1,1,1,327,4,0,4,MERGED
+132103,Replace queue.FIFOs with k8s.io/utils/buffer.Ring,nojnhuh,2025-06-04T18:51:01Z,2025-06-06T17:26:39+00:00,1,46.59,True,209,575,68,662,7,0,7,MERGED
+132102,Only set pod allocation if admission succeeds,tallclair,2025-06-04T18:49:51Z,2025-06-04T21:46:45+00:00,1,2.95,True,1,1,1,450,3,0,3,MERGED
+132101,e2e_node: verify restart looping container correctly,haircommander,2025-06-04T17:29:14Z,2025-06-04T20:40:51+00:00,1,3.19,True,1,1,1,542,3,0,3,MERGED
+132099,Automated cherry pick of #131408: Remove warning about resizing failed for unknown reason,gnufied,2025-06-04T15:36:07Z,2025-06-06T00:40:39+00:00,1,33.08,True,2,4,1,244,12,0,12,MERGED
+132098,Automated cherry pick of #131408: Remove warning about resizing failed for unknown reason,gnufied,2025-06-04T15:35:49Z,2025-06-05T21:02:38+00:00,1,29.45,True,2,4,1,244,11,0,11,MERGED
+132097,Deprecate utilpointers and use ptr.To() in pkg/apis/admissionregistration,carsontham,2025-06-04T14:58:52Z,2025-07-09T02:45:26+00:00,1,827.78,False,8,8,4,391,10,0,10,CLOSED
+132096,DRA kubelet: refactoring,pohly,2025-06-04T13:49:20Z,2025-06-13T11:45:09+00:00,41,213.93,True,624,697,12,708,10,11,21,MERGED
+132095,Remove unecessary comment since podResizeMutex no longer exist.,esotsal,2025-06-04T13:38:10Z,2025-06-04T20:40:44+00:00,3,7.04,True,2,2,1,302,6,1,7,MERGED
+132090,consistent read with limit,gojoy,2025-06-04T09:06:36Z,2025-06-06T09:16:57+00:00,3,48.17,False,1,1,1,694,8,1,9,CLOSED
+132087,Moving Scheduler interfaces to staging: Move Code and Status from pkg/scheduler/framework to k8s.io/kube-scheduler/framework,ania-borowiec,2025-06-04T08:11:31Z,2025-07-01T16:21:38+00:00,2,656.17,True,1920,1888,72,876,25,1,26,MERGED
+132083,remove general avaliable feature-gate DevicePluginCDIDevices,carlory,2025-06-04T02:12:21Z,2025-07-21T20:06:28+00:00,9,1145.9,True,5,45,5,439,13,3,16,MERGED
+132080,kubeadm: switch to a local implementation of wrapped errors,neolit123,2025-06-03T18:39:37Z,2025-06-05T14:30:39+00:00,10,43.85,True,497,485,167,1157,10,2,12,MERGED
+132079,Add metrics for MutatingAdmissionPolicy,cici37,2025-06-03T17:07:58Z,2025-07-11T19:49:27+00:00,11,914.69,True,293,1,6,289,5,4,9,MERGED
+132073,[DRAFT-NOT-FOR-REVIEW] Draft changes to debug conformance test issues.,princepereira,2025-06-03T12:11:54Z,2025-08-08T18:26:43+00:00,2,1590.25,False,55,11,3,271,24,0,24,CLOSED
+132067,Update npd from v0.8.20 to v0.8.21,bzsuni,2025-06-03T08:10:43Z,2025-06-05T18:58:39+00:00,2,58.8,True,10,10,5,306,10,0,10,MERGED
+132065,Fix pod and container level swap metrics for CRI,yuanwang04,2025-06-03T02:46:59Z,2025-06-25T23:22:28+00:00,10,548.59,True,17,1,2,953,13,2,15,MERGED
+132064,unexport the allocation manager's IsPodResizeInProgress method,natasha41575,2025-06-02T22:49:51Z,2025-07-07T19:31:33+00:00,2,836.7,True,271,264,3,354,5,0,5,MERGED
+132061,fix: datarace in ResolverTypeProvider,miltosdoul,2025-06-02T21:33:52Z,2025-06-03T21:34:46+00:00,2,24.02,True,8,18,3,469,15,2,17,MERGED
+132060,Bump BinaryVersion to 1.35,Jefftree,2025-06-02T20:33:02Z,2025-08-27T21:53:45+00:00,2,2065.35,True,4,4,2,308,7,2,9,MERGED
+132059,Add configurable tolerance e2e test.,jm-franc,2025-06-02T18:52:43Z,2025-09-29T14:40:20+00:00,6,2851.79,True,73,2,1,122,17,1,18,MERGED
+132058,DRA kubelet: connection monitoring,pohly,2025-06-02T17:03:16Z,2025-06-26T10:40:29+00:00,24,569.62,True,846,402,8,905,23,7,30,MERGED
+132055,kuberc: add tests for DefaultGetPreferences,soltysh,2025-06-02T14:49:52Z,2025-06-03T15:20:39+00:00,3,24.51,True,184,5,2,797,4,1,5,MERGED
+132054,[KEP-4369]: Graduate RelaxedEnvironmentVariableValidation to GA,HirazawaUi,2025-06-02T10:04:53Z,2025-06-10T18:19:02+00:00,10,200.24,True,154,110,16,524,16,8,24,MERGED
+132053,test-integration: allow enabling race detection,pohly,2025-06-02T09:50:18Z,2025-06-03T17:02:46+00:00,2,31.21,True,1,1,1,405,17,1,18,MERGED
+132051,fix: cp uncontrolled data used in path expression,odaysec,2025-06-01T11:29:09Z,2025-06-01T17:33:08+00:00,2,6.07,False,8,1,1,1555,6,1,7,CLOSED
+132049,fix: data race for patchResource func,googs1025,2025-06-01T05:46:32Z,2025-07-02T18:27:24+00:00,12,756.68,True,55,2,2,333,10,2,12,MERGED
+132046,Fix issue where pods could read stale immutable secrets/configmaps after re-creation,kei01234kei,2025-05-31T08:58:08Z,2025-10-05T14:45:27+00:00,4,3053.79,False,80,8,2,950,10,1,11,CLOSED
+132043,fix: data race in UnschedulablePods by adding lock,googs1025,2025-05-31T01:17:55Z,2025-06-26T00:52:42+00:00,6,623.58,False,22,1,2,349,11,2,13,CLOSED
+132040,Make nodeports scheduling plugin restartable initContainer aware,avrittrohwer,2025-05-30T20:22:45Z,2025-06-11T00:39:03+00:00,24,268.27,True,1083,156,9,596,22,10,32,MERGED
+132039,FieldManagedObjectTracker: Fix to work with unstructured,alvaroaleman,2025-05-30T19:36:55Z,2025-06-02T22:04:42+00:00,1,74.46,True,62,2,3,762,4,0,4,MERGED
+132034,Fix the IsDNS1123SubdomainWithUnderscore function to return the correct error message,ChosenFoam,2025-05-30T16:42:42Z,2025-06-06T02:16:38+00:00,1,153.57,True,85,1,2,600,14,0,14,MERGED
+132033,DRA scheduler: implement filter timeout,pohly,2025-05-30T15:56:52Z,2025-07-17T22:58:24+00:00,51,1159.03,True,890,62,34,911,23,31,54,MERGED
+132032,refactor: improve ReplicaCalculator code organization and readability,rickbrouwer,2025-05-30T15:38:44Z,2025-10-02T01:17:25+00:00,3,2985.64,False,65,55,1,726,10,1,11,CLOSED
+132031,add orphanedPods parameter to getRSPods and improve code flow in syncReplicaSet,atiratree,2025-05-30T12:23:20Z,2025-06-03T19:10:39+00:00,1,102.79,True,20,6,1,309,4,0,4,MERGED
+132028,podresources: list: use active pods,ffromani,2025-05-30T07:53:50Z,2025-07-14T19:06:24+00:00,27,1091.21,True,955,37,9,1781,59,9,68,MERGED
+132021,volume: consider ramfs as an StorageMediumMemory,haircommander,2025-05-29T18:23:08Z,2025-10-02T01:17:25+00:00,3,3006.9,False,5,5,1,537,12,1,13,CLOSED
+132019,Promote two EndpointSlice e2e tests to Conformance,danwinship,2025-05-29T14:46:19Z,2025-07-12T01:15:27+00:00,3,1042.49,True,32,2,2,1595,48,2,50,MERGED
+132018,[WIP] HPA - pod selection strategy,omerap12,2025-05-29T10:02:27Z,2025-07-21T08:14:10+00:00,7,1270.2,False,2110,217,43,271,5,2,7,CLOSED
+132017,"[release-1.31] [cloud-provider] respect the ""exclude-from-external-load-balancers=false"" label",kayrus,2025-05-29T08:43:18Z,2025-05-30T16:14:39+00:00,1,31.52,False,12,1,2,650,10,0,10,CLOSED
+132016,"[release-1.32] [cloud-provider] respect the ""exclude-from-external-load-balancers=false"" label",kayrus,2025-05-29T08:42:01Z,2025-05-30T16:14:31+00:00,1,31.54,False,12,1,2,650,10,0,10,CLOSED
+132015,"[release-1.33] [cloud-provider] respect the ""exclude-from-external-load-balancers=false"" label",kayrus,2025-05-29T08:40:40Z,2025-05-30T16:12:56+00:00,1,31.54,False,12,1,2,650,12,0,12,CLOSED
+132013,fix node_lifecycle_controller comment,boymucheng,2025-05-29T08:06:33Z,2025-07-12T11:41:46+00:00,1,1059.59,False,1,2,1,433,5,0,5,CLOSED
+132012,kube-dns bump to v1.26.4,pacoxu,2025-05-29T05:06:36Z,2025-05-29T11:56:20+00:00,2,6.83,True,10,10,4,241,6,0,6,MERGED
+132011,cleanup: fix missed HandleError replacement with contextual logging,togettoyou,2025-05-29T04:02:46Z,2025-07-19T04:38:25+00:00,6,1224.59,True,11,11,2,491,19,3,22,MERGED
+132010,Automated cherry pick of #131987: Automated cherry pick of #131868: Remove superflous expansion calls if controller finished expansion,gnufied,2025-05-29T02:22:59Z,2025-06-05T21:24:39+00:00,2,187.03,True,44,18,2,294,8,0,8,MERGED
+132009,Fix pod eviction events,monta-riahi,2025-05-28T23:10:57Z,2025-07-12T11:41:46+00:00,4,1068.51,False,30,26,1,475,11,2,13,CLOSED
+132007,Fix: HPA suppresses FailedRescale event on successful conflict retry.,AumPatel1,2025-05-28T21:40:25Z,2025-06-12T21:58:57+00:00,13,360.31,True,75,3,2,1665,21,9,30,MERGED
+132005,Handle context in the process loop,kei01234kei,2025-05-28T15:36:58Z,2025-07-07T00:13:25+00:00,8,944.61,True,9,7,1,318,13,1,14,MERGED
+132003,kubectl: Cache Verifier.HasSupport calls,tchap,2025-05-28T14:21:08Z,2025-07-02T11:03:27+00:00,6,836.71,True,165,1,3,805,11,2,13,MERGED
+132000,DRA API: remove obsolete types from v1alpha3,pohly,2025-05-28T10:08:37Z,2025-06-12T16:39:12+00:00,5,366.51,True,23913,59460,105,1067,17,2,19,MERGED
+131996,DRAAdminAccess: update label key,ritazh,2025-05-28T04:26:22Z,2025-06-04T19:16:45+00:00,1,182.84,True,11,11,8,978,7,0,7,MERGED
+131994,DRA: Exclude individual devices when PartitionableDevices feature is disabled,mortent,2025-05-28T01:12:47Z,2025-05-28T12:42:17+00:00,1,11.49,True,62,3,3,491,5,0,5,MERGED
+131993,Automated cherry pick of #131962: Revert shorthand for kubectl explain --output,superbrothers,2025-05-28T00:30:20Z,2025-06-05T14:56:42+00:00,2,206.44,True,1,1,1,271,5,0,5,MERGED
+131992,"Deprecate StreamingConnectionIdleTimeout field, that is not being us…",lalitc375,2025-05-27T23:43:16Z,2025-06-27T18:00:34+00:00,7,738.29,True,49,52,4,450,34,1,35,MERGED
+131991,Clarified the token scope and future plans for the next security scan…,SergeyKanzhelev,2025-05-27T21:49:19Z,2025-06-03T17:02:39+00:00,5,163.22,True,6,1,1,176,6,2,8,MERGED
+131990,[release-1.34] use fmt.sprintf instead concatenation,hotkeyprince,2025-05-27T20:32:09Z,2025-09-16T20:14:11+00:00,2,2687.7,False,2,2,2,454,14,0,14,CLOSED
+131989,Apparmor cleanup,tallclair,2025-05-27T19:28:46Z,2025-07-18T10:46:25+00:00,5,1239.29,True,70,248,6,1180,14,2,16,MERGED
+131987,Automated cherry pick of #131868: Remove superflous expansion calls if controller finished expansion,gnufied,2025-05-27T18:23:15Z,2025-06-06T01:50:50+00:00,2,223.46,True,44,18,2,260,15,0,15,MERGED
+131984,Update security contacts for sig-cli owned repos,soltysh,2025-05-27T14:53:01Z,2025-05-28T15:24:17+00:00,1,24.52,True,8,6,3,313,6,0,6,MERGED
+131983,DRA integration: move and extend device status test,pohly,2025-05-27T14:30:59Z,2025-05-30T09:34:19+00:00,1,67.06,True,200,250,3,450,10,0,10,MERGED
+131981,kubeadm: Graduate NodeLocalCRISocket Feature gate to beta,HirazawaUi,2025-05-27T13:50:56Z,2025-06-13T11:45:02+00:00,18,405.9,True,11,24,2,2117,12,8,20,MERGED
+131980,Fix typo in the `--anonymous-auth` flag name,LucaBernstein,2025-05-27T12:45:52Z,2025-06-03T21:34:38+00:00,2,176.81,True,2,2,2,345,13,0,13,MERGED
+131978,update go version for publishing bot rules,cpanato,2025-05-27T08:45:17Z,2025-05-27T12:40:16+00:00,1,3.92,True,91,91,1,436,6,0,6,MERGED
+131973,feat: graduate QueueingHint to GA,sanposhiho,2025-05-26T17:57:40Z,2025-05-27T11:08:23+00:00,4,17.18,True,70,18,11,449,10,1,11,MERGED
+131969,test: drop dependency on github.com/pkg/errors,skitt,2025-05-26T14:35:16Z,2025-06-04T19:16:38+00:00,1,220.69,True,27,7,5,413,12,0,12,MERGED
+131968,DRA kubelet: validation pass before changing claim info cache,pohly,2025-05-26T13:39:59Z,2025-05-30T19:40:19+00:00,9,102.01,True,168,85,5,1675,8,5,13,MERGED
+131965,Skip backoff when PodMaxBackoffDuration is set to zero,macsko,2025-05-26T09:38:37Z,2025-05-26T12:52:33+00:00,1,3.23,True,11,0,2,622,5,0,5,MERGED
+131964,kubectl: drop dependency on github.com/pkg/errors,skitt,2025-05-26T08:46:44Z,2025-05-26T18:30:15+00:00,1,9.73,True,9,13,4,413,8,0,8,MERGED
+131961,proxy: remove iptables wait interval flag,cyclinder,2025-05-26T03:27:15Z,2025-06-01T21:02:36+00:00,9,161.59,True,126,56,3,413,30,4,34,MERGED
+131956,DRA E2E: run some tests without feature label,pohly,2025-05-25T18:03:11Z,2025-07-01T18:35:25+00:00,1,888.54,True,529,437,2,714,20,0,20,MERGED
+131947,Bump opencontainers/cgroups to v0.0.2,kolyshkin,2025-05-23T17:44:53Z,2025-08-30T01:56:26+00:00,1,2360.19,False,109,88,16,563,9,0,9,CLOSED
+131944,Update PR template with more guidance around issue links,jenshu,2025-05-23T15:58:11Z,2025-06-05T03:32:51+00:00,4,299.58,False,12,5,1,512,5,1,6,CLOSED
+131941,update to latest ishidawataru/sctp dependency,dims,2025-05-23T14:47:08Z,2025-05-26T11:30:29+00:00,1,68.72,True,124,27,7,402,16,0,16,MERGED
+131940,kubectl config get-contexts: Add -o json option,tchap,2025-05-23T14:43:59Z,2025-05-28T16:20:57+00:00,4,121.62,False,113,18,2,384,7,1,8,CLOSED
+131938,"[release-1.30] [go] Bump images, dependencies and versions to go 1.23.9 and distroless iptables",cpanato,2025-05-23T13:25:07Z,2025-05-26T20:14:14+00:00,2,78.82,True,11,11,7,491,10,0,10,MERGED
+131937,"[release-1.31] [go] Bump images, dependencies and versions to go 1.23.9 and distroless iptables",cpanato,2025-05-23T13:22:15Z,2025-05-26T08:45:16+00:00,2,67.38,True,11,11,7,491,4,0,4,MERGED
+131936,"[release-1.32] [go] Bump images, dependencies and versions to go 1.23.9 and distroless iptables",cpanato,2025-05-23T13:18:56Z,2025-05-26T08:45:16+00:00,2,67.44,True,11,11,7,491,6,0,6,MERGED
+131935,"[release-1.33] [go]Bump images, dependencies and versions to go 1.24.9 and distroless iptables",cpanato,2025-05-23T13:15:58Z,2025-05-26T08:43:18+00:00,2,67.46,True,11,11,7,491,4,0,4,MERGED
+131934,"[go] Bump dependencies, images and versions used to Go 1.24.3 and distroless iptables",cpanato,2025-05-23T12:59:43Z,2025-05-23T22:58:42+00:00,7,9.98,True,10,10,6,491,6,1,7,MERGED
+131928,DRA kubeletplugin: some doc updates,pohly,2025-05-23T11:07:54Z,2025-05-23T18:28:35+00:00,1,7.34,True,9,7,2,305,6,0,6,MERGED
+131926,[doc] Update history of checkpoint support in Kubelet,esotsal,2025-05-23T10:49:30Z,2025-07-17T01:56:31+00:00,9,1311.12,True,19,13,1,495,6,2,8,MERGED
+131924,agnhost: added server address for conntrack cleanup entries,yashsingh74,2025-05-23T09:21:27Z,2025-06-04T17:44:45+00:00,8,296.39,True,19,1,3,1244,14,6,20,MERGED
+131919,vendor: update system-validators to v1.10.1,neolit123,2025-05-23T06:20:39Z,2025-05-23T16:22:36+00:00,1,10.03,True,8,8,4,420,7,0,7,MERGED
+131916,Mark StructuredAuthenticationConfiguration feature gate as GA,aramase,2025-05-23T00:05:57Z,2025-06-10T23:23:03+00:00,3,455.29,True,9,31,8,641,6,1,7,MERGED
+131907,Do not expand non expnadable volumes,gnufied,2025-05-22T14:49:44Z,2025-06-03T04:38:37+00:00,6,277.81,True,35,3,4,155,7,2,9,MERGED
+131890,Add accessors for fsgroup change policy,gnufied,2025-05-21T20:40:11Z,2025-06-11T00:38:56+00:00,2,483.98,True,50,11,2,83,14,1,15,MERGED
+131888,Update base image for httpd and httpd-new images,kishen-v,2025-05-21T15:37:08Z,2025-09-01T04:26:19+00:00,5,2460.82,False,14,14,6,381,9,5,14,CLOSED
+131887,"Moving Scheduler interfaces to staging: split CycleState into interface and implementation, move interface to staging repo",ania-borowiec,2025-05-21T15:32:29Z,2025-05-30T11:00:19+00:00,36,211.46,True,518,358,52,1058,9,14,23,MERGED
+131886,handle stoppedCh and listenerStoppedCh returned by cc.SecureServing.Serve,togettoyou,2025-05-21T14:13:13Z,2025-07-21T15:56:27+00:00,4,1465.72,True,16,2,1,524,15,2,17,MERGED
+131884,Enable the RequiredFields Kube-API-Linter rule,JoelSpeed,2025-05-21T11:40:44Z,2025-10-05T14:45:27+00:00,16,3291.08,False,99,17,25,8775,7,2,9,CLOSED
+131883,Bump github.com/vishvananda/netlink to v1.3.1,adrianmoisey,2025-05-21T11:15:20Z,2025-05-21T15:16:42+00:00,1,4.02,True,1224,150,38,488,6,0,6,MERGED
+131882,In-memory caching for node image access multitenancy,stlaz,2025-05-21T11:12:08Z,2025-07-22T18:04:28+00:00,10,1494.87,True,1649,3,6,663,3,20,23,MERGED
+131881,vendor: update system-validators to v1.10.0,neolit123,2025-05-21T09:33:23Z,2025-05-21T16:22:42+00:00,1,6.82,True,30,29,8,394,10,1,11,MERGED
+131880,kubeadm: fix dryrun-latest e2e by updating cluster-info fixture,neolit123,2025-05-21T09:13:02Z,2025-05-21T15:16:34+00:00,2,6.06,True,1,1,1,692,8,0,8,MERGED
+131879,update baseimage for agnhost,mkumatag,2025-05-21T09:12:10Z,2025-05-21T13:22:34+00:00,2,4.17,True,7,7,3,310,4,1,5,MERGED
+131876,Automated cherry pick of #131844: DRA node: reject static pods which reference ResourceClaims,pohly,2025-05-21T06:40:56Z,2025-06-04T18:02:42+00:00,1,347.36,True,92,1,6,392,6,0,6,MERGED
+131875,Automated cherry pick of #131844: DRA node: reject static pods which reference ResourceClaims,pohly,2025-05-21T06:40:39Z,2025-06-04T18:28:42+00:00,1,347.8,True,92,1,6,392,5,0,5,MERGED
+131873,bug: Remove duplicate ReplicaSet update validation,gavinkflam,2025-05-21T03:13:47Z,2025-06-11T20:21:02+00:00,1,521.12,True,1,2,1,432,8,0,8,MERGED
+131871,Add a list of modules that should be pinned at current versions,dims,2025-05-20T19:25:41Z,2025-05-20T23:10:34+00:00,4,3.75,True,49,0,2,535,5,1,6,MERGED
+131869,DRA integration: set up nodes for scheduling,pohly,2025-05-20T15:37:08Z,2025-05-28T18:36:25+00:00,2,194.99,True,228,45,1,465,6,1,7,MERGED
+131868,Remove superflous expansion calls if controller finished expansion,gnufied,2025-05-20T15:16:57Z,2025-05-21T16:22:35+00:00,1,25.09,True,34,9,2,805,8,0,8,MERGED
+131865,fix flaky test:  ResourceQuota should verify ResourceQuota with terminating scopes through scope selectors,carlory,2025-05-20T13:52:07Z,2025-05-20T20:38:12+00:00,4,6.77,True,1,7,1,569,6,2,8,MERGED
+131864,Benchmarks for node image access multitenancy,stlaz,2025-05-20T12:48:45Z,2025-07-22T18:04:26+00:00,16,1517.26,True,1955,3,7,31091,15,7,22,MERGED
+131860,Fix incorrect URL in build/dependencies.yaml file,arpitjain099,2025-05-20T04:52:52Z,2025-05-20T21:44:46+00:00,6,16.86,True,1,1,1,376,9,1,10,MERGED
+131855,DRA: Clean up allocator tests,mortent,2025-05-20T01:46:33Z,2025-05-20T09:49:15+00:00,1,8.04,True,480,475,1,440,5,0,5,MERGED
+131852,test/e2e/apimachinery/namespace.go: make OrderedNamespaceDeletion test serial,bertinatto,2025-05-19T18:09:13Z,2025-06-04T17:44:38+00:00,2,383.59,True,3,6,2,1421,19,1,20,MERGED
+131850,cpumanager: uncorecache alignment for odd integer cpus,wongchar,2025-05-19T17:26:21Z,2025-07-14T07:32:23+00:00,12,1334.1,True,460,2,4,573,29,11,40,MERGED
+131849,DRA: Add an allocator test that uses an attribute selector,mortent,2025-05-19T15:53:00Z,2025-05-20T20:38:05+00:00,2,28.75,True,94,0,1,597,9,0,9,MERGED
+131847,kubelet: Fix potential goroutine leak in unit tests,HirazawaUi,2025-05-19T13:21:09Z,2025-05-31T20:00:12+00:00,3,294.65,True,32,46,5,2435,6,0,6,MERGED
+131845,Unify references to group resource in metrics,serathius,2025-05-19T09:48:08Z,2025-05-22T14:32:35+00:00,11,76.74,True,296,288,24,7971,13,6,19,MERGED
+131844,DRA node: reject static pods which reference ResourceClaims,pohly,2025-05-19T07:46:55Z,2025-05-20T14:07:24+00:00,2,30.34,True,92,1,6,2229,7,1,8,MERGED
+131843,"ResourceQuota: partial fix ""should verify ResourceQuota with terminating scopes through scope selectors"" flake",pohly,2025-05-19T07:34:05Z,2025-05-19T19:45:21+00:00,13,12.19,True,33,4,1,1276,7,1,8,MERGED
+131842,Add metrics for compatibility version,michaelasp,2025-05-19T07:27:02Z,2025-05-23T22:58:35+00:00,19,111.53,True,138,0,7,382,20,7,27,MERGED
+131840,client-go workqueue: clarify parallel reenqueuing,pohly,2025-05-19T06:05:04Z,2025-05-20T18:21:15+00:00,2,36.27,True,1,0,1,291,6,1,7,MERGED
+131837,Deny pod admission for static pods referencing API objects,sreeram-venkitesh,2025-05-18T15:24:02Z,2025-06-26T19:18:30+00:00,15,939.91,True,533,47,8,2191,24,37,61,MERGED
+131832,Remove --config option from suggest kubeadm command,bshephar,2025-05-18T06:39:36Z,2025-05-18T09:49:14+00:00,3,3.16,True,2,2,2,628,9,2,11,MERGED
+131827,docs: avoid broken link,nicklasfrahm,2025-05-17T07:40:11Z,2025-05-21T01:24:42+00:00,2,89.74,True,3,1,1,217,6,0,6,MERGED
+131826,fix typo for forceDetachTimeoutExpired,yanhuan0802,2025-05-17T03:35:13Z,2025-09-08T18:23:29+00:00,1,2750.8,True,5,5,1,275,14,0,14,MERGED
+131824,Promote automatic_reloads of encryption config metrics to BETA,aramase,2025-05-16T18:44:53Z,2025-10-02T02:17:24+00:00,1,3319.54,False,28,8,4,824,5,1,6,CLOSED
+131822,disable terminatingReplicas reconciliation in ReplicationController,atiratree,2025-05-16T13:29:27Z,2025-06-10T22:17:02+00:00,7,608.79,True,71,11,5,468,6,4,10,MERGED
+131818,Promote kuberc to beta,soltysh,2025-05-16T11:57:09Z,2025-05-26T12:52:25+00:00,20,240.92,True,1647,480,34,2452,33,14,47,MERGED
+131816,etcd: Build etcd image v3.6.0,joshjms,2025-05-16T10:21:13Z,2025-05-16T15:07:14+00:00,3,4.77,True,5,5,3,366,11,1,12,MERGED
+131813,Automated cherry pick of #123678: kubelet: Add logs for userns custom mappings parsing,rata,2025-05-16T09:34:07Z,2025-06-05T14:44:39+00:00,3,485.18,True,5,3,2,255,8,0,8,MERGED
+131812,Automated cherry pick of #131623: kubelet: userns: Improve errors returned to the user,rata,2025-05-16T09:31:38Z,2025-06-05T13:08:38+00:00,3,483.62,True,15,9,2,290,5,0,5,MERGED
+131811,Automated cherry pick of #130800: Fix unit tests on windows,rata,2025-05-16T09:23:26Z,2025-06-04T16:22:38+00:00,3,462.99,True,97,9,7,254,7,0,7,MERGED
+131808,Bump the busybox image,mkumatag,2025-05-16T08:00:06Z,2025-05-16T10:17:15+00:00,1,2.29,True,1,1,1,398,5,0,5,MERGED
+131807,migrate hand-written DeepCopy to automated deepcopy-gen,carlory,2025-05-16T07:40:53Z,2025-07-25T06:30:01+00:00,2,1678.82,False,222,69,14,416,5,2,7,CLOSED
+131804,ResourceQuota E2E: more informative failure message,pohly,2025-05-16T06:17:55Z,2025-05-16T13:59:14+00:00,3,7.69,True,10,8,1,6351,6,1,7,MERGED
+131803,DRA E2E: reduce risk of flake in ResourceSlice stress test,pohly,2025-05-16T05:53:44Z,2025-05-23T09:08:36+00:00,1,171.25,True,1,1,1,509,5,0,5,MERGED
+131802,increase the msg size between kubelet and runtime,boymucheng,2025-05-16T02:33:02Z,2025-06-13T06:39:06+00:00,2,676.1,False,2,0,1,335,9,1,10,CLOSED
+131801,move pod admission and resize logic into the allocation manager,natasha41575,2025-05-15T23:02:26Z,2025-06-02T20:42:38+00:00,22,429.67,True,542,325,12,391,9,13,22,MERGED
+131799,[client-go #1415] Use transformer from provided store within internal stores in reflector to limit memory usage bursts,valerian-roche,2025-05-15T19:20:19Z,2025-06-30T15:36:32+00:00,9,1100.27,True,190,5,6,1466,16,9,25,MERGED
+131794,e2e: node: always declare testcase CPU requirements,ffromani,2025-05-15T13:33:22Z,2025-05-28T18:36:17+00:00,16,317.05,True,103,136,1,765,36,5,41,MERGED
+131792,rename package bootstrap to match dir,aojea,2025-05-15T11:44:29Z,2025-05-15T16:57:35+00:00,1,5.22,True,4,4,3,43,5,0,5,MERGED
+131791,feat: kubectl debug: add label for debugger pod for easy cleaning up the debug pods,win-t,2025-05-15T11:19:19Z,2025-07-01T14:15:25+00:00,1,1130.93,True,41,1,2,613,7,0,7,MERGED
+131790,fix pod template spec validation missing in sts,chengjoey,2025-05-15T11:07:52Z,2025-07-01T16:21:32+00:00,9,1133.23,True,346,29,5,287,12,10,22,MERGED
+131789,tests: userns: Add framework.WithFeatureGate(),rata,2025-05-15T10:57:36Z,2025-05-15T22:13:20+00:00,1,11.26,True,5,5,1,566,5,0,5,MERGED
+131787,Automated cherry pick of #130800: Fix unit tests on windows,rata,2025-05-15T10:35:01Z,2025-06-04T16:32:38+00:00,3,485.96,True,97,16,7,254,9,0,9,MERGED
+131786,Automated cherry pick of #130800: Fix unit tests on windows,rata,2025-05-15T10:30:31Z,2025-06-04T22:24:42+00:00,3,491.9,True,97,16,7,330,8,0,8,MERGED
+131785,Automated cherry pick of #130243: Revert userns kernel check,rata,2025-05-15T10:28:38Z,2025-06-05T13:12:40+00:00,3,506.73,True,0,16,2,607,6,0,6,MERGED
+131784,Automated cherry pick of #130243: Revert userns kernel check,rata,2025-05-15T10:26:16Z,2025-06-05T15:50:45+00:00,3,509.41,True,0,16,2,607,8,0,8,MERGED
+131783,Automated cherry pick of #131623: kubelet: userns: Improve errors returned to the user,rata,2025-05-15T10:23:42Z,2025-06-05T01:48:38+00:00,2,495.42,True,15,9,2,290,6,0,6,MERGED
+131782,Automated cherry pick of #131623: kubelet: userns: Improve errors returned to the user,rata,2025-05-15T10:21:36Z,2025-06-06T04:28:38+00:00,2,522.12,True,15,9,2,290,16,0,16,MERGED
+131781,Automated cherry pick of #131623: kubelet: userns: Improve errors returned to the user,rata,2025-05-15T10:20:21Z,2025-06-05T11:14:39+00:00,1,504.9,True,15,9,2,290,11,0,11,MERGED
+131778,test: Fix cURL download of Windows busybox test image,gavinkflam,2025-05-15T04:44:17Z,2025-05-16T05:01:13+00:00,3,24.28,True,4,6,1,560,5,1,6,MERGED
+131777,verify scripts: preserve exit code,BenTheElder,2025-05-15T04:22:39Z,2025-05-15T16:57:20+00:00,1,12.58,True,8,10,10,665,6,1,7,MERGED
+131773,datapol: compare types directly,BenTheElder,2025-05-15T00:45:47Z,2025-05-15T09:15:13+00:00,1,8.49,True,7,8,1,751,7,1,8,MERGED
+131772,fix: add BackoffExpiration field to DeepCopy(),sanposhiho,2025-05-15T00:24:33Z,2025-05-15T19:01:14+00:00,1,18.61,True,1,0,1,340,6,0,6,MERGED
+131771,DRA: Add scheduler perf test for partitionable devices,mortent,2025-05-14T19:59:47Z,2025-05-20T16:57:16+00:00,5,140.96,True,428,3,8,485,8,4,12,MERGED
+131768,Promote automatic_reloads of authz config metrics to BETA,aramase,2025-05-14T17:04:32Z,2025-05-26T10:24:22+00:00,1,281.33,True,26,6,3,871,10,1,11,MERGED
+131767,Automated cherry pick of #131742: [sig-scheduling] SchedulerPreemption [Serial] validates various priority Pods preempt expectedly with the async preemption: replace finalizers with preStop hook and TerminationGracePeriodSeconds,ingvagabund,2025-05-14T14:23:57Z,2025-06-06T01:50:43+00:00,2,539.45,True,37,16,2,323,10,0,10,MERGED
+131763,Add sig/scheduling label to scheduler_perf and staging repo OWNERS,macsko,2025-05-14T11:35:22Z,2025-05-15T08:05:20+00:00,1,20.5,True,6,0,3,469,8,0,8,MERGED
+131762,e2e pod readiness gate network flake,aojea,2025-05-14T08:57:48Z,2025-05-14T22:07:21+00:00,3,13.16,True,25,21,1,386,7,1,8,MERGED
+131760,DRA: test plugin re-registration after failed GetInfo call,bart0sh,2025-05-14T07:54:44Z,2025-05-18T05:15:14+00:00,30,93.34,True,133,44,7,355,10,7,17,MERGED
+131759,Remove unused GetHostIP method,carlory,2025-05-14T06:52:01Z,2025-07-12T12:35:28+00:00,5,1421.72,True,0,48,8,306,13,1,14,MERGED
+131757,Add e2e tests for kuberc,ardaguclu,2025-05-14T06:36:06Z,2025-05-15T13:41:21+00:00,1,31.09,True,165,0,1,509,5,0,5,MERGED
+131755,Allow OpenAPI model package names to be declared by APIs,jpbetz,2025-05-14T01:45:59Z,2025-09-11T19:26:09+00:00,16,2897.67,True,16724,6379,315,1865,19,8,27,MERGED
+131753,Remove unused GetHostname method,tallclair,2025-05-13T23:34:04Z,2025-05-14T21:03:26+00:00,4,21.49,True,1,36,4,221,6,1,7,MERGED
+131752,Duplicate v1beta1 AuthenticationConfiguration to v1,aramase,2025-05-13T20:48:48Z,2025-05-21T03:54:35+00:00,12,175.1,True,1111,40,6,687,6,5,11,MERGED
+131750,WIP: prevent code generators adding testing imports,BenTheElder,2025-05-13T20:38:19Z,2025-09-16T23:53:45+00:00,13,3027.26,False,33,33,5,652,10,3,13,CLOSED
+131749,fix(kubelet): update lease duration when config changes,cartermckinnon,2025-05-13T19:57:23Z,2025-05-21T21:06:35+00:00,3,193.15,True,52,3,2,679,12,1,13,MERGED
+131746,e2e: add corresponding featuregate label to node features,haircommander,2025-05-13T16:59:11Z,2025-05-21T20:02:35+00:00,3,195.06,True,17,13,5,711,7,1,8,MERGED
+131742,[sig-scheduling] SchedulerPreemption [Serial] validates various priority Pods preempt expectedly with the async preemption: replace finalizers with preStop hook and TerminationGracePeriodSeconds,ingvagabund,2025-05-13T11:55:56Z,2025-05-14T13:47:27+00:00,3,25.86,True,37,16,2,1172,5,1,6,MERGED
+131741,Deprecate kubeconfig's preference field in favor of kuberc,soltysh,2025-05-13T11:41:44Z,2025-05-20T15:11:18+00:00,6,171.49,True,11,34,15,686,16,3,19,MERGED
+131736,cleanup: Rename gogoproto stringer tag to avoid invalid tag arguments,gavinkflam,2025-05-13T04:34:27Z,2025-05-15T22:58:26+00:00,1,66.4,False,45,45,26,705,10,1,11,CLOSED
+131732,Fix two conformance tests to use EndpointSlices rather than Endpoints,danwinship,2025-05-12T20:48:18Z,2025-05-14T07:50:51+00:00,3,35.04,True,34,29,1,2006,9,1,10,MERGED
+131725,Avoid encoding in LogResponseObject when we are not going to use it,dims,2025-05-12T13:38:20Z,2025-05-12T19:15:15+00:00,13,5.62,True,366,2,2,588,7,2,9,MERGED
+131722,"Moving Scheduler interfaces to staging, step 1: Copy part of the files from pkg/scheduler/framework to staging",ania-borowiec,2025-05-12T11:46:15Z,2025-06-04T08:15:44+00:00,17,548.49,False,1615,0,7,1158,15,6,21,CLOSED
+131717,e2e tests: remove all cloud provider calls in storage/volume_provisioning.go,carlory,2025-05-12T06:01:00Z,2025-06-18T09:40:58+00:00,1,891.67,True,0,202,1,399,5,0,5,MERGED
+131715,Account consumed newlines properly in YAML decoder,thockin,2025-05-11T23:25:48Z,2025-05-12T23:01:15+00:00,2,23.59,True,2,2,1,263,7,0,7,MERGED
+131714,feat: improve the backoff calculation to O(1),sanposhiho,2025-05-11T23:08:28Z,2025-05-14T10:15:26+00:00,5,59.12,True,11,8,2,2097,9,1,10,MERGED

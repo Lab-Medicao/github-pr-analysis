@@ -149,3 +149,853 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 41206,Hosts: add “No leading spaces” option and honor it when saving,mohammed-saalim,2025-08-17T02:57:45Z,2025-08-19T05:58:10+00:00,3,51.01,True,61,1,8,1981,5,0,5,MERGED
 41202,Tests(CmdPal/Calc): verify CloseOnEnter swaps primary Copy/Save,mohammed-saalim,2025-08-16T20:34:19Z,2025-08-21T05:57:04+00:00,3,105.38,True,60,0,1,1477,5,2,7,MERGED
 41185,CmdPal: Agile will rule the World and maybe fix WinGet,jiripolasek,2025-08-15T17:28:38Z,2025-08-19T15:22:56+00:00,1,93.91,False,3,2,1,2411,3,1,4,CLOSED
+41184,CmdPal: mark CommandProvider.Dispose as virtual,zadjii-msft,2025-08-15T16:20:02Z,2025-08-18T21:52:49+00:00,1,77.55,True,1,1,1,64,0,0,0,MERGED
+41183,CmdPal: Fix winget in release builds,zadjii-msft,2025-08-15T16:02:53Z,2025-08-25T06:56:15+00:00,6,230.89,True,91,43,4,376,5,8,13,MERGED
+41169,CmdPal: Clean up ListItemViewModels when we no longer need them,zadjii-msft,2025-08-14T15:33:32Z,2025-08-19T21:02:38+00:00,4,125.48,True,46,4,2,957,0,2,2,MERGED
+41167,Adding Office / Copilot templates to KeyVisual,niels9001,2025-08-14T14:54:31Z,2025-08-19T09:32:28+00:00,4,114.63,True,50,2,2,203,0,4,4,MERGED
+41166,CmdPal: cancel fetching new items when we get another one,zadjii-msft,2025-08-14T14:47:43Z,2025-08-19T11:20:07+00:00,6,116.54,True,34,0,1,360,1,6,7,MERGED
+41165,CmdPal: Prevent some SearchText bouncing.,zadjii-msft,2025-08-14T14:41:01Z,2025-08-21T10:06:14+00:00,3,163.42,True,6,1,2,531,0,5,5,MERGED
+41158,CmdPal: Add a couple evil samples for testing,zadjii-msft,2025-08-14T11:46:41Z,2025-08-18T21:46:37+00:00,3,106.0,True,179,25,1,132,1,5,6,MERGED
+41152,Fix: Move ImageResizer satellite resource dlls under WinUI3Apps<culture>,lei9444,2025-08-14T08:21:41Z,2025-08-18T02:18:47+00:00,3,89.95,True,3,2,1,2002,0,0,0,MERGED
+41150,Update readme.md,denizmaral,2025-08-14T06:18:13Z,2025-08-19T10:17:01+00:00,2,123.98,True,1,1,1,794,6,0,6,MERGED
+41136,CmdPal: Add Acrylic backdrop to the context menu and tweak its style,jiripolasek,2025-08-13T21:57:28Z,2025-08-20T23:32:04+00:00,4,169.58,True,5,1,1,1010,8,1,9,MERGED
+41133,CmdPal: Remove constrain that keeps the context menu flyout in the bounds of the window,jiripolasek,2025-08-13T19:50:34Z,2025-08-19T06:32:17+00:00,2,130.7,True,2,1,1,1143,3,0,3,MERGED
+41132,Initial DSC v3 support for PowerToys,AmelBawa-msft,2025-08-13T19:48:12Z,2025-09-28T07:12:52+00:00,10,1091.41,True,3332,13,60,1145,24,34,58,MERGED
+41130,CmdPal: Replace the brush used for the menu item separator,jiripolasek,2025-08-13T19:27:50Z,2025-08-14T15:52:38+00:00,2,20.41,True,1,1,1,933,4,0,4,MERGED
+41122,CmdPal: Add local keyboard listener and use it to handle GoBack key,jiripolasek,2025-08-13T16:09:58Z,2025-08-19T10:54:27+00:00,7,138.74,True,200,2,5,890,3,10,13,MERGED
+41119,"CmdPal: Honor ""Single-click activation"" only for pointer clicks and not for keyboard",jiripolasek,2025-08-13T13:51:48Z,2025-08-18T21:46:08+00:00,3,127.91,True,28,0,1,1404,5,3,8,MERGED
+41108,build: remove *tests* and all coverage/DIA DLLs from binskim,DHowett,2025-08-12T17:17:14Z,2025-08-18T11:00:14+00:00,3,137.72,True,7,0,2,117,1,6,7,MERGED
+41093,Search clear button funtionatlity & screen reading,chatasweetie,2025-08-11T22:06:06Z,2025-08-21T16:03:52+00:00,5,233.96,False,55,3,4,944,2,2,4,CLOSED
+41091,[Always On Top] Wait cursor fix,davidegiacometti,2025-08-11T19:50:56Z,2025-08-22T05:55:18+00:00,3,250.07,True,9,1,1,859,0,3,3,MERGED
+41087,CmdPal: Bring existing Settings window to the foreground when opened,jiripolasek,2025-08-11T14:51:43Z,2025-08-13T18:48:07+00:00,2,51.94,True,1,0,1,763,2,0,2,MERGED
+41083,CmdPal: Prevent disposed ContentPage from handling messages,jiripolasek,2025-08-11T12:57:54Z,2025-08-18T16:45:26+00:00,4,171.79,True,20,2,2,1275,2,2,4,MERGED
+41081,CmdPal: Make sure to include apps in the ctor,zadjii-msft,2025-08-11T11:21:19Z,2025-08-11T23:43:08+00:00,1,12.36,True,1,0,1,182,1,0,1,MERGED
+41079,"Mouse highlighter spotlight mode, fix the gpu perf issue",vanzue,2025-08-11T11:00:07Z,2025-08-12T02:55:25+00:00,5,15.92,True,100,20,1,850,1,7,8,MERGED
+41059,CmdPal: Fix styles applied to MoreCommandsButton,jiripolasek,2025-08-08T14:49:35Z,2025-08-11T23:12:05+00:00,2,80.38,True,25,43,1,1004,5,0,5,MERGED
+41056,CmdPal: Make it easier to add APIs in the future,zadjii-msft,2025-08-08T11:14:05Z,2025-08-21T21:53:01+00:00,8,322.65,True,334,13,15,106,5,17,22,MERGED
+41050,Settings: Mouse utils setting crash,vanzue,2025-08-08T05:17:19Z,2025-08-08T08:38:47+00:00,2,3.36,True,1,1,1,1125,0,1,1,MERGED
+41049,Fixed toggle switch not working issue.,shuaiyuanxx,2025-08-08T04:58:52Z,2025-08-08T14:55:00+00:00,4,9.94,True,15,9,1,1832,2,3,5,MERGED
+41044,[QuickAccent] Update Topmost logic to attempt to fix hybrid graphics issues,daverayment,2025-08-08T00:52:31Z,2025-08-22T06:18:17+00:00,5,341.43,True,3,1,1,1838,4,3,7,MERGED
+41042,[deps] Update UTF.Unknown,304NotModified,2025-08-07T22:45:35Z,2025-08-21T09:51:20+00:00,4,323.1,True,2,2,1,272,4,0,4,MERGED
+41039,[Deps] Update .NET packages from 9.0.7 to 9.0.8,snickler,2025-08-07T20:41:58Z,2025-08-08T00:28:02+00:00,2,3.77,True,43,43,3,791,3,0,3,MERGED
+41036,Initial draft for 0.93 release note,yeelam-gordon,2025-08-07T14:12:20Z,2025-08-13T15:19:07+00:00,7,145.11,True,93,113,1,2355,5,6,11,MERGED
+41035,CmdPal: Improve page exception details for users,jiripolasek,2025-08-07T13:31:11Z,2025-08-18T16:31:41+00:00,2,267.01,True,73,5,3,2499,6,1,7,MERGED
+41031,[AOT] Remove rd.xml from CmdPal,moooyo,2025-08-07T08:32:48Z,2025-08-11T23:44:23+00:00,2,111.19,True,54,27,9,963,3,1,4,MERGED
+41029,[Feature] PowerToys hotkey conflict detection,shuaiyuanxx,2025-08-07T07:50:25Z,2025-08-20T01:31:53+00:00,14,305.69,True,4579,367,104,1866,4,26,30,MERGED
+41027,[Cmdpal] Use DynamicDependency to preserve trimmed Adaptive Card action types,lei9444,2025-08-07T07:15:00Z,2025-08-20T08:47:38+00:00,4,313.54,True,25,98,2,807,4,2,6,MERGED
+41016,"move Automation Notification functionality to UIHelper, implement UIHelper in ListPage and SettingsWindow",chatasweetie,2025-08-06T22:06:46Z,2025-08-22T06:23:14+00:00,3,368.27,True,72,21,5,857,3,6,9,MERGED
+41012,CmdPal: Replace Clipboard History extension outline icon with colorful icon,jiripolasek,2025-08-06T21:11:29Z,2025-08-13T18:45:48+00:00,2,165.57,True,11,1,4,1002,5,1,6,MERGED
+41010,"CmdPal: Once again, I am asking you to fix form submits",zadjii-msft,2025-08-06T15:36:10Z,2025-08-07T00:41:03+00:00,1,9.08,True,98,21,2,1841,0,0,0,MERGED
+40999,[UITests] Screen Ruler,khmyznikov,2025-08-06T07:13:57Z,2025-09-08T12:04:53+00:00,4,796.85,True,792,32,16,402,23,11,34,MERGED
+40995,Fix: used wrong preview resize event from another handler,lei9444,2025-08-06T01:48:08Z,2025-08-06T06:12:37+00:00,2,4.41,True,1,1,1,1104,0,0,0,MERGED
+40991,Adding app icon to run context menu item in all apps ext,michaeljolley,2025-08-05T19:08:07Z,2025-08-20T22:54:01+00:00,2,363.76,True,5,0,1,84,4,2,6,MERGED
+40990,CmdPal: fix files not having an open command,zadjii-msft,2025-08-05T17:41:23Z,2025-08-05T19:15:53+00:00,1,1.57,True,4,0,1,357,0,0,0,MERGED
+40987,CmdPal: Update a code comment using a wrong member name [nit],jiripolasek,2025-08-05T10:21:30Z,2025-08-05T21:26:06+00:00,2,11.08,True,1,1,1,934,2,0,2,MERGED
+40986,CmdPal: properly dispose of the old backdrop controller ,jiripolasek,2025-08-05T10:07:22Z,2025-08-05T21:26:23+00:00,1,11.32,True,5,1,1,1223,2,0,2,MERGED
+40985,Fixes bgcode handlers registration,pedrolamas,2025-08-05T10:06:46Z,2025-08-20T09:20:15+00:00,3,359.22,True,4,1,3,855,5,1,6,MERGED
+40984,CmdPal: Fix regression when updating a command provider without commands,jiripolasek,2025-08-05T09:53:38Z,2025-08-15T14:17:57+00:00,5,244.41,True,17,9,1,971,2,2,4,MERGED
+40983,CmdPal: Fix race condition in SupersedingAsyncGate cancellation handling [MSH],jiripolasek,2025-08-05T09:39:39Z,2025-08-13T18:44:32+00:00,2,201.08,True,1,1,1,586,3,0,3,MERGED
+40981,CmdPal: Prevent cloaking of a visible window when not necessary,jiripolasek,2025-08-05T08:46:02Z,2025-09-02T20:39:27+00:00,6,683.89,True,6,5,1,890,9,2,11,MERGED
+40972,CmdPal: Null pattern matching based on `is` expression rather than overridable operators,michaeljolley,2025-08-04T20:54:37Z,2025-08-18T11:07:28+00:00,4,326.21,True,395,431,138,1057,5,3,8,MERGED
+40970,CmdPal: Ensuring alias changes are propagated to related TopLevelViewModels,michaeljolley,2025-08-04T19:43:59Z,2025-08-21T11:09:00+00:00,3,399.42,True,23,4,2,248,0,1,1,MERGED
+40968,CmdPal: Setting Activation Shortcut now auto focuses on window & delivers dialog,chatasweetie,2025-08-04T17:51:01Z,2025-08-13T18:43:54+00:00,2,216.88,True,1,1,1,844,4,1,5,MERGED
+40960,[UITest] Add BasicTest class for CmdPal and add more Apps/WindowsTerminal/Calculator/Indexer case,moooyo,2025-08-04T09:20:58Z,2025-08-20T05:23:42+00:00,1,380.05,False,682,15,7,906,1,8,9,CLOSED
+40944,[PowerRename] Fix named pipe detection,davidegiacometti,2025-08-02T18:27:24Z,2025-08-05T07:44:58+00:00,1,61.29,True,5,6,1,1739,0,0,0,MERGED
+40943,CmdPal: Coalesce top-level commands list changes into a single task,jiripolasek,2025-08-02T14:48:56Z,2025-08-05T21:26:50+00:00,1,78.63,True,48,5,1,1984,2,0,2,MERGED
+40931,CmdPal: Check icon parent before adding in ContentIcon (Closes: #40928),jiripolasek,2025-08-01T12:58:48Z,2025-08-15T11:48:54+00:00,4,334.83,True,12,0,1,1973,5,2,7,MERGED
+40915,CmdPal: Added settings for limiting apps on top level searches,michaeljolley,2025-07-31T22:15:00Z,2025-08-27T15:52:39+00:00,5,641.63,True,185,19,6,182,4,2,6,MERGED
+40911,Adding additional descriptions for all apps settings,michaeljolley,2025-07-31T17:24:23Z,2025-08-04T23:34:21+00:00,1,102.17,True,4,4,1,559,3,0,3,MERGED
+40902,CmdPal: extension nuget should target a lower windows SDK version,zadjii-msft,2025-07-31T11:30:04Z,2025-08-13T18:42:53+00:00,3,319.21,True,25,16,19,183,0,0,0,MERGED
+40899,[UI tests] Fix UI test pipeline to properly handle buildSource parameter conditions,lei9444,2025-07-31T09:39:41Z,2025-08-01T05:57:40+00:00,5,20.3,True,213,144,4,1108,0,3,3,MERGED
+40896,[CmdPal][UT] Refactor some cmdpal ext's ut and improve the test case ,moooyo,2025-07-31T08:31:46Z,2025-08-12T10:27:10+00:00,2,289.92,True,639,542,41,827,2,5,7,MERGED
+40887,[CmdPal] Search PATH starting with ~ / \,davidegiacometti,2025-07-30T20:08:11Z,2025-08-13T18:42:40+00:00,6,334.57,True,60,4,1,1069,1,5,6,MERGED
+40877,[Installer] Upgrade the installer from WiX3 to WiX5,zhaopy536,2025-07-30T09:06:39Z,2025-08-25T10:39:12+00:00,22,625.54,True,7049,38,77,1571,7,40,47,MERGED
+40874,[CmdPal][UnitTest] Refactor system command unit test,moooyo,2025-07-30T07:49:16Z,2025-07-30T09:19:40+00:00,3,1.51,True,261,132,13,799,3,5,8,MERGED
+40873,[Installer] Update installer related markdown,zhaopy536,2025-07-30T07:16:47Z,2025-07-30T08:36:04+00:00,1,1.32,True,27,3,3,710,1,0,1,MERGED
+40871,[UI Tests] Enhance UI Test Automation and Pipeline Support for CmdPal Module,lei9444,2025-07-30T03:39:18Z,2025-07-31T05:55:23+00:00,12,26.27,True,461,134,14,1873,0,11,11,MERGED
+40870,"CmdPal: Add Context Menu command ""Show Details"" when list item has details, but list view's ShowDetails == false ",michaeljolley,2025-07-30T02:53:00Z,2025-09-26T17:46:10+00:00,18,1406.89,True,285,27,9,416,8,7,15,MERGED
+40854,Fix a settings crash due to incompatible property name,vanzue,2025-07-29T01:34:23Z,2025-07-29T02:53:42+00:00,6,1.32,True,1,0,1,1738,2,5,7,MERGED
+40852,CmdPal: Bump our package version to 0.4,zadjii-msft,2025-07-28T21:43:45Z,2025-07-28T23:45:16+00:00,5,2.03,True,3,1,2,667,0,3,3,MERGED
+40850,CmdPal: Fix paths to dirs on the Run fallback,zadjii-msft,2025-07-28T21:15:14Z,2025-07-28T23:50:33+00:00,5,2.59,True,19,7,3,2728,0,4,4,MERGED
+40849,Fixed issue with primary/secondary commands,michaeljolley,2025-07-28T21:03:12Z,2025-07-28T23:26:32+00:00,9,2.39,True,3,3,2,893,0,1,1,MERGED
+40847,CmdPal: fix handling form submits,zadjii-msft,2025-07-28T11:39:56Z,2025-07-28T23:42:55+00:00,5,12.05,True,8,1,1,1394,0,3,3,MERGED
+40832,CmdPal: Did someone say grid pages?,michaeljolley,2025-07-27T02:45:00Z,2025-09-08T10:25:07+00:00,11,1039.67,True,595,105,20,466,22,21,43,MERGED
+40825,CmdPal: Add error handling to extension disposal,jiripolasek,2025-07-26T11:02:47Z,2025-07-28T21:18:05+00:00,5,58.26,True,11,2,1,1845,3,1,4,MERGED
+40815,CmdPal: Remove vestigial try/catch,zadjii-msft,2025-07-25T19:58:40Z,2025-07-28T23:47:18+00:00,4,75.81,True,1,10,1,622,0,3,3,MERGED
+40814,"CmdPal: try to fix the context menu crash, again.",zadjii-msft,2025-07-25T19:24:43Z,2025-07-28T13:32:09+00:00,4,66.12,True,24,2,3,1410,3,4,7,MERGED
+40805,"[Doc] Add doc for a script to build installer locally, and doc for testing winget install locally",vanzue,2025-07-25T07:24:48Z,2025-07-31T01:48:25+00:00,3,138.39,True,42,0,3,836,1,5,6,MERGED
+40804,[Tests] Fix PowerToys.sln to make cmdpal unit tests listed in the Test folder,moooyo,2025-07-25T06:23:32Z,2025-07-25T07:35:36+00:00,2,1.2,True,48,3,5,1808,0,1,1,MERGED
+40799,Change filter box placeholder for main list page only,jiripolasek,2025-07-24T20:14:07Z,2025-07-30T16:27:03+00:00,6,140.22,True,13,0,3,703,3,1,4,MERGED
+40794,CmdPal: fix content on extension settings,zadjii-msft,2025-07-24T14:07:02Z,2025-07-28T11:44:25+00:00,2,93.62,True,5,32,3,1777,0,1,1,MERGED
+40791,CmdPal: Move the OpenContextMenuMessage into the UI project,zadjii-msft,2025-07-24T11:07:39Z,2025-07-28T23:46:17+00:00,4,108.64,True,11,27,7,2901,0,3,3,MERGED
+40790,Update thirdPartyRunPlugins.md,VictorNoxx,2025-07-24T11:02:44Z,2025-07-28T14:55:27+00:00,2,99.88,True,1,0,1,3308,4,0,4,MERGED
+40785,CmdPal: Filtering out pinned apps on search,michaeljolley,2025-07-24T03:48:15Z,2025-07-28T13:45:09+00:00,4,105.95,True,8,7,3,1276,0,3,3,MERGED
+40783,"CmdPal: Filters for DynamicListPage? Yes, please.",michaeljolley,2025-07-24T02:23:06Z,2025-08-21T10:40:09+00:00,4,680.28,True,646,33,26,1919,1,9,10,MERGED
+40777,cmdpal: move kb shortcut handling to PreviewKeyDown,zadjii-msft,2025-07-23T21:47:30Z,2025-07-29T01:17:27+00:00,6,123.5,True,20,14,3,1321,0,2,2,MERGED
+40773,meta: Change the PR template to link & close issues by default,zadjii-msft,2025-07-23T15:39:35Z,2025-07-24T20:14:20+00:00,3,28.58,True,2,5,2,723,10,1,11,MERGED
+40770,[Unit tests] Add unit tests for CmdPal Calc,lei9444,2025-07-23T14:20:19Z,2025-07-24T02:09:43+00:00,3,11.82,True,655,1,6,2181,1,2,3,MERGED
+40769,[UI tests] Add basic UI Tests for Text Extractor,lei9444,2025-07-23T12:44:26Z,2025-07-24T02:52:28+00:00,1,14.13,True,92,0,3,2156,0,0,0,MERGED
+40768,"cmdpal: Add ""file"" context items to the run items too",zadjii-msft,2025-07-23T11:50:30Z,2025-07-29T01:03:50+00:00,7,133.22,True,499,183,31,1923,3,10,13,MERGED
+40767,Script: Fix a syntax error,vanzue,2025-07-23T08:44:51Z,2025-07-23T11:06:09+00:00,5,2.35,True,2,2,1,1086,2,1,3,MERGED
+40765,Fix cmdpal unit tests build issue,moooyo,2025-07-23T06:05:45Z,2025-07-23T10:12:27+00:00,2,4.11,True,32,23,9,1817,0,0,0,MERGED
+40761,add AutomationNotification for screen readers,chatasweetie,2025-07-22T20:37:11Z,2025-07-28T14:56:02+00:00,2,138.31,True,12,0,1,1517,3,1,4,MERGED
+40758,"CmdPal: A different approach to bookmarking scripts, exes (try 2)",zadjii-msft,2025-07-22T19:59:19Z,2025-07-28T23:52:26+00:00,3,147.89,True,308,187,12,716,1,5,6,MERGED
+40754,[Tests] More consistent naming,khmyznikov,2025-07-22T15:27:39Z,2025-07-24T15:53:22+00:00,8,48.43,True,294,351,70,136,4,6,10,MERGED
+40752,CmdPal: Sync access to TopLevelCommandManager from UpdateCommandsForProvider,jiripolasek,2025-07-22T13:50:46Z,2025-07-28T23:51:58+00:00,5,154.02,True,199,52,3,786,11,6,17,MERGED
+40745,[UITest] Added UITest for advancedPaste,shuaiyuanxx,2025-07-22T07:00:30Z,2025-07-23T09:18:04+00:00,7,26.29,True,1616,15,24,796,5,11,16,MERGED
+40744,[CmdPal][AOT] Fix context menu crash issue,moooyo,2025-07-22T06:24:48Z,2025-07-22T11:40:02+00:00,2,5.25,True,3,0,1,753,4,1,5,MERGED
+40743,First pass at a copilot-instructions file for PowerToys,michaeljolley,2025-07-22T02:32:58Z,2025-07-24T15:31:10+00:00,2,60.97,False,75,0,1,177,0,1,1,CLOSED
+40741,"Add support for ""Grid"" list pages in DevPal",copilot-swe-agent,2025-07-21T19:10:44Z,2025-07-28T11:03:37+00:00,7,159.88,False,466,44,7,3149,3,5,8,CLOSED
+40740,"Add ""Show Details"" context action to ListItems when ShowDetails=false",copilot-swe-agent,2025-07-21T19:08:36Z,2025-07-26T03:09:36+00:00,15,104.02,False,139,1,5,3323,3,14,17,CLOSED
+40737,[WiX 5] Update WiX 5 signing logic and fix copy file paths,lei9444,2025-07-21T14:01:53Z,2025-07-22T01:11:58+00:00,1,11.17,True,19,8,2,792,1,0,1,MERGED
+40734,[UI tests] Add full UI test coverage for Peek based on release checklist,lei9444,2025-07-21T12:16:36Z,2025-07-22T01:00:39+00:00,2,12.73,True,1028,30,32,1742,0,4,4,MERGED
+40731,[CmdPal][UI Tests] Add some indexer extension's test cases,moooyo,2025-07-21T07:58:30Z,2025-07-21T10:06:52+00:00,2,2.14,True,275,22,3,848,0,4,4,MERGED
+40727,[Build script] Polish powertoys build script,vanzue,2025-07-21T01:25:19Z,2025-07-22T02:22:29+00:00,4,24.95,True,99,27,2,1152,0,5,5,MERGED
+40722,"[CmdPal > Ext] Use empty content for WindowWalker, Windows Settings and Windows Search",htcfreek,2025-07-20T11:59:57Z,2025-08-18T16:22:27+00:00,14,700.38,True,141,26,12,992,10,8,18,MERGED
+40721,CmdPal: experiments with the great context menu,jiripolasek,2025-07-20T11:55:29Z,2025-09-04T11:26:03+00:00,7,1103.51,False,235,15,5,2225,5,2,7,CLOSED
+40718,CmdPal: Update Back button tooltip with shortcut information,jiripolasek,2025-07-19T19:29:52Z,2025-07-20T21:07:01+00:00,2,25.62,True,1,1,1,858,3,0,3,MERGED
+40717,[CmdPal][App] Handle app indexing errors,davidegiacometti,2025-07-19T18:04:58Z,2025-07-20T18:43:27+00:00,4,24.64,True,24,17,4,839,0,3,3,MERGED
+40716,CmdPal: Handle exceptions when enqueuing callbacks to UI thread in IconCacheService,jiripolasek,2025-07-19T17:34:40Z,2025-07-28T21:41:28+00:00,3,220.11,True,27,7,1,1136,11,1,12,MERGED
+40715,CmdPal: Avoid reentrancy issues when loading more items,jiripolasek,2025-07-19T15:50:10Z,2025-07-28T14:06:23+00:00,6,214.27,True,75,11,2,1102,7,6,13,MERGED
+40714,[Settings] Move title bar shutdown button to navigation view,davidegiacometti,2025-07-19T12:58:06Z,2025-08-21T08:40:37+00:00,5,787.71,True,90,67,12,1249,11,2,13,MERGED
+40710,CmdPal: Adding support for filters,michaeljolley,2025-07-19T04:09:45Z,2025-07-24T02:23:15+00:00,3,118.22,False,760,117,32,1776,17,12,29,CLOSED
+40694,[CmdPal][UI Tests] Add basic test cases for cmdpal,moooyo,2025-07-18T06:55:26Z,2025-07-18T08:22:38+00:00,3,1.45,True,190,0,4,792,0,1,1,MERGED
+40677,[CmdPal] Extension Toolkit localization,PesBandi,2025-07-17T19:54:12Z,2025-07-23T22:00:18+00:00,3,146.1,True,276,6,8,668,8,1,9,MERGED
+40653,[UI Tests] Replace pixel-by-pixel image comparison with perceptual hash (pHash) for improved visual similarity detection,lei9444,2025-07-17T09:27:24Z,2025-07-18T02:32:10+00:00,5,17.08,True,61,12,5,1682,0,9,9,MERGED
+40646,Improve NuGet Dependency Version Validation via dotnet restore,yeelam-gordon,2025-07-17T01:10:57Z,2025-08-21T10:07:15+00:00,7,848.94,True,14,1,5,612,6,9,15,MERGED
+40644,More instructions to build CmdPal,chatasweetie,2025-07-16T22:04:42Z,2025-07-22T21:55:20+00:00,4,143.84,True,13,6,1,776,5,3,8,MERGED
+40640,CmdPal: Replace Tapped events with generic ones,jiripolasek,2025-07-16T18:03:42Z,2025-07-29T09:58:40+00:00,7,303.92,True,89,72,7,1472,15,3,18,MERGED
+40639,Dependencies: Upgrade WinUIEx to 2.8.0,jiripolasek,2025-07-16T17:31:29Z,2025-09-29T13:43:58+00:00,1,1796.21,True,1,199,5,1159,10,0,10,MERGED
+40636,CmdPal: Make IconBox unfocusable and unreachable by keyboard navigation by default,jiripolasek,2025-07-16T16:32:35Z,2025-07-24T03:36:47+00:00,5,179.07,True,8,0,1,1015,2,2,4,MERGED
+40634,Update to latest WinAppSDK 1.7,yeelam-gordon,2025-07-16T14:27:03Z,2025-09-25T12:50:09+00:00,1,1702.38,False,62,73,10,1144,1,1,2,CLOSED
+40627,Add EnableControlFlowGuard=true to all .vcxproj files,yeelam-gordon,2025-07-16T02:17:24Z,2025-07-16T06:16:57+00:00,1,3.99,False,973,815,109,760,1,0,1,CLOSED
+40620,Remove versions and MS/System packages from NOTICE,DHowett,2025-07-15T17:05:28Z,2025-08-21T08:30:42+00:00,3,879.42,True,56,93,2,411,10,1,11,MERGED
+40606,Standardizing built-in extension icon handling,michaeljolley,2025-07-15T03:07:15Z,2025-07-15T19:33:25+00:00,4,16.44,True,371,245,93,170,2,6,8,MERGED
+40602,Fix loading top-level commands,jiripolasek,2025-07-14T17:30:36Z,2025-07-15T01:03:52+00:00,4,7.55,True,2,2,1,1094,3,1,4,MERGED
+40584,Context menu cleanup,michaeljolley,2025-07-13T02:51:06Z,2025-07-16T11:25:24+00:00,3,80.57,True,102,54,6,604,1,9,10,MERGED
+40561,CmdPal: Separate AppHosts from _extension_ app hosts,zadjii-msft,2025-07-11T14:47:05Z,2025-07-15T14:53:43+00:00,3,96.11,True,248,249,23,804,0,6,6,MERGED
+40560,Create a Microsoft.CmdPal.Core.ViewModels project,zadjii-msft,2025-07-11T14:46:52Z,2025-07-15T17:21:44+00:00,7,98.58,True,733,571,121,635,0,14,14,MERGED
+40553,Fix WiX component GUID conflict between BgcodePreviewHandler and GcodePreviewHandler,lei9444,2025-07-11T03:18:29Z,2025-07-11T06:43:56+00:00,3,3.42,True,9,9,1,1171,0,0,0,MERGED
+40551,[AOT] Enable AOT for CmdPal,moooyo,2025-07-11T02:40:59Z,2025-07-15T14:15:19+00:00,9,107.57,True,51,30,14,1086,15,8,23,MERGED
+40549,Use Empty content for empty Web search page,jiripolasek,2025-07-10T22:06:01Z,2025-07-12T02:11:14+00:00,3,28.09,True,16,23,1,493,4,2,6,MERGED
+40544,Users can now pin/unpin apps from the top of AllApps extension,michaeljolley,2025-07-10T19:41:23Z,2025-07-15T13:59:33+00:00,6,114.3,True,548,88,20,252,6,20,26,MERGED
+40540,CmdPal: Remove backdrop targets from existing backdrop controller before assigning a new one,jiripolasek,2025-07-10T18:56:45Z,2025-07-12T19:38:02+00:00,4,48.69,True,3,1,1,851,4,2,6,MERGED
+40536,CmdPal: Ensure that DismissMessage handler calls HideWindow on UI thread,jiripolasek,2025-07-10T14:55:36Z,2025-07-11T02:42:14+00:00,3,11.78,True,8,2,1,814,3,0,3,MERGED
+40530,Add PowerToysRun-Hotkeys plugin to third-party plugins documentation,ruslanlap,2025-07-10T11:43:07Z,2025-07-11T17:18:18+00:00,3,29.59,True,2,0,1,1439,3,2,5,MERGED
+40527,[Installer] Fix task bar icon,zhaopy536,2025-07-10T10:56:50Z,2025-07-11T07:41:09+00:00,1,20.74,True,128,1,3,856,6,4,10,MERGED
+40517,CmdPal: Allow mouse X1 button to navigate back,jiripolasek,2025-07-09T23:55:39Z,2025-07-10T19:56:01+00:00,6,20.01,True,25,0,2,629,5,3,8,MERGED
+40516,CmdPal: Handle Alt+Left Arrow even when search bar contains text,jiripolasek,2025-07-09T23:39:48Z,2025-07-11T16:08:18+00:00,4,40.48,True,10,4,2,1183,5,2,7,MERGED
+40514,CmdPal: Hide Open URL fallback item when search query is empty or doesn't contain valid URL,jiripolasek,2025-07-09T22:42:27Z,2025-07-11T17:08:32+00:00,5,42.43,True,2,0,1,769,4,2,6,MERGED
+40513,CmdPal: Handle CommandItem Title changes properly and raise notification every time it changes,jiripolasek,2025-07-09T22:30:25Z,2025-07-28T21:40:29+00:00,5,455.17,True,121,4,3,712,6,5,11,MERGED
+40507,Adding Lock to RecentCommandsManager,MaoShengelia,2025-07-09T21:12:12Z,2025-07-10T18:10:38+00:00,2,20.97,True,44,36,1,1299,7,0,7,MERGED
+40505,CmdPal: Add settings to control which fallbacks are enabled,zadjii-msft,2025-07-09T15:19:36Z,2025-07-10T03:01:39+00:00,7,11.7,True,178,26,18,696,2,5,7,MERGED
+40504,CmdPal: Add a viewmodel factory for pages,zadjii-msft,2025-07-09T14:44:05Z,2025-07-15T14:33:28+00:00,2,143.82,True,46,17,4,354,0,2,2,MERGED
+40500,"[pipeline] Reduce CI, Fuzz, and UI Test Timeout from 4 Hours to 90 Minutes",lei9444,2025-07-09T13:44:34Z,2025-07-11T03:23:59+00:00,4,37.66,True,12,3,4,1057,8,0,8,MERGED
+40490,[pipeline] feat: Implement flexible UI test pipeline with configurable build and execution modes,lei9444,2025-07-09T04:45:38Z,2025-07-10T01:26:27+00:00,10,20.68,True,560,71,10,2090,3,14,17,MERGED
+40486,Replace our nuget.org feed with a public azure artifacts feed,zadjii-msft,2025-07-08T21:28:12Z,2025-07-14T18:58:59+00:00,3,141.51,True,2,2,1,497,13,1,14,MERGED
+40485,[Deps] Update .NET packages from 9.0.6 to 9.0.7,snickler,2025-07-08T20:59:42Z,2025-07-09T01:16:52+00:00,3,4.29,True,43,43,3,791,0,0,0,MERGED
+40482,CmdPal: Remove ShellViewModel's dependency on MainListPage,zadjii-msft,2025-07-08T20:24:54Z,2025-07-11T11:29:39+00:00,3,63.08,True,137,36,5,248,1,3,4,MERGED
+40479,CmdPal: Pull out VM bits from ShellPage.xaml.cs,zadjii-msft,2025-07-08T18:59:10Z,2025-07-09T23:49:21+00:00,2,28.84,True,440,273,11,285,2,4,6,MERGED
+40476,Update README links and labels for 0.92.1,TheBestWebsite,2025-07-08T17:33:50Z,2025-07-10T05:43:08+00:00,2,36.16,True,8,8,1,898,9,0,9,MERGED
+40471,cmdpal: Re-re-enable the clipboard history,zadjii-msft,2025-07-08T14:56:28Z,2025-07-09T20:42:47+00:00,3,29.77,True,391,31,12,345,1,1,2,MERGED
+40462,[cmdpal] Migrate some plugin's unit tests from PT run to cmdpal.,moooyo,2025-07-08T07:47:41Z,2025-07-22T09:25:08+00:00,11,337.62,True,2506,5,31,878,6,13,19,MERGED
+40457, [Feature] PowerToys hotkey conflict detection,shuaiyuanxx,2025-07-08T04:59:36Z,2025-08-07T04:58:44+00:00,16,719.99,False,7946,1458,161,136,9,32,41,CLOSED
+40445,CmdPal: Give FG back to the previous window,zadjii-msft,2025-07-07T15:20:43Z,2025-07-09T19:50:07+00:00,5,52.49,True,45,14,1,306,6,2,8,MERGED
+40444,Set Command Palette window as the topmost when shown and move to the bottom when hidden,jiripolasek,2025-07-07T15:18:08Z,2025-07-10T11:09:05+00:00,2,67.85,True,10,0,2,1097,3,1,4,MERGED
+40434,Fix 6 UI Automation on FanzyZone given there is renamed in Setting UI.,yeelam-gordon,2025-07-07T06:18:47Z,2025-07-07T09:34:57+00:00,3,3.27,True,1,1,1,365,0,0,0,MERGED
+40430,"CmdPal: A different approach to bookmarking scripts, exes",zadjii-msft,2025-07-06T19:40:34Z,2025-07-22T11:59:11+00:00,2,376.31,True,311,189,13,614,12,7,19,MERGED
+40427,CmdPal: Add history to the new run page,zadjii-msft,2025-07-06T14:23:21Z,2025-07-23T11:51:31+00:00,8,405.47,True,483,43,24,281,7,20,27,MERGED
+40406,Ensure Command Palette main window remains hidden on taskbar Windows Explorer restarts,jiripolasek,2025-07-04T22:09:35Z,2025-07-09T17:35:43+00:00,3,115.44,True,31,4,3,1562,5,1,6,MERGED
+40401,Fix loading our app state,zadjii-msft,2025-07-04T13:01:22Z,2025-07-06T21:10:16+00:00,1,56.15,True,4,2,2,82,1,0,1,MERGED
+40398,[CmdPal][Calc] Add option to choose Copy as the primary command (close on enter),PesBandi,2025-07-04T11:44:44Z,2025-07-24T03:36:23+00:00,5,471.86,True,37,9,5,670,13,1,14,MERGED
+40393,[UI automation test] Add basic tests case for powerrename module.,moooyo,2025-07-04T06:13:05Z,2025-07-09T06:32:40+00:00,3,120.33,True,561,131,12,818,7,2,9,MERGED
+40392,[Fix][CmdPal] CmdPal Apps extension is missing all Win32 applications,lei9444,2025-07-04T06:09:51Z,2025-07-04T08:18:18+00:00,2,2.14,True,1,1,1,1025,2,0,2,MERGED
+40390,Fix Random unitttest failure,yeelam-gordon,2025-07-04T03:36:12Z,2025-07-07T09:35:09+00:00,2,77.98,True,3,14,1,1699,1,1,2,MERGED
+40387,Fix wix build,vanzue,2025-07-04T01:01:39Z,2025-07-04T02:09:08+00:00,2,1.12,True,15,3,3,710,1,0,1,MERGED
+40386,Updates for check-spelling v0.0.25,jsoref,2025-07-03T22:55:05Z,2025-07-08T22:16:53+00:00,12,119.36,True,947,694,199,1924,26,23,49,MERGED
+40381,[CmdPal] UX tweaks,niels9001,2025-07-03T17:35:09Z,2025-07-07T15:31:56+00:00,3,93.95,True,59,132,9,281,2,2,4,MERGED
+40376,[Settings] Complete the settings deeplink,vanzue,2025-07-03T10:56:38Z,2025-07-04T01:41:19+00:00,2,14.74,True,101,15,4,829,1,2,3,MERGED
+40367,[UI Tests] Fix incorrect Settings Page launch method in UI test framework,lei9444,2025-07-03T04:09:51Z,2025-07-07T04:58:49+00:00,3,96.82,True,71,36,2,1117,3,0,3,MERGED
+40359,Add hotkey shortcuts to Command Palette context menu items,copilot-swe-agent,2025-07-02T18:23:38Z,2025-07-10T02:45:27+00:00,7,176.36,True,38,9,2,1784,8,5,13,MERGED
+40344,[Fuzzing] fix: failure in fuzz test result submission,lei9444,2025-07-02T09:26:34Z,2025-07-02T10:47:33+00:00,1,1.35,True,10,10,6,769,1,0,1,MERGED
+40331,Adding fallback command for Windows Settings extension,michaeljolley,2025-07-01T21:42:17Z,2025-07-08T15:05:02+00:00,2,161.38,True,245,77,7,462,8,7,15,MERGED
+40328,[CmdPal][Calc]Also handle normal spaces when the group separator is a non-breaking one,PesBandi,2025-07-01T15:07:05Z,2025-07-10T11:07:25+00:00,2,212.01,True,7,4,1,781,8,2,10,MERGED
+40320,[UX] Improved formatting for release notes,niels9001,2025-07-01T11:06:49Z,2025-07-09T21:19:16+00:00,3,202.21,True,7,5,2,729,3,3,6,MERGED
+40317,[CmdPal][Calc]Parse result returned by ExprTk correctly,PesBandi,2025-07-01T08:19:37Z,2025-07-01T12:20:24+00:00,2,4.01,True,1,1,1,928,9,0,9,MERGED
+40314,Fix: File explorer preview didn't work with per-user installation,lei9444,2025-07-01T04:00:53Z,2025-07-07T01:41:19+00:00,2,141.67,True,10,10,8,1684,0,1,1,MERGED
+40310,CmdPal: hotfix loading packaged apps,zadjii-msft,2025-06-30T21:01:09Z,2025-07-01T00:51:17+00:00,1,3.84,True,11,14,1,181,0,0,0,MERGED
+40301,[cmdpal][AOT] fix some cmdpal aot issue,moooyo,2025-06-30T09:31:53Z,2025-07-01T02:36:59+00:00,5,17.09,True,75,81,6,833,1,3,4,MERGED
+40279,commenting out action framework code,crutkas,2025-06-28T15:58:07Z,2025-06-30T04:06:46+00:00,4,36.14,True,12,2,2,165,0,0,0,MERGED
+40266,Initial version for .92 Release note,yeelam-gordon,2025-06-27T11:05:20Z,2025-07-01T20:27:42+00:00,11,105.37,True,110,137,2,84,4,15,19,MERGED
+40263,Aligning Kill Process with End Task naming,michaeljolley,2025-06-27T01:51:22Z,2025-06-30T15:17:57+00:00,4,85.44,True,13,13,5,136,0,2,2,MERGED
+40261,Re-enable MSBuildCache,dfederm,2025-06-26T20:25:01Z,2025-07-10T11:08:29+00:00,2,326.72,True,12,15,6,22,6,0,6,MERGED
+40260,[Settings] TitleBar Shut down button minor tweak,davidegiacometti,2025-06-26T19:50:14Z,2025-07-19T13:00:41+00:00,6,545.17,False,28,47,10,831,11,2,13,CLOSED
+40256,[Settings] Add GPO control,niels9001,2025-06-26T16:39:31Z,2025-09-09T08:48:03+00:00,9,1792.14,True,504,770,32,954,10,4,14,MERGED
+40249,[Settings] String updates and minor UX tweaks,niels9001,2025-06-26T12:21:14Z,2025-07-03T14:20:22+00:00,5,169.99,True,157,173,3,1054,10,4,14,MERGED
+40245,[cmdpal] Fix TimeAndDate extension crash issue when typing query,moooyo,2025-06-26T06:48:02Z,2025-06-27T02:07:49+00:00,1,19.33,True,15,1,1,912,6,0,6,MERGED
+40243,[cmdpal] Fix primary button doesn't work issue,moooyo,2025-06-26T06:05:48Z,2025-06-27T02:08:46+00:00,1,20.05,True,1,0,1,813,0,0,0,MERGED
+40242,[CmdPal] Fix correct comment typo in SamplePagesExtension,purofle,2025-06-26T03:49:01Z,2025-06-26T17:12:28+00:00,3,13.39,True,1,1,1,782,2,0,2,MERGED
+40241,Fix signing configuration: Remove 25 obsolete file references from ESRPSigning_core.json,copilot-swe-agent,2025-06-26T03:45:47Z,2025-07-04T01:50:22+00:00,5,190.08,True,10,25,1,2355,10,3,13,MERGED
+40229,[CmdPal] Refactor ActionRuntime initialization to avoid repeated delays on failure,lei9444,2025-06-25T12:10:07Z,2025-06-26T15:50:17+00:00,5,27.67,True,82,12,3,1327,3,5,8,MERGED
+40216,Fix: Prevent memory leak in view model lifecycle,tanchekwei,2025-06-24T16:29:31Z,2025-06-30T23:17:38+00:00,5,150.8,True,24,2,1,4570,7,5,12,MERGED
+40214,[UX] New dashboard & refactored KeyVisual,niels9001,2025-06-24T14:48:51Z,2025-08-04T23:33:20+00:00,46,992.74,True,1405,1210,43,1325,6,37,43,MERGED
+40198,[CmdPal] Fix slow fuzzy search in apps extension by properly handling null-terminated strings from SHLoadIndirectString,lei9444,2025-06-23T12:10:46Z,2025-06-24T05:41:53+00:00,3,17.52,True,25,19,1,1529,0,1,1,MERGED
+40194,[CmdPal]Limit exprtk result to 15 total digits with proper rounding,lei9444,2025-06-23T06:07:54Z,2025-06-24T05:42:22+00:00,1,23.57,True,25,5,1,1489,5,0,5,MERGED
+40190,"Runner: Remove ""Show Tray Icon"" menu in tray icon",vanzue,2025-06-23T02:49:21Z,2025-06-25T09:31:57+00:00,3,54.71,True,2,14,5,1005,7,0,7,MERGED
+40189,"CmdPal: Refactoring ContextMenu adding separators, IsCritical styling, and right-click context menus for list items",michaeljolley,2025-06-22T22:04:31Z,2025-07-09T19:53:47+00:00,29,405.82,True,984,477,23,604,0,35,35,MERGED
+40165,[DevDocs] More content and restructure,khmyznikov,2025-06-20T20:33:18Z,2025-07-01T12:27:34+00:00,6,255.9,True,5361,325,102,349,3,3,6,MERGED
+40164,[QuickAccent] Add Vietnamese,octastylos-pseudodipteros,2025-06-20T19:01:48Z,2025-07-11T16:08:43+00:00,3,501.12,True,23,0,3,554,3,3,6,MERGED
+40162,Fix CmdPal application activation,jiripolasek,2025-06-20T17:43:42Z,2025-07-10T02:49:14+00:00,5,465.09,True,57,21,4,1267,5,6,11,MERGED
+40160,[UX] Settings - fix header position,niels9001,2025-06-20T12:07:07Z,2025-07-03T09:33:56+00:00,4,309.45,True,2,1,1,951,2,3,5,MERGED
+40157,[pipeline] Add AdaptiveCards.Templating.dll to version check exception list,lei9444,2025-06-20T08:39:57Z,2025-06-24T03:19:25+00:00,2,90.66,True,1,0,1,776,0,0,0,MERGED
+40154,[AOT] Update logger to support NativeAOT,lei9444,2025-06-20T06:51:14Z,2025-07-01T09:04:16+00:00,3,266.22,True,1,10,1,1119,7,1,8,MERGED
+40150,Sign for the new managedCsWin32 dll,moooyo,2025-06-20T05:40:25Z,2025-06-21T12:09:57+00:00,2,30.49,True,1,0,1,793,2,0,2,MERGED
+40144,fix bad link in cmdpal sdk README.md,ChrisGuzak,2025-06-19T23:43:43Z,2025-06-20T10:58:06+00:00,3,11.24,True,1,1,1,161,4,0,4,MERGED
+40136,Bump CmdPal version to 0.3,zadjii-msft,2025-06-19T14:21:47Z,2025-06-19T17:10:00+00:00,1,2.8,True,1,1,1,5,0,0,0,MERGED
+40134,[CmdPal][AOT] Make Adaptive Card rendering AOT-compatible,lei9444,2025-06-19T13:16:55Z,2025-06-20T04:59:19+00:00,3,15.71,True,31,19,4,1557,0,2,2,MERGED
+40132,Prevent apps from appearing in top-level search when Installed apps extension is disabled,jiripolasek,2025-06-19T10:35:06Z,2025-07-10T01:44:08+00:00,10,495.15,True,89,11,4,1325,10,6,16,MERGED
+40131,Settings search spec,vanzue,2025-06-19T09:17:43Z,2025-07-02T03:15:57+00:00,3,305.97,False,232,0,3,63,1,27,28,CLOSED
+40129,[Fuzz] Update private Email to Group Email,chenmy77,2025-06-19T08:00:21Z,2025-06-19T17:10:49+00:00,1,9.17,True,13,13,5,790,0,0,0,MERGED
+40128,"Fix Mouse highlighter ""Always highlight color"" stays on after toggling opacity to zero again",yaqingmi,2025-06-19T06:51:14Z,2025-07-02T09:51:47+00:00,3,315.01,False,11,3,1,749,0,4,4,CLOSED
+40127,[cmdpal] Disable clipboard history extension,moooyo,2025-06-19T05:41:04Z,2025-06-19T06:45:00+00:00,3,1.07,True,0,3,2,833,0,0,0,MERGED
+40124,cmdpal: turn on condition package for cmdpal,vanzue,2025-06-19T02:25:55Z,2025-06-19T11:52:42+00:00,4,9.45,True,1,1,1,712,0,0,0,MERGED
+40116,[Peek] Terminate Preview Handlers Processes,davidegiacometti,2025-06-18T20:23:35Z,2025-07-14T00:50:46+00:00,2,604.45,True,30,7,4,1308,1,2,3,MERGED
+40115,Fix default browser detection for Windows 11 24H2 by checking UserChoiceLatest\ProgId registry key,RuggMatt,2025-06-18T20:19:55Z,2025-06-19T00:24:57+00:00,2,4.08,True,2,2,2,1224,3,2,5,MERGED
+40111,[Peek] Fix ShellPreviewHandler Previewer,davidegiacometti,2025-06-18T18:52:10Z,2025-06-19T01:05:45+00:00,3,6.23,True,2,2,1,1310,1,2,3,MERGED
+40108,CmdPal: Fix our fast up to date check,zadjii-msft,2025-06-18T14:40:51Z,2025-06-19T17:09:39+00:00,2,26.48,True,4,1,1,52,0,0,0,MERGED
+40098,Include app Microsoft-Windows-AppXDeploymentServer-Operational event log as part of bug report,yeelam-gordon,2025-06-18T07:56:53Z,2025-06-19T00:22:17+00:00,3,16.42,True,70,8,5,376,3,5,8,MERGED
+40092,Fix COM object creation in ExtensionWrapper,jtschuster,2025-06-17T23:13:51Z,2025-06-18T03:53:42+00:00,1,4.66,True,16,29,1,516,2,0,2,MERGED
+40079,User/yeelam/dpi fix,yeelam-gordon,2025-06-17T11:14:29Z,2025-06-18T07:08:54+00:00,2,19.91,True,42,19,24,1448,0,1,1,MERGED
+40072,Fix PDF generation – reset stream position,lei9444,2025-06-17T04:26:46Z,2025-06-17T06:25:08+00:00,2,1.97,True,2,0,1,101,0,1,1,MERGED
+40060,Settings: Generate bug report should tell user there is bug report generating,vanzue,2025-06-16T06:34:31Z,2025-06-17T06:49:54+00:00,4,24.26,True,229,11,8,1335,4,0,4,MERGED
+40059,[CmdPal]Integrate versioning into the CalculatorEngineCommon project,lei9444,2025-06-16T05:37:47Z,2025-06-16T07:12:17+00:00,1,1.57,True,60,0,4,813,0,0,0,MERGED
+40058,[CmdPal][AOT] Fix fontIcon issue when build with AOT,moooyo,2025-06-16T04:04:06Z,2025-06-16T05:37:00+00:00,1,1.55,True,11,0,2,779,0,0,0,MERGED
+40056,Fix Peek always showing warning message by updating IsWarningMessageVisible logic,lei9444,2025-06-16T03:39:39Z,2025-06-16T05:39:56+00:00,1,2.0,True,3,3,2,1352,0,0,0,MERGED
+40055,"[S360] Revert ""[CmdPal][AOT] Replace CommunityToolkit.MarkdownTextBlock with CommunityToolkit.Lab.MarkdownTextBlock  (#39974)""",lei9444,2025-06-16T03:23:58Z,2025-06-16T05:31:28+00:00,2,2.12,True,18,31,9,790,0,0,0,MERGED
+40050,[CmdPal > Time&Date] Fix outdated result,htcfreek,2025-06-15T11:00:45Z,2025-06-16T08:46:51+00:00,2,21.77,True,2,13,1,845,4,0,4,MERGED
+40048,[CmdPal > Tiem & Date] Fix missing command of FallbackItem,htcfreek,2025-06-15T10:31:54Z,2025-06-16T16:20:47+00:00,2,29.81,True,1,0,1,812,11,0,11,MERGED
+40043,"Mouse highlighter: support a spotlight mode - inner transparent, out a backdrop",vanzue,2025-06-14T14:16:25Z,2025-06-27T06:11:39+00:00,7,303.92,True,152,27,9,750,2,8,10,MERGED
+40035,Fix default browser detection for Windows 11 24H2 by checking UserChoiceLatest registry key,copilot-swe-agent,2025-06-13T18:35:21Z,2025-06-18T16:16:23+00:00,3,117.68,True,10,4,2,2153,3,0,3,MERGED
+40027,Fix Build Warning on Host,yeelam-gordon,2025-06-13T04:04:34Z,2025-06-16T06:13:16+00:00,5,74.14,True,6,0,4,1580,1,3,4,MERGED
+40024,Include all the Unittest as part of CI pipeline,yeelam-gordon,2025-06-12T23:55:42Z,2025-06-13T15:59:25+00:00,1,16.06,True,1,4,1,416,0,0,0,MERGED
+40023,Fix PDF thumbnail generation – add `System.Drawing` reference and reset stream position,mohiuddin-khan-shiam,2025-06-12T23:10:46Z,2025-06-17T06:24:52+00:00,6,103.23,True,4,1,1,1158,4,4,8,MERGED
+40021,Adjusting community.md,crutkas,2025-06-12T22:33:03Z,2025-06-13T02:00:21+00:00,2,3.46,True,3,2,2,31,0,1,1,MERGED
+40007,Workspaceslib ut,vanzue,2025-06-12T08:30:44Z,2025-06-13T02:51:22+00:00,2,18.34,True,1033,12,15,1378,4,1,5,MERGED
+40006,[AOT] move some LibraryImport define to common to avoid dup code,moooyo,2025-06-12T06:56:40Z,2025-06-19T05:45:44+00:00,10,166.82,True,429,408,30,837,3,7,10,MERGED
+40002,Updates to WinGet publish script,mdanish-kh,2025-06-11T21:13:46Z,2025-06-12T22:48:05+00:00,2,25.57,True,24,16,2,615,5,0,5,MERGED
+40001,build: adjust for changes in the Az.Accounts module,DHowett,2025-06-11T20:44:21Z,2025-06-12T01:53:40+00:00,1,5.16,True,1,1,1,165,2,0,2,MERGED
+39999,Build script and introduce mcp configurations in.,vanzue,2025-06-11T16:59:58Z,2025-09-24T06:02:16+00:00,2,2509.04,False,547,58,10,765,2,17,19,CLOSED
+39994,[Fuzzing Tests] Use valid areaPath in OneFuzz configuration and Update jobNotificationEmail,chenmy77,2025-06-11T09:14:37Z,2025-06-13T02:20:04+00:00,5,41.09,True,5,5,4,853,5,1,6,MERGED
+39992,Build: Change CLR projects to portable type pdb,vanzue,2025-06-11T08:11:54Z,2025-06-12T01:44:32+00:00,1,17.54,True,2,2,1,1081,3,0,3,MERGED
+39991,Add the detail section,yeelam-gordon,2025-06-11T05:29:17Z,2025-06-12T01:15:25+00:00,5,19.77,True,48,0,1,1198,6,2,8,MERGED
+39986,[Deps] Update .NET packages from 9.0.5 to 9.0.6,snickler,2025-06-10T19:22:30Z,2025-06-11T05:43:54+00:00,5,10.36,True,45,45,3,906,5,1,6,MERGED
+39985,Spell Checking Fixes,rovercoder,2025-06-10T19:13:26Z,2025-06-11T16:32:38+00:00,6,21.32,True,5,22,4,76,7,2,9,MERGED
+39984,[CmdPal][Apps]Add copy path command,PesBandi,2025-06-10T19:11:50Z,2025-06-16T04:10:50+00:00,3,128.98,True,93,0,5,797,6,1,7,MERGED
+39983,Command Palette: fix sample links in README.md,daverayment,2025-06-10T16:44:31Z,2025-06-11T23:08:23+00:00,1,30.4,True,2,2,1,1089,8,0,8,MERGED
+39974,[CmdPal][AOT] Replace CommunityToolkit.MarkdownTextBlock with CommunityToolkit.Lab.MarkdownTextBlock ,moooyo,2025-06-10T07:55:37Z,2025-06-16T00:36:45+00:00,3,136.69,True,31,18,9,1059,9,2,11,MERGED
+39972,[CmdPal][AOT] Using ExprTk to make the Cal extension AOT-compatible,lei9444,2025-06-10T04:21:38Z,2025-06-13T04:27:53+00:00,22,72.1,True,46953,266,22,1282,14,50,64,MERGED
+39971,Workspaces: PWA apps should not necessarily configure profile to launch.,vanzue,2025-06-10T02:44:36Z,2025-06-17T07:39:45+00:00,4,172.92,True,223,123,18,1407,2,3,5,MERGED
+39955,CmdPal: entirely redo the Run page,zadjii-msft,2025-06-08T11:20:14Z,2025-07-22T19:47:31+00:00,2,1064.45,True,1091,148,24,1451,3,3,6,MERGED
+39946,[Hosts]Add learn more link to warning dialog,PesBandi,2025-06-07T16:39:06Z,2025-06-16T06:08:29+00:00,2,205.49,True,19,3,2,596,2,0,2,MERGED
+39927,Added basic support for Windows App Actions.,azchohfi,2025-06-06T00:58:34Z,2025-06-18T08:34:26+00:00,16,295.6,True,324,93,46,1037,24,16,40,MERGED
+39918,Log WPF crash exceptions instead of showing Report problem UI,yeelam-gordon,2025-06-05T10:49:52Z,2025-06-10T05:00:12+00:00,2,114.17,True,64,24,1,1169,0,1,1,MERGED
+39915,#39649,SabhyaAggarwal,2025-06-05T09:10:14Z,2025-07-03T17:14:04+00:00,3,680.06,False,3,3,1,1626,22,0,22,CLOSED
+39911,CmdPal: Implement IDetailsCommand in details,michaeljolley,2025-06-04T22:45:30Z,2025-06-05T13:56:13+00:00,2,15.18,True,112,4,8,295,0,0,0,MERGED
+39907,CmdPal: Isolated ContextMenu into its own component from CommandBar,michaeljolley,2025-06-04T19:36:28Z,2025-06-10T22:35:32+00:00,2,146.98,False,408,273,13,474,5,6,11,CLOSED
+39903,[Fuzzing] Use project reference for PowerRenameLib to fix Debug build link error,lei9444,2025-06-04T11:14:18Z,2025-06-04T15:36:50+00:00,1,4.38,True,3,1,1,1045,0,0,0,MERGED
+39898,Release ptr which get from CoCreateInstance to prevent memory leak,moooyo,2025-06-04T09:51:11Z,2025-06-05T07:02:04+00:00,3,21.18,True,43,10,6,738,0,1,1,MERGED
+39891,"Welcome new friends, Michael, Jessica, Gleb, Zachary, and Jaylyn",crutkas,2025-06-04T04:34:46Z,2025-06-05T18:18:48+00:00,7,37.73,True,15,10,2,73,2,8,10,MERGED
+39888,[Keyboard Manager] New Keyboard Manager - Text Remapping Page and Code-behind functionalities,haoliuu,2025-06-04T03:15:40Z,2025-06-09T07:10:16+00:00,1,123.91,True,1614,704,24,808,0,0,0,MERGED
+39882,🎥 Add VideoDownloader Plugin for PowerToys Run,ruslanlap,2025-06-03T18:50:49Z,2025-06-10T19:09:54+00:00,1,168.32,False,4,1,1,973,2,0,2,CLOSED
+39881,📚 Add Definition Plugin for PowerToys Run,ruslanlap,2025-06-03T18:47:09Z,2025-06-10T19:14:50+00:00,1,168.46,True,3,1,1,1271,1,0,1,MERGED
+39880,🚀 Add SpeedTest Plugin for PowerToys Run to Third-Party plugin,ruslanlap,2025-06-03T18:39:34Z,2025-06-10T19:08:16+00:00,1,168.48,True,2,1,1,1343,0,0,0,MERGED
+39865,[CmdPal] Remove redundant flag to prevent resource leak,OldUser101,2025-06-02T20:06:38Z,2025-06-08T17:06:02+00:00,1,140.99,True,1,1,1,1339,3,0,3,MERGED
+39862,build: try even harder to find a working VC tools version,DHowett,2025-06-02T18:49:17Z,2025-06-02T20:47:57+00:00,1,1.98,True,22,1,1,161,2,0,2,MERGED
+39860,Changing name from Aaron Junker to Noraa Junker,noraa-junker,2025-06-02T17:27:25Z,2025-06-04T09:09:42+00:00,3,39.7,True,5,3,3,800,3,8,11,MERGED
+39854,feat(MouseWithoutBorders): Prevent Easy Mouse from moving to another machine when an application is running in fullscreen mode.,dot-tb,2025-06-02T11:45:55Z,2025-08-22T12:42:36+00:00,12,1944.94,True,338,23,8,2592,17,15,32,MERGED
+39838,[CmdPal] Replaced ellipsis button with 'More' label + shortcut textblock,brianjames-dev,2025-06-01T06:51:05Z,2025-07-25T20:03:16+00:00,1,1309.2,True,36,3,1,588,9,0,9,MERGED
+39818,[UI automation] Add UI tests for Peek,lei9444,2025-05-30T14:38:52Z,2025-07-22T04:27:33+00:00,1,1261.81,False,17322,24,11,706,0,1,1,CLOSED
+39812,[UI automation] workspaces ui automation,vanzue,2025-05-30T02:49:58Z,2025-07-04T02:07:37+00:00,6,839.29,True,1486,19,14,793,13,6,19,MERGED
+39802,[cmdpal][AOT] make some built-in extensions able to be published with native AOT enabled,moooyo,2025-05-29T09:42:51Z,2025-06-03T06:24:14+00:00,8,116.69,True,142,275,13,1124,0,15,15,MERGED
+39801,Runner: Add log when error happen in setting startup ,vanzue,2025-05-29T08:49:22Z,2025-05-30T02:03:37+00:00,3,17.24,True,36,34,1,832,0,0,0,MERGED
+39800,[cmdpal] Re-enable Clipboard History extention,moooyo,2025-05-29T08:48:58Z,2025-06-05T07:23:17+00:00,6,166.57,True,112,22,4,861,5,7,12,MERGED
+39779,"Make ""Reload"" command case-insensitive in Command Palette",copilot-swe-agent,2025-05-28T10:59:48Z,2025-06-26T21:35:52+00:00,4,706.6,True,2,1,1,995,6,1,7,MERGED
+39778,[Localization] Add comments in Resources.resw,zw-MS-OpenSource,2025-05-28T10:04:33Z,2025-05-29T10:09:06+00:00,4,24.08,True,5,0,1,172,0,1,1,MERGED
+39777,UI Test Automation,urnotdfs,2025-05-28T08:18:57Z,2025-06-17T09:56:48+00:00,19,481.63,True,7973,644,81,557,4,13,17,MERGED
+39771,Fix spell error,urnotdfs,2025-05-28T06:29:41Z,2025-05-28T07:56:30+00:00,3,1.45,True,47,33,6,1067,3,2,5,MERGED
+39764,cmdpal README: minor typo,roycewilliams,2025-05-28T01:36:17Z,2025-05-28T20:13:05+00:00,1,18.61,True,1,1,1,179,3,0,3,MERGED
+39755,Fix pipeline errors in MouseUtils tests,yaqingmi,2025-05-27T10:34:00Z,2025-05-28T04:26:51+00:00,1,17.88,True,20,3,4,129,1,0,1,MERGED
+39748,[AOT][Cmdpal][Not for main] Wrap the COM pointer with a SafeHandle.,lei9444,2025-05-27T01:58:49Z,2025-05-27T03:31:15+00:00,1,1.54,True,177,149,12,706,3,1,4,MERGED
+39743,[CmdPal][Calc]Trim leading `=` to support pasting formulas,PesBandi,2025-05-26T19:36:20Z,2025-05-28T06:25:07+00:00,2,34.81,True,3,0,1,672,5,0,5,MERGED
+39740,Dev/zhaopengwang/UI test automation fancyzone,wang563681252,2025-05-26T13:48:47Z,2025-05-28T05:27:41+00:00,2,39.65,True,112,67,5,28,8,2,10,MERGED
+39732,[CmdPal][AOT] Make fileSearch ext become AOT compatible,moooyo,2025-05-26T11:15:15Z,2025-06-04T09:15:56+00:00,17,214.01,True,610,920,33,853,3,9,12,MERGED
+39726,Add missing codec detection and warning message in video preview,lei9444,2025-05-26T07:58:26Z,2025-06-06T06:08:04+00:00,4,262.16,True,89,0,5,1566,5,1,6,MERGED
+39722,[UITestAutomation FancyZones] Add Environment Cleanup to FancyZones UI Tests,chenmy77,2025-05-26T03:33:54Z,2025-05-26T05:58:42+00:00,1,2.41,True,41,36,3,823,1,0,1,MERGED
+39708,[CmdPal] Fix and localize alias settings,davidegiacometti,2025-05-24T18:48:15Z,2025-06-13T17:58:34+00:00,2,479.17,True,13,5,3,788,2,1,3,MERGED
+39682,Enhanced protection against DLL-hijacking,Einstein2150,2025-05-23T08:43:24Z,2025-05-30T03:43:31+00:00,1,163.0,False,10,6,1,1237,3,0,3,CLOSED
+39679,[cmdpal] Fix calculator error when pressing Space,moooyo,2025-05-23T07:02:21Z,2025-05-26T03:37:38+00:00,1,68.59,True,18,1,4,798,0,0,0,MERGED
+39678,[AOT][CmdPal] Enable NativeAOT Compatibility for CmdPal Apps Extension,lei9444,2025-05-23T03:34:06Z,2025-06-04T11:30:11+00:00,21,295.93,True,470,693,26,472,2,20,22,MERGED
+39677,[Workspaces] Change workspaces icon store position,vanzue,2025-05-23T02:20:47Z,2025-06-06T05:46:47+00:00,6,339.43,True,18,16,1,933,3,6,9,MERGED
+39656,Fix UITest pipeline errors for MouseUitls module,yaqingmi,2025-05-22T10:30:38Z,2025-05-23T08:51:25+00:00,2,22.35,True,65,11,4,77,2,1,3,MERGED
+39653,[PowerRename] Add ModificationTime and AccessTime support when renaming with $YY-$MM-$DD patterns,moooyo,2025-05-22T06:21:19Z,2025-05-30T05:07:20+00:00,9,190.77,True,117,9,7,912,0,4,4,MERGED
+39652,Log: Clear mwb module interface old version log and clear dotnet old version log,vanzue,2025-05-22T04:29:57Z,2025-05-28T10:53:36+00:00,7,150.39,True,61,9,2,1041,0,5,5,MERGED
+39645,CmdPal: Styling critical context items using the SystemFillColorCriticalBrush,michaeljolley,2025-05-21T22:07:48Z,2025-05-28T19:35:26+00:00,5,165.46,True,91,6,6,70,1,4,5,MERGED
+39627,Dev/zhaopengwang/UI test automation fancyzone,wang563681252,2025-05-21T03:32:35Z,2025-05-21T07:21:43+00:00,1,3.82,False,1009,753,30,81,0,7,7,CLOSED
+39606,Update MouseUtils UI test doc,yaqingmi,2025-05-20T09:12:16Z,2025-05-21T07:18:29+00:00,2,22.1,True,122,85,5,736,1,6,7,MERGED
+39605,[DO NOT MERGE][AOT] cmdpal AOT version with partial built-in extensions,moooyo,2025-05-20T08:35:49Z,2025-06-05T07:10:56+00:00,2,382.59,False,1306,2583,79,1624,0,17,17,CLOSED
+39604,cziplib: Update to 0.3.3,Chubercik,2025-05-20T07:46:56Z,2025-06-12T10:38:05+00:00,2,554.85,True,17,22,2,92,8,0,8,MERGED
+39603,Update documentation,skanda890,2025-05-20T07:35:16Z,2025-06-10T19:17:38+00:00,4,515.71,True,23,23,6,2020,3,4,7,MERGED
+39597,Update README with 0.91.1,TheBestWebsite,2025-05-20T03:17:32Z,2025-05-20T23:49:07+00:00,2,20.53,True,8,8,1,819,4,0,4,MERGED
+39595,MWB: Fix firewall rule to allow remote connections from IPs outside the local subnet,vanzue,2025-05-20T02:37:09Z,2025-05-21T05:10:03+00:00,3,26.55,True,1,1,1,1441,1,0,1,MERGED
+39592,Update to WinAppSDK 1.7.2,yeelam-gordon,2025-05-20T01:24:55Z,2025-05-23T03:19:25+00:00,4,73.91,True,28,29,14,140,2,2,4,MERGED
+39589,[CmdPal] Close Gracefully,davidegiacometti,2025-05-19T20:21:35Z,2025-06-13T17:57:40+00:00,3,597.6,True,7,4,2,1145,3,0,3,MERGED
+39572,Bump check-spelling/check-spelling from 0.0.24 to 0.0.25,dependabot,2025-05-19T08:04:41Z,2025-06-10T05:10:57+00:00,1,525.1,True,4,4,1,4393,3,0,3,MERGED
+39563,"Revert ""[PowerAccent] Cancel previous ShowToolbar task if a new one is triggered""",haoliuu,2025-05-19T03:28:12Z,2025-05-19T05:00:40+00:00,2,1.54,True,25,53,4,760,0,1,1,MERGED
+39561,Yaqingmi/dev/UI automation2,yaqingmi,2025-05-19T02:27:50Z,2025-05-20T02:34:21+00:00,4,24.11,True,725,61,8,751,3,6,9,MERGED
+39525,CmdPal: Improving order of results from settings search,michaeljolley,2025-05-16T22:23:11Z,2025-06-06T17:47:55+00:00,1,499.41,True,38,14,1,357,0,0,0,MERGED
+39524,CmdPal: Apply the LLKH to all command hotkeys,zadjii-msft,2025-05-16T21:45:55Z,2025-06-08T17:06:34+00:00,1,547.34,True,19,10,1,81,5,0,5,MERGED
+39521,CmdPal: Display correct context items for run fallback,michaeljolley,2025-05-16T19:37:07Z,2025-06-05T13:52:25+00:00,5,474.25,True,6,0,1,112,2,2,4,MERGED
+39494,Fix Cmdpal launch without admin mode - both runner and setting.,yeelam-gordon,2025-05-16T09:32:29Z,2025-05-16T11:11:57+00:00,5,1.66,True,13,10,2,260,0,2,2,MERGED
+39492,MWB: Firewall for subnet only should be configured according to setting value,vanzue,2025-05-16T08:36:07Z,2025-05-20T02:27:57+00:00,3,89.86,False,0,0,0,839,5,5,10,CLOSED
+39473,[Quick Accent] Add Maltese language,rovercoder,2025-05-15T20:08:06Z,2025-08-22T01:31:42+00:00,4,2357.39,True,26,0,4,506,11,0,11,MERGED
+39469,build: strong name sign the Extension Toolkit,DHowett,2025-05-15T18:15:23Z,2025-05-15T21:47:03+00:00,1,3.53,True,70,6,8,720,1,0,1,MERGED
+39463,CmdPal: Don't trim the template proj in debug builds,zadjii-msft,2025-05-15T15:24:50Z,2025-06-06T02:50:51+00:00,2,515.43,True,24,2,2,36,6,1,7,MERGED
+39462,CmdPal: fix duplicated aliases in settings file,zadjii-msft,2025-05-15T15:24:04Z,2025-05-16T14:30:47+00:00,2,23.11,False,0,10,1,78,0,1,1,CLOSED
+39461,"Standardise name + syntax of color formats, alphabetise",dcog989,2025-05-15T14:53:22Z,2025-06-05T15:31:15+00:00,6,504.63,False,13,12,2,517,9,1,10,CLOSED
+39448,Fix RunAsAdmin For CmdPal when PowerToys is running as Admin,yeelam-gordon,2025-05-15T10:09:02Z,2025-05-15T21:47:40+00:00,2,11.64,True,2,2,1,427,3,0,3,MERGED
+39440,Fix pipeline error and refine framework code,wang563681252,2025-05-15T07:05:32Z,2025-05-15T09:42:48+00:00,2,2.62,True,939,746,28,144,1,6,7,MERGED
+39433,workspaces: shell:appsfolder launch does not support the command line,vanzue,2025-05-15T02:54:25Z,2025-05-19T01:12:23+00:00,3,94.3,True,4,4,1,1294,4,1,5,MERGED
+39422,build: stage the command palette as a separate artifact,DHowett,2025-05-14T15:46:17Z,2025-05-14T19:16:35+00:00,2,3.5,True,12,6,1,396,0,1,1,MERGED
+39415,CmdPal: fix a perf regression loading pages,zadjii-msft,2025-05-14T11:52:02Z,2025-05-16T15:47:44+00:00,1,51.93,True,9,12,2,459,0,1,1,MERGED
+39414,CmdPal: Auto-focus first content,zadjii-msft,2025-05-14T11:11:49Z,2025-06-09T00:29:25+00:00,4,613.29,True,60,0,3,210,6,1,7,MERGED
+39404,[Deps] Update .NET packages from 9.0.4 to 9.0.5,snickler,2025-05-13T21:55:15Z,2025-05-13T23:59:01+00:00,1,2.06,True,43,43,3,902,0,0,0,MERGED
+39401,Validate names for invalid for C# namespaces in cmdpal,crutkas,2025-05-13T15:40:14Z,2025-05-14T20:21:42+00:00,1,28.69,True,3,3,3,1572,0,0,0,MERGED
+39398,[Fuzz] Add DLL Reference in OneFuzzConfig.json to Fix Hosts Fuzz Bug,chenmy77,2025-05-13T11:23:29Z,2025-05-14T01:30:44+00:00,2,14.12,True,6,5,2,948,1,1,2,MERGED
+39393,[Fuzzing test] Use valid areaPath in OneFuzz configuration,lei9444,2025-05-13T05:13:16Z,2025-05-13T06:39:16+00:00,2,1.43,True,8,8,4,142,0,0,0,MERGED
+39391,Update Areapath in tsa.json to align latest one,yeelam-gordon,2025-05-13T01:22:38Z,2025-05-13T02:45:50+00:00,3,1.39,True,3,1,2,93,1,2,3,MERGED
+39388,Bump our telemetry package version,zadjii-msft,2025-05-12T20:56:21Z,2025-05-13T17:24:26+00:00,2,20.47,True,18,5,5,487,2,1,3,MERGED
+39382,Move to TouchdownBuild task v5,DHowett,2025-05-12T16:59:19Z,2025-05-14T19:17:52+00:00,1,50.31,True,2,2,2,17,0,0,0,MERGED
+39381,PowerToys.MonacoPreviewHandler crashes when rendering UTF-8 BOM,crutkas,2025-05-12T16:11:42Z,2025-06-10T14:13:25+00:00,5,694.03,True,1,1,1,708,4,2,6,MERGED
+39377,Refine the CmdPal launch and activation logic when opening a new app instance,lei9444,2025-05-12T14:25:13Z,2025-08-20T08:48:19+00:00,1,2394.39,False,19,12,1,1293,1,1,2,CLOSED
+39368,[Fuzzing test] Use valid areaPath in OneFuzz configuration,lei9444,2025-05-12T07:31:50Z,2025-05-12T09:18:49+00:00,2,1.78,True,7,7,3,322,0,0,0,MERGED
+39356,Fix fancyzone editor dpi awareness,HO-COOH,2025-05-11T16:33:25Z,2025-06-13T01:58:59+00:00,3,777.43,True,2,2,2,296,9,0,9,MERGED
+39334,Use Microsoft.Windows.Settings module for enabling developer mode,mdanish-kh,2025-05-09T21:17:07Z,2025-06-07T03:58:11+00:00,1,678.68,True,6,6,3,917,3,0,3,MERGED
+39329,[cmdpal] Add some logs for WinGet extension,moooyo,2025-05-09T09:58:48Z,2025-05-13T05:46:37+00:00,7,91.8,True,33,4,2,726,0,4,4,MERGED
+39326,Add log for cmd pal ext to trace exceptions,vanzue,2025-05-09T07:32:08Z,2025-05-12T12:38:55+00:00,18,77.11,True,158,49,38,706,2,20,22,MERGED
+39324,"[cmdpal] Fix winget cannot install after clicking ""install"" button issue",moooyo,2025-05-09T03:49:15Z,2025-05-09T05:32:15+00:00,2,1.72,True,1,1,1,734,1,0,1,MERGED
+39323,"[cmdpal] Disable ""ignore shortcut when full screen"" by default",moooyo,2025-05-09T02:32:38Z,2025-05-09T04:24:53+00:00,2,1.87,True,1,1,1,735,0,0,0,MERGED
+39322,"Fix settings crash issue when clicking ""Open Cmdpal settings...""",shuaiyuanxx,2025-05-09T00:38:36Z,2025-05-09T02:06:19+00:00,3,1.46,True,6,3,1,708,0,1,1,MERGED
+39320,cmdpal: use the unified Windows Terminal Versioning scheme,DHowett,2025-05-09T00:12:03Z,2025-05-14T19:15:20+00:00,5,139.05,True,111,278,28,1277,8,18,26,MERGED
+39318,Remove new label from command palette,cinnamon-msft,2025-05-08T19:03:09Z,2025-05-08T23:49:37+00:00,2,4.77,True,1,9,2,781,1,0,1,MERGED
+39304,"[peek, explorer] Update QOI reader for 3-channel images",mbartlett21,2025-05-08T08:53:41Z,2025-05-30T10:32:40+00:00,3,529.65,True,11,0,1,867,3,1,4,MERGED
+39292,Bump toolkit version to 0.2.0 in template,zadjii-msft,2025-05-07T18:15:54Z,2025-05-07T21:52:26+00:00,1,3.61,True,1,1,2,240,0,0,0,MERGED
+39291,"Change PowerRename accelerator key from ""W"" to ""E""",aaron-ni,2025-05-07T16:37:30Z,2025-08-22T05:02:01+00:00,8,2556.41,True,2,2,1,540,14,3,17,MERGED
+39269,"CmdPal: URI activate, rather than using shell:AppsFolder",zadjii-msft,2025-05-06T15:56:51Z,2025-05-07T03:30:48+00:00,3,11.57,True,108,33,9,778,2,2,4,MERGED
+39266,0.91 changelog,yaqingmi,2025-05-06T14:34:01Z,2025-05-14T22:55:19+00:00,18,200.35,True,132,60,1,81,5,6,11,MERGED
+39265,cmdpal: A sample for tracking load/unload for pages,zadjii-msft,2025-05-06T13:59:10Z,2025-07-10T02:05:20+00:00,3,1548.1,True,87,0,2,629,1,5,6,MERGED
+39264,[cmdpal] protect cmdpal from crash if adaptive card fails,vanzue,2025-05-06T13:13:02Z,2025-05-06T22:07:32+00:00,1,8.91,True,52,27,1,806,0,0,0,MERGED
+39263,CmdPal: Actually observe Details,zadjii-msft,2025-05-06T11:16:01Z,2025-05-07T09:47:57+00:00,7,22.53,True,44,0,1,556,2,3,5,MERGED
+39262,[CmdPal] Open CmdPal settings from PT settings,niels9001,2025-05-06T09:45:24Z,2025-05-07T08:34:03+00:00,6,22.81,True,45,3,4,0,2,8,10,MERGED
+39258,"Add 'Restart Windows Explorer' command, implemented using Restart Manager",jiripolasek,2025-05-06T02:29:18Z,2025-06-16T09:21:21+00:00,4,990.87,True,58,0,5,1282,25,5,30,MERGED
+39246,Add shproj and projitems extensions to monaco_languages.json,rezanid,2025-05-05T08:24:39Z,2025-08-22T05:02:26+00:00,6,2612.63,True,2,2,2,1134,6,2,8,MERGED
+39220,[CmdPal] Prevent maximizing,davidegiacometti,2025-05-03T11:33:30Z,2025-05-04T11:04:29+00:00,1,23.52,True,6,6,2,835,0,0,0,MERGED
+39209,cmdpal: fix a leak in the extension template,zadjii-msft,2025-05-02T21:28:21Z,2025-05-04T11:04:09+00:00,3,37.6,True,5,2,2,286,1,1,2,MERGED
+39208,cmdpal: unset the command if we don't find a command,zadjii-msft,2025-05-02T20:37:04Z,2025-05-04T11:03:01+00:00,1,38.43,True,23,9,6,192,0,0,0,MERGED
+39206,Dismiss the details pane when the list gets emptied,zadjii-msft,2025-05-02T18:56:48Z,2025-05-04T11:02:39+00:00,1,40.1,True,35,11,3,283,4,0,4,MERGED
+39203,CmdPal: Start extensions in parallel,zadjii-msft,2025-05-02T15:36:22Z,2025-05-03T00:43:32+00:00,1,9.12,True,81,43,1,516,1,0,1,MERGED
+39173,Fix for missing CmdPal extensions docs,niels9001,2025-04-30T14:40:46Z,2025-05-01T18:33:02+00:00,1,27.87,True,1,1,1,0,1,0,1,MERGED
+39170,CmdPal: Cloak the window instead of hiding it,zadjii-msft,2025-04-30T11:29:30Z,2025-05-05T18:34:20+00:00,5,127.08,True,59,21,2,128,0,3,3,MERGED
+39163,[cmdpal][AOT] clean up some AOT related issue,moooyo,2025-04-30T08:58:31Z,2025-04-30T14:53:06+00:00,2,5.91,True,6,6,6,785,2,0,2,MERGED
+39155,[CmdPal] Add system tray menu,davidegiacometti,2025-04-29T19:52:06Z,2025-06-05T20:29:18+00:00,3,888.62,True,231,116,6,1035,5,2,7,MERGED
+39144,[Tool] Delete export pfx function to remove use of hard coded password,vanzue,2025-04-29T05:40:47Z,2025-04-29T10:31:21+00:00,1,4.84,True,1,5,1,783,2,0,2,MERGED
+39143,[Workspaces UI Test] Add first UI automation for workspaces editor,vanzue,2025-04-29T04:35:03Z,2025-04-29T06:23:51+00:00,2,1.81,True,66,0,4,773,3,0,3,MERGED
+39135,Dev/zhaopengwang/UI test automation fancyzone,wang563681252,2025-04-28T21:13:55Z,2025-04-29T07:25:39+00:00,7,10.2,True,861,27,22,178,2,5,7,MERGED
+39111,[UITestAutomation > Fancyzones] Add UI tests on Dragging window settings ,chenmy77,2025-04-27T08:33:12Z,2025-05-23T05:07:42+00:00,20,620.58,True,1063,118,10,2289,50,42,92,MERGED
+39110,[cmdpal][aot] Remove some unused file in CmdPal.Common and mark it as AOT compatible. ,moooyo,2025-04-27T07:47:03Z,2025-04-27T09:18:01+00:00,4,1.52,True,4,362,14,375,0,2,2,MERGED
+39093,Wait to update SearchText until we've actually updated SearchText,zadjii-msft,2025-04-25T19:30:30Z,2025-04-27T20:29:15+00:00,1,48.98,True,14,1,1,377,2,0,2,MERGED
+39081,"[Keyboard Manager] New Keyboard Manager - Keys Remapping Window, Keyboard Hook and Input Validator",haoliuu,2025-04-25T07:09:09Z,2025-04-29T09:01:31+00:00,1,97.87,True,897,26,14,1863,0,0,0,MERGED
+39080,[cmdpal] [AOT] make Clipboard/System/WebSearch/WindowsSettings ext become AOT compatible.,moooyo,2025-04-25T06:56:20Z,2025-04-25T08:22:50+00:00,1,1.44,True,64,18,11,1612,0,0,0,MERGED
+39079,Update the ADO path for tsa.json,yeelam-gordon,2025-04-25T06:14:53Z,2025-04-27T00:59:44+00:00,1,42.75,True,1,1,1,93,2,0,2,MERGED
+39061,[cmdpal] Ref to AotCompatibility in some cmdpal project.,moooyo,2025-04-24T06:33:24Z,2025-04-24T08:07:11+00:00,2,1.56,True,13,1,7,1552,0,0,0,MERGED
+39059,[cmdpal] Support invoke command in Bookmarks extension,moooyo,2025-04-24T04:11:58Z,2025-07-15T03:36:10+00:00,24,1967.4,False,437,197,17,978,21,36,57,CLOSED
+39057,upgrade the boost dependencies for Fuzzing Project,lei9444,2025-04-24T02:05:27Z,2025-04-24T04:00:04+00:00,4,1.91,True,4,4,1,122,0,0,0,MERGED
+39052,[Settings] Fix null CmdPal HotKey crash,davidegiacometti,2025-04-23T19:06:03Z,2025-04-24T10:18:38+00:00,1,15.21,True,2,8,1,1036,0,0,0,MERGED
+39051,Start progress on AoT.,crutkas,2025-04-23T16:44:45Z,2025-04-27T05:44:47+00:00,4,85.0,True,146,77,17,910,5,1,6,MERGED
+39039,[CmdPal] Launch cmd pal with retry,vanzue,2025-04-23T06:30:15Z,2025-04-27T05:47:56+00:00,14,95.29,True,93,34,2,4002,0,5,5,MERGED
+39025,[ColorPicker]Add option to choose what clicking individual mouse buttons does,PesBandi,2025-04-22T09:44:33Z,2025-06-13T10:01:40+00:00,2,1248.29,True,289,64,17,1368,10,1,11,MERGED
+39018,Pre-creation of generated folder for any csproj,yeelam-gordon,2025-04-22T00:44:16Z,2025-04-23T23:09:51+00:00,2,46.43,True,18,5,3,485,2,0,2,MERGED
+39017,[Tool] Script to build an installer locally,vanzue,2025-04-22T00:16:32Z,2025-04-25T01:57:42+00:00,7,73.69,True,411,10,9,794,5,9,14,MERGED
+39016,Update to WinAppSDK 1.7 latest version,yeelam-gordon,2025-04-22T00:01:47Z,2025-04-24T01:25:47+00:00,5,49.4,True,73,34,13,195,5,1,6,MERGED
+39015,release: don't publish private symbols for 100 years,DHowett,2025-04-21T23:38:50Z,2025-04-22T04:16:43+00:00,2,4.63,True,2,0,1,91,1,0,1,MERGED
+39014,Fix build break because of miss Signing for new files,yeelam-gordon,2025-04-21T23:38:02Z,2025-04-22T01:18:56+00:00,1,1.68,True,3,0,1,231,0,0,0,MERGED
+39011,[CmdPal] Hide commands that shouldn't be visible,davidegiacometti,2025-04-21T20:02:50Z,2025-04-23T09:30:36+00:00,1,37.46,True,1,1,1,996,3,0,3,MERGED
+38999,[UITestAutomation > UITests-Fancyzones] Add UI tests on Switch between windows in the current zone,chenmy77,2025-04-21T11:39:01Z,2025-04-22T09:08:55+00:00,7,21.5,True,434,1,8,1819,5,14,19,MERGED
+38998,Fully initialize context menus when they change,zadjii-msft,2025-04-21T11:25:10Z,2025-04-23T15:54:02+00:00,3,52.48,True,10,2,3,293,0,1,1,MERGED
+38992,hybrid crt project,vanzue,2025-04-21T02:19:39Z,2025-04-21T09:40:24+00:00,1,7.35,False,21325,45,8,706,1,4,5,CLOSED
+38988,[CmdPal] Fixed #38961,jironemo,2025-04-20T09:10:59Z,2025-04-21T07:35:47+00:00,1,22.41,True,2,2,1,389,7,0,7,MERGED
+38974,[CmdPal] Better support for long labels in empty content and commandbar,niels9001,2025-04-19T11:53:04Z,2025-04-23T11:40:33+00:00,2,95.79,True,12,5,2,30,0,0,0,MERGED
+38972,[CmdPal] Tweaks to the detailspane UX,niels9001,2025-04-19T11:37:03Z,2025-04-23T11:35:19+00:00,1,95.97,True,5,4,1,54,0,0,0,MERGED
+38952,[CmdPalette > Time and Date] Custom formats (Port #37743) and other plugin improvements - 2,htcfreek,2025-04-18T13:56:03Z,2025-04-21T05:47:45+00:00,6,63.86,True,673,53,10,1752,3,1,4,MERGED
+38923,"[cmdpal] Add setting ""ignore hotkey when full screen"" ",moooyo,2025-04-17T08:33:02Z,2025-04-23T03:40:20+00:00,5,139.12,True,87,0,7,1339,0,1,1,MERGED
+38922,[Fuzzing] Add PowerRename Fuzzing and C++ Project Setup Guidance,lei9444,2025-04-17T07:35:24Z,2025-04-23T09:05:29+00:00,8,145.5,True,370,0,7,1456,5,15,20,MERGED
+38921,"[UITestAutomation > KeyBoardHelper] Add PressKey, ReleaseKey, and KeyDownAndDrag combinationschen/UI automationtools",chenmy77,2025-04-17T06:58:03Z,2025-04-17T08:27:03+00:00,3,1.48,True,108,1,4,1052,5,2,7,MERGED
+38918,[CmdPal] Added fallback for time and date,shuaiyuanxx,2025-04-17T03:21:28Z,2025-04-24T06:58:01+00:00,7,171.61,True,172,81,7,1343,4,6,10,MERGED
+38891,UI Test Automation for FindMyMouse Enable/Disable and MouseHighlighter Enable/Disable ,yaqingmi,2025-04-16T06:32:04Z,2025-04-21T07:20:57+00:00,21,120.81,True,2047,30,22,706,9,52,61,MERGED
+38883,Powertoys for Linear plugin added,vednig,2025-04-15T20:38:52Z,2025-04-16T22:26:37+00:00,3,25.8,True,2,0,2,756,6,0,6,MERGED
+38865,[cmdpal] Add fallback item for system command.,moooyo,2025-04-15T08:32:50Z,2025-04-21T06:07:43+00:00,2,141.58,True,88,53,7,1429,9,1,10,MERGED
+38864,"[cmdpal] Fix empty file name issue when create new ext in ""Create New Extension"" command.",moooyo,2025-04-15T08:15:37Z,2025-04-16T02:17:43+00:00,1,18.04,True,22,15,1,929,2,0,2,MERGED
+38852,Rename the `[Ee]xts` dir to `ext`,zadjii-msft,2025-04-14T19:48:28Z,2025-04-15T11:07:22+00:00,1,15.31,True,35,35,379,419,1,0,1,MERGED
+38851,Update the settings form when ext settings are saved,zadjii-msft,2025-04-14T19:48:01Z,2025-04-16T19:50:56+00:00,1,48.05,True,12,2,3,633,0,0,0,MERGED
+38850,Don't auto-hide when an MSAL dialog is opened on us,zadjii-msft,2025-04-14T19:04:00Z,2025-04-16T19:47:33+00:00,3,48.73,True,16,14,3,509,3,1,4,MERGED
+38844,Lazy-fetch the settings for extensions,zadjii-msft,2025-04-14T16:07:58Z,2025-05-06T09:58:44+00:00,12,521.85,True,144,25,5,660,0,7,7,MERGED
+38842,Immediately select search text on opening page,zadjii-msft,2025-04-14T13:29:24Z,2025-04-16T19:47:55+00:00,1,54.31,True,42,26,3,149,0,0,0,MERGED
+38840,[CmdPal] A11y improvements,niels9001,2025-04-14T10:22:51Z,2025-04-17T13:51:40+00:00,2,75.48,True,69,72,5,234,0,0,0,MERGED
+38831,Refactoring view model classes out of service locator anti-pattern,guimafelipe,2025-04-14T04:06:27Z,2025-04-25T18:25:54+00:00,1,278.32,False,99,39,5,706,2,1,3,CLOSED
+38820,[notifications] Edit warning show check on elevation notification,DVDAndroid,2025-04-13T17:43:10Z,2025-04-24T11:33:20+00:00,1,257.84,False,5,1,1,1243,5,0,5,CLOSED
+38784,upgrading to adjust fix vulnerability,crutkas,2025-04-11T22:10:05Z,2025-04-14T17:01:54+00:00,1,66.86,True,29,1,9,52,1,0,1,MERGED
+38782,Upgrading Boost dependencies,crutkas,2025-04-11T20:08:52Z,2025-04-15T18:57:58+00:00,2,94.82,True,30,30,10,22,1,0,1,MERGED
+38779,Upgrading some of the Testing framework items,crutkas,2025-04-11T19:27:13Z,2025-04-14T17:01:37+00:00,1,69.57,True,14,12,4,89,2,0,2,MERGED
+38776,"Add support for filterable, nested context menus",zadjii-msft,2025-04-11T17:46:55Z,2025-04-24T18:32:07+00:00,3,312.75,True,608,171,15,326,7,1,8,MERGED
+38760,[PowerToysRun][Docs] Add Weather and Pomodoro to Third-Party plugins,ruslanlap,2025-04-11T10:18:29Z,2025-04-14T17:02:30+00:00,3,78.73,True,3,0,2,743,15,1,16,MERGED
+38746,upgrading toolkit + suppressing warnings,crutkas,2025-04-11T04:59:31Z,2025-04-15T18:58:33+00:00,5,109.98,True,26,18,3,135,2,4,6,MERGED
+38744,Add Zhiwei as part of PowerToys!,yeelam-gordon,2025-04-11T03:15:55Z,2025-04-11T04:58:10+00:00,4,1.7,True,2,0,2,60,1,2,3,MERGED
+38725,[cmdpal] Run cmdpalette from runner locally,vanzue,2025-04-10T14:48:59Z,2025-04-17T03:53:22+00:00,6,157.07,True,189,3,4,676,4,7,11,MERGED
+38723,[PowerRename] Add 12-hour time format patterns with AM/PM support (#30703),bitmap4,2025-04-10T14:01:02Z,2025-04-16T02:15:04+00:00,2,132.23,True,152,7,5,1620,7,1,8,MERGED
+38714,[cmdpal] fix a broken link in README.md,RokyZevon,2025-04-10T09:20:21Z,2025-04-10T14:00:33+00:00,1,4.67,True,1,1,1,729,2,0,2,MERGED
+38701,Remove the setting - always do both checks,zadjii-msft,2025-04-09T18:16:14Z,2025-04-10T02:33:50+00:00,2,8.29,True,45,138,6,98,0,1,1,MERGED
+38685,[cmdpal] Add Open URL fallback command for WebSearch ext,moooyo,2025-04-09T08:55:36Z,2025-04-10T15:34:53+00:00,5,30.65,True,152,1,5,807,7,6,13,MERGED
+38676,[Deps] Update .NET packages from 9.0.3 to 9.0.4,snickler,2025-04-08T21:04:15Z,2025-04-09T04:36:14+00:00,2,7.53,True,42,42,2,806,0,0,0,MERGED
+38672,[CmdPal] Tray icon settings,davidegiacometti,2025-04-08T18:35:25Z,2025-04-10T21:44:55+00:00,10,51.16,True,59,33,5,882,4,3,7,MERGED
+38667,Adds BgcodeThumbnailProvider and BgcodePreviewHandler,pedrolamas,2025-04-08T15:15:01Z,2025-07-10T09:20:31+00:00,16,2226.09,True,3440,10,86,1092,22,16,38,MERGED
+38663,[PowerToysRun][Docs] Add QuickNotes to Third-Party plugins,ruslanlap,2025-04-08T13:19:08Z,2025-04-11T18:45:26+00:00,4,77.44,True,5,45,3,1457,7,1,8,MERGED
+38652,[Keyboard Manager] Functional Improvements on new KBM UX,haoliuu,2025-04-08T05:41:19Z,2025-04-09T02:30:25+00:00,1,20.82,True,404,214,17,1230,0,0,0,MERGED
+38649,Fixing settings for mouse pointer for pt run and cmdpal,crutkas,2025-04-08T00:41:34Z,2025-04-08T11:21:04+00:00,2,10.66,True,2,2,2,923,0,0,0,MERGED
+38647,Adding in Hawker for CmdPal to Readme,crutkas,2025-04-07T23:09:52Z,2025-04-08T01:02:30+00:00,1,1.88,True,2,2,1,19,0,0,0,MERGED
+38644,Add Pomodoro plugin to thirdPartyRunPlugins.md,ruslanlap,2025-04-07T20:56:59Z,2025-04-08T13:02:44+00:00,1,16.1,False,8,43,2,775,7,0,7,CLOSED
+38637,[CmdPal] MinWidth/Height and DPI-aware launch dimensions,niels9001,2025-04-07T13:01:34Z,2025-05-05T16:44:28+00:00,10,675.72,True,33,33,7,310,15,3,18,MERGED
+38629,[cmdpal] Port v1 calculator extension,moooyo,2025-04-07T09:59:30Z,2025-04-17T06:59:10+00:00,23,236.99,True,1565,154,19,1069,27,15,42,MERGED
+38626,Bump actions/setup-dotnet from 3 to 4,dependabot,2025-04-07T09:23:15Z,2025-04-09T11:16:32+00:00,1,49.89,True,1,1,1,5081,3,0,3,MERGED
+38606,[AlwaysOnTop]Display slider values in 'AlwaysOnTop' settings,vamsiikrishnaak,2025-04-06T06:28:29Z,2025-09-05T11:24:35+00:00,4,3652.93,False,0,0,0,816,4,5,9,CLOSED
+38605,doc/devdocs/UITests.md: add missing period [skip ci],DanielEScherzer,2025-04-06T03:50:02Z,2025-04-08T07:29:18+00:00,2,51.65,True,1,1,1,763,2,0,2,MERGED
+38599,Adding Pedro for his hard 3D file work,crutkas,2025-04-05T20:08:11Z,2025-04-07T19:42:38+00:00,1,47.57,True,3,0,1,70,0,0,0,MERGED
+38573,Add the list item requested shortcuts back,zadjii-msft,2025-04-04T13:34:49Z,2025-04-17T11:13:11+00:00,7,309.64,True,257,23,14,274,6,23,29,MERGED
+38552, Apply security best practices for GitHub Actions / Dependency ,Nick2bad4u,2025-04-04T02:44:09Z,2025-04-15T08:33:05+00:00,6,269.82,True,30,4,2,1992,15,1,16,MERGED
+38539,Adds support for JUMBO thumbnails in the helper,zadjii-msft,2025-04-03T16:00:15Z,2025-04-16T17:04:46+00:00,5,313.08,True,130,49,6,465,3,9,12,MERGED
+38531,[CmdPal] [Install]do not install dependency if already satisfied.,vanzue,2025-04-03T13:31:48Z,2025-04-08T23:16:08+00:00,5,129.74,True,180,6,3,836,3,4,7,MERGED
+38504,Update version placeholder in bug_report.yml,cinnamon-msft,2025-04-02T23:25:12Z,2025-04-08T00:06:34+00:00,1,120.69,True,1,1,1,943,4,0,4,MERGED
+38500,"Ready for Review - [Mouse Without Borders] - refactoring ""Common"" classes (Part 5 of 7)",mikeclayton,2025-04-02T21:29:13Z,2025-09-24T06:55:58+00:00,8,4185.45,True,1591,1591,22,8589,12,4,16,MERGED
+38499,[CmdPal] Fix Up/Down keyboard navigation + continuous navigation,davidegiacometti,2025-04-02T20:32:14Z,2025-04-03T11:47:23+00:00,2,15.25,True,21,12,2,786,0,1,1,MERGED
+38493,Fix the WinGet missing / Admin crash,zadjii-msft,2025-04-02T17:56:13Z,2025-04-08T11:22:29+00:00,3,137.44,True,28,8,3,653,0,0,0,MERGED
+38491,[PowerToysRun] Add version info to plugin error messages,htcfreek,2025-04-02T16:35:24Z,2025-04-16T18:51:20+00:00,4,338.27,True,31,10,8,800,4,1,5,MERGED
+38476,[ImageResizer]Fix: Deleting an Image Resizer preset deletes the wrong preset,lei9444,2025-04-02T11:18:55Z,2025-04-23T01:35:40+00:00,17,494.28,True,74,7,5,2494,4,12,16,MERGED
+38457,[cmdpal][propose] Replace DataTable.compute with NCalc2,moooyo,2025-04-02T05:52:34Z,2025-04-02T08:01:05+00:00,1,2.14,False,10,2,3,905,5,3,8,CLOSED
+38455,[cmdpal] Support search any file in fallback command,moooyo,2025-04-02T05:45:56Z,2025-04-30T11:30:23+00:00,8,677.74,True,261,72,5,943,19,9,28,MERGED
+38422,WinGet installer fix,crutkas,2025-04-01T16:32:48Z,2025-04-01T23:21:15+00:00,1,6.81,True,2,2,1,160,1,0,1,MERGED
+38408,Add Weather plugin to thirdPartyRunPlugins.md,ruslanlap,2025-04-01T13:54:52Z,2025-04-08T13:06:19+00:00,1,167.19,False,7,45,2,667,3,0,3,CLOSED
+38388,[cmdpal] Don't copy searchText when create listPage vm,moooyo,2025-04-01T09:11:13Z,2025-04-09T06:30:48+00:00,2,189.33,False,2,2,1,861,4,0,4,CLOSED
+38380,[Workspaces]Fix for steam games capture&launch: capture and correctly launch steam games.,vanzue,2025-04-01T07:03:19Z,2025-04-23T07:39:54+00:00,11,528.61,True,294,5,13,1541,15,9,24,MERGED
+38366,Updating the community md for recent adjustments,crutkas,2025-04-01T02:40:27Z,2025-04-07T19:42:56+00:00,2,161.04,True,13,13,3,112,3,1,4,MERGED
+38361,Install .NET 9 for MSStore release,haoliuu,2025-03-31T23:47:24Z,2025-04-01T02:08:25+00:00,4,2.35,True,5,0,1,772,0,2,2,MERGED
+38259,[Settings]Fix blank icon in the taskbar,jaimecbernardo,2025-03-31T14:53:36Z,2025-04-03T00:59:46+00:00,2,58.1,True,18,7,2,629,0,2,2,MERGED
+38250,CmdPal: Add low-level keyboard hook for global hotkey,stefansjfw,2025-03-31T09:56:33Z,2025-04-16T10:36:02+00:00,5,384.66,True,669,33,19,290,10,1,11,MERGED
+38248,[Hosts] Adds no whitespace option(#36386),turkerayan,2025-03-31T08:36:32Z,2025-08-22T09:00:32+00:00,1,3456.4,False,82,9,8,708,4,0,4,CLOSED
+38212,[BugReport] Adding Bug Report Window,donlaci,2025-03-28T14:13:12Z,2025-04-15T05:32:03+00:00,3,423.31,False,526,35,14,2571,4,0,4,CLOSED
+38211,[CmdPal]  Fix first time dpi change toast error,vanzue,2025-03-28T08:31:00Z,2025-03-28T11:17:41+00:00,1,2.78,True,25,1,2,737,0,1,1,MERGED
+38198,Scale the toast window for DPI,zadjii-msft,2025-03-27T15:29:21Z,2025-04-03T11:44:10+00:00,1,164.25,True,27,1,2,142,3,0,3,MERGED
+38193,[cmdpal] Setting a new alias should remove the old one,stefansjfw,2025-03-27T08:55:51Z,2025-04-15T05:09:36+00:00,6,452.23,True,17,10,1,417,5,3,8,MERGED
+38186,[PowerRename] Use file modification date when renaming with `$YY-$MM-$DD` patterns,mwsundberg,2025-03-27T00:52:05Z,2025-05-30T11:08:28+00:00,1,1546.27,False,4,4,2,2040,9,0,9,CLOSED
+38175,cmdpal: Skip dependency installs for extensions,zadjii-msft,2025-03-26T16:12:21Z,2025-03-26T21:16:35+00:00,3,5.07,True,30,16,2,411,7,2,9,MERGED
+38174,CmdPal: Tidy up some winget experiences,zadjii-msft,2025-03-26T15:07:04Z,2025-04-23T11:45:34+00:00,5,668.64,True,76,18,6,465,6,3,9,MERGED
+38172,"CmdPal: Update the alias tags, before triggering the UI to change",zadjii-msft,2025-03-26T11:29:33Z,2025-03-26T21:18:18+00:00,1,9.81,True,1,2,1,132,4,0,4,MERGED
+38170,Add QuickNotes and Weather plugins to third-party plugins list,ruslanlap,2025-03-26T10:28:46Z,2025-04-08T13:05:45+00:00,1,314.62,False,7,45,2,901,6,0,6,CLOSED
+38168,[cmdpal] Remove some not working windows settings configuration.,moooyo,2025-03-26T08:47:26Z,2025-04-16T06:21:54+00:00,1,501.57,False,2,67,1,803,9,0,9,CLOSED
+38166,[cmdpal] Fix windows service extension crash issue,moooyo,2025-03-26T06:59:36Z,2025-03-26T11:34:59+00:00,7,4.59,True,28,5,2,780,1,7,8,MERGED
+38165,[Fuzz] Add Fuzz testing for FancyZones,chenmy77,2025-03-26T04:54:24Z,2025-05-28T06:56:38+00:00,5,1514.04,True,189,0,5,1555,2,1,3,MERGED
+38162,[CmdPal] Fix Layout cycle detected. Layout could not complete,davidegiacometti,2025-03-25T21:40:05Z,2025-03-26T10:11:44+00:00,7,12.53,True,8,10,1,1044,2,0,2,MERGED
+38159,Hide commands with whitespace only names better,zadjii-msft,2025-03-25T20:06:35Z,2025-03-26T11:36:33+00:00,6,15.5,True,37,12,1,285,1,5,6,MERGED
+38158,[CmdPal] Disabling RequestedShortcut in XAML,niels9001,2025-03-25T19:30:35Z,2025-03-26T07:21:56+00:00,2,11.86,True,2,2,1,0,2,0,2,MERGED
+38157,"Update Fallback commands async, once",zadjii-msft,2025-03-25T19:09:28Z,2025-03-26T11:36:37+00:00,2,16.45,True,58,29,2,1211,0,1,1,MERGED
+38156,Fixes a race in extension startup,zadjii-msft,2025-03-25T18:02:34Z,2025-03-26T11:35:41+00:00,3,17.55,True,3,1,1,350,2,0,2,MERGED
+38153,CmdPal: Fix opening SUI pages in other languages,zadjii-msft,2025-03-25T17:36:20Z,2025-03-26T07:23:59+00:00,2,13.79,True,2,6,1,162,2,0,2,MERGED
+38152,CmdPal: add appLicensing for offline install; disable startup,DHowett,2025-03-25T17:08:11Z,2025-03-26T11:35:53+00:00,2,18.46,True,3,2,2,161,8,0,8,MERGED
+38151,"[CmdPal] Registry: typing ""\"" causes the page to throw an exception",SeraphimaZykova,2025-03-25T16:50:45Z,2025-03-25T20:13:07+00:00,2,3.37,True,5,1,1,831,0,0,0,MERGED
+38150,[CmdPal] Windows Services restart kb shortcuts,stefansjfw,2025-03-25T16:46:53Z,2025-03-26T07:55:40+00:00,3,15.15,True,7,3,2,6,4,0,4,MERGED
+38149,[CmdPal]Fix resetting the hotkey in Settings,jaimecbernardo,2025-03-25T16:35:34Z,2025-03-25T18:58:46+00:00,2,2.39,True,9,3,2,469,1,0,1,MERGED
+38147,Fix Color Picker resource leak (#38122),dcog989,2025-03-25T15:33:56Z,2025-04-14T10:20:55+00:00,3,474.78,True,4,2,1,143,12,0,12,MERGED
+38146,[CmdPal]Fix Calc and Command extension fallback command icons,jaimecbernardo,2025-03-25T15:02:21Z,2025-03-26T07:21:29+00:00,3,16.32,True,3,2,2,881,4,0,4,MERGED
+38143,[CmdPalette > Time and Date] Custom formats (Port #37743) and other plugin improvements,htcfreek,2025-03-25T13:46:35Z,2025-04-18T13:57:07+00:00,8,576.18,False,673,53,10,1661,29,3,32,CLOSED
+38131,Search in settings,vanzue,2025-03-25T08:24:26Z,2025-08-08T02:42:14+00:00,8,3258.3,False,8555,638,87,778,14,26,40,CLOSED
+38120,[CmdPal] Minor tweaks to the General settingspage,niels9001,2025-03-24T16:33:01Z,2025-03-24T20:13:24+00:00,1,3.67,True,32,28,2,58,2,0,2,MERGED
+38103,"[CmdPal] Fixes for Exts: All Apps, System Commands, Time And Date",htcfreek,2025-03-23T14:14:46Z,2025-03-24T18:39:09+00:00,6,28.41,True,87,59,12,1312,22,1,23,MERGED
+38094,[CmdPal] Settings UI polishing,davidegiacometti,2025-03-22T13:52:54Z,2025-03-24T14:32:59+00:00,2,48.67,True,85,33,8,347,4,1,5,MERGED
+38091,Fixing command duplicates when loading commands from provider,guimafelipe,2025-03-22T07:13:13Z,2025-03-24T10:00:34+00:00,4,50.79,True,5,9,2,785,6,0,6,MERGED
+38090,Use Shmueli's COM server to fix ARM,zadjii-msft,2025-03-21T20:10:14Z,2025-03-24T10:43:47+00:00,7,62.56,True,20,10,7,505,2,6,8,MERGED
+38087,[cmdpal] UX tweaks,niels9001,2025-03-21T17:08:53Z,2025-03-24T10:13:19+00:00,2,65.07,True,82,30,5,254,5,0,5,MERGED
+38085,[CmdPal] Adding colored extension icons,niels9001,2025-03-21T16:24:26Z,2025-03-24T10:01:33+00:00,8,65.62,True,277,20,36,65,4,3,7,MERGED
+38079,[installer] Fix packages removal for per-user installer,stefansjfw,2025-03-21T10:44:23Z,2025-03-21T14:45:46+00:00,1,4.02,True,1,1,1,706,0,0,0,MERGED
+38078,[cmdpal] Fix some i18n issues for built-in extensions,moooyo,2025-03-21T08:47:29Z,2025-03-21T10:48:29+00:00,3,2.02,True,36,9,9,753,2,0,2,MERGED
+38077,"[cmdpal] Fix ""copy file path"" function in file search extension ",moooyo,2025-03-21T08:15:27Z,2025-03-21T10:35:00+00:00,2,2.33,True,1,5,1,800,0,0,0,MERGED
+38075,[cmdpal] Simplify time And Date extension code to make it easier to understand,moooyo,2025-03-21T07:44:22Z,2025-04-08T08:19:13+00:00,2,432.58,True,40,5,1,766,1,0,1,MERGED
+38074,[cmdpal] Fix winget extension crash issue,moooyo,2025-03-21T07:39:38Z,2025-03-21T15:37:17+00:00,2,7.96,True,10,7,1,160,0,0,0,MERGED
+38072,0.90 changelog,haoliuu,2025-03-21T05:27:52Z,2025-03-31T23:09:27+00:00,21,257.69,True,69,75,2,81,0,13,13,MERGED
+38070,[Installer]Properly update CmdPal on upgrade,jaimecbernardo,2025-03-20T22:51:37Z,2025-03-21T10:39:28+00:00,10,11.8,True,48,1,3,920,0,3,3,MERGED
+38069,[CmdPal] Single settings window,davidegiacometti,2025-03-20T22:06:09Z,2025-03-21T19:58:49+00:00,1,21.88,True,26,2,4,832,2,0,2,MERGED
+38068,Pass FG rights to extensions when we access them,zadjii-msft,2025-03-20T21:30:22Z,2025-03-24T11:29:40+00:00,2,85.99,True,45,5,2,118,5,0,5,MERGED
+38067,[OOBE]Show actual CmdPal hotkey,jaimecbernardo,2025-03-20T17:30:08Z,2025-03-20T20:37:33+00:00,2,3.12,True,4,2,3,203,0,0,0,MERGED
+38064,[GPO]Fix missing resource string for NewPlus in 0.90,jaimecbernardo,2025-03-20T15:26:43Z,2025-03-20T17:00:01+00:00,1,1.55,True,3,2,2,442,0,0,0,MERGED
+38060,[settings] Show uneditable shortcut in CmdPal page ,stefansjfw,2025-03-20T13:08:50Z,2025-03-20T15:20:20+00:00,2,2.19,True,149,3,7,17,2,3,5,MERGED
+38058,"Revert ""Svg thumbnail failed rendering (#32936)"" as it caused a regression",lei9444,2025-03-20T11:50:20Z,2025-03-20T17:50:20+00:00,1,6.0,True,65,123,1,736,0,0,0,MERGED
+38055,CmdPal: Disable registry virtualization,zadjii-msft,2025-03-20T10:32:28Z,2025-03-20T18:30:56+00:00,2,7.97,True,2,0,2,217,2,0,2,MERGED
+38052,Color Picker: add Oklab and Oklch color formats,lemonyte,2025-03-20T10:18:16Z,2025-04-25T02:48:19+00:00,4,856.5,True,348,31,11,2761,19,2,21,MERGED
+38044,[CropAndLock] theme,sadirano,2025-03-19T23:05:34Z,2025-06-17T03:49:32+00:00,2,2140.73,True,26,2,2,1433,4,0,4,MERGED
+38042,Add docs link to nuget README,zadjii-msft,2025-03-19T21:02:12Z,2025-03-20T01:00:48+00:00,1,3.98,True,1,4,1,138,0,0,0,MERGED
+38041,Update the OOBE text for CmdPal,zadjii-msft,2025-03-19T19:40:28Z,2025-03-20T00:59:31+00:00,1,5.32,True,9,2,2,172,12,0,12,MERGED
+38040,CmdPal: Fix SUI crash ; Allow extensions to be disabled,zadjii-msft,2025-03-19T19:05:32Z,2025-03-20T20:36:10+00:00,4,25.51,True,584,522,34,671,1,1,2,MERGED
+38037,[Settings]Add the New badge to CmdPal,jaimecbernardo,2025-03-19T16:19:06Z,2025-03-19T17:51:58+00:00,1,1.55,True,9,1,2,143,0,0,0,MERGED
+38036,[CI]Bring back .NET 6 for signing tasks to fix pipelines,jaimecbernardo,2025-03-19T14:48:08Z,2025-03-19T18:33:36+00:00,2,3.76,True,5,0,1,226,2,0,2,MERGED
+38034,Fix NOTICE.md,htcfreek,2025-03-19T14:23:28Z,2025-03-19T18:36:48+00:00,1,4.22,True,38,37,1,811,2,0,2,MERGED
+38032,[cmdpal] WIP add telemetry,stefansjfw,2025-03-19T12:56:38Z,2025-03-20T20:36:58+00:00,5,31.67,True,210,5,16,40,6,1,7,MERGED
+38031,[cmdpal] Bring back editorconfig,stefansjfw,2025-03-19T11:50:30Z,2025-03-19T13:43:33+00:00,1,1.88,True,209,0,1,17,0,0,0,MERGED
+38027,Do not show CmdPal on startup,stefansjfw,2025-03-19T10:16:42Z,2025-03-20T14:48:15+00:00,8,28.53,True,41,22,3,17,6,1,7,MERGED
+38026,Localize CmdPal settings page,stefansjfw,2025-03-19T10:10:31Z,2025-03-19T21:00:25+00:00,4,10.83,True,138,64,6,17,4,1,5,MERGED
+38025,[cmdpal] Implement GotoPage ,moooyo,2025-03-19T09:48:29Z,2025-07-21T07:51:34+00:00,3,2974.05,False,220,1,6,1203,4,3,7,CLOSED
+38017,Add securityContext to configuration files,mdanish-kh,2025-03-19T01:35:17Z,2025-04-13T23:19:22+00:00,2,621.73,True,18,0,3,1126,10,0,10,MERGED
+38008,"[AOT] add some mudole editor open time, timestamp telemetry code",wang563681252,2025-03-18T10:02:38Z,2025-03-18T13:52:25+00:00,6,3.83,True,174,5,16,780,1,8,9,MERGED
+37991,[Bug report] - auto fill parameters,donlaci,2025-03-17T09:37:49Z,2025-04-10T08:29:06+00:00,14,574.85,True,100,13,4,1176,12,6,18,MERGED
+37987,[PT Run] Async the OnRename to unblock thread,moooyo,2025-03-17T08:14:16Z,2025-03-18T07:51:34+00:00,4,23.62,True,37,8,2,982,7,1,8,MERGED
+37947,Adding in monaco usage for Reg preview,crutkas,2025-03-14T18:22:35Z,2025-03-18T22:31:01+00:00,3,100.14,True,59,0,1,747,5,0,5,MERGED
+37930,[KeyboardManager] Fix modifier Key (Not right or left) stuck ,mantaionut,2025-03-13T12:55:21Z,2025-04-14T08:48:10+00:00,5,763.88,True,153,81,11,1308,4,1,5,MERGED
+37924,Fix the problem which Powertoys Run shows duplicated applications.,moooyo,2025-03-13T07:46:07Z,2025-03-14T02:33:15+00:00,4,18.79,True,7,6,2,1063,5,1,6,MERGED
+37908,Add the Command Palette module,zadjii-msft,2025-03-12T15:29:17Z,2025-03-19T08:39:57+00:00,19,161.18,True,69755,274,984,4206,28,27,55,MERGED
+37902,[FancyZones][Bug Fix] Layout hotkey show bug and update file bug,wang563681252,2025-03-12T08:42:05Z,2025-03-13T16:48:21+00:00,1,32.1,True,7,1,2,1008,0,0,0,MERGED
+37896,[MWB][Logger] Make logger actually track the code,vanzue,2025-03-12T07:07:57Z,2025-03-12T08:44:05+00:00,2,1.6,True,6,6,1,897,0,0,0,MERGED
+37895,[ColorPicker]Only close on escape if focused,PesBandi,2025-03-12T06:22:16Z,2025-04-15T03:15:41+00:00,1,812.89,True,8,16,2,1057,3,0,3,MERGED
+37887,[Deps]Update dependencies to .NET 9.0.3,jaimecbernardo,2025-03-11T20:52:38Z,2025-03-11T22:12:54+00:00,2,1.34,True,42,42,2,204,0,0,0,MERGED
+37879,[Deps]Upgrade Windows App SDK to 1.6.250205002 and CsWinRT to 2.2.0,jaimecbernardo,2025-03-11T10:18:09Z,2025-03-11T14:12:32+00:00,4,3.91,True,15,15,7,272,2,10,12,MERGED
+37877,[FancyZones][Bug Fix] fix fancyzone editor layout hotkeys show error,wang563681252,2025-03-11T09:48:48Z,2025-03-12T18:54:59+00:00,1,33.1,True,5,0,1,790,2,0,2,MERGED
+37862,[PTRun][UnitConverter]Add support for `sq` prefix for square units,PesBandi,2025-03-10T13:47:02Z,2025-03-19T00:37:43+00:00,2,202.84,True,21,1,3,858,7,0,7,MERGED
+37852,[Hosts] Add functionality to remove leading whitespace,blakestack,2025-03-09T23:07:01Z,2025-08-22T07:17:00+00:00,10,3968.17,False,54,1,7,946,23,7,30,CLOSED
+37825,Remove bypass for MD files w/ CI,crutkas,2025-03-07T23:55:09Z,2025-03-10T19:48:45+00:00,3,67.89,True,1,41,2,849,0,1,1,MERGED
+37823,empowering users to maximize OOBE to their heart desire,crutkas,2025-03-07T21:10:21Z,2025-04-10T05:27:17+00:00,2,800.28,True,0,19,1,905,2,0,2,MERGED
+37811,[Infra-BuildScript] Add PowerShell Script to Enforce Shared Common.Dotnet.CsWinRT.props in all CSharp Projects under Src Sub-Folder,jamrobot,2025-03-07T02:30:57Z,2025-05-03T03:38:11+00:00,9,1369.12,True,81,5,6,867,5,2,7,MERGED
+37809,Test ZoomIt PR,MarioHewardt,2025-03-07T01:20:57Z,2025-03-07T20:35:45+00:00,2,19.25,True,5,5,1,735,0,0,0,MERGED
+37806,37405 Advanced Paste: Image To Text doesn't work with English (Canada),cryolithic,2025-03-06T21:59:19Z,2025-04-25T02:45:11+00:00,4,1180.76,True,11,2,1,1407,5,1,6,MERGED
+37804,[OOBE] Fix release notes error InfoBars,davidegiacometti,2025-03-06T20:21:52Z,2025-03-19T00:12:29+00:00,6,291.84,True,57,15,3,1146,6,1,7,MERGED
+37791,"""ǔ"" changed to ""ŭ"" in GetDefaultLetterKeyEPO",OlegKharchevkin,2025-03-06T12:20:07Z,2025-04-14T08:50:00+00:00,2,932.5,True,1,1,1,889,4,0,4,MERGED
+37789,[PTRun][Docs] Add PerplexitySearchShortcut to Third-Party plugins,0x6f677548,2025-03-06T11:57:47Z,2025-09-05T05:14:48+00:00,7,4385.28,True,4,0,3,76,3,2,5,MERGED
+37769,Dev/zhaopengwang/test/37733 UI test fancyzones editor,wang563681252,2025-03-05T14:03:30Z,2025-03-14T09:04:23+00:00,2,211.01,True,5688,65,27,2436,2,2,4,MERGED
+37763,[FancyZones][Fix Bug] delete layout write wrong date to json file,wang563681252,2025-03-05T10:30:55Z,2025-03-05T12:43:37+00:00,1,2.21,True,1,1,1,803,0,0,0,MERGED
+37757,[PowerAccent] Cancel previous ShowToolbar task if a new one is triggered,mantaionut,2025-03-05T06:57:56Z,2025-04-23T03:03:06+00:00,6,1172.09,True,53,25,4,1367,12,2,14,MERGED
+37744,[Settings > PT Run > Plugin settings] Disable spell check in text boxes,htcfreek,2025-03-04T09:46:05Z,2025-03-16T16:30:27+00:00,1,294.74,True,4,0,1,779,4,0,4,MERGED
+37743,[PT Run > Time and Date plugin] Custom formats and other improvements,htcfreek,2025-03-04T09:33:36Z,2025-04-01T13:31:36+00:00,4,675.97,True,892,94,14,1440,28,2,30,MERGED
+37736,0.89 changelog,yeelam-gordon,2025-03-03T10:48:02Z,2025-03-05T02:31:18+00:00,19,39.72,True,66,104,1,81,3,15,18,MERGED
+37718,[PTRun][Docs] Add SVGL to Third-Party plugins,SameerJS6,2025-03-02T17:08:24Z,2025-03-10T23:32:03+00:00,1,198.39,True,3,0,3,148,9,0,9,MERGED
+37690,[CNF] Only enable experimental features if they exist,carlos-zamora,2025-02-28T22:43:20Z,2025-04-16T02:14:23+00:00,4,1107.52,True,11,4,1,462,4,0,4,MERGED
+37689,[RegistryPreview] Extended preview for value data,htcfreek,2025-02-28T18:39:34Z,2025-06-13T10:08:01+00:00,16,2511.47,True,4789,22,34,1104,45,13,58,MERGED
+37685,The default generated file path exceeds the length limit 260 for EnvironmentVariablesUILib.csproj,yeelam-gordon,2025-02-28T11:49:56Z,2025-03-12T02:15:04+00:00,2,278.42,True,6,0,1,896,2,0,2,MERGED
+37673,Update WinGet configuration file location & extension,mdanish-kh,2025-02-27T18:47:01Z,2025-03-04T04:47:58+00:00,3,106.02,True,7,7,10,928,11,0,11,MERGED
+37670,Peiyao/0227 test,zhaopy536,2025-02-27T14:58:04Z,2025-03-12T07:25:11+00:00,1,304.45,False,4120,1,50,706,1,1,2,CLOSED
+37657,[Hosts] Converting manual release-check-list tests to UI-Test Automation and Adding more UI-Test-cases,jamrobot,2025-02-27T01:17:07Z,2025-02-28T11:08:08+00:00,4,33.85,True,838,154,14,2253,1,6,7,MERGED
+37654,[PTRun]Fix locking link files for MSI installers. Warning 1946,donlaci,2025-02-26T19:03:53Z,2025-02-27T19:17:43+00:00,2,24.23,True,14,2,1,1138,10,0,10,MERGED
+37652,[Installer] Init Wix migration project,zhaopy536,2025-02-26T17:23:44Z,2025-04-27T15:12:38+00:00,6,1437.82,True,4266,3,53,2235,8,6,14,MERGED
+37648,[PTRun Unit Converter] Support for 'sq' prefixed units,OldUser101,2025-02-26T12:40:40Z,2025-03-31T08:42:03+00:00,1,788.02,False,92,0,2,1154,4,0,4,CLOSED
+37635,Don't open exclusive handles when reading shortcuts,OneBlue,2025-02-25T20:56:32Z,2025-02-27T19:20:23+00:00,2,46.4,False,5,1,1,885,7,0,7,CLOSED
+37628,[RegPreview] Various improvements on how files are saved,htcfreek,2025-02-25T16:09:32Z,2025-06-17T03:35:35+00:00,9,2675.43,True,266,91,3,1844,35,8,43,MERGED
+37626,[RegPreview] Init with header and add NEW button,htcfreek,2025-02-25T12:26:16Z,2025-04-21T08:11:07+00:00,5,1315.75,True,95,0,5,1065,17,2,19,MERGED
+37625,[Workspaces][ARM64] Bring icon to packaged apps,vanzue,2025-02-25T10:01:03Z,2025-02-25T11:17:41+00:00,2,1.28,True,1,1,1,854,3,0,3,MERGED
+37619,"Revert ""[Hosts] Add UITest Cases for Hosts Module""",jamrobot,2025-02-25T06:11:54Z,2025-02-25T23:55:15+00:00,2,17.72,True,145,7,4,360,0,0,0,MERGED
+37617,[CI] Use Download Task for X64 and Bypass ARM Testing for Forked Repositories,lei9444,2025-02-25T05:54:43Z,2025-02-27T08:39:26+00:00,2,50.75,True,13,4,2,1029,3,0,3,MERGED
+37611,Adds final sigma ( ς ) to quick accent under Greek language.,IamSmeagol,2025-02-24T17:51:21Z,2025-02-25T22:35:22+00:00,1,28.73,True,1,1,1,985,4,0,4,MERGED
+37607,[Fuzz] Add Fuzz testing for RegistryPreview,chenmy77,2025-02-24T14:52:16Z,2025-03-13T02:23:02+00:00,10,395.51,True,465,62,7,1834,1,8,9,MERGED
+37606,"[Build] Revert ""[Hosts] Add UITest Cases for Hosts Module (#37600)"" to fix CI issue",lei9444,2025-02-24T14:27:39Z,2025-02-24T16:30:33+00:00,1,2.05,True,7,145,4,801,2,0,2,MERGED
+37601,[ci]Sign and fix KeyboardManagerEditorLibraryWrapper.dll,jaimecbernardo,2025-02-24T10:58:47Z,2025-02-24T21:12:42+00:00,2,10.23,True,69,0,5,444,7,0,7,MERGED
+37599,[Workspaces] Fix regression when capturing minimized apps,donlaci,2025-02-24T09:36:33Z,2025-02-26T11:51:46+00:00,2,50.25,True,2,2,1,1165,3,0,3,MERGED
+37598,[Workspaces] Fix snapshotting minimized apps,donlaci,2025-02-24T09:24:00Z,2025-03-18T11:21:40+00:00,6,529.96,True,34,11,3,950,5,0,5,MERGED
+37597,Update UITestAutomation Framework,jamrobot,2025-02-24T07:30:55Z,2025-02-24T10:05:56+00:00,6,2.58,True,190,71,11,1318,2,1,3,MERGED
+37581,[QuickAccent] Fix on-screen keyboard activation,davidegiacometti,2025-02-22T20:38:28Z,2025-04-16T03:08:44+00:00,4,1254.5,True,13,7,1,879,6,0,6,MERGED
+37579,"Ready for Review - [Mouse Without Borders] - refactoring ""Common"" classes (Part 4) - #35155",mikeclayton,2025-02-22T17:55:47Z,2025-03-17T22:05:36+00:00,5,556.16,True,1474,1450,26,8374,5,2,7,MERGED
+37577,[QuickAccent] Persist characters usage between runs,davidegiacometti,2025-02-22T15:57:05Z,2025-08-22T06:22:16+00:00,5,4334.42,True,98,6,5,1202,5,6,11,MERGED
+37574,[CI] Upgrade XamlStyler and remove .NET6 dependency,davidegiacometti,2025-02-22T11:29:45Z,2025-03-17T19:15:18+00:00,5,559.76,True,2,7,2,1131,13,0,13,MERGED
+37563,[Advanced Paste] Rephrase module description in settings,OldUser101,2025-02-21T12:23:36Z,2025-08-21T21:54:48+00:00,4,4353.52,True,1,1,1,1076,6,1,7,MERGED
+37550,[Powertoys Run] Disable CETCompat in Launcher,mantaionut,2025-02-20T16:12:35Z,2025-02-25T11:34:30+00:00,6,115.37,True,2,0,1,1037,3,0,3,MERGED
+37547,[Color picker] Fix dashboard shortcut,mantaionut,2025-02-20T13:20:42Z,2025-02-24T23:14:45+00:00,4,105.9,True,2,10,2,1053,12,0,12,MERGED
+37546,[Hosts] Add UITest Cases for Hosts Module and Improve UITestAutomation,jamrobot,2025-02-20T11:05:30Z,2025-02-24T11:33:37+00:00,14,96.47,False,346,86,15,1479,3,5,8,CLOSED
+37542,[MWB] Fix file transfer not working in service mode,drawbyperpetual,2025-02-20T03:22:11Z,2025-02-20T10:58:29+00:00,1,7.61,True,73,6,3,1693,0,0,0,MERGED
+37516,[Fuzz] Add fuzz testing for Hosts,chenmy77,2025-02-18T13:39:12Z,2025-02-20T02:39:42+00:00,12,37.01,True,387,607,8,1692,1,4,5,MERGED
+37515,Update runner.md to catch runner structure change.,vanzue,2025-02-18T10:05:14Z,2025-02-19T02:03:10+00:00,5,15.97,True,22,9,1,996,2,5,7,MERGED
+37505,[Documentation] Appended fallback comment in .configurations.,MayureshMore,2025-02-17T18:03:46Z,2025-03-18T14:12:59+00:00,4,692.15,False,81,62,2,116,1,2,3,CLOSED
+37491,[PTRun] Allow preventing usage based ordering results,CoreyHayward,2025-02-16T17:26:02Z,2025-04-25T04:27:54+00:00,7,1619.03,True,17,2,2,1218,13,2,15,MERGED
+37475,PowerToys Run Calculator: Add trigonometric angle unit conversion functions,OldUser101,2025-02-15T08:09:18Z,2025-02-21T13:19:12+00:00,2,149.16,True,135,4,3,1726,2,0,2,MERGED
+37466,Use system default web browser when opening links through Monaco in RegistryPreview,OldUser101,2025-02-14T19:13:43Z,2025-02-18T22:01:04+00:00,1,98.79,True,52,0,3,1199,3,0,3,MERGED
+37461,UITestAutomation Framework,wang563681252,2025-02-14T12:41:20Z,2025-02-20T05:25:20+00:00,29,136.73,True,889,0,12,1511,6,22,28,MERGED
+37455,[CI] fix: Use Azure CLI for artifact download to prevent OutOfMemory issues,lei9444,2025-02-14T08:40:39Z,2025-02-19T01:17:15+00:00,6,112.61,True,41,27,3,1197,4,4,8,MERGED
+37452,[PTRun][Docs] Add RemoteDesktopUWP to Third-Party plugins,8LWXpg,2025-02-14T03:10:40Z,2025-03-10T23:31:20+00:00,3,596.34,False,1,0,1,72,7,1,8,CLOSED
+37427,[KeyboardManager WinUI3] Create WinUI3 project and wrapper for Keyboard Manager Editor,haoliuu,2025-02-13T04:46:19Z,2025-02-18T09:10:15+00:00,7,124.4,True,708,1,19,2083,4,2,6,MERGED
+37417,"Remove ""new"" label from ZoomIt",cinnamon-msft,2025-02-12T17:53:47Z,2025-02-20T11:29:14+00:00,3,185.59,True,1,9,2,771,1,0,1,MERGED
+37414,[PTRun][Docs] Add FirefoxBookmark to Third-Party plugins,8LWXpg,2025-02-12T15:38:44Z,2025-03-10T23:27:04+00:00,3,631.81,True,1,0,1,71,3,0,3,MERGED
+37403,[CI] Fix OutOfMemory in download by separating test-only artifacts and filtering unused files before publishing.,lei9444,2025-02-12T02:06:55Z,2025-02-12T17:06:11+00:00,1,14.99,True,23,7,2,1074,0,0,0,MERGED
+37400,[Deps] Update .NET Packages from 9.0.1 to 9.0.2,snickler,2025-02-12T01:26:27Z,2025-02-12T15:57:16+00:00,3,14.51,True,51,43,5,787,1,1,2,MERGED
+37385,[GPO]Add policy to define the run at startup setting,jaimecbernardo,2025-02-10T22:26:40Z,2025-02-12T18:49:49+00:00,3,44.39,True,93,7,10,1415,2,2,4,MERGED
+37375,[PowerRename] Fix negative enumerate start parameter parse bug.  ,moooyo,2025-02-10T07:02:08Z,2025-02-18T17:28:49+00:00,1,202.44,True,1,1,1,822,4,0,4,MERGED
+37373,[ImageResizer] Fix issues with blank Width and Height controls,daverayment,2025-02-10T04:24:52Z,2025-02-25T08:23:30+00:00,4,363.98,True,309,27,11,4442,17,1,18,MERGED
+37369,[QuickAccent]Add more letters with caron to IPA,PesBandi,2025-02-09T18:57:51Z,2025-02-18T22:13:51+00:00,1,219.27,True,3,3,1,461,6,0,6,MERGED
+37366,[GPO][MWB]Add policy to disable service mode,jaimecbernardo,2025-02-09T16:47:17Z,2025-02-12T18:49:26+00:00,8,74.04,True,109,12,13,1576,6,3,9,MERGED
+37328,build: add a couple more signing variables to ESRP,DHowett,2025-02-06T18:05:25Z,2025-02-06T20:35:25+00:00,1,2.5,True,4,0,2,60,1,0,1,MERGED
+37324,"[Run] Fix dark mode detection code, plus refactor",daverayment,2025-02-06T11:30:47Z,2025-02-20T10:47:30+00:00,7,335.28,True,426,104,7,9367,6,1,7,MERGED
+37321,"[Build] compatibility with VS17.3 and later, for C++23 <expected> has conflict/inconsistent with the makeshift (expected-lite)",LNKLEO,2025-02-06T08:28:58Z,2025-02-12T00:22:08+00:00,1,135.89,True,23,0,2,841,3,0,3,MERGED
+37309,[MouseHighlighter]Fix stray highlights stucking,jaimecbernardo,2025-02-05T17:00:45Z,2025-02-18T23:21:03+00:00,1,318.34,True,16,0,1,1399,2,0,2,MERGED
+37289,[ContextMenus]Update win11 msix menus if wrong version,jaimecbernardo,2025-02-04T15:13:46Z,2025-02-09T15:03:07+00:00,2,119.82,True,7,1,1,1482,2,0,2,MERGED
+37286,[QuickAccent]Added ` (backtick) and ~ (tilde) to VK_OEM_5 (#20333),xanatos,2025-02-04T13:03:28Z,2025-02-18T22:45:59+00:00,1,345.71,True,5,2,3,652,3,0,3,MERGED
+37283,[Zoomit]Fix warning C4706 and related error C2220,xanatos,2025-02-04T11:26:43Z,2025-02-13T19:45:52+00:00,1,224.32,True,1,1,1,197,4,0,4,MERGED
+37188,[Advanced Paste] Add paste actions to allow transcoding of media files,drawbyperpetual,2025-01-30T23:45:11Z,2025-02-25T21:33:39+00:00,8,621.81,True,843,92,40,958,4,5,9,MERGED
+37157,Update README.md - update What's Planned to 0.89,daverayment,2025-01-30T01:05:57Z,2025-01-30T06:18:33+00:00,1,5.21,True,1,1,1,783,1,0,1,MERGED
+37149,Color picker wpf,mantaionut,2025-01-29T17:36:19Z,2025-03-12T12:15:17+00:00,13,1002.65,True,500,245,13,907,15,8,23,MERGED
+37130,[ci]Proper workaround for the vc tools version check,jaimecbernardo,2025-01-29T11:38:43Z,2025-01-30T11:40:20+00:00,1,24.03,True,14,0,2,264,0,0,0,MERGED
+37122,[Image Resizer] Added AutomationProperties.HelpText to dimensions combo-box,drawbyperpetual,2025-01-29T00:53:35Z,2025-02-19T16:26:49+00:00,2,519.55,True,57,2,4,1090,0,0,0,MERGED
+37098,[ci]Remove vc tools version workaround,jaimecbernardo,2025-01-27T15:42:40Z,2025-01-27T17:23:04+00:00,2,1.67,True,0,12,2,247,0,0,0,MERGED
+37074,New+ Support for variables in template filenames (35287),cgaarden,2025-01-25T22:48:22Z,2025-03-18T11:52:51+00:00,9,1237.07,True,592,96,28,2729,16,2,18,MERGED
+37062,"[PowerRename]Add `$`, `^` and quantifiers to RegEx cheatsheet",PesBandi,2025-01-24T20:46:29Z,2025-02-24T08:46:38+00:00,2,732.0,True,25,5,2,723,19,0,19,MERGED
+37056,0.88 changelog,jaimecbernardo,2025-01-24T16:16:29Z,2025-01-28T18:45:01+00:00,11,98.48,True,97,75,1,109,0,4,4,MERGED
+37052,[Settings]Fix ZoomIt page changing current directory,jaimecbernardo,2025-01-24T13:33:03Z,2025-01-24T14:34:49+00:00,2,1.03,True,8,0,3,858,0,0,0,MERGED
+37033,[PTRun][Calculator]Error check when loading trigonometry mode,jaimecbernardo,2025-01-23T15:34:35Z,2025-01-23T17:40:52+00:00,1,2.1,True,13,2,1,345,0,0,0,MERGED
+37014,[Settings] Fixed missing accessibility name of secondary links panel,drawbyperpetual,2025-01-22T16:02:31Z,2025-02-18T23:22:56+00:00,1,655.34,True,1,0,1,1253,0,0,0,MERGED
+37005,[Workspaces] Fix case: monitor not present at launch,donlaci,2025-01-22T09:58:52Z,2025-02-18T16:03:35+00:00,1,654.08,True,12,5,1,1573,5,0,5,MERGED
+37001,Enable MTP,Youssef1313,2025-01-22T05:13:45Z,2025-08-22T15:38:57+00:00,4,5098.42,False,100,48,43,790,37,1,38,CLOSED
+36997,[Fancy Zones] Fixed accessibility text of monitors on Layout Editor,drawbyperpetual,2025-01-21T22:40:42Z,2025-02-20T09:40:27+00:00,1,707.0,True,50,8,5,1181,1,0,1,MERGED
+36994,[Docs] Update runner-ipc.md to fix broken links,daverayment,2025-01-21T19:43:14Z,2025-02-08T21:41:11+00:00,1,433.97,True,5,5,1,772,0,0,0,MERGED
+36975,[ZoomIt]React to gpo setting when run as standalone,jaimecbernardo,2025-01-20T16:40:41Z,2025-01-21T11:26:23+00:00,3,18.76,True,6,6,1,270,0,1,1,MERGED
+36965,Update Back up name,JackStuart,2025-01-20T07:02:06Z,2025-01-21T12:12:19+00:00,1,29.17,True,5,5,1,837,3,0,3,MERGED
+36951,Fixed typo in PTRun Value Generator,OldUser101,2025-01-18T08:40:17Z,2025-01-19T15:31:14+00:00,1,30.85,True,1,1,1,890,0,0,0,MERGED
+36950,"Ready for Review - [Mouse Without Borders] - refactoring ""Common"" classes (Part 3) - #35155",mikeclayton,2025-01-18T08:18:42Z,2025-02-21T08:31:44+00:00,2,816.22,True,1889,1845,32,7358,6,0,6,MERGED
+36939,"Add ""new"" labels to navigation",cinnamon-msft,2025-01-17T17:03:56Z,2025-01-22T18:12:46+00:00,8,121.15,True,68,11,7,791,4,4,8,MERGED
+36934,[ci]Remove steps to build abstracted utilities packages,jaimecbernardo,2025-01-17T15:04:02Z,2025-01-17T22:10:50+00:00,2,7.11,True,0,149,2,345,0,0,0,MERGED
+36909,[Launcher] Update the code for .net9.1,mantaionut,2025-01-16T08:00:40Z,2025-01-17T14:47:24+00:00,1,30.78,True,11,6916,6,1322,3,0,3,MERGED
+36905,"Goodbye friends, you are forever part of the team",crutkas,2025-01-16T04:25:11Z,2025-01-16T15:44:56+00:00,1,11.33,True,13,4,1,91,1,0,1,MERGED
+36903,"[Settings] ImageResizer settings accessibility updates, fixes and refactor",daverayment,2025-01-16T01:34:32Z,2025-01-21T11:55:02+00:00,14,130.34,True,519,619,9,6038,1,4,5,MERGED
+36900,[Image Resizer] Accessibility - Made Edit / Remove buttons on Settings Screen associated with their presets,drawbyperpetual,2025-01-15T23:52:36Z,2025-01-16T13:08:55+00:00,1,13.27,False,60,19,5,991,0,1,1,CLOSED
+36892,[MWB] Fix helper process termination issue in service mode,YDKK,2025-01-15T17:14:24Z,2025-01-22T18:14:49+00:00,2,169.01,True,40,0,4,11698,6,0,6,MERGED
+36890,[Peek]Fix using the correct Monaco assets at runtime,jaimecbernardo,2025-01-15T14:39:08Z,2025-01-15T15:39:30+00:00,3,1.01,True,4,0,1,585,4,0,4,MERGED
+36887,Separate PowerToys ZoomIt product name,foxmsft,2025-01-15T12:13:06Z,2025-01-15T13:54:46+00:00,1,1.69,True,15,9,3,283,0,0,0,MERGED
+36879,[Deps][Security] Update .NET Packages from 9.0.0 to 9.0.1 ,snickler,2025-01-14T19:38:18Z,2025-01-15T14:05:54+00:00,1,18.46,True,42,42,2,787,8,0,8,MERGED
+36869,[PTRun]Add hotkey to the show telemetry event,jaimecbernardo,2025-01-14T14:33:43Z,2025-01-16T20:54:23+00:00,1,54.34,True,8,1,2,301,4,0,4,MERGED
+36867,[Monaco]Fix Json format preview setting,jaimecbernardo,2025-01-14T13:24:34Z,2025-01-14T17:13:42+00:00,3,3.82,True,4,3,2,2520,1,0,1,MERGED
+36858,[Advanced Paste] Use background thread for interactions between runner and Advanced Paste,drawbyperpetual,2025-01-14T01:24:54Z,2025-01-16T15:11:00+00:00,1,61.77,True,325,173,5,2068,0,0,0,MERGED
+36789,[PTRun][Docs] Update new plugin checklist,hlaueriksson,2025-01-10T12:00:08Z,2025-02-21T19:19:56+00:00,3,1015.33,True,2,2,1,1135,0,0,0,MERGED
+36778,[AdvancedPaste] Fixed issues with Screen Reader integration,drawbyperpetual,2025-01-09T23:49:20Z,2025-01-10T14:29:50+00:00,1,14.68,True,133,64,7,1500,0,0,0,MERGED
+36777,Remove Advent calendar from README,cinnamon-msft,2025-01-09T23:21:09Z,2025-01-10T17:22:15+00:00,1,18.02,True,1,7,2,784,2,0,2,MERGED
+36772,[VCM]Deprecate the Video Conference Mute utility,jaimecbernardo,2025-01-09T16:01:43Z,2025-01-16T15:17:35+00:00,14,167.26,True,69,8684,157,1978,3,4,7,MERGED
+36769,[Workspaces] fixing bug: editor starts outside of visible desktop area,donlaci,2025-01-09T12:07:00Z,2025-01-16T09:56:11+00:00,3,165.82,True,18,3,1,835,1,1,2,MERGED
+36766,[Localization] Fix loc pipeline to send downloaded localized files to TDBuild upon retry after failure,lei9444,2025-01-09T10:03:56Z,2025-01-09T17:45:13+00:00,2,7.69,True,3,3,1,1398,0,0,0,MERGED
+36761,[PTRun][Docs] Add YubicoOauthOTP to Third-Party plugins,dlnilsson,2025-01-09T08:27:16Z,2025-01-19T15:23:36+00:00,1,246.94,True,5,0,3,90,2,0,2,MERGED
+36751,[Workspaces] Saving app properties on launch and recapture,donlaci,2025-01-08T13:27:30Z,2025-01-16T09:56:38+00:00,3,188.49,True,107,26,11,911,0,6,6,MERGED
+36735,[PTRun][Calc]Add list separator handling for different cultures,PesBandi,2025-01-07T18:21:04Z,2025-02-21T08:26:52+00:00,4,1070.1,True,2,1,2,698,8,1,9,MERGED
+36721,[QuickAccent]Fix unstable language loading,jaimecbernardo,2025-01-06T16:51:55Z,2025-01-13T15:13:50+00:00,1,166.37,True,11,0,2,1372,0,0,0,MERGED
+36720,[Common] NotificationUtil helper class with FileWatcher,davidegiacometti,2025-01-06T16:38:15Z,2025-01-19T15:19:41+00:00,2,310.69,True,113,46,11,1731,2,2,4,MERGED
+36717,Different units for trigonometric functions in PowerToys Run calculator plugin,OldUser101,2025-01-06T14:26:58Z,2025-01-17T16:13:41+00:00,3,265.78,True,250,106,7,1205,5,1,6,MERGED
+36714,[Settings] Add Workspaces' workspaces.json file to backup/restore list,donlaci,2025-01-06T10:14:16Z,2025-01-09T11:19:02+00:00,1,73.08,True,2,1,1,808,0,0,0,MERGED
+36700,[PTRun][Calc]Improve handling of non-base 10 numbers,PesBandi,2025-01-04T19:34:04Z,2025-01-08T10:49:26+00:00,1,87.26,True,9,4,4,1052,1,0,1,MERGED
+36681,[Run] Fix round corners crashing on 22000,mantaionut,2025-01-03T07:27:53Z,2025-03-17T23:15:41+00:00,3,1767.8,True,2,1,1,934,2,0,2,MERGED
+36665,Quick Accent: Add currencies to VK_3 and VK_4 (most commonly used keys for currencies) ,ansalls,2025-01-01T14:26:17Z,2025-08-25T16:25:57+00:00,5,5665.99,False,34,24,1,1561,3,2,5,CLOSED
+36635,[Run] Fix drag,davidegiacometti,2024-12-29T22:10:40Z,2025-01-06T10:47:50+00:00,1,180.62,True,2,1,1,882,0,0,0,MERGED
+36631,"[Registry Preview] Copy context menu, data toltip, MULTI_SZ fix",htcfreek,2024-12-29T19:30:59Z,2025-01-17T14:53:20+00:00,4,451.37,True,184,19,7,937,2,2,4,MERGED
+36590,Add team member,vanzue,2024-12-27T03:36:40Z,2024-12-27T11:24:08+00:00,1,7.79,True,2,0,2,842,0,0,0,MERGED
+36580,[Settings > PT Run] Plugin manager: Add plugin version and website,htcfreek,2024-12-26T12:55:10Z,2025-01-08T14:03:27+00:00,29,313.14,True,95,25,25,1625,11,9,20,MERGED
+36569,[PT Run > Calculator] Fix unit tests on non-englisch systems,htcfreek,2024-12-25T15:41:48Z,2025-01-08T10:34:13+00:00,1,330.87,True,1,0,1,884,1,0,1,MERGED
+36565,[Settings] Change 'character set' to plural from in Quick Accent settings,PesBandi,2024-12-25T13:14:18Z,2025-01-06T15:59:39+00:00,1,290.76,True,2,2,1,475,0,0,0,MERGED
+36560,[PT Run > Calculator] Update mages to v3.0.0 and support for `randi(n)`,htcfreek,2024-12-25T11:08:51Z,2025-01-03T16:11:42+00:00,1,221.05,True,9,3,5,921,2,0,2,MERGED
+36559,[AOT] clean up AOT issue in Settings.UI,moooyo,2024-12-25T04:57:42Z,2025-02-24T18:48:54+00:00,3,1477.85,True,203,98,45,1168,5,1,6,MERGED
+36529,[CI] Enhance build Pipeline Reliability with Retry Logic and Improved Error Messaging,lei9444,2024-12-23T08:46:13Z,2024-12-24T00:41:25+00:00,1,15.92,True,5,0,1,1155,0,0,0,MERGED
+36517,add: contextMenu items for `Run.Plugin.VSCodeWorkspaces`,programming-with-ia,2024-12-22T19:05:00Z,2025-01-06T15:15:21+00:00,17,356.17,True,164,25,4,906,4,5,9,MERGED
+36506,Bring Peek.UI Window into foreground if previously minimized #36098,asif4318,2024-12-22T03:25:48Z,2025-01-13T21:28:45+00:00,1,546.05,True,1,0,1,1058,1,0,1,MERGED
+36499,Add support for .resx and .resw preview support.,asif4318,2024-12-21T16:41:18Z,2025-01-08T16:35:03+00:00,1,431.9,True,2,2,2,1241,1,0,1,MERGED
+36484,"Remove ""prerelease: true""",denelon,2024-12-20T22:30:38Z,2024-12-21T04:18:21+00:00,1,5.8,True,2,6,4,945,0,0,0,MERGED
+36467,[New+]Don't override New actions from Explorer on Windows 10,jaimecbernardo,2024-12-20T14:37:25Z,2024-12-27T12:59:52+00:00,6,166.37,True,10,3,2,1489,4,5,9,MERGED
+36463,Fix snapping Workspaces Editor to Fancy Zones,donlaci,2024-12-20T07:35:41Z,2025-01-06T09:36:14+00:00,1,410.01,True,1,2,1,819,1,0,1,MERGED
+36438,Add more STCA team members,jamrobot,2024-12-19T04:40:21Z,2024-12-20T05:14:07+00:00,5,24.56,True,23,0,2,850,2,4,6,MERGED
+36429,Fix Windows 10 title bar borders,pingzing,2024-12-18T19:28:30Z,2025-01-13T15:13:17+00:00,6,619.75,True,68,25,23,2426,0,3,3,MERGED
+36417,[Launcher] Fix crash in OneNote,mantaionut,2024-12-18T12:42:18Z,2024-12-18T17:39:17+00:00,1,4.95,True,4,1,1,911,2,0,2,MERGED
+36408,[PowerAccent] Add Proto-Indo-European,haoliuu,2024-12-18T06:13:29Z,2025-01-06T13:38:59+00:00,6,463.43,True,26,0,4,1233,3,6,9,MERGED
+36404,[Bug fix] Add a format validation step before format conversion.,shuaiyuanxx,2024-12-18T04:20:35Z,2024-12-19T08:52:13+00:00,3,28.53,True,20,0,1,1276,1,2,3,MERGED
+36392,[Laucher] Added border on W10,mantaionut,2024-12-17T15:21:09Z,2024-12-18T11:41:20+00:00,8,20.34,True,100,93,2,1330,1,2,3,MERGED
+36390,add '0x' handling for divide by 0 scenarios,plante-msft,2024-12-17T14:36:55Z,2025-01-02T16:48:18+00:00,1,386.19,True,2,2,1,868,3,0,3,MERGED
+36376,[AOT] Clean up AOT build issue  in Common.UI,moooyo,2024-12-17T06:17:36Z,2025-02-24T18:56:05+00:00,8,1668.64,True,7,6,3,1367,16,3,19,MERGED
+36359,[Bug fix] Making the OpenAI key configuration page scrollable.,shuaiyuanxx,2024-12-16T04:35:02Z,2024-12-19T06:16:59+00:00,1,73.7,True,52,50,1,850,0,0,0,MERGED
+36356,[TextExtractor] Minor UI/Accessibility fixes,davidegiacometti,2024-12-15T21:44:30Z,2025-01-02T17:34:58+00:00,1,427.84,True,40,10,3,966,0,0,0,MERGED
+36338,[QuickAccent] Added ć for Slovenian (#36336),dsoklic,2024-12-13T19:47:24Z,2025-01-03T16:23:04+00:00,1,500.59,True,1,1,1,900,0,0,0,MERGED
+36335,0.87 changelog,jaimecbernardo,2024-12-13T16:04:02Z,2024-12-16T19:35:34+00:00,7,75.53,True,82,69,2,109,0,3,3,MERGED
+36329,[Fuzz] Add fuzz testing for AdvancedPaste and new pipeline for onboarding OneFuzz,lei9444,2024-12-13T09:34:10Z,2024-12-19T00:31:10+00:00,8,134.95,True,330,2,12,1369,2,9,11,MERGED
+36327,[AOT] Refactor Logger function to improve performance and mark managedCommon as AOT compatible,moooyo,2024-12-13T08:33:09Z,2025-02-25T16:12:38+00:00,9,1783.66,True,54,61,7,1566,14,4,18,MERGED
+36317,Add new pipeline using the latest webview2 from Edge Canary,shuaiyuanxx,2024-12-12T09:07:21Z,2024-12-19T02:27:05+00:00,3,161.33,True,73,0,4,1732,8,2,10,MERGED
+36299,[ci]Sign OpenAI dll that's not signed,jaimecbernardo,2024-12-11T12:42:49Z,2024-12-11T13:50:16+00:00,2,1.12,True,1,0,1,147,0,0,0,MERGED
+36297,[AOT] Clean up some AOT issues in Advanced Paste module,moooyo,2024-12-11T07:28:18Z,2025-01-21T07:20:59+00:00,13,983.88,True,71,18,8,1234,7,10,17,MERGED
+36290,[UX] Updating icons,niels9001,2024-12-10T10:48:22Z,2024-12-11T10:13:57+00:00,1,23.43,True,0,0,11,196,2,0,2,MERGED
+36282,Add New CI Pipeline for Latest WindowsAppSDK,shuaiyuanxx,2024-12-10T00:45:50Z,2024-12-19T01:00:53+00:00,7,216.25,True,298,19,6,2551,4,6,10,MERGED
+36280,[Settings][Dashboard] Accessibility fixes,davidegiacometti,2024-12-09T21:48:07Z,2024-12-11T11:09:38+00:00,1,37.36,True,10,0,2,1028,2,0,2,MERGED
+36264,[AOT compatible] Clean up some AOT build issue in PowerAccent.Core,moooyo,2024-12-09T07:48:33Z,2025-01-13T13:01:42+00:00,10,845.22,True,19,9,5,741,5,1,6,MERGED
+36244,Continued motion to move stuff out of root - solution.prop,crutkas,2024-12-06T20:40:42Z,2025-01-06T10:52:45+00:00,1,734.2,True,1,1,2,763,2,0,2,MERGED
+36242,"Adjust to community.md, shifting jerry's github user name",crutkas,2024-12-06T20:03:44Z,2024-12-06T22:07:40+00:00,1,2.07,True,1,1,1,31,0,0,0,MERGED
+36235,Upgrade to check-spelling v0.0.24,jsoref,2024-12-05T23:58:54Z,2024-12-06T16:33:08+00:00,6,16.57,True,777,509,84,2072,0,19,19,MERGED
+36232,Adding Jerry to community.md,crutkas,2024-12-05T18:41:35Z,2024-12-05T23:37:31+00:00,1,4.93,True,1,0,1,23,0,0,0,MERGED
+36228,[Workspaces] Add encoder parameter to bitmap.save(),donlaci,2024-12-05T15:27:41Z,2024-12-05T19:27:28+00:00,1,4.0,True,30,4,4,935,0,0,0,MERGED
+36222,Add New CI Pipeline for Latest WindowsAppSDK,shuaiyuanxx,2024-12-05T05:39:04Z,2024-12-09T06:47:30+00:00,4,97.14,False,327,33,7,2395,6,3,9,CLOSED
+36217,[Workspaces] PWA follow-up,SeraphimaZykova,2024-12-04T19:27:11Z,2024-12-05T15:24:05+00:00,2,19.95,True,528,340,12,1070,2,0,2,MERGED
+36215,[Launcher] use .net WPF,mantaionut,2024-12-04T18:19:03Z,2024-12-11T09:47:08+00:00,10,159.47,True,7094,138,20,1261,23,3,26,MERGED
+36207,[AOT compatible] Clean up some AOT build issue in FilePreviewCommon and MarkdownPreviewHandler,moooyo,2024-12-04T08:41:23Z,2024-12-19T01:31:45+00:00,7,352.84,True,25,11,6,950,12,3,15,MERGED
+36204,adding in new friends and amazing community members,crutkas,2024-12-04T05:37:17Z,2024-12-04T15:29:58+00:00,10,9.88,True,26,3,2,784,5,14,19,MERGED
+36202,moving xaml styler to .config,crutkas,2024-12-04T04:35:09Z,2024-12-10T23:06:30+00:00,2,162.52,True,2,2,2,761,8,0,8,MERGED
+36194,[AOT compatible] Resolve AOT Build Error in Peek.UI,lei9444,2024-12-03T14:31:45Z,2024-12-09T02:17:38+00:00,2,131.76,True,10,2,5,1262,18,0,18,MERGED
+36187,[Launcher][Calculator]Allow scientific notation with lowercase 'e',PesBandi,2024-12-02T18:02:59Z,2024-12-05T15:38:59+00:00,1,69.6,True,4,4,1,563,3,0,3,MERGED
+36176,[AOT compatible] Add Common MSBuild Props for AOT Compatibility Validation to Be Imported by Projects for Future AOT Support,lei9444,2024-12-02T08:10:45Z,2024-12-03T01:00:28+00:00,2,16.83,True,10,0,2,1402,2,0,2,MERGED
+36174,[PreviewPane] Use PerMonitorV2 DPI mode,davidegiacometti,2024-12-01T22:28:41Z,2024-12-03T17:24:43+00:00,1,42.93,True,6,0,6,1266,3,0,3,MERGED
+36172,Update README with advent calendar,cinnamon-msft,2024-12-01T19:18:00Z,2024-12-01T21:26:33+00:00,2,2.14,True,11,1,4,706,1,5,6,MERGED
+36143,Fix for 35956 new+prompt rename when creating file,cgaarden,2024-11-28T17:50:20Z,2024-12-02T15:13:54+00:00,1,93.39,True,9,8,1,1035,1,0,1,MERGED
+36138,"[AOT Compatible] Add word ""AOT"" to spelling check allow list.",moooyo,2024-11-28T09:52:38Z,2024-11-29T04:07:13+00:00,2,18.24,True,5,0,1,755,3,1,4,MERGED
+36136,[AOT compatible] Make HostsUILib become AOT compatible,moooyo,2024-11-28T09:36:38Z,2024-12-19T01:22:41+00:00,7,495.77,True,3,2,3,1140,10,6,16,MERGED
+36133,New+ Update last modified date to now for all templates created,cgaarden,2024-11-27T23:57:12Z,2025-01-21T13:58:56+00:00,1,1310.03,True,18,0,1,1335,2,0,2,MERGED
+36115,Update MSTest from 3.5.0 to 3.6.3,Youssef1313,2024-11-27T04:41:29Z,2024-12-05T22:15:12+00:00,1,209.56,True,3,134,28,706,7,0,7,MERGED
+36111,[Peek] UserSettings load logging fix and refactor,daverayment,2024-11-27T00:24:35Z,2024-11-28T17:36:33+00:00,1,41.2,True,50,46,2,2938,1,0,1,MERGED
+36100,[Workspaces] detecting right app version,donlaci,2024-11-26T13:22:06Z,2024-12-09T17:47:02+00:00,1,316.42,True,8,1,1,844,0,0,0,MERGED
+36096,[Workspaces] Arranger: smart timer,donlaci,2024-11-26T11:04:02Z,2024-12-06T14:09:09+00:00,1,243.09,True,19,11,2,967,2,0,2,MERGED
+36095,[Analyzers] Update .editorconfig with rules to relax IDE errors,snickler,2024-11-26T04:00:11Z,2024-12-04T17:58:37+00:00,17,205.97,True,316,50,53,814,4,5,9,MERGED
+36093,Upgrade Windows App SDK to the latest version,shuaiyuanxx,2024-11-26T02:46:48Z,2024-11-27T21:57:20+00:00,2,43.18,True,15,12,7,830,1,0,1,MERGED
+36086,[Workspaces] Implement store of app window's size and position,donlaci,2024-11-25T08:05:03Z,2024-12-05T19:28:22+00:00,4,251.39,True,151,14,4,786,0,0,0,MERGED
+36055,[PTRun][Docs] Add HttpStatusCodes to Third-Party plugins,grzhan,2024-11-22T13:29:39Z,2024-11-27T19:44:56+00:00,1,126.25,True,2,0,2,193,5,0,5,MERGED
+36049,Awake Updates - `TILLSON_11272024`,dend,2024-11-22T01:24:36Z,2024-12-09T06:41:05+00:00,12,413.27,True,502,220,16,55,15,8,23,MERGED
+36036,[ci]Fix signing new Workspaces dll in Dart,jaimecbernardo,2024-11-21T08:44:30Z,2024-11-21T14:29:57+00:00,2,5.76,True,1,0,1,143,0,0,0,MERGED
+36000,[KeyboardManager] Added option for exact match shortcut,mantaionut,2024-11-19T09:20:04Z,2025-01-15T11:31:29+00:00,1,1370.19,True,96,32,9,1246,3,0,3,MERGED
+35952,[Dev] Fixed name of logging method in managed logging,drawbyperpetual,2024-11-15T13:44:38Z,2024-11-26T20:38:41+00:00,1,270.9,True,48,4,1,1815,0,0,0,MERGED
+35943,Simplify language and structure for clarity and ease of use.,sanskaarz,2024-11-14T19:52:32Z,2024-11-20T17:24:04+00:00,1,141.53,True,34,34,1,1982,3,0,3,MERGED
+35926,[PTRun][Docs] Add Bilibili to Third-Party plugins,Whuihuan,2024-11-14T08:47:16Z,2024-11-20T17:25:35+00:00,1,152.64,True,4,0,2,63,2,0,2,MERGED
+35925,[Peek] Fix Monaco assets folder discovery,daverayment,2024-11-14T04:22:09Z,2024-11-22T16:24:15+00:00,1,204.03,True,16,22,1,2105,0,0,0,MERGED
+35922,[DATA_AND_PRIVACY.md] updating the list of diagnostic data events,ethanfangg,2024-11-14T00:33:12Z,2024-11-20T17:25:21+00:00,1,160.87,True,8,0,1,706,0,0,0,MERGED
+35913,"[Workspaces] Implement PWA recognition, launch.",donlaci,2024-11-13T15:56:16Z,2024-11-20T19:15:18+00:00,10,171.32,True,967,538,26,1215,7,19,26,MERGED
+35907,SpellCheck > Allowed names: Remove duplicates ,htcfreek,2024-11-13T08:11:14Z,2024-11-13T22:41:55+00:00,1,14.51,True,0,3,1,778,1,0,1,MERGED
+35905,[ci]Fix building for Visual Studio 17.12,jaimecbernardo,2024-11-13T00:12:54Z,2024-11-13T01:13:23+00:00,1,1.01,True,33,0,6,363,0,0,0,MERGED
+35902,[Advanced Paste] Add Semantic Kernel opt-in to allow chaining of paste actions,drawbyperpetual,2024-11-12T21:28:02Z,2024-12-11T09:28:44+00:00,7,684.01,True,2562,910,75,1994,8,1,9,MERGED
+35890,[KeyboardManager] Fix shift on numpad,mantaionut,2024-11-12T09:46:23Z,2024-12-04T17:41:12+00:00,3,535.91,True,90,0,5,1371,6,6,12,MERGED
+35887,"[Screen Ruler]New feature for screen ruler, showing the measurement in an extra unit",Sophanatprime,2024-11-12T04:34:47Z,2024-12-05T22:02:17+00:00,2,569.46,True,332,100,26,1264,5,3,8,MERGED
+35885,updating the README.md for better clarity,ethanfangg,2024-11-11T21:54:36Z,2024-11-13T16:43:41+00:00,1,42.82,True,3,3,1,708,0,0,0,MERGED
+35880,[New utility]Sysinternals ZoomIt,jaimecbernardo,2024-11-11T16:39:40Z,2025-01-16T20:52:24+00:00,27,1588.21,True,17201,20,123,1031,20,38,58,MERGED
+35871,gpt 4o mini instead of gpt 3.5,WeOneGuy,2024-11-10T20:59:34Z,2024-12-11T02:37:38+00:00,1,725.63,False,1,1,1,2,5,0,5,CLOSED
+35832,New+ Windows 10 support,cgaarden,2024-11-08T05:09:57Z,2024-11-27T14:22:05+00:00,2,465.2,True,1246,109,32,1420,9,0,9,MERGED
+35801,[Settings]Fix release cycle links in OOBE What's New page,mantaionut,2024-11-06T18:06:29Z,2024-11-08T15:38:33+00:00,2,45.53,True,5,1,1,1169,0,1,1,MERGED
+35778,Removed extra space from welcome page,agarwalishita,2024-11-05T18:35:42Z,2024-11-26T05:13:44+00:00,1,490.63,True,2,2,2,145,7,0,7,MERGED
+35757,[PTRun] add support for UUIDv7 generation,frederik-hoeft,2024-11-04T22:37:01Z,2024-11-28T15:52:17+00:00,1,569.25,True,98,62,9,917,6,0,6,MERGED
+35749,0.86 tweaks proposals,crutkas,2024-11-04T15:09:11Z,2024-11-04T16:27:02+00:00,2,1.3,True,5,5,1,44,1,2,3,MERGED
+35726,"Ready for Review - [Mouse Without Borders] - refactoring ""Common"" classes - Common.Log.cs, Common.Receiver.cs #35156",mikeclayton,2024-11-02T17:49:35Z,2025-01-17T15:41:39+00:00,1,1821.87,True,698,661,19,5450,2,0,2,MERGED
+35716,[Dev][Build] .NET 9 Upgrade,snickler,2024-11-02T04:36:45Z,2024-11-13T17:36:45+00:00,2,277.0,True,185,105,64,1315,1,0,1,MERGED
+35711,[ci][Arm64]Manually copy WebView2 core dll after building and publishing,jaimecbernardo,2024-11-01T16:32:50Z,2024-11-01T20:18:33+00:00,7,3.76,True,10,0,1,1240,1,2,3,MERGED
+35693,0.86 changelog,jaimecbernardo,2024-10-31T12:31:02Z,2024-11-04T18:47:01+00:00,3,102.27,True,69,79,1,109,0,2,2,MERGED
+35691,[WindowWalker]Added Score to the results returned by WindowWalker,andbartol,2024-10-31T10:43:18Z,2024-11-27T17:30:25+00:00,1,654.79,True,1,0,1,874,1,0,1,MERGED
+35681,"[Settings] Fix ""Diagnostic Data Viewer"" UI freeze",davidegiacometti,2024-10-30T21:34:36Z,2024-10-31T08:15:42+00:00,2,10.69,True,2,2,1,891,2,0,2,MERGED
+35678,Update DATA_AND_PRIVACY.md,crutkas,2024-10-30T18:56:27Z,2024-10-31T01:45:14+00:00,1,6.81,True,2,2,1,706,0,0,0,MERGED
+35663,[Hosts] Reset Terminate event after closing,stefansjfw,2024-10-30T02:36:26Z,2024-10-30T14:51:51+00:00,1,12.26,True,7,0,1,1041,0,0,0,MERGED
+35658,Update New+ Icons to PowerToys Style,ethanfangg,2024-10-29T23:23:12Z,2024-10-30T16:10:25+00:00,1,16.79,True,0,0,3,767,3,0,3,MERGED
+35656,[Deps] Upgrade System.IO.Abstractions,davidegiacometti,2024-10-29T21:25:20Z,2024-11-11T09:42:40+00:00,4,300.29,True,67,50,22,1700,12,1,13,MERGED
+35652,[Workspaces] fix launcher restart for admin users,donlaci,2024-10-29T18:32:38Z,2024-10-30T14:52:15+00:00,2,20.33,True,40,25,2,888,3,0,3,MERGED
+35651,[FilePreview] Use syntax highlighting for `.srt`,PesBandi,2024-10-29T16:36:01Z,2024-12-03T17:25:36+00:00,6,840.83,True,52,21,11,1196,17,3,20,MERGED
+35637,Use background threads in NativeEventWaiters to prevent dangling threads,stefansjfw,2024-10-28T21:07:28Z,2024-10-29T15:31:13+00:00,3,18.4,True,16,7,3,1088,0,1,1,MERGED
+35635,[Settings] Fix crash on View Diagnostic data click,stefansjfw,2024-10-28T19:40:03Z,2024-10-29T14:20:24+00:00,1,18.67,True,18,10,1,881,0,0,0,MERGED
+35622,[Peek] Expand image format support for Image Previewer,daverayment,2024-10-27T23:22:35Z,2024-11-22T14:49:35+00:00,2,615.45,True,11,90,2,2873,2,1,3,MERGED
+35607,Expand usage guidelines section in `README.md` with detailed instruct…,akaday,2024-10-26T16:37:54Z,2024-10-27T15:47:06+00:00,2,23.15,False,419,0,11,1273,2,0,2,CLOSED
+35603,Fix crash caused by dangling thread,stefansjfw,2024-10-26T10:20:26Z,2024-10-27T20:51:11+00:00,1,34.51,True,3,3,2,1077,2,0,2,MERGED
+35601,"Adding in our ""Data and Privacy"" documentation",ethanfangg,2024-10-25T22:11:33Z,2024-10-30T18:53:21+00:00,8,116.7,True,1013,2,2,706,7,5,12,MERGED
+35600,[AdvancedPaste] Add all supported image filetypes to ImageToText,daverayment,2024-10-25T21:51:06Z,2025-01-13T12:05:10+00:00,1,1910.23,True,7,2,1,2471,2,0,2,MERGED
+35599,[FilePreview] Add support for descript.ion files,octastylos-pseudodipteros,2024-10-25T20:23:10Z,2024-11-28T17:11:28+00:00,1,812.8,True,2,2,2,580,0,0,0,MERGED
+35597,Revert preview handlers telemetry logs and add tracers,stefansjfw,2024-10-25T20:16:10Z,2024-10-28T12:09:08+00:00,1,63.88,True,488,4,26,1008,0,1,1,MERGED
+35582,[MouseJump]Bring back telemetry events,jaimecbernardo,2024-10-25T10:57:33Z,2024-10-25T12:28:01+00:00,1,1.51,True,38,6,7,348,1,0,1,MERGED
+35559,Updating navigation tree for settings with groupings,crutkas,2024-10-24T04:25:27Z,2024-10-27T22:21:27+00:00,11,89.93,True,199,139,9,1233,10,8,18,MERGED
+35539,PowerAccent with multi-language selection,Sirozha1337,2024-10-22T21:42:38Z,2024-12-02T15:21:57+00:00,1,977.66,True,400,199,8,1340,24,2,26,MERGED
+35538,[Peek] Add support for previewing .ahk files as plaintext,daverayment,2024-10-22T21:36:10Z,2024-11-22T16:25:01+00:00,1,738.81,True,5,4,3,1732,6,0,6,MERGED
+35535,[Workspaces] eliminate crash threat,donlaci,2024-10-22T15:52:47Z,2024-10-23T13:00:56+00:00,1,21.14,True,5,0,1,817,0,0,0,MERGED
+35528,[Deps]Upgrade MessagePack to 2.5.187 and SteamJsonRpc to 2.19.27,jaimecbernardo,2024-10-22T10:48:48Z,2024-10-22T18:02:38+00:00,1,7.23,True,17,3,7,262,3,0,3,MERGED
+35521,"Ready for Review - [Mouse Jump] Customisable appearance - borders, margins, colours, etc - final part",mikeclayton,2024-10-21T20:37:39Z,2024-11-26T15:38:00+00:00,2,859.01,True,1680,962,39,5678,7,1,8,MERGED
+35520,[ci]Fail when a step in multiline powershell fails,jaimecbernardo,2024-10-21T15:40:55Z,2024-10-23T07:52:48+00:00,3,40.2,True,10,2,3,701,0,0,0,MERGED
+35500,Add support for Serbian Cyrillic in PowerAccent.,Sirozha1337,2024-10-19T15:03:13Z,2024-10-22T08:35:49+00:00,2,65.54,True,23,2,4,1117,3,5,8,MERGED
+35480,[Workspaces] implement the move feature,donlaci,2024-10-18T09:44:41Z,2024-12-04T17:17:54+00:00,6,1135.55,True,668,556,38,788,2,9,11,MERGED
+35465,Fix for bug when creating folders or files using New+ within folders that contain Unicode character (wstring all the way),cgaarden,2024-10-17T01:59:32Z,2024-10-21T10:38:26+00:00,1,104.65,True,4,4,1,1025,1,0,1,MERGED
+35464,New+ bug fix for 35179 where if target folder with same name already exists New+ creates folder instance within the existing one,cgaarden,2024-10-17T01:23:11Z,2024-10-21T10:51:14+00:00,1,105.47,True,13,3,2,1162,0,0,0,MERGED
+35462,[Settings] Sort Languages ComboBox,davidegiacometti,2024-10-16T22:28:10Z,2024-10-18T13:09:29+00:00,1,38.69,True,31,7,1,1087,2,0,2,MERGED
+35459,[PTRun]Improve copy error handling,PesBandi,2024-10-16T19:19:28Z,2024-10-21T12:42:12+00:00,5,113.38,True,27,9,6,771,2,2,4,MERGED
+35455,[Workspaces] snapshot: fix coordinates for the minimized apps.,donlaci,2024-10-16T16:38:25Z,2024-10-23T09:34:21+00:00,1,160.93,True,26,5,3,1045,2,0,2,MERGED
+35453,Adds two new third party plugins for Run,skttl,2024-10-16T13:21:19Z,2024-11-21T15:35:18+00:00,1,866.23,True,6,0,2,269,3,0,3,MERGED
+35447,Trying to correct spelling error around having leading numeric value for user name,crutkas,2024-10-15T23:06:50Z,2024-10-18T18:25:25+00:00,1,67.31,True,2,2,2,81,0,0,0,MERGED
+35433,WinGet manifest Keyboard Shortcuts extension,noraa-junker,2024-10-14T14:46:25Z,2025-09-05T05:00:03+00:00,5,7814.23,False,322,0,3,733,8,11,19,CLOSED
+35429,Runner - Update notification opens settings,gokcekantarci,2024-10-14T12:23:48Z,2024-10-28T12:10:19+00:00,1,335.78,True,27,7,4,1527,2,0,2,MERGED
+35427,[Workspaces] re-implementing Monitor ID usage,donlaci,2024-10-14T09:26:11Z,2024-10-23T09:33:35+00:00,1,216.12,True,47,33,3,1041,0,0,0,MERGED
+35426,[ci]Fix running xaml styles in CI,jaimecbernardo,2024-10-14T09:03:52Z,2024-10-14T13:59:10+00:00,2,4.92,True,18,11,5,402,2,0,2,MERGED
+35418,Add Delete functionality for Peek,daverayment,2024-10-13T21:10:20Z,2025-03-18T08:59:20+00:00,33,3731.82,True,793,88,21,4508,32,11,43,MERGED
+35381,[Deps] WinAppSDK 1.6.1 and CsWinRT 2.1.5 update,snickler,2024-10-10T22:36:06Z,2024-10-11T13:35:14+00:00,2,14.99,True,16,16,8,843,0,0,0,MERGED
+35380,Removing Markdown exclude,crutkas,2024-10-10T22:26:52Z,2024-10-11T18:56:55+00:00,2,20.5,True,10,10,1,433,0,0,0,MERGED
+35379,removing dup entry in spelling,crutkas,2024-10-10T22:15:35Z,2024-10-11T18:40:36+00:00,1,20.42,True,0,1,1,62,0,0,0,MERGED
+35367,Wpf-UI update border and background visibility,gokcekantarci,2024-10-10T10:35:27Z,2024-10-11T10:51:03+00:00,1,24.26,True,8,3,5,959,4,0,4,MERGED
+35353,"[Security][Deps] Update System.Text.Json, System.Runtime.Caching and their dependencies to latest versions",snickler,2024-10-09T16:01:48Z,2024-10-10T20:02:40+00:00,1,28.01,True,15,303,28,814,1,0,1,MERGED
+35352,Add support for new issue types of Microsoft Organisation,noraa-junker,2024-10-09T14:54:51Z,2024-10-09T23:00:51+00:00,1,8.1,True,3,0,3,382,0,0,0,MERGED
+35297,[Workspaces] Sequential launch,SeraphimaZykova,2024-10-07T21:32:37Z,2024-10-14T13:51:02+00:00,2,160.31,True,399,138,26,1146,4,0,4,MERGED
+35296,Updated README.md for 0.85.1 release,ethanfangg,2024-10-07T18:59:53Z,2024-10-07T21:42:14+00:00,1,2.71,True,9,9,1,706,0,0,0,MERGED
+35275,[PTRun][Docs] Add HackMD to Third-Party plugins,8LWXpg,2024-10-06T05:43:46Z,2024-10-10T22:18:49+00:00,1,112.58,True,1,0,1,62,0,0,0,MERGED
+35256,PtRun - CultureNotFoundException Handling,gokcekantarci,2024-10-04T14:00:30Z,2024-10-11T14:51:22+00:00,1,168.85,True,10,2,1,1073,0,0,0,MERGED
+35248,[Analyzers] Resolve Stylecop SA1516 violations and others to enable fully building on VS 17.12,snickler,2024-10-04T01:09:29Z,2024-10-17T09:14:57+00:00,1,320.09,True,199,1,190,798,4,0,4,MERGED
+35237,[Settings]Fix crash showing non-existent New+ template folder,jaimecbernardo,2024-10-03T13:23:53Z,2024-10-03T16:24:23+00:00,1,3.01,True,14,5,1,899,0,0,0,MERGED
+35235,[Settings > New+ page] Fix enabled state of template backup info bar,htcfreek,2024-10-03T11:26:07Z,2024-10-18T14:02:25+00:00,2,362.61,True,3,3,1,877,3,0,3,MERGED
+35233,[Workspaces] Fix launching incorrect workspace via shortcut,SeraphimaZykova,2024-10-03T09:36:08Z,2024-10-03T14:09:14+00:00,1,4.55,True,13,0,1,876,0,0,0,MERGED
+35221,Adjusting 8LWXpg user name in so it doesn't throw a spell check,crutkas,2024-10-02T19:35:32Z,2024-10-07T16:44:25+00:00,1,117.15,True,3,1,2,78,2,1,3,MERGED
+35201,KBM - Keyboard Manager Shortcut Bugs,gokcekantarci,2024-10-02T12:26:44Z,2025-03-28T12:02:12+00:00,2,4247.59,False,209,37,5,1802,4,0,4,CLOSED
+35183,[PTRun][Docs] Add SSH to Third-Party plugins,8LWXpg,2024-10-02T03:58:45Z,2024-10-18T17:57:51+00:00,1,397.99,True,1,0,1,58,0,0,0,MERGED
+35176,[PTRun][WebSearch] Fix title not displaying last letter,octastylos-pseudodipteros,2024-10-01T19:55:41Z,2024-10-18T12:37:10+00:00,2,400.69,True,1,1,1,597,0,0,0,MERGED
+35167,"Additional actions - Image to text, Paste as file (txt, png, html)",drawbyperpetual,2024-10-01T13:11:36Z,2024-10-18T13:34:09+00:00,2,408.38,True,1414,603,41,945,0,0,0,MERGED
+35156,"Ready for Review - [Mouse Without Borders] - refactoring ""Common"" classes - ```Common.Log.cs```",mikeclayton,2024-09-30T23:32:45Z,2024-10-18T16:32:09+00:00,2,424.99,True,1965,839,37,4961,4,0,4,MERGED
+35145,[NewPlus]Normalize settings infrastructure,jaimecbernardo,2024-09-30T14:21:12Z,2024-09-30T15:54:07+00:00,1,1.55,True,93,80,6,356,0,0,0,MERGED
+35140,[Workspaces] fix snapshot tool: update capturing windows settings app,donlaci,2024-09-30T11:37:06Z,2024-09-30T13:37:21+00:00,3,2.0,True,10,1,2,784,2,2,4,MERGED
+35139,Revert CommunityToolkit update to fix ARM settings app crash,stefansjfw,2024-09-30T11:29:18Z,2024-09-30T14:00:50+00:00,1,2.53,True,16,16,2,1464,0,0,0,MERGED
+35122,[RegistryPreview] Adopt Monaco Editor,davidegiacometti,2024-09-29T11:42:10Z,2024-10-24T19:55:51+00:00,3,608.23,True,455,132,135,1860,11,1,12,MERGED
+35113,Removed build status from readme,crutkas,2024-09-28T14:52:36Z,2024-09-30T18:04:49+00:00,1,51.2,True,0,7,1,936,0,0,0,MERGED
+35105,Adjusting Current utilites and removing build status section,crutkas,2024-09-27T22:09:19Z,2024-09-28T14:51:44+00:00,4,16.71,False,9,18,1,987,0,1,1,CLOSED
+35101,[Workspaces] Fix Steam repositioning,SeraphimaZykova,2024-09-27T16:54:27Z,2024-09-27T22:00:54+00:00,3,5.11,True,80,126,4,903,2,1,3,MERGED
+35100,Logging cleanup for Awake,dend,2024-09-27T16:14:07Z,2024-09-27T19:38:42+00:00,2,3.41,True,5,5,4,66,0,0,0,MERGED
+35095,0.85 changelog,jaimecbernardo,2024-09-27T14:12:23Z,2024-10-01T17:54:01+00:00,6,99.69,True,79,61,1,109,7,3,10,MERGED
+35087,build: reintroduce variables.EnablePipelineCache,DHowett,2024-09-26T22:31:55Z,2024-09-27T09:39:42+00:00,2,11.13,True,4,1,2,104,0,0,0,MERGED
+35085,build: disable recompilation for the NuGet packages,DHowett,2024-09-26T21:23:06Z,2024-09-27T09:26:47+00:00,1,12.06,True,3,3,1,159,1,0,1,MERGED
+35084,[Chore] Common Logger: Log missing Exception type,davidegiacometti,2024-09-26T20:20:09Z,2024-10-18T09:11:18+00:00,1,516.85,True,23,8,1,1771,0,0,0,MERGED
+35080,[NewPlus] Set package version in CI,stefansjfw,2024-09-26T08:30:58Z,2024-09-26T13:48:47+00:00,1,5.3,True,9,0,1,706,0,0,0,MERGED
+35076,[Peek] Improve folder enumeration,daverayment,2024-09-25T23:53:52Z,2024-10-18T13:52:47+00:00,10,541.98,True,81,147,1,3544,9,6,15,MERGED
+35073,[PTRun][UnitConverter]Preserve more significant digits,PesBandi,2024-09-25T18:55:12Z,2024-10-18T13:51:58+00:00,1,546.95,True,28,66,4,1604,1,0,1,MERGED
+35072,Adding New+ to the GitHub Issue Templates,ethanfangg,2024-09-25T18:52:58Z,2024-09-26T10:24:03+00:00,1,15.52,True,2,0,2,749,1,0,1,MERGED
+35070,release: do not publish symbols to the public by default,DHowett,2024-09-25T17:03:20Z,2024-09-25T18:15:18+00:00,2,1.2,True,5,5,1,0,2,0,2,MERGED
+35066,[Settings > New+] Crash when running Dev build of settings,drawbyperpetual,2024-09-25T14:54:22Z,2024-09-25T16:44:16+00:00,1,1.83,True,6,0,1,1268,7,0,7,MERGED
+35064,[Workspaces] Fix restart launcher when elevated,SeraphimaZykova,2024-09-25T14:32:22Z,2024-09-25T15:56:32+00:00,1,1.4,True,69,64,4,769,0,0,0,MERGED
+35059,[Workspaces] launch same apps sequentially,donlaci,2024-09-25T12:07:22Z,2024-10-09T08:52:50+00:00,1,332.76,False,56,13,6,924,1,0,1,CLOSED
+35047,[AdvancedPaste] Hide custom actions on Paste menu when Paste with AI disabled,drawbyperpetual,2024-09-24T22:07:12Z,2024-09-25T10:10:12+00:00,1,12.05,True,49,34,3,907,1,0,1,MERGED
+35036,[MouseUtils] Allow crosshair radius to be 0 px,octastylos-pseudodipteros,2024-09-24T16:32:42Z,2024-09-25T12:58:43+00:00,1,20.43,True,1,1,1,528,0,0,0,MERGED
+35026,"[AdvancedPaste] Check ""Paste with AI"" enabled state for custom actions",drawbyperpetual,2024-09-23T21:05:11Z,2024-09-24T17:16:20+00:00,1,20.19,True,54,11,5,1186,12,0,12,MERGED
+35018,[Workspaces] add monitor detection,donlaci,2024-09-23T11:55:44Z,2024-09-25T11:38:57+00:00,1,47.72,True,31,0,1,860,0,0,0,MERGED
+35006,[BugReport Tool] Add new policy for enabled state of New+ utility,htcfreek,2024-09-22T16:35:51Z,2024-09-23T12:37:40+00:00,1,20.03,True,1,0,1,776,1,0,1,MERGED
+35002,"[Enterprise, GPO] gpo.h: Fixes and code order improvements",htcfreek,2024-09-22T11:27:56Z,2024-09-23T12:33:13+00:00,1,25.09,True,34,23,1,841,6,0,6,MERGED
+35000,"[New+, Enterprise] Policy for showing filename extension",htcfreek,2024-09-22T11:05:01Z,2024-09-24T15:33:01+00:00,2,52.47,True,87,5,10,923,3,1,4,MERGED
+34999,[New+ > Settings page] Init fix and fix for enabled state of controls,htcfreek,2024-09-22T10:32:41Z,2024-09-23T12:28:39+00:00,1,25.93,True,3,3,2,946,2,0,2,MERGED
+34991,[Peek] Fix PreviewHandler previewer not visible on first activation,davidegiacometti,2024-09-21T13:58:59Z,2024-09-23T12:58:08+00:00,1,46.99,True,19,3,2,1405,0,0,0,MERGED
+34985,Significantly rework GenerateAllFileComponents,DHowett,2024-09-20T22:57:36Z,2024-09-23T21:34:56+00:00,1,70.62,True,246,240,3,260,0,0,0,MERGED
+34984,Rewrite the entire Azure DevOps build system,DHowett,2024-09-20T22:49:07Z,2024-09-25T16:23:58+00:00,10,113.58,True,1268,1261,25,2799,16,21,37,MERGED
+34971,[General]Support language change,stefansjfw,2024-09-19T20:46:52Z,2024-09-25T20:20:15+00:00,9,143.56,True,754,25,38,707,7,10,17,MERGED
+34965,[Workspaces] Handle admin windows repositioning.,SeraphimaZykova,2024-09-19T14:31:59Z,2024-09-25T09:13:39+00:00,3,138.69,True,2513,873,65,1045,3,0,3,MERGED
+34948,[Workspaces] implement standalone app handling,donlaci,2024-09-18T13:21:20Z,2024-09-26T17:54:16+00:00,3,196.55,True,84,11,3,816,4,1,5,MERGED
+34912,[AdvPaste]Fix utility invocation telemetry calls,jaimecbernardo,2024-09-16T15:04:37Z,2024-09-18T13:10:16+00:00,2,46.09,True,4,2,1,332,0,0,0,MERGED
+34905,[FileLocksmith] Fix triggering FileLocksmith unexpectedly,stefansjfw,2024-09-16T07:12:06Z,2024-09-24T10:04:07+00:00,1,194.87,True,40,33,1,708,0,0,0,MERGED
+34853,[Analyzers] Resolve StyleCop issues: SA1516 and SA1616,snickler,2024-09-12T21:38:33Z,2024-09-16T20:09:43+00:00,3,94.52,True,690,1,635,800,1,0,1,MERGED
+34845,[Run-UnitConverter] Use capital letters in DegreePrefixer,PesBandi,2024-09-12T16:04:17Z,2024-09-25T12:59:49+00:00,1,308.93,True,14,31,4,642,0,0,0,MERGED
+34844,Fix RegEx in I would like to contribute bot,PesBandi,2024-09-12T15:40:50Z,2024-09-12T18:38:53+00:00,3,2.97,True,1,1,1,804,0,1,1,MERGED
+34824,"[Peek] Add support for previewing AutoHotKey files, CSV, and other plaintext files",daverayment,2024-09-12T00:21:38Z,2024-10-21T12:59:12+00:00,1,948.63,False,58,5,4,2819,15,0,15,CLOSED
+34821,[Settings] WinAppSDK 1.6 Flyout Fix,davidegiacometti,2024-09-11T20:53:38Z,2024-09-12T16:31:06+00:00,1,19.62,True,9,41,4,1016,0,0,0,MERGED
+34819,Added bot trigger to add Product-Workspaces label to new issues-bugs,plante-msft,2024-09-11T19:30:57Z,2024-09-11T23:02:10+00:00,6,3.52,True,11,0,1,161,1,2,3,MERGED
+34802,[Workspaces] add check on project id when launching from editor,donlaci,2024-09-11T10:58:37Z,2024-09-20T10:10:29+00:00,1,215.2,True,4,1,1,1692,3,0,3,MERGED
+34753,Update README.md to include 0.84.1 hashes,ethanfangg,2024-09-10T01:06:51Z,2024-09-10T17:44:20+00:00,1,16.62,True,8,8,1,706,0,0,0,MERGED
+34747,"[QuickAccent]Add degree sign, integral, and vertical ellipsis",rddunphy,2024-09-09T21:34:10Z,2024-09-24T15:07:06+00:00,1,353.55,True,3,3,1,1020,1,0,1,MERGED
+34718,[Peek] Update FilePreviewer to prevent tooltips from obscuring title bar controls,daverayment,2024-09-08T21:19:46Z,2024-09-23T15:00:28+00:00,1,353.68,True,30,6,2,1988,4,0,4,MERGED
+34717,Awake Updates - `PROMETHEAN_09082024`,dend,2024-09-08T18:49:34Z,2024-09-26T14:25:30+00:00,3,427.6,True,259,230,6,14,8,0,8,MERGED
+34697,"[Keyboard Manager] Add IME On, IME Off",kit494way,2024-09-07T14:35:08Z,2024-12-03T16:06:44+00:00,2,2089.53,True,2,0,1,752,5,0,5,MERGED
+34689,[EnvVar] Treat well-known debugging environment variables as lists,chwarr,2024-09-07T00:18:38Z,2024-09-23T14:20:47+00:00,1,398.04,True,10,1,2,999,1,0,1,MERGED
+34640,[Workspaces] Discord and Steam fixes - follow up,SeraphimaZykova,2024-09-05T12:16:53Z,2024-09-05T17:50:17+00:00,1,5.56,True,3,1,1,768,0,0,0,MERGED
+34627,[Workspaces] Fix snapshotting Steam,SeraphimaZykova,2024-09-05T07:33:07Z,2024-09-05T10:08:54+00:00,2,2.6,True,43,3,1,708,0,0,0,MERGED
+34622,WinAppSDK upgrade time! (after .84 is verified stable),crutkas,2024-09-05T04:19:46Z,2024-09-11T15:36:34+00:00,8,155.28,True,87,60,46,854,7,5,12,MERGED
+34602,[Workspaces] Fix snapping Discord,SeraphimaZykova,2024-09-04T15:51:26Z,2024-09-05T10:08:24+00:00,3,18.28,True,17,0,1,843,0,1,1,MERGED
+34600,Removed extra closing parenthesis from the RDP entry,YisroelTech,2024-09-04T14:54:10Z,2024-09-05T02:42:44+00:00,1,11.81,True,1,1,1,796,0,0,0,MERGED

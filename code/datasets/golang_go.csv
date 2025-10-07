@@ -149,3 +149,25 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 30944,runtime: follow Windows calling convention for _cgo_sys_thread_create,stonewell,2019-03-20T03:13:43Z,2019-04-08T19:08:32+00:00,1,471.91,False,13,11,1,54,28,0,28,CLOSED
 30461,cmd/compile: fix mips64 instruction UNPREDICTABLE bug,hengwu0,2019-02-28T06:45:02Z,2019-03-05T03:55:37+00:00,1,117.18,False,4,2,1,219,23,0,23,CLOSED
 30278,net: add IP.IsLocal,MaxSem,2019-02-17T08:44:22Z,2020-03-27T20:25:15+00:00,6,9707.68,False,22,0,2,12,12,1,13,CLOSED
+30156,misc: fix typos in various docs,alkesh26,2019-02-10T15:59:07Z,2019-03-07T07:36:53+00:00,1,591.63,False,6,6,4,0,12,0,12,CLOSED
+30019,os: simplify check whether to run subtest of TestRemoveAll,leonklingele,2019-01-30T17:34:36Z,2019-03-05T02:48:48+00:00,1,801.24,False,2,10,1,0,12,0,12,CLOSED
+30004,cmd/internal/obj: stay consistent by defining loop variable outside loop header,leonklingele,2019-01-30T17:32:18Z,2019-03-02T05:50:20+00:00,1,732.3,False,1,1,1,0,9,0,9,CLOSED
+30003,cmd/internal/obj/mips: use r instead of p.Reg in call to OP_IRR,leonklingele,2019-01-30T17:32:06Z,2019-03-03T17:05:29+00:00,1,767.56,False,1,1,1,0,14,0,14,CLOSED
+29998,cmd/compile/internal/ssa: ignore error from second call to MatchString in test,leonklingele,2019-01-30T17:31:21Z,2019-03-02T17:37:33+00:00,1,744.1,False,2,1,1,0,12,0,12,CLOSED
+29996,bytes: clean up a test,leonklingele,2019-01-30T17:31:05Z,2019-02-26T23:18:18+00:00,1,653.79,False,8,14,1,0,18,0,18,CLOSED
+29995,bytes: add missing Write error check,leonklingele,2019-01-30T17:30:57Z,2019-02-04T12:39:51+00:00,1,115.15,False,3,0,1,0,5,0,5,CLOSED
+29994,bytes: check Write error before written length,leonklingele,2019-01-30T17:30:48Z,2019-02-03T16:08:23+00:00,1,94.63,False,3,3,1,0,10,0,10,CLOSED
+29654,crypto/x509: remove the redundant type declaration,ZZMarquis,2019-01-10T08:21:21Z,2019-02-27T20:56:07+00:00,1,1164.58,False,1,1,1,0,11,0,11,CLOSED
+29648,crypto/x509: remove redundant slice index in domainToReverseLabels,ZZMarquis,2019-01-10T04:00:06Z,2019-06-11T00:38:33+00:00,1,3644.64,False,1,1,1,0,8,0,8,CLOSED
+28735,encoding/json: document the unmarshalling of missing json fields,hellozee,2018-11-12T10:23:06Z,2021-12-15T19:04:00+00:00,1,27104.68,False,2,1,1,241,6,0,6,CLOSED
+28726,doc: add missing import of the log package,unknown,2018-11-11T20:19:36Z,2021-12-15T19:03:59+00:00,1,27118.74,False,4,1,1,133,17,0,17,CLOSED
+28703,cmd/go: don't panic when go run is passed ... under nonexistent dir,mark-rushakoff,2018-11-10T00:36:04Z,2018-11-14T20:00:32+00:00,2,115.41,False,8,0,2,177,23,0,23,CLOSED
+28624,encoding/json: add simple example,cn0047,2018-11-06T19:53:20Z,2021-12-15T19:03:59+00:00,2,27239.18,False,22,0,1,62,10,1,11,CLOSED
+28587,go/ast: break out after first variable in ExampleCommentMap,zigo101,2018-11-04T09:56:39Z,2019-02-27T00:00:57+00:00,1,2750.07,False,2,1,1,101,13,0,13,CLOSED
+28420,runtime: remove no-op pointer writes in treap rotations,zhiqiangxu,2018-10-26T15:11:14Z,2019-10-10T19:25:36+00:00,2,8380.24,False,4,20,1,0,18,2,20,CLOSED
+28218,doc/code.html: update code.html to use go modules,elliotforbes,2018-10-15T19:54:50Z,2020-02-26T22:01:06+00:00,23,11978.1,False,168,70,1,81,77,9,86,CLOSED
+27971,net/http: add Post example,esell,2018-10-02T17:24:09Z,2020-11-10T19:18:07+00:00,3,18481.9,False,17,0,1,87,5,1,6,CLOSED
+25154,encoding/json: include property name for marshal errors,dominicbarnes,2018-04-29T04:00:26Z,2021-12-15T19:03:38+00:00,1,31839.05,False,102,13,2,357,23,0,23,CLOSED
+24584,doc: adds missing log package,ceedon,2018-03-28T23:22:58Z,2018-10-04T17:30:39+00:00,1,4554.13,False,2,1,1,0,7,0,7,CLOSED
+23809,runtime: fix typo in comment,mattn,2018-02-13T09:48:08Z,2018-02-13T15:15:32+00:00,1,5.46,False,1,1,1,29,11,0,11,CLOSED
+23805,add function for bool in math/rand,kirinrastogi,2018-02-13T04:36:22Z,2021-11-09T15:20:05+00:00,2,32770.73,False,5,0,1,45,23,2,25,CLOSED

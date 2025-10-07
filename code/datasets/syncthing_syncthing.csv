@@ -1,4 +1,5 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+10419,fix(policy): only allow approvals by non-author contributors,marbens-arch,2025-10-06T04:17:04Z,2025-10-06T06:42:58+00:00,1,2.43,True,2,2,1,542,0,0,0,MERGED
 10416,docs(docker): make host network mode the default,bt90,2025-09-29T13:18:47Z,2025-09-29T19:20:45+00:00,1,6.03,True,17,61,1,218,3,0,3,MERGED
 10399,build: update GitHub actions,mrclmr,2025-09-18T12:14:23Z,2025-09-22T05:50:09+00:00,1,89.6,True,41,41,5,206,0,0,0,MERGED
 10398,fix(syncthing): do not perform CPU benchmark on startup unless logging enabled,pixelspark,2025-09-17T20:56:15Z,2025-09-19T05:17:10+00:00,2,32.35,True,6,2,1,594,5,1,6,MERGED
@@ -107,7 +108,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 10009,fix(config): remove discontinued primary STUN server (fixes #10008),marbens-arch,2025-03-30T11:56:09Z,2025-03-30T13:17:55+00:00,2,1.36,True,2,1,1,889,2,1,3,MERGED
 10000,build: move nightly build schedule to separate workflow,rasa,2025-03-22T23:07:44Z,2025-03-27T09:31:52+00:00,1,106.4,True,19,3,2,158,2,0,2,MERGED
 9980,refactor(api): make shutdown timeout configurable for tests,emlun,2025-03-02T20:51:31Z,2025-03-07T11:50:34+00:00,1,110.98,True,11,1,2,833,1,0,1,MERGED
-9979,refactor(api): extract method configMuxBuilder.postAdjustGui and add test coverage,emlun,2025-03-01T23:47:50Z,2025-03-09T20:31:06+00:00,5,188.72,True,141,15,2,1803,2,1,3,MERGED
+9979,refactor(api): extract method configMuxBuilder.postAdjustGui and add test coverage,emlun,2025-03-01T23:47:50Z,2025-03-09T20:31:06+00:00,5,188.72,True,141,15,2,1804,2,1,3,MERGED
 9977,refactor(api): deduplicate HTTP test helpers and allow session cookie access,emlun,2025-03-01T20:51:05Z,2025-03-07T10:07:03+00:00,1,133.27,True,39,25,1,749,3,0,3,MERGED
 9966,chore(etc): remove /usr/bin prefix from .desktop files,polyfloyd,2025-02-28T17:07:00Z,2025-02-28T19:59:07+00:00,1,2.87,True,2,2,2,146,1,0,1,MERGED
 9965,chore: switch database engine to sqlite (fixes #9954),calmh,2025-02-23T16:23:38Z,2025-03-29T12:50:08+00:00,24,812.44,True,8311,11980,146,836,14,21,35,MERGED
@@ -149,3 +150,852 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 9731,fix(connections): announce PtP links again (fixes #9730),calmh,2024-09-23T09:29:42Z,2024-09-23T12:32:20+00:00,4,3.04,True,6,4,3,0,0,1,1,MERGED
 9726,chore: add more advanced policy configuration,calmh,2024-09-22T08:32:56Z,2024-09-25T15:41:57+00:00,1,79.15,True,93,2,2,1101,0,0,0,MERGED
 9724,fix(gui): get version from header when not authenticated,emlun,2024-09-21T18:10:16Z,2024-09-22T07:47:02+00:00,1,13.61,True,9,0,1,1823,4,0,4,MERGED
+9722,"chore(connections): lower log level from INFO to DEBUG for ""already connected to this device"" messages (fixes #9715)",dev-saw99,2024-09-21T00:43:31Z,2024-09-21T07:19:58+00:00,4,6.61,True,5,1,1,963,0,1,1,MERGED
+9717,fix(ignore): ensure normalization of patterns and paths match (fixes #9597),imsodin,2024-09-18T19:20:30Z,2024-09-28T15:16:44+00:00,5,235.94,True,59,35,3,305,5,1,6,MERGED
+9716,chore(fs): put the caseFS as the outermost layer again,imsodin,2024-09-18T17:05:52Z,2024-09-18T18:31:20+00:00,1,1.42,True,59,34,2,257,2,0,2,MERGED
+9711,chore(protocol): prioritize closing a connection,imsodin,2024-09-15T17:34:32Z,2024-09-15T19:13:56+00:00,1,1.66,True,16,0,1,346,2,0,2,MERGED
+9710,chore(gui): update HumanDuration.js,rasa,2024-09-14T23:54:32Z,2024-09-15T08:21:18+00:00,1,8.45,True,19,11,1,119,0,0,0,MERGED
+9706,fix(meta): return read error in forbidden_words_test,acolomb,2024-09-13T07:51:07Z,2024-09-18T17:12:24+00:00,1,129.35,True,1,1,1,92,2,0,2,MERGED
+9705,chore(cmd): clean up commands,calmh,2024-09-13T07:10:50Z,2024-09-21T07:04:22+00:00,2,191.89,True,21,25,49,195,1,1,2,MERGED
+9704,fix(model): shut down index sender faster,calmh,2024-09-13T06:25:34Z,2024-09-15T09:37:49+00:00,2,51.2,True,18,0,2,432,0,2,2,MERGED
+9701,"chore(fs): only cache the cache for case FS, not the entire FS",imsodin,2024-09-12T05:54:26Z,2024-09-12T18:35:21+00:00,4,12.68,True,43,41,3,608,1,1,2,MERGED
+9691,"WIP: new ""virtual"" folder type allowing to use cloud based block storage backends like aws S3",cre4ture,2024-09-08T15:05:20Z,2025-03-28T15:40:02+00:00,1,4824.58,False,1166,274,25,5817,38,4,42,CLOSED
+9687,lib/fs: Add test reproducing missing mtimefs issue (ref #9677),imsodin,2024-09-07T21:28:39Z,2024-09-10T11:36:18+00:00,4,62.13,True,78,9,2,367,0,2,2,MERGED
+9685,lib/fs: Fix (remove) casefs caching,calmh,2024-09-06T05:11:35Z,2024-09-11T08:56:48+00:00,2,123.75,False,36,87,3,1223,5,1,6,CLOSED
+9681,lib/discovery: Backoff for global lookup failures,calmh,2024-09-04T10:06:50Z,2024-09-11T07:19:51+00:00,3,165.22,False,24,2,1,557,1,2,3,CLOSED
+9675,fix(config): respect GUI address override in fresh default config (fixes #9783),acolomb,2024-09-02T11:59:48Z,2024-11-19T11:01:43+00:00,1,1871.03,True,12,3,2,1545,19,0,19,MERGED
+9673,"chore(discovery,upgrade): use regular TLS certificate verification",calmh,2024-09-02T07:05:10Z,2024-09-11T07:29:19+00:00,1,216.4,True,8,17,2,1374,5,0,5,MERGED
+9671,lib/api: Correct ordering of Accept-Language codes by weight (fixes #9670),acolomb,2024-09-01T10:35:14Z,2024-09-02T08:15:04+00:00,5,21.66,True,27,5,2,603,4,2,6,MERGED
+9669,gui: Fix incorrect UI language auto detection (fixes #9668),tomasz1986,2024-08-29T09:50:13Z,2024-08-31T20:47:10+00:00,21,58.95,True,15,11,1,558,6,8,14,MERGED
+9667,Use config.NextProtos instead of hardcoded value,misery,2024-08-28T12:49:31Z,2025-03-28T14:02:13+00:00,1,5089.21,False,2,1,1,224,1,1,2,CLOSED
+9666,gui: Add time remaining for sync (ref #899),spideysri2802,2024-08-28T10:22:44Z,2025-03-28T15:37:05+00:00,2,5093.24,False,70,1,2,405,16,1,17,CLOSED
+9661,fix: fix slice init length,bytetigers,2024-08-22T03:22:47Z,2024-08-22T05:12:38+00:00,1,1.83,False,1,1,1,602,0,0,0,CLOSED
+9659,"gui: Replace global ""Panel padding decrease"" style with targeted class",emlun,2024-08-21T09:31:29Z,2024-08-21T13:02:45+00:00,1,3.52,True,14,18,5,331,1,0,1,MERGED
+9657,"lib/model, lib/protocol: Index sending/receiving debugging",calmh,2024-08-20T16:50:16Z,2024-08-28T13:00:20+00:00,17,188.17,True,497,228,6,210,2,10,12,MERGED
+9656,"build, upgrade: Disable upgrades on unsupported OS version (fixes #9290)",calmh,2024-08-20T09:36:31Z,2024-09-25T15:50:30+00:00,5,870.23,False,262,8,12,1258,3,5,8,CLOSED
+9651,"build: use Go 1.23, require minimum 1.22",calmh,2024-08-13T18:08:53Z,2024-08-19T18:26:09+00:00,2,144.29,True,16,27,4,1,13,2,15,MERGED
+9648,lib/fs: Put the caseFS as the outermost layer,imsodin,2024-08-12T19:56:05Z,2024-08-13T08:59:31+00:00,1,13.06,True,59,34,2,103,3,0,3,MERGED
+9646,gui: Add Irish (ga) translation template,acolomb,2024-08-12T07:38:07Z,2024-08-12T11:32:29+00:00,1,3.91,True,2,0,1,230,0,0,0,MERGED
+9644,cli: Remove `go-shlex` dependency,Gusted,2024-08-10T17:57:15Z,2024-08-11T09:37:18+00:00,1,15.67,True,2,6,4,210,0,0,0,MERGED
+9643,lib/sha256: Remove it,Gusted,2024-08-10T06:36:02Z,2024-08-10T11:58:20+00:00,4,5.37,True,17,217,26,2111,7,0,7,MERGED
+9635,Disable upgrades on unsupported kernel (fixes #9290),rasa,2024-08-07T05:45:05Z,2024-08-20T15:37:09+00:00,7,321.87,False,949,72,10,199,16,2,18,CLOSED
+9627,lib/syncthing: Add wrapper for access to model,pixelspark,2024-08-04T18:24:47Z,2024-08-11T18:20:43+00:00,2,167.93,True,90,2,2,349,3,2,5,MERGED
+9622,etc: Move to /usr/lib,bt90,2024-07-31T14:00:21Z,2024-08-10T12:58:04+00:00,1,238.96,False,1,1,1,32,1,0,1,CLOSED
+9619,ios: minimal set of changes for iOS app to work,pixelspark,2024-07-28T11:55:45Z,2024-07-31T05:31:15+00:00,16,65.59,True,156,30,22,1745,3,4,7,MERGED
+9611,Remove restart on suspend systemd service (ref #8448),imsodin,2024-07-15T17:30:41Z,2024-07-17T06:29:49+00:00,1,36.99,True,0,12,2,86,0,0,0,MERGED
+9603,lib/fs: Add missing locks to fakeFile methods (fixes #9499),imsodin,2024-07-08T16:22:35Z,2024-07-09T08:33:30+00:00,1,16.18,True,4,0,1,11,0,0,0,MERGED
+9602,lib/api: Increase test request timeout (fixes #9455),imsodin,2024-07-08T15:27:11Z,2024-07-08T22:37:44+00:00,1,7.18,True,3,1,1,11,0,0,0,MERGED
+9598,Fix handling of extended characters in .stignore on macOS,SimonPickup,2024-06-29T06:57:33Z,2024-09-28T15:16:45+00:00,1,2192.32,False,3,3,2,2907,9,0,9,CLOSED
+9552,gui: Use localised time in duration,rasa,2024-05-21T04:50:35Z,2024-06-05T10:05:51+00:00,1,365.25,True,861,2,5,478,0,0,0,MERGED
+9538,lib/connections: Use proper errors.Is check,Xib1uvXi,2024-05-14T03:15:24Z,2024-05-16T07:01:17+00:00,1,51.76,True,2,1,1,30,0,0,0,MERGED
+9528,lib/connections: Add syncthing_connections_active metric (fixes #9527),DerRockWolf,2024-05-04T16:15:50Z,2024-05-04T20:31:37+00:00,5,4.26,True,37,0,3,692,1,2,3,MERGED
+9525,lib/config: Add file inside folder marker directory,calmh,2024-05-01T06:57:41Z,2024-05-24T06:51:02+00:00,3,551.89,True,38,12,2,1128,0,2,2,MERGED
+9524,etc: Use 7MiB buffer size,otbutz,2024-04-30T14:57:43Z,2024-05-01T08:03:07+00:00,1,17.09,True,3,3,1,68,0,0,0,MERGED
+9522,build(deps): bump github.com/quic-go/quic-go from 0.42.0 to 0.43.0,dependabot,2024-04-29T16:48:07Z,2024-05-16T06:56:44+00:00,1,398.14,True,3,3,2,5693,0,0,0,MERGED
+9520,lib/db: Correct function name in comments,luchenhan,2024-04-29T10:04:53Z,2024-05-16T07:02:57+00:00,1,404.97,True,3,3,3,599,0,0,0,MERGED
+9507,gui: Fix Firefox bookmark favicon (fixes #9506),medusalix,2024-04-09T13:53:57Z,2024-05-01T07:00:37+00:00,1,521.11,True,1,2,1,342,3,0,3,MERGED
+9504,lib/nat: Don't crash on empty address list (fixes #9503),calmh,2024-04-08T13:10:54Z,2024-04-11T11:23:29+00:00,1,70.21,True,2,3,1,125,0,0,0,MERGED
+9502,lib/db: Drop indexes for outgoing data to force refresh (ref #9496),calmh,2024-04-08T06:42:10Z,2024-04-08T09:14:27+00:00,1,2.54,True,34,6,3,451,0,1,1,MERGED
+9496,lib/db: Hold update lock while taking snapshot,calmh,2024-04-05T14:03:35Z,2024-04-05T19:32:44+00:00,1,5.49,True,4,0,1,91,6,0,6,MERGED
+9494,gui: Fix missing link to device editor for names with superscript (ref #9472),tomasz1986,2024-04-05T01:52:07Z,2024-04-07T19:37:31+00:00,1,65.76,True,3,3,1,539,1,0,1,MERGED
+9480,Removed no longer relevant Bountysource link,gtim,2024-03-21T09:35:23Z,2024-03-22T23:23:02+00:00,1,37.79,True,0,7,1,225,0,0,0,MERGED
+9472,gui: Open devices on click in Shared With list in folder info (fixes #8972),Jaspitta,2024-03-15T15:01:48Z,2024-03-17T19:13:10+00:00,11,52.19,True,1,1,1,26,15,6,21,MERGED
+9459,lib/model: Don't bump seq on error in index handler,imsodin,2024-03-10T21:26:00Z,2024-03-11T06:30:21+00:00,2,9.07,True,4,2,1,314,0,0,0,MERGED
+9451,lib/scanner: Fix ticker leak in scanner (fixes #9417),imsodin,2024-03-05T15:56:46Z,2024-03-05T18:04:27+00:00,1,2.13,True,2,4,1,137,0,0,0,MERGED
+9438,"gui: Fix wrapping in ""Shared With"" / ""Folders"" lists.",acolomb,2024-02-26T21:12:38Z,2024-03-03T19:55:10+00:00,1,142.71,True,21,12,2,316,0,0,0,MERGED
+9437,all: Use own automaxprocs package that doesn't log (ref #9436),calmh,2024-02-26T13:56:09Z,2024-02-27T12:05:20+00:00,1,22.15,True,37,22,20,9,0,0,0,MERGED
+9436,"all: Use Linux container CPU quota (fixes #9357, fixes #9435)",uhthomas,2024-02-25T22:36:11Z,2024-02-26T12:23:14+00:00,1,13.78,True,34,12,21,252,3,0,3,MERGED
+9430,lib/model: Ignore difference in extended attributes & ownership when deleting (fixes #9371),luckman212,2024-02-23T06:41:39Z,2024-03-02T14:55:18+00:00,2,200.23,True,7,9,1,320,16,1,17,MERGED
+9429,Add Docker umask Support,beatreichenbach,2024-02-22T01:55:16Z,2024-02-22T08:47:43+00:00,1,6.87,True,6,1,2,1109,0,0,0,MERGED
+9425,Extract session store,emlun,2024-02-18T22:05:00Z,2024-03-21T12:09:47+00:00,2,758.08,True,191,83,4,2149,2,0,2,MERGED
+9422,all: Be more stringent with timer resets/stops (ref #9417),calmh,2024-02-15T13:08:23Z,2024-05-16T06:13:51+00:00,1,2177.09,False,192,167,24,2328,0,4,4,CLOSED
+9409,all: Use some Go 1.21 features,calmh,2024-02-09T16:52:36Z,2024-02-10T20:02:43+00:00,1,27.17,True,23,72,13,125,0,0,0,MERGED
+9402,lib/logger: split STTRACE into list of strings,gudvinr,2024-02-06T08:34:20Z,2024-02-06T13:08:00+00:00,1,4.56,True,26,3,1,190,2,0,2,MERGED
+9399,"lib/model, lib/protocol: Remove FileInfoBatch reuse behavior",calmh,2024-02-05T07:11:38Z,2024-02-10T18:16:27+00:00,3,131.08,True,119,19,4,276,1,1,2,MERGED
+9396,lib/protocol: Further interface refactor,calmh,2024-02-03T15:19:02Z,2024-08-24T10:45:10+00:00,1,4867.44,True,174,225,13,129,1,0,1,MERGED
+9375,lib/protocol: Refactor interface,calmh,2024-01-29T13:11:28Z,2024-01-31T07:18:27+00:00,1,42.12,True,259,293,15,2014,1,0,1,MERGED
+9372,lib/fs: Add invalid UTF-8 guards to Matcher and Watcher (fixes #9369),kylosus,2024-01-27T16:22:45Z,2024-01-28T18:50:26+00:00,11,26.46,True,13,1,1,296,2,4,6,MERGED
+9370,"lib/api: Improve folder summary event, verbose service",calmh,2024-01-26T07:51:46Z,2024-01-31T07:24:39+00:00,5,119.55,True,39,61,4,1140,1,3,4,MERGED
+9367,feat(gui): explanation to options enabled or disabled per folder type,tomasz1986,2024-01-23T20:57:20Z,2025-03-28T15:17:08+00:00,7,10314.33,True,20,0,2,437,1,6,7,MERGED
+9365,lib/fs: Add ASCII fastpath for normalization,bt90,2024-01-23T13:15:21Z,2025-03-28T14:22:48+00:00,18,10321.12,False,74,37,2,101,9,5,14,CLOSED
+9363,build(deps): bump actions/cache from 3 to 4,dependabot,2024-01-22T16:28:08Z,2024-01-31T07:33:02+00:00,1,207.08,True,6,6,1,5164,0,0,0,MERGED
+9358,gui: Remove non-functional HTML from External Versioning tooltip (ref #8923),tomasz1986,2024-01-20T19:57:20Z,2024-01-20T21:11:42+00:00,1,1.24,True,1,1,1,431,0,0,0,MERGED
+9355,gui: Show encryption status for devices sharing folder (ref #8808),acolomb,2024-01-17T22:04:13Z,2024-03-03T20:09:57+00:00,16,1102.1,True,17,2,2,1078,11,3,14,MERGED
+9351,cmd/ursrv: Add FreeBSD detection ,bt90,2024-01-16T13:34:07Z,2024-01-16T16:14:12+00:00,1,2.67,True,1,0,1,53,1,0,1,MERGED
+9350,cmd/ursrv: Fix Arch detection,bt90,2024-01-16T13:25:55Z,2024-01-16T16:13:34+00:00,1,2.79,True,1,0,1,56,1,0,1,MERGED
+9343,lib/ignore: Refactor out result type,calmh,2024-01-13T13:23:36Z,2024-01-13T17:58:23+00:00,3,4.58,True,155,87,12,201,0,1,1,MERGED
+9342,"lib/geoip, cmd/relaypoolsrv, cmd/ursrv: Automatically manage GeoIP updates",calmh,2024-01-13T12:28:21Z,2024-05-18T17:31:50+00:00,6,3029.06,True,212,62,8,424,1,3,4,MERGED
+9340,Optimise ignoring directories for filesystem watcher (fixes #9339),calmh,2024-01-12T08:21:07Z,2024-01-15T10:13:23+00:00,1,73.87,True,114,67,8,1805,4,1,5,MERGED
+9327,lib/versioner: expand tildes in version directory (fixes #9241),nf,2024-01-07T00:10:28Z,2024-01-12T09:46:18+00:00,5,129.6,True,79,3,2,396,1,1,2,MERGED
+9325,Fix website security link in README.md,diemade,2024-01-06T20:05:11Z,2024-01-06T22:58:56+00:00,2,2.9,True,1,1,1,136,0,0,0,MERGED
+9323,lib/scanner: Prevent sync-conflict for receive-only local modifications ,jul13579,2024-01-05T07:18:20Z,2024-01-08T09:29:20+00:00,5,74.18,True,80,6,2,1422,0,3,3,MERGED
+9322,build.go: validate -version argument against regex from lib/build,gudvinr,2024-01-04T10:56:19Z,2025-03-28T14:21:56+00:00,2,10779.43,False,9,4,3,187,6,1,7,CLOSED
+9319,"lib/model, gui: properly handle reverting receive-encrypted folders (fixes #8196)",er-pa,2024-01-03T16:07:08Z,2024-06-07T11:21:16+00:00,5,3739.24,False,27,15,3,785,2,3,5,CLOSED
+9317,gui: Always inform about loading data in Restore Versions modal,tomasz1986,2024-01-02T17:58:33Z,2024-01-03T11:37:51+00:00,5,17.66,True,6,0,1,726,0,1,1,MERGED
+9316,lib/build: Allow semver build in version regex (fixes #9267),KeyWeeUsr,2024-01-02T17:44:50Z,2024-01-02T19:43:23+00:00,1,1.98,True,6,1,2,21,1,0,1,MERGED
+9314,gui: Keep short deviceID length consistent + xrefs (fixes #9313),KeyWeeUsr,2024-01-02T03:11:17Z,2024-01-02T16:31:58+00:00,7,13.34,True,12,6,6,118,0,2,2,MERGED
+9308,"gui, lib/scanner: Improve scan progress indication (ref #8331)",imsodin,2023-12-30T22:26:32Z,2023-12-31T22:01:17+00:00,2,23.58,True,34,13,2,373,0,0,0,MERGED
+9306,lib/protocol: handle empty names in unixOwnershipEqual (fixes #9039),sven,2023-12-28T18:45:51Z,2023-12-29T08:16:33+00:00,2,13.51,True,3,1,1,1062,1,0,1,MERGED
+9301,etc/linux-desktop: use double dash for long options,sertonix,2023-12-22T20:38:31Z,2023-12-23T10:16:47+00:00,1,13.64,True,1,1,1,81,0,0,0,MERGED
+9296,lib/upgrade: Extract signing key to embedded file (fixes #9247),gudvinr,2023-12-18T17:55:26Z,2023-12-18T19:47:57+00:00,1,1.88,True,11,6,2,146,0,0,0,MERGED
+9294,build(deps): bump actions/download-artifact from 3 to 4,dependabot,2023-12-18T16:46:57Z,2024-01-01T10:09:23+00:00,1,329.37,True,5,5,1,2819,0,0,0,MERGED
+9293,build(deps): bump actions/upload-artifact from 3 to 4,dependabot,2023-12-18T16:46:52Z,2024-01-01T10:08:56+00:00,1,329.37,True,7,7,1,3050,0,0,0,MERGED
+9284,"lib/api: Save session & CSRF tokens to database, add option to stay logged in (fixes #9151)",calmh,2023-12-12T08:21:57Z,2024-01-04T10:07:12+00:00,2,553.75,True,785,272,14,669,1,2,3,MERGED
+9279,build(deps): bump actions/setup-go from 4 to 5,dependabot,2023-12-11T16:53:17Z,2023-12-11T20:38:46+00:00,1,3.76,True,12,12,3,4390,0,0,0,MERGED
+9276,lib/model: Use a single lock (phase two: cleanup),calmh,2023-12-11T11:53:45Z,2023-12-11T21:06:45+00:00,1,9.22,True,210,396,13,326,0,0,0,MERGED
+9275,lib/model: Use a single lock,calmh,2023-12-11T09:05:07Z,2023-12-11T20:26:24+00:00,2,11.35,True,48,71,2,738,1,0,1,MERGED
+9271,lib/model: Remove runner during folder cleanup (fixes #9269),imsodin,2023-12-07T21:53:32Z,2023-12-08T06:13:10+00:00,1,8.33,True,34,11,2,991,4,2,6,MERGED
+9266,test: Obliterate & revive integration tests (fixes #8071),calmh,2023-12-06T13:45:50Z,2025-03-27T09:35:51+00:00,4,11443.83,False,822,5371,48,909,8,7,15,CLOSED
+9255,gui: Add search bar for logging (fixes #9252),DAlba-sudo,2023-12-03T23:47:59Z,2025-03-28T14:21:10+00:00,4,11534.55,False,43,2,2,1371,6,2,8,CLOSED
+9254,lib/api: Improve ignore loading error handling (fixes #9253),calmh,2023-12-03T19:25:37Z,2023-12-04T06:11:36+00:00,1,10.77,True,0,6,1,452,0,0,0,MERGED
+9251,lib/fs: Reduce memory usage in xattrs handling,calmh,2023-12-03T16:19:05Z,2023-12-04T11:48:17+00:00,4,19.49,True,34,9,1,2227,0,2,2,MERGED
+9250,lib/scanner: Record inode change time for directories and symlinks,calmh,2023-12-03T15:29:46Z,2023-12-04T06:48:25+00:00,1,15.31,True,11,5,1,264,0,0,0,MERGED
+9236,Specialize a special-purpose checkbox style,emlun,2023-11-19T22:03:10Z,2023-11-21T09:00:19+00:00,7,34.95,True,3,2,2,891,0,2,2,MERGED
+9235,lib/model: Acquire fmut lock in ensureIndexHandler (fixes #9234),imsodin,2023-11-19T19:57:57Z,2023-11-20T07:12:26+00:00,5,11.24,True,3,0,1,91,0,1,1,MERGED
+9226,cmd/syncthing: Add CLI completion functionality (implements #8616),danpadcz,2023-11-15T13:17:47Z,2024-01-04T10:20:53+00:00,3,1197.05,True,23,4,3,747,15,2,17,MERGED
+9220,gui: Use nested namespace for theme name translation keys,acolomb,2023-11-13T21:16:13Z,2023-11-14T06:22:52+00:00,1,9.11,True,258,134,34,262,0,0,0,MERGED
+9214,lib/api: Improve cookie handling (fixes #9208),calmh,2023-11-13T10:21:02Z,2023-11-13T19:37:29+00:00,1,9.27,True,32,22,1,111,0,0,0,MERGED
+9211,Add `org.opencontainers.image.source` to Dockerfiles,DerRockWolf,2023-11-11T10:42:23Z,2023-11-14T06:46:14+00:00,1,68.06,True,71,10,9,661,6,0,6,MERGED
+9201,.,Catfriend1,2023-11-06T21:05:27Z,2023-11-07T00:30:19+00:00,2,3.41,True,1,1,1,1,0,0,0,MERGED
+9192, Support explicit translation ID and dotted namespaces in translation extraction ,emlun,2023-11-05T14:45:27Z,2023-11-13T20:04:24+00:00,3,197.32,True,34,11,4,2617,10,1,11,MERGED
+9190,Prevent Discovery from returning Nil IP (fixes #9189),vapatel2,2023-11-04T02:07:12Z,2023-11-08T11:10:23+00:00,5,105.05,True,30,6,2,578,0,2,2,MERGED
+9185,lib/location: Fix regression of timestamp handling (ref #9180),calmh,2023-10-25T19:54:46Z,2023-10-26T05:41:03+00:00,7,9.77,True,19,5,2,205,0,2,2,MERGED
+9181,build(deps): bump github.com/quic-go/quic-go from 0.39.0 to 0.39.1,dependabot,2023-10-23T16:53:51Z,2023-10-24T05:23:39+00:00,1,12.5,True,3,3,2,1835,0,0,0,MERGED
+9180,"lib/locations: Change default config/data location to new XDG recommendation (fixes #9178, fixes #9179)",calmh,2023-10-22T20:29:38Z,2023-10-25T09:16:24+00:00,4,60.78,True,204,43,2,474,1,1,2,MERGED
+9177,lib/fs: Fix conflicts on Android due to fluctuating inode change time,tomasz1986,2023-10-20T20:43:24Z,2023-10-21T06:24:30+00:00,1,9.69,True,8,0,1,507,1,0,1,MERGED
+9168,lib/fs: properly handle deduplicated files (fixes #9120),er-pa,2023-10-11T11:36:01Z,2023-10-11T12:40:55+00:00,3,1.08,True,44,12,1,729,0,2,2,MERGED
+9166,cmd/syncthing: Mostly replace urfave/cli command line parser with alecthomas/kong,cjc7373,2023-10-10T05:32:21Z,2023-12-11T10:35:58+00:00,5,1493.06,True,294,428,14,592,2,1,3,MERGED
+9159,Check basic auth (and set session cookie) before noauth exceptions,emlun,2023-10-08T18:42:29Z,2023-10-10T05:48:36+00:00,6,35.1,True,39,10,2,1579,9,1,10,MERGED
+9158,Hide log out button when auth is not enabled,emlun,2023-10-08T13:27:23Z,2023-10-15T12:10:41+00:00,3,166.72,True,14,3,3,681,9,1,10,MERGED
+9157,"cmd/ursrv:  : replace ""2006-01-02"" to time.DateOnly",orangekame3,2023-10-07T18:32:31Z,2023-10-11T10:32:19+00:00,1,88.0,True,3,3,1,302,2,0,2,MERGED
+9155,lib/api: Better handle %s templates in LDAP strings (fixes #9072),calmh,2023-10-06T11:51:33Z,2023-10-07T02:29:53+00:00,1,14.64,True,88,18,2,98,0,0,0,MERGED
+9154,lib/model: Verify versioning on configuration reload (fixes #9106),calmh,2023-10-06T11:22:02Z,2023-10-07T02:09:52+00:00,1,14.8,True,10,0,1,81,0,0,0,MERGED
+9153,cmd/stdiscosrv: Handle unescaped cert header from Traefik (fixes #9143),calmh,2023-10-06T11:13:44Z,2023-10-07T02:09:07+00:00,1,14.92,True,8,7,1,27,0,0,0,MERGED
+9152,docker: Allow start even if chown fails (fixes #9133),calmh,2023-10-06T11:10:46Z,2023-10-07T02:12:07+00:00,1,15.02,True,4,2,1,163,0,1,1,MERGED
+9150,gui: Fix favicon status (fixes #9149),bt90,2023-10-05T12:23:11Z,2023-10-06T10:27:14+00:00,2,22.07,True,5,2,1,157,0,1,1,MERGED
+9137,Add oxford comma,DeflateAwning,2023-09-28T04:39:07Z,2023-10-06T15:25:28+00:00,1,202.77,True,44,44,44,0,13,0,13,MERGED
+9136,"Style fixes in README, add security contribution note",DeflateAwning,2023-09-28T04:12:16Z,2023-09-28T09:55:48+00:00,1,5.73,True,21,16,2,120,0,0,0,MERGED
+9128,gui: Scroll to bottom by clicking message in log viewer,d-volution,2023-09-25T16:28:54Z,2023-09-25T19:42:28+00:00,1,3.23,True,6,1,2,201,0,0,0,MERGED
+9126,adding exe files and .vscode to .gitignore,p0l0us,2023-09-25T11:05:42Z,2023-09-25T14:17:01+00:00,4,3.19,True,1,3,1,149,0,2,2,MERGED
+9124,lib/config: Accept pre-hashed password (fixes #9123),calmh,2023-09-23T13:10:45Z,2023-09-24T17:23:49+00:00,2,28.22,True,32,9,5,14,0,0,0,MERGED
+9118,gui: Show if device has Auto Accept enabled in the main GUI,tomasz1986,2023-09-20T22:18:42Z,2023-09-25T19:33:16+00:00,1,117.24,True,4,0,1,221,2,0,2,MERGED
+9117,gui: Add missing $scope in editDeviceUntrustedChanged function,tomasz1986,2023-09-20T21:40:45Z,2023-09-22T05:39:17+00:00,1,31.98,True,3,3,1,282,2,0,2,MERGED
+9116,gui: Show if device is untrusted in the main GUI,tomasz1986,2023-09-20T21:30:29Z,2023-09-25T19:34:19+00:00,2,118.06,True,4,0,1,316,1,1,2,MERGED
+9114,lib/connections: fix transport type detection for QUIC,bt90,2023-09-20T08:03:17Z,2023-09-20T09:23:48+00:00,1,1.34,True,1,1,1,416,0,0,0,MERGED
+9113,"lib/fs, lib/model: Be careful about potentially negative durations (fixes #9112)",calmh,2023-09-19T16:32:44Z,2023-09-20T07:04:47+00:00,1,14.53,True,9,3,2,180,1,0,1,MERGED
+9097,lib/versioner: Don't complain when folder is stopping,calmh,2023-09-11T14:43:58Z,2023-09-11T21:10:18+00:00,1,6.44,True,3,1,1,122,0,0,0,MERGED
+9095,gui: Add missing translation related to Number of Connections (ref #8918),tomasz1986,2023-09-10T23:52:03Z,2023-09-11T03:50:23+00:00,1,3.97,True,2,1,2,128,0,0,0,MERGED
+9094,"gui, lib/versioner: Allow to configure staggered versioning intervals (fixes #8352)",tomasz1986,2023-09-10T22:36:57Z,2025-03-28T14:06:15+00:00,1,13551.49,False,324,26,7,1008,7,1,8,CLOSED
+9093,lib/connections: Make assumptions about isLAN when interface address listing fails,bt90,2023-09-10T19:49:03Z,2023-09-12T12:34:31+00:00,2,40.76,True,12,1,1,234,10,1,11,MERGED
+9089,gui: Disable Save button in modals when invalid or no changes,tomasz1986,2023-09-09T12:17:39Z,2025-03-28T14:05:39+00:00,8,13585.8,False,163,146,5,675,6,5,11,CLOSED
+9087,"lib/beacon, lib/discover: Send IPv4 limited broadcast when address listing fails (fixes #1628)",bt90,2023-09-08T16:35:50Z,2023-09-12T12:28:17+00:00,8,91.87,True,20,21,3,660,8,7,15,MERGED
+9080,cmd/stdiscosrv: Deduplicate addresses,bt90,2023-09-06T10:14:31Z,2023-09-06T12:36:00+00:00,1,2.36,True,4,0,1,141,3,0,3,MERGED
+9079,gui: Block GUI when saving changes only if necessary (ref #9063),tomasz1986,2023-09-05T21:45:57Z,2023-09-12T13:02:38+00:00,1,159.28,True,7,2,1,1259,2,0,2,MERGED
+9078,gui: Fix body padding infinitely increasing due to overlapping modals (ref #9063),tomasz1986,2023-09-05T17:08:06Z,2023-09-25T19:17:58+00:00,6,482.16,True,153,68,1,791,5,4,9,MERGED
+9071,lib/model: Refactor folderRunners to use a serviceMap,calmh,2023-09-01T11:41:07Z,2023-09-02T14:42:46+00:00,1,27.03,True,85,61,8,317,0,0,0,MERGED
+9067,gui: Remove footer and move links to header (fixes #5607),tomasz1986,2023-09-01T01:24:40Z,2023-09-01T06:18:30+00:00,1,4.9,True,27,62,2,1008,0,0,0,MERGED
+9066,gui: Fix lastSeenDays error due to undefined deviceStats when adding new devices (ref #8730),tomasz1986,2023-08-31T22:10:19Z,2023-09-01T05:22:04+00:00,1,7.2,True,1,1,1,977,0,0,0,MERGED
+9065,gui: Automatically select device ID on click (ref #8544),tomasz1986,2023-08-31T16:36:14Z,2023-08-31T20:16:59+00:00,1,3.68,True,2,2,2,387,0,0,0,MERGED
+9063,gui: Prevent modifications when saving changes (fixes #9019),tomasz1986,2023-08-31T12:26:08Z,2023-08-31T15:11:03+00:00,4,2.75,True,16,1,4,586,0,2,2,MERGED
+9062,gui: Show in GUI if limitBandwidthInLan is enabled,tomasz1986,2023-08-30T21:12:57Z,2023-08-31T05:22:24+00:00,1,8.16,True,7,0,2,398,1,0,1,MERGED
+9060,lib/upgrade: Enable HTTP/2 for upgrade checks,calmh,2023-08-30T08:51:56Z,2023-08-30T19:58:35+00:00,1,11.11,True,6,1,1,106,0,0,0,MERGED
+9059,lib/discover: Enable HTTP/2 for global discovery requests,calmh,2023-08-30T07:42:42Z,2023-08-30T19:58:05+00:00,1,12.26,True,21,11,1,364,1,0,1,MERGED
+9049,all: Remove lib/util package,calmh,2023-08-21T16:03:24Z,2023-08-21T17:44:33+00:00,1,1.69,True,414,385,36,250,0,0,0,MERGED
+9048,lib/connections: allow IPv6 ULA in discovery,bt90,2023-08-21T16:02:47Z,2023-08-23T10:28:49+00:00,3,42.43,True,3,17,1,611,2,1,3,MERGED
+9040,"all: Use Go 1.21, new QUIC API",calmh,2023-08-16T14:52:44Z,2023-08-21T13:25:52+00:00,8,118.55,True,139,122,8,111,3,3,6,MERGED
+9038,lib/model: Clean up index handler life cycle (fixes #9021),calmh,2023-08-16T09:31:09Z,2023-08-21T16:39:13+00:00,12,127.13,True,300,61,6,937,11,9,20,MERGED
+9031,lib/versioner: Minor fixes in comments and error message,acolomb,2023-08-08T23:32:11Z,2023-08-09T07:10:07+00:00,1,7.63,True,13,8,7,108,0,0,0,MERGED
+9029,lib/model: Reinstate setting folder idle state,calmh,2023-08-07T20:50:49Z,2023-08-08T05:24:02+00:00,1,8.55,True,4,1,1,297,0,0,0,MERGED
+9012,lib/config/config.go: Allow sharing folder with untrusted device if s…,kewiha,2023-07-31T14:24:06Z,2023-08-02T07:14:53+00:00,1,40.85,True,2,2,1,988,0,0,0,MERGED
+9010,"lib/nat, lib/upnp: IPv6 UPnP support",claraphyll,2023-07-29T23:51:14Z,2023-12-11T06:36:19+00:00,116,3222.75,True,550,128,9,1083,115,86,201,MERGED
+9007,all: Refactor the protocol/model interface a bit (ref #8981),calmh,2023-07-27T06:31:38Z,2023-07-29T08:24:45+00:00,2,49.89,True,431,359,21,1683,3,3,6,MERGED
+9005,gui: Show full error for failed items,calmh,2023-07-26T11:01:17Z,2023-07-26T21:20:17+00:00,1,10.32,True,1,14,3,18,0,0,0,MERGED
+9004,cmd/strelaysrv: Handle accept error with debug set (fixes #9001),calmh,2023-07-26T06:42:29Z,2023-07-26T22:55:49+00:00,1,16.22,True,7,1,1,105,0,0,0,MERGED
+9003,all: Add Prometheus-style metrics to expose some internal performance counters (fixes #5175),calmh,2023-07-25T19:46:44Z,2023-08-04T17:57:30+00:00,1,238.18,True,945,53,25,22924,4,0,4,MERGED
+9002,lib/api: Allow `Bearer` authentication style with API key,calmh,2023-07-25T13:59:30Z,2023-07-26T11:13:07+00:00,5,21.23,True,199,81,3,372,0,2,2,MERGED
+9000,gui: Remove Twitter link from footer,tomasz1986,2023-07-24T17:15:26Z,2023-07-24T22:53:57+00:00,1,5.64,True,0,2,2,462,0,0,0,MERGED
+8998,"model.go: use WARNING for ""Unexpected folder"" messages",ckujau,2023-07-22T19:43:28Z,2023-07-22T21:17:32+00:00,1,1.57,True,1,1,1,604,2,0,2,MERGED
+8996,lib/ur: Don't report uptime if start time is in the past (fixes #7698),tomasz1986,2023-07-21T18:12:09Z,2023-07-22T21:25:03+00:00,8,27.21,True,5,0,1,470,2,4,6,MERGED
+8995,gui: Use case-insensive and backslash-agnostic versions filter (fixes #7973),tomasz1986,2023-07-21T16:26:40Z,2023-08-01T12:20:01+00:00,13,259.89,True,10,2,1,478,10,2,12,MERGED
+8994,"gui, lib/model: Disable periodic cleanup when versions are kept forever (fixes #8350)",tomasz1986,2023-07-21T11:11:42Z,2025-03-28T14:05:19+00:00,2,14786.89,False,18,4,3,989,1,3,4,CLOSED
+8993,lib/osutil: Skip setLowPriority in Windows if already lower (fixes #6597),tomasz1986,2023-07-20T21:16:03Z,2023-07-21T04:38:16+00:00,1,7.37,True,5,0,1,329,0,0,0,MERGED
+8992,"lib/config, lib/model: Better error message for insufficient space",calmh,2023-07-19T20:23:48Z,2023-07-26T21:20:18+00:00,6,168.94,False,2,2,2,75,0,1,1,CLOSED
+8987,gui: Don't hide default values for folders and devices,tomasz1986,2023-07-17T16:22:18Z,2023-09-02T10:19:19+00:00,6,1121.95,True,12,10,1,521,10,4,14,MERGED
+8980,"gui, lib/api: Add possibility to feed through extra version information",calmh,2023-07-10T20:17:02Z,2023-07-16T15:43:11+00:00,4,139.44,True,45,1,4,794,5,2,7,MERGED
+8970,gui: Avoid spurious comma in shared-with device list (fixes #8967),calmh,2023-07-06T14:58:00Z,2023-07-07T05:25:24+00:00,1,14.46,True,7,4,2,37,0,0,0,MERGED
+8969,lib/fs: Clarify errors for Windows filenames (fixes #8968),calmh,2023-07-06T10:13:54Z,2023-07-07T11:00:41+00:00,2,24.78,True,16,12,3,344,0,1,1,MERGED
+8959,gui: Show xattr filter editor when send xattrs checked (fixes #8958),calmh,2023-06-28T05:10:00Z,2023-07-10T06:01:09+00:00,2,288.85,True,1,1,1,39,0,1,1,MERGED
+8955,Update sysctl configs,otbutz,2023-06-27T13:47:19Z,2023-06-28T05:05:13+00:00,2,15.3,True,4,3,1,154,2,1,3,MERGED
+8954,gui: Remove tilde auto-expansions (fixes #8890),calmh,2023-06-27T09:48:08Z,2023-06-28T05:03:53+00:00,1,19.26,True,1,9,1,217,1,0,1,MERGED
+8952,"cmd/syncthing: Add environment variables for --home, --conf, and --data",calmh,2023-06-27T09:04:22Z,2023-06-28T05:03:36+00:00,1,19.99,True,8,8,3,387,0,0,0,MERGED
+8924,build: Tests should run with Go 1.20 on Windows,calmh,2023-06-04T11:57:37Z,2023-06-05T08:19:48+00:00,1,20.37,True,0,13,2,297,0,0,0,MERGED
+8923,gui: Avoid code generating HTML,calmh,2023-06-04T08:04:05Z,2023-06-05T11:16:02+00:00,3,27.2,True,41,67,10,446,11,1,12,MERGED
+8921,"lib/config, gui: Disallow some options in combination with ""untrusted"" (fixes #8920)",calmh,2023-06-03T07:49:00Z,2023-06-14T07:24:32+00:00,15,263.59,True,143,16,8,166,1,2,3,MERGED
+8919,cmd/syncthing: Use correct binary when restarting monitor,calmh,2023-06-01T09:59:00Z,2023-06-02T05:54:32+00:00,1,19.93,True,2,2,1,166,0,0,0,MERGED
+8918,all: Support multiple device connections (fixes #141),calmh,2023-06-01T09:12:32Z,2023-09-06T10:52:02+00:00,60,2329.66,True,1637,930,41,2902,30,29,59,MERGED
+8916,build(deps): bump github.com/minio/sha256-simd from 1.0.0 to 1.0.1,dependabot,2023-05-29T16:57:45Z,2023-06-01T10:16:47+00:00,1,65.32,True,3,4,2,2271,0,0,0,MERGED
+8913,"cmd/strelaysrv: Add '-max-connections', '-limit-interval' and '-unlimited-devices' flag",XeroAlpha,2023-05-23T16:29:35Z,2023-08-19T16:45:55+00:00,1,2112.27,False,61,23,5,618,6,3,9,CLOSED
+8907,Set Platform Data for New Folders w/ ignorePerms Option,agoeckner,2023-05-16T23:25:59Z,2023-05-17T07:06:50+00:00,1,7.68,True,2,2,1,229,0,0,0,MERGED
+8900,Allow BindDN to exclude any username formatting,wrouesnel,2023-05-10T03:07:28Z,2023-05-10T05:52:02+00:00,1,2.74,True,30,1,2,561,0,0,0,MERGED
+8889,"all: Grand test refactor for Go 1.20, other fixes",calmh,2023-05-03T09:21:45Z,2023-05-09T10:01:57+00:00,1,144.67,True,1160,1603,56,528,5,0,5,MERGED
+8883,Set Platform Data for New Folders w/ NoPermissions Flag,agoeckner,2023-04-30T21:56:22Z,2023-05-02T09:11:40+00:00,1,35.26,True,5,1,1,170,4,0,4,MERGED
+8881,CI: Bump actions version; fix Node 12 deprecation warning,kbdharun,2023-04-28T07:21:13Z,2023-04-29T13:21:47+00:00,4,30.01,True,11,11,2,324,4,1,5,MERGED
+8874,lib/ignore: properly handle non-existing included ignore-files (fixes #8764),er-pa,2023-04-20T08:52:13Z,2023-04-20T13:00:56+00:00,11,4.15,True,14,1,2,763,2,4,6,MERGED
+8871,Upgrade recli (fixes #8503),imsodin,2023-04-14T15:08:13Z,2023-04-14T16:46:51+00:00,1,1.64,True,3,3,2,0,0,0,0,MERGED
+8870,Correct various typos,goggle,2023-04-12T03:05:20Z,2023-05-09T06:54:02+00:00,4,651.81,True,23,23,9,62,1,1,2,MERGED
+8868,"lib/config, lib/connections: Configurable protocol priority (ref #8626)",calmh,2023-04-11T09:53:37Z,2023-04-16T12:54:29+00:00,2,123.01,True,622,361,16,553,7,0,7,MERGED
+8860,lib/model: Improve path generation for auto accepted folders (fixes #8859),calmh,2023-04-09T07:16:16Z,2023-04-11T11:07:23+00:00,2,51.85,True,19,4,1,122,0,0,0,MERGED
+8857,docs: fix typo,nekr0z,2023-04-08T07:06:52Z,2023-04-10T10:30:12+00:00,1,51.39,True,1,1,1,64,2,0,2,MERGED
+8852,lib/syncthing: Handle successful global migration (fixes #8851),calmh,2023-04-05T05:49:13Z,2023-04-05T13:25:55+00:00,1,7.61,True,3,1,1,29,0,0,0,MERGED
+8850,gui: added static link to favicon,bird-dancer,2023-04-04T22:24:15Z,2023-06-14T07:59:57+00:00,1,1689.6,True,2,1,1,257,2,0,2,MERGED
+8842,Change of globbing library,a-kbd,2023-03-29T12:06:32Z,2023-05-09T08:00:13+00:00,4,979.89,False,77,9,4,569,2,5,7,CLOSED
+8833,Fix new typos found by codespell,DimitriPapadopoulos,2023-03-20T17:58:26Z,2023-03-21T07:07:29+00:00,2,13.15,True,24,24,14,52,1,0,1,MERGED
+8826,build(deps): bump github.com/hashicorp/golang-lru/v2 from 2.0.1 to 2.0.2,dependabot,2023-03-13T16:57:33Z,2023-03-18T09:17:16+00:00,1,112.33,True,3,3,2,1842,0,0,0,MERGED
+8820,lib/protocol: Cache expensive key operations (fixes #8599),calmh,2023-03-10T10:16:48Z,2023-03-12T19:07:00+00:00,5,56.84,True,212,161,12,164,0,2,2,MERGED
+8810,lib/api: Expose `blocksHash` in file info,calmh,2023-03-06T08:58:28Z,2023-03-06T14:37:15+00:00,1,5.65,True,10,0,3,244,0,0,0,MERGED
+8804,build(deps): bump github.com/chmduquesne/rollinghash from 0.0.0-20180912150627-a60f8e7142b5 to 4.0.0+incompatible,dependabot,2023-02-27T16:57:55Z,2023-03-10T12:36:25+00:00,1,259.64,True,3,3,2,1465,0,0,0,MERGED
+8801,gui: Add Croatian (hr) translation template,acolomb,2023-02-24T07:29:58Z,2023-02-24T16:54:31+00:00,1,9.41,True,2,0,1,21,10,0,10,MERGED
+8777,gui: Switch to Weblate for translations,acolomb,2023-02-06T21:49:16Z,2023-02-07T11:22:09+00:00,1,13.55,True,8513,221,54,3185,9,0,9,MERGED
+8772,all: Use new Go 1.19 atomic types,greatroar,2023-02-04T09:19:07Z,2023-02-07T11:07:35+00:00,1,73.81,True,94,121,19,176,1,0,1,MERGED
+8771,Only fail after chmod error if permissions differ (e.g. on config file),AndiDog,2023-02-03T16:31:29Z,2023-02-20T14:41:11+00:00,2,406.16,True,8,2,1,914,3,0,3,MERGED
+8769,build: Update quic-go and pfilter for Go 1.20 (fixes #8768),calmh,2023-02-02T08:53:30Z,2023-02-02T21:00:50+00:00,1,12.12,True,74,250,6,0,2,0,2,MERGED
+8762,lib/discover: Don't leak relay-tokens to discovery,entity0xfe,2023-01-26T14:46:56Z,2023-03-04T11:16:58+00:00,3,884.5,True,41,0,2,340,6,1,7,MERGED
+8761,gui: Fix broken link to Transifex in lang/README.txt,ViktorOn,2023-01-25T21:13:06Z,2023-01-29T20:52:10+00:00,1,95.65,True,1,1,1,99,0,0,0,MERGED
+8757,Add HTML login form (fixes #4137),emlun,2023-01-23T13:12:42Z,2023-10-06T11:00:58+00:00,102,6141.8,True,651,212,12,498,65,47,112,MERGED
+8755,Handle relay connect timeout (fixes #8749),calmh,2023-01-16T20:16:36Z,2023-01-19T10:15:19+00:00,1,61.98,True,22,2,1,412,1,0,1,MERGED
+8734,gui: add xattr filter editor (fixes #8660),er-pa,2022-12-28T13:50:16Z,2023-02-09T08:14:37+00:00,4,1026.41,True,139,0,3,1319,5,3,8,MERGED
+8730,gui: Fix undefined lastSeenDays error in disconnected-inactive status check (ref #8530),tomasz1986,2022-12-25T20:37:41Z,2022-12-26T11:59:04+00:00,1,15.36,True,1,1,1,332,1,0,1,MERGED
+8726,lib/fs: Use io/fs errors as recommended in std lib,imsodin,2022-12-21T20:53:28Z,2022-12-21T22:42:22+00:00,2,1.81,True,15,9,2,184,2,0,2,MERGED
+8723,script: Add weblatedl.go for downloading updated translations,acolomb,2022-12-17T23:36:02Z,2023-01-08T14:25:01+00:00,6,518.82,True,182,0,2,290,3,3,6,MERGED
+8722,gui: Remove unmaintained language variant nl-BE,acolomb,2022-12-17T23:04:08Z,2022-12-18T07:30:26+00:00,1,8.44,True,0,355,1,201,0,0,0,MERGED
+8721,"gui, script: Fix indentation in lang-en.json to match others",acolomb,2022-12-17T22:50:06Z,2022-12-18T07:29:59+00:00,1,8.66,True,513,515,2,333,0,0,0,MERGED
+8719,docker: ensure entrypoint is executable,jamesob,2022-12-15T16:57:54Z,2022-12-16T07:16:22+00:00,1,14.31,True,1,0,1,168,0,0,0,MERGED
+8713,Updated script to download Transifex translations,calmh,2022-12-11T19:09:25Z,2023-02-09T08:15:26+00:00,1,1429.1,False,31,186,6,78,4,1,5,CLOSED
+8710,lib/fs: Watching is unsupported on android/amd64 (fixes #8709),calmh,2022-12-08T08:28:07Z,2022-12-21T21:01:00+00:00,1,324.55,True,6,4,2,90,3,0,3,MERGED
+8708,build: Handle co-authors (ref #3744),calmh,2022-12-07T07:02:46Z,2022-12-21T21:02:45+00:00,1,350.0,True,50,12,3,335,0,0,0,MERGED
+8706,docker: Update healthcheck cmd for buildx (ref #8640),calmh,2022-12-06T14:53:37Z,2022-12-06T20:23:49+00:00,1,5.5,True,2,2,1,97,1,0,1,MERGED
+8694,gui: Let the backend decide whether connection is local (fixes #8686),acolomb,2022-11-27T19:57:23Z,2022-11-28T08:28:33+00:00,2,12.52,True,248,25,9,750,6,1,7,MERGED
+8687,lib/fs: Optimize WindowsInvalidFilename,greatroar,2022-11-20T22:29:31Z,2022-11-21T11:58:01+00:00,1,13.47,True,9,6,1,807,3,0,3,MERGED
+8685,cmd/syncthing: Use main logger in generate subcommand (fixes #8682),calmh,2022-11-19T08:16:51Z,2022-11-20T12:48:08+00:00,1,28.52,True,12,13,2,519,0,0,0,MERGED
+8680,build: Update all dependencies (fixes #8679),calmh,2022-11-17T12:30:08Z,2022-11-17T20:26:10+00:00,1,7.93,True,76,69,3,44,0,0,0,MERGED
+8670,lib/model: Correctly set xattrs on temp files (fixes #8667),calmh,2022-11-11T06:32:03Z,2022-11-11T10:49:15+00:00,1,4.29,True,43,1,2,239,0,0,0,MERGED
+8662,docs: Separate synced file folder and config files folder mount point,ResRipper,2022-11-10T02:55:45Z,2023-03-10T12:01:17+00:00,1,2889.09,False,3,2,1,263,2,0,2,CLOSED
+8658,lib/model: Correctly handle xattrs on directories (fixes #8657),calmh,2022-11-08T15:44:26Z,2022-11-09T05:54:05+00:00,2,14.16,True,27,29,1,370,3,0,3,MERGED
+8656,lib: Don't bump version when inode time only changes (fixes #8654),imsodin,2022-11-07T21:22:24Z,2022-11-08T07:37:03+00:00,2,10.24,False,22,7,3,299,1,1,2,CLOSED
+8655,lib/protocol: Ignore inode time when xattr&ownership is ignored (fixes #8654),imsodin,2022-11-07T21:11:15Z,2022-11-08T07:36:41+00:00,1,10.42,True,3,3,1,138,0,0,0,MERGED
+8650,lib/fs: Try to remove read only Windows files (fixes #3744),calmh,2022-11-07T06:58:02Z,2022-11-07T20:33:18+00:00,4,13.59,True,46,8,4,164,0,1,1,MERGED
+8647,lib/model: Fixed adding empty items to device list (fixes #8646),Ratio2,2022-11-05T13:53:36Z,2022-12-06T20:22:35+00:00,2,750.48,True,1,1,1,421,3,0,3,MERGED
+8645,gui: Adjust connection type icon size scaling and alignment,tomasz1986,2022-11-04T17:08:31Z,2022-11-04T18:41:27+00:00,1,1.55,True,2,1,1,579,0,0,0,MERGED
+8644,gui: Fix connection type icon width (fixes #8592),tomasz1986,2022-11-04T16:34:01Z,2022-11-04T20:12:18+00:00,2,3.64,True,3,0,1,341,0,0,0,MERGED
+8643,gui: Show folder/device status on small screens,tomasz1986,2022-11-04T15:47:56Z,2023-12-10T14:14:11+00:00,36,9622.44,True,136,49,4,628,6,19,25,MERGED
+8640,docker: Use healthcheck endpoint,bt90,2022-11-03T16:52:27Z,2022-11-03T19:43:33+00:00,1,2.85,True,2,2,1,669,4,0,4,MERGED
+8632,gui: Always show Out of Sync Items for remote devices,tomasz1986,2022-10-31T15:16:02Z,2022-11-03T11:06:32+00:00,1,67.84,True,2,2,1,831,8,0,8,MERGED
+8631,lib/connections: Use adaptive write size for rate limited connections (fixes #8630),calmh,2022-10-31T14:23:00Z,2022-11-03T14:44:47+00:00,1,72.36,True,28,11,2,630,0,0,0,MERGED
+8627,build: Add GitHub actions build for Windows,calmh,2022-10-28T11:59:48Z,2022-11-05T14:40:53+00:00,11,194.68,True,146,1,2,310,0,1,1,MERGED
+8603,"lib/model, lib/protocol: Fix file comparisons (fixes #8594)",calmh,2022-10-13T17:40:33Z,2022-10-16T15:04:28+00:00,2,69.4,True,41,25,2,1222,2,0,2,MERGED
+8600,lib/protocol: Implemented caching of scrypt hashes (fixes #8599),Ratio2,2022-10-11T17:10:30Z,2023-03-10T12:01:13+00:00,3,3594.85,False,59,12,1,616,1,1,2,CLOSED
+8597,gui: Allow automatic device ID selection on WebKit browsers (ref #8544),tomasz1986,2022-10-10T15:22:04Z,2022-10-10T21:01:37+00:00,1,5.66,True,1,0,1,346,1,0,1,MERGED
+8596,lib/scanner: More sensible debug output,calmh,2022-10-08T21:02:54Z,2022-10-13T17:32:59+00:00,1,116.5,True,14,7,3,284,2,0,2,MERGED
+8591,lib/protocol: Show inode change time in FileInfo debug string,calmh,2022-10-07T19:55:31Z,2022-10-08T17:28:10+00:00,1,21.54,True,6,6,1,48,0,0,0,MERGED
+8587,Fix whitespace and indentation errors from recent PRs.,acolomb,2022-10-06T20:16:23Z,2022-10-07T06:10:17+00:00,1,9.9,True,24,34,3,52,2,0,2,MERGED
+8586,"api, gui: Prevent connection issues due to unsupported-upgrade (fixes #8569) ",er-pa,2022-10-06T18:19:50Z,2022-10-06T19:27:09+00:00,2,1.12,True,30,22,2,803,0,2,2,MERGED
+8585,lib/api: Add /rest/noauth/health health-check (fixes #8430) ,er-pa,2022-10-06T09:56:14Z,2022-10-06T19:28:49+00:00,3,9.54,True,18,0,3,1001,3,1,4,MERGED
+8576,cmd/syncthing: Decrypt versions folder (#8575),Ratio2,2022-10-03T00:18:46Z,2023-03-10T12:01:09+00:00,3,3803.71,False,46,14,1,0,4,3,7,CLOSED
+8573,lib/model: Don't lower rescan interval from default on auto accepted enc folder (fixes #8572),Ratio2,2022-10-02T17:14:43Z,2022-12-21T18:52:23+00:00,2,1921.63,True,6,1,1,0,2,0,2,MERGED
+8571,gui: Fix rescan interval when add encrypted folder with watch for changes enabled (fixes #8570),Ratio2,2022-10-02T14:39:22Z,2022-11-03T11:07:36+00:00,2,764.47,True,3,3,1,0,0,0,0,MERGED
+8568,docker: Fix handling of PCAP variable (fixes #8567),calmh,2022-10-01T20:38:03Z,2022-10-02T06:50:27+00:00,1,10.21,True,2,2,2,128,2,0,2,MERGED
+8566,cmd/stcrashreceiver: Update to more modern panicparse,calmh,2022-10-01T11:03:01Z,2022-10-01T20:03:15+00:00,1,9.0,True,18,15,3,26,0,0,0,MERGED
+8565,lib/fs: Skip xattrs test on EOPNOTSUPP (fixes #8564),imsodin,2022-09-30T22:03:28Z,2022-10-01T06:48:00+00:00,1,8.74,True,2,1,1,0,0,0,0,MERGED
+8563,lib: Don't add enc. trailer to info size (fixes #8556),imsodin,2022-09-30T16:14:28Z,2023-03-10T13:14:14+00:00,7,3861.0,True,379,200,6,16,7,4,11,MERGED
+8561,cmd/strelaysrv: Add optional auth token (fixes #3987),entity0xfe,2022-09-28T21:55:28Z,2022-10-01T19:41:02+00:00,12,69.76,True,78,31,6,460,11,6,17,MERGED
+8553,gui: Added conn status icons to Remote Devices (fixes #8244),er-pa,2022-09-23T12:49:11Z,2022-09-30T16:15:19+00:00,8,171.44,True,143,12,11,1809,39,7,46,MERGED
+8552,docker: Add env var to control capabilities,calmh,2022-09-23T09:38:05Z,2022-09-26T11:39:42+00:00,1,74.03,True,19,4,3,188,0,0,0,MERGED
+8549,lib/versioner: Fix error in Trashcan restore (fixes: #7965),er-pa,2022-09-19T16:05:22Z,2022-09-20T09:34:15+00:00,1,17.48,True,87,2,2,752,0,0,0,MERGED
+8548,gui: Allow to translate action and type in Recent Changes modal,tomasz1986,2022-09-17T17:48:05Z,2023-01-05T13:33:04+00:00,19,2635.75,True,14,2,2,186,8,3,11,MERGED
+8547,gui: Fix missing word in sendOwnership explanation in GUI,tomasz1986,2022-09-17T14:57:33Z,2022-09-19T19:34:11+00:00,2,52.61,True,2,2,2,221,3,0,3,MERGED
+8546,gui: Make QR code image downloadable on click,tomasz1986,2022-09-17T11:47:43Z,2022-09-17T16:57:17+00:00,1,5.16,False,7,3,1,558,5,1,6,CLOSED
+8545,gui: Add size and improve alt text of device QR code image,tomasz1986,2022-09-16T20:45:28Z,2022-09-20T09:46:35+00:00,2,85.02,True,1,1,1,625,1,0,1,MERGED
+8544,gui: Replace JS select-on-click with CSS user-select (fixes #3868),tomasz1986,2022-09-16T13:21:46Z,2022-09-20T09:37:35+00:00,1,92.26,True,5,16,4,833,8,0,8,MERGED
+8542,script: Support single quotes in $translate.instant() parsing,acolomb,2022-09-14T21:11:14Z,2022-09-16T20:52:33+00:00,3,47.69,True,21,3,2,423,0,1,1,MERGED
+8539,gui: Disable Restore Versions filters when no versioned files exist (fixes #5408),tomasz1986,2022-09-13T21:36:25Z,2023-03-10T12:41:16+00:00,8,4263.08,True,10,6,2,510,5,2,7,MERGED
+8538,lib: Factor out getting IP address from net.Addr,greatroar,2022-09-13T19:24:47Z,2022-09-14T06:44:47+00:00,6,11.33,True,26,29,7,40,0,1,1,MERGED
+8537,lib/versioner: Fix cleaning behaviour (fixes #7988),er-pa,2022-09-13T08:10:02Z,2022-09-13T17:20:05+00:00,3,9.17,True,193,194,6,1619,7,5,12,MERGED
+8536,etc/linux-systemd: Mention AmbientCapabilities for syncOwnership.,acolomb,2022-09-12T21:43:06Z,2022-09-13T08:00:47+00:00,1,10.29,True,9,1,3,514,0,0,0,MERGED
+8533,gui: Fix text wrapping on tablet-sized screens (fixes #8529),tomasz1986,2022-09-11T21:36:42Z,2022-09-13T17:18:58+00:00,1,43.7,True,9,9,1,880,0,0,0,MERGED
+8532,gui: Fix error in Restore Versions when path exists as both directory and file (fixes #7068),tomasz1986,2022-09-11T20:37:45Z,2022-09-12T06:19:30+00:00,1,9.7,True,1,1,1,482,3,0,3,MERGED
+8531,gui: Add tooltip to folder error message (fixes #7603),tomasz1986,2022-09-11T18:11:36Z,2022-09-11T20:13:05+00:00,1,2.02,True,3,1,1,358,1,0,1,MERGED
+8530,gui: Mark devices that haven't connected for a long time (fixes #7703),tomasz1986,2022-09-11T17:05:59Z,2022-11-03T11:09:28+00:00,17,1266.06,True,30,5,3,982,11,4,15,MERGED
+8526,lib/tlsutil: Use crypto.Signer interface,greatroar,2022-09-09T09:58:54Z,2022-09-09T12:22:38+00:00,1,2.4,True,1,12,1,127,0,0,0,MERGED
+8518,build(deps): bump actions/setup-go from 3.2.1 to 3.3.0,dependabot,2022-08-29T16:39:41Z,2022-09-20T09:46:19+00:00,1,521.11,True,1,1,1,2555,0,0,0,MERGED
+8513,all: Support syncing extended attributes (fixes #2698),calmh,2022-08-25T07:15:16Z,2022-09-14T07:50:56+00:00,25,480.59,True,2743,550,37,791,8,24,32,MERGED
+8502,"cmd/syncthing: Use os.executable in monitor, only fallback to PATH",imsodin,2022-08-14T19:41:29Z,2022-08-17T06:57:33+00:00,4,59.27,True,14,31,1,251,3,2,5,MERGED
+8500,cmd/syncthing: Work around binary in current dir restriction (fixes #8499),imsodin,2022-08-13T15:42:02Z,2022-08-14T19:25:45+00:00,2,27.73,True,35,10,1,285,3,0,3,MERGED
+8497,all: Make scanning ownership opt-in,calmh,2022-08-11T13:16:43Z,2022-08-12T05:47:20+00:00,3,16.51,True,185,141,7,229,0,1,1,MERGED
+8496,lib/fs: Cache user lookups,calmh,2022-08-11T12:31:44Z,2022-08-12T05:48:00+00:00,2,17.27,True,85,16,7,52,3,1,4,MERGED
+8493,cmd/syncthing: Fix two typos,cuishuang,2022-08-10T11:19:22Z,2022-09-10T22:43:10+00:00,1,755.4,True,2,2,1,0,0,0,0,MERGED
+8491,all: Modernize error wrapping,calmh,2022-08-09T10:03:35Z,2022-08-16T08:01:49+00:00,6,165.97,True,108,109,23,331,2,19,21,MERGED
+8490,Update dependabot.yml,jauderho,2022-08-08T18:58:05Z,2022-08-09T10:30:39+00:00,1,15.54,True,7,1,1,360,0,0,0,MERGED
+8485,Refactor CLI code to allow passing CLI arguments via function parameter,Martchus,2022-08-04T16:47:58Z,2022-08-07T16:15:27+00:00,1,71.46,True,16,4,1,1241,0,0,0,MERGED
+8483,build: Update quic-go for Go 1.19,calmh,2022-08-03T08:48:31Z,2022-08-03T13:43:26+00:00,1,4.92,True,85,78,12,329,1,0,1,MERGED
+8475,build(deps): bump github.com/go-ldap/ldap/v3 from 3.4.1 to 3.4.4,dependabot,2022-08-01T16:08:16Z,2022-08-10T06:15:35+00:00,1,206.12,True,11,11,2,2736,0,0,0,MERGED
+8472,docs: clarify docker network mode limitations,bt90,2022-07-31T14:10:27Z,2022-07-31T18:46:57+00:00,2,4.61,True,25,5,1,47,0,0,0,MERGED
+8449,"cmd/syncthing, lib/config: Remove restartOnWakeup option & functionality (fixes #8448)",calmh,2022-07-26T08:28:05Z,2022-07-26T14:53:11+00:00,4,6.42,True,196,261,6,19,2,1,3,MERGED
+8442,all: Add build constants for runtime.GOOS comparisons,calmh,2022-07-22T14:06:13Z,2022-07-28T17:36:39+00:00,7,147.51,True,280,190,51,366,0,1,1,MERGED
+8441,lib/events: added FolderNew and FolderRemove,coderonline,2022-07-21T12:06:32Z,2022-08-10T06:15:56+00:00,1,474.16,False,18,0,2,1173,4,0,4,CLOSED
+8440,build: Update goleveldb,calmh,2022-07-21T11:56:14Z,2022-07-21T16:39:14+00:00,1,4.72,True,40,28,2,1912,0,0,0,MERGED
+8434,all: Support syncing ownership (fixes #1329),calmh,2022-07-14T06:29:09Z,2022-07-26T06:24:58+00:00,3,287.93,True,1895,499,35,669,2,2,4,MERGED
+8433,gui: Fix detailed staggered versioning information in folder info (ref #8348),tomasz1986,2022-07-13T13:49:20Z,2022-07-26T08:12:16+00:00,1,306.38,True,3,2,2,591,2,0,2,MERGED
+8432,gui: Move filesystem watcher explanation from tooltip to help block,tomasz1986,2022-07-13T13:14:19Z,2022-07-22T09:25:15+00:00,3,212.18,True,5,2,1,728,0,1,1,MERGED
+8427,"lib/model, lib/config: Apply sensible defaults for auto-accepted encrypted folder (fixes #8296)",acolomb,2022-07-11T19:33:41Z,2022-07-22T09:27:59+00:00,1,253.91,True,5,0,1,899,3,0,3,MERGED
+8422,lib/osutil: Only announce address of interfaces which are up (fixes #7458),Zahrun,2022-07-07T12:34:11Z,2022-07-07T17:19:30+00:00,6,4.76,True,12,1,1,267,5,2,7,MERGED
+8419,gui: Fix missing span end tag and missing nbsp semicolon in HTML,tomasz1986,2022-07-05T17:14:25Z,2022-07-05T21:04:30+00:00,1,3.83,True,5,4,1,54,0,0,0,MERGED
+8417,Add WebAuthn support to GUI (fixes #8409),emlun,2022-07-05T13:45:49Z,2023-04-23T18:45:34+00:00,29,7013.0,False,2930,189,22,3079,38,15,53,CLOSED
+8415,all: Support syncing ownership (fixes #xxx),calmh,2022-07-05T08:30:50Z,2022-07-21T11:57:45+00:00,1,387.45,False,2083,493,39,430,0,8,8,CLOSED
+8412,cmd/syncthing: Apply file permissions and modtimes when decrypting,calmh,2022-07-04T05:21:21Z,2022-07-04T08:57:46+00:00,1,3.61,True,12,1,1,99,0,0,0,MERGED
+8406,Fix restarting after system suspend (#8341),omgold,2022-07-01T07:01:14Z,2022-07-26T14:53:32+00:00,1,607.87,False,2,2,1,173,5,1,6,CLOSED
+8401,gui: Add device sync status (fixes #7981),Evan-sp,2022-06-23T20:09:06Z,2022-07-26T08:15:19+00:00,5,780.1,True,7,4,2,214,0,1,1,MERGED
+8398,build(deps): bump github.com/alecthomas/kong from 0.3.0 to 0.6.1,dependabot,2022-06-20T16:07:01Z,2022-06-20T17:25:14+00:00,1,1.3,True,7,6,2,1934,0,0,0,MERGED
+8396,"Link to documentation page for ""folder marker missing""",bill-mcgonigle,2022-06-18T18:39:14Z,2023-03-10T12:01:07+00:00,2,6353.36,False,1,1,1,979,4,1,5,CLOSED
+8395,"lib/config, lib/model: Warn about two-way introducer (fixes #8393)",imsodin,2022-06-18T11:11:44Z,2022-06-20T17:36:45+00:00,2,54.42,True,15,0,2,187,0,0,0,MERGED
+8388,gui: Fix missing folder names in Edit Device > Sharing tab (fixes #8369),acolomb,2022-06-15T08:41:35Z,2022-06-15T17:31:55+00:00,1,8.84,True,1,1,1,464,0,0,0,MERGED
+8387,build: Update to patched github.com/gobwas/glob (fixes #8386),calmh,2022-06-15T08:17:30Z,2022-06-15T19:49:15+00:00,2,11.53,True,35,5,3,118,1,0,1,MERGED
+8382,gui: Use discovered IDs from cache when adding a new remote device,acolomb,2022-06-11T14:00:18Z,2022-07-22T09:09:27+00:00,1,979.15,True,26,31,2,718,1,0,1,MERGED
+8378,cmd/syncthing/cli: Add show discovery command (fixes #8007),sec65,2022-06-07T07:09:09Z,2022-07-13T21:11:17+00:00,3,878.04,True,5,0,1,371,2,2,4,MERGED
+8377,Update settingsModalView.html,Renegade605,2022-06-07T02:06:36Z,2022-06-07T04:59:11+00:00,1,2.88,True,2,2,1,462,1,0,1,MERGED
+8373,remove invalid code,Luoxin,2022-06-02T08:43:07Z,2022-06-02T13:15:42+00:00,1,4.54,True,0,4,1,106,0,0,0,MERGED
+8362,gui: remove blank meta tags,lsmithx2,2022-05-25T09:25:03Z,2022-07-26T08:19:12+00:00,1,1486.9,True,0,2,1,259,4,0,4,MERGED
+8356,"lib/model: Don't fail on temporary chmod (fixes #8355, ref #8235)",imsodin,2022-05-22T10:07:04Z,2022-05-22T11:52:40+00:00,1,1.76,True,24,17,1,300,0,0,0,MERGED
+8351,"lib/assets: MIME types, time formats",greatroar,2022-05-21T08:38:29Z,2022-05-22T20:10:18+00:00,5,35.53,True,9,5,1,169,1,1,2,MERGED
+8349,gui: Update Fork Awesome from v1.1.2 to v1.2.0,tomasz1986,2022-05-18T07:35:23Z,2022-05-18T12:08:45+00:00,2,4.56,True,3298,2575,7,326,0,1,1,MERGED
+8348,gui: Add detailed file versioning information to folder info (ref #963),tomasz1986,2022-05-17T21:04:13Z,2022-05-28T11:46:15+00:00,6,254.7,True,35,7,3,1900,2,2,4,MERGED
+8345,build(deps): bump github.com/prometheus/client_golang from 1.11.0 to 1.12.2,dependabot,2022-05-16T16:06:27Z,2022-06-20T17:26:22+00:00,1,841.33,True,11,7,2,7707,0,0,0,MERGED
+8329,lib/api: Fix and optimize csrfManager,greatroar,2022-05-07T07:56:55Z,2022-05-07T10:30:13+00:00,1,2.56,True,32,7,2,159,0,0,0,MERGED
+8324,gui: Show internal config and state paths (fixes #8323),acolomb,2022-05-04T20:31:01Z,2022-08-10T06:25:14+00:00,13,2337.9,True,190,78,10,592,44,7,51,MERGED
+8315,"cmd/strelaysrv, cmd/strelaypoolsrv: Sanitize query strings (fixes #8314)",calmh,2022-05-02T04:54:06Z,2022-05-02T08:38:49+00:00,1,3.75,True,52,1,3,174,0,0,0,MERGED
+8312,lib/events: Remove unused method noopLogger.Stop,greatroar,2022-04-30T14:06:55Z,2022-05-02T06:00:55+00:00,1,39.9,True,0,2,1,61,0,0,0,MERGED
+8309,all: Clean up fmt.Errorf usage,greatroar,2022-04-27T11:44:51Z,2022-04-27T18:30:14+00:00,1,6.76,True,11,8,4,41,3,0,3,MERGED
+8305,gui: Bandaid for null http errors (fixes #8261),imsodin,2022-04-24T21:22:08Z,2022-04-25T17:15:15+00:00,1,19.89,True,2,1,1,150,0,0,0,MERGED
+8302,lib/discover: Filter locally announced addresses (fixes #7289),calmh,2022-04-23T12:30:30Z,2022-05-04T16:43:00+00:00,7,268.21,True,65,0,2,61,1,2,3,MERGED
+8301,gui: Always show vertical scroll bar.,red-led,2022-04-22T18:03:46Z,2022-04-22T19:39:30+00:00,1,1.6,True,1,0,1,130,1,0,1,MERGED
+8290,gui: Improve Latest Change translation string for better multilanguage support,tomasz1986,2022-04-17T15:03:05Z,2022-04-18T04:41:27+00:00,1,13.64,True,4,5,2,572,5,0,5,MERGED
+8288,gui: Remove unused strings from translations,tomasz1986,2022-04-17T11:31:06Z,2022-08-10T06:44:46+00:00,3,2755.23,True,0,9,1,170,2,1,3,MERGED
+8286,gui: Mark folders paused on remote devices (fixes #8310),acolomb,2022-04-16T20:43:40Z,2022-05-03T19:51:10+00:00,1,407.12,True,48,10,4,371,6,0,6,MERGED
+8283,lib/model: Improve remoteFolderState reporting (fixes #8266),acolomb,2022-04-15T20:00:17Z,2022-04-22T06:42:20+00:00,24,154.7,True,73,29,8,654,5,7,12,MERGED
+8281,gui: Use neutral color for zero out of zero listeners,calmh,2022-04-14T13:57:05Z,2022-04-20T12:43:12+00:00,2,142.77,True,1,1,1,123,5,0,5,MERGED
+8280,test: use `T.TempDir` to create temporary test directory,Juneezee,2022-04-13T13:15:17Z,2022-04-15T03:44:07+00:00,1,38.48,True,91,225,22,398,1,0,1,MERGED
+8275,lib/model: Switch the remoteFolderState default value to valid (ref #8202),acolomb,2022-04-13T05:37:07Z,2022-04-13T16:15:58+00:00,1,10.65,True,2,2,1,223,4,0,4,MERGED
+8273,"cmd/syncthing, lib/logger: Add date to default log format (fixes #8272)",calmh,2022-04-12T07:54:26Z,2022-04-15T03:46:14+00:00,2,67.86,True,5,5,2,56,0,0,0,MERGED
+8265,gui: Add default ignores to the advanced configuration editor modal (fixes #8264),acolomb,2022-04-10T22:04:54Z,2022-05-08T19:34:03+00:00,7,669.49,True,27,0,3,660,16,3,19,MERGED
+8263,lib/connections: Make request tests sequential,imsodin,2022-04-10T12:07:19Z,2022-04-10T18:54:16+00:00,1,6.78,True,1,1,1,325,0,0,0,MERGED
+8260,build: Update go directive to 1.17 (fixes #8258),jefferyto,2022-04-08T09:54:43Z,2022-04-09T14:01:25+00:00,4,28.11,True,25,8,3,63,2,1,3,MERGED
+8259,"lib/db: Constant/unused args and return values, double it.Release",greatroar,2022-04-08T09:48:51Z,2022-04-27T18:32:44+00:00,1,464.73,True,14,22,3,284,11,0,11,MERGED
+8257,lib: Get rid of buggy filesystem wrapping,imsodin,2022-04-07T14:53:21Z,2022-04-10T18:55:05+00:00,4,76.03,True,226,189,26,1122,2,3,5,MERGED
+8254,lib: Removal global connection registry,imsodin,2022-04-06T20:43:00Z,2022-04-09T14:04:56+00:00,1,65.37,True,118,94,17,201,1,0,1,MERGED
+8253,"lib/connections, lib/model: Improve new conn handling",imsodin,2022-04-05T19:52:01Z,2022-04-07T15:35:33+00:00,1,43.73,True,105,53,2,913,0,0,0,MERGED
+8249,"lib/fs, lib/model: Add warning about kqueue resource usage (fixes #7855)",imsodin,2022-04-03T09:41:24Z,2022-04-05T19:32:06+00:00,7,57.84,True,157,50,9,720,2,5,7,MERGED
+8238,lib/model: Clear folder error after loading ignores (fixes #8232),imsodin,2022-03-25T19:29:18Z,2022-03-27T19:29:40+00:00,1,48.01,True,1,5,1,328,0,0,0,MERGED
+8236,all: Replace errors.Cause with errors.Is,greatroar,2022-03-25T13:02:15Z,2022-03-26T10:05:58+00:00,1,21.06,True,6,6,4,189,0,0,0,MERGED
+8235,"lib/model: Chmod to mode|0700, not 755",greatroar,2022-03-25T11:59:05Z,2022-03-26T10:07:07+00:00,1,22.13,True,19,16,1,595,1,0,1,MERGED
+8234,Correct comment typo in build.go,gco,2022-03-25T02:44:56Z,2022-04-10T20:24:58+00:00,1,401.67,True,1,1,1,32,0,0,0,MERGED
+8231,build: Bump quic-go to 0.27.0 for go1.18 update,imsodin,2022-03-24T15:45:29Z,2022-04-12T12:27:29+00:00,2,452.7,True,17,14,3,100,7,0,7,MERGED
+8224,build: Pin actions to a full length commit SHA,naveensrinivasan,2022-03-20T18:38:17Z,2022-03-24T15:46:06+00:00,1,93.13,True,2,2,1,1615,3,0,3,MERGED
+8223,lib/fs: Do not follow symlinks in watcher on solaris (fixes #8020),gco,2022-03-19T03:00:47Z,2022-03-24T07:36:44+00:00,2,124.6,True,1,1,1,115,0,0,0,MERGED
+8220,lib/model: Skip paused folders in aggregated completion loop (fixes #8219),acolomb,2022-03-16T20:04:31Z,2022-08-10T06:50:19+00:00,4,3514.76,True,6,1,1,309,0,2,2,MERGED
+8218,all: Comments and cosmetics,acolomb,2022-03-14T23:39:46Z,2022-04-02T18:36:19+00:00,9,450.94,True,13,4,5,178,3,1,4,MERGED
+8217,"lib/db, lib/discover: Minor cleanup",greatroar,2022-03-14T20:26:02Z,2022-03-14T21:48:10+00:00,1,1.37,True,4,26,3,18,0,0,0,MERGED
+8215,lib/db: Make err(Closed|NotFound) values,greatroar,2022-03-13T16:24:53Z,2022-03-13T19:53:35+00:00,1,3.48,True,12,22,2,22,0,0,0,MERGED
+8213,gui: Allow to translate calendar buttons in Restore Versions modal,tomasz1986,2022-03-12T20:32:12Z,2022-03-12T21:44:56+00:00,1,1.21,True,3,0,2,170,0,0,0,MERGED
+8212,gui: Allow to translate Twitter footer link,tomasz1986,2022-03-12T20:11:54Z,2022-03-12T21:44:11+00:00,1,1.54,True,2,1,2,287,0,0,0,MERGED
+8204,gui: Use versioned link to documentation in bottom bar,calmh,2022-03-07T07:32:54Z,2022-03-08T06:56:43+00:00,1,23.4,True,13,11,2,73,1,0,1,MERGED
+8201,"gui, lib/model: Mark folders unaccepted by remote device (fixes #8202)",acolomb,2022-03-04T23:41:22Z,2022-04-10T20:47:57+00:00,16,885.11,True,118,37,11,1644,18,6,24,MERGED
+8200,Rename environment variable STCPUPROFILE for consistency,acolomb,2022-03-03T12:30:53Z,2022-03-03T14:27:17+00:00,1,1.94,True,1,1,1,179,2,0,2,MERGED
+8197,Add port for local discovery broadcasts to Docker documentation,Ajedi32,2022-02-27T23:03:20Z,2022-03-08T07:06:46+00:00,1,200.06,True,5,4,1,143,2,0,2,MERGED
+8191,lib/config: Improve clarity of free space errors (fixes #8180),calmh,2022-02-22T14:48:04Z,2022-02-24T16:07:51+00:00,1,49.33,True,12,10,4,854,0,0,0,MERGED
+8190,build(deps): bump github.com/thejerf/suture/v4 from 4.0.1 to 4.0.2,dependabot,2022-02-21T16:06:17Z,2022-02-23T20:07:15+00:00,1,52.02,True,3,3,2,1784,1,0,1,MERGED
+8177,gui: Remove superfluous Trash Can info text from Simple Versioning,tomasz1986,2022-02-08T15:34:22Z,2022-02-08T19:10:03+00:00,1,3.59,True,2,2,1,526,0,0,0,MERGED
+8175,CSS code formatting in Dark theme,OCRenkist,2022-02-07T22:57:29Z,2022-02-08T06:16:46+00:00,1,7.32,False,119,100,3,70,7,0,7,CLOSED
+8172,gui: Don't use italic text for CJK languages,tomasz1986,2022-02-07T19:22:13Z,2022-02-08T06:07:22+00:00,1,10.75,True,8,0,2,811,2,0,2,MERGED
+8170,build(deps): bump github.com/pierrec/lz4/v4 from 4.1.12 to 4.1.13,dependabot,2022-02-07T16:06:39Z,2022-02-08T06:15:51+00:00,1,14.15,True,3,3,2,2048,0,0,0,MERGED
+8166,Manual-of-Style,OCRenkist,2022-02-07T07:58:28Z,2022-02-22T20:04:29+00:00,1,372.1,False,68,62,2,110,9,8,17,CLOSED
+8163,lib/api: Fix comments for endpoint parameters,acolomb,2022-02-06T21:50:15Z,2022-02-07T07:51:10+00:00,1,10.02,True,5,6,2,107,0,0,0,MERGED
+8162,gui: Allow to translate and fix incorrect Versions date filter ranges,tomasz1986,2022-02-03T19:56:47Z,2022-02-07T20:41:06+00:00,1,96.74,True,17,9,2,1209,6,0,6,MERGED
+8161,"lib, gui: Removed unused cleanInterval from Staggered Versioning (ref #541)",tomasz1986,2022-02-03T14:49:40Z,2022-02-08T06:06:15+00:00,2,111.28,True,8,4,3,398,1,0,1,MERGED
+8151,"lib/db, lib/model: Remove filesystem state from FileSet (fixes #7850)",imsodin,2022-01-30T16:30:17Z,2022-01-31T09:12:52+00:00,2,16.71,True,70,80,11,321,3,0,3,MERGED
+8149,gui: Translate fancytree messages in Versions modal,tomasz1986,2022-01-29T18:57:32Z,2022-01-30T06:56:36+00:00,4,11.98,True,7,0,2,489,0,2,2,MERGED
+8148,lib/fs: Improve error messages checking file paths (fixes #7942),imsodin,2022-01-29T13:59:10Z,2022-01-29T17:47:56+00:00,1,3.81,True,8,4,2,0,0,0,0,MERGED
+8147,gui: Fix and align folder editing states (fixes #8145),imsodin,2022-01-29T13:22:16Z,2022-01-30T16:43:40+00:00,5,27.36,True,21,15,3,0,3,1,4,MERGED
+8146,gui: Let folder ID be editable when adding folder (fixes #8145),calmh,2022-01-28T07:10:46Z,2022-01-30T07:55:07+00:00,1,48.74,False,2,0,1,300,7,0,7,CLOSED
+8144,cmd/stdiscosrv: Don't start replication listener without peers (fixes #8143),calmh,2022-01-27T06:39:38Z,2022-01-27T08:36:54+00:00,1,1.95,True,7,1,1,610,0,0,0,MERGED
+8138,gui: Fix ignoreDelete warning formatting (ref #8054),tomasz1986,2022-01-23T23:42:52Z,2022-01-30T12:03:46+00:00,1,156.35,True,4,3,1,858,8,0,8,MERGED
+8135,gui: Fix loading default ignores (ref #7530),imsodin,2022-01-20T22:25:54Z,2022-01-21T16:24:11+00:00,1,17.97,True,11,6,1,202,3,0,3,MERGED
+8134,build: Bump quic to v0.25.0 for Go1.18 support,imsodin,2022-01-20T22:20:05Z,2022-01-21T13:54:42+00:00,1,15.58,True,5,3,2,0,0,0,0,MERGED
+8133,lib/protocol: Require at least 3.125% savings from compression,greatroar,2022-01-20T21:49:52Z,2022-01-24T18:36:59+00:00,3,92.79,True,18,15,2,413,2,1,3,MERGED
+8131,cmd/syncthing/cli: Add showing pending folders for given device (fixes #8130),DanielBarczyk,2022-01-20T19:50:00Z,2022-01-30T07:09:37+00:00,5,227.33,True,19,3,1,149,4,3,7,MERGED
+8126,build(deps): bump github.com/alecthomas/kong from 0.2.17 to 0.3.0,dependabot,2022-01-17T16:08:09Z,2022-01-22T07:32:03+00:00,1,111.4,True,5,3,2,1936,0,0,0,MERGED
+8123,build(deps): bump github.com/shirou/gopsutil/v3 from 3.21.8 to 3.21.12,dependabot,2022-01-17T16:07:49Z,2022-01-22T07:46:03+00:00,1,111.64,True,16,13,2,1787,1,0,1,MERGED
+8122,lib/protocol: Switch to a newer lz4 package,calmh,2022-01-17T16:03:15Z,2022-01-17T17:52:44+00:00,2,1.82,True,53,21,5,443,0,1,1,MERGED
+8117,gui: Fix bug saving settings (fixes #8116),imsodin,2022-01-16T11:15:16Z,2022-01-16T18:06:50+00:00,1,6.86,True,1,1,1,0,0,0,0,MERGED
+8108,gui: Generate version-specific documentation link URLs,acolomb,2022-01-11T22:09:49Z,2022-01-24T18:36:12+00:00,6,308.44,True,43,15,5,364,11,3,14,MERGED
+8104,lib/model: Remove bogus fields from connections API endpoint (fixes #8103),acolomb,2022-01-09T18:15:12Z,2022-01-10T09:26:45+00:00,1,15.19,True,14,30,2,328,10,0,10,MERGED
+8101,gui: Sort language names vertically and don't truncate on small screens,tomasz1986,2022-01-07T22:40:45Z,2022-01-08T15:51:30+00:00,3,17.18,True,9,10,1,537,4,1,5,MERGED
+8099,cmd/syncthing: Add --skip-port-probing (fixes #8090),acolomb,2022-01-06T23:19:08Z,2022-01-07T10:19:17+00:00,1,11.0,True,18,16,5,895,0,0,0,MERGED
+8098,cmd/syncthing: Always update config.xml with generate subcommand (ref #8090),acolomb,2022-01-06T23:07:09Z,2022-01-07T10:02:13+00:00,1,10.92,True,16,22,3,1360,0,0,0,MERGED
+8092,cmd/stdiscosrv: Support deploying behind Caddyserver,lkebin,2022-01-01T14:57:33Z,2022-01-05T14:17:14+00:00,8,95.33,True,21,10,1,408,0,6,6,MERGED
+8091,"gui: Make device ID read-only and hide ""nearby devices"" when adding a new pending device (fixes #8083)",tomasz1986,2021-12-31T14:38:17Z,2022-01-28T08:15:57+00:00,52,665.63,True,32,35,3,568,11,14,25,MERGED
+8086,build: Bump quic-go to 0.24.0,imsodin,2021-12-28T11:06:40Z,2021-12-30T12:07:01+00:00,1,49.01,True,3,3,2,640,1,0,1,MERGED
+8079,lib: Fix panic due to closed event subscriptions on shutdown,gsaraf,2021-12-20T15:58:02Z,2021-12-22T19:16:21+00:00,8,51.31,True,19,5,4,1949,1,1,2,MERGED
+8074,CLI await-insync - block until the current dir finishes syncing,TobiaszCudnik,2021-12-10T09:34:32Z,2023-03-10T12:00:58+00:00,4,10922.44,False,100,0,3,1314,5,3,8,CLOSED
+8069,cmd/syncthing/cli: Add command to show pending devices/folders (fixes #8068),ignacy123,2021-12-04T14:28:29Z,2021-12-09T20:18:47+00:00,1,125.84,True,30,0,2,98,5,0,5,MERGED
+8063,Minor cleanup,greatroar,2021-11-27T11:10:24Z,2021-11-27T14:35:07+00:00,1,3.41,True,24,73,6,90,0,0,0,MERGED
+8062,lib/model: Return index from deviceActivity.leastBusy,greatroar,2021-11-26T09:49:36Z,2021-11-26T11:07:43+00:00,1,1.3,True,26,35,3,179,0,0,0,MERGED
+8057,lib/fs: Path handling optimizations,greatroar,2021-11-23T19:03:36Z,2021-11-23T20:25:29+00:00,2,1.36,True,39,27,3,1236,0,1,1,MERGED
+8054,gui: Warning in folders with ignoreDelete enabled (fixes #8050),villekalliomaki,2021-11-22T19:39:48Z,2021-11-25T13:04:59+00:00,3,65.42,True,7,0,1,288,17,1,18,MERGED
+8052,"lib/config, lib/ignore: Write Windows line endings (fixes #7115)",calmh,2021-11-22T06:54:23Z,2021-11-22T08:38:24+00:00,2,1.73,True,92,3,6,61,0,2,2,MERGED
+8043,cmd/syncthing: Implement generate as a subcommand with optional API credential setting (fixes #8021),acolomb,2021-11-08T12:57:01Z,2021-11-18T21:58:00+00:00,22,249.02,True,197,79,6,2274,3,7,10,MERGED
+8042,lib/nat: Fix race condition in Mapping,greatroar,2021-11-07T19:18:49Z,2021-11-22T07:29:44+00:00,7,348.18,True,43,61,4,700,1,3,4,MERGED
+8039,lib/api: http.Request.BasicAuth instead of custom code,greatroar,2021-11-06T09:53:00Z,2021-11-06T11:38:08+00:00,1,1.75,True,2,20,1,140,1,0,1,MERGED
+8037,Normalize CLI options to always use two dashes.,acolomb,2021-11-03T20:51:13Z,2021-11-04T07:42:56+00:00,2,10.86,True,25,25,9,551,1,0,1,MERGED
+8028,lib/config: Move the bcrypt password hashing to GUIConfiguration,acolomb,2021-10-31T22:09:24Z,2021-11-08T12:32:05+00:00,8,182.38,True,64,31,5,740,0,4,4,MERGED
+8027,"lib/api, lib/config: Remove config.ReadJSON (fixes #7957)",imsodin,2021-10-31T14:47:46Z,2023-03-10T11:50:31+00:00,1,11877.05,False,105,71,4,369,2,1,3,CLOSED
+8025,lib/syncthing: Clean up / refactor LoadOrGenerateCertificate() utility function.,acolomb,2021-10-29T19:52:40Z,2021-11-07T22:59:48+00:00,8,219.12,True,49,77,7,814,4,2,6,MERGED
+8024,cmd/syncthing/cli: indexDumpSize doesn't need a heap,greatroar,2021-10-29T16:06:02Z,2021-10-29T18:21:51+00:00,1,2.26,True,15,31,1,172,0,0,0,MERGED
+8023,lib/model: Optimize jobQueue performance and memory use,greatroar,2021-10-29T16:03:12Z,2021-10-29T18:20:47+00:00,1,2.29,True,10,5,2,1117,2,0,2,MERGED
+8022,gui: Display identicons for discovered device IDs.,acolomb,2021-10-29T14:39:05Z,2021-10-29T18:23:42+00:00,1,3.74,True,5,1,1,678,4,0,4,MERGED
+8019,lib/model: Set mod. time after writing trailer in shortcut (ref #7992),imsodin,2021-10-23T11:07:20Z,2021-10-24T14:50:31+00:00,1,27.72,True,2,2,1,242,0,0,0,MERGED
+8017,lib/protocol: Two micro-optimizations,greatroar,2021-10-22T11:02:34Z,2021-10-22T16:40:40+00:00,1,5.63,True,23,28,5,500,0,0,0,MERGED
+8015,lib/relay: Send SNI when the address is a host name (fixes #8014),calmh,2021-10-21T06:57:11Z,2021-11-22T07:31:03+00:00,2,768.56,True,11,1,1,143,0,1,1,MERGED
+8006,gui: Translate theme names in settings,acolomb,2021-10-17T19:15:23Z,2021-10-20T17:44:38+00:00,5,70.49,True,33,3,4,1166,4,1,5,MERGED
+7996,lib/connections/registry: Fix and optimize,greatroar,2021-10-05T18:28:19Z,2021-10-06T08:52:51+00:00,1,14.41,True,76,106,8,1069,0,0,0,MERGED
+7995,lib/protocol: Preserve sequence decrypting fileinfos (fixes #7994),imsodin,2021-10-05T18:16:15Z,2021-10-06T08:26:54+00:00,1,14.18,True,15,0,2,142,0,0,0,MERGED
+7993,gui: Add direct link to Ignore Patterns from folder panel (fixes #4293),tomasz1986,2021-10-05T16:34:00Z,2021-10-20T21:06:03+00:00,13,364.53,True,7,4,1,487,0,4,4,MERGED
+7992,lib/model: Write trailer when shortcutting on recv-enc (fixes #7991),imsodin,2021-10-04T20:00:05Z,2021-10-05T09:23:27+00:00,1,13.39,True,39,11,2,406,0,0,0,MERGED
+7984,"gui: Add copy to clipboard, share by email, and share by SMS buttons to device IDs (fixes #2771, ref #3868)",tomasz1986,2021-10-01T19:56:50Z,2022-11-07T19:11:12+00:00,92,9647.24,True,217,6,7,666,37,63,100,MERGED
+7982,lib/model: Limit the number of default hashers on Android (ref #2220),tomasz1986,2021-09-30T10:25:41Z,2021-10-29T08:06:52+00:00,1,693.69,True,1,1,1,290,0,0,0,MERGED
+7980,gui: Use case insensitive sort with folders on top in Restore Versions,tomasz1986,2021-09-29T03:51:48Z,2021-09-29T06:05:01+00:00,1,2.22,True,8,0,1,584,0,0,0,MERGED
+7978,"Revert ""gui: Allow to resize command in External Versioning (#7410)""",tomasz1986,2021-09-28T02:18:28Z,2021-09-28T06:05:18+00:00,1,3.78,True,1,1,1,362,0,0,0,MERGED
+7977,gui: Fix jumping nav tabs in black and dark themes,tomasz1986,2021-09-27T14:53:20Z,2021-09-27T19:28:14+00:00,1,4.58,True,2,2,2,405,0,0,0,MERGED
+7976,gui: Allow text wrapping in remove folder/device modals,tomasz1986,2021-09-27T14:20:04Z,2021-11-22T08:41:44+00:00,7,1338.36,True,7,5,2,369,4,2,6,MERGED
+7972,gui: Tweak the Restore Versions modal for better usability,tomasz1986,2021-09-26T13:10:59Z,2022-01-25T22:08:28+00:00,1,2912.96,True,11890,11271,19,1421,6,0,6,MERGED
+7966,lib/config: Always set mtime window to 2 on Android unless ext detected (ref #7963),tomasz1986,2021-09-25T17:05:47Z,2021-09-27T19:29:52+00:00,4,50.4,True,3,3,1,545,2,1,3,MERGED
+7964,lib/rand: Optimizations,greatroar,2021-09-25T08:22:47Z,2021-09-26T10:15:39+00:00,4,25.88,True,19,11,3,717,0,1,1,MERGED
+7962,lib/db: Replace SipHash with hash/maphash,greatroar,2021-09-24T10:00:50Z,2021-09-24T19:26:08+00:00,4,9.42,True,11,31,3,357,0,1,1,MERGED
+7961,settings/settingsModalView: Removed superfluous quotes (fixes #7853),jayachithra,2021-09-23T14:11:12Z,2021-09-23T21:38:07+00:00,1,7.45,True,2,2,1,321,0,0,0,MERGED
+7947,"Add windows/arm{,64} support",rasa,2021-09-15T02:34:06Z,2021-09-17T15:07:32+00:00,1,60.56,True,7,1,1,150,2,0,2,MERGED
+7945,gui: Sort already shared devices in edit folder modal (fixes #7940).,acolomb,2021-09-13T09:25:22Z,2021-09-13T18:41:15+00:00,1,9.26,True,1,0,1,291,2,0,2,MERGED
+7943,lib/config: Check that marker is inside folder (fixes #7942),imsodin,2021-09-12T18:06:56Z,2021-10-31T11:53:09+00:00,7,1169.77,False,36,0,2,0,5,2,7,CLOSED
+7939,lib/config: Decouple VerifyConfiguration from Committer,greatroar,2021-09-10T14:17:55Z,2021-11-22T07:45:30+00:00,5,1745.46,True,20,40,11,104,0,1,1,MERGED
+7937,logmsg: Clarify 'Cleaning data for folder',jtagcat,2021-09-10T00:34:08Z,2021-09-10T07:56:44+00:00,1,7.38,True,2,2,2,255,0,0,0,MERGED
+7936,lib/model: Don't reset db while folder is running (fixes #7935),imsodin,2021-09-09T21:19:00Z,2021-09-11T15:14:47+00:00,4,41.93,True,56,8,3,120,1,1,2,MERGED
+7933,chore: Quiet numerous DeepSource reported issues,rasa,2021-09-08T00:18:01Z,2021-09-13T05:07:36+00:00,5,124.83,False,89,89,11,553,6,2,8,CLOSED
+7928,Buffer allocation optimizations,greatroar,2021-09-05T19:18:55Z,2021-09-06T13:30:57+00:00,1,18.2,True,8,13,3,107,0,0,0,MERGED
+7926,"all: Unused args, retvals, assignments",greatroar,2021-09-03T09:03:40Z,2021-09-07T22:11:17+00:00,7,109.13,True,52,50,10,68,0,2,2,MERGED
+7925,lib/model: Remove encryption pw on folder stop,imsodin,2021-09-02T20:42:53Z,2021-09-03T07:54:47+00:00,1,11.2,True,2,0,1,0,0,0,0,MERGED
+7922,lib/model: Add missing error assignment + Remove unused argument,greatroar,2021-09-01T18:48:23Z,2021-09-01T20:03:07+00:00,4,1.25,True,3,3,1,233,0,1,1,MERGED
+7920,lib/osutil: Don't fsync directories in Windows (fixes #7918),tomasz1986,2021-09-01T05:27:45Z,2021-11-30T07:02:41+00:00,3,2161.58,False,10,6,3,194,6,1,7,CLOSED
+7919,chore: fix typo in folder_recvonly.go,rasa,2021-09-01T02:20:19Z,2021-09-01T05:41:18+00:00,1,3.35,True,1,1,1,29,0,0,0,MERGED
+7912,lib/tlsutil: Allocate UnionedConnection in one go,greatroar,2021-08-29T09:31:57Z,2021-09-21T06:40:35+00:00,1,549.14,True,19,18,2,115,0,0,0,MERGED
+7909,Add a link to docs source.,jtagcat,2021-08-28T20:58:53Z,2021-08-29T20:32:46+00:00,1,23.56,True,2,2,1,226,0,0,0,MERGED
+7907,"lib/api: Set ""Secure"" on session cookies served over HTTPS (ref #7399)",calmh,2021-08-27T14:23:35Z,2021-08-27T15:56:54+00:00,1,1.56,True,12,0,1,67,0,0,0,MERGED
+7903,lib/ur: Fix panic build goroutines for failures,xjtdy888,2021-08-25T03:07:22Z,2021-08-25T05:16:55+00:00,1,2.16,True,2,2,1,27,0,0,0,MERGED
+7899,build: Readd systemd files to deb releases (ref #7564),imsodin,2021-08-22T14:05:27Z,2021-08-22T18:04:48+00:00,2,3.99,True,2,0,1,485,1,0,1,MERGED
+7891,lib/model: Do not wait for scan when setting ignores,imsodin,2021-08-16T21:46:18Z,2021-08-17T07:23:33+00:00,1,9.62,True,16,1,2,151,0,0,0,MERGED
+7890,lib/ur: Fix panic getting goroutines for failures (ref #7785),imsodin,2021-08-16T19:04:44Z,2021-08-16T20:47:05+00:00,1,1.71,True,1,1,1,150,0,0,0,MERGED
+7884,gui: Use large modals for Listeners and Discovery,tomasz1986,2021-08-13T13:17:57Z,2021-08-13T18:09:11+00:00,1,4.85,True,1,1,1,454,0,0,0,MERGED
+7876,lib/fs: Encode filenames containing reserved characters (fixes #1734),rasa,2021-08-08T13:57:15Z,2024-05-15T13:48:39+00:00,6,24263.86,False,4079,1559,120,4999,18,3,21,CLOSED
+7873,lib/db/backend: Prevent panic in errors.As,imsodin,2021-08-05T09:01:09Z,2021-08-05T10:25:20+00:00,1,1.4,True,2,2,1,131,3,0,3,MERGED
+7872,lib/stun: Prevent nil deref when naming service,imsodin,2021-08-04T21:47:42Z,2021-08-04T23:04:23+00:00,1,1.28,True,7,1,1,1347,0,0,0,MERGED
+7870,lib/protocol: Ensure correct blocksize on enc. fileinfo (ref #7861),imsodin,2021-08-04T09:30:37Z,2021-08-04T21:12:02+00:00,1,11.69,True,19,14,3,655,0,0,0,MERGED
+7869,lib/model: Don't consider hashes pulling on recv-enc,imsodin,2021-08-03T22:13:17Z,2021-08-04T09:10:10+00:00,2,10.95,True,49,41,1,585,0,1,1,MERGED
+7866,lib/connections: Always run a simple connection test,calmh,2021-08-03T11:08:09Z,2022-04-10T18:54:42+00:00,1,6007.78,True,59,32,1,85,3,0,3,MERGED
+7864,lib/config: Allow sub-second watcher delay (fixes #7859),tomasz1986,2021-08-02T13:26:14Z,2023-03-18T07:50:38+00:00,3,14226.41,True,174,178,5,342,20,3,23,MERGED
+7862,"Update quic to 0.22.0 to support RFC9000, enable batch reads",AudriusButkevicius,2021-08-01T14:28:56Z,2021-08-05T03:44:23+00:00,1,85.26,True,53,90,4,0,11,0,11,MERGED
+7856,lib/watchaggregator: Replace counter map by two integers,greatroar,2021-07-29T16:41:30Z,2021-08-01T10:30:20+00:00,1,65.81,True,28,22,1,225,0,0,0,MERGED
+7854,Fix config deadlock when deleting a paused folder,yyogo,2021-07-28T11:00:46Z,2021-07-30T12:41:00+00:00,5,49.67,True,37,10,1,1368,4,4,8,MERGED
+7848,gui: Move dismiss button after add/ignore buttons,tomasz1986,2021-07-23T16:49:40Z,2021-09-01T19:59:47+00:00,1,963.17,True,6,6,1,688,4,0,4,MERGED
+7847,gui: Improve revert/override/delete warning modals,tomasz1986,2021-07-23T16:47:54Z,2021-08-03T09:46:21+00:00,2,256.97,True,48,27,4,782,6,0,6,MERGED
+7846,"gui, script: Parse JS files for translation values (fixes #7845)",imsodin,2021-07-23T08:32:30Z,2021-07-23T12:24:09+00:00,1,3.86,True,24,6,2,207,0,0,0,MERGED
+7843,lib/model: Don't try to delete deleted item on revert,imsodin,2021-07-22T14:40:19Z,2021-07-23T12:26:20+00:00,1,21.77,True,4,1,1,101,1,0,1,MERGED
+7841,lib/model: Missing fmut-lock on encryption failures,imsodin,2021-07-22T07:55:39Z,2021-07-22T09:15:26+00:00,1,1.33,True,4,0,1,86,0,0,0,MERGED
+7840,cmd/stcrashreceiver: Sanitize failure report fingerprints,imsodin,2021-07-22T07:47:30Z,2021-07-22T09:16:25+00:00,1,1.48,True,11,5,2,202,2,0,2,MERGED
+7829,lib/fs: Improve case conflict error message (fixes #7827),tomasz1986,2021-07-19T13:18:41Z,2021-08-01T20:44:49+00:00,9,319.44,True,2,2,2,212,1,2,3,MERGED
+7828,lib/fs: Add encoder filesystem (fixes #1734),rasa,2021-07-19T05:58:13Z,2021-08-03T14:56:05+00:00,3,368.96,False,1725,143,27,1669,14,2,16,CLOSED
+7820,"advancedSettings: Collapse all, inc. GUI section, on open.",jtagcat,2021-07-14T12:53:17Z,2021-07-16T04:40:31+00:00,1,39.79,True,2,2,1,1147,0,0,0,MERGED
+7819,lib/relay/client: Stricter typing and remove unused code,greatroar,2021-07-13T19:29:34Z,2021-07-21T07:49:10+00:00,1,180.33,True,18,70,3,307,2,0,2,MERGED
+7810,lib/connections: Resolve IPv6 for quic6:// peers,yan12125,2021-07-05T09:07:16Z,2021-07-05T11:19:56+00:00,3,2.21,True,4,1,1,478,2,0,2,MERGED
+7799,cmd/ursrv: Make small numbers private by obfuscation (fixes #7787),datasyncer,2021-06-28T14:55:33Z,2021-07-04T10:53:51+00:00,8,139.97,False,136,45,5,682,7,5,12,CLOSED
+7798,lib/connections: Fully dial resumed devices,imsodin,2021-06-28T11:51:23Z,2021-07-03T16:26:55+00:00,2,124.59,True,14,4,1,368,0,1,1,MERGED
+7797,lib/model: Scan removed dirs when reverting recv-enc (fixes #7706),imsodin,2021-06-28T11:43:00Z,2021-07-03T11:46:24+00:00,1,120.06,True,1,0,1,105,0,0,0,MERGED
+7796,lib/model: Prevent folder-type change from/to encrypted (fixes #7704),imsodin,2021-06-28T11:04:13Z,2021-07-03T11:47:04+00:00,1,120.71,True,7,0,1,101,0,0,0,MERGED
+7794,lib/fs: Set expiry after DirNames in case-fs,imsodin,2021-06-26T15:25:44Z,2021-06-27T06:30:02+00:00,1,15.07,True,45,47,1,392,2,0,2,MERGED
+7793,lib/db: Missing event-logger in write-transaction,imsodin,2021-06-26T13:03:36Z,2021-06-27T06:43:50+00:00,1,17.67,True,8,7,1,266,0,0,0,MERGED
+7791,lib/model: Compare all items with global on scan (fixes #7740),imsodin,2021-06-25T20:22:03Z,2021-06-27T06:48:54+00:00,1,34.45,True,84,80,2,711,0,0,0,MERGED
+7790,lib/protocol: Write uncompressible messages uncompressed,greatroar,2021-06-25T13:38:15Z,2021-06-27T15:59:30+00:00,5,50.35,True,86,94,2,618,0,2,2,MERGED
+7788,"gui: Fix typo ""recurr"", again and for real.",acolomb,2021-06-25T07:20:54Z,2021-06-25T10:08:19+00:00,1,2.79,True,1,2,2,93,2,0,2,MERGED
+7786,lib/api: Always include usage reporting data in support bundle,calmh,2021-06-24T12:01:19Z,2021-06-24T18:00:14+00:00,1,5.98,True,1,1,1,284,0,0,0,MERGED
+7785,"all: Send deadlocks as failures, crash only as a last resort",imsodin,2021-06-23T11:42:50Z,2021-07-27T19:27:52+00:00,3,823.75,True,194,62,6,1360,2,4,6,MERGED
+7783,lib/connections: Dial devices in parallel,imsodin,2021-06-22T14:52:11Z,2021-06-25T09:38:05+00:00,6,66.77,True,258,188,11,666,0,4,4,MERGED
+7781,gui: Consider size 0 items in remote completion (fixes #7741),imsodin,2021-06-21T19:44:09Z,2021-06-21T20:53:50+00:00,1,1.16,True,4,4,1,215,0,0,0,MERGED
+7778,lib/connections: Missed map init in nextDialAt (ref #7753),imsodin,2021-06-17T14:44:08Z,2021-06-17T17:13:58+00:00,1,2.5,True,1,0,1,111,0,0,0,MERGED
+7774,lib/db: Fix accounting bug when dropping indexes,imsodin,2021-06-16T20:38:43Z,2021-06-17T08:15:11+00:00,1,11.61,True,51,28,4,1132,0,0,0,MERGED
+7773,lib/model: Remove bogus failureevent when restarting folder,imsodin,2021-06-16T19:01:51Z,2021-06-17T06:57:24+00:00,1,11.93,True,5,6,1,434,0,0,0,MERGED
+7772,"gui, lib: Handle pw adding remote encrypted folder (fixes #7705)",imsodin,2021-06-16T13:34:31Z,2021-06-17T11:53:02+00:00,4,22.31,True,165,111,6,668,0,1,1,MERGED
+7771,gui: Fix race in online event callback (fixes #7733),imsodin,2021-06-16T13:30:25Z,2021-06-16T17:32:31+00:00,2,4.04,True,58,57,1,326,1,0,1,MERGED
+7770,lib/db: Check if sequences change when repairing metadata,imsodin,2021-06-16T09:35:44Z,2021-06-17T11:53:39+00:00,3,26.3,True,62,1,1,694,1,1,2,MERGED
+7758,build: go mod tidy,greatroar,2021-06-09T16:20:02Z,2021-06-10T11:16:45+00:00,1,18.95,True,1,9,2,28,0,0,0,MERGED
+7756,fix(darwin): event missing while modify to empty,anurnomeru,2021-06-08T12:28:41Z,2021-06-09T10:57:07+00:00,2,22.47,True,83,2,3,853,1,1,2,MERGED
+7755,lib/db: Add failure reports to failures iterating over hashes,imsodin,2021-06-07T12:51:47Z,2021-06-07T21:10:36+00:00,1,8.31,True,6,2,1,377,0,0,0,MERGED
+7754,"lib/db, lib/model: Improve error handling on pending items",imsodin,2021-06-07T12:49:32Z,2021-06-09T11:35:18+00:00,7,46.76,True,30,21,2,1357,2,6,8,MERGED
+7753,lib/connections: Trigger dialer when connection gets closed,imsodin,2021-06-07T10:11:28Z,2021-06-17T11:57:45+00:00,6,241.77,True,231,68,7,561,4,8,12,MERGED
+7750,lib/db: Use a more concurrent GC (fixes #7722),calmh,2021-06-05T15:41:37Z,2021-06-07T08:52:06+00:00,5,41.17,True,78,37,2,608,2,1,3,MERGED
+7747,lib/model: Fix indexhandling for new folders paused on remote,imsodin,2021-06-05T12:36:58Z,2021-06-05T14:27:16+00:00,1,1.84,True,3,1,1,348,0,0,0,MERGED
+7739,lib/model: Fix passwords on receive-enc needing token (ref #7518),imsodin,2021-06-02T20:19:46Z,2021-06-03T13:39:49+00:00,2,17.33,True,38,43,2,941,0,1,1,MERGED
+7734,lib/model: Don't share with introduced device if encrypted (fixes #7724),imsodin,2021-06-01T11:49:28Z,2021-06-03T13:02:58+00:00,1,49.23,True,18,1,2,228,0,0,0,MERGED
+7728,"gui: Show ID under each device section (local / remote), clickable for QR code",acolomb,2021-05-31T22:27:25Z,2021-06-01T16:04:12+00:00,10,17.61,True,33,3,3,271,2,2,4,MERGED
+7727,gui: Default to bps for download/upload rates,bt90,2021-05-31T19:55:40Z,2021-06-02T16:15:15+00:00,1,44.33,False,1,1,1,74,1,0,1,CLOSED
+7726,"gui, lib: Fix tracking deleted locally-changed on encrypted (fixes #7715)",imsodin,2021-05-31T19:32:28Z,2021-11-10T08:46:21+00:00,1,3901.23,True,271,142,12,1380,10,0,10,MERGED
+7720,lib/db: Clean up Timer and wait for logging before return in GC,greatroar,2021-05-29T09:02:34Z,2021-05-31T07:50:21+00:00,1,46.8,True,12,13,1,209,2,0,2,MERGED
+7716,"build, lib/model: Add flag to run tests without -short and fix failure",imsodin,2021-05-28T16:35:00Z,2021-05-28T20:20:18+00:00,2,3.75,True,12,3,2,458,0,2,2,MERGED
+7714,lib/model: Fix reverting when version has only our own ID (fixes #7708),imsodin,2021-05-28T16:11:58Z,2021-06-03T13:08:56+00:00,2,140.95,True,77,5,2,584,0,1,1,MERGED
+7713,contributing: fix GitHub format,eltociear,2021-05-26T15:48:21Z,2021-05-31T08:27:36+00:00,1,112.65,True,1,1,1,38,0,0,0,MERGED
+7712,all: Allow dismissing pending devices / folders without ignoring (fixes #7700),acolomb,2021-05-26T14:19:36Z,2021-06-07T08:29:24+00:00,17,282.16,True,294,23,7,782,5,4,9,MERGED
+7711,readme: Remove drama,calmh,2021-05-26T10:19:23Z,2021-05-26T12:59:49+00:00,1,2.67,True,2,5,1,0,1,0,1,MERGED
+7707,lib/db: Add logging for GC,imsodin,2021-05-22T14:30:17Z,2021-05-22T19:36:43+00:00,1,5.11,True,25,3,1,499,0,0,0,MERGED
+7702,lib/model: Fix incoming request on receive-enc (fixes #7699),imsodin,2021-05-20T20:58:34Z,2021-05-22T19:38:50+00:00,1,46.67,True,31,3,2,271,0,0,0,MERGED
+7696,all: Regenerate proto,imsodin,2021-05-19T07:06:29Z,2021-05-19T11:30:20+00:00,2,4.4,True,49,187,14,183,0,0,0,MERGED
+7695,"cmd/strelaypoolsrv: Fix minor grammar, use https in links",tomasz1986,2021-05-18T12:23:40Z,2021-05-18T18:07:09+00:00,3,5.72,True,4,4,1,160,0,1,1,MERGED
+7694,"cmd/syncthing/cli: Update recli, fix stdin handling (fixes #7685, fixes #7673)",AudriusButkevicius,2021-05-17T22:18:12Z,2021-05-18T19:09:48+00:00,3,20.86,True,36,36,3,151,0,1,1,MERGED
+7690,"lib/api, lib/config: Apply defaults before deserializing json",imsodin,2021-05-17T13:56:52Z,2021-06-03T13:09:35+00:00,2,407.21,True,73,33,3,628,7,1,8,MERGED
+7689,lib/model: Ensure indexes are only received after checking IDs (ref #7649),imsodin,2021-05-17T10:39:18Z,2021-06-03T12:58:50+00:00,3,410.33,True,658,579,8,1250,1,2,3,MERGED
+7679,cmd/uraggregate: Optimise queries,AudriusButkevicius,2021-05-15T11:39:22Z,2021-05-16T11:34:47+00:00,6,23.92,True,11,11,1,315,4,3,7,MERGED
+7678,lib/fs: Handle normalization on macOS (fixes #7677),calmh,2021-05-15T11:16:23Z,2021-05-17T10:35:03+00:00,3,47.31,True,93,27,7,641,8,1,9,MERGED
+7675,lib/scanner: Do not drop all not-exist-errors and debug logging,imsodin,2021-05-14T13:32:21Z,2021-05-15T09:51:35+00:00,1,20.32,True,22,19,1,109,1,0,1,MERGED
+7672,lib/connections: Reduce default quic redial interval (fixes #7471),AudriusButkevicius,2021-05-13T20:35:29Z,2021-05-14T13:26:02+00:00,1,16.84,True,8,1,1,0,4,0,4,MERGED
+7671,lib/model: Don't use empty folder cfg for index sender (fixes #7649),imsodin,2021-05-13T09:48:30Z,2021-05-15T09:13:39+00:00,2,47.42,True,40,18,5,1067,1,0,1,MERGED
+7667,cmd/uraggregate: Cap memory size at a petabyte (fixes #7661),AudriusButkevicius,2021-05-11T22:01:37Z,2021-05-12T07:01:18+00:00,1,8.99,True,2,0,1,135,3,0,3,MERGED
+7659,"cmd/uraggregate: Handle malformed data, dont abort on error (fixes #7639)",AudriusButkevicius,2021-05-10T22:53:00Z,2021-05-11T06:02:19+00:00,1,7.16,True,8,7,1,0,1,0,1,MERGED
+7658,lib/model: Improve encryption cluster-config errors,imsodin,2021-05-10T20:28:24Z,2021-05-11T05:55:44+00:00,1,9.46,True,22,17,2,213,0,0,0,MERGED
+7654,"lib/connections: Update pfilter to pick up bugfix/oob stuff, support OOB connections (fixes #7636)",AudriusButkevicius,2021-05-10T08:07:25Z,2021-05-11T05:59:57+00:00,10,21.88,True,85,31,4,0,2,2,4,MERGED
+7653,gui: Move the QR code button next to device ID in editDevice modal.,acolomb,2021-05-09T21:16:17Z,2021-06-16T19:10:16+00:00,2,909.9,True,23,6,2,1121,13,0,13,MERGED
+7648,"lib/connections: Add connection benchmarks, allow binding to port zero addresses",AudriusButkevicius,2021-05-09T14:16:37Z,2021-05-10T14:44:48+00:00,3,24.47,True,283,20,4,59,2,1,3,MERGED
+7647,"lib/relay, lib/svcutil: Improve service logging (fixes #7580)",imsodin,2021-05-09T13:12:32Z,2021-05-10T20:26:25+00:00,1,31.23,True,43,11,3,588,0,0,0,MERGED
+7646,all: Refactor relay invitations,imsodin,2021-05-09T13:09:01Z,2021-05-10T20:25:43+00:00,1,31.28,True,38,44,5,959,0,0,0,MERGED
+7644,lib/connections: Separate listener supervisors and lower backoff time,imsodin,2021-05-09T11:56:30Z,2021-05-10T20:26:52+00:00,1,32.51,True,11,15,1,773,0,0,0,MERGED
+7643,lib/connections: Add more methods to the quic conn wrapper,imsodin,2021-05-08T20:19:51Z,2021-05-09T11:45:08+00:00,1,15.42,True,11,2,1,124,0,0,0,MERGED
+7629,build: Ignore error from pkill on apt upgrade (fixes #7628),imsodin,2021-05-04T11:09:46Z,2021-05-04T16:33:25+00:00,1,5.39,True,1,1,1,0,0,0,0,MERGED
+7626,lib/suture: Use ServeBackground to start main supervisor,imsodin,2021-05-03T16:45:34Z,2021-05-10T14:50:45+00:00,1,166.09,True,7,4,3,469,0,0,0,MERGED
+7624,"lib/fs, lib/api, lib/model: Expose mtime remappings as part of /db/file",AudriusButkevicius,2021-05-01T11:22:00Z,2021-05-03T10:28:25+00:00,7,47.11,True,305,111,16,128,4,8,12,MERGED
+7623,lib/fs: Watch attrib. changes on inotify for mod. time,imsodin,2021-04-30T16:20:36Z,2021-05-02T14:45:44+00:00,3,46.42,True,45,11,3,252,0,0,0,MERGED
+7611,gui: Disable versions button when folder is paused,tomasz1986,2021-04-29T14:24:01Z,2021-04-29T16:34:08+00:00,1,2.17,True,1,1,1,261,0,0,0,MERGED
+7610,lib/model: Remove path from enc errors and report ony once,imsodin,2021-04-29T09:14:12Z,2021-04-29T17:21:08+00:00,1,8.12,True,40,3,1,514,0,0,0,MERGED
+7609,"lib: Revert needing invalid files (fixes #7608, ref #7476)",imsodin,2021-04-29T08:43:42Z,2021-04-29T20:01:46+00:00,1,11.3,True,251,154,12,687,1,0,1,MERGED
+7607,Upgrade to GitHub-native Dependabot,dependabot-preview,2021-04-28T21:45:00Z,2021-04-29T19:19:06+00:00,2,21.57,True,7,0,1,975,1,1,2,MERGED
+7604,Trigger connection loop on config device addition (fixes #7600),gsaraf,2021-04-26T10:59:53Z,2021-04-26T20:13:59+00:00,11,9.23,True,46,20,3,684,0,5,5,MERGED
+7599,build: List go:generate tools in tools.go,greatroar,2021-04-25T12:44:02Z,2021-05-08T10:52:07+00:00,4,310.13,True,46,30,14,394,5,0,5,MERGED
+7598,all: Deprecate TLS 1.2 on sync connections (fixes #7594),calmh,2021-04-25T10:16:22Z,2021-04-26T08:04:35+00:00,1,21.8,True,281,307,9,315,2,0,2,MERGED
+7597,Avoid Semicolon Autoinsertion,0verk1ll,2021-04-24T18:21:48Z,2021-05-03T10:14:54+00:00,3,207.88,True,11,11,2,423,0,1,1,MERGED
+7596,lib/model: Handle invalid needed items on send-only (ref #7476),imsodin,2021-04-23T12:15:16Z,2021-04-26T13:36:52+00:00,1,73.36,True,14,17,1,717,1,0,1,MERGED
+7595,gui: Handle empty path in validation (ref #7379),imsodin,2021-04-23T12:11:29Z,2021-04-26T13:35:13+00:00,1,73.4,True,3,0,1,86,2,0,2,MERGED
+7591,cmd/syncthing: Don't fail early on api setup error (fixes 7558),imsodin,2021-04-22T09:43:23Z,2021-04-25T19:48:18+00:00,7,82.08,True,184,102,6,404,4,2,6,MERGED
+7586,gui: Unset current folder on modal close (fixes #7584),imsodin,2021-04-20T14:10:51Z,2021-04-20T15:29:38+00:00,1,1.31,True,1,0,1,276,0,0,0,MERGED
+7585,gui: Fix folder path validation (fixes #7379),imsodin,2021-04-20T13:51:06Z,2021-04-20T15:29:06+00:00,1,1.63,True,6,3,1,175,0,0,0,MERGED
+7578,lib/model: Don't remove non-empty .stfolder,calmh,2021-04-15T13:54:15Z,2021-04-15T16:13:36+00:00,1,2.32,True,7,2,1,405,0,0,0,MERGED
+7575,api: Log warnings on API authorization failures.,acolomb,2021-04-13T21:12:34Z,2021-04-15T05:33:02+00:00,4,32.34,True,3,0,1,252,3,1,4,MERGED
+7573,"gui: Add missing file (fixes #7571, ref #7567)",imsodin,2021-04-13T16:11:55Z,2021-04-13T18:22:55+00:00,1,2.18,True,40,0,1,38,0,0,0,MERGED
+7567,all: Remove untrusted feature flag (fixes #109),imsodin,2021-04-12T15:02:52Z,2021-04-13T08:12:56+00:00,1,17.17,True,155,4412,13,622,1,0,1,MERGED
+7566,Making modals a bit more consistent,pvinis,2021-04-12T08:58:29Z,2021-08-11T07:03:40+00:00,1,2902.09,False,13,16,1,628,3,2,5,CLOSED
+7564,build: Do not use --deb-systemd with fpm (fixes #7548),imsodin,2021-04-11T13:20:12Z,2021-04-11T18:04:16+00:00,3,4.73,True,48,22,3,567,2,0,2,MERGED
+7563,lib: Prevent using protocol method with native path (fixes #7557),imsodin,2021-04-11T10:57:51Z,2021-04-11T13:29:44+00:00,1,2.53,True,20,29,8,411,0,0,0,MERGED
+7560,lib/api: Log the remote address on login attempts.,acolomb,2021-04-09T22:10:53Z,2021-04-13T08:14:44+00:00,1,82.06,True,6,5,1,404,5,0,5,MERGED
+7552,build: Use nfpm for packaging (fixes #7548),imsodin,2021-04-06T16:22:47Z,2021-04-11T16:01:18+00:00,4,119.64,False,389,133,6,793,2,2,4,CLOSED
+7539,gui: Modal dialog for listeners and discovery status.,acolomb,2021-03-30T21:34:28Z,2021-06-07T07:08:44+00:00,24,1641.57,True,139,50,6,1539,8,7,15,MERGED
+7538,lib/protocol: Deterministic encrypted version (fixes #7533),imsodin,2021-03-30T20:54:47Z,2021-03-31T06:59:16+00:00,1,10.07,True,8,4,1,294,0,0,0,MERGED
+7537,"lib/db, lib/model: Refactor removing expired pending folders",imsodin,2021-03-30T20:51:05Z,2021-04-11T13:24:08+00:00,7,280.55,True,23,56,3,204,2,3,5,MERGED
+7536,docker: Raise UDP buffer size in example,bt90,2021-03-30T19:48:03Z,2021-03-31T06:57:46+00:00,2,11.16,True,2,1,1,311,2,0,2,MERGED
+7534,lib/db: Don't panic debugging an inexistent file,imsodin,2021-03-30T12:49:07Z,2021-03-30T18:06:02+00:00,1,5.28,True,1,1,1,118,0,0,0,MERGED
+7530,"lib, gui: Default ignores for new folders (fixes #7428)",imsodin,2021-03-28T15:15:35Z,2022-01-13T22:38:21+00:00,25,6991.38,True,708,208,17,837,41,19,60,MERGED
+7525,lib/db: Handle indirection error repairing sequences (fixes #7026),imsodin,2021-03-26T13:38:24Z,2021-04-05T08:24:16+00:00,2,234.76,True,60,20,4,918,0,1,1,MERGED
+7523,"Docs: Larger link for Fitt's law, still semantic",Jonta,2021-03-25T20:56:50Z,2021-03-26T06:24:40+00:00,1,9.46,True,1,1,1,42,0,0,0,MERGED
+7522,gui: Add confirmation dialog for revert/override (fixes #7520),imsodin,2021-03-25T16:02:29Z,2021-03-26T15:56:16+00:00,5,23.9,True,98,45,7,166,1,3,4,MERGED
+7518,lib/model: Reset conn when enc token is missing (fixes #7198),imsodin,2021-03-22T23:38:11Z,2021-03-23T09:38:40+00:00,1,10.01,True,31,13,2,286,0,0,0,MERGED
+7510,lib: Handle adding enc folders on an existing conn (fixes #7509),imsodin,2021-03-21T17:55:20Z,2021-03-22T20:50:20+00:00,9,26.92,True,160,87,11,407,1,5,6,MERGED
+7508,lib/model: fix dropped test error,alrs,2021-03-20T21:46:26Z,2021-03-21T09:32:17+00:00,1,11.76,True,3,0,1,116,0,0,0,MERGED
+7507,lib/osutil: Fix raising max FDs on macOS,calmh,2021-03-20T07:50:57Z,2021-03-20T15:32:37+00:00,1,7.69,True,1,1,1,352,0,0,0,MERGED
+7505,all: Encrypted fileinfo trailer needs to be in wire format,imsodin,2021-03-19T23:20:30Z,2021-03-21T09:34:08+00:00,2,34.23,True,15,4,2,310,0,1,1,MERGED
+7503,cmd/syncthing: Add more commands to cli,imsodin,2021-03-18T23:17:55Z,2021-04-22T09:14:25+00:00,10,825.94,True,277,188,15,651,5,13,18,MERGED
+7502,build: Add test coverage info,imsodin,2021-03-18T09:48:15Z,2021-04-05T08:25:39+00:00,1,430.62,True,15,0,1,150,0,0,0,MERGED
+7489,"lib/db: Fix some omitted error checks, unused variable",calmh,2021-03-17T19:19:31Z,2021-03-17T20:41:07+00:00,1,1.36,True,11,3,4,40,0,0,0,MERGED
+7487,lib/model: Add missing lock on availability func,imsodin,2021-03-17T15:32:19Z,2021-03-17T19:46:13+00:00,1,4.23,True,7,1,1,243,0,0,0,MERGED
+7484,cmd/syncthing/cli: Remove db reset and adjust others,imsodin,2021-03-16T09:10:34Z,2021-03-17T08:06:37+00:00,1,22.93,True,2,7,2,250,3,0,3,MERGED
+7483,cmd/syncthing: Fix help for cli subcommands,imsodin,2021-03-16T09:04:24Z,2021-03-17T08:06:04+00:00,1,23.03,False,4,2,1,577,2,0,2,CLOSED
+7476,"lib/db, lib/model: Allow needing invalid files (fixes #7474)",imsodin,2021-03-14T15:36:14Z,2021-03-15T06:58:01+00:00,1,15.36,True,125,46,8,1003,3,0,3,MERGED
+7473,gui: Improve Receive Encrypted folder type requirements text,tomasz1986,2021-03-13T17:54:49Z,2021-03-17T20:36:12+00:00,1,98.69,True,3,2,1,328,1,0,1,MERGED
+7472,lib/model: Don't use ignore patterns for recv-enc folders (fixes #7469),imsodin,2021-03-13T16:58:21Z,2021-03-16T14:04:11+00:00,2,69.1,True,8,4,2,0,1,1,2,MERGED
+7470,lib/protocol: Improve messages when an error occurs receiving (ref #7466),imsodin,2021-03-13T16:17:27Z,2021-03-15T18:14:10+00:00,4,49.95,True,68,58,1,687,0,3,3,MERGED
+7468,gui: Use grey background for disabled options in form-control,tomasz1986,2021-03-13T15:33:55Z,2021-03-14T07:14:19+00:00,1,15.67,True,6,0,1,263,2,0,2,MERGED
+7463,lib/fs: Check both old and new path when renaming (fixes #7426),imsodin,2021-03-12T12:01:07Z,2021-03-12T20:15:50+00:00,1,8.25,True,7,0,1,335,2,0,2,MERGED
+7459,all: Truncate some timestamps (fixes #7457),calmh,2021-03-12T07:56:51Z,2021-03-12T09:35:10+00:00,1,1.64,True,17,16,11,557,0,0,0,MERGED
+7454,cmd/syncthing: Refactor cli subcommand to allow flags,imsodin,2021-03-11T15:25:34Z,2021-03-17T08:04:51+00:00,4,136.65,True,73,37,2,1224,10,1,11,MERGED
+7452,all: Make config.Wrapper an actual suture.Service (fixes #7451),calmh,2021-03-11T12:42:16Z,2021-03-11T13:51:00+00:00,2,1.15,True,89,31,8,346,0,1,1,MERGED
+7450,gui: Check if versioning object exists (fixes #7449),imsodin,2021-03-11T08:43:42Z,2021-03-11T10:21:36+00:00,1,1.63,True,6,0,2,213,0,0,0,MERGED
+7447,cmd/syncthing: Correct name of HiddenConsole flag (fixes #7446),imsodin,2021-03-09T15:28:19Z,2021-03-10T06:31:31+00:00,1,15.05,True,25,1,3,173,0,0,0,MERGED
+7440,lib/protocol: Optimize FileKey,greatroar,2021-03-07T15:51:29Z,2021-03-07T17:44:21+00:00,1,1.88,True,25,2,2,476,0,0,0,MERGED
+7439,"cmd/syncthing, etc: Consistent failure restart backoff",imsodin,2021-03-07T12:36:22Z,2021-03-07T14:25:55+00:00,1,1.83,True,13,8,3,481,0,0,0,MERGED
+7435,lib/api: Sanitize names used in certificates (fixes #7434),calmh,2021-03-05T09:31:25Z,2021-03-11T12:15:03+00:00,6,146.73,True,61,0,2,0,0,2,2,MERGED
+7433,next-gen-gui: Add button to restore default theme,calmh,2021-03-05T07:53:52Z,2021-03-08T11:54:08+00:00,1,76.0,True,34,14,6,698,0,0,0,MERGED
+7432,lib/connections: Expose SetReadBuffer on conn passed to quic (ref #7417),imsodin,2021-03-04T23:00:05Z,2021-03-05T07:06:37+00:00,1,8.11,True,17,3,1,291,0,0,0,MERGED
+7431,cmd/syncthing: Set flag defaults through kong vars,imsodin,2021-03-04T22:53:10Z,2021-03-05T07:06:55+00:00,2,8.23,True,16,14,1,206,0,1,1,MERGED
+7424,"lib: Return error from db.FileSet.Snapshot (fixes #7419, ref #5907)",imsodin,2021-03-03T09:35:42Z,2021-03-07T12:43:23+00:00,10,99.13,True,601,344,25,804,0,6,6,MERGED
+7417,Package sysctl configuration to raise UDP buffer size on Linux,bt90,2021-03-01T19:46:33Z,2021-03-05T07:08:29+00:00,8,83.37,True,30,0,4,811,10,2,12,MERGED
+7413,lib/db: Remove Badger experiment,calmh,2021-02-27T08:15:22Z,2021-03-01T08:16:09+00:00,1,48.01,True,1,638,7,85,0,0,0,MERGED
+7412,Treat *.localhost as valid localhost addresses,wbolster,2021-02-26T23:49:33Z,2021-02-27T07:52:49+00:00,1,8.05,True,9,4,2,1170,4,0,4,MERGED
+7410,gui: Allow to resize command in External Versioning,tomasz1986,2021-02-26T11:27:59Z,2021-02-27T08:41:16+00:00,6,21.22,True,2,2,2,404,0,1,1,MERGED
+7409,lib/protocol: Always return buffers to the pool,imsodin,2021-02-26T10:20:45Z,2021-02-27T07:55:51+00:00,1,21.59,True,19,5,1,473,0,0,0,MERGED
+7408,lib/protocol: Optimize encrypted filename handling + make it more strict,greatroar,2021-02-26T10:08:46Z,2021-02-27T07:57:13+00:00,1,21.81,True,53,8,2,716,0,0,0,MERGED
+7407,all: Fix versioning path handling,imsodin,2021-02-25T22:51:23Z,2021-02-26T11:04:05+00:00,1,12.21,True,158,72,13,392,2,0,2,MERGED
+7404,build: Make stupgrades build target conditional (fixes #7199),Sc00ba,2021-02-25T02:01:47Z,2021-02-25T08:29:15+00:00,1,6.46,True,6,1,1,227,0,0,0,MERGED
+7402,lib/api: Rename config insync endpoint to restart-required,imsodin,2021-02-24T15:50:33Z,2021-02-25T08:29:44+00:00,1,16.65,True,2,1,1,203,0,0,0,MERGED
+7395,gui: Tweak the Restore Versions modal for better usability,tomasz1986,2021-02-22T08:08:21Z,2021-08-11T07:03:37+00:00,2,4078.92,False,81,16,2,1111,12,1,13,CLOSED
+7389,"lib/fs: Expose fs option on interface (fixes #7385, ref #7381)",imsodin,2021-02-20T14:27:20Z,2021-03-11T14:23:57+00:00,5,455.94,True,74,36,9,828,2,1,3,MERGED
+7388,gui: Remove download animation from Out of Sync Items modal (fixes #3322),tomasz1986,2021-02-20T12:38:09Z,2021-04-05T08:28:06+00:00,1,1051.83,True,2,2,1,279,5,0,5,MERGED
+7387,all: Fix Microsoft documentation links in code comments,tomasz1986,2021-02-20T11:48:36Z,2021-02-20T13:56:46+00:00,1,2.14,True,7,7,6,210,0,0,0,MERGED
+7386,gui: Handle info labels that are longer than available space (fixes #944),tomasz1986,2021-02-20T06:23:32Z,2021-02-20T10:28:09+00:00,1,4.08,True,4,2,1,241,1,0,1,MERGED
+7384,gui: Folder versioning editing cleanup,imsodin,2021-02-19T17:36:07Z,2021-02-25T17:24:18+00:00,1,143.8,True,56,90,4,277,0,0,0,MERGED
+7382,Default to loading tiles via https,otbutz,2021-02-19T15:12:31Z,2021-02-19T21:07:05+00:00,1,5.91,True,1,1,1,68,1,0,1,MERGED
+7381,lib/fs: Consider options in case-fs caching (fixes #7371),imsodin,2021-02-18T19:04:20Z,2021-02-19T10:06:25+00:00,3,15.03,True,37,15,4,165,2,1,3,MERGED
+7380,lib/scanner: Pass on errors while hashing,imsodin,2021-02-18T18:23:37Z,2021-02-19T07:51:39+00:00,1,13.47,True,7,7,2,391,0,0,0,MERGED
+7378,gui: Remove cleanupIntervalS leftovers from External Versioning (ref #7360),tomasz1986,2021-02-18T17:19:26Z,2021-02-19T16:49:56+00:00,1,23.51,True,1,3,3,284,0,0,0,MERGED
+7377,gui: Allow setting custom path for all versioning except external,tomasz1986,2021-02-18T16:58:35Z,2021-02-19T16:48:46+00:00,4,23.84,True,24,16,4,375,0,1,1,MERGED
+7375,lib: Use counterfeiter to mock interfaces in tests,imsodin,2021-02-18T11:46:31Z,2021-03-03T07:53:50+00:00,3,308.12,True,8947,887,46,1376,3,4,7,MERGED
+7374,cmd/stcrashreceiver: Add tag for report type (crash/failure),imsodin,2021-02-18T10:05:47Z,2021-02-18T13:16:33+00:00,1,3.18,True,4,3,2,184,0,0,0,MERGED
+7373,"gui: Show ""Last seen"" at the top when device is disconnected (ref #7166)",tomasz1986,2021-02-17T19:03:07Z,2021-02-20T10:26:34+00:00,1,63.39,True,10,10,2,359,1,0,1,MERGED
+7372,lib/connections: Allow QUIC with Go 1.16,calmh,2021-02-17T07:19:38Z,2021-02-17T10:09:16+00:00,1,2.83,True,4,4,4,206,1,0,1,MERGED
+7367,gui: Hide the Rescan All button when no folders exist,tomasz1986,2021-02-15T04:38:56Z,2021-02-17T17:02:56+00:00,6,60.4,True,2,2,2,210,1,1,2,MERGED
+7366,gui: Ignore own device when pausing/resuming all devices (ref #7359),tomasz1986,2021-02-15T04:13:23Z,2021-08-11T07:03:35+00:00,16,4250.84,False,18,18,2,343,3,5,8,CLOSED
+7365,gui: Hide non-functional Versions button when using External Versioning,tomasz1986,2021-02-15T01:26:51Z,2021-02-17T07:29:26+00:00,3,54.04,True,2,2,2,189,1,1,2,MERGED
+7364,"cmd/syncthing: Add cli as a subcommand (fixes #6566, fixes #4719)",AudriusButkevicius,2021-02-14T12:59:26Z,2021-02-15T17:50:54+00:00,3,28.86,True,108,89,8,0,10,1,11,MERGED
+7362,gui: Fix setting external versioning command (fixes #7361),imsodin,2021-02-13T16:38:51Z,2021-02-14T08:54:49+00:00,1,16.27,True,4,4,4,30,1,0,1,MERGED
+7358,gui: Add Docs help links to each setting in Advanced Configuration,tomasz1986,2021-02-12T08:57:27Z,2022-02-08T23:05:26+00:00,1,8678.13,True,7,7,1,263,16,0,16,MERGED
+7357,lib/versioner: Improve error messages (fixes #7354),imsodin,2021-02-11T21:34:38Z,2021-02-12T19:30:52+00:00,4,21.94,True,58,13,7,349,2,1,3,MERGED
+7355,Docker compose example,mclang,2021-02-11T14:17:49Z,2021-04-01T11:04:15+00:00,9,1172.77,True,28,1,1,154,7,2,9,MERGED
+7351,build: Add build process for newgui,calmh,2021-02-10T13:31:18Z,2021-02-15T13:53:40+00:00,2,120.37,False,38050,17178,123,408,7,1,8,CLOSED
+7348,gui: Check that connection exists on event (fixes #7347),imsodin,2021-02-09T09:48:02Z,2021-02-09T11:37:36+00:00,1,1.83,True,6,0,2,0,0,0,0,MERGED
+7342,build: Fix strings in versioninfo for Windows (fixes #7340),tomasz1986,2021-02-08T08:23:21Z,2021-02-08T14:48:07+00:00,1,6.41,True,8,5,1,347,4,0,4,MERGED
+7339,gui: fix device config not saving after changes,christianprescott,2021-02-07T03:54:49Z,2021-02-07T09:52:37+00:00,1,5.96,True,1,1,1,593,0,0,0,MERGED
+7336,lib/db: Fix and improve removing entries from global (ref #6501),imsodin,2021-02-05T17:01:59Z,2021-02-08T07:38:41+00:00,1,62.61,True,60,10,2,502,1,0,1,MERGED
+7332,cmd/syncthing: Add decrypt subcommand,calmh,2021-02-05T12:51:05Z,2021-02-12T07:38:43+00:00,4,162.79,True,275,2,4,1082,3,5,8,MERGED
+7331,all: Failure reporting fixes,imsodin,2021-02-04T23:12:00Z,2021-02-05T10:21:14+00:00,2,11.15,True,11,9,3,393,0,1,1,MERGED
+7330,cmd/syncthing: Refactor command line parsing,calmh,2021-02-04T19:52:11Z,2021-02-10T19:35:38+00:00,3,143.72,True,268,311,10,7582,2,1,3,MERGED
+7327,all: Automatic/disabled folder-config when receive-encrypted,imsodin,2021-02-03T21:52:35Z,2021-02-12T21:51:29+00:00,21,215.98,True,217,126,13,1050,4,10,14,MERGED
+7326,lib/ignore: Store cache timestamps as Unix ns counts,greatroar,2021-02-03T16:38:49Z,2021-02-04T17:39:07+00:00,5,25.0,True,4,4,1,274,2,1,3,MERGED
+7325,gui: do not touch .stignore when not needed (fixes #7284),hiqua,2021-02-03T14:41:28Z,2021-02-03T19:58:25+00:00,4,5.28,True,10,2,2,197,0,1,1,MERGED
+7323,"lib/scanner: Remove unused field, move WaitGroup.Add out of loop",greatroar,2021-02-03T12:06:29Z,2021-02-03T13:25:24+00:00,1,1.32,True,1,3,1,67,0,0,0,MERGED
+7321,lib/model: Refactor folder.scanSubdirs into smaller parts,imsodin,2021-02-01T17:41:04Z,2021-02-08T07:40:57+00:00,1,158.0,True,133,89,2,461,0,0,0,MERGED
+7319,lib/protocol: Hide repeated data blocks in a given file,calmh,2021-02-01T12:14:07Z,2021-02-02T19:15:15+00:00,2,31.02,True,55,15,2,243,4,0,4,MERGED
+7316,lib/model: Correct pull progress for small files (fixes #7263),imsodin,2021-01-31T21:22:28Z,2021-01-31T22:40:16+00:00,1,1.3,True,10,6,1,696,0,0,0,MERGED
+7315,lib/model: Optimize rename detection in scanner,imsodin,2021-01-31T15:58:48Z,2021-01-31T20:02:43+00:00,10,4.07,True,15,6,1,627,0,1,1,MERGED
+7310,lib/scanner: Allocate structure for final partial block,greatroar,2021-01-28T11:56:58Z,2021-01-28T13:23:24+00:00,1,1.44,True,7,3,2,781,1,0,1,MERGED
+7309,"lib/util, lib/svcutil: Remove unused code",greatroar,2021-01-27T13:30:28Z,2021-01-27T15:33:01+00:00,1,2.04,True,1,22,2,0,0,0,0,MERGED
+7308,"lib/stun: Inline util.OnDone, comment on its purpose",greatroar,2021-01-27T13:26:09Z,2021-01-27T18:27:01+00:00,2,5.01,True,6,9,2,375,2,0,2,MERGED
+7306,lib/model: Make /browse endpoint return sane objects,AudriusButkevicius,2021-01-26T19:23:51Z,2021-02-01T08:27:35+00:00,11,133.06,True,217,295,5,311,0,8,8,MERGED
+7303,lib/svcutil: Simplify doneService,greatroar,2021-01-25T12:43:19Z,2021-01-25T15:27:17+00:00,1,2.73,True,4,6,1,54,1,0,1,MERGED
+7302,gui/untrusted: Mirror changes from #7205 and #7192,acolomb,2021-01-25T12:01:50Z,2021-01-25T19:19:56+00:00,1,7.3,True,61,22,1,55,0,0,0,MERGED
+7299,lib/util: Remove duplicate error handling code,greatroar,2021-01-24T11:30:31Z,2021-01-24T19:19:11+00:00,1,7.81,True,0,44,1,146,0,0,0,MERGED
+7296,gui: Reduce checkboxes size in Advanced Configuration (fixes #6949),tomasz1986,2021-01-19T13:22:00Z,2021-01-27T11:23:59+00:00,1,190.03,True,6,0,1,159,3,0,3,MERGED
+7290,gui: Make label and input IDs in Advanced Configuration unique (fixes #7287),tomasz1986,2021-01-17T08:15:22Z,2021-01-25T18:54:43+00:00,4,202.66,True,14,14,1,310,1,1,2,MERGED
+7286,lib/fs: Cache all real-case results (fixes #7270),imsodin,2021-01-16T14:37:30Z,2021-01-27T18:25:35+00:00,6,267.8,True,141,67,5,2182,2,3,5,MERGED
+7285,cmd/syncthing: Provide early startup for config service (ref #7188),calmh,2021-01-16T07:38:45Z,2021-01-16T11:58:02+00:00,1,4.32,True,13,6,2,70,2,0,2,MERGED
+7281,lib/model: Pull when folder leaves error state (fixes #7280),imsodin,2021-01-14T10:06:38Z,2021-01-14T12:29:02+00:00,1,2.37,True,1,0,1,224,7,0,7,MERGED
+7278,gui: disable rescan all when at least one folder is not paused (fixes #7257),Choongkyu,2021-01-14T03:58:55Z,2021-01-14T08:15:48+00:00,3,4.28,True,2,2,2,351,1,1,2,MERGED
+7276,lib/fs: Double lock and don't store leafs in realCaser (ref #7270),imsodin,2021-01-13T16:51:46Z,2021-01-31T17:29:36+00:00,1,432.63,False,56,28,1,1232,1,2,3,CLOSED
+7272,gui: Fix log-tailing behavior when scrolled to top (fixes #7267),Choongkyu,2021-01-13T08:02:11Z,2021-01-13T19:08:39+00:00,5,11.11,True,1,0,1,218,1,1,2,MERGED
+7271,"lib/api, lib/model: Avoid contention on filesystem for DB status call (ref #7270)",calmh,2021-01-12T12:17:24Z,2021-01-12T15:25:21+00:00,1,3.13,True,40,12,5,326,0,0,0,MERGED
+7269,"lib/fs, lib/model: Reduce lock contention on NewCaseFilesystem (fixes #7268)",calmh,2021-01-12T11:57:04Z,2021-01-12T15:22:22+00:00,1,3.42,True,33,20,2,246,0,0,0,MERGED
+7266,lib/ur: Plug file descriptor leak in Linux memorySize,greatroar,2021-01-11T12:55:05Z,2021-01-11T14:15:22+00:00,1,1.34,True,1,0,1,75,0,0,0,MERGED
+7242,"lib/connections, lib/model: Track last connection duration (ref #7223)",calmh,2020-12-30T09:44:47Z,2021-01-05T16:45:08+00:00,4,151.01,True,121,28,13,350,3,1,4,MERGED
+7241,lib/fs: Fix TestChmodDir depending on umask (fixes #6551),acolomb,2020-12-29T21:05:47Z,2020-12-30T08:56:11+00:00,1,11.84,True,4,0,1,289,0,0,0,MERGED
+7237,lib/model: Cleanup redundant filesystem variables in folders,imsodin,2020-12-27T19:42:43Z,2020-12-27T21:26:25+00:00,1,1.73,True,79,83,7,451,0,0,0,MERGED
+7236,lib/model: Fix child-check when deleting dirs in pull,imsodin,2020-12-27T19:37:31Z,2021-01-02T20:40:38+00:00,2,145.05,True,94,42,2,625,0,0,0,MERGED
+7234,gui: Do not replace zero versioning cleanup interval,imsodin,2020-12-27T07:24:05Z,2020-12-27T09:08:16+00:00,1,1.74,True,8,2,2,403,0,0,0,MERGED
+7232,lib/model: Handle index sender terminating due to error (fixes #7231),imsodin,2020-12-25T09:50:00Z,2020-12-30T08:59:12+00:00,1,119.15,True,6,3,1,399,0,0,0,MERGED
+7227,gui: Fix missing sharing device when adding pending folder.,acolomb,2020-12-22T19:54:19Z,2020-12-22T21:37:30+00:00,1,1.72,True,4,4,2,661,0,0,0,MERGED
+7226,cmd/stevents: Add command line argument for event type filtering.,acolomb,2020-12-22T19:35:16Z,2020-12-22T21:10:27+00:00,1,1.59,True,6,1,1,251,0,0,0,MERGED
+7224,gui: Fix nonfunctional ignore button on pending folder notification.,acolomb,2020-12-21T23:20:09Z,2020-12-22T06:28:10+00:00,1,7.13,True,4,4,2,116,0,0,0,MERGED
+7223,"lib/config, lib/connections: Add optional connection limits (fixes #7176)",calmh,2020-12-21T16:41:58Z,2021-01-11T14:14:45+00:00,8,501.55,True,555,218,13,614,8,7,15,MERGED
+7217,Allow validation of relay join requests by certificate,nadiamoe,2020-12-21T00:08:17Z,2020-12-21T10:55:17+00:00,4,10.78,True,41,4,3,2100,9,2,11,MERGED
+7216,gui: Allow device removal even if possibly reintroduced (fixes #5426),hiqua,2020-12-20T17:36:49Z,2021-01-15T19:46:05+00:00,9,626.15,True,5,9,4,171,11,4,15,MERGED
+7214,lib/model: Fix flaky test and add some scanning debug,imsodin,2020-12-19T10:18:33Z,2020-12-20T17:13:36+00:00,1,30.92,True,11,2,2,555,0,0,0,MERGED
+7212,lib: Close underlying conn in protocol (fixes #7165),imsodin,2020-12-18T18:46:01Z,2020-12-21T10:40:52+00:00,1,63.91,True,106,124,11,857,0,1,1,MERGED
+7211,lib/db: Prevent IndexID creation race,imsodin,2020-12-18T18:37:00Z,2020-12-21T10:33:00+00:00,1,63.93,True,50,11,3,951,0,0,0,MERGED
+7209,lib/fs: Correct wrapping order for meaningful log-caller,imsodin,2020-12-18T11:21:42Z,2020-12-21T12:01:34+00:00,4,72.66,True,56,40,5,625,0,3,3,MERGED
+7208,lib/model: Unflake TestIgnoreDeleteUnignore,imsodin,2020-12-18T10:30:44Z,2020-12-18T17:42:10+00:00,1,7.19,True,1,0,1,271,0,0,0,MERGED
+7205,lib/model: Forget pending folders no longer announced in ClusterConfig (fixes #5187),acolomb,2020-12-17T21:04:38Z,2021-01-25T10:58:11+00:00,45,925.89,True,178,35,5,582,9,12,21,MERGED
+7204,lib/config: Remove deprecated pending entries from config (ref #6443),imsodin,2020-12-17T20:06:37Z,2020-12-17T21:49:30+00:00,1,1.71,True,12,4,2,325,0,0,0,MERGED
+7202,lib: Consistently set suture logging,imsodin,2020-12-16T11:21:22Z,2020-12-18T18:44:00+00:00,3,55.38,True,21,26,10,488,0,1,1,MERGED
+7201,gui: Reflect change in untrusted in sharing tab,imsodin,2020-12-16T09:58:43Z,2020-12-21T10:11:45+00:00,1,120.22,True,5,5,3,232,0,0,0,MERGED
+7200,lib/db: Remove index ids when dropping folder,imsodin,2020-12-16T09:13:56Z,2020-12-21T10:11:00+00:00,1,120.95,True,33,0,4,334,0,0,0,MERGED
+7192,gui: Sort folders and devices in advanced config modal (fixes #6985),acolomb,2020-12-11T17:11:03Z,2020-12-14T15:45:39+00:00,1,70.58,True,2,0,1,135,0,0,0,MERGED
+7189,build: Update notify (fixes #7076),imsodin,2020-12-10T10:09:15Z,2020-12-10T14:43:06+00:00,1,4.56,True,3,3,2,80,0,0,0,MERGED
+7188,lib: Apply config changes sequentially (ref #5298),imsodin,2020-12-10T09:58:11Z,2021-01-15T14:43:35+00:00,14,868.76,True,1030,788,20,1820,13,11,24,MERGED
+7187,lib/protocol: Handle slashified paths in IsEncryptedParent (fixes #7184),imsodin,2020-12-09T14:26:51Z,2020-12-09T17:16:15+00:00,1,2.82,True,21,4,2,525,0,0,0,MERGED
+7186,lib/connections: Handle QUIC not being available,calmh,2020-12-08T14:06:02Z,2020-12-09T18:23:51+00:00,4,28.3,True,58,39,6,386,2,2,4,MERGED
+7185,gui: Fix blank device name under recent changes.,elesiuta,2020-12-07T20:00:22Z,2020-12-07T21:19:29+00:00,1,1.32,True,2,2,2,314,1,0,1,MERGED
+7177,lib/connections: Refactor connection loop,calmh,2020-12-02T22:03:30Z,2020-12-21T15:40:14+00:00,5,449.61,True,171,140,1,408,1,7,8,MERGED
+7169,lib/ur: Reset timer when there's nothing to report,imsodin,2020-11-28T17:01:39Z,2020-11-28T19:09:23+00:00,1,2.13,True,7,2,3,342,0,0,0,MERGED
+7164,lib/ur: Send unreported failures on shutdown,imsodin,2020-11-27T11:56:30Z,2020-12-22T19:17:15+00:00,4,607.35,True,296,206,21,236,6,1,7,MERGED
+7162,gui: Split folders into two categories on the sharing tab for devices.,acolomb,2020-11-27T01:36:12Z,2020-12-09T13:54:52+00:00,4,300.31,True,94,69,4,475,12,2,14,MERGED
+7161,gui: Restore Select / Deselect All buttons in device sharing tab.,acolomb,2020-11-27T00:45:35Z,2020-11-27T10:48:49+00:00,1,10.05,True,9,2,2,528,6,0,6,MERGED
+7160,gui: Fix invalid HTML syntax.,acolomb,2020-11-26T23:51:53Z,2021-02-27T07:02:18+00:00,11,2215.17,False,34,34,8,817,5,2,7,CLOSED
+7159,lib/stun: Don't notify about address changes if it's not useful (fixes #7144),AudriusButkevicius,2020-11-26T18:01:23Z,2020-11-27T06:34:31+00:00,1,12.55,True,2,1,1,21,0,0,0,MERGED
+7158,"lib/fs, lib/model: Cover more windowsyness sanitizing paths (fixes #7075)",imsodin,2020-11-25T20:22:23Z,2020-11-25T21:52:47+00:00,1,1.51,True,109,94,4,166,0,0,0,MERGED
+7157,lib/api: Shut the api down gracefully (fixes #7138),imsodin,2020-11-25T20:12:48Z,2020-11-26T14:49:39+00:00,1,18.61,True,7,1,1,443,0,0,0,MERGED
+7156,lib/db: Do not reset index-id when dropping device (ref #7135),imsodin,2020-11-25T16:06:46Z,2020-11-25T21:54:05+00:00,1,5.79,True,16,7,2,404,4,0,4,MERGED
+7155,lib/model: Fix enc file size when pulling (fixes #7152),imsodin,2020-11-25T15:41:24Z,2020-11-25T21:57:26+00:00,1,6.27,True,10,5,2,626,1,0,1,MERGED
+7154,"lib: Skip deleted, locally changed on recv-enc folders (fixes #7153)",imsodin,2020-11-25T14:30:57Z,2020-11-27T10:26:37+00:00,1,43.93,True,127,73,5,648,0,0,0,MERGED
+7150,all: Handle errors opening db/creating file-set (ref #5907),imsodin,2020-11-24T16:56:02Z,2020-12-21T11:59:23+00:00,7,643.06,True,542,396,25,1082,4,7,11,MERGED
+7149,build: Ignore noscript in translation-script,imsodin,2020-11-24T15:14:05Z,2020-11-24T21:17:52+00:00,3,6.06,True,1,1,1,156,1,1,2,MERGED
+7148,gui: Fix & improve sharing with untrusted device,imsodin,2020-11-24T14:54:38Z,2020-11-24T21:02:16+00:00,1,6.13,True,9,4,2,147,0,0,0,MERGED
+7147,lib/model: Don't send locally changed on recv-enc (fixes #7137),imsodin,2020-11-24T11:53:21Z,2020-11-24T20:49:46+00:00,1,8.94,True,75,8,3,237,0,0,0,MERGED
+7145,Ignore gui,christianprescott,2020-11-24T04:16:32Z,2021-08-11T07:03:32+00:00,22,6242.78,False,4789,69,20,1852,28,27,55,CLOSED
+7141,lib/protocol: Send Close message on read error,imsodin,2020-11-23T15:57:31Z,2020-11-27T10:31:21+00:00,2,90.56,True,96,23,4,342,8,0,8,MERGED
+7140,lib/db: Store versions for last successful db migration,imsodin,2020-11-23T11:59:41Z,2020-11-23T17:31:33+00:00,1,5.53,True,40,36,1,448,0,0,0,MERGED
+7136,gui: Remove probing for remote GUI address (ref #7017),calmh,2020-11-20T14:18:18Z,2020-11-24T21:07:23+00:00,7,102.82,True,52,168,5,199,2,3,5,MERGED
+7133,lib/model: Retain index info for new folders/devs (ref #7100),imsodin,2020-11-20T12:43:12Z,2020-11-20T14:53:14+00:00,1,2.17,True,59,59,3,856,0,0,0,MERGED
+7131,"all: Add configurable defaults (fixes #4224, fixes #6086)",imsodin,2020-11-19T18:03:10Z,2021-02-04T20:10:41+00:00,3,1850.13,True,1710,1046,41,1719,17,1,18,MERGED
+7127,all: Refactor preparing configuration,imsodin,2020-11-18T17:40:32Z,2020-11-20T13:21:54+00:00,1,43.69,True,197,137,19,654,0,0,0,MERGED
+7119,minor doc comment fix,phanirithvij,2020-11-15T23:48:47Z,2020-11-16T08:54:32+00:00,1,9.1,True,1,1,1,145,0,0,0,MERGED
+7114,gui: Initialise sharing when accepting new device (fixes #7113),imsodin,2020-11-11T15:47:03Z,2020-11-11T17:18:35+00:00,1,1.53,True,2,0,2,61,0,0,0,MERGED
+7110,lib/model: Prevent test deadlock,imsodin,2020-11-10T09:46:10Z,2020-11-10T11:32:08+00:00,1,1.77,True,7,2,1,365,0,0,0,MERGED
+7109,lib/tlsutil: Add O and OU to generated certificates (fixes #7108),calmh,2020-11-09T13:31:05Z,2020-11-09T16:02:57+00:00,1,2.53,True,6,3,1,209,0,0,0,MERGED
+7107,lib/model: Fix locking when resending cluster-configs,imsodin,2020-11-09T10:22:46Z,2020-11-09T13:05:22+00:00,1,2.71,True,7,2,1,228,1,0,1,MERGED
+7106,build: Update notify (fixes #5360),imsodin,2020-11-09T09:25:27Z,2020-11-09T13:25:20+00:00,1,4.0,True,3,1,2,296,0,0,0,MERGED
+7102,gui: Add warning when JavaScript is disabled in Web browser (fixes #7099),tomasz1986,2020-11-09T03:57:03Z,2020-11-09T08:15:23+00:00,7,4.31,True,696,661,2,889,1,3,4,MERGED
+7100,lib/model: Send indexes for newly shared folder (fixes #7098),imsodin,2020-11-09T00:05:55Z,2020-11-09T07:58:47+00:00,1,7.88,True,73,49,2,405,0,0,0,MERGED
+7095,"lib/api, lib/db: Add file debug endpoint",imsodin,2020-11-06T16:25:48Z,2020-11-10T08:24:46+00:00,1,87.98,True,37,0,2,563,2,0,2,MERGED
+7094,lib/model: Add done chan to track folder-lifetime (fixes #6664),imsodin,2020-11-06T13:41:55Z,2020-11-09T08:05:48+00:00,1,66.4,True,11,9,1,158,0,0,0,MERGED
+7093,lib/folder: Clear pull errors when nothing is needed anymore,imsodin,2020-11-06T11:57:03Z,2020-11-06T13:22:21+00:00,1,1.42,True,41,40,3,551,0,0,0,MERGED
+7092,lib/api: Fix debug endpoints (ref #7001),imsodin,2020-11-06T10:48:12Z,2020-11-06T13:21:38+00:00,1,2.56,True,1,1,1,214,0,0,0,MERGED
+7089,lib: Remove USE_BADGER experiment,calmh,2020-11-02T14:48:27Z,2020-11-03T08:10:36+00:00,1,17.37,True,1,23,4,398,0,0,0,MERGED
+7088,build: Update dependencies,calmh,2020-11-02T14:33:16Z,2020-11-03T08:11:01+00:00,1,17.63,True,297,76,2,322,0,0,0,MERGED
+7081,lib/api: Fix /rest/config path and add methods to cors (ref #7001),imsodin,2020-11-01T15:12:15Z,2020-11-01T20:36:55+00:00,1,5.41,True,10,4,2,410,3,0,3,MERGED
+7080,build: Update notify (fixes #7063),imsodin,2020-11-01T12:10:14Z,2020-11-01T20:37:31+00:00,1,8.45,True,3,1,2,0,0,0,0,MERGED
+7079,lib/api: Allow OPTIONS method in CORS preflight request handling.,acolomb,2020-11-01T11:32:39Z,2020-11-01T13:29:56+00:00,3,1.95,True,4,4,2,835,0,1,1,MERGED
+7078,gui: Fix another undefined variable access (fixes #7077).,acolomb,2020-11-01T09:37:30Z,2020-11-01T12:15:21+00:00,1,2.63,True,2,2,1,27,0,0,0,MERGED
+7072,"lib/config: Check for ""msdos"" when detecting FAT FS in Android",tomasz1986,2020-10-30T12:03:10Z,2020-10-30T14:13:57+00:00,1,2.18,True,1,1,1,263,0,0,0,MERGED
+7069,lib/config: Sanity checks on MaxConcurrentWrites (ref #7064),imsodin,2020-10-30T09:08:44Z,2020-11-03T18:09:33+00:00,2,105.01,True,12,1,2,480,6,0,6,MERGED
+7061,gui: Readd check if device exists (ref #7059),imsodin,2020-10-27T09:15:28Z,2020-10-27T15:40:17+00:00,1,6.41,True,4,2,1,164,1,0,1,MERGED
+7056,gui: Fix undefined variables fallout from #7049.,acolomb,2020-10-24T00:02:39Z,2020-10-26T08:09:33+00:00,3,56.12,True,2,1,1,130,0,1,1,MERGED
+7055,all: Add untrusted folders behind feature flag (ref #62),imsodin,2020-10-23T13:24:13Z,2020-11-09T14:33:33+00:00,3,409.16,True,6932,1091,59,1562,6,0,6,MERGED
+7049,gui: Refactor to make encryption diff smaller,imsodin,2020-10-21T21:44:28Z,2020-10-23T06:27:03+00:00,1,32.71,True,106,126,6,503,0,0,0,MERGED
+7047,lib/db: Add mechanism to repair db without schema update (ref #7044),imsodin,2020-10-21T10:51:01Z,2020-10-21T12:21:11+00:00,2,1.5,True,46,17,1,455,2,1,3,MERGED
+7045,lib/connections: Fix LAN addresses begin advertised even when disabled (fixes #7035),AudriusButkevicius,2020-10-20T16:45:54Z,2020-10-21T07:16:45+00:00,2,14.51,True,2,2,2,58,3,0,3,MERGED
+7044,lib/db: Remove need for the right dev removing globals (fixes #7036),imsodin,2020-10-19T20:33:27Z,2020-10-21T06:26:10+00:00,1,33.88,True,41,1,2,812,1,0,1,MERGED
+7041,lib/db: Ignore not found on delete in recalcGlobal (ref #7026),imsodin,2020-10-18T17:05:20Z,2020-10-19T06:28:54+00:00,1,13.39,True,3,3,1,411,0,0,0,MERGED
+7040,lib/db: Undo adding user info to panic msgs (ref #7029),imsodin,2020-10-17T20:27:52Z,2020-10-19T06:40:37+00:00,3,34.21,True,10,8,2,117,0,1,1,MERGED
+7038,lib/model: Handle index sender lifetime (fixes #7034),imsodin,2020-10-17T18:49:59Z,2020-10-21T09:51:54+00:00,7,87.03,True,668,307,5,413,3,9,12,MERGED
+7029,"cmd/stcrashreceiver, lib/db: Improve panic message handling",imsodin,2020-10-08T09:25:31Z,2020-10-08T15:37:46+00:00,4,6.2,True,111,5,5,1231,1,1,2,MERGED
+7025,gui: Fix NaN percentage for zero byte files (fixes #7002),fblampe,2020-10-06T11:39:44Z,2020-10-06T15:17:34+00:00,1,3.63,True,2,1,1,221,3,0,3,MERGED
+7019,lib: Use uint64 for disk stats (ref #3930),imsodin,2020-10-01T09:31:53Z,2020-10-02T13:22:28+00:00,4,27.84,True,62,20,6,574,0,1,1,MERGED
+7018,"lib/model, lib/protocol: Send ClusterConfig on config change (fixes #7020)",imsodin,2020-09-30T13:37:23Z,2020-10-02T09:49:52+00:00,3,44.21,True,155,116,4,1341,3,1,4,MERGED
+7017,gui: add advance config port mapping to gui,rjpruitt16,2020-09-30T04:35:50Z,2020-11-10T08:24:12+00:00,77,987.81,True,271,60,6,385,91,52,143,MERGED
+7015,"lib: Remove HelloResult type, same as Hello",imsodin,2020-09-29T10:02:43Z,2020-09-29T11:17:39+00:00,1,1.25,True,28,36,6,126,0,0,0,MERGED
+7014,lib/model: Auto-resolve identical case-conflicts (fixes #6989),imsodin,2020-09-29T09:28:09Z,2020-09-30T09:31:36+00:00,2,24.06,False,102,7,2,478,1,1,2,CLOSED
+7013,lib/fs: Add COM0 and LPT0 to invalid Windows file names,tomasz1986,2020-09-28T13:55:33Z,2020-09-28T18:35:54+00:00,1,4.67,True,4,3,1,244,1,0,1,MERGED
+7009,all: Move remaining protos to use the vanity plugin,AudriusButkevicius,2020-09-26T22:40:45Z,2020-10-02T06:07:06+00:00,7,127.44,True,8354,1397,55,658,4,1,5,MERGED
+7001,lib/api: Add /rest/config endpoint (fixes #6540),imsodin,2020-09-23T09:08:31Z,2020-10-22T17:54:36+00:00,18,704.77,True,717,154,12,843,22,14,36,MERGED
+7000,lib/fs: use file clone ioctl wrappers and types from golang.org/x/sys/unix,tklauser,2020-09-23T08:27:54Z,2020-09-24T08:29:33+00:00,6,24.03,True,15,66,3,532,1,2,3,MERGED
+6997,"lib/model, lib/scanner: Prevent races aborting scans (fixes #6994)",imsodin,2020-09-21T09:11:55Z,2020-09-25T09:27:45+00:00,5,96.26,True,9,0,2,908,0,2,2,MERGED
+6995,lib/model: Use winning version instead of merge on conflict,imsodin,2020-09-21T06:27:15Z,2020-10-19T06:53:20+00:00,1,672.43,True,4,15,3,1167,0,0,0,MERGED
+6986,lib/model: Consider case conflicts when checking to be deleted items,imsodin,2020-09-11T22:20:14Z,2020-09-12T05:45:51+00:00,1,7.43,True,49,24,2,515,0,0,0,MERGED
+6983,"lib/config, lib/syncthing: Only drop delta index on upgrade if so ordered (fixes #6982)",calmh,2020-09-11T07:38:58Z,2020-09-30T18:16:31+00:00,1,466.63,True,204,194,3,213,0,0,0,MERGED
+6979,lib/fs: Optimize UnicodeLowercase,greatroar,2020-09-10T10:49:14Z,2020-09-11T07:16:11+00:00,5,20.45,True,90,38,2,2524,4,2,6,MERGED
+6978,lib/model: Fix case-only renames on pull,imsodin,2020-09-09T16:31:44Z,2020-09-10T06:23:55+00:00,1,13.87,True,58,9,2,382,0,0,0,MERGED
+6977,lib/model: Consider existing file when handling symlink on windows,imsodin,2020-09-09T14:46:50Z,2020-09-10T08:52:39+00:00,4,18.1,True,82,32,2,494,4,1,5,MERGED
+6976,lib/model: Handle symlink deletion on windows (fixes #6972),imsodin,2020-09-09T10:11:13Z,2020-09-10T06:25:45+00:00,4,20.24,True,1,1,1,138,0,2,2,MERGED
+6975,lib/model: Don't fail over case-conflict on tempfile (fixes #6973),imsodin,2020-09-09T07:05:16Z,2020-09-09T09:47:15+00:00,1,2.7,True,36,2,3,163,2,0,2,MERGED
+6974,lib/fs: More efficient casefs cache,calmh,2020-09-09T07:02:09Z,2020-09-09T12:38:40+00:00,3,5.61,True,157,121,5,3727,1,1,2,MERGED
+6971,"lib/db, lib/syncthing: Don't repair DB on upgrade, but on error (fixes #6917)",imsodin,2020-09-08T20:41:55Z,2020-09-10T08:54:42+00:00,3,36.21,True,111,61,9,187,2,2,4,MERGED
+6962,"lib/db, lib/protocol: Never need empty-version entries (fixes #6961)",calmh,2020-09-07T14:35:06Z,2020-09-07T18:18:25+00:00,2,3.72,True,81,7,4,216,1,1,2,MERGED
+6956,"test, lib/model: Various integration test updates & improvements",imsodin,2020-09-05T14:43:53Z,2020-09-07T07:35:37+00:00,1,40.86,True,175,58,14,441,0,0,0,MERGED
+6954,"cmd/stindex, lib/db: Use same condition to check for needed files",imsodin,2020-09-04T07:43:41Z,2020-09-04T11:59:05+00:00,1,4.26,True,17,17,2,209,0,0,0,MERGED
+6952,"lib/db: Copy returned, old FileVersion",imsodin,2020-09-03T21:58:57Z,2020-09-04T12:13:39+00:00,1,14.24,True,18,8,2,360,0,0,0,MERGED
+6951,lib/model: Don't acquire io token for send-only pull,imsodin,2020-09-03T10:48:16Z,2020-09-03T11:59:46+00:00,1,1.19,True,9,12,2,391,0,0,0,MERGED
+6950,lib/db: Add local need check&repair,imsodin,2020-09-02T22:31:58Z,2020-09-04T12:01:47+00:00,2,37.5,True,186,13,3,726,3,1,4,MERGED
+6948,BUILDHOST name changed for Arch,svetlemodry,2020-09-01T16:39:48Z,2020-09-02T06:20:25+00:00,2,13.68,True,1,1,1,299,2,1,3,MERGED
+6947,all: Implement suture v4-api,imsodin,2020-09-01T08:08:12Z,2020-11-17T12:19:05+00:00,6,1852.18,True,615,691,65,1288,5,3,8,MERGED
+6945,lib/model: Add missing lock on download-state (fixes #6880),imsodin,2020-08-29T22:13:00Z,2020-08-30T06:03:11+00:00,1,7.84,True,3,0,1,0,0,0,0,MERGED
+6944,build: Improve translation script (fixes #6943),imsodin,2020-08-29T20:35:41Z,2020-08-30T06:01:47+00:00,1,9.44,True,10,2,2,147,0,0,0,MERGED
+6942,gui: Use indexOf instead of startsWith for IE11 compatibility (fixes #6940),tomasz1986,2020-08-29T09:03:17Z,2020-08-29T10:26:32+00:00,1,1.39,True,4,4,1,231,1,0,1,MERGED
+6941,lib/model: Adjust fileinfo size when adding the trailer,imsodin,2020-08-29T08:40:12Z,2020-09-04T12:05:32+00:00,1,147.42,True,10,6,1,960,0,0,0,MERGED
+6931,gui: Fix add folder bug (fixes #6930),rjpruitt16,2020-08-26T03:08:39Z,2020-08-27T06:59:38+00:00,1,27.85,True,3,2,2,164,5,0,5,MERGED
+6926,lib/syncthing: Also cleanup on startup error,imsodin,2020-08-24T18:09:51Z,2020-08-27T13:52:52+00:00,1,67.72,True,24,12,2,454,1,0,1,MERGED
+6925,all: Add failure reporting (fixes #7028),imsodin,2020-08-24T09:38:41Z,2020-10-07T08:05:13+00:00,10,1054.44,True,356,85,10,736,5,10,15,MERGED
+6919,lib/model: Prevent localflag flipflopping on del. item (ref #6865),imsodin,2020-08-20T18:07:17Z,2020-08-21T08:09:49+00:00,1,14.04,True,5,5,1,605,2,0,2,MERGED
+6914,lib/model: Handle del. dir with locally changed items on pull (fixes #6873),imsodin,2020-08-19T18:42:05Z,2020-08-20T08:56:30+00:00,1,14.24,True,15,13,1,297,0,0,0,MERGED
+6913,lib/model: Do db heavy ops without holding fmut,imsodin,2020-08-19T14:39:41Z,2020-08-27T14:01:46+00:00,1,191.37,True,4,2,1,479,0,0,0,MERGED
+6911,lib/model: Don't mark globally deleted items as recv-only (fixes #6910),imsodin,2020-08-19T14:16:54Z,2020-08-21T10:34:23+00:00,2,44.29,True,4,7,1,0,5,0,5,MERGED
+6907,"lib/config, lib/fs: Make junction behaviour configurable (ref #6606)",imsodin,2020-08-19T11:48:07Z,2020-08-19T17:58:52+00:00,4,6.18,True,49,17,11,110,6,1,7,MERGED
+6901,lib/fs: Disable ioctl on ppc (fixes #6898),AudriusButkevicius,2020-08-18T18:03:13Z,2020-08-19T05:56:36+00:00,1,11.89,True,1,1,1,11,0,0,0,MERGED
+6900,all: Use protobuf to generate config structs (fixes #6734),AudriusButkevicius,2020-08-18T16:58:52Z,2020-08-25T06:11:16+00:00,16,157.21,True,3807,542,84,1471,15,11,26,MERGED
+6896,lib/connections: Announce LAN addresses by default,AudriusButkevicius,2020-08-15T21:46:51Z,2020-08-25T09:48:14+00:00,3,228.02,True,305,198,10,399,20,1,21,MERGED
+6895,build: Bump goleveldb to latest commit,imsodin,2020-08-15T08:41:46Z,2020-08-21T10:35:05+00:00,2,145.89,True,6,7,2,93,3,0,3,MERGED
+6893,lib/dialer: Try dialing without reuse in parallel (fixes #6892),AudriusButkevicius,2020-08-13T21:49:42Z,2020-08-18T11:11:12+00:00,9,109.36,True,83,38,1,100,6,4,10,MERGED
+6888,"lib/db: Don't put truncated files (ref #6855, ref #6501)",imsodin,2020-08-11T20:10:31Z,2020-08-18T07:20:13+00:00,9,155.16,True,158,25,5,1394,5,3,8,MERGED
+6887,lib/osutil: Check returned error instead of info (ref #6885),imsodin,2020-08-10T19:24:06Z,2020-08-12T09:33:57+00:00,3,38.16,True,6,6,1,138,0,0,0,MERGED
+6885,lib/osutil: Preserve perms in AtomicWriter (fixes #6886),imsodin,2020-08-09T15:41:58Z,2020-08-10T16:48:38+00:00,2,25.11,True,18,1,2,216,0,1,1,MERGED
+6884,Created cleanup functionality for syncthing,rjpruitt16,2020-08-08T16:46:46Z,2020-08-24T11:14:31+00:00,18,378.46,True,160,128,8,1187,17,11,28,MERGED
+6883,all: Remove need to restart syncthing,AudriusButkevicius,2020-08-08T14:07:50Z,2020-08-18T07:26:34+00:00,10,233.31,True,403,284,14,311,5,6,11,MERGED
+6877,"lib/fs: Unwrap mtimeFile, get fd the ""correct"" way (ref #6875)",AudriusButkevicius,2020-08-03T22:16:46Z,2020-08-07T05:47:49+00:00,1,79.52,True,314,134,8,416,5,0,5,MERGED
+6876,lib/model: Don't close file early (fixes #6875),AudriusButkevicius,2020-08-03T18:35:47Z,2020-08-03T19:54:43+00:00,1,1.32,True,80,74,2,58,8,0,8,MERGED
+6872,lib/db: Log context on panic,imsodin,2020-08-01T10:47:48Z,2020-08-01T15:32:36+00:00,1,4.75,True,80,41,1,438,4,0,4,MERGED
+6871,gui: Don't show pull order on SO folders (ref #6807),imsodin,2020-07-31T17:09:10Z,2020-08-01T09:19:55+00:00,1,16.18,True,1,1,1,341,0,0,0,MERGED
+6868,"lib/connections, lib/tlsutil: Handle certName in Go 1.15 (fixes #6867)",calmh,2020-07-30T08:34:55Z,2020-07-30T11:36:12+00:00,4,3.02,True,28,10,4,682,0,1,1,MERGED
+6866,build: Actually set build tags,calmh,2020-07-30T07:38:06Z,2020-07-30T08:58:44+00:00,1,1.34,True,26,28,4,176,0,0,0,MERGED
+6865,lib/model: Detect deleted RO items scanning on non-RO (fixes #6864),imsodin,2020-07-29T10:13:00Z,2020-07-30T11:41:46+00:00,1,25.48,True,58,14,2,353,0,0,0,MERGED
+6863,lib/db: Don't count invalid items to global state (ref #6850),imsodin,2020-07-28T15:30:23Z,2020-07-30T11:49:14+00:00,1,44.31,True,27,52,5,658,1,0,1,MERGED
+6861,lib/db: Include blocks in db check (ref #6855),imsodin,2020-07-28T12:53:59Z,2020-07-28T14:25:08+00:00,1,1.52,True,1,1,1,171,0,0,0,MERGED
+6849,lib: Wrap suture to add service errors/termination (ref #5907),imsodin,2020-07-23T20:33:17Z,2020-08-21T11:27:09+00:00,1,686.9,False,332,218,6,1035,3,1,4,CLOSED
+6848,change default marker folder name,saimonn,2020-07-23T13:00:10Z,2020-11-14T07:02:50+00:00,1,2730.04,False,37,32,18,456,18,1,19,CLOSED
+6847,lib/model: Check folder error before sync-waiting (fixes #6793),imsodin,2020-07-22T23:01:13Z,2020-07-31T17:26:10+00:00,1,210.42,True,23,15,2,1235,2,0,2,MERGED
+6846,lib/fs: Pass inf. rec. err on instead of warning,imsodin,2020-07-22T15:47:32Z,2020-07-22T20:10:25+00:00,1,4.38,True,14,3,2,463,0,0,0,MERGED
+6841,dev: add github action file #5436,qinghon,2020-07-19T12:37:37Z,2020-09-15T17:44:31+00:00,8,1397.12,False,71,0,1,442,1,3,4,CLOSED
+6838,lib/db: Rework flush hooks,AudriusButkevicius,2020-07-17T20:03:41Z,2020-07-19T06:55:27+00:00,1,34.86,True,62,60,8,1154,2,0,2,MERGED
+6837,gui: sharpen device icons (fixes #5579),aelindeman,2020-07-16T16:32:59Z,2020-07-16T17:49:49+00:00,1,1.28,True,1,0,1,327,1,0,1,MERGED
+6834,gui: Add GUI control for versioning cleanup interval (ref #6693),calmh,2020-07-14T09:20:53Z,2020-07-14T15:35:10+00:00,1,6.24,True,29,11,2,95,2,0,2,MERGED
+6830,build(deps): bump github.com/greatroar/blobloom from 0.2.1 to 0.3.0,dependabot-preview,2020-07-13T09:15:33Z,2020-07-14T06:40:47+00:00,1,21.42,True,3,1,2,3169,0,0,0,MERGED
+6829,build(deps): bump github.com/lucas-clemente/quic-go from 0.17.2 to 0.17.3,dependabot-preview,2020-07-13T09:14:35Z,2020-07-14T06:29:21+00:00,1,21.25,True,3,1,2,3169,0,0,0,MERGED
+6828,lib/scanner: Less strict validation (fixes #6827),calmh,2020-07-11T06:53:30Z,2020-07-11T12:48:46+00:00,1,5.92,True,4,4,1,175,2,0,2,MERGED
+6826,lib/db: Use SipHash to deal with hash collisions in GC,greatroar,2020-07-10T14:14:07Z,2020-07-11T07:36:10+00:00,1,17.37,True,40,16,3,987,0,0,0,MERGED
+6824,lib/nat: Make sure nat keeps being disabled (fixes #6823),imsodin,2020-07-09T09:55:41Z,2020-07-14T06:16:08+00:00,4,116.34,True,51,45,1,301,0,2,2,MERGED
+6822,gui: Improve advanced tab in folder edit modal,imsodin,2020-07-08T20:34:43Z,2020-07-09T13:28:46+00:00,2,16.9,True,56,56,1,285,0,0,0,MERGED
+6821,gui: Disable file pull order when for send-only (fixes #6807),jccroft1,2020-07-08T19:40:17Z,2020-07-09T09:57:05+00:00,4,14.28,True,4,1,1,378,1,2,3,MERGED
+6814,lib: Use encoding.TextUnmarshaler for utils.SetDefaults,imsodin,2020-07-06T09:24:13Z,2020-07-06T10:47:25+00:00,1,1.39,False,9,16,4,199,1,0,1,CLOSED
+6813,build(deps): bump github.com/lucas-clemente/quic-go from 0.17.1 to 0.17.2,dependabot-preview,2020-07-06T09:01:57Z,2020-07-06T11:18:11+00:00,1,2.27,True,3,1,2,2529,0,0,0,MERGED
+6811,gui: Hide file pull order when folder is send only,jccroft1,2020-07-05T17:11:12Z,2020-07-08T20:49:12+00:00,1,75.63,False,1,1,1,369,3,0,3,CLOSED
+6809,lib/fs: Set O_NOATIME flag on Linux,greatroar,2020-07-02T12:26:50Z,2020-07-22T07:23:47+00:00,1,474.95,False,122,0,4,150,6,0,6,CLOSED
+6808,"lib/api, lib/model: Improve folder completion API (fixes #6075)",calmh,2020-07-02T12:07:19Z,2020-07-03T06:48:38+00:00,7,18.69,True,104,32,3,881,4,2,6,MERGED
+6803,lib/ur: Track new folder feature usage,AudriusButkevicius,2020-06-28T14:45:02Z,2020-06-28T18:35:23+00:00,1,3.84,True,180,6,4,0,0,0,0,MERGED
+6802,lib/protocol: Add BlocksHash to FileInfo string,imsodin,2020-06-26T21:33:06Z,2020-06-27T05:44:34+00:00,3,8.19,True,12,2,2,39,0,1,1,MERGED
+6799,lib/protocol: Include WeakHash in BlocksHash,imsodin,2020-06-25T19:44:50Z,2020-06-29T07:33:08+00:00,7,83.81,True,8,4,2,830,6,2,8,MERGED
+6797,lib/model: Consider weak hash on recheckFile,imsodin,2020-06-25T15:00:53Z,2020-06-26T14:47:04+00:00,1,23.77,True,9,5,2,1443,0,0,0,MERGED
+6796,lib/protocol: Don't warn when dropping deleted invalid item (fixes #6795),imsodin,2020-06-25T14:13:39Z,2020-06-25T18:24:32+00:00,1,4.18,True,8,1,1,5,0,0,0,MERGED
+6790,lib/ur: Zero our the value before unmarshal,AudriusButkevicius,2020-06-23T19:01:40Z,2020-06-23T20:23:33+00:00,1,1.36,True,28,0,2,10,1,0,1,MERGED
+6787,all: Add untrusted config for devices,imsodin,2020-06-22T18:26:27Z,2020-07-02T18:48:23+00:00,14,240.37,True,124,93,13,281,1,4,5,MERGED
+6785,lib/db: Correct need accounting on reset (fixes #6784),imsodin,2020-06-22T09:53:32Z,2020-06-23T05:29:28+00:00,1,19.6,True,33,3,2,0,0,0,0,MERGED
+6783,build(deps): bump github.com/go-ldap/ldap/v3 from 3.1.10 to 3.2.0,dependabot-preview,2020-06-22T09:37:19Z,2020-06-23T05:34:52+00:00,1,19.96,True,8,1,2,2527,0,0,0,MERGED
+6782,build(deps): bump golang.org/x/text from 0.3.2 to 0.3.3,dependabot-preview,2020-06-22T09:36:39Z,2020-06-23T05:34:23+00:00,1,19.96,True,3,1,2,2842,0,0,0,MERGED
+6780,lib/model: Remove double error handling in performFinish,imsodin,2020-06-22T07:55:40Z,2020-06-23T05:30:17+00:00,1,21.58,True,0,2,1,109,0,0,0,MERGED
+6778,lib/model: More connection closing,AudriusButkevicius,2020-06-21T22:07:52Z,2020-06-22T20:26:27+00:00,4,22.31,True,119,1,2,57,4,5,9,MERGED
+6777, lib/nat: Make service termination faster,AudriusButkevicius,2020-06-21T21:27:58Z,2020-06-22T08:01:57+00:00,6,10.57,True,35,15,2,27,0,1,1,MERGED
+6775,lib/protocol: Use sha256.Sum256 in NewDeviceID,greatroar,2020-06-21T17:25:11Z,2020-06-21T18:38:07+00:00,1,1.22,True,1,5,1,151,0,0,0,MERGED
+6774,"lib/api, lib/model: Fixes around event request tracking",imsodin,2020-06-21T12:58:24Z,2020-06-25T19:48:49+00:00,5,102.84,True,22,3,4,430,0,3,3,MERGED
+6770,lib/ur: Normalise contract between syncthing and ursrv,AudriusButkevicius,2020-06-20T16:53:11Z,2020-06-23T08:47:16+00:00,12,63.9,True,979,858,18,279,16,1,17,MERGED
+6769,lib/model: Use right db snap when scanning recvonly folder,imsodin,2020-06-20T15:13:23Z,2020-06-21T07:28:29+00:00,1,16.25,True,30,29,1,656,0,0,0,MERGED
+6768,build: Disable Cgo on windows,imsodin,2020-06-20T12:27:34Z,2020-06-21T15:32:56+00:00,10,27.09,True,15,6,1,183,0,1,1,MERGED
+6764,lib/fs: Add support for Windows duplicate extents,AudriusButkevicius,2020-06-18T19:35:29Z,2020-06-18T21:32:27+00:00,1,1.95,True,134,1,3,11,9,0,9,MERGED
+6762,all: Don't send locally changed items in index and add UI controls,imsodin,2020-06-18T13:26:42Z,2020-08-28T06:46:54+00:00,13,1697.34,True,232,43,12,766,3,5,8,MERGED
+6760,build: Change version strings to not have plus in them (ref #6758),calmh,2020-06-18T12:38:22Z,2020-06-20T06:42:07+00:00,3,42.06,True,35,7,1,1235,18,1,19,MERGED
+6752,lib/rand: Various fixes,greatroar,2020-06-16T17:55:37Z,2020-06-17T08:43:59+00:00,2,14.81,True,16,16,4,430,1,0,1,MERGED
+6751,lib/db: Improve error message on meta inconsistency,imsodin,2020-06-16T10:44:01Z,2020-06-17T08:03:39+00:00,1,21.33,True,16,2,2,329,5,0,5,MERGED
+6750,lib/config: Apply defaults to folders/devices on config load (ref #6748),calmh,2020-06-16T08:54:55Z,2020-10-27T07:02:55+00:00,1,3190.13,False,156,21,7,382,8,0,8,CLOSED
+6747,cmd/ursrv: Attempt to fix js failure to load,AudriusButkevicius,2020-06-15T18:54:17Z,2020-06-15T21:08:57+00:00,1,2.24,True,6,6,1,81,0,0,0,MERGED
+6746,all: Add copy-on-write filesystem support (fixes #4271),AudriusButkevicius,2020-06-15T18:44:54Z,2020-06-18T06:15:48+00:00,15,59.52,True,858,84,26,121,14,11,25,MERGED

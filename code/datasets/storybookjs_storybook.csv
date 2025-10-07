@@ -1,5 +1,6 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
 32629,Core: Various QA fixes,ghengeveld,2025-10-03T09:32:00Z,2025-10-03T13:36:55+00:00,3,4.08,True,75,35,7,2461,3,0,3,MERGED
+32624,Fix: Incorrect URLS for the upgrade command,jonniebigodes,2025-10-02T16:43:46Z,2025-10-06T07:15:21+00:00,1,86.53,True,5,5,3,2434,2,0,2,MERGED
 32621,Release tooling: Use npm Trusted Publishing for canaries,JReinhold,2025-10-02T14:00:35Z,2025-10-02T19:10:56+00:00,4,5.17,True,227,255,8,2645,3,6,9,MERGED
 32602,Core: Make `subtype` an optional property on an index input,JReinhold,2025-10-01T14:02:08Z,2025-10-03T09:34:54+00:00,6,43.55,True,32,10,4,2742,3,5,8,MERGED
 32594,A11y: Improve dist size from React Aria,JReinhold,2025-10-01T09:57:50Z,2025-10-01T11:24:17+00:00,6,1.44,True,279,30,21,3065,3,3,6,MERGED
@@ -149,3 +150,852 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 32141,Release: Prerelease 9.1.0-beta.1,github-actions,2025-07-28T12:39:21Z,2025-07-29T14:18:19+00:00,1,25.65,True,138,86,16,2475,1,0,1,MERGED
 32134,CLI: Drop contextual dependencies in `create-storybook`,43081j,2025-07-27T21:42:47Z,2025-09-18T08:49:30+00:00,3,1259.11,True,79,170,2,3800,7,3,10,MERGED
 32131,Next.js: Return mocked router instead of actual router in useRouter,JulioJ11,2025-07-27T17:09:30Z,2025-08-11T12:44:42+00:00,2,355.59,True,8,1,1,4739,2,0,2,MERGED
+32128,Docs: Add automocking guide,kylegach,2025-07-25T20:30:45Z,2025-07-30T17:32:27+00:00,10,117.03,True,327,140,7,3252,1,10,11,MERGED
+32126,Docs: Migration guide removes incorrect link,dmarcisovska,2025-07-25T18:03:02Z,2025-07-31T13:37:58+00:00,4,139.58,True,2,4,1,3062,1,1,2,MERGED
+32125,Release: Prerelease beta 9.1.0-beta.0,github-actions,2025-07-25T14:10:54Z,2025-07-26T08:11:16+00:00,1,18.01,True,17,8,5,2140,1,0,1,MERGED
+32123,Core: Avoid pausing animations in non-Vitest Playwright environments,ghengeveld,2025-07-25T11:43:12Z,2025-07-25T14:08:19+00:00,1,2.42,True,10,6,2,1903,1,0,1,MERGED
+32118,"fix: ensure ""You modified this story"" banner is visible by increasing z-index",caffeine-rohit,2025-07-24T12:55:46Z,2025-10-01T18:22:26+00:00,1,1661.44,False,2,0,1,3681,2,0,2,CLOSED
+32116,Windows: Fix runtime and build-time errors,JReinhold,2025-07-24T09:05:03Z,2025-07-24T12:14:52+00:00,2,3.16,True,53,38,18,4244,1,1,2,MERGED
+32115,Test: Remove source map generation from webpack automock-loader,valentinpalkovic,2025-07-24T08:59:31Z,2025-07-24T12:03:43+00:00,2,3.07,True,1,2,1,3360,1,0,1,MERGED
+32113,Maintenance: Add flag to toggle default automigrations,yannbf,2025-07-23T15:11:19Z,2025-07-24T08:41:29+00:00,3,17.5,True,7,7,7,4070,1,0,1,MERGED
+32111,Test: Fix missing source map for Webpack/Vite mock loaders and plugins,valentinpalkovic,2025-07-23T11:25:20Z,2025-07-23T13:46:09+00:00,1,2.35,True,24,16,3,3578,2,0,2,MERGED
+32109,Build: Support big metafiles in bundle analyzer,JReinhold,2025-07-23T09:18:21Z,2025-07-24T09:47:07+00:00,6,24.48,True,2907,262,53,4282,2,9,11,MERGED
+32108,Angular: Inherit options from browserTarget,gingeekrishna,2025-07-23T07:52:09Z,2025-08-07T09:55:57+00:00,3,362.06,True,343,10,2,4180,7,1,8,MERGED
+32104,Core: Throw original import error when require fails,JReinhold,2025-07-22T14:03:53Z,2025-07-23T07:03:20+00:00,2,16.99,True,14,4,1,3453,1,0,1,MERGED
+32103,Telemetry: Add automigration errors,yannbf,2025-07-22T13:21:05Z,2025-07-23T13:53:06+00:00,3,24.53,True,55,36,2,2843,1,1,2,MERGED
+32099,Release: Patch 9.0.19,github-actions,2025-07-22T12:29:59Z,2025-07-28T13:21:22+00:00,1,144.86,False,34,46,9,2180,2,0,2,CLOSED
+32098,Release: Patch 9.0.18,github-actions,2025-07-22T12:07:36Z,2025-07-24T11:14:46+00:00,1,47.12,False,419,45,24,3945,2,0,2,CLOSED
+32096,Build: Updated module import paths,valentinpalkovic,2025-07-22T07:59:14Z,2025-07-24T08:09:46+00:00,1,48.18,False,21,6,4,2828,2,0,2,CLOSED
+32092,Build: Stop minifying build output,JReinhold,2025-07-21T12:30:41Z,2025-07-23T12:49:50+00:00,4,48.32,True,59,52,42,3723,2,2,4,MERGED
+32090,React: Fix `await import(__STORYBOOK_MODULE_TEST__)` replacement,JReinhold,2025-07-21T11:56:11Z,2025-07-23T09:34:43+00:00,3,45.64,True,1,1,1,3893,1,0,1,MERGED
+32089,Build: Testing more e2e-dev instead of e2e build,yannbf,2025-07-21T11:56:03Z,2025-07-29T09:08:51+00:00,1,189.21,True,73,60,5,3102,2,0,2,MERGED
+32088,Core: Prebundle recast,yannbf,2025-07-21T11:51:01Z,2025-08-12T14:16:50+00:00,1,530.43,False,1,1,1,2493,3,0,3,CLOSED
+32083,CLI: Add addon-console automigration,Sidnioulz,2025-07-19T13:48:53Z,2025-09-15T13:46:03+00:00,23,1391.95,True,1390,31,34,7250,7,12,19,MERGED
+32079,Docs: Vue - Remove reference to Volar extension,Joe-Moran,2025-07-18T16:22:52Z,2025-07-21T14:33:18+00:00,5,70.17,True,2,2,2,2751,1,1,2,MERGED
+32078,docs: remove deprecated vscode extension,Joe-Moran,2025-07-18T16:21:09Z,2025-07-18T22:27:50+00:00,2,6.11,True,1,1,1,2839,1,0,1,MERGED
+32077,CLI: Fix Storybook doctor compatibility checks,yannbf,2025-07-18T16:02:50Z,2025-07-21T08:39:22+00:00,2,64.61,True,7,0,1,3309,1,0,1,MERGED
+32072,Telemetry: Add nodeLinker to telemetry,valentinpalkovic,2025-07-18T08:55:39Z,2025-07-18T10:39:19+00:00,4,1.73,True,264,15,4,2700,2,3,5,MERGED
+32068,Benchmarks: Fix package benchmark reports,JReinhold,2025-07-17T13:00:13Z,2025-07-21T12:48:50+00:00,3,95.81,True,70,38,5,3411,2,1,3,MERGED
+32067,ESM: Update documentation to use valid ESM,ndelangen,2025-07-17T12:29:42Z,2025-07-22T14:36:33+00:00,5,122.11,True,202,214,34,2952,1,9,10,MERGED
+32066,Addon Vitest: Simplify coverage reporter CJS workaround,JReinhold,2025-07-17T09:43:58Z,2025-07-17T15:02:34+00:00,2,5.31,True,10,16,5,1992,1,1,2,MERGED
+32065,Build: Cleanup configurations and remove old build scripts,JReinhold,2025-07-17T09:32:06Z,2025-07-17T14:32:54+00:00,2,5.01,True,1734,2410,57,3217,1,4,5,MERGED
+32064,ESLint plugin: Migrate to ESM,JReinhold,2025-07-17T08:05:45Z,2025-07-17T14:07:04+00:00,6,6.02,True,151,111,32,3394,2,3,5,MERGED
+32060,Release: Prerelease 9.1.0-alpha.9,github-actions,2025-07-16T18:54:36Z,2025-07-22T11:54:50+00:00,1,137.0,True,2631,137,80,2751,2,0,2,MERGED
+32059,Release: Patch 9.0.18,github-actions,2025-07-16T18:54:35Z,2025-07-22T12:03:44+00:00,1,137.15,True,418,44,23,2490,1,0,1,MERGED
+32054,ESM: Remove unused bundle scripts,ndelangen,2025-07-16T12:10:01Z,2025-07-17T07:04:24+00:00,2,18.91,True,0,524,2,2935,1,0,1,MERGED
+32051,React Native Web: Simplify config by using vite-plugin-rnw,dannyhw,2025-07-16T08:48:55Z,2025-07-22T12:27:22+00:00,4,147.64,True,346,165,7,4392,2,5,7,MERGED
+32047,WIP Vitest test runner experiment ,yannbf,2025-07-15T17:06:29Z,2025-07-18T13:36:55+00:00,1,68.51,False,1651,104,12,1993,6,1,7,CLOSED
+32044,ESM: Convert final packages in monorepo,ndelangen,2025-07-15T12:37:17Z,2025-07-17T07:03:56+00:00,14,42.44,True,280,237,32,3016,2,12,14,MERGED
+32036,CI: Add resolution to pin Rollup to v4.44.2 in sandboxes,ghengeveld,2025-07-14T13:18:17Z,2025-07-14T16:32:02+00:00,1,3.23,True,2,0,1,1789,1,0,1,MERGED
+32034,Addons and renderers: Fix not being able to resolve package when referenced with `getAbsolutePath`,JReinhold,2025-07-14T11:02:18Z,2025-07-14T14:50:38+00:00,2,3.81,True,20,0,20,3208,1,0,1,MERGED
+32033,CI: Sort keys in CircleCI config.yml to prep for config packing,ghengeveld,2025-07-14T08:18:26Z,2025-07-15T08:53:01+00:00,1,24.58,False,500,517,1,3038,1,0,1,CLOSED
+32025,CI: Split CircleCI config into multiple files,ghengeveld,2025-07-11T22:08:51Z,2025-07-21T13:07:08+00:00,2,230.97,True,2392,1059,39,2591,2,18,20,MERGED
+32022,Docs: Fix broken links in CSF API reference,kylegach,2025-07-11T15:46:54Z,2025-07-14T17:54:45+00:00,2,74.13,True,7,7,1,1657,1,0,1,MERGED
+32020,Core: Fix moving log file across drives and projectRoot detection on Windows,ghengeveld,2025-07-11T12:58:23Z,2025-07-22T15:46:29+00:00,2,266.8,True,24,41,3,2861,2,1,3,MERGED
+32012,Angular: Prevent directory import in Angular builders,ghengeveld,2025-07-10T20:31:47Z,2025-07-11T09:37:16+00:00,2,13.09,True,2,2,1,2748,2,0,2,MERGED
+32006,ESM: Convert frameworks to ESM-only,ndelangen,2025-07-10T12:46:19Z,2025-07-17T07:03:02+00:00,22,162.28,True,943,818,110,1754,2,24,26,MERGED
+32005,Onboarding: Replace `require.resolve` with json import,JReinhold,2025-07-10T10:50:46Z,2025-07-10T12:11:21+00:00,2,1.34,True,11,16,1,2302,1,1,2,MERGED
+32004,CI: Remove `@swc/core` package resolution to resolve `es2023` compatibility,ghengeveld,2025-07-10T07:49:16Z,2025-07-10T09:22:54+00:00,2,1.56,True,0,1,1,2864,1,0,1,MERGED
+32003,Core: Export module utilities in common entry point,JReinhold,2025-07-10T06:30:06Z,2025-07-10T11:02:16+00:00,2,4.54,True,1,0,1,2339,2,0,2,MERGED
+31997,ESM: update test-runner to latest canary (bundled in),ndelangen,2025-07-09T13:25:59Z,2025-07-09T15:13:44+00:00,1,1.8,True,51,42,42,2322,1,1,2,MERGED
+31993,"CI: Update CircleCI config to support ""Rerun failed tests"" feature",ghengeveld,2025-07-09T07:17:32Z,2025-07-11T14:20:28+00:00,3,55.05,True,29,33,3,2898,2,3,5,MERGED
+31991,Release: Patch 9.0.17,github-actions,2025-07-09T06:19:51Z,2025-07-15T11:23:40+00:00,1,149.06,True,1081,509,43,3072,2,0,2,MERGED
+31987,Test: Add mock capabilities,valentinpalkovic,2025-07-08T10:31:22Z,2025-07-18T14:03:54+00:00,7,243.54,True,2206,93,58,7693,5,39,44,MERGED
+31986,"Revert ""Core: Fix FIPS compliance""",ghengeveld,2025-07-08T09:14:06Z,2025-07-11T09:55:08+00:00,1,72.68,False,1,1,1,382,3,1,4,CLOSED
+31985,"Revert ""Addon Vitest: Remove Optimize deps candidates due to Vitest warnings""",ghengeveld,2025-07-08T08:58:29Z,2025-07-11T09:55:14+00:00,1,72.95,False,1,0,1,432,2,0,2,CLOSED
+31982,ESM: Convert renderers to ESM & new build script,ndelangen,2025-07-07T21:07:12Z,2025-07-11T12:29:48+00:00,5,87.38,True,412,344,76,2486,2,8,10,MERGED
+31981,UI: Update light color scheme,MichaelArestad,2025-07-07T20:38:03Z,2025-09-18T21:17:42+00:00,2,1752.66,False,21,21,2,2102,3,1,4,CLOSED
+31980,Svelte: Fix union types generating invalid labels in argTypes,grantralls,2025-07-07T19:53:35Z,2025-07-16T18:52:08+00:00,5,214.98,True,0,1,1,3263,5,4,9,MERGED
+31973,Release: Prerelease 9.1.0-alpha.8,github-actions,2025-07-07T13:03:21Z,2025-07-15T09:48:50+00:00,1,188.76,True,1393,622,55,3807,2,3,5,MERGED
+31970,ESM: Convert builders to ESM,ndelangen,2025-07-07T09:36:12Z,2025-07-10T09:40:23+00:00,10,72.07,True,244,161,36,2351,2,12,14,MERGED
+31968,Core: Fix Yarn PnP support,JReinhold,2025-07-07T08:36:44Z,2025-07-08T10:41:04+00:00,13,26.07,True,1457,97,57,2658,2,31,33,MERGED
+31960,Docs: Remove typo in the Svelte Vite framework,morfey13,2025-07-05T12:13:54Z,2025-07-08T13:18:24+00:00,2,73.08,True,1,1,1,1949,1,0,1,MERGED
+31954,ESM: convert addons to ESM,ndelangen,2025-07-04T10:34:44Z,2025-07-09T11:30:56+00:00,20,120.94,True,533,452,95,2178,3,16,19,MERGED
+31952,Controls: prevent AbortError when rapidly clicking reset controls,idiglove,2025-07-04T00:58:27Z,2025-09-09T02:47:54+00:00,1,1609.82,False,32,2,1,2246,1,0,1,CLOSED
+31950,Addon Vitest: Reset `currentRun` data when starting new test,ghengeveld,2025-07-03T21:13:00Z,2025-07-07T08:00:32+00:00,1,82.79,False,11,11,3,1907,2,0,2,CLOSED
+31947,"ESM: No longer bundle core into create-storybook, due to ESM banner duplic…",ndelangen,2025-07-03T12:39:55Z,2025-07-23T10:13:48+00:00,3,477.56,True,118,99,28,2976,2,2,4,MERGED
+31944,Onboarding: Intent survey,ghengeveld,2025-07-03T11:57:03Z,2025-07-09T06:17:04+00:00,9,138.33,True,1023,460,29,2672,2,16,18,MERGED
+31937,Core: Improve addon detection in automigrations on windows,mrginglymus,2025-07-02T16:33:37Z,2025-08-11T11:28:03+00:00,2,954.91,True,17,0,2,2532,3,0,3,MERGED
+31934,CI: Temporarily disable Nuxt sandbox,ghengeveld,2025-07-02T14:14:59Z,2025-07-03T09:27:22+00:00,3,19.21,True,23,23,2,2278,3,0,3,MERGED
+31931,Controls: Allow primitive values of ReactNode argType,alexey-kozlenkov,2025-07-02T10:19:48Z,2025-09-23T14:52:16+00:00,5,1996.54,True,24,0,2,3124,7,2,9,MERGED
+31930,Docs: Fix type import in background code snippet,tijmenb,2025-07-02T08:51:49Z,2025-07-03T18:53:12+00:00,3,34.02,True,1,1,1,2248,2,1,3,MERGED
+31928,Solid: Update links and docs for framework/renderer package,kachurun,2025-07-02T07:05:10Z,2025-08-11T16:04:21+00:00,2,968.99,True,56,55,49,2622,6,0,6,MERGED
+31923,Automigration: Fail with non-zero exit code on migration failure,mrginglymus,2025-07-01T15:37:45Z,2025-07-07T13:00:40+00:00,3,141.38,True,58,18,2,2957,4,2,6,MERGED
+31922,CLI: Fix `sb` CLI by explicitly exporting `bin/index.cjs` from `storybook` package,ghengeveld,2025-07-01T15:20:31Z,2025-07-01T18:24:31+00:00,2,3.07,True,4,0,2,2899,2,0,2,MERGED
+31921,Core: Fix issue where collapsed test controls can be tabbed into,zenocross,2025-07-01T14:50:47Z,2025-07-07T10:12:54+00:00,7,139.37,True,31,29,1,3827,5,2,7,MERGED
+31918,Actions: Add ability to trigger actions for console methods,JReinhold,2025-07-01T12:34:16Z,2025-07-23T09:35:46+00:00,3,525.02,False,108,0,4,3363,11,2,13,CLOSED
+31917,"`create-storybook`/`@storybook/cli`: Publish as ESM-only, generalize core build scripts",ndelangen,2025-07-01T10:58:45Z,2025-07-04T09:34:32+00:00,3,70.6,True,1564,1567,99,2065,3,3,6,MERGED
+31913,Release: Patch 9.0.16,github-actions,2025-07-01T08:26:35Z,2025-07-08T13:22:46+00:00,1,172.94,True,231,135,27,4246,2,0,2,MERGED
+31912,Release: Patch 9.0.15,github-actions,2025-07-01T08:01:54Z,2025-07-01T11:54:14+00:00,1,3.87,False,55,24,13,4279,0,1,1,CLOSED
+31907,Core: Cleanup ESM-only build scripts,JReinhold,2025-06-30T09:28:43Z,2025-06-30T12:53:21+00:00,4,3.41,True,115,433,8,2550,2,4,6,MERGED
+31906,NextJs-Vite: Enable next/font loading when using next-vite,k35o,2025-06-30T09:24:57Z,2025-07-01T07:59:08+00:00,3,22.57,True,8,8,3,2615,6,1,7,MERGED
+31905,Core: Simplify module resolution,JReinhold,2025-06-30T08:21:39Z,2025-06-30T11:49:24+00:00,3,3.46,True,96,210,20,2926,2,4,6,MERGED
+31904,Release: Patch 9.0.15,github-actions,2025-06-30T08:00:50Z,2025-07-01T07:59:24+00:00,1,23.98,True,35,14,7,2834,1,1,2,MERGED
+31899,React: Bump @joshwooding/vite-plugin-react-docgen-typescript to 0.6.1,mrginglymus,2025-06-28T11:06:40Z,2025-06-30T07:56:03+00:00,3,44.82,True,7,7,2,2268,1,0,1,MERGED
+31892,Build: Remove NODE_OPTIONS flags for symlinks in main storybook,ndelangen,2025-06-27T11:51:14Z,2025-06-27T18:36:55+00:00,3,6.76,True,16,19,4,2223,2,0,2,MERGED
+31888,Deps: Update vite-plugin-babel to 1.3.2 to fix vite 7.0.0 peerDependency issue,ghengeveld,2025-06-27T09:25:52Z,2025-06-27T10:38:34+00:00,3,1.21,True,7,7,2,2211,1,0,1,MERGED
+31886,CLI: Do not fail incompatible package check in doctor if only core packages used,mrginglymus,2025-06-27T08:22:34Z,2025-06-30T07:58:16+00:00,2,71.59,True,20,5,2,2532,1,0,1,MERGED
+31885,Docs: Use stalebot with PR also,vanessayuenn,2025-06-27T08:04:29Z,2025-07-01T11:33:01+00:00,2,99.48,True,5,3,1,2414,1,0,1,MERGED
+31875,Core: Only support ESM version of getAbsolutePath,ndelangen,2025-06-26T08:46:24Z,2025-06-27T14:51:52+00:00,3,30.09,True,155,140,10,2408,2,3,5,MERGED
+31872,Core: Remove `typesVersions` field from core,ndelangen,2025-06-25T21:42:15Z,2025-06-27T14:51:42+00:00,2,41.16,True,24,336,14,2282,1,0,1,MERGED
+31870,Core: Various fixes,ghengeveld,2025-06-25T13:30:57Z,2025-06-30T20:02:31+00:00,2,126.53,True,6,3,3,2370,2,1,3,MERGED
+31869,Release: Patch 9.0.14,github-actions,2025-06-25T10:26:07Z,2025-06-27T18:52:33+00:00,1,56.44,True,784,609,37,2900,3,0,3,MERGED
+31860,Core: Migrate CLI and bins to ESM-only,JReinhold,2025-06-24T13:27:15Z,2025-06-27T14:51:22+00:00,7,73.4,True,196,161,19,3760,2,8,10,MERGED
+31859,Deps: Extend `vite` peerDependencies range to include `7.0.0`,ghengeveld,2025-06-24T12:18:50Z,2025-06-25T14:18:31+00:00,6,25.99,True,618,511,18,1901,2,3,5,MERGED
+31857,Core: Update all Vitest packages to v3.2.4,ghengeveld,2025-06-24T08:55:58Z,2025-06-25T14:18:32+00:00,1,29.38,True,8630,349,9,2104,0,0,0,MERGED
+31855,Next.js: upgrade sass-loader to 16.0.5,terrymun,2025-06-23T21:25:49Z,2025-07-07T09:32:08+00:00,1,324.11,True,3,29,2,3272,2,0,2,MERGED
+31853,UI: Fix interaction step collapse icon,AvitalHass,2025-06-23T18:10:10Z,2025-07-14T13:49:30+00:00,5,499.66,True,6,3,1,2142,4,3,7,MERGED
+31848,UI: Visual focus indicators (VFIs) aren't visible in high contrast mode (rebase),Sidnioulz,2025-06-23T10:55:27Z,2025-06-24T04:06:28+00:00,3,17.18,True,17,0,3,2544,4,0,4,MERGED
+31845,CI: Reevaluate E2E locator with each assertion,ghengeveld,2025-06-23T09:59:52Z,2025-07-07T07:32:07+00:00,2,333.54,True,15,11,2,2343,2,0,2,MERGED
+31844,Core: Fix addon scrollbars and align scrollbar colors with toolbars,Sidnioulz,2025-06-23T08:40:45Z,2025-06-25T09:28:43+00:00,3,48.8,True,15,7,4,2872,2,3,5,MERGED
+31843,ESM-only: Demo auto-load preview/manager in ESM,ndelangen,2025-06-23T08:24:04Z,2025-06-23T13:58:10+00:00,1,5.57,True,3,10,3,2376,1,0,1,MERGED
+31841,Docs: Prevent JSON tree control from swallowing keyboard events when not in focus,takashi-kasajima,2025-06-23T02:29:24Z,2025-06-30T21:06:27+00:00,2,186.62,True,55,16,2,3172,2,1,3,MERGED
+31839,Core: Group hooks in a single folder,Sidnioulz,2025-06-22T09:59:43Z,2025-07-14T13:22:20+00:00,3,531.38,True,1,1,2,2166,4,0,4,MERGED
+31838,Docs: Fix incorrect `vitest.setup.ts` snippet,kylegach,2025-06-20T21:10:32Z,2025-07-14T17:18:35+00:00,2,572.13,True,1,13,2,1980,2,0,2,MERGED
+31834,Core: Gracefully handle disallowed cross-origin clipboard access,ghengeveld,2025-06-20T14:26:45Z,2025-06-23T13:11:26+00:00,2,70.74,True,9,4,1,2984,3,0,3,MERGED
+31831,Core: ESM-only-fi server-related entry points,JReinhold,2025-06-20T12:00:25Z,2025-06-24T21:30:55+00:00,6,105.51,True,18951,759,78,2787,2,11,13,MERGED
+31829,Release: Patch 9.0.13,github-actions,2025-06-20T09:03:51Z,2025-06-24T10:51:42+00:00,1,97.8,True,92,23,12,3001,2,0,2,MERGED
+31825,Core: ESM-only-fi manager-related entry points,JReinhold,2025-06-19T21:11:31Z,2025-06-27T11:54:35+00:00,27,182.72,True,1070,1096,83,2520,2,14,16,MERGED
+31824,Core: ESM-only-fi preview-related entry points,JReinhold,2025-06-19T20:00:23Z,2025-06-24T10:59:23+00:00,2,110.98,True,207,197,10,2910,2,0,2,MERGED
+31823,Core: Cleanup of type following up v9 and small verbatimModuleSyntax type fix ,alcpereira,2025-06-19T17:45:40Z,2025-06-23T18:12:34+00:00,3,96.45,True,2,6,2,2879,2,0,2,MERGED
+31821,Core: ESM-only core bundles,JReinhold,2025-06-19T13:09:44Z,2025-06-24T13:53:17+00:00,3,120.73,True,328,232,12,2886,3,6,9,MERGED
+31819,"Core: Remove CJS bundles, only ship ESM",ndelangen,2025-06-19T09:12:14Z,2025-08-13T11:20:11+00:00,19,1322.13,True,11231,9162,585,1298,13,14,27,MERGED
+31814,Docs: Add missing `extends: true` in `vitest.config.ts` snippets,messenjer,2025-06-18T19:21:16Z,2025-06-24T06:39:56+00:00,2,131.31,True,6,0,1,2374,1,0,1,MERGED
+31813,Cleanup: Fix links in package.json,vinay-d07,2025-06-18T18:53:09Z,2025-06-23T07:44:34+00:00,3,108.86,True,10,4,3,1980,1,2,3,MERGED
+31810,Release: Patch 9.0.12,github-actions,2025-06-18T10:03:26Z,2025-06-23T13:16:01+00:00,1,123.21,False,122,30,7,4273,0,0,0,CLOSED
+31806,Core: Fix FIPS compliance,JReinhold,2025-06-17T19:35:28Z,2025-06-25T10:23:28+00:00,2,182.8,True,1,1,1,3283,3,0,3,MERGED
+31804,React Native Web: Fix shift spread operator in react-native-web-vite presets,xlecunff-pass,2025-06-17T14:51:58Z,2025-06-23T13:17:56+00:00,2,142.43,True,1,1,1,2458,2,0,2,MERGED
+31803,ESM-only: Replace `esbuild-register` with hooks-api+`esbuild`'s `transform`-API,ndelangen,2025-06-17T14:09:30Z,2025-06-20T11:18:18+00:00,4,69.15,True,305,189,33,4027,3,10,13,MERGED
+31799,Docs: Update paths from `/cli` to `/cli-storybook` in  cli-storybook package.json,ryomaejii,2025-06-17T09:26:45Z,2025-08-11T11:28:43+00:00,6,1322.03,True,2,2,1,507,5,2,7,MERGED
+31796,Core: Enhance package manager install methods to support optional force flag,valentinpalkovic,2025-06-17T07:27:14Z,2025-06-17T12:44:48+00:00,2,5.29,True,33,20,6,2945,1,1,2,MERGED
+31795,Release: Patch 9.0.11,github-actions,2025-06-17T07:16:29Z,2025-06-17T12:50:29+00:00,1,5.57,False,153,54,11,3488,0,0,0,CLOSED
+31785,CLI: Fix throwing in readonly environments,JReinhold,2025-06-16T08:33:43Z,2025-08-01T15:24:16+00:00,11,1110.84,True,148,100,25,2632,4,8,12,MERGED
+31783,Release: Patch 9.0.11,github-actions,2025-06-16T06:42:32Z,2025-06-17T07:10:09+00:00,2,24.46,True,153,54,11,2659,4,0,4,MERGED
+31781,Telemetry: Fix prompting without checking isTTY,Synar,2025-06-15T17:01:38Z,2025-06-23T07:45:33+00:00,3,182.73,True,2,2,1,2931,3,0,3,MERGED
+31780,React Native: Fix window event listeners that dont exist on rn,dannyhw,2025-06-15T12:24:14Z,2025-06-16T13:03:54+00:00,1,24.66,True,5,5,1,2289,1,0,1,MERGED
+31778,"CLI: Add RN/RNW ""both"" init option",shilman,2025-06-14T13:00:06Z,2025-06-15T08:39:21+00:00,2,19.65,True,34,6,3,1315,1,1,2,MERGED
+31776,CodePanel: Apply transform to source output if it exists for the docs page,tomwhitt,2025-06-13T16:38:22Z,2025-06-16T16:21:43+00:00,1,71.72,False,19,3,1,2545,2,1,3,CLOSED
+31774,CLI: Show Storybook version in the upgrade command,yannbf,2025-06-13T13:27:52Z,2025-06-16T07:43:44+00:00,3,66.26,True,16,7,3,1780,1,2,3,MERGED
+31772,Angular: Fix Storybook experimentalZoneless is not compatible with Angular 20,guysenpai,2025-06-13T08:46:19Z,2025-06-16T07:42:47+00:00,2,70.94,True,15,4,2,2810,2,1,3,MERGED
+31764,Nextjs-Vite: Use tsconfig paths plugin,kasperpeulen,2025-06-12T14:26:31Z,2025-06-13T08:07:21+00:00,1,17.68,True,8,7,2,2732,2,0,2,MERGED
+31763,Core: Serve dynamic favicon based on testing module status,ghengeveld,2025-06-12T14:21:51Z,2025-07-01T13:59:45+00:00,4,455.63,True,387,87,12,2248,2,8,10,MERGED
+31759,Angular: Tailwind 4 compatibility,valentinpalkovic,2025-06-12T11:05:20Z,2025-06-16T07:42:22+00:00,2,92.62,True,102,1,1,3793,1,2,3,MERGED
+31757,Next.js: Enhance Vite configuration with styled-jsx aliasing,valentinpalkovic,2025-06-11T20:22:46Z,2025-06-12T06:25:03+00:00,2,10.04,True,13,3,1,4806,1,0,1,MERGED
+31756,Core: Change favicon based on testing module status,ghengeveld,2025-06-11T20:17:16Z,2025-06-12T14:29:02+00:00,4,18.2,False,116,62,12,2500,5,7,12,CLOSED
+31755,Next.js: Add webpack alias to resolve Next.js package conflicts,valentinpalkovic,2025-06-11T19:23:23Z,2025-06-12T06:25:33+00:00,1,11.04,True,2,0,1,3629,1,0,1,MERGED
+31753,Angular: Support stats-json,valentinpalkovic,2025-06-11T18:41:27Z,2025-09-30T13:59:07+00:00,1,2659.29,False,68,16,4,2389,2,1,3,CLOSED
+31752,Angular: Update MiniCssExtractPlugin configuration for cache busting,valentinpalkovic,2025-06-11T18:16:40Z,2025-06-12T06:26:56+00:00,1,12.17,True,10,0,1,2238,1,0,1,MERGED
+31750,Core: Fix cyclical dependency in core addons,JReinhold,2025-06-11T13:52:24Z,2025-06-12T07:19:21+00:00,5,17.45,True,12,261,9,3493,4,2,6,MERGED
+31746,CLI: Prebundle more in cli-storybook package,ndelangen,2025-06-11T09:36:35Z,2025-06-11T13:54:46+00:00,2,4.3,True,48,49,6,2425,2,0,2,MERGED
+31745,CSF: Improve controls parameters,kasperpeulen,2025-06-11T09:31:28Z,2025-06-24T07:58:14+00:00,3,310.45,True,10,0,1,2656,1,1,2,MERGED
+31744,Docs: Enhance upgrading guide,valentinpalkovic,2025-06-11T09:04:58Z,2025-06-16T06:40:05+00:00,9,117.59,True,107,26,2,2457,1,7,8,MERGED
+31738,Release: Patch 9.0.9,github-actions,2025-06-10T15:36:15Z,2025-06-12T15:08:40+00:00,1,47.54,True,519,1255,98,4039,2,0,2,MERGED
+31737,Release: Prerelease 9.1.0-alpha.6,github-actions,2025-06-10T14:57:50Z,2025-06-11T10:16:24+00:00,2,19.31,True,8382,5530,270,2618,2,49,51,MERGED
+31736,CSF: Improve docs parameter types,kasperpeulen,2025-06-10T14:36:29Z,2025-06-10T16:12:18+00:00,3,1.6,True,60,11,6,2230,2,0,2,MERGED
+31732,Release: Patch 9.0.8,github-actions,2025-06-10T13:08:13Z,2025-06-10T14:41:39+00:00,2,1.56,True,358,519,100,3708,2,3,5,MERGED
+31731,Flakiness investigation,yannbf,2025-06-10T12:27:36Z,2025-07-17T12:32:20+00:00,2,888.08,False,114,114,1,2227,2,1,3,CLOSED
+31730,Core: Restore original clipboard after invoking `userEvent.setup()`,ghengeveld,2025-06-10T12:16:31Z,2025-06-11T21:12:07+00:00,2,32.93,True,8,1,1,2669,2,0,2,MERGED
+31728,Core: Delete shim addon packages,ndelangen,2025-06-10T11:59:34Z,2025-06-10T15:33:42+00:00,4,3.57,True,0,714,65,2869,1,0,1,MERGED
+31726,Release: Prerelease 9.1.0-alpha.5,github-actions,2025-06-10T10:49:29Z,2025-06-10T13:06:01+00:00,2,2.28,True,144,64,30,3417,3,1,4,MERGED
+31723,CSF: Story ComponentAnnotations['subcomponents'] to correctly use its own type for subcomponents rather than attempt to inherit from the component,mihkeleidast,2025-06-10T09:21:40Z,2025-06-12T07:09:22+00:00,2,45.8,True,19,1,2,3037,2,0,2,MERGED
+31720,Addon-vitest: Fix adding with `--skip-install` failing missing packageJson invariant,JReinhold,2025-06-10T08:29:21Z,2025-06-10T11:53:02+00:00,5,3.39,True,28,7,3,3691,2,0,2,MERGED
+31716,Release: Patch 9.0.7,github-actions,2025-06-10T06:42:19Z,2025-06-10T13:15:37+00:00,1,6.55,False,253,417,49,2983,1,0,1,CLOSED
+31715,Addon Vitest: Support init in Vitest >= 3.2,valentinpalkovic,2025-06-10T06:11:05Z,2025-06-16T12:58:41+00:00,5,150.79,True,1124,459,14,3164,2,7,9,MERGED
+31713,Docs: Point CSF Factories docs at RFC,kylegach,2025-06-09T18:45:56Z,2025-06-10T06:39:37+00:00,5,11.89,True,20,332,3,1842,1,2,3,MERGED
+31712,Docs: Recommend Vitest addon instead of Portable stories in Vitest,kylegach,2025-06-09T18:39:26Z,2025-06-16T10:48:18+00:00,3,160.15,True,6,9,1,2069,1,0,1,MERGED
+31704,Core: Fix horizontal scrollbar covering part of the toolbar,Sidnioulz,2025-06-07T22:06:23Z,2025-06-16T13:11:37+00:00,2,207.09,True,0,2,1,2459,2,0,2,MERGED
+31702,"UI: Replace IconButton with Button, ToggleButton & Select, add ARIA labels",Sidnioulz,2025-06-07T21:50:54Z,2025-09-05T12:08:56+00:00,87,2150.3,False,3995,1846,109,10015,8,87,95,CLOSED
+31690,Angular: Bundle using TSup,ndelangen,2025-06-06T13:55:47Z,2025-06-11T11:15:15+00:00,6,117.32,True,299,312,109,3639,2,5,7,MERGED
+31688,Addon Themes: Define missing React dependencies,ghengeveld,2025-06-06T13:38:01Z,2025-06-10T12:30:57+00:00,3,94.88,True,4,0,2,2333,2,0,2,MERGED
+31686,Angular: Improve Vite compatibility,ndelangen,2025-06-06T10:08:34Z,2025-06-06T11:20:02+00:00,3,1.19,True,3,3,1,2888,1,1,2,MERGED
+31685,Core: Disable interactions debugger on composed stories to avoid cross-origin error,ghengeveld,2025-06-06T09:00:22Z,2025-06-11T20:24:13+00:00,3,131.4,True,419,259,11,3425,5,3,8,MERGED
+31682,"Addon Docs: Fix SyntaxHighlighter ""Copy"" button by avoiding potentially mocked clipboard",ghengeveld,2025-06-06T08:01:48Z,2025-06-06T12:38:24+00:00,3,4.61,True,3,2,1,2514,2,0,2,MERGED
+31675,Release: Patch 9.0.6,github-actions,2025-06-05T16:12:10Z,2025-06-07T05:47:37+00:00,1,37.59,True,26,12,7,2375,2,0,2,MERGED
+31671,Addon Docs: Fix reference to global JSX namespace,mrginglymus,2025-06-05T07:44:47Z,2025-06-05T16:09:30+00:00,2,8.41,True,3,1,1,2285,2,0,2,MERGED
+31667,Addons a11y: Fix slow storybook,chocomonster007,2025-06-04T15:55:28Z,2025-07-14T13:24:40+00:00,3,957.49,False,1,1,1,2737,2,1,3,CLOSED
+31666,Core: Fix copy to clipboard functionality in preview,ghengeveld,2025-06-04T14:00:04Z,2025-06-06T08:00:37+00:00,1,42.01,False,10,14,3,2990,3,0,3,CLOSED
+31664,Testing: Fix `toSatisfy`-matcher implementation,ndelangen,2025-06-04T11:54:54Z,2025-06-05T09:13:19+00:00,3,21.31,True,3,0,1,3057,2,0,2,MERGED
+31662,Docs: How we develop features and release Storybook,vanessayuenn,2025-06-04T09:22:35Z,2025-07-18T22:23:18+00:00,9,1069.01,True,137,25,13,2253,2,5,7,MERGED
+31661,Automigrate: Also upgrade E2E packages when upgrading,JReinhold,2025-06-04T09:14:01Z,2025-07-23T09:36:22+00:00,3,1176.37,False,14,1,2,2452,4,0,4,CLOSED
+31658,Automigration: Enhance removeEssentials to convert options,ndelangen,2025-06-03T14:58:55Z,2025-06-04T10:34:27+00:00,4,19.59,True,103,3,4,2373,2,0,2,MERGED
+31656,Telemetry: Improve error handling,ndelangen,2025-06-03T12:19:41Z,2025-06-04T13:04:35+00:00,2,24.75,True,9,5,1,2270,1,0,1,MERGED
+31654,Build: Fix types check,ndelangen,2025-06-03T10:14:04Z,2025-06-04T13:05:13+00:00,1,26.85,True,21,9,6,2589,1,1,2,MERGED
+31653,CLI: Streamline logging in node-logger,yannbf,2025-06-03T06:23:34Z,2025-06-04T06:09:31+00:00,5,23.77,True,306,281,57,3124,2,79,81,MERGED
+31645,CLI: Fix Storybook React Native packages in upgrade command,yannbf,2025-06-02T15:42:47Z,2025-06-02T19:15:18+00:00,3,3.54,True,7,0,1,2222,2,0,2,MERGED
+31644,Build: Better stats analyzer,ndelangen,2025-06-02T12:47:19Z,2025-07-25T11:36:41+00:00,1,1270.82,False,3021,3,13,2584,2,13,15,CLOSED
+31642,Upgrade: Several improvements towards monorepo support,valentinpalkovic,2025-06-02T11:15:01Z,2025-06-04T09:22:40+00:00,1,46.13,True,1156,311,40,3204,2,6,8,MERGED
+31641,CLI: Revamp prompting and logging,yannbf,2025-06-02T10:12:32Z,2025-06-02T12:54:56+00:00,4,2.71,True,604,492,26,2605,1,11,12,MERGED
+31639,Svelte: Fix source view always using `<wrapper ...>`,JReinhold,2025-06-02T09:07:29Z,2025-06-02T11:12:23+00:00,3,2.08,True,5,0,1,3511,1,0,1,MERGED
+31638,Release: Patch 9.0.5,github-actions,2025-06-02T08:19:50Z,2025-06-05T12:02:21+00:00,1,75.71,True,72,7,11,2654,2,0,2,MERGED
+31633,Release: Prerelease 9.1.0-alpha.3,github-actions,2025-05-31T23:58:20Z,2025-06-07T05:46:07+00:00,1,149.8,True,308,61,42,4476,2,0,2,MERGED
+31632,Release: Patch 9.0.4,github-actions,2025-05-31T23:48:16Z,2025-06-01T20:48:55+00:00,1,21.01,True,13,7,6,2187,1,0,1,MERGED
+31631,Release: Prerelease 9.1.0-alpha.2,github-actions,2025-05-31T23:48:14Z,2025-06-07T04:54:01+00:00,1,149.1,False,20,4,5,3706,0,0,0,CLOSED
+31630,Addon Vitest: Fix path comparison on Windows,valentinpalkovic,2025-05-31T21:17:17Z,2025-05-31T23:45:49+00:00,2,2.48,True,2,2,1,2713,1,0,1,MERGED
+31628,Release: Patch 9.0.3,github-actions,2025-05-31T20:06:14Z,2025-05-31T23:27:39+00:00,1,3.36,True,18,10,7,2286,2,0,2,MERGED
+31627,Addons: Use chromatic-com/storybook without version specifier,valentinpalkovic,2025-05-31T19:51:30Z,2025-06-16T11:16:12+00:00,2,375.41,True,15,33,4,2322,1,0,1,MERGED
+31623,Docs: Optimize images [Imgbot],imgbot,2025-05-30T19:58:21Z,2025-05-30T21:38:14+00:00,3,1.66,True,0,0,26,2883,1,0,1,MERGED
+31621,Addon A11y: Briefly disable highlights while Axe is running,ghengeveld,2025-05-30T15:48:57Z,2025-06-02T08:16:57+00:00,2,64.47,True,10,1,1,2604,2,1,3,MERGED
+31618,Release: Patch 9.0.2,github-actions,2025-05-30T14:33:13Z,2025-05-31T09:47:58+00:00,1,19.25,True,234,71,129,2281,2,0,2,MERGED
+31616,CLI: Don't install addon-onboarding during minimal installs,ghengeveld,2025-05-30T09:07:21Z,2025-06-03T08:36:20+00:00,11,95.48,True,28,19,11,2642,1,2,3,MERGED
+31614,Automigrations: Add automigration for viewport and backgrounds,valentinpalkovic,2025-05-30T07:21:52Z,2025-09-30T14:59:52+00:00,4,2959.63,True,1480,38,5,5432,4,10,14,MERGED
+31611,Angular: Support v20,valentinpalkovic,2025-05-30T06:37:41Z,2025-05-30T15:34:17+00:00,2,8.94,True,2,2,2,2166,3,0,3,MERGED
+31609,Release: Prerelease 9.1.0-alpha.2,github-actions,2025-05-30T01:02:12Z,2025-05-31T23:44:07+00:00,1,46.7,True,261,80,135,3053,1,0,1,MERGED
+31607,React Native Web: Include expo in babel transforms,dannyhw,2025-05-29T14:30:09Z,2025-05-30T00:59:40+00:00,2,10.49,True,3,1,1,1834,1,0,1,MERGED
+31605,CLI: Respect --skip-install in postinstall scripts,yannbf,2025-05-29T12:49:42Z,2025-05-30T14:30:38+00:00,2,25.68,True,44,16,4,2859,1,1,2,MERGED
+31604,Release: Patch 9.0.1,github-actions,2025-05-29T11:52:57Z,2025-05-30T02:32:16+00:00,1,14.66,True,202,122,17,2495,2,0,2,MERGED
+31603,Release: Prerelease 9.1.0-alpha.1,github-actions,2025-05-29T11:36:00Z,2025-05-29T13:24:20+00:00,1,1.81,True,197,120,15,2421,2,1,3,MERGED
+31600,CLI: Update React Native init generator for v9,dannyhw,2025-05-29T10:34:54Z,2025-05-29T11:50:28+00:00,2,1.26,True,4,3,1,2247,1,0,1,MERGED
+31594,Docs: Testing section improvements,kylegach,2025-05-28T20:59:42Z,2025-05-30T18:05:59+00:00,2,45.1,True,81,1,4,1975,1,3,4,MERGED
+31590,Release: Preminor alpha 9.1.0-alpha.0,github-actions,2025-05-28T12:32:45Z,2025-05-28T14:49:35+00:00,1,2.28,True,6,2,3,2386,1,1,2,MERGED
+31589,CLI: Silence automigrations and skip doctor checks in post install,yannbf,2025-05-28T09:50:49Z,2025-05-28T19:51:37+00:00,2,10.01,True,144,46,10,2891,2,2,4,MERGED
+31587,Core: Avoid circular dependency while using definePreview,valentinpalkovic,2025-05-27T21:50:24Z,2025-06-05T16:08:41+00:00,2,210.3,False,11,17,10,3001,14,0,14,CLOSED
+31584,Core: Export BROWSER_TARGETS and NODE_TARGET for addon-kit,Sidnioulz,2025-05-27T15:43:50Z,2025-06-06T11:55:30+00:00,2,236.19,True,2,0,1,2333,2,0,2,MERGED
+31583,CLI: Improve package manager script execution and CLI logging,yannbf,2025-05-27T14:56:02Z,2025-06-02T08:34:04+00:00,1,137.63,True,1969,1156,52,2501,4,6,10,MERGED
+31581,Controls: Improve the accessibility of the object control,Sidnioulz,2025-05-27T12:38:14Z,2025-06-25T14:53:09+00:00,2,698.25,True,248,226,4,1387,2,0,2,MERGED
+31580,Release: Major 9.0.0,github-actions,2025-05-27T11:32:24Z,2025-05-28T12:12:08+00:00,1,24.66,True,309,13,9,2365,1,0,1,MERGED
+31579,Manager: Add reactivity to useParameter,valentinpalkovic,2025-05-27T10:54:46Z,2025-05-28T09:05:19+00:00,2,22.18,True,18,2,1,2788,2,3,5,MERGED
+31577,Telemetry: Use version from our package.json for `storybookVersion`,tmeasday,2025-05-27T10:41:15Z,2025-05-28T10:36:13+00:00,7,23.92,True,18,8,4,3071,3,4,7,MERGED
+31575,Docs: Fix misc broken links,jonniebigodes,2025-05-26T20:57:11Z,2025-05-27T04:38:47+00:00,2,7.69,True,18,19,6,2641,1,1,2,MERGED
+31572,Docs: Adjust assets for Storybook 9,jonniebigodes,2025-05-26T13:42:30Z,2025-05-30T19:51:06+00:00,9,102.14,True,6,8,109,2604,1,5,6,MERGED
+31569,Automigration: Fix wrap require wrapper,valentinpalkovic,2025-05-26T12:28:27Z,2025-05-26T14:04:30+00:00,2,1.6,True,10,9,2,2268,1,2,3,MERGED
+31565,Addon Vitest: Support `vitest.projects.ts` file as workspace file during postinstall,ghengeveld,2025-05-26T07:01:19Z,2025-05-26T13:28:37+00:00,1,6.46,True,3,1,1,2524,1,0,1,MERGED
+31562,Fix: Build all folder using dynamic import,goodbutnotthebest,2025-05-24T09:14:50Z,2025-07-07T13:32:41+00:00,2,1060.3,False,2,3,1,2257,3,1,4,CLOSED
+31557,CLI: Improve support for upgrading Storybook in monorepos,yannbf,2025-05-23T13:21:28Z,2025-06-10T14:55:01+00:00,2,433.56,True,8261,4781,195,4678,4,33,37,MERGED
+31556,Presets: Use `.js` files when `.cjs` files are passed for entries that should be ESM,JReinhold,2025-05-23T13:12:00Z,2025-05-26T14:03:03+00:00,2,72.85,True,21,5,1,3950,2,0,2,MERGED
+31555,Type check production files,mrginglymus,2025-05-23T09:45:49Z,2025-09-16T06:45:20+00:00,12,2780.99,False,198,139,81,2596,7,6,13,CLOSED
+31553,Core: Improve mono repo handling for JsPackageManager class and helpers,valentinpalkovic,2025-05-22T21:07:23Z,2025-05-23T14:01:30+00:00,5,16.9,True,1321,1320,102,3002,2,27,29,MERGED
+31552,Docs: Add project requirements,kylegach,2025-05-22T17:14:07Z,2025-05-30T18:12:37+00:00,9,192.97,True,96,44,3,1825,1,6,7,MERGED
+31551,CSF: Add Storybook test syntax,yannbf,2025-05-22T15:28:10Z,2025-09-04T06:31:53+00:00,1,2511.06,False,2680,834,79,2193,7,1,8,CLOSED
+31544,Build: Limit bench-packages to next/main as base branches,yannbf,2025-05-22T09:16:32Z,2025-06-11T19:48:02+00:00,1,490.52,False,5,0,1,2141,2,1,3,CLOSED
+31543,Release: Prerelease 9.0.0-rc.5,github-actions,2025-05-22T07:50:52Z,2025-05-27T11:13:26+00:00,1,123.38,True,5676,6651,461,3568,1,4,5,MERGED
+31542,Core: Abort play function on HMR,ghengeveld,2025-05-22T07:45:03Z,2025-07-22T13:25:49+00:00,7,1469.68,True,175,72,12,2760,6,8,14,MERGED
+31541,Chore: Fix story decorators,ghengeveld,2025-05-22T07:28:01Z,2025-05-23T08:34:24+00:00,2,25.11,True,38,17,5,2554,1,0,1,MERGED
+31539,Controls: Remove empty state video link,kylegach,2025-05-22T01:21:16Z,2025-05-22T08:02:36+00:00,2,6.69,True,1,11,1,2051,1,0,1,MERGED
+31538,Docs: Add Code panel page,kylegach,2025-05-21T22:15:33Z,2025-05-22T01:13:30+00:00,2,2.97,True,460,1,5,1831,1,2,3,MERGED
+31537,Preview: Fix type issues,mrginglymus,2025-05-21T20:55:40Z,2025-06-05T11:57:17+00:00,2,351.03,True,1,1,1,2466,5,0,5,MERGED
+31534,CLI: Detect multiple config dirs for the upgrade command,yannbf,2025-05-21T15:31:47Z,2025-05-27T14:51:01+00:00,3,143.32,True,1275,762,36,2547,2,16,18,MERGED
+31524,Core: Support array-based catch-all Next.js route segments in AppRouterProvider,yatishgoel,2025-05-21T04:16:58Z,2025-06-23T07:59:20+00:00,1,795.71,True,56,6,2,5083,2,2,4,MERGED
+31522,Release: Prerelease 9.0.0-rc.4,github-actions,2025-05-20T14:58:44Z,2025-05-21T10:13:36+00:00,1,19.25,True,887,55,81,2381,4,0,4,MERGED
+31521,CLI: Add prompts abstraction,yannbf,2025-05-20T14:20:16Z,2025-05-22T12:01:02+00:00,1,45.68,True,264,210,14,2916,2,8,10,MERGED
+31520,Addons: Add shim Storybook addons for previously removed addons,valentinpalkovic,2025-05-20T13:43:53Z,2025-05-21T09:08:28+00:00,2,19.41,True,714,0,65,2575,3,15,18,MERGED
+31518,React Native: Fix support for 9.0,JReinhold,2025-05-20T11:26:31Z,2025-05-20T17:47:43+00:00,2,6.35,True,29,7,3,3284,2,0,2,MERGED
+31515,Pseudo States: Ignore escaped pseudo-class names,sentience,2025-05-19T23:55:12Z,2025-05-23T12:41:42+00:00,2,84.78,True,54,3,3,3626,1,1,2,MERGED
+31514,"Addon Vitest: Ensure vitest exclusions are relative to the project root, not cwd",mrginglymus,2025-05-19T21:49:43Z,2025-05-20T13:19:06+00:00,3,15.49,True,6,5,1,2727,3,1,4,MERGED
+31510,Telemetry: Fix `project.json` for getAbsolutePath,ndelangen,2025-05-19T14:34:29Z,2025-06-06T11:45:05+00:00,6,429.18,True,34,11,2,2822,2,2,4,MERGED
+31508,Addon Vitest: Improve handling multiple browser mode projects,yannbf,2025-05-19T13:45:49Z,2025-05-20T14:17:52+00:00,2,24.53,True,135,46,10,2548,2,6,8,MERGED
+31504,Addon-vitest: Fix wrong test count in telemetry,JReinhold,2025-05-16T19:29:53Z,2025-05-19T08:53:27+00:00,2,61.39,True,2,2,2,3762,1,0,1,MERGED
+31503,Docs: Misc SB 9 updates,kylegach,2025-05-16T17:52:07Z,2025-05-19T17:05:34+00:00,2,71.22,True,30,208,7,1959,1,0,1,MERGED
+31501,Next.js: Fix module transpilation,valentinpalkovic,2025-05-16T13:57:45Z,2025-06-03T10:31:58+00:00,1,428.57,True,36,4,4,2892,9,1,10,MERGED
+31499,Release: Prerelease 9.0.0-rc.3,github-actions,2025-05-16T09:42:16Z,2025-05-20T14:44:51+00:00,1,101.04,True,1246,466,76,2998,2,0,2,MERGED
+31498,CI: Disable test-runner on failing vue3 story,ndelangen,2025-05-16T09:24:21Z,2025-05-16T11:47:39+00:00,2,2.39,True,3,1,2,2599,1,2,3,MERGED
+31495,Release: Prerelease 9.0.0-rc.2,github-actions,2025-05-16T03:36:11Z,2025-05-16T09:08:16+00:00,1,5.53,True,1383,29804,154,3886,2,3,5,MERGED
+31494,Release: Patch 8.6.14,github-actions,2025-05-16T03:36:03Z,2025-05-16T11:23:05+00:00,2,7.78,True,2101,186,26,3706,1,5,6,MERGED
+31492,Release: Patch 8.6.13,github-actions,2025-05-16T00:54:04Z,2025-05-20T14:11:12+00:00,1,109.29,False,2107,190,30,4114,0,3,3,CLOSED
+31491,Core: Fix aria-controls attribute on sidebar nodes to include all children,candrepa1,2025-05-15T16:36:49Z,2025-06-25T15:26:10+00:00,5,982.82,True,1,1,1,1853,4,1,5,MERGED
+31488,"ArgTypes: Always extract argTypes, even without `addon-docs`",JReinhold,2025-05-15T11:36:42Z,2025-05-20T07:19:48+00:00,5,115.72,True,1041,208,50,3234,2,4,6,MERGED
+31487,Test: Patch HTMLElement.prototype.focus method for settable focus in tests,valentinpalkovic,2025-05-15T10:28:03Z,2025-05-15T11:46:40+00:00,2,1.31,True,24,0,1,2784,1,2,3,MERGED
+31486,Core: Set a minimum height/width for the targetable area of highlights,ghengeveld,2025-05-15T10:19:59Z,2025-05-15T13:44:23+00:00,2,3.41,True,27,8,3,2785,1,2,3,MERGED
+31485,Core: Remove duplicate notification dot on sidebar buttons on mobile,ghengeveld,2025-05-15T07:31:39Z,2025-05-15T09:26:53+00:00,3,1.92,True,4,6,1,2242,2,0,2,MERGED
+31484,React Native Web: Fix expo router by setting JSX to automatic,dannyhw,2025-05-14T21:44:03Z,2025-05-16T00:51:20+00:00,2,27.12,True,1,1,1,2263,1,0,1,MERGED
+31483,React: Don't use Act wrapper in Storybook when rendering in docs,kasperpeulen,2025-05-14T21:07:59Z,2025-05-15T07:35:25+00:00,2,10.46,True,9,5,2,2429,7,2,9,MERGED
+31479,Addon Vitest: Improve error handling for multiple headed mode projects,yannbf,2025-05-14T15:16:44Z,2025-05-20T14:17:54+00:00,1,143.02,True,30,13,2,2609,1,1,2,MERGED
+31476,Svelte: Improve support for async components,JReinhold,2025-05-14T11:40:09Z,2025-09-24T11:56:27+00:00,4,3192.27,True,193,59,13,3974,4,8,12,MERGED
+31475,Core: Support groups and info icon in highlight popover menu,ghengeveld,2025-05-14T10:05:39Z,2025-05-15T09:21:02+00:00,4,23.26,True,385,262,10,2915,2,4,6,MERGED
+31473,Telemetry: Fix storybook version and add test run events,tmeasday,2025-05-14T07:11:25Z,2025-05-29T12:48:01+00:00,12,365.61,True,162,93,9,3012,2,8,10,MERGED
+31472,Builder-Vite: Fix logic related to setting allowedHosts when IP address used,JSMike,2025-05-14T02:47:02Z,2025-07-14T08:22:20+00:00,12,1469.59,True,14,8,1,3399,5,3,8,MERGED
+31468,CI: Improve e2e tests stability and reduce flakiness,yannbf,2025-05-13T10:08:35Z,2025-05-14T13:41:57+00:00,3,27.56,True,741,29422,124,3221,2,4,6,MERGED
+31467,Core: Builder-manager disable metafile,ndelangen,2025-05-13T08:45:16Z,2025-05-14T07:24:11+00:00,1,22.65,True,1,2,1,2450,1,0,1,MERGED
+31466,Source Loader: Remove package,valentinpalkovic,2025-05-13T08:08:58Z,2025-05-13T10:04:42+00:00,3,1.93,True,2,2436,42,2486,2,0,2,MERGED
+31464,Release: Prerelease 9.0.0-rc.1,github-actions,2025-05-12T18:37:43Z,2025-05-16T03:22:15+00:00,1,80.74,True,138,2530,57,2760,2,0,2,MERGED
+31463,Provide ability to leverage CSS variables for status values provided by Vitest,JamesIves,2025-05-12T17:16:41Z,2025-07-15T08:19:46+00:00,1,1527.05,False,2,2,1,2783,8,0,8,CLOSED
+31460,Vitest: Remove beforeAll in vitest.setup.ts in automigration,kasperpeulen,2025-05-12T13:32:21Z,2025-05-13T12:07:49+00:00,4,22.59,True,31,12,4,2420,2,3,5,MERGED
+31458,CLI: Remove `@latest` from `yarn create` commands,ndelangen,2025-05-12T10:11:00Z,2025-05-12T11:17:20+00:00,3,1.11,True,6,10,5,2571,1,1,2,MERGED
+31457,Addon Vitest: Ignore mdx files as part of tests,yannbf,2025-05-12T10:10:00Z,2025-05-12T18:34:44+00:00,5,8.41,True,60,7,4,3603,1,2,3,MERGED
+31456,CodePanel: Show originalSource code,valentinpalkovic,2025-05-12T10:09:35Z,2025-05-15T12:39:40+00:00,2,74.5,True,15,5,1,2824,2,1,3,MERGED
+31452,Core: Do not show 'Render story' step in interactions,ghengeveld,2025-05-12T08:37:05Z,2025-05-13T08:03:20+00:00,2,23.44,True,2,52,2,2659,1,0,1,MERGED
+31447,fix: code/lib/codemod/package.json to reduce vulnerabilities,nichechristie,2025-05-11T02:16:54Z,2025-09-01T13:40:46+00:00,4,2723.4,False,2,2,1,2373,2,1,3,CLOSED
+31445,Addon Vitest: Fix broken docs links,kylegach,2025-05-09T15:08:40Z,2025-05-19T15:39:17+00:00,5,240.51,True,25,25,6,2721,2,2,4,MERGED
+31443,Core: Show render error warning in addon panels,ghengeveld,2025-05-09T14:34:51Z,2025-07-11T02:16:50+00:00,6,1499.7,False,82,28,7,2608,1,6,7,CLOSED
+31440,Core: Improve unhandled error detection,kasperpeulen,2025-05-09T13:43:43Z,2025-05-12T07:26:08+00:00,2,65.71,True,12,4,1,2763,1,0,1,MERGED
+31439,Addon Vitest: Use its own cache directory,yannbf,2025-05-09T13:30:25Z,2025-05-12T09:39:37+00:00,5,68.15,True,5,0,1,2589,1,1,2,MERGED
+31438,Hooks: Stabilize experimental afterEach hook,valentinpalkovic,2025-05-09T13:12:05Z,2025-05-12T09:00:54+00:00,1,67.81,True,59,44,13,2487,2,1,3,MERGED
+31437,Addon-vitest: Support paths with spaces,ndelangen,2025-05-09T12:30:13Z,2025-05-09T14:57:45+00:00,7,2.46,True,105,86,4,3337,1,3,4,MERGED
+31435,Test: Make sure that lit arrays are not cloned,kasperpeulen,2025-05-09T11:08:23Z,2025-05-10T10:23:50+00:00,2,23.26,True,6,1,1,2227,2,0,2,MERGED
+31432,Addon A11y: Fix various issues and inconsistencies,ghengeveld,2025-05-09T09:49:33Z,2025-05-11T21:01:48+00:00,2,59.2,True,92,32,7,2767,1,0,1,MERGED
+31430,Addon Docs: Fix `layout: centered` in conjunction with `inline: false`,ghengeveld,2025-05-09T09:13:48Z,2025-05-09T18:48:17+00:00,5,9.57,True,70,39,6,2920,1,1,2,MERGED
+31428,Init: Fixing initialization issues with yarn,valentinpalkovic,2025-05-09T08:11:57Z,2025-05-15T07:56:15+00:00,2,143.74,False,21,22,5,3186,1,0,1,CLOSED
+31424,Addon-A11y: Reduce bundle size by re-exporting preview,valentinpalkovic,2025-05-08T13:56:50Z,2025-07-02T08:17:05+00:00,1,1314.34,False,2,2,1,2461,1,0,1,CLOSED
+31423,Core / Addon A11y: Emit `STORY_HOT_UPDATED` and rerun A11y tests on HMR,ghengeveld,2025-05-08T10:19:39Z,2025-05-09T16:04:42+00:00,4,29.75,True,174,131,10,3040,2,1,3,MERGED
+31422,Addon A11y: Fix usage of axe-core in pnpm projects,yannbf,2025-05-08T10:13:56Z,2025-05-08T13:20:19+00:00,2,3.11,True,5,1,1,2594,1,0,1,MERGED
+31420,Automigration: Correctly apply the wrap-require automigration in ESM modules,valentinpalkovic,2025-05-08T07:47:53Z,2025-05-08T11:52:58+00:00,4,4.08,True,25,4,3,4881,1,4,5,MERGED
+31419,Maintenance: Node 24 support investigation,ndelangen,2025-05-08T07:21:33Z,2025-07-25T11:36:46+00:00,1,1876.25,False,42,29,5,1748,1,0,1,CLOSED
+31407,Codemod: Replace `globby` with `tinyglobby`,benmccann,2025-05-07T15:10:46Z,2025-09-02T18:27:51+00:00,2,2835.28,True,5,8,3,2521,7,0,7,MERGED
+31406,CLI: Improve package upgrade logic,yannbf,2025-05-07T14:46:43Z,2025-05-07T21:01:04+00:00,3,6.24,True,15,10,1,2716,1,0,1,MERGED
+31405,Release: Prerelease rc 9.0.0-rc.0,github-actions,2025-05-07T13:31:44Z,2025-05-12T12:46:53+00:00,1,119.25,True,1504,857,107,5701,2,0,2,MERGED
+31404,Core: Centralize prebundling of execa,valentinpalkovic,2025-05-07T12:48:38Z,2025-06-16T11:16:26+00:00,2,958.46,False,37,72,18,2622,1,0,1,CLOSED
+31403,Addon A11y: Fix setup as part of storybook create,yannbf,2025-05-07T07:57:31Z,2025-05-07T12:27:05+00:00,2,4.49,True,38,36,1,2777,2,0,2,MERGED
+31401,UI: Apply user updates for mobile navigation accessibility,yatishgoel,2025-05-07T06:09:42Z,2025-07-01T20:37:45+00:00,28,1334.47,True,236,41,10,6306,7,27,34,MERGED
+31399,Automigrations: Fix installation of addon-docs,valentinpalkovic,2025-05-06T20:32:03Z,2025-05-07T20:00:25+00:00,2,23.47,True,140,14,2,3185,1,1,2,MERGED
+31398,Svelte: Install `latest` version of `@storybook/addon-svelte-csf`,JReinhold,2025-05-06T19:46:07Z,2025-05-06T22:05:15+00:00,2,2.32,True,2,75,3,2585,2,0,2,MERGED
+31397,Automigration: Improve renderer to framework automigration,valentinpalkovic,2025-05-06T19:14:48Z,2025-05-07T14:45:32+00:00,2,19.51,True,129,108,2,3778,2,1,3,MERGED
+31396,Docs: Adds missing Svelte CSF Snippets,jonniebigodes,2025-05-06T17:50:12Z,2025-05-06T20:11:37+00:00,1,2.36,True,5014,250,121,3188,2,86,88,MERGED
+31395,Test: Allow generics in expect matchers,yannbf,2025-05-06T16:11:47Z,2025-05-07T09:35:54+00:00,2,17.4,True,5,3,1,2326,2,0,2,MERGED
+31394,Svelte: Simplify public types - use modern `Component`,xeho91,2025-05-06T16:01:25Z,2025-10-01T13:07:08+00:00,4,3549.1,True,113,274,15,2786,3,2,5,MERGED
+31393,CLI: Detect correct storybook version on upgrade,yannbf,2025-05-06T15:48:10Z,2025-05-07T07:43:00+00:00,2,15.91,True,19,0,2,2512,2,0,2,MERGED
+31392,Addon A11y: Improve selector automigration detection,yannbf,2025-05-06T15:21:36Z,2025-05-26T12:54:46+00:00,2,477.55,True,6,3,2,2561,1,0,1,MERGED
+31391,Docs: Snippets Fix missing and icorrect imports,jonniebigodes,2025-05-06T14:50:36Z,2025-05-06T16:44:57+00:00,2,1.91,True,8,7,4,2508,1,4,5,MERGED
+31390,Build: Update import paths and enable syntax minification,ndelangen,2025-05-06T14:30:35Z,2025-05-07T13:29:00+00:00,3,22.97,True,27,24,5,3802,2,1,3,MERGED
+31389,Build: Fix metafile generation for nested entry points,valentinpalkovic,2025-05-06T13:50:05Z,2025-05-06T16:24:34+00:00,2,2.57,True,19,15,1,2210,1,0,1,MERGED
+31387,Build: Restore storybook-benchmarking-bot,ndelangen,2025-05-06T11:35:32Z,2025-05-06T14:00:19+00:00,4,2.41,True,11,15,3,2938,2,2,4,MERGED
+31386,Backgrounds/Viewport: Fix resetting,valentinpalkovic,2025-05-06T10:14:13Z,2025-05-06T18:20:34+00:00,2,8.11,True,10,4,3,2672,1,5,6,MERGED
+31385,Core: Avoid pre-bundling of preview-api in manager entries,valentinpalkovic,2025-05-06T09:35:40Z,2025-05-07T20:14:45+00:00,1,34.65,True,1,1,1,2266,1,0,1,MERGED
+31377,Release: Prerelease 9.0.0-beta.11,github-actions,2025-05-05T10:06:55Z,2025-05-07T13:16:53+00:00,1,51.17,True,5456,1603,207,4358,2,0,2,MERGED
+31376,CLI: Tweak init prompt,shilman,2025-05-05T05:42:21Z,2025-05-08T10:41:29+00:00,1,76.99,True,1,1,1,821,1,0,1,MERGED
+31374,Viewport: Fix globals type,flaval,2025-05-04T20:50:55Z,2025-05-06T06:54:03+00:00,4,34.05,True,1,3,1,3019,1,0,1,MERGED
+31370,Documentation: Add missing comma in withAddonDecorator configuration,ashphy,2025-05-03T08:11:37Z,2025-05-05T13:05:54+00:00,4,52.9,True,1,1,1,2604,0,0,0,MERGED
+31369,SvelteKit: Add support for mocking `$app/state`,xeho91,2025-05-03T04:01:34Z,2025-09-24T12:33:11+00:00,15,3464.53,True,455,17,12,4305,5,28,33,MERGED
+31367,Release: Prerelease 9.0.0-beta.10,github-actions,2025-05-02T15:03:01Z,2025-05-03T20:04:20+00:00,1,29.02,True,309,52,10,2247,1,1,2,MERGED
+31366,[Snyk] Fix for 1 vulnerabilities,vanessayuenn,2025-05-02T12:25:17Z,2025-05-03T21:27:59+00:00,1,33.05,False,3,3,1,1967,1,0,1,CLOSED
+31365,[Snyk] Security upgrade storybook from 0.0.0-use.local to 0.0.0,vanessayuenn,2025-05-02T12:25:14Z,2025-05-03T21:28:13+00:00,1,33.05,False,1,1,1,2004,1,0,1,CLOSED
+31364,[Snyk] Fix for 1 vulnerabilities,vanessayuenn,2025-05-02T12:25:12Z,2025-05-03T21:28:50+00:00,1,33.06,False,3,3,1,1877,1,0,1,CLOSED
+31363,[Snyk] Security upgrade storybook from 0.0.0-use.local to 0.0.0,vanessayuenn,2025-05-02T12:25:11Z,2025-05-03T21:28:34+00:00,1,33.06,False,1,1,1,2242,1,0,1,CLOSED
+31362,Cleanup: Remove unused files (knip --files),webpro,2025-05-02T12:02:48Z,2025-05-06T06:54:47+00:00,1,90.87,True,22,1005,23,3015,1,0,1,MERGED
+31361,Core: Fix core annotations applied twice,valentinpalkovic,2025-05-02T11:28:59Z,2025-05-05T10:04:28+00:00,6,70.59,True,38,92,18,2550,1,2,3,MERGED
+31360,SvelteKit: Forward form events when mocking `enhance`,JReinhold,2025-05-02T11:08:10Z,2025-05-02T14:59:16+00:00,3,3.85,True,5,2,1,2805,1,2,3,MERGED
+31358,Update react-router-dom to lowest React19 type-compatible version,mrginglymus,2025-05-02T10:48:43Z,2025-05-06T09:46:39+00:00,1,94.97,True,20,22,2,2273,2,0,2,MERGED
+31356,CLI: Improve CLI upgrade for `@latest` and `@next`,yannbf,2025-05-02T10:30:39Z,2025-05-02T15:10:32+00:00,3,4.66,True,296,48,6,3393,1,3,4,MERGED
+31355,Release: Prerelease 9.0.0-beta.9,github-actions,2025-05-02T10:16:24Z,2025-05-02T13:39:50+00:00,1,3.39,True,900,366,30,3018,1,1,2,MERGED
+31354,[Snyk] Security upgrade @storybook/svelte-vite from 0.0.0-use.local to 7.0.0,vanessayuenn,2025-05-02T10:14:12Z,2025-05-03T21:29:13+00:00,1,35.25,False,1,1,1,2091,1,1,2,CLOSED
+31353,[Snyk] Security upgrade @storybook/svelte from 0.0.0-use.local to 4.0.0,vanessayuenn,2025-05-02T10:14:07Z,2025-05-03T21:27:28+00:00,1,35.22,False,1,1,1,1906,1,0,1,CLOSED
+31352,[Snyk] Security upgrade @storybook/builder-vite from 0.0.0-use.local to 0.1.22,vanessayuenn,2025-05-02T10:14:07Z,2025-05-03T21:29:24+00:00,1,35.25,False,1,1,1,1889,1,0,1,CLOSED
+31351,[Snyk] Fix for 1 vulnerabilities,vanessayuenn,2025-05-02T10:14:06Z,2025-05-03T21:30:27+00:00,1,35.27,False,4,4,1,2069,1,0,1,CLOSED
+31350,[Snyk] Security upgrade @storybook/react-vite from 0.0.0-use.local to 7.0.0,vanessayuenn,2025-05-02T10:14:06Z,2025-05-03T21:30:41+00:00,1,35.28,False,1,1,1,2038,1,1,2,CLOSED
+31349,[Snyk] Security upgrade @storybook/builder-vite from 0.0.0-use.local to 0.1.22,vanessayuenn,2025-05-02T10:14:06Z,2025-05-03T21:30:50+00:00,1,35.28,False,1,1,1,2050,1,0,1,CLOSED
+31348,[Snyk] Security upgrade @storybook/builder-vite from 0.0.0-use.local to 0.1.22,vanessayuenn,2025-05-02T10:13:57Z,2025-05-03T21:31:07+00:00,1,35.29,False,1,1,1,1967,1,1,2,CLOSED
+31347,[Snyk] Security upgrade @storybook/react-vite from 0.0.0-use.local to 7.0.0,vanessayuenn,2025-05-02T10:13:55Z,2025-05-03T21:31:15+00:00,1,35.29,False,1,1,1,2227,1,0,1,CLOSED
+31346,[Snyk] Security upgrade @storybook/builder-vite from 0.0.0-use.local to 0.1.22,vanessayuenn,2025-05-02T10:13:55Z,2025-05-03T21:30:05+00:00,1,35.27,False,1,1,1,1953,1,1,2,CLOSED
+31345,[Snyk] Security upgrade @storybook/builder-vite from 0.0.0-use.local to 0.1.22,vanessayuenn,2025-05-02T10:13:54Z,2025-05-03T21:29:49+00:00,1,35.27,False,1,1,1,1874,1,0,1,CLOSED
+31344,Maintenance: Remove aliasses in builder configurations & scripts,ndelangen,2025-05-02T09:08:49Z,2025-05-08T13:23:26+00:00,3,148.24,True,14,119,14,3526,3,0,3,MERGED
+31343,Automigration: Adjust addon-docs install condition,valentinpalkovic,2025-05-02T08:57:28Z,2025-05-02T12:52:33+00:00,2,3.92,True,38,10,3,2614,1,0,1,MERGED
+31341,Addon-A11y: Refactor: bundle axe-core,ndelangen,2025-05-02T07:55:36Z,2025-05-08T13:00:11+00:00,3,149.08,False,142,18,11,2762,2,0,2,CLOSED
+31338,Replace: Use `empathic` over `find-up`,beeequeue,2025-05-02T00:39:05Z,2025-09-16T07:28:27+00:00,29,3294.82,True,344,496,54,2784,21,46,67,MERGED
+31337,Angular: remove invalid defaults for start-storybook,AgentEnder,2025-05-01T21:15:27Z,2025-05-02T08:49:40+00:00,4,11.57,True,5,10,2,2940,1,3,4,MERGED
+31336,Eslint-plugin: Handle JSON5 format,yatishgoel,2025-05-01T20:54:53Z,2025-05-06T08:42:15+00:00,2,107.79,True,125,11,4,3879,8,1,9,MERGED
+31335,Portable stories: Fix playwright CT to allow functions to be passed as props,adamscybot,2025-05-01T16:57:51Z,2025-07-01T08:23:56+00:00,4,1455.43,True,13,4,2,3349,4,0,4,MERGED
+31334,CLI: Supress npm notice update log messages,yannbf,2025-05-01T15:20:42Z,2025-05-02T04:55:51+00:00,2,13.59,True,19,10,2,2354,1,1,2,MERGED
+31333,Release: Prerelease 9.0.0-beta.8,github-actions,2025-05-01T14:41:17Z,2025-05-02T10:02:32+00:00,1,19.35,True,710,195,33,3011,1,1,2,MERGED
+31332,Svelte: Remove unused `svelte-preprocess` dependency,JReinhold,2025-05-01T14:24:39Z,2025-05-02T04:47:06+00:00,2,14.37,True,3,98,2,2267,1,0,1,MERGED
+31331,Indexer: Do not create autodocs entries unless addon-docs installed,ndelangen,2025-05-01T14:12:17Z,2025-05-06T12:14:04+00:00,6,118.03,True,33,43,9,3970,2,1,3,MERGED
+31328,Core: Bring back loading globals from global types in portable stories,yannbf,2025-05-01T10:47:09Z,2025-05-02T07:30:51+00:00,2,20.73,True,21,0,2,2327,1,0,1,MERGED
+31327,Addon Docs: Improve TableOfContents HTML structure and a11y,Sidnioulz,2025-05-01T10:33:29Z,2025-05-08T13:13:53+00:00,5,170.67,True,223,27,11,2771,4,1,5,MERGED
+31325,Addon A11y: Provide full report in a11y manual runs,yannbf,2025-05-01T10:05:51Z,2025-05-02T08:51:20+00:00,2,22.76,True,124,73,5,2760,1,2,3,MERGED
+31324,React Native Web: Update `react-native-web`,ndelangen,2025-05-01T09:43:31Z,2025-05-01T12:49:36+00:00,4,3.1,True,16,5,4,2578,1,0,1,MERGED
+31323,chore(svelte-vite): Remove unused dependency `svelte-preprocess`,xeho91,2025-05-01T05:22:34Z,2025-06-12T07:24:36+00:00,1,1010.03,False,3,98,2,2902,2,0,2,CLOSED
+31322,Docs: Fix incorrect snippets on the main branch,jonniebigodes,2025-04-30T17:25:29Z,2025-04-30T19:44:14+00:00,2,2.31,True,37,37,4,2594,1,1,2,MERGED
+31320,Addon Docs: Fix iframe content width in centered layout,Audie80,2025-04-30T16:17:23Z,2025-05-08T10:50:32+00:00,4,186.55,True,1,0,1,2458,3,0,3,MERGED
+31319,Docs: Update README with new package locations,irinaklimova,2025-04-30T14:43:52Z,2025-04-30T20:16:27+00:00,5,5.54,True,5,6,1,2521,2,1,3,MERGED
+31317,CLI: Enhance compatibility check: deprecated detection,ndelangen,2025-04-30T13:47:31Z,2025-05-02T08:50:10+00:00,4,43.04,True,32,1,2,3792,2,1,3,MERGED
+31313,Automigration: Migrate users to codePanel,valentinpalkovic,2025-04-30T07:33:45Z,2025-05-02T12:14:57+00:00,4,52.69,True,401,251,6,3034,4,4,8,MERGED
+31310,Release: Prerelease 9.0.0-beta.7,github-actions,2025-04-29T15:44:03Z,2025-05-01T14:27:23+00:00,1,46.72,True,1542,10776,266,3080,1,2,3,MERGED
+31309,chore: add missing dependencies,43081j,2025-04-29T15:43:43Z,2025-07-11T02:16:54+00:00,2,1738.55,False,16,2,7,2043,5,0,5,CLOSED
+31308,Build: Add dependabot configuration,ndelangen,2025-04-29T15:33:45Z,2025-04-30T07:21:40+00:00,4,15.8,True,9,0,1,2730,1,1,2,MERGED
+31307,Addon Vitest: Cleanup unnecessary parameters,yannbf,2025-04-29T15:02:59Z,2025-05-02T10:36:24+00:00,2,67.56,False,182,0,2,2508,4,2,6,CLOSED
+31306,Core: Update `Layout` stories to avoid dynamic content when running Chromatic,ghengeveld,2025-04-29T14:55:50Z,2025-05-06T10:10:01+00:00,2,163.24,True,4,0,1,2366,1,1,2,MERGED
+31302,Automigration: Refactor automigration command handling and add tests,valentinpalkovic,2025-04-29T13:26:35Z,2025-09-30T13:51:57+00:00,3,3696.42,False,482,137,31,2844,1,2,3,CLOSED
+31293,Angular: remove dependency on @angular/platform-browser-dynamic,JeanMeche,2025-04-29T09:14:05Z,2025-09-30T13:51:32+00:00,1,3700.62,False,8,29,5,57,1,1,2,CLOSED
+31289,Svelte: Fix missing `ts-dedent` dependency,JReinhold,2025-04-29T07:27:57Z,2025-04-29T12:00:10+00:00,2,4.54,True,8,7,5,2402,5,0,5,MERGED
+31287,Core: Wait for animations before completing render cycle,ghengeveld,2025-04-28T21:57:35Z,2025-05-07T15:19:53+00:00,2,209.37,True,188,28,9,3748,2,2,4,MERGED
+31285,CLI: Wrap object addon names in wrap-require migration,yatishgoel,2025-04-28T19:42:46Z,2025-05-01T12:08:08+00:00,2,64.42,True,81,37,4,2303,1,0,1,MERGED
+31283,Core: Remove maximum-scale=1 from viewport meta tag,yatishgoel,2025-04-28T16:43:06Z,2025-05-08T10:38:27+00:00,6,233.92,True,62,50,4,2565,2,1,3,MERGED
+31282,Core: Support React Native environment without static class blocks,JReinhold,2025-04-28T15:05:22Z,2025-05-02T12:24:57+00:00,2,93.33,True,257,15,8,2840,2,0,2,MERGED
+31281,Release: Prerelease 9.0.0-beta.6,github-actions,2025-04-28T14:48:35Z,2025-04-29T15:30:29+00:00,1,24.7,True,2155,1151,94,3275,1,0,1,MERGED
+31276,Dependencies: Upgrades for security,ndelangen,2025-04-28T13:36:45Z,2025-04-29T07:27:28+00:00,1,17.85,True,589,633,49,2323,1,0,1,MERGED
+31273,Automigration: Fix an issue when main.js addons have dynamic values,valentinpalkovic,2025-04-28T11:39:04Z,2025-04-28T13:58:01+00:00,1,2.32,True,27,31,1,2519,1,0,1,MERGED
+31271,Test: Remove legacy Vitest v2 code,valentinpalkovic,2025-04-28T11:22:08Z,2025-04-29T13:44:36+00:00,2,26.37,True,3,20,3,2212,2,0,2,MERGED
+31268,CI: Always run type checks,valentinpalkovic,2025-04-28T10:56:58Z,2025-04-28T14:57:04+00:00,1,4.0,True,2,2,1,2195,1,0,1,MERGED
+31265,[Snyk] Fix for 1 vulnerabilities,vanessayuenn,2025-04-28T09:08:26Z,2025-05-03T21:31:41+00:00,1,132.39,False,2,2,1,2252,1,0,1,CLOSED
+31264,[Snyk] Security upgrade @storybook/ember from 0.0.0-use.local to 4.0.0,vanessayuenn,2025-04-28T09:07:56Z,2025-05-03T21:31:49+00:00,1,132.4,False,1,1,1,2074,1,0,1,CLOSED
+31263,[Snyk] Security upgrade @storybook/svelte from 0.0.0-use.local to 4.0.0,vanessayuenn,2025-04-28T09:07:52Z,2025-05-03T21:31:57+00:00,2,132.4,False,1,1,1,2179,1,1,2,CLOSED
+31262,[Snyk] Fix for 1 vulnerabilities,vanessayuenn,2025-04-28T09:07:34Z,2025-05-06T06:58:05+00:00,1,189.84,False,2,2,1,2165,1,1,2,CLOSED
+31260,"Docs: In Svelte CSF, use `template` instead of `children`",JReinhold,2025-04-28T08:31:51Z,2025-04-28T17:21:12+00:00,2,8.82,True,16,16,5,2447,1,0,1,MERGED
+31258,Update mock-sveltekit-stores.ts,navsubrm,2025-04-28T05:47:37Z,2025-04-28T16:45:56+00:00,6,10.97,False,1,0,1,2019,1,1,2,CLOSED
+31255,Telemetry: Add Svelte CSF usage,shilman,2025-04-28T02:18:42Z,2025-04-29T15:49:58+00:00,2,37.52,True,25,3,2,823,1,0,1,MERGED
+31254,Builder-Vite: Respect BROWSER and BROWSER_ARGS env vars,yatishgoel,2025-04-27T12:28:59Z,2025-09-24T12:29:54+00:00,2,3600.02,False,12,0,1,2758,5,2,7,CLOSED
+31253,React Native Web: Add RNW to vitest supported frameworks,dannyhw,2025-04-27T11:33:48Z,2025-04-28T01:57:08+00:00,2,14.39,True,1,0,1,2418,1,0,1,MERGED
+31251,fix: Next.js 15 Link component override in appDirectory configuration,yatishgoel,2025-04-26T22:24:09Z,2025-08-11T12:44:59+00:00,2,2558.35,False,18,0,3,2424,3,0,3,CLOSED
+31250,Core: Fix sidebar accessibility order for screen readers,yatishgoel,2025-04-26T21:04:30Z,2025-05-07T11:17:37+00:00,6,254.22,True,26,8,2,3630,10,2,12,MERGED
+31249,Add TypeScript note about args type safety to component testing docs,yatishgoel,2025-04-26T20:45:01Z,2025-04-29T12:37:27+00:00,1,63.87,False,13,0,1,2282,2,0,2,CLOSED
+31246,Svelte: Remove dependency on `sveltedoc-parser`,JReinhold,2025-04-26T19:37:43Z,2025-04-27T08:57:33+00:00,2,13.33,True,16,122,7,4207,1,1,2,MERGED
+31245,Addon Docs: Fix source code panel,valentinpalkovic,2025-04-26T16:59:10Z,2025-04-28T09:06:42+00:00,1,40.13,True,18,26,5,1753,1,0,1,MERGED
+31244,Release: Prerelease 9.0.0-beta.5,github-actions,2025-04-26T16:56:48Z,2025-04-28T14:34:48+00:00,1,45.63,True,4420,6203,91,3285,1,0,1,MERGED
+31242,Addon Docs: Reset error boundary when story changes to recover from erros,yatishgoel,2025-04-26T13:41:56Z,2025-05-05T11:45:41+00:00,1,214.06,True,1,1,1,2781,1,0,1,MERGED
+31241,feat(docs): allow custom id prop on Meta and Anchor for stable MDX permalinks,yatishgoel,2025-04-26T13:05:57Z,2025-05-05T07:48:08+00:00,3,210.7,False,7,5,2,2634,4,1,5,CLOSED
+31240,Release: Prerelease 9.0.0-beta.4,github-actions,2025-04-26T00:09:33Z,2025-04-26T07:04:11+00:00,1,6.91,True,8,3,4,2586,1,0,1,MERGED
+31239,Highlights: Dont run highlights when the feature is disabled,dannyhw,2025-04-25T17:41:26Z,2025-04-26T00:07:14+00:00,2,6.43,True,1,1,1,2705,1,0,1,MERGED
+31238,Vite: Normalize preview annotation paths,mrginglymus,2025-04-25T14:37:34Z,2025-04-29T12:39:35+00:00,2,94.03,True,1,1,1,2531,1,0,1,MERGED
+31236,Autoblock: Fix angular update link,valentinpalkovic,2025-04-25T13:53:39Z,2025-04-26T16:54:20+00:00,1,27.01,True,1,1,1,2307,1,0,1,MERGED
+31235,Dependencies: Upgrades for security,ndelangen,2025-04-25T13:30:20Z,2025-04-28T09:07:06+00:00,3,67.61,True,4119,4804,36,4066,1,2,3,MERGED
+31233,Automigration: Respect config-dir option,valentinpalkovic,2025-04-25T12:29:56Z,2025-04-28T14:43:31+00:00,2,74.23,True,92,43,11,2536,1,0,1,MERGED
+31230,Core: Change require.resolve path for storybook/package.json,valentinpalkovic,2025-04-25T12:17:52Z,2025-04-28T14:43:41+00:00,2,74.43,True,29,16,12,2593,1,0,1,MERGED
+31229,Core: Check that frameworks do exist when generating the frameworks.t…,Sidnioulz,2025-04-25T10:43:47Z,2025-04-29T12:40:24+00:00,2,97.94,True,4,1,1,2935,2,0,2,MERGED
+31227,All packages: Remove unused dependencies,webpro,2025-04-25T08:13:11Z,2025-04-28T12:36:22+00:00,13,76.39,True,74,1142,33,2738,5,5,10,MERGED
+31226,Release: Prerelease 9.0.0-beta.3,github-actions,2025-04-25T07:31:28Z,2025-04-25T13:41:22+00:00,1,6.17,True,779,411,22,2711,1,4,5,MERGED
+31223,Addon A11y: Add `delay` parameter,ghengeveld,2025-04-24T13:56:44Z,2025-05-07T11:18:55+00:00,4,309.37,False,19,14,6,2710,3,1,4,CLOSED
+31221,Documentation: Update accessibility-testing.mdx,yannbf,2025-04-24T12:43:12Z,2025-04-28T17:20:57+00:00,2,100.63,True,2,2,1,2330,1,0,1,MERGED
+31216,Vite-Builder: Handle undefined previewConfig,valentinpalkovic,2025-04-24T09:01:02Z,2025-04-24T12:51:49+00:00,2,3.85,True,2,2,1,2288,1,0,1,MERGED
+31214,Docs: Polish migration.md for Storybook 9.0.0,valentinpalkovic,2025-04-24T07:06:50Z,2025-04-24T13:10:32+00:00,3,6.06,True,350,354,3,2303,1,2,3,MERGED
+31212,added a heading to TOC,pangrace,2025-04-23T23:23:02Z,2025-05-01T05:31:20+00:00,3,174.14,False,10,5,1,2384,2,0,2,CLOSED
+31209,Docs: Update incorrect wording for SvelteKit,benmccann,2025-04-23T16:19:02Z,2025-04-23T21:33:47+00:00,4,5.25,True,1,1,1,2157,1,0,1,MERGED
+31206,Docs: Update highlight documentation and code snippets,ghengeveld,2025-04-23T15:42:09Z,2025-04-29T11:01:57+00:00,9,139.33,True,968,74,10,2522,1,11,12,MERGED
+31205,CLI: Add Stencil init support,christian-bromann,2025-04-23T15:42:01Z,2025-09-29T07:31:58+00:00,4,3807.83,False,65,4,15,6301,11,4,15,CLOSED
+31204,Core: Fix highlight conflicts,ghengeveld,2025-04-23T15:12:08Z,2025-04-28T09:49:38+00:00,15,114.62,True,414,365,12,3315,1,12,13,MERGED
+31203,Automigration: Remove `docs.autodocs` field,ndelangen,2025-04-23T11:19:49Z,2025-04-24T14:00:36+00:00,10,26.68,True,383,0,3,2677,1,9,10,MERGED
+31201,CLI: Add `storybook-static` to `.gitignore` on init,JReinhold,2025-04-23T10:43:28Z,2025-04-23T11:49:13+00:00,2,1.1,True,11,2,1,2525,2,0,2,MERGED
+31200,Docs: Update Vue example for using custom args and props with slots,Laupetin,2025-04-23T10:36:23Z,2025-05-23T13:51:22+00:00,3,723.25,True,4,6,1,4342,1,0,1,MERGED
+31199,Build: Upgrade `yarn` to 4.9.1,ndelangen,2025-04-23T09:43:39Z,2025-04-24T10:26:45+00:00,3,24.72,True,979,3021,20,3445,1,0,1,MERGED
+31197,Docs: Rename test-addon.mdx -> vitest-addon.mdx,kylegach,2025-04-22T21:20:55Z,2025-04-24T20:54:18+00:00,2,47.56,True,32,32,9,1954,1,1,2,MERGED
+31195,Release: Prerelease 9.0.0-beta.2,github-actions,2025-04-22T19:09:04Z,2025-04-25T07:18:55+00:00,1,60.16,True,2406,3674,96,2867,1,0,1,MERGED
+31193,Release: Prerelease 9.0.0-beta.1,github-actions,2025-04-22T14:36:15Z,2025-04-22T15:43:09+00:00,1,1.11,True,40,31,18,2228,1,0,1,MERGED
+31191,Docs: Remove outdated renderer and TypeScript variants,jonniebigodes,2025-04-22T13:57:26Z,2025-04-30T16:07:10+00:00,23,194.16,True,1189,10708,235,2838,1,46,47,MERGED
+31188,Test: Use @testing-library/dom as devDependency,valentinpalkovic,2025-04-22T13:14:39Z,2025-04-28T10:37:52+00:00,1,141.39,True,1,4,2,2109,2,0,2,MERGED
+31185,Addon A11y: Use short titles and friendly summary messages in A11y report,ghengeveld,2025-04-22T11:02:46Z,2025-04-23T09:27:46+00:00,2,22.42,True,634,34,7,2418,1,4,5,MERGED
+31180,Addon Vitest: Transform @storybook/nextjs imports to @storybook/nextjs-vite on init,valentinpalkovic,2025-04-22T09:32:01Z,2025-04-22T10:52:27+00:00,2,1.34,True,247,88,9,2978,1,2,3,MERGED
+31179,Core: Fix highlight `clickEvent` serialization and export public types,ghengeveld,2025-04-22T08:22:26Z,2025-04-22T10:52:51+00:00,3,2.51,True,46,13,5,2757,1,1,2,MERGED
+31177,Cleanup: Remove obsolete dependency,valentinpalkovic,2025-04-22T07:37:59Z,2025-04-22T11:28:50+00:00,2,3.85,True,3,14,4,2101,1,0,1,MERGED
+31172,Docs: Restructure testing section,kylegach,2025-04-21T04:14:11Z,2025-05-23T17:37:05+00:00,13,781.38,True,5034,6571,428,2250,1,69,70,MERGED
+31171,"Docs: Update essentials, addon -> feature",kylegach,2025-04-21T03:00:40Z,2025-04-22T22:30:10+00:00,3,43.49,True,241,421,50,2063,1,6,7,MERGED
+31170,Docs: Update `react-element-to-jsx-string`,7rulnik,2025-04-20T19:42:42Z,2025-06-12T13:58:47+00:00,3,1266.27,True,6,6,2,2986,5,0,5,MERGED
+31168,Addon Controls: Fix loading state UI in addon panel,iineineno03k,2025-04-20T12:19:52Z,2025-04-22T10:27:58+00:00,6,46.13,True,61,28,1,2575,5,1,6,MERGED
+31167,Docs: Update framework dependency versions,kylegach,2025-04-20T02:25:14Z,2025-04-22T14:06:48+00:00,5,59.69,True,6,16,10,1844,1,1,2,MERGED
+31166,Docs: Remove experimental labelling from `nextjs-vite` framework,kylegach,2025-04-19T23:22:14Z,2025-04-21T13:49:41+00:00,2,38.46,True,4,10,1,1728,1,0,1,MERGED
+31160,Init: Install framework stories instead of renderer stories,valentinpalkovic,2025-04-17T17:49:26Z,2025-04-22T11:24:22+00:00,3,113.58,True,2490,66,148,3438,2,0,2,MERGED
+31156,Addon Vitest: Fix watch mode for new files,valentinpalkovic,2025-04-17T13:57:09Z,2025-05-14T15:13:31+00:00,7,649.27,True,87,38,9,3075,2,9,11,MERGED
+31152,Release: Prerelease 9.0.0-alpha.21,github-actions,2025-04-17T11:55:37Z,2025-04-22T13:00:11+00:00,1,121.08,True,18157,6095,687,5202,1,0,1,MERGED
+31151,Maintenance: Migrate eslint-storybook-plugin into the monorepo,yannbf,2025-04-17T11:30:48Z,2025-04-22T06:59:01+00:00,2,115.47,True,9070,3524,326,3648,2,85,87,MERGED
+31148,Docs: Adjust the Highlights for Storybook 9,jonniebigodes,2025-04-16T19:52:10Z,2025-04-20T13:19:46+00:00,2,89.46,True,61,223,4,2661,3,2,5,MERGED
+31147,Docs: Remove outdated Youtube Videos,jonniebigodes,2025-04-16T15:47:59Z,2025-04-21T03:18:01+00:00,2,107.5,True,1,60,28,2383,1,1,2,MERGED
+31146,Core: Create `features` for addons moved into core,ndelangen,2025-04-16T15:44:32Z,2025-04-22T10:26:55+00:00,5,138.71,True,344,247,18,6713,1,10,11,MERGED
+31145,"Docs: Adjust the Viewports, Backgrounds and Toolbars for Storybook 9",jonniebigodes,2025-04-16T14:48:14Z,2025-04-20T02:09:30+00:00,12,83.35,True,353,1174,19,2874,2,13,15,MERGED
+31143,Dependencies: Update dependencies,valentinpalkovic,2025-04-16T12:31:41Z,2025-04-16T13:33:14+00:00,1,1.03,True,16,16,5,2336,1,0,1,MERGED
+31141,Core: Rename local tests to interactions,yannbf,2025-04-16T11:10:16Z,2025-04-16T22:44:24+00:00,7,11.57,True,18,16,5,2672,1,4,5,MERGED
+31139,Core: Increase compile targets for node & browsers,JReinhold,2025-04-15T18:54:59Z,2025-04-17T11:12:06+00:00,8,40.29,True,97,15,11,3211,2,2,4,MERGED
+31135,Automigration: Fix consolidated-imports with sub-paths,ndelangen,2025-04-15T13:44:46Z,2025-04-16T08:07:55+00:00,4,18.39,True,2,2,1,2340,1,0,1,MERGED
+31133,"AddonVitest: Use framework package, not renderer",ndelangen,2025-04-15T13:23:24Z,2025-04-16T12:27:00+00:00,3,23.06,True,10,18,3,3177,1,0,1,MERGED
+31132,Refactor: Update panel IDs in vitest addon to use new constants,ndelangen,2025-04-15T13:13:30Z,2025-04-16T13:35:44+00:00,4,24.37,True,15,11,5,2644,1,1,2,MERGED
+31130,Interactions: Rename component test panel,valentinpalkovic,2025-04-15T12:36:13Z,2025-04-15T21:07:13+00:00,2,8.52,True,14,14,5,2539,1,0,1,MERGED
+31124,Release: Prerelease 9.0.0-alpha.20,github-actions,2025-04-15T09:41:23Z,2025-04-17T11:43:10+00:00,1,50.03,True,695,760,45,3771,1,0,1,MERGED
+31123,Addon Pseudo States: Move package into monorepo,ghengeveld,2025-04-15T09:26:40Z,2025-04-17T15:25:12+00:00,3,53.98,True,2576,75,51,3724,2,12,14,MERGED
+31118,Migration: Improve glob question text,ndelangen,2025-04-15T07:55:21Z,2025-04-15T09:38:51+00:00,3,1.73,True,2,1,1,2836,1,0,1,MERGED
+31116,Docs: Replace outdated MDX VSCode setting with a new one,b0g3r,2025-04-14T20:43:21Z,2025-04-15T16:15:37+00:00,4,19.54,True,1,1,1,2052,1,0,1,MERGED
+31115,Addon Docs: Update telejson,valentinpalkovic,2025-04-14T15:07:09Z,2025-04-15T12:27:02+00:00,3,21.33,True,2,11,2,2406,1,1,2,MERGED
+31114,Save from Controls: Replace rendererPackage with frameworkPackage,valentinpalkovic,2025-04-14T13:49:03Z,2025-04-15T12:26:35+00:00,5,22.63,True,50,14,4,2609,1,1,2,MERGED
+31110,Release: Prerelease 9.0.0-alpha.19,github-actions,2025-04-14T11:54:45Z,2025-04-14T16:06:37+00:00,1,4.2,True,85,105,20,2860,1,0,1,MERGED
+31109,Vite Ecosystem CI: Run vitest-based tests on ci test run,valentinpalkovic,2025-04-14T11:38:09Z,2025-04-14T14:58:38+00:00,1,3.34,True,2,2,2,2587,1,0,1,MERGED
+31102,Core: Add preview navigator and `--preview-only` CLI flag,JReinhold,2025-04-12T02:39:20Z,2025-04-22T19:06:32+00:00,7,256.45,True,317,11,8,4544,1,6,7,MERGED
+31101,CLI: Fix framework for preview imports,valentinpalkovic,2025-04-11T22:52:53Z,2025-04-14T14:58:56+00:00,2,64.1,True,13,77,7,2740,1,0,1,MERGED
+31097,Docs: Consolidate blocks into addon-docs,ndelangen,2025-04-09T15:04:26Z,2025-04-14T09:36:20+00:00,4,114.53,True,557,958,286,3486,1,3,4,MERGED
+31096,Docs: fix .storybook/main PnP workaround to work in ESM environments,acusti,2025-04-09T14:56:05Z,2025-04-28T12:39:12+00:00,2,453.72,True,8,2,1,3997,2,0,2,MERGED
+31094,Docs: Update addon-migration-guide.mdx,valentinpalkovic,2025-04-09T09:04:26Z,2025-04-14T13:08:17+00:00,4,124.06,True,7,1,1,2184,1,3,4,MERGED
+31089,Build: Resolve path aliasing for ESM compatibility,AlirezaEbrahimkhani,2025-04-07T19:36:37Z,2025-05-07T21:24:50+00:00,4,721.8,True,11,6,1,2370,1,0,1,MERGED
+31086,CLI: Fix a typo IN_STORYBOOK_SANDBOX,okathira,2025-04-07T14:34:45Z,2025-04-22T08:20:41+00:00,3,353.77,True,2,2,1,2567,1,0,1,MERGED
+31079,feat(angular): add Vite as a bundler option to @storybook/angular package,brandonroberts,2025-04-06T21:49:25Z,2025-04-29T12:50:39+00:00,2,543.02,False,676,40,10,3344,3,0,3,CLOSED
+31078,[doc] Disable auto-included `addon-docs` when adding GFM plugin,igorsantos07,2025-04-06T18:35:49Z,2025-04-14T13:17:07+00:00,2,186.69,False,22,0,1,3009,1,0,1,CLOSED
+31074,Addon-vitest: Fix coverage being disabled with Run All button,JReinhold,2025-04-04T21:25:24Z,2025-04-22T13:17:23+00:00,3,423.87,True,13,4,2,2210,1,1,2,MERGED
+31073,UI: Clear filters on run all and clear all statuses,JReinhold,2025-04-04T20:40:35Z,2025-04-14T10:33:58+00:00,2,229.89,True,11,1,2,2308,1,0,1,MERGED
+31072,Automigration: Misc addon-essentials migration fixes,valentinpalkovic,2025-04-04T19:49:20Z,2025-04-07T02:11:49+00:00,2,54.37,True,463,258,8,3833,1,3,4,MERGED
+31070,Release: Prerelease 9.0.0-alpha.18,github-actions,2025-04-04T14:12:37Z,2025-04-14T11:42:20+00:00,1,237.5,True,1032,1222,296,2418,1,0,1,MERGED
+31069,Addon-vitest: Fix coverage when restarting Vitest due to config change,JReinhold,2025-04-04T12:28:19Z,2025-04-04T14:10:00+00:00,3,1.69,True,3,4,1,4073,1,1,2,MERGED
+31068,Autoblock: Add autoblocker for addon-test,valentinpalkovic,2025-04-04T09:13:41Z,2025-04-04T11:30:19+00:00,2,2.28,True,172,0,3,3659,1,1,2,MERGED
+31066,Automigrations: Add logging,valentinpalkovic,2025-04-04T08:30:05Z,2025-04-04T11:22:07+00:00,1,2.87,True,26,6,4,2494,1,0,1,MERGED
+31065,Yarn: Update Yarn package command execution to use 'exec',valentinpalkovic,2025-04-04T08:24:20Z,2025-04-04T11:22:16+00:00,1,2.97,True,7,4,4,2444,1,0,1,MERGED
+31062,Release: Prerelease 9.0.0-alpha.17,github-actions,2025-04-03T14:29:54Z,2025-04-04T11:55:37+00:00,1,21.43,True,760,786,121,2925,1,1,2,MERGED
+31061,Vite: Support Vite 6 and Docs,valentinpalkovic,2025-04-03T14:14:15Z,2025-04-04T08:25:12+00:00,2,18.18,True,266,570,15,2871,1,0,1,MERGED
+31058,Release: Prerelease 9.0.0-alpha.16,github-actions,2025-04-03T12:48:33Z,2025-04-03T14:17:06+00:00,1,1.48,True,707,143,18,3364,1,1,2,MERGED
+31057,Instrumenter: Fix `preview-api` import for react-native,ndelangen,2025-04-03T12:21:31Z,2025-04-03T14:02:02+00:00,3,1.68,True,15,9,4,3437,1,0,1,MERGED
+31054,UI: Don't include error state in sidebar context menu,ghengeveld,2025-04-03T11:01:41Z,2025-04-14T12:27:50+00:00,2,265.44,True,26,22,3,2362,1,0,1,MERGED
+31053,Release: Patch 8.6.13,github-actions,2025-04-03T10:42:45Z,2025-05-16T00:52:36+00:00,1,1022.16,True,119,94,18,3221,1,0,1,MERGED
+31046,Documentation: Edit migration guide for addon authors,valentinpalkovic,2025-04-03T07:01:14Z,2025-04-04T09:25:17+00:00,5,26.4,True,86,43,1,2250,1,4,5,MERGED
+31045,"Addon-test: Fix watching non-story files, run all tests on preview change",JReinhold,2025-04-02T21:27:05Z,2025-04-22T08:10:28+00:00,5,466.72,True,439,240,16,3271,1,6,7,MERGED
+31043,Docs: Remove Webpack 5 frameworks,jonniebigodes,2025-04-02T19:37:19Z,2025-04-16T13:36:28+00:00,2,329.99,True,2,414,12,2629,1,0,1,MERGED
+31041,Node.js: Align Node.js version support,valentinpalkovic,2025-04-02T14:07:31Z,2025-04-02T18:30:57+00:00,3,4.39,True,4,4,2,2158,1,0,1,MERGED
+31036,Addon-a11y: Replace `element` parameter with `context`,JReinhold,2025-04-02T12:16:42Z,2025-04-22T11:04:27+00:00,5,478.8,True,788,45,13,3547,2,7,9,MERGED
+31035,Release: Prerelease 9.0.0-alpha.15,github-actions,2025-04-02T12:10:19Z,2025-04-03T12:36:16+00:00,1,24.43,True,895,812,71,3916,1,1,2,MERGED
+31034,chore: upgrade yarn to 4.8.1,spanishpear,2025-04-02T11:47:32Z,2025-04-23T11:18:18+00:00,4,503.51,False,1061,1058,18,3255,4,2,6,CLOSED
+31033,Automigration: Enhance import transformation to handle partial package matches,valentinpalkovic,2025-04-02T11:42:15Z,2025-04-02T18:31:16+00:00,2,6.82,True,22,1,2,2344,1,0,1,MERGED
+31029,Release: Prerelease 9.0.0-alpha.14,github-actions,2025-04-02T09:17:15Z,2025-04-02T11:54:20+00:00,1,2.62,True,31353,7177,317,4102,2,14,16,MERGED
+31028,Core: Automatically expand testing module on unhandled error,ghengeveld,2025-04-02T08:31:12Z,2025-04-03T08:32:01+00:00,2,24.01,True,19,10,3,2474,1,0,1,MERGED
+31027,"Core: Show ""Render story"" event explicitly in Component Tests event trace",ghengeveld,2025-04-02T07:04:22Z,2025-04-02T22:00:11+00:00,2,14.93,True,275,90,11,2689,1,0,1,MERGED
+31023,Automigration: Ensure correct addition of missing dependencies,valentinpalkovic,2025-04-01T18:46:16Z,2025-04-02T10:07:03+00:00,2,15.35,True,97,1,2,3045,1,0,1,MERGED
+31021,Release: Prerelease 9.0.0-alpha.13,github-actions,2025-04-01T15:36:50Z,2025-04-02T08:59:47+00:00,1,17.38,False,31364,7177,317,4949,1,4,5,CLOSED
+31016,"Addon Test: Update panel title references from ""Component tests""",valentinpalkovic,2025-04-01T14:24:35Z,2025-04-02T10:15:46+00:00,1,19.85,True,6,6,4,2428,1,0,1,MERGED
+31015,Automigration: Remove `@storybook/addon-essentials` proper,ndelangen,2025-04-01T14:20:39Z,2025-04-03T11:03:52+00:00,8,44.72,True,555,123,8,3965,2,5,7,MERGED
+31014,Addon Test: Rename `@storybook/experimental-addon-test` to `@storybook/addon-vitest`,valentinpalkovic,2025-04-01T14:18:12Z,2025-04-04T09:52:36+00:00,3,67.57,True,176,152,91,3099,2,2,4,MERGED
+31012,Release: Prerelease 9.0.0-alpha.13,github-actions,2025-04-01T13:46:25Z,2025-04-01T15:18:52+00:00,1,1.54,False,1225,986,70,5491,0,4,4,CLOSED
+31009,Addon A11y: Add `linkPath` to Axe results and use it in copy link action,ghengeveld,2025-04-01T10:28:30Z,2025-04-02T21:34:28+00:00,3,35.1,True,160,103,11,2447,1,0,1,MERGED
+31007,Addons: Remove @storybook/addon-storysource,valentinpalkovic,2025-04-01T10:12:25Z,2025-04-02T10:08:07+00:00,2,23.93,True,47,524,33,2574,2,0,2,MERGED
+31005,Addon-test: Exclude `storybook-static` from coverage reports,JReinhold,2025-04-01T09:28:31Z,2025-04-02T12:17:00+00:00,2,26.81,True,222,52,5,2497,1,1,2,MERGED
+30998,Dependencies: Upgrade `telejson`,ndelangen,2025-03-31T13:51:12Z,2025-04-01T09:28:45+00:00,2,19.63,True,20,118,18,3675,2,0,2,MERGED
+30996,Remove: Addon mdx-gfm (`@storybook/addon-mdx-gfm`),ndelangen,2025-03-31T10:46:09Z,2025-04-01T09:28:32+00:00,4,22.71,True,0,351,18,3344,1,1,2,MERGED
+30995,Documentation: Migration note on removal addon-essentials,ndelangen,2025-03-31T10:17:33Z,2025-04-16T13:53:10+00:00,5,387.59,True,524,36,1,2976,1,2,3,MERGED
+30990,HTML Framework: Remove support for HTML Webpack 5,valentinpalkovic,2025-03-31T07:15:43Z,2025-03-31T10:15:48+00:00,2,3.0,True,26,437,40,2753,2,0,2,MERGED
+30988,Web Components: Remove Webpack 5 support,valentinpalkovic,2025-03-31T06:54:27Z,2025-03-31T10:15:30+00:00,2,3.35,True,41,740,42,2565,2,0,2,MERGED
+30986,Release: Prerelease 9.0.0-alpha.13,github-actions,2025-03-30T18:43:50Z,2025-04-01T12:22:07+00:00,1,41.64,True,1336,12478,281,3996,1,0,1,MERGED
+30981,Svelte: Exclude `node_modules` from docgen,JReinhold,2025-03-29T20:17:54Z,2025-03-31T13:02:33+00:00,3,40.74,True,3,2,1,5266,2,1,3,MERGED
+30976,Addon A11y: Only run checks in story mode,kroeder,2025-03-28T15:54:42Z,2025-04-22T14:33:35+00:00,5,598.65,True,14,1,2,2585,4,0,4,MERGED
+30974,Release: Patch 8.6.12,github-actions,2025-03-28T15:34:41Z,2025-04-02T16:53:46+00:00,1,121.32,True,37,15,10,3158,1,1,2,MERGED
+30973,CLI: Install the matching angular devkit for angular init,kasperpeulen,2025-03-28T15:08:32Z,2025-03-31T11:04:18+00:00,1,67.93,False,5,10,2,2193,1,1,2,CLOSED
+30970,Manager: Fix `Uncaught ReferenceError: global is not defined`,JReinhold,2025-03-28T12:44:06Z,2025-03-28T13:50:36+00:00,2,1.11,True,3,3,1,2386,1,0,1,MERGED
+30969,Addon A11y: Ensure selected highlight is visible when it also has other highlights,ghengeveld,2025-03-28T11:36:28Z,2025-04-02T13:39:51+00:00,1,122.06,False,2,1,1,2495,2,0,2,CLOSED
+30966,CLI: Only install Visual Test Addon if test feature is selected,ghengeveld,2025-03-28T11:10:06Z,2025-03-30T18:41:26+00:00,2,55.52,True,3,1,1,2405,1,0,1,MERGED
+30964,Angular: Fix addon-a11y installation in angular prerelease sandboxes,kasperpeulen,2025-03-28T10:59:54Z,2025-03-31T08:04:03+00:00,2,69.07,False,25,25,3,2985,1,1,2,CLOSED
+30963,Core: Fix flaky unit tests related to stores,JReinhold,2025-03-28T10:49:39Z,2025-03-28T12:25:53+00:00,1,1.6,True,9,3,4,3185,1,0,1,MERGED
+30962,Core: Remove deprecated parts of test provider API,JReinhold,2025-03-28T10:16:48Z,2025-03-31T13:32:39+00:00,4,75.26,True,83,607,18,2844,2,1,3,MERGED
+30958,Vue3: Remove support for Webpack 5,valentinpalkovic,2025-03-28T09:56:46Z,2025-03-30T10:21:48+00:00,1,48.42,True,81,2357,57,2532,2,0,2,MERGED
+30957,Preact: Remove support for Preact Webpack 5,valentinpalkovic,2025-03-28T09:46:50Z,2025-03-28T17:49:01+00:00,3,8.04,True,31,418,37,2587,2,1,3,MERGED
+30956,Next.js-Vite: Stabilize @storybook/experimental-nextjs-vite,valentinpalkovic,2025-03-28T08:46:40Z,2025-03-28T15:15:25+00:00,4,6.48,True,222,150,94,3007,2,1,3,MERGED
+30955,UI: Visual tweaks to badges and improved layout for a11y panel,ghengeveld,2025-03-27T23:13:35Z,2025-03-28T08:30:14+00:00,3,9.28,True,176,119,11,3088,1,0,1,MERGED
+30954,Angular: switch ɵReflectionCapabilities -> reflectComponentType in NgComponentAnalyzer,vasimi,2025-03-27T18:24:12Z,2025-09-30T13:50:48+00:00,4,4483.44,False,15,13,2,2943,6,1,7,CLOSED
+30953,Core: Fix telemetry error on Storybook UI,yannbf,2025-03-27T16:23:42Z,2025-03-28T15:31:25+00:00,2,23.13,True,2,2,1,2511,1,0,1,MERGED
+30952,Core: Add error boundary to tabs to prevent addon errors breaking Storybook,kasperpeulen,2025-03-27T15:19:52Z,2025-03-31T11:56:56+00:00,2,92.62,True,87,2,2,2233,2,0,2,MERGED
+30948,Maintenance: Specify that Addon Test now requires Vitest 3.0,yannbf,2025-03-27T14:13:32Z,2025-04-01T15:33:38+00:00,2,121.33,True,48,45,5,2316,1,1,2,MERGED
+30945,Maintenance: Remove obsolete automigrations,valentinpalkovic,2025-03-27T11:44:12Z,2025-03-30T10:43:57+00:00,1,71.0,True,33,7169,62,2785,1,0,1,MERGED
+30943,Release: Prerelease 9.0.0-alpha.12,github-actions,2025-03-27T10:11:08Z,2025-03-30T18:25:43+00:00,1,80.24,True,14796,14777,430,3995,1,9,10,MERGED
+30942,Release: Patch 8.6.11,github-actions,2025-03-27T10:11:06Z,2025-03-28T09:33:14+00:00,1,23.37,True,12,3,5,2062,1,0,1,MERGED
+30940,Maintenance: Drop tooling support,valentinpalkovic,2025-03-27T09:35:56Z,2025-03-28T15:14:56+00:00,8,29.65,True,473,264,57,2821,3,3,6,MERGED
+30936,Release: Patch 8.6.11,github-actions,2025-03-26T16:58:37Z,2025-03-27T09:37:30+00:00,1,16.65,False,8,3,4,2437,0,0,0,CLOSED
+30935,Test: Make sure that expect has no different behavior after instrumentation,kasperpeulen,2025-03-26T15:38:59Z,2025-03-31T11:57:25+00:00,1,116.31,True,135,7,4,2641,1,1,2,MERGED
+30932,Nextjs: Fix styled-jsx optimize vite warnings,kasperpeulen,2025-03-26T11:37:32Z,2025-03-26T13:18:59+00:00,1,1.69,True,6,6,2,2074,1,0,1,MERGED
+30931,Release: Prerelease 9.0.0-alpha.11,github-actions,2025-03-26T10:44:53Z,2025-03-26T16:45:19+00:00,1,6.01,True,944,4505,179,2526,1,1,2,MERGED
+30930,"CLI: Add skip onboarding, recommended/minimal config",shilman,2025-03-26T09:22:14Z,2025-05-02T04:54:23+00:00,3,883.54,True,552,40,17,2644,1,10,11,MERGED
+30929,React: Fix actImplementation is not a function,kasperpeulen,2025-03-26T08:55:25Z,2025-03-26T11:16:09+00:00,2,2.35,True,9,6,1,2623,1,0,1,MERGED
+30926,Maintenance: Remove deprecated APIs,valentinpalkovic,2025-03-26T07:55:22Z,2025-03-28T11:28:47+00:00,9,51.56,True,548,1644,77,4974,3,7,10,MERGED
+30924,Essentials: Move remaining addons into core,ndelangen,2025-03-25T14:55:44Z,2025-03-31T08:17:00+00:00,7,137.35,True,926,10670,203,3626,2,11,13,MERGED
+30923,Core: Prebundle jsdoc-type-pratt-parser again,kasperpeulen,2025-03-25T13:36:29Z,2025-03-25T14:45:08+00:00,3,1.14,True,12,2,3,2888,1,0,1,MERGED
+30920,Addon Test: Only install it in Vite-based projects or Next.js projects,valentinpalkovic,2025-03-25T10:20:15Z,2025-06-16T08:44:21+00:00,1,1990.4,False,34,34,3,2925,2,0,2,CLOSED
+30918,Release: Patch 8.6.10,github-actions,2025-03-24T19:06:44Z,2025-03-26T15:57:50+00:00,1,44.85,True,26,41,9,2727,1,0,1,MERGED
+30917,Release: Prerelease 9.0.0-alpha.10,github-actions,2025-03-24T19:06:37Z,2025-03-25T16:24:55+00:00,1,21.3,True,1193,10419,162,2979,1,0,1,MERGED
+30916,Addons: Move @storybook/addon-interactions into core,valentinpalkovic,2025-03-24T16:13:01Z,2025-03-26T10:42:31+00:00,2,42.49,True,920,4489,175,4822,2,5,7,MERGED
+30915,Release: Patch 8.6.9,github-actions,2025-03-24T15:01:39Z,2025-03-24T16:14:25+00:00,1,1.21,True,27,17,6,2883,1,0,1,MERGED
+30914,Next: Fix react aliases in next vite plugin,kasperpeulen,2025-03-24T13:48:50Z,2025-03-24T14:58:17+00:00,1,1.16,True,8,32,2,2236,1,0,1,MERGED
+30913,Addon-docs: Fix non-string handling in Stories block,JamesIves,2025-03-24T13:41:14Z,2025-03-24T19:04:13+00:00,4,5.38,True,1,1,1,2787,3,0,3,MERGED
+30909,Viewport: Embed addon-viewport in the core,ndelangen,2025-03-24T10:53:33Z,2025-03-25T12:02:25+00:00,3,25.15,True,347,736,57,2486,1,6,7,MERGED
+30903,Build: Add spy mocking rules for Vitest tests,valentinpalkovic,2025-03-24T09:52:24Z,2025-03-24T11:34:12+00:00,1,1.7,True,43,0,1,2626,2,1,3,MERGED
+30898,Fix: Updated favicon handling for Storybook,mansikumar02072004,2025-03-23T13:00:50Z,2025-03-24T14:18:12+00:00,2,25.29,False,8,0,1,1363,1,2,3,CLOSED
+30894,Core: Draw highlights on top of canvas and add various new features,ghengeveld,2025-03-22T10:01:07Z,2025-04-18T21:28:58+00:00,4,659.46,True,1407,181,13,6533,3,4,7,MERGED
+30882,CLI: Add React Native `.rnstorybook` CLI automigration,shilman,2025-03-21T12:27:04Z,2025-03-24T15:48:02+00:00,1,75.35,True,282,12,6,1463,1,3,4,MERGED
+30881,Release: Prerelease 9.0.0-alpha.9,github-actions,2025-03-21T12:13:05Z,2025-03-24T16:30:42+00:00,1,76.29,True,543,1008,49,3352,1,0,1,MERGED
+30876,Test: Handle non-configurable properties in instrumenter for expect.toThrow,kasperpeulen,2025-03-20T22:51:50Z,2025-03-21T12:09:11+00:00,2,13.29,True,34,8,2,2709,1,0,1,MERGED
+30875,"Addon-Test: Migrate to new test provider API, drop Vitest 2 support",JReinhold,2025-03-20T21:59:16Z,2025-03-27T13:36:19+00:00,12,159.62,True,10985,1698,60,3708,4,30,34,MERGED
+30874,Docs: Update testing packages,kylegach,2025-03-20T21:49:59Z,2025-04-21T22:31:02+00:00,4,768.68,True,10,26,4,2145,2,8,10,MERGED
+30873,Docs: Update package paths,kylegach,2025-03-20T21:31:20Z,2025-04-18T21:46:56+00:00,2,696.26,True,145,163,57,1270,2,15,17,MERGED
+30872,Docs: Update migration guides for 9.0,kylegach,2025-03-20T20:29:00Z,2025-04-23T01:38:43+00:00,4,797.16,True,206,159,4,2163,1,8,9,MERGED
+30871,Toolbars: Embed addon-toolbars into the core,ndelangen,2025-03-20T18:22:47Z,2025-03-25T11:32:14+00:00,3,113.16,True,113,9164,52,4173,1,3,4,MERGED
+30869,React: Ensure render functions and decorators are react components,kasperpeulen,2025-03-20T14:40:39Z,2025-03-25T15:17:16+00:00,3,120.61,True,74,20,11,2764,1,5,6,MERGED
+30865,CLI: Make sure that the add commands logs all output to the console,kasperpeulen,2025-03-20T11:01:37Z,2025-03-21T15:55:55+00:00,4,28.91,True,59,30,8,2471,1,3,4,MERGED
+30864,Controls: Embed addon-controls into the core,ndelangen,2025-03-20T10:40:29Z,2025-03-25T11:07:12+00:00,2,120.45,True,153,431,68,4307,1,1,2,MERGED
+30861,CLI: Add detection for the storybook package being behind any other core packages,kasperpeulen,2025-03-20T10:12:16Z,2025-03-21T16:39:34+00:00,8,30.45,True,52,10,2,2598,1,6,7,MERGED
+30859,Release: Prerelease 9.0.0-alpha.8,github-actions,2025-03-19T14:10:38Z,2025-03-19T15:14:09+00:00,1,1.06,True,256,98,19,4555,1,2,3,MERGED
+30856,Addon-Essentials: Remove addon-docs,ndelangen,2025-03-19T12:54:33Z,2025-03-25T10:19:30+00:00,5,141.42,True,485,72,19,3414,1,14,15,MERGED
+30852,Svelte: Adjust Svelte typings to include Svelte 5 function components,kasperpeulen,2025-03-18T16:13:01Z,2025-03-19T12:14:02+00:00,4,20.02,True,156,25,4,3043,4,3,7,MERGED
+30850,fix (Svelte): adjust type,dummdidumm,2025-03-18T15:17:26Z,2025-03-18T16:19:11+00:00,1,1.03,False,43,3,2,2850,4,0,4,CLOSED
+30849,Angular: Export all files in Angular package.json,kasperpeulen,2025-03-18T15:05:46Z,2025-03-19T09:13:16+00:00,2,18.12,True,4,4,2,2904,1,0,1,MERGED
+30847,React: Allow portable stories to be used in SSR,kasperpeulen,2025-03-18T14:45:22Z,2025-03-19T12:13:28+00:00,3,21.47,True,15,9,3,3357,1,2,3,MERGED
+30846,Release: Patch 8.6.8,github-actions,2025-03-18T14:06:58Z,2025-03-22T09:04:53+00:00,1,90.97,True,276,100,19,3427,4,1,5,MERGED
+30845,Vite: Update HMR filter to target specific story file types,kasperpeulen,2025-03-18T14:02:35Z,2025-03-18T16:30:05+00:00,2,2.46,True,1,1,1,2286,1,1,2,MERGED
+30841,Addons: Update the Viewport and Background Addon,ndelangen,2025-03-18T09:27:42Z,2025-03-24T13:24:33+00:00,5,147.95,True,68,938,26,3765,2,5,7,MERGED
+30840,Test: Upgrade to vitest 3,kasperpeulen,2025-03-18T09:05:47Z,2025-03-18T10:41:42+00:00,1,1.6,True,111,179,5,2208,1,0,1,MERGED
+30838,"Core: Add ""clear all statuses""-button",JReinhold,2025-03-18T07:45:19Z,2025-03-18T10:24:40+00:00,5,2.66,True,8888,32,7,1874,1,1,2,MERGED
+30833,React-Native: Fix `userEvent.setup()` errors in jest,dannyhw,2025-03-17T17:40:52Z,2025-03-18T09:55:15+00:00,2,16.24,True,3,1,1,2029,1,0,1,MERGED
+30832,Release: Prerelease 9.0.0-alpha.7,github-actions,2025-03-17T16:40:09Z,2025-03-19T13:56:56+00:00,1,45.28,True,10090,225,31,2761,1,0,1,MERGED
+30830,UI: Fix status missing from sidebar,JReinhold,2025-03-17T15:21:08Z,2025-03-18T10:26:06+00:00,2,19.08,True,8896,33,9,2635,1,0,1,MERGED
+30828,Core: New Test Provider Store,JReinhold,2025-03-17T10:13:46Z,2025-03-18T10:26:58+00:00,3,24.22,True,1051,0,11,2752,2,2,4,MERGED
+30827,Docs: CSF fix broken link to migration guide,kenrick95,2025-03-17T08:53:19Z,2025-03-18T14:02:48+00:00,5,29.16,True,1,1,1,2508,1,0,1,MERGED
+30824,Release: Prerelease 9.0.0-alpha.6,github-actions,2025-03-16T18:48:32Z,2025-03-17T14:47:29+00:00,1,19.98,True,2608,1195,96,2909,2,0,2,MERGED
+30823,Release: Patch 8.6.7,github-actions,2025-03-16T18:43:17Z,2025-03-17T14:47:59+00:00,1,20.08,True,24,21,8,2053,1,0,1,MERGED
+30821,React-Native-Web: Fix errors in CLI template stories,dannyhw,2025-03-16T16:41:08Z,2025-03-16T18:40:45+00:00,2,1.99,True,16,18,4,2632,1,0,1,MERGED
+30820,React-Native: Fix `__STORYBOOK_ADDON_INTERACTIONS_INSTRUMENTER_STATE__` access,dannyhw,2025-03-16T16:28:42Z,2025-03-17T06:58:12+00:00,2,14.49,True,1,1,1,1996,1,0,1,MERGED
+30819,React-Native: Update config directory to .rnstorybook,dannyhw,2025-03-16T15:13:02Z,2025-03-16T18:36:18+00:00,2,3.39,True,5,5,2,2674,2,0,2,MERGED
+30818,Core: Fix favicon issue on dev server,MuhdHishamP,2025-03-16T15:06:29Z,2025-04-14T13:55:24+00:00,5,694.82,True,14,8,1,2702,2,1,3,MERGED
+30813,Release: Patch 8.6.6,github-actions,2025-03-14T21:51:16Z,2025-03-15T03:31:03+00:00,1,5.66,True,11,5,6,2215,2,0,2,MERGED
+30812,Svelte: Adjust Svelte typings to include Svelte 5 function components,dummdidumm,2025-03-14T20:01:05Z,2025-03-18T14:03:57+00:00,7,90.05,True,115,24,4,3100,2,7,9,MERGED
+30811,Angular: Make sure that polyfills are loaded before the storybook is loaded,kasperpeulen,2025-03-14T19:35:30Z,2025-03-14T21:48:48+00:00,1,2.22,True,1,1,1,2761,1,0,1,MERGED
+30809,Release: Prerelease 9.0.0-alpha.5,github-actions,2025-03-14T15:11:06Z,2025-03-16T18:35:09+00:00,1,51.4,True,32,31,22,2593,1,0,1,MERGED
+30808,Release: Prerelease 9.0.0-alpha.4,github-actions,2025-03-14T15:04:12Z,2025-03-14T19:40:23+00:00,1,4.6,False,13,27,17,3682,0,0,0,CLOSED
+30807,Release: Patch 8.6.5,github-actions,2025-03-14T15:04:09Z,2025-03-14T21:20:49+00:00,1,6.28,True,911,613,22,3604,2,0,2,MERGED
+30805,"Core: Remove `util`, `browser-assert`, `process` deps",ndelangen,2025-03-14T12:09:35Z,2025-03-17T08:05:04+00:00,2,67.92,True,27,77,5,3569,2,0,2,MERGED
+30804,Release: Prerelease 9.0.0-alpha.4,github-actions,2025-03-14T10:35:52Z,2025-03-14T14:57:45+00:00,1,4.36,True,2465,10366,655,3056,2,11,13,MERGED
+30800,Release: Prerelease 9.0.0-alpha.3,github-actions,2025-03-13T10:03:22Z,2025-03-14T10:33:04+00:00,1,24.5,False,255,485,81,5110,0,2,2,CLOSED
+30799,CLI: Do not install renderer package on `init`,ndelangen,2025-03-12T13:35:23Z,2025-03-13T13:51:10+00:00,2,24.26,True,0,1,1,2689,1,0,1,MERGED
+30797,Release: Prerelease 9.0.0-alpha.4,github-actions,2025-03-12T04:45:48Z,2025-03-14T10:33:25+00:00,1,53.79,False,2579,10682,658,2881,0,0,0,CLOSED
+30794,Maintenance: Move certain internal entries to top-level-export,ndelangen,2025-03-11T14:29:26Z,2025-03-13T09:11:17+00:00,2,42.7,True,1188,876,435,3395,2,8,10,MERGED
+30792,Vite: Add new dependencies to Vite optimizeDeps to fix #30789,kasperpeulen,2025-03-11T10:46:47Z,2025-03-12T13:12:09+00:00,1,26.42,True,4,0,1,2226,1,0,1,MERGED
+30791,Fix storybook mock example,firatoezcan,2025-03-11T10:41:06Z,2025-07-02T08:14:52+00:00,2,2709.56,False,2,2,1,786,11,0,11,CLOSED
+30790,Angular: Add `@angular-devkit/build-angular` to installed packages,kasperpeulen,2025-03-11T10:09:11Z,2025-03-11T15:03:16+00:00,1,4.9,True,17,4,4,2275,1,0,1,MERGED
+30789,"Vite: Revert: ""Improve handling of preview annotations""",JReinhold,2025-03-11T08:42:49Z,2025-03-12T13:12:10+00:00,1,28.49,False,118,320,7,2920,6,1,7,CLOSED
+30786,CLI: Fix test install in RNW projects,shilman,2025-03-10T16:19:05Z,2025-03-11T08:43:31+00:00,1,16.41,True,1,0,1,1195,2,0,2,MERGED
+30785,Automigrate: Prefer framework import,ndelangen,2025-03-10T15:54:07Z,2025-03-13T12:10:47+00:00,7,68.28,True,512,0,3,3188,2,9,11,MERGED
+30784,Svelte: Fix automatic argTypes inference coming up empty with `svelte2tsx@0.7.35`,JReinhold,2025-03-10T13:05:32Z,2025-03-11T13:44:03+00:00,1,24.64,True,10,8,3,2543,3,0,3,MERGED
+30781,Universal Store: Don't use `crypto.randomUUID`,JReinhold,2025-03-10T07:55:21Z,2025-03-10T09:51:48+00:00,3,1.94,True,36,38,2,2865,1,0,1,MERGED
+30775,Build: Disable  benchmark scripts,kasperpeulen,2025-03-07T20:08:15Z,2025-03-08T15:39:33+00:00,1,19.52,True,15,12,1,2123,2,0,2,MERGED
+30774,Addon-A11y: Various improvements,ghengeveld,2025-03-07T16:58:19Z,2025-03-27T10:08:35+00:00,27,473.17,True,2260,1016,38,5313,6,35,41,MERGED
+30773,Core: Testing Module UI improvements,ghengeveld,2025-03-07T15:13:08Z,2025-03-17T13:52:53+00:00,8,238.66,True,458,312,24,4998,4,8,12,MERGED
+30771,Core: Re-Export renderers from frameworks,ndelangen,2025-03-07T12:22:08Z,2025-03-10T10:37:59+00:00,2,70.26,True,5427,178,303,4899,2,4,6,MERGED
+30770,"Revert ""Next.js: Upgrade image-size to 2.0""",kasperpeulen,2025-03-07T11:43:29Z,2025-03-10T14:06:23+00:00,1,74.38,False,82,17,4,556,3,0,3,CLOSED
+30769,Automigrate: Disable `missingStorybookDependencies` for 9.0,ndelangen,2025-03-07T10:22:15Z,2025-03-10T09:27:22+00:00,4,71.09,True,0,289,3,4182,1,1,2,MERGED
+30766,Migration: Document dropped support legacy packages,ndelangen,2025-03-06T15:07:08Z,2025-03-10T06:54:11+00:00,3,87.78,True,40,0,1,4281,2,2,4,MERGED
+30765,Core: Move @storybook/addon-actions into storybook,valentinpalkovic,2025-03-06T14:53:50Z,2025-03-13T14:46:56+00:00,1,167.88,True,1908,10349,647,1931,2,0,2,MERGED
+30764,Core: New Status Store,JReinhold,2025-03-06T11:28:37Z,2025-03-17T13:21:16+00:00,28,265.88,True,2088,779,65,3509,2,54,56,MERGED
+30762,Release: Patch 8.6.5,github-actions,2025-03-06T07:42:20Z,2025-03-14T15:00:55+00:00,1,199.31,False,98,65,17,3604,2,0,2,CLOSED
+30761,Automigration: Migrate @storybook/test to storybook/test,valentinpalkovic,2025-03-06T07:24:16Z,2025-03-07T12:28:25+00:00,1,29.07,False,293,0,4,4648,2,4,6,CLOSED
+30760,Release: Prerelease 9.0.0-alpha.3,github-actions,2025-03-06T06:59:03Z,2025-03-11T15:38:50+00:00,1,128.66,True,7123,1752,552,4544,2,0,2,MERGED
+30758,Test: Bump version of @testing-library/user-event,sjwilczynski,2025-03-05T17:16:02Z,2025-03-14T10:55:07+00:00,3,209.65,False,12,21,6,4437,4,0,4,CLOSED
+30757,React: Remove react import in template files,kasperpeulen,2025-03-05T15:24:03Z,2025-03-14T15:01:37+00:00,1,215.63,True,2,25,14,4131,1,2,3,MERGED
+30756,Release: Prerelease 9.0.0-alpha.2,github-actions,2025-03-05T13:44:11Z,2025-03-05T15:41:26+00:00,1,1.95,True,7643,22310,953,6452,2,9,11,MERGED
+30755,Addon Test: Improve unhandled error messages,yannbf,2025-03-05T12:27:33Z,2025-03-10T15:05:30+00:00,3,122.63,True,296,176,10,4208,2,6,8,MERGED
+30753,Migration: Add auto-automigration for merged packages,ndelangen,2025-03-05T11:46:41Z,2025-03-10T07:10:56+00:00,11,115.4,True,570,0,5,5888,3,15,18,MERGED
+30743,Blocks: IconGallery improvement,leeovictor,2025-03-03T21:45:42Z,2025-03-13T14:58:36+00:00,11,233.22,True,27,10,2,4999,3,1,4,MERGED
+30742,Test: Move `@storybook/test` into `storybook/test`,valentinpalkovic,2025-03-03T20:56:18Z,2025-03-07T13:12:20+00:00,3,88.27,True,721,980,295,4923,3,35,38,MERGED
+30741,Next.js: Upgrade image-size to 2.0,valentinpalkovic,2025-03-03T19:54:32Z,2025-03-06T14:05:27+00:00,1,66.18,True,17,82,4,4187,3,0,3,MERGED
+30740,Core: Move @storybook/instrumenter into core,valentinpalkovic,2025-03-03T13:43:57Z,2025-03-05T07:18:22+00:00,3,41.57,True,101,228,68,4743,3,1,4,MERGED
+30736,Typescript: Drop Typescript < 4.9 support,valentinpalkovic,2025-03-02T12:08:33Z,2025-03-04T10:18:02+00:00,6,46.16,True,42,3429,62,4274,3,5,8,MERGED
+30735,Release: Patch 8.6.4,github-actions,2025-03-02T09:04:20Z,2025-03-05T16:35:43+00:00,1,79.52,True,11,4,5,2272,2,0,2,MERGED
+30731,Build: Pin typescript to avoid version conflicts with eslint-typescript,shilman,2025-03-01T07:49:51Z,2025-03-01T09:11:21+00:00,2,1.36,True,1,1,1,3121,1,0,1,MERGED
+30729,CSF: Fix CSF subcomponent type,filipemelo2002,2025-03-01T01:17:26Z,2025-03-14T21:51:47+00:00,5,332.57,True,1,1,1,4300,2,0,2,MERGED
+30727,Test Addon: Stabilize and remove experimental status,valentinpalkovic,2025-02-28T19:50:05Z,2025-03-03T11:51:25+00:00,2,64.02,True,654,9877,40,4862,3,0,3,MERGED
+30723,Addon A11y: Promote @storybook/global to full dependency,mrginglymus,2025-02-28T14:49:54Z,2025-03-06T20:12:29+00:00,1,149.38,True,1,1,1,4203,1,0,1,MERGED
+30719,Build: Use `storybook` from `node_modules` to run internal Storybook,JReinhold,2025-02-28T13:58:13Z,2025-03-03T15:32:54+00:00,4,73.58,True,4,4,2,4699,2,1,3,MERGED
+30718,Fix(typescript): Allow React.FC in component and subcomponents properties,yatishgoel,2025-02-28T12:43:37Z,2025-03-14T21:53:39+00:00,1,345.17,False,6,2,1,2522,2,0,2,CLOSED
+30714,AutoBlocker: Add major version upgrade blocker,ndelangen,2025-02-28T09:45:12Z,2025-02-28T12:35:51+00:00,6,2.84,True,285,0,3,4863,1,5,6,MERGED
+30711,Vite: Include `node_modules` in stats file,JReinhold,2025-02-27T21:26:03Z,2025-03-04T05:45:14+00:00,3,104.32,True,1,2,1,4932,2,0,2,MERGED
+30709,Core: Add `untilEvent` and `toChannelEvent` to UniversalStore,JReinhold,2025-02-27T14:37:00Z,2025-04-10T16:55:44+00:00,2,1010.31,False,248,6,3,4842,2,3,5,CLOSED
+30707,Release: Patch 8.6.3,github-actions,2025-02-27T14:29:46Z,2025-03-01T10:11:40+00:00,1,43.7,True,23,13,10,2251,1,0,1,MERGED
+30703,Svelte: Drop Support for Svelte < 5,valentinpalkovic,2025-02-27T11:40:55Z,2025-04-01T20:04:44+00:00,7,800.4,True,30094,6151,255,4577,3,18,21,MERGED
+30701,Release: Patch 8.6.2,github-actions,2025-02-27T10:35:21Z,2025-02-27T12:41:32+00:00,1,2.1,True,11,4,6,2200,1,0,1,MERGED
+30696,Build: Fix addon essentials entry,yannbf,2025-02-27T07:36:32Z,2025-02-27T10:03:09+00:00,2,2.44,True,2,2,1,3986,1,0,1,MERGED
+30694,"Revert ""CLI: Don't initially select Documentation and Testing features""",shilman,2025-02-27T04:48:40Z,2025-02-27T10:56:36+00:00,2,6.13,True,1,0,1,923,1,0,1,MERGED
+30693,Docs: Add Rsbuild Storybook builder to builders page,fi3ework,2025-02-27T03:31:14Z,2025-02-27T18:09:28+00:00,3,14.64,True,1,0,1,2540,2,0,2,MERGED
+30690,Maintenance: Remove deprecated packages,ndelangen,2025-02-26T21:37:35Z,2025-02-28T10:47:37+00:00,1,37.17,True,142,1647,147,4681,3,0,3,MERGED
+30685,Release: Patch 8.6.1,github-actions,2025-02-26T14:56:15Z,2025-02-27T10:02:14+00:00,1,19.1,True,2397,2321,35,2718,1,0,1,MERGED
+30684,Release: Prerelease 9.0.0-alpha.1,github-actions,2025-02-26T14:19:41Z,2025-02-27T12:19:52+00:00,1,22.0,True,8264,9144,75,2844,3,0,3,MERGED
+30682,Ember: Fix `ember-template-compiler` import for ember 6+,leoeuclids,2025-02-26T14:04:11Z,2025-03-16T03:46:26+00:00,4,421.7,True,2,2,2,1024,8,0,8,MERGED
+30677,Build: Remove nextjs/13-ts sandbox,kasperpeulen,2025-02-26T11:37:50Z,2025-02-26T14:53:21+00:00,1,3.26,True,4,54,3,4134,1,0,1,MERGED
+30676,CSF: Only export definePreview from the framework,kasperpeulen,2025-02-26T10:52:58Z,2025-02-26T14:53:43+00:00,2,4.01,True,19,16,9,4067,1,0,1,MERGED
+30669,Docs: Remove conditional content from framework pages,kylegach,2025-02-25T21:01:11Z,2025-02-26T15:17:07+00:00,2,18.27,True,2089,2232,13,2532,1,1,2,MERGED
+30668,Core: Replace 'min' instead of 'm' in printDuration,wlewis-formative,2025-02-25T20:40:46Z,2025-03-06T08:32:00+00:00,3,203.85,True,2,2,2,1046,2,0,2,MERGED
+30667,Test addon: Fix incorrect link to the migration docs,jonniebigodes,2025-02-25T19:35:05Z,2025-02-25T20:41:27+00:00,2,1.11,True,1,1,1,2712,1,0,1,MERGED
+30662,CLI: Install prereleases of `@chromatic-com/storybook`,JReinhold,2025-02-25T12:59:06Z,2025-02-26T14:17:20+00:00,3,25.3,True,144,1990,25,4225,2,0,2,MERGED
+30661,Upgrade image-size to 2.0,netroy,2025-02-25T12:30:31Z,2025-03-03T19:54:57+00:00,3,151.41,False,14,44,3,2468,2,0,2,CLOSED
+30659,Next.js: Use latest version when init in empty directory,valentinpalkovic,2025-02-25T12:18:19Z,2025-03-06T06:56:34+00:00,2,210.64,True,3,3,1,4131,1,0,1,MERGED
+30655,Docs: Add missing PRs to 8.6.0-beta.0 changelog entry,JReinhold,2025-02-25T10:58:36Z,2025-03-04T05:46:36+00:00,2,162.8,True,5,0,2,2670,1,0,1,MERGED
+30649,Codemod: Handle addon essentials differently in csf factories,yannbf,2025-02-24T16:55:12Z,2025-02-24T18:02:35+00:00,4,1.12,True,12,5,4,4294,1,2,3,MERGED
+30648,CSF: Add run and play function in csf factory,yannbf,2025-02-24T14:39:04Z,2025-06-10T11:56:23+00:00,2,2541.29,False,75,1,2,3510,2,0,2,CLOSED
+30647,Core: Fix addon essentials preview preset,yannbf,2025-02-24T11:33:20Z,2025-02-24T13:06:06+00:00,2,1.55,True,2,3,2,4047,1,1,2,MERGED
+30645,Release: Prerelease 8.6.0-beta.9,github-actions,2025-02-24T09:52:17Z,2025-02-25T06:46:42+00:00,1,20.91,True,184,39,16,2973,1,1,2,MERGED
+30644,Codemod: Only remove types when they are unused,yannbf,2025-02-24T09:39:49Z,2025-02-26T15:46:07+00:00,2,54.1,True,270,10,4,4380,1,3,4,MERGED
+30643,Core: Always place cache dir inside `node_modules`,ndelangen,2025-02-24T08:38:47Z,2025-02-24T11:53:19+00:00,3,3.24,True,14,2,3,4679,1,0,1,MERGED
+30642,Codemod: Use real path from symbolic links,yannbf,2025-02-24T07:48:10Z,2025-02-24T09:49:55+00:00,5,2.03,True,16,7,2,4469,1,1,2,MERGED
+30641,Codemod: Migrate meta.args to meta.input.args in csf factories,yannbf,2025-02-24T07:35:07Z,2025-02-24T09:48:43+00:00,3,2.23,True,107,19,2,4464,2,0,2,MERGED
+30640,Core: Fix extracting import path when it's not a core addon,yannbf,2025-02-24T07:18:33Z,2025-02-24T09:49:11+00:00,3,2.51,True,1,1,1,4186,1,1,2,MERGED
+30639,Exclude unnecessarily tracked coverage files,kpowkitty,2025-02-24T02:49:40Z,2025-04-02T13:08:04+00:00,3,898.31,False,67,45,2,2939,1,3,4,CLOSED
+30635,CLI: Prompt users for RN vs RNW on init,shilman,2025-02-23T05:03:14Z,2025-02-24T13:16:57+00:00,2,32.23,True,19,0,1,3206,1,0,1,MERGED
+30629,Release: Prerelease 8.6.0-beta.8,github-actions,2025-02-22T11:17:31Z,2025-02-24T05:28:46+00:00,1,42.19,True,69,48,5,2176,1,1,2,MERGED
+30625,Addon-Test: Fix console error in build mode,JReinhold,2025-02-21T19:16:22Z,2025-02-22T11:15:12+00:00,2,15.98,True,4,1,1,4203,2,0,2,MERGED
+30617,Release: Prerelease 8.6.0-beta.7,github-actions,2025-02-21T13:35:21Z,2025-02-21T15:34:41+00:00,1,1.99,True,43,25,5,2481,2,0,2,MERGED
+30613,Release: Patch 8.5.9,github-actions,2025-02-21T10:13:32Z,2025-02-26T15:21:20+00:00,1,125.13,False,7059,4527,220,3202,0,0,0,CLOSED
+30611,Angular: Support v19.2 when @angular/animations is not installed,valentinpalkovic,2025-02-21T08:57:03Z,2025-02-21T10:10:53+00:00,2,1.23,True,448,480,13,4621,2,4,6,MERGED
+30606,Manager: Add Content-Type to fix Cloud IDEs,GCHQDeveloper548,2025-02-20T16:22:12Z,2025-03-02T09:01:47+00:00,4,232.66,True,2,0,1,5536,5,0,5,MERGED
+30605,CLI: Fix printing of selected features,ghengeveld,2025-02-20T16:02:11Z,2025-02-21T11:58:20+00:00,2,19.94,True,8,9,1,4690,1,0,1,MERGED
+30601,"CSF Factories: Add parameters/globals types, `extend` API, portable stories",kasperpeulen,2025-02-20T14:13:12Z,2025-06-10T09:56:24+00:00,15,2635.72,True,778,489,74,4808,13,21,34,MERGED
+30600,CLI: Remove Storybook dependencies before adding re-adding them,valentinpalkovic,2025-02-20T13:26:48Z,2025-02-21T11:55:42+00:00,2,22.48,True,21,0,1,5034,3,1,4,MERGED
+30599,CLI: Don't initially select Documentation and Testing features,ghengeveld,2025-02-20T12:32:11Z,2025-02-20T14:07:00+00:00,2,1.58,True,0,1,1,4282,2,0,2,MERGED
+30598,Docs: Document `create storybook` and `--features` flag + cleanup,ghengeveld,2025-02-20T12:24:52Z,2025-02-20T15:51:13+00:00,2,3.44,True,279,195,23,4415,2,3,5,MERGED
+30589,Docs: CSF Factories fixes,kylegach,2025-02-19T21:24:25Z,2025-02-20T16:08:55+00:00,2,18.74,True,28,43,4,2032,1,2,3,MERGED
+30584,Addon-Test: Automatically load before all,kasperpeulen,2025-02-19T15:18:03Z,2025-05-12T11:32:45+00:00,7,1964.24,True,57,115,9,4055,2,2,4,MERGED
+30583,"Test addon: Only update `vitest.config.ts` with workspaces, otherwise create `vitest.workspace.ts`",ghengeveld,2025-02-19T12:39:34Z,2025-02-19T15:01:32+00:00,2,2.37,True,15,9,1,4870,1,0,1,MERGED
+30582,Addon-Test: Make sure that only one global portable story config is ever loaded,kasperpeulen,2025-02-19T11:50:17Z,2025-02-19T15:02:49+00:00,2,3.21,True,39,28,9,4180,1,4,5,MERGED
+30581,CLI: Make telemetry data an object,ndelangen,2025-02-19T11:42:45Z,2025-02-19T15:04:42+00:00,3,3.37,True,5,1,1,4025,1,1,2,MERGED
+30580,React: Export returntype of ReactMeta#story,mrginglymus,2025-02-19T11:01:02Z,2025-03-05T13:29:47+00:00,2,338.48,True,1,1,1,4252,2,0,2,MERGED
+30575,Release: Prerelease 8.6.0-beta.5,github-actions,2025-02-19T08:51:35Z,2025-02-21T10:35:53+00:00,1,49.74,True,1065,998,62,3307,2,0,2,MERGED
+30570,Release: Prerelease 8.6.0-beta.4,github-actions,2025-02-18T14:43:07Z,2025-02-18T22:15:59+00:00,1,7.55,True,85,15,12,2522,1,0,1,MERGED
+30567,Builder-Vite: Fix runtime and iframe 404 on first load,valentinpalkovic,2025-02-18T13:46:36Z,2025-02-19T14:35:24+00:00,3,24.81,True,11,36,5,4811,3,3,6,MERGED
+30566,Core: Fix undeclared internal dependencies,kasperpeulen,2025-02-18T13:38:01Z,2025-02-18T14:55:56+00:00,2,1.3,True,5,1,1,4044,1,0,1,MERGED
+30565,Core: Allow empty render functions in CSF factories,kasperpeulen,2025-02-18T12:20:50Z,2025-02-18T14:40:04+00:00,2,2.32,True,36,3,3,4034,1,3,4,MERGED
+30564,Release: Prerelease 8.6.0-beta.3,github-actions,2025-02-18T12:05:36Z,2025-02-18T14:05:55+00:00,1,2.01,True,35,27,8,2436,1,0,1,MERGED
+30562,Vite: Fix not stripping all HMR boundaries,JReinhold,2025-02-18T09:34:38Z,2025-02-18T12:06:57+00:00,2,2.54,True,24,24,3,6030,2,1,3,MERGED
+30561,Telemetry: Don't count example stories towards CSF feature stats,shilman,2025-02-18T02:37:36Z,2025-02-18T05:00:05+00:00,1,2.37,True,60,5,4,2684,2,0,2,MERGED
+30560,Docs: Fix incorrect context usage in Svelte example,Masstronaut,2025-02-17T22:11:48Z,2025-02-18T16:17:38+00:00,4,18.1,True,1,1,1,1961,1,0,1,MERGED
+30557,Essentials: Fix `addon-essentials` not working when used with `getAbsolutePath`,JReinhold,2025-02-17T13:09:49Z,2025-02-18T12:06:24+00:00,2,22.94,True,1,0,1,2818,1,0,1,MERGED
+30556,Release: Prerelease 8.6.0-beta.2,github-actions,2025-02-17T11:38:23Z,2025-02-18T11:47:46+00:00,1,24.16,True,125,33,11,2403,2,0,2,MERGED
+30550,Angular: Filter non-inputs from controls,robertIsaac,2025-02-15T17:39:30Z,2025-05-06T21:39:17+00:00,2,1924.0,True,40,10,5,694,4,2,6,MERGED
+30549,Release: Patch 8.5.7,github-actions,2025-02-14T16:48:53Z,2025-02-18T15:48:42+00:00,1,95.0,True,169,37,15,2923,1,0,1,MERGED
+30548,Docs: Fix `test` tags description,shilman,2025-02-14T14:47:58Z,2025-02-14T16:46:34+00:00,4,1.98,True,6,5,1,766,1,2,3,MERGED
+30546,Addon-docs: Add explicit type to default export,mrginglymus,2025-02-14T11:07:58Z,2025-02-18T14:57:06+00:00,1,99.82,False,2,1,1,4270,3,0,3,CLOSED
+30544,Release: Patch 8.5.6,github-actions,2025-02-14T09:27:42Z,2025-02-14T12:44:47+00:00,1,3.28,True,48,8,7,2177,2,1,3,MERGED
+30543,Release: Prerelease 8.6.0-beta.1,github-actions,2025-02-14T09:27:35Z,2025-02-17T08:46:10+00:00,1,71.31,True,828,304,28,2724,1,6,7,MERGED
+30542,React: Fix incorrect import in preview.ts,mrginglymus,2025-02-14T09:16:09Z,2025-02-14T13:46:34+00:00,3,4.51,True,1,1,1,4266,1,0,1,MERGED
+30538,Docs: Add documentation for `parameters.a11y.test`,kylegach,2025-02-13T23:07:19Z,2025-02-14T19:58:41+00:00,3,20.86,True,271,287,7,2053,1,6,7,MERGED
+30534,CLI: Reimplement features prompt logic to handle `--yes` and fix `--features`,ghengeveld,2025-02-13T15:51:15Z,2025-02-17T11:36:02+00:00,5,91.75,True,52,23,3,4856,2,1,3,MERGED
+30529,Build: Fix CSF sandboxes,kasperpeulen,2025-02-13T08:34:47Z,2025-02-13T10:31:24+00:00,1,1.94,True,21,4,4,4300,1,0,1,MERGED
+30528,CI: Increase sharding for unit-tests,valentinpalkovic,2025-02-13T08:09:05Z,2025-02-13T09:18:24+00:00,1,1.16,True,2,2,1,3648,1,0,1,MERGED
+30523,Builder-Vite: Fix defaulting to allowing all hosts,JReinhold,2025-02-12T14:59:44Z,2025-02-14T09:25:04+00:00,6,42.42,True,35,4,2,5706,3,3,6,MERGED
+30522,Builder-Vite: Fix Turbosnap,valentinpalkovic,2025-02-12T12:45:35Z,2025-02-12T14:31:21+00:00,2,1.76,True,6,6,3,4374,6,0,6,MERGED
+30516,Addon A11y: Introduce parameters.a11y.test,valentinpalkovic,2025-02-11T14:22:05Z,2025-02-12T15:34:56+00:00,3,25.21,True,188,281,12,5864,2,5,7,MERGED
+30515,Dependencies: Upgrades,ndelangen,2025-02-11T13:43:01Z,2025-02-26T15:06:09+00:00,4,361.39,True,5886,4998,21,4166,6,10,16,MERGED
+30513,Release: Patch 8.5.5,github-actions,2025-02-11T12:27:25Z,2025-02-12T15:52:06+00:00,1,27.41,True,34,29,8,2178,1,0,1,MERGED
+30512,Release: Prerelease beta 8.6.0-beta.0,github-actions,2025-02-11T09:12:33Z,2025-02-13T11:32:05+00:00,1,50.33,True,13409,3414,363,3407,2,0,2,MERGED
+30509,Docs: Snippet contributions and framework links fixes,jonniebigodes,2025-02-10T18:00:25Z,2025-02-11T16:55:10+00:00,1,22.91,True,21,21,2,907,1,0,1,MERGED
+30507,Addon Test: Fix printing Date object in MethodCall for test/interactions log,ghengeveld,2025-02-10T11:10:01Z,2025-02-11T09:09:40+00:00,2,21.99,True,8,6,4,4287,1,0,1,MERGED
+30491,Addon-Test: Fix config and watch mode inconsistencies,JReinhold,2025-02-06T20:55:47Z,2025-02-12T13:56:11+00:00,10,137.01,True,1896,1375,41,5612,2,21,23,MERGED
+30488,Core: Move CSF to monorepo,kasperpeulen,2025-02-06T12:48:44Z,2025-02-07T15:43:17+00:00,3,26.91,True,1357,82,71,4321,2,18,20,MERGED
+30487,Move CSF to monorepo,kasperpeulen,2025-02-06T11:10:26Z,2025-02-07T15:43:41+00:00,1,28.55,False,1340,79,10,2472,1,18,19,CLOSED
+30485,CI: Fix E2E tests for react-vite sandboxes,valentinpalkovic,2025-02-06T09:38:57Z,2025-02-06T14:56:21+00:00,2,5.29,True,1281,1982,9,3763,2,0,2,MERGED
+30483,CI: Disable test-runner for Svelte 4 sandboxes,JReinhold,2025-02-06T08:09:27Z,2025-02-06T09:34:20+00:00,1,1.41,True,5,5,2,4887,3,0,3,MERGED
+30479,Cleanup: Remove unused constants in viewport addon,Guria,2025-02-06T06:52:30Z,2025-02-12T15:35:38+00:00,4,152.72,True,0,5,1,3755,2,0,2,MERGED
+30469,Build: Fix sandbox generation in linked mode,valentinpalkovic,2025-02-05T11:19:30Z,2025-02-05T12:43:35+00:00,2,1.4,True,43,9,5,4464,1,1,2,MERGED
+30467,Core: Fix statically serving single files and multiple dirs on the same endpoint,JReinhold,2025-02-05T09:48:29Z,2025-02-05T12:45:12+00:00,3,2.95,True,43,3,1,6896,1,2,3,MERGED
+30466,Release: Prerelease 8.6.0-alpha.5,github-actions,2025-02-05T08:54:37Z,2025-02-10T15:37:50+00:00,1,126.72,True,5223,2105,112,3103,2,13,15,MERGED
+30463,Codemod: Add option to have relative path in csf factories codemod,yannbf,2025-02-04T15:33:05Z,2025-02-05T13:12:16+00:00,3,21.65,True,201,35,6,4805,2,4,6,MERGED
+30462,Build: Fix Angular sandbox generation in no-link mode,valentinpalkovic,2025-02-04T15:02:20Z,2025-02-05T10:20:40+00:00,2,19.31,True,3,3,3,4407,1,0,1,MERGED
+30459,Release: Patch 8.5.4,github-actions,2025-02-04T10:50:14Z,2025-02-11T11:55:17+00:00,1,169.08,True,5611,3608,55,3752,2,2,4,MERGED
+30457,Test: Implement prototype for test function,yannbf,2025-02-04T08:23:38Z,2025-05-26T12:55:33+00:00,1,2668.53,False,494,147,14,4479,2,1,3,CLOSED
+30447,UI: Support CSF factories when creating story files from UI,yannbf,2025-02-03T11:52:16Z,2025-02-04T09:34:58+00:00,2,21.71,True,125,31,5,4385,2,2,4,MERGED
+30445,Core: Add `UniversalStore` API to sync state/events between multiple environments,JReinhold,2025-02-03T10:11:34Z,2025-02-05T08:51:02+00:00,5,46.66,True,2438,4,19,9942,3,25,28,MERGED
+30443,Maintenance: Support storysort in csf factories,yannbf,2025-02-03T09:12:46Z,2025-02-03T11:49:37+00:00,1,2.61,True,63,19,9,4254,2,1,3,MERGED
+30442,Addon A11y: Make Vitest Axe optional,valentinpalkovic,2025-02-03T09:01:29Z,2025-02-04T10:46:44+00:00,4,25.75,True,10,7,2,4594,3,2,5,MERGED
+30441,Build: Include nested files in ESM compilation,edbzn,2025-02-02T22:28:12Z,2025-04-29T13:32:13+00:00,4,2055.07,True,1,1,1,4571,2,1,3,MERGED
+30439,Release: Prerelease 8.6.0-alpha.4,github-actions,2025-02-01T16:56:53Z,2025-02-05T08:32:47+00:00,1,87.6,True,860,3936,111,2949,2,4,6,MERGED
+30438,Vite: Fix add component UI invalidation,shilman,2025-02-01T12:12:17Z,2025-02-01T16:54:07+00:00,2,4.7,True,4,1,1,4255,1,0,1,MERGED
+30433,Build: Add flag to skip nx cache,yannbf,2025-01-31T16:29:11Z,2025-02-04T13:57:05+00:00,2,93.47,True,8,2,2,4380,1,1,2,MERGED
+30432,Builder-Vite: Fix allowedHosts handling for custom hosts,JSMike,2025-01-31T15:59:14Z,2025-02-05T06:38:21+00:00,8,110.65,True,11,5,2,5958,15,4,19,MERGED
+30426,Source: Support async parameters.docs.source.transform,valentinpalkovic,2025-01-30T16:04:41Z,2025-04-01T12:07:00+00:00,10,1460.04,True,670,515,29,4328,3,11,14,MERGED
+30422,React: Update react-docgen-typescript to fix CI hanging issues,yannbf,2025-01-30T08:13:33Z,2025-02-06T15:02:36+00:00,3,174.82,True,34,10,5,4832,2,1,3,MERGED
+30419,fix(react): Change Renderer from `createRoot.render` to `renderToReadableStream` & `hydrateRoot`,NEKOYASAN,2025-01-29T18:50:12Z,2025-03-14T16:29:43+00:00,2,1053.66,False,58,3,4,4902,27,3,30,CLOSED
+30417,"Types: Add type for addons, renderers and frameworks",yannbf,2025-01-29T16:02:50Z,2025-01-31T16:05:34+00:00,17,48.05,True,686,26,36,2456,2,17,19,MERGED
+30416,CSF: Add base factories,kasperpeulen,2025-01-29T15:56:25Z,2025-02-04T13:47:50+00:00,1,141.86,True,500,147,35,4677,3,13,16,MERGED
+30415,Preview: Add `globals` to `extract()`,ndelangen,2025-01-29T13:52:39Z,2025-01-29T16:07:09+00:00,3,2.24,True,42,1,3,4624,1,1,2,MERGED
+30412,Docs: Update Next.js Tailwind example link,yatishgoel,2025-01-29T12:42:13Z,2025-01-31T00:11:08+00:00,4,35.48,True,1,1,1,2288,0,0,0,MERGED
+30411,Copy header link,scriptcoded,2025-01-29T12:35:50Z,2025-09-01T07:37:20+00:00,6,5155.02,False,106,22,6,5154,9,10,19,CLOSED
+30408,Core: Fix invalid Websocket termination,valentinpalkovic,2025-01-29T08:54:30Z,2025-01-29T10:30:25+00:00,2,1.6,True,7,26,3,4501,1,1,2,MERGED
+30404,"Build: Replace last 'src', not 1st 'src' in entry file paths",boylec,2025-01-28T23:37:21Z,2025-07-23T10:05:09+00:00,8,4210.46,False,26,12,5,4677,5,5,10,CLOSED
+30401,Added missing periods for consistency and correctness,shaymolcho,2025-01-28T19:07:45Z,2025-09-24T15:22:40+00:00,4,5732.25,False,2,2,1,2549,2,1,3,CLOSED
+30398,Release: Patch 8.5.3,github-actions,2025-01-28T04:27:07Z,2025-02-01T17:28:34+00:00,1,109.02,True,301,75,25,2463,2,2,4,MERGED
+30395,CLI: Enhance csf factory codemod to migrate from csf2,yannbf,2025-01-27T15:54:45Z,2025-01-28T13:17:33+00:00,3,21.38,True,26,12,2,4251,2,4,6,MERGED
+30394,Release: Prerelease 8.6.0-alpha.3,github-actions,2025-01-27T14:08:31Z,2025-01-30T09:55:12+00:00,1,67.78,True,3536,1214,47,2836,2,0,2,MERGED
+30388,Preview API: Add csf factory utilities,yannbf,2025-01-27T11:10:33Z,2025-01-27T16:46:23+00:00,1,5.6,True,68,27,8,4468,2,5,7,MERGED
+30380,RNW-Vite: Document framework options,dannyhw,2025-01-24T22:40:29Z,2025-01-28T04:24:11+00:00,4,77.73,True,71,1,1,2500,4,2,6,MERGED
+30376,Add default export as function annotation from core addons,yannbf,2025-01-24T16:02:34Z,2025-01-28T15:58:36+00:00,4,95.93,True,420,234,58,4972,3,12,15,MERGED
+30375,Update storybook-interactions-play-function.md,kirjs,2025-01-24T14:49:40Z,2025-04-21T19:30:04+00:00,1,2092.67,False,2,2,1,943,1,2,3,CLOSED
+30374,Release: Patch 8.5.2,github-actions,2025-01-24T13:58:59Z,2025-01-27T10:24:20+00:00,1,68.42,True,397,345,18,3465,1,0,1,MERGED
+30372,Build: Added additional react resolutions for next 15 or above sandboxes.,zhyd1997,2025-01-24T12:52:07Z,2025-01-29T16:39:23+00:00,1,123.79,True,10,0,1,4223,1,1,2,MERGED
+30371,React: Fix missing peer dependency,valentinpalkovic,2025-01-24T10:58:05Z,2025-03-17T19:49:01+00:00,4,1256.85,False,20,54,13,4335,5,0,5,CLOSED
+30369,Svelte: Fix conflicting variable names and support for `+page.svelte` files,xeho91,2025-01-24T05:31:29Z,2025-02-11T19:41:52+00:00,1,446.17,True,31,29,1,5266,5,5,10,MERGED
+30365,Docs: Play function updates to the canvas example,kirjs,2025-01-23T20:58:34Z,2025-01-29T20:46:33+00:00,4,143.8,True,12,12,1,2359,0,0,0,MERGED
+30362,Codemod: Add Story.xyz to Story.input.xyz migration,yannbf,2025-01-23T16:10:05Z,2025-01-23T17:37:47+00:00,7,1.46,True,144,16,2,4802,1,2,3,MERGED
+30361,Maintenance: Many refactorings,yannbf,2025-01-23T14:44:54Z,2025-01-23T15:57:02+00:00,2,1.2,True,312,200,92,3012,2,17,19,MERGED
+30360,Build: Update CircleCI configuration to remove build-sandboxes job,valentinpalkovic,2025-01-23T14:38:16Z,2025-01-29T14:22:04+00:00,2,143.73,True,3027,1045,20,4951,2,5,7,MERGED
+30358,Build: Fix test command in CircleCI config to use multiple reporters,valentinpalkovic,2025-01-23T11:32:00Z,2025-01-23T15:56:25+00:00,2,4.41,True,1,1,1,4055,1,0,1,MERGED
+30354,Build: Upgrade `typescript`,ndelangen,2025-01-23T08:31:53Z,2025-01-30T20:02:25+00:00,4,179.51,True,488,3862,85,4324,2,18,20,MERGED
+30352,Csf: Support named exports as functions,yannbf,2025-01-23T08:23:46Z,2025-01-23T11:31:06+00:00,1,3.12,True,90,40,5,5238,1,4,5,MERGED
+30344,Release: Prerelease 8.6.0-alpha.2,github-actions,2025-01-22T14:54:26Z,2025-01-24T01:33:45+00:00,1,34.66,True,550,472,36,2589,1,0,1,MERGED
+30343,Docs: Add CSF factory API documentation,yannbf,2025-01-22T14:35:49Z,2025-02-13T13:13:50+00:00,39,526.63,True,418,3,8,2320,2,40,42,MERGED
+30334,Release: Patch 8.5.1,github-actions,2025-01-22T04:28:28Z,2025-01-23T04:22:32+00:00,1,23.9,True,206,157,47,3004,2,2,4,MERGED
+30330,CLI: Sync addons between main and preview.js in storybook dev,yannbf,2025-01-21T13:46:00Z,2025-01-22T10:43:35+00:00,2,20.96,True,262,110,19,4852,1,11,12,MERGED
+30313,create-storybook: Add telemetry to new CLI,ghengeveld,2025-01-20T16:25:49Z,2025-01-21T10:57:13+00:00,3,18.52,True,36,1,4,2552,1,6,7,MERGED
+30312,CLI: Add codemod for config factory and add command,yannbf,2025-01-20T12:10:51Z,2025-01-20T13:21:52+00:00,1,1.18,True,838,241,18,2916,1,13,14,MERGED
+30310,Tests: Disable flaky test-runner tests,JReinhold,2025-01-20T10:18:03Z,2025-01-21T09:42:32+00:00,2,23.41,True,10,3,5,5421,2,0,2,MERGED
+30309,Addon Test: Support Vitest 3 browser.test.instances field,valentinpalkovic,2025-01-20T09:23:07Z,2025-01-22T14:51:26+00:00,3,53.47,True,381,335,12,4908,2,3,5,MERGED
+30305,RNW-Vite: Support requires for images/fonts,dannyhw,2025-01-18T14:34:06Z,2025-01-22T04:22:57+00:00,2,85.81,True,27,0,3,4562,3,1,4,MERGED
+30304,CLI: Corrected Next.js createScript for pnpm.,zhyd1997,2025-01-18T13:47:09Z,2025-01-23T11:36:11+00:00,6,117.82,True,1,1,1,4109,2,0,2,MERGED
+30300,fix: process.env.NODE_ENV error in bundling,yhyuan,2025-01-18T04:17:10Z,2025-06-16T11:18:22+00:00,2,3583.02,False,4,0,1,4807,1,0,1,CLOSED
+30292,WIP: Codemods and refactorings,yannbf,2025-01-17T12:59:31Z,2025-01-21T11:30:21+00:00,2,94.51,True,1785,581,79,4244,2,29,31,MERGED
+30288,Core: Add connection timeout notification,valentinpalkovic,2025-01-17T09:04:10Z,2025-01-17T14:07:36+00:00,1,5.06,True,133,34,10,3836,1,0,1,MERGED
+30287,Update text color as well as background color on hovering a leaf,msmx-mnakagawa,2025-01-17T08:40:09Z,2025-09-19T20:05:42+00:00,1,5891.43,False,1,0,1,4047,2,0,2,CLOSED
+30285,Build: Fix task error message when no key is specified,yannbf,2025-01-16T14:34:54Z,2025-01-17T10:32:52+00:00,2,19.97,True,5,3,1,2348,1,0,1,MERGED
+30283,Build: Fix eslint plugin checks for storybook cli packages,yannbf,2025-01-16T14:07:14Z,2025-01-17T10:33:20+00:00,4,20.43,True,3,3,1,2572,1,2,3,MERGED
+30282,Move csf factory codemod to automigrations,yannbf,2025-01-16T14:05:09Z,2025-01-17T12:56:46+00:00,4,22.86,True,579,308,12,4964,2,12,14,MERGED
+30271,Docs: Add Preact-vite framework docs,shilman,2025-01-16T03:30:00Z,2025-02-01T11:25:35+00:00,1,391.93,True,162,56,15,499,2,4,6,MERGED
+30269,Docs: Add CSF factory (experimental) snippets,kylegach,2025-01-15T20:41:53Z,2025-09-26T15:20:13+00:00,4,6090.64,False,18084,2392,339,1435,2,2,4,CLOSED
+30266,Codemod: Use csf-tools in csf factory codemod,yannbf,2025-01-15T12:59:51Z,2025-01-16T09:04:23+00:00,2,20.08,True,212,179,3,4107,2,1,3,MERGED
+30263,Release: Minor 8.5.0,github-actions,2025-01-14T14:03:04Z,2025-01-15T12:28:02+00:00,1,22.42,False,141,2,3,2878,2,0,2,CLOSED
+30257,Addon A11y: Don't set a11y tag as comment in automigrations,valentinpalkovic,2025-01-14T12:02:02Z,2025-01-15T11:47:50+00:00,3,23.76,True,9,695,5,4266,1,1,2,MERGED
+30252,Release: Prerelease beta 8.5.0-beta.10,github-actions,2025-01-13T09:47:55Z,2025-01-13T14:47:11+00:00,1,4.99,True,4054,2427,33,2608,2,4,6,MERGED
+30250,Core: Add defineConfig helper for main.js,yannbf,2025-01-13T07:45:04Z,2025-01-17T13:22:26+00:00,1,101.62,True,302,13,40,4066,2,13,15,MERGED
+30248,Addon Docs: Make new code panel opt in,shilman,2025-01-12T14:31:32Z,2025-01-13T09:22:00+00:00,2,18.84,True,11,17,3,3039,2,1,3,MERGED
+30233,Addon Test: Fix generated path to `vitest.setup.js` ,JReinhold,2025-01-10T13:23:35Z,2025-01-13T08:59:05+00:00,2,67.59,True,3,1,1,4237,1,1,2,MERGED
+30232,Benchmark: Fix script breaking when base branch has slashes,JReinhold,2025-01-10T12:56:51Z,2025-01-10T14:35:45+00:00,2,1.65,True,0,18,3,4280,1,0,1,MERGED
+30217,Build: Fix infinite reloading of internal storybook,yannbf,2025-01-08T13:50:25Z,2025-01-09T07:28:08+00:00,2,17.63,True,6,0,1,4280,1,1,2,MERGED
+30216,Addon Test: Improve support for mono-repos,valentinpalkovic,2025-01-08T13:04:45Z,2025-01-09T08:57:29+00:00,2,19.88,True,71,8,5,4639,1,2,3,MERGED
+30214,Release: Prerelease 8.5.0-beta.9,github-actions,2025-01-08T10:20:30Z,2025-01-13T09:35:22+00:00,1,119.25,True,344,352,24,2541,2,0,2,MERGED
+30213,Scripts: Only output esm for nodeEntries on request,valentinpalkovic,2025-01-08T10:05:09Z,2025-01-10T13:25:11+00:00,3,51.33,True,123,48,4,4182,2,3,5,MERGED
+30206,Vite: Fix wrong import paths when configDir is not in project root,JReinhold,2025-01-07T12:51:21Z,2025-01-07T14:27:19+00:00,4,1.6,True,13,13,4,5057,1,2,3,MERGED
+30204,Csf Tools: Allow ConfigFile to create more import syntaxes,yannbf,2025-01-07T11:05:58Z,2025-01-17T12:37:41+00:00,2,241.53,True,78,24,2,4295,1,1,2,MERGED
+30202,"CLI: Add ""features"" question & auto-install test addon & improve test-addon compatibility",ndelangen,2025-01-07T10:04:28Z,2025-02-11T12:24:27+00:00,17,842.33,True,2217,570,92,5926,2,41,43,MERGED
+30198,Docs: Rename `a11ytest` tag to `a11y-test`,kylegach,2025-01-06T14:25:08Z,2025-01-07T13:42:55+00:00,2,23.3,True,77,77,3,2083,1,0,1,MERGED
+30197,CSF: Add support for CSF factories,kasperpeulen,2025-01-06T13:50:07Z,2025-02-12T14:24:58+00:00,2,888.58,True,7708,1076,217,8744,4,113,117,MERGED
+30194,CLI: Add CSF3 to CSF4 migration,yannbf,2025-01-06T12:05:02Z,2025-01-10T13:17:30+00:00,1,97.21,True,451,8,9,4497,1,2,3,MERGED
+30193,Addon Test: Add prerequisite check for MSW,yannbf,2025-01-06T11:58:41Z,2025-01-08T05:49:38+00:00,3,41.85,True,23,10,2,4325,1,2,3,MERGED
+30192,Manager: Optimize getPanels function with memoization,valentinpalkovic,2025-01-06T11:37:18Z,2025-01-07T10:23:12+00:00,2,22.77,True,2,2,1,4229,1,0,1,MERGED
+30191,React: Force act running always in sequence,valentinpalkovic,2025-01-06T11:17:00Z,2025-01-07T14:39:57+00:00,5,27.38,True,32,5,2,4302,1,4,5,MERGED
+30190,Automigrations: Skip vite config file migration for react native web,dannyhw,2025-01-05T14:42:32Z,2025-01-06T14:47:42+00:00,2,24.09,True,54,0,2,3705,1,0,1,MERGED
+30188,RNW-Vite: Fix reanimated support with babel plugin for node_modules,dannyhw,2025-01-04T20:18:25Z,2025-01-07T16:23:30+00:00,5,68.08,True,169,3,4,4612,2,3,5,MERGED
+30182,Build: Upgrade scripts dependencies,ndelangen,2025-01-03T12:41:32Z,2025-01-13T10:00:52+00:00,2,237.32,True,2711,2212,2,4049,1,0,1,MERGED
+30181,Addon Test: Add Vitest 3 support,valentinpalkovic,2025-01-03T10:59:56Z,2025-01-15T12:21:40+00:00,5,289.36,True,4588,2832,37,4149,6,4,10,MERGED
+30179,Addon-Docs: Consider custom code snippet in story code panel and update styles,larsrickert,2025-01-03T08:01:19Z,2025-02-12T14:51:18+00:00,8,966.83,True,64,33,4,5085,2,6,8,MERGED
+30168,Maintenance: Merge `@storybook/core` with `storybook`,ndelangen,2025-01-02T13:46:23Z,2025-02-26T19:10:23+00:00,2,1325.4,True,5829,6984,680,4779,3,10,13,MERGED
+30164,Types: Fix typing issues in addon-test,ndelangen,2025-01-02T10:56:26Z,2025-02-12T15:57:39+00:00,4,989.02,False,11,5,3,4653,2,1,3,CLOSED
+30163,Maintenance: Move `@types/node` to `devDeps` consistently,ndelangen,2025-01-02T09:26:37Z,2025-01-03T09:50:54+00:00,2,24.4,True,142,483,18,4523,2,1,3,MERGED
+30162,Addon A11y: Adjust default behaviour when using with experimental-addon-test,valentinpalkovic,2025-01-02T08:56:52Z,2025-01-13T09:32:32+00:00,10,264.59,True,1268,158,18,5148,3,15,18,MERGED
+30160,Bun: Add support for text lock file,Arctomachine,2024-12-31T03:38:15Z,2025-01-23T14:59:13+00:00,4,563.35,True,7,2,1,4476,2,0,2,MERGED
+30156,Release: Prerelease 8.5.0-beta.8,github-actions,2024-12-30T09:42:05Z,2025-01-08T10:07:34+00:00,1,216.42,True,814,671,50,3337,0,3,3,MERGED
+30153,Docs: A11y minor fixes,jonniebigodes,2024-12-28T20:52:29Z,2024-12-30T09:23:11+00:00,2,36.51,True,156,14,5,1194,1,0,1,MERGED
+30151,Load presets using jiti,tobiasdiez,2024-12-28T11:01:00Z,2025-04-10T13:10:50+00:00,1,2474.16,False,20,16,4,2122,6,1,7,CLOSED
+30148,Build: Enhance windows support,mrginglymus,2024-12-27T11:22:25Z,2025-01-16T09:50:09+00:00,3,478.46,True,4,4,2,4256,1,1,2,MERGED
+30145,Release: Prerelease 8.5.0-beta.7,github-actions,2024-12-27T08:25:40Z,2024-12-27T15:41:59+00:00,1,7.27,True,370,296,23,2376,2,4,6,MERGED
+30137,Manager: Escape single quotes in dynamic import paths in wrapManagerEntries function,valentinpalkovic,2024-12-24T11:52:33Z,2024-12-24T13:54:47+00:00,2,2.04,True,2,1,1,4356,1,0,1,MERGED
+30135,Addon Test: Use correct vitest config file path,kasperpeulen,2024-12-24T10:34:36Z,2024-12-24T14:54:47+00:00,2,4.34,True,1,1,1,4684,1,0,1,MERGED
+30134,Addon Test: Always use installed version of vitest,kasperpeulen,2024-12-24T10:15:20Z,2024-12-24T14:54:03+00:00,2,4.65,True,1,2,1,4643,1,0,1,MERGED
+30132,UI: Fix overlapping shadow of testing module on scrollbar,valentinpalkovic,2024-12-24T09:57:11Z,2024-12-30T09:39:16+00:00,1,143.7,True,3,1,1,4229,1,0,1,MERGED
+30130,"Addon-Docs: Change URL hash when TOC item is clicked, and fix TOC loading bugs",Sidnioulz,2024-12-23T23:51:01Z,2025-02-12T10:17:19+00:00,4,1210.44,True,1274,74,10,6446,11,5,16,MERGED
+30129,Release: Prerelease 8.5.0-beta.6,github-actions,2024-12-23T14:41:13Z,2024-12-25T13:57:40+00:00,1,47.27,True,172,97,27,2614,1,0,1,MERGED
+30124,Release: Prerelease 8.5.0-beta.5,github-actions,2024-12-22T09:20:21Z,2024-12-23T13:43:10+00:00,1,28.38,True,370,169,30,2739,2,4,6,MERGED
+30122,Fix modal fading issue,madalynbartman,2024-12-21T03:54:12Z,2025-06-24T06:58:23+00:00,2,4443.07,False,5,2,1,3120,2,1,3,CLOSED
+30121,Addon Test: Only reset story count on file change when watch mode is enabled,ghengeveld,2024-12-20T22:32:47Z,2024-12-23T11:12:15+00:00,2,60.66,True,2,1,1,4260,1,1,2,MERGED
+30120,Build: Revert Downgrade to esbuild 0.24.0,yannbf,2024-12-20T19:46:41Z,2024-12-23T08:26:16+00:00,1,60.66,True,9,9,5,579,1,2,3,MERGED
+30117,Vite: Add extra entries to `optimizeDeps`,ndelangen,2024-12-20T11:59:55Z,2024-12-23T11:05:06+00:00,2,71.09,True,47,0,1,5321,1,1,2,MERGED
+30114,Angular: Fix accent character issue,msmx-mnakagawa,2024-12-20T02:04:28Z,2024-12-24T14:13:04+00:00,5,108.14,True,24,1,1,4326,1,3,4,MERGED
+30111,Addon Themes: Deprecate useThemeParameters,yannbf,2024-12-19T14:03:29Z,2024-12-20T10:59:54+00:00,3,20.94,True,31,11,5,4193,1,2,3,MERGED
+30110,AddonTest: Improve error reporting,ndelangen,2024-12-19T12:58:44Z,2024-12-29T11:59:49+00:00,3,239.02,False,36,19,1,4626,1,2,3,CLOSED
+30109,Release: Prerelease 8.5.0-beta.4,github-actions,2024-12-19T10:00:31Z,2024-12-20T16:00:52+00:00,1,30.01,True,248,99,35,2506,1,0,1,MERGED
+30107,Addon Test: Context menu updates,ghengeveld,2024-12-19T08:56:36Z,2024-12-27T08:22:47+00:00,3,191.44,True,267,269,12,4639,2,0,2,MERGED
+30105,Vitest: Add plugins from `viteFinal`,JReinhold,2024-12-18T21:41:29Z,2025-01-13T08:28:54+00:00,15,610.79,True,117,271,12,6212,2,9,11,MERGED
+30103,Docs: Fixes found during 8.5 QA,kylegach,2024-12-18T18:26:22Z,2024-12-30T09:28:26+00:00,6,279.03,True,148,70,8,2144,2,4,6,MERGED
+30102,fix: `@storybook/react` types is incompatible with `@types/react@19`,devjiwonchoi,2024-12-18T18:06:12Z,2024-12-19T15:58:01+00:00,2,21.86,False,1,1,1,2478,1,0,1,CLOSED
+30100,Addon Onboarding: Use @neoconfetti/react as alternative,yannbf,2024-12-18T11:20:03Z,2024-12-18T15:09:32+00:00,1,3.82,True,21,36,3,4112,1,2,3,MERGED
+30099,Release: Prerelease 8.5.0-beta.3,github-actions,2024-12-18T10:35:36Z,2024-12-19T09:21:09+00:00,1,22.76,True,252,271,24,2522,2,0,2,MERGED
+30098,Onboarding: Replace `react-confetti` with `@neoconfetti/react`,ndelangen,2024-12-18T09:05:29Z,2024-12-19T07:40:51+00:00,2,22.59,True,118,230,10,4675,3,1,4,MERGED
+30097,Release: Prerelease 8.5.0-beta.2,github-actions,2024-12-18T08:09:27Z,2024-12-19T04:44:01+00:00,1,20.58,False,12,3,4,3733,0,0,0,CLOSED
+30093,Core: Fix `ERR_PACKAGE_PATH_NOT_EXPORTED` in `@storybook/node-logger` ,JReinhold,2024-12-17T23:30:37Z,2024-12-22T15:41:20+00:00,2,112.18,True,1,1,1,6087,2,0,2,MERGED
+30088,Addon Test: Improve error message on missing coverage package,JReinhold,2024-12-17T13:15:01Z,2024-12-17T20:33:38+00:00,6,7.31,True,11,12,2,4348,1,2,3,MERGED
+30086,"UI: Keep failing stories in the sidebar, disregarding filters",JReinhold,2024-12-17T10:36:08Z,2024-12-17T12:34:36+00:00,3,1.97,True,66,1,2,4112,2,2,4,MERGED
+30085,Release: Prerelease 8.5.0-beta.2,github-actions,2024-12-17T10:31:14Z,2024-12-18T08:02:49+00:00,1,21.53,True,864,347,23,2640,1,0,1,MERGED
+30084,Version patch from 7.6.20,EgorBochkarev,2024-12-17T10:06:52Z,2025-01-13T14:04:38+00:00,4,651.96,False,18,1,2,2937,1,2,3,CLOSED
+30081,Core: Prevent infinite rerendering caused by comparison by reference,ghengeveld,2024-12-16T21:26:57Z,2024-12-19T09:56:55+00:00,2,60.5,True,3,10,1,4601,1,1,2,MERGED
+30080,Core: Float context menu button on top of story titles in sidebar,ghengeveld,2024-12-16T20:21:09Z,2024-12-18T11:28:49+00:00,2,39.13,True,47,11,3,4599,3,2,5,MERGED
+30079,Release: Prerelease 8.5.0-beta.1,github-actions,2024-12-16T14:53:39Z,2024-12-16T16:59:11+00:00,1,2.09,True,356,164,29,2714,2,13,15,MERGED
+30078,Release: Prerelease 8.5.0-alpha.23,github-actions,2024-12-16T14:47:08Z,2024-12-16T16:17:13+00:00,1,1.5,False,356,163,29,4464,0,9,9,CLOSED
+30077,Addon A11y: Fix skipped status handling in Testing Module,valentinpalkovic,2024-12-16T14:08:13Z,2024-12-18T10:32:30+00:00,2,44.4,True,76,27,7,4873,1,3,4,MERGED
+30076,Build: Investigate Storybook test-runner flake,yannbf,2024-12-16T13:11:33Z,2025-02-04T09:19:21+00:00,1,1196.13,False,1,1,1,4198,1,0,1,CLOSED
+30073,Addon A11y: Add conditional rendering for a11y violation number in Testing Module,valentinpalkovic,2024-12-16T11:52:59Z,2024-12-16T14:10:53+00:00,2,2.3,True,4,2,1,4219,1,1,2,MERGED
+30072,Addon Test: Clear coverage data when starting or watching,ghengeveld,2024-12-16T10:45:21Z,2024-12-17T19:57:47+00:00,4,33.21,True,64,53,1,4404,1,14,15,MERGED
+30071,CLI: Add index command / API,shilman,2024-12-16T03:27:30Z,2025-03-04T01:17:19+00:00,7,1869.83,True,224,24,12,4303,3,13,16,MERGED
+30070,"Telemetry: Add metadata distinguishing ""apps"" from ""design systems""",tmeasday,2024-12-15T11:30:46Z,2024-12-16T14:16:32+00:00,19,26.76,True,307,36,16,4748,2,26,28,MERGED
+30069,Build: Fix broken Windows Unit Test CI run,valentinpalkovic,2024-12-15T11:01:36Z,2024-12-16T09:13:19+00:00,2,22.2,True,117,97,4,2516,1,0,1,MERGED
+30068,Next.js: Support v15.1.1,valentinpalkovic,2024-12-15T10:19:08Z,2024-12-16T09:18:21+00:00,1,22.99,True,37,3,2,4050,1,0,1,MERGED
+30063,Release: Prerelease beta 8.5.0-beta.0,github-actions,2024-12-13T16:18:22Z,2024-12-16T14:40:30+00:00,1,70.37,True,294,120,15,2713,2,1,3,MERGED
+30062,Addon Test: Clear `coverageSummary` when disabling the coverage feature,ghengeveld,2024-12-13T15:40:48Z,2024-12-16T10:45:57+00:00,3,67.09,False,63,53,1,4242,3,2,5,CLOSED
+30061,Addon Test: Fix printing null% for coverage,ghengeveld,2024-12-13T15:20:09Z,2024-12-16T14:59:53+00:00,3,71.66,True,1,1,1,4089,2,1,3,MERGED
+30060,Automigration: Improve setup file transformation and version range handling for a11y migration,valentinpalkovic,2024-12-13T14:00:34Z,2024-12-15T09:17:59+00:00,2,43.29,True,46,10,2,3620,1,4,5,MERGED
+30059,Docs: Update addon-test coverage exclude details,kylegach,2024-12-13T13:50:03Z,2024-12-13T16:10:42+00:00,3,2.34,True,5,3,1,1739,1,1,2,MERGED
+30057,Build: Improve waiting detection on E2E to fix flake,yannbf,2024-12-13T12:12:58Z,2024-12-15T09:16:01+00:00,2,45.05,True,61,3,2,4098,2,0,2,MERGED
+30056,Build: Add text suggestions for incorrect task names,yannbf,2024-12-13T11:21:36Z,2024-12-15T09:49:11+00:00,2,46.46,True,14,0,1,4226,1,2,3,MERGED
+30055,Vitest: Fix wrongfully adding conditions to projects below Vite 6,JReinhold,2024-12-13T10:30:55Z,2024-12-18T08:19:53+00:00,7,117.82,False,10,5,3,4898,2,2,4,CLOSED

@@ -1,4 +1,6 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+269967,Remove as any from hover,Tyriar,2025-10-06T01:35:44Z,2025-10-06T05:20:38+00:00,2,3.75,True,13,4,2,15,0,1,1,MERGED
+269966,Remove as any from terminal-suggest,Tyriar,2025-10-06T01:23:51Z,2025-10-06T05:20:19+00:00,2,3.94,True,10,20,9,15,0,0,0,MERGED
 269874,Adopt strict no explicit any,alexdima,2025-10-04T21:24:06Z,2025-10-05T05:59:37+00:00,2,8.59,True,720,580,98,0,0,0,0,MERGED
 269845,Fix issue #260239,alexdima,2025-10-04T15:21:59Z,2025-10-04T18:04:46+00:00,2,2.71,True,2810,2216,112,0,0,0,0,MERGED
 269782,fix: set dns result order to ipv4first for cli connections,deepak1556,2025-10-03T21:35:05Z,2025-10-04T05:18:50+00:00,3,7.73,True,5,0,1,13,0,1,1,MERGED
@@ -149,3 +151,851 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 267925,ci: fix custom registry replace logic,deepak1556,2025-09-23T09:12:13Z,2025-09-23T21:53:15+00:00,2,12.68,True,1,1,1,0,0,0,0,MERGED
 267898,fixed overlapping disclaimer text,eli-w-king,2025-09-23T04:50:48Z,2025-09-24T01:35:58+00:00,2,20.75,False,8,0,1,62,0,2,2,CLOSED
 267856,Refactor welcome view rendering to use a scheduler for debouncing and prevent reentrant calls,bhavyaus,2025-09-22T21:40:33Z,2025-09-23T09:04:45+00:00,3,11.4,True,28,11,1,14,1,2,3,MERGED
+267851,revert compilation change,meganrogge,2025-09-22T20:45:43Z,2025-09-22T21:53:44+00:00,2,1.13,True,13,35,4,0,0,1,1,MERGED
+267832,"If no persisted model selection, resolve model to default",lramos15,2025-09-22T19:42:18Z,2025-09-22T23:53:50+00:00,2,4.19,True,3,1,1,84,0,1,1,MERGED
+267827,"make chat footer, model info accessible",meganrogge,2025-09-22T19:16:44Z,2025-09-22T22:03:53+00:00,2,2.79,True,2,0,1,54,0,1,1,MERGED
+267825,Fix chat welcome history tooltip positioning to prevent overlap with other UI elements,copilot-swe-agent,2025-09-22T19:09:17Z,2025-09-24T01:36:28+00:00,1,30.45,False,60,3,2,2331,0,2,2,CLOSED
+267818,fix: adds aria-description to provide screen reader context for tooltip,essjay05,2025-09-22T18:28:48Z,2025-09-22T19:36:54+00:00,3,1.14,True,1,0,1,719,1,0,1,MERGED
+267785,reduce memory by ~1.2 MB,SimonSiefke,2025-09-22T14:36:28Z,2025-09-25T05:55:18+00:00,6,63.31,True,24,13,2,790,7,1,8,MERGED
+267738,thinking item header changes when finished/multiple thinking,justschen,2025-09-22T05:01:50Z,2025-09-22T06:55:07+00:00,3,1.89,True,46,9,3,0,2,4,6,MERGED
+267724,Fix: Disable window shadows on macOS Tahoe to prevent GPU performance issues,avarayr,2025-09-22T00:49:21Z,2025-09-24T17:27:16+00:00,4,64.63,True,14,1,2,806,6,2,8,MERGED
+267628,Fix RangeFormat wrong document race condition,RedCMD,2025-09-20T21:05:33Z,2025-09-23T05:04:26+00:00,2,55.98,True,4,0,1,99,0,0,0,MERGED
+267583,test(base): add unit tests for Event.fromObservable and fromObservabl…,SaaiAravindhRaja,2025-09-20T11:12:17Z,2025-09-25T07:32:09+00:00,2,116.33,False,94,0,1,722,3,6,9,CLOSED
+267557,feat: split editor group direction according to workbench.editor.splitInGroupLayout configuration when clicking walkthrough ':toSide' commands ,harbin1053020115,2025-09-20T02:19:32Z,2025-10-01T09:54:05+00:00,4,271.58,True,3,7,1,41,0,1,1,MERGED
+267546,Do not allow localhost redirect in favor of loopback IP redirect,narbit,2025-09-19T23:12:41Z,2025-09-23T00:13:15+00:00,3,73.01,True,0,4,2,13,2,0,2,MERGED
+267540,Add explain action to `DiffHunkWidget`,zhichli,2025-09-19T22:19:34Z,2025-09-25T03:52:00+00:00,2,125.54,False,52,1,1,43,1,5,6,CLOSED
+267526,Implements code-no-observable-get-in-reactive-context,hediet,2025-09-19T18:59:11Z,2025-09-20T18:29:58+00:00,4,23.51,True,399,51,23,0,1,3,4,MERGED
+267519,"Add some learning prompts and ""send to edit session"" for inline chat",connor4312,2025-09-19T18:22:08Z,2025-09-19T21:26:52+00:00,2,3.08,True,486,41,22,256,0,4,4,MERGED
+267517,Disable double-click to reveal source for .copilotmd files in markdown preview,copilot-swe-agent,2025-09-19T18:20:20Z,2025-10-03T08:28:00+00:00,6,326.13,True,5,0,1,2093,2,1,3,MERGED
+267515,chat - tweak sign in dialog for anonymous usage,bpasero,2025-09-19T18:15:05Z,2025-09-20T18:45:49+00:00,2,24.51,True,21,4,3,0,0,1,1,MERGED
+267439,Fix bad terminal sticky scroll after `clear` ,anthonykim1,2025-09-19T03:47:36Z,2025-09-28T05:34:39+00:00,11,217.78,True,7,3,1,144,2,3,5,MERGED
+267438,fix: confirmation btn style,witsaint,2025-09-19T03:35:52Z,2025-09-26T14:27:32+00:00,4,178.86,True,1,0,1,658,4,1,5,MERGED
+267311,Restore PSReadline key remapping in PowerShell shell integration,mawosoft,2025-09-18T03:35:49Z,2025-09-22T21:29:16+00:00,2,113.89,True,4,0,1,115,1,0,1,MERGED
+267303,add ChatRequest.modeInstructions2 with mode metadata to try out things,aeschli,2025-09-18T00:56:15Z,2025-09-18T04:25:37+00:00,2,3.49,True,141,99,14,0,0,3,3,MERGED
+267278,Update github action for instruction update.,rebornix,2025-09-17T21:57:40Z,2025-09-19T17:59:53+00:00,3,44.04,False,402,0,7,0,3,3,6,CLOSED
+267272,thinking part OSWE fixes,justschen,2025-09-17T21:33:42Z,2025-09-19T18:39:46+00:00,4,45.1,True,12,2,2,0,1,3,4,MERGED
+267267,Add tree instruction file,benibenj,2025-09-17T20:30:01Z,2025-09-22T08:20:14+00:00,1,107.84,False,667,0,1,0,0,3,3,CLOSED
+267255,chore: update build for electron@37.3.1 (release/1.104),deepak1556,2025-09-17T18:05:44Z,2025-09-17T21:29:19+00:00,1,3.39,True,2,2,2,79,0,0,0,MERGED
+267254,chore: update build for electron@37.3.1,deepak1556,2025-09-17T17:56:29Z,2025-09-17T21:24:08+00:00,2,3.46,True,3,3,2,77,0,0,0,MERGED
+267223,welcome - fix bad `matches` implementation,bpasero,2025-09-17T14:45:11Z,2025-09-17T15:51:23+00:00,2,1.1,True,1,4,1,659,0,0,0,MERGED
+267218,Chat status: Progress for chat sessions seems not perfectly aligned to text (fix #266354),bpasero,2025-09-17T14:37:35Z,2025-09-17T15:51:11+00:00,2,1.23,True,17,20,2,0,0,2,2,MERGED
+267167,Removed 'add context...' from chat input button label,eli-w-king,2025-09-17T07:33:34Z,2025-09-24T23:39:43+00:00,5,184.1,True,25,10,2,53,1,5,6,MERGED
+267156,Editor - add floating menu overlay widget,lszomoru,2025-09-17T05:13:17Z,2025-09-17T12:04:45+00:00,2,6.86,True,118,5,7,0,0,2,2,MERGED
+267117,Define GitHub Copilot coding agent environment,alexdima,2025-09-16T21:53:51Z,2025-09-16T23:35:53+00:00,2,1.7,True,260,0,1,0,0,2,2,MERGED
+267113,Add chat enhance action,lramos15,2025-09-16T21:25:43Z,2025-09-26T18:03:06+00:00,1,236.62,False,727,0,4,22,0,4,4,CLOSED
+267112,Git - path comparison should better handle trailing/mixed separators,lszomoru,2025-09-16T21:25:38Z,2025-09-17T13:56:25+00:00,4,16.51,True,15,4,1,13,0,2,2,MERGED
+267078,use agent to try to fix smoke tests,meganrogge,2025-09-16T17:34:03Z,2025-09-22T18:05:45+00:00,1,144.53,False,145,86,1,0,0,3,3,CLOSED
+267062,"Revert ""Remove redundant activation & log extension service activation errors…""",TylerLeonhardt,2025-09-16T14:33:51Z,2025-09-16T20:11:15+00:00,1,5.62,True,13,6,4,199,0,0,0,MERGED
+267054,Adds padding for chat disclaimer welcome message when it has no chat history,DioLps,2025-09-16T13:58:44Z,2025-09-27T13:01:04+00:00,1,263.04,False,1,0,1,226,1,0,1,CLOSED
+267014,Improve copilot coding agent setup,rebornix,2025-09-16T05:28:58Z,2025-09-19T15:53:42+00:00,7,82.41,True,1,1,1,0,3,1,4,MERGED
+267013,"Revert ""Remove redundant activation & log extension service activation errors""",TylerLeonhardt,2025-09-16T05:23:51Z,2025-09-16T15:01:50+00:00,2,9.63,True,13,6,4,159,0,0,0,MERGED
+267003,Double click in empty area should create a new chat,benibenj,2025-09-16T01:27:01Z,2025-09-29T20:15:05+00:00,1,330.8,False,27,6,5,148,0,2,2,CLOSED
+266991,turn chat history on by default,justschen,2025-09-15T22:32:59Z,2025-09-23T02:21:26+00:00,1,171.81,True,1,1,1,15,1,0,1,MERGED
+266969,Also word wrap on \n in incremental mode,alexdima,2025-09-15T20:50:10Z,2025-09-15T22:27:27+00:00,1,1.62,True,62,11,2,13,0,0,0,MERGED
+266953,Remove the old prompt parser,aeschli,2025-09-15T18:49:40Z,2025-09-15T20:09:47+00:00,1,1.34,True,17,20215,145,0,0,0,0,MERGED
+266840,Adding VSCODE_COPILOT_TERMINAL environment variable (#265446).,unacceptable,2025-09-15T18:10:51Z,2025-09-26T09:29:31+00:00,1,255.31,False,200,13,4,21,6,0,6,CLOSED
+266697,Adjust max-width for viewpane filter container in action bar,mrleemurray,2025-09-15T11:07:24Z,2025-09-15T12:22:16+00:00,1,1.25,True,6,1,1,142,0,0,0,MERGED
+266695,Update action bar styles for consistency with menu colors,mrleemurray,2025-09-15T10:44:24Z,2025-09-15T12:21:58+00:00,1,1.63,True,2,2,1,125,0,0,0,MERGED
+266587,chat history cleanup,justschen,2025-09-14T03:09:50Z,2025-09-15T04:10:55+00:00,1,25.02,True,80,107,4,38,1,0,1,MERGED
+266554,"Don't require an editing session for ""new chat"" to work",roblourens,2025-09-13T19:52:08Z,2025-09-14T03:03:44+00:00,1,7.19,True,25,18,2,223,0,0,0,MERGED
+266543,Add sessionid to ChatRequest,roblourens,2025-09-13T17:20:35Z,2025-09-13T23:45:34+00:00,1,6.42,True,7,0,2,74,0,0,0,MERGED
+266493,Prompts for plan mode,digitarald,2025-09-13T03:44:28Z,2025-09-13T14:07:51+00:00,1,10.39,True,40,33,4,284,0,0,0,MERGED
+266485,fix: `lm.registerLanguageModelChatProvider` jsdoc formatting,turansky,2025-09-13T01:35:08Z,2025-09-17T18:09:57+00:00,2,112.58,True,1,1,1,0,0,0,0,MERGED
+266445,new fixed height thinking style,justschen,2025-09-12T21:18:05Z,2025-09-12T22:46:24+00:00,1,1.47,True,312,74,4,0,1,0,1,MERGED
+266368,Use actual command labels in accessibility help instead of duplicate localized strings,copilot-swe-agent,2025-09-12T12:46:50Z,2025-09-12T15:20:30+00:00,5,2.56,True,3,3,1,3124,0,2,2,MERGED
+266343,chat - more support for anonymous entitlements,bpasero,2025-09-12T09:15:29Z,2025-09-12T10:26:18+00:00,1,1.18,True,64,41,2,0,0,0,0,MERGED
+266337,Chat: telemetry for `alreadyInstalled` chat install kind missing and provider is wrong (#266334),bpasero,2025-09-12T07:47:19Z,2025-09-15T20:27:44+00:00,1,84.67,True,3,3,1,0,0,0,0,MERGED
+266336,Chat: telemetry for `alreadyInstalled` chat install kind missing (#266334),bpasero,2025-09-12T07:42:09Z,2025-09-12T09:10:11+00:00,1,1.47,True,1,1,1,0,0,0,0,MERGED
+266333,bump version,sandy081,2025-09-12T07:14:24Z,2025-09-12T08:22:54+00:00,1,1.14,True,3,3,2,0,0,0,0,MERGED
+266299,dispose of ref instead of object itself to avoid null objects.,dmiska25,2025-09-12T02:57:51Z,2025-09-29T20:44:58+00:00,5,425.79,True,2,3,1,1390,3,1,4,MERGED
+266277,tools: allow starting MCP servers from the tools picker,connor4312,2025-09-11T22:30:28Z,2025-09-12T03:51:24+00:00,1,5.35,True,284,187,9,294,0,0,0,MERGED
+266273,Refactor: Splitting chat sessions file,osortega,2025-09-11T22:10:32Z,2025-09-12T02:17:06+00:00,1,4.11,True,1897,1827,10,147,0,0,0,MERGED
+266263,new prompt file parser,aeschli,2025-09-11T20:42:54Z,2025-09-15T13:52:06+00:00,2,89.15,True,3536,508,22,0,1,0,1,MERGED
+266260,Fix PowerShell shell integration when strict mode is enabled.,mawosoft,2025-09-11T20:11:54Z,2025-09-12T12:10:08+00:00,4,15.97,True,1,1,1,117,2,0,2,MERGED
+266254,Update xterm to bring back partial scroll ,anthonykim1,2025-09-11T18:45:46Z,2025-09-12T11:31:21+00:00,1,16.76,True,169,169,6,32,0,0,0,MERGED
+266249,"smoke - use `workbench.action.clearEditorHistoryWithoutConfirm` consistently""",bpasero,2025-09-11T18:36:19Z,2025-09-12T04:19:07+00:00,1,9.71,True,1,6,1,15,0,0,0,MERGED
+266241,Fix TOC in release notes,mjbvz,2025-09-11T18:05:57Z,2025-09-12T10:06:39+00:00,1,16.01,True,109,20,3,134,1,0,1,MERGED
+266239,Fix TOC in release notes,mjbvz,2025-09-11T18:01:39Z,2025-09-15T23:45:55+00:00,4,101.74,True,9,7,1,184,0,2,2,MERGED
+266238,provide default messages for screen readers,meganrogge,2025-09-11T17:49:55Z,2025-09-11T20:06:41+00:00,4,2.28,True,4,7,1,0,0,2,2,MERGED
+266231,extract `_createElicitationPart` to simplify `outputMonitor` functions,meganrogge,2025-09-11T17:18:30Z,2025-09-11T22:19:16+00:00,1,5.01,True,142,120,1,0,0,0,0,MERGED
+266215,More logs around MCP Auth,TylerLeonhardt,2025-09-11T15:25:33Z,2025-09-11T16:29:55+00:00,1,1.07,True,26,19,2,21,0,0,0,MERGED
+266202,chat - mention ToS in welcome for first time anonymous usage,bpasero,2025-09-11T14:30:16Z,2025-09-12T18:18:41+00:00,1,27.81,True,99,39,5,0,0,0,0,MERGED
+266187,Security: Don't offer auto-approval suggestions for high-risk commands,copilot-swe-agent,2025-09-11T12:08:59Z,2025-09-11T13:48:48+00:00,2,1.66,True,54,5,2,2917,0,0,0,MERGED
+266185,"Add ""Moreno"" to end of README.md",copilot-swe-agent,2025-09-11T11:54:14Z,2025-09-11T13:39:30+00:00,2,1.75,False,1,0,1,802,0,0,0,CLOSED
+266180,Adds IObservable.debugGetDependencyGraph,hediet,2025-09-11T10:57:23Z,2025-09-11T13:36:55+00:00,2,2.66,True,223,9,9,0,0,0,0,MERGED
+266129,Additional Notebook layout options,DonJayamanne,2025-09-11T03:25:32Z,2025-09-11T05:09:42+00:00,1,1.74,True,25,7,3,11,0,0,0,MERGED
+266123,feat: add resource-scoped prompt file recommendations,digitarald,2025-09-11T01:29:36Z,2025-09-17T21:54:01+00:00,6,164.41,True,41,34,3,1129,0,3,3,MERGED
+266121,Add basic mermaid rendering support in core,mjbvz,2025-09-11T01:24:38Z,2025-09-22T21:53:00+00:00,5,284.47,True,1798,5,22,68,1,2,3,MERGED
+266115,Switch a few more noEmit checks to use tsgo,mjbvz,2025-09-10T23:52:24Z,2025-09-11T01:05:01+00:00,2,1.21,True,40,40,3,55,2,0,2,MERGED
+266107,Set `Cross-Origin-Resource-Policy` on webview resource responses,mjbvz,2025-09-10T22:36:03Z,2025-09-10T23:57:39+00:00,1,1.36,True,14,9,1,220,1,0,1,MERGED
+266101,Remove `copilot` from strings and localize them,mjbvz,2025-09-10T21:59:39Z,2025-09-10T22:59:40+00:00,3,1.0,True,12,15,1,13,1,1,2,MERGED
+266099,"focus terminal, await user enter if free form input is expected in the terminal",meganrogge,2025-09-10T21:21:00Z,2025-09-11T16:57:39+00:00,3,19.61,True,134,25,12,148,0,1,1,MERGED
+266096,Avoid using disposables in domSanitize,mjbvz,2025-09-10T20:59:01Z,2025-09-10T22:19:44+00:00,2,1.35,True,31,46,1,107,1,1,2,MERGED
+266091,Move Accept & Hide keyhandlers to Commands,TylerLeonhardt,2025-09-10T20:30:56Z,2025-09-10T22:12:31+00:00,1,1.69,True,71,25,4,10,0,0,0,MERGED
+266088,Don't require restart when switching to TS native,mjbvz,2025-09-10T20:14:32Z,2025-09-10T22:59:54+00:00,2,2.76,True,79,63,6,86,1,0,1,MERGED
+266073,address API feedback for terminal completion provider,meganrogge,2025-09-10T18:33:46Z,2025-09-11T22:17:31+00:00,12,27.73,True,137,57,9,452,2,9,11,MERGED
+266062,terminal chat agent: detect when free-form input is required from the user,meganrogge,2025-09-10T16:18:19Z,2025-09-10T21:22:01+00:00,1,5.06,False,167,13,9,41,1,0,1,CLOSED
+266023,improve rending mcp server,sandy081,2025-09-10T11:11:19Z,2025-09-10T14:51:43+00:00,1,3.67,True,232,70,12,0,0,0,0,MERGED
+266022,Chat - add support to attach a history item change range to chat,lszomoru,2025-09-10T10:49:50Z,2025-09-10T14:16:39+00:00,1,3.45,True,256,13,14,0,0,0,0,MERGED
+265996,chat - towards experimental anonymous access,bpasero,2025-09-10T06:56:32Z,2025-09-11T08:31:22+00:00,2,25.58,True,4,3,3,0,0,0,0,MERGED
+265984,OSC 8 hyperlink should open VS Code file explorer if inside cwd,anthonykim1,2025-09-10T05:47:53Z,2025-09-29T03:38:44+00:00,8,453.85,True,123,88,6,199,2,8,10,MERGED
+265957,Don't try to saveState when there is no state to save,roblourens,2025-09-10T01:01:56Z,2025-09-10T07:35:14+00:00,1,6.55,True,3,3,1,105,0,0,0,MERGED
+265947,apple logo placement ,eli-w-king,2025-09-09T23:57:32Z,2025-09-11T06:58:51+00:00,1,31.02,True,4,4,2,39,0,0,0,MERGED
+265940,"Fix links opening regardless of confirm of ""Opening URIs can be insecure"" warning. ",anthonykim1,2025-09-09T22:40:00Z,2025-09-12T11:01:55+00:00,1,60.37,True,21,12,1,17,0,0,0,MERGED
+265939,new dropdown thinking style,justschen,2025-09-09T22:24:32Z,2025-09-10T19:34:08+00:00,1,21.16,True,203,15,4,0,1,0,1,MERGED
+265933,Fix images in release notes,mjbvz,2025-09-09T21:06:22Z,2025-09-10T16:09:07+00:00,4,19.05,True,118,21,5,159,2,1,3,MERGED
+265923,Adding chat input type to chat model,osortega,2025-09-09T18:57:55Z,2025-09-10T17:48:25+00:00,3,22.84,True,37,43,5,25,0,1,1,MERGED
+265921,Address API sync feedback for challenges API,TylerLeonhardt,2025-09-09T18:56:51Z,2025-09-09T21:05:43+00:00,3,2.15,True,69,82,9,59,0,0,0,MERGED
+265920,add dictation actions to terminal overflow menu,meganrogge,2025-09-09T18:56:14Z,2025-09-10T01:44:01+00:00,6,6.8,True,50,1,1,48,0,1,1,MERGED
+265908,add opt-in auto reply to terminal prompt setting,meganrogge,2025-09-09T18:08:47Z,2025-09-09T22:31:57+00:00,5,4.39,True,53,15,5,86,0,3,3,MERGED
+265895,fix bug where prompt could occur repeatedly and be sent to the wrong terminal,meganrogge,2025-09-09T16:55:38Z,2025-09-09T20:06:54+00:00,1,3.19,True,3,4,1,55,1,0,1,MERGED
+265891,Marking a few more events in vscode.d.ts readonly,mjbvz,2025-09-09T16:41:07Z,2025-09-30T08:16:46+00:00,3,495.59,True,7,7,1,61,2,0,2,MERGED
+265877,Improve Problem Selection and Search in GitHub Copilot Context Addition,copilot-swe-agent,2025-09-09T16:05:04Z,2025-09-10T15:23:11+00:00,2,23.3,True,47,8,1,2784,0,0,0,MERGED
+265874,Support referencing selected file(s) as inputs to MCP Prompt arguments,copilot-swe-agent,2025-09-09T16:03:47Z,2025-09-09T22:04:10+00:00,3,6.01,True,68,1,1,2510,1,0,1,MERGED
+265854,transfer sticky scroll check into candidate provider,aiday-mar,2025-09-09T14:30:40Z,2025-09-10T08:58:40+00:00,2,18.47,True,26,22,3,13,2,0,2,MERGED
+265847,fix: race condition on supported task types,CGNonofr,2025-09-09T13:41:01Z,2025-09-09T16:32:55+00:00,2,2.87,True,1,1,1,693,1,0,1,MERGED
+265824,Update debug dropdown CSS styling for improved layout,mrleemurray,2025-09-09T10:49:06Z,2025-09-10T14:27:41+00:00,1,27.64,True,10,6,4,109,0,0,0,MERGED
+265823,Fixes https://github.com/microsoft/monaco-editor/issues/4984,hediet,2025-09-09T10:38:21Z,2025-09-09T15:56:40+00:00,3,5.31,True,2,2,1,34,0,0,0,MERGED
+265818,Do toString on markdown content,alexr00,2025-09-09T10:24:56Z,2025-09-09T14:20:23+00:00,1,3.92,True,2,1,1,13,0,0,0,MERGED
+265815,"SCM - ""Add to Chat"" action for history item change",lszomoru,2025-09-09T10:09:12Z,2025-09-09T11:09:17+00:00,1,1.0,True,193,76,7,0,0,0,0,MERGED
+265806,chat - towards experimental anonymous access,bpasero,2025-09-09T09:37:06Z,2025-09-09T14:15:51+00:00,2,4.65,True,94,22,8,0,0,0,0,MERGED
+265796,Add integration test for Release Notes Editor opening,copilot-swe-agent,2025-09-09T08:40:20Z,2025-09-12T10:21:37+00:00,6,73.69,False,181,0,6,2174,5,2,7,CLOSED
+265786,Small fix to chat sessions sentiment check,osortega,2025-09-09T07:19:40Z,2025-09-09T12:23:23+00:00,1,5.06,True,1,1,1,12,0,0,0,MERGED
+265755,"debug: fix incorrect thread state if ""continued"" arrives too soon after a ""stopped""",connor4312,2025-09-08T22:43:54Z,2025-09-09T16:14:56+00:00,2,17.52,True,24,11,1,13,1,0,1,MERGED
+265753,prevent opening a new chat session if it isn't already active,bhavyaus,2025-09-08T22:31:26Z,2025-09-09T16:51:37+00:00,1,18.34,True,6,0,1,39,0,0,0,MERGED
+265751,match orgs from chat extension,sbatten,2025-09-08T21:58:54Z,2025-09-09T12:23:17+00:00,1,14.41,True,2,2,2,13,0,0,0,MERGED
+265749,add other orgs,sbatten,2025-09-08T21:48:13Z,2025-09-09T08:10:50+00:00,2,10.38,True,2,2,2,48,0,0,0,MERGED
+265743,Add TS go as workspace recommended extension,mjbvz,2025-09-08T20:52:38Z,2025-09-08T23:10:48+00:00,1,2.3,True,2,1,1,99,1,0,1,MERGED
+265737,Handle when equals sign shows up in a parameter,TylerLeonhardt,2025-09-08T19:27:38Z,2025-09-08T21:21:54+00:00,1,1.9,True,23,6,2,13,0,0,0,MERGED
+265736,Handle when equals sign shows up in a parameter,TylerLeonhardt,2025-09-08T19:23:05Z,2025-09-08T21:53:52+00:00,1,2.51,True,23,6,2,11,1,0,1,MERGED
+265735,Indicate inline chat status to screen reader users,meganrogge,2025-09-08T19:21:15Z,2025-09-09T19:05:55+00:00,2,23.74,True,4,2,1,11,0,2,2,MERGED
+265731,Adopt IChatEntitlementService in chatWidget.ts to replace context key logic,copilot-swe-agent,2025-09-08T18:56:33Z,2025-10-03T20:49:29+00:00,3,601.88,True,31,22,1,2286,0,3,3,MERGED
+265730,Fix internal org check,lramos15,2025-09-08T18:52:01Z,2025-09-08T21:34:39+00:00,1,2.71,True,1,1,1,0,0,0,0,MERGED
+265728,Add `/login/oauth` path part to the ghes supported authorization server (#265703),TylerLeonhardt,2025-09-08T18:50:14Z,2025-09-08T20:23:52+00:00,1,1.56,True,4,3,1,35,0,0,0,MERGED
+265724,poll for change to allow async update,amunger,2025-09-08T18:44:37Z,2025-09-08T20:05:44+00:00,1,1.35,True,10,4,1,11,0,0,0,MERGED
+265712,"provide progress messages to screen reader users, enable opting out",meganrogge,2025-09-08T17:49:50Z,2025-09-09T21:04:08+00:00,17,27.24,True,18,2,3,394,1,6,7,MERGED
+265705,Fix chat session disposal error by preventing duplicate widget sessions,copilot-swe-agent,2025-09-08T17:41:39Z,2025-09-09T21:58:08+00:00,3,28.27,True,141,131,4,2373,2,0,2,MERGED
+265702,Input type attribute to chat model,osortega,2025-09-08T17:10:12Z,2025-09-09T04:22:28+00:00,13,11.2,True,37,43,5,14,0,6,6,MERGED
+265692,revert back to official nodejs mirror,joaomoreno,2025-09-08T15:46:14Z,2025-09-08T17:14:11+00:00,2,1.47,True,0,35,24,95,0,0,0,MERGED
+265684,Allow `grep` and `git grep` in terminal chat agent tools,copilot-swe-agent,2025-09-08T14:56:32Z,2025-09-11T11:55:09+00:00,2,68.98,True,19,12,2,2733,0,0,0,MERGED
+265683,Add terminal profile configuration for chat agent tools,copilot-swe-agent,2025-09-08T14:54:21Z,2025-09-28T03:56:05+00:00,10,469.03,True,181,26,5,1902,1,7,8,MERGED
+265655,Bump actions/setup-node from 4 to 5,dependabot,2025-09-08T11:17:56Z,2025-09-08T17:17:10+00:00,3,5.99,True,10,10,7,4068,3,0,3,MERGED
+265638,triggerCommandOnProviderChange: true to restore old behavior,hediet,2025-09-08T09:35:25Z,2025-09-08T15:00:07+00:00,1,5.41,True,1,1,1,41,0,0,0,MERGED
+265636,fix: inverted colors for window.border system mode (release/1.104),deepak1556,2025-09-08T09:29:01Z,2025-09-08T14:56:16+00:00,1,5.45,True,3,3,2,31,0,0,0,MERGED
+265635,fix: inverted colors for window.border system mode,deepak1556,2025-09-08T09:24:27Z,2025-09-08T10:29:15+00:00,1,1.08,True,2,2,2,12,0,0,0,MERGED
+265600,Fix: transform UPPER_CASE correctly to PascalCase (Closes #261780),anajafizadeh,2025-09-08T00:13:26Z,2025-09-11T12:50:31+00:00,1,84.62,False,22,3,2,291,4,0,4,CLOSED
+265521,Get rid of obsolete 'useFileStorage' chat setting,roblourens,2025-09-06T23:29:40Z,2025-09-07T21:32:17+00:00,1,22.04,False,607,687,18,0,1,0,1,CLOSED
+265480,Chat - move variable declaration into CSS,lszomoru,2025-09-06T11:46:03Z,2025-09-06T14:39:05+00:00,1,2.88,True,15,8,2,0,0,0,0,MERGED
+265471,"Revert ""smoke - use `workbench.action.clearEditorHistoryWithoutConfirm` consistently""",bpasero,2025-09-06T09:33:29Z,2025-09-06T11:28:15+00:00,1,1.91,True,6,1,1,75,0,0,0,MERGED
+265441,"Hide ""Generate instructions"" hint when workspace already has instruction files",copilot-swe-agent,2025-09-06T01:19:04Z,2025-10-01T20:26:47+00:00,8,619.13,True,105,12,4,2217,1,3,4,MERGED
+265431,fix: use chatEntitlementService,rzhao271,2025-09-05T22:58:53Z,2025-09-26T17:55:51+00:00,1,498.95,True,16,11,2,13,0,0,0,MERGED
+265430,A11y: Fix code selection high contrast color mappings,hawkticehurst,2025-09-05T22:23:39Z,2025-09-22T17:15:02+00:00,1,402.86,False,14,0,1,160,2,0,2,CLOSED
+265425,Fix smoke tests in release branch,TylerLeonhardt,2025-09-05T22:07:01Z,2025-09-06T16:18:59+00:00,1,18.2,True,6,6,3,13,0,0,0,MERGED
+265419,Update build TS versions,mjbvz,2025-09-05T21:31:07Z,2025-09-08T18:39:07+00:00,1,69.13,True,47,39,7,0,0,0,0,MERGED
+265414,remove old protection for multiple clicks,sbatten,2025-09-05T20:44:22Z,2025-09-06T07:49:27+00:00,1,11.08,True,1,2,1,121,0,0,0,MERGED
+265408,Adding a way to identify chat models originated from contributions,osortega,2025-09-05T19:32:34Z,2025-09-09T18:58:36+00:00,2,95.43,False,36,47,5,152,0,1,1,CLOSED
+265396,Handle registering and deregsitering chat sessions view,osortega,2025-09-05T18:22:26Z,2025-09-06T16:58:54+00:00,3,22.61,True,27,25,2,14,0,0,0,MERGED
+265394,Handle registering and deregsitering chat sessions view,osortega,2025-09-05T18:18:17Z,2025-09-10T17:29:02+00:00,6,119.18,True,25,14,1,14,1,2,3,MERGED
+265393,no progressive rendering for existing parts in incomplete chat response (#265239),rebornix,2025-09-05T18:17:21Z,2025-09-05T20:34:32+00:00,1,2.29,True,11,0,1,71,0,0,0,MERGED
+265383,Fix chat elicitation prompt button vertical growth in flex containers,copilot-swe-agent,2025-09-05T17:23:06Z,2025-09-10T14:41:09+00:00,2,117.3,False,5,0,1,1495,4,1,5,CLOSED
+265373,A11y: Disable forced color adjustment for Monaco editor,hawkticehurst,2025-09-05T16:38:13Z,2025-09-22T17:24:27+00:00,9,408.77,True,11,0,1,322,17,4,21,MERGED
+265362,debug: bump js-debug to 1.104,connor4312,2025-09-05T16:04:03Z,2025-09-05T20:27:27+00:00,1,4.39,True,2,2,1,0,0,0,0,MERGED
+265355,Adds more arc tracker tests,hediet,2025-09-05T14:52:29Z,2025-09-08T15:14:29+00:00,2,72.37,True,214,74,7,0,1,0,1,MERGED
+265354,do not recreate output monitor for foreground terminals,meganrogge,2025-09-05T14:50:21Z,2025-09-05T16:06:19+00:00,1,1.27,True,3,1,1,39,0,0,0,MERGED
+265352,Layer breaker in `src/vs/workbench/services/assignment/common/assignmentFilters.ts` (fix #264280),bpasero,2025-09-05T14:19:06Z,2025-09-09T09:18:16+00:00,1,90.99,True,139,132,14,0,0,0,0,MERGED
+265351,Update chat request bubble hover background transparency,mrleemurray,2025-09-05T14:14:13Z,2025-09-05T19:22:37+00:00,1,5.14,True,1,1,1,110,0,0,0,MERGED
+265341,Fix #5545 using onDidRefetchAssignments event,sandy081,2025-09-05T13:27:43Z,2025-09-05T14:53:44+00:00,1,1.43,True,5,23,1,45,0,0,0,MERGED
+265329,chore: add vscode-copilot-issues to endgame notebooks,ulugbekna,2025-09-05T12:19:24Z,2025-09-05T19:17:02+00:00,1,6.96,True,2,2,2,0,0,0,0,MERGED
+265326,fix: elicitation email validator,garciasdos,2025-09-05T11:52:39Z,2025-09-05T15:51:47+00:00,2,3.99,True,1,1,1,436,0,0,0,MERGED
+265319,Fire event on assignment context updates,benibenj,2025-09-05T10:57:51Z,2025-09-05T12:30:25+00:00,3,1.54,True,11,5,1,166,0,1,1,MERGED
+265303,Add conversation id to mcp meta,leonard520,2025-09-05T09:19:29Z,2025-09-11T16:37:18+00:00,5,151.3,True,25,5,1,15,0,2,2,MERGED
+265288,chat - improve actions in chat title menu and aux windows,bpasero,2025-09-05T07:45:58Z,2025-09-05T11:15:21+00:00,1,3.49,True,37,9,3,0,0,0,0,MERGED
+265280,"aux window - support more CSS variables by setting them, properly",bpasero,2025-09-05T05:40:17Z,2025-09-05T11:15:11+00:00,1,5.58,True,33,26,6,0,0,0,0,MERGED
+265252,resized and middle aligned apple logo,eli-w-king,2025-09-04T23:46:01Z,2025-09-05T05:21:47+00:00,1,5.6,True,2,2,2,36,0,0,0,MERGED
+265239,no progressive rendering for existing parts in incomplete chat response,rebornix,2025-09-04T21:27:45Z,2025-09-05T16:54:02+00:00,3,19.44,True,11,0,1,0,0,1,1,MERGED
+265213,Implement API changes from TPI feedback,lramos15,2025-09-04T19:13:25Z,2025-09-04T21:45:03+00:00,3,2.53,True,46,47,9,11,0,1,1,MERGED
+265195,add one more state,meganrogge,2025-09-04T17:53:37Z,2025-09-04T19:27:54+00:00,1,1.57,True,3,3,1,13,1,0,1,MERGED
+265182,Collapse todos when displayed inline in chat response,bhavyaus,2025-09-04T16:08:41Z,2025-09-04T17:13:59+00:00,1,1.09,True,23,7,3,14,0,0,0,MERGED
+265147,Hide terminal inline chat if AI is disabled,Tyriar,2025-09-04T13:39:01Z,2025-09-04T16:06:55+00:00,2,2.46,True,8,2,1,13,0,0,0,MERGED
+265146,smoke - use `workbench.action.clearEditorHistoryWithoutConfirm` consistently,bpasero,2025-09-04T13:30:05Z,2025-09-05T11:15:03+00:00,1,21.75,True,1,6,1,0,0,0,0,MERGED
+265145,cli - add `--transient` to troubleshooting section,bpasero,2025-09-04T13:27:33Z,2025-09-05T11:14:53+00:00,1,21.79,True,1,1,1,169,0,0,0,MERGED
+265144,files - update to latest `@parcel/watcher`,bpasero,2025-09-04T13:20:02Z,2025-09-05T11:14:35+00:00,1,21.91,True,27,890,6,0,0,0,0,MERGED
+265143,Remove unused export,Tyriar,2025-09-04T13:10:25Z,2025-09-08T14:55:03+00:00,1,97.74,True,0,10,1,13,1,0,1,MERGED
+265131,"Fixes ""Caret jumps to column 0 when clicking between first two characters""",ttttotem,2025-09-04T11:46:01Z,2025-09-04T20:20:51+00:00,2,8.58,True,3,3,2,454,1,0,1,MERGED
+265054,compare with workspace use diff editor instead of merge editor ,nguyenchristy,2025-09-04T00:04:49Z,2025-09-04T03:33:11+00:00,1,3.47,True,28,31,2,17,0,0,0,MERGED
+265030,Fix dnd or local chat histories,mjbvz,2025-09-03T21:45:43Z,2025-09-03T23:49:20+00:00,1,2.06,True,15,2,2,11,1,0,1,MERGED
+265013,fix: memory leak in notebook text model,SimonSiefke,2025-09-03T20:29:34Z,2025-10-03T18:19:40+00:00,3,717.84,True,2,2,1,98,2,0,2,MERGED
+265011,Fix to use arrow function in callback function,osortega,2025-09-03T20:18:28Z,2025-09-03T22:14:18+00:00,1,1.93,False,2,2,1,59,0,1,1,CLOSED
+265007,fix: memory leak in QuickDiffModel,SimonSiefke,2025-09-03T19:17:19Z,2025-09-03T22:55:48+00:00,4,3.64,True,1,1,1,2612,0,0,0,MERGED
+265003,Renamed 'chat history' to 'history',eli-w-king,2025-09-03T18:42:03Z,2025-09-05T10:02:34+00:00,1,39.34,True,1,1,1,28,0,0,0,MERGED
+265002,fix: memory leak in chat widget,SimonSiefke,2025-09-03T18:41:15Z,2025-09-22T07:34:16+00:00,2,444.88,True,3,2,1,327,2,0,2,MERGED
+264937,fix: memory leak in ReplAccessibilityAnnouncer,SimonSiefke,2025-09-03T15:17:24Z,2025-09-09T15:58:02+00:00,2,144.68,True,5,3,1,296,0,0,0,MERGED
+264914,Fix for issue 263098,ttttotem,2025-09-03T12:54:36Z,2025-09-04T13:38:15+00:00,16,24.73,False,4,5,1,210,2,2,4,CLOSED
+264864,Fix inconsistency between JSON schema and code for secondary sidebar view containers,copilot-swe-agent,2025-09-03T07:34:59Z,2025-09-03T10:59:36+00:00,3,3.41,True,5,5,3,1970,0,0,0,MERGED
+264836,Instrument instructions collection,digitarald,2025-09-03T03:34:12Z,2025-09-04T09:35:19+00:00,3,30.02,True,57,13,2,0,1,0,1,MERGED
+264806,Don't focus chat input when opening a session from chat sessions view,mjbvz,2025-09-03T00:14:24Z,2025-09-03T18:15:37+00:00,1,18.02,True,4,2,1,133,1,0,1,MERGED
+264803,remove `id` property from ChatSessionsContribution,joshspicer,2025-09-02T23:44:07Z,2025-09-03T16:13:35+00:00,1,16.49,True,0,2,2,0,0,0,0,MERGED
+264801,fix #264496,joshspicer,2025-09-02T23:22:44Z,2025-09-03T16:49:40+00:00,2,17.45,True,27,41,4,111,0,0,0,MERGED
+264797,Allow deleting and renaming history from chat session view,copilot-swe-agent,2025-09-02T23:10:19Z,2025-09-03T04:31:28+00:00,2,5.35,True,167,9,4,2678,6,0,6,MERGED
+264791,tools: re-apply confirm response based on promise,connor4312,2025-09-02T22:52:33Z,2025-09-05T23:03:23+00:00,1,72.18,True,28,7,3,298,0,0,0,MERGED
+264788,Provide more context when 'Delegating to coding agent',joshspicer,2025-09-02T22:38:35Z,2025-09-02T23:48:02+00:00,3,1.16,True,62,7,1,115,0,0,0,MERGED
+264778,"Fix chat session ""Open to the Side"" to respect user's side-by-side direction preference",copilot-swe-agent,2025-09-02T21:59:24Z,2025-09-04T01:05:56+00:00,6,27.11,True,5,8,1,995,1,1,2,MERGED
+264614,Fix tooltip display for two-row chat session items,copilot-swe-agent,2025-09-02T16:33:03Z,2025-09-03T06:10:34+00:00,3,13.63,True,25,7,1,2047,0,0,0,MERGED
+264611,chat history cleanup,justschen,2025-09-02T16:18:34Z,2025-09-02T21:14:58+00:00,3,4.94,True,16,16,1,11,1,2,3,MERGED
+264524,Add Get-Content and Where-Object to safe commands,Tyriar,2025-09-02T10:50:11Z,2025-09-02T11:54:26+00:00,1,1.07,True,2,0,1,15,0,0,0,MERGED
+264513,"Warn about global auto approve, rename setting",Tyriar,2025-09-02T10:04:36Z,2025-09-02T11:55:18+00:00,1,1.84,True,100,26,7,104,0,0,0,MERGED
+264471,fix some chat ui issues,justschen,2025-09-02T08:12:33Z,2025-09-02T16:33:19+00:00,4,8.35,True,20,4,3,11,3,1,4,MERGED
+264414,add tool references to prompt file variables and ICustomChatModes,aeschli,2025-09-01T21:05:49Z,2025-09-05T10:58:51+00:00,2,85.88,True,334,65,20,11,0,0,0,MERGED
+264345,Upgrade to @vscode/proxy-agent 0.33.0,chrmarti,2025-09-01T14:21:21Z,2025-09-01T17:26:00+00:00,1,3.08,True,10,10,4,7,0,0,0,MERGED
+264284,chat - entitlements service cleanup,bpasero,2025-09-01T06:32:05Z,2025-09-01T07:37:55+00:00,1,1.1,True,82,97,7,11,0,0,0,MERGED
+264255,Eli/history,eli-w-king,2025-09-01T00:56:44Z,2025-09-01T02:27:51+00:00,1,1.52,True,443,43,8,163,0,0,0,MERGED
+264207,handle streaming thinking tokens,justschen,2025-08-31T08:17:08Z,2025-09-01T07:34:08+00:00,1,23.28,True,238,304,6,82,1,0,1,MERGED
+264197,Update walkthrough editor options to open Welcome page,bhavyaus,2025-08-31T05:27:27Z,2025-08-31T08:05:51+00:00,1,2.64,True,9,13,2,58,0,0,0,MERGED
+264162,docs: fix grammar in Development Container section,a-ariff,2025-08-30T14:34:06Z,2025-09-02T18:55:44+00:00,2,76.36,True,1,2,1,118,2,0,2,MERGED
+264158,debt - some node.js module import :lipstick:,bpasero,2025-08-30T12:43:41Z,2025-08-31T16:09:43+00:00,1,27.43,True,15,15,7,0,0,0,0,MERGED
+264120,Don't show @ name on chat session requests,roblourens,2025-08-30T04:17:27Z,2025-08-30T05:48:04+00:00,1,1.51,True,6,3,3,11,0,0,0,MERGED
+264104,Fix disposal of chat session renderer,osortega,2025-08-29T23:26:55Z,2025-08-30T00:34:55+00:00,1,1.13,True,1,4,1,0,0,0,0,MERGED
+264100,Add diff indicators support to chat multi-diff content part,copilot-swe-agent,2025-08-29T22:56:34Z,2025-09-03T23:20:51+00:00,2,120.4,True,40,7,4,77,6,0,6,MERGED
+264083,chat session 'getting started' tweaks,joshspicer,2025-08-29T21:00:42Z,2025-08-29T22:40:56+00:00,1,1.67,True,7,7,2,0,0,0,0,MERGED
+264077,"Hide ""New Chat"" button in coding agent sessions",copilot-swe-agent,2025-08-29T20:04:31Z,2025-09-02T16:11:21+00:00,3,92.11,True,1,1,1,2159,1,0,1,MERGED
+264073,fix toolConfirmation icon and completion status,rwoll,2025-08-29T19:31:57Z,2025-08-29T20:49:19+00:00,2,1.29,False,7,3,2,788,4,0,4,CLOSED
+264061,Allow rendering a theme icon with a chat model,lramos15,2025-08-29T18:24:18Z,2025-08-29T20:34:41+00:00,1,2.17,True,24,4,7,0,0,1,1,MERGED
+264058,Fix terminal suggestions not working after moving terminal from panel to editor,copilot-swe-agent,2025-08-29T17:39:24Z,2025-08-29T20:07:46+00:00,2,2.47,True,27,0,1,2455,1,0,1,MERGED
+264057,MSAL Redirect Funkiness,TylerLeonhardt,2025-08-29T17:38:46Z,2025-08-29T18:47:16+00:00,1,1.14,True,7,0,1,28,0,0,0,MERGED
+264049,Make sure all text nodes in chat markdown are wrapped in elements,mjbvz,2025-08-29T17:26:42Z,2025-09-06T04:39:36+00:00,3,179.22,True,15,14,6,181,1,1,2,MERGED
+264047,"Revert ""fix: confirm response based on promise (#263894)""",rwoll,2025-08-29T17:13:17Z,2025-08-29T21:25:11+00:00,2,4.2,True,6,3,1,197,3,0,3,MERGED
+264045,Return trusted type from renderMarkdownDocument,mjbvz,2025-08-29T16:51:57Z,2025-09-05T20:52:17+00:00,1,172.01,True,7,6,5,0,1,0,1,MERGED
+264044,Fix event leak in release notes,mjbvz,2025-08-29T16:50:38Z,2025-08-29T18:21:25+00:00,1,1.51,True,3,2,1,0,1,0,1,MERGED
+264043,Avoid extra HTML re-parse when rendering markdown,mjbvz,2025-08-29T16:46:50Z,2025-09-05T20:51:48+00:00,3,172.08,True,21,8,2,176,2,1,3,MERGED
+264037,Add delegate button to secondary menu,joshspicer,2025-08-29T16:17:51Z,2025-08-29T20:47:19+00:00,1,4.49,True,14,7,1,21,0,0,0,MERGED
+264029,Allows monaco-editor createWorker to accept esmModuleLocation to avoid origin issues and forward localization strings correctly.,hediet,2025-08-29T15:30:09Z,2025-09-02T15:06:35+00:00,1,95.61,False,8,5,5,0,0,1,1,CLOSED
+264020,fix terminal hang for `basic` and `none` SI strategies,meganrogge,2025-08-29T14:58:46Z,2025-08-29T23:11:05+00:00,10,8.21,True,38,5,4,102,0,8,8,MERGED
+264012,Add support for extension version filter assignments,benibenj,2025-08-29T14:24:50Z,2025-08-31T14:07:11+00:00,2,47.71,True,279,15,4,328,3,0,3,MERGED
+264000,chat - adopt setting to disable AI in more areas,bpasero,2025-08-29T12:11:29Z,2025-08-29T13:38:33+00:00,1,1.45,True,40,89,4,0,0,0,0,MERGED
+263966,Add new msal-no-broker implementation option to allow for getting rid of classic soon,TylerLeonhardt,2025-08-29T05:56:49Z,2025-08-29T07:01:03+00:00,1,1.07,True,59,61,6,94,0,0,0,MERGED
+263933,hide chat footer (https://github.com/microsoft/vscode/issues/263519),joshspicer,2025-08-29T00:36:12Z,2025-08-29T01:55:56+00:00,1,1.33,True,9,4,4,0,0,0,0,MERGED
+263927,"Enable users to view and apply changes from worktree to main repo, per file",nguyenchristy,2025-08-28T23:48:13Z,2025-09-02T13:28:07+00:00,5,109.67,True,67,13,4,186,0,2,2,MERGED
+263924,Chat sessions view onExp,osortega,2025-08-28T23:31:46Z,2025-08-29T06:06:58+00:00,1,6.59,True,7,5,2,44,0,0,0,MERGED
+263909,Fix double line in chat view description,osortega,2025-08-28T21:55:54Z,2025-08-28T23:33:18+00:00,1,1.62,True,2,2,1,0,0,0,0,MERGED
+263903,Disable context for show history node,osortega,2025-08-28T20:52:32Z,2025-08-28T21:56:23+00:00,1,1.06,True,1,1,1,59,0,0,0,MERGED
+263901,detect confirmation prompt patterns for faster response from terminal agent,copilot-swe-agent,2025-08-28T20:27:54Z,2025-08-29T23:06:05+00:00,19,26.64,True,109,31,4,122,2,6,8,MERGED
+263894,fix: confirm response based on promise,rwoll,2025-08-28T20:07:44Z,2025-08-28T22:56:30+00:00,6,2.81,True,3,6,1,252,0,1,1,MERGED
+263889,use last prompt and marker to ensure no duplicate question,meganrogge,2025-08-28T19:37:01Z,2025-08-28T22:22:21+00:00,5,2.76,True,16,10,4,22,0,3,3,MERGED
+263882,fix polling bug,meganrogge,2025-08-28T18:58:41Z,2025-08-28T20:02:58+00:00,1,1.07,True,46,43,2,234,0,0,0,MERGED
+263877,Chat - use font size variable for confirmation widget buttons,lszomoru,2025-08-28T18:44:18Z,2025-08-28T19:46:20+00:00,1,1.03,True,1,0,1,0,0,0,0,MERGED
+263871,Fix for not showing new chats when opening from provider,osortega,2025-08-28T18:05:03Z,2025-08-28T19:06:57+00:00,1,1.03,True,8,2,2,0,0,0,0,MERGED
+263868,'Getting Started' in chat sessions view,joshspicer,2025-08-28T17:58:47Z,2025-08-28T19:46:35+00:00,1,1.8,True,205,6,3,14,0,0,0,MERGED
+263867,disallow keyboard focus from moving to disabled toolbar actions,meganrogge,2025-08-28T17:52:19Z,2025-08-28T21:30:18+00:00,1,3.63,False,1,0,1,362,0,0,0,CLOSED
+263865,Throw if accessing lazy value in its initializer,mjbvz,2025-08-28T17:43:57Z,2025-08-28T22:56:09+00:00,1,5.2,True,20,4,2,11,1,0,1,MERGED
+263862,Add toggle menu option for Chat Sessions view description display mode,copilot-swe-agent,2025-08-28T17:14:05Z,2025-08-28T19:47:56+00:00,2,2.56,True,62,5,4,2980,0,0,0,MERGED
+263848,Remove extra debug logging from dev console,copilot-swe-agent,2025-08-28T15:48:13Z,2025-08-29T23:30:53+00:00,3,31.71,True,1,4,2,511,4,0,4,MERGED
+263801,Remove VSCODE_SUGGEST from terminal environment setup,copilot-swe-agent,2025-08-28T12:08:18Z,2025-08-30T11:44:25+00:00,5,47.6,True,1,7,2,1368,1,1,2,MERGED
+263799,"fix: ensure SVG images are loaded before clipboard copy",lukocode,2025-08-28T12:02:24Z,2025-09-12T16:07:46+00:00,6,364.09,True,12,1,1,533,6,2,8,MERGED
+263781,Maintain line breaks in transform to Camel and Pascal case actions,alpalla,2025-08-28T09:55:41Z,2025-09-08T14:47:18+00:00,2,268.86,True,18,5,2,1409,1,0,1,MERGED
+263777,Check for artifact existence before publishing,joaomoreno,2025-08-28T09:36:27Z,2025-08-29T13:49:34+00:00,1,28.22,True,260,171,18,13,1,0,1,MERGED
+263749,"feat(ts-codeLens): show ""implementations"" CodeLens for overridden methods",ritesh006,2025-08-28T06:17:20Z,2025-09-02T12:55:20+00:00,2,126.63,False,49,0,2,1252,6,1,7,CLOSED
+263743,fix: move product.overrides resolution to an earlier stage,deepak1556,2025-08-28T04:54:55Z,2025-08-28T09:56:05+00:00,3,5.02,True,9,9,2,690,0,0,0,MERGED
+263738,ci: always generate artifact prefix,deepak1556,2025-08-28T03:38:05Z,2025-08-28T05:22:41+00:00,1,1.74,True,10,10,5,383,0,0,0,MERGED
+263736,Fix disposable leak in BrowserSocketFactory,tmm1,2025-08-28T02:54:41Z,2025-09-22T07:28:29+00:00,3,604.56,True,6,5,1,1270,0,0,0,MERGED
+263712,Add chat session capabilities,roblourens,2025-08-27T23:23:36Z,2025-08-28T18:14:22+00:00,3,18.85,True,64,19,7,18,0,0,0,MERGED
+263703,add internal filing option to issueReporter,Yoyokrazy,2025-08-27T22:07:50Z,2025-08-27T23:18:07+00:00,1,1.17,True,295,143,6,586,0,0,0,MERGED
+263702,use stripped down version of PSReadline for screen reader support on windows to enable pwsh shell integration ,meganrogge,2025-08-27T22:00:16Z,2025-09-08T21:04:44+00:00,21,287.07,True,358,6,14,11,3,32,35,MERGED
+263701,chatSessions supportHotReload,joshspicer,2025-08-27T21:57:54Z,2025-08-27T23:59:18+00:00,3,2.02,True,32,13,5,14,1,2,3,MERGED
+263696,Disallow invalid states for `ChatSessionItem`,mjbvz,2025-08-27T21:51:41Z,2025-09-29T19:49:31+00:00,7,789.96,False,86,43,5,247,2,4,6,CLOSED
+263674,provide terminal option descriptions in prompt ,meganrogge,2025-08-27T20:51:40Z,2025-08-27T21:57:53+00:00,2,1.1,True,84,68,2,13,0,0,0,MERGED
+263647,Fixes redacted modelId in telemetry,hediet,2025-08-27T20:34:25Z,2025-08-28T10:33:55+00:00,1,13.99,True,5,4,1,0,0,0,0,MERGED
+263643,Support ordering in chat session views,osortega,2025-08-27T20:26:41Z,2025-08-28T02:44:56+00:00,1,6.3,True,33,14,1,78,0,0,0,MERGED
+263640,Fixing pluralization for chat session status,osortega,2025-08-27T20:08:23Z,2025-08-28T02:37:43+00:00,1,6.49,True,6,1,1,71,0,0,0,MERGED
+263636,hide prompt on data input,meganrogge,2025-08-27T19:26:12Z,2025-08-27T21:23:27+00:00,3,1.95,True,12,4,3,41,0,1,1,MERGED
+263626,chore: update baselines,rzhao271,2025-08-27T17:53:19Z,2025-08-27T19:31:10+00:00,1,1.63,True,13,366,1,108,0,0,0,MERGED
+263625,improve prompt,meganrogge,2025-08-27T17:37:38Z,2025-08-27T19:36:46+00:00,3,1.99,True,23,14,3,79,0,2,2,MERGED
+263620,add AGENTS.md if present. new setting `chat.useAgentsMdFile`,aeschli,2025-08-27T16:41:23Z,2025-08-28T09:57:19+00:00,3,17.27,True,63,55,6,0,0,0,0,MERGED
+263583,skip terrapin check for PRs that don't touch package files,joaomoreno,2025-08-27T12:51:39Z,2025-08-27T14:58:42+00:00,1,2.12,True,88,70,1,69,0,0,0,MERGED
+263573,bump deemon,joaomoreno,2025-08-27T11:43:10Z,2025-08-28T02:44:16+00:00,2,15.02,True,6,6,2,18,0,0,0,MERGED
+263555,"Fix to #263546, for submenu of treeView view/item/context z-index iss…",yiliang114,2025-08-27T08:54:55Z,2025-09-11T08:48:49+00:00,2,359.9,True,2,0,1,12,0,0,0,MERGED
+263552,chore: update electron@37.3.1,deepak1556,2025-08-27T08:17:43Z,2025-08-27T13:08:07+00:00,1,4.84,True,117,125,14,45,0,0,0,MERGED
+263550,Highlight more languages in markdown code blocks,remcohaszing,2025-08-27T07:56:53Z,2025-08-28T00:23:33+00:00,2,16.44,True,3,0,1,161,0,0,0,MERGED
+263510,clean up todo tool and update telemetry,bhavyaus,2025-08-27T00:25:32Z,2025-08-27T05:48:07+00:00,1,5.38,True,87,79,1,0,0,0,0,MERGED
+263508,Enforce that endpoints in the server metadata have to be http,TylerLeonhardt,2025-08-27T00:13:39Z,2025-08-27T01:49:10+00:00,1,1.59,True,102,5,2,28,0,0,0,MERGED
+263507,`workbench.action.chat.export` optionally accept path,rwoll,2025-08-27T00:10:45Z,2025-08-27T13:56:19+00:00,4,13.76,True,13,9,1,65,0,1,1,MERGED
+263506,Implements editTelemetry.codeSuggested and editTelemetry.codeAccepted,hediet,2025-08-27T00:06:45Z,2025-08-27T01:48:48+00:00,1,1.7,True,629,42,31,48,0,0,0,MERGED
+263497,Adopt registerTool,roblourens,2025-08-26T23:27:32Z,2025-08-27T04:19:20+00:00,1,4.86,True,124,139,6,48,0,0,0,MERGED
+263483,fix sizing/padding for chat session inline actions,rebornix,2025-08-26T22:05:53Z,2025-08-26T23:08:01+00:00,1,1.04,True,9,2,1,0,0,0,0,MERGED
+263481,Honor workbench.externalBrowser setting for GitHub issue creation,copilot-swe-agent,2025-08-26T22:02:00Z,2025-08-28T04:27:42+00:00,2,30.43,True,44,23,4,2392,0,0,0,MERGED
+263479,Fix CSS selector mismatch for confirmation button hiding,copilot-swe-agent,2025-08-26T21:42:28Z,2025-08-27T17:32:30+00:00,4,19.83,True,28,29,2,2300,0,1,1,MERGED
+263465,"add more actions to elicitation part, provide them for terminal input requests",meganrogge,2025-08-26T19:34:34Z,2025-08-27T16:10:51+00:00,9,20.6,True,72,24,5,8,0,6,6,MERGED
+263458,fix: parse commands in chat.open commands,rwoll,2025-08-26T19:01:28Z,2025-08-26T20:51:53+00:00,5,1.84,True,5,4,1,566,0,1,1,MERGED
+263453,Support all chatSessionTypes in registerGroupListeners and enable local view to track all sessions,copilot-swe-agent,2025-08-26T18:48:18Z,2025-08-27T20:10:52+00:00,2,25.38,True,264,132,5,4623,2,0,2,MERGED
+263452,Fix SI double install issue in pwsh,Tyriar,2025-08-26T18:44:32Z,2025-08-27T15:01:03+00:00,1,20.28,True,1,1,1,13,0,0,0,MERGED
+263451,"Allow configuring userDataDir, ExtensionDir, & usage of in-memory Secret Storage",TylerLeonhardt,2025-08-26T18:41:13Z,2025-08-27T19:31:28+00:00,5,24.84,True,57,87,10,11,1,4,5,MERGED
+263438,add output monitoring for foreground terminals,meganrogge,2025-08-26T17:08:03Z,2025-08-26T21:32:59+00:00,2,4.42,True,41,18,5,44,0,2,2,MERGED
+263432,update locked coding agent welcome message,joshspicer,2025-08-26T16:22:36Z,2025-08-26T18:21:00+00:00,1,1.97,True,13,3,1,0,0,0,0,MERGED
+263415,Finalize LM API,lramos15,2025-08-26T13:17:50Z,2025-08-27T17:25:34+00:00,9,28.13,True,236,211,11,16,0,34,34,MERGED
+263396,Add chat sparkle icons for warning and error states,mrleemurray,2025-08-26T10:15:33Z,2025-08-26T13:45:19+00:00,1,3.5,True,2,0,2,79,3,0,3,MERGED
+263373,Fix terminal link disposable leak ,anthonykim1,2025-08-26T05:34:15Z,2025-08-27T15:56:36+00:00,9,34.37,True,10,12,1,17,2,4,6,MERGED
+263369,Add configurable prompt file suggestions with when-clause support,digitarald,2025-08-26T04:47:13Z,2025-08-30T05:50:04+00:00,6,97.05,True,310,59,5,2106,3,2,5,MERGED
+263345,Bump actions/checkout from 4 to 5,dependabot,2025-08-25T22:46:22Z,2025-08-27T08:02:07+00:00,1,33.26,True,11,11,8,6032,0,0,0,MERGED
+263299,Chat - add fontSize and fontFamily settings,lszomoru,2025-08-25T16:38:08Z,2025-08-25T19:50:23+00:00,1,3.2,True,38,7,4,0,1,0,1,MERGED
+263298,First pass at disabling tools that aren't useful for this MCP flow,TylerLeonhardt,2025-08-25T16:25:05Z,2025-08-25T18:46:20+00:00,1,2.35,True,1229,1154,20,79,0,0,0,MERGED
+263294,Fix preLaunchTask running before concurrent session confirmation,copilot-swe-agent,2025-08-25T16:16:15Z,2025-09-02T22:13:54+00:00,11,197.96,True,43,6,1,2465,3,3,6,MERGED
+263292,Enable terminal sticky scroll as default true in both stable and insiders,anthonykim1,2025-08-25T16:10:28Z,2025-08-25T18:00:54+00:00,2,1.84,True,1,2,1,163,2,0,2,MERGED
+263238,Introduce MCP gallery manifest service,sandy081,2025-08-25T10:40:50Z,2025-08-25T12:27:21+00:00,1,1.78,True,301,37,11,0,0,0,0,MERGED
+263228,Fix a typo in nls.localize(...) in localization.contribution.ts,Peter-developer01,2025-08-25T09:19:15Z,2025-09-22T07:32:13+00:00,2,670.22,True,1,1,1,163,0,0,0,MERGED
+263173,Add more fig specs ,Tyriar,2025-08-24T19:06:55Z,2025-08-24T20:31:17+00:00,1,1.41,True,25059,27,68,548,0,0,0,MERGED
+263161,Add LanguageModelToolsService unit tests,roblourens,2025-08-24T17:01:42Z,2025-08-24T19:35:21+00:00,2,2.56,True,1066,52,5,130,1,0,1,MERGED
+263147,fix: memory leak in accessibilty signal scheduler,SimonSiefke,2025-08-24T12:47:08Z,2025-08-25T18:34:52+00:00,2,29.8,True,2,3,1,50,1,0,1,MERGED
+263136,fix: memory leak in codelens controller,SimonSiefke,2025-08-24T09:12:16Z,2025-08-25T15:30:27+00:00,2,30.3,True,1,0,1,725,0,0,0,MERGED
+263114,Add ConfirmationTool,roblourens,2025-08-24T00:18:58Z,2025-08-24T02:19:03+00:00,3,2.0,True,125,14,5,7,0,1,1,MERGED
+263095,first steps to move cloud button off of remoteCodingAgents.d.ts,joshspicer,2025-08-23T18:56:54Z,2025-08-24T13:58:35+00:00,1,19.03,True,145,81,3,0,0,0,0,MERGED
+263086,Implement skipping of terminal commands,Tyriar,2025-08-23T16:08:59Z,2025-08-23T17:46:41+00:00,1,1.63,True,52,48,4,166,1,0,1,MERGED
+263079,Wait for rich SI to enter prompt before executing,Tyriar,2025-08-23T15:37:23Z,2025-08-23T16:38:37+00:00,1,1.02,True,21,6,2,13,0,0,0,MERGED
+263066,allow classes for syntax highlighting in collapsed cells,amunger,2025-08-23T14:27:39Z,2025-08-27T22:06:05+00:00,5,103.64,True,12,6,5,100,2,1,3,MERGED
+263038,Update to recent xterm.js,anthonykim1,2025-08-23T08:25:39Z,2025-08-23T14:53:56+00:00,1,6.47,True,169,169,6,51,0,0,0,MERGED
+263010,Progress for local chat sessions,osortega,2025-08-23T01:17:46Z,2025-08-23T05:42:41+00:00,1,4.42,True,122,18,3,46,0,0,0,MERGED
+263002,fix thinking pinned container check,justschen,2025-08-22T23:25:32Z,2025-09-05T17:13:59+00:00,1,329.81,False,1,1,1,83,1,0,1,CLOSED
+262999,Show tools from toolsets in the tools picker,aeschli,2025-08-22T22:51:15Z,2025-08-25T20:22:26+00:00,1,69.52,True,312,352,8,0,0,0,0,MERGED
+262997,Adding chat opening actions,osortega,2025-08-22T22:15:39Z,2025-08-22T23:43:54+00:00,1,1.47,True,262,6,4,66,0,0,0,MERGED
+262984,Add another server built on top of our own automation framework,TylerLeonhardt,2025-08-22T20:34:48Z,2025-08-23T00:20:22+00:00,1,3.76,True,3028,514,27,125,0,0,0,MERGED
+262972,Clean up handling of auto approval allow handling,Tyriar,2025-08-22T19:13:23Z,2025-08-22T21:39:38+00:00,1,2.44,True,20,11,2,15,0,0,0,MERGED
+262968,Simplify chat confirm css/structure,Tyriar,2025-08-22T18:53:23Z,2025-08-23T07:54:11+00:00,1,13.01,True,23,27,2,13,1,0,1,MERGED
+262947,rewrite polling function,meganrogge,2025-08-22T15:51:21Z,2025-08-25T23:47:15+00:00,8,79.93,True,397,257,6,501,0,11,11,MERGED
+262931,make check safer,meganrogge,2025-08-22T14:10:33Z,2025-08-22T16:08:57+00:00,1,1.97,True,9,3,1,0,0,1,1,MERGED
+262930,Add granular telemetry for terminal tool input interactions and remove deprecated autoReplyCount field,copilot-swe-agent,2025-08-22T14:07:23Z,2025-08-22T19:36:56+00:00,8,5.49,True,112,16,8,2307,5,5,10,MERGED
+262885,Git - accept working set changes when a resource is staged/committed,lszomoru,2025-08-22T10:43:48Z,2025-08-25T15:07:52+00:00,1,76.4,True,27,1,2,118,0,0,0,MERGED
+262879,Improve error message for Visual Studio detection in build process,copilot-swe-agent,2025-08-22T10:00:58Z,2025-09-01T23:32:21+00:00,2,253.52,True,7,1,1,1165,0,0,0,MERGED
+262877,chore: update electron@37.3.1,deepak1556,2025-08-22T09:57:07Z,2025-08-26T13:40:21+00:00,1,99.72,True,117,125,14,270,0,0,0,MERGED
+262851,chat - allow `chat.disableAIFeatures` as workspace setting,bpasero,2025-08-22T07:37:30Z,2025-08-22T08:42:29+00:00,1,1.08,True,8,7,2,0,0,0,0,MERGED
+262835,Add missing `else` to be explicit,DonJayamanne,2025-08-22T04:22:07Z,2025-08-25T01:01:54+00:00,1,68.66,True,1,1,1,11,0,0,0,MERGED
+262814,Try to avoid rerendering experimental welcome view too often,roblourens,2025-08-21T23:58:57Z,2025-09-04T03:11:05+00:00,3,315.2,False,6,4,2,18,0,2,2,CLOSED
+262808,Allow modals in automation,TylerLeonhardt,2025-08-21T23:23:56Z,2025-08-22T13:54:31+00:00,1,14.51,True,68,19,13,513,0,0,0,MERGED
+262803,make sure to dispose of any leftover overlays,justschen,2025-08-21T22:47:28Z,2025-09-02T06:58:02+00:00,2,272.18,False,14,0,2,101,1,1,2,CLOSED
+262802,combine thinking parts,justschen,2025-08-21T22:26:50Z,2025-08-21T23:59:44+00:00,1,1.55,True,175,65,4,0,1,0,1,MERGED
+262796,improve task problem monitoring,meganrogge,2025-08-21T21:22:39Z,2025-08-22T01:13:29+00:00,1,3.85,True,166,9,9,29,0,0,0,MERGED
+262792,move tasks over to using `outputMonitor`,meganrogge,2025-08-21T21:10:52Z,2025-08-22T00:42:24+00:00,2,3.53,True,104,92,6,129,0,0,0,MERGED
+262787,extHostMcp: accept Content-Type parameters for SSE/JSON handling,Tritlo,2025-08-21T20:40:07Z,2025-08-21T22:41:30+00:00,2,2.02,True,24,28,1,150,1,0,1,MERGED
+262785,Fix terminal sticky scroll breaking 'tab moves focus',anthonykim1,2025-08-21T20:19:32Z,2025-08-22T18:15:05+00:00,4,21.93,True,8,0,1,368,0,2,2,MERGED
+262782,add bg terminal /task auto reply,meganrogge,2025-08-21T20:03:32Z,2025-08-21T23:36:37+00:00,7,3.55,True,163,7,6,56,0,5,5,MERGED
+262780,Convert most top hitting eager event creations to use getters,mjbvz,2025-08-21T19:57:00Z,2025-08-22T07:42:49+00:00,2,11.76,True,53,53,22,254,1,0,1,MERGED
+262775,"Build out command allow list, improve unknown reporting",Tyriar,2025-08-21T19:38:52Z,2025-08-21T21:10:15+00:00,1,1.52,True,95,10,1,15,0,0,0,MERGED
+262768,Prefer using addDisposableListener in sash,mjbvz,2025-08-21T18:50:27Z,2025-08-21T21:03:53+00:00,2,2.22,True,14,25,2,186,1,0,1,MERGED
+262766,Add warning for when a disposable is registered multiple times on the same store,mjbvz,2025-08-21T18:47:12Z,2025-08-22T18:31:08+00:00,1,23.73,False,11,11,9,67,2,0,2,CLOSED
+262754,User getters for events on a few common types,mjbvz,2025-08-21T17:43:47Z,2025-08-21T21:05:36+00:00,2,3.36,True,10,9,4,131,3,0,3,MERGED
+262736,Update BYOK API with more feedback,lramos15,2025-08-21T15:50:27Z,2025-08-21T17:06:50+00:00,1,1.27,True,31,25,3,33,0,0,0,MERGED
+262732,fix task leak,meganrogge,2025-08-21T15:44:38Z,2025-08-21T19:48:43+00:00,2,4.07,True,4,1,1,11,0,1,1,MERGED
+262682,Update for-in loop snippet with `Object.hasOwn()`,Da-nie-elT,2025-08-21T12:02:43Z,2025-08-22T05:57:38+00:00,2,17.92,True,10,8,2,381,1,0,1,MERGED
+262656,migrate worktree changes,nguyenchristy,2025-08-21T08:17:37Z,2025-08-28T14:57:26+00:00,10,174.66,True,82,0,3,56,0,5,5,MERGED
+262638,Update instructions for builds,digitarald,2025-08-21T04:26:42Z,2025-08-25T06:50:22+00:00,3,98.39,True,133,25,3,234,1,0,1,MERGED
+262636,Hide next notebook cell edits when changing focus,DonJayamanne,2025-08-21T04:03:28Z,2025-08-21T06:19:28+00:00,1,2.27,True,14,2,1,11,0,0,0,MERGED
+262634,Enhance Todo list header with status icons and completion state,copilot-swe-agent,2025-08-21T03:56:46Z,2025-08-21T19:53:55+00:00,2,15.95,False,69,8,2,1473,3,1,4,CLOSED
+262608,Use unattached chat editor for initial prompt,joshspicer,2025-08-20T23:48:04Z,2025-08-21T01:04:36+00:00,1,1.28,True,38,29,3,383,0,0,0,MERGED
+262603,Add support for Entra ID v1.0 authorization servers in VSCode MCP Client,copilot-swe-agent,2025-08-20T23:32:07Z,2025-08-29T10:21:54+00:00,9,202.83,True,9,0,4,1985,1,2,3,MERGED
+262593,Change upArrowNavigatesHistory back,Tyriar,2025-08-20T22:08:24Z,2025-08-20T23:59:31+00:00,1,1.85,True,1,1,1,13,0,0,0,MERGED
+262585,integrate bufferOutputPolling into outputMonitor,meganrogge,2025-08-20T21:32:46Z,2025-08-21T19:12:08+00:00,9,21.66,True,453,80,6,0,0,9,9,MERGED
+262573,tool picker with toolsets,aeschli,2025-08-20T20:53:55Z,2025-08-21T09:44:46+00:00,2,12.85,True,233,247,4,13,0,0,0,MERGED
+262567,Simplify `actionHandler` argument for rendering markdown,mjbvz,2025-08-20T20:48:16Z,2025-08-20T21:50:54+00:00,1,1.04,True,124,171,17,203,1,0,1,MERGED
+262563,tools: show auto-approval on initial selection,connor4312,2025-08-20T20:40:21Z,2025-08-20T21:51:11+00:00,1,1.18,True,19,18,5,14,0,0,0,MERGED
+262558,Explore installing npm package when installing mcp server,sandy081,2025-08-20T20:03:10Z,2025-08-20T21:15:12+00:00,3,1.2,True,223,32,6,0,0,2,2,MERGED
+262545,Update Beginner walkthrough,bhavyaus,2025-08-20T18:39:53Z,2025-08-31T01:16:33+00:00,2,246.61,True,10,81,1,0,0,1,1,MERGED
+262538,Fix spelling errors in vscode.d.ts,copilot-swe-agent,2025-08-20T18:09:49Z,2025-08-21T20:02:35+00:00,1,25.88,True,2,2,1,1103,0,0,0,MERGED
+262510,Allow modals in automation,TylerLeonhardt,2025-08-20T16:11:02Z,2025-08-21T22:07:11+00:00,5,29.94,True,62,18,12,513,3,4,7,MERGED
+262501,Add terminal auto approve opt-in,Tyriar,2025-08-20T14:46:54Z,2025-08-20T17:28:25+00:00,1,2.69,True,196,51,6,13,0,0,0,MERGED
+262482,chat - tweaks to setting for hide/disable,bpasero,2025-08-20T11:17:37Z,2025-08-21T13:25:05+00:00,1,26.12,True,167,105,7,0,0,0,0,MERGED
+262469,Updates common for use in vscode-copilot-chat,hediet,2025-08-20T09:42:33Z,2025-08-20T11:57:53+00:00,3,2.26,True,39,2,6,0,0,0,0,MERGED
+262462,Treat ellipsis character as search wildcard,Skn0tt,2025-08-20T09:02:11Z,2025-09-10T05:09:36+00:00,2,500.12,True,14,1,2,339,1,0,1,MERGED
+262439,Wire in a auth callback parameter to indicate Copilot terms were shown to the user (microsoft/vscode-internalbacklog#5761),bpasero,2025-08-20T05:55:44Z,2025-08-22T05:42:25+00:00,7,47.78,True,61,7,4,0,2,1,3,MERGED
+262436,Fix terminal sticky scroll flash when pager ,anthonykim1,2025-08-20T05:34:29Z,2025-08-24T22:37:26+00:00,7,113.05,True,19,2,1,17,0,3,3,MERGED
+262430,addressed review comments,eli-w-king,2025-08-20T04:21:43Z,2025-09-01T00:40:48+00:00,5,284.32,False,10470,45415,678,98,3,13,16,CLOSED
+262420,support model switching in automation,rwoll,2025-08-20T02:17:55Z,2025-08-20T18:25:12+00:00,14,16.12,True,56,14,2,304,2,1,3,MERGED
+262417,Allow dialogs in automation,TylerLeonhardt,2025-08-20T00:54:54Z,2025-08-20T01:56:20+00:00,2,1.02,True,27,4,13,203,1,0,1,MERGED
+262414, Git: Fix worktree checkout default actions,nguyenchristy,2025-08-20T00:19:20Z,2025-09-01T13:46:09+00:00,5,301.45,True,19,2,1,212,2,1,3,MERGED
+262412,Switch off of deprecated electron protocol methods for loading internal webview content ,mjbvz,2025-08-19T23:38:30Z,2025-08-20T05:11:07+00:00,2,5.54,True,29,23,2,0,2,0,2,MERGED
+262407,Add some perf markers for webview,mjbvz,2025-08-19T23:04:43Z,2025-08-20T04:47:01+00:00,1,5.71,True,54,4,3,0,1,0,1,MERGED
+262401,Remove `skipSanitize` option and disable command uris by default,mjbvz,2025-08-19T22:09:13Z,2025-08-20T04:47:11+00:00,2,6.63,True,7,7,2,52,1,0,1,MERGED
+262385,Encode sub-commands as JSON array,Tyriar,2025-08-19T19:47:45Z,2025-08-19T20:49:56+00:00,1,1.04,True,59,33,2,15,0,0,0,MERGED
+262376,Make PR chat card look like new tools confirmation,alexr00,2025-08-19T19:18:46Z,2025-08-19T20:39:43+00:00,1,1.35,True,52,56,2,13,0,0,0,MERGED
+262370,Wait for agent loop to finish in automation,rwoll,2025-08-19T18:45:49Z,2025-08-20T17:13:48+00:00,6,22.47,True,97,4,6,791,1,2,3,MERGED
+262366,Adds more metadata to inlineChat.applyEdits,hediet,2025-08-19T18:21:29Z,2025-08-19T21:21:11+00:00,2,3.0,True,90,20,29,0,0,0,0,MERGED
+262363,Using marshalled session context for chat session actions,osortega,2025-08-19T18:04:43Z,2025-08-19T19:20:18+00:00,1,1.26,True,60,6,1,65,0,0,0,MERGED
+262327, Create MCP SERVER. -Jarlungoodoo73,jarlungoodoo73,2025-08-19T13:59:46Z,2025-08-20T09:07:51+00:00,1,19.13,False,1,0,1,35,0,0,0,CLOSED
+262316,Fix terminal suggest path normalization for git branches with `/` character,copilot-swe-agent,2025-08-19T12:46:58Z,2025-08-24T18:15:03+00:00,2,125.47,False,139,25,10,2611,3,0,3,CLOSED
+262311,Terminal tool: Use hardcoded command list for telemetry reporting,copilot-swe-agent,2025-08-19T12:11:49Z,2025-08-19T15:07:40+00:00,6,2.93,True,306,1,3,1829,1,3,4,MERGED
+262300,chore: bump gulp-electron@1.38.2,deepak1556,2025-08-19T10:13:43Z,2025-08-20T05:41:10+00:00,1,19.46,True,5,5,2,37,0,0,0,MERGED
+262291,"Revert ""chore: enable verbose logs for windows electron smoketests""",deepak1556,2025-08-19T09:16:09Z,2025-08-19T10:28:34+00:00,2,1.21,True,1,1,1,27,0,0,0,MERGED
+262285,Write screen reader content on focus change,aiday-mar,2025-08-19T08:35:29Z,2025-08-19T09:42:24+00:00,1,1.12,True,1,0,1,41,0,0,0,MERGED
+262282,Engineering - fix node modules cache action,lszomoru,2025-08-19T08:09:36Z,2025-08-19T09:26:23+00:00,1,1.28,True,1,1,1,0,0,0,0,MERGED
+262276,Engineering - cleanup pull request ADO pipeline,lszomoru,2025-08-19T07:46:23Z,2025-08-19T09:25:14+00:00,1,1.65,True,720,1479,21,96,0,0,0,MERGED
+262268,Fix smoke test directory conflicts by adding unique workspace path suffixes,copilot-swe-agent,2025-08-19T06:45:06Z,2025-08-19T10:57:48+00:00,3,4.21,True,22,2,2,2357,0,0,0,MERGED
+262266,"Implement workspace-aware default window sizing with unified API (1440x900 for workspaces, 1200x800 for empty windows)",copilot-swe-agent,2025-08-19T06:39:39Z,2025-08-19T10:58:58+00:00,6,4.32,True,16,13,6,2500,1,2,3,MERGED
+262262,feat: Add swipe gesture recognizer and `onDidReceiveSwipeGesture` extension API.,seivan,2025-08-19T05:37:00Z,2025-10-03T12:40:49+00:00,4,1087.06,False,68,0,7,470,5,3,8,CLOSED
+262260,Use stdio for the vscode playwright mcp,TylerLeonhardt,2025-08-19T05:16:58Z,2025-08-19T06:27:11+00:00,1,1.17,True,1003,44,9,83,0,0,0,MERGED
+262252,Version bump recovery 2,osortega,2025-08-19T03:53:28Z,2025-08-20T15:13:54+00:00,3,35.34,True,3,3,2,0,1,0,1,MERGED
+262240,remove preview from checkpoints,justschen,2025-08-19T01:07:04Z,2025-08-19T02:11:20+00:00,1,1.07,True,0,1,1,11,1,0,1,MERGED
+262239,handle thinking part serialization,justschen,2025-08-19T00:57:24Z,2025-08-19T23:38:36+00:00,9,22.69,True,8,11,2,11,4,3,7,MERGED
+262234,Don't skip sanitize for system extensions readmes,mjbvz,2025-08-18T23:48:52Z,2025-08-19T21:53:31+00:00,1,22.08,True,20,9,3,292,2,0,2,MERGED
+262232,Still allow class attrs in rendered markdown docs,mjbvz,2025-08-18T23:35:01Z,2025-08-19T00:47:58+00:00,3,1.22,True,1,0,1,13,3,0,3,MERGED
+262229,Lock Playwright MCP and Playwright Test Versions,TylerLeonhardt,2025-08-18T23:28:35Z,2025-08-25T06:05:05+00:00,2,150.61,False,1056,62,10,237,1,0,1,CLOSED
+262221,Integrate chat session monitoring into existing Copilot status bar dashboard with performance optimizations,copilot-swe-agent,2025-08-18T22:32:46Z,2025-09-04T17:33:41+00:00,1,403.02,False,324,14,4,3148,4,0,4,CLOSED
+262214,Add hierarchical chat history tree view to LocalChatSessionsProvider,copilot-swe-agent,2025-08-18T21:56:29Z,2025-08-21T06:36:00+00:00,2,56.66,True,313,230,5,2421,2,0,2,MERGED
+262188,Remove deprecated experimental welcome experience support,bhavyaus,2025-08-18T18:06:32Z,2025-08-18T19:58:04+00:00,1,1.86,True,11,1031,4,0,0,0,0,MERGED
+262186,Fix reporting of lsp provider id,Tyriar,2025-08-18T18:03:26Z,2025-08-19T04:09:39+00:00,1,10.1,True,1,1,1,15,0,0,0,MERGED
+262183,working set changed files improvements,justschen,2025-08-18T17:54:52Z,2025-08-18T19:25:24+00:00,1,1.51,True,91,6,4,0,1,0,1,MERGED
+262181,Fall back to alternate fetch implementation,chrmarti,2025-08-18T17:44:11Z,2025-08-19T11:46:22+00:00,3,18.04,True,379,9,4,0,0,1,1,MERGED
+262177,chat: improve tool truncation styling,connor4312,2025-08-18T17:29:01Z,2025-08-18T20:00:06+00:00,3,2.52,True,24,10,2,14,0,0,0,MERGED
+262175,separate open and delete worktree action,nguyenchristy,2025-08-18T17:20:51Z,2025-08-18T18:30:04+00:00,2,1.15,True,1,1,1,0,0,0,0,MERGED
+262174,Propose a few tweaks/todos for chatProvider,mjbvz,2025-08-18T17:20:45Z,2025-08-19T14:20:28+00:00,3,21.0,True,27,16,2,0,0,2,2,MERGED
+262169,change todo list tool experiment setting from 'startup' to 'auto',bhavyaus,2025-08-18T16:40:24Z,2025-08-19T04:17:44+00:00,2,11.62,True,1,1,1,12,0,0,0,MERGED
+262150,Avoid recreating deriveds,aeschli,2025-08-18T14:33:19Z,2025-08-19T04:07:12+00:00,1,13.56,True,58,60,1,13,1,0,1,MERGED
+262147,$(zap) is not escaped in the tooltip,aeschli,2025-08-18T14:22:13Z,2025-08-18T15:26:47+00:00,1,1.08,True,1,1,1,13,1,0,1,MERGED
+262146,Changes mode from startup to auto (https://github.com/microsoft/vscode/issues/257059),hediet,2025-08-18T14:17:40Z,2025-08-18T17:44:07+00:00,1,3.44,True,5,5,2,43,0,0,0,MERGED
+262128,Show faster when in accept flow,benibenj,2025-08-18T12:12:16Z,2025-08-18T15:03:02+00:00,1,2.85,True,1,1,1,152,0,0,0,MERGED
+262105,vscode api - document file watcher behaviour for deletes,bpasero,2025-08-18T09:20:08Z,2025-08-18T15:27:52+00:00,1,6.13,True,3,0,1,0,0,0,0,MERGED
+262068,Remove startup experimentation code and setup splitWelcomeChat view as getting started experience,bhavyaus,2025-08-18T00:16:58Z,2025-08-18T10:24:30+00:00,2,10.13,True,13,659,12,0,0,0,0,MERGED
+262033,Fix git bash CDPATH to use correct absolute format ,Tyriar,2025-08-17T14:53:27Z,2025-08-18T12:09:45+00:00,1,21.27,True,4,2,1,21,0,0,0,MERGED
+262028,Pull completions from Windows PowerShell when relevant,Tyriar,2025-08-17T14:22:28Z,2025-08-17T15:42:21+00:00,1,1.33,True,4,1,1,13,0,0,0,MERGED
+262027,Use label service for URI formatting in suggest detail,Tyriar,2025-08-17T14:09:55Z,2025-08-18T04:03:35+00:00,1,13.89,True,20,15,2,35,0,0,0,MERGED
+262024,Actually use the cache for suggest globals,Tyriar,2025-08-17T13:57:43Z,2025-08-17T15:42:17+00:00,1,1.74,True,6,0,1,15,0,0,0,MERGED
+262022,Remove deprecated pwsh script completion provider,Tyriar,2025-08-17T13:44:08Z,2025-08-17T15:41:59+00:00,1,1.96,True,1,522,4,13,0,0,0,MERGED
+262021,Ensure fig generators have correct cwd and env set,Tyriar,2025-08-17T13:38:52Z,2025-08-17T15:41:36+00:00,1,2.05,True,31,5,2,90,0,0,0,MERGED
+261999,storage: optimize sqlite insert with upsert syntax,tmm1,2025-08-17T07:38:02Z,2025-08-18T09:43:42+00:00,10,26.09,True,1,1,1,25,0,1,1,MERGED
+261998,Secondary sidebar visible by default in new workspace (fix #259496),bpasero,2025-08-17T07:27:00Z,2025-08-18T19:55:46+00:00,1,36.48,True,18,18,2,0,0,0,0,MERGED
+261898,Add initial MCP server,TylerLeonhardt,2025-08-15T23:43:58Z,2025-08-16T06:25:13+00:00,1,6.69,True,3948,3,13,486,0,0,0,MERGED
+261878,fix: only re-render available tree elements,rzhao271,2025-08-15T20:01:19Z,2025-08-15T21:45:06+00:00,1,1.73,True,4,4,1,132,0,0,0,MERGED
+261874,"Fix accessibility issues with confirmation widget, add command to focus it directly if present, announce none if not present",copilot-swe-agent,2025-08-15T19:33:10Z,2025-08-20T15:20:09+00:00,7,115.78,True,107,4,4,1982,2,2,4,MERGED
+261872,Add accessibility headers to chat list items for screen reader navigation,copilot-swe-agent,2025-08-15T19:25:33Z,2025-09-23T01:48:14+00:00,1,918.38,False,111,1,3,2687,4,6,10,CLOSED
+261871,"Fix repeated ""Made changes"" messages in chat accessible view",copilot-swe-agent,2025-08-15T19:23:57Z,2025-08-21T17:18:36+00:00,4,141.91,True,55,2,2,2022,0,0,0,MERGED
+261860,Fix focus restoration after Alt+F1 accessibility help in chat,copilot-swe-agent,2025-08-15T18:53:07Z,2025-08-15T23:52:24+00:00,3,4.99,True,3,0,1,1602,0,0,0,MERGED
+261851,Hide non user selectable models from picker when provider specifies user selectable,lramos15,2025-08-15T17:36:14Z,2025-08-15T21:27:02+00:00,1,3.85,True,5,1,1,0,0,0,0,MERGED
+261850,ci: address sha mismatches in unviersal build,deepak1556,2025-08-15T17:32:46Z,2025-08-15T19:13:50+00:00,1,1.68,True,33,21,3,830,0,0,0,MERGED
+261846,allow range to be udf for all relevant tools,meganrogge,2025-08-15T17:11:26Z,2025-08-15T19:55:31+00:00,1,2.73,True,34,16,3,0,0,0,0,MERGED
+261823,Add configurable shell integration timeout for terminal tools,copilot-swe-agent,2025-08-15T14:09:15Z,2025-08-17T12:40:14+00:00,3,46.52,True,33,3,3,2986,0,0,0,MERGED
+261821,Polish terminal chat actions,Tyriar,2025-08-15T14:05:11Z,2025-08-15T15:19:15+00:00,2,1.23,True,3,2,2,13,0,0,0,MERGED
+261815,Fix OAuth2 resource parameter compliance with RFC 8707,bluedog13,2025-08-15T13:18:23Z,2025-08-28T22:56:25+00:00,2,321.63,True,10,0,1,1251,0,0,0,MERGED
+261798,Allow to hide Copilot via user setting and policy (fix #249615),bpasero,2025-08-15T12:02:27Z,2025-08-15T14:36:47+00:00,1,2.57,True,80,27,9,0,0,0,0,MERGED
+261793,prompt tools are not applied,aeschli,2025-08-15T11:05:41Z,2025-08-19T11:22:14+00:00,1,96.28,True,1,1,1,0,0,0,0,MERGED
+261777,remove microphone icon from chat input when voice is not installed,isidorn,2025-08-15T09:15:34Z,2025-08-15T10:51:19+00:00,1,1.6,True,1,75,2,113,0,0,0,MERGED
+261769,Investigate issues displaying quota information for proxima accounts (fix #259514),bpasero,2025-08-15T08:12:35Z,2025-08-22T05:41:13+00:00,1,165.48,True,15,6,1,0,0,0,0,MERGED
+261761,Dispaly next NES in other documents,DonJayamanne,2025-08-15T07:14:10Z,2025-08-18T21:38:33+00:00,1,86.41,True,20,2,1,7,0,0,0,MERGED
+261751,windows - improved window border handling,bpasero,2025-08-15T05:12:38Z,2025-08-28T07:04:12+00:00,1,313.86,True,85,10,7,11,3,0,3,MERGED
+261717,Ability to pass down WWW-Authenticate challenges down to Auth Providers,TylerLeonhardt,2025-08-14T22:21:35Z,2025-08-15T01:10:06+00:00,1,2.81,True,704,121,22,3176,1,0,1,MERGED
+261714,Support next edits suggestions for different text documents,DonJayamanne,2025-08-14T22:11:11Z,2025-08-18T09:07:14+00:00,6,82.93,True,75,14,13,11,0,5,5,MERGED
+261713,"improve problem detection for tasks, make use of `outputMonitor`, add auto-reply ",meganrogge,2025-08-14T22:09:25Z,2025-08-21T20:36:15+00:00,34,166.45,False,852,349,23,358,0,56,56,CLOSED
+261710,terminalProcessManager: fix disposable leak,tmm1,2025-08-14T21:21:47Z,2025-08-15T16:45:34+00:00,2,19.4,True,4,0,1,536,3,0,3,MERGED
+261705,Add telemetry event for chat mode switching,copilot-swe-agent,2025-08-14T20:17:24Z,2025-08-22T23:56:52+00:00,2,195.66,True,24,1,1,1786,2,0,2,MERGED
+261704,Prompt file name cannot contain digits,j3iiifn,2025-08-14T20:07:59Z,2025-08-18T15:07:49+00:00,2,91.0,True,53,1,3,13,2,0,2,MERGED
+261699,Add Open Active Diff Side option to Command Palette using DIFF_OPEN_SIDE command,LeftPhalange,2025-08-14T20:01:20Z,2025-08-21T09:45:52+00:00,2,157.74,True,41,31,2,857,2,0,2,MERGED
+261693,Bump brace-expansion from 1.1.11 to 1.1.12 in /extensions/markdown-language-features,dependabot,2025-08-14T19:37:56Z,2025-08-19T09:55:16+00:00,1,110.29,True,4,3,1,2002,0,0,0,MERGED
+261677,Disable `get_task_output` and `run_task` tools when no tasks are available in workspace,copilot-swe-agent,2025-08-14T18:11:03Z,2025-08-14T19:39:13+00:00,2,1.47,True,17,4,5,2007,0,0,0,MERGED
+261672,Enable a few more stylistic eslint options for my extensions,mjbvz,2025-08-14T17:43:09Z,2025-08-14T19:35:50+00:00,1,1.88,True,40,26,16,0,1,0,1,MERGED
+261669,Also add katex to remote deps,mjbvz,2025-08-14T17:27:32Z,2025-09-02T21:29:21+00:00,1,460.03,True,27,0,2,17,1,0,1,MERGED
+261645,Modify LM api based on feedback,lramos15,2025-08-14T14:03:41Z,2025-08-14T20:59:45+00:00,2,6.93,True,111,157,14,0,0,1,1,MERGED
+261637,chat - ensure chat view opens when using context actions (#261632),bpasero,2025-08-14T13:08:30Z,2025-08-14T15:28:22+00:00,1,2.33,True,4,3,1,0,0,0,0,MERGED
+261633,Revert addition of Uri to InlineCompletion,DonJayamanne,2025-08-14T12:19:04Z,2025-08-14T15:21:52+00:00,1,3.05,True,9,44,11,27,0,0,0,MERGED
+261619,Support registering views to the secondary side bar,benibenj,2025-08-14T10:25:56Z,2025-08-25T11:01:24+00:00,3,264.59,True,22,2,4,348,1,1,2,MERGED
+261582,fix working spinner stuck,justschen,2025-08-14T05:28:46Z,2025-08-14T06:35:19+00:00,1,1.11,True,4,0,1,11,2,0,2,MERGED
+261560,Enable strict by default in implicit js/ts projects,copilot-swe-agent,2025-08-14T00:21:02Z,2025-08-14T19:36:38+00:00,6,19.26,True,17,0,4,2421,1,1,2,MERGED
+261552,replaced copilot with chat sparkle icon in command center,eli-w-king,2025-08-13T23:10:15Z,2025-08-22T11:02:19+00:00,1,203.87,False,3,3,1,48,1,0,1,CLOSED
+261548,Add activation guards to prevent multiple Python activation in shell integration scripts,copilot-swe-agent,2025-08-13T22:49:57Z,2025-08-15T00:15:39+00:00,5,25.43,True,45,27,5,1970,2,1,3,MERGED
+261547,Revised context menu,eli-w-king,2025-08-13T22:46:55Z,2025-08-22T12:48:24+00:00,2,206.02,False,31,8,4,472,1,3,4,CLOSED
+261539,"When a task with problem matchers becomes idle, return those instead of using the LLM to evaluate the output",meganrogge,2025-08-13T21:53:32Z,2025-08-14T00:14:18+00:00,4,2.35,True,161,36,8,78,0,3,3,MERGED
+261514,Ensure default auto approved regexed check from start of sub-commands,Tyriar,2025-08-13T19:41:25Z,2025-08-14T12:22:31+00:00,1,16.68,True,8,8,1,15,0,0,0,MERGED
+261504,Fix inconsistent setting value formatting in configuration descriptions,copilot-swe-agent,2025-08-13T17:58:47Z,2025-08-14T16:37:48+00:00,3,22.65,False,3,3,2,1535,2,1,3,CLOSED
+261500,Remove bower package intellisense from core,mjbvz,2025-08-13T17:49:43Z,2025-08-13T19:25:01+00:00,3,1.59,True,1,210,2,13,2,0,2,MERGED
+261497,Add setting link for hover hiding delay,mjbvz,2025-08-13T17:37:15Z,2025-08-13T18:58:24+00:00,1,1.35,True,1,1,1,0,1,0,1,MERGED
+261467,Fix KaTeX regex to prevent false math detection in PowerShell code,copilot-swe-agent,2025-08-13T15:21:53Z,2025-08-18T20:32:10+00:00,4,125.17,True,36,7,6,2067,1,1,2,MERGED
+261463,dont delay explicitly triggered suggestions,benibenj,2025-08-13T14:54:04Z,2025-08-13T16:22:21+00:00,2,1.47,True,1,1,1,0,2,0,2,MERGED
+261431,"Reuse terminal creator, refresh SI quality every reuse",Tyriar,2025-08-13T10:10:53Z,2025-08-13T14:44:58+00:00,1,4.57,True,24,2,2,15,0,0,0,MERGED
+261390,view diffs between worktree and current workspace,nguyenchristy,2025-08-13T04:12:10Z,2025-08-28T23:52:25+00:00,4,379.67,False,101,2,3,128,0,2,2,CLOSED
+261384,Avoid colorizing inline completion display label,DonJayamanne,2025-08-13T02:21:55Z,2025-09-08T02:04:55+00:00,3,623.72,False,6,3,2,0,0,1,1,CLOSED
+261383,Display NES for notebook cells on focus,DonJayamanne,2025-08-13T02:19:50Z,2025-08-21T10:06:46+00:00,1,199.78,False,22,0,1,11,2,0,2,CLOSED
+261376,Add support Uri of different document in inlineCompletionItem,DonJayamanne,2025-08-13T01:42:06Z,2025-08-14T10:12:23+00:00,4,32.5,True,44,9,11,11,0,2,2,MERGED
+261370,handle new thinking part shape,justschen,2025-08-13T00:50:06Z,2025-08-13T04:47:28+00:00,1,3.96,True,21,7,5,0,1,0,1,MERGED
+261369,Fix TodoList Tool keyboard accessibility and screen reader support,copilot-swe-agent,2025-08-13T00:45:53Z,2025-09-01T21:00:17+00:00,9,476.24,True,222,4,3,2645,2,2,4,MERGED
+261368,edits: initial implementation of edit approval/disapproval,connor4312,2025-08-13T00:30:31Z,2025-08-13T04:46:47+00:00,1,4.27,True,74,6,8,0,0,0,0,MERGED
+261361,Don't skip content parts after an empty thinking part,roblourens,2025-08-12T23:19:48Z,2025-08-13T04:46:08+00:00,1,5.44,True,13,13,1,11,0,0,0,MERGED
+261352,Fix terminal auto-approve to exclude command line arguments from subcommand suggestions,copilot-swe-agent,2025-08-12T22:41:38Z,2025-08-16T23:09:13+00:00,4,96.46,True,59,2,2,2025,0,0,0,MERGED
+261347,allow agent to run compound tasks,meganrogge,2025-08-12T22:27:33Z,2025-08-13T18:02:05+00:00,6,19.58,True,171,91,9,76,1,9,10,MERGED
+261340,Ignore a few more files for web,mjbvz,2025-08-12T22:03:04Z,2025-08-13T20:56:28+00:00,1,22.89,True,5,0,1,42,1,0,1,MERGED
+261327,Make new rules message italics,Tyriar,2025-08-12T20:26:03Z,2025-08-12T21:42:02+00:00,1,1.27,True,2,2,1,13,0,0,0,MERGED
+261324,Move confirmation actions to bottom and tool bar to top,Tyriar,2025-08-12T20:15:52Z,2025-08-12T22:16:59+00:00,1,2.02,True,51,35,5,15,0,0,0,MERGED
+261323,Handle errors when loading katex,mjbvz,2025-08-12T20:11:55Z,2025-08-12T21:40:24+00:00,1,1.47,True,9,6,1,11,1,0,1,MERGED
+261321,Add auto-approval messages for global chat.tools.autoApprove setting,copilot-swe-agent,2025-08-12T19:54:14Z,2025-08-13T14:46:02+00:00,2,18.86,True,37,24,2,2283,0,0,0,MERGED
+261318,Fix manage models being improperly shown,lramos15,2025-08-12T19:35:21Z,2025-08-12T21:43:24+00:00,2,2.13,True,53,16,4,11,0,1,1,MERGED
+261308,chat: refine todo list tool description,digitarald,2025-08-12T18:58:29Z,2025-08-13T09:58:52+00:00,2,15.01,True,1,1,1,258,0,1,1,MERGED
+261297,Fix class attrs being stripped from rendered math,mjbvz,2025-08-12T18:26:40Z,2025-08-13T20:56:09+00:00,1,26.49,True,20,1,2,0,1,0,1,MERGED
+261296,Add empty state message and create button for local chat sessions,copilot-swe-agent,2025-08-12T18:25:16Z,2025-08-13T00:23:26+00:00,2,5.97,True,3,23,1,2541,0,0,0,MERGED
+261292,Add description and status properties to ChatSessionItem interface,copilot-swe-agent,2025-08-12T18:13:43Z,2025-08-13T23:02:19+00:00,6,28.81,True,190,12,8,2897,0,1,1,MERGED
+261291,Enable dnd for chat sessions,mjbvz,2025-08-12T18:09:49Z,2025-08-12T19:15:56+00:00,1,1.1,True,76,43,1,13,1,0,1,MERGED
+261287,Adopt thenRegisterOrDispose helper ,Tyriar,2025-08-12T17:48:43Z,2025-08-14T07:52:46+00:00,1,38.07,True,13,27,4,35,1,0,1,MERGED
+261283,Fix double quoting in Windows task execution,copilot-swe-agent,2025-08-12T17:34:57Z,2025-08-14T01:13:36+00:00,5,31.64,False,122,1,2,1889,3,2,5,CLOSED
+261272,cap retrieved terminal chars at 16k,meganrogge,2025-08-12T16:42:51Z,2025-08-13T04:46:19+00:00,9,12.06,True,36,15,4,31,0,5,5,MERGED
+261267,Implement authentication challenges support with AuthenticationConstraint interface for mandatory MFA,copilot-swe-agent,2025-08-12T16:16:40Z,2025-08-14T22:22:21+00:00,2,54.09,False,704,121,22,4608,1,1,2,CLOSED
+261265,show desktop about details even when using custom dialogs,sbatten,2025-08-12T15:56:45Z,2025-08-14T08:13:47+00:00,1,40.28,True,93,66,7,374,1,0,1,MERGED
+261257,Fix GitHub Authentication reload dialog appearing unnecessarily in remote tunnel scenarios,copilot-swe-agent,2025-08-12T14:46:10Z,2025-08-12T16:47:23+00:00,3,2.02,True,15,10,1,2556,0,0,0,MERGED
+261233,Fix background terminals not showing auto-approve indicator,copilot-swe-agent,2025-08-12T13:26:48Z,2025-08-12T17:40:33+00:00,2,4.23,True,27,0,2,1873,0,0,0,MERGED
+261206,Disable none shell integration message,Tyriar,2025-08-12T11:36:16Z,2025-08-12T16:15:14+00:00,1,4.65,True,0,1,1,524,0,0,0,MERGED
+261202,Revise run in terminal's wait for SI implementation,Tyriar,2025-08-12T10:59:34Z,2025-08-12T12:52:56+00:00,1,1.89,True,42,40,1,238,0,0,0,MERGED
+261161,Allow terminal sticky scroll only when rich shell integration,copilot-swe-agent,2025-08-12T05:35:46Z,2025-08-16T04:42:54+00:00,12,95.12,True,14,2,1,2121,4,5,9,MERGED
+261148,Enable the broker in macOS,TylerLeonhardt,2025-08-12T02:27:49Z,2025-08-27T21:31:09+00:00,1,379.06,True,178,93,14,13,0,0,0,MERGED
+261141,Implement inline rename functionality for chat sessions,copilot-swe-agent,2025-08-12T01:10:09Z,2025-08-16T06:42:17+00:00,7,101.54,True,545,27,11,2325,2,4,6,MERGED
+261139,Adding actions to local chats toolbar,osortega,2025-08-12T00:59:30Z,2025-08-12T19:07:04+00:00,12,18.13,True,101,2,1,45,0,3,3,MERGED
+261135,Use more controlled sanitizer for attributes,mjbvz,2025-08-12T00:26:21Z,2025-08-12T01:26:43+00:00,1,1.01,True,132,69,4,68,1,0,1,MERGED
+261132,Allow svg paths for rendered math,mjbvz,2025-08-11T23:34:33Z,2025-08-12T02:29:46+00:00,2,2.92,True,24,3,4,27,2,0,2,MERGED
+261103,debug: add a command for attaching to the current window CDP,connor4312,2025-08-11T18:41:34Z,2025-08-11T22:25:55+00:00,1,3.74,True,74,25,4,0,0,0,0,MERGED
+261100,Ensure a reference to model is kept for terminal confirmation,Tyriar,2025-08-11T18:30:24Z,2025-08-11T21:08:49+00:00,1,2.64,True,11,2,1,13,0,0,0,MERGED
+261095,Fix git diff completions on Windows by removing sed dependency,copilot-swe-agent,2025-08-11T18:21:33Z,2025-08-12T12:22:22+00:00,2,18.01,True,32,19,1,2299,0,0,0,MERGED
+261094,Add Python activate hooks into shell integration scripts ,anthonykim1,2025-08-11T18:20:32Z,2025-08-13T17:40:39+00:00,14,47.34,True,74,2,7,753,2,12,14,MERGED
+261091,Fix for setInput canceling all refresh promises,osortega,2025-08-11T18:09:05Z,2025-08-11T19:17:58+00:00,4,1.15,True,6,4,2,15,0,1,1,MERGED
+261069,"Todo Widget Polishes - introduces scroll bar, progress tracking, clear button",bhavyaus,2025-08-11T15:26:51Z,2025-08-11T21:12:25+00:00,3,5.76,True,270,21,3,48,0,0,0,MERGED
+261062,Add toggle command for showing test coverage in Explorer view,copilot-swe-agent,2025-08-11T14:50:06Z,2025-08-11T18:21:32+00:00,8,3.52,True,28,0,3,2531,4,3,7,MERGED
+261055,Fix incorrect rendering when file uses both spaces and tabs for indentation,benibenj,2025-08-11T14:15:07Z,2025-08-11T15:54:47+00:00,1,1.66,True,46,5,2,339,0,0,0,MERGED
+261044,Move terminal selection/command tools to core ,Tyriar,2025-08-11T13:20:59Z,2025-08-11T18:40:58+00:00,1,5.33,True,293,68,10,88,0,0,0,MERGED
+261013,add remote debugging port to command line switches,hediet,2025-08-11T11:55:29Z,2025-08-11T16:13:38+00:00,2,4.3,True,9,2,2,0,1,0,1,MERGED
+261003,fix: restore old style context menu on windows for stable,deepak1556,2025-08-11T11:16:43Z,2025-08-11T12:29:32+00:00,1,1.21,True,2,3,1,31,0,0,0,MERGED
+260988,Use simplified command in allow command line action,Tyriar,2025-08-11T09:57:30Z,2025-08-11T11:03:24+00:00,1,1.1,True,1,1,1,13,0,0,0,MERGED
+260963,fix: revert to freetype for system fonts on linux,deepak1556,2025-08-11T07:38:13Z,2025-08-11T12:27:13+00:00,1,4.82,True,2,1,1,31,0,0,0,MERGED
+260960,fix: restore old style context menu on windows for stable,deepak1556,2025-08-11T07:26:26Z,2025-08-11T10:28:55+00:00,1,3.04,True,2,3,1,11,0,0,0,MERGED
+260910,fix overlay when editing previous requests,justschen,2025-08-10T23:29:21Z,2025-08-11T09:50:58+00:00,5,10.36,True,37,4,4,11,2,5,7,MERGED
+260906,fix footer detail hover,justschen,2025-08-10T22:39:38Z,2025-08-10T23:50:53+00:00,1,1.19,True,10,12,1,11,1,0,1,MERGED
+260896,Apply path separator normalization to git branches,Tyriar,2025-08-10T19:59:43Z,2025-08-11T00:06:05+00:00,1,4.11,True,7,1,1,13,0,0,0,MERGED
+260891,Add a separator to terminal approve dropdown,Tyriar,2025-08-10T18:56:13Z,2025-08-11T11:01:47+00:00,2,16.09,True,77,33,4,13,1,0,1,MERGED
+260865,Ensure auto allow commands only shows those not already approved,Tyriar,2025-08-10T12:56:25Z,2025-08-10T18:30:53+00:00,1,5.57,True,86,13,2,13,0,0,0,MERGED
+260863,Ignore empty string commands in auto approve,Tyriar,2025-08-10T12:40:42Z,2025-08-11T12:01:10+00:00,2,23.34,True,10,10,3,29,1,0,1,MERGED
+260859,Allow safe top commands,Tyriar,2025-08-10T12:27:59Z,2025-08-10T18:44:00+00:00,1,6.27,True,6,4,1,15,0,0,0,MERGED
+260857,Allow findstr,Tyriar,2025-08-10T12:16:56Z,2025-08-10T18:30:28+00:00,1,6.23,True,1,0,1,15,0,0,0,MERGED
+260856,Improve sub-command detection via common redirection,Tyriar,2025-08-10T12:14:08Z,2025-08-10T18:44:17+00:00,1,6.5,True,300,12,2,13,0,0,0,MERGED
+260855,Don't trim whitespace when calculating cursor index,Tyriar,2025-08-10T12:10:43Z,2025-08-10T18:30:03+00:00,1,6.32,True,53,2,2,13,0,0,0,MERGED
+260849,Fix disclaimer word wrapping by preserving normal spaces instead of non-breaking spaces,copilot-swe-agent,2025-08-10T10:45:11Z,2025-08-10T18:30:16+00:00,2,7.75,True,20,5,2,2491,0,0,0,MERGED
+260813,Capitalize Delegate to Coding Agent,roblourens,2025-08-10T01:06:28Z,2025-08-12T21:02:18+00:00,1,67.93,True,2,2,1,59,4,0,4,MERGED
+260770,Update confirmations to use new proposed terminal style,Tyriar,2025-08-09T14:44:03Z,2025-08-12T18:36:10+00:00,6,75.87,True,418,61,17,585,5,2,7,MERGED
+260749,"Move git spec out of upstream, and fix issues around fetching many git commits",Tyriar,2025-08-09T11:38:56Z,2025-08-09T15:33:46+00:00,1,3.91,True,128,109,5,243,0,0,0,MERGED
+260747,Fix prompt input model to preserve trailing whitespace after window reload,copilot-swe-agent,2025-08-09T11:29:18Z,2025-08-10T12:04:52+00:00,4,24.59,False,44,0,2,1489,2,1,3,CLOSED
+260739,Make link tooltips more user friendly,Tyriar,2025-08-09T10:23:31Z,2025-08-09T15:33:25+00:00,1,5.17,True,18,11,2,15,0,0,0,MERGED
+260698,Add command contribution support for chat session view items,copilot-swe-agent,2025-08-09T00:18:34Z,2025-08-12T00:35:00+00:00,3,72.27,True,87,8,5,2758,0,0,0,MERGED
+260696,Terminal suggest: Support fig additionalSuggestions with proper insertValue handling,copilot-swe-agent,2025-08-09T00:09:43Z,2025-08-11T12:30:32+00:00,3,60.35,False,83,0,2,2031,1,2,3,CLOSED
+260688,Add write-only mode option for todo tool,copilot-swe-agent,2025-08-08T23:05:04Z,2025-08-17T03:55:06+00:00,9,196.83,True,137,66,3,2052,3,4,7,MERGED
+260683,check the shadow root,amunger,2025-08-08T22:38:59Z,2025-08-11T18:15:41+00:00,2,67.61,True,14,8,1,34,0,0,0,MERGED
+260660,Implement conditional file watching for terminal commands with chat editing service integration,copilot-swe-agent,2025-08-08T20:32:04Z,2025-08-22T12:07:52+00:00,2,327.6,False,563,2,3,2926,1,1,2,CLOSED
+260640,Remove lsp priority sorting,anthonykim1,2025-08-08T18:31:48Z,2025-08-11T02:52:10+00:00,1,56.34,True,0,54,2,17,0,0,0,MERGED
+260583,"Suggest widget: Bug fix - when widget is too tall, ensure larger of above and below space is used.",andr8928,2025-08-08T13:34:32Z,2025-09-24T12:07:43+00:00,2,1126.55,True,1,1,1,514,1,0,1,MERGED
+260577,Fix case of always allow commands action,Tyriar,2025-08-08T12:45:16Z,2025-08-08T14:26:25+00:00,2,1.69,True,2,2,2,0,0,0,0,MERGED
+260533,remove pause action from chat view,isidorn,2025-08-08T09:56:42Z,2025-08-13T19:01:11+00:00,6,129.07,True,72,249,15,13,6,3,9,MERGED
+260508,Test Results: Only offer `Go to Test` with a uri (fix #260443),gjsjohnmurray,2025-08-08T08:03:00Z,2025-08-08T15:52:13+00:00,3,7.82,True,10,8,1,21,0,0,0,MERGED
+260503,Fix initialization timing issue in inline edits by ensuring tabAction observables never return undefined,copilot-swe-agent,2025-08-08T07:36:11Z,2025-08-08T10:34:50+00:00,2,2.98,False,21,9,3,1499,2,0,2,CLOSED
+260499,Adding logs to determine focus state of NativeEditContext,aiday-mar,2025-08-08T07:09:41Z,2025-08-08T10:35:59+00:00,2,3.44,True,24,2,3,57,0,1,1,MERGED
+260466,Convert esbuild scripts to modules,mjbvz,2025-08-08T03:05:43Z,2025-08-08T04:57:28+00:00,2,1.86,True,64,63,19,74,1,1,2,MERGED
+260450,Remove obsolete experiment tags,roblourens,2025-08-08T01:44:54Z,2025-08-08T03:05:53+00:00,1,1.35,True,1,7,1,0,0,0,0,MERGED
+260446,Fix OAuth redirect URI format to align with Microsoft's URL standards,bluedog13,2025-08-08T01:23:51Z,2025-08-08T20:36:42+00:00,8,19.21,True,9,9,3,1818,7,1,8,MERGED
+260445,Fix strange NPE,roblourens,2025-08-08T01:22:24Z,2025-08-08T03:06:10+00:00,1,1.73,True,2,1,1,11,0,0,0,MERGED
+260441,Support `disabled` and get rid of `tooltip` and `picked` in Quick Tree Item,TylerLeonhardt,2025-08-08T00:45:09Z,2025-08-08T04:57:20+00:00,3,4.2,True,61,26,4,11,0,0,0,MERGED
+260439,Convert extension webpack scripts to modules,mjbvz,2025-08-08T00:22:06Z,2025-08-08T04:29:35+00:00,2,4.12,True,307,531,58,86,1,0,1,MERGED
+260430,Use the tenantId property instead,TylerLeonhardt,2025-08-07T22:54:37Z,2025-08-11T20:23:39+00:00,2,93.48,True,1,4,1,81,0,0,0,MERGED
+260417,Make activationEventsGenerator a real generator,mjbvz,2025-08-07T21:37:01Z,2025-09-23T22:30:48+00:00,2,1128.9,True,42,42,22,158,1,0,1,MERGED
+260366,Make sure we update the height on async rendering,mjbvz,2025-08-07T16:51:14Z,2025-08-07T21:44:55+00:00,1,4.89,True,3,0,1,13,1,0,1,MERGED
+260359,Clean up some typings in build scripts,mjbvz,2025-08-07T16:39:34Z,2025-08-07T17:57:22+00:00,1,1.3,True,144,511,27,110,1,0,1,MERGED
+260358,mcp: auto-start servers from extensions,connor4312,2025-08-07T16:39:31Z,2025-08-07T18:08:23+00:00,1,1.48,True,69,15,4,14,0,0,0,MERGED
+260357,Add auto approve reasoning to UI ,Tyriar,2025-08-07T16:38:40Z,2025-08-07T17:45:05+00:00,1,1.11,True,65,19,5,115,0,0,0,MERGED
+260321,fix: re-install command on macOS via elevation,deepak1556,2025-08-07T12:57:11Z,2025-08-13T10:37:49+00:00,1,141.68,True,19,26,1,433,0,0,0,MERGED
+260315,"Don't use compact, resolve active group for terminals",Tyriar,2025-08-07T11:52:55Z,2025-08-07T14:07:35+00:00,1,2.24,True,15,13,3,13,0,0,0,MERGED
+260288,Critical Data Loss Bug in Encoding Handling: Ctrl+Z Causes Permanent Content Corruption (fix #259409),bpasero,2025-08-07T09:01:47Z,2025-08-07T13:00:28+00:00,1,3.98,True,27,10,4,0,0,0,0,MERGED
+260283,debt - remove some unused code,bpasero,2025-08-07T08:30:50Z,2025-08-07T13:26:21+00:00,1,4.93,True,2,307,10,0,0,0,0,MERGED
+260259,dom - adopt more `textContent` over `innerText`,bpasero,2025-08-07T05:27:03Z,2025-08-08T07:23:45+00:00,1,25.95,True,35,35,18,250,0,0,0,MERGED
+260252,"Revert ""Fix theme not being synchronized with external windows on firefox""",bpasero,2025-08-07T04:38:26Z,2025-08-07T06:05:43+00:00,1,1.45,True,9,27,2,51,0,0,0,MERGED
+260215,Add support for a help link when MCP assisted installation fails,joelverhagen,2025-08-06T22:33:06Z,2025-08-07T18:16:15+00:00,3,19.72,True,33,9,2,851,0,1,1,MERGED
+260209,mcp: turn other-app discovery off by default,connor4312,2025-08-06T22:02:11Z,2025-08-07T00:57:12+00:00,1,2.92,True,81,60,4,14,0,0,0,MERGED
+260203,Support custom modes in prompt files,aeschli,2025-08-06T21:39:05Z,2025-08-15T08:53:00+00:00,1,203.23,True,662,158,22,41,3,0,3,MERGED
+260192,Ensure shell type is reported before we exit SI early,Tyriar,2025-08-06T20:29:21Z,2025-08-07T13:07:52+00:00,1,16.64,True,9,9,1,13,0,0,0,MERGED
+260189,Switch to standard decorators in our extensions,mjbvz,2025-08-06T20:25:07Z,2025-08-06T22:16:44+00:00,1,1.86,True,40,123,18,350,2,0,2,MERGED
+260184,setting for showing thinking,justschen,2025-08-06T19:34:21Z,2025-08-06T22:26:42+00:00,2,2.87,True,8,1,3,0,2,0,2,MERGED
+260181,refactor of main thread chat sessions,rebornix,2025-08-06T18:47:39Z,2025-08-14T07:14:18+00:00,3,180.44,True,824,169,5,0,1,0,1,MERGED
+260179,Bump tmp from 0.2.1 to 0.2.4 in /test/automation,dependabot,2025-08-06T18:44:22Z,2025-08-08T21:08:26+00:00,2,50.4,True,23,29,2,2449,1,0,1,MERGED
+260178,Use ts-native to compile our build scripts,mjbvz,2025-08-06T18:42:32Z,2025-08-06T20:37:55+00:00,1,1.92,True,314,335,77,203,5,0,5,MERGED
+260162,Fix null reference error in ChatMarkdownContentPart when accessing ref.object properties,copilot-swe-agent,2025-08-06T17:58:20Z,2025-09-05T17:14:10+00:00,1,719.26,False,8,6,1,1828,0,0,0,CLOSED
+260146,Bump tmp from 0.2.3 to 0.2.4 in /build,dependabot,2025-08-06T17:09:15Z,2025-08-06T18:32:14+00:00,1,1.38,True,4,3,1,1939,0,0,0,MERGED
+260139,Cover other cases for legacy terminal toolSpecificData,Tyriar,2025-08-06T16:54:44Z,2025-08-06T20:09:28+00:00,1,3.25,True,49,30,6,13,2,0,2,MERGED
+260138,Cover other cases for legacy terminal toolSpecificData,Tyriar,2025-08-06T16:53:20Z,2025-08-06T20:52:14+00:00,3,3.98,True,49,30,6,13,0,0,0,MERGED
+260123,Add Command Palette and Keybinding Support to Toggle Debug Exception Breakpoints,copilot-swe-agent,2025-08-06T15:52:26Z,2025-08-06T20:19:59+00:00,2,4.46,True,86,1,1,2572,0,0,0,MERGED
+260039,Update terminal assignments,Tyriar,2025-08-06T12:18:37Z,2025-08-06T20:59:34+00:00,3,8.68,True,23,16,1,0,0,1,1,MERGED
+260006,Extension host debug action follow up (fix #259819),bpasero,2025-08-06T07:34:25Z,2025-08-06T08:48:18+00:00,1,1.23,True,15,21,1,0,0,0,0,MERGED
+260002,Cancel button clashes with dialog message (fix #258529),bpasero,2025-08-06T07:08:56Z,2025-08-06T08:47:47+00:00,1,1.65,True,6,4,1,0,0,0,0,MERGED
+259999,"Revert ""fix https://github.com/microsoft/vscode-copilot/issues/18978""",bpasero,2025-08-06T07:01:44Z,2025-08-06T11:02:32+00:00,1,4.01,True,0,1,1,27,0,0,0,MERGED
+259997,Add logging to NativeWebContentExtractorService,TylerLeonhardt,2025-08-06T06:53:39Z,2025-08-06T08:46:00+00:00,1,1.87,True,11,1,1,0,0,0,0,MERGED
+259996,ci: fix build,deepak1556,2025-08-06T06:51:31Z,2025-08-06T08:44:45+00:00,1,1.89,True,5,5,1,163,0,0,0,MERGED
+259989,Prevent labels in secondary sidebar when activity bar is at bottom position,copilot-swe-agent,2025-08-06T06:23:03Z,2025-08-06T08:45:41+00:00,3,2.38,True,1,1,1,1038,7,0,7,MERGED
+259965,Copilot quota bar uses incorrect theme colors (fix #256443),copilot-swe-agent,2025-08-06T05:02:22Z,2025-08-06T11:48:53+00:00,3,6.78,True,24,24,2,3323,0,0,0,MERGED
+259947,💄 Todo list widget: Muted design and progress scrolling,digitarald,2025-08-06T01:53:42Z,2025-08-06T04:26:11+00:00,2,2.54,True,106,10,2,1218,0,0,0,MERGED
+259943,Disable showing tools in toolsets,TylerLeonhardt,2025-08-06T01:14:08Z,2025-08-06T13:18:21+00:00,1,12.07,True,2,1,1,13,0,0,0,MERGED
+259939,chain of thought API ,justschen,2025-08-06T00:42:49Z,2025-08-06T07:47:36+00:00,1,7.08,True,313,9,16,52,1,0,1,MERGED
+259933,Fix DEBUG CONSOLE not detecting file paths with ANSI escape sequences,copilot-swe-agent,2025-08-05T23:25:21Z,2025-08-06T20:05:37+00:00,1,20.67,False,178,1,2,1986,6,1,7,CLOSED
+259932,Fix debug console collapsing identical lines to work on text lines instead of events,copilot-swe-agent,2025-08-05T23:24:35Z,2025-08-07T00:24:34+00:00,2,25.0,True,214,40,2,2702,0,0,0,MERGED
+259918,Fix testing.toggleInlineCoverage action appearing when it shouldn't be available,copilot-swe-agent,2025-08-05T22:06:08Z,2025-08-06T17:05:13+00:00,3,18.98,True,34,2,3,2581,0,0,0,MERGED
+259917,Fix terminal-suggest completions showing up in Python REPLs,copilot-swe-agent,2025-08-05T22:04:17Z,2025-08-06T13:21:22+00:00,2,15.28,True,1,5,2,1909,0,0,0,MERGED
+259913,tools: move MCP link to footing menu,connor4312,2025-08-05T21:45:14Z,2025-08-05T22:58:29+00:00,1,1.22,True,139,63,15,37,0,0,0,MERGED
+259893,Add telemetry for run in terminal prepare,Tyriar,2025-08-05T19:40:56Z,2025-08-07T13:04:29+00:00,1,41.39,True,418,21,4,13,0,0,0,MERGED
+259891,Add experiment flag to todo list setting,bhavyaus,2025-08-05T19:07:55Z,2025-08-05T20:12:26+00:00,2,1.08,True,5,4,3,14,1,0,1,MERGED
+259881,updated release notes rendering to support new format,eli-w-king,2025-08-05T18:44:02Z,2025-08-05T20:33:07+00:00,1,1.82,True,176,1,1,189,0,0,0,MERGED
+259865,Fix cmd.exe local executable security with file-based checking using IFileService,copilot-swe-agent,2025-08-05T17:51:21Z,2025-08-07T12:10:53+00:00,3,42.33,False,306,7,3,2959,1,1,2,CLOSED
+259860,Bump extensions to target es2024,mjbvz,2025-08-05T17:41:25Z,2025-08-05T21:18:12+00:00,2,3.61,True,175,324,16,203,2,0,2,MERGED
+259858,Ensure old terminal toolSpecificData format is supported,Tyriar,2025-08-05T17:29:08Z,2025-08-05T21:27:05+00:00,1,3.97,True,24,1,1,13,0,0,0,MERGED
+259856,Fix auto activation of chat providers,lramos15,2025-08-05T17:25:51Z,2025-08-05T19:59:51+00:00,3,2.57,True,9,6,2,11,0,1,1,MERGED
+259851,Add more safe commands to auto approve,Tyriar,2025-08-05T17:13:09Z,2025-08-05T18:22:40+00:00,2,1.16,True,4,0,1,13,0,0,0,MERGED
+259843,Enable returning LanguageModelDataPart from chat provider,roblourens,2025-08-05T16:14:30Z,2025-08-05T17:28:43+00:00,2,1.24,True,33,30,6,36,0,0,0,MERGED
+259839,Fix theme not being synchronized with external windows on firefox,CGNonofr,2025-08-05T15:32:37Z,2025-08-06T14:46:12+00:00,5,23.23,True,27,9,2,376,8,1,9,MERGED
+259808,ci: generate and upload cpu profile for win32 codesign steps,deepak1556,2025-08-05T13:11:30Z,2025-08-05T23:38:18+00:00,2,10.45,True,11,1,1,11,0,0,0,MERGED
+259806,Move output monitoring for background terminals into separate class,Tyriar,2025-08-05T13:08:47Z,2025-08-08T12:01:15+00:00,1,70.87,True,77,18,2,15,0,0,0,MERGED
+259793,Fixes https://github.com/microsoft/vscode/issues/252725,hediet,2025-08-05T11:37:55Z,2025-08-14T11:20:39+00:00,2,215.71,True,30,17,7,13,1,0,1,MERGED
+259788,"Move tasks tools into same file as terminal, move both into tools/ folder",Tyriar,2025-08-05T11:09:01Z,2025-08-06T15:16:45+00:00,2,28.13,True,120,140,10,13,0,0,0,MERGED
+259782,Restore Google social sign in as experiment (fix #259646),bpasero,2025-08-05T10:36:07Z,2025-08-05T14:17:36+00:00,1,3.69,True,6,9,2,0,0,0,0,MERGED
+259776,Warn about web requests in run in terminal,Tyriar,2025-08-05T10:00:07Z,2025-08-05T12:56:07+00:00,1,2.93,True,52,5,3,13,0,0,0,MERGED
+259770,Add pwsh equivalents to default auto approve list and always use case insensitivity for pwsh,Tyriar,2025-08-05T09:40:04Z,2025-08-05T10:46:35+00:00,1,1.11,True,138,17,3,27,0,0,0,MERGED
+259758,chore: update to @electron/osx-sign@2.0.0,deepak1556,2025-08-05T08:46:14Z,2025-08-05T11:30:58+00:00,1,2.75,True,120,189,4,11,0,0,0,MERGED
+259755,Run / Play Button Can't Be Clicked By Touch on Touchscreen (fix #251958),bpasero,2025-08-05T08:37:22Z,2025-08-05T10:03:46+00:00,1,1.44,True,10,6,1,0,0,0,0,MERGED
+259753,Fix memory reference handling in Watch window,DrSergei,2025-08-05T08:20:12Z,2025-08-06T16:19:52+00:00,2,31.99,True,1,0,1,200,1,0,1,MERGED
+259747,fix some typos,tmm1,2025-08-05T07:18:48Z,2025-08-06T11:49:35+00:00,3,28.51,True,3,3,2,0,0,0,0,MERGED
+259691,Expand the run-tests tool description,digitarald,2025-08-05T00:15:56Z,2025-08-19T16:03:20+00:00,4,351.79,True,43,11,1,133,2,5,7,MERGED
+259673,Make terminal auto approve more aware of paths,copilot-swe-agent,2025-08-04T21:25:07Z,2025-08-08T14:18:10+00:00,2,88.88,True,136,3,3,2212,0,0,0,MERGED
+259669,Add safe readonly commands to terminal auto approve defaults,copilot-swe-agent,2025-08-04T20:55:07Z,2025-08-05T13:10:04+00:00,2,16.25,True,38,5,1,2261,0,0,0,MERGED
+259656,"Build out terminal editor menu contributions, ensure new terminal windows are unlocked",Tyriar,2025-08-04T20:01:05Z,2025-08-04T22:46:01+00:00,1,2.75,True,95,20,3,13,0,0,0,MERGED
+259655,Avoid re-sanitizing markdown during rendering,mjbvz,2025-08-04T19:57:43Z,2025-08-05T20:18:38+00:00,1,24.35,True,63,32,16,348,1,0,1,MERGED
+259654,return file Operation error rather than throwing,amunger,2025-08-04T19:53:12Z,2025-08-04T23:09:24+00:00,2,3.27,True,114,66,4,11,0,1,1,MERGED
+259648,Fix model storage not updating properly (#259624),lramos15,2025-08-04T19:38:31Z,2025-08-04T20:45:23+00:00,1,1.11,True,8,5,1,11,0,0,0,MERGED
+259640,updated release notes rendering to support new format,eli-w-king,2025-08-04T18:52:53Z,2025-08-04T23:47:55+00:00,1,4.92,True,177,2,1,162,0,0,0,MERGED
+259639,Set correct active entry on test coverage toolbar's quickpick,gjsjohnmurray,2025-08-04T18:46:40Z,2025-08-04T21:42:48+00:00,2,2.94,True,1,1,1,21,1,0,1,MERGED
+259636,Add create new branch option (create worktree) (#259599),nguyenchristy,2025-08-04T18:36:56Z,2025-08-04T21:40:16+00:00,1,3.06,True,25,8,1,87,0,0,0,MERGED
+259634,Support server.json being returned by assisted MCP install,joelverhagen,2025-08-04T18:33:30Z,2025-08-12T19:16:18+00:00,5,192.71,True,65,16,2,1238,0,1,1,MERGED
+259633,Clean up markdownDocumentRenderer api,mjbvz,2025-08-04T18:32:00Z,2025-08-04T19:48:19+00:00,2,1.27,True,64,31,6,255,1,1,2,MERGED
+259608,Move replaceWithPlaintext into domSanitize,mjbvz,2025-08-04T16:57:42Z,2025-08-04T19:38:55+00:00,1,2.69,True,139,63,3,67,1,0,1,MERGED
+259600,Add `Go to Test` to coverage sources quickpick,gjsjohnmurray,2025-08-04T16:28:43Z,2025-08-04T17:33:57+00:00,3,1.09,True,12,4,1,22,3,1,4,MERGED
+259599,Add create new branch option (create worktree),nguyenchristy,2025-08-04T16:25:15Z,2025-08-04T18:28:28+00:00,2,2.05,True,25,8,1,157,0,1,1,MERGED
+259595,Promote terminal auto approve to GA,Tyriar,2025-08-04T16:02:31Z,2025-08-04T21:08:09+00:00,1,5.09,True,0,3,1,13,0,0,0,MERGED
+259592,Fix checkOutputInputFocus to detect editable elements in shadow DOM and handle tabbing,copilot-swe-agent,2025-08-04T15:54:04Z,2025-08-08T22:46:57+00:00,5,102.88,False,25,10,1,2007,11,2,13,CLOSED
+259586,Fix Tree Quick Pick sticky scroll background color mismatch,copilot-swe-agent,2025-08-04T15:29:44Z,2025-08-05T02:42:23+00:00,3,11.21,True,2,0,2,1268,0,0,0,MERGED
+259585,"Add ""Stop Editing All Cells"" command for notebooks",copilot-swe-agent,2025-08-04T15:25:07Z,2025-08-04T21:28:51+00:00,2,6.06,True,36,0,1,2411,0,0,0,MERGED
+259584,Disable indent guides in Quick Pick trees to reduce visual noise,copilot-swe-agent,2025-08-04T15:22:36Z,2025-08-04T23:07:48+00:00,2,7.75,True,2,1,1,1788,0,0,0,MERGED
+259572,fix: update capitalization for 'Restore to Last Checkpoint' hover text,hihry,2025-08-04T14:23:04Z,2025-08-06T18:59:46+00:00,2,52.61,True,1,1,1,600,0,0,0,MERGED
+259567,Add prompt detection heuristics for no shell integration command execution timeout,copilot-swe-agent,2025-08-04T13:56:15Z,2025-08-05T12:55:11+00:00,2,22.98,True,184,3,3,3133,0,0,0,MERGED
+259559,Ensure auto approve runs on rewritten command,Tyriar,2025-08-04T13:29:21Z,2025-08-04T21:07:15+00:00,1,7.63,True,9,8,1,13,0,0,0,MERGED
+259524,Avoid 0ms interval rescheduling in configuration service,copilot-swe-agent,2025-08-04T11:24:33Z,2025-08-05T09:33:41+00:00,3,22.15,True,4,1,1,1931,0,0,0,MERGED
+259518,Fixes https://github.com/microsoft/vscode/issues/259517,hediet,2025-08-04T10:48:42Z,2025-08-05T23:36:20+00:00,1,36.79,True,4,1,1,13,0,0,0,MERGED
+259513,fix: position terminal icon picker dynamically based on trigger source,sanchitkhthpalia,2025-08-04T10:13:45Z,2025-08-04T12:31:33+00:00,1,2.3,False,18,4,2,944,1,1,2,CLOSED
+259501,Adds doc comments to IStatusbarEntry.content,hediet,2025-08-04T08:57:49Z,2025-08-07T13:14:58+00:00,2,76.29,True,4,0,1,0,0,0,0,MERGED
+259487,remove previous requests edits from exp,justschen,2025-08-04T07:30:54Z,2025-08-04T20:53:47+00:00,1,13.38,True,0,4,1,11,0,0,0,MERGED
+259460,Update runInTerminalTool to avoid using state when recommending other tools,DonJayamanne,2025-08-04T01:20:53Z,2025-08-05T11:44:04+00:00,1,34.39,True,20,23,3,23,0,0,0,MERGED
+259449,Clean up telemetry code a bit more in ChatService,roblourens,2025-08-03T21:54:38Z,2025-08-04T21:16:21+00:00,1,23.36,True,188,153,2,0,0,0,0,MERGED
+259442,fix: register WorkerTextModelSyncClient,alexkozy,2025-08-03T19:48:30Z,2025-08-11T13:54:05+00:00,2,186.09,True,4,4,2,111,0,0,0,MERGED
+259424,Add new terminal to tab well and empty editor menus,Tyriar,2025-08-03T14:10:47Z,2025-08-04T00:38:24+00:00,1,10.46,True,20,0,1,120,3,0,3,MERGED
+259422,"Add new terminal window to + menu, create 'new' section ",Tyriar,2025-08-03T14:01:17Z,2025-08-04T17:04:24+00:00,2,27.05,True,43,31,5,35,0,0,0,MERGED
+259414,Don't refresh cached globals automatically ,Tyriar,2025-08-03T12:16:05Z,2025-08-04T05:51:12+00:00,1,17.59,True,22,7,3,573,0,0,0,MERGED
+259370,"Add the ability to clear a ChatResponseStream, passing in a reason which results in a warning being displayed (#257271)",roblourens,2025-08-02T21:20:31Z,2025-08-04T00:37:35+00:00,1,27.28,True,77,5,7,20,0,0,0,MERGED
+259368,Create Vscode,vjshamim7-bit,2025-08-02T21:00:52Z,2025-08-04T19:51:03+00:00,2,46.84,False,1413186,392791,8339,15,3,0,3,CLOSED
+259350,Prevent duplicate getExecutablesInPath calls in parallel ,Tyriar,2025-08-02T16:04:30Z,2025-08-04T04:09:36+00:00,1,36.09,True,36,4,1,43,0,0,0,MERGED
+259349,fix: tiny memory leak in debugToolBar.ts,alexkozy,2025-08-02T16:03:21Z,2025-08-04T20:17:11+00:00,5,52.23,True,5,5,1,376,3,1,4,MERGED
+259347,Only refresh cached path results for changes dirs ,Tyriar,2025-08-02T15:52:56Z,2025-08-03T21:57:34+00:00,1,30.08,True,53,33,3,35,0,0,0,MERGED
+259340,Add performance logging and improve performance in terminal suggest,Tyriar,2025-08-02T13:59:09Z,2025-08-02T21:43:42+00:00,1,7.74,True,99,56,6,311,9,0,9,MERGED
+259333,Restore alt+left/right keybinding to switch terminal pane,Tyriar,2025-08-02T12:30:20Z,2025-08-04T21:08:40+00:00,1,56.64,True,25,14,6,661,0,0,0,MERGED
+259332,Restore alt+left/right keybinding to switch terminal pane,Tyriar,2025-08-02T12:28:29Z,2025-08-03T01:57:24+00:00,1,13.48,True,25,14,6,1010,0,0,0,MERGED
+259287,use github uploader instead of sending base64 string,justschen,2025-08-02T00:09:16Z,2025-08-13T19:22:18+00:00,11,283.22,False,259,85,19,92,2,13,15,CLOSED
+259280,fix: customize postinst by architecture,rzhao271,2025-08-01T22:46:01Z,2025-08-04T17:03:55+00:00,1,66.3,True,3,2,2,117,0,0,0,MERGED
+259273,api: generalize ToolResultAudience->LanguageModelTextPart,connor4312,2025-08-01T21:16:27Z,2025-08-04T09:25:47+00:00,1,60.16,True,33,19,5,179,0,0,0,MERGED
+259259,Add telemetry tracking for MCP server installation events,copilot-swe-agent,2025-08-01T18:31:20Z,2025-08-06T05:17:55+00:00,3,106.78,True,61,7,2,2607,2,1,3,MERGED
+259254,Add clear button with enhanced accessibility to Todo widget in chat,copilot-swe-agent,2025-08-01T18:12:49Z,2025-08-07T23:22:56+00:00,4,149.17,True,101,11,3,2627,2,0,2,MERGED
+259248,fix: settings link formatting,rzhao271,2025-08-01T17:44:11Z,2025-08-01T21:29:38+00:00,1,3.76,False,1,1,1,0,0,1,1,CLOSED
+259238,add backticks vs single quotes around task labels for result messages,meganrogge,2025-08-01T16:23:41Z,2025-08-01T18:18:21+00:00,1,1.91,True,7,7,3,73,0,0,0,MERGED
+259231,Use platform agnostic URI comparison for task resolution,meganrogge,2025-08-01T15:51:08Z,2025-08-01T19:33:30+00:00,3,3.71,True,2,3,1,41,0,1,1,MERGED
+259228,Fix /.*/ auto approve case,Tyriar,2025-08-01T15:45:44Z,2025-08-01T18:17:23+00:00,1,2.53,True,13,0,2,13,0,0,0,MERGED
+259216,Require the approve property,Tyriar,2025-08-01T13:57:40Z,2025-08-01T16:21:24+00:00,1,2.4,True,2,1,1,13,0,0,0,MERGED
+259211,Fix escaping in .ps1 example,Tyriar,2025-08-01T13:45:33Z,2025-08-01T15:53:22+00:00,1,2.13,True,1,1,1,13,0,0,0,MERGED
+259205,Handle environment variable syntax in terminal command auto-approval,copilot-swe-agent,2025-08-01T13:16:44Z,2025-08-04T23:28:12+00:00,2,82.19,True,114,4,2,2499,0,0,0,MERGED
+259192,Adding cancelable async iterable producer,aiday-mar,2025-08-01T11:14:17Z,2025-08-04T08:47:38+00:00,1,69.56,True,18,17,2,0,0,0,0,MERGED
+259180,decreasing font size to 12px for insertions and deletions,aiday-mar,2025-08-01T09:27:35Z,2025-08-01T13:11:50+00:00,1,3.74,True,1,0,1,13,0,0,0,MERGED
+259178,Adding workbench hover to the `View All File Changes` button and making it focusable,aiday-mar,2025-08-01T09:16:15Z,2025-08-18T15:44:36+00:00,4,414.47,True,8,0,1,13,2,2,4,MERGED
+259177,adding hover feedback on the changes summary list items,aiday-mar,2025-08-01T09:00:33Z,2025-08-01T13:12:40+00:00,1,4.2,True,5,1,1,13,0,0,0,MERGED
+259171,Also considering notebook edit groups,aiday-mar,2025-08-01T08:22:11Z,2025-08-01T13:12:10+00:00,1,4.83,True,1,1,1,13,0,0,0,MERGED
+259166,using a markdown description and linkifying `editor.editContext`,aiday-mar,2025-08-01T07:49:29Z,2025-08-01T13:12:24+00:00,1,5.38,True,1,1,1,27,0,0,0,MERGED
+259126,wait for extension activation in getChatSessionContributions(),joshspicer,2025-08-01T01:45:51Z,2025-08-01T04:58:48+00:00,1,3.22,True,16,12,5,69,1,0,1,MERGED
+259114,Missing colors (#259113),osortega,2025-08-01T00:57:57Z,2025-08-01T01:58:32+00:00,1,1.01,False,10,8,3,0,0,0,0,CLOSED
+259103,only make issue reporter link for slow renderer times,amunger,2025-07-31T23:12:30Z,2025-08-01T16:21:06+00:00,1,17.14,True,7,2,1,18,0,0,0,MERGED
+259089,Important fix for resource validation in MCP,TylerLeonhardt,2025-07-31T21:31:11Z,2025-07-31T23:01:57+00:00,1,1.51,True,7,141,3,524,0,0,0,MERGED
+259081,Allow the canonical package name and version to be sent back from the install flow,joelverhagen,2025-07-31T21:01:02Z,2025-08-01T16:21:46+00:00,2,19.35,True,8,2,1,319,0,0,0,MERGED
+259058,pass in token to prompt function,meganrogge,2025-07-31T17:43:29Z,2025-07-31T20:24:45+00:00,1,2.69,True,7,4,4,13,0,0,0,MERGED
+259052,Fix task completion messages to include task name and exit code,copilot-swe-agent,2025-07-31T17:18:34Z,2025-07-31T23:33:54+00:00,3,6.26,True,6,6,2,1578,0,0,0,MERGED
+259051,Fix PowerShell terminal suggestion performance by deduplicating concurrent requests,copilot-swe-agent,2025-07-31T17:18:29Z,2025-07-31T20:51:40+00:00,2,3.55,True,44,23,1,3271,0,0,0,MERGED
+259049,Add `.slnx` to `xml` language extension list,DoctorKrolic,2025-07-31T17:14:13Z,2025-08-04T10:14:07+00:00,2,89.0,True,1,0,1,141,0,0,0,MERGED
+259040,Update code block actions context when model changes,mjbvz,2025-07-31T16:50:17Z,2025-08-04T17:52:46+00:00,1,97.04,True,32,15,1,253,3,0,3,MERGED
+259006,Add UI entry point for terminal auto-approve dropdown,copilot-swe-agent,2025-07-31T13:15:13Z,2025-08-07T18:10:35+00:00,2,172.92,True,264,9,7,2579,0,0,0,MERGED
+259001,Fix terminal creation in auxiliary windows when using Ctrl+Shift+`,copilot-swe-agent,2025-07-31T12:41:09Z,2025-08-04T14:44:08+00:00,3,98.05,True,7,1,1,2248,0,0,0,MERGED
+258956,Git - add the ability to create a worktree from a worktree,lszomoru,2025-07-31T07:51:51Z,2025-07-31T09:59:34+00:00,1,2.13,True,32,4,1,13,0,0,0,MERGED
+258931,Todo items with description tooltip,digitarald,2025-07-31T02:15:24Z,2025-08-01T18:15:48+00:00,3,40.01,True,9,0,2,33,0,1,1,MERGED
+258929,Fix function reference name,roblourens,2025-07-31T01:47:21Z,2025-07-31T16:24:48+00:00,1,14.62,True,1,1,1,11,0,0,0,MERGED
+258922,Prompt todo list tool more action-oriented,digitarald,2025-07-31T00:42:59Z,2025-07-31T16:15:34+00:00,1,15.54,True,9,9,1,120,0,0,0,MERGED
+258909,Chat sessions empty message,osortega,2025-07-30T23:15:17Z,2025-07-31T03:07:30+00:00,1,3.87,True,111,1,2,0,0,0,0,MERGED
+258906,Add collapse all functionality to test coverage view,timheuer,2025-07-30T21:57:55Z,2025-08-21T18:35:00+00:00,3,524.62,True,31,0,2,202,5,0,5,MERGED
+258904,Fix --commit-id flag for code serve-web,justin39,2025-07-30T21:53:45Z,2025-07-31T16:52:40+00:00,3,18.98,True,6,0,1,190,0,1,1,MERGED
+258896,Add command to open terminal in new window,copilot-swe-agent,2025-07-30T21:20:44Z,2025-08-04T12:16:16+00:00,4,110.93,True,25,3,4,1860,0,1,1,MERGED
+258879,"Display ""Manage Dynamic Auth Providers"" in Account menu",TylerLeonhardt,2025-07-30T19:29:46Z,2025-07-30T21:18:11+00:00,1,1.81,True,11,0,1,147,0,0,0,MERGED
+258867,Handle worktree errors,nguyenchristy,2025-07-30T18:32:02Z,2025-07-31T16:44:25+00:00,1,22.21,True,62,35,3,559,1,0,1,MERGED
+258847,Fix backspacing terminal REPL suggestions not updating for trigger characters,copilot-swe-agent,2025-07-30T17:23:47Z,2025-08-06T15:53:30+00:00,5,166.5,True,17,1,1,2750,2,3,5,MERGED
+258831,Fix #258695 -> Python REPL suggestions stopping after typing '(' character,copilot-swe-agent,2025-07-30T16:27:10Z,2025-07-30T23:57:47+00:00,2,7.51,True,41,28,1,2559,0,0,0,MERGED
+258824,Use open -a in code.sh on mac,JBlitzar,2025-07-30T16:00:01Z,2025-08-02T16:26:55+00:00,1,72.45,False,1,8,1,187,9,0,9,CLOSED
+258741,fix: remove unused appx package,deepak1556,2025-07-30T04:59:20Z,2025-07-30T12:13:27+00:00,1,7.24,True,20,5,2,13,0,0,0,MERGED
+258709,fix default path bug related to branch prefix,nguyenchristy,2025-07-30T00:09:59Z,2025-07-30T15:02:35+00:00,2,14.88,True,3,4,1,192,0,1,1,MERGED
+258706,lockToCodingAgent earlier,joshspicer,2025-07-29T23:53:13Z,2025-07-30T16:13:07+00:00,2,16.33,True,21,45,4,89,0,0,0,MERGED
+258664,Avoid registering disposables when Notebook Edit session is disposed,DonJayamanne,2025-07-29T21:47:00Z,2025-08-04T02:51:02+00:00,1,125.07,True,18,4,1,150,1,0,1,MERGED
+258632,Polish terminal and task tools,Tyriar,2025-07-29T19:40:04Z,2025-07-30T13:23:32+00:00,1,17.72,True,2,6,4,13,0,0,0,MERGED
+258463,Fix testFailure stringify,Skn0tt,2025-07-29T12:50:57Z,2025-07-29T15:45:38+00:00,2,2.91,True,1,1,1,116,0,0,0,MERGED
+258438,Update AI statistics descriptions for clarity.,mrleemurray,2025-07-29T10:26:05Z,2025-07-29T14:30:13+00:00,1,4.07,True,2,2,2,177,0,0,0,MERGED
+258422,ci: log diagnostics for deemon failures on windows,deepak1556,2025-07-29T09:16:20Z,2025-07-29T13:23:27+00:00,1,4.12,True,3,0,1,11,0,0,0,MERGED
+258417,"Disable notebook ""check object leaks"" test",alexr00,2025-07-29T08:45:54Z,2025-07-29T13:23:47+00:00,1,4.63,True,1,1,1,0,0,0,0,MERGED
+258382,[WIP] Fixing Issue #257872 in VSCode Repository,copilot-swe-agent,2025-07-29T01:42:01Z,2025-07-29T06:28:42+00:00,2,4.78,False,0,0,0,1556,0,0,0,CLOSED
+258379,Fix possible leaks in notebook chat Editing component,DonJayamanne,2025-07-29T01:19:19Z,2025-07-29T20:04:57+00:00,1,18.76,True,4,1,1,62,1,0,1,MERGED
+258365,Return original markup if katex fails,mjbvz,2025-07-28T22:49:17Z,2025-07-29T01:24:50+00:00,1,2.59,True,13,5,1,0,1,0,1,MERGED
+258359,Allow a few more katex styles,mjbvz,2025-07-28T22:26:58Z,2025-07-29T00:01:59+00:00,2,1.58,True,19,3,4,11,2,0,2,MERGED
+258356,Pick up latest TS for building VS Code,mjbvz,2025-07-28T22:15:43Z,2025-07-29T00:08:10+00:00,1,1.87,True,5,5,2,0,1,0,1,MERGED
+258349,Add jump buttons to test coverage quickpick for test navigation,copilot-swe-agent,2025-07-28T21:53:59Z,2025-08-04T17:32:40+00:00,11,163.64,False,86,26,1,2581,3,6,9,CLOSED
+258279,Fix accessibility signals playing after chat edit changes are accepted,copilot-swe-agent,2025-07-28T17:48:10Z,2025-07-31T16:23:51+00:00,2,70.59,False,6,0,1,1927,1,0,1,CLOSED
+258276,Enable defaultMode experiment for free users,roblourens,2025-07-28T17:22:26Z,2025-07-28T20:06:01+00:00,2,2.73,True,5,3,1,0,0,0,0,MERGED
+258273,Enable defaultMode experiment for free users,roblourens,2025-07-28T17:20:21Z,2025-07-28T22:18:33+00:00,1,4.97,True,5,3,1,0,0,0,0,MERGED
+258251,show task's internal label vs `type:index` for tasks without custom `label`,meganrogge,2025-07-28T15:40:38Z,2025-07-28T16:44:00+00:00,2,1.06,True,22,23,3,13,0,1,1,MERGED
+258221,"Move terminal auto approve to chat.tools, add deprecation messages ",Tyriar,2025-07-28T13:14:17Z,2025-07-28T16:23:16+00:00,1,3.15,True,39,3,2,13,0,0,0,MERGED
+258218,Disables edit telemetry to prevent memory leak,hediet,2025-07-28T13:04:00Z,2025-07-28T20:54:00+00:00,1,7.83,True,2,2,2,119,0,0,0,MERGED
+258206,fix: memory leak in context key,SimonSiefke,2025-07-28T12:06:51Z,2025-07-30T09:03:17+00:00,2,44.94,True,15,5,1,2253,1,0,1,MERGED
+258184,Computing full diff across a turn,aiday-mar,2025-07-28T10:17:31Z,2025-08-02T15:39:13+00:00,17,125.36,True,119,42,4,13,1,4,5,MERGED
+258171,Set triggerCommandOnProviderChange default to false to fix #256458,copilot-swe-agent,2025-07-28T09:36:24Z,2025-07-28T11:05:09+00:00,4,1.48,True,1,1,1,1817,0,0,0,MERGED
+258152,fix: memory leak in pattern input widget,SimonSiefke,2025-07-28T07:52:06Z,2025-08-04T20:02:27+00:00,2,180.17,True,2,2,1,59,1,0,1,MERGED
+258150,Fix Pull Request card issue number wrapping in chat interface,copilot-swe-agent,2025-07-28T07:51:23Z,2025-07-28T09:33:14+00:00,2,1.7,True,2,0,1,1723,0,0,0,MERGED
+258137,Remove hard-coded Python for lsp in terminal,anthonykim1,2025-07-28T06:22:08Z,2025-08-08T15:54:26+00:00,20,273.54,True,46,57,6,683,2,9,11,MERGED
+258013,ci: specify keychain when logging identity,deepak1556,2025-07-26T22:22:20Z,2025-07-27T03:37:13+00:00,1,5.25,True,4,4,2,11,0,0,0,MERGED
+257975,fix: Typo in lm invokeTool description,iann0036,2025-07-26T14:14:20Z,2025-07-28T20:00:46+00:00,2,53.77,True,1,1,1,67,0,0,0,MERGED
+257951,Rename tasks -> todo list,bhavyaus,2025-07-26T07:23:39Z,2025-07-26T08:56:18+00:00,1,1.54,True,167,167,11,51,0,0,0,MERGED
+257942,update task handling in ChatStickyTaskWidget and ChatWidget,bhavyaus,2025-07-26T04:49:14Z,2025-07-26T06:41:25+00:00,1,1.87,True,27,35,2,0,0,0,0,MERGED
+257931,checkpoint file diffs small ui cleanup,justschen,2025-07-26T00:29:46Z,2025-07-28T07:15:27+00:00,1,54.76,True,109,84,1,187,1,0,1,MERGED
+257930,fix: `EvaluatableExpression` properties jsdoc,turansky,2025-07-25T23:56:20Z,2025-07-28T19:00:01+00:00,2,67.06,True,2,2,1,0,0,0,0,MERGED
+257925,"mcp: improve hover on refresh/error icon, allow toggling autorun state",connor4312,2025-07-25T23:34:05Z,2025-07-26T00:39:11+00:00,1,1.08,True,196,34,12,0,0,0,0,MERGED
+257920,remove usage of experiment service for global vs editor toolbar,Yoyokrazy,2025-07-25T23:01:56Z,2025-07-26T00:25:11+00:00,1,1.39,True,0,14,1,25,0,0,0,MERGED
+257911,create editor integration for Code editors within notebooks,amunger,2025-07-25T22:21:03Z,2025-07-28T18:52:32+00:00,2,68.52,True,18,2,2,11,0,0,0,MERGED
+257909,inline code actions fix,justschen,2025-07-25T22:06:57Z,2025-07-25T23:10:03+00:00,1,1.05,True,6,2,1,11,1,0,1,MERGED
+257907,adopt IChatPullRequestContent in CreateRemoteAgentJobAction,joshspicer,2025-07-25T21:59:08Z,2025-07-25T23:31:26+00:00,3,1.54,True,23,18,1,14,0,0,0,MERGED
+257901,Hide checkpoint UX and action buttons when chat session is locked to coding agent,copilot-swe-agent,2025-07-25T21:10:27Z,2025-07-28T18:25:07+00:00,3,69.24,True,10,8,5,2931,2,0,2,MERGED
+257892,Implement copilot token flag for agent mode,roblourens,2025-07-25T19:14:06Z,2025-07-28T22:03:29+00:00,2,74.82,True,15,4,4,0,0,1,1,MERGED
+257883,Add progress indicator to chat sessions async data provider using IProgressService,copilot-swe-agent,2025-07-25T18:38:54Z,2025-07-28T23:52:28+00:00,7,77.23,True,62,7,1,2364,3,1,4,MERGED
+257878,"Silence the ""Comments are not permitted in JSON."" error for emmet snippets.json files",copilot-swe-agent,2025-07-25T18:24:34Z,2025-07-28T17:21:05+00:00,3,70.94,True,2,1,1,2200,2,0,2,MERGED
+257859,fix: add workaround for failed stat operations on FSLogix environment,deepak1556,2025-07-25T16:02:50Z,2025-07-25T17:05:38+00:00,1,1.05,True,2,2,2,13,0,0,0,MERGED
+257847,chore: bump gulp-electron@1.38.1,deepak1556,2025-07-25T14:54:00Z,2025-07-25T16:00:27+00:00,1,1.11,True,135,91,2,138,0,0,0,MERGED
+257844,Share logic between fg/bg terminals,Tyriar,2025-07-25T14:34:08Z,2025-07-25T16:26:26+00:00,1,1.87,True,48,59,1,19,0,0,0,MERGED
+257808,making border radius visible on chat changes summary,aiday-mar,2025-07-25T10:38:07Z,2025-07-25T12:15:08+00:00,1,1.62,True,27,6,1,0,0,0,0,MERGED
+257806,Add ToolResultAudience and ChatResponsePullRequestPart,alexr00,2025-07-25T10:21:58Z,2025-07-25T15:26:56+00:00,1,5.08,True,311,33,17,15,0,1,1,MERGED
+257785,make sure to resize images coming from tool calls,justschen,2025-07-25T07:18:50Z,2025-07-28T18:00:39+00:00,8,82.7,True,227,9,8,39,2,10,12,MERGED
+257775,[engineering] parallelize unzip in product-build-darwin-universal.yml,tmm1,2025-07-25T05:40:46Z,2025-07-28T04:48:36+00:00,2,71.13,True,3,2,1,0,0,0,0,MERGED
+257772,Add ChatStickyTaskWidget and integrate it into ChatWidget; remove unused ChatTaskListSubPart,bhavyaus,2025-07-25T05:08:33Z,2025-07-25T07:52:39+00:00,1,2.73,True,170,143,5,0,0,0,0,MERGED
+257769,Don't let chat output renderers block mouse wheel,mjbvz,2025-07-25T04:50:47Z,2025-07-25T08:13:31+00:00,1,3.38,True,38,9,7,48,1,0,1,MERGED
+257754,Add Hello World extension demonstrating VS Code extension development patterns,copilot-swe-agent,2025-07-25T01:30:29Z,2025-08-08T18:48:09+00:00,1,353.29,False,621,24,16,2826,9,0,9,CLOSED
+257741,feat: support device permissions via package identity,deepak1556,2025-07-24T22:57:34Z,2025-07-25T19:57:36+00:00,1,21.0,True,196,61,8,11,0,0,0,MERGED
+257723,Support for icon coloring in chat sessions view,osortega,2025-07-24T20:40:13Z,2025-07-24T22:30:10+00:00,1,1.83,True,57,4,1,61,0,0,0,MERGED
+257691,add basic regex auto-reply support,meganrogge,2025-07-24T16:26:48Z,2025-08-14T20:36:16+00:00,8,508.16,False,272,38,5,269,1,10,11,CLOSED
+257630,fallback to get manifest in stable in case,sandy081,2025-07-24T10:41:22Z,2025-07-24T11:52:27+00:00,1,1.18,True,33,8,1,50,0,0,0,MERGED
+257603,revamp create worktree... flow,nguyenchristy,2025-07-24T06:38:12Z,2025-07-24T08:40:20+00:00,2,2.04,True,111,63,3,0,0,0,0,MERGED
+257593,"Create by default, but give dropdown for Preview on Github",justschen,2025-07-24T05:39:03Z,2025-08-26T18:27:15+00:00,2,804.8,True,196,69,8,26,6,0,6,MERGED
+257579,Adding event for chat session items changes,osortega,2025-07-24T02:29:44Z,2025-07-24T04:27:15+00:00,1,1.96,True,45,1,5,50,0,0,0,MERGED
+257564,"mcp: implement autorun, rework trust",connor4312,2025-07-24T00:21:47Z,2025-07-24T15:02:39+00:00,2,14.68,True,1269,647,38,1145,1,0,1,MERGED
+257534,move create and run task to core,meganrogge,2025-07-23T21:35:12Z,2025-07-24T14:50:35+00:00,3,17.26,True,277,7,3,83,0,2,2,MERGED
+257526,remove redundant telemetry,justschen,2025-07-23T21:04:07Z,2025-07-23T22:56:40+00:00,2,1.88,True,1,19,1,41,2,0,2,MERGED
+257517,Add recorded tests for command detection,Tyriar,2025-07-23T19:55:15Z,2025-07-24T15:13:11+00:00,2,19.3,True,1765,0,8,15,0,1,1,MERGED
+257516,Trim the output for the telemetry event,Tyriar,2025-07-23T19:51:40Z,2025-07-23T21:13:29+00:00,1,1.36,True,1,1,1,145,0,0,0,MERGED
+257514,chore: add include.gypi for parcel-bundler/watcher BinSkim results,rzhao271,2025-07-23T19:46:47Z,2025-07-24T14:59:58+00:00,1,19.22,True,35,1,2,88,0,0,0,MERGED
+257510,Remove expandable hover setting,mjbvz,2025-07-23T19:38:03Z,2025-07-23T20:38:36+00:00,1,1.01,True,1,12,3,84,2,0,2,MERGED
+257507,hide restore to last checkpoint by default,justschen,2025-07-23T19:13:52Z,2025-07-25T21:11:51+00:00,1,49.97,True,4,4,2,0,1,0,1,MERGED
+257503,chat session providers static contribution,rebornix,2025-07-23T18:50:52Z,2025-07-23T20:01:10+00:00,2,1.17,True,162,30,5,44,3,0,3,MERGED
+257501,refine default worktree name,nguyenchristy,2025-07-23T18:40:50Z,2025-07-23T20:35:43+00:00,1,1.91,True,4,2,1,0,1,0,1,MERGED
+257498,send telemetry when lines are accepted or rejected,amunger,2025-07-23T18:31:15Z,2025-07-24T19:47:49+00:00,3,25.28,True,109,17,8,41,1,1,2,MERGED
+257494,SCM - fix edge case with setting the active repository,lszomoru,2025-07-23T17:34:45Z,2025-07-23T20:22:57+00:00,2,2.8,True,8,0,1,15,2,0,2,MERGED
+257492,"race prompt response and terminal/task idle, hide prompt part when terminal/task becomes idle or prompt is replied to",meganrogge,2025-07-23T17:04:18Z,2025-07-23T19:40:13+00:00,7,2.6,True,219,24,7,478,0,5,5,MERGED
+257491,Make chat elicitation request part accessible,copilot-swe-agent,2025-07-23T17:01:30Z,2025-07-23T21:25:59+00:00,5,4.41,True,54,8,7,498,3,1,4,MERGED
+257482,Remove stale decoration when running watch activities,anthonykim1,2025-07-23T16:28:46Z,2025-07-28T15:00:00+00:00,11,118.52,True,14,1,1,124,2,6,8,MERGED
+257463,Add experiment flag around NuGet MCP assisted config,joelverhagen,2025-07-23T14:37:33Z,2025-07-24T16:24:40+00:00,2,25.79,True,39,13,2,383,0,0,0,MERGED
+257450,#257420 - handle duplicate servers,sandy081,2025-07-23T13:22:31Z,2025-07-23T15:02:23+00:00,1,1.66,True,56,23,7,7,0,0,0,MERGED
+257428,Adding logs for copy paste,aiday-mar,2025-07-23T11:00:09Z,2025-07-28T15:15:22+00:00,4,124.25,True,147,23,12,0,0,6,6,MERGED
+257400,fix: changed the node js version for devcontainer,Rishi-infy47,2025-07-23T05:53:24Z,2025-07-23T09:07:52+00:00,2,3.24,True,1,1,1,148,3,0,3,MERGED
+257371,Chat sessions view,osortega,2025-07-23T00:07:16Z,2025-07-23T21:58:25+00:00,3,21.85,True,757,7,7,0,0,1,1,MERGED
+257370,create new branch in Create Worktree... command,nguyenchristy,2025-07-22T23:39:51Z,2025-07-23T17:41:02+00:00,5,18.02,True,32,10,3,151,1,4,5,MERGED
+257363,fix some issues,meganrogge,2025-07-22T22:18:12Z,2025-07-23T01:33:06+00:00,1,3.25,True,22,21,4,375,0,0,0,MERGED
+257355,"Expose ""View Previous Edits"" command in command palette and accessibility help",copilot-swe-agent,2025-07-22T20:54:49Z,2025-07-23T16:08:52+00:00,8,19.23,True,3,2,2,1941,2,2,4,MERGED
+257354,Add aria alerts for sidebar and secondary sidebar visibility toggles,copilot-swe-agent,2025-07-22T20:54:40Z,2025-07-23T16:36:21+00:00,6,19.69,True,19,2,2,1682,0,0,0,MERGED
+257350,testing: move tests tool to core,connor4312,2025-07-22T20:33:05Z,2025-07-22T23:37:00+00:00,1,3.07,True,413,76,9,299,0,0,0,MERGED
+257332,set notebook inline chat height based on full notebook editor height,amunger,2025-07-22T18:50:03Z,2025-07-22T20:08:27+00:00,1,1.31,True,19,12,2,0,0,0,0,MERGED
+257328,worktree error handling in creation of worktrees  and checking out branches,nguyenchristy,2025-07-22T18:33:11Z,2025-07-22T22:10:03+00:00,4,3.61,True,37,24,1,195,0,2,2,MERGED
+257311,fix(terminal): getBufferReverseIterator bug after scrollback limit reached,futurist,2025-07-22T17:29:02Z,2025-07-22T20:02:55+00:00,2,2.56,True,22,2,2,78,1,0,1,MERGED
+257306,fix remaining run task and task output issues,meganrogge,2025-07-22T17:05:17Z,2025-07-22T19:36:01+00:00,3,2.51,True,81,41,5,27,0,4,4,MERGED
+257304,fix dynamic variables not working in request edits,justschen,2025-07-22T16:58:42Z,2025-07-31T00:12:58+00:00,1,199.24,True,33,2,2,11,1,0,1,MERGED
+257297,Add TriStateCheckbox,TylerLeonhardt,2025-07-22T16:17:51Z,2025-07-22T19:24:17+00:00,1,3.11,True,98,34,4,45,0,0,0,MERGED
+257296,Remove IChatTerminalToolInvocationData,Tyriar,2025-07-22T16:16:23Z,2025-07-23T01:37:29+00:00,2,9.35,True,37,113,14,229,0,0,0,MERGED
+257276,Require sub-commands and command lines to not be denied before checking auto approval,Tyriar,2025-07-22T14:38:08Z,2025-07-27T16:30:23+00:00,1,121.87,True,57,38,5,13,0,0,0,MERGED
+257271,"Add the ability to clear a ChatResponseStream, passing in a reason which results in a warning being displayed",jwangxx,2025-07-22T14:06:23Z,2025-08-02T00:20:14+00:00,7,250.23,True,77,5,7,145,0,2,2,MERGED
+257219,Fix an `@param` typo,gjsjohnmurray,2025-07-22T07:32:25Z,2025-07-22T22:28:08+00:00,2,14.93,True,1,1,1,0,0,0,0,MERGED
+257214,Add task list support,bhavyaus,2025-07-22T06:46:59Z,2025-07-22T08:36:46+00:00,1,1.83,True,584,8,11,70,0,0,0,MERGED
+257210,Await on Notebook edits,DonJayamanne,2025-07-22T06:02:08Z,2025-07-22T13:12:21+00:00,1,7.17,True,1,1,1,43,0,0,0,MERGED
+257198,fix bug of getBufferReverseIterator,futurist,2025-07-22T04:26:34Z,2025-07-22T17:22:33+00:00,3,12.93,False,0,0,0,78,1,1,2,CLOSED
+257192,Store client id and secret in DynamicAuthProvider ctor,kyle-leonhard,2025-07-22T02:51:13Z,2025-07-22T14:45:14+00:00,2,11.9,False,2,0,1,2876,1,1,2,CLOSED
+257178,add opt-in setting for new task tools,meganrogge,2025-07-22T01:05:53Z,2025-07-22T03:00:05+00:00,2,1.9,True,17,11,3,11,0,0,0,MERGED
+257172,Error handling of create worktree and fix create worktree... command from command palette ,nguyenchristy,2025-07-21T23:48:00Z,2025-07-22T14:37:50+00:00,2,14.83,True,42,5,3,310,0,1,1,MERGED
+257162,Bump form-data from 3.0.0 to 3.0.4 in /extensions/microsoft-authentication,dependabot,2025-07-21T22:58:30Z,2025-08-06T15:52:51+00:00,1,376.91,True,208,11,1,4322,0,0,0,MERGED
+257160,Reshape chat session api,mjbvz,2025-07-21T22:49:51Z,2025-07-22T01:59:12+00:00,3,3.16,True,75,84,7,273,1,1,2,MERGED
+257154,Update to VS Code distro,osortega,2025-07-21T21:14:55Z,2025-07-21T22:41:13+00:00,1,1.44,True,1,1,1,13,0,0,0,MERGED
+257149,Prototype for LLM-based terminal auto approval,Tyriar,2025-07-21T19:51:27Z,2025-08-07T16:57:54+00:00,1,405.11,False,273,168,4,15,1,0,1,CLOSED
+257146,Codespace expert journey r4x9vvjr7pwpfx9p6,kaziwahidaltaher-droid,2025-07-21T19:40:50Z,2025-07-23T13:09:57+00:00,1,41.49,False,96,9,9,58,1,2,3,CLOSED
+257144,Add support for separators in the action widget,lramos15,2025-07-21T19:10:53Z,2025-07-21T22:17:04+00:00,3,3.1,True,102,19,3,103,1,1,2,MERGED
+257142,Always remove terminals from associations when they dispose,Tyriar,2025-07-21T18:45:20Z,2025-07-21T20:04:58+00:00,2,1.33,True,12,1,2,13,3,0,3,MERGED
+257082,fix: memory leak in ChatInputPart,SimonSiefke,2025-07-21T13:30:48Z,2025-07-24T22:38:04+00:00,2,81.12,True,1,1,1,93,0,0,0,MERGED
+257053,# 257052 Refetch experimental values every 60 minutes,sandy081,2025-07-21T09:52:37Z,2025-08-18T13:49:21+00:00,1,675.95,True,1,1,1,0,1,0,1,MERGED
+257043,migrating to AsyncIterableProducer,aiday-mar,2025-07-21T08:59:26Z,2025-08-01T09:19:49+00:00,1,264.34,True,85,19,7,32,2,0,2,MERGED
+256990,core: update API to show markdown string in confirmation,justschen,2025-07-21T03:08:44Z,2025-07-21T15:52:21+00:00,1,12.73,True,11,7,5,51,3,0,3,MERGED
+256965,fix: set edit context to undefined in dispose,SimonSiefke,2025-07-20T21:05:55Z,2025-07-21T09:24:58+00:00,2,12.32,True,1,0,1,812,1,0,1,MERGED
+256957,fix: memory leak in editor edit context,SimonSiefke,2025-07-20T19:53:54Z,2025-07-21T14:45:42+00:00,2,18.86,True,1,1,1,49,5,0,5,MERGED
+256905,(reland) chore: update to Electron 37,deepak1556,2025-07-20T05:04:45Z,2025-07-21T10:37:44+00:00,1,29.55,True,109,105,13,103,1,0,1,MERGED
+256896,button to 'restore to last checkpoint,justschen,2025-07-20T00:23:57Z,2025-07-20T06:48:07+00:00,1,6.4,True,56,1,2,11,2,0,2,MERGED
+256892,better aria label for list,justschen,2025-07-19T23:01:14Z,2025-07-20T00:26:00+00:00,1,1.41,True,1,1,1,11,2,0,2,MERGED
+256887,fix: memory leak in extension features tab,SimonSiefke,2025-07-19T21:31:38Z,2025-07-22T10:23:46+00:00,2,60.87,True,1,1,1,4470,0,0,0,MERGED
+256878,Couple of fixes for the chat session contribution,osortega,2025-07-19T20:34:34Z,2025-07-20T01:38:59+00:00,1,5.07,True,14,7,2,111,0,0,0,MERGED
+256868,chore: cleanup usage of AsyncIterableObject,connor4312,2025-07-19T18:21:30Z,2025-07-19T22:18:44+00:00,1,3.95,True,7,3,2,12,0,0,0,MERGED
+256843,implements ai stats,hediet,2025-07-19T11:46:10Z,2025-07-21T06:52:53+00:00,5,43.11,True,512,168,20,52,0,1,1,MERGED
+256827,Git: Delete Worktree... command for command palette only,nguyenchristy,2025-07-19T05:51:23Z,2025-07-21T14:48:08+00:00,1,56.95,True,74,1,3,96,1,0,1,MERGED
+256805,Hide dropdown and chat attachments in experimental welcome view,bhavyaus,2025-07-18T23:50:42Z,2025-07-19T02:00:25+00:00,1,2.16,True,12,0,1,14,0,0,0,MERGED
+256802,Add internal API for getting a webview's content size,mjbvz,2025-07-18T23:27:28Z,2025-07-19T01:47:43+00:00,1,2.34,True,39,15,5,103,1,0,1,MERGED
+256793,Explain why a command/command line was auto approved or not,Tyriar,2025-07-18T22:21:13Z,2025-07-19T14:53:31+00:00,1,16.54,True,123,51,4,35,2,0,2,MERGED
+256790,Remove debug log in addFileAndFolderEntries,Tyriar,2025-07-18T22:01:32Z,2025-07-19T13:45:31+00:00,1,15.73,True,0,1,1,51,0,0,0,MERGED
+256788,Support matching against full command lines,Tyriar,2025-07-18T21:47:25Z,2025-07-19T01:43:45+00:00,1,3.94,True,245,26,5,13,0,0,0,MERGED
+256784,"revised chat control, new workspace phrasing and icon",eli-w-king,2025-07-18T21:10:13Z,2025-07-25T21:13:22+00:00,1,168.05,True,14,14,6,0,3,0,3,MERGED
+256783,Use _provider.resolveCompletionItem to wait lsp completion items in terminal suggest,anthonykim1,2025-07-18T20:59:03Z,2025-07-22T19:50:31+00:00,16,94.86,True,132,16,4,86,2,8,10,MERGED
+256781,ci: fix linux node_modules publish pipeline,deepak1556,2025-07-18T20:42:26Z,2025-07-21T09:09:58+00:00,1,60.46,True,40,10,5,1225,0,0,0,MERGED
+256778,Reverting a deleted extension point,osortega,2025-07-18T20:21:38Z,2025-07-18T21:29:33+00:00,1,1.13,True,8,2,2,36,0,0,0,MERGED
+256774,"migrate run task, get task output to core, fix bugs",meganrogge,2025-07-18T20:07:46Z,2025-07-21T23:57:48+00:00,5,75.83,True,416,10,12,208,1,9,10,MERGED
+256762,SCM - add proposed API to specify source control provider icons,lszomoru,2025-07-18T18:52:26Z,2025-07-18T19:54:18+00:00,1,1.03,True,51,41,9,0,0,0,0,MERGED
+256759,fix some implicit context ui,justschen,2025-07-18T18:44:22Z,2025-07-18T20:53:23+00:00,2,2.15,True,9,3,2,23,1,0,1,MERGED
+256749,Make chat welcome view suggested prompts keyboard accessible,copilot-swe-agent,2025-07-18T18:04:44Z,2025-07-18T20:17:46+00:00,3,2.22,True,18,2,1,2793,0,1,1,MERGED
+256725,Merge allow and deny lists into autoApprove,Tyriar,2025-07-18T15:42:48Z,2025-07-18T18:20:37+00:00,1,2.63,True,136,141,4,442,0,0,0,MERGED
+256711,Handle cd /d on Windows in command rewriting,copilot-swe-agent,2025-07-18T14:38:18Z,2025-07-18T20:14:35+00:00,6,5.6,True,79,1,2,2049,2,2,4,MERGED
+256675,loading instructions on demand needs agent mode,aeschli,2025-07-18T10:01:25Z,2025-07-21T12:58:15+00:00,1,74.95,True,15,7,1,13,0,0,0,MERGED
+256669,loading instructions on demand needs agent mode,aeschli,2025-07-18T09:33:08Z,2025-07-18T11:54:16+00:00,1,2.35,True,12,10,1,11,0,0,0,MERGED
+256622,use pointer for edits entry,justschen,2025-07-18T01:52:31Z,2025-07-18T03:52:01+00:00,1,1.99,True,1,1,1,11,1,0,1,MERGED
+256620,fix some papercuts with edits -> checkpoints interaction,justschen,2025-07-18T01:48:28Z,2025-07-18T03:51:44+00:00,1,2.05,True,15,2,2,90,1,0,1,MERGED
+256617,Adds support for proper localhost loopback on RFC 6761,timheuer,2025-07-18T00:40:37Z,2025-07-21T16:56:43+00:00,7,88.27,True,6,1,2,834,0,1,1,MERGED
+256616,Fix import,osortega,2025-07-18T00:37:24Z,2025-07-18T03:02:26+00:00,2,2.42,True,43,7,4,10,0,0,0,MERGED
+256613,add bg terminal output polling and cancellation option,meganrogge,2025-07-18T00:22:44Z,2025-07-21T17:23:01+00:00,8,89.0,True,229,45,6,113,3,13,16,MERGED
+256612,Fix crash when problemMatcher has empty pattern array,copilot-swe-agent,2025-07-18T00:18:45Z,2025-07-22T20:32:01+00:00,7,116.22,True,16,0,2,2663,3,2,5,MERGED
+256609,changed 'ai actions' to 'generate code',eli-w-king,2025-07-18T00:07:54Z,2025-07-25T21:12:52+00:00,1,189.08,True,1,1,1,115,1,0,1,MERGED
+256608,do not show prompt files in edits,justschen,2025-07-17T23:58:42Z,2025-07-18T00:59:19+00:00,1,1.01,True,3,2,1,0,1,0,1,MERGED
+256591,Bump on-headers and morgan,dependabot,2025-07-17T21:21:39Z,2025-08-07T15:59:15+00:00,1,498.63,True,9,7,1,5283,1,0,1,MERGED
+256579,Small additional cleanups to domSanitize,mjbvz,2025-07-17T20:57:34Z,2025-07-17T22:20:21+00:00,1,1.38,True,33,26,9,162,1,0,1,MERGED
+256578,Always show warning about untrusted content from fetch tool,roblourens,2025-07-17T20:51:17Z,2025-07-24T18:11:15+00:00,1,165.33,True,8,5,1,115,0,0,0,MERGED
+256569,Always enable new tools,Tyriar,2025-07-17T20:12:13Z,2025-07-18T19:49:14+00:00,1,23.62,False,6,19,2,15,0,0,0,CLOSED
+256568,change ChatPromptFiles to not be a previewFeature,aeschli,2025-07-17T20:08:14Z,2025-07-21T15:17:34+00:00,2,91.16,True,1,3,1,0,2,1,3,MERGED
+256559,ensure bg terminal command is executed,meganrogge,2025-07-17T19:07:23Z,2025-07-18T15:05:27+00:00,1,19.97,True,1,1,1,0,0,0,0,MERGED
+256558,tools: surface tool source in chat additions api,connor4312,2025-07-17T19:05:50Z,2025-07-17T20:25:26+00:00,1,1.33,True,172,49,12,395,0,0,0,MERGED
+256554,Revised chat input placeholder text,eli-w-king,2025-07-17T18:54:01Z,2025-07-25T21:32:01+00:00,6,194.63,True,3,7,3,85,1,2,3,MERGED
+256544,fix: onboard Debian package onto new key,rzhao271,2025-07-17T18:27:05Z,2025-07-17T23:17:07+00:00,1,4.83,True,10,10,1,309,0,0,0,MERGED
+256541,coding agent chat ux,joshspicer,2025-07-17T18:21:26Z,2025-07-25T03:04:46+00:00,5,176.72,True,1196,213,30,12,1,0,1,MERGED
+256538,Bump brace-expansion from 1.1.11 to 1.1.12 in /test/automation,dependabot,2025-07-17T18:12:20Z,2025-08-08T20:46:29+00:00,1,530.57,True,4,3,1,2002,0,0,0,MERGED
+256506,Fixes #252259,hediet,2025-07-17T15:36:10Z,2025-07-17T17:09:24+00:00,1,1.55,True,417,2,3,13,0,0,0,MERGED
+256503,Pull from actual xterm instance instead of creating new one,Tyriar,2025-07-17T15:15:50Z,2025-07-17T18:52:55+00:00,1,3.62,True,184,79,7,13,0,0,0,MERGED
+256496,Prefix all provider IDs with core/ext/lsp,Tyriar,2025-07-17T14:18:56Z,2025-07-17T16:07:56+00:00,1,1.82,True,7,4,4,120,0,0,0,MERGED
+256491,Add policy property to terminal auto approve settings,Tyriar,2025-07-17T13:58:03Z,2025-07-17T18:38:40+00:00,1,4.68,False,8,0,1,75,3,1,4,CLOSED
+256480,Polish terminal tool ids,Tyriar,2025-07-17T13:19:23Z,2025-07-17T15:32:16+00:00,1,2.21,True,4,4,2,0,0,0,0,MERGED
+256454,Fixes https://github.com/microsoft/vscode-internalbacklog/issues/5618,hediet,2025-07-17T10:47:45Z,2025-07-17T12:24:40+00:00,1,1.62,True,21,18,1,43,0,0,0,MERGED

@@ -22,6 +22,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 21051,Fix libbpf.a build path,hack3ric,2025-09-25T15:15:56Z,2025-10-01T11:42:58+00:00,1,140.45,True,1,1,1,378,1,0,1,MERGED
 21049,improve(go.d/rabbitmq): add support for old RabbitMQ whoami tags format,ilyam8,2025-09-25T12:06:54Z,2025-09-25T16:28:03+00:00,3,4.35,True,31,3,2,398,0,1,1,MERGED
 21046,ml: implement fixed time-based training windows - corrected,ktsaou,2025-09-24T18:52:27Z,2025-09-30T16:29:01+00:00,1,141.61,True,178,47,6,1252,0,0,0,MERGED
+21044,Add documentation and fallback to /host/ for getting the machine id,vkalintiris,2025-09-24T14:45:40Z,2025-10-06T11:22:22+00:00,16,284.61,True,96,2,4,46,2,1,3,MERGED
 21043,ai-docs,shyamvalsan,2025-09-24T08:34:49Z,2025-09-25T18:59:37+00:00,6,34.41,True,685,447,16,21,2,1,3,MERGED
 21041,Add documentation on using custom CA certificates to Learn,ralphm,2025-09-23T16:28:18Z,2025-09-24T13:33:31+00:00,1,21.09,True,2,1,2,162,0,0,0,MERGED
 21040,Context loading priority to vnodes,stelfrag,2025-09-23T16:12:46Z,2025-09-24T09:21:56+00:00,1,17.15,True,102,42,3,151,0,0,0,MERGED
@@ -149,3 +150,852 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 20753,build(deps): bump github.com/miekg/dns from 1.1.67 to 1.1.68 in /src/go,dependabot,2025-08-04T05:27:42Z,2025-08-04T06:41:42+00:00,1,1.23,True,3,3,2,1620,0,0,0,MERGED
 20752,Improve Disk Usage Measure (Windows.plugin),thiagoftsm,2025-08-04T04:05:07Z,2025-08-04T11:20:45+00:00,1,7.26,True,41,3,1,643,0,0,0,MERGED
 20751,chore(go.d/snmp): remove SNMP prefix from hostname,ilyam8,2025-08-03T06:57:18Z,2025-08-03T18:14:16+00:00,1,11.28,True,2,1,1,151,0,0,0,MERGED
+20750,chore(go.d/snmp): add org to vendor map,ilyam8,2025-08-02T10:42:05Z,2025-08-02T11:50:29+00:00,3,1.14,True,189,61,52,87,0,3,3,MERGED
+20749,Regenerate integrations docs,netdatabot,2025-07-31T13:26:25Z,2025-08-01T05:58:24+00:00,1,16.53,True,8,0,1,147,0,0,0,MERGED
+20747,Record proxy information when establishing ACLK,stelfrag,2025-07-31T07:04:11Z,2025-08-03T18:11:45+00:00,2,83.13,True,90,68,12,175,1,1,2,MERGED
+20746,Change remaining pthread_ cases,stelfrag,2025-07-31T06:34:29Z,2025-07-31T13:25:27+00:00,1,6.85,True,20,20,3,67,0,0,0,MERGED
+20744,Remove redundant defines,stelfrag,2025-07-30T18:18:07Z,2025-07-31T12:33:23+00:00,1,18.25,True,2,20,1,63,0,0,0,MERGED
+20743,streaming routing documentation,ktsaou,2025-07-30T12:42:09Z,2025-08-01T08:26:13+00:00,2,43.73,True,218,0,2,96,3,9,12,MERGED
+20741,"MCP WEB CHAT: add ollama, deepseek support",ktsaou,2025-07-30T10:37:38Z,2025-09-08T10:07:51+00:00,2,959.5,True,8244,3114,11,204,0,0,0,MERGED
+20740,Fix SNDR thread startup,stelfrag,2025-07-30T07:05:30Z,2025-07-30T08:09:50+00:00,1,1.07,True,2,1,1,67,0,0,0,MERGED
+20737,Use netdata mutex cond and lock,stelfrag,2025-07-29T14:56:13Z,2025-07-31T05:29:24+00:00,1,38.55,True,489,441,27,126,0,0,0,MERGED
+20734,build(deps): bump openssl and curl version in static build,ilyam8,2025-07-28T10:21:34Z,2025-07-29T08:23:31+00:00,2,22.03,True,2,2,1,99,0,0,0,MERGED
+20732,Thread creation code cleanup,stelfrag,2025-07-28T08:09:26Z,2025-07-29T14:30:54+00:00,1,30.36,True,190,395,115,85,0,0,0,MERGED
+20731,Add additional database checks during shutdown ,stelfrag,2025-07-28T06:27:31Z,2025-07-28T17:52:37+00:00,1,11.42,True,19,5,1,112,0,0,0,MERGED
+20729,"Revert ""Revert ""Deployment Guides: add and update documentation for deployment strate""""",ilyam8,2025-07-27T07:18:03Z,2025-07-30T08:18:03+00:00,1,73.0,True,839,625,8,39,1,0,1,MERGED
+20727,Reset chart variable after release,stelfrag,2025-07-25T09:02:43Z,2025-07-25T11:54:48+00:00,1,2.87,True,1,0,1,87,0,0,0,MERGED
+20725,Improve thread shutdown handling for MSSQL plugin,stelfrag,2025-07-24T09:05:42Z,2025-07-28T17:49:36+00:00,1,104.73,True,97,34,3,187,0,0,0,MERGED
+20724,Update README.md,kanelatechnical,2025-07-24T03:19:29Z,2025-07-24T05:11:49+00:00,1,1.87,True,1,3,1,28,0,0,0,MERGED
+20723,Update README.md,kanelatechnical,2025-07-24T03:15:46Z,2025-07-24T05:12:27+00:00,1,1.94,True,0,7,1,207,0,0,0,MERGED
+20722,Avoid static initialization,stelfrag,2025-07-23T17:01:46Z,2025-07-24T04:37:01+00:00,1,11.59,True,158,1295,20,58,0,0,0,MERGED
+20720,Enable services status (windows.plugin),thiagoftsm,2025-07-23T02:41:28Z,2025-07-23T13:49:58+00:00,3,11.14,True,14,12,4,283,0,1,1,MERGED
+20719,Mark the completion from the worker thread,stelfrag,2025-07-22T17:27:29Z,2025-07-22T21:42:25+00:00,1,4.25,True,1,3,1,74,0,0,0,MERGED
+20714,Ignore timestamps recording in gzip metadata (for reproducible builds),Antiz96,2025-07-21T18:31:10Z,2025-07-24T15:07:32+00:00,2,68.61,True,1,1,1,194,2,0,2,MERGED
+20713,Remove H2O web server code from Netdata.,Ferroin,2025-07-21T14:53:14Z,2025-07-23T10:53:22+00:00,1,44.0,True,15,1430,29,342,0,0,0,MERGED
+20712,Deployment Guides: add and update documentation for deployment strate…,kanelatechnical,2025-07-21T13:12:06Z,2025-07-25T13:28:41+00:00,15,96.28,True,999,588,8,869,0,5,5,MERGED
+20711,Detect missing ACLK MQTT packet acknowledgents,stelfrag,2025-07-21T12:52:26Z,2025-07-23T05:47:12+00:00,4,40.91,True,260,191,2,203,0,2,2,MERGED
+20710,SNMP: make units ucum,Ancairon,2025-07-21T12:22:10Z,2025-07-25T08:10:28+00:00,3,91.81,True,102,99,19,36,0,1,1,MERGED
+20707,build(deps): bump github.com/gosnmp/gosnmp from 1.41.0 to 1.42.0 in /src/go,dependabot,2025-07-20T08:12:02Z,2025-07-20T09:55:02+00:00,1,1.72,True,3,3,2,2576,0,0,0,MERGED
+20705,build(deps): bump k8s.io/client-go from 0.33.2 to 0.33.3 in /src/go,dependabot,2025-07-20T08:11:54Z,2025-07-20T09:53:20+00:00,1,1.69,True,9,9,2,1571,0,0,0,MERGED
+20704,fix(nvme)!: query controller instead of namespace for SMART metrics,ilyam8,2025-07-19T15:26:20Z,2025-07-19T18:56:02+00:00,2,3.5,True,256,226,2,817,0,2,2,MERGED
+20700,Ensure chat exists before handling message input,emmanuel-ferdman,2025-07-18T11:37:09Z,2025-07-19T19:09:27+00:00,1,31.54,True,4,4,1,250,4,0,4,MERGED
+20699,Escape < character in plaintext,Ancairon,2025-07-18T10:15:11Z,2025-07-18T11:18:09+00:00,1,1.05,True,5,5,2,87,1,0,1,MERGED
+20697,Replace legacy functions-table.md with comprehensive UI documentation,ktsaou,2025-07-17T19:58:16Z,2025-07-18T07:28:28+00:00,1,11.5,True,2630,418,3,1558,1,0,1,MERGED
+20696,Update LIBBPF,thiagoftsm,2025-07-17T19:34:38Z,2025-07-21T12:25:03+00:00,1,88.84,True,7,7,3,492,0,0,0,MERGED
+20695,Fix SSL certificate detection for Rocky Linux and static curl,ktsaou,2025-07-17T18:21:34Z,2025-07-24T12:37:28+00:00,10,162.26,True,64,15,2,1495,4,5,9,MERGED
+20693,update otel-collector components deps,ilyam8,2025-07-17T08:29:23Z,2025-07-18T06:03:15+00:00,1,21.56,True,210,210,6,87,0,0,0,MERGED
+20686,Fix systemd-journal-plugin RPM package.,Ferroin,2025-07-15T15:10:31Z,2025-07-15T17:19:55+00:00,1,2.16,True,3,1,1,394,0,0,0,MERGED
+20685,Remove Fedora 40 from CI and package builds.,Ferroin,2025-07-15T15:05:57Z,2025-07-16T10:54:04+00:00,1,19.8,True,7,7,1,95,0,0,0,MERGED
+20684,Add Oracle Linux 10 to CI and package builds.,Ferroin,2025-07-15T15:03:39Z,2025-08-04T12:19:34+00:00,1,477.27,True,14,2,1,43,1,0,1,MERGED
+20681,Remove Ubuntu 24.10 from CI and package builds.,Ferroin,2025-07-15T11:00:00Z,2025-07-15T14:09:29+00:00,1,3.16,True,5,5,1,95,0,0,0,MERGED
+20679,Fix deadlock in dictionary cleanup,stelfrag,2025-07-15T08:29:45Z,2025-07-15T13:12:10+00:00,1,4.71,True,5,2,1,415,0,0,0,MERGED
+20677,Split collection (Windows.plugin),thiagoftsm,2025-07-14T20:13:50Z,2025-07-31T13:25:47+00:00,1,401.2,True,199,152,3,358,0,0,0,MERGED
+20676,Agent docs alignement,kanelatechnical,2025-07-14T16:33:41Z,2025-07-15T08:08:32+00:00,3,15.58,True,739,543,10,291,0,1,1,MERGED
+20673,Code cleanup,stelfrag,2025-07-14T07:45:24Z,2025-07-14T15:02:58+00:00,1,7.29,True,4,14,6,132,0,0,0,MERGED
+20672,Improve agent shutdown on windows,stelfrag,2025-07-14T07:44:17Z,2025-07-14T14:58:59+00:00,1,7.25,True,26,9,1,124,0,0,0,MERGED
+20670,build(deps): bump azure/trusted-signing-action from 0.5.1 to 0.5.9,dependabot,2025-07-14T05:13:33Z,2025-07-14T13:04:56+00:00,1,7.86,True,2,2,1,2160,0,0,0,MERGED
+20668,Regenerate integrations docs,netdatabot,2025-07-13T19:08:18Z,2025-07-14T07:31:12+00:00,1,12.38,True,35,34,18,147,0,0,0,MERGED
+20665,"docs: fix ""Unsupported markdown: list"" in NC readme diagram",ilyam8,2025-07-13T06:48:44Z,2025-07-13T07:51:02+00:00,1,1.04,True,6,6,1,93,0,0,0,MERGED
+20662,Fix datafile creation race condition,stelfrag,2025-07-12T09:52:33Z,2025-07-13T14:25:24+00:00,1,28.55,True,11,16,3,56,0,0,0,MERGED
+20661,Cloud Docs: updated,kanelatechnical,2025-07-11T17:21:20Z,2025-07-13T06:31:42+00:00,1,37.17,True,651,458,8,166,1,0,1,MERGED
+20660,chore(go.d/snmp-profiles): charts meta fixes and fam updates p8,ilyam8,2025-07-11T12:38:49Z,2025-07-12T15:58:54+00:00,2,27.33,True,1802,1162,31,87,0,9,9,MERGED
+20659,Regenerate integrations docs,netdatabot,2025-07-11T11:25:07Z,2025-07-13T14:57:10+00:00,1,51.53,True,167,0,2,147,0,0,0,MERGED
+20657,Improve job completion handling with timeout mechanism,stelfrag,2025-07-11T10:58:31Z,2025-07-11T20:05:29+00:00,1,9.12,True,15,8,1,112,0,0,0,MERGED
+20656,Fix coverity issues,stelfrag,2025-07-11T08:55:47Z,2025-07-11T14:34:48+00:00,1,5.65,True,11,13,3,48,0,0,0,MERGED
+20654,Stop submitting analytics,stelfrag,2025-07-11T06:35:03Z,2025-07-11T13:41:02+00:00,1,7.1,True,1,115,5,72,0,0,0,MERGED
+20652,Fix documentation regarding header_match,tobias-richter,2025-07-10T13:24:15Z,2025-07-11T07:30:58+00:00,1,18.11,True,5,5,1,154,3,0,3,MERGED
+20648,SNMP profile edits ep3,Ancairon,2025-07-10T07:51:28Z,2025-07-10T12:01:29+00:00,1,4.17,True,231,180,11,159,0,0,0,MERGED
+20647,SNMP profiles pass ep2,Ancairon,2025-07-09T09:24:09Z,2025-07-09T13:19:50+00:00,5,3.93,True,228,153,16,87,0,1,1,MERGED
+20646,chore(go.d/snmp-profiles): charts meta fixes and fam updates p7,ilyam8,2025-07-09T04:26:19Z,2025-07-11T12:11:07+00:00,2,55.75,True,2149,1367,18,87,0,0,0,MERGED
+20644,Regenerate integrations docs,netdatabot,2025-07-08T17:06:41Z,2025-07-08T18:40:01+00:00,1,1.56,True,2,2,1,147,1,0,1,MERGED
+20643,Update Cloud OIDC Authorization Server setup docs,car12o,2025-07-08T13:56:36Z,2025-07-08T17:05:59+00:00,1,3.16,True,2,2,1,97,0,0,0,MERGED
+20642,Add Getting Started Netdata guide,kanelatechnical,2025-07-08T10:13:13Z,2025-07-18T08:18:51+00:00,12,238.09,True,370,0,1,227,0,6,6,MERGED
+20641,SNMP Profiles pass ep1,Ancairon,2025-07-08T09:50:44Z,2025-07-08T19:15:23+00:00,4,9.41,True,269,189,17,87,0,1,1,MERGED
+20640,chore(go.d/snmp-profiles): charts meta fixes and fam updates p6,ilyam8,2025-07-07T17:33:03Z,2025-07-08T12:02:01+00:00,3,18.48,True,1674,1264,14,87,0,0,0,MERGED
+20639,Additional checks for ACLK proxy setting,stelfrag,2025-07-07T13:43:36Z,2025-07-08T15:58:54+00:00,2,26.25,True,8,15,1,147,0,1,1,MERGED
+20638,ml: implement fixed time-based training windows,ktsaou,2025-07-06T23:19:13Z,2025-09-22T12:01:50+00:00,1,1860.71,True,160,47,6,23705,8,2,10,MERGED
+20636,refactor(go.d/iprange): migrate from net to net/netip,ilyam8,2025-07-05T10:13:47Z,2025-07-05T13:23:30+00:00,4,3.16,True,1728,510,17,87,0,6,6,MERGED
+20635,chore(go.d/snmp-profiles): charts meta fixes and fam updates p5,ilyam8,2025-07-04T09:47:51Z,2025-07-07T10:48:11+00:00,1,73.01,True,2033,1802,42,87,0,0,0,MERGED
+20633,build(deps): bump github.com/docker/docker from 28.3.0+incompatible to 28.3.1+incompatible in /src/go,dependabot,2025-07-03T19:21:03Z,2025-07-04T05:02:27+00:00,1,9.69,True,3,3,2,2402,0,0,0,MERGED
+20629,Nidl Framework Documentation,ktsaou,2025-07-03T15:48:42Z,2025-07-03T18:27:23+00:00,1,2.64,True,442,0,1,0,0,0,0,MERGED
+20625,Improve ACLK connection handling,stelfrag,2025-07-03T06:14:57Z,2025-07-07T12:53:24+00:00,1,102.64,True,8,6,2,122,0,0,0,MERGED
+20624,Improve packet ID generation,stelfrag,2025-07-02T17:56:01Z,2025-07-02T20:28:44+00:00,1,2.55,True,2,2,1,64,0,0,0,MERGED
+20623,chore(go.d/snmp-profiles): charts meta fixes and fam updates p4,ilyam8,2025-07-02T17:55:58Z,2025-07-04T08:53:50+00:00,2,38.96,True,3385,2966,109,87,0,0,0,MERGED
+20622,chore(go.d/snmp-profiles): charts meta fixes and fam updates p3,ilyam8,2025-07-02T11:26:04Z,2025-07-02T12:37:32+00:00,3,1.19,True,1115,1128,8,87,0,0,0,MERGED
+20621,chore(go.d/snmp-profiles): charts meta fixes and fam updates p2,ilyam8,2025-07-01T17:13:55Z,2025-07-02T07:42:16+00:00,1,14.47,True,1772,1804,32,87,0,0,0,MERGED
+20620,chore(go.d/snmp-profiles): charts meta fixes and fam updates p1,ilyam8,2025-07-01T14:22:17Z,2025-07-01T15:56:51+00:00,2,1.58,True,409,397,10,87,0,2,2,MERGED
+20619,Improve journal v2 file creation on startup ,stelfrag,2025-07-01T13:42:52Z,2025-07-02T15:02:36+00:00,1,25.33,True,37,8,4,70,0,0,0,MERGED
+20617,Getting started guide,kanelatechnical,2025-07-01T11:17:22Z,2025-07-08T10:06:42+00:00,3,166.82,False,123,0,1,165,4,1,5,CLOSED
+20614,chore(go.d/snmp-profiles): move fam desc and unit under chart_meta,ilyam8,2025-07-01T09:10:33Z,2025-07-01T11:20:16+00:00,4,2.16,True,5998,4791,110,87,0,2,2,MERGED
+20612,Fix coverity issues,stelfrag,2025-07-01T06:23:38Z,2025-07-02T15:02:25+00:00,1,32.65,True,19,4,3,67,0,0,0,MERGED
+20607,Improve datafile indexing,stelfrag,2025-06-30T14:57:43Z,2025-07-01T07:41:30+00:00,1,16.73,True,21,8,2,181,0,0,0,MERGED
+20602,Fix compilation on windows,stelfrag,2025-06-30T10:10:10Z,2025-06-30T13:15:54+00:00,1,3.1,True,0,1,1,65,0,0,0,MERGED
+20601,Update sqlite version to 3.50.2,stelfrag,2025-06-30T10:05:21Z,2025-07-01T07:41:18+00:00,1,21.6,True,171,120,2,40,0,0,0,MERGED
+20600,transfer Learn PR 2473,Ancairon,2025-06-30T09:14:12Z,2025-07-01T10:10:54+00:00,1,24.95,True,2392,324,15,931,2,0,2,MERGED
+20599,update generic snmp profiles,ilyam8,2025-06-30T08:32:51Z,2025-06-30T10:37:46+00:00,2,2.08,True,361,368,16,87,0,0,0,MERGED
+20598,Metadata worker should respect shutdown request,stelfrag,2025-06-30T08:29:45Z,2025-06-30T17:01:48+00:00,1,8.53,True,17,12,1,87,0,0,0,MERGED
+20597,docs: fix 404 link in README.md,ilyam8,2025-06-29T19:34:47Z,2025-06-30T02:54:16+00:00,1,7.32,True,1,1,1,100,0,0,0,MERGED
+20594,improve(go.d/snmp-profiles): extend transformEntitySensorValue,ilyam8,2025-06-29T07:23:12Z,2025-06-29T09:36:32+00:00,2,2.22,True,71,34,3,125,0,0,0,MERGED
+20593,Add Screen to Windows installer,thiagoftsm,2025-06-28T02:45:35Z,2025-07-08T14:06:14+00:00,2,251.34,True,27,2,1,244,3,1,4,MERGED
+20590,Ai ml into,kanelatechnical,2025-06-27T13:01:11Z,2025-07-20T16:01:27+00:00,4,555.0,False,114,28,1,48,1,8,9,CLOSED
+20583,fix(go.d/ddsnmp): walk cross-table columns when referenced table has no metrics,ilyam8,2025-06-26T13:20:27Z,2025-06-26T14:22:36+00:00,2,1.04,True,435,56,2,811,0,1,1,MERGED
+20582,fix(go.d/ddsnmp): walk cross-table columns when referenced table has no metrics,ilyam8,2025-06-26T08:35:30Z,2025-06-26T13:20:42+00:00,1,4.75,False,252,60,2,811,1,1,2,CLOSED
+20581,Rework datafiles,stelfrag,2025-06-26T07:10:52Z,2025-07-07T18:28:22+00:00,1,275.29,True,189,109,6,71,0,0,0,MERGED
+20580,Windows Pluging (Freedom to update every),thiagoftsm,2025-06-26T05:02:15Z,2025-07-13T19:07:42+00:00,1,422.09,True,223,85,5,592,3,0,3,MERGED
+20579,Ignore duplicate entries when rebuilding the alert version table,stelfrag,2025-06-25T20:39:07Z,2025-06-30T13:17:17+00:00,1,112.64,True,1,1,1,180,0,0,0,MERGED
+20578,Add Rocky Linux 10 to CI and package builds.,Ferroin,2025-06-25T13:37:09Z,2025-06-26T11:06:07+00:00,2,21.48,True,20,6,1,127,2,0,2,MERGED
+20575,SNMP: cyberpower-pdu profile,Ancairon,2025-06-25T09:02:25Z,2025-06-29T20:11:31+00:00,1,107.15,True,228,206,1,168,0,0,0,MERGED
+20573,NUMA Windows ,thiagoftsm,2025-06-25T00:13:38Z,2025-06-25T11:15:51+00:00,3,11.04,True,227,4,5,565,0,1,1,MERGED
+20570,Add defines for cleanup statements,stelfrag,2025-06-24T20:04:34Z,2025-06-26T18:47:47+00:00,1,46.72,True,16,11,2,48,2,0,2,MERGED
+20564,Switch install types,kanelatechnical,2025-06-24T11:23:11Z,2025-06-24T20:39:22+00:00,3,9.27,True,267,0,1,163,1,1,2,MERGED
+20563,Mcp disclaimer update,kanelatechnical,2025-06-24T09:32:55Z,2025-06-24T11:56:03+00:00,6,2.39,True,14,7,1,67,1,2,3,MERGED
+20562,Simplify MRG loading mechanism logic,stelfrag,2025-06-24T09:32:07Z,2025-06-24T13:51:00+00:00,1,4.31,True,14,41,2,96,0,0,0,MERGED
+20561,SNMP: cradlepoint profile,Ancairon,2025-06-24T09:16:33Z,2025-06-29T15:13:13+00:00,1,125.94,True,75,66,1,87,0,0,0,MERGED
+20560,Additional checks for valid db during db_execute,stelfrag,2025-06-24T08:41:34Z,2025-06-24T12:12:23+00:00,3,3.51,True,38,27,7,257,0,1,1,MERGED
+20559,Improve SQLite library shutdown handling and initialization state,stelfrag,2025-06-24T08:11:01Z,2025-06-26T08:01:38+00:00,1,47.84,True,10,6,1,84,0,0,0,MERGED
+20558,Add CLI command to schedule update information,stelfrag,2025-06-24T07:28:11Z,2025-06-24T17:29:03+00:00,1,10.01,True,16,0,2,80,0,0,0,MERGED
+20557,SNMP: chrysalis profiles,Ancairon,2025-06-24T06:55:46Z,2025-06-29T19:42:31+00:00,1,132.78,True,42,32,2,87,0,0,0,MERGED
+20556,SNMP: checkpoint profiles,Ancairon,2025-06-24T06:32:41Z,2025-06-29T19:35:40+00:00,1,133.05,True,85,132,3,87,0,0,0,MERGED
+20555,Check that there is a valid thread when performing ACLK sync shutdown,stelfrag,2025-06-24T06:27:26Z,2025-06-24T12:27:21+00:00,1,6.0,True,3,0,1,173,0,0,0,MERGED
+20554,SNMP: Chatsworth profile,Ancairon,2025-06-24T05:54:37Z,2025-06-29T20:02:26+00:00,2,134.13,True,500,364,1,321,0,0,0,MERGED
+20553,Fix save alert config transition on shutdown,stelfrag,2025-06-23T20:21:49Z,2025-06-24T05:00:04+00:00,1,8.64,True,6,6,1,106,0,0,0,MERGED
+20552,Regenerate integrations docs,netdatabot,2025-06-23T19:17:35Z,2025-06-24T05:34:59+00:00,1,10.29,True,134,1,3,147,0,0,0,MERGED
+20551,Migrate from stable to nightly and vice versa,kanelatechnical,2025-06-23T12:22:25Z,2025-06-30T09:53:24+00:00,11,165.52,True,55,80,1,70,2,12,14,MERGED
+20550,MSI parameter,thiagoftsm,2025-06-23T12:07:07Z,2025-06-23T13:30:43+00:00,1,1.39,True,1,1,1,230,0,0,0,MERGED
+20549,Add Remove Node guide,kanelatechnical,2025-06-23T09:44:12Z,2025-06-25T17:58:56+00:00,1,56.25,True,139,0,1,51,2,0,2,MERGED
+20548,SNMP: brother profile,Ancairon,2025-06-23T07:59:36Z,2025-06-29T15:09:29+00:00,1,151.16,True,47,26,2,87,0,0,0,MERGED
+20546,SNMP: brocade profiles,Ancairon,2025-06-23T05:57:33Z,2025-06-29T19:26:11+00:00,1,157.48,True,92,80,2,87,0,0,0,MERGED
+20543,refactor(go.d/ddsnmpcollector): restructure into components,ilyam8,2025-06-20T21:11:29Z,2025-06-21T18:46:24+00:00,4,21.58,True,7415,6149,21,87,0,6,6,MERGED
+20540,Properly parse disconnect reason,stelfrag,2025-06-20T13:39:20Z,2025-06-23T12:38:52+00:00,1,70.99,True,1,1,1,134,0,0,0,MERGED
+20539,Update SQLITE to version 3.50.1,stelfrag,2025-06-20T13:22:13Z,2025-06-23T05:32:45+00:00,1,64.18,True,2970,1557,2,55,0,0,0,MERGED
+20538,SNMP: bluecat profile,Ancairon,2025-06-20T09:49:55Z,2025-06-22T20:04:27+00:00,1,58.24,True,19,21,1,176,0,0,0,MERGED
+20537,SNMP: barracuda Profiles,Ancairon,2025-06-20T09:29:51Z,2025-06-29T19:18:50+00:00,1,225.82,True,169,176,2,228,0,0,0,MERGED
+20536,Lock before checking the statement pool,stelfrag,2025-06-20T08:37:29Z,2025-06-20T13:19:00+00:00,1,4.69,True,6,6,1,60,0,0,0,MERGED
+20535,SNMP: avtech Profiles,Ancairon,2025-06-20T08:24:28Z,2025-06-29T19:10:42+00:00,1,226.77,True,654,616,5,205,0,0,0,MERGED
+20528,improve(go.d/snmp): add Go template-based metric transformations for SNMP profiles,ilyam8,2025-06-19T21:41:27Z,2025-06-20T06:04:36+00:00,3,8.39,True,938,186,12,1112,0,2,2,MERGED
+20527,SNMP: avocent profile,Ancairon,2025-06-19T10:13:51Z,2025-06-29T15:06:40+00:00,1,244.88,True,41,46,1,87,0,0,0,MERGED
+20526,improve(go.d/snmp-profiles): allow users to add custom SNMP profiles,ilyam8,2025-06-19T09:02:45Z,2025-06-19T13:11:29+00:00,5,4.15,True,438,130,4,535,0,4,4,MERGED
+20525,SNMP: avaya profiles,Ancairon,2025-06-19T07:54:01Z,2025-06-29T14:44:25+00:00,3,246.84,True,225,149,5,87,0,1,1,MERGED
+20522,Hardware (Windows.plugin),thiagoftsm,2025-06-19T04:02:06Z,2025-06-23T19:16:51+00:00,1,111.25,True,373,86,10,243,0,0,0,MERGED
+20521,upd generic check in snmp prof metrics deduplication,ilyam8,2025-06-19T03:09:15Z,2025-06-19T05:34:28+00:00,1,2.42,True,1,2,1,87,0,0,0,MERGED
+20517,fix(go.d/ddsnmp): remove singular-to-plural conversion in metric family,ilyam8,2025-06-18T14:10:35Z,2025-06-18T15:28:07+00:00,2,1.29,True,6,3,2,87,0,1,1,MERGED
+20511,Cleanup pending statements during shutdown,stelfrag,2025-06-18T06:08:18Z,2025-06-18T13:27:48+00:00,1,7.33,True,27,16,1,125,0,0,0,MERGED
+20506,Regenerate integrations docs,netdatabot,2025-06-17T14:46:05Z,2025-06-18T05:35:00+00:00,1,14.82,True,153,0,2,147,0,0,0,MERGED
+20505,improve(go.d/snmp profiles): simplify _generic-if.yaml and add interface type tags,ilyam8,2025-06-17T12:48:53Z,2025-06-17T14:13:17+00:00,4,1.41,True,364,47,4,87,0,1,1,MERGED
+20502,Use ARAL for labels,stelfrag,2025-06-17T09:29:47Z,2025-06-18T13:25:36+00:00,1,27.93,True,44,12,7,74,2,0,2,MERGED
+20501,SNMP: audiocodes profile,Ancairon,2025-06-17T09:27:25Z,2025-06-29T15:03:05+00:00,1,293.59,True,51,42,2,105,0,0,0,MERGED
+20499,SNMP: second pass of aruba profiles,Ancairon,2025-06-17T08:21:42Z,2025-06-29T14:23:25+00:00,1,294.03,True,189,170,8,135,0,0,0,MERGED
+20498,SNMP: Arista profiles,Ancairon,2025-06-17T06:10:48Z,2025-06-29T12:18:18+00:00,1,294.12,True,247,324,8,366,1,0,1,MERGED
+20495,fix: mark import groups as not supported SCIM feature,juacker,2025-06-16T16:03:21Z,2025-06-16T18:09:24+00:00,1,2.1,True,3,4,1,86,0,0,0,MERGED
+20494,Patch release 2.5.4,stelfrag,2025-06-16T15:21:23Z,2025-06-24T12:36:03+00:00,1,189.24,True,366,116,38,648,3,0,3,MERGED
+20491,SNMP: APC profiles,Ancairon,2025-06-16T10:20:01Z,2025-06-29T10:33:48+00:00,1,312.23,True,463,504,4,206,0,0,0,MERGED
+20487,SNMP: Alcatel profiles,Ancairon,2025-06-16T06:33:09Z,2025-06-29T10:56:21+00:00,1,316.39,True,509,492,4,274,0,0,0,MERGED
+20485,ASP.NET (windows.plugin),thiagoftsm,2025-06-15T16:50:25Z,2025-07-11T11:24:30+00:00,3,618.57,True,1692,2,5,288,0,1,1,MERGED
+20484,chore(go.d/ddsnmp): add concurrent execution for SNMP requests,ilyam8,2025-06-15T15:35:39Z,2025-06-29T05:45:43+00:00,1,326.17,False,74,44,3,87,0,3,3,CLOSED
+20482,chore(go.d/ddsnmp):  add index-based tags and cross-table index transformation support,ilyam8,2025-06-14T20:26:27Z,2025-06-15T14:06:47+00:00,3,17.67,True,1622,77,4,87,0,1,1,MERGED
+20480,Correctly ignore patches that are already applied.,Ferroin,2025-06-13T13:06:49Z,2025-06-13T15:09:34+00:00,2,2.05,True,10,4,1,434,0,1,1,MERGED
+20477,Enable Rust-based journal file reader in static builds.,Ferroin,2025-06-13T11:51:20Z,2025-06-23T11:34:23+00:00,2,239.72,True,48,14,6,349,2,0,2,MERGED
+20476,improvement(go.d): add bearer_token_file to request cfg,ilyam8,2025-06-13T10:13:36Z,2025-06-13T11:32:19+00:00,3,1.31,True,957,141,128,123,0,1,1,MERGED
+20472,SNMP: a10 yamls,Ancairon,2025-06-13T07:01:58Z,2025-06-29T10:11:23+00:00,1,387.16,True,252,255,2,145,0,0,0,MERGED
+20471,improvement(go.d/snmp): create table charts,ilyam8,2025-06-12T19:21:38Z,2025-06-13T05:43:11+00:00,2,10.36,True,210,115,8,186,0,0,0,MERGED
+20470,Remove static build timeouts from regular builds.,Ferroin,2025-06-12T12:05:57Z,2025-06-12T16:49:03+00:00,1,4.72,True,1,11,1,242,0,0,0,MERGED
+20469,Add MCP documentation,kanelatechnical,2025-06-12T10:36:35Z,2025-06-13T08:16:08+00:00,7,21.66,True,133,0,1,17,2,2,4,MERGED
+20468,SNMP: 3com profiles,Ancairon,2025-06-12T08:48:42Z,2025-06-29T09:59:10+00:00,1,409.17,True,33,38,2,105,0,0,0,MERGED
+20467,Modify Uninstall Action (windows.installer),thiagoftsm,2025-06-12T02:56:28Z,2025-06-13T20:59:30+00:00,1,42.05,True,1,1,1,370,4,0,4,MERGED
+20464,Improve datafile rotation and indexing during shutdown,stelfrag,2025-06-11T08:02:54Z,2025-06-11T17:45:27+00:00,1,9.71,True,57,29,7,587,0,0,0,MERGED
+20462,Handle orphan journal files by deleting unmatched entries,stelfrag,2025-06-10T14:42:11Z,2025-06-11T18:01:12+00:00,2,27.32,True,84,3,1,738,1,0,1,MERGED
+20459,improve database indexing and rotation handling in event loop,stelfrag,2025-06-10T10:52:55Z,2025-06-10T20:43:05+00:00,1,9.84,True,13,9,2,120,0,0,0,MERGED
+20455,Additional checks on metasync thread shutdown,stelfrag,2025-06-10T08:02:04Z,2025-06-17T13:38:56+00:00,1,173.61,True,34,33,2,207,0,0,0,MERGED
+20454,Monitor Exchange Server (Window.plugin),thiagoftsm,2025-06-09T23:42:21Z,2025-06-17T14:45:19+00:00,1,183.05,True,1593,1,6,313,0,0,0,MERGED
+20452,MCP Part 4,ktsaou,2025-06-09T16:54:19Z,2025-06-18T20:29:30+00:00,1,219.59,True,24479,5415,48,483,0,0,0,MERGED
+20451,docs: improve SCIM documentation,juacker,2025-06-09T13:41:00Z,2025-06-09T17:52:04+00:00,2,4.18,True,17,7,1,111,0,1,1,MERGED
+20449,build(deps): bump github.com/gosnmp/gosnmp from 1.40.0 to 1.41.0 in /src/go,dependabot,2025-06-09T04:42:56Z,2025-06-09T08:43:07+00:00,1,4.0,True,3,3,2,2370,0,0,0,MERGED
+20447,build(deps): bump go.mongodb.org/mongo-driver from 1.17.3 to 1.17.4 in /src/go,dependabot,2025-06-09T04:40:09Z,2025-06-09T08:45:20+00:00,1,4.09,True,3,3,2,4081,0,0,0,MERGED
+20446,build(deps): bump github.com/lmittmann/tint from 1.1.1 to 1.1.2 in /src/go,dependabot,2025-06-09T04:40:07Z,2025-06-09T08:44:17+00:00,1,4.07,True,3,3,2,1889,0,0,0,MERGED
+20445,build(deps): bump github.com/redis/go-redis/v9 from 9.9.0 to 9.10.0 in /src/go,dependabot,2025-06-09T04:38:21Z,2025-06-09T08:49:07+00:00,1,4.18,True,3,3,2,2483,0,0,0,MERGED
+20443,Weblog collector: Exclude 429 from 4xx,Slind14,2025-06-08T16:08:34Z,2025-06-10T08:57:18+00:00,2,40.81,True,4,4,3,170,3,0,3,MERGED
+20441,chore(go.d/ddsnmp): add basic SNMP table walking functionality,ilyam8,2025-06-08T12:29:31Z,2025-06-08T14:50:18+00:00,2,2.35,True,193,40,4,86,0,1,1,MERGED
+20440,nd-mcp add claude cli cmd for adding netdata mcp,andrewm4894,2025-06-07T22:39:20Z,2025-07-14T11:12:27+00:00,2,876.55,True,7,1,1,87,0,1,1,MERGED
+20439,improvement(go.d/ddsnmp): use dev type and vendor from meta for family,ilyam8,2025-06-07T20:20:35Z,2025-06-08T08:18:17+00:00,2,11.96,True,42,3,2,87,0,2,2,MERGED
+20434,Adjust stream connector timeout during agent shutdown,stelfrag,2025-06-06T10:20:19Z,2025-06-06T16:27:30+00:00,1,6.12,True,1,1,1,406,0,0,0,MERGED
+20433,Improve statement finalization and cleanup,stelfrag,2025-06-06T10:12:43Z,2025-06-06T13:56:33+00:00,1,3.73,True,4,2,1,95,0,0,0,MERGED
+20432,SNMP: new version of families Cisco pass,Ancairon,2025-06-06T08:22:12Z,2025-06-29T04:47:23+00:00,1,548.42,True,2641,1873,39,130,1,0,1,MERGED
+20431,Fix heap-use-after-free in query progress updates,ktsaou,2025-06-05T19:40:08Z,2025-06-06T16:29:07+00:00,1,20.82,True,16,12,8,817,0,0,0,MERGED
+20429,Update MSSQL Metadata,thiagoftsm,2025-06-05T18:23:47Z,2025-06-05T19:30:26+00:00,7,1.11,True,27,1,2,211,0,2,2,MERGED
+20428,update ddsnmp mikrotik-router.yaml,ilyam8,2025-06-05T18:23:23Z,2025-06-05T19:34:41+00:00,3,1.19,True,30,14,1,101,0,1,1,MERGED
+20426,feat(go.d/snmp): enable profile scalar metrics collection,ilyam8,2025-06-05T15:41:01Z,2025-06-05T17:56:57+00:00,2,2.27,True,120,4,7,87,0,0,0,MERGED
+20425,ML: Add documentation for Netdata Insights,kanelatechnical,2025-06-05T13:26:09Z,2025-06-05T16:04:18+00:00,1,2.64,True,296,158,4,409,1,0,1,MERGED
+20418,update_installer: Update remove instruction,thiagoftsm,2025-06-05T02:14:46Z,2025-06-05T11:20:17+00:00,1,9.09,True,10,9,2,272,2,0,2,MERGED
+20417,Fix typo.,de-authority,2025-06-05T00:37:28Z,2025-06-15T13:19:04+00:00,1,252.69,True,1,1,1,101,3,0,3,MERGED
+20416,Fix context updates,stelfrag,2025-06-04T17:40:29Z,2025-06-04T21:37:29+00:00,1,3.95,True,7,6,1,63,0,0,0,MERGED
+20413,SNMP: juniper-pulse-secure.yaml,Ancairon,2025-06-04T09:44:04Z,2025-06-29T09:45:37+00:00,3,600.03,True,109,86,1,260,1,1,2,MERGED
+20412,Improve metrics centralization points documentation,kanelatechnical,2025-06-04T09:41:19Z,2025-06-05T11:15:54+00:00,2,25.58,True,385,100,5,240,0,1,1,MERGED
+20410,SNMP: _juniper-virtualchassis.yaml,Ancairon,2025-06-04T08:01:13Z,2025-06-29T09:39:00+00:00,1,601.63,True,77,90,4,87,0,0,0,MERGED
+20408,SNMP: _juniper-scu.yaml,Ancairon,2025-06-04T06:18:28Z,2025-06-04T07:30:26+00:00,1,1.2,True,4,4,1,130,0,0,0,MERGED
+20407,SNMP: _juniper-firewall.yaml,Ancairon,2025-06-04T06:05:27Z,2025-06-04T07:23:44+00:00,1,1.3,True,4,2,1,105,0,0,0,MERGED
+20406,SNMP: _juniper-dcu.yaml,Ancairon,2025-06-04T06:00:02Z,2025-06-04T07:36:54+00:00,1,1.61,True,6,6,2,232,0,0,0,MERGED
+20405,Enforce correct CPU architecture for Go plugin builds.,Ferroin,2025-06-03T17:11:26Z,2025-06-06T11:38:25+00:00,1,66.45,True,70,2,2,134,1,0,1,MERGED
+20404,Rename nd-mcp on windows,stelfrag,2025-06-03T17:08:14Z,2025-06-04T00:19:39+00:00,1,7.19,True,8,2,1,47,0,0,0,MERGED
+20402,SNMP: _juniper-cos.yaml,Ancairon,2025-06-03T07:54:29Z,2025-06-29T06:20:08+00:00,1,622.43,True,272,253,3,659,0,0,0,MERGED
+20399,docs(go.d): add example how to debug a specific job,ilyam8,2025-06-02T13:19:16Z,2025-06-05T18:40:01+00:00,1,77.35,True,6,0,1,136,0,0,0,MERGED
+20398,"Maintenance: update restart, backup, uninstall, and restore docs",kanelatechnical,2025-06-02T12:29:45Z,2025-06-03T09:24:36+00:00,1,20.91,True,333,96,4,110,0,0,0,MERGED
+20394,feat(go.d): allow to debug a specific job,ilyam8,2025-06-02T11:56:22Z,2025-06-02T13:12:00+00:00,2,1.26,True,15,0,4,112,0,0,0,MERGED
+20391,SNMP: palo-alto.yaml,Ancairon,2025-06-02T08:01:27Z,2025-06-29T05:33:03+00:00,1,645.53,True,59,38,3,105,1,0,1,MERGED
+20389,SNMP: aruba-wireless-controller.yaml,Ancairon,2025-06-02T06:41:43Z,2025-06-29T05:49:24+00:00,1,647.13,True,66,30,1,202,1,0,1,MERGED
+20387,build(deps): bump github.com/docker/docker from 28.2.1+incompatible to 28.2.2+incompatible in /src/go,dependabot,2025-06-02T04:46:18Z,2025-06-02T06:10:46+00:00,1,1.41,True,3,3,2,2858,0,0,0,MERGED
+20386,apps.plugin documentation and grouping matches improvements,ktsaou,2025-05-31T13:17:27Z,2025-06-01T16:19:41+00:00,1,27.04,True,223,30,5,373,0,0,0,MERGED
+20384,Improve DynCfg documentation,kanelatechnical,2025-05-30T08:52:45Z,2025-06-02T11:33:04+00:00,1,74.67,True,387,101,2,44,0,0,0,MERGED
+20383,SNMP: aruba-cx-switch.yaml,Ancairon,2025-05-30T08:05:47Z,2025-05-30T11:40:56+00:00,1,3.59,True,63,52,1,192,1,0,1,MERGED
+20382,SNMP: aruba-clearpass.yaml,Ancairon,2025-05-30T07:14:54Z,2025-06-01T14:46:27+00:00,2,55.53,True,84,33,1,235,1,0,1,MERGED
+20380,Update documentation,thiagoftsm,2025-05-30T01:44:41Z,2025-05-30T06:48:15+00:00,1,5.06,True,33,18,2,220,0,0,0,MERGED
+20368,chore(otel.plugin): fix building,ilyam8,2025-05-28T10:14:15Z,2025-05-28T11:46:14+00:00,1,1.53,True,1,1,1,87,0,0,0,MERGED
+20367,SNMP: _fortinet-fortigate-vpn-tunnel.yaml,Ancairon,2025-05-28T09:39:39Z,2025-05-29T07:09:58+00:00,1,21.51,True,8,2,1,87,1,0,1,MERGED
+20366,SNMP: _fortinet-fortigate-cpu-memory.yaml,Ancairon,2025-05-28T09:28:09Z,2025-05-29T07:10:33+00:00,1,21.71,True,5,5,1,87,1,0,1,MERGED
+20364,SNMP: _cisco-wlc.yaml,Ancairon,2025-05-28T07:01:08Z,2025-05-28T11:35:32+00:00,1,4.57,True,50,63,1,305,1,0,1,MERGED
+20361,_cisco-voice.yaml,Ancairon,2025-05-28T05:34:37Z,2025-05-28T09:32:28+00:00,1,3.96,True,68,27,1,76,1,0,1,MERGED
+20360,chore(go.d): fix some golangcilint warning,ilyam8,2025-05-27T19:31:06Z,2025-05-28T04:10:22+00:00,1,8.65,True,67,54,21,87,0,0,0,MERGED
+20358,Windows updated,kanelatechnical,2025-05-27T11:47:34Z,2025-05-28T07:35:40+00:00,13,19.8,True,83,19,1,57,3,5,8,MERGED
+20357,feat(go.d/dyncfg): add autodetect_retry to dyncfg jobs,ilyam8,2025-05-27T11:29:31Z,2025-05-27T18:50:13+00:00,2,7.34,True,1517,358,335,87,0,0,0,MERGED
+20354,Improve datafile rotation and indexing,stelfrag,2025-05-27T11:02:11Z,2025-05-29T15:04:30+00:00,1,52.04,True,184,119,5,272,0,0,0,MERGED
+20353,SNMP: _cisco-ipsec-flow-monitor.yaml,Ancairon,2025-05-27T09:16:20Z,2025-05-28T12:53:43+00:00,1,27.62,True,69,51,1,87,1,0,1,MERGED
+20351,SNMP: _generic-ups.yaml,Ancairon,2025-05-27T08:09:23Z,2025-05-28T11:25:01+00:00,1,27.26,True,97,68,1,100,1,0,1,MERGED
+20350,Improve retention calculation after datafile deletion,stelfrag,2025-05-27T08:08:40Z,2025-06-03T20:06:37+00:00,2,179.97,True,84,24,1,226,0,0,0,MERGED
+20348,improvement(go.d/sd): better prometheus exporters detection,ilyam8,2025-05-26T12:54:24Z,2025-05-26T18:49:38+00:00,1,5.92,True,4,1,1,87,0,0,0,MERGED
+20347,Updated configuration reference,kanelatechnical,2025-05-26T12:52:13Z,2025-05-28T08:34:25+00:00,12,43.7,True,1166,600,1,137,2,2,4,MERGED
+20345,Split systemd-journal plugin and add Rust-based journal file reader,vkalintiris,2025-05-26T10:57:20Z,2025-05-28T12:35:00+00:00,10,49.63,True,6873,114,48,281,2,5,7,MERGED
+20344,SNMP: _generic-sip.yaml,Ancairon,2025-05-26T10:37:17Z,2025-05-27T06:53:57+00:00,1,20.28,True,19,2,1,87,1,0,1,MERGED
+20343,SNMP: _generic-rtp.yaml,Ancairon,2025-05-26T08:47:28Z,2025-05-27T06:52:36+00:00,2,22.09,True,20,11,1,87,1,0,1,MERGED
+20341,build(deps): bump github.com/vmware/govmomi from 0.50.0 to 0.51.0 in /src/go,dependabot,2025-05-26T04:31:17Z,2025-05-26T05:45:23+00:00,1,1.24,True,3,3,2,3730,0,0,0,MERGED
+20337,Switch back to epoll from poll,ilyam8,2025-05-24T06:47:54Z,2025-05-26T10:32:46+00:00,1,51.75,True,1,1,1,187,0,0,0,MERGED
+20334,Alerts cloud,kanelatechnical,2025-05-23T12:15:08Z,2025-05-25T17:32:23+00:00,1,53.29,True,563,122,3,96,0,0,0,MERGED
+20331,_generic-ip.yaml,Ancairon,2025-05-23T09:11:14Z,2025-05-25T18:56:10+00:00,1,57.75,True,220,163,1,87,1,0,1,MERGED
+20330,Update SCIM documentation,juacker,2025-05-23T07:51:35Z,2025-05-23T09:24:28+00:00,1,1.55,True,2,0,1,56,0,0,0,MERGED
+20329,Update alerting and notification documentation Agent,kanelatechnical,2025-05-22T12:34:59Z,2025-05-22T15:15:12+00:00,1,2.67,True,524,126,4,124,0,0,0,MERGED
+20328,generic-bgp4.yaml,Ancairon,2025-05-22T09:26:55Z,2025-05-22T12:59:04+00:00,1,3.54,True,32,63,1,87,1,0,1,MERGED
+20327,generic-ospf.yaml pass,Ancairon,2025-05-22T07:19:14Z,2025-05-22T14:08:29+00:00,1,6.82,True,42,170,1,87,1,0,1,MERGED
+20325,SOC 2 cloud doc update,kanelatechnical,2025-05-21T15:44:27Z,2025-05-21T17:44:52+00:00,1,2.01,True,6,0,1,209,0,0,0,MERGED
+20323,Code cleanup and improvements,stelfrag,2025-05-21T11:13:06Z,2025-05-23T16:44:58+00:00,1,53.53,True,64,84,3,226,0,0,0,MERGED
+20322,add installing flex to install-required-packages.sh,ilyam8,2025-05-21T09:29:43Z,2025-05-27T08:26:09+00:00,1,142.94,True,1,0,1,1334,0,0,0,MERGED
+20321,_generic-tcp.yaml pass,Ancairon,2025-05-21T09:14:59Z,2025-05-21T10:22:54+00:00,1,1.13,True,55,45,1,117,1,0,1,MERGED
+20318,Cancel health initialization if shutdown has been requested,stelfrag,2025-05-21T06:57:07Z,2025-05-21T15:21:39+00:00,1,8.41,True,20,4,4,102,0,0,0,MERGED
+20317,SNMP: _generic-if.yaml pass,Ancairon,2025-05-21T06:25:57Z,2025-05-21T08:39:29+00:00,1,2.23,True,40,30,1,58,1,0,1,MERGED
+20316,Update libbpf,thiagoftsm,2025-05-20T23:52:57Z,2025-05-21T08:39:41+00:00,1,8.78,True,7,7,3,308,0,0,0,MERGED
+20309,Netdata ai,kanelatechnical,2025-05-20T12:18:29Z,2025-05-20T16:43:58+00:00,2,4.42,True,669,146,5,200,0,1,1,MERGED
+20307,Add MSSQL Wait statistics (windows.plugin),thiagoftsm,2025-05-20T00:12:24Z,2025-06-11T09:59:28+00:00,9,537.78,True,1151,97,5,335,7,3,10,MERGED
+20306,Reduce memory allocations in event loops,stelfrag,2025-05-19T18:04:28Z,2025-05-21T05:47:15+00:00,10,35.71,True,497,295,14,453,1,4,5,MERGED
+20303,Improve metasync shutdown,stelfrag,2025-05-19T14:08:51Z,2025-05-19T16:48:08+00:00,1,2.65,True,9,4,1,125,0,0,0,MERGED
+20299,build(deps): bump github.com/jackc/pgx/v5 from 5.7.4 to 5.7.5 in /src/go,dependabot,2025-05-18T15:23:04Z,2025-05-18T19:27:03+00:00,1,4.07,True,3,3,2,2757,0,0,0,MERGED
+20292,docs: Observability centralization points,kanelatechnical,2025-05-16T11:17:24Z,2025-05-19T11:11:27+00:00,4,71.9,True,867,147,4,347,0,1,1,MERGED
+20291,Cisco yaml pass,Ancairon,2025-05-16T10:14:24Z,2025-05-21T07:50:52+00:00,5,117.61,True,239,350,2,146,1,1,2,MERGED
+20290,Minor code adjustments,stelfrag,2025-05-16T08:49:31Z,2025-05-16T20:33:41+00:00,1,11.74,True,2,5,2,78,0,0,0,MERGED
+20288,Fix when docker socket group id points to an existing group in container,felipecrs,2025-05-15T19:40:20Z,2025-05-18T07:19:40+00:00,8,59.66,True,9,9,1,1168,6,4,10,MERGED
+20287,Model Context Protocol (MCP) Part 2,ktsaou,2025-05-15T12:05:32Z,2025-06-02T06:23:45+00:00,3,426.3,True,27054,8695,219,2106,1,1,2,MERGED
+20286,"add ""unix://"" scheme to DOCKER_HOST in run.sh",ilyam8,2025-05-15T08:04:01Z,2025-05-15T12:10:34+00:00,1,4.11,True,22,10,2,295,3,0,3,MERGED
+20284,Regenerate integrations docs,netdatabot,2025-05-14T19:26:38Z,2025-05-15T05:10:34+00:00,1,9.73,True,2,0,2,147,0,0,0,MERGED
+20282,Improved StatsD documentation,kanelatechnical,2025-05-14T14:28:40Z,2025-05-14T18:29:35+00:00,1,4.02,True,532,555,1,29,1,0,1,MERGED
+20280,Improve agent shutdown,stelfrag,2025-05-14T11:10:48Z,2025-05-16T07:33:29+00:00,1,44.38,True,55,30,9,70,7,0,7,MERGED
+20277,New Windows Metrics (CPU and Memory),thiagoftsm,2025-05-14T03:00:45Z,2025-05-14T19:26:02+00:00,4,16.42,True,84,0,4,1891,0,3,3,MERGED
+20273,Switch to poll from epoll,stelfrag,2025-05-12T10:24:28Z,2025-05-12T16:26:27+00:00,1,6.03,True,1,1,1,218,0,0,0,MERGED
+20272,comment metric tags that could be metrics,Ancairon,2025-05-12T10:11:33Z,2025-05-16T08:10:57+00:00,1,93.99,True,309,31,81,83,3,0,3,MERGED
+20270,build(deps): bump golang.org/x/net from 0.39.0 to 0.40.0 in /src/go,dependabot,2025-05-11T19:16:54Z,2025-05-12T05:16:21+00:00,1,9.99,True,18,18,2,1908,0,0,0,MERGED
+20268,build(deps): bump github.com/miekg/dns from 1.1.65 to 1.1.66 in /src/go,dependabot,2025-05-11T19:16:45Z,2025-05-12T05:20:34+00:00,1,10.06,True,9,9,2,1897,0,0,0,MERGED
+20267,WIP,vkalintiris,2025-05-11T08:28:48Z,2025-05-26T10:58:53+00:00,4,362.5,False,4793,53,35,27,1,3,4,CLOSED
+20265,Update Netdata README with improved structure,kanelatechnical,2025-05-09T12:51:44Z,2025-05-09T15:46:26+00:00,1,2.91,True,52,14,1,166,0,0,0,MERGED
+20264,Schedule journal file indexing after database file rotation,stelfrag,2025-05-09T10:49:18Z,2025-05-09T17:05:48+00:00,1,6.28,True,6,3,4,256,0,0,0,MERGED
+20263,Minor fixes,stelfrag,2025-05-09T06:51:42Z,2025-05-09T13:59:36+00:00,1,7.13,True,8,4,3,176,0,0,0,MERGED
+20258,Clearify the path of `plugins.d/go.d.plugin` in docs,n0099,2025-05-08T14:02:31Z,2025-05-08T16:44:29+00:00,2,2.7,True,10,5,1,348,0,1,1,MERGED
+20257,Update documentation for native DEB/RPM packages,kanelatechnical,2025-05-08T12:19:47Z,2025-05-08T17:06:52+00:00,3,4.78,True,153,61,1,135,0,4,4,MERGED
+20251,Update Netdata README,kanelatechnical,2025-05-07T16:33:44Z,2025-05-07T18:19:48+00:00,1,1.77,True,300,685,1,647,0,0,0,MERGED
+20250,Switch to uv threads,stelfrag,2025-05-07T14:33:55Z,2025-05-12T16:26:55+00:00,1,121.88,True,161,264,56,144,0,0,0,MERGED
+20246,SNMP first cisco yaml file pass,Ancairon,2025-05-07T09:43:29Z,2025-05-12T11:44:56+00:00,19,122.02,True,22,10,4,174,15,9,24,MERGED
+20245,IIS W3SCV W3MP Metrics (windows.plugin),thiagoftsm,2025-05-07T03:05:17Z,2025-05-20T17:47:39+00:00,9,326.71,True,788,5,4,469,4,5,9,MERGED
+20244,Model Context Protocol Server (MCP) for Netdata Part 1,ktsaou,2025-05-06T20:05:03Z,2025-05-15T11:51:06+00:00,4,207.77,True,10322,157,69,465,3,5,8,MERGED
+20243,Fix build issue on old distros,stelfrag,2025-05-06T14:11:36Z,2025-05-06T16:25:57+00:00,1,2.24,True,2,3,2,70,0,0,0,MERGED
+20240,Session claim id in docker,stelfrag,2025-05-06T11:52:12Z,2025-05-07T06:53:28+00:00,2,19.02,True,13,1,3,102,3,0,3,MERGED
+20238,SNMP generate families,Ancairon,2025-05-06T09:19:02Z,2025-05-07T08:48:40+00:00,21,23.49,False,2689,279,151,23588,1,1,2,CLOSED
+20236,Let the user override the default stack size,stelfrag,2025-05-06T08:08:21Z,2025-05-06T15:24:25+00:00,1,7.27,True,5,2,1,150,0,0,0,MERGED
+20235,"Revert ""Revert ""fix(go.d/couchdb): correct db size charts unit""""",ilyam8,2025-05-05T12:39:43Z,2025-05-06T06:12:50+00:00,1,17.55,True,3,3,1,38,0,0,0,MERGED
+20230,Improve MSSQL (Part III),thiagoftsm,2025-05-03T04:21:21Z,2025-05-13T22:29:34+00:00,1,258.14,True,288,183,2,642,3,0,3,MERGED
+20229,status file 28,ktsaou,2025-05-03T01:56:15Z,2025-05-03T12:01:30+00:00,1,10.09,True,23,1,4,69,0,0,0,MERGED
+20228,Make all threads joinable and join on agent shutdown,stelfrag,2025-05-02T20:11:55Z,2025-05-06T13:57:18+00:00,1,89.76,True,71,75,22,70,0,0,0,MERGED
+20227,Regenerate integrations docs,netdatabot,2025-05-02T17:26:01Z,2025-05-05T05:46:13+00:00,1,60.34,True,7,2,1,147,0,0,0,MERGED
+20226,Fix potential null pointer dereference when accessing journalfile,stelfrag,2025-05-02T15:16:33Z,2025-05-02T17:15:06+00:00,2,1.98,True,2,2,1,38,0,0,0,MERGED
+20224,fix crashes 7,ktsaou,2025-05-02T10:55:26Z,2025-05-02T13:57:41+00:00,1,3.04,True,9,4,1,52,0,0,0,MERGED
+20222,ci: ignore changes in src/go/otel-collector/release-config.yaml.in,ilyam8,2025-05-02T08:51:42Z,2025-05-21T08:00:07+00:00,1,455.14,True,4,0,4,87,0,0,0,MERGED
+20221,Enable analytics data collection ,stelfrag,2025-05-02T08:30:43Z,2025-05-02T10:20:13+00:00,1,1.82,True,10,4,3,188,0,0,0,MERGED
+20217,documentation and helpers for centralizing namespaced logs,ktsaou,2025-05-01T09:55:44Z,2025-05-02T09:26:35+00:00,1,23.51,True,156,0,1,0,0,0,0,MERGED
+20212,use nd threads in exporting,ktsaou,2025-04-30T12:00:03Z,2025-04-30T13:42:35+00:00,1,1.71,True,42,34,11,0,0,0,0,MERGED
+20211,Clean up prepared statements on thread exit,stelfrag,2025-04-30T11:00:49Z,2025-05-02T17:15:40+00:00,1,54.25,True,90,45,4,180,0,0,0,MERGED
+20209,Small fixes,ktsaou,2025-04-29T20:13:48Z,2025-04-30T10:53:01+00:00,1,14.65,True,10,1,2,65,0,0,0,MERGED
+20208,Security and Privacy Design,kanelatechnical,2025-04-29T14:19:27Z,2025-04-30T11:54:20+00:00,5,21.58,True,459,368,4,63,0,2,2,MERGED
+20204,Avoid indexing journal files when db rotation is running,stelfrag,2025-04-29T08:32:53Z,2025-04-29T20:44:47+00:00,1,12.2,True,7,16,1,83,0,0,0,MERGED
+20203,rrd metadata search fix,ktsaou,2025-04-28T21:47:58Z,2025-04-29T10:03:53+00:00,1,12.27,True,47,52,17,119,0,0,0,MERGED
+20202,Use one spinlock to access v2 and mmap related data,stelfrag,2025-04-28T16:19:15Z,2025-04-29T20:45:20+00:00,1,28.43,True,21,42,2,118,1,0,1,MERGED
+20201,Add a default busy timeout,stelfrag,2025-04-28T14:50:21Z,2025-04-28T18:15:37+00:00,1,3.42,True,4,1,3,102,0,0,0,MERGED
+20199,chore(otel/netdataexporter): poc version,ilyam8,2025-04-28T13:19:57Z,2025-05-02T08:57:07+00:00,2,91.62,True,1892,171,11,87,0,0,0,MERGED
+20192,limit the max number of threads based on memory too,ktsaou,2025-04-27T22:38:40Z,2025-04-28T08:15:38+00:00,1,9.62,True,44,15,3,782,0,0,0,MERGED
+20191,Exporting exit fix,ktsaou,2025-04-27T21:34:39Z,2025-04-28T08:17:29+00:00,1,10.71,True,26,13,2,0,0,0,0,MERGED
+20190,ignore maintenance signals on exit,ktsaou,2025-04-27T20:44:39Z,2025-04-28T08:12:32+00:00,1,11.46,True,16,8,1,772,0,0,0,MERGED
+20187,added dyncfg docs,ktsaou,2025-04-26T20:25:10Z,2025-04-28T07:38:07+00:00,1,35.22,True,1035,0,3,0,0,0,0,MERGED
+20186,Fix repeating alert crash,stelfrag,2025-04-26T17:12:47Z,2025-04-27T22:15:52+00:00,1,29.05,True,4,2,1,85,0,0,0,MERGED
+20184,Improve systemd journal logs documentation,kanelatechnical,2025-04-25T19:31:59Z,2025-04-28T11:49:32+00:00,5,64.29,True,415,324,1,95,2,3,5,MERGED
+20182,Reorganize code (IIS),thiagoftsm,2025-04-25T18:42:11Z,2025-04-28T15:06:07+00:00,2,68.4,True,520,433,1,339,2,0,2,MERGED
+20181,improve pgc fatal errors,ktsaou,2025-04-25T16:03:15Z,2025-04-25T17:34:14+00:00,1,1.52,True,55,22,2,103,0,0,0,MERGED
+20180,Group anomaly rate per chart context instead of type.,vkalintiris,2025-04-25T12:22:20Z,2025-04-25T18:18:24+00:00,1,5.93,True,43,43,5,32,1,0,1,MERGED
+20179,bump go mod 1.24.0,ilyam8,2025-04-24T13:22:09Z,2025-04-25T04:59:53+00:00,1,15.63,True,3,3,3,87,0,0,0,MERGED
+20178,Retry nightly changelog generation.,Ferroin,2025-04-24T12:40:15Z,2025-04-25T11:09:42+00:00,2,22.49,True,41,3,1,97,0,3,3,MERGED
+20177,Add Fedora 42 to CI and package builds.,Ferroin,2025-04-24T12:11:01Z,2025-04-30T13:29:21+00:00,1,145.31,True,16,2,2,44,0,0,0,MERGED
+20175,build(deps): bump k8s.io/client-go from 0.32.3 to 0.33.0 in /src/go,dependabot,2025-04-24T11:43:24Z,2025-04-25T05:16:28+00:00,1,17.55,True,25,24,2,2089,0,0,0,MERGED
+20168,improvement(cgroups): improve systemd-nspawn filter for default,rhoriguchi,2025-04-23T20:17:49Z,2025-04-24T06:24:35+00:00,1,10.11,True,3,2,1,196,2,0,2,MERGED
+20163,SNMP profiles units and description generation,Ancairon,2025-04-23T06:42:51Z,2025-05-02T08:07:59+00:00,11,217.42,True,6376,1736,164,341,7,2,9,MERGED
+20162,Dashboards and charts,kanelatechnical,2025-04-22T19:48:09Z,2025-04-23T12:23:23+00:00,9,16.59,True,919,610,10,250,0,14,14,MERGED
+20160,Improve Windows Integration,thiagoftsm,2025-04-22T17:59:25Z,2025-04-23T05:18:52+00:00,1,11.32,False,61,195,15,232,4,0,4,CLOSED
+20159,Fix memory leaks and service thread corruption,ktsaou,2025-04-22T17:11:46Z,2025-04-24T16:23:50+00:00,1,47.2,True,711,572,45,562,0,0,0,MERGED
+20158,Fix labels memory accounting,stelfrag,2025-04-22T13:13:34Z,2025-04-24T16:24:37+00:00,1,51.18,True,11,3,1,61,0,0,0,MERGED
+20157,chore(go.d/apcupsd): log UPS response in debug mode,ilyam8,2025-04-22T12:04:59Z,2025-04-22T14:12:18+00:00,1,2.12,True,1,0,1,87,0,0,0,MERGED
+20155,improvement(cgroups): filter systemd-nspawn payload by default,ilyam8,2025-04-22T10:55:09Z,2025-04-22T14:12:29+00:00,1,3.29,True,2,0,1,100,0,0,0,MERGED
+20154,Fix compilation with DBENGINE disabled,stelfrag,2025-04-22T07:24:29Z,2025-04-22T16:03:15+00:00,1,8.65,True,10,1,4,70,0,0,0,MERGED
+20153,build(deps): bump github.com/docker/docker from 28.0.4+incompatible to 28.1.1+incompatible in /src/go,dependabot,2025-04-21T06:05:34Z,2025-04-21T12:36:51+00:00,1,6.52,True,9,3,2,4881,0,0,0,MERGED
+20152,build(deps): bump github.com/invopop/jsonschema from 0.12.0 to 0.13.0 in /src/go,dependabot,2025-04-21T06:00:22Z,2025-04-21T12:34:24+00:00,1,6.57,True,3,3,2,2017,0,0,0,MERGED
+20151,build(deps): bump github.com/go-ldap/ldap/v3 from 3.4.10 to 3.4.11 in /src/go,dependabot,2025-04-21T05:53:30Z,2025-04-21T12:35:58+00:00,1,6.71,True,6,59,2,3502,0,0,0,MERGED
+20149,build(deps): bump github.com/gosnmp/gosnmp from 1.39.0 to 1.40.0 in /src/go,dependabot,2025-04-21T05:51:49Z,2025-04-21T09:12:45+00:00,1,3.35,True,3,3,2,1814,0,0,0,MERGED
+20145,Some fixes for macOS < 11,barracuda156,2025-04-19T23:43:12Z,2025-04-25T23:15:12+00:00,1,143.53,True,65,4,10,245,15,0,15,MERGED
+20144,docs: cleanup language and fix minor grammar issues,luiizaferreirafonseca,2025-04-19T13:34:19Z,2025-04-20T09:06:53+00:00,2,19.54,True,2,2,1,187,2,1,3,MERGED
+20141,Improve MSSQL (Windows.plugin Part II),thiagoftsm,2025-04-17T20:49:01Z,2025-05-02T17:25:17+00:00,1,356.6,True,725,267,4,738,0,0,0,MERGED
+20136,Install fix admonition docs,kanelatechnical,2025-04-16T14:21:34Z,2025-04-17T10:43:12+00:00,2,20.36,True,60,32,6,56,0,0,0,MERGED
+20134,Update MSI to use a single unified EULA instead of multiple license pages.,Ferroin,2025-04-16T11:36:32Z,2025-04-17T10:46:35+00:00,1,23.17,True,66,1210,7,649,0,0,0,MERGED
+20132,Improve metadata event loop shutdown,stelfrag,2025-04-15T19:03:41Z,2025-04-22T15:16:27+00:00,1,164.21,True,328,387,7,336,0,0,0,MERGED
+20131,Fix Locks (Windows Locks),thiagoftsm,2025-04-15T18:35:25Z,2025-04-16T06:41:31+00:00,2,12.1,True,53,50,1,799,0,0,0,MERGED
+20130,Make sure pattern array items are added and evaluated in order,stelfrag,2025-04-15T13:18:00Z,2025-04-15T17:55:38+00:00,1,4.63,True,25,19,2,58,0,0,0,MERGED
+20129,Fix compilation when using FSANITIZE_ADDRESS,stelfrag,2025-04-15T10:37:50Z,2025-04-15T11:54:45+00:00,1,1.28,True,4,2,2,90,0,0,0,MERGED
+20128,Handle corrupted journal data when populating the MRG during startup.,stelfrag,2025-04-15T10:21:34Z,2025-04-15T17:53:23+00:00,2,7.53,True,25,12,1,167,0,0,0,MERGED
+20126,Expression evaluator in re2c/lemon,ktsaou,2025-04-15T08:08:28Z,2025-04-17T07:53:50+00:00,2,47.76,True,8327,1285,20,779,0,0,0,MERGED
+20125,Free ACLK message,stelfrag,2025-04-14T20:43:30Z,2025-04-15T17:54:08+00:00,1,21.18,True,35,24,3,112,0,0,0,MERGED
+20122,Installation-Static Build-Windows,kanelatechnical,2025-04-14T13:49:15Z,2025-04-16T11:54:44+00:00,10,46.09,True,660,469,9,492,2,12,14,MERGED
+20121,chore(otel/journaldexporter): add socket/remote clients,ilyam8,2025-04-12T13:42:47Z,2025-04-13T15:30:56+00:00,1,25.8,True,1021,37,8,146,0,0,0,MERGED
+20120,fix cleanup and exit and memory leaks,ktsaou,2025-04-12T07:01:54Z,2025-04-14T20:22:58+00:00,1,61.35,True,154,88,18,163,0,0,0,MERGED
+20119,Update platforms for CI and package builds.,Ferroin,2025-04-11T11:34:46Z,2025-04-23T14:14:05+00:00,2,290.66,True,28,6,2,133,1,0,1,MERGED
+20117,feat(system-info): improve Windows OS detection and categorization,ktsaou,2025-04-10T19:15:58Z,2025-04-11T07:46:47+00:00,2,12.51,True,75,4,3,218,0,0,0,MERGED
+20116,fix memory leaks,ktsaou,2025-04-10T17:37:04Z,2025-04-10T18:46:05+00:00,1,1.15,True,287,56,25,883,0,0,0,MERGED
+20115,Installation vol 2,kanelatechnical,2025-04-10T13:25:38Z,2025-04-11T10:14:25+00:00,11,20.81,False,1202,1103,13,179,1,12,13,CLOSED
+20113,"netdatacli remove/mark stale, swap order in help output",ilyam8,2025-04-10T11:23:40Z,2025-04-10T12:54:59+00:00,1,1.52,True,2,2,1,164,0,0,0,MERGED
+20112,Improve error handling and logging for journal and data files,stelfrag,2025-04-10T10:47:39Z,2025-04-17T17:31:10+00:00,1,174.73,True,67,61,5,202,0,0,0,MERGED
+20111,Fix completion marking in ACLK cancel node update timer logic,stelfrag,2025-04-10T09:30:15Z,2025-04-10T11:14:53+00:00,1,1.74,True,5,2,1,187,0,0,0,MERGED
+20106,Work to find leaks easily,ktsaou,2025-04-09T21:10:07Z,2025-04-15T08:09:21+00:00,1,130.99,True,2689,887,53,668,0,0,0,MERGED
+20105,Further improve ACLK synchronization shutdown,stelfrag,2025-04-09T20:04:53Z,2025-04-09T21:10:42+00:00,1,1.1,True,20,16,1,99,0,0,0,MERGED
+20100,"SNMP, Custom descriptions and units",Ancairon,2025-04-09T13:24:41Z,2025-04-14T15:49:09+00:00,1,122.41,True,4117,88,59,479,0,0,0,MERGED
+20098,Improve journal file access error logging protect retention recalculation,stelfrag,2025-04-09T12:54:28Z,2025-04-09T15:46:24+00:00,1,2.87,True,47,36,3,110,0,0,0,MERGED
+20097,Fix Windows registry name crashes,ktsaou,2025-04-09T12:53:31Z,2025-04-09T14:38:14+00:00,1,1.75,True,656,43,5,741,0,0,0,MERGED
+20095,Fix ACLK Backoff Timeout Logic,stelfrag,2025-04-09T07:45:49Z,2025-04-09T11:05:41+00:00,1,3.33,True,9,6,2,146,0,0,0,MERGED
+20094,Release memory after journalfile creation,stelfrag,2025-04-09T07:03:19Z,2025-04-09T11:06:02+00:00,1,4.05,True,2,1,2,24,0,0,0,MERGED
+20093,Protection access improvements 1,ktsaou,2025-04-09T00:25:12Z,2025-04-09T11:07:28+00:00,1,10.7,True,148,53,4,479,0,0,0,MERGED
+20088,daemon status 27c,ktsaou,2025-04-08T12:49:49Z,2025-04-08T18:57:41+00:00,1,6.13,True,23,6,3,69,0,0,0,MERGED
+20086,Properly integrate dlib into our build system.,Ferroin,2025-04-08T12:28:26Z,2025-04-09T16:50:16+00:00,2,28.36,True,73,13,6,1087,1,0,1,MERGED
+20085,Alerts and Notifications,kanelatechnical,2025-04-08T11:30:45Z,2025-04-08T13:29:15+00:00,4,1.98,True,401,189,4,261,0,2,2,MERGED
+20084,Fix memory allocation for timer callback data when cancelling a timer,stelfrag,2025-04-08T07:44:38Z,2025-04-08T09:21:21+00:00,1,1.61,True,2,2,1,58,0,0,0,MERGED
+20080,Fix crash during shutdown when there are pending messages to cloud,stelfrag,2025-04-07T15:50:08Z,2025-04-07T19:37:46+00:00,1,3.79,True,44,12,4,167,0,0,0,MERGED
+20079,Do not try to index jv2 files during shutdown,stelfrag,2025-04-07T15:19:15Z,2025-04-07T20:00:06+00:00,1,4.68,True,2,2,1,107,0,0,0,MERGED
+20078,Cleanup during shutdown,stelfrag,2025-04-07T15:16:08Z,2025-04-07T17:45:51+00:00,1,2.5,True,2,0,1,78,0,0,0,MERGED
+20077,ACLK synchronization improvements,stelfrag,2025-04-07T14:38:42Z,2025-04-07T20:59:56+00:00,4,6.35,True,207,133,11,151,0,0,0,MERGED
+20076,daemon status 27b,ktsaou,2025-04-07T14:05:31Z,2025-04-07T20:59:12+00:00,1,6.89,True,1078,253,21,732,0,0,0,MERGED
+20075,Document switching from a native package to a static build,ralphm,2025-04-07T11:06:20Z,2025-04-09T08:38:43+00:00,20,45.54,True,40,0,1,203,1,12,13,MERGED
+20074,agent events No 7,ktsaou,2025-04-07T07:10:48Z,2025-04-07T08:26:46+00:00,1,1.27,True,103,31,3,325,0,0,0,MERGED
+20072,build(deps): bump github.com/miekg/dns from 1.1.64 to 1.1.65 in /src/go,dependabot,2025-04-07T05:10:57Z,2025-04-07T07:15:51+00:00,1,2.08,True,3,3,2,1669,0,0,0,MERGED
+20071,build(deps): bump golang.org/x/text from 0.23.0 to 0.24.0 in /src/go,dependabot,2025-04-07T05:10:37Z,2025-04-07T07:13:14+00:00,1,2.04,True,6,6,2,1578,0,0,0,MERGED
+20070,build(deps): bump github.com/fsnotify/fsnotify from 1.8.0 to 1.9.0 in /src/go,dependabot,2025-04-07T05:10:32Z,2025-04-07T07:11:04+00:00,1,2.01,True,3,3,2,3825,0,0,0,MERGED
+20063,Improve agent-events web server,ktsaou,2025-04-06T09:33:15Z,2025-04-06T11:50:50+00:00,1,2.29,True,626,265,5,444,0,0,0,MERGED
+20062,Fix memory leaks,ktsaou,2025-04-05T12:49:37Z,2025-04-05T19:51:44+00:00,2,7.04,True,508,331,35,0,0,0,0,MERGED
+20060,Address Chart name (Windows Hyper V),thiagoftsm,2025-04-05T06:08:29Z,2025-04-08T04:03:40+00:00,3,69.92,True,44,18,1,1855,0,0,0,MERGED
+20058,daemon status 27,ktsaou,2025-04-04T15:21:53Z,2025-04-04T18:58:29+00:00,1,3.61,True,1148,614,12,952,0,0,0,MERGED
+20057,"Improve ephemerality docs, adding `remove-stale-node`",ralphm,2025-04-04T13:06:06Z,2025-04-07T10:16:14+00:00,2,69.17,True,40,17,2,0,2,4,6,MERGED
+20056,nested code block in doc,Ancairon,2025-04-04T12:51:28Z,2025-04-04T16:26:39+00:00,1,3.59,True,2,2,1,44,0,0,0,MERGED
+20055,Skip non-native builds in CI on PRs in most cases.,Ferroin,2025-04-04T11:50:00Z,2025-04-08T10:58:55+00:00,3,95.15,True,76,2,4,207,0,0,0,MERGED
+20052,Observability cent points improved,kanelatechnical,2025-04-04T10:50:08Z,2025-04-05T13:40:50+00:00,3,26.84,True,314,629,5,282,0,1,1,MERGED
+20051,daemon status 26e,ktsaou,2025-04-03T21:21:45Z,2025-04-03T22:37:50+00:00,1,1.27,True,7,2,1,139,0,0,0,MERGED
+20050,fix cgroup netdev renames,ktsaou,2025-04-03T15:51:59Z,2025-04-03T17:28:44+00:00,3,1.61,True,37,36,3,916,0,0,0,MERGED
+20045,Fix releasing statements after databases are closed,stelfrag,2025-04-03T09:54:03Z,2025-04-03T16:17:10+00:00,1,6.39,True,17,4,1,118,0,0,0,MERGED
+20041,daemon status 26b,ktsaou,2025-04-03T07:00:19Z,2025-04-03T09:08:03+00:00,1,2.13,True,38,5,4,25,0,0,0,MERGED
+20039,Update netdata-updater-daily.in,dave818,2025-04-02T20:38:36Z,2025-04-03T06:13:08+00:00,1,9.58,True,1,1,1,831,3,0,3,MERGED
+20037,daemon status 26 - dmi strings,ktsaou,2025-04-02T18:02:44Z,2025-04-02T20:48:34+00:00,3,2.76,True,1414,163,11,195,0,0,0,MERGED
+20034,Fix ACLK synchronization fatal on shutdown,stelfrag,2025-04-02T14:33:42Z,2025-04-03T07:41:32+00:00,3,17.13,True,15,30,4,177,0,1,1,MERGED
+20033,chore(otel/journaldexporter): convert logs to journald format,ilyam8,2025-04-02T13:08:01Z,2025-04-02T14:48:55+00:00,3,1.68,True,398,92,10,87,0,1,1,MERGED
+20032,Fix MSSQL and improvements,thiagoftsm,2025-04-02T12:00:01Z,2025-04-17T18:54:48+00:00,1,366.91,True,701,267,3,662,0,0,0,MERGED
+20031,Check for host timer validity in ACLK synchronization,stelfrag,2025-04-02T08:26:41Z,2025-04-02T14:35:46+00:00,1,6.15,True,11,1,1,68,0,0,0,MERGED
+20027,logs enhancements,ktsaou,2025-04-01T17:27:09Z,2025-04-01T19:42:41+00:00,1,2.26,True,72,49,3,188,0,0,0,MERGED
+20026,daemon status 25,ktsaou,2025-04-01T13:28:07Z,2025-04-01T18:42:20+00:00,1,5.24,True,255,1,2,56,0,0,0,MERGED
+20025,kickstart.sh: add missing option --offline-install-source to USAGE,ycdtosa,2025-04-01T13:28:04Z,2025-04-01T19:18:33+00:00,2,5.84,True,1,0,1,216,0,1,1,MERGED
+20024,Improve kickstart so it can add the netdata user/group on Synology DSM,ycdtosa,2025-04-01T12:40:26Z,2025-04-02T11:27:16+00:00,10,22.78,True,45,0,2,839,4,2,6,MERGED
+20022,Series of NFCs to make the code more maintainable.,vkalintiris,2025-04-01T10:35:26Z,2025-04-01T18:01:48+00:00,1,7.44,True,2444,2084,11,243,1,0,1,MERGED
+20020,"SNMP Collector, use custom YAML files for auto single metrics",Ancairon,2025-04-01T09:33:35Z,2025-04-09T10:27:09+00:00,1,192.89,True,186,721,9,438,1,0,1,MERGED
+20019,Improve estimated disk space usage for data file rotation,stelfrag,2025-04-01T07:47:03Z,2025-04-02T09:13:08+00:00,1,25.43,True,21,10,3,143,0,0,0,MERGED
+20018,Additional checks then creating a v2 journal file,stelfrag,2025-04-01T07:11:11Z,2025-04-01T09:58:50+00:00,1,2.79,True,16,15,1,188,0,0,0,MERGED
+20013,Validate journal file headers to prevent invalid memory access,stelfrag,2025-03-31T14:57:47Z,2025-03-31T18:11:54+00:00,1,3.24,True,17,0,1,115,0,0,0,MERGED
+20011,daemon status 24d,ktsaou,2025-03-31T12:02:16Z,2025-03-31T16:22:26+00:00,1,4.34,True,24,5,4,93,0,0,0,MERGED
+20009,More completely disable our own telemetry in CI.,Ferroin,2025-03-31T11:26:43Z,2025-04-01T20:00:09+00:00,1,32.56,True,5,0,3,26,0,0,0,MERGED
+20006,Minor changes when handling systemd integration.,vkalintiris,2025-03-31T10:06:06Z,2025-03-31T16:07:26+00:00,2,6.02,True,31,23,4,33,0,0,0,MERGED
+20003,daemon status 24c,ktsaou,2025-03-31T09:09:35Z,2025-03-31T12:05:03+00:00,1,2.92,True,20,3,1,99,0,0,0,MERGED
+20001,Update synology.md,Ancairon,2025-03-31T05:58:58Z,2025-03-31T07:39:31+00:00,1,1.68,True,1,1,1,218,0,0,0,MERGED
+20000,build(deps): bump golang.org/x/net from 0.37.0 to 0.38.0 in /src/go,dependabot,2025-03-31T04:45:50Z,2025-04-07T07:22:57+00:00,1,170.62,True,3,3,2,2017,0,0,0,MERGED
+19999,detect more CI,ktsaou,2025-03-30T17:40:14Z,2025-03-30T18:42:12+00:00,1,1.03,True,32,26,3,0,0,0,0,MERGED
+19996,status file 24,ktsaou,2025-03-30T09:43:20Z,2025-03-30T16:35:40+00:00,1,6.87,True,563,455,17,199,0,0,0,MERGED
+19995,Improve jv2 load,stelfrag,2025-03-29T14:35:53Z,2025-04-07T12:38:33+00:00,1,214.04,True,175,21,2,95,0,0,0,MERGED
+19992,added worker last job id to status file,ktsaou,2025-03-29T10:15:51Z,2025-03-29T13:16:41+00:00,1,3.01,True,128,74,12,220,0,0,0,MERGED
+19991,Improve shutdown and datafile rotation,stelfrag,2025-03-28T19:08:43Z,2025-03-29T21:13:58+00:00,1,26.09,True,20,31,4,263,0,0,0,MERGED
+19990,Windows Services Monitoring,thiagoftsm,2025-03-28T18:24:23Z,2025-04-08T17:00:31+00:00,4,262.6,True,448,16,6,452,0,2,2,MERGED
+19989,Update synology.md,ycdtosa,2025-03-28T16:07:59Z,2025-03-29T13:11:55+00:00,1,21.07,True,14,3,1,262,1,0,1,MERGED
+19986,Regenerate integrations docs,netdatabot,2025-03-27T23:08:17Z,2025-03-28T04:20:00+00:00,1,5.2,True,23,0,1,147,0,0,0,MERGED
+19983,do not allocate or access zero sized arrays,ktsaou,2025-03-27T11:45:05Z,2025-03-27T14:15:00+00:00,4,2.5,True,40,29,2,0,0,0,0,MERGED
+19980,Improve agent shutdown,stelfrag,2025-03-27T10:03:19Z,2025-03-27T14:59:01+00:00,1,4.93,True,31,11,6,253,0,0,0,MERGED
+19979,Release memory when calculating metric correlations,stelfrag,2025-03-26T23:16:21Z,2025-03-27T06:54:40+00:00,1,7.64,True,6,2,1,112,0,0,0,MERGED
+19977,set max datafile size to 1GiB,ktsaou,2025-03-26T18:05:08Z,2025-03-26T21:44:00+00:00,1,3.65,True,2,2,1,121,0,0,0,MERGED
+19966,Improve ACLK sync shutdown process,stelfrag,2025-03-26T08:56:53Z,2025-03-26T22:52:05+00:00,1,13.92,True,122,76,11,446,0,0,0,MERGED
+19965,Handle journal_v2 file creation failure due to OOM,stelfrag,2025-03-26T08:40:26Z,2025-04-03T08:08:32+00:00,1,191.47,True,18,12,4,74,0,0,0,MERGED
+19964,Fast restart on busy parents,ktsaou,2025-03-25T20:29:20Z,2025-03-28T17:31:29+00:00,10,69.04,True,1177,1020,18,190,1,9,10,MERGED
+19963,Set sqlite max soft and hard heap limit,stelfrag,2025-03-25T18:40:40Z,2025-03-27T10:47:43+00:00,1,40.12,True,20,0,1,287,0,0,0,MERGED
+19962,fix MSI installer,ktsaou,2025-03-25T14:24:58Z,2025-03-27T19:14:37+00:00,5,52.83,True,76,8,3,695,3,1,4,MERGED
+19961,Don’t skip building Go code on static builds.,Ferroin,2025-03-25T12:07:01Z,2025-03-25T14:22:45+00:00,1,2.26,True,1,3,2,72,0,0,0,MERGED
+19959,daemon status 22c,ktsaou,2025-03-25T05:16:35Z,2025-03-25T11:55:43+00:00,1,6.65,True,4,0,1,41,0,0,0,MERGED
+19958,Use UPDATE_DISCONNECTED mode for libbacktrace.,Ferroin,2025-03-24T20:49:07Z,2025-03-25T04:39:01+00:00,2,7.83,True,1,0,1,235,0,0,0,MERGED
+19955,fix RRDCALC crash due to being linked to RRDSET,ktsaou,2025-03-24T18:52:06Z,2025-03-27T15:00:02+00:00,1,68.13,False,46,10,8,129,0,0,0,CLOSED
+19954,Fix claiming on startup,stelfrag,2025-03-24T12:41:30Z,2025-03-24T17:19:57+00:00,1,4.64,True,7,3,1,82,0,0,0,MERGED
+19953,daemon status 22,ktsaou,2025-03-24T12:33:21Z,2025-03-24T17:06:55+00:00,1,4.56,True,110,64,12,325,0,0,0,MERGED
+19952,Enable interface to release sqlite memory,stelfrag,2025-03-24T09:03:34Z,2025-03-24T17:19:32+00:00,2,8.27,True,14,0,3,420,0,1,1,MERGED
+19951,Improve event loop thread creation,stelfrag,2025-03-24T08:26:52Z,2025-03-24T19:39:25+00:00,1,11.21,True,54,4,5,177,0,0,0,MERGED
+19950,IIS Application Pool (Windows.plugin),thiagoftsm,2025-03-24T07:01:38Z,2025-03-27T23:07:42+00:00,4,88.1,True,619,9,3,505,2,0,2,MERGED
+19949,build(deps): bump actions/upload-artifact from 4.6.1 to 4.6.2,dependabot,2025-03-24T04:39:18Z,2025-03-25T11:30:01+00:00,1,30.85,True,9,9,3,2070,0,0,0,MERGED
+19948,Disable generation of debuginfo packages for DEB distros.,Ferroin,2025-03-23T14:03:46Z,2025-03-23T20:23:18+00:00,2,6.33,True,1,1,1,257,0,0,0,MERGED
+19946,Set default CMake build type to include debug info.,Ferroin,2025-03-22T21:49:18Z,2025-03-22T23:14:56+00:00,1,1.43,True,5,4,1,26,0,0,0,MERGED
+19945,build(deps): bump github.com/miekg/dns from 1.1.63 to 1.1.64 in /src/go,dependabot,2025-03-22T15:02:03Z,2025-03-22T16:45:25+00:00,1,1.72,True,9,9,2,2014,0,0,0,MERGED
+19944,build(deps): bump github.com/jackc/pgx/v5 from 5.7.2 to 5.7.3 in /src/go,dependabot,2025-03-22T15:01:57Z,2025-03-22T16:49:47+00:00,1,1.8,True,3,3,2,2763,0,0,0,MERGED
+19943,build(deps): bump github.com/go-sql-driver/mysql from 1.9.0 to 1.9.1 in /src/go,dependabot,2025-03-22T15:01:50Z,2025-03-22T16:43:49+00:00,1,1.7,True,3,3,2,2458,0,0,0,MERGED
+19942,build(deps): bump github.com/docker/docker from 28.0.1+incompatible to 28.0.2+incompatible in /src/go,dependabot,2025-03-22T15:01:47Z,2025-03-22T16:48:18+00:00,1,1.78,True,3,3,2,6097,0,0,0,MERGED
+19941,build(deps): bump github.com/DataDog/datadog-agent/pkg/networkdevice/profile from 0.65.0-devel.0.20250317105920-ce55f088ab29 to 0.66.0-devel in /src/go,dependabot,2025-03-22T15:01:42Z,2025-03-22T19:05:23+00:00,1,4.06,True,3,3,2,1612,0,0,0,MERGED
+19940,Update src/aclk/aclk-schemas to latest version.,Ferroin,2025-03-22T13:23:33Z,2025-04-08T13:46:06+00:00,1,408.38,True,1,1,1,139,0,0,0,MERGED
+19939,Don't build libunwind in static builds when it's not needed.,Ferroin,2025-03-22T13:16:38Z,2025-03-22T17:31:39+00:00,1,4.25,True,13,0,2,154,0,0,0,MERGED
+19938,detect low ram conditions more aggresively,ktsaou,2025-03-22T13:06:44Z,2025-03-22T17:34:02+00:00,1,4.46,True,32,1,4,0,0,0,0,MERGED
+19935,Fix path to copy drop-in crontab from,ralphm,2025-03-21T18:33:11Z,2025-03-21T20:31:17+00:00,1,1.97,True,1,1,1,0,0,0,0,MERGED
+19933,Sqlite upgrade to version 3.49.1,stelfrag,2025-03-21T10:22:32Z,2025-04-15T06:02:26+00:00,1,595.66,True,8861,4796,2,46,0,0,0,MERGED
+19932,Fix max_page_length calculation for GORILLA_32BIT page type,stelfrag,2025-03-21T09:30:42Z,2025-03-21T11:47:39+00:00,1,2.28,True,1,1,1,285,0,0,0,MERGED
+19930,Fix compile without dbengine,stelfrag,2025-03-21T07:45:10Z,2025-03-21T09:09:48+00:00,1,1.41,True,12,2,4,231,0,0,0,MERGED
+19929,Metadata event loop code cleanup,stelfrag,2025-03-21T07:16:37Z,2025-03-21T18:39:58+00:00,2,11.39,True,86,138,4,294,1,0,1,MERGED
+19928,status file v21,ktsaou,2025-03-21T01:28:42Z,2025-03-21T20:42:58+00:00,3,19.24,True,325,105,17,111,2,0,2,MERGED
+19924,Fix TOCTOU race in daemon status file handling.,Ferroin,2025-03-20T16:53:17Z,2025-03-20T19:04:28+00:00,1,2.19,True,8,7,1,856,0,0,0,MERGED
+19923,Exclude external code from CodeQL scanning.,Ferroin,2025-03-20T15:38:25Z,2025-03-20T16:53:28+00:00,1,1.25,True,4,1,2,168,0,0,0,MERGED
+19919,remove ilove endpoint,ilyam8,2025-03-20T12:13:11Z,2025-03-20T18:26:29+00:00,1,6.22,True,0,708,10,87,0,0,0,MERGED
+19918,Dump Netdata buildinfo during CI.,Ferroin,2025-03-20T11:52:11Z,2025-04-11T10:57:46+00:00,3,527.09,True,29,0,5,581,0,0,0,MERGED
+19917,Align cmsgbuf to size_t to avoid unaligned memory access.,vkalintiris,2025-03-20T11:43:08Z,2025-03-20T13:50:22+00:00,1,2.12,True,3,3,1,13,0,0,0,MERGED
+19916,Make sure ACLK sync thread completes initialization,stelfrag,2025-03-20T11:31:53Z,2025-03-20T16:41:50+00:00,1,5.17,True,12,6,1,154,0,0,0,MERGED
+19912,post the first status when there is no last status,ktsaou,2025-03-20T06:42:53Z,2025-03-20T08:32:14+00:00,1,1.82,True,14,5,1,0,0,0,0,MERGED
+19910,initial implementation of libbacktrace,ktsaou,2025-03-19T19:46:40Z,2025-03-21T17:44:17+00:00,1,45.96,True,261,25,9,472,0,0,0,MERGED
+19904,improvement(health/dyncfg): add widget to load available contexts,ilyam8,2025-03-19T10:15:57Z,2025-03-27T12:26:05+00:00,1,194.17,True,2,1,1,87,0,0,0,MERGED
+19903,new exit cause: shutdown timeout,ktsaou,2025-03-19T10:05:09Z,2025-03-19T17:11:56+00:00,1,7.11,True,155,26,8,312,0,0,0,MERGED
+19902,Fix compile without dbengine,stelfrag,2025-03-19T07:23:14Z,2025-03-19T09:55:16+00:00,1,2.53,True,12,2,4,161,0,0,0,MERGED
+19898,more strict checks on log-fw,ktsaou,2025-03-18T15:01:24Z,2025-03-18T21:03:09+00:00,3,6.03,True,110,68,17,46,0,1,1,MERGED
+19895,build: update otel deps to v0.122.0,ilyam8,2025-03-18T10:06:31Z,2025-03-18T12:06:08+00:00,1,1.99,True,80,82,4,87,0,0,0,MERGED
+19891,Fix typo in README title,felipecrs,2025-03-17T16:50:46Z,2025-03-17T19:53:55+00:00,1,3.05,True,1,1,1,89,2,0,2,MERGED
+19890,remove deadlock from dyncfg health,ktsaou,2025-03-17T15:50:02Z,2025-03-17T19:48:16+00:00,1,3.97,True,28,13,4,0,0,0,0,MERGED
+19887,fix(go.d/snmp/ddsnmp): correct profile directory path,ilyam8,2025-03-17T14:30:10Z,2025-03-17T19:37:56+00:00,2,5.13,True,40,37,4,87,0,0,0,MERGED
+19885,Store alert config asynchronously,stelfrag,2025-03-17T12:12:47Z,2025-03-20T07:20:32+00:00,1,67.13,True,103,41,5,171,0,0,0,MERGED
+19881,ci: use step-security/changed-files,ilyam8,2025-03-17T10:01:23Z,2025-03-17T11:28:35+00:00,1,1.45,True,514,23,5,87,0,0,0,MERGED
+19880,change log priorities on agent-events,ktsaou,2025-03-17T06:27:51Z,2025-03-17T08:27:35+00:00,1,2.0,True,58,34,6,466,0,0,0,MERGED
+19879,add stack trace information to the compiler and linker,ktsaou,2025-03-16T20:49:32Z,2025-03-16T22:22:19+00:00,1,1.55,True,4,6,1,909,0,0,0,MERGED
+19876,daemon-status-18,ktsaou,2025-03-16T09:49:24Z,2025-03-17T11:26:47+00:00,1,25.62,True,375,191,11,616,0,0,0,MERGED
+19869,daemon status file 17,ktsaou,2025-03-15T08:36:23Z,2025-03-15T14:51:48+00:00,2,6.26,True,377,123,11,333,0,2,2,MERGED
+19866,fix(freebsd.plugin): correct disks/network devices charts,ilyam8,2025-03-14T20:54:29Z,2025-03-14T21:59:04+00:00,1,1.08,True,34,23,3,141,0,0,0,MERGED
+19865,improvement(macos.plugin): add options to filter net ifaces and mountpoints,ilyam8,2025-03-14T19:46:28Z,2025-03-14T21:22:58+00:00,1,1.61,True,30,0,1,321,0,0,0,MERGED
+19864,build(deps): bump github.com/prometheus/common from 0.62.0 to 0.63.0 in /src/go,dependabot,2025-03-14T13:38:26Z,2025-03-14T18:29:44+00:00,1,4.86,True,7,7,2,4179,1,0,1,MERGED
+19863,daemon status file 16,ktsaou,2025-03-14T06:01:26Z,2025-03-14T19:37:01+00:00,2,13.59,True,530,131,22,357,0,0,0,MERGED
+19861,Release memory on shutdown - detect invalid extent in journal files,stelfrag,2025-03-13T22:41:52Z,2025-03-14T21:53:31+00:00,1,23.19,True,21,6,2,138,0,0,0,MERGED
+19859,fix(macos.plugin): correct disks/network devices charts,ilyam8,2025-03-13T20:34:08Z,2025-03-13T21:44:09+00:00,1,1.17,True,32,19,1,118,0,0,0,MERGED
+19855,netdata-uninstaller: improve input prompt with more descriptive guidance,ilyam8,2025-03-13T17:43:29Z,2025-03-13T20:50:26+00:00,1,3.12,True,1,1,1,120,0,0,0,MERGED
+19853,fix contexts labels to avoid clearing the rrdlabels pointer,ktsaou,2025-03-13T15:48:42Z,2025-03-13T17:16:45+00:00,1,1.47,True,51,44,7,5618,0,0,0,MERGED
+19852,Large-scale cleanup of static build infrastructure.,Ferroin,2025-03-13T14:27:09Z,2025-03-25T11:00:54+00:00,2,284.56,True,335,286,24,2763,2,0,2,MERGED
+19850,fix updating on RPi2+,ilyam8,2025-03-13T11:16:19Z,2025-03-13T12:36:38+00:00,1,1.34,True,6,0,1,110,0,0,0,MERGED
+19849,minor fixes,ktsaou,2025-03-13T09:36:21Z,2025-03-13T14:25:55+00:00,1,4.83,True,52,53,9,180,0,0,0,MERGED
+19844,ebpf.plugin: rework memory,thiagoftsm,2025-03-13T03:28:03Z,2025-03-28T13:56:02+00:00,1,370.47,True,747,624,23,1322,2,0,2,MERGED
+19840,docs: fix typos in nodes-ephemerality.md,ilyam8,2025-03-12T19:24:26Z,2025-03-12T22:14:51+00:00,1,2.84,True,4,4,1,87,0,0,0,MERGED
+19839,Add oci meta info,Passific,2025-03-12T16:48:30Z,2025-03-13T13:57:24+00:00,1,21.15,True,18,3,2,233,1,0,1,MERGED
+19838,fix rrdset name crash on cleanup,ktsaou,2025-03-12T16:18:12Z,2025-03-12T17:19:32+00:00,1,1.02,True,48,46,3,0,0,0,0,MERGED
+19835,Fix for building with protobuf 30.0,vkalintiris,2025-03-12T14:17:11Z,2025-03-12T17:37:03+00:00,1,3.33,True,2,2,1,67,1,0,1,MERGED
+19834,Improve CI reliability by allowing for better retry behavior.,Ferroin,2025-03-12T12:13:30Z,2025-03-19T11:17:24+00:00,4,167.06,True,29,21,2,451,0,3,3,MERGED
+19830,Fix RRDDIM_MEM storage engine index,ktsaou,2025-03-12T11:28:04Z,2025-03-12T21:15:48+00:00,1,9.8,True,108,87,13,218,0,0,0,MERGED
+19829,improvement(go.d/k8state): add CronJob suspend status,ilyam8,2025-03-12T10:50:40Z,2025-03-12T12:03:01+00:00,1,1.21,True,54,2,6,87,0,0,0,MERGED
+19827,free strings judy arrays to show leaked strings,ktsaou,2025-03-11T18:42:12Z,2025-03-12T16:08:24+00:00,1,21.44,True,174,89,15,101,3,0,3,MERGED
+19825,"use notice log level for ""machine ID found""",ilyam8,2025-03-11T13:47:35Z,2025-03-11T15:22:54+00:00,1,1.59,True,1,1,1,87,0,0,0,MERGED
+19824,build(otel-collector): update to v0.121.0,ilyam8,2025-03-11T13:35:40Z,2025-03-11T15:35:18+00:00,1,1.99,True,111,109,4,87,0,0,0,MERGED
+19823,Finding leaks No 2,ktsaou,2025-03-11T09:11:36Z,2025-03-11T15:36:02+00:00,1,6.41,True,83,121,12,198,0,0,0,MERGED
+19821,Free all memory on exit,ktsaou,2025-03-10T18:32:04Z,2025-03-11T08:41:25+00:00,1,14.16,True,234,39,18,471,0,0,0,MERGED
+19817,Include libucontext in static builds to vendor libunwind even on POWER.,Ferroin,2025-03-10T13:27:06Z,2025-03-11T10:58:11+00:00,1,21.52,True,52,5,3,173,0,0,0,MERGED
+19813,Initial commit with snmp profile code,Ancairon,2025-03-10T08:16:04Z,2025-03-14T13:18:03+00:00,1,101.03,True,1501,0,9,152,1,0,1,MERGED
+19812,Acquire datafile for deletion before calculating retention,stelfrag,2025-03-09T20:20:28Z,2025-03-10T22:29:08+00:00,1,26.14,True,3,3,1,75,0,0,0,MERGED
+19810,Avoid zero timeout in libuv timers,stelfrag,2025-03-09T08:03:51Z,2025-03-10T08:46:11+00:00,1,24.71,True,2,2,2,62,0,0,0,MERGED
+19808,do not change the scheduling policy by default,ktsaou,2025-03-08T19:14:45Z,2025-03-08T21:47:17+00:00,1,2.54,True,4,4,1,0,0,0,0,MERGED
+19807,fix(go.d/pihole): switch to pihole6 api,ilyam8,2025-03-08T18:25:03Z,2025-03-10T11:51:55+00:00,1,41.45,True,733,682,18,119,0,0,0,MERGED
+19801,add k8s_state_cronjob_last_execution_failed alert,ilyam8,2025-03-08T08:36:01Z,2025-03-08T09:43:06+00:00,2,1.12,True,23,1,2,87,0,0,0,MERGED
+19793,improvement(go.d/k8s_state): collect cronjobs,ilyam8,2025-03-07T13:26:21Z,2025-03-07T14:30:12+00:00,1,1.06,True,698,24,16,516,0,0,0,MERGED
+19792,status file improvements 12,ktsaou,2025-03-07T09:53:23Z,2025-03-07T19:56:37+00:00,1,10.05,True,108,76,13,356,0,0,0,MERGED
+19790,docs(go.d/snmp): add snmp discovery information,ilyam8,2025-03-06T21:54:03Z,2025-03-07T06:28:51+00:00,1,8.58,True,2,1,1,87,0,0,0,MERGED
+19789,User configurable crash reporting,ktsaou,2025-03-06T18:23:45Z,2025-03-06T19:39:14+00:00,1,1.26,True,87,65,2,153,0,0,0,MERGED
+19787,detect when running in CI and disable posting status,ktsaou,2025-03-06T12:39:22Z,2025-03-06T15:52:01+00:00,2,3.21,True,111,105,3,118,0,0,0,MERGED
+19786,chore: rename snmp.profiles.d -> snmp.profiles,ilyam8,2025-03-06T12:30:13Z,2025-03-06T14:30:48+00:00,1,2.01,True,4,4,239,87,0,0,0,MERGED
+19785,add datadog profiles for snmp collector,Ancairon,2025-03-06T09:42:21Z,2025-03-06T12:02:49+00:00,1,2.34,True,30463,10,241,87,0,0,0,MERGED
+19781,Restructure shutdown logic used during updates.,Ferroin,2025-03-05T15:03:51Z,2025-03-05T17:04:18+00:00,1,2.01,True,15,7,1,407,0,0,0,MERGED
+19778,add unique machine id to status file,ktsaou,2025-03-05T13:29:23Z,2025-03-05T15:09:25+00:00,1,1.67,True,235,7,8,0,0,0,0,MERGED
+19775,Improve agent shutdown,stelfrag,2025-03-05T11:02:59Z,2025-03-05T21:26:01+00:00,1,10.38,True,50,12,11,60,0,0,0,MERGED
+19774,Fix SIGSEGV on static installs due to dengine log,ktsaou,2025-03-05T10:48:56Z,2025-03-05T12:24:44+00:00,1,1.6,True,91,58,4,3380,1,0,1,MERGED
+19773,kickstart: install native pkg on RPi2+,ilyam8,2025-03-05T09:49:15Z,2025-03-05T12:24:59+00:00,1,2.6,True,5,0,1,87,0,0,0,MERGED
+19769,add handling for sigabrt in the status file,ktsaou,2025-03-04T17:28:08Z,2025-03-04T19:04:25+00:00,1,1.6,True,30,24,5,0,0,0,0,MERGED
+19764,enable libunwind in static builds,ktsaou,2025-03-04T09:21:22Z,2025-03-06T10:39:10+00:00,3,49.3,True,105,11,6,77,5,1,6,MERGED
+19761,make status file use fixed size character arrays,ktsaou,2025-03-04T00:14:13Z,2025-03-04T08:31:50+00:00,1,8.29,True,141,101,4,233,0,0,0,MERGED
+19754,Add documentation outlining how to use custom CA certificates with Netdata.,Ferroin,2025-03-03T16:23:47Z,2025-03-04T13:16:46+00:00,1,20.88,True,121,0,1,1032,0,0,0,MERGED
+19750,build(deps): bump github.com/axiomhq/hyperloglog from 0.2.3 to 0.2.5 in /src/go,dependabot,2025-03-03T04:55:39Z,2025-03-03T07:13:04+00:00,1,2.29,True,3,3,2,2649,0,0,0,MERGED
+19749,build(deps): bump github.com/likexian/whois from 1.15.5 to 1.15.6 in /src/go,dependabot,2025-03-03T04:55:01Z,2025-03-03T08:02:32+00:00,1,3.13,True,3,3,2,2062,0,0,0,MERGED
+19748,build(deps): bump go.mongodb.org/mongo-driver from 1.17.2 to 1.17.3 in /src/go,dependabot,2025-03-03T04:54:59Z,2025-03-03T07:14:15+00:00,1,2.32,True,3,3,2,1438,0,0,0,MERGED
+19747,build(deps): bump github.com/gosnmp/gosnmp from 1.38.0 to 1.39.0 in /src/go,dependabot,2025-03-03T04:54:55Z,2025-03-03T07:11:44+00:00,1,2.28,True,6,5,2,2623,0,0,0,MERGED
+19746,build(deps): bump github.com/docker/docker from 28.0.0+incompatible to 28.0.1+incompatible in /src/go,dependabot,2025-03-03T04:54:46Z,2025-03-03T07:15:17+00:00,1,2.34,True,3,3,2,4962,0,0,0,MERGED
+19737,Capture deadly signals,ktsaou,2025-02-28T19:21:03Z,2025-03-01T12:52:10+00:00,1,17.52,True,150,86,9,109,0,0,0,MERGED
+19731,add another step when initializing web,ktsaou,2025-02-28T09:18:36Z,2025-02-28T13:56:11+00:00,1,4.63,True,6,6,2,0,0,0,0,MERGED
+19726,improve status file deduplication,ktsaou,2025-02-27T09:52:51Z,2025-02-27T12:03:30+00:00,2,2.18,True,242,55,8,138,0,0,0,MERGED
+19720,feat(go.d): add snmp devices discovery,ilyam8,2025-02-26T20:48:43Z,2025-03-03T13:07:33+00:00,1,112.31,True,1544,149,31,87,0,0,0,MERGED
+19710,Fix Fresh Installation on Microsoft,thiagoftsm,2025-02-25T23:44:38Z,2025-02-26T02:21:12+00:00,1,2.61,True,8,1,1,212,0,0,0,MERGED
+19708,Check for final step,stelfrag,2025-02-25T12:31:25Z,2025-02-25T13:36:13+00:00,2,1.08,True,1,1,1,28,0,0,0,MERGED
+19707,daemon status improvements 3,ktsaou,2025-02-25T11:14:40Z,2025-02-25T12:15:44+00:00,1,1.02,True,93,87,10,132,0,0,0,MERGED
+19705,Add repository priority configuration for DEB package repositories.,Ferroin,2025-02-24T15:17:07Z,2025-03-05T13:17:42+00:00,5,214.01,True,22,1,4,200,0,1,1,MERGED
+19702,Integrate OpenTelemetry collector build into build system.,Ferroin,2025-02-24T13:19:39Z,2025-03-11T11:27:29+00:00,3,358.13,True,96,11,4,2295,3,0,3,MERGED
+19701,Document journal v2 index file format.,vkalintiris,2025-02-24T11:35:26Z,2025-02-24T15:30:07+00:00,1,3.91,True,163,49,1,33,0,0,0,MERGED
+19699,ADFS (windows.plugin),thiagoftsm,2025-02-24T04:48:18Z,2025-03-08T15:26:35+00:00,1,298.64,True,1808,1,5,298,0,0,0,MERGED
+19698,build(deps): bump github.com/sijms/go-ora/v2 from 2.8.23 to 2.8.24 in /src/go,dependabot,2025-02-24T04:13:05Z,2025-02-24T08:16:29+00:00,1,4.06,True,3,3,2,2086,0,0,0,MERGED
+19697,build(deps): bump actions/upload-artifact from 4.6.0 to 4.6.1,dependabot,2025-02-24T04:10:00Z,2025-02-24T08:18:57+00:00,1,4.15,True,9,9,3,1916,0,0,0,MERGED
+19696,change the moto and the description of netdata,ktsaou,2025-02-23T09:24:54Z,2025-02-23T11:02:23+00:00,2,1.62,True,38,44,12,0,0,0,0,MERGED
+19686,Switch back to x86 hosts for POWER8+ builds.,Ferroin,2025-02-20T19:42:28Z,2025-02-20T22:09:48+00:00,1,2.46,True,1,1,1,141,0,0,0,MERGED
+19677,Fix freebsd compilation,stelfrag,2025-02-19T16:48:37Z,2025-02-19T21:11:26+00:00,1,4.38,True,59,59,4,142,0,0,0,MERGED
+19674,Dyncfg users actions log,ktsaou,2025-02-18T21:31:14Z,2025-02-19T11:29:17+00:00,2,13.97,True,264,56,11,116,0,0,0,MERGED
+19669,chore: remove netdata_configured_lock_dir,ilyam8,2025-02-18T10:13:40Z,2025-02-18T12:26:12+00:00,1,2.21,True,0,8,6,205,0,0,0,MERGED
+19657,improvement(go.d/k8sstate): collect deployments,ilyam8,2025-02-17T12:11:09Z,2025-02-17T14:23:12+00:00,1,2.2,True,352,19,10,87,0,0,0,MERGED
+19656,add agent timezones as host labels,ktsaou,2025-02-17T07:24:45Z,2025-02-17T08:32:07+00:00,1,1.12,True,3,0,1,0,0,0,0,MERGED
+19652,build(deps): bump k8s.io/client-go from 0.32.1 to 0.32.2 in /src/go,dependabot,2025-02-15T14:03:11Z,2025-02-15T16:32:22+00:00,1,2.49,True,9,9,2,1571,0,0,0,MERGED
+19646,make onewayalloc fallback to malloc,ktsaou,2025-02-14T00:43:40Z,2025-02-14T18:38:15+00:00,1,17.91,True,12,3,1,0,0,0,0,MERGED
+19645,docs: move /run/dbus mount to Docker recommended way,ilyam8,2025-02-13T19:50:06Z,2025-02-14T09:04:37+00:00,1,13.24,True,33,53,2,87,0,0,0,MERGED
+19643,Fix native package installation on RHEL.,Ferroin,2025-02-13T13:53:21Z,2025-02-19T15:11:27+00:00,1,145.3,True,16,1,1,358,0,0,0,MERGED
+19642,ci: fix win build,ilyam8,2025-02-13T13:26:59Z,2025-02-13T16:00:11+00:00,2,2.55,True,5,3,1,130,0,0,0,MERGED
+19641,Make static build certificate selection more robust.,Ferroin,2025-02-13T12:30:56Z,2025-07-24T12:38:09+00:00,3,3864.12,False,39,10,1,879,2,2,4,CLOSED
+19638,add Group=netdata to systemd unit file,ilyam8,2025-02-13T11:14:19Z,2025-02-13T16:42:53+00:00,3,5.48,True,2,2,2,268,1,1,2,MERGED
+19623,HyperV Adjusts (windows.plugin),thiagoftsm,2025-02-12T06:47:51Z,2025-02-12T12:24:48+00:00,1,5.62,True,1131,929,1,405,0,0,0,MERGED
+19622,detect the system ca bundle at runtime,ktsaou,2025-02-11T22:24:08Z,2025-02-12T14:28:01+00:00,3,16.06,True,112,6,10,239,5,5,10,MERGED
+19619,Switch to Ubuntu 22.04 runner images for CI build jobs.,Ferroin,2025-02-11T15:02:59Z,2025-02-12T01:58:17+00:00,1,10.92,True,4,4,1,217,0,0,0,MERGED
+19617,detect netdata exit reasons,ktsaou,2025-02-11T11:30:57Z,2025-02-24T12:20:53+00:00,3,312.83,True,3510,934,136,1619,0,2,2,MERGED
+19614,fix: correct typo in NetdataCompilerFlags,ilyam8,2025-02-11T09:53:28Z,2025-02-11T14:38:53+00:00,1,4.76,True,1,1,1,87,0,0,0,MERGED
+19609,Do not register removed node on agent restart,stelfrag,2025-02-10T15:13:46Z,2025-02-10T18:26:19+00:00,1,3.21,True,4,2,1,520,0,0,0,MERGED
+19608,Add sentry fatal message breadcrumb.,vkalintiris,2025-02-10T15:04:35Z,2025-02-11T11:33:51+00:00,1,20.49,True,13,0,3,33,1,0,1,MERGED
+19607,Disable LTO for openSUSE package builds.,Ferroin,2025-02-10T13:08:05Z,2025-02-10T14:27:30+00:00,1,1.32,True,3,1,1,142,0,0,0,MERGED
+19601,Update manage-notification-methods.md,Ancairon,2025-02-10T06:39:01Z,2025-02-10T08:00:35+00:00,5,1.36,True,14,13,1,221,1,4,5,MERGED
+19600,Close database if we encounter error during startup,stelfrag,2025-02-09T20:27:50Z,2025-02-10T14:32:24+00:00,1,18.08,True,9,6,1,142,0,0,0,MERGED
+19598,build(deps): bump github.com/gohugoio/hashstructure from 0.3.0 to 0.5.0 in /src/go,dependabot,2025-02-08T08:47:08Z,2025-02-08T11:40:40+00:00,1,2.89,True,3,3,2,2195,0,0,0,MERGED
+19597,build(deps): bump golang.org/x/text from 0.21.0 to 0.22.0 in /src/go,dependabot,2025-02-08T08:47:02Z,2025-02-08T11:45:39+00:00,1,2.98,True,6,6,2,1626,0,0,0,MERGED
+19596,Cleanup code that writes extents to the database,stelfrag,2025-02-07T21:39:54Z,2025-02-10T14:43:02+00:00,1,65.05,True,33,49,3,164,0,0,0,MERGED
+19594,Add check for available active instances when checking for extreme cardinality,stelfrag,2025-02-07T16:18:57Z,2025-02-07T18:14:59+00:00,1,1.93,True,1,0,1,48,0,0,0,MERGED
+19593,Free resources where writing datafile extents,stelfrag,2025-02-07T14:58:58Z,2025-02-07T18:15:58+00:00,1,3.28,True,4,3,2,116,0,0,0,MERGED
+19592,fix incomplete implementation of journal watcher,ktsaou,2025-02-07T12:56:22Z,2025-02-07T18:13:15+00:00,1,5.28,True,269,73,2,654,0,0,0,MERGED
+19586,Streaming alerts,ktsaou,2025-02-06T17:43:25Z,2025-02-10T09:06:24+00:00,1,87.38,True,767,366,35,6088,2,0,2,MERGED
+19583,Add agent version during ACLK handshake,stelfrag,2025-02-06T10:23:12Z,2025-02-07T15:17:54+00:00,1,28.91,True,1,1,1,101,0,0,0,MERGED
+19582,Format missing file (eBPF.plugin),thiagoftsm,2025-02-06T02:59:07Z,2025-02-06T04:25:22+00:00,1,1.44,True,45,67,1,198,0,0,0,MERGED
+19578,build(deps): update go toolchain to v1.23.6,ilyam8,2025-02-05T10:09:38Z,2025-02-05T13:14:23+00:00,1,3.08,True,25,25,1,87,0,0,0,MERGED
+19576,Generate protobuf source files in build dir.,vkalintiris,2025-02-05T06:01:05Z,2025-02-05T14:02:39+00:00,1,8.03,True,74,55,7,95,0,0,0,MERGED
+19575,Switch from x86 to ARM build host for POWER8+ builds.,Ferroin,2025-02-04T15:42:02Z,2025-02-07T11:53:35+00:00,1,68.19,True,2,1,2,208,0,0,0,MERGED
+19572,"Modify eBPF.plugin integration (Part II, the sockets)",thiagoftsm,2025-02-04T12:42:37Z,2025-03-07T21:50:17+00:00,7,753.13,True,272,48,8,609,0,1,1,MERGED
+19571,Patch release 2.2.4,stelfrag,2025-02-04T08:42:10Z,2025-02-04T13:34:49+00:00,1,4.88,True,12,6,5,177,0,0,0,MERGED
+19569,Fix memory leak,stelfrag,2025-02-03T21:04:01Z,2025-02-03T22:24:16+00:00,2,1.34,True,2,3,3,234,0,0,0,MERGED
+19566,Code cleanup on ACLK messages,stelfrag,2025-02-03T16:52:00Z,2025-02-04T08:04:14+00:00,1,15.2,True,100,253,6,759,0,0,0,MERGED
+19564,Add a new agent status when connecting to the cloud,stelfrag,2025-02-03T14:27:44Z,2025-02-03T17:22:41+00:00,1,2.92,True,10,2,2,160,1,0,1,MERGED
+19559,MSSQL Multiple Instances (windows.plugin),thiagoftsm,2025-02-03T04:58:35Z,2025-02-03T08:26:57+00:00,1,3.47,True,1,1,1,408,0,0,0,MERGED
+19558,build(deps): bump github.com/lmittmann/tint from 1.0.6 to 1.0.7 in /src/go,dependabot,2025-02-03T04:12:11Z,2025-02-03T08:30:25+00:00,1,4.3,True,3,3,2,1906,0,0,0,MERGED
+19557,"Metadata (AD and ADCS), and small fixes",thiagoftsm,2025-02-03T00:38:28Z,2025-02-03T08:59:01+00:00,1,8.34,True,359,6,4,155,0,0,0,MERGED
+19555,docs(start-stop-restart): fix restart typo,L-U-C-K-Y,2025-02-01T17:26:28Z,2025-02-02T20:40:23+00:00,1,27.23,True,5,5,1,643,3,0,3,MERGED
+19554,Format Windows.plugin,thiagoftsm,2025-02-01T16:36:39Z,2025-02-02T12:15:21+00:00,1,19.64,True,1101,913,16,223,0,0,0,MERGED
+19553,Format ebpf,thiagoftsm,2025-02-01T13:59:14Z,2025-02-01T15:08:49+00:00,1,1.16,True,7792,6347,39,240,0,0,0,MERGED
+19552,Rename appconfig to inicfg and drop config_* function-like macros.,vkalintiris,2025-02-01T12:03:50Z,2025-02-02T11:17:33+00:00,1,23.23,True,1627,1699,131,78,0,0,0,MERGED
+19550,fix(go.d/mysql): fix typo in test name,arkamar,2025-01-31T15:02:58Z,2025-01-31T18:18:26+00:00,1,3.26,True,1,1,1,70,0,0,0,MERGED
+19549,fix(go.d/mysql): don't collect global variables on every iteration,arkamar,2025-01-31T14:57:14Z,2025-01-31T18:20:24+00:00,1,3.39,True,1,0,1,371,1,0,1,MERGED
+19547,Fix cloud connect after claim,stelfrag,2025-01-31T13:28:53Z,2025-01-31T16:04:07+00:00,1,2.59,True,45,40,5,61,0,0,0,MERGED
+19545,chore: remove old dashboard leftovers,ilyam8,2025-01-31T10:38:20Z,2025-01-31T13:19:32+00:00,1,2.69,True,1,78,9,87,0,0,0,MERGED
+19544,chore(windows.plugin): format perflib ad and netframework,ilyam8,2025-01-31T09:48:54Z,2025-01-31T13:26:36+00:00,2,3.63,True,834,917,2,126,1,0,1,MERGED
+19542,Patch release 2.2.3,stelfrag,2025-01-31T08:54:31Z,2025-01-31T16:36:08+00:00,1,7.69,True,79,56,8,162,0,0,0,MERGED
+19537,inline dbengine query critical path,ktsaou,2025-01-30T17:53:55Z,2025-02-05T07:09:55+00:00,1,133.27,True,1274,903,68,279,1,0,1,MERGED
+19535,Fix coverity issue,stelfrag,2025-01-30T14:18:01Z,2025-01-30T16:04:34+00:00,1,1.78,True,2,4,1,95,0,0,0,MERGED
+19534,Actually handle the `-fexceptions` requirement correctly in our build system.,Ferroin,2025-01-30T14:07:22Z,2025-01-31T13:20:05+00:00,1,23.21,True,22,10,3,1004,2,0,2,MERGED
+19528,ci: bump static build timeout to 6hr,ilyam8,2025-01-30T07:41:53Z,2025-01-30T09:15:42+00:00,1,1.56,True,1,1,1,87,0,0,0,MERGED
+19527,Fix MSSQL Instance,thiagoftsm,2025-01-30T04:32:23Z,2025-01-30T07:43:22+00:00,1,3.18,True,2,2,1,244,0,0,0,MERGED
+19525,Improve data write,stelfrag,2025-01-29T17:52:21Z,2025-02-05T07:11:05+00:00,1,157.31,True,109,126,5,259,0,0,0,MERGED
+19524,inline functions related to metrics ingestion,ktsaou,2025-01-29T16:35:01Z,2025-01-30T13:27:30+00:00,1,20.87,True,257,204,23,190,0,0,0,MERGED
+19523,chore(packaging): remove old dashboard,ilyam8,2025-01-29T14:03:44Z,2025-01-29T20:29:23+00:00,1,6.43,True,0,64741,222,163,1,0,1,MERGED
+19521,Format PGDs on fatal(),vkalintiris,2025-01-29T09:57:02Z,2025-01-31T06:37:10+00:00,1,44.67,True,108,6,1,32,0,0,0,MERGED
+19520,SMSEagle integration,marcin-smseagle,2025-01-29T09:22:40Z,2025-01-31T08:51:11+00:00,5,47.48,True,239,0,3,567,13,3,16,MERGED
+19519,ci: increase static build timeout 180->300m,ilyam8,2025-01-29T08:15:52Z,2025-01-29T09:16:11+00:00,1,1.01,True,1,1,1,214,0,0,0,MERGED
+19518,Improve ACLK query processing,stelfrag,2025-01-28T20:13:55Z,2025-01-29T08:37:27+00:00,1,12.39,True,64,33,4,125,0,0,0,MERGED
+19515,Invert order of checks in pgd_append_point().,vkalintiris,2025-01-28T16:48:23Z,2025-01-28T17:49:20+00:00,1,1.02,True,8,8,1,128,0,0,0,MERGED
+19514,Link the ebpf plugin against libbpf directly instead of through libnetdata.,Ferroin,2025-01-28T16:37:28Z,2025-01-28T18:35:37+00:00,1,1.97,True,2,9,3,370,0,0,0,MERGED
+19513,compile time and runtime check of required compiler flags,ktsaou,2025-01-28T14:47:41Z,2025-01-28T17:52:47+00:00,10,3.08,True,106,2,4,124,0,2,2,MERGED
+19511,netdata.spec/plugin-go: remove dependency for lm_sensors,k0ste,2025-01-28T13:00:58Z,2025-01-30T08:23:06+00:00,1,43.37,True,5,6,1,135,0,0,0,MERGED
+19510,chore(go.d/nvme): fix :dog: warning,ilyam8,2025-01-28T12:37:54Z,2025-01-28T19:36:06+00:00,1,6.97,True,4,6,1,87,0,0,0,MERGED
+19509,Bundle cmake cache.,vkalintiris,2025-01-28T12:20:57Z,2025-01-31T08:39:14+00:00,2,68.3,True,62,0,6,64,2,1,3,MERGED
+19507,Fix alert transition,stelfrag,2025-01-28T12:01:52Z,2025-01-28T17:13:20+00:00,1,5.19,True,9,7,1,517,0,0,0,MERGED
+19506,update buildinfo ,ktsaou,2025-01-28T11:18:11Z,2025-01-28T12:27:57+00:00,1,1.16,True,46,0,2,56,0,0,0,MERGED
+19499,Create impact-on-resources.md,ktsaou,2025-01-27T15:27:06Z,2025-01-27T18:21:11+00:00,1,2.9,True,131,0,1,0,0,0,0,MERGED
+19498,Add worker for alert queue processing,stelfrag,2025-01-27T14:19:01Z,2025-01-27T19:09:40+00:00,1,4.84,True,10,2,1,94,0,0,0,MERGED
+19495,max data file size,ktsaou,2025-01-27T10:27:30Z,2025-01-28T17:47:52+00:00,1,31.34,True,2,2,1,58,0,0,0,MERGED
+19494,proc.plugin: add `ifb4*` to excluded interface name patterns,intelfx,2025-01-27T07:28:18Z,2025-01-27T08:50:59+00:00,1,1.38,True,1,1,1,390,0,0,0,MERGED
+19492,Active Directory Certification Service (windows.plugin),thiagoftsm,2025-01-27T02:36:05Z,2025-01-31T15:34:11+00:00,1,108.97,True,781,28,4,127,0,0,0,MERGED
+19491,proc.plugin: remove traces of /proc/spl/kstat/zfs/pool/state,intelfx,2025-01-26T20:24:38Z,2025-01-27T05:49:00+00:00,1,9.41,True,0,1,1,200,1,0,1,MERGED
+19490,cgroups.plugin: fixes to cgroup path validation,intelfx,2025-01-26T20:02:00Z,2025-02-03T09:19:25+00:00,8,181.29,True,24,9,1,352,1,1,2,MERGED
+19489,Further improve alert processing,stelfrag,2025-01-26T19:31:08Z,2025-01-27T08:21:21+00:00,1,12.84,True,57,30,3,178,0,0,0,MERGED
+19488,LTO Benchmark,ktsaou,2025-01-26T15:11:55Z,2025-01-26T22:24:08+00:00,1,7.2,True,486,367,20,994,0,0,0,MERGED
+19487,Improve alert transition processing,stelfrag,2025-01-25T20:48:56Z,2025-01-26T16:53:17+00:00,1,20.07,True,170,40,3,108,0,0,0,MERGED
+19486,protection against extreme cardinality,ktsaou,2025-01-25T13:51:46Z,2025-02-06T12:28:42+00:00,2,286.62,True,412,89,27,2647,0,0,0,MERGED
+19479,Improve metadata cleanup,stelfrag,2025-01-24T13:29:39Z,2025-01-27T19:41:54+00:00,1,78.2,True,374,381,5,589,0,0,0,MERGED
+19471,Unregister node from the agent to run in a worker thread,stelfrag,2025-01-23T17:30:42Z,2025-01-23T21:02:40+00:00,1,3.53,True,37,8,3,520,1,0,1,MERGED
+19470,Make handling of cross-platform emulation for static builds smarter.,Ferroin,2025-01-23T15:25:21Z,2025-01-28T14:54:41+00:00,1,119.49,True,13,11,1,635,1,0,1,MERGED
+19468,Use QEMU from the runner environment instead of an external copy.,Ferroin,2025-01-23T15:12:15Z,2025-01-24T13:49:35+00:00,1,22.62,True,19,3,3,172,0,0,0,MERGED
+19467,fix crash when cleaning up virtual nodes,ktsaou,2025-01-23T14:02:23Z,2025-01-23T17:42:58+00:00,1,3.68,True,33,14,4,64,0,0,0,MERGED
+19466,streaming nodes accounting,ktsaou,2025-01-23T13:55:19Z,2025-01-23T17:42:36+00:00,1,3.79,True,193,97,8,99,0,0,0,MERGED
+19465,Don’t fail fast on static builds and Docker builds.,Ferroin,2025-01-23T13:19:24Z,2025-01-23T19:21:28+00:00,1,6.03,True,2,2,2,26,2,0,2,MERGED
+19461,Active Directory Metrics (Windows.plugin),thiagoftsm,2025-01-23T03:28:55Z,2025-01-30T07:47:04+00:00,1,172.3,True,858,1,4,403,0,0,0,MERGED
+19459,Use aral in ACLK,stelfrag,2025-01-22T15:55:18Z,2025-01-22T21:50:56+00:00,1,5.93,True,31,39,1,94,0,0,0,MERGED
+19452,Enable libunwind in native packages and Docker images.,Ferroin,2025-01-21T15:26:54Z,2025-02-21T11:46:03+00:00,1,740.32,True,11,2,4,501,4,0,4,MERGED
+19451,Fix up handling of libunwind in CMake.,Ferroin,2025-01-21T14:24:12Z,2025-01-22T12:10:23+00:00,1,21.77,True,31,3,3,660,0,0,0,MERGED
+19450,Revert libunwind being enabled in Docker and DEB builds.,Ferroin,2025-01-21T12:56:48Z,2025-01-21T15:12:14+00:00,1,2.26,True,0,9,2,144,0,0,0,MERGED
+19449,fix rrdset name crash on rrdset obsoletion,ktsaou,2025-01-21T07:38:52Z,2025-03-11T15:55:21+00:00,2,1184.27,True,20,27,3,69,0,0,0,MERGED
+19448,Do not run queries synchronously in the event loop,stelfrag,2025-01-20T21:12:00Z,2025-01-20T23:31:04+00:00,1,2.32,True,89,17,1,306,0,0,0,MERGED
+19447,Cleanup metadata event loop,stelfrag,2025-01-20T19:31:59Z,2025-01-20T21:23:03+00:00,1,1.85,True,112,31,5,146,0,0,0,MERGED
+19446,Make sure ACLK synchronization event loop runs frequently,stelfrag,2025-01-20T16:17:59Z,2025-01-20T18:22:04+00:00,1,2.07,True,11,0,1,140,0,0,0,MERGED
+19445,Pulse stream-parents,ktsaou,2025-01-19T22:44:36Z,2025-01-22T18:31:35+00:00,1,67.78,True,1478,685,41,102,0,0,0,MERGED
+19443,Fix Child web remote access Config in Parent-Child Deployment Examples,Destructio,2025-01-19T15:05:46Z,2025-01-20T12:56:02+00:00,1,21.84,True,1,1,1,941,3,0,3,MERGED
+19438,build(deps): bump github.com/sijms/go-ora/v2 from 2.8.22 to 2.8.23 in /src/go,dependabot,2025-01-19T13:10:44Z,2025-01-19T14:11:49+00:00,1,1.02,True,3,3,2,2027,0,0,0,MERGED
+19427,Start using new GitHub hosted ARM runners for CI when appropriate.,Ferroin,2025-01-17T13:33:58Z,2025-02-03T16:26:12+00:00,1,410.87,True,229,76,9,673,4,0,4,MERGED
+19423,Add missing information in rule based membership document,juacker,2025-01-17T10:11:07Z,2025-01-21T08:37:33+00:00,2,94.44,True,19,3,1,78,8,0,8,MERGED
+19418,hostnames: convert to utf8 and santitize,ktsaou,2025-01-16T17:22:14Z,2025-01-16T19:59:27+00:00,1,2.62,True,199,21,10,222,1,0,1,MERGED
+19417,Enable libunwind in DEB native packages.,Ferroin,2025-01-16T15:32:31Z,2025-01-21T12:06:43+00:00,1,116.57,True,8,0,1,337,0,0,0,MERGED
+19415,OTEL plugin.,vkalintiris,2025-01-16T12:32:29Z,2025-01-21T20:54:54+00:00,2,128.37,False,2584,0,16,191,2,1,3,CLOSED
+19409,Enable libunwind in Docker images.,Ferroin,2025-01-15T17:54:29Z,2025-01-21T12:06:07+00:00,1,138.19,True,1,0,1,397,0,0,0,MERGED
+19389,Verify and cleanup deleted contexts,stelfrag,2025-01-13T09:36:44Z,2025-01-14T15:21:10+00:00,1,29.74,True,253,9,4,121,0,1,1,MERGED
+19388,build(deps): bump azure/trusted-signing-action from 0.5.0 to 0.5.1,dependabot,2025-01-13T04:15:41Z,2025-01-13T10:11:18+00:00,1,5.93,True,2,2,1,1892,1,0,1,MERGED
+19387,build(deps): bump actions/upload-artifact from 4.5.0 to 4.6.0,dependabot,2025-01-13T04:15:38Z,2025-01-13T08:43:20+00:00,1,4.46,True,9,9,3,2000,0,0,0,MERGED
+19371,Fix issues with $PATH and netdatacli detection.,Ferroin,2025-01-10T14:16:23Z,2025-01-13T15:04:20+00:00,3,72.8,True,20,2,1,281,1,1,2,MERGED
+19369,Fix up libsensors vendoring.,Ferroin,2025-01-10T13:45:39Z,2025-01-27T19:30:10+00:00,2,413.74,True,1,24,2,360,0,0,0,MERGED
+19356,Check cluster centers size in copy constructor of inlined kmeans,vkalintiris,2025-01-09T11:46:05Z,2025-01-14T14:18:49+00:00,1,122.55,True,6,8,1,132,0,0,0,MERGED
+19346,Query systemd for unit file paths on install/uninstall.,Ferroin,2025-01-08T13:26:27Z,2025-01-16T12:58:40+00:00,8,191.54,True,91,39,4,405,2,3,5,MERGED
+19334,annotate logs with stack trace when libunwind is available,ktsaou,2025-01-07T15:20:31Z,2025-01-08T21:32:56+00:00,1,30.21,True,96,2,7,164,0,1,1,MERGED
+19332,Abort on fatal and report system available bytes on allocation failures.,vkalintiris,2025-01-07T12:59:32Z,2025-01-08T09:15:01+00:00,1,20.26,True,51,9,5,132,0,0,0,MERGED
+19331,Add instructions for Docker Compose,enoch85,2025-01-07T12:43:35Z,2025-01-08T11:42:21+00:00,1,22.98,True,12,1,2,171,3,0,3,MERGED
+19330,build(deps): bump golang.org/x/net from 0.33.0 to 0.34.0 in /src/go,dependabot,2025-01-07T10:55:06Z,2025-01-07T12:39:30+00:00,1,1.74,True,12,12,2,1780,1,0,1,MERGED
+19322,build(deps): bump github.com/vmware/govmomi from 0.46.3 to 0.47.0 in /src/go,dependabot,2025-01-06T05:21:23Z,2025-01-06T08:09:54+00:00,1,2.81,True,3,3,2,3939,0,0,0,MERGED
+19316,CGROUP labels,ktsaou,2025-01-04T12:58:49Z,2025-01-07T10:45:18+00:00,1,69.77,True,60,15,2,97,0,0,0,MERGED
+19293,fix(netdata-updater.sh): use explicit paths for temp dir creation,ilyam8,2024-12-28T17:55:37Z,2025-01-06T12:41:21+00:00,2,210.76,True,23,22,1,783,0,1,1,MERGED
+19289,fix(netdata-updater.sh): ensure tmpdir-path argument is always passed,ilyam8,2024-12-27T15:02:49Z,2024-12-27T18:08:33+00:00,1,3.1,True,7,5,1,291,0,0,0,MERGED
+19288,fix(netdata-updater.sh): remove commit_check_file directory,ilyam8,2024-12-27T11:48:32Z,2024-12-27T14:01:25+00:00,1,2.21,True,4,0,1,87,0,0,0,MERGED
+19279,docs: improve on-prem troubleshooting readability,ilyam8,2024-12-23T18:23:32Z,2024-12-24T07:12:12+00:00,2,12.81,True,61,25,1,368,0,3,3,MERGED
+19272,build(deps): bump actions/upload-artifact from 4.4.2 to 4.5.0,dependabot,2024-12-23T04:53:13Z,2024-12-23T09:01:09+00:00,1,4.13,True,9,9,3,2631,0,0,0,MERGED
+19271,build(deps): bump github.com/jackc/pgx/v5 from 5.7.1 to 5.7.2 in /src/go,dependabot,2024-12-23T04:12:13Z,2024-12-23T08:53:40+00:00,1,4.69,True,3,3,2,2633,0,0,0,MERGED
+19270,build(deps): bump github.com/axiomhq/hyperloglog from 0.2.0 to 0.2.2 in /src/go,dependabot,2024-12-23T04:12:04Z,2024-12-23T08:49:35+00:00,1,4.63,True,6,3,2,2315,0,0,0,MERGED
+19269,build(deps): bump golang.org/x/net from 0.32.0 to 0.33.0 in /src/go,dependabot,2024-12-23T04:12:01Z,2024-12-23T08:55:38+00:00,1,4.73,True,3,3,2,1998,0,0,0,MERGED
+19268,build(deps): bump github.com/docker/docker from 27.4.0+incompatible to 27.4.1+incompatible in /src/go,dependabot,2024-12-23T04:12:00Z,2024-12-23T08:54:23+00:00,1,4.71,True,3,3,2,3997,0,0,0,MERGED
+19261,HELP and TYPE in prometheus fix,ktsaou,2024-12-20T20:57:10Z,2024-12-21T12:50:34+00:00,1,15.89,True,67,24,2,86,1,0,1,MERGED
+19255,Update node-membership-rules.md,sashwathn,2024-12-20T10:01:51Z,2024-12-20T14:25:49+00:00,2,4.4,False,1,1,1,87,2,1,3,CLOSED
+19248,Add option to updater to report status of auto-updates on the system.,Ferroin,2024-12-19T12:46:16Z,2025-01-08T11:37:57+00:00,4,478.86,True,157,0,4,1420,0,2,2,MERGED
+19247,chore(aclk/mqtt): remove client_id len check,ilyam8,2024-12-18T14:01:14Z,2024-12-18T16:56:37+00:00,1,2.92,True,0,6,1,87,0,0,0,MERGED
+19243,Modify eBPF.plugin integration (Part II),thiagoftsm,2024-12-18T05:04:07Z,2025-02-04T12:43:03+00:00,1,1159.65,False,609,127,5,104,1,1,2,CLOSED
+19241,Do not call finalize on shutdown,stelfrag,2024-12-17T17:03:31Z,2024-12-17T21:47:20+00:00,1,4.73,True,23,20,2,165,0,0,0,MERGED
+19219,Modify eBPF.plugin integration (Part I),thiagoftsm,2024-12-16T03:52:57Z,2025-01-31T09:26:41+00:00,1,1109.56,True,292,225,18,676,0,0,0,MERGED
+19211,build(deps): bump github.com/vmware/govmomi from 0.46.2 to 0.46.3 in /src/go,dependabot,2024-12-14T21:01:18Z,2024-12-15T13:45:20+00:00,1,16.73,False,3,3,2,3292,1,0,1,CLOSED
+19203,Add CLR Remoting metadata,thiagoftsm,2024-12-14T01:50:18Z,2025-01-31T13:52:15+00:00,1,1164.03,True,84,0,1,184,0,0,0,MERGED
+19199,Add dynamic rooms docs,kapantzak,2024-12-13T15:09:55Z,2024-12-16T10:41:13+00:00,3,67.52,True,69,0,1,30,0,1,1,MERGED
+19194,Remove July arrays,stelfrag,2024-12-12T14:09:02Z,2024-12-12T19:33:09+00:00,1,5.4,True,0,580,10,34,0,0,0,MERGED
+19188,Network Metadata (Windows plugin),thiagoftsm,2024-12-12T00:09:44Z,2024-12-12T10:32:18+00:00,1,10.38,True,324,0,1,161,0,0,0,MERGED
+19182,Disks Metadata (Windows plugin),thiagoftsm,2024-12-11T01:10:47Z,2024-12-11T10:22:58+00:00,1,9.2,True,188,5,1,111,0,0,0,MERGED
+19181,Bump repository config fetched by kickstart to latest version,ilyam8,2024-12-10T19:25:42Z,2024-12-10T20:46:58+00:00,1,1.35,True,2,2,1,87,0,0,0,MERGED
+19175,Add Objects metadata (Windows Plugin),thiagoftsm,2024-12-09T23:17:24Z,2024-12-10T08:45:01+00:00,2,9.46,True,88,2,1,183,0,0,0,MERGED
+19174,Fixup URLs in package repo documentation to use index files.,Ferroin,2024-12-09T19:23:16Z,2024-12-11T06:43:58+00:00,1,35.34,True,7,6,1,127,0,0,0,MERGED
+19168,Streaming improvements No 3,ktsaou,2024-12-09T14:16:48Z,2024-12-11T16:02:17+00:00,1,49.76,True,1792,1132,90,1257,0,1,1,MERGED
+19163,Update cloud virtual host name,stelfrag,2024-12-09T10:32:56Z,2024-12-09T15:44:39+00:00,1,5.2,True,4,1,1,56,1,0,1,MERGED
+19162,docs: leftover links + changes on api-tokens.md,Ancairon,2024-12-09T10:31:38Z,2024-12-09T11:37:21+00:00,2,1.1,True,21,16,2,87,0,0,0,MERGED
+19160,docs: edit Authentication and Authorization section,Ancairon,2024-12-09T08:42:55Z,2024-12-09T10:23:51+00:00,1,1.68,True,155,168,3,41,1,0,1,MERGED
+19159,Remove Option from Installer (Windows),thiagoftsm,2024-12-09T02:05:55Z,2024-12-09T14:52:38+00:00,1,12.78,True,1,1,1,359,0,0,0,MERGED
+19158,NET Framework metadata (Windows.plugin Part 1),thiagoftsm,2024-12-08T23:46:39Z,2024-12-09T09:40:50+00:00,1,9.9,True,182,0,1,182,0,0,0,MERGED
+19147,MSSQL Metadatas (windows.plugin),thiagoftsm,2024-12-06T23:27:29Z,2024-12-07T15:21:17+00:00,1,15.9,True,265,0,1,206,0,0,0,MERGED
+19132,Modify Claim Screen (Windows Installer),thiagoftsm,2024-12-05T16:32:24Z,2024-12-06T14:50:54+00:00,3,22.31,True,19,16,1,1050,0,1,1,MERGED
+19124,Avoid scanning charts for replication status,stelfrag,2024-12-04T07:54:07Z,2024-12-04T21:47:14+00:00,1,13.89,True,1,15,1,216,0,0,0,MERGED
+19122,Address installer minor issues (Windows),thiagoftsm,2024-12-04T02:46:49Z,2024-12-04T11:10:09+00:00,1,8.39,True,41,43,3,717,0,0,0,MERGED
+19121,Move eBPF code from linetdata to src/collector,thiagoftsm,2024-12-03T18:37:58Z,2024-12-03T23:11:08+00:00,1,4.55,True,10,15,8,304,0,0,0,MERGED
+19118,Disable mimalloc by default / enable explicitly if needed,stelfrag,2024-12-02T19:42:07Z,2024-12-02T23:00:39+00:00,1,3.31,True,21,2,1,58,0,0,0,MERGED
+19117,Reduce EBPF memory usage,stelfrag,2024-12-02T17:39:28Z,2024-12-04T18:09:21+00:00,1,48.5,True,72,14,3,92,0,0,0,MERGED
+19116,Fix undefined behaviour.,vkalintiris,2024-12-02T14:44:11Z,2024-12-02T18:40:19+00:00,1,3.94,True,5,9,1,34,0,0,0,MERGED
+19109,feat(proc.plugin): add Reboot Required collector,ilyam8,2024-11-29T19:25:43Z,2024-11-30T11:57:18+00:00,1,16.53,True,89,0,6,105,0,0,0,MERGED
+19104,Docs edits on Cloud versions and On Prem,Ancairon,2024-11-29T08:50:52Z,2024-11-29T14:05:18+00:00,1,5.24,True,140,243,4,48,0,1,1,MERGED
+19100,Update connecting documentation,Ancairon,2024-11-28T09:26:05Z,2024-11-28T12:01:43+00:00,1,2.59,True,49,81,2,88,0,0,0,MERGED
+19095,Update Registry docs,Ancairon,2024-11-27T08:10:41Z,2024-11-27T14:27:02+00:00,1,6.27,True,157,200,10,254,0,0,0,MERGED
+19091,Daemon docs edits,Ancairon,2024-11-26T10:55:27Z,2024-11-27T19:39:38+00:00,1,32.74,True,176,454,3,102,4,0,4,MERGED
+19089,"remove stale docs, and update links and optimization documentation",Ancairon,2024-11-26T09:23:04Z,2024-11-27T12:14:15+00:00,4,26.85,True,54,470,5,239,2,1,3,MERGED
+19080,Use mimalloc,vkalintiris,2024-11-25T14:25:38Z,2024-11-27T17:53:04+00:00,2,51.46,True,56,16,3,56,0,1,1,MERGED
+19077,Split database overview and configuration reference,Ancairon,2024-11-25T12:37:22Z,2024-11-25T14:35:53+00:00,1,1.98,True,181,170,14,115,0,0,0,MERGED
+19072,Collector configuration page edits,Ancairon,2024-11-25T07:29:52Z,2024-11-25T09:17:23+00:00,2,1.79,True,84,150,6,370,0,1,1,MERGED
+19071,Create a terminology dictionary for Netdata,Ancairon,2024-11-25T06:55:58Z,2024-11-25T08:33:42+00:00,1,1.63,True,34,0,1,114,4,0,4,MERGED
+19070,build(deps): bump github.com/prometheus-community/pro-bing from 0.4.2-0.20241106090159-5a5f1d731cf5 to 0.5.0 in /src/go,dependabot,2024-11-25T04:29:54Z,2024-11-25T08:11:25+00:00,1,3.69,True,3,3,2,3588,0,0,0,MERGED
+19069,build(deps): bump github.com/stretchr/testify from 1.9.0 to 1.10.0 in /src/go,dependabot,2024-11-25T04:29:42Z,2024-11-25T08:14:08+00:00,2,3.74,True,3,3,2,5536,0,0,0,MERGED
+19063,Register service to delay start,stelfrag,2024-11-22T12:10:27Z,2024-11-22T15:09:47+00:00,1,2.99,True,6,0,1,317,0,0,0,MERGED
+19060,claim -> connect in docs,Ancairon,2024-11-22T09:44:50Z,2024-11-22T19:25:31+00:00,2,9.68,True,22,26,14,305,0,4,4,MERGED
+19053,Securing Agents section docs cleanup,Ancairon,2024-11-21T09:31:12Z,2024-11-21T14:54:56+00:00,2,5.4,True,169,200,2,330,0,0,0,MERGED
+19049,Update documentation about our native package repos.,Ferroin,2024-11-20T15:41:47Z,2024-11-21T12:00:35+00:00,2,20.31,True,30,24,1,160,1,2,3,MERGED
+19044,"Capitalize the word ""Agent""",Ancairon,2024-11-20T09:29:07Z,2024-11-20T13:27:03+00:00,5,3.97,True,250,257,90,163,0,2,2,MERGED
+19042,Add a special version number to bypass alert snapshots,stelfrag,2024-11-19T20:40:13Z,2024-11-19T21:54:55+00:00,3,1.25,True,10,0,1,143,0,1,1,MERGED
+19041,Add Custom Actions (Installer),thiagoftsm,2024-11-19T17:51:58Z,2024-11-19T21:46:39+00:00,1,3.91,True,10,0,1,258,2,0,2,MERGED
+19035,Fix MSSQL algorithm (Windows.plugin),thiagoftsm,2024-11-19T03:13:53Z,2024-11-20T22:33:54+00:00,1,43.33,True,259,205,1,333,0,0,0,MERGED
+19033,add `shutdown` keyword to ensure graceful service termination on FreeBSD,ilyam8,2024-11-18T15:14:41Z,2024-11-18T16:21:28+00:00,1,1.11,True,1,0,1,87,0,0,0,MERGED
+19031,build(deps): bump github.com/gorcon/rcon from 1.3.5 to 1.4.0 in /src/go,dependabot,2024-11-18T04:53:22Z,2024-11-18T08:10:50+00:00,1,3.29,True,3,3,2,2700,0,0,0,MERGED
+19030,build(deps): bump github.com/vmware/govmomi from 0.46.0 to 0.46.1 in /src/go,dependabot,2024-11-15T20:45:52Z,2024-11-15T22:19:16+00:00,1,1.56,True,3,3,2,2162,0,0,0,MERGED
+19015,Remove MSI test,thiagoftsm,2024-11-14T13:22:38Z,2024-11-14T14:38:13+00:00,1,1.26,True,1,1,1,87,0,0,0,MERGED
+19008,Add NetFramework Metrics (part II),thiagoftsm,2024-11-14T02:31:19Z,2025-01-31T09:17:47+00:00,1,1878.77,True,738,4,2,266,2,0,2,MERGED
+19005,Set expires header when serving files,stelfrag,2024-11-13T07:59:33Z,2024-11-13T18:53:58+00:00,1,10.91,True,2,1,1,49,0,0,0,MERGED
+18991,Do not intentionally abort on non-0 exit code.,vkalintiris,2024-11-11T22:05:24Z,2024-11-12T07:43:22+00:00,1,9.63,True,3,8,1,129,0,0,0,MERGED
+18983,Improve Installer (Part II),thiagoftsm,2024-11-10T02:20:24Z,2024-11-12T21:23:05+00:00,8,67.04,True,40,37,1,541,0,4,4,MERGED
+18960,Adjust max possible extent size,stelfrag,2024-11-07T09:09:36Z,2024-11-07T10:52:14+00:00,1,1.71,True,7,4,2,45,0,0,0,MERGED
+18950,Organize for configuration and resource utilization section,Ancairon,2024-11-06T10:59:25Z,2024-11-25T06:50:49+00:00,1,451.86,False,293,595,17,1423,1,0,1,CLOSED
+18945,Balance streaming parents,ktsaou,2024-11-05T19:44:26Z,2024-12-05T16:17:36+00:00,2,716.55,True,21049,14613,281,3007,4,1,5,MERGED
+18934,Hyper collector fixes,stelfrag,2024-11-04T13:51:30Z,2024-11-05T18:02:33+00:00,4,28.18,True,399,94,2,554,0,5,5,MERGED
+18933,Update README.md,PrometheusWannaB3,2024-11-04T11:36:47Z,2024-11-05T19:14:24+00:00,1,31.63,False,1,1,1,332,2,0,2,CLOSED
+18928,Update Windows Documentation,thiagoftsm,2024-11-01T16:51:47Z,2024-11-07T21:34:59+00:00,3,148.72,True,48,63,4,161,4,1,5,MERGED
+18927,Improve the documentation on removing stale nodes,ralphm,2024-11-01T14:20:47Z,2024-11-04T09:24:58+00:00,2,67.07,True,9,1,1,201,2,1,3,MERGED
+18923,Docs: small fixes and pass on sizing Agents,Ancairon,2024-11-01T10:22:20Z,2024-11-01T11:45:31+00:00,2,1.39,True,46,59,3,407,0,0,0,MERGED
+18921,Update Libbpf,thiagoftsm,2024-11-01T00:40:33Z,2024-11-01T16:53:56+00:00,1,16.22,True,20,7,5,342,0,0,0,MERGED
+18913,Fix potential wait forever in mqtt loop,stelfrag,2024-10-31T13:52:41Z,2024-10-31T17:00:29+00:00,1,3.13,True,2,0,1,48,0,0,0,MERGED
+18912,add `dagster` to apps_groups.conf,andrewm4894,2024-10-31T11:29:35Z,2024-11-01T11:44:40+00:00,2,24.25,True,2,0,1,235,3,1,4,MERGED
+18911,Installation section simplification,Ancairon,2024-10-31T11:10:47Z,2024-11-04T09:18:34+00:00,9,94.13,True,91,363,15,314,1,4,5,MERGED
+18905,Fix a potential invalid double free memory,stelfrag,2024-10-31T07:46:51Z,2024-10-31T17:29:30+00:00,1,9.71,True,5,3,1,100,0,0,0,MERGED
+18903,MSI Improvements,thiagoftsm,2024-10-30T20:11:09Z,2024-11-07T17:58:25+00:00,5,189.79,True,1002,805,9,1024,1,3,4,MERGED
+18898,Updating Netdata docs,Ancairon,2024-10-30T12:45:46Z,2024-10-30T19:57:50+00:00,1,7.2,True,39,136,2,87,2,1,3,MERGED
+18896,Coverity fixes,stelfrag,2024-10-30T10:52:23Z,2024-10-30T13:52:49+00:00,1,3.01,True,16,10,7,51,0,0,0,MERGED
+18892,Fix coverity issues,stelfrag,2024-10-29T17:14:47Z,2024-10-29T22:42:57+00:00,1,5.47,True,8,8,4,57,0,0,0,MERGED
+18889,remove python.d/spigotmc,ilyam8,2024-10-29T09:27:04Z,2024-10-29T12:59:56+00:00,2,3.55,True,1,755,9,87,0,0,0,MERGED
+18886,Regenerate integrations.js,netdatabot,2024-10-28T16:11:29Z,2024-10-28T17:13:49+00:00,1,1.04,True,6,5,3,159,0,0,0,MERGED
+18883,build(deps): bump azure/trusted-signing-action from 0.4.0 to 0.5.0,dependabot,2024-10-28T04:18:53Z,2024-10-28T06:57:14+00:00,1,2.64,True,2,2,1,2306,0,0,0,MERGED
+18870,Adjust text_sanitizer to accept the default value,stelfrag,2024-10-25T10:56:28Z,2024-10-27T17:19:44+00:00,2,54.39,True,1,1,1,77,0,0,0,MERGED
+18865,Fix corruption in expression value replacement,stelfrag,2024-10-24T20:41:47Z,2024-10-25T14:20:00+00:00,1,17.64,True,1,1,1,66,0,0,0,MERGED
+18863,Prevent memory corruption during ACLK OTP decode,stelfrag,2024-10-24T16:23:01Z,2024-10-24T19:28:44+00:00,1,3.1,True,1,1,1,66,0,0,0,MERGED
+18861,Do not build H2O by default.,vkalintiris,2024-10-24T13:57:08Z,2024-10-24T15:06:56+00:00,1,1.16,True,1,1,1,77,0,0,0,MERGED
+18842,Silence up-to-date installation targets.,vkalintiris,2024-10-22T09:02:34Z,2024-10-22T10:27:58+00:00,1,1.42,True,2,0,1,81,0,0,0,MERGED
+18836,Update enterprise SSO docs,car12o,2024-10-21T10:59:57Z,2024-10-21T14:17:43+00:00,2,3.3,True,13,3,1,207,1,2,3,MERGED
+18829,Add the Windows event logs integration to the meta,Ancairon,2024-10-21T07:46:30Z,2024-10-21T09:23:42+00:00,5,1.62,True,38,1,2,106,0,3,3,MERGED
+18828,build(deps): bump github.com/redis/go-redis/v9 from 9.6.2 to 9.7.0 in /src/go,dependabot,2024-10-21T04:23:06Z,2024-10-21T07:51:52+00:00,1,3.48,True,3,3,2,3580,0,0,0,MERGED
+18824,More windows metrics,ktsaou,2024-10-19T14:53:12Z,2024-10-19T18:56:01+00:00,1,4.05,True,745,168,13,127,0,1,1,MERGED
+18814,Comment out dictionary with hashtable code for now,stelfrag,2024-10-18T10:56:20Z,2024-10-18T18:33:23+00:00,1,7.62,True,127,121,3,110,0,0,0,MERGED
+18803,Calculate currently collected metrics,stelfrag,2024-10-17T09:50:28Z,2024-10-18T05:48:33+00:00,1,19.97,True,52,1,4,1378,0,0,0,MERGED
+18791,Ιmplementation to add logs integrations,Ancairon,2024-10-16T08:16:25Z,2024-10-16T11:37:25+00:00,3,3.35,True,338,14,7,376,2,2,4,MERGED
+18790,Do not load/save context data in RAM mode,stelfrag,2024-10-15T16:31:02Z,2024-10-23T08:31:10+00:00,1,184.0,True,13,2,1,808,0,0,0,MERGED
+18788,Fix atomic builtins test that currently fails for llvm+compiler_rt when gcc is not present,StormBytePP,2024-10-15T13:59:20Z,2024-10-16T15:30:56+00:00,1,25.53,True,2,1,1,450,3,0,3,MERGED
+18787,Add basis for MSI installer.,vkalintiris,2024-10-15T13:42:11Z,2024-10-30T13:58:35+00:00,9,360.27,True,866,4,9,848,1,11,12,MERGED
+18784,Document ML enabled `auto`,stelfrag,2024-10-15T07:03:51Z,2024-10-15T10:56:14+00:00,5,3.87,True,4,4,1,228,0,3,3,MERGED
+18783,Bump github.com/redis/go-redis/v9 from 9.6.1 to 9.6.2 in /src/go,dependabot,2024-10-15T06:53:51Z,2024-10-15T11:06:26+00:00,1,4.21,True,3,3,2,1884,0,0,0,MERGED
+18772,Sqlite upgrade to version 3.46.1,stelfrag,2024-10-14T10:47:25Z,2024-10-15T06:46:40+00:00,1,19.99,True,5266,3471,3,68,0,0,0,MERGED
+18765,IIS Metadata,thiagoftsm,2024-10-11T23:30:38Z,2024-11-14T18:40:30+00:00,7,811.16,True,150,2,2,244,0,5,5,MERGED
+18763,Adjust option (Windows claim),thiagoftsm,2024-10-11T19:56:31Z,2024-10-11T22:39:45+00:00,1,2.72,True,1,1,1,119,0,0,0,MERGED
+18762,NetFramework (Part I),thiagoftsm,2024-10-11T19:42:09Z,2024-10-14T12:11:18+00:00,4,64.49,True,916,13,4,238,0,2,2,MERGED
+18761,Expand ml enabled option,stelfrag,2024-10-11T18:52:59Z,2024-10-15T06:58:30+00:00,1,84.09,True,8,8,3,602,0,0,0,MERGED
+18760,Fix storing of repeat field,stelfrag,2024-10-11T17:59:28Z,2024-10-14T15:22:23+00:00,1,69.38,True,12,6,1,80,0,0,0,MERGED
+18754, Remove the overview section from cloud notif. integrations,Ancairon,2024-10-11T11:09:12Z,2024-10-14T08:23:51+00:00,2,69.24,True,338,153,7,550,0,0,0,MERGED
+18745,Fix issues with Cloud Notification Integrations metadata,Ancairon,2024-10-10T09:25:45Z,2024-10-10T13:02:03+00:00,2,3.6,True,885,956,15,323,1,1,2,MERGED
+18737,Remove CR (windows.plugin),thiagoftsm,2024-10-10T00:20:46Z,2024-10-10T18:06:09+00:00,1,17.76,True,576,576,1,316,0,0,0,MERGED
+18736,Add `ilert` cloud notification integration,car12o,2024-10-09T16:46:51Z,2024-10-10T06:42:00+00:00,3,13.92,True,52,0,1,49,0,1,1,MERGED
+18733,Windows deploy metadata,Ancairon,2024-10-09T07:34:39Z,2024-10-10T05:24:51+00:00,21,21.84,True,53,22,3,464,9,5,14,MERGED
+18732,[storcli] Support for controller ROC temperature.,eatnumber1,2024-10-09T05:02:12Z,2024-10-09T09:05:36+00:00,1,4.06,True,34,1,4,344,5,0,5,MERGED
+18720,Regenerate integrations.js,netdatabot,2024-10-08T12:58:17Z,2024-10-10T09:13:33+00:00,3,44.25,True,746,80,9,159,0,1,1,MERGED
+18719,static install: bump openssl and curl to latest stable versions,ilyam8,2024-10-08T12:29:04Z,2024-10-09T11:15:46+00:00,1,22.78,True,2,2,1,87,0,0,0,MERGED
+18712,Delay child disconnect update,stelfrag,2024-10-08T06:14:46Z,2024-10-09T21:18:54+00:00,2,39.07,True,89,17,9,408,2,0,2,MERGED
+18711,Windows installer (Change descriptions add helping),thiagoftsm,2024-10-08T04:43:49Z,2024-10-08T20:36:50+00:00,2,15.88,True,20,8,1,205,3,3,6,MERGED
+18710,add instructions to configure SCIM integration in Okta,juacker,2024-10-07T16:49:50Z,2024-10-08T07:57:45+00:00,3,15.13,True,27,11,1,87,0,0,0,MERGED
+18703,Update windows documentation,Ancairon,2024-10-07T08:05:59Z,2024-10-07T11:45:38+00:00,8,3.66,True,21,7,1,157,0,5,5,MERGED
+18702,Detect when swap is disabled when agent is running,stelfrag,2024-10-07T06:50:56Z,2024-10-07T14:23:54+00:00,2,7.55,True,24,4,3,308,1,0,1,MERGED
+18701,Bump golang.org/x/net from 0.29.0 to 0.30.0 in /src/go,dependabot,2024-10-07T04:37:40Z,2024-10-07T05:43:06+00:00,1,1.09,True,15,15,2,1867,0,0,0,MERGED
+18699,Load chart labels on demand,stelfrag,2024-10-06T20:00:17Z,2024-10-15T07:06:34+00:00,1,203.1,True,37,26,3,308,0,0,0,MERGED
+18697,Add hyper-v metrics,stelfrag,2024-10-06T18:09:49Z,2024-11-04T11:55:51+00:00,9,689.77,True,1540,2,6,1099,1,5,6,MERGED
+18691,fix(cgroups.plugin): handle containers no env vars,daniel-sampliner,2024-10-05T20:09:32Z,2024-10-06T12:31:56+00:00,1,16.37,True,1,1,1,1347,2,0,2,MERGED
+18689,MSSQL Metrics (Part II).,thiagoftsm,2024-10-05T01:23:20Z,2024-10-09T15:16:39+00:00,5,109.89,True,754,26,2,326,0,2,2,MERGED
+18686,Regenerate integrations.js,netdatabot,2024-10-04T13:04:33Z,2024-10-04T14:38:28+00:00,1,1.57,True,9,4,3,159,0,0,0,MERGED
+18676,Docs fixes,Ancairon,2024-10-04T07:34:41Z,2024-10-04T09:23:00+00:00,4,1.81,True,419,1039,164,212,0,1,1,MERGED
+18670,src dir docs pass,Ancairon,2024-10-03T11:37:51Z,2024-10-03T12:38:07+00:00,1,1.0,True,733,865,28,138,0,0,0,MERGED
+18668,Properly set start/shutdown times to parent/child,stelfrag,2024-10-03T10:03:10Z,2024-10-03T15:12:06+00:00,1,5.15,True,4,0,1,314,0,0,0,MERGED
+18664,Add FAQ to SCIM integration doc,juacker,2024-10-03T08:05:21Z,2024-10-03T12:34:34+00:00,2,4.49,True,14,0,1,49,0,1,1,MERGED
+18661,Embed CPU architecture info in Windows installer filename.,Ferroin,2024-10-02T14:31:49Z,2024-10-04T10:54:58+00:00,1,44.39,True,4,4,3,364,0,0,0,MERGED
+18660,Docs directory lint documentation and fix issues,Ancairon,2024-10-02T10:16:23Z,2024-10-03T09:05:08+00:00,1,22.81,True,669,876,67,202,1,0,1,MERGED
+18656,Adjust content api/v1/info (Windows),thiagoftsm,2024-10-02T04:02:24Z,2024-10-03T14:23:42+00:00,1,34.35,True,34,19,3,496,1,0,1,MERGED
+18654,add go.d/oracle,ilyam8,2024-10-01T15:06:51Z,2024-10-03T12:14:07+00:00,1,45.12,True,1633,3,25,87,0,0,0,MERGED
+18653,Handle mqtt ping timeouts,stelfrag,2024-10-01T14:35:52Z,2024-10-02T15:32:06+00:00,1,24.94,True,52,22,7,135,0,0,0,MERGED
+18652,apps.plugin improvements,ktsaou,2024-10-01T14:24:21Z,2024-10-02T15:12:41+00:00,2,24.81,True,802,300,18,683,0,10,10,MERGED
+18651,remove python implementation of oracledb,Ancairon,2024-10-01T10:41:48Z,2024-10-03T09:39:09+00:00,1,46.96,True,1,1507,7,34,0,0,0,MERGED
+18649,Improve windows installer,thiagoftsm,2024-10-01T03:09:13Z,2024-10-09T07:38:15+00:00,6,196.48,True,73,72,5,558,5,2,7,MERGED
+18647,Regenerate integrations.js,netdatabot,2024-09-30T13:15:25Z,2024-09-30T14:52:31+00:00,1,1.62,True,306,77,5,159,0,0,0,MERGED
+18646,Use temporary file for commit date check.,Ferroin,2024-09-30T12:58:55Z,2024-10-01T10:50:44+00:00,2,21.86,True,7,3,1,354,0,0,0,MERGED
+18643,Reorganize top-level headers in libnetdata.,vkalintiris,2024-09-30T10:20:49Z,2024-10-23T03:19:49+00:00,1,544.98,True,33,32,23,235,0,0,0,MERGED
+18639,New wording about edit-config script in docs,Ancairon,2024-09-30T06:36:11Z,2024-10-02T09:43:40+00:00,1,51.12,True,22,20,10,133,0,0,0,MERGED
+18638,Update file names.,vkalintiris,2024-09-30T05:39:02Z,2024-09-30T12:48:09+00:00,1,7.15,True,17,17,11,131,0,0,0,MERGED
+18637,Move plugins.d directory outside of collectors,vkalintiris,2024-09-30T05:16:16Z,2024-09-30T13:14:26+00:00,1,7.97,True,44,44,37,116,1,0,1,MERGED
+18636,Bump github.com/Wing924/ltsv from 0.3.1 to 0.4.0 in /src/go,dependabot,2024-09-30T04:24:11Z,2024-11-08T09:24:20+00:00,1,941.0,True,3,8,2,1815,0,0,0,MERGED
+18632,Log  agent start / stop timing events,stelfrag,2024-09-27T19:46:34Z,2024-10-01T11:13:16+00:00,4,87.44,True,85,1,5,557,5,1,6,MERGED
+18626,Remove Python OpenLDAP implementation,Ancairon,2024-09-27T08:46:10Z,2024-09-30T11:41:19+00:00,5,74.92,True,1,769,7,50,0,0,0,MERGED
+18625,Port the OpenLDAP collector from Python to Go,Ancairon,2024-09-27T08:41:59Z,2024-09-30T14:40:20+00:00,1,77.97,True,1283,1,18,2350,0,0,0,MERGED
+18623,Change default pages per extent,stelfrag,2024-09-26T21:38:53Z,2024-09-29T17:42:05+00:00,1,68.05,True,1,1,1,543,0,0,0,MERGED
+18622,Misc mqtt related code cleanup,stelfrag,2024-09-26T21:04:05Z,2024-09-29T17:42:17+00:00,7,68.64,True,546,1016,20,205,1,4,5,MERGED
+18613,Windows Installer (Silent mode),thiagoftsm,2024-09-24T15:11:07Z,2024-10-01T18:24:01+00:00,2,171.22,True,174,128,3,370,5,14,19,MERGED
+18608,feat: HW req for onprem installation.,M4itee,2024-09-24T11:25:54Z,2024-09-25T08:49:48+00:00,5,21.4,True,12,0,1,160,1,3,4,MERGED
+18600,Bump github.com/docker/docker from 27.3.0+incompatible to 27.3.1+incompatible in /src/go,dependabot,2024-09-23T04:28:35Z,2024-09-23T08:33:12+00:00,1,4.08,True,3,3,2,2018,0,0,0,MERGED
+18599,Windows Plugin metadata,thiagoftsm,2024-09-22T23:59:50Z,2024-10-08T12:54:22+00:00,10,372.91,True,276,92,2,163,5,28,33,MERGED
+18594,apps.plugin for windows,ktsaou,2024-09-22T11:30:55Z,2024-09-30T14:30:32+00:00,3,194.99,True,9836,8214,55,1648,1,7,8,MERGED
+18591,Add MSSQL metrics (Part I).,thiagoftsm,2024-09-21T04:36:19Z,2024-10-04T21:42:33+00:00,3,329.1,True,801,1,4,356,1,1,2,MERGED
+18590,Add DLLs to CmakeLists.txt,thiagoftsm,2024-09-21T01:13:01Z,2024-09-23T12:07:33+00:00,1,58.91,True,4,0,1,419,0,0,0,MERGED
+18587,Update kickstart.sh,eya46,2024-09-20T05:40:06Z,2024-09-20T16:46:17+00:00,1,11.1,True,1,1,1,149,1,0,1,MERGED
+18584,Remove python ceph collector implementation,Ancairon,2024-09-19T10:50:58Z,2024-09-27T11:12:54+00:00,1,192.37,True,1,904,7,25,1,0,1,MERGED
+18583,Add ceph commands to ndsudo,Ancairon,2024-09-19T10:48:01Z,2024-09-24T10:34:55+00:00,1,119.78,True,36,0,1,25,2,0,2,MERGED
+18582,Port Ceph collector to Go,Ancairon,2024-09-19T06:59:02Z,2024-09-27T11:13:29+00:00,1,196.24,True,5612,2,24,1899,0,0,0,MERGED
+18568,Reduce connection timeout and fallback to IPV4 for ACLK connections,stelfrag,2024-09-17T14:47:15Z,2024-09-18T14:31:10+00:00,1,23.73,True,62,28,9,313,1,0,1,MERGED
+18566,windows.plugin (IIS),thiagoftsm,2024-09-17T06:29:39Z,2024-10-03T12:04:20+00:00,1,389.58,True,595,0,4,416,0,0,0,MERGED
+18565,Add check for 64bit builtin atomics,kraj,2024-09-17T05:46:55Z,2024-10-08T12:07:42+00:00,4,510.35,True,11,0,1,434,3,1,4,MERGED
+18562,add cpu model to host labels,ilyam8,2024-09-16T11:35:54Z,2024-09-16T14:57:34+00:00,1,3.36,True,10,2,2,116,0,0,0,MERGED
+18549,Bump k8s.io/client-go from 0.31.0 to 0.31.1 in /src/go,dependabot,2024-09-13T13:49:13Z,2024-09-13T15:14:16+00:00,1,1.42,True,9,9,2,1571,0,0,0,MERGED
+18540,Misc code cleanup,stelfrag,2024-09-13T05:49:04Z,2024-09-16T05:45:41+00:00,1,71.94,True,2,33,10,39,0,0,0,MERGED
+18539,Disk metrics (Windows Plugin),thiagoftsm,2024-09-13T04:04:44Z,2024-09-17T13:05:38+00:00,8,105.02,False,814,126,13,401,2,6,8,CLOSED
+18536,Fetch metadata by hash for DEB repos.,Ferroin,2024-09-12T13:44:28Z,2024-09-16T10:58:46+00:00,1,93.24,True,12,4,4,993,0,0,0,MERGED
+18526,Add charts for TCPv4/TCPV6/ICMP errors in windows,stelfrag,2024-09-11T10:34:07Z,2024-09-16T12:20:13+00:00,4,121.77,True,292,30,2,183,2,1,3,MERGED
+18501,Assorted build cleanup for external data collection plugins.,Ferroin,2024-09-09T15:35:16Z,2024-09-16T11:25:06+00:00,1,163.83,True,131,88,6,1198,4,0,4,MERGED
+18498,Bump github.com/jackc/pgx/v5 from 5.6.0 to 5.7.0 in /src/go,dependabot,2024-09-09T04:42:05Z,2024-09-09T06:45:59+00:00,1,2.06,True,6,6,2,2996,0,0,0,MERGED
+18497,Bump github.com/prometheus/common from 0.58.0 to 0.59.1 in /src/go,dependabot,2024-09-09T04:41:55Z,2024-09-09T06:46:40+00:00,1,2.08,True,3,3,2,2332,0,0,0,MERGED
+18496,Bump golang.org/x/net from 0.28.0 to 0.29.0 in /src/go,dependabot,2024-09-09T04:41:41Z,2024-09-09T07:44:30+00:00,1,3.05,True,12,12,2,1654,0,0,0,MERGED
+18495,Bump peter-evans/create-pull-request from 6 to 7,dependabot,2024-09-09T04:40:09Z,2024-09-09T07:44:57+00:00,1,3.08,True,2,2,2,6305,0,0,0,MERGED
+18494,Windows Plugin Metrics (Thermal and Memory),thiagoftsm,2024-09-09T04:09:29Z,2024-09-12T17:44:17+00:00,20,85.58,True,277,11,6,609,6,7,13,MERGED
+18491,varnish collector Go implementation,Ancairon,2024-09-06T09:15:43Z,2024-09-10T11:39:49+00:00,1,98.4,True,1658,15,18,503,0,0,0,MERGED
+18484,Remove Warnings (ebpf),thiagoftsm,2024-09-05T04:07:47Z,2024-09-05T15:03:34+00:00,1,10.93,True,26,36,8,373,2,0,2,MERGED
+18483,[WIP] Windows-Events Logs Explorer,ktsaou,2024-09-04T16:36:00Z,2024-09-10T17:03:54+00:00,3,144.47,True,4648,1483,43,64,0,4,4,MERGED
+18482,fix win sysinfo installed ram calculation,ilyam8,2024-09-04T15:26:07Z,2024-09-04T16:26:45+00:00,1,1.01,True,2,1,1,100,0,0,0,MERGED
+18480,Update LIbbpf,thiagoftsm,2024-09-04T14:06:51Z,2024-09-04T17:07:04+00:00,2,3.0,True,7,7,3,205,0,0,0,MERGED
+18475,Regenerate integrations.js,netdatabot,2024-09-04T11:42:44Z,2024-09-04T14:39:57+00:00,1,2.95,True,13,13,4,159,0,0,0,MERGED
+18473,Regenerate integrations.js,netdatabot,2024-09-04T08:07:38Z,2024-09-04T09:49:30+00:00,1,1.7,True,266,75,5,159,0,0,0,MERGED
+18471,Remove w1sensor in favor of Go implementation,Ancairon,2024-09-04T05:53:07Z,2024-09-04T09:04:08+00:00,1,3.18,True,1,493,7,38,0,0,0,MERGED
+18464,w1sensor collector Go implementation,Ancairon,2024-09-03T11:03:56Z,2024-09-04T08:05:34+00:00,1,21.03,True,586,0,16,515,0,0,0,MERGED
+18463,Check correct number of bits for LZC of XOR value.,vkalintiris,2024-09-03T07:10:09Z,2024-09-04T08:11:51+00:00,1,25.03,True,4,3,1,476,1,0,1,MERGED
+18460,netdata-claim.sh: fix parsing url arg,ilyam8,2024-09-02T15:46:22Z,2024-09-02T16:48:07+00:00,2,1.03,True,1,1,1,100,0,0,0,MERGED
+18457,Bump github.com/likexian/whois from 1.15.4 to 1.15.5 in /src/go,dependabot,2024-09-02T04:16:31Z,2024-09-02T06:02:39+00:00,1,1.77,True,3,3,2,1925,0,0,0,MERGED
+18455,"Cleanup, rename and packaging fix (Windows Codes)",thiagoftsm,2024-09-02T00:15:31Z,2024-09-04T01:20:01+00:00,1,49.08,True,29,77,7,413,0,0,0,MERGED
+18448,Exit slabinfo.plugin on EPIPE,teqwve,2024-08-30T15:32:25Z,2024-08-30T22:42:40+00:00,1,7.17,True,6,0,1,2201,0,0,0,MERGED
+18447,ilert Integration,DaTiMy,2024-08-30T10:42:05Z,2024-09-01T16:20:11+00:00,1,53.63,True,135,3,3,334,5,0,5,MERGED
+18443,Windows Permissions,thiagoftsm,2024-08-30T01:32:22Z,2024-09-03T11:30:56+00:00,1,105.98,True,53,4,7,525,0,0,0,MERGED
+18437,Un-vendor proprietary dashboard code.,Ferroin,2024-08-29T15:41:22Z,2024-10-22T07:52:17+00:00,2,1288.18,True,303,20771,326,1911,2,0,2,MERGED
+18434,Improve agent shutdown time,stelfrag,2024-08-29T09:49:36Z,2024-08-29T14:04:36+00:00,1,4.25,True,13,7,3,338,0,0,0,MERGED
+18428,ci fix InvalidDefaultArgInFrom warn,ilyam8,2024-08-28T09:57:09Z,2024-08-28T12:04:57+00:00,1,2.13,True,4,1,1,87,0,0,0,MERGED
+18425,Reset last connected when removing stale nodes with netdatacli,stelfrag,2024-08-27T17:45:39Z,2024-08-28T08:08:54+00:00,2,14.39,True,29,2,1,347,0,0,0,MERGED
+18417,ACLK code cleanup,stelfrag,2024-08-26T15:28:07Z,2024-08-29T06:25:24+00:00,1,62.95,True,95,766,27,122,0,0,0,MERGED
+18413,remove python.d/sambsa,ilyam8,2024-08-26T09:52:46Z,2024-08-26T14:56:46+00:00,1,5.07,True,0,667,6,119,0,0,0,MERGED
+18410,Claim on Windows,thiagoftsm,2024-08-26T06:02:55Z,2024-08-29T21:12:43+00:00,2,87.16,True,499,29,8,489,5,0,5,MERGED
+18408,Bump tj-actions/changed-files from 44 to 45,dependabot,2024-08-26T04:06:19Z,2024-08-26T07:59:05+00:00,1,3.88,True,8,8,5,7640,0,0,0,MERGED
+18407,Bump google-github-actions/upload-cloud-storage from 2.1.2 to 2.1.3,dependabot,2024-08-26T04:06:10Z,2024-08-26T07:58:14+00:00,1,3.87,True,1,1,1,2204,0,0,0,MERGED
+18406,kickstart: fix write_claim_config when executed as a regular user,ilyam8,2024-08-25T18:03:42Z,2024-08-25T19:27:17+00:00,1,1.39,True,1,1,1,780,0,0,0,MERGED
+18405,Fix coverity issues,stelfrag,2024-08-24T18:44:03Z,2024-08-25T17:38:40+00:00,1,22.91,True,6,2,1,246,0,0,0,MERGED
+18395,fix warnings in Dockerfile,NicolasCARPi,2024-08-22T15:39:51Z,2024-08-23T16:32:32+00:00,1,24.88,True,5,5,1,412,2,0,2,MERGED
+18391,Regenerate integrations.js,netdatabot,2024-08-21T17:54:04Z,2024-08-21T19:02:07+00:00,1,1.13,True,0,183,4,159,0,0,0,MERGED
+18386,Modify CLI command remove-stale-node to accept hostname,stelfrag,2024-08-21T07:51:43Z,2024-08-21T18:24:25+00:00,4,10.54,True,67,24,1,158,5,1,6,MERGED
+18385,Update windows installer,thiagoftsm,2024-08-21T04:28:03Z,2024-08-21T12:07:43+00:00,1,7.66,True,268,9,5,749,0,0,0,MERGED

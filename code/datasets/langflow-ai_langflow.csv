@@ -149,3 +149,853 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 9710,docs: replace ampersands in windows command,mendonk,2025-09-04T17:10:32Z,2025-09-10T15:09:37+00:00,6,141.98,True,31,14,1,778,6,5,11,MERGED
 9708,fix: Ensure correct Docling Remote URL for API,erichare,2025-09-04T16:22:35Z,2025-09-04T18:30:30+00:00,1,2.13,True,2,3,1,693,3,0,3,MERGED
 9706,feat: Add frontend build cleaning and CLI run options,Cristhianzl,2025-09-04T14:06:43Z,2025-09-04T17:31:09+00:00,3,3.41,True,71,37,3,1184,5,0,5,MERGED
+9704,feat: Enhance OpenSearch component with additional input fields and improved document handling,ogabrielluiz,2025-09-04T11:34:42Z,2025-09-18T12:25:37+00:00,2,336.85,True,693,158,1,748,2,6,8,MERGED
+9702,fix: switch to docling-serve v1 API,dolfim-ibm,2025-09-04T11:11:56Z,2025-09-04T14:52:45+00:00,2,3.68,True,2,3,1,481,3,0,3,MERGED
+9700,feat: remove agent dual output,edwinjosechittilappilly,2025-09-04T05:06:56Z,2025-09-04T19:14:01+00:00,1,14.12,True,35,20,17,911,4,0,4,MERGED
+9694,feat: Implement LLM Conditional Router Component,Empreiteiro,2025-09-03T22:02:59Z,2025-09-11T16:30:10+00:00,2,186.45,True,377,0,1,733,2,4,6,MERGED
+9693,docs: link to docling libraries for components,mendonk,2025-09-03T21:47:29Z,2025-09-04T19:11:51+00:00,2,21.41,True,9,1,1,571,4,0,4,MERGED
+9690,fix: fixed user settings test,lucaseduoli,2025-09-03T19:07:07Z,2025-09-03T20:17:21+00:00,2,1.17,True,3,3,1,210,2,0,2,MERGED
+9688,feat: Enhance Data Operations Component with JSON features,Empreiteiro,2025-09-03T18:35:25Z,2025-09-11T20:11:09+00:00,4,193.6,True,160,74,1,1777,2,8,10,MERGED
+9687,docs: fix sidebar behavior of last element,mendonk,2025-09-03T18:04:41Z,2025-09-03T20:33:52+00:00,2,2.49,True,1,5,1,398,5,0,5,MERGED
+9685,refactor: Agent component enhancements for release v1.6,deon-sanchez,2025-09-03T17:29:12Z,2025-09-04T22:48:56+00:00,1,29.33,True,280,97,25,2316,4,0,4,MERGED
+9683,fix: knowledge base fixes for 1.6 pointing to release branch,deon-sanchez,2025-09-03T16:54:37Z,2025-09-03T21:36:49+00:00,1,4.7,True,103,96,8,1298,4,0,4,MERGED
+9676,docs: Language model component doesn't include built-in chat memory. If-Else component no longer has a Message parameter.,aimurphy,2025-09-03T14:52:13Z,2025-09-03T17:50:42+00:00,2,2.97,True,27,28,5,607,5,1,6,MERGED
+9675,fix: Properly import Langchain ToolMessage for Message options,erichare,2025-09-03T14:21:05Z,2025-09-03T17:02:52+00:00,2,2.7,True,15,14,8,495,3,0,3,MERGED
+9674,"feat: remove functionality to skip auth checks when AUTO_LOGIN is enabled, fix frontend tests, fix backend Lint and tests",jordanrfrazier,2025-09-03T14:10:32Z,2025-09-11T16:59:38+00:00,3,194.82,False,2121,632,71,2017,11,1,12,CLOSED
+9666,Lfoss 1953 backup 20250902 170915,deon-sanchez,2025-09-02T23:13:44Z,2025-09-03T16:27:35+00:00,2,17.23,False,6016,5899,128,681,4,36,40,CLOSED
+9663,ci: Add LFX release workflow and update nightly build script,ogabrielluiz,2025-09-02T20:36:27Z,2025-09-03T19:39:07+00:00,1,23.04,True,143,34,4,697,2,1,3,MERGED
+9662,"fix: disable message editing on playground, fix new session not persisting after message is sent",lucaseduoli,2025-09-02T19:59:06Z,2025-09-02T21:27:41+00:00,1,1.48,True,112,101,10,2659,2,0,2,MERGED
+9660,"fix: remove python code component, fix placeholder not appearing",lucaseduoli,2025-09-02T19:26:00Z,2025-09-04T13:36:01+00:00,1,42.17,True,61,159,7,1494,4,0,4,MERGED
+9659,fix: Return multi-row dataframe when Structured Output data supports it,erichare,2025-09-02T18:54:48Z,2025-09-03T14:16:10+00:00,1,19.36,True,21,13,7,594,2,0,2,MERGED
+9658,fix: disable elevate edges on node select,lucaseduoli,2025-09-02T18:47:49Z,2025-09-02T21:50:02+00:00,1,3.04,True,9,9,2,457,4,0,4,MERGED
+9657,fix: Knowledge Base fixes for 1.6,deon-sanchez,2025-09-02T18:39:47Z,2025-09-04T17:57:01+00:00,3,47.29,False,93,92,7,1903,6,1,7,CLOSED
+9656,fix: add margins to <p> tag in markdown,lucaseduoli,2025-09-02T18:36:26Z,2025-09-04T13:44:46+00:00,1,43.14,True,5,1,1,368,4,0,4,MERGED
+9655,fix: remove github link on discord button,lucaseduoli,2025-09-02T18:10:57Z,2025-09-04T12:57:38+00:00,1,42.78,True,72,39,3,282,4,0,4,MERGED
+9647,build(deps):(deps): bump actions/download-artifact from 4 to 5,dependabot,2025-09-02T02:14:29Z,2025-10-02T13:57:01+00:00,1,731.71,True,18,18,6,3352,3,0,3,MERGED
+9645,"fix: delete unused components, delete [deprecated] tag on the component title, add Replace and legacy tag functionality to components",lucaseduoli,2025-09-01T21:06:55Z,2025-09-04T13:45:19+00:00,3,64.64,True,533,567,70,1014,4,2,6,MERGED
+9644,fix: Support objects with data attribute in body processing,Cristhianzl,2025-09-01T20:46:58Z,2025-09-02T13:34:56+00:00,1,16.8,True,23,5,3,744,3,0,3,MERGED
+9643,docs: OpenAPI spec version upgraded from 1.5.0.post2 to 1.5.1,github-actions,2025-09-01T20:05:12Z,2025-09-02T21:57:00+00:00,1,25.86,True,1,1,1,106,3,0,3,MERGED
+9642,Enhance DataOperationsComponent with JSON features,Empreiteiro,2025-09-01T19:44:17Z,2025-09-03T18:23:25+00:00,1,46.65,False,0,0,0,1140,2,4,6,CLOSED
+9641,fix: Add comprehensive message sorting + tests,Cristhianzl,2025-09-01T19:29:32Z,2025-09-02T13:54:26+00:00,1,18.41,True,1332,3,5,1594,2,0,2,MERGED
+9639,fix: added most important types at the beginning of the extensions array on File component,lucaseduoli,2025-09-01T18:22:48Z,2025-09-02T14:42:13+00:00,1,20.32,True,184,214,32,712,4,0,4,MERGED
+9638,fix: Remove formatting from agent input text content,Cristhianzl,2025-09-01T17:49:11Z,2025-09-02T14:18:52+00:00,1,20.49,True,1,1,1,293,3,0,3,MERGED
+9636,fix: Remove top padding from sidebar groups,Cristhianzl,2025-09-01T15:07:23Z,2025-09-02T20:52:46+00:00,1,29.76,True,93,113,11,512,4,0,4,MERGED
+9634,fix: upgrade docling-serve to v1 apis,dolfim-ibm,2025-09-01T13:32:04Z,2025-09-04T14:40:37+00:00,3,73.14,False,362,76,30,632,5,0,5,CLOSED
+9629,feat: Add CometAPI Integration as bundles,TensorNull,2025-09-01T05:50:53Z,2025-09-07T05:16:07+00:00,1,143.42,False,395,1,12,1386,3,5,8,CLOSED
+9627,docs: Component documentation updates for 1.6.0,aimurphy,2025-08-30T03:20:01Z,2025-09-03T23:10:32+00:00,3,115.84,True,2731,2252,127,1304,13,3,16,MERGED
+9626,docs: add oauth for mcp,mendonk,2025-08-29T22:11:51Z,2025-09-17T15:49:30+00:00,21,449.63,True,131,57,1,290,20,29,49,MERGED
+9625,fix: Update sidebar border styles,mfortman11,2025-08-29T22:05:22Z,2025-09-02T19:24:25+00:00,1,93.32,True,2,2,2,11,2,0,2,MERGED
+9624,fix: Include flow ID in webhook URLs,Cristhianzl,2025-08-29T22:01:41Z,2025-09-02T15:38:40+00:00,3,89.62,True,563,2,3,708,2,1,3,MERGED
+9623,fix: Fix audio recording resource cleanup,Cristhianzl,2025-08-29T21:52:03Z,2025-09-02T13:55:36+00:00,1,88.06,True,18,0,4,1112,4,0,4,MERGED
+9622,fix: deprecate claude 3 sonnet model,edwinjosechittilappilly,2025-08-29T21:22:27Z,2025-09-03T16:20:57+00:00,1,114.97,True,3,1,1,391,2,0,2,MERGED
+9621,fix: Add voice mode availability detection,Cristhianzl,2025-08-29T21:19:47Z,2025-09-02T14:02:24+00:00,1,88.71,True,90,1,5,1291,4,0,4,MERGED
+9618,ci: allow docs-only PRs to skip nightly status - second attempt,mendonk,2025-08-29T19:34:22Z,2025-09-02T21:09:22+00:00,3,97.58,True,23,3,1,1503,4,0,4,MERGED
+9617,fix: Properly allow the non-specification of an OCR Engine,erichare,2025-08-29T19:22:57Z,2025-09-01T18:13:23+00:00,1,70.84,True,16,18,7,851,4,0,4,MERGED
+9616,fix: remove Groq from Agents model provider list,edwinjosechittilappilly,2025-08-29T18:46:53Z,2025-09-05T18:23:33+00:00,1,167.61,True,21,40,18,401,5,0,5,MERGED
+9615,fix: Segmented Sidebar switch to search on value change,mfortman11,2025-08-29T18:02:09Z,2025-09-03T15:58:34+00:00,1,117.94,True,21,33,4,213,4,0,4,MERGED
+9611,fix: Add comprehensive tests and improve minimal condition logic,Cristhianzl,2025-08-29T14:41:36Z,2025-08-29T17:00:06+00:00,1,2.31,True,567,4,3,1105,2,0,2,MERGED
+9610,fix: remove unsupported styling options from chats components,italojohnny,2025-08-29T14:28:49Z,2025-08-29T17:52:59+00:00,1,3.4,True,122,4915,34,285,2,0,2,MERGED
+9605,fix: Properly respect the order parameter for Message History,erichare,2025-08-28T23:21:34Z,2025-09-03T14:09:00+00:00,1,134.79,True,12,10,4,819,2,0,2,MERGED
+9602,fix: apply to fields in settings page ,edwinjosechittilappilly,2025-08-28T21:09:53Z,2025-09-03T15:29:31+00:00,1,138.33,True,122,43,36,1066,2,0,2,MERGED
+9600,fix: Add help text to Lock Flow option,Cristhianzl,2025-08-28T20:47:54Z,2025-08-29T16:55:43+00:00,1,20.13,True,26,12,1,519,4,0,4,MERGED
+9599,"fix: disable mcp auto install for not installed applications, refactor mcp-projects logic",lucaseduoli,2025-08-28T20:42:45Z,2025-08-29T18:32:55+00:00,2,21.84,True,181,250,10,1521,7,0,7,MERGED
+9597,fix: Add localStorage persistence for feature toggles,Cristhianzl,2025-08-28T20:08:34Z,2025-08-29T16:54:45+00:00,1,20.77,True,306,5,4,1194,4,0,4,MERGED
+9596,fix(URLComponent): filter out `None` in headers to avoid silent serialization errors,ogabrielluiz,2025-08-28T19:49:59Z,2025-09-09T13:37:35+00:00,1,281.79,True,7,7,4,115,2,0,2,MERGED
+9595,"fix: change zoom in and out limit, create tests for zooming in and out, change zoom out logic in canvasControls",lucaseduoli,2025-08-28T19:46:17Z,2025-08-29T16:25:59+00:00,1,20.66,True,209,58,5,1222,4,0,4,MERGED
+9594,"fix: change icon color for mcp, remove color setting of icons",lucaseduoli,2025-08-28T19:26:59Z,2025-08-29T17:07:14+00:00,1,21.67,True,25,21,3,754,2,0,2,MERGED
+9593,fix: fixes the little mic icon when you stop talking in voice mode,phact,2025-08-28T19:11:29Z,2025-08-29T21:55:40+00:00,1,26.74,False,4,0,1,727,3,0,3,CLOSED
+9592,feat: Implement Smart Conditional Router Component,Empreiteiro,2025-08-28T18:27:41Z,2025-09-03T21:53:56+00:00,1,147.44,False,376,0,1,749,2,9,11,CLOSED
+9589,"fix: changed name on tool mode to slug, added close button to sidebar",lucaseduoli,2025-08-28T16:32:44Z,2025-08-28T21:14:57+00:00,2,4.7,True,33,12,2,643,4,0,4,MERGED
+9587,"fix: allow deletion of mcp servers, add tests for mcp sidebar",lucaseduoli,2025-08-28T15:37:20Z,2025-08-29T00:56:48+00:00,2,9.32,True,455,46,5,1667,2,2,4,MERGED
+9586,fix: enhance scroll behavior on playground,lucaseduoli,2025-08-28T15:04:21Z,2025-08-28T21:16:09+00:00,2,6.2,True,44,193,8,1852,4,0,4,MERGED
+9584,docs: CVE advisory and patch release 1.5.1,mendonk,2025-08-28T13:59:20Z,2025-08-28T18:53:00+00:00,3,4.89,True,13,2,2,733,2,0,2,MERGED
+9578,fix: Load flows autologin false,phact,2025-08-28T03:50:35Z,2025-09-17T17:13:19+00:00,2,493.38,True,15,16,1,1353,2,3,5,MERGED
+9576,fix: disable automatic retries for login user mutation,Cristhianzl,2025-08-27T20:42:36Z,2025-08-29T17:06:35+00:00,2,44.4,True,1,0,1,557,4,0,4,MERGED
+9575,fix: Fixes filtering so legacy components aren't shown by default,mfortman11,2025-08-27T20:26:56Z,2025-08-27T21:59:12+00:00,1,1.54,True,3,10,2,69,4,0,4,MERGED
+9572,fix: Allow updates to the file component in templates using it,erichare,2025-08-27T19:02:26Z,2025-08-27T21:24:03+00:00,1,2.36,True,581,43,5,1875,2,0,2,MERGED
+9571,fix: Use the newest file component in Vector Store RAG Template,erichare,2025-08-27T16:36:54Z,2025-08-27T18:09:29+00:00,2,1.54,True,1030,844,1,89,3,0,3,MERGED
+9565,chore: enhance GitHub workflows for pull request handling,edwinjosechittilappilly,2025-08-27T05:34:13Z,2025-09-05T06:51:09+00:00,1,217.28,False,292,3,8,961,4,5,9,CLOSED
+9564,"fix: update agent_llm display name to ""Model Provider"" in AgentComponent",edwinjosechittilappilly,2025-08-27T05:16:50Z,2025-08-27T15:50:55+00:00,4,10.57,True,34,105,19,380,2,0,2,MERGED
+9563,ci: allow docs-only PRs to skip nightly status,jordanrfrazier,2025-08-27T01:00:42Z,2025-08-29T19:34:40+00:00,9,66.57,False,22,2,1,365,3,2,5,CLOSED
+9562,refactor:Update performance assertions in component loading test,edwinjosechittilappilly,2025-08-26T23:10:59Z,2025-09-05T06:50:16+00:00,1,223.65,False,5,2,1,542,2,0,2,CLOSED
+9560,feat: add composio components,Uday-sidagana,2025-08-26T21:53:37Z,2025-09-16T16:09:08+00:00,2,498.26,True,752,4,52,797,2,22,24,MERGED
+9557,fix: make session_id visible in Message History Retrieve mode,Vigtu,2025-08-26T20:53:56Z,2025-09-12T14:35:24+00:00,4,401.69,True,12,12,5,1707,3,1,4,MERGED
+9555,feat: rm monkey patch and add support for Object and List type input fields.,Uday-sidagana,2025-08-26T20:18:25Z,2025-09-12T18:33:18+00:00,2,406.25,False,70,51,1,816,4,4,8,CLOSED
+9553,fix: AI/ML icon is missing,deon-sanchez,2025-08-26T19:02:18Z,2025-08-27T19:27:29+00:00,2,24.42,True,5,4,3,1432,4,0,4,MERGED
+9550,"fix: use custom file handler on chat view, disable mcp_composer by default",lucaseduoli,2025-08-26T17:35:26Z,2025-08-27T17:45:59+00:00,2,24.18,True,5,5,4,915,4,0,4,MERGED
+9544,fix: Avoid namespace collision for Astra,erichare,2025-08-26T16:36:42Z,2025-08-27T13:09:48+00:00,2,20.55,True,2379,2391,4,1016,2,0,2,MERGED
+9543,fix: Knowledge base component refactor,erichare,2025-08-26T16:21:00Z,2025-08-27T15:25:33+00:00,2,23.08,True,369,375,17,2552,6,1,7,MERGED
+9542,fix: superuser credential handling and AUTO_LOGIN security,edwinjosechittilappilly,2025-08-26T15:13:52Z,2025-09-08T15:57:24+00:00,10,312.73,True,391,33,14,4752,6,5,11,MERGED
+9541,fix: Run docling processing in subprocess,erichare,2025-08-26T14:26:58Z,2025-08-27T02:46:30+00:00,3,12.33,True,306,380,5,748,3,4,7,MERGED
+9539,docs: OpenAI responses endpoint,mendonk,2025-08-26T14:06:12Z,2025-09-05T13:45:10+00:00,14,239.65,True,541,0,4,318,32,32,64,MERGED
+9538,docs: update support documentation to reflect support rebranding,mendonk,2025-08-26T13:32:10Z,2025-08-27T18:51:17+00:00,2,29.32,True,8,14,2,613,6,3,9,MERGED
+9537,feat(templates): update agent templates and remove from skip list,ogabrielluiz,2025-08-26T12:53:28Z,2025-09-11T16:58:28+00:00,3,388.08,False,2815,584,16,101,2,7,9,CLOSED
+9536,fix: Remove warning log for unset TRACELOOP_API_KEY in configuration validation,ogabrielluiz,2025-08-26T12:43:14Z,2025-09-03T20:40:09+00:00,1,199.95,True,0,1,1,488,3,0,3,MERGED
+9535,feat: Tweaks add list support,tsuliuchao,2025-08-26T10:31:03Z,2025-09-04T09:30:57+00:00,1,215.0,False,2,2,2,1044,2,0,2,CLOSED
+9532,fix(logger): add optional cache to configure; update caching behavior,ogabrielluiz,2025-08-26T00:16:07Z,2025-09-02T19:10:02+00:00,4,186.9,True,19,3,1,630,3,2,5,MERGED
+9530,fix: specify type for tool_calls in openai_responses,edwinjosechittilappilly,2025-08-25T22:28:07Z,2025-08-26T13:57:24+00:00,1,15.49,True,2,2,1,185,2,0,2,MERGED
+9529,docs: updates to make commands,mendonk,2025-08-25T20:51:30Z,2025-09-03T21:13:12+00:00,3,216.36,True,23,25,2,707,9,5,14,MERGED
+9527,feat: Enhanced DataOperationsComponent with JSON handling methods,Empreiteiro,2025-08-25T19:09:18Z,2025-09-01T19:47:16+00:00,1,168.63,False,3214,2821,70,1230,3,8,11,CLOSED
+9522,fix: set mcp_composer feature as true by default,lucaseduoli,2025-08-25T17:50:25Z,2025-08-25T21:42:10+00:00,2,3.86,True,7,2,3,811,4,0,4,MERGED
+9521,docs: 1.6 feature branch,mendonk,2025-08-25T16:18:19Z,2025-09-26T14:15:53+00:00,8,765.96,True,4005,2486,125,346,62,70,132,MERGED
+9520,refactor: Add create knowledge button,deon-sanchez,2025-08-25T16:05:09Z,2025-08-25T19:32:21+00:00,3,3.45,True,46,33,2,506,4,3,7,MERGED
+9518,test: switch to settings-driven cached type API; relax assertions,ogabrielluiz,2025-08-25T14:19:57Z,2025-08-25T17:43:36+00:00,3,3.39,True,6676,4137,3,480,2,2,4,MERGED
+9514,docs: Traceloop SDK integration documentation,2getsandesh,2025-08-25T09:18:09Z,2025-08-29T14:20:09+00:00,13,101.03,True,101,0,4,821,3,19,22,MERGED
+9513,feat: add linkup web search AI tool,juliette0704,2025-08-25T08:37:15Z,2025-08-28T15:29:41+00:00,1,78.87,False,172,0,10,639,2,3,5,CLOSED
+9506,feat: mcp composer integration,jordanrfrazier,2025-08-23T03:53:47Z,2025-09-05T00:33:20+00:00,2,308.66,True,1598,246,22,648,13,14,27,MERGED
+9502,fix: file upload test,lucaseduoli,2025-08-22T19:22:49Z,2025-08-22T20:25:36+00:00,2,1.05,True,27,26,2,1328,2,0,2,MERGED
+9501,feat: update Composio base and add new components.,Uday-sidagana,2025-08-22T18:54:16Z,2025-09-12T18:33:52+00:00,1,503.66,False,1931,113,61,1137,7,22,29,CLOSED
+9500,Initial document describing the Langflow release process.,kerinin,2025-08-22T16:46:18Z,2025-08-25T14:44:49+00:00,2,69.98,True,125,0,1,468,6,4,10,MERGED
+9498,feat: adds api key functionality onto mcp composer,lucaseduoli,2025-08-22T15:28:42Z,2025-08-25T17:26:13+00:00,3,73.96,True,468,136,8,2328,2,2,4,MERGED
+9495,fix: preserve user-selected model when updating available options,italojohnny,2025-08-22T13:01:30Z,2025-08-22T16:59:37+00:00,2,3.97,True,6,3,3,854,3,3,6,MERGED
+9490,feat: encrypt oauth auth settings at rest,jordanrfrazier,2025-08-22T01:06:20Z,2025-08-25T21:15:24+00:00,2,92.15,True,520,16,7,1744,3,3,6,MERGED
+9489,fix: change template test to run every time,Yukiyukiyeah,2025-08-21T23:52:52Z,2025-08-22T20:52:24+00:00,2,20.99,True,1,1,1,930,2,1,3,MERGED
+9487,refactor: Update MCP composer auth to just api and oauth,mfortman11,2025-08-21T22:04:34Z,2025-08-22T01:57:05+00:00,2,3.88,True,6,209,5,568,4,1,5,MERGED
+9486,ref: Refactor vectorstore components structure,edwinjosechittilappilly,2025-08-21T21:53:31Z,2025-08-25T18:31:32+00:00,3,92.63,True,743,224,63,1063,5,17,22,MERGED
+9483,feat: enhance structured output handling with new input fields,edwinjosechittilappilly,2025-08-21T21:09:17Z,2025-08-25T19:22:32+00:00,2,94.22,True,390,95,17,2740,6,4,10,MERGED
+9482,feat: Move comprehensive coverage check workflow before approved,Yukiyukiyeah,2025-08-21T21:07:33Z,2025-08-29T18:27:33+00:00,3,189.33,True,4,2,2,1596,4,5,9,MERGED
+9481,docs: docling integration into file component,mendonk,2025-08-21T20:15:52Z,2025-08-29T14:03:29+00:00,13,185.79,True,72,28,3,508,8,28,36,MERGED
+9478,build: update nv-ingest,jordanrfrazier,2025-08-21T18:31:07Z,2025-08-27T03:05:09+00:00,2,128.57,True,2487,2207,37,966,3,2,5,MERGED
+9475,feat: Move Vector Stores to Bundle,erichare,2025-08-21T16:57:16Z,2025-08-21T21:06:28+00:00,2,4.15,True,59,2,7,1188,4,4,8,MERGED
+9474,docs: troubleshooting backlog items,mendonk,2025-08-21T16:29:08Z,2025-08-28T18:04:41+00:00,5,169.59,True,98,9,8,1718,11,28,39,MERGED
+9473,refactor: Agent component enhancements,deon-sanchez,2025-08-21T15:20:40Z,2025-09-05T16:25:24+00:00,2,361.08,False,299,145,41,603,6,4,10,CLOSED
+9471,fix: move Docling worker to base module and update imports,ogabrielluiz,2025-08-21T13:55:06Z,2025-08-22T19:46:39+00:00,2,29.86,True,195,199,3,743,3,1,4,MERGED
+9469,build: add .dockerignore and move docling from runtime to dev deps,ogabrielluiz,2025-08-21T13:24:38Z,2025-08-22T14:11:24+00:00,2,24.78,True,16,8,3,266,3,1,4,MERGED
+9467,fix(apply_tweaks): skip tweaks to code field and log warning,ogabrielluiz,2025-08-21T11:49:31Z,2025-08-25T18:21:46+00:00,4,102.54,True,71,0,2,370,4,1,5,MERGED
+9466,fix: Use Runnable's asynchronous methods to prevent blocking the main…,sunbingchuan,2025-08-21T07:58:17Z,2025-08-21T17:16:01+00:00,3,9.3,True,3,3,1,656,2,1,3,MERGED
+9458,feat: Make knowledge bases user-stored and support global vars,erichare,2025-08-20T19:25:30Z,2025-08-21T23:45:58+00:00,13,28.34,True,379,289,13,2562,4,15,19,MERGED
+9456,refactor: Update KnowledgeBaseEmptyState component text and structure,deon-sanchez,2025-08-20T14:49:09Z,2025-08-21T18:45:28+00:00,4,27.94,True,27,34,4,52,4,1,5,MERGED
+9450,docs: clarify adding custom packages to REPL component,mendonk,2025-08-19T20:52:39Z,2025-08-21T17:03:55+00:00,3,44.19,True,6,1,1,1049,4,0,4,MERGED
+9448,fix: delete socket related code,Yukiyukiyeah,2025-08-19T18:43:40Z,2025-09-17T18:45:22+00:00,1,696.03,True,0,20,1,1890,3,0,3,MERGED
+9447,docs: custom component directory requires an init.py file,mendonk,2025-08-19T18:39:39Z,2025-08-21T17:02:50+00:00,1,46.39,True,31,0,2,527,5,0,5,MERGED
+9444,docs: update path to config dir instead of cache,mendonk,2025-08-19T17:34:30Z,2025-09-04T21:34:40+00:00,2,388.0,False,19,19,6,377,4,2,6,CLOSED
+9443,feat(security): Isolated execution and trust model for multi-tenant or public-facing Langflow,avonian,2025-08-19T17:15:09Z,2025-09-30T06:38:19+00:00,1,997.39,False,12163,60,157,6091,9,38,47,CLOSED
+9442,docs: update composio bundle page,mendonk,2025-08-19T16:33:12Z,2025-09-10T15:00:25+00:00,10,526.45,True,131,47,3,615,25,20,45,MERGED
+9441,fix: update CORS configuration and add env vars to allow for user control,jordanrfrazier,2025-08-19T15:58:45Z,2025-09-08T15:29:39+00:00,2,479.51,False,672,273,8,1739,3,0,3,CLOSED
+9436,docs(graph): fix typo in comment,HzaRashid,2025-08-18T23:19:00Z,2025-08-25T17:39:41+00:00,2,162.34,True,6643,4119,2,591,3,0,3,MERGED
+9433,fix: silent error fix in KB components,edwinjosechittilappilly,2025-08-18T21:09:25Z,2025-08-19T20:23:06+00:00,2,23.23,True,8,44,3,1334,3,2,5,MERGED
+9430,docs: OpenAPI spec version upgraded from 1.5.0.post1 to 1.5.0.post2,github-actions,2025-08-18T20:05:35Z,2025-08-21T18:04:39+00:00,1,69.98,True,1,1,1,118,4,0,4,MERGED
+9427,fix: Composio base to handle dataframe response correctly,Uday-sidagana,2025-08-18T18:55:01Z,2025-08-22T10:11:41+00:00,2,87.28,True,21,2,1,541,2,1,3,MERGED
+9422,fix: fallback to env var correctly when using tweaks,jordanrfrazier,2025-08-17T19:00:38Z,2025-08-18T12:35:48+00:00,3,17.59,True,230,1,4,827,3,0,3,MERGED
+9415,feat: Add not contains filter operator in DataFrame Operations Component,Cristhianzl,2025-08-16T13:29:40Z,2025-08-29T17:25:37+00:00,2,315.93,True,2669,2598,41,1037,4,0,4,MERGED
+9414,fix: Fix env file handling in Windows build scripts,Cristhianzl,2025-08-16T13:28:07Z,2025-08-27T15:32:29+00:00,2,266.07,True,6,6,2,1106,2,0,2,MERGED
+9408, fix: use correct import for EventManager,tsuliuchao,2025-08-15T10:48:20Z,2025-08-21T12:18:43+00:00,1,145.51,True,1,1,1,578,2,0,2,MERGED
+9407,"docs: Update, refresh, and expand Vector Store and Processing component documentation",aimurphy,2025-08-15T03:24:53Z,2025-08-18T13:57:20+00:00,5,82.54,True,1365,1068,12,962,5,2,7,MERGED
+9406,docs: Correct the instructions for additional language models that aren't built-in to the primary Language Model component.,aimurphy,2025-08-15T02:29:41Z,2025-08-18T13:40:33+00:00,2,83.18,True,31,35,3,831,5,4,9,MERGED
+9405,fix: Use the identifier column as hash if available,erichare,2025-08-15T00:48:45Z,2025-08-19T21:48:39+00:00,6,117.0,True,13,7,2,1469,3,2,5,MERGED
+9401,docs: agent structured output port,mendonk,2025-08-14T17:55:53Z,2025-09-03T14:24:33+00:00,9,476.48,False,94,27,4,592,27,18,45,CLOSED
+9400,fix: Set 'Include Metadata' as non-advanced option,edwinjosechittilappilly,2025-08-14T16:51:19Z,2025-08-14T19:13:15+00:00,1,2.37,True,38,36,2,523,2,0,2,MERGED
+9398,feat: Add support for advanced parsing with docling in the File Component,erichare,2025-08-14T15:25:45Z,2025-08-22T05:14:19+00:00,5,181.81,True,579,59,5,727,4,7,11,MERGED
+9397,docs: update file size limit to 1024 mb,mendonk,2025-08-14T15:17:55Z,2025-08-14T18:36:05+00:00,3,3.3,True,235,25,6,497,6,2,8,MERGED
+9393,refactor(docling): extract processing logic to separate worker process,italojohnny,2025-08-14T11:53:45Z,2025-08-20T17:22:20+00:00,6,149.48,True,300,60,2,675,3,6,9,MERGED
+9391,docs: Add TrueFoundry AI Gateway integration guide,rishiraj-tf,2025-08-14T10:54:52Z,2025-09-17T23:48:03+00:00,1,828.89,False,188,0,7,960,3,5,8,CLOSED
+9386,fix: Allow connections to save file output,erichare,2025-08-14T03:01:16Z,2025-08-14T21:41:50+00:00,2,18.68,True,5,5,2,1332,3,0,3,MERGED
+9385,fix: Manage multi-region databases and better handle lexical search in Astra DB,erichare,2025-08-14T00:24:40Z,2025-08-21T19:24:34+00:00,4,187.0,True,36,25,3,2045,7,5,12,MERGED
+9384,docs: clarify file upload with API snippet,mendonk,2025-08-13T20:38:40Z,2025-08-14T19:06:34+00:00,3,22.46,True,28,1,1,546,6,4,10,MERGED
+9383,refactor: flowSidebarComponents folder structure refactor and add test coverage,mfortman11,2025-08-13T18:40:16Z,2025-08-18T14:52:07+00:00,3,116.2,True,5606,40,27,569,4,11,15,MERGED
+9382,docs: clarify available API endpoints and their use cases,mendonk,2025-08-13T18:16:17Z,2025-08-14T18:09:20+00:00,3,23.88,True,231,21,4,822,5,3,8,MERGED
+9381,docs: 1.6 knowledge base feature,mendonk,2025-08-13T18:11:42Z,2025-09-02T16:38:12+00:00,10,478.44,True,306,1,6,233,19,26,45,MERGED
+9377,fix: make tools be selected on mcp server after opening for the first time,lucaseduoli,2025-08-13T14:20:37Z,2025-08-13T20:32:36+00:00,3,6.2,True,55,18,2,1316,5,1,6,MERGED
+9376,fix: make settings nav not enter history,lucaseduoli,2025-08-13T13:38:41Z,2025-08-13T16:43:07+00:00,2,3.07,True,46,22,3,840,4,1,5,MERGED
+9375,fix: add cursor state to not skip to end on input components,lucaseduoli,2025-08-13T13:30:24Z,2025-08-13T16:05:28+00:00,2,2.58,True,72,4,6,1701,4,5,9,MERGED
+9371,refactor: Remove extraneous flag from package lock,edwinjosechittilappilly,2025-08-12T19:56:26Z,2025-08-13T14:34:19+00:00,1,18.63,True,0,1,1,140,2,0,2,MERGED
+9365,chore: pin uv version to 0.7.20,italojohnny,2025-08-12T14:46:31Z,2025-08-12T16:11:37+00:00,3,1.42,True,23,24,2,833,2,1,3,MERGED
+9363,feat: add new Composio components,Uday-sidagana,2025-08-12T14:17:07Z,2025-08-22T20:59:39+00:00,2,246.71,False,3596,2570,91,776,5,48,53,CLOSED
+9358,refactor: Skip MCP Memory leak integration test,edwinjosechittilappilly,2025-08-12T06:05:41Z,2025-08-12T12:26:04+00:00,2,6.34,True,4,1,1,667,2,0,2,MERGED
+9355,feat: add new segmented sidebar,mfortman11,2025-08-11T22:18:39Z,2025-08-26T16:32:04+00:00,3,354.22,True,3299,854,35,1039,4,12,16,MERGED
+9354,fix: improve process cleanup in MCP tests,italojohnny,2025-08-11T20:48:07Z,2025-08-11T22:02:48+00:00,2,1.24,True,57,26,1,642,2,0,2,MERGED
+9350,docs: Fix anchored links,aimurphy,2025-08-11T14:01:50Z,2025-08-13T07:43:57+00:00,1,41.7,False,9,8,4,17,11,0,11,CLOSED
+9349,ref: MCP Tests,edwinjosechittilappilly,2025-08-11T13:51:44Z,2025-08-11T18:21:17+00:00,2,4.49,True,60,8,2,536,5,2,7,MERGED
+9347,feat(anthropic): add model metadata for Claude Opus 4.1,philnash,2025-08-11T05:27:10Z,2025-10-02T13:42:02+00:00,2,1256.25,True,2,0,1,381,3,1,4,MERGED
+9346,feat: enable real-time refresh for Base URL input in ChatOllamaComponent,philnash,2025-08-11T01:17:03Z,2025-08-26T17:08:37+00:00,2,375.86,True,1,0,1,616,2,0,2,MERGED
+9344,fix: event_manager import error bug,tsuliuchao,2025-08-10T05:40:09Z,2025-08-15T10:28:07+00:00,1,124.8,False,1,1,1,272,2,0,2,CLOSED
+9340,feat: fix bug:import lib error,tsuliuchao,2025-08-09T12:41:46Z,2025-08-15T10:27:17+00:00,1,141.76,False,1,1,1,291,2,0,2,CLOSED
+9336,feat: Add GPT-5 series models to OpenAI metadata,edwinjosechittilappilly,2025-08-09T05:28:37Z,2025-08-12T21:05:20+00:00,7,87.61,True,29,0,1,424,6,5,11,MERGED
+9334,docs: Hide previous docs draft build comments on new build,mlr,2025-08-08T18:36:51Z,2025-08-12T17:18:10+00:00,2,94.69,True,35,0,1,278,5,2,7,MERGED
+9321,feat: migrate from loguru to structlog,ogabrielluiz,2025-08-07T13:39:58Z,2025-08-22T18:20:05+00:00,2,364.67,True,2041,1253,203,975,10,24,34,MERGED
+9317,feat: Added Traceloop SDK for collecting traces and metrics from Langflow,2getsandesh,2025-08-07T04:50:54Z,2025-08-22T16:59:37+00:00,22,372.15,True,880,4,6,1173,10,10,20,MERGED
+9303,fix: ModuleNotFoundError occurs due to broken or incomplete install of the elevenlabs==2.8.1,mitanshhh,2025-08-05T07:29:49Z,2025-08-28T08:16:31+00:00,1,552.78,False,1,0,1,907,3,0,3,CLOSED
+9302,feat: add unit Tests for composio Component Auth flow,Uday-sidagana,2025-08-05T07:06:04Z,2025-09-12T18:39:05+00:00,2,923.55,False,432,0,2,1191,7,8,15,CLOSED
+9301,feat: add Unit Test for Complete Authflow.,Uday-sidagana,2025-08-05T06:03:49Z,2025-08-13T09:56:23+00:00,1,195.88,False,1959,4631,54,860,5,34,39,CLOSED
+9300,feat: Add 'is blank' and 'is not blank' operators to Conditional Router,Empreiteiro,2025-08-04T19:42:08Z,2025-09-03T18:22:57+00:00,2,718.68,False,0,0,0,828,2,0,2,CLOSED
+9297,feat: Adding new operations to the Data Operations component,Empreiteiro,2025-08-04T16:55:26Z,2025-08-25T18:50:43+00:00,1,505.92,False,0,0,0,1110,2,4,6,CLOSED
+9294,docs: add example for plist ,mendonk,2025-08-01T19:48:38Z,2025-08-01T21:34:11+00:00,4,1.76,True,22,20,1,341,4,1,5,MERGED
+9291,docs: refresh custom dependencies page,mendonk,2025-08-01T18:01:33Z,2025-08-02T15:35:20+00:00,2,21.56,True,46,24,1,586,5,7,12,MERGED
+9280,ci: add checkout step to publish to pypi steps in nightly workflow,jordanrfrazier,2025-08-01T05:30:37Z,2025-08-01T11:01:22+00:00,1,5.51,True,4,0,1,121,2,2,4,MERGED
+9278,fix: incorrect Perplexity API parameter names,arvy,2025-08-01T00:10:53Z,2025-08-25T14:01:08+00:00,2,589.84,True,5,16,2,389,6,2,8,MERGED
+9277,feat: Add Gemini 2.5 and 2.0 model metadata,Cristhianzl,2025-07-31T21:09:12Z,2025-08-01T13:48:07+00:00,2,16.65,True,14,0,1,681,4,0,4,MERGED
+9276,ref: Increase max file upload size to 1024 MB,edwinjosechittilappilly,2025-07-31T20:55:41Z,2025-08-01T14:56:52+00:00,2,18.02,True,1,1,1,238,4,2,6,MERGED
+9274,docs: refresh cli page ,mendonk,2025-07-31T20:34:57Z,2025-08-02T15:35:20+00:00,10,43.01,True,456,266,34,619,10,23,33,MERGED
+9272,docs: refresh telemetry page,mendonk,2025-07-31T16:48:15Z,2025-08-01T13:42:51+00:00,4,20.91,True,33,14,1,257,8,10,18,MERGED
+9251,"docs: Standardize style of component names, especially when used in links",aimurphy,2025-07-31T02:12:19Z,2025-08-01T13:03:05+00:00,2,34.85,True,936,876,81,978,13,11,24,MERGED
+9250,"docs: New theme colors, minimized footer, and slight style changes for readability of certain elements",aimurphy,2025-07-30T21:51:46Z,2025-08-25T20:09:42+00:00,4,622.3,True,84,22,3,1854,9,2,11,MERGED
+9245,docs: reference exported key,mendonk,2025-07-30T14:14:24Z,2025-07-30T16:43:48+00:00,2,2.49,True,3,3,1,258,4,1,5,MERGED
+9242,docs: uv venv and make build_frontend commands were added explicitly to quick install instructions,chopley,2025-07-30T01:54:41Z,2025-07-31T23:55:00+00:00,2,46.01,False,4,0,1,404,5,1,6,CLOSED
+9241,docs: Touchup cloud provider deployment pages,aimurphy,2025-07-30T01:28:05Z,2025-07-30T13:20:43+00:00,2,11.88,True,53,50,11,483,5,3,8,MERGED
+9240,refactor: Improve cookie security and centralized utility,Cristhianzl,2025-07-29T20:42:59Z,2025-08-01T14:56:52+00:00,5,66.23,True,802,14,10,1249,4,3,7,MERGED
+9239,feat: Canvas toolbar update and enhancement,deon-sanchez,2025-07-29T19:33:50Z,2025-08-25T22:29:38+00:00,3,650.93,True,2758,278,115,2040,8,4,12,MERGED
+9238,ci: don't block CI when the nightly build fails,epinzur,2025-07-29T18:35:15Z,2025-07-29T19:52:51+00:00,2,1.29,True,81,8,1,545,2,0,2,MERGED
+9237,docs: Adding to Railway deployment file,sarahkb125,2025-07-29T18:10:09Z,2025-07-29T21:17:13+00:00,1,3.12,False,11,5,1,473,5,0,5,CLOSED
+9235,docs: Remove template pages because templates already include explanatory notes within Langflow,aimurphy,2025-07-29T17:38:58Z,2025-07-30T16:43:48+00:00,3,23.08,True,135,668,39,568,4,0,4,MERGED
+9234,docs: add comprehensive SSL configuration guide for self-hosted deployments,melbinjp,2025-07-29T17:07:24Z,2025-08-11T13:09:15+00:00,2,308.03,False,107,0,2,1833,3,4,7,CLOSED
+9233,feat: add InputFile customization,Cristhianzl,2025-07-29T16:56:19Z,2025-07-29T18:17:52+00:00,2,1.36,True,33,3,2,1939,5,1,6,MERGED
+9232,docs: cleanup and check of other deployments,mendonk,2025-07-29T16:41:09Z,2025-07-30T01:27:21+00:00,1,8.77,False,44,41,5,512,7,0,7,CLOSED
+9231,docs: fixed broken links in CONTRIBUTING.md,harjoben,2025-07-29T15:55:37Z,2025-07-30T01:48:38+00:00,1,9.88,True,4,4,1,205,2,0,2,MERGED
+9230,docs: Add more detail to some template notes,aimurphy,2025-07-29T15:42:18Z,2025-08-01T13:23:01+00:00,2,69.68,True,6,6,6,533,3,0,3,MERGED
+9226,docs: kubernetes best practices and postgresql dba guide,mendonk,2025-07-29T14:45:54Z,2025-08-01T21:48:44+00:00,5,79.05,True,666,190,11,665,18,38,56,MERGED
+9224,refactor(tests): parameterize template tests and update timeout use,ogabrielluiz,2025-07-29T12:52:56Z,2025-07-29T22:51:49+00:00,2,9.98,True,668,309,12,643,3,8,11,MERGED
+9223,docs: LANGFLOW_ENABLE_SUPERUSER_CLI environment variable,mendonk,2025-07-29T12:50:55Z,2025-07-30T16:43:48+00:00,6,27.88,True,114,123,3,609,7,5,12,MERGED
+9221,feat: generate custom coverage config to omit legacy and external compoents,epinzur,2025-07-29T11:42:48Z,2025-07-30T04:57:06+00:00,5,17.24,True,239,9,9,847,3,4,7,MERGED
+9217,"docs: Audit admonitions, related links, and prerequisites for style and consistency",aimurphy,2025-07-28T22:48:32Z,2025-07-29T13:36:04+00:00,2,14.79,True,203,170,47,1124,5,2,7,MERGED
+9214,feat: Add .env file support to Windows build scripts,Cristhianzl,2025-07-28T18:41:24Z,2025-07-28T21:22:35+00:00,6,2.69,True,44,10,2,1352,2,3,5,MERGED
+9209,chore: fix frontend code coverage scoring,epinzur,2025-07-28T17:11:00Z,2025-07-30T05:22:14+00:00,5,36.19,True,19,22,2,316,4,4,8,MERGED
+9208,docs: refresh docker page,mendonk,2025-07-28T16:40:36Z,2025-07-30T19:15:58+00:00,3,50.59,True,119,106,1,928,5,2,7,MERGED
+9206,ref: Update Ruff per-file ignores for tests and scripts,edwinjosechittilappilly,2025-07-28T15:53:09Z,2025-07-29T14:52:45+00:00,3,22.99,True,2,5,1,281,3,0,3,MERGED
+9205,feat: added install matrix before release,epinzur,2025-07-28T14:21:24Z,2025-07-30T20:08:06+00:00,3,53.78,True,734,48,6,863,2,1,3,MERGED
+9196,docs: Audit use of tabs and details,aimurphy,2025-07-26T00:14:23Z,2025-07-28T17:20:02+00:00,2,65.09,True,1096,1224,34,934,5,2,7,MERGED
+9194,feat: Add exception telemetry,Yukiyukiyeah,2025-07-25T22:50:45Z,2025-08-18T17:45:28+00:00,3,570.91,True,466,2,5,1451,3,3,6,MERGED
+9192,feat: add static dependency analysis module and update metadata handling,ogabrielluiz,2025-07-25T17:20:12Z,2025-08-25T23:51:56+00:00,6,750.53,True,2311,23,36,660,7,14,21,MERGED
+9191,fix: remove duplicated Makefile target `format_frontend`,italojohnny,2025-07-25T17:10:58Z,2025-07-30T12:12:15+00:00,1,115.02,True,0,4,1,305,2,0,2,MERGED
+9189,docs: refresh remote server page,mendonk,2025-07-25T15:25:29Z,2025-07-28T18:58:37+00:00,2,75.55,True,116,108,1,597,5,16,21,MERGED
+9177,docs: refresh develop overview page,mendonk,2025-07-24T20:49:42Z,2025-07-28T18:19:06+00:00,2,93.49,True,25,42,2,560,5,7,12,MERGED
+9174,docs: refresh external postgresql database page,mendonk,2025-07-24T18:35:04Z,2025-07-25T13:35:06+00:00,4,19.0,True,100,117,1,594,4,12,16,MERGED
+9173,fix: Add outputs support to SQLAgentComponent,Cristhianzl,2025-07-24T18:22:53Z,2025-08-01T14:44:49+00:00,1,188.37,True,6,0,1,937,3,0,3,MERGED
+9172,docs: combine api keys and authentication pages,mendonk,2025-07-24T16:28:13Z,2025-07-30T01:18:01+00:00,6,128.83,True,521,604,26,692,14,16,30,MERGED
+9166,deps: update langchain and langchain-community to support Perplexity,italojohnny,2025-07-24T11:11:47Z,2025-07-24T18:25:21+00:00,2,7.23,True,10,10,2,345,2,0,2,MERGED
+9161,fix: Mcp composer tool header fix,mfortman11,2025-07-23T22:42:48Z,2025-07-24T20:30:13+00:00,1,21.79,True,47,41,3,385,3,0,3,MERGED
+9158,refactor: Update mcp composer json,mfortman11,2025-07-23T20:35:30Z,2025-07-23T22:51:58+00:00,6,2.27,True,43,12,3,590,3,4,7,MERGED
+9156,build: add additional OCR dependencies for docling,jordanrfrazier,2025-07-23T16:42:59Z,2025-08-27T02:15:13+00:00,4,825.54,True,235,7,3,493,3,4,7,MERGED
+9154,fix: Relax redis dependency version constraint,edwinjosechittilappilly,2025-07-23T15:47:08Z,2025-07-23T20:13:38+00:00,2,4.44,True,2,2,2,297,2,1,3,MERGED
+9152,fix: enforce authentication for superuser cli command,jordanrfrazier,2025-07-23T15:11:06Z,2025-08-14T20:46:23+00:00,4,533.59,True,357,116,8,806,3,4,7,MERGED
+9149,fix: make cleanlab evaluator outputs not be grouped,lucaseduoli,2025-07-23T13:27:30Z,2025-07-23T18:58:52+00:00,2,5.52,True,17,3,2,1271,3,0,3,MERGED
+9148,fix: store mcp sse headers and use them on connection,lucaseduoli,2025-07-23T13:13:45Z,2025-07-26T01:29:35+00:00,3,60.26,True,1107,203,8,2253,5,1,6,MERGED
+9147,fix: update text truncation limits to allow better visibility,lucaseduoli,2025-07-23T12:35:45Z,2025-07-23T13:54:49+00:00,1,1.32,True,1,1,1,210,2,0,2,MERGED
+9146,fix: updated design of info button on files component,lucaseduoli,2025-07-23T12:30:49Z,2025-07-23T18:36:21+00:00,1,6.09,True,14,11,1,1401,3,0,3,MERGED
+9140,fix: refactor bundle and component names,lucaseduoli,2025-07-22T20:48:12Z,2025-07-23T23:27:19+00:00,5,26.65,True,415,741,54,1463,4,21,25,MERGED
+9139,feat: Add webhook user authentication under WEBHOOK_AUTH_ENABLE variable,Cristhianzl,2025-07-22T20:30:09Z,2025-08-29T18:06:17+00:00,6,909.6,True,226,41,12,2298,5,3,8,MERGED
+9137,fix: Add metadata filtering for Chroma components,Cristhianzl,2025-07-22T17:48:58Z,2025-08-01T14:44:49+00:00,3,236.93,True,90,1,2,1720,6,2,8,MERGED
+9136,docs: reduce duplicate content in contributing.md,mendonk,2025-07-22T16:55:34Z,2025-07-23T14:28:16+00:00,3,21.55,True,20,153,2,518,1,1,2,MERGED
+9133,feat: introduce lfx package,ogabrielluiz,2025-07-22T15:38:09Z,2025-09-02T17:58:55+00:00,16,1010.35,True,54353,17580,1255,3959,61,35,96,MERGED
+9131,docs: update integrations-docling.mdx,mendonk,2025-07-22T14:34:10Z,2025-07-22T15:49:59+00:00,4,1.26,True,1,1,1,243,4,1,5,MERGED
+9129,feat: Add encryption for API keys in KB ingest and retrieval,edwinjosechittilappilly,2025-07-22T11:46:19Z,2025-07-22T14:22:48+00:00,1,2.61,True,101,25,2,406,3,0,3,MERGED
+9125,feat: Add smoke tests workflow for PR validation,Yukiyukiyeah,2025-07-21T22:26:02Z,2025-07-28T18:37:39+00:00,2,164.19,True,113,0,2,610,19,1,20,MERGED
+9122,docs: user feedback items,mendonk,2025-07-21T19:08:58Z,2025-07-22T16:33:17+00:00,12,21.41,True,44,11,7,751,8,4,12,MERGED
+9120,docs: update components-helpers.mdx,mendonk,2025-07-21T13:31:30Z,2025-07-21T15:49:11+00:00,1,2.29,True,2,2,1,136,3,0,3,MERGED
+9115,"docs: Restructure navigation, refactor all component documentation, among many other things",aimurphy,2025-07-21T01:16:27Z,2025-07-23T20:31:47+00:00,5,67.26,True,4962,4998,73,1744,18,62,80,MERGED
+9111,feat: Add comprehensive tests and documentation for OpenRouter component,Highlandfury,2025-07-19T11:32:42Z,2025-09-17T23:51:58+00:00,1,1452.32,False,896,0,5,1239,2,0,2,CLOSED
+9107,feat(utils): add code hash generation and module name in Custom Components,ogabrielluiz,2025-07-18T19:07:14Z,2025-08-18T14:18:23+00:00,2,739.19,True,437,21,4,425,5,2,7,MERGED
+9105,"refactor: remove AsyncFileSink logger, add rotation support, and update docs",XiaochuanLyu,2025-07-18T08:28:42Z,2025-07-25T18:01:26+00:00,2,177.55,True,45,27,6,1531,4,0,4,MERGED
+9098,fix: Exclude base path from custom component loading,Cristhianzl,2025-07-17T21:37:41Z,2025-07-28T19:11:29+00:00,3,261.56,True,453,16,2,793,2,1,3,MERGED
+9097,PoV: Add Parquet data retrieval to KBRetrievalComponent,edwinjosechittilappilly,2025-07-17T20:12:14Z,2025-07-17T21:50:35+00:00,1,1.64,True,170,10,3,17634,1,0,1,MERGED
+9095,feat: adds authentication to mcp server under feature flag,lucaseduoli,2025-07-17T19:17:30Z,2025-07-22T20:25:18+00:00,4,121.13,True,1066,141,19,3255,3,7,10,MERGED
+9089,refactor: Update Blank Flow Name,deon-sanchez,2025-07-17T16:22:43Z,2025-07-28T16:35:33+00:00,2,264.21,True,513,18,11,268,4,0,4,MERGED
+9088,feat: Add support for Ingestion and Retrieval of Knowledge Bases,erichare,2025-07-17T13:58:53Z,2025-08-13T20:39:24+00:00,9,654.68,True,7473,605,53,1335,6,7,13,MERGED
+9084,feat: Add event manager support to RunFlowComponent,mmdsnb,2025-07-17T06:59:45Z,2025-07-23T03:02:12+00:00,1,140.04,False,1,0,1,620,1,1,2,CLOSED
+9083,feat: Add template tests,Yukiyukiyeah,2025-07-17T04:53:56Z,2025-07-28T18:45:05+00:00,2,277.85,True,1991,3,10,3368,3,2,5,MERGED
+9081,feat: added code coverage reporting,epinzur,2025-07-16T23:10:42Z,2025-07-21T14:14:23+00:00,15,111.06,True,128,1,4,335,7,5,12,MERGED
+9080,docs: endquote in code alias,mendonk,2025-07-16T21:16:30Z,2025-07-17T12:23:18+00:00,2,15.11,True,1,1,1,216,3,0,3,MERGED
+9079,docs: add deepwiki badge to readme,mendonk,2025-07-16T21:11:50Z,2025-07-17T00:04:44+00:00,3,2.88,True,1,0,1,170,1,0,1,MERGED
+9078,feat: KB - Develop Simplified UI for Backend Visualization,deon-sanchez,2025-07-16T20:17:21Z,2025-07-22T21:24:36+00:00,1,145.12,False,738,215,6,1507,1,1,2,CLOSED
+9077,refactor(session): migrate to server-based session management and add tests,edwinjosechittilappilly,2025-07-16T19:30:11Z,2025-08-09T09:40:50+00:00,18,566.18,True,1590,668,6,628,9,9,18,MERGED
+9075,docs: expand multiple outputs section to include group_outputs behavior,Victor-w-Madeira,2025-07-16T17:22:41Z,2025-07-23T14:07:14+00:00,5,164.74,True,60,0,1,1034,5,2,7,MERGED
+9074,docs: data types,mendonk,2025-07-16T15:17:31Z,2025-07-17T16:41:31+00:00,3,25.4,True,412,313,19,236,6,2,8,MERGED
+9073,docs: remove unused template,mendonk,2025-07-16T13:44:57Z,2025-07-16T14:55:17+00:00,1,1.17,True,0,1810,1,322,3,0,3,MERGED
+9069,feat: OpenAI compatibility,phact,2025-07-16T08:02:35Z,2025-08-27T02:00:38+00:00,8,1001.97,True,1657,2,10,2011,8,9,17,MERGED
+9061,fix: Prevent Authorization header on external URLs,Cristhianzl,2025-07-15T18:20:33Z,2025-07-15T23:20:35+00:00,2,5.0,True,4,4,1,524,2,0,2,MERGED
+9060,refactor: Update icon dark mode comparison,mfortman11,2025-07-15T17:24:52Z,2025-07-16T14:27:48+00:00,2,21.05,True,252,328,45,1127,2,7,9,MERGED
+9059,ref: refactor MCP-related functionality centralizing common utilities,edwinjosechittilappilly,2025-07-15T16:52:13Z,2025-07-17T19:32:38+00:00,13,50.67,True,395,518,3,2347,6,8,14,MERGED
+9057,docs: langflow 1.5 auto-login security doc,mendonk,2025-07-15T16:15:05Z,2025-07-23T14:01:51+00:00,10,189.78,True,18,7,4,349,5,11,16,MERGED
+9056,Improve documentation: Component Overview section,Victor-w-Madeira,2025-07-15T15:11:44Z,2025-07-15T17:25:35+00:00,4,2.23,True,5,0,2,762,5,2,7,MERGED
+9054,feat(database): add noop mode with config flag and update related tests,ogabrielluiz,2025-07-15T14:29:35Z,2025-07-15T17:11:13+00:00,6,2.69,True,286,39,9,475,5,3,8,MERGED
+9051,refactor(settings): add base class and group settings for unified handling,ogabrielluiz,2025-07-15T01:11:38Z,2025-07-15T18:39:57+00:00,1,17.47,False,326,56,16,1011,1,0,1,CLOSED
+9050,docs: Add heading and codeblock events for segment,mlr,2025-07-14T21:40:15Z,2025-07-15T15:27:58+00:00,2,17.8,True,407,0,3,421,6,1,7,MERGED
+9049,docs: OpenAPI spec version upgraded from 1.4.3 to 1.5.0.post1,github-actions,2025-07-14T20:05:10Z,2025-07-15T12:39:13+00:00,1,16.57,True,675,145,1,112,2,0,2,MERGED
+9048,chore: update pre-commit configuration to use local ruff hooks,ogabrielluiz,2025-07-14T19:42:43Z,2025-07-14T20:47:06+00:00,1,1.07,True,6,2,1,394,1,0,1,MERGED
+9047,docs: remove google oauth integrations,mendonk,2025-07-14T18:54:14Z,2025-07-15T17:25:35+00:00,3,22.52,True,21,80,4,619,4,0,4,MERGED
+9046,docs: clarify group components false behavior,mendonk,2025-07-14T16:08:10Z,2025-07-16T21:53:23+00:00,3,53.75,True,3,0,1,213,3,0,3,MERGED
+9042,feat: Add CustomMarkdownField wrapper component,Cristhianzl,2025-07-14T13:57:52Z,2025-07-21T14:38:31+00:00,2,168.68,True,30,2,2,1339,2,1,3,MERGED
+9041,docs: convert md to mdx,mendonk,2025-07-14T13:41:25Z,2025-07-14T14:57:23+00:00,2,1.27,True,54,54,108,324,2,0,2,MERGED
+9026,fix: add truncation to error,lucaseduoli,2025-07-12T01:53:23Z,2025-07-14T18:26:31+00:00,2,64.55,True,2,2,2,765,2,0,2,MERGED
+9022,docs: add mcp tutorial,mendonk,2025-07-11T21:54:54Z,2025-07-17T14:06:29+00:00,5,136.19,True,287,1,5,463,8,17,25,MERGED
+9019,ref: make superuser creation more multi-user friendly,jordanrfrazier,2025-07-11T17:56:41Z,2025-07-23T18:55:18+00:00,3,288.98,True,129,15,5,580,2,2,4,MERGED
+9018,fix: enhance API snippet generation with file upload support and consistent authentication,namastex888,2025-07-11T17:53:21Z,2025-07-17T23:47:01+00:00,21,149.89,True,1371,117,7,4864,15,23,38,MERGED
+9016,docs: patch versions may differ between OSS and Desktop,mendonk,2025-07-11T15:45:27Z,2025-07-14T15:31:15+00:00,4,71.76,True,4,2,2,248,8,2,10,MERGED
+9014,fix: Adjust uniqueness constraint on file names,erichare,2025-07-11T14:28:38Z,2025-08-19T21:24:16+00:00,13,942.93,True,376,14,8,493,9,2,11,MERGED
+9013,feat: Add dark mode support to JigsawStackIcon,Cristhianzl,2025-07-11T13:24:00Z,2025-07-11T20:28:04+00:00,4,7.07,True,4,2,2,437,2,1,3,MERGED
+9002,bug: fix check for server ready when using 0.0.0.0 as host,jordanrfrazier,2025-07-11T07:14:56Z,2025-07-11T13:24:56+00:00,2,6.17,True,26,153,2,311,1,1,2,MERGED
+8998,fix: Add releaseStage-aware version comparison logic,Cristhianzl,2025-07-10T23:20:47Z,2025-07-24T01:28:41+00:00,4,314.13,True,363,162,5,1328,4,2,6,MERGED
+8997,feat: Move to Biome for linting and formatting,mfortman11,2025-07-10T21:40:50Z,2025-07-15T19:02:55+00:00,4,117.37,True,2245,2684,680,158,2,1,3,MERGED
+8996,docs: Configure Segment,mlr,2025-07-10T20:56:07Z,2025-07-11T04:50:05+00:00,2,7.9,True,152,25,7,348,3,2,5,MERGED
+8992,docs: skip auth note,mendonk,2025-07-10T17:58:00Z,2025-07-10T19:01:57+00:00,2,1.07,True,1,1,1,286,3,1,4,MERGED
+8989,refactor: Improve HomePage state management and tab switching,Cristhianzl,2025-07-10T17:04:53Z,2025-07-11T14:18:47+00:00,2,21.23,True,11,2,1,1169,2,0,2,MERGED
+8988,refactor: Improve HeaderButtons state sync with userData,Cristhianzl,2025-07-10T17:03:20Z,2025-07-11T14:37:30+00:00,2,21.57,True,20,7,1,1366,2,0,2,MERGED
+8983,fix: add scroll to update components review dialog,lucaseduoli,2025-07-10T13:30:00Z,2025-07-10T15:40:07+00:00,1,2.17,True,22,20,1,756,2,0,2,MERGED
+8982,"fix: improved better health check and stream URL check on MCP, improved JSON recognition",lucaseduoli,2025-07-10T13:11:04Z,2025-07-10T17:20:02+00:00,3,4.15,True,382,142,3,1827,2,2,4,MERGED
+8977,templates: Update Vector Store RAG.json,mendonk,2025-07-10T12:34:34Z,2025-07-10T16:05:42+00:00,2,3.52,True,2,2,1,214,1,0,1,MERGED
+8976,refactor: update imports and move functions out of MCPToolsComponent,ogabrielluiz,2025-07-10T12:32:46Z,2025-07-10T13:53:56+00:00,1,1.35,True,67,67,2,559,2,0,2,MERGED
+8966,fix: make mcp server component handle cache miss gracefully,lucaseduoli,2025-07-09T21:59:01Z,2025-07-10T11:24:10+00:00,3,13.42,True,64,19,1,2012,1,1,2,MERGED
+8962,fix: Improve duplicate flow name handling and add comprehensive tests,Cristhianzl,2025-07-09T20:10:29Z,2025-07-22T17:56:23+00:00,4,309.76,True,172,1,2,2636,2,1,3,MERGED
+8961,docs: agents tutorial,mendonk,2025-07-09T20:04:38Z,2025-07-11T01:42:14+00:00,8,29.63,True,215,1,5,378,15,21,36,MERGED
+8960,fix: Update file component description for accuracy,erichare,2025-07-09T19:52:15Z,2025-07-09T23:47:45+00:00,2,3.92,True,5,5,5,264,1,0,1,MERGED
+8959,"fix: clean edges of same type but different name when switching outputs, update color when deleting edges",lucaseduoli,2025-07-09T19:23:45Z,2025-07-09T21:45:16+00:00,2,2.36,True,7,6,2,719,2,1,3,MERGED
+8957,fix: update API Access codes to include only authenticated code,lucaseduoli,2025-07-09T18:07:27Z,2025-07-09T19:07:27+00:00,1,1.0,True,24,46,5,1503,2,0,2,MERGED
+8954,fix: Ensure flow_id is not None before logging vertex build details,ogabrielluiz,2025-07-09T16:24:59Z,2025-07-09T19:31:10+00:00,1,3.1,True,17,10,2,561,2,0,2,MERGED
+8951,docs: add unix note to api pane,mendonk,2025-07-09T13:59:45Z,2025-07-10T16:19:16+00:00,2,26.33,True,6,0,1,229,3,0,3,MERGED
+8950,docs: update nv-ingest component,mendonk,2025-07-09T13:27:32Z,2025-07-09T15:41:25+00:00,5,2.23,True,28,18,1,508,3,3,6,MERGED
+8946,chore: optimize the performance of component class,edwinjosechittilappilly,2025-07-09T01:12:35Z,2025-09-05T06:50:46+00:00,1,1397.64,False,970,72,3,475,3,1,4,CLOSED
+8944,refactor: Extract single file download logic to custom hook,Cristhianzl,2025-07-08T22:27:43Z,2025-07-08T23:49:36+00:00,3,1.36,True,30,8,4,1301,2,1,3,MERGED
+8943,fix: Improve flow export error handling and validation,Cristhianzl,2025-07-08T22:25:59Z,2025-07-09T13:07:58+00:00,2,14.7,True,46,37,2,1284,2,2,4,MERGED
+8942,docs: how to add a missing dependency to langflow desktop,mendonk,2025-07-08T21:56:43Z,2025-07-10T16:15:17+00:00,5,42.31,True,34,11,3,550,5,8,13,MERGED
+8939,docs: docling integration,mendonk,2025-07-08T20:18:34Z,2025-07-10T16:48:05+00:00,5,44.49,True,152,0,3,685,8,13,21,MERGED
+8938,chore: update pre-commit hooks to latest versions,ogabrielluiz,2025-07-08T18:23:00Z,2025-07-10T18:30:04+00:00,2,48.12,True,2,2,1,358,2,1,3,MERGED
+8936,fix: Improve modal layout responsiveness and overflow handling,Cristhianzl,2025-07-08T17:23:45Z,2025-07-08T23:23:04+00:00,1,5.99,True,5,5,4,1514,2,0,2,MERGED
+8935,feat: Add dynamic theming support to WatsonxAI icon,Cristhianzl,2025-07-08T17:23:02Z,2025-07-08T22:38:54+00:00,2,5.26,True,14,2,2,1571,2,1,3,MERGED
+8934,docs: Redesigned docs welcome page,kurtenj,2025-07-08T17:08:01Z,2025-07-30T20:57:17+00:00,1,531.82,False,2980,3429,15,1060,6,5,11,CLOSED
+8933,feat: add utility to insert code field into build config dictionary,ogabrielluiz,2025-07-08T15:57:34Z,2025-07-10T18:52:27+00:00,4,50.91,True,24,1,2,184,1,1,2,MERGED
+8932,refactor(core): implement centralized dynamic lazy import system for components,ogabrielluiz,2025-07-08T15:33:29Z,2025-08-05T21:13:00+00:00,3,677.66,True,3174,232,58,745,5,3,8,MERGED
+8929,docs: rag chatbot tutorial,mendonk,2025-07-08T11:44:03Z,2025-07-10T18:13:25+00:00,11,54.49,True,225,0,4,462,14,27,41,MERGED
+8917,docs: Redesigned docs welcome page,kurtenj,2025-07-07T20:02:10Z,2025-07-07T23:14:34+00:00,1,3.21,False,3338,3841,83,1090,13,6,19,CLOSED
+8913,feat: auto-collapsing canvas controls with smooth animation,rodrigosnader,2025-07-07T19:00:04Z,2025-10-04T02:27:33+00:00,1,2119.46,False,121,37,1,1257,4,1,5,CLOSED
+8912,fix: add description to API Access dialog and link it to API Keys on settings,lucaseduoli,2025-07-07T18:44:06Z,2025-07-07T21:06:57+00:00,2,2.38,True,17,37,3,1166,2,0,2,MERGED
+8911,"fix: reset files count after deletion, enable files filtering by column",lucaseduoli,2025-07-07T18:29:29Z,2025-07-07T21:03:41+00:00,3,2.57,True,18,2,2,1137,2,1,3,MERGED
+8910,refactor: Extract bulk download logic to custom hook,Cristhianzl,2025-07-07T16:54:11Z,2025-07-07T18:38:07+00:00,2,1.73,True,45,21,2,1612,2,3,5,MERGED
+8909,fix: don't send duplicate messages to Agent,ogabrielluiz,2025-07-07T16:14:54Z,2025-07-08T02:02:35+00:00,4,9.79,True,232,46,26,800,8,1,9,MERGED
+8908,fix: health check for mcp server,phact,2025-07-07T15:40:27Z,2025-07-07T19:07:14+00:00,1,3.45,True,19,53,1,1159,1,0,1,MERGED
+8907,fix: Improve AppHeader layout responsiveness glitch,Cristhianzl,2025-07-07T14:34:22Z,2025-07-07T16:28:36+00:00,2,1.9,True,3,3,1,770,2,0,2,MERGED
+8906,fix: updates Youtube Analysis template error message,edwinjosechittilappilly,2025-07-07T14:32:40Z,2025-07-07T15:33:28+00:00,3,1.01,True,524,860,1,107,1,1,2,MERGED
+8905,chore(deps): update pyleak version and activate pyleak_marker in tests,ogabrielluiz,2025-07-07T13:34:13Z,2025-07-07T15:39:57+00:00,1,2.1,True,9,13,4,278,1,0,1,MERGED
+8903,docs: add windows related content,mendonk,2025-07-07T13:04:18Z,2025-07-10T16:15:17+00:00,5,75.18,True,161,46,2,453,7,13,20,MERGED
+8900,docs: add agent docs link from component,mendonk,2025-07-07T10:19:19Z,2025-07-07T16:29:23+00:00,1,6.17,True,2,1,2,270,1,0,1,MERGED
+8896,Fix extra space share button,rodrigosnader,2025-07-07T05:33:18Z,2025-10-04T02:29:08+00:00,1,2132.93,False,1,11,2,109,2,2,4,CLOSED
+8895,fix: prevent unintentional sidebar text selection,rodrigosnader,2025-07-07T05:21:46Z,2025-07-28T15:55:29+00:00,2,514.56,True,16,6,7,612,7,0,7,MERGED
+8890,fix: handle EventLoopBlockError in CI to fix non-deterministic test failures,jordanrfrazier,2025-07-06T21:39:25Z,2025-07-07T13:30:26+00:00,1,15.85,True,1038,778,6,376,1,0,1,MERGED
+8889,feat: add powershell curl tab to UI,jordanrfrazier,2025-07-06T19:52:42Z,2025-07-07T20:52:48+00:00,2,25.0,True,1104,946,20,698,3,0,3,MERGED
+8885,fix: langwatch component initialization and some QoL,jordanrfrazier,2025-07-05T19:29:16Z,2025-07-07T13:56:18+00:00,2,42.45,True,515,141,6,445,1,1,2,MERGED
+8884,fix: add launcher script to wrap langflow startup,jordanrfrazier,2025-07-05T16:36:10Z,2025-07-07T13:39:27+00:00,2,45.05,True,132,112,3,2100,1,3,4,MERGED
+8880,"docs: Revise some content related to flow triggers, including the webhook trigger process and some /run endpoint examples.",aimurphy,2025-07-04T18:53:40Z,2025-07-07T16:43:40+00:00,5,69.83,True,181,94,6,1367,7,6,13,MERGED
+8868,feat: update Composio components,abhishekpatil4,2025-07-03T21:06:53Z,2025-08-18T15:57:13+00:00,5,1098.84,True,1753,4631,54,1229,22,23,45,MERGED
+8866,docs: add windows desktop back for 1.5 release,mendonk,2025-07-03T18:04:05Z,2025-07-10T15:47:04+00:00,2,165.72,True,29,1,2,379,3,2,5,MERGED
+8865,fix: enable tool mode only if a server is selected,lucaseduoli,2025-07-03T17:15:41Z,2025-07-03T18:45:59+00:00,4,1.5,True,5,2,1,1238,1,2,3,MERGED
+8864,fix: not allow selecting texts that shouldn't be selectable,lucaseduoli,2025-07-03T17:01:47Z,2025-07-03T18:12:26+00:00,3,1.18,True,8,0,1,596,2,1,3,MERGED
+8863,fix: correct icon casing for MariTalk,deon-sanchez,2025-07-03T16:50:15Z,2025-07-03T18:45:59+00:00,2,1.93,True,1,1,1,328,2,1,3,MERGED
+8862,feat: add `serve` command to CLI,ogabrielluiz,2025-07-03T16:29:03Z,2025-08-02T13:19:24+00:00,1,716.84,False,5410,37,27,2106,13,8,21,CLOSED
+8861,feat: Add Windows build and run automation scripts,Cristhianzl,2025-07-03T16:14:40Z,2025-07-03T19:53:04+00:00,2,3.64,True,168,0,2,1519,1,4,5,MERGED
+8860,"fix: make MCP naming changes, change actions to tools",lucaseduoli,2025-07-03T15:55:21Z,2025-07-03T18:15:13+00:00,1,2.33,True,30,30,10,3762,2,0,2,MERGED
+8858,"fix: added error width limitation, truncation and tooltip on MCP dialog",lucaseduoli,2025-07-03T15:15:19Z,2025-07-03T18:05:14+00:00,1,2.83,True,15,4,1,692,2,1,3,MERGED
+8855,fix: metadata serialization in AstraDB vector store,italojohnny,2025-07-03T13:26:00Z,2025-07-03T14:32:21+00:00,3,1.11,True,9,3,3,788,1,0,1,MERGED
+8850,docs: link components to docs pages,mendonk,2025-07-03T10:30:12Z,2025-07-03T21:20:39+00:00,5,10.84,True,35,1,34,360,1,3,4,MERGED
+8847,feat(api): add special handling for _mcp_servers file uploads and improve tests,edwinjosechittilappilly,2025-07-03T05:17:17Z,2025-07-04T16:30:44+00:00,3,35.22,True,239,47,6,588,1,1,2,MERGED
+8846,feat: add clipboard import support for table component,rodrigosnader,2025-07-03T04:42:50Z,2025-07-03T14:42:01+00:00,2,9.99,True,602,0,2,507,2,2,4,MERGED
+8845,docs: Repurpose Concepts section to focus on the visual editor and flows,aimurphy,2025-07-03T03:38:49Z,2025-07-11T01:26:28+00:00,7,189.79,True,1434,1037,47,2350,17,17,34,MERGED
+8842,feat: add DataFrame output to Structured Output component,rodrigosnader,2025-07-03T01:58:50Z,2025-07-09T22:13:24+00:00,3,164.24,True,424,18,7,1695,7,5,12,MERGED
+8840,"docs: Implement custom navbar, update footer/global styles",kurtenj,2025-07-02T22:00:31Z,2025-07-30T19:49:39+00:00,2,669.82,False,2371,3419,6,681,3,2,5,CLOSED
+8839,fix: resolve circular import in Component class,rodrigosnader,2025-07-02T21:37:49Z,2025-07-07T16:14:46+00:00,2,114.62,True,11,2,1,2324,1,0,1,MERGED
+8838,feat: enhance DataFrame Operations component with contains filter and modern UI,rodrigosnader,2025-07-02T21:35:49Z,2025-07-09T22:03:46+00:00,4,168.47,True,509,84,2,2664,2,1,3,MERGED
+8837,ref: improve docling template updates and error message,jordanrfrazier,2025-07-02T21:33:04Z,2025-07-03T14:10:42+00:00,3,16.63,True,98,76,7,684,1,3,4,MERGED
+8836,feat: Add dual output support to Agent component with structured JSON parsing,rodrigosnader,2025-07-02T21:20:18Z,2025-07-21T16:52:42+00:00,3,451.54,True,377,228,18,2642,4,0,4,MERGED
+8835,refactor: Improve async handling and file clearing logic,Cristhianzl,2025-07-02T20:29:30Z,2025-07-04T20:28:15+00:00,4,47.98,True,13,22,4,1348,2,1,3,MERGED
+8833,feat(cli): add execute command for running Langflow graphs from scripts or JSON,ogabrielluiz,2025-07-02T16:40:06Z,2025-08-02T13:19:33+00:00,1,740.66,False,1795,65,23,847,6,3,9,CLOSED
+8832,feat: jigsawstack bundle integration,Khurdhula-Harshavardhan,2025-07-02T16:33:06Z,2025-07-09T20:14:33+00:00,9,171.69,True,1356,0,20,2184,4,15,19,MERGED
+8831,feat: update prompts and error messages in StructuredOutputComponent,edwinjosechittilappilly,2025-07-02T15:39:46Z,2025-07-18T16:41:04+00:00,4,385.02,False,1501,1635,8,512,2,1,3,CLOSED
+8830,feat: Add image upload support with file path handling,Cristhianzl,2025-07-02T15:35:23Z,2025-07-04T14:11:08+00:00,2,46.6,True,216,121,31,1267,2,2,4,MERGED
+8827,fix: Exclude text selections from flow actions in PageComponent,Cristhianzl,2025-07-02T12:37:48Z,2025-07-04T17:30:48+00:00,2,52.88,True,5,1,1,714,2,0,2,MERGED
+8824,ref: sidebar experience improvement with new bundles,edwinjosechittilappilly,2025-07-02T07:40:46Z,2025-07-02T20:26:05+00:00,2,12.76,True,261,235,84,1214,7,4,11,MERGED
+8823,ref:  Portfolio Website Code Generator template,edwinjosechittilappilly,2025-07-02T07:04:03Z,2025-07-02T19:04:22+00:00,2,12.01,True,1176,1248,3,205,5,0,5,MERGED
+8821,ref: Research Translation Loop template,edwinjosechittilappilly,2025-07-02T06:41:36Z,2025-07-02T18:58:13+00:00,2,12.28,True,94,242,1,1658,3,1,4,MERGED
+8819,ref: Delete meeting summary,edwinjosechittilappilly,2025-07-02T06:22:56Z,2025-07-02T17:09:16+00:00,1,10.77,True,0,3654,2,641,2,0,2,MERGED
+8818,docs: Fix broken link,aimurphy,2025-07-01T21:54:28Z,2025-07-02T17:20:58+00:00,1,19.44,True,2,2,1,169,4,0,4,MERGED
+8817,bug: Unformatted curl requests in API Access menu,deon-sanchez,2025-07-01T21:28:03Z,2025-07-02T18:03:39+00:00,2,20.59,True,1,1,1,304,2,0,2,MERGED
+8816,refactor: Update template notes,mfortman11,2025-07-01T20:49:25Z,2025-07-02T15:50:47+00:00,2,19.02,True,699,1163,7,712,1,1,2,MERGED
+8814,refactor: reuse single session when getting variables from db,deon-sanchez,2025-07-01T19:51:49Z,2025-07-03T15:06:48+00:00,4,43.25,True,37,30,4,3085,2,4,6,MERGED
+8813,docs: chatbot with files tutorial,mendonk,2025-07-01T19:51:11Z,2025-07-10T17:05:42+00:00,11,213.24,True,247,0,4,506,20,68,88,MERGED
+8812,feat(telemetry): add client_type field and remove desktop from payloads,ogabrielluiz,2025-07-01T16:47:30Z,2025-09-25T20:25:58+00:00,1,2067.64,True,964,9,6,525,6,0,6,MERGED
+8809,fix(graph): fixes bug that caused simple flows with Loop to fail,ogabrielluiz,2025-07-01T15:30:25Z,2025-07-03T14:51:37+00:00,1,47.35,True,323,89,15,806,3,0,3,MERGED
+8806,fix: updated Run Flow to not group outputs,lucaseduoli,2025-07-01T13:49:20Z,2025-07-01T19:07:39+00:00,2,5.31,True,5,1,1,858,1,0,1,MERGED
+8804,feat: enhance DataOperations component with JSON Path and JSON Query,Empreiteiro,2025-07-01T13:23:37Z,2025-08-25T18:57:18+00:00,1,1325.56,False,155,66,1,1940,1,4,5,CLOSED
+8803,feat: Add menu customization with copy functionality,Cristhianzl,2025-07-01T13:20:52Z,2025-07-04T13:52:01+00:00,3,72.52,True,245,7,5,1788,2,1,3,MERGED
+8801,style: Adjust copy button position in APITabsComponent,Cristhianzl,2025-07-01T12:06:22Z,2025-07-01T17:22:16+00:00,2,5.26,True,1,1,1,280,1,0,1,MERGED
+8796,fix: fixes auth check for auto_login ,jordanrfrazier,2025-07-01T03:15:55Z,2025-07-01T10:01:09+00:00,1,6.75,True,4,4,1,327,1,0,1,MERGED
+8793,fix: updated folder name to not be the deprecated,lucaseduoli,2025-06-30T23:07:12Z,2025-07-02T19:34:58+00:00,6,44.46,True,93,46,13,763,4,1,5,MERGED
+8792,"fix: make MCP display loading states when loading tools, surface errors on MCP, sanitize MCP names",lucaseduoli,2025-06-30T22:57:22Z,2025-07-02T15:46:35+00:00,7,40.82,True,797,315,21,2677,4,7,11,MERGED
+8790,fix: Fix broken state from an invalid folderId in the path,mfortman11,2025-06-30T21:32:03Z,2025-07-01T12:26:11+00:00,2,14.9,True,15,2,2,661,1,1,2,MERGED
+8786,feat: add new openai reasoning models,jordanrfrazier,2025-06-30T18:58:31Z,2025-07-07T14:12:54+00:00,9,163.24,True,3676,59,29,691,8,10,18,MERGED
+8785,fix: Template updates to fix broken edges,edwinjosechittilappilly,2025-06-30T18:34:48Z,2025-06-30T19:56:36+00:00,2,1.36,True,270,232,3,588,4,0,4,MERGED
+8776,fix(parser): enable nested key access in template rendering,lucasolopes,2025-06-29T21:48:04Z,2025-07-05T22:09:47+00:00,1,144.36,False,31,7,5,309,1,0,1,CLOSED
+8773,feat: clean messages table after run in flow_runner,barnuri,2025-06-29T14:47:51Z,2025-07-01T11:59:43+00:00,1,45.2,True,29,44,2,1356,1,0,1,MERGED
+8768,templates: add note to hybrid search rag,mendonk,2025-06-27T21:34:33Z,2025-06-30T19:57:41+00:00,2,70.39,True,116,70,1,475,1,0,1,MERGED
+8766,docs: link components to docs pages,mendonk,2025-06-27T15:43:06Z,2025-07-03T10:32:47+00:00,1,138.83,False,2638,2157,112,749,4,15,19,CLOSED
+8763,docs: icon audit,mendonk,2025-06-27T13:27:01Z,2025-06-30T20:54:05+00:00,6,79.45,True,56,58,16,771,5,4,9,MERGED
+8761,docs: redirect link from template,mendonk,2025-06-27T12:46:54Z,2025-06-27T22:15:00+00:00,2,9.47,True,4,0,1,290,4,0,4,MERGED
+8756,feat: update if-else component,Yukiyukiyeah,2025-06-27T05:25:28Z,2025-07-02T23:07:39+00:00,2,137.7,True,118,56,3,1960,1,0,1,MERGED
+8755,chore(docs): remove pull script and cross-var from package.json,ogabrielluiz,2025-06-26T20:41:24Z,2025-06-27T14:38:41+00:00,3,17.95,True,25,928,2,220,2,0,2,MERGED
+8754,feat: Clear handles from advanced fields on code update,Cristhianzl,2025-06-26T19:27:25Z,2025-06-26T21:16:37+00:00,2,1.82,True,133,4,5,1855,1,1,2,MERGED
+8753,fix: mcp command,edwinjosechittilappilly,2025-06-26T19:19:05Z,2025-06-27T00:44:07+00:00,1,5.42,False,1,1,1,576,1,1,2,CLOSED
+8752,fix: update templates api keys,Yukiyukiyeah,2025-06-26T17:40:44Z,2025-06-27T21:18:56+00:00,4,27.64,True,98,95,25,696,1,2,3,MERGED
+8749,feat: add Windsurf to MCP one-click install,lucaseduoli,2025-06-26T16:10:23Z,2025-06-26T19:58:09+00:00,1,3.8,True,66,2,7,1974,2,0,2,MERGED
+8748,test(cli): refactor test_components_path to use async thread and free port,edwinjosechittilappilly,2025-06-26T15:59:19Z,2025-06-26T19:14:28+00:00,2,3.25,True,36,4,1,392,3,3,6,MERGED
+8746,docs: missing period in docker command,mendonk,2025-06-26T13:10:58Z,2025-06-26T15:12:49+00:00,1,2.03,True,1,1,1,135,4,0,4,MERGED
+8743,fix: improves table formatting in the playground and adds Jest tests,deon-sanchez,2025-06-25T23:18:40Z,2025-06-30T21:26:25+00:00,3,118.13,True,11516,6585,10,2552,1,0,1,MERGED
+8738,fix: adds handling for WSL on installing MCP on Claude on Windows,lucaseduoli,2025-06-25T19:45:15Z,2025-06-26T14:39:04+00:00,2,18.9,True,130,11,2,1598,1,2,3,MERGED
+8737,feat: add module and code hash to component's metadata,ogabrielluiz,2025-06-25T19:05:38Z,2025-07-18T18:24:21+00:00,10,551.31,True,863,165,35,445,3,10,13,MERGED
+8735,fix(components): exclude base path from component loading and refine caching,ogabrielluiz,2025-06-25T17:49:47Z,2025-06-25T19:08:01+00:00,2,1.3,True,12,4,1,303,3,0,3,MERGED
+8734,Docs: Revise component overview page,aimurphy,2025-06-25T17:32:23Z,2025-06-30T22:00:06+00:00,2,124.46,True,137,176,10,795,9,0,9,MERGED
+8733,Specify Python version for Render,UDAY-CHAITANYA-G,2025-06-25T17:30:34Z,2025-06-25T20:07:38+00:00,1,2.62,False,0,0,0,311,1,1,2,CLOSED
+8732,style: Add line breaks before banner display,Cristhianzl,2025-06-25T17:30:13Z,2025-06-25T19:08:01+00:00,1,1.63,True,2,0,1,667,1,0,1,MERGED
+8729,fix: handle Message objects in build_output by extracting text attribute,edwinjosechittilappilly,2025-06-25T15:51:10Z,2025-06-25T18:03:17+00:00,1,2.2,True,5,1,1,250,2,0,2,MERGED
+8728,chore: suppress linter warning and rename variable in DataFrame operations,edwinjosechittilappilly,2025-06-25T12:57:27Z,2025-06-25T15:29:56+00:00,9,2.54,True,11,15,2,229,3,1,4,MERGED
+8727,chore(workflow): comment out Docker build step for langflow-all in nightly release,ogabrielluiz,2025-06-25T12:51:05Z,2025-06-26T17:37:51+00:00,2,28.78,True,10,9,1,238,1,0,1,MERGED
+8722,fix(converter): add explicit Message type check in convert_to_data function,edwinjosechittilappilly,2025-06-24T23:23:56Z,2025-06-25T19:36:52+00:00,5,20.22,True,395,695,3,276,1,1,2,MERGED
+8721,docs: add required API key headers for 1.5,mendonk,2025-06-24T22:19:21Z,2025-07-10T15:30:41+00:00,51,377.19,True,362,178,22,772,32,81,113,MERGED
+8720,fix: changed design of Input Schema to improve usability,lucaseduoli,2025-06-24T21:47:47Z,2025-06-26T15:34:22+00:00,1,41.78,True,36,20,5,2297,1,0,1,MERGED
+8719,feat(makefile): add patch target for automated version management,ogabrielluiz,2025-06-24T21:38:24Z,2025-06-24T23:23:59+00:00,2,1.76,True,65,0,1,243,1,2,3,MERGED
+8718,Fix: Update display time for very short operations and fix outputs and titles for tool calling executions,mfortman11,2025-06-24T21:05:20Z,2025-06-24T23:20:41+00:00,3,2.26,True,34,7,2,626,3,2,5,MERGED
+8717,"fix: add error handling and message on mcp servers, fixed tool mode on mcp",lucaseduoli,2025-06-24T20:08:04Z,2025-06-26T22:34:00+00:00,10,50.43,True,176,43,14,1723,5,3,8,MERGED
+8716,fix: implemented cycle check on isValidConnection,lucaseduoli,2025-06-24T19:51:27Z,2025-06-26T14:23:13+00:00,2,42.53,True,64,15,1,1194,1,0,1,MERGED
+8715,refactor(agent): standardize memory handling and update chat history logic,edwinjosechittilappilly,2025-06-24T19:46:06Z,2025-06-25T16:57:01+00:00,4,21.18,True,8853,17764,25,696,4,5,9,MERGED
+8714,fix: update docling dependency to use docling_core instead,ogabrielluiz,2025-06-24T19:18:37Z,2025-06-26T00:07:33+00:00,1,28.82,True,40,26,3,217,1,0,1,MERGED
+8713,docs: update superuser auth documentation,jordanrfrazier,2025-06-24T19:08:28Z,2025-06-26T15:16:31+00:00,1,44.13,True,14,14,2,300,1,0,1,MERGED
+8712,docs: quick guide for public deployment,mendonk,2025-06-24T18:31:37Z,2025-07-03T21:22:51+00:00,11,218.85,True,153,79,3,477,12,38,50,MERGED
+8711,fix: make not filled required fields be validated before sending to the backend,lucaseduoli,2025-06-24T18:14:07Z,2025-06-26T16:50:21+00:00,2,46.6,True,109,44,10,1977,1,0,1,MERGED
+8708,fix: Clean up some more base templates,Yukiyukiyeah,2025-06-24T15:26:02Z,2025-06-24T17:47:13+00:00,3,2.35,True,3170,3602,7,796,1,0,1,MERGED
+8706,fix: Clean up some more base templates,erichare,2025-06-24T14:52:58Z,2025-06-24T18:24:57+00:00,3,3.53,True,619,978,3,572,1,3,4,MERGED
+8702,Fix: correct ChatInput import path in conftest.py,ElBaldo1,2025-06-24T09:28:26Z,2025-09-15T08:51:43+00:00,2,1991.39,False,1,1,1,1047,3,0,3,CLOSED
+8698,build(deps): bump pbkdf2 from 3.1.2 to 3.1.3 in /docs,dependabot,2025-06-24T05:12:01Z,2025-06-24T15:26:35+00:00,1,10.24,True,326,490,1,3099,2,0,2,MERGED
+8697,fix: templated did not auto update the model and api key fields,Yukiyukiyeah,2025-06-24T01:00:01Z,2025-06-24T07:55:15+00:00,2,6.92,True,27,27,4,2061,3,0,3,MERGED
+8696,fix: flows title on dashboard are truncating too soon,deon-sanchez,2025-06-24T00:41:04Z,2025-06-24T18:14:44+00:00,2,17.56,True,7,5,2,1122,1,0,1,MERGED
+8695,chore: move goodbye message to main process,jordanrfrazier,2025-06-23T22:49:21Z,2025-06-24T15:38:02+00:00,2,16.81,True,47,19,4,630,1,0,1,MERGED
+8694,fix: Set api keys to not required for Agent component to properly expose errors to the playground,mfortman11,2025-06-23T22:35:51Z,2025-06-24T21:19:28+00:00,1,22.73,True,2,0,1,428,2,0,2,MERGED
+8691,"Docs: Add MCP to README, fix a few typos",aimurphy,2025-06-23T21:26:26Z,2025-06-26T12:32:19+00:00,4,63.1,True,6,5,3,572,1,1,2,MERGED
+8689,refactor: update input component structure and remove obsolete global…,deon-sanchez,2025-06-23T20:11:18Z,2025-08-12T19:13:38+00:00,1,1199.04,False,239,21,7,498,1,3,4,CLOSED
+8688,fix: update Textarea component to prevent resizing in textOutputView,deon-sanchez,2025-06-23T20:11:01Z,2025-06-25T19:07:08+00:00,1,46.94,True,1,2,1,377,1,0,1,MERGED
+8687,docs: OpenAPI spec version upgraded from 1.4.2 to 1.4.3,github-actions,2025-06-23T20:05:43Z,2025-06-23T22:07:42+00:00,1,2.03,True,1,1,1,100,2,0,2,MERGED
+8683,fix: Replace Google with GoogleGenerativeAI in provider options,Cristhianzl,2025-06-23T17:08:32Z,2025-06-23T19:09:56+00:00,4,2.02,True,14,14,7,471,1,1,2,MERGED
+8682,docs: move smart filter to be alphabetical,mendonk,2025-06-23T16:55:30Z,2025-06-23T18:30:50+00:00,2,1.59,True,34,34,1,286,2,0,2,MERGED
+8681,chore: remove ragstack-ai-knowledge-store dep,jordanrfrazier,2025-06-23T15:52:46Z,2025-06-23T17:34:29+00:00,1,1.7,True,3960,5703,2,111,1,0,1,MERGED
+8680,fix: make json edit modal have fixed height and be readOnly if its on View mode,lucaseduoli,2025-06-23T15:29:01Z,2025-06-23T18:40:21+00:00,2,3.19,True,5,4,1,1001,1,0,1,MERGED
+8679,"fix: make notes size consistent when editing, add char limit to description, fix design of search bar on templates modal",lucaseduoli,2025-06-23T15:14:29Z,2025-06-23T21:00:37+00:00,2,5.77,True,23,39,4,3542,1,1,2,MERGED
+8678,fix: make not connected edges be cleared when entering flow,lucaseduoli,2025-06-23T14:36:07Z,2025-06-26T13:29:10+00:00,3,70.88,True,25,4,3,1180,1,2,3,MERGED
+8676,fix: make playground scroll not scroll down when not needed,lucaseduoli,2025-06-23T14:10:04Z,2025-06-23T18:40:05+00:00,2,4.5,True,17,8,2,1797,1,1,2,MERGED
+8674,refactor(api): update /config endpoint to use ConfigResponse.from_settings,ogabrielluiz,2025-06-23T13:43:19Z,2025-07-14T17:34:10+00:00,1,507.85,True,67,63,3,344,3,0,3,MERGED
+8671,"test: update backend config, frontend utilities, and test coverage",Cristhianzl,2025-06-23T12:54:45Z,2025-06-23T19:10:51+00:00,6,6.27,True,17,3,2,1528,1,1,2,MERGED
+8667,refactor: reorganize components and update PromptComponent with priority attribute,edwinjosechittilappilly,2025-06-22T20:11:07Z,2025-06-27T17:12:50+00:00,3,117.03,True,234,218,96,619,1,0,1,MERGED
+8665,feat: add drop duplicates operation to DataFrameOperationsComponent,edwinjosechittilappilly,2025-06-22T19:37:02Z,2025-06-24T23:18:24+00:00,4,51.69,True,43,29,1,279,1,1,2,MERGED
+8662,docs: Build out Troubleshooting and Support documentation,aimurphy,2025-06-21T18:19:48Z,2025-06-23T16:27:30+00:00,2,46.13,True,303,208,9,1476,4,1,5,MERGED
+8661,docs: Fix two anchored links on the Install page,aimurphy,2025-06-21T15:33:42Z,2025-06-23T15:25:22+00:00,4,47.86,True,2,2,1,192,6,0,6,MERGED
+8658,"docs: Separate monolithic API examples page, and add getting started with the Langflow API",aimurphy,2025-06-21T00:37:39Z,2025-06-23T21:11:07+00:00,9,68.56,True,2603,2626,23,1053,10,22,32,MERGED
+8655,chore: add detect-secrets pre-commit hook and baseline file,ogabrielluiz,2025-06-20T19:22:57Z,2025-09-30T20:01:43+00:00,2,2448.65,True,1411,0,2,195,2,0,2,MERGED
+8654,fix: include folder name in default download filename,Cristhianzl,2025-06-20T18:50:01Z,2025-06-24T20:36:49+00:00,2,97.78,True,5,1,1,723,1,0,1,MERGED
+8649,fix: added props to all icons and added width and height defs to node icon,lucaseduoli,2025-06-20T15:29:20Z,2025-06-23T18:24:21+00:00,3,74.92,True,34,141,52,1704,1,0,1,MERGED
+8648,fix: add max note node width,lucaseduoli,2025-06-20T14:15:32Z,2025-06-20T15:57:07+00:00,2,1.69,True,10,6,4,2127,1,0,1,MERGED
+8646,fix: adds add button visibility condition on ListSelectionComponent,lucaseduoli,2025-06-20T13:50:47Z,2025-06-20T15:24:21+00:00,1,1.56,True,11,9,1,365,1,0,1,MERGED
+8645,fix: implement locked flow interaction restrictions,Cristhianzl,2025-06-20T13:48:33Z,2025-06-23T19:05:16+00:00,2,77.28,True,120,14,3,2386,1,1,2,MERGED
+8644,docs: add tip about icon usage with Lucide in custom components doc,Victor-w-Madeira,2025-06-20T13:26:35Z,2025-06-20T16:54:46+00:00,2,3.47,True,4,0,1,292,4,1,5,MERGED
+8640,feat: integration JigsawStack services into langflow.,Khurdhula-Harshavardhan,2025-06-20T07:01:10Z,2025-07-02T17:53:18+00:00,1,298.87,False,60759,59242,474,1701,5,12,17,CLOSED
+8636,fix: ensure PdfReader is closed,roudy16,2025-06-19T21:54:23Z,2025-06-20T15:11:04+00:00,1,17.28,True,1,2,1,491,1,0,1,MERGED
+8631,fix: add a lock check on starter project initialization,jordanrfrazier,2025-06-19T07:43:34Z,2025-06-24T19:13:44+00:00,2,131.5,True,414,426,4,767,1,1,2,MERGED
+8629,ci: change nightly to run in UTC time to fix nightly-status check,jordanrfrazier,2025-06-19T05:56:20Z,2025-06-20T14:34:27+00:00,1,32.64,True,2,2,1,497,1,0,1,MERGED
+8628,fix: implemented cached values and temporary MCP servers on MCP component,lucaseduoli,2025-06-18T23:51:49Z,2025-06-23T14:38:29+00:00,2,110.78,True,282,83,9,2886,3,4,7,MERGED
+8625,feat: Better multi-file consistency for File Component,erichare,2025-06-18T21:52:51Z,2025-06-26T21:25:31+00:00,3,191.54,True,2808,3093,18,691,5,2,7,MERGED
+8624,docs: fix typos in Structured Output section,Victor-w-Madeira,2025-06-18T19:49:58Z,2025-06-19T18:00:49+00:00,1,22.18,True,2,2,1,319,2,0,2,MERGED
+8623,fix: Allow non-verified SSL connections in Elastic,erichare,2025-06-18T18:45:42Z,2025-06-23T17:22:58+00:00,2,118.62,True,28,0,1,299,3,1,4,MERGED
+8622,fix: Restore Prompt Component functionality by disallowing use of {code} template variable,erichare,2025-06-18T17:58:45Z,2025-06-20T20:01:15+00:00,2,50.04,True,1,0,1,317,1,0,1,MERGED
+8621,feat(huggingface): add langchain-huggingface dependency and update HuggingFace model component,Miciox5,2025-06-18T17:12:36Z,2025-06-18T21:28:32+00:00,1,4.27,False,10976,4934,94,740,1,8,9,CLOSED
+8620,refactor: Remove Flow description from project view,mfortman11,2025-06-18T15:57:27Z,2025-06-18T17:14:41+00:00,1,1.29,True,0,5,1,139,1,0,1,MERGED
+8619,test: add test id to frozen icon and streamline freeze functionality test,ogabrielluiz,2025-06-18T15:42:08Z,2025-06-20T18:34:11+00:00,2,50.87,True,29,239,3,233,1,2,3,MERGED
+8618,refactor(setup): generalize tool/agent node logic and update starter templates,edwinjosechittilappilly,2025-06-18T14:26:25Z,2025-06-20T19:01:49+00:00,5,52.59,True,2232,2731,9,736,1,1,2,MERGED
+8616,refactor: replace hardcoded serialization constants with getter functions,ogabrielluiz,2025-06-18T13:19:56Z,2025-06-18T16:47:04+00:00,3,3.45,True,123,27,7,402,5,1,6,MERGED
+8613,feat: add Currency Converter component with live/historical modes,harshchan,2025-06-18T12:30:52Z,2025-07-27T17:24:26+00:00,2,940.89,False,135,1,3,1218,1,10,11,CLOSED
+8606,fix: change constant MAX_TEXT_LENGTH to be consistent with the frontend,tianzhipeng-git,2025-06-18T08:21:43Z,2025-06-18T12:48:53+00:00,1,4.45,False,1,1,1,136,2,0,2,CLOSED
+8602,chore(ci): reduce max frontend test shards from 40 to 25 in workflow,edwinjosechittilappilly,2025-06-18T01:15:43Z,2025-07-23T17:33:18+00:00,2,856.29,False,3,3,1,168,1,0,1,CLOSED
+8600,docs: added CVE alert,crtr0,2025-06-17T19:51:35Z,2025-06-18T12:58:09+00:00,2,17.11,True,2,0,1,224,1,0,1,MERGED
+8599,fix: Set status properly for Type Convert,edwinjosechittilappilly,2025-06-17T18:54:29Z,2025-06-17T20:29:09+00:00,2,1.58,True,50,44,5,508,1,0,1,MERGED
+8597,refactor: remove conditional voice mode support from backend and frontend,ogabrielluiz,2025-06-17T18:47:38Z,2025-06-18T12:34:45+00:00,2,17.79,True,22,46,10,507,1,2,3,MERGED
+8596,feat: add sessions endpoint with session management enhancements,Cristhianzl,2025-06-17T18:37:31Z,2025-06-23T14:24:32+00:00,10,139.78,True,672,65,19,3101,3,14,17,MERGED
+8594, feat: use getaddrinfo to handle ipv4 and ipv6 loopback addresses on startup #8548 ,jordanrfrazier,2025-06-17T18:31:28Z,2025-06-17T20:21:13+00:00,2,1.83,True,18,28,1,386,1,1,2,MERGED
+8592,fix: Properly parse CURL commands for api request,erichare,2025-06-17T16:14:51Z,2025-06-17T17:18:09+00:00,7,1.05,True,18,14,1,556,5,5,10,MERGED
+8590,refactor: simplify init target by removing cache cleanup and adding pre-commit hook,ogabrielluiz,2025-06-17T15:46:12Z,2025-06-23T13:59:47+00:00,8,142.23,True,7,4,4,395,1,2,3,MERGED
+8589,docs: link components to docs pages,mendonk,2025-06-17T14:58:33Z,2025-06-27T15:43:27+00:00,2,240.75,False,2791,2034,123,1178,10,15,25,CLOSED
+8588,feat: add is_active flag to model providers and update provider filtering,edwinjosechittilappilly,2025-06-17T14:54:08Z,2025-06-24T07:09:57+00:00,4,160.26,True,48,114,18,552,8,2,10,MERGED
+8585,feat: update structured output to multiline input and revise system prompt,edwinjosechittilappilly,2025-06-17T13:36:33Z,2025-06-23T14:02:06+00:00,8,144.43,True,12,13,6,391,1,6,7,MERGED
+8583,feat: update input_value field to use MultilineInput,edwinjosechittilappilly,2025-06-17T13:11:34Z,2025-06-20T20:04:00+00:00,1,78.87,True,72,71,6,315,1,0,1,MERGED
+8582,docs: refresh quickstart,mendonk,2025-06-17T12:44:40Z,2025-06-20T21:40:42+00:00,20,80.93,True,506,176,5,813,15,39,54,MERGED
+8576,fix: prevent SQLite error in advanced run flow API,reidab,2025-06-17T06:36:36Z,2025-06-17T11:50:04+00:00,2,5.22,True,5685,3959,2,693,3,0,3,MERGED
+8574,feat: Text Merge From Two Source,rockerritesh,2025-06-17T06:13:42Z,2025-09-20T16:13:53+00:00,1,2290.0,False,43,0,2,1654,1,2,3,CLOSED
+8569,fix: update several other templates,Yukiyukiyeah,2025-06-17T02:13:25Z,2025-06-23T20:56:11+00:00,3,162.71,True,224,216,2,1194,2,2,4,MERGED
+8567,docs: Promote MCP content in the left nav and revise the MCP connection component docs,aimurphy,2025-06-17T00:06:54Z,2025-06-20T16:44:00+00:00,5,88.62,True,154,126,7,948,8,5,13,MERGED
+8566,docs: refactor quickstart,mendonk,2025-06-16T22:57:13Z,2025-06-17T12:33:24+00:00,1,13.6,False,446,13857,5,228,8,8,16,CLOSED
+8565,fix: Show 1000 rows of DataFrame and properly display number truncated,erichare,2025-06-16T20:24:37Z,2025-06-20T21:02:34+00:00,6,96.63,True,2,1,2,268,1,1,2,MERGED
+8564,fix: code snippet allows horizontal scroll,deon-sanchez,2025-06-16T17:52:15Z,2025-06-18T15:38:08+00:00,1,45.76,True,1,1,1,526,1,0,1,MERGED
+8561,feat: conditionally render voice button based on voice mode state,ogabrielluiz,2025-06-16T15:49:40Z,2025-06-17T15:33:51+00:00,3,23.74,True,73,24,15,504,4,6,10,MERGED
+8560,fix: change local db component input as required and tool method name,Yukiyukiyeah,2025-06-16T15:33:32Z,2025-06-20T19:01:49+00:00,2,99.47,True,7,6,1,1176,1,0,1,MERGED
+8559,fix: Remove duplicate options in Save File Component,erichare,2025-06-16T14:57:56Z,2025-06-20T19:49:43+00:00,11,100.86,True,11,11,2,306,1,6,7,MERGED
+8558,fix: change lambda filter to smart function,Yukiyukiyeah,2025-06-16T14:14:02Z,2025-06-20T19:03:40+00:00,12,100.83,True,8,19,2,728,16,1,17,MERGED
+8557,refactor: return tool description directly instead of using f-string,ogabrielluiz,2025-06-16T14:09:56Z,2025-06-24T13:21:57+00:00,1,191.2,True,1,1,1,275,1,0,1,MERGED
+8551,fix: update langchain-openai to fix build issue in Windows,ogabrielluiz,2025-06-16T12:10:26Z,2025-06-16T13:32:19+00:00,1,1.36,False,28,28,2,286,1,0,1,CLOSED
+8549,ref: improve starter projects setup performance ,jordanrfrazier,2025-06-16T06:49:50Z,2025-06-20T20:20:02+00:00,3,109.5,True,78,29,3,892,8,1,9,MERGED
+8548,feat: use getaddrinfo to handle ipv4 and ipv6 loopback addresses on startup,jordanrfrazier,2025-06-16T05:28:53Z,2025-06-17T18:32:06+00:00,1,37.05,False,2122,2674,68,225,5,0,5,CLOSED
+8544,feat: Add Bright Data integration bundle,Idanvilenski,2025-06-15T08:46:17Z,2025-06-17T08:33:17+00:00,1,47.78,False,2012,1767,12,4633,1,6,7,CLOSED
+8540,feat: MCP client streaming_http support,mieslep,2025-06-13T22:05:59Z,2025-06-16T15:28:09+00:00,1,65.37,False,5728,348,32,3042,8,15,23,CLOSED
+8539,fix: updated mcp server link to docs,lucaseduoli,2025-06-13T19:59:19Z,2025-06-14T18:50:22+00:00,1,22.85,True,1,1,1,736,1,0,1,MERGED
+8538,fix: update selected_output field to handle which outputs is displayed first,deon-sanchez,2025-06-13T18:05:56Z,2025-06-13T20:07:57+00:00,5,2.03,True,17,3,4,1434,5,1,6,MERGED
+8536,fix: replace instances of 127.0.0.1 to localhost,jordanrfrazier,2025-06-13T16:36:07Z,2025-06-16T16:10:50+00:00,2,71.58,True,4024,5751,33,1575,10,2,12,MERGED
+8533,fix(agent): allow agents to run without requiring any tools,edwinjosechittilappilly,2025-06-13T12:59:01Z,2025-06-13T17:45:03+00:00,3,4.77,True,25,31,18,355,2,3,5,MERGED
+8532,tests: add tests for non-ASCII characters in flow name,coderabbitai,2025-06-13T12:45:13Z,2025-06-26T15:44:14+00:00,5,314.98,True,82,0,1,153,3,1,4,MERGED
+8529,fix(setup): preserve advanced attribute and generalize starter project JSON,edwinjosechittilappilly,2025-06-13T00:26:29Z,2025-06-13T01:53:34+00:00,2,1.45,True,180,219,3,2413,1,1,2,MERGED
+8525,fix: Have markdown playground content take up the full width,mfortman11,2025-06-12T21:26:23Z,2025-06-17T19:17:15+00:00,1,117.85,True,20,9,3,168,1,0,1,MERGED
+8524,docs: agent refactor,mendonk,2025-06-12T20:53:02Z,2025-06-20T22:16:34+00:00,12,193.39,True,572,529,21,986,14,28,42,MERGED
+8522,fix: Match front and backend prompt variable behavior,mfortman11,2025-06-12T20:18:28Z,2025-06-18T14:34:45+00:00,22,138.27,True,264,51,6,732,2,5,7,MERGED
+8521,fix: remove placeholder duplicate on inputs,lucaseduoli,2025-06-12T20:13:43Z,2025-06-18T21:43:43+00:00,2,145.5,True,1,1,1,426,1,0,1,MERGED
+8519,docs: update pip install instructions to use uv,jordanrfrazier,2025-06-12T19:23:59Z,2025-06-23T15:09:37+00:00,3,259.76,True,260,160,6,507,6,1,7,MERGED
+8518,fix: Add tool mode to message output,erichare,2025-06-12T19:20:52Z,2025-06-13T14:25:49+00:00,3,19.08,True,3,3,2,326,2,1,3,MERGED
+8517,fix: Allow input connections to data components,erichare,2025-06-12T19:18:37Z,2025-06-12T21:06:34+00:00,1,1.8,True,0,4,4,292,3,0,3,MERGED
+8516,feat: Output DataFrame only from Directory,erichare,2025-06-12T15:53:12Z,2025-06-13T14:19:56+00:00,2,22.45,True,1,2,1,603,1,0,1,MERGED
+8515,feat: Add raw content output for File component,erichare,2025-06-12T15:49:00Z,2025-06-12T23:50:31+00:00,2,8.03,True,5769,3925,6,584,1,1,2,MERGED
+8513,feat(auth): update AUTO_LOGIN authentication to enforce API key or JWT requirement,ogabrielluiz,2025-06-12T14:02:50Z,2025-06-24T13:39:38+00:00,7,287.61,True,177,63,11,154,1,5,6,MERGED
+8512,docs: v2/files does not work for images,mendonk,2025-06-12T13:38:32Z,2025-06-12T14:59:31+00:00,2,1.35,True,7,1,1,448,2,0,2,MERGED
+8510,chore(config): add .coderabbit.yaml for centralized platform settings,ogabrielluiz,2025-06-12T13:02:42Z,2025-06-12T15:45:32+00:00,2,2.71,True,159,0,1,201,1,0,1,MERGED
+8504,feat: add field attribute update semantics and refine template metadata,edwinjosechittilappilly,2025-06-12T04:34:18Z,2025-06-26T16:36:37+00:00,9,348.04,False,9850,5914,36,1043,1,15,16,CLOSED
+8500,build(deps-dev): bump brace-expansion from 1.1.11 to 1.1.12 in /src/frontend,dependabot,2025-06-11T22:09:06Z,2025-06-12T11:45:03+00:00,1,13.6,True,36,22,4,2138,1,0,1,MERGED
+8499,fix: templates,mendonk,2025-06-11T21:43:36Z,2025-06-13T15:29:37+00:00,1,41.77,True,2177,2848,6,328,1,0,1,MERGED
+8497,fix: paste edges between components selected even if edges are not selected,lucaseduoli,2025-06-11T20:59:36Z,2025-06-12T18:08:10+00:00,2,21.14,True,36,7,4,828,1,1,2,MERGED
+8495,fix: updated tooltip side for actions,lucaseduoli,2025-06-11T20:40:42Z,2025-06-12T18:08:10+00:00,1,21.46,True,22,8,4,404,1,0,1,MERGED
+8494,fix: changed truncation length for MCP tools and projects,lucaseduoli,2025-06-11T20:38:44Z,2025-06-12T20:46:50+00:00,9,24.14,True,64,14,9,1898,1,4,5,MERGED
+8493,fix: enhance dropdown component with refresh button and clean up parameter render logic,deon-sanchez,2025-06-11T20:28:38Z,2025-07-01T13:20:59+00:00,7,472.87,True,204,202,5,2106,3,2,5,MERGED
+8492,refactor: Update access link for langflow run,mfortman11,2025-06-11T19:47:49Z,2025-06-13T16:30:20+00:00,3,44.71,True,78,2,1,1572,2,1,3,MERGED
+8489,fix: update model output type to message instead of string,jordanrfrazier,2025-06-11T16:39:25Z,2025-06-12T11:34:49+00:00,6,18.92,True,47,13,5,516,3,3,6,MERGED
+8487,docs: refactor installation page,mendonk,2025-06-11T15:12:41Z,2025-06-20T21:40:42+00:00,22,222.47,True,170,165,2,1228,18,44,62,MERGED
+8483,fix: 500 error when downloading projects with non-ASCII characters (ex. Cyrillic) names,iliakrupin,2025-06-11T13:21:29Z,2025-06-13T16:40:51+00:00,1,51.32,True,6,2,1,574,2,0,2,MERGED
+8472,fix(input): refine input handling and improve event robustness,edwinjosechittilappilly,2025-06-11T01:46:03Z,2025-06-12T17:57:51+00:00,3,40.2,True,8,1,1,266,4,1,5,MERGED
+8470,refactor(model_input_constants): update process_inputs logic and docstring,edwinjosechittilappilly,2025-06-11T01:31:48Z,2025-06-12T15:59:50+00:00,4,38.47,True,59,5,2,513,5,1,6,MERGED
+8468,fix: restore our test shards,mfortman11,2025-06-10T23:07:34Z,2025-06-11T22:07:49+00:00,2,23.0,True,3,3,1,206,3,0,3,MERGED
+8467,refactor: update build_structured_output to return only last output element,edwinjosechittilappilly,2025-06-10T23:07:32Z,2025-06-13T23:13:31+00:00,4,72.1,True,1299,895,7,235,1,4,5,MERGED
+8466,fix: adds logging to langflow run command,jordanrfrazier,2025-06-10T22:38:02Z,2025-06-23T18:10:10+00:00,12,307.54,True,6265,4198,15,1465,1,14,15,MERGED
+8465,fix: LFOSS-1282 - type conversion error,pedrocassalpacheco,2025-06-10T21:56:04Z,2025-06-12T18:59:57+00:00,2,45.06,False,44,10,4,1160,2,1,3,CLOSED
+8463,Fix: chat memory store issue and fix output types,Yukiyukiyeah,2025-06-10T21:05:18Z,2025-06-11T17:26:27+00:00,8,20.35,True,772,105,20,3824,2,55,57,MERGED
+8462,fix: Cleanup favicon and old logo assets to fix flash of old favicon,mfortman11,2025-06-10T21:02:41Z,2025-06-13T19:22:57+00:00,1,70.34,True,1,3,5,139,1,0,1,MERGED
+8460,fix: made clean edges clean after changing dropdown of output,lucaseduoli,2025-06-10T19:50:58Z,2025-06-11T14:50:46+00:00,2,19.0,True,3,3,1,752,2,1,3,MERGED
+8458,feat: enhance OutputComponent dropdown functionality and styling,deon-sanchez,2025-06-10T16:35:29Z,2025-06-10T19:46:27+00:00,5,3.18,True,32,95,4,2216,5,3,8,MERGED
+8457,fix: update import statement in astradb_cql.py to silence warning,ogabrielluiz,2025-06-10T16:19:15Z,2025-06-10T18:37:22+00:00,3,2.3,True,1,1,1,221,1,2,3,MERGED
+8455,feat: Add Bright Data integration bundle,Idanvilenski,2025-06-10T13:18:04Z,2025-06-15T08:45:27+00:00,1,115.46,False,2012,1767,12,4560,5,7,12,CLOSED
+8448,refactor(urlcomponent): rename output display names and method references,edwinjosechittilappilly,2025-06-09T21:16:38Z,2025-06-11T20:08:58+00:00,4,46.87,True,24,19,7,1593,4,1,5,MERGED
+8447,docs: OpenAPI spec content updated without version change,github-actions,2025-06-09T20:05:22Z,2025-06-23T18:32:03+00:00,1,334.44,True,701,200,1,102,2,0,2,MERGED
+8446,fix: LFOSS-1227 - Type hint consistency,pedrocassalpacheco,2025-06-09T20:04:29Z,2025-08-11T19:30:35+00:00,4,1511.43,False,324,7,2,606,1,1,2,CLOSED
+8444,fix: add selected_output field to components & templates to prevent disconnected edges,deon-sanchez,2025-06-09T19:50:12Z,2025-06-13T16:03:33+00:00,6,92.22,True,361,162,39,1022,4,3,7,MERGED
+8443,"⚡️ Speed up function `_process_single_module` by 1,017% in PR #8395 (`fix-component-loading`)",codeflash-ai,2025-06-09T18:55:33Z,2025-06-10T13:35:29+00:00,1,18.67,True,26,24,1,24585,1,0,1,MERGED
+8441,"fix: Update SaaS, Social Media, and YouTube json file",Yukiyukiyeah,2025-06-09T18:11:10Z,2025-06-13T15:05:09+00:00,2,92.9,True,497,643,4,2143,3,1,4,MERGED
+8439,fix: remove duplicated import statement in nvidia_ingest,edwinjosechittilappilly,2025-06-09T17:18:38Z,2025-06-09T18:20:29+00:00,2,1.03,True,0,1,1,380,1,0,1,MERGED
+8437,refactor: use utility for BaseModel serialization and add SQL component tests,edwinjosechittilappilly,2025-06-09T16:17:06Z,2025-06-13T02:11:59+00:00,11,81.91,True,123,15,2,1340,1,6,7,MERGED
+8436,docs: cleanlab style followon,mendonk,2025-06-09T15:24:14Z,2025-06-23T20:22:29+00:00,3,340.97,True,89,86,2,493,7,8,15,MERGED
+8435,fix: fix file toggle in the playground chat,mfortman11,2025-06-09T15:18:33Z,2025-06-10T20:03:31+00:00,1,28.75,True,9,1,1,171,1,0,1,MERGED
+8434,feat(message): support sequencing of multiple streamable models,ogabrielluiz,2025-06-09T14:14:29Z,2025-06-25T17:25:40+00:00,10,387.19,True,432,76,10,694,6,12,18,MERGED
+8433,fix(ui): improve SettingsVoiceModal functionality and alignment,Cristhianzl,2025-06-09T14:12:15Z,2025-06-16T15:43:24+00:00,1,169.52,True,9,6,2,869,1,0,1,MERGED
+8432,refactor(ui): remove Tool Mode option from node toolbar,Cristhianzl,2025-06-09T14:03:53Z,2025-06-10T20:56:24+00:00,1,30.88,True,0,14,1,593,1,0,1,MERGED
+8430,docs: voice mode websockets endpoints,mendonk,2025-06-09T12:48:09Z,2025-06-23T21:58:15+00:00,7,345.17,True,19,0,1,322,6,10,16,MERGED
+8428,docs: remove unnecessary tab from v2 loader example,mendonk,2025-06-09T12:02:11Z,2025-06-10T18:08:12+00:00,1,30.1,True,0,6,1,290,3,0,3,MERGED
+8405,"feat: change smart function title, icon and desc",Yukiyukiyeah,2025-06-06T20:02:40Z,2025-06-09T15:01:38+00:00,1,66.98,True,4,4,1,265,1,0,1,MERGED
+8403,fix: Show path of saved file in Save File Component,erichare,2025-06-06T18:59:40Z,2025-06-12T16:17:57+00:00,7,141.3,True,68,8,3,459,1,4,5,MERGED
+8401,docs: add comprehensive cursor guidelines and rules for development practices,ogabrielluiz,2025-06-06T17:40:20Z,2025-06-12T13:02:05+00:00,5,139.36,True,1670,17,6,531,1,5,6,MERGED
+8400,fix: make starter projects auto refactor not remove selected output,lucaseduoli,2025-06-06T17:38:40Z,2025-06-11T14:26:13+00:00,4,116.79,True,12,11,5,1706,2,4,6,MERGED
+8399,fix: re-added message store component output dropdown,lucaseduoli,2025-06-06T17:38:08Z,2025-07-23T19:43:49+00:00,4,1130.09,False,401,958,13,1921,1,2,3,CLOSED
+8395,refactor: load components by importing them directly,ogabrielluiz,2025-06-06T13:09:49Z,2025-06-11T22:48:09+00:00,37,129.64,True,2748,749,54,3597,16,61,77,MERGED
+8394,feat: Docling components,dolfim-ibm,2025-06-06T12:49:40Z,2025-06-24T18:08:48+00:00,17,437.32,True,1837,151,15,562,8,11,19,MERGED
+8390,fix: Fix the file toggle in the playground chat,mfortman11,2025-06-05T20:37:50Z,2025-06-12T18:36:22+00:00,1,165.98,False,0,0,0,54,2,0,2,CLOSED
+8389,feat: Add DirectoryInput component with file system directory picker,deon-sanchez,2025-06-05T20:31:55Z,2025-08-12T19:13:59+00:00,1,1630.7,False,223,3,9,449,5,2,7,CLOSED
+8388,"feat: add servers persistence to MCP connection component, add MCP connections settings page",lucaseduoli,2025-06-05T19:40:07Z,2025-06-11T19:50:46+00:00,7,144.18,True,2375,870,56,3409,4,32,36,MERGED
+8387,docs: 1.5 release,mendonk,2025-06-05T16:43:54Z,2025-07-10T15:05:02+00:00,41,838.35,True,3064,2382,94,1127,73,92,165,MERGED
+8386,fix: Rebuild Templates and Broken Connections,erichare,2025-06-05T15:34:01Z,2025-06-23T17:09:42+00:00,3,433.59,True,3697,4561,16,574,1,2,3,MERGED
+8379,added desktop CTA,crtr0,2025-06-04T21:03:39Z,2025-06-23T21:28:44+00:00,1,456.42,False,9,3,1,511,2,1,3,CLOSED
+8377,refactor: api access bug for duplicate payload values.,deon-sanchez,2025-06-04T19:25:35Z,2025-06-10T20:51:55+00:00,6,145.44,True,88,102,5,1971,1,2,3,MERGED
+8376,docs: update details summary css for better arrow alignment,mendonk,2025-06-04T17:43:14Z,2025-06-04T19:19:53+00:00,2,1.61,True,10,2,1,375,4,1,5,MERGED
+8375,fix: remove reference to the Langflow Store and other fixes,ogabrielluiz,2025-06-04T17:04:18Z,2025-06-12T18:26:39+00:00,1,193.37,False,0,0,0,599,3,0,3,CLOSED
+8372,feat: Add new Models to Google Gen AI,edwinjosechittilappilly,2025-06-04T15:54:46Z,2025-08-12T13:19:41+00:00,5,1653.42,False,54,9,1,1508,5,2,7,CLOSED
+8369,docs: install from source,mendonk,2025-06-04T15:33:44Z,2025-06-30T20:56:49+00:00,14,629.38,True,241,77,3,710,19,37,56,MERGED
+8362,fix: Split text should only have dataframe output,erichare,2025-06-04T03:08:44Z,2025-06-10T19:35:31+00:00,4,160.45,True,240,263,6,492,1,3,4,MERGED
+8361,fix: apikey lock issue and add option to disable tracking,italojohnny,2025-06-04T00:33:51Z,2025-06-04T17:31:02+00:00,6,16.95,True,6,8,3,570,6,3,9,MERGED
+8359,fix: Revert Typescript Shards,Yukiyukiyeah,2025-06-03T21:38:34Z,2025-06-03T22:43:48+00:00,2,1.09,True,3,3,1,511,1,0,1,MERGED
+8357,docs: new logos,mendonk,2025-06-03T20:46:50Z,2025-06-05T16:23:58+00:00,1,43.62,True,47,4,4,277,4,0,4,MERGED
+8356,fix: only allow custom vals and options to be in the options list,mfortman11,2025-06-03T19:40:16Z,2025-06-03T21:31:22+00:00,2,1.85,True,78,3,2,967,1,0,1,MERGED
+8355,feat: enhance LLM response tracking and voice assistant state management,Cristhianzl,2025-06-03T19:37:27Z,2025-09-30T12:37:30+00:00,1,2849.0,False,256,64,7,2437,1,2,3,CLOSED
+8354,refactor: remove references to the langflow store,deon-sanchez,2025-06-03T18:43:43Z,2025-06-05T12:39:40+00:00,3,41.93,True,53,26,10,2218,2,0,2,MERGED
+8353,fix: api request component curl mode error,edwinjosechittilappilly,2025-06-03T17:38:51Z,2025-06-03T23:23:52+00:00,3,5.75,True,5,2,2,1035,1,1,2,MERGED
+8351,ref: Deprecate pass message component,edwinjosechittilappilly,2025-06-03T17:18:36Z,2025-06-03T22:21:41+00:00,5,5.05,True,1,0,1,306,1,1,2,MERGED
+8350,feat: add option to skip message persistence in Component,ogabrielluiz,2025-06-03T17:12:55Z,2025-07-19T13:44:59+00:00,6,1100.53,False,326,27,14,1464,4,5,9,CLOSED
+8348,refactor: api access bug for duplicate payload values.,deon-sanchez,2025-06-03T16:42:40Z,2025-06-04T22:57:08+00:00,7,30.24,False,619,39,5,1857,2,4,6,CLOSED
+8339,"fix: made button disabled state more congruent, made edit flow details submit on enter",lucaseduoli,2025-06-03T14:05:47Z,2025-06-11T15:36:48+00:00,4,193.52,True,135,83,6,4236,1,2,3,MERGED
+8338,Test-Branch: Don't Merge,deon-sanchez,2025-06-03T14:02:03Z,2025-06-04T15:05:46+00:00,1,25.06,False,1,0,1,95,1,0,1,CLOSED
+8337,ref: ConditionalRouter Initialization with Case Sensitivity and renaming inputs,edwinjosechittilappilly,2025-06-03T14:00:16Z,2025-06-03T19:40:44+00:00,2,5.67,True,8,6,2,1032,1,0,1,MERGED
+8336,fix: made empty project appear instead of empty flows list when mcp is enabled,lucaseduoli,2025-06-03T12:49:47Z,2025-06-05T21:10:04+00:00,6,56.34,True,12,6,1,2064,1,2,3,MERGED
+8327,feat: refactor component tool description format to prioritize component description,Cristhianzl,2025-06-02T23:44:49Z,2025-06-16T13:25:28+00:00,1,325.68,True,6,7,1,639,2,0,2,MERGED
+8325,fix: Remove id generator,Yukiyukiyeah,2025-06-02T20:53:05Z,2025-06-03T18:15:45+00:00,3,21.38,True,9,8,2,863,1,4,5,MERGED
+8324,fix: Refactor a few more components to proper folders,erichare,2025-06-02T20:29:52Z,2025-06-03T23:55:17+00:00,5,27.42,True,31,53,18,717,3,4,7,MERGED
+8323,feat: combine chat history and chat store into a CRUD component,Yukiyukiyeah,2025-06-02T18:18:04Z,2025-06-05T22:41:21+00:00,20,76.39,True,7380,4778,31,966,18,38,56,MERGED
+8321,fix: added truncation length as constant and reduced it to 100,lucaseduoli,2025-06-02T18:01:26Z,2025-06-02T21:48:10+00:00,3,3.78,True,278,706,7,1216,2,4,6,MERGED
+8320,ci(docker): update Buildx setup to use BuildKit container backend,ogabrielluiz,2025-06-02T17:38:18Z,2025-06-03T16:18:49+00:00,1,22.68,True,11,0,1,303,1,1,2,MERGED
+8317,Docs: rename and redirect system assist component to g-assist component,mendonk,2025-06-02T12:38:58Z,2025-06-05T17:41:40+00:00,6,77.05,True,61,41,4,478,4,2,6,MERGED
+8316,docs: contributing page links,mendonk,2025-06-02T12:12:31Z,2025-06-04T18:39:49+00:00,6,54.45,True,11,4,1,755,7,3,10,MERGED
+8315,feat: NV-ingest high resolution extraction and infographics content extraction,maheshrajamani,2025-06-02T11:28:10Z,2025-06-09T14:51:24+00:00,14,171.39,True,30,1,1,578,2,5,7,MERGED
+8308,ref: Prompt Category Icon Update,edwinjosechittilappilly,2025-05-30T23:57:42Z,2025-06-02T17:23:35+00:00,3,65.43,True,3,3,1,133,1,1,2,MERGED
+8307,ref: Python Interpreter component,edwinjosechittilappilly,2025-05-30T22:27:59Z,2025-05-30T23:42:22+00:00,2,1.24,True,3,6,1,203,1,1,2,MERGED
+8305,ref: prompt and parser component,edwinjosechittilappilly,2025-05-30T22:13:59Z,2025-05-30T23:15:10+00:00,2,1.02,True,124,127,27,626,1,1,2,MERGED
+8304,"fix: batch run description, output, and beta badge",Yukiyukiyeah,2025-05-30T21:55:55Z,2025-05-30T23:13:13+00:00,2,1.29,True,10,9,5,1413,1,0,1,MERGED
+8303,fix: remove data to dataframe and message to data,Yukiyukiyeah,2025-05-30T21:18:03Z,2025-05-31T00:02:37+00:00,1,2.74,True,4,2,3,1355,1,0,1,MERGED
+8302,fix: tool name change,Yukiyukiyeah,2025-05-30T21:00:50Z,2025-05-30T23:26:41+00:00,4,2.43,True,43,28,20,1893,1,3,4,MERGED
+8298,fix: Refactor MCP API to fix value truncation,ogabrielluiz,2025-05-30T18:03:00Z,2025-06-02T21:48:10+00:00,10,75.75,True,76,100,2,562,4,7,11,MERGED
+8297,fix: change LoopComponent data input to DataFrame type and update display name,edwinjosechittilappilly,2025-05-30T17:55:19Z,2025-06-03T20:08:12+00:00,5,98.21,True,6,8,3,276,4,2,6,MERGED
+8293,fix: makes action title follow the flow name after editing to old title,lucaseduoli,2025-05-30T15:04:40Z,2025-06-02T18:49:40+00:00,1,75.75,True,29,8,2,1503,1,0,1,MERGED
+8292,feat: new nvidia remix template,phact,2025-05-30T14:55:52Z,2025-08-12T05:00:24+00:00,1,1766.08,False,1106,3653,1,25,5,0,5,CLOSED
+8291,fix: add error handling when node stops existing before update completes,lucaseduoli,2025-05-30T14:49:19Z,2025-05-30T16:35:50+00:00,3,1.78,True,13,1,2,287,1,2,3,MERGED
+8289,fix: remove float limits when not defined,lucaseduoli,2025-05-30T14:38:35Z,2025-05-30T16:11:24+00:00,1,1.55,True,2,2,1,253,1,0,1,MERGED
+8284,feat: Update components input/output display name and descriptions,Yukiyukiyeah,2025-05-29T22:22:22Z,2025-06-03T18:08:40+00:00,7,115.77,True,384,341,55,2564,4,4,8,MERGED
+8283,fix: Fix Anthropic output processing and update dependency,ogabrielluiz,2025-05-29T22:07:43Z,2025-06-03T15:14:46+00:00,6,113.12,True,941,880,32,1065,2,6,8,MERGED
+8282,fix: Update Web Search Description,Yukiyukiyeah,2025-05-29T21:32:48Z,2025-05-30T16:24:12+00:00,3,18.86,True,1,4,1,403,1,1,2,MERGED
+8281,ref: move memories category  to bundles,edwinjosechittilappilly,2025-05-29T21:26:20Z,2025-06-02T18:53:24+00:00,2,93.45,True,1,3,2,578,1,0,1,MERGED
+8279,feat: add node alignment helper lines with toggle control in flow editor,Cristhianzl,2025-05-29T20:50:32Z,2025-07-14T14:46:53+00:00,5,1097.94,True,371,21,7,2222,2,4,6,MERGED
+8278,refactor: update NVIDIA System-Assist client initialization and error handling,ogabrielluiz,2025-05-29T20:09:41Z,2025-06-02T21:06:42+00:00,4,96.95,True,26,22,1,471,1,1,2,MERGED
+8273,docs: add examples for users endpoints,mendonk,2025-05-29T16:39:37Z,2025-06-17T17:42:48+00:00,5,457.05,True,280,0,1,405,11,9,20,MERGED
+8271,feat: add one click install to mcp servers on specific clients,lucaseduoli,2025-05-29T15:50:27Z,2025-06-02T20:06:09+00:00,14,100.26,True,894,275,14,2705,4,13,17,MERGED
+8270,fix: import for ConfigDict from pydantic in message model,ogabrielluiz,2025-05-29T14:24:24Z,2025-05-29T21:18:58+00:00,1,6.91,True,1,2,1,106,1,0,1,MERGED
+8269,docs: add instructions for defining path in claude desktop,mendonk,2025-05-29T14:09:56Z,2025-05-29T21:09:27+00:00,3,6.99,True,47,0,1,496,5,2,7,MERGED
+8268,refactor: Organize model lists to support metadata,mfortman11,2025-05-29T14:05:12Z,2025-05-30T18:44:07+00:00,4,28.65,True,658,219,10,875,3,4,7,MERGED
+8259,docs: improve tasks for v2 uploads,mendonk,2025-05-28T20:18:34Z,2025-05-30T17:27:09+00:00,2,45.14,True,44,21,1,126,3,0,3,MERGED
+8258,refactor: remove state manager from Graph class,ogabrielluiz,2025-05-28T18:02:02Z,2025-06-20T20:16:32+00:00,5,554.24,True,262,570,7,342,10,3,13,MERGED
+8256,fix: Enable Tracing Support For Self-Hosted Phoenix Instance,ialisaleh,2025-05-28T17:56:29Z,2025-05-29T19:19:24+00:00,4,25.38,True,10,5,1,413,1,1,2,MERGED
+8254,refactor: improve output selection logic and edge updating in GenericNode,deon-sanchez,2025-05-28T17:14:52Z,2025-06-02T19:05:19+00:00,6,121.84,True,372,176,44,1949,4,9,13,MERGED
+8253,fix: Vector store output can only be dataframe,Yukiyukiyeah,2025-05-28T16:38:47Z,2025-09-17T17:37:00+00:00,3,2688.97,False,1042,378,8,1081,0,1,1,CLOSED
+8251,fix: Remove dataframe function,Yukiyukiyeah,2025-05-28T15:41:41Z,2025-05-28T21:38:22+00:00,1,5.94,True,22,47,20,2082,1,0,1,MERGED
+8250,feat(backend): Added feature (component) for generating embeddings locally using SentenceTransformers.,Player01Sid,2025-05-28T15:40:11Z,2025-06-03T17:25:03+00:00,3,145.75,False,0,0,0,2043,7,29,36,CLOSED
+8249,chore: Refactor dependencies in pyproject.toml files,ogabrielluiz,2025-05-28T15:05:20Z,2025-05-30T14:40:42+00:00,2,47.59,True,4640,4808,3,336,2,1,3,MERGED
+8237,feat: Add customizable chat input and file upload components,Cristhianzl,2025-05-27T19:47:33Z,2025-05-29T17:47:32+00:00,1,46.0,True,55,12,7,1922,0,0,0,MERGED
+8236,docs: remove duplicate values,mendonk,2025-05-27T18:20:10Z,2025-05-27T19:45:12+00:00,1,1.42,True,2,3,1,45,2,0,2,MERGED
+8235,feat: changed tweaks into input schema and enabled persistence,lucaseduoli,2025-05-27T18:04:54Z,2025-05-27T20:53:14+00:00,2,2.81,True,319,957,25,1343,0,0,0,MERGED
+8233,fix: Remove the dataframe output from structured,erichare,2025-05-27T17:04:07Z,2025-06-10T22:17:09+00:00,10,341.22,True,149,451,11,789,3,6,9,MERGED
+8232,refactor: Update Dropdown items to be in sync with other drop-downs,deon-sanchez,2025-05-27T16:43:54Z,2025-05-30T17:02:56+00:00,1,72.32,True,67,100,2,1704,1,0,1,MERGED
+8231,feat: add models category,edwinjosechittilappilly,2025-05-27T16:20:47Z,2025-05-28T18:28:42+00:00,1,26.13,True,152,143,64,1466,3,0,3,MERGED
+8230,fix: ollama icon out of place,lucaseduoli,2025-05-27T16:18:56Z,2025-05-27T20:48:37+00:00,1,4.49,True,5,5,1,574,0,0,0,MERGED
+8229,feat: create an IO Category,edwinjosechittilappilly,2025-05-27T15:51:49Z,2025-05-30T18:15:05+00:00,4,74.39,True,130,138,62,2159,3,7,10,MERGED
+8221,feat: add export option to deploy dropdown,lucaseduoli,2025-05-26T17:35:18Z,2025-05-27T21:17:32+00:00,1,27.7,True,15,0,1,127,0,0,0,MERGED
+8220,Ref: LLMRouterComponent with Advanced OpenRouter Integration,raphaelchristi,2025-05-26T16:19:03Z,2025-06-02T19:05:19+00:00,2,170.77,True,432,113,1,2104,2,2,4,MERGED
+8216,feat: implement web app manifest for progressive web app functionality,Cristhianzl,2025-05-26T12:46:32Z,2025-05-26T19:51:43+00:00,1,7.09,True,32,0,2,637,0,0,0,MERGED
+8209,feat: Exporting traces to Traceloop and Instana,2getsandesh,2025-05-26T06:59:31Z,2025-08-12T05:40:33+00:00,31,1870.68,False,423,1,5,1598,15,7,22,CLOSED
+8204,fix: mask Component Secrets in trace logs,psy42a,2025-05-25T08:26:04Z,2025-08-18T13:11:12+00:00,2,2044.75,True,14,4,1,704,7,3,10,MERGED
+8203,docs: r2x feature,mendonk,2025-05-24T17:49:07Z,2025-06-17T13:55:37+00:00,1,572.11,False,42,3,2,0,2,1,3,CLOSED
+8199,fix: import bug,phact,2025-05-23T20:13:59Z,2025-05-23T21:33:05+00:00,1,1.32,True,2,0,1,556,0,0,0,MERGED
+8196,fix: Refactor DotBackground for Improved Theming Consistency and Simplified Gradient Logic,Cristhianzl,2025-05-23T16:26:25Z,2025-05-26T17:37:27+00:00,2,73.18,True,2,2,1,839,0,0,0,MERGED
+8195,docs: add typescript client,mendonk,2025-05-23T16:08:15Z,2025-06-04T13:44:45+00:00,24,285.61,True,382,3,3,571,18,20,38,MERGED
+8191,ref: Deprecate regex and update data components,edwinjosechittilappilly,2025-05-23T06:15:14Z,2025-05-23T20:17:33+00:00,1,14.04,True,2,0,2,437,0,0,0,MERGED
+8190,feat: News Search Component,edwinjosechittilappilly,2025-05-23T06:04:26Z,2025-05-23T19:52:45+00:00,3,13.81,True,254,0,3,1091,0,4,4,MERGED
+8188,tests: increase benchmark timeouts from 10 to 30s,jordanrfrazier,2025-05-23T04:27:43Z,2025-05-23T19:34:05+00:00,1,15.11,True,1,1,1,62,0,0,0,MERGED
+8186,fix: unwrap Message text for MCP tool call input; improve handling of falsey values,reidab,2025-05-22T18:13:24Z,2025-06-27T00:17:05+00:00,3,846.06,False,21,4,2,606,3,1,4,CLOSED
+8185,ref: SQL component,edwinjosechittilappilly,2025-05-22T16:49:17Z,2025-05-22T20:05:36+00:00,1,3.27,True,9,6,2,1591,0,0,0,MERGED
+8184,feat: add datastax components bundle,erichare,2025-05-22T16:47:03Z,2025-05-22T18:08:02+00:00,1,1.35,True,6,6,14,73,0,0,0,MERGED
+8182,fix: docker build-main-all,mendonk,2025-05-22T15:48:43Z,2025-05-27T16:32:45+00:00,3,120.73,True,3,4,3,634,0,4,4,MERGED
+8181,docs: add env var setup for macOS and Windows GUI,italojohnny,2025-05-22T15:47:15Z,2025-07-10T18:40:26+00:00,10,1178.89,True,101,0,2,495,13,23,36,MERGED
+8177,feat: Loop uplift dataframe input and output,edwinjosechittilappilly,2025-05-22T14:46:00Z,2025-05-22T23:09:30+00:00,1,8.39,True,298,475,4,2136,0,0,0,MERGED
+8175,fix: fix regex on mcp server tab test,lucaseduoli,2025-05-22T12:40:18Z,2025-05-22T15:02:05+00:00,1,2.36,True,198,177,1,414,0,0,0,MERGED
+8173,fix: set cursor to text in text fields,lucaseduoli,2025-05-22T12:16:26Z,2025-05-22T17:27:11+00:00,1,5.18,True,1,1,1,378,0,0,0,MERGED
+8164,Feat: move other tools to different folders,Yukiyukiyeah,2025-05-21T23:10:45Z,2025-05-27T18:18:05+00:00,2,139.12,True,102,54,15,7306,2,1,3,MERGED
+8163,Feat: create new tavily bundle,Yukiyukiyeah,2025-05-21T22:51:41Z,2025-05-26T20:55:09+00:00,4,118.06,True,5717,4009,12,2604,3,2,5,MERGED
+8162,docs: chat widget refresh,mendonk,2025-05-21T21:53:28Z,2025-05-28T15:55:23+00:00,8,162.03,True,308,133,5,138,10,17,27,MERGED
+8146,feat: New Search Bundle ,Yukiyukiyeah,2025-05-21T00:30:53Z,2025-05-23T22:07:22+00:00,4,69.61,True,25863,645,37,2227,3,3,6,MERGED
+8144,docs: make filtering components legacy,mendonk,2025-05-20T20:22:40Z,2025-05-27T18:19:46+00:00,4,165.95,True,103,90,1,325,5,2,7,MERGED
+8141,fix: updated flow pages to just set the flow if types are fetched,lucaseduoli,2025-05-20T19:35:06Z,2025-05-20T21:51:20+00:00,1,2.27,True,2,2,1,658,0,0,0,MERGED
+8140,docs: recommendations for cache memory,mendonk,2025-05-20T18:33:29Z,2025-05-28T15:39:47+00:00,2,189.1,True,18,27,3,215,7,4,11,MERGED
+8139,docs: combine text component is legacy,mendonk,2025-05-20T13:38:17Z,2025-05-20T15:00:45+00:00,2,1.37,True,47,42,1,219,2,1,3,MERGED
+8137,docs: fix develop sidebar titles,mendonk,2025-05-20T11:31:47Z,2025-05-20T15:54:38+00:00,1,4.38,True,40,12,1,55,2,0,2,MERGED
+8135,feat: New Web search component,edwinjosechittilappilly,2025-05-20T00:43:41Z,2025-05-20T19:23:46+00:00,4,18.67,True,159,0,3,1003,1,6,7,MERGED
+8134,feat: add rss component,edwinjosechittilappilly,2025-05-20T00:01:07Z,2025-05-20T15:36:04+00:00,6,15.58,True,200,0,3,1036,0,3,3,MERGED
+8133,fix: Temperature limit in Google Gen AI model,edwinjosechittilappilly,2025-05-19T23:30:12Z,2025-05-20T22:51:18+00:00,2,23.35,True,1,1,1,431,0,1,1,MERGED
+8132,fix: Ensure that we properly format data outputs in the chat,erichare,2025-05-19T22:46:53Z,2025-05-20T17:37:07+00:00,3,18.84,True,51,41,35,121,2,2,4,MERGED
+8131,feat: Outputs UX improvements,deon-sanchez,2025-05-19T21:56:03Z,2025-05-27T19:30:20+00:00,1,189.57,True,274,47,16,3543,0,0,0,MERGED
+8130,"refactor: Improve Reactflow wrapping around toolbars, canvas controls, etc",mfortman11,2025-05-19T21:47:59Z,2025-05-21T19:02:44+00:00,1,45.25,True,101,106,36,1621,0,0,0,MERGED
+8128,fix: Add deactivated state checks in TracingService methods,ogabrielluiz,2025-05-19T20:45:57Z,2025-05-23T20:01:23+00:00,2,95.26,True,9,1,1,138,0,0,0,MERGED
+8127,docs: add data operations component,mendonk,2025-05-19T20:34:09Z,2025-05-27T16:51:20+00:00,5,188.29,True,100,11,2,79,4,3,7,MERGED
+8124,docs: OpenAPI spec version upgraded from 1.4.1 to 1.4.2,github-actions,2025-05-19T20:05:49Z,2025-05-20T16:45:23+00:00,1,20.66,True,111,4,1,100,2,0,2,MERGED
+8121,fix: suppresses fastapi-pagination warnings,jordanrfrazier,2025-05-19T19:13:10Z,2025-05-20T17:13:40+00:00,1,22.01,True,22,3,3,106,0,0,0,MERGED
+8120,docs: deploy langflow with caddyfile and docker compose,mendonk,2025-05-19T17:51:58Z,2025-05-22T16:35:09+00:00,5,70.72,True,140,0,2,167,7,2,9,MERGED
+8118,fix: handle empty tool response,phact,2025-05-19T16:43:04Z,2025-05-21T18:03:26+00:00,6,49.34,True,14,6,2,91,1,3,4,MERGED
+8117,ref: URL and File components with Dataframe output,edwinjosechittilappilly,2025-05-19T16:09:24Z,2025-05-30T22:26:53+00:00,13,270.29,True,2091,1476,59,3194,2,31,33,MERGED
+8115,feat: add llm keywords to language model base,edwinjosechittilappilly,2025-05-19T14:05:57Z,2025-05-23T20:17:33+00:00,2,102.19,True,249,31,24,1195,0,2,2,MERGED
+8112,feat: for postgresql  DatabaseService create engine set default  utc timezone,jeevic,2025-05-19T10:44:24Z,2025-08-18T19:31:05+00:00,5,2192.78,True,3,1,1,397,3,1,4,MERGED
+8106,docs: add windows desktop to installation page,mendonk,2025-05-18T12:06:55Z,2025-06-16T13:21:20+00:00,1,697.24,False,18,4,1,78,2,0,2,CLOSED
+8095,"fix: add Export modal instead of Download in start page, change Download button size",lucaseduoli,2025-05-16T19:38:27Z,2025-05-19T20:51:26+00:00,1,73.22,True,69,26,7,2750,0,0,0,MERGED
+8094,fix: changed mistral icon to new,lucaseduoli,2025-05-16T19:28:07Z,2025-05-19T13:29:08+00:00,1,66.02,True,71,178,1,940,0,0,0,MERGED
+8091,fix: correct loop component dependencies,ogabrielluiz,2025-05-16T18:32:49Z,2025-06-02T20:27:59+00:00,4,409.92,True,326,884,8,795,3,3,6,MERGED
+8090,fix: make old file input show in old flows instead of new File Manager,lucaseduoli,2025-05-16T18:26:38Z,2025-05-21T22:05:55+00:00,1,123.65,True,326,1047,9,793,0,0,0,MERGED
+8089,docs: system assist component,mendonk,2025-05-16T17:55:25Z,2025-05-22T16:13:04+00:00,5,142.29,True,38,0,2,168,10,6,16,MERGED
+8088,ref: decoupling execution layer ,jordanrfrazier,2025-05-16T17:42:25Z,2025-07-23T18:44:39+00:00,1,1633.04,False,11842,3840,579,0,1,1,2,CLOSED
+8087,"feat: adds new Edit Details popover, removes flow menu, fixes nav alignment, adds new Flow Status overlay",lucaseduoli,2025-05-16T16:51:25Z,2025-05-22T15:01:28+00:00,2,142.17,True,1067,1155,64,1104,0,0,0,MERGED
+8086,chore: update to component utils logic,edwinjosechittilappilly,2025-05-16T16:06:59Z,2025-05-16T17:38:08+00:00,5,1.52,True,22,13,2,1365,0,3,3,MERGED
+8085,feat: updated components header styling,lucaseduoli,2025-05-16T14:40:22Z,2025-05-22T18:49:38+00:00,1,148.15,True,148,221,16,4078,0,0,0,MERGED
+8084,feat: modularize folder download functionality with reusable utilities,Cristhianzl,2025-05-16T10:43:25Z,2025-05-16T18:11:26+00:00,2,7.47,True,49,31,3,1256,0,0,0,MERGED
+8076,feat: centralize URL generation with customGetHostProtocol and customGetMCPUrl utilities,Cristhianzl,2025-05-15T21:15:13Z,2025-05-16T18:16:04+00:00,2,21.01,True,17,8,4,1233,0,0,0,MERGED
+8075,fix: financial report parser,mendonk,2025-05-15T21:09:15Z,2025-05-15T23:15:34+00:00,2,2.11,True,4,4,2,178,0,0,0,MERGED
+8074,docs: add financial report parser to example flows,mendonk,2025-05-15T20:53:07Z,2025-05-20T15:54:38+00:00,2,115.03,True,58,0,3,91,5,3,8,MERGED
+8073,fix: add error handling in url component,lucaseduoli,2025-05-15T20:49:41Z,2025-05-19T15:20:08+00:00,2,90.51,True,31,4,1,2350,0,1,1,MERGED
+8072,docs: add loop component template suggestion,mendonk,2025-05-15T19:45:06Z,2025-05-16T17:47:35+00:00,1,22.04,True,4,0,1,122,3,0,3,MERGED
+8071,fix: made disabled output button not appear as clickable,lucaseduoli,2025-05-15T18:54:07Z,2025-05-19T14:15:15+00:00,1,91.35,True,2,2,1,512,0,0,0,MERGED
+8070,feat: Enhance API request component,edwinjosechittilappilly,2025-05-15T18:48:09Z,2025-05-22T15:58:01+00:00,4,165.16,True,256,351,5,3649,2,2,4,MERGED
+8069,fix: update mutate template to preserve minimized outputs,lucaseduoli,2025-05-15T18:43:35Z,2025-05-19T14:02:14+00:00,1,91.31,True,5,1,1,624,0,0,0,MERGED
+8066,docs: remove the loaders page and redirect to bundles,mendonk,2025-05-15T17:11:23Z,2025-05-15T18:17:25+00:00,1,1.1,True,4,98,3,145,1,0,1,MERGED
+8065,docs: remove duplicate entries from api examples page,mendonk,2025-05-15T16:38:36Z,2025-05-15T18:05:48+00:00,1,1.45,True,5,43,1,99,3,0,3,MERGED
+8057,fix: template update,edwinjosechittilappilly,2025-05-15T04:55:07Z,2025-05-15T13:48:59+00:00,2,8.9,True,25,25,19,612,0,0,0,MERGED
+8056,fix: improve tool calling filter in ollama model component,edwinjosechittilappilly,2025-05-15T04:45:23Z,2025-05-21T16:41:27+00:00,4,155.93,True,200,148,2,935,0,4,4,MERGED
+8055,docs: contribute bundles,mendonk,2025-05-14T22:25:06Z,2025-05-20T15:54:38+00:00,3,137.49,True,129,1,2,118,8,2,10,MERGED
+8054,fix: Properly escape new line characters in webhook,erichare,2025-05-14T19:56:01Z,2025-05-15T16:35:52+00:00,2,20.66,True,2,1,1,123,1,0,1,MERGED
+8053,refactor: Optimize GenericNode and other nearby components to improve performance especially on larger flows,mfortman11,2025-05-14T19:40:47Z,2025-05-19T18:30:35+00:00,4,118.83,True,245,243,8,2481,0,2,2,MERGED
+8052,docs: bulk file feature,mendonk,2025-05-14T18:50:23Z,2025-05-20T16:23:44+00:00,3,141.56,True,20,8,5,168,7,1,8,MERGED
+8051,fix: made ctrl and shift state reset when switching windows to solve bulk editing issues,lucaseduoli,2025-05-14T18:25:59Z,2025-05-14T19:54:01+00:00,1,1.47,True,32,0,2,897,0,0,0,MERGED
+8050,"fix: filter Update All components to not include edited ones, changed Node Toolbar to show Restore for edited componetns",lucaseduoli,2025-05-14T18:19:01Z,2025-05-15T12:26:40+00:00,2,18.13,True,7,3,3,1131,2,0,2,MERGED
+8049,feat: Add Cleanlab's AI Reliability Bundle to Langflow,cmauck10,2025-05-14T17:49:00Z,2025-06-05T00:09:58+00:00,9,510.35,True,9458,5500,20,2284,5,19,24,MERGED
+8047,fix: remove connected edges when enabling tool mode for them to not reconnect later,lucaseduoli,2025-05-14T16:55:37Z,2025-05-14T19:45:54+00:00,1,2.84,True,5,1,1,906,0,0,0,MERGED
+8046,fix: mcp enum fix,phact,2025-05-14T16:55:35Z,2025-05-14T19:23:03+00:00,1,2.46,True,2,2,1,472,1,0,1,MERGED
+8045,"fix: add scroll and max height on chosen files on File Component, fixed font weight on start page",lucaseduoli,2025-05-14T16:48:02Z,2025-05-14T18:48:38+00:00,1,2.01,True,5,5,4,925,0,0,0,MERGED
+8042,docs: contributing templates,mendonk,2025-05-14T15:58:19Z,2025-05-20T17:07:26+00:00,6,145.15,True,85,0,2,184,10,6,16,MERGED
+8038,refactor: database interactions to use session_scope in MCP project API,ogabrielluiz,2025-05-14T12:31:42Z,2025-06-03T11:51:50+00:00,2,479.34,False,10,20,2,157,1,0,1,CLOSED
+8037,chore: Consistent use of apaginate and update fastapi-pagination version,ogabrielluiz,2025-05-14T11:56:34Z,2025-05-15T21:50:42+00:00,1,33.9,True,6,6,4,296,0,0,0,MERGED
+8034,ref: service decoupling and rearchitecture ,jordanrfrazier,2025-05-13T22:49:35Z,2025-05-16T01:18:29+00:00,2,50.48,False,6104,5468,72,0,1,1,2,CLOSED
+8032,docs: langflow docs review,mendonk,2025-05-13T22:05:20Z,2025-05-15T18:05:48+00:00,3,44.01,True,146,134,10,506,4,4,8,MERGED
+8029,docs: add auth warning for exposing ports,mendonk,2025-05-13T19:24:23Z,2025-05-20T17:23:02+00:00,1,165.98,True,8,3,1,343,2,0,2,MERGED
+8028,fix: json selection not visible,lucaseduoli,2025-05-13T18:55:39Z,2025-05-13T21:44:57+00:00,1,2.82,True,10,5,3,1342,0,0,0,MERGED
+8027,"fix: add overflow to table dropdown selection, removed Multiple selector from Structured Output",lucaseduoli,2025-05-13T18:41:34Z,2025-05-13T22:11:14+00:00,1,3.49,True,19,25,8,1195,0,0,0,MERGED
+8026,docs: breaking changes in components feature,mendonk,2025-05-13T18:39:27Z,2025-05-14T19:23:03+00:00,2,24.73,True,19,4,2,108,10,3,13,MERGED
+8024,docs: add bigquery integration,mendonk,2025-05-13T17:10:25Z,2025-05-14T15:13:41+00:00,2,22.05,True,86,3,5,100,5,1,6,MERGED
+8023,fix: filter flow JSON from component JSON in MCP Servers,edwinjosechittilappilly,2025-05-13T17:04:43Z,2025-05-14T20:15:32+00:00,2,27.18,True,1,1,1,374,0,1,1,MERGED
+8022,fix: update docker build workflow to include 'nightly-main-all' release type for versioning,ogabrielluiz,2025-05-13T16:56:07Z,2025-05-15T18:58:32+00:00,1,50.04,True,1,1,1,295,0,0,0,MERGED
+8021,fix: Hybrid search enabled as long as reranker is enabled,erichare,2025-05-13T16:15:18Z,2025-05-14T18:47:36+00:00,1,26.54,True,5,5,3,92,0,0,0,MERGED
+8020,fix: edit flow name settings not to be empty,deon-sanchez,2025-05-13T16:02:17Z,2025-05-13T20:40:11+00:00,1,4.63,True,52,13,7,1741,0,0,0,MERGED
+8017,fix: added check to upload .md files correctly,lucaseduoli,2025-05-13T15:12:50Z,2025-05-13T21:28:02+00:00,1,6.25,True,3,5,1,461,0,0,0,MERGED
+8015,docs: add webhook auth note,mendonk,2025-05-13T14:36:06Z,2025-05-13T20:58:50+00:00,2,6.38,True,24,21,2,248,4,0,4,MERGED
+8014,fix: voice_mode break fix,phact,2025-05-13T14:32:45Z,2025-05-13T21:44:57+00:00,1,7.2,True,75,45,9,1640,0,0,0,MERGED
+8013,docs: mcp component name update,mendonk,2025-05-13T14:09:50Z,2025-05-14T17:38:24+00:00,3,27.48,True,21,21,6,121,4,2,6,MERGED
+8003,logs: suppress verbose warnings,jordanrfrazier,2025-05-12T22:50:15Z,2025-05-19T18:28:12+00:00,2,163.63,True,72,18,13,82,0,1,1,MERGED
+8002,fix: api docs build failures caused by variables in descriptions,mendonk,2025-05-12T21:08:11Z,2025-05-14T19:01:37+00:00,1,45.89,True,2,2,2,155,0,0,0,MERGED
+8001,docs: OpenAPI spec version upgraded from 1.4.0 to 1.4.1,github-actions,2025-05-12T20:05:24Z,2025-05-12T21:28:53+00:00,1,1.39,True,3,3,2,100,3,0,3,MERGED
+8000,docs: deploy langflow with langflow-all dockerfile,mendonk,2025-05-12T18:57:53Z,2025-09-17T21:59:55+00:00,4,3075.03,False,45,13,1,314,9,8,17,CLOSED
+7999,fix: File manager rerenders,mfortman11,2025-05-12T17:52:09Z,2025-05-12T20:45:53+00:00,1,2.9,True,19,17,1,219,0,0,0,MERGED
+7992,fix: remove double await in ChatOllamaComponent,schuellerf,2025-05-12T09:04:09Z,2025-05-14T16:47:43+00:00,2,55.73,True,27,15,1,18,4,0,4,MERGED
+7988,feat: improve SQL component UX and Tool mode function names,edwinjosechittilappilly,2025-05-12T06:09:04Z,2025-05-16T16:07:25+00:00,4,105.97,True,7,27,2,931,0,2,2,MERGED
+7987,feat: Add Composio Outlook component,abhishekpatil4,2025-05-12T05:07:48Z,2025-06-03T16:45:03+00:00,6,539.62,True,990,0,8,1177,5,7,12,MERGED
+7986,fix: Improved desktop icon to match macOS standard sizing,reidab,2025-05-12T01:43:03Z,2025-06-26T20:53:42+00:00,1,1099.18,False,0,0,12,454,1,0,1,CLOSED
+7973,feat: Adds our first Cursor rules,mfortman11,2025-05-09T21:31:35Z,2025-05-21T16:13:06+00:00,5,282.69,True,208,0,2,1025,0,4,4,MERGED
+7971,docs: contribute custom components refresh,mendonk,2025-05-09T17:46:20Z,2025-05-20T17:31:36+00:00,6,263.75,True,166,14,2,237,14,11,25,MERGED
+7970,feat: enhance flow settings with minimum length validation and default naming,deon-sanchez,2025-05-09T17:36:09Z,2025-05-12T17:06:21+00:00,1,71.5,True,51,13,6,1651,0,0,0,MERGED
+7969,feat: improve Listen and Notify related logic and components,ogabrielluiz,2025-05-09T16:34:13Z,2025-06-25T15:23:58+00:00,15,1126.83,True,271,57,6,878,9,7,16,MERGED
+7968,refactor: move caching logic to styleUtils,mfortman11,2025-05-09T14:57:05Z,2025-05-09T18:31:09+00:00,1,3.57,True,59,58,2,2373,0,0,0,MERGED
+7959,"fix: make icon color follow dark mode, make name render correctly when passing flow from folder to another, add cache to icon",lucaseduoli,2025-05-08T20:00:56Z,2025-05-08T22:14:11+00:00,1,2.22,True,45,28,7,1765,0,0,0,MERGED
+7958,docs: clarify multi-user access,mendonk,2025-05-08T18:30:57Z,2025-05-09T11:49:36+00:00,3,17.31,True,3,0,1,219,3,2,5,MERGED
+7957,build: add build for docker image with all optional deps,jordanrfrazier,2025-05-08T17:32:16Z,2025-05-12T16:37:44+00:00,2,95.09,True,128,6,4,340,0,1,1,MERGED
+7956,fix: remove whitespace in version check of release workflow,ogabrielluiz,2025-05-08T14:42:56Z,2025-05-08T17:28:48+00:00,1,2.76,True,1,1,1,109,0,0,0,MERGED
+7954,chore: Bump version to 1.4.1 for langflow and langflow-base,ogabrielluiz,2025-05-08T14:31:56Z,2025-05-08T19:29:48+00:00,1,4.96,True,8,8,5,86,0,0,0,MERGED
+7952,docs: add quickstart dockerfile with default sqlite database,mendonk,2025-05-08T13:52:36Z,2025-05-09T21:42:22+00:00,7,31.83,True,17,2,1,340,10,5,15,MERGED
+7949,fix: add search functionality to code editor,lucaseduoli,2025-05-07T23:28:47Z,2025-05-08T16:29:43+00:00,1,17.02,True,15,12,3,1082,0,0,0,MERGED
+7947,fix: add endpoint name support in API code generation,deon-sanchez,2025-05-07T20:20:47Z,2025-05-12T20:25:34+00:00,3,120.08,True,15,5,5,1072,0,3,3,MERGED
+7946,docs: add hardware requirements to installation prerequisites,mendonk,2025-05-07T18:41:07Z,2025-05-08T14:20:59+00:00,2,19.66,True,1,0,1,254,1,0,1,MERGED
+7945,docs: add troubleshooting steps for installation failures on Linux,mendonk,2025-05-07T18:30:50Z,2025-05-08T14:20:59+00:00,3,19.84,True,24,0,1,161,4,1,5,MERGED
+7944,fix: MCP Tool mode issue,edwinjosechittilappilly,2025-05-07T17:59:18Z,2025-05-07T21:55:49+00:00,2,3.94,True,18,17,2,1264,0,0,0,MERGED
+7943,test: improve test reliability with updated selectors and utility functions,Cristhianzl,2025-05-07T17:54:45Z,2025-05-07T20:29:57+00:00,1,2.59,True,14,14,3,1090,0,0,0,MERGED
+7942,fix: mcp component tool availability logic,edwinjosechittilappilly,2025-05-07T16:20:30Z,2025-07-23T17:36:11+00:00,3,1849.26,False,1,1,1,455,1,1,2,CLOSED
+7941,fix: mcp anyOf support,phact,2025-05-07T15:26:58Z,2025-05-07T16:57:51+00:00,1,1.51,True,26,7,1,1151,4,0,4,MERGED
+7938,fix: voice mode progress response queue,nv-nfreybler,2025-05-07T14:07:25Z,2025-05-08T00:14:38+00:00,1,10.12,True,348,261,1,742,0,0,0,MERGED
+7937,fix: make project id as a required field in watsonx components,edwinjosechittilappilly,2025-05-07T13:19:53Z,2025-05-08T19:35:00+00:00,2,30.25,True,4,0,2,736,3,0,3,MERGED
+7934,chore: bump langchain and langsmith dependencies,barnuri,2025-05-07T06:41:35Z,2025-05-07T14:57:42+00:00,1,8.27,True,2966,2967,3,193,1,0,1,MERGED
+7933,feat: flow_runner better init and remove the depend on old load func,barnuri,2025-05-07T06:18:28Z,2025-06-26T15:26:23+00:00,4,1209.13,True,157,73,2,685,9,2,11,MERGED
+7931,fix: make tool mode updates possible,ogabrielluiz,2025-05-06T22:14:52Z,2025-05-07T13:01:50+00:00,1,14.78,True,8,11,2,1233,0,0,0,MERGED
+7930,refactor: performance improvements for canvas controls/toolbar,mfortman11,2025-05-06T21:26:20Z,2025-05-07T14:33:42+00:00,1,17.12,True,90,131,5,3418,0,0,0,MERGED
+7929,fix: removed gradient from icon when component is tool mode,lucaseduoli,2025-05-06T21:07:43Z,2025-05-06T23:51:20+00:00,1,2.73,True,3,16,2,971,0,0,0,MERGED
+7928,"fix: reorder playground messages, fix scroll behavior",lucaseduoli,2025-05-06T21:06:48Z,2025-05-08T20:05:41+00:00,2,46.98,True,139,65,8,1690,1,0,1,MERGED
+7925,templates: update gmail template to use Gmail component instead of Composio,mendonk,2025-05-06T19:03:31Z,2025-05-09T22:11:36+00:00,1,75.13,True,1391,86,1,28,1,0,1,MERGED
+7922,feat: New custom component to execute google BigQuery(BQ) SQLs,akashvjoshidx,2025-05-06T17:22:07Z,2025-05-09T21:19:16+00:00,3,75.95,True,731,0,4,394,0,3,3,MERGED
+7920,fix: suppress migration warnings on flow table,jordanrfrazier,2025-05-06T16:50:16Z,2025-05-06T22:42:05+00:00,1,5.86,True,3,0,1,368,3,0,3,MERGED
+7917,"fix: update hide outputs behavior to show current state, update disabled button UI",lucaseduoli,2025-05-06T15:11:37Z,2025-05-07T23:33:04+00:00,1,32.36,True,32,17,3,1869,0,0,0,MERGED
+7909,feat: Update mcp_component add advanced True for env and headers,edwinjosechittilappilly,2025-05-06T01:06:14Z,2025-05-07T21:32:28+00:00,2,44.44,True,2,0,1,203,0,2,2,MERGED
+7908,fix: wait on loguru to flush async logs from services,jordanrfrazier,2025-05-05T23:51:01Z,2025-05-06T01:06:16+00:00,1,1.25,True,3,0,1,2037,1,0,1,MERGED
+7907,feat: add validation for node js for npx based mcp command,edwinjosechittilappilly,2025-05-05T20:41:51Z,2025-05-12T20:09:23+00:00,7,167.46,True,120,13,2,2105,3,3,6,MERGED
+7904,feat: Replace standard components with customizable versions and add Langflow Desktop support,Cristhianzl,2025-05-05T19:43:16Z,2025-05-14T15:30:53+00:00,3,211.79,True,847,178,77,3468,3,12,15,MERGED
+7902,docs: adds Discord server reference in README,crtr0,2025-05-05T16:30:01Z,2025-05-05T19:50:12+00:00,1,3.34,True,3,3,1,48,0,0,0,MERGED
+7901,"fix: re-add name and description editing on tool mode except for Composio, fix MCP server code",lucaseduoli,2025-05-05T14:55:50Z,2025-05-05T23:51:44+00:00,6,8.93,True,121,53,8,941,4,1,5,MERGED
+7897,fix: improve LangSmith traces with added details,barnuri,2025-05-05T08:09:27Z,2025-06-24T19:05:31+00:00,6,1210.93,True,80,47,6,342,1,4,5,MERGED
+7893,fix: truncate transaction and vertex messages ,jordanrfrazier,2025-05-04T18:14:55Z,2025-05-06T01:06:16+00:00,6,30.86,True,2964,2964,7,499,3,3,6,MERGED
+7892,fix: flow_runner better run_id and support stream,barnuri,2025-05-04T09:20:55Z,2025-05-05T22:16:08+00:00,1,36.92,True,14,4,3,683,0,0,0,MERGED
+7889,feat: Enhance main interface by ensuring persistent navbar visibility,Cristhianzl,2025-05-03T18:11:08Z,2025-05-05T16:16:55+00:00,1,46.1,True,8,17,3,551,0,0,0,MERGED
+7886,fix: correct typo in pretty-logs property,r-sniper,2025-05-03T05:44:49Z,2025-05-05T00:46:51+00:00,1,43.03,True,1,1,1,61,1,0,1,MERGED
+7882,"feat: add breaking change update modal, refactor dismissed updates",lucaseduoli,2025-05-02T21:39:58Z,2025-05-09T12:48:26+00:00,2,159.14,True,1165,424,30,4526,1,1,2,MERGED
+7881,fix: disable images on playground,lucaseduoli,2025-05-02T20:22:01Z,2025-05-02T22:12:24+00:00,1,1.84,True,2,3,2,335,2,0,2,MERGED
+7880,fix: Deprecate Google Components,edwinjosechittilappilly,2025-05-02T19:57:13Z,2025-05-05T20:18:39+00:00,2,72.36,True,3,1,3,756,0,3,3,MERGED
+7878,fix: get backend url dynamically for mcp,lucaseduoli,2025-05-02T17:48:23Z,2025-05-02T20:49:31+00:00,5,3.02,True,4,1,1,747,0,1,1,MERGED
+7877,fix: playground page allowing image upload even if feature flag is disabled,lucaseduoli,2025-05-02T17:43:22Z,2025-05-02T19:27:40+00:00,1,1.74,True,16,7,4,1270,0,0,0,MERGED
+7875,fix: Icons on dropdown are inconsistent when search/selecting,deon-sanchez,2025-05-01T21:24:59Z,2025-05-02T14:56:20+00:00,2,17.52,True,46,22,1,1310,0,1,1,MERGED
+7873,fix: run flow multiple execution in tool mode,edwinjosechittilappilly,2025-05-01T18:56:20Z,2025-05-02T17:36:09+00:00,3,22.66,True,12,2,1,654,0,2,2,MERGED
+7872,fix: anthropic Model component base url empty issue,edwinjosechittilappilly,2025-05-01T18:47:41Z,2025-05-05T20:22:56+00:00,2,97.59,True,20,12,5,1412,0,1,1,MERGED
+7871,fix: Streaming for anthropic models in Agents,edwinjosechittilappilly,2025-05-01T15:48:43Z,2025-05-02T15:06:15+00:00,2,23.29,True,23,9,1,884,3,1,4,MERGED
+7870,build(deps-dev): bump vite from 5.4.18 to 5.4.19 in /src/frontend,dependabot,2025-04-30T22:02:34Z,2025-05-02T18:36:26+00:00,1,44.56,True,6,5,2,1968,0,0,0,MERGED
+7867,chore: Bump version numbers for langflow and langflow-base to 1.4.0 and 0.4.0 respectively,ogabrielluiz,2025-04-30T19:19:47Z,2025-05-02T18:19:52+00:00,1,47.0,True,9,9,5,98,0,0,0,MERGED
+7863,fix: composio gmail output maps,edwinjosechittilappilly,2025-04-30T16:38:52Z,2025-04-30T18:01:27+00:00,2,1.38,True,15,8,2,849,0,1,1,MERGED
+7861,fix: Bump it all,barnuri,2025-04-30T14:16:03Z,2025-05-05T16:18:13+00:00,1,122.04,False,4486,4489,2,179,11,0,11,CLOSED
+7860,fix: update templates containing Agent and Tool components,ogabrielluiz,2025-04-30T14:15:52Z,2025-05-02T17:17:25+00:00,2,51.03,True,2589,2795,40,106,0,0,0,MERGED
+7858,feat: event polling can process more than one event at a time,ogabrielluiz,2025-04-30T12:32:56Z,2025-05-05T23:54:49+00:00,3,131.36,True,242,95,5,1192,0,2,2,MERGED
+7853,feat: Update UX for Outputs,deon-sanchez,2025-04-29T22:15:40Z,2025-05-23T14:42:43+00:00,1,568.45,False,512,270,12,3122,2,0,2,CLOSED
+7852,fix: Agent execution time duration display in streaming mode,edwinjosechittilappilly,2025-04-29T21:52:13Z,2025-05-02T17:45:42+00:00,4,67.89,True,4,2,3,1240,3,2,5,MERGED
+7851,feat: Change default event delivery method to streaming,ogabrielluiz,2025-04-29T21:41:13Z,2025-05-05T00:41:32+00:00,1,123.01,True,1,1,1,94,0,0,0,MERGED
+7849,feat: add bulk download and delete flows,lucaseduoli,2025-04-29T19:55:52Z,2025-05-13T20:58:50+00:00,2,337.05,True,493,315,17,1434,0,0,0,MERGED
+7848,"fix: make code button flash, fix mcp icon color",lucaseduoli,2025-04-29T17:00:56Z,2025-04-29T19:50:44+00:00,1,2.83,True,23,13,7,1591,0,0,0,MERGED
+7844,feat: deprecate Gmail Loader Component,edwinjosechittilappilly,2025-04-29T14:21:17Z,2025-04-29T18:52:37+00:00,2,4.52,True,1,0,1,236,0,0,0,MERGED
+7843,docs: fix Hugging Face embeddings inference inputs,gs-costa,2025-04-29T14:17:51Z,2025-05-05T23:20:05+00:00,2,153.04,True,0,4,1,284,3,0,3,MERGED
+7842,feat: Sql toolkit tests,gs-costa,2025-04-29T13:06:57Z,2025-04-29T18:21:06+00:00,1,5.24,True,117,2,2,37,0,0,0,MERGED
+7838,docs: Revise and restructure docs for the Custom Component,Victor-w-Madeira,2025-04-29T04:28:12Z,2025-05-08T01:35:49+00:00,2,213.13,True,410,385,1,529,12,0,12,MERGED
+7837,feat: Twelve Labs Bundle,wbrennan899,2025-04-28T22:49:25Z,2025-05-13T20:58:50+00:00,1,358.16,True,4070,1747,17,990,4,0,4,MERGED
+7833,fix: streaming now works on Agent and ChatOutput,ogabrielluiz,2025-04-28T19:05:13Z,2025-04-28T23:43:46+00:00,1,4.64,True,16,8,4,163,2,0,2,MERGED
+7832,fix: Enhance Folder Sidebar Readability - increase Font Sizes and Adjust Layout Dimensions,Cristhianzl,2025-04-28T18:59:26Z,2025-04-29T17:01:21+00:00,1,22.03,True,8,8,2,1260,0,0,0,MERGED
+7831,docs: improve hybrid search documentation for Astra DB component,Victor-w-Madeira,2025-04-28T18:46:28Z,2025-05-06T16:08:48+00:00,1,189.37,True,6,2,1,521,1,0,1,MERGED
+7830,fix: voice mode progress reliability,nv-nfreybler,2025-04-28T18:39:36Z,2025-05-01T00:52:03+00:00,2,54.21,True,421,250,2,1044,0,0,0,MERGED
+7828,fix: remove quick flash with already rendered icons,lucaseduoli,2025-04-28T17:22:01Z,2025-04-29T16:40:08+00:00,1,23.3,True,54,762,10,993,0,0,0,MERGED
+7827,feat: add bulk file actions,lucaseduoli,2025-04-28T16:53:13Z,2025-05-13T22:22:14+00:00,1,365.48,True,1241,232,11,2066,0,0,0,MERGED
+7826,fix: cleanup worker test stability,edwinjosechittilappilly,2025-04-28T16:38:15Z,2025-04-28T23:43:46+00:00,2,7.09,True,13,5,1,860,1,0,1,MERGED
+7825,revert: Traces Export Headers For Arize & Phoenix Integration,ialisaleh,2025-04-28T12:33:46Z,2025-04-29T00:06:22+00:00,1,11.54,True,15,13,1,455,0,0,0,MERGED
+7811,fix: Authorization header for Arize,fjcasti1,2025-04-26T00:26:23Z,2025-04-28T13:44:17+00:00,2,61.3,False,3,1,1,115,0,0,0,CLOSED
+7809,docs: use details tabs in component pages,mendonk,2025-04-25T14:00:05Z,2025-05-09T21:55:43+00:00,2,343.93,True,2146,1412,13,117,17,16,33,MERGED
+7800,fix:  agent support  not use memory message (n_messages==0) ,jeevic,2025-04-25T02:57:27Z,2025-05-14T18:46:09+00:00,1,471.81,True,8,4,2,156,3,0,3,MERGED
+7798,fix: text access in file component,jordanrfrazier,2025-04-24T22:08:13Z,2025-04-28T18:33:51+00:00,1,92.43,True,3,3,1,25,0,0,0,MERGED
+7795,feat: NV-ingest image extraction and authentication support,jeffreyscarpenter,2025-04-24T19:52:45Z,2025-04-29T05:02:00+00:00,9,105.15,True,4573,4446,3,634,1,6,7,MERGED
+7792,"fix: Improve spacing, alignment and consistency across components with icon enhancement",Cristhianzl,2025-04-24T19:25:31Z,2025-04-25T21:16:19+00:00,1,25.85,True,33,18,8,1463,0,0,0,MERGED
+7783,fix: Reduce spacing in EmptyPageCommunity component from gap-12 to gap-7,Cristhianzl,2025-04-24T16:40:31Z,2025-04-24T19:07:44+00:00,1,2.45,True,18,14,5,1677,0,0,0,MERGED
+7778,docs: v1.4 features,mendonk,2025-04-24T15:17:06Z,2025-05-06T16:55:44+00:00,7,289.64,True,516,308,27,222,34,13,47,MERGED
+7773,feat: add convert component with dynamic output support,edwinjosechittilappilly,2025-04-24T06:13:46Z,2025-06-02T20:27:59+00:00,17,950.24,True,293,6,7,1625,2,21,23,MERGED
+7772,fix: support mcp env vars and nested inputs,phact,2025-04-24T02:39:56Z,2025-04-24T04:55:12+00:00,3,2.25,True,426,125,4,1736,0,1,1,MERGED
+7771,feat: Add operators for comparing numbers in conditional router,Empreiteiro,2025-04-24T00:34:05Z,2025-09-08T21:59:46+00:00,3,3309.43,False,41,6,2,170,1,1,2,CLOSED
+7770,fix: Standardize font sizes using Tailwind classes across frontend components,Cristhianzl,2025-04-23T22:27:25Z,2025-04-24T19:03:51+00:00,1,20.61,True,54,52,31,2366,0,0,0,MERGED
+7769,docs: refresh tools page and try details tabs,mendonk,2025-04-23T22:07:43Z,2025-05-08T15:17:50+00:00,2,353.17,True,335,312,2,243,12,13,25,MERGED
+7768,fix: Enhance Growth UI Layout and Consistency,Cristhianzl,2025-04-23T20:07:04Z,2025-04-23T22:17:22+00:00,1,2.17,True,260,323,32,4354,0,0,0,MERGED
+7764,docs: astra json tool example,mendonk,2025-04-23T15:32:44Z,2025-05-05T16:01:48+00:00,6,288.48,True,52,9,3,84,8,7,15,MERGED
+7763,fix: remove incorrect use of logging that caused log spam,ogabrielluiz,2025-04-23T14:04:03Z,2025-04-24T23:58:11+00:00,1,33.9,True,10,29,7,121,0,0,0,MERGED
+7755,feat: Add new data operations component,edwinjosechittilappilly,2025-04-23T07:02:43Z,2025-05-16T15:05:52+00:00,10,560.05,True,646,9,5,1494,3,9,12,MERGED
+7754,fix: Dict Input Validation issue in Dynamic Components,edwinjosechittilappilly,2025-04-23T06:59:57Z,2025-04-29T05:02:00+00:00,2,142.03,True,12,2,2,1114,4,1,5,MERGED
+7752,chore: Upgrade codeflash to v0.12.0,misrasaurabh1,2025-04-22T21:40:25Z,2025-05-05T23:51:44+00:00,1,314.19,True,46,5,1,146,0,0,0,MERGED
+7751,feat: add Composio Slack component,abhishekpatil4,2025-04-22T20:28:30Z,2025-04-28T16:17:25+00:00,2,139.82,True,764,0,3,557,1,0,1,MERGED
+7744,docs: make zep memory component legacy,mendonk,2025-04-22T14:38:08Z,2025-04-25T20:13:47+00:00,1,77.59,True,7,3,1,42,3,0,3,MERGED
+7741,"feat: Add MCP Server Settings to projects, rename Folder to Project",edwinjosechittilappilly,2025-04-22T07:14:36Z,2025-04-29T17:14:56+00:00,32,178.01,True,4434,804,95,1501,104,31,135,MERGED
+7738,docs: second loop component example,mendonk,2025-04-21T21:50:14Z,2025-04-22T19:26:04+00:00,1,21.6,True,16,0,2,54,2,0,2,MERGED
+7736,docs: OpenAPI spec version upgraded from 1.3.2 to 1.3.4,github-actions,2025-04-21T20:05:34Z,2025-04-22T18:30:25+00:00,1,22.41,True,164,7,1,100,2,0,2,MERGED
+7735,fix: Adding Node to Dockerfile,Yukiyukiyeah,2025-04-21T19:21:48Z,2025-04-22T21:48:28+00:00,1,26.44,True,9,2,3,352,0,0,0,MERGED
+7734,docs: add chat io component examples,mendonk,2025-04-21T18:56:13Z,2025-04-22T19:16:45+00:00,2,24.34,True,113,0,2,218,4,4,8,MERGED
+7733,fix: Embedding model component format issues,edwinjosechittilappilly,2025-04-21T17:18:32Z,2025-04-22T16:40:25+00:00,2,23.36,True,1,1,1,1291,1,0,1,MERGED
+7730,docs: modify the langflow docker image,mendonk,2025-04-21T16:21:57Z,2025-04-22T13:19:45+00:00,2,20.96,True,58,4,1,330,2,1,3,MERGED
+7726,fix: make pydantic-settings less strict to avoid deps conflicts,barnuri,2025-04-21T12:08:49Z,2025-04-22T16:52:15+00:00,1,28.72,True,2,2,2,124,1,0,1,MERGED
+7716,fix: transaction logging of pandas dataframes,jordanrfrazier,2025-04-19T20:38:01Z,2025-04-30T22:08:33+00:00,3,265.51,True,41,18,3,784,1,2,3,MERGED
+7715,Improved webhook integration guide,selvaganesh0355,2025-04-19T13:41:39Z,2025-07-04T18:54:59+00:00,3,1829.22,False,72,35,1,1054,3,4,7,CLOSED
+7713,feat: add Base64 conversion to dataframe_operations ,Empreiteiro,2025-04-18T22:51:21Z,2025-09-08T21:59:17+00:00,3,3431.13,False,284,2,3,504,1,1,2,CLOSED
+7712,feat: Add multiline input to  python REPL component,Empreiteiro,2025-04-18T22:03:03Z,2025-05-09T21:55:43+00:00,2,503.88,True,1,0,1,93,4,0,4,MERGED
+7709,fix: Removes embedding model input from GraphRAG component,pedrocassalpacheco,2025-04-18T16:19:08Z,2025-08-11T19:31:05+00:00,1,2763.2,False,0,7,1,409,3,0,3,CLOSED
+7708,fix: make icons display correctly in composio dialog,deon-sanchez,2025-04-18T15:36:57Z,2025-04-29T18:22:48+00:00,3,266.76,True,814,746,7,1705,0,1,1,MERGED
+7700,fix: sql query component,gs-costa,2025-04-17T22:31:15Z,2025-04-25T19:28:45+00:00,2,188.96,True,48,27,1,446,0,1,1,MERGED
+7699,refactor: Reduce Sidebar Rerenders,mfortman11,2025-04-17T22:13:35Z,2025-05-06T16:40:44+00:00,5,450.45,True,209,187,12,167,0,2,2,MERGED
+7698,fix: make composio icon color black in white mode,Cristhianzl,2025-04-17T21:16:23Z,2025-04-22T22:37:20+00:00,1,121.35,True,5,2,2,762,0,0,0,MERGED
+7697,docs: message history and message store example,mendonk,2025-04-17T20:24:28Z,2025-04-22T19:16:45+00:00,1,118.87,True,80,68,3,227,2,0,2,MERGED
+7696,fix: improvement to ollama component to allow for dynamic filtering based on model capabilities ,pedrocassalpacheco,2025-04-17T19:37:55Z,2025-05-06T17:37:49+00:00,4,454.0,True,97,44,2,720,6,3,9,MERGED
+7695,docs: chroma and local db example,mendonk,2025-04-17T18:22:46Z,2025-04-25T20:13:47+00:00,4,193.85,True,56,0,3,87,4,3,7,MERGED
+7693,fix: Traces Export & Logs Type Casting For Arize & Phoenix Integration,ialisaleh,2025-04-17T17:54:59Z,2025-04-25T16:36:06+00:00,12,190.69,True,14,17,1,447,4,5,9,MERGED
+7691,feat: add deprecation warning for AUTO_LOGIN,ogabrielluiz,2025-04-17T16:30:47Z,2025-04-17T22:47:34+00:00,3,6.28,True,13,2,1,836,0,2,2,MERGED
+7690,feat: deprecate combine text and update templates,edwinjosechittilappilly,2025-04-17T16:17:50Z,2025-04-28T14:49:48+00:00,5,262.53,True,558,507,3,263,2,1,3,MERGED
+7686,"fix: Implement primary key renaming in Alembic migration for message, transaction, and vertex_build tables",ogabrielluiz,2025-04-17T12:52:54Z,2025-04-17T15:53:43+00:00,1,3.01,True,77,11,1,223,0,0,0,MERGED
+7680,Docs: api url and regex component examples,mendonk,2025-04-16T21:36:24Z,2025-04-22T20:01:48+00:00,2,142.42,True,106,4,5,94,2,0,2,MERGED
+7678,fix: change banner when DO_NOT_TRACK == 'true',gs-costa,2025-04-16T20:01:12Z,2025-04-16T21:27:03+00:00,2,1.43,True,9,2,1,624,0,1,1,MERGED
+7677,chore: Bump version numbers for langflow and langflow-base to 1.3.4 and 0.3.4 respectively,ogabrielluiz,2025-04-16T19:09:07Z,2025-04-17T01:59:26+00:00,1,6.84,True,6,6,4,68,0,0,0,MERGED
