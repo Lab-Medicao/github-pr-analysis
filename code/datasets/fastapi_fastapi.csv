@@ -1,7 +1,10 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+14167,⬆ Bump astral-sh/setup-uv from 6 to 7,dependabot,2025-10-08T11:07:00Z,2025-10-08T14:36:25+00:00,1,3.49,True,14,14,11,4634,1,0,1,MERGED
+14165,⬆️ Add support for Python 3.14,svlandeg,2025-10-07T14:54:58Z,2025-10-10T09:44:40+00:00,1,66.83,True,10,1,5,420,1,0,1,MERGED
 14125,🔨 Modify `mkdocs_hooks.py` to add `title` to page's metadata (remove permalinks in social cards),YuriiMotov,2025-09-29T12:46:13Z,2025-09-30T04:06:57+00:00,1,15.35,True,10,0,2,160,4,0,4,MERGED
 14123,🌐 Update Russian translations for existing pages (LLM-generated),YuriiMotov,2025-09-28T13:47:08Z,2025-09-30T11:24:39+00:00,1,45.63,True,4117,3845,74,906,3,0,3,MERGED
-14110,⬆️ Add support for Python 3.14,svlandeg,2025-09-24T13:37:11Z,2025-09-24T15:58:06+00:00,2,2.35,True,10,1,2,114,7,2,9,MERGED
+14113,🐛 Fix handle alias for query in pydantic model,tonnico,2025-09-25T10:27:06Z,2025-10-07T06:30:04+00:00,1,284.05,False,84,1,2,203,5,0,5,CLOSED
+14110,⬆️ Add support for Python 3.14,svlandeg,2025-09-24T13:37:11Z,2025-09-24T15:58:06+00:00,2,2.35,True,10,1,2,166,8,2,10,MERGED
 14102,♻️ Refactor sponsor image handling,alejsdev,2025-09-22T11:13:47Z,2025-09-22T15:11:53+00:00,1,3.97,True,37,14,2,182,1,0,1,MERGED
 14098,🌐 Sync German docs,nilslindemann,2025-09-21T15:22:00Z,2025-09-24T08:10:28+00:00,1,64.81,True,10,10,2,14,2,0,2,MERGED
 14086,"📌 Pin `httpx` to `>=0.23.0,<1.0.0`",YuriiMotov,2025-09-18T07:00:15Z,2025-09-18T08:09:33+00:00,2,1.16,True,5,5,3,161,3,0,3,MERGED
@@ -14,9 +17,11 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 14060,👽️ Update `Color` import depending on the version of Pydantic,SaisakthiM,2025-09-10T14:09:16Z,2025-09-28T16:17:27+00:00,3,434.14,False,31,1,2,1612,2,1,3,CLOSED
 14059,"📝 Remove outdated formatting from `path-params-numeric-validations.md` for languages `en`, `es` and `uk`.",svlandeg,2025-09-10T09:52:04Z,2025-09-20T16:27:22+00:00,2,246.59,True,0,30,3,57,1,0,1,MERGED
 14055,🛠️ Update `docs.py generate-readme` command to remove permalinks from headers,YuriiMotov,2025-09-08T15:56:20Z,2025-09-20T11:43:51+00:00,2,283.79,True,36,22,2,351,1,1,2,MERGED
+14052,✨ Prioritize static routes to avoid route shadowing of dynamic routes,deadlovelll,2025-09-07T12:25:29Z,2025-10-09T22:18:41+00:00,1,777.89,False,577,0,6,4477,3,0,3,CLOSED
 14049,✅ Add LLM test file,nilslindemann,2025-09-06T13:46:40Z,2025-09-20T12:55:29+00:00,1,335.15,True,1006,0,2,277,8,1,9,MERGED
 14048,📝 Fix and Improve English Documentation,nilslindemann,2025-09-05T13:19:59Z,2025-09-20T12:58:04+00:00,2,359.63,True,13,17,13,92,5,0,5,MERGED
 14040,📝 Improve tutorials with clearer comments and docstrings,Shaptain,2025-09-04T12:07:59Z,2025-09-30T07:09:03+00:00,1,619.02,False,55,44,10,129,5,0,5,CLOSED
+14036,👽️ Ensure compatibility with Pydantic 2.12.0,cjwatson,2025-09-02T11:58:36Z,2025-10-08T08:57:37+00:00,12,860.98,True,32,12,3,246,12,6,18,MERGED
 14022,🐛 Fix `inspect.getcoroutinefunction()` can break testing with `unittest.mock.patch()`,secrett2633,2025-08-30T14:49:59Z,2025-09-20T16:30:34+00:00,2,505.68,True,15,4,2,933,0,0,0,MERGED
 14015,📝 Update prompts and German translation,nilslindemann,2025-08-25T17:17:48Z,2025-09-20T15:10:09+00:00,27,621.87,True,5282,3004,112,3416,27,8,35,MERGED
 14006,📝 Remove links to site callbackhell.com that doesn't exist anymore,dennybiasiolli,2025-08-21T14:09:50Z,2025-08-31T09:56:22+00:00,6,235.78,True,13,13,13,228,4,1,5,MERGED
@@ -300,6 +305,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 12968,🌐 Add Korean translation for `docs/ko/docs/tutorial/testing.md`,timothy-jeong,2024-11-21T08:10:20Z,2024-12-10T11:24:48+00:00,2,459.24,True,243,0,1,0,9,6,15,MERGED
 12962,🐛 Fix: Corrected HTTP status codes for authentication schemes,Mohammad222PR,2024-11-20T16:30:25Z,2024-11-25T10:59:16+00:00,1,114.48,False,2,2,1,204,0,0,0,CLOSED
 12952,🌐 Add Catalan translation for `docs/ca/docs/index.md`,Arthur-Barreto,2024-11-18T01:07:29Z,2025-07-26T09:56:10+00:00,3,6008.81,False,489,0,3,941,3,2,5,CLOSED
+12942,🐛 Fix tagged discriminated union not recognized as body field,frankie567,2024-11-15T15:43:59Z,2025-10-08T14:48:30+00:00,3,7847.08,True,191,0,2,1201,3,0,3,MERGED
 12940,🌐 Add Korean translation for `docs/ko/docs/tutorial/query-param-models.md`,timothy-jeong,2024-11-15T14:31:05Z,2024-11-20T19:24:09+00:00,2,124.88,True,68,0,1,0,8,2,10,MERGED
 12933,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/response-model.md`,AndreBBM,2024-11-14T19:37:10Z,2024-11-26T22:51:05+00:00,4,291.23,True,357,0,1,0,6,23,29,MERGED
 12932,🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/tutorial/query-param-models.md`,Vincy1230,2024-11-14T18:44:06Z,2024-11-27T22:14:10+00:00,4,315.5,True,68,0,1,96,7,4,11,MERGED
@@ -999,3 +1005,934 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 9317,FIX: add right module reference to avoid breaking failure for lower version (3.7),anuragbisht-turing,2023-03-26T15:18:10Z,2024-01-15T20:53:18+00:00,2,7085.59,False,3,3,1,85,5,0,5,CLOSED
 9315,🐛 Fix using `Annotated` in routers or path operations decorated multiple times,sharonyogev,2023-03-26T11:42:57Z,2023-04-13T17:49:23+00:00,4,438.11,True,45,3,2,174,13,2,15,MERGED
 9314,Raise RequestValidationError on ValueError from a Depedency,1337vida,2023-03-25T22:31:57Z,2025-08-20T22:18:59+00:00,1,21095.78,False,91,15,2,99,4,0,4,CLOSED
+9312,fix: give correct unauthorized response on OpenID Connect Auth,rhuanbarreto,2023-03-25T12:55:01Z,2024-01-22T19:45:57+00:00,1,7278.85,False,6,6,3,130,3,0,3,CLOSED
+9282,✏ Fix typo in `docs/en/docs/tutorial/path-params-numeric-validations.md`,aadarsh977,2023-03-20T03:18:24Z,2023-04-13T18:28:53+00:00,2,591.17,True,1,1,1,0,2,0,2,MERGED
+9280,swagger-ui 5,raphaelauv,2023-03-19T16:11:06Z,2023-07-09T14:29:23+00:00,1,2686.3,False,4,4,2,0,1,0,1,CLOSED
+9272,✏ Fix typo in `docs/en/docs/tutorial/query-params-str-validations.md`,nicornk,2023-03-18T21:57:25Z,2023-04-13T18:33:04+00:00,3,620.59,True,1,1,1,0,7,0,7,MERGED
+9271,🌐 Add Russian translation for `docs/ru/docs/benchmarks.md`,Xewus,2023-03-18T19:54:25Z,2023-04-13T17:52:11+00:00,8,621.96,True,39,0,2,122,6,8,14,MERGED
+9267,🌐 Add Russian translation for `docs/ru/docs/tutorial/query-params-str-validations.md`,dedkot01,2023-03-17T18:42:04Z,2023-04-13T17:58:09+00:00,21,647.27,True,920,0,2,91,16,27,43,MERGED
+9265,🌐 Add French translation for `docs/fr/docs/index.md`,cfraboulet,2023-03-17T08:47:57Z,2023-04-13T17:59:44+00:00,4,657.2,True,173,170,1,249,10,4,14,MERGED
+9261,📝 Add german blog post (Domain-driven Design mit Python und FastAPI),msander,2023-03-14T16:01:36Z,2023-06-22T16:44:05+00:00,1,2400.71,True,4,0,1,223,6,0,6,MERGED
+9249,"✏️ Fix format, remove unnecessary asterisks in `docs/en/docs/help-fastapi.md`",armgabrielyan,2023-03-12T17:48:15Z,2023-04-13T18:34:04+00:00,1,768.76,True,1,1,1,45,2,0,2,MERGED
+9243,🌐 Add Russian translation for `docs/ru/docs/project-generation.md`,Xewus,2023-03-11T11:48:12Z,2023-04-13T18:00:47+00:00,6,798.21,True,85,0,2,0,8,2,10,MERGED
+9242,Added docs/ru/docs/tutorial/bigger-applications.md file ,unknown,2023-03-11T09:48:49Z,2023-04-07T05:44:10+00:00,1,643.92,False,471,0,1,0,2,1,3,CLOSED
+9240,🔧 Set minimal hatchling version needed to build the package,mgorny,2023-03-10T20:02:45Z,2023-06-22T11:35:12+00:00,3,2487.54,True,1,1,1,269,5,0,5,MERGED
+9221,🌐 Add French translation for `docs/fr/docs/advanced/path-operation-advanced-configuration.md`,axel584,2023-03-05T21:22:30Z,2023-03-06T16:28:41+00:00,3,19.1,True,169,0,2,169,4,1,5,MERGED
+9214,🌐 Add Spanish translation for `docs/es/docs/tutorial/body-nested-models.md`,chesstrian,2023-03-04T22:48:49Z,2024-12-30T18:55:29+00:00,2,16004.11,False,383,0,2,0,8,1,9,CLOSED
+9177,🌐 Add Bengali translation for `docs/bn/docs/index.md`,Fahad-Md-Kamal,2023-03-03T19:51:10Z,2024-01-10T17:43:36+00:00,16,7509.87,True,465,0,2,33,27,14,41,MERGED
+9176,🌐 Add Korean translation for `docs/tutorial/dependencies/classes-as-dependencies.md`,sehwan505,2023-03-03T14:17:12Z,2023-04-13T18:02:53+00:00,6,987.76,True,246,0,2,191,3,19,22,MERGED
+9175,🌐 Add French translation for `docs/tutorial/debugging.md`,cfraboulet,2023-03-03T12:24:39Z,2023-03-06T16:26:49+00:00,2,76.04,True,113,0,2,138,2,0,2,MERGED
+6039,🐛 Fix inconsistent processing of model docstring formfeed char with Pydantic V1,MaxwellPayne,2023-02-23T18:59:02Z,2025-09-20T18:10:37+00:00,2,22559.19,True,182,1,2,2364,3,1,4,MERGED
+6018,📝 Add blog for FastAPI & Supabase,theinfosecguy,2023-02-19T11:04:26Z,2024-01-09T14:32:46+00:00,3,7779.47,True,4,0,1,158,6,0,6,MERGED
+6005,✏ Fix formatting in `docs/en/docs/tutorial/metadata.md` for `ReDoc`,eykamp,2023-02-16T02:49:18Z,2023-03-04T12:42:56+00:00,2,393.89,True,1,1,1,27,2,0,2,MERGED
+6004,📝 Update Deta deployment tutorial for compatibility with Deta Space,mikBighne98,2023-02-15T19:32:13Z,2023-05-08T12:32:02+00:00,2,1961.0,True,222,89,5,0,16,2,18,MERGED
+6002,🌐 Add Russian translation for `docs/ru/docs/contributing.md`,stigsanek,2023-02-15T10:33:20Z,2023-04-13T18:04:30+00:00,5,1375.52,True,84,1,3,353,10,4,14,MERGED
+5994,🌐 Add Russian translation for `docs/ru/docs/alternatives.md`,Xewus,2023-02-13T13:58:06Z,2023-04-13T18:12:49+00:00,12,1420.25,True,461,0,2,0,9,17,26,MERGED
+5990,"✏ Fix typo in `docs/en/docs/tutorial/bigger-applications.md`, ""codes"" to ""code""",aayushchhabra1999,2023-02-11T11:01:13Z,2023-03-04T12:17:21+00:00,2,505.27,True,1,1,1,48,2,0,2,MERGED
+5986,🌐 Add Russian translation for `docs/ru/docs/history-design-future.md`,Xewus,2023-02-10T19:41:45Z,2023-03-10T18:42:26+00:00,7,671.01,True,78,0,2,0,6,11,17,MERGED
+5982,🌐 Update code highlights in `docs/zh/docs/tutorial/body.md`,wushuangX,2023-02-10T08:00:28Z,2024-01-13T14:24:46+00:00,1,8094.4,False,65,18,1,0,5,0,5,CLOSED
+5978,Fix orm_mode enabled parsing of response content,ImogenBits,2023-02-08T20:18:35Z,2024-01-22T19:41:59+00:00,2,8351.39,False,5,2,1,518,4,1,5,CLOSED
+5975,Bump Starlette from 0.23.0 to 0.23.1,musicinmybrain,2023-02-08T13:23:21Z,2023-02-09T19:25:25+00:00,2,30.03,False,1,1,1,227,3,0,3,CLOSED
+5974,➕ [FEATURE] Mounting app creates API definition,aledenza,2023-02-07T22:47:19Z,2024-08-17T06:22:10+00:00,1,13351.58,False,192,24,5,1184,8,0,8,CLOSED
+5961,🌐 Add Hungarian translation for `docs/hu/docs/index.md`,m7kn,2023-02-04T12:09:38Z,2024-01-15T16:10:06+00:00,1,8284.01,False,464,0,2,43,3,3,6,CLOSED
+5952,✏ Update Pydantic GitHub URLs,yezz123,2023-02-01T10:57:19Z,2023-02-09T19:28:55+00:00,4,200.53,True,5,5,3,107,4,0,4,MERGED
+5947,fix: display address in docs CLI live mode 📝 ,ComicShrimp,2023-01-31T01:22:45Z,2024-01-13T14:23:54+00:00,1,8341.02,False,2,0,1,106,2,0,2,CLOSED
+5936,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/path-operation-configuration.md`,LorhanSohaky,2023-01-29T02:27:44Z,2023-04-13T18:06:28+00:00,4,1791.65,True,181,0,2,0,3,1,4,MERGED
+5931,"✏ Update `zip-docs.sh` internal script, remove extra space",JuanPerdomo00,2023-01-27T19:16:07Z,2023-02-09T19:36:46+00:00,2,312.34,True,1,1,1,24,2,0,2,MERGED
+5930,✏ Tweak wording to clarify `docs/en/docs/project-generation.md`,chandra-deb,2023-01-27T19:05:01Z,2023-02-09T19:35:01+00:00,3,312.5,True,1,1,1,187,3,0,3,MERGED
+5925,🌐 Add Chinese translation for for `docs/zh/docs/deployment/index.md` and `docs/zh/docs/external-links.md`,stephenatgithub,2023-01-25T14:08:12Z,2023-09-08T15:46:31+00:00,1,5425.64,False,103,0,2,162,7,0,7,CLOSED
+5914,➕ Add `pydantic` to PyPI classifiers,yezz123,2023-01-23T08:03:39Z,2023-03-10T18:47:39+00:00,2,1114.73,True,2,0,1,78,7,0,7,MERGED
+5913,"📝 Update code examples in docs for body, replace name `create_item` with `update_item` when appropriate",OttoAndrey,2023-01-22T08:03:32Z,2024-01-09T14:28:58+00:00,7,8454.42,True,4,4,4,248,6,1,7,MERGED
+5912,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/extra-models.md`,LorhanSohaky,2023-01-21T23:37:03Z,2023-04-13T18:12:26+00:00,4,1962.59,True,253,0,2,0,5,7,12,MERGED
+5910,🌐 Add Korean translation for `docs/ko/docs/tutorial/background-tasks.md`,junah201,2023-01-21T14:55:44Z,2024-01-27T09:28:49+00:00,7,8898.55,True,102,0,1,82,7,14,21,MERGED
+5906,Add optional Swagger-related configurations to FastAPI constructs to …,pythonzaza,2023-01-21T03:11:47Z,2023-08-09T01:38:41+00:00,1,4798.45,False,9,0,1,124,5,0,5,CLOSED
+5900,Add packaging status of fastapi for various linux distros to readme,rrrrrrmb,2023-01-19T20:12:30Z,2023-02-09T19:38:25+00:00,1,503.43,False,6,0,1,223,2,0,2,CLOSED
+5898,🌐 Add Russian translation for `docs/ru/docs/tutorial/body-fields.md`,simatheone,2023-01-18T16:30:39Z,2023-02-07T13:33:16+00:00,10,477.04,True,70,0,2,247,10,8,18,MERGED
+5896,🌐 Add Russian translation for `docs/ru/docs/tutorial/index.md`,wilidon,2023-01-18T09:57:37Z,2023-06-10T20:36:25+00:00,6,3442.65,True,81,0,2,57,4,23,27,MERGED
+5890,🌐 Add Russian translation for `docs/ru/docs/tutorial/cookie-params.md`,bnzone,2023-01-16T23:08:34Z,2023-02-09T19:27:17+00:00,12,572.31,True,50,0,2,251,6,5,11,MERGED
+5887,🌐 Add Persian translation for `docs/fa/docs/features.md`,amirilf,2023-01-16T11:22:26Z,2024-01-09T16:14:01+00:00,4,8596.86,True,206,0,1,70,4,4,8,MERGED
+5883,Improve import time,mgu,2023-01-14T12:36:22Z,2023-06-04T19:00:39+00:00,3,3390.4,False,102,95,8,69272,7,0,7,CLOSED
+5879,add __str__ method to HTTPException,ebottos94,2023-01-12T13:21:11Z,2023-09-27T21:26:14+00:00,7,6200.08,False,12,0,2,331,8,2,10,CLOSED
+5870,🌐 Add Russian translation for `docs/ru/docs/contributing.md`,Xewus,2023-01-10T11:44:58Z,2023-02-07T13:04:38+00:00,19,673.33,True,470,0,2,136,11,13,24,MERGED
+5866,✏ Update sponsors and python version,f1v3-dev,2023-01-09T12:47:36Z,2023-01-10T01:37:50+00:00,1,12.84,False,229,164,20,35,1,0,1,CLOSED
+5863,⬆ Bump black from 22.10.0 to 22.12.0,dependabot,2023-01-09T11:17:10Z,2023-02-01T11:13:01+00:00,1,551.93,False,1,1,1,4281,1,0,1,CLOSED
+5858,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/static-files.md`,batlopes,2023-01-09T00:45:56Z,2023-02-07T13:09:33+00:00,3,708.39,True,40,0,2,66,2,3,5,MERGED
+5855,🐛 Ignore Response classes on return annotation,Kludex,2023-01-08T08:23:52Z,2023-01-10T12:45:18+00:00,6,52.36,True,53,1,2,16,5,3,8,MERGED
+5854,🌐 Add Korean translation for `docs/ko/docs/tutorial/body-multiple-params.md`,KaniKim,2023-01-08T05:44:41Z,2023-07-12T04:21:42+00:00,2,4438.62,False,213,0,1,71,12,10,22,CLOSED
+5853,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/response-model.md`,gustavovalle23,2023-01-07T20:38:32Z,2023-04-04T17:25:40+00:00,2,2084.79,False,483,0,2,68,2,10,12,CLOSED
+5830,🌐 Add Chinese translation for `docs/zh/docs/advanced/settings.md`,Jasonw372,2023-01-03T05:52:51Z,2023-06-26T23:40:15+00:00,3,4193.79,False,383,0,2,52,8,16,24,CLOSED
+5826,"Fix typo in ""Behind Proxy"" guide",mohsinhaider,2023-01-02T01:15:06Z,2023-01-04T10:22:20+00:00,1,57.12,False,1,1,1,36,3,0,3,CLOSED
+5824,✏ Fix typo in `docs/en/docs/deployment/concepts.md`,kelbyfaessler,2022-12-31T14:39:44Z,2023-01-07T15:31:04+00:00,3,168.86,True,1,1,1,18,2,0,2,MERGED
+5823,🐛 Preserve traceback when an exception is raised in sync dependency with `yield`,sombek,2022-12-30T21:46:35Z,2024-12-03T22:37:12+00:00,7,16896.84,True,24,3,2,260,14,2,16,MERGED
+5812,Create main.html,roham96,2022-12-27T21:11:58Z,2023-01-07T15:26:24+00:00,1,258.24,False,83,0,1,46,2,0,2,CLOSED
+5811,"🔥 Remove link to Pydantic's benchmark, as it was removed there",Kludex,2022-12-27T13:25:57Z,2023-06-10T17:05:42+00:00,1,3963.66,True,0,2,1,69,3,0,3,MERGED
+5805,♻ Remove `media_type` from `ORJSONResponse` as it's inherited from the parent class,Kludex,2022-12-20T14:49:59Z,2023-06-10T17:04:29+00:00,4,4130.24,True,0,2,1,220,3,0,3,MERGED
+5799,Upgrade databases and SQLAlchemy,musicinmybrain,2022-12-18T16:25:50Z,2024-08-24T21:04:21+00:00,2,14764.64,False,4,4,2,242,31,0,31,CLOSED
+5798,🌐 Add Japanese translation for `docs/ja/docs/tutorial/security/index.md`,3w36zj6,2022-12-18T14:56:31Z,2024-01-23T13:10:49+00:00,1,9622.24,True,101,0,1,86,3,0,3,MERGED
+5785,✏ Fix typo in `docs/en/docs/async.md`,Kingdageek,2022-12-14T18:33:30Z,2023-01-07T16:56:59+00:00,1,574.39,True,1,1,1,0,4,0,4,MERGED
+5784,📝 Add External Link: FastAPI lambda container: serverless simplified,rafrasenberg,2022-12-14T10:47:20Z,2023-01-10T12:33:37+00:00,2,649.77,True,4,0,1,156,6,0,6,MERGED
+5772,Modify docstring in oauth2.py file,nebiyuelias1,2022-12-12T09:54:11Z,2024-01-13T14:27:29+00:00,2,9532.56,False,16,18,1,128,4,1,5,CLOSED
+5768,Update pydantic docs url,Abdeldjalil-H,2022-12-10T11:40:53Z,2022-12-16T21:34:44+00:00,3,153.9,False,106,106,81,88,2,0,2,CLOSED
+5758,⬆ Bump ruff from 0.0.138 to 0.0.169,dependabot,2022-12-08T11:40:22Z,2022-12-09T11:09:12+00:00,1,23.48,False,2,2,1,4085,1,0,1,CLOSED
+5757,⬆ Bump nwtgck/actions-netlify from 1.2.4 to 2.0.0,dependabot,2022-12-08T11:39:52Z,2022-12-16T19:10:30+00:00,1,199.51,True,2,2,2,2191,2,0,2,MERGED
+5750,⬆ Bump pypa/gh-action-pypi-publish from 1.5.2 to 1.6.4,dependabot,2022-12-07T11:09:53Z,2023-01-07T15:08:12+00:00,1,747.97,True,1,1,1,3858,4,0,4,MERGED
+5744,🌐 Add Korean translation for `docs/ko/docs/tutorial/security/simple-oauth2.md`,KdHyeon0661,2022-12-06T10:44:17Z,2024-04-02T22:37:23+00:00,2,11603.89,True,315,0,1,118,6,0,6,MERGED
+5737,🌐 Add Korean translation for `docs/ko/docs/tutorial/security/get-current-user.md`,KdHyeon0661,2022-12-05T14:07:53Z,2024-01-23T14:02:50+00:00,1,9935.92,True,151,0,1,121,5,0,5,MERGED
+5712,📝 Add External Link: Authorization on FastAPI with Casbin,Xhy-5000,2022-11-29T17:27:11Z,2023-01-07T17:01:38+00:00,1,935.57,True,4,0,1,0,7,0,7,MERGED
+5708,Add introduction to casbin middlewarele,Xhy-5000,2022-11-28T21:21:43Z,2022-11-29T17:05:09+00:00,1,19.72,False,97,0,1,0,5,0,5,CLOSED
+5707,chore: refactor concurrency.py to run sync context managers in a single thread,adriangb,2022-11-28T20:40:11Z,2025-09-22T09:05:05+00:00,2,24684.42,False,76,22,2,1304,22,1,23,CLOSED
+5701,Translation fr advanced path operation advanced configuration,axel584,2022-11-27T18:41:32Z,2023-03-05T21:21:19+00:00,5,2354.66,False,6149,768,109,105,4,10,14,CLOSED
+5695,🌐 Add Korean translation for `docs/ko/docs/tutorial/debugging.md`,JungWooGeon,2022-11-27T07:30:10Z,2024-04-02T04:18:08+00:00,1,11804.8,True,112,0,1,71,6,0,6,MERGED
+5691,🌐 Add Turkish translation for `docs/tr/docs/tutorial/first_steps.md`,Kadermiyanyedi,2022-11-26T12:13:32Z,2023-01-10T12:38:01+00:00,4,1080.41,True,338,0,2,66,7,5,12,MERGED
+5681,📝 Fix typo in `docs/en/docs/advanced/behind-a-proxy.md`,Leommjr,2022-11-24T01:26:38Z,2023-04-13T18:44:10+00:00,1,3377.29,True,1,1,1,0,7,0,7,MERGED
+5680,👷 Update `setup-python` action in tests to use new caching feature,zanieb,2022-11-23T19:47:42Z,2022-11-25T11:38:55+00:00,2,39.85,True,4,6,1,511,6,0,6,MERGED
+5677,#1892 add Turkish translation for docs/tutorial/first_steps.md,Kadermiyanyedi,2022-11-23T10:59:54Z,2022-11-26T11:57:57+00:00,3,72.97,False,339,0,2,66,4,7,11,CLOSED
+5673,🌐 Add French translation for `docs/fr/docs/advanced/index.md`,axel584,2022-11-22T16:20:05Z,2023-04-13T18:17:43+00:00,6,3409.96,True,25,0,2,121,7,1,8,MERGED
+5667,Combine inherited nonparam Security() objects,kristjanvalur,2022-11-20T19:16:53Z,2025-10-08T12:08:13+00:00,2,25264.86,False,154,3,4,891,10,0,10,CLOSED
+5665,🌐 Add Russian translation for `docs/ru/docs/help-fastapi.md`,Xewus,2022-11-20T11:49:24Z,2023-02-07T13:28:28+00:00,3,1897.65,False,726,0,3,158,12,11,23,CLOSED
+5663,🌐 Add Portuguese translation for `docs/pt/docs/deployment/docker.md`,ayr-ton,2022-11-19T21:12:30Z,2022-11-27T14:13:50+00:00,7,185.02,True,702,0,2,136,17,18,35,MERGED
+5662,Update tutorial001_py310.py,subedikushal,2022-11-19T13:51:42Z,2023-01-18T00:14:10+00:00,1,1426.37,False,2,2,1,213,4,0,4,CLOSED
+5659,⬆ Bump Starlette to version `0.22.0` to fix bad encoding for query parameters in `TestClient`,azogue,2022-11-18T14:02:12Z,2022-11-27T14:46:06+00:00,1,216.73,True,14,2,2,286,6,0,6,MERGED
+5657,🌐 Add Korean translation for `docs/ko/docs/deployment/docker.md`,hynjngyeo,2022-11-18T07:47:44Z,2024-01-22T19:50:44+00:00,2,10332.05,True,698,0,1,134,11,0,11,MERGED
+5643,🌐 Add Korean translation for `docs/ko/docs/tutorial/security/first-steps.md`,KdHyeon0661,2022-11-14T14:35:22Z,2025-09-05T09:08:41+00:00,1,24618.56,False,182,0,1,116,8,5,13,CLOSED
+5635,🌐 Fix spelling in Indonesian translation of `docs/id/docs/tutorial/index.md`,purwowd,2022-11-14T00:09:04Z,2023-06-10T20:48:51+00:00,2,5012.66,True,8,8,1,0,3,0,3,MERGED
+5627,✏️  Clarify docs on CORS,paxcodes,2022-11-13T01:54:19Z,2022-11-13T20:28:38+00:00,1,18.57,True,1,1,1,282,2,0,2,MERGED
+5614,🐛 Fix padlocks on routes in SwaggerUI for custom authentication implementations,JonasKs,2022-11-10T19:30:26Z,2024-05-12T19:42:00+00:00,2,13176.19,False,117,10,3,602,26,0,26,CLOSED
+5612,🌐 Add Korean translation for `docs/ko/docs/tutorial/security/index.md`,KdHyeon0661,2022-11-10T17:38:54Z,2025-04-29T22:18:27+00:00,1,21628.66,False,101,0,1,110,9,6,15,CLOSED
+5605,🌐 Add Korean translation for `docs/ko/docs/tutorial/dependencies/index.md`,KdHyeon0661,2022-11-09T17:59:17Z,2024-01-29T16:11:32+00:00,4,10702.2,False,233,0,1,114,9,15,24,CLOSED
+5595,Validate Path duplication on added routes,iudeen,2022-11-07T19:27:45Z,2025-09-20T15:24:40+00:00,3,25147.95,False,178,0,4,1073,15,1,16,CLOSED
+5594,🌐 Add Korean translation for `docs/ko/docs/deployment/manually.md`,rladh06,2022-11-07T13:45:05Z,2025-02-15T11:00:49+00:00,1,19941.26,False,147,0,1,32,7,5,12,CLOSED
+5591,🌐 Add Chinese translation for `docs/zh/docs/async.md`,mkdir700,2022-11-04T14:12:18Z,2023-09-27T20:47:21+00:00,10,7854.58,True,430,0,1,39,19,17,36,MERGED
+5579,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/request-forms-and-files.md`,batlopes,2022-11-03T11:14:37Z,2022-11-13T13:59:17+00:00,5,242.74,True,37,0,2,77,4,1,5,MERGED
+5577,🌐 Add Russian translation for `docs/ru/docs/fastapi-people.md`,Xewus,2022-11-02T18:42:27Z,2023-01-07T14:45:32+00:00,10,1580.05,True,180,0,1,116,14,10,24,MERGED
+5568,create async sql tutorial001 for python3.10,SXHRYU,2022-11-01T11:04:53Z,2024-10-09T19:54:26+00:00,1,17000.83,False,63,0,1,30,8,0,8,CLOSED
+5565,🌐 Add Tamil translation for `docs/ta/docs/features.md`,arunppsg,2022-10-31T18:13:54Z,2024-06-02T08:58:09+00:00,1,13910.74,False,90,0,2,55,12,2,14,CLOSED
+5553,✨ Do not allow duplicate tag names in the OpenAPI metadata (OpenAPI object),aradipe,2022-10-28T10:30:17Z,2025-07-13T22:18:54+00:00,2,23747.81,False,38,2,3,21,10,1,11,CLOSED
+5550,🌐 Add Portuguese translation for `docs/pt/docs/advanced/templates.md`,BrunoFNRodrigues,2022-10-27T16:35:23Z,2024-01-15T16:06:16+00:00,9,10679.51,False,75,0,1,77,11,12,23,CLOSED
+5549,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/middleware.md`,guishas,2022-10-27T14:45:46Z,2024-03-03T03:13:25+00:00,3,11820.46,False,61,0,1,62,12,18,30,CLOSED
+5547,🐛 Fix internal Trio test warnings,samuelcolvin,2022-10-27T14:00:49Z,2022-10-31T13:36:31+00:00,2,95.59,True,4,1,1,715,8,0,8,MERGED
+5546,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/static-files.md`,JoaoVitorMenezesMagalhaes,2022-10-27T13:58:00Z,2023-02-07T13:11:11+00:00,1,2471.22,False,40,0,2,0,6,0,6,CLOSED
+5545,📝 Fix typo in docs with examples for Python 3.10 instead of 3.9,ghpZ54K8ZRwU62zGVSePPs97yAv9swuAY0mVDR4,2022-10-27T08:35:12Z,2022-10-31T16:38:10+00:00,1,104.05,True,1,1,1,53,3,0,3,MERGED
+5544,Make pyproject.toml PEP 621 compliant,simontegelid,2022-10-26T15:47:18Z,2022-10-31T16:34:24+00:00,1,120.78,False,1,1,1,627,3,0,3,CLOSED
+5538,"⬆ Update uvicorn[standard] requirement from <0.19.0,>=0.12.0 to >=0.12.0,<0.20.0",dependabot,2022-10-25T11:44:16Z,2022-12-16T19:45:41+00:00,1,1256.02,False,2,2,1,4074,8,0,8,CLOSED
+5530,🌐 Fix typo in Chinese translation for `docs/zh/docs/tutorial/security/first-steps.md`,yuki1sntSnow,2022-10-21T14:58:28Z,2022-10-31T16:39:44+00:00,2,241.69,True,1,1,1,0,3,0,3,MERGED
+5527,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/debugging.md`,rafaelem2,2022-10-20T20:35:25Z,2024-01-15T16:01:26+00:00,2,10843.43,False,112,0,1,137,7,4,11,CLOSED
+5525,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/encoder.md`,felipebpl,2022-10-20T15:20:53Z,2023-02-07T13:09:01+00:00,6,2637.8,True,43,0,2,292,6,1,7,MERGED
+5523,"✏ Fix typo in docs about contributing, for compatibility with `pip` in Zsh",zhangbo2012,2022-10-20T06:13:14Z,2022-10-31T16:46:38+00:00,3,274.56,True,4,4,4,431,4,0,4,MERGED
+5518,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/request-forms.md`,guishas,2022-10-18T14:55:57Z,2023-06-26T22:55:24+00:00,5,6031.99,False,61,2,2,470,7,1,8,CLOSED
+5512,Found a code omission in the tutorial,yuki1sntSnow,2022-10-18T00:52:02Z,2022-10-21T02:54:13+00:00,1,74.04,False,1,1,1,0,5,0,5,CLOSED
+5510,Update LICENSE,Jularin,2022-10-17T14:05:38Z,2022-10-17T22:11:56+00:00,2,8.11,False,1,1,1,0,4,0,4,CLOSED
+5506,Add supporting for async callable object,sviat9440,2022-10-17T11:58:49Z,2025-07-10T15:38:32+00:00,7,23931.66,False,35,2,3,0,12,1,13,CLOSED
+5503,Add lifespan context v3,JonathanPlasse,2022-10-16T15:19:03Z,2023-03-07T15:47:41+00:00,10,3408.48,False,94,38,5,50,14,3,17,CLOSED
+5500,"🌐 Start translations to Tamil, with first translation for `docs/ta/docs/index.md`",arunppsg,2022-10-16T09:11:37Z,2024-03-03T03:13:32+00:00,8,12090.03,False,462,0,1,102,14,8,22,CLOSED
+5494,🌐Add Russian translation for `docs/ru/docs/deployment/https.md`,emp7yhead,2022-10-13T14:57:03Z,2023-02-01T17:48:25+00:00,19,2666.86,False,2255,0,19,65,7,26,33,CLOSED
+5492,👷 Add GitHub Action gate/check,webknjaz,2022-10-13T02:12:54Z,2023-01-07T14:54:59+00:00,1,2076.7,True,16,0,1,774,18,0,18,MERGED
+5490,✏️ Update highlighted line in `docs/en/docs/tutorial/bigger-applications.md`,papb,2022-10-12T22:26:04Z,2024-01-11T20:18:07+00:00,3,10941.87,True,1,1,1,0,7,0,7,MERGED
+5477,🌐 Add French translation for `docs/fr/docs/advanced/additional-status-code.md`,axel584,2022-10-09T08:46:16Z,2022-11-13T14:03:48+00:00,11,845.29,True,280,0,3,138,13,7,20,MERGED
+5472,perf: improve solve_dependencies increasing requests/s by 18%,sk-,2022-10-07T16:15:20Z,2024-02-10T13:52:19+00:00,5,11781.62,False,24,17,1,2139,10,1,11,CLOSED
+5471,"⬆ Upgrade Starlette to `0.21.0`, including the new [`TestClient` based on HTTPX](https://github.com/encode/starlette/releases/tag/0.21.0)",pawelrubin,2022-10-07T09:34:20Z,2022-11-13T14:26:09+00:00,10,892.86,True,79,73,26,496,21,4,25,MERGED
+5466,🌐 Add Spanish translation for `docs/tutorial/response-status-code.md`,carlosm27,2022-10-06T16:52:10Z,2024-12-30T18:56:57+00:00,4,19586.08,False,107,0,2,185,13,23,36,CLOSED
+5465,🐛 Close FormData (uploaded files) after the request is done,adriangb,2022-10-06T15:50:59Z,2022-11-03T12:06:53+00:00,2,668.26,True,31,1,2,0,16,0,16,MERGED
+5462,Improved Performance and Refactor of `jsonable_encoder`,Ben-Brady,2022-10-05T22:18:06Z,2025-08-09T00:20:44+00:00,5,24914.04,False,0,0,0,445,16,5,21,CLOSED
+5461,"Resolve types correctly (PEP 563, postponed annotations)",mastercoms,2022-10-05T20:49:54Z,2023-04-02T06:06:46+00:00,3,4281.28,False,19,19,1,1385,17,1,18,CLOSED
+5456,Fix PR checks,paulo-raca,2022-10-04T02:32:15Z,2022-10-24T02:21:26+00:00,6,479.82,False,3,2,2,437,4,0,4,CLOSED
+5455,✏ Fix broken link in `alternatives.md`,su-shubham,2022-10-03T19:15:20Z,2022-10-31T17:16:57+00:00,1,670.03,True,1,1,1,34,3,1,4,MERGED
+5452,Fix openapi document with dependencies override (#5451),lmignon,2022-10-02T20:21:30Z,2025-06-17T11:31:06+00:00,4,23727.16,False,392,3,5,10,25,0,25,CLOSED
+5445,🌐 Fix emojis and illustrations in Portuguese translation for `docs/pt/docs/async.md`,flaviofilipe,2022-10-01T13:07:29Z,2024-01-15T16:03:06+00:00,2,11306.93,False,77,44,1,91,8,4,12,CLOSED
+5432,✏ Fix grammar and add helpful links to dependencies in `docs/en/docs/async.md`,pamelafox,2022-09-26T13:11:50Z,2022-10-31T17:21:06+00:00,1,844.15,True,3,3,1,335,3,0,3,MERGED
+5429,🐛 Fix losing model config in `create_cloned_field`,daniil-berg,2022-09-24T12:35:32Z,2024-08-17T06:06:00+00:00,4,16625.51,False,10,8,2,2151,4,0,4,CLOSED
+5427,✨Add support for removing responses by passing empty dict,staffluck,2022-09-23T21:36:44Z,2025-08-10T22:20:05+00:00,1,25248.72,False,76,1,2,340,8,0,8,CLOSED
+5416,🌐 Update wording in Chinese translation for `docs/zh/docs/python-types.md`,supercaizehua,2022-09-22T06:28:14Z,2022-11-03T12:07:49+00:00,2,1013.66,True,1,1,1,34,3,0,3,MERGED
+5405,Fix docs: Python snippet uses 3.10 not 3.9,shehab-as,2022-09-18T15:54:08Z,2023-06-22T11:26:29+00:00,7,6643.54,False,0,0,0,160,4,0,4,CLOSED
+5402,Update LICENSE,leirons,2022-09-16T15:11:30Z,2022-10-20T11:14:31+00:00,5,812.05,False,1,1,1,0,4,0,4,CLOSED
+5392,Pass in redirect_slashes,lieryan,2022-09-15T02:51:18Z,2024-01-13T14:19:27+00:00,3,11651.47,False,2,0,1,163,6,0,6,CLOSED
+5385,🌐 🔠 📄 🐢 Translate docs to Emoji 🥳 🎉 💥 🤯 🤯,LeeeeT,2022-09-13T17:24:32Z,2023-04-01T09:26:04+00:00,31,4792.03,True,18865,2,125,482,24,1,25,MERGED
+5373,🐛 Fix mount subapp with APIRouter,BilalAlpaslan,2022-09-11T09:38:14Z,2024-08-17T06:00:41+00:00,6,16940.37,False,75,0,2,0,4,1,5,CLOSED
+5366,🌐 Add Dutch translation for `docs/nl/docs/index.md`,maxscheijen,2022-09-09T12:56:42Z,2024-03-31T02:48:08+00:00,1,13645.86,False,140,145,1,57,6,4,10,CLOSED
+5365, 🐛Fix `RuntimeError` raised when `HTTPException` has a status code with no content,iudeen,2022-09-08T19:52:53Z,2022-09-11T16:13:36+00:00,3,68.35,True,54,8,2,100,8,1,9,MERGED
+5360,🐛 Fix empty reponse body when default `status_code` is empty but the a `Response` parameter with `response.status_code` is set,tmeckel,2022-09-07T16:28:57Z,2022-09-08T15:03:00+00:00,1,22.57,True,98,1,2,502,6,0,6,MERGED
+5356,"♻ Instantiate `HTTPException` only when needed, optimization refactor",pawamoy,2022-09-07T08:37:21Z,2023-06-10T12:05:36+00:00,7,6627.47,True,5,5,1,241,6,0,6,MERGED
+5354,✨ Generate automatic language names for docs translations,jakul,2022-09-06T12:16:13Z,2024-01-09T20:37:10+00:00,8,11768.35,True,213,24,3,632,11,1,12,MERGED
+5348,🌐 Add Polish translation for `docs/pl/docs/features.md`,mbroton,2022-09-04T20:37:40Z,2023-06-22T14:29:05+00:00,12,6977.86,True,201,0,2,61,8,5,13,MERGED
+5346,"✏ Update Hypercorn link, now pointing to GitHub",baconfield,2022-09-04T09:07:43Z,2022-09-04T14:56:29+00:00,2,5.81,True,2,2,2,156,5,1,6,MERGED
+5336,🌐 Add Russian translation for `docs/ru/docs/deployment/index.md`,Xewus,2022-09-01T16:24:11Z,2022-11-03T11:51:45+00:00,6,1507.46,True,24,1,2,0,14,8,22,MERGED
+5333,Fix Uber external link,dev-smile,2022-09-01T11:53:34Z,2022-09-04T15:16:02+00:00,1,75.37,False,21,21,21,158,5,0,5,CLOSED
+5324,🌐 Add Russian translation for `docs/ru/docs/fastapi-people.md`,Xewus,2022-08-31T11:03:43Z,2022-09-13T16:32:07+00:00,1,317.47,False,0,0,0,0,7,0,7,CLOSED
+5323,Simplify code of `http_exception_handler`,PipeKnight,2022-08-30T13:49:02Z,2023-09-27T21:04:27+00:00,5,9439.26,False,0,0,0,257,5,0,5,CLOSED
+5315,🌐 Add Russian translation for `docs/ru/docs/features.md`,Xewus,2022-08-29T11:50:31Z,2022-09-04T14:27:48+00:00,39,146.62,True,204,0,2,0,13,22,35,MERGED
+5314,fix: dependecy generic openapi,JeanArhancet,2022-08-29T08:44:12Z,2024-10-24T19:04:01+00:00,1,18898.33,False,179,5,2,85,4,0,4,CLOSED
+5299,Refactoring,SunriseFading,2022-08-23T20:47:31Z,2023-04-12T18:50:04+00:00,4,5566.04,False,43,59,5,0,14,0,14,CLOSED
+5297,fix: allows user to set example(s) value(s) when using Form and/or multiple Body parameters,Thytu,2022-08-23T10:17:17Z,2023-09-21T11:59:41+00:00,1,9457.71,False,89,0,2,571,39,0,39,CLOSED
+5289,🌐 Add Russian translation for `docs/ru/docs/index.md`,impocode,2022-08-19T20:37:25Z,2022-08-26T14:45:25+00:00,29,162.13,True,163,168,3,0,10,39,49,MERGED
+5273,Give the ability to set any route class when adding a third-party router,ilyaTT,2022-08-16T13:50:36Z,2025-08-10T22:20:12+00:00,1,26168.49,False,2,1,1,0,5,0,5,CLOSED
+5270,🌐 Add Japanese translation for `docs/ja/docs/advanced/events.md`,My-MC,2022-08-14T01:01:56Z,2025-02-22T08:15:19+00:00,1,22159.22,False,47,0,1,248,7,0,7,CLOSED
+5260,"📝 Add link to New Relic article: ""How to monitor FastAPI application performance using Python agent""",sjyothi54,2022-08-10T14:10:07Z,2022-09-04T13:01:08+00:00,1,598.85,True,4,0,1,377,5,0,5,MERGED
+5256,✏ Fix a small code highlight line error,hjlarry,2022-08-10T08:22:50Z,2022-09-04T13:18:09+00:00,2,604.92,True,1,1,1,84,3,0,3,MERGED
+5255,🌐 Update Chinese translation for `docs/zh/docs/tutorial/query-params-str-validations.md`,hjlarry,2022-08-10T08:18:55Z,2022-10-31T17:57:38+00:00,3,1977.65,True,36,2,1,57,3,0,3,MERGED
+5242,🌐 Fix MkDocs file line for Portuguese translation of `background-task.md`,ComicShrimp,2022-08-07T17:33:56Z,2022-09-04T13:23:35+00:00,2,667.83,True,1,0,1,111,3,0,3,MERGED
+5240,"🔧 Update package metadata, drop support for Python 3.6, move build internals from Flit to Hatch",ofek,2022-08-07T06:59:30Z,2022-09-14T18:31:20+00:00,7,923.53,True,82,223,28,1855,9,2,11,MERGED
+5237,🌐 Add Korean translation for `docs/ko/docs/features.md`,joonas-yoon,2022-08-05T11:43:29Z,2024-01-15T16:10:55+00:00,1,12676.46,False,200,0,1,270,5,2,7,CLOSED
+5234,hammer: Update example code for Couchbase,joonas-yoon,2022-08-05T02:03:01Z,2024-08-17T05:56:01+00:00,1,17835.88,False,9,9,2,78,4,0,4,CLOSED
+5233,🌐 Add Italian translation for `docs/it/docs/index.md`,matteospanio,2022-08-04T20:26:12Z,2024-01-23T14:06:33+00:00,1,12881.67,True,465,0,2,123,6,4,10,MERGED
+5222,🐛 Fix FastAPI People GitHub Action: set HTTPX timeout for GraphQL query request,iudeen,2022-08-02T15:10:36Z,2022-09-04T15:07:12+00:00,1,791.94,True,3,1,1,2418,18,0,18,MERGED
+5212,🌐 Update Korean translation for `docs/ko/docs/deployment/versions.md`,Jay-flow,2022-07-30T07:44:11Z,2024-01-15T15:56:20+00:00,1,12824.2,False,50,50,2,188,5,22,27,CLOSED
+5206,✏ Fix minor typo in `docs/en/docs/features.md`,OtherBarry,2022-07-28T05:26:26Z,2022-08-26T14:20:57+00:00,1,704.91,True,1,1,1,38,3,0,3,MERGED
+5198,Refactoring,SunriseFading,2022-07-26T00:28:56Z,2022-08-23T19:00:58+00:00,1,690.53,False,50,69,9,0,3,5,8,CLOSED
+5193,✏ Fix a simple typo in `docs/en/docs/python-types.md`,ihor-tymkiv,2022-07-25T06:44:17Z,2022-08-26T14:52:23+00:00,3,776.13,True,2,2,1,65,4,0,4,MERGED
+5192,🌐 Add Turkish translation for `docs/tr/docs/project-generation.md`,BilalAlpaslan,2022-07-24T21:29:39Z,2024-01-22T19:55:41+00:00,3,13126.43,True,84,0,1,61,7,4,11,MERGED
+5191,🌐 Add Turkish translation for `docs/tr/docs/async.md`,BilalAlpaslan,2022-07-24T14:07:39Z,2024-01-22T19:57:04+00:00,4,13133.82,True,401,0,1,48,10,16,26,MERGED
+5187,"🐛 Fix support for strings in OpenAPI status codes: `default`, `1XX`, `2XX`, `3XX`, `4XX`, `5XX`",JarroVGIT,2022-07-23T12:14:42Z,2022-10-14T20:44:22+00:00,11,2000.49,True,73,0,2,16,9,3,12,MERGED
+5181,📝 Add step about upgrading pip in the venv to avoid errors when installing dependencies `docs/en/docs/contributing.md`,edisnake,2022-07-20T17:12:20Z,2022-08-26T14:26:29+00:00,2,885.24,True,10,0,1,80,7,1,8,MERGED
+5178,🌐 Add Ukrainian translation for `docs/uk/docs/index.md`,ilkuzmenko,2022-07-20T12:47:04Z,2024-01-15T16:12:31+00:00,21,13059.42,False,141,145,1,0,10,113,123,CLOSED
+5172,Bump starlette to 0.20.4,ShayBox,2022-07-19T07:46:33Z,2022-10-25T19:11:18+00:00,3,2363.41,False,4,3,3,42,12,1,13,CLOSED
+5170,🌐 Add Japanese translation for `docs/ja/docs/advanced/templates.md`,souhub,2022-07-19T00:24:01Z,2024-01-29T15:52:16+00:00,3,13431.47,False,77,0,1,99,5,10,15,CLOSED
+5169,✏ Reword and clarify text in tutorial `docs/en/docs/tutorial/body-nested-models.md`,papb,2022-07-18T23:25:51Z,2022-08-26T14:22:36+00:00,2,926.95,True,1,1,1,184,3,0,3,MERGED
+5159,Add CONTRIBUTING.md,itay-raveh,2022-07-14T20:13:31Z,2023-06-26T22:12:27+00:00,1,8329.98,False,689,0,5,19,3,0,3,CLOSED
+5142,✏ Fix typos in `docs/en/docs/tutorial/path-params-numeric-validations.md`,invisibleroads,2022-07-14T04:06:16Z,2022-08-26T14:35:10+00:00,3,1042.48,True,2,2,1,114,3,0,3,MERGED
+5126,✏ Fix typos in `tests/test_schema_extra_examples.py`,supraaxdd,2022-07-12T12:44:59Z,2022-08-26T14:36:41+00:00,5,1081.86,True,6,6,1,113,5,0,5,MERGED
+5114,Run sync context managers in a single thread,adriangb,2022-07-08T16:07:53Z,2022-07-11T02:41:17+00:00,1,58.56,False,84,9,2,150,7,0,7,CLOSED
+5095,memo: Fixes a typo in the documentation for numeric validations,frgfm,2022-06-30T18:34:30Z,2022-08-26T14:05:48+00:00,2,1363.52,False,7,7,1,490,10,0,10,CLOSED
+5087,🌐 Add Korean translation for `docs/ko/docs/advanced/events.md`,pers0n4,2022-06-28T15:51:49Z,2024-04-02T22:35:55+00:00,1,15462.74,True,45,0,1,76,6,0,6,MERGED
+5075,Fix formats in fastapi/utils,LeSZ0,2022-06-24T14:08:12Z,2025-08-08T22:20:29+00:00,5,27392.2,False,2,3,2,30,6,4,10,CLOSED
+5074,✨ Add ReDoc `<noscript>` warning when JS is disabled,evroon,2022-06-24T07:40:00Z,2022-08-26T13:56:07+00:00,5,1518.27,True,3,0,1,185,3,1,4,MERGED
+5058,🌐 Add Japanese translation for `docs/ja/docs/tutorial/sql-databases.md`,Yoshino-Yukitaro,2022-06-22T06:52:45Z,2024-01-28T18:33:51+00:00,3,14051.68,False,787,0,1,255,8,19,27,CLOSED
+5057,♻ Simplify internal RegEx in `fastapi/utils.py`,pylounge,2022-06-20T03:32:36Z,2022-08-26T13:46:23+00:00,1,1618.23,True,2,2,1,24,5,0,5,MERGED
+5044,Fixing http error codes in security tutorials,haasal,2022-06-16T17:41:11Z,2025-06-26T17:48:44+00:00,10,26544.13,False,62,36,7,273,6,7,13,CLOSED
+5043,🌐 Add Japanese translation for `docs/ja/docs/advanced/index.md`,wakabame,2022-06-16T16:12:08Z,2022-07-14T11:34:38+00:00,7,667.38,True,25,0,2,185,9,5,14,MERGED
+5040,🔥 Delete duplicated tests in `tests/test_tutorial/test_sql_databases/test_sql_databases.py`,raccoonyy,2022-06-16T02:22:49Z,2022-08-26T14:08:46+00:00,5,1715.77,True,0,6,1,126,3,0,3,MERGED
+5038,Add basic healthcheck operation to example Dockerfiles,nikstuckenbrock,2022-06-15T07:10:53Z,2024-01-16T14:39:01+00:00,3,13927.47,False,9,0,1,18,8,0,8,CLOSED
+5031,"Replace `typing.Optional[T]` by `typing.Union[T, None]`",Kludex,2022-06-14T05:09:26Z,2023-01-07T14:37:23+00:00,1,4977.47,False,23,6,4,195,10,0,10,CLOSED
+5029,Replace regex expression,Peopl3s,2022-06-13T13:53:05Z,2023-01-07T14:33:27+00:00,2,4992.67,False,1,1,1,77,3,0,3,CLOSED
+5024,🌐🇵🇱 Add Polish translation for `docs/pl/docs/tutorial/first-steps.md`,Valaraucoo,2022-06-11T16:38:35Z,2022-07-14T11:30:09+00:00,3,786.86,True,335,0,2,62,5,8,13,MERGED
+5023,✨ Add `SimpleJSONResponse` for decimal JSON encoding,tomy0000000,2022-06-11T16:28:14Z,2024-01-16T14:15:26+00:00,3,14013.79,False,294,0,9,493,10,0,10,CLOSED
+5016,Update models.py,tsv19su,2022-06-09T18:30:31Z,2022-08-26T13:39:00+00:00,1,1867.14,False,0,0,0,16,7,0,7,CLOSED
+5013,Update exceptions.py,tsv19su254052,2022-06-09T17:04:23Z,2022-08-26T13:39:33+00:00,1,1868.59,False,0,0,0,29,4,0,4,CLOSED
+5012,Update exception_handlers.py,tsv19su254052,2022-06-09T16:59:45Z,2022-08-26T13:39:43+00:00,1,1868.67,False,0,0,0,29,4,0,4,CLOSED
+5011,Update encoders.py,tsv19su254052,2022-06-09T16:53:50Z,2022-08-26T13:36:00+00:00,1,1868.7,False,0,0,0,29,4,0,4,CLOSED
+5010,Update concurrency.py,tsv19su254052,2022-06-09T16:43:14Z,2022-08-26T13:39:55+00:00,1,1868.94,False,0,1,1,29,4,0,4,CLOSED
+5009,Update utils.py,tsv19su254052,2022-06-09T16:36:42Z,2022-08-26T13:40:05+00:00,1,1869.06,False,0,0,0,29,4,0,4,CLOSED
+5008,Update applications.py,tsv19su254052,2022-06-09T16:21:59Z,2022-08-26T13:40:21+00:00,2,1869.31,False,0,0,0,29,4,1,5,CLOSED
+5007,✏ Fix typo in `docs/en/docs/python-types.md`,atiabbz,2022-06-09T08:57:32Z,2022-08-18T15:59:50+00:00,3,1687.04,True,1,1,1,0,3,0,3,MERGED
+5001,Sort methods to stabalize operation id generation,bneijt,2022-06-08T09:00:57Z,2024-08-17T05:55:18+00:00,1,19220.91,False,2,1,1,322,8,0,8,CLOSED
+4999,🌐 Add Chinese translation for `docs/zh/docs/tutorial/sql-databases.md`,Zssaer,2022-06-08T03:33:16Z,2022-10-31T17:56:50+00:00,3,3494.39,True,771,0,2,96,6,2,8,MERGED
+4985,🌐 Add Russian translation for `docs/ru/docs/deployment/versions.md`,emp7yhead,2022-06-04T15:53:41Z,2022-08-26T14:43:58+00:00,15,1990.84,True,89,0,2,92,7,16,23,MERGED
+4983,🌐 Add Japanese translation for `docs/ja/docs/advanced/websockets.md`,xryuseix,2022-06-03T16:13:46Z,2022-11-13T13:58:31+00:00,5,3909.75,True,187,0,2,250,7,4,11,MERGED
+4979,Optional SwaggerUI cdn & title suffix,ElaBosak233,2022-06-02T23:55:57Z,2022-08-03T14:37:04+00:00,1,1478.69,False,15,2,1,110,5,0,5,CLOSED
+4972,🐛 Fix `jsonable_encoder` alters `json_encoders` of Pydantic v1 objects,aboubacs,2022-05-31T16:54:41Z,2025-09-20T17:57:18+00:00,8,28993.04,True,6,3,2,714,8,1,9,MERGED
+4971,🌐 Add Chinese translation for `docs/zh/docs/tutorial/dependencies/classes-as-dependencies.md`,Zssaer,2022-05-31T08:56:32Z,2022-10-31T18:08:15+00:00,4,3681.2,True,248,0,2,119,12,45,57,MERGED
+4969,🌐 Add Chinese translation for `docs/zh/docs/tutorial/encoder.md`,Zssaer,2022-05-31T06:58:32Z,2022-09-04T13:39:06+00:00,2,2310.68,True,43,0,2,90,4,0,4,MERGED
+4964,🌐 Add Indonesian translation for `docs/id/docs/tutorial/first-steps.md`,bas-baskara,2022-05-29T08:42:33Z,2024-01-29T17:58:02+00:00,5,14649.26,False,334,0,1,0,5,13,18,CLOSED
+4958,✏️ Fix typos in data for tests,ryanrussell,2022-05-26T16:45:34Z,2023-06-22T11:26:11+00:00,10,9402.68,True,8,8,2,0,7,0,7,MERGED
+4954,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/security/first-steps.md`,FLAIR7,2022-05-26T03:03:27Z,2022-08-18T16:10:25+00:00,2,2029.12,True,181,0,1,73,4,0,4,MERGED
+4936,Bump starlette from 0.20.0 to 0.20.1,Kludex,2022-05-22T19:14:07Z,2022-09-15T12:54:35+00:00,2,2777.67,False,4,3,3,65,6,2,8,CLOSED
+4935,🌐 Add Korean translation for `docs/ko/docs/deployment/server-workers.md`,jujumilk3,2022-05-22T05:22:17Z,2024-01-22T19:49:13+00:00,2,14654.45,True,180,0,1,98,7,0,7,MERGED
+4934,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/request-forms.md`,batlopes,2022-05-20T18:43:45Z,2022-10-31T18:11:41+00:00,10,3935.47,True,59,0,2,67,3,5,8,MERGED
+4933,🔧 Fix Type hint of `auto_error` which does not need to be `Optional[bool]`,DavidKimDY,2022-05-20T10:08:09Z,2022-08-26T13:29:51+00:00,1,2355.36,True,1,1,1,132,3,0,3,MERGED
+4923,✨ Add support in `jsonable_encoder` for include and exclude with dataclasses,DCsunset,2022-05-18T01:55:55Z,2022-09-08T14:29:23+00:00,2,2724.56,True,21,1,2,190,7,0,7,MERGED
+4922,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/response-status-code.md`,batlopes,2022-05-17T20:52:18Z,2022-10-31T16:22:07+00:00,11,4003.5,True,92,0,2,73,4,4,8,MERGED
+4921,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/header-params.md`,batlopes,2022-05-17T19:15:36Z,2022-08-26T14:42:45+00:00,2,2419.45,True,129,0,2,66,3,0,3,MERGED
+4918,📝 Fix duplicates in sentence,MicaelJarniac,2022-05-17T02:59:48Z,2022-08-26T13:43:23+00:00,4,2434.73,False,1,1,1,0,3,0,3,CLOSED
+4910,Improve translation for spanish type-hints docs,LeSZ0,2022-05-14T16:24:05Z,2024-02-16T03:14:19+00:00,3,15418.84,False,105,49,1,51,6,8,14,CLOSED
+4905,"📝 Update docs, compare enums with identity instead of equality",MicaelJarniac,2022-05-13T17:23:27Z,2022-08-26T13:26:04+00:00,2,2516.04,True,1,1,1,100,3,0,3,MERGED
+4904,Add Spanish translation for mkdocs,JonanOribe,2022-05-13T15:00:41Z,2022-09-04T13:05:09+00:00,1,2734.07,False,1,1,1,36,3,0,3,CLOSED
+4886,✏ Fix typo in `docs/en/docs/python-types.md`,MicaelJarniac,2022-05-10T20:49:13Z,2022-08-26T13:24:04+00:00,2,2584.58,True,1,1,1,57,3,0,3,MERGED
+4881,✅ Enable tests for Python 3.11,tiangolo,2022-05-09T16:25:50Z,2022-11-03T12:26:48+00:00,2,4268.02,True,6,1,2,89,14,1,15,MERGED
+4871,✨Add support for PEP-593 `Annotated` for specifying dependencies and parameters,nzig,2022-05-07T15:34:18Z,2023-03-17T20:35:46+00:00,3,7541.02,True,1293,156,24,3063,24,1,25,MERGED
+4864,📝 Add documentation for redefined path operations,zanieb,2022-05-04T18:12:03Z,2022-05-12T16:16:16+00:00,1,190.07,True,21,0,2,782,5,0,5,MERGED
+4854,🌐 Add Russian translation for `docs/ru/docs/tutorial/background-tasks.md`,AdmiralDesu,2022-05-02T23:24:18Z,2022-08-18T15:59:02+00:00,5,2584.58,True,106,0,2,5,9,10,19,MERGED
+4820,⬆ Upgrade version required of Starlette from `0.19.1` to `0.20.4`,Kludex,2022-04-24T13:15:17Z,2022-09-15T12:32:05+00:00,6,3455.28,True,4,25,6,597,9,4,13,MERGED
+4819,⬆ Upgrade Starlette from 0.19.0 to 0.19.1,Kludex,2022-04-24T13:03:41Z,2022-05-10T03:22:26+00:00,1,374.31,True,21,15,4,0,7,1,8,MERGED
+4809,🌐  Add Persian translation for `docs/fa/docs/index.md`,mmdbalkhi,2022-04-19T19:03:09Z,2022-12-15T12:49:15+00:00,2,5753.77,False,166,166,1,45,8,0,8,CLOSED
+4791,🐛 fix APIKey scheme name default,BilalAlpaslan,2022-04-12T19:42:43Z,2025-08-08T22:20:35+00:00,10,29138.63,False,128,25,11,449,21,0,21,CLOSED
+4778,📝 Add link to external article: Building the Poll App From Django Tutorial With FastAPI And React,jbrocher,2022-04-10T13:18:38Z,2022-05-11T17:48:26+00:00,1,748.5,True,4,0,1,0,3,0,3,MERGED
+4775,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/query-params.md`,batlopes,2022-04-09T18:52:53Z,2022-08-18T16:13:12+00:00,4,3141.34,True,225,0,2,267,3,0,3,MERGED
+4774,🌐 Add Korean translation for `docs/ko/docs/advanced/behind-a-proxy.md`,NinaHwang,2022-04-09T10:27:15Z,2025-02-15T11:02:26+00:00,2,25032.59,False,346,0,1,28,7,3,10,CLOSED
+4770,🌐 Add Dutch translation for `docs/nl/docs/tutorial/index.md`,thepieterdc,2022-04-07T00:09:27Z,2024-01-31T14:13:32+00:00,1,15950.07,False,78,0,1,78,4,3,7,CLOSED
+4769,🌐 Add Portuguese translation for `tutorial/handling-errors.md`,frnsimoes,2022-04-06T20:02:14Z,2022-08-18T16:02:21+00:00,8,3212.0,True,252,0,2,0,8,10,18,MERGED
+4757,🌐 Add Spanish translation for `docs/es/docs/history-design-future.md`,pablocm83,2022-04-02T18:43:56Z,2024-01-05T19:08:08+00:00,1,15432.4,False,80,0,2,54,1,2,3,CLOSED
+4756,🌐 Add Spanish translation for `docs/es/docs/external-links.md`,pablocm83,2022-04-02T15:48:22Z,2024-01-05T19:07:47+00:00,2,15435.32,False,84,1,2,111,0,0,0,CLOSED
+4755,🌐 Add Spanish translation for `docs/es/docs/benchmarks.md`,pablocm83,2022-04-02T00:03:11Z,2024-01-05T19:08:14+00:00,1,15451.08,False,35,0,2,43,1,1,2,CLOSED
+4726,✏ Fix typo in `docs/en/docs/async.md`,Prezu,2022-03-25T16:49:41Z,2022-05-10T00:39:23+00:00,2,1087.83,True,2,2,1,98,2,0,2,MERGED
+4725,Workaround to fix Pyright/Pydantic missing parameters issue,jtv8,2022-03-25T13:14:21Z,2022-05-23T08:25:36+00:00,1,1411.19,False,19,19,1,678,4,0,4,CLOSED
+4722,✏ 🌐 Fix typo in Portuguese translation for `docs/pt/docs/tutorial/path-params.md`,CleoMenezesJr,2022-03-25T03:48:54Z,2022-05-10T00:35:48+00:00,1,1100.78,True,1,1,1,0,3,0,3,MERGED
+4711,deleting a route from APIRouter,sobhansaf,2022-03-21T18:11:41Z,2023-09-27T22:22:12+00:00,4,13324.18,False,147,0,2,280,1,2,3,CLOSED
+4705,🌐 Add Indonesian translation for `docs/id/docs/tutorial/index.md`,bas-baskara,2022-03-20T11:47:09Z,2022-08-18T15:53:59+00:00,3,3628.11,True,80,0,1,0,8,0,8,MERGED
+4693,"📝 Simplify example for docs for Additional Responses, remove unnecessary `else`",adriangb,2022-03-17T05:18:18Z,2022-08-26T13:32:30+00:00,2,3896.24,True,2,3,2,0,4,0,4,MERGED
+4658,[TODO] `openapi_prefix` parameter was removed.,0x30c4,2022-03-06T17:28:57Z,2022-12-17T05:53:42+00:00,3,6852.41,False,2,12,2,210,8,0,8,CLOSED
+4657,Fix bug: Sub app with custom openapi,LorhanSohaky,2022-03-06T16:25:37Z,2025-07-26T10:37:18+00:00,15,29706.19,False,38,0,2,11,24,5,29,CLOSED
+4652,"feat: Allow custom http header name instead of default ""Authorization""",hanssens,2022-03-05T13:35:29Z,2024-01-15T10:48:41+00:00,2,16341.22,False,307,10,10,760,3,0,3,CLOSED
+4647,🐛 Fix `response_model_exclude_none` with Pydantic V1 when default value is not `None`,ddanier,2022-03-04T09:29:04Z,2025-07-19T22:20:21+00:00,3,29604.85,False,25,1,2,2683,10,1,11,CLOSED
+4645,⚡ Update `create_cloned_field` to use a global cache and improve startup performance,zanieb,2022-03-04T01:09:59Z,2023-06-03T13:37:41+00:00,3,10956.46,True,22,4,1,1357,26,1,27,MERGED
+4638,🌐 Add translation for `docs/zh/docs/advanced/response-cookies.md`,zhangbo2012,2022-03-03T02:37:52Z,2022-08-18T16:09:38+00:00,2,4045.53,True,48,0,2,23,7,0,7,MERGED
+4623,🌐 Fix code examples in Japanese translation for `docs/ja/docs/tutorial/testing.md`,hirotoKirimaru,2022-02-27T07:36:59Z,2022-05-11T17:42:13+00:00,1,1762.09,True,12,4,1,336,3,0,3,MERGED
+4622,🌐 Add Indonesian translation for `docs/id/docs/index.md`,bas-baskara,2022-02-27T06:55:41Z,2024-01-15T15:54:54+00:00,9,16496.99,False,141,126,2,0,7,11,18,CLOSED
+4620,✨ Preserve path parameters order in openapi.json,poul1x,2022-02-25T21:09:48Z,2025-03-17T22:18:55+00:00,1,26785.15,False,175,1,2,168,11,0,11,CLOSED
+4615,Add exception handler to unsupported media type case,pedroven,2022-02-23T23:01:48Z,2024-03-28T21:43:18+00:00,7,18334.69,False,55,3,4,13,7,3,10,CLOSED
+4599,🌐  Add Korean translation for docs/ko/docs/tutorial/static-files.md,gyedong,2022-02-19T01:00:11Z,2022-02-22T04:45:44+00:00,1,75.76,False,41,0,2,195,2,0,2,CLOSED
+4583,🌐 Add Portuguese translation for `docs/pt/docs/help-fastapi.md`,mateusjs,2022-02-15T14:03:05Z,2022-05-10T04:05:45+00:00,3,2006.04,True,149,0,2,59,2,7,9,MERGED
+4575,✨ Update internal `AsyncExitStack` to fix context for dependencies with `yield`,tiangolo,2022-02-14T17:50:21Z,2022-02-17T12:40:13+00:00,4,66.83,True,272,16,7,2913,7,2,9,MERGED
+4574,🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/body.md`,ss-o-furda,2022-02-14T15:02:19Z,2023-07-27T19:09:34+00:00,2,12676.12,True,213,0,1,14,5,8,13,MERGED
+4573,🔧 Keep description when endpoint depends schema,jujumilk3,2022-02-14T14:55:29Z,2025-09-20T15:28:46+00:00,16,31536.55,False,508,9,2,299,29,6,35,CLOSED
+4572,🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/query-params.md`,ss-o-furda,2022-02-14T13:23:20Z,2024-01-15T16:12:17+00:00,1,16802.82,False,225,0,1,14,5,2,7,CLOSED
+4570,🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/path-params.md`,ss-o-furda,2022-02-14T12:17:25Z,2024-01-15T16:12:23+00:00,9,16803.92,False,244,0,1,14,4,12,16,CLOSED
+4569,🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/first-steps.md`,ss-o-furda,2022-02-14T10:39:39Z,2024-01-15T16:12:30+00:00,2,16805.55,False,333,0,1,14,6,8,14,CLOSED
+4561,🌐 Add Korean translation for `docs/ko/docs/deployment/index.md`,jujumilk3,2022-02-13T13:34:01Z,2024-01-22T19:47:57+00:00,1,16998.23,True,21,0,1,89,8,0,8,MERGED
+4553,"🌐 Add Ukrainian translation for `docs/uk/docs/fastapi-people.md`, `docs/uk/docs/python-types.md`, `docs/uk/docs/tutorial/index.md`",ss-o-furda,2022-02-11T22:24:48Z,2024-01-29T16:07:47+00:00,19,17201.72,False,706,0,3,175,4,30,34,CLOSED
+4543,🌐 Add Korean translation for `docs/ko/docs/advanced/sub-applications.md`,NinaHwang,2022-02-09T06:51:52Z,2025-06-12T07:32:09+00:00,9,29256.67,True,67,0,1,29,14,4,18,MERGED
+4540,fire: Remove unnecessary lines in ORJSONResponse,odiseo0,2022-02-08T11:10:10Z,2022-09-05T13:38:11+00:00,3,5018.47,False,0,2,1,0,5,0,5,CLOSED
+4534,✨ Add support for `dependencies` in WebSocket routes,paulo-raca,2022-02-08T02:00:29Z,2023-06-11T20:35:39+00:00,17,11730.59,True,134,13,3,1653,22,2,24,MERGED
+4533,🌐 Fix typos in German translation for `docs/de/docs/features.md`,0xflotus,2022-02-07T21:48:14Z,2022-08-22T18:33:10+00:00,4,4700.75,True,8,8,1,66,4,2,6,MERGED
+4529,🌐 Update Chinese translation for `docs/zh/docs/tutorial/request-files.md`,ASpathfinder,2022-02-07T07:49:58Z,2022-09-04T13:40:14+00:00,2,5021.84,True,52,11,1,145,5,0,5,MERGED
+4525,Reject single string in tags to avoid unexpected behavior,duarte-pompeu,2022-02-06T19:17:54Z,2024-08-15T20:39:25+00:00,6,22105.36,False,42,0,2,2462,14,2,16,CLOSED
+4520,German translation/docs/tutorial/first steps,rogerbrinkmann,2022-02-06T16:09:16Z,2022-03-21T20:57:46+00:00,10,1036.81,False,337,0,2,55,1,8,9,CLOSED
+4517,German translation/docs/tutorial/index,rogerbrinkmann,2022-02-06T10:50:36Z,2022-03-21T20:57:08+00:00,2,1042.11,False,82,0,2,49,4,2,6,CLOSED
+4516,🌐 Add Polish translation for `docs/pl/docs/tutorial/index.md`,MKaczkow,2022-02-06T06:37:10Z,2022-05-10T04:12:18+00:00,3,2229.59,True,83,0,2,47,3,7,10,MERGED
+4515,✏ Fix small typo in `docs/en/docs/tutorial/security/first-steps.md`,KikoIlievski,2022-02-06T04:36:22Z,2022-05-10T03:35:22+00:00,1,2230.98,True,1,1,1,107,2,0,2,MERGED
+4505,🌐 Add Chinese translation for `docs/zh/docs/advanced/wsgi.md`,ASpathfinder,2022-02-03T08:40:49Z,2022-10-31T17:43:39+00:00,5,6489.05,True,38,0,2,8,8,4,12,MERGED
+4503,🌐 Add Italian translation for `docs/it/docs/python-types.md`,bsab,2022-02-01T15:25:10Z,2022-06-29T14:52:02+00:00,1,3551.45,False,314,0,2,62,2,0,2,CLOSED
+4500,🌐 Add Italian translation for `docs/it/docs/features.md`,bsab,2022-02-01T09:51:59Z,2023-06-26T21:56:42+00:00,2,12252.08,False,307,85,4,113,1,0,1,CLOSED
+4492,feat(oauth2): add oauth2 client credentials bearer,sylvainmouquet,2022-01-29T13:55:16Z,2024-04-05T20:35:32+00:00,1,19134.67,False,38,0,1,317,1,1,2,CLOSED
+4490,recycle: Move errors list to relevant block,GuilleQP,2022-01-29T10:12:27Z,2022-02-13T11:27:12+00:00,1,361.25,False,1,1,1,86,3,0,3,CLOSED
+4488,⬆ Upgrade Starlette from 0.18.0 to 0.19.0,Kludex,2022-01-27T19:24:51Z,2022-05-09T18:06:42+00:00,8,2446.7,True,8,6,3,149,14,5,19,MERGED
+4483,⬆ Upgrade Starlette from 0.17.1 to 0.18.0,Kludex,2022-01-26T16:25:58Z,2022-05-05T22:19:59+00:00,5,2381.9,True,9,10,4,141,12,2,14,MERGED
+4482,📝 Replace HTTP code returned in case of existing user error in docs for testing,TristanMarion,2022-01-26T14:52:20Z,2024-01-09T14:44:09+00:00,1,17111.86,True,4,4,4,59,4,0,4,MERGED
+4480,error handler use the response_class of application,ponytailer,2022-01-26T09:43:20Z,2023-08-11T06:34:57+00:00,2,13484.86,False,0,0,0,52,0,1,1,CLOSED
+4454,🐛 Recurse into dataclass when encoding,ConorStevenson,2022-01-20T18:26:29Z,2022-09-04T13:35:52+00:00,1,5443.16,False,35,41,2,1095,7,0,7,CLOSED
+4442,🌐 Add Portuguese translation for `docs/deployment/deta.md`,stlucasgarcia,2022-01-18T00:08:16Z,2022-05-09T18:34:42+00:00,5,2682.44,True,259,0,2,69,8,19,27,MERGED
+4432,fix some typo,Serai-Leo,2022-01-16T02:02:17Z,2022-05-05T15:14:54+00:00,1,2629.21,False,2,2,2,0,0,0,0,CLOSED
+4431,Generate a single tag when the parameter is a string,duarte-pompeu,2022-01-15T12:44:05Z,2024-08-15T16:30:42+00:00,2,22635.78,False,54,24,11,1795,6,0,6,CLOSED
+4430,🌐 Add Korean translation for `docs/ko/docs/advanced/response-headers.md`,mirusu400,2022-01-15T11:25:09Z,2023-04-30T01:22:16+00:00,4,11269.95,False,0,0,0,242,2,10,12,CLOSED
+4428,Allow multiple levels of custom root models,andyhasit,2022-01-15T01:09:18Z,2024-08-17T05:50:56+00:00,5,22684.69,False,42,0,3,387,7,1,8,CLOSED
+4418,Support MermaidJS diagrams in Alternative API Docs,devova,2022-01-12T19:52:57Z,2022-08-26T09:39:44+00:00,1,5413.78,False,56,1,4,167,1,1,2,CLOSED
+4389,✏ Reword to improve legibility of docs about `TestClient`,rgilton,2022-01-07T18:04:04Z,2022-05-10T01:30:38+00:00,1,2935.44,True,1,1,1,161,2,0,2,MERGED
+4381,zap: Make the code smaller,unknown,2022-01-06T21:25:18Z,2022-01-08T16:36:33+00:00,3,43.19,False,2,4,1,0,0,1,1,CLOSED
+4376,✨ Export `WebSocketState` in `fastapi.websockets`,matiuszka,2022-01-06T09:00:05Z,2022-09-04T15:12:11+00:00,1,5790.2,True,1,0,1,283,5,0,5,MERGED
+4353,fix issues related to `assert` when running on optimised mode,unknown,2021-12-31T15:56:14Z,2022-03-30T07:40:11+00:00,1,2127.73,False,78,51,6,487,0,1,1,CLOSED
+4350,wrench: Use casefold for caseless comparison of schemes,Abdur-rahmaanJ,2021-12-31T07:11:00Z,2022-09-02T13:34:55+00:00,3,5886.4,False,3,3,1,27,6,0,6,CLOSED
+4341,Dynamic parameter specification,borisoid,2021-12-28T16:40:08Z,2023-03-15T17:11:31+00:00,2,10608.52,False,561,1,10,787,4,1,5,CLOSED
+4332,🌐 Fix French translation for `docs/tutorial/body.md`,Smlep,2021-12-26T23:26:22Z,2022-05-09T23:55:11+00:00,2,3216.48,True,1,1,1,164,3,0,3,MERGED
+4324,fix default value to an arguments,unknown,2021-12-23T07:48:45Z,2022-03-30T07:39:56+00:00,1,2327.85,False,3,1,1,65,0,1,1,CLOSED
+4319,🐛 Make sure a parameter defined as required is kept required in OpenAPI even if defined as optional in another dependency,chardigio,2021-12-21T20:15:36Z,2022-09-03T17:12:41+00:00,1,6140.95,True,123,5,2,815,5,0,5,MERGED
+4318,Inline Returned Variables,yezz123,2021-12-21T19:20:24Z,2022-11-20T18:38:53+00:00,1,8015.31,False,16,32,16,100,3,0,3,CLOSED
+4316,use literal to create data structure,unknown,2021-12-21T18:40:10Z,2022-03-30T07:39:42+00:00,1,2364.99,False,2,2,2,315,0,1,1,CLOSED
+4315,make use of faster equality check,unknown,2021-12-21T17:42:35Z,2022-03-30T07:39:37+00:00,1,2365.95,False,2,2,2,87,0,0,0,CLOSED
+4314,fix unnecessary `elif`-`else`,unknown,2021-12-21T17:27:58Z,2022-03-30T07:39:31+00:00,1,2366.19,False,63,86,15,153,1,0,1,CLOSED
+4306,fix grammar & typos,unknown,2021-12-19T12:17:50Z,2022-03-30T07:39:27+00:00,5,2419.36,False,198,197,74,61,3,19,22,CLOSED
+4301,Fix typing for `exception_handlers` to accept sync handlers,michaeloliverx,2021-12-17T16:23:50Z,2022-02-21T16:31:15+00:00,1,1584.12,False,5,17,2,410,4,0,4,CLOSED
+4269,🌐 Fix typo in Chinese translation for `docs/zh/docs/benchmarks.md`,15027668g,2021-12-11T04:04:40Z,2023-01-07T14:33:29+00:00,3,9418.48,True,2,2,2,112,2,0,2,MERGED
+4245,🌐 Add Polish translation for `docs/pl/docs/index.md`,MicroPanda123,2021-12-03T22:09:27Z,2022-01-16T19:36:43+00:00,7,1053.45,True,151,157,1,30,9,17,26,MERGED
+4219,✏️ Fix typo in `custom-request-and-route.md`,bxsx,2021-11-29T12:11:00Z,2022-05-10T01:25:52+00:00,2,3877.25,False,1,1,1,33,1,0,1,CLOSED
+4218,"🌐 Update Korean translation for `docs/ko/docs/tutorial/first-steps.md`, `docs/ko/docs/tutorial/index.md`, `docs/ko/docs/tutorial/path-params.md`, and `docs/ko/docs/tutorial/query-params.md`",SnowSuno,2021-11-29T11:12:27Z,2024-02-02T17:39:46+00:00,1,19086.46,True,104,103,4,502,4,0,4,MERGED
+4205,🌐 Add Japanese translation for `docs/ja/docs/advanced/nosql-databases.md`,sUeharaE4,2021-11-23T12:55:10Z,2022-08-18T15:54:23+00:00,16,6434.99,True,157,0,2,293,6,10,16,MERGED
+4203,🌐 Add French translation for `docs/fr/docs/index.md`,thiere18,2021-11-22T18:09:27Z,2023-06-26T21:59:49+00:00,28,13947.84,False,155,148,1,0,7,111,118,CLOSED
+4200,🌐 Add Korean translation for `docs/ko/docs/tutorial/testing.md`,kimjaeyoonn,2021-11-22T11:19:49Z,2022-08-27T16:54:45+00:00,2,6677.58,False,135,0,1,148,1,20,21,CLOSED
+4196,🌐 Fix Korean translation for `docs/ko/docs/tutorial/security/first-steps.md`,DevDae,2021-11-20T06:13:31Z,2024-01-15T15:56:51+00:00,1,18873.72,False,6,6,1,406,5,0,5,CLOSED
+4195,🌐 Fix Korean translation for `docs/ko/docs/index.md`,kty4119,2021-11-20T03:26:17Z,2022-01-16T19:41:13+00:00,3,1384.25,True,7,7,1,335,3,0,3,MERGED
+4193,🌐 Fix Korean translation for `docs/ko/docs/tutorial/index.md`,kimjaeyoonn,2021-11-19T13:46:56Z,2021-12-08T15:32:24+00:00,5,457.76,True,4,4,1,341,3,1,4,MERGED
+4179,🌐 Add Korean translation for `docs/ko/docs/async.md`,NinaHwang,2021-11-16T05:07:10Z,2023-07-27T18:59:18+00:00,4,14845.87,True,404,0,1,130,7,0,7,MERGED
+4170,🌐  Add Korean translation for `docs/ko/docs/tutorial/sql-databases.md`,NinaHwang,2021-11-11T06:34:51Z,2024-10-09T19:52:21+00:00,3,25525.29,False,679,0,1,70,8,5,13,CLOSED
+4167,📝 Add warning about lifecycle events with `AsyncClient`,andrew-chang-dewitt,2021-11-10T04:29:38Z,2024-01-09T17:45:52+00:00,1,18973.27,True,3,0,1,35,3,1,4,MERGED
+4145,⬆️ Upgrade Starlette to 0.17.1,simondale00,2021-11-04T14:12:57Z,2022-01-07T09:34:28+00:00,4,1531.36,True,1,1,1,141,43,1,44,MERGED
+4142,🌐 Add Korean translation for `docs/benchmarks.md`,kimjaeyoonn,2021-11-04T06:40:07Z,2022-08-27T16:54:44+00:00,3,7114.24,False,35,0,2,260,3,7,10,CLOSED
+4139,🌐 Add Korean translation for `docs/ko/docs/help-fastapi.md`,kty4119,2021-11-04T04:49:42Z,2024-04-02T22:36:57+00:00,2,21137.79,True,158,0,1,159,3,5,8,MERGED
+4137,🌐 Add Korean translation for `docs/ko/docs/features.md`,kty4119,2021-11-04T04:21:14Z,2024-01-29T15:32:37+00:00,2,19595.19,False,200,0,1,125,3,3,6,CLOSED
+4136,🌐 Add Korean translation for `docs/project-generation.md`,kimjaeyoonn,2021-11-04T04:06:26Z,2022-08-27T16:54:44+00:00,2,7116.81,False,86,0,2,135,0,2,2,CLOSED
+4132,🌐 Add Korean translation for `docs/benchmarks.md`,kimjaeyoonn,2021-11-03T08:16:15Z,2021-11-04T06:43:57+00:00,2,22.46,False,1,0,1,231,0,0,0,CLOSED
+4126,fix(generic): generic in depends,JeanArhancet,2021-11-01T20:03:37Z,2022-08-20T10:39:29+00:00,5,6998.6,False,26388,2528,714,73,1,1,2,CLOSED
+4121,🌐 Add Korean translation for `docs/ko/docs/deployment/versions.md`,DevDae,2021-11-01T01:29:45Z,2021-12-08T15:37:30+00:00,6,902.13,True,88,0,1,106,3,8,11,MERGED
+4120,🌐 Add Korean translation for `docs/Benchmarks.md`,kimjaeyoonn,2021-11-01T01:21:41Z,2021-11-03T08:26:23+00:00,2,55.08,False,34,0,1,99,0,8,8,CLOSED
+4115,🌐  Add Korean translation for `docs/ko/docs/tutorial/security/first-steps.md`,0417taehyun,2021-10-30T14:16:48Z,2022-07-04T13:42:03+00:00,8,5927.42,False,185,0,2,173,2,2,4,CLOSED
+4112,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/cookie-params.md`,lbmendes,2021-10-29T21:06:35Z,2022-05-10T00:09:54+00:00,10,4611.06,True,34,0,2,120,2,6,8,MERGED
+4111,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/body-multiple-params.md`,lbmendes,2021-10-29T19:04:28Z,2022-10-31T17:42:57+00:00,17,8806.64,True,214,0,2,409,3,26,29,MERGED
+4105,Cache cloning of pydantic types globally for 2x+ startup speed-up,huonw,2021-10-29T06:40:06Z,2023-06-03T13:42:09+00:00,4,13975.03,False,11,18,1,1362,13,1,14,CLOSED
+4104,🌐 Add Azerbaijani translation for `docs/az/docs/index.md`,madatbay,2021-10-29T06:19:26Z,2024-01-15T16:06:17+00:00,17,19401.78,False,466,0,2,34,7,10,17,CLOSED
+4099,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/path-params-numeric-validations.md`,lbmendes,2021-10-28T03:50:55Z,2022-10-31T17:41:58+00:00,10,8845.85,True,139,0,2,99,4,8,12,MERGED
+4089,🐛 Fix issue with double model parsing,uriyyo,2021-10-23T19:33:13Z,2025-03-28T15:40:46+00:00,5,30044.13,False,48,4,2,857,6,3,9,CLOSED
+4088,🌐 Add Korean translation for `docs/ko/docs/tutorial/security/index.md`,0417taehyun,2021-10-23T15:04:39Z,2022-07-04T13:42:06+00:00,1,6094.62,False,104,0,2,167,0,1,1,CLOSED
+4087,🌐 Add Korean translation for `docs/ko/docs/tutorial/dependencies/dependencies-with-yield.md`,0417taehyun,2021-10-23T13:07:46Z,2022-07-04T13:42:09+00:00,1,6096.57,False,218,0,2,189,0,0,0,CLOSED
+4083,✏ Rewordings in `docs/en/docs/tutorial/index.md`,discdiver,2021-10-21T23:59:26Z,2024-08-17T03:55:11+00:00,5,24723.93,False,10,12,1,44,4,4,8,CLOSED
+4077,🌐 Add Portuguese translation of `tutorial/extra-data-types.md`,luccasmmg,2021-10-21T12:54:53Z,2022-05-09T18:19:49+00:00,3,4805.42,True,67,0,2,0,2,6,8,MERGED
+4076,🌐 Add Korean translation for `docs/ko/docs/tutorial/dependencies/dependencies-in-path-operation-decorators.md`,0417taehyun,2021-10-21T03:12:37Z,2022-07-04T13:42:13+00:00,1,6154.49,False,74,0,2,207,0,0,0,CLOSED
+4075,🌐 Add French translation for `docs/fr/docs/tutorial/query-params-str-validations.md`,Smlep,2021-10-20T20:14:50Z,2023-07-27T18:53:22+00:00,4,15478.64,True,305,0,1,204,8,34,42,MERGED
+4073,🌐 Add Korean translation for `docs/tutorial/dependencies/sub-dependencies.md`,0417taehyun,2021-10-20T12:04:45Z,2022-07-04T13:42:15+00:00,1,6169.62,False,90,0,2,174,0,0,0,CLOSED
+4065,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/schema-extra-example.md`,luccasmmg,2021-10-19T13:43:46Z,2024-01-25T15:05:25+00:00,8,19873.36,True,109,0,1,0,7,18,25,MERGED
+4064,🌐 Add Korean translation for `docs/tutorial/dependencies/classes-as-dependencies.md`,0417taehyun,2021-10-19T11:58:22Z,2022-07-04T13:42:17+00:00,1,6193.73,False,193,0,2,181,0,0,0,CLOSED
+4055,🌐 Add Korean translation for `docs/deployment/index.md`,0417taehyun,2021-10-16T16:55:36Z,2022-07-04T13:42:21+00:00,1,6260.78,False,23,0,2,152,0,0,0,CLOSED
+4053,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/body-nested-models.md`,luccasmmg,2021-10-14T20:50:19Z,2023-04-13T18:15:35+00:00,7,13101.42,True,249,0,2,0,3,3,6,MERGED
+4046,Added fastapi-template in docs.,s3rius,2021-10-13T18:47:57Z,2024-07-14T02:02:11+00:00,1,24103.24,False,23,0,1,134,5,0,5,CLOSED
+4044,"📝 Add external link to blog post about Kafka, FastAPI, and Ably",Ugbot,2021-10-13T11:12:46Z,2022-05-10T01:21:30+00:00,1,5006.15,True,4,0,1,79,2,0,2,MERGED
+4042,Add default API error schema,caiofauza,2021-10-12T22:21:37Z,2025-08-27T22:18:57+00:00,1,33959.96,False,36,2,3,764,5,0,5,CLOSED
+4037,Add Ukrainian translation for `docs/uk/docs/external-links.md`,mezgoodle,2021-10-12T09:49:35Z,2023-05-08T07:03:47+00:00,8,13749.24,False,82,0,1,42,2,4,6,CLOSED
+4036,🌐 Add Russian translation for `docs/async.md`,Winand,2021-10-11T19:35:07Z,2022-05-09T18:30:19+00:00,4,5038.92,True,506,0,2,381,5,2,7,MERGED
+4028,Fix specifying custom_encoder on a model with json_encoders modifies json_encoders,segevfiner,2021-10-09T11:14:41Z,2024-09-10T09:39:54+00:00,1,25606.42,False,31,1,2,203,1,1,2,CLOSED
+4019,🌐 Add Korean translation for `docs/ko/docs/contributing.md`,kimjaeyoonn,2021-10-08T02:17:56Z,2024-01-16T03:14:06+00:00,2,19920.94,False,461,0,1,195,3,39,42,CLOSED
+4015,📝 Update `docs/tutorial/dependencies/classes-as-dependencies`: Add type of query parameters in a description of `Classes as dependencies`,0417taehyun,2021-10-07T14:32:41Z,2021-10-26T18:53:40+00:00,3,460.35,True,3,3,1,298,2,1,3,MERGED
+4008,🔧 Correct DeprecationWarning config and comment in pytest settings,graingert,2021-10-06T16:10:09Z,2021-10-07T16:21:46+00:00,6,24.19,True,2,3,1,0,7,3,10,MERGED
+3975,✏ Fix typos in Deployment Guide,ghandic,2021-10-02T01:34:44Z,2021-10-07T16:14:40+00:00,1,134.67,True,35,35,6,212,4,1,5,MERGED
+3973,Mezgoodle uk translation,mezgoodle,2021-10-01T16:46:49Z,2021-10-12T09:52:40+00:00,1,257.1,False,116,0,2,83,1,0,1,CLOSED
+3965,🌐 Add portuguese translation for `docs/tutorial/query-params-str-validations.md`,leandrodesouzadev,2021-09-29T15:12:48Z,2021-12-08T15:50:36+00:00,3,1680.63,True,304,0,2,102,3,2,5,MERGED
+3960,🌐 Add Portuguese translation for `docs/tutorial/body.md`,leandrodesouzadev,2021-09-28T16:21:55Z,2022-05-09T18:25:42+00:00,9,5354.06,True,166,0,2,81,3,4,7,MERGED
+3953,Catching exceptions in the dependancy call - eg for pydantic validati…,ghandic,2021-09-28T00:30:58Z,2021-10-19T00:38:40+00:00,1,504.13,False,0,0,0,254,3,1,4,CLOSED
+3948,option to hide curl from swagger ui,sadakmed,2021-09-27T07:42:48Z,2023-01-07T14:26:56+00:00,2,11214.74,False,17,0,2,333,5,0,5,CLOSED
+3941,🌐 Initialize Azerbaijani translations,madatbay,2021-09-24T16:35:44Z,2021-10-05T16:07:25+00:00,1,263.53,True,173,3,17,43,4,0,4,MERGED
+3926,🌐 Add Turkish translation for `docs/python-types.md`,BilalAlpaslan,2021-09-21T05:32:27Z,2021-10-26T18:13:35+00:00,3,852.69,True,315,0,2,37,6,0,6,MERGED
+3925,quote pip install command for zsh compatibility,zeke,2021-09-21T04:57:16Z,2021-10-07T16:13:58+00:00,2,395.28,False,1,1,1,495,2,0,2,CLOSED
+3919,Azerbaijani language setup,madatbay,2021-09-18T11:14:03Z,2021-09-24T16:36:21+00:00,9,149.37,False,640,4,18,36,2,2,4,CLOSED
+3913,Add support for Iterator in jsonable_encoder,klaa97,2021-09-17T22:47:02Z,2024-01-26T03:13:34+00:00,4,20644.44,False,7,2,2,730,10,1,11,CLOSED
+3905,🌐 Update German translation for `docs/features.md`,jomue,2021-09-15T11:53:31Z,2022-05-09T18:16:03+00:00,5,5670.38,True,9,9,1,49,3,1,4,MERGED
+3904,📝 Add external link to article: Deploying ML Models as API Using FastAPI and Heroku,kaustubhgupta,2021-09-15T05:20:39Z,2021-10-07T15:55:40+00:00,2,538.58,True,4,0,1,53,7,0,7,MERGED
+3902,#639 Run dependencies in parallel,ariloulaleelay,2021-09-14T16:00:30Z,2022-05-15T08:22:42+00:00,10,5824.37,False,417,220,6,24,3,6,9,CLOSED
+3893,Remove emojis from async.md,kittenswolf,2021-09-12T14:09:19Z,2022-08-17T12:01:51+00:00,4,8133.88,False,167,169,4,795,4,1,5,CLOSED
+3892,✨ Update `ORJSONResponse` to support non `str` keys and serializing Numpy arrays,baby5,2021-09-11T08:59:20Z,2022-09-02T10:17:32+00:00,4,8545.3,True,24,1,2,87,6,1,7,MERGED
+3885,🌐 Add Russian translation for `docs/tutorial/body.md`,solomein-sv,2021-09-10T05:31:12Z,2023-06-03T14:19:59+00:00,20,15152.81,True,165,0,1,0,13,28,41,MERGED
+3879,🐛 Fix support for path parameters in WebSockets,davidbrochart,2021-09-09T10:17:29Z,2022-09-01T08:50:47+00:00,4,8566.56,True,21,2,2,110,21,0,21,MERGED
+3868,[WIP] Fixes #3782 invalid schema for submodels using Generics,tonybaloney,2021-09-06T05:17:15Z,2025-07-11T16:54:51+00:00,1,33707.63,False,49,5,2,715,3,1,4,CLOSED
+3851,fix a small mistake in en docs (bigger-applications),goojal,2021-09-01T14:26:24Z,2021-10-07T14:35:30+00:00,2,864.15,False,2,2,1,93,1,0,1,CLOSED
+3849,feat: support exclude_none in dataclass response models,sbelzile-nexapp,2021-09-01T11:26:48Z,2025-09-20T15:29:38+00:00,3,35524.05,False,84,2,2,0,2,1,3,CLOSED
+3848,🌐 Add Turkish translation for `docs/fastapi-people.md`,BilalAlpaslan,2021-09-01T08:57:58Z,2021-10-05T15:47:51+00:00,5,822.83,True,179,0,2,356,3,5,8,MERGED
+3847,🌐 Update Chinese translation for `docs/help-fastapi.md`,jaystone776,2021-09-01T07:11:17Z,2022-01-16T19:41:59+00:00,2,3300.51,True,103,61,1,8,3,0,3,MERGED
+3846,🌐 Update Chinese translation for `docs/tutorial/security/oauth2-jwt.md`,jaystone776,2021-09-01T07:03:12Z,2022-11-03T11:50:48+00:00,2,10276.79,True,99,94,1,8,4,0,4,MERGED
+3844,🌐 Update Chinese translation for `docs/tutorial/security/simple-oauth2.md`,jaystone776,2021-09-01T06:59:22Z,2023-09-25T23:06:10+00:00,3,18112.11,True,111,103,1,8,6,13,19,MERGED
+3841,🌐 Add Chinese translation for `docs/tutorial/security/first-steps.md`,jaystone776,2021-09-01T06:48:16Z,2022-08-18T15:57:22+00:00,3,8433.15,True,190,0,2,8,3,1,4,MERGED
+3839,🌐 Add Chinese translation for `docs/zh/docs/deployment/manually.md`,jaystone776,2021-09-01T04:31:03Z,2024-01-28T18:16:58+00:00,1,21109.77,False,74,0,1,8,4,0,4,CLOSED
+3838,🌐 Add Chinese translation for `docs/zh/docs/deployment/docker.md`,jaystone776,2021-09-01T04:29:47Z,2024-01-28T18:00:16+00:00,2,21109.51,False,180,0,1,8,4,0,4,CLOSED
+3837,🌐 Add Chinese translation for `docs/zh/docs/deployment/deta.md`,jaystone776,2021-09-01T04:27:27Z,2024-01-28T18:06:56+00:00,1,21109.66,True,244,0,1,8,4,0,4,MERGED
+3836,🌐 Add Chinese translation for `docs/zh/docs/deployment/https.md`,jaystone776,2021-09-01T04:23:26Z,2024-03-30T22:51:31+00:00,2,22602.47,False,49,0,1,8,4,0,4,CLOSED
+3832,🌐 Add Chinese translation for `docs/zh/docs/history-design-future.md`,jaystone776,2021-09-01T04:08:37Z,2024-01-28T18:05:57+00:00,1,21109.96,True,78,0,1,8,4,0,4,MERGED
+3831,🌐 Add Chinese translation for `docs/zh/docs/project-generation.md`,jaystone776,2021-09-01T04:06:21Z,2024-01-28T18:03:58+00:00,1,21109.96,True,84,0,1,9,4,0,4,MERGED
+3830,🌐 Add Chinese translation for `docs/zh/docs/async.md`,jaystone776,2021-09-01T04:02:52Z,2024-01-28T18:19:27+00:00,4,21110.28,False,400,0,1,8,5,3,8,CLOSED
+3827,🌐 Add Chinese translation for `docs/zh/docs/tutorial/background-tasks.md`,jaystone776,2021-09-01T03:34:42Z,2024-01-29T16:10:34+00:00,2,21132.6,False,94,0,1,8,5,0,5,CLOSED
+3821,🌐 Add Chinese translation for `docs/zh/docs/advanced/testing-database.md`,jaystone776,2021-09-01T02:24:27Z,2024-01-28T18:09:27+00:00,2,21111.75,True,97,0,1,8,4,3,7,MERGED
+3820,🌐 Add Chinese translation for `docs/zh/docs/advanced/behind-a-proxy.md`,jaystone776,2021-09-01T02:19:02Z,2024-01-28T18:22:37+00:00,2,21112.06,True,351,0,1,8,4,0,4,MERGED
+3818,🌐 Add Chinese translation for `docs/zh/docs/advanced/testing-events.md`,jaystone776,2021-09-01T02:12:41Z,2024-01-28T18:21:02+00:00,2,21112.14,True,7,0,1,8,4,0,4,MERGED
+3817,🌐 Add Chinese translation for `docs/zh/docs/advanced/testing-websockets.md`,jaystone776,2021-09-01T02:09:41Z,2024-01-28T18:12:29+00:00,2,21112.05,True,13,0,1,8,4,0,4,MERGED
+3815,🌐 Add Chinese translation for `docs/zh/docs/advanced/events.md`,jaystone776,2021-09-01T01:57:50Z,2024-01-28T18:23:10+00:00,1,21112.42,True,51,0,1,8,5,0,5,MERGED
+3814,🌐 Add Chinese translation for `docs/advanced/websockets.md`,jaystone776,2021-09-01T01:52:15Z,2023-06-26T21:46:25+00:00,2,15931.9,False,177,0,2,8,3,0,3,CLOSED
+3813,🌐 Add Chinese translation for `docs/zh/docs/advanced/graphql.md`,jaystone776,2021-09-01T01:40:14Z,2024-01-31T13:55:44+00:00,1,21180.26,False,45,0,1,8,4,0,4,CLOSED
+3810,🐛 Fix JSON Schema for `ValidationError` at field `loc`,dconathan,2021-08-31T15:53:19Z,2022-04-17T17:41:46+00:00,4,5497.81,True,83,79,78,806,5,1,6,MERGED
+3798,🌐 Add Chinese translation for `docs/zh/docs/advanced/advanced-dependencies.md`,jaystone776,2021-08-31T09:01:06Z,2024-01-28T18:26:57+00:00,1,21129.43,True,71,0,1,8,4,0,4,MERGED
+3797,🌐 Add Chinese translation for `docs/advanced/response-change-status-code.md`,jaystone776,2021-08-31T08:58:35Z,2023-06-26T18:03:39+00:00,1,15945.08,False,35,0,2,8,3,0,3,CLOSED
+3796,🌐 Add Chinese translation for `docs/advanced/response-headers.md`,jaystone776,2021-08-31T08:55:51Z,2023-06-26T18:03:51+00:00,1,15945.13,False,45,0,2,8,4,3,7,CLOSED
+3795,🌐 Add Chinese translation for `docs/advanced/response-cookies.md`,jaystone776,2021-08-31T08:52:13Z,2023-06-26T18:04:01+00:00,2,15945.2,False,53,0,2,8,4,4,8,CLOSED
+3793,🌐 Add Chinese translation for `docs/zh/docs/advanced/additional-responses.md`,jaystone776,2021-08-31T08:45:52Z,2024-01-29T15:09:17+00:00,2,21150.39,False,245,0,1,8,8,11,19,CLOSED
+3789,"Change ""files"" to ""file"" in tutorial001.py, because ""files"" is also used in tutorial002.py and causes confusion if you combine both..",mborus,2021-08-30T10:14:38Z,2022-05-10T03:36:48+00:00,2,6065.37,False,1,1,1,692,2,0,2,CLOSED
+3783,🌐 Add Russian translation for `docs/ru/docs/tutorial/header-params.md`,dukkee,2021-08-28T19:58:00Z,2023-09-27T20:50:43+00:00,9,18240.88,False,91,0,1,77,7,10,17,CLOSED
+3770,Add ability to set example=Undefined for models,four43,2021-08-25T21:54:03Z,2025-08-11T22:20:02+00:00,1,34728.43,False,52,0,2,65,8,0,8,CLOSED
+3764,🌐 Add Korean translation for `docs/tutorial/cors.md`,NinaHwang,2021-08-25T08:01:03Z,2023-01-07T14:21:23+00:00,8,12006.34,True,85,0,2,61,7,28,35,MERGED
+3760,✏ Fix typo in `docs/en/docs/help-fastapi.md`,jaystone776,2021-08-25T02:49:15Z,2021-10-07T14:22:16+00:00,1,1043.55,True,1,1,1,26,4,0,4,MERGED
+3754,🌐 Add Portuguese translation for `docs/deployment/https.md`,stlucasgarcia,2021-08-23T23:47:13Z,2021-10-05T10:40:05+00:00,3,1018.88,True,49,1,2,70,4,2,6,MERGED
+3752,✏ Fix typo in file paths in `docs/en/docs/contributing.md`,NinaHwang,2021-08-23T13:22:37Z,2021-10-07T15:44:47+00:00,1,1082.37,True,2,2,1,61,2,0,2,MERGED
+3750,✏ Fix a typo in `docs/en/docs/advanced/path-operation-advanced-configuration.md` and `docs/en/docs/release-notes.md`,saintmalik,2021-08-23T08:45:48Z,2021-10-07T15:29:51+00:00,2,1086.73,True,2,2,2,60,6,0,6,MERGED
+3749,🌐 Add Russian translation for `docs/features.md`,dukkee,2021-08-22T20:10:06Z,2022-09-06T03:44:55+00:00,8,9103.58,False,202,0,1,71,12,2,14,CLOSED
+3748,🌐 Add Korean translation for `docs/ko/docs/tutorial/handling-errors.md`,NinaHwang,2021-08-22T12:53:36Z,2024-05-03T03:14:08+00:00,1,23630.34,False,265,0,1,72,7,2,9,CLOSED
+3744,🌐 Add Korean translation for `docs/tutorial/request-forms-and-files.md`,NinaHwang,2021-08-21T06:05:12Z,2021-12-09T10:47:26+00:00,3,2644.7,True,36,0,2,80,4,2,6,MERGED
+3743,🌐 Add Korean translation for `docs/tutorial/request-files.md`,NinaHwang,2021-08-21T05:40:08Z,2021-12-08T15:52:01+00:00,4,2626.2,True,145,0,2,70,4,25,29,MERGED
+3742,🌐 Add Korean translation for `docs/tutorial/response-status-code.md`,NinaHwang,2021-08-21T05:36:39Z,2021-12-08T15:45:37+00:00,3,2626.15,True,90,0,2,77,3,17,20,MERGED
+3735,Fix using websockets with prefixed routers,chrisburr,2021-08-20T07:10:02Z,2022-04-17T17:28:18+00:00,2,5770.3,False,52,3,2,126,4,0,4,CLOSED
+3732,🌐 Add Portuguese translation for `docs/tutorial/query-params.md`,FelipeSilva93,2021-08-20T00:48:17Z,2023-06-26T22:57:20+00:00,3,16222.15,False,445,4,4,5,2,7,9,CLOSED
+3727,🌐 Add Russian translation for `docs/tutorial/query-params.md`,solomein-sv,2021-08-19T14:16:06Z,2023-06-26T18:04:52+00:00,3,16227.81,False,198,0,1,5,1,1,2,CLOSED
+3724,Remove unnecesarry branch for default empty list,EdwardBlair,2021-08-19T08:30:26Z,2022-08-26T09:43:03+00:00,1,8929.21,False,1,1,1,92,3,1,4,CLOSED
+3712,✨ Add docs and tests for Python 3.9 and Python 3.10,tiangolo,2021-08-17T20:53:06Z,2022-01-07T14:11:32+00:00,11,3425.31,True,11562,452,219,439,21,4,25,MERGED
+3699,🌐 Add German translation for `docs/features.md`,mawassk,2021-08-13T11:46:28Z,2021-09-13T17:29:03+00:00,3,749.71,True,205,0,2,0,6,29,35,MERGED
+3695,🌐 Add Russian translation for `docs/deployment/index.md`,dukkee,2021-08-12T20:29:22Z,2023-06-26T23:46:14+00:00,1,16395.28,False,7,0,1,0,5,1,6,CLOSED
+3694,🌐 Add French translation for `deployment/docker.md`,rjNemo,2021-08-12T15:09:45Z,2021-10-05T12:27:25+00:00,7,1293.29,True,184,0,2,123,5,11,16,MERGED
+3693,🌐 Add French translation for `deployment/manually.md`,rjNemo,2021-08-12T14:13:52Z,2023-03-04T12:02:09+00:00,8,13653.8,True,154,0,2,123,12,10,22,MERGED
+3692,🌐 Add French translation for `deployment/deta.md`,rjNemo,2021-08-12T11:36:41Z,2022-10-31T18:07:23+00:00,3,10686.51,True,246,0,2,124,8,5,13,MERGED
+3691,🌐 Add French translation for `deployment/https.md`,rjNemo,2021-08-12T10:56:31Z,2022-10-31T17:45:30+00:00,4,10686.82,True,54,0,2,122,9,2,11,MERGED
+3690,🌐 Add French translation for `deployment/versions.md`,rjNemo,2021-08-12T08:15:49Z,2022-10-31T17:39:54+00:00,3,10689.4,True,96,0,2,130,8,4,12,MERGED
+3689,🌐  Add French translation for `docs/fr/docs/deployment/index.md`,rjNemo,2021-08-12T07:29:16Z,2022-08-18T16:02:40+00:00,7,8912.56,True,29,0,2,122,11,2,13,MERGED
+3680,Add fine grained dependency support.,charlesoconor,2021-08-10T19:07:51Z,2022-10-03T00:10:52+00:00,1,10037.05,False,16,3,2,500,1,1,2,CLOSED
+3671,🌐 Add French translation for `docs/tutorial/body.md`,Smlep,2021-08-09T11:12:33Z,2021-10-05T12:30:41+00:00,2,1369.3,True,166,0,2,173,3,0,3,MERGED
+3667,Refactor & Enhance multiple Functionality in FastAPI,yezz123,2021-08-07T10:50:46Z,2023-09-27T21:23:44+00:00,6,18754.55,False,65,49,6,865,10,2,12,CLOSED
+3664,🌐 Add Portuguese translation for `docs/tutorial/path-params.md`,FelipeSilva93,2021-08-07T02:14:49Z,2021-10-05T12:19:03+00:00,20,1426.07,True,247,0,2,88,4,33,37,MERGED
+3639,🌐 Add Korean translation for `docs/ko/docs/tutorial/path-operation-configuration.md`,jungsu-kwon,2021-07-31T11:08:40Z,2024-01-22T19:43:22+00:00,5,21728.58,True,97,0,1,118,6,27,33,MERGED
+3631,🌐 Add German translation for `docs/de/docs/index.md`,0x4Dark,2021-07-30T08:56:39Z,2024-01-15T14:59:51+00:00,22,21582.05,False,153,155,1,127,8,27,35,CLOSED
+3625,Translating index.md and alternatives.md,pace-noge,2021-07-29T14:33:52Z,2021-08-29T00:07:10+00:00,2,729.55,False,575,159,2,46,4,8,12,CLOSED
+3618,🌐 Add Portuguese translation for `docs/deployment/versions.md`,stlucasgarcia,2021-07-27T17:41:32Z,2021-07-29T20:14:41+00:00,4,50.55,True,88,0,2,470,5,3,8,MERGED
+3615,🌐 Add Portuguese translation for `docs/tutorial/security/first-steps.md`,oandersonmagalhaes,2021-07-27T12:59:04Z,2021-12-07T20:19:50+00:00,8,3199.35,False,180,0,2,97,9,30,39,CLOSED
+3594,🌐 Remove translation docs references to aiofiles as it's no longer needed since AnyIO,alonme,2021-07-23T12:13:18Z,2022-05-10T01:07:37+00:00,2,6972.91,True,0,27,14,362,31,0,31,MERGED
+3584,🌐 Add German translation for `docs/deployment/index.md`,mawassk,2021-07-22T09:45:34Z,2022-03-20T09:16:44+00:00,9,5783.52,False,9,0,2,0,3,3,6,CLOSED
+3583,🙈 Add more environment related files to `.gitignore`,mawassk,2021-07-22T09:09:14Z,2022-03-20T09:13:52+00:00,1,5784.08,False,3,0,1,223,6,0,6,CLOSED
+3562,🌐 Add Russian translation for `docs/tutorial/first-steps.md`,solomein-sv,2021-07-20T13:50:07Z,2023-06-26T18:07:01+00:00,12,16948.28,False,416,0,3,5,6,18,24,CLOSED
+3558,test on 3.10,graingert,2021-07-20T09:04:21Z,2021-10-06T16:28:08+00:00,6,1879.4,False,2,2,2,52,12,6,18,CLOSED
+3556,🌐 Add French translation for `docs/tutorial/query-params.md`,Smlep,2021-07-19T21:34:08Z,2021-10-26T18:15:31+00:00,2,2372.69,True,199,0,2,181,6,1,7,MERGED
+3548,🌐 Add French translation for `docs/tutorial/path-params.md`,Smlep,2021-07-18T09:31:45Z,2021-10-26T18:33:34+00:00,2,2409.03,True,255,0,2,180,5,0,5,MERGED
+3547,🌐 Add Spanish traslation for `docs/tutorial/cookie-params.md`,juanbeniteza,2021-07-18T04:11:28Z,2024-08-04T17:09:21+00:00,1,26724.96,False,34,0,2,140,4,1,5,CLOSED
+3540,🌐 Add Spanish traslation for `docs/tutorial/path-params-numeric-validations.md`,juanbeniteza,2021-07-16T19:21:08Z,2024-01-15T15:24:26+00:00,2,21908.06,False,124,0,2,158,3,8,11,CLOSED
+3529,Add a run function to the base FastAPI for running the server via uvicorn from the base class.,Ixyk-Wolf,2021-07-14T05:08:43Z,2023-09-27T22:28:28+00:00,9,19337.33,False,11,0,2,308,4,2,6,CLOSED
+3527,Add tool function to reload openapi.json and re-generate dependant in route,yangyaofei,2021-07-14T03:46:15Z,2025-07-13T10:26:10+00:00,10,35046.67,False,28,7,2,261,14,2,16,CLOSED
+3526,🌐 Add Japanese translation for `docs/tutorial/security/oauth2-jwt.md`,sattosan,2021-07-13T15:21:52Z,2021-07-28T15:35:26+00:00,23,360.23,True,267,0,2,80,12,23,35,MERGED
+3519,Add HttpException to avoid overriding ,bruno-fs,2021-07-11T20:32:19Z,2024-11-27T16:48:16+00:00,2,29636.27,False,2,0,1,113,7,0,7,CLOSED
+3516,Add startup/shutdown dependencies and dependency caching lifespan control,adriangb,2021-07-11T07:40:56Z,2021-09-28T00:39:28+00:00,14,1888.98,False,1216,220,29,1624,39,11,50,CLOSED
+3507,🌐 Add Portuguese translation for `docs/tutorial/security/index.md`,oandersonmagalhaes,2021-07-09T03:18:50Z,2021-07-19T12:46:39+00:00,7,249.46,True,103,0,2,91,3,17,20,MERGED
+3494,🌐 Add Chinese translation for `docs/zh/docs/tutorial/dependencies/dependencies-with-yield.md`,jaystone776,2021-07-07T09:53:18Z,2024-02-01T21:26:33+00:00,1,22547.55,False,234,0,1,17,4,3,7,CLOSED
+3493,🌐 Add Chinese translation for `docs/tutorial/dependencies/global-dependencies.md`,jaystone776,2021-07-07T09:50:23Z,2021-07-29T20:15:54+00:00,2,538.43,True,20,0,2,8,3,0,3,MERGED
+3492,🌐 Add Chinese translation for `docs/tutorial/dependencies/dependencies-in-path-operation-decorators.md`,jaystone776,2021-07-07T09:47:20Z,2021-08-18T13:49:44+00:00,2,1012.04,True,74,0,2,35,3,1,4,MERGED
+3491,🌐 Add Chinese translation for `docs/tutorial/dependencies/sub-dependencies.md`,jaystone776,2021-07-07T09:34:26Z,2021-08-18T13:31:59+00:00,2,1011.96,True,89,0,2,8,4,1,5,MERGED
+3490,🌐 Add Chinese translation for `docs/tutorial/dependencies/classes-as-dependencies.md`,jaystone776,2021-07-07T09:25:35Z,2023-06-26T17:41:57+00:00,1,17264.27,False,192,0,2,17,3,0,3,CLOSED
+3489,🌐 Add Chinese translation for `docs/tutorial/dependencies/index.md`,jaystone776,2021-07-07T09:14:49Z,2021-07-29T20:21:38+00:00,2,539.11,True,213,0,2,8,4,0,4,MERGED
+3474,🌐 Update Chinese translation for `docs/index.md`,jaystone776,2021-07-07T07:23:27Z,2023-06-26T17:50:56+00:00,1,17266.46,False,124,122,1,8,3,0,3,CLOSED
+3471,Add 'swagger_ui_expansion' option in 'FastAPI()',elrik75,2021-07-06T10:54:49Z,2022-01-18T14:56:04+00:00,1,4708.02,False,14,3,2,396,2,0,2,CLOSED
+3461,🌐 Add Portuguese translation of `docs/fastapi-people.md`,ComicShrimp,2021-07-05T02:29:48Z,2021-08-19T08:21:22+00:00,5,1085.86,True,185,2,4,129,4,1,5,MERGED
+3460,🌐 Add Portuguese translation for `docs/advanced/index.md`,ComicShrimp,2021-07-05T00:41:35Z,2021-08-18T13:27:05+00:00,4,1068.76,True,27,0,2,47,5,1,6,MERGED
+3459,🌐 Add Arabic translation for `docs/index.md`,yezz123,2021-07-04T16:12:09Z,2023-06-11T23:00:20+00:00,2,16974.8,False,0,0,0,222,6,0,6,CLOSED
+3455,🌐 Add French translation for Tutorial - First steps,Smlep,2021-07-03T13:46:48Z,2021-10-26T18:47:02+00:00,6,2765.0,True,335,0,2,179,7,2,9,MERGED
+3451,🌐 Add French translation for `docs/fr/docs/history-design-future.md`,rjNemo,2021-07-02T15:21:18Z,2022-08-18T16:01:14+00:00,4,9888.67,True,80,0,2,100,8,8,16,MERGED
+3440,Used default value if empty string in request,dmitrijkir,2021-07-01T09:35:12Z,2022-09-04T13:58:31+00:00,1,10324.39,False,2,1,1,600,5,0,5,CLOSED
+3439,⬆ Upgrade Swagger UI copy of `oauth2-redirect.html` to include fixes for flavors of authorization code flows in Swagger UI,koonpeng,2021-07-01T07:22:33Z,2022-08-23T13:57:25+00:00,1,10038.58,True,28,15,1,395,2,0,2,MERGED
+3432,✨ Add allow disabling `redirect_slashes` at the FastAPI app level,cyberlis,2021-06-29T19:11:10Z,2023-06-22T10:37:51+00:00,5,17343.44,True,42,0,2,1366,15,0,15,MERGED
+3420,🌐 Portuguese translation of Tutorial - Body - Fields,ComicShrimp,2021-06-28T18:00:31Z,2021-07-02T15:00:11+00:00,12,92.99,True,49,0,2,45,3,8,11,MERGED
+3416,🌐 Add French translation for `docs/async.md`,Smlep,2021-06-27T22:28:15Z,2021-08-18T13:19:43+00:00,4,1238.86,True,395,0,2,159,6,19,25,MERGED
+3406,fix-3405: fix broken Starlette Middleware URL,DavidBord,2021-06-24T13:52:05Z,2021-06-27T07:39:48+00:00,1,65.8,False,1,1,1,0,1,1,2,CLOSED
+3402,Fixes the URL for starlette Request reference documentation,vinaypotluri,2021-06-24T02:58:28Z,2021-06-25T18:59:58+00:00,1,40.02,False,4,4,3,111,4,0,4,CLOSED
+3397,Just a typo,sammanan4,2021-06-22T16:39:49Z,2021-06-28T02:23:04+00:00,1,129.72,False,1,1,1,20,2,0,2,CLOSED
+3384,Added support to x-enum-varnames and x-enum-descriptions,nanocfw,2021-06-18T17:19:43Z,2024-08-16T02:20:54+00:00,4,27705.02,False,2,0,1,0,6,1,7,CLOSED
+3380,Fix attempt to relative import in 'Testing' code examples,manlix,2021-06-16T20:49:40Z,2022-08-24T14:20:30+00:00,1,10409.51,False,2,2,2,49,2,0,2,CLOSED
+3372,✨ Add support for Trio via AnyIO,graingert,2021-06-14T22:47:29Z,2021-10-06T15:32:11+00:00,6,2728.74,True,49,167,15,41,21,4,25,MERGED
+3370,Add default for `default` argument in Path,Bluenix2,2021-06-14T17:47:50Z,2022-09-02T12:42:43+00:00,2,10674.91,False,9,13,8,1217,6,1,7,CLOSED
+3367,Tip to install email-validator package to use email validation,manlix,2021-06-12T20:02:30Z,2022-08-26T13:19:47+00:00,2,10553.29,False,14,0,1,49,6,1,7,CLOSED
+3362,"✏ Fix typo ""might me"" -> ""might be"" in `docs/en/docs/tutorial/schema-extra-example.md`",dbrakman,2021-06-11T00:02:59Z,2021-07-21T12:37:06+00:00,3,972.57,True,1,1,1,0,2,0,2,MERGED
+3342,Use list comprehension,isgj,2021-06-07T12:16:16Z,2021-06-28T07:43:28+00:00,3,499.45,False,13,16,1,51,0,0,0,CLOSED
+3337,🌐 Add Portuguese translation for `docs/deployment/index.md`,stlucasgarcia,2021-06-06T05:48:30Z,2021-07-19T12:32:54+00:00,10,1038.74,True,9,0,2,138,2,4,6,MERGED
+3312,🌐 Add Chinese translation for `docs\tutorial\path-operation-configuration.md`,jaystone776,2021-05-31T07:13:47Z,2022-01-16T19:34:28+00:00,2,5532.34,True,102,0,2,8,2,0,2,MERGED
+3305,🛠 Native JWT support,k4black,2021-05-28T18:30:23Z,2025-07-26T10:46:16+00:00,2,36472.26,False,1902,0,13,1672,10,2,12,CLOSED
+3300,"add tags and path sorting, add related docs",Cajuteq,2021-05-27T11:17:22Z,2022-03-07T18:35:19+00:00,11,6823.3,False,98,0,4,504,3,4,7,CLOSED
+3299,🌐 Add Chinese translation for Tutorial - Handling - Errors,jaystone776,2021-05-27T09:38:23Z,2021-07-02T14:43:28+00:00,2,869.08,True,290,0,2,8,2,0,2,MERGED
+3276,feat: add contributor over time graph to README,guoqqqi,2021-05-22T08:37:14Z,2021-07-21T12:30:21+00:00,1,1443.89,False,4,0,1,930,1,0,1,CLOSED
+3271,📝 Add external link: Building simple E-Commerce with NuxtJS and FastAPI,ShahriyarR,2021-05-21T14:39:36Z,2021-07-21T12:28:16+00:00,3,1461.81,True,4,0,1,0,3,0,3,MERGED
+3257,🌐 Add Spanish traslation for Tutorial - User Guide/Middleware,bezaca,2021-05-20T17:28:29Z,2024-12-30T18:57:38+00:00,1,31681.49,False,62,0,2,171,2,7,9,CLOSED
+3249,🌐 Add Chinese translation for Tutorial - Request - Forms - and - Files,jaystone776,2021-05-19T04:15:46Z,2021-07-02T14:54:22+00:00,2,1066.64,True,39,0,2,30,2,0,2,MERGED
+3248,🌐 Add Chinese translation for Tutorial - Form - Data,jaystone776,2021-05-19T04:01:50Z,2021-07-02T14:35:59+00:00,2,1066.57,True,64,0,2,20,3,0,3,MERGED
+3246,🔧 Swap light/dark theme button icon,eddsalkield,2021-05-18T13:40:56Z,2021-10-07T13:26:36+00:00,1,3407.76,True,32,32,16,485,2,0,2,MERGED
+3244,🌐 Add Chinese translation for Tutorial - Request - Files,jaystone776,2021-05-18T06:20:01Z,2021-06-29T12:24:20+00:00,4,1014.07,True,154,0,2,8,1,3,4,MERGED
+3241,📝 Add external link to article: How-to deploy FastAPI app to Heroku,Jarmos-san,2021-05-17T10:31:10Z,2021-10-07T13:13:10+00:00,2,3434.7,True,4,0,1,111,2,0,2,MERGED
+3237,🌐 Add Chinese translation for Tutorial - Body - Updates,jaystone776,2021-05-17T04:09:23Z,2021-07-02T14:23:41+00:00,4,1114.24,True,102,0,2,8,4,4,8,MERGED
+3233,Allow override of `BackgroundTasks` implementation.,nickswebsite,2021-05-15T21:52:55Z,2025-08-21T22:19:13+00:00,1,37416.44,False,152,4,4,741,4,0,4,CLOSED
+3228,🌐 Add Spanish traslation for Body - Multiple Parameters,anthonycepeda,2021-05-14T19:23:08Z,2024-12-30T18:53:06+00:00,2,31823.5,False,166,0,1,141,5,1,6,CLOSED
+3219,✏ Reword confusing sentence in docs file `typo-fix-path-params-numeric-validations.md`,ccrenfroe,2021-05-13T02:00:08Z,2022-08-24T21:35:30+00:00,2,11251.59,True,2,2,1,130,5,2,7,MERGED
+3216,🌐 Add Spanish translation of Advanced User Guide - Sub Applications,bezaca,2021-05-12T16:23:21Z,2024-12-30T18:56:28+00:00,1,31874.55,False,74,0,2,161,6,0,6,CLOSED
+3197,🌐 Add French translation for Project Generation,Smlep,2021-05-09T17:46:08Z,2021-07-02T14:18:07+00:00,5,1292.53,True,85,0,2,157,5,2,7,MERGED
+3195,🌐 Add Spanish traslation for Body - Fields,anthonycepeda,2021-05-09T08:05:15Z,2024-12-30T18:54:02+00:00,5,31954.81,False,48,0,1,132,4,5,9,CLOSED
+3187,🌐 Add Spanish translation of Advanced User Guide - Events,bezaca,2021-05-07T02:22:44Z,2024-12-30T18:56:48+00:00,2,32008.57,False,49,0,2,230,3,10,13,CLOSED
+3185,🌐 Add French translation for Python Types Intro,Smlep,2021-05-06T20:12:00Z,2021-07-02T14:13:52+00:00,5,1362.03,True,315,0,2,157,4,2,6,MERGED
+3172,🌐 Add French translation for `docs/fr/docs/tutorial/testing.md`,NastasiaSaby,2021-05-04T16:03:21Z,2024-01-15T15:51:06+00:00,5,23663.8,False,143,0,1,138,4,5,9,CLOSED
+3168,add defaultModelsExpandDepth to config show depth or not show schema …,rezandry,2021-05-04T13:04:37Z,2025-06-30T05:57:50+00:00,2,36424.89,False,2,0,1,235,6,2,8,CLOSED
+3164,🌐 Add Spanish traslation for Request Body,anthonycepeda,2021-05-03T15:51:08Z,2024-12-30T18:53:39+00:00,8,32091.04,False,164,0,1,125,4,11,15,CLOSED
+3162,🌐 Add Korean translation for Tutorial - Extra Models,peebbv6364,2021-05-03T13:10:13Z,2022-11-11T08:54:39+00:00,4,13363.74,False,199,0,2,177,3,18,21,CLOSED
+3161,🌐 Add Korean translation for `docs/ko/docs/tutorial/schema-extra-example.md`,SueNaEunYang,2021-05-03T13:10:12Z,2024-02-09T12:41:42+00:00,1,24287.53,False,59,0,1,298,6,0,6,CLOSED
+3159,🌐 Fix Korean translation for docs/ko/docs/index.md,SueNaEunYang,2021-05-02T08:51:16Z,2021-05-04T08:49:07+00:00,2,47.96,True,14,14,1,414,3,0,3,MERGED
+3157,🌐 Add Spanish translation of Advanced User Guide - Templates,bezaca,2021-05-01T22:35:42Z,2024-01-31T13:46:15+00:00,1,24111.18,False,91,0,2,153,4,4,8,CLOSED
+3153,Add description attribute to security schemes,Itay4,2021-05-01T17:15:42Z,2024-04-02T11:03:00+00:00,1,25601.79,False,29,12,3,11,2,0,2,CLOSED
+3152,🌐 Add Korean translation for Tutorial - JSON Compatible Encoder,NEONKID,2021-05-01T09:13:06Z,2021-12-08T15:43:32+00:00,5,5310.51,True,34,0,1,217,5,9,14,MERGED
+3150,Add Spanish translation of Advanced User - graphQL,bezaca,2021-05-01T01:54:39Z,2024-02-07T12:56:43+00:00,1,24299.03,False,46,0,2,150,5,3,8,CLOSED
+3144,"✨ Allow hiding from OpenAPI (and Swagger UI) `Query`, `Cookie`, `Header`, and `Path` parameters",astraldawn,2021-04-29T15:39:36Z,2022-01-23T15:54:59+00:00,7,6456.26,True,474,0,9,454,16,2,18,MERGED
+3142,♻️ Move duplicated code portion to a static method in the `APIKeyBase` super class,ShahriyarR,2021-04-29T07:28:52Z,2025-01-30T12:17:20+00:00,7,32932.81,True,12,25,1,417,4,1,5,MERGED
+3139,♻ Refactor dict value extraction to minimize key lookups `fastapi/utils.py`,ShahriyarR,2021-04-29T06:16:11Z,2022-05-12T20:38:30+00:00,1,9086.37,True,4,4,1,114,3,0,3,MERGED
+3138,♻ Change a `dict()` for `{}` in `fastapi/utils.py`,ShahriyarR,2021-04-29T06:04:15Z,2022-08-26T13:23:26+00:00,4,11623.32,True,1,1,1,511,4,0,4,MERGED
+3134,🌐 Add Spanish translation of Advanced User Guide - WebSockets,bezaca,2021-04-27T15:53:43Z,2024-12-30T18:56:04+00:00,3,32235.04,False,174,1,2,155,3,8,11,CLOSED
+3131,"📝 Update docs with pip install calls when using extras with brackets, use quotes for compatibility with Zsh",tomwei7,2021-04-25T16:52:14Z,2021-10-07T15:57:38+00:00,2,3959.09,True,10,10,6,111,7,0,7,MERGED
+3126,🌐 Add Spanish translation of Advanced User Guide - WSGI,bezaca,2021-04-24T04:19:31Z,2024-12-30T18:57:43+00:00,1,32318.64,False,38,0,2,148,4,3,7,CLOSED
+3125,🌐 Add Spanish translation of Tutorial - Query Parameters and String Validations,jovicon,2021-04-24T02:42:09Z,2024-12-30T18:56:42+00:00,8,32320.24,False,305,0,2,165,5,37,42,CLOSED
+3120,🌐 Add Korean translation for `docs/ko/docs/tutorial/body-updates.md`,NEONKID,2021-04-23T08:32:18Z,2025-07-26T09:44:20+00:00,1,37321.2,False,101,0,1,41,11,31,42,CLOSED
+3112,🌐 Add Chinese translation for FastAPI People,unknown,2021-04-22T08:04:14Z,2021-07-02T14:20:37+00:00,4,1710.27,True,166,0,2,0,10,13,23,MERGED
+3103,🌐 Add French translation for External Links,Smlep,2021-04-19T19:03:16Z,2021-07-02T14:12:05+00:00,2,1771.15,True,83,0,2,156,7,0,7,MERGED
+3098,🌐 Add French translation for Tutorial - Background Tasks,Smlep,2021-04-18T14:25:18Z,2021-05-04T09:00:43+00:00,4,378.59,True,96,0,2,155,4,2,6,MERGED
+3080,Allow parameterized router subclasses in applications.,christhekeele,2021-04-13T01:02:00Z,2022-11-03T20:23:55+00:00,1,13675.37,False,172,4,5,175,12,0,12,CLOSED
+3073,"📝 Update note about Falcon and ASGI, as now Falcon is also ASGI 🎉",raphaelauv,2021-04-12T08:28:34Z,2021-10-07T12:44:40+00:00,1,4276.27,True,0,2,1,44,3,0,3,MERGED
+3069,Adding url: How to build a newsletter using FastAPI,duarteocarmo,2021-04-11T14:21:37Z,2021-10-02T15:17:13+00:00,2,4176.93,False,4,0,1,0,4,0,4,CLOSED
+3068,🔧 Replace Flit by Poetry,Kludex,2021-04-10T01:11:14Z,2022-09-02T13:24:32+00:00,6,12252.22,False,2228,122,13,842,4,2,6,CLOSED
+3062,🌐 Fix Japanese translation of `docs/ja/docs/tutorial/body.md`,a-takahashi223,2021-04-09T09:14:47Z,2022-05-09T23:48:07+00:00,2,9494.56,True,1,1,1,61,4,0,4,MERGED
+3048,"🌐 Add German translation for `docs/de/docs/index.md`, `docs/de/docs/fastapi-people.md`, and `docs/de/docs/python-types.md`",0x4Dark,2021-04-06T18:10:44Z,2024-01-11T16:14:35+00:00,4,24238.06,False,638,157,3,614,7,35,42,CLOSED
+3039,🌐 Add Russian translation for `docs/python-types.md`,dukkee,2021-04-03T20:21:15Z,2021-07-29T20:22:44+00:00,13,2808.02,True,314,0,1,5,8,32,40,MERGED
+3038,⬆️ Upgrade OpenAPI from 3.0.2 to 3.1.0,Kludex,2021-04-03T19:41:30Z,2023-01-25T06:00:27+00:00,1,15874.32,False,208,191,141,370,10,0,10,CLOSED
+3036,🌐 Add Russian translation for `docs/external-links.md`,dukkee,2021-04-03T18:22:15Z,2021-07-29T20:21:06+00:00,3,2809.98,True,82,0,1,5,4,1,5,MERGED
+3035,🌐 Add Russian translation for Benchmarks,dukkee,2021-04-03T17:40:47Z,2023-06-26T17:36:14+00:00,16,19535.92,False,35,0,1,5,5,16,21,CLOSED
+3030,✏ Fix example code with sets in tutorial for body nested models,hitrust,2021-04-01T10:44:37Z,2022-05-11T17:29:02+00:00,1,9726.74,True,3,3,3,0,5,0,5,MERGED
+3020,"🌐 Add French translation for Alternatives, Inspiration and Comparisons",rjNemo,2021-03-31T08:16:00Z,2021-07-02T14:06:10+00:00,7,2237.84,True,447,0,2,99,5,34,39,MERGED
+3006,🌐 Add Vietnamese translation for `docs/vi/docs/features.md` and `docs/vi/docs/index.md`,magiskboy,2021-03-28T14:12:35Z,2023-07-27T19:01:58+00:00,2,20428.82,True,674,0,3,0,14,0,14,MERGED
+2985,🌐 Add Russian translation of the main page,CharNikita,2021-03-23T23:25:03Z,2022-07-09T16:01:15+00:00,3,11344.6,False,148,149,1,76,5,14,19,CLOSED
+2974,"📝 Add external link: Serve a machine learning model using Sklearn, FastAPI and Docker",rodrigo-arenas,2021-03-21T18:15:11Z,2021-07-21T12:20:53+00:00,1,2922.09,True,4,0,1,416,3,0,3,MERGED
+2969,🌐 Fix highlight lines for Japanese translation for `docs/tutorial/query-params.md`,ftnext,2021-03-21T06:05:48Z,2022-11-13T13:57:52+00:00,2,14455.87,True,4,4,1,175,3,0,3,MERGED
+2957,🌐 Add Korean translation for `docs/ko/docs/tutorial/static-files.md`,jeesang7,2021-03-16T15:22:30Z,2024-01-22T19:42:37+00:00,8,25012.34,True,40,0,1,326,10,14,24,MERGED
+2950,Allow passing prefix trough application to internal router,Bluenix2,2021-03-14T01:54:44Z,2021-06-08T17:37:33+00:00,1,2079.71,False,2,0,1,1093,2,0,2,CLOSED
+2944,✨ Add support for `lifespan` async context managers (superseding `startup` and `shutdown` events),uSpike,2021-03-13T05:08:38Z,2023-03-07T15:46:00+00:00,2,17386.62,True,298,44,6,178,13,0,13,MERGED
+2939,🐛 Ensure that `HTTPDigest` only raises an exception when `auto_error is True`,arthurio,2021-03-12T17:59:47Z,2025-02-27T12:29:20+00:00,11,34746.49,True,9,6,2,137,23,2,25,MERGED
+2938,✨ Add support for `FrozenSet` in parameters (e.g. query),juntatalor,2021-03-12T15:28:31Z,2022-08-25T21:52:53+00:00,2,12750.41,True,44,1,4,91,5,0,5,MERGED
+2908,🌐 Add Korean translation for `docs/ko/docs/tutorial/request-forms.md`,Suyoung789,2021-03-07T09:50:23Z,2024-01-15T15:53:07+00:00,2,25062.05,False,60,0,1,42,7,24,31,CLOSED
+2902,Require async_exit_stack and async_generator only on Python < 3.7,musicinmybrain,2021-03-05T17:20:15Z,2021-03-05T19:04:17+00:00,1,1.73,False,4,4,1,208,5,0,5,CLOSED
+2899,⬆Increase supported version of aiofiles to suppress warnings,SnkSynthesis,2021-03-05T03:38:36Z,2021-10-05T09:17:14+00:00,5,5141.64,True,2,2,1,608,12,0,12,MERGED
+2888,WIP: ✨ Add probes endpoints,Kludex,2021-03-02T22:26:07Z,2022-11-14T19:56:59+00:00,7,14925.51,False,32,0,2,1860,17,4,21,CLOSED
+2887,✏️ Fix typo on docstring in datastructures file,Kludex,2021-03-02T22:05:26Z,2021-07-21T12:14:34+00:00,3,3374.15,True,2,2,1,1,3,0,3,MERGED
+2857,Update path-params-numeric-validations.md,andrewgin,2021-02-21T16:20:45Z,2021-10-07T13:29:04+00:00,3,5469.14,False,1,1,1,16,3,1,4,CLOSED
+2853,Update bigger-applications.md,gsganden,2021-02-21T03:23:31Z,2021-10-07T14:11:50+00:00,1,5482.81,False,2,2,1,30,3,0,3,CLOSED
+2850,Update benchmarks.md,Jedore,2021-02-20T07:38:47Z,2021-07-14T05:28:12+00:00,1,3453.82,False,1,1,1,55,5,0,5,CLOSED
+2841,Fix/incorrect jsonable encoder arguments cast,juntatalor,2021-02-19T08:54:17Z,2022-08-24T21:24:56+00:00,3,13236.51,False,280,147,6,394,7,1,8,CLOSED
+2833,automatically handle 204 status code when not overriding twith custom…,aviramha,2021-02-18T13:00:39Z,2022-09-14T00:18:14+00:00,5,13739.29,False,29,2,2,80,13,2,15,CLOSED
+2829,🌐 Add Korean translation for `docs/ko/docs/tutorial/middleware.md`,JeongHyeongKim,2021-02-18T05:19:20Z,2024-01-31T14:35:27+00:00,13,25857.27,True,61,0,1,253,17,35,52,MERGED
+2816,Update tutorial001.py,gsganden,2021-02-15T17:45:56Z,2022-08-22T19:18:46+00:00,1,13273.55,False,7,7,7,130,6,0,6,CLOSED
+2803,📝 Remove note about (now supported) feature from Swagger UI in `docs/en/docs/tutorial/request-files.md`,gsganden,2021-02-12T22:41:23Z,2021-10-07T12:55:51+00:00,1,5678.24,True,0,7,1,110,4,0,4,MERGED
+2790,🔧 Configure strict pytest options and update/refactor tests,graingert,2021-02-10T23:20:35Z,2021-07-19T19:14:58+00:00,9,3811.91,True,147,129,9,113,11,7,18,MERGED
+2766,🌐 Add Korean translation for `docs/ko/docs/tutorial/response-model.md`,hard-coders,2021-02-07T08:07:25Z,2024-01-22T19:41:09+00:00,5,25907.56,True,210,0,1,71,7,1,8,MERGED
+2763,✨ Support HEAD method when GET is supported [2],Kludex,2021-02-06T00:18:01Z,2024-03-02T09:38:02+00:00,1,26889.33,False,13,0,2,199,3,1,4,CLOSED
+2762,✨ Support HEAD method when GET is supported [1],Kludex,2021-02-05T23:47:31Z,2024-03-02T09:36:20+00:00,1,26889.81,False,12,7,3,490,2,1,3,CLOSED
+2744,🌐 Add Spanish translation for Deployment - Deploy manually,pedabraham,2021-02-02T15:16:33Z,2024-02-07T13:01:16+00:00,8,26397.75,False,74,0,1,153,8,13,21,CLOSED
+2737,🌐 Add Chinese translation for Tutorial - Debugging,blt232018,2021-02-01T11:17:20Z,2021-03-27T17:51:51+00:00,2,1302.58,True,109,0,2,50,6,0,6,MERGED
+2730,Add complete Async SQL (Relational) Databases example,SnkSynthesis,2021-01-31T02:59:29Z,2024-10-09T19:50:44+00:00,21,32344.85,False,252,46,4,219,20,9,29,CLOSED
+2729,🌐 Add Turkish translation for `docs/benchmarks.md`,Telomeraz,2021-01-30T12:51:16Z,2021-10-05T12:50:38+00:00,4,5951.99,True,34,0,1,67,3,4,7,MERGED
+2716,🌐 Add Spanish translation of Deployment - Deploy with Docker,pedabraham,2021-01-28T18:32:42Z,2024-02-07T12:59:51+00:00,13,26514.45,False,181,0,2,150,7,16,23,CLOSED
+2714,Fix section tree in navigation bar for missing translated documentations,tokusumi,2021-01-28T13:10:28Z,2024-01-15T10:02:01+00:00,1,25964.86,False,47,12,1,640,6,2,8,CLOSED
+2699,🌐 Add Spanish translation of Deployment - Deta,pedabraham,2021-01-25T17:43:25Z,2024-01-31T13:45:48+00:00,3,26420.04,False,242,0,2,148,4,1,5,CLOSED
+2697,FEATURE - yield dependencies exit code before response,zoliknemet,2021-01-25T16:03:54Z,2022-06-12T17:12:42+00:00,3,12073.15,False,800,45,18,956,7,2,9,CLOSED
+2692,🌐 Add Spanish translation of Deployment - About HTTPS,pedabraham,2021-01-22T20:28:02Z,2024-01-15T15:25:18+00:00,1,26106.95,False,48,0,1,149,4,4,8,CLOSED
+2681,🌐 Add Japanese translation for `docs/ja/docs/tutorial/security/get-current-user.md`,sh0nk,2021-01-20T18:03:04Z,2024-01-28T18:36:36+00:00,3,26472.56,True,114,0,1,165,6,8,14,MERGED
+2680,🌐 Add Spanish translation of Deployment - Intro,pedabraham,2021-01-20T15:41:29Z,2024-01-15T15:28:21+00:00,1,26159.78,False,7,0,1,145,4,1,5,CLOSED
+2668,🌐 Add Japanese translation for `docs/ja/docs/tutorial/background-tasks.md`,tokusumi,2021-01-18T09:00:46Z,2024-01-15T16:12:39+00:00,1,26215.2,True,94,0,1,60,4,0,4,MERGED
+2665,"Add example Update, Delete operation and PUT, DELETE endpoint in SQL db tutorial",akihiro-inui,2021-01-17T17:55:46Z,2024-10-09T19:48:44+00:00,8,32665.88,False,215,68,5,105,32,10,42,CLOSED
+2659,"🌐 Add Spanish translation of History, Design and Future",pedabraham,2021-01-15T19:55:45Z,2024-12-30T18:53:24+00:00,1,34678.96,False,79,0,1,148,6,0,6,CLOSED
+2656,Pin swagger-ui-dist version number,ArcLightSlavik,2021-01-14T21:49:08Z,2021-05-09T00:24:11+00:00,2,2738.58,False,2,2,1,220,8,0,8,CLOSED
+2646,Fixed incorrect default value for type Set,lukasgee,2021-01-13T20:48:58Z,2022-08-22T19:21:39+00:00,3,14062.54,False,1,1,1,122,4,0,4,CLOSED
+2642,"🌐 Add Chinese translation for Tutorial - Security - OAuth2 with Password (and hashing), Bearer with JWT tokens",waynerv,2021-01-13T08:40:37Z,2021-03-27T17:38:34+00:00,2,1760.97,True,267,0,2,51,5,0,5,MERGED
+2640,🐛 Fix support for prefix on APIRouter WebSockets,Kludex,2021-01-12T19:00:56Z,2022-04-17T17:21:53+00:00,5,11038.35,True,17,1,2,16,10,0,10,MERGED
+2631,🌐 Add Japanese translation for `docs/ja/docs/advanced/conditional-openapi.md`,sh0nk,2021-01-11T17:00:49Z,2022-05-09T23:54:00+00:00,6,11598.89,True,59,0,2,386,9,12,21,MERGED
+2615,📝 Update docs for `ORJSONResponse` with details about improving performance,falkben,2021-01-07T18:44:07Z,2022-09-01T09:59:06+00:00,3,14439.25,True,7,1,2,1340,4,1,5,MERGED
+2613,fix(deps): install asyncio backports only on python<3.7,kumaraditya303,2021-01-07T09:33:11Z,2021-05-27T10:53:25+00:00,4,3361.34,False,4,4,1,0,5,0,5,CLOSED
+2593,🌐 Spanish translation of help-fastapi.md,pedabraham,2021-01-02T21:01:36Z,2024-01-15T15:25:07+00:00,1,26586.39,False,143,0,2,219,4,17,21,CLOSED
+2589,🌐 Add Korean translation for Tutorial - Header Parameters,mode9,2021-01-01T11:09:05Z,2021-03-27T17:36:09+00:00,4,2046.45,True,91,0,2,177,4,4,8,MERGED
+2577,🌐 Spanish translation of help-fastapi.md,pedabraham,2020-12-29T19:16:50Z,2021-01-02T21:02:16+00:00,1,97.76,False,143,0,2,398,3,1,4,CLOSED
+2573,🌐 Fix Chinese translation code snippet mismatch in Tutorial - Python Types Intro,BoYanZh,2020-12-27T16:47:54Z,2021-07-02T14:02:46+00:00,2,4485.25,True,2,2,1,91,3,0,3,MERGED
+2571,Update config.yml,Spixer,2020-12-26T08:02:14Z,2021-01-01T16:55:15+00:00,1,152.88,False,1,0,1,13,4,0,4,CLOSED
+2568,✨ Enable configuring Swagger UI parameters,jmriebold,2020-12-24T05:26:11Z,2022-01-16T19:26:25+00:00,12,9326.0,True,251,6,12,400,32,4,36,MERGED
+2564,"📝 Add link to article in Russian ""FastAPI: знакомимся с фреймворком""",trkohler,2020-12-23T11:53:47Z,2021-05-06T15:47:50+00:00,1,3219.9,True,4,0,1,337,9,0,9,MERGED
+2559,🌐 Add Chinese translation for Tutorial - Metadata and Docs URLs,blt232018,2020-12-22T12:00:01Z,2021-03-27T17:31:11+00:00,2,2285.52,True,106,0,2,69,4,0,4,MERGED
+2557,📝 Fix broken link to article: Machine learning model serving in Python using FastAPI and Streamlit,davidefiocco,2020-12-21T23:59:10Z,2021-02-07T18:26:45+00:00,3,1146.46,True,1,1,1,44,4,0,4,MERGED
+2545,🌐 Add Korean translation for `docs/ko/docs/tutorial/cookie-params.md`,hard-coders,2020-12-20T08:01:32Z,2024-01-15T15:49:03+00:00,2,26911.79,False,33,0,1,70,4,1,5,CLOSED
+2540,🌐 Add Chinese translation for Tutorial - CORS (Cross-Origin Resource Sharing),blt232018,2020-12-19T18:01:31Z,2021-03-27T17:28:07+00:00,2,2351.44,True,85,0,2,39,9,0,9,MERGED
+2530,🌐 Add Chinese translation for Tutorial - CORS (Cross-Origin Resource Sharing),blt232018,2020-12-17T15:53:53Z,2020-12-19T15:08:47+00:00,1,47.25,False,94,0,3,147,2,7,9,CLOSED
+2528,🌐 Add Korean translation for `docs/ko/docs/extra-data-types.md`,PandaHun,2020-12-17T13:59:58Z,2024-01-15T15:53:24+00:00,1,26977.89,False,65,0,1,73,2,8,10,CLOSED
+2526,Add newsletter directory for Chinese translation,waynerv,2020-12-17T08:25:36Z,2023-06-26T22:20:42+00:00,1,22117.92,False,9,0,1,389,4,0,4,CLOSED
+2520,Fix adding prefix from APIRouter for websockets routes,nkhitrov,2020-12-16T08:54:31Z,2021-01-19T07:20:13+00:00,1,814.43,False,7,5,2,94,0,0,0,CLOSED
+2515,📝 Add FastAPI Medium Article: Deploy a dockerized FastAPI application to AWS,vjanz,2020-12-15T09:28:11Z,2021-02-07T18:25:27+00:00,2,1304.95,True,4,0,1,59,4,0,4,MERGED
+2514,🌐 Add Chinese translation for Tutorial - Security - Simple OAuth2 with Password and Bearer,waynerv,2020-12-15T02:48:05Z,2021-01-09T18:59:57+00:00,4,616.2,True,277,1,2,51,4,13,17,MERGED
+2506,🌐 Add Korean translation for `docs/ko/docs/tutorial/body-nested-models.md`,hard-coders,2020-12-12T07:43:28Z,2024-01-22T19:31:27+00:00,1,27275.8,True,243,0,1,75,5,0,5,MERGED
+2498,🌐 Add Chinese translation for Tutorial - Extra Data Types,Ro0tk1t,2020-12-10T12:49:24Z,2023-06-26T17:25:36+00:00,1,22276.6,False,35,35,1,52,6,0,6,CLOSED
+2489,🌐 Add Korean translation for `docs/ko/docs/tutorial/body-fields.md`,hard-coders,2020-12-08T09:11:47Z,2024-01-15T15:48:48+00:00,3,27198.62,False,48,0,1,68,5,3,8,CLOSED
+2486,✏ Fix typo in Tutorial - Handling Errors,johnthagen,2020-12-07T21:31:44Z,2021-02-07T18:18:38+00:00,3,1484.78,True,1,1,1,0,3,0,3,MERGED
+2474,🌐 Add Chinese translation for Tutorial - Security - Get Current User,waynerv,2020-12-06T04:38:36Z,2021-01-09T18:53:06+00:00,6,830.24,True,116,0,2,51,6,10,16,MERGED
+2473,Propagate callable's return type annotation for Depends/Security,kernc,2020-12-05T22:31:18Z,2024-08-16T16:45:47+00:00,3,32394.24,False,13,7,1,704,13,1,14,CLOSED
+2470,🌐 Add Spanish translation for `docs/es/docs/tutorial/body.md`,anattolia,2020-12-04T15:05:13Z,2024-08-21T16:53:49+00:00,3,32545.81,False,161,0,1,283,5,13,18,CLOSED
+2465,🌐 Add Chinese translation for Tutorial - Static Files,maoyibo,2020-12-03T08:24:26Z,2023-06-26T17:13:41+00:00,1,22448.82,False,54,0,2,53,3,11,14,CLOSED
+2464,🌐 Add Chinese translation for `docs/zh/docs/tutorial/background-tasks.md`,maoyibo,2020-12-03T08:05:09Z,2024-01-29T15:25:22+00:00,1,27655.34,False,94,0,1,57,4,23,27,CLOSED
+2461,🌐 Add Korean translation for `docs/ko/docs/tutorial/body-multiple-params.md`,PandaHun,2020-12-03T00:52:54Z,2024-01-22T19:37:52+00:00,3,27498.75,True,170,0,1,76,6,11,17,MERGED
+2459,Fix typo on docs/contributing,CyanBook,2020-12-02T18:30:06Z,2021-10-07T16:17:38+00:00,3,7413.79,False,1,1,1,0,6,1,7,CLOSED
+2453,🌐 Add Chinese translation for Tutorial - Bigger Applications - Multiple Files,waynerv,2020-12-01T09:58:19Z,2021-02-07T18:02:00+00:00,3,1640.06,True,489,0,2,51,5,16,21,MERGED
+2446,🌐 Add Chinese translation for Tutorial - Security - First Steps,maoyibo,2020-11-30T14:17:35Z,2023-06-26T17:26:58+00:00,1,22515.16,False,186,0,2,63,3,0,3,CLOSED
+2443,🌐 Add Chinese translation for Tutorial - Security - Security Intro,waynerv,2020-11-30T08:03:15Z,2021-02-07T18:00:14+00:00,5,1665.95,True,102,0,2,51,6,2,8,MERGED
+2442,🌐 Add Chinese translation for Tutorial - Response Status Code,waynerv,2020-11-30T06:56:46Z,2020-12-19T18:16:38+00:00,4,467.33,True,90,0,2,51,3,1,4,MERGED
+2441,🌐 Add Chinese translation for `docs/zh/docs/tutorial/dependencies/dependencies-with-yield.md`,maoyibo,2020-11-30T06:04:48Z,2024-01-29T16:17:29+00:00,1,27730.21,False,228,0,1,64,4,0,4,CLOSED
+2440,🌐 Add Chinese translation for Tutorial - Global Dependencies,maoyibo,2020-11-30T06:00:56Z,2023-06-26T22:05:59+00:00,1,22528.08,False,19,0,2,60,5,5,10,CLOSED
+2437,🌐 Add Chinese translation for Tutorial - Classes as Dependencies,maoyibo,2020-11-30T03:38:06Z,2023-06-26T18:31:18+00:00,1,22526.89,False,193,0,2,64,3,0,3,CLOSED
+2432,🌐 Add Korean translation for Tutorial - Path Parameters and Numeric Validations,hard-coders,2020-11-28T07:19:01Z,2021-12-08T15:41:27+00:00,2,9008.37,True,123,0,2,88,4,0,4,MERGED
+2429,🌐 Add Chinese translation for Tutorial - Body - Updates,maoyibo,2020-11-27T03:47:06Z,2023-06-26T17:31:27+00:00,1,22597.74,False,100,0,2,55,3,0,3,CLOSED
+2428,🌐 Add Chinese translation for Tutorial - JSON Compatible Encoder,maoyibo,2020-11-27T02:58:40Z,2023-06-26T18:30:26+00:00,1,22599.53,False,35,0,2,64,3,0,3,CLOSED
+2424,"🎨 Remove internal ""type: ignore"", now unnecessary",AsakuraMizu,2020-11-26T08:26:30Z,2021-02-07T18:15:44+00:00,3,1761.82,True,1,3,1,41,3,0,3,MERGED
+2422,🌐 Add Chinese translation for Tutorial - Request Forms and Files,maoyibo,2020-11-26T07:18:52Z,2023-06-26T17:32:14+00:00,3,22618.22,False,36,0,2,51,3,13,16,CLOSED
+2421,🌐 Add Chinese translation for Tutorial - Request Files,maoyibo,2020-11-26T07:02:19Z,2023-06-26T17:07:33+00:00,1,22618.09,False,145,0,2,51,3,1,4,CLOSED
+2416,🌐 Add Chinese translation for Tutorial - Extra Models,waynerv,2020-11-25T11:02:58Z,2020-12-03T17:36:47+00:00,5,198.56,True,200,0,2,53,5,1,6,MERGED
+2415,🌐 Add Korean translation for `docs/ko/docs/tutorial/query-params-str-validations.md`,hard-coders,2020-11-25T10:44:47Z,2024-01-22T19:37:02+00:00,5,27680.87,True,303,0,1,85,9,17,26,MERGED
+2414,🌐 Add Chinese translation for Tutorial - Response Model,waynerv,2020-11-25T08:40:22Z,2020-12-03T17:27:58+00:00,8,200.79,True,210,0,2,44,4,3,7,MERGED
+2412,🌐 Add Chinese translation for Tutorial - Header Parameters,maoyibo,2020-11-25T02:48:05Z,2021-02-07T17:59:13+00:00,5,1791.19,True,92,0,2,46,4,2,6,MERGED
+2411,🌐 Add Chinese translation for Tutorial - Schema Extra Example,maoyibo,2020-11-25T02:36:18Z,2020-12-03T17:08:12+00:00,11,206.53,True,59,0,2,53,8,7,15,MERGED
+2410,🌐 Add Chinese translation for Tutorial - Extra Data Types,maoyibo,2020-11-25T02:32:05Z,2021-02-07T17:52:09+00:00,8,1791.33,True,67,0,2,49,4,4,8,MERGED
+2408,🌐 Add Chinese translation for Tutorial - SQL (Relational) Databases,maoyibo,2020-11-25T02:23:55Z,2023-06-26T17:34:03+00:00,2,22647.17,False,689,0,2,46,3,8,11,CLOSED
+2407,✏ Fix typo in Security OAuth2 scopes,jugmac00,2020-11-24T20:35:36Z,2021-02-07T18:13:41+00:00,4,1797.63,True,1,1,1,0,3,0,3,MERGED
+2395,🌐 Add Persian translation for `docs/fa/docs/index.md` and tweak right-to-left CSS,mohsen-mahmoodi,2020-11-23T01:20:06Z,2022-07-20T12:25:23+00:00,11,14507.09,True,195,174,5,305,6,3,9,MERGED
+2393,✏ Fix typo/clarify docs for SQL (Relational) Databases,kangni,2020-11-22T09:51:45Z,2021-02-07T18:06:09+00:00,1,1856.24,True,1,1,1,87,3,0,3,MERGED
+2392,🌐 Add Korean translation for `docs/ko/docs/tutorial/body.md`,hard-coders,2020-11-22T06:53:35Z,2024-02-09T12:51:28+00:00,1,28181.96,False,165,0,1,61,8,0,8,CLOSED
+2390,🌐 Add Korean translation for Tutorial - Query Parameters,hard-coders,2020-11-21T07:15:10Z,2021-05-04T08:38:02+00:00,3,3937.38,True,199,0,2,69,6,0,6,MERGED
+2385,🌐 Update Chinese translation with highlighted content for Tutorial - Body `docs/zh/docs/tutorial/body.md`,maoyibo,2020-11-20T13:32:29Z,2024-01-12T14:45:26+00:00,1,27553.22,False,23,6,1,42,4,0,4,CLOSED
+2384,🌐 Remove Chinese deprecated content in Query Params,maoyibo,2020-11-20T12:13:21Z,2021-07-02T13:56:22+00:00,3,5377.72,False,0,32,1,108,3,0,3,CLOSED
+2360,🌐 Update `Optional` usage in Chinese translation for Python Types Intro `docs/zh/docs/python-types.md`,maoyibo,2020-11-17T06:17:11Z,2024-01-12T14:45:09+00:00,5,27632.47,False,33,4,1,117,5,2,7,CLOSED
+2355,🌐 Add Korean translation for Tutorial - Path Parameters,hard-coders,2020-11-15T09:54:09Z,2021-05-04T08:24:58+00:00,5,4078.51,True,245,0,2,68,7,2,9,MERGED
+2352,🌐 Add Portuguese translation for Tutorial - Path Parameters,jessicapaz,2020-11-14T14:33:14Z,2023-06-26T22:56:02+00:00,5,22904.38,False,247,0,2,88,6,4,10,CLOSED
+2347,Serialization optimization when using Pydantic for return types,aviramha,2020-11-12T07:37:50Z,2025-09-20T15:32:44+00:00,13,42559.92,False,43,0,3,90,21,5,26,CLOSED
+2341,memo: Add basic FastAPI blog post to External Links,EduardoZepeda,2020-11-10T20:20:56Z,2021-07-21T11:21:54+00:00,1,6063.02,False,5,0,1,46,3,0,3,CLOSED
+2335,"⬆️  Upgrade Starlette to 0.14.2, including internal `UJSONResponse` migrated from Starlette",hanneskuettner,2020-11-10T15:09:15Z,2021-05-10T14:09:05+00:00,5,4343.0,True,51,3,3,658,25,1,26,MERGED
+2334,🌐 Add Chinese translation for Tutorial - Middleware,lpdswing,2020-11-10T06:41:08Z,2021-03-27T17:25:21+00:00,9,3298.74,True,62,0,2,0,10,16,26,MERGED
+2324,📝 Add FastAPI monitoring blog post to External Links,louisguitton,2020-11-08T10:11:02Z,2020-11-08T17:26:35+00:00,2,7.26,True,4,0,1,15,3,0,3,MERGED
+2323,🌐 Add Korean translation for Tutorial - First Steps,hard-coders,2020-11-08T08:48:15Z,2021-03-27T17:29:45+00:00,5,3344.69,True,334,0,2,68,6,6,12,MERGED
+2317,🌐 Add Korean translation for Tutorial - Intro,hard-coders,2020-11-07T10:04:29Z,2021-03-27T17:22:50+00:00,3,3367.31,True,82,0,2,64,6,2,8,MERGED
+2316,two small fixes,hitrust,2020-11-07T02:08:47Z,2021-03-12T01:25:32+00:00,2,2999.28,False,8,8,7,0,3,1,4,CLOSED
+2314,🌐 Add Japanese translation for Deployment - Deta,tokusumi,2020-11-06T13:07:53Z,2021-01-09T18:58:52+00:00,3,1541.85,True,241,0,2,50,7,4,11,MERGED
+2313,🌐 Add Japanese translation for Deployment - Manually,tokusumi,2020-11-06T11:35:37Z,2021-01-09T18:51:43+00:00,3,1543.27,True,75,0,2,156,5,1,6,MERGED
+2312,🌐 Add Japanese translation for Deployment - Docker,tokusumi,2020-11-06T11:26:21Z,2021-02-07T17:46:22+00:00,4,2238.33,True,180,0,2,154,7,10,17,MERGED
+2311,🌐 Add Japanese translation for `docs/ja/docs/deployment/https.md`,tokusumi,2020-11-06T11:16:22Z,2024-01-15T16:16:53+00:00,2,27965.01,False,48,0,1,153,8,4,12,CLOSED
+2310,🌐 Add Japanese translation for Deployment - Versions,tokusumi,2020-11-06T11:08:07Z,2021-02-07T17:44:28+00:00,4,2238.61,True,88,0,2,153,8,5,13,MERGED
+2309,🌐 Add Japanese translation for Deployment - Intro,tokusumi,2020-11-06T10:48:05Z,2021-01-09T18:47:09+00:00,2,1543.98,True,9,0,2,153,3,0,3,MERGED
+2307,Organizing the is_scalar_field function check logic,aniaan,2020-11-06T08:26:22Z,2021-09-04T15:32:04+00:00,1,7255.1,False,8,6,1,199,2,0,2,CLOSED
+2280,"📝 Add external link to ""FastAPI for Flask Users""",amitness,2020-11-01T10:35:14Z,2021-02-07T17:40:42+00:00,5,2359.09,True,4,0,1,105,9,0,9,MERGED
+2278,🌐 Add Spanish translation for `docs/es/docs/advanced/security/index.md`,Xaraxx,2020-10-31T21:59:51Z,2024-02-07T13:02:32+00:00,4,28647.04,True,16,0,1,69,4,2,6,MERGED
+2277,Response cookies,Xaraxx,2020-10-31T20:54:24Z,2024-01-29T15:18:35+00:00,4,28434.4,False,60,1,2,100,3,1,4,CLOSED
+2276,🌐 Add Spanish translation for `docs/es/docs/advanced/response-headers.md`,Xaraxx,2020-10-31T20:38:40Z,2024-02-07T12:51:12+00:00,2,28648.21,True,44,0,1,75,4,0,4,MERGED
+2275,WIP: Add API developer docs,Kludex,2020-10-31T15:03:03Z,2023-10-06T05:52:03+00:00,3,25670.82,False,141,0,8,966,27,2,29,CLOSED
+2274,Advanced dependencies,Xaraxx,2020-10-31T12:56:01Z,2024-01-15T15:17:47+00:00,1,28106.36,False,89,1,2,0,4,1,5,CLOSED
+2273,🌐 Add Spanish translation for `docs/es/docs/advanced/response-change-status-code.md`,Xaraxx,2020-10-31T11:36:38Z,2024-02-06T19:57:53+00:00,2,28640.35,False,44,1,2,0,4,1,5,CLOSED
+2267,🌐 Add Korean translation for `docs/ko/docs/python-types.md`,jrim,2020-10-30T08:44:59Z,2024-01-22T19:34:48+00:00,8,28306.83,True,315,0,1,41,6,45,51,MERGED
+2261,🌐 Add Chinese translation for Tutorial - Cookie Parameters,hackerneocom,2020-10-28T14:51:04Z,2021-02-07T17:42:35+00:00,7,2450.86,True,35,0,2,56,6,2,8,MERGED
+2260,🌐 Add Japanese translation for Tutorial - Static files,tokusumi,2020-10-28T14:13:47Z,2021-02-07T17:38:11+00:00,4,2451.41,True,54,0,2,56,8,2,10,MERGED
+2259,🌐 Add Japanese translation for Tutorial - Testing,tokusumi,2020-10-28T13:45:39Z,2021-02-07T17:31:31+00:00,4,2451.76,True,145,0,2,51,8,2,10,MERGED
+2256,🌐 Add Japanese translation for Tutorial - Debugging,tokusumi,2020-10-27T18:08:19Z,2021-02-07T17:25:32+00:00,3,2471.29,True,113,0,2,53,5,3,8,MERGED
+2255,🌐 Add Japanese translation for Tutorial - Middleware,tokusumi,2020-10-27T17:35:25Z,2021-02-07T17:23:55+00:00,6,2471.81,True,62,0,2,56,7,7,14,MERGED
+2254,🌐 Add Japanese translation for FastAPI People,tokusumi,2020-10-27T16:45:29Z,2021-01-09T18:42:25+00:00,4,1777.95,True,139,0,2,53,7,7,14,MERGED
+2243,🌐 Add Spanish translation for `tutorial/query-params.md`,mariacamilagl,2020-10-25T16:42:32Z,2021-07-04T17:34:46+00:00,2,6048.87,True,198,0,2,60,4,2,6,MERGED
+2239,Add Portugues translation for FastAPI-People,italopenaforte,2020-10-25T00:13:12Z,2022-07-13T22:00:30+00:00,13,15045.79,False,136,0,1,0,7,11,18,CLOSED
+2234,🌐 Add French translation for `docs/fr/docs/tutorial/index.md`,JulianMaurin,2020-10-23T18:44:41Z,2023-07-27T18:51:56+00:00,3,24168.12,True,80,0,1,102,7,4,11,MERGED
+2233,🌐 Add French translation for `docs/fr/docs/help-fastapi.md`,JulianMaurin,2020-10-23T18:41:49Z,2022-10-31T17:34:10+00:00,3,17710.87,True,123,0,2,100,5,4,9,MERGED
+2232,🌐 Add French translation for FastAPI People,JulianMaurin,2020-10-23T17:41:22Z,2021-05-04T08:27:49+00:00,2,4622.77,True,136,0,2,102,5,0,5,MERGED
+2231,✏️  Fix typo in Tutorial - Path Parameters,mariacamilagl,2020-10-23T16:03:31Z,2020-11-05T22:53:11+00:00,2,318.83,True,1,1,1,168,3,0,3,MERGED
+2219,🌐 Add Spanish translation of Tutorial - Path Parameters,mariacamilagl,2020-10-21T18:36:40Z,2021-07-03T14:46:49+00:00,9,6116.17,True,245,0,2,57,3,4,7,MERGED
+2214,Update README.md,samarthraj11,2020-10-21T11:53:50Z,2020-12-19T20:10:15+00:00,1,1424.27,False,4,4,2,0,3,0,3,CLOSED
+2208,🌐 Add Spanish translation of Tutorial - First Steps,mariacamilagl,2020-10-20T19:31:44Z,2021-07-03T14:13:28+00:00,2,6138.7,True,334,0,2,53,3,0,3,MERGED
+2206,✏ Fix a stylistic error in docs,ddobrinskiy,2020-10-20T14:00:04Z,2020-11-05T22:52:18+00:00,3,392.87,True,1,1,1,0,3,0,3,MERGED
+2204,✏ Fix capitalizaiton typo in docs,imba-tjd,2020-10-19T05:22:58Z,2020-11-05T22:44:57+00:00,3,425.37,True,1,1,1,0,3,0,3,MERGED
+2203,portuguese-translation-body-fields,italopenaforte,2020-10-19T01:46:17Z,2022-07-13T22:00:29+00:00,3,15188.24,False,48,0,1,0,3,2,5,CLOSED
+2193,🌐 Add Japanese translation for Advanced - Custom Response,Attsun1031,2020-10-18T08:02:11Z,2020-11-25T17:47:45+00:00,4,921.76,True,224,0,2,63,8,13,21,MERGED
+2192,🌐 Add Korean translation for Index,hard-coders,2020-10-18T06:25:49Z,2020-12-03T17:05:20+00:00,4,1114.66,True,162,166,1,194,5,4,9,MERGED
+2191,🌐 Add Japanese translation for Advanced Tutorial - Response Directly,Attsun1031,2020-10-18T05:34:01Z,2020-11-05T22:50:38+00:00,4,449.28,True,65,0,2,65,9,8,17,MERGED
+2186,Update HTTP -> HTTPS,him2him2,2020-10-16T21:49:46Z,2021-02-06T12:20:56+00:00,5,2702.52,False,61,61,27,85,4,1,5,CLOSED
+2170,🌐 Add Portuguese translation for `docs/pt/docs/tutorial/background-tasks.md`,izaguerreiro,2020-10-12T22:45:05Z,2022-05-09T23:44:32+00:00,3,13776.99,True,94,0,1,0,5,9,14,MERGED
+2169,Portuguese translation project-generation,izaguerreiro,2020-10-12T22:19:02Z,2023-01-23T14:56:25+00:00,1,19984.62,False,84,0,1,0,3,0,3,CLOSED
+2165,📝 Update/fix links in docs to use HTTPS,imba-tjd,2020-10-12T09:21:10Z,2020-11-05T22:39:10+00:00,1,589.3,True,91,91,28,462,5,0,5,MERGED
+2159,✏ Fix typos and add rewording in docs,nukopy,2020-10-10T22:50:55Z,2020-11-05T22:33:07+00:00,7,623.7,True,3,3,3,150,4,1,5,MERGED
+2157,🌐 Add French translation for Features,Jefidev,2020-10-10T19:29:24Z,2021-05-04T08:19:25+00:00,3,4932.83,True,202,0,2,139,8,7,15,MERGED
+2155,🌐 Add French translation for `docs/fr/docs/benchmarks.md`,clemsau,2020-10-10T17:45:10Z,2023-07-27T18:49:57+00:00,5,24481.08,True,34,0,1,217,11,10,21,MERGED
+2153,📝 Add Japanese translation for Tutorial - Security - First Steps,komtaki,2020-10-10T13:04:16Z,2020-11-05T22:24:05+00:00,5,633.33,True,184,0,2,183,9,22,31,MERGED
+2145,🌐 Add Japanese translation for Advanced User Guide - Additional Status Codes,Attsun1031,2020-10-07T15:53:54Z,2020-12-03T17:00:55+00:00,4,1369.12,True,39,1,2,140,9,6,15,MERGED
+2132,🌐 Add French translation for `docs/fr/docs/contributing.md`,JulianMaurin,2020-10-05T09:45:09Z,2023-07-27T18:51:07+00:00,7,24609.1,True,501,0,1,74,7,10,17,MERGED
+2126,📝 Add misc dependency installs to tutorial docs,TeoZosa,2020-10-03T21:02:43Z,2022-08-18T20:12:34+00:00,4,16415.16,True,39,0,4,773,7,0,7,MERGED
+2125,🌐 Add Japanese translation for Tutorial - CORS,tokusumi,2020-10-03T13:57:13Z,2020-10-18T06:02:20+00:00,7,352.09,True,85,0,2,52,7,9,16,MERGED
+2124,🌐 Add Japanese translation for Advanced - Path Operation Advanced Configuration,Attsun1031,2020-10-03T07:27:32Z,2021-01-09T18:40:28+00:00,4,2363.22,True,53,0,2,168,10,8,18,MERGED
+2122,✏ Fix minor typos in docs,TeoZosa,2020-10-03T02:05:06Z,2020-11-05T22:20:56+00:00,1,812.26,True,2,2,2,62,3,0,3,MERGED
+2119,🌐 Add Chinese translation for Benchmarks,spaceack,2020-10-02T07:33:45Z,2020-11-25T17:35:39+00:00,4,1306.03,True,35,0,2,111,4,5,9,MERGED
+2118,🐛 Check Content-Type request header before assuming JSON,patrickkwang,2020-10-02T03:21:00Z,2021-06-07T10:46:18+00:00,3,5959.42,True,92,12,3,269,21,2,23,MERGED
+2114,Add Stale bot configuration,bene64,2020-09-30T20:03:33Z,2020-11-05T22:20:00+00:00,1,866.27,False,18,0,1,737,3,0,3,CLOSED
+2102,✏ Fix typos in docs and source examples,AdrianDeAnda,2020-09-26T22:36:34Z,2020-11-05T22:14:18+00:00,1,959.63,True,2,2,2,130,7,2,9,MERGED
+2100,✏ Fix incorrect Celery URLs in docs,ninyawee,2020-09-26T13:01:39Z,2020-11-05T22:02:08+00:00,2,969.01,True,5,5,2,68,3,0,3,MERGED
+2085,"📝 Simplify intro to Python Types, all currently supported Python versions include type hints 🎉",ninjaaron,2020-09-23T09:05:21Z,2020-11-05T21:53:44+00:00,3,1044.81,True,2,2,1,483,7,0,7,MERGED
+2080,Translate index.md in Advanced User Guide  to Japanese.,gomano-shigure,2020-09-21T10:27:12Z,2022-07-14T11:42:50+00:00,1,15865.26,False,24,0,1,85,10,4,14,CLOSED
+2070,🌐 Add Japanese translation for External Links,tokusumi,2020-09-17T15:53:19Z,2021-01-09T18:38:21+00:00,2,2738.75,True,83,0,2,53,5,0,5,MERGED
+2067,🌐 Add Japanese translation for Contributing,komtaki,2020-09-17T10:09:30Z,2020-10-18T05:57:06+00:00,5,739.79,True,504,0,2,90,7,14,21,MERGED
+2061,🐛 Prefer custom encoder over defaults if specified in `jsonable_encoder`,viveksunder,2020-09-16T04:49:08Z,2022-01-23T16:34:19+00:00,2,11867.75,True,24,9,2,544,38,0,38,MERGED
+2058,🌐 Add Japanese translation for Concurrency and async / await,tokusumi,2020-09-15T18:00:53Z,2021-02-07T17:20:43+00:00,15,3479.33,True,394,0,2,199,11,65,76,MERGED
+2056,Feature/pagination,BruceWW,2020-09-15T08:03:03Z,2020-11-05T21:49:30+00:00,1,1237.77,False,436,2,5,296,13,0,13,CLOSED
+2050,🌐 Add Japanese translation for Project Generation,tokusumi,2020-09-14T16:48:53Z,2020-10-18T05:47:45+00:00,4,804.98,True,85,0,2,153,10,5,15,MERGED
+2043,🌐 Add Japanese translation for Alternatives,Attsun1031,2020-09-13T06:18:45Z,2020-10-18T05:38:10+00:00,8,839.32,True,416,0,2,82,10,34,44,MERGED
+2036,✨ Allow custom middlewares to raise `HTTPException`s and propagate them,ghandic,2020-09-11T08:23:54Z,2022-08-25T21:44:40+00:00,2,17125.35,True,97,0,2,251,12,0,12,MERGED
+2028,Add FastAPI() argument terms_of_service,patrickkwang,2020-09-09T14:49:49Z,2021-07-29T20:06:13+00:00,2,7757.27,False,53,0,3,73,4,1,5,CLOSED
+2020,✏ Fix typo in Spanish tutorial index,aviloncho,2020-09-06T18:30:57Z,2020-10-18T05:28:45+00:00,4,994.96,True,1,1,1,71,3,0,3,MERGED
+2016,🐛 Fix include/exclude for dicts in `jsonable_encoder`,Rubikoid,2020-09-05T17:40:28Z,2021-07-04T18:53:40+00:00,1,7249.22,True,176,2,2,16,4,0,4,MERGED
+2002,🌐 Add Japanese translation for History Design and Future,komtaki,2020-09-02T08:50:42Z,2020-10-18T05:26:15+00:00,4,1100.59,True,81,0,2,100,11,9,20,MERGED
+1995,✏ Fix typo in Benchmarks,AlejoAsd,2020-09-01T03:24:58Z,2020-11-05T21:31:39+00:00,2,1578.11,True,1,1,1,56,4,0,4,MERGED
+1993,✏ Reword sentence about handling errors,khuhroproeza,2020-08-31T17:14:41Z,2022-03-17T20:24:34+00:00,2,13515.16,True,1,3,1,120,3,1,4,MERGED
+1992,🌐 Add Japanese translation for Benchmarks,komtaki,2020-08-31T13:32:37Z,2020-10-17T18:43:43+00:00,4,1133.18,True,35,0,2,88,8,6,14,MERGED
+1991,handle list changed size during iteration in websockets broadcast,graingert,2020-08-31T12:39:35Z,2024-04-02T03:30:37+00:00,6,31430.85,False,23,6,1,51,10,4,14,CLOSED
+1980,Fix typo in nosql-databases.md,facundojmaero,2020-08-27T15:07:12Z,2020-08-29T12:30:24+00:00,2,45.39,True,1,1,1,41,3,0,3,MERGED
+1973,Add French translation for index.md,JulianMaurin,2020-08-26T07:24:30Z,2023-06-26T22:00:25+00:00,20,24830.6,False,148,152,1,182,14,13,27,CLOSED
+1963,Translate of benchmarks.md to Spanish,wfpinedar,2020-08-23T19:03:30Z,2024-02-07T12:54:00+00:00,7,30305.84,False,35,0,2,53,7,22,29,CLOSED
+1962,🌐 Add Japanese translation for `docs/ja/docs/tutorial/security/index.md`,SwftAlpc,2020-08-23T16:14:10Z,2024-01-23T14:13:00+00:00,1,29949.98,False,101,0,1,269,6,2,8,CLOSED
+1961,🌐 Add Japanese translation for `docs/ja/docs/tutorial/dependencies/dependencies-with-yield.md`,SwftAlpc,2020-08-23T15:42:13Z,2024-01-15T16:45:09+00:00,3,29761.05,True,225,0,1,384,6,5,11,MERGED
+1960,🌐 Add Japanese translation for `docs/ja/docs/tutorial/dependencies/dependencies-in-path-operation-decorators.md`,SwftAlpc,2020-08-23T14:48:07Z,2024-01-15T16:44:28+00:00,1,29761.94,True,62,0,1,420,5,0,5,MERGED
+1959,🌐 Add Japanese translation for `docs/ja/docs/tutorial/dependencies/sub-dependencies.md`,SwftAlpc,2020-08-23T14:28:56Z,2024-01-15T16:43:41+00:00,2,29762.25,True,86,0,1,370,6,2,8,MERGED
+1958,🌐 Add Japanese translation for `docs/ja/docs/tutorial/dependencies/index.md` and `docs/ja/docs/tutorial/dependencies/classes-as-dependencies.md`,SwftAlpc,2020-08-23T13:28:58Z,2024-01-15T16:08:16+00:00,2,29762.65,True,400,0,2,385,6,4,10,MERGED
+1957,🌐 Add Japanese translation for `docs/ja/docs/tutorial/dependencies/index.md`,SwftAlpc,2020-08-23T12:45:34Z,2024-01-15T16:22:27+00:00,3,29763.61,False,209,0,1,274,6,10,16,CLOSED
+1956,🌐 Add Japanese translation for Tutorial - Body - Updates,SwftAlpc,2020-08-23T10:35:46Z,2021-01-09T18:33:08+00:00,4,3343.96,True,100,0,2,262,5,2,7,MERGED
+1955,🌐 Add Japanese translation for `docs/ja/docs/tutorial/encoder.md`,SwftAlpc,2020-08-23T09:45:54Z,2024-01-22T20:09:03+00:00,4,29938.39,True,34,0,1,252,7,3,10,MERGED
+1954,🌐 Add Japanese translation for `docs/ja/docs/tutorial/path-operation-configuration.md`,SwftAlpc,2020-08-23T09:29:53Z,2024-04-02T04:38:26+00:00,4,31627.14,True,97,0,1,294,9,10,19,MERGED
+1953,🌐 Add Japanese translation for `docs/ja/docs/tutorial/handling-errors.md`,SwftAlpc,2020-08-23T08:37:35Z,2024-01-15T15:43:46+00:00,2,29767.1,True,265,0,1,268,7,4,11,MERGED
+1950,🌐 Add Turkish translation for `docs/features.md`,ycd,2020-08-22T13:48:43Z,2021-10-05T13:01:50+00:00,13,9815.22,True,210,0,2,403,4,23,27,MERGED
+1948,Add japanese translation for deployment.md,tokusumi,2020-08-22T03:25:44Z,2020-11-06T03:20:00+00:00,4,1823.9,False,398,0,2,181,9,13,22,CLOSED
+1946,🌐 Add Japanese translation for `docs/ja/docs/tutorial/request-forms-and-files.md`,SwftAlpc,2020-08-21T18:08:44Z,2024-04-02T04:31:22+00:00,4,31666.38,True,35,0,1,284,7,1,8,MERGED
+1945,🌐 Add Japanese translation for `docs/ja/docs/tutorial/request-files.md`,SwftAlpc,2020-08-21T17:49:50Z,2025-02-19T22:18:17+00:00,1,39436.47,False,144,0,1,264,9,3,12,CLOSED
+1943,🌐 Add Japanese translation for Tutorial - Form Data,SwftAlpc,2020-08-21T16:37:20Z,2021-01-09T18:28:16+00:00,2,3385.85,True,59,0,2,264,5,0,5,MERGED
+1942,🌐 Add Japanese translation for `docs/ja/docs/tutorial/response-status-code.md`,SwftAlpc,2020-08-21T16:07:16Z,2024-01-15T15:42:08+00:00,3,29807.58,True,89,0,1,278,7,13,20,MERGED
+1941,🌐 Add Japanese translation for `docs/ja/docs/tutorial/extra-models.md`,SwftAlpc,2020-08-21T14:49:44Z,2024-01-15T15:36:32+00:00,4,29808.78,True,195,0,1,261,9,9,18,MERGED
+1938,🌐 Add Japanese translation for `docs/ja/docs/tutorial/response-model.md`,SwftAlpc,2020-08-20T18:43:31Z,2024-01-15T16:01:55+00:00,4,29829.31,True,208,0,1,266,8,22,30,MERGED
+1935,🌐 Add Japanese translation for Tutorial - Header Parameters,SwftAlpc,2020-08-20T17:44:18Z,2020-10-17T13:55:40+00:00,3,1388.19,True,92,0,2,264,6,5,11,MERGED
+1933,🌐 Add Japanese translation for Tutorial - Cookie Parameters,SwftAlpc,2020-08-20T17:09:36Z,2021-01-09T18:19:27+00:00,3,3409.16,True,34,0,2,264,7,2,9,MERGED
+1932,🌐 Add Japanese translation for `docs/ja/docs/tutorial/extra-data-types.md`,SwftAlpc,2020-08-20T15:36:31Z,2024-01-22T20:01:50+00:00,7,30004.42,True,66,0,1,270,10,6,16,MERGED
+1931,🌐 Add Japanese tranlsation for `docs/ja/docs/tutorial/schema-extra-example.md`,SwftAlpc,2020-08-20T15:09:30Z,2024-01-15T15:35:26+00:00,2,29832.43,True,58,0,1,278,8,3,11,MERGED
+1930,🌐 Add Japanese translation for `docs/ja/docs/tutorial/body-nested-models.md`,SwftAlpc,2020-08-20T14:15:50Z,2024-01-15T15:34:58+00:00,3,29833.32,True,244,0,1,274,10,4,14,MERGED
+1923,🌐 Add Japanese translation for `docs/ja/docs/tutorial/body-fields.md`,SwftAlpc,2020-08-19T14:44:33Z,2024-01-15T15:33:28+00:00,2,29856.82,True,48,0,1,259,7,5,12,MERGED
+1922,✨ Add support for extensions and updates to the OpenAPI schema in path operations,edouardlp,2020-08-19T13:59:21Z,2021-07-29T20:01:14+00:00,7,8262.03,True,487,1,13,734,10,1,11,MERGED
+1917,✨ Add support for custom attributes on custom APIRoute,Kludex,2020-08-18T17:44:55Z,2021-05-11T09:21:25+00:00,2,6375.61,False,145,1,3,707,16,0,16,CLOSED
+1916,Simplified hl_lines,themightyNJ,2020-08-18T16:10:06Z,2020-11-24T07:14:00+00:00,1,2343.07,False,43,43,16,35,3,0,3,CLOSED
+1908,🌐 Add Turkish translation for `docs/index.md`,ycd,2020-08-17T11:36:08Z,2021-10-05T12:46:11+00:00,15,9937.17,True,160,152,1,344,6,35,41,MERGED
+1905,Create docs for Turkish Translations 🚀,ycd,2020-08-17T02:40:15Z,2020-08-29T09:43:30+00:00,1,295.05,True,534,0,9,60,6,0,6,MERGED
+1904,✅ Add  the `docs_src` directory to test coverage and update tests,Kludex,2020-08-16T19:45:27Z,2021-07-29T09:26:07+00:00,5,8317.68,True,60,18,10,986,9,2,11,MERGED
+1903,🌐 Add Japanese translation for `docs/ja/docs/tutorial/body-multiple-params.md`,SwftAlpc,2020-08-16T10:46:35Z,2024-01-15T15:48:41+00:00,3,29933.03,True,169,0,1,277,10,5,15,MERGED
+1902,🌐 Add Japanese translation for `docs/ja/docs/tutorial/path-params-numeric-validations.md`,SwftAlpc,2020-08-16T10:01:38Z,2024-01-15T15:46:32+00:00,2,29933.75,True,122,0,1,301,8,3,11,MERGED
+1901,🌐 Add Japanese translation for Tutorial - Query Parameters and String Validations,SwftAlpc,2020-08-16T08:51:26Z,2020-11-01T21:54:06+00:00,5,1861.04,True,303,0,2,294,12,25,37,MERGED
+1899,🌐 Add Japanese translation for `docs/ja/docs/python-types.md`,SwftAlpc,2020-08-15T19:59:13Z,2024-01-15T15:45:27+00:00,6,29947.77,True,315,0,1,185,10,10,20,MERGED
+1895,"📝 Add note in CORS tutorial about allow_origins with [""*""] and allow_credentials",dsmurrell,2020-08-14T23:12:31Z,2020-11-05T21:03:45+00:00,1,1989.85,True,1,1,1,425,3,0,3,MERGED
+1887,Bug/fix exception handlers,mortezaPRK,2020-08-12T19:02:09Z,2020-11-05T21:28:30+00:00,1,2042.44,False,70,4,2,12,3,0,3,CLOSED
+1880,➖ Do not require backports in Python >= 3.7,FFY00,2020-08-12T12:15:22Z,2021-10-05T08:58:00+00:00,1,10052.71,True,4,4,1,47,5,0,5,MERGED
+1875,Update starlette version and add comprehension in encoders.py,acutaia,2020-08-11T10:50:42Z,2021-10-03T18:48:55+00:00,3,10039.97,False,33,37,2,157,11,0,11,CLOSED
+1872,"✨ Import and re-export data structures from Starlette, used by Request properties, on `fastapi.datastructures`",jamescurtin,2020-08-10T14:16:13Z,2021-07-29T15:30:18+00:00,2,8473.23,True,5,0,1,12,9,3,12,MERGED
+1863,simplify hl_lines ranges and standardize 2 spaces between each range,la-mar,2020-08-09T20:23:03Z,2020-08-29T14:02:58+00:00,8,473.67,True,232,232,79,264,5,3,8,MERGED
+1861,🌐 Add Portuguese translation for Tutorial - First Steps,jessicapaz,2020-08-09T18:06:57Z,2020-10-17T10:41:45+00:00,5,1648.58,True,334,0,2,88,6,5,11,MERGED
+1855,"change ""methods"" assignment in APIRoute class",blkst8,2020-08-08T22:54:20Z,2021-05-06T15:13:26+00:00,2,6496.32,False,6,4,1,277,3,1,4,CLOSED
+1846,Add orjson response factory with ability to pass option and default,Enacero,2020-08-07T08:12:34Z,2022-09-01T09:40:13+00:00,2,18121.46,False,56,2,2,128,17,1,18,CLOSED
+1824,pencil2: Fix awkward pronoun usage,Mause,2020-08-02T11:11:29Z,2020-08-09T14:35:45+00:00,1,171.4,True,13,13,5,0,5,0,5,MERGED
+1822,Export WebSocketDisconnect and add example handling disconnections to docs,rkbeatss,2020-07-31T19:37:44Z,2020-08-09T13:52:19+00:00,3,210.24,True,133,1,4,104,5,1,6,MERGED
+1815,Fix empty message about raised exception,manlix,2020-07-30T15:06:36Z,2020-08-09T11:10:33+00:00,1,236.07,True,1,1,1,49,4,0,4,MERGED
+1812,"✨ Add additonal OpenAPI metadata parameters to `FastAPI` class, shown on the automatic API docs UI",dkreeft,2020-07-30T12:58:05Z,2021-07-29T15:10:22+00:00,4,8738.2,True,79,19,6,360,7,3,10,MERGED
+1807,Fix documentation typo in behind a proxy tutorial,ediskandarov-cur,2020-07-29T05:09:07Z,2020-08-03T16:25:02+00:00,2,131.27,True,1,1,1,0,3,0,3,MERGED
+1796,🌐 Add Portuguese translation for Python Types,izaguerreiro,2020-07-27T02:03:04Z,2020-10-17T06:40:32+00:00,7,1972.62,True,316,0,1,0,5,2,7,MERGED
+1795,Corrects typo in portuguese docs,izaguerreiro,2020-07-27T00:58:55Z,2020-08-03T16:12:30+00:00,1,183.23,True,1,1,1,0,3,0,3,MERGED
+1791,🌐 Add Ukrainian translation for `docs/uk/docs/features.md` and `docs/uk/docs/index.md`,shidenko97,2020-07-25T19:05:52Z,2024-01-10T18:42:05+00:00,14,30335.6,False,356,155,2,208,13,58,71,CLOSED
+1789,⬆️ Bump mkdocs-material,adriencaccia,2020-07-25T11:25:50Z,2020-08-03T06:33:44+00:00,2,211.13,True,1,1,1,306,3,0,3,MERGED
+1771,"add: pass swagger js, url and docs favicon",temirgaliyev,2020-07-22T16:32:57Z,2020-08-03T15:34:13+00:00,1,287.02,False,9,0,1,291,5,6,11,CLOSED
+1760,💄 Use OS preference theme,adriencaccia,2020-07-21T20:29:13Z,2020-07-22T06:30:13+00:00,1,10.02,True,6,0,6,288,2,0,2,MERGED
+1759,Updates starlette dependency to 0.13.6 due to vulnerability in 0.13.4,jamesag26,2020-07-21T19:46:51Z,2020-07-22T06:25:33+00:00,1,10.64,True,1,1,1,536,2,0,2,MERGED
+1757,"✨ Add `description` parameter to all the security scheme classes, e.g. `APIKeyQuery(name=""key"", description=""A very cool API key"")`",hylkepostma,2020-07-21T12:28:12Z,2021-07-29T10:30:48+00:00,5,8950.04,True,1062,16,15,874,4,3,7,MERGED
+1755,Remove FastAPIError class.,blkst8,2020-07-21T11:52:58Z,2020-07-22T20:00:30+00:00,3,32.13,False,5,12,3,0,6,1,7,CLOSED
+1753,Simplify code syntax in several places,uriyyo,2020-07-21T10:07:37Z,2020-08-03T13:16:51+00:00,19,315.15,True,9,11,5,256,3,6,9,MERGED
+1730,Remove mutable types from default arguments,SirTelemak,2020-07-17T21:02:02Z,2020-08-03T12:09:02+00:00,4,399.12,False,31,29,3,325,5,1,6,CLOSED
+1723,Compatible with pydantic exporting model's method,xl9211,2020-07-17T07:39:34Z,2020-08-03T15:17:03+00:00,2,415.62,False,1,5,1,49,2,2,4,CLOSED
+1717,Add external link to starlette documentation for further details,hellocoldworld,2020-07-15T14:44:30Z,2020-08-03T08:45:23+00:00,2,450.01,True,3,0,1,0,2,2,4,MERGED
+1692,🌐 Add Japanese translation for Help FastAPI,tokusumi,2020-07-08T16:31:42Z,2020-10-17T06:38:38+00:00,4,2414.12,True,121,0,2,185,9,6,15,MERGED
+1683,🌐 Add Japanese translation for Tutorial - Body,tokusumi,2020-07-07T14:25:59Z,2020-10-17T06:31:56+00:00,3,2440.1,True,166,0,2,187,7,4,11,MERGED
+1682,Translated help-fastapi.md doc page to Italian,csr,2020-07-07T09:30:08Z,2022-02-01T09:26:09+00:00,1,13775.93,False,123,0,2,23,1,0,1,CLOSED
+1675,'Dependencies' chapter fixes,nilslindemann,2020-07-05T14:32:17Z,2020-08-03T07:12:08+00:00,9,688.66,True,12,13,4,0,9,1,10,MERGED
+1674,🌐 Add Japanese translation for Tutorial - Query Params,tokusumi,2020-07-05T13:15:41Z,2020-10-17T06:23:52+00:00,3,2489.14,True,200,0,2,203,7,4,11,MERGED
+1671,🌐 Add Japanese translation for tutorial/path-params.md,tokusumi,2020-07-05T06:48:53Z,2020-10-17T06:15:05+00:00,3,2495.44,True,245,0,2,201,6,9,15,MERGED
+1670,"Update isort script to match changes in the new release, isort v5.0.2",asheux,2020-07-05T03:10:16Z,2020-07-09T18:06:13+00:00,7,110.93,True,111,109,97,446,4,3,7,MERGED
+1659,Fix app.extra annotation,bharel,2020-06-30T18:14:51Z,2020-08-03T06:43:05+00:00,1,804.47,True,1,1,1,136,7,0,7,MERGED
+1658,🌐 Add Japanese translation for tutorial/first-steps.md,tokusumi,2020-06-30T17:38:57Z,2020-10-17T06:09:01+00:00,6,2604.5,True,332,0,2,202,7,15,22,MERGED
+1656,🌐 Add Japanese translation for tutorial/index.md,tokusumi,2020-06-30T14:06:55Z,2020-10-17T06:02:57+00:00,7,2607.93,True,82,0,2,190,7,12,19,MERGED
+1651,Exclude all routes from schema under an APIRouter,HarrySky,2020-06-30T09:47:32Z,2020-11-30T05:06:15+00:00,5,3667.31,False,3,1,1,133,1,1,2,CLOSED
+1641,translated index.md to german,luebke-dev,2020-06-28T08:10:44Z,2022-08-30T14:16:48+00:00,2,19038.1,False,510,0,2,0,4,17,21,CLOSED
+1627,Raise form early,chrisnguyn,2020-06-25T20:16:56Z,2020-08-08T07:23:49+00:00,14,1043.11,False,56,0,2,993,2,8,10,CLOSED
+1626,Add support for adding OpenAPI schema for GET requests with a body,victorphoenix3,2020-06-25T17:35:52Z,2020-07-19T10:17:51+00:00,3,568.7,True,116,4,4,17,4,1,5,MERGED
+1625,🌐 Add Japanese translation for Features,tokusumi,2020-06-25T16:52:50Z,2020-10-16T20:08:19+00:00,3,2715.26,True,205,0,2,178,8,5,13,MERGED
+1619,Add documentation about asynchronous testing (pytest-asyncio and httpx),empicano,2020-06-24T15:07:32Z,2020-08-08T18:01:19+00:00,6,1082.9,True,134,0,9,207,3,1,4,MERGED
+1610,Update JWT docs with python-jose,asheux,2020-06-22T09:08:51Z,2020-07-10T18:24:38+00:00,1,441.26,True,32,25,5,84,2,0,2,MERGED
+1609,🌐 Add Chinese translation for Tutorial - Body - Nested Models,waynerv,2020-06-22T05:21:21Z,2020-11-25T17:34:50+00:00,3,3756.22,True,245,0,2,82,5,0,5,MERGED
+1603,Fix: bad link in docs,molto0504,2020-06-20T04:06:54Z,2020-06-28T21:34:28+00:00,1,209.46,True,1,1,1,44,2,0,2,MERGED
+1602,🌐 Add translation to Portuguese for Project Generation,Serrones,2020-06-20T02:52:50Z,2020-10-17T05:50:32+00:00,7,2858.96,True,84,0,1,0,1,15,16,MERGED
+1591,Add note in docs on order in Pydantic Unions,kbanc,2020-06-18T14:51:08Z,2020-07-10T09:16:47+00:00,4,522.43,True,3,0,1,120,2,1,3,MERGED
+1590,Add vim temporary files to gitignore,asheux,2020-06-18T11:35:38Z,2020-06-28T21:28:36+00:00,3,249.88,True,5,0,1,0,2,1,3,MERGED
+1580,Translated python-types.md to Italian,csr,2020-06-15T14:45:53Z,2022-02-01T09:25:53+00:00,5,14298.67,False,315,0,2,72,3,8,11,CLOSED
+1578,Correct sentence,schlpbch,2020-06-15T11:24:27Z,2020-06-28T21:26:35+00:00,1,322.04,True,1,1,1,20,2,0,2,MERGED
+1576,Added Italian translation to docs file index.md,csr,2020-06-15T10:34:42Z,2022-02-01T09:23:42+00:00,4,14302.82,False,458,148,3,97,3,29,32,CLOSED
+1574,Update docs with None parameters to use Optional,chrisnguyn,2020-06-14T23:08:39Z,2020-06-28T18:19:01+00:00,3,331.17,False,420,260,106,19,4,3,7,CLOSED
+1571,Add Japanese translation for index.md,ryuckel,2020-06-14T06:56:42Z,2020-08-29T13:34:08+00:00,9,1830.62,True,513,0,6,66,7,32,39,MERGED
+1569,Add Chinese translation for body-fields.md,waynerv,2020-06-14T00:51:58Z,2020-06-27T18:29:42+00:00,3,329.63,True,50,1,2,82,4,0,4,MERGED
+1565,Remove broken external link,victorphoenix3,2020-06-13T04:31:25Z,2020-06-13T21:07:12+00:00,1,16.6,True,0,2,1,25,2,0,2,MERGED
+1564,Update Chinese translation for index.md,waynerv,2020-06-13T03:21:26Z,2020-06-27T18:24:10+00:00,2,351.05,True,47,42,1,94,2,0,2,MERGED
+1560,Implement changes for __repr__ tests,rkbeatss,2020-06-12T19:49:35Z,2020-06-12T23:22:31+00:00,1,3.55,True,57,0,2,81,1,1,2,MERGED
+1542,Include representational description to classes in params.py,rkbeatss,2020-06-09T19:57:17Z,2020-06-11T14:15:11+00:00,5,42.3,False,59,0,2,63,4,3,7,CLOSED
+1541,Implement __repr__ for some classes of fastapi.params,victorphoenix3,2020-06-09T19:41:41Z,2020-06-13T20:59:11+00:00,3,97.29,False,59,0,2,68,8,7,15,CLOSED
+1537,Add __all__ definitions to main fastapi module,gjedlicska,2020-06-08T18:47:58Z,2020-08-18T08:01:13+00:00,3,1693.22,False,67,0,4,210,13,1,14,CLOSED
+1532,Add Chinese translation for body-multiple-params.md,waynerv,2020-06-08T04:54:27Z,2020-06-27T18:18:10+00:00,3,469.4,True,171,0,2,75,2,3,5,MERGED
+1526,remove unused f-string,kotamatsuoka,2020-06-07T03:02:59Z,2020-06-12T22:56:01+00:00,1,139.88,True,2,2,2,0,2,0,2,MERGED
+1521,Updated docs for path-params,yankeexe,2020-06-05T15:30:59Z,2020-06-13T17:14:23+00:00,3,193.72,True,17,6,2,134,2,1,3,MERGED
+1519,Add an fully documented api as example,mircohacker,2020-06-05T15:07:00Z,2025-02-15T11:43:57+00:00,4,41180.62,False,103,0,3,154,16,4,20,CLOSED
+1512,response-status-code.md: Add link to Advanced User Guide,kx-chen,2020-06-04T06:36:42Z,2020-06-12T23:13:00+00:00,1,208.6,True,1,1,1,89,2,0,2,MERGED
+1510,Remove duplicate chinese articles,waynerv,2020-06-04T00:30:23Z,2020-06-13T07:45:49+00:00,1,223.26,True,0,6,1,262,3,0,3,MERGED
+1506,Add Chinese translation for path-params-numeric-validations.md,waynerv,2020-06-03T07:02:55Z,2020-06-27T18:10:33+00:00,3,587.13,True,123,0,2,75,2,1,3,MERGED
+1500,Add Chinese translation for query-params-str-validations.md,waynerv,2020-06-02T03:05:57Z,2020-06-12T22:53:01+00:00,2,259.78,True,282,0,2,51,2,0,2,MERGED
+1492,Add Chinese translation for body.md,waynerv,2020-05-28T07:15:06Z,2020-06-12T22:47:51+00:00,2,375.55,True,148,0,2,51,2,0,2,MERGED
+1465,Add Chinese translation for help-fastapi.md,waynerv,2020-05-24T02:36:04Z,2020-06-12T22:40:06+00:00,2,476.07,True,112,0,2,51,2,0,2,MERGED
+1460,Add Chinese translation for contributing.md,waynerv,2020-05-23T11:29:57Z,2020-06-12T22:18:58+00:00,2,490.82,True,511,0,2,44,3,0,3,MERGED
+1459,🌐 Add Chinese translation for Advanced - Custom Response,RunningIkkyu,2020-05-23T09:52:08Z,2020-11-25T17:27:35+00:00,3,4471.59,True,213,0,2,88,3,5,8,MERGED
+1454,Add Chinese translation for query-params.md,waynerv,2020-05-22T09:31:48Z,2020-06-12T22:26:41+00:00,2,516.91,True,227,0,2,45,2,0,2,MERGED
+1453,Add Chinese translation for path-params.md,waynerv,2020-05-22T09:30:38Z,2020-06-12T22:14:59+00:00,2,516.74,True,235,0,2,45,2,0,2,MERGED
+1452,🌐 Add Chinese translation for Advanced - Return a Response Directly,RunningIkkyu,2020-05-22T09:16:53Z,2020-11-25T17:22:34+00:00,3,4496.09,True,66,0,2,47,3,4,7,MERGED
+1451,🌐 Add Chinese translation for Advanced - Additional Status Codes,RunningIkkyu,2020-05-22T03:08:49Z,2020-11-25T17:16:21+00:00,2,4502.13,True,38,0,2,53,3,0,3,MERGED
+1447,🌐 Add Chinese translation for Advanced - Path Operation Advanced Configuration,RunningIkkyu,2020-05-21T06:49:00Z,2020-11-25T17:12:00+00:00,3,4522.38,True,54,0,2,119,4,4,8,MERGED
+1445,🌐 Add Chinese translation for Advanced User Guide - Intro,RunningIkkyu,2020-05-21T03:29:01Z,2020-11-25T17:07:18+00:00,2,4525.64,True,20,0,2,45,4,0,4,MERGED
+1443,🌐 Add Portuguese translation for External Links,Serrones,2020-05-20T23:28:37Z,2020-10-18T07:04:47+00:00,11,3607.6,True,83,0,2,0,3,3,6,MERGED
+1436,✨ Add support for function return type annotations to declare the `response_model`,uriyyo,2020-05-20T10:12:06Z,2023-01-07T13:45:48+00:00,2,23091.56,True,1368,58,18,842,19,1,20,MERGED
+1393,Portuguese translation for help-fastapi.md,pingu1m,2020-05-08T19:13:33Z,2023-06-26T22:54:05+00:00,7,27459.68,False,106,0,1,0,5,36,41,CLOSED
+1374,🌐 Add Portuguese translation of Deployment,Serrones,2020-05-04T14:35:58Z,2020-10-11T10:46:21+00:00,5,3836.17,True,394,0,1,0,2,4,6,MERGED
+1368,Translate for improving spanish version,NicoBellanich,2020-05-03T18:27:31Z,2022-07-07T13:53:59+00:00,2,19075.44,False,3,3,1,116,1,1,2,CLOSED
+1364,🌐 Add Portuguese translation for Development Contributing,Serrones,2020-05-02T16:13:21Z,2021-07-02T13:42:29+00:00,2,10221.49,True,511,0,1,0,2,0,2,MERGED
+1363,Created Russian translation,unknown,2020-05-02T12:08:09Z,2021-07-03T15:09:37+00:00,7,10251.02,False,517,0,6,229,2,43,45,CLOSED
+1353,Translate contributing.md into Spanish,blaisep,2020-04-29T20:19:41Z,2024-02-07T12:51:26+00:00,8,33088.53,False,521,2,3,223,4,38,42,CLOSED
+1346,traduccion de alternatives.md,jorgerpo,2020-04-28T22:11:24Z,2023-06-26T16:41:44+00:00,1,27690.51,False,1759,0,5,29,5,5,10,CLOSED
+1330,🌐 Portuguese translation of `docs/async.md`,Serrones,2020-04-27T16:45:28Z,2021-08-18T13:24:21+00:00,3,11468.65,True,394,0,1,0,6,1,7,MERGED
+1325,Portuguese translation for alternatives.md,Serrones,2020-04-25T13:52:05Z,2020-05-17T11:32:45+00:00,2,525.68,True,414,0,2,0,3,20,23,MERGED
+1324,fix 2 typos in docs,waynerv,2020-04-25T00:33:06Z,2020-05-17T10:56:58+00:00,2,538.4,True,2,2,2,49,2,0,2,MERGED
+1323,Translate doc first steps to Chinese,waynerv,2020-04-24T15:01:30Z,2020-06-12T20:39:27+00:00,4,1181.63,True,336,0,2,44,2,2,4,MERGED
+1300,Portuguese Translation for index.md,Serrones,2020-04-22T00:35:09Z,2020-05-17T10:46:23+00:00,3,610.19,True,161,166,1,0,3,2,5,MERGED
+1299,Fixed Typo in [EN] tutorial: body-fields,chris-allnutt,2020-04-22T00:35:00Z,2020-05-17T10:37:16+00:00,4,610.04,True,1,1,1,68,2,1,3,MERGED
+1297,added option to also check for unknown query parameters,mortbauer,2020-04-21T17:57:04Z,2025-08-13T22:20:22+00:00,7,46564.39,False,112,2,5,407,27,4,31,CLOSED
+1290,Spanish translation for section async,alvaropernas,2020-04-19T18:18:05Z,2020-05-16T18:53:41+00:00,3,648.59,True,459,62,3,62,4,77,81,MERGED
+1286,fix open api prefix is invalid :bug:,Dustyposa,2020-04-18T14:02:51Z,2020-06-12T20:18:37+00:00,2,1326.26,False,26,2,3,137,2,1,3,CLOSED
+1274,Portuguese translation benchmarks,Serrones,2020-04-16T00:35:14Z,2020-05-16T13:37:58+00:00,4,733.05,True,35,0,2,47,4,9,13,MERGED
+1267,"✨ Add support for adding multiple examples in request bodies and path, query, cookie, and header params",austinorr,2020-04-15T00:51:04Z,2021-05-05T18:20:56+00:00,3,9257.5,True,1220,24,9,633,22,1,23,MERGED
+1260,add a switch to disable all output docs in fastapi,Zheaoli,2020-04-14T07:35:01Z,2020-05-16T15:48:36+00:00,2,776.23,False,99,37,2,195,16,1,17,CLOSED
+1259,Portuguese translation for the tutorial/index page,marcosmmb,2020-04-14T02:57:10Z,2020-05-16T13:28:26+00:00,2,778.52,True,82,0,2,81,3,0,3,MERGED
+1253,🌐 Add Spanish translation for `advanced/response-directly.md`,jfunez,2020-04-13T03:21:04Z,2021-07-04T17:06:18+00:00,2,10741.75,True,63,0,1,0,3,10,13,MERGED
+1252,🌐 Add Spanish translation for `advanced/additional-status-codes.md`,jfunez,2020-04-13T03:18:04Z,2021-07-04T14:14:29+00:00,3,10738.94,True,37,0,1,0,3,7,10,MERGED
+1251,🌐 Add Spanish translation for `advanced/path-operation-advanced-configuration.md`,jfunez,2020-04-13T03:14:49Z,2021-07-04T12:49:31+00:00,2,10737.58,True,52,0,1,0,4,11,15,MERGED
+1250,spanish translation for advanced/index.md,jfunez,2020-04-13T03:09:05Z,2020-05-16T12:58:00+00:00,3,801.82,True,20,0,2,0,3,6,9,MERGED
+1249,Portuguese translation for the history-design-future page,marcosmmb,2020-04-12T22:50:24Z,2020-05-16T12:46:49+00:00,4,805.94,True,80,0,2,89,2,2,4,MERGED
+1248,Portuguese translation for the features page,marcosmmb,2020-04-12T21:44:11Z,2020-05-16T12:37:17+00:00,22,806.88,True,203,0,2,76,2,13,15,MERGED
+1244,Spanish translation for the tutorial-user-guide index page,MartinEliasQ,2020-04-12T03:55:27Z,2020-05-16T11:02:21+00:00,5,823.12,True,84,2,3,73,6,3,9,MERGED
+1231,OpenAPI schemas & response_model_by_alias,rupertcw,2020-04-09T19:20:44Z,2021-05-10T09:18:49+00:00,1,9493.97,False,15,4,2,176,4,0,4,CLOSED
+1223,📝 Use in memory database for testing SQL in docs,HarshaLaxman,2020-04-07T18:07:09Z,2023-06-22T11:20:12+00:00,5,28097.22,True,6,3,2,49,9,1,10,MERGED
+1220,Spanish translation for the Features page,mariacamilagl,2020-04-07T17:37:52Z,2020-04-11T16:46:47+00:00,1,95.15,True,203,0,2,58,1,0,1,MERGED
+1203,Add Chinese translations for docs: `deployment.md`,RunningIkkyu,2020-04-01T16:11:35Z,2020-05-16T10:45:05+00:00,10,1074.56,True,391,0,2,51,2,23,25,MERGED
+1202,Add Chinese translation for tutorial intro doc,waynerv,2020-04-01T13:46:05Z,2020-05-16T10:32:32+00:00,3,1076.77,True,82,0,2,0,2,1,3,MERGED
+1201,Translate to Spanish the index page,mariacamilagl,2020-03-31T20:26:41Z,2020-04-02T05:00:51+00:00,1,32.57,True,144,145,1,78,1,20,21,MERGED
+1197,Add Chinese tranlation for docs/python-types.md,waynerv,2020-03-31T14:00:53Z,2020-05-24T05:43:26+00:00,3,1287.71,True,287,0,2,0,3,1,4,MERGED
+1192,translation features.md to Chinese,Dustyposa,2020-03-31T05:10:19Z,2020-05-16T10:18:05+00:00,6,1109.13,True,207,0,2,144,3,38,41,MERGED
+1191,Add Chinese translation for index docs,waynerv,2020-03-31T02:19:31Z,2020-05-16T09:58:11+00:00,6,1111.64,True,162,165,1,104,9,13,22,MERGED
+1074,Fix exclude_unset and aliases in response model validation.,unknown,2020-03-03T04:19:57Z,2020-03-27T15:19:18+00:00,3,586.99,True,179,7,2,328,2,1,3,MERGED
+1068,Fix GZipMiddleware example,dbanty,2020-03-02T02:10:15Z,2020-03-21T00:38:46+00:00,1,454.48,False,1,1,1,11,4,0,4,CLOSED
+1060,Chinese translation,linupychiang,2020-03-01T04:54:20Z,2020-03-03T11:54:11+00:00,3,55.0,False,177,220,1,20,2,6,8,CLOSED
+1017,Admit containers of pydantic models as responses models,patrickmckenna,2020-02-22T00:41:16Z,2020-02-29T13:04:36+00:00,3,180.39,True,299,139,6,979,2,2,4,MERGED
+987,Move all mypy configuration to configuration file,hukkin,2020-02-16T22:18:43Z,2020-02-27T20:03:04+00:00,1,261.74,True,2,1,2,177,4,0,4,MERGED
+941,Fix typo,NikitaKolesov,2020-02-02T18:05:11Z,2020-02-16T19:51:19+00:00,1,337.77,True,4,4,2,0,2,0,2,MERGED
+918,Fix body parsing,dmontagu,2020-01-25T06:59:01Z,2020-02-04T04:01:59+00:00,1,237.05,True,40,13,2,432,2,1,3,MERGED
+916,Fix typo,adursun,2020-01-24T17:07:26Z,2020-02-04T03:57:19+00:00,1,250.83,True,1,1,1,0,3,0,3,MERGED
+908,"Allow `Json` type for `Query`, `Path` and `Header`.",luckydonald,2020-01-22T18:46:22Z,2020-02-04T03:52:31+00:00,3,297.1,False,13,1,1,21,2,2,4,CLOSED
+899,    this change fixes an issue we encountered with pydantic validator…,deuce2367,2020-01-21T13:21:11Z,2020-02-04T03:03:52+00:00,7,325.71,True,72,13,2,220,2,3,5,MERGED
+865,Check both username and password,isaevpd,2020-01-15T10:24:54Z,2020-01-17T11:49:55+00:00,1,49.42,True,1,1,1,137,2,0,2,MERGED
+856,Fix validating of list annotation in forms parsing,nsidnev,2020-01-14T03:48:12Z,2020-01-17T11:45:56+00:00,1,79.96,True,49,3,2,11,2,0,2,MERGED
+807,Use constant time comparison in HTTP Basic Auth example,zwass,2019-12-19T21:40:59Z,2020-01-12T19:38:40+00:00,3,573.96,True,73,3,2,99,5,2,7,MERGED
+797,Implement OAuth2 authorization_code integration,kuwv,2019-12-18T03:29:15Z,2020-01-08T21:47:20+00:00,4,522.3,True,115,0,3,533,35,2,37,MERGED
+761,Update gendered language to remove male bias,BriiMawler,2019-12-01T19:28:39Z,2019-12-09T18:03:19+00:00,2,190.58,False,3,3,1,78,2,1,3,CLOSED
+756,use isinstance() instead of type() to do typechecking in encoders.py,RmStorm,2019-11-30T09:57:26Z,2020-01-08T20:50:21+00:00,8,946.88,True,108,13,2,200,22,4,26,MERGED
+722,Adding support for documenting OpenAPI callbacks through APIRoutes,booooh,2019-11-20T12:44:17Z,2019-12-11T16:58:01+00:00,2,508.23,True,503,38,16,821,9,6,15,MERGED
+646,Make compatible with pydantic v1,dmontagu,2019-10-23T20:25:56Z,2019-11-27T19:32:02+00:00,14,839.1,True,802,425,66,75,18,11,29,MERGED
+637,Fixing validator-caused incorrect output key order,jaddison,2019-10-21T23:06:37Z,2019-11-24T13:23:34+00:00,4,806.28,True,2,3,1,249,5,1,6,MERGED
+606,Prevent adding HTTP 422 to the responses when all params are optional,nstapelbroek,2019-10-08T18:45:58Z,2019-10-27T22:48:58+00:00,1,460.05,False,2,1,1,892,4,0,4,CLOSED
+605,Replace `pip` with `python3 -m pip`,nstapelbroek,2019-10-08T17:44:22Z,2019-11-23T22:04:24+00:00,1,1108.33,False,21,21,13,164,5,1,6,CLOSED
+595,Dependencies with yield (used as context managers),tiangolo,2019-10-06T01:37:48Z,2019-10-09T18:01:59+00:00,6,88.4,True,1238,88,19,2016,4,14,18,MERGED
+589,Add better support for request body access/manipulation,dmontagu,2019-10-04T04:46:49Z,2019-10-05T00:23:35+00:00,3,19.61,True,304,14,10,1968,2,1,3,MERGED
+570,Add support for contextmanager-style dependencies,dmontagu,2019-09-26T02:58:08Z,2019-10-07T06:40:59+00:00,2,267.71,False,240,1,6,672,8,1,9,CLOSED
+568,Refactor APIRoute for easier overrides,dmontagu,2019-09-25T12:38:25Z,2019-10-04T00:27:34+00:00,1,203.82,False,111,60,1,372,4,1,5,CLOSED
+556,Allow api docs to be truncated and used for other purposes,svalouch,2019-09-22T18:04:47Z,2019-10-04T20:02:40+00:00,2,289.96,True,157,0,4,270,7,2,9,MERGED
+537,fix: wrong doctype in docs html,trim21,2019-09-16T16:26:42Z,2019-10-04T00:35:44+00:00,1,416.15,True,2,2,1,51,2,0,2,MERGED
+493,Use proper import for Request -- fixes #492,kamalgill,2019-08-31T18:33:37Z,2019-09-01T12:51:43+00:00,1,18.3,True,1,1,1,10,2,0,2,MERGED
+467,make it possible to change the default reponse_class,toppk,2019-08-26T15:35:39Z,2019-09-29T21:47:35+00:00,3,822.2,True,469,39,7,260,7,1,8,MERGED
+464,Only use default parameter values for path parameters (#450),jonathanunderwood,2019-08-25T13:06:54Z,2019-09-29T22:03:16+00:00,2,848.94,True,143,4,2,326,14,34,48,MERGED
+451,Add support for strings and __future__ annotations,dmontagu,2019-08-21T11:10:57Z,2019-09-29T21:19:10+00:00,10,946.14,True,42,11,4,147,6,11,17,MERGED
+435,"Additional responses can be status groups or ""default""",divums,2019-08-13T07:07:42Z,2019-08-30T16:17:43+00:00,9,417.17,True,70,5,3,170,4,3,7,MERGED
+423,Update pydantic to 0.32.1,dmontagu,2019-08-06T19:11:26Z,2019-08-23T07:02:00+00:00,7,395.84,False,69,59,8,374,10,6,16,CLOSED
+422,Fix unskipped defaults,dmontagu,2019-08-06T08:29:45Z,2019-08-26T13:24:58+00:00,1,484.92,True,31,0,2,1700,2,1,3,MERGED
+417,Use caching logic to determine openapi spec,dmontagu,2019-08-01T18:57:31Z,2019-08-25T02:55:25+00:00,1,559.97,True,120,4,3,113,6,2,8,MERGED
+377,Tiny serialization method optimization,podhmo,2019-07-08T14:08:58Z,2019-10-20T08:39:45+00:00,6,2490.51,False,73,20,2,3270,8,5,13,CLOSED
+333,Fix schema generation for nested/repeated models,dmontagu,2019-06-25T08:27:21Z,2019-07-13T00:16:24+00:00,3,423.82,False,25,3,2,40,4,3,7,CLOSED
+313,default the description of additional response to status reason phrase,duxiaoyao,2019-06-14T03:35:09Z,2019-06-18T07:46:58+00:00,3,100.2,True,6,2,2,0,2,1,3,MERGED
+262,Update signature of Depends,meadsteve,2019-05-27T08:26:54Z,2019-07-29T11:23:17+00:00,2,1514.94,False,8,3,1,66,3,1,4,CLOSED
+241,"handle swagger, redoc and openapi with coroutine function",trim21,2019-05-20T09:39:22Z,2019-05-20T14:34:33+00:00,3,4.92,True,21,22,1,10,3,2,5,MERGED
+222,Use a logger instead of the root logging,euri10,2019-05-14T08:21:42Z,2019-05-15T10:43:31+00:00,3,26.36,True,3,1,1,108,2,1,3,MERGED
+160,Pydantic 0.23,euri10,2019-04-15T12:37:58Z,2019-04-16T18:42:01+00:00,3,30.07,True,37,21,3,58,3,1,4,MERGED
+118,Display pydantic types,euri10,2019-03-28T10:00:29Z,2019-08-04T13:32:10+00:00,1,3099.53,False,135,0,1,632,4,4,8,CLOSED
+112,Static swagger,euri10,2019-03-26T14:41:21Z,2019-05-20T07:26:55+00:00,2,1312.76,True,97,44,2,493,11,3,14,MERGED
+100,Add websocket to APIRouter,euri10,2019-03-24T10:13:56Z,2019-03-24T19:18:20+00:00,6,9.07,True,57,0,2,11,2,2,4,MERGED
+92,ci: Travis: dist=xenial,blueyed,2019-03-21T17:16:44Z,2019-03-30T17:30:32+00:00,3,216.23,True,3,1,1,0,2,1,3,MERGED
+20,Add test case to use starlette DatabaseMiddleware,euri10,2019-02-01T21:49:54Z,2019-03-20T18:02:18+00:00,3,1124.21,False,374,13,5,716,5,1,6,CLOSED

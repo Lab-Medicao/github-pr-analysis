@@ -1,11 +1,13 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+17139,fix uv on linux,silvertuanzi,2025-10-06T19:30:24Z,2025-10-07T20:06:10+00:00,2,24.6,True,2,1,1,221,0,0,0,MERGED
+17138,Checkpoint from VS Code for coding agent session,BossX429,2025-10-06T05:06:22Z,2025-10-07T20:07:05+00:00,3,39.01,False,2,1,1,304,1,0,1,CLOSED
 17129,CUDA Compute Capability change for RTX 5000 series,namemechan,2025-09-17T11:39:17Z,2025-09-17T16:31:20+00:00,1,4.87,True,1,1,1,356,1,0,1,MERGED
 17085,Update webui-user.bat,0963628050,2025-08-06T04:51:48Z,2025-08-07T03:37:08+00:00,1,22.76,False,2,1,1,348,0,1,1,CLOSED
 16972,PyTorch 2.7.0 xFormers 0.0.30,w-e-w,2025-04-29T12:03:09Z,2025-05-01T16:57:46+00:00,1,52.91,True,4,3,1,555,6,0,6,MERGED
 16928,Add random number generator source to filename,richardsonnick,2025-04-01T03:35:50Z,2025-05-02T17:02:05+00:00,1,757.44,True,1,0,1,476,1,0,1,MERGED
 16926,Fix Beta sampling to match the paper,heftig,2025-03-28T22:06:14Z,2025-05-03T06:17:03+00:00,2,848.18,True,9,6,2,93,0,1,1,MERGED
 16872,"small fix,",gutris1,2025-03-01T10:46:16Z,2025-03-04T16:10:18+00:00,2,77.4,True,1,1,1,273,0,1,1,MERGED
-16869,Support uv Package Manager,Haoming02,2025-02-28T11:30:28Z,2025-02-28T15:24:10+00:00,3,3.9,True,55,0,3,637,2,1,3,MERGED
+16869,Support uv Package Manager,Haoming02,2025-02-28T11:30:28Z,2025-02-28T15:24:10+00:00,3,3.9,True,55,0,3,637,3,1,4,MERGED
 16853,Detect CMP cards,w-e-w,2025-02-18T12:16:47Z,2025-02-18T13:59:45+00:00,1,1.72,True,1,1,1,233,0,0,0,MERGED
 16852,python 3.9 annotation compatibility,w-e-w,2025-02-18T11:12:15Z,2025-03-04T16:11:26+00:00,1,340.99,True,1,0,1,1131,0,0,0,MERGED
 16832,Update webui-macos-env.sh,shinriyo,2025-02-08T07:12:57Z,2025-07-01T17:07:49+00:00,3,3441.91,False,2,2,1,1372,5,1,6,CLOSED
@@ -999,3 +1001,502 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 7412,Fix missing tooltip for 'Clear prompt' button,Pomierski,2023-01-31T01:10:12Z,2023-02-01T13:22:36+00:00,1,36.21,True,1,1,1,525,0,0,0,MERGED
 7371,[Prompt Matrix] Support for negative prompt + delimiter selector,hoblin,2023-01-29T15:05:29Z,2023-02-01T13:28:28+00:00,1,70.38,True,38,11,1,578,0,0,0,MERGED
 7357,Fixes switch height/width btn unbound error,EllangoK,2023-01-29T08:40:10Z,2023-02-01T13:29:59+00:00,1,76.83,True,2,2,1,270,0,0,0,MERGED
+7344,Reduce grid rows if larger than number of images available,glop102,2023-01-29T00:36:15Z,2023-01-29T06:29:23+00:00,1,5.89,True,2,0,1,665,0,0,0,MERGED
+7334,X/Y/Z plot now saves sub grids if opts.grid_save and honors draw_legend,EllangoK,2023-01-28T20:42:44Z,2023-02-01T13:30:28+00:00,1,88.8,True,13,8,1,366,0,0,0,MERGED
+7309,"Fix embeddings, upscalers, and refactor `--upcast-sampling`",brkirch,2023-01-28T09:49:26Z,2023-01-28T15:44:36+00:00,1,5.92,True,26,14,6,1299,1,0,1,MERGED
+7300,Gradio Auth - Read from External File,Ju1-js,2023-01-28T06:47:17Z,2023-02-19T10:02:06+00:00,1,531.25,True,2,1,2,434,3,0,3,MERGED
+7295,Basic inpainting batch support,askaliuk,2023-01-28T01:53:48Z,2023-01-28T05:27:37+00:00,1,3.56,True,25,4,2,1549,7,0,7,MERGED
+7294,"add v2-inpainting model detection, and broaden v-model detection to include anything with 768 in the name",MrCheeze,2023-01-28T01:13:14Z,2023-01-28T05:29:01+00:00,1,4.26,True,4,1,1,309,0,0,0,MERGED
+7285,Allows for multiple Styles axii in X/Y/Z Plot,EllangoK,2023-01-27T19:05:57Z,2023-01-28T05:31:24+00:00,1,10.42,True,5,4,3,427,0,0,0,MERGED
+7284,Add button to switch width and height,Gazzoo-byte,2023-01-27T18:40:07Z,2023-01-28T05:33:43+00:00,1,10.89,True,11,0,1,495,1,0,1,MERGED
+7258,Css fixes,ItsOlegDm,2023-01-26T21:29:14Z,2023-01-28T15:41:58+00:00,1,42.21,True,34,6,1,28,4,0,4,MERGED
+7240,Allow users to convert models to Instruct-pix2pix models by supporting merging Instruct-pix2pix models with regular ones in the merge tab,Unstackd,2023-01-26T10:25:48Z,2023-01-28T07:52:29+00:00,11,45.44,True,12,5,1,1195,2,3,5,MERGED
+7234,Fix full previews and--no-half-vae to work correctly with --upcast-sampling,brkirch,2023-01-26T07:01:02Z,2023-01-26T11:48:44+00:00,1,4.79,True,5,5,2,686,2,0,2,MERGED
+7231,Fixes X/Y/Z Plot parameters not being restored from images,EllangoK,2023-01-26T05:52:42Z,2023-01-28T15:45:38+00:00,1,57.88,True,27,3,3,3404,2,0,2,MERGED
+7217,Ask user to clarify conditions,mezotaken,2023-01-25T23:32:41Z,2023-01-28T07:52:53+00:00,1,56.34,True,23,6,1,236,0,0,0,MERGED
+7201,Update default Mac command line arguments to use --upcast-sampling instead of --no-half,brkirch,2023-01-25T18:51:15Z,2023-01-25T19:57:17+00:00,1,1.1,True,1,1,1,564,0,0,0,MERGED
+7200,Add a Python version check,nulqwy,2023-01-25T18:01:17Z,2023-01-28T07:13:56+00:00,1,61.21,True,34,0,2,564,4,0,4,MERGED
+7199,Add flag to store user data sepperate from source code,maxaudron,2023-01-25T17:44:06Z,2023-01-28T06:24:40+00:00,1,60.68,True,46,39,17,1762,3,0,3,MERGED
+7197,allow symlinks in the textual inversion embeddings folder,mcmonkey4eva,2023-01-25T16:50:31Z,2023-01-25T19:59:12+00:00,1,3.14,True,1,1,1,359,0,0,0,MERGED
+7195,Add instruct-pix2pix hijack,Klace,2023-01-25T13:55:30Z,2023-01-25T15:33:15+00:00,1,1.63,True,1485,3,5,254,5,0,5,MERGED
+7151,Fix Approx NN previews changing first generation result,brkirch,2023-01-24T04:10:49Z,2023-01-25T15:48:26+00:00,1,35.63,True,5,1,1,748,0,0,0,MERGED
+7148,Set Linux xformers 0.0.16RC425,acncagua,2023-01-24T03:39:31Z,2023-01-24T06:38:10+00:00,1,2.98,True,1,1,1,319,0,0,0,MERGED
+7146,Adds X/Y/Z Plot Script (Supersedes X/Y Plot Script),EllangoK,2023-01-24T03:05:27Z,2023-01-25T08:56:26+00:00,1,29.85,True,134,45,2,577,8,0,8,MERGED
+7144,Make SwinIR upscaler interruptible and skippable,catboxanon,2023-01-24T02:55:51Z,2023-01-24T06:51:53+00:00,1,3.93,True,7,1,1,325,1,0,1,MERGED
+7140,Add exception handling to API image decode,vladmandic,2023-01-23T22:13:17Z,2023-01-24T06:54:21+00:00,1,8.68,True,5,1,1,1527,1,0,1,MERGED
+7138,Fix extra network thumbs label color,mykeehu,2023-01-23T21:38:22Z,2023-01-25T15:59:11+00:00,1,42.35,True,1,0,1,45,0,0,0,MERGED
+7114,Add deterministic training,Shondoit,2023-01-23T14:58:41Z,2024-01-01T14:31:39+00:00,1,8231.55,False,54,0,4,1293,4,0,4,CLOSED
+7113,Add selector to interrogate categories,vladmandic,2023-01-23T14:06:11Z,2023-01-23T21:09:14+00:00,1,7.05,True,26,16,2,953,4,0,4,MERGED
+7093,Fix dark mode,Shondoit,2023-01-23T08:57:11Z,2023-01-23T12:09:27+00:00,1,3.2,True,2,2,1,349,0,0,0,MERGED
+7081,"Adds Hires Steps to X/Y Plot, and updates step calculation ",EllangoK,2023-01-22T23:42:56Z,2023-01-23T12:24:12+00:00,1,12.69,True,15,3,1,588,0,0,0,MERGED
+7032,Extra network view style,gmq,2023-01-21T21:49:46Z,2023-01-23T15:46:37+00:00,1,41.95,True,73,4,4,564,10,0,10,MERGED
+7031,Fixes various button overflowing UI and compact checkbox,EllangoK,2023-01-21T21:36:58Z,2023-01-23T12:22:06+00:00,1,38.75,True,11,3,3,1061,0,0,0,MERGED
+7024,Fix followup to #7022,mezotaken,2023-01-21T21:02:39Z,2023-01-22T04:19:39+00:00,1,7.28,True,8,9,1,419,0,0,0,MERGED
+7015,Compile and serve js files via `src` instead of embedded inline scripts,jjtolton,2023-01-21T18:08:41Z,2023-01-21T19:43:18+00:00,1,1.58,True,23,9,1,909,0,0,0,MERGED
+6956,Alternative batching behavior for mix-sized training,guaneec,2023-01-20T06:54:29Z,2023-07-08T13:56:57+00:00,1,4063.04,False,93,61,3,329,8,0,8,CLOSED
+6955,Adds descriptions for merging methods in UI,EllangoK,2023-01-20T06:11:00Z,2023-01-21T20:17:06+00:00,1,38.1,True,14,1,1,1813,0,0,0,MERGED
+6938,AMD environment variable and experimental APU support (Renoir),daniandtheweb,2023-01-19T16:03:28Z,2023-01-21T20:28:48+00:00,1,52.42,True,19,12,1,1105,28,0,28,MERGED
+6936,Fixes minor typos around run_modelmerger,EllangoK,2023-01-19T15:28:29Z,2023-01-19T16:58:17+00:00,1,1.5,True,7,7,1,223,0,0,0,MERGED
+6930,internal progress relative path,poiuty,2023-01-19T14:10:49Z,2023-01-19T17:41:25+00:00,1,3.51,True,1,1,1,348,0,0,0,MERGED
+6922,Improve cumsum fix for MPS,brkirch,2023-01-19T06:57:49Z,2023-01-19T10:18:35+00:00,1,3.35,True,7,4,1,506,1,0,1,MERGED
+6910,Check model name values are set before merging,EllangoK,2023-01-19T00:15:59Z,2023-01-19T05:48:27+00:00,1,5.54,True,17,4,1,1263,1,0,1,MERGED
+6906,fixing error using lspci on macOsX,koalazak,2023-01-18T22:37:07Z,2023-01-19T05:35:31+00:00,1,6.97,True,1,1,1,707,0,0,0,MERGED
+6895,Process interrogation on all img2img subtabs,mezotaken,2023-01-18T17:51:11Z,2023-01-18T20:07:41+00:00,1,2.27,True,50,7,2,1038,0,0,0,MERGED
+6888,Fix typo causing syntax error in JS,vladmandic,2023-01-18T14:48:34Z,2023-01-18T20:13:30+00:00,1,5.42,True,1,1,1,93,0,0,0,MERGED
+6873,Test on multiple Python versions,Margen67,2023-01-18T07:21:49Z,2023-05-17T21:09:46+00:00,1,2869.8,False,12,4,1,301,3,0,3,CLOSED
+6854,Saves Extra Generation Parameters to params.txt,EllangoK,2023-01-17T16:58:28Z,2023-01-18T20:25:56+00:00,1,27.46,True,4,4,1,2058,0,0,0,MERGED
+6851,Add `--vae-dir` argument,ddPn08,2023-01-17T14:54:32Z,2023-01-18T20:23:10+00:00,2,29.48,True,8,0,2,77,1,1,2,MERGED
+6844,Add auto-sized cropping UI,guaneec,2023-01-17T09:23:03Z,2023-01-19T10:11:06+00:00,1,48.8,True,61,5,2,238,6,0,6,MERGED
+6803,Optimize XY grid to run slower axes fewer times,space-nuko,2023-01-16T05:48:41Z,2023-01-16T13:14:42+00:00,1,7.43,True,70,53,1,621,4,0,4,MERGED
+6802,Add swap axes button for XY Grid,space-nuko,2023-01-16T05:44:27Z,2023-01-16T08:50:49+00:00,1,3.11,True,30,6,2,249,0,0,0,MERGED
+6796,Make XY grid cancellation much faster,space-nuko,2023-01-16T03:46:20Z,2023-01-16T05:24:16+00:00,1,1.63,True,3,0,1,411,0,0,0,MERGED
+6782,Fix tensorboard-hypernetwork integration correctly,aria1th,2023-01-15T17:52:40Z,2023-01-15T19:55:06+00:00,1,2.04,True,7,6,1,468,2,0,2,MERGED
+6780,add fields to settings file,vladmandic,2023-01-15T17:42:19Z,2023-01-15T19:55:46+00:00,1,2.22,True,1,1,1,173,0,0,0,MERGED
+6778,Fix unexpected behavior when show_progress_every_n_steps is set to -1,pangbo13,2023-01-15T17:20:05Z,2023-01-15T19:54:14+00:00,1,2.57,True,1,1,1,1015,0,0,0,MERGED
+6772,increase block size,vladmandic,2023-01-15T14:46:57Z,2023-01-15T16:09:46+00:00,1,1.38,True,2,1,1,664,7,0,7,MERGED
+6770,Fix Approx NN not working on torch devices other than CUDA,brkirch,2023-01-15T13:18:47Z,2023-01-15T16:09:06+00:00,1,2.84,True,1,1,1,542,0,0,0,MERGED
+6758,allow reordering of inpaint masking controls (like the other sections can be reordered),Poktay,2023-01-14T23:30:17Z,2023-01-15T20:24:09+00:00,1,20.9,True,30,29,2,348,0,0,0,MERGED
+6756,Fix Aspect Ratio Overlay / AROverlay to work with Inpaint & Sketch,Poktay,2023-01-14T23:01:09Z,2023-01-15T05:10:57+00:00,1,6.16,True,7,2,1,157,0,0,0,MERGED
+6731,Add server start time to state info,vladmandic,2023-01-14T16:20:00Z,2023-01-14T21:03:30+00:00,1,4.72,True,2,0,1,182,0,0,0,MERGED
+6728,Exclude clip index from merge,bbc-mc,2023-01-14T14:25:59Z,2023-01-14T20:12:31+00:00,1,5.78,True,10,0,1,1708,0,0,0,MERGED
+6709,Automatic setup for AMD GPUs on Linux,daniandtheweb,2023-01-13T18:29:08Z,2023-01-15T10:48:25+00:00,1,40.32,True,11,1,1,221,12,0,12,MERGED
+6707,"fix progress bar behavior for ""Prompts from file or textbox"" script",zaprudin,2023-01-13T17:59:49Z,2023-01-14T13:41:04+00:00,1,19.69,True,1,1,1,519,0,0,0,MERGED
+6700,Weighted learning of TIs and HNs,Shondoit,2023-01-13T15:28:09Z,2023-02-19T09:41:35+00:00,1,882.22,True,117,20,5,2553,40,0,40,MERGED
+6689,add gradient settings to training settings log files,Poktay,2023-01-13T01:39:33Z,2023-01-13T11:45:32+00:00,1,10.1,True,1,1,1,192,0,0,0,MERGED
+6685,Add script callback for fixing infotext parameters,space-nuko,2023-01-12T21:52:36Z,2023-01-13T11:43:42+00:00,1,13.85,True,21,2,2,368,0,0,0,MERGED
+6684,Fix extension parameters not being saved to last used parameters,space-nuko,2023-01-12T21:47:20Z,2023-01-13T11:44:39+00:00,1,13.96,True,4,4,1,304,0,0,0,MERGED
+6667,Allow creation of zero vectors for TI,Shondoit,2023-01-12T08:54:00Z,2023-01-12T19:05:11+00:00,1,10.19,True,7,3,2,1487,14,0,14,MERGED
+6628,Fix prompt parser default step transformer,catboxanon,2023-01-11T02:55:56Z,2023-01-11T15:56:25+00:00,1,13.01,True,3,1,1,1208,10,0,10,MERGED
+6625,Support loading textual inversion embeddings from safetensors files,PlasmaPower,2023-01-11T01:48:01Z,2023-01-11T05:21:22+00:00,1,3.56,True,3,0,1,592,2,0,2,MERGED
+6620,Enable batch_size>1 for mixed-sized training,guaneec,2023-01-10T22:48:38Z,2023-01-13T11:03:32+00:00,1,60.25,True,32,4,1,1345,12,0,12,MERGED
+6612,Make VENV environment variable accept absolute path instead of relative path.,mezotaken,2023-01-10T19:41:31Z,2023-01-10T20:45:34+00:00,1,1.07,True,3,3,1,798,8,0,8,MERGED
+6596,Fix issues with testing process,mezotaken,2023-01-10T10:05:37Z,2023-01-10T12:14:03+00:00,1,2.14,True,2,0,2,721,0,0,0,MERGED
+6590,Variable dropout rate,aria1th,2023-01-10T06:10:21Z,2023-01-10T08:29:27+00:00,1,2.32,True,81,28,3,1261,0,0,0,MERGED
+6584,follow-up for pr #6466 to relax response type check enforcement in get_memory,vladmandic,2023-01-10T02:25:05Z,2023-01-10T05:18:39+00:00,1,2.89,True,2,2,1,77,1,0,1,MERGED
+6578,allow model load if previous model failed,vladmandic,2023-01-09T23:35:57Z,2023-01-10T05:22:44+00:00,1,5.78,True,10,5,1,186,0,0,0,MERGED
+6568,Tests fixes and additions,mezotaken,2023-01-09T18:30:25Z,2023-01-09T20:43:11+00:00,1,2.21,True,90,79,9,1066,2,0,2,MERGED
+6528,Add support for loading VAEs from safetensors files,PlasmaPower,2023-01-08T17:19:46Z,2023-01-09T16:40:28+00:00,1,23.34,True,18,3,1,0,0,0,0,MERGED
+6514,Use an actual label for feature requests.,mezotaken,2023-01-08T10:12:56Z,2023-01-08T13:15:35+00:00,1,3.04,True,1,1,1,187,0,0,0,MERGED
+6510,"Add upcast options, full precision sampling from float16 UNet and upcasting attention for inference using SD 2.1 models without --no-half",brkirch,2023-01-08T09:20:45Z,2023-01-25T16:12:30+00:00,1,414.86,True,189,71,10,4664,65,0,65,MERGED
+6482,Add fallback for Protocol import,ProGamerGov,2023-01-07T20:08:43Z,2023-01-09T17:06:50+00:00,1,44.97,True,7,1,1,492,1,0,1,MERGED
+6481,Allow mixed image sizes in TI/HN training,guaneec,2023-01-07T19:02:08Z,2023-01-09T19:45:46+00:00,1,48.73,True,21,15,4,551,14,0,14,MERGED
+6478,Fix quicksetting name overlapping with its controls.,mezotaken,2023-01-07T16:37:00Z,2023-01-08T13:17:34+00:00,1,20.68,True,12,1,1,833,0,0,0,MERGED
+6469,Run scripts from API,noodleanon,2023-01-07T14:25:16Z,2023-01-08T12:47:19+00:00,1,22.37,True,48,9,4,79,1,0,1,MERGED
+6466,Implement API get-memory,vladmandic,2023-01-07T12:53:43Z,2023-01-09T23:02:19+00:00,1,58.14,True,39,0,2,174,8,0,8,MERGED
+6465,Fix training for newer PyTorch builds,brkirch,2023-01-07T12:22:53Z,2023-01-08T13:16:32+00:00,1,24.89,True,2,2,1,123,5,0,5,MERGED
+6463,CI: Use native actions/setup-python caching,akx,2023-01-07T09:26:04Z,2023-01-09T17:14:04+00:00,1,55.8,True,8,13,2,36,0,0,0,MERGED
+6462,Update hints.js,Taithrah,2023-01-07T09:11:13Z,2023-01-09T16:38:08+00:00,1,55.45,True,5,5,1,23,2,0,2,MERGED
+6448,increase upscale api validation limit,aednzxy,2023-01-06T22:11:09Z,2023-01-07T09:34:43+00:00,1,11.39,True,1,1,1,148,0,0,0,MERGED
+6437,Show upscaled resolution on hires fix,Mitchell1711,2023-01-06T17:26:59Z,2023-01-07T05:43:28+00:00,1,12.27,True,15,0,1,395,3,0,3,MERGED
+6402,Add support for using PyTorch nightly and local builds,brkirch,2023-01-06T02:11:38Z,2023-01-06T04:51:45+00:00,1,2.67,True,29,6,2,509,1,0,1,MERGED
+6401,wsl-open,acncagua,2023-01-06T02:01:59Z,2023-01-06T04:56:16+00:00,1,2.9,True,2,0,1,47,2,0,2,MERGED
+6384,allow loading embeddings from subdirectories,faberuser,2023-01-05T20:39:52Z,2023-01-06T04:56:49+00:00,1,8.28,True,12,11,1,0,0,0,0,MERGED
+6376,typo in TI,KumiIT,2023-01-05T17:50:10Z,2023-01-05T19:10:07+00:00,1,1.33,True,1,1,1,0,0,0,0,MERGED
+6372,"Save hypernet and textual inversion settings to text file, revised.",timntorres,2023-01-05T17:17:31Z,2023-01-06T04:59:45+00:00,1,11.7,True,50,4,3,1420,1,0,1,MERGED
+6364,"hires-fix: add ""nearest-exact"" latent upscale mode.",0xb8,2023-01-05T16:03:55Z,2023-01-06T04:49:12+00:00,1,12.75,True,1,0,1,511,4,0,4,MERGED
+6349,fix(api): assign sd_model after settings change (v2),philpax,2023-01-05T04:04:52Z,2023-01-05T07:11:52+00:00,1,3.12,True,4,2,1,646,0,0,0,MERGED
+6334,Fixes webui.sh to exec LAUNCH_SCRIPT,jchook,2023-01-04T22:59:31Z,2023-01-05T07:12:25+00:00,1,8.21,True,2,2,1,195,0,0,0,MERGED
+6329,Add additional elem_id/HTML ids (again),Kryptortio,2023-01-04T21:34:45Z,2023-01-05T08:56:13+00:00,1,11.36,True,105,53,10,329,7,0,7,MERGED
+6328,Make pnginfoapi return all image info,lolsuffocate,2023-01-04T20:46:30Z,2023-01-05T07:23:59+00:00,1,10.62,True,15,6,2,235,0,0,0,MERGED
+6305,fix jpeg handling,vladmandic,2023-01-04T13:22:10Z,2023-01-04T16:22:51+00:00,1,3.01,True,1,3,2,188,6,0,6,MERGED
+6304,add cross-attention info,vladmandic,2023-01-04T13:05:31Z,2023-01-04T14:30:44+00:00,1,1.42,True,11,1,1,110,0,0,0,MERGED
+6298,Save full resolution of intermediate step,unknown,2023-01-04T09:23:51Z,2023-01-04T10:46:22+00:00,1,1.38,True,1,1,1,283,0,0,0,MERGED
+6295,"better targetting, class tabs was autoassigned",Gerschel,2023-01-04T07:31:53Z,2023-01-04T10:47:54+00:00,1,3.27,True,1,1,1,242,0,0,0,MERGED
+6285,ui: save dropdown sampling method to the ui-config,abextm,2023-01-04T01:21:24Z,2023-01-04T06:10:25+00:00,1,4.82,True,1,0,1,23,0,0,0,MERGED
+6272,Add image paste fallback,unknown,2023-01-03T17:57:35Z,2023-01-04T11:15:45+00:00,1,17.3,True,9,1,1,456,3,0,3,MERGED
+6264,add missing state info,vladmandic,2023-01-03T15:37:02Z,2023-01-04T11:04:50+00:00,1,19.46,True,31,7,5,183,0,0,0,MERGED
+6261,add api logging,vladmandic,2023-01-03T14:47:32Z,2023-01-04T11:04:12+00:00,1,20.28,True,25,1,2,763,3,0,3,MERGED
+6253,Save Optimizer next to TI embedding,Shondoit,2023-01-03T10:17:24Z,2023-01-04T11:09:13+00:00,1,24.86,True,33,9,2,483,0,0,0,MERGED
+6251,update opencv package inside requirements.txt,hithereai,2023-01-03T09:22:57Z,2023-01-04T11:12:15+00:00,1,25.82,True,1,1,1,417,0,0,0,MERGED
+6196,feat(api): add /sdapi/v1/embeddings,philpax,2023-01-02T01:25:04Z,2023-01-02T03:11:10+00:00,1,1.77,True,35,4,3,266,0,0,0,MERGED
+6183,Add additional elem_id/HTML ids,Kryptortio,2023-01-01T19:16:22Z,2023-01-02T03:10:26+00:00,1,7.9,True,134,134,3,1342,1,0,1,MERGED
+6149,validate textual inversion embeddings,vladmandic,2022-12-31T16:27:57Z,2022-12-31T19:33:13+00:00,1,3.09,True,41,7,3,1270,7,0,7,MERGED
+6143,fix interrogate,vladmandic,2022-12-31T12:47:34Z,2022-12-31T19:20:56+00:00,1,6.56,True,1,1,1,101,0,0,0,MERGED
+6135,fix shared state dictionary,vladmandic,2022-12-31T00:42:19Z,2022-12-31T07:52:05+00:00,1,7.16,True,1,1,1,23,0,0,0,MERGED
+6134,remove unnecessary console message,vladmandic,2022-12-31T00:40:03Z,2022-12-31T07:52:31+00:00,1,7.21,True,1,1,1,92,0,0,0,MERGED
+6133,add additional memory states,vladmandic,2022-12-31T00:37:23Z,2022-12-31T07:52:59+00:00,1,7.26,True,3,0,1,90,0,0,0,MERGED
+6094,Adding image numbers on grids,AlUlkesh,2022-12-28T21:32:20Z,2023-01-01T15:31:01+00:00,1,89.98,True,21,0,2,216,5,0,5,MERGED
+6055,Add Birch-san's sub-quadratic attention implementation,brkirch,2022-12-27T14:11:18Z,2023-01-07T09:26:55+00:00,1,259.26,True,348,39,7,1277,43,0,43,MERGED
+6044,Allow always discarding of penultimate sigma and fix doing 1 less step than specified,hentailord85ez,2022-12-26T21:10:29Z,2023-01-05T07:33:52+00:00,1,226.39,True,5,1,2,844,5,0,5,MERGED
+6037,fix rgba to rgb when using jpeg output,vladmandic,2022-12-26T14:57:53Z,2022-12-31T09:14:42+00:00,1,114.28,True,3,0,1,209,0,0,0,MERGED
+6017,Add memory cache for VAE weights,hitomi,2022-12-25T12:52:00Z,2022-12-31T09:22:59+00:00,1,140.52,True,26,6,2,92,0,0,0,MERGED
+6015,fix(api): only begin/end state in lock,philpax,2022-12-25T10:47:18Z,2022-12-31T09:23:39+00:00,1,142.61,True,4,8,1,261,0,0,0,MERGED
+6005,Fix clip interrogate from the webui,allenbenz,2022-12-25T04:23:57Z,2022-12-25T06:12:29+00:00,1,1.81,True,1,1,1,211,0,0,0,MERGED
+6003,Add CSS classes for the settings panels,eaglgenes101,2022-12-25T03:19:18Z,2022-12-25T06:17:34+00:00,1,2.97,True,2,2,1,181,0,0,0,MERGED
+5999,implement train api,vladmandic,2022-12-24T23:04:22Z,2022-12-25T06:11:42+00:00,1,7.12,True,132,28,4,837,0,0,0,MERGED
+5992,Fix F541: f-string without any placeholders,yuvalabou,2022-12-24T19:36:12Z,2022-12-25T06:16:08+00:00,1,10.67,True,18,18,10,90,0,0,0,MERGED
+5977,fix(api): don't save extras output to disk,philpax,2022-12-24T11:05:42Z,2022-12-24T15:50:45+00:00,1,4.75,True,12,11,2,157,0,0,0,MERGED
+5976,Add an option for faster low quality previews,AbstractQbit,2022-12-24T11:04:40Z,2022-12-24T15:38:43+00:00,1,4.57,True,19,9,2,139,7,0,7,MERGED
+5969,feat(api): include job_timestamp in progress,philpax,2022-12-24T09:45:44Z,2023-01-04T12:28:51+00:00,1,266.72,True,1,0,1,76,0,0,0,MERGED
+5939,"upgrading torch, torchvision, xformers (windows), to use cu117",petalas,2022-12-22T22:45:18Z,2023-01-23T14:15:52+00:00,5,759.51,True,2,4,1,548,69,1,70,MERGED
+5894,Set httpcore version in requirements - fixes #4833,florianchrometz,2022-12-20T19:21:45Z,2022-12-24T05:37:20+00:00,1,82.26,True,1,0,1,412,0,0,0,MERGED
+5873,feat(api): add override_settings_restore_afterwards,philpax,2022-12-20T09:40:11Z,2022-12-24T07:15:04+00:00,1,93.58,True,16,13,1,289,5,0,5,MERGED
+5840,"Add upscale latent, VAE, styles as new axis options to X/Y plot",unknown,2022-12-18T15:48:36Z,2022-12-24T06:05:12+00:00,1,134.28,True,43,1,1,90,0,0,0,MERGED
+5838,Dirty fix for missing PIL supported file extensions,aliencaocao,2022-12-18T12:50:03Z,2022-12-24T07:24:33+00:00,1,138.57,True,1,0,1,435,0,0,0,MERGED
+5814,Add option to save upscaler to filename suffix in extras tab.,timntorres,2022-12-17T16:28:57Z,2022-12-24T06:07:00+00:00,1,157.63,True,8,1,2,770,3,0,3,MERGED
+5810,Training fixes for MPS,brkirch,2022-12-17T08:51:32Z,2022-12-24T05:34:46+00:00,2,164.72,True,15,6,2,484,0,0,0,MERGED
+5808,Prevent overlapping in X/Y plot by changing font size,unknown,2022-12-17T05:49:14Z,2022-12-24T06:13:06+00:00,1,168.4,True,16,7,1,325,0,0,0,MERGED
+5805,AMD Linux automation,daniandtheweb,2022-12-17T02:52:31Z,2023-01-04T12:28:12+00:00,3,441.59,False,217,1,2,480,2,1,3,CLOSED
+5797,Add a workaround patch for DPM2 a issue,mcmonkey4eva,2022-12-16T16:44:12Z,2022-12-24T05:51:43+00:00,1,181.13,True,6,0,1,1494,3,0,3,MERGED
+5796,Improve InvokeAI cross attention reliability and speed when using MPS for large images,brkirch,2022-12-16T15:12:36Z,2022-12-24T05:21:20+00:00,1,182.15,True,6,4,1,1230,13,0,13,MERGED
+5794,fix: xformers,Akegarasu,2022-12-16T12:47:04Z,2022-12-24T04:49:15+00:00,1,184.04,True,6,0,2,142,6,0,6,MERGED
+5790,Code Improvements.,otsotech,2022-12-16T10:05:13Z,2022-12-20T06:25:42+00:00,1,92.34,False,43,59,1,333,2,1,3,CLOSED
+5774,allow_credentials and allow_headers for api,camenduru,2022-12-15T18:58:05Z,2023-01-04T16:26:50+00:00,1,477.48,True,3,3,1,48,4,0,4,MERGED
+5771,Better ReallySafe,d8ahazard,2022-12-15T18:04:32Z,2023-01-04T12:25:08+00:00,1,474.34,False,30,12,1,585,4,1,5,CLOSED
+5759,Added torch & np methods that safe.py's RestrictedUnpickler was blocking. Also workaround for pytorch/issues/90532.,BrentWilkins,2022-12-15T04:44:22Z,2023-01-04T12:26:03+00:00,2,487.69,False,55,42,2,133,3,2,5,CLOSED
+5753,Fix various typos,calvinballing,2022-12-15T02:07:26Z,2022-12-24T06:58:28+00:00,2,220.85,True,68,68,16,153,0,0,0,MERGED
+5747,Format singleton comparisons,yuvalabou,2022-12-14T19:03:09Z,2022-12-24T07:17:38+00:00,1,228.24,True,9,5,3,59,0,0,0,MERGED
+5718,Save hypernetwork hash and fix hypernetwork parameter restoring,space-nuko,2022-12-13T22:33:31Z,2022-12-24T08:14:19+00:00,1,249.68,True,36,2,2,222,0,0,0,MERGED
+5699,Improve prompts-from-file script to support negative prompts and sampler-by-name,DavidVorick,2022-12-13T17:08:13Z,2022-12-24T08:16:09+00:00,1,255.13,True,18,2,1,449,6,0,6,MERGED
+5669,Bugfix: Use /usr/bin/env bash instead of just /bin/bash,codefionn,2022-12-12T20:26:39Z,2022-12-24T08:50:53+00:00,1,276.4,True,1,1,1,172,0,0,0,MERGED
+5644,Improve img2img color correction by performing a luminosity blend,ThereforeGames,2022-12-12T00:36:30Z,2022-12-24T06:17:40+00:00,1,293.69,True,8,3,2,1866,3,0,3,MERGED
+5637,API endpoint to refresh checkpoints,aednzxy,2022-12-11T19:16:57Z,2022-12-24T09:19:43+00:00,1,302.05,True,4,0,1,35,0,0,0,MERGED
+5627,fix: fallback model_checkpoint if it's empty,deanpress,2022-12-11T16:10:56Z,2022-12-24T09:20:32+00:00,1,305.16,True,4,0,1,853,0,0,0,MERGED
+5622,Update hints.js - DPM adaptive,repligator,2022-12-11T14:40:22Z,2022-12-24T09:18:17+00:00,1,306.63,True,1,0,1,33,0,0,0,MERGED
+5617,fix hints file typo,mcmonkey4eva,2022-12-11T10:18:09Z,2022-12-24T05:16:04+00:00,1,306.97,True,1,1,1,139,4,0,4,MERGED
+5608,Make the generated image count in desktop notifications only count new gens in the currently active tab,Bwin4L,2022-12-10T22:43:48Z,2022-12-24T09:23:56+00:00,1,322.67,True,1,1,1,278,0,0,0,MERGED
+5595,Add SafeTensors support to LDSR,wywywywy,2022-12-10T19:01:03Z,2022-12-24T09:22:09+00:00,1,326.35,True,14,4,2,439,9,0,9,MERGED
+5589,Better support for 2.0-inpainting and 2.0-depth special models,MrCheeze,2022-12-10T16:40:38Z,2022-12-24T06:53:44+00:00,1,326.22,True,12,8,3,587,4,0,4,MERGED
+5586,LDSR improvements - cache / optimization / opt_channelslast,wywywywy,2022-12-10T13:58:31Z,2022-12-10T15:22:39+00:00,1,1.4,True,35,15,2,634,0,0,0,MERGED
+5585,Fix token counter color on dark theme,Bwin4L,2022-12-10T13:54:14Z,2022-12-10T15:20:28+00:00,1,1.44,True,1,1,1,403,0,0,0,MERGED
+5555,Bug fix (a few lines in modules/api/api.py),ywx9,2022-12-09T14:27:59Z,2022-12-10T05:27:45+00:00,1,15.0,True,1,6,1,0,2,0,2,MERGED
+5547,"Make ""# settings changed"" grammatically correct",Ju1-js,2022-12-09T06:49:14Z,2022-12-10T05:20:22+00:00,1,22.52,True,1,1,1,127,2,0,2,MERGED
+5542,"Depth2Img model support: resolves #5372, partially addresses #5011",JaySmithWpg,2022-12-09T01:49:04Z,2022-12-10T04:52:20+00:00,2,27.05,True,81,4,3,1057,37,0,37,MERGED
+5521,Add latent upscale option to img2img,AndrewRyanChama,2022-12-08T07:22:26Z,2022-12-24T08:10:35+00:00,1,384.8,True,6,2,2,1223,12,0,12,MERGED
+5502,Add bracket checking functionality to the txt2img/img2img prompts,Bwin4L,2022-12-07T15:22:12Z,2022-12-10T06:32:12+00:00,1,63.17,True,107,0,1,646,1,0,1,MERGED
+5493,Add ability to automagically determine which model config to load,d8ahazard,2022-12-07T05:07:49Z,2022-12-14T15:35:24+00:00,4,178.46,False,176,8,5,335,3,1,4,CLOSED
+5489,macOS install improvements,brkirch,2022-12-07T01:11:24Z,2022-12-10T06:30:14+00:00,1,77.31,True,7,0,2,496,0,0,0,MERGED
+5447,Fix WebUI not working inside of iframes,apolinario,2022-12-05T15:30:58Z,2022-12-10T13:30:16+00:00,1,117.99,True,4,3,1,180,1,0,1,MERGED
+5441,Add option to avoid sending size between interfaces.,timntorres,2022-12-05T12:35:20Z,2022-12-10T08:07:17+00:00,1,115.53,True,2,2,2,480,0,0,0,MERGED
+5438,allow randomized seeds in prompt_matrix,DavidVorick,2022-12-05T05:23:17Z,2022-12-10T08:10:23+00:00,1,122.78,True,10,3,1,185,2,0,2,MERGED
+5422,add gradio queueing on ui by default to avoid timeout on client side when share=True,piEsposito,2022-12-04T15:34:20Z,2022-12-10T07:12:37+00:00,1,135.64,True,1,1,1,83,4,0,4,MERGED
+5415,Reinstate DDPM V1 to LDSR,wywywywy,2022-12-04T13:44:31Z,2022-12-10T06:20:38+00:00,1,136.6,True,1451,1,3,240,12,0,12,MERGED
+5404,Merger ram usage,szhublox,2022-12-04T06:26:38Z,2022-12-10T06:33:40+00:00,1,144.12,True,19,18,1,445,4,0,4,MERGED
+5373,add noise strength parameter similar to NAI,mezotaken,2022-12-03T15:20:01Z,2022-12-10T06:36:24+00:00,1,159.27,True,2,0,2,1009,0,0,0,MERGED
+5361,Update launch.py,rick68,2022-12-03T09:35:30Z,2022-12-10T08:25:10+00:00,1,166.83,True,2,2,1,10,0,0,0,MERGED
+5340,Fix divide by 0 error,PhytoEpidemic,2022-12-02T18:22:16Z,2022-12-03T06:17:55+00:00,1,11.93,True,3,3,1,118,0,0,0,MERGED
+5331,Fixed AttributeError where openaimodel is not found,smirkingface,2022-12-02T13:09:00Z,2022-12-03T06:18:36+00:00,1,17.16,True,1,0,1,436,0,0,0,MERGED
+5328,fix typo,jcowens,2022-12-02T10:56:48Z,2022-12-03T06:20:39+00:00,1,19.4,True,1,1,1,0,0,0,0,MERGED
+5327,Fixed safety checker for ckpt files written with pytorch >=1.13,smirkingface,2022-12-02T10:26:37Z,2022-12-03T05:28:31+00:00,1,19.03,True,11,7,1,532,1,0,1,MERGED
+5304,Fix clip skip of 1 not being restored from prompts,space-nuko,2022-12-01T19:35:29Z,2022-12-03T06:37:10+00:00,1,35.03,True,5,1,2,19,0,0,0,MERGED
+5286,Add macOS (Darwin) installation defaults,brkirch,2022-12-01T10:23:41Z,2022-12-03T15:51:22+00:00,1,53.46,True,25,2,4,1716,6,0,6,MERGED
+5251,Fixed incorrect negative prompt text in infotext,adieyal,2022-11-30T13:25:30Z,2022-12-03T07:21:43+00:00,1,65.94,True,1,1,1,152,0,0,0,MERGED
+5229,Slightly improve page scroll jumping with focus,lolsuffocate,2022-11-30T01:26:03Z,2022-12-03T07:23:25+00:00,1,77.96,True,14,2,1,744,0,0,0,MERGED
+5194,Use devices.autocast() and fix MPS randn issues,brkirch,2022-11-29T04:54:13Z,2022-12-03T06:58:08+00:00,1,98.07,True,29,31,8,515,0,0,0,MERGED
+5191,Support changing checkpoint and vae through override_settings,aliencaocao,2022-11-29T03:16:39Z,2022-12-10T13:29:40+00:00,1,274.22,True,8,2,1,202,13,0,13,MERGED
+5179,Update SD Upscaler to include user selectable Scale Factor,kaneda2004,2022-11-28T20:31:09Z,2022-12-10T10:28:45+00:00,1,277.96,True,8,7,1,191,3,0,3,MERGED
+5165,"Make VAE step sequential to prevent VRAM spikes, will fix #3059, #2082, #2561, #3462",aleksusklim,2022-11-28T12:39:22Z,2022-12-03T05:29:57+00:00,1,112.84,True,2,2,1,2853,15,0,15,MERGED
+5131,Better should_hijack_inpainting detection,uservar,2022-11-27T19:22:46Z,2022-12-24T09:19:06+00:00,1,637.94,True,4,1,1,233,2,0,2,MERGED
+5119,Atomically rename saved image to avoid race condition with other processes,0xb8,2022-11-27T14:12:40Z,2022-12-10T10:26:07+00:00,1,308.22,True,29,22,1,463,0,0,0,MERGED
+5095,torch.cuda.empty_cache() defaults to cuda:0 device unless explicitly …,mlmcgoogan,2022-11-26T23:45:00Z,2022-11-27T09:56:02+00:00,2,10.18,True,12,2,1,544,0,0,0,MERGED
+5085,no-half support for SD 2.0,MrCheeze,2022-11-26T18:29:49Z,2022-11-27T10:54:08+00:00,1,16.41,True,3,0,1,15,0,0,0,MERGED
+5065,#3449 - VRAM leak when switching to/from inpainting checkpoint,JaySmithWpg,2022-11-26T02:47:14Z,2022-11-27T10:52:14+00:00,1,32.08,True,15,18,1,1271,7,0,7,MERGED
+5012,Support NAI style exif in PNG Info for Send... buttons,Nandaka,2022-11-24T02:39:26Z,2022-11-27T12:57:50+00:00,1,82.31,True,14,0,1,713,1,0,1,MERGED
+4986,add model_name pattern for saving,mcmonkey4eva,2022-11-23T14:44:46Z,2022-11-27T10:58:34+00:00,2,92.23,True,3,2,2,532,1,0,1,MERGED
+4978,Patch UNet Forward to support resolutions that are not multiples of 64,aliencaocao,2022-11-23T10:12:01Z,2022-12-10T05:45:42+00:00,1,403.56,True,45,12,3,754,8,0,8,MERGED
+4977,Fix API img2img not accepting bare base64 strings,sena-nana,2022-11-23T09:46:25Z,2022-11-27T12:54:39+00:00,1,99.14,True,7,2,1,5,4,0,4,MERGED
+4961,Add DPM++ SDE sampler,uservar,2022-11-22T14:27:43Z,2022-11-27T09:55:03+00:00,1,115.46,True,2,0,1,0,9,0,9,MERGED
+4960,fix null negative_prompt on get requests,Hugo-Matias,2022-11-22T14:05:12Z,2022-11-27T13:36:29+00:00,1,119.52,True,1,1,1,82,0,0,0,MERGED
+4956,"[CLIP interrogator] use local file, if available",TiagoSantos81,2022-11-22T12:53:08Z,2022-12-03T15:17:56+00:00,1,266.41,True,12,1,1,80,7,0,7,MERGED
+4930,Supporting `*.safetensors` format.,Narsil,2022-11-21T13:22:22Z,2022-11-27T11:36:55+00:00,1,142.24,True,9,2,1,1647,36,0,36,MERGED
+4919,Fix support for devices other than CUDA in DeepBooru,brkirch,2022-11-21T08:05:54Z,2022-11-27T13:59:22+00:00,1,149.89,True,1,1,1,81,5,0,5,MERGED
+4918,Fixes for PyTorch 1.12.1 when using MPS,brkirch,2022-11-21T07:30:09Z,2022-11-27T10:47:02+00:00,1,147.28,True,27,10,4,1160,0,0,0,MERGED
+4913,Remove cmd args requirement for deepdanbooru,dtlnor,2022-11-21T03:55:17Z,2022-11-27T11:19:32+00:00,1,151.4,True,6,9,1,44,3,0,3,MERGED
+4899,Fixed issue with selected_gallery_index(),liamkerr,2022-11-20T19:03:09Z,2022-11-27T10:53:38+00:00,2,159.84,True,2,2,1,1010,0,0,0,MERGED
+4894,Move progress info to beginning of site title,morgil,2022-11-20T14:59:28Z,2022-11-27T15:48:29+00:00,1,168.82,True,1,1,1,98,0,0,0,MERGED
+4886,"Gradient accumulation, autocast fix, new latent sampling method, etc",unknown,2022-11-20T03:36:57Z,2022-11-27T09:46:13+00:00,5,174.15,True,473,322,7,2552,50,2,52,MERGED
+4844,"Remove no longer necessary code from VAE selector, fix #4651",R-N,2022-11-19T05:30:23Z,2022-11-19T09:21:22+00:00,1,3.85,True,10,15,3,2832,0,0,0,MERGED
+4842,Option to use selected VAE as default fallback instead of primary option,R-N,2022-11-19T05:16:40Z,2022-11-19T07:59:43+00:00,1,2.72,True,18,9,3,836,2,0,2,MERGED
+4841,Fix None option of VAE selector,R-N,2022-11-19T05:11:50Z,2022-12-10T06:58:21+00:00,1,505.78,True,19,20,2,1602,2,0,2,MERGED
+4819,Cleanly undo circular hijack to fix tiling getting stuck on #4818,killfrenzy96,2022-11-18T10:39:16Z,2022-11-19T10:26:03+00:00,2,23.78,True,1,1,1,261,0,0,0,MERGED
+4812,Add interrupt button to preprocessing,space-nuko,2022-11-18T02:06:03Z,2022-11-19T10:26:33+00:00,2,32.34,True,10,2,2,68,0,0,0,MERGED
+4778,Fix unbounded prompt growth/determinism in scripts that loop,leppie,2022-11-16T18:16:52Z,2022-11-19T09:52:55+00:00,2,63.6,True,5,0,1,7393,6,0,6,MERGED
+4759,Hide Gradio progress again,dtlnor,2022-11-16T04:13:33Z,2022-11-19T10:49:21+00:00,1,78.6,True,3,0,1,605,0,0,0,MERGED
+4754,Add a pull request template,attackbartender,2022-11-16T00:38:49Z,2023-01-04T13:24:32+00:00,1,1188.76,False,28,0,1,32,2,0,2,CLOSED
+4733,feat: add http basic authentication for api,MaikoTan,2022-11-15T08:21:29Z,2022-11-19T12:20:04+00:00,1,99.98,True,43,21,2,695,1,0,1,MERGED
+4717,Add --server-name to the list of arguments considered insecure,papuSpartan,2022-11-14T20:14:38Z,2022-11-19T12:31:10+00:00,1,112.28,True,5,2,2,577,0,0,0,MERGED
+4711,Use proper quoting in batch files.,d8ahazard,2022-11-14T14:44:41Z,2022-12-15T20:19:36+00:00,1,749.58,False,5,5,2,147,7,1,8,CLOSED
+4688,resolve [name] after resolving [filewords] in training,parasi22,2022-11-13T20:21:26Z,2022-11-27T19:46:49+00:00,1,335.42,True,1,1,1,1071,2,0,2,MERGED
+4684,Fix docker tmp/ and extensions/ handling for docker.,simcop2387,2022-11-13T18:42:14Z,2022-12-24T06:06:10+00:00,1,971.4,True,14,1,1,293,3,0,3,MERGED
+4680,"Implement correct training method, Gradient Accumulation, and more",unknown,2022-11-13T15:36:44Z,2022-11-19T12:02:59+00:00,2,140.44,False,0,0,0,2345,20,2,22,CLOSED
+4679,Add 'Inpainting strength' to the 'generation_params' of 'infotext' (params.txt or png chunks),Eugenii10,2022-11-13T14:34:08Z,2022-11-19T09:24:44+00:00,1,138.84,True,1,0,1,479,1,0,1,MERGED
+4664,Fix env var name typos,piraka9011,2022-11-13T03:43:14Z,2022-11-19T12:30:32+00:00,1,152.79,True,2,2,1,454,0,0,0,MERGED
+4663,fix the model name error of Real-ESRGAN in the opts default value,xucj98,2022-11-13T02:38:24Z,2022-11-27T11:16:46+00:00,1,344.64,True,1,1,1,0,0,0,0,MERGED
+4646,Fix: `error: Your local changes to the following files would be overwritten by merge` when trying to update extensions in WSL2 Docker,mrauhu,2022-11-12T19:03:56Z,2022-11-19T09:22:51+00:00,2,158.32,True,7,4,2,3021,5,0,5,MERGED
+4635,CI tests with github-actions and some improvements to testing,mezotaken,2022-11-12T12:39:00Z,2022-11-27T13:40:26+00:00,10,361.02,True,125,44,11,1849,4,4,8,MERGED
+4623,Fix wrong mps fallback,fumiama,2022-11-12T03:08:22Z,2022-11-12T06:51:33+00:00,1,3.72,True,10,3,1,95,0,0,0,MERGED
+4583,Forcing HTTPS instead of HTTP for ngrok,NoCrypt,2022-11-11T01:55:19Z,2022-11-27T13:30:24+00:00,1,395.58,True,2,2,1,20,4,0,4,MERGED
+4573,4415 update generation info,liamkerr,2022-11-10T18:47:20Z,2022-11-11T12:51:14+00:00,1,18.07,True,62,1,4,1283,6,0,6,MERGED
+4563,Add username and password in ngrok,JingShing,2022-11-10T12:53:17Z,2022-11-11T12:57:24+00:00,2,24.07,True,11,2,1,201,1,0,1,MERGED
+4546,Solving issue of differents ckpt with same hash (CRC solution),jn-jairo,2022-11-10T02:55:32Z,2023-01-14T13:30:51+00:00,1,1570.59,False,54,9,2,502,1,1,2,CLOSED
+4543,Fix a bug in list_files_with_name,tong-zeng,2022-11-10T02:46:12Z,2022-11-11T15:00:14+00:00,1,36.23,True,1,1,1,89,0,0,0,MERGED
+4527,Optional Accelerate Launch,d8ahazard,2022-11-09T17:16:11Z,2022-11-19T07:49:44+00:00,1,230.56,True,30,4,6,133,9,0,9,MERGED
+4514,#4448 fix checkpoint cache usage,cluder,2022-11-09T05:04:20Z,2022-11-11T13:04:17+00:00,1,56.0,True,18,11,1,278,20,0,20,MERGED
+4509,Add hypernetwork training rate autolearning based on preview image differentials,enn-nafnlaus,2022-11-09T00:31:25Z,2023-01-15T20:07:06+00:00,1,1627.59,False,282,46,4,4026,49,0,49,CLOSED
+4488,Add option to preload extensions,d8ahazard,2022-11-08T16:11:18Z,2022-11-12T07:29:15+00:00,1,87.3,True,26,2,2,154,1,0,1,MERGED
+4461,Fix setting device for GFPGAN and CodeFormer,brkirch,2022-11-08T02:31:41Z,2022-11-27T10:48:25+00:00,1,464.28,True,6,1,2,528,0,0,0,MERGED
+4459,add `--gradio-inpaint-tool` and option to specify `color-sketch`,kavorite,2022-11-08T01:07:48Z,2022-12-03T07:06:27+00:00,2,605.98,True,36,10,3,2991,19,1,20,MERGED
+4416,Add CORS-allow policy launch argument using regex,Keavon,2022-11-07T08:19:36Z,2022-11-27T15:50:12+00:00,1,487.51,True,10,5,2,575,2,0,2,MERGED
+4407,Fix issue with 16xx cards,yoinked-h,2022-11-07T01:07:48Z,2022-12-03T07:30:34+00:00,1,630.38,True,7,0,1,123,15,0,15,MERGED
+4395,Add DeepDanbooru to the interrogate API,snowmeow2,2022-11-06T18:56:01Z,2022-11-11T12:41:30+00:00,1,113.76,True,15,2,2,291,0,0,0,MERGED
+4373,Fix Karras scheduler doesn't start from the actual max to min,liuliu,2022-11-06T04:37:23Z,2023-01-04T13:16:23+00:00,1,1424.65,False,2,2,1,744,11,0,11,CLOSED
+4371,Fixes #800 #1562 #2075 #2304 #2931 LDSR upscaler producing black bars,hotdogee,2022-11-06T03:36:56Z,2022-11-06T05:18:16+00:00,1,1.69,True,11,3,1,1039,0,0,0,MERGED
+4368,fix #3451 scripts ignores file format settings for grids,byzod,2022-11-06T02:17:38Z,2022-12-03T07:31:09+00:00,1,653.23,True,2,2,2,9,1,0,1,MERGED
+4358,[API][Feature] Add Skip endpoint,bamarillo,2022-11-05T22:12:21Z,2022-11-19T11:50:02+00:00,1,325.63,True,11,11,2,200,0,0,0,MERGED
+4343,Support for generating image grids as previews in hypernetwork training.,enn-nafnlaus,2022-11-05T17:40:18Z,2023-01-04T13:21:17+00:00,1,1435.68,False,166,50,4,784,2,0,2,CLOSED
+4342,Italian localization - Additions and updates,Harvester62,2022-11-05T17:12:45Z,2022-11-05T23:54:10+00:00,1,6.69,True,423,91,1,489,0,0,0,MERGED
+4320,Add support for SSL/TLS (provide Gradio TLS options),papuSpartan,2022-11-05T09:17:30Z,2022-11-05T13:05:51+00:00,1,3.81,True,21,2,2,11,0,0,0,MERGED
+4311,Use typing.Optional instead of | to add support for Python 3.9 and below,aliencaocao,2022-11-05T03:40:54Z,2022-11-05T13:06:22+00:00,2,9.42,True,13,13,1,17,0,0,0,MERGED
+4304,Add support for the new DPM-Solver++ samplers added to k-diffusion,hentailord85ez,2022-11-04T23:04:16Z,2022-11-05T15:28:25+00:00,1,16.4,True,5,1,2,83,4,0,4,MERGED
+4301,load model from API,ArcticFaded,2022-11-04T20:22:37Z,2022-11-19T12:17:07+00:00,9,351.91,False,24,5,5,81,10,1,11,CLOSED
+4297,Fix errors from commit f2b697 with --hide-ui-dir-config,aria1th,2022-11-04T19:25:56Z,2022-11-05T13:22:50+00:00,1,17.95,True,8,6,1,46,0,0,0,MERGED
+4294,add --cors-allow-origins cmd opt,evshiron,2022-11-04T18:41:01Z,2022-11-05T13:20:45+00:00,1,18.66,True,13,3,2,297,6,0,6,MERGED
+4293,Open extensions links in new tab,innovaciones,2022-11-04T18:14:51Z,2022-11-05T13:18:29+00:00,1,19.06,True,1,1,1,25,3,0,3,MERGED
+4273,Sort hypernetworks list,Omegastick,2022-11-04T11:36:11Z,2022-11-05T13:16:18+00:00,1,25.67,True,1,1,1,183,3,0,3,MERGED
+4271,Fixes #4137 caused by race condition in training when VAE is unloaded,MarkovInequality,2022-11-04T09:54:33Z,2022-12-03T07:20:17+00:00,1,693.43,True,8,0,2,712,3,0,3,MERGED
+4270,Rename confusing translation,OedoSoldier,2022-11-04T09:52:59Z,2022-11-04T13:07:20+00:00,1,3.24,True,1,1,1,127,0,0,0,MERGED
+4249,Fix loading a model without a VAE from the cache,digburn,2022-11-04T00:44:23Z,2022-11-04T05:57:18+00:00,1,5.22,True,3,2,1,0,0,0,0,MERGED
+4245,fixed api compatibility with python 3.8,7flash,2022-11-03T22:57:19Z,2022-11-04T08:00:38+00:00,1,9.06,True,5,4,1,0,3,0,3,MERGED
+4233,Make DDIM and PLMS work on Mac OS,thesved,2022-11-03T18:50:35Z,2022-11-11T15:01:59+00:00,1,188.19,True,18,1,1,44,8,0,8,MERGED
+4222,licensing phase 1 - esrgan code from @victorca25/iNNfer,atomantic,2022-11-03T16:27:02Z,2023-01-04T11:03:29+00:00,1,1482.61,False,29,0,4,1019,10,0,10,CLOSED
+4218,[API][Feature] Utils endpoints,bamarillo,2022-11-03T13:24:12Z,2022-11-04T07:46:52+00:00,1,18.38,True,210,8,3,802,0,0,0,MERGED
+4210,Fix #3904 (hotkey to edit weight of tag is not working in (most) localizations),byzod,2022-11-03T10:56:47Z,2022-11-04T07:47:50+00:00,1,20.85,True,1,2,1,113,0,0,0,MERGED
+4201,Fix nowebui arg being ignored,aliencaocao,2022-11-03T05:10:04Z,2022-11-04T08:03:03+00:00,1,26.88,True,7,4,1,156,0,0,0,MERGED
+4199,Make extension manager remote links open a new tab,Ju1-js,2022-11-03T04:05:06Z,2022-11-04T08:03:19+00:00,1,27.97,True,1,1,1,26,0,0,0,MERGED
+4196,extras - skip unnecessary second hash of image,cobryan05,2022-11-03T02:41:36Z,2022-11-04T08:04:02+00:00,1,29.37,True,3,2,1,231,0,0,0,MERGED
+4193,Italian localization - Additions and Updates (fix typos),Harvester62,2022-11-02T22:27:17Z,2022-11-03T12:34:27+00:00,1,14.12,True,22,6,1,493,0,0,0,MERGED
+4191,Fix API Upscaling: Add required parameter to API extras route,digburn,2022-11-02T21:53:10Z,2022-11-04T05:56:35+00:00,2,32.06,True,1,0,1,41,0,0,0,MERGED
+4182,Process one,macrosoft,2022-11-02T18:39:16Z,2022-11-04T08:07:05+00:00,1,37.46,True,19,0,2,302,0,0,0,MERGED
+4179,"Convert callbacks into a private map, add utility functions",dfaker,2022-11-02T17:00:33Z,2022-11-04T16:27:54+00:00,1,47.46,True,41,28,1,438,5,0,5,MERGED
+4178,Added option to preview Created images on batch completion.,HeyImKyu,2022-11-02T16:40:25Z,2022-11-04T07:59:27+00:00,1,39.32,True,17,10,2,249,3,0,3,MERGED
+4177,Fix typo in ui.js,eltociear,2022-11-02T16:05:10Z,2023-01-04T14:59:31+00:00,1,1510.91,True,1,1,1,25,0,0,0,MERGED
+4173,add back png info in image api,evshiron,2022-11-02T14:46:29Z,2022-11-05T14:20:55+00:00,1,71.57,True,24,11,1,181,6,0,6,MERGED
+4155,fix: should invoke callback as well in api only mode,MaikoTan,2022-11-02T07:05:52Z,2022-11-02T10:04:56+00:00,1,2.98,True,4,1,2,103,0,0,0,MERGED
+4150,"Allow saving ""before-highres-fix.",timntorres,2022-11-02T05:27:31Z,2022-11-02T09:18:22+00:00,1,3.85,True,18,5,3,461,1,0,1,MERGED
+4142,Release processing resources after it finishes,jn-jairo,2022-11-02T01:06:35Z,2022-11-02T04:30:04+00:00,1,3.39,True,8,3,3,238,0,0,0,MERGED
+4127,Update de_DE.json,dhwz,2022-11-01T16:39:19Z,2022-11-01T22:32:14+00:00,1,5.88,True,2,2,1,18,1,0,1,MERGED
+4120,Enable override_settings to take effect for hypernetworks,aliencaocao,2022-11-01T15:32:01Z,2022-11-20T13:49:06+00:00,1,454.28,True,4,2,1,181,3,0,3,MERGED
+4117,Adding optional tag shuffling for training,tinker495,2022-11-01T14:55:26Z,2022-11-11T12:46:21+00:00,1,237.85,True,8,1,2,531,5,0,5,MERGED
+4112,Italian localization - Additions and updates,Harvester62,2022-11-01T14:19:33Z,2022-11-01T23:14:24+00:00,1,8.91,True,85,41,1,746,4,0,4,MERGED
+4110,Caused error in latest pytorch-lightning==1.8.0,laksjdjf,2022-11-01T13:57:55Z,2022-11-01T15:02:52+00:00,1,1.08,True,1,1,1,1665,1,0,1,MERGED
+4098,Unload sd_model before loading the other to solve the issue #3449,jn-jairo,2022-11-01T07:28:36Z,2022-11-01T10:54:00+00:00,1,3.42,True,34,10,5,679,3,0,3,MERGED
+4087,make save dir if save dir is not exists,ikasumi,2022-11-01T00:50:14Z,2022-11-01T12:08:27+00:00,1,11.3,True,1,0,1,186,0,0,0,MERGED
+4086,Add PNG info to pngs only if option is enabled.,timntorres,2022-11-01T00:31:43Z,2022-11-01T15:06:14+00:00,1,14.58,True,3,2,1,92,1,0,1,MERGED
+4056,Allow TI training using 6GB VRAM when xformers is available,MarkovInequality,2022-10-31T14:18:48Z,2022-11-01T15:17:56+00:00,1,24.99,True,17,3,3,766,5,0,5,MERGED
+4036,Fix 1 checkpoint cache count being useless #4035,R-N,2022-10-31T08:43:11Z,2022-11-04T07:54:24+00:00,1,95.19,True,9,12,1,1623,1,0,1,MERGED
+4026,Extend extras image cache key with upscale_first arg,dfaker,2022-10-31T02:40:36Z,2022-11-01T15:21:54+00:00,1,36.69,True,1,1,1,56,3,0,3,MERGED
+4025,prototype interrupt api,evshiron,2022-10-31T02:32:51Z,2022-11-01T15:22:16+00:00,1,36.82,True,6,0,1,0,0,0,0,MERGED
+4021,"Add mid-kdiffusion cfgdenoiser script callback - access latents, conditionings and sigmas mid-sampling",dfaker,2022-10-31T00:23:42Z,2022-11-02T04:29:16+00:00,1,52.09,True,44,1,2,233,2,0,2,MERGED
+4005,[API][Feature] Allow extensions to add their own enpoints to the API,bamarillo,2022-10-30T21:24:28Z,2022-11-01T15:15:32+00:00,3,41.85,False,14,2,1,384,2,1,3,CLOSED
+4004,"Added ""--clip-models-path"" switch",mamawr,2022-10-30T21:17:30Z,2022-11-01T15:19:12+00:00,1,42.03,True,3,2,2,130,0,0,0,MERGED
+3993,Localization Italian - Updates and additions,Harvester62,2022-10-30T17:11:18Z,2022-11-01T07:52:52+00:00,2,38.69,True,1173,1070,1,711,2,0,2,MERGED
+3986,VAE Selector,R-N,2022-10-30T15:18:26Z,2022-11-02T11:12:27+00:00,1,67.9,True,233,28,6,2150,27,0,27,MERGED
+3982,feat: add app started callback,MaikoTan,2022-10-30T14:47:34Z,2022-11-01T10:47:48+00:00,1,44.0,True,20,0,2,121,2,0,2,MERGED
+3976,"multiple trivial changes for ""extras"" models",victorca25,2022-10-30T12:08:06Z,2022-11-02T11:09:38+00:00,1,71.03,True,33,6,4,891,5,0,5,MERGED
+3975,Save/loading AdamW optimizer (for hypernetworks),aria1th,2022-10-30T11:52:56Z,2022-11-05T13:15:01+00:00,1,145.37,True,51,6,3,1432,10,0,10,MERGED
+3970,fix broken progress api and current image compatibility,evshiron,2022-10-30T09:05:47Z,2022-11-02T09:06:12+00:00,1,72.01,True,14,2,2,249,3,0,3,MERGED
+3955,Update ar_AR.json,xmodar,2022-10-29T23:03:57Z,2022-10-30T06:26:25+00:00,1,7.37,True,98,4,1,223,2,0,2,MERGED
+3952,Italian localization (extended) [Requires Feedback],Harvester62,2022-10-29T22:16:01Z,2022-10-30T00:07:43+00:00,1,1.86,True,1069,491,1,1327,2,0,2,MERGED
+3941,"Automated testing through API [WIP, feedback required]",mezotaken,2022-10-29T19:47:35Z,2022-10-30T04:41:39+00:00,1,8.9,True,192,0,8,3002,4,0,4,MERGED
+3928,Optimize training a little,R-N,2022-10-29T18:04:12Z,2022-10-30T06:51:36+00:00,1,12.79,True,107,51,3,308,0,0,0,MERGED
+3923,Fix weighted mask for highres fix,random-thoughtss,2022-10-29T17:09:53Z,2022-11-04T05:59:12+00:00,1,132.82,True,14,15,2,118,13,0,13,MERGED
+3917,Certain step counts for DDIM cause out of bounds error,MartinCairnsSQL,2022-10-29T14:46:24Z,2022-11-01T10:45:31+00:00,1,67.99,True,15,13,1,938,0,0,0,MERGED
+3915,[Finish] Update zh_CN.json localizations. 简体中文,batvbs,2022-10-29T13:38:17Z,2022-11-03T21:44:12+00:00,13,128.1,True,259,135,1,590,49,17,66,MERGED
+3898,Allow trailing comma in learning rate,R-N,2022-10-29T08:44:09Z,2022-10-30T06:29:29+00:00,1,21.76,True,21,14,1,60,0,0,0,MERGED
+3877,Filename tags are wrongly referencing to process size instead of image size,yaiol,2022-10-28T23:17:27Z,2022-10-29T04:32:11+00:00,1,5.25,True,5,4,1,147,0,0,0,MERGED
+3874,"Extras Tab - Option to upscale before face fix, caching improvements",cobryan05,2022-10-28T21:37:34Z,2022-10-29T04:44:17+00:00,1,7.11,True,130,55,2,676,0,0,0,MERGED
+3858,Fix log off by 1 #3847,R-N,2022-10-28T13:56:57Z,2022-10-29T04:55:20+00:00,1,14.97,True,20,18,3,526,0,0,0,MERGED
+3842,Gradient clipping in train tab,R-N,2022-10-28T10:20:07Z,2023-01-04T16:57:02+00:00,1,1638.62,True,43,14,4,1060,8,0,8,MERGED
+3831,Save Hypernetwork strength to infotext.,timntorres,2022-10-28T06:43:03Z,2022-10-30T05:47:18+00:00,1,47.07,True,7,2,3,305,8,0,8,MERGED
+3826,Natural sorting for dropdown checkpoint list,ANTONIOPSD,2022-10-28T03:57:42Z,2022-10-29T05:02:03+00:00,1,25.07,True,5,2,1,25,0,0,0,MERGED
+3818,Reduce peak memory usage when changing models,jwatzman,2022-10-27T21:03:21Z,2022-10-29T06:16:01+00:00,1,33.21,True,7,4,1,304,0,0,0,MERGED
+3810,Add a barebones CLIP interrogate API endpoint,royshil,2022-10-27T19:23:20Z,2022-11-06T09:28:00+00:00,2,230.08,True,22,0,2,348,2,0,2,MERGED
+3803,Fixed proper dataset shuffling,unknown,2022-10-27T17:22:04Z,2022-10-29T04:52:51+00:00,1,35.51,True,2,2,1,510,8,0,8,MERGED
+3798,added save image button and a hotkey to Modal Image View,aurror,2022-10-27T14:26:40Z,2022-10-29T06:11:06+00:00,1,39.74,True,55,4,3,93,0,0,0,MERGED
+3791,Truncate too long filename (Fix #705),shirayu,2022-10-27T13:02:52Z,2023-01-04T15:17:50+00:00,1,1658.25,True,12,4,1,370,1,0,1,MERGED
+3783,CODEOWNERS update for localization management,36DB,2022-10-27T11:27:31Z,2022-10-29T19:22:00+00:00,1,55.91,True,2,0,1,275,0,0,0,MERGED
+3771,Disable unavailable or duplicate options for Activation functions,aria1th,2022-10-27T07:10:06Z,2022-10-29T04:29:03+00:00,1,45.32,True,2,1,1,2209,6,0,6,MERGED
+3757,Add german Localization file.,LumiWasTaken,2022-10-27T01:04:26Z,2022-10-29T06:04:23+00:00,1,53.0,True,419,0,1,0,0,0,0,MERGED
+3755,Adding pt_BR (portuguese - Brazil) to localizations folder,M-art-ucci,2022-10-26T23:15:13Z,2022-10-29T04:38:49+00:00,1,53.39,True,468,0,1,0,2,0,2,MERGED
+3728,Properly shuffle dataset at every epoch for TI/hypernet training,unknown,2022-10-26T16:04:21Z,2022-10-27T14:10:02+00:00,1,22.09,False,13,6,2,523,6,0,6,CLOSED
+3725,Included localization file for IT language,EugenioBuffo,2022-10-26T15:34:47Z,2022-10-29T06:04:08+00:00,1,62.49,True,492,0,1,0,2,0,2,MERGED
+3723,Correct before image saved callback,unknown,2022-10-26T15:11:49Z,2022-11-01T11:59:10+00:00,1,140.79,True,1,1,1,87,2,0,2,MERGED
+3722,prototype progress api,evshiron,2022-10-26T14:39:22Z,2022-10-30T06:02:01+00:00,1,87.38,True,108,27,3,0,30,0,30,MERGED
+3717,Add missing support for linear activation in hypernetwork,benkyoujouzu,2022-10-26T13:07:26Z,2022-10-29T04:30:14+00:00,1,63.38,True,1,0,1,150,8,0,8,MERGED
+3715,Fix error caused by EXIF transpose when using custom scripts,OedoSoldier,2022-10-26T12:33:42Z,2022-11-02T10:41:36+00:00,1,166.13,True,2,1,1,179,0,0,0,MERGED
+3711,Add localisation for Traditional Chinese 正體中文化,benlisquare,2022-10-26T11:17:23Z,2022-10-29T05:13:14+00:00,2,65.93,True,488,0,1,520,5,2,7,MERGED
+3709,Prevent people from just saying I've got the latest version in the bug report form,Mozoloa,2022-10-26T08:36:35Z,2022-10-26T10:16:07+00:00,1,1.66,True,1,1,1,244,0,0,0,MERGED
+3698,Remove activation from final layer of Hypernetworks,guaneec,2022-10-26T04:14:05Z,2022-11-04T06:02:21+00:00,1,217.8,True,26,14,2,589,13,0,13,MERGED
+3691,Revamped Arabic localization,xmodar,2022-10-25T23:20:50Z,2022-10-29T06:03:36+00:00,1,78.71,True,398,425,3,394,6,0,6,MERGED
+3682,Added a way to generate CLIP/Deepbooru prompts for an entire directory of images [PoC?],r-xnny,2022-10-25T20:46:25Z,2023-01-04T15:21:45+00:00,1,1698.59,False,127,1,3,949,2,0,2,CLOSED
+3669,Added option to use unmasked conditioning image for inpainting model.,random-thoughtss,2022-10-25T18:26:00Z,2022-10-29T04:49:48+00:00,1,82.4,True,79,52,4,1128,23,0,23,MERGED
+3654,use default_time_format if format is blank,w-e-w,2022-10-25T15:14:47Z,2022-10-26T06:51:32+00:00,1,15.61,True,1,1,1,509,0,0,0,MERGED
+3653,Add French localization,tumbly,2022-10-25T15:03:07Z,2022-10-26T06:47:41+00:00,9,15.74,True,415,0,1,78,1,20,21,MERGED
+3631,🧿 Turkish localization,camenduru,2022-10-25T09:16:19Z,2022-10-26T10:13:27+00:00,1,24.95,True,423,0,1,56,2,0,2,MERGED
+3628,"img2img, use smartphone photos' EXIF orientation",timntorres,2022-10-25T08:46:01Z,2022-10-26T07:10:57+00:00,1,22.42,True,8,0,1,260,3,0,3,MERGED
+3627,Some needs for extension,yfszzx,2022-10-25T07:36:50Z,2022-10-26T13:47:09+00:00,1,30.17,False,6,0,3,107,2,1,3,CLOSED
+3626,Enable PNGinfo for textual inversion training.,timntorres,2022-10-25T07:11:41Z,2022-10-26T07:14:35+00:00,1,24.05,True,13,6,1,424,0,0,0,MERGED
+3625,Force hypernet training previews to ignore subdirectory option (prevents folderspam).,timntorres,2022-10-25T07:02:31Z,2022-10-26T07:12:46+00:00,1,24.17,True,1,1,1,106,0,0,0,MERGED
+3621,"(Hypernet) Xavier/He initializations and activation function(Sigmond, tanh, etc)",aria1th,2022-10-25T06:18:37Z,2022-10-26T06:17:01+00:00,1,23.97,True,44,11,3,825,8,0,8,MERGED
+3605,Add Spanish localization,innovaciones,2022-10-25T00:54:51Z,2022-10-25T05:17:42+00:00,1,4.38,True,418,0,1,150,4,0,4,MERGED
+3595,images: allow nested bracket in filename pattern,Milly,2022-10-24T21:36:42Z,2022-10-26T06:50:25+00:00,1,33.23,True,4,7,1,144,1,0,1,MERGED
+3580,Add RTL languages support and improved Arabic localization,xmodar,2022-10-24T16:26:41Z,2022-10-25T05:15:44+00:00,1,12.82,True,550,690,3,422,2,0,2,MERGED
+3577,[Bugfix][API] - Fix API response for colab users,sphuff,2022-10-24T16:17:12Z,2022-10-26T06:46:17+00:00,4,38.48,True,14,7,2,877,0,1,1,MERGED
+3576,"Fix breaking change, default filename pattern",w-e-w,2022-10-24T15:54:52Z,2022-10-25T06:44:54+00:00,1,14.83,True,3,1,1,768,1,0,1,MERGED
+3571,webui.sh: no automatic git pull,szhublox,2022-10-24T14:15:12Z,2022-10-29T20:04:26+00:00,2,125.82,True,3,4,1,0,2,0,2,MERGED
+3562,Update KR localization,36DB,2022-10-24T12:01:18Z,2022-10-26T10:15:40+00:00,1,46.24,True,16,2,1,225,4,0,4,MERGED
+3549,add callback after image is saved,tsngo,2022-10-24T06:46:58Z,2022-10-25T05:40:20+00:00,1,22.89,True,14,3,2,209,7,0,7,MERGED
+3548,Add Iterate Button and Improve PFF UI,TinyBeeman,2022-10-24T06:39:45Z,2022-10-26T10:26:36+00:00,1,51.78,True,32,22,1,1783,4,0,4,MERGED
+3545,use indentation for config.json,w-e-w,2022-10-24T06:20:26Z,2022-10-24T07:22:49+00:00,1,1.04,True,1,1,1,134,0,0,0,MERGED
+3538,Apply loss statistics from hypernetwork to textual inversion,ccchan49,2022-10-24T03:56:45Z,2023-03-15T18:27:35+00:00,1,3422.51,False,55,31,2,141,13,0,13,CLOSED
+3537,Move out images browser from project,yfszzx,2022-10-24T03:45:53Z,2022-10-24T06:28:38+00:00,1,2.71,True,18,653,9,456,2,0,2,MERGED
+3517,"Save properly processed images with option ""save_images_before_color_correction""",mezotaken,2022-10-23T20:08:11Z,2022-10-24T05:58:57+00:00,1,9.85,True,17,14,1,673,1,0,1,MERGED
+3511,[API][Feature] Add extras endpoints,bamarillo,2022-10-23T19:33:06Z,2022-10-29T04:24:38+00:00,2,128.86,True,103,56,2,720,6,1,7,MERGED
+3494,update deepdanbooru version,judgeou,2022-10-23T12:43:37Z,2022-10-24T05:46:32+00:00,1,17.05,True,1,1,1,206,2,0,2,MERGED
+3493,update ja translation,krisfail,2022-10-23T12:34:39Z,2022-10-24T06:20:05+00:00,1,17.76,True,164,95,1,204,1,0,1,MERGED
+3490,Fix textual inversion training with inpainting models,Nerogar,2022-10-23T12:10:46Z,2023-01-04T14:40:29+00:00,2,1754.5,True,28,1,1,86,11,0,11,MERGED
+3486,Hypernetworks - fix KeyError when dataset contains more than 1024 items + statistics for pbar,aria1th,2022-10-23T11:06:47Z,2022-10-24T06:07:40+00:00,2,19.01,True,24,16,1,148,4,0,4,MERGED
+3479,"after initial launch, disable --autolaunch for subsequent restarts",w-e-w,2022-10-23T07:55:32Z,2022-10-23T09:34:16+00:00,1,1.65,True,2,0,1,479,0,0,0,MERGED
+3454,Add ru_RU localization,kabachuha,2022-10-22T21:02:57Z,2022-10-23T06:32:24+00:00,1,9.49,True,475,0,1,65,1,0,1,MERGED
+3428,"Add feature, Customizable [datetime] Format and Timezone for image filename",w-e-w,2022-10-22T15:46:23Z,2022-10-24T07:28:43+00:00,1,39.71,True,92,33,1,4046,4,0,4,MERGED
+3421,Fixed deepdanbooru on linux after overhaul,Greendayle,2022-10-22T15:03:29Z,2022-10-22T16:27:16+00:00,1,1.4,True,3,2,1,186,2,0,2,MERGED
+3414,[Hypernetworks] Add a feature to use dropout / more activation functions,discus0434,2022-10-22T13:44:16Z,2022-10-22T16:32:14+00:00,1,2.8,True,63,40,3,602,8,0,8,MERGED
+3381,[API][Feature] - Add img2img API endpoint,sphuff,2022-10-21T23:38:59Z,2022-10-23T06:26:56+00:00,6,30.8,True,71,8,3,160,22,3,25,MERGED
+3377,Implementation of CUDA device id selection (--device-id 0/1/2),Extraltodeus,2022-10-21T22:19:51Z,2022-10-22T10:58:01+00:00,1,12.64,True,19,3,2,371,9,0,9,MERGED
+3364,Fixed img2imgalt after Inpainting update,random-thoughtss,2022-10-21T18:43:36Z,2022-10-22T16:36:58+00:00,1,21.89,True,7,1,1,14,2,0,2,MERGED
+3348,[Finish] Add support for simplified chinese 简体中文化,dtlnor,2022-10-21T16:31:43Z,2022-10-26T10:17:22+00:00,33,113.76,True,488,0,1,164,64,23,87,MERGED
+3338,"fix bug of progress bar when running img2img and highres fix (#3093, #3145)",ritosonn,2022-10-21T15:01:38Z,2022-10-25T05:32:34+00:00,1,86.52,True,2,2,1,267,4,0,4,MERGED
+3329,Make commit hash mandatory field in issue template,kybercore,2022-10-21T12:43:45Z,2022-10-21T13:48:13+00:00,1,1.07,True,2,0,1,0,0,0,0,MERGED
+3321,Features to readme,ClashSAN,2022-10-21T11:48:16Z,2022-10-21T13:51:08+00:00,1,2.05,True,19,8,1,95,0,0,0,MERGED
+3309,Fix discrepancy between hypernetwork's name and filename.,timntorres,2022-10-21T09:38:57Z,2022-10-21T13:52:24+00:00,1,4.22,True,10,2,3,533,0,0,0,MERGED
+3302,Change option description of unload_models_when_training,CCRcmcpe,2022-10-21T08:05:03Z,2022-10-21T13:53:06+00:00,1,5.8,True,1,1,1,443,0,0,0,MERGED
+3277,Use correct mean loss of Dataset + add loss statistics,aria1th,2022-10-21T00:55:35Z,2022-10-22T17:25:33+00:00,1,40.5,True,44,11,1,268,6,0,6,MERGED
+3264,Add support for Tensorboard (training),Melanpan,2022-10-20T21:00:27Z,2023-01-13T11:58:03+00:00,2,2030.96,True,48,1,3,1303,3,1,4,MERGED
+3263,Fix skip and interrupt buttons for Highres. fix option enabled,mezotaken,2022-10-20T20:50:09Z,2022-10-21T06:49:41+00:00,1,9.99,True,4,0,1,1045,0,0,0,MERGED
+3253,interrogate: Fix CLIP-interrogation on CPU,Patryk27,2022-10-20T17:26:57Z,2022-10-21T06:52:12+00:00,1,13.42,True,9,3,1,363,3,0,3,MERGED
+3248,[Bugfix][API] - Fix API arg in launch script,sphuff,2022-10-20T15:35:14Z,2022-10-21T06:50:58+00:00,1,15.26,True,3,2,1,160,3,0,3,MERGED
+3246,Preprocess: fixed keep ratio and changed split behavior,Milly,2022-10-20T15:02:55Z,2022-10-21T15:36:55+00:00,1,24.57,True,52,24,2,548,1,0,1,MERGED
+3241, Allow datasets with only 1 image in Textual Inversion,guaneec,2022-10-20T14:25:54Z,2022-10-21T06:54:09+00:00,1,16.47,True,2,2,1,130,0,0,0,MERGED
+3224,Fixed path issue while extras batch processing,winterspringsummer,2022-10-20T10:15:03Z,2022-10-21T04:59:00+00:00,1,18.73,True,13,6,1,483,3,0,3,MERGED
+3218,fix img2img color correction only applying to the first image of a batch,w-e-w,2022-10-20T06:59:49Z,2022-10-22T19:07:54+00:00,1,60.13,False,2,2,1,277,3,0,3,CLOSED
+3199,Add features to insert activation functions to hypernetworks,discus0434,2022-10-20T00:28:51Z,2022-10-21T06:34:45+00:00,1,30.1,True,23,11,3,509,10,0,10,MERGED
+3198,Add Clear Prompt button to roll_col ,papuSpartan,2022-10-20T00:20:05Z,2022-12-10T10:35:52+00:00,1,1234.26,True,71,4,5,665,14,0,14,MERGED
+3197,Training UI Changes,dfaker,2022-10-20T00:01:13Z,2022-10-21T06:58:16+00:00,1,30.95,True,50,23,6,641,0,0,0,MERGED
+3192,Add support for RunwayML In-painting Model,random-thoughtss,2022-10-19T21:02:29Z,2022-10-21T06:03:23+00:00,2,33.02,True,451,19,5,527,51,1,52,MERGED
+3189,Allow Hypernet previews to create_infotext.,timntorres,2022-10-19T20:42:46Z,2022-10-21T06:55:00+00:00,1,34.2,True,7,2,1,1295,1,0,1,MERGED
+3176,Show PB texts at same time and earlier,asimard1,2022-10-19T17:54:39Z,2023-01-04T15:40:14+00:00,1,1845.76,True,7,4,1,154,0,0,0,MERGED
+3153,Log more specific hypernet name to infotext.,timntorres,2022-10-19T13:47:53Z,2022-10-19T17:20:26+00:00,1,3.54,True,1,1,1,525,0,0,0,MERGED
+3144,Generate image grid for progress preview.,Unnoen,2022-10-19T11:23:55Z,2022-10-22T17:36:04+00:00,1,78.2,True,30,2,3,2358,0,0,0,MERGED
+3139,"[Preprocess image] New option to auto crop based on complexity, edges, faces",captin411,2022-10-19T10:21:20Z,2022-10-26T06:24:21+00:00,2,164.05,True,394,5,4,1203,1,0,1,MERGED
+3106,Update Learning Rate tooltip text,HunterVacui,2022-10-18T23:35:14Z,2022-10-19T18:29:32+00:00,1,18.91,True,2,0,1,309,1,0,1,MERGED
+3105,Remove wrong self reference in CUDA support for Invokeai,chekaaa,2022-10-18T23:31:52Z,2022-10-19T06:35:53+00:00,1,7.07,True,1,1,1,96,0,0,0,MERGED
+3092,"Fixed ""Torch active/reserverd~"" style",realryo1,2022-10-18T20:07:36Z,2022-10-19T08:50:25+00:00,1,12.71,True,0,5,1,209,0,0,0,MERGED
+3086,Add settings for multi-layer structure hypernetworks,discus0434,2022-10-18T17:43:51Z,2022-10-19T15:40:53+00:00,1,21.95,True,79,23,5,1149,9,0,9,MERGED
+3081,Fix typo in prompt_parser.py,eltociear,2022-10-18T17:19:10Z,2022-10-19T08:52:12+00:00,1,15.55,True,1,1,1,24,0,0,0,MERGED
+3058,Duplicate artists pls be the last fix,supersteve3d,2022-10-18T12:21:32Z,2022-10-18T15:11:20+00:00,1,2.83,True,0,5,1,45,0,0,0,MERGED
+3049,Add ko_KR localization,36DB,2022-10-18T10:13:08Z,2022-10-24T05:55:33+00:00,1,139.71,True,497,0,1,503,1,0,1,MERGED
+3041,"Add scripts to ui-config,json",fa0311,2022-10-18T08:32:37Z,2022-10-18T12:08:23+00:00,1,3.6,True,18,4,2,490,1,0,1,MERGED
+3035,add japanese localization 日本語化,krisfail,2022-10-18T06:30:26Z,2022-10-22T16:38:34+00:00,1,106.14,True,413,0,1,515,5,0,5,MERGED
+3008,Auto select attention block for editing,JustMaier,2022-10-17T23:21:10Z,2022-10-18T11:24:01+00:00,1,12.05,True,32,3,1,265,0,0,0,MERGED
+3002,Extend extras cache key with new upscale-to options,dfaker,2022-10-17T21:47:08Z,2022-10-18T05:29:52+00:00,1,7.71,True,2,1,1,0,0,0,0,MERGED
+2995,"Display estimated time remaining, in progress bar",anastasiuspernat,2022-10-17T20:40:59Z,2022-10-19T06:39:28+00:00,1,33.97,True,20,1,1,514,6,0,6,MERGED
+2990,Fix typo in 'choices' when loading upscaler 2 config,DivineOmega,2022-10-17T20:01:04Z,2022-10-17T21:27:16+00:00,1,1.44,True,1,1,1,11,0,0,0,MERGED
+2984,Don't eat colons in booru tags,guaneec,2022-10-17T19:14:31Z,2022-10-18T11:18:05+00:00,1,16.06,True,1,2,1,188,3,0,3,MERGED
+2967,Fix xformers attnblock,C43H66N12O12S2,2022-10-17T16:52:55Z,2022-10-18T08:53:04+00:00,1,16.0,True,10,4,1,606,23,0,23,MERGED
+2959,Disable weights auto swap with config option,trufty,2022-10-17T15:08:31Z,2022-10-18T11:19:07+00:00,2,20.18,True,5,0,2,511,1,0,1,MERGED
+2946,prevent highlighting/selecting image,overra,2022-10-17T10:27:16Z,2022-10-18T04:58:51+00:00,2,18.53,True,1,0,1,163,0,0,0,MERGED
+2945,"propose an Contrastive Prompt Tuning method (DreamArtist), can super dramatically improve the image quality and diversity",IrisRainbowNeko,2022-10-17T10:15:18Z,2022-11-09T12:36:00+00:00,6,554.35,False,312,19,8,930,99,4,103,CLOSED
+2939,Added dark mode switch,Michoko92,2022-10-17T09:07:17Z,2022-10-18T11:04:26+00:00,1,25.95,True,11,1,3,67,7,0,7,MERGED
+2932,FastAPI Skeleton ,ArcticFaded,2022-10-17T07:09:15Z,2022-10-17T08:34:23+00:00,1,1.42,True,157,31,5,1125,0,1,1,MERGED
+2924,Fix #2750,fortypercnt,2022-10-17T03:33:01Z,2022-10-17T04:48:28+00:00,1,1.26,True,3,3,1,281,0,0,0,MERGED
+2919,add cache for workflow,DancingSnow0517,2022-10-17T01:37:00Z,2022-10-17T04:57:17+00:00,1,3.34,True,6,0,1,34,0,0,0,MERGED
+2908,improve performance of 3 way merge when ram is scarce,MrCheeze,2022-10-16T22:55:29Z,2022-10-17T04:54:36+00:00,1,5.99,True,17,10,1,412,0,0,0,MERGED
+2907,Fix CLIP Interrogator and disable ranks for it,DenkingOfficial,2022-10-16T22:25:19Z,2022-10-17T05:01:59+00:00,1,6.61,True,2,2,1,441,1,0,1,MERGED
+2895,Print list of embeddings on embedding reload,dfaker,2022-10-16T19:28:57Z,2022-10-17T05:42:18+00:00,1,10.22,True,1,0,1,171,3,0,3,MERGED
+2894,Safeguard setting restore logic against exceptions,HunterVacui,2022-10-16T19:13:33Z,2022-10-17T05:43:41+00:00,1,10.5,True,26,22,1,753,1,0,1,MERGED
+2846,"A new, better way to submit Bug Reports & Feature Requests",Mozoloa,2022-10-16T11:38:38Z,2022-10-19T18:30:02+00:00,1,78.86,True,122,52,5,828,3,0,3,MERGED
+2838,add update warning to launch.py,dfaker,2022-10-16T09:50:36Z,2022-10-18T12:10:09+00:00,1,50.33,True,23,2,2,535,1,0,1,MERGED
+2835,hot-reload javascript files,zhengxiaoyao0716,2022-10-16T09:09:03Z,2022-10-19T06:44:00+00:00,1,69.58,True,19,14,1,247,6,0,6,MERGED
+2807,added extras batch work from directory,winterspringsummer,2022-10-16T05:05:31Z,2022-10-16T06:47:31+00:00,1,1.7,True,30,5,2,528,0,0,0,MERGED
+2790,fix dir_path in some path like `D:/Pic/outputs`,DancingSnow0517,2022-10-16T02:49:48Z,2022-10-16T13:40:04+00:00,1,10.84,True,2,4,1,0,3,0,3,MERGED
+2778,Allow specifying the region of ngrok.,ddPn08,2022-10-16T00:24:45Z,2022-10-16T06:56:33+00:00,1,6.53,True,7,4,3,68,0,0,0,MERGED
+2755,Add styles to UI Config,CookieHCl,2022-10-15T20:20:29Z,2022-10-16T07:04:14+00:00,1,10.73,True,10,1,1,376,0,0,0,MERGED
+2741,Add xformers for Lovelace and Hopper,C43H66N12O12S2,2022-10-15T16:09:44Z,2022-10-15T17:25:28+00:00,1,1.26,True,4,3,2,223,3,0,3,MERGED
+2732,check NaN for hypernetwork tuning,aria1th,2022-10-15T12:47:20Z,2022-10-15T14:15:26+00:00,1,1.47,True,6,4,1,0,0,0,0,MERGED
+2714,Fix iamge typo,NO-ob,2022-10-15T10:44:35Z,2022-10-15T13:13:13+00:00,2,2.48,True,1,1,1,0,0,0,0,MERGED
+2703,Fix download section layout,ruocaled,2022-10-15T09:27:04Z,2022-10-15T14:14:58+00:00,1,4.8,True,2,9,2,569,0,0,0,MERGED
+2693,Add basic Pylint to catch syntax errors on PRs,robertsmieja,2022-10-15T08:27:07Z,2022-10-15T13:26:07+00:00,1,4.98,True,39,0,2,25893,4,0,4,MERGED
+2675,added refresh button to embedding and hypernetwork dropdowns in Train…,junpengqiu,2022-10-15T03:36:41Z,2022-10-16T07:51:07+00:00,1,28.24,True,27,20,2,494,3,0,3,MERGED
+2673,Fix directory for image history feature,ddPn08,2022-10-15T02:31:04Z,2022-10-15T07:07:46+00:00,1,4.61,True,4,2,1,217,0,0,0,MERGED
+2667,Add hint for `Ctrl/Alt + Enter` shortcut,aoirusann,2022-10-14T23:06:39Z,2022-10-15T06:59:40+00:00,1,7.88,True,10,14,3,1191,2,0,2,MERGED
+2663,Fix XY-plot steps if highres fix is enabled,space-nuko,2022-10-14T21:27:39Z,2022-10-15T07:20:30+00:00,1,9.88,True,4,1,1,115,0,0,0,MERGED
+2661,Raise an assertion error if no training images have been found.,Melanpan,2022-10-14T20:48:35Z,2022-10-15T07:13:24+00:00,2,10.41,True,1,0,1,207,0,0,0,MERGED
+2649,Fix prerequisites check in webui.sh,dnlmlr,2022-10-14T19:04:25Z,2022-10-15T07:29:41+00:00,1,12.42,True,2,2,1,133,0,0,0,MERGED
+2645,Auto re-open selected image in gallery when re-generation,ruocaled,2022-10-14T18:34:05Z,2022-10-15T06:32:02+00:00,1,11.97,True,35,0,1,856,7,0,7,MERGED
+2643,Disable compiling deepbooru model,CookieHCl,2022-10-14T18:29:49Z,2022-10-15T07:21:22+00:00,1,12.86,True,1,1,1,336,0,0,0,MERGED
+2642,Allow explicit padding in prompt,hentailord85ez,2022-10-14T18:25:43Z,2023-01-05T14:22:29+00:00,4,1987.95,False,0,0,0,154,4,1,5,CLOSED
+2611,"Add Vector size to TI embed image caption, only generate when data is fresh, expand image format loading support",dfaker,2022-10-14T14:25:51Z,2022-10-15T14:23:39+00:00,1,23.96,True,13,4,1,212,3,0,3,MERGED
+2604,Change grid row count autodetect to prevent empty spots,Gugubo,2022-10-14T12:25:22Z,2022-10-14T16:54:25+00:00,1,4.48,True,5,0,2,263,4,0,4,MERGED
+2597,"Add 'interrogate' and 'all' choices to --use-cpu, make --use-cpu case insensitive",brkirch,2022-10-14T11:20:37Z,2022-10-14T13:31:40+00:00,1,2.18,True,11,11,3,453,1,0,1,MERGED
+2588,Allow change set --index-url for pip,Cassy-Lee,2022-10-14T09:39:59Z,2022-10-15T07:10:22+00:00,1,21.51,True,3,2,1,67,1,0,1,MERGED
+2585,Implementation of Stable Diffusion with Aesthetic Gradients,MalumaDev,2022-10-14T09:00:22Z,2022-10-21T13:16:51+00:00,4,172.27,True,491,87,11,88,37,7,44,MERGED
+2573,add --ckpt-cache option for faster model switching,raefu,2022-10-14T05:46:26Z,2022-10-15T07:35:26+00:00,1,25.82,True,33,26,2,75,2,0,2,MERGED
+2554,Set seed input to -1 when it's none,githublsx,2022-10-14T03:12:02Z,2022-10-15T07:12:16+00:00,1,28.0,True,1,1,1,65,5,0,5,MERGED
+2533,fix typo,ChucklesTheBeard,2022-10-13T20:45:28Z,2022-10-14T18:26:54+00:00,1,21.69,True,1,1,1,0,0,0,0,MERGED
+2507,[xy_grid.py] add option denoising_strength,Naeaeaeaeae,2022-10-13T16:55:01Z,2022-10-14T19:03:33+00:00,1,26.14,True,1,0,1,51,0,0,0,MERGED
+2479,A response optimization,huige233,2022-10-13T10:25:45Z,2022-10-13T17:14:55+00:00,2,6.82,False,569,687,14,78,4,1,5,CLOSED
+2459,Solving issue of differents ckpt with same hash,jn-jairo,2022-10-13T06:37:25Z,2023-01-14T13:30:35+00:00,1,2238.89,False,72,10,2,1415,32,0,32,CLOSED
+2440,fixed regression in xy_grid Var. seed fixing...,RnDMonkey,2022-10-12T23:36:41Z,2022-10-14T19:02:21+00:00,1,43.43,True,1,1,1,27,0,0,0,MERGED
+2430,Save a csv containing the loss while training,Melanpan,2022-10-12T21:48:00Z,2022-10-14T19:44:00+00:00,1,45.93,True,36,2,3,744,1,0,1,MERGED
+2407,Add `--lowram` param for low RAM machine like Colab,Ljzd-PRO,2022-10-12T18:27:35Z,2022-10-14T16:57:25+00:00,1,46.5,True,14,2,2,919,0,0,0,MERGED
+2396,"Add a ""History"" tab ",yfszzx,2022-10-12T16:59:21Z,2022-10-14T16:32:19+00:00,3,47.55,True,375,0,4,1683,25,1,26,MERGED
+2375,[img2imgalt] [UI Imporve] Overriding some params by default for convenience.,aoirusann,2022-10-12T12:24:55Z,2022-10-13T15:03:17+00:00,1,26.64,True,33,3,1,482,3,0,3,MERGED
+2345,[img2imgalt] Fix seed & Allow batch,aoirusann,2022-10-12T05:19:06Z,2022-10-12T07:03:46+00:00,1,1.74,True,1,3,1,607,0,0,0,MERGED
+2344,Ensure the opts.outdir_save directory exists before opening log.csv,brkirch,2022-10-12T05:13:27Z,2022-10-12T06:55:57+00:00,1,1.71,True,2,0,1,1373,0,0,0,MERGED
+2336,Restore last generation params rebased,tsngo,2022-10-12T03:42:53Z,2022-10-13T09:21:20+00:00,1,29.64,True,14,1,4,226,4,0,4,MERGED
+2324,Interrogate: add option to include ranks in output,HunterVacui,2022-10-12T01:16:42Z,2022-10-13T05:05:41+00:00,1,27.82,True,24,14,4,1548,5,0,5,MERGED
+2321,update environment-wsl2.yaml,ShnitzelKiller,2022-10-12T00:54:12Z,2022-10-12T06:08:44+00:00,1,5.24,True,5,5,1,266,0,0,0,MERGED
+2318,Update shared.py - typo in settings tab.,supersteve3d,2022-10-12T00:22:56Z,2022-10-12T05:35:59+00:00,1,5.22,True,1,1,1,78,0,0,0,MERGED
+2316,draw_xy_grid provides the option to also return lone images,HunterVacui,2022-10-12T00:11:23Z,2022-10-13T10:25:30+00:00,1,34.24,True,40,17,1,1129,4,0,4,MERGED
+2312,edit attention key handler: return early when weight parse returns NaN,dfaker,2022-10-11T23:23:56Z,2022-10-12T06:07:49+00:00,1,6.73,True,1,0,1,277,0,0,0,MERGED
+2300,typo fix in hints.js,LumiWasTaken,2022-10-11T20:08:31Z,2022-10-12T07:11:06+00:00,2,11.04,True,1,1,1,10,0,0,0,MERGED
+2299,Fixed typo on setting for unloading VAE/CLIP,asaucedev,2022-10-11T20:01:12Z,2022-10-12T06:00:16+00:00,1,9.98,False,1,1,1,90,1,0,1,CLOSED
+2295,Account when lines are mismatched,hentailord85ez,2022-10-11T18:50:52Z,2022-10-12T08:38:41+00:00,1,13.8,True,11,1,1,113,0,0,0,MERGED
+2267,"Add a ""History"" tab to manage previously generated images conveniently",yfszzx,2022-10-11T12:57:31Z,2022-10-12T12:49:04+00:00,2,23.86,False,0,0,0,1153,5,5,10,CLOSED
+2195,Save some space + layout fix,TheLastBen,2022-10-10T18:40:10Z,2022-10-11T12:37:04+00:00,1,17.95,True,39,15,2,17,5,0,5,MERGED
+2164,"Add a ""History"" tab to manage previously generated images conveniently",yfszzx,2022-10-10T12:36:20Z,2022-10-11T12:18:25+00:00,1,23.7,False,0,0,0,978,7,0,7,CLOSED
+2155,Add Krita Plugin,Interpause,2022-10-10T09:03:54Z,2022-10-10T11:56:14+00:00,1,2.87,False,2762,407,39,911,1,1,2,CLOSED
+2143,deepbooru tags for textual inversion preproccessing,JC-Array,2022-10-10T05:10:57Z,2022-10-12T05:35:27+00:00,1,48.41,True,114,27,4,571,6,0,6,MERGED
+2124,Fix `edit-attention` not updating Gradio textbox's internal state when using arrow keys,khanonnie,2022-10-10T00:48:17Z,2022-10-11T18:19:31+00:00,1,41.52,True,3,0,1,618,2,0,2,MERGED
+2110,"Add ""Scale to"" option to Extras",JustMaier,2022-10-09T20:37:58Z,2022-10-12T07:36:22+00:00,2,58.97,True,50,27,3,104,7,0,7,MERGED
+2107,changed pytorch cuda-version from 113 to 116,ChinatsuHS,2022-10-09T19:50:44Z,2022-10-15T13:31:04+00:00,2,137.67,False,0,0,0,336,1,3,4,CLOSED
+2092,Implement SwinIR v2,C43H66N12O12S2,2022-10-09T16:01:54Z,2022-10-10T16:54:57+00:00,1,24.88,True,1045,7,2,534,3,0,3,MERGED
+2067,update ESRGAN architecture and model to support all ESRGAN models,victorca25,2022-10-09T11:40:23Z,2022-10-23T10:43:41+00:00,1,335.06,True,563,292,4,2249,10,0,10,MERGED
+2037,"Add option to store TI embeddings in png chunks, and load from same.",dfaker,2022-10-09T04:44:32Z,2022-10-12T12:59:24+00:00,1,80.25,True,265,2,4,411,10,0,10,MERGED
+2035,Restore last generation params,tsngo,2022-10-09T04:08:18Z,2022-10-12T03:43:31+00:00,1,71.59,False,245,204,8,280,2,1,3,CLOSED
+2003,maximize the view,TheLastBen,2022-10-08T21:03:52Z,2022-10-10T14:11:25+00:00,1,41.13,True,4,0,1,0,2,0,2,MERGED
+2002,Dreambooth,d8ahazard,2022-10-08T21:01:10Z,2022-10-30T17:26:59+00:00,5,524.43,False,2474,129,17,532,145,3,148,CLOSED
+1904,Added a flag to run as root if needed,EternalNooblet,2022-10-07T19:40:34Z,2022-11-27T11:17:44+00:00,1,1215.62,True,13,1,1,304,12,0,12,MERGED
+1870,fix: typo in README.md,yuna0x0,2022-10-07T13:13:22Z,2022-10-08T11:55:58+00:00,1,22.71,False,1,1,1,11,0,0,0,CLOSED
+1867,xy_grid: Find hypernetworks by short name,Milly,2022-10-07T11:48:27Z,2022-10-12T07:40:11+00:00,1,115.86,True,64,32,2,141,3,0,3,MERGED
+1851,xformers attention,C43H66N12O12S2,2022-10-07T02:28:30Z,2022-10-08T13:29:59+00:00,14,35.02,True,55,6,6,746,73,4,77,MERGED
+1647,Pass arguments from bash to python,tranzmatt,2022-10-04T17:45:11Z,2022-10-18T14:24:21+00:00,1,332.65,True,2,2,2,101,6,0,6,MERGED
+1623,Sanitize pathname,Milly,2022-10-04T12:41:27Z,2022-10-24T21:37:29+00:00,1,488.93,False,33,6,1,249,4,1,5,CLOSED
+1517,Unified prompt parser,guaneec,2022-10-02T16:02:00Z,2022-10-03T07:43:09+00:00,2,15.69,False,144,138,4,837,6,1,7,CLOSED
+1490,#1484 fix empty styles pattern,RnDMonkey,2022-10-02T04:41:54Z,2022-10-03T04:55:04+00:00,2,24.22,True,2,2,1,37,2,2,4,MERGED
+1476,[xy_grid] script infotext improvements,RnDMonkey,2022-10-01T23:02:09Z,2023-01-04T15:57:37+00:00,2,2272.92,True,12,0,1,95,7,1,8,MERGED
+1446,Tag/Option Parsing in Prompts From File,shirase-0,2022-10-01T15:08:14Z,2022-10-15T07:47:51+00:00,1,328.66,True,58,1,1,945,4,0,4,MERGED
+1407,Fix when eta = 0,hentailord85ez,2022-09-30T21:39:20Z,2022-10-03T05:20:19+00:00,1,55.68,True,1,1,1,158,0,0,0,MERGED
+1375,Model source installatoion readme instead of file name,dvdvideo1234,2022-09-30T14:40:07Z,2022-10-12T16:01:28+00:00,10,289.36,False,12,0,4,0,5,4,9,CLOSED
+1273,Prompt weights v2. Now with groups,amotile,2022-09-28T22:05:59Z,2023-01-04T14:13:47+00:00,1,2344.13,False,148,2,2,563,58,1,59,CLOSED
+1254,Fix broken send to extras,noprompt,2022-09-28T19:55:43Z,2022-09-29T06:46:11+00:00,5,10.84,False,5,22,2,1841,12,4,16,CLOSED
+1202,Add generation params to png files saved with the Save button,lonnon,2022-09-28T04:02:06Z,2022-09-28T19:19:50+00:00,4,15.3,False,124,35,3,400,4,3,7,CLOSED
+1172,implemented run on CPU & fixed bug with cuda test,voidpunk,2022-09-27T16:49:21Z,2023-01-04T15:46:58+00:00,3,2374.96,False,41,30,4,704,8,1,9,CLOSED
+1109,"Model Loader, Fixes",d8ahazard,2022-09-26T15:51:40Z,2022-09-30T06:35:58+00:00,2,86.74,True,2179,1416,23,790,11,1,12,MERGED
+1080,Add `[datetime]` to file name pattern,tateisu,2022-09-26T02:58:04Z,2022-09-26T13:24:21+00:00,1,10.44,True,3,2,2,316,2,0,2,MERGED
+1060,Adding support for brace-expansion in prompts,emixam16,2022-09-25T20:40:48Z,2022-10-15T07:44:24+00:00,1,467.06,False,44,1,2,649,9,0,9,CLOSED
+775,"RealESRGAN update, Diffusers, Transformers",d8ahazard,2022-09-21T01:16:09Z,2022-09-22T04:21:54+00:00,2,27.1,True,84,31,4,475,10,1,11,MERGED
+483,[Feature] Implementation of prompt2prompt by Doggettx,marquilio7,2022-09-15T00:36:31Z,2022-09-16T04:29:36+00:00,1,27.88,False,0,0,0,1026,10,0,10,CLOSED
+429,Typo of prompt,austeregrim,2022-09-13T23:46:52Z,2022-09-14T05:35:27+00:00,1,5.81,True,1,1,1,0,2,0,2,MERGED
+417,Dir extras fix,JustAnOkapi,2022-09-13T20:32:30Z,2022-09-14T05:58:14+00:00,7,9.43,True,7,10,6,138,5,6,11,MERGED
+295,Add --hide-ui-dir-config command line flag,EyeDeck,2022-09-11T20:03:56Z,2022-09-12T10:24:14+00:00,1,14.34,True,21,14,2,609,0,1,1,MERGED

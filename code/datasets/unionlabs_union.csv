@@ -1,4 +1,13 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+5232,Sui timeouts handle on voyager,aeryz,2025-10-10T10:42:44Z,2025-10-10T12:02:31+00:00,2,1.33,True,192,1870,12,58,1,0,1,MERGED
+5231,feat: prepare rust docs,benluelo,2025-10-09T17:21:42Z,2025-10-10T12:02:18+00:00,2,18.68,True,217,157,22,0,1,1,2,MERGED
+5230,docs: instruct vals to use manual gas for val creation,PoisonPhang,2025-10-09T15:52:32Z,2025-10-09T17:33:58+00:00,2,1.69,True,12,0,2,0,2,0,2,MERGED
+5228,fix(voyager): await axum::serve future,benluelo,2025-10-09T12:38:59Z,2025-10-09T14:07:04+00:00,2,1.47,True,1,1,1,0,1,0,1,MERGED
+5227,feat(unionlabs): pull out cosmos-signer,benluelo,2025-10-09T12:25:03Z,2025-10-09T13:56:39+00:00,1,1.53,True,64,39,12,0,2,0,2,MERGED
+5225,"feat: cleanup, fmt, aptos-types, bump alloy",benluelo,2025-10-08T10:29:04Z,2025-10-09T09:35:19+00:00,1,23.1,True,2538,4409,539,0,1,0,1,MERGED
+5224,chore: prune PNPM dependency FOD,ehegnes,2025-10-07T19:17:11Z,2025-10-09T18:12:45+00:00,5,46.93,True,5159,8749,86,1573,5,4,9,MERGED
+5223,rust 1.91 and 2024 edition,benluelo,2025-10-07T10:16:36Z,2025-10-08T10:26:28+00:00,2,24.16,True,517,540,65,0,1,0,1,MERGED
+5222,feat(access-manager): special case internal calls,benluelo,2025-10-07T08:41:32Z,2025-10-07T10:18:53+00:00,1,1.62,True,91,16,7,0,2,0,2,MERGED
 5221,feat: clean up rust workspace,benluelo,2025-10-06T14:38:28Z,2025-10-06T17:50:24+00:00,2,3.2,True,688,2548,68,0,1,0,1,MERGED
 5220,feat(voyager): add a derivation that builds all plugins and modules at once,benluelo,2025-10-03T16:43:11Z,2025-10-03T18:20:05+00:00,1,1.61,True,5,0,1,0,1,0,1,MERGED
 5219,feat(lst): more tests and hardening,benluelo,2025-10-03T13:59:52Z,2025-10-06T13:53:03+00:00,2,71.89,True,460,214,12,0,1,0,1,MERGED
@@ -6,11 +15,13 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 5217,Voyager sui plugin,aeryz,2025-10-03T11:17:10Z,2025-10-05T07:41:57+00:00,5,44.41,True,2973,1439,36,0,1,4,5,MERGED
 5214,fix(app): disable yaps for now,Swepool,2025-10-01T20:29:42Z,2025-10-01T21:44:55+00:00,2,1.25,True,6,1,2,0,2,0,2,MERGED
 5212,feat(access-managed): init,benluelo,2025-09-30T13:12:38Z,2025-10-06T10:19:55+00:00,1,141.12,True,3435,776,48,0,1,0,1,MERGED
+5211,Sui ts sdk,Caglankaan,2025-09-30T07:21:16Z,2025-10-07T13:49:56+00:00,1,174.48,True,1747,17,38,0,2,0,2,MERGED
 5210,feat(attested-light-client): init,benluelo,2025-09-29T19:31:43Z,2025-10-06T09:06:02+00:00,1,157.57,True,1242,11,20,0,1,0,1,MERGED
 5209,feat(deployments): deploy U and eU on babylon testnet,benluelo,2025-09-29T11:37:51Z,2025-10-01T10:25:17+00:00,2,46.79,True,18,3,3,0,1,0,1,MERGED
 5208,feat(app): tax and commision,Swepool,2025-09-29T10:59:58Z,2025-09-29T13:02:24+00:00,2,2.04,True,178,18,2,112,2,0,2,MERGED
 5207,chore(deployments): upgrade zkgm on babylon testnet,benluelo,2025-09-29T09:17:17Z,2025-09-29T11:36:56+00:00,1,2.33,True,2,2,1,0,1,0,1,MERGED
 5206,feat(core): proof commitments,benluelo,2025-09-28T15:43:31Z,2025-09-29T11:46:21+00:00,3,20.05,True,669,329,10,0,1,0,1,MERGED
+5197,lst tests,aeryz,2025-09-26T09:56:16Z,2025-10-08T15:16:27+00:00,2,293.34,True,3307,959,26,0,1,0,1,MERGED
 5192,feat(u): cosmwasm proxy account prediction,benluelo,2025-09-25T14:16:33Z,2025-09-25T15:49:06+00:00,1,1.54,True,143,3,4,0,1,0,1,MERGED
 5191, feat(lst): automatic staking and rebasing,benluelo,2025-09-25T02:54:33Z,2025-09-29T12:00:46+00:00,1,105.1,True,772,70,18,0,1,0,1,MERGED
 5190,"fix(docs): unbonding time is 27 days, not 21",benluelo,2025-09-25T02:28:31Z,2025-09-25T09:53:57+00:00,1,7.42,True,2,2,1,0,2,0,2,MERGED
@@ -999,3 +1010,732 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 2454,feat(release): add self-contained evm contracts deployer and testnet galois images,hussein-aitlahcen,2024-07-16T12:02:27Z,2024-07-17T11:28:10+00:00,4,23.43,True,44,0,2,0,0,0,0,MERGED
 2453,feat(app): add port id,Swepool,2024-07-16T11:49:25Z,2024-07-16T15:44:26+00:00,2,3.92,True,16,3,2,23,1,0,1,MERGED
 2449,fix(hubble): various fixes,KaiserKarel,2024-07-16T10:01:57Z,2024-07-16T13:04:41+00:00,1,3.05,True,38,19,5,63,0,0,0,MERGED
+2446,feat(faucet): add new paginated GraphQL queries for transfers,PablitoAmaral,2024-07-15T16:58:41Z,2024-07-16T12:58:55+00:00,4,20.0,True,147,6,3,603,0,0,0,MERGED
+2445,voyager improvements,benluelo,2024-07-15T16:55:18Z,2024-07-17T09:14:24+00:00,5,40.32,True,208,82,13,135,0,2,2,MERGED
+2443, feat(hubble): introduce RaceClient for tm chains,KaiserKarel,2024-07-15T12:47:55Z,2024-07-16T09:26:52+00:00,1,20.65,True,133,25,7,0,0,0,0,MERGED
+2434,feat(faucet): limit number of transfers per batch,PablitoAmaral,2024-07-11T13:00:31Z,2024-07-15T15:35:51+00:00,12,98.59,True,9,8,1,317,0,8,8,MERGED
+2433,feat(arbitrum): support tracking head of chain instead of finality,benluelo,2024-07-11T12:42:08Z,2024-07-16T10:17:54+00:00,3,117.6,True,595,334,38,0,0,0,0,MERGED
+2428,feat(app): transfers pagination,o-az,2024-07-10T02:01:36Z,2024-07-30T16:12:19+00:00,6,494.18,True,1192,239,40,0,10,3,13,MERGED
+2427,chore: update berachain contracts,benluelo,2024-07-09T21:18:57Z,2024-07-11T13:45:02+00:00,2,40.43,True,7,7,1,0,0,0,0,MERGED
+2423,feat: arbitrum partnership blog post,o-az,2024-07-08T21:07:21Z,2024-07-09T08:46:12+00:00,1,11.65,True,82,0,4,0,3,0,3,MERGED
+2415,fix: no rss feed for hidden blog posts,o-az,2024-07-05T18:57:28Z,2024-07-08T20:02:47+00:00,2,73.09,True,8,6,1,0,3,0,3,MERGED
+2413,Add threejs based animation to explorer,cor,2024-07-05T15:38:02Z,2024-07-05T21:32:52+00:00,1,5.91,True,170,4,7,633,1,0,1,MERGED
+2412,[APP]: Dark mode,Swepool,2024-07-05T11:05:48Z,2024-07-16T17:18:16+00:00,4,270.21,True,247,179,25,0,2,0,2,MERGED
+2407,Stats bar fix,Swepool,2024-07-04T15:26:48Z,2024-07-04T17:32:40+00:00,1,2.1,True,2,2,2,0,1,0,1,MERGED
+2401,feat(hubble): add evm fork indexer,KaiserKarel,2024-07-03T22:21:48Z,2024-07-10T13:08:48+00:00,4,158.78,True,280,59,9,0,0,1,1,MERGED
+2400,feat(app): change query and add loading dots,Swepool,2024-07-03T22:02:10Z,2024-07-04T00:53:13+00:00,1,2.85,True,52,18,5,82,1,0,1,MERGED
+2397,feat(drip): allow recaptcha bypass secret,hussein-aitlahcen,2024-07-03T13:42:20Z,2024-07-03T15:26:34+00:00,1,1.74,True,18,3,1,0,0,0,0,MERGED
+2396,"fix(app): fix for #2393, #2394",Swepool,2024-07-03T13:11:56Z,2024-07-03T23:07:30+00:00,1,9.93,True,14,14,2,89,1,0,1,MERGED
+2392,quick fixes,Swepool,2024-07-03T09:36:15Z,2024-07-03T11:49:18+00:00,1,2.22,True,19,16,3,129,1,0,1,MERGED
+2389,race for first block,qlp,2024-07-02T17:46:35Z,2024-07-15T13:28:57+00:00,2,307.71,False,183,37,3,0,2,0,2,CLOSED
+2386,Add stats to app,cor,2024-07-02T15:02:26Z,2024-07-03T20:28:51+00:00,1,29.44,True,393,11,13,0,1,0,1,MERGED
+2385,fix(app): lint and scroll fixes,Swepool,2024-07-02T12:29:48Z,2024-07-02T14:52:54+00:00,2,2.38,True,207,184,3,34,1,0,1,MERGED
+2383,"voyager batching, explicit relayer address on evm",hussein-aitlahcen,2024-07-02T10:43:13Z,2024-07-08T22:04:35+00:00,1,155.36,True,1686,674,40,0,0,0,0,MERGED
+2382,feat(ci): use Hercules CI,PoisonPhang,2024-07-02T09:46:05Z,2024-07-12T13:31:14+00:00,1,243.75,True,41,56,7,440,2,0,2,MERGED
+2381,voyager readme,benluelo,2024-07-02T09:27:18Z,2024-08-14T13:05:08+00:00,2,1035.63,True,53,111,3,0,1,1,2,MERGED
+2375,fix(app): temp  fix show all decimals,Swepool,2024-07-01T16:23:45Z,2024-07-03T09:18:48+00:00,2,40.92,False,1,1,1,6,1,0,1,CLOSED
+2374,feat: metamask mobile alert and coinbase,o-az,2024-07-01T16:13:49Z,2024-07-04T14:42:12+00:00,6,70.47,True,350,231,25,0,1,3,4,MERGED
+2369,chore: fix unknown chain and types,o-az,2024-07-01T04:14:56Z,2024-07-01T13:27:12+00:00,2,9.2,True,120,104,12,97,1,0,1,MERGED
+2367,feat: new typescript sdk,o-az,2024-07-01T02:57:20Z,2024-07-22T11:32:46+00:00,1,512.59,True,11723,1052,63,86,0,0,0,MERGED
+2366,chore: update site deps,o-az,2024-06-30T22:17:37Z,2024-07-16T19:39:59+00:00,3,381.37,True,2349,3971,17,0,2,1,3,MERGED
+2360,chore: upgrade biome to latest,o-az,2024-06-30T09:04:49Z,2024-06-30T15:16:19+00:00,1,6.19,True,8,9,5,0,1,0,1,MERGED
+2353,💧,benluelo,2024-06-28T21:35:04Z,2024-06-29T09:48:52+00:00,8,12.23,True,1194,225,16,20,0,3,3,MERGED
+2351,chore(ci): run eval on beefy-sausage,PoisonPhang,2024-06-28T18:42:45Z,2024-06-28T21:35:46+00:00,1,2.88,True,8,5,4,39,0,0,0,MERGED
+2343,fix(docs): remove empty page section,o-az,2024-06-28T05:51:47Z,2024-06-30T15:16:49+00:00,2,57.42,True,0,3,1,0,1,0,1,MERGED
+2341,add retry logic to transaction submission in voyager,benluelo,2024-06-27T23:17:58Z,2024-06-28T18:14:56+00:00,2,18.95,True,165,165,8,35,0,0,0,MERGED
+2339,feat: possibly rabby,o-az,2024-06-27T22:31:22Z,2024-06-28T15:16:06+00:00,1,16.75,True,308,322,20,718,1,0,1,MERGED
+2332,chore(app): clean up imports,Swepool,2024-06-27T13:50:57Z,2024-07-02T09:58:28+00:00,1,116.13,False,8,19,10,28,2,0,2,CLOSED
+2331,fix(app): load on faucet and hide,Swepool,2024-06-27T13:48:13Z,2024-06-27T19:39:27+00:00,1,5.85,True,20,12,3,51,1,0,1,MERGED
+2327,chore: remove unused deps and update,o-az,2024-06-27T06:10:44Z,2024-06-30T17:09:41+00:00,1,82.98,True,1042,1282,5,49,1,0,1,MERGED
+2325,feat: rabby and go to download pages,o-az,2024-06-27T03:49:31Z,2024-06-27T17:41:25+00:00,2,13.87,True,150,299,22,125,3,0,3,MERGED
+2324,feat: throttle faucet submission,o-az,2024-06-27T03:42:10Z,2024-06-27T13:19:00+00:00,1,9.61,True,57,30,2,0,1,0,1,MERGED
+2319,feat: sentry,o-az,2024-06-26T23:42:28Z,2024-06-27T00:46:38+00:00,1,1.07,True,2510,586,7,0,1,0,1,MERGED
+2303,fix(app): test fix,Swepool,2024-06-26T14:16:52Z,2024-06-27T00:37:49+00:00,1,10.35,False,73,73,3,0,1,0,1,CLOSED
+2296,feat(app): new wallet gate,Swepool,2024-06-26T11:38:27Z,2024-06-26T13:03:42+00:00,1,1.42,True,388,291,14,0,1,0,1,MERGED
+2291,feat(voyager): add basic metrics,benluelo,2024-06-26T05:40:21Z,2024-06-27T14:30:24+00:00,1,32.83,True,141,127,12,0,0,0,0,MERGED
+2289,fix(berachain-light-client): temporarily disable client expiry,benluelo,2024-06-26T03:28:04Z,2024-06-26T05:49:12+00:00,1,2.35,True,27,23,2,0,0,0,0,MERGED
+2279,fix(app): fix table filter,Swepool,2024-06-25T19:30:16Z,2024-06-25T20:39:40+00:00,1,1.16,True,26,3,1,25,1,0,1,MERGED
+2274,fix(app): parse units in transfer,Swepool,2024-06-25T12:27:33Z,2024-06-25T14:52:21+00:00,1,2.41,True,7,5,1,0,1,0,1,MERGED
+2272,Docs + Site Feature PR,KaiserKarel,2024-06-25T10:17:20Z,2024-06-26T12:29:47+00:00,2,26.21,True,465,15925,29,56,2,0,2,MERGED
+2268,fix: remove bad code,o-az,2024-06-25T06:34:39Z,2024-06-25T09:28:33+00:00,1,2.9,True,0,44,1,0,1,0,1,MERGED
+2265,feat: gas balances,o-az,2024-06-24T23:33:30Z,2024-06-26T03:12:09+00:00,1,27.64,False,155,50,7,0,1,1,2,CLOSED
+2261,gotta go fast,benluelo,2024-06-24T17:41:28Z,2024-06-25T15:22:05+00:00,1,21.68,True,812,431,20,0,0,0,0,MERGED
+2257,feat(hubble): faster inserts and add upsert mode,KaiserKarel,2024-06-24T12:57:30Z,2024-06-24T15:50:17+00:00,1,2.88,True,311,147,9,194,0,0,0,MERGED
+2255,feat(app): format amounts in explorer,Swepool,2024-06-24T09:26:58Z,2024-06-24T11:04:22+00:00,1,1.62,True,94,6,3,0,1,0,1,MERGED
+2251,Hubble use committed header,KaiserKarel,2024-06-23T15:22:37Z,2024-06-23T16:46:42+00:00,1,1.4,True,3,3,1,0,0,0,0,MERGED
+2248,feat(app): use precise for transfers,Swepool,2024-06-22T18:26:54Z,2024-06-23T00:06:42+00:00,1,5.66,True,61,44,7,75,3,0,3,MERGED
+2246,Add CRT effect and fix tanstack fetching issues,cor,2024-06-22T15:15:39Z,2024-06-23T00:21:15+00:00,1,9.09,True,1115,26,16,0,1,0,1,MERGED
+2245,fix(voyager): ensure there is a validator supermajority for the finality update,benluelo,2024-06-22T15:08:20Z,2024-06-23T00:07:46+00:00,1,8.99,True,456,368,12,1499,0,0,0,MERGED
+2242,fix(voyager): enqueue messages with parent ids properly,benluelo,2024-06-21T19:13:27Z,2024-06-22T15:05:01+00:00,3,19.86,True,59,48,5,0,0,1,1,MERGED
+2236,fix(ucs01): use source endpoint for token unwrap,aeryz,2024-06-21T11:54:12Z,2024-06-24T07:21:08+00:00,1,67.45,True,1,1,1,12,0,0,0,MERGED
+2232,feat(app): design and move switch,Swepool,2024-06-21T09:55:50Z,2024-06-21T11:10:45+00:00,1,1.25,True,4,4,3,40,1,0,1,MERGED
+2231,fix(app): update wallet text,Swepool,2024-06-21T09:55:18Z,2024-06-21T11:11:17+00:00,1,1.27,True,15,4,1,18,1,0,1,MERGED
+2229,chore: update deps and remove unused,o-az,2024-06-21T05:54:26Z,2024-06-21T10:22:46+00:00,1,4.47,True,350,811,4,0,1,0,1,MERGED
+2226,feat: wallet improvements,o-az,2024-06-21T02:38:36Z,2024-06-30T14:00:32+00:00,1,227.37,False,322,15764,15,0,2,0,2,CLOSED
+2225,feat(voyager): expose signer balances via http,benluelo,2024-06-21T02:08:10Z,2024-06-21T06:13:03+00:00,1,4.08,True,328,275,11,77,0,0,0,MERGED
+2219,feat: redirect explorer when not mobile,o-az,2024-06-20T22:04:21Z,2024-06-24T22:04:00+00:00,1,95.99,True,78,86,4,0,1,0,1,MERGED
+2215,fix: gas token balance,o-az,2024-06-20T19:14:34Z,2024-06-20T20:54:51+00:00,3,1.67,True,3,2,1,0,1,0,1,MERGED
+2205,feat(app): show precise and handle supported assets,Swepool,2024-06-20T15:13:49Z,2024-06-20T17:30:47+00:00,2,2.28,True,209,96,6,686,1,0,1,MERGED
+2203,feat: native token balances,o-az,2024-06-20T14:29:31Z,2024-06-20T15:50:40+00:00,1,1.35,True,528,492,8,0,1,0,1,MERGED
+2201,"Footer, overflow, zoom issue fixes",cor,2024-06-20T13:43:10Z,2024-06-20T14:44:59+00:00,2,1.03,True,50,21,7,45,1,0,1,MERGED
+2196,refactor(app): consolidate classes,Swepool,2024-06-20T09:15:46Z,2024-06-20T10:57:45+00:00,1,1.7,True,7,7,4,36,1,0,1,MERGED
+2187,fix(app): input color,Swepool,2024-06-19T22:30:54Z,2024-06-20T09:04:18+00:00,1,10.56,True,1,1,1,11,1,0,1,MERGED
+2184,feat: transfer button and fix footer,o-az,2024-06-19T18:21:30Z,2024-06-20T22:18:21+00:00,6,27.95,True,275,14636,18,61,7,2,9,MERGED
+2182,feat(app): add wallet slot,Swepool,2024-06-19T12:51:35Z,2024-06-19T20:33:12+00:00,1,7.69,True,110,34,8,383,1,0,1,MERGED
+2181,fix: report error on tm exit,KaiserKarel,2024-06-19T10:21:45Z,2024-06-19T11:26:36+00:00,2,1.08,True,35,15,8,0,0,0,0,MERGED
+2180,fix(voyager): generate cometbls proofs correctly,benluelo,2024-06-19T05:26:45Z,2024-06-19T06:54:52+00:00,1,1.47,True,148,5,3,730,1,0,1,MERGED
+2178,fix(crane): actually run tests in test derivations,benluelo,2024-06-19T03:51:18Z,2024-06-19T05:25:09+00:00,2,1.56,True,14,9,2,218,0,0,0,MERGED
+2176,feat(zerg): goodbye,benluelo,2024-06-18T22:11:29Z,2024-06-19T03:31:11+00:00,3,5.33,True,2,1347,17,44,1,0,1,MERGED
+2172,feat: support missing beacon slots,KaiserKarel,2024-06-18T19:58:45Z,2024-06-19T09:40:17+00:00,4,13.69,True,317,55,5,0,0,1,1,MERGED
+2164,fix: ignore existing clients,KaiserKarel,2024-06-18T12:33:15Z,2024-06-18T17:17:33+00:00,2,4.74,True,51,46,3,0,0,1,1,MERGED
+2163,feat: eagerly index all consensus heights,KaiserKarel,2024-06-18T09:57:47Z,2024-06-18T12:14:21+00:00,1,2.28,True,118,47,6,411,0,0,0,MERGED
+2159,feat(ci): introduce new release workflow,PoisonPhang,2024-06-18T07:57:15Z,2024-07-02T14:16:07+00:00,2,342.31,True,355,32,3,1241,0,0,0,MERGED
+2158,feat(site): union testnet app blog,o-az,2024-06-18T05:56:32Z,2024-06-26T15:53:14+00:00,3,201.94,True,126,6,5,202,3,0,3,MERGED
+2148,feat(app): various fixes and improvements,o-az,2024-06-17T22:08:55Z,2024-06-18T15:05:34+00:00,2,16.94,True,749,14891,40,509,2,0,2,MERGED
+2145,Remove `trusting_period` and `trust_level`,aeryz,2024-06-17T18:46:16Z,2024-06-17T21:40:45+00:00,1,2.91,True,13,130,7,12,0,0,0,MERGED
+2137,voyager keyring and more updates,benluelo,2024-06-17T17:10:13Z,2024-06-20T20:08:43+00:00,4,74.97,True,1739,1052,86,144,0,2,2,MERGED
+2135,feat(app): loading indicators,Swepool,2024-06-17T14:28:06Z,2024-06-17T18:31:20+00:00,1,4.05,True,83,9,7,234,5,0,5,MERGED
+2134,chore(voyager): clean up message types a bit,benluelo,2024-06-17T12:05:44Z,2024-06-17T17:06:35+00:00,2,5.01,True,109,250,5,0,0,0,0,MERGED
+2132,fix: reduce loglevel for fetching pages,KaiserKarel,2024-06-17T10:50:05Z,2024-06-17T11:54:51+00:00,1,1.08,True,1,1,1,0,0,0,0,MERGED
+2127,feat(sentinel): Sentinel ,Caglankaan,2024-06-16T22:42:41Z,2024-06-25T15:32:44+00:00,8,208.83,True,2474,49,21,0,0,32,32,MERGED
+2125,bump rust version and modify berachain light client chain id,benluelo,2024-06-16T16:00:59Z,2024-06-17T01:47:08+00:00,1,9.77,True,549,541,20,122,0,0,0,MERGED
+2124,App design fixes,cor,2024-06-16T15:39:07Z,2024-06-16T20:49:24+00:00,3,5.17,True,114,242,30,268,1,0,1,MERGED
+2123,rename stuff,benluelo,2024-06-16T05:26:49Z,2024-06-16T12:51:55+00:00,1,7.42,True,1159,1243,40,146,0,0,0,MERGED
+2122,App colorscheme,cor,2024-06-15T23:08:34Z,2024-06-16T00:15:56+00:00,1,1.12,True,95,110,19,39,1,0,1,MERGED
+2118,Hubble add bera beacon,KaiserKarel,2024-06-15T14:15:36Z,2024-06-15T15:29:25+00:00,3,1.23,True,201,84,10,0,0,0,0,MERGED
+2113,feat(app): add icons,Swepool,2024-06-14T17:26:53Z,2024-06-14T21:26:17+00:00,1,3.99,True,938,12,39,515,4,0,4,MERGED
+2112,feat(evm): upgrade scripts,hussein-aitlahcen,2024-06-14T16:36:58Z,2024-06-28T14:46:05+00:00,2,334.15,True,225,5,3,0,0,0,0,MERGED
+2111,feat: add beacon indexer,KaiserKarel,2024-06-14T15:25:36Z,2024-06-15T12:00:43+00:00,3,20.59,True,257,4,11,95,0,1,1,MERGED
+2110,feat(app): add fonts,Swepool,2024-06-14T14:11:19Z,2024-06-14T16:18:17+00:00,1,2.12,True,106,42,23,152,1,0,1,MERGED
+2108,docs(light-clients): add 08-wasm lc documentation,aeryz,2024-06-14T07:19:20Z,2024-06-18T12:33:57+00:00,12,101.24,True,55,0,1,0,2,4,6,MERGED
+2105,feat(voyager): handle gas properly on cosmos-like chians,benluelo,2024-06-14T00:31:50Z,2024-06-14T19:32:35+00:00,1,19.01,True,827,116,34,0,0,0,0,MERGED
+2099,Native cometbls client,aeryz,2024-06-13T09:08:33Z,2024-08-22T09:01:53+00:00,5,1679.89,True,4832,9,33,12,1,7,8,MERGED
+2098,chore: cosmwasm contracts cleanup,PoisonPhang,2024-06-13T08:41:55Z,2024-06-16T15:36:03+00:00,12,78.9,True,608,614,30,511,0,11,11,MERGED
+2096,chore: better logs,benluelo,2024-06-12T17:13:24Z,2024-06-13T13:31:10+00:00,2,20.3,True,404,123,11,293,0,0,0,MERGED
+2095,refactor(app): use chainsgate and walletsgate for transfers,cor,2024-06-12T12:03:26Z,2024-06-12T13:07:52+00:00,2,1.07,True,329,378,7,0,1,0,1,MERGED
+2093,feat: clean up logs and some other stuff,benluelo,2024-06-12T05:47:31Z,2024-06-12T12:33:44+00:00,1,6.77,True,246,235,25,15,0,0,0,MERGED
+2092,refactor(app): use gates on facuet,Swepool,2024-06-11T20:11:25Z,2024-06-12T13:25:39+00:00,1,17.24,True,58,36,2,67,1,0,1,MERGED
+2091,feat(voyager): don't explode on unknown wasm client type,benluelo,2024-06-11T18:40:02Z,2024-06-11T20:29:35+00:00,1,1.83,True,41,18,2,0,0,0,0,MERGED
+2089,feat(devnet): add script to upload wasm light clients to devnet,benluelo,2024-06-11T16:52:31Z,2024-06-11T18:18:18+00:00,3,1.43,True,77,14,7,0,0,1,1,MERGED
+2085,feat(unionvisor): add v0.24.0 to verisons,PoisonPhang,2024-06-10T09:42:01Z,2024-06-10T10:50:14+00:00,1,1.14,True,23,1,3,0,0,0,0,MERGED
+2084,feat(Sentinel): Sentinel (transfer-test-service) service creation,Caglankaan,2024-06-10T09:10:32Z,2024-06-28T10:22:57+00:00,1,433.21,False,3283,0,23,20,0,6,6,CLOSED
+2081,feat: typescript sdk updates,o-az,2024-06-09T11:44:14Z,2024-06-20T07:43:14+00:00,3,259.98,False,15938,3520,103,0,1,2,3,CLOSED
+2080,fix(app): toasts and btns,Swepool,2024-06-09T11:07:54Z,2024-06-09T14:54:20+00:00,1,3.77,True,34,19,3,196,1,1,2,MERGED
+2079,feat(uniond): prepare v0.24.0 upgrade,PoisonPhang,2024-06-09T05:02:09Z,2024-06-09T12:35:19+00:00,1,7.55,True,35,2,5,0,0,0,0,MERGED
+2077,fix(app): fix faucet,Swepool,2024-06-08T22:31:59Z,2024-06-08T23:32:24+00:00,1,1.01,True,221,219,6,234,1,0,1,MERGED
+2076,Transfers part 3,cor,2024-06-08T22:17:14Z,2024-06-08T23:50:12+00:00,1,1.55,True,1288,295,10,0,1,0,1,MERGED
+2072,feat(app): faucet fixes,Swepool,2024-06-08T16:41:40Z,2024-06-08T22:31:00+00:00,1,5.82,False,264,261,6,137,1,0,1,CLOSED
+2071,fix(app): wallet fix,Swepool,2024-06-08T16:37:35Z,2024-06-08T22:39:41+00:00,3,6.04,True,20,8,2,55,5,0,5,MERGED
+2070,chore(hubble): tweak expo backoff,qlp,2024-06-08T13:55:36Z,2024-06-08T18:42:11+00:00,1,4.78,True,10,2,2,73,0,0,0,MERGED
+2069,fix(deferredack): add custom ack type,aeryz,2024-06-08T12:22:26Z,2024-06-10T10:30:43+00:00,3,46.14,True,183,168,13,82,0,1,1,MERGED
+2062,fix(hubble): improve max height performance,qlp,2024-06-07T15:25:59Z,2024-06-07T17:44:11+00:00,2,2.3,True,36,34,5,0,0,0,0,MERGED
+2061,feat(devnet-utils): add secp256k1 key derivation to devnet-utils,benluelo,2024-06-07T13:30:13Z,2024-06-07T17:28:52+00:00,1,3.98,True,298,62,4,0,0,0,0,MERGED
+2059,fix(ucs01): convert pfm ack,aeryz,2024-06-07T08:40:30Z,2024-06-08T10:59:08+00:00,5,26.31,True,178,83,5,140,1,1,2,MERGED
+2058,fix(queue-msg): fix flattening optimization passes,benluelo,2024-06-07T04:29:19Z,2024-06-07T06:14:46+00:00,1,1.76,True,88,12,1,99,0,0,0,MERGED
+2057,feat(ucs01-relay): create pfm events st hubble can track outgoing hop packets,PoisonPhang,2024-06-07T02:47:33Z,2024-06-07T07:04:59+00:00,1,4.29,True,33,8,3,960,0,0,0,MERGED
+2055,fix(app): wallet fix,Swepool,2024-06-06T23:33:22Z,2024-06-07T10:16:08+00:00,2,10.71,True,135,4,3,168,1,0,1,MERGED
+2045,fix(e2e): make nightly workflow pass,PoisonPhang,2024-06-06T03:33:51Z,2024-06-08T04:47:42+00:00,1,49.23,True,8,14,3,147,0,0,0,MERGED
+2041,fix(hubble): ignore clients without client_id,qlp,2024-06-05T06:13:43Z,2024-06-05T17:57:55+00:00,4,11.74,True,4,42,4,899,0,0,0,MERGED
+2038,feat(galois): introduce health endpoint for grpc call,Caglankaan,2024-06-04T21:44:34Z,2024-06-06T12:03:42+00:00,3,38.32,True,74,0,2,41,0,2,2,MERGED
+2037,chore: remove site codeowners,KaiserKarel,2024-06-04T21:37:53Z,2024-06-07T16:01:40+00:00,1,66.4,True,0,1,1,74,0,0,0,MERGED
+2035,Biome v1.8.0,o-az,2024-06-04T17:26:36Z,2024-06-05T00:31:30+00:00,3,7.08,True,20,18,12,0,3,0,3,MERGED
+2029,feat: transfers page,o-az,2024-06-03T16:19:26Z,2024-06-08T19:23:38+00:00,4,123.07,True,1627,917,83,0,1,2,3,MERGED
+2028,feat: app balances,o-az,2024-06-03T15:26:07Z,2024-06-07T19:20:34+00:00,3,99.91,True,5258,21828,22,0,3,6,9,MERGED
+2017,Voyager queue optimization,benluelo,2024-06-01T22:29:48Z,2024-06-04T10:15:42+00:00,2,59.77,True,1930,623,25,121,0,0,0,MERGED
+2015,2006 fix pagination and add spans to hubble logging,qlp,2024-06-01T16:18:53Z,2024-06-05T05:59:25+00:00,1,85.68,True,272,245,5,56,0,0,0,MERGED
+1992,App Sed,cor,2024-05-30T17:38:12Z,2024-05-31T13:37:41+00:00,1,19.99,True,171,65,17,0,2,0,2,MERGED
+1989,fix(devnet): remove annoying WSJSONRPC log,benluelo,2024-05-30T03:16:27Z,2024-05-30T05:22:10+00:00,1,2.1,True,2,1,1,0,0,0,0,MERGED
+1988,feat: tailwindcss support in helix,o-az,2024-05-29T19:35:13Z,2024-05-30T15:15:33+00:00,2,19.67,True,65,10,3,80,0,0,0,MERGED
+1986,feat(devnet): move keygen and cosmwasm address computation into devnet-utils,benluelo,2024-05-29T17:19:51Z,2024-05-30T02:27:50+00:00,1,9.13,True,152,104,10,234,0,0,0,MERGED
+1983,App Elit,cor,2024-05-29T11:38:07Z,2024-05-30T14:33:32+00:00,2,26.92,True,1548,2336,59,0,1,0,1,MERGED
+1981,feat(voyager): nicer logs and more stack,benluelo,2024-05-29T00:53:54Z,2024-05-29T12:49:39+00:00,2,11.93,True,668,336,19,359,0,1,1,MERGED
+1977,feat(voyager): only enqueue packet ack on write ack event,benluelo,2024-05-27T19:40:47Z,2024-05-28T10:53:04+00:00,1,15.2,True,490,851,26,416,0,0,0,MERGED
+1975,feat(voyager): introduce voyager nixos module,hussein-aitlahcen,2024-05-27T16:28:06Z,2024-05-28T14:03:13+00:00,12,21.59,True,125,6,3,0,0,4,4,MERGED
+1963,feat(berachain): light client,benluelo,2024-05-23T21:19:21Z,2024-06-10T19:43:43+00:00,13,430.41,True,6229,4369,236,465,0,9,9,MERGED
+1961,feat(blog): publish berachain post,cor,2024-05-23T14:24:01Z,2024-12-20T17:15:15+00:00,1,5066.85,False,0,1,1,0,1,0,1,CLOSED
+1960,feat: berachain partnership post,o-az,2024-05-23T13:03:07Z,2024-05-23T14:20:18+00:00,1,1.29,True,59,0,4,0,2,0,2,MERGED
+1958,fix(ucs01): split error for better understanding,hussein-aitlahcen,2024-05-23T11:17:50Z,2024-05-23T17:07:05+00:00,4,5.82,True,284,220,6,0,0,4,4,MERGED
+1953,feat(voyager): support batch transactions,benluelo,2024-05-21T21:33:42Z,2024-05-30T10:35:13+00:00,2,205.03,True,230,148,7,146,0,0,0,MERGED
+1952,Add configurable start height for tendermint chains to hubble,cor,2024-05-21T19:34:11Z,2024-05-31T13:45:00+00:00,3,234.18,True,246,104,9,0,0,1,1,MERGED
+1951,fix(ucs01): stringified json array for assets in event,hussein-aitlahcen,2024-05-21T17:11:22Z,2024-05-21T21:34:08+00:00,4,4.38,True,31,28,1,0,0,1,1,MERGED
+1949,fix(ucs1): emit destination_channel in Received,KaiserKarel,2024-05-21T11:50:24Z,2024-05-21T15:01:26+00:00,2,3.18,True,1,1,1,0,0,0,0,MERGED
+1944,clean up ethereum light clients,benluelo,2024-05-20T22:37:33Z,2024-05-21T16:27:17+00:00,2,17.83,True,1084,1238,56,158,0,0,0,MERGED
+1942,fix(hubble): complete abis,cor,2024-05-20T21:04:52Z,2024-05-21T09:23:57+00:00,1,12.32,True,10,2,1,0,0,0,0,MERGED
+1941,docs: add contracts.json endpoint to docs,o-az,2024-05-20T19:44:35Z,2024-05-21T10:52:59+00:00,1,15.14,True,19,0,2,169,1,0,1,MERGED
+1937,feat(voyager): support wasm clients alongside native clients of the same chain,benluelo,2024-05-20T16:50:03Z,2024-05-20T22:36:17+00:00,1,5.77,True,130,36,6,0,0,0,0,MERGED
+1933,refactor(hubble): remove sync_next and always use batch syncing,KaiserKarel,2024-05-18T23:03:23Z,2024-05-20T09:39:50+00:00,2,34.61,True,68,152,3,118,0,0,0,MERGED
+1927,feat(hubble): add json logging,KaiserKarel,2024-05-17T23:58:07Z,2024-05-18T10:04:48+00:00,1,10.11,True,66,20,6,184,0,0,0,MERGED
+1923,Fixed all solidity warnings and applied some best practices.,Caglankaan,2024-05-16T15:38:46Z,2024-05-26T10:32:53+00:00,8,234.9,True,591,709,71,338,0,7,7,MERGED
+1917,ibc-vm-rs,aeryz,2024-05-16T09:14:50Z,2024-06-19T12:51:16+00:00,13,819.61,True,9360,240,54,0,0,9,9,MERGED
+1916,feat: union stargaze partnership post,o-az,2024-05-16T01:46:10Z,2024-05-16T11:58:22+00:00,1,10.2,True,121,10,10,0,2,0,2,MERGED
+1915,Add hubble-abis derivation,cor,2024-05-15T20:24:57Z,2024-05-15T23:30:51+00:00,1,3.1,True,23,0,1,0,0,0,0,MERGED
+1908,feat: app adipiscing,o-az,2024-05-14T17:09:20Z,2024-05-29T11:16:22+00:00,1,354.12,True,4092,1919,119,0,2,0,2,MERGED
+1907,fix(ucs01): better event and generalize u128 over u256,hussein-aitlahcen,2024-05-14T12:48:04Z,2024-05-14T14:09:06+00:00,7,1.35,True,82,54,4,193,0,2,2,MERGED
+1904,fix: biome errors,o-az,2024-05-13T18:10:39Z,2024-05-14T13:54:12+00:00,4,19.73,True,5,7,4,0,2,0,2,MERGED
+1898,fix: disable rust-proto-check in ci,PoisonPhang,2024-05-11T03:56:30Z,2024-05-13T16:33:37+00:00,2,60.62,True,380,332,10,1231,0,0,0,MERGED
+1897,breaking changes to solidity ibc stack,benluelo,2024-05-10T23:36:35Z,2024-05-15T23:53:15+00:00,12,120.28,True,4104,3889,43,166,0,13,13,MERGED
+1892,feat: optionally return the type from parse wasm client type,benluelo,2024-05-10T11:27:18Z,2024-05-10T13:10:51+00:00,1,1.73,True,23,7,3,554,0,0,0,MERGED
+1890,feat(hubble): query client counterparty chain ids,benluelo,2024-05-09T20:50:42Z,2024-05-17T11:40:55+00:00,2,182.84,True,375,103,20,0,2,0,2,MERGED
+1885,feat: linea,hussein-aitlahcen,2024-05-09T11:32:46Z,2024-05-13T20:54:30+00:00,6,105.36,True,3093,6,37,585,0,5,5,MERGED
+1883,fix(arbitrum): implement timestamp and ack queries,benluelo,2024-05-09T04:26:17Z,2024-05-09T09:03:57+00:00,1,4.63,True,16,8,1,65,0,0,0,MERGED
+1881,fix: broken og,o-az,2024-05-08T13:29:26Z,2024-05-09T14:51:12+00:00,2,25.36,True,41,40,8,201,1,0,1,MERGED
+1876,feat: partial upgrade of contracts to CosmWasm 2.0,PoisonPhang,2024-05-07T02:00:09Z,2024-05-08T15:29:51+00:00,5,37.49,True,222,91,12,335,0,2,2,MERGED
+1874,feat(evm): misbehavior,hussein-aitlahcen,2024-05-06T17:43:49Z,2024-05-07T06:51:11+00:00,2,13.12,True,394,77,6,23,0,0,0,MERGED
+1868,feat(arbitrum): light client,benluelo,2024-05-03T22:49:55Z,2024-05-09T03:21:44+00:00,2,124.53,True,3141,193,64,950,0,0,0,MERGED
+1866,Galois - More tests and docs,hussein-aitlahcen,2024-05-03T13:40:53Z,2024-05-03T14:54:08+00:00,2,1.22,True,257,436,5,0,0,4,4,MERGED
+1865,feat: app consectetur,o-az,2024-05-03T00:23:09Z,2024-05-14T17:06:32+00:00,3,280.72,True,9825,20269,163,93,5,0,5,MERGED
+1862,feat(uniond): upgrade to cosmwasm 2.0,aeryz,2024-05-02T07:53:47Z,2024-05-06T07:05:10+00:00,1,95.19,True,32191,7866,348,12,2,0,2,MERGED
+1861,fix(hubble): decrease eth chunk size when approaching head,KaiserKarel,2024-05-01T22:28:41Z,2024-05-02T12:54:17+00:00,2,14.43,True,119,56,1,73,0,0,0,MERGED
+1852,fetch trusted client state from head of chain instead of finalized,benluelo,2024-04-30T18:47:43Z,2024-05-01T14:19:30+00:00,1,19.53,True,61,23,10,0,0,1,1,MERGED
+1850,fix(site): correct jq in creating a validator,PoisonPhang,2024-04-30T14:41:45Z,2024-05-01T02:49:19+00:00,3,12.13,True,2,2,1,0,1,0,1,MERGED
+1836,feat(lightclients): clean up errors,benluelo,2024-04-29T01:19:41Z,2024-04-29T17:12:34+00:00,3,15.88,True,880,996,73,748,0,0,0,MERGED
+1832,feat: use newly stabilized rust features after upgrade,benluelo,2024-04-26T18:23:47Z,2024-04-27T22:28:46+00:00,1,28.08,True,250,316,24,75,0,0,0,MERGED
+1831,fix(scroll): don't overwrite revision_number and use correct height f…,hussein-aitlahcen,2024-04-26T18:17:12Z,2024-05-01T11:49:00+00:00,6,113.53,True,27,18,10,17,0,2,2,MERGED
+1829,fix: use raw bool instead of HasPacketReceiptReturn,benluelo,2024-04-26T15:35:04Z,2024-04-26T17:41:15+00:00,4,2.1,True,8,21,6,0,0,0,0,MERGED
+1828,feat: bump rust version,benluelo,2024-04-26T14:54:31Z,2024-04-26T18:15:54+00:00,1,3.36,True,418,358,19,59,0,0,0,MERGED
+1825,feat(blog): aligned layer partnership,benluelo,2024-04-26T03:24:55Z,2024-04-26T13:59:39+00:00,4,10.58,True,203,4,3,50,2,0,2,MERGED
+1824,feat(voyager): refactor scroll block fetching to use the same logic as ethereum,benluelo,2024-04-25T21:06:23Z,2024-04-26T14:13:00+00:00,2,17.11,True,239,293,7,41,0,0,0,MERGED
+1823,Check if packet has timed out before submitting MsgTimeout,benluelo,2024-04-25T17:15:59Z,2024-04-25T19:38:02+00:00,2,2.37,True,4148,6677,21,0,0,0,0,MERGED
+1819,feat(voyager): legacy transactions on scroll,benluelo,2024-04-25T13:24:57Z,2024-04-25T20:00:56+00:00,1,6.6,True,14,6,3,0,0,0,0,MERGED
+1810,feat(scroll): verify timestamp,benluelo,2024-04-23T21:32:39Z,2024-04-24T16:15:34+00:00,1,18.72,True,2070,1508,44,0,0,0,0,MERGED
+1802,chore: update rust overlay,hussein-aitlahcen,2024-04-23T10:53:04Z,2024-04-23T14:48:58+00:00,1,3.93,True,3,3,1,0,0,0,0,MERGED
+1801,fix(tm-lc): set `total_voting_power` during verification,aeryz,2024-04-23T08:41:57Z,2024-04-23T10:34:21+00:00,1,1.87,True,18,2,2,12,0,0,0,MERGED
+1796,Ssz cleanup,benluelo,2024-04-23T02:31:54Z,2024-05-02T15:30:12+00:00,4,228.97,True,220202,5468,65,58,0,1,1,MERGED
+1794,fix: ignore broken url in link checker,o-az,2024-04-22T19:04:04Z,2024-07-26T14:45:50+00:00,3,2275.7,False,1,0,1,0,0,1,1,CLOSED
+1789,fix(devnet-compose): address pr comments,cor,2024-04-20T23:14:47Z,2024-04-21T00:37:15+00:00,3,1.37,True,8,8,4,0,0,1,1,MERGED
+1786,Scroll v1 verification,benluelo,2024-04-19T15:08:29Z,2024-04-23T13:13:07+00:00,4,94.08,True,3174,1468,35,303,0,1,1,MERGED
+1782,feat(evm): ics24 compliant,hussein-aitlahcen,2024-04-18T19:10:04Z,2024-04-22T13:05:55+00:00,5,89.93,True,406,487,25,35,0,0,0,MERGED
+1779,Polygon blogpost,cor,2024-04-18T12:38:14Z,2024-04-18T13:59:02+00:00,1,1.35,True,338,14,23,0,2,0,2,MERGED
+1776,feat(scroll): v1 codec types,benluelo,2024-04-17T23:59:38Z,2024-04-18T17:00:34+00:00,4,17.02,True,1705,368,14,0,0,1,1,MERGED
+1775,Process Compose MVP,cor,2024-04-17T20:50:24Z,2024-04-20T21:41:30+00:00,3,72.85,True,1007,20,18,673,2,11,13,MERGED
+1774,more deployment ux,hussein-aitlahcen,2024-04-17T20:37:19Z,2024-04-18T17:10:58+00:00,2,20.56,True,640,316,20,0,0,3,3,MERGED
+1773,DO NOT MERGE: Ethereum light client track justified/finalized header,aeryz,2024-04-17T12:39:21Z,2024-10-19T19:16:34+00:00,1,4446.62,False,360,895,35,649,2,0,2,CLOSED
+1772,feat: update nixpkgs-unstable flake input,o-az,2024-04-17T10:18:13Z,2024-04-19T18:26:35+00:00,1,56.14,True,5,4,2,31,2,0,2,MERGED
+1770,feat: introduce gnark-key-parser,aeryz,2024-04-17T07:14:19Z,2024-04-24T07:58:16+00:00,2,168.73,True,611,126,10,25,0,0,0,MERGED
+1764,Apply random linear combination for groth16 verifiers,aeryz,2024-04-16T07:05:31Z,2024-04-16T09:53:20+00:00,1,2.8,True,159,16,3,12,0,0,0,MERGED
+1762,fix: ignore items in lychee config,o-az,2024-04-16T04:42:08Z,2024-04-16T08:32:28+00:00,1,3.84,True,2,0,1,0,0,0,0,MERGED
+1761,fix: og description,o-az,2024-04-16T04:33:16Z,2024-04-16T13:59:45+00:00,1,9.44,True,7,10,1,0,2,0,2,MERGED
+1758,Automate channel opening,benluelo,2024-04-15T21:57:26Z,2024-04-17T21:00:59+00:00,1,47.06,True,1926,250,26,12,1,0,1,MERGED
+1757,fix(ucs01): proper denom ibc path,hussein-aitlahcen,2024-04-15T18:39:51Z,2024-04-15T21:58:48+00:00,1,3.32,True,27,237,1,0,0,0,0,MERGED
+1749,feat(voyager): packet timeouts,benluelo,2024-04-12T20:01:03Z,2024-04-15T12:57:40+00:00,1,64.94,True,755,203,23,174,0,0,0,MERGED
+1747,chore: reduce rest/openapi.json file size,o-az,2024-04-12T17:35:08Z,2024-04-17T10:36:15+00:00,4,113.02,True,4038,18467,9,0,2,1,3,MERGED
+1745,feat: openapi section in docs,o-az,2024-04-12T12:36:30Z,2024-04-12T16:27:06+00:00,4,3.84,True,56,25,4,0,2,1,3,MERGED
+1738,feat(networks): start union-testnet-8,PoisonPhang,2024-04-11T16:37:02Z,2024-04-11T19:28:11+00:00,1,2.85,True,1763,6,7,0,0,0,0,MERGED
+1732,Add unionvisor diagnostics,cor,2024-04-11T12:07:48Z,2024-04-11T15:22:12+00:00,4,3.24,True,44,14,4,187,0,0,0,MERGED
+1726,fix(ucs01): use correct ibc path prefix when bridging denoms,hussein-aitlahcen,2024-04-10T17:25:04Z,2024-04-10T23:19:22+00:00,2,5.91,True,234,329,21,35,0,0,0,MERGED
+1725,chore: prep testnet 7 to start with v0.21.0,PoisonPhang,2024-04-10T16:54:29Z,2024-04-11T01:23:00+00:00,1,8.48,True,4,37,5,0,0,0,0,MERGED
+1719,feat(voyager): start work on timeouts,benluelo,2024-04-09T19:43:31Z,2024-04-10T18:50:09+00:00,1,23.11,True,109,48,10,300,0,0,0,MERGED
+1717,chore: prep for v0.21.0,PoisonPhang,2024-04-09T16:31:28Z,2024-04-09T17:41:24+00:00,2,1.17,True,24,2,4,280,0,0,0,MERGED
+1715,Some more minor fixes,KaiserKarel,2024-04-09T16:01:26Z,2024-04-10T19:11:03+00:00,1,27.16,True,39,17,4,105,0,0,0,MERGED
+1714,chore(uniond): update cosmos sdk version in go.mod,PoisonPhang,2024-04-09T14:11:54Z,2024-04-09T15:24:37+00:00,2,1.21,True,2,2,2,0,0,0,0,MERGED
+1712,Native tendermint and minor fixes,aeryz,2024-04-08T23:45:03Z,2024-04-09T02:11:49+00:00,3,2.45,True,171,80,15,25,0,1,1,MERGED
+1710,chore(docs): improve rustdocs,benluelo,2024-04-08T21:41:24Z,2024-04-09T00:34:35+00:00,4,2.89,True,214,195,15,0,0,0,0,MERGED
+1705,fix(ci): remove astro regex from link checker,PoisonPhang,2024-04-08T18:03:16Z,2024-04-12T20:32:50+00:00,6,98.49,True,9,5,1,103,1,1,2,MERGED
+1696,feat(uniond): add v0.21.0 migration,PoisonPhang,2024-04-08T16:28:29Z,2024-04-08T18:13:05+00:00,1,1.74,True,37,7,5,57,0,0,0,MERGED
+1690,feat(voyager): support native tendermint <-> native tendermint relaying,benluelo,2024-04-07T22:17:33Z,2024-04-08T14:19:55+00:00,3,16.04,True,840,1105,14,53,0,1,1,MERGED
+1686,chore(import): ssz repos,qlp,2024-04-06T11:33:51Z,2024-04-09T19:37:10+00:00,2,80.06,True,9525,199,55,0,0,0,0,MERGED
+1684,chore: update docs to reflect union-testnet-7,o-az,2024-04-06T05:21:14Z,2024-07-26T14:25:29+00:00,1,2673.07,False,185,1677,20,0,3,0,3,CLOSED
+1683,chore: fix osmosis and cosmos devnet builder,benluelo,2024-04-06T00:43:26Z,2024-04-06T02:20:14+00:00,1,1.61,True,92,34,5,0,0,0,0,MERGED
+1681,chore: update onboarding docs for `union-testnet-8`,PoisonPhang,2024-04-05T17:01:52Z,2024-04-29T17:24:46+00:00,6,576.38,True,391,243,11,163,2,1,3,MERGED
+1680,feat(osmosis): add devnet to flake,benluelo,2024-04-05T17:00:22Z,2024-04-05T21:22:34+00:00,3,4.37,True,146,96,5,80,0,0,0,MERGED
+1676,feat(hubble): improve internal types,KaiserKarel,2024-04-05T08:35:53Z,2024-04-09T11:53:49+00:00,2,99.3,True,276,171,7,47,0,0,0,MERGED
+1675,refactor(unionlabs): clean up ics24 (previously proof) module,benluelo,2024-04-05T05:34:50Z,2024-04-05T15:40:49+00:00,1,10.1,True,755,553,25,724,0,0,0,MERGED
+1665,refactor(voyager): use queue_msg::queue_msg everywhere,benluelo,2024-04-04T00:06:51Z,2024-04-04T12:28:57+00:00,2,12.37,True,313,646,24,66,0,0,0,MERGED
+1664,feat(voyager): remove display requirement from messages,benluelo,2024-04-03T23:00:12Z,2024-04-04T00:03:51+00:00,3,1.06,True,127,722,27,136,0,0,0,MERGED
+1660,feat(networks): added union-testnet-7-genesis,PoisonPhang,2024-04-03T01:45:35Z,2024-04-04T15:38:23+00:00,6,37.88,True,1891,3,7,390,0,1,1,MERGED
+1658,feat: make openapi doc available through url,o-az,2024-04-02T23:36:14Z,2024-04-10T12:37:37+00:00,1,181.02,True,30500,82,17,264,2,0,2,MERGED
+1657,1656 update queue msgmsg struct macro to support enums,qlp,2024-04-02T20:37:24Z,2024-04-03T14:08:04+00:00,3,17.51,True,207,184,36,0,0,1,1,MERGED
+1654,feat: add biome lint check in flake.nix,o-az,2024-04-02T17:43:17Z,2024-04-02T20:51:49+00:00,5,3.14,True,41,9,4,0,0,2,2,MERGED
+1640,voyager cleanup and some docs,benluelo,2024-03-31T19:57:37Z,2024-04-01T01:16:58+00:00,1,5.32,True,615,606,30,395,2,0,2,MERGED
+1635,feat(macro): msg_struct as proc-macro,qlp,2024-03-30T16:52:55Z,2024-04-02T18:59:13+00:00,14,74.11,True,694,364,40,0,0,6,6,MERGED
+1633,feat: update to cosmos-sdk v0.50.5,PoisonPhang,2024-03-29T21:26:28Z,2024-04-01T19:52:14+00:00,4,70.43,True,74011,20778,707,525,0,0,0,MERGED
+1629,feat: add cargo-tidy check,benluelo,2024-03-29T14:56:09Z,2024-03-29T16:13:29+00:00,2,1.29,True,50,26,9,49,0,0,0,MERGED
+1626,feat: ucs02/ics721 - stargaze,hussein-aitlahcen,2024-03-29T12:45:07Z,2024-04-10T14:35:17+00:00,5,289.84,True,1614,75,26,24,0,2,2,MERGED
+1624,refactor(voyager): move voyager messages to a library,benluelo,2024-03-28T21:33:58Z,2024-03-29T12:54:48+00:00,1,15.35,True,1355,1292,19,225,0,0,0,MERGED
+1616,fix(ci): auth nixbuild for scheduled link checker,PoisonPhang,2024-03-26T21:50:29Z,2024-03-27T15:19:20+00:00,2,17.48,True,3,1,1,95,0,0,0,MERGED
+1614,feat(uniond): generate OpenAPI spec,PoisonPhang,2024-03-26T19:53:12Z,2024-03-27T18:30:45+00:00,4,22.63,True,6941,73472,5,115,0,2,2,MERGED
+1613,Optimize EVM ICS23,aeryz,2024-03-26T13:43:02Z,2024-03-28T21:53:17+00:00,1,56.17,True,1746,1348,38,1747,0,0,0,MERGED
+1603,feat(scroll): update client ,benluelo,2024-03-22T20:02:19Z,2024-03-28T19:51:46+00:00,1,143.82,True,1984,516,42,570,0,0,0,MERGED
+1598,feat(ci): use lfs on checkout step,PoisonPhang,2024-03-22T14:51:47Z,2024-03-22T16:21:40+00:00,1,1.5,True,3,0,1,0,0,0,0,MERGED
+1595,chore(voyager): remove unused duplicate field in message,benluelo,2024-03-21T20:01:08Z,2024-03-22T01:27:41+00:00,1,5.44,True,2,9,3,69,0,0,0,MERGED
+1593,feat: app amet,o-az,2024-03-21T06:59:59Z,2024-05-01T15:37:57+00:00,1,992.63,True,21029,73669,273,193,4,0,4,MERGED
+1592,feat(voyager): clean up duplication between ethereum and scroll,benluelo,2024-03-21T00:05:03Z,2024-03-21T18:58:40+00:00,1,18.89,True,960,1503,9,157,0,0,0,MERGED
+1591,refactor: s/evm/ethereum/g,benluelo,2024-03-20T17:53:26Z,2024-03-20T19:15:03+00:00,1,1.36,True,532,478,23,0,0,0,0,MERGED
+1588,fix:remove cached .eslintcache,o-az,2024-03-20T10:35:30Z,2024-03-20T17:08:44+00:00,1,6.55,True,1,1,2,22,2,0,2,MERGED
+1587,chore: remove duplicated code between union and cosmos,benluelo,2024-03-20T07:07:08Z,2024-03-20T13:16:36+00:00,1,6.16,True,1021,1245,22,827,0,0,0,MERGED
+1586,chore: update graphql types,o-az,2024-03-19T23:51:03Z,2024-03-20T17:07:16+00:00,1,17.27,True,10210,6789,2,54,2,0,2,MERGED
+1584,"feat: add explorer, seeds field and endpoints json",o-az,2024-03-19T20:19:43Z,2024-03-20T01:28:38+00:00,7,5.15,True,201,86,21,0,2,1,3,MERGED
+1583,feat(site): added unjail instructions to docs,PoisonPhang,2024-03-19T18:37:30Z,2024-03-19T22:13:03+00:00,4,3.59,True,30,2,4,0,2,2,4,MERGED
+1582,feat: MiMC vote/block,hussein-aitlahcen,2024-03-19T15:50:51Z,2024-03-25T15:22:22+00:00,6,143.53,True,10039,20471,252,800,1,6,7,MERGED
+1581,fix: pin dlmalloc to 0.2.4 in all wasm contracts,benluelo,2024-03-19T14:06:54Z,2024-03-19T15:16:16+00:00,1,1.16,True,31,1,10,26,0,0,0,MERGED
+1580,feat: app work dolor,o-az,2024-03-19T02:45:03Z,2024-03-19T19:51:37+00:00,1,17.11,True,100,136,10,0,1,0,1,MERGED
+1579,fix: docs testnet binary version,o-az,2024-03-18T23:35:14Z,2024-03-19T01:04:39+00:00,8,1.49,True,32,8,4,0,2,2,4,MERGED
+1577,incorrect return value when misbehaviour is found,aeryz,2024-03-18T21:39:24Z,2024-03-20T17:20:04+00:00,1,43.68,True,29,33,6,51,0,0,0,MERGED
+1571,handle some errors in voyager,benluelo,2024-03-18T05:41:39Z,2024-03-19T18:05:04+00:00,1,36.39,True,1062,984,29,938,2,0,2,MERGED
+1570,feat(voyager): link messages to their parent,benluelo,2024-03-17T20:39:43Z,2024-03-18T17:28:25+00:00,2,20.81,True,246,161,17,0,0,0,0,MERGED
+1569,Bump rust nightly,benluelo,2024-03-17T18:04:33Z,2024-03-18T14:40:11+00:00,3,20.59,True,1571,1535,29,160,0,0,0,MERGED
+1568,chore: add max wasm size check,qlp,2024-03-16T12:48:43Z,2024-03-19T14:05:32+00:00,15,73.28,True,18,24,1,0,0,6,6,MERGED
+1566,feat: integrate hasura graphql schema with app,o-az,2024-03-15T00:30:09Z,2024-03-18T19:45:22+00:00,10,91.25,True,59536,186,13,0,1,3,4,MERGED
+1562,feat: packet-forward-middleware,PoisonPhang,2024-03-14T18:42:16Z,2024-06-06T07:12:16+00:00,4,2004.5,True,6902,171,89,978,3,2,5,MERGED
+1561,Clippy cleanup,benluelo,2024-03-14T18:06:56Z,2024-03-15T00:47:00+00:00,4,6.67,True,336,152,61,16,0,1,1,MERGED
+1559,fix(cometbls-verifier): move from arkworks to substrate-bn,hussein-aitlahcen,2024-03-14T12:55:26Z,2024-03-14T16:30:53+00:00,3,3.59,True,279,308,6,0,0,2,2,MERGED
+1558,chore: update favicon path in config,o-az,2024-03-14T10:02:28Z,2024-03-14T18:21:47+00:00,1,8.32,True,1,3,2,0,2,0,2,MERGED
+1556,Add CODEOWNERS for voyager/galoisd/.github,cor,2024-03-14T08:01:29Z,2024-03-15T08:07:43+00:00,2,24.1,True,3,0,1,0,0,0,0,MERGED
+1555,feat: add biome support for helix,o-az,2024-03-14T06:26:29Z,2024-03-16T01:00:17+00:00,1,42.56,True,92,68,6,200,6,0,6,MERGED
+1554,fix: site lint issue and x.com og,o-az,2024-03-14T02:32:36Z,2024-03-14T07:48:15+00:00,2,5.26,True,180,147,5,424,2,0,2,MERGED
+1549,format yaml files with yamlfmt,benluelo,2024-03-13T05:53:15Z,2024-03-14T18:19:50+00:00,3,36.44,True,117,89,13,46,4,0,4,MERGED
+1548,format solidity files with forge instead of prettier,benluelo,2024-03-13T03:31:49Z,2024-03-14T16:30:12+00:00,3,36.97,True,11927,20434,111,30,3,1,4,MERGED
+1546,fix: safari header background blur,o-az,2024-03-12T20:22:31Z,2024-03-13T07:54:50+00:00,1,11.54,True,3,1,1,0,2,0,2,MERGED
+1545,Model macro,benluelo,2024-03-12T18:20:45Z,2024-03-17T17:13:53+00:00,3,118.89,True,2857,1915,195,832,1,1,2,MERGED
+1542,fix(e2e): fix devnet minimal configuration for e2e tests,PoisonPhang,2024-03-11T22:40:11Z,2024-03-12T18:21:50+00:00,3,19.69,True,105,39,6,252,0,1,1,MERGED
+1540,implement misbehaviour for the ethereum light client,aeryz,2024-03-11T22:09:22Z,2024-03-18T21:23:09+00:00,4,167.23,True,223,52,15,405,0,4,4,MERGED
+1537,chore: add /feed redirect to /rss.xml,o-az,2024-03-11T09:10:46Z,2024-03-12T17:39:39+00:00,1,32.48,True,1,0,1,0,2,0,2,MERGED
+1533,Encoding traits cleanup,benluelo,2024-03-09T11:01:08Z,2024-03-11T22:32:24+00:00,7,59.52,True,11755,2451,264,706,0,4,4,MERGED
+1530,Spline based site redesign,cor,2024-03-09T05:26:07Z,2024-04-12T15:16:00+00:00,9,825.83,True,1291,1466,57,99,3,6,9,MERGED
+1527,feat: add biome linter and formatter,o-az,2024-03-09T00:07:02Z,2024-03-13T17:59:48+00:00,1,113.88,True,4947,6056,142,1764,3,0,3,MERGED
+1525,feat: improve docs and drop custom file-tree component,o-az,2024-03-08T19:49:51Z,2024-03-09T00:42:07+00:00,4,4.87,True,166,1170,35,0,3,2,5,MERGED
+1524,fix(ci): run CI after open,PoisonPhang,2024-03-08T17:34:37Z,2024-03-08T20:28:59+00:00,1,2.91,True,17,3,4,0,2,0,2,MERGED
+1522,feat: blog rss feed,o-az,2024-03-08T08:45:39Z,2024-03-08T21:49:42+00:00,1,13.07,True,69,7,7,0,2,0,2,MERGED
+1520,fix(ethereum): proof value must be packed before rlp encoded,hussein-aitlahcen,2024-03-08T00:02:26Z,2024-03-08T20:45:51+00:00,4,20.72,True,140,71,9,142,0,2,2,MERGED
+1510,Add Scroll blogpost,cor,2024-03-06T22:09:55Z,2024-03-07T16:39:57+00:00,4,18.5,True,121,2,6,152,2,1,3,MERGED
+1508,chore: use core or alloc instead of std where possible,benluelo,2024-03-06T17:06:09Z,2024-03-06T18:08:15+00:00,1,1.03,True,93,89,38,159,0,0,0,MERGED
+1506,feat(union): validator proof of possession,hussein-aitlahcen,2024-03-06T15:48:07Z,2024-03-08T00:23:16+00:00,2,32.59,True,809,7,12,440,0,1,1,MERGED
+1505,feat(voyager): do not mark tx as done on unknown revert,hussein-aitlahcen,2024-03-06T13:32:15Z,2024-03-08T20:55:31+00:00,1,55.39,True,8,3,1,0,0,0,0,MERGED
+1504,Implement `migrate_client_store` for `cometbls` and `tendermint` clients,aeryz,2024-03-06T13:03:13Z,2024-03-07T16:34:31+00:00,1,27.52,True,740,14,15,12,0,0,0,MERGED
+1500,feat(voyager): more debug and increase gas estimation margin,hussein-aitlahcen,2024-03-04T22:43:57Z,2024-03-05T00:44:14+00:00,1,2.0,True,29,10,2,0,0,0,0,MERGED
+1492,chore: clean up workspace,benluelo,2024-03-02T19:49:48Z,2024-03-02T21:08:36+00:00,1,1.31,True,77,234,19,0,0,0,0,MERGED
+1491,chore(voyager): move message libraries around and use apply in more places,benluelo,2024-03-02T18:40:15Z,2024-03-02T19:49:15+00:00,2,1.15,True,344,482,40,0,0,0,0,MERGED
+1486,eth-lc: implement migrate client store (closes #1463),aeryz,2024-02-29T09:06:14Z,2024-03-06T13:43:27+00:00,5,148.62,True,420,24,9,320,0,1,1,MERGED
+1479,feat(evm): use hex address as port for modules,hussein-aitlahcen,2024-02-28T20:23:07Z,2024-02-29T04:48:41+00:00,3,8.43,True,276,873,15,0,0,0,0,MERGED
+1473,feat: blog url preview images,o-az,2024-02-28T09:00:17Z,2024-03-08T05:33:56+00:00,1,212.56,True,441,272,41,99,4,0,4,MERGED
+1471,feat(scroll): stargate query instead of custom query,hussein-aitlahcen,2024-02-28T01:35:57Z,2024-02-29T04:48:19+00:00,3,27.21,True,51,44,5,0,1,0,1,MERGED
+1467,feat(voyager): fetch blocks on scroll,benluelo,2024-02-27T16:34:53Z,2024-02-29T21:40:45+00:00,3,53.1,True,2437,624,37,113,0,1,1,MERGED
+1465,chore(unionlabs): use apply attribute for events declaration,benluelo,2024-02-27T16:14:07Z,2024-02-28T03:30:13+00:00,2,11.27,True,277,275,3,0,0,0,0,MERGED
+1460,fix: landing page menu icon on ios safari,o-az,2024-02-27T10:18:44Z,2024-02-27T17:55:35+00:00,1,7.61,True,130,61,4,413,2,0,2,MERGED
+1457, ethereum light client audit fixes,aeryz,2024-02-27T10:07:02Z,2024-02-29T06:07:11+00:00,10,44.0,True,236,221,28,29,0,4,4,MERGED
+1451,feat: packet sequence is non-zero,benluelo,2024-02-26T17:38:42Z,2024-02-26T19:27:51+00:00,1,1.82,True,51,35,11,0,0,0,0,MERGED
+1450,feat: cleanup and optimize poseidon-rs and zktrie-rs,benluelo,2024-02-26T08:57:13Z,2024-02-26T17:52:28+00:00,3,8.92,True,13345,13173,22,0,0,0,0,MERGED
+1449,fix(ci): use nixbuild for deploy,PoisonPhang,2024-02-26T05:52:24Z,2024-02-28T16:18:51+00:00,3,58.44,True,143,173,4,145,3,0,3,MERGED
+1446,fix(ci): remove x.com from link checker,PoisonPhang,2024-02-26T04:57:43Z,2024-02-26T06:34:20+00:00,2,1.61,True,1,0,1,148,0,0,0,MERGED
+1443,chore: remove unused git attributes,o-az,2024-02-25T07:44:48Z,2024-02-28T19:44:18+00:00,1,83.99,True,0,2,1,0,0,0,0,MERGED
+1441,feat: fetch user transfers and add shadcn ui,o-az,2024-02-25T03:47:29Z,2024-02-27T22:25:45+00:00,1,66.64,True,1203,631,51,38,1,0,1,MERGED
+1440,fix(voyager): minor fixes after refactor,benluelo,2024-02-25T01:55:32Z,2024-02-25T03:38:55+00:00,1,1.72,True,140,106,6,0,0,0,0,MERGED
+1439,feat(uniond): create v0.20.0 migration,PoisonPhang,2024-02-24T23:13:49Z,2024-02-25T01:53:49+00:00,1,2.67,True,91,36,7,0,1,0,1,MERGED
+1437,fix(ci): use Create Issue From File,PoisonPhang,2024-02-24T19:09:22Z,2024-02-25T00:16:10+00:00,1,5.11,True,49,82,5,102,5,0,5,MERGED
+1436,chore(test): check rust protos are in sync,qlp,2024-02-24T18:04:11Z,2024-04-02T20:35:52+00:00,1,914.53,True,16,0,1,81,0,0,0,MERGED
+1435,refactor(voyager): cleanup,benluelo,2024-02-24T17:37:14Z,2024-02-24T21:33:11+00:00,3,3.93,True,848,1361,23,0,3,0,3,MERGED
+1433,feat: better decoding and track sepolia to sepolia,o-az,2024-02-23T05:50:02Z,2024-02-25T02:01:22+00:00,7,44.19,True,117,23,15,285,2,3,5,MERGED
+1429,Docs and site content,cor,2024-02-23T00:34:24Z,2024-02-26T20:16:02+00:00,13,91.69,True,1635,266,50,285,9,6,15,MERGED
+1425,feat: temporary sepolia indexer,o-az,2024-02-22T09:16:12Z,2024-02-22T18:35:44+00:00,3,9.33,True,9097,12,27,191,2,0,2,MERGED
+1419,docs: update docs with feedback from discord,PoisonPhang,2024-02-20T23:28:41Z,2024-02-22T15:09:29+00:00,1,39.68,True,4,4,3,0,1,0,1,MERGED
+1412,feat: poll balance on an interval,o-az,2024-02-20T09:47:09Z,2024-02-21T17:50:47+00:00,2,32.06,True,315,283,17,345,1,0,1,MERGED
+1409,feat(app): improvements,o-az,2024-02-19T19:37:51Z,2024-02-20T02:32:31+00:00,2,6.91,True,341,415,19,0,1,1,2,MERGED
+1405,bunch of fixes,aeryz,2024-02-19T12:42:27Z,2024-02-26T16:02:25+00:00,8,171.33,True,44,32,8,23,1,1,2,MERGED
+1399,improve-canonical-types-fraction-denominator,qlp,2024-02-17T21:48:10Z,2024-02-20T13:27:07+00:00,9,63.65,True,69,25,8,97,0,6,6,MERGED
+1394,feat(scroll): light client,hussein-aitlahcen,2024-02-17T11:53:51Z,2024-02-20T15:38:33+00:00,10,75.75,True,18507,960,88,11,0,20,20,MERGED
+1386,fix(unionlabs): snakify enum definitions,qlp,2024-02-16T19:42:14Z,2024-02-16T21:35:59+00:00,1,1.9,True,4,67,2,0,0,0,0,MERGED
+1385,Add mermaid rendering,cor,2024-02-16T17:25:24Z,2024-02-20T02:31:04+00:00,2,81.09,True,2916,1947,22,29,6,0,6,MERGED
+1384,docs: clean up onboarding docs,PoisonPhang,2024-02-16T16:44:46Z,2024-02-19T16:35:21+00:00,9,71.84,True,23,4,4,0,1,3,4,MERGED
+1382,Block polling in queue,benluelo,2024-02-16T06:13:24Z,2024-02-24T00:34:05+00:00,5,186.34,True,4346,2465,67,0,3,3,6,MERGED
+1380,feat: add apply macro,benluelo,2024-02-15T20:06:10Z,2024-02-16T01:07:12+00:00,1,5.02,True,134,95,14,29,0,0,0,MERGED
+1379,1285 add check to ensure generated rust protos are up to date rebase,benluelo,2024-02-15T14:55:28Z,2024-02-24T18:00:07+00:00,1,219.08,False,43032,7322,286,0,3,1,4,CLOSED
+1377,"upgrade blst, bls-eth-go and prysm",hussein-aitlahcen,2024-02-15T11:40:58Z,2024-02-15T13:06:07+00:00,6,1.42,True,13206,3217,247,23,0,2,2,MERGED
+1374,Add queue reactor to generalize worker logic in voyager,benluelo,2024-02-15T05:26:07Z,2024-02-15T14:58:12+00:00,2,9.53,True,444,273,14,513,0,1,1,MERGED
+1368,fix: pin flake inputs to fix devnet,benluelo,2024-02-14T16:35:45Z,2024-02-14T17:37:01+00:00,1,1.02,True,23,63,2,0,2,0,2,MERGED
+1361,feat: raw demo,o-az,2024-02-14T09:20:40Z,2024-02-19T18:56:22+00:00,1,129.59,True,6494,1036,55,112,1,0,1,MERGED
+1359,chore: remove prop.json,benluelo,2024-02-14T05:49:42Z,2024-02-14T08:40:51+00:00,1,2.85,True,0,32,1,42,0,0,0,MERGED
+1356,feat(ci): switch to self hosted CI runner,PoisonPhang,2024-02-14T02:11:18Z,2024-02-21T19:43:30+00:00,2,185.54,True,8,8,3,0,0,0,0,MERGED
+1348,feat: small blog layout touchup,o-az,2024-02-13T09:30:27Z,2024-02-14T02:59:18+00:00,6,17.48,True,231,628,10,89,4,4,8,MERGED
+1346,docs: update docs for `union-testnet-6`,PoisonPhang,2024-02-12T22:10:11Z,2024-02-12T23:30:22+00:00,5,1.34,True,957,360,14,190,1,3,4,MERGED
+1344,chore(test): check rust protos are in sync,qlp,2024-02-12T20:44:14Z,2024-02-15T14:55:13+00:00,3,66.18,False,21,7,3,0,0,2,2,CLOSED
+1343,upgrade to deneb,hussein-aitlahcen,2024-02-12T20:00:16Z,2024-02-15T11:35:17+00:00,4,63.58,True,722,515,44,11,0,4,4,MERGED
+1342,feat(ci): build on beefy-runner,cor,2024-02-12T19:20:18Z,2024-02-12T21:27:50+00:00,2,2.13,True,7,49,4,147,0,0,0,MERGED
+1339,feat: add stargaze,benluelo,2024-02-12T16:18:11Z,2024-02-13T18:42:49+00:00,1,26.41,True,273,70,8,45,0,0,0,MERGED
+1335,Implement tendermint light client,aeryz,2024-02-12T10:08:16Z,2024-02-15T18:36:57+00:00,5,80.48,True,956,399,16,76,0,8,8,MERGED
+1330,chore: update crane version,benluelo,2024-02-12T04:57:42Z,2024-02-12T10:06:00+00:00,1,5.14,True,9,86,1,373,0,0,0,MERGED
+1328,feat: add mkCosmosDevnet builder,benluelo,2024-02-11T20:41:27Z,2024-02-11T22:09:00+00:00,4,1.46,True,780,1559,13,86,0,1,1,MERGED
+1325,feat: upgrade Node.js and related nix files,o-az,2024-02-10T08:23:38Z,2024-02-12T21:16:06+00:00,9,60.87,True,1027,1661,17,1577,2,4,6,MERGED
+1323,chore: update app and sdk deps,o-az,2024-02-10T04:22:41Z,2024-02-10T06:00:41+00:00,1,1.63,True,80,81,6,0,1,0,1,MERGED
+1321,fix(unionvisor): update lock,cor,2024-02-09T22:37:37Z,2024-02-10T01:44:40+00:00,3,3.12,True,3,3,1,0,0,0,0,MERGED
+1311,feat: massive devnet overhaul and actually deterministic,benluelo,2024-02-09T06:00:26Z,2024-02-09T21:43:05+00:00,4,15.71,True,674,447,10,152,0,3,3,MERGED
+1308,feat: added union-testnet-6 genesis,PoisonPhang,2024-02-08T18:12:00Z,2024-02-09T21:42:14+00:00,3,27.5,True,1881,3,9,174,0,0,0,MERGED
+1306,fix(evm): invalid dependency hash,hussein-aitlahcen,2024-02-08T12:29:34Z,2024-02-08T13:41:49+00:00,1,1.2,True,1,1,1,0,0,0,0,MERGED
+1305,fix: improve docs and fix links,o-az,2024-02-08T11:33:32Z,2024-02-09T19:44:56+00:00,1,32.19,True,93,201,15,9,2,0,2,MERGED
+1303,feat: clean up union devnet builder,benluelo,2024-02-07T23:59:07Z,2024-02-08T02:34:21+00:00,2,2.59,True,258,282,5,133,0,0,0,MERGED
+1301,feat: detatch v0.19.0 from testnet-5,PoisonPhang,2024-02-07T18:55:57Z,2024-02-07T20:17:11+00:00,1,1.35,True,35,12,6,27,0,0,0,MERGED
+1295,chore: update git ref,PoisonPhang,2024-02-07T00:06:25Z,2024-02-07T01:06:46+00:00,3,1.01,True,6,6,3,31,0,0,0,MERGED
+1294,feat: remove keytype from init and gentx,PoisonPhang,2024-02-06T23:24:07Z,2024-02-07T16:59:03+00:00,1,17.58,True,28,22,12,0,0,0,0,MERGED
+1292,feat(voyager): upgrade sol bindings,hussein-aitlahcen,2024-02-06T19:23:21Z,2024-02-06T20:40:19+00:00,1,1.28,True,318,86,9,14,0,0,0,MERGED
+1291,fix: make CI more stable,PoisonPhang,2024-02-06T17:36:38Z,2024-02-06T20:19:55+00:00,2,2.72,True,7,7,4,153,0,0,0,MERGED
+1289,fix(uniond): bloated closure,hussein-aitlahcen,2024-02-06T14:28:15Z,2024-02-06T17:56:05+00:00,3,3.46,True,13,35,10,11,0,0,0,MERGED
+1284,Cleanup protos,benluelo,2024-02-05T22:58:05Z,2024-02-06T18:10:58+00:00,1,19.21,True,538,534,181,126,0,0,0,MERGED
+1283,feat(tm-verifier): introduce tendermint verifier,aeryz,2024-02-05T18:04:06Z,2024-02-13T12:33:41+00:00,19,186.49,True,12027,1149,118,123,0,21,21,MERGED
+1280,fix: build on main and nightly,PoisonPhang,2024-02-05T15:11:49Z,2024-02-05T18:10:10+00:00,1,2.97,True,6,6,3,299,0,0,0,MERGED
+1274,chore: run cargo update,benluelo,2024-02-04T06:18:06Z,2024-02-05T00:03:24+00:00,2,17.75,True,149,165,1,0,0,0,0,MERGED
+1268,feat: use deployment environments,o-az,2024-02-03T22:30:19Z,2024-02-04T05:31:34+00:00,1,7.02,True,263,92,16,63,2,0,2,MERGED
+1267,chore: ignore JetBrains (.idea) files,qlp,2024-02-03T22:24:08Z,2024-02-04T04:59:18+00:00,2,6.59,True,2,0,1,0,0,0,0,MERGED
+1266,chore: ignore JetBrains (.idea) files,qlp,2024-02-03T19:49:28Z,2024-02-03T22:20:05+00:00,1,2.51,False,2,0,1,67,0,0,0,CLOSED
+1259,feat(ics23/test): add empty branch data tests,qlp,2024-02-02T11:16:56Z,2024-02-13T20:01:30+00:00,3,272.74,True,92,15,4,759,0,1,1,MERGED
+1258,feat(evm): add event on client registration/update and normalize,hussein-aitlahcen,2024-02-02T00:16:31Z,2024-02-02T13:52:05+00:00,1,13.59,True,8,2,1,10,0,0,0,MERGED
+1255,fix: verify pedersen commitment before the zkp in cometbls light clients,hussein-aitlahcen,2024-02-01T20:02:22Z,2024-02-01T21:16:38+00:00,2,1.24,True,219,89,11,110,0,0,0,MERGED
+1254,Bump rust version,benluelo,2024-02-01T18:27:05Z,2024-02-01T21:48:03+00:00,2,3.35,True,166,118,9,0,0,0,0,MERGED
+1252,feat: use thin lto and don't set debug to true in --release,benluelo,2024-02-01T10:07:16Z,2024-02-01T17:28:33+00:00,4,7.35,True,1,11,1,266,0,1,1,MERGED
+1251,feat: begin app development,o-az,2024-02-01T05:26:39Z,2024-02-01T06:41:28+00:00,2,1.25,True,6340,68,28,351,2,0,2,MERGED
+1247,chore: update oxlint,o-az,2024-02-01T02:30:41Z,2024-02-01T21:42:40+00:00,5,19.2,True,238,5429,13,0,2,2,4,MERGED
+1246,Remove tools/vendor,benluelo,2024-01-31T23:47:11Z,2024-02-01T01:44:44+00:00,2,1.96,True,135,9534546,30572,268,0,0,0,MERGED
+1245,feat(ci): add link checker,o-az,2024-01-31T22:59:47Z,2024-02-23T04:27:06+00:00,2,533.46,True,234,35,24,0,9,0,9,MERGED
+1240,feat: better og image,o-az,2024-01-31T08:35:48Z,2024-01-31T16:01:22+00:00,2,7.43,True,35,15,7,0,1,0,1,MERGED
+1230,Documentation and UCS01-Relay fix,hussein-aitlahcen,2024-01-30T15:42:10Z,2024-01-31T13:11:25+00:00,1,21.49,True,713,189,14,23,0,0,0,MERGED
+1227,feat(docs): open graph for blog posts,o-az,2024-01-30T08:10:04Z,2024-01-30T22:49:31+00:00,1,14.66,True,424,414,6,0,1,0,1,MERGED
+1226,"Some fixes regarding voyager, chain-utils and the protos (closes #1043)",aeryz,2024-01-29T22:38:20Z,2024-02-01T23:42:01+00:00,5,73.06,True,938,558,33,12,0,7,7,MERGED
+1225,feat(galois): ensure hashed message is reduced,hussein-aitlahcen,2024-01-29T21:01:18Z,2024-01-29T22:55:49+00:00,2,1.91,True,74,111,9,0,0,0,0,MERGED
+1224,feat: more comment and references to whitepaper,hussein-aitlahcen,2024-01-29T16:40:23Z,2024-01-29T18:31:37+00:00,1,1.85,True,29,27,7,0,0,0,0,MERGED
+1223,feat: clean up fuzzing workspace and implement arbitrary for a ton of types,benluelo,2024-01-29T07:31:25Z,2024-02-06T18:10:34+00:00,4,202.65,True,939,262,114,178,0,4,4,MERGED
+1221,feat: collapsible code sections,o-az,2024-01-29T00:31:07Z,2024-01-29T21:26:13+00:00,5,20.92,True,159,68,17,121,1,1,2,MERGED
+1219,feat: update starlight,o-az,2024-01-28T02:36:45Z,2024-01-28T17:17:49+00:00,3,14.68,True,684,296,19,793,1,1,2,MERGED
+1218,feat(ci): avoid creating jobs for outputs that are cached,PoisonPhang,2024-01-26T23:03:36Z,2024-02-02T19:06:25+00:00,10,164.05,True,145,175,21,304,5,5,10,MERGED
+1214,Implement misbehaviour checks for cometbls (closes #588),aeryz,2024-01-26T09:11:25Z,2024-01-26T16:00:52+00:00,4,6.82,True,566,200,8,150,0,1,1,MERGED
+1211,chore: cleanup Vercel leftover,o-az,2024-01-26T03:47:44Z,2024-01-26T05:46:51+00:00,1,1.99,True,0,4,1,0,0,0,0,MERGED
+1210,feat: nixify typescript sdk,o-az,2024-01-26T00:31:29Z,2024-01-31T00:03:08+00:00,7,119.53,True,685,208,7,0,0,5,5,MERGED
+1209,fix: tokenfactory uses cosmos.msg,PoisonPhang,2024-01-25T22:12:00Z,2024-01-26T18:52:12+00:00,1,20.67,True,57,40,2,107,0,0,0,MERGED
+1207,fix: re-create viper instance to get env vars and correct home,PoisonPhang,2024-01-25T20:15:28Z,2024-01-25T22:23:45+00:00,2,2.14,True,1,1,1,272,0,0,0,MERGED
+1206,feat: style docs,o-az,2024-01-25T17:31:24Z,2024-01-26T00:06:32+00:00,1,6.59,True,193,1337,20,154,1,0,1,MERGED
+1205,feat(docs): update demo,hussein-aitlahcen,2024-01-25T13:52:47Z,2024-01-25T17:40:20+00:00,6,3.79,True,181,88,10,0,1,5,6,MERGED
+1204,feat: provide good head,o-az,2024-01-25T12:14:28Z,2024-01-25T16:20:09+00:00,1,4.09,True,82,37,9,48,1,0,1,MERGED
+1203,fix: docs accessibility violation,o-az,2024-01-25T06:55:03Z,2024-01-25T17:20:49+00:00,4,10.43,True,346,1165,15,58,1,1,2,MERGED
+1199,feat(galois): full in-circuit hash to curve,hussein-aitlahcen,2024-01-24T23:27:46Z,2024-01-26T14:08:06+00:00,2,38.67,True,24395,5006,170,342,0,0,0,MERGED
+1196,Better API for ICS-08 (closes #1192),aeryz,2024-01-23T23:16:36Z,2024-01-24T23:19:52+00:00,9,24.05,True,272,202,14,236,0,4,4,MERGED
+1195,docs: create READMEs for app and cmd modules,PoisonPhang,2024-01-23T20:39:43Z,2024-01-24T18:51:19+00:00,2,22.19,True,47,204,6,0,0,0,0,MERGED
+1193,docs(unionlabs): add README to unionlabs,benluelo,2024-01-23T18:39:43Z,2024-01-27T06:33:07+00:00,3,83.89,True,134,56,8,93,1,1,2,MERGED
+1185,feat(evm): refactor to custom errors/delegate passthrough,hussein-aitlahcen,2024-01-21T14:29:49Z,2024-01-22T13:55:34+00:00,1,23.43,True,1365,1332,37,24,0,0,0,MERGED
+1184,feat: handle workflow_dispatch dispatch site deploy,o-az,2024-01-21T10:25:48Z,2024-01-21T12:29:15+00:00,1,2.06,True,27,4,1,128,0,0,0,MERGED
+1182,Site redesign,cor,2024-01-20T04:30:41Z,2024-01-25T05:22:07+00:00,1,120.86,True,4784,2131,99,14,8,0,8,MERGED
+1179,fix: remove unused time import,PoisonPhang,2024-01-19T19:39:36Z,2024-01-19T20:44:35+00:00,1,1.08,True,0,1,1,0,0,0,0,MERGED
+1178,feat: clean up tests and rust coverage source filtering,benluelo,2024-01-19T16:06:29Z,2024-01-19T20:39:29+00:00,3,4.55,True,99,142,11,0,0,1,1,MERGED
+1177,docs(ics21): add spec to lib mapping,qlp,2024-01-19T14:14:53Z,2024-01-26T23:21:28+00:00,1,177.11,True,126,0,2,0,0,0,0,MERGED
+1171,cometbls tests (closes #1170),aeryz,2024-01-18T12:54:28Z,2024-01-24T18:02:28+00:00,2,149.13,True,3307,48,58,0,0,0,0,MERGED
+1165,fix(docs): correct hyperlane,KaiserKarel,2024-01-18T08:53:59Z,2024-01-18T11:25:17+00:00,2,2.52,True,9,4,1,410,1,2,3,MERGED
+1163,Update docs with feedback,PoisonPhang,2024-01-17T22:12:36Z,2024-01-18T00:23:01+00:00,3,2.17,True,12,2,2,0,1,0,1,MERGED
+1161,feat: clean up and add tests to unionlabs,benluelo,2024-01-17T19:37:02Z,2024-01-18T14:22:49+00:00,1,18.76,True,831,515,19,0,0,0,0,MERGED
+1160,fix: few typos and bugs and duplicate files,o-az,2024-01-17T19:00:20Z,2024-01-17T20:13:41+00:00,2,1.22,True,1326,676,41,0,1,0,1,MERGED
+1159,chore: update workflows ref,PoisonPhang,2024-01-17T18:05:47Z,2024-01-17T19:15:28+00:00,2,1.16,True,5,5,3,0,0,0,0,MERGED
+1149,Ethereum verifier tests (closes #1140),aeryz,2024-01-17T08:34:09Z,2024-01-17T13:53:13+00:00,1,5.32,True,3286,406,17,320,0,0,0,MERGED
+1147,feat: add rust llvm code coverage,benluelo,2024-01-16T21:10:21Z,2024-01-17T03:34:56+00:00,5,6.41,True,83,37,2,54,0,1,1,MERGED
+1145,docs: update onboarding for union-testnet-5,PoisonPhang,2024-01-16T17:19:35Z,2024-01-17T17:19:06+00:00,18,23.99,True,1567,95,15,0,1,7,8,MERGED
+1143,fix(unionvisor): remove dbg! macro usage,PoisonPhang,2024-01-16T14:56:31Z,2024-01-17T14:45:03+00:00,1,23.81,True,2,2,2,0,0,0,0,MERGED
+1135,feat(galois): upgrade gnark and improve circuit/tests,hussein-aitlahcen,2024-01-15T12:20:14Z,2024-01-15T19:55:44+00:00,2,7.59,True,17379,9930,327,13,0,0,0,MERGED
+1133,fix: mobile ui,o-az,2024-01-14T17:25:08Z,2024-01-15T11:31:19+00:00,1,18.1,True,11,8,4,0,1,0,1,MERGED
+1131,feat(ics23/test): add vector test,qlp,2024-01-13T18:51:27Z,2024-01-17T20:24:40+00:00,8,97.55,True,156,4,1,0,0,3,3,MERGED
+1130,"feat: update deps, add taplo, and move deps to workspace",benluelo,2024-01-13T04:30:02Z,2024-01-15T18:09:08+00:00,2,61.65,True,1691,1442,43,0,0,0,0,MERGED
+1128,feat: error out when home is not set,PoisonPhang,2024-01-12T20:26:20Z,2024-01-12T22:06:53+00:00,3,1.68,True,7,2,2,113,0,0,0,MERGED
+1126,feat: added union-testnet-5 genesis,PoisonPhang,2024-01-12T16:34:32Z,2024-01-15T22:42:16+00:00,1,78.13,True,1573,1,7,0,0,0,0,MERGED
+1122,chore: rename docs config files to site,o-az,2024-01-12T00:48:53Z,2024-01-12T05:42:46+00:00,2,4.9,False,6,81,7,0,0,0,0,CLOSED
+1117,feat: noble movement blog post,o-az,2024-01-11T21:22:35Z,2024-01-12T00:22:46+00:00,1,3.0,True,81,7,9,0,2,0,2,MERGED
+1116,feat(galois): more tests and optimized cofactor clearing,hussein-aitlahcen,2024-01-11T19:28:37Z,2024-01-11T20:51:41+00:00,1,1.38,True,516,547,19,13,0,0,0,MERGED
+1115,Bump rust version,benluelo,2024-01-11T17:19:58Z,2024-01-12T22:31:55+00:00,3,29.2,True,335,338,9,39,0,0,0,MERGED
+1104,Remove union module from uniond,cor,2024-01-09T12:43:00Z,2024-01-09T16:37:31+00:00,3,3.91,True,1,2121,30,50,0,0,0,MERGED
+1102,cometbls light client proper header verification (closes #1101),aeryz,2024-01-09T08:49:36Z,2024-01-09T16:16:20+00:00,3,7.45,True,81,48,5,0,0,1,1,MERGED
+1099,ICS23 test suite,benluelo,2024-01-08T21:27:33Z,2024-01-10T20:47:06+00:00,1,47.33,True,908,228,25,66,0,0,0,MERGED
+1098,ucs01-relay: more coverage on both solidity and rust,hussein-aitlahcen,2024-01-08T16:53:20Z,2024-01-11T10:01:49+00:00,1,65.14,True,1857,212,129,11,0,0,0,MERGED
+1089,chore: update typescript-sdk deps,o-az,2024-01-05T23:51:00Z,2024-01-06T00:55:35+00:00,1,1.08,True,4422,2432,6,0,0,0,0,MERGED
+1088,refactor: move queue-msg into a library,benluelo,2024-01-05T22:51:02Z,2024-02-13T19:15:04+00:00,4,932.4,True,1088,846,34,45,0,2,2,MERGED
+1087,fix: fix serde on beacon api types after #1069,benluelo,2024-01-05T16:08:15Z,2024-01-05T22:51:24+00:00,1,6.72,True,4,1,1,267,1,0,1,MERGED
+1085,feat(voyager): refactor message to be generic over contained data,benluelo,2024-01-03T19:18:51Z,2024-01-03T21:14:59+00:00,4,1.94,True,1848,1972,25,518,1,2,3,MERGED
+1084,cometbls wasm membership verification (closes #514),aeryz,2023-12-31T21:26:59Z,2024-01-08T12:26:42+00:00,40,183.0,True,1527,110,36,407,1,38,39,MERGED
+1076,fix: incorrect verification of bn254 public keys,hussein-aitlahcen,2023-12-25T00:47:59Z,2023-12-27T10:35:32+00:00,1,57.79,True,433629,217986,2249,605,1,0,1,MERGED
+1072,feat(uniond): upgrade cosmos sdk to v0.50.2,PoisonPhang,2023-12-22T22:39:17Z,2023-12-27T11:46:23+00:00,1,109.12,True,1875,34,25,281,1,0,1,MERGED
+1070,docs: correct uniond versions in docs and add upgrade history,PoisonPhang,2023-12-22T21:07:48Z,2023-12-22T22:41:56+00:00,4,1.57,True,62,26,7,424,2,1,3,MERGED
+1069,feat: clean up types and serde representations,benluelo,2023-12-22T20:20:16Z,2023-12-22T23:35:10+00:00,4,3.25,True,1135,3419,126,408,1,4,5,MERGED
+1066,fix(uniond): use bank keeper to add textual sign mode,PoisonPhang,2023-12-21T22:12:20Z,2023-12-21T23:32:41+00:00,2,1.34,True,18,2,2,537,1,0,1,MERGED
+1062,docs: update uniond and unionvisor versions,PoisonPhang,2023-12-20T23:57:45Z,2023-12-21T07:15:43+00:00,3,7.3,True,17,8,2,217,2,1,3,MERGED
+1058,feat(docs/blog): merge blog & docs,o-az,2023-12-20T21:02:53Z,2024-01-11T18:37:54+00:00,4,525.58,True,20844,55016,191,0,2,1,3,MERGED
+1054,Set next migration for v0.17.0 instead of v0.16.0,PoisonPhang,2023-12-19T20:10:13Z,2023-12-19T22:12:07+00:00,2,2.03,True,18,11,6,545,1,0,1,MERGED
+1052,feat(unionvisor): make log flags global,PoisonPhang,2023-12-18T17:38:57Z,2023-12-19T01:41:01+00:00,1,8.03,True,8,1,1,181,1,0,1,MERGED
+1048,union <-> cosmos,aeryz,2023-12-16T12:43:08Z,2023-12-20T20:38:55+00:00,2,103.93,True,697553,94284,2800,275,1,0,1,MERGED
+1035,feat(unionvisor): append v0.16.0 to bundle-testnet-4,PoisonPhang,2023-12-12T23:13:28Z,2023-12-13T16:54:58+00:00,2,17.69,True,23,2,2,69,1,0,1,MERGED
+1032,feat: add cosmos::auth::BaseAccount to unionlabs,benluelo,2023-12-11T21:48:41Z,2023-12-11T23:06:22+00:00,3,1.29,True,185,226,12,1026,1,0,1,MERGED
+1025,1002 test v050x upgrade with artificial chain state,PoisonPhang,2023-12-07T23:01:11Z,2023-12-08T08:49:21+00:00,1,9.8,True,2070,1475,518,0,1,0,1,MERGED
+1021,docs(nix): add GitHub PAT warning to main README,cor,2023-12-06T12:04:15Z,2023-12-11T15:59:15+00:00,2,123.92,True,1,0,1,116,1,0,1,MERGED
+1017,feat(ts-sdk): create transfers sdk,o-az,2023-12-05T12:02:03Z,2023-12-20T20:44:33+00:00,19,368.71,True,7059,1739,35,299,6,16,22,MERGED
+1012, optimize membership proof verification cost in evm,hussein-aitlahcen,2023-12-04T17:49:52Z,2023-12-05T15:13:27+00:00,3,21.39,True,1096,92,16,720,1,2,3,MERGED
+997,feat(hubble): add eth indexing,KaiserKarel,2023-11-30T16:16:01Z,2024-04-03T09:52:33+00:00,1,2993.61,True,1283,9328,53,107,9,0,9,MERGED
+996,Use `snowfork`'s `milagro_bls`,aeryz,2023-11-30T09:12:39Z,2023-11-30T14:20:03+00:00,1,5.12,True,3,3,2,15,0,0,0,MERGED
+994,feat(unionvisor): create image for bundle-testnet-4,PoisonPhang,2023-11-29T20:22:24Z,2023-11-30T21:07:07+00:00,4,24.75,True,161,14,10,160,2,0,2,MERGED
+989,docs: added stakeflow to public endpoints page,PoisonPhang,2023-11-28T18:53:20Z,2023-11-29T21:32:58+00:00,1,26.66,True,4,0,2,120,2,0,2,MERGED
+985,feat(ci): updated unionlabs/workflows ref,PoisonPhang,2023-11-27T21:31:45Z,2023-12-13T16:15:54+00:00,1,378.74,True,5,5,3,99,1,0,1,MERGED
+975,Upgrade to cosmos sdk 0.50,aeryz,2023-11-24T20:29:23Z,2023-12-09T22:09:56+00:00,3,361.68,True,865702,232154,4122,2650,1,0,1,MERGED
+972,feat(uniond): add cosmos-sdk version for the app in release mode,hussein-aitlahcen,2023-11-23T15:44:15Z,2023-11-24T13:31:34+00:00,9,21.79,True,58,26,5,483,1,3,4,MERGED
+967,Refactor voyager to be generic over chains,benluelo,2023-11-22T16:27:57Z,2023-12-11T20:50:40+00:00,4,460.38,True,6076,3218,56,1166,1,2,3,MERGED
+966,feat(bundle-testnet): add v0.15.0,cor,2023-11-22T15:13:19Z,2023-11-22T16:30:40+00:00,6,1.29,True,26,3,3,311,2,1,3,MERGED
+958,fix(e2e): add required ethers flags,PoisonPhang,2023-11-20T18:22:18Z,2023-11-22T13:47:19+00:00,1,43.42,True,1,1,1,138,2,0,2,MERGED
+957,docs: update color-scheme,PoisonPhang,2023-11-20T17:07:44Z,2023-11-21T21:40:48+00:00,2,28.55,True,14,14,1,246,2,0,2,MERGED
+954,Rename `evm` and `cosmos` (closes #621),aeryz,2023-11-19T15:04:24Z,2023-11-30T16:48:08+00:00,5,265.73,True,35,35,10,472,2,1,3,MERGED
+952,Testing CodeRabbit,KaiserKarel,2023-11-18T11:45:02Z,2023-11-29T14:17:11+00:00,1,266.54,False,53,0,3,239,2,2,4,CLOSED
+946,Check if the contract address in the account proof is the one in the client state (closes #935),aeryz,2023-11-17T15:09:16Z,2023-11-17T19:33:21+00:00,2,4.4,True,99,62,9,55,0,1,1,MERGED
+944,docs: endpoint docs and update faq,PoisonPhang,2023-11-15T20:05:02Z,2023-11-20T17:09:03+00:00,15,117.07,True,34,0,4,435,2,5,7,MERGED
+939,docs: use public link to `uniond` on the ghcr,PoisonPhang,2023-11-14T21:56:01Z,2023-11-15T14:04:44+00:00,1,16.15,True,1,1,1,223,1,0,1,MERGED
+934,replace `derive_more` with `parse_display` (closes #933) ,aeryz,2023-11-14T17:55:29Z,2023-11-14T19:27:10+00:00,1,1.53,True,246,80,12,82,0,0,0,MERGED
+930,Preliminary work on optimization,hussein-aitlahcen,2023-11-14T14:16:23Z,2023-11-17T14:56:35+00:00,1,72.67,True,1926,33507,69,0,0,0,0,MERGED
+927,feat(hubble): add sqlx datastore,KaiserKarel,2023-11-10T13:12:53Z,2023-11-15T13:33:23+00:00,8,120.34,True,596,154,22,0,0,3,3,MERGED
+926,fix(unionvisor): set HOME,KaiserKarel,2023-11-10T13:05:12Z,2023-11-10T14:46:44+00:00,1,1.69,True,1,0,1,46,0,0,0,MERGED
+923,feat: ethers-core wasm and clean up types in ethereum-* crates,benluelo,2023-11-10T01:48:59Z,2023-11-10T10:51:03+00:00,5,9.03,True,749,728,44,231,0,1,1,MERGED
+922,Unionvisor fixes,KaiserKarel,2023-11-09T20:39:34Z,2023-11-10T08:12:07+00:00,1,11.54,True,30,6,4,98,0,0,0,MERGED
+916,fix(e2e): remove upgrade from upgrade from genesis as there are none,PoisonPhang,2023-11-08T21:16:41Z,2023-11-09T15:40:30+00:00,2,18.4,True,30,37,1,196,2,0,2,MERGED
+915,Fix cherry pick v0.14.0,PoisonPhang,2023-11-08T15:37:57Z,2023-11-09T15:40:45+00:00,1,24.05,True,1,40,1,59,0,0,0,MERGED
+912,Add unionvisor to nixos module,benluelo,2023-11-07T20:42:38Z,2023-11-07T22:12:05+00:00,3,1.49,True,26,5,1,0,0,0,0,MERGED
+911,feat(testnet-4): introduce genesis,hussein-aitlahcen,2023-11-07T16:39:21Z,2023-11-07T18:34:06+00:00,5,1.91,True,479,0,3,0,0,0,0,MERGED
+910,"feat(nix): restart testnet bundle for open testnet, starting at v0.14.0",hussein-aitlahcen,2023-11-07T15:49:43Z,2023-11-07T21:43:28+00:00,1,5.9,True,517,134,9,0,0,0,0,MERGED
+905,Remove ChainSpec hack,benluelo,2023-11-07T01:02:02Z,2023-11-08T14:02:04+00:00,3,37.0,True,585,155,27,96,0,1,1,MERGED
+904,Tendermint to Union IBC support to `Voyager`,aeryz,2023-11-06T18:44:30Z,2023-12-22T13:57:31+00:00,1,1099.22,False,1725,150627,260,0,0,11,11,CLOSED
+901,Update rust nightly version,benluelo,2023-11-06T11:02:58Z,2023-11-06T17:42:09+00:00,2,6.65,True,559,293,16,64,0,0,0,MERGED
+898,feat(voyager): remove top-level Lc variant,benluelo,2023-11-05T17:44:54Z,2023-11-06T10:43:45+00:00,8,16.98,True,419,811,10,304,0,5,5,MERGED
+895,feat(voyager): use galois poll interface,benluelo,2023-11-03T22:49:36Z,2023-11-04T13:59:02+00:00,2,15.16,True,848,698,26,85,0,0,0,MERGED
+886,Make sure all the errors in `ethereum-lc` and `ethereum-verifier` have very clear context (closes #243),aeryz,2023-11-03T09:15:45Z,2023-11-08T17:16:55+00:00,5,128.02,True,255,197,10,10,1,18,19,MERGED
+884,feat(voyager): split messages out into a crate,benluelo,2023-11-03T02:14:59Z,2023-11-03T15:56:28+00:00,2,13.69,True,5282,5156,35,149,0,0,0,MERGED
+882,Fix ethereum light client tests (closes #632),aeryz,2023-11-02T15:41:48Z,2023-11-03T11:55:17+00:00,1,20.22,True,8772,1604,34,741,0,0,0,MERGED
+881,uniond - add ibc wasm snapshotter,hussein-aitlahcen,2023-11-02T14:18:57Z,2023-11-03T10:43:57+00:00,2,20.42,True,111672,4542,391,10,0,0,0,MERGED
+878,chore: cleanup,benluelo,2023-11-02T00:00:44Z,2023-11-02T09:09:02+00:00,1,9.14,True,362,421,28,168,0,0,0,MERGED
+875,feat(voyager): fetch state proof in queue,benluelo,2023-11-01T18:55:18Z,2023-11-01T21:52:42+00:00,2,2.96,True,1049,555,10,81,0,0,0,MERGED
+874,feat(uniond): make bin available through path,KaiserKarel,2023-11-01T16:41:02Z,2023-11-09T20:27:24+00:00,1,195.77,True,3,2,1,0,0,0,0,MERGED
+870,Remove ifd,benluelo,2023-10-30T14:57:38Z,2023-10-31T00:05:44+00:00,2,9.13,True,8942762,33,28855,162,0,0,0,MERGED
+868,fix: fix nightly tests,benluelo,2023-10-29T15:33:32Z,2023-11-01T23:18:52+00:00,1,79.76,True,39,18,8,0,5,0,5,MERGED
+865,feat(voyager): use PortId instead of String,benluelo,2023-10-28T22:07:28Z,2023-10-31T16:32:18+00:00,3,66.41,True,226,250,17,59,0,0,0,MERGED
+857,fix(hubble): escape \u0000,KaiserKarel,2023-10-25T14:06:19Z,2023-11-09T17:14:28+00:00,1,363.14,True,53,14,1,0,0,0,0,MERGED
+855,feat(voyager): gracefully shutdown on error,benluelo,2023-10-25T09:59:18Z,2023-10-31T14:00:09+00:00,4,148.01,True,116,49,5,0,1,0,1,MERGED
+853,docs: create on boarding docs for testnet validators,PoisonPhang,2023-10-24T11:42:19Z,2023-11-08T18:58:13+00:00,14,367.26,True,398,37,10,0,1,11,12,MERGED
+852,fix(site): swap rpc,cor,2023-10-24T11:28:41Z,2023-10-24T16:03:11+00:00,3,4.58,True,5,4,3,0,0,0,0,MERGED
+851,feat(site): finalize copy of ics20-transfers,KaiserKarel,2023-10-24T11:00:57Z,2023-10-24T16:06:18+00:00,1,5.09,True,35,20,3,0,0,0,0,MERGED
+848,feat(voyager): completely configurable pg queue db,hussein-aitlahcen,2023-10-23T18:18:43Z,2023-10-23T19:37:14+00:00,1,1.31,True,6,0,1,0,0,0,0,MERGED
+845,"Use Binary addresses in `ucs01`, Introduce `ucli`",aeryz,2023-10-23T08:45:19Z,2023-10-31T10:56:07+00:00,6,194.18,True,1730,333,23,191,0,5,5,MERGED
+843,feat(voyager): split the LightClient trait into two,benluelo,2023-10-22T22:18:38Z,2023-10-23T10:37:26+00:00,1,12.31,True,189,266,11,70,1,0,1,MERGED
+841,fix(ucs01): batch sub-messages (closes #840),aeryz,2023-10-21T08:57:16Z,2023-10-23T08:35:22+00:00,2,47.63,True,27,2,3,10,0,0,0,MERGED
+836,feat(voyager): jemalloc and more robust failure handling,benluelo,2023-10-19T22:59:13Z,2023-10-23T15:50:54+00:00,3,88.86,True,267,165,7,0,0,0,0,MERGED
+835,feat(site): track sepolia UNO,KaiserKarel,2023-10-19T22:17:32Z,2023-10-25T13:20:20+00:00,2,135.05,True,60,18,10,0,0,0,0,MERGED
+834,feat(voyager): refactor message types,benluelo,2023-10-19T18:05:21Z,2023-10-20T17:01:14+00:00,1,22.93,True,1261,1253,26,19,0,0,0,MERGED
+832,feat(voyager): more robust inclusion check,hussein-aitlahcen,2023-10-19T15:11:47Z,2023-10-19T16:25:37+00:00,1,1.23,True,23,9,1,0,0,0,0,MERGED
+830,feat(voyager): introduce `DeferFor` and `Repeat`,hussein-aitlahcen,2023-10-19T11:46:43Z,2023-10-19T13:06:32+00:00,7,1.33,True,31,12,2,0,0,4,4,MERGED
+827,feat(hubble): read admin secret from file,KaiserKarel,2023-10-18T14:18:19Z,2023-10-19T13:18:06+00:00,3,23.0,True,50,26,3,0,0,0,0,MERGED
+826,fix(ucs01): remove tokenfactory extra (incorrect) wrapping layer,hussein-aitlahcen,2023-10-18T09:22:00Z,2023-10-20T12:16:54+00:00,3,50.91,True,355,185,11,0,0,0,0,MERGED
+825,galois: ensure only one proof can be generated at a time,hussein-aitlahcen,2023-10-18T09:21:32Z,2023-10-18T15:16:35+00:00,1,5.92,True,15,1,2,10,0,0,0,MERGED
+822,fix(voyager): /!\ hack beacon head for alchemy delay,hussein-aitlahcen,2023-10-17T16:23:53Z,2023-10-18T09:01:34+00:00,3,16.63,True,39,5,2,0,0,1,1,MERGED
+821,fix(evm): avoid public functions in libraries,hussein-aitlahcen,2023-10-17T12:37:10Z,2023-10-17T13:39:13+00:00,1,1.03,True,5,5,1,0,0,0,0,MERGED
+820,fix(serde-utils): decode empty hex properly,benluelo,2023-10-17T11:08:06Z,2023-10-17T12:14:06+00:00,3,1.1,True,19,2,2,0,0,0,0,MERGED
+819,feat(voyager): refactor msg construction and fix tm error types ,benluelo,2023-10-17T10:28:55Z,2023-10-17T18:02:55+00:00,1,7.57,True,1183,1238,5,0,0,0,0,MERGED
+818,fix(voyager): use rustls in sqlx,benluelo,2023-10-17T09:50:11Z,2023-10-17T11:06:40+00:00,2,1.27,True,13,1,2,0,0,0,0,MERGED
+814,feat(ucs01): evm: split code and create tests,hussein-aitlahcen,2023-10-16T20:00:49Z,2023-10-16T21:53:25+00:00,6,1.88,True,182,94,9,0,0,0,0,MERGED
+811,feat: add ProveResponse to unionlabs,benluelo,2023-10-16T00:55:20Z,2023-10-16T15:22:34+00:00,2,14.45,True,187,18,7,45,0,0,0,MERGED
+810,Workspace deps,benluelo,2023-10-15T20:55:46Z,2023-10-16T15:02:10+00:00,4,18.11,True,0,46,4,50,0,0,0,MERGED
+809,Update ethers abigen,benluelo,2023-10-15T20:22:28Z,2023-10-16T10:31:21+00:00,1,14.15,True,6181,96446,14,156,0,0,0,MERGED
+808,feat(hubble): index tendermint events by tx hash,KaiserKarel,2023-10-15T18:45:06Z,2023-10-18T12:58:58+00:00,1,66.23,True,2530,308,3,0,0,0,0,MERGED
+804,fix(ucs01): evm: check token channel origin before burning,hussein-aitlahcen,2023-10-13T08:12:20Z,2023-10-13T09:31:15+00:00,3,1.32,True,173,141,125,10,0,0,0,MERGED
+801,Zerg: You have never experienced this amount of stress before,aeryz,2023-10-13T07:36:30Z,2023-12-01T14:21:06+00:00,32,1182.74,True,3659,109,34,2309,3,73,76,MERGED
+799,feat(voyager): consume messages concurrently ,benluelo,2023-10-12T19:23:45Z,2023-10-15T16:09:58+00:00,2,68.77,True,2045,1436,40,17,0,0,0,MERGED
+798,docs(galosid): verification -> proof generation,cor,2023-10-12T18:25:43Z,2023-10-13T09:21:45+00:00,1,14.93,True,1,1,1,0,0,0,0,MERGED
+795,More things,benluelo,2023-10-12T12:19:22Z,2023-10-12T19:27:51+00:00,3,7.14,True,40634,58,12,214,0,0,0,MERGED
+794,feat(hubble): switch to timescaledb,KaiserKarel,2023-10-12T11:23:08Z,2023-10-12T13:50:09+00:00,7,2.45,True,3654,859,44,115,0,2,2,MERGED
+793,galois v2: mimc based validator set root and circuit,hussein-aitlahcen,2023-10-11T20:25:29Z,2023-11-02T11:49:02+00:00,3,519.39,True,71134,26968,732,517,0,1,1,MERGED
+791,feat: scaffold top-level errors,benluelo,2023-10-11T15:00:35Z,2023-10-11T16:08:53+00:00,1,1.14,True,305,72,16,97,0,0,0,MERGED
+789,feat(ci): copy artifacts to GCP,PoisonPhang,2023-10-10T17:04:10Z,2023-10-11T13:19:39+00:00,1,20.26,True,17,0,1,11,0,0,0,MERGED
+788,feat(voyager): clean up the cli arguments,benluelo,2023-10-10T16:47:56Z,2023-10-11T10:08:07+00:00,1,17.34,True,29,67,2,38,0,0,0,MERGED
+784,galois - more tests and comments,hussein-aitlahcen,2023-10-10T11:33:49Z,2023-10-10T12:48:32+00:00,5,1.25,True,104,64,4,12,0,3,3,MERGED
+782,Voyager persistent queue,benluelo,2023-10-10T10:45:06Z,2023-10-10T13:20:29+00:00,4,2.59,True,379,264,28,243,0,1,1,MERGED
+781,cometbls - upgrade protos & use untrusted validator hash from the signed header,hussein-aitlahcen,2023-10-09T17:51:19Z,2023-10-09T19:22:41+00:00,3,1.52,True,21779,13229,93,10,0,0,0,MERGED
+779,fix(pgqueue): regenerate schema,KaiserKarel,2023-10-09T16:31:38Z,2023-10-09T18:16:45+00:00,1,1.75,True,2,2,1,0,0,0,0,MERGED
+777,feat(pg-queue): add pg-queue,KaiserKarel,2023-10-09T12:43:58Z,2023-10-09T16:05:03+00:00,2,3.35,True,1107,542,17,0,0,0,0,MERGED
+776,even more stuff for voyager,benluelo,2023-10-09T11:27:05Z,2023-10-09T14:49:15+00:00,2,3.37,True,1847,1248,35,87,0,1,1,MERGED
+773,feat(voyager): handle trivial validator set drift,hussein-aitlahcen,2023-10-08T10:22:13Z,2023-10-09T14:16:35+00:00,2,27.91,True,122,145,1,122,0,2,2,MERGED
+767,feat(tools): add iaviewer,KaiserKarel,2023-10-02T20:10:55Z,2023-10-03T09:49:59+00:00,1,13.65,True,26,0,3,0,0,0,0,MERGED
+762,Add token transfer demo to blog,cor,2023-09-30T14:00:45Z,2023-10-18T22:48:11+00:00,1,440.79,True,2858,138,39,52,2,0,2,MERGED
+760,feat(faucet): add nixos module,KaiserKarel,2023-09-29T12:44:09Z,2023-09-29T15:21:56+00:00,1,2.63,True,146,0,3,0,0,0,0,MERGED
+755,ci: combine build and test phase,PoisonPhang,2023-09-28T16:35:59Z,2023-09-28T19:29:45+00:00,1,2.9,True,2,2,1,105,0,0,0,MERGED
+749,docs: moved tutorials up and removed sdk from docs,PoisonPhang,2023-09-27T19:57:18Z,2023-09-28T14:34:34+00:00,1,18.62,True,7,331,13,315,1,0,1,MERGED
+748,Add pingpong demo to blog (closes #747),cor,2023-09-27T19:07:06Z,2023-09-28T14:53:41+00:00,1,19.78,True,755,11,9,84,1,0,1,MERGED
+746,Add site and blog,cor,2023-09-26T22:44:23Z,2023-09-27T18:57:57+00:00,1,20.23,True,3107,8,57,576,2,0,2,MERGED
+745,docs: update galois architecture docs,PoisonPhang,2023-09-26T18:19:38Z,2023-09-27T10:42:21+00:00,3,16.38,True,19,5,2,751,1,1,2,MERGED
+740,docs: minor tweaks and fixes,PoisonPhang,2023-09-25T20:28:20Z,2023-09-25T23:57:02+00:00,1,3.48,True,103,21,8,324,1,0,1,MERGED
+733,fix(hubble): do not discard hasura errors,KaiserKarel,2023-09-22T13:02:46Z,2023-09-25T21:30:35+00:00,3,80.46,True,16,0,1,0,0,0,0,MERGED
+729,Improve unionvisor errors and logging,cor,2023-09-21T20:57:28Z,2023-10-20T08:14:21+00:00,1,683.28,True,404,537,20,833,0,0,0,MERGED
+721,chore(ci): update unionlabs/workflows ref,PoisonPhang,2023-09-20T21:06:35Z,2023-09-21T17:07:09+00:00,3,20.01,True,5,5,3,0,0,0,0,MERGED
+719,fix(ci): version regex includes multicharacter numbers,PoisonPhang,2023-09-19T16:29:13Z,2023-09-21T17:37:11+00:00,8,49.13,True,101,91,3,229,1,1,2,MERGED
+716,feat(uniond): added snapshot subcommand,PoisonPhang,2023-09-18T19:20:33Z,2023-09-18T21:50:56+00:00,2,2.51,True,434,4,9,48,0,0,0,MERGED
+712,evm: implement ibc packet timeout,hussein-aitlahcen,2023-09-15T12:23:48Z,2023-09-15T13:58:17+00:00,6,1.57,True,229,666,18,11,0,3,3,MERGED
+711,feat(hubble): add prometheus metrics,KaiserKarel,2023-09-15T11:17:38Z,2023-09-15T15:50:30+00:00,2,4.55,True,342,71,8,65,0,1,1,MERGED
+706,feat(hubble): index tendermint headers and consensus changes,KaiserKarel,2023-09-14T15:45:21Z,2023-09-15T10:39:30+00:00,3,18.9,True,294,29,14,78,1,1,2,MERGED
+704,fix(devnet): temporarily remove hubble,KaiserKarel,2023-09-14T13:02:32Z,2023-09-14T14:26:53+00:00,1,1.41,True,7,7,1,0,1,0,1,MERGED
+702,ibc evm implement non membership verification,hussein-aitlahcen,2023-09-14T10:05:11Z,2023-09-14T11:16:07+00:00,2,1.18,True,290,71,5,36,0,0,0,MERGED
+698,fix(ci): update workflows ref in e2e and release,PoisonPhang,2023-09-13T20:37:08Z,2023-09-13T21:51:36+00:00,1,1.24,True,2,2,2,0,1,0,1,MERGED
+694,feat(uniond): added v0.12.0 migration,PoisonPhang,2023-09-13T14:24:43Z,2023-09-13T17:27:43+00:00,1,3.05,True,60,2,6,242,2,0,2,MERGED
+692,feat(hubble): add fast-sync for tendermint,KaiserKarel,2023-09-13T14:17:45Z,2023-09-14T10:09:56+00:00,3,19.87,True,3912,834,18,92,0,0,0,MERGED
+689,chore: update cosmos-sdk to v0.47.5,PoisonPhang,2023-09-12T19:39:49Z,2023-09-13T13:38:42+00:00,1,17.98,True,30252,743,345,1283,1,0,1,MERGED
+681,feat(hubble): error on stalled node,KaiserKarel,2023-09-12T11:17:09Z,2023-09-13T09:47:23+00:00,3,22.5,True,10,1,2,117,0,0,0,MERGED
+679,evm: initial implementation of the ucs01 relay protocol,hussein-aitlahcen,2023-09-11T12:24:10Z,2023-09-12T12:31:27+00:00,5,24.12,True,476,158,13,11,1,3,4,MERGED
+678,faster nix,hussein-aitlahcen,2023-09-11T12:21:41Z,2023-09-11T19:03:40+00:00,6,6.7,True,444,57487,6,0,3,1,4,MERGED
+677,Ethereum light client improvements,aeryz,2023-09-11T07:56:06Z,2023-09-14T07:16:31+00:00,3,71.34,True,437,217,24,497,0,0,0,MERGED
+671,Remove ICS20 from e2e-setup and Voyager,cor,2023-09-09T22:05:25Z,2023-09-09T23:07:36+00:00,1,1.04,True,4,133,4,38,0,0,0,MERGED
+662,feat: framework for e2e testing upgrades,PoisonPhang,2023-09-07T20:51:58Z,2023-09-08T13:26:07+00:00,1,16.57,True,992,667,13,0,1,0,1,MERGED
+661,Create `tdc` CLI for creating TODO comments linked to issues,cor,2023-09-07T19:42:19Z,2023-09-08T08:39:55+00:00,1,12.96,True,17,0,2,58,2,0,2,MERGED
+647,Implement misbehaviour check on header for ethereum light client,aeryz,2023-09-07T06:47:38Z,2023-09-08T16:14:27+00:00,5,33.45,True,105,35,5,273,1,3,4,MERGED
+641,Use .1 versions in bundle-testnet (closes #640),cor,2023-09-06T14:48:20Z,2023-09-06T17:41:56+00:00,2,2.89,True,674,674,4,0,0,0,0,MERGED
+635,Use a message-based system for voyager,benluelo,2023-09-06T05:00:26Z,2023-09-30T20:37:18+00:00,15,591.61,True,54878,58900,98,685,1,6,7,MERGED
+634,feat(ucs01-relay): initial implementation,hussein-aitlahcen,2023-09-05T17:09:43Z,2023-09-07T16:49:53+00:00,16,47.67,True,1897,1632,19,83,0,16,16,MERGED
+630,Add `nix-tree` to devShell (closes #629),cor,2023-09-05T10:36:55Z,2023-09-05T15:11:33+00:00,5,4.58,True,4,3,1,0,0,1,1,MERGED
+627,feat(e2e-setup): print sample commands and home dir,aeryz,2023-09-05T07:00:40Z,2023-09-05T08:32:32+00:00,1,1.53,True,44,1,1,15,0,0,0,MERGED
+625,fix(libwasmvm): incorrect use of `installPhase` blowing nix closure,hussein-aitlahcen,2023-09-04T16:16:55Z,2023-09-04T17:48:35+00:00,1,1.53,True,2,2,1,0,0,0,0,MERGED
+615,fix(voyager): use heights correctly,aeryz,2023-09-02T19:16:30Z,2023-09-02T20:53:37+00:00,4,1.62,True,31,37,2,88,0,1,1,MERGED
+613,feat(hubble): add indexing to devnets,KaiserKarel,2023-09-02T14:24:41Z,2023-09-03T09:35:04+00:00,1,19.17,True,657,77,45,111,0,0,0,MERGED
+611,fix: update tendermint-rs rev in Cargo.lock,benluelo,2023-09-01T16:00:17Z,2023-09-01T17:28:46+00:00,1,1.47,True,14,106,2,0,0,0,0,MERGED
+610,v0.11.0 upgrade handler,hussein-aitlahcen,2023-09-01T14:45:57Z,2023-09-01T20:49:54+00:00,5,6.07,True,507,414,10,0,0,0,0,MERGED
+599,ci: build bundles,cor,2023-08-31T14:50:32Z,2023-08-31T20:51:29+00:00,1,6.02,True,3,4,2,238,0,0,0,MERGED
+594,ci(hubble): add hubble-image,KaiserKarel,2023-08-31T13:28:17Z,2023-08-31T20:19:22+00:00,3,6.85,True,140,17,8,46,0,0,0,MERGED
+590,introduce token factory,hussein-aitlahcen,2023-08-31T11:12:02Z,2023-09-01T13:40:47+00:00,3,26.48,True,11364,417,123,21,1,0,1,MERGED
+587,feat: upgrade wasm/libwasmvm/bls-eth to 0.41.0/1.3.0/1.32.0,hussein-aitlahcen,2023-08-30T20:22:32Z,2023-08-31T06:40:13+00:00,4,10.29,True,16241,4703,199,10,0,0,0,MERGED
+581,implement `ics008-wasm-client` library (closes #515),aeryz,2023-08-30T12:58:44Z,2023-09-04T08:39:09+00:00,20,115.67,True,1787,1625,25,391,1,8,9,MERGED
+580,fix(cometbls-verifier): avoid panicking if the proof is too short,hussein-aitlahcen,2023-08-30T10:04:43Z,2023-08-30T18:14:15+00:00,4,8.16,True,148,87,4,0,2,1,3,MERGED
+578,fix: query the union node for blocks,PoisonPhang,2023-08-29T20:35:49Z,2023-08-30T01:17:09+00:00,1,4.69,True,4,4,2,268,4,0,4,MERGED
+569,feat: run fmt and spell checks first,PoisonPhang,2023-08-29T15:59:51Z,2023-08-29T17:25:48+00:00,2,1.43,True,33,2,1,708,0,0,0,MERGED
+568,Optimize cometbls verifier,hussein-aitlahcen,2023-08-29T14:16:37Z,2023-08-29T16:44:33+00:00,1,2.47,True,104,77,1,0,0,0,0,MERGED
+567,feat: add hubble,KaiserKarel,2023-08-29T12:42:27Z,2023-08-30T11:50:56+00:00,6,23.14,True,5115,19,15,305,0,2,2,MERGED
+556,upgrade rust version,benluelo,2023-08-26T19:27:14Z,2023-08-26T21:30:07+00:00,2,2.05,True,33,27,10,11,0,0,0,MERGED
+554,feat!: rename relayer to voyager,benluelo,2023-08-25T17:01:07Z,2023-08-25T18:14:28+00:00,2,1.22,True,179,196,25,11,1,0,1,MERGED
+553,feat(ci): pruned builds filter,PoisonPhang,2023-08-25T16:29:27Z,2023-08-28T10:08:09+00:00,1,65.64,True,58,29,1,7438,0,0,0,MERGED
+551,evm: allow for arbitrary revision number on client creation & allow for different conf for devnet/e2e,hussein-aitlahcen,2023-08-25T10:53:51Z,2023-08-25T14:39:29+00:00,2,3.76,True,6,17,3,22,0,0,0,MERGED
+548,ci: cleaned up jq filter,PoisonPhang,2023-08-24T21:11:15Z,2023-08-25T14:58:53+00:00,5,17.79,True,46,1,1,146,0,1,1,MERGED
+533,docs: update val getting started for union-testnet-3,PoisonPhang,2023-08-24T14:48:58Z,2023-08-28T12:54:53+00:00,7,94.1,True,22,12,2,53,1,2,3,MERGED
+524,fix: install contracts properly,benluelo,2023-08-23T14:25:56Z,2023-08-23T15:45:06+00:00,5,1.32,True,19,8,2,114,0,1,1,MERGED
+522,521 devnet ibc handler is now too big to be deployed,hussein-aitlahcen,2023-08-23T13:45:42Z,2023-08-23T16:23:53+00:00,3,2.64,True,145,114,6,10,0,0,0,MERGED
+520,Rename setup-demo to e2e-setup (fixes #519),cor,2023-08-23T12:13:55Z,2023-08-24T09:43:47+00:00,2,21.5,True,5,5,1,0,1,0,1,MERGED
+517,feat: update Duration and Timestamp to match proto specs,benluelo,2023-08-23T05:05:47Z,2023-08-25T17:03:12+00:00,3,59.96,True,1065,242,28,464,0,1,1,MERGED
+508,Add `chain_id` to `ClientState` (closes #498),aeryz,2023-08-18T13:03:19Z,2023-08-22T10:19:39+00:00,2,93.27,True,929,1597,43,261,0,0,0,MERGED
+507,Implement `VerifyClientMessage` (closes #506),aeryz,2023-08-18T08:23:01Z,2023-08-22T18:31:27+00:00,1,106.14,True,137,469,6,397,0,0,0,MERGED
+505,feat: use proper events in handshake methods,benluelo,2023-08-18T06:35:26Z,2023-08-18T16:30:42+00:00,3,9.92,True,367,332,8,107,0,3,3,MERGED
+504,Implement `verify_non_membership` (closes #503),aeryz,2023-08-18T06:19:41Z,2023-08-21T13:36:03+00:00,16,79.27,True,262,113,7,15,0,10,10,MERGED
+502,feat: more type conversions in unionlabs,benluelo,2023-08-17T21:09:13Z,2023-08-18T01:33:54+00:00,2,4.41,True,286,54,27,113,1,0,1,MERGED
+501,docs: updated offical docs link in README.md,PoisonPhang,2023-08-17T15:48:06Z,2023-08-17T21:04:56+00:00,6,5.28,True,6,3,1,0,0,1,1,MERGED
+496,feat: remove unused generated grpc server stubs,benluelo,2023-08-16T21:48:46Z,2023-08-16T23:51:52+00:00,1,2.05,True,2,16624,40,11,0,0,0,MERGED
+494,Introduce CometBLS wasm light client,aeryz,2023-08-16T08:12:36Z,2023-08-22T18:30:46+00:00,19,154.3,True,1850,81,29,68,0,19,19,MERGED
+491,feat: clean up unionlabs types,benluelo,2023-08-15T16:25:58Z,2023-08-16T12:38:48+00:00,6,20.21,True,560,133,50,104,0,2,2,MERGED
+489,refactor!: rename prover protos to galois,benluelo,2023-08-14T16:18:59Z,2023-08-16T13:09:24+00:00,6,44.84,True,189,185,10,0,0,1,1,MERGED
+486,fix: update ensure-blocks lockfile,benluelo,2023-08-12T23:26:20Z,2023-08-13T13:12:59+00:00,1,13.78,True,22,21,3,27,1,0,1,MERGED
+484,"feat: more types in unionlabs, fix sign extension checking, and some cleanup",benluelo,2023-08-12T20:53:22Z,2023-08-14T17:11:08+00:00,6,44.3,True,1400,366,48,0,0,7,7,MERGED
+482,EVM: Dealing with 'Stack too deep' errors,naps62,2023-08-11T14:56:10Z,2024-01-30T13:42:44+00:00,1,4126.78,False,144,79,1,1275,1,1,2,CLOSED
+481,"Port binding, optional handshakes, customizable versions (closes #488, #474, #490)",benluelo,2023-08-11T13:32:09Z,2023-08-15T17:10:38+00:00,7,99.64,True,17371,16422,28,27,3,4,7,MERGED
+479,ci: use golem-bot for automation,KaiserKarel,2023-08-11T13:04:31Z,2023-08-11T15:10:24+00:00,2,2.1,True,21,18,1,208,0,0,0,MERGED
+473,Add voyager nixos module,benluelo,2023-08-10T18:00:11Z,2024-07-26T14:27:51+00:00,1,8420.46,False,43,0,1,11,5,0,5,CLOSED
+472,feat: add grpc_url to union chain config,benluelo,2023-08-10T17:01:56Z,2023-08-10T21:56:12+00:00,3,4.9,True,39,36,3,0,1,0,1,MERGED
+471,ci(e2e): add pull-requests: write,KaiserKarel,2023-08-10T14:18:55Z,2023-08-11T11:43:12+00:00,1,21.4,True,4,2,1,0,0,0,0,MERGED
+464,chore: move forks to unionlabs,benluelo,2023-08-10T05:57:23Z,2023-08-10T22:33:08+00:00,4,16.6,True,13,13,6,0,0,0,0,MERGED
+462,feat: e2e tests for epoch staking,PoisonPhang,2023-08-09T20:52:01Z,2023-08-24T13:06:35+00:00,6,352.24,True,16235,5220,381,654,5,2,7,MERGED
+460,fix: nightly workflow runner links and run logic,PoisonPhang,2023-08-09T16:35:13Z,2023-08-09T18:06:01+00:00,1,1.51,True,3,2,2,210,0,0,0,MERGED
+451,ci: move e2e tests to a dedicated action.yml,KaiserKarel,2023-08-09T12:15:14Z,2023-08-09T15:30:54+00:00,4,3.26,True,46,16,4,0,3,2,5,MERGED
+448,feat(relayer): add command to query ibc paths,benluelo,2023-08-09T00:46:50Z,2023-08-09T13:49:26+00:00,3,13.04,True,253,26,18,567,0,2,2,MERGED
+447,feat: add structs for well-known cosmos ibc events,benluelo,2023-08-08T23:58:32Z,2023-08-10T10:11:11+00:00,7,34.21,True,417,83,10,0,0,2,2,MERGED
+445,fix: fix ensure-blocks e2e test,benluelo,2023-08-08T19:43:11Z,2023-08-09T09:35:19+00:00,1,13.87,True,7,2,3,0,3,0,3,MERGED
+441,docs: restructure chapters,KaiserKarel,2023-08-08T15:14:14Z,2023-08-08T17:29:23+00:00,2,2.25,True,144,143,29,0,1,2,3,MERGED
+440,feat(relayer): dump cosmos commits/zkp,hussein-aitlahcen,2023-08-08T12:30:13Z,2023-08-08T13:32:30+00:00,13,1.04,True,129,20,7,36,0,3,3,MERGED
+437,fix(docs): fix link to docs in badge,KaiserKarel,2023-08-08T11:40:23Z,2023-08-08T12:46:17+00:00,1,1.1,True,1,1,1,0,0,0,0,MERGED
+433,feat: add e2e slash command and remove kvm tests from build.yml,benluelo,2023-08-07T19:36:42Z,2023-08-08T12:49:10+00:00,2,17.21,True,53,5,7,0,12,1,13,MERGED
+430,feat(docs): introduce the build section and solidity sdk/examples,hussein-aitlahcen,2023-08-07T12:31:15Z,2023-08-07T18:03:33+00:00,1,5.54,True,163,11,8,10,1,0,1,MERGED
+428,"chore(docs): add handshake, relayer config and ibc config docs",aeryz,2023-08-07T10:39:10Z,2023-08-07T11:45:38+00:00,1,1.11,True,211,0,4,15,2,0,2,MERGED
+427,feat(ethereum-lc): add preset query (closes #419),aeryz,2023-08-06T15:51:17Z,2023-08-09T13:48:19+00:00,2,69.95,True,45,8,6,15,0,0,0,MERGED
+424,"feat!: add `Proto` trait as supertrait of `{From,TryFrom,Into}Proto`",benluelo,2023-08-04T22:13:33Z,2023-08-05T15:27:05+00:00,1,17.23,True,92,248,30,241,0,0,0,MERGED
+421,feat(docs): add tutorials/demo-setup (closes #418),aeryz,2023-08-04T15:10:45Z,2023-08-08T09:50:56+00:00,1,90.67,True,129,1,4,15,1,0,1,MERGED
+414,feat(pingpong): upgrade protocol to correctly handle timeout,hussein-aitlahcen,2023-08-01T10:08:34Z,2023-08-01T12:02:55+00:00,1,1.91,True,171,73,8,10,0,0,0,MERGED
+408,"fix: parse U256 from decimal string, not hex",benluelo,2023-07-31T22:49:13Z,2023-08-01T13:13:28+00:00,1,14.4,True,69,12,7,0,0,0,0,MERGED
+407,feat(devnet): demo setup (closes #386),aeryz,2023-07-31T22:26:38Z,2023-08-04T13:13:04+00:00,3,86.77,True,55288,72,23,53,0,1,1,MERGED
+406,fix: nightly workflow creates issue on failure,PoisonPhang,2023-07-31T18:04:19Z,2023-07-31T19:41:50+00:00,1,1.63,True,4,1,2,26,0,0,0,MERGED
+404,ci: update release pipeline unionpd to galoisd ,PoisonPhang,2023-07-31T15:02:31Z,2023-07-31T16:08:17+00:00,1,1.1,True,43,13,2,231,0,0,0,MERGED
+393,evm: include forge coverage report,hussein-aitlahcen,2023-07-28T11:21:30Z,2023-07-28T12:36:06+00:00,1,1.24,True,44,30,4,10,0,0,0,MERGED
+384,Improve relayer cli,benluelo,2023-07-26T16:57:12Z,2023-07-28T15:53:47+00:00,5,46.94,True,3343,1882,46,460,0,5,5,MERGED
+380,add bls tests (closes #357),aeryz,2023-07-24T09:32:36Z,2023-07-27T11:08:12+00:00,2,73.59,True,227,6,5,15,2,0,2,MERGED
+379,docs: make images and diagrams darkmode friendly,KaiserKarel,2023-07-20T11:39:55Z,2023-07-25T14:11:25+00:00,1,122.53,True,186,9,4,109,1,0,1,MERGED
+374,feat: add basic e2e test to ensure block production on both chains,benluelo,2023-07-19T13:04:42Z,2023-08-07T15:35:47+00:00,9,458.52,True,4651,118,18,0,1,3,4,MERGED
+373,chore(ethereum-verifier): add nix derivation,aeryz,2023-07-19T08:11:35Z,2023-07-19T13:31:47+00:00,2,5.34,True,48,13,4,15,0,1,1,MERGED
+372,feat(ethereum-lc): implement status query (closes #145),aeryz,2023-07-19T07:23:05Z,2023-07-19T12:01:13+00:00,1,4.64,True,171,22,3,15,0,0,0,MERGED
+371,docs: add concepts/permissionless-vs-trustless,KaiserKarel,2023-07-17T16:11:04Z,2023-07-20T10:50:23+00:00,3,66.66,True,45,0,3,0,1,0,1,MERGED
+368,more descriptive errors in ethereum-lc (closes #243),aeryz,2023-07-17T08:55:12Z,2023-09-13T09:53:11+00:00,2,1392.97,False,231,529,12,15,1,3,4,CLOSED
+364,Refactor proof commitments,benluelo,2023-07-14T08:01:31Z,2023-07-19T14:26:30+00:00,3,126.42,True,689,601,9,0,0,0,0,MERGED
+360,Add rustfmt.toml,benluelo,2023-07-12T05:28:16Z,2023-07-12T16:17:51+00:00,3,10.83,True,254,274,74,0,0,0,0,MERGED
+358,test suite for yui-ibc contracts,naps62,2023-07-11T19:39:06Z,2023-08-24T10:49:24+00:00,9,1047.17,True,3264,626,39,969,3,5,8,MERGED
+352,Ethereum verifier tests (closes #240),aeryz,2023-07-11T09:22:03Z,2023-07-13T09:48:49+00:00,8,48.45,True,785,130,14,15,0,6,6,MERGED
+347,Relay packets both ways,aeryz,2023-07-07T13:47:28Z,2023-07-12T15:40:46+00:00,10,121.89,True,18508,610,25,15,0,15,15,MERGED
+343,ci: added nightly workflow,PoisonPhang,2023-07-06T14:01:51Z,2023-07-10T15:06:18+00:00,4,97.07,True,28,0,3,347,0,1,1,MERGED
+340,Introduce ping pong protocol example,hussein-aitlahcen,2023-07-06T13:44:27Z,2023-07-06T16:22:59+00:00,3,2.64,True,613,249,10,10,1,0,1,MERGED
+338,refactor!: don't redefine types in multiple crates,benluelo,2023-07-06T06:01:31Z,2023-07-09T21:16:29+00:00,2,87.25,True,5468,12213,181,436,0,0,0,MERGED
+333,Optimize evm counterparty update,aeryz,2023-07-04T07:00:19Z,2023-07-07T11:57:22+00:00,4,76.95,True,352,472,6,150,0,1,1,MERGED
+332,return beacon height in `query_client_state`,aeryz,2023-07-03T12:58:50Z,2023-07-04T06:48:45+00:00,1,17.83,True,22,3,1,10,0,0,0,MERGED
+329,Fix ethereum lc tests (closes #315),aeryz,2023-07-03T05:16:06Z,2023-07-07T13:36:46+00:00,1,104.34,True,520,454,9,15,0,0,0,MERGED
+327,Genesis for `union-testnet-3` (closes #326),cor,2023-06-30T16:02:21Z,2023-07-10T15:06:02+00:00,12,239.06,True,827,1,6,0,0,2,2,MERGED
+325,docs: add ibc.md,KaiserKarel,2023-06-30T11:44:39Z,2023-07-06T12:51:44+00:00,1,145.12,True,25,4,5,41,1,0,1,MERGED
+312,Rename to `unionlabs` (closes #311),cor,2023-06-27T15:50:43Z,2023-06-27T22:10:21+00:00,2,6.33,True,467,442,31,0,1,0,1,MERGED
+310,feat(evm): enable membership verification,hussein-aitlahcen,2023-06-27T14:20:03Z,2023-07-05T10:50:43+00:00,6,188.51,True,108812,99907,114,10,2,1,3,MERGED
+304,e2e membership verification works,aeryz,2023-06-26T20:58:50Z,2023-06-27T17:37:46+00:00,11,20.65,True,12,17,4,15,0,4,4,MERGED
+300,feat(nix): refactor crane and rust,benluelo,2023-06-25T17:23:24Z,2023-08-22T20:15:02+00:00,6,1394.86,True,520,284,26,160,5,2,7,MERGED
+298,chore: move gnark/gnark-crypto under unionfi,hussein-aitlahcen,2023-06-23T10:50:56Z,2023-06-23T12:08:31+00:00,2,1.29,True,101,83,13,21,0,0,0,MERGED
+296,feat(galois): introduce `query-stats`,hussein-aitlahcen,2023-06-22T18:14:23Z,2023-06-22T21:31:55+00:00,1,3.29,True,722,130,10,10,0,0,0,MERGED
+292,Refactor common types into lib/ibc-types crate,benluelo,2023-06-22T03:02:28Z,2023-06-22T12:58:44+00:00,2,9.94,True,2605,2691,76,595,0,0,0,MERGED
+290,Connect to Sepolia,benluelo,2023-06-20T21:55:47Z,2023-06-26T18:11:26+00:00,1,140.26,True,82800,1149,390,10,0,0,0,MERGED
+272,fix(galois): edge case for g2 addition,hussein-aitlahcen,2023-06-17T15:07:42Z,2023-06-17T16:12:51+00:00,3,1.09,True,99007,2093,442,10,0,1,1,MERGED
+270,Use `Cometbls` consensus state in `GetSelfConsensusState`,aeryz,2023-06-16T20:21:24Z,2023-06-26T18:37:03+00:00,2,238.26,False,1704,12,6,15,0,1,1,CLOSED
+267,Add update cases for next sync committee (closes 259),aeryz,2023-06-16T11:28:25Z,2023-06-16T12:56:11+00:00,4,1.46,True,728,199,12,15,0,2,2,MERGED
+266,chore(protobuf): move protobuf sources to flake inputs,PoisonPhang,2023-06-15T19:37:45Z,2023-06-15T20:52:01+00:00,4,1.24,True,142,29,4,146,0,3,3,MERGED
+260,docs(intro): fix spelling,KaiserKarel,2023-06-15T14:39:40Z,2023-06-15T20:04:17+00:00,1,5.41,True,1,1,1,18,1,0,1,MERGED
+253,feat(uniond): custom cometbls client keeper,hussein-aitlahcen,2023-06-13T17:12:39Z,2023-06-13T18:18:31+00:00,1,1.1,True,81,2,3,10,0,0,0,MERGED
+251,chore: remove debug commands from release workflow,PoisonPhang,2023-06-13T16:27:09Z,2023-06-14T18:55:14+00:00,2,26.47,True,1,15,1,0,0,0,0,MERGED
+247,Add `extra-substituters` to the flake (closes #246),cor,2023-06-13T14:33:51Z,2023-06-13T22:13:38+00:00,1,7.66,True,10,0,2,71,0,0,0,MERGED
+239,fix(CI): use git-cliff to generate release notes,PoisonPhang,2023-06-12T21:51:35Z,2023-06-14T13:46:22+00:00,3,39.91,True,114,17,3,138,3,2,5,MERGED
+229,Complete membership verification implementation in wasm light client (closes #1),aeryz,2023-06-10T11:32:44Z,2023-06-17T07:05:55+00:00,22,163.55,True,489,139,13,193,0,11,11,MERGED
+225,Fix unionvisor watching the incorrect path for `upgrade-info.json` (closes #224),cor,2023-06-09T20:31:20Z,2023-06-09T21:56:14+00:00,3,1.42,True,253,249,5,65,0,0,0,MERGED
+223,docs: added document for conducting upgrades,PoisonPhang,2023-06-09T17:18:17Z,2023-06-12T20:43:01+00:00,4,75.41,True,44,0,2,0,1,2,3,MERGED
+213,docs: populate intro,KaiserKarel,2023-06-09T14:32:39Z,2023-06-09T19:13:13+00:00,1,4.68,True,17,2,1,0,1,0,1,MERGED
+210,Build bundles in CI (closes #209),cor,2023-06-09T13:17:56Z,2023-08-09T11:57:47+00:00,6,1462.66,False,2,2,1,0,0,0,0,CLOSED
+206,ci: add testkvm,KaiserKarel,2023-06-09T10:33:02Z,2023-06-14T16:18:40+00:00,6,125.76,True,86,6,6,60,2,1,3,MERGED
+202,chore: remove testnet-validator.nix,KaiserKarel,2023-06-08T17:16:08Z,2023-06-15T11:57:31+00:00,1,162.69,False,0,41,2,0,2,0,2,CLOSED
+199,ci(spellcheck): make case insensitive,KaiserKarel,2023-06-08T15:22:15Z,2023-06-08T17:06:43+00:00,1,1.74,True,44,69,2,0,2,0,2,MERGED
+196,relayer improvements and refactor,benluelo,2023-06-08T14:45:56Z,2023-06-19T18:07:47+00:00,16,267.36,True,21630,8774,131,701,0,6,6,MERGED
+192,ci: switch to fork of treefmt,KaiserKarel,2023-06-08T12:39:38Z,2023-06-08T15:03:32+00:00,1,2.4,True,712,215,5,0,0,0,0,MERGED
+183,docs(research): add consensus-verification,KaiserKarel,2023-06-07T23:23:20Z,2023-06-08T12:25:31+00:00,2,13.04,True,182,0,3,0,1,0,1,MERGED
+181,feat(CI): use regctl to annotate descriptions for uniond/unionpd,PoisonPhang,2023-06-07T21:03:19Z,2023-06-07T23:56:57+00:00,2,2.89,True,16,0,3,235,0,0,0,MERGED
+175,fix(devnet): broken ref,aeryz,2023-06-07T15:54:03Z,2023-06-07T18:53:25+00:00,2,2.99,True,4,4,3,22,0,0,0,MERGED
+174,Expose `docs-dev-server` on network (closes #173),cor,2023-06-07T15:37:04Z,2023-06-09T08:24:14+00:00,3,40.79,True,70,1,2,0,1,0,1,MERGED
+172,docs(galois): add galois to architecture,KaiserKarel,2023-06-07T14:13:05Z,2023-06-07T22:54:45+00:00,3,8.69,True,701,192,8,0,5,2,7,MERGED
+168,feat(devnet): add `cw20-ics20` to genesis,aeryz,2023-06-07T10:47:32Z,2023-06-07T13:16:28+00:00,1,2.48,True,67,0,1,296,2,0,2,MERGED
+165,ci: add treefmt and sort to tools,KaiserKarel,2023-06-07T00:23:40Z,2023-06-07T12:04:33+00:00,2,11.68,True,60,105,5,96,0,0,0,MERGED
+164,ci: add buildWasmContract.nix,KaiserKarel,2023-06-06T22:07:44Z,2023-06-06T23:22:59+00:00,2,1.25,True,82,109,4,68,0,2,2,MERGED
+162,Upgrade cometBLS (closes #161),cor,2023-06-06T20:16:41Z,2023-06-06T23:57:17+00:00,2,3.68,True,104,65,25,0,0,0,0,MERGED
+154,Use compatible wasmvm/wasmd and report gas usage for EVM contracts,hussein-aitlahcen,2023-06-06T10:50:12Z,2023-06-06T11:52:57+00:00,3,1.05,True,49,48,6,19,0,0,0,MERGED
+147,feat(ics20): introduce emulated ICS20 via custom CW20-ICS20 contract,hussein-aitlahcen,2023-06-06T08:38:38Z,2023-06-06T09:54:36+00:00,1,1.27,True,2163,2,17,349,0,0,0,MERGED
+143,docs(galois): add README.md to galoisd,KaiserKarel,2023-06-06T02:48:20Z,2023-06-06T20:32:45+00:00,1,17.74,True,21,2,2,0,0,0,0,MERGED
+140,chore: ignore vendor and generated files in linguist,KaiserKarel,2023-06-06T02:10:15Z,2023-06-06T15:14:15+00:00,1,13.07,True,3,0,1,0,0,0,0,MERGED
+139,Add title to README.md (closes #138),cor,2023-06-05T14:02:52Z,2023-06-06T12:12:27+00:00,1,22.16,True,2,1,2,0,0,0,0,MERGED
+137,feat(uniond): add wasmd,aeryz,2023-06-05T13:46:10Z,2023-06-06T07:59:41+00:00,1,18.23,True,66302,13308,402,450,0,0,0,MERGED
+131,Add ARCHITECTURE.md for `galois` (closes #122),cor,2023-06-05T08:51:21Z,2023-06-05T12:02:20+00:00,1,3.18,True,45,0,2,0,0,0,0,MERGED
+128,"feat(ethereum-verifier): introduce account state verification (closes #99, #127)",aeryz,2023-06-05T05:48:35Z,2023-06-12T11:53:41+00:00,1,174.09,True,5410,437,132,79,2,0,2,MERGED
+126,Use a generator to generate all caps files (closes #114),KaiserKarel,2023-06-05T00:49:29Z,2023-06-05T17:58:33+00:00,2,17.15,True,15664,69,17,95,1,0,1,MERGED
+125,feat: add relayer/architecture.md,benluelo,2023-06-05T00:37:22Z,2023-06-05T07:31:23+00:00,1,6.9,True,99,0,1,0,0,0,0,MERGED
+119,Add more mermaid diagrams (closes #118),cor,2023-06-04T14:04:04Z,2023-06-04T20:46:58+00:00,1,6.71,True,82,1,6,0,0,0,0,MERGED
+116,Introduce chained membership verification,hussein-aitlahcen,2023-06-03T09:19:44Z,2023-06-04T10:50:36+00:00,1,25.51,True,142,61,6,214,0,0,0,MERGED
+106,docs(readme): add docs badge,KaiserKarel,2023-06-01T19:10:01Z,2023-06-02T09:13:46+00:00,3,14.06,True,2,1,1,0,0,0,0,MERGED
+98,feat(bundle): new bundle-testnet with only v0.6.0 (closes #96),cor,2023-05-26T13:35:54Z,2023-06-01T09:31:25+00:00,2,139.93,True,648,166,3,0,0,0,0,MERGED
+97,docs(nixos): add guide for nixos-validators,KaiserKarel,2023-05-26T13:26:02Z,2023-06-04T18:40:33+00:00,5,221.24,True,174,75,3,0,2,1,3,MERGED
+92,fix: ensure no invalid opcodes in wasm light client binary,benluelo,2023-05-24T22:40:33Z,2023-05-26T10:56:04+00:00,6,36.26,True,53,19,4,218,0,1,1,MERGED
+89,refactor!: refactor repository structure,benluelo,2023-05-24T09:40:57Z,2023-05-24T13:58:28+00:00,2,4.29,True,81,83,78,134,0,0,0,MERGED
+88,Add ethereum-verifier,aeryz,2023-05-23T19:21:04Z,2023-05-30T13:17:04+00:00,5,161.93,True,2816,3762,77,1123,3,3,6,MERGED
+85,docs: populate cometbls.md,KaiserKarel,2023-05-22T21:27:24Z,2023-05-23T20:42:33+00:00,4,23.25,True,842,787,11,0,1,1,2,MERGED
+84,feat(CI): reduce tags pushed to ghcr,PoisonPhang,2023-05-22T20:54:24Z,2023-05-23T21:34:36+00:00,3,24.67,True,57,16,1,371,0,0,0,MERGED
+78,ci: only display a preview url if docs changed,KaiserKarel,2023-05-21T23:35:28Z,2023-05-22T12:47:33+00:00,3,13.2,True,49,40,2,287,0,0,0,MERGED
+76,feat: generate IBCHandler contract interface crate,benluelo,2023-05-21T19:23:50Z,2023-06-02T12:28:10+00:00,2,281.07,True,15558,465,42,417,3,0,3,MERGED
+71,docs: restructure guides,KaiserKarel,2023-05-20T21:48:23Z,2023-05-22T14:34:02+00:00,7,40.76,True,187,459,11,47,1,6,7,MERGED
+69,add relayer,benluelo,2023-05-20T16:13:16Z,2023-05-23T00:47:29+00:00,13,56.57,True,3562,77,13,54,1,4,5,MERGED
+63,chore: remove buf based code generation for uniond,PoisonPhang,2023-05-20T01:19:28Z,2023-05-21T23:01:22+00:00,8,45.7,True,49,66,7,99,2,3,5,MERGED
+56,fix(docs): fix sidebar.js to render multiple items,KaiserKarel,2023-05-19T21:08:21Z,2023-05-19T23:16:03+00:00,2,2.13,True,14,9,1,0,0,0,0,MERGED
+54,docs: update main README.md,KaiserKarel,2023-05-19T20:33:52Z,2023-05-22T15:47:35+00:00,11,67.23,True,25,8,2,82,1,2,3,MERGED
+53,docs(uniond): update README.md,KaiserKarel,2023-05-19T19:25:01Z,2023-05-22T14:33:44+00:00,7,67.15,True,27,56,2,8,1,6,7,MERGED
+51,ci(docs): add flow building the docs,KaiserKarel,2023-05-19T16:51:37Z,2023-05-19T19:05:53+00:00,4,2.24,True,37,0,3,213,0,0,0,MERGED
+49,"testnet verifier, improved zk prover",hussein-aitlahcen,2023-05-19T16:25:43Z,2023-05-19T18:45:41+00:00,7,2.33,True,4370,6690,19,21,0,1,1,MERGED
+28,feat(devnet): deterministically generate app-keys,PoisonPhang,2023-05-18T20:05:21Z,2023-05-19T12:06:09+00:00,3,16.01,True,18,1,1,95,1,0,1,MERGED
+27,Unionvisor systemd NixOS module and  `Bundle` system refactor (closes #21) ,cor,2023-05-18T16:54:48Z,2023-05-23T20:32:38+00:00,11,123.63,True,2293,468,46,1071,0,4,4,MERGED
+16,ci: enable unionvisor-tests,KaiserKarel,2023-05-17T19:00:13Z,2023-05-18T14:00:15+00:00,3,19.0,True,125,58,10,0,1,0,1,MERGED
+11,ci: add prettier,KaiserKarel,2023-05-17T16:12:28Z,2023-05-17T19:19:46+00:00,4,3.12,True,7957,7967,47,21,3,0,3,MERGED
+9,refactor: move cargo workspace to root of repo,benluelo,2023-05-17T13:18:25Z,2023-05-18T16:01:23+00:00,9,26.72,True,1535,1935,240,713,0,2,2,MERGED
+8,feat(devnet): ensure eth execution layer is auto-mining,hussein-aitlahcen,2023-05-17T13:02:00Z,2023-05-17T17:09:17+00:00,8,4.12,True,57,19,6,8,1,2,3,MERGED
+5,Release `unionpd` static binary and docker image (closes #4),cor,2023-05-17T12:16:19Z,2023-05-17T19:28:11+00:00,2,7.2,True,62,34,4,162,3,0,3,MERGED

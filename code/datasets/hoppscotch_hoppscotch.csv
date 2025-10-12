@@ -1,5 +1,10 @@
 number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,additions,deletions,changedFiles,bodyLength,issueCommentsCount,reviewThreadsCount,interactionsCount,finalReviewState
+5455,chore: replace all instances of `twitter.com` with `x.com`,cseas,2025-10-06T20:35:56Z,2025-10-07T06:11:08+00:00,2,9.59,True,4,4,4,450,1,0,1,MERGED
+5452,fix: focus existing request tab instead of duplicating,nivedin,2025-10-06T10:24:47Z,2025-10-07T11:51:00+00:00,2,25.44,True,2,0,1,982,0,0,0,MERGED
+5434,fix: prevent syncing secret variable initial values,nivedin,2025-10-03T09:52:45Z,2025-10-07T11:45:06+00:00,8,97.87,True,187,54,9,1841,1,15,16,MERGED
 5433,fix(js-sandbox): resolve errors with `pw.env` namespace in legacy sandbox,jamesgeorge007,2025-10-03T09:52:18Z,2025-10-06T11:15:35+00:00,2,73.39,True,22,15,2,1119,0,0,0,MERGED
+5429,Removed redundant imports from settings sync file,Prit1912,2025-10-02T11:42:33Z,2025-10-08T07:58:16+00:00,1,140.26,False,1,3,1,368,1,0,1,CLOSED
+5428,refactor: cleanup sync logic and imports,Prit1912,2025-10-02T11:14:06Z,2025-10-08T08:01:29+00:00,2,140.79,True,71,110,33,755,5,0,5,MERGED
 5418,fix: correctly resolve inherited properties before request runs,nivedin,2025-09-30T06:17:46Z,2025-09-30T12:13:13+00:00,4,5.92,True,24,53,2,154,0,2,2,MERGED
 5412,chore: accept single character length name and trim white spaces,nivedin,2025-09-29T06:52:37Z,2025-09-29T07:55:40+00:00,3,1.05,True,32,29,12,120,0,1,1,MERGED
 5409,fix: highlight environment on string containing dot,souravagrawal29,2025-09-27T14:14:12Z,2025-09-29T07:59:58+00:00,4,41.76,True,16,11,4,223,0,1,1,MERGED
@@ -9,6 +14,7 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 5397,fix: ensure npm is installed for Node.js base image,Leon-Luu,2025-09-22T09:16:02Z,2025-09-24T03:43:51+00:00,2,42.46,True,3,3,1,608,0,1,1,MERGED
 5394,fix(relay): multiple Set-Cookie headers in resp,CuriousCorrelation,2025-09-21T14:14:26Z,2025-09-23T11:44:29+00:00,5,45.5,True,76,15,8,4123,0,4,4,MERGED
 5388,feat(scripting-revamp): introduce `hopp` namespace,jamesgeorge007,2025-09-17T06:55:01Z,2025-09-24T11:39:55+00:00,4,172.75,True,10494,822,76,12439,0,10,10,MERGED
+5385,feat: add mock server,anwarulislam,2025-09-15T05:16:45Z,2025-10-08T12:14:49+00:00,1,558.97,True,1829,67,28,311,1,5,6,MERGED
 5384,fix: prevent empty entries when dragging items past last row,aakashsbhatia2,2025-09-11T02:52:50Z,2025-09-18T08:43:33+00:00,5,173.85,True,316,0,9,482,1,3,4,MERGED
 5383,feature: add alphabetical sort for user and team collections,mirarifhasan,2025-09-10T15:05:01Z,2025-09-23T09:16:23+00:00,14,306.19,True,3476,339,63,2368,0,14,14,MERGED
 5381,fix(desktop): window lifecycle for instance switch,CuriousCorrelation,2025-09-09T06:17:06Z,2025-09-22T09:25:53+00:00,5,315.15,True,56,19,3,2534,0,3,3,MERGED
@@ -999,3 +1005,326 @@ number,title,author,createdAt,closedOrMergedAt,reviewsCount,hoursOpen,merged,add
 1675,"Corrected Hindi Errors in language folder, In file, Now it's perfectly comprehendible.",Sanscode2911,2021-05-28T18:43:02Z,2021-05-29T17:33:44+00:00,1,22.84,False,17,17,1,128,1,1,2,CLOSED
 1640,Added Hindi Language Support,DevenRathod2,2021-05-15T06:34:07Z,2021-05-15T13:07:50+00:00,1,6.56,True,315,0,2,54,4,0,4,MERGED
 1625,FEAT: add syntax highlighting in Code Generator Modal,iamtabrezkhan,2021-05-03T09:30:55Z,2021-05-05T02:57:45+00:00,3,41.45,True,43,12,24,249,2,1,3,MERGED
+1610,Documentation generation,oshhh,2021-04-21T15:10:50Z,2021-04-21T17:17:31+00:00,1,2.11,True,175,230,4,228,1,0,1,MERGED
+1602,Fix folder nesting in document generation,oshhh,2021-04-14T20:39:06Z,2021-04-15T00:54:55+00:00,1,4.26,True,230,244,4,51,2,0,2,MERGED
+1600,Feat/teams new UI add subscriptions for edit-team.vue,rohanrajpal,2021-04-14T09:44:43Z,2021-04-16T16:58:13+00:00,1,55.23,True,87,0,1,0,1,0,1,MERGED
+1592,Feat/teams new UI add subscriptions for requests,rohanrajpal,2021-04-13T18:46:10Z,2021-04-13T23:12:48+00:00,1,4.44,True,94,1,1,0,1,0,1,MERGED
+1586,add pagination for requests in collection.vue,rohanrajpal,2021-04-10T10:48:42Z,2021-04-12T16:27:14+00:00,1,53.64,True,28,1,1,68,1,0,1,MERGED
+1585,refactor GraphQL queries in collection.vue,rohanrajpal,2021-04-10T08:52:14Z,2021-04-10T10:37:26+00:00,1,1.75,True,54,33,1,71,1,0,1,MERGED
+1584,[Feat: Teams] Import from JSON and My Collections,oshhh,2021-04-08T19:04:37Z,2021-04-12T04:45:24+00:00,1,81.68,True,231,33,3,218,4,0,4,MERGED
+1577,"Add, Delete & Edit functionalities for Team collections, folders and request",raghav0307,2021-04-03T05:44:36Z,2021-04-03T08:52:02+00:00,1,3.12,True,129,39,7,461,1,7,8,MERGED
+1576,Add editable teams list in edit teams,IshaGupta18,2021-04-01T16:52:56Z,2021-04-10T04:00:43+00:00,1,203.13,True,146,22,4,0,1,0,1,MERGED
+1567,Refactor pages/index.vue,oshhh,2021-03-28T17:03:14Z,2021-08-30T08:52:31+00:00,5,3711.82,False,431,504,4,419,3,10,13,CLOSED
+1564,Refactor: Combine rest and graphql collections,IshaGupta18,2021-03-26T13:42:18Z,2021-03-30T19:49:29+00:00,3,102.12,True,195,1374,24,295,1,3,4,MERGED
+1562,Sync bodyParams and rawBodyParams,Reflex-Gravity,2021-03-24T21:02:00Z,2021-04-10T08:03:38+00:00,4,395.03,True,64,16,3,251,6,1,7,MERGED
+1554,Show sub-folders first instead of requests,farhan-tariq,2021-03-21T14:56:32Z,2021-03-22T03:01:55+00:00,1,12.09,True,17,17,1,209,1,0,1,MERGED
+1549,refactor: CLibcurl Generator.,JayceDugan,2021-03-20T06:39:06Z,2021-03-20T15:30:41+00:00,1,8.86,True,145,51,3,1138,3,0,3,MERGED
+1547,add UI for overwriting request,rohanrajpal,2021-03-18T10:56:05Z,2021-03-21T12:29:47+00:00,4,73.56,True,91,35,6,220,4,2,6,MERGED
+1542,Fix: Whitespace & URL encoding applied to query parameters.,JayceDugan,2021-03-16T12:49:10Z,2021-03-17T04:18:58+00:00,1,15.5,True,2,2,1,200,4,0,4,MERGED
+1540,TailwindCSS v2.x,liyasthomas,2021-03-16T05:52:15Z,2021-03-16T08:49:21+00:00,1,2.95,True,11117,26410,30,0,0,0,0,MERGED
+1536,GraphQL collections,IshaGupta18,2021-03-12T13:12:58Z,2021-03-18T14:55:12+00:00,9,145.7,True,2035,89,27,504,8,10,18,MERGED
+1533,docs: add reference to hopp-doc-gen add-on,jamesgeorge007,2021-03-11T10:00:05Z,2021-03-11T11:21:33+00:00,1,1.36,True,2,0,1,12,1,0,1,MERGED
+1528,[Feat: GraphQL sidebar] GraphQL History,oshhh,2021-03-05T09:04:51Z,2021-03-11T03:12:09+00:00,13,138.12,True,1019,229,10,526,3,19,22,MERGED
+1526,change UI to save request in my-collection,rohanrajpal,2021-03-03T14:50:30Z,2021-03-16T18:07:57+00:00,4,315.29,True,565,402,5,836,8,6,14,MERGED
+1523,[Feat:Teams] Code restructure [3] and bug fixes,oshhh,2021-03-01T20:03:55Z,2021-03-02T00:35:56+00:00,3,4.53,True,119,116,10,336,3,1,4,MERGED
+1516,Feat: Edit and Delete (child) folders in Teams Collection; Transfer code to helpers/teams/utils.js,IshaGupta18,2021-02-28T16:58:09Z,2021-03-01T15:24:25+00:00,2,22.44,True,184,78,8,0,3,3,6,MERGED
+1484,response outline for JSON responses,harshlele,2021-02-14T12:42:35Z,2021-02-23T02:39:16+00:00,9,205.94,True,284,13,4,479,14,2,16,MERGED
+1481,Feature: Teams new UI settings isha,IshaGupta18,2021-02-12T07:14:56Z,2021-02-12T10:40:03+00:00,2,3.42,True,86,5,5,388,1,7,8,MERGED
+1480,[Feat:Teams] Team collections tab and View team collections,oshhh,2021-02-12T07:11:03Z,2021-02-12T09:08:23+00:00,3,1.96,True,243,8,5,477,2,4,6,MERGED
+1471,graphql: show enums and interfaces,KoHcoJlb,2021-02-07T20:34:40Z,2021-02-09T02:18:24+00:00,2,29.73,True,238,11,6,135,6,0,6,MERGED
+1469,Update Indonesian language,srifqi,2021-02-06T04:40:34Z,2021-02-07T01:03:38+00:00,1,20.38,True,231,31,1,66,3,0,3,MERGED
+1457,"Fix ""jump to graphql type"" and show graphql input types",KoHcoJlb,2021-02-01T15:10:39Z,2021-02-02T17:52:28+00:00,1,26.7,True,17,6,2,92,2,0,2,MERGED
+1453,fixed path parameter encoding and URL updation,oshhh,2021-01-29T23:26:12Z,2021-01-30T17:02:42+00:00,7,17.61,False,12,15,3,490,2,1,3,CLOSED
+1441,Accurate response time and size,liyasthomas,2021-01-25T05:13:50Z,2021-01-28T07:39:32+00:00,1,74.43,True,144,48,14,141,4,0,4,MERGED
+1440,fix: status code detection,dunglas,2021-01-24T18:44:05Z,2021-01-25T01:20:50+00:00,1,6.61,True,35,34,1,460,1,0,1,MERGED
+1439,feat: add JSON-LD to the list of known content types,dunglas,2021-01-24T17:29:09Z,2021-01-25T01:08:35+00:00,1,7.66,True,2,1,1,335,1,0,1,MERGED
+1438,"feat: better media types detection for JSON, XML and HTML lenses",dunglas,2021-01-24T15:12:23Z,2021-01-26T04:27:11+00:00,2,37.25,True,37,45,9,572,2,0,2,MERGED
+1422,Better JS language integration for Pre-Request scripts and Test scripts,AndrewBastin,2021-01-09T20:51:23Z,2021-01-22T01:34:03+00:00,1,292.71,True,2434,36,11,822,2,0,2,MERGED
+1407,Fix a missing close parenthesis before '.then',sakurayang,2021-01-02T13:19:19Z,2021-01-02T15:19:42+00:00,1,2.01,True,5,5,2,384,1,0,1,MERGED
+1398,Unit tests for the remaining test methods,carlos-ds,2020-12-22T20:35:07Z,2020-12-24T02:02:49+00:00,1,29.46,True,139,4,2,137,2,0,2,MERGED
+1392,"Unit tests for test functions toBe, toHaveProperty",carlos-ds,2020-12-18T06:47:58Z,2020-12-19T02:15:37+00:00,1,19.46,True,67,3,2,332,2,0,2,MERGED
+1372,Refactor: Modularize home page,liyasthomas,2020-12-09T19:15:34Z,2020-12-11T00:29:30+00:00,1,29.23,True,659,499,19,626,1,0,1,MERGED
+1367,Collections and environments + GitHub gist,liyasthomas,2020-12-08T06:57:49Z,2020-12-09T04:08:25+00:00,2,21.18,True,261,12,6,222,0,0,0,MERGED
+1365,Bump @nuxtjs/tailwindcss from 3.3.0 to 3.3.1,dependabot,2020-12-04T00:05:32Z,2020-12-04T01:39:50+00:00,1,1.57,True,4,4,2,1905,0,0,0,MERGED
+1358,export markdown from docs,hariaakash,2020-12-01T20:40:51Z,2020-12-09T05:11:06+00:00,2,176.5,True,372,15,5,99,5,1,6,MERGED
+1357,Added assertion methods toHaveLength & toBeType,carlos-ds,2020-12-01T20:34:10Z,2020-12-02T01:25:38+00:00,5,4.86,True,39,3,1,0,8,2,10,MERGED
+1354,Web Worker regex test,hariaakash,2020-12-01T06:12:03Z,2020-12-01T15:51:14+00:00,1,9.65,True,201,11,10,82,1,0,1,MERGED
+1346,duplicate identifier for requests fixed,hariaakash,2020-11-26T05:58:06Z,2020-11-27T11:42:34+00:00,1,29.74,True,30,30,5,11,2,0,2,MERGED
+1343,Request method labels & custom method width fix,hariaakash,2020-11-25T19:26:41Z,2020-11-26T01:21:32+00:00,1,5.91,True,12,4,2,0,1,0,1,MERGED
+1334,Added മലയാളം,vachan-maker,2020-11-18T14:42:15Z,2020-11-18T15:42:58+00:00,1,1.01,True,1,1,1,0,0,0,0,MERGED
+1333,Update ml-ML.json,vachan-maker,2020-11-18T14:34:26Z,2020-11-18T15:42:12+00:00,1,1.13,True,14,14,1,0,0,0,0,MERGED
+1319,Query arguments in GraphQL are shown separately with description,AndrewBastin,2020-11-05T16:34:36Z,2020-11-09T01:46:48+00:00,1,81.2,True,12,1,1,220,5,0,5,MERGED
+1308,[#1190] [Jyoti] Add codegen for nodeJs Unirest support,guptajyoti845,2020-10-29T20:43:51Z,2020-11-02T00:53:14+00:00,4,76.16,True,160,0,3,0,10,1,11,MERGED
+1300,added codegen for  java OK Http Client,shalika10,2020-10-25T16:23:43Z,2020-10-25T17:37:29+00:00,6,1.23,True,120,0,3,0,8,1,9,MERGED
+1299,Fix add folder to collections being broken when logged in,AndrewBastin,2020-10-25T13:37:32Z,2020-10-26T01:15:00+00:00,4,11.62,True,37,18,5,138,5,0,5,MERGED
+1290,feat:add code generator for Shell with HTTPie,bsinky,2020-10-18T22:47:28Z,2020-10-19T02:24:08+00:00,1,3.61,True,75,0,3,75,3,0,3,MERGED
+1289,Possible solution for Global variables,exussum12,2020-10-18T19:35:59Z,2020-10-19T02:11:02+00:00,1,6.58,True,20,4,2,160,3,0,3,MERGED
+1288,Added schema polling from a GraphQL,AndrewBastin,2020-10-18T19:22:36Z,2020-10-21T08:33:04+00:00,1,61.17,True,89,4,1,224,6,0,6,MERGED
+1287,Replace headers in view,exussum12,2020-10-18T19:02:34Z,2020-10-19T01:51:40+00:00,1,6.82,True,12,1,1,85,3,0,3,MERGED
+1285,Add Salesforce Apex codegen,silentmatt,2020-10-17T06:00:43Z,2020-10-17T07:09:24+00:00,2,1.14,True,157,0,3,113,4,0,4,MERGED
+1284,feat:add code generator for Ruby Net::HTTP,bsinky,2020-10-16T17:27:28Z,2020-10-17T05:17:26+00:00,1,11.83,True,171,0,3,157,5,0,5,MERGED
+1274,Added vi-VN for i18n translation,flyznex,2020-10-15T03:59:34Z,2020-10-15T05:56:28+00:00,1,1.95,True,303,0,2,0,2,0,2,MERGED
+1262,Bump jest from 26.5.2 to 26.5.3,dependabot,2020-10-12T00:10:40Z,2020-10-12T01:13:20+00:00,1,1.04,True,85,85,2,3117,1,0,1,MERGED
+1259,feat:add code generator for C# RestSharp,Ldoppea,2020-10-10T23:10:11Z,2020-10-11T00:43:22+00:00,1,1.55,True,181,0,3,113,2,0,2,MERGED
+1258,fix:add 'helpers' folder to docker compose volumes,Ldoppea,2020-10-09T23:39:16Z,2020-10-10T11:22:02+00:00,1,11.71,True,1,0,1,458,4,0,4,MERGED
+1250,Bump @nuxtjs/pwa from 3.1.0 to 3.1.2,dependabot,2020-10-08T00:06:42Z,2020-10-08T04:01:06+00:00,1,3.91,True,4,4,2,2453,1,0,1,MERGED
+1249,add codegen for nodejs native and instrument snapshot tests,yq314,2020-10-07T16:18:33Z,2020-10-08T14:28:07+00:00,1,22.16,True,268,0,5,180,5,0,5,MERGED
+1234,Allow multiple arguments with socket.io,LeoMartinDev,2020-10-04T19:13:02Z,2020-10-04T23:41:57+00:00,1,4.48,True,52,18,1,68,6,0,6,MERGED
+1233,Add: Powershell RestMethod codegen,piraces,2020-10-04T19:11:21Z,2020-10-04T23:20:50+00:00,1,4.16,True,63,0,2,76,2,0,2,MERGED
+1226,Fix: passing auth into codegen,YasiOnFire,2020-10-04T10:37:25Z,2020-10-04T12:34:22+00:00,1,1.95,True,1,0,1,11,3,0,3,MERGED
+1224,Malayalam,vachan-maker,2020-10-04T07:23:46Z,2020-10-05T01:01:59+00:00,2,17.64,True,297,0,1,44,4,0,4,MERGED
+1223,Fix: http page headers suggestions overlapped issue,tonybatty,2020-10-03T18:47:12Z,2020-10-04T00:11:19+00:00,1,5.4,True,0,1,1,195,2,0,2,MERGED
+1220,Add search input & capability to graphql types and fields,LeoMartinDev,2020-10-03T15:32:11Z,2020-10-04T10:47:53+00:00,1,19.26,True,133,9,3,575,14,0,14,MERGED
+1199,Add: js axios codegen,cchalop1,2020-09-29T22:12:44Z,2020-10-01T01:02:23+00:00,1,26.83,True,55,1,2,77,2,0,2,MERGED
+1194,Subfolder functionality,farhan-tariq,2020-09-28T23:48:45Z,2020-10-21T01:11:46+00:00,2,529.38,True,364,347,11,396,26,0,26,MERGED
+1187,Delete empty github issue template,Qix-,2020-09-25T17:12:13Z,2020-09-25T19:29:51+00:00,1,2.29,True,0,10,1,113,4,0,4,MERGED
+1183,Fix Quality Issues using DeepSource,moulik-deepsource,2020-09-23T11:54:48Z,2020-09-24T15:16:21+00:00,1,27.36,True,31,13,14,418,4,0,4,MERGED
+1179,Feat/tailwind,liyasthomas,2020-09-21T15:22:54Z,2020-09-22T17:06:38+00:00,1,25.73,True,2020,1431,59,218,8,0,8,MERGED
+1169,[Snyk] Security upgrade firebase-admin from 9.1.1 to 9.2.0,snyk-bot,2020-09-16T08:47:25Z,2020-09-16T10:34:40+00:00,1,1.79,True,24,32,2,972,1,0,1,MERGED
+1150,Handle postman subfolders when importing json,florinmirosnicencu,2020-09-08T14:06:19Z,2020-09-08T15:14:41+00:00,3,1.14,True,43,0,1,239,2,1,3,MERGED
+1142,Import postman variables correctly,exussum12,2020-09-04T13:50:45Z,2020-09-05T06:37:38+00:00,1,16.78,True,2,0,1,34,3,0,3,MERGED
+1141,Lossless optimized images,tiagofilipesilva,2020-09-04T12:01:25Z,2020-09-05T06:31:43+00:00,1,18.5,True,0,0,9,54,7,0,7,MERGED
+1126,tests: improve test suite,jamesgeorge007,2020-08-29T05:42:19Z,2020-08-29T16:41:09+00:00,4,10.98,True,6,12,1,34,9,1,10,MERGED
+1111,replace postwoman with hoppscotch values,khalby786,2020-08-24T12:58:26Z,2020-08-24T14:20:10+00:00,2,1.36,True,54,54,13,0,14,0,14,MERGED
+1107,♥ a11y,liyasthomas,2020-08-23T03:16:48Z,2020-08-23T08:08:22+00:00,1,4.86,True,90,11,3,491,15,0,15,MERGED
+1096,Bump nuxt-i18n from 6.13.9 to 6.13.10,dependabot,2020-08-19T00:03:05Z,2020-08-19T02:47:20+00:00,1,2.74,True,4,4,2,2071,0,0,0,MERGED
+1088,Tests,liyasthomas,2020-08-17T03:53:34Z,2020-08-18T02:52:16+00:00,1,22.98,True,8557,4862,4,228,4,0,4,MERGED
+1072,Bump firebase from 7.17.2 to 7.18.0,dependabot,2020-08-14T00:05:59Z,2020-08-14T01:24:21+00:00,1,1.31,True,84,84,2,1910,1,0,1,MERGED
+1071,v2,liyasthomas,2020-08-13T16:51:05Z,2020-08-16T16:51:42+00:00,3,72.01,True,2428,3373,32,80,2,0,2,MERGED
+1066,Fixed broken tick icons placement in Settings,Reflex-Gravity,2020-08-11T01:13:46Z,2020-08-11T03:09:17+00:00,1,1.93,True,6,0,1,338,3,0,3,MERGED
+1055,Bump firebase from 7.17.1 to 7.17.2,dependabot,2020-08-07T00:07:31Z,2020-08-07T02:07:04+00:00,1,1.99,True,24,23,2,1875,2,0,2,MERGED
+1054,Bump graphql-language-service-interface from 2.4.0 to 2.4.1,dependabot,2020-08-07T00:06:04Z,2020-08-07T02:12:55+00:00,1,2.11,True,17,17,2,2145,2,0,2,MERGED
+1053,Report Extension Version in the settings page,AndrewBastin,2020-08-06T19:00:21Z,2020-08-07T01:15:24+00:00,1,6.25,True,14,0,2,171,1,0,1,MERGED
+1051,Bump @nuxtjs/axios from 5.12.0 to 5.12.1,dependabot,2020-08-06T00:08:14Z,2020-08-06T02:38:15+00:00,1,2.5,True,18,18,2,1842,1,0,1,MERGED
+1050,Bump sass-loader from 9.0.2 to 9.0.3,dependabot,2020-08-06T00:07:13Z,2020-08-06T02:46:59+00:00,1,2.66,True,12,6,2,1900,2,0,2,MERGED
+1040,Basic linting for JS code,AndrewBastin,2020-08-02T15:52:24Z,2020-08-02T17:20:40+00:00,5,1.47,True,167,17,4,127,2,2,4,MERGED
+1039,Bump eslint from 7.5.0 to 7.6.0,dependabot,2020-08-01T02:11:53Z,2020-08-01T03:22:01+00:00,1,1.17,True,4,4,2,3565,2,0,2,MERGED
+1026,Bump firebase from 7.17.0 to 7.17.1,dependabot,2020-07-27T00:06:35Z,2020-07-27T01:14:47+00:00,1,1.14,True,75,75,2,1888,1,0,1,MERGED
+1019,Bump @nuxtjs/gtm from 2.3.0 to 2.3.2,dependabot,2020-07-24T00:05:27Z,2020-07-24T01:54:39+00:00,1,1.82,True,8,8,2,2105,2,0,2,MERGED
+1018,Bump firebase from 7.16.1 to 7.17.0,dependabot,2020-07-24T00:04:50Z,2020-07-24T01:47:03+00:00,1,1.7,True,18,18,2,1867,1,0,1,MERGED
+1008,Fix bugs with the renderer mixins,AndrewBastin,2020-07-21T03:56:25Z,2020-07-21T10:36:47+00:00,2,6.67,True,16,5,4,176,3,1,4,MERGED
+1004,Add Collections section in Docs page,liyasthomas,2020-07-18T11:21:43Z,2020-07-18T12:26:13+00:00,1,1.07,True,325,279,6,80,3,0,3,MERGED
+995,Fixed broken network requests in GraphQL,AndrewBastin,2020-07-15T18:14:26Z,2020-07-15T21:17:41+00:00,1,3.05,True,10,4,1,18,1,0,1,MERGED
+993,fix: replaceWithJSON used wrong commit name,perseveringman,2020-07-15T13:02:52Z,2020-07-15T17:29:29+00:00,1,4.44,True,1,1,1,48,4,0,4,MERGED
+992,⬆️ Bump @nuxtjs/toast from 3.3.0 to 3.3.1,dependabot,2020-07-15T00:05:05Z,2020-07-15T16:43:11+00:00,1,16.64,True,8,8,2,1917,3,0,3,MERGED
+989,⬆️ Bump firebase from 7.15.5 to 7.16.0,dependabot,2020-07-10T00:02:49Z,2020-07-10T03:29:19+00:00,1,3.44,True,87,87,2,1898,2,0,2,MERGED
+988,⬆️ Bump start-server-and-test from 1.11.0 to 1.11.1,dependabot,2020-07-10T00:02:12Z,2020-07-10T03:22:46+00:00,1,3.34,True,61,68,2,1821,1,0,1,MERGED
+986,⬆️ Bump sass-loader from 9.0.1 to 9.0.2,dependabot,2020-07-08T00:02:53Z,2020-07-08T02:51:25+00:00,1,2.81,True,4,4,2,1804,2,0,2,MERGED
+985,⬆️ Bump cypress from 4.9.0 to 4.10.0,dependabot,2020-07-08T00:02:24Z,2020-07-08T01:30:00+00:00,1,1.46,True,4,4,2,3506,1,0,1,MERGED
+963,⬆️ Bump @nuxtjs/sitemap from 2.3.2 to 2.4.0,dependabot,2020-06-26T00:05:39Z,2020-06-26T01:16:45+00:00,1,1.19,True,4,4,2,1781,2,0,2,MERGED
+962,⬆️ Bump firebase from 7.15.4 to 7.15.5,dependabot,2020-06-26T00:04:51Z,2020-06-26T01:06:54+00:00,1,1.03,True,75,75,2,1910,1,0,1,MERGED
+958,⬆️ Bump eslint from 7.3.0 to 7.3.1,dependabot,2020-06-24T00:07:51Z,2020-06-24T01:40:18+00:00,1,1.54,True,4,4,2,1872,1,0,1,MERGED
+957,⬆️ Bump cypress from 4.8.0 to 4.9.0,dependabot,2020-06-24T00:05:41Z,2020-06-24T01:28:07+00:00,1,1.37,True,39,48,2,4980,1,0,1,MERGED
+955,Binary Responses & Response Lenses,AndrewBastin,2020-06-21T21:57:04Z,2020-07-15T15:35:23+00:00,10,569.64,True,1174,548,28,1792,22,3,25,MERGED
+950,⬆️ Bump firebase from 7.15.1 to 7.15.3,dependabot,2020-06-21T02:41:26Z,2020-06-21T04:31:40+00:00,1,1.84,True,131,131,2,1896,5,0,5,MERGED
+942,⬆️ Bump nuxt from 2.12.2 to 2.13.0,dependabot,2020-06-19T00:03:15Z,2020-06-19T02:49:00+00:00,1,2.76,True,2983,1711,2,3643,0,0,0,MERGED
+936,⬆️ Bump graphql-language-service-interface from 2.3.3 to 2.4.0,dependabot,2020-06-12T00:03:49Z,2020-06-12T01:11:02+00:00,1,1.12,True,23,83,2,3319,2,0,2,MERGED
+934,Transpiled ES5 code to ES6/ES7,liyasthomas,2020-06-11T14:33:14Z,2020-06-12T03:15:02+00:00,3,12.7,True,104,119,16,369,6,2,8,MERGED
+931,Hide download response button for non-JSON responses,AndrewBastin,2020-06-11T00:17:10Z,2020-06-11T03:45:46+00:00,1,3.48,True,24,6,2,254,2,0,2,MERGED
+926,fix: environment and collection sync issue with firebase,myussufz,2020-06-07T16:45:09Z,2020-06-08T05:19:14+00:00,3,12.57,True,93,5,12,10,5,1,6,MERGED
+923,GraphQL response options only visible when a response is shown,AndrewBastin,2020-06-05T02:44:22Z,2020-06-05T04:53:00+00:00,1,2.14,True,2,0,1,113,4,0,4,MERGED
+922,chore(deps): bump firebase from 7.14.6 to 7.15.0,dependabot-preview,2020-06-05T00:28:37Z,2020-06-05T01:41:37+00:00,1,1.22,True,95,95,2,2883,1,0,1,MERGED
+921,chore(deps): bump @nuxtjs/sitemap from 2.3.0 to 2.3.1,dependabot-preview,2020-06-05T00:27:36Z,2020-06-05T01:49:49+00:00,1,1.37,True,15,15,2,2826,2,0,2,MERGED
+919,chore(deps): bump nuxt-i18n from 6.12.1 to 6.12.2,dependabot-preview,2020-06-03T00:31:13Z,2020-06-03T04:41:50+00:00,1,4.18,True,15,8,2,3114,2,0,2,MERGED
+917,chore(deps): bump @nuxtjs/gtm from 2.2.3 to 2.3.0,dependabot-preview,2020-06-02T03:52:52Z,2020-06-02T05:15:17+00:00,1,1.37,True,24,4,2,3153,1,0,1,MERGED
+916,Cancel Request from the Keyboard,AndrewBastin,2020-05-31T18:33:17Z,2020-06-02T06:57:52+00:00,1,36.41,True,7,2,2,148,2,0,2,MERGED
+915,Cancellable Requests,AndrewBastin,2020-05-30T22:32:15Z,2020-05-31T02:10:00+00:00,1,3.63,True,159,81,5,488,2,0,2,MERGED
+895,Added check if content-type header is present for transformResponse,AndrewBastin,2020-05-24T11:40:49Z,2020-05-24T13:34:05+00:00,1,1.89,True,4,3,1,134,1,0,1,MERGED
+893,Some small refactoring,AndrewBastin,2020-05-22T07:15:04Z,2020-05-22T08:56:20+00:00,1,1.69,True,40,48,4,72,2,0,2,MERGED
+889,chore(deps-dev): bump cypress from 4.5.0 to 4.6.0,dependabot-preview,2020-05-21T00:28:12Z,2020-05-21T02:39:05+00:00,2,2.18,True,9,77,2,8234,0,0,0,MERGED
+878,Fix syncing environments,sboulema,2020-05-15T14:44:27Z,2020-05-15T15:57:20+00:00,1,1.21,True,1,1,1,28,2,0,2,MERGED
+876,Make Realtime page URL validations more lenient,AndrewBastin,2020-05-15T06:18:31Z,2020-05-15T15:25:05+00:00,1,9.11,True,9,19,1,176,1,0,1,MERGED
+857,Produce valid output when showing/copying as code,Hydrophobefireman,2020-05-10T15:21:23Z,2020-05-11T08:52:52+00:00,1,17.52,True,13,2,1,0,5,0,5,MERGED
+851,Environment variables in collections,sboulema,2020-05-07T18:57:29Z,2020-05-09T00:48:52+00:00,1,29.86,True,22,12,2,216,6,0,6,MERGED
+847,Add format body option,sboulema,2020-05-06T19:27:23Z,2020-05-07T07:19:10+00:00,5,11.86,True,20,0,2,129,4,1,5,MERGED
+846,Save GraphQL Docs,AndrewBastin,2020-05-05T21:37:42Z,2020-05-06T01:15:48+00:00,1,3.63,True,663,46,4,391,2,0,2,MERGED
+843,feat(i18n): add Chinese Traditional,NoobTW,2020-05-05T07:30:52Z,2020-05-05T11:06:29+00:00,1,3.59,True,292,0,2,0,0,0,0,MERGED
+842,Remove not-deleted index.vue merge file,AndrewBastin,2020-05-04T22:08:07Z,2020-05-05T00:36:06+00:00,1,2.47,True,0,2937,1,97,1,0,1,MERGED
+840,URL Path Parameters #834,sboulema,2020-05-03T11:35:46Z,2020-05-05T17:13:22+00:00,1,53.63,True,65,10,4,439,7,0,7,MERGED
+839,chore(deps): remove stale dependency,jamesgeorge007,2020-05-03T07:37:18Z,2020-05-03T09:38:38+00:00,1,2.02,True,0,462,2,134,1,0,1,MERGED
+838,GraphQL Query Editor Syntax Highlighting,AndrewBastin,2020-05-02T19:48:26Z,2020-05-03T00:44:48+00:00,1,4.94,True,124,11,2,264,1,0,1,MERGED
+835,chore(store): better code structure,jameslahm,2020-05-01T15:06:01Z,2020-05-02T14:51:41+00:00,2,23.76,True,0,24,1,201,2,0,2,MERGED
+828,Add ability to navigate through message history,jinyus,2020-04-30T06:43:16Z,2020-04-30T09:46:19+00:00,1,3.05,True,38,4,1,105,5,0,5,MERGED
+820,Realtime SocketIO support for json user input,feydan,2020-04-28T20:29:00Z,2020-04-28T23:51:40+00:00,1,3.38,True,12,6,1,333,5,0,5,MERGED
+816,chore(deps): bump @nuxtjs/axios from 5.10.1 to 5.10.2,dependabot-preview,2020-04-28T00:17:08Z,2020-04-29T01:01:57+00:00,1,24.75,True,8,8,2,2842,2,0,2,MERGED
+808,chore(deps): bump firebase from 7.14.1 to 7.14.2,dependabot-preview,2020-04-24T00:18:04Z,2020-04-24T01:25:29+00:00,1,1.12,True,32,32,2,2877,3,0,3,MERGED
+807,chore(deps-dev): bump node-sass from 4.13.1 to 4.14.0,dependabot-preview,2020-04-24T00:17:26Z,2020-04-24T01:31:47+00:00,1,1.24,True,24,54,2,3212,4,0,4,MERGED
+806,chore(deps): bump @nuxtjs/sitemap from 2.2.0 to 2.2.1,dependabot-preview,2020-04-24T00:16:29Z,2020-04-24T01:19:20+00:00,1,1.05,True,7,7,2,2688,2,0,2,MERGED
+802,chore(deps): bump nuxt-i18n from 6.9.1 to 6.9.2,dependabot-preview,2020-04-23T00:18:01Z,2020-04-23T02:36:44+00:00,1,2.31,True,8,8,2,2761,2,0,2,MERGED
+800,chore(deps-dev): bump lint-staged from 10.1.6 to 10.1.7,dependabot-preview,2020-04-22T00:20:35Z,2020-04-22T04:12:20+00:00,1,3.86,True,4,4,2,2552,2,0,2,MERGED
+799,chore(deps-dev): bump prettier from 2.0.4 to 2.0.5,dependabot-preview,2020-04-22T00:19:24Z,2020-04-22T04:24:30+00:00,1,4.08,True,4,4,2,3952,2,0,2,MERGED
+798,chore(deps): bump @nuxtjs/axios from 5.9.7 to 5.10.0,dependabot-preview,2020-04-22T00:18:12Z,2020-04-22T04:01:48+00:00,1,3.73,True,14,9,2,3508,1,0,1,MERGED
+797,chore(deps-dev): bump cypress from 4.4.0 to 4.4.1,dependabot-preview,2020-04-21T00:16:09Z,2020-04-21T02:07:24+00:00,1,1.85,True,14510,14510,2,3993,1,0,1,MERGED
+795,Listen to all events in socket.io connection,konradkalemba,2020-04-20T18:51:04Z,2020-04-21T01:04:20+00:00,1,6.22,True,14516,14506,3,170,1,0,1,MERGED
+791,Fix postman import with empty url,nikita240,2020-04-20T04:49:50Z,2020-04-20T13:41:07+00:00,2,8.85,True,4,2,1,117,2,0,2,MERGED
+789,chore(deps-dev): bump lint-staged from 10.1.5 to 10.1.6,dependabot-preview,2020-04-20T00:37:57Z,2020-04-20T01:45:20+00:00,1,1.12,True,16,23,2,2468,1,0,1,MERGED
+782,chore(deps): bump firebase from 7.14.0 to 7.14.1,dependabot-preview,2020-04-17T00:20:30Z,2020-04-17T02:35:26+00:00,1,2.25,True,104,104,2,3073,1,0,1,MERGED
+781,chore(deps): bump yargs-parser from 18.1.2 to 18.1.3,dependabot-preview,2020-04-17T00:18:56Z,2020-04-17T02:43:39+00:00,1,2.41,True,4,4,2,3037,2,0,2,MERGED
+778,chore(deps-dev): bump start-server-and-test from 1.10.11 to 1.11.0,dependabot-preview,2020-04-16T17:21:11Z,2020-04-16T18:34:47+00:00,1,1.23,True,7,7,2,2033,4,0,4,MERGED
+775,chore(deps): bump ace-builds from 1.4.9 to 1.4.11,dependabot-preview,2020-04-16T17:18:21Z,2020-04-16T18:22:29+00:00,1,1.07,True,4,4,2,1741,5,0,5,MERGED
+747,Remove support for legacy extensions,levrik,2020-04-08T10:14:21Z,2020-04-08T16:53:54+00:00,1,6.66,True,7,135,4,85,5,0,5,MERGED
+745,Fix GQL introspection query not sent through extension,levrik,2020-04-07T12:25:10Z,2020-04-07T16:10:07+00:00,1,3.75,True,6,17,1,121,2,0,2,MERGED
+739,Added Portuguese Language (European Portuguese),promatik,2020-04-04T18:53:38Z,2020-04-05T12:21:11+00:00,1,17.46,True,294,0,2,47,1,0,1,MERGED
+738,Improve pt-br translations,gugacavalieri,2020-04-04T15:47:07Z,2020-04-05T12:22:21+00:00,1,20.59,True,12,12,1,252,1,0,1,MERGED
+735,chore(deps): bump ace-builds from 1.4.8 to 1.4.9,dependabot-preview,2020-04-03T05:39:55Z,2020-04-03T06:47:57+00:00,1,1.13,True,4,4,2,3137,4,0,4,MERGED
+734,chore(deps): bump firebase from 7.13.1 to 7.13.2,dependabot-preview,2020-04-03T05:38:44Z,2020-04-03T06:57:55+00:00,3,1.32,True,94,94,2,2272,6,0,6,MERGED
+715,Turkish Language Updated.,buraksakalli,2020-03-27T14:23:11Z,2020-03-28T00:46:45+00:00,2,10.39,True,235,41,1,75,3,0,3,MERGED
+693,Fix raw input (JSON),leomp12,2020-03-20T18:54:13Z,2020-03-22T04:31:40+00:00,1,33.62,True,20,14,1,860,17,0,17,MERGED
+681,Fix setting default raw params,leomp12,2020-03-17T19:37:00Z,2020-03-17T21:31:47+00:00,1,1.91,True,15,17,1,397,2,0,2,MERGED
+662,Added Support for MQTT,rahulnpadalkar,2020-03-11T17:52:00Z,2020-03-11T18:58:57+00:00,1,1.12,True,284,6,6,315,5,0,5,MERGED
+660,chore(deps): bump yargs-parser from 18.0.0 to 18.1.0,dependabot-preview,2020-03-11T10:46:46Z,2020-03-11T14:21:59+00:00,1,3.59,True,4,4,2,2207,3,0,3,MERGED
+653,chore(deps): bump yargs-parser from 17.0.0 to 18.0.0,dependabot-preview,2020-03-07T00:15:44Z,2020-03-07T02:37:31+00:00,1,2.36,True,4,4,2,3353,3,0,3,MERGED
+650,Added the ability to prettify GraphQL queries,AndrewBastin,2020-03-05T20:03:19Z,2020-03-06T01:22:47+00:00,1,5.32,True,32,0,3,504,2,0,2,MERGED
+648,Add http/https support to socketio url valid,moonrailgun,2020-03-05T03:32:54Z,2020-03-05T04:49:02+00:00,1,1.27,True,27,14,2,171,2,0,2,MERGED
+640,Feature: add socket io support,moonrailgun,2020-03-04T07:03:26Z,2020-03-04T10:13:52+00:00,2,3.17,True,570,91,10,261,4,0,4,MERGED
+631,Minor GraphQL page improvements,dihmeetree,2020-02-29T16:48:17Z,2020-02-29T19:09:51+00:00,1,2.36,True,38,9,3,619,5,0,5,MERGED
+629,Ignore empty GQL Variable Strings,AndrewBastin,2020-02-29T01:20:11Z,2020-02-29T16:56:52+00:00,2,15.61,True,1,1,1,83,2,0,2,MERGED
+628,chore(deps-dev): bump cypress from 4.0.2 to 4.1.0,dependabot-preview,2020-02-29T00:16:43Z,2020-03-01T06:49:46+00:00,1,30.55,True,17,108,2,5001,8,0,8,MERGED
+627,chore(deps): bump nuxt-i18n from 6.5.0 to 6.6.0,dependabot-preview,2020-02-29T00:15:53Z,2020-03-01T02:36:35+00:00,1,26.34,True,12,12,2,3280,6,0,6,MERGED
+626,chore(deps): bump firebase from 7.9.1 to 7.9.3,dependabot-preview,2020-02-29T00:15:13Z,2020-02-29T19:22:29+00:00,1,19.12,True,153,153,2,2252,2,0,2,MERGED
+625,chore(deps): bump @nuxtjs/google-tag-manager from 2.3.1 to 2.3.2,dependabot-preview,2020-02-29T00:14:12Z,2020-02-29T19:33:09+00:00,1,19.32,True,4,4,2,1713,3,0,3,MERGED
+623,test: purge travis,yubathom,2020-02-28T06:21:41Z,2020-02-29T18:50:28+00:00,1,36.48,True,11,26,2,121,6,0,6,MERGED
+620,Added shortcut to quickly run the GraphQL query,AndrewBastin,2020-02-28T02:58:02Z,2020-02-28T20:11:08+00:00,2,17.22,True,46,25,4,171,5,0,5,MERGED
+619,docs: add dmitryyankowski as a contributor,allcontributors,2020-02-28T00:29:04Z,2020-02-28T03:52:18+00:00,1,3.39,True,29,14,2,98,2,0,2,MERGED
+618,Link multiple auth providers,liyasthomas,2020-02-28T00:10:02Z,2020-02-28T03:15:56+00:00,1,3.1,True,354,43,3,144,8,0,8,MERGED
+610,Update proxy information.,NBTX,2020-02-26T23:52:58Z,2020-03-01T02:25:21+00:00,1,74.54,True,53,46,18,0,5,0,5,MERGED
+606,chore(deps-dev): bump lint-staged from 10.0.7 to 10.0.8,dependabot-preview,2020-02-26T02:14:19Z,2020-02-26T07:50:13+00:00,1,5.6,True,4,4,2,2150,3,0,3,MERGED
+605,JSON linting in the code editor,AndrewBastin,2020-02-25T17:21:24Z,2020-02-25T22:48:47+00:00,1,5.46,True,347,9,2,324,4,0,4,MERGED
+603,Added regex to handle url parts,JacobAnavisca,2020-02-25T06:35:50Z,2020-02-26T17:03:28+00:00,1,34.46,True,3128,211,4,16,14,0,14,MERGED
+602,"GraphQL page improvements, and more",dihmeetree,2020-02-25T04:38:25Z,2020-02-26T06:43:01+00:00,4,26.08,True,283,214,12,1331,32,1,33,MERGED
+599,Improve page load/unload experience (remove FOUCs),NBTX,2020-02-25T00:12:32Z,2020-02-25T03:37:14+00:00,3,3.41,True,78,20,6,66,5,1,6,MERGED
+596,Feature: Add prettier/pretty-quick formatting w/ Husky pre-commit,dihmeetree,2020-02-24T18:54:19Z,2020-02-25T12:52:38+00:00,5,17.97,True,3533,3546,86,1133,25,1,26,MERGED
+595,Added settings toggle for enabling/disabling auto scrolling (scrollInto functionality),dihmeetree,2020-02-24T16:02:25Z,2020-02-24T17:53:51+00:00,4,1.86,True,38,6,5,154,12,0,12,MERGED
+594,POST request body editor reacts to the content type,AndrewBastin,2020-02-24T04:31:23Z,2020-02-24T05:44:17+00:00,1,1.22,True,16,1,2,473,5,0,5,MERGED
+591,Environment Mangement,JacobAnavisca,2020-02-23T16:39:35Z,2020-02-24T08:44:18+00:00,9,16.08,True,942,62,11,88,10,6,16,MERGED
+590,GraphQL Query Autocompletion,AndrewBastin,2020-02-23T00:35:51Z,2020-02-23T03:04:09+00:00,2,2.47,True,144,11,3,63,3,0,3,MERGED
+585,chore(deps): bump firebase from 7.8.2 to 7.9.0,dependabot-preview,2020-02-21T06:26:17Z,2020-02-21T07:48:41+00:00,1,1.37,True,19,19,2,2182,3,0,3,MERGED
+583,Adapt extension check to new extensions,levrik,2020-02-20T18:36:53Z,2020-02-21T00:29:16+00:00,1,5.87,True,10,7,3,17,3,0,3,MERGED
+582,Update link to extension repo in README,levrik,2020-02-20T18:22:18Z,2020-02-21T02:43:31+00:00,2,8.35,True,1,1,1,0,7,0,7,MERGED
+578,Refactor/lint,liyasthomas,2020-02-20T02:37:26Z,2020-02-20T04:42:54+00:00,1,2.09,True,89,73,9,0,6,0,6,MERGED
+574,Postman collection parsing,JacobAnavisca,2020-02-15T22:37:36Z,2020-02-17T08:56:13+00:00,1,34.31,True,132,3,2,0,5,0,5,MERGED
+573,Unify Chrome and Firefox extensions,levrik,2020-02-15T19:55:49Z,2020-02-20T02:36:33+00:00,3,102.68,True,29,0,2,386,8,0,8,MERGED
+572,fix: drop the toast which doesn't show up,jamesgeorge007,2020-02-15T06:34:32Z,2020-02-15T08:10:49+00:00,4,1.6,True,1,1,1,109,3,1,4,MERGED
+571,:sparkles: Native share + updated meta description,liyasthomas,2020-02-15T04:27:02Z,2020-02-15T06:12:19+00:00,2,1.75,True,32,8,4,0,4,1,5,MERGED
+570,chore(deps): bump firebase from 7.8.1 to 7.8.2,dependabot-preview,2020-02-15T00:15:35Z,2020-02-15T01:43:00+00:00,1,1.46,True,11,11,2,2104,3,0,3,MERGED
+569,chore(deps-dev): bump cypress from 4.0.1 to 4.0.2,dependabot-preview,2020-02-15T00:14:41Z,2020-02-15T01:22:33+00:00,1,1.13,True,4,4,2,3270,2,0,2,MERGED
+568,Added create collection and save request syncs,JacobAnavisca,2020-02-13T05:02:51Z,2020-02-13T09:58:32+00:00,1,4.93,True,24,0,2,275,4,0,4,MERGED
+566,Moved common headers to a separate file,AndrewBastin,2020-02-10T23:15:22Z,2020-02-11T12:16:07+00:00,3,13.01,True,129,248,3,68,9,0,9,MERGED
+565,chore(deps-dev): bump cypress from 4.0.0 to 4.0.1,dependabot-preview,2020-02-10T22:31:30Z,2020-02-11T01:30:52+00:00,1,2.99,True,4,4,2,3109,3,0,3,MERGED
+556,Fixed typo in translation file for Auto theme,AndrewBastin,2020-02-06T17:51:23Z,2020-02-07T01:32:07+00:00,1,7.68,True,1,1,1,68,2,0,2,MERGED
+551,Added toggle to decide whether extensions should be used,AndrewBastin,2020-02-04T18:17:01Z,2020-02-05T18:34:21+00:00,5,24.29,True,44,12,4,176,7,1,8,MERGED
+548,fix(chore): Take letter casing into account while checking for duplicate collection,jamesgeorge007,2020-02-03T12:13:27Z,2020-02-03T13:17:42+00:00,1,1.07,True,2,2,1,11,2,0,2,MERGED
+543,Refactor,liyasthomas,2020-01-31T00:51:18Z,2020-02-01T18:14:55+00:00,4,41.39,True,118,158,6,105,14,4,18,MERGED
+534,Updated GraphQL Query Variable Editor,AndrewBastin,2020-01-30T01:48:53Z,2020-01-30T03:17:46+00:00,1,1.48,True,24,119,3,347,2,0,2,MERGED
+531,Enhancements,jamesgeorge007,2020-01-27T12:59:29Z,2020-01-28T00:41:48+00:00,4,11.71,True,22,20,3,54,7,0,7,MERGED
+526,Update ./lang/*js to ./lang/*ts,Sn005,2020-01-25T11:38:47Z,2020-01-26T04:49:48+00:00,1,17.18,True,11,11,11,173,1,0,1,MERGED
+522,chore(deps): bump nuxt-i18n from 6.4.1 to 6.5.0,dependabot-preview,2020-01-25T00:16:16Z,2020-01-25T03:02:04+00:00,1,2.76,True,12,12,2,2384,4,0,4,MERGED
+521,chore(deps): bump v-tooltip from 2.0.2 to 2.0.3,dependabot-preview,2020-01-25T00:15:29Z,2020-01-25T03:18:24+00:00,1,3.05,True,9,9,2,2634,7,0,7,MERGED
+520,chore(deps-dev): bump cypress from 3.8.2 to 3.8.3,dependabot-preview,2020-01-25T00:14:49Z,2020-01-25T02:17:45+00:00,1,2.05,True,4,4,2,3491,3,0,3,MERGED
+518,Feature/post request tests,nickpalenchar,2020-01-24T18:17:11Z,2020-01-27T00:13:59+00:00,2,53.95,True,264,0,2,746,13,0,13,MERGED
+512,Support for Google Chrome Extension,AndrewBastin,2020-01-22T01:20:04Z,2020-01-23T06:12:58+00:00,3,28.88,True,97,27,5,1928,17,1,18,MERGED
+510,Validate duplicate collections,jamesgeorge007,2020-01-21T11:16:45Z,2020-01-21T14:40:16+00:00,5,3.39,True,6,0,1,11,4,1,5,MERGED
+508,GraphQL query validation based on schema,AndrewBastin,2020-01-19T19:45:03Z,2020-01-20T00:53:54+00:00,1,5.15,True,37,11,2,233,2,0,2,MERGED
+506,Lint and refactor,liyasthomas,2020-01-19T07:08:43Z,2020-01-19T08:34:39+00:00,3,1.43,True,56,54,6,0,2,1,3,MERGED
+505,Syntax Error marking in GraphQL query editor,AndrewBastin,2020-01-18T09:48:42Z,2020-01-18T17:18:01+00:00,1,7.49,True,134,2,3,92,4,0,4,MERGED
+504,Merge pull request #504 from liyasthomas/dependabot/npm_and_yarn/node-sass-4.13.1,dependabot-preview,2020-01-18T00:15:39Z,2020-01-18T02:33:15+00:00,1,2.29,True,13,13,2,2799,5,0,5,MERGED
+503,chore(deps): bump @nuxtjs/axios from 5.9.2 to 5.9.3,dependabot-preview,2020-01-18T00:14:45Z,2020-01-18T02:04:05+00:00,1,1.82,True,9,15,2,2205,4,0,4,MERGED
+502,chore(deps-dev): bump sass-loader from 8.0.1 to 8.0.2,dependabot-preview,2020-01-18T00:14:02Z,2020-01-18T01:49:19+00:00,1,1.59,True,8,8,2,2079,3,0,3,MERGED
+501,chore(deps): bump ace-builds from 1.4.7 to 1.4.8,dependabot-preview,2020-01-18T00:13:21Z,2020-01-18T01:22:48+00:00,1,1.16,True,4,4,2,3119,2,0,2,MERGED
+500,Refactoring proxy handling to be done in strategies,AndrewBastin,2020-01-17T18:39:57Z,2020-01-18T17:07:27+00:00,5,22.46,True,50,21,4,485,11,5,16,MERGED
+499,💚 Fixed #497,pushrbx,2020-01-17T12:00:48Z,2020-01-17T18:18:22+00:00,3,6.29,True,2,7,1,74,3,1,4,MERGED
+494,Firefox Extension compatibility,AndrewBastin,2020-01-16T16:32:16Z,2020-01-16T18:00:38+00:00,1,1.47,True,29,4,4,1649,3,0,3,MERGED
+487,Network Strategies,AndrewBastin,2020-01-14T05:09:30Z,2020-01-15T01:22:42+00:00,9,20.22,True,39,28,5,870,8,3,11,MERGED
+486,chore(oauth): Added method signatures as per JSDoc conventions,jamesgeorge007,2020-01-11T08:03:32Z,2020-01-11T15:57:44+00:00,6,7.9,True,74,21,1,22,5,1,6,MERGED
+484,Porting (most of) code to typescript,AndrewBastin,2020-01-11T05:18:23Z,2020-01-12T22:34:49+00:00,2,41.27,True,1689,555,53,2502,4,0,4,MERGED
+479,GraphQL Type Highlight and Links,AndrewBastin,2020-01-09T18:40:49Z,2020-01-09T22:59:40+00:00,1,4.31,True,135,9,5,253,2,0,2,MERGED
+476,OAuth 2.0/OIDC Access Token Retrieval Support,reefqi037,2020-01-07T14:23:44Z,2020-01-07T22:12:36+00:00,2,7.81,True,764,8,6,1203,10,0,10,MERGED
+459,i18n(de-DE): improve some translations,gabschne,2019-12-26T00:48:38Z,2019-12-26T03:02:55+00:00,1,2.24,True,15,15,1,462,1,0,1,MERGED
+455,bn-BD i18n,hmtanbir,2019-12-21T04:31:24Z,2019-12-21T15:53:03+00:00,2,11.36,True,96,0,2,18,3,0,3,MERGED
+436,Fixed Issue which uri encodes the share request quest query parameters,asnimansari,2019-12-16T10:27:50Z,2019-12-17T01:18:23+00:00,1,14.84,False,1,4,1,10,3,1,4,CLOSED
+429,⬆️ Bump cypress from 3.7.0 to 3.8.0,dependabot-preview,2019-12-14T00:14:18Z,2019-12-14T02:10:43+00:00,1,1.94,True,4,4,2,5292,2,0,2,MERGED
+410,Fixing bug on request saving,ialexreis,2019-12-08T23:23:06Z,2019-12-11T03:37:37+00:00,1,52.24,True,67,48,3,81,4,0,4,MERGED
+406,⬆️ Bump vue-virtual-scroll-list from 1.4.3 to 1.4.4,dependabot-preview,2019-12-07T00:14:32Z,2019-12-07T01:46:17+00:00,1,1.53,True,4,4,2,2014,4,0,4,MERGED
+404,I18n,yubathom,2019-12-06T19:48:11Z,2019-12-06T21:01:14+00:00,1,1.22,True,81,81,2,0,4,0,4,MERGED
+396,Improving translate for pt-BR,GustavoBezerra,2019-12-04T00:52:51Z,2019-12-06T19:09:49+00:00,2,66.28,True,205,190,10,200,3,0,3,MERGED
+391,App UI,liyasthomas,2019-12-02T11:44:01Z,2019-12-02T17:30:46+00:00,1,5.78,True,108,92,7,15,6,0,6,MERGED
+371,Use GraphQL logo for GraphQL tab,NBTX,2019-11-29T01:49:20Z,2019-11-29T03:12:02+00:00,1,1.38,True,98,1,4,0,2,0,2,MERGED
+366,I18n,liyasthomas,2019-11-28T15:25:18Z,2019-11-28T23:15:44+00:00,4,7.84,True,1151,476,38,10,7,2,9,MERGED
+359,Added Brazilian Portuguese language support,tetri,2019-11-27T18:59:22Z,2019-11-27T23:19:14+00:00,1,4.33,True,9,0,2,128,2,0,2,MERGED
+350,Undo header/param/body param deletion,AndrewBastin,2019-11-27T04:03:56Z,2019-11-27T09:39:56+00:00,1,5.6,True,46,4,2,299,4,0,4,MERGED
+346,Added ability to run GraphQL queries,AndrewBastin,2019-11-26T20:46:44Z,2019-11-26T23:22:57+00:00,1,2.6,True,152,1,2,84,3,0,3,MERGED
+344,♻️ Refactor Functions,athul,2019-11-26T12:52:11Z,2019-11-27T11:52:31+00:00,16,23.01,True,86,88,4,98,19,10,29,MERGED
+343,refactor: minor improvements,jamesgeorge007,2019-11-26T09:12:25Z,2019-11-26T12:14:11+00:00,3,3.03,True,26,27,5,232,3,1,4,MERGED
+341,GraphQL Request Headers,AndrewBastin,2019-11-26T03:54:37Z,2019-11-26T05:07:00+00:00,3,1.21,True,134,1,3,46,5,1,6,MERGED
+334,Minor text fixes to CONTRIBUTING.md,jasdeepgill,2019-11-25T05:43:25Z,2019-11-25T15:12:42+00:00,1,9.49,False,4,4,1,168,5,0,5,CLOSED
+328,⬆️ Bump vue-virtual-scroll-list from 1.4.2 to 1.4.3,dependabot-preview,2019-11-23T00:13:32Z,2019-11-23T03:04:53+00:00,1,2.86,True,4,4,2,2156,1,0,1,MERGED
+322,GraphQL introspection requests now support and respect proxying,AndrewBastin,2019-11-21T16:33:26Z,2019-11-21T18:01:21+00:00,1,1.47,True,27,2,1,37,6,0,6,MERGED
+318,Added button to copy GraphQL schema,AndrewBastin,2019-11-20T18:00:38Z,2019-11-20T21:19:09+00:00,1,3.31,True,20,0,1,79,2,0,2,MERGED
+317,chore(refactor): switch to async/await approach,jamesgeorge007,2019-11-20T12:51:52Z,2019-11-20T14:13:22+00:00,1,1.36,True,64,65,1,32,2,0,2,MERGED
+316,feat: use alpine for Dockerfile,orthros,2019-11-19T18:54:50Z,2019-11-20T00:15:21+00:00,1,5.34,True,5,1,1,52,3,0,3,MERGED
+311,GraphQL Support,AndrewBastin,2019-11-18T01:12:40Z,2019-11-20T06:34:19+00:00,5,53.36,True,376,12,10,773,20,2,22,MERGED
+297,📱 Popovers on mobile devices,liyasthomas,2019-11-13T01:34:06Z,2019-11-13T15:46:56+00:00,1,14.21,True,148,11,9,44,7,0,7,MERGED
+296,"Moved ""Generate code"" section to modal",liyasthomas,2019-11-12T10:42:16Z,2019-11-12T23:20:10+00:00,1,12.63,True,103,88,1,0,5,0,5,MERGED
+295,Minor UI changes,liyasthomas,2019-11-12T04:23:06Z,2019-11-12T05:27:57+00:00,1,1.08,True,874,494,19,25,6,0,6,MERGED
+292,Replace highlight.js with ace editor.,hosseinnedaee,2019-11-09T19:37:02Z,2019-11-12T03:28:52+00:00,12,55.86,True,150,52,7,111,11,3,14,MERGED
+282,"Enhancement: make saving of collections, requests, folder more convenient",elonmir,2019-11-07T15:19:27Z,2019-11-07T16:19:33+00:00,1,1.0,True,4,3,4,165,4,0,4,MERGED
+244,Add brand new logo to the project,caneco,2019-11-02T19:53:22Z,2019-11-03T04:35:27+00:00,1,8.7,True,99,92,17,145,10,0,10,MERGED
+230,Documentation Cleanup,amitd291,2019-10-29T19:40:08Z,2019-10-29T23:47:12+00:00,2,4.12,True,5,5,1,58,3,0,3,MERGED
+220,⬆️ Bump @nuxtjs/google-analytics from 2.2.0 to 2.2.1,dependabot-preview,2019-10-26T00:14:27Z,2019-10-26T01:17:53+00:00,1,1.06,True,5,5,2,2356,2,0,2,MERGED
+215,Re-order sections and add toggle for including authentication in URL,NBTX,2019-10-25T16:16:37Z,2019-10-25T18:40:42+00:00,1,2.4,True,106,68,3,443,5,0,5,MERGED
+214,chore: minor code refactor,jamesgeorge007,2019-10-25T14:55:47Z,2019-10-25T16:30:41+00:00,1,1.58,True,1,3,1,67,2,0,2,MERGED
+213,Fix #212 Clear bearer token value,reefqi037,2019-10-25T02:47:21Z,2019-10-25T06:38:50+00:00,1,3.86,True,2,0,1,0,2,0,2,MERGED
+211,bug: keeping information on page change,breno-pereira,2019-10-24T23:41:11Z,2019-10-26T17:12:52+00:00,1,41.53,True,211,74,4,178,9,0,9,MERGED
+209,Work in Progress: feature/allow-collections-importing,vlad0337187,2019-10-23T20:14:36Z,2019-10-24T13:44:13+00:00,1,17.49,True,780,383,14,361,9,0,9,MERGED
+205,Use returned value from toggle component on change event,hosseinnedaee,2019-10-22T19:37:54Z,2019-10-22T21:26:57+00:00,1,1.82,True,5,5,3,129,2,0,2,MERGED
+199,Fix CORS and mixed content issue,hosseinnedaee,2019-10-19T20:55:06Z,2019-10-20T01:06:55+00:00,4,4.2,True,100,21,4,173,4,1,5,MERGED
+197,Added Tooltips,AndrewBastin,2019-10-18T20:35:17Z,2019-10-18T23:38:19+00:00,1,3.05,True,141,3,7,162,2,0,2,MERGED
+195,feat: semistandard linting,mdt2,2019-10-16T21:37:18Z,2019-10-25T08:25:45+00:00,2,202.81,False,1282,392,22,258,6,0,6,CLOSED
+189,feat: fast url entry,terranblake,2019-10-08T03:32:54Z,2019-11-28T18:39:05+00:00,3,1239.1,False,93,78,3,403,41,2,43,CLOSED
+187,Add quotation marks for generated code,johnhenry,2019-10-05T04:28:41Z,2019-10-05T06:54:24+00:00,1,2.43,True,2,2,1,162,2,0,2,MERGED
+185,Added auto theme,AndrewBastin,2019-10-04T23:50:38Z,2019-10-05T01:41:32+00:00,1,1.85,True,55,1,2,487,3,0,3,MERGED
+184,Add Request name label for every requests,sharath2106,2019-10-04T09:22:37Z,2019-10-07T10:48:26+00:00,6,73.43,True,27,0,2,285,4,3,7,MERGED
+181,Add basic e2e tests,yubathom,2019-10-04T01:42:02Z,2019-10-06T00:16:15+00:00,1,46.57,True,1193,2,9,1010,7,0,7,MERGED
+176,Collections,TheHollidayInn,2019-10-01T22:33:29Z,2019-10-22T09:19:54+00:00,1,490.77,True,915,4,10,274,13,0,13,MERGED
+173,Code Refactoring,edisonaugusthy,2019-10-01T03:49:23Z,2019-10-01T07:47:39+00:00,1,3.97,True,164,138,1,75,2,0,2,MERGED
+172,Added Black Theme,AndrewBastin,2019-09-30T20:25:33Z,2019-09-30T22:17:24+00:00,1,1.86,True,27,0,2,221,4,0,4,MERGED
+171,Update PWA configuration,NBTX,2019-09-29T13:22:02Z,2019-09-29T15:27:10+00:00,1,2.09,True,29,22,1,8,1,0,1,MERGED
+170,Activating Open Collective,monkeywithacupcake,2019-09-27T12:37:03Z,2019-09-27T17:10:05+00:00,1,4.55,True,31,1,1,982,3,0,3,MERGED
+165,add docker,jgroom33,2019-09-25T00:52:47Z,2019-09-25T01:59:45+00:00,1,1.12,True,123,0,4,0,2,0,2,MERGED
+161,clear buttons added,nityanandagohain,2019-09-24T09:33:42Z,2019-09-25T02:53:12+00:00,4,17.32,True,29,0,1,106,3,1,4,MERGED
+160,Fixed bug where hal+json responses are not rendered properly,AndrewBastin,2019-09-23T20:01:46Z,2019-09-23T23:08:15+00:00,1,3.11,True,1,1,1,18,2,0,2,MERGED
+156,Sync path and parameters,hosseinnedaee,2019-09-22T21:28:04Z,2019-09-24T05:35:01+00:00,1,32.12,True,7,19,1,80,6,0,6,MERGED
+154,Post request headers issue resolved,neilveil,2019-09-20T07:49:27Z,2019-09-20T09:42:18+00:00,1,1.88,True,8,0,1,111,3,0,3,MERGED
+153,chore: minor code refactor,jamesgeorge007,2019-09-18T09:03:56Z,2019-09-18T10:09:31+00:00,3,1.09,True,5,5,3,49,12,1,13,MERGED
+152,Sync path and parameters,hosseinnedaee,2019-09-17T21:58:51Z,2019-09-18T08:28:55+00:00,1,10.5,True,61,2,1,0,5,0,5,MERGED
+151,"Auto deploy testing branches, test and report",yubathom,2019-09-17T19:45:54Z,2019-10-03T18:13:40+00:00,2,382.46,False,1295,9,13,1065,11,0,11,CLOSED
+150,sort functionality added in history,nityanandagohain,2019-09-17T18:19:03Z,2019-09-18T03:59:46+00:00,1,9.68,True,61,1,1,71,2,0,2,MERGED
+146,.htaccess file added,realabbas,2019-09-14T15:22:43Z,2019-09-18T06:49:09+00:00,5,87.44,True,19,0,1,191,6,2,8,MERGED
+145,⬆️ Bump yargs-parser from 13.1.1 to 14.0.0,dependabot-preview,2019-09-14T00:17:43Z,2019-09-16T05:52:59+00:00,1,53.59,True,4,4,2,3288,2,0,2,MERGED
+143,⬆️ Bump @nuxtjs/pwa from 3.0.0-beta.16 to 3.0.0-beta.19,dependabot-preview,2019-09-11T11:01:57Z,2019-09-25T14:36:29+00:00,1,339.58,True,40,567,2,3662,5,0,5,MERGED
+142,Code highlighting,JacobAnavisca,2019-09-10T04:34:27Z,2019-09-11T10:59:33+00:00,1,30.42,True,60,20,4,67,7,0,7,MERGED
+140,⬆️ Bump @nuxtjs/pwa from 3.0.0-beta.16 to 3.0.0-beta.17,dependabot-preview,2019-09-07T00:13:54Z,2019-09-11T11:02:00+00:00,1,106.8,False,40,573,2,3248,6,0,6,CLOSED
+138,curl import added,nityanandagohain,2019-09-06T10:55:52Z,2019-09-08T13:44:23+00:00,7,50.81,True,390,29,4,140,5,3,8,MERGED
+132,Copy requests,JacobAnavisca,2019-09-03T04:27:58Z,2019-09-04T00:25:32+00:00,1,19.96,True,104,0,1,0,2,0,2,MERGED
+127,Clear history is now disabled when there aren't any histories,guastallaigor,2019-09-01T17:20:23Z,2019-09-01T23:31:45+00:00,1,6.19,True,1,0,1,141,1,0,1,MERGED
+125,update with PR for issue/bug #100,NileshSP,2019-08-31T02:24:46Z,2019-09-01T23:47:33+00:00,1,45.38,True,12,6,4,408,2,0,2,MERGED
+123,⌨️Add autocomplete widget with command line completion,NBTX,2019-08-31T01:40:53Z,2019-08-31T16:48:08+00:00,2,15.12,True,791,564,5,390,11,0,11,MERGED
+120,Bump nuxt from 2.9.1 to 2.9.2,dependabot-preview,2019-08-31T00:14:44Z,2019-08-31T01:15:51+00:00,1,1.02,True,99,92,2,3291,4,0,4,MERGED
+119,Bump vuex-persist from 2.0.1 to 2.1.0,dependabot-preview,2019-08-31T00:13:49Z,2019-08-31T02:16:49+00:00,3,2.05,True,5,5,2,2692,4,0,4,MERGED
+118,Bind history state and query params of requests,yubathom,2019-08-30T23:46:41Z,2019-08-31T10:49:11+00:00,2,11.04,True,34,4,1,405,8,1,9,MERGED
+117,Add version number to footer and improves .editorconfig,NBTX,2019-08-30T19:03:09Z,2019-08-30T22:38:39+00:00,1,3.59,True,394,313,7,322,2,0,2,MERGED
+116,fix styling issue of send again button,ahmedsayedabdelsalam,2019-08-30T18:53:27Z,2019-08-30T22:23:03+00:00,1,3.49,True,1,0,1,66,1,0,1,MERGED
+96,"Use axios for requests, UI tweaks, and more...",NBTX,2019-08-30T00:18:27Z,2019-08-30T01:20:57+00:00,1,1.04,True,401,66,9,463,8,0,8,MERGED
+89,Websocket log auto scroll to bottom,pmankar,2019-08-28T23:21:45Z,2019-08-29T02:33:02+00:00,2,3.19,True,34,12,3,157,4,0,4,MERGED
+80,Readable GitHub logo,pmankar,2019-08-28T11:11:29Z,2019-08-28T13:32:04+00:00,2,2.34,True,8,2,2,141,5,1,6,MERGED
+72,Enable shareable requests with parameters in url queries,yubathom,2019-08-27T22:20:05Z,2019-08-30T01:56:22+00:00,2,51.6,True,8,0,1,462,14,0,14,MERGED
+64,Added Copy response Button,edisonaugusthy,2019-08-26T06:32:38Z,2019-08-26T08:25:30+00:00,1,1.88,True,22,3,2,26,4,0,4,MERGED
+63,Feature/raw input,nickpalenchar,2019-08-25T21:15:05Z,2019-08-26T05:59:59+00:00,2,8.75,True,61,27,1,0,8,0,8,MERGED
+55,🎨 Add theme support (and settings storage),NBTX,2019-08-25T00:01:14Z,2019-08-25T01:57:33+00:00,2,1.94,True,854,420,15,731,9,0,9,MERGED
+42,Add Share Buttons ,steviebeenz,2019-08-23T22:05:36Z,2019-08-28T00:52:38+00:00,1,98.78,False,8,0,1,0,4,0,4,CLOSED
+34,`Copy Response` Button ,athul,2019-08-23T11:30:59Z,2019-08-23T16:47:28+00:00,1,5.27,False,11,2,1,59,7,0,7,CLOSED
+27,Auto Update Dependencies ,steviebeenz,2019-08-23T05:46:50Z,2019-08-23T13:58:43+00:00,1,8.2,False,2,0,1,72,5,0,5,CLOSED
+20,fix for pwa install issue,NileshSP,2019-08-22T22:26:29Z,2019-08-23T00:50:32+00:00,1,2.4,True,1,1,1,39,2,0,2,MERGED
+10,feat(PWA) make PWA easily installable,steviebeenz,2019-08-22T19:53:26Z,2019-08-23T04:18:59+00:00,1,8.43,False,31,0,1,31,2,0,2,CLOSED
+3,History is persisted in local storage,AndrewBastin,2019-08-22T11:47:22Z,2019-08-22T12:57:28+00:00,1,1.17,True,10,1,1,99,5,0,5,MERGED
+1,Response section expands if hidden when sending a request,AndrewBastin,2019-08-22T09:12:28Z,2019-08-22T10:33:46+00:00,1,1.35,True,3,0,1,337,11,0,11,MERGED
