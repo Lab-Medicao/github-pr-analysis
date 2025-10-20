@@ -339,7 +339,7 @@ Correlação de Spearman: ρ = 0.3509
 
 **RQ07: Descrição do PR vs Número de Revisões**
 
-![RQ07](./docs/rq07_description_vs_reviews.png)
+![RQ07](./docs/charts/rq07_description_vs_reviews.png)
 
 Correlação de Spearman: ρ = 0.1291
 
