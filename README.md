@@ -279,7 +279,7 @@ Todas as correlações reportadas são estatisticamente significantes (p < 0.001
 
 **RQ01: Tamanho do PR vs Feedback Final**
 
-![RQ01](../docs/charts/rq01_size_vs_status.png)
+![RQ01](./docs/charts/rq01_size_vs_status.png)
 
 **Correlação de Spearman: ρ = 0.0109**
 
@@ -289,7 +289,7 @@ Todas as correlações reportadas são estatisticamente significantes (p < 0.001
 
 **RQ02: Tempo de Análise vs Feedback Final**
 
-![RQ02](../docs/charts/rq02_time_vs_status.png)
+![RQ02](./docs/charts/rq02_time_vs_status.png)
 
 Correlação de Spearman: ρ = -0.2571
 
@@ -299,7 +299,7 @@ Correlação de Spearman: ρ = -0.2571
 
 **RQ03: Descrição do PR vs Feedback Final**
 
-![RQ03](../docs/charts/rq03_description_vs_status.png)
+![RQ03](./docs/charts/rq03_description_vs_status.png)
 
 Correlação de Spearman: ρ = -0.0210
 
@@ -309,7 +309,7 @@ Correlação de Spearman: ρ = -0.0210
 
 **RQ04: Interações vs Feedback Final**
 
-![RQ04](../docs/charts/rq04_interactions_vs_status.png)
+![RQ04](./docs/charts/rq04_interactions_vs_status.png)
 
 Correlação de Spearman: ρ = -0.2453
 
@@ -319,7 +319,7 @@ Correlação de Spearman: ρ = -0.2453
 
 **RQ05: Tamanho do PR vs Número de Revisões**
 
-![RQ05](../docs/charts/rq05_size_vs_reviews.png)
+![RQ05](./docs/charts/rq05_size_vs_reviews.png)
 
 Correlação de Spearman: ρ = 0.3419
 
@@ -329,7 +329,7 @@ Correlação de Spearman: ρ = 0.3419
 
 **RQ06: Tempo de Análise vs Número de Revisões**
 
-![RQ06](../docs/charts/rq06_time_vs_reviews.png)
+![RQ06](./docs/charts/rq06_time_vs_reviews.png)
 
 Correlação de Spearman: ρ = 0.3509
 
@@ -339,7 +339,7 @@ Correlação de Spearman: ρ = 0.3509
 
 **RQ07: Descrição do PR vs Número de Revisões**
 
-![RQ07](../docs/charts/rq07_description_vs_reviews.png)
+![RQ07](./docs/rq07_description_vs_reviews.png)
 
 Correlação de Spearman: ρ = 0.1291
 
@@ -349,7 +349,7 @@ Correlação de Spearman: ρ = 0.1291
 
 **RQ08: Interações vs Número de Revisões**
 
-![RQ08](../docs/charts/rq08_interactions_vs_reviews.png)
+![RQ08](./docs/charts/rq08_interactions_vs_reviews.png)
 
 Correlação de Spearman: ρ = 0.5842
 
@@ -361,7 +361,7 @@ Correlação de Spearman: ρ = 0.5842
 
 Geramos gráficos (dashboard, heatmap, barras, violin plots, scatter plots) para facilitar a interpretação dos resultados e evidenciar padrões e correlações relevantes.
 
-![Dashboard Completo](../docs/charts/summary_dashboard.png)
+![Dashboard Completo](./docs/charts/summary_dashboard.png)
 
 **Conteúdo:**
 
@@ -381,7 +381,7 @@ Geramos gráficos (dashboard, heatmap, barras, violin plots, scatter plots) para
 | Tamanho da descrição              | -0.0210        | < 0.001 | Muito fraca                      |
 | Tamanho do PR                     | 0.0109         | < 0.001 | Praticamente nula                |
 
-![Comparação visual das correlações entre grupos de RQs](../docs/charts/correlation_bars.png)
+![Comparação visual das correlações entre grupos de RQs](./docs/charts/correlation_bars.png)
 
 **Painéis:**
 
@@ -405,7 +405,7 @@ _<p style="text-align:center;">Comparação visual das correlações entre grupo
 | Tamanho da descrição   | 0.3419         | < 0.001 | Moderada positiva                |
 | Tamanho do PR          | 0.1291         | < 0.001 | Fraca positiva                   |
 
-![Comparação visual das correlações entre grupos de RQs](../docs/charts/correlation_heatmap.png)
+![Comparação visual das correlações entre grupos de RQs](./docs/charts/correlation_heatmap.png)
 
 _<p style="text-align:center;">Heatmap mostrando todas as correlações de Spearman entre variáveis</p>_
 
@@ -429,7 +429,7 @@ Diferenças Chave: PRs Mergeados vs Não Mergeados
 - Tamanho do PR: Praticamente idêntico (36 vs 38 linhas)
 - Descrição: PRs não mergeados têm descrições 7% mais longas (340 vs 318 chars)
 
-![Comparação das Medianas](../docs/charts/descriptive_comparison.png)
+![Comparação das Medianas](./docs/charts/descriptive_comparison.png)
 
 _<p style="text-align:center;">Comparação das medianas entre PRs mergeadas e não mergeadas</p>_
 
@@ -446,7 +446,7 @@ Como interpretar:
 - Verde = Mergeado
 - Vermelho = Não Mergeado
 
-![Distribuição das Variáveis](../docs/charts/distributions.png)
+![Distribuição das Variáveis](./docs/charts/distributions.png)
 
 _<p style="text-align:center;">Distribuições completas das variáveis principais (violin plots)</p>_
 
@@ -465,7 +465,7 @@ Como interpretar:
 
 ### Relação Entre Variáveis
 
-![Scatter Plots das correlações](../docs/charts/scatter_correlations.png)
+![Scatter Plots das correlações](./docs/charts/scatter_correlations.png)
 
 **4 Painéis:**
 
