@@ -29,13 +29,12 @@ As **Questões de Pesquisa** foram definidas para guiar a investigação e estru
 
 #### 2. Número de Revisões:
 
-| RQ          | Pergunta                                                                      |
-| ----------- | ----------------------------------------------------------------------------- |
-| **RQ05**    | Qual a relação entre o tamanho dos PRs e o número de revisões realizadas?     |
-| **RQ06**    | Qual a relação entre o tempo de análise dos PRs e o número de revisões        |
-| realizadas? |
-| **RQ07**    | Qual a relação entre a descrição dos PRs e o número de revisões realizadas?   |
-| **RQ08**    | Qual a relação entre as interações nos PRs e o número de revisões realizadas? |
+| RQ          | Pergunta                                                                           |
+| ----------- | ---------------------------------------------------------------------------------- |
+| **RQ05**    | Qual a relação entre o tamanho dos PRs e o número de revisões realizadas?          |
+| **RQ06**    | Qual a relação entre o tempo de análise dos PRs e o número de revisões realizadas? |
+| **RQ07**    | Qual a relação entre a descrição dos PRs e o número de revisões realizadas?        |
+| **RQ08**    | Qual a relação entre as interações nos PRs e o número de revisões realizadas?      |
 
 ### 2.2. Hipóteses Informais (Informal Hypotheses – IH)
 
@@ -45,7 +44,7 @@ As **Hipóteses Informais** foram elaboradas a partir das RQs, estabelecendo exp
 
 | IH   | Descrição                                                                                                                                                                                             |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| IH01 | Pull requests maiores tendem a ter menor chance de aprovação, pois aumentam a complexidade da revisão e a probabilidade de conter erros.                                                              |
+| IH01 | PRs maiores tendem a ter menor chance de aprovação, pois aumentam a complexidade da revisão e a probabilidade de conter erros.                                                              |
 | IH02 | Quanto maior o tempo de análise de um PR, maior a chance de ele ser rejeitado ou abandonado, indicando dificuldades ou falta de consenso durante a revisão.                                           |
 | IH03 | PRs com descrições detalhadas têm mais chance de aprovação, porque facilitam a compreensão das mudanças pelos revisores.                                                                              |
 | IH04 | PRs com mais interações (comentários, discussões) tendem a ter maior chance de aprovação, pois mostram engajamento e refinamento colaborativo, embora discussões excessivas possam indicar conflitos. |
@@ -54,10 +53,10 @@ As **Hipóteses Informais** foram elaboradas a partir das RQs, estabelecendo exp
 
 | IH   | Descrição                                                                                                                            |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| IH01 | PRs maiores exigem mais rodadas de revisão, porque os revisores precisam verificar múltiplos pontos do código.                       |
-| IH02 | PRs analisados por longos períodos tendem a passar por mais revisões, já que mais tempo abre espaço para mais iterações e ajustes.   |
-| IH03 | PRs com descrições claras reduzem o número de revisões necessárias, pois os revisores entendem melhor o propósito das mudanças.      |
-| IH04 | Quanto mais interações houver em um PR, maior o número de revisões realizadas, refletindo um processo mais iterativo e colaborativo. |
+| IH05 | PRs maiores exigem mais rodadas de revisão, porque os revisores precisam verificar múltiplos pontos do código.                       |
+| IH06 | PRs analisados por longos períodos tendem a passar por mais revisões, já que mais tempo abre espaço para mais iterações e ajustes.   |
+| IH07 | PRs com descrições claras reduzem o número de revisões necessárias, pois os revisores entendem melhor o propósito das mudanças.      |
+| IH08 | Quanto mais interações houver em um PR, maior o número de revisões realizadas, refletindo um processo mais iterativo e colaborativo. |
 
 ---
 
