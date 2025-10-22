@@ -250,18 +250,13 @@ As métricas foram extraídas e transformadas conforme definido na seção 4.4, 
 
 Analisamos **947.735 Pull Requests**, distribuídos da seguinte forma:
 
-| Métrica                               | Geral | PRs Merged | PRs Não Merged |
-| ------------------------------------- | ----- | ---------- | -------------- |
-| **Tamanho do PR (linhas)**            |       |            |                |
-| - Mediana                             | 37    | 38         | 36             |
-| **Tempo de Análise (horas)**          |       |            |                |
-| - Mediana                             | 48.14 | 33.49      | 147.10         |
-| **Tamanho da Descrição (caracteres)** |       |            |                |
-| - Mediana                             | 324   | 318        | 340            |
-| **Interações (comentários)**          |       |            |                |
-| - Mediana                             | 3     | 3          | 5              |
-| **Número de Revisões**                |       |            |                |
-| - Mediana                             | 2     | 2          | 2              |
+| Métrica                                          | Geral | PRs Merged | PRs Não Merged |
+| -------------------------------------            | ----- | ---------- | -------------- |
+| **Tamanho do PR (linhas)** - Mediana             | 37    | 38         | 36             |
+| **Tempo de Análise (horas)** - Mediana           | 48.14 | 33.49      | 147.10         |
+| **Tamanho da Descrição (caracteres)** - Mediana  | 324   | 318        | 340            |
+| **Interações (comentários)** - Mediana           | 3     | 3          | 5              |
+| **Número de Revisões** - Mediana                 | 2     | 2          | 2              |
 
 **Observações iniciais:**
 
