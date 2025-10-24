@@ -454,8 +454,8 @@ _<p style="text-align:center;">Distribuições completas das variáveis principa
 Como interpretar:
 
 - Largura do violino = densidade
-- Linha preta = mediana
-- Linha pontilhada = média
+- Linhas azuis = quartis (intervalos de 25%, 50% e 75%)
+- Média (μ) e mediana (m) = indicadas numericamente nas legendas dos gráficos
 
 ### Relação Entre Variáveis
 
