@@ -410,8 +410,8 @@ _<p style="text-align:center;">Heatmap mostrando todas as correlações de Spear
 
 Como interpretar:
 
-- Vermelho = correlação negativa
-- Azul = correlação positiva
+- Vermelho = correlação positiva
+- Azul = correlação negativa
 - Intensidade = magnitude da correlação
 
 ### Estatísticas Descritivas
